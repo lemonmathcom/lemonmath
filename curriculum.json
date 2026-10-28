@@ -1,0 +1,56 @@
+{
+  "site": {
+    "name": "Lemonmath",
+    "url": "https://lemonmath.com",
+    "lang": "en",
+    "headline": "Learn math, one clear step at a time.",
+    "tagline": "Short, friendly lessons with worked examples and practice, written in plain English.",
+    "description": "Free math lessons in plain English: clear explanations, worked examples and practice problems with full solutions.",
+    "image": ""
+  },
+  "chapters": [
+    {
+      "id": "quadratics",
+      "title": "Quadratic Functions",
+      "summary": "Graphs, vertices and the discriminant: everything you need to understand parabolas and solve quadratic equations.",
+      "lessons": [
+        {
+          "id": "quadratic-function",
+          "title": "The quadratic function and its graph",
+          "description": "Learn what a quadratic function is, how its parabola opens, and how to find the vertex and axis of symmetry, with worked examples.",
+          "file": "content/ch1/01-quadratic-function.md",
+          "minutes": 15
+        },
+        {
+          "id": "quadratic-equations",
+          "title": "Quadratic equations and the discriminant",
+          "description": "Solve any quadratic equation with the discriminant and the quadratic formula, see why it works, and use Vieta's formulas.",
+          "file": "content/ch1/02-quadratic-equations.md",
+          "minutes": 18
+        }
+      ]
+    },
+    {
+      "id": "triangles",
+      "title": "Solving Triangles",
+      "summary": "Use the law of cosines and the law of sines to find missing sides, angles and areas.",
+      "lessons": [
+        {
+          "id": "law-of-cosines",
+          "title": "The law of cosines",
+          "description": "Use the law of cosines to find a missing side or angle in any triangle. Clear notation, worked examples and practice with solutions.",
+          "file": "content/ch2/01-law-of-cosines.md",
+          "minutes": 12
+        },
+        {
+          "id": "law-of-sines",
+          "title": "The law of sines and the area of a triangle",
+          "description": "Use the law of sines to find sides and the circumradius of a triangle, and learn the area formula with sine. Worked examples and practice.",
+          "file": "content/ch2/02-law-of-sines.md",
+          "minutes": 14
+        }
+      ]
+    }
+  ],
+  "pages": []
+}

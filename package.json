@@ -1,0 +1,18 @@
+{
+  "name": "lemonmath",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lemonmath: math lessons built into plain, fast HTML pages",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "node tools/build.js",
+    "start": "node tools/build.js && node tools/serve.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "katex": "0.19.0",
+    "marked": "18.1.1"
+  }
+}
