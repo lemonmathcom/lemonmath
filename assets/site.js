@@ -1,7 +1,7 @@
 /*
  * Lemonmath: small enhancements.
  * Every page is complete HTML and works without this file. It only adds:
- * the light/dark switch, the mobile menu, lesson search and progress ticks.
+ * the light/dark switch, the mobile menu, search, progress ticks and a language hint.
  */
 (function () {
   'use strict';
@@ -13,6 +13,7 @@
   function $$(s, r) { return Array.prototype.slice.call((r || d).querySelectorAll(s)); }
   function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
   function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  var isVi = root.lang === 'vi';
 
   /* ---------- light / dark ---------- */
   var themeBtn = $('#theme-btn');
@@ -32,7 +33,7 @@
   var sidebar = $('#sidebar');
   var scrim = $('#scrim');
   if (menuBtn && sidebar && scrim) {
-    menuBtn.hidden = false; // CSS shows it on small screens only
+    menuBtn.hidden = false;
     var setMenu = function (open) {
       sidebar.classList.toggle('open', open);
       scrim.hidden = !open;
@@ -43,13 +44,12 @@
     d.addEventListener('keydown', function (e) { if (e.key === 'Escape') setMenu(false); });
   }
 
-  /* ---------- progress (saved in this browser only) ---------- */
+  /* ---------- progress (saved in this browser only; shared by both languages) ---------- */
   var done = [];
   try {
     done = JSON.parse(lsGet('lm-done') || '[]');
     if (!Array.isArray(done)) done = [];
   } catch (e) { done = []; }
-
   function isDone(id) { return done.indexOf(id) !== -1; }
 
   function paint() {
@@ -60,32 +60,24 @@
       if (tick) tick.classList.toggle('on', on);
       if (label) label.hidden = !on;
     });
-
-    $$('.card[data-lessons]').forEach(function (card) {
+    $$('[data-lessons]').forEach(function (card) {
       var ids = card.getAttribute('data-lessons').split(',').filter(Boolean);
+      if (!ids.length) return;
       var n = ids.filter(isDone).length;
-      var pct = ids.length ? Math.round(100 * n / ids.length) : 0;
+      var pct = Math.round(100 * n / ids.length);
       var bar = $('.bar', card);
       var meta = $('.card-meta', card);
-      // Show progress only once the student has finished something in this chapter.
-      if (bar) {
-        bar.hidden = n === 0;
-        $('i', bar).style.width = pct + '%';
-      }
-      if (meta) {
-        meta.textContent = meta.getAttribute('data-base') + (n ? ' · ' + pct + '% complete' : '');
-      }
+      if (bar) { bar.hidden = n === 0; $('i', bar).style.width = pct + '%'; }
+      if (meta) meta.textContent = meta.getAttribute('data-base') + (n ? ' · ' + pct + '% ' + meta.getAttribute('data-complete') : '');
+      var badge = $('.gbadge', card);
+      if (badge && n) badge.textContent = pct + '%';
     });
-
     var start = $('#start-btn');
     if (start && done.length) {
       var links = $$('#nav a[data-lesson]');
+      // on the home page there is no sidebar: continue from the first unfinished lesson we know about
       for (var i = 0; i < links.length; i++) {
-        if (!isDone(links[i].getAttribute('data-lesson'))) {
-          start.setAttribute('href', links[i].getAttribute('href'));
-          start.textContent = 'Continue learning';
-          break;
-        }
+        if (!isDone(links[i].getAttribute('data-lesson'))) { start.setAttribute('href', links[i].getAttribute('href')); break; }
       }
     }
   }
@@ -93,8 +85,13 @@
   var doneBtn = $('#done-btn');
   if (doneBtn) {
     var lessonId = doneBtn.getAttribute('data-lesson');
+    var txt = $('.done-text', doneBtn);
     doneBtn.hidden = false;
-    var syncBtn = function () { doneBtn.setAttribute('aria-pressed', isDone(lessonId) ? 'true' : 'false'); };
+    var syncBtn = function () {
+      var on = isDone(lessonId);
+      doneBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      if (txt) txt.textContent = doneBtn.getAttribute(on ? 'data-on' : 'data-off');
+    };
     doneBtn.addEventListener('click', function () {
       var i = done.indexOf(lessonId);
       if (i === -1) done.push(lessonId); else done.splice(i, 1);
@@ -106,30 +103,74 @@
   }
   paint();
 
-  /* ---------- lesson search ---------- */
-  var search = $('#search');
-  var empty = $('#nav-empty');
-  if (search) {
-    $('.search').hidden = false;
-    var chapters = $$('#nav details.nav-ch');
-    var wasOpen = chapters.map(function (c) { return c.open; });
-
-    search.addEventListener('input', function () {
-      var q = search.value.trim().toLowerCase();
-      var any = false;
-      chapters.forEach(function (det, idx) {
-        var heading = ($('summary', det).textContent || '').toLowerCase();
-        var shown = 0;
-        $$('li', det).forEach(function (li) {
-          var hit = !q || (li.textContent + ' ' + heading).toLowerCase().indexOf(q) !== -1;
-          li.hidden = !hit;
-          if (hit) shown++;
-        });
-        det.hidden = shown === 0;
-        det.open = q ? shown > 0 : wasOpen[idx];
-        if (shown) any = true;
+  /* ---------- search ---------- */
+  var box = $('.searchbox');
+  var input = $('#q');
+  var list = $('#results');
+  if (box && input && list) {
+    box.hidden = false;
+    var base = (root.getAttribute('data-root') || '.').replace(/\/$/, '');
+    var prefix = base === '.' ? '' : base + '/';
+    var index = null, loading = false, active = -1;
+    var fold = function (s) {
+      return String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd');
+    };
+    var load = function (cb) {
+      if (index) return cb();
+      if (loading) return;
+      loading = true;
+      fetch(prefix + 'search-index.json').then(function (r) { return r.json(); }).then(function (j) {
+        index = j.map(function (r) { r.k = fold(r.t + ' ' + r.s); return r; });
+        loading = false; cb();
+      }).catch(function () { loading = false; });
+    };
+    var show = function () {
+      var q = fold(input.value.trim());
+      list.innerHTML = '';
+      active = -1;
+      if (!q || !index) { list.hidden = true; return; }
+      var words = q.split(/\s+/);
+      var hits = index.filter(function (r) { return words.every(function (w) { return r.k.indexOf(w) !== -1; }); }).slice(0, 8);
+      if (!hits.length) {
+        var none = d.createElement('li'); none.className = 'none';
+        none.textContent = isVi ? 'Không tìm thấy kết quả' : 'Nothing found';
+        list.appendChild(none);
+      }
+      hits.forEach(function (r) {
+        var li = d.createElement('li'), a = d.createElement('a'), s = d.createElement('small');
+        a.href = prefix + r.u + '/'; a.textContent = r.t; s.textContent = r.s; a.appendChild(s); li.appendChild(a); list.appendChild(li);
       });
-      if (empty) empty.hidden = any;
+      list.hidden = false;
+    };
+    input.addEventListener('input', function () { load(show); });
+    input.addEventListener('focus', function () { load(show); });
+    input.addEventListener('keydown', function (e) {
+      var items = $$('a', list);
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (!items.length) return;
+        active = (active + (e.key === 'ArrowDown' ? 1 : -1) + items.length) % items.length;
+        items.forEach(function (a, i) { a.classList.toggle('active', i === active); });
+      } else if (e.key === 'Enter' && items.length) {
+        e.preventDefault();
+        location.href = items[active < 0 ? 0 : active].href;
+      } else if (e.key === 'Escape') { list.hidden = true; }
     });
+    d.addEventListener('click', function (e) { if (!box.contains(e.target)) list.hidden = true; });
+  }
+
+  /* ---------- remember the chosen language; gently offer Vietnamese ---------- */
+  var langBtn = $('.lang-btn');
+  if (langBtn) langBtn.addEventListener('click', function () { lsSet('lm-lang', langBtn.getAttribute('data-lang')); });
+  if (!isVi && $('#start-btn') && !lsGet('lm-lang') && /^vi/i.test(navigator.language || '')) {
+    var bar = d.createElement('div');
+    bar.className = 'langbar';
+    bar.innerHTML = '<span>Bạn muốn xem website bằng tiếng Việt?</span>';
+    var a = d.createElement('a'); a.href = langBtn ? langBtn.getAttribute('href') : 'vi/'; a.textContent = 'Xem bằng tiếng Việt';
+    a.addEventListener('click', function () { lsSet('lm-lang', 'vi'); });
+    var x = d.createElement('button'); x.type = 'button'; x.textContent = 'Không, cảm ơn';
+    x.addEventListener('click', function () { lsSet('lm-lang', 'en'); bar.remove(); });
+    bar.appendChild(a); bar.appendChild(x);
+    d.body.insertBefore(bar, d.body.firstChild.nextSibling);
   }
 })();

@@ -1,334 +1,118 @@
-# Hướng dẫn đưa Lemonmath lên GitHub và gắn tên miền lemonmath.com
+# Hướng dẫn cập nhật Lemonmath bản song ngữ (v3)
 
-Phiên bản này **dựng sẵn từng bài thành một trang riêng** (địa chỉ thật như `lemonmath.com/lessons/law-of-sines/`, chữ và công thức đã có sẵn trong trang). Nhờ vậy Google đọc và lập chỉ mục từng bài dễ hơn bản trước.
+Bản này thay đổi giao diện, thêm tiếng Việt tại `lemonmath.com/vi/`, thêm lộ trình toán lớp 1–12 và nội dung Toán lớp 10. Bạn **không cần làm lại** cài đặt GitHub Pages, tên miền hay DNS: kho `lemonmathcom/lemonmath` đang chạy, bạn chỉ thay file bên trong.
 
-Chi phí: **0đ/tháng** ngoài tiền gia hạn tên miền (GitHub Pages miễn phí cho repository công khai).
+Bạn sẽ nhận hai gói nén:
+
+| Gói | Chứa gì | Tải lên khi nào |
+|---|---|---|
+| `1-khung-website.zip` | giao diện và công cụ dựng website | Bước 1 (một lần) |
+| `2-bai-hoc-co-san.zip` | các bài lớp 10 đã viết xong + trang Giới thiệu | Bước 2 |
+
+Thêm thư mục `goi-viet-bai` (17 file lời nhắc) để các tài khoản Claude khác cùng viết nốt các bài còn thiếu (Phần C).
 
 ---
 
-## 1. Cách hoạt động, nói đơn giản
+## Phần A. Cập nhật website lên bản mới
 
-1. Bạn viết bài bằng file văn bản `.md`.
-2. Mỗi lần bạn lưu thay đổi (Commit) trên GitHub, GitHub tự chạy một "máy in" (file `tools/build.js`, chạy trong dịch vụ GitHub Actions). Máy in biến các file `.md` thành các trang HTML hoàn chỉnh, vẽ sẵn công thức.
-3. GitHub đưa các trang vừa in lên website. Mất khoảng 1–3 phút.
+### Bước 1. Xoá những file của bản cũ
 
-Bạn **không cần cài phần mềm nào** trên máy. Việc chạy thử trên máy (mục 9) là tùy chọn.
+Vào https://github.com/lemonmathcom/lemonmath
 
-### Trong bộ file có gì
+1. Bấm vào thư mục **content** → bấm vào thư mục **ch1** → bấm nút **⋯** (ba chấm) góc trên bên phải → **Delete directory** → ô **Commit changes** → **Commit changes** (nút xanh). Làm tương tự với thư mục **ch2**.
+2. Quay về trang đầu của kho, bấm vào file **curriculum.json** → biểu tượng **thùng rác** (Delete file) → **Commit changes**.
+
+### Bước 2. Tải bộ khung mới
+
+1. Giải nén `1-khung-website.zip` trên máy. Bạn sẽ thấy các thư mục `tools`, `assets`, `data`, `_templates` và các file `package.json`, `package-lock.json`, `README.md`, `HUONG-DAN.md`.
+2. Trên trang đầu của kho bấm **Add file → Upload files**.
+3. Dùng chuột **kéo cả các thư mục và file đã giải nén** vào khung (kéo thư mục, không bấm vào trong từng thư mục) để GitHub giữ nguyên cấu trúc thư mục.
+4. Cuộn xuống, bấm **Commit changes**. File trùng tên sẽ được thay bằng bản mới.
+
+> Không cần tải lại thư mục `.github` (nằm trong kho từ lần trước) hay `.gitignore`.
+
+### Bước 3. Tải các bài học có sẵn
+
+1. Giải nén `2-bai-hoc-co-san.zip`. Bạn sẽ thấy thư mục `content`.
+2. **Add file → Upload files**, kéo **thư mục `content`** vào, **Commit changes**.
+
+### Bước 4. Xem kết quả
+
+1. Bấm tab **Actions**. Một dòng mới sẽ chạy: vòng tròn vàng là đang dựng, **dấu ✓ xanh** là xong (khoảng 1–2 phút). Dấu ✗ đỏ là có lỗi: xem Phần D.
+2. Mở https://lemonmath.com (bản tiếng Anh) và https://lemonmath.com/vi/ (bản tiếng Việt). Nếu thấy trang cũ, nhấn **Ctrl + F5** (Mac: **Cmd + Shift + R**).
+
+Các bài chưa có file sẽ tự hiện "sắp ra mắt", website vẫn chạy bình thường.
+
+---
+
+## Phần B. Cấu trúc nội dung (để biết file nào để đâu)
+
+Mỗi bài có **hai file cùng tên**, một tiếng Anh một tiếng Việt:
 
 ```
-lemonmath/
-├── curriculum.json          DANH SÁCH chương và bài (bạn sửa file này khi thêm bài)
-├── content/                 Các bài học viết bằng Markdown (.md)
-│   ├── ch1/  ch2/
-├── assets/                  Giao diện (style.css), script nhỏ (site.js); để hình ảnh vào đây
-├── _templates/              Mẫu bài học và mẫu trang "About"
-├── tools/                   "Máy in": build.js, render.js, serve.js (thường không cần sửa)
-├── .github/workflows/
-│   └── deploy.yml           Lệnh bảo GitHub tự dựng và đăng website
-├── package.json, package-lock.json   Khai báo thư viện cần cho "máy in" (KaTeX, marked)
-├── README.md, HUONG-DAN.md  Giới thiệu và file này
+content/en/g10/functions.md        ← bản tiếng Anh, hiện ở lemonmath.com/grade-10/...
+content/vi/g10/functions.md        ← bản tiếng Việt, hiện ở lemonmath.com/vi/lop-10/...
 ```
 
-Hai thư mục `node_modules/` và `dist/` **không có** trong bộ file và **đừng tải lên** GitHub: chúng tự sinh ra khi dựng.
+- Bài chỉ hiện trên website khi **cả hai file** đều có.
+- Tên file là mã bài (`id`) trong `data/curriculum.json`. **Không đổi tên file**, vì địa chỉ trang dựa vào đó.
+- Muốn sửa nội dung bài: mở file trên GitHub → biểu tượng **bút chì** → sửa → **Commit changes**.
+- Mẫu bài và quy cách viết: `_templates/lesson-template.md` và `_templates/WRITING-SPEC.md`.
 
 ---
 
-## 2. Tạo tài khoản và repository
+## Phần C. Viết nốt các bài còn thiếu bằng nhiều tài khoản
 
-1. Vào https://github.com, chọn **Sign up**, tạo tài khoản và xác nhận email.
-   Tên người dùng (username) sẽ hiện trong địa chỉ tạm `username.github.io`, hãy chọn tên gọn, nghiêm túc.
-2. Bấm dấu **+** ở góc trên bên phải, chọn **New repository**:
-   - **Repository name:** `lemonmath`
-   - **Public** (bắt buộc với gói miễn phí nếu muốn dùng GitHub Pages)
-   - **Không** tích "Add a README file".
-   - Bấm **Create repository**.
+Hiện còn **17 việc** (14 bài viết mới Anh + Việt, và 3 bài chỉ thiếu bản Việt). Danh sách nằm trong thư mục `goi-viet-bai`, mỗi việc là một file `.txt`, tên bắt đầu bằng số thứ tự `01` … `17`. Mỗi file đủ nhỏ cho một lần hỏi.
 
----
+### Cách giao việc cho từng tài khoản
 
-## 3. Bật GitHub Pages bằng GitHub Actions (làm TRƯỚC khi tải file)
+1. Mở file `.txt` (Notepad cũng được), **chọn tất cả (Ctrl + A) → sao chép (Ctrl + C)**.
+2. Mở một cuộc trò chuyện **mới** của Claude, **dán (Ctrl + V)** vào ô chat rồi gửi. Mỗi tài khoản nhận 1–2 file là vừa.
+3. Claude trả về hai khối mã (hoặc hai file tải về) có tên file ở đầu, ví dụ `content/en/g10/dot-product.md`. Chép **toàn bộ nội dung trong khối mã** vào một file mới trên máy và **lưu với đúng tên đó**:
+   - Windows: Notepad → Save As → Encoding chọn **UTF-8** → đặt tên (ví dụ `dot-product.md`), kiểu file chọn **All files**.
+   - Nếu Claude cho tải file, dùng luôn file đó.
+4. Gom file mọi người gửi vào hai thư mục trên máy bạn, giữ đúng tên: `content/en/g10/` và `content/vi/g10/`.
 
-1. Trong repository, vào **Settings** → ở thanh bên chọn **Pages** (nhóm "Code, planning, and automation").
-2. Mục **Build and deployment** → **Source** → chọn **GitHub Actions**.
-3. Nếu GitHub gợi ý các mẫu workflow, **bỏ qua** (bộ file đã có sẵn workflow riêng).
+Các file lời nhắc `01`–`03` (chỉ bản Việt) đã kèm sẵn bản tiếng Anh, nên các tài khoản chỉ cần dịch và biên soạn bản Việt.
 
-Làm bước này trước để lần dựng đầu tiên chạy thành công. Nếu lỡ tải file lên trước, lần chạy đầu sẽ báo lỗi (dấu ✗ đỏ): chỉ cần chọn Source như trên rồi vào tab **Actions**, bấm vào lần chạy bị lỗi và chọn **Re-run all jobs**.
+### Cách lắp ghép lên GitHub
 
----
+1. Vào kho trên GitHub, bấm **content → en → g10**. Bấm **Add file → Upload files**, kéo vào **tất cả file `.md` tiếng Anh** mới → **Commit changes**.
+2. Quay lại, bấm **content → vi → g10**, làm tương tự với các file tiếng Việt.
+3. Tab **Actions** chạy lại. Mỗi bài có đủ cả hai file sẽ hiện trên website.
 
-## 4. Tải file lên
+> Tải file vào **đúng thư mục** quan trọng: hãy bấm vào thư mục `g10` rồi mới Add file → Upload files, GitHub sẽ đặt file vào thư mục đó.
 
-1. Giải nén file zip trên máy.
-2. Ở trang repository (đang trống), bấm liên kết **uploading an existing file**.
-3. Mở thư mục `lemonmath` đã giải nén, chọn **tất cả** file và thư mục **bên trong** rồi kéo thả vào trang GitHub.
-   - Kéo nội dung bên trong, **không** kéo thư mục `lemonmath` bọc ngoài. `curriculum.json` và `package.json` phải nằm ở ngoài cùng của repository.
-   - Hãy dùng Chrome hoặc Edge. Trên macOS, thư mục bắt đầu bằng dấu chấm (`.github`) bị ẩn: nhấn **Cmd + Shift + .** trong Finder để hiện nó.
-4. Đợi tải xong, kéo xuống ô **Commit changes**, bấm **Commit changes**.
-5. **Kiểm tra bắt buộc:** ở trang repository phải thấy thư mục `.github`, bên trong có `workflows/deploy.yml`.
-   Tôi chưa thể thử riêng trình tải lên của GitHub với thư mục bắt đầu bằng dấu chấm, nên nếu `.github` không lên, hãy tạo tay: **Add file → Create new file**, ở ô tên gõ `.github/workflows/deploy.yml` (gõ dấu `/` để tạo thư mục), dán nội dung ở **Phụ lục** cuối file này, rồi **Commit changes**.
+### Kiểm tra trước khi tải lên (khuyên làm)
+
+Nội dung do AI viết cần được giáo viên đọc lại. Bạn là giáo viên toán, hãy xem mỗi bài trên website sau khi dựng xong, nhất là **đáp số các bài tập** và **hình vẽ**. Nếu muốn nhờ kiểm tra tự động trước khi tải lên, gửi các file cho tôi trong cuộc trò chuyện này: tôi kiểm tra công thức, hình vẽ, số bài tập và sự khớp nhau giữa hai ngôn ngữ.
 
 ---
 
-## 5. Theo dõi lần dựng đầu tiên
+## Phần D. Khi Actions báo lỗi đỏ ✗
 
-1. Vào tab **Actions**. Lần chạy tên "Build and deploy website" sẽ có biểu tượng vàng (đang chạy), rồi **✓ xanh** (thành công) sau 1–3 phút.
-2. Vào **Settings → Pages**: GitHub hiện địa chỉ website, dạng `https://username.github.io/lemonmath/`. Mở thử.
-3. Nếu có **✗ đỏ**: bấm vào lần chạy đó → bấm bước **Build the website** để đọc lỗi. Lỗi do bài viết được báo bằng tiếng Việt, kèm tên file (xem mục 10).
+1. Tab **Actions** → bấm vào dòng có ✗ đỏ → bấm **build** → bấm bước **Build the website**.
+2. Các dòng bắt đầu bằng **LỖI:** nói rõ file nào, sai gì. Lỗi thường gặp:
+   - `công thức LaTeX bị lỗi` → có công thức sai (thiếu ngoặc `}`, lệnh không có trong KaTeX). Sửa file đó.
+   - `số dòng mở hộp ":::" khác số dòng đóng` → có hộp `:::` quên đóng.
+   - `:::graph … cần có dòng "alt:"` → hình thiếu dòng mô tả.
+   - `thiếu phần đầu "---"` → file thiếu phần `title`, `description`, `minutes` ở đầu.
+3. Sửa file trên GitHub (bút chì) rồi **Commit changes**; website tự dựng lại.
 
-Trên địa chỉ tạm, website chạy bình thường (mọi liên kết trong trang đều tương đối). Riêng thẻ canonical và sitemap đã trỏ sẵn về `https://lemonmath.com`, nên chỉ có tác dụng đầy đủ sau khi bạn gắn tên miền.
-
----
-
-## 6. Gắn tên miền lemonmath.com
-
-Thứ tự quan trọng. Tài liệu GitHub khuyên **khai báo tên miền với GitHub trước khi trỏ DNS**, để người khác không thể chiếm dùng tên miền của bạn.
-
-### 6.1. Xác minh tên miền (khuyến nghị)
-GitHub khuyên xác minh tên miền để tránh bị chiếm quyền. Tìm hướng dẫn "Verifying your custom domain for GitHub Pages" trên docs.github.com. Về cơ bản bạn thêm một bản ghi **TXT** do GitHub cung cấp vào DNS của tên miền (cách thêm giống mục 6.3).
-
-### 6.2. Khai báo tên miền trong repository
-**Settings → Pages → Custom domain:** nhập `lemonmath.com`, bấm **Save**.
-
-Lưu ý: vì website được đăng bằng GitHub Actions, **file `CNAME` trong repository không có tác dụng**. Tên miền phải khai ở ô Custom domain này. GitHub có thể báo "DNS check unsuccessful" cho tới khi DNS cập nhật xong, đó là bình thường.
-
-### 6.3. Thêm bản ghi DNS tại Nhân Hòa
-
-| Loại | Tên (Host) | Giá trị |
-|------|------------|---------|
-| A | `@` (hoặc để trống) | `185.199.108.153` |
-| A | `@` | `185.199.109.153` |
-| A | `@` | `185.199.110.153` |
-| A | `@` | `185.199.111.153` |
-| AAAA (khuyến nghị) | `@` | `2606:50c0:8000::153` |
-| AAAA (khuyến nghị) | `@` | `2606:50c0:8001::153` |
-| AAAA (khuyến nghị) | `@` | `2606:50c0:8002::153` |
-| AAAA (khuyến nghị) | `@` | `2606:50c0:8003::153` |
-| CNAME | `www` | `username.github.io` (thay `username` bằng tên GitHub của bạn, **không** ghi tên repository) |
-
-(Địa chỉ lấy từ tài liệu chính thức của GitHub, đối chiếu lại trên docs.github.com khi làm vì có thể thay đổi.)
-
-**Vào trang quản lý DNS của Nhân Hòa**, tùy giao diện tài khoản của bạn:
-
-- **Giao diện mới:** đăng nhập https://id.nhanhoa.com/login/do → **Quản lý tên miền** → **Dịch vụ tên miền quốc tế** → ô **Quản lý DNS**. Bản ghi được thêm ở https://zonedns.vn/: bấm vào tên miền, điền **Tên record**, **Loại record**, **Giá trị record**, **TTL** (để mặc định).
-- **Giao diện cũ:** đăng nhập domain.nhanhoa.com (Hà Nội) hoặc hcmdomain.nhanhoa.com (TP.HCM) → **ManageOrders → List/Search Orders** → bấm tên miền → **DNS Management FREE → Manage DNS** → **Add A Record** (để trống **Host Name** cho tên miền gốc).
-
-Bài hướng dẫn của Nhân Hòa: https://nhanhoa.com/tin-tuc/huong-dan-quan-ly-dns-cho-ten-mien.html và https://nhanhoa.com/trang/huong-dan-tro-ip-cho-ten-mien-quoc-te.html
-
-**Lưu ý quan trọng:**
-- Hai bài hướng dẫn trên của Nhân Hòa chỉ mô tả bản ghi **A** và **MX**. Tôi chưa xác nhận được giao diện của họ có cho thêm **AAAA** và **CNAME** hay không. Hãy xem danh sách "Loại record" trong trang của bạn. Nếu không có CNAME, thử tạo 4 bản ghi **A** cho tên `www` với cùng 4 địa chỉ IP ở trên, hoặc nhắn bộ phận hỗ trợ Nhân Hòa và gửi họ bảng trên.
-- **Xóa bản ghi A/AAAA/CNAME cũ** của `@` và `www` đang trỏ nơi khác, kẻo xung đột.
-- **Không xóa bản ghi MX hoặc TXT** nếu bạn đang dùng email theo tên miền.
-- **Không dùng bản ghi wildcard** (`*`): GitHub cảnh báo đây là rủi ro bị chiếm quyền tên miền phụ.
-- Bản ghi chỉ có tác dụng nếu tên miền đang dùng name server của Nhân Hòa. Nếu bạn đã đổi name server sang nơi khác, hãy thêm bản ghi ở nơi đó.
-
-### 6.4. Chờ và kiểm tra
-- GitHub nói DNS có thể mất **tới 24 giờ**, thường nhanh hơn.
-- Kiểm tra: gõ `nslookup lemonmath.com` trong Terminal/PowerShell, kết quả phải có địa chỉ bắt đầu bằng `185.199.`.
-
-### 6.5. Bật HTTPS
-Khi GitHub báo DNS hợp lệ: **Settings → Pages**, tích **Enforce HTTPS** (có thể mất tới 24 giờ mới hiện ra). Sau đó mở https://lemonmath.com để kiểm tra.
+Dòng **CẢNH BÁO** không làm hỏng website, chỉ là gợi ý (ví dụ mô tả dài hơn 160 ký tự).
 
 ---
 
-## 7. Cho Google biết website của bạn
+## Phần E. Việc nên làm sau khi website chạy
 
-Sau khi lemonmath.com chạy ổn:
+1. **Google Search Console** (https://search.google.com/search-console): thêm tài sản `lemonmath.com`, xác minh (cách "Bản ghi DNS" ở Nhân Hòa), rồi vào **Sơ đồ trang web** gửi `sitemap.xml`. Sơ đồ đã có đủ địa chỉ tiếng Anh và tiếng Việt, kèm liên kết giữa hai bản để Google hiển thị đúng ngôn ngữ cho từng người.
+2. Các trang lớp **chưa có bài** (lớp 1–9, 11, 12) được đánh dấu "noindex" để Google không coi là trang nghèo nội dung; khi lớp đó có bài, chúng ta sẽ bật lại.
+3. Thêm lớp mới sau này: ghi bài vào `content/en/gN/` và `content/vi/gN/`, thêm danh sách bài vào `data/curriculum.json` và đổi `"status": "roadmap"` thành `"full"` cho lớp đó. Khi cần, hãy nhờ tôi làm.
+4. Dịch vụ GitHub Pages dành cho nội dung miễn phí phục vụ giáo dục là phù hợp. Nếu sau này bạn thu phí, hãy đọc lại điều khoản của GitHub Pages hoặc chuyển sang dịch vụ khác (thay đổi này không khó vì website là các file tĩnh).
 
-1. Đăng ký **Google Search Console** (miễn phí, search.google.com/search-console), thêm tên miền `lemonmath.com`. Google sẽ yêu cầu xác minh quyền sở hữu, thường bằng một bản ghi **TXT** thêm vào DNS ở Nhân Hòa (cách thêm giống mục 6.3).
-2. Vào mục **Sitemaps**, gửi địa chỉ `https://lemonmath.com/sitemap.xml` (website tự tạo file này mỗi lần dựng).
-3. Dùng công cụ **URL Inspection** để kiểm tra một bài, ví dụ `https://lemonmath.com/lessons/law-of-sines/`, và xem Google có đọc được nội dung và công thức không.
+## Lưu ý về nội dung và bản quyền
 
-Không ai bảo đảm được thứ hạng, và tên miền mới thường cần nhiều tháng để có chỗ đứng. Những bước trên chỉ loại bỏ rào cản kỹ thuật. Nội dung tốt, đầy đủ, viết theo đúng điều học sinh hay tìm kiếm vẫn là yếu tố chính.
-
----
-
-## 8. Hằng ngày: sửa bài, thêm bài
-
-### Sửa một bài
-Repository → thư mục `content` → mở file `.md` → bấm biểu tượng **bút chì** → sửa → **Commit changes**. Theo dõi ở tab **Actions**, 1–3 phút sau website cập nhật (nhấn Ctrl+F5 để tải lại sạch).
-
-### Thêm một bài mới
-1. **Add file → Create new file.** Ô tên gõ ví dụ `content/ch1/03-vertex-form.md`. Dán nội dung từ `_templates/lesson-template.md`, viết bài, **Commit**.
-2. Mở `curriculum.json`, bấm bút chì, thêm một khối vào danh sách `lessons` của chương:
-
-```json
-{
-  "id": "vertex-form",
-  "title": "Vertex form of a quadratic function",
-  "description": "One sentence (about 100-155 characters) that says what the lesson teaches. Google may show it under the title.",
-  "file": "content/ch1/03-vertex-form.md",
-  "minutes": 12
-}
-```
-
-   Nhớ **dấu phẩy** giữa các khối: thiếu hoặc thừa dấu phẩy là lỗi thường gặp nhất.
-3. **Commit changes.**
-
-Giải thích các trường:
-- `id`: là phần địa chỉ của bài, ví dụ `vertex-form` → `lemonmath.com/lessons/vertex-form/`. Chỉ dùng chữ thường không dấu, số và dấu gạch ngang.
-- `description`: mô tả riêng cho từng bài, nên dài khoảng 100–155 ký tự. Nếu bỏ trống, website tạm lấy đoạn đầu của bài và cảnh báo.
-- `title`: tiêu đề bài, hiện ở đầu bài và trên tab trình duyệt.
-
-### **Đừng đổi `id` sau khi đã đăng**
-GitHub Pages **không có chuyển hướng 301 chuẩn**, nên nếu bạn đổi `id` thì địa chỉ cũ thành trang lỗi 404 và bài mất vị trí đã có trên Google. Hãy đặt `id` thật kỹ ngay từ đầu (ngắn, bằng chữ, mô tả đúng nội dung).
-
-### Thêm một chương mới
-Thêm một khối vào danh sách `chapters` trong `curriculum.json`, cùng dạng với các chương đang có (`id`, `title`, `summary`, `lessons`). `summary` nên ≤ 160 ký tự.
-
-### Liên kết giữa các bài
-Viết `[law of cosines](lesson:law-of-cosines)` (dùng `id` của bài). Liên kết tới chương: `[Quadratic Functions](chapter:quadratics)`. Nối các bài liên quan với nhau như vậy giúp học sinh và Google đi từ bài này sang bài khác. Nếu viết sai `id`, lần dựng sẽ báo lỗi để bạn sửa.
-
-### Hình ảnh
-Tải file hình vào thư mục `assets/` (Add file → Upload files), rồi trong bài viết `![mô tả hình bằng tiếng Anh](assets/ten-hinh.png)`. Luôn viết phần mô tả (alt). Nên nén hình nhỏ (dưới khoảng 200 KB) trước khi tải lên để trang tải nhanh. Đường dẫn luôn bắt đầu bằng `assets/`, website tự đổi cho đúng từng trang.
-
-### Trang giới thiệu tác giả (nên làm)
-Làm theo hướng dẫn ở đầu file `_templates/about-template.md`. Trang này giúp học sinh và Google biết ai đứng sau Lemonmath, tăng độ tin cậy.
-
-### Cú pháp viết bài
-
-| Muốn viết | Cách gõ |
-|-----------|---------|
-| Công thức trong dòng | `$x^2 + 1$` (không có khoảng trắng sát dấu `$`) |
-| Công thức riêng dòng | `$$ \frac{a}{b} $$` |
-| Dấu đô la (tiền) | `\$5` |
-| Tiêu đề mục | `## Tên mục` (không dùng `#`: tiêu đề bài lấy từ `curriculum.json`) |
-| Danh sách | `- gạch đầu dòng` hoặc `1. đánh số` |
-| In đậm, nghiêng | `**đậm**`, `*nghiêng*` |
-| Bảng | cú pháp bảng Markdown (xem mẫu trong bài 1) |
-
-**Các hộp đặc biệt** (mở bằng `:::loại Tiêu đề`, đóng bằng `:::` ở dòng riêng):
-
-| Loại | Công dụng |
-|------|-----------|
-| `definition` | Định nghĩa (xanh dương) |
-| `theorem` | Định lý, công thức (tím) |
-| `example` | Ví dụ minh họa (xanh lá) |
-| `note` | Ghi chú, tóm tắt (vàng) |
-| `tip` | Mẹo học (xanh ngọc) |
-| `warning` | Lỗi hay gặp (đỏ) |
-| `practice` | Khung luyện tập (cam) |
-| `solution` | Lời giải **gập lại**, học sinh bấm để mở |
-
-Các hộp không lồng vào nhau được.
-
----
-
-## 9. Xem thử trên máy (tùy chọn)
-
-Cần cài **Node.js phiên bản 20 trở lên** (tải ở nodejs.org, bản LTS). Mở Terminal (Windows: PowerShell) trong thư mục `lemonmath` rồi chạy:
-
-```
-npm ci
-npm start
-```
-
-Mở http://localhost:8000 trong trình duyệt. Sau khi sửa bài, nhấn Ctrl+C rồi chạy lại `npm start` (hoặc chạy `npm run build` để chỉ kiểm tra lỗi). Nhấp đôi vào file HTML trong thư mục `dist/` không phải cách xem đúng.
-
-Nếu không muốn cài gì, bỏ qua mục này: sửa bài trực tiếp trên GitHub và xem kết quả trên website.
-
----
-
-## 10. Lỗi thường gặp
-
-Khi dựng bị lỗi, tab **Actions** hiện ✗ đỏ. Bấm vào, mở bước **Build the website**, đọc dòng bắt đầu bằng `LỖI:`. **Website cũ vẫn chạy bình thường** cho tới khi bạn sửa xong và dựng thành công.
-
-| Thông báo hoặc hiện tượng | Nguyên nhân và cách xử lý |
-|---------------------------|---------------------------|
-| `không đọc được curriculum.json` | File sai cú pháp: thiếu/thừa dấu phẩy, thiếu ngoặc. Dòng báo lỗi nói rõ vị trí (line, column). |
-| `không tìm thấy file "content/…"` | Đường dẫn `file` không khớp tên file thật (phân biệt chữ hoa/thường). |
-| `"id" phải gồm chữ thường không dấu…` | `id` có chữ hoa, dấu tiếng Việt hoặc khoảng trắng. |
-| `trùng id bài` | Hai bài có cùng `id`. |
-| `công thức LaTeX bị lỗi: …` | Có công thức sai cú pháp (thiếu `}`, lệnh sai…). Thông báo nêu đoạn công thức và tên file. |
-| `số dòng mở hộp … khác số dòng đóng` | Có hộp `:::loại` mở mà quên đóng bằng `:::` (hoặc ngược lại). |
-| `liên kết "lesson:…" trỏ tới bài không tồn tại` | Sai `id` trong liên kết `[chữ](lesson:id)`. |
-| `"url" … phải có dạng "https://lemonmath.com"` | Sửa mục `url` trong `curriculum.json`, không có dấu `/` ở cuối. |
-| CẢNH BÁO (không làm hỏng việc dựng) | Ví dụ: thiếu `description`, mô tả quá dài, hình thiếu mô tả. Nên sửa để SEO tốt hơn. |
-| Công thức hiện nguyên `$...$` | Có khoảng trắng sát dấu `$` (`$ x $` sai, `$x$` đúng), hoặc dấu `$` đứng ngay trước chữ số (bị hiểu là tiền: viết `\$`). |
-| ✗ đỏ ngay lần đầu, ở bước Setup Pages hoặc Deploy | Chưa chọn Source là **GitHub Actions** (mục 3). Chọn rồi **Re-run all jobs**. |
-| Tab Actions không có gì | Thư mục `.github/workflows/deploy.yml` chưa lên repository (mục 4, bước 5). |
-| Bấm vào địa chỉ tạm thấy 404 | Chờ vài phút sau lần dựng đầu thành công. Kiểm tra Settings → Pages có hiện địa chỉ website không. |
-| "DNS check unsuccessful" trên GitHub | Chờ thêm; kiểm tra lại bản ghi A/CNAME, xóa bản ghi cũ xung đột. |
-| Trang mở bằng địa chỉ tạm bị lệch giao diện | Nhấn Ctrl+F5 để xóa bộ nhớ đệm của trình duyệt. |
-
----
-
-## 11. Giới hạn và lưu ý
-
-- **Điều khoản GitHub Pages:** theo trang giới hạn của GitHub, Pages **không dành cho và không được phép dùng như dịch vụ hosting miễn phí để chạy kinh doanh trực tuyến, trang thương mại điện tử, hoặc trang chủ yếu phục vụ giao dịch thương mại hay phần mềm dịch vụ (SaaS)**, và không nên dùng để xử lý dữ liệu nhạy cảm như mật khẩu hay thẻ tín dụng. Với nội dung học tập miễn phí thì ổn. Nếu sau này thu học phí hoặc bán thuê bao, hãy đọc lại điều khoản và cân nhắc chuyển sang dịch vụ khác (website là file tĩnh nên chuyển khá dễ).
-- **Giới hạn kỹ thuật:** website tối đa 1 GB, băng thông 100 GB/tháng (giới hạn mềm), 10 lần dựng/giờ (giới hạn mềm, không áp dụng khi dùng workflow tùy chỉnh như ở đây).
-- **Không có chuyển hướng 301 và không chỉnh được HTTP header** trên GitHub Pages (theo các thảo luận của GitHub, không phải tài liệu chính thức). Vì vậy hãy giữ địa chỉ bài ổn định.
-- **Repository công khai:** mọi người xem được nội dung và mã nguồn. Hãy quyết định giấy phép cho nội dung (ví dụ thêm file `LICENSE`). Nếu không ghi gì, mặc định tác giả giữ toàn bộ quyền.
-- **Không bao giờ đưa API key hoặc mật khẩu vào repository.**
-- **Tiến độ học** ("Mark as complete") lưu trong trình duyệt của từng học sinh, trên từng thiết bị; chưa có tài khoản đăng nhập.
-- **Phần AI (gia sư, chấm bài):** làm sau, qua một đoạn code nhỏ chạy trên dịch vụ như Cloudflare Workers để giữ API key bí mật.
-- **Tốc độ:** tôi chưa đo trên website thật. Sau khi lên mạng, hãy thử PageSpeed Insights (pagespeed.web.dev) với vài bài.
-- **Tải font và công thức:** KaTeX (font và CSS) được lưu ngay trong website, không tải từ bên thứ ba, nên không phụ thuộc CDN bên ngoài.
-- **Nâng cấp thư viện:** `package.json` ghim phiên bản KaTeX 0.19.0 và marked 18.1.1 để kết quả dựng ổn định. Đừng tự đổi nếu không cần.
-
----
-
-## Phụ lục: nội dung file `.github/workflows/deploy.yml`
-
-Chỉ cần khi thư mục `.github` không lên repository lúc tải file (mục 4, bước 5). Copy nguyên văn, giữ nguyên thụt đầu dòng:
-
-```yaml
-name: Build and deploy website
-
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node
-        uses: actions/setup-node@v7
-        with:
-          node-version: '22'
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build the website
-        run: npm run build
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload the website
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-```
-
----
-
-Nguồn tham khảo: tài liệu "Managing a custom domain for your GitHub Pages site", "Using custom workflows with GitHub Pages", "Configuring a publishing source" và "GitHub Pages limits" trên docs.github.com; hướng dẫn quản lý DNS trên nhanhoa.com.
+- Tên chương, tên bài theo mục lục sách *Kết nối tri thức* và chương trình GDPT 2018; **toàn bộ lời giảng, ví dụ, bài tập là nội dung mới viết**, không sao chép từ sách.
+- Lộ trình lớp 1–9, 11, 12 chỉ tới cấp chương. Nên đối chiếu tên chương với sách giáo khoa bản mới nhất; chỗ nào lệch, sửa trong `data/curriculum.json` (các trường `vi` và `en`).
+- Bạn là giáo viên toán lớp 10: hãy là người duyệt cuối cho mọi bài trước khi giới thiệu rộng rãi.

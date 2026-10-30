@@ -27,15 +27,14 @@ function esc(s) {
     .replace(/"/g, '&quot;');
 }
 
+const figures = require('./figures.js');
+
 const KINDS = {
-  definition: 'Definition',
-  theorem: 'Theorem',
-  example: 'Example',
-  note: 'Note',
-  tip: 'Tip',
-  warning: 'Watch out',
-  practice: 'Practice'
+  en: { definition: 'Definition', theorem: 'Theorem', example: 'Example', note: 'Note', tip: 'Tip', warning: 'Watch out', practice: 'Practice', goals: 'Learning goals', terms: 'Key terms' },
+  vi: { definition: 'Định nghĩa', theorem: 'Định lí', example: 'Ví dụ', note: 'Ghi chú', tip: 'Mẹo', warning: 'Chú ý', practice: 'Luyện tập', goals: 'Mục tiêu bài học', terms: 'Thuật ngữ' }
 };
+const SOLUTION = { en: 'Show solution', vi: 'Xem lời giải' };
+const TERMS_HEAD = { en: ['English', 'Tiếng Việt'], vi: ['Tiếng Việt', 'English'] };
 
 const CODE_RE = /(```[\s\S]*?```|~~~[\s\S]*?~~~|`[^`\n]+`)/g;
 
@@ -63,7 +62,7 @@ function hideMath(text, store) {
   return text;
 }
 
-function blocks(text, parse, restoreCode, warn) {
+function blocks(text, parse, restoreCode, warn, lang, uid) {
   const re = /^:::([a-z]+)[ \t]*([^\n]*)\n([\s\S]*?)^:::[ \t]*$/gm;
   let out = '';
   let last = 0;
@@ -74,15 +73,32 @@ function blocks(text, parse, restoreCode, warn) {
     const title = restoreCode(m[2].trim());
     const body = m[3];
     if (type === 'solution') {
-      out += '<details class="box box-solution"><summary>' + esc(title || 'Show solution') +
+      out += '<details class="box box-solution"><summary>' + esc(title || SOLUTION[lang]) +
         '</summary><div class="box-body">' + parse(body) + '</div></details>';
+    } else if (type === 'graph' || type === 'diagram') {
+      const raw = restoreCode(body);
+      try {
+        out += figures[type](raw, { cls: 'fig-' + type, uid: uid.n++, caption: !!title, captionHtml: parse(title).replace(/^<p>|<\/p>\s*$/g, '') });
+      } catch (e) {
+        throw new Error(':::' + type + ': ' + e.message);
+      }
+    } else if (type === 'terms') {
+      const rows = body.split('\n').map((l) => l.trim()).filter(Boolean).map((l) => {
+        const parts = l.replace(/^[-*]\s*/, '').split(/\s+\|\s+/);
+        if (parts.length < 2) throw new Error('dòng trong :::terms phải có dạng "thuật ngữ | term": "' + l + '"');
+        return '<tr><th scope="row">' + parse(parts[0]).replace(/^<p>|<\/p>\s*$/g, '').trim() + '</th><td>' + parse(parts[1]).replace(/^<p>|<\/p>\s*$/g, '').trim() + '</td>' +
+          (parts[2] ? '<td>' + parse(parts.slice(2).join(' | ')).replace(/^<p>|<\/p>\s*$/g, '').trim() + '</td>' : '') + '</tr>';
+      });
+      const three = rows.some((r) => /<td>.*<td>/.test(r));
+      out += '<aside class="box box-terms"><div class="box-title"><span class="box-kind">' + KINDS[lang].terms + '</span>' + (title ? ' ' + esc(title) : '') +
+        '</div><div class="box-body"><table class="terms"><thead><tr><th scope="col">' + TERMS_HEAD[lang][0] + '</th><th scope="col">' + TERMS_HEAD[lang][1] + '</th>' + (three ? '<th scope="col"></th>' : '') + '</tr></thead><tbody>' + rows.join('') + '</tbody></table></div></aside>';
     } else {
-      if (!KINDS[type]) {
+      if (!KINDS[lang][type]) {
         warn('hộp ":::' + type + '" không có trong danh sách, sẽ hiển thị như hộp note');
         type = 'note';
       }
       out += '<aside class="box box-' + type + '"><div class="box-title"><span class="box-kind">' +
-        KINDS[type] + '</span>' + (title ? ' ' + esc(title) : '') +
+        KINDS[lang][type] + '</span>' + (title ? ' ' + esc(title) : '') +
         '</div><div class="box-body">' + parse(body) + '</div></aside>';
     }
     last = re.lastIndex;
@@ -131,7 +147,8 @@ function render(md, opts) {
   const restoreCode = (s) => s.replace(/⟪C(\d+)⟫/g, (m, i) => codes[+i]);
   const parse = (s) => marked.parse(restoreCode(s), { gfm: true, breaks: false, async: false });
 
-  let html = blocks(text, parse, restoreCode, warn);
+  const lang = opts.lang === 'vi' ? 'vi' : 'en';
+  let html = blocks(text, parse, restoreCode, warn, lang, opts.uid || { n: 1 });
 
   const headings = [];
   html = addHeadingIds(html, store, headings);
