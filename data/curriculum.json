@@ -1,0 +1,1064 @@
+{
+ "site": {
+  "name": "Lemonmath",
+  "url": "https://lemonmath.com"
+ },
+ "grades": [
+  {
+   "n": 1,
+   "status": "roadmap",
+   "chapters": [
+    {
+     "id": "chapter-1",
+     "icon": "number",
+     "vi": "Các số từ 0 đến 10",
+     "en": "Numbers 0 to 10"
+    },
+    {
+     "id": "chapter-2",
+     "icon": "shapes",
+     "vi": "Làm quen với một số hình phẳng",
+     "en": "Getting to know flat shapes"
+    },
+    {
+     "id": "chapter-3",
+     "icon": "plus",
+     "vi": "Phép cộng, phép trừ trong phạm vi 10",
+     "en": "Addition and subtraction within 10"
+    },
+    {
+     "id": "chapter-4",
+     "icon": "cube",
+     "vi": "Làm quen với một số hình khối",
+     "en": "Getting to know solid shapes"
+    },
+    {
+     "id": "chapter-5",
+     "icon": "star",
+     "vi": "Ôn tập học kì I",
+     "en": "Semester 1 review"
+    },
+    {
+     "id": "chapter-6",
+     "icon": "number",
+     "vi": "Các số đến 100",
+     "en": "Numbers to 100"
+    },
+    {
+     "id": "chapter-7",
+     "icon": "ruler",
+     "vi": "Độ dài và đo độ dài",
+     "en": "Length and measuring length"
+    },
+    {
+     "id": "chapter-8",
+     "icon": "plus",
+     "vi": "Phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+     "en": "Addition and subtraction within 100 (no regrouping)"
+    },
+    {
+     "id": "chapter-9",
+     "icon": "clock",
+     "vi": "Thời gian, giờ và lịch",
+     "en": "Time, hours and the calendar"
+    },
+    {
+     "id": "chapter-10",
+     "icon": "star",
+     "vi": "Ôn tập cuối năm",
+     "en": "End-of-year review"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "status": "roadmap",
+   "chapters": [
+    {
+     "id": "chapter-1",
+     "icon": "star",
+     "vi": "Ôn tập và bổ sung",
+     "en": "Review and extension"
+    },
+    {
+     "id": "chapter-2",
+     "icon": "plus",
+     "vi": "Phép cộng, phép trừ trong phạm vi 20",
+     "en": "Addition and subtraction within 20"
+    },
+    {
+     "id": "chapter-3",
+     "icon": "scale",
+     "vi": "Làm quen với khối lượng, dung tích",
+     "en": "Mass and capacity"
+    },
+    {
+     "id": "chapter-4",
+     "icon": "plus",
+     "vi": "Phép cộng, phép trừ có nhớ trong phạm vi 100",
+     "en": "Addition and subtraction with regrouping within 100"
+    },
+    {
+     "id": "chapter-5",
+     "icon": "shapes",
+     "vi": "Làm quen với hình phẳng",
+     "en": "Flat shapes"
+    },
+    {
+     "id": "chapter-6",
+     "icon": "clock",
+     "vi": "Ngày – giờ, giờ – phút, ngày – tháng",
+     "en": "Days, hours, minutes and dates"
+    },
+    {
+     "id": "chapter-7",
+     "icon": "star",
+     "vi": "Ôn tập học kì I",
+     "en": "Semester 1 review"
+    },
+    {
+     "id": "chapter-8",
+     "icon": "times",
+     "vi": "Phép nhân, phép chia",
+     "en": "Multiplication and division"
+    },
+    {
+     "id": "chapter-9",
+     "icon": "cube",
+     "vi": "Làm quen với hình khối",
+     "en": "Solid shapes"
+    },
+    {
+     "id": "chapter-10",
+     "icon": "number",
+     "vi": "Các số trong phạm vi 1000",
+     "en": "Numbers within 1000"
+    },
+    {
+     "id": "chapter-11",
+     "icon": "ruler",
+     "vi": "Độ dài và đơn vị đo độ dài. Tiền Việt Nam",
+     "en": "Length units and Vietnamese money"
+    },
+    {
+     "id": "chapter-12",
+     "icon": "plus",
+     "vi": "Phép cộng, phép trừ trong phạm vi 1000",
+     "en": "Addition and subtraction within 1000"
+    },
+    {
+     "id": "chapter-13",
+     "icon": "dice",
+     "vi": "Làm quen với yếu tố thống kê, xác suất",
+     "en": "First steps in statistics and probability"
+    },
+    {
+     "id": "chapter-14",
+     "icon": "star",
+     "vi": "Ôn tập cuối năm",
+     "en": "End-of-year review"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "status": "roadmap",
+   "chapters": [
+    {
+     "id": "chapter-1",
+     "icon": "star",
+     "vi": "Ôn tập và bổ sung",
+     "en": "Review and extension"
+    },
+    {
+     "id": "chapter-2",
+     "icon": "times",
+     "vi": "Bảng nhân, bảng chia",
+     "en": "Multiplication and division tables"
+    },
+    {
+     "id": "chapter-3",
+     "icon": "cube",
+     "vi": "Làm quen với hình phẳng, hình khối",
+     "en": "Flat shapes and solid shapes"
+    },
+    {
+     "id": "chapter-4",
+     "icon": "times",
+     "vi": "Phép nhân, phép chia trong phạm vi 100",
+     "en": "Multiplication and division within 100"
+    },
+    {
+     "id": "chapter-5",
+     "icon": "scale",
+     "vi": "Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ",
+     "en": "Units of length, mass, capacity and temperature"
+    },
+    {
+     "id": "chapter-6",
+     "icon": "times",
+     "vi": "Phép nhân, phép chia trong phạm vi 1000",
+     "en": "Multiplication and division within 1000"
+    },
+    {
+     "id": "chapter-7",
+     "icon": "star",
+     "vi": "Ôn tập học kì I",
+     "en": "Semester 1 review"
+    },
+    {
+     "id": "chapter-8",
+     "icon": "number",
+     "vi": "Các số đến 10 000",
+     "en": "Numbers to 10 000"
+    },
+    {
+     "id": "chapter-9",
+     "icon": "ruler",
+     "vi": "Chu vi, diện tích một số hình phẳng",
+     "en": "Perimeter and area of flat shapes"
+    },
+    {
+     "id": "chapter-10",
+     "icon": "times",
+     "vi": "Cộng, trừ, nhân, chia trong phạm vi 10 000",
+     "en": "Adding, subtracting, multiplying and dividing within 10 000"
+    },
+    {
+     "id": "chapter-11",
+     "icon": "number",
+     "vi": "Các số đến 100 000",
+     "en": "Numbers to 100 000"
+    },
+    {
+     "id": "chapter-12",
+     "icon": "plus",
+     "vi": "Cộng, trừ trong phạm vi 100 000",
+     "en": "Addition and subtraction within 100 000"
+    },
+    {
+     "id": "chapter-13",
+     "icon": "clock",
+     "vi": "Xem đồng hồ, tháng – năm, tiền Việt Nam",
+     "en": "Clocks, months, years and Vietnamese money"
+    },
+    {
+     "id": "chapter-14",
+     "icon": "times",
+     "vi": "Nhân, chia trong phạm vi 100 000",
+     "en": "Multiplication and division within 100 000"
+    },
+    {
+     "id": "chapter-15",
+     "icon": "dice",
+     "vi": "Làm quen với yếu tố thống kê, xác suất",
+     "en": "First steps in statistics and probability"
+    },
+    {
+     "id": "chapter-16",
+     "icon": "star",
+     "vi": "Ôn tập cuối năm",
+     "en": "End-of-year review"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "status": "roadmap",
+   "chapters": [
+    {
+     "id": "chapter-1",
+     "icon": "star",
+     "vi": "Ôn tập và bổ sung",
+     "en": "Review and extension"
+    },
+    {
+     "id": "chapter-2",
+     "icon": "angle",
+     "vi": "Góc và đơn vị đo góc",
+     "en": "Angles and angle units"
+    },
+    {
+     "id": "chapter-3",
+     "icon": "number",
+     "vi": "Số có nhiều chữ số",
+     "en": "Multi-digit numbers"
+    },
+    {
+     "id": "chapter-4",
+     "icon": "ruler",
+     "vi": "Một số đơn vị đo đại lượng",
+     "en": "Units of measurement"
+    },
+    {
+     "id": "chapter-5",
+     "icon": "plus",
+     "vi": "Phép cộng, phép trừ",
+     "en": "Addition and subtraction"
+    },
+    {
+     "id": "chapter-6",
+     "icon": "angle",
+     "vi": "Đường thẳng vuông góc. Đường thẳng song song",
+     "en": "Perpendicular and parallel lines"
+    },
+    {
+     "id": "chapter-7",
+     "icon": "star",
+     "vi": "Ôn tập học kì 1",
+     "en": "Semester 1 review"
+    },
+    {
+     "id": "chapter-8",
+     "icon": "times",
+     "vi": "Phép nhân và phép chia",
+     "en": "Multiplication and division"
+    },
+    {
+     "id": "chapter-9",
+     "icon": "dice",
+     "vi": "Làm quen với yếu tố thống kê, xác suất",
+     "en": "First steps in statistics and probability"
+    },
+    {
+     "id": "chapter-10",
+     "icon": "fraction",
+     "vi": "Phân số",
+     "en": "Fractions"
+    },
+    {
+     "id": "chapter-11",
+     "icon": "fraction",
+     "vi": "Phép cộng, phép trừ phân số",
+     "en": "Adding and subtracting fractions"
+    },
+    {
+     "id": "chapter-12",
+     "icon": "fraction",
+     "vi": "Phép nhân, phép chia phân số",
+     "en": "Multiplying and dividing fractions"
+    },
+    {
+     "id": "chapter-13",
+     "icon": "star",
+     "vi": "Ôn tập cuối năm",
+     "en": "End-of-year review"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "status": "roadmap",
+   "chapters": [
+    {
+     "id": "chapter-1",
+     "icon": "star",
+     "vi": "Ôn tập và bổ sung",
+     "en": "Review and extension"
+    },
+    {
+     "id": "chapter-2",
+     "icon": "percent",
+     "vi": "Số thập phân",
+     "en": "Decimals"
+    },
+    {
+     "id": "chapter-3",
+     "icon": "ruler",
+     "vi": "Một số đơn vị đo diện tích",
+     "en": "Units of area"
+    },
+    {
+     "id": "chapter-4",
+     "icon": "fraction",
+     "vi": "Các phép tính với số thập phân",
+     "en": "Operations with decimals"
+    },
+    {
+     "id": "chapter-5",
+     "icon": "ruler",
+     "vi": "Một số hình phẳng. Chu vi và diện tích",
+     "en": "Flat shapes: perimeter and area"
+    },
+    {
+     "id": "chapter-6",
+     "icon": "star",
+     "vi": "Ôn tập học kì 1",
+     "en": "Semester 1 review"
+    },
+    {
+     "id": "chapter-7",
+     "icon": "fraction",
+     "vi": "Tỉ số và các bài toán liên quan",
+     "en": "Ratios and related problems"
+    },
+    {
+     "id": "chapter-8",
+     "icon": "ruler",
+     "vi": "Thể tích. Đơn vị đo thể tích",
+     "en": "Volume and volume units"
+    },
+    {
+     "id": "chapter-9",
+     "icon": "ruler",
+     "vi": "Diện tích và thể tích của một số hình khối",
+     "en": "Surface area and volume of solids"
+    },
+    {
+     "id": "chapter-10",
+     "icon": "clock",
+     "vi": "Số đo thời gian, vận tốc. Chuyển động đều",
+     "en": "Time, speed and uniform motion"
+    },
+    {
+     "id": "chapter-11",
+     "icon": "dice",
+     "vi": "Một số yếu tố thống kê và xác suất",
+     "en": "Statistics and probability"
+    },
+    {
+     "id": "chapter-12",
+     "icon": "star",
+     "vi": "Ôn tập cuối năm",
+     "en": "End-of-year review"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "status": "roadmap",
+   "chapters": [
+    {
+     "id": "chapter-1",
+     "icon": "number",
+     "vi": "Tập hợp các số tự nhiên",
+     "en": "Natural numbers"
+    },
+    {
+     "id": "chapter-2",
+     "icon": "number",
+     "vi": "Tính chia hết trong tập hợp các số tự nhiên",
+     "en": "Divisibility of natural numbers"
+    },
+    {
+     "id": "chapter-3",
+     "icon": "number",
+     "vi": "Số nguyên",
+     "en": "Integers"
+    },
+    {
+     "id": "chapter-4",
+     "icon": "shapes",
+     "vi": "Một số hình phẳng trong thực tiễn",
+     "en": "Flat shapes in real life"
+    },
+    {
+     "id": "chapter-5",
+     "icon": "angle",
+     "vi": "Tính đối xứng của hình phẳng trong tự nhiên",
+     "en": "Symmetry of flat shapes in nature"
+    },
+    {
+     "id": "chapter-6",
+     "icon": "fraction",
+     "vi": "Phân số",
+     "en": "Fractions"
+    },
+    {
+     "id": "chapter-7",
+     "icon": "percent",
+     "vi": "Số thập phân",
+     "en": "Decimals"
+    },
+    {
+     "id": "chapter-8",
+     "icon": "shapes",
+     "vi": "Những hình học cơ bản",
+     "en": "Basic geometry"
+    },
+    {
+     "id": "chapter-9",
+     "icon": "dice",
+     "vi": "Dữ liệu và xác suất thực nghiệm",
+     "en": "Data and experimental probability"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "status": "roadmap",
+   "chapters": [
+    {
+     "id": "chapter-1",
+     "icon": "fraction",
+     "vi": "Số hữu tỉ",
+     "en": "Rational numbers"
+    },
+    {
+     "id": "chapter-2",
+     "icon": "number",
+     "vi": "Số thực",
+     "en": "Real numbers"
+    },
+    {
+     "id": "chapter-3",
+     "icon": "angle",
+     "vi": "Góc và đường thẳng song song",
+     "en": "Angles and parallel lines"
+    },
+    {
+     "id": "chapter-4",
+     "icon": "triangle",
+     "vi": "Tam giác bằng nhau",
+     "en": "Congruent triangles"
+    },
+    {
+     "id": "chapter-5",
+     "icon": "chart",
+     "vi": "Thu thập và biểu diễn dữ liệu",
+     "en": "Collecting and displaying data"
+    },
+    {
+     "id": "chapter-6",
+     "icon": "fraction",
+     "vi": "Tỉ lệ thức và đại lượng tỉ lệ",
+     "en": "Proportions and proportional quantities"
+    },
+    {
+     "id": "chapter-7",
+     "icon": "brackets",
+     "vi": "Biểu thức đại số và đa thức một biến",
+     "en": "Algebraic expressions and polynomials in one variable"
+    },
+    {
+     "id": "chapter-8",
+     "icon": "dice",
+     "vi": "Làm quen với biến cố và xác suất của biến cố",
+     "en": "Events and their probability"
+    },
+    {
+     "id": "chapter-9",
+     "icon": "triangle",
+     "vi": "Quan hệ giữa các yếu tố trong một tam giác",
+     "en": "Relationships between parts of a triangle"
+    },
+    {
+     "id": "chapter-10",
+     "icon": "cube",
+     "vi": "Một số hình khối trong thực tiễn",
+     "en": "Solid shapes in real life"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "status": "roadmap",
+   "chapters": [
+    {
+     "id": "chapter-1",
+     "icon": "brackets",
+     "vi": "Đa thức",
+     "en": "Polynomials"
+    },
+    {
+     "id": "chapter-2",
+     "icon": "brackets",
+     "vi": "Hằng đẳng thức đáng nhớ và ứng dụng",
+     "en": "Algebraic identities and their uses"
+    },
+    {
+     "id": "chapter-3",
+     "icon": "shapes",
+     "vi": "Tứ giác",
+     "en": "Quadrilaterals"
+    },
+    {
+     "id": "chapter-4",
+     "icon": "triangle",
+     "vi": "Định lí Thalès",
+     "en": "Thales' theorem"
+    },
+    {
+     "id": "chapter-5",
+     "icon": "chart",
+     "vi": "Dữ liệu và biểu đồ",
+     "en": "Data and charts"
+    },
+    {
+     "id": "chapter-6",
+     "icon": "fraction",
+     "vi": "Phân thức đại số",
+     "en": "Algebraic fractions"
+    },
+    {
+     "id": "chapter-7",
+     "icon": "function",
+     "vi": "Hàm số và đồ thị",
+     "en": "Functions and graphs"
+    },
+    {
+     "id": "chapter-8",
+     "icon": "dice",
+     "vi": "Mở đầu về tính xác suất của biến cố",
+     "en": "Introduction to probability"
+    },
+    {
+     "id": "chapter-9",
+     "icon": "triangle",
+     "vi": "Tam giác đồng dạng",
+     "en": "Similar triangles"
+    },
+    {
+     "id": "chapter-10",
+     "icon": "cube",
+     "vi": "Một số hình khối trong thực tiễn",
+     "en": "Pyramids in real life"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "status": "roadmap",
+   "chapters": [
+    {
+     "id": "chapter-1",
+     "icon": "equation",
+     "vi": "Phương trình và hệ hai phương trình bậc nhất hai ẩn",
+     "en": "Linear equations and systems in two variables"
+    },
+    {
+     "id": "chapter-2",
+     "icon": "equation",
+     "vi": "Phương trình và bất phương trình bậc nhất một ẩn",
+     "en": "Linear equations and inequalities in one variable"
+    },
+    {
+     "id": "chapter-3",
+     "icon": "root",
+     "vi": "Căn bậc hai và căn bậc ba",
+     "en": "Square roots and cube roots"
+    },
+    {
+     "id": "chapter-4",
+     "icon": "triangle",
+     "vi": "Hệ thức lượng trong tam giác vuông",
+     "en": "Right-triangle trigonometry"
+    },
+    {
+     "id": "chapter-5",
+     "icon": "circle",
+     "vi": "Đường tròn",
+     "en": "Circles"
+    },
+    {
+     "id": "chapter-6",
+     "icon": "function",
+     "vi": "Hàm số y = ax² . Phương trình bậc hai một ẩn",
+     "en": "The function y = ax² and quadratic equations"
+    },
+    {
+     "id": "chapter-7",
+     "icon": "star",
+     "vi": "Tần số và tần số tương đối",
+     "en": "Frequency and relative frequency"
+    },
+    {
+     "id": "chapter-8",
+     "icon": "dice",
+     "vi": "Xác suất của biến cố trong một số mô hình xác suất đơn giản",
+     "en": "Probability in simple models"
+    },
+    {
+     "id": "chapter-9",
+     "icon": "circle",
+     "vi": "Đường tròn ngoại tiếp và đường tròn nội tiếp",
+     "en": "Circumscribed and inscribed circles"
+    },
+    {
+     "id": "chapter-10",
+     "icon": "circle",
+     "vi": "Một số hình khối trong thực tiễn",
+     "en": "Cylinders, cones and spheres"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "status": "full",
+   "chapters": [
+    {
+     "id": "statements-sets",
+     "icon": "set",
+     "vi": "Mệnh đề và tập hợp",
+     "en": "Statements and sets",
+     "summary": {
+      "vi": "Logic cơ bản của toán học và ngôn ngữ tập hợp.",
+      "en": "The basic logic of mathematics and the language of sets."
+     },
+     "lessons": [
+      {
+       "id": "statements",
+       "vi": "Mệnh đề",
+       "en": "Statements (propositions)",
+       "minutes": 15
+      },
+      {
+       "id": "sets-and-set-operations",
+       "vi": "Tập hợp và các phép toán trên tập hợp",
+       "en": "Sets and set operations",
+       "minutes": 18
+      }
+     ]
+    },
+    {
+     "id": "linear-inequalities",
+     "icon": "equation",
+     "vi": "Bất phương trình và hệ bất phương trình bậc nhất hai ẩn",
+     "en": "Linear inequalities and systems in two variables",
+     "summary": {
+      "vi": "Biểu diễn miền nghiệm trên mặt phẳng toạ độ.",
+      "en": "Shading solution regions on the coordinate plane."
+     },
+     "lessons": [
+      {
+       "id": "linear-inequality-two-variables",
+       "vi": "Bất phương trình bậc nhất hai ẩn",
+       "en": "Linear inequalities in two variables",
+       "minutes": 15
+      },
+      {
+       "id": "systems-linear-inequalities",
+       "vi": "Hệ bất phương trình bậc nhất hai ẩn",
+       "en": "Systems of linear inequalities in two variables",
+       "minutes": 18
+      }
+     ]
+    },
+    {
+     "id": "triangle-relations",
+     "icon": "triangle",
+     "vi": "Hệ thức lượng trong tam giác",
+     "en": "Trigonometry in triangles",
+     "summary": {
+      "vi": "Giá trị lượng giác, định lí côsin, định lí sin và diện tích tam giác.",
+      "en": "Trig values, the laws of cosines and sines, and triangle area."
+     },
+     "lessons": [
+      {
+       "id": "trig-ratios-0-180",
+       "vi": "Giá trị lượng giác của một góc từ 0° đến 180°",
+       "en": "Trigonometric values of angles from 0° to 180°",
+       "minutes": 16
+      },
+      {
+       "id": "triangle-relations",
+       "vi": "Hệ thức lượng trong tam giác",
+       "en": "Laws of cosines and sines, and triangle area",
+       "minutes": 20
+      }
+     ]
+    },
+    {
+     "id": "vectors",
+     "icon": "vector",
+     "vi": "Vectơ",
+     "en": "Vectors",
+     "summary": {
+      "vi": "Từ khái niệm vectơ đến tích vô hướng và toạ độ.",
+      "en": "From the idea of a vector to coordinates and the dot product."
+     },
+     "lessons": [
+      {
+       "id": "vector-basics",
+       "vi": "Các khái niệm mở đầu",
+       "en": "Vectors: basic ideas",
+       "minutes": 14
+      },
+      {
+       "id": "vector-sum-difference",
+       "vi": "Tổng và hiệu của hai vectơ",
+       "en": "Sum and difference of two vectors",
+       "minutes": 16
+      },
+      {
+       "id": "scalar-multiplication",
+       "vi": "Tích vectơ với một số",
+       "en": "Multiplying a vector by a number",
+       "minutes": 16
+      },
+      {
+       "id": "vectors-in-coordinates",
+       "vi": "Vectơ trong mặt phẳng toạ độ",
+       "en": "Vectors in the coordinate plane",
+       "minutes": 18
+      },
+      {
+       "id": "dot-product",
+       "vi": "Tích vô hướng của hai vectơ",
+       "en": "The dot product of two vectors",
+       "minutes": 18
+      }
+     ]
+    },
+    {
+     "id": "statistics",
+     "icon": "chart",
+     "vi": "Các số đặc trưng của mẫu số liệu không ghép nhóm",
+     "en": "Summary statistics for ungrouped data",
+     "summary": {
+      "vi": "Số gần đúng, sai số, số trung bình, trung vị, độ lệch chuẩn.",
+      "en": "Approximations, error, mean, median and standard deviation."
+     },
+     "lessons": [
+      {
+       "id": "approximations-errors",
+       "vi": "Số gần đúng và sai số",
+       "en": "Approximate numbers and errors",
+       "minutes": 14
+      },
+      {
+       "id": "central-tendency",
+       "vi": "Các số đặc trưng đo xu thế trung tâm",
+       "en": "Measures of central tendency",
+       "minutes": 16
+      },
+      {
+       "id": "dispersion",
+       "vi": "Các số đặc trưng đo độ phân tán",
+       "en": "Measures of spread",
+       "minutes": 18
+      }
+     ]
+    },
+    {
+     "id": "functions-quadratics",
+     "icon": "function",
+     "vi": "Hàm số, đồ thị và ứng dụng",
+     "en": "Functions, graphs and applications",
+     "summary": {
+      "vi": "Hàm số, hàm bậc hai, dấu tam thức và phương trình quy về bậc hai.",
+      "en": "Functions, the quadratic function, sign of quadratics and related equations."
+     },
+     "lessons": [
+      {
+       "id": "functions",
+       "vi": "Hàm số",
+       "en": "Functions",
+       "minutes": 16
+      },
+      {
+       "id": "quadratic-function",
+       "vi": "Hàm số bậc hai",
+       "en": "The quadratic function",
+       "minutes": 18
+      },
+      {
+       "id": "sign-of-quadratic",
+       "vi": "Dấu của tam thức bậc hai",
+       "en": "Sign of a quadratic expression",
+       "minutes": 16
+      },
+      {
+       "id": "equations-reducible-quadratic",
+       "vi": "Phương trình quy về phương trình bậc hai",
+       "en": "Equations that reduce to quadratics",
+       "minutes": 14
+      }
+     ]
+    },
+    {
+     "id": "coordinate-geometry",
+     "icon": "coordinate",
+     "vi": "Phương pháp toạ độ trong mặt phẳng",
+     "en": "Coordinate geometry in the plane",
+     "summary": {
+      "vi": "Đường thẳng, đường tròn và ba đường conic.",
+      "en": "Lines, circles and the three conic sections."
+     },
+     "lessons": [
+      {
+       "id": "equation-of-a-line",
+       "vi": "Phương trình đường thẳng",
+       "en": "Equation of a line",
+       "minutes": 18
+      },
+      {
+       "id": "lines-angles-distances",
+       "vi": "Vị trí tương đối giữa hai đường thẳng. Góc và khoảng cách",
+       "en": "Position of two lines, angles and distances",
+       "minutes": 18
+      },
+      {
+       "id": "circles",
+       "vi": "Đường tròn trong mặt phẳng toạ độ",
+       "en": "Circles in the coordinate plane",
+       "minutes": 16
+      },
+      {
+       "id": "conic-sections",
+       "vi": "Ba đường conic",
+       "en": "The three conic sections",
+       "minutes": 20
+      }
+     ]
+    },
+    {
+     "id": "combinatorics",
+     "icon": "tree",
+     "vi": "Đại số tổ hợp",
+     "en": "Combinatorics",
+     "summary": {
+      "vi": "Quy tắc đếm, hoán vị, chỉnh hợp, tổ hợp và nhị thức Newton.",
+      "en": "Counting rules, permutations, combinations and the binomial theorem."
+     },
+     "lessons": [
+      {
+       "id": "counting-rules",
+       "vi": "Quy tắc đếm",
+       "en": "Counting rules",
+       "minutes": 14
+      },
+      {
+       "id": "permutations-combinations",
+       "vi": "Hoán vị, chỉnh hợp và tổ hợp",
+       "en": "Permutations, arrangements and combinations",
+       "minutes": 18
+      },
+      {
+       "id": "binomial-theorem",
+       "vi": "Nhị thức Newton",
+       "en": "The binomial theorem",
+       "minutes": 14
+      }
+     ]
+    },
+    {
+     "id": "probability",
+     "icon": "dice",
+     "vi": "Tính xác suất theo định nghĩa cổ điển",
+     "en": "Classical probability",
+     "summary": {
+      "vi": "Biến cố và cách tính xác suất khi các kết quả đồng khả năng.",
+      "en": "Events and probability when outcomes are equally likely."
+     },
+     "lessons": [
+      {
+       "id": "events-classical-probability",
+       "vi": "Biến cố và định nghĩa cổ điển của xác suất",
+       "en": "Events and the classical definition of probability",
+       "minutes": 16
+      },
+      {
+       "id": "probability-practice",
+       "vi": "Thực hành tính xác suất theo định nghĩa cổ điển",
+       "en": "Practising classical probability",
+       "minutes": 16
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "status": "roadmap",
+   "chapters": [
+    {
+     "id": "chapter-1",
+     "icon": "triangle",
+     "vi": "Hàm số lượng giác và phương trình lượng giác",
+     "en": "Trigonometric functions and equations"
+    },
+    {
+     "id": "chapter-2",
+     "icon": "sigma",
+     "vi": "Dãy số. Cấp số cộng. Cấp số nhân",
+     "en": "Sequences, arithmetic and geometric progressions"
+    },
+    {
+     "id": "chapter-3",
+     "icon": "chart",
+     "vi": "Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm",
+     "en": "Measures of central tendency for grouped data"
+    },
+    {
+     "id": "chapter-4",
+     "icon": "angle",
+     "vi": "Quan hệ song song trong không gian",
+     "en": "Parallel relations in space"
+    },
+    {
+     "id": "chapter-5",
+     "icon": "integral",
+     "vi": "Giới hạn. Hàm số liên tục",
+     "en": "Limits and continuity"
+    },
+    {
+     "id": "chapter-6",
+     "icon": "function",
+     "vi": "Hàm số mũ và hàm số lôgarit",
+     "en": "Exponential and logarithmic functions"
+    },
+    {
+     "id": "chapter-7",
+     "icon": "integral",
+     "vi": "Đạo hàm",
+     "en": "Derivatives"
+    },
+    {
+     "id": "chapter-8",
+     "icon": "angle",
+     "vi": "Quan hệ vuông góc trong không gian",
+     "en": "Perpendicular relations in space"
+    },
+    {
+     "id": "chapter-9",
+     "icon": "dice",
+     "vi": "Quy tắc tính xác suất",
+     "en": "Rules of probability"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "status": "roadmap",
+   "chapters": [
+    {
+     "id": "chapter-1",
+     "icon": "integral",
+     "vi": "Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số",
+     "en": "Using derivatives to study and graph functions"
+    },
+    {
+     "id": "chapter-2",
+     "icon": "vector",
+     "vi": "Vectơ và hệ trục toạ độ trong không gian",
+     "en": "Vectors and coordinates in space"
+    },
+    {
+     "id": "chapter-3",
+     "icon": "chart",
+     "vi": "Các số đặc trưng đo độ phân tán của mẫu số liệu ghép nhóm",
+     "en": "Measures of spread for grouped data"
+    },
+    {
+     "id": "chapter-4",
+     "icon": "integral",
+     "vi": "Nguyên hàm và tích phân",
+     "en": "Antiderivatives and integrals"
+    },
+    {
+     "id": "chapter-5",
+     "icon": "coordinate",
+     "vi": "Phương pháp toạ độ trong không gian",
+     "en": "Coordinate geometry in space"
+    },
+    {
+     "id": "chapter-6",
+     "icon": "dice",
+     "vi": "Xác suất có điều kiện",
+     "en": "Conditional probability"
+    }
+   ]
+  }
+ ]
+}
