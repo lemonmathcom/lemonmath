@@ -32,7 +32,7 @@ const T = {
     ],
     why: 'Vì sao nên làm trên giấy? Khi tự nhớ lại và tự viết lời giải mà không nhìn đáp án, não phải làm việc thật sự, nên kiến thức được nhớ lâu và hiểu sâu hơn so với chỉ đọc lại. Làm lại sau vài ngày giúp nhớ bền hơn nữa.',
     goals: 'Mục tiêu', summary: 'Ghi nhớ', exercises: 'Bài tập', ex: 'Bài', challenge: 'Thử thách',
-    quiz: 'Kiểm tra mini', quizNote: 'Làm trong 15 phút, không xem lại bài. Phần I khoanh một chữ cái; Phần II ghi Đ hoặc S cho từng ý; Phần III ghi đáp số vào ô.', parts: ['Phần I. Trắc nghiệm nhiều phương án lựa chọn', 'Phần II. Trắc nghiệm đúng sai', 'Phần III. Trắc nghiệm trả lời ngắn'], q: 'Câu', score: 'Điểm', TF: 'Đ / S',
+    examTitle: 'Đề bài', examNote: 'Thời gian làm bài 90 phút, không xem tài liệu. Phần I khoanh một chữ cái; Phần II ghi Đ hoặc S cho từng ý; Phần III ghi đáp số vào ô (dấu trừ và dấu phẩy mỗi thứ chiếm một ô).', examSelf: 'Sau khi làm xong', examSelfText: 'Quét mã QR, nhập đáp án trên trang web để được chấm điểm, rồi đọc lời giải của những câu sai. Ghi lại các chuyên đề còn yếu và ôn lại bài ôn tập tương ứng.', quiz: 'Kiểm tra mini', quizNote: 'Làm trong 15 phút, không xem lại bài. Phần I khoanh một chữ cái; Phần II ghi Đ hoặc S cho từng ý; Phần III ghi đáp số vào ô.', parts: ['Phần I. Trắc nghiệm nhiều phương án lựa chọn', 'Phần II. Trắc nghiệm đúng sai', 'Phần III. Trắc nghiệm trả lời ngắn'], q: 'Câu', score: 'Điểm', TF: 'Đ / S',
     hints: 'Gợi ý (chỉ xem khi bí)', selfTitle: 'Tự đánh giá', selfCols: ['Tự làm được', 'Cần gợi ý', 'Chưa làm được'],
     again: 'Làm lại các bài chưa đúng sau:', days: ['1 ngày', '3 ngày', '7 ngày'],
     qr: 'Quét mã để xem lời giải từng bước', free: 'Được in miễn phí cho học tập. Vui lòng giữ nguyên tên Lemonmath.com.',
@@ -51,7 +51,7 @@ const T = {
     ],
     why: 'Why work on paper? Recalling and writing a solution without looking at the answer makes your brain do the real work, so you remember longer and understand more deeply than by re-reading. Redoing it a few days later makes it stick even better.',
     goals: 'Goals', summary: 'Remember', exercises: 'Exercises', ex: 'Exercise', challenge: 'Challenge',
-    quiz: 'Mini test', quizNote: '15 minutes, without looking back at the lesson. Part I: circle one letter; Part II: write T or F for each statement; Part III: write the answer in the box.', parts: ['Part I. Multiple choice', 'Part II. True or false', 'Part III. Short answer'], q: 'Question', score: 'Score', TF: 'T / F',
+    examTitle: 'Questions', examNote: '90 minutes, no notes. Part I: circle one letter; Part II: write T or F for each statement; Part III: write the answer in the boxes (a minus sign and a decimal point each take a box).', examSelf: 'When you have finished', examSelfText: 'Scan the QR code, enter your answers on the website to get your mark, then read the solutions to the questions you got wrong. Note the topics that need more work and go back to the matching revision lesson.', quiz: 'Mini test', quizNote: '15 minutes, without looking back at the lesson. Part I: circle one letter; Part II: write T or F for each statement; Part III: write the answer in the box.', parts: ['Part I. Multiple choice', 'Part II. True or false', 'Part III. Short answer'], q: 'Question', score: 'Score', TF: 'T / F',
     hints: 'Hints (only when stuck)', selfTitle: 'Self-check', selfCols: ['Did it alone', 'Needed a hint', 'Not yet'],
     again: 'Redo the ones you missed after:', days: ['1 day', '3 days', '7 days'],
     qr: 'Scan for step-by-step solutions', free: 'Free to print for learning. Please keep the name Lemonmath.com.',
@@ -97,9 +97,10 @@ function parts(md, lang) {
 function worksheet(o) {
   const L = T[o.lang];
   const p = parts(o.md, o.lang);
-  if (!p.exercises.length) return null;
+  if (!p.exercises.length && !p.quiz.length) return null;
+  const exam = !p.exercises.length;
   const R = (s) => (s ? o.renderMd(s) : '');
-  const qrUrl = o.lessonUrl + '#ex-1';
+  const qrUrl = o.lessonUrl + (exam ? '' : '#ex-1');
 
   const exHtml = p.exercises.map((e, i) => {
     const hard = /thử thách|challenge/i.test(e.title);
@@ -109,7 +110,7 @@ function worksheet(o) {
   let qzHtml = '';
   if (p.quiz.length) {
     const inl = (md) => { const h = R(md).trim(); return /^<p>[\s\S]*<\/p>$/.test(h) && h.indexOf('<p>', 1) === -1 ? h.slice(3, -4) : h; };
-    qzHtml = '<section class="ws-quiz"><h2 class="ws-h2">' + L.quiz + '</h2><p class="ws-qnote">' + L.quizNote + '</p>';
+    qzHtml = '<section class="ws-quiz"><h2 class="ws-h2">' + (exam ? L.examTitle : L.quiz) + '</h2><p class="ws-qnote">' + (exam ? L.examNote : L.quizNote) + '</p>';
     [['mc', 0], ['tf', 1], ['sa', 2]].forEach(([t, pi]) => {
       const list = p.quiz.filter((it) => it.type === t);
       if (!list.length) return;
@@ -137,11 +138,11 @@ function worksheet(o) {
     '<aside class="ws-how"><h2>' + L.howTitle + '</h2><ol>' + L.how.map((h) => '<li>' + h + '</li>').join('') + '</ol><p class="ws-why">' + esc(L.why) + '</p></aside>\n' +
     (p.goals ? '<section class="ws-box"><h2>' + L.goals + '</h2>' + R(p.goals) + '</section>\n' : '') +
     (p.summary ? '<section class="ws-box ws-sum"><h2>' + L.summary + '</h2>' + R(p.summary) + '</section>\n' : '') +
-    '<h2 class="ws-h2">' + L.exercises + '</h2>\n' + exHtml + '\n' +
+    (exam ? '' : '<h2 class="ws-h2">' + L.exercises + '</h2>\n' + exHtml + '\n') +
     qzHtml + '\n' +
-    '<section class="ws-hints"><h2>' + L.hints + '</h2>' + hintHtml + '</section>\n' +
-    '<section class="ws-end"><div class="ws-self"><h2>' + L.selfTitle + '</h2><table><thead><tr><th>#</th>' + L.selfCols.map((c) => '<th>' + c + '</th>').join('') + '</tr></thead><tbody>' + selfRows + '</tbody></table>' +
-    '<p class="ws-again">' + L.again + ' ' + L.days.map((d) => '☐ ' + d).join('&nbsp;&nbsp; ') + '</p></div>' +
+    (exam ? '' : '<section class="ws-hints"><h2>' + L.hints + '</h2>' + hintHtml + '</section>\n') +
+    '<section class="ws-end"><div class="ws-self">' + (exam ? '<h2>' + L.examSelf + '</h2><p>' + L.examSelfText + '</p>' : '<h2>' + L.selfTitle + '</h2><table><thead><tr><th>#</th>' + L.selfCols.map((c) => '<th>' + c + '</th>').join('') + '</tr></thead><tbody>' + selfRows + '</tbody></table>' +
+    '<p class="ws-again">' + L.again + ' ' + L.days.map((d) => '☐ ' + d).join('&nbsp;&nbsp; ') + '</p>') + '</div>' +
     '<div class="ws-qrbox">' + qrSvg(qrUrl) + '<p>' + L.qr + '</p></div></section>\n' +
     '<footer class="ws-foot">lemonmath.com · ' + L.free + '</footer>\n' +
     '</main>';
@@ -151,7 +152,7 @@ function worksheet(o) {
     '<link rel="canonical" href="' + esc(o.lessonUrl) + '">\n' +
     '<link rel="stylesheet" href="' + o.assets + 'fonts.css">\n<link rel="stylesheet" href="' + o.assets + 'katex/katex.min.css">\n<link rel="stylesheet" href="' + o.assets + 'print.css">\n' +
     '</head>\n<body>\n' + body + '\n</body>\n</html>\n';
-  return { html, dir: L.dir, count: p.exercises.length };
+  return { html, dir: L.dir, count: p.exercises.length || p.quiz.length };
 }
 
 module.exports = { worksheet, WS_DIR: { vi: T.vi.dir, en: T.en.dir }, WS_LABEL: { vi: 'In phiếu tự học', en: 'Print a self-study sheet' } };

@@ -52,7 +52,21 @@ function stats(file) {
     examples: count(/^:::example/gm), figures: count(/^:::(graph|diagram)/gm), exercises: nEx, solutions: nSol,
     goals: count(/^:::goals/gm), terms: count(/^:::terms/gm), definitions: count(/^:::(definition|theorem)/gm)
   };
-  if (meta.type === 'exam') { // practice paper: only exercises are required
+  if (meta.type === 'exam') { // practice paper: a full 12-4-6 :::quiz exam (or ≥ 10 exercises)
+    const qx = /^:::quiz[^\n]*\n([\s\S]*?)^:::[ \t]*$/m.exec(body);
+    if (qx) {
+      const it = require('./render.js').parseQuiz(qx[1]);
+      const c = (t) => it.filter((i) => i.type === t).length;
+      s.quiz = c('mc') + '-' + c('tf') + '-' + c('sa');
+      if (s.quiz !== '12-4-6') problem(file + ': đề luyện cần đúng 12 câu ::mc, 4 câu ::tf, 6 câu ::sa (đang có ' + s.quiz + ')');
+      it.forEach((i, k) => {
+        if (i.type === 'mc' && (i.opts.length !== 4 || !/^[A-D]$/.test(i.key))) problem(file + ': câu thứ ' + (k + 1) + ' (nhiều lựa chọn) cần 4 phương án và ::key A–D');
+        if (i.type === 'tf' && (i.opts.length !== 4 || !/^[TF]{4}$/.test(i.key))) problem(file + ': câu thứ ' + (k + 1) + ' (đúng/sai) cần 4 ý và ::key dạng Đ S Đ S');
+        if (i.type === 'sa' && (!/^-?\d+([.,]\d+)?$/.test(i.key) || i.key.length > 4)) problem(file + ': câu thứ ' + (k + 1) + ' (trả lời ngắn) có ::key "' + i.key + '" không viết được trong 4 ô');
+        if (!i.expl) problem(file + ': câu thứ ' + (k + 1) + ' thiếu lời giải sau ::key');
+      });
+      return s;
+    }
     if (nEx < 10) problem(file + ': đề luyện chỉ có ' + nEx + ' câu (cần ≥ 10)');
     if (nSol !== nEx) problem(file + ': số lời giải (' + nSol + ') khác số câu (' + nEx + ')');
     return s;

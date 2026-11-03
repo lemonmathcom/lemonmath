@@ -37,10 +37,10 @@ const SOLUTION = { en: 'Show solution', vi: 'Xem lời giải' };
 const EXERCISE = { en: 'Exercise', vi: 'Bài' };
 const HINTS = { en: 'What you need and how to start', vi: 'Kiến thức và gợi ý cách làm' };
 const QZ = {
-  vi: { kind: 'Kiểm tra mini', parts: ['Phần I. Trắc nghiệm nhiều phương án lựa chọn', 'Phần II. Trắc nghiệm đúng sai', 'Phần III. Trắc nghiệm trả lời ngắn'],
+  vi: { kind: 'Kiểm tra mini', examKind: 'Đề luyện thi', parts: ['Phần I. Trắc nghiệm nhiều phương án lựa chọn', 'Phần II. Trắc nghiệm đúng sai', 'Phần III. Trắc nghiệm trả lời ngắn'],
     q: 'Câu', T: 'Đúng', F: 'Sai', claim: 'Ý', answer: 'Đáp án', submit: 'Nộp bài và chấm điểm', retry: 'Làm lại', keys: 'Xem đáp án và giải thích',
     saPh: 'Nhập đáp số', note: 'Chấm như đề thi tốt nghiệp THPT: Phần I mỗi câu 0,25 điểm; Phần II mỗi câu tối đa 1 điểm (đúng 1, 2, 3, 4 ý được 0,1; 0,25; 0,5; 1 điểm); Phần III mỗi câu 0,5 điểm.' },
-  en: { kind: 'Mini test', parts: ['Part I. Multiple choice', 'Part II. True or false', 'Part III. Short answer'],
+  en: { kind: 'Mini test', examKind: 'Practice paper', parts: ['Part I. Multiple choice', 'Part II. True or false', 'Part III. Short answer'],
     q: 'Question', T: 'True', F: 'False', claim: 'Statement', answer: 'Answer', submit: 'Submit and mark', retry: 'Try again', keys: 'Show answers and explanations',
     saPh: 'Type your answer', note: 'Marked like the Vietnamese graduation exam: Part I 0.25 points per question; Part II up to 1 point per question (1, 2, 3, 4 correct statements give 0.1, 0.25, 0.5, 1 point); Part III 0.5 points per question.' }
 };
@@ -134,7 +134,7 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
         });
         html += '</div>';
       });
-      out += '<section class="box box-quiz" data-quiz><div class="box-title"><span class="box-kind">' + L.kind + '</span>' + (title ? ' ' + esc(title) : '') + '</div><div class="box-body">' +
+      out += '<section class="box box-quiz" data-quiz><div class="box-title"><span class="box-kind">' + (title === 'exam' ? L.examKind : L.kind) + '</span>' + (title && title !== 'exam' ? ' ' + esc(title) : '') + '</div><div class="box-body">' +
         '<p class="qz-note">' + L.note + '</p>' + html +
         '<p class="qz-actions"><button type="button" class="btn qz-submit" hidden>' + L.submit + '</button> <button type="button" class="btn btn-outline qz-retry" hidden>' + L.retry + '</button> <span class="qz-score" aria-live="polite"></span></p>' +
         '<details class="qz-keys"><summary>' + L.keys + '</summary><ol>' + keys + '</ol></details></div></section>';
