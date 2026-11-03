@@ -7,9 +7,9 @@ Bạn sẽ nhận hai gói nén:
 | Gói | Chứa gì | Tải lên khi nào |
 |---|---|---|
 | `1-khung-website.zip` | giao diện và công cụ dựng website | Bước 1 (một lần) |
-| `2-bai-hoc-co-san.zip` | các bài lớp 10 đã viết xong + trang Giới thiệu | Bước 2 |
+| `2-bai-hoc-lop-10.zip` | **đủ 27 bài** Toán lớp 10 (Anh + Việt) + trang Giới thiệu | Bước 3 |
 
-Thêm thư mục `goi-viet-bai` (17 file lời nhắc) để các tài khoản Claude khác cùng viết nốt các bài còn thiếu (Phần C).
+Toàn bộ 27 bài lớp 10 đã được viết xong, thống nhất về nội dung và cách trình bày, nên bạn **không cần** nhờ tài khoản nào khác viết thêm.
 
 ---
 
@@ -33,7 +33,7 @@ Vào https://github.com/lemonmathcom/lemonmath
 
 ### Bước 3. Tải các bài học có sẵn
 
-1. Giải nén `2-bai-hoc-co-san.zip`. Bạn sẽ thấy thư mục `content`.
+1. Giải nén `2-bai-hoc-lop-10.zip`. Bạn sẽ thấy thư mục `content`.
 2. **Add file → Upload files**, kéo **thư mục `content`** vào, **Commit changes**.
 
 ### Bước 4. Xem kết quả
@@ -41,7 +41,7 @@ Vào https://github.com/lemonmathcom/lemonmath
 1. Bấm tab **Actions**. Một dòng mới sẽ chạy: vòng tròn vàng là đang dựng, **dấu ✓ xanh** là xong (khoảng 1–2 phút). Dấu ✗ đỏ là có lỗi: xem Phần D.
 2. Mở https://lemonmath.com (bản tiếng Anh) và https://lemonmath.com/vi/ (bản tiếng Việt). Nếu thấy trang cũ, nhấn **Ctrl + F5** (Mac: **Cmd + Shift + R**).
 
-Các bài chưa có file sẽ tự hiện "sắp ra mắt", website vẫn chạy bình thường.
+Các lớp khác (1–9, 11, 12) hiện chỉ có lộ trình, và sẽ được viết ở các giai đoạn sau.
 
 ---
 
@@ -61,32 +61,9 @@ content/vi/g10/functions.md        ← bản tiếng Việt, hiện ở lemonmat
 
 ---
 
-## Phần C. Viết nốt các bài còn thiếu bằng nhiều tài khoản
+## Phần C. Khi muốn thêm bài mới sau này
 
-Hiện còn **17 việc** (14 bài viết mới Anh + Việt, và 3 bài chỉ thiếu bản Việt). Danh sách nằm trong thư mục `goi-viet-bai`, mỗi việc là một file `.txt`, tên bắt đầu bằng số thứ tự `01` … `17`. Mỗi file đủ nhỏ cho một lần hỏi.
-
-### Cách giao việc cho từng tài khoản
-
-1. Mở file `.txt` (Notepad cũng được), **chọn tất cả (Ctrl + A) → sao chép (Ctrl + C)**.
-2. Mở một cuộc trò chuyện **mới** của Claude, **dán (Ctrl + V)** vào ô chat rồi gửi. Mỗi tài khoản nhận 1–2 file là vừa.
-3. Claude trả về hai khối mã (hoặc hai file tải về) có tên file ở đầu, ví dụ `content/en/g10/dot-product.md`. Chép **toàn bộ nội dung trong khối mã** vào một file mới trên máy và **lưu với đúng tên đó**:
-   - Windows: Notepad → Save As → Encoding chọn **UTF-8** → đặt tên (ví dụ `dot-product.md`), kiểu file chọn **All files**.
-   - Nếu Claude cho tải file, dùng luôn file đó.
-4. Gom file mọi người gửi vào hai thư mục trên máy bạn, giữ đúng tên: `content/en/g10/` và `content/vi/g10/`.
-
-Các file lời nhắc `01`–`03` (chỉ bản Việt) đã kèm sẵn bản tiếng Anh, nên các tài khoản chỉ cần dịch và biên soạn bản Việt.
-
-### Cách lắp ghép lên GitHub
-
-1. Vào kho trên GitHub, bấm **content → en → g10**. Bấm **Add file → Upload files**, kéo vào **tất cả file `.md` tiếng Anh** mới → **Commit changes**.
-2. Quay lại, bấm **content → vi → g10**, làm tương tự với các file tiếng Việt.
-3. Tab **Actions** chạy lại. Mỗi bài có đủ cả hai file sẽ hiện trên website.
-
-> Tải file vào **đúng thư mục** quan trọng: hãy bấm vào thư mục `g10` rồi mới Add file → Upload files, GitHub sẽ đặt file vào thư mục đó.
-
-### Kiểm tra trước khi tải lên (khuyên làm)
-
-Nội dung do AI viết cần được giáo viên đọc lại. Bạn là giáo viên toán, hãy xem mỗi bài trên website sau khi dựng xong, nhất là **đáp số các bài tập** và **hình vẽ**. Nếu muốn nhờ kiểm tra tự động trước khi tải lên, gửi các file cho tôi trong cuộc trò chuyện này: tôi kiểm tra công thức, hình vẽ, số bài tập và sự khớp nhau giữa hai ngôn ngữ.
+Mỗi bài gồm **hai file cùng tên**: một file tiếng Anh trong `content/en/g10/` và một file tiếng Việt trong `content/vi/g10/`. Chỉ khi có đủ cả hai file thì bài mới hiện lên website. Cách viết xem `_templates/WRITING-SPEC.md` và `_templates/lesson-template.md`. Sau khi viết, tải hai file lên đúng thư mục như Bước 3 và chờ dấu ✓ ở tab Actions.
 
 ---
 

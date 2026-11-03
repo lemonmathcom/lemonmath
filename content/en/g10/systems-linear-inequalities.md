@@ -1,45 +1,77 @@
 ---
 title: Systems of linear inequalities in two variables
 description: Find the solution region of a system as an intersection of half-planes, locate its vertices, and use them to maximise or minimise a quantity.
-minutes: 25
+minutes: 30
 ---
 
 :::goals
 - Decide whether an ordered pair is a solution of a system of linear inequalities.
-- Draw the solution region of a system as the intersection of half-planes and find the vertices of a polygon region.
-- Maximise or minimise $ax+by$ over a polygon region by comparing its values at the vertices.
+- Draw the solution region of a system as the intersection of half-planes and find the vertices of a polygonal region.
+- Maximise or minimise $ax+by$ over a polygonal region by comparing its values at the vertices.
 - Solve a simple production or diet problem with two unknowns.
 :::
 
-A school club wants to sell as much as possible, but it has limited time, limited ingredients and limited stalls. Every limit is one inequality, and all the limits must hold *at the same time*. Together they form a **system**. In this lesson we draw what the system allows and then pick the best choice.
+The school craft club makes bracelets and necklaces to raise money. Each day the club has $10$ units of beads and $8$ hours of work. A bracelet needs $2$ units of beads and $1$ hour; a necklace needs $1$ unit of beads and $2$ hours. Each bracelet makes a profit of $30$ thousand dong and each necklace $40$ thousand dong. How many of each should the club make to earn the most?
+
+There are **two** limits here, and both must hold **at the same time**. Together they form a system of inequalities.
 
 ## Systems and their solution region
 
-:::definition System of linear inequalities
-A **system of linear inequalities in two variables** is a set of two or more inequalities of the form $ax+by\le c$ (or $<,\ge,>$) in the same unknowns $x, y$.
+### Trying a few plans
 
-A **solution** of the system is an ordered pair $(x_0, y_0)$ that satisfies **every** inequality. The set of all solutions, drawn in the plane, is the **solution region** of the system.
+Let $x$ be the number of bracelets and $y$ the number of necklaces made in one day. The beads used are $2x+y$ units and the work time is $x+2y$ hours. We try a few plans:
+
+| Plan $(x, y)$ | Beads $2x+y\le 10$? | Hours $x+2y\le 8$? | Possible? |
+|---|---|---|---|
+| $(4, 2)$ | $10$: yes | $8$: yes | yes |
+| $(5, 1)$ | $11$: no | $7$: yes | no |
+| $(2, 3)$ | $7$: yes | $8$: yes | yes |
+| $(3, 3)$ | $9$: yes | $9$: no | no |
+
+Plan $(5, 1)$ has enough hours but not enough beads; plan $(3, 3)$ is the other way round. A plan is possible only when it satisfies **all** the conditions.
+
+:::definition System of linear inequalities in two variables
+A **system of linear inequalities in two variables** consists of two or more linear inequalities in the same unknowns $x, y$.
+
+A **solution** of the system is a pair $(x_0, y_0)$ that satisfies **every** inequality of the system. The set of points whose coordinates are solutions is the **solution region** of the system.
 :::
 
-Each inequality gives a half-plane (see [Linear inequalities in two variables](lesson:linear-inequality-two-variables)). A pair solves the system only if it lies in all the half-planes, so:
+Each inequality gives a half-plane (see [Linear inequalities in two variables](lesson:linear-inequality-two-variables)). A point is in the solution region of the system exactly when it lies in **every** one of those half-planes. So the solution region of the system is the **intersection** of the solution regions of the separate inequalities.
 
-> the solution region of a system is the **intersection** of the solution regions of its inequalities.
+The region is often a polygon. Its corners are called **vertices**; each vertex is the intersection point of two boundary lines. Before drawing, we practise testing a pair.
 
-The region is often a polygon. Its corners are called **vertices**; each vertex is where two boundary lines meet.
+:::example Testing solutions of a system
+Which of $(2, 1)$, $(4, 1)$, $(0, 5)$, $(2, 3)$ are solutions of the system
+$$\begin{cases} x-y\le 2\\ x+2y\le 8 \end{cases}?$$
 
-:::example Drawing a region and testing points
-Consider the system
+**Solution.** We substitute each pair into both inequalities; a single false inequality rules the pair out:
+
+$$\begin{aligned} (2, 1)&:\ 2-1=1\le 2,\quad 2+2=4\le 8 &&\text{(both true)},\\ (4, 1)&:\ 4-1=3\le 2 &&\text{(false)},\\ (0, 5)&:\ 0-5=-5\le 2,\quad 0+10=10\le 8 &&\text{(second one false)},\\ (2, 3)&:\ 2-3=-1\le 2,\quad 2+6=8\le 8 &&\text{(both true)}. \end{aligned}$$
+
+So $(2, 1)$ and $(2, 3)$ are solutions of the system; $(4, 1)$ and $(0, 5)$ are not.
+:::
+
+Now we draw the whole solution region of a system with four inequalities.
+
+:::example Drawing the region and finding the vertices
+Draw the solution region of the system
 $$\begin{cases} x\ge 0\\ y\ge 0\\ x+y\le 4\\ x\le 3 \end{cases}$$
-(a) Draw its solution region and find the vertices. (b) Are $(1, 2)$, $(3, 2)$, $(-1, 1)$ solutions?
+and find its vertices.
 
-**Solution.**
-- (a) $x\ge 0$ is the half-plane to the right of the $y$-axis, $y\ge 0$ the one above the $x$-axis, $x+y\le 4$ the one below the line $x+y=4$ (test point $(0, 0)$), and $x\le 3$ the one to the left of the line $x=3$. The region is where all four overlap.
-- Vertices: $(0, 0)$ (the two axes); $(3, 0)$ ($y=0$ and $x=3$); $(3, 1)$ ($x=3$ and $x+y=4$ give $y=1$); $(0, 4)$ ($x=0$ and $x+y=4$).
-- (b) $(1, 2)$: $1\ge 0$, $2\ge 0$, $1+2=3\le 4$, $1\le 3$, all true, so it is a solution. $(3, 2)$: $3+2=5\le 4$ is false, so it is not. $(-1, 1)$: $-1\ge 0$ is false, so it is not.
+**Solution.** We find each half-plane and then take the common part.
+- $x\ge 0$: right of the $y$-axis; $y\ge 0$: above the $x$-axis.
+- $x+y\le 4$: testing $O$ gives $0\le 4$, true, so we take the side of the line $x+y=4$ containing $O$.
+- $x\le 3$: left of the vertical line $x=3$.
+
+The vertices are the intersections of neighbouring boundary lines:
+
+$$\begin{aligned} x=0,\ y=0 &\Rightarrow (0, 0),\\ y=0,\ x=3 &\Rightarrow (3, 0),\\ x=3,\ x+y=4 &\Rightarrow y=1,\ \text{giving } (3, 1),\\ x=0,\ x+y=4 &\Rightarrow y=4,\ \text{giving } (0, 4). \end{aligned}$$
+
+So the solution region is the quadrilateral with vertices $(0, 0)$, $(3, 0)$, $(3, 1)$, $(0, 4)$, sides included.
 :::
 
-:::graph The region of the system
-alt: A four-sided polygon with vertices (0, 0), (3, 0), (3, 1) and (0, 4), shaded
+:::graph Solution region of the system in Example 2
+alt: A shaded quadrilateral with vertices (0, 0), (3, 0), (3, 1) and (0, 4)
 x: -1..6
 y: -1..6
 region: x >= 0
@@ -52,38 +84,78 @@ point: (3, 1) "(3, 1)" right
 point: (0, 4) "(0, 4)" left
 :::
 
+In that example the vertices came out at once. When both boundary lines are slanted, we must solve a system of two equations to find a vertex.
+
+:::example A vertex from a system of two equations
+Find the vertices of the solution region of the system
+$$\begin{cases} x+y\le 5\\ x-y\ge -1\\ y\ge 1 \end{cases}$$
+
+**Solution.** The region is a triangle, and each vertex is where two of the three boundary lines meet. Substitute $y=1$ into the other two lines:
+
+$$x+1=5\Rightarrow x=4,\qquad x-1=-1\Rightarrow x=0.$$
+
+This gives the vertices $(4, 1)$ and $(0, 1)$. The third vertex is where $x+y=5$ meets $x-y=-1$. Add the two equations:
+
+$$2x=4\Rightarrow x=2,\qquad y=5-2=3.$$
+
+So the solution region is the triangle with vertices $(0, 1)$, $(4, 1)$, $(2, 3)$.
+
+**Check.** The vertex $(2, 3)$ satisfies the remaining inequality: $y=3\ge 1$, true.
+:::
+
+:::graph Solution region of the system in Example 3
+alt: A shaded triangle with vertices (0, 1), (4, 1) and (2, 3)
+x: -2..6
+y: -1..5
+region: x + y <= 5
+region: x - y >= -1
+region: y >= 1
+point: (0, 1) "(0, 1)" below-left
+point: (4, 1) "(4, 1)" below-right
+point: (2, 3) "(2, 3)" above
+:::
+
 :::warning Common mistakes
-- Shading each inequality separately and then taking the *union*. A system needs the *intersection*: only the part shaded by all inequalities.
-- Forgetting an inequality such as $x\ge 0$, $y\ge 0$ that comes from the real situation (you cannot make a negative number of items).
-- Taking a "vertex" that does not satisfy all the inequalities. Always check that a corner point lies in the region.
+- **Wrong:** shading each inequality separately and keeping every shaded spot. **Why it is wrong:** that is the *union*; the point $(0, 5)$ in Example 1 satisfies the first inequality but is not a solution of the system. **Right:** keep only the common part (the *intersection*) of all the half-planes.
+- **Wrong:** forgetting $x\ge 0$, $y\ge 0$ in real problems. **Why it is wrong:** nobody can make $-2$ bracelets. **Right:** always add the natural conditions on the unknowns.
+- **Wrong:** treating every intersection of two boundary lines as a vertex. **Why it is wrong:** in Example 2, the line $x+y=4$ meets the $x$-axis at $(4, 0)$, but $4\le 3$ is false, so $(4, 0)$ is outside the region. **Right:** check that the intersection satisfies all the other inequalities.
 :::
 
-## Optimising over a polygon region
+## Optimising over a polygonal region
 
-Suppose we want the largest (or smallest) value of $F=ax+by$ over a polygon region. For each number $k$, the points with $F=k$ form a line, and all these lines are parallel. Sliding the line across the polygon, the last point where it touches the polygon is a corner.
+Back to the craft club: the profit is $F=30x+40y$ (thousand dong). At $(2, 3)$ the profit is $180$, at $(4, 2)$ it is $200$. The question is: among the infinitely many points of the region, which one makes $F$ largest?
 
-:::theorem Vertex rule
-If the solution region of a system is a bounded polygon, then $F=ax+by$ reaches its largest value and its smallest value at **vertices** of the polygon.
+**Why is it enough to look at the vertices?** For each number $k$, the points with $30x+40y=k$ lie on a line, and as $k$ changes these lines stay parallel. Increasing $k$ slides the line in one direction. The last point where the line still touches the polygon is a vertex (or a whole side, and then both end vertices of that side give the same value).
+
+:::theorem The vertex rule
+If the solution region of a system of linear inequalities in two variables is a polygon, then the expression $F=ax+by$ reaches its maximum and its minimum over the region at **vertices** of the polygon.
 :::
 
-So we only need to: (1) find the vertices, (2) compute $F$ at each, (3) compare.
+The procedure: (1) find the vertices, (2) compute $F$ at each vertex, (3) compare. The craft club problem has a lot of data, so we solve it in four steps.
 
-:::example Which products to make
-A workshop makes bracelets ($x$ per day) and necklaces ($y$ per day). A bracelet needs $2$ units of beads, a necklace needs $1$ unit, and there are $10$ units of beads per day. A bracelet needs $1$ hour of work, a necklace needs $2$ hours, and there are $8$ hours per day. Profit is $30$ per bracelet and $40$ per necklace (in thousands). (a) Write the system. (b) Find the vertices of the region. (c) Find the daily plan with the largest profit.
+:::example How many of each should the club make?
+Solve the craft club problem from the start of the lesson.
 
 **Solution.**
-- (a) Beads: $2x+y\le 10$. Time: $x+2y\le 8$. Also $x\ge 0$, $y\ge 0$. The profit is $F=30x+40y$.
-- (b) The region is bounded by the axes and the two lines. Vertices:
-  - $(0, 0)$ the origin;
-  - $(5, 0)$: $y=0$ in $2x+y=10$;
-  - $(0, 4)$: $x=0$ in $x+2y=8$;
-  - the meeting of $2x+y=10$ and $x+2y=8$: from the first $y=10-2x$; substituting, $x+20-4x=8$, so $x=4$, $y=2$. This gives $(4, 2)$.
-- (c) Compute $F$: $F(0, 0)=0$, $F(5, 0)=150$, $F(0, 4)=160$, $F(4, 2)=120+80=200$.
-- The largest value is $200$ at $(4, 2)$: make $4$ bracelets and $2$ necklaces per day for a profit of $200$ thousand.
+
+*Understand.* The unknowns are the number of bracelets $x$ and of necklaces $y$ per day. Limits: $10$ units of beads and $8$ hours of work. We want the largest profit $F=30x+40y$.
+
+*Plan.* Write the system, find the vertices of its region, then compute $F$ at each vertex.
+
+*Solve.* The system is
+$$\begin{cases} 2x+y\le 10\\ x+2y\le 8\\ x\ge 0,\ y\ge 0. \end{cases}$$
+Three vertices lie on the axes: $(0, 0)$, $(5, 0)$ (put $y=0$ in $2x+y=10$), $(0, 4)$ (put $x=0$ in $x+2y=8$). The fourth vertex is where the two slanted lines meet. From $2x+y=10$ we get $y=10-2x$; substitute into the other equation:
+$$x+2(10-2x)=8\iff -3x=-12\iff x=4,\qquad y=10-8=2.$$
+The values of $F$ at the vertices:
+$$F(0, 0)=0,\quad F(5, 0)=150,\quad F(0, 4)=160,\quad F(4, 2)=120+80=200.$$
+
+*Look back.* The vertex $(4, 2)$ uses up all the beads ($8+2=10$) and all the hours ($4+4=8$), which is reasonable for a best plan.
+
+So the club should make $4$ bracelets and $2$ necklaces a day, for the largest profit of $200$ thousand dong.
 :::
 
-:::graph The production region
-alt: A four-sided polygon with vertices (0, 0), (5, 0), (4, 2) and (0, 4), shaded
+:::graph Solution region of the craft club problem
+alt: A shaded quadrilateral with vertices (0, 0), (5, 0), (4, 2) and (0, 4)
 x: -1..7
 y: -1..6
 region: 2x + y <= 10
@@ -96,22 +168,24 @@ point: (4, 2) "(4, 2)" above-right
 point: (0, 4) "(0, 4)" left
 :::
 
-:::example A diet at the lowest cost
-A meal plan uses $x$ servings of dish A and $y$ servings of dish B. The meal needs at least $6$ units of protein: $2x+y\ge 6$, and at least $6$ units of fibre: $x+2y\ge 6$. Each dish may be used at most $5$ times: $x\le 5$, $y\le 5$. A serving of A costs $3$ and a serving of B costs $4$ (in thousands). Find the cheapest plan.
+The vertex rule also finds a **minimum**, such as the lowest cost.
 
-**Solution.**
-- Cost: $F=3x+4y$. The region is bounded by the four lines $2x+y=6$, $x+2y=6$, $x=5$, $y=5$ (with $x,y\ge 0$ automatically true here).
-- Vertices:
-  - $2x+y=6$ and $x+2y=6$: subtracting gives $x-y=0$, so $x=y=2$. Vertex $(2, 2)$.
-  - $2x+y=6$ and $y=5$: $x=0.5$. Vertex $(0.5, 5)$.
-  - $x+2y=6$ and $x=5$: $y=0.5$. Vertex $(5, 0.5)$.
-  - $x=5$ and $y=5$: vertex $(5, 5)$.
-- Costs: $F(2, 2)=14$, $F(0.5, 5)=1.5+20=21.5$, $F(5, 0.5)=15+2=17$, $F(5, 5)=35$.
-- The smallest cost is $14$ thousand at $(2, 2)$: two servings of each dish.
+:::example The cheapest meal
+A meal uses $x$ portions of dish A and $y$ portions of dish B. It needs at least $6$ units of protein ($2x+y\ge 6$) and at least $6$ units of fibre ($x+2y\ge 6$); at most $5$ portions of each dish are used. A portion of A costs $3$ thousand dong and a portion of B costs $4$ thousand dong. Find the cheapest meal.
+
+**Solution.** The cost is $F=3x+4y$, and we want its minimum over the region of the system $2x+y\ge 6$, $x+2y\ge 6$, $x\le 5$, $y\le 5$. We find the four vertices; for the first one, subtract the two equations:
+
+$$\begin{aligned} 2x+y=6,\ x+2y=6 &\Rightarrow x-y=0\Rightarrow (2, 2),\\ 2x+y=6,\ y=5 &\Rightarrow x=0.5\Rightarrow (0.5, 5),\\ x+2y=6,\ x=5 &\Rightarrow y=0.5\Rightarrow (5, 0.5),\\ x=5,\ y=5 &\Rightarrow (5, 5). \end{aligned}$$
+
+The values of $F$:
+
+$$F(2, 2)=14,\quad F(0.5, 5)=21.5,\quad F(5, 0.5)=17,\quad F(5, 5)=35.$$
+
+So the lowest cost is $14$ thousand dong, with $2$ portions of A and $2$ portions of B.
 :::
 
-:::graph The diet region
-alt: A four-sided polygon with vertices (2, 2), (0.5, 5), (5, 5) and (5, 0.5), shaded
+:::graph Solution region of the diet problem
+alt: A shaded quadrilateral with vertices (2, 2), (0.5, 5), (5, 5) and (5, 0.5)
 x: -1..7
 y: -1..7
 region: 2x + y >= 6
@@ -127,48 +201,268 @@ point: (5, 0.5) "(5, 0.5)" below-right
 ## Key terms
 
 :::terms
-- system of inequalities | hệ bất phương trình
+- system of linear inequalities in two variables | hệ bất phương trình bậc nhất hai ẩn
 - solution of a system | nghiệm của hệ
 - solution region | miền nghiệm
 - intersection of half-planes | giao của các nửa mặt phẳng
-- polygon region | miền đa giác
+- polygonal region | miền đa giác
 - vertex | đỉnh
-- objective (to maximise) | biểu thức cần tối ưu
+- objective function | biểu thức cần tối ưu
 - maximum / minimum | giá trị lớn nhất / nhỏ nhất
 :::
 
 ## Summary
 
-- A solution of a system satisfies all the inequalities; the solution region is the intersection of the half-planes.
-- To test a pair, substitute it into every inequality; one failure is enough to reject it.
-- The vertices of the region are the intersections of pairs of boundary lines that satisfy all the other inequalities.
-- Over a bounded polygon, $ax+by$ attains its maximum and minimum at vertices: compute it at each vertex and compare.
-- In real problems add the natural conditions ($x\ge 0$, $y\ge 0$) and read the answer in context.
+- A solution of a system satisfies **every** inequality; the solution region is the **intersection** of the half-planes.
+- Testing a pair: substitute into each inequality; one false inequality rules it out.
+- Vertex = intersection of two boundary lines that satisfies all the other inequalities. Two slanted lines: solve a system of two equations.
+- Over a polygonal region, $F=ax+by$ has its maximum and minimum at vertices: compute $F$ at each vertex and compare.
+- Real problems: name the unknowns, add $x\ge 0$, $y\ge 0$, and answer with a sentence and units.
 
 ## Practice
 
-:::practice
-1. Which of $(2, 1)$, $(0, 0)$, $(5, 1)$ are solutions of the system $x+y\ge 2,\ x-y\le 3$?
-2. Which of $(1, 1)$, $(2, 0)$, $(0, 2)$ are solutions of $2x+y<4,\ x-y>-1$?
-3. Describe the region of $x\ge 0,\ y\ge 0,\ x+y\le 3$: name the shape, give its vertices, and find the largest value of $2x+y$ on it.
-4. The region of $1\le x\le 4,\ 0\le y\le 3$ is a rectangle. Give its vertices and find the largest and smallest values of $2x+y$ on it.
-5. Find the vertices of the region $x\ge 0,\ y\ge 0,\ x+y\le 6,\ x+3y\le 12$, and the largest value of $5x+4y$ on it.
-6. Does the system $x+y\le 1,\ x+y\ge 3$ have a solution? Explain.
-7. How many pairs of whole numbers $(x, y)$ satisfy $x\ge 0,\ y\ge 0,\ x+y\le 4$?
-8. A club sells $x$ sandwiches and $y$ drinks per day. Making them takes at most $30$ units of time in total ($x+y\le 30$), and it can prepare at most $20$ sandwiches and at most $20$ drinks. The profit is $4$ per sandwich and $3$ per drink (in thousands). Find the vertices of the region and the plan with the largest profit.
-9. Challenge. Write a system of inequalities whose solution region is the triangle with vertices $(0, 0)$, $(4, 0)$, $(0, 2)$.
-10. Challenge. On the region of exercise 5, find the largest and smallest values of $F=x-y$.
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+Which of $(2, 1)$, $(0, 0)$, $(5, 1)$ are solutions of the system $\begin{cases} x+y\ge 2\\ x-y\le 3 \end{cases}$?
+
+::hint
+**What you need:** a solution of a system satisfies every inequality of the system.
+
+**Steps:**
+1. Compute $x+y$ and $x-y$ for each pair.
+2. Rule out any pair that makes at least one inequality false.
+
+::solution
+$$(2, 1):\ 3\ge 2,\ 1\le 3\ \text{(true)};\quad (0, 0):\ 0\ge 2\ \text{(false)};\quad (5, 1):\ 6\ge 2,\ \text{but } 4\le 3\ \text{(false)}.$$
+
+**Answer.** Only $(2, 1)$.
 :::
 
-:::solution Show solutions
-1. $(2, 1)$: $3\ge 2$ and $1\le 3$, both true: a solution. $(0, 0)$: $0\ge 2$ is false: not a solution. $(5, 1)$: $6\ge 2$ is true but $4\le 3$ is false: not a solution.
-2. $(1, 1)$: $3<4$ and $0>-1$ are true: a solution. $(2, 0)$: $4<4$ is false. $(0, 2)$: $2<4$ is true but $-2>-1$ is false. Only $(1, 1)$.
-3. A triangle with vertices $(0, 0)$, $(3, 0)$, $(0, 3)$. Values of $2x+y$: $0$, $6$, $3$. The largest value is $6$, at $(3, 0)$.
-4. The vertices are $(1, 0)$, $(4, 0)$, $(4, 3)$, $(1, 3)$. Values of $2x+y$: $2$, $8$, $11$, $5$. The largest is $11$ at $(4, 3)$ and the smallest is $2$ at $(1, 0)$.
-5. Vertices: $(0, 0)$; $(6, 0)$; $(0, 4)$ (from $x+3y=12$); and the meeting of $x+y=6$ and $x+3y=12$: subtracting, $2y=6$, $y=3$, $x=3$, so $(3, 3)$. Values of $5x+4y$: $0$, $30$, $16$, $27$. The largest is $30$ at $(6, 0)$.
-6. No. A pair would need $x+y\le 1$ and $x+y\ge 3$, so $3\le x+y\le 1$, which is impossible. The two half-planes do not overlap; the region is empty.
-7. Count by the value of $x$: $x=0$ gives $y=0,\dots,4$ ($5$ pairs); $x=1$: $4$; $x=2$: $3$; $x=3$: $2$; $x=4$: $1$. Total $5+4+3+2+1=15$.
-8. The system is $x\ge 0,\ y\ge 0,\ x+y\le 30,\ x\le 20,\ y\le 20$. Vertices: $(0, 0)$, $(20, 0)$, $(20, 10)$ ($x=20$ in $x+y=30$), $(10, 20)$ ($y=20$ in $x+y=30$), $(0, 20)$. Profit $F=4x+3y$: $0$, $80$, $110$, $100$, $60$. The largest profit is $110$ thousand with $20$ sandwiches and $10$ drinks.
-9. The triangle lies in the first quadrant: $x\ge 0$, $y\ge 0$. The side from $(4, 0)$ to $(0, 2)$ lies on $x+2y=4$, and the origin satisfies $x+2y\le 4$. So the system is $x\ge 0,\ y\ge 0,\ x+2y\le 4$. (Check: $(4, 0)$ and $(0, 2)$ both give $4\le 4$.)
-10. The vertices are $(0, 0)$, $(6, 0)$, $(3, 3)$, $(0, 4)$ and $F=x-y$ takes the values $0$, $6$, $0$, $-4$. The largest value is $6$ at $(6, 0)$ and the smallest is $-4$ at $(0, 4)$.
+:::exercise
+Does the system $\begin{cases} x+y\le 1\\ x+y\ge 3 \end{cases}$ have a solution? Explain.
+
+::hint
+**What you need:** the solution region of a system is the intersection of half-planes, and an intersection can be empty.
+
+**Steps:**
+1. Suppose $(x, y)$ is a solution and write the condition on the sum $x+y$.
+2. Ask whether that condition can happen.
+
+::solution
+If $(x, y)$ were a solution, then $3\le x+y\le 1$, which is impossible because $3>1$. The boundary lines $x+y=1$ and $x+y=3$ are parallel, and the two half-planes lie on opposite sides without overlapping.
+
+**Answer.** The system has no solution (the region is empty).
+:::
+
+:::exercise
+The solution region of the system $1\le x\le 4$, $0\le y\le 3$ is a rectangle. Give its vertices and find the maximum and minimum of $F=2x+y$ over it.
+
+::hint
+**What you need:** the vertex rule.
+
+**Steps:**
+1. The vertices have $x$-coordinate $1$ or $4$ and $y$-coordinate $0$ or $3$.
+2. Compute $F$ at the four vertices.
+
+::solution
+The vertices $(1, 0)$, $(4, 0)$, $(4, 3)$, $(1, 3)$ give
+$$F=2,\quad 8,\quad 11,\quad 5.$$
+
+**Answer.** Maximum $11$ at $(4, 3)$; minimum $2$ at $(1, 0)$.
+:::
+
+:::exercise
+Find the vertices of the solution region of the system $x\ge 0$, $y\ge 0$, $x+y\le 6$, $x+3y\le 12$, then find the maximum of $F=5x+4y$ over it.
+
+::hint
+**What you need:** a vertex is an intersection of two boundary lines that satisfies all the other inequalities.
+
+**Steps:**
+1. Find the vertices on the two axes.
+2. Solve $x+y=6$, $x+3y=12$ for the fourth vertex.
+3. Compute $F$ at the vertices.
+
+::solution
+On the axes: $(0, 0)$, $(6, 0)$, $(0, 4)$. Subtract $x+y=6$ from $x+3y=12$: $2y=6$, $y=3$, $x=3$. The values of $F$:
+$$F(0, 0)=0,\quad F(6, 0)=30,\quad F(0, 4)=16,\quad F(3, 3)=27.$$
+
+**Answer.** The vertices are $(0, 0)$, $(6, 0)$, $(3, 3)$, $(0, 4)$; the maximum of $F$ is $30$, at $(6, 0)$.
+:::
+
+:::exercise
+The system $\begin{cases} x\ge 0,\ y\ge 0\\ 2x+y\le 8\\ y\le 4 \end{cases}$ has solution region $D$. Is each claim true or false?
+
+a) The pair $(1, 5)$ is a solution of the system.
+
+b) $D$ is a quadrilateral, and $(2, 4)$ is one of its vertices.
+
+c) The maximum of $x+y$ over $D$ is $6$.
+
+d) The minimum of $x-y$ over $D$ is $-2$.
+
+::hint
+**What you need:** a solution satisfies every inequality; the vertex rule.
+
+**Steps:**
+1. Substitute $(1, 5)$ into each inequality.
+2. Find the vertices: two on the axes, where $y=4$ meets the $y$-axis, and where $y=4$ meets $2x+y=8$.
+3. Compute $x+y$ and $x-y$ at every vertex.
+
+::solution
+a) **False:** $y=5\le 4$ is false.
+
+b) **True:** the vertices are $(0, 0)$, $(4, 0)$, $(2, 4)$, $(0, 4)$; the vertex $(2, 4)$ comes from putting $y=4$ in $2x+y=8$.
+
+c) **True:** $x+y$ at the four vertices is $0$, $4$, $6$, $4$; the largest is $6$.
+
+d) **False:** $x-y$ at the four vertices is $0$, $4$, $-2$, $-4$; the smallest is $-4$ (at $(0, 4)$), not $-2$.
+
+**Answer.** a) False; b) True; c) True; d) False.
+:::
+
+:::exercise
+The club's food stall sells $x$ sandwiches and $y$ cups of juice per day. Preparation time allows at most $30$ items in total ($x+y\le 30$), and the stall can prepare at most $20$ sandwiches and at most $20$ cups of juice. Each sandwich makes $4$ thousand dong profit and each cup $3$ thousand dong. What is the largest profit in one day, in thousand dong?
+
+::hint
+**What you need:** the vertex rule; here the region is a pentagon.
+
+**Steps:**
+1. Write the system: $x\ge 0$, $y\ge 0$, $x+y\le 30$, $x\le 20$, $y\le 20$.
+2. Find the five vertices (put $x=20$, then $y=20$, into $x+y=30$).
+3. Compute $F=4x+3y$ at each vertex.
+
+::solution
+The vertices $(0, 0)$, $(20, 0)$, $(20, 10)$, $(10, 20)$, $(0, 20)$ give
+$$F=0,\quad 80,\quad 110,\quad 100,\quad 60.$$
+The largest profit comes from $20$ sandwiches and $10$ cups of juice.
+
+**Answer.** $110$.
+:::
+
+:::exercise
+Mr Hung has $8$ hectares of land for maize and beans, and $30$ million dong to spend on seed and fertiliser. Each hectare of maize costs $5$ million dong and makes $4$ million dong profit; each hectare of beans costs $3$ million dong and makes $3$ million dong profit. How many hectares of each should he plant to make the most profit?
+
+::hint
+**What you need:** write a system from the limits (land, money), then use the vertex rule.
+
+**Steps:**
+1. Let $x$ be the hectares of maize and $y$ of beans; write $x+y\le 8$, $5x+3y\le 30$, $x, y\ge 0$.
+2. Find the vertices, including where $x+y=8$ meets $5x+3y=30$.
+3. Compute the profit $F=4x+3y$ at each vertex.
+
+::solution
+On the axes: $(0, 0)$, $(6, 0)$, $(0, 8)$. Substitute $y=8-x$ into $5x+3y=30$: $2x+24=30$, $x=3$, $y=5$. The values of $F$:
+$$F(0, 0)=0,\quad F(6, 0)=24,\quad F(0, 8)=24,\quad F(3, 5)=12+15=27.$$
+
+**Answer.** Plant $3$ hectares of maize and $5$ hectares of beans, for the largest profit of $27$ million dong.
+:::
+
+:::exercise Challenge
+Write a system of linear inequalities in two variables whose solution region is the triangle (sides included) with vertices $(0, 0)$, $(4, 0)$, $(0, 2)$.
+
+::hint
+**What you need:** each side of the triangle lies on a boundary line; choose the direction with a point inside the triangle.
+
+**Steps:**
+1. Two sides lie on the coordinate axes.
+2. Write the equation of the line through $(4, 0)$ and $(0, 2)$.
+3. Test the origin to choose the sign.
+
+::solution
+The two sides on the axes give $x\ge 0$, $y\ge 0$. The line through $(4, 0)$ and $(0, 2)$ is $\dfrac{x}{4}+\dfrac{y}{2}=1$, that is $x+2y=4$; the origin gives $0\le 4$.
+
+**Answer.** $\begin{cases} x\ge 0\\ y\ge 0\\ x+2y\le 4 \end{cases}$
+:::
+
+:::exercise Challenge
+Over the solution region of the system $x\ge 0$, $y\ge 0$, $x+y\le 6$, $x+3y\le 12$, find the maximum and minimum of $F=x-y$.
+
+::hint
+**What you need:** the vertex rule works with negative coefficients too.
+
+**Steps:**
+1. Reuse the vertices found in exercise 4.
+2. Compute $x-y$ at each vertex.
+
+::solution
+The vertices $(0, 0)$, $(6, 0)$, $(3, 3)$, $(0, 4)$ give
+$$F=0,\quad 6,\quad 0,\quad -4.$$
+
+**Answer.** Maximum $6$ at $(6, 0)$; minimum $-4$ at $(0, 4)$.
+:::
+
+:::exercise
+(Revisiting [Sets and set operations](lesson:sets-and-set-operations).) Let $D_1$ be the solution region of $x+y\le 4$ and $D_2$ that of $x-y\ge 0$. For each of the points $A(1, 1)$, $B(1, 2)$, $C(3, 2)$, $E(0, 5)$, say whether it belongs to $D_1\cap D_2$, $D_1\setminus D_2$, $D_2\setminus D_1$, or lies outside $D_1\cup D_2$.
+
+::hint
+**What you need:** $D_1\cap D_2$ is the solution region of the system; $D_1\setminus D_2$ consists of the points in $D_1$ but not in $D_2$.
+
+**Steps:**
+1. For each point, test $x+y\le 4$ and $x-y\ge 0$ separately.
+2. Combine the two results to choose the set.
+
+::solution
+$$\begin{aligned} A&:\ 2\le 4,\ 0\ge 0 &&\Rightarrow A\in D_1\cap D_2,\\ B&:\ 3\le 4,\ -1\ge 0\ \text{false} &&\Rightarrow B\in D_1\setminus D_2,\\ C&:\ 5\le 4\ \text{false},\ 1\ge 0 &&\Rightarrow C\in D_2\setminus D_1,\\ E&:\ 5\le 4\ \text{false},\ -5\ge 0\ \text{false} &&\Rightarrow E\notin D_1\cup D_2. \end{aligned}$$
+
+**Answer.** $A\in D_1\cap D_2$; $B\in D_1\setminus D_2$; $C\in D_2\setminus D_1$; $E\notin D_1\cup D_2$.
+:::
+
+## Mini test
+
+:::quiz
+::mc
+Which of these is a system of linear inequalities in two variables?
+A. $\begin{cases} x+y\ge 1\\ x^2-y<2 \end{cases}$
+B. $\begin{cases} 2x-y\le 3\\ x+5y>0 \end{cases}$
+C. $\begin{cases} xy\ge 1\\ x-y<0 \end{cases}$
+D. $\begin{cases} x+y=2\\ x-y>1 \end{cases}$
+::key B
+Both inequalities in B have the form $ax+by<c$ (or $\le$, $>$, $\ge$). Option A contains $x^2$, C contains the product $xy$, and D contains an equation, not an inequality.
+
+::mc
+Which pair is a solution of the system $\begin{cases} x+y\le 3\\ 2x-y>0 \end{cases}$?
+A. $(1, 1)$.
+B. $(0, 0)$.
+C. $(2, 2)$.
+D. $(1, 2)$.
+::key A
+$(1, 1)$: $2\le 3$ and $1>0$, both true. $(0, 0)$ and $(1, 2)$ give $2x-y=0$, which fails the strict sign "$>$"; $(2, 2)$ gives $x+y=4>3$.
+
+::mc
+The solution region of the system $x\ge 0$, $y\ge 0$, $x+y\le 5$, $x\le 3$ is a quadrilateral. Which point is **not** a vertex of it?
+A. $(3, 2)$.
+B. $(0, 5)$.
+C. $(5, 0)$.
+D. $(3, 0)$.
+::key C
+$(5, 0)$ is where $x+y=5$ meets the $x$-axis, but $5\le 3$ is false, so this point lies outside the region. The vertices are $(0, 0)$, $(3, 0)$, $(3, 2)$, $(0, 5)$.
+
+::mc
+The solution region of the system $x\ge 0$, $y\ge 0$, $2x+y\le 8$, $x+3y\le 9$ is the quadrilateral with vertices $(0, 0)$, $(4, 0)$, $(3, 2)$, $(0, 3)$. The maximum of $F=x+2y$ over this region is
+A. $6$.
+B. $7$.
+C. $16$.
+D. $4$.
+::key B
+At the four vertices $F$ equals $0$, $4$, $7$, $6$; the largest is $7$, at $(3, 2)$. The value $16$ is $F(0, 8)$, but $(0, 8)$, where $2x+y=8$ meets the $y$-axis, does not satisfy $x+3y\le 9$.
+
+::tf
+Let $D$ be the solution region of the system $\begin{cases} x\ge 0,\ y\ge 0\\ x+y\le 4\\ y\le x+2 \end{cases}$
+a) The pair $(2, 1)$ is a solution of the system.
+b) The point $(1, 3)$ is a vertex of $D$.
+c) The maximum of $x+2y$ over $D$ is $8$.
+d) The minimum of $y-x$ over $D$ is $-4$.
+::key T T F T
+The vertices of $D$ are $(0, 0)$, $(4, 0)$, $(1, 3)$, $(0, 2)$. a) True: $3\le 4$ and $1\le 4$. b) True: solving $x+y=4$, $y=x+2$ gives $x=1$, $y=3$. c) False: $x+2y$ at the vertices is $0, 4, 7, 4$, so the maximum is $7$. d) True: $y-x$ at the vertices is $0, -4, 2, 2$.
+
+::sa
+How many pairs of integers $(x, y)$ satisfy the system $x\ge 0$, $y\ge 0$, $x+y\le 3$?
+::key 10
+For $x=0, 1, 2, 3$ the number of possible values of $y$ is $4, 3, 2, 1$. In total $4+3+2+1=10$ pairs.
+
+::sa
+A bakery makes $x$ batches of bread and $y$ batches of cake a day. A batch of bread needs $3$ kg of flour and $1$ hour of oven time; a batch of cake needs $2$ kg of flour and $2$ hours of oven time. Each day the bakery has $18$ kg of flour and $10$ hours of oven time. Each batch of bread makes a profit of $500$ thousand dong and each batch of cake $400$ thousand dong. What is the largest profit in one day, in thousand dong?
+::key 3200
+The system is $3x+2y\le 18$, $x+2y\le 10$, $x, y\ge 0$, with vertices $(0, 0)$, $(6, 0)$, $(4, 3)$, $(0, 5)$. The profit $F=500x+400y$ at the vertices is $0$, $3000$, $3200$, $2000$; the largest is $3200$ thousand dong ($4$ batches of bread and $3$ of cake).
 :::

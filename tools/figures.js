@@ -98,7 +98,26 @@ function compile(src) {
 }
 
 /* ---------------- shared drawing helpers ---------------- */
+/* Every label records an estimated box, so the picture can grow to fit its words (no clipped labels). */
+let BOXES = null;
+const CHAR_W = { fl: 8.6, 'fl i': 8.2, ft: 6.4 };
+const FONT_PX = { fl: 15, 'fl i': 17, ft: 11 };
+function fitViewBox(W, H) {
+  let a = 0, b = 0, c = W, d = H;
+  (BOXES || []).forEach((r) => { a = Math.min(a, r[0]); b = Math.min(b, r[1]); c = Math.max(c, r[2]); d = Math.max(d, r[3]); });
+  BOXES = null;
+  const m = 6;
+  if (a < 0) a -= m; if (b < 0) b -= m; if (c > W) c += m; if (d > H) d += m;
+  return { vb: f(a) + ' ' + f(b) + ' ' + f(c - a) + ' ' + f(d - b), w: Math.round(c - a) };
+}
 function label(text, x, y, cls, anchor) {
+  if (BOXES) {
+    const k = cls || 'fl', plain = String(text).replace(/_/g, '');
+    const w = plain.length * (CHAR_W[k] || 8.6), fp = FONT_PX[k] || 15;
+    const al = anchor || 'middle';
+    const left = al === 'start' ? x : al === 'end' ? x - w : x - w / 2;
+    BOXES.push([left, y - fp * 0.8, left + w, y + fp * 0.3]);
+  }
   // "A_1" -> subscript, plain text otherwise
   const parts = String(text).split(/_(\w+)/);
   let inner = '';
@@ -133,7 +152,7 @@ function wrap(svg, o) {
 
 /* ---------------- :::graph ---------------- */
 function graph(body, o) {
-  const cfg = { plots: [], points: [], hlines: [], vlines: [], segs: [], regions: [], labels: [], alt: '' };
+  const cfg = { plots: [], points: [], hlines: [], vlines: [], segs: [], regions: [], fills: [], labels: [], alt: '' };
   let xr = null, yr = null;
   body.split('\n').map((l) => l.trim()).filter(Boolean).forEach((line) => {
     const m = /^([a-z]+):\s*(.*)$/.exec(line);
@@ -164,37 +183,64 @@ function graph(body, o) {
       const c0 = g(0, 0), a = g(1, 0) - c0, b = g(0, 1) - c0; // a*x + b*y + c0 (op) 0
       cfg.regions.push({ a, b, c: c0, op: r[2] });
     }
+    else if (key === 'fill') {
+      const parts = clean.split(';').map((t) => t.trim());
+      const dr = /^(-?[\d.]+)\s*\.\.\s*(-?[\d.]+)$/.exec(parts[parts.length - 1] || '');
+      if (parts.length < 2 || !dr) throw new Error('fill cần dạng "fill: f(x) ; g(x) ; a..b" (g(x) có thể là 0): "' + line + '"');
+      cfg.fills.push({ top: compile(parts[0]), bot: compile(parts.length > 2 ? parts[1] : '0'), dom: [parseFloat(dr[1]), parseFloat(dr[2])] });
+    }
     else if (key === 'label') cfg.labels.push({ p: pt(val), text: parseLabelText(val) });
     else throw new Error('từ khoá không có trong :::graph: "' + key + '"');
   });
   if (!xr || !yr) throw new Error(':::graph cần có dòng "x: a..b" và "y: c..d"');
   if (!cfg.alt) throw new Error(':::graph cần có dòng "alt: mô tả hình" (cho người khiếm thị và Google)');
 
+  BOXES = [];
+  // number line: only points and segments on y = 0 -> draw just the x-axis, no y-axis or grid rows
+  const nline = !cfg.plots.length && !cfg.regions.length && !cfg.fills.length && !cfg.hlines.length && !cfg.vlines.length && cfg.labels.every((l) => Math.abs(l.p[1]) <= 1) &&
+    cfg.points.every((p) => p.p[1] === 0) && cfg.segs.every((g) => g.a[1] === 0 && g.b[1] === 0);
+  if (nline) yr = [-1, 1];
   const padL = 30, padR = 14, padT = 12, padB = 26;
   let pw = 440 - padL - padR;
-  let ph = pw * (yr[1] - yr[0]) / (xr[1] - xr[0]);
-  if (ph > 340) { pw = pw * 340 / ph; ph = 340; } // keep the true shape: make the picture narrower, never stretch it
-  const ph2 = Math.max(120, ph);
+  const ratio = (yr[1] - yr[0]) / (xr[1] - xr[0]);
+  let ph = pw * ratio;
+  if (nline) { ph = 56; }
+  else if (ratio > 4 || ratio < 0.2) { ph = 260; } // units of very different size (money vs km, height vs time): fixed shape
+  else if (ph > 340) { pw = pw * 340 / ph; ph = 340; } // keep the true shape: make the picture narrower, never stretch it
+  const ph2 = nline ? ph : Math.max(120, ph);
   const W = Math.round(pw + padL + padR);
   const H = Math.round(ph2 + padT + padB);
   const X = (x) => padL + (x - xr[0]) / (xr[1] - xr[0]) * pw;
   const Y = (y) => padT + (yr[1] - y) / (yr[1] - yr[0]) * ph2;
-  let s = '';
+  const clip = ' clip-path="url(#c' + o.uid + ')"';
+  let s = '<clipPath id="c' + o.uid + '"><rect x="' + padL + '" y="' + padT + '" width="' + f(pw) + '" height="' + f(ph2) + '"/></clipPath>';
   const sx = niceStep(xr[1] - xr[0], 8), sy = niceStep(yr[1] - yr[0], 6);
+  // boxes of the point labels, so tick numbers that would sit under them are left out
+  const ptBoxes = cfg.points.filter((p) => p.text).map((p) => {
+    const pp = POS[p.pos] || POS['above-right'], x = X(p.p[0]) + pp[0], y = Y(p.p[1]) + pp[1];
+    const w = p.text.length * CHAR_W.fl, left = pp[2] === 'start' ? x : pp[2] === 'end' ? x - w : x - w / 2;
+    return [left - 2, y - 13, left + w + 2, y + 5];
+  });
+  const freeAt = (x, y, anchor) => {
+    const w = 18, left = anchor === 'end' ? x - w : x - w / 2;
+    return !ptBoxes.some((b) => left < b[2] && left + w > b[0] && y - 9 < b[3] && y + 2 > b[1]);
+  };
   // grid + ticks
+  // tick numbers: as many decimals as the step needs; Vietnamese pages use a decimal comma
+  const tick = (v, st) => { const dp = Math.max(0, -Math.floor(Math.log10(st) + 1e-9)); let t = (Math.abs(v) < 1e-12 ? 0 : v).toFixed(dp); return o.lang === 'vi' ? t.replace('.', ',') : t; };
   for (let x = Math.ceil(xr[0] / sx) * sx; x <= xr[1] + 1e-9; x += sx) {
     s += '<line class="fg" x1="' + f(X(x)) + '" y1="' + padT + '" x2="' + f(X(x)) + '" y2="' + (padT + ph2) + '"/>';
-    if (Math.abs(x) > 1e-9) s += label(f(x), X(x), Y(Math.min(Math.max(0, yr[0]), yr[1])) + 14, 'ft');
+    if ((Math.abs(x) > 1e-9 || nline) && freeAt(X(x), Y(Math.min(Math.max(0, yr[0]), yr[1])) + 14, 'middle')) s += label(tick(x, sx), X(x), Y(Math.min(Math.max(0, yr[0]), yr[1])) + 14, 'ft');
   }
-  for (let y = Math.ceil(yr[0] / sy) * sy; y <= yr[1] + 1e-9; y += sy) {
+  for (let y = Math.ceil(yr[0] / sy) * sy; !nline && y <= yr[1] + 1e-9; y += sy) {
     s += '<line class="fg" x1="' + padL + '" y1="' + f(Y(y)) + '" x2="' + (padL + pw) + '" y2="' + f(Y(y)) + '"/>';
-    if (Math.abs(y) > 1e-9) s += label(f(y), X(Math.min(Math.max(0, xr[0]), xr[1])) - 5, Y(y) + 4, 'ft', 'end');
+    if (Math.abs(y) > 1e-9 && freeAt(X(Math.min(Math.max(0, xr[0]), xr[1])) - 5, Y(y) + 4, 'end')) s += label(tick(y, sy), X(Math.min(Math.max(0, xr[0]), xr[1])) - 5, Y(y) + 4, 'ft', 'end');
   }
   const ox = X(Math.min(Math.max(0, xr[0]), xr[1])), oy = Y(Math.min(Math.max(0, yr[0]), yr[1]));
   s += '<line class="fa" x1="' + padL + '" y1="' + f(oy) + '" x2="' + (padL + pw) + '" y2="' + f(oy) + '"/>';
-  s += '<line class="fa" x1="' + f(ox) + '" y1="' + padT + '" x2="' + f(ox) + '" y2="' + (padT + ph2) + '"/>';
-  s += label('x', padL + pw - 4, oy - 6, 'fl', 'end') + label('y', ox + 9, padT + 10, 'fl', 'start');
-  s += label('O', ox - 7, oy + 14, 'ft', 'end');
+  if (!nline) s += '<line class="fa" x1="' + f(ox) + '" y1="' + padT + '" x2="' + f(ox) + '" y2="' + (padT + ph2) + '"/>';
+  s += label('x', padL + pw - 4, oy - 6, 'fl', 'end') + (nline ? '' : label('y', ox + 9, padT + 10, 'fl', 'start'));
+  if (!nline && freeAt(ox - 7, oy + 14, 'end')) s += label('O', ox - 7, oy + 14, 'ft', 'end');
 
   // shaded region: intersection of half-planes, clipped from the viewport rectangle
   if (cfg.regions.length) {
@@ -220,12 +266,25 @@ function graph(body, o) {
       let p1, p2;
       if (Math.abs(rg.b) > 1e-12) { p1 = [xr[0], -(rg.a * xr[0] + rg.c) / rg.b]; p2 = [xr[1], -(rg.a * xr[1] + rg.c) / rg.b]; }
       else { const x0 = -rg.c / rg.a; p1 = [x0, yr[0]]; p2 = [x0, yr[1]]; }
-      s += '<line class="fbound' + (strict ? ' dash' : '') + '" x1="' + f(X(p1[0])) + '" y1="' + f(Y(p1[1])) + '" x2="' + f(X(p2[0])) + '" y2="' + f(Y(p2[1])) + '"/>';
+      s += '<line' + clip + ' class="fbound' + (strict ? ' dash' : '') + '" x1="' + f(X(p1[0])) + '" y1="' + f(Y(p1[1])) + '" x2="' + f(X(p2[0])) + '" y2="' + f(Y(p2[1])) + '"/>';
     });
   }
-  cfg.vlines.forEach((l) => { s += '<line class="fcurve' + (l.dashed ? ' dash' : '') + '" x1="' + f(X(l.v)) + '" y1="' + padT + '" x2="' + f(X(l.v)) + '" y2="' + (padT + ph2) + '"/>'; });
-  cfg.hlines.forEach((l) => { s += '<line class="fcurve' + (l.dashed ? ' dash' : '') + '" x1="' + padL + '" y1="' + f(Y(l.v)) + '" x2="' + (padL + pw) + '" y2="' + f(Y(l.v)) + '"/>'; });
-  cfg.segs.forEach((g) => { s += '<line class="fcurve' + (g.dashed ? ' dash' : '') + '" x1="' + f(X(g.a[0])) + '" y1="' + f(Y(g.a[1])) + '" x2="' + f(X(g.b[0])) + '" y2="' + f(Y(g.b[1])) + '"/>'; });
+  // area between two curves (e.g. under a graph, for integrals)
+  cfg.fills.forEach((fl) => {
+    const N = 160, up = [], dn = [];
+    const cl = (y) => Math.min(Math.max(y, yr[0]), yr[1]);
+    for (let k = 0; k <= N; k++) {
+      const x = fl.dom[0] + (fl.dom[1] - fl.dom[0]) * k / N;
+      const t = fl.top(x, 0), b = fl.bot(x, 0);
+      if (!isFinite(t) || !isFinite(b)) continue;
+      up.push(f(X(x)) + ',' + f(Y(cl(t))));
+      dn.push(f(X(x)) + ',' + f(Y(cl(b))));
+    }
+    if (up.length > 1) s += '<polygon class="freg" points="' + up.concat(dn.reverse()).join(' ') + '"/>';
+  });
+  cfg.vlines.forEach((l) => { s += '<line' + clip + ' class="fcurve' + (l.dashed ? ' dash' : '') + '" x1="' + f(X(l.v)) + '" y1="' + padT + '" x2="' + f(X(l.v)) + '" y2="' + (padT + ph2) + '"/>'; });
+  cfg.hlines.forEach((l) => { s += '<line' + clip + ' class="fcurve' + (l.dashed ? ' dash' : '') + '" x1="' + padL + '" y1="' + f(Y(l.v)) + '" x2="' + (padL + pw) + '" y2="' + f(Y(l.v)) + '"/>'; });
+  cfg.segs.forEach((g) => { s += '<line' + clip + ' class="fcurve' + (g.dashed ? ' dash' : '') + '" x1="' + f(X(g.a[0])) + '" y1="' + f(Y(g.a[1])) + '" x2="' + f(X(g.b[0])) + '" y2="' + f(Y(g.b[1])) + '"/>'; });
   // curves (broken into pieces where the function is undefined or leaves the picture)
   cfg.plots.forEach((pl) => {
     const a = pl.dom ? pl.dom[0] : xr[0], b = pl.dom ? pl.dom[1] : xr[1];
@@ -239,8 +298,7 @@ function graph(body, o) {
       d += (pen ? 'L' : 'M') + f(X(x)) + ' ' + f(Y(y));
       pen = true; prev = y;
     }
-    s += '<clipPath id="c' + o.uid + '"><rect x="' + padL + '" y="' + padT + '" width="' + pw + '" height="' + ph2 + '"/></clipPath>';
-    s += '<path class="fcurve' + (pl.dashed ? ' dash' : '') + '" clip-path="url(#c' + o.uid + ')" d="' + d + '"/>';
+    s += '<path class="fcurve' + (pl.dashed ? ' dash' : '') + '"' + clip + ' d="' + d + '"/>';
   });
   cfg.points.forEach((p) => {
     s += '<circle class="' + (p.open ? 'fpt open' : 'fpt') + '" cx="' + f(X(p.p[0])) + '" cy="' + f(Y(p.p[1])) + '" r="4.5"/>';
@@ -248,7 +306,8 @@ function graph(body, o) {
   });
   cfg.labels.forEach((l) => { s += label(l.text, X(l.p[0]), Y(l.p[1]), 'fl'); });
 
-  const svg = '<svg class="fsvg" viewBox="0 0 ' + W + ' ' + H + '" style="max-width:' + W + 'px" role="img" aria-label="' + esc(cfg.alt) + '">' + s + '</svg>';
+  const fit = fitViewBox(W, H);
+  const svg = '<svg class="fsvg" viewBox="' + fit.vb + '" style="max-width:' + fit.w + 'px" role="img" aria-label="' + esc(cfg.alt) + '">' + s + '</svg>';
   return wrap(svg, o);
 }
 
@@ -304,6 +363,7 @@ function diagram(body, o) {
   const Y = (y) => H - pad - (y - y0) * scale;
   const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
 
+  BOXES = [];
   let s = '<defs><marker id="ah' + o.uid + '" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="farrowhead"/></marker></defs>';
   if (grid) {
     for (let x = Math.ceil(x0); x <= x1; x++) s += '<line class="fg" x1="' + f(X(x)) + '" y1="' + pad / 2 + '" x2="' + f(X(x)) + '" y2="' + (H - pad / 2) + '"/>';
@@ -381,7 +441,8 @@ function diagram(body, o) {
       s += label(P.text, X(P.x) + pp[0], Y(P.y) + pp[1], 'fl i', pp[2]);
     }
   });
-  const svg = '<svg class="fsvg" viewBox="0 0 ' + W + ' ' + H + '" style="max-width:' + W + 'px" role="img" aria-label="' + esc(alt) + '">' + s + '</svg>';
+  const fit = fitViewBox(W, H);
+  const svg = '<svg class="fsvg" viewBox="' + fit.vb + '" style="max-width:' + fit.w + 'px" role="img" aria-label="' + esc(alt) + '">' + s + '</svg>';
   return wrap(svg, o);
 }
 

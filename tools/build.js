@@ -22,6 +22,7 @@ const { marked } = require('marked');
 const { render, esc } = require('./render.js');
 const { mascot, icon } = require('./art.js');
 const { UI } = require('./ui.js');
+const { worksheet, WS_DIR, WS_LABEL } = require('./worksheet.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.resolve(ROOT, process.env.OUT_DIR || 'dist');
@@ -95,8 +96,8 @@ if (!/^https:\/\/[^\s/]+$/.test(site.url)) fail('data/curriculum.json: "url" ph�
 
 const LANGS = ['en', 'vi'];
 const LANG = {
-  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', htmlLang: 'en', locale: 'en-US', name: 'English' },
-  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
+  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', htmlLang: 'en', locale: 'en-US', name: 'English' },
+  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
 };
 const LEVEL = (n) => (n <= 5 ? 'primary' : n <= 9 ? 'middle' : 'high');
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -128,6 +129,7 @@ const gradeDir = (lang, g) => px.join(LANG[lang].prefix, LANG[lang].gradeSlug(g.
 const chapterDir = (lang, ch) => px.join(gradeDir(lang, ch.grade), ch.id);
 const lessonDir = (lang, ls) => px.join(chapterDir(lang, ls.chapter), ls.id);
 const aboutDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].about);
+const paperDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].paper);
 const abs = (dir) => site.url + '/' + (dir ? dir + '/' : '');
 const other = (lang) => (lang === 'en' ? 'vi' : 'en');
 
@@ -155,7 +157,7 @@ function loadLessons() {
           try {
             rendered = render(body, { marked, katex, lang, warn: (m) => warn(rel + ': ' + m) });
           } catch (e) { fail(rel + ': ' + e.message); return; }
-          ls.content[lang] = { meta, rendered, rel, modified: isoDay(gitDate(rel)), words: body.length };
+          ls.content[lang] = { meta, rendered, rel, body, modified: isoDay(gitDate(rel)), words: body.length };
         });
         return ok && ls.content.en && ls.content.vi;
       });
@@ -273,7 +275,7 @@ function shell(o) {
     '<header class="topbar">\n' +
     (o.side ? '  <button id="menu-btn" class="icon-btn" type="button" aria-label="' + esc(T.menu) + '" aria-expanded="false" aria-controls="sidebar" hidden>☰</button>\n' : '') +
     '  <a class="brand" href="' + relDir(d, homeDir(lang)) + '">' + mascot({ cls: 'brand-mark' }) + '<span>Lemon<b>math</b></span></a>\n' +
-    '  <nav class="topnav" aria-label="' + esc(T.mainNav) + '"><a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a></nav>\n' +
+    '  <nav class="topnav" aria-label="' + esc(T.mainNav) + '"><a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paper) + '</a><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a></nav>\n' +
     '  <div class="spacer"></div>\n' +
     '  <div class="searchbox" hidden><label class="sr" for="q">' + esc(T.search) + '</label>' + icon('search', 18) + '<input id="q" type="search" placeholder="' + esc(T.searchPh) + '" autocomplete="off" aria-controls="results"><ul id="results" class="results" hidden></ul></div>\n' +
     '  ' + switchLink + '\n' +
@@ -341,6 +343,7 @@ function homePage(lang) {
   }), maxDay(lessons.map((l) => l.content[lang].modified)));
 }
 
+const lc = (t) => (/^\p{Lu}\p{Ll}/u.test(t) && !/^(Oxyz|Bayes|Viète|Pythag)/.test(t) ? t.charAt(0).toLocaleLowerCase('vi') + t.slice(1) : t);
 function gradePage(lang, g) {
   const T = UI[lang], d = gradeDir(lang, g), alt = gradeDir(other(lang), g);
   const full = g.status === 'full' && g.chapters.some((c) => c.lessons.length);
@@ -348,7 +351,7 @@ function gradePage(lang, g) {
   const total = [].concat(...g.chapters.map((c) => c.lessons)).length;
   const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n' +
     '<header class="gradehead"><div><p class="eyebrow">' + esc(T.levels[g.level][0]) + '</p><h1>' + esc(T.grade(g.n)) + '</h1>' +
-    '<p class="lead">' + esc(full ? T.gradeFullLead(total, g.chapters.length) : T.gradeRoadmapLead(g.chapters.length)) + '</p></div>' + mascot({ cls: 'grade-mascot', mood: full ? 'happy' : 'wow' }) + '</header>\n' +
+    '<p class="lead">' + esc(full ? T.gradeFullLead(total, g.chapters.length, lc(g.chapters[0][lang]), lc(g.chapters.filter((c) => c.lessons.length).slice(-1)[0][lang])) : T.gradeRoadmapLead(g.chapters.length)) + '</p></div>' + mascot({ cls: 'grade-mascot', mood: full ? 'happy' : 'wow' }) + '</header>\n' +
     (full ? '' : '<p class="soon-note">' + esc(T.soonNote) + ' <a href="' + relDir(d, gradeDir(lang, grades.find((x) => x.status === 'full'))) + '">' + esc(T.tryG10) + '</a></p>\n') +
     '<div class="cards">' + g.chapters.map((ch) => chapterCard(lang, d, ch, full)).join('\n') + '</div>\n' +
     '<nav class="pager" aria-label="' + esc(T.gradeNav) + '">' +
@@ -402,7 +405,8 @@ function lessonPage(lang, ls) {
     (next ? '<a class="pager-next" href="' + link(lessonDir(lang, next)) + '"><small>' + esc(T.next) + ' →</small><span>' + esc(next.content[lang].meta.title) + '</span></a>'
       : '<a class="pager-next" href="' + link(gradeDir(lang, g)) + '"><small>' + esc(T.end) + '</small><span>' + esc(T.backToGrade) + '</span></a>') + '\n</nav>';
   const body = '<article class="lesson">\n<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + link(homeDir(lang)) + '">' + esc(T.home) + '</a><span aria-hidden="true">›</span><a href="' + link(gradeDir(lang, g)) + '">' + esc(T.grade(g.n)) + '</a><span aria-hidden="true">›</span><a href="' + link(chapterDir(lang, ch)) + '">' + esc(T.chapterN(ch.number) + ': ' + ch[lang]) + '</a></nav>\n' +
-    '<h1>' + esc(meta.title) + '</h1>\n<p class="meta">' + metaLine + '</p>\n' + toc + '\n' +
+    '<h1>' + esc(meta.title) + '</h1>\n<p class="meta">' + metaLine + '</p>\n' +
+    (ls.ws && ls.ws[lang] ? '<p class="ws-link"><a class="btn btn-outline" href="' + WS_DIR[lang] + '/">🖨 ' + esc(WS_LABEL[lang]) + '</a> <a class="ws-why" href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paperWhy) + '</a></p>\n' : '') + toc + '\n' +
     '<div class="prose">\n' + resolveLinks(r.html, d, lang, C.rel) + '\n</div>\n' +
     '<div class="lesson-actions"><button id="done-btn" class="btn btn-outline" type="button" aria-pressed="false" data-lesson="' + ls.id + '" data-on="' + esc(T.markedDone) + '" data-off="' + esc(T.markDone) + '" hidden><span class="chk" aria-hidden="true"></span><span class="done-text">' + esc(T.markDone) + '</span></button></div>\n' +
     '</article>\n' + pager;
@@ -420,8 +424,23 @@ function lessonPage(lang, ls) {
   }), C.modified);
 }
 
-function aboutPage(lang, page) {
-  const T = UI[lang], d = aboutDir(lang), alt = aboutDir(other(lang));
+function worksheetPage(lang, ls) {
+  const C = ls.content[lang], d = lessonDir(lang, ls);
+  const r = worksheet({
+    lang, md: C.body, meta: C.meta, grade: ls.grade.n, number: ls.number, lessonUrl: abs(d), backHref: '../',
+    assets: relFile(px.join(d, WS_DIR[lang]), 'assets') + '/',
+    renderMd: (md) => render(md, { marked, katex, lang, warn: (m) => warn(C.rel + ' (phiếu in): ' + m) }).html
+  });
+  if (!r) return false;
+  const file = path.join(OUT, d, r.dir, 'index.html');
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, r.html);
+  return true;
+}
+
+function aboutPage(lang, page, dirFn) {
+  dirFn = dirFn || aboutDir;
+  const T = UI[lang], d = dirFn(lang), alt = dirFn(other(lang));
   const body = '<article class="lesson about"><nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n<h1>' + esc(page.meta.title) + '</h1>\n<div class="prose">\n' + resolveLinks(page.rendered.html, d, lang, 'about') + '\n</div></article>';
   put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: page.meta.title + ' | ' + site.name, description: page.meta.description, body, math: false,
     jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: page.meta.title, url: abs(d) }])] }), page.modified);
@@ -525,7 +544,8 @@ function report() {
 function main() {
   loadLessons();
   const about = {};
-  LANGS.forEach((l) => { about[l] = loadPage(l, 'about'); });
+  const paper = {};
+  LANGS.forEach((l) => { about[l] = loadPage(l, 'about'); paper[l] = loadPage(l, 'learn-on-paper'); });
   if (errors.length) report();
 
   fs.rmSync(OUT, { recursive: true, force: true });
@@ -538,8 +558,9 @@ function main() {
       gradePage(lang, g);
       if (g.status === 'full') g.chapters.filter((c) => c.lessons.length).forEach((c) => chapterPage(lang, c));
     });
-    lessons.forEach((ls) => lessonPage(lang, ls));
+    lessons.forEach((ls) => { ls.ws = ls.ws || {}; ls.ws[lang] = worksheetPage(lang, ls); lessonPage(lang, ls); });
     if (about[lang]) aboutPage(lang, about[lang]);
+    if (paper[lang]) aboutPage(lang, paper[lang], paperDir);
     searchIndex(lang);
   });
 

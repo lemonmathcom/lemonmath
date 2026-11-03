@@ -1,38 +1,54 @@
 ---
-title: Approximate numbers and errors
-description: Measure how far an approximate number is from the true value with absolute and relative errors; round numbers and find reliable digits.
-minutes: 15
+title: Approximate values and errors
+description: Measure how far an approximate value is from the true value with absolute and relative errors; round numbers and round to a given error bound.
+minutes: 20
 ---
 
 :::goals
-- Explain what an approximate number is and write $a = \bar{a} \pm d$.
+- Explain what an approximate value is and write $a = \bar{a} \pm d$.
 - Compute the absolute error, the error bound and the relative error, and use them to compare accuracy.
-- Round numbers to a given place or to a number of significant figures.
-- Decide which digits of an approximate number are reliable.
+- Round a number to a given place and find an approximation of a number to a given error bound.
+- Write the rounded form of an approximate value when its error bound is known.
 :::
 
-A ruler says your textbook is 24.4 cm wide. A calculator says $\sqrt{2} = 1.414213562\ldots$ and the display just stops. In real life almost every number you meet, from a length to a population, is **approximate**. The real question is not "is it exact?" but "how far off can it be?". This lesson gives you the tools to answer that.
+A bicycle wheel has a diameter of $60$ cm. Its true circumference is $60\pi$ cm, but $\pi$ has infinitely many decimal places, so nobody can compute it "all the way". An uses $\pi\approx3.14$ and gets a circumference of $188.4$ cm. Binh uses $\pi\approx\dfrac{22}{7}$ and gets about $188.57$ cm. Whose result is closer to the true circumference, and by how much can it be off?
 
-## Approximate numbers and absolute error
+In real life almost every number you meet, from a length to a mass, is an **approximate value**. The important question is not "is this number exact?" but "how far off can this number be?". This lesson gives you the tools to answer that.
 
-Sometimes the exact value is impossible to write down ($\pi$, $\sqrt{2}$) and sometimes it is impossible to know (the exact mass of a bag of rice). Then we use a nearby number instead.
+## Approximate values and absolute error
 
-Let $a$ be the exact value and $\bar{a}$ an approximation of it.
+Using a calculator with many digits, $60\pi=188.4955\ldots$ cm. Compare the two results with this number:
+
+| Student | Result | Difference from $60\pi$ |
+|---|---|---|
+| An | $188.4$ | $188.4955\ldots-188.4\approx0.096$ |
+| Binh | $188.5714\ldots$ | $188.5714\ldots-188.4955\ldots\approx0.076$ |
+
+Binh's result is slightly closer. What we just did is measure the **distance** between the true value and the approximate value. That distance has its own name.
 
 :::definition Absolute error and error bound
-The **absolute error** of $\bar{a}$ is
-$$\Delta = |a - \bar{a}|.$$
-Usually we do not know $a$, so we cannot compute $\Delta$ exactly. Instead we find a number $d$ that is certainly big enough:
-$$\Delta \leq d.$$
-This $d$ is called an **error bound** (or upper bound for the error). We write
-$$a = \bar{a} \pm d,$$
-which means $\bar{a} - d \leq a \leq \bar{a} + d$.
+Let $a$ be the true value and $\bar{a}$ an approximate value of it. The **absolute error** of $\bar{a}$ is
+$$\Delta_{\bar a} = |a - \bar{a}|.$$
+Usually we do not know $a$, so we cannot compute $\Delta_{\bar a}$. Instead we find a number $d$ that is surely large enough, so that $\Delta_{\bar a} \leq d$. The number $d$ is called the **error bound** of the approximate value $\bar a$, and we write
+$$a = \bar{a} \pm d,\quad\text{meaning}\quad \bar{a} - d \leq a \leq \bar{a} + d.$$
 :::
 
-The smaller $d$ is, the better the approximation. For $\pi \approx 3.14$ we can take $d = 0.002$, so $\pi$ lies between $3.138$ and $3.142$.
+The smaller $d$ is, the better the approximation. Our first example is the most familiar approximate value of all.
 
-:::graph The number $\pi$ lies inside the interval $3.14 \pm 0.002$
-alt: A short number line from 3.136 to 3.144 with a segment from 3.138 to 3.142, a point at 3.14 and a hollow point at pi inside the segment
+:::example Writing $\pi$ as $3.14\pm d$
+Given $\pi=3.14159265\ldots$, find the absolute error of the approximation $3.14$ and choose a neat error bound $d$.
+
+**Solution.** Subtract the approximate value from the true value:
+
+$$\Delta = |\pi - 3.14| = 0.00159\ldots$$
+
+Since $0.00159\ldots<0.002$, we can take $d=0.002$.
+
+So $\pi = 3.14 \pm 0.002$, that is, $\pi$ lies in the interval $[3.138, 3.142]$.
+:::
+
+:::graph The number $\pi$ lies in $[3.138, 3.142]$
+alt: A short number line from 3.136 to 3.144 with a segment from 3.138 to 3.142, a point at 3.14 and a hollow point at pi inside the segment.
 x: 3.136..3.144
 y: -1..1
 segment: (3.138, 0) (3.142, 0)
@@ -42,124 +58,376 @@ point: (3.14, 0) "ā" above-left
 open: (3.14159, 0) "π" above-right
 :::
 
-## Relative error
+With $\pi$ we are lucky to know many digits. With a real measurement we only know that the true value lies in some interval.
 
-Is an error of 1 cm serious? For the length of a pencil, yes. For the length of a football pitch, not at all. We compare the error with the size of the number.
+:::example When the true value is unknown
+A garden is measured several times and every result lies between $24.6$ m and $25.0$ m. Choose an approximate value $\bar a$ and an error bound $d$ for its length $a$.
 
-:::definition Relative error
-The **relative error** of $\bar{a}$ is
-$$\delta = \frac{\Delta}{|\bar{a}|}.$$
-Since $\Delta \leq d$, we have the bound
-$$\delta \leq \frac{d}{|\bar{a}|},$$
-and we usually write it as a percentage. The smaller the relative error, the more **accurate** (reliable) the measurement.
+**Solution.** Take $\bar a$ as the midpoint of $[24.6, 25.0]$; then $d$ is half the length of the interval:
+
+$$\bar a=\dfrac{24.6+25.0}{2}=24.8,\qquad d=\dfrac{25.0-24.6}{2}=0.2.$$
+
+So the length of the garden is $a=24.8\pm0.2$ (m).
+
+**Check.** $24.8-0.2=24.6$ and $24.8+0.2=25.0$: exactly the two ends of the measured range.
 :::
 
-:::example How good is 3.14 for $\pi$?
-Take $\bar{a} = 3.14$ as an approximation of $\pi = 3.14159265\ldots$. Find an error bound and the relative error bound.
+## Relative error
 
-**Solution.**
-1. The absolute error is $\Delta = |\pi - 3.14| = 0.00159\ldots$.
-2. This is less than $0.002$, so we may take $d = 0.002$ and write $\pi = 3.14 \pm 0.002$.
-3. The relative error satisfies $\delta \leq \dfrac{0.002}{3.14} \approx 0.00064$, that is about $0.064\%$ (rounded to 3 decimal places of a percent).
+Is an error of $1$ cm serious? For the length of a pen, yes. For the length of a football pitch, hardly at all. To decide which measurement is **more accurate**, we must compare the error with the size of the quantity.
+
+:::definition Relative error
+The **relative error** of the approximate value $\bar{a}$ is
+$$\delta_{\bar a} = \frac{\Delta_{\bar a}}{|\bar{a}|}.$$
+Since $\Delta_{\bar a} \leq d$, we have $\delta_{\bar a} \leq \dfrac{d}{|\bar{a}|}$. The relative error is usually written as a percentage. The smaller the relative error, the more accurate the measurement.
 :::
 
 :::example Which measurement is more accurate?
-A ruler marked in millimetres gives the length of a book as $12.4\text{ cm}$ with $d = 0.1\text{ cm}$. A scale gives the mass of a student as $85\text{ kg}$ with $d = 0.5\text{ kg}$. Which measurement is more accurate?
+A football pitch is measured as $105$ m with error bound $0.2$ m. A pen is measured as $14.6$ cm with error bound $0.1$ cm. Which measurement is more accurate?
 
-**Solution.**
-1. Length: $\delta_1 \leq \dfrac{0.1}{12.4} \approx 0.0081 = 0.81\%$.
-2. Mass: $\delta_2 \leq \dfrac{0.5}{85} \approx 0.0059 = 0.59\%$.
-3. We compare relative errors, not absolute ones. Since $0.59\% < 0.81\%$, the mass measurement is more accurate, even though its absolute error bound $0.5$ is larger than $0.1$.
+**Solution.** The two quantities have different sizes and units, so we compare relative errors:
+
+$$\delta_1\le\dfrac{0.2}{105}\approx0.19\%,\qquad \delta_2\le\dfrac{0.1}{14.6}\approx0.68\%.$$
+
+So the pitch measurement is more accurate, even though its error bound of $0.2$ m (that is, $20$ cm) is much larger than $0.1$ cm.
 :::
 
-:::warning Do not compare absolute errors across different quantities
-Errors of $0.5\text{ kg}$ and $0.1\text{ cm}$ have different units and different sizes of the quantity. Always compare **relative** errors when the measured numbers are different.
+## Rounding
+
+To round a number to a given place, look at the digit just to the right of that place.
+
+- If that digit is **less than $5$**: keep the digits on the left and replace the digits on the right by $0$ (or drop them if they are decimals).
+- If that digit is **$5$ or more**: add $1$ to the digit in the rounding place, then do the same.
+
+For example, $4\,863$ rounded to the nearest hundred is $4\,900$ (because the tens digit is $6\ge5$).
+
+:::theorem Error caused by rounding
+When a number is rounded to a given place, the absolute error is at most **half a unit** of that place.
 :::
 
-## Rounding and significant figures
+**Why?** The rounded value is the multiple of that place's unit closest to the original number. Two consecutive multiples are one unit apart, so the original number is at most half a unit from the nearest one.
 
-To round a number to a chosen place, look at the digit just to the right of that place.
+:::example Rounding and its error
+Round $7\,254\,836$ to the nearest thousand and $0.58276$ to two decimal places. Find the absolute error in each case.
 
-- If that digit is **less than 5**, keep the digits on the left and replace the others by zeros (or drop them after the decimal point).
-- If that digit is **5 or more**, add 1 to the last kept digit and then do the same.
+**Solution.** We look at the digit just to the right of the rounding place.
 
-For example, $7\,459$ rounded to hundreds is $7\,500$; $3.14159$ rounded to 2 decimal places is $3.14$.
+- The hundreds digit of $7\,254\,836$ is $8\ge5$, so the thousands digit goes up: $7\,255\,000$. The error is $7\,255\,000-7\,254\,836=164\le500$.
+- The thousandths digit of $0.58276$ is $2<5$, so we keep it: $0.58$. The error is $0.58276-0.58=0.00276\le0.005$.
 
-When you round to a place, the error is at most **half a unit of that place**. So $3.14$ (rounded to hundredths) has $d = 0.005$, and $7\,500$ (rounded to hundreds) has $d = 50$.
-
-The **significant figures** of a number are its digits starting from the first non-zero digit on the left. So $0.0305$ has 3 significant figures ($3, 0, 5$), and $2.40$ has 3 ($2, 4, 0$). To round to $k$ significant figures, keep the first $k$ of them and round as above. For example, $0.0071849$ to 3 significant figures is $0.00718$, and $12\,345$ to 3 significant figures is $12\,300$.
-
-## Reliable digits
-
-Suppose $a = \bar{a} \pm d$. A digit of $\bar{a}$ is **reliable** (a "correct digit") if $d$ is at most half a unit of the place where that digit stands. All digits to the left of a reliable digit are reliable too. When we report a result, we keep only reliable digits and round off the rest.
-
-:::example Reliable digits of a population count
-The population of a town is $\bar{a} = 5\,248\,300$ with $d = 300$. Which digits are reliable? How should the number be reported?
-
-**Solution.**
-1. Half a unit of the thousands place is $500$, and $d = 300 \leq 500$. So the thousands digit $8$ is reliable, and so are the digits to its left: $5, 2, 4$.
-2. Half a unit of the hundreds place is $50$, and $d = 300 > 50$. So the hundreds digit $3$ is **not** reliable.
-3. We keep the reliable digits and round to thousands: the population is about $5\,248\,000$.
+So the rounded values are $7\,255\,000$ (error $164$) and $0.58$ (error $0.00276$), both within half a unit of the rounding place.
 :::
 
-:::example Approximating $\sqrt{2}$ with a calculator
-The calculator shows $\sqrt{2} = 1.41421356\ldots$. Round it to 2 and to 3 decimal places. Give the error bound, the relative error bound and the reliable digits in each case.
+## Approximations to a given error bound
 
-**Solution.**
-1. To 2 decimal places: $\bar{a} = 1.41$. The error is $|\sqrt{2} - 1.41| = 0.0042\ldots \leq 0.005$, so $d = 0.005$. Half a unit of the hundredths place is $0.005$, so all digits $1, 4, 1$ are reliable. The relative error is $\delta \leq \dfrac{0.005}{1.41} \approx 0.35\%$.
-2. To 3 decimal places: $\bar{a} = 1.414$. The error is $|\sqrt{2} - 1.414| = 0.00021\ldots \leq 0.0005$, so $d = 0.0005$. All four digits $1, 4, 1, 4$ are reliable. The relative error is $\delta \leq \dfrac{0.0005}{1.414} \approx 0.035\%$.
-3. More decimal places give a smaller error bound and more reliable digits.
+Two questions come up often, and both rely on the rule "the error is at most half a unit".
+
+**1. Given a known number and an error bound $d$, find an approximation.** Round the number to the place of the first non-zero digit (from the left) of $d$. The error is then at most half a unit of that place, so at most $d$.
+
+**2. Given an approximate value $\bar a$ with error bound $d$, write the rounded form of $\bar a$.** Round $\bar a$ to the **lowest place whose unit is greater than $d$**. Digits in lower places cannot be trusted, because $d$ is already larger than one whole unit of them.
+
+:::example An approximation of $\sqrt5$
+Given $\sqrt5=2.2360679\ldots$, write an approximation of $\sqrt5$ with error bound $d=0.01$, and then with $d=0.001$.
+
+**Solution.** The first non-zero digit of $d=0.01$ is in the hundredths place, so we round to two decimal places:
+
+$$\sqrt5\approx2.24,\qquad |2.24-\sqrt5|=0.0039\ldots\le0.01.$$
+
+With $d=0.001$ we round to three decimal places:
+
+$$\sqrt5\approx2.236,\qquad |\sqrt5-2.236|=0.000067\ldots\le0.001.$$
+
+So an approximation of $\sqrt5$ is $2.24$ with error bound $0.01$, and $2.236$ with error bound $0.001$.
+:::
+
+The second question goes the other way: we already have $\bar a$ and $d$, and we must drop the digits that cannot be trusted.
+
+:::example The rounded form of an approximate value
+(a) A road is $\bar a=3\,527\,418$ mm long with error bound $d=300$ mm. Write the rounded form of $\bar a$.
+
+(b) A metal block has mass $\bar b=12.4637$ kg with error bound $d=0.02$ kg. Write the rounded form of $\bar b$.
+
+**Solution.** We look for the lowest place whose unit is greater than $d$.
+
+- (a) One hundred is $100<300$, one thousand is $1000>300$. So we round to the nearest thousand: the hundreds digit is $4<5$, giving $3\,527\,000$.
+- (b) One hundredth is $0.01<0.02$, one tenth is $0.1>0.02$. So we round to one decimal place: the hundredths digit is $6\ge5$, giving $12.5$.
+
+So the rounded forms are $3\,527\,000$ mm and $12.5$ kg.
 :::
 
 :::warning Common mistakes
-- Writing $a = \bar{a} \pm d$ with a $d$ that is too small. The bound $d$ must be **at least** the true error.
-- Thinking that all printed digits are reliable. A calculator or a ruler can show digits that are only guesses.
-- Forgetting that rounding itself creates an error of up to half a unit of the last place.
+- **Choosing $d$ too small.** Writing $\pi=3.14\pm0.001$. Wrong, because the real error is $0.00159\ldots>0.001$. Right: $d$ must be at least the real error, for example $d=0.002$.
+- **Comparing absolute errors of different quantities.** Concluding that the pen ($d=0.1$ cm) is measured more accurately than the pitch ($d=0.2$ m). Wrong, because the two quantities have very different sizes. Right: compare relative errors.
+- **Keeping too many digits.** For $\bar b=12.4637\pm0.02$, writing the rounded form as $12.46$. Wrong, because $d=0.02$ is larger than one hundredth. Right: $12.5$.
+- **Rounding in a chain.** Rounding $2.346$ to one decimal place via $2.346\to2.35\to2.4$. Wrong, because only the digit just right of the rounding place counts ($4<5$). Right: $2.3$.
 :::
 
 ## Key terms
 
 :::terms
-- approximate number | số gần đúng
+- approximate value | số gần đúng
 - absolute error | sai số tuyệt đối
 - error bound | độ chính xác (của số gần đúng)
 - relative error | sai số tương đối
 - rounding | quy tròn
-- significant figure | chữ số có nghĩa
-- reliable digit | chữ số chắc
+- place value | hàng (đơn vị, chục, phần mười, ...)
+- rounded value | số quy tròn
 :::
 
 ## Summary
 
-- An approximation $\bar{a}$ of the exact value $a$ has absolute error $\Delta = |a - \bar{a}|$. An error bound $d$ satisfies $\Delta \leq d$, and we write $a = \bar{a} \pm d$.
-- The relative error is $\delta = \Delta/|\bar{a}|$, bounded by $d/|\bar{a}|$. Use it to compare the accuracy of different measurements.
-- Rounding to a place gives an error of at most half a unit of that place.
-- A digit is reliable if $d$ is at most half a unit of its place. Report only reliable digits.
+- An approximation $\bar a$ of the true value $a$ has absolute error $\Delta_{\bar a}=|a-\bar a|$. If $\Delta_{\bar a}\le d$ we write $a=\bar a\pm d$ ($d$ is the error bound).
+- Relative error $\delta_{\bar a}=\Delta_{\bar a}/|\bar a|\le d/|\bar a|$, usually a percentage; use it to compare the accuracy of different measurements.
+- Rounding to a place: look at the digit just to the right; the error is at most half a unit of that place.
+- Approximation of a number with error bound $d$: round to the place of the first non-zero digit of $d$.
+- Rounded form of $\bar a\pm d$: round to the lowest place whose unit is greater than $d$.
 
 ## Practice
 
-:::practice
-1. Round $7\,459$ to tens and to hundreds, and round $3.14159$ to 2 and to 4 decimal places.
-2. How many significant figures do $0.0305$, $2.40$ and $40.007$ have? Round $0.0071849$ to 2 significant figures.
-3. Use $\bar{a} = 1.73$ as an approximation of $\sqrt{3} = 1.7320508\ldots$. Find $\Delta$ (to 4 decimal places, rounding up), then a relative error bound as a percentage (2 decimal places).
-4. A tailor measures a cloth $8.5\text{ m}$ long with $d = 0.05\text{ m}$, and a builder measures a wall $120\text{ m}$ long with $d = 0.5\text{ m}$. Whose measurement is more accurate?
-5. Which is the better approximation of $\pi$: $\dfrac{22}{7}$ or $3.1416$? Compare their absolute errors.
-6. Let $\bar{a} = 1\,536$ with $d = 4$. Which digits are reliable? Write the result with reliable digits only.
-7. Let $\bar{a} = 45.60$ with $d = 0.03$. Which digits are reliable? How would you report it?
-8. The sides of a rectangle are measured as $25.4\text{ cm}$ and $12.6\text{ cm}$, each with $d = 0.1\text{ cm}$. Find the perimeter and an error bound for it, then its relative error bound.
-9. A student writes $\bar{a} = 2.500$ with $d = 0.001$ and claims that all four digits are reliable. Is that right? Use the idea of half a unit, and say how the number should be reported.
-10. (Challenge) For the rectangle in exercise 8, the area is estimated as $25.4 \times 12.6$. Find the possible smallest and largest areas, an error bound $d$ for the estimated area, and the reliable digits.
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+Round $4\,863$ to the nearest ten and the nearest hundred; round $2.71828$ to two and to three decimal places.
+
+::hint
+**What you need:** look at the digit just right of the rounding place; below $5$ keep, $5$ or more add $1$.
+
+**Steps:**
+1. Find the digit in the rounding place.
+2. Look at the digit just to its right.
+
+::solution
+$4\,863$: the units digit $3<5$, so to the nearest ten it is $4\,860$; the tens digit $6\ge5$, so to the nearest hundred it is $4\,900$. $2.71828$: the thousandths digit $8\ge5$, so to two decimal places it is $2.72$; the ten-thousandths digit $2<5$, so to three decimal places it is $2.718$.
+
+**Answer.** $4\,860$; $4\,900$; $2.72$; $2.718$.
 :::
 
-:::solution Show solutions
-1. To tens: $7\,459 \to 7\,460$ (the units digit $9 \geq 5$). To hundreds: $7\,459 \to 7\,500$ (the tens digit $5 \geq 5$). Then $3.14159 \to 3.14$ (the next digit is $1$) and $3.14159 \to 3.1416$ (the next digit is $9$).
-2. $0.0305$ has 3 significant figures, $2.40$ has 3, and $40.007$ has 5. For $0.0071849$ keep $7$ and $1$; the next digit is $8 \geq 5$, so round up to $0.0072$.
-3. $\Delta = |1.7320508 - 1.73| = 0.0020508 \approx 0.0021$ (rounded up). So $d = 0.0021$ and $\delta \leq \dfrac{0.0021}{1.73} \approx 0.0012 = 0.12\%$.
-4. Tailor: $\dfrac{0.05}{8.5} \approx 0.0059 = 0.59\%$. Builder: $\dfrac{0.5}{120} \approx 0.0042 = 0.42\%$. The builder's measurement is more accurate because its relative error is smaller.
-5. $\left|\dfrac{22}{7} - \pi\right| \approx 0.00126$ and $|3.1416 - \pi| \approx 0.0000073$. The second error is much smaller, so $3.1416$ is the better approximation.
-6. Half a unit of the tens place is $5 \geq 4$, so the tens digit $3$ is reliable (and so are $1$ and $5$). Half a unit of the units place is $0.5 < 4$, so the digit $6$ is not reliable. Report $1\,540$ (rounded to tens).
-7. Half a unit of the tenths place is $0.05 \geq 0.03$, so the digit $6$ is reliable, as are $4$ and $5$. Half a unit of the hundredths place is $0.005 < 0.03$, so the last digit $0$ is not reliable. Report $45.6$.
-8. Perimeter $\bar{P} = 2(25.4 + 12.6) = 76.0\text{ cm}$. Each side may be off by $0.1$, so $d = 2(0.1 + 0.1) = 0.4\text{ cm}$ and $P = 76.0 \pm 0.4$. Relative error: $\delta \leq \dfrac{0.4}{76.0} \approx 0.0053 = 0.53\%$.
-9. No. The last digit $0$ is in the thousandths place. The error $d = 0.001$ is larger than half a unit of the thousandths place ($0.0005$), so the last $0$ is not reliable. It is smaller than half a unit of the hundredths place ($0.005$), so the digits $2, 5, 0$ are reliable. Report $2.50$.
-10. The smallest area is $25.3 \times 12.5 = 316.25$ and the largest is $25.5 \times 12.7 = 323.85$. The estimate is $25.4 \times 12.6 = 320.04\text{ cm}^2$. The distances are $|323.85 - 320.04| = 3.81$ and $|316.25 - 320.04| = 3.79$, so $d = 3.81$. Half a unit of the tens place is $5 \geq 3.81$, so the digits $3$ and $2$ are reliable, but half a unit of the units place is $0.5 < 3.81$, so $0$ is not. Report the area as about $320\text{ cm}^2$.
+:::exercise
+Given $\sqrt3=1.7320508\ldots$, take $\bar a=1.73$ as an approximation of $\sqrt3$. Show that $\Delta_{\bar a}<0.0021$ and find an upper bound for the relative error (as a percentage, rounded to two decimal places).
+
+::hint
+**What you need:** $\Delta_{\bar a}=|a-\bar a|$ and $\delta_{\bar a}\le\dfrac{d}{|\bar a|}$.
+
+**Steps:**
+1. Compute $\sqrt3-1.73$.
+2. Divide $0.0021$ by $1.73$ and convert to a percentage.
+
+::solution
+$\Delta_{\bar a}=1.7320508\ldots-1.73=0.0020508\ldots<0.0021$. Hence
+$$\delta_{\bar a}\le\dfrac{0.0021}{1.73}\approx0.0012=0.12\%.$$
+
+**Answer.** $\delta_{\bar a}\le0.12\%$.
+:::
+
+:::exercise
+Which is the better approximation of $\sqrt2=1.41421356\ldots$: $1.41$ or $\dfrac{99}{70}$?
+
+::hint
+**What you need:** the better approximation (of the same number) is the one with the smaller absolute error.
+
+**Steps:**
+1. Write $\dfrac{99}{70}$ as a decimal.
+2. Compute both absolute errors and compare.
+
+::solution
+$\dfrac{99}{70}=1.4142857\ldots$ We have
+$$|\sqrt2-1.41|\approx0.0042,\qquad \left|\dfrac{99}{70}-\sqrt2\right|\approx0.000072.$$
+The second error is far smaller.
+
+**Answer.** $\dfrac{99}{70}$ is the better approximation of $\sqrt2$.
+:::
+
+:::exercise
+Given $\sqrt7=2.6457513\ldots$ and $\pi^2=9.8696044\ldots$, write an approximation of $\sqrt7$ with error bound $0.001$ and of $\pi^2$ with error bound $0.01$.
+
+::hint
+**What you need:** rounding to the place of the first non-zero digit of $d$ gives an error of at most $d$.
+
+**Steps:**
+1. $d=0.001$: round to three decimal places.
+2. $d=0.01$: round to two decimal places.
+
+::solution
+$\sqrt7\approx2.646$ with error $\approx0.00025\le0.001$. $\pi^2\approx9.87$ with error $\approx0.0004\le0.01$.
+
+**Answer.** $\sqrt7\approx2.646$; $\pi^2\approx9.87$.
+:::
+
+:::exercise
+Write the rounded form of each approximate value: (a) $\bar a=2\,476\,154\pm2\,000$; (b) $\bar b=0.73914\pm0.004$.
+
+::hint
+**What you need:** round to the lowest place whose unit is greater than $d$.
+
+**Steps:**
+1. Compare $d$ with $1$, $10$, $100$, ... (or $0.1$, $0.01$, ...) to find the place.
+2. Round using the digit just to the right of that place.
+
+::solution
+(a) $2\,000$ is not less than $1\,000$ but is less than $10\,000$, so round to the nearest ten thousand; the thousands digit is $6\ge5$: $2\,480\,000$.
+
+(b) $0.004$ is less than $0.01$ but not less than $0.001$, so round to two decimal places; the thousandths digit is $9\ge5$: $0.74$.
+
+**Answer.** (a) $2\,480\,000$; (b) $0.74$.
+:::
+
+:::exercise
+A tailor measures a piece of cloth as $6.4$ m with error bound $0.05$ m. A builder measures a wall as $85$ m with error bound $0.4$ m. Whose measurement is more accurate?
+
+::hint
+**What you need:** the measurement with the smaller relative error is more accurate.
+
+**Steps:**
+1. Compute $\dfrac{d}{\bar a}$ for each measurement.
+2. Compare the two ratios.
+
+::solution
+Tailor: $\delta_1\le\dfrac{0.05}{6.4}\approx0.78\%$. Builder: $\delta_2\le\dfrac{0.4}{85}\approx0.47\%$.
+
+**Answer.** The builder's measurement is more accurate.
+:::
+
+:::exercise
+Let $\bar a=4.375$ be an approximation of $a$ with error bound $d=0.02$. Is each claim true or false?
+
+a) $a$ lies in the interval $[4.355, 4.395]$.
+b) The relative error of $\bar a$ is at most $0.5\%$.
+c) The rounded form of $\bar a$ is $4.38$.
+d) It is possible that $a=4.4$.
+
+::hint
+**What you need:** $a=\bar a\pm d$ means $\bar a-d\le a\le\bar a+d$; $\delta\le\dfrac{d}{|\bar a|}$; the rule for the rounded form.
+
+**Steps:**
+1. Compute $\bar a-d$ and $\bar a+d$.
+2. Compute $\dfrac{0.02}{4.375}$.
+3. Find the lowest place whose unit is greater than $0.02$.
+
+::solution
+a) **True.** $4.375-0.02=4.355$ and $4.375+0.02=4.395$.
+
+b) **True.** $\dfrac{0.02}{4.375}\approx0.46\%\le0.5\%$.
+
+c) **False.** $0.02$ is not less than $0.01$ but is less than $0.1$, so we round to one decimal place: $4.4$.
+
+d) **False.** $4.4-4.375=0.025>0.02$, so $4.4$ lies outside the interval in a).
+
+**Answer.** a) True; b) True; c) False; d) False.
+:::
+
+:::exercise
+A rectangular yard is $32.5\pm0.1$ m long and $18.4\pm0.1$ m wide. Find an upper bound for the relative error of its perimeter, as a percentage rounded to two decimal places.
+
+::hint
+**What you need:** if each side is off by at most $0.1$ m, the perimeter $2(x+y)$ is off by at most $2(0.1+0.1)$.
+
+**Steps:**
+1. Compute the approximate perimeter.
+2. Compute the error bound of the perimeter.
+3. Divide and convert to a percentage.
+
+::solution
+Approximate perimeter $\bar P=2(32.5+18.4)=101.8$ m, error bound $d=2(0.1+0.1)=0.4$ m. Hence
+$$\delta\le\dfrac{0.4}{101.8}\approx0.39\%.$$
+
+**Answer.** $\delta\le0.39\%$.
+:::
+
+:::exercise
+(Review of [Sets and set operations](lesson:sets-and-set-operations)) We know that $\pi=3.14\pm0.002$.
+
+(a) Write the set $I$ of possible values of $\pi$ given by this information as a closed interval. (b) Does $\dfrac{22}{7}$ belong to $I$? (c) Find $I\cap[3.141, 3.15]$.
+
+::hint
+**What you need:** $a=\bar a\pm d$ means $a\in[\bar a-d, \bar a+d]$; the intersection of two intervals is their common part.
+
+**Steps:**
+1. Compute the two endpoints.
+2. Write $\dfrac{22}{7}$ as a decimal and compare.
+3. Draw both intervals on a number line.
+
+::solution
+(a) $I=[3.138, 3.142]$.
+
+(b) $\dfrac{22}{7}=3.142857\ldots>3.142$, so $\dfrac{22}{7}\notin I$.
+
+(c) The common part of $[3.138, 3.142]$ and $[3.141, 3.15]$ is $[3.141, 3.142]$.
+
+**Answer.** (a) $[3.138, 3.142]$; (b) no; (c) $[3.141, 3.142]$.
+:::
+
+:::exercise Challenge
+For the yard in the previous exercise ($32.5\pm0.1$ m by $18.4\pm0.1$ m), the area is estimated as $32.5\cdot18.4$. Find the smallest and largest possible areas, an error bound $d$ for the estimated area, and then the rounded form of the area.
+
+::hint
+**What you need:** the smallest area comes from the two smallest sides, the largest from the two largest; $d$ is the larger distance from the estimate to these two values.
+
+**Steps:**
+1. Compute $32.4\cdot18.3$, $32.5\cdot18.4$ and $32.6\cdot18.5$.
+2. Compute the two distances and take the larger one as $d$.
+3. Apply the rule for the rounded form.
+
+::solution
+Estimated area $\bar S=32.5\cdot18.4=598$ m². Smallest $32.4\cdot18.3=592.92$, largest $32.6\cdot18.5=603.1$. The two distances are $598-592.92=5.08$ and $603.1-598=5.1$, so take $d=5.1$. Since $5.1$ is not less than $1$ but is less than $10$, we round $598$ to the nearest ten: $600$.
+
+**Answer.** $592.92\le S\le603.1$; $S=598\pm5.1$ (m²); the rounded form is $600$ m².
+:::
+
+## Mini test
+
+:::quiz
+::mc
+The length of a pen is $a=12.5\pm0.3$ cm. Which statement is true?
+A. $12.2\le a\le12.8$.
+B. $12.47\le a\le12.53$.
+C. $12.5\le a\le12.8$.
+D. $12.2\le a\le12.5$.
+::key A
+$a=\bar a\pm d$ means $\bar a-d\le a\le\bar a+d$, that is $12.5-0.3\le a\le12.5+0.3$. We must subtract and add, not go in one direction only.
+
+::mc
+Rounding $52\,846$ to the nearest hundred gives
+A. $52\,800$.
+B. $52\,900$.
+C. $52\,850$.
+D. $53\,000$.
+::key A
+The tens digit is $4<5$, so the hundreds digit stays: $52\,800$. Option B is the "chain rounding" mistake $52\,846\to52\,850\to52\,900$.
+
+::mc
+The approximate value $\bar a=40$ has error bound $d=0.2$. Its relative error is at most
+A. $0.2\%$.
+B. $0.5\%$.
+C. $5\%$.
+D. $200\%$.
+::key B
+$\delta_{\bar a}\le\dfrac{d}{|\bar a|}=\dfrac{0.2}{40}=0.005=0.5\%$. Option A mistakes $d$ for the relative error; D uses $\dfrac{40}{0.2}$.
+
+::mc
+The rounded form of the approximate value $\bar a=1\,734\,562$ with error bound $d=300$ is
+A. $1\,734\,600$.
+B. $1\,735\,000$.
+C. $1\,734\,000$.
+D. $1\,730\,000$.
+::key B
+One hundred is $100<300$ and one thousand is $1000>300$, so we round to the nearest thousand. The hundreds digit is $5\ge5$, giving $1\,735\,000$ (C drops digits without rounding).
+
+::tf
+Given $\sqrt5=2.2360679\ldots$, take $\bar a=2.24$ as an approximation of $\sqrt5$.
+a) The absolute error of $\bar a$ is less than $0.004$.
+b) We may write $\sqrt5=2.24\pm0.003$.
+c) With error bound $d=0.004$, the relative error of $\bar a$ is at most $0.2\%$.
+d) Rounding $\sqrt5$ to three decimal places gives $2.237$.
+::key T F T F
+a) True: $2.24-2.2360679\ldots=0.0039\ldots<0.004$. b) False: the real error $0.0039\ldots$ is larger than $0.003$. c) True: $\dfrac{0.004}{2.24}\approx0.18\%$. d) False: round to three decimal places; the next digit is $0<5$, so we get $2.236$.
+
+::sa
+A bag of rice is weighed as $49.6$ kg with error bound $0.2$ kg. What is the largest possible true mass of the bag, in kilograms?
+::key 49.8
+The true mass $a$ satisfies $49.6-0.2\le a\le49.6+0.2$, so the largest possible value is $49.8$ kg.
+
+::sa
+A leaf is measured several times and every result lies between $7.42$ cm and $7.58$ cm. Take $\bar a$ as the midpoint of this range. At most what percentage is the relative error of $\bar a$? (Round to two decimal places.)
+::key 1.07
+$\bar a=\dfrac{7.42+7.58}{2}=7.5$ and $d=\dfrac{7.58-7.42}{2}=0.08$, so $\delta\le\dfrac{0.08}{7.5}\approx1.07\%$.
 :::

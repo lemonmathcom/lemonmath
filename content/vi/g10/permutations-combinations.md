@@ -1,100 +1,147 @@
 ---
 title: Hoán vị, chỉnh hợp và tổ hợp
 description: Đếm các cách sắp xếp bằng giai thừa, đếm lựa chọn có thứ tự bằng chỉnh hợp và không có thứ tự bằng tổ hợp, và biết khi nào dùng công thức nào.
-minutes: 18
+minutes: 22
 ---
 
 :::goals
-- Dùng giai thừa để đếm các hoán vị của $n$ đối tượng.
+- Dùng giai thừa để đếm các hoán vị của $n$ phần tử.
 - Đếm chỉnh hợp $A_n^k$ (có thứ tự) và tổ hợp $C_n^k$ (không có thứ tự).
 - Quyết định dùng công thức nào bằng cách hỏi "thứ tự có quan trọng không?".
-- Giải các bài toán về ban đại diện, bắt tay, đường thẳng và điều kiện như "hai người đứng cạnh nhau".
+- Giải các bài toán về chọn nhóm, bắt tay, đường chéo và điều kiện như "hai người đứng cạnh nhau".
 :::
 
-Năm người bạn xếp hàng chụp ảnh. Có thể có bao nhiêu bức ảnh khác nhau? Bây giờ chọn hai trong năm người để cầm biểu ngữ: có bao nhiêu cách chọn? Câu hỏi đầu quan tâm đến **thứ tự**, câu hỏi sau thì không. Bài này cho bạn công thức cho cả hai, cùng một phép thử đơn giản để biết dùng công thức nào.
+Câu lạc bộ Toán của trường có $6$ thành viên. Cuối năm, câu lạc bộ cần làm ba việc: xếp cả $6$ bạn thành một hàng để chụp ảnh; bầu $3$ bạn làm chủ nhiệm, phó chủ nhiệm và thủ quỹ; và cử $3$ bạn đi thi. Ba việc này có cùng số cách thực hiện không?
 
-## Hoán vị và giai thừa
+Cả ba việc đều là "chọn rồi xếp", nhưng có việc quan tâm đến **thứ tự**, có việc thì không. Bài này cho ta công thức cho từng loại, cùng một phép thử đơn giản để biết dùng công thức nào.
+
+## Có thứ tự hay không có thứ tự?
+
+Hãy làm một thí nghiệm nhỏ với $4$ bạn $A, B, C, D$, chọn ra $2$ bạn.
+
+- Nếu chọn **một lớp trưởng và một lớp phó**, thì "$A$ trưởng, $B$ phó" khác "$B$ trưởng, $A$ phó". Liệt kê: $AB, BA, AC, CA, AD, DA, BC, CB, BD, DB, CD, DC$, tức $4\cdot3=12$ cách.
+- Nếu chỉ chọn **hai bạn đi trực nhật**, thì $AB$ và $BA$ là một. Mỗi nhóm hai bạn xuất hiện $2$ lần trong danh sách trên, nên chỉ còn $12:2=6$ cách: $\{A; B\}$, $\{A; C\}$, $\{A; D\}$, $\{B; C\}$, $\{B; D\}$, $\{C; D\}$.
+
+Cùng chọn $2$ trong $4$, nhưng một cách đếm có thứ tự ($12$), một cách không ($6$). Ta đặt tên cho từng loại.
+
+## Hoán vị
 
 :::definition Hoán vị
-**Hoán vị** của $n$ đối tượng phân biệt là một cách sắp xếp thứ tự tất cả chúng. Số hoán vị là
-$$P_n=n!=n\cdot(n-1)\cdots 2\cdot 1,\qquad 0!=1.$$
+Mỗi cách sắp xếp $n$ phần tử khác nhau theo một thứ tự gọi là một **hoán vị** của $n$ phần tử đó. Số hoán vị là
+$$P_n=n!=n\cdot(n-1)\cdots 2\cdot 1,\qquad\text{quy ước } 0!=1.$$
 :::
 
-Có $n$ cách chọn cho vị trí thứ nhất, $n-1$ cách cho vị trí thứ hai, và cứ thế: đây là quy tắc nhân trong bài [Quy tắc đếm](lesson:counting-rules).
+**Vì sao?** Vị trí thứ nhất có $n$ cách chọn, vị trí thứ hai còn $n-1$ cách, ..., vị trí cuối còn $1$ cách. Theo quy tắc nhân trong bài [Quy tắc đếm](lesson:counting-rules), ta được $n\cdot(n-1)\cdots1=n!$.
 
-:::example Sách trên giá
-Có bao nhiêu cách xếp $5$ quyển sách khác nhau thành một hàng?
+:::example Xếp sách lên giá
+Có bao nhiêu cách xếp $6$ quyển sách khác nhau thành một hàng trên giá?
 
-**Lời giải.** $P_5=5!=5\cdot4\cdot3\cdot2\cdot1=120$.
+**Lời giải.** Mỗi cách xếp là một hoán vị của $6$ quyển sách:
+
+$$P_6=6!=6\cdot5\cdot4\cdot3\cdot2\cdot1=720.$$
+
+Vậy có $720$ cách xếp. Đây cũng là số cách xếp $6$ bạn câu lạc bộ thành hàng chụp ảnh.
 :::
 
 ## Chỉnh hợp
 
+Khi chỉ chọn $k$ trong $n$ phần tử rồi xếp thứ tự, ta dừng quy tắc nhân sau $k$ bước.
+
 :::definition Chỉnh hợp
-**Chỉnh hợp** chập $k$ của $n$ đối tượng là một danh sách **có thứ tự** gồm $k$ đối tượng trong số đó. Số chỉnh hợp là
+Mỗi cách lấy $k$ phần tử từ $n$ phần tử ($1\le k\le n$) và sắp xếp chúng theo một thứ tự gọi là một **chỉnh hợp chập $k$ của $n$**. Số chỉnh hợp là
 $$A_n^k=n(n-1)\cdots(n-k+1)=\frac{n!}{(n-k)!}.$$
 :::
 
-:::example Chủ tịch, phó chủ tịch, thư kí
-Một câu lạc bộ có $8$ người bầu một chủ tịch, một phó chủ tịch và một thư kí (ba người khác nhau). Có bao nhiêu kết quả?
+Với thí nghiệm ở trên: $A_4^2=4\cdot3=12$. Ví dụ tiếp theo dùng chỉnh hợp cho một cuộc thi.
 
-**Lời giải.** Các chức vụ khác nhau nên thứ tự quan trọng: $A_8^3=8\cdot7\cdot6=336$.
+:::example Giải nhất, nhì, ba
+Có $10$ bạn chạy chung kết $100$ m. Có bao nhiêu kết quả cho ba giải nhất, nhì, ba (không có hai bạn về cùng lúc)?
+
+**Lời giải.** Ba giải khác nhau nên đổi chỗ hai bạn đoạt giải sẽ cho kết quả khác: thứ tự quan trọng, ta dùng chỉnh hợp chập $3$ của $10$:
+
+$$A_{10}^3=10\cdot9\cdot8=720.$$
+
+Vậy có $720$ kết quả. Tương tự, câu lạc bộ có $A_6^3=6\cdot5\cdot4=120$ cách bầu chủ nhiệm, phó chủ nhiệm và thủ quỹ.
 :::
 
 ## Tổ hợp
 
 :::definition Tổ hợp
-**Tổ hợp** chập $k$ của $n$ đối tượng là một cách chọn **không có thứ tự** (một tập con). Số tổ hợp là
+Mỗi tập con gồm $k$ phần tử của một tập có $n$ phần tử ($0\le k\le n$) gọi là một **tổ hợp chập $k$ của $n$**. Số tổ hợp là
 $$C_n^k=\frac{n!}{k!\,(n-k)!}=\frac{A_n^k}{k!}.$$
 :::
 
-Mỗi tập con gồm $k$ đối tượng có thể được sắp xếp theo $k!$ cách, nên chia số chỉnh hợp cho $k!$ sẽ loại bỏ thứ tự.
+**Vì sao chia cho $k!$?** Mỗi nhóm $k$ phần tử có thể xếp theo $k!$ thứ tự, nên trong $A_n^k$ mỗi nhóm bị đếm đúng $k!$ lần. Ở thí nghiệm: $C_4^2=\dfrac{12}{2!}=6$.
 
-:::example Chọn một đội
-Có bao nhiêu cách chọn $3$ người trong $8$ người để lập một đội?
+:::example Cử bạn đi thi
+(a) Câu lạc bộ $6$ bạn cử $3$ bạn đi thi. Có bao nhiêu cách? (b) Lớp có $9$ bạn tình nguyện, cần chọn $4$ bạn đi trồng cây. Có bao nhiêu cách?
 
-**Lời giải.** Thứ tự không quan trọng: $C_8^3=\frac{8\cdot7\cdot6}{3\cdot2\cdot1}=56$.
+**Lời giải.** Các bạn được cử có vai trò như nhau, đổi chỗ không tạo ra nhóm mới, nên ta dùng tổ hợp:
+
+$$C_6^3=\frac{6\cdot5\cdot4}{3\cdot2\cdot1}=20,\qquad C_9^4=\frac{9\cdot8\cdot7\cdot6}{4\cdot3\cdot2\cdot1}=126.$$
+
+Vậy có $20$ cách cử đi thi và $126$ cách chọn nhóm trồng cây. Trả lời câu hỏi đầu bài: ba việc có $720$, $120$ và $20$ cách, hoàn toàn khác nhau.
 :::
 
-Hai quy tắc hữu ích:
-- **Tính đối xứng:** $C_n^k=C_n^{n-k}$ (chọn người ở lại cũng như chọn người ra đi).
-- **Công thức Pascal:** $C_n^k+C_n^{k+1}=C_{n+1}^{k+1}$. Chẳng hạn $C_5^2+C_5^3=10+10=20=C_6^3$.
+Hai tính chất hay dùng:
+- **Tính đối xứng:** $C_n^k=C_n^{n-k}$, vì chọn $k$ người đi cũng là chọn $n-k$ người ở lại.
+- **Công thức Pascal:** $C_n^{k-1}+C_n^{k}=C_{n+1}^{k}$. Chẳng hạn $C_5^2+C_5^3=10+10=20=C_6^3$.
 
 :::tip Dùng công thức nào?
-Hãy hỏi: **nếu đổi chỗ hai đối tượng đã chọn thì có được kết quả khác không?** Có (chủ tịch và thư kí, các vị trí trên bục nhận giải): chỉnh hợp. Không (một ban đại diện, một nắm bài): tổ hợp. Nếu dùng hết cả $n$ đối tượng: hoán vị.
+Hãy hỏi: **đổi chỗ hai phần tử đã chọn có cho kết quả khác không?** Có (các chức vụ, các giải, các chữ số của một số): chỉnh hợp. Không (một nhóm, một đội, một tập con): tổ hợp. Dùng hết cả $n$ phần tử để xếp: hoán vị.
 :::
 
-## Bài toán có nhiều nhóm
+## Kết hợp với quy tắc đếm
 
-:::example Một ban đại diện
-Một lớp có $6$ nữ và $5$ nam. Có bao nhiêu cách chọn một ban đại diện gồm $2$ nữ và $3$ nam?
+Nhiều bài toán gồm vài lần chọn liên tiếp; mỗi lần chọn là một tổ hợp hay chỉnh hợp, rồi ta nhân lại.
 
-**Lời giải.** Chọn nữ và chọn nam độc lập rồi nhân lại: $C_6^2\cdot C_5^3=15\cdot10=150$.
+:::example Chọn nhóm có nam và nữ
+Một lớp có $7$ bạn nữ và $6$ bạn nam. Có bao nhiêu cách chọn một nhóm gồm $2$ bạn nữ và $3$ bạn nam?
+
+**Lời giải.** Chọn $2$ nữ trong $7$, **rồi** chọn $3$ nam trong $6$; mỗi lần chọn không có thứ tự, nên ta nhân hai tổ hợp:
+
+$$C_7^2\cdot C_6^3=21\cdot20=420.$$
+
+Vậy có $420$ cách chọn.
 :::
+
+Tổ hợp cũng đếm được các đối tượng hình học, vì một đoạn thẳng được xác định bởi một cặp điểm không có thứ tự.
 
 :::example Bắt tay và đường chéo
-(a) Trong một buổi tiệc có $10$ người, mỗi người bắt tay đúng một lần với mỗi người khác. Có bao nhiêu cái bắt tay? (b) Một lục giác có bao nhiêu đường chéo?
+(a) $12$ người gặp nhau, mỗi người bắt tay đúng một lần với mỗi người khác. Có bao nhiêu cái bắt tay? (b) Một bát giác lồi có bao nhiêu đường chéo?
 
-**Lời giải.**
-- (a) Mỗi cái bắt tay ứng với một cặp người: $C_{10}^2=45$.
-- (b) Số cặp đỉnh: $C_6^2=15$. Trong đó có $6$ cặp là cạnh, nên có $15-6=9$ đường chéo.
+**Lời giải.** Mỗi cái bắt tay ứng với một cặp người, mỗi đoạn nối hai đỉnh ứng với một cặp đỉnh:
+
+$$\text{(a) } C_{12}^2=\frac{12\cdot11}{2}=66;\qquad \text{(b) } C_8^2-8=28-8=20.$$
+
+Ở (b) ta trừ $8$ vì trong $28$ đoạn nối hai đỉnh có $8$ đoạn là cạnh. Vậy có $66$ cái bắt tay và bát giác có $20$ đường chéo.
 :::
 
-## Điều kiện: đứng cạnh nhau và không cạnh nhau
+Ví dụ cuối kết hợp hoán vị với một mẹo: coi nhiều người như một "khối".
 
-:::example Hai người đứng cạnh nhau hoặc không
-Năm người đứng thành một hàng. Có bao nhiêu cách nếu A và B (a) đứng cạnh nhau, (b) không đứng cạnh nhau?
+:::example Đứng cạnh nhau hoặc không
+Sáu bạn, trong đó có An và Bình, đứng thành một hàng. Có bao nhiêu cách xếp nếu (a) An và Bình đứng cạnh nhau; (b) An và Bình không đứng cạnh nhau?
 
 **Lời giải.**
-- (a) Ghép A và B thành một khối: $4$ đối tượng có $4!=24$ cách sắp xếp, và trong khối A, B có thể đổi chỗ: $2$ cách. Tổng cộng $2\cdot24=48$.
-- (b) Lấy tổng trừ đi kết quả câu (a): $5!-48=120-48=72$.
+
+*Hiểu đề.* Có $6!=720$ cách xếp tất cả; ta cần đếm riêng các cách có An, Bình cạnh nhau.
+
+*Tìm cách giải.* Buộc An và Bình thành một khối, đếm cách xếp các khối, rồi đếm cách xếp bên trong khối. Câu (b) là phần bù của câu (a).
+
+*Giải.* Khối $(\text{An, Bình})$ cùng $4$ bạn còn lại là $5$ "đối tượng", và trong khối có $2$ cách đổi chỗ:
+
+$$\text{(a) } 2\cdot5!=2\cdot120=240;\qquad \text{(b) } 6!-240=720-240=480.$$
+
+*Nhìn lại.* Đếm trực tiếp (b) rất dễ sót trường hợp; đếm phần bù vừa nhanh vừa chắc.
+
+Vậy có $240$ cách để An và Bình đứng cạnh nhau và $480$ cách để hai bạn không đứng cạnh nhau.
 :::
 
 :::warning Những sai lầm thường gặp
-- Dùng chỉnh hợp khi thứ tự không quan trọng (mỗi nhóm bị đếm $k!$ lần).
-- Quên chia cho $k!$ và $(n-k)!$ trong $C_n^k$.
-- Đếm trực tiếp "A và B không cạnh nhau" rồi bỏ sót trường hợp; đếm phần bù dễ hơn.
-- Viết $n!$ cho $n$ đối tượng khi chỉ xếp $k$ đối tượng trong số đó.
+- **Dùng chỉnh hợp khi thứ tự không quan trọng.** Chọn $3$ bạn đi thi trong $6$ bạn được tính là $A_6^3=120$. Sai vì mỗi nhóm bị đếm $3!=6$ lần. Đúng: $C_6^3=20$.
+- **Dùng tổ hợp khi có chức vụ.** Bầu chủ nhiệm, phó chủ nhiệm, thủ quỹ được tính là $C_6^3=20$. Sai vì đổi chức vụ của hai bạn cho kết quả khác. Đúng: $A_6^3=120$.
+- **Quên xếp bên trong khối.** Đếm "An, Bình cạnh nhau" là $5!=120$. Sai vì bỏ sót thứ tự Bình–An. Đúng: $2\cdot5!=240$.
+- **Cộng thay vì nhân.** Chọn $2$ nữ và $3$ nam được tính là $C_7^2+C_6^3=41$. Sai vì đây là hai bước liên tiếp. Đúng: $C_7^2\cdot C_6^3=420$.
 :::
 
 ## Thuật ngữ
@@ -112,35 +159,246 @@ Năm người đứng thành một hàng. Có bao nhiêu cách nếu A và B (a)
 
 ## Tóm tắt
 
-- $n!$ là số cách sắp xếp thứ tự $n$ đối tượng.
-- $A_n^k=\frac{n!}{(n-k)!}$ đếm lựa chọn có thứ tự; $C_n^k=\frac{n!}{k!(n-k)!}$ đếm lựa chọn không có thứ tự.
-- $C_n^k=C_n^{n-k}$ và $C_n^k+C_n^{k+1}=C_{n+1}^{k+1}$.
-- Phép thử: đổi chỗ hai đối tượng đã chọn có làm kết quả thay đổi không?
+- **Hoán vị**: xếp hết $n$ phần tử, $P_n=n!$ (quy ước $0!=1$).
+- **Chỉnh hợp**: chọn $k$ trong $n$ **có thứ tự**, $A_n^k=\dfrac{n!}{(n-k)!}$.
+- **Tổ hợp**: chọn $k$ trong $n$ **không có thứ tự**, $C_n^k=\dfrac{n!}{k!(n-k)!}=\dfrac{A_n^k}{k!}$.
+- $C_n^k=C_n^{n-k}$ và $C_n^{k-1}+C_n^{k}=C_{n+1}^{k}$.
+- Phép thử: đổi chỗ hai phần tử đã chọn có làm kết quả thay đổi không? Có: chỉnh hợp; không: tổ hợp.
+- "Cạnh nhau": buộc thành khối và nhân với số cách xếp trong khối; "không cạnh nhau": đếm phần bù.
 
 ## Luyện tập
 
-:::practice
-1. Tính $6!$.
-2. Tính $A_7^2$.
-3. Tính $C_{10}^3$.
-4. Tìm $n$ nếu $C_n^2=28$.
-5. Từ $7$ nam và $5$ nữ, chọn một đội gồm $3$ nam và $2$ nữ. Có bao nhiêu cách?
-6. Có bao nhiêu số có $3$ chữ số khác nhau lập từ các chữ số $1, 2, \dots, 7$?
-7. Sáu người đứng thành một hàng. Có bao nhiêu cách nếu A và B không đứng cạnh nhau?
-8. Có bao nhiêu từ (không nhất thiết có nghĩa) lập từ các chữ cái của MATH? Có bao nhiêu từ bắt đầu bằng M?
-9. Thử thách. Một đa giác $10$ cạnh có bao nhiêu đường chéo?
-10. Thử thách. Có tám điểm được đánh dấu trên một đường tròn. Có bao nhiêu tam giác và bao nhiêu tứ giác có các đỉnh là các điểm này?
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+Tính $7!$, $A_8^3$ và $C_9^2$.
+
+::hint
+**Kiến thức:** $n!=n(n-1)\cdots1$, $A_n^k=n(n-1)\cdots(n-k+1)$, $C_n^k=\dfrac{A_n^k}{k!}$.
+
+**Gợi ý các bước:**
+1. Nhân các số liên tiếp.
+2. Với $C_9^2$, tính $A_9^2$ rồi chia cho $2!$.
+
+::solution
+$7!=5040$; $A_8^3=8\cdot7\cdot6=336$; $C_9^2=\dfrac{9\cdot8}{2}=36$.
+
+**Đáp số.** $5040$; $336$; $36$.
 :::
 
-:::solution Xem lời giải
-1. $6!=720$.
-2. $7\cdot6=42$.
-3. $\frac{10\cdot9\cdot8}{3\cdot2\cdot1}=120$.
-4. $\frac{n(n-1)}{2}=28$, suy ra $n^2-n-56=0$ và $n=8$ (loại nghiệm âm).
-5. $C_7^3\cdot C_5^2=35\cdot10=350$.
-6. Thứ tự quan trọng: $A_7^3=7\cdot6\cdot5=210$.
-7. Tổng $6!=720$. A và B đứng cạnh nhau: $2\cdot5!=240$. Không cạnh nhau: $720-240=480$.
-8. $4!=24$ từ. Khi M đứng đầu, ba chữ cái còn lại có $3!=6$ cách sắp xếp.
-9. Số cặp đỉnh $C_{10}^2=45$ trừ $10$ cạnh: $35$.
-10. Tam giác $C_8^3=56$; tứ giác $C_8^4=70$ (bốn điểm bất kì trên đường tròn đều tạo thành một tứ giác).
+:::exercise
+Tìm số tự nhiên $n\ge2$ thoả mãn $A_n^2=56$.
+
+::hint
+**Kiến thức:** $A_n^2=n(n-1)$.
+
+**Gợi ý các bước:**
+1. Viết phương trình $n(n-1)=56$.
+2. Giải phương trình bậc hai và chọn nghiệm là số tự nhiên.
+
+::solution
+$n(n-1)=56\iff n^2-n-56=0\iff(n-8)(n+7)=0$. Vì $n\ge2$ nên $n=8$.
+
+**Đáp số.** $n=8$.
+:::
+
+:::exercise
+Từ các chữ số $1, 2, 3, 4, 5, 6$ lập được bao nhiêu số có bốn chữ số khác nhau?
+
+::hint
+**Kiến thức:** đổi chỗ hai chữ số cho một số khác, nên dùng chỉnh hợp.
+
+**Gợi ý các bước:**
+1. Xác định $n$ và $k$.
+2. Tính $A_n^k$.
+
+::solution
+Mỗi số là một chỉnh hợp chập $4$ của $6$ chữ số (không có chữ số $0$ nên không lo chữ số đầu): $A_6^4=6\cdot5\cdot4\cdot3=360$.
+
+**Đáp số.** $360$.
+:::
+
+:::exercise
+Một nhóm có $5$ bạn nam và $4$ bạn nữ. Có bao nhiêu cách chọn $3$ bạn đi dự hội nghị sao cho có ít nhất một bạn nữ?
+
+::hint
+**Kiến thức:** đếm phần bù: "ít nhất một nữ" $=$ tất cả $-$ "không có nữ".
+
+**Gợi ý các bước:**
+1. Đếm mọi cách chọn $3$ trong $9$ bạn.
+2. Đếm các cách chọn toàn nam.
+3. Lấy hiệu.
+
+::solution
+Tất cả: $C_9^3=84$. Toàn nam: $C_5^3=10$. Vậy có $84-10=74$ cách.
+
+**Đáp số.** $74$.
+:::
+
+:::exercise
+Một giải bóng đá có $8$ đội, đá vòng tròn một lượt (hai đội bất kì gặp nhau đúng một lần). Giải có bao nhiêu trận đấu?
+
+::hint
+**Kiến thức:** mỗi trận ứng với một cặp đội không có thứ tự.
+
+**Gợi ý các bước:**
+1. Nhận ra đây là chọn $2$ trong $8$ không có thứ tự.
+2. Tính $C_8^2$.
+
+::solution
+Mỗi trận là một tổ hợp chập $2$ của $8$ đội: $C_8^2=\dfrac{8\cdot7}{2}=28$.
+
+**Đáp số.** $28$.
+:::
+
+:::exercise
+Một tổ có $10$ học sinh, trong đó có bạn An. Mỗi khẳng định sau đúng hay sai?
+
+a) Có $720$ cách chọn $3$ bạn làm tổ trưởng, tổ phó và thư kí.
+b) Có $720$ cách chọn $3$ bạn đi trực nhật.
+c) $C_{10}^3=C_{10}^7$.
+d) Có $45$ cách chọn $3$ bạn đi trực nhật, trong đó có bạn An.
+
+::hint
+**Kiến thức:** có chức vụ thì dùng chỉnh hợp, không có thì dùng tổ hợp; $C_n^k=C_n^{n-k}$.
+
+**Gợi ý các bước:**
+1. Tính $A_{10}^3$ và $C_{10}^3$.
+2. Với d), An đã được chọn, chỉ cần chọn thêm $2$ bạn.
+
+::solution
+a) **Đúng.** Ba chức vụ khác nhau: $A_{10}^3=10\cdot9\cdot8=720$.
+
+b) **Sai.** Trực nhật không có thứ tự: $C_{10}^3=120$.
+
+c) **Đúng.** Theo tính đối xứng, cả hai bằng $120$.
+
+d) **Sai.** Chọn thêm $2$ bạn trong $9$ bạn còn lại: $C_9^2=36$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+:::
+
+:::exercise
+Xếp $3$ bạn nam và $3$ bạn nữ ngồi vào một hàng $6$ ghế sao cho nam và nữ ngồi xen kẽ. Có bao nhiêu cách xếp?
+
+::hint
+**Kiến thức:** quy tắc nhân và hoán vị.
+
+**Gợi ý các bước:**
+1. Có hai kiểu xen kẽ: nam ở ghế đầu hoặc nữ ở ghế đầu.
+2. Với mỗi kiểu, xếp $3$ nam vào $3$ ghế của nam và $3$ nữ vào $3$ ghế của nữ.
+
+::solution
+Chọn kiểu xen kẽ: $2$ cách. Xếp nam: $3!=6$ cách, xếp nữ: $3!=6$ cách. Tổng: $2\cdot6\cdot6=72$.
+
+**Đáp số.** $72$.
+:::
+
+:::exercise
+Trên một đường tròn có $9$ điểm phân biệt. Có bao nhiêu tam giác và bao nhiêu tứ giác có các đỉnh là các điểm này?
+
+::hint
+**Kiến thức:** ba điểm trên đường tròn không thẳng hàng; mỗi tam giác (tứ giác) ứng với một tập $3$ (hay $4$) điểm.
+
+**Gợi ý các bước:**
+1. Đếm số tập $3$ điểm.
+2. Đếm số tập $4$ điểm.
+
+::solution
+Tam giác: $C_9^3=84$. Tứ giác: $C_9^4=126$ (bốn điểm trên đường tròn, nối theo thứ tự trên đường tròn, cho đúng một tứ giác lồi).
+
+**Đáp số.** $84$ tam giác; $126$ tứ giác.
+:::
+
+:::exercise
+(Ôn tập bài [Quy tắc đếm](lesson:counting-rules)) Một mã gồm $2$ chữ cái khác nhau chọn trong $A, B, C, D, E$ rồi đến $3$ chữ số khác nhau. Có bao nhiêu mã như vậy?
+
+::hint
+**Kiến thức:** quy tắc nhân; mỗi phần của mã là một chỉnh hợp.
+
+**Gợi ý các bước:**
+1. Đếm phần chữ cái: $A_5^2$.
+2. Đếm phần chữ số: $A_{10}^3$.
+3. Nhân hai kết quả.
+
+::solution
+Phần chữ cái: $A_5^2=20$. Phần chữ số: $A_{10}^3=720$. Theo quy tắc nhân: $20\cdot720=14\,400$.
+
+**Đáp số.** $14\,400$ mã.
+:::
+
+:::exercise Thử thách
+Từ các chữ số $0, 1, 2, 3, 4, 5$ lập được bao nhiêu số có bốn chữ số khác nhau chia hết cho $5$?
+
+::hint
+**Kiến thức:** số chia hết cho $5$ tận cùng là $0$ hoặc $5$; chữ số đầu khác $0$.
+
+**Gợi ý các bước:**
+1. Tận cùng $0$: ba chữ số đầu là chỉnh hợp chập $3$ của $5$ chữ số còn lại.
+2. Tận cùng $5$: chữ số đầu có $4$ cách (khác $0$, khác $5$), rồi chọn hai chữ số giữa.
+3. Cộng hai trường hợp.
+
+::solution
+Tận cùng $0$: $A_5^3=60$. Tận cùng $5$: chữ số đầu $4$ cách, hai chữ số giữa $A_4^2=12$ cách, được $48$. Tổng: $60+48=108$.
+
+**Đáp số.** $108$.
+:::
+
+## Kiểm tra mini
+
+:::quiz
+::mc
+Có bao nhiêu cách chọn $2$ bạn trong $7$ bạn để trực nhật?
+A. $21$.
+B. $42$.
+C. $14$.
+D. $49$.
+::key A
+Hai bạn trực nhật không phân biệt vai trò nên dùng tổ hợp: $C_7^2=\dfrac{7\cdot6}{2}=21$. Phương án B là $A_7^2$ (tính cả thứ tự), mỗi nhóm bị đếm hai lần.
+
+::mc
+Có $8$ vận động viên thi chạy. Có bao nhiêu kết quả có thể cho ba vị trí nhất, nhì, ba (không có hai người về đích cùng lúc)?
+A. $56$.
+B. $336$.
+C. $512$.
+D. $6$.
+::key B
+Ba giải khác nhau nên thứ tự quan trọng: $A_8^3=8\cdot7\cdot6=336$. Phương án A là $C_8^3$ (bỏ qua thứ tự); phương án C là $8^3$ (cho phép một người đạt nhiều giải).
+
+::mc
+Số nào sau đây bằng $C_{10}^3$?
+A. $A_{10}^7$.
+B. $C_7^3$.
+C. $C_{10}^7$.
+D. $\dfrac{10!}{3!}$.
+::key C
+Tính chất đối xứng $C_n^k=C_n^{n-k}$: chọn $3$ người đi cũng là chọn $7$ người ở lại. Phương án D quên chia cho $7!$.
+
+::mc
+Một đa giác lồi có $10$ đỉnh. Số đường chéo của đa giác đó là
+A. $45$.
+B. $35$.
+C. $90$.
+D. $80$.
+::key B
+Mỗi đoạn nối hai đỉnh ứng với một tổ hợp chập $2$ của $10$: $C_{10}^2=45$, trong đó có $10$ cạnh. Số đường chéo là $45-10=35$. Phương án A quên trừ các cạnh.
+
+::tf
+Một nhóm có $4$ bạn nam và $3$ bạn nữ.
+a) Có $5040$ cách xếp cả $7$ bạn thành một hàng ngang.
+b) Có $12$ cách chọn $3$ bạn trong đó có đúng một bạn nữ.
+c) Có $120$ cách xếp $7$ bạn thành một hàng ngang sao cho $3$ bạn nữ đứng cạnh nhau.
+d) Có $15$ cách chọn $2$ bạn trong đó có ít nhất một bạn nữ.
+::key Đ S S Đ
+a) Đúng: $P_7=7!=5040$. b) Sai: chọn $1$ nữ và $2$ nam: $C_3^1\cdot C_4^2=3\cdot6=18$. c) Sai: buộc $3$ bạn nữ thành một khối, có $5!$ cách xếp $5$ "vật" và $3!$ cách xếp trong khối: $720$. d) Đúng: $C_7^2-C_4^2=21-6=15$.
+
+::sa
+Tìm số tự nhiên $n\ge 2$ thoả mãn $C_n^2=45$.
+::key 10
+$C_n^2=\dfrac{n(n-1)}{2}=45\iff n^2-n-90=0\iff(n-10)(n+9)=0$. Vì $n\ge2$ nên $n=10$.
+
+::sa
+Từ các chữ số $0, 1, 2, 3, 4, 5$ lập được bao nhiêu số chẵn có ba chữ số đôi một khác nhau?
+::key 52
+Tận cùng là $0$: hai chữ số đầu là một chỉnh hợp chập $2$ của $5$ chữ số còn lại, $A_5^2=20$ số. Tận cùng là $2$ hoặc $4$: chữ số đầu có $4$ cách (khác $0$ và khác chữ số cuối), chữ số giữa có $4$ cách, được $2\cdot4\cdot4=32$ số. Tổng cộng $20+32=52$.
 :::

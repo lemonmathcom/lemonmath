@@ -1,41 +1,43 @@
 ---
 title: Counting rules
-description: Use the addition rule, the multiplication rule, tree diagrams and the complement trick to count choices, numbers and passwords without listing them.
-minutes: 14
+description: Use the addition rule, the multiplication rule, tree diagrams and complementary counting to count choices, numbers and passwords without listing them.
+minutes: 20
 ---
 
 :::goals
-- Decide whether a counting problem needs the addition rule or the multiplication rule.
+- Recognise whether a counting problem needs the addition rule or the multiplication rule.
 - Use a tree diagram to organise choices made in several steps.
-- Count numbers, passwords and routes with restrictions on digits or letters.
-- Count "at least one" and "not ..." situations with the complement trick.
+- Count numbers, codes and routes with restrictions on digits or letters.
+- Count "at least one" situations by counting the complement.
 :::
 
-How many different outfits can you make from 4 shirts, 3 pairs of trousers and 2 pairs of shoes? You could list them all, but the list would be long and easy to get wrong. Counting rules let you find the number by thinking about the *structure* of the choice instead of writing everything down. They are the foundation for permutations, combinations and probability.
+The school library gives each reader a card code made of one letter from the five letters $A, B, C, D, E$, followed by three digits. The library has $4\,800$ readers. Are there enough codes for every reader to get a different one? And what if the three digits in a code must be different?
+
+Listing all the codes would take far too long. The **counting rules** let us find the number by looking at the *structure* of the choice instead of writing out every possibility. They are the foundation of permutations, combinations and probability.
 
 ## The addition rule
 
-Suppose you want to read one book from the shelf. There are 5 maths books and 4 novels. You pick *either* a maths book *or* a novel, never both at once, so there are $5+4=9$ possible choices.
+Your class may visit **one** place: either one of $3$ museums or one of $2$ parks. Each place belongs to exactly one group, so the number of choices is $3+2=5$. We just count each group and add.
 
 :::definition Addition rule
-If a task can be done in one of two ways that **cannot happen together**, with $m$ possibilities for the first way and $n$ for the second, then the task can be done in $m+n$ ways. The same holds for any number of ways: add the numbers.
+If a task can be done by one of two options **with no choice in common**, the first option in $m$ ways and the second in $n$ ways, then the task can be done in $m+n$ ways. The same holds for more options: add the numbers.
 :::
 
-The key words are "**or**" and "**mutually exclusive**": a single choice belongs to exactly one group.
+The signal is the word "**or**": each choice belongs to exactly one group.
 
-:::example Choosing one book
-A shelf holds 5 maths books, 4 novels and 3 science books. In how many ways can you pick one book to take home?
+:::example Choosing a book
+The class bookshelf holds $7$ comics, $5$ science books and $4$ novels. In how many ways can you choose one book to borrow?
 
-**Solution.**
-1. Every book belongs to exactly one of the three groups, so the groups are mutually exclusive.
-2. You pick a maths book **or** a novel **or** a science book, so we add: $5+4+3=12$.
+**Solution.** Each book belongs to exactly one of the three groups, and we choose a book from one group **or** another, so we use the addition rule:
 
-There are 12 ways.
+$$7+5+4=16.$$
+
+So there are $16$ ways to choose.
 :::
 
 ## The multiplication rule
 
-Now suppose you want to pick a snack **and** a drink. The choice happens in successive steps. A tree diagram shows every possibility: from the start you choose a drink (tea or juice), and for each drink you choose a snack (cake, fruit or nuts).
+Now we choose a drink **and** a snack. The choice happens in two successive steps: choose a drink (tea or juice), then for each drink choose a snack (cake, fruit or nuts). A tree diagram shows every possibility.
 
 :::diagram Tree diagram: 2 drinks, then 3 snacks
 alt: A tree starting at one point, splitting into two drinks, tea and juice, and each drink splitting into three snacks, giving six branches in total
@@ -58,101 +60,123 @@ segment J J2
 segment J J3
 :::
 
-Count the right-hand ends of the tree: $3+3=6$, which is the same as $2\times 3$.
+Count the ends of the branches on the right: $3+3=6$. Each drink opens the same $3$ branches, so we can also write $2\cdot3=6$.
 
 :::definition Multiplication rule
-If a task is done in **successive steps**, with $n_1$ ways for step 1, and for each of them $n_2$ ways for step 2, and so on up to $n_k$ ways for step $k$, then the whole task can be done in
+If a task is done in **successive steps**, step 1 in $n_1$ ways, then for each of those step 2 in $n_2$ ways, ..., step $k$ in $n_k$ ways, then the whole task can be done in
 $$n_1\cdot n_2\cdots n_k$$
 ways.
 :::
 
-The key word is "**and**": you do step 1 **and** then step 2 **and** then step 3.
+**Why?** On the tree diagram each branch of step 1 splits into $n_2$ branches, so after two steps there are $n_1$ groups of $n_2$ branches, that is $n_1\cdot n_2$ branches. Repeat for the later steps.
 
-:::example Outfits
-In how many ways can you choose a shirt, a pair of trousers and a pair of shoes from 4 shirts, 3 pairs of trousers and 2 pairs of shoes?
+The signal is the word "**and**" (or "then"): do step 1, **then** step 2, **then** step 3.
 
-**Solution.**
-1. There are 3 steps: shirt (4 ways), trousers (3 ways), shoes (2 ways).
-2. The choices are made one after another and do not restrict each other, so we multiply: $4\cdot 3\cdot 2=24$.
+:::example Choosing an outfit
+Lan has $5$ shirts, $4$ pairs of trousers and $2$ pairs of shoes. An outfit is one shirt, one pair of trousers and one pair of shoes. How many different outfits does Lan have?
 
-There are 24 outfits.
+**Solution.** Choosing an outfit takes three successive steps (shirt, then trousers, then shoes), and the number of ways at each step does not depend on the previous step, so we use the multiplication rule:
+
+$$5\cdot4\cdot2=40.$$
+
+So Lan has $40$ outfits.
 :::
 
 :::tip Add or multiply?
-Ask yourself: "Do I do one thing **or** the other?" Then add. "Do I do one thing **and then** another?" Then multiply. Many problems use both: multiply along a route, then add the different routes.
+Ask yourself: "Do we do this **or** that?" Then add. "Do we do this **and then** that?" Then multiply. Many problems use both: multiply along one option, then add the different options.
 :::
 
-## Numbers, passwords and routes
+## Numbers, codes and routes
 
-### Numbers with restrictions
+When there is a restriction, **fill the most restricted position first**, and split into cases if the number of ways at one step depends on an earlier choice.
 
-When a digit has a restriction, **fill the most restricted position first**.
+:::example Making numbers from given digits
+Using the digits $0, 1, 2, 3, 4, 5$, how many three-digit numbers with distinct digits can be made? How many of them are even?
 
-:::example Three-digit numbers with distinct digits
-How many three-digit numbers have three different digits? How many of them are even?
+**Solution.** The hundreds digit cannot be $0$, so we choose it first:
 
-**Solution.**
-1. *All such numbers.* The hundreds digit cannot be 0: 9 ways. The tens digit can be any digit except the one already used: 9 ways (0 is now allowed). The units digit differs from both: 8 ways. Total $9\cdot 9\cdot 8=648$.
-2. *Even numbers.* The units digit decides, so start there. Split into two cases (addition rule).
-   - Units digit 0: the hundreds digit has 9 ways, the tens digit 8 ways, giving $9\cdot 8=72$ numbers.
-   - Units digit 2, 4, 6 or 8 (4 ways): the hundreds digit cannot be 0 or the units digit, so 8 ways; the tens digit has 8 ways left. This gives $4\cdot 8\cdot 8=256$ numbers.
-3. Add the cases: $72+256=328$.
+$$\underbrace{5}_{\text{hundreds}}\cdot\underbrace{5}_{\text{tens}}\cdot\underbrace{4}_{\text{units}}=100.$$
 
-So 648 numbers in all, and 328 of them are even.
+For an even number, the units digit is $0$, $2$ or $4$. The number of choices for the hundreds digit depends on whether the units digit is $0$, so we split into two cases:
+- Units digit $0$: the hundreds digit has $5$ choices, the tens digit $4$, giving $5\cdot4=20$ numbers.
+- Units digit $2$ or $4$ ($2$ choices): the hundreds digit is neither $0$ nor the units digit, so $4$ choices; the tens digit has $4$ choices, giving $2\cdot4\cdot4=32$ numbers.
+
+The two cases share no number, so we add: $20+32=52$.
+
+So $100$ three-digit numbers with distinct digits can be made, and $52$ of them are even.
 :::
 
-### Passwords
+Now we can answer the question about the library codes from the start of the lesson.
 
-:::example A password
-A password has 4 characters: first one capital letter (26 choices), then three digits. How many passwords are there if the digits may repeat? How many if the three digits must be all different?
+:::example Library card codes
+Each card code is one letter from $A, B, C, D, E$ followed by three digits. How many codes are there if digits may repeat? How many if the three digits must be different? Is each enough for $4\,800$ readers?
 
-**Solution.**
-1. Repeats allowed: $26\cdot 10\cdot 10\cdot 10=26\,000$.
-2. All digits different: the first digit has 10 ways, the second 9, the third 8, so $26\cdot 10\cdot 9\cdot 8=18\,720$.
+**Solution.** A code has four positions filled one after another, so we use the multiplication rule.
+
+When digits may repeat, each digit has $10$ choices:
+
+$$5\cdot10\cdot10\cdot10=5\,000.$$
+
+When the three digits are different, each digit has one choice fewer than the one before:
+
+$$5\cdot10\cdot9\cdot8=3\,600.$$
+
+So there are $5\,000$ codes when digits may repeat, enough for $4\,800$ readers; but only $3\,600$ codes when the digits must be different, which is not enough.
 :::
 
-### Routes
+The addition and multiplication rules often work together, as in the next route problem.
 
 :::example Routes between towns
-There are 3 roads from town A to town B and 4 roads from B to C. There are also 2 roads going directly from A to C. How many routes lead from A to C?
+There are $4$ roads from town $A$ to town $B$, $2$ roads from $B$ to town $C$, and also $3$ roads going directly from $A$ to $C$. In how many ways can you travel from $A$ to $C$?
 
-**Solution.**
-1. Through B: 3 roads and then 4 roads, so $3\cdot 4=12$ routes (multiplication rule).
-2. Directly: 2 routes.
-3. A route goes through B **or** is direct, so we add: $12+2=14$.
+**Solution.** A route either passes through $B$ or goes directly. Going through $B$ takes two successive steps, so we use the multiplication rule there:
+
+$$\underbrace{4\cdot2}_{\text{via } B}+\underbrace{3}_{\text{direct}}=8+3=11.$$
+
+So there are $11$ ways to travel from $A$ to $C$.
 :::
 
-## The complement trick
+## Complementary counting
 
-Sometimes it is easier to count what you **do not** want. If $N$ is the total number of possibilities and $M$ of them do not satisfy the condition, then the number that do satisfy it is $N-M$.
+Sometimes it is easier to count the cases we do **not** want. If there are $N$ possibilities in all and $M$ of them fail the condition, then $N-M$ possibilities satisfy it.
 
-:::example At least one digit 7
-How many four-digit numbers contain at least one digit 7?
+:::example At least one even digit
+How many three-digit numbers contain at least one even digit?
 
-**Solution.**
-1. Total four-digit numbers: from 1000 to 9999, that is $9\cdot 10\cdot 10\cdot 10=9000$.
-2. Numbers with **no** digit 7: the first digit has 8 choices (not 0, not 7), each other digit has 9 choices (not 7). So $8\cdot 9\cdot 9\cdot 9=5832$.
-3. Subtract: $9000-5832=3168$.
+**Solution.** "At least one" covers several cases (one, two or three even digits), while the complement "no even digit" is a single case. We count everything and subtract the complement.
 
-There are 3168 such numbers.
+All three-digit numbers (hundreds digit not $0$):
+
+$$9\cdot10\cdot10=900.$$
+
+Numbers whose three digits are all odd (each chosen from $1, 3, 5, 7, 9$):
+
+$$5\cdot5\cdot5=125.$$
+
+So $900-125=775$ three-digit numbers contain at least one even digit.
 :::
 
-## Checking by computer
+## Checking with a computer
 
-A short program can check a counting argument by brute force. Here it tests the first example above:
+A short program can check a counting argument by trying every possibility. Here is a check of the example with the digits $0, 1, 2, 3, 4, 5$:
 
 ```python
 count = 0
+even = 0
 for n in range(100, 1000):
-    if len(set(str(n))) == 3:
+    s = str(n)
+    if set(s) <= set("012345") and len(set(s)) == 3:
         count += 1
-print(count)   # 648
+        if n % 2 == 0:
+            even += 1
+print(count, even)   # 100 52
 ```
 
 :::warning Common mistakes
-- Adding when you should multiply (or the other way round). Test with a tiny case you can list by hand, such as 2 shirts and 2 trousers.
-- Forgetting that the first digit of a number cannot be 0.
-- Counting the same object twice when the cases overlap. The addition rule needs groups with **no overlap**; split into separate cases first.
+- **Multiplying instead of adding.** With $7$, $5$ and $4$ books, writing $7\cdot5\cdot4=140$ ways to choose **one** book. Wrong, because we do not take one book from each group. Right: $7+5+4=16$. Test your method on a small case you can list by hand.
+- **Forgetting the leading zero.** Counting three-digit numbers with distinct digits from $0, \dots, 5$ as $6\cdot5\cdot4=120$. Wrong, because it includes "numbers" like $012$. Right: $5\cdot5\cdot4=100$.
+- **Not splitting into cases.** Counting the even numbers above as $5\cdot4\cdot3=60$ (hundreds $5$ ways, tens $4$ ways, units $0$, $2$ or $4$). Wrong, because an even digit may already be used in the hundreds or tens place, so the units digit does not always have $3$ choices left. Right: choose the units digit first, split into two cases, and get $52$.
+- **Double counting.** Adding two groups that overlap. The addition rule needs options **with no choice in common**.
 :::
 
 ## Key terms
@@ -160,7 +184,6 @@ print(count)   # 648
 :::terms
 - addition rule | quy tắc cộng
 - multiplication rule | quy tắc nhân
-- mutually exclusive | xung khắc (không thể xảy ra đồng thời)
 - successive steps | các bước liên tiếp
 - tree diagram | sơ đồ hình cây
 - case | trường hợp
@@ -170,36 +193,247 @@ print(count)   # 648
 
 ## Summary
 
-- Addition rule: choices that cannot happen together, add the numbers ("or").
-- Multiplication rule: successive steps, multiply the numbers ("and then").
-- A tree diagram lists all outcomes and shows why the product works.
-- For numbers with restrictions, fill the most restricted position first and split into cases when needed.
-- Complement trick: (all) $-$ (the ones you do not want).
+- **Addition rule** ("or"): options with no choice in common, add the numbers of ways.
+- **Multiplication rule** ("then"): successive steps, multiply the numbers of ways. A tree diagram shows why.
+- With restrictions: fill the most restricted position first (first digit not $0$, last digit even, ...), and split into cases when the number of ways changes.
+- **Complementary counting**: ways that satisfy the condition $=$ all ways $-$ ways that fail. Ideal for "at least one".
 
 ## Practice
 
-:::practice
-1. A menu has 3 starters, 5 main courses and 2 desserts. How many meals consist of one starter, one main course and one dessert?
-2. A library shelf has 6 English books and 4 French books. In how many ways can you pick (a) one book; (b) one English book and one French book?
-3. How many three-digit numbers have all digits odd?
-4. A code consists of two letters (26 choices each, repeats allowed) followed by three digits (repeats allowed). How many codes are there?
-5. How many three-digit numbers with three different digits are divisible by 5?
-6. There are 3 roads from A to B, 4 roads from B to C and 2 roads directly from A to C. How many round trips A to C and back to A are there, if any road may be used in either direction and the way back may be any route?
-7. A binary string has 8 symbols, each 0 or 1. How many strings are there (a) in total; (b) with at least one 1; (c) beginning with 1 and ending with 0?
-8. How many four-digit numbers contain at least one digit 0?
-9. Find the number of positive divisors of 360.
-10. A flag has 3 horizontal stripes, each coloured with one of 5 colours, and two neighbouring stripes must have different colours. How many flags are possible?
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+The canteen offers $4$ main dishes, $3$ soups and $2$ desserts. A meal is one main dish, one soup and one dessert. How many different meals are there?
+
+::hint
+**What you need:** the multiplication rule for successive steps.
+
+**Steps:**
+1. Identify the steps of the choice.
+2. Multiply the numbers of ways at each step.
+
+::solution
+Three successive steps: main dish ($4$ ways), soup ($3$ ways), dessert ($2$ ways): $4\cdot3\cdot2=24$.
+
+**Answer.** $24$ meals.
 :::
 
-:::solution Show solutions
-1. Three successive steps: $3\cdot 5\cdot 2=30$ meals.
-2. (a) One book from either group, groups do not overlap: $6+4=10$. (b) One of each, two steps: $6\cdot 4=24$.
-3. Each of the 3 digits is chosen from $\{1,3,5,7,9\}$: $5\cdot 5\cdot 5=125$.
-4. $26\cdot 26\cdot 10\cdot 10\cdot 10=676\,000$.
-5. A number divisible by 5 ends in 0 or 5. Units digit 0: hundreds 9 ways, tens 8 ways, $72$ numbers. Units digit 5: hundreds digit not 0 and not 5, so 8 ways; tens digit 8 ways; $64$ numbers. Total $72+64=136$.
-6. One way from A to C: $3\cdot 4+2=14$ routes. The way back is also one of these 14 routes, chosen independently, so $14\cdot 14=196$ round trips.
-7. (a) $2^8=256$. (b) Complement: only the string of all 0s has no 1, so $256-1=255$. (c) First and last symbols are fixed, the 6 middle ones are free: $2^6=64$.
-8. Total 9000. With no digit 0: $9^4=6561$. So $9000-6561=2439$.
-9. $360=2^3\cdot 3^2\cdot 5$. A divisor is $2^a3^b5^c$ with $a\in\{0,1,2,3\}$, $b\in\{0,1,2\}$, $c\in\{0,1\}$: $4\cdot 3\cdot 2=24$ divisors.
-10. The first stripe has 5 colours; each next stripe has 4 colours (anything but the colour next to it): $5\cdot 4\cdot 4=80$.
+:::exercise
+The class music group has $8$ boys and $6$ girls. In how many ways can you choose (a) one presenter; (b) one boy and one girl to sing a duet?
+
+::hint
+**What you need:** "a boy **or** a girl" uses the addition rule; "a boy **and** a girl" uses the multiplication rule.
+
+**Steps:**
+1. In (a), each student belongs to exactly one group.
+2. In (b), choose the boy, then the girl.
+
+::solution
+(a) The presenter is a boy or a girl: $8+6=14$. (b) Choose a boy, then a girl: $8\cdot6=48$.
+
+**Answer.** (a) $14$; (b) $48$.
+:::
+
+:::exercise
+How many three-digit numbers have all three digits even?
+
+::hint
+**What you need:** the multiplication rule; the hundreds digit cannot be $0$.
+
+**Steps:**
+1. The hundreds digit is one of $2, 4, 6, 8$.
+2. The tens and units digits are chosen from $0, 2, 4, 6, 8$.
+
+::solution
+Hundreds digit $4$ ways, tens digit $5$ ways, units digit $5$ ways: $4\cdot5\cdot5=100$.
+
+**Answer.** $100$.
+:::
+
+:::exercise
+A product code is one letter (from $26$ letters) followed by four digits, and digits may repeat. How many such codes are there?
+
+::hint
+**What you need:** the multiplication rule; each digit has $10$ choices when repetition is allowed.
+
+**Steps:**
+1. Count the choices for the letter.
+2. Multiply by the choices for each digit.
+
+::solution
+$26\cdot10\cdot10\cdot10\cdot10=260\,000$.
+
+**Answer.** $260\,000$ codes.
+:::
+
+:::exercise
+How many four-digit numbers with distinct digits are divisible by $5$?
+
+::hint
+**What you need:** a number divisible by $5$ ends in $0$ or $5$; split into cases and use the addition rule.
+
+**Steps:**
+1. Case ending in $0$: choose the other three digits.
+2. Case ending in $5$: the first digit is neither $0$ nor $5$.
+3. Add the two cases.
+
+::solution
+Ending in $0$: thousands $9$ ways, hundreds $8$, tens $7$, giving $9\cdot8\cdot7=504$. Ending in $5$: thousands digit not $0$ and not $5$, so $8$ ways, hundreds $8$, tens $7$, giving $8\cdot8\cdot7=448$. Total: $504+448=952$.
+
+**Answer.** $952$.
+:::
+
+:::exercise
+There are $2$ roads from $A$ to $B$ and $3$ roads from $B$ to $C$. Minh travels from $A$ to $C$ (via $B$) and back to $A$ (via $B$), and on the way back he uses no road he used on the way there. In how many ways can he do this?
+
+::hint
+**What you need:** the multiplication rule for four successive legs; each return leg loses one choice.
+
+**Steps:**
+1. Count the ways from $A$ to $C$.
+2. Return leg $C\to B$: leave out the road already used.
+3. Return leg $B\to A$: leave out the road already used.
+
+::solution
+Going: $2\cdot3=6$ ways. Returning: $C\to B$ has $3-1=2$ ways, $B\to A$ has $2-1=1$ way. Total: $6\cdot2\cdot1=12$.
+
+**Answer.** $12$ ways.
+:::
+
+:::exercise
+Three-digit numbers are made from the digits $1, 2, 3, 4, 5$. Is each claim true or false?
+
+a) $125$ numbers can be made (digits may repeat).
+b) $60$ numbers with distinct digits can be made.
+c) $30$ even numbers with distinct digits can be made.
+d) $61$ numbers (digits may repeat) have at least two equal digits.
+
+::hint
+**What you need:** the multiplication rule; an even number ends in an even digit; complementary counting.
+
+**Steps:**
+1. Count with repetition and with distinct digits.
+2. For c), choose the units digit first.
+3. For d), subtract the numbers with distinct digits from all numbers.
+
+::solution
+a) **True.** $5\cdot5\cdot5=125$.
+
+b) **True.** $5\cdot4\cdot3=60$.
+
+c) **False.** Units digit $2$ or $4$ ($2$ ways), hundreds $4$ ways, tens $3$ ways: $2\cdot4\cdot3=24$.
+
+d) **False.** The complement of "at least two equal digits" is "three distinct digits", so the number is $125-60=65$.
+
+**Answer.** a) True; b) True; c) False; d) False.
+:::
+
+:::exercise
+How many positive divisors does $720$ have?
+
+::hint
+**What you need:** if $n=2^a\cdot3^b\cdot5^c$, every divisor of $n$ has the form $2^x3^y5^z$ with $0\le x\le a$, $0\le y\le b$, $0\le z\le c$.
+
+**Steps:**
+1. Write $720$ as a product of primes.
+2. Count the choices for each exponent and multiply.
+
+::solution
+$720=2^4\cdot3^2\cdot5$. The exponent of $2$ has $5$ choices ($0$ to $4$), of $3$ has $3$ choices, of $5$ has $2$ choices: $5\cdot3\cdot2=30$.
+
+**Answer.** $30$.
+:::
+
+:::exercise
+(Review of [Sets and set operations](lesson:sets-and-set-operations)) How many natural numbers from $1$ to $100$ are divisible by $2$ or by $3$?
+
+::hint
+**What you need:** $n(A\cup B)=n(A)+n(B)-n(A\cap B)$; a number divisible by both $2$ and $3$ is divisible by $6$.
+
+**Steps:**
+1. Let $A$, $B$ be the sets of numbers divisible by $2$, by $3$. Find $n(A)$ and $n(B)$.
+2. Find $n(A\cap B)$.
+3. Apply the formula.
+
+::solution
+$n(A)=50$, $n(B)=33$ (since $3\cdot33=99$), $n(A\cap B)=16$ (since $6\cdot16=96$). So $n(A\cup B)=50+33-16=67$.
+
+**Answer.** $67$.
+:::
+
+:::exercise Challenge
+How many three-digit numbers have digit sum $5$?
+
+::hint
+**What you need:** split into cases by the hundreds digit and use the addition rule.
+
+**Steps:**
+1. The hundreds digit $a$ runs from $1$ to $5$.
+2. For each $a$, count the pairs (tens, units) with sum $5-a$.
+3. Add the cases.
+
+::solution
+If the last two digits have sum $s$, the tens digit can be $0, 1, \dots, s$, so there are $s+1$ ways. For $a=1, 2, 3, 4, 5$ we get $s=4, 3, 2, 1, 0$, so
+$$5+4+3+2+1=15.$$
+
+**Answer.** $15$.
+:::
+
+## Mini test
+
+:::quiz
+::mc
+A box holds $6$ blue pens and $4$ red pens, all different. In how many ways can you take one pen from the box?
+A. $10$.
+B. $24$.
+C. $45$.
+D. $6$.
+::key A
+You take a blue pen **or** a red pen, and the two groups have no pen in common, so we use the addition rule: $6+4=10$. Option B multiplies by mistake (that counts one blue pen **and** one red pen).
+
+::mc
+A combination lock has $3$ wheels, each showing the digits $0$ to $9$. How many different codes are there?
+A. $30$.
+B. $720$.
+C. $900$.
+D. $1000$.
+::key D
+Choose a digit for each wheel in turn, $10$ ways each (repeats allowed, and a code may start with $0$): $10\cdot10\cdot10=1000$. Option B requires different digits, and C wrongly leaves out codes starting with $0$.
+
+::mc
+How many odd three-digit numbers with distinct digits can be made from the digits $1, 2, 3, 4, 5, 6$?
+A. $60$.
+B. $120$.
+C. $108$.
+D. $216$.
+::key A
+Choose the units digit first ($1$, $3$ or $5$): $3$ ways; then the hundreds digit $5$ ways and the tens digit $4$ ways: $3\cdot5\cdot4=60$. Option B forgets that the number must be odd, and C allows repeated digits.
+
+::mc
+There are $3$ roads from town $A$ to town $B$, $4$ roads from $B$ to town $C$, and $2$ roads going directly from $A$ to $C$. The number of ways to travel from $A$ to $C$ is
+A. $9$.
+B. $24$.
+C. $12$.
+D. $14$.
+::key D
+Going via $B$ takes two successive steps: $3\cdot4=12$ ways; going directly: $2$ ways. The two options share no route, so we add: $12+2=14$. Option C forgets the direct roads.
+
+::tf
+A team has $7$ boys and $5$ girls.
+a) There are $12$ ways to choose one team leader.
+b) There are $12$ ways to choose one boy and one girl to sing a duet.
+c) There are $144$ ways to choose a leader and a deputy (two different people).
+d) There are $90$ ways to choose a leader and a deputy so that at least one of them is a girl.
+::key T F F T
+a) True: $7+5=12$. b) False: choose a boy **then** a girl, $7\cdot5=35$. c) False: the leader has $12$ choices and the deputy $11$: $132$. d) True: subtract the choices where both are boys, $132-7\cdot6=90$.
+
+::sa
+How many three-digit numbers with distinct digits can be made from the digits $0, 1, 2, 3, 4$?
+::key 48
+The hundreds digit is not $0$: $4$ ways; the tens digit: $4$ ways; the units digit: $3$ ways. So there are $4\cdot4\cdot3=48$ numbers.
+
+::sa
+How many four-digit numbers contain at least one digit $0$?
+::key 2439
+There are $9\cdot10^3=9000$ four-digit numbers in all, and $9^4=6561$ of them contain no $0$. So $9000-6561=2439$ numbers contain at least one $0$.
 :::

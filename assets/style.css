@@ -246,6 +246,49 @@ a.card:hover { transform: translateY(-3px); }
 .terms { display: table; width: 100%; margin: .8em 0; } .terms th, .terms td { text-align: left; }
 .terms tbody th { background: transparent; color: var(--ink); font-weight: 800; }
 
+/* exercises: statement -> knowledge and step hints -> button for the solution */
+.box-exercise { --b: #C2410C; --bs: #FFEDD5; --bi: #7C2D12; }
+:root[data-theme="dark"] .box-exercise { --bs: #45220F; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .box-exercise { --bs: #45220F; } }
+.ex-q > :first-child { margin-top: .8em; }
+.ex-hint { margin: .4em 0 .9em; padding: 2px 14px 4px; border-left: 4px solid #CA8A04; border-radius: 0 12px 12px 0; background: var(--surface2); }
+.ex-hint-t { margin-top: .6em; font-weight: 800; font-size: .92rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.ex-hint > p, .ex-hint > ol, .ex-hint > ul { margin: .45em 0; }
+.ex-sol { margin: .2em 0 .8em; }
+.ex-sol summary { display: inline-block; padding: 7px 16px; border: 2px solid var(--edge); border-radius: 999px; background: #DCFCE7; color: #14532D; font-weight: 800; cursor: pointer; box-shadow: 0 3px 0 var(--edge); list-style: none; }
+.ex-sol summary::-webkit-details-marker { display: none; }
+.ex-sol summary::before { content: "▶"; display: inline-block; margin-right: 8px; font-size: .8em; transition: transform .15s; }
+.ex-sol[open] summary::before { transform: rotate(90deg); }
+.ex-sol[open] summary { margin-bottom: .4em; }
+.ex-sol-b { padding: 2px 14px 4px; border: 2px dashed var(--line); border-radius: 12px; }
+:root[data-theme="dark"] .ex-sol summary { background: #153324; color: #fff; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ex-sol summary { background: #153324; color: #fff; } }
+
+
+/* mini test */
+.box-quiz { --b: #7C3AED; --bs: #EDE9FE; --bi: #4C1D95; }
+:root[data-theme="dark"] .box-quiz { --bs: #2E2158; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .box-quiz { --bs: #2E2158; } }
+.qz-note { font-size: .88rem; color: var(--muted); }
+.qz-part h3 { margin: 1.1em 0 .4em; font-size: 1rem; }
+.qz-item { margin: .5em 0 .9em; padding: 8px 12px; border: 2px solid var(--line); border-radius: 12px; }
+.qz-item.qz-ok { border-color: #16A34A; } .qz-item.qz-no { border-color: #DC2626; }
+.qz-q p { margin: .2em 0; }
+.qz-opts { list-style: none; padding: 0; margin: .4em 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 12px; }
+@media (max-width: 560px) { .qz-opts { grid-template-columns: 1fr; } }
+.qz-opts label, .qz-tf label { cursor: pointer; }
+.qz-opts li { padding: 3px 6px; border-radius: 8px; }
+.qz-right { background: #DCFCE7; } .qz-wrong { background: #FEE2E2; }
+:root[data-theme="dark"] .qz-right { background: #153324; } :root[data-theme="dark"] .qz-wrong { background: #4A1626; }
+.qz-tf { width: 100%; border-collapse: collapse; margin: .4em 0; display: table; }
+.qz-tf td { padding: 4px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.qz-tf td:nth-child(n+2) { width: 5.5em; white-space: nowrap; }
+.qz-sa input { font: inherit; padding: 6px 10px; width: 12em; border: 2px solid var(--edge); border-radius: 10px; background: var(--surface); color: var(--ink); }
+.qz-expl { margin-top: .5em; padding: 6px 10px; border-radius: 10px; background: var(--surface2); }
+.qz-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.qz-score { font-weight: 800; }
+.qz-keys summary { cursor: pointer; font-weight: 700; }
+
 /* figures */
 .figure { margin: 1.4em 0; text-align: center; }
 .fsvg { width: 100%; height: auto; max-width: 440px; border: 2px solid var(--edge); border-radius: 16px; background: var(--surface); box-shadow: 0 4px 0 var(--edge); }
@@ -296,3 +339,5 @@ a.card:hover { transform: translateY(-3px); }
 }
 @media (max-width: 520px) { .topbar { padding: 8px 10px; gap: 6px; } .float { display: none; } }
 @media print { .topbar, .sidebar, .pager, .lesson-actions, .footer, .scrim { display: none !important; } body { background: #fff; color: #000; } .has-side .layout { display: block; } }
+.ws-link { margin: .2em 0 1em; }
+.ws-link .ws-why { margin-left: 10px; font-weight: 700; }

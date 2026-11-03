@@ -1,31 +1,31 @@
 ---
 title: Dấu của tam thức bậc hai
-description: Dùng biệt thức và nghiệm để xét dấu của ax²+bx+c, giải bất phương trình bậc hai, kể cả bất phương trình có tham số.
-minutes: 20
+description: Dùng biệt thức và nghiệm để xét dấu của ax²+bx+c, giải bất phương trình bậc hai, bất phương trình dạng thương và bài toán thực tế.
+minutes: 25
 ---
 
 :::goals
 - Xác định dấu của $f(x)=ax^2+bx+c$ dựa vào $a$ và $\Delta$.
-- Giải bất phương trình bậc hai bằng bảng xét dấu hoặc parabol.
+- Giải bất phương trình bậc hai bằng định lí về dấu hoặc parabol.
 - Giải bất phương trình dạng thương đơn giản và bài toán thực tế.
-- Tìm các giá trị của tham số để một tam thức bậc hai giữ nguyên dấu với mọi $x$.
 :::
 
-Một quả bóng được ném lên cao. Trong những giây nào bóng cao hơn $15$ m so với mặt đất? "Cao hơn" là một bất phương trình, còn độ cao là một hàm bậc hai theo thời gian. Để trả lời, ta cần biết khi nào tam thức bậc hai **dương** và khi nào **âm**. Parabol kể cho ta toàn bộ câu chuyện.
+Bạn Minh ném một quả bóng thẳng lên cao. Độ cao của bóng sau $t$ giây là $h=-5t^2+20t$ (mét). Sau $1$ giây bóng ở độ cao $15$ m, sau $2$ giây ở $20$ m, sau $3$ giây lại về $15$ m. Vậy trong khoảng thời gian nào bóng cao **hơn** $15$ m?
+
+Câu hỏi này là một bất phương trình bậc hai. Để giải nó, ta cần biết khi nào một tam thức bậc hai dương, khi nào âm.
 
 ## Định lí về dấu
 
-:::definition Tam thức bậc hai
-**Tam thức bậc hai** là $f(x)=ax^2+bx+c$ với $a\neq 0$. Biệt thức của nó là $\Delta=b^2-4ac$.
-:::
+### Khám phá: dấu đổi ở đâu?
 
-:::theorem Dấu của $f(x)=ax^2+bx+c$
-- Nếu $\Delta<0$: $f(x)$ **cùng dấu với $a$** với mọi $x$.
-- Nếu $\Delta=0$: $f(x)$ cùng dấu với $a$ với mọi $x\neq-\frac{b}{2a}$, và $f\left(-\frac{b}{2a}\right)=0$.
-- Nếu $\Delta>0$ với hai nghiệm $x_1<x_2$: $f(x)$ cùng dấu với $a$ khi $x$ **nằm ngoài** $[x_1; x_2]$ và trái dấu với $a$ khi $x$ **nằm giữa** hai nghiệm.
-:::
+Xét $f(x)=x^2-5x+6$. Ta tính vài giá trị:
 
-Hãy hình dung: với $a>0$ parabol quay bề lõm lên trên, nên nó nằm phía trên trục hoành ở nơi nó không chui xuống dưới. Dấu chỉ đổi tại các nghiệm.
+| $x$ | $0$ | $1$ | $2$ | $2{,}5$ | $3$ | $4$ | $5$ |
+|---|---|---|---|---|---|---|---|
+| $f(x)$ | $6$ | $2$ | $0$ | $-0{,}25$ | $0$ | $2$ | $6$ |
+| dấu | $+$ | $+$ | $0$ | $-$ | $0$ | $+$ | $+$ |
+
+Tam thức dương ở hai bên và âm ở giữa. Dấu chỉ đổi tại $x=2$ và $x=3$, đúng là hai nghiệm của $f(x)=0$.
 
 :::graph Parabol $y=x^2-5x+6$
 alt: Parabol quay lên cắt trục hoành tại x bằng 2 và x bằng 3, nằm dưới trục hoành giữa hai nghiệm
@@ -36,65 +36,127 @@ point: (2, 0) "2" below
 point: (3, 0) "3" below
 :::
 
+Nhận xét này đúng với mọi tam thức bậc hai, và được phát biểu thành định lí dưới đây.
+
+:::definition Tam thức bậc hai
+**Tam thức bậc hai** là biểu thức $f(x)=ax^2+bx+c$ với $a\neq 0$. Biệt thức của nó là $\Delta=b^2-4ac$.
+:::
+
+:::theorem Dấu của $f(x)=ax^2+bx+c$
+- Nếu $\Delta<0$: $f(x)$ **cùng dấu với $a$** với mọi $x$.
+- Nếu $\Delta=0$: $f(x)$ cùng dấu với $a$ với mọi $x\neq-\dfrac{b}{2a}$, và $f\left(-\dfrac{b}{2a}\right)=0$.
+- Nếu $\Delta>0$, hai nghiệm $x_1<x_2$: $f(x)$ cùng dấu với $a$ khi $x$ **nằm ngoài** đoạn $[x_1; x_2]$, trái dấu với $a$ khi $x$ **nằm giữa** hai nghiệm.
+:::
+
+### Vì sao định lí đúng?
+
+Khi $\Delta>0$ ta viết được $f(x)=a(x-x_1)(x-x_2)$. Nếu $x$ nằm ngoài hai nghiệm thì hai thừa số $x-x_1$ và $x-x_2$ cùng dấu, tích của chúng dương, nên $f(x)$ cùng dấu $a$. Nếu $x$ nằm giữa thì hai thừa số trái dấu, nên $f(x)$ trái dấu $a$.
+
+Khi $\Delta\le 0$, ta biến đổi
+$$f(x)=a\left[\left(x+\frac{b}{2a}\right)^2-\frac{\Delta}{4a^2}\right].$$
+Biểu thức trong ngoặc vuông không âm (vì $-\Delta\ge 0$), và chỉ bằng $0$ khi $\Delta=0$ và $x=-\dfrac{b}{2a}$. Vậy $f(x)$ cùng dấu $a$ ở mọi điểm còn lại.
+
 ## Giải bất phương trình bậc hai
 
-Phương pháp: (1) chuyển tất cả về một vế; (2) tìm $\Delta$ và các nghiệm; (3) dùng định lí; (4) đọc đáp số.
+Để giải một bất phương trình bậc hai, ta làm theo thứ tự:
+
+1. Chuyển mọi số hạng về một vế, vế kia bằng $0$.
+2. Tính $\Delta$, tìm nghiệm (nếu có).
+3. Dùng định lí về dấu, chọn phần có dấu cần tìm.
+4. Viết tập nghiệm: dấu $<$, $>$ dùng ngoặc tròn; dấu $\le$, $\ge$ lấy cả nghiệm.
+
+Ta bắt đầu với trường hợp quen thuộc nhất: hai nghiệm và $a>0$.
 
 :::example Hai nghiệm, $a>0$
 Giải $x^2-5x+6<0$.
 
-**Lời giải.** $\Delta=25-24=1>0$, các nghiệm $x_1=2$ và $x_2=3$. Vì $a=1>0$ nên $f<0$ khi $x$ nằm giữa hai nghiệm. Tập nghiệm là $S=(2; 3)$.
+**Lời giải.** Vế phải đã bằng $0$, nên ta tìm nghiệm của tam thức rồi dùng định lí về dấu:
+
+$$\Delta=(-5)^2-4\cdot1\cdot6=1>0,\qquad x=\frac{5\pm1}{2}\ \Rightarrow\ x_1=2,\ x_2=3.$$
+
+Vì $a=1>0$, tam thức âm khi $x$ nằm giữa hai nghiệm. Dấu "$<$" là dấu chặt nên không lấy nghiệm.
+
+Vậy tập nghiệm là $S=(2; 3)$.
+
+**Kiểm tra.** Bảng giá trị ở phần khám phá cho $f(2{,}5)=-0{,}25<0$ và $f(0)=6>0$, khớp với kết luận.
 :::
+
+Khi $a<0$, parabol quay bề lõm xuống dưới và hình bị lật. Đây là chỗ hay nhầm nhất.
 
 :::example Hai nghiệm, $a<0$
 Giải $-x^2+4x-3\ge 0$.
 
-**Lời giải.** Nghiệm của $-x^2+4x-3=0$ là $x=1$ và $x=3$. Vì $a=-1<0$ nên $f$ cùng dấu với $a$ (âm) khi $x$ nằm ngoài hai nghiệm và **dương khi nằm giữa**. Vậy $f\ge 0$ trên $[1; 3]$, và $S=[1; 3]$.
+**Lời giải.** Hệ số $a=-1<0$, nên "cùng dấu $a$" ở đây nghĩa là **âm**. Ta tìm nghiệm trước:
+
+$$\Delta=4^2-4\cdot(-1)\cdot(-3)=4>0,\qquad x=\frac{-4\pm2}{-2}\ \Rightarrow\ x_1=1,\ x_2=3.$$
+
+Tam thức âm (cùng dấu $a$) ở ngoài hai nghiệm, nên dương ở giữa hai nghiệm. Dấu "$\ge$" cho phép lấy cả hai nghiệm.
+
+Vậy tập nghiệm là $S=[1; 3]$.
+
+**Kiểm tra.** Nhân hai vế với $-1$ và đổi chiều, ta được $x^2-4x+3\le 0$. Tam thức này có $a=1>0$, không dương ở giữa hai nghiệm $1$ và $3$: cùng kết quả.
 :::
 
-:::example Vô nghiệm
-Giải $x^2+x+1>0$ và $2x^2-3x+5<0$.
+Hai ví dụ tiếp theo là các trường hợp đặc biệt: $\Delta<0$ thì không có nghiệm nào chia trục số, còn $\Delta=0$ thì chỉ có một điểm.
 
-**Lời giải.**
-- $x^2+x+1$: $\Delta=1-4=-3<0$ và $a=1>0$ nên luôn dương. $S=\mathbb{R}$.
-- $2x^2-3x+5$: $\Delta=9-40=-31<0$ và $a=2>0$ nên luôn dương, không bao giờ $<0$. $S=\varnothing$.
+:::example Tam thức không có nghiệm
+Giải hai bất phương trình $x^2+x+1>0$ và $2x^2-3x+5<0$.
+
+**Lời giải.** Cả hai tam thức đều có $\Delta<0$, nên mỗi tam thức cùng dấu với $a$ với mọi $x$:
+
+$$\begin{aligned} x^2+x+1:&\quad \Delta=1-4=-3<0,\ a=1>0\ \Rightarrow\ f(x)>0\ \ \forall x;\\ 2x^2-3x+5:&\quad \Delta=9-40=-31<0,\ a=2>0\ \Rightarrow\ f(x)>0\ \ \forall x. \end{aligned}$$
+
+Vậy bất phương trình thứ nhất có tập nghiệm $S=\mathbb{R}$, còn bất phương trình thứ hai vô nghiệm, $S=\varnothing$.
 :::
 
 :::example Nghiệm kép
-Giải $x^2-6x+9\le 0$ và $x^2-6x+9>0$.
+Giải hai bất phương trình $x^2-6x+9\le 0$ và $x^2-6x+9>0$.
 
-**Lời giải.** $x^2-6x+9=(x-3)^2$, $\Delta=0$. Nó luôn $\ge 0$ và chỉ bằng $0$ tại $x=3$.
-- $(x-3)^2\le 0$ chỉ đúng khi $x=3$: $S=\{3\}$.
-- $(x-3)^2>0$ đúng với mọi $x\neq 3$: $S=\mathbb{R}\setminus\{3\}$.
+**Lời giải.** Ở đây $\Delta=36-36=0$, và vế trái là một bình phương:
+
+$$x^2-6x+9=(x-3)^2\ge 0\quad\text{với mọi } x,\ \text{dấu bằng chỉ khi } x=3.$$
+
+Biểu thức không bao giờ âm, nên "$\le 0$" chỉ xảy ra khi nó bằng $0$. Còn "$>0$" đúng ở mọi điểm trừ $x=3$.
+
+Vậy bất phương trình thứ nhất có $S=\{3\}$, bất phương trình thứ hai có $S=\mathbb{R}\setminus\{3\}$.
 :::
 
 ## Bất phương trình dạng thương
 
+Với một phân thức, dấu của thương phụ thuộc vào dấu của cả tử và mẫu, và mẫu phải khác $0$. Bảng xét dấu giúp ta theo dõi cả hai cùng lúc.
+
 :::example Bảng xét dấu của một phân thức
 Giải $\dfrac{x-1}{x+2}\le 0$.
 
-**Lời giải.** Tử bằng $0$ tại $x=1$ và mẫu bằng $0$ tại $x=-2$ (bị loại). Xét dấu trên ba khoảng:
-- $x<-2$: tử $<0$, mẫu $<0$, thương $>0$.
-- $-2<x<1$: tử $<0$, mẫu $>0$, thương $<0$. ✓
-- $x>1$: cả hai dương, thương $>0$.
+**Lời giải.** Dấu của thương chỉ có thể đổi tại các giá trị làm tử hoặc mẫu bằng $0$: tử bằng $0$ tại $x=1$, mẫu bằng $0$ tại $x=-2$ (giá trị này bị loại). Ta lập bảng xét dấu:
 
-Tại $x=1$ thương bằng $0$, thoả mãn dấu "$\le$". Vậy $S=(-2; 1]$.
-:::
+| $x$ | $(-\infty; -2)$ | $(-2; 1)$ | $(1; +\infty)$ |
+|---|---|---|---|
+| $x-1$ | $-$ | $-$ | $+$ |
+| $x+2$ | $-$ | $+$ | $+$ |
+| thương | $+$ | $-$ | $+$ |
 
-## Bất phương trình có tham số
+Thương âm trên $(-2; 1)$ và bằng $0$ tại $x=1$ (được lấy vì có dấu "$\le$"). Tại $x=-2$ thương không xác định.
 
-:::example Tam thức không bao giờ âm
-Với giá trị nào của $m$ thì $x^2-2mx+m+2\ge 0$ với mọi số thực $x$?
-
-**Lời giải.** Vì $a=1>0$ nên cần $\Delta'\le 0$ với $\Delta'=m^2-(m+2)=m^2-m-2$ (dùng hệ số $b'$ rút gọn). $m^2-m-2=(m-2)(m+1)\le 0$ cho $-1\le m\le 2$. Vậy $m\in[-1; 2]$.
+Vậy tập nghiệm là $S=(-2; 1]$.
 :::
 
 ## Bài toán thực tế
 
-:::example Khi nào bóng đủ cao?
-Độ cao của một quả bóng (tính bằng mét) sau $t$ giây là $h=-5t^2+20t$. Khi nào $h>15$?
+Bây giờ ta đã đủ công cụ để trả lời câu hỏi về quả bóng ở đầu bài.
 
-**Lời giải.** $-5t^2+20t>15$ trở thành $-5t^2+20t-15>0$, tức là $t^2-4t+3<0$. Các nghiệm là $t=1$ và $t=3$, và parabol âm khi nằm giữa chúng. Vậy bóng cao hơn $15$ m khi $1<t<3$: kéo dài hai giây.
+:::example Khi nào bóng cao hơn 15 m?
+Độ cao của quả bóng sau $t$ giây là $h=-5t^2+20t$ (mét). Trong khoảng thời gian nào bóng cao hơn $15$ m?
+
+**Lời giải.** Ta giải bất phương trình $h>15$. Chuyển $15$ sang vế trái rồi chia hai vế cho $-5$ (số âm nên đổi chiều):
+
+$$\begin{aligned} -5t^2+20t>15 &\iff -5t^2+20t-15>0\\ &\iff t^2-4t+3<0\\ &\iff (t-1)(t-3)<0\\ &\iff 1<t<3. \end{aligned}$$
+
+Bước cuối dùng định lí về dấu: $a=1>0$ nên tam thức âm ở giữa hai nghiệm $1$ và $3$.
+
+Vậy bóng cao hơn $15$ m khi $1<t<3$, tức là trong $2$ giây.
+
+**Kiểm tra.** Tại $t=0{,}5$: $h=8{,}75<15$, bóng chưa đủ cao, đúng vì $0{,}5$ nằm ngoài khoảng $(1; 3)$.
 :::
 
 :::graph Độ cao của quả bóng
@@ -108,10 +170,10 @@ point: (3, 15) "3" below-left
 :::
 
 :::warning Những sai lầm thường gặp
-- Không chuyển tất cả về một vế trước khi dùng định lí.
-- Quên rằng với $a<0$ hình bị lật: dương khi $x$ nằm **giữa** hai nghiệm.
-- Viết $S=\varnothing$ hay $S=\mathbb{R}$ mà không kiểm tra $\Delta$ và dấu của $a$.
-- Dùng ngoặc đóng tại nghiệm cho bất phương trình chặt (hay ngoặc mở cho $\le$, $\ge$), và lấy cả giá trị làm mẫu bằng $0$.
+- **Quên lật hình khi $a<0$.** Sai: "$-x^2+4x-3\ge 0$ nên lấy ngoài hai nghiệm, $S=(-\infty; 1]\cup[3; +\infty)$". Lí do sai: quy tắc "ngoài hai nghiệm" là nơi tam thức **cùng dấu $a$**, ở đây là âm. Đúng: lấy phần giữa, $S=[1; 3]$.
+- **Chia cho số âm mà không đổi chiều.** Sai: $-5t^2+20t-15>0\iff t^2-4t+3>0$. Lí do sai: chia cho $-5$ thì phải đổi chiều bất phương trình. Đúng: $t^2-4t+3<0$.
+- **Kết luận vội khi $\Delta<0$.** Sai: "$2x^2-3x+5<0$ không có nghiệm nên $S=\mathbb{R}$". Lí do sai: $\Delta<0$ chỉ cho biết tam thức luôn cùng dấu $a$, ở đây luôn dương. Đúng: $S=\varnothing$.
+- **Lấy giá trị làm mẫu bằng $0$.** Sai: $\dfrac{x-1}{x+2}\le 0$ có $S=[-2; 1]$. Lí do sai: tại $x=-2$ phân thức không xác định. Đúng: $S=(-2; 1]$.
 :::
 
 ## Thuật ngữ
@@ -123,40 +185,241 @@ point: (3, 15) "3" below-left
 - bảng xét dấu | sign table
 - bất phương trình bậc hai | quadratic inequality
 - tập nghiệm | solution set
-- tham số | parameter
+- parabol | parabola
 - nghiệm kép | double root
 :::
 
 ## Tóm tắt
 
-- Dấu của $f(x)=ax^2+bx+c$: $\Delta<0$ thì cùng dấu $a$ với mọi $x$; $\Delta=0$ thì cùng dấu $a$ trừ tại nghiệm; $\Delta>0$ thì cùng dấu $a$ ngoài hai nghiệm và trái dấu $a$ giữa hai nghiệm.
-- Giải bất phương trình: một vế bằng $0$, tìm $\Delta$ và nghiệm, rồi áp dụng định lí.
-- Với $a>0$: $f\ge 0$ với mọi $x$ $\iff\Delta\le 0$. Với $a<0$: $f\le 0$ với mọi $x$ $\iff\Delta\le 0$.
+- $f(x)=ax^2+bx+c$, $\Delta=b^2-4ac$.
+- $\Delta<0$: $f(x)$ luôn cùng dấu $a$. $\Delta=0$: cùng dấu $a$, trừ tại $x=-\dfrac{b}{2a}$ (bằng $0$).
+- $\Delta>0$: "trong trái, ngoài cùng": giữa hai nghiệm trái dấu $a$, ngoài hai nghiệm cùng dấu $a$.
+- Giải bất phương trình: một vế bằng $0$ → $\Delta$ và nghiệm → định lí về dấu → viết tập nghiệm, chú ý dấu bằng.
+- Chia hoặc nhân với số âm thì đổi chiều. Bất phương trình dạng thương: lập bảng xét dấu, loại giá trị làm mẫu bằng $0$.
 
 ## Luyện tập
 
-:::practice
-1. Giải $x^2-4x+3>0$.
-2. Giải $x^2-9\le 0$.
-3. Giải $-x^2+2x+8>0$.
-4. Giải $2x^2-x-3\ge 0$.
-5. Giải $x^2+4x+5>0$.
-6. Giải $x^2-4x+4\le 0$.
-7. Với giá trị nào của $m$ thì $x^2+mx+4>0$ với mọi số thực $x$?
-8. Giải $\dfrac{x+1}{x-3}<0$.
-9. Thử thách. Với giá trị nào của $m$ thì $mx^2-4x+m-3<0$ với mọi số thực $x$?
-10. Thử thách. Tìm tập xác định của $\sqrt{x^2-3x-4}$.
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+Giải $x^2-4x+3>0$.
+
+::hint
+**Kiến thức:** tam thức có hai nghiệm $x_1<x_2$ thì cùng dấu với $a$ khi $x$ nằm ngoài $[x_1; x_2]$, trái dấu với $a$ khi $x$ nằm giữa.
+
+**Gợi ý các bước:**
+1. Tìm hai nghiệm của $x^2-4x+3$.
+2. Xem dấu của $a$.
+3. Lấy phần làm tam thức dương.
+
+::solution
+$x^2-4x+3=(x-1)(x-3)$ có hai nghiệm $1$ và $3$. Vì $a=1>0$ nên tam thức dương khi $x$ nằm ngoài hai nghiệm; dấu "$>$" chặt nên không lấy nghiệm.
+
+**Đáp số.** $S=(-\infty; 1)\cup(3; +\infty)$.
 :::
 
-:::solution Xem lời giải
-1. Các nghiệm $1$ và $3$, $a>0$: dương khi nằm ngoài. $S=(-\infty; 1)\cup(3; +\infty)$.
-2. $x^2-9=(x-3)(x+3)$, các nghiệm $\pm3$, $a>0$: $\le 0$ khi nằm giữa (kể cả hai nghiệm). $S=[-3; 3]$.
-3. $-x^2+2x+8=-(x-4)(x+2)$, các nghiệm $-2$ và $4$, $a<0$: dương khi nằm giữa. $S=(-2; 4)$.
-4. $2x^2-x-3=(2x-3)(x+1)$, các nghiệm $-1$ và $\frac32$, $a>0$: $\ge 0$ khi nằm ngoài, kể cả nghiệm. $S=(-\infty; -1]\cup\left[\frac32; +\infty\right)$.
-5. $\Delta=16-20=-4<0$, $a>0$: luôn dương. $S=\mathbb{R}$.
-6. $(x-2)^2\le 0$ chỉ tại $x=2$. $S=\{2\}$.
-7. $a=1>0$, cần $\Delta=m^2-16<0$, suy ra $-4<m<4$.
-8. Các giá trị tới hạn $-1$ (tử) và $3$ (bị loại). Xét dấu: $x<-1$: $(-)/(-)>0$; $-1<x<3$: $(+)/(-)<0$ ✓; $x>3$: $(+)/(+)>0$. $S=(-1; 3)$.
-9. Cần $a=m<0$ và $\Delta'=4-m(m-3)<0$, tức $m^2-3m-4>0$, tức $(m-4)(m+1)>0$, suy ra $m<-1$ hoặc $m>4$. Kết hợp với $m<0$: $m<-1$. $m\in(-\infty; -1)$.
-10. Cần $x^2-3x-4\ge 0$: $(x-4)(x+1)\ge 0$, suy ra $x\le -1$ hoặc $x\ge 4$. Tập xác định $(-\infty; -1]\cup[4; +\infty)$.
+:::exercise
+Giải $x^2-9\le 0$.
+
+::hint
+**Kiến thức:** hằng đẳng thức $a^2-b^2=(a-b)(a+b)$ và định lí về dấu.
+
+**Gợi ý các bước:**
+1. Phân tích $x^2-9$ thành nhân tử để thấy hai nghiệm.
+2. Với $a>0$, tam thức không dương ở giữa hai nghiệm.
+
+::solution
+$x^2-9=(x-3)(x+3)$ có hai nghiệm $\pm3$. Vì $a=1>0$ nên tam thức $\le 0$ ở giữa hai nghiệm, lấy cả hai nghiệm vì có dấu bằng.
+
+**Đáp số.** $S=[-3; 3]$.
+:::
+
+:::exercise
+Giải $-x^2+2x+8>0$.
+
+::hint
+**Kiến thức:** khi $a<0$, tam thức dương ở **giữa** hai nghiệm.
+
+**Gợi ý các bước:**
+1. Đặt dấu trừ ra ngoài: $-x^2+2x+8=-(x^2-2x-8)$, rồi phân tích.
+2. Tìm hai nghiệm và chọn phần giữa.
+
+::solution
+$-x^2+2x+8=-(x-4)(x+2)$, hai nghiệm $-2$ và $4$. Vì $a=-1<0$ nên tam thức dương ở giữa hai nghiệm.
+
+**Đáp số.** $S=(-2; 4)$.
+:::
+
+:::exercise
+Giải $2x^2-x-3\ge 0$.
+
+::hint
+**Kiến thức:** công thức nghiệm $x=\dfrac{-b\pm\sqrt{\Delta}}{2a}$ với $\Delta=b^2-4ac$.
+
+**Gợi ý các bước:**
+1. Tính $\Delta$ rồi tìm hai nghiệm.
+2. Với $a>0$, tam thức $\ge 0$ ở ngoài hai nghiệm, kể cả hai nghiệm.
+
+::solution
+$\Delta=1+24=25$, nghiệm $x=\dfrac{1\pm5}{4}$, tức $x=-1$ và $x=\dfrac32$. Vì $a=2>0$ nên tam thức không âm ở ngoài hai nghiệm, kể cả hai nghiệm.
+
+**Đáp số.** $S=(-\infty; -1]\cup\left[\dfrac32; +\infty\right)$.
+:::
+
+:::exercise
+Giải $x^2+4x+5>0$.
+
+::hint
+**Kiến thức:** nếu $\Delta<0$ thì tam thức cùng dấu với $a$ với mọi $x$.
+
+**Gợi ý các bước:**
+1. Tính $\Delta$.
+2. Xem dấu của $a$ rồi kết luận.
+
+::solution
+$\Delta=16-20=-4<0$ và $a=1>0$, nên tam thức luôn dương với mọi $x$.
+
+**Đáp số.** $S=\mathbb{R}$.
+:::
+
+:::exercise
+Giải $x^2-4x+4\le 0$.
+
+::hint
+**Kiến thức:** $(a-b)^2=a^2-2ab+b^2$, và một bình phương thì không bao giờ âm.
+
+**Gợi ý các bước:**
+1. Viết vế trái thành một bình phương.
+2. Hỏi: bình phương "$\le 0$" khi nào?
+
+::solution
+$x^2-4x+4=(x-2)^2\ge 0$ với mọi $x$, nên nó $\le 0$ chỉ khi bằng $0$, tức $x=2$.
+
+**Đáp số.** $S=\{2\}$.
+:::
+
+:::exercise
+Một mảnh vườn hình chữ nhật có chu vi $20$ m, chiều rộng là $x$ m (chiều rộng không lớn hơn chiều dài). Với những giá trị nào của $x$ thì diện tích vườn ít nhất $21$ m²?
+
+::hint
+**Kiến thức:** nửa chu vi bằng chiều dài cộng chiều rộng; diện tích bằng chiều dài nhân chiều rộng.
+
+**Gợi ý các bước:**
+1. Biểu diễn chiều dài theo $x$.
+2. Lập bất phương trình "diện tích $\ge 21$" và giải.
+3. Kết hợp với điều kiện chiều rộng không lớn hơn chiều dài.
+
+::solution
+Nửa chu vi là $10$ m nên chiều dài là $10-x$ và diện tích là $x(10-x)$. Ta cần
+$$\begin{aligned} x(10-x)\ge 21 &\iff x^2-10x+21\le 0\\ &\iff (x-3)(x-7)\le 0\\ &\iff 3\le x\le 7. \end{aligned}$$
+Chiều rộng không lớn hơn chiều dài: $x\le 10-x$, tức $x\le 5$.
+
+**Đáp số.** $3\le x\le 5$ (mét). Kiểm tra: $x=3$ cho diện tích $3\cdot7=21$ m², vừa đủ.
+:::
+
+:::exercise
+Giải $\dfrac{x+1}{x-3}<0$.
+
+::hint
+**Kiến thức:** một thương âm khi tử và mẫu trái dấu; mẫu phải khác $0$.
+
+**Gợi ý các bước:**
+1. Tìm giá trị làm tử bằng $0$ và làm mẫu bằng $0$.
+2. Xét dấu tử, mẫu trên từng khoảng.
+
+::solution
+Tử bằng $0$ tại $x=-1$, mẫu bằng $0$ tại $x=3$ (loại). Trên khoảng $(-1; 3)$ tử dương, mẫu âm nên thương âm; ngoài khoảng đó tử và mẫu cùng dấu nên thương dương.
+
+**Đáp số.** $S=(-1; 3)$.
+:::
+
+:::exercise Thử thách
+Giải $x^4-5x^2+4<0$.
+
+::hint
+**Kiến thức:** đặt ẩn phụ $t=x^2$ ($t\ge 0$) để đưa về tam thức bậc hai theo $t$.
+
+**Gợi ý các bước:**
+1. Đặt $t=x^2$ và giải $t^2-5t+4<0$.
+2. Trả về $x$: từ điều kiện của $t$ suy ra điều kiện của $x^2$, rồi của $x$.
+
+::solution
+Với $t=x^2$: $t^2-5t+4=(t-1)(t-4)<0 \iff 1<t<4$. Vậy $1<x^2<4$, tức $1<|x|<2$.
+
+**Đáp số.** $S=(-2; -1)\cup(1; 2)$.
+:::
+
+:::exercise Thử thách
+Tìm tập xác định của hàm số $y=\sqrt{x^2-3x-4}$.
+
+::hint
+**Kiến thức:** $\sqrt{A}$ xác định khi $A\ge 0$.
+
+**Gợi ý các bước:**
+1. Viết điều kiện $x^2-3x-4\ge 0$.
+2. Phân tích thành nhân tử và xét dấu.
+
+::solution
+Cần $x^2-3x-4=(x-4)(x+1)\ge 0$. Vì $a=1>0$ nên điều này đúng khi $x$ ở ngoài hai nghiệm $-1$ và $4$, kể cả hai nghiệm.
+
+**Đáp số.** $D=(-\infty; -1]\cup[4; +\infty)$.
+:::
+
+## Kiểm tra mini
+
+:::quiz
+::mc
+Tam thức $f(x)=x^2-6x+8$ nhận giá trị âm khi và chỉ khi
+A. $x<2$ hoặc $x>4$.
+B. $2<x<4$.
+C. $x<-4$ hoặc $x>-2$.
+D. $-4<x<-2$.
+::key B
+Hai nghiệm là $2$ và $4$, hệ số $a=1>0$ nên $f(x)<0$ khi $x$ nằm giữa hai nghiệm.
+
+::mc
+Tập nghiệm của bất phương trình $x^2+2x+3\le 0$ là
+A. $\mathbb{R}$.
+B. $\varnothing$.
+C. $\{-1\}$.
+D. $[-3; 1]$.
+::key B
+$\Delta'=1-3=-2<0$ và $a=1>0$, nên tam thức luôn dương; không có $x$ nào làm nó $\le 0$.
+
+::mc
+Tam thức nào sau đây luôn âm với mọi số thực $x$?
+A. $x^2-x-1$.
+B. $-x^2+4x-4$.
+C. $-x^2+x-1$.
+D. $-2x^2+3x+1$.
+::key C
+Với C: $a=-1<0$, $\Delta=1-4=-3<0$ nên luôn âm. Phương án B bằng $-(x-2)^2$, bằng $0$ tại $x=2$ nên không "luôn âm".
+
+::mc
+Tập nghiệm của bất phương trình $\dfrac{x-3}{x+1}\ge 0$ là
+A. $(-1; 3]$.
+B. $[-1; 3]$.
+C. $(-\infty; -1)\cup[3; +\infty)$.
+D. $(-\infty; -1]\cup[3; +\infty)$.
+::key C
+Thương không âm khi tử và mẫu cùng dấu, hoặc tử bằng $0$. Giá trị $x=-1$ làm mẫu bằng $0$ nên bị loại; $x=3$ được lấy.
+
+::tf
+Cho tam thức $f(x)=-x^2+2x+3$.
+a) $f(x)$ có hai nghiệm là $x=-1$ và $x=3$.
+b) $f(x)>0$ với mọi $x\in(-1; 3)$.
+c) $f(4)>0$.
+d) Bất phương trình $f(x)\ge 3$ có tập nghiệm là $[0; 2]$.
+::key Đ Đ S Đ
+a) Đúng: $f(-1)=f(3)=0$. b) Đúng: $a<0$ nên tam thức dương giữa hai nghiệm. c) Sai: $f(4)=-5$. d) Đúng: $f(x)\ge 3\iff -x^2+2x\ge 0\iff 0\le x\le 2$.
+
+::sa
+Có bao nhiêu số nguyên $x$ thoả mãn $x^2-5x-6<0$?
+::key 6
+Hai nghiệm là $-1$ và $6$, nên $-1<x<6$. Các số nguyên là $0, 1, 2, 3, 4, 5$: có $6$ số.
+
+::sa
+Độ cao của một quả bóng sau $t$ giây là $h(t)=-5t^2+30t$ (mét). Bóng ở độ cao trên $40$ m trong bao nhiêu giây?
+::key 2
+$-5t^2+30t>40\iff t^2-6t+8<0\iff 2<t<4$. Khoảng thời gian dài $2$ giây.
 :::

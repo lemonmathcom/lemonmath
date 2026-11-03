@@ -159,6 +159,52 @@
     d.addEventListener('click', function (e) { if (!box.contains(e.target)) list.hidden = true; });
   }
 
+
+  /* ---------- mini test: mark like the graduation exam ---------- */
+  $$('[data-quiz]').forEach(function (qz) {
+    var submit = $('.qz-submit', qz), retry = $('.qz-retry', qz), out = $('.qz-score', qz), keys = $('.qz-keys', qz);
+    if (!submit) return;
+    submit.hidden = false;
+    if (keys) keys.hidden = true;
+    var num = function (s) { s = String(s).replace(/\s/g, '').replace(',', '.'); return s === '' ? NaN : Number(s); };
+    var fmt = function (x) { var t = (Math.round(x * 100) / 100).toString(); return isVi ? t.replace('.', ',') : t; };
+    submit.addEventListener('click', function () {
+      var got = 0, max = 0;
+      $$('.qz-item', qz).forEach(function (it) {
+        var t = it.getAttribute('data-type'), key = it.getAttribute('data-key'), ok = false, pts = 0;
+        if (t === 'mc') {
+          max += 0.25;
+          var c = $('input:checked', it); ok = !!c && c.value === key; pts = ok ? 0.25 : 0;
+          $$('li', it).forEach(function (li, i) { li.classList.toggle('qz-right', 'ABCD'[i] === key); li.classList.toggle('qz-wrong', !!c && c.parentNode.parentNode === li && c.value !== key); });
+        } else if (t === 'tf') {
+          max += 1;
+          var k = 0;
+          $$('tr', it).forEach(function (tr, i) {
+            var c = $('input:checked', tr), r = !!c && c.value === key.charAt(i);
+            if (r) k++;
+            tr.classList.toggle('qz-right', r); tr.classList.toggle('qz-wrong', !r);
+          });
+          pts = [0, 0.1, 0.25, 0.5, 1][k]; ok = k === 4;
+        } else {
+          max += 0.5;
+          var v = num($('input', it).value), w = num(key);
+          ok = !isNaN(v) && Math.abs(v - w) < 1e-9; pts = ok ? 0.5 : 0;
+        }
+        got += pts;
+        it.classList.toggle('qz-ok', ok); it.classList.toggle('qz-no', !ok);
+        var e = $('.qz-expl', it); if (e) e.hidden = false;
+      });
+      out.textContent = (isVi ? 'Điểm của bạn: ' : 'Your score: ') + fmt(got) + ' / ' + fmt(max) + (isVi ? ' (quy ra thang 10: ' : ' (out of 10: ') + fmt(got / max * 10) + ')';
+      submit.hidden = true; retry.hidden = false;
+    });
+    retry.addEventListener('click', function () {
+      $$('input', qz).forEach(function (i) { if (i.type === 'text') i.value = ''; else i.checked = false; });
+      $$('.qz-item, li, tr', qz).forEach(function (x) { x.classList.remove('qz-ok', 'qz-no', 'qz-right', 'qz-wrong'); });
+      $$('.qz-expl', qz).forEach(function (x) { x.hidden = true; });
+      out.textContent = ''; submit.hidden = false; retry.hidden = true;
+    });
+  });
+
   /* ---------- remember the chosen language; gently offer Vietnamese ---------- */
   var langBtn = $('.lang-btn');
   if (langBtn) langBtn.addEventListener('click', function () { lsSet('lm-lang', langBtn.getAttribute('data-lang')); });

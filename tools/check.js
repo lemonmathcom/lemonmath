@@ -2,7 +2,7 @@
 'use strict';
 /*
  * Check lesson files without building the whole site:
- *   node tools/check.js statements            (both languages of one lesson id)
+ *   node tools/check.js statements            (both languages of one lesson id, in any grade folder)
  *   node tools/check.js content/en/g10/x.md   (one file)
  *   node tools/check.js --all
  * Reports math errors, unknown boxes, bad figures, and English/Vietnamese mismatches.
@@ -42,17 +42,38 @@ function stats(file) {
   const count = (re) => (body.match(re) || []).length;
   const practice = /^:::practice[^\n]*\n([\s\S]*?)^:::/m.exec(body);
   const solution = /^:::solution[^\n]*\n([\s\S]*?)^:::/m.exec(body.slice(practice ? body.indexOf(practice[0]) : 0));
-  const nEx = practice ? (practice[1].match(/^\d+\.\s/gm) || []).length : 0;
-  const nSol = solution ? (solution[1].match(/^\d+\.\s/gm) || []).length : 0;
+  // two formats: old (:::practice list + :::solution list) or new (one :::exercise box per exercise)
+  const exBoxes = body.match(/^:::exercise[^\n]*\n[\s\S]*?^:::[ \t]*$/gm) || [];
+  const nEx = exBoxes.length ? exBoxes.length : practice ? (practice[1].match(/^\d+\.\s/gm) || []).length : 0;
+  const nSol = exBoxes.length ? exBoxes.filter((b) => /^::solution[ \t]*$/m.test(b)).length : solution ? (solution[1].match(/^\d+\.\s/gm) || []).length : 0;
+  exBoxes.forEach((b, k) => { if (!/^::hint[ \t]*$/m.test(b)) problem(file + ': bài tập ' + (k + 1) + ' thiếu phần ::hint (kiến thức và gợi ý các bước)'); });
   const s = {
     lang, file, meta, sections: r.headings.length, math: r.math, words: body.split(/\s+/).length,
     examples: count(/^:::example/gm), figures: count(/^:::(graph|diagram)/gm), exercises: nEx, solutions: nSol,
     goals: count(/^:::goals/gm), terms: count(/^:::terms/gm), definitions: count(/^:::(definition|theorem)/gm)
   };
+  if (meta.type === 'exam') { // practice paper: only exercises are required
+    if (nEx < 10) problem(file + ': đề luyện chỉ có ' + nEx + ' câu (cần ≥ 10)');
+    if (nSol !== nEx) problem(file + ': số lời giải (' + nSol + ') khác số câu (' + nEx + ')');
+    return s;
+  }
+  // mini test: 3 parts like the graduation exam
+  const qm = /^:::quiz[^\n]*\n([\s\S]*?)^:::[ \t]*$/m.exec(body);
+  if (!qm) problem(file + ': thiếu bài kiểm tra mini (:::quiz) ở cuối bài');
+  else {
+    const items = require('./render.js').parseQuiz(qm[1]);
+    const mc = items.filter((i) => i.type === 'mc'), tf = items.filter((i) => i.type === 'tf'), sa = items.filter((i) => i.type === 'sa');
+    s.quiz = mc.length + '-' + tf.length + '-' + sa.length;
+    if (mc.length < 4 || tf.length < 1 || sa.length < 2) problem(file + ': kiểm tra mini cần ≥ 4 câu ::mc, ≥ 1 câu ::tf, ≥ 2 câu ::sa (đang có ' + s.quiz + ')');
+    mc.forEach((i, k) => { if (i.opts.length !== 4 || !/^[A-D]$/.test(i.key)) problem(file + ': kiểm tra mini, Phần I câu ' + (k + 1) + ' cần đúng 4 phương án A.–D. và ::key là một chữ A–D'); });
+    tf.forEach((i, k) => { if (i.opts.length !== 4 || !/^[TF]{4}$/.test(i.key)) problem(file + ': kiểm tra mini, Phần II câu ' + (k + 1) + ' cần 4 ý a)–d) và ::key dạng "Đ S Đ S" (hoặc "T F T F")'); });
+    sa.forEach((i, k) => { if (!/^-?\d+([.,]\d+)?$/.test(i.key) || i.key.length > 4) problem(file + ': kiểm tra mini, Phần III câu ' + (k + 1) + ': ::key phải là một số viết được trong 4 ô (ví dụ 12, -3, 0,25, 2,5), đang là "' + i.key + '"'); });
+    items.forEach((i, k) => { if (!i.expl) problem(file + ': kiểm tra mini, câu thứ ' + (k + 1) + ' thiếu lời giải thích sau ::key'); });
+  }
   if (!s.goals) problem(file + ': thiếu hộp :::goals');
   if (!s.terms) problem(file + ': thiếu hộp :::terms');
   if (s.examples < 3) problem(file + ': chỉ có ' + s.examples + ' ví dụ (cần ≥ 3)');
-  if (nEx < 6) problem(file + ': chỉ có ' + nEx + ' bài tập đánh số trong :::practice (cần ≥ 6)');
+  if (nEx < 6) problem(file + ': chỉ có ' + nEx + ' bài tập (cần ≥ 6)');
   if (nSol !== nEx) problem(file + ': số lời giải (' + nSol + ') khác số bài tập (' + nEx + ')');
   if (s.sections < 4) problem(file + ': chỉ có ' + s.sections + ' mục ## (cần ≥ 4)');
   return s;
@@ -60,7 +81,16 @@ function stats(file) {
 
 const seen = {};
 args.forEach((a) => {
-  const files = a.endsWith('.md') ? [path.resolve(a)] : ['en', 'vi'].map((l) => path.join(ROOT, 'content', l, 'g10', a + '.md'));
+  // a lesson id may live in any grade folder (g10, g11, g12 ...); find it in either language
+  const gradeOf = (id) => {
+    for (const l of ['en', 'vi']) {
+      const base = path.join(ROOT, 'content', l);
+      if (!fs.existsSync(base)) continue;
+      for (const g of fs.readdirSync(base).filter((d) => /^g\d+$/.test(d))) if (fs.existsSync(path.join(base, g, id + '.md'))) return g;
+    }
+    return 'g10';
+  };
+  const files = a.endsWith('.md') ? [path.resolve(a)] : ['en', 'vi'].map((l) => path.join(ROOT, 'content', l, gradeOf(a), a + '.md'));
   const found = [];
   files.forEach((f) => {
     if (!fs.existsSync(f)) { problem('không thấy file ' + path.relative(ROOT, f)); return; }
@@ -70,7 +100,7 @@ args.forEach((a) => {
   say(a + ': ' + found.map((s) => s.lang + ' ' + s.words + ' từ, ' + s.sections + ' mục, ' + s.examples + ' ví dụ, ' + s.exercises + ' bài tập, ' + s.figures + ' hình, ' + s.math + ' công thức').join(' | '));
   if (found.length === 2) {
     const [e, v] = found;
-    ['sections', 'examples', 'exercises', 'figures', 'definitions'].forEach((k) => { if (e[k] !== v[k]) problem(a + ': ' + k + ' khác nhau (EN ' + e[k] + ', VI ' + v[k] + ')'); });
+    ['sections', 'examples', 'exercises', 'figures', 'definitions', 'quiz'].forEach((k) => { if (e[k] !== v[k]) problem(a + ': ' + k + ' khác nhau (EN ' + e[k] + ', VI ' + v[k] + ')'); });
     if (Math.abs(e.math - v.math) / Math.max(e.math, v.math, 1) > 0.2) problem(a + ': số công thức lệch nhiều (EN ' + e.math + ', VI ' + v.math + ')');
     // every number in the English file should appear in the Vietnamese file and vice versa (catches changed data)
     const nums = (file) => (fs.readFileSync(file, 'utf8').replace(/^---[\s\S]*?---/, '').replace(/\{,\}/g, '.').match(/\d+(?:[.,]\d+)?/g) || []).map((x) => x.replace(',', '.'));

@@ -8,12 +8,13 @@ Read this whole file before writing. It is the contract between the lesson files
 One lesson = **two files with the same lesson id**: an English file and a Vietnamese file.
 
 ```
-content/en/g10/<lesson-id>.md
-content/vi/g10/<lesson-id>.md
+content/en/g<N>/<lesson-id>.md
+content/vi/g<N>/<lesson-id>.md
+(<N> is the grade number: g10, g11 or g12)
 ```
 
-Audience: Vietnamese students in grade 10 (age 15–16), and English-speaking learners following the same course.
-Curriculum: Vietnam's 2018 general education programme, Mathematics 10, topics and order as in the *Kết nối tri thức* textbook.
+Audience: Vietnamese students in grade <N> (age 15–18; grade 10 = 15–16, grade 11 = 16–17, grade 12 = 17–18), and English-speaking learners following the same course.
+Curriculum: Vietnam's 2018 general education programme, Mathematics <N> (grade 10, 11 or 12), topics and order as in the *Kết nối tri thức* textbook.
 Lesson ids, titles and chapters are fixed by `data/curriculum.json`. Do not rename them.
 
 **The text must be original.** Do not copy sentences, problems or figures from any textbook or website. Teach the same topics in your own words, with your own examples and numbers.
@@ -21,8 +22,8 @@ Lesson ids, titles and chapters are fixed by `data/curriculum.json`. Do not rena
 ### Teaching style
 - Friendly, clear, step by step. Short paragraphs. Talk to the student ("you").
 - Order inside a lesson: a picture or a small real-life example → the idea in plain words → the formal definition/rule → worked examples (easy → harder) → common mistakes → practice.
-- Every worked example shows **every step** of the solution with a short reason for each step.
-- Length: about 1000–1800 words of prose per language, **at least 3 worked examples**, **8 to 10 practice exercises** (easy, medium, a few challenging), with full solutions.
+- Every worked example shows **every step** of the solution with a short reason for each step (see section 2b for the exact layout).
+- Length: see section 2b (depends on the grade), **at least 3 worked examples** (4–6 preferred), **8 to 10 exercises** in `:::exercise` boxes, each with hints and a full solution.
 - Use real contexts when natural (phone plans, football scores, school canteen), but keep the maths primary.
 
 ## 2. File format
@@ -75,23 +76,35 @@ Step 1 ...
 - bullet recap (3–6 bullets)
 
 ## Practice
-:::practice
-1. Easy problem.
-2. ...
-10. Challenge.
+Each exercise comes with what you need and hints; open the solution after trying.
+
+:::exercise
+Easy problem.
+
+::hint
+**What you need:** ...
+
+**Steps:**
+1. ...
+
+::solution
+Short worked solution ...
+
+**Answer.** ...
 :::
 
-:::solution Show solutions
-1. Full worked solution ...
-2. ...
+(... one :::exercise box per exercise, 8–10 in total ...)
+
+:::exercise Challenge
+...
 :::
 ```
 
 Rules for the skeleton:
 - `:::goals` first. `:::terms` once per lesson, near the end, **6–12 pairs**. `## Practice` last. `## Summary` just before it.
 - In the Vietnamese file use the headings `## Tóm tắt`, `## Luyện tập`, `## Thuật ngữ`. In English: `## Summary`, `## Practice`, `## Key terms`.
-- Practice: ONE `:::practice` box holding a numbered list (`1.` `2.` ...), then ONE `:::solution` box holding the **same numbering** with complete solutions (steps, not just answers).
-- Box types you may use: `goals`, `definition`, `theorem`, `example`, `note`, `tip`, `warning`, `practice`, `solution`, `terms`, `graph`, `diagram`.
+- Practice: one `:::exercise` box per exercise, each with `::hint` and `::solution` parts (see section 2b). The old `:::practice` + `:::solution` lists still build but are no longer used for new lessons.
+- Box types you may use: `goals`, `definition`, `theorem`, `example`, `note`, `tip`, `warning`, `practice`, `solution`, `exercise`, `terms`, `graph`, `diagram`.
 - A box title goes after the type on the opening line: `:::definition Negation of a statement`.
 - **Boxes cannot be nested.** Never put a `:::` box inside another box. Close each box with a line that is just `:::`.
 - Worked solutions of examples are written **inside** the `:::example` box (visible), after a bold "**Solution.**" / "**Lời giải.**".
@@ -102,6 +115,93 @@ One pair per line, `first-language term | other-language term`:
 - In the English file: `English term | Vietnamese term`
 - In the Vietnamese file: `Vietnamese term | English term`
 Same terms, same order in both files.
+
+## 2b. Writing standard (decided November 2026, applies to every grade)
+
+Full discussion: the Lemonmath document "Tiêu chuẩn nội dung và cách viết lời giải". The model lesson is `content/*/g10/sign-of-quadratic.md` (its practice section is in the final format).
+
+**Voice.** Explanations use "ta" (we); speak to the reader as "bạn" (you). Grades 1–5 speak to the child as "em". English files use British spelling (factorise, metres). Short sentences, one idea each, at most 3 sentences per paragraph. Never write "dễ thấy", "hiển nhiên", "ta suy ra ngay" / "clearly", "obviously": give the reason instead. No emoji.
+
+**Scope.** Follow the GDPT 2018 programme only. Do not include problem types that left the programme, in particular **problems with a parameter m** ("tìm m để…"). A parametric equation of a line is fine (it is in the programme).
+
+**Lesson order.** goals → opening situation with real numbers ending in a question → a small worked exploration (numbers or a picture) BEFORE the definition box → definition/theorem → "why is it true" in a few lines for the main theorem → 4–6 worked examples, easy to hard, with a one-sentence bridge between them → common mistakes (wrong working, why it is wrong, the right way) → summary written like a notebook page → key terms → practice.
+
+**Worked examples (compact style).**
+```
+:::example Title
+Problem statement.
+
+**Lời giải.** One sentence giving the idea: which tool and why ("Hệ số của x² dương nên tam thức không âm với mọi x khi và chỉ khi Δ ≤ 0:").
+
+$$ the computation, one transformation per line (use aligned for chains) $$
+
+Vậy … (full-sentence conclusion with symbols; units for real-life problems).
+:::
+```
+- Each step that is not routine gets a short lead-in sentence BEFORE the formula, ending with a colon ("Chuyển 15 sang vế trái rồi chia cho −5 (đổi chiều):").
+- A rule that is easy to get wrong is explained where it is used (with a small numeric example the first time it appears).
+- Add a one-line **Kiểm tra.** / **Check.** only when it teaches something (a boundary value, a sign check, units).
+- Only for hard or many-data examples use the four labelled steps *Hiểu đề / Tìm cách giải / Giải / Nhìn lại* (EN *Understand / Plan / Solve / Look back*), 1–2 sentences each.
+
+**Practice: one `:::exercise` box per exercise** (replaces the old `:::practice` + `:::solution` pair). The website numbers them, shows the knowledge and hints, and hides the solution behind a "Xem lời giải" button; the printable sheet takes statements and hints from the same boxes.
+```
+:::exercise
+Giải $x^2-4x+3>0$.
+
+::hint
+**Kiến thức:** the fact, formula or rule needed (one or two lines).
+
+**Gợi ý các bước:**
+1. first move
+2. second move
+
+::solution
+Compact solution in the same style as the examples (2–5 lines).
+
+**Đáp số.** $S=(-\infty; 1)\cup(3; +\infty)$.
+:::
+```
+- English labels: `**What you need:**`, `**Steps:**`, `**Answer.**`.
+- Write `:::exercise Thử thách` / `:::exercise Challenge` for the hardest ones.
+- 8–10 exercises: about 4 basic, 3–4 applied (at least one real-life), 1–2 challenge, and 1–2 that revisit an earlier lesson.
+- Grades 10–12: include at least one exercise in each exam style of the graduation exam, written by us: a **true/false** item (a statement followed by four claims a) b) c) d), each judged Đúng/Sai with a reason in the solution) and a **short-answer** item (the answer is a single number, rounded as asked).
+- Grade 9: at least one exercise in the style of the grade-10 entrance exam (several linked parts a, b, c).
+
+**Mini test at the end of every lesson (required).** After the practice section, add `## Kiểm tra mini` / `## Mini test` with ONE `:::quiz` box in the format of the current graduation exam (smaller): **4 multiple-choice** questions (`::mc`, options `A.`–`D.` each on its own line), **1 true/false** question (`::tf`, a stem then claims `a)`–`d)`), **2 short-answer** questions (`::sa`, the answer is ONE number that fits in 4 boxes: at most 4 characters including the minus sign and the decimal comma, e.g. `12`, `-3`, `0,25`, `2,5`; say how to round). Each question ends with `::key` and the key on the same line (`::key B`, `::key Đ S Đ S` (EN `::key T F T F`), `::key 2,5` (EN `::key 2.5`)), followed by a 1–2 sentence explanation. Distractors must be the answers of real mistakes (wrong sign, forgot to exclude a value, wrong formula), never random. The website marks it like the exam (0.25 / 0.1–1 / 0.5) and the printed sheet gets answer boxes. Grades 1–5 use the same three parts with easy wording. Example:
+```
+## Kiểm tra mini
+
+:::quiz
+::mc
+Tập nghiệm của bất phương trình $x^2+2x+3\le 0$ là
+A. $\mathbb{R}$.
+B. $\varnothing$.
+C. $\{-1\}$.
+D. $[-3; 1]$.
+::key B
+$\Delta'=1-3=-2<0$ và $a=1>0$, nên tam thức luôn dương.
+
+::tf
+Cho tam thức $f(x)=-x^2+2x+3$.
+a) ...
+b) ...
+c) ...
+d) ...
+::key Đ Đ S Đ
+a) Đúng: ... b) ... c) ... d) ...
+
+::sa
+Có bao nhiêu số nguyên $x$ thoả mãn $x^2-5x-6<0$?
+::key 6
+Hai nghiệm là $-1$ và $6$ ...
+:::
+```
+
+**English terminology.** Use the standard British terms in `_templates/GLOSSARY.md` (e.g. "quadratic expression", "the cosine rule", "gradient", "scalar product", "table of variations", "turning point"). Never translate word by word.
+
+**Lengths per language.** Grades 1–5: 600–1,200 words, very short sentences, pictures, few symbols; hints follow "Đề cho biết gì? Hỏi gì? Làm thế nào? Thử lại." Grades 6–9: 1,400–2,200 words. Grades 10–12: 1,800–3,000 words.
+
+**Originality.** Every problem, number, situation and figure is our own. Reference books and exam collections may be read to learn which problem types and difficulty levels matter, never copied or closely paraphrased.
 
 ## 3. Mathematics (KaTeX)
 
@@ -129,6 +229,27 @@ Same terms, same order in both files.
 | variance, st. deviation | `s^2`, `s` | `s^2`, `s` (and `\sigma` only if the textbook concept does) |
 | open/closed interval word | open interval | khoảng, đoạn, nửa khoảng |
 | angle of triangle | A, B, C; sides a, b, c | A, B, C; sides a, b, c |
+
+### Extra notation for grades 11 and 12
+
+| Idea | English file | Vietnamese file |
+|---|---|---|
+| angle units | `60^\circ`, `\dfrac{\pi}{3}` (radians) | the same |
+| trigonometric functions | `\sin, \cos, \tan, \cot` | the same (`\tan`, `\cot`; Vietnamese books write cot, not ctg) |
+| general solutions | `x=\alpha+k2\pi,\ k\in\mathbb{Z}` | the same |
+| sequence, term | `(u_n)`, `u_n` | `(u_n)`, `u_n` |
+| arithmetic / geometric progression | common difference `d`, common ratio `q` | công sai `d`, công bội `q` |
+| limits and infinity | `\lim_{x\to a}`, `+\infty` | the same |
+| derivative | `f'(x)`, `y'`, second derivative `f''(x)` | the same |
+| logarithms | `\log_a x`, `\log x` (base 10), `\ln x` | `\log_a x`, `\lg x` (base 10), `\ln x` |
+| integrals | `\int_a^b f(x)\,dx`, `\Big[F(x)\Big]_a^b` | the same |
+| vector / point in space | `A(1, 2, 3)`, `\vec{a}=(1, 2, 3)` | `A(1; 2; 3)`, `\vec{a}=(1; 2; 3)` |
+| grouped data class | `[a, b)` | `[a; b)` |
+| median, mode (grouped) | `M_e`, `M_o` as in grade 10 | `M_e`, `M_o` |
+| conditional probability | `P(A\mid B)` | `P(A\mid B)` |
+| dihedral angle / angle between planes | `\angle`-style words, no special symbol | `\widehat{(\alpha, \beta)}` or words as in the textbook |
+
+Vietnamese terms for grades 11–12 (use these): góc lượng giác, radian, đường tròn lượng giác, hàm số tuần hoàn, phương trình lượng giác cơ bản, dãy số, cấp số cộng, cấp số nhân, công sai, công bội, mẫu số liệu ghép nhóm, nhóm số liệu, tần số, tần số tích luỹ, giá trị đại diện, giới hạn, hàm số liên tục, tiệm cận đứng / ngang / xiên, luỹ thừa, căn bậc n, lôgarit, hàm số mũ, đạo hàm, tiếp tuyến, đạo hàm cấp hai, cực trị, cực đại, cực tiểu, đồng biến, nghịch biến, giá trị lớn nhất, giá trị nhỏ nhất, khảo sát hàm số, đường thẳng chéo nhau, mặt phẳng, hình chóp, hình lăng trụ, hình hộp, phép chiếu song song, phép chiếu vuông góc, góc nhị diện, khoảng cách, thể tích, biến cố hợp, biến cố giao, biến cố độc lập, nguyên hàm, tích phân, vectơ trong không gian, hệ trục toạ độ Oxyz, mặt cầu, xác suất có điều kiện, công thức xác suất toàn phần, công thức Bayes.
 
 Vietnamese terminology must be that of the Vietnamese school textbooks (e.g. mệnh đề, mệnh đề phủ định, mệnh đề kéo theo, mệnh đề tương đương, điều kiện cần/đủ, tập hợp con, giao, hợp, hiệu, phần bù, bất phương trình, miền nghiệm, định lí côsin, định lí sin, vectơ, tích vô hướng, số trung bình cộng, trung vị, tứ phân vị, phương sai, độ lệch chuẩn, tam thức bậc hai, hoán vị, chỉnh hợp, tổ hợp, nhị thức Newton, biến cố, không gian mẫu). The Vietnamese must read naturally, as written by a good Vietnamese maths teacher, not as a translation. The English must read naturally too.
 
@@ -174,6 +295,44 @@ grid                                                 light unit grid
 ```
 Point names may contain letters, digits, and `'` (e.g. `A'`). Points that must not show a dot/label can get an empty quoted label: `point M 2,2 "" `.
 Scale is automatic and equal on both axes; choose coordinates so the picture looks right (a triangle with sides 3-4-5 as (0,0),(4,0),(4,3), etc.).
+
+### Shading the area under a curve (`fill`)
+In `:::graph` you can shade the region between two curves with
+```
+fill: x^2 ; 0 ; 0..2        top curve ; bottom curve (0 = the x-axis) ; x-range
+```
+Typical use: the area under $y=f(x)$ for an integral, or between two curves. Draw the curve itself with a separate `plot:` line and mark the bounds with `vline: 2 ; dashed`.
+
+### Figures in space (grades 11–12)
+The site draws only flat pictures, so a solid is drawn in the usual **oblique style** with `:::diagram`: choose 2D coordinates for each vertex (front face as a square or rectangle, back face shifted up and to the right), draw visible edges with `segment`, hidden edges with `segment A B dashed`, and label the vertices. Example of a cube $ABCD.A'B'C'D'$:
+```
+:::diagram Cube ABCD.A'B'C'D'
+alt: A cube drawn in oblique projection with the hidden edges dashed
+point A 0,0 below-left
+point B 3,0 below-right
+point C 4.2,1.4 right
+point D 1.2,1.4 above-left
+point A' 0,3 left
+point B' 3,3 above
+point C' 4.2,4.4 above-right
+point D' 1.2,4.4 above
+segment A B
+segment B C
+segment C D dashed
+segment D A dashed
+segment A' B'
+segment B' C'
+segment C' D'
+segment D' A'
+segment A A'
+segment B B'
+segment C C'
+segment D D' dashed
+:::
+```
+(Only edges hidden behind the front face are dashed.) Keep every figure simple: one solid and only the lines needed for the argument.
+
+For graphs of trigonometric functions use `plot: sin(x)` and a range such as `x: -7..7`; mark special points such as $\left(\frac{\pi}{2}, 1\right)$ with `point:` and the label text "π/2". Exponential and logarithmic graphs: `plot: 2^x`, and for $\log_2 x$ use `plot: ln(x)/ln(2) ; 0.05..8`.
 
 ### Recipes
 **Venn diagram** (two or three sets): a `diagram` with unlabeled centre points and overlapping circles, plus free labels, e.g.
