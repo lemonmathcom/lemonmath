@@ -7,6 +7,9 @@ Project root: /home/claude/lemonmath. Files: content/vi/g9/<id>.md and content/e
 - _templates/GLOSSARY.md: standard British school terms (GCSE level), never word-by-word. E.g. "simultaneous equations", "unknown", "surd"/"square-root expression", "Pythagoras' theorem", "cyclic quadrilateral", "angle at the circumference", "inscribed angle".
 - Model lesson in both languages: content/vi/g10/circles.md and content/en/g10/circles.md (copy the box syntax and the compact example style exactly; grade 9 is simpler and more concrete).
 
+## Style (teacher's decision, most important)
+Follow WRITING-SPEC section 2c exactly: solutions in the KNTT textbook voice ("**Lời giải.** Ta có …", "Do đó", "Suy ra", "Vậy …"), problem statements with KNTT verbs and the provincial grade-10 entrance-exam style. Where 2c conflicts with 2b, 2c wins.
+
 ## Grade 9 specifics
 - Voice: "bạn" for the reader, "ta" in explanations. Friendly, concrete, many real-life contexts familiar to Vietnamese 14–15-year-olds.
 - Stay inside the KNTT grade 9 programme and do not teach ahead (check the previous and next lesson in curriculum.json). NO parameter-m problems (no "tìm m để…"); use concrete numbers instead.

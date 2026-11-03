@@ -70,6 +70,23 @@ function qrSvg(text) {
   return '<svg class="ws-qr" viewBox="-2 -2 ' + (n + 4) + ' ' + (n + 4) + '" role="img" aria-label="QR"><rect x="-2" y="-2" width="' + (n + 4) + '" height="' + (n + 4) + '" fill="#fff"/><path d="' + p + '" fill="#000"/></svg>';
 }
 
+/* How many ruled lines a student needs to write this solution by hand.
+ * Counts printed lines of the model solution (each row of a display formula is one line,
+ * long text wraps at ~75 characters), then allows for handwriting being larger than print. */
+function writeLines(sol) {
+  if (!sol.trim()) return 5;
+  let n = 0;
+  sol.replace(/\r/g, '').split(/(\$\$[\s\S]*?\$\$)/).forEach((b) => {
+    if (/^\$\$/.test(b)) { n += (b.match(/\\\\/g) || []).length + 1; return; }
+    b.split('\n').forEach((line) => {
+      const t = line.replace(/\*\*/g, '').replace(/\\[a-zA-Z]+/g, 'x').replace(/[{}$]/g, '').trim();
+      if (!t || /^\|?[-:| ]+\|?$/.test(t)) return;
+      n += Math.max(1, Math.ceil(t.length / 75));
+    });
+  });
+  return Math.min(16, Math.max(3, Math.ceil(n * 1.3) + 1));
+}
+
 /* Pull the pieces of a lesson out of its Markdown body. */
 function parts(md, lang) {
   const goals = (/^:::goals[^\n]*\n([\s\S]*?)^:::[ \t]*$/m.exec(md) || [])[1] || '';
@@ -81,9 +98,9 @@ function parts(md, lang) {
   let m;
   while ((m = re.exec(md))) {
     const bits = m[2].split(/^::(hint|solution)[ \t]*$/m);
-    let hint = '';
-    for (let k = 1; k < bits.length; k += 2) if (bits[k] === 'hint') hint = bits[k + 1];
-    exercises.push({ title: m[1].trim(), q: bits[0].trim(), hint: hint.trim() });
+    let hint = '', sol = '';
+    for (let k = 1; k < bits.length; k += 2) { if (bits[k] === 'hint') hint = bits[k + 1]; if (bits[k] === 'solution') sol = bits[k + 1]; }
+    exercises.push({ title: m[1].trim(), q: bits[0].trim(), hint: hint.trim(), lines: writeLines(sol) });
   }
   const qm = /^:::quiz[^\n]*\n([\s\S]*?)^:::[ \t]*$/m.exec(md);
   const quiz = qm ? parseQuiz(qm[1]) : [];
@@ -103,9 +120,8 @@ function worksheet(o) {
   const qrUrl = o.lessonUrl + (exam ? '' : '#ex-1');
 
   const exHtml = p.exercises.map((e, i) => {
-    const hard = /thử thách|challenge/i.test(e.title);
-    return '<section class="ws-ex' + (hard ? ' hard' : '') + '"><h3><span>' + L.ex + ' ' + (i + 1) + '</span>' + (e.title ? ' <em>' + esc(e.title) + '</em>' : '') + '</h3>' +
-      '<div class="ws-q">' + R(e.q) + '</div><div class="ws-space" aria-hidden="true"></div></section>';
+    return '<section class="ws-ex"><h3><span>' + L.ex + ' ' + (i + 1) + '</span>' + (e.title ? ' <em>' + esc(e.title) + '</em>' : '') + '</h3>' +
+      '<div class="ws-q">' + R(e.q) + '</div><div class="ws-space" style="height:' + (e.lines * 7.8).toFixed(1) + 'mm" aria-hidden="true"></div></section>';
   }).join('\n');
   let qzHtml = '';
   if (p.quiz.length) {

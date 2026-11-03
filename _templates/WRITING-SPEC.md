@@ -203,6 +203,26 @@ Hai nghiệm là $-1$ và $6$ ...
 
 **Originality.** Every problem, number, situation and figure is our own. Reference books and exam collections may be read to learn which problem types and difficulty levels matter, never copied or closely paraphrased.
 
+## 2c. Văn phong SGK Kết nối tri thức và văn phong đề thi (decided by the teacher, November 2026, overrides anything above that conflicts)
+
+**Lời giải (examples, exercise solutions, quiz explanations) follow the KNTT textbook voice.**
+- Label: `**Lời giải.**` (EN `**Solution.**`). No "Ý tưởng:" label; the first sentence simply says what we do, as KNTT does: "Ta có …", "Theo định lí Pythagore, ta có …", "Áp dụng hệ thức … cho tam giác vuông ABC, ta được …", "Điều kiện xác định: …".
+- Linking words as in KNTT: "Ta có", "Do đó", "Suy ra", "Từ (1) và (2) suy ra", "Thay … vào …, ta được", "Ta thấy", "Vì … nên …". One step per line; a reason is given with "vì" / "(do …)", not with a separate paragraph.
+- Geometry: "Xét tam giác ABC vuông tại A, ta có …"; state the reason of each statement in brackets ("(hai góc so le trong)", "(tính chất tiếp tuyến)").
+- Equations/systems: "Vậy phương trình có hai nghiệm $x=1$, $x=3$." / "Vậy hệ phương trình có nghiệm duy nhất $(x; y) = (2; -1)$." / "Vậy tập nghiệm của bất phương trình là …". Word problems: "Gọi … là … ($x>0$, đơn vị: …). … Vậy …", with "Theo đề bài ta có phương trình …" and a check against the condition ("thoả mãn điều kiện").
+- End with "Vậy …" and the answer; no extra commentary after it.
+- English mirrors the same structure with standard British phrasing ("We have …", "Hence …", "So …", "Substituting … into …, we get …", "Let $x$ be … ($x>0$)").
+
+**Problem statements follow KNTT and the exam wording.**
+- Exercises use the textbook verbs: "Tính …", "Giải phương trình …", "Giải hệ phương trình sau:", "Rút gọn biểu thức …", "Chứng minh rằng …", "Tìm … ", "Cho tam giác ABC vuông tại A, có …. Tính …". Real-life exercises: a short situation in plain sentences, then the question; KNTT-style headings "Luyện tập" / "Vận dụng" may appear in example titles.
+- Grades 10–12 quiz items and practice papers copy the style of the Ministry's graduation exam (đề minh hoạ / đề chính thức from 2025):
+  - MC: "Cho hàm số $y=f(x)$ có bảng biến thiên như sau: … Hàm số đã cho đồng biến trên khoảng nào dưới đây?", "Trong không gian $Oxyz$, cho mặt phẳng $(P): …$. Vectơ nào dưới đây là một vectơ pháp tuyến của $(P)$?", "Nguyên hàm của hàm số $f(x)=…$ là", "Tập nghiệm của bất phương trình … là".
+  - TF: a stem "Cho hàm số …" / a real-life situation, then "Xét tính đúng sai của các mệnh đề sau:" (the website adds the a)–d) claims), each claim a complete statement ("a) Hàm số đã cho đồng biến trên khoảng $(1; +\infty)$.").
+  - SA: a context then a precise question ending with the rounding instruction: "(làm tròn kết quả đến hàng phần mười)", "(kết quả làm tròn đến hàng phần trăm)".
+  - EN translations keep the same structure in natural exam English ("Which of the following intervals …?", "Decide whether each statement is true or false.", "(give your answer to 1 decimal place)").
+- Grade 9: exercises and the entrance-exam items use the style of the provincial grade-10 entrance exams ("Bài 1. (1,5 điểm) a) Giải phương trình … b) Giải hệ phương trình …", "Cho biểu thức $P = …$ với $x\geq 0$, $x\neq 1$. a) Rút gọn $P$. b) Tính giá trị của $P$ khi $x=…$").
+- Grades 1–5: the wording of KNTT primary books ("Số?", "Tính nhẩm", "Đặt tính rồi tính", "Bài giải … Đáp số: …"), with "Bài giải" and "Đáp số" in primary word problems.
+
 ## 3. Mathematics (KaTeX)
 
 - Inline: `$x^2+1$`. Display: `$$ ... $$` on its own lines. Only KaTeX-supported LaTeX (`\dfrac`, `\sqrt`, `\vec{u}`, `\overrightarrow{AB}`, `\widehat{ABC}`, `\begin{cases}`, `\begin{aligned}`, `\mathbb{R}`, `\in`, `\subset`, `\cup`, `\cap`, `\Rightarrow`, `\Leftrightarrow`, `\forall`, `\exists`, `\neq`, `\leq`, `\geq`, `\approx`, `\pm`, `^\circ` ...).
