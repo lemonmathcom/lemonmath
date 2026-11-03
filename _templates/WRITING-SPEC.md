@@ -210,7 +210,7 @@ Hai nghiệm là $-1$ và $6$ ...
 - Linking words as in KNTT: "Ta có", "Do đó", "Suy ra", "Từ (1) và (2) suy ra", "Thay … vào …, ta được", "Ta thấy", "Vì … nên …". One step per line; a reason is given with "vì" / "(do …)", not with a separate paragraph.
 - Geometry: "Xét tam giác ABC vuông tại A, ta có …"; state the reason of each statement in brackets ("(hai góc so le trong)", "(tính chất tiếp tuyến)").
 - Equations/systems: "Vậy phương trình có hai nghiệm $x=1$, $x=3$." / "Vậy hệ phương trình có nghiệm duy nhất $(x; y) = (2; -1)$." / "Vậy tập nghiệm của bất phương trình là …". Word problems: "Gọi … là … ($x>0$, đơn vị: …). … Vậy …", with "Theo đề bài ta có phương trình …" and a check against the condition ("thoả mãn điều kiện").
-- End with "Vậy …" and the answer; no extra commentary after it.
+- End with "Vậy …" and the answer; no extra commentary after it. Exercise solutions (`::solution`) then add the one-line answer `**Đáp số.** …` / `**Answer.** …` so students can check quickly.
 - English mirrors the same structure with standard British phrasing ("We have …", "Hence …", "So …", "Substituting … into …, we get …", "Let $x$ be … ($x>0$)").
 
 **Problem statements follow KNTT and the exam wording.**
