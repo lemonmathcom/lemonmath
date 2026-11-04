@@ -10,6 +10,8 @@ Project root: /home/claude/lemonmath. Files: content/vi/g9/<id>.md and content/e
 ## Style (teacher's decision, most important)
 Follow WRITING-SPEC section 2c exactly: solutions in the KNTT textbook voice ("**Lời giải.** Ta có …", "Do đó", "Suy ra", "Vậy …"), problem statements with KNTT verbs and the provincial grade-10 entrance-exam style. Where 2c conflicts with 2b, 2c wins.
 
+Also follow section 2d (the spirit of all content: reasoning, problem solving, systems thinking; warm and insightful openings and concept explanations; meaningful real-life problems; only verified facts with sources, otherwise clearly hypothetical scenarios).
+
 ## Grade 9 specifics
 - Voice: "bạn" for the reader, "ta" in explanations. Friendly, concrete, many real-life contexts familiar to Vietnamese 14–15-year-olds.
 - Stay inside the KNTT grade 9 programme and do not teach ahead (check the previous and next lesson in curriculum.json). NO parameter-m problems (no "tìm m để…"); use concrete numbers instead.

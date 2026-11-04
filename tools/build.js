@@ -260,6 +260,7 @@ function shell(o) {
     '<link rel="stylesheet" href="' + A('assets/fonts.css') + '">',
     '<link rel="stylesheet" href="' + A('assets/style.css') + '">',
     o.math ? '<link rel="stylesheet" href="' + A('assets/katex/katex.min.css') + '">' : '',
+    o.side ? '<style>@page :right { @bottom-center { content: "Step by step"; font: italic 600 9pt "Nunito Variable", "Nunito", sans-serif; color: #555; } } @page :left { @bottom-center { content: "' + T.motto + '"; font: italic 600 9pt "Nunito Variable", "Nunito", sans-serif; color: #555; } }</style>' : '',
     '<script>(function(){var r=document.documentElement;r.classList.add("js");try{var t=localStorage.getItem("lm-theme");if(t)r.setAttribute("data-theme",t)}catch(e){}})()</script>'
   ].concat((o.jsonld || []).map(ldTag)).filter(Boolean).join('\n');
 
@@ -406,7 +407,7 @@ function lessonPage(lang, ls) {
       : '<a class="pager-next" href="' + link(gradeDir(lang, g)) + '"><small>' + esc(T.end) + '</small><span>' + esc(T.backToGrade) + '</span></a>') + '\n</nav>';
   const body = '<article class="lesson">\n<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + link(homeDir(lang)) + '">' + esc(T.home) + '</a><span aria-hidden="true">›</span><a href="' + link(gradeDir(lang, g)) + '">' + esc(T.grade(g.n)) + '</a><span aria-hidden="true">›</span><a href="' + link(chapterDir(lang, ch)) + '">' + esc(T.chapterN(ch.number) + ': ' + ch[lang]) + '</a></nav>\n' +
     '<h1>' + esc(meta.title) + '</h1>\n<p class="meta">' + metaLine + '</p>\n' +
-    (ls.ws && ls.ws[lang] ? '<p class="ws-link"><a class="btn btn-outline" href="' + WS_DIR[lang] + '/">🖨 ' + esc(WS_LABEL[lang]) + '</a> <a class="ws-why" href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paperWhy) + '</a></p>\n' : '') + toc + '\n' +
+    (ls.ws && ls.ws[lang] ? '<p class="ws-link"><a class="btn btn-outline" href="' + WS_DIR[lang] + '/">🖨 ' + esc(WS_LABEL[lang]) + '</a> <button type="button" class="btn btn-outline print-lesson" onclick="window.print()">📄 ' + esc(T.printLesson) + '</button> <a class="ws-why" href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paperWhy) + '</a></p>\n' : '') + toc + '\n' +
     '<div class="prose">\n' + resolveLinks(r.html, d, lang, C.rel) + '\n</div>\n' +
     '<div class="lesson-actions"><button id="done-btn" class="btn btn-outline" type="button" aria-pressed="false" data-lesson="' + ls.id + '" data-on="' + esc(T.markedDone) + '" data-off="' + esc(T.markDone) + '" hidden><span class="chk" aria-hidden="true"></span><span class="done-text">' + esc(T.markDone) + '</span></button></div>\n' +
     '</article>\n' + pager;

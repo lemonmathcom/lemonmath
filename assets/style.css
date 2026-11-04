@@ -341,3 +341,44 @@ a.card:hover { transform: translateY(-3px); }
 @media print { .topbar, .sidebar, .pager, .lesson-actions, .footer, .scrim { display: none !important; } body { background: #fff; color: #000; } .has-side .layout { display: block; } }
 .ws-link { margin: .2em 0 1em; }
 .ws-link .ws-why { margin-left: 10px; font-weight: 700; }
+
+/* ---------- printed lesson (A4): everything needed to study without a computer ---------- */
+.print-answers, .qz-boxes, .ex-write { display: none; }
+@page { size: A4; margin: 14mm 14mm 16mm; }
+@media print {
+  html, body { background: #fff !important; color: #000 !important; }
+  body { font-size: 10.5pt; line-height: 1.45; }
+  .topbar, .sidebar, .pager, .lesson-actions, .footer, .scrim, .crumbs, .ws-link, .toc, .skip,
+  .ex-sol, .qz-keys, .qz-actions, .qz-expl, .qz-sa input, .theme-btn, .lang-btn { display: none !important; }
+  .has-side .layout, .layout, main, .lesson, .prose { display: block !important; max-width: none !important; width: auto !important; margin: 0 !important; padding: 0 !important; }
+  h1 { font-size: 20pt; margin: 0 0 2mm; }
+  .meta { font-size: 9pt; margin-bottom: 4mm; }
+  h2 { font-size: 14pt; margin: 6mm 0 2mm; break-after: avoid; }
+  h3 { font-size: 11.5pt; break-after: avoid; }
+  .box { break-inside: avoid; box-shadow: none !important; border-width: 1.2px !important; margin: 3mm 0 !important; }
+  .box-exercise, .box-quiz { break-inside: auto; }
+  .box-title { break-after: avoid; }
+  .box, .box * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  figure, svg, table, .katex-display { break-inside: avoid; max-width: 100% !important; }
+  a { color: inherit; text-decoration: none; }
+  /* exercises: hints stay; a ruled space to write the solution */
+  .ex-write { display: block; height: 30mm; margin-top: 2mm; border: 1px solid #bbb; border-radius: 4px;
+    background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 7.5mm, #ddd 7.5mm, #ddd 7.8mm); }
+  /* mini test: tick boxes and 4 answer boxes like the exam sheet */
+  .qz-opts { display: grid !important; grid-template-columns: 1fr 1fr; gap: 1mm 6mm; }
+  .qz-item { break-inside: avoid; margin: 2mm 0 3mm; }
+  .qz-boxes { display: inline-flex; gap: 1mm; }
+  .qz-boxes i { width: 7mm; height: 8mm; border: 1.2px solid #333; }
+  /* solutions and answers at the end, starting on a new page */
+  .print-answers { display: block; break-before: page; font-size: 9.5pt; }
+  .pa-title { margin-top: 0; }
+  .pa-note { font-style: italic; }
+  .pa-item { break-inside: avoid; margin: 0 0 3mm; padding-bottom: 2mm; border-bottom: 1px dotted #aaa; }
+  .pa-item > p:first-of-type { display: inline; }
+  .pa-keys li { margin: 1mm 0; break-inside: avoid; }
+}
+@media print {
+  figure { margin: 2mm auto !important; text-align: center; }
+  figure svg, .fsvg { width: auto !important; max-width: 100% !important; max-height: 65mm !important; height: auto; }
+  figcaption { font-size: 9pt; }
+}

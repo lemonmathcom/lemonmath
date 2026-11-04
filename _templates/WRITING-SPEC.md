@@ -223,6 +223,21 @@ Hai nghiệm là $-1$ và $6$ ...
 - Grade 9: exercises and the entrance-exam items use the style of the provincial grade-10 entrance exams ("Bài 1. (1,5 điểm) a) Giải phương trình … b) Giải hệ phương trình …", "Cho biểu thức $P = …$ với $x\geq 0$, $x\neq 1$. a) Rút gọn $P$. b) Tính giá trị của $P$ khi $x=…$").
 - Grades 1–5: the wording of KNTT primary books ("Số?", "Tính nhẩm", "Đặt tính rồi tính", "Bài giải … Đáp số: …"), with "Bài giải" and "Đáp số" in primary word problems.
 
+## 2d. Tinh thần của toàn bộ nội dung (decided by the teacher, November 2026; applies to every lesson, overrides earlier "keep it short" advice where they conflict)
+
+Write as a devoted, deeply knowledgeable teacher who cares about each student's growth in mathematical competence.
+
+**Purpose of every lesson: develop thinking.** Each lesson must visibly train
+- *tư duy và lập luận toán học* (reasoning): ask "vì sao?", give the reason behind each rule, show how a result follows from what the student already knows;
+- *giải quyết vấn đề* (problem solving): at least one example walks through Hiểu đề → Tìm cách giải → Giải → Nhìn lại, and the "Nhìn lại" step asks a real question (Có cách khác không? Kết quả có hợp lí không? Nếu thay đổi dữ kiện thì sao?);
+- *tư duy hệ thống* (systems thinking): show where the idea sits in the bigger picture: what it builds on, what it prepares for, how it links to other topics (a short "Kết nối" paragraph or a small concept map in words), and in real-life problems how several quantities depend on each other.
+
+**Lời dẫn (opening) and explanations of concepts: warm, enthusiastic, insightful.** The opening tells a meaningful story or situation and makes the student *want* to find the answer; concept explanations go beyond the definition: where the idea came from, why it is natural, what it means intuitively (a picture, a concrete case), what it is NOT (a contrasting example). Allowed to be longer than before (a rich opening of 1–2 short paragraphs; a "Vì sao?" / "Hiểu sâu hơn" paragraph after the main definition), but every sentence must teach something: no empty praise, no clichés, no exclamation-mark enthusiasm. Solutions themselves stay in the KNTT voice of 2c (clear, step by step), followed where useful by one sentence of insight ("Nhận xét." / "Remark.") that generalises or connects.
+
+**Real-life mathematics with real meaning.** Each lesson has at least 2 real-life problems (examples or exercises) and grades 10–12 at least 3, drawn from contexts that matter to Vietnamese students and their families: personal finance (savings, interest, instalments, electricity and water bills with tiered prices), health and sport, transport and traffic safety, construction and measurement, agriculture and fisheries, environment and climate (rainfall, sea level, waste, energy), science and technology, data in the news. The mathematics must be the natural tool for a decision or an explanation, not decoration, and the numbers must be realistic.
+
+**Reliability of facts and evidence.** Any real-world fact, statistic, historical note or formula from science (e.g. electricity price tiers, speed limits, population, a physics law, who discovered a theorem and when) must be correct and verifiable in an authoritative source: Vietnamese government or ministry sites (.gov.vn, Tổng cục Thống kê/GSO, EVN tariffs, Bộ GD&ĐT), KNTT textbooks, UN/WHO/World Bank, encyclopaedias (Britannica), MacTutor History of Mathematics (St Andrews) for history of mathematics, peer-reviewed research. If you cannot verify a figure, do not state it as fact: present it as a made-up but realistic scenario ("Giả sử …", "Một cửa hàng …"). Never invent statistics, quotes or historical claims. When a real figure is used, add the source briefly in the text or a note (e.g. "(theo Tổng cục Thống kê, 2024)").
+
 ## 3. Mathematics (KaTeX)
 
 - Inline: `$x^2+1$`. Display: `$$ ... $$` on its own lines. Only KaTeX-supported LaTeX (`\dfrac`, `\sqrt`, `\vec{u}`, `\overrightarrow{AB}`, `\widehat{ABC}`, `\begin{cases}`, `\begin{aligned}`, `\mathbb{R}`, `\in`, `\subset`, `\cup`, `\cap`, `\Rightarrow`, `\Leftrightarrow`, `\forall`, `\exists`, `\neq`, `\leq`, `\geq`, `\approx`, `\pm`, `^\circ` ...).

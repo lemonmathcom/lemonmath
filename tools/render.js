@@ -34,6 +34,7 @@ const KINDS = {
   vi: { definition: 'Định nghĩa', theorem: 'Định lí', example: 'Ví dụ', note: 'Ghi chú', tip: 'Mẹo', warning: 'Chú ý', practice: 'Luyện tập', goals: 'Mục tiêu bài học', terms: 'Thuật ngữ' }
 };
 const SOLUTION = { en: 'Show solution', vi: 'Xem lời giải' };
+const APPENDIX = { en: 'Solutions and answers', vi: 'Lời giải và đáp án', note: { en: 'Try each exercise on your own first, then check here.', vi: 'Hãy tự làm từng bài trước, rồi mới đối chiếu ở đây.' }, quiz: { en: 'Mini test: answers', vi: 'Kiểm tra mini: đáp án' } };
 const EXERCISE = { en: 'Exercise', vi: 'Bài' };
 const HINTS = { en: 'What you need and how to start', vi: 'Kiến thức và gợi ý cách làm' };
 const QZ = {
@@ -97,7 +98,7 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
   let out = '';
   let last = 0;
   let m;
-  let exNo = 0, qzNo = 0;
+  let exNo = 0, qzNo = 0, apx = '';
   while ((m = re.exec(text))) {
     out += parse(text.slice(last, m.index));
     let type = m[1];
@@ -128,7 +129,7 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
           html += '<div class="qz-item" data-type="' + t + '" data-key="' + esc(t === 'sa' ? it.key.replace(',', '.') : it.key) + '"><div class="qz-q"><b>' + L.q + ' ' + (j + 1) + '.</b> ' + inl(it.q) + '</div>';
           if (t === 'mc') html += '<ul class="qz-opts">' + it.opts.map((o, i) => { const c = 'ABCD'[i]; return '<li><label><input type="radio" name="' + name + '" value="' + c + '"> <b>' + c + '.</b> ' + inl(o) + '</label></li>'; }).join('') + '</ul>';
           if (t === 'tf') html += '<table class="qz-tf"><tbody>' + it.opts.map((o, i) => { const c = 'abcd'[i]; return '<tr><td><b>' + c + ')</b> ' + inl(o) + '</td><td><label><input type="radio" name="' + name + c + '" value="T"> ' + L.T + '</label></td><td><label><input type="radio" name="' + name + c + '" value="F"> ' + L.F + '</label></td></tr>'; }).join('') + '</tbody></table>';
-          if (t === 'sa') html += '<p class="qz-sa"><input type="text" inputmode="decimal" autocomplete="off" maxlength="8" placeholder="' + L.saPh + '" aria-label="' + L.answer + '"></p>';
+          if (t === 'sa') html += '<p class="qz-sa"><input type="text" inputmode="decimal" autocomplete="off" maxlength="8" placeholder="' + L.saPh + '" aria-label="' + L.answer + '"><span class="qz-boxes" aria-hidden="true"><i></i><i></i><i></i><i></i></span></p>';
           html += '<div class="qz-expl" hidden><b>' + L.answer + ': ' + esc(t === 'tf' ? it.key.split('').map((x, i) => 'abcd'[i] + ') ' + (x === 'T' ? L.T : L.F)).join('; ') : it.key) + '.</b> ' + parse(it.expl) + '</div></div>';
           keys += '<li><b>' + L.parts[pi].split('.')[0] + ', ' + L.q.toLowerCase() + ' ' + (j + 1) + ':</b> ' + esc(t === 'tf' ? it.key.split('').map((x, i) => 'abcd'[i] + ') ' + (x === 'T' ? L.T : L.F)).join('; ') : it.key) + '. ' + inl(it.expl) + '</li>';
         });
@@ -138,6 +139,7 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
         '<p class="qz-note">' + L.note + '</p>' + html +
         '<p class="qz-actions"><button type="button" class="btn qz-submit" hidden>' + L.submit + '</button> <button type="button" class="btn btn-outline qz-retry" hidden>' + L.retry + '</button> <span class="qz-score" aria-live="polite"></span></p>' +
         '<details class="qz-keys"><summary>' + L.keys + '</summary><ol>' + keys + '</ol></details></div></section>';
+      apx += '<h3>' + (title === 'exam' ? L.keys : APPENDIX.quiz[lang]) + '</h3><ol class="pa-keys">' + keys + '</ol>';
     } else if (type === 'exercise') {
       // :::exercise [title]  statement  ::hint  knowledge + steps  ::solution  worked solution  :::
       exNo++;
@@ -150,7 +152,8 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
         '</div><div class="box-body"><div class="ex-q">' + parse(q) + '</div>' +
         (hint.trim() ? '<div class="ex-hint"><div class="ex-hint-t">' + HINTS[lang] + '</div>' + parse(hint) + '</div>' : '') +
         (sol.trim() ? '<details class="ex-sol"><summary>' + SOLUTION[lang] + '</summary><div class="ex-sol-b">' + parse(sol) + '</div></details>' : '') +
-        '</div></section>';
+        '<div class="ex-write" aria-hidden="true"></div></div></section>';
+      if (sol.trim()) apx += '<div class="pa-item"><b>' + EXERCISE[lang] + ' ' + exNo + '.</b>' + parse(sol) + '</div>';
     } else if (type === 'terms') {
       const rows = body.split('\n').map((l) => l.trim()).filter(Boolean).map((l) => {
         const parts = l.replace(/^[-*]\s*/, '').split(/\s+\|\s+/);
@@ -173,6 +176,8 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
     last = re.lastIndex;
   }
   out += parse(text.slice(last));
+  // printed lessons: all solutions and answer keys gathered at the end (hidden on screen)
+  if (apx) out += '<section class="print-answers" aria-hidden="true"><h2 class="pa-title">' + APPENDIX[lang] + '</h2><p class="pa-note">' + APPENDIX.note[lang] + '</p>' + apx + '</section>';
   return out;
 }
 
