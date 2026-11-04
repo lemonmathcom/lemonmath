@@ -38,6 +38,8 @@ $$S=\int_{-2}^{2}(4-x^2)\,dx=\Big[4x-\frac{x^3}{3}\Big]_{-2}^{2}=\left(8-\frac83
 
 It is indeed between $8$ and $16$; it is $\dfrac23$ of the area of the surrounding rectangle.
 
+This number is also $\dfrac43\cdot8$, that is $\dfrac43$ of the area of the triangle with the same base and the same vertex as the gate. Archimedes proved exactly this ratio $\dfrac43$ for every "segment of a parabola" in his work *Quadrature of the Parabola*, more than $2000$ years ago, by filling the region with infinitely many small triangles (MacTutor History of Mathematics). Today an integral gives the same result in one line.
+
 When part of a graph lies **below** the $x$-axis, the integral over that part is negative, while an area is always positive. That is why the general formula has an absolute value.
 
 :::theorem Area of a plane region
@@ -49,18 +51,20 @@ $$S=\int_a^b\lvert f(x)-g(x)\rvert\,dx.$$
 
 **Why is it true?** If $f(x)\ge g(x)$ on $[a, b]$, we translate both graphs up by the same amount $k$ so that they lie above the $x$-axis. The region does not change, and its area is the area under $f+k$ minus the area under $g+k$, that is $\displaystyle\int_a^b(f-g)\,dx$. Wherever $f<g$ the two functions swap roles, so we use $\lvert f-g\rvert$.
 
+**Connections.** This lesson combines the geometric meaning of the integral (previous lesson) with reading graphs and finding intersection points (chapter I). The idea of "cutting into very thin slices and adding them up" is used again for volumes in the next section, and it explains the volume formulas for pyramids, cones and spheres that we used to take on trust.
+
 **Method.** Solve $f(x)-g(x)=0$ to find the crossing points in $(a, b)$. On each piece, $f-g$ keeps one sign, so $\displaystyle\int\lvert f-g\rvert\,dx=\left\lvert\int(f-g)\,dx\right\rvert$. If the lines $x=a$, $x=b$ are not given, the limits are the $x$-coordinates of the intersection points.
 
 :::example A graph that crosses the $x$-axis
 Find the area of the region bounded by the graph of $y=x^2-2x$, the $x$-axis and the lines $x=0$, $x=3$.
 
-**Solution.** We find where the graph meets the $x$-axis: $x^2-2x=0\iff x=0$ or $x=2$. On $[0, 2]$ the graph lies below the axis, and on $[2, 3]$ above it. We split at $x=2$:
+**Solution.** We have $x^2-2x=0\iff x=0$ or $x=2$. On $[0, 2]$ the graph lies below the $x$-axis, and on $[2, 3]$ above it. Splitting at $x=2$, we have
 
 $$\int_0^2(x^2-2x)\,dx=\Big[\frac{x^3}{3}-x^2\Big]_0^2=-\frac43,\qquad\int_2^3(x^2-2x)\,dx=0-\left(-\frac43\right)=\frac43.$$
 
 So $S=\left\lvert-\dfrac43\right\rvert+\dfrac43=\dfrac83$.
 
-**Look back.** Evaluating $\displaystyle\int_0^3(x^2-2x)\,dx$ in one go gives $0$, because the negative and positive parts cancel.
+**Look back.** What do we get by evaluating $\displaystyle\int_0^3(x^2-2x)\,dx$ in one go, and why? We get $0$, because the negative and positive parts cancel; an integral measures "signed area", whereas an area is always positive.
 :::
 
 :::graph The region in the example above
@@ -79,7 +83,7 @@ When a region lies between two graphs, the limits are usually the $x$-coordinate
 :::example Between two graphs
 Find the area of the region bounded by the parabola $y=x^2$ and the line $y=x+2$.
 
-**Solution.** The intersection points satisfy $x^2=x+2\iff x^2-x-2=0\iff x=-1$ or $x=2$. On $(-1, 2)$ we test $x=0$: the line gives $2$ and the parabola gives $0$, so the line is on top:
+**Solution.** The x-coordinates of the intersection points satisfy $x^2=x+2\iff x^2-x-2=0\iff x=-1$ or $x=2$. On $(-1, 2)$, substituting $x=0$, the line gives $2$ and the parabola gives $0$, so the line lies above the parabola. Hence
 
 $$S=\int_{-1}^{2}(x+2-x^2)\,dx=\Big[\frac{x^2}{2}+2x-\frac{x^3}{3}\Big]_{-1}^{2}=\frac{10}{3}-\left(-\frac76\right)=\frac92.$$
 
@@ -109,11 +113,13 @@ $$V=\int_a^b S(x)\,dx.$$
 :::example The volume of a pyramid
 A pyramid has a square base of side $3$ and height $6$. Put the apex at the origin $O$ with the $x$-axis perpendicular to the base. The cross-section at $x$ is a square of side $\dfrac{x}{2}$ (the side grows in proportion to the distance from the apex). Find the volume of the pyramid.
 
-**Solution.** The cross-section has area $S(x)=\left(\dfrac x2\right)^2=\dfrac{x^2}{4}$, for $0\le x\le6$:
+**Solution.** The cross-section has area $S(x)=\left(\dfrac x2\right)^2=\dfrac{x^2}{4}$, for $0\le x\le6$. Hence
 
 $$V=\int_0^6\frac{x^2}{4}\,dx=\Big[\frac{x^3}{12}\Big]_0^6=\frac{216}{12}=18.$$
 
 **Check.** The familiar formula $V=\dfrac13\cdot3^2\cdot6=18$ gives the same result.
+
+So the volume of the pyramid is $18$.
 :::
 
 ## Solids of revolution
@@ -127,23 +133,27 @@ $$V=\pi\int_a^b f^2(x)\,dx.$$
 :::example The volume of a sphere
 Rotating the half-disc bounded by $y=\sqrt{9-x^2}$ and the $x$-axis about the $x$-axis gives a sphere of radius $3$. Find the volume of the sphere.
 
-**Solution.** Here $f^2(x)=9-x^2$, for $-3\le x\le3$:
+**Solution.** We have $f^2(x)=9-x^2$, for $-3\le x\le3$. Hence
 
 $$V=\pi\int_{-3}^{3}(9-x^2)\,dx=\pi\Big[9x-\frac{x^3}{3}\Big]_{-3}^{3}=\pi\big(18-(-18)\big)=36\pi.$$
 
 **Check.** $\dfrac43\pi\cdot3^3=36\pi$, which is the formula for the volume of a sphere.
+
+So the volume of the sphere is $36\pi$.
 :::
 
 The formula for solids of revolution also gives the volume of real curved objects.
 
 :::example The capacity of a glass
-The inside of a glass is the solid of revolution formed by rotating the region bounded by $y=\sqrt{2x}$, the $x$-axis and $x=8$ about the $x$-axis (units in cm; $x$ is the depth measured from the bottom of the glass). How many millilitres of water does the glass hold?
+The inside of a glass is the solid of revolution formed by rotating the region bounded by $y=\sqrt{2x}$, the $x$-axis and $x=8$ about the $x$-axis (units in cm; $x$ is the height above the bottom of the glass). How many millilitres of water does the glass hold?
 
-**Solution.** We have $f^2(x)=2x$ for $0\le x\le8$:
+**Solution.** We have $f^2(x)=2x$ for $0\le x\le8$. Hence
 
 $$V=\pi\int_0^8 2x\,dx=\pi\Big[x^2\Big]_0^8=64\pi\approx201.$$
 
-Since $1$ cm³ $=1$ ml, the glass holds about $201$ ml of water. The rim has radius $\sqrt{16}=4$ cm.
+The rim has radius $\sqrt{16}=4$ cm. Since $1$ cm³ $=1$ ml, the glass holds about $201$ ml of water.
+
+**Look back.** If we pour water up to half the height of the glass ($x=4$ cm), is the glass "half full"? We have $\pi\displaystyle\int_0^4 2x\,dx=16\pi\approx50$ ml, only a quarter of the capacity, because the lower part of the glass is narrow. For half the capacity ($32\pi$ ml) we need $\pi x^2=32\pi$, that is a height of $x=4\sqrt2\approx5.66$ cm. In a glass that widens towards the top, "half a glass" by eye is much less than half the capacity.
 :::
 
 :::warning Common mistakes
@@ -189,7 +199,9 @@ Find the area of the region bounded by the graph of $y=x^2+1$, the $x$-axis and 
 2. Substitute the limits.
 
 ::solution
-$S=\Big[\dfrac{x^3}{3}+x\Big]_0^3=9+3=12$.
+Since $x^2+1>0$ on $[0, 3]$, $S=\displaystyle\int_0^3(x^2+1)\,dx=\Big[\dfrac{x^3}{3}+x\Big]_0^3=9+3=12$.
+
+So the area of the region is $12$.
 
 **Answer.** $12$.
 :::
@@ -205,7 +217,7 @@ Find the area of the region bounded by the graph of $y=x^3$, the $x$-axis and th
 2. Take the absolute value of each part and add.
 
 ::solution
-$\displaystyle\int_{-1}^0x^3dx=-\frac14$ and $\displaystyle\int_0^2x^3dx=4$. So $S=\dfrac14+4=\dfrac{17}{4}$.
+Since $x^3$ changes sign at $x=0$, we split the interval: $\displaystyle\int_{-1}^0x^3dx=-\frac14$ and $\displaystyle\int_0^2x^3dx=4$. So $S=\dfrac14+4=\dfrac{17}{4}$.
 
 **Answer.** $\dfrac{17}{4}$.
 :::
@@ -221,7 +233,9 @@ Find the area of the region bounded by the parabola $y=x^2$ and the line $y=2x$.
 2. Test $x=1$ to see which graph is on top.
 
 ::solution
-$x^2=2x\iff x=0$ or $x=2$. At $x=1$: $2x=2>1=x^2$. $S=\displaystyle\int_0^2(2x-x^2)\,dx=4-\frac83=\frac43$.
+We have $x^2=2x\iff x=0$ or $x=2$. At $x=1$ we have $2x=2>1=x^2$, so the line lies above the parabola on $(0, 2)$.
+
+So $S=\displaystyle\int_0^2(2x-x^2)\,dx=4-\frac83=\frac43$.
 
 **Answer.** $\dfrac43$.
 :::
@@ -237,13 +251,15 @@ Rotate the region bounded by the line $y=x$, the $x$-axis and the line $x=3$ abo
 2. The solid is a cone with $r=3$ and $h=3$.
 
 ::solution
-$V=\pi\Big[\dfrac{x^3}{3}\Big]_0^3=9\pi$. The cone formula gives $\dfrac13\pi\cdot9\cdot3=9\pi$, the same.
+We have $V=\pi\displaystyle\int_0^3x^2\,dx=\pi\Big[\dfrac{x^3}{3}\Big]_0^3=9\pi$. The solid is a cone with base radius $3$ and height $3$, and the cone formula gives $\dfrac13\pi\cdot9\cdot3=9\pi$.
+
+So the volume is $9\pi$, the same as the cone formula.
 
 **Answer.** $9\pi$.
 :::
 
 :::exercise
-Let $H$ be the region bounded by the graph of $y=x^2-4$ and the $x$-axis. Is each claim true or false?
+Let $H$ be the region bounded by the graph of $y=x^2-4$ and the $x$-axis. Decide whether each statement is true or false.
 
 a) $H$ lies between the lines $x=-2$ and $x=2$.
 
@@ -261,13 +277,13 @@ d) Rotating $H$ about the $x$-axis gives a solid of revolution of volume $\dfrac
 2. Find the area using $4-x^2$, then evaluate $\pi\displaystyle\int_{-2}^2(x^2-4)^2dx$.
 
 ::solution
-a) **True**: $x^2-4=0\iff x=\pm2$.
+a) **True**. We have $x^2-4=0\iff x=\pm2$.
 
-b) **False**: that integral equals $-\dfrac{32}{3}<0$, so it cannot be an area.
+b) **False**. That integral equals $-\dfrac{32}{3}<0$, so it cannot be an area.
 
-c) **True**: $\displaystyle\int_{-2}^2(4-x^2)\,dx=\frac{32}{3}$.
+c) **True**. Since $x^2-4\le0$ on $[-2, 2]$, the area is $\displaystyle\int_{-2}^2(4-x^2)\,dx=\frac{32}{3}$.
 
-d) **True**: $(x^2-4)^2=x^4-8x^2+16$, and $\pi\displaystyle\int_{-2}^2(x^4-8x^2+16)\,dx=\pi\left(\frac{64}{5}-\frac{128}{3}+64\right)=\frac{512\pi}{15}$.
+d) **True**. We have $(x^2-4)^2=x^4-8x^2+16$ and $\pi\displaystyle\int_{-2}^2(x^4-8x^2+16)\,dx=\pi\left(\frac{64}{5}-\frac{128}{3}+64\right)=\frac{512\pi}{15}$.
 
 **Answer.** a) True; b) False; c) True; d) True.
 :::
@@ -283,13 +299,15 @@ Find the area of the region bounded by the parabola $y=x^2-2x$ and the line $y=x
 2. Evaluate $\displaystyle\int\big(x-(x^2-2x)\big)\,dx$ between the two roots.
 
 ::solution
-$x^2-3x=0\iff x=0$ or $x=3$. $S=\displaystyle\int_0^3(3x-x^2)\,dx=\frac{27}{2}-9=\frac92$.
+The intersection points satisfy $x^2-2x=x\iff x^2-3x=0\iff x=0$ or $x=3$. On $(0, 3)$ the line lies above the parabola, hence $S=\displaystyle\int_0^3(3x-x^2)\,dx=\frac{27}{2}-9=\frac92$.
+
+So the area is $\dfrac92$.
 
 **Answer.** $4.5$.
 :::
 
 :::exercise
-A window has the shape of the region bounded by the parabola $y=1.5-1.5x^2$ and the $x$-axis (units in metres): it is $2$ m wide and $1.5$ m high. The glass costs $800$ thousand đồng per square metre. Find the cost of the glass.
+A window has the shape of the region bounded by the parabola $y=1.5-1.5x^2$ and the $x$-axis (units in metres): it is $2$ m wide and $1.5$ m high. The glass costs $800$ thousand đồng per square metre. Find the cost of the glass for this window.
 
 ::hint
 **What you need:** the area of the window is the integral of a non-negative function between its two crossings of the $x$-axis.
@@ -299,7 +317,9 @@ A window has the shape of the region bounded by the parabola $y=1.5-1.5x^2$ and 
 2. Evaluate $S=\displaystyle\int_{-1}^1(1.5-1.5x^2)\,dx$, then multiply by the price.
 
 ::solution
-$S=\Big[1.5x-0.5x^3\Big]_{-1}^{1}=1-(-1)=2$ (m²). The glass costs $2\cdot800=1600$ thousand đồng.
+The parabola meets the $x$-axis at $x=\pm1$. The area of the window is $S=\displaystyle\int_{-1}^1(1.5-1.5x^2)\,dx=\Big[1.5x-0.5x^3\Big]_{-1}^{1}=1-(-1)=2$ (m²).
+
+So the glass costs $2\cdot800=1600$ thousand đồng.
 
 **Answer.** $1\,600$ thousand đồng ($1.6$ million đồng).
 :::
@@ -315,7 +335,9 @@ A solid lies between the planes $x=0$ and $x=4$. Its cross-section perpendicular
 2. Evaluate $\displaystyle\int_0^4(4x-x^2)\,dx$.
 
 ::solution
-$V=\Big[2x^2-\dfrac{x^3}{3}\Big]_0^4=32-\dfrac{64}{3}=\dfrac{32}{3}$.
+The cross-section has area $S(x)=x(4-x)=4x-x^2$. Hence $V=\displaystyle\int_0^4(4x-x^2)\,dx=\Big[2x^2-\dfrac{x^3}{3}\Big]_0^4=32-\dfrac{64}{3}=\dfrac{32}{3}$.
+
+So the volume of the solid is $\dfrac{32}{3}$.
 
 **Answer.** $\dfrac{32}{3}$.
 :::
@@ -331,7 +353,9 @@ Find the area of the region bounded by the graph of $y=\sin x$, the $x$-axis and
 2. Use the antiderivative $-\cos x$.
 
 ::solution
-$S=\Big[-\cos x\Big]_0^{\pi}=1-(-1)=2$.
+Since $\sin x\ge0$ on $[0, \pi]$, $S=\displaystyle\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=1-(-1)=2$.
+
+So the area is $2$.
 
 **Answer.** $2$.
 :::
@@ -347,7 +371,7 @@ Find the area of the region bounded by the graphs of $y=x^3-x$ and $y=3x$.
 2. Evaluate $\displaystyle\int\lvert x^3-4x\rvert\,dx$ on $[-2, 0]$ and $[0, 2]$.
 
 ::solution
-The intersections are $x=-2$, $0$, $2$. $\displaystyle\int_{-2}^0(x^3-4x)\,dx=\Big[\frac{x^4}{4}-2x^2\Big]_{-2}^0=0-(4-8)=4$; $\displaystyle\int_0^2(4x-x^3)\,dx=8-4=4$. So $S=8$.
+We have $x^3-x=3x\iff x^3-4x=0\iff x\in\{-2, 0, 2\}$. We have $\displaystyle\int_{-2}^0(x^3-4x)\,dx=\Big[\frac{x^4}{4}-2x^2\Big]_{-2}^0=0-(4-8)=4$; $\displaystyle\int_0^2(4x-x^3)\,dx=8-4=4$. So $S=8$.
 
 **Answer.** $8$.
 :::
@@ -362,16 +386,16 @@ B. $\displaystyle\int_a^b\lvert f(x)\rvert\,dx$.
 C. $\pi\displaystyle\int_a^b f^2(x)\,dx$.
 D. $\pi\displaystyle\int_a^b\lvert f(x)\rvert\,dx$.
 ::key B
-The part of the graph below the $x$-axis gives a negative integral, so we need $\lvert f(x)\rvert$. A is right only when $f\ge0$; C is the volume of a solid of revolution; D mixes the two formulas.
+Since the part of the graph below the $x$-axis gives a negative integral, we need $\lvert f(x)\rvert$. Option A is right only when $f\ge0$; C is the volume of a solid of revolution; D mixes the two formulas.
 
 ::mc
-The area of the region bounded by $y=x^2$ and $y=x$ is
+The area of the region bounded by the graphs of $y=x^2$ and $y=x$ is
 A. $\dfrac56$.
 B. $\dfrac12$.
 C. $\dfrac16$.
 D. $-\dfrac16$.
 ::key C
-The intersections are $x=0$ and $x=1$, and on $(0, 1)$, $x>x^2$: $S=\displaystyle\int_0^1(x-x^2)\,dx=\frac12-\frac13=\frac16$. A adds instead of subtracting, B only evaluates $\displaystyle\int_0^1x\,dx$, and D subtracts the wrong way round.
+The graphs meet at $x=0$ and $x=1$, and $x>x^2$ on $(0, 1)$. Hence $S=\displaystyle\int_0^1(x-x^2)\,dx=\frac12-\frac13=\frac16$. A adds instead of subtracting, B only evaluates $\displaystyle\int_0^1x\,dx$, and D subtracts the wrong way round.
 
 ::mc
 The region bounded by $y=\sqrt x$, the $x$-axis, $x=0$ and $x=1$ is rotated about the $x$-axis. The volume of the solid of revolution is
@@ -380,7 +404,7 @@ B. $\dfrac{2\pi}{3}$.
 C. $\dfrac12$.
 D. $\dfrac{\pi^2}{4}$.
 ::key A
-$V=\pi\displaystyle\int_0^1x\,dx=\frac{\pi}{2}$. B forgets the square ($\pi\displaystyle\int\sqrt x\,dx$), C forgets the $\pi$, and D squares the whole integral $\left(\pi\displaystyle\int_0^1 x\,dx\right)^2$.
+We have $V=\pi\displaystyle\int_0^1(\sqrt x)^2\,dx=\pi\displaystyle\int_0^1x\,dx=\frac{\pi}{2}$. Option B forgets the square ($\pi\displaystyle\int\sqrt x\,dx$), C forgets the $\pi$, and D squares the whole integral $\left(\pi\displaystyle\int_0^1 x\,dx\right)^2$.
 
 ::mc
 A solid lies between the planes $x=0$ and $x=2$; its cross-section perpendicular to the $x$-axis at $x$ is a square of side $x$. The volume of the solid is
@@ -389,24 +413,24 @@ B. $\dfrac83$.
 C. $\dfrac{8\pi}{3}$.
 D. $2$.
 ::key B
-$S(x)=x^2$, so $V=\displaystyle\int_0^2x^2dx=\frac83$. A multiplies the largest cross-section by the length, C adds a $\pi$ as for a solid of revolution, and D uses the side instead of the area.
+The cross-section has area $S(x)=x^2$, so $V=\displaystyle\int_0^2x^2dx=\frac83$. Option A multiplies the largest cross-section by the length, C adds a $\pi$ as for a solid of revolution, and D uses the side instead of the area.
 
 ::tf
-Let $H$ be the region bounded by the parabola $y=4x-x^2$ and the $x$-axis.
+Let $H$ be the region bounded by the parabola $y=4x-x^2$ and the $x$-axis. Decide whether each statement is true or false.
 a) The parabola meets the $x$-axis at $x=0$ and $x=4$.
 b) The area of $H$ is $\dfrac{32}{3}$.
 c) Rotating $H$ about the $x$-axis gives a solid of revolution of volume $\pi\displaystyle\int_0^4(4x-x^2)\,dx$.
 d) The line $x=2$ divides $H$ into two parts of equal area.
 ::key T T F T
-a) True: $x(4-x)=0$. b) True: $\displaystyle\int_0^4(4x-x^2)\,dx=32-\frac{64}{3}=\frac{32}{3}$. c) False: the square is missing; the volume is $\pi\displaystyle\int_0^4(4x-x^2)^2dx=\frac{512\pi}{15}$. d) True: $\displaystyle\int_0^2(4x-x^2)\,dx=\frac{16}{3}$, half the area (the parabola is symmetric about $x=2$).
+a) True: we have $4x-x^2=x(4-x)=0\iff x=0$ or $x=4$. b) True: we have $\displaystyle\int_0^4(4x-x^2)\,dx=32-\frac{64}{3}=\frac{32}{3}$. c) False: the square is missing; the volume is $\pi\displaystyle\int_0^4(4x-x^2)^2dx=\frac{512\pi}{15}$. d) True: we have $\displaystyle\int_0^2(4x-x^2)\,dx=\frac{16}{3}$, half the area (the parabola is symmetric about $x=2$).
 
 ::sa
 Find the area of the region bounded by the graphs of $y=x^3$ and $y=x$.
 ::key 0.5
-The intersections are $x=-1$, $0$, $1$. Each part has area $\displaystyle\int_0^1(x-x^3)\,dx=\frac12-\frac14=\frac14$, a total of $\dfrac12=0.5$.
+We have $x^3=x\iff x\in\{-1, 0, 1\}$. By symmetry, each part has area $\displaystyle\int_0^1(x-x^3)\,dx=\frac12-\frac14=\frac14$. So the area is $\dfrac12=0.5$.
 
 ::sa
-The region bounded by $y=\dfrac1x$, the $x$-axis, $x=1$ and $x=3$ is rotated about the $x$-axis. Find the volume of the solid of revolution. Give your answer to 2 decimal places.
+The inside of a funnel (not counting the narrow spout) is the solid of revolution formed by rotating the region bounded by $y=\dfrac1x$, the $x$-axis and the lines $x=1$, $x=3$ about the $x$-axis (units in dm). Find the capacity of this part of the funnel in litres (give your answer to 2 decimal places).
 ::key 2.09
-$V=\pi\displaystyle\int_1^3\frac{1}{x^2}\,dx=\pi\Big[-\frac1x\Big]_1^3=\pi\left(1-\frac13\right)=\frac{2\pi}{3}\approx2.094$, which rounds to $2.09$.
+$V=\pi\displaystyle\int_1^3\frac{1}{x^2}\,dx=\pi\Big[-\frac1x\Big]_1^3=\pi\left(1-\frac13\right)=\frac{2\pi}{3}\approx2.094$ (dm³). Since $1$ dm³ $=1$ litre, the capacity, rounded, is $2.09$ litres.
 :::

@@ -11,9 +11,11 @@ minutes: 22
 - Tính khoảng cách giữa hai điểm, toạ độ trung điểm và trọng tâm.
 :::
 
-Một phòng học dài $8$ m, rộng $6$ m, cao $3$ m. Một chiếc đèn treo cách bức tường phía trước $2$ m, cách bức tường bên trái $3$ m và cách sàn $2{,}5$ m. Một cảm biến khói đặt ở góc sàn đối diện, cách hai bức tường đó lần lượt $8$ m và $6$ m. Đèn cách cảm biến bao xa?
+Một phòng học dài $8$ m, rộng $6$ m, cao $3$ m. Một chiếc đèn treo cách bức tường phía trước $2$ m, cách bức tường bên trái $3$ m và cách sàn $2{,}5$ m. Một cảm biến độ ẩm đặt ở góc sàn đối diện, cách hai bức tường đó lần lượt $8$ m và $6$ m. Đèn cách cảm biến bao xa?
 
 Trong mặt phẳng, hai số đủ để chỉ vị trí một điểm. Trong không gian ta cần ba số, và ba số đó cho phép tính khoảng cách mà không cần vẽ hình.
+
+Ý tưởng dùng các con số để chỉ vị trí, nhờ đó biến bài toán hình học thành bài toán đại số, được René Descartes trình bày trong cuốn *La Géométrie* (năm 1637) cho các điểm trong mặt phẳng (theo MacTutor History of Mathematics). Mở rộng lên ba chiều, ý tưởng ấy là nền tảng của bản vẽ kĩ thuật, của phần mềm thiết kế 3D và của việc điều khiển một chiếc flycam: mọi vị trí đều được mô tả bằng ba con số.
 
 ## Hệ trục toạ độ $Oxyz$
 
@@ -38,6 +40,10 @@ Hệ trục toạ độ $Oxyz$ gồm ba trục $Ox$, $Oy$, $Oz$ đôi một vuô
 :::
 
 Như vậy toạ độ của điểm $M$ chính là toạ độ của vectơ $\overrightarrow{OM}$. Đặc biệt $\vec{i}=(1; 0; 0)$, $\vec{j}=(0; 1; 0)$, $\vec{k}=(0; 0; 1)$ và $\vec{0}=(0; 0; 0)$.
+
+**Hiểu sâu hơn.** Mỗi toạ độ trả lời một câu hỏi riêng: đi bao xa theo hướng $\vec{i}$, theo hướng $\vec{j}$, theo hướng $\vec{k}$. Vì ba hướng đôi một vuông góc nên thay đổi một toạ độ không ảnh hưởng đến hai toạ độ kia; đó là lí do các phép toán vectơ trở thành phép toán trên từng toạ độ. Toạ độ phụ thuộc vào cách chọn hệ trục: cùng một chiếc đèn, đặt gốc ở góc khác của phòng thì ba con số sẽ khác, nhưng khoảng cách giữa hai điểm thì không đổi.
+
+**Kết nối.** Bài này nối vectơ trong không gian (bài trước) với toạ độ trong mặt phẳng (lớp 10). Từ đây, phương trình mặt phẳng, đường thẳng và mặt cầu trong không gian đều được viết bằng ba toạ độ $x$, $y$, $z$.
 
 :::diagram Hình hộp chữ nhật $OABC.O'A'B'C'$ trong hệ $Oxyz$
 alt: Hệ trục Oxyz với trục Ox hướng xuống bên trái, Oy sang phải, Oz lên trên; hình hộp chữ nhật có đỉnh O ở gốc, A trên Ox, C trên Oy, O' trên Oz; ba cạnh xuất phát từ O nằm trên ba trục
@@ -71,14 +77,16 @@ Ví dụ đầu tiên đọc toạ độ từ hình hộp trên, với các cạ
 :::example Toạ độ các đỉnh của hình hộp
 Hình hộp chữ nhật $OABC.O'A'B'C'$ có $A$ trên tia $Ox$, $C$ trên tia $Oy$, $O'$ trên tia $Oz$, với $OA=3$, $OC=4$, $OO'=2$. Tìm toạ độ các đỉnh và toạ độ của $\overrightarrow{OB'}$.
 
-**Lời giải.** Mỗi đỉnh đạt được bằng cách đi dọc các cạnh song song với các trục. Đỉnh $B$ cần $3$ theo $Ox$ và $4$ theo $Oy$; đỉnh có dấu phẩy ở đáy trên, cao thêm $2$:
+**Lời giải.** Ta có $\overrightarrow{OB}=\overrightarrow{OA}+\overrightarrow{OC}=3\vec{i}+4\vec{j}$; các đỉnh có dấu phẩy nằm ở đáy trên nên có cao độ bằng $OO'=2$. Do đó
 
 $$\begin{aligned}
 &O(0; 0; 0),\quad A(3; 0; 0),\quad B(3; 4; 0),\quad C(0; 4; 0),\\
 &O'(0; 0; 2),\quad A'(3; 0; 2),\quad B'(3; 4; 2),\quad C'(0; 4; 2).
 \end{aligned}$$
 
-Toạ độ của $\overrightarrow{OB'}$ bằng toạ độ của điểm $B'$: $\overrightarrow{OB'}=3\vec{i}+4\vec{j}+2\vec{k}=(3; 4; 2)$.
+Vì toạ độ của $\overrightarrow{OB'}$ bằng toạ độ của điểm $B'$ nên $\overrightarrow{OB'}=3\vec{i}+4\vec{j}+2\vec{k}=(3; 4; 2)$.
+
+Vậy các đỉnh có toạ độ như trên và $\overrightarrow{OB'}=(3; 4; 2)$.
 :::
 
 ### Điểm trên các trục và các mặt phẳng toạ độ
@@ -95,11 +103,11 @@ Hình chiếu vuông góc của $M(x; y; z)$ lên một mặt phẳng toạ đ�
 :::example Hình chiếu và khoảng cách đến các mặt phẳng toạ độ
 Cho $M(2; -3; 5)$. Tìm hình chiếu của $M$ lên $(Oxy)$, $(Oyz)$, $(Ozx)$ và lên trục $Oz$. Tính khoảng cách từ $M$ đến mặt phẳng $(Oxy)$ và đến trục $Oz$.
 
-**Lời giải.** Lên mỗi mặt phẳng, ta thay toạ độ "thiếu" bằng $0$; lên trục $Oz$, chỉ giữ cao độ:
+**Lời giải.** Hình chiếu lên mỗi mặt phẳng toạ độ có toạ độ "thiếu" bằng $0$; hình chiếu lên trục $Oz$ chỉ giữ cao độ. Do đó các hình chiếu là
 
 $$(Oxy):\ (2; -3; 0),\qquad (Oyz):\ (0; -3; 5),\qquad (Ozx):\ (2; 0; 5),\qquad Oz:\ (0; 0; 5).$$
 
-Khoảng cách đến $(Oxy)$ là $|5|=5$. Gọi $H(0; 0; 5)$ là hình chiếu trên $Oz$; $MH$ nằm ngang và là đường chéo của hình chữ nhật cạnh $2$ và $3$:
+Khoảng cách từ $M$ đến $(Oxy)$ là $|5|=5$. Gọi $H(0; 0; 5)$ là hình chiếu của $M$ trên $Oz$, ta có $\overrightarrow{HM}=(2; -3; 0)$. Do đó
 
 $$MH=\sqrt{2^2+(-3)^2}=\sqrt{13}.$$
 
@@ -115,15 +123,15 @@ $$\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A;\ z_B-z_A).$$
 Vẫn là quy tắc quen thuộc: **điểm cuối trừ điểm đầu**. Hai vectơ bằng nhau khi và chỉ khi ba toạ độ tương ứng bằng nhau.
 
 :::example Hai vectơ bằng nhau
-Cho $A(1; 2; -1)$, $B(3; -1; 2)$, $C(-2; 0; 4)$, $D(0; -3; 7)$. Chứng minh $\overrightarrow{AB}=\overrightarrow{CD}$ và cho biết tứ giác nào là hình bình hành.
+Cho $A(1; 2; -1)$, $B(3; -1; 2)$, $C(-2; 0; 4)$, $D(0; -3; 7)$. Chứng minh rằng $\overrightarrow{AB}=\overrightarrow{CD}$. Bốn điểm $A$, $B$, $C$, $D$ là các đỉnh của hình bình hành nào?
 
-**Lời giải.** Lấy toạ độ điểm cuối trừ điểm đầu:
+**Lời giải.** Ta có
 
 $$\overrightarrow{AB}=(3-1;\ -1-2;\ 2+1)=(2; -3; 3),\qquad \overrightarrow{CD}=(0+2;\ -3-0;\ 7-4)=(2; -3; 3).$$
 
-Ba toạ độ bằng nhau nên $\overrightarrow{AB}=\overrightarrow{CD}$. Ngoài ra $\overrightarrow{AC}=(-3; -2; 5)$ không cùng phương với $\overrightarrow{AB}$ (tỉ số $\frac{-3}{2}\neq\frac{-2}{-3}$), nên $C$ không nằm trên đường thẳng $AB$.
+Vì ba toạ độ tương ứng bằng nhau nên $\overrightarrow{AB}=\overrightarrow{CD}$. Ta có $\overrightarrow{AC}=(-3; -2; 5)$ không cùng phương với $\overrightarrow{AB}$ (vì $\frac{-3}{2}\neq\frac{-2}{-3}$) nên $C$ không nằm trên đường thẳng $AB$.
 
-Vậy $ABDC$ là hình bình hành (chú ý thứ tự đỉnh: $\overrightarrow{AB}=\overrightarrow{CD}$ cho $AB$ và $CD$ là hai cạnh đối, cùng chiều).
+Vậy tứ giác $ABDC$ là hình bình hành (chú ý thứ tự đỉnh: $\overrightarrow{AB}=\overrightarrow{CD}$ cho $AB$ và $CD$ là hai cạnh đối, cùng chiều).
 :::
 
 ## Khoảng cách, trung điểm và trọng tâm
@@ -142,11 +150,11 @@ Hai công thức sau có được từ $\overrightarrow{OM}=\frac12(\overrightar
 :::example Trung điểm, độ dài, trọng tâm
 Cho $A(1; 0; 2)$, $B(3; 4; -2)$, $C(-1; 2; 3)$. Tìm trung điểm $M$ của $AB$, độ dài $AB$ và trọng tâm $G$ của tam giác $ABC$.
 
-**Lời giải.** Lấy trung bình cộng từng toạ độ cho $M$ và $G$:
+**Lời giải.** Theo công thức toạ độ trung điểm và trọng tâm, ta có
 
 $$M\left(\frac{1+3}{2};\ \frac{0+4}{2};\ \frac{2-2}{2}\right)=M(2; 2; 0),\qquad G\left(\frac{1+3-1}{3};\ \frac{0+4+2}{3};\ \frac{2-2+3}{3}\right)=G(1; 2; 1).$$
 
-Với độ dài, $\overrightarrow{AB}=(2; 4; -4)$:
+Ta có $\overrightarrow{AB}=(2; 4; -4)$. Do đó
 
 $$AB=\sqrt{4+16+16}=\sqrt{36}=6.$$
 
@@ -156,15 +164,17 @@ Vậy $M(2; 2; 0)$, $AB=6$ và $G(1; 2; 1)$.
 Bây giờ ta trả lời câu hỏi ở đầu bài.
 
 :::example Đèn cách cảm biến bao xa?
-Trong hệ toạ độ chọn như phần Khám phá (đơn vị: mét), đèn ở $L(2; 3; 2{,}5)$ và cảm biến ở $S(8; 6; 0)$. Tính $LS$ (làm tròn đến hàng phần trăm).
+Trong hệ toạ độ chọn như phần Khám phá (đơn vị: mét), đèn ở $L(2; 3; 2{,}5)$ và cảm biến ở $S(8; 6; 0)$. Tính khoảng cách $LS$ (làm tròn kết quả đến hàng phần trăm).
 
-**Lời giải.** Ta tìm $\overrightarrow{LS}$ rồi dùng công thức khoảng cách:
+**Lời giải.** Ta có
 
 $$\overrightarrow{LS}=(6; 3; -2{,}5),\qquad LS=\sqrt{36+9+6{,}25}=\sqrt{51{,}25}\approx7{,}16.$$
 
+Ta thấy toạ độ thứ ba $-2{,}5$ của $\overrightarrow{LS}$ cho biết cảm biến thấp hơn đèn $2{,}5$ m; khi bình phương, dấu trừ không ảnh hưởng.
+
 Vậy đèn cách cảm biến khoảng $7{,}16$ m.
 
-**Kiểm tra.** Cao độ $-2{,}5$ cho biết cảm biến thấp hơn đèn $2{,}5$ m; khi bình phương, dấu trừ không ảnh hưởng.
+**Nhìn lại.** Nếu đặt gốc toạ độ ở chính góc sàn có cảm biến, với các trục hướng vào trong phòng, thì kết quả có thay đổi không? Khi đó $S(0; 0; 0)$ và $L(6; 3; 2{,}5)$: các toạ độ đều khác, nhưng $LS=\sqrt{36+9+6{,}25}$ vẫn như cũ. Toạ độ phụ thuộc cách chọn hệ trục, còn khoảng cách là một đại lượng hình học, không phụ thuộc cách chọn đó. Vì vậy ta được phép chọn hệ trục sao cho tính toán gọn nhất.
 :::
 
 :::warning Những sai lầm thường gặp
@@ -214,9 +224,11 @@ b) Tìm toạ độ của vectơ $\vec{a}=-\vec{i}+4\vec{k}$.
 2. b) Hệ số của $\vec{j}$ bằng $0$.
 
 ::solution
-a) Các hệ số là $2$, $-3$, $1$, nên $M(2; -3; 1)$.
+a) Vì $\overrightarrow{OM}=2\vec{i}+(-3)\vec{j}+1\cdot\vec{k}$ nên $M(2; -3; 1)$.
 
-b) $\vec{a}=-1\cdot\vec{i}+0\cdot\vec{j}+4\vec{k}$, nên $\vec{a}=(-1; 0; 4)$.
+b) Vì $\vec{a}=-1\cdot\vec{i}+0\cdot\vec{j}+4\vec{k}$ nên $\vec{a}=(-1; 0; 4)$.
+
+Vậy $M(2; -3; 1)$ và $\vec{a}=(-1; 0; 4)$.
 
 **Đáp số.** a) $M(2; -3; 1)$; b) $\vec{a}=(-1; 0; 4)$.
 :::
@@ -233,7 +245,9 @@ Cho $N(4; -1; 3)$. Tìm hình chiếu của $N$ lên các mặt phẳng $(Oxy)$,
 3. Khoảng cách đến $(Ozx)$ là $|y|$.
 
 ::solution
-$(Oxy)$: $(4; -1; 0)$; $(Oyz)$: $(0; -1; 3)$; $(Ozx)$: $(4; 0; 3)$; trục $Oy$: $(0; -1; 0)$. Khoảng cách đến $(Ozx)$ là $|-1|=1$.
+Hình chiếu của $N$ lên $(Oxy)$, $(Oyz)$, $(Ozx)$ và trục $Oy$ lần lượt là $(4; -1; 0)$, $(0; -1; 3)$, $(4; 0; 3)$ và $(0; -1; 0)$.
+
+Vậy khoảng cách từ $N$ đến $(Ozx)$ là $|-1|=1$.
 
 **Đáp số.** $(4; -1; 0)$, $(0; -1; 3)$, $(4; 0; 3)$, $(0; -1; 0)$; khoảng cách bằng $1$.
 :::
@@ -249,7 +263,9 @@ Cho $A(2; -1; 3)$ và $B(-1; 3; 3)$. Tìm toạ độ của $\overrightarrow{AB}
 2. Cộng ba bình phương rồi khai căn.
 
 ::solution
+Ta có
 $$\overrightarrow{AB}=(-3; 4; 0),\qquad AB=\sqrt{9+16+0}=5.$$
+Vậy $\overrightarrow{AB}=(-3; 4; 0)$ và $AB=5$.
 
 **Đáp số.** $\overrightarrow{AB}=(-3; 4; 0)$; $AB=5$.
 :::
@@ -265,6 +281,7 @@ Cho $A(2; 1; -3)$, $B(0; 5; 1)$, $C(4; -3; 5)$. Tìm trung điểm $M$ của $AB
 2. Cộng từng toạ độ của $A$, $B$, $C$ rồi chia cho $3$.
 
 ::solution
+Theo công thức toạ độ trung điểm và trọng tâm, ta có
 $$M\left(\frac{2+0}{2};\ \frac{1+5}{2};\ \frac{-3+1}{2}\right)=M(1; 3; -1),\qquad G\left(\frac{6}{3};\ \frac{3}{3};\ \frac{3}{3}\right)=G(2; 1; 1).$$
 
 **Đáp số.** $M(1; 3; -1)$; $G(2; 1; 1)$.
@@ -281,14 +298,17 @@ Cho $A(1; -2; 3)$ và $M(2; 0; 1)$. Tìm điểm $N$ sao cho $M$ là trung đi�
 2. Trừ đi toạ độ của $A$.
 
 ::solution
+Vì $M$ là trung điểm của $AN$ nên $x_N=2x_M-x_A$, và tương tự với $y_N$, $z_N$. Do đó
 $$N(2\cdot2-1;\ 2\cdot0+2;\ 2\cdot1-3)=N(3; 2; -1).$$
 **Kiểm tra.** Trung điểm của $A(1; -2; 3)$ và $N(3; 2; -1)$ là $(2; 0; 1)=M$.
+
+Vậy $N(3; 2; -1)$.
 
 **Đáp số.** $N(3; 2; -1)$.
 :::
 
 :::exercise
-Một trạm điều khiển đặt tại gốc $O$ của hệ toạ độ $Oxyz$ (đơn vị: mét; $Ox$ hướng đông, $Oy$ hướng bắc, $Oz$ hướng lên). Một flycam đang bay tại điểm $P(120; -50; 60)$. Flycam cách trạm bao nhiêu mét? (Làm tròn đến hàng đơn vị.)
+Một trạm điều khiển đặt tại gốc $O$ của hệ toạ độ $Oxyz$ (đơn vị: mét; $Ox$ hướng đông, $Oy$ hướng bắc, $Oz$ hướng lên). Một flycam đang bay tại điểm $P(120; -50; 60)$. Hỏi flycam cách trạm bao nhiêu mét (làm tròn kết quả đến hàng đơn vị)?
 
 ::hint
 **Kiến thức:** $OP=\sqrt{x^2+y^2+z^2}$.
@@ -299,12 +319,13 @@ Một trạm điều khiển đặt tại gốc $O$ của hệ toạ độ $Oxyz
 
 ::solution
 $$OP=\sqrt{120^2+(-50)^2+60^2}=\sqrt{14400+2500+3600}=\sqrt{20500}\approx143{,}18.$$
+Vậy flycam cách trạm khoảng $143$ m.
 
 **Đáp số.** $143$.
 :::
 
 :::exercise
-Cho điểm $M(3; -4; 12)$. Mỗi khẳng định sau đúng hay sai?
+Trong không gian $Oxyz$, cho điểm $M(3; -4; 12)$. Xét tính đúng sai của các mệnh đề sau:
 
 a) Hình chiếu của $M$ lên mặt phẳng $(Oxy)$ là $(3; -4; 0)$.
 
@@ -323,13 +344,13 @@ d) Khoảng cách từ $M$ đến trục $Ox$ bằng $4$.
 3. Xác định đúng toạ độ nào dùng cho mỗi khoảng cách.
 
 ::solution
-a) **Đúng.** Giữ $x$, $y$ và cho $z=0$.
+a) **Đúng.** Hình chiếu lên $(Oxy)$ giữ nguyên $x$, $y$ và có $z=0$.
 
 b) **Sai.** Khoảng cách đến $(Oyz)$ là $|x|=3$.
 
-c) **Đúng.** $OM=\sqrt{9+16+144}=\sqrt{169}=13$.
+c) **Đúng.** Ta có $OM=\sqrt{9+16+144}=\sqrt{169}=13$.
 
-d) **Sai.** Hình chiếu lên $Ox$ là $H(3; 0; 0)$, nên $MH=\sqrt{16+144}=\sqrt{160}=4\sqrt{10}$.
+d) **Sai.** Hình chiếu của $M$ lên $Ox$ là $H(3; 0; 0)$ nên $MH=\sqrt{16+144}=\sqrt{160}=4\sqrt{10}$.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -346,7 +367,7 @@ Hình lập phương $ABCD.A'B'C'D'$ cạnh $4$ được đặt vào hệ $Oxyz$
 3. Tính $IB$ bằng công thức khoảng cách.
 
 ::solution
-$\overrightarrow{AC'}=(4; 0; 0)+(0; 4; 0)+(0; 0; 4)=(4; 4; 4)$, nên $C'(4; 4; 4)$. Trung điểm của $A'(0; 0; 4)$ và $C'$ là $I(2; 2; 4)$. Khi đó
+Theo quy tắc hình hộp, $\overrightarrow{AC'}=\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=(4; 0; 0)+(0; 4; 0)+(0; 0; 4)=(4; 4; 4)$ nên $C'(4; 4; 4)$. Tâm $I$ là trung điểm của $A'(0; 0; 4)$ và $C'$ nên $I(2; 2; 4)$. Do đó
 $$IB=\sqrt{(4-2)^2+(0-2)^2+(0-4)^2}=\sqrt{24}=2\sqrt6.$$
 
 **Đáp số.** $C'(4; 4; 4)$, $I(2; 2; 4)$, $IB=2\sqrt6\approx4{,}90$.
@@ -367,9 +388,9 @@ b) Coi $A$, $B$ là các điểm $A(1; 2; 0)$, $B(4; 6; 0)$ của mặt phẳng 
 2. b) Thêm hiệu cao độ $12$ và để ý rằng $ABB'$ vuông tại $B$.
 
 ::solution
-a) $AB=\sqrt{3^2+4^2}=5$.
+a) Ta có $\overrightarrow{AB}=(3; 4)$ nên $AB=\sqrt{3^2+4^2}=5$.
 
-b) $\overrightarrow{AB'}=(3; 4; 12)$, nên $AB'=\sqrt{9+16+144}=13$. Đây đúng là định lí Pythagore trong tam giác $ABB'$ vuông tại $B$: $5^2+12^2=13^2$.
+b) Ta có $\overrightarrow{AB'}=(3; 4; 12)$ nên $AB'=\sqrt{9+16+144}=13$. Đây đúng là định lí Pythagore trong tam giác $ABB'$ vuông tại $B$: $5^2+12^2=13^2$.
 
 **Đáp số.** a) $AB=5$; b) $AB'=13$.
 :::
@@ -385,9 +406,13 @@ Tìm điểm $M$ trên trục $Oz$ cách đều hai điểm $A(1; 2; 3)$ và $B(
 2. Cho bằng nhau; các số hạng $t^2$ triệt tiêu.
 
 ::solution
+Vì $M$ thuộc trục $Oz$ nên $M(0; 0; t)$. Ta có
 $$MA^2=1+4+(t-3)^2=t^2-6t+14,\qquad MB^2=1+0+(t-5)^2=t^2-10t+26.$$
+Vì $MA=MB$ nên
 $$t^2-6t+14=t^2-10t+26\iff 4t=12\iff t=3.$$
 **Kiểm tra.** $MA=\sqrt{1+4+0}=\sqrt5$ và $MB=\sqrt{1+0+4}=\sqrt5$.
+
+Vậy $M(0; 0; 3)$.
 
 **Đáp số.** $M(0; 0; 3)$.
 :::
@@ -402,7 +427,7 @@ B. $(3; -1; 0)$.
 C. $(3; 0; -1)$.
 D. $(3; 0; 1)$.
 ::key C
-Hệ số của $\vec{i}$, $\vec{j}$, $\vec{k}$ lần lượt là $3$, $0$, $-1$. Phương án B quên rằng $\vec{j}$ vắng mặt nghĩa là tung độ bằng $0$.
+Vì hệ số của $\vec{i}$, $\vec{j}$, $\vec{k}$ lần lượt là $3$, $0$, $-1$ nên $M(3; 0; -1)$. Phương án B quên rằng $\vec{j}$ vắng mặt nghĩa là tung độ bằng $0$.
 
 ::mc
 Hình chiếu vuông góc của điểm $A(2; -5; 4)$ lên mặt phẳng $(Oyz)$ là điểm
@@ -411,7 +436,7 @@ B. $(0; -5; 4)$.
 C. $(2; -5; 0)$.
 D. $(2; 0; 4)$.
 ::key B
-Mặt phẳng $(Oyz)$ có phương trình $x=0$, nên giữ $y$, $z$ và cho $x=0$. Phương án A là hình chiếu lên trục $Ox$, phương án C là hình chiếu lên $(Oxy)$.
+Vì mặt phẳng $(Oyz)$ có phương trình $x=0$ nên hình chiếu giữ nguyên $y$, $z$ và có $x=0$. Phương án A là hình chiếu lên trục $Ox$, phương án C là hình chiếu lên $(Oxy)$.
 
 ::mc
 Cho hai điểm $A(1; -2; 3)$ và $B(3; 0; -1)$. Trung điểm $I$ của đoạn thẳng $AB$ là
@@ -420,7 +445,7 @@ B. $I(1; 1; -2)$.
 C. $I(4; -2; 2)$.
 D. $I(2; -1; 1)$.
 ::key D
-Lấy trung bình cộng từng toạ độ: $\left(\dfrac{1+3}{2}; \dfrac{-2+0}{2}; \dfrac{3-1}{2}\right)$. Phương án B là $\dfrac12\overrightarrow{AB}$, phương án C quên chia cho $2$, phương án A là $\overrightarrow{AB}$.
+Theo công thức toạ độ trung điểm, ta có $I\left(\dfrac{1+3}{2}; \dfrac{-2+0}{2}; \dfrac{3-1}{2}\right)$. Phương án B là $\dfrac12\overrightarrow{AB}$, phương án C quên chia cho $2$, phương án A là $\overrightarrow{AB}$.
 
 ::mc
 Khoảng cách từ điểm $M(3; -4; 6)$ đến trục $Oz$ bằng
@@ -429,24 +454,24 @@ B. $6$.
 C. $\sqrt{61}$.
 D. $\sqrt{52}$.
 ::key A
-Hình chiếu của $M$ lên $Oz$ là $H(0; 0; 6)$, nên $MH=\sqrt{3^2+4^2}=5$. Phương án B là khoảng cách đến $(Oxy)$, phương án C là $OM$, phương án D là khoảng cách đến trục $Ox$.
+Hình chiếu của $M$ lên $Oz$ là $H(0; 0; 6)$ nên $MH=\sqrt{3^2+4^2}=5$. Phương án B là khoảng cách đến $(Oxy)$, phương án C là $OM$, phương án D là khoảng cách đến trục $Ox$.
 
 ::tf
-Trong không gian $Oxyz$, cho $A(1; 2; -1)$, $B(3; -2; 3)$, $C(-1; 3; 1)$.
+Trong không gian $Oxyz$, cho $A(1; 2; -1)$, $B(3; -2; 3)$, $C(-1; 3; 1)$. Xét tính đúng sai của các mệnh đề sau:
 a) $\overrightarrow{AB}=(2; -4; 4)$.
 b) $AB=6$.
 c) Trọng tâm của tam giác $ABC$ là $G(3; 3; 3)$.
 d) Điểm $D$ để $ABCD$ là hình bình hành là $D(-3; 7; -3)$.
 ::key Đ Đ S Đ
-a) Đúng: lấy toạ độ điểm cuối trừ điểm đầu. b) Đúng: $\sqrt{4+16+16}=6$. c) Sai: $G(1; 1; 1)$; $(3; 3; 3)$ là tổng các toạ độ, chưa chia cho $3$. d) Đúng: $ABCD$ là hình bình hành khi $\overrightarrow{AB}=\overrightarrow{DC}$, nên $D=(-1-2; 3+4; 1-4)=(-3; 7; -3)$.
+a) Đúng: lấy toạ độ điểm cuối trừ toạ độ điểm đầu, ta được kết quả trên. b) Đúng: ta có $AB=\sqrt{4+16+16}=6$. c) Sai: trọng tâm là $G(1; 1; 1)$; $(3; 3; 3)$ là tổng các toạ độ, chưa chia cho $3$. d) Đúng: vì $ABCD$ là hình bình hành khi và chỉ khi $\overrightarrow{AB}=\overrightarrow{DC}$ nên $D=(-1-2; 3+4; 1-4)=(-3; 7; -3)$.
 
 ::sa
-Cho ba điểm $A(1; 0; 0)$, $B(0; 2; 0)$, $C(0; 0; 2)$. Tính chu vi tam giác $ABC$ (làm tròn kết quả đến hàng phần mười).
+Trong không gian $Oxyz$, cho ba điểm $A(1; 0; 0)$, $B(0; 2; 0)$, $C(0; 0; 2)$. Tính chu vi tam giác $ABC$ (làm tròn kết quả đến hàng phần mười).
 ::key 7,3
-$AB=\sqrt{1+4}=\sqrt5$, $AC=\sqrt{1+4}=\sqrt5$, $BC=\sqrt{4+4}=2\sqrt2$. Chu vi là $2\sqrt5+2\sqrt2\approx7{,}30$, làm tròn được $7{,}3$.
+Ta có $AB=\sqrt{1+4}=\sqrt5$, $AC=\sqrt{1+4}=\sqrt5$, $BC=\sqrt{4+4}=2\sqrt2$. Vậy chu vi là $2\sqrt5+2\sqrt2\approx7{,}30$, làm tròn được $7{,}3$.
 
 ::sa
-Trong hệ trục $Oxyz$ gắn với một sân tập (đơn vị: mét), hai flycam đang ở các điểm $P(10; 20; 15)$ và $Q(40; -20; 45)$. Hai flycam cách nhau bao nhiêu mét (làm tròn kết quả đến hàng phần mười)?
+Trong hệ trục $Oxyz$ gắn với một sân tập (đơn vị: mét), hai flycam đang ở các điểm $P(10; 20; 15)$ và $Q(40; -20; 45)$. Hỏi hai flycam cách nhau bao nhiêu mét (làm tròn kết quả đến hàng phần mười)?
 ::key 58,3
-$\overrightarrow{PQ}=(30; -40; 30)$, nên $PQ=\sqrt{900+1600+900}=\sqrt{3400}\approx58{,}31$, làm tròn được $58{,}3$ m.
+Ta có $\overrightarrow{PQ}=(30; -40; 30)$ nên $PQ=\sqrt{900+1600+900}=\sqrt{3400}\approx58{,}31$, làm tròn được $58{,}3$ m.
 :::

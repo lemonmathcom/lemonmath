@@ -15,6 +15,8 @@ Nhiệt độ trong một phòng thí nghiệm được theo dõi trong $5$ gi�
 
 Bạn có thể nghĩ ngay đến cực đại $24$ °C lúc $t=1$. Nhưng câu trả lời không phải là $24$.
 
+"Lớn nhất, nhỏ nhất" là câu hỏi đứng sau rất nhiều quyết định: chọn kích thước để tốn ít vật liệu nhất, chọn giá bán để lãi nhiều nhất, chọn tốc độ để đỡ tốn nhiên liệu nhất. Ở lớp 10, ta đã tìm giá trị lớn nhất của hàm bậc hai nhờ đỉnh parabol. Đạo hàm cho ta một cách làm chung cho mọi hàm số liên tục trên một đoạn.
+
 ## Giá trị lớn nhất và giá trị nhỏ nhất
 
 ### Khám phá: cực đại có phải là cao nhất?
@@ -52,7 +54,11 @@ Cho hàm số $y=f(x)$ xác định trên tập $D$.
 Mọi hàm số liên tục trên đoạn $[a; b]$ đều có giá trị lớn nhất và giá trị nhỏ nhất trên đoạn đó.
 :::
 
-Giá trị lớn nhất chỉ có thể đạt ở hai nơi: tại một đầu mút, hoặc tại một điểm bên trong mà đồ thị "quay đầu", tức là nơi $f'=0$ hoặc $f'$ không xác định. Ở mọi điểm khác bên trong, $f'$ khác $0$, nên hàm số vẫn đang tăng hoặc giảm và còn có giá trị lớn hơn ở gần đó. Vì vậy ta chỉ cần so sánh vài giá trị:
+Giá trị lớn nhất chỉ có thể đạt ở hai nơi: tại một đầu mút, hoặc tại một điểm bên trong mà đồ thị "quay đầu", tức là nơi $f'=0$ hoặc $f'$ không xác định. Ở mọi điểm khác bên trong, $f'$ khác $0$, nên hàm số vẫn đang tăng hoặc giảm và còn có giá trị lớn hơn ở gần đó. Vì vậy ta chỉ cần so sánh vài giá trị.
+
+**Hiểu sâu hơn.** Vì sao cần cả hai điều kiện "liên tục" và "đoạn"? Nếu bỏ đầu mút, hàm $f(x)=x$ trên khoảng $(0; 1)$ tiến gần $1$ mà không bao giờ bằng $1$, nên không có giá trị lớn nhất. Nếu bỏ tính liên tục, hàm số $f(x)=\dfrac1x$ với $x\neq0$ và $f(0)=0$ xác định trên cả đoạn $[-1; 1]$, nhưng nhận giá trị lớn tuỳ ý khi $x$ dần về $0$ từ bên phải.
+
+**Kết nối.** Bài này dựa trên cực trị ở bài trước, và là bước then chốt của các bài toán tối ưu thực tế ở cuối chương. Các bước làm như sau:
 
 1. Tìm các điểm $x_1, x_2, \dots$ thuộc **khoảng** $(a; b)$ tại đó $f'(x)=0$ hoặc $f'(x)$ không xác định.
 2. Tính $f(a)$, $f(x_1)$, $f(x_2)$, …, $f(b)$.
@@ -61,11 +67,11 @@ Giá trị lớn nhất chỉ có thể đạt ở hai nơi: tại một đầu 
 :::example Hàm bậc ba trên một đoạn
 Tìm giá trị lớn nhất và giá trị nhỏ nhất của $f(x)=x^3-3x+1$ trên đoạn $[0; 2]$.
 
-**Lời giải.** Hàm đa thức liên tục trên $[0; 2]$. Ta tìm nghiệm của $f'$ và chỉ giữ nghiệm nằm trong $(0; 2)$:
+**Lời giải.** Hàm số liên tục trên đoạn $[0; 2]$. Trên khoảng $(0; 2)$, ta có
 
 $$f'(x)=3x^2-3=0\iff x=1\ \text{hoặc}\ x=-1\ (\text{loại vì } -1\notin(0; 2)).$$
 
-So sánh giá trị tại điểm tới hạn và hai đầu mút:
+Ta có
 
 $$f(0)=1,\qquad f(1)=-1,\qquad f(2)=8-6+1=3.$$
 
@@ -77,11 +83,11 @@ Bước loại nghiệm nằm ngoài đoạn rất dễ quên. Ví dụ sau có 
 :::example Hàm bậc bốn
 Tìm giá trị lớn nhất và giá trị nhỏ nhất của $f(x)=x^4-4x^2+5$ trên đoạn $[-1; 3]$.
 
-**Lời giải.** Ta giải $f'(x)=0$ rồi giữ các nghiệm thuộc $(-1; 3)$:
+**Lời giải.** Hàm số liên tục trên đoạn $[-1; 3]$. Ta có
 
 $$f'(x)=4x^3-8x=4x(x^2-2)=0\iff x\in\{0; \sqrt2; -\sqrt2\},\quad -\sqrt2\notin(-1; 3).$$
 
-Tính các giá trị cần so sánh. Với $x=\sqrt2$ ta có $x^2=2$ và $x^4=4$:
+Với $x=\sqrt2$ ta có $x^2=2$ và $x^4=4$. Do đó
 
 $$f(-1)=1-4+5=2,\quad f(0)=5,\quad f(\sqrt2)=4-8+5=1,\quad f(3)=81-36+5=50.$$
 
@@ -93,15 +99,15 @@ Với hàm chứa căn, ta giải phương trình $f'(x)=0$ cẩn thận, có đ
 :::example Hàm chứa căn
 Tìm giá trị lớn nhất và giá trị nhỏ nhất của $f(x)=x+\sqrt{4-x^2}$.
 
-**Lời giải.** Tập xác định là $[-2; 2]$ và $f$ liên tục trên đoạn này. Trên $(-2; 2)$:
+**Lời giải.** Tập xác định: $[-2; 2]$; hàm số liên tục trên đoạn này. Trên khoảng $(-2; 2)$, ta có
 
 $$f'(x)=1-\frac{x}{\sqrt{4-x^2}}=0\iff \sqrt{4-x^2}=x.$$
 
-Phương trình này cần $x\ge 0$; bình phương hai vế:
+Điều kiện: $x\ge 0$. Bình phương hai vế, ta được
 
 $$4-x^2=x^2\iff x^2=2\iff x=\sqrt2\quad(\text{vì } x\ge 0).$$
 
-So sánh: $f(-2)=-2$, $f(\sqrt2)=\sqrt2+\sqrt2=2\sqrt2$, $f(2)=2$.
+Ta có $f(-2)=-2$, $f(\sqrt2)=\sqrt2+\sqrt2=2\sqrt2$, $f(2)=2$.
 
 Vậy giá trị lớn nhất là $2\sqrt2$ (tại $x=\sqrt2$), giá trị nhỏ nhất là $-2$ (tại $x=-2$).
 :::
@@ -111,17 +117,17 @@ Với hàm lượng giác, đặt ẩn phụ thường đưa bài toán về m�
 :::example Hàm lượng giác và ẩn phụ
 Tìm giá trị lớn nhất và giá trị nhỏ nhất của $f(x)=2\sin x+\cos 2x$ trên đoạn $[0; \pi]$.
 
-**Lời giải.** Dùng công thức nhân đôi $\cos 2x=1-2\sin^2x$ và đặt $t=\sin x$:
+**Lời giải.** Theo công thức nhân đôi, $\cos 2x=1-2\sin^2x$. Đặt $t=\sin x$, ta có
 
 $$f(x)=2\sin x+1-2\sin^2 x=g(t)=-2t^2+2t+1.$$
 
-Khi $x$ chạy trên $[0; \pi]$, $t=\sin x$ chạy trên đoạn $[0; 1]$. Ta tìm giá trị lớn nhất, nhỏ nhất của $g$ trên $[0; 1]$:
+Vì $x\in[0; \pi]$ nên $t=\sin x\in[0; 1]$ (do $\sin x\ge 0$ trên $[0; \pi]$), chứ không phải $[-1; 1]$. Xét hàm số $g$ trên đoạn $[0; 1]$, ta có
 
 $$g'(t)=-4t+2=0\iff t=\frac12;\qquad g(0)=1,\quad g\left(\frac12\right)=\frac32,\quad g(1)=1.$$
 
 Vậy $\max\limits_{[0; \pi]} f(x)=\dfrac32$ (khi $\sin x=\dfrac12$, tức $x=\dfrac{\pi}{6}$ hoặc $x=\dfrac{5\pi}{6}$) và $\min\limits_{[0; \pi]} f(x)=1$ (khi $x\in\left\{0; \dfrac{\pi}{2}; \pi\right\}$).
 
-**Nhìn lại.** Phải đổi đúng miền của ẩn phụ: $t\in[0; 1]$ chứ không phải $[-1; 1]$, vì $\sin x\ge 0$ trên $[0; \pi]$.
+**Nhìn lại.** Nếu xét trên đoạn $[0; 2\pi]$ thì kết quả thay đổi thế nào? Khi đó $t=\sin x$ chạy trên cả đoạn $[-1; 1]$: giá trị lớn nhất vẫn là $\dfrac32$, nhưng giá trị nhỏ nhất trở thành $g(-1)=-3$ (tại $x=\dfrac{3\pi}{2}$). Miền giá trị của ẩn phụ quyết định đáp số.
 :::
 
 ## Trên một khoảng
@@ -131,11 +137,11 @@ Trên một khoảng (không chứa đầu mút), hàm số có thể **không c
 :::example Giá trị nhỏ nhất trên một khoảng
 Tìm giá trị nhỏ nhất của $f(x)=x+\dfrac{9}{x}$ trên khoảng $(0; +\infty)$.
 
-**Lời giải.** Ta tính đạo hàm và quy đồng để xét dấu:
+**Lời giải.** Ta có
 
 $$f'(x)=1-\frac{9}{x^2}=\frac{(x-3)(x+3)}{x^2},\qquad f'(x)=0\iff x=3\ \ (x>0).$$
 
-Với $x>0$, dấu của $f'$ là dấu của $x-3$. Khi $x\to0^+$ và khi $x\to+\infty$, $f(x)\to+\infty$:
+Vì $x>0$ nên $f'$ cùng dấu với $x-3$. Ta có $f(x)\to+\infty$ khi $x\to0^+$ và khi $x\to+\infty$. Bảng biến thiên:
 
 | $x$ | $0$ | | $3$ | | $+\infty$ |
 |---|---|---|---|---|---|
@@ -160,7 +166,7 @@ Bây giờ ta trả lời câu hỏi về nhiệt độ ở đầu bài. Trong b
 :::example Nhiệt độ cao nhất và thấp nhất
 Nhiệt độ phòng là $T(t)=t^3-6t^2+9t+20$ (°C), $0\le t\le 5$ (giờ). Tìm nhiệt độ cao nhất và thấp nhất trong $5$ giờ.
 
-**Lời giải.** $T$ liên tục trên $[0; 5]$. Ta tìm nghiệm của $T'$ trong $(0; 5)$, rồi so sánh với hai đầu mút:
+**Lời giải.** Hàm số $T$ liên tục trên đoạn $[0; 5]$. Trên khoảng $(0; 5)$, ta có
 
 $$T'(t)=3(t-1)(t-3)=0\iff t=1\ \text{hoặc}\ t=3;\qquad T(0)=20,\ T(1)=24,\ T(3)=20,\ T(5)=40.$$
 
@@ -210,7 +216,9 @@ Tìm giá trị lớn nhất và giá trị nhỏ nhất của $y=x^3-3x^2$ trê
 2. Tính $y$ tại các nghiệm và tại $-1$, $3$.
 
 ::solution
-$y'=3x(x-2)=0\iff x=0$ hoặc $x=2$, cả hai thuộc $(-1; 3)$. $y(-1)=-4$, $y(0)=0$, $y(2)=8-12=-4$, $y(3)=27-27=0$.
+Ta có $y'=3x(x-2)=0\iff x=0$ hoặc $x=2$, cả hai đều thuộc $(-1; 3)$. Ta có $y(-1)=-4$, $y(0)=0$, $y(2)=8-12=-4$, $y(3)=27-27=0$.
+
+Vậy giá trị lớn nhất của hàm số là $0$, giá trị nhỏ nhất là $-4$.
 
 **Đáp số.** Giá trị lớn nhất $0$ (tại $x=0$ và $x=3$); giá trị nhỏ nhất $-4$ (tại $x=-1$ và $x=2$).
 :::
@@ -226,7 +234,9 @@ Tìm giá trị lớn nhất và giá trị nhỏ nhất của $y=\dfrac{x-1}{x+
 2. Tính $y(0)$ và $y(3)$.
 
 ::solution
-$y'=\dfrac{1\cdot2-(-1)\cdot1}{(x+2)^2}=\dfrac{3}{(x+2)^2}>0$, nên hàm số đồng biến trên $[0; 3]$. $y(0)=-\dfrac12$, $y(3)=\dfrac25$.
+Ta có $y'=\dfrac{1\cdot2-(-1)\cdot1}{(x+2)^2}=\dfrac{3}{(x+2)^2}>0$ nên hàm số đồng biến trên $[0; 3]$.
+
+Vậy giá trị lớn nhất là $y(3)=\dfrac25$, giá trị nhỏ nhất là $y(0)=-\dfrac12$.
 
 **Đáp số.** Giá trị lớn nhất $\dfrac25$; giá trị nhỏ nhất $-\dfrac12$.
 :::
@@ -242,7 +252,9 @@ Tìm giá trị lớn nhất và giá trị nhỏ nhất của $y=x^4-2x^2+3$ tr
 2. Loại nghiệm không thuộc $(0; 2)$, rồi so sánh các giá trị.
 
 ::solution
-$y'=4x(x-1)(x+1)$; trong $(0; 2)$ chỉ có $x=1$. $y(0)=3$, $y(1)=2$, $y(2)=16-8+3=11$.
+Ta có $y'=4x(x-1)(x+1)$; trên khoảng $(0; 2)$, $y'=0$ chỉ tại $x=1$. Ta có $y(0)=3$, $y(1)=2$, $y(2)=16-8+3=11$.
+
+Vậy giá trị lớn nhất là $11$, giá trị nhỏ nhất là $2$.
 
 **Đáp số.** Giá trị lớn nhất $11$ (tại $x=2$); giá trị nhỏ nhất $2$ (tại $x=1$).
 :::
@@ -258,19 +270,21 @@ Tìm giá trị nhỏ nhất của $y=x^2+\dfrac{16}{x}$ trên khoảng $(0; +\i
 2. Tìm nghiệm dương của $y'$ và xét dấu hai bên.
 
 ::solution
-$y'=0\iff x^3=8\iff x=2$. Với $0<x<2$ thì $y'<0$, với $x>2$ thì $y'>0$. Vậy giá trị nhỏ nhất là $y(2)=4+8=12$.
+Ta có $y'=0\iff x^3=8\iff x=2$. Vì $y'<0$ với $0<x<2$ và $y'>0$ với $x>2$ nên hàm số đạt giá trị nhỏ nhất tại $x=2$.
+
+Vậy giá trị nhỏ nhất là $y(2)=4+8=12$.
 
 **Đáp số.** $\min\limits_{(0; +\infty)} y=12$ tại $x=2$.
 :::
 
 :::exercise
-Cho hàm số $f(x)=-x^3+3x^2+2$ xét trên đoạn $[-1; 3]$. Mỗi khẳng định sau đúng hay sai?
+Cho hàm số $f(x)=-x^3+3x^2+2$ trên đoạn $[-1; 3]$. Xét tính đúng sai của các mệnh đề sau:
 
 a) Phương trình $f'(x)=0$ có hai nghiệm thuộc đoạn $[-1; 3]$.
 
 b) Giá trị lớn nhất của $f$ trên $[-1; 3]$ bằng $6$.
 
-c) $f$ chỉ đạt giá trị lớn nhất tại $x=2$.
+c) Hàm số $f$ chỉ đạt giá trị lớn nhất tại $x=2$.
 
 d) Giá trị nhỏ nhất của $f$ trên $[-1; 3]$ bằng $2$.
 
@@ -282,15 +296,15 @@ d) Giá trị nhỏ nhất của $f$ trên $[-1; 3]$ bằng $2$.
 2. Tính $f(-1)$, $f(0)$, $f(2)$, $f(3)$.
 
 ::solution
-$f'(x)=-3x(x-2)=0\iff x=0$ hoặc $x=2$. $f(-1)=1+3+2=6$, $f(0)=2$, $f(2)=-8+12+2=6$, $f(3)=-27+27+2=2$.
+Ta có $f'(x)=-3x(x-2)=0\iff x=0$ hoặc $x=2$. Ta có $f(-1)=1+3+2=6$, $f(0)=2$, $f(2)=-8+12+2=6$, $f(3)=-27+27+2=2$.
 
-a) **Đúng**: $0$ và $2$ đều thuộc $[-1; 3]$.
+a) **Đúng**. Hai nghiệm $0$ và $2$ đều thuộc $[-1; 3]$.
 
-b) **Đúng**: số lớn nhất trong các giá trị là $6$.
+b) **Đúng**. Số lớn nhất trong các giá trị trên là $6$.
 
-c) **Sai**: $f(-1)=6$ nữa, nên giá trị lớn nhất đạt tại cả $x=-1$ và $x=2$.
+c) **Sai**. Vì $f(-1)=6$ nên giá trị lớn nhất đạt tại cả $x=-1$ và $x=2$.
 
-d) **Đúng**: số nhỏ nhất là $2$, đạt tại $x=0$ và $x=3$.
+d) **Đúng**. Số nhỏ nhất trong các giá trị trên là $2$, đạt tại $x=0$ và $x=3$.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -306,13 +320,15 @@ Tìm giá trị lớn nhất của hàm số $y=x\sqrt{9-x^2}$ trên đoạn $[0
 2. Tìm nghiệm trong $(0; 3)$ và so sánh với $y(0)$, $y(3)$.
 
 ::solution
-$y'=\sqrt{9-x^2}-\dfrac{x^2}{\sqrt{9-x^2}}=\dfrac{9-2x^2}{\sqrt{9-x^2}}=0\iff x^2=\dfrac92$, tức $x=\dfrac{3}{\sqrt2}$. Khi đó $y=\dfrac{3}{\sqrt2}\cdot\sqrt{\dfrac92}=\dfrac92$. Hai đầu mút cho $y(0)=y(3)=0$.
+Trên khoảng $(0; 3)$, ta có $y'=\sqrt{9-x^2}-\dfrac{x^2}{\sqrt{9-x^2}}=\dfrac{9-2x^2}{\sqrt{9-x^2}}=0\iff x^2=\dfrac92$, tức là $x=\dfrac{3}{\sqrt2}$. Khi đó $y=\dfrac{3}{\sqrt2}\cdot\sqrt{\dfrac92}=\dfrac92$. Mà $y(0)=y(3)=0$.
+
+Vậy giá trị lớn nhất của hàm số là $\dfrac92$.
 
 **Đáp số.** $4{,}5$.
 :::
 
 :::exercise
-Một xưởng sản xuất $x$ chiếc ghế mỗi tuần ($10\le x\le 100$) với tổng chi phí $C(x)=x^2+100x+2500$ (nghìn đồng). Chi phí trung bình cho mỗi chiếc ghế là $A(x)=\dfrac{C(x)}{x}$. Xưởng nên sản xuất bao nhiêu chiếc mỗi tuần để chi phí trung bình thấp nhất? Chi phí đó là bao nhiêu?
+Một xưởng sản xuất $x$ chiếc ghế mỗi tuần ($10\le x\le 100$) với tổng chi phí $C(x)=x^2+100x+2500$ (nghìn đồng). Chi phí trung bình cho mỗi chiếc ghế là $A(x)=\dfrac{C(x)}{x}$. Hỏi xưởng nên sản xuất bao nhiêu chiếc ghế mỗi tuần để chi phí trung bình thấp nhất? Tính chi phí trung bình thấp nhất đó.
 
 ::hint
 **Kiến thức:** tìm giá trị nhỏ nhất của $A(x)=x+100+\dfrac{2500}{x}$ trên đoạn $[10; 100]$.
@@ -322,7 +338,9 @@ Một xưởng sản xuất $x$ chiếc ghế mỗi tuần ($10\le x\le 100$) v�
 2. So sánh giá trị tại nghiệm và tại $10$, $100$.
 
 ::solution
-$A'(x)=1-\dfrac{2500}{x^2}=0\iff x=50$. $A(10)=10+100+250=360$, $A(50)=50+100+50=200$, $A(100)=100+100+25=225$.
+Ta có $A'(x)=1-\dfrac{2500}{x^2}=0\iff x=50$ (vì $x>0$). Ta có $A(10)=10+100+250=360$, $A(50)=50+100+50=200$, $A(100)=100+100+25=225$.
+
+Vậy xưởng nên sản xuất $50$ chiếc ghế mỗi tuần; khi đó chi phí trung bình thấp nhất là $200$ nghìn đồng mỗi chiếc.
 
 **Đáp số.** $50$ chiếc mỗi tuần; chi phí trung bình thấp nhất $200$ nghìn đồng mỗi chiếc.
 :::
@@ -338,7 +356,9 @@ Tìm giá trị lớn nhất và giá trị nhỏ nhất của $y=\cos 2x+2\cos 
 2. Tìm giá trị lớn nhất, nhỏ nhất của $g$ trên $[-1; 1]$.
 
 ::solution
-$y=2t^2+2t-1=g(t)$ với $t\in[-1; 1]$. $g'(t)=4t+2=0\iff t=-\dfrac12$. $g(-1)=-1$, $g\left(-\dfrac12\right)=\dfrac12-1-1=-\dfrac32$, $g(1)=3$.
+Đặt $t=\cos x$, ta có $y=2t^2+2t-1=g(t)$ với $t\in[-1; 1]$. Ta có $g'(t)=4t+2=0\iff t=-\dfrac12$ và $g(-1)=-1$, $g\left(-\dfrac12\right)=\dfrac12-1-1=-\dfrac32$, $g(1)=3$.
+
+Vậy giá trị lớn nhất là $3$, giá trị nhỏ nhất là $-\dfrac32$.
 
 **Đáp số.** Giá trị lớn nhất $3$ (tại $x=0$); giá trị nhỏ nhất $-\dfrac32$ (tại $x=\dfrac{2\pi}{3}$).
 :::
@@ -354,7 +374,9 @@ Tìm giá trị lớn nhất và giá trị nhỏ nhất của $y=-x^2+4x+1$ tr�
 2. Cách 2: giải $y'=0$ và so sánh như thường lệ.
 
 ::solution
-Cách 1: đỉnh tại $x=-\dfrac{4}{2\cdot(-1)}=2\in[0; 5]$, $y(2)=5$. Cách 2: $y'=-2x+4=0\iff x=2$. Cả hai cách đều so sánh $y(0)=1$, $y(2)=5$, $y(5)=-25+20+1=-4$.
+Cách 1. Đỉnh của parabol có hoành độ $x=-\dfrac{4}{2\cdot(-1)}=2\in[0; 5]$ và $y(2)=5$. Cách 2. Ta có $y'=-2x+4=0\iff x=2$. Theo cả hai cách, ta so sánh $y(0)=1$, $y(2)=5$, $y(5)=-25+20+1=-4$.
+
+Vậy giá trị lớn nhất là $5$, giá trị nhỏ nhất là $-4$.
 
 **Đáp số.** Giá trị lớn nhất $5$ (tại $x=2$); giá trị nhỏ nhất $-4$ (tại $x=5$).
 :::
@@ -370,7 +392,9 @@ Tìm giá trị lớn nhất và giá trị nhỏ nhất của $y=x+\sqrt2\cos x
 2. Tính $y$ tại nghiệm và tại hai đầu mút, rồi so sánh bằng giá trị gần đúng.
 
 ::solution
-$\sin x=\dfrac{1}{\sqrt2}$ cho $x=\dfrac{\pi}{4}$. $y(0)=\sqrt2\approx1{,}414$; $y\left(\dfrac{\pi}{4}\right)=\dfrac{\pi}{4}+1\approx1{,}785$; $y\left(\dfrac{\pi}{2}\right)=\dfrac{\pi}{2}\approx1{,}571$.
+Trên khoảng $\left(0; \dfrac{\pi}{2}\right)$, ta có $y'=0\iff\sin x=\dfrac{1}{\sqrt2}\iff x=\dfrac{\pi}{4}$. Ta có $y(0)=\sqrt2\approx1{,}414$; $y\left(\dfrac{\pi}{4}\right)=\dfrac{\pi}{4}+1\approx1{,}785$; $y\left(\dfrac{\pi}{2}\right)=\dfrac{\pi}{2}\approx1{,}571$.
+
+Vậy giá trị lớn nhất là $\dfrac{\pi}{4}+1$, giá trị nhỏ nhất là $\sqrt2$.
 
 **Đáp số.** Giá trị lớn nhất $\dfrac{\pi}{4}+1$ (tại $x=\dfrac{\pi}{4}$); giá trị nhỏ nhất $\sqrt2$ (tại $x=0$).
 :::
@@ -385,7 +409,7 @@ B. $-15$.
 C. $-8$.
 D. $12$.
 ::key D
-$f'(x)=3x^2-12=0\iff x=\pm2$, chỉ lấy $x=2\in(-1; 3)$. So sánh $f(-1)=12$, $f(2)=-15$, $f(3)=-8$. Phương án A là $f(-2)=17$, giá trị tại nghiệm nằm ngoài đoạn.
+Ta có $f'(x)=3x^2-12=0\iff x=\pm2$, trong đó chỉ có $x=2\in(-1; 3)$. Ta có $f(-1)=12$, $f(2)=-15$, $f(3)=-8$ nên giá trị lớn nhất là $12$. Phương án A là $f(-2)=17$, giá trị tại nghiệm nằm ngoài đoạn.
 
 ::mc
 Giá trị nhỏ nhất của hàm số $y=\dfrac{2x-1}{x+1}$ trên đoạn $[0; 2]$ bằng
@@ -394,7 +418,7 @@ B. $1$.
 C. $2$.
 D. $0$.
 ::key A
-$y'=\dfrac{3}{(x+1)^2}>0$ nên hàm số đồng biến trên $[0; 2]$, giá trị nhỏ nhất là $y(0)=-1$. Phương án B là giá trị lớn nhất $y(2)$; số $2$ chỉ là giới hạn khi $x\to+\infty$.
+Ta có $y'=\dfrac{3}{(x+1)^2}>0$ nên hàm số đồng biến trên $[0; 2]$. Do đó giá trị nhỏ nhất là $y(0)=-1$. Phương án B là giá trị lớn nhất $y(2)$; số $2$ chỉ là giới hạn khi $x\to+\infty$.
 
 ::mc
 Giá trị nhỏ nhất của hàm số $y=x+\dfrac{4}{x-1}$ trên khoảng $(1; +\infty)$ bằng
@@ -403,33 +427,33 @@ B. $3$.
 C. $5$.
 D. $-3$.
 ::key C
-$y'=1-\dfrac{4}{(x-1)^2}=0\iff x=3$ (loại $x=-1$), $y'$ đổi dấu từ $-$ sang $+$ tại $x=3$ nên giá trị nhỏ nhất là $y(3)=5$. Phương án B là điểm $x=3$, phương án A quên số hạng $+1$ khi viết $y=(x-1)+\dfrac{4}{x-1}+1$, phương án D là $y(-1)$.
+Ta có $y'=1-\dfrac{4}{(x-1)^2}=0\iff x=3$ (loại $x=-1$). Vì $y'$ đổi dấu từ $-$ sang $+$ tại $x=3$ nên giá trị nhỏ nhất là $y(3)=5$. Phương án B là điểm $x=3$, phương án A quên số hạng $+1$ khi viết $y=(x-1)+\dfrac{4}{x-1}+1$, phương án D là $y(-1)$.
 
 ::mc
-Hàm số $y=f(x)$ liên tục trên đoạn $[-2; 4]$ và $f'(x)>0$ với mọi $x\in(-2; 4)$. Khẳng định nào sau đây đúng?
+Cho hàm số $y=f(x)$ liên tục trên đoạn $[-2; 4]$ và có $f'(x)>0$ với mọi $x\in(-2; 4)$. Khẳng định nào dưới đây đúng?
 A. $\max\limits_{[-2; 4]} f(x)=f(-2)$.
 B. $\max\limits_{[-2; 4]} f(x)=f(4)$.
 C. $\min\limits_{[-2; 4]} f(x)=f(4)$.
 D. Hàm số không có giá trị lớn nhất trên $[-2; 4]$.
 ::key B
-Hàm số đồng biến trên $[-2; 4]$ nên giá trị lớn nhất đạt tại đầu mút phải $x=4$. Hàm số liên tục trên một đoạn luôn có giá trị lớn nhất, nên D sai.
+Vì hàm số đồng biến trên $[-2; 4]$ nên giá trị lớn nhất đạt tại đầu mút phải $x=4$. Phương án D sai vì hàm số liên tục trên một đoạn luôn có giá trị lớn nhất.
 
 ::tf
-Cho hàm số $f(x)=x^4-8x^2+3$ xét trên đoạn $[-1; 3]$.
+Cho hàm số $f(x)=x^4-8x^2+3$ trên đoạn $[-1; 3]$. Xét tính đúng sai của các mệnh đề sau:
 a) Phương trình $f'(x)=0$ có ba nghiệm thuộc đoạn $[-1; 3]$.
 b) $f(2)=-13$.
 c) Giá trị lớn nhất của $f(x)$ trên đoạn $[-1; 3]$ bằng $3$.
 d) Tổng giá trị lớn nhất và giá trị nhỏ nhất của $f(x)$ trên đoạn $[-1; 3]$ bằng $-1$.
 ::key S Đ S Đ
-a) Sai: $f'(x)=4x(x^2-4)$ có nghiệm $0$, $2$, $-2$ nhưng $-2\notin[-1; 3]$. b) Đúng: $16-32+3=-13$. c) Sai: $f(-1)=-4$, $f(0)=3$, $f(2)=-13$, $f(3)=12$ nên giá trị lớn nhất là $12$ (tại đầu mút). d) Đúng: $12+(-13)=-1$.
+a) Sai: ta có $f'(x)=4x(x^2-4)$ có các nghiệm $0$, $2$, $-2$ nhưng $-2\notin[-1; 3]$. b) Đúng: thay vào, ta được $16-32+3=-13$. c) Sai: ta có $f(-1)=-4$, $f(0)=3$, $f(2)=-13$, $f(3)=12$ nên giá trị lớn nhất là $12$ (tại đầu mút). d) Đúng: tổng cần tìm là $12+(-13)=-1$.
 
 ::sa
-Một xưởng sản xuất $x$ tấn hàng mỗi tháng ($0\le x\le 20$) với lợi nhuận $P(x)=-x^3+18x^2+135x$ (triệu đồng). Lợi nhuận lớn nhất mỗi tháng bằng bao nhiêu triệu đồng?
+Một xưởng sản xuất $x$ tấn hàng mỗi tháng ($0\le x\le 20$) với lợi nhuận $P(x)=-x^3+18x^2+135x$ (triệu đồng). Hỏi lợi nhuận lớn nhất mỗi tháng của xưởng bằng bao nhiêu triệu đồng?
 ::key 2700
-$P'(x)=-3(x-15)(x+3)=0\iff x=15$ (loại $x=-3$). So sánh $P(0)=0$, $P(15)=2700$, $P(20)=1900$: lợi nhuận lớn nhất là $2700$ triệu đồng.
+Ta có $P'(x)=-3(x-15)(x+3)=0\iff x=15$ (loại $x=-3$). Ta có $P(0)=0$, $P(15)=2700$, $P(20)=1900$. Vậy lợi nhuận lớn nhất là $2700$ triệu đồng.
 
 ::sa
 Tìm giá trị lớn nhất của hàm số $y=\sqrt{x}\,(6-x)$ trên đoạn $[0; 6]$ (làm tròn kết quả đến hàng phần mười).
 ::key 5,7
-$y=6\sqrt x-x\sqrt x$, $y'=\dfrac{3}{\sqrt x}-\dfrac32\sqrt x=0\iff x=2$. So sánh $y(0)=y(6)=0$ và $y(2)=4\sqrt2\approx5{,}66$, làm tròn được $5{,}7$.
+Ta có $y=6\sqrt x-x\sqrt x$, suy ra $y'=\dfrac{3}{\sqrt x}-\dfrac32\sqrt x=0\iff x=2$. Ta có $y(0)=y(6)=0$ và $y(2)=4\sqrt2\approx5{,}66$. Vậy giá trị lớn nhất làm tròn đến hàng phần mười là $5{,}7$.
 :::

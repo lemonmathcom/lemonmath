@@ -15,6 +15,8 @@ Một xưởng nhỏ đóng chai nước khoáng. Mỗi tháng xưởng mất $2
 $$A(x)=\frac{5x+2000}{x}\ \ (\text{nghìn đồng}).$$
 Làm càng nhiều chai thì chi phí trung bình càng giảm. Liệu nó có giảm xuống dưới $5$ nghìn đồng được không?
 
+Đây cũng là câu hỏi của mọi nhà sản xuất: làm thật nhiều thì giá thành tiến về đâu? Câu trả lời là một đường thẳng mà đồ thị tiến sát dần khi $x$ rất lớn, gọi là **tiệm cận**. Chữ "tiệm" có nghĩa là "dần dần": tiệm cận là "dần dần tiến gần". Tên gọi quốc tế *asymptote* bắt nguồn từ tiếng Hy Lạp *asymptotos*, nghĩa đen là "không cùng rơi vào một chỗ", tức là đường cong và đường thẳng ngày càng gần nhau mà không gặp nhau.
+
 ## Tiệm cận ngang
 
 ### Khám phá: khi $x$ rất lớn
@@ -34,6 +36,10 @@ $$\lim_{x\to+\infty} f(x)=y_0\quad\text{hoặc}\quad \lim_{x\to-\infty} f(x)=y_0
 
 Vậy để tìm tiệm cận ngang, ta tính hai giới hạn của $f$ tại $+\infty$ và tại $-\infty$ (xem lại giới hạn của hàm số ở lớp 11).
 
+**Hiểu sâu hơn.** Tiệm cận mô tả dáng điệu của đồ thị "ở rất xa", không phải tại một điểm cụ thể. Vì vậy đồ thị vẫn có thể cắt tiệm cận ngang: $y=\dfrac{x}{x^2+1}$ có tiệm cận ngang $y=0$ nhưng đi qua gốc toạ độ. "Tiến sát mà không chạm" chỉ là hình ảnh thường gặp, không phải định nghĩa.
+
+**Kết nối.** Bài này dùng giới hạn của hàm số (lớp 11) và là một bước bắt buộc khi khảo sát hàm phân thức ở bài sau. Trong thực tế, tiệm cận ngang thường là "giá trị ổn định lâu dài" của một đại lượng: giá thành, nồng độ, số lượng một quần thể.
+
 ## Tiệm cận đứng
 
 Với $y=\dfrac{1}{x-2}$, khi $x$ đến gần $2$, mẫu rất nhỏ nên $y$ rất lớn về giá trị tuyệt đối: $y(2{,}01)=100$, $y(1{,}99)=-100$. Đồ thị "lao" lên hoặc xuống dọc theo đường thẳng $x=2$.
@@ -48,11 +54,11 @@ Với phân thức, ta tìm các giá trị làm mẫu bằng $0$, rồi **kiể
 :::example Hàm phân thức bậc nhất trên bậc nhất
 Tìm các tiệm cận của đồ thị hàm số $y=\dfrac{2x-1}{x+1}$.
 
-**Lời giải.** Ta tính giới hạn tại vô cực bằng cách chia cả tử và mẫu cho $x$:
+**Lời giải.** Tập xác định: $\mathbb{R}\setminus\{-1\}$. Chia cả tử và mẫu cho $x$, ta có
 
 $$\lim_{x\to\pm\infty}\frac{2x-1}{x+1}=\lim_{x\to\pm\infty}\frac{2-\frac1x}{1+\frac1x}=2.$$
 
-Mẫu bằng $0$ tại $x=-1$, còn tử tại đó bằng $-3\neq 0$. Khi $x\to-1^+$, mẫu dương và rất nhỏ:
+Mẫu bằng $0$ tại $x=-1$, còn tử tại đó bằng $-3\neq 0$. Vì khi $x\to-1^+$ mẫu dương và dần về $0$ nên
 
 $$\lim_{x\to-1^+}\frac{2x-1}{x+1}=-\infty,\qquad \lim_{x\to-1^-}\frac{2x-1}{x+1}=+\infty.$$
 
@@ -75,15 +81,15 @@ Tổng quát, đồ thị $y=\dfrac{ax+b}{cx+d}$ (với $c\neq0$, $ad-bc\neq0$) 
 :::example Mẫu bằng $0$ nhưng không có tiệm cận
 Tìm các tiệm cận của đồ thị hàm số $y=\dfrac{x+1}{x^2-1}$.
 
-**Lời giải.** Mẫu bằng $0$ tại $x=1$ và $x=-1$. Với $x\neq\pm1$, ta rút gọn được:
+**Lời giải.** Mẫu bằng $0$ tại $x=1$ và $x=-1$. Với $x\neq\pm1$, ta có
 
 $$y=\frac{x+1}{(x-1)(x+1)}=\frac{1}{x-1}.$$
 
-Tại hai giá trị đó, giới hạn cho kết quả khác nhau:
+Do đó
 
 $$\lim_{x\to1^+}\frac{1}{x-1}=+\infty,\qquad \lim_{x\to-1}\frac{1}{x-1}=-\frac12\ (\text{hữu hạn}).$$
 
-Tại vô cực: $\lim\limits_{x\to\pm\infty}\dfrac{1}{x-1}=0$.
+Ta có $\lim\limits_{x\to\pm\infty}\dfrac{1}{x-1}=0$.
 
 Vậy đồ thị có đúng hai tiệm cận: tiệm cận đứng $x=1$ và tiệm cận ngang $y=0$; đường thẳng $x=-1$ **không** phải tiệm cận.
 :::
@@ -103,13 +109,13 @@ Với $y=\dfrac{ax^2+bx+c}{mx+n}$, cách nhanh nhất là chia đa thức để 
 :::example Chia đa thức để tìm tiệm cận xiên
 Tìm các tiệm cận của đồ thị hàm số $y=\dfrac{x^2-x+2}{x-1}$.
 
-**Lời giải.** Chia $x^2-x+2$ cho $x-1$ được thương $x$, dư $2$:
+**Lời giải.** Chia $x^2-x+2$ cho $x-1$, ta được thương $x$, dư $2$. Do đó
 
 $$y=x+\frac{2}{x-1},\qquad y-x=\frac{2}{x-1}\to0\ \text{khi}\ x\to\pm\infty.$$
 
-Tại $x=1$, tử bằng $2\neq0$ và mẫu bằng $0$, nên $\lim\limits_{x\to1^+}y=+\infty$.
+Tại $x=1$, tử bằng $2\neq0$ và mẫu bằng $0$ nên $\lim\limits_{x\to1^+}y=+\infty$. Vì $y\to\pm\infty$ khi $x\to\pm\infty$ nên đồ thị không có tiệm cận ngang.
 
-Vậy đồ thị có tiệm cận xiên $y=x$ và tiệm cận đứng $x=1$ (không có tiệm cận ngang vì $y\to\pm\infty$ khi $x\to\pm\infty$).
+Vậy đồ thị có tiệm cận xiên $y=x$ và tiệm cận đứng $x=1$.
 :::
 
 :::graph Đồ thị $y=\dfrac{x^2-x+2}{x-1}$ với tiệm cận xiên $y=x$
@@ -126,7 +132,7 @@ Khi phép chia không thuận tiện, ta dùng công thức giới hạn trong �
 :::example Dùng công thức giới hạn
 Tìm tiệm cận xiên của đồ thị hàm số $y=\dfrac{2x^2+3x-1}{x+2}$.
 
-**Lời giải.** Ta tính $a$ rồi $b$ khi $x\to+\infty$ (khi $x\to-\infty$ kết quả giống hệt):
+**Lời giải.** Xét $x\to+\infty$ (khi $x\to-\infty$ kết quả giống hệt), ta có
 
 $$a=\lim_{x\to+\infty}\frac{2x^2+3x-1}{x(x+2)}=2,\qquad b=\lim_{x\to+\infty}\left(\frac{2x^2+3x-1}{x+2}-2x\right)=\lim_{x\to+\infty}\frac{-x-1}{x+2}=-1.$$
 
@@ -140,11 +146,11 @@ Một đồ thị có thể có **hai** tiệm cận ngang khác nhau ở hai ph
 :::example Hai tiệm cận ngang
 Tìm các tiệm cận ngang của đồ thị hàm số $y=\dfrac{3x}{\sqrt{x^2+4}}$.
 
-**Lời giải.** Đưa $x^2$ ra khỏi căn: $\sqrt{x^2+4}=|x|\sqrt{1+\frac{4}{x^2}}$. Dấu của $|x|$ khác nhau ở hai phía:
+**Lời giải.** Ta có $\sqrt{x^2+4}=|x|\sqrt{1+\frac{4}{x^2}}$, trong đó $|x|=x$ khi $x>0$ và $|x|=-x$ khi $x<0$. Do đó
 
 $$\lim_{x\to+\infty}\frac{3x}{x\sqrt{1+\frac4{x^2}}}=3,\qquad \lim_{x\to-\infty}\frac{3x}{-x\sqrt{1+\frac4{x^2}}}=-3.$$
 
-Hàm số xác định trên $\mathbb{R}$ và liên tục, nên không có tiệm cận đứng.
+Vì hàm số xác định và liên tục trên $\mathbb{R}$ nên đồ thị không có tiệm cận đứng.
 
 Vậy đồ thị có hai tiệm cận ngang: $y=3$ (khi $x\to+\infty$) và $y=-3$ (khi $x\to-\infty$).
 :::
@@ -163,15 +169,17 @@ hline: -3 ; dashed
 Ta quay lại câu hỏi về chi phí đóng chai ở đầu bài.
 
 :::example Chi phí trung bình
-Với $A(x)=\dfrac{5x+2000}{x}$ (nghìn đồng/chai), $x>0$, tìm tiệm cận ngang của đồ thị và giải thích ý nghĩa. Chi phí trung bình có thể nhỏ hơn $5$ nghìn đồng không?
+Với $A(x)=\dfrac{5x+2000}{x}$ (nghìn đồng/chai), $x>0$, tìm tiệm cận ngang của đồ thị hàm số và nêu ý nghĩa thực tế. Chi phí trung bình có thể nhỏ hơn $5$ nghìn đồng không?
 
-**Lời giải.** Ta tách phân thức để thấy phần dần về $0$:
+**Lời giải.** Ta có
 
 $$A(x)=5+\frac{2000}{x},\qquad \lim_{x\to+\infty}A(x)=5.$$
 
-Đường thẳng $y=5$ là tiệm cận ngang. Vì $\dfrac{2000}{x}>0$ với mọi $x>0$, ta luôn có $A(x)>5$.
+Do đó đường thẳng $y=5$ là tiệm cận ngang. Vì $\dfrac{2000}{x}>0$ với mọi $x>0$ nên $A(x)>5$.
 
 Vậy làm càng nhiều chai thì chi phí trung bình càng gần $5$ nghìn đồng (đúng bằng chi phí riêng của một chai), nhưng không bao giờ nhỏ hơn $5$ nghìn đồng.
+
+**Nhìn lại.** Muốn chi phí trung bình dưới $5{,}5$ nghìn đồng thì xưởng phải làm bao nhiêu chai? Từ $5+\dfrac{2000}{x}<5{,}5$ ta được $x>4000$. Tiệm cận cho biết giới hạn không thể vượt qua; bất phương trình cho biết phải làm bao nhiêu để đến đủ gần giới hạn đó.
 :::
 
 :::warning Những sai lầm thường gặp
@@ -217,7 +225,9 @@ Tìm các tiệm cận của đồ thị hàm số $y=\dfrac{3x+2}{x-4}$.
 2. Tìm nghiệm của mẫu, kiểm tra tử khác $0$ tại đó.
 
 ::solution
-$\lim\limits_{x\to\pm\infty}y=3$. Mẫu bằng $0$ tại $x=4$, tử bằng $14\neq0$, nên $\lim\limits_{x\to4^+}y=+\infty$.
+Ta có $\lim\limits_{x\to\pm\infty}y=3$. Mẫu bằng $0$ tại $x=4$, tử tại đó bằng $14\neq0$ nên $\lim\limits_{x\to4^+}y=+\infty$.
+
+Vậy đồ thị có một tiệm cận đứng và một tiệm cận ngang.
 
 **Đáp số.** Tiệm cận đứng $x=4$, tiệm cận ngang $y=3$.
 :::
@@ -233,7 +243,9 @@ Tìm các tiệm cận của đồ thị hàm số $y=\dfrac{1-2x}{x+3}$.
 2. Tìm nghiệm của mẫu.
 
 ::solution
-$\lim\limits_{x\to\pm\infty}y=\dfrac{-2}{1}=-2$. Tại $x=-3$, tử bằng $7\neq0$, nên $\lim\limits_{x\to-3^+}y=+\infty$.
+Ta có $\lim\limits_{x\to\pm\infty}y=\dfrac{-2}{1}=-2$. Tại $x=-3$, tử bằng $7\neq0$ nên $\lim\limits_{x\to-3^+}y=+\infty$.
+
+Vậy đồ thị có một tiệm cận đứng và một tiệm cận ngang.
 
 **Đáp số.** Tiệm cận đứng $x=-3$, tiệm cận ngang $y=-2$.
 :::
@@ -249,7 +261,9 @@ Tìm các tiệm cận của đồ thị hàm số $y=\dfrac{x^2+2x+3}{x+1}$.
 2. Tìm tiệm cận đứng từ mẫu.
 
 ::solution
-$x^2+2x+3=(x+1)(x+1)+2$, nên $y=x+1+\dfrac{2}{x+1}$. Phần $\dfrac{2}{x+1}\to0$ khi $x\to\pm\infty$. Tại $x=-1$ tử bằng $2\neq0$.
+Ta có $x^2+2x+3=(x+1)(x+1)+2$ nên $y=x+1+\dfrac{2}{x+1}$. Vì $\dfrac{2}{x+1}\to0$ khi $x\to\pm\infty$ nên đồ thị có tiệm cận xiên. Tại $x=-1$ tử bằng $2\neq0$ nên đồ thị có tiệm cận đứng.
+
+Vậy đồ thị có hai tiệm cận.
 
 **Đáp số.** Tiệm cận đứng $x=-1$, tiệm cận xiên $y=x+1$.
 :::
@@ -265,13 +279,15 @@ $x^2+2x+3=(x+1)(x+1)+2$, nên $y=x+1+\dfrac{2}{x+1}$. Phần $\dfrac{2}{x+1}\to0
 2. Kiểm tra giới hạn tại từng nghiệm của mẫu và tại vô cực.
 
 ::solution
-$y=\dfrac{(x-2)(x+2)}{(x-1)(x-2)}=\dfrac{x+2}{x-1}$ với $x\neq2$. Tại $x=2$: $\lim\limits_{x\to2}y=4$, hữu hạn. Tại $x=1$: $\lim\limits_{x\to1^+}y=+\infty$. Tại vô cực: $\lim\limits_{x\to\pm\infty}y=1$.
+Với $x\neq2$, ta có $y=\dfrac{(x-2)(x+2)}{(x-1)(x-2)}=\dfrac{x+2}{x-1}$. Ta có $\lim\limits_{x\to2}y=4$ (hữu hạn) nên $x=2$ không phải tiệm cận; $\lim\limits_{x\to1^+}y=+\infty$; $\lim\limits_{x\to\pm\infty}y=1$.
+
+Vậy đồ thị có hai đường tiệm cận.
 
 **Đáp số.** Hai tiệm cận: tiệm cận đứng $x=1$ và tiệm cận ngang $y=1$.
 :::
 
 :::exercise
-Cho hàm số $y=\dfrac{x^2-3x+4}{x-2}$. Mỗi khẳng định sau đúng hay sai?
+Cho hàm số $y=\dfrac{x^2-3x+4}{x-2}$. Xét tính đúng sai của các mệnh đề sau:
 
 a) Đường thẳng $x=2$ là tiệm cận đứng của đồ thị.
 
@@ -289,15 +305,15 @@ d) Đồ thị có đúng hai đường tiệm cận.
 2. Kiểm tra từng khẳng định.
 
 ::solution
-$x^2-3x+4=(x-2)(x-1)+2$, nên $y=x-1+\dfrac{2}{x-2}$.
+Ta có $x^2-3x+4=(x-2)(x-1)+2$ nên $y=x-1+\dfrac{2}{x-2}$.
 
-a) **Đúng**: tử bằng $2\neq0$ tại $x=2$, nên $\lim\limits_{x\to2^+}y=+\infty$.
+a) **Đúng**. Vì tử bằng $2\neq0$ tại $x=2$ nên $\lim\limits_{x\to2^+}y=+\infty$.
 
-b) **Đúng**: $y\to+\infty$ khi $x\to+\infty$ và $y\to-\infty$ khi $x\to-\infty$.
+b) **Đúng**. Ta có $y\to+\infty$ khi $x\to+\infty$ và $y\to-\infty$ khi $x\to-\infty$.
 
-c) **Sai**: tiệm cận xiên là $y=x-1$.
+c) **Sai**. Tiệm cận xiên là $y=x-1$.
 
-d) **Đúng**: tiệm cận đứng $x=2$ và tiệm cận xiên $y=x-1$.
+d) **Đúng**. Đồ thị có tiệm cận đứng $x=2$ và tiệm cận xiên $y=x-1$.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -313,13 +329,15 @@ Tính tổng số đường tiệm cận đứng và tiệm cận ngang của đ
 2. Tính giới hạn tại $\pm\infty$.
 
 ::solution
-Mẫu bằng $0$ tại $x=\pm2$; tử tại đó bằng $5$ và $-3$, đều khác $0$, nên có hai tiệm cận đứng $x=2$, $x=-2$. $\lim\limits_{x\to\pm\infty}y=0$, nên có tiệm cận ngang $y=0$.
+Mẫu bằng $0$ tại $x=\pm2$; tử tại đó bằng $5$ và $-3$, đều khác $0$, nên đồ thị có hai tiệm cận đứng $x=2$, $x=-2$. Vì $\lim\limits_{x\to\pm\infty}y=0$ nên đồ thị có tiệm cận ngang $y=0$.
+
+Vậy tổng số đường tiệm cận đứng và tiệm cận ngang là $3$.
 
 **Đáp số.** $3$.
 :::
 
 :::exercise
-Một bể chứa $200$ lít nước sạch. Người ta bơm vào bể nước muối có nồng độ $30$ gam/lít với tốc độ $10$ lít/phút. Sau $t$ phút, nồng độ muối trong bể là $C(t)=\dfrac{30t}{20+t}$ (gam/lít). Tìm tiệm cận ngang của đồ thị $C(t)$ và nêu ý nghĩa.
+Một bể chứa $200$ lít nước sạch. Người ta bơm vào bể nước muối có nồng độ $30$ gam/lít với tốc độ $10$ lít/phút. Sau $t$ phút, nồng độ muối trong bể là $C(t)=\dfrac{30t}{20+t}$ (gam/lít). Tìm tiệm cận ngang của đồ thị hàm số $C(t)$ và nêu ý nghĩa thực tế.
 
 ::hint
 **Kiến thức:** lượng muối là $30\cdot10t=300t$ gam, thể tích là $200+10t$ lít; tiệm cận ngang là giới hạn khi $t\to+\infty$.
@@ -329,7 +347,9 @@ Một bể chứa $200$ lít nước sạch. Người ta bơm vào bể nước 
 2. Tính $\lim\limits_{t\to+\infty}C(t)$.
 
 ::solution
-$\dfrac{300t}{200+10t}=\dfrac{30t}{20+t}$ (chia tử và mẫu cho $10$). $\lim\limits_{t\to+\infty}\dfrac{30t}{20+t}=30$. Chẳng hạn $C(10)=10$, $C(60)=22{,}5$, $C(180)=27$.
+Ta có $\dfrac{300t}{200+10t}=\dfrac{30t}{20+t}$ (chia tử và mẫu cho $10$) và $\lim\limits_{t\to+\infty}\dfrac{30t}{20+t}=30$. Chẳng hạn $C(10)=10$, $C(60)=22{,}5$, $C(180)=27$.
+
+Vậy đồ thị có tiệm cận ngang $C=30$.
 
 **Đáp số.** Tiệm cận ngang $C=30$: theo thời gian, nồng độ muối trong bể tiến gần $30$ gam/lít (nồng độ của nước bơm vào) nhưng không vượt quá.
 :::
@@ -345,13 +365,15 @@ Tính $\lim\limits_{x\to+\infty}\left(\sqrt{x^2+2x}-x\right)$, rồi suy ra mộ
 2. Chia tử và mẫu cho $x$ (với $x>0$).
 
 ::solution
-$\sqrt{x^2+2x}-x=\dfrac{x^2+2x-x^2}{\sqrt{x^2+2x}+x}=\dfrac{2x}{\sqrt{x^2+2x}+x}=\dfrac{2}{\sqrt{1+\frac2x}+1}\to\dfrac{2}{2}=1$.
+Với $x>0$, ta có $\sqrt{x^2+2x}-x=\dfrac{x^2+2x-x^2}{\sqrt{x^2+2x}+x}=\dfrac{2x}{\sqrt{x^2+2x}+x}=\dfrac{2}{\sqrt{1+\frac2x}+1}\to\dfrac{2}{2}=1$ khi $x\to+\infty$.
+
+Vậy giới hạn cần tính bằng $1$ và đường thẳng $y=1$ là một tiệm cận ngang của đồ thị.
 
 **Đáp số.** Giới hạn bằng $1$; đường thẳng $y=1$ là tiệm cận ngang (khi $x\to+\infty$).
 :::
 
 :::exercise Ôn tập
-Chứng minh đồ thị hàm số $y=\dfrac{2x^2-1}{x^2-2x+3}$ không có tiệm cận đứng, rồi tìm tiệm cận ngang.
+Chứng minh rằng đồ thị hàm số $y=\dfrac{2x^2-1}{x^2-2x+3}$ không có tiệm cận đứng. Tìm tiệm cận ngang của đồ thị hàm số đó.
 
 ::hint
 **Kiến thức:** tam thức có $\Delta<0$ thì không có nghiệm (xem [dấu của tam thức bậc hai](lesson:sign-of-quadratic)).
@@ -361,7 +383,9 @@ Chứng minh đồ thị hàm số $y=\dfrac{2x^2-1}{x^2-2x+3}$ không có tiệ
 2. Chia tử và mẫu cho $x^2$ để tính giới hạn tại vô cực.
 
 ::solution
-Mẫu $x^2-2x+3$ có $\Delta=4-12=-8<0$, nên luôn dương: hàm số xác định và liên tục trên $\mathbb{R}$, không có tiệm cận đứng. $\lim\limits_{x\to\pm\infty}y=\dfrac{2}{1}=2$.
+Vì mẫu $x^2-2x+3$ có $\Delta=4-12=-8<0$ nên mẫu luôn dương. Do đó hàm số xác định và liên tục trên $\mathbb{R}$, suy ra đồ thị không có tiệm cận đứng. Ta có $\lim\limits_{x\to\pm\infty}y=\dfrac{2}{1}=2$.
+
+Vậy đồ thị có tiệm cận ngang $y=2$.
 
 **Đáp số.** Không có tiệm cận đứng; tiệm cận ngang $y=2$.
 :::
@@ -378,7 +402,9 @@ Tìm các tiệm cận xiên của đồ thị hàm số $y=\sqrt{x^2+4x}$.
 3. Làm lại khi $x\to-\infty$.
 
 ::solution
-Tập xác định $(-\infty; -4]\cup[0; +\infty)$. Khi $x\to+\infty$: $a=\lim\sqrt{1+\frac4x}=1$, $b=\lim\left(\sqrt{x^2+4x}-x\right)=\lim\dfrac{4x}{\sqrt{x^2+4x}+x}=2$. Khi $x\to-\infty$: $\sqrt{x^2+4x}=-x\sqrt{1+\frac4x}$, nên $a=-1$ và $b=\lim\left(\sqrt{x^2+4x}+x\right)=\lim\dfrac{4x}{\sqrt{x^2+4x}-x}=\lim\dfrac{4}{-\sqrt{1+\frac4x}-1}=-2$.
+Tập xác định: $(-\infty; -4]\cup[0; +\infty)$. Khi $x\to+\infty$, ta có $a=\lim\sqrt{1+\frac4x}=1$, $b=\lim\left(\sqrt{x^2+4x}-x\right)=\lim\dfrac{4x}{\sqrt{x^2+4x}+x}=2$. Khi $x\to-\infty$, ta có $\sqrt{x^2+4x}=-x\sqrt{1+\frac4x}$ nên $a=-1$ và $b=\lim\left(\sqrt{x^2+4x}+x\right)=\lim\dfrac{4x}{\sqrt{x^2+4x}-x}=\lim\dfrac{4}{-\sqrt{1+\frac4x}-1}=-2$.
+
+Vậy đồ thị có hai tiệm cận xiên.
 
 **Đáp số.** Hai tiệm cận xiên: $y=x+2$ (khi $x\to+\infty$) và $y=-x-2$ (khi $x\to-\infty$).
 :::
@@ -393,7 +419,7 @@ B. $x=2$.
 C. $y=3$.
 D. $x=\dfrac13$.
 ::key B
-Mẫu bằng $0$ tại $x=2$, tử tại đó bằng $5\neq0$ nên $\lim\limits_{x\to2^+}y=+\infty$. Phương án C là tiệm cận ngang, phương án D là nghiệm của tử.
+Mẫu bằng $0$ tại $x=2$, tử tại đó bằng $5\neq0$ nên $\lim\limits_{x\to2^+}y=+\infty$. Do đó tiệm cận đứng là $x=2$. Phương án C là tiệm cận ngang, phương án D là nghiệm của tử.
 
 ::mc
 Tiệm cận ngang của đồ thị hàm số $y=\dfrac{1+6x}{3-2x}$ là đường thẳng
@@ -402,7 +428,7 @@ B. $y=3$.
 C. $y=\dfrac13$.
 D. $y=-3$.
 ::key D
-$\lim\limits_{x\to\pm\infty}\dfrac{6x+1}{-2x+3}=\dfrac{6}{-2}=-3$. Phương án B quên dấu của hệ số $-2$, phương án C lấy tỉ số hai hệ số tự do.
+Ta có $\lim\limits_{x\to\pm\infty}\dfrac{6x+1}{-2x+3}=\dfrac{6}{-2}=-3$. Phương án B quên dấu của hệ số $-2$, phương án C lấy tỉ số hai hệ số tự do.
 
 ::mc
 Tiệm cận xiên của đồ thị hàm số $y=\dfrac{x^2+3x-2}{x+1}$ là đường thẳng
@@ -411,33 +437,33 @@ B. $y=x+3$.
 C. $y=x-2$.
 D. $y=x$.
 ::key A
-Chia đa thức: $x^2+3x-2=(x+1)(x+2)-4$, nên $y=x+2-\dfrac{4}{x+1}$ và $y-(x+2)\to0$ khi $x\to\pm\infty$.
+Ta có $x^2+3x-2=(x+1)(x+2)-4$ nên $y=x+2-\dfrac{4}{x+1}$ và $y-(x+2)\to0$ khi $x\to\pm\infty$.
 
 ::mc
-Hàm số $y=f(x)$ có $\lim\limits_{x\to+\infty}f(x)=2$ và $\lim\limits_{x\to-\infty}f(x)=-2$. Khẳng định nào sau đây đúng?
+Cho hàm số $y=f(x)$ có $\lim\limits_{x\to+\infty}f(x)=2$ và $\lim\limits_{x\to-\infty}f(x)=-2$. Khẳng định nào dưới đây đúng?
 A. Đồ thị hàm số có đúng một tiệm cận ngang.
 B. Đồ thị hàm số có hai tiệm cận đứng là $x=2$ và $x=-2$.
 C. Đồ thị hàm số có hai tiệm cận ngang là $y=2$ và $y=-2$.
 D. Đồ thị hàm số không có tiệm cận ngang.
 ::key C
-Mỗi giới hạn hữu hạn tại $+\infty$ hoặc $-\infty$ cho một tiệm cận ngang; hai giới hạn khác nhau nên có hai đường. Tiệm cận đứng có dạng $x=x_0$ và cần giới hạn vô cực, nên B sai.
+Mỗi giới hạn hữu hạn tại $+\infty$ hoặc $-\infty$ cho một tiệm cận ngang. Vì hai giới hạn khác nhau nên đồ thị có hai tiệm cận ngang. Tiệm cận đứng có dạng $x=x_0$ và cần giới hạn vô cực, nên B sai.
 
 ::tf
-Cho hàm số $y=\dfrac{2x^2-3x+1}{x-2}$.
+Cho hàm số $y=\dfrac{2x^2-3x+1}{x-2}$. Xét tính đúng sai của các mệnh đề sau:
 a) Đường thẳng $x=2$ là tiệm cận đứng của đồ thị hàm số.
 b) Đường thẳng $y=2$ là tiệm cận ngang của đồ thị hàm số.
 c) Đường thẳng $y=2x+1$ là tiệm cận xiên của đồ thị hàm số.
 d) Tiệm cận xiên của đồ thị cắt hai trục toạ độ tạo thành một tam giác có diện tích bằng $\dfrac14$.
 ::key Đ S Đ Đ
-a) Đúng: tử bằng $3\neq0$ tại $x=2$. b) Sai: $y\to\pm\infty$ khi $x\to\pm\infty$, không có tiệm cận ngang. c) Đúng: $2x^2-3x+1=(x-2)(2x+1)+3$. d) Đúng: $y=2x+1$ cắt hai trục tại $\left(-\dfrac12; 0\right)$ và $(0; 1)$, diện tích $\dfrac12\cdot\dfrac12\cdot1=\dfrac14$.
+a) Đúng: mẫu bằng $0$ và tử bằng $3\neq0$ tại $x=2$. b) Sai: vì $y\to\pm\infty$ khi $x\to\pm\infty$ nên đồ thị không có tiệm cận ngang. c) Đúng: ta có $2x^2-3x+1=(x-2)(2x+1)+3$. d) Đúng: đường thẳng $y=2x+1$ cắt hai trục tại $\left(-\dfrac12; 0\right)$ và $(0; 1)$, do đó diện tích tam giác là $\dfrac12\cdot\dfrac12\cdot1=\dfrac14$.
 
 ::sa
 Đồ thị hàm số $y=\dfrac{\sqrt{x+3}-2}{x^2-1}$ có tất cả bao nhiêu đường tiệm cận đứng và tiệm cận ngang?
 ::key 2
-Tại $x=1$ tử cũng bằng $0$ và $y=\dfrac{1}{(x+1)(\sqrt{x+3}+2)}\to\dfrac18$ (hữu hạn), nên $x=1$ không phải tiệm cận. Còn lại tiệm cận đứng $x=-1$ và tiệm cận ngang $y=0$ (vì $\lim\limits_{x\to+\infty}y=0$): có $2$ đường.
+Tại $x=1$ tử cũng bằng $0$ và $y=\dfrac{1}{(x+1)(\sqrt{x+3}+2)}\to\dfrac18$ (hữu hạn) nên $x=1$ không phải tiệm cận. Đồ thị có tiệm cận đứng $x=-1$ và tiệm cận ngang $y=0$ (vì $\lim\limits_{x\to+\infty}y=0$). Vậy có $2$ đường.
 
 ::sa
 Nồng độ một chất trong bể nước sau $t$ phút là $C(t)=\dfrac{25t}{3t+8}$ (mg/l). Đồ thị của $C(t)$ có tiệm cận ngang $C=c$. Tìm $c$ (làm tròn kết quả đến hàng phần mười).
 ::key 8,3
-$\lim\limits_{t\to+\infty}\dfrac{25t}{3t+8}=\dfrac{25}{3}\approx8{,}33$, làm tròn được $8{,}3$: theo thời gian nồng độ tiến gần $8{,}3$ mg/l.
+Ta có $\lim\limits_{t\to+\infty}\dfrac{25t}{3t+8}=\dfrac{25}{3}\approx8{,}33$. Vậy $c\approx8{,}3$: theo thời gian, nồng độ tiến gần $8{,}3$ mg/l.
 :::

@@ -15,6 +15,8 @@ Một chiếc xe máy tăng tốc trong $3$ giây. Vận tốc sau $t$ giây là
 
 Một cách đoán nhanh là lấy trung bình vận tốc đầu và cuối: $\dfrac{2+11}{2}\cdot3=19{,}5$ m. Cách này chỉ đúng khi vận tốc tăng đều, mà ở đây vận tốc tăng ngày càng nhanh. Ta sẽ tìm câu trả lời đúng.
 
+Bài toán "cộng dồn một đại lượng thay đổi liên tục" có từ thời Archimedes, khi ông tính diện tích hình giới hạn bởi một parabol bằng cách chia nhỏ hình ấy. Phải đến nửa sau thế kỉ XVII, Isaac Newton và Gottfried Wilhelm Leibniz, độc lập với nhau, mới tìm ra con đường ngắn: dùng nguyên hàm (theo MacTutor History of Mathematics, Đại học St Andrews). Bài này kể lại phát hiện ấy.
+
 ## Diện tích dưới đồ thị
 
 ### Khám phá: chia nhỏ thời gian
@@ -44,6 +46,8 @@ point: (3, 11) "(3; 11)" left
 
 Điều bất ngờ là: nếu $S(t)=\dfrac{t^3}{3}+2t$ là một nguyên hàm của $v(t)$ thì $S(3)-S(0)=9+6-0=15$, đúng bằng con số trên. Đây không phải trùng hợp.
 
+**Vì sao?** Gọi $A(t)$ là diện tích dưới đồ thị từ $0$ đến $t$. Khi $t$ tăng thêm một lượng nhỏ $h$, diện tích tăng thêm một dải hẹp gần như hình chữ nhật, cao $v(t)$, rộng $h$, nên $A(t+h)-A(t)\approx v(t)\cdot h$. Chia cho $h$ rồi cho $h\to0$, ta được $A'(t)=v(t)$: hàm diện tích là một nguyên hàm của $v$. Vì vậy diện tích, tức quãng đường, tính được bằng hiệu hai giá trị của một nguyên hàm.
+
 ## Định nghĩa tích phân
 
 :::definition Tích phân
@@ -54,6 +58,10 @@ Số $a$ là **cận dưới**, $b$ là **cận trên**. Ta quy ước $\display
 
 Kết quả không phụ thuộc nguyên hàm được chọn: thay $F$ bằng $F+C$ thì $(F(b)+C)-(F(a)+C)=F(b)-F(a)$. Tích phân cũng không phụ thuộc tên biến: $\displaystyle\int_a^b f(x)\,dx=\int_a^b f(t)\,dt$.
 
+**Hiểu sâu hơn.** Kí hiệu $\displaystyle\int$ do Leibniz đưa ra; đó là chữ S kéo dài, chữ cái đầu của *summa* (tổng) trong tiếng Latin (theo MacTutor). Kí hiệu nhắc ta rằng tích phân là "tổng của rất nhiều phần nhỏ $f(x)\,dx$". Khác với nguyên hàm (một họ hàm số), tích phân là **một số**.
+
+**Kết nối.** Bài này dùng nguyên hàm (bài trước) và giới hạn (lớp 11). Ở bài sau, tích phân sẽ tính diện tích hình phẳng và thể tích vật thể; trong vật lí, nó tính quãng đường từ vận tốc và công từ lực.
+
 :::theorem Ý nghĩa hình học
 Nếu $f$ liên tục và không âm trên $[a; b]$ thì $\displaystyle\int_a^b f(x)\,dx$ là diện tích hình phẳng giới hạn bởi đồ thị $y=f(x)$, trục hoành và hai đường thẳng $x=a$, $x=b$.
 :::
@@ -63,7 +71,7 @@ Nếu $f$ liên tục và không âm trên $[a; b]$ thì $\displaystyle\int_a^b 
 :::example Tích phân của một đa thức
 Tính $\displaystyle\int_1^2(3x^2-2x+1)\,dx$.
 
-**Lời giải.** Một nguyên hàm là $x^3-x^2+x$. Ta thay cận trên rồi trừ đi giá trị tại cận dưới:
+**Lời giải.** Một nguyên hàm của $3x^2-2x+1$ là $x^3-x^2+x$. Do đó
 
 $$\int_1^2(3x^2-2x+1)\,dx=\Big[x^3-x^2+x\Big]_1^2=(8-4+2)-(1-1+1)=6-1=5.$$
 
@@ -75,7 +83,7 @@ Giá trị tại cận dưới không phải lúc nào cũng bằng $0$, đặc 
 :::example Hàm lượng giác
 Tính $\displaystyle\int_0^{\frac{\pi}{2}}(2\cos x-\sin x)\,dx$.
 
-**Lời giải.** Một nguyên hàm của $2\cos x-\sin x$ là $2\sin x+\cos x$. Tại $x=0$ ta có $\cos0=1$, nên giá trị tại cận dưới khác $0$:
+**Lời giải.** Một nguyên hàm của $2\cos x-\sin x$ là $2\sin x+\cos x$. Do đó (chú ý $\cos0=1$ nên giá trị tại cận dưới khác $0$)
 
 $$\Big[2\sin x+\cos x\Big]_0^{\frac{\pi}{2}}=(2\cdot1+0)-(0+1)=1.$$
 
@@ -96,15 +104,17 @@ Hai tính chất đầu đến từ tính chất của nguyên hàm. Tính chấ
 :::example Dùng tính chất khi không biết hàm số
 Biết $\displaystyle\int_0^2 f(x)\,dx=3$, $\displaystyle\int_2^5 f(x)\,dx=-1$ và $\displaystyle\int_0^5 g(x)\,dx=4$. Tính $\displaystyle\int_0^5\big(2f(x)-3g(x)\big)\,dx$ và $\displaystyle\int_5^0 f(x)\,dx$.
 
-**Lời giải.** Cộng hai đoạn liền nhau $[0; 2]$ và $[2; 5]$:
+**Lời giải.** Theo tính chất cộng đoạn tích phân, ta có
 
 $$\int_0^5 f(x)\,dx=3+(-1)=2.$$
 
-Tách tổng và đưa hằng số ra ngoài:
+Theo tính chất tuyến tính của tích phân, ta có
 
 $$\int_0^5\big(2f(x)-3g(x)\big)\,dx=2\cdot2-3\cdot4=-8.$$
 
-Đổi chỗ hai cận thì đổi dấu: $\displaystyle\int_5^0 f(x)\,dx=-2$.
+Vì đổi chỗ hai cận thì tích phân đổi dấu nên $\displaystyle\int_5^0 f(x)\,dx=-2$.
+
+Vậy $\displaystyle\int_0^5\big(2f(x)-3g(x)\big)\,dx=-8$ và $\displaystyle\int_5^0 f(x)\,dx=-2$.
 :::
 
 Với dấu giá trị tuyệt đối, ta tìm chỗ biểu thức đổi dấu rồi tách đoạn bằng tính chất thứ ba.
@@ -112,7 +122,7 @@ Với dấu giá trị tuyệt đối, ta tìm chỗ biểu thức đổi dấu 
 :::example Tích phân chứa dấu giá trị tuyệt đối
 Tính $\displaystyle\int_0^2\lvert x^2-1\rvert\,dx$.
 
-**Lời giải.** Trên $[0; 2]$, $x^2-1$ đổi dấu tại $x=1$: âm trên $[0; 1)$, dương trên $(1; 2]$. Ta bỏ dấu giá trị tuyệt đối trên từng đoạn:
+**Lời giải.** Trên $[0; 2]$, $x^2-1$ đổi dấu tại $x=1$: âm trên $[0; 1)$, dương trên $(1; 2]$. Bỏ dấu giá trị tuyệt đối trên từng đoạn, ta có
 
 $$\begin{aligned}
 \int_0^2\lvert x^2-1\rvert\,dx&=\int_0^1(1-x^2)\,dx+\int_1^2(x^2-1)\,dx\\
@@ -143,11 +153,13 @@ Chẳng hạn $\displaystyle\int\cos 2x\,dx=\frac12\sin2x+C$ và $\displaystyle\
 :::example Đổi biến $u=ax+b$
 Tính $\displaystyle\int_0^1(2x+1)^3\,dx$.
 
-**Lời giải.** Với $u=2x+1$, nguyên hàm của $u^3$ là $\dfrac{u^4}{4}$; quy tắc trên thêm thừa số $\dfrac12$:
+**Lời giải.** Đặt $u=2x+1$. Vì nguyên hàm của $u^3$ là $\dfrac{u^4}{4}$ nên theo quy tắc trên (thêm thừa số $\dfrac12$), ta có
 
 $$\int_0^1(2x+1)^3\,dx=\Big[\frac{(2x+1)^4}{8}\Big]_0^1=\frac{81}{8}-\frac18=10.$$
 
 **Kiểm tra.** Khai triển $(2x+1)^3=8x^3+12x^2+6x+1$, nguyên hàm $2x^4+4x^3+3x^2+x$, thay cận được $2+4+3+1=10$.
+
+Vậy tích phân bằng $10$.
 :::
 
 ## Trở lại chiếc xe máy
@@ -155,11 +167,13 @@ $$\int_0^1(2x+1)^3\,dx=\Big[\frac{(2x+1)^4}{8}\Big]_0^1=\frac{81}{8}-\frac18=10.
 :::example Quãng đường của xe máy
 Xe máy có vận tốc $v(t)=t^2+2$ (m/s). Tính quãng đường xe đi được trong $3$ giây đầu.
 
-**Lời giải.** Vận tốc luôn dương nên quãng đường bằng tích phân của vận tốc trên $[0; 3]$:
+**Lời giải.** Vì vận tốc luôn dương nên quãng đường bằng tích phân của vận tốc trên đoạn $[0; 3]$:
 
 $$\int_0^3(t^2+2)\,dt=\Big[\frac{t^3}{3}+2t\Big]_0^3=9+6=15.$$
 
 Vậy xe đi được $15$ m, không phải $19{,}5$ m như cách đoán bằng trung bình.
+
+**Nhìn lại.** Vì sao cách đoán bằng trung bình cho kết quả lớn hơn? Vận tốc trung bình thật sự là $\dfrac{15}{3}=5$ m/s, nhỏ hơn $\dfrac{2+11}{2}=6{,}5$ m/s, vì vận tốc tăng chậm lúc đầu và tăng nhanh về cuối: phần lớn thời gian xe chạy chậm hơn $6{,}5$ m/s. Cách lấy trung bình hai đầu chỉ đúng khi đồ thị vận tốc là một đường thẳng.
 :::
 
 :::warning Những sai lầm thường gặp
@@ -205,7 +219,9 @@ Tính $\displaystyle\int_0^2(x^3-2x+3)\,dx$.
 2. Tính $F(2)-F(0)$.
 
 ::solution
-$\Big[\dfrac{x^4}{4}-x^2+3x\Big]_0^2=(4-4+6)-0=6$.
+Ta có $\displaystyle\int_0^2(x^3-2x+3)\,dx=\Big[\dfrac{x^4}{4}-x^2+3x\Big]_0^2=(4-4+6)-0=6$.
+
+Vậy tích phân bằng $6$.
 
 **Đáp số.** $6$.
 :::
@@ -221,7 +237,7 @@ Tính $\displaystyle\int_1^4\left(\sqrt x-\frac{1}{x^2}\right)dx$.
 2. Tính $F(4)-F(1)$, cẩn thận với phân số.
 
 ::solution
-$F(4)=\dfrac{16}{3}+\dfrac14$, $F(1)=\dfrac23+1$. Hiệu là $\dfrac{14}{3}-\dfrac34=\dfrac{56-9}{12}=\dfrac{47}{12}$.
+Một nguyên hàm là $F(x)=\dfrac23x\sqrt x+\dfrac1x$. Ta có $F(4)=\dfrac{16}{3}+\dfrac14$, $F(1)=\dfrac23+1$. Vậy tích phân bằng $\dfrac{14}{3}-\dfrac34=\dfrac{56-9}{12}=\dfrac{47}{12}$.
 
 **Đáp số.** $\dfrac{47}{12}$.
 :::
@@ -237,7 +253,7 @@ Tính $\displaystyle\int_0^{\pi}(\sin x+2)\,dx$.
 2. Tính $F(\pi)-F(0)$.
 
 ::solution
-$F(\pi)=1+2\pi$, $F(0)=-1$. Vậy tích phân bằng $1+2\pi-(-1)=2+2\pi$.
+Một nguyên hàm là $F(x)=-\cos x+2x$. Ta có $F(\pi)=1+2\pi$, $F(0)=-1$. Vậy tích phân bằng $1+2\pi-(-1)=2+2\pi$.
 
 **Đáp số.** $2+2\pi$.
 :::
@@ -253,13 +269,15 @@ Biết $\displaystyle\int_1^3 f(x)\,dx=5$ và $\displaystyle\int_1^3 g(x)\,dx=-2
 2. Tính $\displaystyle\int_1^3x\,dx$.
 
 ::solution
-$\displaystyle\int_1^3x\,dx=\Big[\frac{x^2}{2}\Big]_1^3=\frac92-\frac12=4$. Tổng là $15+4+4=23$.
+Ta có $\displaystyle\int_1^3x\,dx=\Big[\frac{x^2}{2}\Big]_1^3=\frac92-\frac12=4$. Theo tính chất tuyến tính, tích phân cần tính bằng $3\cdot5-2\cdot(-2)+4=15+4+4=23$.
+
+Vậy tích phân bằng $23$.
 
 **Đáp số.** $23$.
 :::
 
 :::exercise
-Xét tích phân $I=\displaystyle\int_0^3\lvert x-2\rvert\,dx$. Mỗi khẳng định sau đúng hay sai?
+Cho tích phân $I=\displaystyle\int_0^3\lvert x-2\rvert\,dx$. Xét tính đúng sai của các mệnh đề sau:
 
 a) Trên đoạn $[0; 2]$, $\lvert x-2\rvert=2-x$.
 
@@ -277,13 +295,13 @@ d) $\displaystyle\int_3^0\lvert x-2\rvert\,dx=\dfrac52$.
 2. Tính hai tích phân con rồi cộng.
 
 ::solution
-a) **Đúng**: với $x\le2$ thì $x-2\le0$.
+a) **Đúng**. Vì với $x\le2$ thì $x-2\le0$ nên $\lvert x-2\rvert=2-x$.
 
-b) **Sai**: không đưa dấu giá trị tuyệt đối ra ngoài được; $I$ không bằng $\dfrac32$ (xem c).
+b) **Sai**. Không thể đưa dấu giá trị tuyệt đối ra ngoài tích phân; $I$ không bằng $\dfrac32$ (xem c).
 
-c) **Đúng**: $\displaystyle\int_0^2(2-x)\,dx=2$ và $\displaystyle\int_2^3(x-2)\,dx=\frac12$, nên $I=\dfrac52$.
+c) **Đúng**. Ta có $\displaystyle\int_0^2(2-x)\,dx=2$ và $\displaystyle\int_2^3(x-2)\,dx=\frac12$, nên $I=\dfrac52$.
 
-d) **Sai**: đổi cận thì đổi dấu, nên tích phân đó bằng $-\dfrac52$.
+d) **Sai**. Vì đổi chỗ hai cận thì tích phân đổi dấu nên tích phân đó bằng $-\dfrac52$.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
@@ -299,7 +317,9 @@ Tính $\displaystyle\int_0^1(3x+1)^2\,dx$.
 2. Thay cận $1$ và $0$.
 
 ::solution
-$\Big[\dfrac{(3x+1)^3}{9}\Big]_0^1=\dfrac{64}{9}-\dfrac19=7$.
+Ta có $\displaystyle\int_0^1(3x+1)^2\,dx=\Big[\dfrac{(3x+1)^3}{9}\Big]_0^1=\dfrac{64}{9}-\dfrac19=7$.
+
+Vậy tích phân bằng $7$.
 
 **Đáp số.** $7$.
 :::
@@ -315,7 +335,9 @@ Nước chảy vào một bể với tốc độ $r(t)=40-2t$ (lít/phút), $0\l
 2. Tính bằng nguyên hàm $40t-t^2$.
 
 ::solution
-$\Big[40t-t^2\Big]_0^{10}=400-100=300$.
+Lượng nước chảy vào bể bằng tích phân của tốc độ chảy: $\displaystyle\int_0^{10}(40-2t)\,dt=\Big[40t-t^2\Big]_0^{10}=400-100=300$.
+
+Vậy trong $10$ phút đầu có $300$ lít nước chảy vào bể.
 
 **Đáp số.** $300$ lít.
 :::
@@ -331,13 +353,15 @@ Cho $F(x)$ là một nguyên hàm của $f(x)$ trên $\mathbb{R}$ với $F(1)=2$
 2. Tách tổng; $\displaystyle\int_1^41\,dx=3$.
 
 ::solution
-$\displaystyle\int_1^4f(x)\,dx=7-2=5$. Khi đó $\displaystyle\int_1^4\big(2f(x)+1\big)\,dx=2\cdot5+3=13$.
+Ta có $\displaystyle\int_1^4f(x)\,dx=F(4)-F(1)=7-2=5$. Do đó $\displaystyle\int_1^4\big(2f(x)+1\big)\,dx=2\cdot5+3=13$ (vì $\displaystyle\int_1^4 1\,dx=3$).
+
+Vậy hai tích phân lần lượt bằng $5$ và $13$.
 
 **Đáp số.** $5$ và $13$.
 :::
 
 :::exercise Ôn tập
-Tính $\displaystyle\int_0^{\ln3}e^x\,dx$ và $\displaystyle\int_1^2 2^x\,dx$ (giá trị gần đúng của tích phân thứ hai làm tròn đến hàng phần trăm).
+Tính $\displaystyle\int_0^{\ln3}e^x\,dx$ và $\displaystyle\int_1^2 2^x\,dx$ (kết quả của tích phân thứ hai làm tròn đến hàng phần trăm).
 
 ::hint
 **Kiến thức:** $e^{\ln a}=a$ (lôgarit, lớp 11); nguyên hàm của $2^x$ là $\dfrac{2^x}{\ln2}$.
@@ -347,7 +371,9 @@ Tính $\displaystyle\int_0^{\ln3}e^x\,dx$ và $\displaystyle\int_1^2 2^x\,dx$ (g
 2. $\Big[\dfrac{2^x}{\ln2}\Big]_1^2=\dfrac{4-2}{\ln2}$.
 
 ::solution
-$\displaystyle\int_0^{\ln3}e^x\,dx=3-1=2$. $\displaystyle\int_1^22^x\,dx=\frac{2}{\ln2}\approx2{,}885$.
+Ta có $\displaystyle\int_0^{\ln3}e^x\,dx=e^{\ln3}-e^0=3-1=2$ và $\displaystyle\int_1^22^x\,dx=\Big[\frac{2^x}{\ln2}\Big]_1^2=\frac{2}{\ln2}\approx2{,}885$.
+
+Vậy hai tích phân lần lượt bằng $2$ và khoảng $2{,}89$.
 
 **Đáp số.** $2$ và $\dfrac{2}{\ln2}\approx2{,}89$.
 :::
@@ -363,7 +389,7 @@ Tính $\displaystyle\int_{-1}^2\lvert x^2-x\rvert\,dx$.
 2. Dùng nguyên hàm $G(x)=\dfrac{x^3}{3}-\dfrac{x^2}{2}$ cho từng đoạn, đổi dấu ở đoạn giữa.
 
 ::solution
-$G(-1)=-\dfrac56$, $G(0)=0$, $G(1)=-\dfrac16$, $G(2)=\dfrac23$. Ba phần: $G(0)-G(-1)=\dfrac56$; $-(G(1)-G(0))=\dfrac16$; $G(2)-G(1)=\dfrac56$. Tổng $\dfrac56+\dfrac16+\dfrac56=\dfrac{11}{6}$.
+Ta có $x^2-x\ge0$ trên $[-1; 0]$ và $[1; 2]$, $x^2-x\le0$ trên $[0; 1]$. Một nguyên hàm của $x^2-x$ là $G(x)=\dfrac{x^3}{3}-\dfrac{x^2}{2}$, với $G(-1)=-\dfrac56$, $G(0)=0$, $G(1)=-\dfrac16$, $G(2)=\dfrac23$. Ba phần: $G(0)-G(-1)=\dfrac56$; $-(G(1)-G(0))=\dfrac16$; $G(2)-G(1)=\dfrac56$. Vậy tích phân bằng $\dfrac56+\dfrac16+\dfrac56=\dfrac{11}{6}$.
 
 **Đáp số.** $\dfrac{11}{6}$.
 :::
@@ -378,16 +404,16 @@ B. $-4$.
 C. $4$.
 D. $2$.
 ::key C
-$\Big[x^2+x\Big]_1^2=6-2=4$. A quên trừ giá trị tại cận dưới, B trừ ngược, D tính $f(2)-f(1)$ thay vì dùng nguyên hàm.
+Ta có $\displaystyle\int_1^2(2x+1)\,dx=\Big[x^2+x\Big]_1^2=6-2=4$. Phương án A quên trừ giá trị tại cận dưới, B trừ ngược, D tính $f(2)-f(1)$ thay vì dùng nguyên hàm.
 
 ::mc
-Biết $\displaystyle\int_0^5 f(x)\,dx=7$ và $\displaystyle\int_0^2 f(x)\,dx=3$. Giá trị $\displaystyle\int_2^5 f(x)\,dx$ bằng
+Nếu $\displaystyle\int_0^5 f(x)\,dx=7$ và $\displaystyle\int_0^2 f(x)\,dx=3$ thì $\displaystyle\int_2^5 f(x)\,dx$ bằng
 A. $10$.
 B. $4$.
 C. $-4$.
 D. $-10$.
 ::key B
-$\displaystyle\int_0^5=\int_0^2+\int_2^5$ nên $\displaystyle\int_2^5 f(x)\,dx=7-3=4$. A cộng thay vì trừ, C và D sai dấu.
+Vì $\displaystyle\int_0^5=\int_0^2+\int_2^5$ nên $\displaystyle\int_2^5 f(x)\,dx=7-3=4$. Phương án A cộng thay vì trừ, C và D sai dấu.
 
 ::mc
 Tích phân $\displaystyle\int_0^{\pi}\sin x\,dx$ bằng
@@ -396,7 +422,7 @@ B. $1$.
 C. $2$.
 D. $0$.
 ::key C
-$\Big[-\cos x\Big]_0^{\pi}=-(-1)-(-1)=2$. A dùng nhầm nguyên hàm $\cos x$, B coi giá trị tại cận dưới bằng $0$, D là kết quả của $\cos x$ trên $[0; \pi]$.
+Ta có $\displaystyle\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=-(-1)-(-1)=2$. Phương án A dùng nhầm nguyên hàm $\cos x$, B coi giá trị tại cận dưới bằng $0$, D là kết quả của $\cos x$ trên $[0; \pi]$.
 
 ::mc
 Tích phân $\displaystyle\int_0^1 e^{2x}\,dx$ bằng
@@ -405,24 +431,24 @@ B. $\dfrac{e^2-1}{2}$.
 C. $2(e^2-1)$.
 D. $\dfrac{e^2}{2}$.
 ::key B
-Nguyên hàm là $\dfrac{e^{2x}}{2}$, nên tích phân bằng $\dfrac{e^2-e^0}{2}=\dfrac{e^2-1}{2}$. A quên thừa số $\dfrac12$, C nhân thay vì chia, D coi $e^0=0$.
+Một nguyên hàm của $e^{2x}$ là $\dfrac{e^{2x}}{2}$ nên tích phân bằng $\dfrac{e^2-e^0}{2}=\dfrac{e^2-1}{2}$. Phương án A quên thừa số $\dfrac12$, C nhân thay vì chia, D coi $e^0=0$.
 
 ::tf
-Cho hàm số $f(x)=x^2-4x+3$.
+Cho hàm số $f(x)=x^2-4x+3$. Xét tính đúng sai của các mệnh đề sau:
 a) $\displaystyle\int_0^3 f(x)\,dx=0$.
 b) $f(x)\le0$ với mọi $x\in[1; 3]$.
 c) $\displaystyle\int_0^3\lvert f(x)\rvert\,dx=0$.
 d) $\displaystyle\int_0^3\lvert f(x)\rvert\,dx=\dfrac83$.
 ::key Đ Đ S Đ
-a) Đúng: $\Big[\dfrac{x^3}{3}-2x^2+3x\Big]_0^3=9-18+9=0$. b) Đúng: $f$ có hai nghiệm $1$, $3$ và hệ số $a>0$. c) Sai: tích phân của hàm không âm, không đồng nhất bằng $0$, thì dương. d) Đúng: $\displaystyle\int_0^1 f=\frac43$ và $\displaystyle\int_1^3(-f)=\frac43$, tổng $\dfrac83$.
+a) Đúng: ta có $\Big[\dfrac{x^3}{3}-2x^2+3x\Big]_0^3=9-18+9=0$. b) Đúng: vì $f$ có hai nghiệm $1$, $3$ và hệ số $a>0$ nên $f(x)\le0$ giữa hai nghiệm. c) Sai: tích phân của hàm không âm, không đồng nhất bằng $0$, thì dương. d) Đúng: ta có $\displaystyle\int_0^1 f=\frac43$ và $\displaystyle\int_1^3(-f)=\frac43$, do đó tổng bằng $\dfrac83$.
 
 ::sa
-Tính $\displaystyle\int_0^2(x^3+3x^2)\,dx$.
+Một máy bơm khởi động dần; sau $t$ giờ, lưu lượng nước nó bơm được là $q(t)=t^3+3t^2$ (m³/giờ), $0\le t\le2$. Tính lượng nước (m³) máy bơm được trong $2$ giờ đầu.
 ::key 12
-$\Big[\dfrac{x^4}{4}+x^3\Big]_0^2=4+8=12$.
+Lượng nước bằng $\displaystyle\int_0^2(t^3+3t^2)\,dt=\Big[\dfrac{t^4}{4}+t^3\Big]_0^2=4+8=12$. Vậy máy bơm được $12$ m³ nước.
 
 ::sa
 Tính $\displaystyle\int_1^e\left(2x+\frac1x\right)dx$ (làm tròn kết quả đến hàng phần mười).
 ::key 7,4
-$\Big[x^2+\ln x\Big]_1^e=(e^2+1)-(1+0)=e^2\approx7{,}389$, làm tròn được $7{,}4$.
+Ta có $\displaystyle\int_1^e\left(2x+\frac1x\right)dx=\Big[x^2+\ln x\Big]_1^e=(e^2+1)-(1+0)=e^2\approx7{,}389$. Vậy kết quả làm tròn là $7{,}4$.
 :::

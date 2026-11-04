@@ -15,6 +15,8 @@ A small workshop bottles mineral water. Each month it pays $2000$ thousand đồ
 $$A(x)=\frac{5x+2000}{x}\ \ (\text{thousand đồng}).$$
 The more bottles it makes, the lower the average cost. Can it ever drop below $5$ thousand đồng?
 
+This is the question every producer asks: if we make a very large number, where does the unit cost settle? The answer is a line that the graph gets closer and closer to as $x$ becomes very large, called an **asymptote**. The word comes from the Greek *asymptotos*, "not falling together": the curve and the line come ever closer but never meet.
+
 ## Horizontal asymptotes
 
 ### Explore: when $x$ is very large
@@ -34,6 +36,10 @@ $$\lim_{x\to+\infty} f(x)=y_0\quad\text{or}\quad \lim_{x\to-\infty} f(x)=y_0.$$
 
 So to find horizontal asymptotes, we compute the two limits of $f$ at $+\infty$ and at $-\infty$ (see limits of functions in grade 11).
 
+**A closer look.** An asymptote describes how the graph behaves "far away", not at one particular point. So a graph may cross its horizontal asymptote: $y=\dfrac{x}{x^2+1}$ has the horizontal asymptote $y=0$ but passes through the origin. "Getting closer without touching" is only the usual picture, not the definition.
+
+**Connections.** This lesson uses limits of functions (grade 11), and it is a required step when we sketch rational functions in the next lesson. In real life, a horizontal asymptote is often the "long-run value" of a quantity: a unit cost, a concentration, the size of a population.
+
 ## Vertical asymptotes
 
 For $y=\dfrac{1}{x-2}$, when $x$ is close to $2$ the denominator is very small, so $y$ is very large in absolute value: $y(2.01)=100$, $y(1.99)=-100$. The graph "shoots" up or down along the line $x=2$.
@@ -48,11 +54,11 @@ For a rational function, we find the values that make the denominator zero, then
 :::example Linear over linear
 Find the asymptotes of the graph of $y=\dfrac{2x-1}{x+1}$.
 
-**Solution.** We compute the limits at infinity by dividing the numerator and the denominator by $x$:
+**Solution.** The domain is $\mathbb{R}\setminus\{-1\}$. Dividing the numerator and the denominator by $x$, we have
 
 $$\lim_{x\to\pm\infty}\frac{2x-1}{x+1}=\lim_{x\to\pm\infty}\frac{2-\frac1x}{1+\frac1x}=2.$$
 
-The denominator is zero at $x=-1$, and the numerator there is $-3\neq 0$. As $x\to-1^+$, the denominator is positive and very small:
+The denominator is zero at $x=-1$, and the numerator there is $-3\neq 0$. Since the denominator is positive and tends to $0$ as $x\to-1^+$,
 
 $$\lim_{x\to-1^+}\frac{2x-1}{x+1}=-\infty,\qquad \lim_{x\to-1^-}\frac{2x-1}{x+1}=+\infty.$$
 
@@ -75,15 +81,15 @@ In general, the graph of $y=\dfrac{ax+b}{cx+d}$ (with $c\neq0$, $ad-bc\neq0$) ha
 :::example A zero denominator but no asymptote
 Find the asymptotes of the graph of $y=\dfrac{x+1}{x^2-1}$.
 
-**Solution.** The denominator is zero at $x=1$ and $x=-1$. For $x\neq\pm1$, we can simplify:
+**Solution.** The denominator is zero at $x=1$ and $x=-1$. For $x\neq\pm1$, we have
 
 $$y=\frac{x+1}{(x-1)(x+1)}=\frac{1}{x-1}.$$
 
-At these two values, the limits give different results:
+Hence
 
 $$\lim_{x\to1^+}\frac{1}{x-1}=+\infty,\qquad \lim_{x\to-1}\frac{1}{x-1}=-\frac12\ (\text{finite}).$$
 
-At infinity: $\lim\limits_{x\to\pm\infty}\dfrac{1}{x-1}=0$.
+We have $\lim\limits_{x\to\pm\infty}\dfrac{1}{x-1}=0$.
 
 So the graph has exactly two asymptotes: the vertical asymptote $x=1$ and the horizontal asymptote $y=0$; the line $x=-1$ is **not** an asymptote.
 :::
@@ -103,13 +109,13 @@ For $y=\dfrac{ax^2+bx+c}{mx+n}$, the quickest way is polynomial division, writin
 :::example Division to find an oblique asymptote
 Find the asymptotes of the graph of $y=\dfrac{x^2-x+2}{x-1}$.
 
-**Solution.** Dividing $x^2-x+2$ by $x-1$ gives quotient $x$ and remainder $2$:
+**Solution.** Dividing $x^2-x+2$ by $x-1$, we get quotient $x$ and remainder $2$. Hence
 
 $$y=x+\frac{2}{x-1},\qquad y-x=\frac{2}{x-1}\to0\ \text{as}\ x\to\pm\infty.$$
 
-At $x=1$, the numerator is $2\neq0$ and the denominator is $0$, so $\lim\limits_{x\to1^+}y=+\infty$.
+At $x=1$, the numerator is $2\neq0$ and the denominator is $0$, so $\lim\limits_{x\to1^+}y=+\infty$. Since $y\to\pm\infty$ as $x\to\pm\infty$, the graph has no horizontal asymptote.
 
-So the graph has the oblique asymptote $y=x$ and the vertical asymptote $x=1$ (there is no horizontal asymptote since $y\to\pm\infty$ as $x\to\pm\infty$).
+So the graph has the oblique asymptote $y=x$ and the vertical asymptote $x=1$.
 :::
 
 :::graph The graph of $y=\dfrac{x^2-x+2}{x-1}$ with the oblique asymptote $y=x$
@@ -126,7 +132,7 @@ When division is awkward, we use the limit formulas from the definition. We try 
 :::example Using the limit formulas
 Find the oblique asymptote of the graph of $y=\dfrac{2x^2+3x-1}{x+2}$.
 
-**Solution.** We compute $a$ and then $b$ as $x\to+\infty$ (as $x\to-\infty$ the result is exactly the same):
+**Solution.** Consider $x\to+\infty$ (as $x\to-\infty$ the result is exactly the same). We have
 
 $$a=\lim_{x\to+\infty}\frac{2x^2+3x-1}{x(x+2)}=2,\qquad b=\lim_{x\to+\infty}\left(\frac{2x^2+3x-1}{x+2}-2x\right)=\lim_{x\to+\infty}\frac{-x-1}{x+2}=-1.$$
 
@@ -140,11 +146,11 @@ A graph can have **two** different horizontal asymptotes on its two sides, as in
 :::example Two horizontal asymptotes
 Find the horizontal asymptotes of the graph of $y=\dfrac{3x}{\sqrt{x^2+4}}$.
 
-**Solution.** Take $x^2$ out of the square root: $\sqrt{x^2+4}=|x|\sqrt{1+\frac{4}{x^2}}$. The sign of $|x|$ differs on the two sides:
+**Solution.** We have $\sqrt{x^2+4}=|x|\sqrt{1+\frac{4}{x^2}}$, where $|x|=x$ for $x>0$ and $|x|=-x$ for $x<0$. Hence
 
 $$\lim_{x\to+\infty}\frac{3x}{x\sqrt{1+\frac4{x^2}}}=3,\qquad \lim_{x\to-\infty}\frac{3x}{-x\sqrt{1+\frac4{x^2}}}=-3.$$
 
-The function is defined and continuous on $\mathbb{R}$, so there is no vertical asymptote.
+Since the function is defined and continuous on $\mathbb{R}$, the graph has no vertical asymptote.
 
 So the graph has two horizontal asymptotes: $y=3$ (as $x\to+\infty$) and $y=-3$ (as $x\to-\infty$).
 :::
@@ -163,15 +169,17 @@ hline: -3 ; dashed
 We return to the bottling question from the start.
 
 :::example Average cost
-For $A(x)=\dfrac{5x+2000}{x}$ (thousand đồng per bottle), $x>0$, find the horizontal asymptote of the graph and explain what it means. Can the average cost be less than $5$ thousand đồng?
+For $A(x)=\dfrac{5x+2000}{x}$ (thousand đồng per bottle), $x>0$, find the horizontal asymptote of the graph of the function and explain its practical meaning. Can the average cost be less than $5$ thousand đồng?
 
-**Solution.** We split the fraction to see the part that tends to $0$:
+**Solution.** We have
 
 $$A(x)=5+\frac{2000}{x},\qquad \lim_{x\to+\infty}A(x)=5.$$
 
-The line $y=5$ is a horizontal asymptote. Since $\dfrac{2000}{x}>0$ for every $x>0$, we always have $A(x)>5$.
+Hence the line $y=5$ is a horizontal asymptote. Since $\dfrac{2000}{x}>0$ for every $x>0$, $A(x)>5$.
 
 So the more bottles are made, the closer the average cost gets to $5$ thousand đồng (exactly the cost of one bottle on its own), but it is never less than $5$ thousand đồng.
+
+**Look back.** How many bottles must the workshop make for the average cost to be below $5.5$ thousand đồng? From $5+\dfrac{2000}{x}<5.5$ we get $x>4000$. The asymptote tells us the limit that cannot be passed; the inequality tells us how much is needed to get close enough to it.
 :::
 
 :::warning Common mistakes
@@ -217,7 +225,9 @@ Find the asymptotes of the graph of $y=\dfrac{3x+2}{x-4}$.
 2. Find the root of the denominator and check that the numerator is not $0$ there.
 
 ::solution
-$\lim\limits_{x\to\pm\infty}y=3$. The denominator is $0$ at $x=4$, where the numerator is $14\neq0$, so $\lim\limits_{x\to4^+}y=+\infty$.
+We have $\lim\limits_{x\to\pm\infty}y=3$. The denominator is $0$ at $x=4$, where the numerator is $14\neq0$, so $\lim\limits_{x\to4^+}y=+\infty$.
+
+So the graph has one vertical and one horizontal asymptote.
 
 **Answer.** Vertical asymptote $x=4$, horizontal asymptote $y=3$.
 :::
@@ -233,7 +243,9 @@ Find the asymptotes of the graph of $y=\dfrac{1-2x}{x+3}$.
 2. Find the root of the denominator.
 
 ::solution
-$\lim\limits_{x\to\pm\infty}y=\dfrac{-2}{1}=-2$. At $x=-3$ the numerator is $7\neq0$, so $\lim\limits_{x\to-3^+}y=+\infty$.
+We have $\lim\limits_{x\to\pm\infty}y=\dfrac{-2}{1}=-2$. At $x=-3$ the numerator is $7\neq0$, so $\lim\limits_{x\to-3^+}y=+\infty$.
+
+So the graph has one vertical and one horizontal asymptote.
 
 **Answer.** Vertical asymptote $x=-3$, horizontal asymptote $y=-2$.
 :::
@@ -249,7 +261,9 @@ Find the asymptotes of the graph of $y=\dfrac{x^2+2x+3}{x+1}$.
 2. Find the vertical asymptote from the denominator.
 
 ::solution
-$x^2+2x+3=(x+1)(x+1)+2$, so $y=x+1+\dfrac{2}{x+1}$. The part $\dfrac{2}{x+1}\to0$ as $x\to\pm\infty$. At $x=-1$ the numerator is $2\neq0$.
+We have $x^2+2x+3=(x+1)(x+1)+2$, so $y=x+1+\dfrac{2}{x+1}$. Since $\dfrac{2}{x+1}\to0$ as $x\to\pm\infty$, the graph has an oblique asymptote. At $x=-1$ the numerator is $2\neq0$, so the graph has a vertical asymptote.
+
+So the graph has two asymptotes.
 
 **Answer.** Vertical asymptote $x=-1$, oblique asymptote $y=x+1$.
 :::
@@ -265,13 +279,15 @@ How many asymptotes does the graph of $y=\dfrac{x^2-4}{x^2-3x+2}$ have? Which li
 2. Check the limit at each root of the denominator and at infinity.
 
 ::solution
-$y=\dfrac{(x-2)(x+2)}{(x-1)(x-2)}=\dfrac{x+2}{x-1}$ for $x\neq2$. At $x=2$: $\lim\limits_{x\to2}y=4$, which is finite. At $x=1$: $\lim\limits_{x\to1^+}y=+\infty$. At infinity: $\lim\limits_{x\to\pm\infty}y=1$.
+For $x\neq2$, we have $y=\dfrac{(x-2)(x+2)}{(x-1)(x-2)}=\dfrac{x+2}{x-1}$. We have $\lim\limits_{x\to2}y=4$ (finite), so $x=2$ is not an asymptote; $\lim\limits_{x\to1^+}y=+\infty$; $\lim\limits_{x\to\pm\infty}y=1$.
+
+So the graph has two asymptotes.
 
 **Answer.** Two asymptotes: the vertical asymptote $x=1$ and the horizontal asymptote $y=1$.
 :::
 
 :::exercise
-Consider $y=\dfrac{x^2-3x+4}{x-2}$. Is each claim true or false?
+Consider the function $y=\dfrac{x^2-3x+4}{x-2}$. Decide whether each statement is true or false.
 
 a) The line $x=2$ is a vertical asymptote of the graph.
 
@@ -289,15 +305,15 @@ d) The graph has exactly two asymptotes.
 2. Check each claim.
 
 ::solution
-$x^2-3x+4=(x-2)(x-1)+2$, so $y=x-1+\dfrac{2}{x-2}$.
+We have $x^2-3x+4=(x-2)(x-1)+2$, so $y=x-1+\dfrac{2}{x-2}$.
 
-a) **True**: the numerator is $2\neq0$ at $x=2$, so $\lim\limits_{x\to2^+}y=+\infty$.
+a) **True**. Since the numerator is $2\neq0$ at $x=2$, $\lim\limits_{x\to2^+}y=+\infty$.
 
-b) **True**: $y\to+\infty$ as $x\to+\infty$ and $y\to-\infty$ as $x\to-\infty$.
+b) **True**. We have $y\to+\infty$ as $x\to+\infty$ and $y\to-\infty$ as $x\to-\infty$.
 
-c) **False**: the oblique asymptote is $y=x-1$.
+c) **False**. The oblique asymptote is $y=x-1$.
 
-d) **True**: the vertical asymptote $x=2$ and the oblique asymptote $y=x-1$.
+d) **True**. The graph has the vertical asymptote $x=2$ and the oblique asymptote $y=x-1$.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -313,13 +329,15 @@ Find the total number of vertical and horizontal asymptotes of the graph of $y=\
 2. Compute the limits at $\pm\infty$.
 
 ::solution
-The denominator is $0$ at $x=\pm2$; the numerator there is $5$ and $-3$, both non-zero, so there are two vertical asymptotes $x=2$, $x=-2$. $\lim\limits_{x\to\pm\infty}y=0$, so there is the horizontal asymptote $y=0$.
+The denominator is $0$ at $x=\pm2$; the numerator there is $5$ and $-3$, both non-zero, so the graph has two vertical asymptotes $x=2$, $x=-2$. Since $\lim\limits_{x\to\pm\infty}y=0$, the graph has the horizontal asymptote $y=0$.
+
+So the total number of vertical and horizontal asymptotes is $3$.
 
 **Answer.** $3$.
 :::
 
 :::exercise
-A tank holds $200$ litres of clean water. Salt water with a concentration of $30$ grams per litre is pumped in at $10$ litres per minute. After $t$ minutes, the salt concentration in the tank is $C(t)=\dfrac{30t}{20+t}$ (grams per litre). Find the horizontal asymptote of the graph of $C(t)$ and explain what it means.
+A tank holds $200$ litres of clean water. Salt water with a concentration of $30$ grams per litre is pumped in at $10$ litres per minute. After $t$ minutes, the salt concentration in the tank is $C(t)=\dfrac{30t}{20+t}$ (grams per litre). Find the horizontal asymptote of the graph of $C(t)$ and explain its practical meaning.
 
 ::hint
 **What you need:** the amount of salt is $30\cdot10t=300t$ grams and the volume is $200+10t$ litres; the horizontal asymptote is the limit as $t\to+\infty$.
@@ -329,7 +347,9 @@ A tank holds $200$ litres of clean water. Salt water with a concentration of $30
 2. Compute $\lim\limits_{t\to+\infty}C(t)$.
 
 ::solution
-$\dfrac{300t}{200+10t}=\dfrac{30t}{20+t}$ (divide the numerator and the denominator by $10$). $\lim\limits_{t\to+\infty}\dfrac{30t}{20+t}=30$. For example $C(10)=10$, $C(60)=22.5$, $C(180)=27$.
+We have $\dfrac{300t}{200+10t}=\dfrac{30t}{20+t}$ (dividing the numerator and the denominator by $10$) and $\lim\limits_{t\to+\infty}\dfrac{30t}{20+t}=30$. For example, $C(10)=10$, $C(60)=22.5$, $C(180)=27$.
+
+So the graph has the horizontal asymptote $C=30$.
 
 **Answer.** Horizontal asymptote $C=30$: over time the salt concentration in the tank gets close to $30$ grams per litre (the concentration of the incoming water) but never exceeds it.
 :::
@@ -345,13 +365,15 @@ Compute $\lim\limits_{x\to+\infty}\left(\sqrt{x^2+2x}-x\right)$, and deduce a ho
 2. Divide the numerator and the denominator by $x$ (with $x>0$).
 
 ::solution
-$\sqrt{x^2+2x}-x=\dfrac{x^2+2x-x^2}{\sqrt{x^2+2x}+x}=\dfrac{2x}{\sqrt{x^2+2x}+x}=\dfrac{2}{\sqrt{1+\frac2x}+1}\to\dfrac{2}{2}=1$.
+For $x>0$, we have $\sqrt{x^2+2x}-x=\dfrac{x^2+2x-x^2}{\sqrt{x^2+2x}+x}=\dfrac{2x}{\sqrt{x^2+2x}+x}=\dfrac{2}{\sqrt{1+\frac2x}+1}\to\dfrac{2}{2}=1$ as $x\to+\infty$.
+
+So the limit is $1$, and the line $y=1$ is a horizontal asymptote of the graph.
 
 **Answer.** The limit is $1$; the line $y=1$ is a horizontal asymptote (as $x\to+\infty$).
 :::
 
 :::exercise Review
-Prove that the graph of $y=\dfrac{2x^2-1}{x^2-2x+3}$ has no vertical asymptote, then find its horizontal asymptote.
+Prove that the graph of $y=\dfrac{2x^2-1}{x^2-2x+3}$ has no vertical asymptote. Find the horizontal asymptote of this graph.
 
 ::hint
 **What you need:** a quadratic expression with $\Delta<0$ has no roots (see [the sign of a quadratic expression](lesson:sign-of-quadratic)).
@@ -361,7 +383,9 @@ Prove that the graph of $y=\dfrac{2x^2-1}{x^2-2x+3}$ has no vertical asymptote, 
 2. Divide the numerator and the denominator by $x^2$ to find the limit at infinity.
 
 ::solution
-The denominator $x^2-2x+3$ has $\Delta=4-12=-8<0$, so it is always positive: the function is defined and continuous on $\mathbb{R}$ and has no vertical asymptote. $\lim\limits_{x\to\pm\infty}y=\dfrac{2}{1}=2$.
+Since the denominator $x^2-2x+3$ has $\Delta=4-12=-8<0$, it is always positive. Hence the function is defined and continuous on $\mathbb{R}$, and so the graph has no vertical asymptote. We have $\lim\limits_{x\to\pm\infty}y=\dfrac{2}{1}=2$.
+
+So the graph has the horizontal asymptote $y=2$.
 
 **Answer.** No vertical asymptote; horizontal asymptote $y=2$.
 :::
@@ -378,7 +402,9 @@ Find the oblique asymptotes of the graph of $y=\sqrt{x^2+4x}$.
 3. Repeat as $x\to-\infty$.
 
 ::solution
-The domain is $(-\infty, -4]\cup[0, +\infty)$. As $x\to+\infty$: $a=\lim\sqrt{1+\frac4x}=1$, $b=\lim\left(\sqrt{x^2+4x}-x\right)=\lim\dfrac{4x}{\sqrt{x^2+4x}+x}=2$. As $x\to-\infty$: $\sqrt{x^2+4x}=-x\sqrt{1+\frac4x}$, so $a=-1$ and $b=\lim\left(\sqrt{x^2+4x}+x\right)=\lim\dfrac{4x}{\sqrt{x^2+4x}-x}=\lim\dfrac{4}{-\sqrt{1+\frac4x}-1}=-2$.
+The domain is $(-\infty, -4]\cup[0, +\infty)$. As $x\to+\infty$, we have $a=\lim\sqrt{1+\frac4x}=1$, $b=\lim\left(\sqrt{x^2+4x}-x\right)=\lim\dfrac{4x}{\sqrt{x^2+4x}+x}=2$. As $x\to-\infty$, we have $\sqrt{x^2+4x}=-x\sqrt{1+\frac4x}$, so $a=-1$ and $b=\lim\left(\sqrt{x^2+4x}+x\right)=\lim\dfrac{4x}{\sqrt{x^2+4x}-x}=\lim\dfrac{4}{-\sqrt{1+\frac4x}-1}=-2$.
+
+So the graph has two oblique asymptotes.
 
 **Answer.** Two oblique asymptotes: $y=x+2$ (as $x\to+\infty$) and $y=-x-2$ (as $x\to-\infty$).
 :::
@@ -393,7 +419,7 @@ B. $x=2$.
 C. $y=3$.
 D. $x=\dfrac13$.
 ::key B
-The denominator is $0$ at $x=2$ and the numerator there is $5\neq0$, so $\lim\limits_{x\to2^+}y=+\infty$. Option C is the horizontal asymptote and option D is the root of the numerator.
+The denominator is $0$ at $x=2$ and the numerator there is $5\neq0$, so $\lim\limits_{x\to2^+}y=+\infty$. Hence the vertical asymptote is $x=2$. Option C is the horizontal asymptote and option D is the root of the numerator.
 
 ::mc
 The horizontal asymptote of the graph of $y=\dfrac{1+6x}{3-2x}$ is the line
@@ -402,7 +428,7 @@ B. $y=3$.
 C. $y=\dfrac13$.
 D. $y=-3$.
 ::key D
-$\lim\limits_{x\to\pm\infty}\dfrac{6x+1}{-2x+3}=\dfrac{6}{-2}=-3$. Option B forgets the sign of the coefficient $-2$, and option C divides the two constant terms.
+We have $\lim\limits_{x\to\pm\infty}\dfrac{6x+1}{-2x+3}=\dfrac{6}{-2}=-3$. Option B forgets the sign of the coefficient $-2$, and option C divides the two constant terms.
 
 ::mc
 The oblique asymptote of the graph of $y=\dfrac{x^2+3x-2}{x+1}$ is the line
@@ -411,33 +437,33 @@ B. $y=x+3$.
 C. $y=x-2$.
 D. $y=x$.
 ::key A
-Polynomial division gives $x^2+3x-2=(x+1)(x+2)-4$, so $y=x+2-\dfrac{4}{x+1}$ and $y-(x+2)\to0$ as $x\to\pm\infty$.
+We have $x^2+3x-2=(x+1)(x+2)-4$, so $y=x+2-\dfrac{4}{x+1}$ and $y-(x+2)\to0$ as $x\to\pm\infty$.
 
 ::mc
-A function $y=f(x)$ has $\lim\limits_{x\to+\infty}f(x)=2$ and $\lim\limits_{x\to-\infty}f(x)=-2$. Which statement is correct?
+The function $y=f(x)$ satisfies $\lim\limits_{x\to+\infty}f(x)=2$ and $\lim\limits_{x\to-\infty}f(x)=-2$. Which of the following statements is correct?
 A. The graph has exactly one horizontal asymptote.
 B. The graph has two vertical asymptotes, $x=2$ and $x=-2$.
 C. The graph has two horizontal asymptotes, $y=2$ and $y=-2$.
 D. The graph has no horizontal asymptote.
 ::key C
-Each finite limit at $+\infty$ or at $-\infty$ gives a horizontal asymptote; the two limits are different, so there are two lines. A vertical asymptote has the form $x=x_0$ and needs an infinite limit, so B is wrong.
+Each finite limit at $+\infty$ or at $-\infty$ gives a horizontal asymptote. Since the two limits are different, the graph has two horizontal asymptotes. A vertical asymptote has the form $x=x_0$ and needs an infinite limit, so B is wrong.
 
 ::tf
-Let $y=\dfrac{2x^2-3x+1}{x-2}$.
+Consider the function $y=\dfrac{2x^2-3x+1}{x-2}$. Decide whether each statement is true or false.
 a) The line $x=2$ is a vertical asymptote of the graph.
 b) The line $y=2$ is a horizontal asymptote of the graph.
 c) The line $y=2x+1$ is an oblique asymptote of the graph.
 d) The oblique asymptote and the two coordinate axes form a triangle of area $\dfrac14$.
 ::key T F T T
-a) True: the numerator is $3\neq0$ at $x=2$. b) False: $y\to\pm\infty$ as $x\to\pm\infty$, so there is no horizontal asymptote. c) True: $2x^2-3x+1=(x-2)(2x+1)+3$. d) True: $y=2x+1$ meets the axes at $\left(-\dfrac12, 0\right)$ and $(0, 1)$, so the area is $\dfrac12\cdot\dfrac12\cdot1=\dfrac14$.
+a) True: the denominator is $0$ and the numerator is $3\neq0$ at $x=2$. b) False: since $y\to\pm\infty$ as $x\to\pm\infty$, the graph has no horizontal asymptote. c) True: we have $2x^2-3x+1=(x-2)(2x+1)+3$. d) True: the line $y=2x+1$ meets the axes at $\left(-\dfrac12, 0\right)$ and $(0, 1)$, hence the area of the triangle is $\dfrac12\cdot\dfrac12\cdot1=\dfrac14$.
 
 ::sa
 How many vertical and horizontal asymptotes does the graph of $y=\dfrac{\sqrt{x+3}-2}{x^2-1}$ have in total?
 ::key 2
-At $x=1$ the numerator is also $0$ and $y=\dfrac{1}{(x+1)(\sqrt{x+3}+2)}\to\dfrac18$ (finite), so $x=1$ is not an asymptote. That leaves the vertical asymptote $x=-1$ and the horizontal asymptote $y=0$ (since $\lim\limits_{x\to+\infty}y=0$): $2$ lines.
+At $x=1$ the numerator is also $0$ and $y=\dfrac{1}{(x+1)(\sqrt{x+3}+2)}\to\dfrac18$ (finite), so $x=1$ is not an asymptote. The graph has the vertical asymptote $x=-1$ and the horizontal asymptote $y=0$ (since $\lim\limits_{x\to+\infty}y=0$). So there are $2$ lines.
 
 ::sa
-The concentration of a substance in a water tank after $t$ minutes is $C(t)=\dfrac{25t}{3t+8}$ (mg/l). The graph of $C(t)$ has the horizontal asymptote $C=c$. Find $c$, giving your answer to 1 decimal place.
+The concentration of a substance in a water tank after $t$ minutes is $C(t)=\dfrac{25t}{3t+8}$ (mg/l). The graph of $C(t)$ has the horizontal asymptote $C=c$. Find $c$ (give your answer to 1 decimal place).
 ::key 8.3
-$\lim\limits_{t\to+\infty}\dfrac{25t}{3t+8}=\dfrac{25}{3}\approx8.33$, which rounds to $8.3$: over time the concentration gets close to $8.3$ mg/l.
+We have $\lim\limits_{t\to+\infty}\dfrac{25t}{3t+8}=\dfrac{25}{3}\approx8.33$. So $c\approx8.3$: over time, the concentration gets close to $8.3$ mg/l.
 :::

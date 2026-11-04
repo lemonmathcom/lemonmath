@@ -15,6 +15,8 @@ A car is travelling at $20$ m/s when the driver brakes. From that moment, its ve
 
 You might think: $20\cdot 4=80$ m. But the car keeps slowing down, so the distance must be less. To answer, we need to run differentiation backwards.
 
+A car's speedometer shows the velocity at each moment, while its odometer shows how far the car has gone. Differentiation goes from distance to velocity; this lesson studies the reverse journey, from velocity back to distance. The same reverse step finds the amount of water in a tank from its rate of flow, or a population from its rate of growth.
+
 ## What is an antiderivative?
 
 ### Explore: which functions have derivative $2x$?
@@ -38,6 +40,10 @@ $$\int f(x)\,dx=F(x)+C.$$
 :::
 
 **Why is it true?** If $G(x)$ is another antiderivative, then $\big(G(x)-F(x)\big)'=f(x)-f(x)=0$ on $K$. A function whose derivative is $0$ on a whole interval neither increases nor decreases, so it is a constant: $G(x)-F(x)=C$.
+
+**A closer look.** The constant $C$ is not a spare detail. If we know a car's velocity at every moment, we know how much *further* it goes, but not *where* it is: that also depends on where it started. The constant $C$ is exactly this missing piece of information, and a condition such as $s(0)=0$ fixes it.
+
+**Connections.** This lesson reads the differentiation formulas (grade 11) backwards. Antiderivatives are the tool for computing definite integrals in the next lesson, and then areas and volumes in the lesson on applications of integrals.
 
 The symbol $\displaystyle\int f(x)\,dx$ is read "the indefinite integral of $f$"; it stands for the whole family of antiderivatives. Every function that is continuous on $K$ has an antiderivative on $K$. The definition also gives $\displaystyle\int f'(x)\,dx=f(x)+C$.
 
@@ -70,11 +76,13 @@ Both rules hold because differentiation follows the same rules. With them, we fi
 :::example The antiderivative of a polynomial
 Find $\displaystyle\int(3x^2-4x+5)\,dx$.
 
-**Solution.** We apply the $x^{\alpha}$ formula to each term and add one common constant:
+**Solution.** Applying the formula for the antiderivative of $x^{\alpha}$ to each term, we have
 
 $$\int(3x^2-4x+5)\,dx=3\cdot\frac{x^3}{3}-4\cdot\frac{x^2}{2}+5x+C=x^3-2x^2+5x+C.$$
 
 **Check.** $(x^3-2x^2+5x)'=3x^2-4x+5$, which is the original function.
+
+So $\displaystyle\int(3x^2-4x+5)\,dx=x^3-2x^2+5x+C$.
 :::
 
 With roots and fractions, we rewrite them as powers before using the table.
@@ -82,14 +90,16 @@ With roots and fractions, we rewrite them as powers before using the table.
 :::example Roots and fractions
 Find $\displaystyle\int\left(2\sqrt x-\frac3x+\frac1{x^2}\right)dx$ on $(0, +\infty)$.
 
-**Solution.** We write $\sqrt x=x^{\frac12}$ and $\dfrac{1}{x^2}=x^{-2}$. The term $\dfrac3x$ has exponent $-1$, so it uses the $\ln\lvert x\rvert$ formula:
+**Solution.** We have $\sqrt x=x^{\frac12}$ and $\dfrac{1}{x^2}=x^{-2}$. Since $\dfrac3x$ has exponent $-1$, we use the $\ln\lvert x\rvert$ formula. Hence
 
 $$\begin{aligned}
 \int\left(2x^{\frac12}-\frac3x+x^{-2}\right)dx&=2\cdot\frac{x^{\frac32}}{\frac32}-3\ln\lvert x\rvert+\frac{x^{-1}}{-1}+C\\
 &=\frac43x\sqrt x-3\ln x-\frac1x+C.
 \end{aligned}$$
 
-On $(0, +\infty)$ we have $\lvert x\rvert=x$, so we may write $\ln x$.
+Since $\lvert x\rvert=x$ on $(0, +\infty)$, we may write $\ln x$.
+
+So the required family of antiderivatives is $\dfrac43x\sqrt x-3\ln x-\dfrac1x+C$.
 :::
 
 Next come exponential and trigonometric functions. Watch every sign.
@@ -97,7 +107,7 @@ Next come exponential and trigonometric functions. Watch every sign.
 :::example Exponential and trigonometric functions
 Find $\displaystyle\int\left(4\cos x-2\sin x+3^x\right)dx$.
 
-**Solution.** We use the $\cos x$, $\sin x$ and $a^x$ rows of the table:
+**Solution.** Applying the formulas for the antiderivatives of $\cos x$, $\sin x$ and $a^x$, we have
 
 $$\int\left(4\cos x-2\sin x+3^x\right)dx=4\sin x-2(-\cos x)+\frac{3^x}{\ln 3}+C=4\sin x+2\cos x+\frac{3^x}{\ln3}+C.$$
 :::
@@ -107,11 +117,11 @@ Many functions are not in the table, but a small rearrangement puts them there.
 :::example Rearranging first
 Find a) $\displaystyle\int\frac{(x+1)^2}{x}\,dx$ on $(0, +\infty)$; b) $\displaystyle\int\tan^2x\,dx$ on $\left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)$.
 
-**Solution.** a) We expand the numerator and divide each term by $x$:
+**Solution.** a) Expanding the numerator and dividing each term by $x$, we have
 
 $$\int\frac{x^2+2x+1}{x}\,dx=\int\left(x+2+\frac1x\right)dx=\frac{x^2}{2}+2x+\ln x+C.$$
 
-b) From $1+\tan^2x=\dfrac{1}{\cos^2x}$ we get $\tan^2x=\dfrac{1}{\cos^2x}-1$:
+b) Since $1+\tan^2x=\dfrac{1}{\cos^2x}$, we have $\tan^2x=\dfrac{1}{\cos^2x}-1$. Hence
 
 $$\int\tan^2x\,dx=\int\left(\frac{1}{\cos^2x}-1\right)dx=\tan x-x+C.$$
 :::
@@ -121,13 +131,13 @@ $$\int\tan^2x\,dx=\int\left(\frac{1}{\cos^2x}-1\right)dx=\tan x-x+C.$$
 A family of antiderivatives has infinitely many members. When we are given one more value, such as $F(0)=5$, we substitute it to find exactly one constant $C$.
 
 :::example An antiderivative through a point
-Find the antiderivative $F(x)$ of $f(x)=e^x+4x$ with $F(0)=5$.
+Find the antiderivative $F(x)$ of the function $f(x)=e^x+4x$ that satisfies $F(0)=5$.
 
-**Solution.** First we find the family of antiderivatives:
+**Solution.** We have
 
 $$F(x)=\int(e^x+4x)\,dx=e^x+2x^2+C.$$
 
-We substitute $x=0$, remembering that $e^0=1$ (not $0$):
+Substituting $x=0$, we get (note that $e^0=1$, not $0$)
 
 $$F(0)=1+0+C=5\iff C=4.$$
 
@@ -155,15 +165,17 @@ If $s(t)$ is the distance an object has travelled after $t$ seconds, its velocit
 :::example Braking distance
 After braking, the car has velocity $v(t)=20-5t$ (m/s). Find the distance it travels from the moment of braking until it stops.
 
-**Solution.** The car stops when $v(t)=0$, that is $20-5t=0$, so $t=4$. Let $s(t)$ be the distance travelled $t$ seconds after braking; then $s(0)=0$ and
+**Solution.** The car stops when $v(t)=0$, that is $20-5t=0\iff t=4$. Let $s(t)$ (m) be the distance travelled $t$ seconds after braking. We have $s(0)=0$ and
 
 $$s(t)=\int(20-5t)\,dt=20t-\frac{5t^2}{2}+C,\qquad s(0)=C=0.$$
 
-The distance until it stops is
+Hence the distance until it stops is
 
 $$s(4)=20\cdot4-\frac{5\cdot16}{2}=80-40=40.$$
 
 So the car travels $40$ m more, only half of the $80$ m guessed at the start.
+
+**Look back.** What if the car were going at only $10$ m/s and braked with the same deceleration, so that $v(t)=10-5t$? It stops after $2$ seconds and travels $s(2)=20-10=10$ m. Halving the speed cuts the braking distance to a quarter: with the same deceleration, the braking distance is proportional to the square of the speed. This is why every extra km/h above the speed limit makes the braking distance noticeably longer.
 :::
 
 :::warning Common mistakes
@@ -210,7 +222,9 @@ Find $\displaystyle\int(4x^3-6x+7)\,dx$.
 2. Add a constant $C$ and check by differentiating.
 
 ::solution
-$\displaystyle\int(4x^3-6x+7)\,dx=4\cdot\frac{x^4}{4}-6\cdot\frac{x^2}{2}+7x+C=x^4-3x^2+7x+C$.
+We have $\displaystyle\int(4x^3-6x+7)\,dx=4\cdot\frac{x^4}{4}-6\cdot\frac{x^2}{2}+7x+C=x^4-3x^2+7x+C$.
+
+So the required family is $x^4-3x^2+7x+C$.
 
 **Answer.** $x^4-3x^2+7x+C$.
 :::
@@ -226,7 +240,9 @@ Find $\displaystyle\int\left(3\sqrt x+\frac1{x^2}\right)dx$ on $(0, +\infty)$.
 2. Apply the formula to each term.
 
 ::solution
-$\displaystyle\int\left(3x^{\frac12}+x^{-2}\right)dx=3\cdot\frac{x^{\frac32}}{\frac32}+\frac{x^{-1}}{-1}+C=2x\sqrt x-\frac1x+C$.
+We have $\displaystyle\int\left(3x^{\frac12}+x^{-2}\right)dx=3\cdot\frac{x^{\frac32}}{\frac32}+\frac{x^{-1}}{-1}+C=2x\sqrt x-\frac1x+C$.
+
+So the required family is $2x\sqrt x-\dfrac1x+C$.
 
 **Answer.** $2x\sqrt x-\dfrac1x+C$.
 :::
@@ -242,7 +258,9 @@ Find $\displaystyle\int\left(5e^x-2\sin x+\frac{1}{\sin^2x}\right)dx$.
 2. Put them together and add $C$.
 
 ::solution
-$\displaystyle\int\left(5e^x-2\sin x+\frac{1}{\sin^2x}\right)dx=5e^x-2(-\cos x)+(-\cot x)+C=5e^x+2\cos x-\cot x+C$.
+We have $\displaystyle\int\left(5e^x-2\sin x+\frac{1}{\sin^2x}\right)dx=5e^x-2(-\cos x)+(-\cot x)+C=5e^x+2\cos x-\cot x+C$.
+
+So the required family is $5e^x+2\cos x-\cot x+C$.
 
 **Answer.** $5e^x+2\cos x-\cot x+C$.
 :::
@@ -258,13 +276,15 @@ Find $\displaystyle\int(2x-1)^2\,dx$.
 2. Find the antiderivative of the polynomial.
 
 ::solution
-$\displaystyle\int(4x^2-4x+1)\,dx=\frac{4x^3}{3}-2x^2+x+C$.
+We have $(2x-1)^2=4x^2-4x+1$. Hence $\displaystyle\int(4x^2-4x+1)\,dx=\frac{4x^3}{3}-2x^2+x+C$.
+
+So the required family is $\dfrac43x^3-2x^2+x+C$.
 
 **Answer.** $\dfrac43x^3-2x^2+x+C$.
 :::
 
 :::exercise
-Consider $f(x)=3x^2+2\cos x$. Is each claim true or false?
+Consider the function $f(x)=3x^2+2\cos x$. Decide whether each statement is true or false.
 
 a) $F(x)=x^3+2\sin x$ is an antiderivative of $f(x)$.
 
@@ -282,19 +302,19 @@ d) For $G(x)$ in c), $G\left(\dfrac{\pi}{2}\right)=\dfrac{\pi^3}{8}+2$.
 2. Find $C$ in c), then substitute $x=\dfrac{\pi}{2}$ for d).
 
 ::solution
-a) **True**: $(x^3+2\sin x)'=3x^2+2\cos x$.
+a) **True**. We have $(x^3+2\sin x)'=3x^2+2\cos x=f(x)$.
 
-b) **False**: $(x^3-2\sin x+5)'=3x^2-2\cos x\neq f(x)$.
+b) **False**. We have $(x^3-2\sin x+5)'=3x^2-2\cos x\neq f(x)$.
 
-c) **True**: $G(x)=x^3+2\sin x+C$ and $G(0)=C=1$.
+c) **True**. We have $G(x)=x^3+2\sin x+C$ and $G(0)=C=1$.
 
-d) **False**: $G\left(\dfrac{\pi}{2}\right)=\dfrac{\pi^3}{8}+2\cdot1+1=\dfrac{\pi^3}{8}+3$.
+d) **False**. We have $G\left(\dfrac{\pi}{2}\right)=\dfrac{\pi^3}{8}+2\cdot1+1=\dfrac{\pi^3}{8}+3$.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
 
 :::exercise
-$F(x)$ is the antiderivative of $f(x)=4x^3-2x$ with $F(1)=3$. Find $F(2)$.
+Let $F(x)$ be the antiderivative of $f(x)=4x^3-2x$ that satisfies $F(1)=3$. Find $F(2)$.
 
 ::hint
 **What you need:** find the family of antiderivatives, then use $F(1)=3$ to find $C$.
@@ -304,7 +324,9 @@ $F(x)$ is the antiderivative of $f(x)=4x^3-2x$ with $F(1)=3$. Find $F(2)$.
 2. Substitute $x=1$ to find $C$, then compute $F(2)$.
 
 ::solution
-$F(1)=1-1+C=3$, so $C=3$. Then $F(2)=16-4+3=15$.
+We have $F(x)=x^4-x^2+C$. Since $F(1)=1-1+C=3$, $C=3$.
+
+So $F(2)=16-4+3=15$.
 
 **Answer.** $15$.
 :::
@@ -320,7 +342,9 @@ A tank already holds $200$ litres of water. A pump is switched on, and $t$ minut
 2. Use $V(0)=200$ to find $C$, then compute $V(10)$.
 
 ::solution
-$V(0)=C=200$, so $V(t)=3t^2+20t+200$ and $V(10)=300+200+200=700$.
+Let $V(t)$ (litres) be the volume of water in the tank after $t$ minutes. We have $V(t)=\displaystyle\int(6t+20)\,dt=3t^2+20t+C$. Since $V(0)=C=200$, $V(t)=3t^2+20t+200$.
+
+So after $10$ minutes the tank holds $V(10)=300+200+200=700$ litres.
 
 **Answer.** $700$ litres.
 :::
@@ -336,7 +360,9 @@ An object moves in a straight line with velocity $v(t)=12t-3t^2$ (m/s), $0\le t\
 2. Find $s(t)$ with $s(0)=0$, then compute $s(4)$.
 
 ::solution
-$v'(t)=12-6t=0\iff t=2$; $v(0)=0$, $v(2)=12$, $v(4)=0$. Since $v(t)\ge0$ on $[0, 4]$, the object never turns back, and $s(t)=6t^2-t^3$ (because $s(0)=0$), so $s(4)=96-64=32$.
+We have $v'(t)=12-6t=0\iff t=2$, and $v(0)=0$, $v(2)=12$, $v(4)=0$. Since $v(t)\ge0$ on $[0, 4]$, the object never turns back. We have $s(t)=6t^2-t^3$ (because $s(0)=0$), so $s(4)=96-64=32$.
+
+So the greatest velocity is $12$ m/s and the distance is $32$ m.
 
 **Answer.** Greatest velocity $12$ m/s (at $t=2$); distance $32$ m.
 :::
@@ -352,7 +378,9 @@ Find the function $f(x)$ with $f''(x)=6x+2$, $f'(0)=1$ and $f(0)=-1$.
 2. Find $f(x)$ and use $f(0)=-1$ to find the second constant.
 
 ::solution
-$f'(x)=3x^2+2x+C_1$ and $f'(0)=C_1=1$. Next, $f(x)=x^3+x^2+x+C_2$ and $f(0)=C_2=-1$. Check: $f''(x)=6x+2$.
+We have $f'(x)=\displaystyle\int(6x+2)\,dx=3x^2+2x+C_1$. Since $f'(0)=C_1=1$, $f'(x)=3x^2+2x+1$. It follows that $f(x)=x^3+x^2+x+C_2$. Since $f(0)=C_2=-1$, $f(x)=x^3+x^2+x-1$ (check: $f''(x)=6x+2$).
+
+So $f(x)=x^3+x^2+x-1$.
 
 **Answer.** $f(x)=x^3+x^2+x-1$.
 :::
@@ -368,7 +396,7 @@ Find $\displaystyle\int\sin^2\frac{x}{2}\,dx$.
 2. Find the antiderivative term by term.
 
 ::solution
-$\displaystyle\int\left(\frac12-\frac12\cos x\right)dx=\frac x2-\frac12\sin x+C$. Check: $\left(\dfrac x2-\dfrac12\sin x\right)'=\dfrac{1-\cos x}{2}=\sin^2\dfrac x2$.
+We have $\sin^2\dfrac x2=\dfrac{1-\cos x}{2}$ (the half-angle formula). Hence $\displaystyle\int\left(\frac12-\frac12\cos x\right)dx=\frac x2-\frac12\sin x+C$. Check: $\left(\dfrac x2-\dfrac12\sin x\right)'=\dfrac{1-\cos x}{2}=\sin^2\dfrac x2$.
 
 **Answer.** $\dfrac x2-\dfrac{\sin x}{2}+C$.
 :::
@@ -377,31 +405,31 @@ $\displaystyle\int\left(\frac12-\frac12\cos x\right)dx=\frac x2-\frac12\sin x+C$
 
 :::quiz
 ::mc
-The indefinite integral of $f(x)=3x^2-\sin x$ is
+The family of antiderivatives of the function $f(x)=3x^2-\sin x$ is
 A. $x^3+\cos x+C$.
 B. $x^3-\cos x+C$.
 C. $6x-\cos x+C$.
 D. $3x^3+\cos x+C$.
 ::key A
-$\displaystyle\int 3x^2dx=x^3$ and $\displaystyle\int(-\sin x)\,dx=\cos x$. B has the wrong sign, C differentiates $3x^2$ instead of integrating it, and D forgets to divide by $3$.
+We have $\displaystyle\int 3x^2dx=x^3$ and $\displaystyle\int(-\sin x)\,dx=\cos x$ (plus a constant). Option B has the wrong sign, C differentiates $3x^2$ instead of integrating it, and D forgets to divide by $3$.
 
 ::mc
-The indefinite integral of $f(x)=2^x$ is
+The family of antiderivatives of the function $f(x)=2^x$ is
 A. $2^x\ln 2+C$.
 B. $\dfrac{2^x}{\ln 2}+C$.
 C. $\dfrac{2^{x+1}}{x+1}+C$.
 D. $x\cdot 2^{x-1}+C$.
 ::key B
-$\left(\dfrac{2^x}{\ln2}\right)'=\dfrac{2^x\ln2}{\ln2}=2^x$. A is the derivative of $2^x$; C and D wrongly use the $x^\alpha$ formula for an exponential.
+Since $\left(\dfrac{2^x}{\ln2}\right)'=\dfrac{2^x\ln2}{\ln2}=2^x$, the answer is B. Option A is the derivative of $2^x$; C and D wrongly use the $x^\alpha$ formula for an exponential.
 
 ::mc
-$F(x)$ is the antiderivative of $f(x)=2x+1$ with $F(1)=5$. The value of $F(2)$ is
+Let $F(x)$ be the antiderivative of the function $f(x)=2x+1$ that satisfies $F(1)=5$. The value of $F(2)$ is
 A. $6$.
 B. $11$.
 C. $9$.
 D. $5$.
 ::key C
-$F(x)=x^2+x+C$ and $F(1)=2+C=5$, so $C=3$ and $F(2)=4+2+3=9$. A forgets to find $C$, B takes $C=5$, and D is $f(2)$.
+We have $F(x)=x^2+x+C$. Since $F(1)=2+C=5$, $C=3$, so $F(2)=4+2+3=9$. Option A forgets to find $C$, B takes $C=5$, and D is $f(2)$.
 
 ::mc
 A car brakes with velocity $v(t)=15-3t$ (m/s) until it stops. The distance it travels from braking until it stops is
@@ -410,24 +438,24 @@ B. $37.5$ m.
 C. $112.5$ m.
 D. $0$ m.
 ::key B
-The car stops at $t=5$; $s(t)=15t-\dfrac{3t^2}{2}$, so $s(5)=75-37.5=37.5$. A treats the velocity as constant, C has the wrong sign on the second term, and D forgets to divide $t^2$ by $2$.
+The car stops when $v(t)=0\iff t=5$. We have $s(t)=15t-\dfrac{3t^2}{2}$, so $s(5)=75-37.5=37.5$. Option A treats the velocity as constant, C has the wrong sign on the second term, and D forgets to divide $t^2$ by $2$.
 
 ::tf
-Consider $f(x)=e^x-2x$.
+Consider the function $f(x)=e^x-2x$. Decide whether each statement is true or false.
 a) $F(x)=e^x-x^2$ is an antiderivative of $f(x)$.
 b) $\displaystyle\int f(x)\,dx=e^x-2+C$.
 c) The antiderivative $F(x)$ of $f(x)$ with $F(0)=3$ is $F(x)=e^x-x^2+2$.
 d) For $F(x)$ in c), $F(1)=e+1$.
 ::key T F T T
-a) True: $(e^x-x^2)'=e^x-2x$. b) False: $e^x-2$ is the derivative of $f$, not an antiderivative. c) True: $F(0)=1+C=3$, so $C=2$. d) True: $e-1+2=e+1$.
+a) True: we have $(e^x-x^2)'=e^x-2x$. b) False: $e^x-2$ is the derivative of $f$, not an antiderivative. c) True: since $F(0)=1+C=3$, $C=2$. d) True: substituting $x=1$, we get $F(1)=e-1+2=e+1$.
 
 ::sa
-$F(x)$ is the antiderivative of $f(x)=6x^2-4x+3$ with $F(0)=-2$. Find $F(2)$.
+Let $F(x)$ be the antiderivative of the function $f(x)=6x^2-4x+3$ that satisfies $F(0)=-2$. Find $F(2)$.
 ::key 12
-$F(x)=2x^3-2x^2+3x+C$ and $F(0)=C=-2$, so $F(2)=16-8+6-2=12$.
+We have $F(x)=2x^3-2x^2+3x+C$ and $F(0)=C=-2$. So $F(2)=16-8+6-2=12$.
 
 ::sa
-$F(x)$ is the antiderivative of $f(x)=e^x+\dfrac1x$ on $(0, +\infty)$ with $F(1)=e$. Find $F(2)$. Give your answer to 1 decimal place.
+Let $F(x)$ be the antiderivative of the function $f(x)=e^x+\dfrac1x$ on $(0, +\infty)$ that satisfies $F(1)=e$. Find $F(2)$ (give your answer to 1 decimal place).
 ::key 8.1
-$F(x)=e^x+\ln x+C$ and $F(1)=e+C=e$, so $C=0$. Then $F(2)=e^2+\ln2\approx7.389+0.693\approx8.1$.
+We have $F(x)=e^x+\ln x+C$. Since $F(1)=e+C=e$, $C=0$. So $F(2)=e^2+\ln2\approx7.389+0.693\approx8.1$.
 :::
