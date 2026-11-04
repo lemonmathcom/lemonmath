@@ -214,7 +214,9 @@ function render(md, opts) {
   text = hideMath(text, store);
 
   const restoreCode = (s) => s.replace(/⟪C(\d+)⟫/g, (m, i) => codes[+i]);
-  const parse = (s) => marked.parse(restoreCode(s), { gfm: true, breaks: false, async: false });
+  // a line starting "a) ", "b) " … (parts of an exercise) always starts a new paragraph, even without a blank line
+  const parts = (s) => s.replace(/([^\n])\n(?=[a-h]\) )/g, '$1\n\n');
+  const parse = (s) => marked.parse(parts(restoreCode(s)), { gfm: true, breaks: false, async: false });
 
   const lang = opts.lang === 'vi' ? 'vi' : 'en';
   let html = blocks(text, parse, restoreCode, warn, lang, opts.uid || { n: 1 });
