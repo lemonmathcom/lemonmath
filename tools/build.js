@@ -354,7 +354,7 @@ function gradePage(lang, g) {
     '<header class="gradehead"><div><p class="eyebrow">' + esc(T.levels[g.level][0]) + '</p><h1>' + esc(T.grade(g.n)) + '</h1>' +
     '<p class="lead">' + esc(full ? T.gradeFullLead(total, g.chapters.length, lc(g.chapters[0][lang]), lc(g.chapters.filter((c) => c.lessons.length).slice(-1)[0][lang])) : T.gradeRoadmapLead(g.chapters.length)) + '</p></div>' + mascot({ cls: 'grade-mascot', mood: full ? 'happy' : 'wow' }) + '</header>\n' +
     (full ? '' : '<p class="soon-note">' + esc(T.soonNote) + ' <a href="' + relDir(d, gradeDir(lang, grades.find((x) => x.status === 'full'))) + '">' + esc(T.tryG10) + '</a></p>\n') +
-    '<div class="cards">' + g.chapters.map((ch) => chapterCard(lang, d, ch, full)).join('\n') + '</div>\n' +
+    '<div class="cards">' + g.chapters.map((ch) => chapterCard(lang, d, ch, full && ch.lessons.length > 0)).join('\n') + '</div>\n' +
     '<nav class="pager" aria-label="' + esc(T.gradeNav) + '">' +
     (prev ? '<a class="pager-prev" href="' + relDir(d, gradeDir(lang, prev)) + '"><small>← ' + esc(T.prev) + '</small><span>' + esc(T.grade(prev.n)) + '</span></a>' : '<span></span>') +
     (next ? '<a class="pager-next" href="' + relDir(d, gradeDir(lang, next)) + '"><small>' + esc(T.next) + ' →</small><span>' + esc(T.grade(next.n)) + '</span></a>' : '<span></span>') + '</nav>';
@@ -455,7 +455,7 @@ function searchIndex(lang) {
     rows.push({ t: T.grade(g.n), s: T.levels[g.level][0], u: gradeDir(lang, g).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
     g.chapters.forEach((ch) => {
       const base = LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0;
-      rows.push({ t: ch[lang], s: T.grade(g.n) + ' · ' + T.chapterN(ch.number), u: (full ? chapterDir(lang, ch) : gradeDir(lang, g)).slice(base) });
+      rows.push({ t: ch[lang], s: T.grade(g.n) + ' · ' + T.chapterN(ch.number), u: (full && ch.lessons.length ? chapterDir(lang, ch) : gradeDir(lang, g)).slice(base) });
       ch.lessons.forEach((ls) => rows.push({ t: ls.content[lang].meta.title, s: T.grade(g.n) + ' · ' + ch[lang], u: lessonDir(lang, ls).slice(base) }));
     });
   });

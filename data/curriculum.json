@@ -6,7 +6,7 @@
   "grades": [
     {
       "n": 1,
-      "status": "roadmap",
+      "status": "full",
       "chapters": [
         {
           "id": "g1-numbers-0-to-10",
@@ -240,7 +240,7 @@
     },
     {
       "n": 2,
-      "status": "roadmap",
+      "status": "full",
       "chapters": [
         {
           "id": "g2-review-and-extension",
@@ -648,7 +648,7 @@
     },
     {
       "n": 3,
-      "status": "roadmap",
+      "status": "full",
       "chapters": [
         {
           "id": "g3-review-and-extension",
@@ -1122,7 +1122,7 @@
     },
     {
       "n": 4,
-      "status": "roadmap",
+      "status": "full",
       "chapters": [
         {
           "id": "g4-review-and-extension",
