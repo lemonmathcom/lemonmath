@@ -1,5 +1,5 @@
 GIAO VIỆC LEMONMATH – tài khoản thichgiaitoan
-Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 3), mã B043–B063.
+Phân công ngày 10/11/2026 (thay toàn bộ phân công trước, kể cả bản B001–B294 gửi tối 10/11). Số bài: 16 bài song ngữ (lớp 3, lớp 4), mã B033–B048.
 Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
 
 QUY TẮC VIẾT (bắt buộc)
@@ -17,91 +17,82 @@ CÁCH NỘP
 - Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
 
 
-===== ĐỢT 1 (7 bài) =====
-
-[Lớp 3 – Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ]
-B043  lớp 3  id: temperature
-      VI: Nhiệt độ. Đơn vị đo nhiệt độ
-      EN: Temperature and units of temperature
-
-[Lớp 3 – Phép nhân, phép chia trong phạm vi 1000]
-B044  lớp 3  id: multiply-3-digit-by-1-digit
-      VI: Nhân số có ba chữ số với số có một chữ số
-      EN: Multiplying a three-digit number by a one-digit number
-B045  lớp 3  id: divide-3-digit-by-1-digit
-      VI: Chia số có ba chữ số cho số có một chữ số
-      EN: Dividing a three-digit number by a one-digit number
-B046  lớp 3  id: numerical-expressions
-      VI: Biểu thức số. Tính giá trị của biểu thức số
-      EN: Numerical expressions and their values
-B047  lớp 3  id: how-many-times-larger
-      VI: So sánh số lớn gấp mấy lần số bé
-      EN: How many times larger is one number than another?
-
-[Lớp 3 – Các số đến 10 000]
-B048  lớp 3  id: four-digit-numbers
-      VI: Các số có bốn chữ số. Số 10 000
-      EN: Four-digit numbers. The number 10,000
-B049  lớp 3  id: comparing-numbers-to-10000
-      VI: So sánh các số trong phạm vi 10 000
-      EN: Comparing numbers within 10,000
-
-===== ĐỢT 2 (7 bài) =====
-
-[Lớp 3 – Các số đến 10 000]
-B050  lớp 3  id: roman-numerals
-      VI: Làm quen với chữ số La Mã
-      EN: Introducing Roman numerals
-B051  lớp 3  id: rounding-to-tens-hundreds
-      VI: Làm tròn số đến hàng chục, hàng trăm
-      EN: Rounding to the nearest ten or hundred
-
-[Lớp 3 – Chu vi, diện tích một số hình phẳng]
-B052  lớp 3  id: area-square-centimetres
-      VI: Diện tích của một hình. Xăng-ti-mét vuông
-      EN: The area of a shape. Square centimetres
-B053  lớp 3  id: area-rectangles-squares
-      VI: Diện tích hình chữ nhật, diện tích hình vuông
-      EN: Area of rectangles and squares
+===== DANH SÁCH BÀI (16 bài, viết theo thứ tự) =====
 
 [Lớp 3 – Cộng, trừ, nhân, chia trong phạm vi 10 000]
-B054  lớp 3  id: addition-within-10000
-      VI: Phép cộng trong phạm vi 10 000
-      EN: Addition within 10,000
-B055  lớp 3  id: subtraction-within-10000
-      VI: Phép trừ trong phạm vi 10 000
-      EN: Subtraction within 10,000
-B056  lớp 3  id: divide-4-digit-by-1-digit
+B033  lớp 3  id: addition-within-10000
+      VI: Phép cộng trong phạm vi 10 000. Phép trừ trong phạm vi 10 000
+      EN: Addition within 10,000. Subtraction within 10,000
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B034  lớp 3  id: divide-4-digit-by-1-digit
       VI: Chia số có bốn chữ số cho số có một chữ số
       EN: Dividing a four-digit number by a one-digit number
 
-===== ĐỢT 3 (7 bài) =====
-
 [Lớp 3 – Các số đến 100 000]
-B057  lớp 3  id: five-digit-numbers
-      VI: Các số có năm chữ số. Số 100 000
-      EN: Five-digit numbers. The number 100,000
-B058  lớp 3  id: comparing-numbers-to-100000
-      VI: So sánh các số trong phạm vi 100 000
-      EN: Comparing numbers within 100,000
+B035  lớp 3  id: five-digit-numbers
+      VI: Các số có năm chữ số. Số 100 000. So sánh các số trong phạm vi 100 000
+      EN: Five-digit numbers. The number 100,000. Comparing numbers within 100,000
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
 
 [Lớp 3 – Cộng, trừ trong phạm vi 100 000]
-B059  lớp 3  id: addition-within-100000
-      VI: Phép cộng trong phạm vi 100 000
-      EN: Addition within 100,000
-B060  lớp 3  id: subtraction-within-100000
-      VI: Phép trừ trong phạm vi 100 000
-      EN: Subtraction within 100,000
+B036  lớp 3  id: addition-within-100000
+      VI: Phép cộng trong phạm vi 100 000. Phép trừ trong phạm vi 100 000
+      EN: Addition within 100,000. Subtraction within 100,000
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
 
 [Lớp 3 – Xem đồng hồ. Tháng - năm. Tiền Việt Nam]
-B061  lớp 3  id: clocks-months-years
+B037  lớp 3  id: clocks-months-years
       VI: Xem đồng hồ. Tháng - năm
       EN: Telling the time. Months and years
 
 [Lớp 3 – Nhân, chia trong phạm vi 100 000]
-B062  lớp 3  id: multiply-5-digit-by-1-digit
-      VI: Nhân số có năm chữ số với số có một chữ số
-      EN: Multiplying a five-digit number by a one-digit number
-B063  lớp 3  id: divide-5-digit-by-1-digit
-      VI: Chia số có năm chữ số cho số có một chữ số
-      EN: Dividing a five-digit number by a one-digit number
+B038  lớp 3  id: multiply-5-digit-by-1-digit
+      VI: Nhân số có năm chữ số với số có một chữ số. Chia số có năm chữ số cho số có một chữ số
+      EN: Multiplying a five-digit number by a one-digit number. Dividing a five-digit number by a one-digit number
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+
+[Lớp 4 – Ôn tập và bổ sung]
+B039  lớp 4  id: expressions-with-letters
+      VI: Biểu thức chứa chữ
+      EN: Expressions with letters
+B040  lớp 4  id: three-step-problems
+      VI: Giải bài toán có ba bước tính
+      EN: Solving three-step word problems
+
+[Lớp 4 – Góc và đơn vị đo góc]
+B041  lớp 4  id: measuring-angles
+      VI: Đo góc, đơn vị đo góc. Góc nhọn, góc tù, góc bẹt
+      EN: Measuring angles. Degrees. Acute, obtuse and straight angles
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+
+[Lớp 4 – Số có nhiều chữ số]
+B042  lớp 4  id: six-digit-numbers
+      VI: Số có sáu chữ số. Số 1 000 000. Hàng và lớp
+      EN: Six-digit numbers. The number 1,000,000. Place value: places and periods
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B043  lớp 4  id: numbers-in-the-millions
+      VI: Các số trong phạm vi lớp triệu. So sánh các số có nhiều chữ số
+      EN: Numbers in the millions. Comparing large numbers
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B044  lớp 4  id: rounding-hundred-thousands
+      VI: Làm tròn số đến hàng trăm nghìn. Làm quen với dãy số tự nhiên
+      EN: Rounding to the nearest hundred thousand. Introducing the sequence of natural numbers
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+
+[Lớp 4 – Một số đơn vị đo đại lượng]
+B045  lớp 4  id: yen-ta-tonnes
+      VI: Yến, tạ, tấn. Giây, thế kỉ
+      EN: Yến, tạ and tonnes (10 kg, 100 kg and 1,000 kg). Seconds and centuries
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+
+[Lớp 4 – Phép cộng và phép trừ]
+B046  lớp 4  id: adding-large-numbers
+      VI: Phép cộng các số có nhiều chữ số. Phép trừ các số có nhiều chữ số
+      EN: Adding numbers with many digits. Subtracting numbers with many digits
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B047  lớp 4  id: commutative-associative-addition
+      VI: Tính chất giao hoán và kết hợp của phép cộng
+      EN: Commutative and associative properties of addition
+B048  lớp 4  id: sum-and-difference-problems
+      VI: Tìm hai số biết tổng và hiệu của hai số đó
+      EN: Finding two numbers from their sum and difference

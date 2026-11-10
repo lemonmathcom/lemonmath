@@ -1,5 +1,5 @@
 GIAO VIỆC LEMONMATH – tài khoản Vimus2358
-Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 7, lớp 8), mã B211–B231.
+Phân công ngày 10/11/2026 (thay toàn bộ phân công trước, kể cả bản B001–B294 gửi tối 10/11). Số bài: 15 bài song ngữ (lớp 8), mã B157–B171.
 Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
 
 QUY TẮC VIẾT (bắt buộc)
@@ -17,87 +17,64 @@ CÁCH NỘP
 - Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
 
 
-===== ĐỢT 1 (7 bài) =====
-
-[Lớp 7 – Quan hệ giữa các yếu tố trong một tam giác]
-B211  lớp 7  id: perpendicular-and-oblique-lines
-      VI: Quan hệ giữa đường vuông góc và đường xiên
-      EN: The perpendicular and oblique lines from a point
-B212  lớp 7  id: triangle-inequality
-      VI: Quan hệ giữa ba cạnh của một tam giác
-      EN: The triangle inequality
-B213  lớp 7  id: perpendicular-bisectors-altitudes
-      VI: Sự đồng quy của ba đường trung trực, ba đường cao trong một tam giác
-      EN: Concurrency of the perpendicular bisectors and of the altitudes
-
-[Lớp 7 – Một số hình khối trong thực tiễn]
-B214  lớp 7  id: g7-cuboids-and-cubes
-      VI: Hình hộp chữ nhật và hình lập phương
-      EN: Cuboids and cubes
-B215  lớp 7  id: right-prisms
-      VI: Hình lăng trụ đứng tam giác và hình lăng trụ đứng tứ giác
-      EN: Right triangular prisms and right quadrilateral prisms
-
-[Lớp 8 – Đa thức]
-B216  lớp 8  id: polynomials-several-variables
-      VI: Đa thức
-      EN: Polynomials
-B217  lớp 8  id: g8-add-subtract-polynomials
-      VI: Phép cộng và phép trừ đa thức
-      EN: Adding and subtracting polynomials
-
-===== ĐỢT 2 (7 bài) =====
-
-[Lớp 8 – Đa thức]
-B218  lớp 8  id: g8-multiplying-polynomials
-      VI: Phép nhân đa thức
-      EN: Multiplying polynomials
-B219  lớp 8  id: dividing-polynomial-by-monomial
-      VI: Phép chia đa thức cho đơn thức
-      EN: Dividing a polynomial by a monomial
-
-[Lớp 8 – Hằng đẳng thức đáng nhớ và ứng dụng]
-B220  lớp 8  id: squares-identities
-      VI: Hiệu hai bình phương. Bình phương của một tổng hay một hiệu
-      EN: Difference of two squares. Square of a sum or a difference
-B221  lớp 8  id: cubes-of-sums-differences
-      VI: Lập phương của một tổng. Lập phương của một hiệu
-      EN: Cube of a sum. Cube of a difference
-B222  lớp 8  id: sum-difference-of-cubes
-      VI: Tổng và hiệu hai lập phương
-      EN: Sum and difference of two cubes
-B223  lớp 8  id: factorising-polynomials
-      VI: Phân tích đa thức thành nhân tử
-      EN: Factorising polynomials
-
-[Lớp 8 – Tứ giác]
-B224  lớp 8  id: quadrilaterals
-      VI: Tứ giác
-      EN: Quadrilaterals
-
-===== ĐỢT 3 (7 bài) =====
-
-[Lớp 8 – Tứ giác]
-B225  lớp 8  id: isosceles-trapeziums
-      VI: Hình thang cân
-      EN: Isosceles trapeziums
-B226  lớp 8  id: parallelograms
-      VI: Hình bình hành
-      EN: Parallelograms
-B227  lớp 8  id: rectangles
-      VI: Hình chữ nhật
-      EN: Rectangles
-B228  lớp 8  id: rhombuses-and-squares
-      VI: Hình thoi và hình vuông
-      EN: Rhombuses and squares
+===== DANH SÁCH BÀI (15 bài, viết theo thứ tự) =====
 
 [Lớp 8 – Định lí Thalès]
-B229  lớp 8  id: thales-theorem-triangle
-      VI: Định lí Thalès trong tam giác
-      EN: Thales' theorem in a triangle
-B230  lớp 8  id: triangle-midline
-      VI: Đường trung bình của tam giác
-      EN: The midline of a triangle
-B231  lớp 8  id: angle-bisector-theorem
+B157  lớp 8  id: angle-bisector-theorem
       VI: Tính chất đường phân giác của tam giác
       EN: The angle bisector theorem
+
+[Lớp 8 – Dữ liệu và biểu đồ]
+B158  lớp 8  id: g8-collecting-classifying-data
+      VI: Thu thập và phân loại dữ liệu. Biểu diễn dữ liệu bằng bảng, biểu đồ
+      EN: Collecting and classifying data. Representing data in tables and charts
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B159  lớp 8  id: analysing-charts
+      VI: Phân tích số liệu thống kê dựa vào biểu đồ
+      EN: Analysing statistical data from charts
+
+[Lớp 8 – Phân thức đại số]
+B160  lớp 8  id: intro-algebraic-fractions
+      VI: Phân thức đại số. Tính chất cơ bản của phân thức đại số
+      EN: Algebraic fractions. The basic property of algebraic fractions
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B161  lớp 8  id: add-subtract-algebraic-fractions
+      VI: Phép cộng và phép trừ phân thức đại số
+      EN: Adding and subtracting algebraic fractions
+B162  lớp 8  id: multiply-divide-algebraic-fractions
+      VI: Phép nhân và phép chia phân thức đại số
+      EN: Multiplying and dividing algebraic fractions
+
+[Lớp 8 – Phương trình bậc nhất và hàm số bậc nhất]
+B163  lớp 8  id: linear-equations-one-unknown
+      VI: Phương trình bậc nhất một ẩn
+      EN: Linear equations in one unknown
+B164  lớp 8  id: g8-equation-word-problems
+      VI: Giải bài toán bằng cách lập phương trình
+      EN: Solving word problems by forming equations
+B165  lớp 8  id: intro-functions-graphs
+      VI: Khái niệm hàm số và đồ thị của hàm số
+      EN: The idea of a function and its graph
+B166  lớp 8  id: gradient-of-a-line
+      VI: Hệ số góc của đường thẳng
+      EN: The gradient of a straight line
+
+[Lớp 8 – Mở đầu về tính xác suất của biến cố]
+B167  lớp 8  id: possible-favourable-outcomes
+      VI: Kết quả có thể và kết quả thuận lợi. Cách tính xác suất của biến cố bằng tỉ số
+      EN: Possible outcomes and favourable outcomes. Calculating probability as a ratio
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B168  lớp 8  id: experimental-theoretical-probability
+      VI: Mối liên hệ giữa xác suất thực nghiệm với xác suất và ứng dụng
+      EN: Experimental and theoretical probability, with applications
+
+[Lớp 8 – Tam giác đồng dạng]
+B169  lớp 8  id: similar-triangles
+      VI: Hai tam giác đồng dạng
+      EN: Similar triangles
+B170  lớp 8  id: triangle-similarity-conditions
+      VI: Ba trường hợp đồng dạng của hai tam giác
+      EN: The three similarity conditions for triangles
+B171  lớp 8  id: pythagoras-theorem
+      VI: Định lí Pythagore và ứng dụng
+      EN: Pythagoras' theorem and its applications

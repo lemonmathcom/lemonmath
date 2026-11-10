@@ -1,5 +1,5 @@
 GIAO VIỆC LEMONMATH – tài khoản Kinangtoan
-Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 1, lớp 2), mã B001–B021.
+Phân công ngày 10/11/2026 (thay toàn bộ phân công trước, kể cả bản B001–B294 gửi tối 10/11). Số bài: 16 bài song ngữ (lớp 1, lớp 2), mã B001–B016.
 Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
 
 QUY TẮC VIẾT (bắt buộc)
@@ -17,7 +17,7 @@ CÁCH NỘP
 - Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
 
 
-===== ĐỢT 1 (7 bài) =====
+===== DANH SÁCH BÀI (16 bài, viết theo thứ tự) =====
 
 [Lớp 1 – Các số đến 100]
 B001  lớp 1  id: hundred-square
@@ -26,84 +26,74 @@ B001  lớp 1  id: hundred-square
 
 [Lớp 1 – Độ dài và đo độ dài]
 B002  lớp 1  id: longer-and-shorter
-      VI: Dài hơn, ngắn hơn
-      EN: Longer and shorter
-B003  lớp 1  id: units-of-length
-      VI: Đơn vị đo độ dài
-      EN: Units of length
+      VI: Dài hơn, ngắn hơn. Đơn vị đo độ dài
+      EN: Longer and shorter. Units of length
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
 
 [Lớp 1 – Thời gian. Giờ và lịch]
-B004  lớp 1  id: time-to-the-hour
-      VI: Xem giờ đúng trên đồng hồ
-      EN: Telling the time: o'clock
-B005  lớp 1  id: days-of-the-week
-      VI: Các ngày trong tuần
-      EN: Days of the week
+B003  lớp 1  id: time-to-the-hour
+      VI: Xem giờ đúng trên đồng hồ. Các ngày trong tuần
+      EN: Telling the time: o'clock. Days of the week
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
 
 [Lớp 2 – Ôn tập và bổ sung]
-B006  lớp 2  id: number-line-before-after
-      VI: Tia số. Số liền trước, số liền sau
-      EN: Number lines: the number before and after
-B007  lớp 2  id: parts-of-addition-subtraction
-      VI: Các thành phần của phép cộng, phép trừ
-      EN: Parts of addition and subtraction
-
-===== ĐỢT 2 (7 bài) =====
-
-[Lớp 2 – Ôn tập và bổ sung]
-B008  lớp 2  id: how-many-more-or-fewer
+B004  lớp 2  id: number-line-before-after
+      VI: Tia số. Số liền trước, số liền sau. Các thành phần của phép cộng, phép trừ
+      EN: Number lines: the number before and after. Parts of addition and subtraction
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B005  lớp 2  id: how-many-more-or-fewer
       VI: Hơn, kém nhau bao nhiêu
       EN: How many more or fewer?
 
 [Lớp 2 – Phép cộng, phép trừ trong phạm vi 20]
-B009  lớp 2  id: addition-facts-crossing-10
+B006  lớp 2  id: addition-facts-crossing-10
       VI: Bảng cộng (qua 10)
       EN: Addition facts bridging through 10
-B010  lớp 2  id: adding-on-taking-away-problems
-      VI: Bài toán về thêm, bớt một số đơn vị
-      EN: Word problems: adding on and taking away
-B011  lớp 2  id: subtraction-crossing-10
-      VI: Phép trừ (qua 10) trong phạm vi 20
-      EN: Subtraction bridging through 10 (within 20)
-B012  lớp 2  id: subtraction-facts-crossing-10
-      VI: Bảng trừ (qua 10)
-      EN: Subtraction facts bridging through 10
-B013  lớp 2  id: more-fewer-word-problems
-      VI: Bài toán về nhiều hơn, ít hơn một số đơn vị
-      EN: Word problems: more than and fewer than
+B007  lớp 2  id: adding-on-taking-away-problems
+      VI: Bài toán về thêm, bớt một số đơn vị. Bài toán về nhiều hơn, ít hơn một số đơn vị
+      EN: Word problems: adding on and taking away. Word problems: more than and fewer than
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B008  lớp 2  id: subtraction-crossing-10
+      VI: Phép trừ (qua 10) trong phạm vi 20. Bảng trừ (qua 10)
+      EN: Subtraction bridging through 10 (within 20). Subtraction facts bridging through 10
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
 
 [Lớp 2 – Làm quen với khối lượng, dung tích]
-B014  lớp 2  id: kilograms
-      VI: Ki-lô-gam
-      EN: Kilograms
-
-===== ĐỢT 3 (7 bài) =====
-
-[Lớp 2 – Làm quen với khối lượng, dung tích]
-B015  lớp 2  id: litres
-      VI: Lít
-      EN: Litres
+B009  lớp 2  id: kilograms
+      VI: Ki-lô-gam. Lít
+      EN: Kilograms. Litres
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
 
 [Lớp 2 – Làm quen với hình phẳng]
-B016  lớp 2  id: broken-lines-quadrilaterals
+B010  lớp 2  id: broken-lines-quadrilaterals
       VI: Đường gấp khúc. Hình tứ giác
       EN: Broken (zigzag) lines. Quadrilaterals
 
 [Lớp 2 – Ngày - giờ, giờ - phút, ngày - tháng]
-B017  lớp 2  id: days-hours-minutes
-      VI: Ngày - giờ, giờ - phút
-      EN: Days and hours, hours and minutes
-B018  lớp 2  id: days-and-months
-      VI: Ngày - tháng
-      EN: Days and months
+B011  lớp 2  id: days-hours-minutes
+      VI: Ngày - giờ, giờ - phút. Ngày - tháng
+      EN: Days and hours, hours and minutes. Days and months
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
 
 [Lớp 2 – Phép nhân, phép chia]
-B019  lớp 2  id: intro-to-multiplication
-      VI: Phép nhân
-      EN: Multiplication
-B020  lớp 2  id: factors-and-products
-      VI: Thừa số, tích
-      EN: Factors and products
-B021  lớp 2  id: two-times-table
-      VI: Bảng nhân 2
-      EN: The 2 times table
+B012  lớp 2  id: intro-to-multiplication
+      VI: Phép nhân. Thừa số, tích
+      EN: Multiplication. Factors and products
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B013  lớp 2  id: two-times-table
+      VI: Bảng nhân 2. Bảng nhân 5
+      EN: The 2 times table. The 5 times table
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B014  lớp 2  id: intro-to-division
+      VI: Phép chia. Số bị chia, số chia, thương
+      EN: Division. Dividend, divisor and quotient
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B015  lớp 2  id: division-facts-for-2
+      VI: Bảng chia 2. Bảng chia 5
+      EN: Division facts for 2. Division facts for 5
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+
+[Lớp 2 – Độ dài và đơn vị đo độ dài. Tiền Việt Nam]
+B016  lớp 2  id: vietnamese-money
+      VI: Giới thiệu tiền Việt Nam
+      EN: Introducing Vietnamese money

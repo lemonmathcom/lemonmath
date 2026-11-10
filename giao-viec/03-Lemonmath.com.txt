@@ -1,5 +1,5 @@
 GIAO VIỆC LEMONMATH – tài khoản Lemonmath.com
-Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 4), mã B064–B084.
+Phân công ngày 10/11/2026 (thay toàn bộ phân công trước, kể cả bản B001–B294 gửi tối 10/11). Số bài: 16 bài song ngữ (lớp 4, lớp 5), mã B049–B064.
 Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
 
 QUY TẮC VIẾT (bắt buộc)
@@ -17,89 +17,70 @@ CÁCH NỘP
 - Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
 
 
-===== ĐỢT 1 (7 bài) =====
-
-[Lớp 4 – Ôn tập và bổ sung]
-B064  lớp 4  id: expressions-with-letters
-      VI: Biểu thức chứa chữ
-      EN: Expressions with letters
-B065  lớp 4  id: three-step-problems
-      VI: Giải bài toán có ba bước tính
-      EN: Solving three-step word problems
-
-[Lớp 4 – Góc và đơn vị đo góc]
-B066  lớp 4  id: measuring-angles
-      VI: Đo góc, đơn vị đo góc
-      EN: Measuring angles. Degrees
-B067  lớp 4  id: acute-obtuse-straight-angles
-      VI: Góc nhọn, góc tù, góc bẹt
-      EN: Acute, obtuse and straight angles
-
-[Lớp 4 – Số có nhiều chữ số]
-B068  lớp 4  id: six-digit-numbers
-      VI: Số có sáu chữ số. Số 1 000 000
-      EN: Six-digit numbers. The number 1,000,000
-B069  lớp 4  id: place-value-periods
-      VI: Hàng và lớp
-      EN: Place value: places and periods
-B070  lớp 4  id: numbers-in-the-millions
-      VI: Các số trong phạm vi lớp triệu
-      EN: Numbers in the millions
-
-===== ĐỢT 2 (7 bài) =====
-
-[Lớp 4 – Số có nhiều chữ số]
-B071  lớp 4  id: rounding-hundred-thousands
-      VI: Làm tròn số đến hàng trăm nghìn
-      EN: Rounding to the nearest hundred thousand
-B072  lớp 4  id: comparing-large-numbers
-      VI: So sánh các số có nhiều chữ số
-      EN: Comparing large numbers
-B073  lớp 4  id: natural-number-sequence
-      VI: Làm quen với dãy số tự nhiên
-      EN: Introducing the sequence of natural numbers
-
-[Lớp 4 – Một số đơn vị đo đại lượng]
-B074  lớp 4  id: yen-ta-tonnes
-      VI: Yến, tạ, tấn
-      EN: Yến, tạ and tonnes (10 kg, 100 kg and 1,000 kg)
-B075  lớp 4  id: seconds-and-centuries
-      VI: Giây, thế kỉ
-      EN: Seconds and centuries
-
-[Lớp 4 – Phép cộng và phép trừ]
-B076  lớp 4  id: adding-large-numbers
-      VI: Phép cộng các số có nhiều chữ số
-      EN: Adding numbers with many digits
-B077  lớp 4  id: subtracting-large-numbers
-      VI: Phép trừ các số có nhiều chữ số
-      EN: Subtracting numbers with many digits
-
-===== ĐỢT 3 (7 bài) =====
-
-[Lớp 4 – Phép cộng và phép trừ]
-B078  lớp 4  id: commutative-associative-addition
-      VI: Tính chất giao hoán và kết hợp của phép cộng
-      EN: Commutative and associative properties of addition
-B079  lớp 4  id: sum-and-difference-problems
-      VI: Tìm hai số biết tổng và hiệu của hai số đó
-      EN: Finding two numbers from their sum and difference
+===== DANH SÁCH BÀI (16 bài, viết theo thứ tự) =====
 
 [Lớp 4 – Đường thẳng vuông góc. Đường thẳng song song]
-B080  lớp 4  id: perpendicular-lines
-      VI: Hai đường thẳng vuông góc
-      EN: Perpendicular lines
-B081  lớp 4  id: parallel-lines
-      VI: Hai đường thẳng song song
-      EN: Parallel lines
-B082  lớp 4  id: parallelograms-and-rhombuses
+B049  lớp 4  id: perpendicular-lines
+      VI: Hai đường thẳng vuông góc. Hai đường thẳng song song
+      EN: Perpendicular lines. Parallel lines
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B050  lớp 4  id: parallelograms-and-rhombuses
       VI: Hình bình hành, hình thoi
       EN: Parallelograms and rhombuses
 
 [Lớp 4 – Phép nhân và phép chia]
-B083  lớp 4  id: multiply-by-1-digit
-      VI: Nhân với số có một chữ số
-      EN: Multiplying by a one-digit number
-B084  lớp 4  id: divide-by-1-digit
-      VI: Chia cho số có một chữ số
-      EN: Dividing by a one-digit number
+B051  lớp 4  id: multiply-by-1-digit
+      VI: Nhân với số có một chữ số. Chia cho số có một chữ số
+      EN: Multiplying by a one-digit number. Dividing by a one-digit number
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B052  lớp 4  id: commutative-associative-multiplication
+      VI: Tính chất giao hoán và kết hợp của phép nhân. Tính chất phân phối của phép nhân đối với phép cộng
+      EN: Commutative and associative properties of multiplication. The distributive property of multiplication over addition
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B053  lớp 4  id: multiply-divide-by-10-100-1000
+      VI: Nhân, chia với 10, 100, 1 000, ...
+      EN: Multiplying and dividing by 10, 100, 1,000, ...
+B054  lớp 4  id: multiply-by-2-digit
+      VI: Nhân với số có hai chữ số
+      EN: Multiplying by a two-digit number
+B055  lớp 4  id: divide-by-2-digit
+      VI: Chia cho số có hai chữ số
+      EN: Dividing by a two-digit number
+
+[Lớp 4 – Phân số]
+B056  lớp 4  id: simplifying-fractions
+      VI: Rút gọn phân số. Quy đồng mẫu số các phân số
+      EN: Simplifying fractions. Finding a common denominator
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B057  lớp 4  id: g4-comparing-fractions
+      VI: So sánh phân số
+      EN: Comparing fractions
+
+[Lớp 4 – Phép cộng, phép trừ phân số]
+B058  lớp 4  id: g4-adding-fractions
+      VI: Phép cộng phân số. Phép trừ phân số
+      EN: Adding fractions. Subtracting fractions
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+
+[Lớp 4 – Phép nhân, phép chia phân số]
+B059  lớp 4  id: multiplying-fractions
+      VI: Phép nhân phân số. Phép chia phân số
+      EN: Multiplying fractions. Dividing fractions
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B060  lớp 4  id: fraction-of-an-amount
+      VI: Tìm phân số của một số
+      EN: Finding a fraction of an amount
+
+[Lớp 5 – Ôn tập và bổ sung]
+B061  lớp 5  id: review-natural-numbers
+      VI: Ôn tập số tự nhiên
+      EN: Review: natural numbers
+B062  lớp 5  id: review-fractions
+      VI: Ôn tập phân số
+      EN: Review: fractions
+B063  lớp 5  id: decimal-fractions
+      VI: Phân số thập phân
+      EN: Decimal fractions
+B064  lớp 5  id: review-fraction-operations
+      VI: Ôn tập các phép tính với phân số
+      EN: Review: calculations with fractions

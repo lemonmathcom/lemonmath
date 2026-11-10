@@ -1,5 +1,5 @@
 GIAO VIỆC LEMONMATH – tài khoản Nguyenchanh2358
-Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 5), mã B106–B126.
+Phân công ngày 10/11/2026 (thay toàn bộ phân công trước, kể cả bản B001–B294 gửi tối 10/11). Số bài: 15 bài song ngữ (lớp 5, lớp 6), mã B081–B095.
 Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
 
 QUY TẮC VIẾT (bắt buộc)
@@ -17,89 +17,67 @@ CÁCH NỘP
 - Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
 
 
-===== ĐỢT 1 (7 bài) =====
-
-[Lớp 5 – Số thập phân]
-B106  lớp 5  id: g5-comparing-decimals
-      VI: So sánh các số thập phân
-      EN: Comparing decimals
-B107  lớp 5  id: measures-as-decimals
-      VI: Viết số đo đại lượng dưới dạng số thập phân
-      EN: Writing measurements as decimals
-B108  lớp 5  id: g5-rounding-decimals
-      VI: Làm tròn số thập phân
-      EN: Rounding decimals
-
-[Lớp 5 – Một số đơn vị đo diện tích]
-B109  lớp 5  id: square-kilometres-hectares
-      VI: Ki-lô-mét vuông. Héc-ta
-      EN: Square kilometres. Hectares
-B110  lớp 5  id: units-of-area
-      VI: Các đơn vị đo diện tích
-      EN: Units of area
-
-[Lớp 5 – Các phép tính với số thập phân]
-B111  lớp 5  id: multiplying-decimals
-      VI: Phép nhân số thập phân
-      EN: Multiplying decimals
-B112  lớp 5  id: dividing-decimals
-      VI: Phép chia số thập phân
-      EN: Dividing decimals
-
-===== ĐỢT 2 (7 bài) =====
-
-[Lớp 5 – Các phép tính với số thập phân]
-B113  lớp 5  id: decimals-by-powers-of-ten
-      VI: Nhân, chia số thập phân với 10; 100; 1000;... hoặc với 0,1; 0,01; 0,001; ...
-      EN: Multiplying and dividing decimals by 10, 100, 1,000, ... or by 0.1, 0.01, 0.001, ...
-
-[Lớp 5 – Một số hình phẳng. Chu vi và diện tích]
-B114  lớp 5  id: area-of-a-triangle
-      VI: Hình tam giác. Diện tích hình tam giác
-      EN: Triangles. Area of a triangle
-B115  lớp 5  id: area-of-a-trapezium
-      VI: Hình thang. Diện tích hình thang
-      EN: Trapeziums. Area of a trapezium
-B116  lớp 5  id: circumference-area-circle
-      VI: Đường tròn. Chu vi và diện tích hình tròn
-      EN: Circles. Circumference and area of a circle
-
-[Lớp 5 – Tỉ số và các bài toán liên quan]
-B117  lớp 5  id: ratios-and-percentages
-      VI: Tỉ số. Tỉ số phần trăm
-      EN: Ratios. Percentages
-B118  lớp 5  id: map-scales
-      VI: Tỉ lệ bản đồ và ứng dụng
-      EN: Map scales and their uses
-B119  lớp 5  id: sum-and-ratio-problems
-      VI: Tìm hai số khi biết tổng và tỉ số của hai số đó
-      EN: Finding two numbers from their sum and ratio
-
-===== ĐỢT 3 (7 bài) =====
-
-[Lớp 5 – Tỉ số và các bài toán liên quan]
-B120  lớp 5  id: difference-and-ratio-problems
-      VI: Tìm hai số khi biết hiệu và tỉ số của hai số đó
-      EN: Finding two numbers from their difference and ratio
-B121  lớp 5  id: using-a-calculator
-      VI: Máy tính cầm tay
-      EN: Using a calculator
-
-[Lớp 5 – Thể tích. Đơn vị đo thể tích]
-B122  lớp 5  id: volume-of-a-shape
-      VI: Thể tích của một hình
-      EN: Volume of a shape
-B123  lớp 5  id: cubic-centimetres-decimetres
-      VI: Xăng-ti-mét khối. Đề-xi-mét khối
-      EN: Cubic centimetres. Cubic decimetres
-B124  lớp 5  id: cubic-metres
-      VI: Mét khối
-      EN: Cubic metres
+===== DANH SÁCH BÀI (15 bài, viết theo thứ tự) =====
 
 [Lớp 5 – Diện tích và thể tích của một số hình khối]
-B125  lớp 5  id: nets-of-solids
-      VI: Hình khai triển của hình lập phương, hình hộp chữ nhật và hình trụ
-      EN: Nets of cubes, cuboids and cylinders
-B126  lớp 5  id: volume-of-a-cube
+B081  lớp 5  id: volume-of-a-cube
       VI: Thể tích của hình lập phương
       EN: Volume of a cube
+
+[Lớp 5 – Số đo thời gian, vận tốc. Các bài toán liên quan đến chuyển động đều]
+B082  lớp 5  id: units-of-time
+      VI: Các đơn vị đo thời gian. Cộng, trừ số đo thời gian
+      EN: Units of time. Adding and subtracting times
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B083  lớp 5  id: multiplying-dividing-times
+      VI: Nhân, chia số đo thời gian với một số
+      EN: Multiplying and dividing times by a number
+B084  lớp 5  id: speed-uniform-motion
+      VI: Vận tốc của một chuyển động đều. Quãng đường, thời gian của một chuyển động đều
+      EN: Speed in uniform motion. Distance and time in uniform motion
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+
+[Lớp 5 – Một số yếu tố thống kê và xác suất]
+B085  lớp 5  id: g5-pie-charts
+      VI: Biểu đồ hình quạt tròn. Tỉ số của số lần lặp lại một sự kiện so với tổng số lần thực hiện
+      EN: Pie charts. Relative frequency of an event
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+
+[Lớp 5 – Ôn tập cuối cấp: sẵn sàng lên lớp 6]
+B086  lớp 5  id: g5-review-numbers-fractions
+      VI: Ôn tập: số tự nhiên và phân số
+      EN: Review: whole numbers and fractions
+B087  lớp 5  id: g5-review-geometry-measures
+      VI: Ôn tập: hình học và đo lường
+      EN: Review: shapes and measures
+B088  lớp 5  id: g5-review-motion-word-problems
+      VI: Ôn tập: chuyển động đều và toán có lời văn
+      EN: Review: uniform motion and word problems
+B089  lớp 5  id: g5-practice-paper-2
+      VI: Đề ôn tập cuối cấp tiểu học số 2
+      EN: End-of-primary practice paper 2
+
+[Lớp 6 – Tập hợp các số tự nhiên]
+B090  lớp 6  id: intro-to-sets
+      VI: Tập hợp
+      EN: Sets
+B091  lớp 6  id: writing-natural-numbers
+      VI: Cách ghi số tự nhiên. Thứ tự trong tập hợp các số tự nhiên
+      EN: Writing natural numbers. Order in the set of natural numbers
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B092  lớp 6  id: add-subtract-natural-numbers
+      VI: Phép cộng và phép trừ số tự nhiên. Phép nhân và phép chia số tự nhiên
+      EN: Adding and subtracting natural numbers. Multiplying and dividing natural numbers
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B093  lớp 6  id: powers-natural-exponents
+      VI: Lũy thừa với số mũ tự nhiên
+      EN: Powers with natural-number exponents
+B094  lớp 6  id: order-of-operations
+      VI: Thứ tự thực hiện các phép tính
+      EN: Order of operations
+
+[Lớp 6 – Tính chia hết trong tập hợp các số tự nhiên]
+B095  lớp 6  id: divisibility-and-properties
+      VI: Quan hệ chia hết và tính chất. Dấu hiệu chia hết
+      EN: Divisibility and its properties. Divisibility rules
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)

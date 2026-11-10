@@ -1,5 +1,5 @@
 GIAO VIỆC LEMONMATH – tài khoản Tai-khoan-11
-Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 11), mã B274–B294.
+Phân công ngày 10/11/2026 (thay toàn bộ phân công trước, kể cả bản B001–B294 gửi tối 10/11). Số bài: 15 bài song ngữ (lớp 11), mã B202–B216.
 Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
 
 QUY TẮC VIẾT (bắt buộc)
@@ -17,83 +17,59 @@ CÁCH NỘP
 - Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
 
 
-===== ĐỢT 1 (7 bài) =====
-
-[Lớp 11 – Quan hệ song song trong không gian]
-B274  lớp 11  id: parallel-lines-space
-      VI: Hai đường thẳng song song
-      EN: Parallel lines in space
-B275  lớp 11  id: line-plane-parallel
-      VI: Đường thẳng và mặt phẳng song song
-      EN: A line parallel to a plane
-B276  lớp 11  id: parallel-planes
-      VI: Hai mặt phẳng song song
-      EN: Parallel planes
-B277  lớp 11  id: parallel-projection
-      VI: Phép chiếu song song
-      EN: Parallel projection
+===== DANH SÁCH BÀI (15 bài, viết theo thứ tự) =====
 
 [Lớp 11 – Giới hạn. Hàm số liên tục]
-B278  lớp 11  id: sequence-limits
-      VI: Giới hạn của dãy số
-      EN: Limits of sequences
-B279  lớp 11  id: function-limits
-      VI: Giới hạn của hàm số
-      EN: Limits of functions
-B280  lớp 11  id: continuity
+B202  lớp 11  id: continuity
       VI: Hàm số liên tục
       EN: Continuous functions
 
-===== ĐỢT 2 (7 bài) =====
-
 [Lớp 11 – Hàm số mũ và hàm số lôgarit]
-B281  lớp 11  id: real-exponents
+B203  lớp 11  id: real-exponents
       VI: Luỹ thừa với số mũ thực
       EN: Powers with real exponents
-B282  lớp 11  id: logarithms
+B204  lớp 11  id: logarithms
       VI: Lôgarit
       EN: Logarithms
-B283  lớp 11  id: exp-log-functions
+B205  lớp 11  id: exp-log-functions
       VI: Hàm số mũ và hàm số lôgarit
       EN: Exponential and logarithmic functions
-B284  lớp 11  id: exp-log-equations
+B206  lớp 11  id: exp-log-equations
       VI: Phương trình, bất phương trình mũ và lôgarit
       EN: Exponential and logarithmic equations and inequalities
 
 [Lớp 11 – Đạo hàm]
-B285  lớp 11  id: derivative-definition
+B207  lớp 11  id: derivative-definition
       VI: Đạo hàm
       EN: The derivative
-B286  lớp 11  id: differentiation-rules
+B208  lớp 11  id: differentiation-rules
       VI: Các quy tắc tính đạo hàm
       EN: Rules of differentiation
-B287  lớp 11  id: second-derivative
+B209  lớp 11  id: second-derivative
       VI: Đạo hàm cấp hai
       EN: The second derivative
 
-===== ĐỢT 3 (7 bài) =====
-
 [Lớp 11 – Quan hệ vuông góc trong không gian]
-B288  lớp 11  id: perpendicular-lines-space
+B210  lớp 11  id: perpendicular-lines-space
       VI: Hai đường thẳng vuông góc
       EN: Perpendicular lines in space
-B289  lớp 11  id: line-perpendicular-plane
+B211  lớp 11  id: line-perpendicular-plane
       VI: Đường thẳng vuông góc với mặt phẳng
       EN: A line perpendicular to a plane
-B290  lớp 11  id: orthogonal-projection-angle
+B212  lớp 11  id: orthogonal-projection-angle
       VI: Phép chiếu vuông góc. Góc giữa đường thẳng và mặt phẳng
       EN: Orthogonal projection and the angle between a line and a plane
-B291  lớp 11  id: distances-space
+B213  lớp 11  id: distances-space
       VI: Khoảng cách trong không gian
       EN: Distances in space
-B292  lớp 11  id: volumes
+B214  lớp 11  id: volumes
       VI: Thể tích
       EN: Volumes of solids
 
 [Lớp 11 – Quy tắc tính xác suất]
-B293  lớp 11  id: union-intersection-events
+B215  lớp 11  id: union-intersection-events
       VI: Biến cố hợp, biến cố giao, biến cố độc lập
       EN: Union, intersection and independent events
-B294  lớp 11  id: addition-rule
+B216  lớp 11  id: addition-rule
       VI: Công thức cộng xác suất
       EN: The addition rule

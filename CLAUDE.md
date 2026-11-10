@@ -3,7 +3,7 @@
 Vai trò: tài khoản Pro chỉ ĐIỀU PHỐI và KIỂM TRA, không tự viết bài (để tiết kiệm hạn mức). Bài do 11 tài khoản Claude Free viết theo file giao việc.
 
 - Bài nộp về: Dropbox\Lemonmath.com\viec da lam (đọc qua công cụ remote-devices, stage vào /mnt/user-data/uploads/...).
-- Phân công hiện hành (từ 10/11/2026, thay mã cũ 001–374): giao-viec/PHAN-CONG.md, mã B001–B294, 11 Claude Free + 1 ChatGPT Plus (63 bài). File giao cho từng tài khoản: giao-viec/NN-<tài khoản>.txt; tạo lại bằng danh sách bài còn thiếu trong data/curriculum.json.
+- Phân công hiện hành (từ 10/11/2026, thay mã cũ 001–374): giao-viec/PHAN-CONG.md, mã B001–B216 (đã gộp bài nhỏ; trường "merged" trong curriculum.json ghi id đã gộp), 11 Claude Free + 1 ChatGPT Plus (46 bài). File giao cho từng tài khoản: giao-viec/NN-<tài khoản>.txt; tạo lại bằng danh sách bài còn thiếu trong data/curriculum.json.
 - Bài nộp về cũng có thể đến dưới dạng file đính kèm trong chat (/mnt/user-data/uploads): bỏ tiền tố mã băm và đổi "__1_" thành " (1)" rồi chạy intake.
 
 Quy trình "Kiểm tra bài mới" (ít bước nhất):

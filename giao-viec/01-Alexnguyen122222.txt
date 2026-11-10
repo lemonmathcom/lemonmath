@@ -1,5 +1,5 @@
 GIAO VIỆC LEMONMATH – tài khoản Alexnguyen122222
-Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 2, lớp 3), mã B022–B042.
+Phân công ngày 10/11/2026 (thay toàn bộ phân công trước, kể cả bản B001–B294 gửi tối 10/11). Số bài: 16 bài song ngữ (lớp 2, lớp 3), mã B017–B032.
 Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
 
 QUY TẮC VIẾT (bắt buộc)
@@ -17,87 +17,76 @@ CÁCH NỘP
 - Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
 
 
-===== ĐỢT 1 (7 bài) =====
-
-[Lớp 2 – Phép nhân, phép chia]
-B022  lớp 2  id: five-times-table
-      VI: Bảng nhân 5
-      EN: The 5 times table
-B023  lớp 2  id: intro-to-division
-      VI: Phép chia
-      EN: Division
-B024  lớp 2  id: dividend-divisor-quotient
-      VI: Số bị chia, số chia, thương
-      EN: Dividend, divisor and quotient
-B025  lớp 2  id: division-facts-for-2
-      VI: Bảng chia 2
-      EN: Division facts for 2
-B026  lớp 2  id: division-facts-for-5
-      VI: Bảng chia 5
-      EN: Division facts for 5
-
-[Lớp 2 – Độ dài và đơn vị đo độ dài. Tiền Việt Nam]
-B027  lớp 2  id: vietnamese-money
-      VI: Giới thiệu tiền Việt Nam
-      EN: Introducing Vietnamese money
+===== DANH SÁCH BÀI (16 bài, viết theo thứ tự) =====
 
 [Lớp 2 – Phép cộng, phép trừ trong phạm vi 1000]
-B028  lớp 2  id: add-within-1000-no-regrouping
-      VI: Phép cộng (không nhớ) trong phạm vi 1000
-      EN: Addition within 1,000 (no regrouping)
-
-===== ĐỢT 2 (7 bài) =====
-
-[Lớp 2 – Phép cộng, phép trừ trong phạm vi 1000]
-B029  lớp 2  id: add-within-1000-regrouping
-      VI: Phép cộng (có nhớ) trong phạm vi 1000
-      EN: Addition within 1,000 (with regrouping)
-B030  lớp 2  id: subtract-within-1000-no-regrouping
-      VI: Phép trừ (không nhớ) trong phạm vi 1000
-      EN: Subtraction within 1,000 (no regrouping)
-B031  lớp 2  id: subtract-within-1000-regrouping
-      VI: Phép trừ (có nhớ) trong phạm vi 1000
-      EN: Subtraction within 1,000 (with regrouping)
+B017  lớp 2  id: add-within-1000-no-regrouping
+      VI: Phép cộng (không nhớ) trong phạm vi 1000. Phép cộng (có nhớ) trong phạm vi 1000
+      EN: Addition within 1,000 (no regrouping). Addition within 1,000 (with regrouping)
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B018  lớp 2  id: subtract-within-1000-no-regrouping
+      VI: Phép trừ (không nhớ) trong phạm vi 1000. Phép trừ (có nhớ) trong phạm vi 1000
+      EN: Subtraction within 1,000 (no regrouping). Subtraction within 1,000 (with regrouping)
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
 
 [Lớp 2 – Làm quen với yếu tố thống kê, xác suất]
-B032  lớp 2  id: collecting-sorting-tallying
-      VI: Thu thập, phân loại, kiểm đếm số liệu
-      EN: Collecting, sorting and tallying data
-B033  lớp 2  id: g2-pictograms
-      VI: Biểu đồ tranh
-      EN: Pictograms
-B034  lớp 2  id: certain-possible-impossible
+B019  lớp 2  id: collecting-sorting-tallying
+      VI: Thu thập, phân loại, kiểm đếm số liệu. Biểu đồ tranh
+      EN: Collecting, sorting and tallying data. Pictograms
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B020  lớp 2  id: certain-possible-impossible
       VI: Chắc chắn, có thể, không thể
       EN: Certain, possible, impossible
 
 [Lớp 3 – Phép nhân, phép chia trong phạm vi 100]
-B035  lớp 3  id: scaling-up
-      VI: Gấp một số lên một số lần
-      EN: Making a number several times larger
-
-===== ĐỢT 3 (7 bài) =====
-
-[Lớp 3 – Phép nhân, phép chia trong phạm vi 100]
-B036  lớp 3  id: division-with-remainders
-      VI: Phép chia hết, phép chia có dư
-      EN: Exact division and division with remainders
-B037  lớp 3  id: divide-2-digit-by-1-digit
-      VI: Chia số có hai chữ số cho số có một chữ số
-      EN: Dividing a two-digit number by a one-digit number
-B038  lớp 3  id: scaling-down
-      VI: Giảm một số đi một số lần
-      EN: Making a number several times smaller
-B039  lớp 3  id: two-step-problems
+B021  lớp 3  id: scaling-up
+      VI: Gấp một số lên một số lần. Giảm một số đi một số lần
+      EN: Making a number several times larger. Making a number several times smaller
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B022  lớp 3  id: division-with-remainders
+      VI: Phép chia hết, phép chia có dư. Chia số có hai chữ số cho số có một chữ số
+      EN: Exact division and division with remainders. Dividing a two-digit number by a one-digit number
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B023  lớp 3  id: two-step-problems
       VI: Bài toán giải bằng hai bước tính
       EN: Two-step word problems
 
 [Lớp 3 – Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ]
-B040  lớp 3  id: millimetres
-      VI: Mi-li-mét
-      EN: Millimetres
-B041  lớp 3  id: grams
-      VI: Gam
-      EN: Grams
-B042  lớp 3  id: millilitres
-      VI: Mi-li-lít
-      EN: Millilitres
+B024  lớp 3  id: millimetres
+      VI: Mi-li-mét. Gam
+      EN: Millimetres. Grams
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B025  lớp 3  id: millilitres
+      VI: Mi-li-lít. Nhiệt độ. Đơn vị đo nhiệt độ
+      EN: Millilitres. Temperature and units of temperature
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+
+[Lớp 3 – Phép nhân, phép chia trong phạm vi 1000]
+B026  lớp 3  id: multiply-3-digit-by-1-digit
+      VI: Nhân số có ba chữ số với số có một chữ số. Chia số có ba chữ số cho số có một chữ số
+      EN: Multiplying a three-digit number by a one-digit number. Dividing a three-digit number by a one-digit number
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B027  lớp 3  id: numerical-expressions
+      VI: Biểu thức số. Tính giá trị của biểu thức số
+      EN: Numerical expressions and their values
+B028  lớp 3  id: how-many-times-larger
+      VI: So sánh số lớn gấp mấy lần số bé
+      EN: How many times larger is one number than another?
+
+[Lớp 3 – Các số đến 10 000]
+B029  lớp 3  id: four-digit-numbers
+      VI: Các số có bốn chữ số. Số 10 000. So sánh các số trong phạm vi 10 000
+      EN: Four-digit numbers. The number 10,000. Comparing numbers within 10,000
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+B030  lớp 3  id: roman-numerals
+      VI: Làm quen với chữ số La Mã
+      EN: Introducing Roman numerals
+B031  lớp 3  id: rounding-to-tens-hundreds
+      VI: Làm tròn số đến hàng chục, hàng trăm
+      EN: Rounding to the nearest ten or hundred
+
+[Lớp 3 – Chu vi, diện tích một số hình phẳng]
+B032  lớp 3  id: area-square-centimetres
+      VI: Diện tích của một hình. Xăng-ti-mét vuông. Diện tích hình chữ nhật, diện tích hình vuông
+      EN: The area of a shape. Square centimetres. Area of rectangles and squares
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)

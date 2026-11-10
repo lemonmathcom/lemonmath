@@ -1,5 +1,5 @@
 GIAO VIỆC LEMONMATH – tài khoản Lemonmath112
-Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 8), mã B232–B252.
+Phân công ngày 10/11/2026 (thay toàn bộ phân công trước, kể cả bản B001–B294 gửi tối 10/11). Số bài: 15 bài song ngữ (lớp 8, lớp 9, lớp 11), mã B172–B186.
 Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
 
 QUY TẮC VIẾT (bắt buộc)
@@ -17,83 +17,58 @@ CÁCH NỘP
 - Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
 
 
-===== ĐỢT 1 (7 bài) =====
-
-[Lớp 8 – Dữ liệu và biểu đồ]
-B232  lớp 8  id: g8-collecting-classifying-data
-      VI: Thu thập và phân loại dữ liệu
-      EN: Collecting and classifying data
-B233  lớp 8  id: tables-and-charts
-      VI: Biểu diễn dữ liệu bằng bảng, biểu đồ
-      EN: Representing data in tables and charts
-B234  lớp 8  id: analysing-charts
-      VI: Phân tích số liệu thống kê dựa vào biểu đồ
-      EN: Analysing statistical data from charts
-
-[Lớp 8 – Phân thức đại số]
-B235  lớp 8  id: intro-algebraic-fractions
-      VI: Phân thức đại số
-      EN: Algebraic fractions
-B236  lớp 8  id: basic-property-algebraic-fractions
-      VI: Tính chất cơ bản của phân thức đại số
-      EN: The basic property of algebraic fractions
-B237  lớp 8  id: add-subtract-algebraic-fractions
-      VI: Phép cộng và phép trừ phân thức đại số
-      EN: Adding and subtracting algebraic fractions
-B238  lớp 8  id: multiply-divide-algebraic-fractions
-      VI: Phép nhân và phép chia phân thức đại số
-      EN: Multiplying and dividing algebraic fractions
-
-===== ĐỢT 2 (7 bài) =====
-
-[Lớp 8 – Phương trình bậc nhất và hàm số bậc nhất]
-B239  lớp 8  id: linear-equations-one-unknown
-      VI: Phương trình bậc nhất một ẩn
-      EN: Linear equations in one unknown
-B240  lớp 8  id: g8-equation-word-problems
-      VI: Giải bài toán bằng cách lập phương trình
-      EN: Solving word problems by forming equations
-B241  lớp 8  id: intro-functions-graphs
-      VI: Khái niệm hàm số và đồ thị của hàm số
-      EN: The idea of a function and its graph
-B242  lớp 8  id: gradient-of-a-line
-      VI: Hệ số góc của đường thẳng
-      EN: The gradient of a straight line
-
-[Lớp 8 – Mở đầu về tính xác suất của biến cố]
-B243  lớp 8  id: possible-favourable-outcomes
-      VI: Kết quả có thể và kết quả thuận lợi
-      EN: Possible outcomes and favourable outcomes
-B244  lớp 8  id: probability-as-a-ratio
-      VI: Cách tính xác suất của biến cố bằng tỉ số
-      EN: Calculating probability as a ratio
-B245  lớp 8  id: experimental-theoretical-probability
-      VI: Mối liên hệ giữa xác suất thực nghiệm với xác suất và ứng dụng
-      EN: Experimental and theoretical probability, with applications
-
-===== ĐỢT 3 (7 bài) =====
+===== DANH SÁCH BÀI (15 bài, viết theo thứ tự) =====
 
 [Lớp 8 – Tam giác đồng dạng]
-B246  lớp 8  id: similar-triangles
-      VI: Hai tam giác đồng dạng
-      EN: Similar triangles
-B247  lớp 8  id: triangle-similarity-conditions
-      VI: Ba trường hợp đồng dạng của hai tam giác
-      EN: The three similarity conditions for triangles
-B248  lớp 8  id: pythagoras-theorem
-      VI: Định lí Pythagore và ứng dụng
-      EN: Pythagoras' theorem and its applications
-B249  lớp 8  id: right-triangle-similarity
+B172  lớp 8  id: right-triangle-similarity
       VI: Các trường hợp đồng dạng của hai tam giác vuông
       EN: Similarity conditions for right-angled triangles
-B250  lớp 8  id: similar-shapes
+B173  lớp 8  id: similar-shapes
       VI: Hình đồng dạng
       EN: Similar shapes
 
 [Lớp 8 – Một số hình khối trong thực tiễn]
-B251  lớp 8  id: regular-triangular-pyramids
-      VI: Hình chóp tam giác đều
-      EN: Regular triangular pyramids
-B252  lớp 8  id: square-based-pyramids
-      VI: Hình chóp tứ giác đều
-      EN: Regular square-based pyramids
+B174  lớp 8  id: regular-triangular-pyramids
+      VI: Hình chóp tam giác đều. Hình chóp tứ giác đều
+      EN: Regular triangular pyramids. Regular square-based pyramids
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+
+[Lớp 9 – Ôn thi vào lớp 10]
+B175  lớp 9  id: entrance-exam-overview
+      VI: Đề thi vào 10 gồm những gì và cách ôn
+      EN: What the entrance exam covers and how to revise
+B176  lớp 9  id: review-radical-expressions
+      VI: Chuyên đề: rút gọn biểu thức chứa căn
+      EN: Topic: simplifying expressions with roots
+B177  lớp 9  id: review-quadratic-vieta
+      VI: Chuyên đề: phương trình bậc hai và định lí Viète
+      EN: Topic: quadratic equations and Viète's theorem
+B178  lớp 9  id: review-word-problems-equations
+      VI: Chuyên đề: giải bài toán bằng cách lập phương trình, hệ phương trình
+      EN: Topic: word problems with equations and systems
+B179  lớp 9  id: review-parabola-line
+      VI: Chuyên đề: parabol y = ax² và đường thẳng
+      EN: Topic: the parabola y = ax² and straight lines
+B180  lớp 9  id: review-circle-geometry
+      VI: Chuyên đề: hình học đường tròn
+      EN: Topic: circle geometry
+B181  lớp 9  id: review-right-triangle-real-life
+      VI: Chuyên đề: hệ thức lượng và hình học thực tế
+      EN: Topic: right-angled triangle trigonometry and real-life geometry
+B182  lớp 9  id: review-statistics-probability-g9
+      VI: Chuyên đề: thống kê và xác suất
+      EN: Topic: statistics and probability
+B183  lớp 9  id: practice-paper-grade10-1
+      VI: Đề luyện thi vào 10 số 1
+      EN: Entrance exam practice paper 1
+B184  lớp 9  id: practice-paper-grade10-2
+      VI: Đề luyện thi vào 10 số 2
+      EN: Entrance exam practice paper 2
+B185  lớp 9  id: practice-paper-grade10-3
+      VI: Đề luyện thi vào 10 số 3
+      EN: Entrance exam practice paper 3
+
+[Lớp 11 – Hàm số lượng giác và phương trình lượng giác]
+B186  lớp 11  id: angle-trig-values
+      VI: Giá trị lượng giác của góc lượng giác
+      EN: Trigonometric values of angles

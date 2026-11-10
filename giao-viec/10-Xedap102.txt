@@ -1,5 +1,5 @@
 GIAO VIỆC LEMONMATH – tài khoản Xedap102
-Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 9, lớp 11), mã B253–B273.
+Phân công ngày 10/11/2026 (thay toàn bộ phân công trước, kể cả bản B001–B294 gửi tối 10/11). Số bài: 15 bài song ngữ (lớp 11), mã B187–B201.
 Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
 
 QUY TẮC VIẾT (bắt buộc)
@@ -17,85 +17,59 @@ CÁCH NỘP
 - Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
 
 
-===== ĐỢT 1 (7 bài) =====
-
-[Lớp 9 – Ôn thi vào lớp 10]
-B253  lớp 9  id: entrance-exam-overview
-      VI: Đề thi vào 10 gồm những gì và cách ôn
-      EN: What the entrance exam covers and how to revise
-B254  lớp 9  id: review-radical-expressions
-      VI: Chuyên đề: rút gọn biểu thức chứa căn
-      EN: Topic: simplifying expressions with roots
-B255  lớp 9  id: review-quadratic-vieta
-      VI: Chuyên đề: phương trình bậc hai và định lí Viète
-      EN: Topic: quadratic equations and Viète's theorem
-B256  lớp 9  id: review-word-problems-equations
-      VI: Chuyên đề: giải bài toán bằng cách lập phương trình, hệ phương trình
-      EN: Topic: word problems with equations and systems
-B257  lớp 9  id: review-parabola-line
-      VI: Chuyên đề: parabol y = ax² và đường thẳng
-      EN: Topic: the parabola y = ax² and straight lines
-B258  lớp 9  id: review-circle-geometry
-      VI: Chuyên đề: hình học đường tròn
-      EN: Topic: circle geometry
-B259  lớp 9  id: review-right-triangle-real-life
-      VI: Chuyên đề: hệ thức lượng và hình học thực tế
-      EN: Topic: right-angled triangle trigonometry and real-life geometry
-
-===== ĐỢT 2 (7 bài) =====
-
-[Lớp 9 – Ôn thi vào lớp 10]
-B260  lớp 9  id: review-statistics-probability-g9
-      VI: Chuyên đề: thống kê và xác suất
-      EN: Topic: statistics and probability
-B261  lớp 9  id: practice-paper-grade10-1
-      VI: Đề luyện thi vào 10 số 1
-      EN: Entrance exam practice paper 1
-B262  lớp 9  id: practice-paper-grade10-2
-      VI: Đề luyện thi vào 10 số 2
-      EN: Entrance exam practice paper 2
-B263  lớp 9  id: practice-paper-grade10-3
-      VI: Đề luyện thi vào 10 số 3
-      EN: Entrance exam practice paper 3
+===== DANH SÁCH BÀI (15 bài, viết theo thứ tự) =====
 
 [Lớp 11 – Hàm số lượng giác và phương trình lượng giác]
-B264  lớp 11  id: angle-trig-values
-      VI: Giá trị lượng giác của góc lượng giác
-      EN: Trigonometric values of angles
-B265  lớp 11  id: trig-formulas
+B187  lớp 11  id: trig-formulas
       VI: Công thức lượng giác
       EN: Trigonometric formulas
-B266  lớp 11  id: trig-function-graphs
+B188  lớp 11  id: trig-function-graphs
       VI: Hàm số lượng giác
       EN: Trigonometric functions
-
-===== ĐỢT 3 (7 bài) =====
-
-[Lớp 11 – Hàm số lượng giác và phương trình lượng giác]
-B267  lớp 11  id: basic-trig-equations
+B189  lớp 11  id: basic-trig-equations
       VI: Phương trình lượng giác cơ bản
       EN: Basic trigonometric equations
 
 [Lớp 11 – Dãy số. Cấp số cộng. Cấp số nhân]
-B268  lớp 11  id: sequences-intro
+B190  lớp 11  id: sequences-intro
       VI: Dãy số
       EN: Sequences
-B269  lớp 11  id: arithmetic-progressions
+B191  lớp 11  id: arithmetic-progressions
       VI: Cấp số cộng
       EN: Arithmetic progressions
-B270  lớp 11  id: geometric-progressions
+B192  lớp 11  id: geometric-progressions
       VI: Cấp số nhân
       EN: Geometric progressions
 
 [Lớp 11 – Các số đặc trưng đo xu thế trung tâm của mẫu số liệu ghép nhóm]
-B271  lớp 11  id: grouped-data
+B193  lớp 11  id: grouped-data
       VI: Mẫu số liệu ghép nhóm
       EN: Grouped data
-B272  lớp 11  id: grouped-central-tendency
+B194  lớp 11  id: grouped-central-tendency
       VI: Các số đặc trưng đo xu thế trung tâm
       EN: Mean, median, quartiles and mode of grouped data
 
 [Lớp 11 – Quan hệ song song trong không gian]
-B273  lớp 11  id: lines-planes-space
+B195  lớp 11  id: lines-planes-space
       VI: Đường thẳng và mặt phẳng trong không gian
       EN: Lines and planes in space
+B196  lớp 11  id: parallel-lines-space
+      VI: Hai đường thẳng song song
+      EN: Parallel lines in space
+B197  lớp 11  id: line-plane-parallel
+      VI: Đường thẳng và mặt phẳng song song
+      EN: A line parallel to a plane
+B198  lớp 11  id: parallel-planes
+      VI: Hai mặt phẳng song song
+      EN: Parallel planes
+B199  lớp 11  id: parallel-projection
+      VI: Phép chiếu song song
+      EN: Parallel projection
+
+[Lớp 11 – Giới hạn. Hàm số liên tục]
+B200  lớp 11  id: sequence-limits
+      VI: Giới hạn của dãy số
+      EN: Limits of sequences
+B201  lớp 11  id: function-limits
+      VI: Giới hạn của hàm số
+      EN: Limits of functions
