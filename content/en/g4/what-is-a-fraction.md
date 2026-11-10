@@ -52,6 +52,8 @@ We start by writing a fraction for a shape.
 :::example Writing a fraction from a picture
 A cake is cut into $8$ equal pieces. Mai eats $3$ pieces. Write the fraction that shows the part of the cake Mai ate.
 
+![A round cake divided into eight equal slices, with three shown only as dashed outlines](/assets/img/g4/g4-what-is-a-fraction-01.svg)
+
 **Solution.** The whole is cut into $8$ equal parts, so the denominator is $8$. Mai takes $3$ parts, so the numerator is $3$:
 $$\frac{3}{8}.$$
 So Mai ate $\dfrac{3}{8}$ of the cake.
@@ -70,6 +72,8 @@ We can also write a fraction for the part that is left.
 
 :::example The part left over
 A square is cut into $6$ equal parts and $5$ parts are coloured in. Write the fraction for the coloured part and the fraction for the part that is not coloured.
+
+![A square divided into six equal parts with five shaded](/assets/img/g4/g4-what-is-a-fraction-02.svg)
 
 **Solution.** The denominator stays $6$ because the whole is cut into $6$ parts. The coloured part is $5$ parts, and the part not coloured is $6-5=1$ part:
 $$\frac{5}{6}\ \text{(coloured)},\qquad \frac{1}{6}\ \text{(not coloured)}.$$
@@ -116,6 +120,8 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 
 :::exercise
 A rectangle is cut into $5$ equal parts and $2$ parts are coloured in. Write the fraction for the coloured part.
+
+![A rectangle divided into five equal parts with two shaded](/assets/img/g4/g4-what-is-a-fraction-03.svg)
 
 ::hint
 **What you need:** the denominator is the number of equal parts and the numerator is the number of coloured parts.
@@ -231,6 +237,8 @@ a) $\dfrac{5}{12}$. b) $\dfrac{4}{12}$. c) The squares left are $12-5-4=3$, so $
 
 :::exercise Challenge
 A paper strip is cut into $8$ equal parts. You colour $3$ parts blue and $2$ parts red, and leave the rest white. Write the fraction for each colour and the fraction for the part that is coloured (both colours together).
+
+![An eight-part strip with three blue, two red, and three white parts](/assets/img/g4/g4-what-is-a-fraction-04.svg)
 
 ::hint
 **What you need:** the denominator is always $8$; find the white parts by subtracting.

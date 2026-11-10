@@ -18,6 +18,8 @@ Because everyone's hand span is a different length. To make everyone measure the
 
 Take a ruler that is $10$ cm long. A length of $10$ cm is called $1$ **decimetre**, written dm.
 
+![A ruler from 0 to 10 cm with a bracket showing 1 dm equals 10 cm](/assets/img/g2/g2-decimetres-metres-kilometres-01.svg)
+
 - $1$ dm $=10$ cm.
 
 Now pick up your teacher's metre rule. It is as long as $10$ of those $1$ dm rulers placed end to end. This length is called $1$ **metre**, written m.

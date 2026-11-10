@@ -49,6 +49,8 @@ Ta bắt đầu bằng một bài lập bảng từ một dãy ngắn.
 :::example Màu áo
 Mai ghi màu áo của $10$ bạn: đỏ, xanh, đỏ, vàng, xanh, xanh, đỏ, xanh, vàng, xanh. Hãy lập bảng số liệu.
 
+![Mười chiếc áo theo thứ tự màu đỏ, xanh, đỏ, vàng, xanh, xanh, đỏ, xanh, vàng, xanh](/assets/img/g3/g3-data-tables-01.svg)
+
 **Lời giải.** Ta đọc dãy một lượt, kẻ vạch vào hàng đúng màu:
 
 | Màu áo | Vạch kiểm đếm | Số bạn |
@@ -150,6 +152,8 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 
 :::exercise
 Em ghi lại các con vật các bạn thích: mèo, chó, mèo, cá, chó, mèo, mèo, cá. Hãy lập bảng số liệu (có cột vạch kiểm đếm).
+
+![Tám con vật theo thứ tự mèo, chó, mèo, cá, chó, mèo, mèo, cá](/assets/img/g3/g3-data-tables-02.svg)
 
 ::hint
 **Kiến thức:** phân loại rồi đếm bằng vạch, mỗi số liệu một vạch.

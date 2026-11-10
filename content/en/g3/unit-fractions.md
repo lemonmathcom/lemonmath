@@ -63,6 +63,8 @@ We start by naming one part.
 :::example A piece of string
 A piece of string is cut into $3$ equal lengths. What fraction of the string is each length?
 
+![A rope with two cut marks dividing it into three equal sections](/assets/img/g3/g3-unit-fractions-01.svg)
+
 **Solution.** The string is split into $3$ equal parts, so each length is one third of the string:
 $$\dfrac{1}{3}.$$
 So each length is $\dfrac{1}{3}$ of the string.
@@ -148,6 +150,8 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 
 :::exercise
 Each shape is split into equal parts. Write the fraction for one part:
+
+![Three fraction diagrams divided into 2, 3, and 8 equal parts with one part shaded](/assets/img/g3/g3-unit-fractions-02.svg)
 
 a) A shape split into $2$ equal parts.
 

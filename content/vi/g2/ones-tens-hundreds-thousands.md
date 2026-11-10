@@ -18,6 +18,8 @@ Mai có $10$ viên bi lẻ. Mai bỏ cả $10$ viên vào một túi. Hỏi $10$
 
 Em đã biết đếm đến $10$. Khi có $10$ vật lẻ, ta gói lại thành một nhóm gọi là **một chục**.
 
+![Bốn khối đếm lần lượt biểu diễn 1, 10, 100 và 1 000](/assets/img/g2/g2-ones-tens-hundreds-thousands-01.svg)
+
 - $10$ vật lẻ (mỗi vật là $1$ **đơn vị**) gói thành $1$ **chục**.
 - $10$ túi như vậy (mỗi túi là $1$ chục) gộp lại thành $1$ **trăm**.
 - $10$ hộp như vậy (mỗi hộp là $1$ trăm) gộp lại thành $1$ **nghìn**.

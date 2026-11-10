@@ -83,6 +83,8 @@ Last, solve a word problem.
 :::example Hens and ducks
 Grandma has $4$ hens and $5$ ducks. How many hens and ducks does she have altogether?
 
+![Four chickens on the left and five ducks on the right](/assets/img/g1/g1-addition-within-10-01.svg)
+
 **Solution.** "Altogether" means putting the two groups together, so we add. Count on $4$ numbers from the bigger number $5$: "six, seven, eight, nine":
 $$4+5=5+4=9.$$
 So Grandma has $9$ birds.

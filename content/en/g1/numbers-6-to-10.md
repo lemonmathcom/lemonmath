@@ -57,6 +57,8 @@ We start with counting pencils.
 :::example Counting pencils
 There are six pencils in a box. Write the number of pencils.
 
+![An open pencil case holding six colorful pencils](/assets/img/g1/g1-numbers-6-to-10-01.svg)
+
 **Solution.** You count: "one, two, three, four, five, six". The last number is six.
 
 So there are $6$ pencils.
@@ -66,6 +68,8 @@ Now count fingers.
 
 :::example Counting fingers
 How many fingers are on your two hands?
+
+![Two open hands with five fingers on each hand](/assets/img/g1/g1-numbers-6-to-10-02.svg)
 
 **Solution.** Each hand has $5$ fingers. Count the first hand up to $5$, then carry on: "six, seven, eight, nine, ten".
 
@@ -206,6 +210,8 @@ Ten is written $10$, not $01$. Binh is wrong.
 
 :::exercise
 An counts eight chairs and says: "one, two, three, four, five, six, eight". Where did An go wrong? What is the right count?
+
+![Eight matching chairs arranged in one row](/assets/img/g1/g1-numbers-6-to-10-03.svg)
 
 ::hint
 **What you need:** say every number in order.

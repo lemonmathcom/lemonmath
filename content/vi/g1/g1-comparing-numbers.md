@@ -54,6 +54,8 @@ Ta bắt đầu với câu hỏi ở đầu bài.
 :::example Kẹo của Lan và Nam
 Lan có $6$ cái kẹo, Nam có $8$ cái kẹo. So sánh $8$ và $6$.
 
+![Hai hàng kẹo thẳng cột, hàng trên sáu viên và hàng dưới tám viên](/assets/img/g1/g1-comparing-numbers-01.svg)
+
 **Lời giải.** Trên tia số, $8$ đứng bên phải $6$, nên $8$ lớn hơn $6$.
 
 Vậy $8>6$, Nam có nhiều kẹo hơn.

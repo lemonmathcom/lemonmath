@@ -18,6 +18,8 @@ Vì gang tay của mỗi người dài khác nhau. Muốn mọi người đo gi�
 
 Em dùng thước kẻ dài $10$ cm. Đoạn dài $10$ cm gọi là $1$ **đề-xi-mét**, viết tắt là dm.
 
+![Thước kẻ từ 0 đến 10 cm với ngoặc chỉ 1 dm bằng 10 cm](/assets/img/g2/g2-decimetres-metres-kilometres-01.svg)
+
 - $1$ dm $=10$ cm.
 
 Em cầm thước mét của cô giáo. Thước dài bằng $10$ thước kẻ $1$ dm đặt nối nhau. Độ dài này gọi là $1$ **mét**, viết tắt là m.

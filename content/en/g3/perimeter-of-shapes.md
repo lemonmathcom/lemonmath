@@ -129,6 +129,8 @@ Now let's use perimeter to answer a question from everyday life.
 :::example Building a fence
 Mr Hung puts a fence round a rectangular garden that is $15$ m long and $8$ m wide. How long is the fence?
 
+![A rectangular fenced garden measuring 15 m by 8 m](/assets/img/g3/g3-perimeter-of-shapes-01.svg)
+
 **Solution.** "Round the garden" means going once all the way round its edge, so we find the perimeter:
 $$(15+8)\times2=23\times2=46\ \text{(m)}.$$
 So the fence is $46$ m long.
@@ -258,6 +260,8 @@ b) The wire is as long as the perimeter of the triangle: $8+9+10=27$ (cm).
 :::exercise
 Find the perimeter of each shape below in the quickest way. Why did you choose that way?
 
+![Three shapes with side lengths: a square, rectangle, and irregular quadrilateral](/assets/img/g3/g3-perimeter-of-shapes-02.svg)
+
 a) A square with side $9$ cm.
 
 b) A rectangle $11$ cm long and $4$ cm wide.
@@ -328,6 +332,8 @@ b) $58-2=56$ (m).
 
 :::exercise Challenge
 Put two squares, each with side $3$ cm, side by side to make one rectangle.
+
+![Two 3 cm squares joined side by side with a dashed shared edge](/assets/img/g3/g3-perimeter-of-shapes-03.svg)
 
 a) Find the perimeter of the rectangle.
 

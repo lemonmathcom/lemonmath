@@ -95,6 +95,8 @@ Cuối cùng em đếm các hình trong một hình ghép.
 :::example Ngôi nhà ghép từ hình
 Em ghép một ngôi nhà từ một hình vuông (thân nhà) và một hình tam giác (mái nhà). Em đã dùng mấy hình?
 
+![Ngôi nhà ghép từ một hình vuông và một hình tam giác](/assets/img/g1/g1-squares-circles-triangles-rectangles-01.svg)
+
 **Lời giải.** Em đếm: một hình vuông, một hình tam giác. Em đếm: "một, hai".
 
 Vậy em đã dùng $2$ hình.
@@ -233,6 +235,8 @@ Bảng cho biết số hình trong một bức tranh:
 |---|---|---|---|---|
 | Số hình | $3$ | $5$ | $2$ | $4$ |
 
+![Bức tranh đoàn tàu ghép từ ba hình vuông, năm hình tròn, hai hình tam giác và bốn hình chữ nhật](/assets/img/g1/g1-squares-circles-triangles-rectangles-02.svg)
+
 a) Hình nào nhiều nhất?
 b) Hình nào ít nhất?
 
@@ -251,6 +255,8 @@ a) Số lớn nhất là $5$, ở hình tròn. b) Số bé nhất là $2$, ở h
 
 :::exercise Thử thách
 Em cắt một tờ giấy hình vuông theo một đường thẳng nối hai góc đối diện. Em được mấy mảnh? Mỗi mảnh là hình gì?
+
+![Tờ giấy hình vuông có đường cắt chéo nét đứt và biểu tượng kéo](/assets/img/g1/g1-squares-circles-triangles-rectangles-03.svg)
 
 ::hint
 **Kiến thức:** hình tam giác có $3$ cạnh và $3$ góc.

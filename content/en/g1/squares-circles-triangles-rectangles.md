@@ -95,6 +95,8 @@ Last, count the shapes in a picture made of shapes.
 :::example A house made of shapes
 You make a house from one square (the walls) and one triangle (the roof). How many shapes did you use?
 
+![A house made from one square and one triangle](/assets/img/g1/g1-squares-circles-triangles-rectangles-01.svg)
+
 **Solution.** Count: one square, one triangle. You count: "one, two".
 
 So you used $2$ shapes.
@@ -233,6 +235,8 @@ The table shows how many shapes are in a picture:
 |---|---|---|---|---|
 | Number | $3$ | $5$ | $2$ | $4$ |
 
+![A train picture made from three squares, five circles, two triangles, and four rectangles](/assets/img/g1/g1-squares-circles-triangles-rectangles-02.svg)
+
 a) Which shape is there most of?
 b) Which shape is there least of?
 
@@ -251,6 +255,8 @@ a) The greatest number is $5$, for circles. b) The least number is $2$, for tria
 
 :::exercise Challenge
 You cut a square sheet of paper along a straight line joining two opposite corners. How many pieces do you get? What shape is each piece?
+
+![A square sheet with a dashed diagonal cutting line and scissors](/assets/img/g1/g1-squares-circles-triangles-rectangles-03.svg)
 
 ::hint
 **What you need:** a triangle has $3$ sides and $3$ corners.

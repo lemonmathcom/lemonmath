@@ -18,6 +18,8 @@ Bài này giúp em trả lời những câu hỏi như vậy, chỉ bằng cách
 
 Có ba chiếc hộp. Mỗi lần, ta nhắm mắt lấy ra một viên bi.
 
+![Ba hộp A, B, C lần lượt chứa năm bi đỏ; ba bi đỏ và hai bi xanh; năm bi xanh](/assets/img/g3/g3-likelihood-of-an-event-01.svg)
+
 - **Hộp A:** $5$ viên bi đỏ.
 - **Hộp B:** $3$ viên bi đỏ và $2$ viên bi xanh.
 - **Hộp C:** $5$ viên bi xanh.

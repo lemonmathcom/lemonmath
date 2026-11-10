@@ -76,6 +76,8 @@ Last, solve an everyday problem.
 :::example Sharing sweets on two plates
 $8$ sweets are shared between two plates. The first plate has $3$ sweets. How many sweets are on the second plate?
 
+![Two plates: three candies on the left plate and a question-mark cloth over the right plate](/assets/img/g1/g1-number-bonds-01.svg)
+
 **Solution.** You need to know what $8$ is made of $3$ and. Count on from $3$ to $8$: "four, five, six, seven, eight". You counted $5$ numbers.
 
 So the second plate has $5$ sweets.

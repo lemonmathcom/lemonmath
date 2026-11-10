@@ -90,6 +90,8 @@ Finally, a problem about stacking blocks.
 :::example Stacking blocks
 Nam stacks small cubes in $3$ layers, with $4$ cubes in each layer. How many cubes does Nam use altogether?
 
+![Small cubes stacked in three layers of four](/assets/img/g3/g3-cubes-and-cuboids-01.svg)
+
 **Solution.** There are $3$ layers of $4$ cubes, so we multiply:
 $$4\times3=12\ \text{(cubes)}.$$
 
@@ -191,6 +193,8 @@ The top is equal to the base, so it is $8$ cm long and $5$ cm wide.
 
 :::exercise
 An stacks small cubes in $4$ layers, with $6$ cubes in each layer. How many cubes does An use altogether?
+
+![Small cubes stacked in four layers of six](/assets/img/g3/g3-cubes-and-cuboids-02.svg)
 
 ::hint
 **What you need:** $4$ layers of $6$ cubes: use multiplication.

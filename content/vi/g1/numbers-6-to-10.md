@@ -57,6 +57,8 @@ Ta bắt đầu với việc đếm bút chì.
 :::example Đếm bút chì
 Trong hộp có sáu cái bút chì. Viết số bút chì.
 
+![Hộp bút mở chứa sáu bút chì nhiều màu](/assets/img/g1/g1-numbers-6-to-10-01.svg)
+
 **Lời giải.** Em đếm: "một, hai, ba, bốn, năm, sáu". Số cuối cùng là sáu.
 
 Vậy có $6$ cái bút chì.
@@ -66,6 +68,8 @@ Bây giờ em đếm các ngón tay.
 
 :::example Đếm ngón tay
 Hai bàn tay của em có bao nhiêu ngón tay?
+
+![Hai bàn tay xòe, mỗi tay có năm ngón](/assets/img/g1/g1-numbers-6-to-10-02.svg)
 
 **Lời giải.** Mỗi bàn tay có $5$ ngón. Em đếm ngón của bàn tay thứ nhất đến $5$, rồi đếm tiếp: "sáu, bảy, tám, chín, mười".
 
@@ -206,6 +210,8 @@ Số mười viết là $10$, không phải $01$. Bình viết sai.
 
 :::exercise
 An đếm tám cái ghế và nói: "một, hai, ba, bốn, năm, sáu, tám". An đếm sai ở đâu? Đếm đúng như thế nào?
+
+![Tám chiếc ghế giống nhau xếp thành một hàng](/assets/img/g1/g1-numbers-6-to-10-03.svg)
 
 ::hint
 **Kiến thức:** đếm đủ các số theo thứ tự.

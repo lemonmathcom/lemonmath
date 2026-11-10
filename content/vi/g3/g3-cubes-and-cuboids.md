@@ -90,6 +90,8 @@ Cuối cùng là một bài toán xếp khối.
 :::example Xếp khối
 Nam xếp các khối lập phương nhỏ thành $3$ lớp, mỗi lớp có $4$ khối. Nam đã dùng tất cả bao nhiêu khối?
 
+![Các khối lập phương nhỏ xếp thành ba lớp, mỗi lớp bốn khối](/assets/img/g3/g3-cubes-and-cuboids-01.svg)
+
 **Lời giải.** Có $3$ lớp, mỗi lớp $4$ khối, nên ta làm phép nhân:
 $$4\times3=12\ \text{(khối)}.$$
 
@@ -191,6 +193,8 @@ Mặt nắp bằng mặt đáy nên dài $8$ cm, rộng $5$ cm.
 
 :::exercise
 An xếp các khối lập phương nhỏ thành $4$ lớp, mỗi lớp có $6$ khối. An đã dùng tất cả bao nhiêu khối?
+
+![Các khối lập phương nhỏ xếp thành bốn lớp, mỗi lớp sáu khối](/assets/img/g3/g3-cubes-and-cuboids-02.svg)
 
 ::hint
 **Kiến thức:** $4$ lớp, mỗi lớp $6$ khối: dùng phép nhân.

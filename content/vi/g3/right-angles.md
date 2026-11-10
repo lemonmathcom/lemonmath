@@ -83,6 +83,8 @@ Tiếp theo, em tìm góc vuông quanh mình.
 :::example Góc vuông quanh em
 Trong các đồ vật sau, đồ vật nào có góc vuông: góc của tờ giấy hình chữ nhật, hai kim đồng hồ lúc $3$ giờ đúng, hai kim đồng hồ lúc $1$ giờ đúng, mái nhà hình chữ A?
 
+![Góc tờ giấy, đồng hồ 3 giờ, đồng hồ 1 giờ và mái nhà chữ A](/assets/img/g3/g3-right-angles-01.svg)
+
 **Lời giải.** Em kiểm tra từng đồ vật bằng ê-ke.
 
 - Góc tờ giấy hình chữ nhật khớp ê-ke: góc vuông.
@@ -282,6 +284,8 @@ Nam chỉ nhìn bằng mắt nên có thể nhầm với góc gần vuông. Em d
 :::exercise
 a) Trong các chữ cái $L$, $V$, $T$, chữ nào có góc vuông?
 
+![Ba chữ cái L, V, T và một đồng hồ chỉ 3 giờ](/assets/img/g3/g3-right-angles-02.svg)
+
 b) Hai kim đồng hồ lúc $3$ giờ đúng tạo thành góc gì?
 
 ::hint
@@ -301,6 +305,8 @@ b) Hai kim lúc $3$ giờ đúng tạo thành góc vuông.
 
 :::exercise Thử thách
 Một tờ giấy hình chữ nhật có $4$ góc vuông. Em cắt bỏ một góc bằng một nhát cắt thẳng (nhát cắt không đi qua góc nào khác). Tờ giấy còn lại có mấy góc vuông?
+
+![Tờ giấy hình chữ nhật có đường cắt chéo qua một góc và biểu tượng kéo](/assets/img/g3/g3-right-angles-03.svg)
 
 ::hint
 **Kiến thức:** cắt bỏ một góc là bỏ đi một góc vuông của tờ giấy.

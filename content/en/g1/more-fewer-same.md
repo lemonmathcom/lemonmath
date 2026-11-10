@@ -18,6 +18,8 @@ You could count each group. This lesson shows you another way that needs no coun
 
 Put one spoon in each cup, one spoon for each cup.
 
+![Four cups with one spoon in each and one extra spoon beside them](/assets/img/g1/g1-more-fewer-same-01.svg)
+
 - The first cup has one spoon. The second cup has one spoon.
 - The third cup and the fourth cup also have one spoon each.
 - All four cups have a spoon, but one spoon is left over.
@@ -224,6 +226,8 @@ a) Nam has $7$ sweets, which is $2$ more than Mai. b) Mai and Ha both have $5$ s
 
 :::exercise Challenge
 Group A has $6$ circles and group B has $9$ circles. How many circles must you draw in group A to make the two groups the same?
+
+![Frame A has six circles and frame B has nine circles](/assets/img/g1/g1-more-fewer-same-02.svg)
 
 ::hint
 **What you need:** match group A with group B; the circles left over in B show how many to draw.

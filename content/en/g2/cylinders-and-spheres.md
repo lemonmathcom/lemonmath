@@ -18,6 +18,8 @@ Why are the two objects different? Today you will find the answer with two new s
 
 Pick up a tin of milk. Feel both ends: the top and the bottom are flat. Feel around the side of the tin: this part is curved.
 
+![A cylindrical milk can and a spherical ball](/assets/img/g2/g2-cylinders-and-spheres-01.svg)
+
 Now pick up a ball. Feel all over it: it is curved everywhere, with no flat part at all.
 
 We write down what we found in a table:
@@ -65,6 +67,8 @@ Now we sort many objects at once.
 :::example Sorting objects
 On the table there are: a round cake tin, a marble, a cylinder-shaped cup, a football, a bamboo tube and a table-tennis ball. How many cylinders and how many spheres are there?
 
+![Six objects on a table: a round tin, marble, cylindrical cup, soccer ball, bamboo tube, and ping-pong ball](/assets/img/g2/g2-cylinders-and-spheres-02.svg)
+
 **Solution.** Put each object in its group:
 
 - Cylinders (two flat bases): the cake tin, the cup, the bamboo tube. That is $3$ objects.
@@ -77,6 +81,8 @@ Finally, you use what you know to choose objects for building a tower.
 
 :::example Building a tower
 Nam has $4$ tins of milk and $3$ balls. He wants to build a tall tower. Which should he use? Why?
+
+![Four milk cans standing beside three balls on the floor](/assets/img/g2/g2-cylinders-and-spheres-03.svg)
 
 **Solution.** To build a tower, the objects must sit on top of each other without rolling. A tin is a cylinder with flat bases, so it can be stacked. A ball is a sphere with no flat face, so it rolls away.
 

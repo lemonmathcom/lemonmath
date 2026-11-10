@@ -18,6 +18,8 @@ You know that $345$ has $3$ hundreds, $4$ tens and $5$ ones. This lesson shows y
 
 The number $345$ is made of $3$ hundreds, $4$ tens and $5$ ones. We work out the value of each part:
 
+![Base-ten blocks showing three hundreds, four tens, and five ones](/assets/img/g2/g2-partitioning-hundreds-tens-ones-01.svg)
+
 - $3$ hundreds is $300$.
 - $4$ tens is $40$.
 - $5$ ones is $5$.

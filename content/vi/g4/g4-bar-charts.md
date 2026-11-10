@@ -221,6 +221,8 @@ Thứ Sáu mượn $4$ quyển, gấp đôi là $4\times2=8$ quyển. Cột ghi 
 :::exercise
 Biểu đồ cột cho số bạn thích môn thể thao: cột bóng đá cao $12$, cột bơi $8$, cột cầu lông $6$, cột cờ vua $4$. Muốn biết tổng số bạn được hỏi, ta làm phép tính gì? Vì sao? Tính kết quả.
 
+![Biểu đồ cột số bạn thích bóng đá, bơi, cầu lông và cờ vua](/assets/img/g4/g4-bar-charts-01-vi.svg)
+
 ::hint
 **Kiến thức:** mỗi cột là số bạn của một môn; mỗi bạn chỉ chọn một môn.
 
@@ -255,6 +257,8 @@ Biểu đồ cột cho số cây trồng của bốn lớp, mỗi vạch ứng v
 a) Mỗi lớp trồng bao nhiêu cây?
 b) Lớp nhiều nhất trồng hơn lớp ít nhất bao nhiêu cây?
 c) Trung bình mỗi lớp trồng bao nhiêu cây?
+
+![Biểu đồ cột số cây trồng của các lớp 4A, 4B, 4C, 4D, mỗi vạch lưới ứng với 5 cây](/assets/img/g4/g4-bar-charts-02.svg)
 
 ::hint
 **Kiến thức:** số cây bằng số vạch nhân $5$.

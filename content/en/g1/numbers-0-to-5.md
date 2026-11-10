@@ -57,6 +57,8 @@ We start with something very simple: counting birds.
 :::example Counting birds
 There are three birds in a tree. Write the number of birds.
 
+![Three birds sitting on one branch](/assets/img/g1/g1-numbers-0-to-5-01.svg)
+
 **Solution.** You count: "one, two, three". The last number you say is three.
 
 So there are $3$ birds.
@@ -67,6 +69,8 @@ Now count a group with more things.
 :::example Counting balloons
 Nam holds five balloons. Write the number of balloons.
 
+![Five colorful balloons with strings gathered below](/assets/img/g1/g1-numbers-0-to-5-02.svg)
+
 **Solution.** Count each balloon: "one, two, three, four, five". The last number is five.
 
 So there are $5$ balloons.
@@ -76,6 +80,8 @@ Sometimes there is nothing to count.
 
 :::example An empty fish tank
 There is no fish in the tank. Write the number of fish.
+
+![An aquarium with water, plants, and stones but no fish](/assets/img/g1/g1-numbers-0-to-5-03.svg)
 
 **Solution.** There is no fish to count, so you write zero.
 

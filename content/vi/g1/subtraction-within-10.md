@@ -86,6 +86,8 @@ Cuối cùng em giải một bài toán có lời văn.
 :::example Bóng bay
 Bình có $9$ quả bóng bay. Gió thổi bay mất $4$ quả. Hỏi Bình còn lại mấy quả bóng bay?
 
+![Chín quả bóng bay, bốn quả đang bị gió thổi bay đi](/assets/img/g1/g1-subtraction-within-10-01.svg)
+
 **Lời giải.** "Bay mất" nghĩa là bớt đi, nên em làm phép trừ. Em đếm lùi $4$ số từ $9$: "tám, bảy, sáu, năm":
 $$9-4=5\ \text{(quả)}.$$
 Vậy Bình còn lại $5$ quả bóng bay.

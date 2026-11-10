@@ -110,6 +110,8 @@ Cuối cùng, ta xem một đoạn thẳng có thể chia hình thành những h
 :::example Chia hình chữ nhật
 Nối hai đỉnh đối diện $A$ và $C$ của hình chữ nhật $ABCD$. Hình chữ nhật được chia thành mấy hình tam giác?
 
+![Hình chữ nhật ABCD có đường nối từ A đến C](/assets/img/g3/g3-triangles-quadrilaterals-rectangles-01.svg)
+
 **Lời giải.** Đoạn $AC$ chia hình chữ nhật thành hai hình, mỗi hình có $3$ đỉnh và $3$ cạnh. Đó là tam giác $ABC$ và tam giác $ACD$.
 
 Vậy hình chữ nhật được chia thành $2$ hình tam giác.

@@ -83,6 +83,8 @@ Next, find right angles around you.
 :::example Right angles around you
 Which of these has a right angle: a corner of a rectangular sheet of paper, the two hands of a clock at exactly $3$ o'clock, the two hands of a clock at exactly $1$ o'clock, a roof shaped like the letter A?
 
+![A paper corner, clocks at 3 and 1 o'clock, and an A-shaped roof](/assets/img/g3/g3-right-angles-01.svg)
+
 **Solution.** Test each one with a set square.
 
 - A corner of a rectangular sheet fits the set square: a right angle.
@@ -282,6 +284,8 @@ Nam only used his eyes, which can be fooled by an angle that is nearly right. Yo
 :::exercise
 a) Of the letters $L$, $V$ and $T$, which have a right angle?
 
+![The letters L, V, T and a clock showing 3 o'clock](/assets/img/g3/g3-right-angles-02.svg)
+
 b) What kind of angle do the clock hands make at exactly $3$ o'clock?
 
 ::hint
@@ -301,6 +305,8 @@ b) The clock hands at exactly $3$ o'clock make a right angle.
 
 :::exercise Challenge
 A rectangular sheet of paper has $4$ right angles. You cut off one corner with a single straight cut (the cut does not pass through any other corner). How many right angles does the sheet have left?
+
+![A rectangular sheet with a diagonal cut across one corner and scissors](/assets/img/g3/g3-right-angles-03.svg)
 
 ::hint
 **What you need:** cutting off a corner removes one right angle from the sheet.

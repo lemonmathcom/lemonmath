@@ -18,6 +18,8 @@ Vì sao hai vật này khác nhau? Hôm nay em sẽ tìm câu trả lời qua ha
 
 Em hãy cầm một lon sữa. Sờ vào hai đầu: đầu trên và đầu dưới đều phẳng. Sờ xung quanh thân lon: chỗ này cong.
 
+![Một lon sữa hình trụ và một quả bóng hình cầu](/assets/img/g2/g2-cylinders-and-spheres-01.svg)
+
 Bây giờ em cầm một quả bóng. Sờ khắp quả bóng: chỗ nào cũng cong, không có chỗ nào phẳng.
 
 Ta ghi lại những điều vừa thấy vào bảng:
@@ -65,6 +67,8 @@ Bây giờ ta phân loại nhiều đồ vật cùng lúc.
 :::example Phân loại đồ vật
 Trên bàn có: hộp bánh tròn, viên bi, cái cốc hình trụ, quả bóng đá, ống tre, quả bóng bàn. Có mấy khối trụ, mấy khối cầu?
 
+![Sáu đồ vật trên bàn: hộp bánh tròn, viên bi, cốc hình trụ, bóng đá, ống tre và bóng bàn](/assets/img/g2/g2-cylinders-and-spheres-02.svg)
+
 **Lời giải.** Em xếp từng vật vào nhóm:
 
 - Khối trụ (có hai đáy phẳng): hộp bánh tròn, cái cốc, ống tre. Có $3$ vật.
@@ -77,6 +81,8 @@ Cuối cùng, em dùng hiểu biết này để chọn vật cho việc xếp th
 
 :::example Xếp tháp
 Nam có $4$ lon sữa và $3$ quả bóng. Nam muốn xếp một cái tháp cao. Nam nên dùng loại nào? Vì sao?
+
+![Bốn lon sữa đứng cạnh ba quả bóng trên sàn](/assets/img/g2/g2-cylinders-and-spheres-03.svg)
 
 **Lời giải.** Muốn xếp tháp, các vật phải đặt chồng lên nhau mà không lăn. Lon sữa là khối trụ, có đáy phẳng nên đặt chồng được. Quả bóng là khối cầu, không có mặt phẳng nên sẽ lăn.
 

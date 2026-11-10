@@ -18,6 +18,8 @@ Em có thể đếm từng nhóm. Bài này dạy em một cách khác, không c
 
 Em đặt mỗi cái thìa vào một cái cốc, mỗi cốc chỉ một thìa.
 
+![Bốn cốc, mỗi cốc có một thìa, và một thìa thừa nằm riêng](/assets/img/g1/g1-more-fewer-same-01.svg)
+
 - Cốc thứ nhất có một thìa. Cốc thứ hai có một thìa.
 - Cốc thứ ba và cốc thứ tư cũng có một thìa.
 - Cả bốn cốc đều có thìa, nhưng còn thừa một cái thìa.
@@ -224,6 +226,8 @@ a) Nam có $7$ kẹo, hơn Mai $2$ kẹo. b) Mai và Hà đều có $5$ kẹo.
 
 :::exercise Thử thách
 Nhóm A có $6$ hình tròn, nhóm B có $9$ hình tròn. Cần vẽ thêm mấy hình tròn vào nhóm A để hai nhóm bằng nhau?
+
+![Khung A có sáu hình tròn và khung B có chín hình tròn](/assets/img/g1/g1-more-fewer-same-02.svg)
 
 ::hint
 **Kiến thức:** ghép nhóm A với nhóm B; số hình thừa của nhóm B là số cần vẽ thêm.

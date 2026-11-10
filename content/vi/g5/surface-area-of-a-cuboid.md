@@ -201,6 +201,8 @@ $$ (10+6)\times2\times4=128,\qquad(8+7)\times2\times4=120.$$
 :::exercise
 Nhớ lại bài trước: một hình khai triển có hai mặt $9\ \text{cm}\times5\ \text{cm}$, hai mặt $9\ \text{cm}\times3\ \text{cm}$ và hai mặt $5\ \text{cm}\times3\ \text{cm}$. Tính diện tích toàn phần.
 
+![Hình khai triển của hình hộp chữ nhật kích thước 9 cm, 5 cm và 3 cm](/assets/img/g5/g5-surface-area-of-a-cuboid-01.svg)
+
 ::hint
 **Kiến thức:** Hình khai triển gồm đủ sáu mặt.
 

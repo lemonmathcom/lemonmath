@@ -18,6 +18,8 @@ Em đã biết số $345$ có $3$ trăm, $4$ chục, $5$ đơn vị. Bài này g
 
 Số $345$ gồm $3$ trăm, $4$ chục và $5$ đơn vị. Ta tính giá trị của từng phần:
 
+![Khối đếm gồm ba tấm trăm, bốn thanh chục và năm khối đơn vị](/assets/img/g2/g2-partitioning-hundreds-tens-ones-01.svg)
+
 - $3$ trăm là $300$.
 - $4$ chục là $40$.
 - $5$ đơn vị là $5$.

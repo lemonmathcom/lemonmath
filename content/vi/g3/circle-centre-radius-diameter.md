@@ -302,6 +302,8 @@ b) Độ mở com-pa là bán kính: $10:2=5$ (cm).
 :::exercise Thử thách
 Ba hình tròn bằng nhau, mỗi hình có bán kính $4$ cm, được xếp thành một hàng ngang sao cho hai hình cạnh nhau chạm nhau. Hỏi hàng đó dài bao nhiêu xăng-ti-mét (từ mép trái hình đầu đến mép phải hình cuối)?
 
+![Ba hình tròn bằng nhau tiếp xúc thành một hàng, hình đầu có bán kính 4 cm](/assets/img/g3/g3-circle-centre-radius-diameter-01.svg)
+
 ::hint
 **Kiến thức:** bề ngang của một hình tròn là đường kính của nó.
 

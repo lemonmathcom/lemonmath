@@ -54,6 +54,8 @@ We start with the question from the beginning.
 :::example Lan's and Nam's sweets
 Lan has $6$ sweets and Nam has $8$ sweets. Compare $8$ and $6$.
 
+![Two aligned rows of candies, six above and eight below](/assets/img/g1/g1-comparing-numbers-01.svg)
+
 **Solution.** On the number line, $8$ is to the right of $6$, so $8$ is greater than $6$.
 
 So $8>6$, and Nam has more sweets.

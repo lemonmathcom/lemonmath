@@ -86,6 +86,8 @@ Last, solve a word problem.
 :::example Balloons
 Binh has $9$ balloons. The wind blows $4$ of them away. How many balloons does Binh have left?
 
+![Nine balloons, four of them drifting away in the wind](/assets/img/g1/g1-subtraction-within-10-01.svg)
+
 **Solution.** "Blows away" means taking away, so we subtract. Count back $4$ numbers from $9$: "eight, seven, six, five":
 $$9-4=5\ \text{(balloons)}.$$
 So Binh has $5$ balloons left.

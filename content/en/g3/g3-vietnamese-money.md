@@ -66,6 +66,8 @@ We start by counting a few banknotes.
 :::example Counting money
 Mai has one $10\,000$ dong note, one $5\,000$ dong note and two $2\,000$ dong notes. How much money does Mai have?
 
+![Four simplified notes: 10,000, 5,000, and two 2,000 notes](/assets/img/g3/g3-vietnamese-money-01.svg)
+
 **Solution.** Change each note into thousands of dong and add:
 $$10+5+2+2=19\ \text{(thousand dong)}.$$
 So Mai has $19\,000$ dong.
@@ -77,6 +79,8 @@ The next example has more notes, but the method is the same.
 
 :::example Counting more notes
 Ha has two $20\,000$ dong notes, one $5\,000$ dong note, one $2\,000$ dong note and one $1\,000$ dong note. How much money does Ha have?
+
+![Five simplified notes: two 20,000 notes plus 5,000, 2,000, and 1,000](/assets/img/g3/g3-vietnamese-money-02.svg)
 
 **Solution.** Two $20$ thousand notes make $20+20=40$ thousand. Add the other notes:
 $$40+5+2+1=48\ \text{(thousand dong)}.$$
@@ -151,6 +155,8 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 
 :::exercise
 Count the money:
+
+![Two labelled groups of simplified notes with visible denominations](/assets/img/g3/g3-vietnamese-money-03.svg)
 
 a) One $5\,000$ dong note and one $2\,000$ dong note.
 

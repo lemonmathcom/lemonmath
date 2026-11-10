@@ -129,6 +129,8 @@ Bây giờ em dùng chu vi để trả lời một câu hỏi trong cuộc sốn
 :::example Làm hàng rào
 Bác Hùng rào quanh một mảnh vườn hình chữ nhật dài $15$ m, rộng $8$ m. Hỏi hàng rào dài bao nhiêu mét?
 
+![Mảnh vườn hình chữ nhật có hàng rào, dài 15 m và rộng 8 m](/assets/img/g3/g3-perimeter-of-shapes-01.svg)
+
 **Lời giải.** "Rào quanh" nghĩa là đi hết một vòng sát mép vườn, nên em tính chu vi:
 $$(15+8)\times2=23\times2=46\ \text{(m)}.$$
 Vậy hàng rào dài $46$ m.
@@ -258,6 +260,8 @@ b) Sợi dây thép dài bằng chu vi tam giác: $8+9+10=27$ (cm).
 :::exercise
 Em tính chu vi mỗi hình dưới đây bằng cách nhanh nhất. Vì sao em chọn cách đó?
 
+![Ba hình có số đo cạnh: hình vuông, hình chữ nhật và tứ giác không đều](/assets/img/g3/g3-perimeter-of-shapes-02.svg)
+
 a) Hình vuông cạnh $9$ cm.
 
 b) Hình chữ nhật dài $11$ cm, rộng $4$ cm.
@@ -328,6 +332,8 @@ b) $58-2=56$ (m).
 
 :::exercise Thử thách
 Ghép hai hình vuông, mỗi hình có cạnh $3$ cm, sát nhau thành một hình chữ nhật.
+
+![Hai hình vuông cạnh 3 cm ghép sát nhau, cạnh chung vẽ nét đứt](/assets/img/g3/g3-perimeter-of-shapes-03.svg)
 
 a) Tính chu vi hình chữ nhật vừa ghép.
 

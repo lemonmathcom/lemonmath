@@ -65,6 +65,8 @@ Bây giờ em phân biệt các hình trong đời sống.
 :::example Đoạn thẳng hay đường cong?
 Mép bàn học và vành miệng chiếc cốc tròn: hình nào gợi ra đoạn thẳng, hình nào gợi ra đường cong?
 
+![Mép bàn thẳng và vành miệng cốc tròn được tô đậm](/assets/img/g2/g2-points-lines-curves-01.svg)
+
 **Lời giải.** Mép bàn học là một nét thẳng có hai đầu, nên gợi ra đoạn thẳng. Vành miệng chiếc cốc tròn uốn quanh, không thẳng, nên gợi ra đường cong.
 :::
 

@@ -151,6 +151,8 @@ $4:6=\dfrac{4}{6}$ (chiếc bánh).
 :::exercise
 Em hãy nhớ lại bài trước: một hình chia thành $9$ phần bằng nhau, tô màu $7$ phần. Viết phân số chỉ phần đã tô, rồi viết phân số đó dưới dạng một phép chia.
 
+![Hình vuông ba nhân ba có bảy phần được tô màu](/assets/img/g4/g4-fractions-and-division-01.svg)
+
 ::hint
 **Kiến thức:** tử số là số phần tô, mẫu số là số phần bằng nhau; $\dfrac{a}{b}=a:b$.
 

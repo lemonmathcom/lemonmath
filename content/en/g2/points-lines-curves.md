@@ -65,6 +65,8 @@ Now tell the shapes apart in everyday life.
 :::example Line segment or curve?
 The edge of a desk and the rim of a round cup: which one suggests a line segment, and which a curve?
 
+![A straight desk edge and a curved circular cup rim highlighted](/assets/img/g2/g2-points-lines-curves-01.svg)
+
 **Solution.** The edge of a desk is straight and has two ends, so it suggests a line segment. The rim of a round cup goes round and is not straight, so it suggests a curve.
 :::
 

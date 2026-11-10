@@ -302,6 +302,8 @@ b) The opening of the compasses is the radius: $10\div2=5$ (cm).
 :::exercise Challenge
 Three equal circles, each with radius $4$ cm, are placed in a row so that neighbouring circles touch. How many centimetres long is the row (from the left edge of the first circle to the right edge of the last)?
 
+![Three equal tangent circles in a row, with a 4 cm radius shown in the first](/assets/img/g3/g3-circle-centre-radius-diameter-01.svg)
+
 ::hint
 **What you need:** the width of one circle is its diameter.
 

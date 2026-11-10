@@ -150,6 +150,8 @@ $4\div6=\dfrac{4}{6}$ (of a cake).
 :::exercise
 Remember the last lesson: a shape is cut into $9$ equal parts and $7$ parts are coloured. Write the fraction for the coloured part, then write that fraction as a division.
 
+![A three-by-three square with seven parts shaded](/assets/img/g4/g4-fractions-and-division-01.svg)
+
 ::hint
 **What you need:** the numerator is the number of coloured parts, the denominator is the number of equal parts; $\dfrac{a}{b}=a\div b$.
 

@@ -49,6 +49,8 @@ We start by making a table from a short list.
 :::example Colours of shirts
 Mai wrote down the shirt colours of $10$ children: red, blue, red, yellow, blue, blue, red, blue, yellow, blue. Make a data table.
 
+![Ten shirts ordered red, blue, red, yellow, blue, blue, red, blue, yellow, blue](/assets/img/g3/g3-data-tables-01.svg)
+
 **Solution.** We read the list once and draw a stroke in the row of the right colour:
 
 | Colour | Tally marks | Number of children |
@@ -150,6 +152,8 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 
 :::exercise
 You wrote down the animals children like: cat, dog, cat, fish, dog, cat, cat, fish. Make a data table (with a column of tally marks).
+
+![Eight animals ordered cat, dog, cat, fish, dog, cat, cat, fish](/assets/img/g3/g3-data-tables-02.svg)
 
 ::hint
 **What you need:** sort first, then count with tally marks, one stroke for each piece of data.

@@ -18,6 +18,8 @@ This lesson helps you answer questions like these, just by looking at what is in
 
 There are three boxes. Each time, we shut our eyes and take out one marble.
 
+![Boxes A, B, and C contain five red; three red and two blue; and five blue marbles](/assets/img/g3/g3-likelihood-of-an-event-01.svg)
+
 - **Box A:** $5$ red marbles.
 - **Box B:** $3$ red marbles and $2$ blue marbles.
 - **Box C:** $5$ blue marbles.

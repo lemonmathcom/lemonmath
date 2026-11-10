@@ -57,6 +57,8 @@ Ta bắt đầu với một việc rất đơn giản: đếm các con chim.
 :::example Đếm chim
 Trên cây có ba con chim. Viết số con chim.
 
+![Ba con chim đậu trên một cành cây](/assets/img/g1/g1-numbers-0-to-5-01.svg)
+
 **Lời giải.** Em đếm: "một, hai, ba". Số cuối cùng em nói là ba.
 
 Vậy có $3$ con chim.
@@ -67,6 +69,8 @@ Bây giờ em đếm một nhóm có nhiều đồ vật hơn.
 :::example Đếm bóng bay
 Bạn Nam cầm năm quả bóng bay. Viết số quả bóng bay.
 
+![Năm quả bóng bay nhiều màu có dây chụm lại](/assets/img/g1/g1-numbers-0-to-5-02.svg)
+
 **Lời giải.** Em đếm từng quả: "một, hai, ba, bốn, năm". Số cuối cùng là năm.
 
 Vậy có $5$ quả bóng bay.
@@ -76,6 +80,8 @@ Có khi chẳng có đồ vật nào để đếm.
 
 :::example Bể cá trống
 Trong bể không có con cá nào. Viết số con cá.
+
+![Bể cá có nước, rong và sỏi nhưng không có cá](/assets/img/g1/g1-numbers-0-to-5-03.svg)
 
 **Lời giải.** Không có con cá nào để đếm, nên em viết số không.
 

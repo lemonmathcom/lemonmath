@@ -22,6 +22,8 @@ Ta xếp các nhóm sách vào ba cột:
 |---|---|---|
 | $3$ | $4$ | $5$ |
 
+![Ba thùng sách ghi 100, bốn chồng sách ghi 10 và năm quyển sách lẻ](/assets/img/g2/g2-three-digit-numbers-01.svg)
+
 Có $3$ trăm, $4$ chục và $5$ đơn vị. Ta viết ba chữ số liền nhau: chữ số $3$ ở hàng trăm, chữ số $4$ ở hàng chục, chữ số $5$ ở hàng đơn vị. Số đó là $345$.
 
 Số $345$ đọc là "ba trăm bốn mươi lăm". Vậy thư viện có $345$ quyển sách.

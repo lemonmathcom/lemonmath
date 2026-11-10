@@ -221,6 +221,8 @@ Friday had $4$ books, and twice that is $4\times2=8$ books. The bar showing $8$ 
 :::exercise
 A bar chart shows how many children like each sport: the football bar is $12$ tall, swimming $8$, badminton $6$ and chess $4$. To find how many children were asked in all, which calculation do we do? Why? Work it out.
 
+![Bar chart of how many children like football, swimming, badminton and chess](/assets/img/g4/g4-bar-charts-01-en.svg)
+
 ::hint
 **What you need:** each bar is the number of children for one sport; each child chooses only one sport.
 
@@ -255,6 +257,8 @@ A bar chart shows the trees planted by four classes, with each mark standing for
 a) How many trees did each class plant?
 b) How many more trees did the best class plant than the lowest?
 c) On average, how many trees did each class plant?
+
+![Bar chart of trees planted by classes 4A, 4B, 4C and 4D, each grid line standing for 5 trees](/assets/img/g4/g4-bar-charts-02.svg)
 
 ::hint
 **What you need:** the number of trees is the number of marks times $5$.

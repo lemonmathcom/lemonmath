@@ -66,6 +66,8 @@ Ta bắt đầu với việc đếm một ít tờ tiền.
 :::example Đếm tiền
 Mai có một tờ $10\,000$ đồng, một tờ $5\,000$ đồng và hai tờ $2\,000$ đồng. Hỏi Mai có bao nhiêu tiền?
 
+![Bốn tờ tiền giản lược: 10 000, 5 000 và hai tờ 2 000](/assets/img/g3/g3-vietnamese-money-01.svg)
+
 **Lời giải.** Em đổi mỗi tờ ra nghìn đồng rồi cộng:
 $$10+5+2+2=19\ \text{(nghìn đồng)}.$$
 Vậy Mai có $19\,000$ đồng.
@@ -77,6 +79,8 @@ Ví dụ sau có nhiều tờ tiền hơn, nhưng cách làm vẫn như vậy.
 
 :::example Đếm nhiều tờ tiền
 Hà có hai tờ $20\,000$ đồng, một tờ $5\,000$ đồng, một tờ $2\,000$ đồng và một tờ $1\,000$ đồng. Hỏi Hà có bao nhiêu tiền?
+
+![Năm tờ tiền giản lược gồm hai tờ 20 000 cùng các tờ 5 000, 2 000 và 1 000](/assets/img/g3/g3-vietnamese-money-02.svg)
 
 **Lời giải.** Hai tờ $20$ nghìn là $20+20=40$ nghìn. Em cộng thêm các tờ còn lại:
 $$40+5+2+1=48\ \text{(nghìn đồng)}.$$
@@ -151,6 +155,8 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 
 :::exercise
 Em đếm số tiền:
+
+![Hai nhóm tiền a và b với các mệnh giá được ghi rõ](/assets/img/g3/g3-vietnamese-money-03.svg)
 
 a) Một tờ $5\,000$ đồng và một tờ $2\,000$ đồng.
 

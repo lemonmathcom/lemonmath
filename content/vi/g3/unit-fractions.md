@@ -63,6 +63,8 @@ Ta bắt đầu bằng việc gọi tên một phần.
 :::example Sợi dây
 Một sợi dây được cắt thành $3$ đoạn bằng nhau. Mỗi đoạn là một phần mấy của sợi dây?
 
+![Một sợi dây có hai vạch cắt chia thành ba đoạn bằng nhau](/assets/img/g3/g3-unit-fractions-01.svg)
+
 **Lời giải.** Sợi dây được chia thành $3$ phần bằng nhau, nên mỗi đoạn là một phần ba của sợi dây:
 $$\dfrac{1}{3}.$$
 Vậy mỗi đoạn là $\dfrac{1}{3}$ sợi dây.
@@ -148,6 +150,8 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 
 :::exercise
 Mỗi hình sau được chia thành các phần bằng nhau. Viết phân số chỉ một phần của hình:
+
+![Ba hình phân số: hình tròn chia hai, hình chữ nhật chia ba và hình tròn chia tám, mỗi hình tô một phần](/assets/img/g3/g3-unit-fractions-02.svg)
 
 a) Hình chia thành $2$ phần bằng nhau.
 

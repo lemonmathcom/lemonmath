@@ -65,6 +65,8 @@ We start with a familiar object.
 :::example A dice
 What solid shape is a dice?
 
+![A cube-shaped die shown with three visible faces](/assets/img/g1/g1-cubes-and-cuboids-01.svg)
+
 **Solution.** Every face of the dice is a square, and they are all the same.
 
 So the dice is a cube.
@@ -74,6 +76,8 @@ Now name another solid shape.
 
 :::example A milk carton
 A milk carton has $6$ faces. All the faces are rectangles. What solid shape is it?
+
+![A rectangular milk carton with a straw](/assets/img/g1/g1-cubes-and-cuboids-02.svg)
 
 **Solution.** A solid shape whose faces are rectangles is a cuboid.
 
@@ -231,6 +235,8 @@ The table shows how many things are on a shelf:
 |---|---|---|---|
 | Number | $4$ | $3$ | $2$ |
 
+![A shelf with dice, snack boxes and pencil cases](/assets/img/g1/g1-cubes-and-cuboids-03.svg)
+
 a) How many cubes are there?
 b) How many cuboids are there altogether?
 
@@ -249,6 +255,8 @@ a) There are $4$ dice. b) $3+2=5$.
 
 :::exercise Challenge
 You put two cubes side by side to make a long block. What solid shape is the new block? What shape is its long face?
+
+![Two equal cubes joined face to face to form a longer solid](/assets/img/g1/g1-cubes-and-cuboids-04.svg)
 
 ::hint
 **What you need:** two squares side by side make a rectangle.

@@ -76,6 +76,8 @@ Last, solve an everyday problem.
 :::example Bundles of sticks
 There are $3$ bundles of sticks with $10$ sticks in each, and $4$ loose sticks. How many sticks are there altogether?
 
+![Three bundles of ten counting sticks and four loose sticks](/assets/img/g1/g1-two-digit-numbers-01.svg)
+
 **Solution.** $3$ bundles are $3$ tens and $4$ loose sticks are $4$ ones. Write $3$ in the tens place and $4$ in the ones place.
 
 So there are $34$ sticks.
@@ -209,6 +211,8 @@ The tens digit is $5$ and the ones digit is $0$. Mai forgot the digit $0$.
 
 :::exercise
 There are $4$ bundles of sticks with $10$ sticks in each, and $5$ loose sticks. How many sticks are there altogether?
+
+![Four bundles of ten counting sticks and five loose sticks](/assets/img/g1/g1-two-digit-numbers-02.svg)
 
 ::hint
 **What you need:** the bundles are the tens and the loose sticks are the ones.

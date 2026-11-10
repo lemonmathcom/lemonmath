@@ -18,6 +18,8 @@ Counting one by one takes a long time. This lesson shows you how to count faster
 
 You already know how to count to $10$. When we have $10$ loose objects, we put them in one group called **one ten**.
 
+![Four place-value blocks representing 1, 10, 100, and 1,000](/assets/img/g2/g2-ones-tens-hundreds-thousands-01.svg)
+
 - $10$ loose objects (each is $1$ **one**) make $1$ **ten**.
 - $10$ of these bags (each is $1$ ten) make $1$ **hundred**.
 - $10$ of these boxes (each is $1$ hundred) make $1$ **thousand**.

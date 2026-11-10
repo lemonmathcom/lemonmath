@@ -110,6 +110,8 @@ Finally, see which shapes a straight line can make inside another shape.
 :::example Cutting a rectangle
 Join the opposite vertices $A$ and $C$ of rectangle $ABCD$. Into how many triangles is the rectangle divided?
 
+![Rectangle ABCD with a diagonal from A to C](/assets/img/g3/g3-triangles-quadrilaterals-rectangles-01.svg)
+
 **Solution.** The line $AC$ cuts the rectangle into two shapes, each with $3$ vertices and $3$ sides. They are triangle $ABC$ and triangle $ACD$.
 
 So the rectangle is divided into $2$ triangles.

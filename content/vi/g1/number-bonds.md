@@ -76,6 +76,8 @@ Cuối cùng em giải một bài toán trong cuộc sống.
 :::example Chia kẹo vào hai đĩa
 Có $8$ cái kẹo chia vào hai đĩa. Đĩa thứ nhất có $3$ cái kẹo. Đĩa thứ hai có mấy cái kẹo?
 
+![Hai đĩa, đĩa trái có ba viên kẹo và đĩa phải được phủ khăn có dấu hỏi](/assets/img/g1/g1-number-bonds-01.svg)
+
 **Lời giải.** Em cần biết $8$ gồm $3$ và mấy. Em đếm từ $3$ lên $8$: "bốn, năm, sáu, bảy, tám". Em đếm thêm $5$ số.
 
 Vậy đĩa thứ hai có $5$ cái kẹo.

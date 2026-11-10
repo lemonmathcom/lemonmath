@@ -76,6 +76,8 @@ Cuối cùng em giải một bài toán trong cuộc sống.
 :::example Bó que tính
 Có $3$ bó que tính, mỗi bó $10$ que, và $4$ que lẻ. Hỏi có tất cả bao nhiêu que tính?
 
+![Ba bó que tính, mỗi bó mười que, và bốn que lẻ](/assets/img/g1/g1-two-digit-numbers-01.svg)
+
 **Lời giải.** $3$ bó là $3$ chục, $4$ que lẻ là $4$ đơn vị. Em viết $3$ ở hàng chục và $4$ ở hàng đơn vị.
 
 Vậy có $34$ que tính.
@@ -209,6 +211,8 @@ Hàng chục là $5$, hàng đơn vị là $0$. Mai quên chữ số $0$.
 
 :::exercise
 Có $4$ bó que tính, mỗi bó $10$ que, và $5$ que lẻ. Hỏi có tất cả bao nhiêu que tính?
+
+![Bốn bó que tính, mỗi bó mười que, và năm que lẻ](/assets/img/g1/g1-two-digit-numbers-02.svg)
 
 ::hint
 **Kiến thức:** số bó là số chục, que lẻ là số đơn vị.

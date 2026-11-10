@@ -201,6 +201,8 @@ $$ (10+6)\times2\times4=128,\qquad(8+7)\times2\times4=120.$$
 :::exercise
 Think back: a net has two $9$ cm by $5$ cm faces, two $9$ cm by $3$ cm faces and two $5$ cm by $3$ cm faces. Find the total area.
 
+![A net of a cuboid measuring 9 cm by 5 cm by 3 cm](/assets/img/g5/g5-surface-area-of-a-cuboid-01.svg)
+
 ::hint
 **What you need:** A net contains all six faces.
 

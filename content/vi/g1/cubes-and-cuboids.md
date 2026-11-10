@@ -65,6 +65,8 @@ Ta bắt đầu với một đồ vật quen thuộc.
 :::example Viên xúc xắc
 Viên xúc xắc có dạng khối gì?
 
+![Một viên xúc xắc dạng khối lập phương nhìn thấy ba mặt](/assets/img/g1/g1-cubes-and-cuboids-01.svg)
+
 **Lời giải.** Mọi mặt của viên xúc xắc đều là hình vuông bằng nhau.
 
 Vậy viên xúc xắc có dạng khối lập phương.
@@ -74,6 +76,8 @@ Bây giờ em gọi tên một khối khác.
 
 :::example Hộp sữa
 Một hộp sữa có $6$ mặt. Các mặt đều là hình chữ nhật. Hộp sữa có dạng khối gì?
+
+![Hộp sữa giấy dạng hình hộp chữ nhật có ống hút](/assets/img/g1/g1-cubes-and-cuboids-02.svg)
 
 **Lời giải.** Khối có các mặt là hình chữ nhật là khối hộp chữ nhật.
 
@@ -231,6 +235,8 @@ Bảng cho biết số đồ vật trên kệ:
 |---|---|---|---|
 | Số lượng | $4$ | $3$ | $2$ |
 
+![Kệ có xúc xắc, hộp bánh và hộp bút](/assets/img/g1/g1-cubes-and-cuboids-03.svg)
+
 a) Có bao nhiêu khối lập phương?
 b) Có tất cả bao nhiêu khối hộp chữ nhật?
 
@@ -249,6 +255,8 @@ a) Có $4$ viên xúc xắc. b) $3+2=5$.
 
 :::exercise Thử thách
 Em xếp hai khối lập phương cạnh nhau thành một khối dài. Khối mới có dạng khối gì? Mặt dài của khối mới là hình gì?
+
+![Hai khối lập phương bằng nhau đặt sát mặt nhau thành một khối dài](/assets/img/g1/g1-cubes-and-cuboids-04.svg)
 
 ::hint
 **Kiến thức:** hai hình vuông ghép cạnh nhau tạo thành hình chữ nhật.

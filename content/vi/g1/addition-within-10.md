@@ -83,6 +83,8 @@ Cuối cùng em giải một bài toán có lời văn.
 :::example Gà và vịt
 Nhà bà có $4$ con gà và $5$ con vịt. Hỏi nhà bà có tất cả bao nhiêu con gà và vịt?
 
+![Bốn con gà bên trái và năm con vịt bên phải](/assets/img/g1/g1-addition-within-10-01.svg)
+
 **Lời giải.** "Tất cả" nghĩa là gộp hai nhóm lại, nên em làm phép cộng. Em đếm tiếp từ số lớn $5$ thêm $4$ số: "sáu, bảy, tám, chín":
 $$4+5=5+4=9.$$
 Vậy nhà bà có $9$ con.

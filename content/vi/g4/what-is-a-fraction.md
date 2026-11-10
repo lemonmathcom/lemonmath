@@ -52,6 +52,8 @@ Ta bắt đầu với việc viết phân số cho một hình.
 :::example Viết phân số từ hình
 Một chiếc bánh được cắt thành $8$ phần bằng nhau. Mai ăn $3$ phần. Viết phân số chỉ phần bánh Mai đã ăn.
 
+![Chiếc bánh tròn chia tám phần bằng nhau, ba phần chỉ còn viền nét đứt](/assets/img/g4/g4-what-is-a-fraction-01.svg)
+
 **Lời giải.** Cái nguyên chia thành $8$ phần bằng nhau, nên mẫu số là $8$. Mai lấy $3$ phần, nên tử số là $3$:
 $$\frac{3}{8}.$$
 Vậy Mai ăn $\dfrac{3}{8}$ chiếc bánh.
@@ -70,6 +72,8 @@ Ta cũng có thể viết phân số cho phần chưa lấy.
 
 :::example Phần còn lại
 Một hình vuông được chia thành $6$ phần bằng nhau, tô màu $5$ phần. Viết phân số chỉ phần đã tô và phân số chỉ phần chưa tô.
+
+![Hình vuông chia thành sáu phần bằng nhau, năm phần được tô màu](/assets/img/g4/g4-what-is-a-fraction-02.svg)
 
 **Lời giải.** Mẫu số vẫn là $6$ vì cái nguyên chia thành $6$ phần. Phần đã tô là $5$ phần, phần chưa tô là $6-5=1$ phần:
 $$\frac{5}{6}\ \text{(đã tô)},\qquad \frac{1}{6}\ \text{(chưa tô)}.$$
@@ -116,6 +120,8 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 
 :::exercise
 Một hình chữ nhật được chia thành $5$ phần bằng nhau, tô màu $2$ phần. Viết phân số chỉ phần đã tô.
+
+![Hình chữ nhật chia năm phần bằng nhau, hai phần được tô màu](/assets/img/g4/g4-what-is-a-fraction-03.svg)
 
 ::hint
 **Kiến thức:** mẫu số là số phần bằng nhau, tử số là số phần được tô.
@@ -231,6 +237,8 @@ a) $\dfrac{5}{12}$. b) $\dfrac{4}{12}$. c) Còn lại $12-5-4=3$ ô, nên $\dfra
 
 :::exercise Thử thách
 Một băng giấy được chia thành $8$ phần bằng nhau. Em tô $3$ phần màu xanh, $2$ phần màu đỏ, phần còn lại để trắng. Viết phân số chỉ phần mỗi màu và phân số chỉ phần đã tô màu (cả hai màu).
+
+![Băng giấy tám phần gồm ba phần xanh, hai phần đỏ và ba phần trắng](/assets/img/g4/g4-what-is-a-fraction-04.svg)
 
 ::hint
 **Kiến thức:** mẫu số luôn là $8$; tìm số phần trắng bằng phép trừ.

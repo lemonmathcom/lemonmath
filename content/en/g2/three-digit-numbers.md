@@ -22,6 +22,8 @@ We put the groups of books into three columns:
 |---|---|---|
 | $3$ | $4$ | $5$ |
 
+![Three book crates marked 100, four stacks marked 10, and five loose books](/assets/img/g2/g2-three-digit-numbers-01.svg)
+
 There are $3$ hundreds, $4$ tens and $5$ ones. We write three digits side by side: the digit $3$ is in the hundreds place, the digit $4$ is in the tens place and the digit $5$ is in the ones place. The number is $345$.
 
 We read $345$ as "three hundred and forty-five". So the library has $345$ books.
