@@ -213,6 +213,7 @@ Hai nghiệm là $-1$ và $6$ ...
 - End with "Vậy …" and the answer; no extra commentary after it. Exercise solutions (`::solution`) then add the one-line answer `**Đáp số.** …` / `**Answer.** …` so students can check quickly.
 - English mirrors the same structure with standard British phrasing ("We have …", "Hence …", "So …", "Substituting … into …, we get …", "Let $x$ be … ($x>0$)").
 
+- TF answer patterns: vary them across lessons. Claim a) must not always be true: in about a third of TF items make a) false (state a common misconception as the claim); use all-true or all-false patterns occasionally; never let one pattern (e.g. Đ Đ S Đ) dominate a grade.
 - MC answer letters: the website does not shuffle options, so spread the correct letters over A–D (in a 4-item mini test no letter more than twice; in a 12-item paper no letter more than 5 times). check.js enforces this.
 
 **Problem statements follow KNTT and the exam wording.**
