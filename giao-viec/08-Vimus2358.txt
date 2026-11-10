@@ -1,0 +1,103 @@
+GIAO VIỆC LEMONMATH – tài khoản Vimus2358
+Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 7, lớp 8), mã B211–B231.
+Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết các file đính kèm trước khi viết: WRITING-SPEC.md (đặc biệt mục 2, 2b, 2c, 2d), GLOSSARY.md, và 2 file bài mẫu cùng cấp (bản Việt + bản Anh). Chép đúng cú pháp các khung :::goals, :::example, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key) như bài mẫu.
+2. Mỗi bài = 2 file: bản tiếng Việt và bản tiếng Anh, CÙNG cấu trúc, cùng số ví dụ, bài tập, công thức, cùng số liệu. Đầu file có title (đúng tên bài trong danh sách), description (tối đa 155 kí tự), minutes. Không viết "# Tiêu đề".
+3. Xưng hô: lớp 1–5 gọi học sinh là "em"; lớp 6 trở lên gọi là "bạn", giải thích dùng "ta". Tiếng Anh dùng chính tả Anh (metres, factorise).
+4. Thứ tự trong bài: mục tiêu → tình huống mở đầu có số liệu thật, kết bằng câu hỏi → khám phá nhỏ → định nghĩa/quy tắc → vì sao đúng → 4–6 ví dụ từ dễ đến khó → lỗi hay gặp (sai, vì sao sai, đúng) → thuật ngữ → tóm tắt → Luyện tập 8–10 bài :::exercise (bài cuối "Thử thách"/"Challenge") → Kiểm tra mini: 4 trắc nghiệm, 1 đúng/sai, 2 trả lời ngắn (đáp số tối đa 4 kí tự, bỏ số 0 thừa: 1,1 chứ không 1,10).
+5. Văn phong lời giải và đề bài theo SGK Kết nối tri thức (tiểu học: "Đặt tính rồi tính", "Bài giải … Đáp số: …"). Không dạy vượt chương trình, không có bài "tìm m để…".
+6. Mọi đề bài, số liệu là của mình tự nghĩ, không chép sách hay web. Số liệu thực tế phải đúng và có nguồn uy tín; không chắc thì viết dạng giả định ("Một cửa hàng…").
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu trắc nghiệm trước khi nộp. Đáp án đúng A–D rải đều, không chữ nào quá 2 lần trong 4 câu trắc nghiệm.
+8. Độ dài mỗi ngôn ngữ: lớp 1–5 khoảng 600–1.200 từ; lớp 6–9 khoảng 1.400–2.200 từ; lớp 10–12 khoảng 1.800–3.000 từ.
+
+CÁCH NỘP
+- Viết lần lượt từng bài theo thứ tự mã. Mỗi bài xuất ra 2 file .md, ĐẶT TÊN ĐÚNG mã bài (id), ví dụ adding-decimals.md cho bản Việt và adding-decimals.md (tải xuống sẽ thành "adding-decimals (1).md") cho bản Anh. Không đổi id, không thêm chữ vào tên file.
+- Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
+
+
+===== ĐỢT 1 (7 bài) =====
+
+[Lớp 7 – Quan hệ giữa các yếu tố trong một tam giác]
+B211  lớp 7  id: perpendicular-and-oblique-lines
+      VI: Quan hệ giữa đường vuông góc và đường xiên
+      EN: The perpendicular and oblique lines from a point
+B212  lớp 7  id: triangle-inequality
+      VI: Quan hệ giữa ba cạnh của một tam giác
+      EN: The triangle inequality
+B213  lớp 7  id: perpendicular-bisectors-altitudes
+      VI: Sự đồng quy của ba đường trung trực, ba đường cao trong một tam giác
+      EN: Concurrency of the perpendicular bisectors and of the altitudes
+
+[Lớp 7 – Một số hình khối trong thực tiễn]
+B214  lớp 7  id: g7-cuboids-and-cubes
+      VI: Hình hộp chữ nhật và hình lập phương
+      EN: Cuboids and cubes
+B215  lớp 7  id: right-prisms
+      VI: Hình lăng trụ đứng tam giác và hình lăng trụ đứng tứ giác
+      EN: Right triangular prisms and right quadrilateral prisms
+
+[Lớp 8 – Đa thức]
+B216  lớp 8  id: polynomials-several-variables
+      VI: Đa thức
+      EN: Polynomials
+B217  lớp 8  id: g8-add-subtract-polynomials
+      VI: Phép cộng và phép trừ đa thức
+      EN: Adding and subtracting polynomials
+
+===== ĐỢT 2 (7 bài) =====
+
+[Lớp 8 – Đa thức]
+B218  lớp 8  id: g8-multiplying-polynomials
+      VI: Phép nhân đa thức
+      EN: Multiplying polynomials
+B219  lớp 8  id: dividing-polynomial-by-monomial
+      VI: Phép chia đa thức cho đơn thức
+      EN: Dividing a polynomial by a monomial
+
+[Lớp 8 – Hằng đẳng thức đáng nhớ và ứng dụng]
+B220  lớp 8  id: squares-identities
+      VI: Hiệu hai bình phương. Bình phương của một tổng hay một hiệu
+      EN: Difference of two squares. Square of a sum or a difference
+B221  lớp 8  id: cubes-of-sums-differences
+      VI: Lập phương của một tổng. Lập phương của một hiệu
+      EN: Cube of a sum. Cube of a difference
+B222  lớp 8  id: sum-difference-of-cubes
+      VI: Tổng và hiệu hai lập phương
+      EN: Sum and difference of two cubes
+B223  lớp 8  id: factorising-polynomials
+      VI: Phân tích đa thức thành nhân tử
+      EN: Factorising polynomials
+
+[Lớp 8 – Tứ giác]
+B224  lớp 8  id: quadrilaterals
+      VI: Tứ giác
+      EN: Quadrilaterals
+
+===== ĐỢT 3 (7 bài) =====
+
+[Lớp 8 – Tứ giác]
+B225  lớp 8  id: isosceles-trapeziums
+      VI: Hình thang cân
+      EN: Isosceles trapeziums
+B226  lớp 8  id: parallelograms
+      VI: Hình bình hành
+      EN: Parallelograms
+B227  lớp 8  id: rectangles
+      VI: Hình chữ nhật
+      EN: Rectangles
+B228  lớp 8  id: rhombuses-and-squares
+      VI: Hình thoi và hình vuông
+      EN: Rhombuses and squares
+
+[Lớp 8 – Định lí Thalès]
+B229  lớp 8  id: thales-theorem-triangle
+      VI: Định lí Thalès trong tam giác
+      EN: Thales' theorem in a triangle
+B230  lớp 8  id: triangle-midline
+      VI: Đường trung bình của tam giác
+      EN: The midline of a triangle
+B231  lớp 8  id: angle-bisector-theorem
+      VI: Tính chất đường phân giác của tam giác
+      EN: The angle bisector theorem

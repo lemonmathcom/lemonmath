@@ -1,0 +1,245 @@
+GIAO VIỆC LEMONMATH – tài khoản ChatGPT-Plus
+Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 63 bài song ngữ (lớp 5, lớp 6, lớp 7), mã B127–B189.
+Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết các file đính kèm trước khi viết: WRITING-SPEC.md (đặc biệt mục 2, 2b, 2c, 2d), GLOSSARY.md, và 2 file bài mẫu cùng cấp (bản Việt + bản Anh). Chép đúng cú pháp các khung :::goals, :::example, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key) như bài mẫu.
+2. Mỗi bài = 2 file: bản tiếng Việt và bản tiếng Anh, CÙNG cấu trúc, cùng số ví dụ, bài tập, công thức, cùng số liệu. Đầu file có title (đúng tên bài trong danh sách), description (tối đa 155 kí tự), minutes. Không viết "# Tiêu đề".
+3. Xưng hô: lớp 1–5 gọi học sinh là "em"; lớp 6 trở lên gọi là "bạn", giải thích dùng "ta". Tiếng Anh dùng chính tả Anh (metres, factorise).
+4. Thứ tự trong bài: mục tiêu → tình huống mở đầu có số liệu thật, kết bằng câu hỏi → khám phá nhỏ → định nghĩa/quy tắc → vì sao đúng → 4–6 ví dụ từ dễ đến khó → lỗi hay gặp (sai, vì sao sai, đúng) → thuật ngữ → tóm tắt → Luyện tập 8–10 bài :::exercise (bài cuối "Thử thách"/"Challenge") → Kiểm tra mini: 4 trắc nghiệm, 1 đúng/sai, 2 trả lời ngắn (đáp số tối đa 4 kí tự, bỏ số 0 thừa: 1,1 chứ không 1,10).
+5. Văn phong lời giải và đề bài theo SGK Kết nối tri thức (tiểu học: "Đặt tính rồi tính", "Bài giải … Đáp số: …"). Không dạy vượt chương trình, không có bài "tìm m để…".
+6. Mọi đề bài, số liệu là của mình tự nghĩ, không chép sách hay web. Số liệu thực tế phải đúng và có nguồn uy tín; không chắc thì viết dạng giả định ("Một cửa hàng…").
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu trắc nghiệm trước khi nộp. Đáp án đúng A–D rải đều, không chữ nào quá 2 lần trong 4 câu trắc nghiệm.
+8. Độ dài mỗi ngôn ngữ: lớp 1–5 khoảng 600–1.200 từ; lớp 6–9 khoảng 1.400–2.200 từ; lớp 10–12 khoảng 1.800–3.000 từ.
+
+CÁCH NỘP
+- Viết lần lượt từng bài theo thứ tự mã. Mỗi bài xuất ra 2 file .md, ĐẶT TÊN ĐÚNG mã bài (id), ví dụ adding-decimals.md cho bản Việt và adding-decimals.md (tải xuống sẽ thành "adding-decimals (1).md") cho bản Anh. Không đổi id, không thêm chữ vào tên file.
+- Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
+
+
+===== ĐỢT 1 (21 bài) =====
+
+[Lớp 5 – Số đo thời gian, vận tốc. Các bài toán liên quan đến chuyển động đều]
+B127  lớp 5  id: units-of-time
+      VI: Các đơn vị đo thời gian
+      EN: Units of time
+B128  lớp 5  id: adding-subtracting-times
+      VI: Cộng, trừ số đo thời gian
+      EN: Adding and subtracting times
+B129  lớp 5  id: multiplying-dividing-times
+      VI: Nhân, chia số đo thời gian với một số
+      EN: Multiplying and dividing times by a number
+B130  lớp 5  id: speed-uniform-motion
+      VI: Vận tốc của một chuyển động đều
+      EN: Speed in uniform motion
+B131  lớp 5  id: distance-time-uniform-motion
+      VI: Quãng đường, thời gian của một chuyển động đều
+      EN: Distance and time in uniform motion
+
+[Lớp 5 – Một số yếu tố thống kê và xác suất]
+B132  lớp 5  id: g5-pie-charts
+      VI: Biểu đồ hình quạt tròn
+      EN: Pie charts
+B133  lớp 5  id: g5-relative-frequency
+      VI: Tỉ số của số lần lặp lại một sự kiện so với tổng số lần thực hiện
+      EN: Relative frequency of an event
+
+[Lớp 5 – Ôn tập cuối cấp: sẵn sàng lên lớp 6]
+B134  lớp 5  id: g5-review-numbers-fractions
+      VI: Ôn tập: số tự nhiên và phân số
+      EN: Review: whole numbers and fractions
+B135  lớp 5  id: g5-review-geometry-measures
+      VI: Ôn tập: hình học và đo lường
+      EN: Review: shapes and measures
+B136  lớp 5  id: g5-review-motion-word-problems
+      VI: Ôn tập: chuyển động đều và toán có lời văn
+      EN: Review: uniform motion and word problems
+B137  lớp 5  id: g5-practice-paper-2
+      VI: Đề ôn tập cuối cấp tiểu học số 2
+      EN: End-of-primary practice paper 2
+
+[Lớp 6 – Tập hợp các số tự nhiên]
+B138  lớp 6  id: intro-to-sets
+      VI: Tập hợp
+      EN: Sets
+B139  lớp 6  id: writing-natural-numbers
+      VI: Cách ghi số tự nhiên
+      EN: Writing natural numbers
+B140  lớp 6  id: ordering-natural-numbers
+      VI: Thứ tự trong tập hợp các số tự nhiên
+      EN: Order in the set of natural numbers
+B141  lớp 6  id: add-subtract-natural-numbers
+      VI: Phép cộng và phép trừ số tự nhiên
+      EN: Adding and subtracting natural numbers
+B142  lớp 6  id: multiply-divide-natural-numbers
+      VI: Phép nhân và phép chia số tự nhiên
+      EN: Multiplying and dividing natural numbers
+B143  lớp 6  id: powers-natural-exponents
+      VI: Lũy thừa với số mũ tự nhiên
+      EN: Powers with natural-number exponents
+B144  lớp 6  id: order-of-operations
+      VI: Thứ tự thực hiện các phép tính
+      EN: Order of operations
+
+[Lớp 6 – Tính chia hết trong tập hợp các số tự nhiên]
+B145  lớp 6  id: divisibility-and-properties
+      VI: Quan hệ chia hết và tính chất
+      EN: Divisibility and its properties
+B146  lớp 6  id: divisibility-rules
+      VI: Dấu hiệu chia hết
+      EN: Divisibility rules
+B147  lớp 6  id: prime-numbers
+      VI: Số nguyên tố
+      EN: Prime numbers
+
+===== ĐỢT 2 (21 bài) =====
+
+[Lớp 6 – Tính chia hết trong tập hợp các số tự nhiên]
+B148  lớp 6  id: highest-common-factor
+      VI: Ước chung. Ước chung lớn nhất
+      EN: Common factors. Highest common factor
+B149  lớp 6  id: lowest-common-multiple
+      VI: Bội chung. Bội chung nhỏ nhất
+      EN: Common multiples. Lowest common multiple
+
+[Lớp 6 – Số nguyên]
+B150  lớp 6  id: set-of-integers
+      VI: Tập hợp các số nguyên
+      EN: The set of integers
+B151  lớp 6  id: add-subtract-integers
+      VI: Phép cộng và phép trừ số nguyên
+      EN: Adding and subtracting integers
+B152  lớp 6  id: bracket-rules
+      VI: Quy tắc dấu ngoặc
+      EN: Rules for removing brackets
+B153  lớp 6  id: multiplying-integers
+      VI: Phép nhân số nguyên
+      EN: Multiplying integers
+B154  lớp 6  id: integer-factors-multiples
+      VI: Phép chia hết. Ước và bội của một số nguyên
+      EN: Exact division. Factors and multiples of an integer
+
+[Lớp 6 – Một số hình phẳng trong thực tiễn]
+B155  lớp 6  id: triangles-squares-hexagons
+      VI: Hình tam giác đều. Hình vuông. Hình lục giác đều
+      EN: Equilateral triangles. Squares. Regular hexagons
+B156  lớp 6  id: special-quadrilaterals
+      VI: Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân
+      EN: Rectangles. Rhombuses. Parallelograms. Isosceles trapeziums
+B157  lớp 6  id: quadrilateral-perimeter-area
+      VI: Chu vi và diện tích của một số tứ giác đã học
+      EN: Perimeter and area of familiar quadrilaterals
+
+[Lớp 6 – Tính đối xứng của hình phẳng trong tự nhiên]
+B158  lớp 6  id: line-symmetry
+      VI: Hình có trục đối xứng
+      EN: Shapes with a line of symmetry
+B159  lớp 6  id: point-symmetry
+      VI: Hình có tâm đối xứng
+      EN: Shapes with a centre of symmetry
+
+[Lớp 6 – Phân số]
+B160  lớp 6  id: g6-equivalent-fractions
+      VI: Mở rộng phân số. Phân số bằng nhau
+      EN: Extending fractions. Equivalent fractions
+B161  lớp 6  id: comparing-fractions-mixed-numbers
+      VI: So sánh phân số. Hỗn số dương
+      EN: Comparing fractions. Positive mixed numbers
+B162  lớp 6  id: g6-add-subtract-fractions
+      VI: Phép cộng và phép trừ phân số
+      EN: Adding and subtracting fractions
+B163  lớp 6  id: g6-multiply-divide-fractions
+      VI: Phép nhân và phép chia phân số
+      EN: Multiplying and dividing fractions
+B164  lớp 6  id: two-fraction-problems
+      VI: Hai bài toán về phân số
+      EN: Two key problems with fractions
+
+[Lớp 6 – Số thập phân]
+B165  lớp 6  id: decimal-numbers
+      VI: Số thập phân
+      EN: Decimals
+B166  lớp 6  id: calculating-with-decimals
+      VI: Tính toán với số thập phân
+      EN: Calculating with decimals
+B167  lớp 6  id: rounding-and-estimating
+      VI: Làm tròn và ước lượng
+      EN: Rounding and estimating
+B168  lớp 6  id: ratio-percentage-problems
+      VI: Một số bài toán về tỉ số và tỉ số phần trăm
+      EN: Problems involving ratios and percentages
+
+===== ĐỢT 3 (21 bài) =====
+
+[Lớp 6 – Những hình hình học cơ bản]
+B169  lớp 6  id: points-and-lines
+      VI: Điểm và đường thẳng
+      EN: Points and lines
+B170  lớp 6  id: points-between-rays
+      VI: Điểm nằm giữa hai điểm. Tia
+      EN: A point between two points. Rays
+B171  lớp 6  id: line-segments
+      VI: Đoạn thẳng. Độ dài đoạn thẳng
+      EN: Line segments. Length of a line segment
+B172  lớp 6  id: midpoint-of-a-segment
+      VI: Trung điểm của đoạn thẳng
+      EN: Midpoint of a line segment
+B173  lớp 6  id: intro-to-angles
+      VI: Góc
+      EN: Angles
+B174  lớp 6  id: angle-measure
+      VI: Số đo góc
+      EN: Measuring angles in degrees
+
+[Lớp 6 – Dữ liệu và xác suất thực nghiệm]
+B175  lớp 6  id: data-collection
+      VI: Dữ liệu và thu thập dữ liệu
+      EN: Data and data collection
+B176  lớp 6  id: tables-and-pictograms
+      VI: Bảng thống kê và biểu đồ tranh
+      EN: Statistical tables and pictograms
+B177  lớp 6  id: g6-bar-charts
+      VI: Biểu đồ cột
+      EN: Bar charts
+B178  lớp 6  id: dual-bar-charts
+      VI: Biểu đồ cột kép
+      EN: Dual bar charts
+B179  lớp 6  id: outcomes-and-events
+      VI: Kết quả có thể và sự kiện trong trò chơi, thí nghiệm
+      EN: Possible outcomes and events in games and experiments
+B180  lớp 6  id: experimental-probability
+      VI: Xác suất thực nghiệm
+      EN: Experimental probability
+
+[Lớp 7 – Số hữu tỉ]
+B181  lớp 7  id: set-of-rational-numbers
+      VI: Tập hợp các số hữu tỉ
+      EN: The set of rational numbers
+B182  lớp 7  id: rational-number-operations
+      VI: Cộng, trừ, nhân, chia số hữu tỉ
+      EN: Adding, subtracting, multiplying and dividing rational numbers
+B183  lớp 7  id: powers-of-rational-numbers
+      VI: Lũy thừa với số mũ tự nhiên của một số hữu tỉ
+      EN: Natural-number powers of a rational number
+B184  lớp 7  id: operations-and-transposition
+      VI: Thứ tự thực hiện các phép tính. Quy tắc chuyển vế
+      EN: Order of operations. Moving terms across the equals sign
+
+[Lớp 7 – Số thực]
+B185  lớp 7  id: recurring-decimals
+      VI: Làm quen với số thập phân vô hạn tuần hoàn
+      EN: Introducing recurring decimals
+B186  lớp 7  id: irrational-numbers-square-roots
+      VI: Số vô tỉ. Căn bậc hai số học
+      EN: Irrational numbers. Principal square roots
+B187  lớp 7  id: set-of-real-numbers
+      VI: Tập hợp các số thực
+      EN: The set of real numbers
+
+[Lớp 7 – Góc và đường thẳng song song]
+B188  lớp 7  id: angle-pairs-bisectors
+      VI: Góc ở vị trí đặc biệt. Tia phân giác của một góc
+      EN: Angles in special positions. The bisector of an angle
+B189  lớp 7  id: identifying-parallel-lines
+      VI: Hai đường thẳng song song và dấu hiệu nhận biết
+      EN: Parallel lines and how to identify them

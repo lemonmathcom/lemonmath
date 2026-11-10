@@ -1,0 +1,101 @@
+GIAO VIỆC LEMONMATH – tài khoản Vinax258
+Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 7), mã B190–B210.
+Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết các file đính kèm trước khi viết: WRITING-SPEC.md (đặc biệt mục 2, 2b, 2c, 2d), GLOSSARY.md, và 2 file bài mẫu cùng cấp (bản Việt + bản Anh). Chép đúng cú pháp các khung :::goals, :::example, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key) như bài mẫu.
+2. Mỗi bài = 2 file: bản tiếng Việt và bản tiếng Anh, CÙNG cấu trúc, cùng số ví dụ, bài tập, công thức, cùng số liệu. Đầu file có title (đúng tên bài trong danh sách), description (tối đa 155 kí tự), minutes. Không viết "# Tiêu đề".
+3. Xưng hô: lớp 1–5 gọi học sinh là "em"; lớp 6 trở lên gọi là "bạn", giải thích dùng "ta". Tiếng Anh dùng chính tả Anh (metres, factorise).
+4. Thứ tự trong bài: mục tiêu → tình huống mở đầu có số liệu thật, kết bằng câu hỏi → khám phá nhỏ → định nghĩa/quy tắc → vì sao đúng → 4–6 ví dụ từ dễ đến khó → lỗi hay gặp (sai, vì sao sai, đúng) → thuật ngữ → tóm tắt → Luyện tập 8–10 bài :::exercise (bài cuối "Thử thách"/"Challenge") → Kiểm tra mini: 4 trắc nghiệm, 1 đúng/sai, 2 trả lời ngắn (đáp số tối đa 4 kí tự, bỏ số 0 thừa: 1,1 chứ không 1,10).
+5. Văn phong lời giải và đề bài theo SGK Kết nối tri thức (tiểu học: "Đặt tính rồi tính", "Bài giải … Đáp số: …"). Không dạy vượt chương trình, không có bài "tìm m để…".
+6. Mọi đề bài, số liệu là của mình tự nghĩ, không chép sách hay web. Số liệu thực tế phải đúng và có nguồn uy tín; không chắc thì viết dạng giả định ("Một cửa hàng…").
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu trắc nghiệm trước khi nộp. Đáp án đúng A–D rải đều, không chữ nào quá 2 lần trong 4 câu trắc nghiệm.
+8. Độ dài mỗi ngôn ngữ: lớp 1–5 khoảng 600–1.200 từ; lớp 6–9 khoảng 1.400–2.200 từ; lớp 10–12 khoảng 1.800–3.000 từ.
+
+CÁCH NỘP
+- Viết lần lượt từng bài theo thứ tự mã. Mỗi bài xuất ra 2 file .md, ĐẶT TÊN ĐÚNG mã bài (id), ví dụ adding-decimals.md cho bản Việt và adding-decimals.md (tải xuống sẽ thành "adding-decimals (1).md") cho bản Anh. Không đổi id, không thêm chữ vào tên file.
+- Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
+
+
+===== ĐỢT 1 (7 bài) =====
+
+[Lớp 7 – Góc và đường thẳng song song]
+B190  lớp 7  id: euclids-parallel-postulate
+      VI: Tiên đề Euclid. Tính chất của hai đường thẳng song song
+      EN: Euclid's axiom. Properties of parallel lines
+B191  lớp 7  id: theorems-and-proofs
+      VI: Định lí và chứng minh định lí
+      EN: Theorems and proofs
+
+[Lớp 7 – Tam giác bằng nhau]
+B192  lớp 7  id: triangle-angle-sum
+      VI: Tổng các góc trong một tam giác
+      EN: Angle sum of a triangle
+B193  lớp 7  id: congruent-triangles-sss
+      VI: Hai tam giác bằng nhau. Trường hợp bằng nhau thứ nhất của tam giác
+      EN: Congruent triangles. The first congruence condition (SSS)
+B194  lớp 7  id: congruence-sas-asa
+      VI: Trường hợp bằng nhau thứ hai và thứ ba của tam giác
+      EN: The second and third congruence conditions (SAS and ASA)
+B195  lớp 7  id: right-triangle-congruence
+      VI: Các trường hợp bằng nhau của tam giác vuông
+      EN: Congruence conditions for right-angled triangles
+B196  lớp 7  id: isosceles-perpendicular-bisector
+      VI: Tam giác cân. Đường trung trực của đoạn thẳng
+      EN: Isosceles triangles. The perpendicular bisector of a line segment
+
+===== ĐỢT 2 (7 bài) =====
+
+[Lớp 7 – Thu thập và biểu diễn dữ liệu]
+B197  lớp 7  id: g7-collecting-classifying-data
+      VI: Thu thập và phân loại dữ liệu
+      EN: Collecting and classifying data
+B198  lớp 7  id: g7-pie-charts
+      VI: Biểu đồ hình quạt tròn
+      EN: Pie charts
+B199  lớp 7  id: line-graphs
+      VI: Biểu đồ đoạn thẳng
+      EN: Line graphs
+
+[Lớp 7 – Tỉ lệ thức và đại lượng tỉ lệ]
+B200  lớp 7  id: proportions
+      VI: Tỉ lệ thức
+      EN: Proportions
+B201  lớp 7  id: equal-ratios-property
+      VI: Tính chất của dãy tỉ số bằng nhau
+      EN: Properties of a chain of equal ratios
+B202  lớp 7  id: direct-proportion
+      VI: Đại lượng tỉ lệ thuận
+      EN: Direct proportion
+B203  lớp 7  id: inverse-proportion
+      VI: Đại lượng tỉ lệ nghịch
+      EN: Inverse proportion
+
+===== ĐỢT 3 (7 bài) =====
+
+[Lớp 7 – Biểu thức đại số và đa thức một biến]
+B204  lớp 7  id: algebraic-expressions
+      VI: Biểu thức đại số
+      EN: Algebraic expressions
+B205  lớp 7  id: polynomials-one-variable
+      VI: Đa thức một biến
+      EN: Polynomials in one variable
+B206  lớp 7  id: g7-add-subtract-polynomials
+      VI: Phép cộng và phép trừ đa thức một biến
+      EN: Adding and subtracting polynomials in one variable
+B207  lớp 7  id: g7-multiplying-polynomials
+      VI: Phép nhân đa thức một biến
+      EN: Multiplying polynomials in one variable
+B208  lớp 7  id: dividing-polynomials
+      VI: Phép chia đa thức một biến
+      EN: Dividing polynomials in one variable
+
+[Lớp 7 – Làm quen với biến cố và xác suất của biến cố]
+B209  lớp 7  id: intro-to-events
+      VI: Làm quen với biến cố
+      EN: Introducing events
+
+[Lớp 7 – Quan hệ giữa các yếu tố trong một tam giác]
+B210  lớp 7  id: angles-and-opposite-sides
+      VI: Quan hệ giữa góc và cạnh đối diện trong một tam giác
+      EN: Angles and opposite sides in a triangle

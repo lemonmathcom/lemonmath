@@ -1,0 +1,109 @@
+GIAO VIỆC LEMONMATH – tài khoản Kinangtoan
+Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 1, lớp 2), mã B001–B021.
+Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết các file đính kèm trước khi viết: WRITING-SPEC.md (đặc biệt mục 2, 2b, 2c, 2d), GLOSSARY.md, và 2 file bài mẫu cùng cấp (bản Việt + bản Anh). Chép đúng cú pháp các khung :::goals, :::example, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key) như bài mẫu.
+2. Mỗi bài = 2 file: bản tiếng Việt và bản tiếng Anh, CÙNG cấu trúc, cùng số ví dụ, bài tập, công thức, cùng số liệu. Đầu file có title (đúng tên bài trong danh sách), description (tối đa 155 kí tự), minutes. Không viết "# Tiêu đề".
+3. Xưng hô: lớp 1–5 gọi học sinh là "em"; lớp 6 trở lên gọi là "bạn", giải thích dùng "ta". Tiếng Anh dùng chính tả Anh (metres, factorise).
+4. Thứ tự trong bài: mục tiêu → tình huống mở đầu có số liệu thật, kết bằng câu hỏi → khám phá nhỏ → định nghĩa/quy tắc → vì sao đúng → 4–6 ví dụ từ dễ đến khó → lỗi hay gặp (sai, vì sao sai, đúng) → thuật ngữ → tóm tắt → Luyện tập 8–10 bài :::exercise (bài cuối "Thử thách"/"Challenge") → Kiểm tra mini: 4 trắc nghiệm, 1 đúng/sai, 2 trả lời ngắn (đáp số tối đa 4 kí tự, bỏ số 0 thừa: 1,1 chứ không 1,10).
+5. Văn phong lời giải và đề bài theo SGK Kết nối tri thức (tiểu học: "Đặt tính rồi tính", "Bài giải … Đáp số: …"). Không dạy vượt chương trình, không có bài "tìm m để…".
+6. Mọi đề bài, số liệu là của mình tự nghĩ, không chép sách hay web. Số liệu thực tế phải đúng và có nguồn uy tín; không chắc thì viết dạng giả định ("Một cửa hàng…").
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu trắc nghiệm trước khi nộp. Đáp án đúng A–D rải đều, không chữ nào quá 2 lần trong 4 câu trắc nghiệm.
+8. Độ dài mỗi ngôn ngữ: lớp 1–5 khoảng 600–1.200 từ; lớp 6–9 khoảng 1.400–2.200 từ; lớp 10–12 khoảng 1.800–3.000 từ.
+
+CÁCH NỘP
+- Viết lần lượt từng bài theo thứ tự mã. Mỗi bài xuất ra 2 file .md, ĐẶT TÊN ĐÚNG mã bài (id), ví dụ adding-decimals.md cho bản Việt và adding-decimals.md (tải xuống sẽ thành "adding-decimals (1).md") cho bản Anh. Không đổi id, không thêm chữ vào tên file.
+- Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
+
+
+===== ĐỢT 1 (7 bài) =====
+
+[Lớp 1 – Các số đến 100]
+B001  lớp 1  id: hundred-square
+      VI: Bảng các số từ 1 đến 100
+      EN: The hundred square (1 to 100)
+
+[Lớp 1 – Độ dài và đo độ dài]
+B002  lớp 1  id: longer-and-shorter
+      VI: Dài hơn, ngắn hơn
+      EN: Longer and shorter
+B003  lớp 1  id: units-of-length
+      VI: Đơn vị đo độ dài
+      EN: Units of length
+
+[Lớp 1 – Thời gian. Giờ và lịch]
+B004  lớp 1  id: time-to-the-hour
+      VI: Xem giờ đúng trên đồng hồ
+      EN: Telling the time: o'clock
+B005  lớp 1  id: days-of-the-week
+      VI: Các ngày trong tuần
+      EN: Days of the week
+
+[Lớp 2 – Ôn tập và bổ sung]
+B006  lớp 2  id: number-line-before-after
+      VI: Tia số. Số liền trước, số liền sau
+      EN: Number lines: the number before and after
+B007  lớp 2  id: parts-of-addition-subtraction
+      VI: Các thành phần của phép cộng, phép trừ
+      EN: Parts of addition and subtraction
+
+===== ĐỢT 2 (7 bài) =====
+
+[Lớp 2 – Ôn tập và bổ sung]
+B008  lớp 2  id: how-many-more-or-fewer
+      VI: Hơn, kém nhau bao nhiêu
+      EN: How many more or fewer?
+
+[Lớp 2 – Phép cộng, phép trừ trong phạm vi 20]
+B009  lớp 2  id: addition-facts-crossing-10
+      VI: Bảng cộng (qua 10)
+      EN: Addition facts bridging through 10
+B010  lớp 2  id: adding-on-taking-away-problems
+      VI: Bài toán về thêm, bớt một số đơn vị
+      EN: Word problems: adding on and taking away
+B011  lớp 2  id: subtraction-crossing-10
+      VI: Phép trừ (qua 10) trong phạm vi 20
+      EN: Subtraction bridging through 10 (within 20)
+B012  lớp 2  id: subtraction-facts-crossing-10
+      VI: Bảng trừ (qua 10)
+      EN: Subtraction facts bridging through 10
+B013  lớp 2  id: more-fewer-word-problems
+      VI: Bài toán về nhiều hơn, ít hơn một số đơn vị
+      EN: Word problems: more than and fewer than
+
+[Lớp 2 – Làm quen với khối lượng, dung tích]
+B014  lớp 2  id: kilograms
+      VI: Ki-lô-gam
+      EN: Kilograms
+
+===== ĐỢT 3 (7 bài) =====
+
+[Lớp 2 – Làm quen với khối lượng, dung tích]
+B015  lớp 2  id: litres
+      VI: Lít
+      EN: Litres
+
+[Lớp 2 – Làm quen với hình phẳng]
+B016  lớp 2  id: broken-lines-quadrilaterals
+      VI: Đường gấp khúc. Hình tứ giác
+      EN: Broken (zigzag) lines. Quadrilaterals
+
+[Lớp 2 – Ngày - giờ, giờ - phút, ngày - tháng]
+B017  lớp 2  id: days-hours-minutes
+      VI: Ngày - giờ, giờ - phút
+      EN: Days and hours, hours and minutes
+B018  lớp 2  id: days-and-months
+      VI: Ngày - tháng
+      EN: Days and months
+
+[Lớp 2 – Phép nhân, phép chia]
+B019  lớp 2  id: intro-to-multiplication
+      VI: Phép nhân
+      EN: Multiplication
+B020  lớp 2  id: factors-and-products
+      VI: Thừa số, tích
+      EN: Factors and products
+B021  lớp 2  id: two-times-table
+      VI: Bảng nhân 2
+      EN: The 2 times table

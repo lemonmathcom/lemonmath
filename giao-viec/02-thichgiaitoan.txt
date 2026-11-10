@@ -1,0 +1,107 @@
+GIAO VIỆC LEMONMATH – tài khoản thichgiaitoan
+Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 3), mã B043–B063.
+Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết các file đính kèm trước khi viết: WRITING-SPEC.md (đặc biệt mục 2, 2b, 2c, 2d), GLOSSARY.md, và 2 file bài mẫu cùng cấp (bản Việt + bản Anh). Chép đúng cú pháp các khung :::goals, :::example, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key) như bài mẫu.
+2. Mỗi bài = 2 file: bản tiếng Việt và bản tiếng Anh, CÙNG cấu trúc, cùng số ví dụ, bài tập, công thức, cùng số liệu. Đầu file có title (đúng tên bài trong danh sách), description (tối đa 155 kí tự), minutes. Không viết "# Tiêu đề".
+3. Xưng hô: lớp 1–5 gọi học sinh là "em"; lớp 6 trở lên gọi là "bạn", giải thích dùng "ta". Tiếng Anh dùng chính tả Anh (metres, factorise).
+4. Thứ tự trong bài: mục tiêu → tình huống mở đầu có số liệu thật, kết bằng câu hỏi → khám phá nhỏ → định nghĩa/quy tắc → vì sao đúng → 4–6 ví dụ từ dễ đến khó → lỗi hay gặp (sai, vì sao sai, đúng) → thuật ngữ → tóm tắt → Luyện tập 8–10 bài :::exercise (bài cuối "Thử thách"/"Challenge") → Kiểm tra mini: 4 trắc nghiệm, 1 đúng/sai, 2 trả lời ngắn (đáp số tối đa 4 kí tự, bỏ số 0 thừa: 1,1 chứ không 1,10).
+5. Văn phong lời giải và đề bài theo SGK Kết nối tri thức (tiểu học: "Đặt tính rồi tính", "Bài giải … Đáp số: …"). Không dạy vượt chương trình, không có bài "tìm m để…".
+6. Mọi đề bài, số liệu là của mình tự nghĩ, không chép sách hay web. Số liệu thực tế phải đúng và có nguồn uy tín; không chắc thì viết dạng giả định ("Một cửa hàng…").
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu trắc nghiệm trước khi nộp. Đáp án đúng A–D rải đều, không chữ nào quá 2 lần trong 4 câu trắc nghiệm.
+8. Độ dài mỗi ngôn ngữ: lớp 1–5 khoảng 600–1.200 từ; lớp 6–9 khoảng 1.400–2.200 từ; lớp 10–12 khoảng 1.800–3.000 từ.
+
+CÁCH NỘP
+- Viết lần lượt từng bài theo thứ tự mã. Mỗi bài xuất ra 2 file .md, ĐẶT TÊN ĐÚNG mã bài (id), ví dụ adding-decimals.md cho bản Việt và adding-decimals.md (tải xuống sẽ thành "adding-decimals (1).md") cho bản Anh. Không đổi id, không thêm chữ vào tên file.
+- Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
+
+
+===== ĐỢT 1 (7 bài) =====
+
+[Lớp 3 – Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ]
+B043  lớp 3  id: temperature
+      VI: Nhiệt độ. Đơn vị đo nhiệt độ
+      EN: Temperature and units of temperature
+
+[Lớp 3 – Phép nhân, phép chia trong phạm vi 1000]
+B044  lớp 3  id: multiply-3-digit-by-1-digit
+      VI: Nhân số có ba chữ số với số có một chữ số
+      EN: Multiplying a three-digit number by a one-digit number
+B045  lớp 3  id: divide-3-digit-by-1-digit
+      VI: Chia số có ba chữ số cho số có một chữ số
+      EN: Dividing a three-digit number by a one-digit number
+B046  lớp 3  id: numerical-expressions
+      VI: Biểu thức số. Tính giá trị của biểu thức số
+      EN: Numerical expressions and their values
+B047  lớp 3  id: how-many-times-larger
+      VI: So sánh số lớn gấp mấy lần số bé
+      EN: How many times larger is one number than another?
+
+[Lớp 3 – Các số đến 10 000]
+B048  lớp 3  id: four-digit-numbers
+      VI: Các số có bốn chữ số. Số 10 000
+      EN: Four-digit numbers. The number 10,000
+B049  lớp 3  id: comparing-numbers-to-10000
+      VI: So sánh các số trong phạm vi 10 000
+      EN: Comparing numbers within 10,000
+
+===== ĐỢT 2 (7 bài) =====
+
+[Lớp 3 – Các số đến 10 000]
+B050  lớp 3  id: roman-numerals
+      VI: Làm quen với chữ số La Mã
+      EN: Introducing Roman numerals
+B051  lớp 3  id: rounding-to-tens-hundreds
+      VI: Làm tròn số đến hàng chục, hàng trăm
+      EN: Rounding to the nearest ten or hundred
+
+[Lớp 3 – Chu vi, diện tích một số hình phẳng]
+B052  lớp 3  id: area-square-centimetres
+      VI: Diện tích của một hình. Xăng-ti-mét vuông
+      EN: The area of a shape. Square centimetres
+B053  lớp 3  id: area-rectangles-squares
+      VI: Diện tích hình chữ nhật, diện tích hình vuông
+      EN: Area of rectangles and squares
+
+[Lớp 3 – Cộng, trừ, nhân, chia trong phạm vi 10 000]
+B054  lớp 3  id: addition-within-10000
+      VI: Phép cộng trong phạm vi 10 000
+      EN: Addition within 10,000
+B055  lớp 3  id: subtraction-within-10000
+      VI: Phép trừ trong phạm vi 10 000
+      EN: Subtraction within 10,000
+B056  lớp 3  id: divide-4-digit-by-1-digit
+      VI: Chia số có bốn chữ số cho số có một chữ số
+      EN: Dividing a four-digit number by a one-digit number
+
+===== ĐỢT 3 (7 bài) =====
+
+[Lớp 3 – Các số đến 100 000]
+B057  lớp 3  id: five-digit-numbers
+      VI: Các số có năm chữ số. Số 100 000
+      EN: Five-digit numbers. The number 100,000
+B058  lớp 3  id: comparing-numbers-to-100000
+      VI: So sánh các số trong phạm vi 100 000
+      EN: Comparing numbers within 100,000
+
+[Lớp 3 – Cộng, trừ trong phạm vi 100 000]
+B059  lớp 3  id: addition-within-100000
+      VI: Phép cộng trong phạm vi 100 000
+      EN: Addition within 100,000
+B060  lớp 3  id: subtraction-within-100000
+      VI: Phép trừ trong phạm vi 100 000
+      EN: Subtraction within 100,000
+
+[Lớp 3 – Xem đồng hồ. Tháng - năm. Tiền Việt Nam]
+B061  lớp 3  id: clocks-months-years
+      VI: Xem đồng hồ. Tháng - năm
+      EN: Telling the time. Months and years
+
+[Lớp 3 – Nhân, chia trong phạm vi 100 000]
+B062  lớp 3  id: multiply-5-digit-by-1-digit
+      VI: Nhân số có năm chữ số với số có một chữ số
+      EN: Multiplying a five-digit number by a one-digit number
+B063  lớp 3  id: divide-5-digit-by-1-digit
+      VI: Chia số có năm chữ số cho số có một chữ số
+      EN: Dividing a five-digit number by a one-digit number

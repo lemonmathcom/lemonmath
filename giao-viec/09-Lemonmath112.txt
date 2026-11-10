@@ -1,0 +1,99 @@
+GIAO VIỆC LEMONMATH – tài khoản Lemonmath112
+Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 8), mã B232–B252.
+Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết các file đính kèm trước khi viết: WRITING-SPEC.md (đặc biệt mục 2, 2b, 2c, 2d), GLOSSARY.md, và 2 file bài mẫu cùng cấp (bản Việt + bản Anh). Chép đúng cú pháp các khung :::goals, :::example, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key) như bài mẫu.
+2. Mỗi bài = 2 file: bản tiếng Việt và bản tiếng Anh, CÙNG cấu trúc, cùng số ví dụ, bài tập, công thức, cùng số liệu. Đầu file có title (đúng tên bài trong danh sách), description (tối đa 155 kí tự), minutes. Không viết "# Tiêu đề".
+3. Xưng hô: lớp 1–5 gọi học sinh là "em"; lớp 6 trở lên gọi là "bạn", giải thích dùng "ta". Tiếng Anh dùng chính tả Anh (metres, factorise).
+4. Thứ tự trong bài: mục tiêu → tình huống mở đầu có số liệu thật, kết bằng câu hỏi → khám phá nhỏ → định nghĩa/quy tắc → vì sao đúng → 4–6 ví dụ từ dễ đến khó → lỗi hay gặp (sai, vì sao sai, đúng) → thuật ngữ → tóm tắt → Luyện tập 8–10 bài :::exercise (bài cuối "Thử thách"/"Challenge") → Kiểm tra mini: 4 trắc nghiệm, 1 đúng/sai, 2 trả lời ngắn (đáp số tối đa 4 kí tự, bỏ số 0 thừa: 1,1 chứ không 1,10).
+5. Văn phong lời giải và đề bài theo SGK Kết nối tri thức (tiểu học: "Đặt tính rồi tính", "Bài giải … Đáp số: …"). Không dạy vượt chương trình, không có bài "tìm m để…".
+6. Mọi đề bài, số liệu là của mình tự nghĩ, không chép sách hay web. Số liệu thực tế phải đúng và có nguồn uy tín; không chắc thì viết dạng giả định ("Một cửa hàng…").
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu trắc nghiệm trước khi nộp. Đáp án đúng A–D rải đều, không chữ nào quá 2 lần trong 4 câu trắc nghiệm.
+8. Độ dài mỗi ngôn ngữ: lớp 1–5 khoảng 600–1.200 từ; lớp 6–9 khoảng 1.400–2.200 từ; lớp 10–12 khoảng 1.800–3.000 từ.
+
+CÁCH NỘP
+- Viết lần lượt từng bài theo thứ tự mã. Mỗi bài xuất ra 2 file .md, ĐẶT TÊN ĐÚNG mã bài (id), ví dụ adding-decimals.md cho bản Việt và adding-decimals.md (tải xuống sẽ thành "adding-decimals (1).md") cho bản Anh. Không đổi id, không thêm chữ vào tên file.
+- Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
+
+
+===== ĐỢT 1 (7 bài) =====
+
+[Lớp 8 – Dữ liệu và biểu đồ]
+B232  lớp 8  id: g8-collecting-classifying-data
+      VI: Thu thập và phân loại dữ liệu
+      EN: Collecting and classifying data
+B233  lớp 8  id: tables-and-charts
+      VI: Biểu diễn dữ liệu bằng bảng, biểu đồ
+      EN: Representing data in tables and charts
+B234  lớp 8  id: analysing-charts
+      VI: Phân tích số liệu thống kê dựa vào biểu đồ
+      EN: Analysing statistical data from charts
+
+[Lớp 8 – Phân thức đại số]
+B235  lớp 8  id: intro-algebraic-fractions
+      VI: Phân thức đại số
+      EN: Algebraic fractions
+B236  lớp 8  id: basic-property-algebraic-fractions
+      VI: Tính chất cơ bản của phân thức đại số
+      EN: The basic property of algebraic fractions
+B237  lớp 8  id: add-subtract-algebraic-fractions
+      VI: Phép cộng và phép trừ phân thức đại số
+      EN: Adding and subtracting algebraic fractions
+B238  lớp 8  id: multiply-divide-algebraic-fractions
+      VI: Phép nhân và phép chia phân thức đại số
+      EN: Multiplying and dividing algebraic fractions
+
+===== ĐỢT 2 (7 bài) =====
+
+[Lớp 8 – Phương trình bậc nhất và hàm số bậc nhất]
+B239  lớp 8  id: linear-equations-one-unknown
+      VI: Phương trình bậc nhất một ẩn
+      EN: Linear equations in one unknown
+B240  lớp 8  id: g8-equation-word-problems
+      VI: Giải bài toán bằng cách lập phương trình
+      EN: Solving word problems by forming equations
+B241  lớp 8  id: intro-functions-graphs
+      VI: Khái niệm hàm số và đồ thị của hàm số
+      EN: The idea of a function and its graph
+B242  lớp 8  id: gradient-of-a-line
+      VI: Hệ số góc của đường thẳng
+      EN: The gradient of a straight line
+
+[Lớp 8 – Mở đầu về tính xác suất của biến cố]
+B243  lớp 8  id: possible-favourable-outcomes
+      VI: Kết quả có thể và kết quả thuận lợi
+      EN: Possible outcomes and favourable outcomes
+B244  lớp 8  id: probability-as-a-ratio
+      VI: Cách tính xác suất của biến cố bằng tỉ số
+      EN: Calculating probability as a ratio
+B245  lớp 8  id: experimental-theoretical-probability
+      VI: Mối liên hệ giữa xác suất thực nghiệm với xác suất và ứng dụng
+      EN: Experimental and theoretical probability, with applications
+
+===== ĐỢT 3 (7 bài) =====
+
+[Lớp 8 – Tam giác đồng dạng]
+B246  lớp 8  id: similar-triangles
+      VI: Hai tam giác đồng dạng
+      EN: Similar triangles
+B247  lớp 8  id: triangle-similarity-conditions
+      VI: Ba trường hợp đồng dạng của hai tam giác
+      EN: The three similarity conditions for triangles
+B248  lớp 8  id: pythagoras-theorem
+      VI: Định lí Pythagore và ứng dụng
+      EN: Pythagoras' theorem and its applications
+B249  lớp 8  id: right-triangle-similarity
+      VI: Các trường hợp đồng dạng của hai tam giác vuông
+      EN: Similarity conditions for right-angled triangles
+B250  lớp 8  id: similar-shapes
+      VI: Hình đồng dạng
+      EN: Similar shapes
+
+[Lớp 8 – Một số hình khối trong thực tiễn]
+B251  lớp 8  id: regular-triangular-pyramids
+      VI: Hình chóp tam giác đều
+      EN: Regular triangular pyramids
+B252  lớp 8  id: square-based-pyramids
+      VI: Hình chóp tứ giác đều
+      EN: Regular square-based pyramids

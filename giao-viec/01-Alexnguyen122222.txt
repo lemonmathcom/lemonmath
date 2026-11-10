@@ -1,0 +1,103 @@
+GIAO VIỆC LEMONMATH – tài khoản Alexnguyen122222
+Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 2, lớp 3), mã B022–B042.
+Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết các file đính kèm trước khi viết: WRITING-SPEC.md (đặc biệt mục 2, 2b, 2c, 2d), GLOSSARY.md, và 2 file bài mẫu cùng cấp (bản Việt + bản Anh). Chép đúng cú pháp các khung :::goals, :::example, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key) như bài mẫu.
+2. Mỗi bài = 2 file: bản tiếng Việt và bản tiếng Anh, CÙNG cấu trúc, cùng số ví dụ, bài tập, công thức, cùng số liệu. Đầu file có title (đúng tên bài trong danh sách), description (tối đa 155 kí tự), minutes. Không viết "# Tiêu đề".
+3. Xưng hô: lớp 1–5 gọi học sinh là "em"; lớp 6 trở lên gọi là "bạn", giải thích dùng "ta". Tiếng Anh dùng chính tả Anh (metres, factorise).
+4. Thứ tự trong bài: mục tiêu → tình huống mở đầu có số liệu thật, kết bằng câu hỏi → khám phá nhỏ → định nghĩa/quy tắc → vì sao đúng → 4–6 ví dụ từ dễ đến khó → lỗi hay gặp (sai, vì sao sai, đúng) → thuật ngữ → tóm tắt → Luyện tập 8–10 bài :::exercise (bài cuối "Thử thách"/"Challenge") → Kiểm tra mini: 4 trắc nghiệm, 1 đúng/sai, 2 trả lời ngắn (đáp số tối đa 4 kí tự, bỏ số 0 thừa: 1,1 chứ không 1,10).
+5. Văn phong lời giải và đề bài theo SGK Kết nối tri thức (tiểu học: "Đặt tính rồi tính", "Bài giải … Đáp số: …"). Không dạy vượt chương trình, không có bài "tìm m để…".
+6. Mọi đề bài, số liệu là của mình tự nghĩ, không chép sách hay web. Số liệu thực tế phải đúng và có nguồn uy tín; không chắc thì viết dạng giả định ("Một cửa hàng…").
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu trắc nghiệm trước khi nộp. Đáp án đúng A–D rải đều, không chữ nào quá 2 lần trong 4 câu trắc nghiệm.
+8. Độ dài mỗi ngôn ngữ: lớp 1–5 khoảng 600–1.200 từ; lớp 6–9 khoảng 1.400–2.200 từ; lớp 10–12 khoảng 1.800–3.000 từ.
+
+CÁCH NỘP
+- Viết lần lượt từng bài theo thứ tự mã. Mỗi bài xuất ra 2 file .md, ĐẶT TÊN ĐÚNG mã bài (id), ví dụ adding-decimals.md cho bản Việt và adding-decimals.md (tải xuống sẽ thành "adding-decimals (1).md") cho bản Anh. Không đổi id, không thêm chữ vào tên file.
+- Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
+
+
+===== ĐỢT 1 (7 bài) =====
+
+[Lớp 2 – Phép nhân, phép chia]
+B022  lớp 2  id: five-times-table
+      VI: Bảng nhân 5
+      EN: The 5 times table
+B023  lớp 2  id: intro-to-division
+      VI: Phép chia
+      EN: Division
+B024  lớp 2  id: dividend-divisor-quotient
+      VI: Số bị chia, số chia, thương
+      EN: Dividend, divisor and quotient
+B025  lớp 2  id: division-facts-for-2
+      VI: Bảng chia 2
+      EN: Division facts for 2
+B026  lớp 2  id: division-facts-for-5
+      VI: Bảng chia 5
+      EN: Division facts for 5
+
+[Lớp 2 – Độ dài và đơn vị đo độ dài. Tiền Việt Nam]
+B027  lớp 2  id: vietnamese-money
+      VI: Giới thiệu tiền Việt Nam
+      EN: Introducing Vietnamese money
+
+[Lớp 2 – Phép cộng, phép trừ trong phạm vi 1000]
+B028  lớp 2  id: add-within-1000-no-regrouping
+      VI: Phép cộng (không nhớ) trong phạm vi 1000
+      EN: Addition within 1,000 (no regrouping)
+
+===== ĐỢT 2 (7 bài) =====
+
+[Lớp 2 – Phép cộng, phép trừ trong phạm vi 1000]
+B029  lớp 2  id: add-within-1000-regrouping
+      VI: Phép cộng (có nhớ) trong phạm vi 1000
+      EN: Addition within 1,000 (with regrouping)
+B030  lớp 2  id: subtract-within-1000-no-regrouping
+      VI: Phép trừ (không nhớ) trong phạm vi 1000
+      EN: Subtraction within 1,000 (no regrouping)
+B031  lớp 2  id: subtract-within-1000-regrouping
+      VI: Phép trừ (có nhớ) trong phạm vi 1000
+      EN: Subtraction within 1,000 (with regrouping)
+
+[Lớp 2 – Làm quen với yếu tố thống kê, xác suất]
+B032  lớp 2  id: collecting-sorting-tallying
+      VI: Thu thập, phân loại, kiểm đếm số liệu
+      EN: Collecting, sorting and tallying data
+B033  lớp 2  id: g2-pictograms
+      VI: Biểu đồ tranh
+      EN: Pictograms
+B034  lớp 2  id: certain-possible-impossible
+      VI: Chắc chắn, có thể, không thể
+      EN: Certain, possible, impossible
+
+[Lớp 3 – Phép nhân, phép chia trong phạm vi 100]
+B035  lớp 3  id: scaling-up
+      VI: Gấp một số lên một số lần
+      EN: Making a number several times larger
+
+===== ĐỢT 3 (7 bài) =====
+
+[Lớp 3 – Phép nhân, phép chia trong phạm vi 100]
+B036  lớp 3  id: division-with-remainders
+      VI: Phép chia hết, phép chia có dư
+      EN: Exact division and division with remainders
+B037  lớp 3  id: divide-2-digit-by-1-digit
+      VI: Chia số có hai chữ số cho số có một chữ số
+      EN: Dividing a two-digit number by a one-digit number
+B038  lớp 3  id: scaling-down
+      VI: Giảm một số đi một số lần
+      EN: Making a number several times smaller
+B039  lớp 3  id: two-step-problems
+      VI: Bài toán giải bằng hai bước tính
+      EN: Two-step word problems
+
+[Lớp 3 – Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ]
+B040  lớp 3  id: millimetres
+      VI: Mi-li-mét
+      EN: Millimetres
+B041  lớp 3  id: grams
+      VI: Gam
+      EN: Grams
+B042  lớp 3  id: millilitres
+      VI: Mi-li-lít
+      EN: Millilitres

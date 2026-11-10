@@ -1,0 +1,103 @@
+GIAO VIỆC LEMONMATH – tài khoản Vinax.vn
+Phân công ngày 10/11/2026 (thay toàn bộ phân công cũ). Số bài: 21 bài song ngữ (lớp 4, lớp 5), mã B085–B105.
+Bạn là giáo viên toán tận tâm, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết các file đính kèm trước khi viết: WRITING-SPEC.md (đặc biệt mục 2, 2b, 2c, 2d), GLOSSARY.md, và 2 file bài mẫu cùng cấp (bản Việt + bản Anh). Chép đúng cú pháp các khung :::goals, :::example, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key) như bài mẫu.
+2. Mỗi bài = 2 file: bản tiếng Việt và bản tiếng Anh, CÙNG cấu trúc, cùng số ví dụ, bài tập, công thức, cùng số liệu. Đầu file có title (đúng tên bài trong danh sách), description (tối đa 155 kí tự), minutes. Không viết "# Tiêu đề".
+3. Xưng hô: lớp 1–5 gọi học sinh là "em"; lớp 6 trở lên gọi là "bạn", giải thích dùng "ta". Tiếng Anh dùng chính tả Anh (metres, factorise).
+4. Thứ tự trong bài: mục tiêu → tình huống mở đầu có số liệu thật, kết bằng câu hỏi → khám phá nhỏ → định nghĩa/quy tắc → vì sao đúng → 4–6 ví dụ từ dễ đến khó → lỗi hay gặp (sai, vì sao sai, đúng) → thuật ngữ → tóm tắt → Luyện tập 8–10 bài :::exercise (bài cuối "Thử thách"/"Challenge") → Kiểm tra mini: 4 trắc nghiệm, 1 đúng/sai, 2 trả lời ngắn (đáp số tối đa 4 kí tự, bỏ số 0 thừa: 1,1 chứ không 1,10).
+5. Văn phong lời giải và đề bài theo SGK Kết nối tri thức (tiểu học: "Đặt tính rồi tính", "Bài giải … Đáp số: …"). Không dạy vượt chương trình, không có bài "tìm m để…".
+6. Mọi đề bài, số liệu là của mình tự nghĩ, không chép sách hay web. Số liệu thực tế phải đúng và có nguồn uy tín; không chắc thì viết dạng giả định ("Một cửa hàng…").
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu trắc nghiệm trước khi nộp. Đáp án đúng A–D rải đều, không chữ nào quá 2 lần trong 4 câu trắc nghiệm.
+8. Độ dài mỗi ngôn ngữ: lớp 1–5 khoảng 600–1.200 từ; lớp 6–9 khoảng 1.400–2.200 từ; lớp 10–12 khoảng 1.800–3.000 từ.
+
+CÁCH NỘP
+- Viết lần lượt từng bài theo thứ tự mã. Mỗi bài xuất ra 2 file .md, ĐẶT TÊN ĐÚNG mã bài (id), ví dụ adding-decimals.md cho bản Việt và adding-decimals.md (tải xuống sẽ thành "adding-decimals (1).md") cho bản Anh. Không đổi id, không thêm chữ vào tên file.
+- Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
+
+
+===== ĐỢT 1 (7 bài) =====
+
+[Lớp 4 – Phép nhân và phép chia]
+B085  lớp 4  id: commutative-associative-multiplication
+      VI: Tính chất giao hoán và kết hợp của phép nhân
+      EN: Commutative and associative properties of multiplication
+B086  lớp 4  id: multiply-divide-by-10-100-1000
+      VI: Nhân, chia với 10, 100, 1 000, ...
+      EN: Multiplying and dividing by 10, 100, 1,000, ...
+B087  lớp 4  id: distributive-property
+      VI: Tính chất phân phối của phép nhân đối với phép cộng
+      EN: The distributive property of multiplication over addition
+B088  lớp 4  id: multiply-by-2-digit
+      VI: Nhân với số có hai chữ số
+      EN: Multiplying by a two-digit number
+B089  lớp 4  id: divide-by-2-digit
+      VI: Chia cho số có hai chữ số
+      EN: Dividing by a two-digit number
+
+[Lớp 4 – Phân số]
+B090  lớp 4  id: simplifying-fractions
+      VI: Rút gọn phân số
+      EN: Simplifying fractions
+B091  lớp 4  id: common-denominators
+      VI: Quy đồng mẫu số các phân số
+      EN: Finding a common denominator
+
+===== ĐỢT 2 (7 bài) =====
+
+[Lớp 4 – Phân số]
+B092  lớp 4  id: g4-comparing-fractions
+      VI: So sánh phân số
+      EN: Comparing fractions
+
+[Lớp 4 – Phép cộng, phép trừ phân số]
+B093  lớp 4  id: g4-adding-fractions
+      VI: Phép cộng phân số
+      EN: Adding fractions
+B094  lớp 4  id: g4-subtracting-fractions
+      VI: Phép trừ phân số
+      EN: Subtracting fractions
+
+[Lớp 4 – Phép nhân, phép chia phân số]
+B095  lớp 4  id: multiplying-fractions
+      VI: Phép nhân phân số
+      EN: Multiplying fractions
+B096  lớp 4  id: dividing-fractions
+      VI: Phép chia phân số
+      EN: Dividing fractions
+B097  lớp 4  id: fraction-of-an-amount
+      VI: Tìm phân số của một số
+      EN: Finding a fraction of an amount
+
+[Lớp 5 – Ôn tập và bổ sung]
+B098  lớp 5  id: review-natural-numbers
+      VI: Ôn tập số tự nhiên
+      EN: Review: natural numbers
+
+===== ĐỢT 3 (7 bài) =====
+
+[Lớp 5 – Ôn tập và bổ sung]
+B099  lớp 5  id: review-fractions
+      VI: Ôn tập phân số
+      EN: Review: fractions
+B100  lớp 5  id: decimal-fractions
+      VI: Phân số thập phân
+      EN: Decimal fractions
+B101  lớp 5  id: review-fraction-operations
+      VI: Ôn tập các phép tính với phân số
+      EN: Review: calculations with fractions
+B102  lớp 5  id: add-subtract-unlike-fractions
+      VI: Cộng, trừ hai phân số khác mẫu số
+      EN: Adding and subtracting fractions with different denominators
+B103  lớp 5  id: mixed-numbers
+      VI: Hỗn số
+      EN: Mixed numbers
+B104  lớp 5  id: review-geometry-measures
+      VI: Ôn tập hình học và đo lường
+      EN: Review: geometry and measures
+
+[Lớp 5 – Số thập phân]
+B105  lớp 5  id: introducing-decimals
+      VI: Khái niệm số thập phân
+      EN: The idea of a decimal
