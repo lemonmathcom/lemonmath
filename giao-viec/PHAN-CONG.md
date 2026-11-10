@@ -17,7 +17,7 @@ Sức viết: 11 tài khoản Claude Free (mỗi tài khoản 1 phần) + 1 Chat
 | Vimus2358 | 15 | lớp 8 | B157–B171 | `08-Vimus2358.txt` |
 | Lemonmath112 | 15 | lớp 8, lớp 9, lớp 11 | B172–B186 | `09-Lemonmath112.txt` |
 | Xedap102 | 15 | lớp 11 | B187–B201 | `10-Xedap102.txt` |
-| Tai-khoan-11 | 15 | lớp 11 | B202–B216 | `11-Tai-khoan-11.txt` |
+| chanh106 | 15 | lớp 11 | B202–B216 | `11-chanh106.txt` |
 
 ## Cách giao
 - Mỗi lần dán cho một tài khoản: nội dung file `.txt` của tài khoản đó (toàn bộ), kèm 4 file trong thư mục `dinh-kem/`: WRITING-SPEC.md, GLOSSARY.md và cặp bài mẫu đúng cấp (tiểu học / THCS / THPT).
@@ -229,18 +229,18 @@ Sức viết: 11 tài khoản Claude Free (mỗi tài khoản 1 phần) + 1 Chat
 | B199 | 11 | parallel-projection | Phép chiếu song song | Xedap102 |
 | B200 | 11 | sequence-limits | Giới hạn của dãy số | Xedap102 |
 | B201 | 11 | function-limits | Giới hạn của hàm số | Xedap102 |
-| B202 | 11 | continuity | Hàm số liên tục | Tai-khoan-11 |
-| B203 | 11 | real-exponents | Luỹ thừa với số mũ thực | Tai-khoan-11 |
-| B204 | 11 | logarithms | Lôgarit | Tai-khoan-11 |
-| B205 | 11 | exp-log-functions | Hàm số mũ và hàm số lôgarit | Tai-khoan-11 |
-| B206 | 11 | exp-log-equations | Phương trình, bất phương trình mũ và lôgarit | Tai-khoan-11 |
-| B207 | 11 | derivative-definition | Đạo hàm | Tai-khoan-11 |
-| B208 | 11 | differentiation-rules | Các quy tắc tính đạo hàm | Tai-khoan-11 |
-| B209 | 11 | second-derivative | Đạo hàm cấp hai | Tai-khoan-11 |
-| B210 | 11 | perpendicular-lines-space | Hai đường thẳng vuông góc | Tai-khoan-11 |
-| B211 | 11 | line-perpendicular-plane | Đường thẳng vuông góc với mặt phẳng | Tai-khoan-11 |
-| B212 | 11 | orthogonal-projection-angle | Phép chiếu vuông góc. Góc giữa đường thẳng và mặt phẳng | Tai-khoan-11 |
-| B213 | 11 | distances-space | Khoảng cách trong không gian | Tai-khoan-11 |
-| B214 | 11 | volumes | Thể tích | Tai-khoan-11 |
-| B215 | 11 | union-intersection-events | Biến cố hợp, biến cố giao, biến cố độc lập | Tai-khoan-11 |
-| B216 | 11 | addition-rule | Công thức cộng xác suất | Tai-khoan-11 |
+| B202 | 11 | continuity | Hàm số liên tục | chanh106 |
+| B203 | 11 | real-exponents | Luỹ thừa với số mũ thực | chanh106 |
+| B204 | 11 | logarithms | Lôgarit | chanh106 |
+| B205 | 11 | exp-log-functions | Hàm số mũ và hàm số lôgarit | chanh106 |
+| B206 | 11 | exp-log-equations | Phương trình, bất phương trình mũ và lôgarit | chanh106 |
+| B207 | 11 | derivative-definition | Đạo hàm | chanh106 |
+| B208 | 11 | differentiation-rules | Các quy tắc tính đạo hàm | chanh106 |
+| B209 | 11 | second-derivative | Đạo hàm cấp hai | chanh106 |
+| B210 | 11 | perpendicular-lines-space | Hai đường thẳng vuông góc | chanh106 |
+| B211 | 11 | line-perpendicular-plane | Đường thẳng vuông góc với mặt phẳng | chanh106 |
+| B212 | 11 | orthogonal-projection-angle | Phép chiếu vuông góc. Góc giữa đường thẳng và mặt phẳng | chanh106 |
+| B213 | 11 | distances-space | Khoảng cách trong không gian | chanh106 |
+| B214 | 11 | volumes | Thể tích | chanh106 |
+| B215 | 11 | union-intersection-events | Biến cố hợp, biến cố giao, biến cố độc lập | chanh106 |
+| B216 | 11 | addition-rule | Công thức cộng xác suất | chanh106 |
