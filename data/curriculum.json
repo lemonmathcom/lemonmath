@@ -1536,7 +1536,7 @@
     },
     {
       "n": 5,
-      "status": "roadmap",
+      "status": "full",
       "chapters": [
         {
           "id": "g5-review-and-extension",
@@ -3732,7 +3732,7 @@
     },
     {
       "n": 11,
-      "status": "roadmap",
+      "status": "full",
       "chapters": [
         {
           "id": "trig-functions",
