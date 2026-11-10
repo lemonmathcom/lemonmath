@@ -13,4 +13,9 @@ Quy trình "Kiểm tra bài mới" (ít bước nhất):
 4. Lớp nào có bài đầu tiên thì đổi "status" thành "full" trong data/curriculum.json.
 5. `node tools/check.js --all && npm run build`, rồi commit + push (GitHub Actions tự đăng).
 
+Quy trình "Kiểm tra hình mới" (hình minh họa tiểu học do ChatGPT Plus vẽ, 55 hình, danh sách ở tools/qa/hinh-tieu-hoc.json):
+1. Stage file hinh-minh-hoa-tieu-hoc.zip trong "viec da lam", giải nén vào một thư mục riêng.
+2. Xem nhanh xem-truoc.html (đếm lại số đồ vật ở vài hình), rồi `python3 tools/qa/addfigs.py "<thư mục đã giải nén>"`: tự chép SVG vào assets/img/gN/, chèn ảnh vào cả bản Việt và Anh, lấy alt từ danh-sach.csv, bỏ qua SVG có script/ảnh nhúng.
+3. `node tools/check.js --all && npm run build`, rồi commit + push.
+
 Mỗi thứ Hai: cập nhật content/vi/this-week.md và content/en/this-week.md (trang Bài của tuần).

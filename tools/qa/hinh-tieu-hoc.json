@@ -1,0 +1,600 @@
+[
+ {
+  "code": "g1-numbers-0-to-5-01",
+  "lesson": "g1/numbers-0-to-5",
+  "place": {
+   "block": "example",
+   "n": 1
+  },
+  "ve": "3 con chim đậu trên một cành cây. Không vẽ thêm con vật nào khác.",
+  "vi_text": "Trên cây có ba con chim. Viết số con chim.",
+  "en_text": "There are three birds in a tree. Write the number of birds."
+ },
+ {
+  "code": "g1-numbers-0-to-5-02",
+  "lesson": "g1/numbers-0-to-5",
+  "place": {
+   "block": "example",
+   "n": 2
+  },
+  "ve": "5 quả bóng bay nhiều màu, dây buộc chụm lại ở dưới. Đúng 5 quả.",
+  "vi_text": "Bạn Nam cầm năm quả bóng bay. Viết số quả bóng bay.",
+  "en_text": "Nam holds five balloons. Write the number of balloons."
+ },
+ {
+  "code": "g1-numbers-0-to-5-03",
+  "lesson": "g1/numbers-0-to-5",
+  "place": {
+   "block": "example",
+   "n": 3
+  },
+  "ve": "Một bể cá có nước, rong, sỏi nhưng KHÔNG có con cá nào.",
+  "vi_text": "Trong bể không có con cá nào. Viết số con cá.",
+  "en_text": "There is no fish in the tank. Write the number of fish."
+ },
+ {
+  "code": "g1-numbers-6-to-10-01",
+  "lesson": "g1/numbers-6-to-10",
+  "place": {
+   "block": "example",
+   "n": 1
+  },
+  "ve": "Một hộp bút mở nắp, bên trong có đúng 6 cái bút chì nhiều màu, nằm tách rời dễ đếm.",
+  "vi_text": "Trong hộp có sáu cái bút chì. Viết số bút chì.",
+  "en_text": "There are six pencils in a box. Write the number of pencils."
+ },
+ {
+  "code": "g1-numbers-6-to-10-02",
+  "lesson": "g1/numbers-6-to-10",
+  "place": {
+   "block": "example",
+   "n": 2
+  },
+  "ve": "Hai bàn tay xòe (vẽ đơn giản kiểu hoạt hình), mỗi tay 5 ngón, tổng 10 ngón rõ ràng.",
+  "vi_text": "Hai bàn tay của em có bao nhiêu ngón tay?",
+  "en_text": "How many fingers are on your two hands?"
+ },
+ {
+  "code": "g1-numbers-6-to-10-03",
+  "lesson": "g1/numbers-6-to-10",
+  "place": {
+   "block": "exercise",
+   "n": 6
+  },
+  "ve": "8 cái ghế giống nhau xếp thành một hàng ngang.",
+  "vi_text": "An đếm tám cái ghế và nói: \"một, hai, ba, bốn, năm, sáu, tám\". An đếm sai ở đâu? Đếm đúng như thế nào?",
+  "en_text": "An counts eight chairs and says: \"one, two, three, four, five, six, eight\". Where did An go wrong? What is the right count?"
+ },
+ {
+  "code": "g1-addition-within-10-01",
+  "lesson": "g1/addition-within-10",
+  "place": {
+   "block": "example",
+   "n": 5
+  },
+  "ve": "Bên trái 4 con gà, bên phải 5 con vịt, hai nhóm cách nhau rõ ràng.",
+  "vi_text": "Nhà bà có $4$ con gà và $5$ con vịt. Hỏi nhà bà có tất cả bao nhiêu con gà và vịt?",
+  "en_text": "Grandma has $4$ hens and $5$ ducks. How many hens and ducks does she have altogether?"
+ },
+ {
+  "code": "g1-subtraction-within-10-01",
+  "lesson": "g1/subtraction-within-10",
+  "place": {
+   "block": "example",
+   "n": 5
+  },
+  "ve": "9 quả bóng bay: 5 quả còn buộc dây chụm lại ở dưới, 4 quả bay lên phía trên bên phải (có nét đứt chỉ hướng bay).",
+  "vi_text": "Bình có $9$ quả bóng bay. Gió thổi bay mất $4$ quả. Hỏi Bình còn lại mấy quả bóng bay?",
+  "en_text": "Binh has $9$ balloons. The wind blows $4$ of them away. How many balloons does Binh have left?"
+ },
+ {
+  "code": "g1-number-bonds-01",
+  "lesson": "g1/number-bonds",
+  "place": {
+   "block": "example",
+   "n": 4
+  },
+  "ve": "Hai cái đĩa. Đĩa trái có đúng 3 cái kẹo. Đĩa phải bị úp một tấm khăn, trên khăn có dấu ?.",
+  "vi_text": "Có $8$ cái kẹo chia vào hai đĩa. Đĩa thứ nhất có $3$ cái kẹo. Đĩa thứ hai có mấy cái kẹo?",
+  "en_text": "$8$ sweets are shared between two plates. The first plate has $3$ sweets. How many sweets are on the second plate?"
+ },
+ {
+  "code": "g1-more-fewer-same-01",
+  "lesson": "g1/more-fewer-same",
+  "place": {
+   "section": 1
+  },
+  "ve": "4 cái cốc xếp hàng ngang, mỗi cốc cắm 1 cái thìa; bên cạnh có thêm 1 cái thìa nằm riêng (thừa).",
+  "vi_text": "Em đặt mỗi cái thìa vào một cái cốc, mỗi cốc chỉ một thìa.",
+  "en_text": "Put one spoon in each cup, one spoon for each cup."
+ },
+ {
+  "code": "g1-more-fewer-same-02",
+  "lesson": "g1/more-fewer-same",
+  "place": {
+   "block": "exercise",
+   "n": 8
+  },
+  "ve": "Hai khung chữ nhật có nhãn A và B. Khung A có 6 hình tròn, khung B có 9 hình tròn, xếp thành hàng để dễ so sánh.",
+  "vi_text": "Nhóm A có $6$ hình tròn, nhóm B có $9$ hình tròn. Cần vẽ thêm mấy hình tròn vào nhóm A để hai nhóm bằng nhau?",
+  "en_text": "Group A has $6$ circles and group B has $9$ circles. How many circles must you draw in group A to make the two groups the same?"
+ },
+ {
+  "code": "g1-comparing-numbers-01",
+  "lesson": "g1/g1-comparing-numbers",
+  "place": {
+   "block": "example",
+   "n": 1
+  },
+  "ve": "Hai hàng kẹo xếp thẳng cột với nhau: hàng trên 6 cái kẹo, hàng dưới 8 cái kẹo (2 cái cuối hàng dưới không có kẹo ở trên).",
+  "vi_text": "Lan có $6$ cái kẹo, Nam có $8$ cái kẹo. So sánh $8$ và $6$.",
+  "en_text": "Lan has $6$ sweets and Nam has $8$ sweets. Compare $8$ and $6$."
+ },
+ {
+  "code": "g1-two-digit-numbers-01",
+  "lesson": "g1/two-digit-numbers",
+  "place": {
+   "block": "example",
+   "n": 4
+  },
+  "ve": "3 bó que tính (mỗi bó đúng 10 que, buộc dây ở giữa) và 4 que tính lẻ đặt bên phải.",
+  "vi_text": "Có $3$ bó que tính, mỗi bó $10$ que, và $4$ que lẻ. Hỏi có tất cả bao nhiêu que tính?",
+  "en_text": "There are $3$ bundles of sticks with $10$ sticks in each, and $4$ loose sticks. How many sticks are there altogether?"
+ },
+ {
+  "code": "g1-two-digit-numbers-02",
+  "lesson": "g1/two-digit-numbers",
+  "place": {
+   "block": "exercise",
+   "n": 7
+  },
+  "ve": "4 bó que tính (mỗi bó đúng 10 que, buộc dây ở giữa) và 5 que tính lẻ đặt bên phải.",
+  "vi_text": "Có $4$ bó que tính, mỗi bó $10$ que, và $5$ que lẻ. Hỏi có tất cả bao nhiêu que tính?",
+  "en_text": "There are $4$ bundles of sticks with $10$ sticks in each, and $5$ loose sticks. How many sticks are there altogether?"
+ },
+ {
+  "code": "g1-squares-circles-triangles-rectangles-01",
+  "lesson": "g1/squares-circles-triangles-rectangles",
+  "place": {
+   "block": "example",
+   "n": 4
+  },
+  "ve": "Ngôi nhà ghép từ một hình vuông (thân nhà) và một hình tam giác (mái nhà) đặt trên. Không vẽ cửa, để chỉ thấy hai hình.",
+  "vi_text": "Em ghép một ngôi nhà từ một hình vuông (thân nhà) và một hình tam giác (mái nhà). Em đã dùng mấy hình?",
+  "en_text": "You make a house from one square (the walls) and one triangle (the roof). How many shapes did you use?"
+ },
+ {
+  "code": "g1-squares-circles-triangles-rectangles-02",
+  "lesson": "g1/squares-circles-triangles-rectangles",
+  "place": {
+   "block": "exercise",
+   "n": 7
+  },
+  "ve": "Một bức tranh (ví dụ đoàn tàu hoặc rô-bốt) ghép từ ĐÚNG 3 hình vuông, 5 hình tròn, 2 hình tam giác, 4 hình chữ nhật. Các hình không chồng lên nhau, đếm được rõ.",
+  "vi_text": "Bảng cho biết số hình trong một bức tranh:",
+  "en_text": "The table shows how many shapes are in a picture:"
+ },
+ {
+  "code": "g1-squares-circles-triangles-rectangles-03",
+  "lesson": "g1/squares-circles-triangles-rectangles",
+  "place": {
+   "block": "exercise",
+   "n": 8
+  },
+  "ve": "Một tờ giấy hình vuông, có nét đứt nối hai góc đối diện, cạnh đó có biểu tượng cái kéo. Chưa cắt rời.",
+  "vi_text": "Em cắt một tờ giấy hình vuông theo một đường thẳng nối hai góc đối diện. Em được mấy mảnh? Mỗi mảnh là hình gì?",
+  "en_text": "You cut a square sheet of paper along a straight line joining two opposite corners. How many pieces do you get? What shape is each piece?"
+ },
+ {
+  "code": "g1-cubes-and-cuboids-01",
+  "lesson": "g1/cubes-and-cuboids",
+  "place": {
+   "block": "example",
+   "n": 1
+  },
+  "ve": "Một viên xúc xắc (khối lập phương) vẽ nhìn nghiêng, thấy 3 mặt, có chấm.",
+  "vi_text": "Viên xúc xắc có dạng khối gì?",
+  "en_text": "What solid shape is a dice?"
+ },
+ {
+  "code": "g1-cubes-and-cuboids-02",
+  "lesson": "g1/cubes-and-cuboids",
+  "place": {
+   "block": "example",
+   "n": 2
+  },
+  "ve": "Một hộp sữa giấy dạng hình hộp chữ nhật (như hộp sữa nhỏ có ống hút), thấy 3 mặt. Không vẽ chữ trên hộp.",
+  "vi_text": "Một hộp sữa có $6$ mặt. Các mặt đều là hình chữ nhật. Hộp sữa có dạng khối gì?",
+  "en_text": "A milk carton has $6$ faces. All the faces are rectangles. What solid shape is it?"
+ },
+ {
+  "code": "g1-cubes-and-cuboids-03",
+  "lesson": "g1/cubes-and-cuboids",
+  "place": {
+   "block": "exercise",
+   "n": 7
+  },
+  "ve": "Một cái kệ có: 4 viên xúc xắc, 3 hộp bánh (hình hộp chữ nhật), 2 hộp bút (hình hộp chữ nhật dài). Đồ cùng loại để cạnh nhau.",
+  "vi_text": "Bảng cho biết số đồ vật trên kệ:",
+  "en_text": "The table shows how many things are on a shelf:"
+ },
+ {
+  "code": "g1-cubes-and-cuboids-04",
+  "lesson": "g1/cubes-and-cuboids",
+  "place": {
+   "block": "exercise",
+   "n": 8
+  },
+  "ve": "Hai khối lập phương bằng nhau đặt cạnh nhau, mặt chạm mặt, tạo thành một khối dài. Vẽ nhìn nghiêng.",
+  "vi_text": "Em xếp hai khối lập phương cạnh nhau thành một khối dài. Khối mới có dạng khối gì? Mặt dài của khối mới là hình gì?",
+  "en_text": "You put two cubes side by side to make a long block. What solid shape is the new block? What shape is its long face?"
+ },
+ {
+  "code": "g2-cylinders-and-spheres-01",
+  "lesson": "g2/cylinders-and-spheres",
+  "place": {
+   "section": 1
+  },
+  "ve": "Bên trái một lon sữa (khối trụ), hai mặt đáy tròn tô màu khác thân cong; bên phải một quả bóng (khối cầu).",
+  "vi_text": "Em hãy cầm một lon sữa. Sờ vào hai đầu: đầu trên và đầu dưới đều phẳng. Sờ xung quanh thân lon: chỗ này cong.",
+  "en_text": "Pick up a tin of milk. Feel both ends: the top and the bottom are flat. Feel around the side of the tin: this part is curved."
+ },
+ {
+  "code": "g2-cylinders-and-spheres-02",
+  "lesson": "g2/cylinders-and-spheres",
+  "place": {
+   "block": "example",
+   "n": 3
+  },
+  "ve": "Trên mặt bàn có 6 đồ vật xếp hàng: hộp bánh tròn, viên bi, cái cốc hình trụ, quả bóng đá, ống tre, quả bóng bàn.",
+  "vi_text": "Trên bàn có: hộp bánh tròn, viên bi, cái cốc hình trụ, quả bóng đá, ống tre, quả bóng bàn. Có mấy khối trụ, mấy khối cầu?",
+  "en_text": "On the table there are: a round cake tin, a marble, a cylinder-shaped cup, a football, a bamboo tube and a table-tennis ball. How many cylin"
+ },
+ {
+  "code": "g2-cylinders-and-spheres-03",
+  "lesson": "g2/cylinders-and-spheres",
+  "place": {
+   "block": "example",
+   "n": 4
+  },
+  "ve": "Trên sàn: 4 lon sữa đứng cạnh nhau và 3 quả bóng. Chưa xếp tháp.",
+  "vi_text": "Nam có $4$ lon sữa và $3$ quả bóng. Nam muốn xếp một cái tháp cao. Nam nên dùng loại nào? Vì sao?",
+  "en_text": "Nam has $4$ tins of milk and $3$ balls. He wants to build a tall tower. Which should he use? Why?"
+ },
+ {
+  "code": "g2-ones-tens-hundreds-thousands-01",
+  "lesson": "g2/ones-tens-hundreds-thousands",
+  "place": {
+   "section": 1
+  },
+  "ve": "Bộ khối đếm: 1 khối lập phương nhỏ (ghi 1), 1 thanh 10 khối (ghi 10), 1 tấm 10x10 (ghi 100), 1 khối lớn 10x10x10 (ghi 1000), có mũi tên từ trái sang phải.",
+  "vi_text": "Em đã biết đếm đến $10$. Khi có $10$ vật lẻ, ta gói lại thành một nhóm gọi là **một chục**.",
+  "en_text": "You already know how to count to $10$. When we have $10$ loose objects, we put them in one group called **one ten**."
+ },
+ {
+  "code": "g2-three-digit-numbers-01",
+  "lesson": "g2/three-digit-numbers",
+  "place": {
+   "section": 1
+  },
+  "ve": "Sách ở thư viện: 3 thùng sách (mỗi thùng ghi 100), 4 chồng sách (mỗi chồng ghi 10), 5 quyển sách lẻ. Xếp thành ba cột.",
+  "vi_text": "Ta xếp các nhóm sách vào ba cột:",
+  "en_text": "We put the groups of books into three columns:"
+ },
+ {
+  "code": "g2-partitioning-hundreds-tens-ones-01",
+  "lesson": "g2/partitioning-hundreds-tens-ones",
+  "place": {
+   "section": 1
+  },
+  "ve": "Khối đếm của số 345: 3 tấm trăm, 4 thanh chục, 5 khối đơn vị; bên dưới mỗi nhóm ghi 300, 40, 5.",
+  "vi_text": "Số $345$ gồm $3$ trăm, $4$ chục và $5$ đơn vị. Ta tính giá trị của từng phần:",
+  "en_text": "The number $345$ is made of $3$ hundreds, $4$ tens and $5$ ones. We work out the value of each part:"
+ },
+ {
+  "code": "g2-decimetres-metres-kilometres-01",
+  "lesson": "g2/decimetres-metres-kilometres",
+  "place": {
+   "section": 1
+  },
+  "ve": "Một thước kẻ từ 0 đến 10 cm (vạch cm rõ), phía trên có ngoặc ôm cả đoạn 0–10 ghi \"1 dm = 10 cm\".",
+  "vi_text": "Em dùng thước kẻ dài $10$ cm. Đoạn dài $10$ cm gọi là $1$ **đề-xi-mét**, viết tắt là dm.",
+  "en_text": "Take a ruler that is $10$ cm long. A length of $10$ cm is called $1$ **decimetre**, written dm."
+ },
+ {
+  "code": "g2-points-lines-curves-01",
+  "lesson": "g2/points-lines-curves",
+  "place": {
+   "block": "example",
+   "n": 2
+  },
+  "ve": "Hai hình nhỏ cạnh nhau: mép bàn học (nét thẳng tô đậm) và vành miệng cốc tròn (nét cong tô đậm).",
+  "vi_text": "Mép bàn học và vành miệng chiếc cốc tròn: hình nào gợi ra đoạn thẳng, hình nào gợi ra đường cong?",
+  "en_text": "The edge of a desk and the rim of a round cup: which one suggests a line segment, and which a curve?"
+ },
+ {
+  "code": "g3-unit-fractions-01",
+  "lesson": "g3/unit-fractions",
+  "place": {
+   "block": "example",
+   "n": 1
+  },
+  "ve": "Một sợi dây dài, có 2 vạch kéo chia thành 3 đoạn bằng nhau.",
+  "vi_text": "Một sợi dây được cắt thành $3$ đoạn bằng nhau. Mỗi đoạn là một phần mấy của sợi dây?",
+  "en_text": "A piece of string is cut into $3$ equal lengths. What fraction of the string is each length?"
+ },
+ {
+  "code": "g3-unit-fractions-02",
+  "lesson": "g3/unit-fractions",
+  "place": {
+   "block": "exercise",
+   "n": 1
+  },
+  "ve": "Ba hình có nhãn a), b), c): a) hình tròn chia 2 phần bằng nhau, tô 1 phần; b) hình chữ nhật chia 3 phần bằng nhau, tô 1 phần; c) hình tròn chia 8 phần bằng nhau, tô 1 phần.",
+  "vi_text": "Mỗi hình sau được chia thành các phần bằng nhau. Viết phân số chỉ một phần của hình:",
+  "en_text": "Each shape is split into equal parts. Write the fraction for one part:"
+ },
+ {
+  "code": "g3-perimeter-of-shapes-01",
+  "lesson": "g3/perimeter-of-shapes",
+  "place": {
+   "block": "example",
+   "n": 5
+  },
+  "ve": "Mảnh vườn hình chữ nhật có hàng rào bao quanh, cạnh dài ghi 15 m, cạnh ngắn ghi 8 m.",
+  "vi_text": "Bác Hùng rào quanh một mảnh vườn hình chữ nhật dài $15$ m, rộng $8$ m. Hỏi hàng rào dài bao nhiêu mét?",
+  "en_text": "Mr Hung puts a fence round a rectangular garden that is $15$ m long and $8$ m wide. How long is the fence?"
+ },
+ {
+  "code": "g3-perimeter-of-shapes-02",
+  "lesson": "g3/perimeter-of-shapes",
+  "place": {
+   "block": "exercise",
+   "n": 5
+  },
+  "ve": "Ba hình có nhãn a), b), c): a) hình vuông, ghi 9 cm ở một cạnh; b) hình chữ nhật ghi 11 cm và 4 cm; c) tứ giác không đều, bốn cạnh ghi 5 cm, 6 cm, 7 cm, 8 cm.",
+  "vi_text": "Em tính chu vi mỗi hình dưới đây bằng cách nhanh nhất. Vì sao em chọn cách đó?",
+  "en_text": "Find the perimeter of each shape below in the quickest way. Why did you choose that way?"
+ },
+ {
+  "code": "g3-perimeter-of-shapes-03",
+  "lesson": "g3/perimeter-of-shapes",
+  "place": {
+   "block": "exercise",
+   "n": 8
+  },
+  "ve": "Hai hình vuông bằng nhau, mỗi cạnh ghi 3 cm, đặt sát nhau thành một hình chữ nhật (nét chung vẽ đứt).",
+  "vi_text": "Ghép hai hình vuông, mỗi hình có cạnh $3$ cm, sát nhau thành một hình chữ nhật.",
+  "en_text": "Put two squares, each with side $3$ cm, side by side to make one rectangle."
+ },
+ {
+  "code": "g3-circle-centre-radius-diameter-01",
+  "lesson": "g3/circle-centre-radius-diameter",
+  "place": {
+   "block": "exercise",
+   "n": 8
+  },
+  "ve": "Ba hình tròn bằng nhau xếp hàng ngang, hai hình cạnh nhau chạm nhau; trong hình đầu có một bán kính ghi 4 cm. KHÔNG ghi tổng chiều dài.",
+  "vi_text": "Ba hình tròn bằng nhau, mỗi hình có bán kính $4$ cm, được xếp thành một hàng ngang sao cho hai hình cạnh nhau chạm nhau. Hỏi hàng đó dài bao",
+  "en_text": "Three equal circles, each with radius $4$ cm, are placed in a row so that neighbouring circles touch. How many centimetres long is the row ("
+ },
+ {
+  "code": "g3-right-angles-01",
+  "lesson": "g3/right-angles",
+  "place": {
+   "block": "example",
+   "n": 3
+  },
+  "ve": "Bốn hình nhỏ xếp hàng: góc tờ giấy hình chữ nhật; đồng hồ chỉ 3 giờ đúng; đồng hồ chỉ 1 giờ đúng; mái nhà hình chữ A. Không đánh dấu góc vuông.",
+  "vi_text": "Trong các đồ vật sau, đồ vật nào có góc vuông: góc của tờ giấy hình chữ nhật, hai kim đồng hồ lúc $3$ giờ đúng, hai kim đồng hồ lúc $1$ giờ ",
+  "en_text": "Which of these has a right angle: a corner of a rectangular sheet of paper, the two hands of a clock at exactly $3$ o'clock, the two hands o"
+ },
+ {
+  "code": "g3-right-angles-02",
+  "lesson": "g3/right-angles",
+  "place": {
+   "block": "exercise",
+   "n": 7
+  },
+  "ve": "Ba chữ cái in hoa lớn L, V, T (nét thẳng, đều) và một đồng hồ chỉ 3 giờ đúng. Không đánh dấu góc vuông.",
+  "vi_text": "a) Trong các chữ cái $L$, $V$, $T$, chữ nào có góc vuông?",
+  "en_text": "a) Of the letters $L$, $V$ and $T$, which have a right angle?"
+ },
+ {
+  "code": "g3-right-angles-03",
+  "lesson": "g3/right-angles",
+  "place": {
+   "block": "exercise",
+   "n": 8
+  },
+  "ve": "Tờ giấy hình chữ nhật, có nét đứt cắt chéo ngang qua một góc (không đi qua góc khác), cạnh đó có biểu tượng cái kéo.",
+  "vi_text": "Một tờ giấy hình chữ nhật có $4$ góc vuông. Em cắt bỏ một góc bằng một nhát cắt thẳng (nhát cắt không đi qua góc nào khác). Tờ giấy còn lại ",
+  "en_text": "A rectangular sheet of paper has $4$ right angles. You cut off one corner with a single straight cut (the cut does not pass through any othe"
+ },
+ {
+  "code": "g3-vietnamese-money-01",
+  "lesson": "g3/g3-vietnamese-money",
+  "place": {
+   "block": "example",
+   "n": 1
+  },
+  "ve": "Các tờ tiền (vẽ giản lược, KHÔNG sao chép tiền thật: chỉ là hình chữ nhật màu có ghi mệnh giá): một tờ 10 000, một tờ 5 000, hai tờ 2 000.",
+  "vi_text": "Mai có một tờ $10\\,000$ đồng, một tờ $5\\,000$ đồng và hai tờ $2\\,000$ đồng. Hỏi Mai có bao nhiêu tiền?",
+  "en_text": "Mai has one $10\\,000$ dong note, one $5\\,000$ dong note and two $2\\,000$ dong notes. How much money does Mai have?"
+ },
+ {
+  "code": "g3-vietnamese-money-02",
+  "lesson": "g3/g3-vietnamese-money",
+  "place": {
+   "block": "example",
+   "n": 2
+  },
+  "ve": "Tờ tiền giản lược (hình chữ nhật màu ghi mệnh giá): hai tờ 20 000, một tờ 5 000, một tờ 2 000, một tờ 1 000.",
+  "vi_text": "Hà có hai tờ $20\\,000$ đồng, một tờ $5\\,000$ đồng, một tờ $2\\,000$ đồng và một tờ $1\\,000$ đồng. Hỏi Hà có bao nhiêu tiền?",
+  "en_text": "Ha has two $20\\,000$ dong notes, one $5\\,000$ dong note, one $2\\,000$ dong note and one $1\\,000$ dong note. How much money does Ha have?"
+ },
+ {
+  "code": "g3-vietnamese-money-03",
+  "lesson": "g3/g3-vietnamese-money",
+  "place": {
+   "block": "exercise",
+   "n": 1
+  },
+  "ve": "Hai nhóm có nhãn a), b): a) một tờ 5 000 và một tờ 2 000; b) một tờ 10 000, một tờ 2 000, một tờ 1 000. Tiền vẽ giản lược như trên.",
+  "vi_text": "Em đếm số tiền:",
+  "en_text": "Count the money:"
+ },
+ {
+  "code": "g3-cubes-and-cuboids-01",
+  "lesson": "g3/g3-cubes-and-cuboids",
+  "place": {
+   "block": "example",
+   "n": 4
+  },
+  "ve": "Khối xếp từ các khối lập phương nhỏ: 3 lớp chồng lên nhau, mỗi lớp 4 khối (2x2). Vẽ nhìn nghiêng, thấy rõ từng lớp.",
+  "vi_text": "Nam xếp các khối lập phương nhỏ thành $3$ lớp, mỗi lớp có $4$ khối. Nam đã dùng tất cả bao nhiêu khối?",
+  "en_text": "Nam stacks small cubes in $3$ layers, with $4$ cubes in each layer. How many cubes does Nam use altogether?"
+ },
+ {
+  "code": "g3-cubes-and-cuboids-02",
+  "lesson": "g3/g3-cubes-and-cuboids",
+  "place": {
+   "block": "exercise",
+   "n": 5
+  },
+  "ve": "Khối xếp từ các khối lập phương nhỏ: 4 lớp, mỗi lớp 6 khối (3x2). Vẽ nhìn nghiêng, thấy rõ từng lớp.",
+  "vi_text": "An xếp các khối lập phương nhỏ thành $4$ lớp, mỗi lớp có $6$ khối. An đã dùng tất cả bao nhiêu khối?",
+  "en_text": "An stacks small cubes in $4$ layers, with $6$ cubes in each layer. How many cubes does An use altogether?"
+ },
+ {
+  "code": "g3-data-tables-01",
+  "lesson": "g3/data-tables",
+  "place": {
+   "block": "example",
+   "n": 1
+  },
+  "ve": "10 chiếc áo phông xếp một hàng theo đúng thứ tự màu: đỏ, xanh dương, đỏ, vàng, xanh dương, xanh dương, đỏ, xanh dương, vàng, xanh dương.",
+  "vi_text": "Mai ghi màu áo của $10$ bạn: đỏ, xanh, đỏ, vàng, xanh, xanh, đỏ, xanh, vàng, xanh. Hãy lập bảng số liệu.",
+  "en_text": "Mai wrote down the shirt colours of $10$ children: red, blue, red, yellow, blue, blue, red, blue, yellow, blue. Make a data table."
+ },
+ {
+  "code": "g3-data-tables-02",
+  "lesson": "g3/data-tables",
+  "place": {
+   "block": "exercise",
+   "n": 1
+  },
+  "ve": "8 con vật vẽ đơn giản xếp một hàng theo đúng thứ tự: mèo, chó, mèo, cá, chó, mèo, mèo, cá.",
+  "vi_text": "Em ghi lại các con vật các bạn thích: mèo, chó, mèo, cá, chó, mèo, mèo, cá. Hãy lập bảng số liệu (có cột vạch kiểm đếm).",
+  "en_text": "You wrote down the animals children like: cat, dog, cat, fish, dog, cat, cat, fish. Make a data table (with a column of tally marks)."
+ },
+ {
+  "code": "g3-likelihood-of-an-event-01",
+  "lesson": "g3/likelihood-of-an-event",
+  "place": {
+   "section": 1
+  },
+  "ve": "Ba chiếc hộp mở nắp có nhãn A, B, C: hộp A có 5 bi đỏ; hộp B có 3 bi đỏ và 2 bi xanh dương; hộp C có 5 bi xanh dương.",
+  "vi_text": "Có ba chiếc hộp. Mỗi lần, ta nhắm mắt lấy ra một viên bi.",
+  "en_text": "There are three boxes. Each time, we shut our eyes and take out one marble."
+ },
+ {
+  "code": "g3-triangles-quadrilaterals-rectangles-01",
+  "lesson": "g3/triangles-quadrilaterals-rectangles",
+  "place": {
+   "block": "example",
+   "n": 4
+  },
+  "ve": "Hình chữ nhật ABCD (A trên trái, B trên phải, C dưới phải, D dưới trái) có nét nối A với C.",
+  "vi_text": "Nối hai đỉnh đối diện $A$ và $C$ của hình chữ nhật $ABCD$. Hình chữ nhật được chia thành mấy hình tam giác?",
+  "en_text": "Join the opposite vertices $A$ and $C$ of rectangle $ABCD$. Into how many triangles is the rectangle divided?"
+ },
+ {
+  "code": "g4-what-is-a-fraction-01",
+  "lesson": "g4/what-is-a-fraction",
+  "place": {
+   "block": "example",
+   "n": 1
+  },
+  "ve": "Chiếc bánh tròn nhìn từ trên, cắt thành 8 miếng bằng nhau; 3 miếng đã bị ăn (chỉ còn viền nét đứt), 5 miếng còn lại.",
+  "vi_text": "Một chiếc bánh được cắt thành $8$ phần bằng nhau. Mai ăn $3$ phần. Viết phân số chỉ phần bánh Mai đã ăn.",
+  "en_text": "A cake is cut into $8$ equal pieces. Mai eats $3$ pieces. Write the fraction that shows the part of the cake Mai ate."
+ },
+ {
+  "code": "g4-what-is-a-fraction-02",
+  "lesson": "g4/what-is-a-fraction",
+  "place": {
+   "block": "example",
+   "n": 3
+  },
+  "ve": "Hình vuông chia thành 6 phần bằng nhau (2 hàng x 3 cột), tô màu 5 phần.",
+  "vi_text": "Một hình vuông được chia thành $6$ phần bằng nhau, tô màu $5$ phần. Viết phân số chỉ phần đã tô và phân số chỉ phần chưa tô.",
+  "en_text": "A square is cut into $6$ equal parts and $5$ parts are coloured in. Write the fraction for the coloured part and the fraction for the part t"
+ },
+ {
+  "code": "g4-what-is-a-fraction-03",
+  "lesson": "g4/what-is-a-fraction",
+  "place": {
+   "block": "exercise",
+   "n": 1
+  },
+  "ve": "Hình chữ nhật chia thành 5 phần bằng nhau (5 cột), tô màu 2 phần.",
+  "vi_text": "Một hình chữ nhật được chia thành $5$ phần bằng nhau, tô màu $2$ phần. Viết phân số chỉ phần đã tô.",
+  "en_text": "A rectangle is cut into $5$ equal parts and $2$ parts are coloured in. Write the fraction for the coloured part."
+ },
+ {
+  "code": "g4-what-is-a-fraction-04",
+  "lesson": "g4/what-is-a-fraction",
+  "place": {
+   "block": "exercise",
+   "n": 8
+  },
+  "ve": "Băng giấy chia 8 phần bằng nhau: 3 phần màu xanh dương, 2 phần màu đỏ, 3 phần để trắng.",
+  "vi_text": "Một băng giấy được chia thành $8$ phần bằng nhau. Em tô $3$ phần màu xanh, $2$ phần màu đỏ, phần còn lại để trắng. Viết phân số chỉ phần mỗi",
+  "en_text": "A paper strip is cut into $8$ equal parts. You colour $3$ parts blue and $2$ parts red, and leave the rest white. Write the fraction for eac"
+ },
+ {
+  "code": "g4-fractions-and-division-01",
+  "lesson": "g4/fractions-and-division",
+  "place": {
+   "block": "exercise",
+   "n": 3
+  },
+  "ve": "Hình vuông chia 9 phần bằng nhau (3x3), tô màu 7 phần.",
+  "vi_text": "Em hãy nhớ lại bài trước: một hình chia thành $9$ phần bằng nhau, tô màu $7$ phần. Viết phân số chỉ phần đã tô, rồi viết phân số đó dưới dạn",
+  "en_text": "Remember the last lesson: a shape is cut into $9$ equal parts and $7$ parts are coloured. Write the fraction for the coloured part, then wri"
+ },
+ {
+  "code": "g4-bar-charts-01",
+  "lesson": "g4/g4-bar-charts",
+  "place": {
+   "block": "exercise",
+   "n": 5
+  },
+  "ve": "Biểu đồ cột có lưới ngang, trục đứng ghi 0, 2, 4, …, 12. Bốn cột: Bóng đá 12, Bơi 8, Cầu lông 6, Cờ vua 4. CÓ CHỮ nên làm 2 bản: -vi (Bóng đá, Bơi, Cầu lông, Cờ vua) và -en (Football, Swimming, Badminton, Chess).",
+  "vi_text": "Biểu đồ cột cho số bạn thích môn thể thao: cột bóng đá cao $12$, cột bơi $8$, cột cầu lông $6$, cột cờ vua $4$. Muốn biết tổng số bạn được h",
+  "en_text": "A bar chart shows how many children like each sport: the football bar is $12$ tall, swimming $8$, badminton $6$ and chess $4$. To find how m"
+ },
+ {
+  "code": "g4-bar-charts-02",
+  "lesson": "g4/g4-bar-charts",
+  "place": {
+   "block": "exercise",
+   "n": 7
+  },
+  "ve": "Biểu đồ cột, trục đứng có vạch lưới cách đều ghi 0, 5, 10, …, 30. Bốn cột 4A cao 25, 4B cao 30, 4C cao 20, 4D cao 25 (tức 5, 6, 4, 5 vạch).",
+  "vi_text": "Biểu đồ cột cho số cây trồng của bốn lớp, mỗi vạch ứng với $5$ cây: lớp $4$A cao $5$ vạch, lớp $4$B cao $6$ vạch, lớp $4$C cao $4$ vạch, lớp",
+  "en_text": "A bar chart shows the trees planted by four classes, with each mark standing for $5$ trees: class $4$A is $5$ marks tall, class $4$B is $6$ "
+ },
+ {
+  "code": "g5-surface-area-of-a-cuboid-01",
+  "lesson": "g5/surface-area-of-a-cuboid",
+  "place": {
+   "block": "exercise",
+   "n": 5
+  },
+  "ve": "Hình khai triển của hình hộp chữ nhật dài 9 cm, rộng 5 cm, cao 3 cm (hình chữ thập), ghi kích thước các cạnh 9 cm, 5 cm, 3 cm.",
+  "vi_text": "Nhớ lại bài trước: một hình khai triển có hai mặt $9\\ \\text{cm}\\times5\\ \\text{cm}$, hai mặt $9\\ \\text{cm}\\times3\\ \\text{cm}$ và hai mặt $5\\ ",
+  "en_text": "Think back: a net has two $9$ cm by $5$ cm faces, two $9$ cm by $3$ cm faces and two $5$ cm by $3$ cm faces. Find the total area."
+ }
+]
