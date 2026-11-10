@@ -96,8 +96,8 @@ if (!/^https:\/\/[^\s/]+$/.test(site.url)) fail('data/curriculum.json: "url" ph�
 
 const LANGS = ['en', 'vi'];
 const LANG = {
-  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', htmlLang: 'en', locale: 'en-US', name: 'English' },
-  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
+  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', htmlLang: 'en', locale: 'en-US', name: 'English' },
+  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
 };
 const LEVEL = (n) => (n <= 5 ? 'primary' : n <= 9 ? 'middle' : 'high');
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -130,6 +130,8 @@ const chapterDir = (lang, ch) => px.join(gradeDir(lang, ch.grade), ch.id);
 const lessonDir = (lang, ls) => px.join(chapterDir(lang, ls.chapter), ls.id);
 const aboutDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].about);
 const paperDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].paper);
+const parentsDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].parents);
+const weekDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].week);
 const abs = (dir) => site.url + '/' + (dir ? dir + '/' : '');
 const other = (lang) => (lang === 'en' ? 'vi' : 'en');
 
@@ -276,7 +278,7 @@ function shell(o) {
     '<header class="topbar">\n' +
     (o.side ? '  <button id="menu-btn" class="icon-btn" type="button" aria-label="' + esc(T.menu) + '" aria-expanded="false" aria-controls="sidebar" hidden>☰</button>\n' : '') +
     '  <a class="brand" href="' + relDir(d, homeDir(lang)) + '">' + mascot({ cls: 'brand-mark' }) + '<span>Lemon<b>math</b></span></a>\n' +
-    '  <nav class="topnav" aria-label="' + esc(T.mainNav) + '"><a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paper) + '</a><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a></nav>\n' +
+    '  <nav class="topnav" aria-label="' + esc(T.mainNav) + '"><a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paper) + '</a><a href="' + relDir(d, parentsDir(lang)) + '">' + esc(T.parents) + '</a><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a></nav>\n' +
     '  <div class="spacer"></div>\n' +
     '  <div class="searchbox" hidden><label class="sr" for="q">' + esc(T.search) + '</label>' + icon('search', 18) + '<input id="q" type="search" placeholder="' + esc(T.searchPh) + '" autocomplete="off" aria-controls="results"><ul id="results" class="results" hidden></ul></div>\n' +
     '  ' + switchLink + '\n' +
@@ -407,7 +409,7 @@ function lessonPage(lang, ls) {
       : '<a class="pager-next" href="' + link(gradeDir(lang, g)) + '"><small>' + esc(T.end) + '</small><span>' + esc(T.backToGrade) + '</span></a>') + '\n</nav>';
   const body = '<article class="lesson">\n<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + link(homeDir(lang)) + '">' + esc(T.home) + '</a><span aria-hidden="true">›</span><a href="' + link(gradeDir(lang, g)) + '">' + esc(T.grade(g.n)) + '</a><span aria-hidden="true">›</span><a href="' + link(chapterDir(lang, ch)) + '">' + esc(T.chapterN(ch.number) + ': ' + ch[lang]) + '</a></nav>\n' +
     '<h1>' + esc(meta.title) + '</h1>\n<p class="meta">' + metaLine + '</p>\n' +
-    (ls.ws && ls.ws[lang] ? '<p class="ws-link"><a class="btn btn-outline" href="' + WS_DIR[lang] + '/">🖨 ' + esc(WS_LABEL[lang]) + '</a> <button type="button" class="btn btn-outline print-lesson" onclick="window.print()">📄 ' + esc(T.printLesson) + '</button> <a class="ws-why" href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paperWhy) + '</a></p>\n' : '') + toc + '\n' +
+    (ls.ws && ls.ws[lang] ? '<p class="ws-link"><a class="btn btn-outline" href="' + WS_DIR[lang] + '/">🖨 ' + esc(WS_LABEL[lang]) + '</a> <button type="button" class="btn btn-outline print-lesson" onclick="window.print()">📄 ' + esc(T.printLesson) + '</button> <button type="button" class="btn btn-outline share-lesson" data-copied="' + esc(T.copied) + '">🔗 ' + esc(T.share) + '</button> <a class="ws-why" href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paperWhy) + '</a></p>\n' : '') + toc + '\n' +
     '<div class="prose">\n' + resolveLinks(r.html, d, lang, C.rel) + '\n</div>\n' +
     '<div class="lesson-actions"><button id="done-btn" class="btn btn-outline" type="button" aria-pressed="false" data-lesson="' + ls.id + '" data-on="' + esc(T.markedDone) + '" data-off="' + esc(T.markDone) + '" hidden><span class="chk" aria-hidden="true"></span><span class="done-text">' + esc(T.markDone) + '</span></button></div>\n' +
     '</article>\n' + pager;
@@ -545,8 +547,8 @@ function report() {
 function main() {
   loadLessons();
   const about = {};
-  const paper = {};
-  LANGS.forEach((l) => { about[l] = loadPage(l, 'about'); paper[l] = loadPage(l, 'learn-on-paper'); });
+  const paper = {}, parents = {}, week = {};
+  LANGS.forEach((l) => { about[l] = loadPage(l, 'about'); paper[l] = loadPage(l, 'learn-on-paper'); parents[l] = loadPage(l, 'parents'); week[l] = loadPage(l, 'this-week'); });
   if (errors.length) report();
 
   fs.rmSync(OUT, { recursive: true, force: true });
@@ -562,6 +564,8 @@ function main() {
     lessons.forEach((ls) => { ls.ws = ls.ws || {}; ls.ws[lang] = worksheetPage(lang, ls); lessonPage(lang, ls); });
     if (about[lang]) aboutPage(lang, about[lang]);
     if (paper[lang]) aboutPage(lang, paper[lang], paperDir);
+    if (parents[lang]) aboutPage(lang, parents[lang], parentsDir);
+    if (week[lang]) aboutPage(lang, week[lang], weekDir);
     searchIndex(lang);
   });
 

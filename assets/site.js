@@ -220,3 +220,14 @@
     d.body.insertBefore(bar, d.body.firstChild.nextSibling);
   }
 })();
+
+/* Share a lesson: the phone's share sheet (Zalo, Messenger, …) or, on a computer, copy the link. */
+(function () {
+  document.querySelectorAll('.share-lesson').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var data = { title: document.title, url: location.href.split('#')[0] };
+      if (navigator.share) { navigator.share(data).catch(function () {}); return; }
+      if (navigator.clipboard) navigator.clipboard.writeText(data.url).then(function () { b.textContent = '✓ ' + b.getAttribute('data-copied'); }, function () {});
+    });
+  });
+})();
