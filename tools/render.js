@@ -65,6 +65,30 @@ function parseQuiz(body) {
   }
   return items;
 }
+/*
+ * Multiple-choice layout like the Vietnamese national exam paper (đề THPT):
+ * short options on one row (4 columns), medium options 2 per row, long options one per line.
+ * Width is estimated from the raw text: $math$ or ⟦Mn⟧ placeholders count by their visible size.
+ */
+let MATH_STORE = [];
+function texWidth(tex) {
+  let t = String(tex);
+  for (let k = 0; k < 3; k++) t = t.replace(/\\[dt]?frac\s*\{([^{}]*)\}\s*\{([^{}]*)\}/g, (m, a, b) => (a.length > b.length ? a : b));
+  return t.replace(/\\(left|right|displaystyle|,|;|!|quad)/g, '')
+    .replace(/\\(sin|cos|tan|cot|log|ln|lim|sqrt|max|min)\b/g, (m, w) => w)
+    .replace(/\\[a-zA-Z]+/g, 'x').replace(/[+\-=<>]|\\le|\\ge/g, '##').replace(/[{}\s^_]/g, '').length;
+}
+function optWidth(o) {
+  return String(o)
+    .replace(/⟦M(\d+)⟧/g, (m, i) => 'x'.repeat(texWidth((MATH_STORE[+i] || {}).tex || 'xx')))
+    .replace(/\$([^$]+)\$/g, (m, t) => 'x'.repeat(texWidth(t)))
+    .replace(/[*_`]/g, '').trim().length;
+}
+function optCols(opts) {
+  const w = Math.max(0, ...opts.map(optWidth));
+  return w <= 15 ? 4 : w <= 34 ? 2 : 1;
+}
+
 const TERMS_HEAD = { en: ['English', 'Tiếng Việt'], vi: ['Tiếng Việt', 'English'] };
 
 const CODE_RE = /(```[\s\S]*?```|~~~[\s\S]*?~~~|`[^`\n]+`)/g;
@@ -127,7 +151,7 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
           n++;
           const name = 'qz' + qzNo + '-' + n;
           html += '<div class="qz-item" data-type="' + t + '" data-key="' + esc(t === 'sa' ? it.key.replace(',', '.') : it.key) + '"><div class="qz-q"><b>' + L.q + ' ' + (j + 1) + '.</b> ' + inl(it.q) + '</div>';
-          if (t === 'mc') html += '<ul class="qz-opts">' + it.opts.map((o, i) => { const c = 'ABCD'[i]; return '<li><label><input type="radio" name="' + name + '" value="' + c + '"> <b>' + c + '.</b> ' + inl(o) + '</label></li>'; }).join('') + '</ul>';
+          if (t === 'mc') html += '<ul class="qz-opts cols-' + optCols(it.opts) + '">' + it.opts.map((o, i) => { const c = 'ABCD'[i]; return '<li><label><input type="radio" name="' + name + '" value="' + c + '"> <b>' + c + '.</b> ' + inl(o.replace(/\.\s*$/, '')) + '</label></li>'; }).join('') + '</ul>';
           if (t === 'tf') html += '<table class="qz-tf"><tbody>' + it.opts.map((o, i) => { const c = 'abcd'[i]; return '<tr><td><b>' + c + ')</b> ' + inl(o) + '</td><td><label><input type="radio" name="' + name + c + '" value="T"> ' + L.T + '</label></td><td><label><input type="radio" name="' + name + c + '" value="F"> ' + L.F + '</label></td></tr>'; }).join('') + '</tbody></table>';
           if (t === 'sa') html += '<p class="qz-sa"><input type="text" inputmode="decimal" autocomplete="off" maxlength="8" placeholder="' + L.saPh + '" aria-label="' + L.answer + '"><span class="qz-boxes" aria-hidden="true"><i></i><i></i><i></i><i></i></span></p>';
           html += '<div class="qz-expl" hidden><b>' + L.answer + ': ' + esc(t === 'tf' ? it.key.split('').map((x, i) => 'abcd'[i] + ') ' + (x === 'T' ? L.T : L.F)).join('; ') : it.key) + '.</b> ' + parse(it.expl) + '</div></div>';
@@ -217,11 +241,22 @@ function render(md, opts) {
   }
 
   text = hideMath(text, store);
+  MATH_STORE = store;
 
   const restoreCode = (s) => s.replace(/⟪C(\d+)⟫/g, (m, i) => codes[+i]);
   // a line starting "a) ", "b) " … (parts of an exercise) always starts a new paragraph, even without a blank line
   const parts = (s) => s.replace(/([^\n])\n(?=[a-h]\) )/g, '$1\n\n');
-  const parse = (s) => marked.parse(parts(restoreCode(s)), { gfm: true, breaks: false, async: false });
+  const optStore = [];
+  const mcOpts = (s) => s.replace(/(^|\n)A\.[ \t]+([^\n]*?)[ \t]*\nB\.[ \t]+([^\n]*?)[ \t]*\nC\.[ \t]+([^\n]*?)[ \t]*\nD\.[ \t]+([^\n]*?)[ \t]*(?=\n|$)/g, (m, pre, a, b, c, d) => {
+    optStore.push([a, b, c, d]);
+    return pre + '\n' + OPEN + 'O' + (optStore.length - 1) + CLOSE + '\n';
+  });
+  const inline = (md) => marked.parseInline(md, { gfm: true });
+  const drawOpts = (html) => html.replace(/(?:<p>)?⟦O(\d+)⟧(?:<\/p>)?/g, (m, i) => {
+    const o = optStore[+i];
+    return '<div class="mc-opts cols-' + optCols(o) + '">' + o.map((x, k) => '<span><b>' + 'ABCD'[k] + '.</b> ' + inline(x.replace(/\.\s*$/, '')) + '</span>').join('') + '</div>';
+  });
+  const parse = (s) => drawOpts(marked.parse(mcOpts(parts(restoreCode(s))).replace(/[ \t]+\n(?=⟦O)/g, '\n'), { gfm: true, breaks: false, async: false }));
 
   const lang = opts.lang === 'vi' ? 'vi' : 'en';
   let html = blocks(text, parse, restoreCode, warn, lang, opts.uid || { n: 1 });
@@ -251,4 +286,4 @@ function render(md, opts) {
   return { html, headings, math: store.length };
 }
 
-module.exports = { parseQuiz, render, esc, slugify };
+module.exports = { parseQuiz, render, esc, slugify, optCols };

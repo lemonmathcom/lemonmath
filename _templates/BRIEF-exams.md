@@ -49,4 +49,4 @@ Thi trong nước (đã nằm trong lớp 9 và lớp 12, dùng `_templates/BRIE
 - Bản Anh dùng thuật ngữ đúng của kì thi (SAT, ACT, AP: chính tả Mỹ, "math", "factor"; IB, IGCSE: chính tả Anh, "maths", "factorise"). Đây là ngoại lệ so với GLOSSARY.
 - Sau mỗi cặp bài: `node tools/check.js <id>`; cuối cùng `node tools/check.js --all && node tools/build.js`.
 - Không sửa tools/, assets/, data/ hay bài của người khác.
-- Trắc nghiệm trong `:::example` và `:::exercise`: thêm hai dấu cách cuối dòng đề và cuối các phương án A–C để mỗi phương án nằm trên một dòng. Không dùng kí hiệu đô la cho tiền (trùng dấu công thức): viết "dollars" / "đô la".
+- Trắc nghiệm (trong `:::example`, `:::exercise` hay `:::quiz`) trình bày theo bố cục đề THPT: viết 4 dòng liền nhau `A. …` đến `D. …` ngay dưới dòng đề, không dòng trống xen giữa; website tự xếp 4, 2 hoặc 1 phương án mỗi hàng theo độ dài. Không dùng kí hiệu đô la cho tiền (trùng dấu công thức): viết "dollars" / "đô la".

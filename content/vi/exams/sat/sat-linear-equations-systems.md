@@ -18,10 +18,10 @@ Algebra là mảng lớn nhất của SAT Math: khoảng 13 đến 15 câu trong
 Phương trình bậc nhất một ẩn (linear equation in one variable) có thể viết dưới dạng $ax+b=0$. Để giải, ta phá ngoặc, chuyển các hạng tử chứa $x$ về một vế, các số về vế kia, rồi chia.
 
 :::example Giải và trả lời đúng điều được hỏi
-Nếu $4(x-3)+2x=3x+9$ thì giá trị của $x$ là  
-A. $1$  
-B. $3$  
-C. $7$  
+Nếu $4(x-3)+2x=3x+9$ thì giá trị của $x$ là
+A. $1$
+B. $3$
+C. $7$
 D. $21$
 
 **Lời giải.** Phá ngoặc rồi thu gọn.
@@ -55,10 +55,10 @@ $$\text{tổng}=\text{phần cố định}+\text{mức mỗi đơn vị}\times\t
 Các từ *per*, *each*, *every* báo hiệu mức mỗi đơn vị (rate); các từ *initial*, *one-time*, *flat fee* báo hiệu phần cố định.
 
 :::example Thẻ thành viên
-Một phòng tập thu phí đăng kí một lần là 40 đô la và 25 đô la mỗi tháng. Lan đã trả cho phòng tập tổng cộng 290 đô la. Lan đã là thành viên được bao nhiêu tháng?  
-A. $8$  
-B. $10$  
-C. $11$  
+Một phòng tập thu phí đăng kí một lần là 40 đô la và 25 đô la mỗi tháng. Lan đã trả cho phòng tập tổng cộng 290 đô la. Lan đã là thành viên được bao nhiêu tháng?
+A. $8$
+B. $10$
+C. $11$
 D. $13$
 
 **Lời giải.** Gọi $m$ là số tháng. Phần cố định là $40$, mức mỗi tháng là $25$:
@@ -101,10 +101,10 @@ SAT thường hỏi một tổ hợp như $x+y$ hay $x-y$ thay vì hỏi riêng 
 :::example Mẹo cộng hai phương trình
 $$3x+2y=19$$
 $$2x+3y=16$$
-Giá trị của $x+y$ là  
-A. $5$  
-B. $6$  
-C. $7$  
+Giá trị của $x+y$ là
+A. $5$
+B. $6$
+C. $7$
 D. $35$
 
 **Lời giải.** Cộng hai phương trình: $5x+5y=35$. Chia cho $5$: $x+y=7$. Đáp án là **C**, tìm được trong một dòng mà không cần biết $x$ hay $y$. (Kiểm tra: $x=5$, $y=2$ thoả mãn cả hai phương trình.)
@@ -155,10 +155,10 @@ Gõ cả hai phương trình của hệ đúng như đề cho, ví dụ `2x+3y=1
 ## Bài tập tương tự
 
 :::exercise Trắc nghiệm
-Nếu $5(x-2)-3x=x+4$ thì giá trị của $x$ là  
-A. $6$  
-B. $7$  
-C. $12$  
+Nếu $5(x-2)-3x=x+4$ thì giá trị của $x$ là
+A. $6$
+B. $7$
+C. $12$
 D. $14$
 
 ::hint
@@ -187,10 +187,10 @@ $8x+2k=8x+10$ với mọi $x$ khi và chỉ khi $2k=10$, nên $k=5$.
 :::
 
 :::exercise Trắc nghiệm
-Một chuyến taxi có giá mở cửa 3 đô la cộng 2 đô la cho mỗi ki-lô-mét. Một chuyến đi hết 27 đô la. Chuyến đi dài bao nhiêu ki-lô-mét?  
-A. $9$  
-B. $12$  
-C. $13{,}5$  
+Một chuyến taxi có giá mở cửa 3 đô la cộng 2 đô la cho mỗi ki-lô-mét. Một chuyến đi hết 27 đô la. Chuyến đi dài bao nhiêu ki-lô-mét?
+A. $9$
+B. $12$
+C. $13{,}5$
 D. $15$
 
 ::hint
@@ -223,10 +223,10 @@ $x+2(3x-5)=11\iff 7x=21\iff x=3$, nên $y=3\cdot3-5=4$. Đáp số là $4$.
 :::exercise Trắc nghiệm
 $$4x+y=13$$
 $$x+4y=7$$
-Giá trị của $x+y$ là  
-A. $4$  
-B. $5$  
-C. $6$  
+Giá trị của $x+y$ là
+A. $4$
+B. $5$
+C. $6$
 D. $20$
 
 ::hint
@@ -259,10 +259,10 @@ $12a+8(50-a)=480\iff 4a+400=480\iff a=20$. Có hai mươi vé người lớn đ�
 :::exercise Hệ vô nghiệm
 $$6x-ky=7$$
 $$3x+2y=5$$
-Trong hệ, $k$ là hằng số. Hệ vô nghiệm. Giá trị của $k$ là  
-A. $-4$  
-B. $-1$  
-C. $1$  
+Trong hệ, $k$ là hằng số. Hệ vô nghiệm. Giá trị của $k$ là
+A. $-4$
+B. $-1$
+C. $1$
 D. $4$
 
 ::hint

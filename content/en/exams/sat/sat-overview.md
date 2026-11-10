@@ -70,10 +70,10 @@ Notation differs too. The SAT writes decimals with a point ($2.5$, not $2{,}5$),
 These questions are written by Lemonmath in the style of the test.
 
 :::example Algebra, multiple choice
-If $3x+7=22$, what is the value of $6x+5$?  
-A. $15$  
-B. $30$  
-C. $35$  
+If $3x+7=22$, what is the value of $6x+5$?
+A. $15$
+B. $30$
+C. $35$
 D. $40$
 
 **Solution.** The question asks for $6x+5$, not for $x$. From $3x+7=22$ we get $3x=15$, so $6x=30$ and $6x+5=35$. The answer is **C**. Option B stops at $6x$; option A is $3x$.
@@ -86,10 +86,10 @@ The function $f$ is defined by $f(x)=x^2-6x+11$. What is the minimum value of $f
 :::
 
 :::example Problem-Solving and Data Analysis, multiple choice
-The price of a jacket was 80 dollars. The price was increased by 25%, and the new price was later decreased by 25%. What is the final price, in dollars?  
-A. $70$  
-B. $75$  
-C. $80$  
+The price of a jacket was 80 dollars. The price was increased by 25%, and the new price was later decreased by 25%. What is the final price, in dollars?
+A. $70$
+B. $75$
+C. $80$
 D. $85$
 
 **Solution.** After the increase: $80\times1.25=100$. After the decrease: $100\times0.75=75$. The answer is **B**. Option C is the trap: the two changes are percentages of different amounts, so they do not cancel.

@@ -70,10 +70,10 @@ Kí hiệu cũng khác. SAT viết số thập phân bằng dấu chấm ($2.5$ 
 Các câu dưới đây do Lemonmath tự soạn theo kiểu câu hỏi của đề thi.
 
 :::example Algebra, trắc nghiệm
-Nếu $3x+7=22$ thì giá trị của $6x+5$ bằng bao nhiêu?  
-A. $15$  
-B. $30$  
-C. $35$  
+Nếu $3x+7=22$ thì giá trị của $6x+5$ bằng bao nhiêu?
+A. $15$
+B. $30$
+C. $35$
 D. $40$
 
 **Lời giải.** Đề hỏi $6x+5$ chứ không hỏi $x$. Từ $3x+7=22$ ta có $3x=15$, nên $6x=30$ và $6x+5=35$. Đáp án là **C**. Phương án B dừng ở $6x$; phương án A là $3x$.
@@ -86,10 +86,10 @@ Hàm số $f$ được cho bởi $f(x)=x^2-6x+11$. Giá trị nhỏ nhất của
 :::
 
 :::example Problem-Solving and Data Analysis, trắc nghiệm
-Giá một chiếc áo khoác là 80 đô la. Giá được tăng 25%, sau đó giá mới lại được giảm 25%. Giá cuối cùng là bao nhiêu đô la?  
-A. $70$  
-B. $75$  
-C. $80$  
+Giá một chiếc áo khoác là 80 đô la. Giá được tăng 25%, sau đó giá mới lại được giảm 25%. Giá cuối cùng là bao nhiêu đô la?
+A. $70$
+B. $75$
+C. $80$
 D. $85$
 
 **Lời giải.** Sau khi tăng: $80\times1{,}25=100$. Sau khi giảm: $100\times0{,}75=75$. Đáp án là **B**. Phương án C là cái bẫy: hai lần thay đổi tính phần trăm trên hai số khác nhau nên không triệt tiêu nhau.

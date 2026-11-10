@@ -413,3 +413,7 @@ node tools/check.js <lesson-id>
 
 It builds both files, checks every formula and figure, and compares English with Vietnamese (sections, examples, exercises, figures, number of formulas). Fix everything it reports. It must end with "Tất cả đều ổn." (all fine).
 Also re-read your Vietnamese and English text once, as a student would.
+
+
+## Multiple-choice layout (national exam style)
+Write a multiple-choice question as the stem, then exactly four consecutive lines `A. …`, `B. …`, `C. …`, `D. …` (no blank lines between them). This works inside `:::example`, `:::exercise` and `:::quiz`. The builder lays the options out like the Vietnamese national exam paper: all four on one row when they are short, two per row when medium, one per line when long; a final full stop after an option is dropped, and narrow screens get fewer columns automatically.

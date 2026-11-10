@@ -133,7 +133,7 @@ function worksheet(o) {
       qzHtml += '<h3>' + L.parts[pi] + '</h3>';
       list.forEach((it, j) => {
         qzHtml += '<div class="ws-qi"><div><b>' + L.q + ' ' + (j + 1) + '.</b> ' + inl(it.q) + '</div>';
-        if (t === 'mc') qzHtml += '<div class="ws-mc">' + it.opts.map((o, i) => '<span><b>' + 'ABCD'[i] + '.</b> ' + inl(o) + '</span>').join('') + '</div>';
+        if (t === 'mc') qzHtml += '<div class="ws-mc cols-' + require('./render.js').optCols(it.opts) + '">' + it.opts.map((o, i) => '<span><b>' + 'ABCD'[i] + '.</b> ' + inl(o.replace(/\.\s*$/, '')) + '</span>').join('') + '</div>';
         if (t === 'tf') qzHtml += '<table class="ws-tf">' + it.opts.map((o, i) => '<tr><td><b>' + 'abcd'[i] + ')</b> ' + inl(o) + '</td><td class="box">' + L.TF + '</td></tr>').join('') + '</table>';
         if (t === 'sa') qzHtml += '<div class="ws-sa"><span></span><span></span><span></span><span></span></div>';
         qzHtml += '</div>';

@@ -64,6 +64,7 @@ h2 { margin: 0 0 4px; font: 800 11.5pt/1.3 "Nunito Variable", sans-serif; text-t
 .ws-qi { margin: 4px 0 6px; break-inside: avoid; }
 .ws-qi p { margin: .15em 0; }
 .ws-mc { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px 14px; margin-top: 2px; }
+.ws-mc.cols-4 { grid-template-columns: repeat(4, 1fr); } .ws-mc.cols-1 { grid-template-columns: 1fr; }
 .ws-tf { width: 100%; border-collapse: collapse; font-size: 10.5pt; }
 .ws-tf td { padding: 2px 4px; border-bottom: 1px dotted #aaa; }
 .ws-tf td.box { width: 18mm; text-align: center; color: #888; }

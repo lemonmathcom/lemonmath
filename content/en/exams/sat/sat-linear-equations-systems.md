@@ -18,10 +18,10 @@ Algebra is the largest domain of SAT Math: about 13 to 15 of the 44 questions. L
 A linear equation in one variable can be written as $ax+b=0$. To solve it, expand brackets, collect the $x$ terms on one side and the numbers on the other, then divide.
 
 :::example Solving and answering what is asked
-If $4(x-3)+2x=3x+9$, what is the value of $x$?  
-A. $1$  
-B. $3$  
-C. $7$  
+If $4(x-3)+2x=3x+9$, what is the value of $x$?
+A. $1$
+B. $3$
+C. $7$
 D. $21$
 
 **Solution.** Expand, then collect like terms.
@@ -55,10 +55,10 @@ $$\text{total}=\text{fixed amount}+\text{rate}\times\text{number of units}.$$
 Words such as *per*, *each* and *every* mark the rate; words such as *initial*, *one-time* and *flat fee* mark the fixed amount.
 
 :::example A membership
-A gym charges a one-time sign-up fee of 40 dollars and 25 dollars per month. Lan has paid the gym 290 dollars in total. For how many months has she been a member?  
-A. $8$  
-B. $10$  
-C. $11$  
+A gym charges a one-time sign-up fee of 40 dollars and 25 dollars per month. Lan has paid the gym 290 dollars in total. For how many months has she been a member?
+A. $8$
+B. $10$
+C. $11$
 D. $13$
 
 **Solution.** Let $m$ be the number of months. The fixed amount is $40$ and the rate is $25$ per month:
@@ -101,10 +101,10 @@ The SAT often asks for a combination such as $x+y$ or $x-y$ instead of $x$ and $
 :::example The combining shortcut
 $$3x+2y=19$$
 $$2x+3y=16$$
-What is the value of $x+y$?  
-A. $5$  
-B. $6$  
-C. $7$  
+What is the value of $x+y$?
+A. $5$
+B. $6$
+C. $7$
 D. $35$
 
 **Solution.** Add the two equations: $5x+5y=35$. Divide by $5$: $x+y=7$. The answer is **C**, found in one line without knowing $x$ or $y$. (Check: $x=5$, $y=2$ satisfies both equations.)
@@ -155,10 +155,10 @@ Type both equations of a system exactly as given, for example `2x+3y=17` and `x-
 ## Similar exercises
 
 :::exercise Multiple choice
-If $5(x-2)-3x=x+4$, what is the value of $x$?  
-A. $6$  
-B. $7$  
-C. $12$  
+If $5(x-2)-3x=x+4$, what is the value of $x$?
+A. $6$
+B. $7$
+C. $12$
 D. $14$
 
 ::hint
@@ -187,10 +187,10 @@ $8x+2k=8x+10$ for every $x$ exactly when $2k=10$, so $k=5$.
 :::
 
 :::exercise Multiple choice
-A taxi ride costs a flat fee of 3 dollars plus 2 dollars per kilometer. A ride cost 27 dollars. How many kilometers long was the ride?  
-A. $9$  
-B. $12$  
-C. $13.5$  
+A taxi ride costs a flat fee of 3 dollars plus 2 dollars per kilometer. A ride cost 27 dollars. How many kilometers long was the ride?
+A. $9$
+B. $12$
+C. $13.5$
 D. $15$
 
 ::hint
@@ -223,10 +223,10 @@ $x+2(3x-5)=11\iff 7x=21\iff x=3$, so $y=3\cdot3-5=4$. The answer is $4$.
 :::exercise Multiple choice
 $$4x+y=13$$
 $$x+4y=7$$
-What is the value of $x+y$?  
-A. $4$  
-B. $5$  
-C. $6$  
+What is the value of $x+y$?
+A. $4$
+B. $5$
+C. $6$
 D. $20$
 
 ::hint
@@ -259,10 +259,10 @@ $12a+8(50-a)=480\iff 4a+400=480\iff a=20$. Twenty adult tickets were sold. Check
 :::exercise A system with no solution
 $$6x-ky=7$$
 $$3x+2y=5$$
-In the system, $k$ is a constant. The system has no solution. What is the value of $k$?  
-A. $-4$  
-B. $-1$  
-C. $1$  
+In the system, $k$ is a constant. The system has no solution. What is the value of $k$?
+A. $-4$
+B. $-1$
+C. $1$
 D. $4$
 
 ::hint

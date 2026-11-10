@@ -278,7 +278,18 @@ a.card:hover { transform: translateY(-3px); }
 .qz-item.qz-ok { border-color: #16A34A; } .qz-item.qz-no { border-color: #DC2626; }
 .qz-q p { margin: .2em 0; }
 .qz-opts { list-style: none; padding: 0; margin: .4em 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 12px; }
-@media (max-width: 560px) { .qz-opts { grid-template-columns: 1fr; } }
+/* multiple-choice options laid out like the national exam paper: 4, 2 or 1 per row */
+.mc-opts { display: grid; gap: 4px 14px; margin: .3em 0 .8em; }
+.mc-opts span { padding: 2px 0; }
+.mc-opts.cols-4 span, .qz-opts.cols-4 li { white-space: nowrap; }
+.mc-opts b, .qz-opts b { color: var(--lvl-ink, inherit); }
+.cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.cols-1 { grid-template-columns: 1fr; }
+/* the options react to the width of their own box, not the screen */
+.box-body, .qz-item { container-type: inline-size; }
+@container (max-width: 640px) { .cols-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@container (max-width: 420px) { .cols-4, .cols-2, .qz-opts.cols-2 { grid-template-columns: 1fr; } }
 .qz-opts label, .qz-tf label { cursor: pointer; }
 .qz-opts li { padding: 3px 6px; border-radius: 8px; }
 .qz-right { background: #DCFCE7; } .qz-wrong { background: #FEE2E2; }
@@ -368,7 +379,8 @@ a.card:hover { transform: translateY(-3px); }
   .ex-write { display: block; height: 30mm; margin-top: 2mm; border: 1px solid #bbb; border-radius: 4px;
     background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 7.5mm, #ddd 7.5mm, #ddd 7.8mm); }
   /* mini test: tick boxes and 4 answer boxes like the exam sheet */
-  .qz-opts { display: grid !important; grid-template-columns: 1fr 1fr; gap: 1mm 6mm; }
+  .qz-opts, .mc-opts { display: grid !important; gap: 1mm 6mm; }
+  .cols-4 { grid-template-columns: repeat(4, 1fr) !important; } .cols-2 { grid-template-columns: 1fr 1fr !important; } .cols-1 { grid-template-columns: 1fr !important; }
   .qz-item { break-inside: avoid; margin: 2mm 0 3mm; }
   .qz-boxes { display: inline-flex; gap: 1mm; }
   .qz-boxes i { width: 7mm; height: 8mm; border: 1.2px solid #333; }

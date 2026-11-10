@@ -24,10 +24,10 @@ In $y=mx+b$, $m$ is the slope and $b$ is the $y$-intercept: the line crosses the
 A positive slope means the line rises from left to right; a negative slope means it falls. A slope of $2$ means: each time $x$ increases by $1$, $y$ increases by $2$.
 
 :::example A line through two points
-Line $\ell$ passes through the points $(1, 3)$ and $(4, 9)$. Which equation defines line $\ell$?  
-A. $y=2x+1$  
-B. $y=2x+3$  
-C. $y=\dfrac12x+\dfrac52$  
+Line $\ell$ passes through the points $(1, 3)$ and $(4, 9)$. Which equation defines line $\ell$?
+A. $y=2x+1$
+B. $y=2x+3$
+C. $y=\dfrac12x+\dfrac52$
 D. $y=3x$
 
 **Solution.** First the slope, then the intercept.
@@ -55,10 +55,10 @@ A linear function $f(x)=mx+b$ models a quantity that changes at a constant rate.
 - $m$ is the **rate of change**, the change in the quantity for each increase of $1$ in $x$.
 
 :::example Interpreting a model
-The height of a plant, in centimeters, $t$ weeks after it was planted is modeled by $h(t)=12+3t$. What is the best interpretation of the number $3$ in this context?  
-A. The height of the plant, in centimeters, when it was planted  
-B. The number of weeks the plant has been growing  
-C. The increase in the height of the plant, in centimeters, each week  
+The height of a plant, in centimeters, $t$ weeks after it was planted is modeled by $h(t)=12+3t$. What is the best interpretation of the number $3$ in this context?
+A. The height of the plant, in centimeters, when it was planted
+B. The number of weeks the plant has been growing
+C. The increase in the height of the plant, in centimeters, each week
 D. The height of the plant, in centimeters, after 3 weeks
 
 **Solution.** $3$ multiplies $t$, so it is the rate of change: the plant grows $3$ centimeters each week. The answer is **C**. Option A describes $12$, the value at $t=0$.
@@ -95,10 +95,10 @@ The $y$-intercept is $3$. You type **3**.
 Solve an inequality like an equation, with one extra rule: **when you multiply or divide both sides by a negative number, reverse the inequality sign.**
 
 :::example Reversing the sign
-Which of the following describes all solutions of $-3x+7\le22$?  
-A. $x\le-5$  
-B. $x\ge-5$  
-C. $x\le5$  
+Which of the following describes all solutions of $-3x+7\le22$?
+A. $x\le-5$
+B. $x\ge-5$
+C. $x\le5$
 D. $x\ge5$
 
 **Solution.** Subtract $7$: $-3x\le15$. Divide by $-3$ and reverse the sign: $x\ge-5$. The answer is **B**. Option A forgets to reverse the sign. Quick check with $x=0$: $7\le22$ is true, and $0\ge-5$.
@@ -107,10 +107,10 @@ D. $x\ge5$
 In two variables, the solutions of an inequality form a half-plane, and the solutions of a system of inequalities form the region where the half-planes overlap. To test whether a point is a solution, substitute it into **every** inequality.
 
 :::example A system of inequalities in context
-Notebooks cost 4 dollars each and pens cost 2 dollars each. Minh can spend at most 40 dollars and wants at least 12 items in total. If $n$ is the number of notebooks and $p$ the number of pens, which pair $(n, p)$ satisfies both conditions?  
-A. $(10, 1)$  
-B. $(3, 8)$  
-C. $(9, 3)$  
+Notebooks cost 4 dollars each and pens cost 2 dollars each. Minh can spend at most 40 dollars and wants at least 12 items in total. If $n$ is the number of notebooks and $p$ the number of pens, which pair $(n, p)$ satisfies both conditions?
+A. $(10, 1)$
+B. $(3, 8)$
+C. $(9, 3)$
 D. $(6, 8)$
 
 **Solution.** The conditions are $4n+2p\le40$ and $n+p\ge12$. Test each option.
@@ -176,10 +176,10 @@ $m=\dfrac{12}{4}=3$. Then $1=3\cdot2+b$, so $b=-5$. The $y$-intercept is $-5$.
 :::
 
 :::exercise Multiple choice
-The cost, in dollars, of renting a boat for $n$ hours is $C(n)=50+15n$. What is the best interpretation of the number $15$?  
-A. The cost of renting the boat for one hour in total  
-B. The increase in cost for each additional hour  
-C. The fixed fee paid before any hours are counted  
+The cost, in dollars, of renting a boat for $n$ hours is $C(n)=50+15n$. What is the best interpretation of the number $15$?
+A. The cost of renting the boat for one hour in total
+B. The increase in cost for each additional hour
+C. The fixed fee paid before any hours are counted
 D. The number of hours the boat is rented
 
 ::hint
@@ -222,10 +222,10 @@ The slope is $\dfrac{13-4}{4-1}=3$. From $x=4$ to $x=7$ is $3$ more units, so $g
 :::
 
 :::exercise Multiple choice
-Which of the following describes all solutions of $5-2x>11$?  
-A. $x>-3$  
-B. $x<3$  
-C. $x<-3$  
+Which of the following describes all solutions of $5-2x>11$?
+A. $x>-3$
+B. $x<3$
+C. $x<-3$
 D. $x>3$
 
 ::hint
@@ -286,10 +286,10 @@ $15w\ge180\iff w\ge12$. The least number of weeks is $12$. After 12 weeks she ha
 :::exercise Multiple choice
 $$y>2x-1$$
 $$y\le-x+5$$
-Which point $(x, y)$ is a solution to the system of inequalities?  
-A. $(2, 3)$  
-B. $(0, 6)$  
-C. $(1, 3)$  
+Which point $(x, y)$ is a solution to the system of inequalities?
+A. $(2, 3)$
+B. $(0, 6)$
+C. $(1, 3)$
 D. $(3, 1)$
 
 ::hint

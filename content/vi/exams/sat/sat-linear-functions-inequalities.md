@@ -24,10 +24,10 @@ Trong $y=mx+b$, $m$ là hệ số góc và $b$ là tung độ gốc ($y$-interce
 Hệ số góc dương nghĩa là đường thẳng đi lên từ trái sang phải; hệ số góc âm nghĩa là đi xuống. Hệ số góc bằng $2$ nghĩa là: mỗi khi $x$ tăng $1$ thì $y$ tăng $2$.
 
 :::example Đường thẳng qua hai điểm
-Đường thẳng $\ell$ đi qua các điểm $(1, 3)$ và $(4, 9)$. Phương trình nào xác định đường thẳng $\ell$?  
-A. $y=2x+1$  
-B. $y=2x+3$  
-C. $y=\dfrac12x+\dfrac52$  
+Đường thẳng $\ell$ đi qua các điểm $(1, 3)$ và $(4, 9)$. Phương trình nào xác định đường thẳng $\ell$?
+A. $y=2x+1$
+B. $y=2x+3$
+C. $y=\dfrac12x+\dfrac52$
 D. $y=3x$
 
 **Lời giải.** Tìm hệ số góc trước, rồi đến tung độ gốc.
@@ -55,10 +55,10 @@ Hàm số bậc nhất $f(x)=mx+b$ mô tả một đại lượng thay đổi v�
 - $m$ là **tốc độ thay đổi** (rate of change), tức lượng thay đổi của đại lượng mỗi khi $x$ tăng $1$.
 
 :::example Giải thích một mô hình
-Chiều cao của một cái cây, tính bằng xăng-ti-mét, sau $t$ tuần kể từ khi trồng được mô tả bởi $h(t)=12+3t$. Cách giải thích nào đúng nhất về số $3$ trong bối cảnh này?  
-A. Chiều cao của cây, tính bằng xăng-ti-mét, lúc mới trồng  
-B. Số tuần cây đã lớn  
-C. Mức tăng chiều cao của cây, tính bằng xăng-ti-mét, mỗi tuần  
+Chiều cao của một cái cây, tính bằng xăng-ti-mét, sau $t$ tuần kể từ khi trồng được mô tả bởi $h(t)=12+3t$. Cách giải thích nào đúng nhất về số $3$ trong bối cảnh này?
+A. Chiều cao của cây, tính bằng xăng-ti-mét, lúc mới trồng
+B. Số tuần cây đã lớn
+C. Mức tăng chiều cao của cây, tính bằng xăng-ti-mét, mỗi tuần
 D. Chiều cao của cây, tính bằng xăng-ti-mét, sau 3 tuần
 
 **Lời giải.** Số $3$ nhân với $t$, nên nó là tốc độ thay đổi: mỗi tuần cây cao thêm $3$ xăng-ti-mét. Đáp án là **C**. Phương án A mô tả số $12$, giá trị tại $t=0$.
@@ -95,10 +95,10 @@ Tung độ gốc là $3$. Bạn gõ **3**.
 Giải bất phương trình giống như giải phương trình, thêm một quy tắc: **khi nhân hoặc chia hai vế với một số âm, phải đổi chiều bất đẳng thức.**
 
 :::example Đổi chiều bất đẳng thức
-Mệnh đề nào sau đây mô tả tất cả các nghiệm của $-3x+7\le22$?  
-A. $x\le-5$  
-B. $x\ge-5$  
-C. $x\le5$  
+Mệnh đề nào sau đây mô tả tất cả các nghiệm của $-3x+7\le22$?
+A. $x\le-5$
+B. $x\ge-5$
+C. $x\le5$
 D. $x\ge5$
 
 **Lời giải.** Trừ $7$: $-3x\le15$. Chia cho $-3$ và đổi chiều: $x\ge-5$. Đáp án là **B**. Phương án A quên đổi chiều. Kiểm tra nhanh với $x=0$: $7\le22$ đúng, và $0\ge-5$.
@@ -107,10 +107,10 @@ D. $x\ge5$
 Với hai ẩn, tập nghiệm của một bất phương trình là một nửa mặt phẳng, và tập nghiệm của một hệ bất phương trình là phần chung của các nửa mặt phẳng đó. Để kiểm tra một điểm có là nghiệm hay không, hãy thay nó vào **mọi** bất phương trình.
 
 :::example Hệ bất phương trình trong bối cảnh
-Vở giá 4 đô la một quyển và bút giá 2 đô la một chiếc. Minh có thể tiêu nhiều nhất 40 đô la và muốn mua ít nhất 12 món. Nếu $n$ là số quyển vở và $p$ là số chiếc bút thì cặp $(n, p)$ nào thoả mãn cả hai điều kiện?  
-A. $(10, 1)$  
-B. $(3, 8)$  
-C. $(9, 3)$  
+Vở giá 4 đô la một quyển và bút giá 2 đô la một chiếc. Minh có thể tiêu nhiều nhất 40 đô la và muốn mua ít nhất 12 món. Nếu $n$ là số quyển vở và $p$ là số chiếc bút thì cặp $(n, p)$ nào thoả mãn cả hai điều kiện?
+A. $(10, 1)$
+B. $(3, 8)$
+C. $(9, 3)$
 D. $(6, 8)$
 
 **Lời giải.** Các điều kiện là $4n+2p\le40$ và $n+p\ge12$. Thử từng phương án.
@@ -176,10 +176,10 @@ $m=\dfrac{12}{4}=3$. Khi đó $1=3\cdot2+b$, nên $b=-5$. Tung độ gốc là $
 :::
 
 :::exercise Trắc nghiệm
-Chi phí, tính bằng đô la, để thuê một chiếc thuyền trong $n$ giờ là $C(n)=50+15n$. Cách giải thích nào đúng nhất về số $15$?  
-A. Tổng chi phí thuê thuyền trong một giờ  
-B. Mức tăng chi phí cho mỗi giờ thuê thêm  
-C. Khoản phí cố định phải trả trước khi tính giờ  
+Chi phí, tính bằng đô la, để thuê một chiếc thuyền trong $n$ giờ là $C(n)=50+15n$. Cách giải thích nào đúng nhất về số $15$?
+A. Tổng chi phí thuê thuyền trong một giờ
+B. Mức tăng chi phí cho mỗi giờ thuê thêm
+C. Khoản phí cố định phải trả trước khi tính giờ
 D. Số giờ thuê thuyền
 
 ::hint
@@ -222,10 +222,10 @@ Hệ số góc là $\dfrac{13-4}{4-1}=3$. Từ $x=4$ đến $x=7$ là thêm $3$ 
 :::
 
 :::exercise Trắc nghiệm
-Mệnh đề nào sau đây mô tả tất cả các nghiệm của $5-2x>11$?  
-A. $x>-3$  
-B. $x<3$  
-C. $x<-3$  
+Mệnh đề nào sau đây mô tả tất cả các nghiệm của $5-2x>11$?
+A. $x>-3$
+B. $x<3$
+C. $x<-3$
 D. $x>3$
 
 ::hint
@@ -286,10 +286,10 @@ $15w\ge180\iff w\ge12$. Số tuần ít nhất là $12$. Sau 12 tuần Hoa có �
 :::exercise Trắc nghiệm
 $$y>2x-1$$
 $$y\le-x+5$$
-Điểm $(x, y)$ nào là nghiệm của hệ bất phương trình?  
-A. $(2, 3)$  
-B. $(0, 6)$  
-C. $(1, 3)$  
+Điểm $(x, y)$ nào là nghiệm của hệ bất phương trình?
+A. $(2, 3)$
+B. $(0, 6)$
+C. $(1, 3)$
 D. $(3, 1)$
 
 ::hint
