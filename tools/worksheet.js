@@ -148,7 +148,7 @@ function worksheet(o) {
     '<div class="ws-bar no-print"><a href="' + esc(o.backHref) + '">← ' + L.back + '</a><button type="button" onclick="window.print()">' + L.print + '</button><small>' + L.tip + '</small></div>\n' +
     '<main class="ws-sheet">\n' +
     '<header class="ws-head"><div class="ws-brand">Lemon<b>math</b><span>' + L.kicker + '</span></div>' +
-    '<div class="ws-where">' + esc(L.grade(o.grade)) + ' · ' + L.lesson + ' ' + esc(o.number) + '</div></header>\n' +
+    '<div class="ws-where">' + esc(o.gradeLabel || L.grade(o.grade)) + ' · ' + L.lesson + ' ' + esc(o.number) + '</div></header>\n' +
     '<h1>' + esc(o.meta.title) + '</h1>\n' +
     '<div class="ws-fields"><span>' + L.name + ': <i></i></span><span>' + L.date + ': <i class="s"></i></span><span>' + L.time + ': <i class="s"></i> ' + L.minutes + '</span></div>\n' +
     '<aside class="ws-how"><h2>' + L.howTitle + '</h2><ol>' + L.how.map((h) => '<li>' + h + '</li>').join('') + '</ol><p class="ws-why">' + esc(L.why) + '</p></aside>\n' +

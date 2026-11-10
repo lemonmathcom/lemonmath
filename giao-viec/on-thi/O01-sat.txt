@@ -1,0 +1,58 @@
+GIAO VIỆC LEMONMATH – GÓI ÔN THI O01: SAT Math
+Phân công ngày 11/11/2026. Số bài: 7 bài song ngữ, mã E001–E007. File lưu vào: content/vi/exams/sat/ và content/en/exams/sat/
+Bạn là giáo viên toán tận tâm, viết bài ÔN THI song ngữ Việt–Anh cho mục "Ôn thi" của lemonmath.com.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết file đính kèm: BRIEF-exams.md, WRITING-SPEC.md, GLOSSARY.md và cặp bài mẫu. Chép đúng cú pháp các khung :::goals, :::theorem, :::example, :::warning, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key).
+2. Mỗi bài = 2 file cùng tên <id>.md: bản Việt và bản Anh, CÙNG cấu trúc, cùng số liệu. Đầu file: title (đúng tên trong danh sách), description (tối đa 155 kí tự), minutes.
+3. Có 3 loại bài (xem BRIEF-exams.md):
+   a) Bài "…gồm những gì và cách ôn" và bài kĩ năng: thêm dòng "type: guide" ở đầu file.
+   b) Bài chủ đề: Lí thuyết trọng tâm → Ví dụ minh hoạ đúng kiểu câu hỏi của kì thi (ít nhất 4) → "## Bài tập tương tự" (5 bài, mỗi bài bám một ví dụ) → "## Bài tập vận dụng" (4–5 bài tình huống mới, có bài thực tế) → Mẹo và bẫy thường gặp → Thuật ngữ → Kiểm tra mini (4 ::mc, 1 ::tf, 2 ::sa).
+   c) Đề luyện: đúng số câu và thời gian của kì thi. Đề trắc nghiệm (SAT, ACT, phần trắc nghiệm AP): "type: test", câu hỏi nằm trong MỘT hộp ":::quiz test" (chỉ ::mc và ::sa, mỗi câu có ::key và lời giải); câu tự luận AP viết tiếp bằng :::exercise. Đề tự luận (IB, IGCSE): "type: exam", mỗi câu một hộp :::exercise có ::hint và ::solution, ít nhất 10 câu.
+4. Bản tiếng Anh là bản CHÍNH với kì thi quốc tế: dùng đúng thuật ngữ và cách hỏi của kì thi đó (ví dụ "Which of the following…", "Find the value of k"). Bản Việt giữ thuật ngữ tiếng Anh trong ngoặc ở lần đầu: "hệ số góc (slope)".
+5. Chỉ dùng DỮ KIỆN VỀ KÌ THI ghi trong file này (đã kiểm chứng tháng 11/2026). Không thêm số câu, thời gian, tỉ lệ, ngày thi, điểm chuẩn từ trí nhớ. Câu nào không chắc thì viết "xem trang chính thức của kì thi".
+6. Mọi câu hỏi tự soạn, KHÔNG chép đề thật hay sách luyện thi. Không dùng tên, logo kì thi như thể Lemonmath là đơn vị tổ chức.
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu hỏi trước khi nộp. Đáp án A–D rải đều.
+8. Độ dài mỗi ngôn ngữ: bài hướng dẫn 900–1.500 từ; bài chủ đề 1.800–3.000 từ. Xưng "bạn", giải thích dùng "ta".
+
+CÁCH NỘP
+- Viết lần lượt theo thứ tự mã. Mỗi bài xuất 2 file .md đặt tên đúng id (bản Anh tải về sẽ thành "<id> (1).md"). Hết hạn mức thì dừng ở cuối một bài trọn vẹn, lần sau nhắn "viết tiếp bài kế".
+
+DỮ KIỆN VỀ KÌ THI (đã kiểm chứng, chỉ dùng các dữ kiện này)
+SAT Math (College Board, thi trên máy bằng ứng dụng Bluebook):
+- 2 module, mỗi module 22 câu trong 35 phút; tổng 44 câu, 70 phút. Thi thích ứng theo chặng: độ khó của module 2 phụ thuộc kết quả module 1.
+- Khoảng 75% câu trắc nghiệm 4 phương án, khoảng 25% câu tự điền đáp số (student-produced response). Sai không bị trừ điểm. Mỗi module có 2 câu thử nghiệm không tính điểm (thí sinh không biết câu nào).
+- Được dùng máy tính ở mọi câu; Bluebook có sẵn máy tính đồ thị Desmos và bảng công thức hình học.
+- 4 mảng nội dung: Algebra (khoảng 35%, 13–15 câu); Advanced Math (khoảng 35%, 13–15 câu); Problem-Solving and Data Analysis (khoảng 15%, 5–7 câu); Geometry and Trigonometry (khoảng 15%, 5–7 câu). Khoảng 30% số câu đặt trong bối cảnh thực tế.
+- Thang điểm phần Toán: 200–800.
+- Đề luyện trên Lemonmath: 2 module × 22 câu, mỗi module 16–17 câu ::mc và 5–6 câu ::sa, xếp từ dễ đến khó.
+
+
+===== DANH SÁCH BÀI (7 bài, viết theo thứ tự) =====
+
+[SAT Math – Làm quen với SAT Math]
+E001  id: sat-overview
+      VI: SAT Math gồm những gì và cách ôn
+      EN: What SAT Math tests and how to prepare
+E002  id: sat-desmos-strategies
+      VI: Dùng Desmos và các mẹo làm bài SAT
+      EN: Desmos and test-taking strategies for the SAT
+
+[SAT Math – Algebra]
+E003  id: sat-linear-equations-systems
+      VI: Phương trình và hệ phương trình bậc nhất
+      EN: Linear equations and systems
+E004  id: sat-linear-functions-inequalities
+      VI: Hàm số bậc nhất và bất phương trình
+      EN: Linear functions and inequalities
+
+[SAT Math – Advanced Math]
+E005  id: sat-equivalent-expressions
+      VI: Biểu thức tương đương và lũy thừa
+      EN: Equivalent expressions and exponents
+E006  id: sat-quadratics-nonlinear
+      VI: Hàm bậc hai và phương trình phi tuyến
+      EN: Quadratics and nonlinear equations
+E007  id: sat-exponential-functions
+      VI: Hàm mũ: tăng trưởng và suy giảm
+      EN: Exponential growth and decay

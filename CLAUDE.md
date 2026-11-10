@@ -19,3 +19,5 @@ Quy trình "Kiểm tra hình mới" (hình minh họa tiểu học do ChatGPT Pl
 3. `node tools/check.js --all && npm run build`, rồi commit + push.
 
 Mỗi thứ Hai: cập nhật content/vi/this-week.md và content/en/this-week.md (trang Bài của tuần).
+
+Mục Ôn thi (từ 11/11/2026): lộ trình trong mảng "exams" của data/curriculum.json (thi vào 10 và THPT chỉ là liên kết sang chương ôn thi của lớp 9, lớp 12; SAT, ACT, AP, IB, IGCSE, kĩ năng ôn thi là các lộ trình riêng). Bài nằm ở content/<lang>/exams/<exam-id>/<id>.md, trang web /exams/… và /vi/on-thi/…; trang tổng là content/<lang>/exams.md. Phân công đợt 2: giao-viec/ON-THI.md, 12 gói O01–O12 (mã E001–E091), brief ở _templates/BRIEF-exams.md, dữ kiện kì thi đã kiểm chứng nằm trong từng file gói (cập nhật lại mỗi năm học, AP đổi cấu trúc từ 5/2027). Loại bài: "type: guide" (hướng dẫn), "type: test" (đề trắc nghiệm, hộp ":::quiz test", chấm 1 điểm/câu), "type: exam" (đề tự luận). intake.py chưa nhận bài exams: chép tay vào đúng thư mục rồi chạy check.js.

@@ -4082,5 +4082,1195 @@
         }
       ]
     }
+  ],
+  "exams": [
+    {
+      "id": "vao-10",
+      "group": "vn",
+      "link": {
+        "grade": 9,
+        "chapter": "exam-prep-grade10"
+      },
+      "icon": "star",
+      "vi": "Thi vào lớp 10",
+      "en": "Vietnam grade 10 entrance exam",
+      "facts": {
+        "vi": "Tự luận 120 phút (Hà Nội, TP.HCM), kiến thức chủ yếu lớp 8–9.",
+        "en": "Written exam, 120 minutes (Hanoi, HCMC), mostly grade 8–9 content."
+      },
+      "summary": {
+        "vi": "Chuyên đề trọng tâm và đề luyện theo cấu trúc đề tuyển sinh chương trình 2018.",
+        "en": "Key topics and practice papers in the style of the 2018-curriculum entrance exams."
+      },
+      "status": "roadmap",
+      "chapters": []
+    },
+    {
+      "id": "thpt",
+      "group": "vn",
+      "link": {
+        "grade": 12,
+        "chapter": "exam-prep-thpt"
+      },
+      "icon": "star",
+      "vi": "Thi tốt nghiệp THPT",
+      "en": "Vietnam high-school graduation exam",
+      "facts": {
+        "vi": "90 phút: 12 câu trắc nghiệm, 4 câu đúng/sai, 6 câu trả lời ngắn.",
+        "en": "90 minutes: 12 multiple choice, 4 true/false, 6 short answer."
+      },
+      "summary": {
+        "vi": "Ôn theo chủ đề lớp 11–12 và 4 đề luyện theo cấu trúc từ năm 2025.",
+        "en": "Topic revision for grades 11–12 and four practice papers in the 2025+ format."
+      },
+      "status": "roadmap",
+      "chapters": []
+    },
+    {
+      "id": "sat",
+      "group": "intl",
+      "icon": "percent",
+      "vi": "SAT Math",
+      "en": "SAT Math",
+      "facts": {
+        "vi": "Thi trên máy (Bluebook), 44 câu trong 70 phút, 2 module thích ứng, được dùng Desmos.",
+        "en": "Digital (Bluebook), 44 questions in 70 minutes, two adaptive modules, Desmos allowed."
+      },
+      "summary": {
+        "vi": "Đại số, toán nâng cao, xử lí dữ liệu, hình học – lượng giác theo đúng 4 mảng của SAT.",
+        "en": "Algebra, advanced maths, data analysis and geometry–trigonometry, the four SAT domains."
+      },
+      "chapters": [
+        {
+          "id": "sat-start",
+          "icon": "star",
+          "vi": "Làm quen với SAT Math",
+          "en": "Getting started with SAT Math",
+          "summary": {
+            "vi": "Cấu trúc đề, cách tính điểm, lộ trình ôn và công cụ Desmos.",
+            "en": "Format, scoring, a revision plan and the Desmos calculator."
+          },
+          "lessons": [
+            {
+              "id": "sat-overview",
+              "vi": "SAT Math gồm những gì và cách ôn",
+              "en": "What SAT Math tests and how to prepare",
+              "minutes": 25
+            },
+            {
+              "id": "sat-desmos-strategies",
+              "vi": "Dùng Desmos và các mẹo làm bài SAT",
+              "en": "Desmos and test-taking strategies for the SAT",
+              "minutes": 30
+            }
+          ]
+        },
+        {
+          "id": "sat-algebra",
+          "icon": "equation",
+          "vi": "Algebra",
+          "en": "Algebra",
+          "summary": {
+            "vi": "Phương trình, bất phương trình, hệ và hàm bậc nhất.",
+            "en": "Linear equations, inequalities, systems and linear functions."
+          },
+          "lessons": [
+            {
+              "id": "sat-linear-equations-systems",
+              "vi": "Phương trình và hệ phương trình bậc nhất",
+              "en": "Linear equations and systems",
+              "minutes": 35
+            },
+            {
+              "id": "sat-linear-functions-inequalities",
+              "vi": "Hàm số bậc nhất và bất phương trình",
+              "en": "Linear functions and inequalities",
+              "minutes": 35
+            }
+          ]
+        },
+        {
+          "id": "sat-advanced",
+          "icon": "function",
+          "vi": "Advanced Math",
+          "en": "Advanced Math",
+          "summary": {
+            "vi": "Biểu thức tương đương, hàm bậc hai, mũ và phương trình phi tuyến.",
+            "en": "Equivalent expressions, quadratics, exponentials and nonlinear equations."
+          },
+          "lessons": [
+            {
+              "id": "sat-equivalent-expressions",
+              "vi": "Biểu thức tương đương và lũy thừa",
+              "en": "Equivalent expressions and exponents",
+              "minutes": 35
+            },
+            {
+              "id": "sat-quadratics-nonlinear",
+              "vi": "Hàm bậc hai và phương trình phi tuyến",
+              "en": "Quadratics and nonlinear equations",
+              "minutes": 40
+            },
+            {
+              "id": "sat-exponential-functions",
+              "vi": "Hàm mũ: tăng trưởng và suy giảm",
+              "en": "Exponential growth and decay",
+              "minutes": 35
+            }
+          ]
+        },
+        {
+          "id": "sat-data",
+          "icon": "chart",
+          "vi": "Problem Solving and Data Analysis",
+          "en": "Problem Solving and Data Analysis",
+          "summary": {
+            "vi": "Tỉ số, phần trăm, đơn vị, thống kê và xác suất.",
+            "en": "Ratios, percentages, units, statistics and probability."
+          },
+          "lessons": [
+            {
+              "id": "sat-ratios-percentages-units",
+              "vi": "Tỉ số, tỉ lệ, phần trăm và đổi đơn vị",
+              "en": "Ratios, rates, percentages and units",
+              "minutes": 35
+            },
+            {
+              "id": "sat-statistics-probability",
+              "vi": "Thống kê, đọc biểu đồ và xác suất",
+              "en": "Statistics, data displays and probability",
+              "minutes": 35
+            }
+          ]
+        },
+        {
+          "id": "sat-geometry",
+          "icon": "triangle",
+          "vi": "Geometry and Trigonometry",
+          "en": "Geometry and Trigonometry",
+          "summary": {
+            "vi": "Diện tích, thể tích, tam giác, lượng giác và đường tròn.",
+            "en": "Area, volume, triangles, trigonometry and circles."
+          },
+          "lessons": [
+            {
+              "id": "sat-area-volume-lines-angles",
+              "vi": "Diện tích, thể tích, đường thẳng và góc",
+              "en": "Area, volume, lines and angles",
+              "minutes": 35
+            },
+            {
+              "id": "sat-triangles-trig-circles",
+              "vi": "Tam giác, lượng giác và đường tròn",
+              "en": "Triangles, trigonometry and circles",
+              "minutes": 40
+            }
+          ]
+        },
+        {
+          "id": "sat-practice",
+          "icon": "star",
+          "vi": "Đề luyện SAT Math",
+          "en": "SAT Math practice tests",
+          "summary": {
+            "vi": "Đề luyện đủ 2 module, có đáp án và lời giải.",
+            "en": "Full two-module practice tests with answers and solutions."
+          },
+          "lessons": [
+            {
+              "id": "sat-practice-test-1",
+              "vi": "Đề luyện SAT Math số 1",
+              "en": "SAT Math practice test 1",
+              "minutes": 70
+            },
+            {
+              "id": "sat-practice-test-2",
+              "vi": "Đề luyện SAT Math số 2",
+              "en": "SAT Math practice test 2",
+              "minutes": 70
+            }
+          ]
+        }
+      ],
+      "status": "roadmap"
+    },
+    {
+      "id": "act",
+      "group": "intl",
+      "icon": "number",
+      "vi": "ACT Math",
+      "en": "ACT Math",
+      "facts": {
+        "vi": "ACT mới từ 2025: 45 câu trong 50 phút, 4 phương án, được dùng máy tính.",
+        "en": "Enhanced ACT (from 2025): 45 questions in 50 minutes, 4 options, calculator allowed."
+      },
+      "summary": {
+        "vi": "Số học, đại số, hàm số, hình học, thống kê và mô hình hoá theo ACT mới.",
+        "en": "Number, algebra, functions, geometry, statistics and modelling for the enhanced ACT."
+      },
+      "chapters": [
+        {
+          "id": "act-start",
+          "icon": "star",
+          "vi": "Làm quen với ACT Math",
+          "en": "Getting started with ACT Math",
+          "summary": {
+            "vi": "Cấu trúc ACT mới, chiến thuật thời gian, so sánh với SAT.",
+            "en": "The enhanced ACT format, pacing and how it compares with the SAT."
+          },
+          "lessons": [
+            {
+              "id": "act-overview",
+              "vi": "ACT Math gồm những gì và cách ôn",
+              "en": "What ACT Math tests and how to prepare",
+              "minutes": 25
+            }
+          ]
+        },
+        {
+          "id": "act-topics",
+          "icon": "equation",
+          "vi": "Ôn theo chủ đề",
+          "en": "Topic revision",
+          "summary": {
+            "vi": "Các mảng kiến thức chính của ACT Math.",
+            "en": "The main content areas of ACT Math."
+          },
+          "lessons": [
+            {
+              "id": "act-number-quantity",
+              "vi": "Số, đại lượng và tỉ lệ",
+              "en": "Number, quantity and proportion",
+              "minutes": 35
+            },
+            {
+              "id": "act-algebra-functions",
+              "vi": "Đại số và hàm số",
+              "en": "Algebra and functions",
+              "minutes": 40
+            },
+            {
+              "id": "act-geometry",
+              "vi": "Hình học phẳng, toạ độ và lượng giác",
+              "en": "Geometry, coordinates and trigonometry",
+              "minutes": 40
+            },
+            {
+              "id": "act-statistics-probability",
+              "vi": "Thống kê và xác suất",
+              "en": "Statistics and probability",
+              "minutes": 35
+            },
+            {
+              "id": "act-modelling-integrating",
+              "vi": "Mô hình hoá và bài tổng hợp",
+              "en": "Modelling and integrating skills",
+              "minutes": 35
+            }
+          ]
+        },
+        {
+          "id": "act-practice",
+          "icon": "star",
+          "vi": "Đề luyện ACT Math",
+          "en": "ACT Math practice test",
+          "summary": {
+            "vi": "Đề 45 câu, 50 phút, có lời giải.",
+            "en": "A 45-question, 50-minute test with solutions."
+          },
+          "lessons": [
+            {
+              "id": "act-practice-test-1",
+              "vi": "Đề luyện ACT Math số 1",
+              "en": "ACT Math practice test 1",
+              "minutes": 50
+            }
+          ]
+        }
+      ],
+      "status": "roadmap"
+    },
+    {
+      "id": "ap-precalculus",
+      "group": "intl",
+      "icon": "function",
+      "vi": "AP Precalculus",
+      "en": "AP Precalculus",
+      "facts": {
+        "vi": "Kì thi tháng 5/2027: 42 câu trắc nghiệm (105 phút) và 4 câu tự luận (70 phút); thi Unit 1–3.",
+        "en": "May 2027: 42 multiple choice (105 min) and 4 free response (70 min); Units 1–3 assessed."
+      },
+      "summary": {
+        "vi": "Hàm đa thức, hữu tỉ, mũ, logarit, lượng giác và toạ độ cực.",
+        "en": "Polynomial, rational, exponential, logarithmic, trigonometric and polar functions."
+      },
+      "chapters": [
+        {
+          "id": "apprecalc-start",
+          "icon": "star",
+          "vi": "Làm quen với AP Precalculus",
+          "en": "Getting started with AP Precalculus",
+          "summary": {
+            "vi": "Cấu trúc đề, thang điểm 1–5, cách học.",
+            "en": "Format, the 1–5 scale and how to study."
+          },
+          "lessons": [
+            {
+              "id": "apprecalc-overview",
+              "vi": "AP Precalculus gồm những gì và cách ôn",
+              "en": "What AP Precalculus tests and how to prepare",
+              "minutes": 25
+            }
+          ]
+        },
+        {
+          "id": "apprecalc-unit1",
+          "icon": "function",
+          "vi": "Unit 1: Hàm đa thức và hữu tỉ",
+          "en": "Unit 1: Polynomial and rational functions",
+          "summary": {
+            "vi": "Tốc độ biến thiên, hàm đa thức, hàm hữu tỉ, phép biến đổi đồ thị.",
+            "en": "Rates of change, polynomial and rational functions, transformations."
+          },
+          "lessons": [
+            {
+              "id": "apprecalc-rates-polynomials",
+              "vi": "Tốc độ biến thiên và hàm đa thức",
+              "en": "Rates of change and polynomial functions",
+              "minutes": 40
+            },
+            {
+              "id": "apprecalc-rational-transformations",
+              "vi": "Hàm hữu tỉ, phép biến đổi và mô hình hoá",
+              "en": "Rational functions, transformations and modelling",
+              "minutes": 40
+            }
+          ]
+        },
+        {
+          "id": "apprecalc-unit2",
+          "icon": "chart",
+          "vi": "Unit 2: Hàm mũ và logarit",
+          "en": "Unit 2: Exponential and logarithmic functions",
+          "summary": {
+            "vi": "Dãy số, hàm mũ, hàm hợp, hàm ngược, logarit, đồ thị bán logarit.",
+            "en": "Sequences, exponentials, composition, inverses, logarithms and semi-log plots."
+          },
+          "lessons": [
+            {
+              "id": "apprecalc-sequences-exponentials",
+              "vi": "Cấp số và hàm mũ",
+              "en": "Sequences and exponential functions",
+              "minutes": 40
+            },
+            {
+              "id": "apprecalc-logarithms-semilog",
+              "vi": "Hàm ngược, logarit và đồ thị bán logarit",
+              "en": "Inverses, logarithms and semi-log plots",
+              "minutes": 40
+            }
+          ]
+        },
+        {
+          "id": "apprecalc-unit3",
+          "icon": "angle",
+          "vi": "Unit 3: Hàm lượng giác và toạ độ cực",
+          "en": "Unit 3: Trigonometric and polar functions",
+          "summary": {
+            "vi": "Hiện tượng tuần hoàn, hàm sin, cos, tan, phương trình lượng giác, toạ độ cực.",
+            "en": "Periodic phenomena, sine, cosine, tangent, trig equations and polar coordinates."
+          },
+          "lessons": [
+            {
+              "id": "apprecalc-trig-functions-modelling",
+              "vi": "Hàm lượng giác và mô hình tuần hoàn",
+              "en": "Trigonometric functions and periodic models",
+              "minutes": 40
+            },
+            {
+              "id": "apprecalc-trig-equations-polar",
+              "vi": "Phương trình lượng giác và toạ độ cực",
+              "en": "Trigonometric equations and polar functions",
+              "minutes": 40
+            }
+          ]
+        },
+        {
+          "id": "apprecalc-exam",
+          "icon": "star",
+          "vi": "Tự luận và đề luyện",
+          "en": "Free response and practice exam",
+          "summary": {
+            "vi": "Bốn dạng câu tự luận và một đề luyện đầy đủ.",
+            "en": "The four free-response types and a full practice exam."
+          },
+          "lessons": [
+            {
+              "id": "apprecalc-frq-strategies",
+              "vi": "Bốn dạng câu tự luận và cách đạt điểm",
+              "en": "The four free-response types and how to score",
+              "minutes": 35
+            },
+            {
+              "id": "apprecalc-practice-exam-1",
+              "vi": "Đề luyện AP Precalculus số 1",
+              "en": "AP Precalculus practice exam 1",
+              "minutes": 90
+            }
+          ]
+        }
+      ],
+      "status": "roadmap"
+    },
+    {
+      "id": "ap-calculus",
+      "group": "intl",
+      "icon": "integral",
+      "vi": "AP Calculus AB/BC",
+      "en": "AP Calculus AB/BC",
+      "facts": {
+        "vi": "Kì thi 10/5/2027: 42 câu trắc nghiệm (100 phút) và 6 câu tự luận (90 phút); có phần không dùng máy tính.",
+        "en": "10 May 2027: 42 multiple choice (100 min) and 6 free response (90 min); calculator and no-calculator parts."
+      },
+      "summary": {
+        "vi": "Giới hạn, đạo hàm, tích phân, phương trình vi phân; BC thêm tham số, cực và chuỗi.",
+        "en": "Limits, derivatives, integrals and differential equations; BC adds parametric, polar and series."
+      },
+      "chapters": [
+        {
+          "id": "apcalc-start",
+          "icon": "star",
+          "vi": "Làm quen với AP Calculus",
+          "en": "Getting started with AP Calculus",
+          "summary": {
+            "vi": "AB khác BC thế nào, cấu trúc đề, cách học.",
+            "en": "How AB differs from BC, the exam format and how to study."
+          },
+          "lessons": [
+            {
+              "id": "apcalc-overview",
+              "vi": "AP Calculus AB/BC gồm những gì và cách ôn",
+              "en": "What AP Calculus AB/BC tests and how to prepare",
+              "minutes": 25
+            }
+          ]
+        },
+        {
+          "id": "apcalc-differential",
+          "icon": "function",
+          "vi": "Giới hạn và đạo hàm",
+          "en": "Limits and differentiation",
+          "summary": {
+            "vi": "Unit 1–5: giới hạn, liên tục, quy tắc đạo hàm và ứng dụng.",
+            "en": "Units 1–5: limits, continuity, rules of differentiation and applications."
+          },
+          "lessons": [
+            {
+              "id": "apcalc-limits-continuity",
+              "vi": "Giới hạn và tính liên tục",
+              "en": "Limits and continuity",
+              "minutes": 40
+            },
+            {
+              "id": "apcalc-differentiation-rules",
+              "vi": "Định nghĩa đạo hàm và các quy tắc tính",
+              "en": "The derivative and differentiation rules",
+              "minutes": 40
+            },
+            {
+              "id": "apcalc-implicit-inverse",
+              "vi": "Đạo hàm hàm hợp, hàm ẩn và hàm ngược",
+              "en": "Chain rule, implicit and inverse functions",
+              "minutes": 40
+            },
+            {
+              "id": "apcalc-contextual-applications",
+              "vi": "Tốc độ liên quan, chuyển động và xấp xỉ tuyến tính",
+              "en": "Related rates, motion and linear approximation",
+              "minutes": 40
+            },
+            {
+              "id": "apcalc-analytical-applications",
+              "vi": "Định lí giá trị trung bình, cực trị và khảo sát",
+              "en": "Mean value theorem, extrema and curve analysis",
+              "minutes": 40
+            }
+          ]
+        },
+        {
+          "id": "apcalc-integral",
+          "icon": "integral",
+          "vi": "Tích phân và phương trình vi phân",
+          "en": "Integration and differential equations",
+          "summary": {
+            "vi": "Unit 6–8: tích luỹ, kĩ thuật tích phân, phương trình vi phân, diện tích và thể tích.",
+            "en": "Units 6–8: accumulation, integration techniques, differential equations, area and volume."
+          },
+          "lessons": [
+            {
+              "id": "apcalc-accumulation-ftc",
+              "vi": "Tích phân, tổng Riemann và định lí cơ bản",
+              "en": "Riemann sums, accumulation and the fundamental theorem",
+              "minutes": 40
+            },
+            {
+              "id": "apcalc-integration-techniques",
+              "vi": "Kĩ thuật tính tích phân",
+              "en": "Integration techniques",
+              "minutes": 40
+            },
+            {
+              "id": "apcalc-differential-equations",
+              "vi": "Phương trình vi phân và trường hướng",
+              "en": "Differential equations and slope fields",
+              "minutes": 40
+            },
+            {
+              "id": "apcalc-area-volume",
+              "vi": "Diện tích, thể tích và giá trị trung bình",
+              "en": "Area, volume and average value",
+              "minutes": 40
+            }
+          ]
+        },
+        {
+          "id": "apcalc-bc",
+          "icon": "sigma",
+          "vi": "Phần riêng của BC",
+          "en": "BC-only topics",
+          "summary": {
+            "vi": "Unit 9–10: tham số, véc-tơ, toạ độ cực, chuỗi vô hạn.",
+            "en": "Units 9–10: parametric, vector-valued and polar functions, infinite series."
+          },
+          "lessons": [
+            {
+              "id": "apcalc-bc-parametric-polar",
+              "vi": "Hàm tham số, hàm véc-tơ và toạ độ cực",
+              "en": "Parametric, vector-valued and polar functions",
+              "minutes": 40
+            },
+            {
+              "id": "apcalc-bc-series",
+              "vi": "Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa",
+              "en": "Infinite series, Taylor and power series",
+              "minutes": 45
+            }
+          ]
+        },
+        {
+          "id": "apcalc-exam",
+          "icon": "star",
+          "vi": "Tự luận và đề luyện",
+          "en": "Free response and practice exams",
+          "summary": {
+            "vi": "Các dạng câu tự luận quen thuộc và đề luyện AB, BC.",
+            "en": "Common free-response types and AB and BC practice exams."
+          },
+          "lessons": [
+            {
+              "id": "apcalc-frq-strategies",
+              "vi": "Các dạng câu tự luận AP Calculus và cách trình bày",
+              "en": "AP Calculus free-response types and how to write them",
+              "minutes": 35
+            },
+            {
+              "id": "apcalc-practice-exam-ab",
+              "vi": "Đề luyện AP Calculus AB",
+              "en": "AP Calculus AB practice exam",
+              "minutes": 100
+            },
+            {
+              "id": "apcalc-practice-exam-bc",
+              "vi": "Đề luyện AP Calculus BC",
+              "en": "AP Calculus BC practice exam",
+              "minutes": 100
+            }
+          ]
+        }
+      ],
+      "status": "roadmap"
+    },
+    {
+      "id": "ap-statistics",
+      "group": "intl",
+      "icon": "dice",
+      "vi": "AP Statistics",
+      "en": "AP Statistics",
+      "facts": {
+        "vi": "Từ tháng 5/2027 thi hoàn toàn trên máy: 42 câu trắc nghiệm (90 phút) và 4 câu tự luận 10 điểm (90 phút).",
+        "en": "From May 2027 fully digital: 42 multiple choice (90 min) and four 10-point free-response questions (90 min)."
+      },
+      "summary": {
+        "vi": "Khám phá dữ liệu, thu thập dữ liệu, xác suất, phân phối mẫu và suy luận thống kê.",
+        "en": "Exploring data, collecting data, probability, sampling distributions and inference."
+      },
+      "chapters": [
+        {
+          "id": "apstats-start",
+          "icon": "star",
+          "vi": "Làm quen với AP Statistics",
+          "en": "Getting started with AP Statistics",
+          "summary": {
+            "vi": "Khung chương trình mới 2026–27, cấu trúc đề và cách viết câu trả lời.",
+            "en": "The revised 2026–27 framework, the exam format and how to write answers."
+          },
+          "lessons": [
+            {
+              "id": "apstats-overview",
+              "vi": "AP Statistics gồm những gì và cách ôn",
+              "en": "What AP Statistics tests and how to prepare",
+              "minutes": 25
+            }
+          ]
+        },
+        {
+          "id": "apstats-data",
+          "icon": "chart",
+          "vi": "Dữ liệu và thu thập dữ liệu",
+          "en": "Data and data collection",
+          "summary": {
+            "vi": "Câu hỏi khảo sát, dữ liệu một biến, hai biến, chọn mẫu và thí nghiệm.",
+            "en": "Investigative questions, one- and two-variable data, sampling and experiments."
+          },
+          "lessons": [
+            {
+              "id": "apstats-one-variable-data",
+              "vi": "Mô tả dữ liệu một biến",
+              "en": "Describing one-variable data",
+              "minutes": 40
+            },
+            {
+              "id": "apstats-two-variable-regression",
+              "vi": "Dữ liệu hai biến và hồi quy tuyến tính",
+              "en": "Two-variable data and linear regression",
+              "minutes": 40
+            },
+            {
+              "id": "apstats-collecting-data",
+              "vi": "Chọn mẫu, nghiên cứu quan sát và thí nghiệm",
+              "en": "Sampling, observational studies and experiments",
+              "minutes": 40
+            }
+          ]
+        },
+        {
+          "id": "apstats-probability",
+          "icon": "dice",
+          "vi": "Xác suất và phân phối mẫu",
+          "en": "Probability and sampling distributions",
+          "summary": {
+            "vi": "Xác suất, biến ngẫu nhiên, phân phối nhị thức, chuẩn và phân phối mẫu.",
+            "en": "Probability, random variables, binomial and normal models, sampling distributions."
+          },
+          "lessons": [
+            {
+              "id": "apstats-probability-random-variables",
+              "vi": "Xác suất và biến ngẫu nhiên",
+              "en": "Probability and random variables",
+              "minutes": 40
+            },
+            {
+              "id": "apstats-sampling-distributions",
+              "vi": "Phân phối chuẩn và phân phối mẫu",
+              "en": "Normal models and sampling distributions",
+              "minutes": 40
+            }
+          ]
+        },
+        {
+          "id": "apstats-inference",
+          "icon": "scale",
+          "vi": "Suy luận thống kê",
+          "en": "Statistical inference",
+          "summary": {
+            "vi": "Khoảng tin cậy và kiểm định cho tỉ lệ và trung bình.",
+            "en": "Confidence intervals and significance tests for proportions and means."
+          },
+          "lessons": [
+            {
+              "id": "apstats-inference-proportions",
+              "vi": "Suy luận cho tỉ lệ",
+              "en": "Inference for proportions",
+              "minutes": 45
+            },
+            {
+              "id": "apstats-inference-means",
+              "vi": "Suy luận cho trung bình",
+              "en": "Inference for means",
+              "minutes": 45
+            }
+          ]
+        },
+        {
+          "id": "apstats-exam",
+          "icon": "star",
+          "vi": "Tự luận và đề luyện",
+          "en": "Free response and practice exam",
+          "summary": {
+            "vi": "Bốn dạng câu tự luận mới và một đề luyện.",
+            "en": "The four new free-response types and a practice exam."
+          },
+          "lessons": [
+            {
+              "id": "apstats-frq-strategies",
+              "vi": "Bốn dạng câu tự luận mới và cách viết lời giải",
+              "en": "The four new free-response types and how to answer",
+              "minutes": 35
+            },
+            {
+              "id": "apstats-practice-exam-1",
+              "vi": "Đề luyện AP Statistics số 1",
+              "en": "AP Statistics practice exam 1",
+              "minutes": 90
+            }
+          ]
+        }
+      ],
+      "status": "roadmap"
+    },
+    {
+      "id": "ib-aa",
+      "group": "intl",
+      "icon": "sigma",
+      "vi": "IB Math AA (SL/HL)",
+      "en": "IB Maths AA (SL/HL)",
+      "facts": {
+        "vi": "SL: Paper 1 (không máy tính) và Paper 2, mỗi bài 40%; HL thêm Paper 3; bài khám phá (IA) 20%.",
+        "en": "SL: Paper 1 (no calculator) and Paper 2, 40% each; HL adds Paper 3; the exploration (IA) is 20%."
+      },
+      "summary": {
+        "vi": "Số và đại số, hàm số, hình học – lượng giác, thống kê – xác suất, giải tích; phần mở rộng HL.",
+        "en": "Number and algebra, functions, geometry and trigonometry, statistics and probability, calculus; HL extensions."
+      },
+      "chapters": [
+        {
+          "id": "ibaa-start",
+          "icon": "star",
+          "vi": "Làm quen với IB Math AA",
+          "en": "Getting started with IB Maths AA",
+          "summary": {
+            "vi": "Cấu trúc các bài thi, SL và HL, cách ôn.",
+            "en": "The papers, SL versus HL and how to revise."
+          },
+          "lessons": [
+            {
+              "id": "ibaa-overview",
+              "vi": "IB Math AA gồm những gì và cách ôn",
+              "en": "What IB Maths AA assesses and how to revise",
+              "minutes": 25
+            }
+          ]
+        },
+        {
+          "id": "ibaa-core",
+          "icon": "function",
+          "vi": "Nội dung chung SL và HL",
+          "en": "SL and HL core",
+          "summary": {
+            "vi": "Năm chủ đề lớn của chương trình.",
+            "en": "The five syllabus topics."
+          },
+          "lessons": [
+            {
+              "id": "ibaa-number-algebra",
+              "vi": "Số và đại số: cấp số, logarit, nhị thức, chứng minh",
+              "en": "Number and algebra: sequences, logarithms, binomial, proof",
+              "minutes": 40
+            },
+            {
+              "id": "ibaa-functions",
+              "vi": "Hàm số: đồ thị, phép biến đổi, hàm ngược",
+              "en": "Functions: graphs, transformations, inverses",
+              "minutes": 40
+            },
+            {
+              "id": "ibaa-geometry-trigonometry",
+              "vi": "Hình học và lượng giác",
+              "en": "Geometry and trigonometry",
+              "minutes": 40
+            },
+            {
+              "id": "ibaa-statistics-probability",
+              "vi": "Thống kê và xác suất",
+              "en": "Statistics and probability",
+              "minutes": 40
+            },
+            {
+              "id": "ibaa-calculus",
+              "vi": "Giải tích: đạo hàm, tích phân, động học",
+              "en": "Calculus: differentiation, integration, kinematics",
+              "minutes": 45
+            }
+          ]
+        },
+        {
+          "id": "ibaa-hl",
+          "icon": "integral",
+          "vi": "Phần mở rộng HL",
+          "en": "HL extension",
+          "summary": {
+            "vi": "Số phức, quy nạp, véc-tơ không gian, giải tích nâng cao.",
+            "en": "Complex numbers, induction, 3D vectors, further calculus."
+          },
+          "lessons": [
+            {
+              "id": "ibaa-hl-complex-proof",
+              "vi": "Số phức, quy nạp và chứng minh",
+              "en": "Complex numbers, induction and proof",
+              "minutes": 45
+            },
+            {
+              "id": "ibaa-hl-vectors",
+              "vi": "Véc-tơ, đường thẳng và mặt phẳng",
+              "en": "Vectors, lines and planes",
+              "minutes": 40
+            },
+            {
+              "id": "ibaa-hl-further-calculus",
+              "vi": "Giải tích nâng cao: chuỗi Maclaurin, phương trình vi phân",
+              "en": "Further calculus: Maclaurin series and differential equations",
+              "minutes": 45
+            }
+          ]
+        },
+        {
+          "id": "ibaa-exam",
+          "icon": "star",
+          "vi": "Kĩ năng thi và đề luyện",
+          "en": "Exam skills and practice papers",
+          "summary": {
+            "vi": "Paper 3, bài khám phá (IA) và đề luyện SL, HL.",
+            "en": "Paper 3, the exploration (IA) and SL and HL practice papers."
+          },
+          "lessons": [
+            {
+              "id": "ibaa-paper3-exploration",
+              "vi": "Paper 3 và bài khám phá toán học (IA)",
+              "en": "Paper 3 and the mathematical exploration (IA)",
+              "minutes": 35
+            },
+            {
+              "id": "ibaa-practice-paper-sl",
+              "vi": "Đề luyện IB Math AA SL",
+              "en": "IB Maths AA SL practice paper",
+              "minutes": 90
+            },
+            {
+              "id": "ibaa-practice-paper-hl",
+              "vi": "Đề luyện IB Math AA HL",
+              "en": "IB Maths AA HL practice paper",
+              "minutes": 120
+            }
+          ]
+        }
+      ],
+      "status": "roadmap"
+    },
+    {
+      "id": "ib-ai",
+      "group": "intl",
+      "icon": "coordinate",
+      "vi": "IB Math AI (SL/HL)",
+      "en": "IB Maths AI (SL/HL)",
+      "facts": {
+        "vi": "Mọi bài thi đều dùng máy tính đồ thị; SL 2 bài (40% + 40%), HL 3 bài; IA 20%.",
+        "en": "Every paper uses a graphic display calculator; SL 2 papers (40% + 40%), HL 3 papers; IA 20%."
+      },
+      "summary": {
+        "vi": "Toán ứng dụng: tài chính, mô hình hàm số, thống kê, kiểm định, giải tích, đồ thị và ma trận.",
+        "en": "Applied maths: finance, function models, statistics, hypothesis tests, calculus, graphs and matrices."
+      },
+      "chapters": [
+        {
+          "id": "ibai-start",
+          "icon": "star",
+          "vi": "Làm quen với IB Math AI",
+          "en": "Getting started with IB Maths AI",
+          "summary": {
+            "vi": "Cấu trúc bài thi và cách dùng máy tính đồ thị.",
+            "en": "The papers and how to use the graphic display calculator."
+          },
+          "lessons": [
+            {
+              "id": "ibai-overview",
+              "vi": "IB Math AI gồm những gì và cách ôn",
+              "en": "What IB Maths AI assesses and how to revise",
+              "minutes": 25
+            }
+          ]
+        },
+        {
+          "id": "ibai-core",
+          "icon": "chart",
+          "vi": "Nội dung chung SL và HL",
+          "en": "SL and HL core",
+          "summary": {
+            "vi": "Các chủ đề ứng dụng chính.",
+            "en": "The main applied topics."
+          },
+          "lessons": [
+            {
+              "id": "ibai-number-finance",
+              "vi": "Số, xấp xỉ và toán tài chính",
+              "en": "Number, approximation and financial maths",
+              "minutes": 40
+            },
+            {
+              "id": "ibai-function-models",
+              "vi": "Mô hình hàm số",
+              "en": "Function models",
+              "minutes": 40
+            },
+            {
+              "id": "ibai-geometry-voronoi",
+              "vi": "Hình học, lượng giác và sơ đồ Voronoi",
+              "en": "Geometry, trigonometry and Voronoi diagrams",
+              "minutes": 40
+            },
+            {
+              "id": "ibai-statistics-tests",
+              "vi": "Thống kê, tương quan và kiểm định",
+              "en": "Statistics, correlation and hypothesis tests",
+              "minutes": 45
+            },
+            {
+              "id": "ibai-calculus",
+              "vi": "Giải tích ứng dụng",
+              "en": "Applied calculus",
+              "minutes": 40
+            }
+          ]
+        },
+        {
+          "id": "ibai-hl",
+          "icon": "coordinate",
+          "vi": "Phần mở rộng HL",
+          "en": "HL extension",
+          "summary": {
+            "vi": "Ma trận, đồ thị (lí thuyết đồ thị), thống kê nâng cao.",
+            "en": "Matrices, graph theory, further statistics."
+          },
+          "lessons": [
+            {
+              "id": "ibai-hl-matrices-graphs",
+              "vi": "Ma trận và lí thuyết đồ thị",
+              "en": "Matrices and graph theory",
+              "minutes": 45
+            },
+            {
+              "id": "ibai-hl-further-statistics",
+              "vi": "Thống kê nâng cao và phương trình vi phân",
+              "en": "Further statistics and differential equations",
+              "minutes": 45
+            }
+          ]
+        },
+        {
+          "id": "ibai-exam",
+          "icon": "star",
+          "vi": "Đề luyện",
+          "en": "Practice paper",
+          "summary": {
+            "vi": "Đề luyện theo cấu trúc Paper 1, Paper 2.",
+            "en": "A practice paper in the style of Papers 1 and 2."
+          },
+          "lessons": [
+            {
+              "id": "ibai-practice-paper-sl",
+              "vi": "Đề luyện IB Math AI SL",
+              "en": "IB Maths AI SL practice paper",
+              "minutes": 90
+            }
+          ]
+        }
+      ],
+      "status": "roadmap"
+    },
+    {
+      "id": "igcse",
+      "group": "intl",
+      "icon": "ruler",
+      "vi": "Cambridge IGCSE Mathematics (0580)",
+      "en": "Cambridge IGCSE Mathematics (0580)",
+      "facts": {
+        "vi": "Từ 2025: mỗi cấp 2 bài, một bài không máy tính và một bài có máy tính (Extended: 2 giờ/bài).",
+        "en": "From 2025: two papers per tier, one non-calculator and one calculator (Extended: 2 hours each)."
+      },
+      "summary": {
+        "vi": "Số, đại số và đồ thị, toạ độ, hình học, đo lường, lượng giác, véc-tơ, xác suất, thống kê.",
+        "en": "Number, algebra and graphs, coordinates, geometry, mensuration, trigonometry, vectors, probability, statistics."
+      },
+      "chapters": [
+        {
+          "id": "igcse-start",
+          "icon": "star",
+          "vi": "Làm quen với IGCSE Mathematics",
+          "en": "Getting started with IGCSE Mathematics",
+          "summary": {
+            "vi": "Core và Extended, cấu trúc bài thi mới từ 2025.",
+            "en": "Core and Extended, the new paper structure from 2025."
+          },
+          "lessons": [
+            {
+              "id": "igcse-overview",
+              "vi": "IGCSE Mathematics gồm những gì và cách ôn",
+              "en": "What IGCSE Mathematics tests and how to revise",
+              "minutes": 25
+            }
+          ]
+        },
+        {
+          "id": "igcse-topics",
+          "icon": "number",
+          "vi": "Ôn theo chủ đề (Extended)",
+          "en": "Topic revision (Extended)",
+          "summary": {
+            "vi": "Chín mảng nội dung của chương trình 0580.",
+            "en": "The nine content areas of the 0580 syllabus."
+          },
+          "lessons": [
+            {
+              "id": "igcse-number",
+              "vi": "Số: phân số, phần trăm, chỉ số, cận trên – cận dưới",
+              "en": "Number: fractions, percentages, indices, bounds",
+              "minutes": 35
+            },
+            {
+              "id": "igcse-algebra-graphs",
+              "vi": "Đại số và đồ thị",
+              "en": "Algebra and graphs",
+              "minutes": 40
+            },
+            {
+              "id": "igcse-coordinate-geometry",
+              "vi": "Hình học toạ độ",
+              "en": "Coordinate geometry",
+              "minutes": 35
+            },
+            {
+              "id": "igcse-geometry",
+              "vi": "Hình học: góc, đồng dạng, định lí đường tròn",
+              "en": "Geometry: angles, similarity, circle theorems",
+              "minutes": 40
+            },
+            {
+              "id": "igcse-mensuration",
+              "vi": "Đo lường: chu vi, diện tích, thể tích",
+              "en": "Mensuration: perimeter, area, volume",
+              "minutes": 35
+            },
+            {
+              "id": "igcse-trigonometry",
+              "vi": "Lượng giác",
+              "en": "Trigonometry",
+              "minutes": 40
+            },
+            {
+              "id": "igcse-transformations-vectors",
+              "vi": "Phép biến hình và véc-tơ",
+              "en": "Transformations and vectors",
+              "minutes": 35
+            },
+            {
+              "id": "igcse-probability-statistics",
+              "vi": "Xác suất và thống kê",
+              "en": "Probability and statistics",
+              "minutes": 40
+            }
+          ]
+        },
+        {
+          "id": "igcse-practice",
+          "icon": "star",
+          "vi": "Đề luyện",
+          "en": "Practice papers",
+          "summary": {
+            "vi": "Đề không máy tính và đề có máy tính (Extended).",
+            "en": "Non-calculator and calculator papers (Extended)."
+          },
+          "lessons": [
+            {
+              "id": "igcse-practice-paper-2",
+              "vi": "Đề luyện Paper 2 (không máy tính)",
+              "en": "Practice Paper 2 (non-calculator)",
+              "minutes": 120
+            },
+            {
+              "id": "igcse-practice-paper-4",
+              "vi": "Đề luyện Paper 4 (có máy tính)",
+              "en": "Practice Paper 4 (calculator)",
+              "minutes": 120
+            }
+          ]
+        }
+      ],
+      "status": "roadmap"
+    },
+    {
+      "id": "study-skills",
+      "group": "skills",
+      "icon": "star",
+      "vi": "Kĩ năng ôn thi",
+      "en": "Study and exam skills",
+      "facts": {
+        "vi": "Dùng cho mọi kì thi: cách học đã được nghiên cứu kiểm chứng.",
+        "en": "For every exam: study methods backed by research."
+      },
+      "summary": {
+        "vi": "Học chủ động, lập kế hoạch, sổ lỗi sai, chiến thuật phòng thi, giữ bình tĩnh.",
+        "en": "Active study, planning, an error log, exam-room tactics and staying calm."
+      },
+      "chapters": [
+        {
+          "id": "skills-core",
+          "icon": "star",
+          "vi": "Ôn thi thông minh",
+          "en": "Revising smartly",
+          "summary": {
+            "vi": "Những điều chuyên gia và nghiên cứu khuyên làm trước và trong kì thi.",
+            "en": "What research and experienced examiners recommend before and during an exam."
+          },
+          "lessons": [
+            {
+              "id": "evidence-based-revision",
+              "vi": "Ôn thi theo khoa học: những cách học đã được kiểm chứng",
+              "en": "Revision that works: study methods backed by research",
+              "minutes": 25
+            },
+            {
+              "id": "revision-plan",
+              "vi": "Lập kế hoạch ôn thi 12 tuần",
+              "en": "Building a 12-week revision plan",
+              "minutes": 20
+            },
+            {
+              "id": "error-log",
+              "vi": "Sổ lỗi sai: biến mỗi lỗi thành điểm số",
+              "en": "The error log: turning mistakes into marks",
+              "minutes": 20
+            },
+            {
+              "id": "exam-day-strategy",
+              "vi": "Chiến thuật trong phòng thi",
+              "en": "Strategy in the exam room",
+              "minutes": 20
+            },
+            {
+              "id": "calculator-skills",
+              "vi": "Dùng máy tính cầm tay và Desmos thông minh",
+              "en": "Using calculators and Desmos wisely",
+              "minutes": 25
+            },
+            {
+              "id": "calm-under-pressure",
+              "vi": "Giữ bình tĩnh: giấc ngủ, căng thẳng và phong độ",
+              "en": "Staying calm: sleep, stress and performance",
+              "minutes": 20
+            }
+          ]
+        }
+      ],
+      "status": "roadmap"
+    }
   ]
 }

@@ -1,0 +1,52 @@
+GIAO VIỆC LEMONMATH – GÓI ÔN THI O09: IB Math AA (SL/HL)
+Phân công ngày 11/11/2026. Số bài: 6 bài song ngữ, mã E061–E066. File lưu vào: content/vi/exams/ib-aa/ và content/en/exams/ib-aa/
+Bạn là giáo viên toán tận tâm, viết bài ÔN THI song ngữ Việt–Anh cho mục "Ôn thi" của lemonmath.com.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết file đính kèm: BRIEF-exams.md, WRITING-SPEC.md, GLOSSARY.md và cặp bài mẫu. Chép đúng cú pháp các khung :::goals, :::theorem, :::example, :::warning, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key).
+2. Mỗi bài = 2 file cùng tên <id>.md: bản Việt và bản Anh, CÙNG cấu trúc, cùng số liệu. Đầu file: title (đúng tên trong danh sách), description (tối đa 155 kí tự), minutes.
+3. Có 3 loại bài (xem BRIEF-exams.md):
+   a) Bài "…gồm những gì và cách ôn" và bài kĩ năng: thêm dòng "type: guide" ở đầu file.
+   b) Bài chủ đề: Lí thuyết trọng tâm → Ví dụ minh hoạ đúng kiểu câu hỏi của kì thi (ít nhất 4) → "## Bài tập tương tự" (5 bài, mỗi bài bám một ví dụ) → "## Bài tập vận dụng" (4–5 bài tình huống mới, có bài thực tế) → Mẹo và bẫy thường gặp → Thuật ngữ → Kiểm tra mini (4 ::mc, 1 ::tf, 2 ::sa).
+   c) Đề luyện: đúng số câu và thời gian của kì thi. Đề trắc nghiệm (SAT, ACT, phần trắc nghiệm AP): "type: test", câu hỏi nằm trong MỘT hộp ":::quiz test" (chỉ ::mc và ::sa, mỗi câu có ::key và lời giải); câu tự luận AP viết tiếp bằng :::exercise. Đề tự luận (IB, IGCSE): "type: exam", mỗi câu một hộp :::exercise có ::hint và ::solution, ít nhất 10 câu.
+4. Bản tiếng Anh là bản CHÍNH với kì thi quốc tế: dùng đúng thuật ngữ và cách hỏi của kì thi đó (ví dụ "Which of the following…", "Find the value of k"). Bản Việt giữ thuật ngữ tiếng Anh trong ngoặc ở lần đầu: "hệ số góc (slope)".
+5. Chỉ dùng DỮ KIỆN VỀ KÌ THI ghi trong file này (đã kiểm chứng tháng 11/2026). Không thêm số câu, thời gian, tỉ lệ, ngày thi, điểm chuẩn từ trí nhớ. Câu nào không chắc thì viết "xem trang chính thức của kì thi".
+6. Mọi câu hỏi tự soạn, KHÔNG chép đề thật hay sách luyện thi. Không dùng tên, logo kì thi như thể Lemonmath là đơn vị tổ chức.
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu hỏi trước khi nộp. Đáp án A–D rải đều.
+8. Độ dài mỗi ngôn ngữ: bài hướng dẫn 900–1.500 từ; bài chủ đề 1.800–3.000 từ. Xưng "bạn", giải thích dùng "ta".
+
+CÁCH NỘP
+- Viết lần lượt theo thứ tự mã. Mỗi bài xuất 2 file .md đặt tên đúng id (bản Anh tải về sẽ thành "<id> (1).md"). Hết hạn mức thì dừng ở cuối một bài trọn vẹn, lần sau nhắn "viết tiếp bài kế".
+
+DỮ KIỆN VỀ KÌ THI (đã kiểm chứng, chỉ dùng các dữ kiện này)
+IB Diploma Mathematics: Analysis and Approaches (chương trình hiện hành, kì thi cuối cùng tháng 11/2028; chương trình mới dạy từ 8/2027, thi lần đầu 5/2029):
+- SL: Paper 1 (90 phút, KHÔNG máy tính, 80 điểm, 40%); Paper 2 (90 phút, cần máy tính đồ thị GDC, 80 điểm, 40%); bài khám phá toán học (IA, 20 điểm, 20%).
+- HL: Paper 1 (120 phút, không máy tính, 110 điểm, 30%); Paper 2 (120 phút, GDC, 110 điểm, 30%); Paper 3 (GDC, 55 điểm, 20%, gồm 2 bài giải quyết vấn đề mở rộng; từ các kì thi 2025 thời lượng là 1 giờ 15 phút, tài liệu cũ ghi 1 giờ); IA 20%.
+- Paper 1 và 2 đều có Section A (câu ngắn) và Section B (câu dài). Có formula booklet. Phải trình bày lời giải: đáp số đúng mà không có lập luận có thể không được trọn điểm; sai đáp số vẫn có điểm phương pháp.
+- Thang điểm 1–7. Năm chủ đề: Number and algebra; Functions; Geometry and trigonometry; Statistics and probability; Calculus.
+- Kí hiệu IB: [n marks] sau mỗi ý; kết quả gần đúng lấy 3 chữ số có nghĩa trừ khi đề yêu cầu khác.
+
+
+===== DANH SÁCH BÀI (6 bài, viết theo thứ tự) =====
+
+[IB Math AA (SL/HL) – Phần mở rộng HL]
+E061  id: ibaa-hl-complex-proof
+      VI: Số phức, quy nạp và chứng minh
+      EN: Complex numbers, induction and proof
+E062  id: ibaa-hl-vectors
+      VI: Véc-tơ, đường thẳng và mặt phẳng
+      EN: Vectors, lines and planes
+E063  id: ibaa-hl-further-calculus
+      VI: Giải tích nâng cao: chuỗi Maclaurin, phương trình vi phân
+      EN: Further calculus: Maclaurin series and differential equations
+
+[IB Math AA (SL/HL) – Kĩ năng thi và đề luyện]
+E064  id: ibaa-paper3-exploration
+      VI: Paper 3 và bài khám phá toán học (IA)
+      EN: Paper 3 and the mathematical exploration (IA)
+E065  id: ibaa-practice-paper-sl
+      VI: Đề luyện IB Math AA SL
+      EN: IB Maths AA SL practice paper
+E066  id: ibaa-practice-paper-hl
+      VI: Đề luyện IB Math AA HL
+      EN: IB Maths AA HL practice paper

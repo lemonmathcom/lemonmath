@@ -40,10 +40,10 @@ const HINTS = { en: 'What you need and how to start', vi: 'Kiến thức và g�
 const QZ = {
   vi: { kind: 'Kiểm tra mini', examKind: 'Đề luyện thi', parts: ['Phần I. Trắc nghiệm nhiều phương án lựa chọn', 'Phần II. Trắc nghiệm đúng sai', 'Phần III. Trắc nghiệm trả lời ngắn'],
     q: 'Câu', T: 'Đúng', F: 'Sai', claim: 'Ý', answer: 'Đáp án', submit: 'Nộp bài và chấm điểm', retry: 'Làm lại', keys: 'Xem đáp án và giải thích',
-    saPh: 'Nhập đáp số', note: 'Chấm như đề thi tốt nghiệp THPT: Phần I mỗi câu 0,25 điểm; Phần II mỗi câu tối đa 1 điểm (đúng 1, 2, 3, 4 ý được 0,1; 0,25; 0,5; 1 điểm); Phần III mỗi câu 0,5 điểm.' },
+    saPh: 'Nhập đáp số', noteTest: 'Mỗi câu đúng được 1 điểm, câu sai không bị trừ điểm. Hãy bấm giờ như thi thật rồi mới nộp bài.', note: 'Chấm như đề thi tốt nghiệp THPT: Phần I mỗi câu 0,25 điểm; Phần II mỗi câu tối đa 1 điểm (đúng 1, 2, 3, 4 ý được 0,1; 0,25; 0,5; 1 điểm); Phần III mỗi câu 0,5 điểm.' },
   en: { kind: 'Mini test', examKind: 'Practice paper', parts: ['Part I. Multiple choice', 'Part II. True or false', 'Part III. Short answer'],
     q: 'Question', T: 'True', F: 'False', claim: 'Statement', answer: 'Answer', submit: 'Submit and mark', retry: 'Try again', keys: 'Show answers and explanations',
-    saPh: 'Type your answer', note: 'Marked like the Vietnamese graduation exam: Part I 0.25 points per question; Part II up to 1 point per question (1, 2, 3, 4 correct statements give 0.1, 0.25, 0.5, 1 point); Part III 0.5 points per question.' }
+    saPh: 'Type your answer', noteTest: 'One mark per correct answer and no penalty for wrong answers. Time yourself as in the real exam before you submit.', note: 'Marked like the Vietnamese graduation exam: Part I 0.25 points per question; Part II up to 1 point per question (1, 2, 3, 4 correct statements give 0.1, 0.25, 0.5, 1 point); Part III 0.5 points per question.' }
 };
 
 /* :::quiz body -> [{type: 'mc'|'tf'|'sa', q, opts: [], key, expl}] */
@@ -135,11 +135,11 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
         });
         html += '</div>';
       });
-      out += '<section class="box box-quiz" data-quiz><div class="box-title"><span class="box-kind">' + (title === 'exam' ? L.examKind : L.kind) + '</span>' + (title && title !== 'exam' ? ' ' + esc(title) : '') + '</div><div class="box-body">' +
-        '<p class="qz-note">' + L.note + '</p>' + html +
+      out += '<section class="box box-quiz" data-quiz' + (title === 'test' ? ' data-count' : '') + '><div class="box-title"><span class="box-kind">' + (title === 'exam' || title === 'test' ? L.examKind : L.kind) + '</span>' + (title && title !== 'exam' && title !== 'test' ? ' ' + esc(title) : '') + '</div><div class="box-body">' +
+        '<p class="qz-note">' + (title === 'test' ? L.noteTest : L.note) + '</p>' + html +
         '<p class="qz-actions"><button type="button" class="btn qz-submit" hidden>' + L.submit + '</button> <button type="button" class="btn btn-outline qz-retry" hidden>' + L.retry + '</button> <span class="qz-score" aria-live="polite"></span></p>' +
         '<details class="qz-keys"><summary>' + L.keys + '</summary><ol>' + keys + '</ol></details></div></section>';
-      apx += '<h3>' + (title === 'exam' ? L.keys : APPENDIX.quiz[lang]) + '</h3><ol class="pa-keys">' + keys + '</ol>';
+      apx += '<h3>' + (title === 'exam' || title === 'test' ? L.keys : APPENDIX.quiz[lang]) + '</h3><ol class="pa-keys">' + keys + '</ol>';
     } else if (type === 'exercise') {
       // :::exercise [title]  statement  ::hint  knowledge + steps  ::solution  worked solution  :::
       exNo++;

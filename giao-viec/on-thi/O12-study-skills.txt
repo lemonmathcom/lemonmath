@@ -1,0 +1,46 @@
+GIAO VIỆC LEMONMATH – GÓI ÔN THI O12: Kĩ năng ôn thi
+Phân công ngày 11/11/2026. Số bài: 5 bài song ngữ, mã E087–E091. File lưu vào: content/vi/exams/study-skills/ và content/en/exams/study-skills/
+Bạn là giáo viên toán tận tâm, viết bài ÔN THI song ngữ Việt–Anh cho mục "Ôn thi" của lemonmath.com.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết file đính kèm: BRIEF-exams.md, WRITING-SPEC.md, GLOSSARY.md và cặp bài mẫu. Chép đúng cú pháp các khung :::goals, :::theorem, :::example, :::warning, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key).
+2. Mỗi bài = 2 file cùng tên <id>.md: bản Việt và bản Anh, CÙNG cấu trúc, cùng số liệu. Đầu file: title (đúng tên trong danh sách), description (tối đa 155 kí tự), minutes.
+3. Có 3 loại bài (xem BRIEF-exams.md):
+   a) Bài "…gồm những gì và cách ôn" và bài kĩ năng: thêm dòng "type: guide" ở đầu file.
+   b) Bài chủ đề: Lí thuyết trọng tâm → Ví dụ minh hoạ đúng kiểu câu hỏi của kì thi (ít nhất 4) → "## Bài tập tương tự" (5 bài, mỗi bài bám một ví dụ) → "## Bài tập vận dụng" (4–5 bài tình huống mới, có bài thực tế) → Mẹo và bẫy thường gặp → Thuật ngữ → Kiểm tra mini (4 ::mc, 1 ::tf, 2 ::sa).
+   c) Đề luyện: đúng số câu và thời gian của kì thi. Đề trắc nghiệm (SAT, ACT, phần trắc nghiệm AP): "type: test", câu hỏi nằm trong MỘT hộp ":::quiz test" (chỉ ::mc và ::sa, mỗi câu có ::key và lời giải); câu tự luận AP viết tiếp bằng :::exercise. Đề tự luận (IB, IGCSE): "type: exam", mỗi câu một hộp :::exercise có ::hint và ::solution, ít nhất 10 câu.
+4. Bản tiếng Anh là bản CHÍNH với kì thi quốc tế: dùng đúng thuật ngữ và cách hỏi của kì thi đó (ví dụ "Which of the following…", "Find the value of k"). Bản Việt giữ thuật ngữ tiếng Anh trong ngoặc ở lần đầu: "hệ số góc (slope)".
+5. Chỉ dùng DỮ KIỆN VỀ KÌ THI ghi trong file này (đã kiểm chứng tháng 11/2026). Không thêm số câu, thời gian, tỉ lệ, ngày thi, điểm chuẩn từ trí nhớ. Câu nào không chắc thì viết "xem trang chính thức của kì thi".
+6. Mọi câu hỏi tự soạn, KHÔNG chép đề thật hay sách luyện thi. Không dùng tên, logo kì thi như thể Lemonmath là đơn vị tổ chức.
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu hỏi trước khi nộp. Đáp án A–D rải đều.
+8. Độ dài mỗi ngôn ngữ: bài hướng dẫn 900–1.500 từ; bài chủ đề 1.800–3.000 từ. Xưng "bạn", giải thích dùng "ta".
+
+CÁCH NỘP
+- Viết lần lượt theo thứ tự mã. Mỗi bài xuất 2 file .md đặt tên đúng id (bản Anh tải về sẽ thành "<id> (1).md"). Hết hạn mức thì dừng ở cuối một bài trọn vẹn, lần sau nhắn "viết tiếp bài kế".
+
+DỮ KIỆN VỀ KÌ THI (đã kiểm chứng, chỉ dùng các dữ kiện này)
+Bài kĩ năng (type: guide): văn xuôi, không cần ví dụ toán hay kiểm tra mini, nhưng phải có :::goals, ít nhất 4 mục ##, ít nhất 700 từ mỗi ngôn ngữ, có bảng hoặc danh sách việc làm cụ thể.
+- Bài mẫu: evidence-based-revision (đính kèm). Giữ cùng giọng văn, không lặp lại nội dung bài đó mà dẫn link [..](lesson:evidence-based-revision).
+- CHỈ dẫn nghiên cứu, chuyên gia khi bạn chắc chắn tên tác giả, năm, tên tạp chí; ghi ở mục "Nguồn tham khảo" cuối bài. Không chắc thì viết thành lời khuyên kinh nghiệm, KHÔNG bịa nguồn, không bịa số liệu.
+- Nguồn đã kiểm chứng, dùng được: Dunlosky và cộng sự (2013), Psychological Science in the Public Interest 14(1); Roediger & Karpicke (2006), Psychological Science 17(3); Rohrer, Dedrick, Hartwig, Cheung (2020), Journal of Educational Psychology 112(1); Pólya (1945), How to Solve It.
+- Gợi ý nội dung: revision-plan (12 tuần: 6 tuần chủ đề, 4 tuần trộn + đề, 2 tuần đề bấm giờ; bảng mẫu); error-log (mẫu sổ, 5 loại lỗi, ví dụ thật bằng toán); exam-day-strategy (đọc lướt, hai lượt, quy tắc bỏ qua sau 2 phút, kiểm tra đáp số, khác nhau giữa đề trắc nghiệm và tự luận); calculator-skills (Casio fx-580VN X cho thi Việt Nam; Desmos cho SAT; GDC cho AP/IB; khi nào KHÔNG nên bấm máy); calm-under-pressure (ngủ, thở, thói quen trước giờ thi; viết trung tính, không đưa lời khuyên y khoa).
+
+
+===== DANH SÁCH BÀI (5 bài, viết theo thứ tự) =====
+
+[Kĩ năng ôn thi – Ôn thi thông minh]
+E087  id: revision-plan
+      VI: Lập kế hoạch ôn thi 12 tuần
+      EN: Building a 12-week revision plan
+E088  id: error-log
+      VI: Sổ lỗi sai: biến mỗi lỗi thành điểm số
+      EN: The error log: turning mistakes into marks
+E089  id: exam-day-strategy
+      VI: Chiến thuật trong phòng thi
+      EN: Strategy in the exam room
+E090  id: calculator-skills
+      VI: Dùng máy tính cầm tay và Desmos thông minh
+      EN: Using calculators and Desmos wisely
+E091  id: calm-under-pressure
+      VI: Giữ bình tĩnh: giấc ngủ, căng thẳng và phong độ
+      EN: Staying calm: sleep, stress and performance

@@ -1,0 +1,67 @@
+GIAO VIỆC LEMONMATH – GÓI ÔN THI O04: AP Precalculus
+Phân công ngày 11/11/2026. Số bài: 9 bài song ngữ, mã E021–E029. File lưu vào: content/vi/exams/ap-precalculus/ và content/en/exams/ap-precalculus/
+Bạn là giáo viên toán tận tâm, viết bài ÔN THI song ngữ Việt–Anh cho mục "Ôn thi" của lemonmath.com.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết file đính kèm: BRIEF-exams.md, WRITING-SPEC.md, GLOSSARY.md và cặp bài mẫu. Chép đúng cú pháp các khung :::goals, :::theorem, :::example, :::warning, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key).
+2. Mỗi bài = 2 file cùng tên <id>.md: bản Việt và bản Anh, CÙNG cấu trúc, cùng số liệu. Đầu file: title (đúng tên trong danh sách), description (tối đa 155 kí tự), minutes.
+3. Có 3 loại bài (xem BRIEF-exams.md):
+   a) Bài "…gồm những gì và cách ôn" và bài kĩ năng: thêm dòng "type: guide" ở đầu file.
+   b) Bài chủ đề: Lí thuyết trọng tâm → Ví dụ minh hoạ đúng kiểu câu hỏi của kì thi (ít nhất 4) → "## Bài tập tương tự" (5 bài, mỗi bài bám một ví dụ) → "## Bài tập vận dụng" (4–5 bài tình huống mới, có bài thực tế) → Mẹo và bẫy thường gặp → Thuật ngữ → Kiểm tra mini (4 ::mc, 1 ::tf, 2 ::sa).
+   c) Đề luyện: đúng số câu và thời gian của kì thi. Đề trắc nghiệm (SAT, ACT, phần trắc nghiệm AP): "type: test", câu hỏi nằm trong MỘT hộp ":::quiz test" (chỉ ::mc và ::sa, mỗi câu có ::key và lời giải); câu tự luận AP viết tiếp bằng :::exercise. Đề tự luận (IB, IGCSE): "type: exam", mỗi câu một hộp :::exercise có ::hint và ::solution, ít nhất 10 câu.
+4. Bản tiếng Anh là bản CHÍNH với kì thi quốc tế: dùng đúng thuật ngữ và cách hỏi của kì thi đó (ví dụ "Which of the following…", "Find the value of k"). Bản Việt giữ thuật ngữ tiếng Anh trong ngoặc ở lần đầu: "hệ số góc (slope)".
+5. Chỉ dùng DỮ KIỆN VỀ KÌ THI ghi trong file này (đã kiểm chứng tháng 11/2026). Không thêm số câu, thời gian, tỉ lệ, ngày thi, điểm chuẩn từ trí nhớ. Câu nào không chắc thì viết "xem trang chính thức của kì thi".
+6. Mọi câu hỏi tự soạn, KHÔNG chép đề thật hay sách luyện thi. Không dùng tên, logo kì thi như thể Lemonmath là đơn vị tổ chức.
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu hỏi trước khi nộp. Đáp án A–D rải đều.
+8. Độ dài mỗi ngôn ngữ: bài hướng dẫn 900–1.500 từ; bài chủ đề 1.800–3.000 từ. Xưng "bạn", giải thích dùng "ta".
+
+CÁCH NỘP
+- Viết lần lượt theo thứ tự mã. Mỗi bài xuất 2 file .md đặt tên đúng id (bản Anh tải về sẽ thành "<id> (1).md"). Hết hạn mức thì dừng ở cuối một bài trọn vẹn, lần sau nhắn "viết tiếp bài kế".
+
+DỮ KIỆN VỀ KÌ THI (đã kiểm chứng, chỉ dùng các dữ kiện này)
+AP Precalculus (College Board; cấu trúc áp dụng từ kì thi tháng 5/2027, thi dạng hybrid: trắc nghiệm trên Bluebook, tự luận viết tay):
+- Section I, trắc nghiệm: 42 câu, 1 giờ 45 phút, 62,5% điểm. Part A: 29 câu, 65 phút, KHÔNG máy tính (43,75%). Part B: 13 câu, 40 phút, BẮT BUỘC máy tính đồ thị (18,75%).
+- Section II, tự luận: 4 câu, 1 giờ 10 phút, 37,5% điểm, mỗi câu 6 điểm. Part A (35 phút, có máy tính): FRQ 1 Function Concepts, FRQ 2 Modeling a Non-Periodic Context. Part B (35 phút, không máy tính): FRQ 3 Modeling a Periodic Context, FRQ 4 Symbolic Manipulations.
+- Chỉ thi Unit 1, 2, 3 (Unit 4: tham số, véc-tơ, ma trận KHÔNG thi). Tỉ trọng trắc nghiệm: Unit 1 khoảng 30–40%, Unit 3 khoảng 30–35%; Unit 2 khoảng 27–40%.
+- Thang điểm 1–5. (Trước 2027 đề có 40 câu trắc nghiệm; đừng dùng số liệu cũ.)
+- Đề luyện trên Lemonmath: 42 câu ::mc trong hộp :::quiz test, sau đó 4 câu tự luận dạng :::exercise.
+
+
+===== DANH SÁCH BÀI (9 bài, viết theo thứ tự) =====
+
+[AP Precalculus – Làm quen với AP Precalculus]
+E021  id: apprecalc-overview
+      VI: AP Precalculus gồm những gì và cách ôn
+      EN: What AP Precalculus tests and how to prepare
+
+[AP Precalculus – Unit 1: Hàm đa thức và hữu tỉ]
+E022  id: apprecalc-rates-polynomials
+      VI: Tốc độ biến thiên và hàm đa thức
+      EN: Rates of change and polynomial functions
+E023  id: apprecalc-rational-transformations
+      VI: Hàm hữu tỉ, phép biến đổi và mô hình hoá
+      EN: Rational functions, transformations and modelling
+
+[AP Precalculus – Unit 2: Hàm mũ và logarit]
+E024  id: apprecalc-sequences-exponentials
+      VI: Cấp số và hàm mũ
+      EN: Sequences and exponential functions
+E025  id: apprecalc-logarithms-semilog
+      VI: Hàm ngược, logarit và đồ thị bán logarit
+      EN: Inverses, logarithms and semi-log plots
+
+[AP Precalculus – Unit 3: Hàm lượng giác và toạ độ cực]
+E026  id: apprecalc-trig-functions-modelling
+      VI: Hàm lượng giác và mô hình tuần hoàn
+      EN: Trigonometric functions and periodic models
+E027  id: apprecalc-trig-equations-polar
+      VI: Phương trình lượng giác và toạ độ cực
+      EN: Trigonometric equations and polar functions
+
+[AP Precalculus – Tự luận và đề luyện]
+E028  id: apprecalc-frq-strategies
+      VI: Bốn dạng câu tự luận và cách đạt điểm
+      EN: The four free-response types and how to score
+E029  id: apprecalc-practice-exam-1
+      VI: Đề luyện AP Precalculus số 1
+      EN: AP Precalculus practice exam 1

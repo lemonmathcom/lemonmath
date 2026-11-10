@@ -19,6 +19,8 @@ if (args.includes('--all')) {
   const dir = path.join(ROOT, 'content', 'en');
   args = [];
   fs.readdirSync(dir).filter((d) => /^g\d+$/.test(d)).forEach((g) => fs.readdirSync(path.join(dir, g)).forEach((f) => args.push(f.replace(/\.md$/, ''))));
+  const ex = path.join(dir, 'exams');
+  if (fs.existsSync(ex)) fs.readdirSync(ex).forEach((e) => fs.readdirSync(path.join(ex, e)).forEach((f) => args.push(f.replace(/\.md$/, ''))));
 }
 let bad = 0;
 const say = (m) => { console.log(m); };
@@ -52,6 +54,29 @@ function stats(file) {
     examples: count(/^:::example/gm), figures: count(/^:::(graph|diagram)/gm), exercises: nEx, solutions: nSol,
     goals: count(/^:::goals/gm), terms: count(/^:::terms/gm), definitions: count(/^:::(definition|theorem)/gm)
   };
+  if (meta.type === 'guide') { // exam overview / study-skills article: prose, no exercises or mini test required
+    if (!s.goals) problem(file + ': thiếu hộp :::goals');
+    if (s.sections < 4) problem(file + ': chỉ có ' + s.sections + ' mục ## (cần ≥ 4)');
+    if (s.words < 700) problem(file + ': bài hướng dẫn quá ngắn (' + s.words + ' từ, cần ≥ 700)');
+    return s;
+  }
+  if (meta.type === 'test') { // international practice paper (SAT, ACT, AP ...): :::quiz test, one mark per question
+    const qx = /^:::quiz[ \t]+test[ \t]*\n([\s\S]*?)^:::[ \t]*$/m.exec(body);
+    if (!qx) { problem(file + ': đề luyện quốc tế cần một hộp ":::quiz test"'); return s; }
+    const it = require('./render.js').parseQuiz(qx[1]);
+    const c = (t) => it.filter((i) => i.type === t).length;
+    s.quiz = c('mc') + '-' + c('tf') + '-' + c('sa');
+    if (it.length < 15) problem(file + ': đề luyện chỉ có ' + it.length + ' câu (cần ≥ 15)');
+    const cnt = {}; it.filter((i) => i.type === 'mc').forEach((i) => { cnt[i.key] = (cnt[i.key] || 0) + 1; });
+    if (c('mc') >= 8 && Math.max(0, ...Object.values(cnt)) > Math.ceil(c('mc') * 0.4)) problem(file + ': đáp án trắc nghiệm dồn vào một chữ cái (' + JSON.stringify(cnt) + ')');
+    it.forEach((i, k) => {
+      if (i.type === 'mc' && (i.opts.length !== 4 || !/^[A-D]$/.test(i.key))) problem(file + ': câu thứ ' + (k + 1) + ' cần 4 phương án và ::key A–D');
+      if (i.type === 'tf') problem(file + ': câu thứ ' + (k + 1) + ': đề quốc tế không dùng câu đúng/sai (::tf)');
+      if (i.type === 'sa' && (!/^-?\d+([.,]\d+)?$/.test(i.key) || i.key.length > 6)) problem(file + ': câu thứ ' + (k + 1) + ' (tự điền) có ::key "' + i.key + '" không hợp lệ (số, tối đa 6 kí tự)');
+      if (!i.expl) problem(file + ': câu thứ ' + (k + 1) + ' thiếu lời giải sau ::key');
+    });
+    return s;
+  }
   if (meta.type === 'exam') { // practice paper: a full 12-4-6 :::quiz exam (or ≥ 10 exercises)
     const qx = /^:::quiz[^\n]*\n([\s\S]*?)^:::[ \t]*$/m.exec(body);
     if (qx) {
@@ -108,6 +133,8 @@ args.forEach((a) => {
       const base = path.join(ROOT, 'content', l);
       if (!fs.existsSync(base)) continue;
       for (const g of fs.readdirSync(base).filter((d) => /^g\d+$/.test(d))) if (fs.existsSync(path.join(base, g, id + '.md'))) return g;
+      const ex = path.join(base, 'exams');
+      if (fs.existsSync(ex)) for (const e of fs.readdirSync(ex)) if (fs.existsSync(path.join(ex, e, id + '.md'))) return 'exams/' + e;
     }
     return 'g10';
   };

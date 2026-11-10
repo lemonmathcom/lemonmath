@@ -44,7 +44,12 @@ const UI = {
     soon: 'Lessons coming soon',
     fullBadge: 'Full lessons',
     roadmapBadge: 'Roadmap',
+    examsNav: 'Exam prep', examsHome: 'Preparing for an exam?', examsHomeLead: 'Revision by topic, worked examples and practice papers for SAT, ACT, AP, IB, IGCSE and Vietnam’s national exams.', examsAll: 'See all exams',
+    examsEyebrow: 'Exam prep · free', examRoadmap: 'Roadmap ready · lessons coming', examSoonNote: 'This is the roadmap. Lessons appear here as soon as they are written and checked.',
+    examTitle: (t) => t + ': free revision lessons and practice papers',
+    examGroups: { vn: ['Vietnam', 'Grade 10 entrance · THPT graduation'], intl: ['International', 'SAT · ACT · AP · IB · IGCSE'], skills: ['Study skills', 'For every exam'] },
     levels: {
+      exam: ['Exam prep', 'SAT · AP · IB'],
       primary: ['Primary school', 'Grades 1–5 · Tiểu học'],
       middle: ['Lower secondary', 'Grades 6–9 · THCS'],
       high: ['Upper secondary', 'Grades 10–12 · THPT']
@@ -116,7 +121,12 @@ const UI = {
     soon: 'Bài học sắp ra mắt',
     fullBadge: 'Đủ bài học',
     roadmapBadge: 'Lộ trình',
+    examsNav: 'Ôn thi', examsHome: 'Bạn sắp bước vào một kì thi?', examsHomeLead: 'Ôn theo chủ đề, ví dụ mẫu và đề luyện cho thi vào 10, tốt nghiệp THPT, SAT, ACT, AP, IB và IGCSE.', examsAll: 'Xem tất cả kì thi',
+    examsEyebrow: 'Ôn thi · miễn phí', examRoadmap: 'Đã có lộ trình · bài đang soạn', examSoonNote: 'Đây là lộ trình ôn. Bài học sẽ hiện ở đây ngay khi được viết và kiểm tra xong.',
+    examTitle: (t) => 'Ôn thi ' + t + ': bài ôn theo chủ đề và đề luyện miễn phí',
+    examGroups: { vn: ['Việt Nam', 'Thi vào lớp 10 · Tốt nghiệp THPT'], intl: ['Quốc tế', 'SAT · ACT · AP · IB · IGCSE'], skills: ['Kĩ năng ôn thi', 'Dùng cho mọi kì thi'] },
     levels: {
+      exam: ['Ôn thi', 'SAT · AP · IB'],
       primary: ['Tiểu học', 'Lớp 1–5 · Primary school'],
       middle: ['Trung học cơ sở', 'Lớp 6–9 · Lower secondary'],
       high: ['Trung học phổ thông', 'Lớp 10–12 · Upper secondary']

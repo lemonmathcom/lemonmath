@@ -96,23 +96,32 @@ if (!/^https:\/\/[^\s/]+$/.test(site.url)) fail('data/curriculum.json: "url" ph�
 
 const LANGS = ['en', 'vi'];
 const LANG = {
-  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', htmlLang: 'en', locale: 'en-US', name: 'English' },
-  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
+  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', exams: 'exams', htmlLang: 'en', locale: 'en-US', name: 'English' },
+  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', exams: 'on-thi', htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
 };
 const LEVEL = (n) => (n <= 5 ? 'primary' : n <= 9 ? 'middle' : 'high');
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 const grades = cfg.grades || [];
+// Exam tracks (SAT, AP, IB ...) behave like extra "grades" that live under /exams/<id>/ (vi: /vi/on-thi/<id>/).
+// An exam with "link" only points at a chapter that already exists inside a grade (grade 10 entrance, THPT).
+const exams = cfg.exams || [];
+const examTracks = exams.filter((e) => !e.link);
+examTracks.forEach((e) => { e.exam = true; e.n = e.id; if (!ID_RE.test(e.id)) fail('kì thi "' + e.id + '": id không hợp lệ.'); });
+const tracks = grades.concat(examTracks);
+const gName = (lang, g) => (g.exam ? g[lang] : UI[lang].grade(g.n));
+const gFolder = (g) => (g.exam ? 'exams/' + g.id : 'g' + g.n);
 const lessons = []; // only lessons that have content in both languages
 const byId = {};
 
-grades.forEach((g) => {
-  g.level = LEVEL(g.n);
+tracks.forEach((g) => {
+  g.level = g.exam ? 'exam' : LEVEL(g.n);
   g.chapters.forEach((ch, ci) => {
     if (!ID_RE.test(ch.id)) fail('chương "' + ch.id + '": id không hợp lệ.');
     ch.number = ci + 1;
     ch.grade = g;
     ch.lessons = ch.lessons || [];
+    ch.planned = ch.lessons.slice();
     ch.lessons.forEach((ls, li) => {
       if (!ID_RE.test(ls.id)) fail('bài "' + ls.id + '": id không hợp lệ.');
       if (byId[ls.id]) fail('trùng id bài "' + ls.id + '".');
@@ -125,7 +134,8 @@ grades.forEach((g) => {
 });
 
 const homeDir = (lang) => LANG[lang].prefix;
-const gradeDir = (lang, g) => px.join(LANG[lang].prefix, LANG[lang].gradeSlug(g.n));
+const examsDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].exams);
+const gradeDir = (lang, g) => (g.exam ? px.join(examsDir(lang), g.id) : px.join(LANG[lang].prefix, LANG[lang].gradeSlug(g.n)));
 const chapterDir = (lang, ch) => px.join(gradeDir(lang, ch.grade), ch.id);
 const lessonDir = (lang, ls) => px.join(chapterDir(lang, ls.chapter), ls.id);
 const aboutDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].about);
@@ -137,13 +147,13 @@ const other = (lang) => (lang === 'en' ? 'vi' : 'en');
 
 const missing = [];
 function loadLessons() {
-  grades.forEach((g) => {
+  tracks.forEach((g) => {
     g.chapters.forEach((ch) => {
       ch.lessons = ch.lessons.filter((ls) => {
         ls.content = {};
         let ok = true;
         LANGS.forEach((lang) => {
-          const rel = 'content/' + lang + '/g' + g.n + '/' + ls.id + '.md';
+          const rel = 'content/' + lang + '/' + gFolder(g) + '/' + ls.id + '.md';
           const file = path.join(ROOT, rel);
           if (!fs.existsSync(file)) {
             ok = false;
@@ -165,6 +175,7 @@ function loadLessons() {
       });
       ch.lessons.forEach((ls) => lessons.push(ls));
     });
+    if (g.exam) g.status = g.chapters.some((c) => c.lessons.length) ? 'full' : 'roadmap';
   });
   if (missing.length) console.log('Chưa có file cho ' + Math.ceil(missing.length / 2) + ' bài (bỏ qua, sẽ hiện "sắp ra mắt"): các bài còn thiếu sẽ tự xuất hiện khi bạn tải file lên.');
   // parity: the two languages must teach the same thing
@@ -197,10 +208,11 @@ const FAVICON = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://w
 function resolveLinks(html, dir, lang, where) {
   const assetsPrefix = px.relative(dir || '.', 'assets') + '/';
   html = html.replace(/(src|href)="\/?assets\//g, (m, attr) => attr + '="' + assetsPrefix);
-  return html.replace(/href="(lesson|grade):([^"]*)"/g, (m, kind, id) => {
+  return html.replace(/href="(lesson|grade|exam):([^"]*)"/g, (m, kind, id) => {
     let target;
     if (kind === 'lesson' && byId[id] && lessons.indexOf(byId[id]) !== -1) target = lessonDir(lang, byId[id]);
     if (kind === 'grade') { const g = grades.find((x) => String(x.n) === id); if (g) target = gradeDir(lang, g); }
+    if (kind === 'exam') { const e = exams.find((x) => x.id === id); if (id === '') target = examsDir(lang); else if (e) target = examTarget(lang, e); }
     if (target === undefined) {
       fail(where + ': liên kết "' + kind + ':' + id + '" trỏ tới trang không tồn tại.');
       return 'href="#"';
@@ -269,7 +281,7 @@ function shell(o) {
   const switchLink = '<a class="lang-btn" href="' + relDir(d, o.altDir) + '" hreflang="' + altLang + '" lang="' + altLang + '" data-lang="' + altLang + '" title="' + esc(T.switchTitle) + '">' + icon('globe', 18) + '<span>' + LANG[altLang].name + '</span></a>';
 
   const side = o.side
-    ? '<aside id="sidebar" class="sidebar" aria-label="' + esc(T.lessonsLabel) + '">\n<p class="side-title">' + esc(T.grade(o.side.grade.n)) + '</p>\n<nav id="nav" aria-label="' + esc(T.chaptersAndLessons) + '">\n' + navHtml(lang, d, o.side.grade, o.side.lesson, o.side.chapter) + '\n</nav>\n</aside>\n<div id="scrim" class="scrim" hidden></div>\n'
+    ? '<aside id="sidebar" class="sidebar" aria-label="' + esc(T.lessonsLabel) + '">\n<p class="side-title">' + esc(gName(lang, o.side.grade)) + '</p>\n<nav id="nav" aria-label="' + esc(T.chaptersAndLessons) + '">\n' + navHtml(lang, d, o.side.grade, o.side.lesson, o.side.chapter) + '\n</nav>\n</aside>\n<div id="scrim" class="scrim" hidden></div>\n'
     : '';
 
   const bodyCls = ['lvl-' + (o.level || 'home'), o.side ? 'has-side' : ''].filter(Boolean).join(' ');
@@ -278,7 +290,7 @@ function shell(o) {
     '<header class="topbar">\n' +
     (o.side ? '  <button id="menu-btn" class="icon-btn" type="button" aria-label="' + esc(T.menu) + '" aria-expanded="false" aria-controls="sidebar" hidden>☰</button>\n' : '') +
     '  <a class="brand" href="' + relDir(d, homeDir(lang)) + '">' + mascot({ cls: 'brand-mark' }) + '<span>Lemon<b>math</b></span></a>\n' +
-    '  <nav class="topnav" aria-label="' + esc(T.mainNav) + '"><a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paper) + '</a><a href="' + relDir(d, parentsDir(lang)) + '">' + esc(T.parents) + '</a><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a></nav>\n' +
+    '  <nav class="topnav" aria-label="' + esc(T.mainNav) + '"><a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsNav) + '</a><a href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paper) + '</a><a href="' + relDir(d, parentsDir(lang)) + '">' + esc(T.parents) + '</a><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a></nav>\n' +
     '  <div class="spacer"></div>\n' +
     '  <div class="searchbox" hidden><label class="sr" for="q">' + esc(T.search) + '</label>' + icon('search', 18) + '<input id="q" type="search" placeholder="' + esc(T.searchPh) + '" autocomplete="off" aria-controls="results"><ul id="results" class="results" hidden></ul></div>\n' +
     '  ' + switchLink + '\n' +
@@ -321,8 +333,39 @@ function chapterCard(lang, d, ch, linkTo) {
     '<span class="card-num">' + esc(T.chapterN(ch.number)) + '</span>' +
     '<h3>' + esc(ch[lang]) + '</h3>' +
     (ch.summary ? '<p>' + esc(ch.summary[lang]) + '</p>' : '') +
+    (ch.grade.exam && !n ? '<ul class="planned">' + ch.planned.map((l) => '<li>' + esc(l[lang]) + '</li>').join('') + '</ul>' : '') +
     (n ? '<div class="bar" hidden><i></i></div><span class="card-meta" data-base="' + esc(T.lessonCount(n)) + '" data-complete="' + esc(T.pctComplete) + '">' + esc(T.lessonCount(n)) + '</span>' : '<span class="card-meta soon">' + esc(T.soon) + '</span>') +
     '</' + tag + '>';
+}
+
+const linkedCh = (e) => grades.find((g) => g.n === e.link.grade).chapters.find((c) => c.id === e.link.chapter);
+const examTarget = (lang, e) => (e.link ? (linkedCh(e).lessons.length && linkedCh(e).grade.status === 'full' ? chapterDir(lang, linkedCh(e)) : gradeDir(lang, linkedCh(e).grade)) : gradeDir(lang, e));
+const examLessons = (e) => (e.link ? linkedCh(e).lessons : [].concat(...e.chapters.map((c) => c.lessons)));
+function examCard(lang, d, e) {
+  const T = UI[lang];
+  const ls = examLessons(e), n = ls.length;
+  return '<a class="card ccard ecard" href="' + relDir(d, examTarget(lang, e)) + '" data-lessons="' + ls.map((l) => l.id).join(',') + '">' +
+    '<span class="cicon">' + icon(e.icon, 28) + '</span>' +
+    '<h3>' + esc(e[lang]) + '</h3><p class="efacts">' + esc(e.facts[lang]) + '</p><p>' + esc(e.summary[lang]) + '</p>' +
+    (n ? '<div class="bar" hidden><i></i></div><span class="card-meta" data-base="' + esc(T.lessonCount(n)) + '" data-complete="' + esc(T.pctComplete) + '">' + esc(T.lessonCount(n)) + '</span>' : '<span class="card-meta soon">' + esc(T.examRoadmap) + '</span>') +
+    '</a>';
+}
+
+function examsPage(lang, intro) {
+  const T = UI[lang], d = examsDir(lang), alt = examsDir(other(lang));
+  const block = (key) => {
+    const list = exams.filter((e) => e.group === key);
+    return '<section class="level lvl-exam" aria-labelledby="eg-' + key + '"><div class="level-head"><h2 id="eg-' + key + '">' + esc(T.examGroups[key][0]) + '</h2><p>' + esc(T.examGroups[key][1]) + '</p></div>' +
+      '<div class="cards">' + list.map((e) => examCard(lang, d, e)).join('\n') + '</div></section>';
+  };
+  const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n' +
+    '<header class="gradehead"><div><p class="eyebrow">' + esc(T.examsEyebrow) + '</p><h1>' + esc(intro.meta.title) + '</h1><p class="lead">' + esc(intro.meta.description) + '</p></div>' + mascot({ cls: 'grade-mascot', mood: 'wow' }) + '</header>\n' +
+    ['vn', 'intl', 'skills'].map(block).join('\n') +
+    '\n<div class="prose">\n' + resolveLinks(intro.rendered.html, d, lang, 'exams') + '\n</div>';
+  put(lang, d, alt, shell({
+    lang, dir: d, altDir: alt, title: intro.meta.title + ' | ' + site.name, description: intro.meta.description, body, wide: true, level: 'exam',
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: T.examsNav, url: abs(d) }])]
+  }), intro.modified);
 }
 
 function homePage(lang) {
@@ -337,6 +380,7 @@ function homePage(lang) {
     '<p class="hero-actions"><a class="btn" id="start-btn" href="' + relDir(d, gradeDir(lang, g10)) + '">' + esc(T.startG10) + '</a> <a class="btn btn-ghost" href="#grades">' + esc(T.browse) + '</a></p>\n</div>\n' +
     '<div class="hero-art" aria-hidden="true">' + mascot({ cls: 'hero-mascot', mood: 'wow' }) + '<span class="float f1">x²</span><span class="float f2">π</span><span class="float f3">∑</span><span class="float f4">√</span></div>\n</section>\n' +
     '<section id="grades" class="grades" aria-labelledby="grades-h"><h2 id="grades-h">' + esc(T.pickGrade) + '</h2>\n' + ['primary', 'middle', 'high'].map(levelBlock).join('\n') + '</section>\n' +
+    '<section id="exams" class="grades" aria-labelledby="exams-h"><h2 id="exams-h">' + esc(T.examsHome) + '</h2>\n<p class="lead">' + esc(T.examsHomeLead) + ' <a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsAll) + ' →</a></p>\n<div class="cards">' + exams.map((e) => examCard(lang, d, e)).join('\n') + '</div></section>\n' +
     '<section class="features" aria-labelledby="why-h"><h2 id="why-h">' + esc(T.why) + '</h2><div class="feat-grid">' +
     T.features.map((f) => '<div class="feat"><span class="feat-ico">' + icon(f[0], 28) + '</span><h3>' + esc(f[1]) + '</h3><p>' + esc(f[2]) + '</p></div>').join('') + '</div></section>\n' +
     '<section class="featured" aria-labelledby="g10-h"><h2 id="g10-h">' + esc(T.featuredG10) + '</h2><div class="cards">' + g10.chapters.map((ch) => chapterCard(lang, d, ch, true)).join('\n') + '</div></section>';
@@ -350,23 +394,26 @@ const lc = (t) => (/^\p{Lu}\p{Ll}/u.test(t) && !/^(Oxyz|Bayes|Viète|Pythag)/.te
 function gradePage(lang, g) {
   const T = UI[lang], d = gradeDir(lang, g), alt = gradeDir(other(lang), g);
   const full = g.status === 'full' && g.chapters.some((c) => c.lessons.length);
-  const prev = grades.find((x) => x.n === g.n - 1), next = grades.find((x) => x.n === g.n + 1);
+  const ix = examTracks.indexOf(g);
+  const prev = g.exam ? examTracks[ix - 1] : grades.find((x) => x.n === g.n - 1), next = g.exam ? examTracks[ix + 1] : grades.find((x) => x.n === g.n + 1);
   const total = [].concat(...g.chapters.map((c) => c.lessons)).length;
-  const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n' +
-    '<header class="gradehead"><div><p class="eyebrow">' + esc(T.levels[g.level][0]) + '</p><h1>' + esc(T.grade(g.n)) + '</h1>' +
-    '<p class="lead">' + esc(full ? T.gradeFullLead(total, g.chapters.length, lc(g.chapters[0][lang]), lc(g.chapters.filter((c) => c.lessons.length).slice(-1)[0][lang])) : T.gradeRoadmapLead(g.chapters.length)) + '</p></div>' + mascot({ cls: 'grade-mascot', mood: full ? 'happy' : 'wow' }) + '</header>\n' +
-    (full ? '' : '<p class="soon-note">' + esc(T.soonNote) + ' <a href="' + relDir(d, gradeDir(lang, grades.find((x) => x.status === 'full'))) + '">' + esc(T.tryG10) + '</a></p>\n') +
+  const upCrumb = g.exam ? '<span aria-hidden="true">›</span><a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsNav) + '</a>' : '';
+  const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a>' + upCrumb + '</nav>\n' +
+    '<header class="gradehead"><div><p class="eyebrow">' + esc(T.levels[g.level][0]) + '</p><h1>' + esc(gName(lang, g)) + '</h1>' +
+    '<p class="lead">' + esc(g.exam ? g.facts[lang] + ' ' + g.summary[lang] : full ? T.gradeFullLead(total, g.chapters.length, lc(g.chapters[0][lang]), lc(g.chapters.filter((c) => c.lessons.length).slice(-1)[0][lang])) : T.gradeRoadmapLead(g.chapters.length)) + '</p></div>' + mascot({ cls: 'grade-mascot', mood: full ? 'happy' : 'wow' }) + '</header>\n' +
+    (full ? '' : g.exam ? '<p class="soon-note">' + esc(T.examSoonNote) + '</p>\n' : '<p class="soon-note">' + esc(T.soonNote) + ' <a href="' + relDir(d, gradeDir(lang, grades.find((x) => x.status === 'full'))) + '">' + esc(T.tryG10) + '</a></p>\n') +
     '<div class="cards">' + g.chapters.map((ch) => chapterCard(lang, d, ch, full && ch.lessons.length > 0)).join('\n') + '</div>\n' +
     '<nav class="pager" aria-label="' + esc(T.gradeNav) + '">' +
-    (prev ? '<a class="pager-prev" href="' + relDir(d, gradeDir(lang, prev)) + '"><small>← ' + esc(T.prev) + '</small><span>' + esc(T.grade(prev.n)) + '</span></a>' : '<span></span>') +
-    (next ? '<a class="pager-next" href="' + relDir(d, gradeDir(lang, next)) + '"><small>' + esc(T.next) + ' →</small><span>' + esc(T.grade(next.n)) + '</span></a>' : '<span></span>') + '</nav>';
-  const title = T.gradeTitle(g.n) + ' | ' + site.name;
-  const desc = full ? T.gradeFullDesc(g.n, total, g.chapters.length) : T.gradeRoadmapDesc(g.n, g.chapters.length);
+    (prev ? '<a class="pager-prev" href="' + relDir(d, gradeDir(lang, prev)) + '"><small>← ' + esc(T.prev) + '</small><span>' + esc(gName(lang, prev)) + '</span></a>' : '<span></span>') +
+    (next ? '<a class="pager-next" href="' + relDir(d, gradeDir(lang, next)) + '"><small>' + esc(T.next) + ' →</small><span>' + esc(gName(lang, next)) + '</span></a>' : '<span></span>') + '</nav>';
+  const gTitle = g.exam ? T.examTitle(g[lang]) : T.gradeTitle(g.n);
+  const title = gTitle + ' | ' + site.name;
+  const desc = g.exam ? clip(g.facts[lang] + ' ' + g.summary[lang], 160) : full ? T.gradeFullDesc(g.n, total, g.chapters.length) : T.gradeRoadmapDesc(g.n, g.chapters.length);
   put(lang, d, alt, shell({
     lang, dir: d, altDir: alt, title, description: desc, body, level: g.level, noindex: !full,
     side: full ? { grade: g } : null,
-    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: T.grade(g.n), url: abs(d) }])].concat(full ? [{
-      '@context': 'https://schema.org', '@type': 'Course', name: T.gradeTitle(g.n), description: desc, url: abs(d), inLanguage: LANG[lang].htmlLang,
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: gName(lang, g), url: abs(d) }])].concat(full ? [{
+      '@context': 'https://schema.org', '@type': 'Course', name: gTitle, description: desc, url: abs(d), inLanguage: LANG[lang].htmlLang,
       provider: { '@type': 'Organization', name: site.name, url: abs(homeDir(lang)) }
     }] : [])
   }), maxDay([].concat(...g.chapters.map((c) => c.lessons.map((l) => l.content[lang].modified)))), !full);
@@ -379,14 +426,14 @@ function chapterPage(lang, ch) {
     '<span class="ll-title"><b>' + l.number + '</b> ' + esc(l.content[lang].meta.title) + '</span>' +
     '<span class="ll-meta">' + (l.content[lang].meta.minutes ? l.content[lang].meta.minutes + ' ' + T.min : '') + '</span>' +
     '<span class="sr" data-done-label hidden> ' + T.completed + '</span></a></li>').join('\n');
-  const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a><span aria-hidden="true">›</span><a href="' + relDir(d, gradeDir(lang, g)) + '">' + esc(T.grade(g.n)) + '</a></nav>\n' +
+  const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a><span aria-hidden="true">›</span><a href="' + relDir(d, gradeDir(lang, g)) + '">' + esc(gName(lang, g)) + '</a></nav>\n' +
     '<header class="chaphead"><span class="cicon big">' + icon(ch.icon, 40) + '</span><div><p class="eyebrow">' + esc(T.chapterN(ch.number)) + '</p><h1>' + esc(ch[lang]) + '</h1><p class="lead">' + esc(ch.summary[lang]) + '</p></div></header>\n' +
     '<ol class="lesson-list">\n' + items + '\n</ol>';
-  const title = T.chapterTitle(ch.number, ch[lang], g.n) + ' | ' + site.name;
+  const title = (g.exam ? ch[lang] + ' | ' + g[lang] : T.chapterTitle(ch.number, ch[lang], g.n)) + ' | ' + site.name;
   put(lang, d, alt, shell({
-    lang, dir: d, altDir: alt, title, description: clip(ch.summary[lang] + ' ' + T.chapterDescTail(g.n), 160), body, level: g.level,
+    lang, dir: d, altDir: alt, title, description: clip(ch.summary[lang] + ' ' + (g.exam ? g[lang] + '.' : T.chapterDescTail(g.n)), 160), body, level: g.level,
     side: { grade: g, chapter: ch.id },
-    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: T.grade(g.n), url: abs(gradeDir(lang, g)) }, { name: ch[lang], url: abs(d) }])]
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: gName(lang, g), url: abs(gradeDir(lang, g)) }, { name: ch[lang], url: abs(d) }])]
   }), maxDay(ch.lessons.map((l) => l.content[lang].modified)));
 }
 
@@ -407,7 +454,7 @@ function lessonPage(lang, ls) {
     (prev ? '<a class="pager-prev" href="' + link(lessonDir(lang, prev)) + '"><small>← ' + esc(T.prev) + '</small><span>' + esc(prev.content[lang].meta.title) + '</span></a>' : '<span></span>') + '\n' +
     (next ? '<a class="pager-next" href="' + link(lessonDir(lang, next)) + '"><small>' + esc(T.next) + ' →</small><span>' + esc(next.content[lang].meta.title) + '</span></a>'
       : '<a class="pager-next" href="' + link(gradeDir(lang, g)) + '"><small>' + esc(T.end) + '</small><span>' + esc(T.backToGrade) + '</span></a>') + '\n</nav>';
-  const body = '<article class="lesson">\n<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + link(homeDir(lang)) + '">' + esc(T.home) + '</a><span aria-hidden="true">›</span><a href="' + link(gradeDir(lang, g)) + '">' + esc(T.grade(g.n)) + '</a><span aria-hidden="true">›</span><a href="' + link(chapterDir(lang, ch)) + '">' + esc(T.chapterN(ch.number) + ': ' + ch[lang]) + '</a></nav>\n' +
+  const body = '<article class="lesson">\n<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + link(homeDir(lang)) + '">' + esc(T.home) + '</a><span aria-hidden="true">›</span><a href="' + link(gradeDir(lang, g)) + '">' + esc(gName(lang, g)) + '</a><span aria-hidden="true">›</span><a href="' + link(chapterDir(lang, ch)) + '">' + esc(T.chapterN(ch.number) + ': ' + ch[lang]) + '</a></nav>\n' +
     '<h1>' + esc(meta.title) + '</h1>\n<p class="meta">' + metaLine + '</p>\n' +
     (ls.ws && ls.ws[lang] ? '<p class="ws-link"><a class="btn btn-outline" href="' + WS_DIR[lang] + '/">🖨 ' + esc(WS_LABEL[lang]) + '</a> <button type="button" class="btn btn-outline print-lesson" onclick="window.print()">📄 ' + esc(T.printLesson) + '</button> <button type="button" class="btn btn-outline share-lesson" data-copied="' + esc(T.copied) + '">🔗 ' + esc(T.share) + '</button> <a class="ws-why" href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paperWhy) + '</a></p>\n' : '') + toc + '\n' +
     '<div class="prose">\n' + resolveLinks(r.html, d, lang, C.rel) + '\n</div>\n' +
@@ -415,22 +462,22 @@ function lessonPage(lang, ls) {
     '</article>\n' + pager;
   const learning = {
     '@context': 'https://schema.org', '@type': 'LearningResource', name: meta.title, description: meta.description, url: abs(d),
-    inLanguage: LANG[lang].htmlLang, learningResourceType: 'lesson', educationalLevel: T.grade(g.n),
+    inLanguage: LANG[lang].htmlLang, learningResourceType: 'lesson', educationalLevel: gName(lang, g),
     isPartOf: { '@type': 'Course', name: ch[lang], url: abs(chapterDir(lang, ch)), provider: { '@type': 'Organization', name: site.name, url: abs(homeDir(lang)) } }
   };
   if (meta.minutes) learning.timeRequired = 'PT' + meta.minutes + 'M';
   if (C.modified) learning.dateModified = C.modified;
   put(lang, d, alt, shell({
-    lang, dir: d, altDir: alt, title: meta.title + ' | ' + T.grade(g.n) + ' | ' + site.name, description: meta.description, ogType: 'article', body,
+    lang, dir: d, altDir: alt, title: meta.title + ' | ' + gName(lang, g) + ' | ' + site.name, description: meta.description, ogType: 'article', body,
     math: r.math > 0, level: g.level, side: { grade: g, lesson: ls.id, chapter: ch.id },
-    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: T.grade(g.n), url: abs(gradeDir(lang, g)) }, { name: ch[lang], url: abs(chapterDir(lang, ch)) }, { name: meta.title, url: abs(d) }]), learning]
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: gName(lang, g), url: abs(gradeDir(lang, g)) }, { name: ch[lang], url: abs(chapterDir(lang, ch)) }, { name: meta.title, url: abs(d) }]), learning]
   }), C.modified);
 }
 
 function worksheetPage(lang, ls) {
   const C = ls.content[lang], d = lessonDir(lang, ls);
   const r = worksheet({
-    lang, md: C.body, meta: C.meta, grade: ls.grade.n, number: ls.number, lessonUrl: abs(d), backHref: '../',
+    lang, md: C.body, meta: C.meta, grade: ls.grade.n, gradeLabel: gName(lang, ls.grade), number: ls.number, lessonUrl: abs(d), backHref: '../',
     assets: relFile(px.join(d, WS_DIR[lang]), 'assets') + '/',
     renderMd: (md) => resolveLinks(render(md, { marked, katex, lang, warn: (m) => warn(C.rel + ' (phiếu in): ' + m) }).html, px.join(d, WS_DIR[lang]), lang, C.rel + ' (phiếu in)')
   });
@@ -452,13 +499,14 @@ function aboutPage(lang, page, dirFn) {
 function searchIndex(lang) {
   const T = UI[lang];
   const rows = [];
-  grades.forEach((g) => {
+  rows.push({ t: T.examsNav, s: T.examsHome, u: examsDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
+  tracks.forEach((g) => {
     const full = g.status === 'full' && g.chapters.some((c) => c.lessons.length);
-    rows.push({ t: T.grade(g.n), s: T.levels[g.level][0], u: gradeDir(lang, g).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
+    rows.push({ t: gName(lang, g), s: T.levels[g.level][0], u: gradeDir(lang, g).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
     g.chapters.forEach((ch) => {
       const base = LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0;
-      rows.push({ t: ch[lang], s: T.grade(g.n) + ' · ' + T.chapterN(ch.number), u: (full && ch.lessons.length ? chapterDir(lang, ch) : gradeDir(lang, g)).slice(base) });
-      ch.lessons.forEach((ls) => rows.push({ t: ls.content[lang].meta.title, s: T.grade(g.n) + ' · ' + ch[lang], u: lessonDir(lang, ls).slice(base) }));
+      rows.push({ t: ch[lang], s: gName(lang, g) + ' · ' + T.chapterN(ch.number), u: (full && ch.lessons.length ? chapterDir(lang, ch) : gradeDir(lang, g)).slice(base) });
+      ch.lessons.forEach((ls) => rows.push({ t: ls.content[lang].meta.title, s: gName(lang, g) + ' · ' + ch[lang], u: lessonDir(lang, ls).slice(base) }));
     });
   });
   fs.mkdirSync(path.join(OUT, LANG[lang].prefix), { recursive: true });
@@ -549,6 +597,8 @@ function main() {
   const about = {};
   const paper = {}, parents = {}, week = {};
   LANGS.forEach((l) => { about[l] = loadPage(l, 'about'); paper[l] = loadPage(l, 'learn-on-paper'); parents[l] = loadPage(l, 'parents'); week[l] = loadPage(l, 'this-week'); });
+  const examsIntro = {};
+  LANGS.forEach((l) => { examsIntro[l] = loadPage(l, 'exams'); });
   if (errors.length) report();
 
   fs.rmSync(OUT, { recursive: true, force: true });
@@ -557,7 +607,8 @@ function main() {
 
   LANGS.forEach((lang) => {
     homePage(lang);
-    grades.forEach((g) => {
+    examsPage(lang, examsIntro[lang]);
+    tracks.forEach((g) => {
       gradePage(lang, g);
       if (g.status === 'full') g.chapters.filter((c) => c.lessons.length).forEach((c) => chapterPage(lang, c));
     });
@@ -572,7 +623,7 @@ function main() {
   fs.writeFileSync(path.join(OUT, '404.html'), notFoundHtml());
   writeSitemap();
   report();
-  console.log('Dựng xong: ' + lessons.length + ' bài × 2 ngôn ngữ, ' + grades.length + ' lớp -> ' + path.relative(process.cwd(), OUT) + '/');
+  console.log('Dựng xong: ' + lessons.length + ' bài × 2 ngôn ngữ, ' + grades.length + ' lớp, ' + exams.length + ' kì thi -> ' + path.relative(process.cwd(), OUT) + '/');
 }
 
 main();

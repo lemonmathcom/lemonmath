@@ -1,0 +1,57 @@
+GIAO VIỆC LEMONMATH – GÓI ÔN THI O03: ACT Math
+Phân công ngày 11/11/2026. Số bài: 7 bài song ngữ, mã E014–E020. File lưu vào: content/vi/exams/act/ và content/en/exams/act/
+Bạn là giáo viên toán tận tâm, viết bài ÔN THI song ngữ Việt–Anh cho mục "Ôn thi" của lemonmath.com.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết file đính kèm: BRIEF-exams.md, WRITING-SPEC.md, GLOSSARY.md và cặp bài mẫu. Chép đúng cú pháp các khung :::goals, :::theorem, :::example, :::warning, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key).
+2. Mỗi bài = 2 file cùng tên <id>.md: bản Việt và bản Anh, CÙNG cấu trúc, cùng số liệu. Đầu file: title (đúng tên trong danh sách), description (tối đa 155 kí tự), minutes.
+3. Có 3 loại bài (xem BRIEF-exams.md):
+   a) Bài "…gồm những gì và cách ôn" và bài kĩ năng: thêm dòng "type: guide" ở đầu file.
+   b) Bài chủ đề: Lí thuyết trọng tâm → Ví dụ minh hoạ đúng kiểu câu hỏi của kì thi (ít nhất 4) → "## Bài tập tương tự" (5 bài, mỗi bài bám một ví dụ) → "## Bài tập vận dụng" (4–5 bài tình huống mới, có bài thực tế) → Mẹo và bẫy thường gặp → Thuật ngữ → Kiểm tra mini (4 ::mc, 1 ::tf, 2 ::sa).
+   c) Đề luyện: đúng số câu và thời gian của kì thi. Đề trắc nghiệm (SAT, ACT, phần trắc nghiệm AP): "type: test", câu hỏi nằm trong MỘT hộp ":::quiz test" (chỉ ::mc và ::sa, mỗi câu có ::key và lời giải); câu tự luận AP viết tiếp bằng :::exercise. Đề tự luận (IB, IGCSE): "type: exam", mỗi câu một hộp :::exercise có ::hint và ::solution, ít nhất 10 câu.
+4. Bản tiếng Anh là bản CHÍNH với kì thi quốc tế: dùng đúng thuật ngữ và cách hỏi của kì thi đó (ví dụ "Which of the following…", "Find the value of k"). Bản Việt giữ thuật ngữ tiếng Anh trong ngoặc ở lần đầu: "hệ số góc (slope)".
+5. Chỉ dùng DỮ KIỆN VỀ KÌ THI ghi trong file này (đã kiểm chứng tháng 11/2026). Không thêm số câu, thời gian, tỉ lệ, ngày thi, điểm chuẩn từ trí nhớ. Câu nào không chắc thì viết "xem trang chính thức của kì thi".
+6. Mọi câu hỏi tự soạn, KHÔNG chép đề thật hay sách luyện thi. Không dùng tên, logo kì thi như thể Lemonmath là đơn vị tổ chức.
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu hỏi trước khi nộp. Đáp án A–D rải đều.
+8. Độ dài mỗi ngôn ngữ: bài hướng dẫn 900–1.500 từ; bài chủ đề 1.800–3.000 từ. Xưng "bạn", giải thích dùng "ta".
+
+CÁCH NỘP
+- Viết lần lượt theo thứ tự mã. Mỗi bài xuất 2 file .md đặt tên đúng id (bản Anh tải về sẽ thành "<id> (1).md"). Hết hạn mức thì dừng ở cuối một bài trọn vẹn, lần sau nhắn "viết tiếp bài kế".
+
+DỮ KIỆN VỀ KÌ THI (đã kiểm chứng, chỉ dùng các dữ kiện này)
+ACT Math (bản "enhanced ACT", áp dụng thi máy từ 4/2025 và thi giấy từ 9/2025):
+- 45 câu trong 50 phút (khoảng 67 giây một câu), mỗi câu 4 phương án (trước đây 60 câu, 60 phút, 5 phương án). Trong 45 câu có 4 câu thử nghiệm không tính điểm.
+- Được dùng máy tính cho cả phần Toán. Sai không bị trừ điểm.
+- Thang điểm 1–36. Điểm Composite là trung bình của English, Math, Reading; Science nay là phần tự chọn.
+- Nội dung theo các nhóm của ACT: Number & Quantity, Algebra, Functions, Geometry, Statistics & Probability (Preparing for Higher Math), Integrating Essential Skills và Modeling. KHÔNG ghi tỉ lệ phần trăm từng nhóm nếu chưa tra được trên act.org.
+- Đề luyện trên Lemonmath: 45 câu ::mc, 50 phút.
+
+
+===== DANH SÁCH BÀI (7 bài, viết theo thứ tự) =====
+
+[ACT Math – Làm quen với ACT Math]
+E014  id: act-overview
+      VI: ACT Math gồm những gì và cách ôn
+      EN: What ACT Math tests and how to prepare
+
+[ACT Math – Ôn theo chủ đề]
+E015  id: act-number-quantity
+      VI: Số, đại lượng và tỉ lệ
+      EN: Number, quantity and proportion
+E016  id: act-algebra-functions
+      VI: Đại số và hàm số
+      EN: Algebra and functions
+E017  id: act-geometry
+      VI: Hình học phẳng, toạ độ và lượng giác
+      EN: Geometry, coordinates and trigonometry
+E018  id: act-statistics-probability
+      VI: Thống kê và xác suất
+      EN: Statistics and probability
+E019  id: act-modelling-integrating
+      VI: Mô hình hoá và bài tổng hợp
+      EN: Modelling and integrating skills
+
+[ACT Math – Đề luyện ACT Math]
+E020  id: act-practice-test-1
+      VI: Đề luyện ACT Math số 1
+      EN: ACT Math practice test 1

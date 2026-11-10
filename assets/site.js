@@ -169,7 +169,7 @@
     var num = function (s) { s = String(s).replace(/\s/g, '').replace(',', '.'); return s === '' ? NaN : Number(s); };
     var fmt = function (x) { var t = (Math.round(x * 100) / 100).toString(); return isVi ? t.replace('.', ',') : t; };
     submit.addEventListener('click', function () {
-      var got = 0, max = 0;
+      var got = 0, max = 0, plain = qz.hasAttribute('data-count');
       $$('.qz-item', qz).forEach(function (it) {
         var t = it.getAttribute('data-type'), key = it.getAttribute('data-key'), ok = false, pts = 0;
         if (t === 'mc') {
@@ -190,11 +190,12 @@
           var v = num($('input', it).value), w = num(key);
           ok = !isNaN(v) && Math.abs(v - w) < 1e-9; pts = ok ? 0.5 : 0;
         }
+        if (plain) { max += 1 - (t === 'mc' ? 0.25 : t === 'tf' ? 1 : 0.5); pts = ok ? 1 : 0; }
         got += pts;
         it.classList.toggle('qz-ok', ok); it.classList.toggle('qz-no', !ok);
         var e = $('.qz-expl', it); if (e) e.hidden = false;
       });
-      out.textContent = (isVi ? 'Điểm của bạn: ' : 'Your score: ') + fmt(got) + ' / ' + fmt(max) + (isVi ? ' (quy ra thang 10: ' : ' (out of 10: ') + fmt(got / max * 10) + ')';
+      out.textContent = plain ? (isVi ? 'Số câu đúng: ' : 'Correct answers: ') + got + ' / ' + max : (isVi ? 'Điểm của bạn: ' : 'Your score: ') + fmt(got) + ' / ' + fmt(max) + (isVi ? ' (quy ra thang 10: ' : ' (out of 10: ') + fmt(got / max * 10) + ')';
       submit.hidden = true; retry.hidden = false;
     });
     retry.addEventListener('click', function () {

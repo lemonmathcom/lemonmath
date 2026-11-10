@@ -1,0 +1,71 @@
+GIAO VIỆC LEMONMATH – GÓI ÔN THI O07: AP Statistics
+Phân công ngày 11/11/2026. Số bài: 10 bài song ngữ, mã E045–E054. File lưu vào: content/vi/exams/ap-statistics/ và content/en/exams/ap-statistics/
+Bạn là giáo viên toán tận tâm, viết bài ÔN THI song ngữ Việt–Anh cho mục "Ôn thi" của lemonmath.com.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết file đính kèm: BRIEF-exams.md, WRITING-SPEC.md, GLOSSARY.md và cặp bài mẫu. Chép đúng cú pháp các khung :::goals, :::theorem, :::example, :::warning, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key).
+2. Mỗi bài = 2 file cùng tên <id>.md: bản Việt và bản Anh, CÙNG cấu trúc, cùng số liệu. Đầu file: title (đúng tên trong danh sách), description (tối đa 155 kí tự), minutes.
+3. Có 3 loại bài (xem BRIEF-exams.md):
+   a) Bài "…gồm những gì và cách ôn" và bài kĩ năng: thêm dòng "type: guide" ở đầu file.
+   b) Bài chủ đề: Lí thuyết trọng tâm → Ví dụ minh hoạ đúng kiểu câu hỏi của kì thi (ít nhất 4) → "## Bài tập tương tự" (5 bài, mỗi bài bám một ví dụ) → "## Bài tập vận dụng" (4–5 bài tình huống mới, có bài thực tế) → Mẹo và bẫy thường gặp → Thuật ngữ → Kiểm tra mini (4 ::mc, 1 ::tf, 2 ::sa).
+   c) Đề luyện: đúng số câu và thời gian của kì thi. Đề trắc nghiệm (SAT, ACT, phần trắc nghiệm AP): "type: test", câu hỏi nằm trong MỘT hộp ":::quiz test" (chỉ ::mc và ::sa, mỗi câu có ::key và lời giải); câu tự luận AP viết tiếp bằng :::exercise. Đề tự luận (IB, IGCSE): "type: exam", mỗi câu một hộp :::exercise có ::hint và ::solution, ít nhất 10 câu.
+4. Bản tiếng Anh là bản CHÍNH với kì thi quốc tế: dùng đúng thuật ngữ và cách hỏi của kì thi đó (ví dụ "Which of the following…", "Find the value of k"). Bản Việt giữ thuật ngữ tiếng Anh trong ngoặc ở lần đầu: "hệ số góc (slope)".
+5. Chỉ dùng DỮ KIỆN VỀ KÌ THI ghi trong file này (đã kiểm chứng tháng 11/2026). Không thêm số câu, thời gian, tỉ lệ, ngày thi, điểm chuẩn từ trí nhớ. Câu nào không chắc thì viết "xem trang chính thức của kì thi".
+6. Mọi câu hỏi tự soạn, KHÔNG chép đề thật hay sách luyện thi. Không dùng tên, logo kì thi như thể Lemonmath là đơn vị tổ chức.
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu hỏi trước khi nộp. Đáp án A–D rải đều.
+8. Độ dài mỗi ngôn ngữ: bài hướng dẫn 900–1.500 từ; bài chủ đề 1.800–3.000 từ. Xưng "bạn", giải thích dùng "ta".
+
+CÁCH NỘP
+- Viết lần lượt theo thứ tự mã. Mỗi bài xuất 2 file .md đặt tên đúng id (bản Anh tải về sẽ thành "<id> (1).md"). Hết hạn mức thì dừng ở cuối một bài trọn vẹn, lần sau nhắn "viết tiếp bài kế".
+
+DỮ KIỆN VỀ KÌ THI (đã kiểm chứng, chỉ dùng các dữ kiện này)
+AP Statistics (College Board; KHUNG CHƯƠNG TRÌNH MỚI 2026–27, kì thi tháng 5/2027 thi hoàn toàn trên Bluebook):
+- Section I: 42 câu trắc nghiệm, mỗi câu 4 phương án, 90 phút, 50% điểm; có 2 cụm 3 câu (một cụm về xác suất/biến ngẫu nhiên/phân phối, một cụm về hồi quy).
+- Section II: 4 câu tự luận, mỗi câu 10 điểm, 90 phút, 50% điểm. Bốn dạng: (1) đặt câu hỏi và thu thập dữ liệu; (2) phân tích dữ liệu và diễn giải kết quả; (3) suy luận thống kê; (4) câu tổng hợp nhiều mảng. KHÔNG còn "investigative task" (câu 6 cũ).
+- Chương trình gom từ 9 unit còn 5 unit. Các mục ĐÃ BỎ, không viết: phân tích độ lệch khỏi tuyến tính (biến đổi dữ liệu), tổ hợp biến ngẫu nhiên, phân phối hình học, kiểm định chi bình phương goodness of fit, suy luận cho hệ số góc hồi quy. Mục MỚI: câu hỏi khảo sát thống kê (investigative questions).
+- Trước khi viết về kiểm định chi bình phương khác (độc lập, thuần nhất), hãy tra AP Central xem còn trong khung mới không; nếu không tra được thì KHÔNG đưa vào.
+- Được dùng máy tính đồ thị cầm tay và Desmos trong Bluebook; có bảng công thức.
+- Thang điểm 1–5.
+
+
+===== DANH SÁCH BÀI (10 bài, viết theo thứ tự) =====
+
+[AP Statistics – Làm quen với AP Statistics]
+E045  id: apstats-overview
+      VI: AP Statistics gồm những gì và cách ôn
+      EN: What AP Statistics tests and how to prepare
+
+[AP Statistics – Dữ liệu và thu thập dữ liệu]
+E046  id: apstats-one-variable-data
+      VI: Mô tả dữ liệu một biến
+      EN: Describing one-variable data
+E047  id: apstats-two-variable-regression
+      VI: Dữ liệu hai biến và hồi quy tuyến tính
+      EN: Two-variable data and linear regression
+E048  id: apstats-collecting-data
+      VI: Chọn mẫu, nghiên cứu quan sát và thí nghiệm
+      EN: Sampling, observational studies and experiments
+
+[AP Statistics – Xác suất và phân phối mẫu]
+E049  id: apstats-probability-random-variables
+      VI: Xác suất và biến ngẫu nhiên
+      EN: Probability and random variables
+E050  id: apstats-sampling-distributions
+      VI: Phân phối chuẩn và phân phối mẫu
+      EN: Normal models and sampling distributions
+
+[AP Statistics – Suy luận thống kê]
+E051  id: apstats-inference-proportions
+      VI: Suy luận cho tỉ lệ
+      EN: Inference for proportions
+E052  id: apstats-inference-means
+      VI: Suy luận cho trung bình
+      EN: Inference for means
+
+[AP Statistics – Tự luận và đề luyện]
+E053  id: apstats-frq-strategies
+      VI: Bốn dạng câu tự luận mới và cách viết lời giải
+      EN: The four new free-response types and how to answer
+E054  id: apstats-practice-exam-1
+      VI: Đề luyện AP Statistics số 1
+      EN: AP Statistics practice exam 1

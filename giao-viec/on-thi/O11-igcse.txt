@@ -1,0 +1,70 @@
+GIAO VIỆC LEMONMATH – GÓI ÔN THI O11: Cambridge IGCSE Mathematics (0580)
+Phân công ngày 11/11/2026. Số bài: 11 bài song ngữ, mã E076–E086. File lưu vào: content/vi/exams/igcse/ và content/en/exams/igcse/
+Bạn là giáo viên toán tận tâm, viết bài ÔN THI song ngữ Việt–Anh cho mục "Ôn thi" của lemonmath.com.
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết file đính kèm: BRIEF-exams.md, WRITING-SPEC.md, GLOSSARY.md và cặp bài mẫu. Chép đúng cú pháp các khung :::goals, :::theorem, :::example, :::warning, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key).
+2. Mỗi bài = 2 file cùng tên <id>.md: bản Việt và bản Anh, CÙNG cấu trúc, cùng số liệu. Đầu file: title (đúng tên trong danh sách), description (tối đa 155 kí tự), minutes.
+3. Có 3 loại bài (xem BRIEF-exams.md):
+   a) Bài "…gồm những gì và cách ôn" và bài kĩ năng: thêm dòng "type: guide" ở đầu file.
+   b) Bài chủ đề: Lí thuyết trọng tâm → Ví dụ minh hoạ đúng kiểu câu hỏi của kì thi (ít nhất 4) → "## Bài tập tương tự" (5 bài, mỗi bài bám một ví dụ) → "## Bài tập vận dụng" (4–5 bài tình huống mới, có bài thực tế) → Mẹo và bẫy thường gặp → Thuật ngữ → Kiểm tra mini (4 ::mc, 1 ::tf, 2 ::sa).
+   c) Đề luyện: đúng số câu và thời gian của kì thi. Đề trắc nghiệm (SAT, ACT, phần trắc nghiệm AP): "type: test", câu hỏi nằm trong MỘT hộp ":::quiz test" (chỉ ::mc và ::sa, mỗi câu có ::key và lời giải); câu tự luận AP viết tiếp bằng :::exercise. Đề tự luận (IB, IGCSE): "type: exam", mỗi câu một hộp :::exercise có ::hint và ::solution, ít nhất 10 câu.
+4. Bản tiếng Anh là bản CHÍNH với kì thi quốc tế: dùng đúng thuật ngữ và cách hỏi của kì thi đó (ví dụ "Which of the following…", "Find the value of k"). Bản Việt giữ thuật ngữ tiếng Anh trong ngoặc ở lần đầu: "hệ số góc (slope)".
+5. Chỉ dùng DỮ KIỆN VỀ KÌ THI ghi trong file này (đã kiểm chứng tháng 11/2026). Không thêm số câu, thời gian, tỉ lệ, ngày thi, điểm chuẩn từ trí nhớ. Câu nào không chắc thì viết "xem trang chính thức của kì thi".
+6. Mọi câu hỏi tự soạn, KHÔNG chép đề thật hay sách luyện thi. Không dùng tên, logo kì thi như thể Lemonmath là đơn vị tổ chức.
+7. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu hỏi trước khi nộp. Đáp án A–D rải đều.
+8. Độ dài mỗi ngôn ngữ: bài hướng dẫn 900–1.500 từ; bài chủ đề 1.800–3.000 từ. Xưng "bạn", giải thích dùng "ta".
+
+CÁCH NỘP
+- Viết lần lượt theo thứ tự mã. Mỗi bài xuất 2 file .md đặt tên đúng id (bản Anh tải về sẽ thành "<id> (1).md"). Hết hạn mức thì dừng ở cuối một bài trọn vẹn, lần sau nhắn "viết tiếp bài kế".
+
+DỮ KIỆN VỀ KÌ THI (đã kiểm chứng, chỉ dùng các dữ kiện này)
+Cambridge IGCSE Mathematics 0580 (syllabus cho các kì thi 2025, 2026, 2027; thi tháng 6 và tháng 11):
+- Core (điểm C–G): Paper 1 không máy tính và Paper 3 có máy tính, mỗi bài 1 giờ 30 phút, mỗi bài 50%.
+- Extended (điểm A*–E): Paper 2 không máy tính và Paper 4 có máy tính, mỗi bài 2 giờ, 100 điểm, mỗi bài 50%.
+- Điểm mới từ 2025: mỗi cấp có MỘT bài không máy tính; có bảng công thức in trong đề (riêng cho Core và Extended). Bài có máy tính dùng máy tính khoa học.
+- 9 mảng nội dung: Number; Algebra and graphs; Coordinate geometry; Geometry; Mensuration; Trigonometry; Transformations and vectors; Probability; Statistics.
+- Kết quả gần đúng lấy 3 chữ số có nghĩa, góc lấy 1 chữ số thập phân, trừ khi đề yêu cầu khác. Lemonmath viết theo cấp Extended.
+- Đề luyện trên Lemonmath: câu hỏi có cấu trúc, viết bằng :::exercise (không dùng :::quiz), ghi [số điểm] sau mỗi ý, tổng 100 điểm.
+
+
+===== DANH SÁCH BÀI (11 bài, viết theo thứ tự) =====
+
+[Cambridge IGCSE Mathematics (0580) – Làm quen với IGCSE Mathematics]
+E076  id: igcse-overview
+      VI: IGCSE Mathematics gồm những gì và cách ôn
+      EN: What IGCSE Mathematics tests and how to revise
+
+[Cambridge IGCSE Mathematics (0580) – Ôn theo chủ đề (Extended)]
+E077  id: igcse-number
+      VI: Số: phân số, phần trăm, chỉ số, cận trên – cận dưới
+      EN: Number: fractions, percentages, indices, bounds
+E078  id: igcse-algebra-graphs
+      VI: Đại số và đồ thị
+      EN: Algebra and graphs
+E079  id: igcse-coordinate-geometry
+      VI: Hình học toạ độ
+      EN: Coordinate geometry
+E080  id: igcse-geometry
+      VI: Hình học: góc, đồng dạng, định lí đường tròn
+      EN: Geometry: angles, similarity, circle theorems
+E081  id: igcse-mensuration
+      VI: Đo lường: chu vi, diện tích, thể tích
+      EN: Mensuration: perimeter, area, volume
+E082  id: igcse-trigonometry
+      VI: Lượng giác
+      EN: Trigonometry
+E083  id: igcse-transformations-vectors
+      VI: Phép biến hình và véc-tơ
+      EN: Transformations and vectors
+E084  id: igcse-probability-statistics
+      VI: Xác suất và thống kê
+      EN: Probability and statistics
+
+[Cambridge IGCSE Mathematics (0580) – Đề luyện]
+E085  id: igcse-practice-paper-2
+      VI: Đề luyện Paper 2 (không máy tính)
+      EN: Practice Paper 2 (non-calculator)
+E086  id: igcse-practice-paper-4
+      VI: Đề luyện Paper 4 (có máy tính)
+      EN: Practice Paper 4 (calculator)
