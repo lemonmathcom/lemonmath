@@ -356,29 +356,29 @@ Xét tam giác $ABH$ vuông tại $H$, ta có $AH=BH\cdot\tan B=6\cdot\dfrac{\sq
 :::quiz
 ::mc
 Cho tam giác $ABC$ vuông tại $A$. Khi đó $\sin B$ bằng
-A. $\dfrac{AC}{BC}$.
+A. $\dfrac{AC}{AB}$.
 B. $\dfrac{AB}{BC}$.
-C. $\dfrac{AC}{AB}$.
+C. $\dfrac{AC}{BC}$.
 D. $\dfrac{AB}{AC}$.
-::key A
-Cạnh đối của góc $B$ là $AC$, cạnh huyền là $BC$, nên $\sin B=\dfrac{AC}{BC}$. Phương án B là $\cos B$, C là $\tan B$, D là $\cot B$.
+::key C
+Cạnh đối của góc $B$ là $AC$, cạnh huyền là $BC$, nên $\sin B=\dfrac{AC}{BC}$. Phương án B là $\cos B$, A là $\tan B$, D là $\cot B$.
 
 ::mc
 $\tan60^\circ$ bằng
-A. $\sqrt3$.
-B. $\dfrac{\sqrt3}3$.
+A. $\dfrac{\sqrt3}3$.
+B. $\dfrac12$.
 C. $\dfrac{\sqrt3}2$.
-D. $\dfrac12$.
-::key A
-Ta có $\tan60^\circ=\sqrt3$ (trong nửa tam giác đều cạnh $2$, cạnh đối của góc $60^\circ$ là $\sqrt3$, cạnh kề là $1$). Phương án B là $\tan30^\circ$, C là $\sin60^\circ$.
+D. $\sqrt3$.
+::key D
+Ta có $\tan60^\circ=\sqrt3$ (trong nửa tam giác đều cạnh $2$, cạnh đối của góc $60^\circ$ là $\sqrt3$, cạnh kề là $1$). Phương án A là $\tan30^\circ$, C là $\sin60^\circ$.
 
 ::mc
 $\cos52^\circ$ bằng
-A. $\sin38^\circ$.
+A. $\sin52^\circ$.
 B. $\cos38^\circ$.
-C. $\sin52^\circ$.
-D. $\tan38^\circ$.
-::key A
+C. $\tan38^\circ$.
+D. $\sin38^\circ$.
+::key D
 Vì $52^\circ+38^\circ=90^\circ$ (hai góc phụ nhau) nên $\cos52^\circ=\sin38^\circ$. Phương án B giữ nguyên cos khi đổi sang góc phụ.
 
 ::mc

@@ -435,30 +435,30 @@ So $\sqrt{x_1}+\sqrt{x_2}=\sqrt{10}$.
 :::quiz
 ::mc
 The sum of the roots of the equation $2x^2-6x-5=0$ is
-A. $3$.
-B. $-3$.
+A. $-3$.
+B. $3$.
 C. $-\dfrac52$.
 D. $6$.
-::key A
-$a$ and $c$ have opposite signs, so there are two roots; $S=-\dfrac{-6}{2}=3$. B has the wrong sign, C is the product, and D forgets to divide by $a$.
+::key B
+$a$ and $c$ have opposite signs, so there are two roots; $S=-\dfrac{-6}{2}=3$. A has the wrong sign, C is the product, and D forgets to divide by $a$.
 
 ::mc
 The product of the roots of the equation $3x^2+7x-6=0$ is
-A. $-2$.
-B. $2$.
+A. $2$.
+B. $-6$.
 C. $-\dfrac73$.
-D. $-6$.
-::key A
-$P=\dfrac ca=\dfrac{-6}{3}=-2$. B has the wrong sign, C is the sum, and D forgets to divide by $a$.
+D. $-2$.
+::key D
+$P=\dfrac ca=\dfrac{-6}{3}=-2$. A has the wrong sign, C is the sum, and B forgets to divide by $a$.
 
 ::mc
 The roots of the equation $4x^2-9x+5=0$ are
-A. $1$ and $\dfrac54$.
+A. $1$ and $-\dfrac54$.
 B. $-1$ and $-\dfrac54$.
-C. $1$ and $-\dfrac54$.
+C. $1$ and $\dfrac54$.
 D. $1$ and $5$.
-::key A
-$a+b+c=4-9+5=0$, so $x_1=1$ and $x_2=\dfrac ca=\dfrac54$. B uses the rule for $a-b+c=0$ by mistake, C has the wrong sign of $\dfrac ca$, and D forgets to divide by $a$.
+::key C
+$a+b+c=4-9+5=0$, so $x_1=1$ and $x_2=\dfrac ca=\dfrac54$. B uses the rule for $a-b+c=0$ by mistake, A has the wrong sign of $\dfrac ca$, and D forgets to divide by $a$.
 
 ::mc
 Two numbers with sum $9$ and product $20$ are the roots of the equation

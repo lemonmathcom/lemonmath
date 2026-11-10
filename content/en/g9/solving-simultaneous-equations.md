@@ -313,12 +313,12 @@ Adding: $2x=8$, $x=4$, $y=1$. B swaps the order; C fits only the first equation;
 
 ::mc
 To eliminate $y$ from $\begin{cases} 2x+3y=7\\ 5x-2y=8 \end{cases}$, you should
-A. multiply the first equation by $2$ and the second by $3$, then add.
+A. multiply the first equation by $2$ and the second by $3$, then subtract.
 B. multiply the first equation by $3$ and the second by $2$, then add.
-C. multiply the first equation by $2$ and the second by $3$, then subtract.
+C. multiply the first equation by $2$ and the second by $3$, then add.
 D. multiply the first equation by $5$ and the second by $2$, then subtract.
-::key A
-This gives $6y$ and $-6y$, which are opposite, so add: $19x=38$. C subtracts, so $y$ remains; D eliminates $x$, not $y$.
+::key C
+This gives $6y$ and $-6y$, which are opposite, so add: $19x=38$. A subtracts, so $y$ remains; D eliminates $x$, not $y$.
 
 ::mc
 The simultaneous equations $\begin{cases} x-2y=3\\ -2x+4y=1 \end{cases}$
@@ -331,12 +331,12 @@ Substitute $x=3+2y$: $-6-4y+4y=1\iff 0y=7$, no solution. $(3, 0)$ fits only the 
 
 ::mc
 $2$ bánh mì (Vietnamese baguettes) and $1$ carton of milk cost $31$ thousand đồng; $1$ bánh mì and $2$ cartons of milk cost $26$ thousand đồng. The price of one bánh mì is
-A. $12$ thousand đồng.
+A. $5$ thousand đồng.
 B. $7$ thousand đồng.
 C. $19$ thousand đồng.
-D. $5$ thousand đồng.
-::key A
-Adding: $3(x+y)=57$, $x+y=19$; subtracting: $x-y=5$; so $x=12$, $y=7$. B is the price of milk, C the sum, D the difference.
+D. $12$ thousand đồng.
+::key D
+Adding: $3(x+y)=57$, $x+y=19$; subtracting: $x-y=5$; so $x=12$, $y=7$. B is the price of milk, C the sum, A the difference.
 
 ::tf
 Consider $\begin{cases} 3x+y=7\\ x-y=1 \end{cases}$

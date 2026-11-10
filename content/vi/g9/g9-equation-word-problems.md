@@ -354,12 +354,12 @@ Vậy giá vé mới là $40$ nghìn đồng.
 :::quiz
 ::mc
 Hai số tự nhiên liên tiếp có tích bằng $110$. Gọi số nhỏ là $x$, phương trình nào sau đây đúng?
-A. $x(x+1)=110$.
-B. $x+(x+1)=110$.
+A. $x+(x+1)=110$.
+B. $x(x+1)=110$.
 C. $x^2+1=110$.
 D. $2x+1=110$.
-::key A
-Số liền sau là $x+1$ và tích của chúng là $x(x+1)$. B và D là tổng, C nhầm $x(x+1)$ với $x^2+1$.
+::key B
+Số liền sau là $x+1$ và tích của chúng là $x(x+1)$. A và D là tổng, C nhầm $x(x+1)$ với $x^2+1$.
 
 ::mc
 Một ô tô đi quãng đường $90$ km với vận tốc $x$ (km/h). Nếu tăng vận tốc thêm $15$ km/h thì đến sớm hơn $1$ giờ. Phương trình nào sau đây đúng?
@@ -372,21 +372,21 @@ Thời gian lúc đầu lớn hơn nên lấy $\dfrac{90}{x}-\dfrac{90}{x+15}=1$
 
 ::mc
 Khi giải một bài toán với ẩn $x$ là chiều rộng (m), ta được phương trình $x^2+3x-70=0$ có hai nghiệm $7$ và $-10$. Chiều rộng là
-A. $7$ m.
+A. $7$ m hoặc $10$ m.
 B. $-10$ m.
-C. $7$ m hoặc $10$ m.
-D. $10$ m.
-::key A
-Điều kiện $x>0$ nên loại $-10$; D và C bỏ dấu trừ một cách sai lầm.
+C. $10$ m.
+D. $7$ m.
+::key D
+Điều kiện $x>0$ nên loại $-10$; C và A bỏ dấu trừ một cách sai lầm.
 
 ::mc
 Giá một sản phẩm sau hai lần tăng, mỗi lần tăng $r\%$ so với giá trước đó, đã tăng từ $200$ nghìn đồng lên $242$ nghìn đồng. Giá trị của $r$ là
-A. $10$.
+A. $11$.
 B. $21$.
 C. $10{,}5$.
-D. $11$.
-::key A
-$\left(1+\dfrac{r}{100}\right)^2=\dfrac{242}{200}=1{,}21$ nên $1+\dfrac{r}{100}=1{,}1$, tức $r=10$. B là mức tăng tổng cộng, C chia $21\%$ cho $2$, D lấy nhầm $\sqrt{121}=11$.
+D. $10$.
+::key D
+$\left(1+\dfrac{r}{100}\right)^2=\dfrac{242}{200}=1{,}21$ nên $1+\dfrac{r}{100}=1{,}1$, tức $r=10$. B là mức tăng tổng cộng, C chia $21\%$ cho $2$, A lấy nhầm $\sqrt{121}=11$.
 
 ::tf
 Một mảnh vườn hình chữ nhật có chiều dài hơn chiều rộng $4$ m và diện tích bằng $96$ m². Gọi chiều rộng là $x$ (m), $x>0$. Xét tính đúng sai của các mệnh đề sau:

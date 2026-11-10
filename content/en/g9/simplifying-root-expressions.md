@@ -350,21 +350,21 @@ We have $\sqrt{72}=\sqrt{36\cdot2}=6\sqrt2$. Option B forgets to take the root o
 
 ::mc
 Rationalising the denominator of $\dfrac{6}{\sqrt2}$ gives
-A. $3\sqrt2$.
+A. $\sqrt3$.
 B. $6\sqrt2$.
-C. $\sqrt3$.
+C. $3\sqrt2$.
 D. $3$.
-::key A
-We have $\dfrac{6}{\sqrt2}=\dfrac{6\sqrt2}{2}=3\sqrt2$. Option B forgets to divide by $2$, C divides $6$ by $2$ under the root sign, and D loses the root in the numerator.
+::key C
+We have $\dfrac{6}{\sqrt2}=\dfrac{6\sqrt2}{2}=3\sqrt2$. Option B forgets to divide by $2$, A divides $6$ by $2$ under the root sign, and D loses the root in the numerator.
 
 ::mc
 $\dfrac{1}{\sqrt5-2}$ equals
-A. $\sqrt5+2$.
+A. $-\sqrt5-2$.
 B. $\sqrt5-2$.
 C. $\dfrac{\sqrt5+2}{3}$.
-D. $-\sqrt5-2$.
-::key A
-We have $\dfrac{1}{\sqrt5-2}=\dfrac{\sqrt5+2}{5-4}=\sqrt5+2$. Option C works out the denominator as $5-2$ (forgetting to square $2$), and D as $4-5$.
+D. $\sqrt5+2$.
+::key D
+We have $\dfrac{1}{\sqrt5-2}=\dfrac{\sqrt5+2}{5-4}=\sqrt5+2$. Option C works out the denominator as $5-2$ (forgetting to square $2$), and A as $4-5$.
 
 ::mc
 For $a<0$, $a\sqrt3$ equals

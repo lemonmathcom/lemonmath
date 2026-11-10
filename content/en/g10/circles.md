@@ -393,11 +393,11 @@ Write $x+3=x-(-3)$ and $y-1$, so the centre is $(-3, 1)$; the right side is $R^2
 ::mc
 Which of these is the equation of a circle?
 A. $x^2+y^2-2x+4y+6=0$.
-B. $x^2+2y^2-4x+1=0$.
-C. $x^2+y^2+4x-2y+1=0$.
+B. $x^2+y^2+4x-2y+1=0$.
+C. $x^2+2y^2-4x+1=0$.
 D. $x^2+y^2-4x+2y+5=0$.
-::key C
-For C: $a=-2$, $b=1$, $c=1$, so $a^2+b^2-c=4>0$. For A, $a^2+b^2-c=-1<0$; for D it equals $0$ (a single point); in B the coefficients of $x^2$ and $y^2$ are different.
+::key B
+For B: $a=-2$, $b=1$, $c=1$, so $a^2+b^2-c=4>0$. For A, $a^2+b^2-c=-1<0$; for D it equals $0$ (a single point); in C the coefficients of $x^2$ and $y^2$ are different.
 
 ::mc
 The circle with diameter $AB$, where $A(-1, 2)$ and $B(3, -4)$, has equation
@@ -412,9 +412,9 @@ The centre is the midpoint $(1, -1)$ of $AB$. $AB^2=16+36=52$, so $R^2=\dfrac{AB
 The tangent to the circle $(x-2)^2+(y+1)^2=10$ at the point $M(3, 2)$ is
 A. $3x-y-7=0$.
 B. $x+3y+1=0$.
-C. $x+3y-9=0$.
-D. $x-3y+3=0$.
-::key C
+C. $x-3y+3=0$.
+D. $x+3y-9=0$.
+::key D
 $\overrightarrow{IM}=(1, 3)$ is a normal vector and the tangent passes through $M$: $(x-3)+3(y-2)=0\iff x+3y-9=0$. Option A uses $\overrightarrow{IM}$ as a direction vector, and B is the line through the centre $I$.
 
 ::tf

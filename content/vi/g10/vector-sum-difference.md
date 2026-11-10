@@ -445,29 +445,29 @@ Hiệu hai vế bằng $\vec{0}$ nên hai vế bằng nhau.
 :::quiz
 ::mc
 Với ba điểm bất kì $A$, $B$, $C$, vectơ $\overrightarrow{AB}+\overrightarrow{CA}$ bằng
-A. $\overrightarrow{CB}$.
+A. $\vec{0}$.
 B. $\overrightarrow{BC}$.
 C. $\overrightarrow{AC}$.
-D. $\vec{0}$.
-::key A
+D. $\overrightarrow{CB}$.
+::key D
 Đổi chỗ để điểm cuối vectơ trước là điểm đầu vectơ sau: $\overrightarrow{CA}+\overrightarrow{AB}=\overrightarrow{CB}$. Phương án B viết ngược hướng.
 
 ::mc
 Với hai điểm $A$, $B$ và điểm $M$ bất kì, $\overrightarrow{MA}-\overrightarrow{MB}$ bằng
-A. $\overrightarrow{AB}$.
-B. $\overrightarrow{BA}$.
+A. $\overrightarrow{BA}$.
+B. $\overrightarrow{AB}$.
 C. $\vec{0}$.
 D. $2\overrightarrow{MA}$.
-::key B
-Hiệu của hai vectơ chung điểm đầu là vectơ nối hai điểm cuối, hướng về điểm cuối của vectơ thứ nhất: $\overrightarrow{MA}-\overrightarrow{MB}=\overrightarrow{BA}$. Phương án A là lỗi đổi thứ tự.
+::key A
+Hiệu của hai vectơ chung điểm đầu là vectơ nối hai điểm cuối, hướng về điểm cuối của vectơ thứ nhất: $\overrightarrow{MA}-\overrightarrow{MB}=\overrightarrow{BA}$. Phương án B là lỗi đổi thứ tự.
 
 ::mc
 Hình vuông $ABCD$ có cạnh $3$. Độ dài của $\overrightarrow{AB}+\overrightarrow{AD}$ là
 A. $6$.
-B. $3\sqrt2$.
-C. $3$.
+B. $3$.
+C. $3\sqrt2$.
 D. $0$.
-::key B
+::key C
 Theo quy tắc hình bình hành, $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$, và $AC=\sqrt{3^2+3^2}=3\sqrt2$. Phương án A cộng thẳng hai độ dài.
 
 ::mc

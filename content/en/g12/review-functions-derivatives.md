@@ -412,21 +412,21 @@ $y'=3ax^2+2bx+c$. From $y(0)=2$ and $y'(0)=0$: $d=2$, $c=0$. From $y'(2)=0$: $12
 :::quiz
 ::mc
 The function $y=f(x)$ has derivative $f'(x)=(x-1)(x+3)$. On which interval is it increasing?
-A. $(1, +\infty)$.
-B. $(-3, 1)$.
+A. $(-3, 1)$.
+B. $(1, +\infty)$.
 C. $(-\infty, 1)$.
 D. $(-3, +\infty)$.
-::key A
-$f'(x)>0\iff x<-3$ or $x>1$. Option B is where the function decreases; C and D contain part of $(-3, 1)$, where $f'<0$.
+::key B
+$f'(x)>0\iff x<-3$ or $x>1$. Option A is where the function decreases; C and D contain part of $(-3, 1)$, where $f'<0$.
 
 ::mc
 How many vertical asymptotes does the graph of $y=\dfrac{x+2}{x^2-4}$ have?
-A. $1$.
-B. $2$.
+A. $2$.
+B. $3$.
 C. $0$.
-D. $3$.
-::key A
-For $x\ne-2$, $y=\dfrac{1}{x-2}$; as $x\to-2$, $y\to-\dfrac14$, so $x=-2$ is not a vertical asymptote. Only $x=2$ remains. Option B forgets to cancel.
+D. $1$.
+::key D
+For $x\ne-2$, $y=\dfrac{1}{x-2}$; as $x\to-2$, $y\to-\dfrac14$, so $x=-2$ is not a vertical asymptote. Only $x=2$ remains. Option A forgets to cancel.
 
 ::mc
 The maximum value of $y=-x^3+3x+1$ on $[0, 2]$ is
@@ -446,12 +446,12 @@ The function $y=f(x)$ has this table of variations:
 | $f(x)$ | $-\infty$ | $\nearrow$ | $4$ | $\searrow$ | $0$ | $\nearrow$ | $+\infty$ |
 
 The local minimum value of the function is
-A. $0$.
+A. $-1$.
 B. $1$.
-C. $4$.
-D. $-1$.
-::key A
-$f'$ changes from $-$ to $+$ at $x=1$, so the local minimum value is $f(1)=0$. Option B is the local minimum point, C the local maximum value, D the local maximum point.
+C. $0$.
+D. $4$.
+::key C
+$f'$ changes from $-$ to $+$ at $x=1$, so the local minimum value is $f(1)=0$. Option B is the local minimum point, D the local maximum value, A the local maximum point.
 
 ::tf
 Let $f(x)=x^4-2x^2+3$.

@@ -326,21 +326,21 @@ Gọi $h$ (m) là chiều cao toà nhà ($h>0$). Khoảng cách từ hai bạn �
 :::quiz
 ::mc
 Tam giác $ABC$ vuông tại $A$ có $BC=a$, $CA=b$. Khi đó
-A. $b=a\sin B$.
+A. $b=a\sin C$.
 B. $b=a\cos B$.
 C. $b=a\tan B$.
-D. $b=a\sin C$.
-::key A
-Vì $b$ là cạnh góc vuông đối diện góc $B$ nên $b=a\sin B$ (hoặc $b=a\cos C$). Phương án B và D nhầm góc đối với góc kề, C dùng tang với cạnh huyền.
+D. $b=a\sin B$.
+::key D
+Vì $b$ là cạnh góc vuông đối diện góc $B$ nên $b=a\sin B$ (hoặc $b=a\cos C$). Phương án B và A nhầm góc đối với góc kề, C dùng tang với cạnh huyền.
 
 ::mc
 Tam giác $ABC$ vuông tại $A$ có $AB=c$. Khi đó $AC$ bằng
-A. $c\tan B$.
-B. $c\cot B$.
-C. $c\sin B$.
+A. $c\cot B$.
+B. $c\sin B$.
+C. $c\tan B$.
 D. $c\cos B$.
-::key A
-Ta có $\tan B=\dfrac{AC}{AB}$, suy ra $AC=c\tan B$. Phương án B dùng côtang của góc đối, C và D dùng sin, cos với cạnh góc vuông thay cho cạnh huyền.
+::key C
+Ta có $\tan B=\dfrac{AC}{AB}$, suy ra $AC=c\tan B$. Phương án A dùng côtang của góc đối, B và D dùng sin, cos với cạnh góc vuông thay cho cạnh huyền.
 
 ::mc
 Tam giác $ABC$ vuông tại $A$ có $BC=10$, $\widehat{B}=30^\circ$. Khi đó $AC$ bằng
@@ -353,12 +353,12 @@ Ta có $AC=BC\sin B=10\sin30^\circ=5$. Phương án B là $10\cos30^\circ$ (cạ
 
 ::mc
 Một cột điện cao $8$ m có bóng trên mặt đất dài $8\sqrt3$ m. Góc giữa tia nắng và mặt đất là
-A. $30^\circ$.
-B. $60^\circ$.
+A. khoảng $0{,}58^\circ$.
+B. $30^\circ$.
 C. $45^\circ$.
-D. khoảng $0{,}58^\circ$.
-::key A
-Gọi $\alpha$ là góc cần tìm. Ta có $\tan\alpha=\dfrac{8}{8\sqrt3}=\dfrac{\sqrt3}3$, suy ra $\alpha=30^\circ$. Phương án B đảo tỉ số (bóng chia cột), D viết luôn tỉ số $0{,}58$ thành số đo góc.
+D. $60^\circ$.
+::key B
+Gọi $\alpha$ là góc cần tìm. Ta có $\tan\alpha=\dfrac{8}{8\sqrt3}=\dfrac{\sqrt3}3$, suy ra $\alpha=30^\circ$. Phương án D đảo tỉ số (bóng chia cột), A viết luôn tỉ số $0{,}58$ thành số đo góc.
 
 ::tf
 Cho tam giác $ABC$ vuông tại $A$ có $AB=6$ cm, $\widehat{C}=30^\circ$. Xét tính đúng sai của các mệnh đề sau:

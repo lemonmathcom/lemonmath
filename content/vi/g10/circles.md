@@ -393,11 +393,11 @@ Viết $x+3=x-(-3)$ và $y-1$, nên tâm là $(-3; 1)$; vế phải là $R^2=16$
 ::mc
 Phương trình nào sau đây là phương trình của một đường tròn?
 A. $x^2+y^2-2x+4y+6=0$.
-B. $x^2+2y^2-4x+1=0$.
-C. $x^2+y^2+4x-2y+1=0$.
+B. $x^2+y^2+4x-2y+1=0$.
+C. $x^2+2y^2-4x+1=0$.
 D. $x^2+y^2-4x+2y+5=0$.
-::key C
-Với C: $a=-2$, $b=1$, $c=1$ nên $a^2+b^2-c=4>0$. Với A ta có $a^2+b^2-c=-1<0$; với D bằng $0$ (chỉ có một điểm); B có hệ số của $x^2$ và $y^2$ khác nhau.
+::key B
+Với B: $a=-2$, $b=1$, $c=1$ nên $a^2+b^2-c=4>0$. Với A ta có $a^2+b^2-c=-1<0$; với D bằng $0$ (chỉ có một điểm); C có hệ số của $x^2$ và $y^2$ khác nhau.
 
 ::mc
 Đường tròn đường kính $AB$ với $A(-1; 2)$, $B(3; -4)$ có phương trình là
@@ -412,9 +412,9 @@ Tâm là trung điểm $(1; -1)$ của $AB$. $AB^2=16+36=52$ nên $R^2=\dfrac{AB
 Tiếp tuyến của đường tròn $(x-2)^2+(y+1)^2=10$ tại điểm $M(3; 2)$ có phương trình là
 A. $3x-y-7=0$.
 B. $x+3y+1=0$.
-C. $x+3y-9=0$.
-D. $x-3y+3=0$.
-::key C
+C. $x-3y+3=0$.
+D. $x+3y-9=0$.
+::key D
 $\overrightarrow{IM}=(1; 3)$ là vectơ pháp tuyến, tiếp tuyến đi qua $M$: $(x-3)+3(y-2)=0\iff x+3y-9=0$. Phương án A dùng $\overrightarrow{IM}$ làm vectơ chỉ phương, B cho đường thẳng đi qua tâm $I$.
 
 ::tf

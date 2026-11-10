@@ -87,16 +87,16 @@ Revise: [Revision: antiderivatives and integrals](lesson:review-integrals).
 
 ::mc
 In the $Oxyz$ coordinate system, the orthogonal projection of the point $M(3, 3, -1)$ onto the plane $(P)\colon x+2y-2z-2=0$ is the point
-A. $H(4, 5, -3)$.
+A. $H(2, 1, 1)$.
 B. $H(1, -1, 3)$.
-C. $H(2, 1, 1)$.
+C. $H(4, 5, -3)$.
 D. $H(2, 1, -1)$.
-::key C
+::key A
 The line through $M$ perpendicular to $(P)$ has direction vector $\vec n=(1, 2, -2)$ and consists of the points $H(3+t, 3+2t, -1-2t)$. Substitute into the equation of $(P)$:
 
 $$(3+t)+2(3+2t)-2(-1-2t)-2=0\iff 9+9t=0\iff t=-1.$$
 
-So $H(2, 1, 1)$. Option A takes $t=1$ by mistake; option B is the reflection of $M$ in $(P)$ (which corresponds to $t=-2$).
+So $H(2, 1, 1)$. Option C takes $t=1$ by mistake; option B is the reflection of $M$ in $(P)$ (which corresponds to $t=-2$).
 
 Revise: [Revision: coordinates in space](lesson:review-coordinates-space).
 
@@ -153,16 +153,16 @@ The ages of $40$ members of a tai chi club are shown in the table.
 | Number of members | $6$ | $10$ | $14$ | $7$ | $3$ |
 
 The median of this grouped data set (to two decimal places) is
-A. $65$.
+A. $62.86$.
 B. $64$.
-C. $62.86$.
+C. $65$.
 D. $60$.
-::key C
+::key A
 The cumulative frequencies are $6$, $16$, $30$, $37$, $40$; $\dfrac n2=20$ lies in the class $[60, 70)$, and the cumulative frequency before it is $16$:
 
 $$M_e=60+\dfrac{20-16}{14}\cdot10=60+\dfrac{20}{7}\approx62.86.$$
 
-Option A is the midpoint of the class; option B divides by the frequency $10$ of the previous class; option D is the lower boundary of the class.
+Option C is the midpoint of the class; option B divides by the frequency $10$ of the previous class; option D is the lower boundary of the class.
 
 Revise: [Revision: statistics and probability](lesson:review-statistics-probability).
 
@@ -185,14 +185,14 @@ Revise: [Revision: statistics and probability](lesson:review-statistics-probabil
 The water level (metres) in a harbour $t$ hours after midnight is modelled by $h(t)=3+2\sin\dfrac{\pi t}{6}$, $0\le t\le24$. In one day, the total time for which the water level is at least $4$ m is
 A. $4$ hours.
 B. $12$ hours.
-C. $8$ hours.
-D. $16$ hours.
-::key C
+C. $16$ hours.
+D. $8$ hours.
+::key D
 Reduce to a basic trigonometric inequality:
 
 $$h(t)\ge4\iff\sin\dfrac{\pi t}{6}\ge\dfrac12\iff\dfrac{\pi}{6}+2k\pi\le\dfrac{\pi t}{6}\le\dfrac{5\pi}{6}+2k\pi\iff1+12k\le t\le5+12k.$$
 
-For $0\le t\le24$ this gives $t\in[1, 5]\cup[13, 17]$, $8$ hours in total. Option A only considers one $12$-hour period; option D solves $\sin\dfrac{\pi t}{6}\ge-\dfrac12$ by mistake (that is, $h\ge2$).
+For $0\le t\le24$ this gives $t\in[1, 5]\cup[13, 17]$, $8$ hours in total. Option A only considers one $12$-hour period; option C solves $\sin\dfrac{\pi t}{6}\ge-\dfrac12$ by mistake (that is, $h\ge2$).
 
 Revise: [Revision: trigonometry, exponentials, logarithms and sequences](lesson:review-trig-exp-log-sequences).
 

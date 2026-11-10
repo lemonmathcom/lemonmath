@@ -301,21 +301,21 @@ $5-3\cdot1=2$. Option B swaps $x$ and $y$; D gives $-1-3=-4$ (a sign slip would 
 
 ::mc
 The line showing the solution set of the equation $0x+2y=-4$ is
-A. the line $y=-2$.
-B. the line $x=-2$.
+A. the line $x=-2$.
+B. the line $y=-2$.
 C. the line $y=2x-4$.
 D. the line $y=-4$.
-::key A
-$2y=-4\iff y=-2$. Option B mixes up $x$ and $y$; D forgets to divide by $2$.
+::key B
+$2y=-4\iff y=-2$. Option A mixes up $x$ and $y$; D forgets to divide by $2$.
 
 ::mc
 Which pair is a solution of the simultaneous equations $\begin{cases} x+y=5\\ 2x-y=1 \end{cases}$?
-A. $(2, 3)$.
+A. $(1, 1)$.
 B. $(3, 2)$.
 C. $(1, 4)$.
-D. $(1, 1)$.
-::key A
-$2+3=5$ and $4-3=1$. Options B and C satisfy only the first equation, and D only the second.
+D. $(2, 3)$.
+::key D
+$2+3=5$ and $4-3=1$. Options B and C satisfy only the first equation, and A only the second.
 
 ::tf
 Consider the equation $2x+y=7$.

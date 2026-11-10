@@ -412,21 +412,21 @@ $y'=3ax^2+2bx+c$. Từ $y(0)=2$ và $y'(0)=0$: $d=2$, $c=0$. Từ $y'(2)=0$: $12
 :::quiz
 ::mc
 Hàm số $y=f(x)$ có đạo hàm $f'(x)=(x-1)(x+3)$. Hàm số đồng biến trên khoảng nào dưới đây?
-A. $(1; +\infty)$.
-B. $(-3; 1)$.
+A. $(-3; 1)$.
+B. $(1; +\infty)$.
 C. $(-\infty; 1)$.
 D. $(-3; +\infty)$.
-::key A
-$f'(x)>0\iff x<-3$ hoặc $x>1$. Phương án B là khoảng hàm số nghịch biến; C và D chứa một phần của $(-3; 1)$, nơi $f'<0$.
+::key B
+$f'(x)>0\iff x<-3$ hoặc $x>1$. Phương án A là khoảng hàm số nghịch biến; C và D chứa một phần của $(-3; 1)$, nơi $f'<0$.
 
 ::mc
 Đồ thị hàm số $y=\dfrac{x+2}{x^2-4}$ có bao nhiêu tiệm cận đứng?
-A. $1$.
-B. $2$.
+A. $2$.
+B. $3$.
 C. $0$.
-D. $3$.
-::key A
-Với $x\ne-2$, $y=\dfrac{1}{x-2}$; khi $x\to-2$, $y\to-\dfrac14$ nên $x=-2$ không phải tiệm cận đứng. Chỉ còn $x=2$. Phương án B quên rút gọn.
+D. $1$.
+::key D
+Với $x\ne-2$, $y=\dfrac{1}{x-2}$; khi $x\to-2$, $y\to-\dfrac14$ nên $x=-2$ không phải tiệm cận đứng. Chỉ còn $x=2$. Phương án A quên rút gọn.
 
 ::mc
 Giá trị lớn nhất của hàm số $y=-x^3+3x+1$ trên đoạn $[0; 2]$ bằng
@@ -446,12 +446,12 @@ Hàm số $y=f(x)$ có bảng biến thiên:
 | $f(x)$ | $-\infty$ | $\nearrow$ | $4$ | $\searrow$ | $0$ | $\nearrow$ | $+\infty$ |
 
 Giá trị cực tiểu của hàm số bằng
-A. $0$.
+A. $-1$.
 B. $1$.
-C. $4$.
-D. $-1$.
-::key A
-$f'$ đổi dấu từ $-$ sang $+$ tại $x=1$, giá trị cực tiểu là $f(1)=0$. Phương án B là điểm cực tiểu, C là giá trị cực đại, D là điểm cực đại.
+C. $0$.
+D. $4$.
+::key C
+$f'$ đổi dấu từ $-$ sang $+$ tại $x=1$, giá trị cực tiểu là $f(1)=0$. Phương án B là điểm cực tiểu, D là giá trị cực đại, A là điểm cực đại.
 
 ::tf
 Cho hàm số $f(x)=x^4-2x^2+3$.

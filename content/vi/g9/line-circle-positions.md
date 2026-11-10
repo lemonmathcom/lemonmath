@@ -320,21 +320,21 @@ $d=R=7$ cm nên $a$ tiếp xúc với $(O)$.
 
 ::mc
 Đường thẳng cách tâm của đường tròn $(O; 5\text{ cm})$ một khoảng $3$ cm cắt đường tròn theo một dây dài
-A. $4$ cm.
-B. $8$ cm.
+A. $8$ cm.
+B. $4$ cm.
 C. $2\sqrt{34}$ cm.
 D. $2$ cm.
-::key B
-$2\sqrt{25-9}=8$ cm. A quên nhân đôi, C cộng dưới dấu căn.
+::key A
+$2\sqrt{25-9}=8$ cm. B quên nhân đôi, C cộng dưới dấu căn.
 
 ::mc
 Từ điểm $M$ với $OM=13$ cm, kẻ tiếp tuyến $MA$ của đường tròn $(O; 5\text{ cm})$. Độ dài $MA$ là
 A. $\sqrt{194}$ cm.
-B. $12$ cm.
+B. $18$ cm.
 C. $8$ cm.
-D. $18$ cm.
-::key B
-$MA=\sqrt{169-25}=12$ cm. A coi $OM$ là cạnh góc vuông, C lấy hiệu $13-5$, D lấy tổng $13+5$.
+D. $12$ cm.
+::key D
+$MA=\sqrt{169-25}=12$ cm. A coi $OM$ là cạnh góc vuông, C lấy hiệu $13-5$, B lấy tổng $13+5$.
 
 ::mc
 Hai tiếp tuyến tại $A$, $B$ của đường tròn $(O)$ cắt nhau tại $M$ và $\widehat{AMB}=50^\circ$. Số đo góc $\widehat{AOB}$ là

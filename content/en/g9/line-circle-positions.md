@@ -320,21 +320,21 @@ $d=R=7$ cm, so $a$ touches $(O)$.
 
 ::mc
 A line at distance $3$ cm from the centre of the circle $(O, 5\text{ cm})$ cuts the circle in a chord of length
-A. $4$ cm.
-B. $8$ cm.
+A. $8$ cm.
+B. $4$ cm.
 C. $2\sqrt{34}$ cm.
 D. $2$ cm.
-::key B
-$2\sqrt{25-9}=8$ cm. A forgets to double, and C adds under the root.
+::key A
+$2\sqrt{25-9}=8$ cm. B forgets to double, and C adds under the root.
 
 ::mc
 From a point $M$ with $OM=13$ cm, draw the tangent $MA$ to the circle $(O, 5\text{ cm})$. The length $MA$ is
 A. $\sqrt{194}$ cm.
-B. $12$ cm.
+B. $18$ cm.
 C. $8$ cm.
-D. $18$ cm.
-::key B
-$MA=\sqrt{169-25}=12$ cm. A treats $OM$ as a shorter side, C takes $13-5$, and D takes $13+5$.
+D. $12$ cm.
+::key D
+$MA=\sqrt{169-25}=12$ cm. A treats $OM$ as a shorter side, C takes $13-5$, and B takes $13+5$.
 
 ::mc
 The tangents at $A$ and $B$ to the circle $(O)$ meet at $M$, and $\angle AMB=50^\circ$. The angle $\angle AOB$ is

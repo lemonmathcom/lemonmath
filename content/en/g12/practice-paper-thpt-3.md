@@ -109,18 +109,18 @@ Revise: [Revision: coordinates in space](lesson:review-coordinates-space).
 
 ::mc
 In the $Oxyz$ coordinate system, consider the sphere $(S)\colon x^2+y^2+z^2-4x+2y-6z-2=0$ and the plane $(P)\colon 2x-y+2z+1=0$. Which statement is true?
-A. $(P)$ cuts $(S)$ in a circle.
-B. $(P)$ is tangent to $(S)$.
+A. $(P)$ is tangent to $(S)$.
+B. $(P)$ cuts $(S)$ in a circle.
 C. $(P)$ and $(S)$ have no common point.
 D. $(P)$ passes through the centre of $(S)$.
-::key B
+::key A
 Find the centre and radius of the sphere, then compare the distance from the centre to the plane with the radius:
 
 $$I(2, -1, 3),\qquad R=\sqrt{2^2+1^2+3^2+2}=4.$$
 
 $$d\big(I,(P)\big)=\dfrac{|2\cdot2-(-1)+2\cdot3+1|}{\sqrt{4+1+4}}=\dfrac{12}{3}=4=R.$$
 
-So $(P)$ is tangent to $(S)$. Option C comes from forgetting the $+2$ in $R$ (giving $R=\sqrt{14}<4$) or forgetting to divide by $3$; option A comes from taking the centre with the wrong signs, $I(-2, 1, -3)$.
+So $(P)$ is tangent to $(S)$. Option C comes from forgetting the $+2$ in $R$ (giving $R=\sqrt{14}<4$) or forgetting to divide by $3$; option B comes from taking the centre with the wrong signs, $I(-2, 1, -3)$.
 
 Revise: [Revision: coordinates in space](lesson:review-coordinates-space).
 
@@ -147,16 +147,16 @@ The daily self-study time of $40$ students is shown in the table.
 | Number of students | $5$ | $12$ | $15$ | $6$ | $2$ |
 
 The mode of this grouped data set is
-A. $25$.
-B. $22.5$.
+A. $22.5$.
+B. $25$.
 C. $27.5$.
 D. $22$.
-::key B
+::key A
 The modal class is $[20, 30)$, with $n_{m-1}=12$, $n_m=15$, $n_{m+1}=6$ and class width $h=10$:
 
 $$M_o=20+\dfrac{15-12}{(15-12)+(15-6)}\cdot10=20+\dfrac{3}{12}\cdot10=22.5.$$
 
-Option A is the midpoint of the class; option C puts $15-6$ in the numerator by mistake; option D is the mean.
+Option B is the midpoint of the class; option C puts $15-6$ in the numerator by mistake; option D is the mean.
 
 Revise: [Revision: statistics and probability](lesson:review-statistics-probability).
 
@@ -198,16 +198,16 @@ Revise: [Revision: statistics and probability](lesson:review-statistics-probabil
 
 ::mc
 The solution set of the inequality $\log_{\frac12}(x-1)\ge-2$ is
-A. $[5, +\infty)$.
-B. $(1, 5]$.
+A. $(1, 5]$.
+B. $[5, +\infty)$.
 C. $(-\infty, 5]$.
 D. $\Big(1, \dfrac54\Big]$.
-::key B
+::key A
 We need $x>1$. The base $\dfrac12$ is less than $1$, so the inequality reverses when we remove the logarithm:
 
 $$\log_{\frac12}(x-1)\ge-2\iff x-1\le\Big(\dfrac12\Big)^{-2}=4\iff x\le5.$$
 
-Together with the condition, $S=(1, 5]$. Option A forgets to reverse the inequality; option C forgets the condition $x>1$; option D takes $\Big(\dfrac12\Big)^{-2}=\dfrac14$.
+Together with the condition, $S=(1, 5]$. Option B forgets to reverse the inequality; option C forgets the condition $x>1$; option D takes $\Big(\dfrac12\Big)^{-2}=\dfrac14$.
 
 Revise: [Revision: trigonometry, exponentials, logarithms and sequences](lesson:review-trig-exp-log-sequences).
 

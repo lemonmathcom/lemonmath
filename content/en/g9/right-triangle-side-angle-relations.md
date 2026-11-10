@@ -326,21 +326,21 @@ Let $h$ (m) be the height of the building ($h>0$). The distances from the two fr
 :::quiz
 ::mc
 Triangle $ABC$ has a right angle at $A$, $BC=a$ and $CA=b$. Then
-A. $b=a\sin B$.
+A. $b=a\sin C$.
 B. $b=a\cos B$.
 C. $b=a\tan B$.
-D. $b=a\sin C$.
-::key A
-Since the leg $b$ is opposite angle $B$, $b=a\sin B$ (or $b=a\cos C$). Options B and D mix up the opposite and adjacent angles, and C uses the tangent with the hypotenuse.
+D. $b=a\sin B$.
+::key D
+Since the leg $b$ is opposite angle $B$, $b=a\sin B$ (or $b=a\cos C$). Options B and A mix up the opposite and adjacent angles, and C uses the tangent with the hypotenuse.
 
 ::mc
 Triangle $ABC$ has a right angle at $A$ and $AB=c$. Then $AC$ equals
-A. $c\tan B$.
-B. $c\cot B$.
-C. $c\sin B$.
+A. $c\cot B$.
+B. $c\sin B$.
+C. $c\tan B$.
 D. $c\cos B$.
-::key A
-We have $\tan B=\dfrac{AC}{AB}$, so $AC=c\tan B$. Option B uses the cotangent of the opposite angle; C and D use sine and cosine with a leg instead of the hypotenuse.
+::key C
+We have $\tan B=\dfrac{AC}{AB}$, so $AC=c\tan B$. Option A uses the cotangent of the opposite angle; B and D use sine and cosine with a leg instead of the hypotenuse.
 
 ::mc
 Triangle $ABC$ has a right angle at $A$, $BC=10$ and $\angle B=30^\circ$. Then $AC$ equals
@@ -353,12 +353,12 @@ We have $AC=BC\sin B=10\sin30^\circ=5$. Option B is $10\cos30^\circ$ (the side $
 
 ::mc
 An $8$ m electricity pole casts a shadow $8\sqrt3$ m long on the ground. The angle between the sun's rays and the ground is
-A. $30^\circ$.
-B. $60^\circ$.
+A. about $0.58^\circ$.
+B. $30^\circ$.
 C. $45^\circ$.
-D. about $0.58^\circ$.
-::key A
-Let $\alpha$ be the angle. We have $\tan\alpha=\dfrac{8}{8\sqrt3}=\dfrac{\sqrt3}3$, so $\alpha=30^\circ$. Option B turns the ratio upside down (shadow over pole), and D writes the ratio $0.58$ as if it were the angle.
+D. $60^\circ$.
+::key B
+Let $\alpha$ be the angle. We have $\tan\alpha=\dfrac{8}{8\sqrt3}=\dfrac{\sqrt3}3$, so $\alpha=30^\circ$. Option D turns the ratio upside down (shadow over pole), and A writes the ratio $0.58$ as if it were the angle.
 
 ::tf
 Triangle $ABC$ has a right angle at $A$, $AB=6$ cm and $\angle C=30^\circ$. Decide whether each statement is true or false.

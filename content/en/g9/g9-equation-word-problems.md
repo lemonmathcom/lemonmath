@@ -354,12 +354,12 @@ So the new ticket price is $40$ thousand dong.
 :::quiz
 ::mc
 The product of two consecutive natural numbers is $110$. If the smaller number is $x$, which equation is correct?
-A. $x(x+1)=110$.
-B. $x+(x+1)=110$.
+A. $x+(x+1)=110$.
+B. $x(x+1)=110$.
 C. $x^2+1=110$.
 D. $2x+1=110$.
-::key A
-The next number is $x+1$ and their product is $x(x+1)$. B and D use the sum, and C confuses $x(x+1)$ with $x^2+1$.
+::key B
+The next number is $x+1$ and their product is $x(x+1)$. A and D use the sum, and C confuses $x(x+1)$ with $x^2+1$.
 
 ::mc
 A car travels $90$ km at a speed of $x$ (km/h). If it went $15$ km/h faster, it would arrive $1$ hour earlier. Which equation is correct?
@@ -372,21 +372,21 @@ The original time is longer, so $\dfrac{90}{x}-\dfrac{90}{x+15}=1$. B subtracts 
 
 ::mc
 In a problem where the unknown $x$ is a width (m), we get the equation $x^2+3x-70=0$ with roots $7$ and $-10$. The width is
-A. $7$ m.
+A. $7$ m or $10$ m.
 B. $-10$ m.
-C. $7$ m or $10$ m.
-D. $10$ m.
-::key A
-The condition $x>0$ rejects $-10$; C and D wrongly drop the minus sign.
+C. $10$ m.
+D. $7$ m.
+::key D
+The condition $x>0$ rejects $-10$; A and C wrongly drop the minus sign.
 
 ::mc
 The price of a product rises from $200$ thousand dong to $242$ thousand dong after two increases, each by $r\%$ of the previous price. The value of $r$ is
-A. $10$.
+A. $11$.
 B. $21$.
 C. $10.5$.
-D. $11$.
-::key A
-$\left(1+\dfrac{r}{100}\right)^2=\dfrac{242}{200}=1.21$, so $1+\dfrac{r}{100}=1.1$, that is $r=10$. B is the total increase, C divides $21\%$ by $2$, and D takes $\sqrt{121}=11$ by mistake.
+D. $10$.
+::key D
+$\left(1+\dfrac{r}{100}\right)^2=\dfrac{242}{200}=1.21$, so $1+\dfrac{r}{100}=1.1$, that is $r=10$. B is the total increase, C divides $21\%$ by $2$, and A takes $\sqrt{121}=11$ by mistake.
 
 ::tf
 A rectangular garden is $4$ m longer than it is wide and has area $96$ m². Let the width be $x$ (m), $x>0$. Decide whether each statement is true or false.

@@ -313,30 +313,30 @@ So the distance between the chords is $2$ cm or $14$ cm.
 :::quiz
 ::mc
 An angle at the centre has $\angle AOB=50^\circ$. The major arc $AB$ measures
-A. $50^\circ$.
+A. $310^\circ$.
 B. $130^\circ$.
-C. $310^\circ$.
+C. $50^\circ$.
 D. $260^\circ$.
-::key C
-$360^\circ-50^\circ=310^\circ$. B uses $180^\circ-50^\circ$; A is the minor arc; D uses $360^\circ-2\cdot50^\circ$.
+::key A
+$360^\circ-50^\circ=310^\circ$. B uses $180^\circ-50^\circ$; C is the minor arc; D uses $360^\circ-2\cdot50^\circ$.
 
 ::mc
 The longest chord of the circle $(O, 6\text{ cm})$ has length
 A. $6$ cm.
-B. $12$ cm.
+B. $3$ cm.
 C. $36$ cm.
-D. $3$ cm.
-::key B
+D. $12$ cm.
+::key D
 The longest chord is a diameter, of length $2R=12$ cm. A confuses it with the radius, and C takes $R^2$.
 
 ::mc
 A chord $AB$ of the circle $(O, 10\text{ cm})$ is $8$ cm from the centre. The length $AB$ is
-A. $6$ cm.
-B. $12$ cm.
-C. $4$ cm.
+A. $4$ cm.
+B. $6$ cm.
+C. $12$ cm.
 D. $4\sqrt{41}$ cm.
-::key B
-$AB=2\sqrt{10^2-8^2}=12$ cm. A forgets to double, C takes $2(10-8)$, and D adds instead of subtracting under the root.
+::key C
+$AB=2\sqrt{10^2-8^2}=12$ cm. B forgets to double, A takes $2(10-8)$, and D adds instead of subtracting under the root.
 
 ::mc
 In $25$ minutes, the minute hand of a clock turns through

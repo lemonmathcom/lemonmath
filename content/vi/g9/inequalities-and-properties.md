@@ -324,21 +324,21 @@ Nhân với $3>0$ giữ chiều. A, D quên đổi chiều khi nhân với số 
 
 ::mc
 Cho $a>b$. So sánh $1-4a$ và $1-4b$.
-A. $1-4a>1-4b$.
-B. $1-4a<1-4b$.
+A. $1-4a<1-4b$.
+B. $1-4a>1-4b$.
 C. $1-4a=1-4b$.
 D. Không so sánh được.
-::key B
-$-4a<-4b$ (đổi chiều), cộng $1$ được $1-4a<1-4b$. A quên đổi chiều.
+::key A
+$-4a<-4b$ (đổi chiều), cộng $1$ được $1-4a<1-4b$. B quên đổi chiều.
 
 ::mc
 Khẳng định nào đúng với **mọi** số $a$, $b$?
 A. Nếu $a<b$ thì $a^2<b^2$.
-B. $a^2+1>0$.
+B. Nếu $a<b$ thì $-a<-b$.
 C. $2a>a$.
-D. Nếu $a<b$ thì $-a<-b$.
-::key B
-$a^2\ge0$ nên $a^2+1\ge1>0$. A sai với $a=-3$, $b=1$; C sai với $a=-1$; D quên đổi chiều.
+D. $a^2+1>0$.
+::key D
+$a^2\ge0$ nên $a^2+1\ge1>0$. A sai với $a=-3$, $b=1$; C sai với $a=-1$; B quên đổi chiều.
 
 ::tf
 Cho $a>b$.

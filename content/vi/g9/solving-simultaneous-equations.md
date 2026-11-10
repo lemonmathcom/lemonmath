@@ -313,12 +313,12 @@ Cộng hai phương trình: $2x=8$, $x=4$, $y=1$. B đảo thứ tự; C chỉ t
 
 ::mc
 Để khử ẩn $y$ trong hệ $\begin{cases} 2x+3y=7\\ 5x-2y=8 \end{cases}$, ta nên
-A. nhân phương trình thứ nhất với $2$, thứ hai với $3$, rồi cộng.
+A. nhân phương trình thứ nhất với $2$, thứ hai với $3$, rồi trừ.
 B. nhân phương trình thứ nhất với $3$, thứ hai với $2$, rồi cộng.
-C. nhân phương trình thứ nhất với $2$, thứ hai với $3$, rồi trừ.
+C. nhân phương trình thứ nhất với $2$, thứ hai với $3$, rồi cộng.
 D. nhân phương trình thứ nhất với $5$, thứ hai với $2$, rồi trừ.
-::key A
-Được $6y$ và $-6y$, đối nhau nên cộng: $19x=38$. C trừ nên $y$ không mất; D khử $x$ chứ không khử $y$.
+::key C
+Được $6y$ và $-6y$, đối nhau nên cộng: $19x=38$. A trừ nên $y$ không mất; D khử $x$ chứ không khử $y$.
 
 ::mc
 Hệ $\begin{cases} x-2y=3\\ -2x+4y=1 \end{cases}$
@@ -331,12 +331,12 @@ Thế $x=3+2y$: $-6-4y+4y=1\iff 0y=7$, vô nghiệm. $(3; 0)$ chỉ thoả mãn 
 
 ::mc
 Mua $2$ ổ bánh mì và $1$ hộp sữa hết $31$ nghìn đồng; mua $1$ ổ bánh mì và $2$ hộp sữa hết $26$ nghìn đồng. Giá một ổ bánh mì là
-A. $12$ nghìn đồng.
+A. $5$ nghìn đồng.
 B. $7$ nghìn đồng.
 C. $19$ nghìn đồng.
-D. $5$ nghìn đồng.
-::key A
-Cộng: $3(x+y)=57$, $x+y=19$; trừ: $x-y=5$; nên $x=12$, $y=7$. B là giá sữa, C là tổng, D là hiệu.
+D. $12$ nghìn đồng.
+::key D
+Cộng: $3(x+y)=57$, $x+y=19$; trừ: $x-y=5$; nên $x=12$, $y=7$. B là giá sữa, C là tổng, A là hiệu.
 
 ::tf
 Cho hệ $\begin{cases} 3x+y=7\\ x-y=1 \end{cases}$

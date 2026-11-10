@@ -382,30 +382,30 @@ The product is $P(x)=x(12-x)$, $P'(x)=12-2x=0\iff x=6$, $P(6)=36$. Option B is t
 
 ::mc
 An object moves with $s(t)=t^3-3t^2+4t$ (m). Its acceleration at $t=2$ seconds is
-A. $6$ m/s².
-B. $8$ m/s².
-C. $4$ m/s².
+A. $8$ m/s².
+B. $4$ m/s².
+C. $6$ m/s².
 D. $0$ m/s².
-::key A
-$v(t)=3t^2-6t+4$, $a(t)=6t-6$, $a(2)=6$. Option C is the velocity $v(2)$; D is the acceleration at $t=1$.
+::key C
+$v(t)=3t^2-6t+4$, $a(t)=6t-6$, $a(2)=6$. Option B is the velocity $v(2)$; D is the acceleration at $t=1$.
 
 ::mc
 The total cost of making $x$ items is $C(x)=2x^2+50x+800$ (thousand đồng). How many items should be made to minimise the average cost per item?
-A. $20$.
-B. $400$.
-C. $10$.
+A. $10$.
+B. $20$.
+C. $400$.
 D. $40$.
-::key A
-$\overline C(x)=2x+50+\dfrac{800}{x}$, $\overline C'(x)=2-\dfrac{800}{x^2}=0\iff x^2=400\iff x=20$. Option B is $x^2$.
+::key B
+$\overline C(x)=2x+50+\dfrac{800}{x}$, $\overline C'(x)=2-\dfrac{800}{x^2}=0\iff x^2=400\iff x=20$. Option C is $x^2$.
 
 ::mc
 $N(t)$ is the number of users of an app (thousands) after $t$ months, and $N'(5)=12$. Which statement is correct?
-A. At $5$ months, the number of users is increasing at about $12$ thousand per month.
-B. After $5$ months there are $12$ thousand users.
+A. After $5$ months, the number of users has increased by $12$ thousand in total.
+B. At $5$ months, the number of users is increasing at about $12$ thousand per month.
 C. Over the first $5$ months, users increased by $12$ thousand per month on average.
-D. After $5$ months, the number of users has increased by $12$ thousand in total.
-::key A
-The derivative is the instantaneous rate of change at one moment. B confuses it with $N(5)$, C with the average rate, D with the total change.
+D. After $5$ months there are $12$ thousand users.
+::key B
+The derivative is the instantaneous rate of change at one moment. D confuses it with $N(5)$, C with the average rate, A with the total change.
 
 ::tf
 Mr Ba uses $120$ m of fencing for three sides of a rectangular plot; the fourth side is a river bank and needs no fence. Let $x$ (m) be the length of each side perpendicular to the river.

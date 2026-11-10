@@ -350,21 +350,21 @@ Ta có $\sqrt{72}=\sqrt{36\cdot2}=6\sqrt2$. Phương án B quên khai căn $36$,
 
 ::mc
 Trục căn thức ở mẫu của $\dfrac{6}{\sqrt2}$ ta được
-A. $3\sqrt2$.
+A. $\sqrt3$.
 B. $6\sqrt2$.
-C. $\sqrt3$.
+C. $3\sqrt2$.
 D. $3$.
-::key A
-Ta có $\dfrac{6}{\sqrt2}=\dfrac{6\sqrt2}{2}=3\sqrt2$. Phương án B quên chia cho $2$, C lấy $6$ chia $2$ dưới dấu căn, D làm mất căn ở tử.
+::key C
+Ta có $\dfrac{6}{\sqrt2}=\dfrac{6\sqrt2}{2}=3\sqrt2$. Phương án B quên chia cho $2$, A lấy $6$ chia $2$ dưới dấu căn, D làm mất căn ở tử.
 
 ::mc
 $\dfrac{1}{\sqrt5-2}$ bằng
-A. $\sqrt5+2$.
+A. $-\sqrt5-2$.
 B. $\sqrt5-2$.
 C. $\dfrac{\sqrt5+2}{3}$.
-D. $-\sqrt5-2$.
-::key A
-Ta có $\dfrac{1}{\sqrt5-2}=\dfrac{\sqrt5+2}{5-4}=\sqrt5+2$. Phương án C tính mẫu là $5-2$ (quên bình phương $2$), D tính mẫu là $4-5$.
+D. $\sqrt5+2$.
+::key D
+Ta có $\dfrac{1}{\sqrt5-2}=\dfrac{\sqrt5+2}{5-4}=\sqrt5+2$. Phương án C tính mẫu là $5-2$ (quên bình phương $2$), A tính mẫu là $4-5$.
 
 ::mc
 Với $a<0$, $a\sqrt3$ bằng

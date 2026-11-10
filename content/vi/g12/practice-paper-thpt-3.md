@@ -109,18 +109,18 @@ Phương án A đi qua $A$, phương án B đi qua $B$ thay vì trung điểm; p
 
 ::mc
 Trong không gian $Oxyz$, cho mặt cầu $(S)\colon x^2+y^2+z^2-4x+2y-6z-2=0$ và mặt phẳng $(P)\colon 2x-y+2z+1=0$. Khẳng định nào sau đây đúng?
-A. $(P)$ cắt $(S)$ theo một đường tròn.
-B. $(P)$ tiếp xúc với $(S)$.
+A. $(P)$ tiếp xúc với $(S)$.
+B. $(P)$ cắt $(S)$ theo một đường tròn.
 C. $(P)$ và $(S)$ không có điểm chung.
 D. $(P)$ đi qua tâm của $(S)$.
-::key B
+::key A
 Tìm tâm và bán kính của mặt cầu, rồi so sánh khoảng cách từ tâm đến mặt phẳng với bán kính:
 
 $$I(2; -1; 3),\qquad R=\sqrt{2^2+1^2+3^2+2}=4.$$
 
 $$d\big(I,(P)\big)=\dfrac{|2\cdot2-(-1)+2\cdot3+1|}{\sqrt{4+1+4}}=\dfrac{12}{3}=4=R.$$
 
-Vậy $(P)$ tiếp xúc với $(S)$. Phương án C xuất hiện khi quên số hạng $+2$ trong $R$ (được $R=\sqrt{14}<4$) hoặc quên chia cho $3$; phương án A xuất hiện khi lấy sai dấu tâm $I(-2; 1; -3)$.
+Vậy $(P)$ tiếp xúc với $(S)$. Phương án C xuất hiện khi quên số hạng $+2$ trong $R$ (được $R=\sqrt{14}<4$) hoặc quên chia cho $3$; phương án B xuất hiện khi lấy sai dấu tâm $I(-2; 1; -3)$.
 
 Ôn lại: [Ôn tập: phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
@@ -147,16 +147,16 @@ Thời gian tự học mỗi ngày của $40$ học sinh được cho trong bả
 | Số học sinh | $5$ | $12$ | $15$ | $6$ | $2$ |
 
 Mốt của mẫu số liệu ghép nhóm trên là
-A. $25$.
-B. $22{,}5$.
+A. $22{,}5$.
+B. $25$.
 C. $27{,}5$.
 D. $22$.
-::key B
+::key A
 Nhóm có tần số lớn nhất là $[20; 30)$, với $n_{m-1}=12$, $n_m=15$, $n_{m+1}=6$, độ dài nhóm $h=10$:
 
 $$M_o=20+\dfrac{15-12}{(15-12)+(15-6)}\cdot10=20+\dfrac{3}{12}\cdot10=22{,}5.$$
 
-Phương án A là giá trị đại diện của nhóm; phương án C đặt nhầm $15-6$ lên tử số; phương án D là số trung bình.
+Phương án B là giá trị đại diện của nhóm; phương án C đặt nhầm $15-6$ lên tử số; phương án D là số trung bình.
 
 Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
 
@@ -198,16 +198,16 @@ Phương án A chia cho $P(A)$, tức là tính $P(B\mid A)$; phương án B là
 
 ::mc
 Tập nghiệm của bất phương trình $\log_{\frac12}(x-1)\ge-2$ là
-A. $[5; +\infty)$.
-B. $(1; 5]$.
+A. $(1; 5]$.
+B. $[5; +\infty)$.
 C. $(-\infty; 5]$.
 D. $\Big(1; \dfrac54\Big]$.
-::key B
+::key A
 Điều kiện $x>1$. Cơ số $\dfrac12<1$ nên khi bỏ lôgarit ta đổi chiều bất phương trình:
 
 $$\log_{\frac12}(x-1)\ge-2\iff x-1\le\Big(\dfrac12\Big)^{-2}=4\iff x\le5.$$
 
-Kết hợp điều kiện được $S=(1; 5]$. Phương án A quên đổi chiều; phương án C quên điều kiện; phương án D tính nhầm $\Big(\dfrac12\Big)^{-2}=\dfrac14$.
+Kết hợp điều kiện được $S=(1; 5]$. Phương án B quên đổi chiều; phương án C quên điều kiện; phương án D tính nhầm $\Big(\dfrac12\Big)^{-2}=\dfrac14$.
 
 Ôn lại: [Ôn tập: lượng giác, mũ – lôgarit, cấp số](lesson:review-trig-exp-log-sequences).
 

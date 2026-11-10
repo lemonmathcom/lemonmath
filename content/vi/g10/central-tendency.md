@@ -392,19 +392,19 @@ Tổng bằng $35$, có $5$ giá trị nên $\bar x=\dfrac{35}{5}=7$. Phương �
 ::mc
 Trung vị của mẫu số liệu $9, 2, 13, 4, 6, 15$ là
 A. $6$.
-B. $7{,}5$.
-C. $8{,}5$.
+B. $8{,}5$.
+C. $7{,}5$.
 D. $9$.
-::key B
-Sắp xếp: $2, 4, 6, 9, 13, 15$. Có $6$ giá trị nên $M_e=\dfrac{6+9}{2}=7{,}5$. Phương án C lấy hai số ở giữa khi chưa sắp xếp ($13$ và $4$).
+::key C
+Sắp xếp: $2, 4, 6, 9, 13, 15$. Có $6$ giá trị nên $M_e=\dfrac{6+9}{2}=7{,}5$. Phương án B lấy hai số ở giữa khi chưa sắp xếp ($13$ và $4$).
 
 ::mc
 Trong một tháng, một cửa hàng bán được $5$ đôi giày cỡ $36$, $9$ đôi cỡ $37$, $14$ đôi cỡ $38$, $8$ đôi cỡ $39$ và $3$ đôi cỡ $40$. Mốt của mẫu số liệu cỡ giày là
 A. $14$.
-B. $38$.
+B. $37$.
 C. $40$.
-D. $37$.
-::key B
+D. $38$.
+::key D
 Mốt là giá trị có tần số lớn nhất: cỡ $38$ (bán $14$ đôi). Phương án A nhầm mốt với tần số.
 
 ::mc

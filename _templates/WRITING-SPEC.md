@@ -213,6 +213,8 @@ Hai nghiệm là $-1$ và $6$ ...
 - End with "Vậy …" and the answer; no extra commentary after it. Exercise solutions (`::solution`) then add the one-line answer `**Đáp số.** …` / `**Answer.** …` so students can check quickly.
 - English mirrors the same structure with standard British phrasing ("We have …", "Hence …", "So …", "Substituting … into …, we get …", "Let $x$ be … ($x>0$)").
 
+- MC answer letters: the website does not shuffle options, so spread the correct letters over A–D (in a 4-item mini test no letter more than twice; in a 12-item paper no letter more than 5 times). check.js enforces this.
+
 **Problem statements follow KNTT and the exam wording.**
 - Exercises use the textbook verbs: "Tính …", "Giải phương trình …", "Giải hệ phương trình sau:", "Rút gọn biểu thức …", "Chứng minh rằng …", "Tìm … ", "Cho tam giác ABC vuông tại A, có …. Tính …". Real-life exercises: a short situation in plain sentences, then the question; KNTT-style headings "Luyện tập" / "Vận dụng" may appear in example titles.
 - Grades 10–12 quiz items and practice papers copy the style of the Ministry's graduation exam (đề minh hoạ / đề chính thức from 2025):

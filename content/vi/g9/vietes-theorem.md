@@ -435,30 +435,30 @@ Vậy $\sqrt{x_1}+\sqrt{x_2}=\sqrt{10}$.
 :::quiz
 ::mc
 Tổng hai nghiệm của phương trình $2x^2-6x-5=0$ là
-A. $3$.
-B. $-3$.
+A. $-3$.
+B. $3$.
 C. $-\dfrac52$.
 D. $6$.
-::key A
-$a$, $c$ trái dấu nên có hai nghiệm; $S=-\dfrac{-6}{2}=3$. B sai dấu, C là tích, D quên chia cho $a$.
+::key B
+$a$, $c$ trái dấu nên có hai nghiệm; $S=-\dfrac{-6}{2}=3$. A sai dấu, C là tích, D quên chia cho $a$.
 
 ::mc
 Tích hai nghiệm của phương trình $3x^2+7x-6=0$ là
-A. $-2$.
-B. $2$.
+A. $2$.
+B. $-6$.
 C. $-\dfrac73$.
-D. $-6$.
-::key A
-$P=\dfrac ca=\dfrac{-6}{3}=-2$. B sai dấu, C là tổng, D quên chia cho $a$.
+D. $-2$.
+::key D
+$P=\dfrac ca=\dfrac{-6}{3}=-2$. A sai dấu, C là tổng, B quên chia cho $a$.
 
 ::mc
 Phương trình $4x^2-9x+5=0$ có hai nghiệm là
-A. $1$ và $\dfrac54$.
+A. $1$ và $-\dfrac54$.
 B. $-1$ và $-\dfrac54$.
-C. $1$ và $-\dfrac54$.
+C. $1$ và $\dfrac54$.
 D. $1$ và $5$.
-::key A
-$a+b+c=4-9+5=0$ nên $x_1=1$, $x_2=\dfrac ca=\dfrac54$. B dùng nhầm trường hợp $a-b+c=0$, C sai dấu của $\dfrac ca$, D quên chia cho $a$.
+::key C
+$a+b+c=4-9+5=0$ nên $x_1=1$, $x_2=\dfrac ca=\dfrac54$. B dùng nhầm trường hợp $a-b+c=0$, A sai dấu của $\dfrac ca$, D quên chia cho $a$.
 
 ::mc
 Hai số có tổng bằng $9$ và tích bằng $20$ là hai nghiệm của phương trình

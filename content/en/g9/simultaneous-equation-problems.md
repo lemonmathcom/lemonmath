@@ -275,12 +275,12 @@ $15(t-0.1)=12(t+0.05)\iff 15t-1.5=12t+0.6\iff 3t=2.1\iff t=0.7$. Then $s=15\cdot
 :::quiz
 ::mc
 Two numbers have sum $50$ and difference $14$. The smaller number is
-A. $18$.
+A. $36$.
 B. $32$.
-C. $36$.
+C. $18$.
 D. $25$.
-::key A
-$x+y=50$, $x-y=14$ give $x=32$, $y=18$. B is the larger number; C is $50-14$ without halving.
+::key C
+$x+y=50$, $x-y=14$ give $x=32$, $y=18$. B is the larger number; A is $50-14$ without halving.
 
 ::mc
 A rectangular garden has perimeter $40$ m, and its length is $4$ m more than its width. Let the length be $x$ and the width $y$ (m). The correct equations are
@@ -293,12 +293,12 @@ The perimeter is $2(x+y)=40$, so $x+y=20$. A forgets to divide by $2$; D has the
 
 ::mc
 A motor boat goes at $30$ km/h downstream and $22$ km/h upstream. The speed of the current is
-A. $4$ km/h.
+A. $26$ km/h.
 B. $8$ km/h.
-C. $26$ km/h.
-D. $2$ km/h.
-::key A
-$x+y=30$, $x-y=22$, so $2y=8$, $y=4$. B forgets to divide by $2$; C is the speed of the boat in still water.
+C. $2$ km/h.
+D. $4$ km/h.
+::key D
+$x+y=30$, $x-y=22$, so $2y=8$, $y=4$. B forgets to divide by $2$; A is the speed of the boat in still water.
 
 ::mc
 Two items have list prices of $x$ and $y$ thousand đồng. The first is reduced by $10\%$ and the second by $20\%$, and the total to pay is $170$ thousand đồng. The correct equation is

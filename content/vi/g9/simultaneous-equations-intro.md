@@ -301,21 +301,21 @@ $5-3\cdot1=2$. Phương án B đảo thứ tự $x$, $y$; D cho $-1-3=-4$ (nếu
 
 ::mc
 Đường thẳng biểu diễn tập nghiệm của phương trình $0x+2y=-4$ là
-A. đường thẳng $y=-2$.
-B. đường thẳng $x=-2$.
+A. đường thẳng $x=-2$.
+B. đường thẳng $y=-2$.
 C. đường thẳng $y=2x-4$.
 D. đường thẳng $y=-4$.
-::key A
-$2y=-4\iff y=-2$. Phương án B nhầm $x$ với $y$; D quên chia cho $2$.
+::key B
+$2y=-4\iff y=-2$. Phương án A nhầm $x$ với $y$; D quên chia cho $2$.
 
 ::mc
 Cặp số nào là nghiệm của hệ $\begin{cases} x+y=5\\ 2x-y=1 \end{cases}$?
-A. $(2; 3)$.
+A. $(1; 1)$.
 B. $(3; 2)$.
 C. $(1; 4)$.
-D. $(1; 1)$.
-::key A
-$2+3=5$ và $4-3=1$. Các phương án B, C chỉ thoả mãn phương trình thứ nhất, D chỉ thoả mãn phương trình thứ hai.
+D. $(2; 3)$.
+::key D
+$2+3=5$ và $4-3=1$. Các phương án B, C chỉ thoả mãn phương trình thứ nhất, A chỉ thoả mãn phương trình thứ hai.
 
 ::tf
 Cho phương trình $2x+y=7$.

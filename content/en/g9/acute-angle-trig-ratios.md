@@ -356,29 +356,29 @@ In triangle $ABH$ with a right angle at $H$, $AH=BH\cdot\tan B=6\cdot\dfrac{\sqr
 :::quiz
 ::mc
 Triangle $ABC$ has a right angle at $A$. Then $\sin B$ equals
-A. $\dfrac{AC}{BC}$.
+A. $\dfrac{AC}{AB}$.
 B. $\dfrac{AB}{BC}$.
-C. $\dfrac{AC}{AB}$.
+C. $\dfrac{AC}{BC}$.
 D. $\dfrac{AB}{AC}$.
-::key A
-The side opposite $B$ is $AC$ and the hypotenuse is $BC$, so $\sin B=\dfrac{AC}{BC}$. Option B is $\cos B$, C is $\tan B$ and D is $\cot B$.
+::key C
+The side opposite $B$ is $AC$ and the hypotenuse is $BC$, so $\sin B=\dfrac{AC}{BC}$. Option B is $\cos B$, A is $\tan B$ and D is $\cot B$.
 
 ::mc
 $\tan60^\circ$ equals
-A. $\sqrt3$.
-B. $\dfrac{\sqrt3}3$.
+A. $\dfrac{\sqrt3}3$.
+B. $\dfrac12$.
 C. $\dfrac{\sqrt3}2$.
-D. $\dfrac12$.
-::key A
-We have $\tan60^\circ=\sqrt3$ (in half an equilateral triangle with side $2$, the side opposite $60^\circ$ is $\sqrt3$ and the adjacent side is $1$). Option B is $\tan30^\circ$, and C is $\sin60^\circ$.
+D. $\sqrt3$.
+::key D
+We have $\tan60^\circ=\sqrt3$ (in half an equilateral triangle with side $2$, the side opposite $60^\circ$ is $\sqrt3$ and the adjacent side is $1$). Option A is $\tan30^\circ$, and C is $\sin60^\circ$.
 
 ::mc
 $\cos52^\circ$ equals
-A. $\sin38^\circ$.
+A. $\sin52^\circ$.
 B. $\cos38^\circ$.
-C. $\sin52^\circ$.
-D. $\tan38^\circ$.
-::key A
+C. $\tan38^\circ$.
+D. $\sin38^\circ$.
+::key D
 Since $52^\circ+38^\circ=90^\circ$ (complementary angles), $\cos52^\circ=\sin38^\circ$. Option B keeps cos when changing to the complementary angle.
 
 ::mc

@@ -313,30 +313,30 @@ Vậy khoảng cách giữa hai dây là $2$ cm hoặc $14$ cm.
 :::quiz
 ::mc
 Góc ở tâm $\widehat{AOB}=50^\circ$. Số đo cung lớn $AB$ là
-A. $50^\circ$.
+A. $310^\circ$.
 B. $130^\circ$.
-C. $310^\circ$.
+C. $50^\circ$.
 D. $260^\circ$.
-::key C
-Cung lớn có số đo $360^\circ-50^\circ=310^\circ$. B lấy $180^\circ-50^\circ$, A là số đo cung nhỏ, D lấy $360^\circ-2\cdot50^\circ$.
+::key A
+Cung lớn có số đo $360^\circ-50^\circ=310^\circ$. B lấy $180^\circ-50^\circ$, C là số đo cung nhỏ, D lấy $360^\circ-2\cdot50^\circ$.
 
 ::mc
 Dây dài nhất của đường tròn $(O; 6\text{ cm})$ dài
 A. $6$ cm.
-B. $12$ cm.
+B. $3$ cm.
 C. $36$ cm.
-D. $3$ cm.
-::key B
+D. $12$ cm.
+::key D
 Dây lớn nhất là đường kính, dài $2R=12$ cm. A nhầm với bán kính, C lấy $R^2$.
 
 ::mc
 Dây $AB$ của đường tròn $(O; 10\text{ cm})$ cách tâm $8$ cm. Độ dài $AB$ là
-A. $6$ cm.
-B. $12$ cm.
-C. $4$ cm.
+A. $4$ cm.
+B. $6$ cm.
+C. $12$ cm.
 D. $4\sqrt{41}$ cm.
-::key B
-$AB=2\sqrt{10^2-8^2}=12$ cm. A quên nhân đôi, C lấy $2(10-8)$, D cộng thay vì trừ dưới dấu căn.
+::key C
+$AB=2\sqrt{10^2-8^2}=12$ cm. B quên nhân đôi, A lấy $2(10-8)$, D cộng thay vì trừ dưới dấu căn.
 
 ::mc
 Trong $25$ phút, kim phút của đồng hồ quay được một góc

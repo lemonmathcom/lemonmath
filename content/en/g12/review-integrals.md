@@ -376,30 +376,30 @@ $$S=\int_{-4}^4\left(4-\frac{x^2}{4}\right)dx=\Big[4x-\frac{x^3}{12}\Big]_{-4}^4
 :::quiz
 ::mc
 The family of antiderivatives of $f(x)=2^x$ is
-A. $\dfrac{2^x}{\ln2}+C$.
+A. $x\cdot2^{x-1}+C$.
 B. $2^x\ln2+C$.
 C. $\dfrac{2^{x+1}}{x+1}+C$.
-D. $x\cdot2^{x-1}+C$.
-::key A
-$\left(\dfrac{2^x}{\ln2}\right)'=\dfrac{2^x\ln2}{\ln2}=2^x$. Option B is the derivative of $2^x$; C and D wrongly use the rule for powers $x^\alpha$.
+D. $\dfrac{2^x}{\ln2}+C$.
+::key D
+$\left(\dfrac{2^x}{\ln2}\right)'=\dfrac{2^x\ln2}{\ln2}=2^x$. Option B is the derivative of $2^x$; C and A wrongly use the rule for powers $x^\alpha$.
 
 ::mc
 $\displaystyle\int_1^2\frac1x\,dx$ equals
-A. $\ln2$.
-B. $\dfrac34$.
+A. $\dfrac34$.
+B. $\ln2$.
 C. $\ln3$.
 D. $\dfrac12$.
-::key A
-$\Big[\ln x\Big]_1^2=\ln2-0=\ln2$. Option B uses $-\dfrac{1}{x^2}$ as the "antiderivative" (it is in fact the derivative); C adds the limits.
+::key B
+$\Big[\ln x\Big]_1^2=\ln2-0=\ln2$. Option A uses $-\dfrac{1}{x^2}$ as the "antiderivative" (it is in fact the derivative); C adds the limits.
 
 ::mc
 The functions $f$, $g$ are continuous on $[a, b]$. The area of the region bounded by $y=f(x)$, $y=g(x)$, $x=a$, $x=b$ is
-A. $\displaystyle\int_a^b\lvert f(x)-g(x)\rvert\,dx$.
+A. $\pi\displaystyle\int_a^b\left[f(x)-g(x)\right]^2dx$.
 B. $\displaystyle\int_a^b\left[f(x)-g(x)\right]dx$.
-C. $\pi\displaystyle\int_a^b\left[f(x)-g(x)\right]^2dx$.
+C. $\displaystyle\int_a^b\lvert f(x)-g(x)\rvert\,dx$.
 D. $\left\lvert\displaystyle\int_a^b\left[f(x)-g(x)\right]dx\right\rvert$.
-::key A
-An area needs the modulus inside the integral. B can be negative; D is wrong when $f-g$ changes sign on $[a, b]$; C looks like a volume formula.
+::key C
+An area needs the modulus inside the integral. B can be negative; D is wrong when $f-g$ changes sign on $[a, b]$; A looks like a volume formula.
 
 ::mc
 Given $\displaystyle\int_0^2 f(x)\,dx=3$, the value of $\displaystyle\int_0^2\left[2f(x)+x\right]dx$ is

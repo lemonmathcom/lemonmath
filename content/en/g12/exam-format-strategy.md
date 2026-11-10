@@ -342,12 +342,12 @@ Part I: $12\cdot2=24$ minutes; Part III: $6\cdot5=30$ minutes. That leaves $90-5
 :::quiz
 ::mc
 The greatest possible mark for Part II is
-A. $4$.
+A. $3$.
 B. $1$.
-C. $3$.
+C. $4$.
 D. $2$.
-::key A
-Part II has $4$ questions worth up to $1$ mark each. Option B is the maximum for one question; option C is the total for Part I or Part III.
+::key C
+Part II has $4$ questions worth up to $1$ mark each. Option B is the maximum for one question; option A is the total for Part I or Part III.
 
 ::mc
 The minimum value of $y=x^2-4x+5$ on $[0, 3]$ is
@@ -360,21 +360,21 @@ $y'=2x-4=0\iff x=2\in(0, 3)$. Compare $y(0)=5$, $y(2)=1$, $y(3)=2$. Option B is 
 
 ::mc
 The result of a short-answer question is $\dfrac73$, to be given to 1 decimal place. You write
-A. $2.3$.
+A. $2.33$.
 B. $2.4$.
-C. $2.33$.
-D. $2$.
-::key A
-$\dfrac73\approx2.333$; the second decimal digit is $3<5$, so we round down to $2.3$. C rounds to the wrong place, D to the nearest whole number.
+C. $2$.
+D. $2.3$.
+::key D
+$\dfrac73\approx2.333$; the second decimal digit is $3<5$, so we round down to $2.3$. A rounds to the wrong place, C to the nearest whole number.
 
 ::mc
 The integral $\displaystyle\int_0^1 3x^2\,dx$ equals
-A. $1$.
-B. $3$.
+A. $-1$.
+B. $1$.
 C. $6$.
-D. $-1$.
-::key A
-$\Big[x^3\Big]_0^1=1$. Option C is the derivative $6x$ at $x=1$; option D computes $F(0)-F(1)$.
+D. $3$.
+::key B
+$\Big[x^3\Big]_0^1=1$. Option C is the derivative $6x$ at $x=1$; option A computes $F(0)-F(1)$.
 
 ::tf
 In Part II, a student judges $4$, $3$, $1$, $0$ statements correctly in the four questions.

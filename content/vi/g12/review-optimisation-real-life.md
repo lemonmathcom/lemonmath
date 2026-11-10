@@ -382,30 +382,30 @@ Tích $P(x)=x(12-x)$, $P'(x)=12-2x=0\iff x=6$, $P(6)=36$. Phương án B là gi�
 
 ::mc
 Một vật chuyển động với $s(t)=t^3-3t^2+4t$ (m). Gia tốc của vật tại $t=2$ giây là
-A. $6$ m/s².
-B. $8$ m/s².
-C. $4$ m/s².
+A. $8$ m/s².
+B. $4$ m/s².
+C. $6$ m/s².
 D. $0$ m/s².
-::key A
-$v(t)=3t^2-6t+4$, $a(t)=6t-6$, $a(2)=6$. Phương án C là vận tốc $v(2)$; D là gia tốc tại $t=1$.
+::key C
+$v(t)=3t^2-6t+4$, $a(t)=6t-6$, $a(2)=6$. Phương án B là vận tốc $v(2)$; D là gia tốc tại $t=1$.
 
 ::mc
 Tổng chi phí sản xuất $x$ sản phẩm là $C(x)=2x^2+50x+800$ (nghìn đồng). Để chi phí trung bình mỗi sản phẩm nhỏ nhất, cần sản xuất bao nhiêu sản phẩm?
-A. $20$.
-B. $400$.
-C. $10$.
+A. $10$.
+B. $20$.
+C. $400$.
 D. $40$.
-::key A
-$\overline C(x)=2x+50+\dfrac{800}{x}$, $\overline C'(x)=2-\dfrac{800}{x^2}=0\iff x^2=400\iff x=20$. Phương án B là $x^2$.
+::key B
+$\overline C(x)=2x+50+\dfrac{800}{x}$, $\overline C'(x)=2-\dfrac{800}{x^2}=0\iff x^2=400\iff x=20$. Phương án C là $x^2$.
 
 ::mc
 $N(t)$ là số người dùng một ứng dụng (nghìn người) sau $t$ tháng, và $N'(5)=12$. Khẳng định nào đúng?
-A. Tại thời điểm $5$ tháng, số người dùng đang tăng với tốc độ khoảng $12$ nghìn người mỗi tháng.
-B. Sau $5$ tháng có $12$ nghìn người dùng.
+A. Sau $5$ tháng, số người dùng đã tăng thêm tổng cộng $12$ nghìn người.
+B. Tại thời điểm $5$ tháng, số người dùng đang tăng với tốc độ khoảng $12$ nghìn người mỗi tháng.
 C. Trong $5$ tháng đầu, trung bình mỗi tháng tăng $12$ nghìn người.
-D. Sau $5$ tháng, số người dùng đã tăng thêm tổng cộng $12$ nghìn người.
-::key A
-Đạo hàm là tốc độ thay đổi tức thời tại một thời điểm. B nhầm với $N(5)$, C nhầm với tốc độ trung bình, D nhầm với lượng thay đổi.
+D. Sau $5$ tháng có $12$ nghìn người dùng.
+::key B
+Đạo hàm là tốc độ thay đổi tức thời tại một thời điểm. D nhầm với $N(5)$, C nhầm với tốc độ trung bình, A nhầm với lượng thay đổi.
 
 ::tf
 Bác Ba dùng $120$ m lưới rào ba cạnh của một mảnh đất hình chữ nhật, cạnh thứ tư là bờ sông không cần rào. Gọi $x$ (m) là độ dài mỗi cạnh vuông góc với bờ sông.

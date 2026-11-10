@@ -342,12 +342,12 @@ Phần I: $12\cdot2=24$ phút; Phần III: $6\cdot5=30$ phút. Còn lại $90-5-
 :::quiz
 ::mc
 Điểm tối đa của Phần II trong đề thi là
-A. $4$.
+A. $3$.
 B. $1$.
-C. $3$.
+C. $4$.
 D. $2$.
-::key A
-Phần II có $4$ câu, mỗi câu tối đa $1$ điểm. Phương án B là điểm tối đa của một câu; phương án C là điểm của Phần I hoặc Phần III.
+::key C
+Phần II có $4$ câu, mỗi câu tối đa $1$ điểm. Phương án B là điểm tối đa của một câu; phương án A là điểm của Phần I hoặc Phần III.
 
 ::mc
 Giá trị nhỏ nhất của hàm số $y=x^2-4x+5$ trên đoạn $[0; 3]$ bằng
@@ -360,21 +360,21 @@ $y'=2x-4=0\iff x=2\in(0; 3)$. So sánh $y(0)=5$, $y(2)=1$, $y(3)=2$. Phương á
 
 ::mc
 Kết quả một câu trả lời ngắn là $\dfrac73$, đề yêu cầu làm tròn đến hàng phần mười. Bạn ghi
-A. $2{,}3$.
+A. $2{,}33$.
 B. $2{,}4$.
-C. $2{,}33$.
-D. $2$.
-::key A
-$\dfrac73\approx2{,}333$, chữ số hàng phần trăm là $3<5$ nên làm tròn xuống được $2{,}3$. C làm tròn sai hàng, D làm tròn đến hàng đơn vị.
+C. $2$.
+D. $2{,}3$.
+::key D
+$\dfrac73\approx2{,}333$, chữ số hàng phần trăm là $3<5$ nên làm tròn xuống được $2{,}3$. A làm tròn sai hàng, C làm tròn đến hàng đơn vị.
 
 ::mc
 Tích phân $\displaystyle\int_0^1 3x^2\,dx$ bằng
-A. $1$.
-B. $3$.
+A. $-1$.
+B. $1$.
 C. $6$.
-D. $-1$.
-::key A
-$\Big[x^3\Big]_0^1=1$. Phương án C lấy đạo hàm $6x$ tại $x=1$; phương án D lấy $F(0)-F(1)$.
+D. $3$.
+::key B
+$\Big[x^3\Big]_0^1=1$. Phương án C lấy đạo hàm $6x$ tại $x=1$; phương án A lấy $F(0)-F(1)$.
 
 ::tf
 Trong Phần II, một bạn chọn đúng lần lượt $4$, $3$, $1$, $0$ ý ở bốn câu.

@@ -275,12 +275,12 @@ $15(t-0{,}1)=12(t+0{,}05)\iff 15t-1{,}5=12t+0{,}6\iff 3t=2{,}1\iff t=0{,}7$. Khi
 :::quiz
 ::mc
 Hai số có tổng bằng $50$ và hiệu bằng $14$. Số nhỏ hơn là
-A. $18$.
+A. $36$.
 B. $32$.
-C. $36$.
+C. $18$.
 D. $25$.
-::key A
-$x+y=50$, $x-y=14$ cho $x=32$, $y=18$. B là số lớn; C lấy $50-14$ mà quên chia đôi.
+::key C
+$x+y=50$, $x-y=14$ cho $x=32$, $y=18$. B là số lớn; A lấy $50-14$ mà quên chia đôi.
 
 ::mc
 Một mảnh vườn hình chữ nhật có chu vi $40$ m, chiều dài hơn chiều rộng $4$ m. Gọi chiều dài là $x$, chiều rộng là $y$ (m). Hệ phương trình đúng là
@@ -293,12 +293,12 @@ Chu vi $2(x+y)=40$ nên $x+y=20$. A quên chia $2$; D viết ngược hiệu.
 
 ::mc
 Một ca nô có vận tốc xuôi dòng $30$ km/h và ngược dòng $22$ km/h. Vận tốc của dòng nước là
-A. $4$ km/h.
+A. $26$ km/h.
 B. $8$ km/h.
-C. $26$ km/h.
-D. $2$ km/h.
-::key A
-$x+y=30$, $x-y=22$ nên $2y=8$, $y=4$. B quên chia $2$; C là vận tốc ca nô khi nước yên lặng.
+C. $2$ km/h.
+D. $4$ km/h.
+::key D
+$x+y=30$, $x-y=22$ nên $2y=8$, $y=4$. B quên chia $2$; A là vận tốc ca nô khi nước yên lặng.
 
 ::mc
 Hai món hàng có giá niêm yết $x$ và $y$ nghìn đồng. Món thứ nhất giảm giá $10\%$, món thứ hai giảm giá $20\%$, tổng số tiền phải trả là $170$ nghìn đồng. Phương trình đúng là

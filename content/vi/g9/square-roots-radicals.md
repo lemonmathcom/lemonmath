@@ -363,12 +363,12 @@ Vì $\sqrt{x^2}=|x|\ge0$ nên cần $2x-3\ge0$, tức là $x\ge1{,}5$. Khi đó 
 :::quiz
 ::mc
 Căn bậc hai số học của $49$ là
-A. $7$.
+A. $24{,}5$.
 B. $-7$.
 C. $7$ và $-7$.
-D. $24{,}5$.
-::key A
-Ta có $7\ge0$ và $7^2=49$ nên căn bậc hai số học của $49$ là $7$. Phương án C là các căn bậc hai của $49$, còn D lấy $49$ chia $2$.
+D. $7$.
+::key D
+Ta có $7\ge0$ và $7^2=49$ nên căn bậc hai số học của $49$ là $7$. Phương án C là các căn bậc hai của $49$, còn A lấy $49$ chia $2$.
 
 ::mc
 $\sqrt{(-8)^2}$ bằng
@@ -381,21 +381,21 @@ Ta có $\sqrt{(-8)^2}=|-8|=8$. Phương án A quên giá trị tuyệt đối, C
 
 ::mc
 Căn thức $\sqrt{6-3x}$ xác định khi
-A. $x\ge2$.
-B. $x\le2$.
-C. $x\ge-2$.
+A. $x\le2$.
+B. $x\ge-2$.
+C. $x\ge2$.
 D. $x\le-2$.
-::key B
-Căn thức xác định khi $6-3x\ge0\iff -3x\ge-6\iff x\le2$ (chia hai vế cho $-3$ thì đổi chiều). Phương án A quên đổi chiều.
+::key A
+Căn thức xác định khi $6-3x\ge0\iff -3x\ge-6\iff x\le2$ (chia hai vế cho $-3$ thì đổi chiều). Phương án C quên đổi chiều.
 
 ::mc
 $\sqrt{\left(\sqrt5-3\right)^2}$ bằng
 A. $\sqrt5-3$.
-B. $3-\sqrt5$.
-C. $3+\sqrt5$.
-D. $14-6\sqrt5$.
-::key B
-Vì $\sqrt5<\sqrt9=3$ nên $\sqrt5-3<0$. Do đó $\sqrt{\left(\sqrt5-3\right)^2}=\left|\sqrt5-3\right|=3-\sqrt5$. Phương án A quên xét dấu, D bình phương thay vì khai căn.
+B. $14-6\sqrt5$.
+C. $3-\sqrt5$.
+D. $3+\sqrt5$.
+::key C
+Vì $\sqrt5<\sqrt9=3$ nên $\sqrt5-3<0$. Do đó $\sqrt{\left(\sqrt5-3\right)^2}=\left|\sqrt5-3\right|=3-\sqrt5$. Phương án A quên xét dấu, B bình phương thay vì khai căn.
 
 ::tf
 Cho biểu thức $A=\sqrt{2x+10}$. Xét tính đúng sai của các mệnh đề sau:

@@ -58,6 +58,8 @@ function stats(file) {
       const it = require('./render.js').parseQuiz(qx[1]);
       const c = (t) => it.filter((i) => i.type === t).length;
       s.quiz = c('mc') + '-' + c('tf') + '-' + c('sa');
+      { const cnt = {}; it.filter((i) => i.type === 'mc').forEach((i) => { cnt[i.key] = (cnt[i.key] || 0) + 1; });
+        if (Math.max(0, ...Object.values(cnt)) > 5) problem(file + ': đáp án Phần I dồn vào một chữ cái (' + JSON.stringify(cnt) + ')'); }
       if (s.quiz !== '12-4-6') problem(file + ': đề luyện cần đúng 12 câu ::mc, 4 câu ::tf, 6 câu ::sa (đang có ' + s.quiz + ')');
       it.forEach((i, k) => {
         if (i.type === 'mc' && (i.opts.length !== 4 || !/^[A-D]$/.test(i.key))) problem(file + ': câu thứ ' + (k + 1) + ' (nhiều lựa chọn) cần 4 phương án và ::key A–D');
@@ -78,6 +80,11 @@ function stats(file) {
     const items = require('./render.js').parseQuiz(qm[1]);
     const mc = items.filter((i) => i.type === 'mc'), tf = items.filter((i) => i.type === 'tf'), sa = items.filter((i) => i.type === 'sa');
     s.quiz = mc.length + '-' + tf.length + '-' + sa.length;
+    { // the site does not shuffle options: the correct letters must vary
+      const cnt = {}; mc.forEach((i) => { cnt[i.key] = (cnt[i.key] || 0) + 1; });
+      const top = Math.max(0, ...Object.values(cnt));
+      if (mc.length >= 4 && top > Math.ceil(mc.length / 2)) problem(file + ': đáp án trắc nghiệm dồn vào một chữ cái (' + JSON.stringify(cnt) + '); hãy đổi thứ tự phương án để đáp án đúng rải đều A–D');
+    }
     if (mc.length < 4 || tf.length < 1 || sa.length < 2) problem(file + ': kiểm tra mini cần ≥ 4 câu ::mc, ≥ 1 câu ::tf, ≥ 2 câu ::sa (đang có ' + s.quiz + ')');
     mc.forEach((i, k) => { if (i.opts.length !== 4 || !/^[A-D]$/.test(i.key)) problem(file + ': kiểm tra mini, Phần I câu ' + (k + 1) + ' cần đúng 4 phương án A.–D. và ::key là một chữ A–D'); });
     tf.forEach((i, k) => { if (i.opts.length !== 4 || !/^[TF]{4}$/.test(i.key)) problem(file + ': kiểm tra mini, Phần II câu ' + (k + 1) + ' cần 4 ý a)–d) và ::key dạng "Đ S Đ S" (hoặc "T F T F")'); });

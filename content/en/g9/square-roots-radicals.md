@@ -363,12 +363,12 @@ Since $\sqrt{x^2}=|x|\ge0$, we need $2x-3\ge0$, that is, $x\ge1.5$. Then $x>0$, 
 :::quiz
 ::mc
 The principal square root of $49$ is
-A. $7$.
+A. $24.5$.
 B. $-7$.
 C. $7$ and $-7$.
-D. $24.5$.
-::key A
-We have $7\ge0$ and $7^2=49$, so the principal square root of $49$ is $7$. Option C lists the square roots of $49$, and D divides $49$ by $2$.
+D. $7$.
+::key D
+We have $7\ge0$ and $7^2=49$, so the principal square root of $49$ is $7$. Option C lists the square roots of $49$, and A divides $49$ by $2$.
 
 ::mc
 $\sqrt{(-8)^2}$ equals
@@ -381,21 +381,21 @@ We have $\sqrt{(-8)^2}=|-8|=8$. Option A forgets the absolute value, and C forge
 
 ::mc
 The expression $\sqrt{6-3x}$ is defined when
-A. $x\ge2$.
-B. $x\le2$.
-C. $x\ge-2$.
+A. $x\le2$.
+B. $x\ge-2$.
+C. $x\ge2$.
 D. $x\le-2$.
-::key B
-The expression is defined when $6-3x\ge0\iff -3x\ge-6\iff x\le2$ (dividing both sides by $-3$ reverses the sign). Option A forgets to reverse it.
+::key A
+The expression is defined when $6-3x\ge0\iff -3x\ge-6\iff x\le2$ (dividing both sides by $-3$ reverses the sign). Option C forgets to reverse it.
 
 ::mc
 $\sqrt{\left(\sqrt5-3\right)^2}$ equals
 A. $\sqrt5-3$.
-B. $3-\sqrt5$.
-C. $3+\sqrt5$.
-D. $14-6\sqrt5$.
-::key B
-Since $\sqrt5<\sqrt9=3$, $\sqrt5-3<0$. Hence $\sqrt{\left(\sqrt5-3\right)^2}=\left|\sqrt5-3\right|=3-\sqrt5$. Option A ignores the sign, and D squares instead of taking the root.
+B. $14-6\sqrt5$.
+C. $3-\sqrt5$.
+D. $3+\sqrt5$.
+::key C
+Since $\sqrt5<\sqrt9=3$, $\sqrt5-3<0$. Hence $\sqrt{\left(\sqrt5-3\right)^2}=\left|\sqrt5-3\right|=3-\sqrt5$. Option A ignores the sign, and B squares instead of taking the root.
 
 ::tf
 Consider the expression $A=\sqrt{2x+10}$. Decide whether each statement is true or false.

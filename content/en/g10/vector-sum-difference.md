@@ -445,29 +445,29 @@ The difference of the two sides is $\vec{0}$, so the two sides are equal.
 :::quiz
 ::mc
 For any three points $A$, $B$, $C$, the vector $\overrightarrow{AB}+\overrightarrow{CA}$ equals
-A. $\overrightarrow{CB}$.
+A. $\vec{0}$.
 B. $\overrightarrow{BC}$.
 C. $\overrightarrow{AC}$.
-D. $\vec{0}$.
-::key A
+D. $\overrightarrow{CB}$.
+::key D
 Reorder so that the head of the first vector is the tail of the second: $\overrightarrow{CA}+\overrightarrow{AB}=\overrightarrow{CB}$. Option B has the opposite direction.
 
 ::mc
 For two points $A$, $B$ and any point $M$, $\overrightarrow{MA}-\overrightarrow{MB}$ equals
-A. $\overrightarrow{AB}$.
-B. $\overrightarrow{BA}$.
+A. $\overrightarrow{BA}$.
+B. $\overrightarrow{AB}$.
 C. $\vec{0}$.
 D. $2\overrightarrow{MA}$.
-::key B
-The difference of two vectors with the same tail is the vector joining their heads, pointing to the head of the first one: $\overrightarrow{MA}-\overrightarrow{MB}=\overrightarrow{BA}$. Option A swaps the order.
+::key A
+The difference of two vectors with the same tail is the vector joining their heads, pointing to the head of the first one: $\overrightarrow{MA}-\overrightarrow{MB}=\overrightarrow{BA}$. Option B swaps the order.
 
 ::mc
 $ABCD$ is a square of side $3$. The magnitude of $\overrightarrow{AB}+\overrightarrow{AD}$ is
 A. $6$.
-B. $3\sqrt2$.
-C. $3$.
+B. $3$.
+C. $3\sqrt2$.
 D. $0$.
-::key B
+::key C
 By the parallelogram rule, $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$, and $AC=\sqrt{3^2+3^2}=3\sqrt2$. Option A simply adds the two lengths.
 
 ::mc

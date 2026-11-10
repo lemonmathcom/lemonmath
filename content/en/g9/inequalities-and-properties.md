@@ -324,21 +324,21 @@ Multiplying by $3>0$ keeps the direction. A and D forget to reverse when multipl
 
 ::mc
 Suppose $a>b$. Compare $1-4a$ and $1-4b$.
-A. $1-4a>1-4b$.
-B. $1-4a<1-4b$.
+A. $1-4a<1-4b$.
+B. $1-4a>1-4b$.
 C. $1-4a=1-4b$.
 D. They cannot be compared.
-::key B
-$-4a<-4b$ (reversed), and adding $1$ gives $1-4a<1-4b$. A forgets to reverse.
+::key A
+$-4a<-4b$ (reversed), and adding $1$ gives $1-4a<1-4b$. B forgets to reverse.
 
 ::mc
 Which statement is true for **all** numbers $a$, $b$?
 A. If $a<b$, then $a^2<b^2$.
-B. $a^2+1>0$.
+B. If $a<b$, then $-a<-b$.
 C. $2a>a$.
-D. If $a<b$, then $-a<-b$.
-::key B
-$a^2\ge0$, so $a^2+1\ge1>0$. A fails for $a=-3$, $b=1$; C fails for $a=-1$; D forgets to reverse.
+D. $a^2+1>0$.
+::key D
+$a^2\ge0$, so $a^2+1\ge1>0$. A fails for $a=-3$, $b=1$; C fails for $a=-1$; B forgets to reverse.
 
 ::tf
 Suppose $a>b$.

@@ -376,30 +376,30 @@ $$S=\int_{-4}^4\left(4-\frac{x^2}{4}\right)dx=\Big[4x-\frac{x^3}{12}\Big]_{-4}^4
 :::quiz
 ::mc
 Họ nguyên hàm của hàm số $f(x)=2^x$ là
-A. $\dfrac{2^x}{\ln2}+C$.
+A. $x\cdot2^{x-1}+C$.
 B. $2^x\ln2+C$.
 C. $\dfrac{2^{x+1}}{x+1}+C$.
-D. $x\cdot2^{x-1}+C$.
-::key A
-$\left(\dfrac{2^x}{\ln2}\right)'=\dfrac{2^x\ln2}{\ln2}=2^x$. Phương án B là đạo hàm của $2^x$; C và D dùng nhầm công thức cho luỹ thừa $x^\alpha$.
+D. $\dfrac{2^x}{\ln2}+C$.
+::key D
+$\left(\dfrac{2^x}{\ln2}\right)'=\dfrac{2^x\ln2}{\ln2}=2^x$. Phương án B là đạo hàm của $2^x$; C và A dùng nhầm công thức cho luỹ thừa $x^\alpha$.
 
 ::mc
 $\displaystyle\int_1^2\frac1x\,dx$ bằng
-A. $\ln2$.
-B. $\dfrac34$.
+A. $\dfrac34$.
+B. $\ln2$.
 C. $\ln3$.
 D. $\dfrac12$.
-::key A
-$\Big[\ln x\Big]_1^2=\ln2-0=\ln2$. Phương án B dùng nhầm "nguyên hàm" $-\dfrac{1}{x^2}$ (thực ra là đạo hàm); C cộng hai cận.
+::key B
+$\Big[\ln x\Big]_1^2=\ln2-0=\ln2$. Phương án A dùng nhầm "nguyên hàm" $-\dfrac{1}{x^2}$ (thực ra là đạo hàm); C cộng hai cận.
 
 ::mc
 Hàm số $f$, $g$ liên tục trên $[a; b]$. Diện tích hình phẳng giới hạn bởi $y=f(x)$, $y=g(x)$, $x=a$, $x=b$ là
-A. $\displaystyle\int_a^b\lvert f(x)-g(x)\rvert\,dx$.
+A. $\pi\displaystyle\int_a^b\left[f(x)-g(x)\right]^2dx$.
 B. $\displaystyle\int_a^b\left[f(x)-g(x)\right]dx$.
-C. $\pi\displaystyle\int_a^b\left[f(x)-g(x)\right]^2dx$.
+C. $\displaystyle\int_a^b\lvert f(x)-g(x)\rvert\,dx$.
 D. $\left\lvert\displaystyle\int_a^b\left[f(x)-g(x)\right]dx\right\rvert$.
-::key A
-Diện tích cần giá trị tuyệt đối bên trong tích phân. B có thể âm; D sai khi $f-g$ đổi dấu trên $[a; b]$; C là dạng công thức thể tích.
+::key C
+Diện tích cần giá trị tuyệt đối bên trong tích phân. B có thể âm; D sai khi $f-g$ đổi dấu trên $[a; b]$; A là dạng công thức thể tích.
 
 ::mc
 Biết $\displaystyle\int_0^2 f(x)\,dx=3$. Giá trị của $\displaystyle\int_0^2\left[2f(x)+x\right]dx$ là

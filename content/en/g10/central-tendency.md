@@ -392,19 +392,19 @@ The total is $35$ and there are $5$ values, so $\bar x=\dfrac{35}{5}=7$. Option 
 ::mc
 The median of the data set $9, 2, 13, 4, 6, 15$ is
 A. $6$.
-B. $7.5$.
-C. $8.5$.
+B. $8.5$.
+C. $7.5$.
 D. $9$.
-::key B
-Sorted: $2, 4, 6, 9, 13, 15$. There are $6$ values, so $M=\dfrac{6+9}{2}=7.5$. Option C takes the two middle numbers before sorting ($13$ and $4$).
+::key C
+Sorted: $2, 4, 6, 9, 13, 15$. There are $6$ values, so $M=\dfrac{6+9}{2}=7.5$. Option B takes the two middle numbers before sorting ($13$ and $4$).
 
 ::mc
 In one month a shop sells $5$ pairs of shoes in size $36$, $9$ pairs in size $37$, $14$ pairs in size $38$, $8$ pairs in size $39$ and $3$ pairs in size $40$. The mode of the shoe-size data is
 A. $14$.
-B. $38$.
+B. $37$.
 C. $40$.
-D. $37$.
-::key B
+D. $38$.
+::key D
 The mode is the value with the largest frequency: size $38$ ($14$ pairs). Option A confuses the mode with its frequency.
 
 ::mc

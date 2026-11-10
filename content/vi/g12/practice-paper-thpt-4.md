@@ -87,16 +87,16 @@ Phương án A quên hệ số $\dfrac12$ trong nguyên hàm của $e^{2x}$; ph�
 
 ::mc
 Trong không gian $Oxyz$, hình chiếu vuông góc của điểm $M(3; 3; -1)$ lên mặt phẳng $(P)\colon x+2y-2z-2=0$ là điểm
-A. $H(4; 5; -3)$.
+A. $H(2; 1; 1)$.
 B. $H(1; -1; 3)$.
-C. $H(2; 1; 1)$.
+C. $H(4; 5; -3)$.
 D. $H(2; 1; -1)$.
-::key C
+::key A
 Đường thẳng qua $M$ vuông góc với $(P)$ có vectơ chỉ phương $\vec n=(1; 2; -2)$, gồm các điểm $H(3+t; 3+2t; -1-2t)$. Thay vào phương trình $(P)$:
 
 $$(3+t)+2(3+2t)-2(-1-2t)-2=0\iff 9+9t=0\iff t=-1.$$
 
-Vậy $H(2; 1; 1)$. Phương án A lấy nhầm $t=1$; phương án B là điểm đối xứng của $M$ qua $(P)$ (ứng với $t=-2$).
+Vậy $H(2; 1; 1)$. Phương án C lấy nhầm $t=1$; phương án B là điểm đối xứng của $M$ qua $(P)$ (ứng với $t=-2$).
 
 Ôn lại: [Ôn tập: phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
@@ -153,16 +153,16 @@ Tuổi của $40$ người tham gia một câu lạc bộ dưỡng sinh được
 | Số người | $6$ | $10$ | $14$ | $7$ | $3$ |
 
 Trung vị của mẫu số liệu ghép nhóm trên (làm tròn đến hàng phần trăm) là
-A. $65$.
+A. $62{,}86$.
 B. $64$.
-C. $62{,}86$.
+C. $65$.
 D. $60$.
-::key C
+::key A
 Tần số tích luỹ là $6$, $16$, $30$, $37$, $40$; $\dfrac n2=20$ nằm trong nhóm $[60; 70)$, với tần số tích luỹ của nhóm trước là $16$:
 
 $$M_e=60+\dfrac{20-16}{14}\cdot10=60+\dfrac{20}{7}\approx62{,}86.$$
 
-Phương án A là giá trị đại diện của nhóm; phương án B chia nhầm cho tần số $10$ của nhóm trước; phương án D là đầu mút trái của nhóm.
+Phương án C là giá trị đại diện của nhóm; phương án B chia nhầm cho tần số $10$ của nhóm trước; phương án D là đầu mút trái của nhóm.
 
 Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
 
@@ -185,14 +185,14 @@ Phương án A gộp hai hộp thành một ($5$ bi trắng trên $11$ bi); phư
 Độ cao mực nước (mét) tại một cảng biển sau $t$ giờ kể từ lúc $0$ giờ được mô tả bởi $h(t)=3+2\sin\dfrac{\pi t}{6}$, $0\le t\le24$. Trong một ngày, tổng thời gian mực nước không thấp hơn $4$ m là
 A. $4$ giờ.
 B. $12$ giờ.
-C. $8$ giờ.
-D. $16$ giờ.
-::key C
+C. $16$ giờ.
+D. $8$ giờ.
+::key D
 Đưa về bất phương trình lượng giác cơ bản:
 
 $$h(t)\ge4\iff\sin\dfrac{\pi t}{6}\ge\dfrac12\iff\dfrac{\pi}{6}+k2\pi\le\dfrac{\pi t}{6}\le\dfrac{5\pi}{6}+k2\pi\iff1+12k\le t\le5+12k.$$
 
-Với $0\le t\le24$ ta được $t\in[1; 5]\cup[13; 17]$, tổng cộng $8$ giờ. Phương án A chỉ xét một chu kì $12$ giờ; phương án D giải nhầm $\sin\dfrac{\pi t}{6}\ge-\dfrac12$ (tức là $h\ge2$).
+Với $0\le t\le24$ ta được $t\in[1; 5]\cup[13; 17]$, tổng cộng $8$ giờ. Phương án A chỉ xét một chu kì $12$ giờ; phương án C giải nhầm $\sin\dfrac{\pi t}{6}\ge-\dfrac12$ (tức là $h\ge2$).
 
 Ôn lại: [Ôn tập: lượng giác, mũ – lôgarit, cấp số](lesson:review-trig-exp-log-sequences).
 
