@@ -430,7 +430,7 @@ function worksheetPage(lang, ls) {
   const r = worksheet({
     lang, md: C.body, meta: C.meta, grade: ls.grade.n, number: ls.number, lessonUrl: abs(d), backHref: '../',
     assets: relFile(px.join(d, WS_DIR[lang]), 'assets') + '/',
-    renderMd: (md) => render(md, { marked, katex, lang, warn: (m) => warn(C.rel + ' (phiếu in): ' + m) }).html
+    renderMd: (md) => resolveLinks(render(md, { marked, katex, lang, warn: (m) => warn(C.rel + ' (phiếu in): ' + m) }).html, px.join(d, WS_DIR[lang]), lang, C.rel + ' (phiếu in)')
   });
   if (!r) return false;
   const file = path.join(OUT, d, r.dir, 'index.html');

@@ -2352,7 +2352,7 @@
     },
     {
       "n": 7,
-      "status": "roadmap",
+      "status": "full",
       "chapters": [
         {
           "id": "g7-rational-numbers",
@@ -2700,7 +2700,7 @@
     },
     {
       "n": 8,
-      "status": "roadmap",
+      "status": "full",
       "chapters": [
         {
           "id": "g8-polynomials",
@@ -3060,7 +3060,7 @@
     },
     {
       "n": 9,
-      "status": "roadmap",
+      "status": "full",
       "chapters": [
         {
           "id": "g9-simultaneous-equations",
