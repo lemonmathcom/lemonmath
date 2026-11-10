@@ -19,6 +19,10 @@ Thứ tự ưu tiên đề nghị: O12 (kĩ năng, ngắn, dùng cho mọi học
 | O11 | Cambridge IGCSE Mathematics (0580) | 11 | E076–E086 | `on-thi/O11-igcse.txt` | |
 | O12 | Kĩ năng ôn thi | 5 | E087–E091 | `on-thi/O12-study-skills.txt` | |
 
+## Tiến độ (tài khoản Pro tự viết từ 11/11/2026)
+- Đã xong: evidence-based-revision, E001 sat-overview, E003 sat-linear-equations-systems, E004 sat-linear-functions-inequalities.
+- Tiếp theo: E002 sat-desmos-strategies, E005–E007 (Advanced Math), E008–E011, E012–E013 (đề luyện).
+
 ## Cách giao
 - Dán toàn bộ file `.txt` của gói, kèm 5 file: `_templates/BRIEF-exams.md`, `_templates/WRITING-SPEC.md`, `_templates/GLOSSARY.md`, và cặp bài mẫu `content/vi/g12/review-integrals.md` + `content/en/g12/review-integrals.md` (gói O12 thay cặp mẫu bằng `evidence-based-revision.md` hai bản).
 - Bài nộp về: như cũ. `tools/qa/intake.py` chưa biết thư mục exams, nên với bài E hãy chép tay hai file vào `content/vi/exams/<kì thi>/` và `content/en/exams/<kì thi>/`, rồi chạy `node tools/check.js <id>`.
