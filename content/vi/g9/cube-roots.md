@@ -169,7 +169,11 @@ Vậy cạnh bể dài $1{,}2$ m.
 Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-Tính: a) $\sqrt[3]{343}$; b) $\sqrt[3]{-0{,}027}$; c) $\sqrt[3]{\dfrac{64}{125}}$.
+Tính:
+
+a) $\sqrt[3]{343}$;
+b) $\sqrt[3]{-0{,}027}$;
+c) $\sqrt[3]{\dfrac{64}{125}}$.
 
 ::hint
 **Kiến thức:** $\sqrt[3]{a}=x\iff x^3=a$.
@@ -179,7 +183,15 @@ Tính: a) $\sqrt[3]{343}$; b) $\sqrt[3]{-0{,}027}$; c) $\sqrt[3]{\dfrac{64}{125}
 2. Với số âm, căn bậc ba là số âm.
 
 ::solution
-a) Vì $7^3=343$ nên $\sqrt[3]{343}=7$. b) Vì $(-0{,}3)^3=-0{,}027$ nên $\sqrt[3]{-0{,}027}=-0{,}3$. c) Vì $\left(\dfrac45\right)^3=\dfrac{64}{125}$ nên $\sqrt[3]{\dfrac{64}{125}}=\dfrac45$.
+Căn bậc ba của số $a$ là số $x$ sao cho $x^3=a$.
+
+a) Vì $7^3=343$ nên $\sqrt[3]{343}=7$.
+
+b) Vì $(-0{,}3)^3=-0{,}027$ nên $\sqrt[3]{-0{,}027}=-0{,}3$.
+
+c) Vì $\left(\dfrac45\right)^3=\dfrac{4^3}{5^3}=\dfrac{64}{125}$ nên $\sqrt[3]{\dfrac{64}{125}}=\dfrac45$.
+
+Vậy kết quả lần lượt là $7$; $-0{,}3$; $\dfrac45$.
 
 **Đáp số.** a) $7$; b) $-0{,}3$; c) $\dfrac45$.
 :::
@@ -195,13 +207,25 @@ Tính $\sqrt[3]{-216}+\sqrt[3]{1000}-\left(\sqrt[3]{7}\right)^3$.
 2. Cộng, trừ.
 
 ::solution
-Ta có $\sqrt[3]{-216}+\sqrt[3]{1000}-\left(\sqrt[3]{7}\right)^3=-6+10-7=-3$.
+Ta có:
+
+- $\sqrt[3]{-216}=-6$ vì $(-6)^3=-216$;
+- $\sqrt[3]{1000}=10$ vì $10^3=1000$;
+- $\left(\sqrt[3]{7}\right)^3=7$ (theo định nghĩa căn bậc ba).
+
+Do đó
+$$\sqrt[3]{-216}+\sqrt[3]{1000}-\left(\sqrt[3]{7}\right)^3=-6+10-7=-3.$$
+
+Vậy giá trị của biểu thức là $-3$.
 
 **Đáp số.** $-3$.
 :::
 
 :::exercise
-Dùng máy tính cầm tay, tính (làm tròn đến hàng phần trăm): a) $\sqrt[3]{50}$; b) $\sqrt[3]{-12}$.
+Dùng máy tính cầm tay, tính (làm tròn kết quả đến hàng phần trăm):
+
+a) $\sqrt[3]{50}$;
+b) $\sqrt[3]{-12}$.
 
 ::hint
 **Kiến thức:** máy tính có phím căn bậc ba; căn bậc ba của số âm là số âm.
@@ -211,13 +235,20 @@ Dùng máy tính cầm tay, tính (làm tròn đến hàng phần trăm): a) $\s
 2. Làm tròn đến chữ số thập phân thứ hai.
 
 ::solution
-Dùng máy tính cầm tay, ta được: a) $\sqrt[3]{50}\approx3{,}68$; b) $\sqrt[3]{-12}\approx-2{,}29$.
+a) Bấm máy tính cầm tay, ta được $\sqrt[3]{50}=3{,}684\ldots$ Chữ số hàng phần nghìn là $4<5$ nên làm tròn xuống: $\sqrt[3]{50}\approx3{,}68$.
+
+b) Bấm máy tính cầm tay, ta được $\sqrt[3]{-12}=-2{,}289\ldots$ Chữ số hàng phần nghìn là $9\ge5$ nên làm tròn lên: $\sqrt[3]{-12}\approx-2{,}29$.
+
+Vậy $\sqrt[3]{50}\approx3{,}68$ và $\sqrt[3]{-12}\approx-2{,}29$.
 
 **Đáp số.** a) $3{,}68$; b) $-2{,}29$.
 :::
 
 :::exercise
-So sánh: a) $5$ và $\sqrt[3]{124}$; b) $-2$ và $\sqrt[3]{-9}$.
+So sánh:
+
+a) $5$ và $\sqrt[3]{124}$;
+b) $-2$ và $\sqrt[3]{-9}$.
 
 ::hint
 **Kiến thức:** $a<b\iff\sqrt[3]a<\sqrt[3]b$.
@@ -227,13 +258,24 @@ So sánh: a) $5$ và $\sqrt[3]{124}$; b) $-2$ và $\sqrt[3]{-9}$.
 2. So sánh các số dưới dấu căn.
 
 ::solution
-a) Ta có $5=\sqrt[3]{125}$. Vì $125>124$ nên $5>\sqrt[3]{124}$. b) Ta có $-2=\sqrt[3]{-8}$. Vì $-8>-9$ nên $-2>\sqrt[3]{-9}$.
+Ta dùng tính chất: với mọi số $a$, $b$, nếu $a<b$ thì $\sqrt[3]a<\sqrt[3]b$.
+
+a) Ta có $5=\sqrt[3]{125}$. Vì $125>124$ nên $\sqrt[3]{125}>\sqrt[3]{124}$.
+
+Vậy $5>\sqrt[3]{124}$.
+
+b) Ta có $-2=\sqrt[3]{-8}$. Vì $-8>-9$ nên $\sqrt[3]{-8}>\sqrt[3]{-9}$.
+
+Vậy $-2>\sqrt[3]{-9}$.
 
 **Đáp số.** a) $5>\sqrt[3]{124}$; b) $-2>\sqrt[3]{-9}$.
 :::
 
 :::exercise
-Tìm $x$, biết: a) $x^3=-64$; b) $\sqrt[3]{3x+1}=-2$.
+Tìm $x$, biết:
+
+a) $x^3=-64$;
+b) $\sqrt[3]{3x+1}=-2$.
 
 ::hint
 **Kiến thức:** $x^3=a\iff x=\sqrt[3]a$; $\sqrt[3]A=b\iff A=b^3$.
@@ -243,13 +285,27 @@ Tìm $x$, biết: a) $x^3=-64$; b) $\sqrt[3]{3x+1}=-2$.
 2. Câu b: lập phương hai vế, giải phương trình bậc nhất.
 
 ::solution
-a) Ta có $x^3=-64\iff x=\sqrt[3]{-64}=-4$. b) Ta có $\sqrt[3]{3x+1}=-2\iff 3x+1=(-2)^3=-8\iff 3x=-9\iff x=-3$.
+a) Ta có $x^3=-64$, suy ra $x=\sqrt[3]{-64}=-4$ (vì $(-4)^3=-64$).
+
+Vậy $x=-4$.
+
+b) Ta có $\sqrt[3]{3x+1}=-2$. Lập phương hai vế, ta được
+$$3x+1=(-2)^3=-8.$$
+
+Suy ra $3x=-9$, tức là $x=-3$.
+
+Thử lại: $\sqrt[3]{3\cdot(-3)+1}=\sqrt[3]{-8}=-2$ (đúng).
+
+Vậy $x=-3$.
 
 **Đáp số.** a) $x=-4$; b) $x=-3$.
 :::
 
 :::exercise
-Rút gọn các biểu thức sau: a) $\sqrt[3]{27x^3}-2x$; b) $\sqrt[3]{x^3+6x^2+12x+8}$.
+Rút gọn các biểu thức sau:
+
+a) $\sqrt[3]{27x^3}-2x$;
+b) $\sqrt[3]{x^3+6x^2+12x+8}$.
 
 ::hint
 **Kiến thức:** $\sqrt[3]{A^3}=A$; hằng đẳng thức $(a+b)^3=a^3+3a^2b+3ab^2+b^3$.
@@ -259,7 +315,17 @@ Rút gọn các biểu thức sau: a) $\sqrt[3]{27x^3}-2x$; b) $\sqrt[3]{x^3+6x^
 2. Nhận ra $x^3+6x^2+12x+8=(x+2)^3$.
 
 ::solution
-a) Ta có $\sqrt[3]{27x^3}-2x=\sqrt[3]{(3x)^3}-2x=3x-2x=x$. b) Ta có $\sqrt[3]{x^3+6x^2+12x+8}=\sqrt[3]{(x+2)^3}=x+2$.
+Áp dụng tính chất $\sqrt[3]{A^3}=A$ với mọi biểu thức $A$.
+
+a) Ta có $27x^3=(3x)^3$. Do đó
+$$\sqrt[3]{27x^3}-2x=\sqrt[3]{(3x)^3}-2x=3x-2x=x.$$
+
+b) Theo hằng đẳng thức lập phương của một tổng, ta có
+$$x^3+6x^2+12x+8=x^3+3\cdot x^2\cdot2+3\cdot x\cdot2^2+2^3=(x+2)^3.$$
+
+Do đó $\sqrt[3]{x^3+6x^2+12x+8}=\sqrt[3]{(x+2)^3}=x+2$.
+
+Vậy hai biểu thức rút gọn lần lượt là $x$ và $x+2$.
 
 **Đáp số.** a) $x$; b) $x+2$.
 :::
@@ -279,9 +345,17 @@ b) Tính diện tích đáy bể.
 2. Diện tích đáy bằng bình phương cạnh.
 
 ::solution
-a) Ta có $3375$ lít $=3375$ dm³. Do đó cạnh bể dài $\sqrt[3]{3375}=15$ (dm) $=1{,}5$ (m).
+a) Đổi: $3375$ lít $=3375$ dm³ (vì $1$ lít $=1$ dm³).
 
-b) Diện tích đáy bể là $1{,}5^2=2{,}25$ (m²).
+Gọi $a$ (dm) là cạnh của bể ($a>0$). Thể tích bể là $a^3=3375$, suy ra
+$$a=\sqrt[3]{3375}=15\ \text{(dm)}=1{,}5\ \text{(m)}.$$
+
+Vậy cạnh của bể dài $1{,}5$ m.
+
+b) Đáy bể là hình vuông cạnh $1{,}5$ m, nên diện tích đáy bể là
+$$1{,}5^2=2{,}25\ \text{(m}^2\text{)}.$$
+
+Vậy diện tích đáy bể là $2{,}25$ m².
 
 **Đáp số.** a) $1{,}5$ m; b) $2{,}25$ m².
 :::
@@ -301,9 +375,16 @@ b) Có bao nhiêu khối nhỏ không có mặt nào được sơn?
 2. Các khối không được sơn tạo thành một khối lập phương bên trong, mỗi cạnh ít hơn $2$ khối.
 
 ::solution
-a) Số khối nhỏ trên mỗi cạnh là $\sqrt[3]{512}=8$.
+a) Gọi $n$ là số khối nhỏ trên mỗi cạnh của khối lớn ($n$ là số nguyên dương). Khối lớn gồm $n^3$ khối nhỏ nên $n^3=512$, suy ra
+$$n=\sqrt[3]{512}=8.$$
 
-b) Các khối nhỏ không được sơn tạo thành một khối lập phương bên trong, mỗi cạnh có $8-2=6$ khối. Do đó có $6^3=216$ khối nhỏ không được sơn.
+Vậy mỗi cạnh của khối lớn có $8$ khối nhỏ.
+
+b) Một khối nhỏ không có mặt nào được sơn khi nó không nằm ở lớp ngoài cùng. Bỏ đi lớp ngoài cùng, mỗi cạnh bớt đi $2$ khối (một khối ở mỗi đầu), nên các khối không được sơn tạo thành một khối lập phương có mỗi cạnh $8-2=6$ khối.
+
+Số khối nhỏ không được sơn là $6^3=216$.
+
+Vậy có $216$ khối nhỏ không có mặt nào được sơn.
 
 **Đáp số.** a) $8$; b) $216$.
 :::
@@ -319,7 +400,16 @@ Tính $\sqrt{16}+\sqrt[3]{-27}+\sqrt{(-2)^2}$.
 2. Cộng lại.
 
 ::solution
-Ta có $\sqrt{16}+\sqrt[3]{-27}+\sqrt{(-2)^2}=4+(-3)+|-2|=4-3+2=3$.
+Ta có:
+
+- $\sqrt{16}=4$;
+- $\sqrt[3]{-27}=-3$ vì $(-3)^3=-27$;
+- $\sqrt{(-2)^2}=|-2|=2$.
+
+Do đó
+$$\sqrt{16}+\sqrt[3]{-27}+\sqrt{(-2)^2}=4+(-3)+2=3.$$
+
+Vậy giá trị của biểu thức là $3$.
 
 **Đáp số.** $3$.
 :::
@@ -335,7 +425,14 @@ Có bao nhiêu số nguyên $x$ thoả mãn $-2<\sqrt[3]{x}<3$?
 2. Đếm các số nguyên trong khoảng tìm được.
 
 ::solution
-Ta có $-2=\sqrt[3]{-8}$ và $3=\sqrt[3]{27}$. Do đó $-2<\sqrt[3]{x}<3\iff -8<x<27$. Suy ra các số nguyên $x$ cần tìm là $-7, -6, \ldots, 26$, gồm $26-(-7)+1=34$ số.
+Ta có $-2=\sqrt[3]{-8}$ và $3=\sqrt[3]{27}$. Bất đẳng thức đã cho trở thành
+$$\sqrt[3]{-8}<\sqrt[3]{x}<\sqrt[3]{27}.$$
+
+Vì với mọi số $a$, $b$ ta có $\sqrt[3]a<\sqrt[3]b$ khi và chỉ khi $a<b$, nên điều này tương đương với $-8<x<27$.
+
+Các số nguyên $x$ thoả mãn là $-7, -6, \ldots, 25, 26$. Số các số nguyên đó là $26-(-7)+1=34$.
+
+Vậy có $34$ số nguyên $x$ thoả mãn điều kiện đã cho.
 
 **Đáp số.** $34$ số.
 :::

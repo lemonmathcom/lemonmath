@@ -26,3 +26,4 @@ Thứ tự: lớp 9 → lớp 12 → Ôn thi. Mỗi lượt 4–6 bài học; fi
 | g9-lo1 | equations-reducible-to-linear, linear-inequalities-one-unknown | xong 11/11/2026 |
 | g9-lo2 | simultaneous-equations-intro, solving-simultaneous-equations, simultaneous-equation-problems, inequalities-and-properties | xong 12/11/2026 |
 | g9-lo3 | square-roots-radicals, square-roots-multiply-divide | xong 12/11/2026 |
+| g9-lo4 | cube-roots, simplifying-root-expressions | xong 12/11/2026 |

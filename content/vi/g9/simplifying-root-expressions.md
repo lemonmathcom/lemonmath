@@ -158,7 +158,11 @@ Vậy $A=2\sqrt x-2$ với $x\ge0$, $x\neq1$.
 Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-Đưa thừa số ra ngoài dấu căn: a) $\sqrt{75}$; b) $\sqrt{200}$; c) $\sqrt{28a^2}$ với $a<0$.
+Đưa thừa số ra ngoài dấu căn:
+
+a) $\sqrt{75}$;
+b) $\sqrt{200}$;
+c) $\sqrt{28a^2}$ với $a<0$.
 
 ::hint
 **Kiến thức:** $\sqrt{A^2B}=|A|\sqrt B$.
@@ -168,7 +172,18 @@ Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm tr
 2. Đưa căn của nó ra ngoài; với chữ, xét dấu.
 
 ::solution
-a) $\sqrt{75}=\sqrt{25\cdot3}=5\sqrt3$. b) $\sqrt{200}=\sqrt{100\cdot2}=10\sqrt2$. c) $\sqrt{28a^2}=\sqrt{(2a)^2\cdot7}=2|a|\sqrt7=-2a\sqrt7$ (vì $a<0$).
+Áp dụng công thức $\sqrt{A^2B}=|A|\sqrt B$ (với $B\ge0$).
+
+a) Ta có $75=25\cdot3=5^2\cdot3$. Do đó $\sqrt{75}=\sqrt{5^2\cdot3}=5\sqrt3$.
+
+b) Ta có $200=100\cdot2=10^2\cdot2$. Do đó $\sqrt{200}=\sqrt{10^2\cdot2}=10\sqrt2$.
+
+c) Ta có $28a^2=4a^2\cdot7=(2a)^2\cdot7$. Do đó
+$$\sqrt{28a^2}=\sqrt{(2a)^2\cdot7}=|2a|\sqrt7.$$
+
+Vì $a<0$ nên $|2a|=-2a$. Suy ra $\sqrt{28a^2}=-2a\sqrt7$.
+
+Vậy kết quả lần lượt là $5\sqrt3$; $10\sqrt2$; $-2a\sqrt7$.
 
 **Đáp số.** a) $5\sqrt3$; b) $10\sqrt2$; c) $-2a\sqrt7$.
 :::
@@ -184,7 +199,13 @@ Tính $\sqrt{20}-\sqrt{45}+3\sqrt5$.
 2. Cộng, trừ các hệ số.
 
 ::solution
-Ta có $\sqrt{20}-\sqrt{45}+3\sqrt5=2\sqrt5-3\sqrt5+3\sqrt5=2\sqrt5$.
+Đưa thừa số ra ngoài dấu căn, ta có
+$$\sqrt{20}=\sqrt{2^2\cdot5}=2\sqrt5;\qquad \sqrt{45}=\sqrt{3^2\cdot5}=3\sqrt5.$$
+
+Do đó
+$$\sqrt{20}-\sqrt{45}+3\sqrt5=2\sqrt5-3\sqrt5+3\sqrt5=(2-3+3)\sqrt5=2\sqrt5.$$
+
+Vậy giá trị của biểu thức là $2\sqrt5$.
 
 **Đáp số.** $2\sqrt5$.
 :::
@@ -202,15 +223,30 @@ b) Sắp xếp theo thứ tự tăng dần: $2\sqrt7$, $3\sqrt3$, $4\sqrt2$.
 2. So sánh các số dưới dấu căn.
 
 ::solution
-a) Ta có $4\sqrt3=\sqrt{48}$ và $3\sqrt5=\sqrt{45}$. Vì $48>45$ nên $4\sqrt3>3\sqrt5$.
+Ta đưa thừa số vào trong dấu căn theo công thức $A\sqrt B=\sqrt{A^2B}$ (với $A\ge0$, $B\ge0$), rồi so sánh các biểu thức dưới dấu căn.
 
-b) Ta có $2\sqrt7=\sqrt{28}$, $3\sqrt3=\sqrt{27}$, $4\sqrt2=\sqrt{32}$. Vì $27<28<32$ nên $3\sqrt3<2\sqrt7<4\sqrt2$.
+a) Ta có $4\sqrt3=\sqrt{4^2\cdot3}=\sqrt{48}$ và $3\sqrt5=\sqrt{3^2\cdot5}=\sqrt{45}$.
+
+Vì $48>45$ nên $\sqrt{48}>\sqrt{45}$.
+
+Vậy $4\sqrt3>3\sqrt5$.
+
+b) Ta có
+$$2\sqrt7=\sqrt{4\cdot7}=\sqrt{28};\quad 3\sqrt3=\sqrt{9\cdot3}=\sqrt{27};\quad 4\sqrt2=\sqrt{16\cdot2}=\sqrt{32}.$$
+
+Vì $27<28<32$ nên $\sqrt{27}<\sqrt{28}<\sqrt{32}$.
+
+Vậy thứ tự tăng dần là $3\sqrt3$; $2\sqrt7$; $4\sqrt2$.
 
 **Đáp số.** a) $4\sqrt3>3\sqrt5$; b) $3\sqrt3<2\sqrt7<4\sqrt2$.
 :::
 
 :::exercise
-Trục căn thức ở mẫu: a) $\dfrac{10}{\sqrt5}$; b) $\dfrac{2}{\sqrt3+1}$; c) $\dfrac{4}{\sqrt7-\sqrt3}$.
+Trục căn thức ở mẫu:
+
+a) $\dfrac{10}{\sqrt5}$;
+b) $\dfrac{2}{\sqrt3+1}$;
+c) $\dfrac{4}{\sqrt7-\sqrt3}$.
 
 ::hint
 **Kiến thức:** $\dfrac A{\sqrt B}=\dfrac{A\sqrt B}B$; nhân với biểu thức liên hợp của mẫu.
@@ -220,13 +256,25 @@ Trục căn thức ở mẫu: a) $\dfrac{10}{\sqrt5}$; b) $\dfrac{2}{\sqrt3+1}$;
 2. Tính mẫu bằng hằng đẳng thức, rồi rút gọn.
 
 ::solution
-a) $\dfrac{10}{\sqrt5}=\dfrac{10\sqrt5}{5}=2\sqrt5$. b) $\dfrac{2}{\sqrt3+1}=\dfrac{2\left(\sqrt3-1\right)}{3-1}=\sqrt3-1$. c) $\dfrac{4}{\sqrt7-\sqrt3}=\dfrac{4\left(\sqrt7+\sqrt3\right)}{7-3}=\sqrt7+\sqrt3$.
+a) Nhân cả tử và mẫu với $\sqrt5$, ta được
+$$\frac{10}{\sqrt5}=\frac{10\sqrt5}{\sqrt5\cdot\sqrt5}=\frac{10\sqrt5}{5}=2\sqrt5.$$
+
+b) Biểu thức liên hợp của $\sqrt3+1$ là $\sqrt3-1$. Nhân cả tử và mẫu với $\sqrt3-1$, ta được
+$$\frac{2}{\sqrt3+1}=\frac{2\left(\sqrt3-1\right)}{\left(\sqrt3+1\right)\left(\sqrt3-1\right)}=\frac{2\left(\sqrt3-1\right)}{3-1}=\sqrt3-1.$$
+
+c) Biểu thức liên hợp của $\sqrt7-\sqrt3$ là $\sqrt7+\sqrt3$. Nhân cả tử và mẫu với $\sqrt7+\sqrt3$, ta được
+$$\frac{4}{\sqrt7-\sqrt3}=\frac{4\left(\sqrt7+\sqrt3\right)}{\left(\sqrt7-\sqrt3\right)\left(\sqrt7+\sqrt3\right)}=\frac{4\left(\sqrt7+\sqrt3\right)}{7-3}=\sqrt7+\sqrt3.$$
+
+Vậy kết quả lần lượt là $2\sqrt5$; $\sqrt3-1$; $\sqrt7+\sqrt3$.
 
 **Đáp số.** a) $2\sqrt5$; b) $\sqrt3-1$; c) $\sqrt7+\sqrt3$.
 :::
 
 :::exercise
-Khử mẫu của biểu thức lấy căn: a) $\sqrt{\dfrac23}$; b) $\sqrt{\dfrac58}$.
+Khử mẫu của biểu thức lấy căn:
+
+a) $\sqrt{\dfrac23}$;
+b) $\sqrt{\dfrac58}$.
 
 ::hint
 **Kiến thức:** $\sqrt{\dfrac AB}=\dfrac{\sqrt{AB}}{|B|}$.
@@ -236,7 +284,15 @@ Khử mẫu của biểu thức lấy căn: a) $\sqrt{\dfrac23}$; b) $\sqrt{\dfr
 2. Khai căn mẫu.
 
 ::solution
-a) $\sqrt{\dfrac23}=\sqrt{\dfrac{2\cdot3}{3^2}}=\dfrac{\sqrt6}{3}$. b) $\sqrt{\dfrac58}=\sqrt{\dfrac{5\cdot2}{16}}=\dfrac{\sqrt{10}}{4}$.
+Ta nhân cả tử và mẫu của biểu thức dưới dấu căn với một số thích hợp để mẫu trở thành bình phương của một số.
+
+a) Nhân cả tử và mẫu với $3$, ta được
+$$\sqrt{\frac23}=\sqrt{\frac{2\cdot3}{3\cdot3}}=\sqrt{\frac{6}{3^2}}=\frac{\sqrt6}{3}.$$
+
+b) Nhân cả tử và mẫu với $2$, ta được
+$$\sqrt{\frac58}=\sqrt{\frac{5\cdot2}{8\cdot2}}=\sqrt{\frac{10}{4^2}}=\frac{\sqrt{10}}{4}.$$
+
+Vậy kết quả lần lượt là $\dfrac{\sqrt6}{3}$ và $\dfrac{\sqrt{10}}{4}$.
 
 **Đáp số.** a) $\dfrac{\sqrt6}3$; b) $\dfrac{\sqrt{10}}4$.
 :::
@@ -252,7 +308,10 @@ Tính $\left(\sqrt{12}+\sqrt{27}\right)\cdot\sqrt3$.
 2. Gộp thành một căn rồi khai căn.
 
 ::solution
-Ta có $\left(\sqrt{12}+\sqrt{27}\right)\cdot\sqrt3=\sqrt{36}+\sqrt{81}=6+9=15$.
+Nhân từng hạng tử trong ngoặc với $\sqrt3$, ta có
+$$\left(\sqrt{12}+\sqrt{27}\right)\cdot\sqrt3=\sqrt{12}\cdot\sqrt3+\sqrt{27}\cdot\sqrt3=\sqrt{36}+\sqrt{81}=6+9=15.$$
+
+Vậy giá trị của biểu thức là $15$.
 
 **Đáp số.** $15$.
 :::
@@ -268,7 +327,15 @@ Ba mảnh vườn hình vuông có diện tích $18$ m², $32$ m² và $50$ m² 
 2. Cộng, rồi bấm máy.
 
 ::solution
-Ba cạnh dài $\sqrt{18}$ m, $\sqrt{32}$ m và $\sqrt{50}$ m. Do đó tổng độ dài là $\sqrt{18}+\sqrt{32}+\sqrt{50}=3\sqrt2+4\sqrt2+5\sqrt2=12\sqrt2\approx16{,}97$ (m).
+Mỗi mảnh vườn là hình vuông nên cạnh của nó bằng căn bậc hai số học của diện tích. Ba cạnh lần lượt dài $\sqrt{18}$ m, $\sqrt{32}$ m và $\sqrt{50}$ m.
+
+Đưa thừa số ra ngoài dấu căn, ta có
+$$\sqrt{18}=\sqrt{3^2\cdot2}=3\sqrt2;\quad \sqrt{32}=\sqrt{4^2\cdot2}=4\sqrt2;\quad \sqrt{50}=\sqrt{5^2\cdot2}=5\sqrt2.$$
+
+Tổng độ dài ba cạnh là
+$$3\sqrt2+4\sqrt2+5\sqrt2=12\sqrt2\approx16{,}97\ \text{(m)}.$$
+
+Vậy tổng độ dài ba cạnh là $12\sqrt2$ m, khoảng $16{,}97$ m.
 
 **Đáp số.** $12\sqrt2$ m, khoảng $16{,}97$ m.
 :::
@@ -284,7 +351,13 @@ Rút gọn biểu thức $B=\dfrac{a\sqrt b+b\sqrt a}{\sqrt a+\sqrt b}$ với $a
 2. Rút gọn với mẫu.
 
 ::solution
-Vì $a>0$, $b>0$ nên $a\sqrt b+b\sqrt a=\sqrt a\sqrt b\left(\sqrt a+\sqrt b\right)$. Do đó $B=\dfrac{\sqrt a\sqrt b\left(\sqrt a+\sqrt b\right)}{\sqrt a+\sqrt b}=\sqrt{ab}$.
+Với $a>0$, $b>0$, ta có $a=\left(\sqrt a\right)^2$ và $b=\left(\sqrt b\right)^2$. Do đó tử thức được biến đổi như sau:
+$$a\sqrt b+b\sqrt a=\sqrt a\cdot\sqrt a\cdot\sqrt b+\sqrt b\cdot\sqrt b\cdot\sqrt a=\sqrt a\sqrt b\left(\sqrt a+\sqrt b\right).$$
+
+Vì $\sqrt a+\sqrt b>0$ nên ta có thể chia cả tử và mẫu cho $\sqrt a+\sqrt b$:
+$$B=\frac{\sqrt a\sqrt b\left(\sqrt a+\sqrt b\right)}{\sqrt a+\sqrt b}=\sqrt a\sqrt b=\sqrt{ab}.$$
+
+Vậy với $a>0$, $b>0$ thì $B=\sqrt{ab}$.
 
 **Đáp số.** $B=\sqrt{ab}$.
 :::
@@ -309,13 +382,35 @@ d) Tìm $x$ để $P=2$.
 3. Thay $x=36$; giải phương trình ở câu d và đối chiếu điều kiện.
 
 ::solution
-a) Điều kiện xác định: $x\ge0$ và $\sqrt x\neq3$, tức là $x\ge0$, $x\neq9$.
+a) Biểu thức $P$ xác định khi $\sqrt x$ xác định và các mẫu khác $0$:
 
-b) Với $x\ge0$, $x\neq9$, ta có $P=\dfrac{\sqrt x\left(\sqrt x+3\right)-3\left(\sqrt x-3\right)}{x-9}=\dfrac{x+3\sqrt x-3\sqrt x+9}{x-9}=\dfrac{x+9}{x-9}$.
+- $\sqrt x$ xác định khi $x\ge0$; khi đó $\sqrt x+3>0$;
+- $\sqrt x-3\neq0$ khi $\sqrt x\neq3$, tức là $x\neq9$.
 
-c) Thay $x=36$ (thoả mãn điều kiện) vào $P$, ta được $P=\dfrac{36+9}{36-9}=\dfrac{45}{27}=\dfrac53$.
+Vậy điều kiện xác định của $P$ là $x\ge0$ và $x\neq9$.
 
-d) Ta có $P=2\iff\dfrac{x+9}{x-9}=2\iff x+9=2(x-9)\iff x=27$ (thoả mãn điều kiện).
+b) Với $x\ge0$, $x\neq9$, ta có $\left(\sqrt x-3\right)\left(\sqrt x+3\right)=x-9$. Quy đồng mẫu, ta được
+$$\begin{aligned}
+P&=\frac{\sqrt x\left(\sqrt x+3\right)-3\left(\sqrt x-3\right)}{\left(\sqrt x-3\right)\left(\sqrt x+3\right)}\\
+&=\frac{x+3\sqrt x-3\sqrt x+9}{x-9}\\
+&=\frac{x+9}{x-9}.
+\end{aligned}$$
+
+Vậy $P=\dfrac{x+9}{x-9}$ với $x\ge0$, $x\neq9$.
+
+c) Giá trị $x=36$ thoả mãn điều kiện xác định. Thay $x=36$ vào biểu thức rút gọn, ta được
+$$P=\frac{36+9}{36-9}=\frac{45}{27}=\frac53.$$
+
+Vậy khi $x=36$ thì $P=\dfrac53$.
+
+d) Với $x\ge0$, $x\neq9$, ta có $P=2$ khi
+$$\frac{x+9}{x-9}=2.$$
+
+Suy ra $x+9=2(x-9)$, hay $x+9=2x-18$, tức là $x=27$.
+
+Ta thấy $x=27$ thoả mãn điều kiện xác định.
+
+Vậy $P=2$ khi $x=27$.
 
 **Đáp số.** a) $x\ge0$, $x\neq9$; b) $P=\dfrac{x+9}{x-9}$; c) $\dfrac53$; d) $x=27$.
 :::
@@ -331,7 +426,17 @@ Tính $C=\sqrt{4-2\sqrt3}+\sqrt{4+2\sqrt3}$.
 2. Bỏ căn, xét dấu $\sqrt3-1$.
 
 ::solution
-Ta có $4-2\sqrt3=\left(\sqrt3-1\right)^2$ và $4+2\sqrt3=\left(\sqrt3+1\right)^2$. Do đó $C=\left|\sqrt3-1\right|+\left|\sqrt3+1\right|$. Vì $\sqrt3>1$ nên $C=\left(\sqrt3-1\right)+\left(\sqrt3+1\right)=2\sqrt3$.
+Ta có
+$$4-2\sqrt3=3-2\sqrt3+1=\left(\sqrt3\right)^2-2\cdot\sqrt3\cdot1+1^2=\left(\sqrt3-1\right)^2;$$
+$$4+2\sqrt3=\left(\sqrt3\right)^2+2\cdot\sqrt3\cdot1+1^2=\left(\sqrt3+1\right)^2.$$
+
+Do đó
+$$C=\sqrt{\left(\sqrt3-1\right)^2}+\sqrt{\left(\sqrt3+1\right)^2}=\left|\sqrt3-1\right|+\left|\sqrt3+1\right|.$$
+
+Vì $\sqrt3>1$ nên $\sqrt3-1>0$ và $\sqrt3+1>0$. Suy ra
+$$C=\left(\sqrt3-1\right)+\left(\sqrt3+1\right)=2\sqrt3.$$
+
+Vậy $C=2\sqrt3$.
 
 **Đáp số.** $C=2\sqrt3$.
 :::

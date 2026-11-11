@@ -169,7 +169,11 @@ So the edge of the tank is $1.2$ m.
 Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
 
 :::exercise
-Evaluate: a) $\sqrt[3]{343}$; b) $\sqrt[3]{-0.027}$; c) $\sqrt[3]{\dfrac{64}{125}}$.
+Calculate:
+
+a) $\sqrt[3]{343}$;
+b) $\sqrt[3]{-0.027}$;
+c) $\sqrt[3]{\dfrac{64}{125}}$.
 
 ::hint
 **What you need:** $\sqrt[3]{a}=x\iff x^3=a$.
@@ -179,7 +183,15 @@ Evaluate: a) $\sqrt[3]{343}$; b) $\sqrt[3]{-0.027}$; c) $\sqrt[3]{\dfrac{64}{125
 2. For a negative number, the cube root is negative.
 
 ::solution
-a) Since $7^3=343$, $\sqrt[3]{343}=7$. b) Since $(-0.3)^3=-0.027$, $\sqrt[3]{-0.027}=-0.3$. c) Since $\left(\dfrac45\right)^3=\dfrac{64}{125}$, $\sqrt[3]{\dfrac{64}{125}}=\dfrac45$.
+The cube root of a number $a$ is the number $x$ such that $x^3=a$.
+
+a) Since $7^3=343$, we have $\sqrt[3]{343}=7$.
+
+b) Since $(-0.3)^3=-0.027$, we have $\sqrt[3]{-0.027}=-0.3$.
+
+c) Since $\left(\dfrac45\right)^3=\dfrac{4^3}{5^3}=\dfrac{64}{125}$, we have $\sqrt[3]{\dfrac{64}{125}}=\dfrac45$.
+
+So the results are $7$; $-0.3$; $\dfrac45$ respectively.
 
 **Answer.** a) $7$; b) $-0.3$; c) $\dfrac45$.
 :::
@@ -195,13 +207,25 @@ Evaluate $\sqrt[3]{-216}+\sqrt[3]{1000}-\left(\sqrt[3]{7}\right)^3$.
 2. Add and subtract.
 
 ::solution
-We have $\sqrt[3]{-216}+\sqrt[3]{1000}-\left(\sqrt[3]{7}\right)^3=-6+10-7=-3$.
+We have:
+
+- $\sqrt[3]{-216}=-6$ since $(-6)^3=-216$;
+- $\sqrt[3]{1000}=10$ since $10^3=1000$;
+- $\left(\sqrt[3]{7}\right)^3=7$ (by the definition of a cube root).
+
+Hence
+$$\sqrt[3]{-216}+\sqrt[3]{1000}-\left(\sqrt[3]{7}\right)^3=-6+10-7=-3.$$
+
+So the value of the expression is $-3$.
 
 **Answer.** $-3$.
 :::
 
 :::exercise
-Use a calculator to find (rounded to two decimal places): a) $\sqrt[3]{50}$; b) $\sqrt[3]{-12}$.
+Use a calculator to find (give your answers to 2 decimal places):
+
+a) $\sqrt[3]{50}$;
+b) $\sqrt[3]{-12}$.
 
 ::hint
 **What you need:** the calculator has a cube-root key; the cube root of a negative number is negative.
@@ -211,13 +235,20 @@ Use a calculator to find (rounded to two decimal places): a) $\sqrt[3]{50}$; b) 
 2. Round to the second decimal place.
 
 ::solution
-Using a calculator, we get: a) $\sqrt[3]{50}\approx3.68$; b) $\sqrt[3]{-12}\approx-2.29$.
+a) Using a calculator, we get $\sqrt[3]{50}=3.684\ldots$ The thousandths digit is $4<5$, so we round down: $\sqrt[3]{50}\approx3.68$.
+
+b) Using a calculator, we get $\sqrt[3]{-12}=-2.289\ldots$ The thousandths digit is $9\ge5$, so we round up: $\sqrt[3]{-12}\approx-2.29$.
+
+So $\sqrt[3]{50}\approx3.68$ and $\sqrt[3]{-12}\approx-2.29$.
 
 **Answer.** a) $3.68$; b) $-2.29$.
 :::
 
 :::exercise
-Compare: a) $5$ and $\sqrt[3]{124}$; b) $-2$ and $\sqrt[3]{-9}$.
+Compare:
+
+a) $5$ and $\sqrt[3]{124}$;
+b) $-2$ and $\sqrt[3]{-9}$.
 
 ::hint
 **What you need:** $a<b\iff\sqrt[3]a<\sqrt[3]b$.
@@ -227,13 +258,24 @@ Compare: a) $5$ and $\sqrt[3]{124}$; b) $-2$ and $\sqrt[3]{-9}$.
 2. Compare the numbers under the root signs.
 
 ::solution
-a) We have $5=\sqrt[3]{125}$. Since $125>124$, $5>\sqrt[3]{124}$. b) We have $-2=\sqrt[3]{-8}$. Since $-8>-9$, $-2>\sqrt[3]{-9}$.
+We use the property: for all numbers $a$, $b$, if $a<b$ then $\sqrt[3]a<\sqrt[3]b$.
+
+a) We have $5=\sqrt[3]{125}$. Since $125>124$, we have $\sqrt[3]{125}>\sqrt[3]{124}$.
+
+So $5>\sqrt[3]{124}$.
+
+b) We have $-2=\sqrt[3]{-8}$. Since $-8>-9$, we have $\sqrt[3]{-8}>\sqrt[3]{-9}$.
+
+So $-2>\sqrt[3]{-9}$.
 
 **Answer.** a) $5>\sqrt[3]{124}$; b) $-2>\sqrt[3]{-9}$.
 :::
 
 :::exercise
-Find $x$ given that: a) $x^3=-64$; b) $\sqrt[3]{3x+1}=-2$.
+Find $x$, given that:
+
+a) $x^3=-64$;
+b) $\sqrt[3]{3x+1}=-2$.
 
 ::hint
 **What you need:** $x^3=a\iff x=\sqrt[3]a$; $\sqrt[3]A=b\iff A=b^3$.
@@ -243,13 +285,27 @@ Find $x$ given that: a) $x^3=-64$; b) $\sqrt[3]{3x+1}=-2$.
 2. Part b: cube both sides and solve the linear equation.
 
 ::solution
-a) We have $x^3=-64\iff x=\sqrt[3]{-64}=-4$. b) We have $\sqrt[3]{3x+1}=-2\iff 3x+1=(-2)^3=-8\iff 3x=-9\iff x=-3$.
+a) We have $x^3=-64$, so $x=\sqrt[3]{-64}=-4$ (since $(-4)^3=-64$).
+
+So $x=-4$.
+
+b) We have $\sqrt[3]{3x+1}=-2$. Cubing both sides, we get
+$$3x+1=(-2)^3=-8.$$
+
+It follows that $3x=-9$, so $x=-3$.
+
+Check: $\sqrt[3]{3\cdot(-3)+1}=\sqrt[3]{-8}=-2$ (true).
+
+So $x=-3$.
 
 **Answer.** a) $x=-4$; b) $x=-3$.
 :::
 
 :::exercise
-Simplify the following expressions: a) $\sqrt[3]{27x^3}-2x$; b) $\sqrt[3]{x^3+6x^2+12x+8}$.
+Simplify the following expressions:
+
+a) $\sqrt[3]{27x^3}-2x$;
+b) $\sqrt[3]{x^3+6x^2+12x+8}$.
 
 ::hint
 **What you need:** $\sqrt[3]{A^3}=A$; the identity $(a+b)^3=a^3+3a^2b+3ab^2+b^3$.
@@ -259,7 +315,17 @@ Simplify the following expressions: a) $\sqrt[3]{27x^3}-2x$; b) $\sqrt[3]{x^3+6x
 2. Recognise $x^3+6x^2+12x+8=(x+2)^3$.
 
 ::solution
-a) We have $\sqrt[3]{27x^3}-2x=\sqrt[3]{(3x)^3}-2x=3x-2x=x$. b) We have $\sqrt[3]{x^3+6x^2+12x+8}=\sqrt[3]{(x+2)^3}=x+2$.
+We use the property $\sqrt[3]{A^3}=A$ for every expression $A$.
+
+a) We have $27x^3=(3x)^3$. Hence
+$$\sqrt[3]{27x^3}-2x=\sqrt[3]{(3x)^3}-2x=3x-2x=x.$$
+
+b) By the identity for the cube of a sum, we have
+$$x^3+6x^2+12x+8=x^3+3\cdot x^2\cdot2+3\cdot x\cdot2^2+2^3=(x+2)^3.$$
+
+Hence $\sqrt[3]{x^3+6x^2+12x+8}=\sqrt[3]{(x+2)^3}=x+2$.
+
+So the two expressions simplify to $x$ and $x+2$ respectively.
 
 **Answer.** a) $x$; b) $x+2$.
 :::
@@ -279,9 +345,17 @@ b) Find the area of the base of the tank.
 2. The base area is the square of the edge.
 
 ::solution
-a) We have $3375$ litres $=3375$ dm³. Hence the edge of the tank is $\sqrt[3]{3375}=15$ (dm) $=1.5$ (m).
+a) Convert: $3375$ litres $=3375$ dm³ (since $1$ litre $=1$ dm³).
 
-b) The area of the base is $1.5^2=2.25$ (m²).
+Let $a$ (dm) be the edge of the tank ($a>0$). The volume of the tank is $a^3=3375$, so
+$$a=\sqrt[3]{3375}=15\ \text{(dm)}=1.5\ \text{(m)}.$$
+
+So the edge of the tank is $1.5$ m long.
+
+b) The base of the tank is a square of side $1.5$ m, so the area of the base is
+$$1.5^2=2.25\ \text{(m}^2\text{)}.$$
+
+So the area of the base is $2.25$ m².
 
 **Answer.** a) $1.5$ m; b) $2.25$ m².
 :::
@@ -301,9 +375,16 @@ b) How many small cubes have no painted face?
 2. The unpainted cubes form a smaller cube inside, with $2$ fewer cubes along each edge.
 
 ::solution
-a) The number of small cubes along each edge is $\sqrt[3]{512}=8$.
+a) Let $n$ be the number of small cubes along each edge of the large cube ($n$ is a positive integer). The large cube contains $n^3$ small cubes, so $n^3=512$, which gives
+$$n=\sqrt[3]{512}=8.$$
 
-b) The unpainted small cubes form a cube inside, with $8-2=6$ cubes along each edge. Hence $6^3=216$ small cubes have no painted face.
+So each edge of the large cube has $8$ small cubes.
+
+b) A small cube has no painted face when it is not in the outer layer. Removing the outer layer takes $2$ cubes off each edge (one at each end), so the unpainted cubes form a cube with $8-2=6$ cubes along each edge.
+
+The number of unpainted small cubes is $6^3=216$.
+
+So $216$ small cubes have no painted face.
 
 **Answer.** a) $8$; b) $216$.
 :::
@@ -319,7 +400,16 @@ Evaluate $\sqrt{16}+\sqrt[3]{-27}+\sqrt{(-2)^2}$.
 2. Add them.
 
 ::solution
-We have $\sqrt{16}+\sqrt[3]{-27}+\sqrt{(-2)^2}=4+(-3)+|-2|=4-3+2=3$.
+We have:
+
+- $\sqrt{16}=4$;
+- $\sqrt[3]{-27}=-3$ since $(-3)^3=-27$;
+- $\sqrt{(-2)^2}=|-2|=2$.
+
+Hence
+$$\sqrt{16}+\sqrt[3]{-27}+\sqrt{(-2)^2}=4+(-3)+2=3.$$
+
+So the value of the expression is $3$.
 
 **Answer.** $3$.
 :::
@@ -335,7 +425,14 @@ How many integers $x$ satisfy $-2<\sqrt[3]{x}<3$?
 2. Count the integers in the interval you get.
 
 ::solution
-We have $-2=\sqrt[3]{-8}$ and $3=\sqrt[3]{27}$. Hence $-2<\sqrt[3]{x}<3\iff -8<x<27$. So the integers $x$ are $-7, -6, \ldots, 26$, which is $26-(-7)+1=34$ numbers.
+We have $-2=\sqrt[3]{-8}$ and $3=\sqrt[3]{27}$. The given inequality becomes
+$$\sqrt[3]{-8}<\sqrt[3]{x}<\sqrt[3]{27}.$$
+
+Since for all numbers $a$, $b$ we have $\sqrt[3]a<\sqrt[3]b$ exactly when $a<b$, this is equivalent to $-8<x<27$.
+
+The integers $x$ that satisfy it are $-7, -6, \ldots, 25, 26$. The number of these integers is $26-(-7)+1=34$.
+
+So $34$ integers $x$ satisfy the condition.
 
 **Answer.** $34$ integers.
 :::

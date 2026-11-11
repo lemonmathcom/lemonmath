@@ -158,7 +158,11 @@ So $A=2\sqrt x-2$ for $x\ge0$, $x\neq1$.
 Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
 
 :::exercise
-Take the factor outside the root sign: a) $\sqrt{75}$; b) $\sqrt{200}$; c) $\sqrt{28a^2}$ for $a<0$.
+Take the factor out from under the square root sign:
+
+a) $\sqrt{75}$;
+b) $\sqrt{200}$;
+c) $\sqrt{28a^2}$ for $a<0$.
 
 ::hint
 **What you need:** $\sqrt{A^2B}=|A|\sqrt B$.
@@ -168,7 +172,18 @@ Take the factor outside the root sign: a) $\sqrt{75}$; b) $\sqrt{200}$; c) $\sqr
 2. Take its root outside; with letters, look at the sign.
 
 ::solution
-a) $\sqrt{75}=\sqrt{25\cdot3}=5\sqrt3$. b) $\sqrt{200}=\sqrt{100\cdot2}=10\sqrt2$. c) $\sqrt{28a^2}=\sqrt{(2a)^2\cdot7}=2|a|\sqrt7=-2a\sqrt7$ (since $a<0$).
+We use the formula $\sqrt{A^2B}=|A|\sqrt B$ (for $B\ge0$).
+
+a) We have $75=25\cdot3=5^2\cdot3$. Hence $\sqrt{75}=\sqrt{5^2\cdot3}=5\sqrt3$.
+
+b) We have $200=100\cdot2=10^2\cdot2$. Hence $\sqrt{200}=\sqrt{10^2\cdot2}=10\sqrt2$.
+
+c) We have $28a^2=4a^2\cdot7=(2a)^2\cdot7$. Hence
+$$\sqrt{28a^2}=\sqrt{(2a)^2\cdot7}=|2a|\sqrt7.$$
+
+Since $a<0$, we have $|2a|=-2a$. It follows that $\sqrt{28a^2}=-2a\sqrt7$.
+
+So the results are $5\sqrt3$; $10\sqrt2$; $-2a\sqrt7$ respectively.
 
 **Answer.** a) $5\sqrt3$; b) $10\sqrt2$; c) $-2a\sqrt7$.
 :::
@@ -184,7 +199,13 @@ Evaluate $\sqrt{20}-\sqrt{45}+3\sqrt5$.
 2. Add and subtract the coefficients.
 
 ::solution
-We have $\sqrt{20}-\sqrt{45}+3\sqrt5=2\sqrt5-3\sqrt5+3\sqrt5=2\sqrt5$.
+Taking the factors out from under the square root sign, we have
+$$\sqrt{20}=\sqrt{2^2\cdot5}=2\sqrt5;\qquad \sqrt{45}=\sqrt{3^2\cdot5}=3\sqrt5.$$
+
+Hence
+$$\sqrt{20}-\sqrt{45}+3\sqrt5=2\sqrt5-3\sqrt5+3\sqrt5=(2-3+3)\sqrt5=2\sqrt5.$$
+
+So the value of the expression is $2\sqrt5$.
 
 **Answer.** $2\sqrt5$.
 :::
@@ -202,15 +223,30 @@ b) Put in increasing order: $2\sqrt7$, $3\sqrt3$, $4\sqrt2$.
 2. Compare the numbers under the roots.
 
 ::solution
-a) We have $4\sqrt3=\sqrt{48}$ and $3\sqrt5=\sqrt{45}$. Since $48>45$, $4\sqrt3>3\sqrt5$.
+We move the factor under the square root sign using $A\sqrt B=\sqrt{A^2B}$ (for $A\ge0$, $B\ge0$), then compare the expressions under the root.
 
-b) We have $2\sqrt7=\sqrt{28}$, $3\sqrt3=\sqrt{27}$ and $4\sqrt2=\sqrt{32}$. Since $27<28<32$, $3\sqrt3<2\sqrt7<4\sqrt2$.
+a) We have $4\sqrt3=\sqrt{4^2\cdot3}=\sqrt{48}$ and $3\sqrt5=\sqrt{3^2\cdot5}=\sqrt{45}$.
+
+Since $48>45$, we have $\sqrt{48}>\sqrt{45}$.
+
+So $4\sqrt3>3\sqrt5$.
+
+b) We have
+$$2\sqrt7=\sqrt{4\cdot7}=\sqrt{28};\quad 3\sqrt3=\sqrt{9\cdot3}=\sqrt{27};\quad 4\sqrt2=\sqrt{16\cdot2}=\sqrt{32}.$$
+
+Since $27<28<32$, we have $\sqrt{27}<\sqrt{28}<\sqrt{32}$.
+
+So in increasing order: $3\sqrt3$; $2\sqrt7$; $4\sqrt2$.
 
 **Answer.** a) $4\sqrt3>3\sqrt5$; b) $3\sqrt3<2\sqrt7<4\sqrt2$.
 :::
 
 :::exercise
-Rationalise the denominator: a) $\dfrac{10}{\sqrt5}$; b) $\dfrac{2}{\sqrt3+1}$; c) $\dfrac{4}{\sqrt7-\sqrt3}$.
+Rationalise the denominator:
+
+a) $\dfrac{10}{\sqrt5}$;
+b) $\dfrac{2}{\sqrt3+1}$;
+c) $\dfrac{4}{\sqrt7-\sqrt3}$.
 
 ::hint
 **What you need:** $\dfrac A{\sqrt B}=\dfrac{A\sqrt B}B$; multiply by the conjugate of the denominator.
@@ -220,13 +256,25 @@ Rationalise the denominator: a) $\dfrac{10}{\sqrt5}$; b) $\dfrac{2}{\sqrt3+1}$; 
 2. Work out the denominator with the identity, then simplify.
 
 ::solution
-a) $\dfrac{10}{\sqrt5}=\dfrac{10\sqrt5}{5}=2\sqrt5$. b) $\dfrac{2}{\sqrt3+1}=\dfrac{2\left(\sqrt3-1\right)}{3-1}=\sqrt3-1$. c) $\dfrac{4}{\sqrt7-\sqrt3}=\dfrac{4\left(\sqrt7+\sqrt3\right)}{7-3}=\sqrt7+\sqrt3$.
+a) Multiplying the numerator and the denominator by $\sqrt5$, we get
+$$\frac{10}{\sqrt5}=\frac{10\sqrt5}{\sqrt5\cdot\sqrt5}=\frac{10\sqrt5}{5}=2\sqrt5.$$
+
+b) The conjugate of $\sqrt3+1$ is $\sqrt3-1$. Multiplying the numerator and the denominator by $\sqrt3-1$, we get
+$$\frac{2}{\sqrt3+1}=\frac{2\left(\sqrt3-1\right)}{\left(\sqrt3+1\right)\left(\sqrt3-1\right)}=\frac{2\left(\sqrt3-1\right)}{3-1}=\sqrt3-1.$$
+
+c) The conjugate of $\sqrt7-\sqrt3$ is $\sqrt7+\sqrt3$. Multiplying the numerator and the denominator by $\sqrt7+\sqrt3$, we get
+$$\frac{4}{\sqrt7-\sqrt3}=\frac{4\left(\sqrt7+\sqrt3\right)}{\left(\sqrt7-\sqrt3\right)\left(\sqrt7+\sqrt3\right)}=\frac{4\left(\sqrt7+\sqrt3\right)}{7-3}=\sqrt7+\sqrt3.$$
+
+So the results are $2\sqrt5$; $\sqrt3-1$; $\sqrt7+\sqrt3$ respectively.
 
 **Answer.** a) $2\sqrt5$; b) $\sqrt3-1$; c) $\sqrt7+\sqrt3$.
 :::
 
 :::exercise
-Remove the denominator under the root sign: a) $\sqrt{\dfrac23}$; b) $\sqrt{\dfrac58}$.
+Remove the denominator from under the square root sign:
+
+a) $\sqrt{\dfrac23}$;
+b) $\sqrt{\dfrac58}$.
 
 ::hint
 **What you need:** $\sqrt{\dfrac AB}=\dfrac{\sqrt{AB}}{|B|}$.
@@ -236,7 +284,15 @@ Remove the denominator under the root sign: a) $\sqrt{\dfrac23}$; b) $\sqrt{\dfr
 2. Take the root of the denominator.
 
 ::solution
-a) $\sqrt{\dfrac23}=\sqrt{\dfrac{2\cdot3}{3^2}}=\dfrac{\sqrt6}{3}$. b) $\sqrt{\dfrac58}=\sqrt{\dfrac{5\cdot2}{16}}=\dfrac{\sqrt{10}}{4}$.
+We multiply the numerator and the denominator of the expression under the root by a suitable number so that the denominator becomes a perfect square.
+
+a) Multiplying the numerator and the denominator by $3$, we get
+$$\sqrt{\frac23}=\sqrt{\frac{2\cdot3}{3\cdot3}}=\sqrt{\frac{6}{3^2}}=\frac{\sqrt6}{3}.$$
+
+b) Multiplying the numerator and the denominator by $2$, we get
+$$\sqrt{\frac58}=\sqrt{\frac{5\cdot2}{8\cdot2}}=\sqrt{\frac{10}{4^2}}=\frac{\sqrt{10}}{4}.$$
+
+So the results are $\dfrac{\sqrt6}{3}$ and $\dfrac{\sqrt{10}}{4}$ respectively.
 
 **Answer.** a) $\dfrac{\sqrt6}3$; b) $\dfrac{\sqrt{10}}4$.
 :::
@@ -252,7 +308,10 @@ Evaluate $\left(\sqrt{12}+\sqrt{27}\right)\cdot\sqrt3$.
 2. Combine into one root and take the root.
 
 ::solution
-We have $\left(\sqrt{12}+\sqrt{27}\right)\cdot\sqrt3=\sqrt{36}+\sqrt{81}=6+9=15$.
+Multiplying each term in the brackets by $\sqrt3$, we have
+$$\left(\sqrt{12}+\sqrt{27}\right)\cdot\sqrt3=\sqrt{12}\cdot\sqrt3+\sqrt{27}\cdot\sqrt3=\sqrt{36}+\sqrt{81}=6+9=15.$$
+
+So the value of the expression is $15$.
 
 **Answer.** $15$.
 :::
@@ -268,7 +327,15 @@ Three square garden beds with areas of $18$ m², $32$ m² and $50$ m² are place
 2. Add, then use the calculator.
 
 ::solution
-The three sides are $\sqrt{18}$ m, $\sqrt{32}$ m and $\sqrt{50}$ m. Hence the total length is $\sqrt{18}+\sqrt{32}+\sqrt{50}=3\sqrt2+4\sqrt2+5\sqrt2=12\sqrt2\approx16.97$ (m).
+Each garden bed is a square, so its side is the square root of its area. The three sides are $\sqrt{18}$ m, $\sqrt{32}$ m and $\sqrt{50}$ m long.
+
+Taking the factors out from under the square root sign, we have
+$$\sqrt{18}=\sqrt{3^2\cdot2}=3\sqrt2;\quad \sqrt{32}=\sqrt{4^2\cdot2}=4\sqrt2;\quad \sqrt{50}=\sqrt{5^2\cdot2}=5\sqrt2.$$
+
+The total length of the three sides is
+$$3\sqrt2+4\sqrt2+5\sqrt2=12\sqrt2\approx16.97\ \text{(m)}.$$
+
+So the total length of the three sides is $12\sqrt2$ m, about $16.97$ m.
 
 **Answer.** $12\sqrt2$ m, about $16.97$ m.
 :::
@@ -284,7 +351,13 @@ Simplify the expression $B=\dfrac{a\sqrt b+b\sqrt a}{\sqrt a+\sqrt b}$ for $a>0$
 2. Cancel with the denominator.
 
 ::solution
-Since $a>0$ and $b>0$, $a\sqrt b+b\sqrt a=\sqrt a\sqrt b\left(\sqrt a+\sqrt b\right)$. Hence $B=\dfrac{\sqrt a\sqrt b\left(\sqrt a+\sqrt b\right)}{\sqrt a+\sqrt b}=\sqrt{ab}$.
+For $a>0$, $b>0$, we have $a=\left(\sqrt a\right)^2$ and $b=\left(\sqrt b\right)^2$. Hence the numerator can be written as
+$$a\sqrt b+b\sqrt a=\sqrt a\cdot\sqrt a\cdot\sqrt b+\sqrt b\cdot\sqrt b\cdot\sqrt a=\sqrt a\sqrt b\left(\sqrt a+\sqrt b\right).$$
+
+Since $\sqrt a+\sqrt b>0$, we may divide the numerator and the denominator by $\sqrt a+\sqrt b$:
+$$B=\frac{\sqrt a\sqrt b\left(\sqrt a+\sqrt b\right)}{\sqrt a+\sqrt b}=\sqrt a\sqrt b=\sqrt{ab}.$$
+
+So for $a>0$, $b>0$ we have $B=\sqrt{ab}$.
 
 **Answer.** $B=\sqrt{ab}$.
 :::
@@ -309,13 +382,35 @@ d) Find $x$ such that $P=2$.
 3. Substitute $x=36$; solve the equation in d) and check the condition.
 
 ::solution
-a) The expression is defined when $x\ge0$ and $\sqrt x\neq3$, that is, $x\ge0$, $x\neq9$.
+a) The expression $P$ is defined when $\sqrt x$ is defined and the denominators are not $0$:
 
-b) For $x\ge0$, $x\neq9$, we have $P=\dfrac{\sqrt x\left(\sqrt x+3\right)-3\left(\sqrt x-3\right)}{x-9}=\dfrac{x+3\sqrt x-3\sqrt x+9}{x-9}=\dfrac{x+9}{x-9}$.
+- $\sqrt x$ is defined when $x\ge0$; then $\sqrt x+3>0$;
+- $\sqrt x-3\neq0$ when $\sqrt x\neq3$, that is $x\neq9$.
 
-c) Substituting $x=36$ (which satisfies the condition) into $P$, we get $P=\dfrac{36+9}{36-9}=\dfrac{45}{27}=\dfrac53$.
+So $P$ is defined for $x\ge0$ and $x\neq9$.
 
-d) We have $P=2\iff\dfrac{x+9}{x-9}=2\iff x+9=2(x-9)\iff x=27$ (which satisfies the condition).
+b) For $x\ge0$, $x\neq9$, we have $\left(\sqrt x-3\right)\left(\sqrt x+3\right)=x-9$. Writing over a common denominator, we get
+$$\begin{aligned}
+P&=\frac{\sqrt x\left(\sqrt x+3\right)-3\left(\sqrt x-3\right)}{\left(\sqrt x-3\right)\left(\sqrt x+3\right)}\\
+&=\frac{x+3\sqrt x-3\sqrt x+9}{x-9}\\
+&=\frac{x+9}{x-9}.
+\end{aligned}$$
+
+So $P=\dfrac{x+9}{x-9}$ for $x\ge0$, $x\neq9$.
+
+c) The value $x=36$ satisfies the condition. Substituting $x=36$ into the simplified expression, we get
+$$P=\frac{36+9}{36-9}=\frac{45}{27}=\frac53.$$
+
+So when $x=36$ we have $P=\dfrac53$.
+
+d) For $x\ge0$, $x\neq9$, we have $P=2$ when
+$$\frac{x+9}{x-9}=2.$$
+
+It follows that $x+9=2(x-9)$, that is $x+9=2x-18$, so $x=27$.
+
+We see that $x=27$ satisfies the condition.
+
+So $P=2$ when $x=27$.
 
 **Answer.** a) $x\ge0$, $x\neq9$; b) $P=\dfrac{x+9}{x-9}$; c) $\dfrac53$; d) $x=27$.
 :::
@@ -331,7 +426,17 @@ Evaluate $C=\sqrt{4-2\sqrt3}+\sqrt{4+2\sqrt3}$.
 2. Remove the roots, looking at the sign of $\sqrt3-1$.
 
 ::solution
-We have $4-2\sqrt3=\left(\sqrt3-1\right)^2$ and $4+2\sqrt3=\left(\sqrt3+1\right)^2$. Hence $C=\left|\sqrt3-1\right|+\left|\sqrt3+1\right|$. Since $\sqrt3>1$, $C=\left(\sqrt3-1\right)+\left(\sqrt3+1\right)=2\sqrt3$.
+We have
+$$4-2\sqrt3=3-2\sqrt3+1=\left(\sqrt3\right)^2-2\cdot\sqrt3\cdot1+1^2=\left(\sqrt3-1\right)^2;$$
+$$4+2\sqrt3=\left(\sqrt3\right)^2+2\cdot\sqrt3\cdot1+1^2=\left(\sqrt3+1\right)^2.$$
+
+Hence
+$$C=\sqrt{\left(\sqrt3-1\right)^2}+\sqrt{\left(\sqrt3+1\right)^2}=\left|\sqrt3-1\right|+\left|\sqrt3+1\right|.$$
+
+Since $\sqrt3>1$, we have $\sqrt3-1>0$ and $\sqrt3+1>0$. It follows that
+$$C=\left(\sqrt3-1\right)+\left(\sqrt3+1\right)=2\sqrt3.$$
+
+So $C=2\sqrt3$.
 
 **Answer.** $C=2\sqrt3$.
 :::
