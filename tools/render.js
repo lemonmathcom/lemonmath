@@ -134,7 +134,7 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
   let out = '';
   let last = 0;
   let m;
-  let exNo = 0, qzNo = 0, apx = '';
+  let exNo = 0, egNo = 0, qzNo = 0, apx = '';
   while ((m = re.exec(text))) {
     out += parse(text.slice(last, m.index));
     let type = m[1];
@@ -211,7 +211,7 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
         type = 'note';
       }
       out += '<aside class="box box-' + type + '"><div class="box-title"><span class="box-kind">' +
-        KINDS[lang][type] + '</span>' + (title ? ' ' + esc(title) : '') +
+        KINDS[lang][type] + (type === 'example' ? ' ' + (++egNo) : '') + '</span>' + (title ? ' ' + esc(title) : '') +
         '</div><div class="box-body">' + parse(body) + '</div></aside>';
     }
     last = re.lastIndex;

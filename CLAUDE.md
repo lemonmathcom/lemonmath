@@ -27,3 +27,5 @@ Từ 11/11/2026 chủ dự án yêu cầu tài khoản Pro TRỰC TIẾP viết 
 Kho đề thi (từ 11/11/2026): đề thật lấy từ toanmath.com, ghi nguồn; định dạng "type: paper" (source, link, year, minutes = thời gian làm bài), :::quiz exam cho trắc nghiệm, :::exercise "Bài N (x điểm)" + ::solution cho tự luận. Trang tự có bấm giờ, chấm trắc nghiệm, ô tự chấm tự luận, bản in kèm đáp án. Quy định và tiến độ: giao-viec/KHO-DE.md.
 
 Dropbox (từ 11/11/2026): có connector Dropbox (công cụ mcp__Dropbox__*), đọc được thư mục Lemonmath.com trực tiếp trên đám mây khi máy tính của chủ dự án tắt; khi máy bật vẫn có thể dùng remote-devices (C:\Users\Admin\Dropbox).
+
+Trình bày lời giải (từ 11/11/2026, chủ dự án yêu cầu): ví dụ và lời giải bài tập phải chi tiết, có dẫn giải như SGK Việt Nam (chuẩn 2e trong _templates/WRITING-SPEC.md; bài mẫu content/*/g10/events-classical-probability.md). Website tự đánh số "Ví dụ 1, 2, …". Rà soát bằng `python3 tools/qa/style-audit.py --list`; khi nhận bài mới, lời giải còn vắn tắt thì sửa hoặc trả lại theo chuẩn 2e.

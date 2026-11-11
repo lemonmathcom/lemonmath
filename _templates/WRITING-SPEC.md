@@ -156,7 +156,7 @@ Giải $x^2-4x+3>0$.
 2. second move
 
 ::solution
-Compact solution in the same style as the examples (2–5 lines).
+Full worked solution, written out as in the textbook: see section 2e (NOT a compressed one-liner).
 
 **Đáp số.** $S=(-\infty; 1)\cup(3; +\infty)$.
 :::
@@ -240,6 +240,51 @@ Write as a devoted, deeply knowledgeable teacher who cares about each student's 
 **Real-life mathematics with real meaning.** Each lesson has at least 2 real-life problems (examples or exercises) and grades 10–12 at least 3, drawn from contexts that matter to Vietnamese students and their families: personal finance (savings, interest, instalments, electricity and water bills with tiered prices), health and sport, transport and traffic safety, construction and measurement, agriculture and fisheries, environment and climate (rainfall, sea level, waste, energy), science and technology, data in the news. The mathematics must be the natural tool for a decision or an explanation, not decoration, and the numbers must be realistic.
 
 **Reliability of facts and evidence.** Any real-world fact, statistic, historical note or formula from science (e.g. electricity price tiers, speed limits, population, a physics law, who discovered a theorem and when) must be correct and verifiable in an authoritative source: Vietnamese government or ministry sites (.gov.vn, Tổng cục Thống kê/GSO, EVN tariffs, Bộ GD&ĐT), KNTT textbooks, UN/WHO/World Bank, encyclopaedias (Britannica), MacTutor History of Mathematics (St Andrews) for history of mathematics, peer-reviewed research. If you cannot verify a figure, do not state it as fact: present it as a made-up but realistic scenario ("Giả sử …", "Một cửa hàng …"). Never invent statistics, quotes or historical claims. When a real figure is used, add the source briefly in the text or a note (e.g. "(theo Tổng cục Thống kê, 2024)").
+
+## 2e. Trình bày đề bài và lời giải chi tiết như sách giáo khoa (decided by the teacher, 11 November 2026; overrides "compact solution, 2–5 lines" above)
+
+Every worked example AND every exercise solution is written out the way a Vietnamese textbook (and a full-mark exam script) presents it. A student must be able to copy the layout into their notebook. The model lesson is `content/*/g10/events-classical-probability.md`.
+
+**Problem statements (examples and exercises).**
+- One situation, then the task with a textbook verb ("Tính …", "Giải phương trình …", "Chứng minh rằng …", "Tìm …").
+- Several parts: each part on its own line as `a) …`, `b) …` (never "(a) …; (b) …" inside a sentence). End the lead-in with a colon: "Tính xác suất của mỗi biến cố sau:".
+- Name the objects the solution will use (events $A$, $B$; points; functions) already in the statement, as the textbook does: `a) $A$: "Tổng số chấm bằng $8$";`.
+- True/false items: "Xét tính đúng sai của các mệnh đề sau:" (EN "Decide whether each statement is true or false.").
+- The website numbers examples (Ví dụ 1, Ví dụ 2, …) and exercises (Bài 1, …) by itself: do not type the numbers.
+
+**Solutions: the fixed skeleton.** Each of these is its own short paragraph (a blank line between them):
+1. *Set-up*: what is given / what we call things: "Điều kiện xác định: …", "Gọi $x$ (m) là … ($x>0$).", "Gọi $A$ là biến cố "…".", "Không gian mẫu là …, nên $n(\Omega)=…$", "Xét tam giác $ABC$ vuông tại $A$, ta có …".
+2. *Steps*, one per line, each introduced by a linking phrase and carrying its reason: "Ta có …", "Theo định lí …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …", "(thoả mãn điều kiện)". Long computations go in display maths `$$…$$`, one transformation per line (use `aligned`).
+3. *Parts*: `a)`, `b)` … each start a new paragraph and each reach their own result.
+4. *Conclusion*: a full sentence starting with "Vậy …" that answers the question in words with units ("Vậy phương trình có nghiệm $x=8$.", "Vậy xác suất để … là $\dfrac13$.").
+5. In `::solution` only: the last line `**Đáp số.** …` / `**Answer.** …`.
+
+Never: a bare chain of formulas with no words; several parts run together in one paragraph; "dễ thấy"; skipping the condition check of an equation with a denominator or a square root; skipping the definition of the unknown in a word problem.
+
+Minimum: basic exercises 3–5 lines, applied ones 5–8 lines, challenge ones as long as needed. Grades 1–5 use the primary layout: "Bài giải" → a sentence stating what is computed → the calculation → "Đáp số: …".
+
+Before (too brief) → after (required):
+```
+::solution
+$3(x+2)=5(x-2)\iff 2x=16\iff x=8$ (thoả mãn điều kiện).
+```
+```
+::solution
+Điều kiện xác định: $x\neq2$ và $x\neq-2$.
+
+Quy đồng mẫu hai vế rồi khử mẫu, ta được
+$$3(x+2)=5(x-2).$$
+
+Suy ra $3x+6=5x-10$, hay $2x=16$, tức là $x=8$.
+
+Ta thấy $x=8$ thoả mãn điều kiện xác định.
+
+Vậy phương trình đã cho có nghiệm $x=8$.
+
+**Đáp số.** $x=8$.
+```
+
+Check: `python3 tools/qa/style-audit.py --list` shows, per lesson, how many exercise solutions are still too brief or lack the "Vậy" conclusion.
 
 ## 3. Mathematics (KaTeX)
 

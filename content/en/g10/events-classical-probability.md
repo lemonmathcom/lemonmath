@@ -97,14 +97,18 @@ So both events have probability $\dfrac16$.
 When several objects are taken at once, we do not list; we count $n(\Omega)$ and $n(A)$ with the formulas from [Permutations, arrangements and combinations](lesson:permutations-combinations).
 
 :::example Drawing marbles from a box
-A box holds $5$ red marbles and $3$ blue marbles of the same size. Two marbles are drawn at random at the same time. Find the probability that (a) both are red; (b) they have different colours.
+A box holds $5$ red marbles and $3$ blue marbles of the same size. Two marbles are drawn at random at the same time. Find the probability of each of the following events:
 
-**Solution.** The marbles are drawn together, so there is no order: each outcome is a combination of $2$ of the $8$ marbles, $n(\Omega)=\binom{8}{2}=28$.
+a) $A$: "Both marbles drawn are red";
+b) $B$: "The two marbles drawn have different colours".
 
-- (a) Choose $2$ of the $5$ red marbles: $n(A)=\binom{5}{2}=10$.
-- (b) Choose $1$ red **then** $1$ blue: $n(B)=5\cdot3=15$.
+**Solution.** The $2$ marbles are drawn together, so there is no order: each outcome is a combination of $2$ of the $8$ marbles. Hence $n(\Omega)=\binom{8}{2}=28$.
 
-$$P(A)=\frac{10}{28}=\frac{5}{14},\qquad P(B)=\frac{15}{28}.$$
+a) Each outcome favourable to $A$ is a choice of $2$ of the $5$ red marbles, so $n(A)=\binom{5}{2}=10$. Hence
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{10}{28}=\frac{5}{14}.$$
+
+b) For different colours, we choose $1$ red marble ($5$ ways) **then** $1$ blue marble ($3$ ways). By the multiplication rule, $n(B)=5\cdot3=15$. Hence
+$$P(B)=\frac{n(B)}{n(\Omega)}=\frac{15}{28}.$$
 
 So the probability that both are red is $\dfrac{5}{14}$, and that they have different colours is $\dfrac{15}{28}$.
 :::
@@ -126,13 +130,16 @@ So the probability of at least one head is $\dfrac78$.
 Now we can answer the draw question from the start of the lesson.
 
 :::example Drawing two students for the ceremony
-The class has $22$ girls and $18$ boys. Two students are chosen at random. Find the probability that (a) both are girls; (b) at least one is a boy.
+The class has $22$ girls and $18$ boys. Two students are chosen at random. Find the probability that:
+
+a) Both students chosen are girls;
+b) At least one student chosen is a boy.
 
 **Solution.**
 
 *Understand.* The two students are chosen together, without order; every group of $2$ is equally likely to be chosen.
 
-*Plan.* Count $n(\Omega)$ and $n(A)$ with combinations; part (b) is the complement of part (a).
+*Plan.* Count $n(\Omega)$ and $n(A)$ with combinations; the event in part b) is the complement of the event in part a).
 
 *Solve.* We have $n(\Omega)=\binom{40}{2}=780$ and $n(A)=\binom{22}{2}=231$. Hence
 
@@ -189,7 +196,14 @@ Roll a fair die. Find the probability that the number shown is divisible by $3$.
 2. List the outcomes divisible by $3$.
 
 ::solution
-$\Omega=\{1, 2, 3, 4, 5, 6\}$, $A=\{3, 6\}$, so $P(A)=\dfrac26=\dfrac13$.
+The sample space is $\Omega=\{1, 2, 3, 4, 5, 6\}$, so $n(\Omega)=6$. The die is fair, so these outcomes are equally likely.
+
+Let $A$ be the event "The number shown is divisible by $3$". We have $A=\{3, 6\}$, so $n(A)=2$.
+
+Hence
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac26=\frac13.$$
+
+So the probability that the number shown is divisible by $3$ is $\dfrac13$.
 
 **Answer.** $\dfrac13$.
 :::
@@ -205,13 +219,25 @@ Toss a fair coin $3$ times. Write the sample space and find the probability of e
 2. Pick those with exactly two letters $H$.
 
 ::solution
-$\Omega=\{HHH, HHT, HTH, HTT, THH, THT, TTH, TTT\}$. The favourable outcomes are $HHT$, $HTH$, $THH$. So $P=\dfrac38$.
+Write $H$ for heads and $T$ for tails. Each outcome is a string of three letters giving the results of the three tosses in order. The sample space is
+$$\Omega=\{HHH, HHT, HTH, HTT, THH, THT, TTH, TTT\}.$$
+
+We have $n(\Omega)=8$. The coin is fair, so these outcomes are equally likely.
+
+Let $A$ be the event "Exactly two heads". We have $A=\{HHT, HTH, THH\}$, so $n(A)=3$.
+
+Hence $P(A)=\dfrac{n(A)}{n(\Omega)}=\dfrac38$.
+
+So the probability of exactly two heads is $\dfrac38$.
 
 **Answer.** $\dfrac38$.
 :::
 
 :::exercise
-Roll two fair dice. Find the probability that (a) the total is $8$; (b) both dice show the same number.
+Roll two fair dice. Find the probability of each of the following events:
+
+a) $A$: "The total of the two scores is $8$";
+b) $B$: "Both dice show the same number".
 
 ::hint
 **What you need:** $n(\Omega)=36$; use the table of totals.
@@ -221,9 +247,17 @@ Roll two fair dice. Find the probability that (a) the total is $8$; (b) both dic
 2. List the pairs $(1, 1), \dots, (6, 6)$.
 
 ::solution
-(a) The pairs $(2, 6)$, $(3, 5)$, $(4, 4)$, $(5, 3)$, $(6, 2)$: $P=\dfrac5{36}$. (b) There are $6$ equal pairs: $P=\dfrac6{36}=\dfrac16$.
+Each outcome is a pair $(i, j)$, where $i$ and $j$ are the scores on the first and the second die. By the multiplication rule, $n(\Omega)=6\cdot6=36$. The dice are fair, so these outcomes are equally likely.
 
-**Answer.** (a) $\dfrac5{36}$; (b) $\dfrac16$.
+a) We have $A=\{(2, 6), (3, 5), (4, 4), (5, 3), (6, 2)\}$, so $n(A)=5$. Hence
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{5}{36}.$$
+
+b) We have $B=\{(1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6)\}$, so $n(B)=6$. Hence
+$$P(B)=\frac{n(B)}{n(\Omega)}=\frac{6}{36}=\frac16.$$
+
+So $P(A)=\dfrac{5}{36}$ and $P(B)=\dfrac16$.
+
+**Answer.** a) $\dfrac5{36}$; b) $\dfrac16$.
 :::
 
 :::exercise
@@ -237,13 +271,21 @@ A box holds $4$ red balls and $6$ white balls. Two balls are drawn at random at 
 2. Compute $n(A)=\binom{6}{2}$.
 
 ::solution
-$n(\Omega)=\binom{10}{2}=45$, $n(A)=\binom{6}{2}=15$, so $P(A)=\dfrac{15}{45}=\dfrac13$.
+The box holds $4+6=10$ balls in total. Two balls are drawn together, so each outcome is a combination of $2$ of the $10$ balls. Hence
+$$n(\Omega)=\binom{10}{2}=45.$$
+
+Let $A$ be the event "Both balls drawn are white". Each outcome favourable to $A$ is a choice of $2$ of the $6$ white balls, so
+$$n(A)=\binom{6}{2}=15.$$
+
+Hence $P(A)=\dfrac{n(A)}{n(\Omega)}=\dfrac{15}{45}=\dfrac13$.
+
+So the probability that both balls drawn are white is $\dfrac13$.
 
 **Answer.** $\dfrac13$.
 :::
 
 :::exercise
-Roll two fair dice. Is each claim true or false?
+Roll two fair dice. Decide whether each statement is true or false.
 
 a) The sample space has $36$ outcomes.
 b) The probability that the total is $7$ is $\dfrac7{36}$.
@@ -259,19 +301,23 @@ d) The probability that at least one die shows a $6$ is $\dfrac16$.
 3. Count the pairs with no $6$, then take the complement.
 
 ::solution
-a) **True.** $6\cdot6=36$.
+a) **True.** Each die has $6$ outcomes, so by the multiplication rule $n(\Omega)=6\cdot6=36$.
 
-b) **False.** There are $6$ pairs with total $7$, so the probability is $\dfrac6{36}=\dfrac16$.
+b) **False.** The outcomes with total $7$ are $(1, 6)$, $(2, 5)$, $(3, 4)$, $(4, 3)$, $(5, 2)$, $(6, 1)$: there are $6$ of them. Hence the probability is $\dfrac6{36}=\dfrac16$, not $\dfrac7{36}$.
 
-c) **True.** The product is odd when both scores are odd: $3\cdot3=9$ pairs. So $P(\text{even product})=1-\dfrac9{36}=\dfrac34$.
+c) **True.** Let $C$ be the event "The product of the scores is even". Its complement $\overline{C}$ is "The product of the scores is odd", which happens exactly when both scores are odd. Each die has $3$ odd faces, so $n(\overline{C})=3\cdot3=9$. Hence
+$$P(C)=1-P(\overline{C})=1-\frac9{36}=\frac34.$$
 
-d) **False.** No $6$: $5\cdot5=25$ pairs. So $P=1-\dfrac{25}{36}=\dfrac{11}{36}$.
+d) **False.** Let $D$ be the event "At least one die shows a $6$". Its complement $\overline{D}$ is "Neither die shows a $6$"; each die then has $5$ outcomes, so $n(\overline{D})=5\cdot5=25$. Hence
+$$P(D)=1-\frac{25}{36}=\frac{11}{36}.$$
+
+So statements a) and c) are true; statements b) and d) are false.
 
 **Answer.** a) True; b) False; c) True; d) False.
 :::
 
 :::exercise
-A team has $20$ boys and $15$ girls. Three students are chosen at random. Find the probability that at least one girl is chosen (rounded to two decimal places).
+A team has $20$ boys and $15$ girls. Three students are chosen at random. Find the probability that at least one girl is chosen (give your answer to 2 decimal places).
 
 ::hint
 **What you need:** $P(A)=1-P(\overline{A})$; $\overline{A}$: "all three are boys".
@@ -282,8 +328,16 @@ A team has $20$ boys and $15$ girls. Three students are chosen at random. Find t
 3. Subtract the ratio from $1$ and round.
 
 ::solution
-$n(\Omega)=\binom{35}{3}=6545$, $n(\overline{A})=\binom{20}{3}=1140$. Hence
-$$P(A)=1-\frac{1140}{6545}=\frac{1081}{1309}\approx0.83.$$
+The team has $20+15=35$ students in total. Three students are chosen without order, so
+$$n(\Omega)=\binom{35}{3}=6545.$$
+
+Let $A$ be the event "At least one of the three students chosen is a girl". Its complement $\overline{A}$ is "All three students chosen are boys". We have
+$$n(\overline{A})=\binom{20}{3}=1140.$$
+
+It follows that $P(\overline{A})=\dfrac{1140}{6545}=\dfrac{228}{1309}$. Hence
+$$P(A)=1-P(\overline{A})=1-\frac{228}{1309}=\frac{1081}{1309}\approx0.83.$$
+
+So the probability that at least one girl is chosen is about $0.83$.
 
 **Answer.** $0.83$.
 :::
@@ -299,7 +353,14 @@ A suitcase has a combination lock with three wheels, each showing the digits $0$
 2. Only one code is correct.
 
 ::solution
-The number of codes with three different digits is $P(10, 3)=10\cdot9\cdot8=720$, and only one is correct. So $P=\dfrac1{720}$.
+Each code is an ordered string of $3$ different digits taken from $10$ digits, that is, an arrangement of $3$ out of $10$ elements. Hence
+$$n(\Omega)=P(10, 3)=10\cdot9\cdot8=720.$$
+
+Let $A$ be the event "The lock opens at that try". Only one code is correct, so $n(A)=1$.
+
+Hence $P(A)=\dfrac{n(A)}{n(\Omega)}=\dfrac1{720}$.
+
+So the probability that the lock opens at that try is $\dfrac1{720}$.
 
 **Answer.** $\dfrac1{720}$.
 :::
@@ -315,7 +376,19 @@ The number of codes with three different digits is $P(10, 3)=10\cdot9\cdot8=720$
 2. Count the even ones: the units digit is $2$ or $4$.
 
 ::solution
-$n(\Omega)=5\cdot4\cdot3=60$. Even numbers: units digit $2$ ways, hundreds $4$ ways, tens $3$ ways, giving $24$. So $P=\dfrac{24}{60}=\dfrac25$.
+To make a three-digit number with distinct digits, we choose in turn the hundreds digit ($5$ ways), the tens digit ($4$ ways) and the units digit ($3$ ways). By the multiplication rule,
+$$n(\Omega)=5\cdot4\cdot3=60.$$
+
+Let $A$ be the event "The number made is even". An even number has units digit $2$ or $4$, so we choose the units digit first:
+
+- units digit: $2$ ways;
+- hundreds digit: $4$ ways (different from the units digit);
+- tens digit: $3$ ways (different from the two digits already chosen).
+
+By the multiplication rule, $n(A)=2\cdot4\cdot3=24$. Hence
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{24}{60}=\frac25.$$
+
+So the probability that the number made is even is $\dfrac25$.
 
 **Answer.** $\dfrac25$.
 :::
@@ -331,7 +404,20 @@ $n(\Omega)=5\cdot4\cdot3=60$. Even numbers: units digit $2$ ways, hundreds $4$ w
 2. Find $n(A\cup B)$ and divide by $30$.
 
 ::solution
-$n(A)=15$, $n(B)=10$, $n(A\cap B)=5$, so $n(A\cup B)=15+10-5=20$ and $P=\dfrac{20}{30}=\dfrac23$.
+One card is drawn from $30$ cards, so $n(\Omega)=30$.
+
+Let $A$ be the event "The number on the card is divisible by $2$" and $B$ the event "The number on the card is divisible by $3$". The event whose probability we need is $A\cup B$.
+
+Among the numbers from $1$ to $30$ there are $30\div2=15$ numbers divisible by $2$ and $30\div3=10$ numbers divisible by $3$, so $n(A)=15$, $n(B)=10$.
+
+A number is divisible by both $2$ and $3$ exactly when it is divisible by $6$; there are $30\div6=5$ such numbers, so $n(A\cap B)=5$.
+
+We have
+$$n(A\cup B)=n(A)+n(B)-n(A\cap B)=15+10-5=20.$$
+
+Hence $P(A\cup B)=\dfrac{20}{30}=\dfrac23$.
+
+So the probability that the number on the card is divisible by $2$ or by $3$ is $\dfrac23$.
 
 **Answer.** $\dfrac23$.
 :::
@@ -347,7 +433,18 @@ Five students An, Binh, Chi, Dung and Ha stand in a row in random order. Find th
 2. Treat An and Binh as one block: $4!$ ways to arrange the blocks, times $2$ orders inside the block.
 
 ::solution
-$n(\Omega)=5!=120$. Ways with An and Binh together: $2\cdot4!=48$. So $P=\dfrac{48}{120}=\dfrac25$.
+Each way of standing the five students in a row is a permutation of $5$ elements, so
+$$n(\Omega)=5!=120.$$
+
+Let $A$ be the event "An and Binh stand next to each other". We treat An and Binh as one block. Then:
+
+- arranging this block with the other three students ($4$ places in all): $4!=24$ ways;
+- inside the block, An and Binh can swap places: $2$ ways.
+
+By the multiplication rule, $n(A)=2\cdot24=48$. Hence
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{48}{120}=\frac25.$$
+
+So the probability that An and Binh stand next to each other is $\dfrac25$.
 
 **Answer.** $\dfrac25$.
 :::

@@ -97,14 +97,18 @@ Vậy cả hai biến cố đều có xác suất $\dfrac16$.
 Khi lấy nhiều đối tượng cùng lúc, ta không liệt kê mà đếm $n(\Omega)$ và $n(A)$ bằng các công thức của bài [Hoán vị, chỉnh hợp và tổ hợp](lesson:permutations-combinations).
 
 :::example Lấy bi trong hộp
-Một hộp có $5$ viên bi đỏ và $3$ viên bi xanh, cùng kích thước. Lấy ngẫu nhiên đồng thời $2$ viên. Tính xác suất để (a) hai viên đều đỏ; (b) hai viên khác màu.
+Một hộp có $5$ viên bi đỏ và $3$ viên bi xanh, cùng kích thước. Lấy ngẫu nhiên đồng thời $2$ viên. Tính xác suất của mỗi biến cố sau:
 
-**Lời giải.** Lấy đồng thời nên không có thứ tự: mỗi kết quả là một tổ hợp chập $2$ của $8$ viên, $n(\Omega)=C_8^2=28$.
+a) $A$: "Hai viên bi lấy ra đều màu đỏ";
+b) $B$: "Hai viên bi lấy ra khác màu".
 
-- (a) Chọn $2$ trong $5$ viên đỏ: $n(A)=C_5^2=10$.
-- (b) Chọn $1$ đỏ **rồi** $1$ xanh: $n(B)=5\cdot3=15$.
+**Lời giải.** Lấy đồng thời $2$ viên nên không có thứ tự: mỗi kết quả là một tổ hợp chập $2$ của $8$ viên bi. Do đó $n(\Omega)=C_8^2=28$.
 
-$$P(A)=\frac{10}{28}=\frac{5}{14},\qquad P(B)=\frac{15}{28}.$$
+a) Mỗi kết quả thuận lợi cho $A$ là một cách chọn $2$ viên từ $5$ viên bi đỏ, nên $n(A)=C_5^2=10$. Do đó
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{10}{28}=\frac{5}{14}.$$
+
+b) Để hai viên khác màu, ta chọn $1$ viên đỏ ($5$ cách) **rồi** chọn $1$ viên xanh ($3$ cách). Theo quy tắc nhân, $n(B)=5\cdot3=15$. Do đó
+$$P(B)=\frac{n(B)}{n(\Omega)}=\frac{15}{28}.$$
 
 Vậy xác suất hai viên đều đỏ là $\dfrac{5}{14}$, xác suất hai viên khác màu là $\dfrac{15}{28}$.
 :::
@@ -126,13 +130,16 @@ Vậy xác suất có ít nhất một lần sấp là $\dfrac78$.
 Bây giờ ta trả lời câu hỏi bốc thăm ở đầu bài.
 
 :::example Bốc thăm hai bạn đi dự lễ
-Lớp có $22$ nữ và $18$ nam. Chọn ngẫu nhiên $2$ bạn. Tính xác suất để (a) cả hai bạn là nữ; (b) có ít nhất một bạn nam.
+Lớp có $22$ nữ và $18$ nam. Chọn ngẫu nhiên $2$ bạn. Tính xác suất để:
+
+a) Cả hai bạn được chọn đều là nữ;
+b) Có ít nhất một bạn nam được chọn.
 
 **Lời giải.**
 
 *Hiểu đề.* Hai bạn được chọn cùng lúc, không có thứ tự; mọi nhóm $2$ bạn có cùng khả năng được chọn.
 
-*Tìm cách giải.* Đếm $n(\Omega)$ và $n(A)$ bằng tổ hợp; câu (b) là biến cố đối của câu (a).
+*Tìm cách giải.* Đếm $n(\Omega)$ và $n(A)$ bằng tổ hợp; biến cố ở câu b) là biến cố đối của biến cố ở câu a).
 
 *Giải.* Ta có $n(\Omega)=C_{40}^2=780$ và $n(A)=C_{22}^2=231$. Do đó
 
@@ -189,7 +196,14 @@ Gieo một con xúc xắc cân đối. Tính xác suất để số chấm xuấ
 2. Liệt kê các kết quả chia hết cho $3$.
 
 ::solution
-$\Omega=\{1; 2; 3; 4; 5; 6\}$, $A=\{3; 6\}$, nên $P(A)=\dfrac26=\dfrac13$.
+Không gian mẫu là $\Omega=\{1; 2; 3; 4; 5; 6\}$, nên $n(\Omega)=6$. Vì con xúc xắc cân đối nên các kết quả này đồng khả năng.
+
+Gọi $A$ là biến cố "Số chấm xuất hiện chia hết cho $3$". Ta có $A=\{3; 6\}$, nên $n(A)=2$.
+
+Do đó
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac26=\frac13.$$
+
+Vậy xác suất để số chấm xuất hiện chia hết cho $3$ là $\dfrac13$.
 
 **Đáp số.** $\dfrac13$.
 :::
@@ -205,13 +219,25 @@ Tung một đồng xu cân đối $3$ lần. Viết không gian mẫu và tính 
 2. Chọn những kết quả có đúng hai chữ $S$.
 
 ::solution
-$\Omega=\{SSS; SSN; SNS; SNN; NSS; NSN; NNS; NNN\}$. Các kết quả thuận lợi: $SSN$, $SNS$, $NSS$. Vậy $P=\dfrac38$.
+Kí hiệu $S$ là mặt sấp, $N$ là mặt ngửa. Mỗi kết quả là một dãy gồm ba chữ, ghi lần lượt kết quả của ba lần tung. Không gian mẫu là
+$$\Omega=\{SSS; SSN; SNS; SNN; NSS; NSN; NNS; NNN\}.$$
+
+Ta có $n(\Omega)=8$. Vì đồng xu cân đối nên các kết quả này đồng khả năng.
+
+Gọi $A$ là biến cố "Có đúng hai lần sấp". Ta có $A=\{SSN; SNS; NSS\}$, nên $n(A)=3$.
+
+Do đó $P(A)=\dfrac{n(A)}{n(\Omega)}=\dfrac38$.
+
+Vậy xác suất để có đúng hai lần sấp là $\dfrac38$.
 
 **Đáp số.** $\dfrac38$.
 :::
 
 :::exercise
-Gieo hai con xúc xắc cân đối. Tính xác suất để (a) tổng số chấm bằng $8$; (b) hai con có số chấm bằng nhau.
+Gieo hai con xúc xắc cân đối. Tính xác suất của mỗi biến cố sau:
+
+a) $A$: "Tổng số chấm xuất hiện trên hai con xúc xắc bằng $8$";
+b) $B$: "Hai con xúc xắc xuất hiện số chấm bằng nhau".
 
 ::hint
 **Kiến thức:** $n(\Omega)=36$; dùng bảng tổng số chấm.
@@ -221,9 +247,17 @@ Gieo hai con xúc xắc cân đối. Tính xác suất để (a) tổng số ch�
 2. Liệt kê các cặp $(1; 1), \dots, (6; 6)$.
 
 ::solution
-(a) Các cặp $(2; 6)$, $(3; 5)$, $(4; 4)$, $(5; 3)$, $(6; 2)$: $P=\dfrac5{36}$. (b) Có $6$ cặp bằng nhau: $P=\dfrac6{36}=\dfrac16$.
+Mỗi kết quả là một cặp số $(i; j)$, trong đó $i$ và $j$ lần lượt là số chấm xuất hiện trên con xúc xắc thứ nhất và thứ hai. Theo quy tắc nhân, $n(\Omega)=6\cdot6=36$. Vì hai con xúc xắc cân đối nên các kết quả này đồng khả năng.
 
-**Đáp số.** (a) $\dfrac5{36}$; (b) $\dfrac16$.
+a) Ta có $A=\{(2; 6); (3; 5); (4; 4); (5; 3); (6; 2)\}$, nên $n(A)=5$. Do đó
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{5}{36}.$$
+
+b) Ta có $B=\{(1; 1); (2; 2); (3; 3); (4; 4); (5; 5); (6; 6)\}$, nên $n(B)=6$. Do đó
+$$P(B)=\frac{n(B)}{n(\Omega)}=\frac{6}{36}=\frac16.$$
+
+Vậy $P(A)=\dfrac{5}{36}$ và $P(B)=\dfrac16$.
+
+**Đáp số.** a) $\dfrac5{36}$; b) $\dfrac16$.
 :::
 
 :::exercise
@@ -237,13 +271,21 @@ Một hộp có $4$ quả bóng đỏ và $6$ quả bóng trắng. Lấy ngẫu 
 2. Tính $n(A)=C_6^2$.
 
 ::solution
-$n(\Omega)=C_{10}^2=45$, $n(A)=C_6^2=15$, nên $P(A)=\dfrac{15}{45}=\dfrac13$.
+Hộp có tất cả $4+6=10$ quả bóng. Lấy đồng thời $2$ quả nên mỗi kết quả là một tổ hợp chập $2$ của $10$ phần tử. Do đó
+$$n(\Omega)=C_{10}^2=45.$$
+
+Gọi $A$ là biến cố "Cả hai quả bóng lấy ra đều trắng". Mỗi kết quả thuận lợi cho $A$ là một cách chọn $2$ quả từ $6$ quả bóng trắng, nên
+$$n(A)=C_6^2=15.$$
+
+Do đó $P(A)=\dfrac{n(A)}{n(\Omega)}=\dfrac{15}{45}=\dfrac13$.
+
+Vậy xác suất để cả hai quả lấy ra đều trắng là $\dfrac13$.
 
 **Đáp số.** $\dfrac13$.
 :::
 
 :::exercise
-Gieo hai con xúc xắc cân đối. Mỗi khẳng định sau đúng hay sai?
+Gieo hai con xúc xắc cân đối. Xét tính đúng sai của các mệnh đề sau:
 
 a) Không gian mẫu có $36$ kết quả.
 b) Xác suất để tổng số chấm bằng $7$ là $\dfrac7{36}$.
@@ -259,19 +301,23 @@ d) Xác suất để có ít nhất một con ra mặt $6$ chấm bằng $\dfrac
 3. Đếm các cặp không có mặt $6$, rồi lấy phần bù.
 
 ::solution
-a) **Đúng.** $6\cdot6=36$.
+a) **Đúng.** Mỗi con xúc xắc có $6$ kết quả, nên theo quy tắc nhân, $n(\Omega)=6\cdot6=36$.
 
-b) **Sai.** Có $6$ cặp tổng $7$, nên xác suất là $\dfrac6{36}=\dfrac16$.
+b) **Sai.** Các kết quả có tổng số chấm bằng $7$ là $(1; 6)$, $(2; 5)$, $(3; 4)$, $(4; 3)$, $(5; 2)$, $(6; 1)$: có $6$ kết quả. Do đó xác suất cần tìm là $\dfrac6{36}=\dfrac16$, không phải $\dfrac7{36}$.
 
-c) **Đúng.** Tích lẻ khi cả hai số lẻ: $3\cdot3=9$ cặp. Vậy $P(\text{tích chẵn})=1-\dfrac9{36}=\dfrac34$.
+c) **Đúng.** Gọi $C$ là biến cố "Tích số chấm là số chẵn". Biến cố đối $\overline{C}$ là "Tích số chấm là số lẻ", xảy ra khi và chỉ khi cả hai số chấm đều lẻ. Mỗi con có $3$ mặt lẻ nên $n(\overline{C})=3\cdot3=9$. Do đó
+$$P(C)=1-P(\overline{C})=1-\frac9{36}=\frac34.$$
 
-d) **Sai.** Không có mặt $6$: $5\cdot5=25$ cặp. Vậy $P=1-\dfrac{25}{36}=\dfrac{11}{36}$.
+d) **Sai.** Gọi $D$ là biến cố "Có ít nhất một con ra mặt $6$ chấm". Biến cố đối $\overline{D}$ là "Không con nào ra mặt $6$ chấm"; mỗi con còn $5$ kết quả nên $n(\overline{D})=5\cdot5=25$. Do đó
+$$P(D)=1-\frac{25}{36}=\frac{11}{36}.$$
+
+Vậy các mệnh đề a) và c) đúng; các mệnh đề b) và d) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 :::
 
 :::exercise
-Một đội có $20$ bạn nam và $15$ bạn nữ. Chọn ngẫu nhiên $3$ bạn. Tính xác suất để có ít nhất một bạn nữ (làm tròn đến hàng phần trăm).
+Một đội có $20$ bạn nam và $15$ bạn nữ. Chọn ngẫu nhiên $3$ bạn. Tính xác suất để có ít nhất một bạn nữ (làm tròn kết quả đến hàng phần trăm).
 
 ::hint
 **Kiến thức:** $P(A)=1-P(\overline{A})$; $\overline{A}$: "cả ba bạn đều là nam".
@@ -282,8 +328,16 @@ Một đội có $20$ bạn nam và $15$ bạn nữ. Chọn ngẫu nhiên $3$ b�
 3. Lấy $1$ trừ tỉ số, rồi làm tròn.
 
 ::solution
-$n(\Omega)=C_{35}^3=6545$, $n(\overline{A})=C_{20}^3=1140$. Do đó
-$$P(A)=1-\frac{1140}{6545}=\frac{1081}{1309}\approx0{,}83.$$
+Đội có tất cả $20+15=35$ bạn. Chọn $3$ bạn không kể thứ tự nên
+$$n(\Omega)=C_{35}^3=6545.$$
+
+Gọi $A$ là biến cố "Trong ba bạn được chọn có ít nhất một bạn nữ". Biến cố đối $\overline{A}$ là "Cả ba bạn được chọn đều là nam". Ta có
+$$n(\overline{A})=C_{20}^3=1140.$$
+
+Suy ra $P(\overline{A})=\dfrac{1140}{6545}=\dfrac{228}{1309}$. Do đó
+$$P(A)=1-P(\overline{A})=1-\frac{228}{1309}=\frac{1081}{1309}\approx0{,}83.$$
+
+Vậy xác suất để có ít nhất một bạn nữ xấp xỉ $0{,}83$.
 
 **Đáp số.** $0{,}83$.
 :::
@@ -299,7 +353,14 @@ Khoá số của một chiếc vali có ba vòng, mỗi vòng có các chữ s�
 2. Chỉ có một mã đúng.
 
 ::solution
-Số mã có ba chữ số khác nhau là $A_{10}^3=10\cdot9\cdot8=720$, và chỉ một mã đúng. Vậy $P=\dfrac1{720}$.
+Mỗi mã là một dãy có thứ tự gồm $3$ chữ số khác nhau lấy từ $10$ chữ số, tức là một chỉnh hợp chập $3$ của $10$ phần tử. Do đó
+$$n(\Omega)=A_{10}^3=10\cdot9\cdot8=720.$$
+
+Gọi $A$ là biến cố "Hà mở được khoá ngay lần thử đó". Chỉ có một mã đúng nên $n(A)=1$.
+
+Do đó $P(A)=\dfrac{n(A)}{n(\Omega)}=\dfrac1{720}$.
+
+Vậy xác suất Hà mở được khoá ngay lần thử đó là $\dfrac1{720}$.
 
 **Đáp số.** $\dfrac1{720}$.
 :::
@@ -315,7 +376,19 @@ Số mã có ba chữ số khác nhau là $A_{10}^3=10\cdot9\cdot8=720$, và ch�
 2. Đếm số chẵn: hàng đơn vị là $2$ hoặc $4$.
 
 ::solution
-$n(\Omega)=5\cdot4\cdot3=60$. Số chẵn: hàng đơn vị $2$ cách, hàng trăm $4$ cách, hàng chục $3$ cách, được $24$ số. Vậy $P=\dfrac{24}{60}=\dfrac25$.
+Để lập một số có ba chữ số khác nhau, ta chọn lần lượt chữ số hàng trăm ($5$ cách), hàng chục ($4$ cách) và hàng đơn vị ($3$ cách). Theo quy tắc nhân,
+$$n(\Omega)=5\cdot4\cdot3=60.$$
+
+Gọi $A$ là biến cố "Số lập được là số chẵn". Số chẵn có chữ số hàng đơn vị là $2$ hoặc $4$, nên ta chọn hàng đơn vị trước:
+
+- chữ số hàng đơn vị: $2$ cách;
+- chữ số hàng trăm: $4$ cách (khác chữ số hàng đơn vị);
+- chữ số hàng chục: $3$ cách (khác hai chữ số đã chọn).
+
+Theo quy tắc nhân, $n(A)=2\cdot4\cdot3=24$. Do đó
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{24}{60}=\frac25.$$
+
+Vậy xác suất để số lập được là số chẵn bằng $\dfrac25$.
 
 **Đáp số.** $\dfrac25$.
 :::
@@ -331,7 +404,20 @@ $n(\Omega)=5\cdot4\cdot3=60$. Số chẵn: hàng đơn vị $2$ cách, hàng tr�
 2. Tính $n(A\cup B)$ rồi chia cho $30$.
 
 ::solution
-$n(A)=15$, $n(B)=10$, $n(A\cap B)=5$, nên $n(A\cup B)=15+10-5=20$ và $P=\dfrac{20}{30}=\dfrac23$.
+Rút một tấm trong $30$ tấm thẻ nên $n(\Omega)=30$.
+
+Gọi $A$ là biến cố "Số trên thẻ chia hết cho $2$" và $B$ là biến cố "Số trên thẻ chia hết cho $3$". Biến cố cần tính xác suất là $A\cup B$.
+
+Trong các số từ $1$ đến $30$ có $30:2=15$ số chia hết cho $2$ và $30:3=10$ số chia hết cho $3$, nên $n(A)=15$, $n(B)=10$.
+
+Một số chia hết cho cả $2$ và $3$ khi và chỉ khi nó chia hết cho $6$; có $30:6=5$ số như vậy, nên $n(A\cap B)=5$.
+
+Ta có
+$$n(A\cup B)=n(A)+n(B)-n(A\cap B)=15+10-5=20.$$
+
+Do đó $P(A\cup B)=\dfrac{20}{30}=\dfrac23$.
+
+Vậy xác suất để số trên thẻ chia hết cho $2$ hoặc cho $3$ là $\dfrac23$.
 
 **Đáp số.** $\dfrac23$.
 :::
@@ -347,7 +433,18 @@ Xếp ngẫu nhiên năm bạn An, Bình, Chi, Dũng, Hà thành một hàng nga
 2. Coi An và Bình là một khối: $4!$ cách xếp các khối, nhân $2$ cách xếp trong khối.
 
 ::solution
-$n(\Omega)=5!=120$. Số cách An và Bình đứng cạnh nhau: $2\cdot4!=48$. Vậy $P=\dfrac{48}{120}=\dfrac25$.
+Mỗi cách xếp năm bạn thành một hàng ngang là một hoán vị của $5$ phần tử, nên
+$$n(\Omega)=5!=120.$$
+
+Gọi $A$ là biến cố "An và Bình đứng cạnh nhau". Ta coi An và Bình là một khối. Khi đó:
+
+- xếp khối này cùng ba bạn còn lại (tất cả $4$ vị trí): có $4!=24$ cách;
+- trong khối, An và Bình đổi chỗ cho nhau: có $2$ cách.
+
+Theo quy tắc nhân, $n(A)=2\cdot24=48$. Do đó
+$$P(A)=\frac{n(A)}{n(\Omega)}=\frac{48}{120}=\frac25.$$
+
+Vậy xác suất để An và Bình đứng cạnh nhau là $\dfrac25$.
 
 **Đáp số.** $\dfrac25$.
 :::
