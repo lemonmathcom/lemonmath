@@ -263,7 +263,7 @@ function render(md, opts) {
 
   const restoreCode = (s) => s.replace(/⟪C(\d+)⟫/g, (m, i) => codes[+i]);
   // a line starting "a) ", "b) " … (parts of an exercise) always starts a new paragraph, even without a blank line
-  const parts = (s) => s.replace(/([^\n])\n(?=[a-h]\) )/g, '$1\n\n');
+  const parts = (s) => s.replace(/([^\n])\n(?=\(?[a-h]\) )/g, '$1\n\n');
   const optStore = [];
   const mcOpts = (s) => s.replace(/(^|\n)A\.[ \t]+([^\n]*?)[ \t]*\nB\.[ \t]+([^\n]*?)[ \t]*\nC\.[ \t]+([^\n]*?)[ \t]*\nD\.[ \t]+([^\n]*?)[ \t]*(?=\n|$)/g, (m, pre, a, b, c, d) => {
     optStore.push([a, b, c, d]);
