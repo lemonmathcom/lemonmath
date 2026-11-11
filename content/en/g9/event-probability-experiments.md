@@ -161,9 +161,15 @@ b) $B$: "The score is a prime number".
 2. Divide by $6$.
 
 ::solution
-a) The outcomes favourable to $A$ are $3$ and $6$, so $P(A)=\dfrac26=\dfrac13$.
+The sample space is $\Omega=\{1, 2, 3, 4, 5, 6\}$, with $6$ equally likely outcomes (the die is fair).
 
-b) The outcomes favourable to $B$ are $2$, $3$, $5$, so $P(B)=\dfrac36=\dfrac12$.
+a) The outcomes favourable to the event $A$ are the numbers divisible by $3$: $3$ and $6$. There are $2$ favourable outcomes, so
+$$P(A)=\frac26=\frac13.$$
+
+b) The outcomes favourable to the event $B$ are the prime numbers: $2$, $3$ and $5$. There are $3$ favourable outcomes, so
+$$P(B)=\frac36=\frac12.$$
+
+So $P(A)=\dfrac13$ and $P(B)=\dfrac12$.
 
 **Answer.** a) $\dfrac13$; b) $\dfrac12$.
 :::
@@ -179,9 +185,15 @@ Toss two fair coins. Find the probability of the event "At least one coin shows 
 2. Work out $\dfrac k4$.
 
 ::solution
-The favourable outcomes are $(T, H)$, $(H, T)$, $(H, H)$, so the probability is $\dfrac34$.
+Write $H$ for heads and $T$ for tails. The sample space is
+$$\Omega=\{(T, T),\ (T, H),\ (H, T),\ (H, H)\},$$
+with $4$ equally likely outcomes (the coins are fair).
 
-So the probability is $\dfrac34$.
+Let $A$ be the event "At least one coin shows heads". The outcomes favourable to $A$ are $(T, H)$, $(H, T)$, $(H, H)$: there are $3$ of them.
+
+Hence $P(A)=\dfrac34$.
+
+So the probability that at least one coin shows heads is $\dfrac34$.
 
 **Answer.** $\dfrac34$.
 :::
@@ -197,9 +209,18 @@ Roll two fair dice. Find the probability of the event "The total score is at lea
 2. Work out $\dfrac{k}{36}$.
 
 ::solution
-The favourable outcomes are $(4, 6)$, $(5, 5)$, $(6, 4)$, $(5, 6)$, $(6, 5)$, $(6, 6)$, so $k=6$ and the probability is $\dfrac{6}{36}=\dfrac16$.
+Each outcome is a pair $(i, j)$, where $i$ and $j$ are the scores on the first and the second die. The sample space has $6\cdot6=36$ equally likely outcomes.
 
-So the probability is $\dfrac16$.
+Let $A$ be the event "The total score is not less than $10$", that is the total is $10$, $11$ or $12$.
+
+- Total $10$: $(4, 6)$, $(5, 5)$, $(6, 4)$;
+- Total $11$: $(5, 6)$, $(6, 5)$;
+- Total $12$: $(6, 6)$.
+
+There are $6$ outcomes favourable to $A$. Hence
+$$P(A)=\frac{6}{36}=\frac16.$$
+
+So the probability that the total score is not less than $10$ is $\dfrac16$.
 
 **Answer.** $\dfrac16$.
 :::
@@ -240,11 +261,25 @@ c) Find the probability that at least $1$ of the students chosen is a boy.
 3. "At least 1 boy" is all the other pairs.
 
 ::solution
-a) The sample space consists of the pairs $N_1N_2$, $N_1N_3$, $N_2N_3$, $N_1M_1$, $N_1M_2$, $N_2M_1$, $N_2M_2$, $N_3M_1$, $N_3M_2$, $M_1M_2$, that is, $10$ elements.
+Call the three girls $G_1$, $G_2$, $G_3$ and the two boys $B_1$, $B_2$. Two students are chosen together, so each outcome is a group of $2$ students, without order.
 
-b) There are $3$ pairs of girls only, so the probability is $\dfrac{3}{10}$.
+a) Listing the outcomes:
 
-c) All the other pairs contain at least $1$ boy, so $k=10-3=7$ and the probability is $\dfrac{7}{10}$.
+- two girls: $G_1G_2$, $G_1G_3$, $G_2G_3$;
+- one girl and one boy: $G_1B_1$, $G_1B_2$, $G_2B_1$, $G_2B_2$, $G_3B_1$, $G_3B_2$;
+- two boys: $B_1B_2$.
+
+So the sample space has $3+6+1=10$ elements.
+
+b) Let $A$ be the event "Both students chosen are girls". The outcomes favourable to $A$ are $G_1G_2$, $G_1G_3$, $G_2G_3$: there are $3$ of them. Hence
+$$P(A)=\frac{3}{10}.$$
+
+So the probability that both students chosen are girls is $\dfrac{3}{10}$.
+
+c) Let $B$ be the event "At least one boy is chosen". The outcomes favourable to $B$ are exactly the outcomes not favourable to $A$, so there are $10-3=7$ of them. Hence
+$$P(B)=\frac{7}{10}.$$
+
+So the probability that at least one boy is chosen is $\dfrac{7}{10}$.
 
 **Answer.** a) $10$; b) $\dfrac{3}{10}$; c) $\dfrac{7}{10}$.
 :::

@@ -176,9 +176,13 @@ Tính diện tích mặt cầu và thể tích của hình cầu có bán kính 
 1. Thay $R=5$.
 
 ::solution
-Ta có $S=4\pi\cdot5^2=100\pi\approx314{,}16$ (cm²) và $V=\dfrac43\pi\cdot5^3=\dfrac{500\pi}{3}\approx523{,}60$ (cm³).
+Với hình cầu bán kính $R=5$ cm, diện tích mặt cầu là
+$$S=4\pi R^2=4\pi\cdot5^2=100\pi\approx314{,}16\ \text{(cm}^2\text{)}.$$
 
-Vậy $S\approx314{,}16$ cm², $V\approx523{,}60$ cm³.
+Thể tích hình cầu là
+$$V=\frac43\pi R^3=\frac43\pi\cdot5^3=\frac{500\pi}{3}\approx523{,}60\ \text{(cm}^3\text{)}.$$
+
+Vậy $S=100\pi\approx314{,}16$ cm² và $V=\dfrac{500\pi}{3}\approx523{,}60$ cm³.
 
 **Đáp số.** $100\pi\approx314{,}16$ cm²; $\dfrac{500\pi}{3}\approx523{,}60$ cm³.
 :::
@@ -193,9 +197,15 @@ Một hình cầu có đường kính $12$ cm. Tính diện tích mặt cầu v�
 1. Tính $R=6$ cm rồi thay vào hai công thức.
 
 ::solution
-Ta có $R=6$ cm, nên $S=4\pi\cdot6^2=144\pi$ (cm²) và $V=\dfrac43\pi\cdot6^3=288\pi$ (cm³).
+Hình cầu có đường kính $12$ cm nên bán kính $R=\dfrac{12}{2}=6$ (cm).
 
-Vậy $S=144\pi$ cm², $V=288\pi$ cm³.
+Diện tích mặt cầu là
+$$S=4\pi R^2=4\pi\cdot6^2=144\pi\ \text{(cm}^2\text{)}.$$
+
+Thể tích hình cầu là
+$$V=\frac43\pi R^3=\frac43\pi\cdot6^3=\frac43\pi\cdot216=288\pi\ \text{(cm}^3\text{)}.$$
+
+Vậy $S=144\pi$ cm² và $V=288\pi$ cm³.
 
 **Đáp số.** $144\pi$ cm²; $288\pi$ cm³.
 :::
@@ -211,9 +221,17 @@ Một mặt cầu có diện tích $64\pi$ cm². Tính bán kính và thể tíc
 2. Tính $V$.
 
 ::solution
-Ta có $4\pi R^2=64\pi$, suy ra $R^2=16$, $R=4$ (vì $R>0$). Do đó $V=\dfrac43\pi\cdot4^3=\dfrac{256\pi}{3}\approx268{,}08$ (cm³).
+Gọi $R$ (cm) là bán kính hình cầu ($R>0$).
 
-Vậy $R=4$ cm và $V=\dfrac{256\pi}{3}$ cm³.
+Diện tích mặt cầu là $4\pi R^2$. Theo đề bài, ta có
+$$4\pi R^2=64\pi.$$
+
+Suy ra $R^2=16$. Vì $R>0$ nên $R=4$.
+
+Thể tích hình cầu là
+$$V=\frac43\pi R^3=\frac43\pi\cdot4^3=\frac{256\pi}{3}\approx268{,}08\ \text{(cm}^3\text{)}.$$
+
+Vậy bán kính hình cầu là $4$ cm và thể tích là $\dfrac{256\pi}{3}$ cm³.
 
 **Đáp số.** $R=4$ cm; $V=\dfrac{256\pi}{3}$ cm³.
 :::
@@ -247,7 +265,16 @@ Giả sử một chiếc kem ốc quế gồm phần vỏ hình nón bán kính 
 1. Tính hai thể tích rồi cộng.
 
 ::solution
-Ta có $V_{\text{nón}}=\dfrac13\pi\cdot3^2\cdot10=30\pi$ (cm³) và $V_{\text{nửa cầu}}=\dfrac23\pi\cdot3^3=18\pi$ (cm³). Do đó thể tích kem là $30\pi+18\pi=48\pi\approx150{,}80$ (cm³).
+Lượng kem gồm hai phần: phần trong vỏ hình nón và phần nửa hình cầu ở trên.
+
+Phần hình nón có bán kính đáy $r=3$ cm, chiều cao $h=10$ cm. Thể tích của nó là
+$$V_{\text{nón}}=\frac13\pi r^2h=\frac13\pi\cdot3^2\cdot10=30\pi\ \text{(cm}^3\text{)}.$$
+
+Phần nửa hình cầu có bán kính $R=3$ cm. Thể tích của nó bằng một nửa thể tích hình cầu:
+$$V_{\text{nửa cầu}}=\frac12\cdot\frac43\pi R^3=\frac23\pi\cdot3^3=18\pi\ \text{(cm}^3\text{)}.$$
+
+Thể tích kem là
+$$V=30\pi+18\pi=48\pi\approx150{,}80\ \text{(cm}^3\text{)}.$$
 
 Vậy chiếc kem có khoảng $150{,}80$ cm³ kem.
 
@@ -264,9 +291,14 @@ Một quả bóng bay hình cầu được thổi từ bán kính $10$ cm lên b
 1. Lập tỉ số $\dfrac{S_2}{S_1}$ và $\dfrac{V_2}{V_1}$.
 
 ::solution
-Ta có $\dfrac{S_2}{S_1}=\dfrac{4\pi\cdot20^2}{4\pi\cdot10^2}=4$ và $\dfrac{V_2}{V_1}=\dfrac{\frac43\pi\cdot20^3}{\frac43\pi\cdot10^3}=8$.
+Gọi $S_1$, $V_1$ là diện tích mặt bóng và thể tích khí khi bán kính là $10$ cm; $S_2$, $V_2$ là các đại lượng đó khi bán kính là $20$ cm.
 
-Vậy diện tích tăng $4$ lần, thể tích tăng $8$ lần.
+Ta có
+$$\frac{S_2}{S_1}=\frac{4\pi\cdot20^2}{4\pi\cdot10^2}=\frac{400}{100}=4.$$
+
+$$\frac{V_2}{V_1}=\frac{\frac43\pi\cdot20^3}{\frac43\pi\cdot10^3}=\frac{8000}{1000}=8.$$
+
+Vậy khi bán kính tăng gấp đôi, diện tích mặt bóng tăng $4$ lần và thể tích khí bên trong tăng $8$ lần.
 
 **Đáp số.** $4$ lần; $8$ lần.
 :::
@@ -288,13 +320,25 @@ c) Phần không gian trống trong hộp chiếm bao nhiêu phần trăm thể 
 2. c) Lấy phần trống chia cho thể tích hộp.
 
 ::solution
-a) Hộp có bán kính đáy $r=2$ cm và chiều cao $h=3\cdot4=12$ (cm).
+a) Các quả bóng tiếp xúc với thành hộp nên bán kính đáy hộp bằng bán kính quả bóng: $r=\dfrac42=2$ (cm).
 
-b) Ta có $V_{\text{hộp}}=\pi\cdot2^2\cdot12=48\pi$ (cm³) và $V_{\text{bóng}}=3\cdot\dfrac43\pi\cdot2^3=32\pi$ (cm³).
+Ba quả bóng xếp chồng và tiếp xúc với đáy, nắp hộp nên chiều cao hộp bằng ba lần đường kính quả bóng: $h=3\cdot4=12$ (cm).
 
-c) Phần trống là $48\pi-32\pi=16\pi$ (cm³), chiếm $\dfrac{16\pi}{48\pi}=\dfrac13\approx33{,}3\%$ thể tích hộp.
+Vậy hộp có bán kính đáy $2$ cm và chiều cao $12$ cm.
 
-Vậy a) $r=2$ cm, $h=12$ cm; b) $48\pi$ cm³ và $32\pi$ cm³; c) khoảng $33{,}3\%$.
+b) Thể tích của hộp là
+$$V_{\text{hộp}}=\pi r^2h=\pi\cdot2^2\cdot12=48\pi\ \text{(cm}^3\text{)}.$$
+
+Mỗi quả bóng có bán kính $2$ cm, nên tổng thể tích ba quả bóng là
+$$V_{\text{bóng}}=3\cdot\frac43\pi\cdot2^3=32\pi\ \text{(cm}^3\text{)}.$$
+
+Vậy thể tích hộp là $48\pi$ cm³ và tổng thể tích ba quả bóng là $32\pi$ cm³.
+
+c) Thể tích phần trống trong hộp là $48\pi-32\pi=16\pi$ (cm³). Phần trống chiếm
+$$\frac{16\pi}{48\pi}=\frac13\approx33{,}3\%$$
+thể tích hộp.
+
+Vậy phần trống chiếm khoảng $33{,}3\%$ thể tích hộp.
 
 **Đáp số.** a) $2$ cm, $12$ cm; b) $48\pi$ cm³, $32\pi$ cm³; c) $\approx33{,}3\%$.
 :::

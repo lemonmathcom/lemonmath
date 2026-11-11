@@ -190,9 +190,13 @@ Cho tam giác $ABC$ vuông tại $A$ có $AB=5$ cm, $AC=12$ cm. Xác định tâ
 1. Tính $BC$ bằng định lí Pythagore, rồi chia đôi.
 
 ::solution
-Ta có $BC=\sqrt{5^2+12^2}=13$ (cm). Tâm $O$ là trung điểm của $BC$ và $R=\dfrac{13}{2}=6{,}5$ (cm).
+Xét tam giác $ABC$ vuông tại $A$. Theo định lí Pythagore, ta có
+$$BC=\sqrt{AB^2+AC^2}=\sqrt{5^2+12^2}=\sqrt{169}=13\ \text{(cm)}.$$
 
-Vậy tâm là trung điểm của $BC$, $R=6{,}5$ cm.
+Tâm đường tròn ngoại tiếp tam giác vuông là trung điểm $O$ của cạnh huyền $BC$, và bán kính bằng nửa cạnh huyền:
+$$R=\frac{BC}{2}=\frac{13}{2}=6{,}5\ \text{(cm)}.$$
+
+Vậy tâm đường tròn ngoại tiếp là trung điểm của $BC$ và bán kính bằng $6{,}5$ cm.
 
 **Đáp số.** Trung điểm của $BC$; $R=6{,}5$ cm.
 :::
@@ -207,9 +211,12 @@ Tính bán kính đường tròn ngoại tiếp và đường tròn nội tiếp
 1. Thay $a=9$ vào hai công thức.
 
 ::solution
-Ta có $R=\dfrac{9\sqrt3}{3}=3\sqrt3$ (cm) và $r=\dfrac{9\sqrt3}{6}=\dfrac{3\sqrt3}{2}$ (cm).
+Với tam giác đều cạnh $a$, bán kính đường tròn ngoại tiếp là $R=\dfrac{a\sqrt3}{3}$ và bán kính đường tròn nội tiếp là $r=\dfrac{a\sqrt3}{6}$.
 
-Vậy $R=3\sqrt3\approx5{,}2$ cm, $r=\dfrac{3\sqrt3}{2}\approx2{,}6$ cm.
+Với $a=9$ cm, ta có
+$$R=\frac{9\sqrt3}{3}=3\sqrt3\approx5{,}2\ \text{(cm)};\qquad r=\frac{9\sqrt3}{6}=\frac{3\sqrt3}{2}\approx2{,}6\ \text{(cm)}.$$
+
+Vậy $R=3\sqrt3$ cm và $r=\dfrac{3\sqrt3}{2}$ cm.
 
 **Đáp số.** $R=3\sqrt3$ cm; $r=\dfrac{3\sqrt3}{2}$ cm.
 :::
@@ -224,9 +231,15 @@ Một tam giác đều nội tiếp đường tròn bán kính $4$ cm. Tính c�
 1. Giải $\dfrac{a\sqrt3}{3}=4$ để tìm $a$.
 
 ::solution
-Ta có $\dfrac{a\sqrt3}{3}=4$, suy ra $a=\dfrac{12}{\sqrt3}=4\sqrt3$ (cm).
+Gọi $a$ (cm) là cạnh của tam giác đều ($a>0$).
 
-Vậy cạnh tam giác bằng $4\sqrt3\approx6{,}93$ cm.
+Bán kính đường tròn ngoại tiếp tam giác đều cạnh $a$ là $R=\dfrac{a\sqrt3}{3}$. Theo đề bài, $R=4$ cm nên
+$$\frac{a\sqrt3}{3}=4.$$
+
+Suy ra
+$$a=\frac{12}{\sqrt3}=\frac{12\sqrt3}{3}=4\sqrt3\approx6{,}93\ \text{(cm)}.$$
+
+Vậy cạnh của tam giác đều bằng $4\sqrt3$ cm.
 
 **Đáp số.** $4\sqrt3$ cm.
 :::
@@ -242,9 +255,16 @@ Cho tam giác $ABC$ vuông tại $A$ có $AB=6$ cm, $AC=8$ cm. Tính bán kính 
 2. Thay vào hai công thức.
 
 ::solution
-Ta có $BC=\sqrt{6^2+8^2}=10$ (cm). Do đó $R=5$ cm và $r=\dfrac{6+8-10}{2}=2$ (cm).
+Xét tam giác $ABC$ vuông tại $A$. Theo định lí Pythagore, ta có
+$$BC=\sqrt{AB^2+AC^2}=\sqrt{6^2+8^2}=\sqrt{100}=10\ \text{(cm)}.$$
 
-Vậy $R=5$ cm, $r=2$ cm.
+Đường tròn ngoại tiếp tam giác vuông có tâm là trung điểm cạnh huyền, nên
+$$R=\frac{BC}{2}=5\ \text{(cm)}.$$
+
+Bán kính đường tròn nội tiếp tam giác vuông có hai cạnh góc vuông $b$, $c$ và cạnh huyền $a$ là $r=\dfrac{b+c-a}{2}$. Do đó
+$$r=\frac{AB+AC-BC}{2}=\frac{6+8-10}{2}=2\ \text{(cm)}.$$
+
+Vậy $R=5$ cm và $r=2$ cm.
 
 **Đáp số.** $R=5$ cm; $r=2$ cm.
 :::
@@ -265,11 +285,19 @@ b) Bán kính phun lớn nhất bằng bao nhiêu để nước không ra khỏi
 1. Tính $R=\dfrac{a\sqrt3}{3}$ và $r=\dfrac{a\sqrt3}{6}$ với $a=30$.
 
 ::solution
-a) Bán kính phun phải ít nhất bằng $R=\dfrac{30\sqrt3}{3}=10\sqrt3\approx17{,}3$ (m).
+Điểm cách đều ba đỉnh của tam giác đều là tâm $O$ của tam giác; $O$ vừa là tâm đường tròn ngoại tiếp, vừa là tâm đường tròn nội tiếp.
 
-b) Bán kính phun không vượt quá $r=\dfrac{30\sqrt3}{6}=5\sqrt3\approx8{,}7$ (m).
+a) Để nước tới được cả ba góc bồn hoa, bán kính phun phải ít nhất bằng khoảng cách từ $O$ đến mỗi đỉnh, tức là bán kính đường tròn ngoại tiếp:
+$$R=\frac{30\sqrt3}{3}=10\sqrt3\approx17{,}3\ \text{(m)}.$$
 
-Vậy a) khoảng $17{,}3$ m; b) khoảng $8{,}7$ m. Không có bán kính nào thoả mãn cả hai yêu cầu.
+Vậy bán kính phun nhỏ nhất là khoảng $17{,}3$ m.
+
+b) Để nước không ra khỏi bồn hoa, bán kính phun không được vượt quá khoảng cách từ $O$ đến mỗi cạnh, tức là bán kính đường tròn nội tiếp:
+$$r=\frac{30\sqrt3}{6}=5\sqrt3\approx8{,}7\ \text{(m)}.$$
+
+Vậy bán kính phun lớn nhất là khoảng $8{,}7$ m.
+
+*Nhận xét.* Vì $8{,}7<17{,}3$ nên không có bán kính nào thoả mãn đồng thời cả hai yêu cầu.
 
 **Đáp số.** a) $10\sqrt3\approx17{,}3$ m; b) $5\sqrt3\approx8{,}7$ m.
 :::
@@ -311,13 +339,26 @@ c) Tính diện tích phần hình tròn ngoại tiếp nằm ngoài tam giác $
 2. Lấy diện tích hình tròn trừ diện tích tam giác.
 
 ::solution
-a) Ta có $BC=\sqrt{9^2+12^2}=15$ (cm), nên $R=7{,}5$ cm.
+a) Xét tam giác $ABC$ vuông tại $A$. Theo định lí Pythagore, ta có
+$$BC=\sqrt{AB^2+AC^2}=\sqrt{9^2+12^2}=\sqrt{225}=15\ \text{(cm)}.$$
 
-b) Ta có $r=\dfrac{9+12-15}{2}=3$ (cm).
+Đường tròn ngoại tiếp tam giác vuông có tâm là trung điểm cạnh huyền $BC$, nên $R=\dfrac{BC}{2}=7{,}5$ (cm).
 
-c) Diện tích cần tìm là $\pi\cdot7{,}5^2-\dfrac12\cdot9\cdot12=56{,}25\pi-54\approx122{,}71$ (cm²).
+Vậy $BC=15$ cm và $R=7{,}5$ cm.
 
-Vậy a) $BC=15$ cm, $R=7{,}5$ cm; b) $r=3$ cm; c) khoảng $122{,}71$ cm².
+b) Bán kính đường tròn nội tiếp tam giác vuông là
+$$r=\frac{AB+AC-BC}{2}=\frac{9+12-15}{2}=3\ \text{(cm)}.$$
+
+Vậy $r=3$ cm.
+
+c) Diện tích hình tròn ngoại tiếp là $\pi R^2=\pi\cdot7{,}5^2=56{,}25\pi$ (cm²).
+
+Diện tích tam giác $ABC$ là $\dfrac12\cdot AB\cdot AC=\dfrac12\cdot9\cdot12=54$ (cm²).
+
+Diện tích phần hình tròn nằm ngoài tam giác là
+$$56{,}25\pi-54\approx122{,}71\ \text{(cm}^2\text{)}.$$
+
+Vậy diện tích cần tìm khoảng $122{,}71$ cm².
 
 **Đáp số.** a) $15$ cm, $7{,}5$ cm; b) $3$ cm; c) $\approx122{,}71$ cm².
 :::

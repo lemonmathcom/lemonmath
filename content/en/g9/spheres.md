@@ -176,9 +176,13 @@ Find the surface area and the volume of a sphere with radius $5$ cm (give your a
 1. Substitute $R=5$.
 
 ::solution
-We have $S=4\pi\cdot5^2=100\pi\approx314.16$ (cm²) and $V=\dfrac43\pi\cdot5^3=\dfrac{500\pi}{3}\approx523.60$ (cm³).
+For a sphere of radius $R=5$ cm, the surface area is
+$$S=4\pi R^2=4\pi\cdot5^2=100\pi\approx314.16\ \text{(cm}^2\text{)}.$$
 
-So $S\approx314.16$ cm² and $V\approx523.60$ cm³.
+The volume of the sphere is
+$$V=\frac43\pi R^3=\frac43\pi\cdot5^3=\frac{500\pi}{3}\approx523.60\ \text{(cm}^3\text{)}.$$
+
+So $S=100\pi\approx314.16$ cm² and $V=\dfrac{500\pi}{3}\approx523.60$ cm³.
 
 **Answer.** $100\pi\approx314.16$ cm²; $\dfrac{500\pi}{3}\approx523.60$ cm³.
 :::
@@ -193,7 +197,13 @@ A sphere has diameter $12$ cm. Find its surface area and volume (leave your answ
 1. Find $R=6$ cm, then substitute into both formulae.
 
 ::solution
-We have $R=6$ cm, so $S=4\pi\cdot6^2=144\pi$ (cm²) and $V=\dfrac43\pi\cdot6^3=288\pi$ (cm³).
+The sphere has diameter $12$ cm, so its radius is $R=\dfrac{12}{2}=6$ (cm).
+
+The surface area is
+$$S=4\pi R^2=4\pi\cdot6^2=144\pi\ \text{(cm}^2\text{)}.$$
+
+The volume of the sphere is
+$$V=\frac43\pi R^3=\frac43\pi\cdot6^3=\frac43\pi\cdot216=288\pi\ \text{(cm}^3\text{)}.$$
 
 So $S=144\pi$ cm² and $V=288\pi$ cm³.
 
@@ -211,9 +221,17 @@ The surface of a sphere has area $64\pi$ cm². Find the radius and the volume of
 2. Find $V$.
 
 ::solution
-We have $4\pi R^2=64\pi$, so $R^2=16$ and $R=4$ (because $R>0$). Hence $V=\dfrac43\pi\cdot4^3=\dfrac{256\pi}{3}\approx268.08$ (cm³).
+Let $R$ (cm) be the radius of the sphere ($R>0$).
 
-So $R=4$ cm and $V=\dfrac{256\pi}{3}$ cm³.
+The surface area is $4\pi R^2$. From the question, we have
+$$4\pi R^2=64\pi.$$
+
+It follows that $R^2=16$. Since $R>0$, we have $R=4$.
+
+The volume of the sphere is
+$$V=\frac43\pi R^3=\frac43\pi\cdot4^3=\frac{256\pi}{3}\approx268.08\ \text{(cm}^3\text{)}.$$
+
+So the radius of the sphere is $4$ cm and its volume is $\dfrac{256\pi}{3}$ cm³.
 
 **Answer.** $R=4$ cm; $V=\dfrac{256\pi}{3}$ cm³.
 :::
@@ -247,7 +265,16 @@ Suppose an ice-cream cone consists of a conical wafer with base radius $3$ cm an
 1. Find both volumes and add them.
 
 ::solution
-We have $V_{\text{cone}}=\dfrac13\pi\cdot3^2\cdot10=30\pi$ (cm³) and $V_{\text{hemisphere}}=\dfrac23\pi\cdot3^3=18\pi$ (cm³). Hence the volume of ice cream is $30\pi+18\pi=48\pi\approx150.80$ (cm³).
+The ice cream has two parts: the part inside the conical wafer and the hemisphere on top.
+
+The cone has base radius $r=3$ cm and height $h=10$ cm. Its volume is
+$$V_{\text{cone}}=\frac13\pi r^2h=\frac13\pi\cdot3^2\cdot10=30\pi\ \text{(cm}^3\text{)}.$$
+
+The hemisphere has radius $R=3$ cm. Its volume is half the volume of the sphere:
+$$V_{\text{hemisphere}}=\frac12\cdot\frac43\pi R^3=\frac23\pi\cdot3^3=18\pi\ \text{(cm}^3\text{)}.$$
+
+The volume of ice cream is
+$$V=30\pi+18\pi=48\pi\approx150.80\ \text{(cm}^3\text{)}.$$
 
 So the cone holds about $150.80$ cm³ of ice cream.
 
@@ -264,9 +291,14 @@ A spherical balloon is blown up from radius $10$ cm to radius $20$ cm. By what f
 1. Find the ratios $\dfrac{S_2}{S_1}$ and $\dfrac{V_2}{V_1}$.
 
 ::solution
-We have $\dfrac{S_2}{S_1}=\dfrac{4\pi\cdot20^2}{4\pi\cdot10^2}=4$ and $\dfrac{V_2}{V_1}=\dfrac{\frac43\pi\cdot20^3}{\frac43\pi\cdot10^3}=8$.
+Let $S_1$, $V_1$ be the surface area and the volume of air when the radius is $10$ cm, and $S_2$, $V_2$ these quantities when the radius is $20$ cm.
 
-So the area is multiplied by $4$ and the volume by $8$.
+We have
+$$\frac{S_2}{S_1}=\frac{4\pi\cdot20^2}{4\pi\cdot10^2}=\frac{400}{100}=4.$$
+
+$$\frac{V_2}{V_1}=\frac{\frac43\pi\cdot20^3}{\frac43\pi\cdot10^3}=\frac{8000}{1000}=8.$$
+
+So when the radius doubles, the surface area of the balloon increases $4$ times and the volume of air inside increases $8$ times.
 
 **Answer.** $4$ times; $8$ times.
 :::
@@ -288,13 +320,25 @@ c) What percentage of the volume of the tube is empty space (give your answer to
 2. c) Divide the empty space by the volume of the tube.
 
 ::solution
-a) The tube has base radius $r=2$ cm and height $h=3\cdot4=12$ (cm).
+a) The balls touch the side of the tube, so the base radius of the tube equals the radius of a ball: $r=\dfrac42=2$ (cm).
 
-b) We have $V_{\text{tube}}=\pi\cdot2^2\cdot12=48\pi$ (cm³) and $V_{\text{balls}}=3\cdot\dfrac43\pi\cdot2^3=32\pi$ (cm³).
+The three balls are stacked and touch the bottom and the lid, so the height of the tube is three times the diameter of a ball: $h=3\cdot4=12$ (cm).
 
-c) The empty space is $48\pi-32\pi=16\pi$ (cm³), which is $\dfrac{16\pi}{48\pi}=\dfrac13\approx33.3\%$ of the volume of the tube.
+So the tube has base radius $2$ cm and height $12$ cm.
 
-So a) $r=2$ cm, $h=12$ cm; b) $48\pi$ cm³ and $32\pi$ cm³; c) about $33.3\%$.
+b) The volume of the tube is
+$$V_{\text{tube}}=\pi r^2h=\pi\cdot2^2\cdot12=48\pi\ \text{(cm}^3\text{)}.$$
+
+Each ball has radius $2$ cm, so the total volume of the three balls is
+$$V_{\text{balls}}=3\cdot\frac43\pi\cdot2^3=32\pi\ \text{(cm}^3\text{)}.$$
+
+So the volume of the tube is $48\pi$ cm³ and the total volume of the three balls is $32\pi$ cm³.
+
+c) The empty volume in the tube is $48\pi-32\pi=16\pi$ (cm³). It makes up
+$$\frac{16\pi}{48\pi}=\frac13\approx33.3\%$$
+of the volume of the tube.
+
+So about $33.3\%$ of the volume of the tube is empty.
 
 **Answer.** a) $2$ cm, $12$ cm; b) $48\pi$ cm³, $32\pi$ cm³; c) $\approx33.3\%$.
 :::

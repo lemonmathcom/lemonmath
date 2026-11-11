@@ -198,11 +198,18 @@ b) Lan uses the classes $[0, 5]$, $[5, 10]$, $[10, 15]$, $[15, 20]$. What is wro
 2. Look at the value $5$ in Lan's classes.
 
 ::solution
-a) Since $10\leq10<15$, the value $10$ belongs to the class $[10, 15)$. The midpoints are $2.5$, $7.5$, $12.5$, $17.5$.
+a) The class $[a, b)$ contains the values $x$ with $a\le x<b$. Since $10\le10<15$, the value $10$ belongs to the class $[10, 15)$ (it does not belong to $[5, 10)$, which does not contain its right end point).
 
-b) The value $5$ belongs to both $[0, 5]$ and $[5, 10]$, so it is counted twice (and likewise $10$ and $15$).
+The midpoint of the class $[a, b)$ is $\dfrac{a+b}{2}$. Hence the class midpoints are
+$$\frac{0+5}{2}=2.5;\quad \frac{5+10}{2}=7.5;\quad \frac{10+15}{2}=12.5;\quad \frac{15+20}{2}=17.5.$$
 
-**Answer.** a) $[10, 15)$; $2.5$, $7.5$, $12.5$, $17.5$. b) The classes overlap.
+So the value $10$ belongs to the class $[10, 15)$; the class midpoints are $2.5$; $7.5$; $12.5$; $17.5$.
+
+b) With Lan's classes, the value $5$ belongs to both $[0, 5]$ and $[5, 10]$; in the same way, $10$ and $15$ each belong to two classes. When counting, these values are counted twice.
+
+So Lan's classes are wrong because they overlap; the classes must not overlap, for example by using the form $[a, b)$.
+
+**Answer.** a) $[10, 15)$; $2.5$; $7.5$; $12.5$; $17.5$. b) The classes overlap.
 :::
 
 :::exercise
@@ -220,9 +227,21 @@ b) What percentage of households throw away 4 kg of waste or more per day?
 2. Add the relative frequencies of the last two classes.
 
 ::solution
-a) We have $\dfrac{8}{50}=16\%$, $\dfrac{19}{50}=38\%$, $\dfrac{15}{50}=30\%$, $\dfrac{8}{50}=16\%$.
+a) The relative frequency of each class is its frequency divided by the number of households ($n=50$):
+$$\frac{8}{50}=16\%;\quad \frac{19}{50}=38\%;\quad \frac{15}{50}=30\%;\quad \frac{8}{50}=16\%.$$
 
-b) Households throwing away 4 kg or more make up $30\%+16\%=46\%$.
+The grouped relative frequency table is:
+
+| Waste (kg) | $[0, 2)$ | $[2, 4)$ | $[4, 6)$ | $[6, 8)$ |
+|---|---|---|---|---|
+| Relative frequency | $16\%$ | $38\%$ | $30\%$ | $16\%$ |
+
+Check: $16\%+38\%+30\%+16\%=100\%$.
+
+b) The households that throw away 4 kg or more per day are in the two classes $[4, 6)$ and $[6, 8)$. Their percentage is
+$$30\%+16\%=46\%.$$
+
+So $46\%$ of the households throw away 4 kg of waste or more per day.
 
 **Answer.** a) $16\%, 38\%, 30\%, 16\%$; b) $46\%$.
 :::
@@ -242,9 +261,16 @@ b) Can we find the number of motorbikes travelling faster than 55 km/h? Why?
 2. Is $55$ a class boundary?
 
 ::solution
-a) There are $24+8=32$ motorbikes, which is $\dfrac{32}{80}\cdot100\%=40\%$.
+a) The motorbikes travelling at 50 km/h or more are in the two classes $[50, 60)$ and $[60, 70)$. There are $24+8=32$ of them.
 
-b) The value $55$ lies inside the class $[50, 60)$, and the table does not say how the $24$ motorbikes in that class are spread, so the number of motorbikes faster than 55 km/h cannot be found.
+Their percentage is
+$$\frac{32}{80}\cdot100\%=40\%.$$
+
+So $40\%$ of the motorbikes travel at 50 km/h or more.
+
+b) The value $55$ lies inside the class $[50, 60)$. The grouped frequency table only tells us that $24$ motorbikes have speeds from 50 km/h up to (but not including) 60 km/h; it does not give the individual speeds of these $24$ motorbikes.
+
+So we cannot find exactly how many motorbikes travel faster than 55 km/h.
 
 **Answer.** a) $40\%$; b) no.
 :::
@@ -267,11 +293,26 @@ c) What percentage of the students run 100 m in under 15 seconds?
 3. Add the relative frequencies of the first two classes.
 
 ::solution
-a) We have $x=40-(4+9+10+5)=12$.
+a) The frequencies add up to the number of students, so
+$$4+9+x+10+5=40.$$
 
-b) The relative frequencies are $\dfrac{4}{40}=10\%$, $\dfrac{9}{40}=22.5\%$, $\dfrac{12}{40}=30\%$, $\dfrac{10}{40}=25\%$, $\dfrac{5}{40}=12.5\%$.
+It follows that $x+28=40$, so $x=12$.
 
-c) Students running under 15 seconds make up $10\%+22.5\%=32.5\%$.
+So $x=12$.
+
+b) The relative frequency of each class is its frequency divided by $40$:
+$$\frac{4}{40}=10\%;\quad \frac{9}{40}=22.5\%;\quad \frac{12}{40}=30\%;\quad \frac{10}{40}=25\%;\quad \frac{5}{40}=12.5\%.$$
+
+The grouped relative frequency table is:
+
+| Time (s) | $[13, 14)$ | $[14, 15)$ | $[15, 16)$ | $[16, 17)$ | $[17, 18)$ |
+|---|---|---|---|---|---|
+| Relative frequency | $10\%$ | $22.5\%$ | $30\%$ | $25\%$ | $12.5\%$ |
+
+c) The students who run in under 15 seconds are in the two classes $[13, 14)$ and $[14, 15)$. Their percentage is
+$$10\%+22.5\%=32.5\%.$$
+
+So $32.5\%$ of the students run 100 m in under 15 seconds.
 
 **Answer.** a) $12$; b) $10\%$, $22.5\%$, $30\%$, $25\%$, $12.5\%$; c) $32.5\%$.
 :::

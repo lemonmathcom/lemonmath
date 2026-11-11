@@ -161,9 +161,15 @@ b) $B$: "Số chấm xuất hiện là số nguyên tố".
 2. Chia cho $6$.
 
 ::solution
-a) Các kết quả thuận lợi cho $A$ là $3$, $6$, nên $P(A)=\dfrac26=\dfrac13$.
+Không gian mẫu là $\Omega=\{1; 2; 3; 4; 5; 6\}$, gồm $6$ kết quả đồng khả năng (vì con xúc xắc cân đối).
 
-b) Các kết quả thuận lợi cho $B$ là $2$, $3$, $5$, nên $P(B)=\dfrac36=\dfrac12$.
+a) Các kết quả thuận lợi cho biến cố $A$ là các số chia hết cho $3$: $3$ và $6$. Có $2$ kết quả thuận lợi, nên
+$$P(A)=\frac26=\frac13.$$
+
+b) Các kết quả thuận lợi cho biến cố $B$ là các số nguyên tố: $2$, $3$ và $5$. Có $3$ kết quả thuận lợi, nên
+$$P(B)=\frac36=\frac12.$$
+
+Vậy $P(A)=\dfrac13$ và $P(B)=\dfrac12$.
 
 **Đáp số.** a) $\dfrac13$; b) $\dfrac12$.
 :::
@@ -179,9 +185,15 @@ Tung hai đồng xu cân đối. Tính xác suất của biến cố "Có ít nh
 2. Tính $\dfrac k4$.
 
 ::solution
-Các kết quả thuận lợi là $(S; N)$, $(N; S)$, $(N; N)$, nên xác suất cần tìm là $\dfrac34$.
+Kí hiệu $S$ là mặt sấp, $N$ là mặt ngửa. Không gian mẫu là
+$$\Omega=\{(S; S);\ (S; N);\ (N; S);\ (N; N)\},$$
+gồm $4$ kết quả đồng khả năng (vì hai đồng xu cân đối).
 
-Vậy xác suất bằng $\dfrac34$.
+Gọi $A$ là biến cố "Có ít nhất một đồng xu xuất hiện mặt ngửa". Các kết quả thuận lợi cho $A$ là $(S; N)$, $(N; S)$, $(N; N)$: có $3$ kết quả.
+
+Do đó $P(A)=\dfrac34$.
+
+Vậy xác suất để có ít nhất một đồng xu xuất hiện mặt ngửa là $\dfrac34$.
 
 **Đáp số.** $\dfrac34$.
 :::
@@ -197,9 +209,18 @@ Gieo hai con xúc xắc cân đối. Tính xác suất của biến cố "Tổng
 2. Tính $\dfrac{k}{36}$.
 
 ::solution
-Các kết quả thuận lợi là $(4; 6)$, $(5; 5)$, $(6; 4)$, $(5; 6)$, $(6; 5)$, $(6; 6)$, nên $k=6$ và xác suất là $\dfrac{6}{36}=\dfrac16$.
+Mỗi kết quả là một cặp $(i; j)$, trong đó $i$, $j$ lần lượt là số chấm trên con xúc xắc thứ nhất và thứ hai. Không gian mẫu có $6\cdot6=36$ kết quả đồng khả năng.
 
-Vậy xác suất bằng $\dfrac16$.
+Gọi $A$ là biến cố "Tổng số chấm không nhỏ hơn $10$", tức là tổng bằng $10$, $11$ hoặc $12$.
+
+- Tổng bằng $10$: $(4; 6)$, $(5; 5)$, $(6; 4)$;
+- Tổng bằng $11$: $(5; 6)$, $(6; 5)$;
+- Tổng bằng $12$: $(6; 6)$.
+
+Có $6$ kết quả thuận lợi cho $A$. Do đó
+$$P(A)=\frac{6}{36}=\frac16.$$
+
+Vậy xác suất để tổng số chấm không nhỏ hơn $10$ là $\dfrac16$.
 
 **Đáp số.** $\dfrac16$.
 :::
@@ -240,11 +261,25 @@ c) Tính xác suất để trong hai học sinh được chọn có ít nhất $
 3. "Ít nhất 1 nam" là các cặp còn lại.
 
 ::solution
-a) Không gian mẫu gồm các cặp $N_1N_2$, $N_1N_3$, $N_2N_3$, $N_1M_1$, $N_1M_2$, $N_2M_1$, $N_2M_2$, $N_3M_1$, $N_3M_2$, $M_1M_2$, tức là $10$ phần tử.
+Kí hiệu ba bạn nữ là $N_1$, $N_2$, $N_3$ và hai bạn nam là $M_1$, $M_2$. Chọn đồng thời $2$ bạn nên mỗi kết quả là một nhóm $2$ bạn, không kể thứ tự.
 
-b) Có $3$ cặp chỉ gồm nữ, nên xác suất là $\dfrac{3}{10}$.
+a) Liệt kê các kết quả:
 
-c) Các cặp còn lại đều có ít nhất $1$ nam, nên $k=10-3=7$ và xác suất là $\dfrac{7}{10}$.
+- hai bạn nữ: $N_1N_2$, $N_1N_3$, $N_2N_3$;
+- một nữ, một nam: $N_1M_1$, $N_1M_2$, $N_2M_1$, $N_2M_2$, $N_3M_1$, $N_3M_2$;
+- hai bạn nam: $M_1M_2$.
+
+Vậy không gian mẫu có $3+6+1=10$ phần tử.
+
+b) Gọi $A$ là biến cố "Chọn được $2$ học sinh nữ". Các kết quả thuận lợi cho $A$ là $N_1N_2$, $N_1N_3$, $N_2N_3$: có $3$ kết quả. Do đó
+$$P(A)=\frac{3}{10}.$$
+
+Vậy xác suất để chọn được $2$ học sinh nữ là $\dfrac{3}{10}$.
+
+c) Gọi $B$ là biến cố "Có ít nhất $1$ nam". Các kết quả thuận lợi cho $B$ là tất cả các kết quả không thuận lợi cho $A$, nên có $10-3=7$ kết quả. Do đó
+$$P(B)=\frac{7}{10}.$$
+
+Vậy xác suất để có ít nhất $1$ nam là $\dfrac{7}{10}$.
 
 **Đáp số.** a) $10$; b) $\dfrac{3}{10}$; c) $\dfrac{7}{10}$.
 :::

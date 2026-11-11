@@ -190,9 +190,13 @@ The triangle $ABC$ is right-angled at $A$, with $AB=5$ cm and $AC=12$ cm. Find t
 1. Find $BC$ by Pythagoras' theorem, then halve it.
 
 ::solution
-We have $BC=\sqrt{5^2+12^2}=13$ (cm). The centre $O$ is the midpoint of $BC$ and $R=\dfrac{13}{2}=6.5$ (cm).
+Consider triangle $ABC$ with a right angle at $A$. By Pythagoras' theorem, we have
+$$BC=\sqrt{AB^2+AC^2}=\sqrt{5^2+12^2}=\sqrt{169}=13\ \text{(cm)}.$$
 
-So the centre is the midpoint of $BC$ and $R=6.5$ cm.
+The centre of the circumcircle of a right-angled triangle is the midpoint $O$ of the hypotenuse $BC$, and the radius is half the hypotenuse:
+$$R=\frac{BC}{2}=\frac{13}{2}=6.5\ \text{(cm)}.$$
+
+So the centre of the circumcircle is the midpoint of $BC$ and its radius is $6.5$ cm.
 
 **Answer.** The midpoint of $BC$; $R=6.5$ cm.
 :::
@@ -207,9 +211,12 @@ Find the radii of the circumcircle and the incircle of an equilateral triangle w
 1. Substitute $a=9$ into both formulae.
 
 ::solution
-We have $R=\dfrac{9\sqrt3}{3}=3\sqrt3$ (cm) and $r=\dfrac{9\sqrt3}{6}=\dfrac{3\sqrt3}{2}$ (cm).
+For an equilateral triangle with side $a$, the circumradius is $R=\dfrac{a\sqrt3}{3}$ and the inradius is $r=\dfrac{a\sqrt3}{6}$.
 
-So $R=3\sqrt3\approx5.2$ cm and $r=\dfrac{3\sqrt3}{2}\approx2.6$ cm.
+With $a=9$ cm, we have
+$$R=\frac{9\sqrt3}{3}=3\sqrt3\approx5.2\ \text{(cm)};\qquad r=\frac{9\sqrt3}{6}=\frac{3\sqrt3}{2}\approx2.6\ \text{(cm)}.$$
+
+So $R=3\sqrt3$ cm and $r=\dfrac{3\sqrt3}{2}$ cm.
 
 **Answer.** $R=3\sqrt3$ cm; $r=\dfrac{3\sqrt3}{2}$ cm.
 :::
@@ -224,9 +231,15 @@ An equilateral triangle is inscribed in a circle of radius $4$ cm. Find the side
 1. Solve $\dfrac{a\sqrt3}{3}=4$ for $a$.
 
 ::solution
-We have $\dfrac{a\sqrt3}{3}=4$, so $a=\dfrac{12}{\sqrt3}=4\sqrt3$ (cm).
+Let $a$ (cm) be the side of the equilateral triangle ($a>0$).
 
-So the side of the triangle is $4\sqrt3\approx6.93$ cm.
+The circumradius of an equilateral triangle with side $a$ is $R=\dfrac{a\sqrt3}{3}$. From the question, $R=4$ cm, so
+$$\frac{a\sqrt3}{3}=4.$$
+
+It follows that
+$$a=\frac{12}{\sqrt3}=\frac{12\sqrt3}{3}=4\sqrt3\approx6.93\ \text{(cm)}.$$
+
+So the side of the equilateral triangle is $4\sqrt3$ cm.
 
 **Answer.** $4\sqrt3$ cm.
 :::
@@ -242,7 +255,14 @@ The triangle $ABC$ is right-angled at $A$, with $AB=6$ cm and $AC=8$ cm. Find th
 2. Substitute into both formulae.
 
 ::solution
-We have $BC=\sqrt{6^2+8^2}=10$ (cm). Hence $R=5$ cm and $r=\dfrac{6+8-10}{2}=2$ (cm).
+Consider triangle $ABC$ with a right angle at $A$. By Pythagoras' theorem, we have
+$$BC=\sqrt{AB^2+AC^2}=\sqrt{6^2+8^2}=\sqrt{100}=10\ \text{(cm)}.$$
+
+The circumcircle of a right-angled triangle has its centre at the midpoint of the hypotenuse, so
+$$R=\frac{BC}{2}=5\ \text{(cm)}.$$
+
+The inradius of a right-angled triangle with legs $b$, $c$ and hypotenuse $a$ is $r=\dfrac{b+c-a}{2}$. Hence
+$$r=\frac{AB+AC-BC}{2}=\frac{6+8-10}{2}=2\ \text{(cm)}.$$
 
 So $R=5$ cm and $r=2$ cm.
 
@@ -265,11 +285,19 @@ b) What is the largest spraying radius that keeps the water inside the bed?
 1. Compute $R=\dfrac{a\sqrt3}{3}$ and $r=\dfrac{a\sqrt3}{6}$ with $a=30$.
 
 ::solution
-a) The spraying radius must be at least $R=\dfrac{30\sqrt3}{3}=10\sqrt3\approx17.3$ (m).
+The point equidistant from the three vertices of an equilateral triangle is its centre $O$; $O$ is the centre of both the circumcircle and the incircle.
 
-b) The spraying radius must be at most $r=\dfrac{30\sqrt3}{6}=5\sqrt3\approx8.7$ (m).
+a) For the water to reach all three corners of the bed, the spraying radius must be at least the distance from $O$ to each vertex, that is the circumradius:
+$$R=\frac{30\sqrt3}{3}=10\sqrt3\approx17.3\ \text{(m)}.$$
 
-So a) about $17.3$ m; b) about $8.7$ m. No radius meets both requirements.
+So the smallest spraying radius is about $17.3$ m.
+
+b) For the water to stay inside the bed, the spraying radius must not exceed the distance from $O$ to each side, that is the inradius:
+$$r=\frac{30\sqrt3}{6}=5\sqrt3\approx8.7\ \text{(m)}.$$
+
+So the largest spraying radius is about $8.7$ m.
+
+*Remark.* Since $8.7<17.3$, no radius meets both requirements at once.
 
 **Answer.** a) $10\sqrt3\approx17.3$ m; b) $5\sqrt3\approx8.7$ m.
 :::
@@ -311,13 +339,26 @@ c) Find the area of the part of the circumscribed disc that lies outside the tri
 2. Subtract the area of the triangle from the area of the disc.
 
 ::solution
-a) We have $BC=\sqrt{9^2+12^2}=15$ (cm), so $R=7.5$ cm.
+a) Consider triangle $ABC$ with a right angle at $A$. By Pythagoras' theorem, we have
+$$BC=\sqrt{AB^2+AC^2}=\sqrt{9^2+12^2}=\sqrt{225}=15\ \text{(cm)}.$$
 
-b) We have $r=\dfrac{9+12-15}{2}=3$ (cm).
+The circumcircle of a right-angled triangle has its centre at the midpoint of the hypotenuse $BC$, so $R=\dfrac{BC}{2}=7.5$ (cm).
 
-c) The required area is $\pi\cdot7.5^2-\dfrac12\cdot9\cdot12=56.25\pi-54\approx122.71$ (cm²).
+So $BC=15$ cm and $R=7.5$ cm.
 
-So a) $BC=15$ cm, $R=7.5$ cm; b) $r=3$ cm; c) about $122.71$ cm².
+b) The inradius of the right-angled triangle is
+$$r=\frac{AB+AC-BC}{2}=\frac{9+12-15}{2}=3\ \text{(cm)}.$$
+
+So $r=3$ cm.
+
+c) The area of the circumscribed disc is $\pi R^2=\pi\cdot7.5^2=56.25\pi$ (cm²).
+
+The area of triangle $ABC$ is $\dfrac12\cdot AB\cdot AC=\dfrac12\cdot9\cdot12=54$ (cm²).
+
+The area of the part of the disc outside the triangle is
+$$56.25\pi-54\approx122.71\ \text{(cm}^2\text{)}.$$
+
+So the required area is about $122.71$ cm².
 
 **Answer.** a) $15$ cm, $7.5$ cm; b) $3$ cm; c) $\approx122.71$ cm².
 :::

@@ -198,9 +198,16 @@ b) Bạn Lan chia nhóm $[0; 5]$, $[5; 10]$, $[10; 15]$, $[15; 20]$. Cách chia 
 2. Xét số $5$ trong cách chia của Lan.
 
 ::solution
-a) Vì $10\leq10<15$ nên số $10$ thuộc nhóm $[10; 15)$. Các giá trị đại diện là $2{,}5$; $7{,}5$; $12{,}5$; $17{,}5$.
+a) Nhóm $[a; b)$ gồm các giá trị $x$ thoả mãn $a\le x<b$. Vì $10\le10<15$ nên số $10$ thuộc nhóm $[10; 15)$ (số $10$ không thuộc nhóm $[5; 10)$ vì nhóm này không chứa đầu mút phải).
 
-b) Số $5$ thuộc cả $[0; 5]$ và $[5; 10]$ nên bị đếm hai lần (tương tự với $10$ và $15$).
+Giá trị đại diện của nhóm $[a; b)$ là $\dfrac{a+b}{2}$. Do đó các giá trị đại diện lần lượt là
+$$\frac{0+5}{2}=2{,}5;\quad \frac{5+10}{2}=7{,}5;\quad \frac{10+15}{2}=12{,}5;\quad \frac{15+20}{2}=17{,}5.$$
+
+Vậy số $10$ thuộc nhóm $[10; 15)$; các giá trị đại diện là $2{,}5$; $7{,}5$; $12{,}5$; $17{,}5$.
+
+b) Với cách chia của Lan, số $5$ thuộc cả nhóm $[0; 5]$ lẫn nhóm $[5; 10]$; tương tự, các số $10$ và $15$ cũng thuộc hai nhóm. Khi đếm, những giá trị này bị tính hai lần.
+
+Vậy cách chia của Lan sai vì các nhóm chồng lấn lên nhau; các nhóm ghép phải rời nhau, chẳng hạn dùng dạng $[a; b)$.
 
 **Đáp số.** a) $[10; 15)$; $2{,}5$; $7{,}5$; $12{,}5$; $17{,}5$. b) Nhóm chồng lấn.
 :::
@@ -220,9 +227,21 @@ b) Bao nhiêu phần trăm số hộ thải từ 4 kg rác trở lên mỗi ngà
 2. Cộng tần số tương đối của hai nhóm cuối.
 
 ::solution
-a) Ta có $\dfrac{8}{50}=16\%$, $\dfrac{19}{50}=38\%$, $\dfrac{15}{50}=30\%$, $\dfrac{8}{50}=16\%$.
+a) Tần số tương đối của mỗi nhóm bằng tần số của nhóm đó chia cho tổng số hộ ($n=50$):
+$$\frac{8}{50}=16\%;\quad \frac{19}{50}=38\%;\quad \frac{15}{50}=30\%;\quad \frac{8}{50}=16\%.$$
 
-b) Số hộ thải từ 4 kg trở lên chiếm $30\%+16\%=46\%$.
+Ta có bảng tần số tương đối ghép nhóm:
+
+| Khối lượng rác (kg) | $[0; 2)$ | $[2; 4)$ | $[4; 6)$ | $[6; 8)$ |
+|---|---|---|---|---|
+| Tần số tương đối | $16\%$ | $38\%$ | $30\%$ | $16\%$ |
+
+Kiểm tra: $16\%+38\%+30\%+16\%=100\%$.
+
+b) Các hộ thải từ $4$ kg rác trở lên mỗi ngày thuộc hai nhóm $[4; 6)$ và $[6; 8)$. Tỉ lệ các hộ đó là
+$$30\%+16\%=46\%.$$
+
+Vậy có $46\%$ số hộ thải từ $4$ kg rác trở lên mỗi ngày.
 
 **Đáp số.** a) $16\%, 38\%, 30\%, 16\%$; b) $46\%$.
 :::
@@ -242,9 +261,16 @@ b) Có xác định được số xe chạy nhanh hơn 55 km/h không? Vì sao?
 2. $55$ có phải đầu mút nhóm không?
 
 ::solution
-a) Có $24+8=32$ xe, chiếm $\dfrac{32}{80}\cdot100\%=40\%$.
+a) Các xe chạy với tốc độ từ $50$ km/h trở lên thuộc hai nhóm $[50; 60)$ và $[60; 70)$. Số xe đó là $24+8=32$ (xe).
 
-b) Số $55$ nằm bên trong nhóm $[50; 60)$, bảng không cho biết $24$ xe trong nhóm phân bố thế nào, nên không xác định được số xe chạy nhanh hơn 55 km/h.
+Tỉ lệ các xe đó là
+$$\frac{32}{80}\cdot100\%=40\%.$$
+
+Vậy có $40\%$ số xe chạy với tốc độ từ $50$ km/h trở lên.
+
+b) Số $55$ nằm bên trong nhóm $[50; 60)$. Bảng tần số ghép nhóm chỉ cho biết có $24$ xe có tốc độ trong khoảng từ $50$ km/h đến dưới $60$ km/h, không cho biết các tốc độ cụ thể của $24$ xe này.
+
+Vậy không xác định được chính xác số xe chạy nhanh hơn $55$ km/h.
 
 **Đáp số.** a) $40\%$; b) không.
 :::
@@ -267,11 +293,26 @@ c) Bao nhiêu phần trăm học sinh chạy dưới 15 giây?
 3. Cộng tần số tương đối của hai nhóm đầu.
 
 ::solution
-a) Ta có $x=40-(4+9+10+5)=12$.
+a) Tổng các tần số bằng số học sinh, nên
+$$4+9+x+10+5=40.$$
 
-b) Các tần số tương đối là $\dfrac{4}{40}=10\%$, $\dfrac{9}{40}=22{,}5\%$, $\dfrac{12}{40}=30\%$, $\dfrac{10}{40}=25\%$, $\dfrac{5}{40}=12{,}5\%$.
+Suy ra $x+28=40$, tức là $x=12$.
 
-c) Học sinh chạy dưới 15 giây chiếm $10\%+22{,}5\%=32{,}5\%$.
+Vậy $x=12$.
+
+b) Tần số tương đối của mỗi nhóm bằng tần số của nhóm đó chia cho $40$:
+$$\frac{4}{40}=10\%;\quad \frac{9}{40}=22{,}5\%;\quad \frac{12}{40}=30\%;\quad \frac{10}{40}=25\%;\quad \frac{5}{40}=12{,}5\%.$$
+
+Ta có bảng tần số tương đối ghép nhóm:
+
+| Thời gian (giây) | $[13; 14)$ | $[14; 15)$ | $[15; 16)$ | $[16; 17)$ | $[17; 18)$ |
+|---|---|---|---|---|---|
+| Tần số tương đối | $10\%$ | $22{,}5\%$ | $30\%$ | $25\%$ | $12{,}5\%$ |
+
+c) Các học sinh chạy dưới $15$ giây thuộc hai nhóm $[13; 14)$ và $[14; 15)$. Tỉ lệ các học sinh đó là
+$$10\%+22{,}5\%=32{,}5\%.$$
+
+Vậy có $32{,}5\%$ số học sinh chạy $100$ m dưới $15$ giây.
 
 **Đáp số.** a) $12$; b) $10\%$, $22{,}5\%$, $30\%$, $25\%$, $12{,}5\%$; c) $32{,}5\%$.
 :::
