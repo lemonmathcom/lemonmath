@@ -20,8 +20,10 @@ Thứ tự ưu tiên đề nghị: O12 (kĩ năng, ngắn, dùng cho mọi học
 | O12 | Kĩ năng ôn thi | 5 | E087–E091 | `on-thi/O12-study-skills.txt` | |
 
 ## Tiến độ (tài khoản Pro tự viết từ 11/11/2026)
-- Đã xong: evidence-based-revision, E001 sat-overview, E003 sat-linear-equations-systems, E004 sat-linear-functions-inequalities.
-- Tiếp theo: E002 sat-desmos-strategies, E005–E007 (Advanced Math), E008–E011, E012–E013 (đề luyện).
+- Chưa giao gói nào cho tài khoản khác (11/11/2026).
+- Đã xong: evidence-based-revision, E001–E007 (sat-overview, sat-desmos-strategies, sat-linear-equations-systems, sat-linear-functions-inequalities, sat-equivalent-expressions, sat-quadratics-nonlinear, sat-exponential-functions).
+- Tiếp theo: E008–E011 (SAT Data, Geometry), E012–E013 (đề luyện SAT), rồi gói O12 kĩ năng ôn thi.
+- Quy ước số: bản Anh viết 24{,}000 hoặc 24,000; bản Việt viết 24.000 (dấu chấm phân cách hàng nghìn, {,} cho số thập phân) để check.js so khớp số liệu hai bản.
 
 ## Cách giao
 - Dán toàn bộ file `.txt` của gói, kèm 5 file: `_templates/BRIEF-exams.md`, `_templates/WRITING-SPEC.md`, `_templates/GLOSSARY.md`, và cặp bài mẫu `content/vi/g12/review-integrals.md` + `content/en/g12/review-integrals.md` (gói O12 thay cặp mẫu bằng `evidence-based-revision.md` hai bản).
