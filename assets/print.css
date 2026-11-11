@@ -78,3 +78,10 @@ h2 { margin: 0 0 4px; font: 800 11.5pt/1.3 "Nunito Variable", sans-serif; text-t
 .ws-ex h3 { break-after: avoid; }
 .ws-q { break-inside: avoid; break-after: avoid; }
 .ws-space { break-before: avoid; min-height: 23mm; }
+
+/* real exam paper: answers and worked solutions start on a new page */
+.ws-keys { break-before: page; }
+.ws-keys h3 { margin: 4mm 0 1mm; font-size: 10.5pt; }
+.ws-keys .pa-keys { padding-left: 6mm; }
+.ws-keys .pa-keys li, .ws-key-ex { margin: 1.5mm 0; break-inside: avoid; }
+.ws-paper .ws-end { break-inside: avoid; }

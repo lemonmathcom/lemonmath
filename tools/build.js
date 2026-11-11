@@ -167,7 +167,7 @@ function loadLessons() {
           if (/!\[\s*\]\(/.test(body)) warn(rel + ': có hình ảnh chưa có mô tả.');
           let rendered;
           try {
-            rendered = render(body, { marked, katex, lang, warn: (m) => warn(rel + ': ' + m) });
+            rendered = render(body, { marked, katex, lang, paper: meta.type === 'paper', warn: (m) => warn(rel + ': ' + m) });
           } catch (e) { fail(rel + ': ' + e.message); return; }
           ls.content[lang] = { meta, rendered, rel, body, modified: isoDay(gitDate(rel)), words: body.length };
         });
@@ -360,7 +360,7 @@ function examsPage(lang, intro) {
   };
   const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n' +
     '<header class="gradehead"><div><p class="eyebrow">' + esc(T.examsEyebrow) + '</p><h1>' + esc(intro.meta.title) + '</h1><p class="lead">' + esc(intro.meta.description) + '</p></div>' + mascot({ cls: 'grade-mascot', mood: 'wow' }) + '</header>\n' +
-    ['vn', 'intl', 'skills'].map(block).join('\n') +
+    ['bank', 'vn', 'intl', 'skills'].map(block).join('\n') +
     '\n<div class="prose">\n' + resolveLinks(intro.rendered.html, d, lang, 'exams') + '\n</div>';
   put(lang, d, alt, shell({
     lang, dir: d, altDir: alt, title: intro.meta.title + ' | ' + site.name, description: intro.meta.description, body, wide: true, level: 'exam',
@@ -437,6 +437,29 @@ function chapterPage(lang, ch) {
   }), maxDay(ch.lessons.map((l) => l.content[lang].modified)));
 }
 
+/* Real exam paper (type: paper): where it comes from, how long it takes, and a timer to sit it like the real exam. */
+const PAPER_UI = {
+  vi: { src: 'Nguồn đề', via: 'Đề gốc đăng trên', time: 'Thời gian làm bài', min: 'phút', start: 'Bắt đầu làm bài và bấm giờ', left: 'Còn lại', stop: 'Nộp bài', up: 'Hết giờ! Bài trắc nghiệm đã được tự động nộp. Hãy dừng bút và tự chấm phần tự luận theo lời giải.',
+    how: 'Cách làm: bấm nút bắt đầu, làm bài trên giấy (phần trắc nghiệm chọn ngay trên trang). Khi hết giờ hoặc bấm Nộp bài, bạn sẽ thấy điểm trắc nghiệm, đáp án và lời giải; phần tự luận hãy tự chấm theo hướng dẫn rồi nhập điểm vào ô ở mỗi bài.',
+    rights: 'Đề thi thuộc về đơn vị ra đề; Lemonmath trình bày lại để học sinh luyện tập, kèm lời giải và hướng dẫn chấm. Nếu bạn là tác giả và muốn gỡ đề, hãy liên hệ Lemonmath.', total: 'Tổng điểm tự chấm', of: 'trên' },
+  en: { src: 'Source', via: 'Original paper posted on', time: 'Time allowed', min: 'minutes', start: 'Start the paper and the timer', left: 'Time left', stop: 'Hand in', up: 'Time is up! The objective part has been handed in automatically. Put your pen down and mark the written part using the solutions.',
+    how: 'How it works: press start and work on paper (choose the objective answers on this page). When time runs out or you hand in, you see your objective score, the answers and the worked solutions; mark the written problems yourself with the marking guide and type your points into the box under each problem.',
+    rights: 'The paper belongs to the body that set it; Lemonmath presents it for practice, with worked solutions and a marking guide. If you are the author and want it removed, please contact Lemonmath.', total: 'Your total (self-marked)', of: 'out of' }
+};
+function paperHead(lang, meta) {
+  const P = PAPER_UI[lang];
+  let host = '';
+  try { host = meta.link ? new URL(meta.link).hostname.replace(/^www\./, '') : ''; } catch (e) { warn('link nguồn không hợp lệ: ' + meta.link); }
+  return '<aside class="paper-head" data-min="' + esc(meta.minutes || '') + '" data-up="' + esc(P.up) + '" data-left="' + esc(P.left) + '" data-total="' + esc(P.total) + '" data-of="' + esc(P.of) + '">' +
+    '<p class="paper-src"><b>' + P.src + ':</b> ' + esc(meta.source || '') + (meta.year ? ' (' + esc(meta.year) + ')' : '') +
+    (meta.link ? ' · ' + P.via + ' <a href="' + esc(meta.link) + '" rel="nofollow noopener" target="_blank">' + esc(host) + '</a>' : '') + '</p>' +
+    '<p class="paper-time"><b>' + P.time + ':</b> ' + esc(meta.minutes || '') + ' ' + P.min + '</p>' +
+    '<p class="paper-how">' + P.how + '</p>' +
+    '<p class="paper-actions"><button type="button" class="btn paper-start" hidden>⏱ ' + P.start + '</button></p>' +
+    '<div class="paper-timer" hidden role="timer" aria-live="off"><span class="pt-label">' + P.left + '</span> <b class="pt-clock">--:--</b> <button type="button" class="btn btn-outline paper-stop">' + P.stop + '</button></div>' +
+    '<p class="paper-rights">' + P.rights + '</p></aside>\n';
+}
+
 function lessonPage(lang, ls) {
   const T = UI[lang], d = lessonDir(lang, ls), alt = lessonDir(other(lang), ls), ch = ls.chapter, g = ls.grade;
   const C = ls.content[lang], r = C.rendered, meta = C.meta;
@@ -448,21 +471,22 @@ function lessonPage(lang, ls) {
   const toc = r.headings.length >= 3
     ? '<nav class="toc" aria-label="' + esc(T.onThisPage) + '"><p class="toc-title">' + esc(T.onThisPage) + '</p><ol>' + r.headings.map((h) => '<li><a href="#' + h.id + '">' + h.html + '</a></li>').join('') + '</ol></nav>'
     : '';
-  const metaLine = esc(T.lesson) + ' ' + ls.number + (meta.minutes ? ' · ' + meta.minutes + ' ' + T.minRead : '') +
+  const isPaper = meta.type === 'paper';
+  const metaLine = esc(isPaper ? (lang === 'vi' ? 'Đề' : 'Paper') : T.lesson) + ' ' + ls.number + (meta.minutes && !isPaper ? ' · ' + meta.minutes + ' ' + T.minRead : '') +
     (C.modified ? ' · ' + esc(T.updated) + ' <time datetime="' + C.modified + '">' + new Date(C.modified + 'T00:00:00Z').toLocaleDateString(LANG[lang].locale, { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }) + '</time>' : '');
   const pager = '<nav class="pager" aria-label="' + esc(T.lessonNav) + '">\n' +
     (prev ? '<a class="pager-prev" href="' + link(lessonDir(lang, prev)) + '"><small>← ' + esc(T.prev) + '</small><span>' + esc(prev.content[lang].meta.title) + '</span></a>' : '<span></span>') + '\n' +
     (next ? '<a class="pager-next" href="' + link(lessonDir(lang, next)) + '"><small>' + esc(T.next) + ' →</small><span>' + esc(next.content[lang].meta.title) + '</span></a>'
       : '<a class="pager-next" href="' + link(gradeDir(lang, g)) + '"><small>' + esc(T.end) + '</small><span>' + esc(T.backToGrade) + '</span></a>') + '\n</nav>';
   const body = '<article class="lesson">\n<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + link(homeDir(lang)) + '">' + esc(T.home) + '</a><span aria-hidden="true">›</span><a href="' + link(gradeDir(lang, g)) + '">' + esc(gName(lang, g)) + '</a><span aria-hidden="true">›</span><a href="' + link(chapterDir(lang, ch)) + '">' + esc(T.chapterN(ch.number) + ': ' + ch[lang]) + '</a></nav>\n' +
-    '<h1>' + esc(meta.title) + '</h1>\n<p class="meta">' + metaLine + '</p>\n' +
-    (ls.ws && ls.ws[lang] ? '<p class="ws-link"><a class="btn btn-outline" href="' + WS_DIR[lang] + '/">🖨 ' + esc(WS_LABEL[lang]) + '</a> <button type="button" class="btn btn-outline print-lesson" onclick="window.print()">📄 ' + esc(T.printLesson) + '</button> <button type="button" class="btn btn-outline share-lesson" data-copied="' + esc(T.copied) + '">🔗 ' + esc(T.share) + '</button> <a class="ws-why" href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paperWhy) + '</a></p>\n' : '') + toc + '\n' +
+    '<h1>' + esc(meta.title) + '</h1>\n<p class="meta">' + metaLine + '</p>\n' + (meta.type === 'paper' ? paperHead(lang, meta) : '') +
+    (ls.ws && ls.ws[lang] ? '<p class="ws-link"><a class="btn btn-outline" href="' + WS_DIR[lang] + '/">🖨 ' + esc(isPaper ? WS_LABEL.paper[lang] : WS_LABEL[lang]) + '</a> <button type="button" class="btn btn-outline print-lesson" onclick="window.print()">📄 ' + esc(T.printLesson) + '</button> <button type="button" class="btn btn-outline share-lesson" data-copied="' + esc(T.copied) + '">🔗 ' + esc(T.share) + '</button> <a class="ws-why" href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paperWhy) + '</a></p>\n' : '') + toc + '\n' +
     '<div class="prose">\n' + resolveLinks(r.html, d, lang, C.rel) + '\n</div>\n' +
     '<div class="lesson-actions"><button id="done-btn" class="btn btn-outline" type="button" aria-pressed="false" data-lesson="' + ls.id + '" data-on="' + esc(T.markedDone) + '" data-off="' + esc(T.markDone) + '" hidden><span class="chk" aria-hidden="true"></span><span class="done-text">' + esc(T.markDone) + '</span></button></div>\n' +
     '</article>\n' + pager;
   const learning = {
     '@context': 'https://schema.org', '@type': 'LearningResource', name: meta.title, description: meta.description, url: abs(d),
-    inLanguage: LANG[lang].htmlLang, learningResourceType: 'lesson', educationalLevel: gName(lang, g),
+    inLanguage: LANG[lang].htmlLang, learningResourceType: isPaper ? 'exam paper' : 'lesson', educationalLevel: gName(lang, g),
     isPartOf: { '@type': 'Course', name: ch[lang], url: abs(chapterDir(lang, ch)), provider: { '@type': 'Organization', name: site.name, url: abs(homeDir(lang)) } }
   };
   if (meta.minutes) learning.timeRequired = 'PT' + meta.minutes + 'M';
@@ -479,7 +503,7 @@ function worksheetPage(lang, ls) {
   const r = worksheet({
     lang, md: C.body, meta: C.meta, grade: ls.grade.n, gradeLabel: gName(lang, ls.grade), number: ls.number, lessonUrl: abs(d), backHref: '../',
     assets: relFile(px.join(d, WS_DIR[lang]), 'assets') + '/',
-    renderMd: (md) => resolveLinks(render(md, { marked, katex, lang, warn: (m) => warn(C.rel + ' (phiếu in): ' + m) }).html, px.join(d, WS_DIR[lang]), lang, C.rel + ' (phiếu in)')
+    renderMd: (md) => resolveLinks(render(md, { marked, katex, lang, paper: C.meta.type === 'paper', warn: (m) => warn(C.rel + ' (phiếu in): ' + m) }).html, px.join(d, WS_DIR[lang]), lang, C.rel + ' (phiếu in)')
   });
   if (!r) return false;
   const file = path.join(OUT, d, r.dir, 'index.html');

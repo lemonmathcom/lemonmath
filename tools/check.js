@@ -39,7 +39,7 @@ function stats(file) {
   if (!meta.minutes) problem(file + ': thiếu minutes');
   const warns = [];
   let r;
-  try { r = render(body, { marked, katex, lang, warn: (w) => warns.push(w) }); } catch (e) { problem(file + ': ' + e.message); return null; }
+  try { r = render(body, { marked, katex, lang, paper: meta.type === 'paper', warn: (w) => warns.push(w) }); } catch (e) { problem(file + ': ' + e.message); return null; }
   warns.forEach((w) => problem(file + ': ' + w));
   const count = (re) => (body.match(re) || []).length;
   const practice = /^:::practice[^\n]*\n([\s\S]*?)^:::/m.exec(body);
@@ -48,7 +48,7 @@ function stats(file) {
   const exBoxes = body.match(/^:::exercise[^\n]*\n[\s\S]*?^:::[ \t]*$/gm) || [];
   const nEx = exBoxes.length ? exBoxes.length : practice ? (practice[1].match(/^\d+\.\s/gm) || []).length : 0;
   const nSol = exBoxes.length ? exBoxes.filter((b) => /^::solution[ \t]*$/m.test(b)).length : solution ? (solution[1].match(/^\d+\.\s/gm) || []).length : 0;
-  exBoxes.forEach((b, k) => { if (!/^::hint[ \t]*$/m.test(b)) problem(file + ': bài tập ' + (k + 1) + ' thiếu phần ::hint (kiến thức và gợi ý các bước)'); });
+  exBoxes.forEach((b, k) => { if (meta.type !== 'paper' && !/^::hint[ \t]*$/m.test(b)) problem(file + ': bài tập ' + (k + 1) + ' thiếu phần ::hint (kiến thức và gợi ý các bước)'); });
   const s = {
     lang, file, meta, sections: r.headings.length, math: r.math, words: body.split(/\s+/).length,
     examples: count(/^:::example/gm), figures: count(/^:::(graph|diagram)/gm), exercises: nEx, solutions: nSol,
@@ -75,6 +75,24 @@ function stats(file) {
       if (i.type === 'sa' && (!/^-?\d+([.,]\d+)?$/.test(i.key) || i.key.length > 6)) problem(file + ': câu thứ ' + (k + 1) + ' (tự điền) có ::key "' + i.key + '" không hợp lệ (số, tối đa 6 kí tự)');
       if (!i.expl) problem(file + ': câu thứ ' + (k + 1) + ' thiếu lời giải sau ::key');
     });
+    return s;
+  }
+  if (meta.type === 'paper') { // real exam paper (Kho đề thi): source + link, objective part and/or written problems, every item solved
+    if (!meta.source) problem(file + ': đề thật cần "source:" (tên Sở/Phòng/trường/tác giả ra đề)');
+    if (!meta.link || !/^https?:\/\//.test(meta.link)) problem(file + ': đề thật cần "link:" là đường dẫn trang đăng đề gốc');
+    const qx = /^:::quiz[^\n]*\n([\s\S]*?)^:::[ \t]*$/m.exec(body);
+    const it = qx ? require('./render.js').parseQuiz(qx[1]) : [];
+    const c = (t) => it.filter((i) => i.type === t).length;
+    s.quiz = c('mc') + '-' + c('tf') + '-' + c('sa');
+    it.forEach((i, k) => {
+      if (i.type === 'mc' && (i.opts.length !== 4 || !/^[A-D]$/.test(i.key))) problem(file + ': câu thứ ' + (k + 1) + ' (nhiều lựa chọn) cần 4 phương án và ::key A–D');
+      if (i.type === 'tf' && (i.opts.length !== 4 || !/^[TF]{4}$/.test(i.key))) problem(file + ': câu thứ ' + (k + 1) + ' (đúng/sai) cần 4 ý và ::key dạng Đ S Đ S');
+      if (i.type === 'sa' && (!/^-?\d+([.,]\d+)?$/.test(i.key) || i.key.length > 4)) problem(file + ': câu thứ ' + (k + 1) + ' (trả lời ngắn) có ::key "' + i.key + '" không viết được trong 4 ô');
+      if (!i.expl) problem(file + ': câu thứ ' + (k + 1) + ' thiếu lời giải sau ::key');
+    });
+    if (!it.length && !nEx) problem(file + ': đề thật cần hộp :::quiz exam và/hoặc các hộp :::exercise');
+    if (nSol !== nEx) problem(file + ': số lời giải (' + nSol + ') khác số bài tự luận (' + nEx + ')');
+    exBoxes.forEach((b, k) => { if (!/^:::exercise[ \t]+\S[^\n]*\((\d+(?:[.,]\d+)?)\s*(điểm|points?)\)/.test(b)) problem(file + ': bài tự luận ' + (k + 1) + ' cần tiêu đề có số điểm, ví dụ ":::exercise Bài 1 (1,5 điểm)" / ":::exercise Problem 1 (1.5 points)"'); });
     return s;
   }
   if (meta.type === 'exam') { // practice paper: a full 12-4-6 :::quiz exam (or ≥ 10 exercises)

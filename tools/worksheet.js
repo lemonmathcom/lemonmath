@@ -37,7 +37,8 @@ const T = {
     again: 'Làm lại các bài chưa đúng sau:', days: ['1 ngày', '3 ngày', '7 ngày'],
     qr: 'Quét mã để xem lời giải từng bước', free: 'Được in miễn phí cho học tập. Vui lòng giữ nguyên tên Lemonmath.com.',
     print: 'In phiếu / Lưu PDF', back: 'Quay lại bài học', tip: 'Mẹo: khi in, chọn khổ A4 và tắt "Đầu trang và chân trang" của trình duyệt.',
-    title: (t) => 'Phiếu tự học: ' + t
+    title: (t) => 'Phiếu tự học: ' + t,
+    paper: { kicker: 'Đề thi', where: 'Nguồn', objective: 'Phần trắc nghiệm', written: 'Phần tự luận', note: (m) => 'Thời gian làm bài ' + m + ' phút, không kể thời gian phát đề. Không sử dụng tài liệu.', keys: 'Đáp án và hướng dẫn giải', keyNote: 'Chỉ xem sau khi đã làm xong và tự chấm bài.', title: (t) => t, self: 'Quét mã QR để làm lại đề trực tuyến: phần trắc nghiệm được chấm điểm tự động, phần tự luận có lời giải và hướng dẫn chấm để tự chấm.', credit: (src) => 'Đề gốc: ' + src + '. Lemonmath trình bày lại kèm lời giải để học sinh luyện tập.' }
   },
   en: {
     dir: 'worksheet', kicker: 'Self-study sheet', grade: (n) => 'Grade ' + n, lesson: 'Lesson',
@@ -56,7 +57,8 @@ const T = {
     again: 'Redo the ones you missed after:', days: ['1 day', '3 days', '7 days'],
     qr: 'Scan for step-by-step solutions', free: 'Free to print for learning. Please keep the name Lemonmath.com.',
     print: 'Print / Save as PDF', back: 'Back to the lesson', tip: 'Tip: print on A4 and turn off the browser\'s "Headers and footers".',
-    title: (t) => 'Self-study sheet: ' + t
+    title: (t) => 'Self-study sheet: ' + t,
+    paper: { kicker: 'Exam paper', where: 'Source', objective: 'Objective part', written: 'Written part', note: (m) => 'Time allowed: ' + m + ' minutes. No notes or books.', keys: 'Answers and worked solutions', keyNote: 'Look only after you have finished and marked your own work.', title: (t) => t, self: 'Scan the QR code to sit the paper online: the objective part is marked automatically, and the written part has worked solutions and a marking guide.', credit: (src) => 'Original paper: ' + src + '. Lemonmath presents it with worked solutions for practice.' }
   }
 };
 
@@ -100,7 +102,7 @@ function parts(md, lang) {
     const bits = m[2].split(/^::(hint|solution)[ \t]*$/m);
     let hint = '', sol = '';
     for (let k = 1; k < bits.length; k += 2) { if (bits[k] === 'hint') hint = bits[k + 1]; if (bits[k] === 'solution') sol = bits[k + 1]; }
-    exercises.push({ title: m[1].trim(), q: bits[0].trim(), hint: hint.trim(), lines: writeLines(sol) });
+    exercises.push({ title: m[1].trim(), q: bits[0].trim(), hint: hint.trim(), sol: sol.trim(), lines: writeLines(sol) });
   }
   const qm = /^:::quiz[^\n]*\n([\s\S]*?)^:::[ \t]*$/m.exec(md);
   const quiz = qm ? parseQuiz(qm[1]) : [];
@@ -115,6 +117,7 @@ function worksheet(o) {
   const L = T[o.lang];
   const p = parts(o.md, o.lang);
   if (!p.exercises.length && !p.quiz.length) return null;
+  if (o.meta.type === 'paper') return paperSheet(o, L, p);
   const exam = !p.exercises.length;
   const R = (s) => (s ? o.renderMd(s) : '');
   const qrUrl = o.lessonUrl + (exam ? '' : '#ex-1');
@@ -174,4 +177,62 @@ function worksheet(o) {
   return { html, dir: L.dir, count: p.exercises.length || p.quiz.length };
 }
 
-module.exports = { worksheet, WS_DIR: { vi: T.vi.dir, en: T.en.dir }, WS_LABEL: { vi: 'In phiếu tự học', en: 'Print a self-study sheet' } };
+/* A real exam paper laid out like the printed paper, with the answers and worked solutions on separate pages at the end. */
+function paperSheet(o, L, p) {
+  const P = L.paper, R = (s) => (s ? o.renderMd(s) : '');
+  const inl = (md) => { const h = R(md).trim(); return /^<p>[\s\S]*<\/p>$/.test(h) && h.indexOf('<p>', 1) === -1 ? h.slice(3, -4) : h; };
+  const both = p.quiz.length && p.exercises.length;
+  let qz = '', keys = '';
+  if (p.quiz.length) {
+    qz = '<section class="ws-quiz">' + (both ? '<h2 class="ws-h2">' + P.objective + '</h2>' : '');
+    [['mc', 0], ['tf', 1], ['sa', 2]].forEach(([t, pi]) => {
+      const list = p.quiz.filter((it) => it.type === t);
+      if (!list.length) return;
+      qz += '<h3>' + L.parts[pi] + '</h3>';
+      keys += '<h3>' + L.parts[pi] + '</h3><ol class="pa-keys">';
+      list.forEach((it, j) => {
+        qz += '<div class="ws-qi"><div><b>' + L.q + ' ' + (j + 1) + '.</b> ' + inl(it.q) + '</div>';
+        if (t === 'mc') qz += '<div class="ws-mc cols-' + require('./render.js').optCols(it.opts) + '">' + it.opts.map((x, i) => '<span><b>' + 'ABCD'[i] + '.</b> ' + inl(x.replace(/\.\s*$/, '')) + '</span>').join('') + '</div>';
+        if (t === 'tf') qz += '<table class="ws-tf">' + it.opts.map((x, i) => '<tr><td><b>' + 'abcd'[i] + ')</b> ' + inl(x) + '</td><td class="box">' + L.TF + '</td></tr>').join('') + '</table>';
+        if (t === 'sa') qz += '<div class="ws-sa"><span></span><span></span><span></span><span></span></div>';
+        qz += '</div>';
+        const k = t === 'tf' ? it.key.split('').map((x, i) => 'abcd'[i] + ') ' + (x === 'T' ? L.TF.split(' / ')[0] : L.TF.split(' / ')[1])).join('; ') : it.key;
+        keys += '<li value="' + (j + 1) + '"><b>' + esc(k) + '.</b> ' + inl(it.expl) + '</li>';
+      });
+      keys += '</ol>';
+    });
+    qz += '</section>';
+  }
+  let wr = '';
+  if (p.exercises.length) {
+    wr = (both ? '<h2 class="ws-h2">' + P.written + '</h2>\n' : '') + p.exercises.map((e, i) =>
+      '<section class="ws-ex"><h3><span>' + esc(e.title || L.ex + ' ' + (i + 1)) + '</span></h3><div class="ws-q">' + R(e.q) + '</div>' +
+      '<div class="ws-space" style="height:' + (e.lines * 7.8).toFixed(1) + 'mm" aria-hidden="true"></div></section>').join('\n');
+    keys += (both ? '<h3>' + P.written + '</h3>' : '') + p.exercises.map((e, i) => '<div class="pa-item ws-key-ex"><b>' + esc(e.title || L.ex + ' ' + (i + 1)) + '.</b>' + R(e.sol) + '</div>').join('\n');
+  }
+  const src = o.meta.source ? esc(o.meta.source) + (o.meta.year ? ' (' + esc(o.meta.year) + ')' : '') : '';
+  const body =
+    '<div class="ws-bar no-print"><a href="' + esc(o.backHref) + '">← ' + L.back + '</a><button type="button" onclick="window.print()">' + L.print + '</button><small>' + L.tip + '</small></div>\n' +
+    '<main class="ws-sheet ws-paper">\n' +
+    '<header class="ws-head"><div class="ws-brand">Lemon<b>math</b><span>' + P.kicker + '</span></div>' +
+    '<div class="ws-where">' + (src ? P.where + ': ' + src : esc(o.gradeLabel || '')) + '</div></header>\n' +
+    '<h1>' + esc(o.meta.title) + '</h1>\n' +
+    '<div class="ws-fields"><span>' + L.name + ': <i></i></span><span>' + L.date + ': <i class="s"></i></span><span>' + L.score + ': <i class="s"></i></span></div>\n' +
+    '<p class="ws-qnote">' + P.note(esc(o.meta.minutes || '90')) + '</p>\n' +
+    qz + '\n' + wr + '\n' +
+    '<section class="ws-end"><div class="ws-self"><h2>' + L.examSelf + '</h2><p>' + P.self + '</p></div>' +
+    '<div class="ws-qrbox">' + qrSvg(o.lessonUrl) + '<p>' + L.qr + '</p></div></section>\n' +
+    '<section class="ws-keys"><h2 class="ws-h2">' + P.keys + '</h2><p class="ws-qnote">' + P.keyNote + '</p>' + keys + '</section>\n' +
+    '<footer class="ws-foot">lemonmath.com · ' + (src ? P.credit(src) + ' ' : '') + L.free + '</footer>\n' +
+    '</main>';
+  const html = '<!doctype html>\n<html lang="' + o.lang + '">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n' +
+    '<title>' + esc(P.title(o.meta.title)) + ' | Lemonmath</title>\n<meta name="robots" content="noindex,follow">\n' +
+    '<link rel="canonical" href="' + esc(o.lessonUrl) + '">\n' +
+    '<link rel="stylesheet" href="' + o.assets + 'fonts.css">\n<link rel="stylesheet" href="' + o.assets + 'katex/katex.min.css">\n<link rel="stylesheet" href="' + o.assets + 'print.css">\n' +
+    '<style>@page :right { @bottom-center { content: "Step by step"; font: italic 600 9pt "Nunito Variable", "Nunito", sans-serif; color: #555; } }' +
+    ' @page :left { @bottom-center { content: "' + L.motto + '"; font: italic 600 9pt "Nunito Variable", "Nunito", sans-serif; color: #555; } }</style>\n' +
+    '</head>\n<body>\n' + body + '\n</body>\n</html>\n';
+  return { html, dir: L.dir, count: p.exercises.length + p.quiz.length };
+}
+
+module.exports = { worksheet, WS_DIR: { vi: T.vi.dir, en: T.en.dir }, WS_LABEL: { vi: 'In phiếu tự học', en: 'Print a self-study sheet', paper: { vi: 'In đề kèm đáp án (dạng phiếu)', en: 'Print the paper with answers' } } };

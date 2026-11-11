@@ -4085,6 +4085,67 @@
   ],
   "exams": [
     {
+      "id": "kho-de-thi",
+      "group": "bank",
+      "icon": "star",
+      "vi": "Kho đề thi",
+      "en": "Past papers bank",
+      "facts": {
+        "vi": "Đề thi thật: làm bài có bấm giờ, chấm điểm ngay, xem đáp án, lời giải và in dạng phiếu.",
+        "en": "Real Vietnamese exam papers: timed, marked instantly, with answers, worked solutions and a printable version."
+      },
+      "summary": {
+        "vi": "Đề tốt nghiệp THPT, tuyển sinh vào 10, đề giữa kì và cuối kì lớp 6–12, ghi rõ nguồn.",
+        "en": "Graduation, grade 10 entrance, midterm and end-of-term papers for grades 6–12, each with its source."
+      },
+      "chapters": [
+        {
+          "id": "kd-thpt",
+          "icon": "star",
+          "vi": "Đề thi tốt nghiệp THPT",
+          "en": "THPT graduation exam papers",
+          "summary": {
+            "vi": "Đề chính thức, đề minh họa và đề thi thử theo cấu trúc mới: trắc nghiệm, đúng sai, trả lời ngắn.",
+            "en": "Official, sample and mock papers in the new format: multiple choice, true/false and short answer."
+          },
+          "lessons": []
+        },
+        {
+          "id": "kd-vao-10",
+          "icon": "star",
+          "vi": "Đề tuyển sinh vào lớp 10",
+          "en": "Grade 10 entrance exam papers",
+          "summary": {
+            "vi": "Đề chính thức, đề tham khảo và đề thi thử vào 10 của các tỉnh, thành phố.",
+            "en": "Official, sample and mock grade 10 entrance papers from provinces and cities."
+          },
+          "lessons": []
+        },
+        {
+          "id": "kd-hk-thpt",
+          "icon": "star",
+          "vi": "Đề giữa kì, cuối kì lớp 10–12",
+          "en": "Midterm and end-of-term papers, grades 10–12",
+          "summary": {
+            "vi": "Đề kiểm tra giữa học kì và cuối học kì của các trường THPT.",
+            "en": "Midterm and end-of-term tests from upper secondary schools."
+          },
+          "lessons": []
+        },
+        {
+          "id": "kd-hk-thcs",
+          "icon": "star",
+          "vi": "Đề giữa kì, cuối kì lớp 6–9",
+          "en": "Midterm and end-of-term papers, grades 6–9",
+          "summary": {
+            "vi": "Đề kiểm tra giữa học kì và cuối học kì của các trường THCS.",
+            "en": "Midterm and end-of-term tests from lower secondary schools."
+          },
+          "lessons": []
+        }
+      ]
+    },
+    {
       "id": "vao-10",
       "group": "vn",
       "link": {

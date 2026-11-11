@@ -112,6 +112,7 @@ img { max-width: 100%; height: auto; }
 
 /* ---------- buttons ---------- */
 .btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; border: 2px solid var(--edge); border-radius: 999px; background: var(--lemon); color: var(--lemon-ink); font: 800 1.05rem var(--font); text-decoration: none; cursor: pointer; box-shadow: 0 4px 0 var(--edge); transition: transform .08s; }
+.btn[hidden] { display: none; }
 .btn:hover { transform: translateY(-2px); }
 .btn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--edge); }
 .btn-ghost, .btn-outline { background: var(--surface); color: var(--ink); }
@@ -406,3 +407,19 @@ a.card:hover { transform: translateY(-3px); }
 .planned li { margin: 2px 0; }
 .topnav a { white-space: nowrap; }
 .lang-btn { white-space: nowrap; }
+
+/* ---------- real exam papers (Kho đề thi): source, timer, self-marking ---------- */
+.paper-head { margin: .4em 0 1.2em; padding: 14px 18px; border: 2px solid var(--edge); border-radius: var(--r); background: var(--surface2); box-shadow: 0 4px 0 var(--edge); }
+.paper-head p { margin: .35em 0; }
+.paper-how, .paper-rights { color: var(--muted); font-size: .92rem; }
+.paper-timer { position: sticky; top: calc(var(--topbar) + 8px); z-index: 20; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: .6em 0; padding: 8px 14px; border: 2px solid var(--edge); border-radius: 999px; background: var(--lemon); color: var(--lemon-ink); font-weight: 800; }
+.paper-timer[hidden] { display: none; }
+.pt-clock { font-size: 1.35rem; font-variant-numeric: tabular-nums; min-width: 4.5em; }
+.paper-timer.pt-low { background: #FCA5A5; }
+.paper-up { font-weight: 800; color: #B91C1C; }
+.paper-running .ex-sol, .paper-running .qz-keys, .paper-running .ex-hint { display: none !important; }
+.paper-self { margin: .6em 0 0; font-weight: 700; }
+.paper-self input { font: inherit; width: 4.5em; padding: 4px 8px; border: 2px solid var(--edge); border-radius: 8px; background: var(--surface); color: var(--ink); }
+.paper-total { margin: 1em 0; padding: 10px 16px; border: 2px solid var(--edge); border-radius: var(--r); background: var(--lemon); color: var(--lemon-ink); font-size: 1.15rem; font-weight: 800; }
+.paper-q .box-kind { text-transform: none; }
+@media print { .paper-head { box-shadow: none; padding: 2mm 4mm; } .paper-actions, .paper-timer, .paper-how, .paper-self, .paper-total, .paper-up { display: none !important; } }

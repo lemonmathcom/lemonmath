@@ -195,7 +195,11 @@
         it.classList.toggle('qz-ok', ok); it.classList.toggle('qz-no', !ok);
         var e = $('.qz-expl', it); if (e) e.hidden = false;
       });
-      out.textContent = plain ? (isVi ? 'Số câu đúng: ' : 'Correct answers: ') + got + ' / ' + max : (isVi ? 'Điểm của bạn: ' : 'Your score: ') + fmt(got) + ' / ' + fmt(max) + (isVi ? ' (quy ra thang 10: ' : ' (out of 10: ') + fmt(got / max * 10) + ')';
+      if (qz.hasAttribute('data-paper')) { qz.setAttribute('data-got', got); qz.setAttribute('data-max', max); }
+      out.textContent = plain ? (isVi ? 'Số câu đúng: ' : 'Correct answers: ') + got + ' / ' + max
+        : qz.hasAttribute('data-paper') ? (isVi ? 'Điểm phần trắc nghiệm: ' : 'Objective part: ') + fmt(got) + ' / ' + fmt(max) + (isVi ? ' điểm' : ' points')
+        : (isVi ? 'Điểm của bạn: ' : 'Your score: ') + fmt(got) + ' / ' + fmt(max) + (isVi ? ' (quy ra thang 10: ' : ' (out of 10: ') + fmt(got / max * 10) + ')';
+      d.dispatchEvent(new CustomEvent('lm-quiz-marked'));
       submit.hidden = true; retry.hidden = false;
     });
     retry.addEventListener('click', function () {
@@ -205,6 +209,74 @@
       out.textContent = ''; submit.hidden = false; retry.hidden = true;
     });
   });
+
+  /* ---------- real exam papers: timer, hand-in, self-marking of written problems ---------- */
+  var ph = $('.paper-head');
+  if (ph) (function () {
+    var mins = parseFloat(ph.getAttribute('data-min')) || 0, key = 'lm-paper-end:' + location.pathname;
+    var startBtn = $('.paper-start', ph), timer = $('.paper-timer', ph), clock = $('.pt-clock', ph), stopBtn = $('.paper-stop', ph);
+    var fmt = function (x) { var t = (Math.round(x * 100) / 100).toString(); return isVi ? t.replace('.', ',') : t; };
+    var num = function (s) { s = String(s).replace(/\s/g, '').replace(',', '.'); return s === '' ? NaN : Number(s); };
+    var tick = null, handed = false;
+    // self-marking box under each written problem that states its points
+    var qs = $$('.paper-q[data-pts]');
+    qs.forEach(function (q) {
+      var p = d.createElement('p'); p.className = 'paper-self'; p.hidden = true;
+      var lab = d.createElement('label');
+      lab.innerHTML = (isVi ? 'Điểm tự chấm: ' : 'Your points: ');
+      var inp = d.createElement('input'); inp.type = 'text'; inp.inputMode = 'decimal'; inp.maxLength = 5; inp.size = 4; inp.setAttribute('data-max', q.getAttribute('data-pts'));
+      inp.addEventListener('input', total);
+      lab.appendChild(inp); lab.appendChild(d.createTextNode(' / ' + fmt(+q.getAttribute('data-pts'))));
+      p.appendChild(lab); $('.box-body', q).appendChild(p);
+    });
+    var sum = d.createElement('p'); sum.className = 'paper-total'; sum.hidden = true; sum.setAttribute('aria-live', 'polite');
+    var lastBox = qs.length ? qs[qs.length - 1] : $('[data-quiz]');
+    if (lastBox) lastBox.parentNode.insertBefore(sum, lastBox.nextSibling);
+    function total() {
+      var got = 0, max = 0;
+      $$('[data-quiz][data-paper]').forEach(function (qz) { got += +(qz.getAttribute('data-got') || 0); max += +(qz.getAttribute('data-max') || 0); });
+      $$('.paper-self input').forEach(function (i) { var v = num(i.value), m = +i.getAttribute('data-max'); max += m; if (!isNaN(v)) got += Math.max(0, Math.min(v, m)); });
+      sum.textContent = ph.getAttribute('data-total') + ': ' + fmt(got) + ' ' + ph.getAttribute('data-of') + ' ' + fmt(max);
+    }
+    function reveal() {
+      $$('.paper-self').forEach(function (p) { p.hidden = false; });
+      if (qs.length || $('[data-quiz][data-paper]')) { sum.hidden = false; total(); }
+    }
+    function handIn(timeUp) {
+      if (handed) return; handed = true;
+      clearInterval(tick); lsSet(key, '');
+      root.classList.remove('paper-running');
+      timer.hidden = true; startBtn.hidden = false;
+      $$('.qz-submit').forEach(function (b) { if (!b.hidden) b.click(); });
+      if (timeUp) { var m = d.createElement('p'); m.className = 'paper-up'; m.textContent = ph.getAttribute('data-up'); ph.appendChild(m); }
+      reveal();
+    }
+    function run(end) {
+      handed = false; root.classList.add('paper-running');
+      startBtn.hidden = true; timer.hidden = false;
+      var draw = function () {
+        var left = Math.max(0, Math.round((end - Date.now()) / 1000));
+        var h = Math.floor(left / 3600), m = Math.floor(left % 3600 / 60), s2 = left % 60;
+        clock.textContent = (h ? h + ':' + (m < 10 ? '0' : '') : '') + m + ':' + (s2 < 10 ? '0' : '') + s2;
+        timer.classList.toggle('pt-low', left <= 300);
+        if (!left) handIn(true);
+      };
+      draw(); tick = setInterval(draw, 1000);
+    }
+    if (mins) {
+      startBtn.hidden = false;
+      startBtn.addEventListener('click', function () {
+        $$('.qz-retry').forEach(function (b) { if (!b.hidden) b.click(); });
+        $$('.paper-up').forEach(function (x) { x.remove(); });
+        var end = Date.now() + mins * 60000; lsSet(key, String(end)); run(end);
+        timer.scrollIntoView({ block: 'nearest' });
+      });
+      stopBtn.addEventListener('click', function () { handIn(false); });
+      var saved = +(lsGet(key) || 0);
+      if (saved > Date.now()) run(saved);
+    }
+    d.addEventListener('lm-quiz-marked', function () { reveal(); total(); });
+  })();
 
   /* ---------- remember the chosen language; gently offer Vietnamese ---------- */
   var langBtn = $('.lang-btn');

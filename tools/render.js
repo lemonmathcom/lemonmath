@@ -46,6 +46,17 @@ const QZ = {
     saPh: 'Type your answer', noteTest: 'One mark per correct answer and no penalty for wrong answers. Time yourself as in the real exam before you submit.', note: 'Marked like the Vietnamese graduation exam: Part I 0.25 points per question; Part II up to 1 point per question (1, 2, 3, 4 correct statements give 0.1, 0.25, 0.5, 1 point); Part III 0.5 points per question.' }
 };
 
+/* Marking note for a real paper: only the parts it actually has. */
+function paperNote(L, items) {
+  const has = (t) => items.some((i) => i.type === t);
+  const vi = L.q === 'Câu';
+  const bits = [];
+  if (has('mc')) bits.push(vi ? 'Phần I mỗi câu 0,25 điểm' : 'Part I 0.25 points per question');
+  if (has('tf')) bits.push(vi ? 'Phần II mỗi câu tối đa 1 điểm (đúng 1, 2, 3, 4 ý được 0,1; 0,25; 0,5; 1 điểm)' : 'Part II up to 1 point per question (1, 2, 3, 4 correct statements give 0.1, 0.25, 0.5, 1 point)');
+  if (has('sa')) bits.push(vi ? 'Phần III mỗi câu 0,5 điểm' : 'Part III 0.5 points per question');
+  return (vi ? 'Cách chấm phần trắc nghiệm: ' : 'How the objective part is marked: ') + bits.join('; ') + '.';
+}
+
 /* :::quiz body -> [{type: 'mc'|'tf'|'sa', q, opts: [], key, expl}] */
 function parseQuiz(body) {
   const items = [];
@@ -71,6 +82,7 @@ function parseQuiz(body) {
  * Width is estimated from the raw text: $math$ or ⟦Mn⟧ placeholders count by their visible size.
  */
 let MATH_STORE = [];
+let PAPER = false; // true while rendering a real exam paper (type: paper)
 function texWidth(tex) {
   let t = String(tex);
   for (let k = 0; k < 3; k++) t = t.replace(/\\[dt]?frac\s*\{([^{}]*)\}\s*\{([^{}]*)\}/g, (m, a, b) => (a.length > b.length ? a : b));
@@ -159,8 +171,8 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
         });
         html += '</div>';
       });
-      out += '<section class="box box-quiz" data-quiz' + (title === 'test' ? ' data-count' : '') + '><div class="box-title"><span class="box-kind">' + (title === 'exam' || title === 'test' ? L.examKind : L.kind) + '</span>' + (title && title !== 'exam' && title !== 'test' ? ' ' + esc(title) : '') + '</div><div class="box-body">' +
-        '<p class="qz-note">' + (title === 'test' ? L.noteTest : L.note) + '</p>' + html +
+      out += '<section class="box box-quiz" data-quiz' + (title === 'test' ? ' data-count' : '') + (PAPER ? ' data-paper' : '') + '><div class="box-title"><span class="box-kind">' + (title === 'exam' || title === 'test' ? L.examKind : L.kind) + '</span>' + (title && title !== 'exam' && title !== 'test' ? ' ' + esc(title) : '') + '</div><div class="box-body">' +
+        '<p class="qz-note">' + (title === 'test' ? L.noteTest : PAPER ? paperNote(L, items) : L.note) + '</p>' + html +
         '<p class="qz-actions"><button type="button" class="btn qz-submit" hidden>' + L.submit + '</button> <button type="button" class="btn btn-outline qz-retry" hidden>' + L.retry + '</button> <span class="qz-score" aria-live="polite"></span></p>' +
         '<details class="qz-keys"><summary>' + L.keys + '</summary><ol>' + keys + '</ol></details></div></section>';
       apx += '<h3>' + (title === 'exam' || title === 'test' ? L.keys : APPENDIX.quiz[lang]) + '</h3><ol class="pa-keys">' + keys + '</ol>';
@@ -171,13 +183,15 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
       let q = parts[0], hint = '', sol = '';
       for (let k = 1; k < parts.length; k += 2) { if (parts[k] === 'hint') hint = parts[k + 1]; else sol = parts[k + 1]; }
       if (!sol.trim()) warn('bài tập số ' + exNo + ' (:::exercise) thiếu phần ::solution');
-      if (!hint.trim()) warn('bài tập số ' + exNo + ' (:::exercise) thiếu phần ::hint (kiến thức và gợi ý các bước)');
-      out += '<section class="box box-exercise" id="ex-' + exNo + '"><div class="box-title"><span class="box-kind">' + EXERCISE[lang] + ' ' + exNo + '</span>' + (title ? ' ' + esc(title) : '') +
+      if (!hint.trim() && !PAPER) warn('bài tập số ' + exNo + ' (:::exercise) thiếu phần ::hint (kiến thức và gợi ý các bước)');
+      const pm = /\(\s*(\d+(?:[.,]\d+)?)\s*(?:điểm|points?|marks?)\s*\)/i.exec(title);
+      const pts = pm ? pm[1].replace(',', '.') : '';
+      out += '<section class="box box-exercise' + (PAPER ? ' paper-q' : '') + '" id="ex-' + exNo + '"' + (pts ? ' data-pts="' + pts + '"' : '') + '><div class="box-title">' + (PAPER && title ? '<span class="box-kind">' + esc(title) + '</span>' : '<span class="box-kind">' + EXERCISE[lang] + ' ' + exNo + '</span>' + (title ? ' ' + esc(title) : '')) +
         '</div><div class="box-body"><div class="ex-q">' + parse(q) + '</div>' +
         (hint.trim() ? '<div class="ex-hint"><div class="ex-hint-t">' + HINTS[lang] + '</div>' + parse(hint) + '</div>' : '') +
         (sol.trim() ? '<details class="ex-sol"><summary>' + SOLUTION[lang] + '</summary><div class="ex-sol-b">' + parse(sol) + '</div></details>' : '') +
         '<div class="ex-write" aria-hidden="true"></div></div></section>';
-      if (sol.trim()) apx += '<div class="pa-item"><b>' + EXERCISE[lang] + ' ' + exNo + '.</b>' + parse(sol) + '</div>';
+      if (sol.trim()) apx += '<div class="pa-item"><b>' + (PAPER && title ? esc(title) : EXERCISE[lang] + ' ' + exNo) + '.</b>' + parse(sol) + '</div>';
     } else if (type === 'terms') {
       const rows = body.split('\n').map((l) => l.trim()).filter(Boolean).map((l) => {
         const parts = l.replace(/^[-*]\s*/, '').split(/\s+\|\s+/);
@@ -242,6 +256,7 @@ function render(md, opts) {
 
   text = hideMath(text, store);
   MATH_STORE = store;
+  PAPER = !!opts.paper;
 
   const restoreCode = (s) => s.replace(/⟪C(\d+)⟫/g, (m, i) => codes[+i]);
   // a line starting "a) ", "b) " … (parts of an exercise) always starts a new paragraph, even without a blank line
