@@ -13,7 +13,8 @@ def MC(en, vi, oe, key, xe, xv, topic, ov=None):
 
 L = {'lim': 'apcalc-limits-continuity', 'der': 'apcalc-differentiation-rules', 'chain': 'apcalc-implicit-inverse',
      'ctx': 'apcalc-contextual-applications', 'ana': 'apcalc-analytical-applications', 'acc': 'apcalc-accumulation-ftc',
-     'tech': 'apcalc-integration-techniques', 'de': 'apcalc-differential-equations', 'av': 'apcalc-area-volume'}
+     'tech': 'apcalc-integration-techniques', 'de': 'apcalc-differential-equations', 'av': 'apcalc-area-volume',
+     'pp': 'apcalc-bc-parametric-polar', 'ser': 'apcalc-bc-series'}
 
 AB_A = [
 MC(r"What is $\displaystyle\lim_{x\to3}\frac{x^2-9}{x-3}$?", r"Giới hạn $\displaystyle\lim_{x\to3}\frac{x^2-9}{x-3}$ bằng",
@@ -268,8 +269,8 @@ def block(qs, lang):
         out += ['::mc', q[lang]] + [f"{'ABCD'[i]}. {o}" for i, o in enumerate(opts)] + ['::key ' + q['key'], q['xe'] if lang == 'en' else q['xv'], '']
     return '\n'.join(out).rstrip() + '\n:::'
 
-def write(slug, pa, pb, lang):
-    t = TXT[lang]
+def write(slug, pa, pb, lang, t=None):
+    t = t or TXT[lang]
     rows = '\n'.join(f"| {i+1} | [{t['tl'][q['topic']]}](lesson:{L[q['topic']]}) |" for i, q in enumerate(pa + pb))
     md = f"""---
 title: {t['title']}
@@ -297,7 +298,10 @@ type: test
 """
     open(R + f'{lang}/exams/ap-calculus/{slug}.md', 'w').write(md)
 
+exec(open(pathlib.Path(__file__).with_name('apcalc_bc_bank.py')).read())
+
 for lang in ('en', 'vi'):
     write('apcalc-practice-exam-ab', copy.deepcopy(AB_A), copy.deepcopy(AB_B), lang)
-for nm, m in (('AB_A', AB_A), ('AB_B', AB_B)):
+    write('apcalc-practice-exam-bc', copy.deepcopy(BC_A), copy.deepcopy(BC_B), lang, TXT_BC[lang])
+for nm, m in (('AB_A', AB_A), ('AB_B', AB_B), ('BC_A', BC_A), ('BC_B', BC_B)):
     print(nm, len(m), sorted(Counter(q['key'] for q in m).items()))
