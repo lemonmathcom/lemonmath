@@ -24,7 +24,8 @@ Thứ tự ưu tiên đề nghị: O12 (kĩ năng, ngắn, dùng cho mọi học
 - Đã xong: evidence-based-revision, E001–E011 (toàn bộ bài chủ đề SAT: sat-overview, sat-desmos-strategies, sat-linear-equations-systems, sat-linear-functions-inequalities, sat-equivalent-expressions, sat-quadratics-nonlinear, sat-exponential-functions, sat-ratios-percentages-units, sat-statistics-probability, sat-area-volume-lines-angles, sat-triangles-trig-circles).
 - SAT xong trọn gói O01–O02 (E001–E013), kể cả 2 đề luyện. Đề luyện sinh từ tools/gen/sat_tests.py (ngân hàng câu song ngữ) — nếu sửa đề, sửa thẳng file .md.
 - Gói O12 kĩ năng ôn thi xong (6/6 bài). Nguồn đã kiểm chứng thêm: Ramirez & Beilock (2011) Science 331(6014); Jamieson et al. (2010) JESP 46(1).
-- Tiếp theo: AP Calculus (gói O05, O06: E030–E044).
+- AP Calculus: xong apcalc-overview, apcalc-limits-continuity, apcalc-differentiation-rules, apcalc-implicit-inverse.
+- Tiếp theo: apcalc-contextual-applications, apcalc-analytical-applications, rồi Unit 6–10 và 2 đề luyện AB, BC.
 - Đề trắc nghiệm quốc tế: có thể dùng nhiều hộp `:::quiz test` (mỗi module một hộp); câu giữ đúng thứ tự viết, đánh số liên tục, không chia Phần I/II/III.
 - Biểu đồ dữ liệu (trục khác đơn vị): thêm dòng `shape: free` trong :::graph.
 - Quy ước số: bản Anh viết 24{,}000 hoặc 24,000; bản Việt viết 24.000 (dấu chấm phân cách hàng nghìn, {,} cho số thập phân) để check.js so khớp số liệu hai bản.
