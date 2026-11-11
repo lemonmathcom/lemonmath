@@ -307,6 +307,7 @@ point: (1, -4) "V" below                             filled point, optional labe
 open: (3, 0) "B" above                               hollow point
 vline: 1 ; dashed          hline: 3                  vertical / horizontal line
 segment: (0, 0) (3, 4)                               line segment
+shape: free                                          axes in different units (data plots): fixed height instead of equal scales
 region: x + y <= 3                                   shade a half-plane; boundary line drawn (dashed if < or >)
 region: y >= 0                                       several region lines shade their INTERSECTION (a system)
 label: (2, 1) "text"                                 free text

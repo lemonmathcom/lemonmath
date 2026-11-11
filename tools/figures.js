@@ -190,6 +190,7 @@ function graph(body, o) {
       cfg.fills.push({ top: compile(parts[0]), bot: compile(parts.length > 2 ? parts[1] : '0'), dom: [parseFloat(dr[1]), parseFloat(dr[2])] });
     }
     else if (key === 'label') cfg.labels.push({ p: pt(val), text: parseLabelText(val) });
+    else if (key === 'shape') { if (!/^(free|equal)$/.test(val.trim())) throw new Error('shape chỉ nhận "free" (trục không cùng đơn vị, như biểu đồ dữ liệu) hoặc "equal": "' + line + '"'); cfg.shape = val.trim(); }
     else throw new Error('từ khoá không có trong :::graph: "' + key + '"');
   });
   if (!xr || !yr) throw new Error(':::graph cần có dòng "x: a..b" và "y: c..d"');
@@ -205,7 +206,7 @@ function graph(body, o) {
   const ratio = (yr[1] - yr[0]) / (xr[1] - xr[0]);
   let ph = pw * ratio;
   if (nline) { ph = 56; }
-  else if (ratio > 4 || ratio < 0.2) { ph = 260; } // units of very different size (money vs km, height vs time): fixed shape
+  else if (cfg.shape === 'free' || ratio > 4 || ratio < 0.2) { ph = 260; } // units of very different size (money vs km, height vs time): fixed shape
   else if (ph > 340) { pw = pw * 340 / ph; ph = 340; } // keep the true shape: make the picture narrower, never stretch it
   const ph2 = nline ? ph : Math.max(120, ph);
   const W = Math.round(pw + padL + padR);
