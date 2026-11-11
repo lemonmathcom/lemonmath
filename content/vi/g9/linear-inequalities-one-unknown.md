@@ -174,7 +174,13 @@ Trong các số $-1$, $0$, $3$, số nào là nghiệm của bất phương trì
 2. So sánh với $0$.
 
 ::solution
-$x=-1$: $-1>0$ sai. $x=0$: $1>0$ đúng. $x=3$: $7>0$ đúng.
+Ta thay lần lượt từng số vào bất phương trình $2x+1>0$:
+
+- Với $x=-1$, ta có $2\cdot(-1)+1=-1$. Vì $-1>0$ là khẳng định sai nên $x=-1$ không là nghiệm.
+- Với $x=0$, ta có $2\cdot0+1=1$. Vì $1>0$ là khẳng định đúng nên $x=0$ là nghiệm.
+- Với $x=3$, ta có $2\cdot3+1=7$. Vì $7>0$ là khẳng định đúng nên $x=3$ là nghiệm.
+
+Vậy trong ba số đã cho, các số $0$ và $3$ là nghiệm của bất phương trình.
 
 **Đáp số.** $0$ và $3$.
 :::
@@ -190,7 +196,14 @@ Giải bất phương trình $4x-8<0$.
 2. Chia cho $4$.
 
 ::solution
-$4x<8\iff x<2$.
+Ta có
+$$\begin{aligned}
+4x-8&<0\\
+4x&<8 &&\text{(cộng $8$ vào hai vế)}\\
+x&<2 &&\text{(chia hai vế cho $4>0$, giữ nguyên chiều)}.
+\end{aligned}$$
+
+Vậy nghiệm của bất phương trình là $x<2$.
 
 **Đáp số.** $x<2$.
 :::
@@ -206,7 +219,14 @@ Giải bất phương trình $-3x+9\le0$.
 2. Chia hai vế cho $-3$ và đổi chiều.
 
 ::solution
-$-3x\le-9\iff x\ge3$.
+Ta có
+$$\begin{aligned}
+-3x+9&\le0\\
+-3x&\le-9 &&\text{(cộng $-9$ vào hai vế)}\\
+x&\ge3 &&\text{(chia hai vế cho $-3<0$, đổi chiều)}.
+\end{aligned}$$
+
+Vậy nghiệm của bất phương trình là $x\ge3$.
 
 **Đáp số.** $x\ge3$.
 :::
@@ -223,7 +243,16 @@ Giải bất phương trình $2(x+3)>5x-6$.
 3. Chia cho $-3$ và đổi chiều.
 
 ::solution
-$2x+6>5x-6\iff -3x>-12\iff x<4$.
+Ta có
+$$\begin{aligned}
+2(x+3)&>5x-6\\
+2x+6&>5x-6 &&\text{(bỏ dấu ngoặc)}\\
+2x-5x&>-6-6 &&\text{(chuyển vế và đổi dấu)}\\
+-3x&>-12\\
+x&<4 &&\text{(chia hai vế cho $-3<0$, đổi chiều)}.
+\end{aligned}$$
+
+Vậy nghiệm của bất phương trình là $x<4$.
 
 **Đáp số.** $x<4$.
 :::
@@ -239,7 +268,18 @@ Giải bất phương trình $\dfrac{2x-1}{3}\ge\dfrac{x+2}{4}$.
 2. Phá ngoặc, chuyển vế, chia cho hệ số của $x$.
 
 ::solution
-$4(2x-1)\ge3(x+2)\iff 8x-4\ge3x+6\iff 5x\ge10\iff x\ge2$.
+Nhân hai vế với $12$ (mẫu chung của $3$ và $4$; vì $12>0$ nên giữ nguyên chiều), ta được
+$$4(2x-1)\ge3(x+2).$$
+
+Suy ra
+$$\begin{aligned}
+8x-4&\ge3x+6\\
+8x-3x&\ge6+4\\
+5x&\ge10\\
+x&\ge2.
+\end{aligned}$$
+
+Vậy nghiệm của bất phương trình là $x\ge2$.
 
 **Đáp số.** $x\ge2$.
 :::
@@ -255,7 +295,16 @@ Một hãng taxi tính phí mở cửa $10$ nghìn đồng và $14$ nghìn đồ
 2. Giải và chọn số nguyên lớn nhất.
 
 ::solution
-$14x\le140\iff x\le10$.
+Gọi $x$ (km) là quãng đường đi được ($x>0$).
+
+Số tiền phải trả là $10+14x$ (nghìn đồng).
+
+Vì chỉ có $150$ nghìn đồng nên ta có bất phương trình
+$$10+14x\le150.$$
+
+Suy ra $14x\le140$, tức là $x\le10$.
+
+Vậy với $150$ nghìn đồng, bạn đi được tối đa $10$ km.
 
 **Đáp số.** Tối đa $10$ km.
 :::
@@ -271,7 +320,18 @@ Bạn Nam đã có ba bài kiểm tra được $7$, $8$ và $6$ điểm. Bài th
 2. Lập $\dfrac{7+8+6+x}{4}\ge7{,}5$ và nhân hai vế với $4$.
 
 ::solution
-$21+x\ge30\iff x\ge9$.
+Gọi $x$ là điểm bài kiểm tra thứ tư của Nam ($0\le x\le10$).
+
+Điểm trung bình bốn bài là $\dfrac{7+8+6+x}{4}=\dfrac{21+x}{4}$.
+
+Vì điểm trung bình không dưới $7{,}5$ nên ta có bất phương trình
+$$\frac{21+x}{4}\ge7{,}5.$$
+
+Nhân hai vế với $4$, ta được $21+x\ge30$, tức là $x\ge9$.
+
+Kết hợp với điều kiện, ta được $9\le x\le10$.
+
+Vậy bài thứ tư Nam cần được ít nhất $9$ điểm.
 
 **Đáp số.** Ít nhất $9$ điểm.
 :::
@@ -287,7 +347,17 @@ Tìm các nghiệm của phương trình $(x-4)(2x+1)=0$ thoả mãn bất phư�
 2. Thay từng nghiệm vào $3x-2$.
 
 ::solution
-Phương trình có nghiệm $x=4$ và $x=-\dfrac12$. Với $x=4$: $10>0$, thoả mãn. Với $x=-\dfrac12$: $-\dfrac72<0$, không thoả mãn.
+Trước hết ta giải phương trình $(x-4)(2x+1)=0$:
+
+- $x-4=0$, suy ra $x=4$;
+- $2x+1=0$, suy ra $x=-\dfrac12$.
+
+Tiếp theo ta thay từng nghiệm vào bất phương trình $3x-2>0$:
+
+- Với $x=4$, ta có $3\cdot4-2=10>0$ (đúng), nên $x=4$ thoả mãn.
+- Với $x=-\dfrac12$, ta có $3\cdot\left(-\dfrac12\right)-2=-\dfrac72<0$, nên $x=-\dfrac12$ không thoả mãn.
+
+Vậy nghiệm của phương trình thoả mãn bất phương trình đã cho là $x=4$.
 
 **Đáp số.** $x=4$.
 :::
@@ -310,7 +380,21 @@ c) Tìm số nguyên $x$ nhỏ nhất để $A>B$.
 3. c) Chọn số nguyên nhỏ nhất thoả mãn câu b).
 
 ::solution
-a) $2x=8\iff x=4$. b) $2x>8\iff x>4$. c) Số nguyên nhỏ nhất lớn hơn $4$ là $5$.
+a) Ta có $A=B$ khi $3(x-1)=x+5$.
+
+Suy ra $3x-3=x+5$, hay $2x=8$, tức là $x=4$.
+
+Vậy $A=B$ khi $x=4$.
+
+b) Ta có $A>B$ khi $3(x-1)>x+5$.
+
+Suy ra $3x-3>x+5$, hay $2x>8$, tức là $x>4$ (chia hai vế cho $2>0$, giữ nguyên chiều).
+
+Vậy $A>B$ khi $x>4$.
+
+c) Theo câu b), $A>B$ khi $x>4$. Số nguyên nhỏ nhất lớn hơn $4$ là $5$.
+
+Vậy số nguyên $x$ nhỏ nhất để $A>B$ là $x=5$.
 
 **Đáp số.** a) $x=4$; b) $x>4$; c) $x=5$.
 :::
@@ -327,7 +411,20 @@ Gói cước A tính $3$ nghìn đồng mỗi phút gọi. Gói cước B tính 
 3. Chọn số nguyên nhỏ nhất.
 
 ::solution
-$45+x<3x\iff -2x<-45\iff x>22{,}5$. Số nguyên nhỏ nhất lớn hơn $22{,}5$ là $23$. Kiểm tra: $23$ phút, gói A $69$, gói B $68$ nghìn đồng.
+Gọi $x$ là số phút gọi trong một tháng ($x$ là số nguyên dương).
+
+Số tiền phải trả theo gói A là $3x$ (nghìn đồng); theo gói B là $45+x$ (nghìn đồng).
+
+Gói B rẻ hơn gói A khi
+$$45+x<3x.$$
+
+Suy ra $-2x<-45$, tức là $x>22{,}5$ (chia hai vế cho $-2<0$, đổi chiều).
+
+Vì $x$ là số nguyên nên giá trị nhỏ nhất của $x$ là $23$.
+
+Thử lại: với $23$ phút, gói A hết $3\cdot23=69$ (nghìn đồng), gói B hết $45+23=68$ (nghìn đồng).
+
+Vậy phải gọi ít nhất $23$ phút trong một tháng thì gói B rẻ hơn gói A.
 
 **Đáp số.** Ít nhất $23$ phút.
 :::

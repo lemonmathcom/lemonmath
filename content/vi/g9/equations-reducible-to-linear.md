@@ -149,7 +149,14 @@ Giải phương trình $(x-5)(3x+6)=0$.
 2. Cho $3x+6=0$.
 
 ::solution
-$x-5=0\iff x=5$; $3x+6=0\iff x=-2$.
+Ta có $(x-5)(3x+6)=0$.
+
+Tích bằng $0$ khi và chỉ khi có ít nhất một thừa số bằng $0$, nên ta giải hai phương trình sau:
+
+- $x-5=0$, suy ra $x=5$;
+- $3x+6=0$, hay $3x=-6$, suy ra $x=-2$.
+
+Vậy phương trình đã cho có hai nghiệm $x=5$ và $x=-2$.
 
 **Đáp số.** $x=5$ hoặc $x=-2$.
 :::
@@ -165,7 +172,15 @@ Giải phương trình $2x^2+7x=0$.
 2. Giải từng phương trình bậc nhất.
 
 ::solution
-$x(2x+7)=0\iff x=0$ hoặc $2x+7=0\iff x=-\dfrac72$.
+Đặt nhân tử chung $x$ ở vế trái, ta được
+$$2x^2+7x=0\iff x(2x+7)=0.$$
+
+Ta giải hai phương trình sau:
+
+- $x=0$;
+- $2x+7=0$, hay $2x=-7$, suy ra $x=-\dfrac72$.
+
+Vậy phương trình đã cho có hai nghiệm $x=0$ và $x=-\dfrac72$.
 
 **Đáp số.** $x=0$ hoặc $x=-\dfrac72$.
 :::
@@ -181,7 +196,18 @@ Giải phương trình $(2x-1)^2-(x+4)^2=0$.
 2. Rút gọn từng thừa số rồi giải.
 
 ::solution
-$(2x-1-x-4)(2x-1+x+4)=0\iff(x-5)(3x+3)=0\iff x=5$ hoặc $x=-1$.
+Vế trái có dạng hiệu hai bình phương $a^2-b^2=(a-b)(a+b)$ với $a=2x-1$ và $b=x+4$. Ta có
+$$\begin{aligned}
+(2x-1)^2-(x+4)^2&=\big[(2x-1)-(x+4)\big]\big[(2x-1)+(x+4)\big]\\
+&=(x-5)(3x+3).
+\end{aligned}$$
+
+Do đó phương trình đã cho trở thành $(x-5)(3x+3)=0$. Ta giải hai phương trình sau:
+
+- $x-5=0$, suy ra $x=5$;
+- $3x+3=0$, hay $3x=-3$, suy ra $x=-1$.
+
+Vậy phương trình đã cho có hai nghiệm $x=5$ và $x=-1$.
 
 **Đáp số.** $x=5$ hoặc $x=-1$.
 :::
@@ -198,7 +224,16 @@ Giải phương trình $\dfrac{3}{x-2}=\dfrac{5}{x+2}$.
 3. Giải và đối chiếu điều kiện.
 
 ::solution
-$3(x+2)=5(x-2)\iff 3x+6=5x-10\iff 2x=16\iff x=8$ (thoả mãn điều kiện).
+Điều kiện xác định: $x\neq2$ và $x\neq-2$.
+
+Quy đồng mẫu hai vế rồi khử mẫu, ta được
+$$3(x+2)=5(x-2).$$
+
+Suy ra $3x+6=5x-10$, hay $2x=16$, tức là $x=8$.
+
+Ta thấy $x=8$ thoả mãn điều kiện xác định.
+
+Vậy phương trình đã cho có nghiệm $x=8$.
 
 **Đáp số.** $x=8$.
 :::
@@ -215,7 +250,18 @@ Giải phương trình $\dfrac{x+1}{x-3}=2+\dfrac{4}{x-3}$.
 3. Đối chiếu điều kiện.
 
 ::solution
-$x+1=2(x-3)+4\iff x+1=2x-2\iff x=3$. Giá trị này không thoả mãn điều kiện $x\neq3$.
+Điều kiện xác định: $x\neq3$.
+
+Quy đồng mẫu hai vế với mẫu chung $x-3$, ta có
+$$\frac{x+1}{x-3}=\frac{2(x-3)+4}{x-3}.$$
+
+Khử mẫu, ta được $x+1=2(x-3)+4$.
+
+Suy ra $x+1=2x-2$, tức là $x=3$.
+
+Ta thấy $x=3$ không thoả mãn điều kiện xác định.
+
+Vậy phương trình đã cho vô nghiệm.
 
 **Đáp số.** Phương trình vô nghiệm.
 :::
@@ -232,7 +278,18 @@ Giải phương trình $\dfrac{2}{x+1}-\dfrac{1}{x-1}=\dfrac{3x-11}{x^2-1}$.
 3. Giải và đối chiếu.
 
 ::solution
-$2(x-1)-(x+1)=3x-11\iff x-3=3x-11\iff 2x=8\iff x=4$ (thoả mãn).
+Ta có $x^2-1=(x+1)(x-1)$. Điều kiện xác định: $x\neq1$ và $x\neq-1$.
+
+Quy đồng mẫu hai vế với mẫu chung $(x+1)(x-1)$, ta có
+$$\frac{2(x-1)-(x+1)}{(x+1)(x-1)}=\frac{3x-11}{(x+1)(x-1)}.$$
+
+Khử mẫu, ta được $2(x-1)-(x+1)=3x-11$.
+
+Suy ra $x-3=3x-11$, hay $2x=8$, tức là $x=4$.
+
+Ta thấy $x=4$ thoả mãn điều kiện xác định.
+
+Vậy phương trình đã cho có nghiệm $x=4$.
 
 **Đáp số.** $x=4$.
 :::
@@ -248,7 +305,22 @@ Với $120$ nghìn đồng, bạn Linh mua được số vở loại I bằng s�
 2. Lập phương trình $\dfrac{120}{x+2}=\dfrac{90}{x}$ và giải.
 
 ::solution
-Điều kiện $x>0$. $120x=90(x+2)\iff 30x=180\iff x=6$. Kiểm tra: $120:8=15$ và $90:6=15$.
+Gọi $x$ (nghìn đồng) là giá mỗi quyển vở loại II ($x>0$).
+
+Khi đó giá mỗi quyển vở loại I là $x+2$ (nghìn đồng).
+
+Số vở loại I mua được với $120$ nghìn đồng là $\dfrac{120}{x+2}$ (quyển). Số vở loại II mua được với $90$ nghìn đồng là $\dfrac{90}{x}$ (quyển).
+
+Vì hai số vở này bằng nhau nên ta có phương trình
+$$\frac{120}{x+2}=\frac{90}{x}.$$
+
+Quy đồng mẫu hai vế rồi khử mẫu, ta được $120x=90(x+2)$.
+
+Suy ra $120x=90x+180$, hay $30x=180$, tức là $x=6$.
+
+Ta thấy $x=6$ thoả mãn điều kiện $x>0$. Thử lại: $120:8=15$ (quyển) và $90:6=15$ (quyển).
+
+Vậy giá mỗi quyển vở loại II là $6$ nghìn đồng.
 
 **Đáp số.** $6$ nghìn đồng.
 :::
@@ -271,11 +343,30 @@ c) Tìm $x$ để $A=\dfrac12$.
 3. c) Giải $\dfrac{x+2}{x+3}=\dfrac12$, đối chiếu điều kiện.
 
 ::solution
-a) $x\neq3$ và $x\neq-3$.
+a) Ta có $x^2-9=(x-3)(x+3)$. Biểu thức $A$ xác định khi các mẫu khác $0$, tức là $x+3\neq0$ và $x-3\neq0$.
 
-b) $A=\dfrac{x(x-3)+2(x+3)-12}{(x-3)(x+3)}=\dfrac{x^2-x-6}{(x-3)(x+3)}=\dfrac{(x-3)(x+2)}{(x-3)(x+3)}=\dfrac{x+2}{x+3}$.
+Vậy điều kiện xác định của $A$ là $x\neq3$ và $x\neq-3$.
 
-c) $2(x+2)=x+3\iff x=-1$ (thoả mãn điều kiện).
+b) Với $x\neq3$ và $x\neq-3$, quy đồng mẫu với mẫu chung $(x-3)(x+3)$, ta có
+$$\begin{aligned}
+A&=\frac{x(x-3)+2(x+3)-12}{(x-3)(x+3)}\\
+&=\frac{x^2-3x+2x+6-12}{(x-3)(x+3)}\\
+&=\frac{x^2-x-6}{(x-3)(x+3)}.
+\end{aligned}$$
+
+Phân tích tử thức thành nhân tử: $x^2-x-6=x^2-3x+2x-6=x(x-3)+2(x-3)=(x-3)(x+2)$. Do đó
+$$A=\frac{(x-3)(x+2)}{(x-3)(x+3)}=\frac{x+2}{x+3}.$$
+
+Vậy $A=\dfrac{x+2}{x+3}$ với $x\neq3$ và $x\neq-3$.
+
+c) Với $x\neq3$ và $x\neq-3$, ta có $A=\dfrac12$ khi
+$$\frac{x+2}{x+3}=\frac12.$$
+
+Suy ra $2(x+2)=x+3$, hay $2x+4=x+3$, tức là $x=-1$.
+
+Ta thấy $x=-1$ thoả mãn điều kiện xác định.
+
+Vậy $A=\dfrac12$ khi $x=-1$.
 
 **Đáp số.** a) $x\neq\pm3$; b) $A=\dfrac{x+2}{x+3}$; c) $x=-1$.
 :::
@@ -291,7 +382,20 @@ Giải phương trình $x^3+2x^2-x-2=0$.
 2. Đặt nhân tử chung $x+2$, rồi dùng $x^2-1=(x-1)(x+1)$.
 
 ::solution
-$x^2(x+2)-(x+2)=0\iff(x+2)(x^2-1)=0\iff(x+2)(x-1)(x+1)=0$.
+Nhóm các hạng tử ở vế trái rồi đặt nhân tử chung, ta có
+$$\begin{aligned}
+x^3+2x^2-x-2&=x^2(x+2)-(x+2)\\
+&=(x+2)(x^2-1)\\
+&=(x+2)(x-1)(x+1).
+\end{aligned}$$
+
+Do đó phương trình đã cho trở thành $(x+2)(x-1)(x+1)=0$. Ta giải ba phương trình sau:
+
+- $x+2=0$, suy ra $x=-2$;
+- $x-1=0$, suy ra $x=1$;
+- $x+1=0$, suy ra $x=-1$.
+
+Vậy phương trình đã cho có ba nghiệm $x=-2$, $x=1$ và $x=-1$.
 
 **Đáp số.** $x=-2$, $x=1$ hoặc $x=-1$.
 :::

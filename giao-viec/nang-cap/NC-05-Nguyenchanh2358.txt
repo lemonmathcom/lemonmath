@@ -1,0 +1,829 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – tài khoản Nguyenchanh2358
+Giao ngày 11/11/2026. Việc này LÀM XEN KẼ với việc viết bài mới, không thay phân công cũ. Số bài học cần nâng cấp: 11.
+
+VIỆC CẦN LÀM
+Các bài học dưới đây đã có trên lemonmath.com, nhưng LỜI GIẢI của các bài tập còn vắn tắt (chỉ có phép tính). Hãy VIẾT LẠI LỜI GIẢI của từng bài tập cho chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (Kết nối tri thức), để học sinh có thể chép cách trình bày vào vở.
+KHÔNG đổi đề bài, KHÔNG đổi số liệu, KHÔNG đổi đáp số. Nếu phát hiện đáp số cũ sai, vẫn viết lời giải đúng và ghi thêm một dòng "GHI CHÚ: đáp số cũ sai vì …" ngay dưới lời giải đó.
+
+CÁCH TRÌNH BÀY LỜI GIẢI (bắt buộc)
+1. Mỗi ý là một đoạn ngắn, cách nhau một dòng trống:
+   - Đặt vấn đề: "Điều kiện xác định: …", "Gọi x (m) là … (x > 0).", "Gọi A là biến cố "…".", "Xét tam giác ABC vuông tại A, ta có …".
+   - Từng bước, mỗi bước một dòng, có lời dẫn và lí do: "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …".
+   - Phép tính dài viết ở dạng công thức riêng dòng $$ … $$.
+   - Bài có nhiều ý: mỗi ý a), b), c) bắt đầu một đoạn mới và có kết quả riêng.
+   - Câu kết luận đầy đủ: "Vậy …" (có đơn vị nếu là bài toán thực tế).
+   - Dòng cuối: **Đáp số.** … (giữ đúng đáp số cũ).
+2. Lớp 1–5 trình bày kiểu tiểu học: "Bài giải" → câu lời giải → phép tính → "Đáp số: …"; xưng "em", câu thật ngắn. Bài tính thuần tuý (Tính, Đặt tính rồi tính, Số?) thì viết rõ cách làm từng bước rồi nêu kết quả.
+3. Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện. Không dùng kí hiệu đô la cho tiền.
+4. Công thức viết bằng LaTeX trong $…$ như bản cũ. Bản Việt: số thập phân 2{,}5, khoảng (a; b). Bản Anh: 2.5, (a, b), chính tả Anh (metres, factorise).
+5. Độ dài: bài cơ bản 3–5 dòng, bài vận dụng 5–8 dòng, bài khó dài hơn nếu cần.
+6. Mỗi lời giải viết HAI bản: tiếng Việt và tiếng Anh, cùng các bước, cùng số liệu. Bản Anh: "We have …", "Hence …", "So …", dòng cuối **Answer.** …
+
+VÍ DỤ
+Lời giải cũ:   $3(x+2)=5(x-2)\iff 2x=16\iff x=8$ (thoả mãn điều kiện).
+Lời giải mới:
+Điều kiện xác định: $x\neq2$ và $x\neq-2$.
+
+Quy đồng mẫu hai vế rồi khử mẫu, ta được
+$$3(x+2)=5(x-2).$$
+
+Suy ra $3x+6=5x-10$, hay $2x=16$, tức là $x=8$.
+
+Ta thấy $x=8$ thoả mãn điều kiện xác định.
+
+Vậy phương trình đã cho có nghiệm $x=8$.
+
+**Đáp số.** $x=8$.
+
+CÁCH NỘP (rất quan trọng: máy sẽ tự ghép, nên phải đúng mẫu)
+Xuất MỘT file tên "NC-Nguyenchanh2358.md" (hết hạn mức thì nộp phần đã xong, lần sau làm tiếp và nộp file "NC-Nguyenchanh2358-2.md"). Trong file, mỗi bài học bắt đầu bằng dòng @@@ kèm mã bài chép y nguyên, rồi lần lượt từng bài tập:
+
+@@@ g9/cube-roots
+### 1 VI
+(lời giải mới của Bài 1, tiếng Việt)
+### 1 EN
+(lời giải mới của Bài 1, tiếng Anh)
+### 2 VI
+…
+
+Chỉ viết lời giải, không chép lại đề bài, không thêm lời bình ngoài mẫu trên. Lưu file vào thư mục Dropbox "viec da lam".
+
+===== CÁC BÀI HỌC CẦN NÂNG CẤP (11 bài) =====
+
+@@@ g1/position-and-direction
+(Bài học: Vị trí, định hướng trong không gian)
+
+--- Bài 1: ĐỀ BÀI ---
+Trong hàng ngang (vuông, tròn, tam giác từ trái sang phải), hình nào ở bên phải hình tròn?
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Sau hình tròn là hình tam giác.
+
+**Đáp số.** Hình tam giác.
+
+--- Bài 2: ĐỀ BÀI ---
+Trong hàng dọc (tam giác, vuông, tròn từ trên xuống dưới), hình nào ở trên cùng?
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hình đầu tiên từ trên xuống là hình tam giác.
+
+**Đáp số.** Hình tam giác.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước: viên xúc xắc đặt trên bàn. Xúc xắc có dạng khối gì? Vật nào ở dưới viên xúc xắc?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Xúc xắc là khối lập phương. Xúc xắc đặt trên bàn nên bàn ở dưới xúc xắc.
+
+**Đáp số.** Khối lập phương; cái bàn.
+
+--- Bài 4: ĐỀ BÀI ---
+Trong hàng ngang (vuông, tròn, tam giác từ trái sang phải):
+a) Hình tròn ở bên phải hình nào?
+b) Hình tam giác ở bên trái hay bên phải hình tròn?
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Hình tròn ở bên phải hình vuông. b) Hình tam giác đứng sau hình tròn nên ở bên phải.
+
+**Đáp số.** a) Hình vuông. b) Bên phải.
+
+--- Bài 5: ĐỀ BÀI ---
+Bình nói: "Hình vuông ở giữa" (trong hàng ngang vuông, tròn, tam giác). Bình nói đúng không? Vì sao?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hình vuông đứng đầu hàng, không có hình bên trái. Hình ở giữa là hình tròn.
+
+**Đáp số.** Sai. Hình tròn ở giữa.
+
+--- Bài 6: ĐỀ BÀI ---
+Lan đứng sau Mai, Mai đứng sau Nam. Lan nói: "Em đứng đầu hàng." Lan sai ở đâu? Ai đứng đầu?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Lan sau Mai, Mai sau Nam, nên thứ tự là Nam, Mai, Lan. Lan đứng cuối hàng.
+
+**Đáp số.** Sai. Nam đứng đầu hàng, Lan đứng cuối.
+
+--- Bài 7: ĐỀ BÀI ---
+Ba bạn ngồi cạnh nhau từ trái sang phải: An, Bình, Chi.
+a) Ai ngồi ở giữa?
+b) Ai ngồi bên phải Bình?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Bình có An bên trái và Chi bên phải. b) Sau Bình là Chi.
+
+**Đáp số.** a) Bình. b) Chi.
+
+--- Bài 8: ĐỀ BÀI ---
+Bốn bạn xếp hàng: Hà đứng trước Lan, Lan đứng trước Mai, Mai đứng trước Nam. Ai đứng thứ hai từ đầu hàng? Ai đứng cuối hàng?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Thứ tự từ đầu hàng: Hà, Lan, Mai, Nam.
+
+**Kiểm tra.** Hà trước Lan, Lan trước Mai, Mai trước Nam. Đúng.
+
+**Đáp số.** Lan đứng thứ hai; Nam đứng cuối.
+
+@@@ g1/squares-circles-triangles-rectangles
+(Bài học: Hình vuông, hình tròn, hình tam giác, hình chữ nhật)
+
+--- Bài 1: ĐỀ BÀI ---
+Mặt đồng hồ treo tường có dạng hình gì?
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Viền mặt đồng hồ cong đều, không có cạnh.
+
+**Đáp số.** Hình tròn.
+
+--- Bài 2: ĐỀ BÀI ---
+Hình có $3$ cạnh là hình gì?
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hình tam giác có $3$ cạnh.
+
+**Đáp số.** Hình tam giác.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước. a) $8$ cái bánh chia vào hai đĩa. Đĩa thứ nhất có $5$ cái bánh, $8$ gồm $5$ và $\square$. b) Hình có $4$ cạnh dài bằng nhau là hình gì?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Từ $5$ lên $8$ có $3$ số. b) Hình có $4$ cạnh dài bằng nhau là hình vuông.
+
+**Đáp số.** a) $3$. b) Hình vuông.
+
+--- Bài 4: ĐỀ BÀI ---
+a) Trong ba hình: hình vuông, hình tròn, hình tam giác, hình nào không có cạnh?
+b) Hình chữ nhật có mấy cạnh?
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Hình tròn không có cạnh. b) Hình chữ nhật có $4$ cạnh.
+
+**Đáp số.** a) Hình tròn. b) $4$ cạnh.
+
+--- Bài 5: ĐỀ BÀI ---
+An nói: "Tờ giấy có $4$ cạnh, hai cạnh dài, hai cạnh ngắn là hình vuông." An nói đúng không? Vì sao?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Tờ giấy có cạnh dài và cạnh ngắn, nên các cạnh không bằng nhau hết. An nói sai.
+
+**Đáp số.** Sai. Tờ giấy là hình chữ nhật.
+
+--- Bài 6: ĐỀ BÀI ---
+Mai nói: "Hình tam giác có $4$ cạnh." Mai sai ở đâu? Nói lại cho đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hình tam giác chỉ có $3$ cạnh, không phải $4$.
+
+**Đáp số.** Hình tam giác có $3$ cạnh.
+
+--- Bài 7: ĐỀ BÀI ---
+Bảng cho biết số hình trong một bức tranh:
+
+| Hình | Vuông | Tròn | Tam giác | Chữ nhật |
+|---|---|---|---|---|
+| Số hình | $3$ | $5$ | $2$ | $4$ |
+
+![Bức tranh đoàn tàu ghép từ ba hình vuông, năm hình tròn, hai hình tam giác và bốn hình chữ nhật](/assets/img/g1/g1-squares-circles-triangles-rectangles-02.svg)
+
+a) Hình nào nhiều nhất?
+b) Hình nào ít nhất?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Số lớn nhất là $5$, ở hình tròn. b) Số bé nhất là $2$, ở hình tam giác.
+
+**Đáp số.** a) Hình tròn. b) Hình tam giác.
+
+--- Bài 8: ĐỀ BÀI ---
+Em cắt một tờ giấy hình vuông theo một đường thẳng nối hai góc đối diện. Em được mấy mảnh? Mỗi mảnh là hình gì?
+
+![Tờ giấy hình vuông có đường cắt chéo nét đứt và biểu tượng kéo](/assets/img/g1/g1-squares-circles-triangles-rectangles-03.svg)
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Đường cắt chia hình vuông thành $2$ phần. Mỗi phần có $3$ cạnh.
+
+**Kiểm tra.** Hai mảnh ghép lại thành hình vuông ban đầu.
+
+**Đáp số.** $2$ mảnh, mỗi mảnh là hình tam giác.
+
+@@@ g1/subtract-1-digit-from-2-digit
+(Bài học: Phép trừ số có hai chữ số cho số có một chữ số)
+
+--- Bài 1: ĐỀ BÀI ---
+Tính $38-5$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$8-5=3$, hàng chục là $3$, nên $38-5=33$.
+
+**Đáp số.** $33$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tính $79-6$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$9-6=3$, hàng chục là $7$, nên $79-6=73$.
+
+**Đáp số.** $73$.
+
+--- Bài 3: ĐỀ BÀI ---
+Tính $64-4$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$4-4=0$, hàng chục là $6$, nên $64-4=60$.
+
+**Đáp số.** $60$.
+
+--- Bài 4: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $48-5 \;\square\; 40$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$8-5=3$, nên $48-5=43$. Vì $43>40$ nên $48-5>40$.
+
+**Đáp số.** Dấu $>$.
+
+--- Bài 5: ĐỀ BÀI ---
+Hộp có $45$ cái kẹo. Em ăn hết $3$ cái. Hỏi trong hộp còn lại bao nhiêu cái kẹo?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số cái kẹo còn lại là:
+$$45-3=42\ \text{(cái)}.$$
+
+**Đáp số.** $42$ cái kẹo.
+
+--- Bài 6: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước: cộng hai số có hai chữ số. Tính $32+45$, rồi trừ kết quả cho $6$.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$32+45=77$. Rồi $7-6=1$, hàng chục là $7$, nên $77-6=71$.
+
+**Đáp số.** $71$.
+
+--- Bài 7: ĐỀ BÀI ---
+Lan làm bài: $46-3=16$. Lan làm đúng hay sai? Vì sao? Hãy sửa lại cho đúng.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Lan sai, vì Lan trừ $3$ ở hàng chục ($4$ chục thành $1$ chục). Cách đúng: $6-3=3$, hàng chục là $4$, nên $46-3=43$.
+
+**Đáp số.** Sai; kết quả đúng là $43$.
+
+--- Bài 8: ĐỀ BÀI ---
+Tìm số thích hợp điền vào ô trống: $\square-5=32$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hàng đơn vị: $7-5=2$. Hàng chục là $3$, nên số cần điền là $37$.
+
+**Kiểm tra.** $37-5=32$. Đúng.
+
+**Đáp số.** $37$.
+
+@@@ g1/subtract-2-digit-numbers
+(Bài học: Phép trừ số có hai chữ số cho số có hai chữ số)
+
+--- Bài 1: ĐỀ BÀI ---
+Tính $68-35$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hàng đơn vị: $8-5=3$. Hàng chục: $6-3=3$. Vậy $68-35=33$.
+
+**Đáp số.** $33$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tính $94-72$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hàng đơn vị: $4-2=2$. Hàng chục: $9-7=2$. Vậy $94-72=22$.
+
+**Đáp số.** $22$.
+
+--- Bài 3: ĐỀ BÀI ---
+Tính $79-40$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hàng đơn vị: $9-0=9$. Hàng chục: $7-4=3$. Vậy $79-40=39$.
+
+**Đáp số.** $39$.
+
+--- Bài 4: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $76-32 \;\square\; 40$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$6-2=4$ và $7-3=4$, nên $76-32=44$. Vì $44>40$ nên $76-32>40$.
+
+**Đáp số.** Dấu $>$.
+
+--- Bài 5: ĐỀ BÀI ---
+Rổ có $76$ quả cam. Cô bán đi $34$ quả. Hỏi trong rổ còn lại bao nhiêu quả cam?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số quả cam còn lại là:
+$$76-34=42\ \text{(quả)}.$$
+
+**Đáp số.** $42$ quả cam.
+
+--- Bài 6: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước: trừ số có hai chữ số cho số có một chữ số. Tính $48-5$, rồi trừ kết quả cho $21$.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$8-5=3$, nên $48-5=43$. Rồi $3-1=2$ và $4-2=2$, nên $43-21=22$.
+
+**Đáp số.** $22$.
+
+--- Bài 7: ĐỀ BÀI ---
+Hà làm bài: "$86-24$: hàng đơn vị $6-4=2$, hàng chục $8-2=6$, nên $86-24=26$". Hà làm đúng hay sai? Vì sao? Hãy sửa lại cho đúng.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hai phép trừ của Hà đúng, nhưng Hà viết nhầm chỗ. Có $6$ chục và $2$ đơn vị nên $86-24=62$.
+
+**Đáp số.** Sai; kết quả đúng là $62$.
+
+--- Bài 8: ĐỀ BÀI ---
+Tìm chữ số thích hợp điền vào ô trống: $7\square-24=51$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hàng đơn vị: $5-4=1$. Số cần tìm là $75$, và chữ số cần điền là $5$.
+
+**Kiểm tra.** $75-24=51$. Đúng.
+
+**Đáp số.** $5$.
+
+@@@ g1/subtraction-within-10
+(Bài học: Phép trừ trong phạm vi 10)
+
+--- Bài 1: ĐỀ BÀI ---
+Tính $5-2$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Từ $5$ đếm lùi hai số: "bốn, ba".
+
+**Đáp số.** $5-2=3$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tính $9-4$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Từ $9$ đếm lùi bốn số: "tám, bảy, sáu, năm".
+
+**Đáp số.** $9-4=5$.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước: $3+4=7$. Từ đó tính $7-4$ và $7-3$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$7-4$: "sáu, năm, bốn, ba", được $3$. $7-3$: "sáu, năm, bốn", được $4$.
+
+**Đáp số.** $7-4=3$; $7-3=4$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tìm số thích hợp:
+a) $7-\square=5$.
+b) $4-\square=4$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Từ $7$ lùi về $5$: "sáu, năm", lùi $2$ số. b) Còn nguyên $4$ nên bớt đi $0$.
+
+**Đáp số.** a) $2$. b) $0$.
+
+--- Bài 5: ĐỀ BÀI ---
+Nam nói: "$8-3=6$ vì em đếm lùi tám, bảy, sáu." Nam đúng không? Vì sao?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Từ $8$ cần đếm lùi $3$ số: "bảy, sáu, năm". Nam chỉ lùi $2$ số.
+
+**Đáp số.** Sai. $8-3=5$.
+
+--- Bài 6: ĐỀ BÀI ---
+Mai viết $2-5=3$. Mai sai ở đâu? Viết lại cho đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Từ $2$ cái không thể bớt $5$ cái. Mai đã đảo hai số. Phép tính đúng là $5-2$: từ $5$ lùi hai số "bốn, ba".
+
+**Đáp số.** $5-2=3$.
+
+--- Bài 7: ĐỀ BÀI ---
+Hà có $10$ cái bánh. Hà cho bạn $6$ cái bánh. Hỏi Hà còn lại bao nhiêu cái bánh?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số bánh còn lại là:
+$$10-6=4\ \text{(cái)}.$$
+
+**Kiểm tra.** $4+6=10$. Đúng.
+
+**Đáp số.** $4$ cái bánh.
+
+--- Bài 8: ĐỀ BÀI ---
+Điền dấu $+$ hoặc $-$ vào ô trống:
+a) $6 \;\square\; 2 = 4$.
+b) $6 \;\square\; 2 = 8$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $4$ bé hơn $6$ nên bớt: $6-2=4$. b) $8$ lớn hơn $6$ nên cộng: $6+2=8$.
+
+**Kiểm tra.** Từ $6$ lùi hai số "năm, bốn"; từ $6$ tiến hai số "bảy, tám". Đúng.
+
+**Đáp số.** a) dấu $-$. b) dấu $+$.
+
+@@@ g1/two-digit-numbers
+(Bài học: Số có hai chữ số)
+
+--- Bài 1: ĐỀ BÀI ---
+Số $34$ gồm $\square$ chục và $\square$ đơn vị.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Chữ số hàng chục là $3$, chữ số hàng đơn vị là $4$.
+
+**Đáp số.** $3$ chục và $4$ đơn vị.
+
+--- Bài 2: ĐỀ BÀI ---
+Viết số gồm $6$ chục và $2$ đơn vị.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Viết $6$ rồi đến $2$.
+
+**Đáp số.** $62$.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước: hàng có $6$ bạn, Nam đứng thứ tư từ đầu hàng. Có mấy bạn đứng sau Nam?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Sau bạn thứ tư là bạn thứ năm và bạn thứ sáu, có $2$ bạn.
+
+**Đáp số.** $2$ bạn.
+
+--- Bài 4: ĐỀ BÀI ---
+a) Số $70$ gồm mấy chục và mấy đơn vị?
+b) Viết số gồm $9$ chục và $1$ đơn vị.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $70$ có chữ số hàng chục là $7$ và hàng đơn vị là $0$. b) Viết $9$ rồi $1$.
+
+**Đáp số.** a) $7$ chục và $0$ đơn vị. b) $91$.
+
+--- Bài 5: ĐỀ BÀI ---
+Nam nói: "$32$ và $23$ là cùng một số vì cùng có chữ số $2$ và $3$." Nam đúng không? Vì sao?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$32$ gồm $3$ chục $2$ đơn vị. $23$ gồm $2$ chục $3$ đơn vị. Hai số khác nhau.
+
+**Đáp số.** Sai. $32$ và $23$ là hai số khác nhau.
+
+--- Bài 6: ĐỀ BÀI ---
+Mai nói: "$5$ chục viết là $5$." Mai sai ở đâu? Viết lại cho đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hàng chục là $5$, hàng đơn vị là $0$. Mai quên chữ số $0$.
+
+**Đáp số.** $5$ chục viết là $50$.
+
+--- Bài 7: ĐỀ BÀI ---
+Có $4$ bó que tính, mỗi bó $10$ que, và $5$ que lẻ. Hỏi có tất cả bao nhiêu que tính?
+
+![Bốn bó que tính, mỗi bó mười que, và năm que lẻ](/assets/img/g1/g1-two-digit-numbers-02.svg)
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$4$ bó là $4$ chục, $5$ que lẻ là $5$ đơn vị, nên có $45$ que.
+
+**Đáp số.** $45$ que tính.
+
+--- Bài 8: ĐỀ BÀI ---
+Số có hai chữ số, chữ số hàng chục là $4$ và chữ số hàng đơn vị bé hơn $2$. Đó là những số nào?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Chữ số hàng đơn vị là $0$ hoặc $1$, nên có hai số là $40$ và $41$.
+
+**Kiểm tra.** Cả hai số đều có $4$ chục và số đơn vị bé hơn $2$. Đúng.
+
+**Đáp số.** $40$ và $41$.
+
+@@@ g2/addition-crossing-10
+(Bài học: Phép cộng (qua 10) trong phạm vi 20)
+
+--- Bài 1: ĐỀ BÀI ---
+Tính $9+3$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$9+3=9+1+2=10+2=12$.
+
+**Đáp số.** $12$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tính $8+4$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$8+4=8+2+2=10+2=12$.
+
+**Đáp số.** $12$.
+
+--- Bài 3: ĐỀ BÀI ---
+Tính $7+5$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$7+5=7+3+2=10+2=12$.
+
+**Đáp số.** $12$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tính $5+9$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$5+9=9+5=9+1+4=10+4=14$.
+
+**Đáp số.** $14$.
+
+--- Bài 5: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $8+6 \;\square\; 15$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$8+6=8+2+4=14$. Vì $14<15$ nên $8+6<15$.
+
+**Đáp số.** Dấu $<$.
+
+--- Bài 6: ĐỀ BÀI ---
+Trong vườn có $9$ con gà mái và $6$ con gà trống. Hỏi trong vườn có tất cả bao nhiêu con gà?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số con gà có tất cả là:
+$$9+6=9+1+5=10+5=15\ \text{(con)}.$$
+
+**Đáp số.** $15$ con gà.
+
+--- Bài 7: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước: số liền sau của $12$ là số nào? Rồi tính: (số liền sau của $12$) $+\,7$.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số liền sau của $12$ là $13$. Ta có $13+7=20$ (vì $3+7=10$, và $10$ cùng với $10$ là $20$).
+
+**Đáp số.** $20$.
+
+--- Bài 8: ĐỀ BÀI ---
+Tìm số thích hợp điền vào ô trống: $\square+8=15$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Từ $8$ lên $10$ cần $2$, từ $10$ lên $15$ cần $5$, nên số cần điền là $2+5=7$.
+
+**Kiểm tra.** $7+8=15$. Đúng.
+
+**Đáp số.** $7$.
+
+@@@ g2/comparing-multiples-of-10-100
+(Bài học: So sánh các số tròn trăm, tròn chục)
+
+--- Bài 1: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$.
+
+a) $20\;\square\;40$.
+
+b) $70\;\square\;30$.
+
+c) $50\;\square\;50$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $2$ chục bé hơn $4$ chục. b) $7$ chục lớn hơn $3$ chục. c) Hai số bằng nhau.
+
+**Đáp số.** a) $<$; b) $>$; c) $=$.
+
+--- Bài 2: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$.
+
+a) $300\;\square\;800$.
+
+b) $900\;\square\;600$.
+
+c) $400\;\square\;400$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $3$ trăm bé hơn $8$ trăm. b) $9$ trăm lớn hơn $6$ trăm. c) Hai số bằng nhau.
+
+**Đáp số.** a) $<$; b) $>$; c) $=$.
+
+--- Bài 3: ĐỀ BÀI ---
+Em nhớ lại bài trước. Viết $6$ chục và $4$ trăm thành số, rồi điền dấu: $6$ chục $\;\square\;$ $4$ trăm.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$6$ chục là $60$, $4$ trăm là $400$. $60$ chưa đủ $1$ trăm nên bé hơn $400$.
+
+**Đáp số.** $60<400$.
+
+--- Bài 4: ĐỀ BÀI ---
+Sắp xếp các số.
+
+a) Từ bé đến lớn: $60, 10, 90, 30$.
+
+b) Từ lớn đến bé: $200, 700, 100, 500$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Chục: $6, 1, 9, 3$. Từ bé đến lớn: $1, 3, 6, 9$ chục. b) Trăm: $2, 7, 1, 5$. Từ lớn đến bé: $7, 5, 2, 1$ trăm.
+
+**Đáp số.** a) $10, 30, 60, 90$; b) $700, 500, 200, 100$.
+
+--- Bài 5: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$: $50\;\square\;500$. Vì sao?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$500$ là $5$ trăm, tức $50$ chục. $50$ chục lớn hơn $5$ chục.
+
+**Đáp số.** $50<500$.
+
+--- Bài 6: ĐỀ BÀI ---
+Nam nói: "$90>100$ vì $9>1$." Nam sai ở đâu? Sửa lại cho đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$100$ là $10$ chục, còn $90$ chỉ có $9$ chục. Nam không được so sánh chữ số đầu.
+
+**Đáp số.** $90<100$.
+
+--- Bài 7: ĐỀ BÀI ---
+Siêu thị có $60$ lon sữa và $40$ lon nước ngọt. Loại nào có nhiều lon hơn?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$6$ chục lớn hơn $4$ chục, nên $60>40$.
+
+**Đáp số.** Lon sữa nhiều hơn.
+
+--- Bài 8: ĐỀ BÀI ---
+Tìm tất cả các số tròn chục lớn hơn $30$ và bé hơn $70$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Sau $30$ là $40, 50, 60$, rồi đến $70$ (không được lấy $70$).
+
+**Kiểm tra.** $30<40<50<60<70$. Đúng.
+
+**Đáp số.** $40$, $50$, $60$.
+
+@@@ g2/comparing-three-digit-numbers
+(Bài học: So sánh các số có ba chữ số)
+
+--- Bài 1: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$.
+
+a) $243\;\square\;351$.
+
+b) $780\;\square\;620$.
+
+c) $505\;\square\;505$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $2<3$ nên $243<351$. b) $7>6$ nên $780>620$. c) Hai số giống nhau.
+
+**Đáp số.** a) $<$; b) $>$; c) $=$.
+
+--- Bài 2: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$.
+
+a) $352\;\square\;358$.
+
+b) $910\;\square\;190$.
+
+c) $467\;\square\;427$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Hàng đơn vị $2<8$. b) Hàng trăm $9>1$. c) Hàng chục $6>2$.
+
+**Đáp số.** a) $<$; b) $>$; c) $>$.
+
+--- Bài 3: ĐỀ BÀI ---
+Em nhớ lại bài trước. Viết $428$ và $482$ thành tổng các trăm, chục, đơn vị rồi so sánh hai số.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$428=400+20+8$ và $482=400+80+2$. Hàng trăm bằng nhau, hàng chục $2<8$.
+
+**Đáp số.** $428<482$.
+
+--- Bài 4: ĐỀ BÀI ---
+Sắp xếp các số.
+
+a) Từ bé đến lớn: $450, 405, 540, 504$.
+
+b) Từ lớn đến bé: $899, 989, 998$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $405<450<504<540$. b) Hàng trăm: $8, 9, 9$; hai số có hàng trăm $9$ so tiếp hàng chục: $8<9$, nên $989<998$. Vậy $998>989>899$.
+
+**Đáp số.** a) $405, 450, 504, 540$; b) $998, 989, 899$.
+
+--- Bài 5: ĐỀ BÀI ---
+Số nào lớn nhất trong ba số $376, 367, 673$? Vì sao?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hàng trăm lần lượt là $3, 3, 6$. Số $673$ có hàng trăm lớn nhất.
+
+**Đáp số.** $673$.
+
+--- Bài 6: ĐỀ BÀI ---
+Nam nói: "$349>351$ vì $9>1$." Nam sai ở đâu? Sửa lại cho đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hàng trăm $3$ và $3$ bằng nhau, hàng chục $4<5$. Nam đã so sánh hàng đơn vị trước nên sai.
+
+**Đáp số.** $349<351$.
+
+--- Bài 7: ĐỀ BÀI ---
+Trường A có $428$ học sinh, trường B có $482$ học sinh. Trường nào đông học sinh hơn?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hàng trăm bằng nhau, hàng chục $2<8$ nên $428<482$.
+
+**Đáp số.** Trường B đông học sinh hơn.
+
+--- Bài 8: ĐỀ BÀI ---
+Tìm chữ số thích hợp thay cho $\square$ để $475<4\square5<495$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Thử $\square=7$: $475$ không lớn hơn $475$. Thử $\square=8$: $485$ lớn hơn $475$ và bé hơn $495$. Thử $\square=9$: $495$ không bé hơn $495$.
+
+**Kiểm tra.** $475<485<495$. Đúng.
+
+**Đáp số.** $\square=8$.
+
+@@@ g2/cylinders-and-spheres
+(Bài học: Khối trụ, khối cầu)
+
+--- Bài 1: ĐỀ BÀI ---
+Mỗi đồ vật có dạng khối trụ hay khối cầu?
+
+a) Lon nước ngọt.
+
+b) Quả bóng bàn.
+
+c) Cái trống.
+
+d) Viên bi.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Lon nước ngọt và cái trống có hai đáy phẳng. Quả bóng bàn và viên bi không có mặt phẳng.
+
+**Đáp số.** a) khối trụ; b) khối cầu; c) khối trụ; d) khối cầu.
+
+--- Bài 2: ĐỀ BÀI ---
+Điền số thích hợp.
+
+a) Khối trụ có $\square$ mặt phẳng.
+
+b) Khối trụ có $\square$ mặt cong.
+
+c) Khối cầu có $\square$ mặt phẳng.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Khối trụ có hai đáy phẳng và một mặt cong. Khối cầu không có mặt phẳng.
+
+**Đáp số.** a) $2$; b) $1$; c) $0$.
+
+--- Bài 3: ĐỀ BÀI ---
+Câu nào đúng, câu nào sai?
+
+a) Khối cầu có mặt phẳng.
+
+b) Khối trụ xếp chồng lên nhau được.
+
+c) Quả bóng lăn được theo mọi hướng.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Sai vì khối cầu không có mặt phẳng. b) Đúng vì khối trụ có đáy phẳng. c) Đúng vì khối cầu lăn theo mọi hướng.
+
+**Đáp số.** a) Sai; b) Đúng; c) Đúng.
+
+--- Bài 4: ĐỀ BÀI ---
+Trong các đồ vật sau, vật nào không cùng nhóm với các vật còn lại: lon sữa, cái trống, quả bóng, cái cốc hình trụ?
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Lon sữa, cái trống, cái cốc là khối trụ. Quả bóng là khối cầu.
+
+**Đáp số.** Quả bóng.
+
+--- Bài 5: ĐỀ BÀI ---
+Em muốn xếp một cái tháp cao bằng các đồ vật. Em chọn lon sữa hay quả bóng? Vì sao?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Lon sữa là khối trụ, có đáy phẳng nên xếp chồng được. Quả bóng là khối cầu, không có mặt phẳng nên sẽ lăn đi.
+
+**Đáp số.** Chọn lon sữa.
+
+--- Bài 6: ĐỀ BÀI ---
+Mai nói: "Quả cam tròn có hai mặt phẳng nên là khối trụ." Lời nói của Mai sai ở đâu? Sửa lại cho đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Quả cam tròn không có mặt phẳng nào, nên Mai nói sai. Vật không có mặt phẳng là khối cầu.
+
+**Đáp số.** Quả cam tròn có dạng khối cầu.
+
+--- Bài 7: ĐỀ BÀI ---
+Cô bán hàng có $20$ lon sữa, xếp thành $5$ chồng bằng nhau. Hỏi mỗi chồng có bao nhiêu lon sữa? (Em nhớ lại bảng chia $5$.)
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số lon sữa mỗi chồng là:
+$$20:5=4\ \text{(lon)}.$$
+
+**Kiểm tra.** $4\times5=20$. Đúng.
+
+**Đáp số.** $4$ lon sữa.
+
+--- Bài 8: ĐỀ BÀI ---
+Một em bé có $3$ khối trụ và $2$ khối cầu. Hỏi tất cả các khối đó có bao nhiêu mặt phẳng?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Ba khối trụ có $3\times2=6$ mặt phẳng. Hai khối cầu có $2\times0=0$ mặt phẳng. Tổng số mặt phẳng là $6+0=6$.
+
+**Đáp số.** $6$ mặt phẳng.
+
+@@@ g2/decimetres-metres-kilometres
+(Bài học: Đề-xi-mét. Mét. Ki-lô-mét)
+
+--- Bài 1: ĐỀ BÀI ---
+Điền số thích hợp.
+
+a) $1$ dm $=\square$ cm.
+
+b) $1$ m $=\square$ dm.
+
+c) $1$ km $=\square$ m.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Một đề-xi-mét bằng mười xăng-ti-mét, một mét bằng mười đề-xi-mét, một ki-lô-mét bằng một nghìn mét.
+
+**Đáp số.** a) $10$; b) $10$; c) $1000$.
+
+--- Bài 2: ĐỀ BÀI ---
+Đổi đơn vị.
+
+a) $3$ m $=\square$ dm.
+
+b) $50$ dm $=\square$ m.
+
+c) $7$ dm $=\square$ cm.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $3\times10=30$. b) $50$ dm có $5$ nhóm $10$ dm nên là $5$ m. c) $7\times10=70$.
+
+**Đáp số.** a) $30$; b) $5$; c) $70$.
+
+--- Bài 3: ĐỀ BÀI ---
+Em nhớ lại bài trước. Quãng đường A dài $450$ m, quãng đường B dài $405$ m. Điền dấu $>$, $<$ hoặc $=$ rồi cho biết quãng đường nào dài hơn.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hàng trăm bằng nhau là $4$. Hàng chục $5>0$ nên $450>405$.
+
+**Đáp số.** $450>405$; quãng đường A dài hơn.
+
+--- Bài 4: ĐỀ BÀI ---
+Tính.
+
+a) $6$ dm $+3$ dm.
+
+b) $15$ m $-8$ m.
+
+c) $20$ km $-5$ km.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $6+3=9$. b) $15-8=7$. c) $20-5=15$.
+
+**Đáp số.** a) $9$ dm; b) $7$ m; c) $15$ km.
+
+--- Bài 5: ĐỀ BÀI ---
+Chọn đơn vị (dm, m hay km) thích hợp. Vì sao?
+
+a) Chiều cao của cái bàn học.
+
+b) Chiều dài sân trường.
+
+c) Đường từ nhà em đến thành phố ở xa.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Bàn học không quá dài, chọn dm. b) Sân trường dài hơn bàn nhiều, chọn m. c) Đường đến thành phố rất dài, chọn km.
+
+**Đáp số.** a) dm; b) m; c) km.
+
+--- Bài 6: ĐỀ BÀI ---
+Mai nói: "$1$ m $=100$ dm." Mai sai ở đâu? Sửa lại cho đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Thước mét dài bằng $10$ thước $1$ dm, không phải $100$.
+
+**Đáp số.** $1$ m $=10$ dm.
+
+--- Bài 7: ĐỀ BÀI ---
+Sáng nay Nam đi bộ $3$ km, chiều nay Nam đi bộ $2$ km. Hỏi cả hai buổi Nam đi bộ bao nhiêu ki-lô-mét?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Quãng đường cả hai buổi là:
+$$3+2=5\ \text{(km)}.$$
+
+**Đáp số.** $5$ km.
+
+--- Bài 8: ĐỀ BÀI ---
+Một sợi dây dài $3$ m. Người ta cắt thành các đoạn dài $5$ dm. Cắt được bao nhiêu đoạn?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$3$ m $=30$ dm. Số đoạn dây là $30:5=6$ (đoạn).
+
+**Kiểm tra.** $6\times5=30$. Đúng.
+
+**Đáp số.** $6$ đoạn.

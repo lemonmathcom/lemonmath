@@ -1,0 +1,610 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – tài khoản chanh106
+Giao ngày 11/11/2026. Việc này LÀM XEN KẼ với việc viết bài mới, không thay phân công cũ. Số bài học cần nâng cấp: 8.
+
+VIỆC CẦN LÀM
+Các bài học dưới đây đã có trên lemonmath.com, nhưng LỜI GIẢI của các bài tập còn vắn tắt (chỉ có phép tính). Hãy VIẾT LẠI LỜI GIẢI của từng bài tập cho chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (Kết nối tri thức), để học sinh có thể chép cách trình bày vào vở.
+KHÔNG đổi đề bài, KHÔNG đổi số liệu, KHÔNG đổi đáp số. Nếu phát hiện đáp số cũ sai, vẫn viết lời giải đúng và ghi thêm một dòng "GHI CHÚ: đáp số cũ sai vì …" ngay dưới lời giải đó.
+
+CÁCH TRÌNH BÀY LỜI GIẢI (bắt buộc)
+1. Mỗi ý là một đoạn ngắn, cách nhau một dòng trống:
+   - Đặt vấn đề: "Điều kiện xác định: …", "Gọi x (m) là … (x > 0).", "Gọi A là biến cố "…".", "Xét tam giác ABC vuông tại A, ta có …".
+   - Từng bước, mỗi bước một dòng, có lời dẫn và lí do: "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …".
+   - Phép tính dài viết ở dạng công thức riêng dòng $$ … $$.
+   - Bài có nhiều ý: mỗi ý a), b), c) bắt đầu một đoạn mới và có kết quả riêng.
+   - Câu kết luận đầy đủ: "Vậy …" (có đơn vị nếu là bài toán thực tế).
+   - Dòng cuối: **Đáp số.** … (giữ đúng đáp số cũ).
+2. Lớp 1–5 trình bày kiểu tiểu học: "Bài giải" → câu lời giải → phép tính → "Đáp số: …"; xưng "em", câu thật ngắn. Bài tính thuần tuý (Tính, Đặt tính rồi tính, Số?) thì viết rõ cách làm từng bước rồi nêu kết quả.
+3. Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện. Không dùng kí hiệu đô la cho tiền.
+4. Công thức viết bằng LaTeX trong $…$ như bản cũ. Bản Việt: số thập phân 2{,}5, khoảng (a; b). Bản Anh: 2.5, (a, b), chính tả Anh (metres, factorise).
+5. Độ dài: bài cơ bản 3–5 dòng, bài vận dụng 5–8 dòng, bài khó dài hơn nếu cần.
+6. Mỗi lời giải viết HAI bản: tiếng Việt và tiếng Anh, cùng các bước, cùng số liệu. Bản Anh: "We have …", "Hence …", "So …", dòng cuối **Answer.** …
+
+VÍ DỤ
+Lời giải cũ:   $3(x+2)=5(x-2)\iff 2x=16\iff x=8$ (thoả mãn điều kiện).
+Lời giải mới:
+Điều kiện xác định: $x\neq2$ và $x\neq-2$.
+
+Quy đồng mẫu hai vế rồi khử mẫu, ta được
+$$3(x+2)=5(x-2).$$
+
+Suy ra $3x+6=5x-10$, hay $2x=16$, tức là $x=8$.
+
+Ta thấy $x=8$ thoả mãn điều kiện xác định.
+
+Vậy phương trình đã cho có nghiệm $x=8$.
+
+**Đáp số.** $x=8$.
+
+CÁCH NỘP (rất quan trọng: máy sẽ tự ghép, nên phải đúng mẫu)
+Xuất MỘT file tên "NC-chanh106.md" (hết hạn mức thì nộp phần đã xong, lần sau làm tiếp và nộp file "NC-chanh106-2.md"). Trong file, mỗi bài học bắt đầu bằng dòng @@@ kèm mã bài chép y nguyên, rồi lần lượt từng bài tập:
+
+@@@ g9/cube-roots
+### 1 VI
+(lời giải mới của Bài 1, tiếng Việt)
+### 1 EN
+(lời giải mới của Bài 1, tiếng Anh)
+### 2 VI
+…
+
+Chỉ viết lời giải, không chép lại đề bài, không thêm lời bình ngoài mẫu trên. Lưu file vào thư mục Dropbox "viec da lam".
+
+===== CÁC BÀI HỌC CẦN NÂNG CẤP (8 bài) =====
+
+@@@ g5/one-number-as-percentage
+(Bài học: Tìm tỉ số phần trăm của hai số)
+
+--- Bài 1: ĐỀ BÀI ---
+Tìm tỉ số phần trăm của $3$ và $5$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$3:5=0{,}6;\qquad 0{,}6\times100=60.$$
+
+**Đáp số.** $60\%$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tìm tỉ số phần trăm của $18$ và $24$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$18:24=0{,}75;\qquad 0{,}75\times100=75.$$
+
+**Đáp số.** $75\%$.
+
+--- Bài 3: ĐỀ BÀI ---
+Tìm tỉ số phần trăm của $5$ và $8$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$5:8=0{,}625;\qquad 0{,}625\times100=62{,}5.$$
+
+**Đáp số.** $62{,}5\%$.
+
+--- Bài 4: ĐỀ BÀI ---
+Viết phân số $\dfrac{13}{20}$ thành tỉ số phần trăm.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$13:20=0{,}65;\qquad 0{,}65\times100=65.$$
+
+**Cách khác.** Nhân cả tử số và mẫu số với $5$: $\dfrac{13}{20}=\dfrac{65}{100}=65\%$.
+
+**Đáp số.** $65\%$.
+
+--- Bài 5: ĐỀ BÀI ---
+Trong vườn có $40$ cây, trong đó $14$ cây là cây cam. Hỏi cây cam chiếm bao nhiêu phần trăm số cây trong vườn?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$14:40=0{,}35;\qquad 0{,}35\times100=35.$$
+Vậy cây cam chiếm $35\%$ số cây trong vườn.
+
+**Đáp số.** $35\%$.
+
+--- Bài 6: ĐỀ BÀI ---
+Quãng đường từ nhà Bình đến trường dài $1{,}5$ km. Sáng nay Bình đã đi được $600$ m. Hỏi Bình đã đi được bao nhiêu phần trăm quãng đường?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Đổi $1{,}5\ \text{km}=1500\ \text{m}$. Ta có:
+$$600:1500=0{,}4;\qquad 0{,}4\times100=40.$$
+Vậy Bình đã đi được $40\%$ quãng đường.
+
+**Đáp số.** $40\%$.
+
+--- Bài 7: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước. Hiệu của hai số là $24$, tỉ số của số bé và số lớn là $\dfrac{3}{5}$.
+
+a) Tìm hai số đó.
+
+b) Số bé bằng bao nhiêu phần trăm số lớn?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Hiệu số phần là $5-3=2$. Giá trị một phần là $24:2=12$. Số bé là $12\times3=36$, số lớn là $12\times5=60$.
+
+**Kiểm tra.** $60-36=24$. Đúng.
+
+b) Ta lấy số bé chia cho số lớn:
+$$36:60=0{,}6;\qquad 0{,}6\times100=60.$$
+
+**Đáp số.** a) Hai số là $36$ và $60$. b) Số bé bằng $60\%$ số lớn.
+
+--- Bài 8: ĐỀ BÀI ---
+Hôm qua một cửa hàng bán được $80$ quyển vở. Hôm nay cửa hàng bán được $100$ quyển vở. Số vở bán hôm nay bằng bao nhiêu phần trăm số vở bán hôm qua?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Ta so sánh hôm nay với hôm qua, nên lấy $100$ chia cho $80$:
+$$100:80=1{,}25;\qquad 1{,}25\times100=125.$$
+
+**Kiểm tra.** $100>80$ nên kết quả phải lớn hơn $100\%$. Đúng.
+
+**Đáp số.** $125\%$.
+
+@@@ g5/organising-data
+(Bài học: Thu thập, phân loại, sắp xếp các số liệu)
+
+--- Bài 1: ĐỀ BÀI ---
+Xếp các số sau theo thứ tự tăng dần: $47, 39, 52, 40, 45$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số bé nhất là $39$, rồi $40$, $45$, $47$ và số lớn nhất là $52$.
+
+**Đáp số.** $39, 40, 45, 47, 52$.
+
+--- Bài 2: ĐỀ BÀI ---
+Xếp các số sau theo thứ tự giảm dần: $205, 250, 25, 502, 52$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Các số có ba chữ số: $502>250>205$. Các số có hai chữ số: $52>25$. Số có ba chữ số lớn hơn số có hai chữ số.
+
+**Đáp số.** $502, 250, 205, 52, 25$.
+
+--- Bài 3: ĐỀ BÀI ---
+Cô hỏi $12$ bạn nuôi con vật nào: chó, mèo, chó, cá, mèo, chó, chó, mèo, cá, chó, thỏ, mèo. Hãy lập bảng số liệu. Con vật nào được nuôi nhiều nhất?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Chó: $5$ bạn; mèo: $4$ bạn; cá: $2$ bạn; thỏ: $1$ bạn. Kiểm tra: $5+4+2+1=12$. Số lớn nhất là $5$.
+
+**Đáp số.** Chó $5$, mèo $4$, cá $2$, thỏ $1$. Nhiều nhất là chó.
+
+--- Bài 4: ĐỀ BÀI ---
+Số ngày mưa trong bốn tháng là: tháng $6$: $14$ ngày; tháng $7$: $17$ ngày; tháng $8$: $20$ ngày; tháng $9$: $16$ ngày. Tháng nào mưa nhiều nhất? Cả bốn tháng có bao nhiêu ngày mưa?
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số lớn nhất là $20$, ứng với tháng $8$. Tổng: $14+17+20+16=67$ (ngày).
+
+**Đáp số.** Tháng $8$; $67$ ngày.
+
+--- Bài 5: ĐỀ BÀI ---
+Bốn lớp $5$A, $5$B, $5$C, $5$D trồng tất cả $120$ cây. Lớp $5$A trồng $24$ cây, lớp $5$B trồng $31$ cây, lớp $5$D trồng $28$ cây. Hỏi lớp $5$C trồng bao nhiêu cây? Xếp các lớp theo số cây, từ nhiều đến ít.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Ba lớp trồng: $24+31+28=83$ (cây). Lớp $5$C trồng: $120-83=37$ (cây). Kiểm tra: $83+37=120$. Xếp giảm dần: $37, 31, 28, 24$.
+
+**Đáp số.** Lớp $5$C trồng $37$ cây. Thứ tự: $5$C, $5$B, $5$D, $5$A.
+
+--- Bài 6: ĐỀ BÀI ---
+Thời gian chạy $60$ m của năm bạn (giây): An $11{,}2$; Bình $10{,}8$; Chi $12{,}5$; Dũng $9{,}9$; Hà $10{,}6$. Ai chạy nhanh nhất? Xếp các bạn từ nhanh đến chậm.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Xếp tăng dần: $9{,}9 < 10{,}6 < 10{,}8 < 11{,}2 < 12{,}5$. Số bé nhất là của Dũng.
+
+**Đáp số.** Dũng chạy nhanh nhất. Thứ tự: Dũng, Hà, Bình, An, Chi.
+
+--- Bài 7: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước. Ba bạn đi xe đạp đều trong $2$ giờ. Nam đi $24$ km, Sơn đi $30$ km, Tú đi $26$ km. Tính vận tốc của mỗi bạn rồi xếp từ nhanh đến chậm.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Nam: $24:2=12$ (km/giờ). Sơn: $30:2=15$ (km/giờ). Tú: $26:2=13$ (km/giờ). Xếp giảm dần: $15, 13, 12$.
+
+**Đáp số.** Sơn $15$ km/giờ, Tú $13$ km/giờ, Nam $12$ km/giờ.
+
+--- Bài 8: ĐỀ BÀI ---
+Cô hỏi $30$ bạn chọn một môn thể thao. Bóng đá có $11$ bạn, cờ vua có $4$ bạn. Số bạn chọn cầu lông nhiều hơn số bạn chọn bơi là $3$ bạn. Hỏi mỗi môn cầu lông và bơi có bao nhiêu bạn?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Cầu lông và bơi cộng lại: $30-11-4=15$ (bạn). Số bạn chọn bơi: $(15-3):2=6$. Số bạn chọn cầu lông: $6+3=9$.
+
+**Kiểm tra.** $11+9+6+4=30$ và $9-6=3$. Đúng.
+
+**Đáp số.** Cầu lông $9$ bạn, bơi $6$ bạn.
+
+@@@ g5/percentage-of-an-amount
+(Bài học: Tìm giá trị phần trăm của một số)
+
+--- Bài 1: ĐỀ BÀI ---
+Tính $20\%$ của $350$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$350:100\times20=3{,}5\times20=70$.
+
+**Đáp số.** $70$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tính $5\%$ của $420$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$420\times5:100=2\,100:100=21$.
+
+**Đáp số.** $21$.
+
+--- Bài 3: ĐỀ BÀI ---
+Tính nhẩm $50\%$ và $25\%$ của $64$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$64:2=32$ và $64:4=16$.
+
+**Đáp số.** $50\%$ của $64$ là $32$; $25\%$ của $64$ là $16$.
+
+--- Bài 4: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $30\%$ của $200\;\square\;40\%$ của $160$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$200\times30:100=60$ và $160\times40:100=6\,400:100=64$. Vì $60<64$ nên $30\%$ của $200$ nhỏ hơn $40\%$ của $160$.
+
+**Đáp số.** Dấu $<$.
+
+--- Bài 5: ĐỀ BÀI ---
+Lan đọc một quyển truyện dày $180$ trang. Ngày đầu Lan đọc được $40\%$ số trang. Hỏi ngày đầu Lan đọc bao nhiêu trang, và còn bao nhiêu trang chưa đọc?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số trang Lan đọc ngày đầu là:
+$$180\times40:100=7\,200:100=72\ \text{(trang)}.$$
+Số trang chưa đọc là $180-72=108$ (trang).
+
+**Kiểm tra.** $72+108=180$. Đúng.
+
+**Đáp số.** $72$ trang; còn $108$ trang.
+
+--- Bài 6: ĐỀ BÀI ---
+Một đôi giày có giá $400\,000$ đồng. Cửa hàng giảm giá $15\%$. Hỏi em phải trả bao nhiêu tiền?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số tiền được giảm là:
+$$400\,000\times15:100=6\,000\,000:100=60\,000\ \text{(đồng)}.$$
+Số tiền phải trả là $400\,000-60\,000=340\,000$ (đồng).
+
+**Đáp số.** $340\,000$ đồng.
+
+--- Bài 7: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước. Lớp 5C có $40$ học sinh, trong đó có $14$ bạn nam. Tìm tỉ số phần trăm của số bạn nam so với cả lớp. Rồi dùng bài hôm nay để kiểm tra: tìm giá trị phần trăm đó của $40$.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$14:40=0{,}35=35\%$.
+
+**Kiểm tra.** $40\times35:100=1\,400:100=14$, đúng bằng số bạn nam.
+
+**Đáp số.** $35\%$.
+
+--- Bài 8: ĐỀ BÀI ---
+Một mảnh vườn hình chữ nhật có chiều dài $40$ m, chiều rộng bằng $60\%$ chiều dài. Người ta dành $25\%$ diện tích mảnh vườn để trồng rau. Tính diện tích trồng rau.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Chiều rộng là $40\times60:100=24$ (m). Diện tích mảnh vườn là $40\times24=960$ ($\text{m}^2$). Diện tích trồng rau là $25\%$ của $960$, tức là một phần tư của $960$:
+$$960:4=240\ (\text{m}^2).$$
+
+**Kiểm tra.** $960\times25:100=24\,000:100=240$. Đúng.
+
+**Đáp số.** $240\ \text{m}^2$.
+
+@@@ g5/review-natural-number-operations
+(Bài học: Ôn tập các phép tính với số tự nhiên)
+
+--- Bài 1: ĐỀ BÀI ---
+Đặt tính rồi tính: a) $5\,274+3\,968$; b) $6\,005-2\,847$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $5\,274+3\,968=9\,242$.
+
+b) $6\,005-2\,847=3\,158$ (thử lại: $3\,158+2\,847=6\,005$).
+
+**Đáp số.** a) $9\,242$; b) $3\,158$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tính: a) $406\times25$; b) $3\,150:15$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $406\times25=8\,120+2\,030=10\,150$.
+
+b) $3\,150:15=210$, vì $15\times210=3\,150$.
+
+**Đáp số.** a) $10\,150$; b) $210$.
+
+--- Bài 3: ĐỀ BÀI ---
+Tính giá trị biểu thức: a) $56+24:6\times5$; b) $90-(18+12)\times2$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $56+24:6\times5=56+4\times5=56+20=76$.
+
+b) $90-(18+12)\times2=90-30\times2=90-60=30$.
+
+**Đáp số.** a) $76$; b) $30$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tính nhanh: a) $4\times18\times25$; b) $75\times34+75\times66$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $4\times18\times25=(4\times25)\times18=100\times18=1\,800$.
+
+b) $75\times34+75\times66=75\times(34+66)=75\times100=7\,500$.
+
+**Đáp số.** a) $1\,800$; b) $7\,500$.
+
+--- Bài 5: ĐỀ BÀI ---
+Mẹ mua $3$ hộp sữa, mỗi hộp $38\,000$ đồng, và $2$ túi bánh, mỗi túi $25\,000$ đồng. Mẹ đưa cô bán hàng $200\,000$ đồng. Hỏi cô trả lại mẹ bao nhiêu tiền?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Tiền sữa: $3\times38\,000=114\,000$ (đồng).
+
+Tiền bánh: $2\times25\,000=50\,000$ (đồng).
+
+Tiền trả lại: $200\,000-(114\,000+50\,000)=36\,000$ (đồng).
+
+**Đáp số.** $36\,000$ đồng.
+
+--- Bài 6: ĐỀ BÀI ---
+Có $250$ học sinh đi tham quan. Mỗi xe chở nhiều nhất $45$ học sinh. Cần ít nhất bao nhiêu xe?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$250:45=5$ (dư $25$). Năm xe chở $225$ học sinh, còn $25$ học sinh nên cần thêm $1$ xe: $5+1=6$.
+
+**Đáp số.** $6$ xe.
+
+--- Bài 7: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước. Dùng bốn chữ số $3,\ 0,\ 8,\ 5$, mỗi chữ số đúng một lần, lập số lớn nhất và số bé nhất có bốn chữ số. Tính hiệu hai số đó.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số lớn nhất là $8\,530$, số bé nhất là $3\,058$. Hiệu là $8\,530-3\,058=5\,472$.
+
+**Đáp số.** $5\,472$.
+
+--- Bài 8: ĐỀ BÀI ---
+Tìm số tự nhiên $x$ biết $5\times(x+12)-30=120$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$5\times(x+12)=120+30=150$, nên $x+12=150:5=30$ và $x=30-12=18$.
+
+**Kiểm tra.** $5\times(18+12)-30=150-30=120$. Đúng.
+
+**Đáp số.** $18$.
+
+@@@ g5/subtracting-decimals
+(Bài học: Phép trừ số thập phân)
+
+--- Bài 1: ĐỀ BÀI ---
+Đặt tính rồi tính $8{,}95-4{,}32$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\begin{array}{r} 8{,}95 \\ -\ 4{,}32 \\ \hline 4{,}63 \end{array}$$
+
+**Đáp số.** $4{,}63$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tính $15{,}7-6{,}9$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$15{,}7-6{,}9=8{,}8$.
+
+**Kiểm tra.** $8{,}8+6{,}9=15{,}7$. Đúng.
+
+**Đáp số.** $8{,}8$.
+
+--- Bài 3: ĐỀ BÀI ---
+Tính $20{,}5-8{,}76$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$20{,}50-8{,}76=11{,}74$.
+
+**Đáp số.** $11{,}74$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tính $6-2{,}8$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$6{,}0-2{,}8=3{,}2$.
+
+**Đáp số.** $3{,}2$.
+
+--- Bài 5: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $14{,}5-6{,}25 \;\square\; 8{,}5$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$14{,}50-6{,}25=8{,}25$. Vì $8{,}25<8{,}50$ nên $14{,}5-6{,}25<8{,}5$.
+
+**Đáp số.** Dấu $<$.
+
+--- Bài 6: ĐỀ BÀI ---
+Bao đường nặng $25{,}5$ kg. Cửa hàng bán đi $18{,}75$ kg. Hỏi trong bao còn bao nhiêu ki-lô-gam đường?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số đường còn lại là:
+$$25{,}50-18{,}75=6{,}75\ \text{(kg)}.$$
+
+**Kiểm tra.** $6{,}75+18{,}75=25{,}50$. Đúng.
+
+**Đáp số.** $6{,}75$ kg.
+
+--- Bài 7: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước: tính $4{,}75+3{,}6$. Rồi lấy kết quả đó trừ đi $5{,}9$.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$4{,}75+3{,}60=8{,}35$. Sau đó $8{,}35-5{,}90=2{,}45$.
+
+**Đáp số.** $2{,}45$.
+
+--- Bài 8: ĐỀ BÀI ---
+Tìm $x$, biết $x+3{,}75=10{,}2$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Ta có $x=10{,}2-3{,}75=10{,}20-3{,}75=6{,}45$.
+
+**Kiểm tra.** $6{,}45+3{,}75=10{,}20$. Đúng.
+
+**Đáp số.** $x=6{,}45$.
+
+@@@ g5/surface-area-of-a-cube
+(Bài học: Diện tích xung quanh và diện tích toàn phần của hình lập phương)
+
+--- Bài 1: ĐỀ BÀI ---
+Tính diện tích xung quanh của hình lập phương có cạnh $4$ cm.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Diện tích một mặt là $4\times4=16\ (\text{cm}^2)$. Diện tích xung quanh là:
+$$16\times4=64\ (\text{cm}^2).$$
+
+**Đáp số.** $64\ \text{cm}^2$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tính diện tích toàn phần của hình lập phương có cạnh $7$ cm.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Diện tích một mặt là $7\times7=49\ (\text{cm}^2)$. Diện tích toàn phần là:
+$$49\times6=294\ (\text{cm}^2).$$
+
+**Đáp số.** $294\ \text{cm}^2$.
+
+--- Bài 3: ĐỀ BÀI ---
+Một hình lập phương có cạnh $0{,}5$ m. Tính:
+
+a) diện tích xung quanh;
+
+b) diện tích toàn phần.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Diện tích một mặt là $0{,}5\times0{,}5=0{,}25\ (\text{m}^2)$.
+
+a) $S_{\text{xq}}=0{,}25\times4=1\ (\text{m}^2)$.
+
+b) $S_{\text{tp}}=0{,}25\times6=1{,}5\ (\text{m}^2)$.
+
+**Đáp số.** a) $1\ \text{m}^2$; b) $1{,}5\ \text{m}^2$.
+
+--- Bài 4: ĐỀ BÀI ---
+Mỗi mặt của một viên xúc xắc hình lập phương có diện tích $9\ \text{cm}^2$. Tính diện tích toàn phần của viên xúc xắc.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Viên xúc xắc có $6$ mặt bằng nhau, nên:
+$$S_{\text{tp}}=9\times6=54\ (\text{cm}^2).$$
+
+**Đáp số.** $54\ \text{cm}^2$.
+
+--- Bài 5: ĐỀ BÀI ---
+Bạn Lan dán giấy kín toàn bộ một hộp quà hình lập phương cạnh $12$ cm (không tính phần giấy chồng mép). Hỏi Lan cần bao nhiêu xăng-ti-mét vuông giấy?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Diện tích một mặt là $12\times12=144\ (\text{cm}^2)$. Diện tích giấy cần dùng là:
+$$144\times6=864\ (\text{cm}^2).$$
+
+**Đáp số.** $864\ \text{cm}^2$.
+
+--- Bài 6: ĐỀ BÀI ---
+Lan sơn $4$ mặt bên của một khối gỗ hình lập phương cạnh $15$ cm; hai mặt đáy không sơn. Hỏi diện tích được sơn là bao nhiêu xăng-ti-mét vuông?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Diện tích một mặt là $15\times15=225\ (\text{cm}^2)$. Diện tích được sơn là:
+$$225\times4=900\ (\text{cm}^2).$$
+
+**Đáp số.** $900\ \text{cm}^2$.
+
+--- Bài 7: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước. Hộp chữ nhật $A$ có chiều dài $8$ cm, chiều rộng $5$ cm, chiều cao $4$ cm. Hộp lập phương $B$ có cạnh $6$ cm. Hộp nào có diện tích toàn phần lớn hơn, và lớn hơn bao nhiêu xăng-ti-mét vuông?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hộp $A$: chu vi đáy là $(8+5)\times2=26\ (\text{cm})$, nên $S_{\text{xq}}=26\times4=104\ (\text{cm}^2)$. Diện tích một đáy là $8\times5=40\ (\text{cm}^2)$, nên $S_{\text{tp}}=104+40\times2=184\ (\text{cm}^2)$.
+
+Hộp $B$: $S_{\text{tp}}=6\times6\times6=216\ (\text{cm}^2)$.
+
+Vì $216>184$ nên hộp $B$ lớn hơn, và $216-184=32\ (\text{cm}^2)$.
+
+**Đáp số.** Hộp lập phương $B$ lớn hơn, lớn hơn $32\ \text{cm}^2$.
+
+--- Bài 8: ĐỀ BÀI ---
+Hình lập phương $A$ có cạnh $3$ cm. Hình lập phương $B$ có cạnh $6$ cm, gấp đôi cạnh của $A$. Diện tích toàn phần của $B$ gấp mấy lần diện tích toàn phần của $A$?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hình $A$: $S_{\text{tp}}=3\times3\times6=54\ (\text{cm}^2)$.
+
+Hình $B$: $S_{\text{tp}}=6\times6\times6=216\ (\text{cm}^2)$.
+
+Ta có $216:54=4$. Cạnh gấp đôi nhưng diện tích gấp $4$ lần, vì diện tích mỗi mặt tính bằng cạnh nhân cạnh.
+
+**Đáp số.** Gấp $4$ lần.
+
+@@@ g5/surface-area-of-a-cuboid
+(Bài học: Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật)
+
+--- Bài 1: ĐỀ BÀI ---
+Hình hộp dài $11$ cm, rộng $4$ cm, cao $6$ cm. Tính diện tích xung quanh.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$(11+4)\times2\times6=180\ \text{cm}^2.$$
+
+**Đáp số.** $180\ \text{cm}^2$.
+
+--- Bài 2: ĐỀ BÀI ---
+Hình hộp dài $7$ dm, rộng $5$ dm, cao $3$ dm. Tính diện tích toàn phần.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Diện tích toàn phần là
+$$ (7+5)\times2\times3+2\times7\times5=142\ \text{dm}^2.$$
+
+**Đáp số.** $142\ \text{dm}^2$.
+
+--- Bài 3: ĐỀ BÀI ---
+Hình hộp dài $8$ cm, rộng $4$ cm, có diện tích xung quanh $216\ \text{cm}^2$. Tìm chiều cao.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Chu vi đáy là $(8+4)\times2=24$ cm, nên chiều cao là $216:24=9$ cm.
+
+**Đáp số.** $9$ cm.
+
+--- Bài 4: ĐỀ BÀI ---
+Kích thước dài, rộng, cao của hộp A là $10$ cm, $6$ cm, $4$ cm; của B là $8$ cm, $7$ cm, $4$ cm. Diện tích xung quanh hộp nào lớn hơn và hơn bao nhiêu?
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hai diện tích lần lượt là $128\ \text{cm}^2$ và $120\ \text{cm}^2$, vì
+$$ (10+6)\times2\times4=128,\qquad(8+7)\times2\times4=120.$$
+
+**Đáp số.** Hộp A lớn hơn $8\ \text{cm}^2$.
+
+--- Bài 5: ĐỀ BÀI ---
+Nhớ lại bài trước: một hình khai triển có hai mặt $9\ \text{cm}\times5\ \text{cm}$, hai mặt $9\ \text{cm}\times3\ \text{cm}$ và hai mặt $5\ \text{cm}\times3\ \text{cm}$. Tính diện tích toàn phần.
+
+![Hình khai triển của hình hộp chữ nhật kích thước 9 cm, 5 cm và 3 cm](/assets/img/g5/g5-surface-area-of-a-cuboid-01.svg)
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Diện tích toàn phần là
+$$2\times9\times5+2\times9\times3+2\times5\times3=174\ \text{cm}^2.$$
+
+**Đáp số.** $174\ \text{cm}^2$.
+
+--- Bài 6: ĐỀ BÀI ---
+Hộp trà dài $14$ cm, rộng $8$ cm, cao $20$ cm. Nhãn phủ bốn mặt bên, không chồng mép. Tính diện tích nhãn.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Diện tích nhãn là
+$$ (14+8)\times2\times20=880\ \text{cm}^2.$$
+
+**Đáp số.** $880\ \text{cm}^2$.
+
+--- Bài 7: ĐỀ BÀI ---
+Hộp gỗ dài $50$ cm, rộng $30$ cm, cao $20$ cm. Sơn bốn mặt bên và mặt trên. Tính diện tích sơn.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Diện tích được sơn là
+$$ (50+30)\times2\times20+50\times30=4\,700\ \text{cm}^2.$$
+
+**Đáp số.** $4\,700\ \text{cm}^2$.
+
+--- Bài 8: ĐỀ BÀI ---
+Hình hộp dài $10$ cm, rộng $4$ cm, có diện tích toàn phần $248\ \text{cm}^2$. Tìm chiều cao.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hai đáy có diện tích $80\ \text{cm}^2$, nên diện tích xung quanh là $248-80=168\ \text{cm}^2$. Chu vi đáy là $28$ cm, do đó chiều cao là $168:28=6$ cm.
+
+**Đáp số.** $6$ cm.
+
+@@@ g5/volume-of-a-cuboid
+(Bài học: Thể tích của hình hộp chữ nhật)
+
+--- Bài 1: ĐỀ BÀI ---
+Tính thể tích hình hộp chữ nhật dài $7$ cm, rộng $3$ cm, cao $4$ cm.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$V=7\times3\times4=21\times4=84\ (\text{cm}^3)$.
+
+**Đáp số.** $84$ cm³.
+
+--- Bài 2: ĐỀ BÀI ---
+Tính thể tích hình hộp chữ nhật dài $10$ cm, rộng $5$ cm, cao $2$ cm.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$V=10\times5\times2=50\times2=100\ (\text{cm}^3)$.
+
+**Đáp số.** $100$ cm³.
+
+--- Bài 3: ĐỀ BÀI ---
+Tính thể tích hình hộp chữ nhật dài $12$ dm, rộng $5$ dm, cao $3$ dm.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$V=12\times5\times3=60\times3=180\ (\text{dm}^3)$.
+
+**Đáp số.** $180$ dm³.
+
+--- Bài 4: ĐỀ BÀI ---
+Hộp bút của Hà là hình hộp chữ nhật dài $18$ cm, rộng $6$ cm, cao $4$ cm. Hỏi thể tích hộp bút là bao nhiêu xăng-ti-mét khối?
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Thể tích hộp bút là:
+$$18\times6\times4=108\times4=432\ (\text{cm}^3).$$
+
+**Đáp số.** $432$ cm³.
+
+--- Bài 5: ĐỀ BÀI ---
+Một bể cá hình hộp chữ nhật dài $1$ m, rộng $6$ dm, cao $5$ dm. Tính thể tích bể cá theo dm³.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Đổi $1$ m $=10$ dm. Thể tích bể cá là:
+$$10\times6\times5=300\ (\text{dm}^3).$$
+
+**Đáp số.** $300$ dm³.
+
+--- Bài 6: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước: một hình lập phương có cạnh $4$ cm. Tính diện tích xung quanh và diện tích toàn phần của hình lập phương đó.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Diện tích một mặt là $4\times4=16$ (cm²).
+
+Diện tích xung quanh: $16\times4=64$ (cm²). Diện tích toàn phần: $16\times6=96$ (cm²).
+
+**Đáp số.** Diện tích xung quanh $64$ cm², diện tích toàn phần $96$ cm².
+
+--- Bài 7: ĐỀ BÀI ---
+Một hình hộp chữ nhật có thể tích $120$ cm³, chiều dài $8$ cm, chiều rộng $5$ cm. Tính chiều cao.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Diện tích đáy là $8\times5=40$ (cm²). Chiều cao là $120:40=3$ (cm).
+
+**Kiểm tra.** $8\times5\times3=120$. Đúng.
+
+**Đáp số.** $3$ cm.
+
+--- Bài 8: ĐỀ BÀI ---
+Một thùng hình hộp chữ nhật dài $40$ cm, rộng $30$ cm, cao $20$ cm. Em xếp vừa khít, không có khe hở, các hộp nhỏ hình hộp chữ nhật dài $10$ cm, rộng $10$ cm, cao $5$ cm vào đầy thùng. Xếp được nhiều nhất bao nhiêu hộp nhỏ?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Thể tích thùng là $40\times30\times20=24\,000$ (cm³). Thể tích một hộp nhỏ là $10\times10\times5=500$ (cm³). Số hộp nhỏ là $24\,000:500=48$ (hộp).
+
+**Kiểm tra.** Theo chiều dài xếp được $40:10=4$ hộp, theo chiều rộng $30:10=3$ hộp, theo chiều cao $20:5=4$ lớp. Có $4\times3\times4=48$ hộp. Đúng.
+
+**Đáp số.** $48$ hộp.

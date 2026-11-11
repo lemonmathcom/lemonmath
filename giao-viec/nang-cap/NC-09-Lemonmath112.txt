@@ -1,0 +1,1050 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – tài khoản Lemonmath112
+Giao ngày 11/11/2026. Việc này LÀM XEN KẼ với việc viết bài mới, không thay phân công cũ. Số bài học cần nâng cấp: 11.
+
+VIỆC CẦN LÀM
+Các bài học dưới đây đã có trên lemonmath.com, nhưng LỜI GIẢI của các bài tập còn vắn tắt (chỉ có phép tính). Hãy VIẾT LẠI LỜI GIẢI của từng bài tập cho chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (Kết nối tri thức), để học sinh có thể chép cách trình bày vào vở.
+KHÔNG đổi đề bài, KHÔNG đổi số liệu, KHÔNG đổi đáp số. Nếu phát hiện đáp số cũ sai, vẫn viết lời giải đúng và ghi thêm một dòng "GHI CHÚ: đáp số cũ sai vì …" ngay dưới lời giải đó.
+
+CÁCH TRÌNH BÀY LỜI GIẢI (bắt buộc)
+1. Mỗi ý là một đoạn ngắn, cách nhau một dòng trống:
+   - Đặt vấn đề: "Điều kiện xác định: …", "Gọi x (m) là … (x > 0).", "Gọi A là biến cố "…".", "Xét tam giác ABC vuông tại A, ta có …".
+   - Từng bước, mỗi bước một dòng, có lời dẫn và lí do: "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …".
+   - Phép tính dài viết ở dạng công thức riêng dòng $$ … $$.
+   - Bài có nhiều ý: mỗi ý a), b), c) bắt đầu một đoạn mới và có kết quả riêng.
+   - Câu kết luận đầy đủ: "Vậy …" (có đơn vị nếu là bài toán thực tế).
+   - Dòng cuối: **Đáp số.** … (giữ đúng đáp số cũ).
+2. Lớp 1–5 trình bày kiểu tiểu học: "Bài giải" → câu lời giải → phép tính → "Đáp số: …"; xưng "em", câu thật ngắn. Bài tính thuần tuý (Tính, Đặt tính rồi tính, Số?) thì viết rõ cách làm từng bước rồi nêu kết quả.
+3. Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện. Không dùng kí hiệu đô la cho tiền.
+4. Công thức viết bằng LaTeX trong $…$ như bản cũ. Bản Việt: số thập phân 2{,}5, khoảng (a; b). Bản Anh: 2.5, (a, b), chính tả Anh (metres, factorise).
+5. Độ dài: bài cơ bản 3–5 dòng, bài vận dụng 5–8 dòng, bài khó dài hơn nếu cần.
+6. Mỗi lời giải viết HAI bản: tiếng Việt và tiếng Anh, cùng các bước, cùng số liệu. Bản Anh: "We have …", "Hence …", "So …", dòng cuối **Answer.** …
+
+VÍ DỤ
+Lời giải cũ:   $3(x+2)=5(x-2)\iff 2x=16\iff x=8$ (thoả mãn điều kiện).
+Lời giải mới:
+Điều kiện xác định: $x\neq2$ và $x\neq-2$.
+
+Quy đồng mẫu hai vế rồi khử mẫu, ta được
+$$3(x+2)=5(x-2).$$
+
+Suy ra $3x+6=5x-10$, hay $2x=16$, tức là $x=8$.
+
+Ta thấy $x=8$ thoả mãn điều kiện xác định.
+
+Vậy phương trình đã cho có nghiệm $x=8$.
+
+**Đáp số.** $x=8$.
+
+CÁCH NỘP (rất quan trọng: máy sẽ tự ghép, nên phải đúng mẫu)
+Xuất MỘT file tên "NC-Lemonmath112.md" (hết hạn mức thì nộp phần đã xong, lần sau làm tiếp và nộp file "NC-Lemonmath112-2.md"). Trong file, mỗi bài học bắt đầu bằng dòng @@@ kèm mã bài chép y nguyên, rồi lần lượt từng bài tập:
+
+@@@ g9/cube-roots
+### 1 VI
+(lời giải mới của Bài 1, tiếng Việt)
+### 1 EN
+(lời giải mới của Bài 1, tiếng Anh)
+### 2 VI
+…
+
+Chỉ viết lời giải, không chép lại đề bài, không thêm lời bình ngoài mẫu trên. Lưu file vào thư mục Dropbox "viec da lam".
+
+===== CÁC BÀI HỌC CẦN NÂNG CẤP (11 bài) =====
+
+@@@ g3/perimeter-of-shapes
+(Bài học: Chu vi hình tam giác, hình tứ giác, hình chữ nhật, hình vuông)
+
+--- Bài 1: ĐỀ BÀI ---
+Tính chu vi:
+
+a) Hình tam giác có các cạnh $3$ cm, $4$ cm, $6$ cm.
+
+b) Hình tứ giác có các cạnh $2$ cm, $3$ cm, $4$ cm, $5$ cm.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $3+4+6=13$ (cm).
+
+b) $2+3+4+5=14$ (cm).
+
+**Đáp số.** a) $13$ cm; b) $14$ cm.
+
+--- Bài 2: ĐỀ BÀI ---
+Tính chu vi:
+
+a) Hình chữ nhật có chiều dài $12$ cm, chiều rộng $5$ cm.
+
+b) Hình vuông có cạnh $9$ cm.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $(12+5)\times2=17\times2=34$ (cm).
+
+b) $9\times4=36$ (cm).
+
+**Đáp số.** a) $34$ cm; b) $36$ cm.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước (làm tròn số đến hàng chục).
+
+a) Làm tròn số $38$ đến hàng chục.
+
+b) Một hình vuông có cạnh khoảng $38$ m. Em ước lượng chu vi bằng cách lấy số đã làm tròn ở câu a) nhân với $4$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Chữ số hàng đơn vị của $38$ là $8$, lớn hơn $5$, nên làm tròn lên: $38\approx40$.
+
+b) $40\times4=160$ (m).
+
+**Kiểm tra.** $38\times4=152$, gần $160$. Ước lượng hợp lí.
+
+**Đáp số.** a) $40$; b) khoảng $160$ m.
+
+--- Bài 4: ĐỀ BÀI ---
+a) Chú kiến bò một vòng sát mép một mặt bàn hình vuông có cạnh $6$ cm. Chú kiến bò được bao nhiêu xăng-ti-mét?
+
+b) Bình uốn một sợi dây thép thành hình tam giác có ba cạnh $8$ cm, $9$ cm, $10$ cm. Sợi dây thép dài bao nhiêu xăng-ti-mét?
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Chu vi hình vuông: $6\times4=24$ (cm).
+
+b) Sợi dây thép dài bằng chu vi tam giác: $8+9+10=27$ (cm).
+
+**Đáp số.** a) $24$ cm; b) $27$ cm.
+
+--- Bài 5: ĐỀ BÀI ---
+Em tính chu vi mỗi hình dưới đây bằng cách nhanh nhất. Vì sao em chọn cách đó?
+
+![Ba hình có số đo cạnh: hình vuông, hình chữ nhật và tứ giác không đều](/assets/img/g3/g3-perimeter-of-shapes-02.svg)
+
+a) Hình vuông cạnh $9$ cm.
+
+b) Hình chữ nhật dài $11$ cm, rộng $4$ cm.
+
+c) Hình tứ giác có các cạnh $5$ cm, $6$ cm, $7$ cm, $8$ cm.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Hình vuông có bốn cạnh bằng nhau: $9\times4=36$ (cm).
+
+b) Hình chữ nhật có hai cặp cạnh bằng nhau: $(11+4)\times2=15\times2=30$ (cm).
+
+c) Bốn cạnh khác nhau nên phải cộng cả bốn: $5+6+7+8=26$ (cm).
+
+**Đáp số.** a) $36$ cm; b) $30$ cm; c) $26$ cm.
+
+--- Bài 6: ĐỀ BÀI ---
+Tìm lỗi sai trong lời giải của hai bạn rồi sửa lại.
+
+a) Bình: "Hình chữ nhật dài $10$ cm, rộng $3$ cm. Chu vi là $10+3=13$ (cm)."
+
+b) Cúc: "Hình vuông cạnh $5$ cm. Chu vi là $5\times2=10$ (cm)."
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Bình mới cộng một cặp cạnh, tức là mới đi nửa vòng. Làm đúng: $(10+3)\times2=13\times2=26$ (cm).
+
+b) Cúc nhân với $2$ nhưng hình vuông có $4$ cạnh. Làm đúng: $5\times4=20$ (cm).
+
+**Đáp số.** a) $26$ cm; b) $20$ cm.
+
+--- Bài 7: ĐỀ BÀI ---
+Một vườn rau hình chữ nhật dài $20$ m, rộng $9$ m. Bác An làm hàng rào quanh vườn.
+
+a) Nếu rào kín cả vòng thì hàng rào dài bao nhiêu mét?
+
+b) Bác chừa một cái cổng rộng $2$ m không rào. Khi đó hàng rào dài bao nhiêu mét?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $(20+9)\times2=29\times2=58$ (m).
+
+b) $58-2=56$ (m).
+
+**Đáp số.** a) $58$ m; b) $56$ m.
+
+--- Bài 8: ĐỀ BÀI ---
+Ghép hai hình vuông, mỗi hình có cạnh $3$ cm, sát nhau thành một hình chữ nhật.
+
+![Hai hình vuông cạnh 3 cm ghép sát nhau, cạnh chung vẽ nét đứt](/assets/img/g3/g3-perimeter-of-shapes-03.svg)
+
+a) Tính chu vi hình chữ nhật vừa ghép.
+
+b) Tính tổng chu vi của hai hình vuông riêng lẻ. Vì sao tổng này lớn hơn chu vi hình chữ nhật?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Chiều dài là $3+3=6$ cm, chiều rộng là $3$ cm. Chu vi: $(6+3)\times2=9\times2=18$ (cm).
+
+b) Mỗi hình vuông có chu vi $3\times4=12$ cm, hai hình là $12+12=24$ cm. Tổng này lớn hơn vì cạnh chung dài $3$ cm bị che đi khi ghép, nên mỗi hình mất $3$ cm: $24-3-3=18$ cm.
+
+**Đáp số.** a) $18$ cm; b) $24$ cm.
+
+@@@ g3/right-angles
+(Bài học: Góc, góc vuông, góc không vuông)
+
+--- Bài 1: ĐỀ BÀI ---
+Một góc có đỉnh $K$, hai cạnh là $KA$ và $KB$.
+
+a) Đỉnh của góc là điểm nào?
+
+b) Hai cạnh của góc là gì?
+
+c) Điểm nào là điểm chung của hai cạnh?
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Đỉnh là $K$.
+
+b) Hai cạnh là $KA$ và $KB$.
+
+c) Điểm chung của hai cạnh là $K$.
+
+**Đáp số.** a) $K$; b) $KA$, $KB$; c) $K$.
+
+--- Bài 2: ĐỀ BÀI ---
+Em đặt ê-ke vào ba góc. Mỗi góc là góc vuông hay không vuông?
+
+a) Cạnh còn lại của ê-ke trùng với cạnh còn lại của góc.
+
+b) Cạnh còn lại của ê-ke nằm ngoài góc, hở ra.
+
+c) Cạnh còn lại của góc nằm lọt vào trong góc của ê-ke.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Trùng nhau: góc vuông.
+
+b) Hở ra: góc không vuông.
+
+c) Lệch vào trong: góc không vuông.
+
+**Đáp số.** a) Vuông; b) không vuông; c) không vuông.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước về hình tròn. Hình tròn tâm $O$ có bán kính $4$ cm. Các điểm $A$, $B$ nằm trên đường tròn. Góc đỉnh $O$, cạnh $OA$ và $OB$ có hai cạnh dài bao nhiêu xăng-ti-mét?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$OA$ và $OB$ đều là bán kính nên mỗi cạnh dài $4$ cm. Hai cạnh của góc bằng nhau.
+
+**Đáp số.** $OA=4$ cm và $OB=4$ cm.
+
+--- Bài 4: ĐỀ BÀI ---
+Trong các đồ vật sau, đồ vật nào có góc vuông?
+
+a) Góc của quyển vở.
+
+b) Hai kim đồng hồ lúc $1$ giờ đúng.
+
+c) Góc của bảng đen.
+
+d) Mái nhà hình chữ A.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Góc quyển vở khớp ê-ke: góc vuông.
+
+b) Hai kim lúc $1$ giờ chụm hẹp: không vuông.
+
+c) Góc bảng đen khớp ê-ke: góc vuông.
+
+d) Mái chữ A chụm hẹp: không vuông.
+
+**Đáp số.** Góc quyển vở và góc bảng đen.
+
+--- Bài 5: ĐỀ BÀI ---
+Hai góc vuông: một góc có hai cạnh dài $3$ cm, góc kia có hai cạnh dài $6$ cm. Hai góc có "bằng nhau" không? Vì sao?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Cả hai đều là góc vuông, nên chúng bằng nhau. Độ dài cạnh không làm đổi việc góc có vuông hay không.
+
+**Đáp số.** Bằng nhau, vì cả hai đều là góc vuông.
+
+--- Bài 6: ĐỀ BÀI ---
+Nam nói: "Góc này trông giống góc vuông nên đó là góc vuông". Nam làm chưa đúng ở đâu? Em sẽ làm thế nào?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Nam chỉ nhìn bằng mắt nên có thể nhầm với góc gần vuông. Em dùng ê-ke: đặt đỉnh trùng đỉnh, một cạnh trùng một cạnh, rồi xem cạnh còn lại có trùng không.
+
+**Đáp số.** Phải kiểm tra bằng ê-ke.
+
+--- Bài 7: ĐỀ BÀI ---
+a) Trong các chữ cái $L$, $V$, $T$, chữ nào có góc vuông?
+
+![Ba chữ cái L, V, T và một đồng hồ chỉ 3 giờ](/assets/img/g3/g3-right-angles-02.svg)
+
+b) Hai kim đồng hồ lúc $3$ giờ đúng tạo thành góc gì?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Chữ $L$ và chữ $T$ có hai nét gặp nhau ở góc vuông; chữ $V$ thì không.
+
+b) Hai kim lúc $3$ giờ đúng tạo thành góc vuông.
+
+**Đáp số.** a) $L$, $T$; b) góc vuông.
+
+--- Bài 8: ĐỀ BÀI ---
+Một tờ giấy hình chữ nhật có $4$ góc vuông. Em cắt bỏ một góc bằng một nhát cắt thẳng (nhát cắt không đi qua góc nào khác). Tờ giấy còn lại có mấy góc vuông?
+
+![Tờ giấy hình chữ nhật có đường cắt chéo qua một góc và biểu tượng kéo](/assets/img/g3/g3-right-angles-03.svg)
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Ban đầu có $4$ góc vuông. Cắt bỏ một góc thì mất $1$ góc vuông, còn $4-1=3$ góc vuông. Hai góc mới ở chỗ cắt là góc không vuông.
+
+**Đáp số.** $3$ góc vuông.
+
+@@@ g3/rounding-thousands-ten-thousands
+(Bài học: Làm tròn số đến hàng nghìn, hàng chục nghìn)
+
+--- Bài 1: ĐỀ BÀI ---
+Làm tròn mỗi số sau đến hàng nghìn:
+
+a) $2\,148$.
+
+b) $6\,905$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Chữ số hàng trăm của $2\,148$ là $1$, bé hơn $5$, nên $2\,148\approx2\,000$.
+
+b) Chữ số hàng trăm của $6\,905$ là $9$, từ $5$ trở lên, nên $6\,905\approx7\,000$.
+
+**Đáp số.** a) $2\,000$; b) $7\,000$.
+
+--- Bài 2: ĐỀ BÀI ---
+Làm tròn:
+
+a) $4\,372$ đến hàng nghìn.
+
+b) $8\,650$ đến hàng nghìn.
+
+c) $35\,480$ đến hàng chục nghìn.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Chữ số hàng trăm là $3$, bé hơn $5$: $4\,372\approx4\,000$.
+
+b) Chữ số hàng trăm là $6$, từ $5$ trở lên: $8\,650\approx9\,000$.
+
+c) Chữ số hàng nghìn là $5$, từ $5$ trở lên, nên tăng $3$ chục nghìn lên $4$ chục nghìn: $35\,480\approx40\,000$.
+
+**Đáp số.** a) $4\,000$; b) $9\,000$; c) $40\,000$.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước (so sánh các số trong phạm vi $100\,000$).
+
+a) Điền dấu $>$, $<$ hoặc $=$: $45\,802\;\square\;45\,820$.
+
+b) Làm tròn số lớn hơn trong hai số ở câu a) đến hàng nghìn.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Hai số có cùng chữ số ở hàng chục nghìn, hàng nghìn, hàng trăm ($4$, $5$, $8$). Ở hàng chục: $0<2$. Vậy $45\,802<45\,820$.
+
+b) Số lớn hơn là $45\,820$. Chữ số hàng trăm là $8$, từ $5$ trở lên, nên $45\,820\approx46\,000$.
+
+**Đáp số.** a) Dấu $<$; b) $46\,000$.
+
+--- Bài 4: ĐỀ BÀI ---
+Trong các số $5\,499$, $5\,500$, $6\,499$, $6\,500$, $6\,501$, những số nào làm tròn đến hàng nghìn được $6\,000$?
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$5\,499\approx5\,000$ (hàng trăm là $4$). $5\,500\approx6\,000$ (hàng trăm là $5$). $6\,499\approx6\,000$ (hàng trăm là $4$). $6\,500\approx7\,000$ (hàng trăm là $5$). $6\,501\approx7\,000$ (hàng trăm là $5$).
+
+**Đáp số.** $5\,500$ và $6\,499$.
+
+--- Bài 5: ĐỀ BÀI ---
+Nhà Nam cách chợ $7\,480$ m. Nam nói: "Khoảng $7\,000$ m." Lan nói: "Khoảng $7\,500$ m."
+
+a) Bạn nào đã làm tròn đến hàng nghìn? Vì sao?
+
+b) Bạn còn lại đã làm tròn đến hàng nào?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Chữ số hàng trăm của $7\,480$ là $4$, bé hơn $5$, nên $7\,480\approx7\,000$. Vậy Nam đã làm tròn đến hàng nghìn.
+
+b) $7\,500$ là số tròn trăm gần $7\,480$ nhất ($80$ làm tròn lên thành $100$), nên Lan đã làm tròn đến hàng trăm.
+
+**Đáp số.** a) Nam; b) hàng trăm.
+
+--- Bài 6: ĐỀ BÀI ---
+Tìm lỗi sai trong lời giải của hai bạn rồi sửa lại.
+
+a) Hà: "Làm tròn $3\,700$ đến hàng nghìn: chữ số hàng trăm là $7$ nên em giữ nguyên, được $3\,000$."
+
+b) Tú: "Làm tròn $27\,450$ đến hàng chục nghìn: em nhìn chữ số hàng trăm là $4$, bé hơn $5$, nên được $27\,000$."
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Chữ số hàng trăm là $7$, từ $5$ trở lên, nên phải làm tròn lên: $3\,700\approx4\,000$.
+
+b) Làm tròn đến hàng chục nghìn thì phải nhìn chữ số hàng nghìn, là $7$, từ $5$ trở lên, nên $27\,450\approx30\,000$. Tú đã nhìn nhầm hàng, và kết quả $27\,000$ chưa phải số tròn chục nghìn.
+
+**Đáp số.** a) $4\,000$; b) $30\,000$.
+
+--- Bài 7: ĐỀ BÀI ---
+Bảng dưới đây ghi số khán giả của ba trận bóng.
+
+| Trận | Số khán giả |
+|---|---|
+| Trận 1 | $12\,380$ |
+| Trận 2 | $15\,720$ |
+| Trận 3 | $9\,560$ |
+
+a) Làm tròn số khán giả của mỗi trận đến hàng nghìn.
+
+b) Theo số đã làm tròn, trận nào có nhiều khán giả nhất?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $12\,380\approx12\,000$ (hàng trăm là $3$). $15\,720\approx16\,000$ (hàng trăm là $7$). $9\,560\approx10\,000$ (hàng trăm là $5$).
+
+b) So sánh $12\,000$, $16\,000$, $10\,000$: số lớn nhất là $16\,000$, của trận $2$.
+
+**Đáp số.** a) $12\,000$; $16\,000$; $10\,000$. b) Trận $2$.
+
+--- Bài 8: ĐỀ BÀI ---
+Một số có bốn chữ số, chữ số hàng nghìn là $4$. Làm tròn số đó đến hàng nghìn được $5\,000$.
+
+a) Chữ số hàng trăm của số đó có thể là những chữ số nào?
+
+b) Số nhỏ nhất và số lớn nhất như thế là những số nào?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Chữ số hàng trăm phải từ $5$ trở lên, tức là $5$, $6$, $7$, $8$ hoặc $9$.
+
+b) Số nhỏ nhất: hàng trăm là $5$, các hàng còn lại là $0$, được $4\,500$. Số lớn nhất: hàng trăm là $9$, các hàng còn lại là $9$, được $4\,999$.
+
+**Kiểm tra.** $4\,500\approx5\,000$ và $4\,999\approx5\,000$.
+
+**Đáp số.** a) $5$, $6$, $7$, $8$, $9$; b) $4\,500$ và $4\,999$.
+
+@@@ g3/seven-times-table
+(Bài học: Bảng nhân 7, bảng chia 7)
+
+--- Bài 1: ĐỀ BÀI ---
+Tính:
+
+a) $7\times3$.
+
+b) $7\times5$.
+
+c) $7\times6$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $7\times3=21$.
+
+b) $7\times5=35$.
+
+c) $7\times6=42$.
+
+**Đáp số.** a) $21$; b) $35$; c) $42$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tính:
+
+a) $7\times7$.
+
+b) $7\times9$.
+
+c) $7\times10$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $7\times7=42+7=49$.
+
+b) $7\times9=56+7=63$.
+
+c) $7\times10=63+7=70$.
+
+**Đáp số.** a) $49$; b) $63$; c) $70$.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bảng nhân $6$. Tính rồi so sánh:
+
+a) $6\times7$.
+
+b) $7\times6$.
+
+c) $6\times9$ và $7\times8$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $6\times7=42$.
+
+b) $7\times6=42$, bằng $6\times7$.
+
+c) $6\times9=54$ và $7\times8=56$, nên $6\times9<7\times8$.
+
+**Đáp số.** a) $42$; b) $42$; c) $54$ và $56$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tính:
+
+a) $21:7$.
+
+b) $49:7$.
+
+c) $70:7$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $7\times3=21$ nên $21:7=3$.
+
+b) $7\times7=49$ nên $49:7=7$.
+
+c) $7\times10=70$ nên $70:7=10$.
+
+**Đáp số.** a) $3$; b) $7$; c) $10$.
+
+--- Bài 5: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống. Vì sao?
+
+a) $7\times6 \;\square\; 40$.
+
+b) $56:7 \;\square\; 7\times1$.
+
+c) $7\times9 \;\square\; 8\times8$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $7\times6=42$ và $42>40$ nên $7\times6>40$.
+
+b) $56:7=8$ và $7\times1=7$, $8>7$ nên $56:7>7\times1$.
+
+c) $7\times9=63$ và $8\times8=64$, $63<64$ nên $7\times9<8\times8$.
+
+**Đáp số.** a) $>$; b) $>$; c) $<$.
+
+--- Bài 6: ĐỀ BÀI ---
+Lâm viết: "$7\times8=54$". Lâm sai ở đâu? Hãy sửa lại.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$7\times8=7\times7+7=49+7=56$, không phải $54$.
+
+**Thử lại.** $56:7=8$. Đúng.
+
+**Đáp số.** Lâm nhớ nhầm tích; $7\times8=56$.
+
+--- Bài 7: ĐỀ BÀI ---
+a) Hỏi $6$ tuần lễ có bao nhiêu ngày?
+
+b) Một chuyến đi kéo dài $63$ ngày. Hỏi chuyến đi kéo dài bao nhiêu tuần lễ?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Số ngày là $7\times6=42$ (ngày).
+
+b) Số tuần là $63:7=9$ (tuần).
+
+**Đáp số.** a) $42$ ngày; b) $9$ tuần.
+
+--- Bài 8: ĐỀ BÀI ---
+Thư viện có $70$ quyển truyện xếp vào các kệ, mỗi kệ $7$ quyển. Đã xếp được $4$ kệ. Hỏi:
+
+a) Cần tất cả bao nhiêu kệ?
+
+b) Còn bao nhiêu kệ chưa xếp, và còn bao nhiêu quyển truyện chưa xếp?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Số kệ cần dùng là $70:7=10$ (kệ).
+
+b) Số kệ chưa xếp là $10-4=6$ (kệ). Số truyện đã xếp là $7\times4=28$ (quyển), nên số truyện chưa xếp là $70-28=42$ (quyển). Kiểm tra: $7\times6=42$.
+
+**Đáp số.** a) $10$ kệ; b) $6$ kệ và $42$ quyển truyện.
+
+@@@ g3/six-times-table
+(Bài học: Bảng nhân 6, bảng chia 6)
+
+--- Bài 1: ĐỀ BÀI ---
+Tính:
+
+a) $6\times3$.
+
+b) $6\times5$.
+
+c) $6\times8$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $6\times3=18$.
+
+b) $6\times5=30$.
+
+c) $6\times8=48$.
+
+**Đáp số.** a) $18$; b) $30$; c) $48$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tính:
+
+a) $6\times7$.
+
+b) $6\times9$.
+
+c) $6\times10$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $6\times7=36+6=42$.
+
+b) $6\times9=48+6=54$.
+
+c) $6\times10=54+6=60$.
+
+**Đáp số.** a) $42$; b) $54$; c) $60$.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bảng nhân $4$. Tính rồi so sánh:
+
+a) $4\times6$.
+
+b) $6\times4$.
+
+c) $4\times9$ và $6\times6$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $4\times6=24$.
+
+b) $6\times4=24$, bằng $4\times6$.
+
+c) $4\times9=36$ và $6\times6=36$, hai tích bằng nhau.
+
+**Đáp số.** a) $24$; b) $24$; c) $36$ và $36$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tính:
+
+a) $18:6$.
+
+b) $42:6$.
+
+c) $60:6$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $6\times3=18$ nên $18:6=3$.
+
+b) $6\times7=42$ nên $42:6=7$.
+
+c) $6\times10=60$ nên $60:6=10$.
+
+**Đáp số.** a) $3$; b) $7$; c) $10$.
+
+--- Bài 5: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống. Vì sao?
+
+a) $6\times5 \;\square\; 28$.
+
+b) $36:6 \;\square\; 6\times1$.
+
+c) $6\times8 \;\square\; 6\times7+6$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $6\times5=30$ và $30>28$ nên $6\times5>28$.
+
+b) $36:6=6$ và $6\times1=6$ nên hai vế bằng nhau.
+
+c) $6\times8=48$ và $6\times7+6=42+6=48$ nên hai vế bằng nhau.
+
+**Đáp số.** a) $>$; b) $=$; c) $=$.
+
+--- Bài 6: ĐỀ BÀI ---
+Hoa viết: "$6\times7=48$". Hoa sai ở đâu? Hãy sửa lại.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$48$ là $6\times8$. Ta có $6\times7=6\times6+6=36+6=42$.
+
+**Thử lại.** $42:6=7$. Đúng.
+
+**Đáp số.** Hoa lấy nhầm tích liền sau; $6\times7=42$.
+
+--- Bài 7: ĐỀ BÀI ---
+a) Mỗi vỉ có $6$ quả trứng. Hỏi $8$ vỉ như vậy có bao nhiêu quả trứng?
+
+b) Có $54$ quả trứng xếp vào các vỉ, mỗi vỉ $6$ quả. Hỏi xếp được bao nhiêu vỉ?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Số quả trứng là $6\times8=48$ (quả).
+
+b) Số vỉ là $54:6=9$ (vỉ).
+
+**Đáp số.** a) $48$ quả trứng; b) $9$ vỉ.
+
+--- Bài 8: ĐỀ BÀI ---
+Có $60$ học sinh xếp thành các hàng, mỗi hàng $6$ em. Cô giáo đã xếp được $7$ hàng. Hỏi:
+
+a) Cần xếp tất cả bao nhiêu hàng?
+
+b) Còn bao nhiêu hàng chưa xếp, và còn bao nhiêu học sinh chưa xếp?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Số hàng cần xếp là $60:6=10$ (hàng).
+
+b) Số hàng chưa xếp là $10-7=3$ (hàng). Số học sinh đã xếp là $6\times7=42$ (em), nên số học sinh chưa xếp là $60-42=18$ (em). Kiểm tra: $6\times3=18$.
+
+**Đáp số.** a) $10$ hàng; b) $3$ hàng và $18$ học sinh.
+
+@@@ g3/three-times-table
+(Bài học: Bảng nhân 3, bảng chia 3)
+
+--- Bài 1: ĐỀ BÀI ---
+Tính nhẩm: a) $3\times 5$; b) $3\times 8$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $3\times 5=3+3+3+3+3=15$.
+
+b) $3\times 8=3\times 7+3=21+3=24$.
+
+**Đáp số.** a) $15$; b) $24$.
+
+--- Bài 2: ĐỀ BÀI ---
+Điền số còn thiếu vào dãy: $3, 6, 9, \square, 15, \square, 21$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$9+3=12$ và $15+3=18$. Dãy đầy đủ là $3, 6, 9, 12, 15, 18, 21$.
+
+**Kiểm tra.** $18+3=21$. Đúng.
+
+**Đáp số.** $12$ và $18$.
+
+--- Bài 3: ĐỀ BÀI ---
+Tính: a) $18:3$; b) $27:3$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $3\times 6=18$ nên $18:3=6$.
+
+b) $3\times 9=27$ nên $27:3=9$.
+
+**Đáp số.** a) $6$; b) $9$.
+
+--- Bài 4: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $3\times 7 \;\square\; 20$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$3\times 7=21$. Vì $21>20$ nên $3\times 7>20$.
+
+**Đáp số.** Dấu $>$.
+
+--- Bài 5: ĐỀ BÀI ---
+Cô giáo chia đều $15$ cái bút cho $3$ bạn. Hỏi mỗi bạn được mấy cái bút?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số bút mỗi bạn được là:
+$$15:3=5\ \text{(cái)}.$$
+
+**Kiểm tra.** $3\times 5=15$. Đúng.
+
+**Đáp số.** $5$ cái bút.
+
+--- Bài 6: ĐỀ BÀI ---
+Mỗi hàng trong vườn trường có $3$ chậu cây. Vườn có $10$ hàng như vậy. Hỏi vườn có tất cả bao nhiêu chậu cây?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số chậu cây có tất cả là:
+$$3\times 10=30\ \text{(chậu)}.$$
+
+**Đáp số.** $30$ chậu cây.
+
+--- Bài 7: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước: tìm số hạng chưa biết. Tìm số thích hợp điền vào ô trống: $\square+12=3\times 7$.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$3\times 7=21$, nên $\square+12=21$. Số hạng chưa biết là $21-12=9$.
+
+**Kiểm tra.** $9+12=21$. Đúng.
+
+**Đáp số.** $9$.
+
+--- Bài 8: ĐỀ BÀI ---
+Cô Hoa có $27$ quả táo, xếp đều vào các túi, mỗi túi $3$ quả. Cô cho bạn $4$ túi. Hỏi cô Hoa còn lại bao nhiêu quả táo?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số túi lúc đầu là $27:3=9$ (túi). Số túi còn lại là $9-4=5$ (túi). Số quả táo còn lại là $3\times 5=15$ (quả).
+
+**Kiểm tra.** Cô cho đi $4$ túi, tức $3\times 4=12$ quả. Còn lại $27-12=15$ quả. Đúng.
+
+**Đáp số.** $15$ quả táo.
+
+@@@ g3/triangles-quadrilaterals-rectangles
+(Bài học: Hình tam giác, hình tứ giác. Hình chữ nhật, hình vuông)
+
+--- Bài 1: ĐỀ BÀI ---
+Điền số vào chỗ trống: hình tam giác có $\ldots$ đỉnh và $\ldots$ cạnh; hình tứ giác có $\ldots$ đỉnh và $\ldots$ cạnh.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hình tam giác có $3$ đỉnh và $3$ cạnh; hình tứ giác có $4$ đỉnh và $4$ cạnh.
+
+**Đáp số.** $3$; $3$; $4$; $4$.
+
+--- Bài 2: ĐỀ BÀI ---
+Hình chữ nhật $ABCD$ có $AB=7$ cm, $BC=2$ cm. Tìm độ dài $CD$ và $AD$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$CD=AB=7$ cm; $AD=BC=2$ cm.
+
+**Đáp số.** $CD=7$ cm, $AD=2$ cm.
+
+--- Bài 3: ĐỀ BÀI ---
+Hình vuông $EFGH$ có cạnh $6$ cm. Mỗi cạnh còn lại dài bao nhiêu xăng-ti-mét?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Bốn cạnh của hình vuông bằng nhau nên mỗi cạnh còn lại cũng dài $6$ cm.
+
+**Đáp số.** $6$ cm.
+
+--- Bài 4: ĐỀ BÀI ---
+Mỗi hình sau là hình gì?
+a) Hình có $4$ góc vuông và $4$ cạnh bằng nhau.
+b) Hình có $3$ đỉnh.
+c) Hình có $4$ góc vuông, hai cạnh dài $8$ cm và hai cạnh dài $3$ cm.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Hình vuông. b) Hình tam giác. c) Có $4$ góc vuông nhưng các cạnh không bằng nhau hết, nên đó là hình chữ nhật.
+
+**Đáp số.** a) Hình vuông; b) Hình tam giác; c) Hình chữ nhật.
+
+--- Bài 5: ĐỀ BÀI ---
+Bác Hoa làm một khung hình vuông bằng $4$ thanh gỗ, mỗi thanh dài $5$ dm. Tất cả các thanh gỗ dài bao nhiêu đề-xi-mét?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Tổng độ dài các thanh gỗ là:
+$$5\times4=20\ \text{(dm)}.$$
+
+**Đáp số.** $20$ dm.
+
+--- Bài 6: ĐỀ BÀI ---
+Tìm số thích hợp điền vào chỗ trống: hình vuông có cạnh $9$ cm thì tổng độ dài bốn cạnh là $\ldots$ cm.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$9\times4=36$ (cm).
+
+**Đáp số.** $36$ cm.
+
+--- Bài 7: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước: hình chữ nhật $ABCD$ có mấy góc vuông? Hình tam giác $MNP$ có đúng một góc vuông thì có mấy góc không vuông?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hình chữ nhật có $4$ góc vuông. Hình tam giác có $3$ góc, trong đó $1$ góc vuông, nên có $3-1=2$ góc không vuông.
+
+**Đáp số.** $4$ góc vuông; $2$ góc không vuông.
+
+--- Bài 8: ĐỀ BÀI ---
+Ghép hai hình vuông cạnh $3$ cm, có một cạnh chung, thành một hình chữ nhật. Hai cạnh của hình chữ nhật đó dài bao nhiêu xăng-ti-mét?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Cạnh dài gồm hai cạnh hình vuông ghép lại: $3+3=6$ (cm). Cạnh ngắn là một cạnh hình vuông: $3$ cm.
+
+**Kiểm tra.** Hình có $4$ góc vuông và các cạnh đối diện bằng nhau. Đúng.
+
+**Đáp số.** $6$ cm và $3$ cm.
+
+@@@ g3/unit-fractions
+(Bài học: Một phần mấy)
+
+--- Bài 1: ĐỀ BÀI ---
+Mỗi hình sau được chia thành các phần bằng nhau. Viết phân số chỉ một phần của hình:
+
+![Ba hình phân số: hình tròn chia hai, hình chữ nhật chia ba và hình tròn chia tám, mỗi hình tô một phần](/assets/img/g3/g3-unit-fractions-02.svg)
+
+a) Hình chia thành $2$ phần bằng nhau.
+
+b) Hình chia thành $3$ phần bằng nhau.
+
+c) Hình chia thành $8$ phần bằng nhau.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $\dfrac{1}{2}$.
+
+b) $\dfrac{1}{3}$.
+
+c) $\dfrac{1}{8}$.
+
+**Đáp số.** a) $\dfrac{1}{2}$; b) $\dfrac{1}{3}$; c) $\dfrac{1}{8}$.
+
+--- Bài 2: ĐỀ BÀI ---
+Viết bằng chữ số:
+
+a) Một phần tư.
+
+b) Một phần sáu.
+
+c) Một phần mười.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Một phần tư là một phần bốn, viết là $\dfrac{1}{4}$.
+
+b) $\dfrac{1}{6}$.
+
+c) $\dfrac{1}{10}$.
+
+**Đáp số.** a) $\dfrac{1}{4}$; b) $\dfrac{1}{6}$; c) $\dfrac{1}{10}$.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước. Tìm $\square$, biết $\square\times3=15$. Rồi tìm $\dfrac{1}{3}$ của $15$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\square=15:3=5$. Một phần ba của $15$ là $15:3=5$, bằng $\square$.
+
+**Đáp số.** $\square=5$ và $\dfrac{1}{3}$ của $15$ là $5$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tìm:
+
+a) $\dfrac{1}{2}$ của $16$.
+
+b) $\dfrac{1}{5}$ của $30$.
+
+c) $\dfrac{1}{9}$ của $54$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $16:2=8$.
+
+b) $30:5=6$.
+
+c) $54:9=6$.
+
+**Đáp số.** a) $8$; b) $6$; c) $6$.
+
+--- Bài 5: ĐỀ BÀI ---
+a) Muốn tìm $\dfrac{1}{4}$ của $28$, em nhân hay chia? Vì sao? Rồi tính.
+
+b) Một chiếc bánh chia đều cho $2$ bạn, một chiếc bánh giống hệt chia đều cho $4$ bạn. Bạn nào được phần to hơn? Vì sao?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Em chia, vì chia $28$ thành $4$ phần bằng nhau thì mỗi phần là $\dfrac{1}{4}$ của $28$: $28:4=7$.
+
+b) Bạn trong nhóm $2$ bạn được $\dfrac{1}{2}$ chiếc bánh, bạn trong nhóm $4$ bạn được $\dfrac{1}{4}$ chiếc bánh. Chia ít phần hơn thì mỗi phần to hơn, nên $\dfrac{1}{2}$ to hơn $\dfrac{1}{4}$.
+
+**Đáp số.** a) Chia, kết quả $7$; b) bạn được $\dfrac{1}{2}$ chiếc bánh có phần to hơn.
+
+--- Bài 6: ĐỀ BÀI ---
+Nam viết: "$\dfrac{1}{3}$ của $12$ là $36$ vì $12\times3=36$". Nam sai ở đâu? Hãy sửa lại.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Nam đã nhân, nhưng phải chia: $\dfrac{1}{3}$ của $12$ là $12:3=4$.
+
+**Thử lại.** $3\times4=12$. Đúng.
+
+**Đáp số.** Nam dùng sai phép tính; kết quả đúng là $4$.
+
+--- Bài 7: ĐỀ BÀI ---
+a) Có $24$ cái kẹo, Lan lấy $\dfrac{1}{6}$ số kẹo. Hỏi Lan lấy bao nhiêu cái kẹo?
+
+b) Một sợi dây dài $40$ cm được cắt thành $5$ đoạn bằng nhau. Hỏi mỗi đoạn dài bao nhiêu xăng-ti-mét và là một phần mấy của sợi dây?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Lan lấy $24:6=4$ (cái kẹo).
+
+b) Mỗi đoạn dài $40:5=8$ (cm) và là $\dfrac{1}{5}$ sợi dây.
+
+**Đáp số.** a) $4$ cái kẹo; b) $8$ cm, là $\dfrac{1}{5}$ sợi dây.
+
+--- Bài 8: ĐỀ BÀI ---
+Lớp có $36$ học sinh. $\dfrac{1}{4}$ số học sinh đi học bơi, $\dfrac{1}{9}$ số học sinh đi học vẽ. Hỏi số học sinh đi học bơi nhiều hơn số học sinh đi học vẽ bao nhiêu em?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số học sinh học bơi là $36:4=9$ (em). Số học sinh học vẽ là $36:9=4$ (em). Học bơi nhiều hơn học vẽ là $9-4=5$ (em).
+
+**Đáp số.** $5$ em.
+
+@@@ g4/basic-property-of-fractions
+(Bài học: Tính chất cơ bản của phân số)
+
+--- Bài 1: ĐỀ BÀI ---
+Tìm số thích hợp: $\dfrac{1}{3}=\dfrac{?}{6}$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$3\times2=6$ nên $\dfrac{1}{3}=\dfrac{1\times2}{3\times2}=\dfrac{2}{6}$.
+
+**Đáp số.** $2$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tìm số thích hợp: $\dfrac{4}{5}=\dfrac{12}{?}$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$12:4=3$ nên $\dfrac{4}{5}=\dfrac{4\times3}{5\times3}=\dfrac{12}{15}$.
+
+**Đáp số.** $15$.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước: $3:4$ viết thành phân số là gì? Rồi viết phân số đó với mẫu số $8$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$3:4=\dfrac{3}{4}$. Vì $4\times2=8$ nên $\dfrac{3}{4}=\dfrac{3\times2}{4\times2}=\dfrac{6}{8}$.
+
+**Đáp số.** $\dfrac{3}{4}$; $\dfrac{6}{8}$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tìm số thích hợp: $\dfrac{8}{12}=\dfrac{?}{3}$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$12:4=3$ nên $\dfrac{8}{12}=\dfrac{8:4}{12:4}=\dfrac{2}{3}$.
+
+**Đáp số.** $2$.
+
+--- Bài 5: ĐỀ BÀI ---
+Có thể viết $\dfrac{1}{2}=\dfrac{2}{3}$ bằng cách cùng cộng thêm $1$ vào tử số và mẫu số không? Vì sao?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Không. Tử số $1$ nhân với $2$ được $2$, nhưng mẫu số $2$ không nhân với $2$ để được $3$. Hai phân số này không bằng nhau; phân số bằng $\dfrac{1}{2}$ là $\dfrac{2}{4}$.
+
+**Đáp số.** Không, vì phải nhân cả hai số với cùng một số.
+
+--- Bài 6: ĐỀ BÀI ---
+Mai viết: "$\dfrac{2}{5}=\dfrac{6}{10}$ vì nhân tử số với $3$ và nhân mẫu số với $2$." Mai sai ở đâu? Hãy viết lại cho đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Mai nhân tử số với $3$ nhưng mẫu số với $2$: hai số nhân khác nhau. Đúng là $\dfrac{2}{5}=\dfrac{2\times3}{5\times3}=\dfrac{6}{15}$.
+
+**Đáp số.** $\dfrac{6}{15}$.
+
+--- Bài 7: ĐỀ BÀI ---
+Nam ăn $\dfrac{2}{4}$ chiếc bánh, Hà ăn $\dfrac{4}{8}$, Lan ăn $\dfrac{3}{6}$ (các chiếc bánh giống nhau). Hãy chia cả tử số và mẫu số để viết mỗi phân số thành phân số có tử số $1$, rồi cho biết ba bạn có ăn bằng nhau không.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\dfrac{2}{4}=\dfrac{2:2}{4:2}=\dfrac{1}{2}$; $\dfrac{4}{8}=\dfrac{4:4}{8:4}=\dfrac{1}{2}$; $\dfrac{3}{6}=\dfrac{3:3}{6:3}=\dfrac{1}{2}$. Cả ba bằng $\dfrac{1}{2}$.
+
+**Đáp số.** Ba bạn ăn bằng nhau, mỗi bạn $\dfrac{1}{2}$ chiếc bánh.
+
+--- Bài 8: ĐỀ BÀI ---
+Tìm các số tự nhiên $a$ và $b$ sao cho $\dfrac{3}{4}=\dfrac{a}{20}=\dfrac{27}{b}$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\dfrac{3}{4}=\dfrac{3\times5}{4\times5}=\dfrac{15}{20}$ nên $a=15$. $\dfrac{3}{4}=\dfrac{3\times9}{4\times9}=\dfrac{27}{36}$ nên $b=36$.
+
+**Kiểm tra.** $15:5=3$, $20:5=4$; $27:9=3$, $36:9=4$. Đúng.
+
+**Đáp số.** $a=15$, $b=36$.
+
+@@@ g4/event-frequency
+(Bài học: Số lần xuất hiện của một sự kiện)
+
+--- Bài 1: ĐỀ BÀI ---
+Tung đồng xu $8$ lần được: N, N, S, N, S, S, N, N. Mỗi mặt xuất hiện mấy lần?
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+N xuất hiện $5$ lần, S xuất hiện $3$ lần. Kiểm tra $5+3=8$.
+
+**Đáp số.** Ngửa $5$ lần, sấp $3$ lần.
+
+--- Bài 2: ĐỀ BÀI ---
+Rút một thẻ từ ba loại thẻ A, B, C rồi trả lại, làm $10$ lần: A, B, A, C, A, B, A, A, C, B. Mỗi loại thẻ được rút mấy lần?
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+A: $5$ lần, B: $3$ lần, C: $2$ lần. Kiểm tra: $5+3+2=10$.
+
+**Đáp số.** A $5$ lần, B $3$ lần, C $2$ lần.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài biểu đồ cột: biểu đồ cho số lần xuất hiện của ba mặt xúc xắc, cột mặt $1$ cao $3$, cột mặt $2$ cao $5$, cột mặt $3$ cao $4$. Tổng số lần gieo là bao nhiêu? Mặt nào xuất hiện nhiều nhất?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$3+5+4=12$ (lần). Cột cao nhất là cột mặt $2$ ($5$ lần).
+
+**Đáp số.** $12$ lần; mặt $2$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tung đồng xu $20$ lần, mặt ngửa xuất hiện $11$ lần. Mặt sấp xuất hiện mấy lần?
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$20-11=9$ (lần). Kiểm tra: $11+9=20$.
+
+**Đáp số.** $9$ lần.
+
+--- Bài 5: ĐỀ BÀI ---
+Vì sao tổng số lần xuất hiện của hai mặt đồng xu luôn bằng số lần tung? Kiểm tra với trường hợp ngửa $6$ lần, sấp $4$ lần.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Mỗi lần tung chỉ cho một mặt, nên mỗi lần được đếm đúng một lần, và đếm hết thì được đúng số lần tung. Với $6+4=10$, đúng bằng $10$ lần tung.
+
+**Đáp số.** Vì mỗi lần tung có đúng một kết quả; $6+4=10$.
+
+--- Bài 6: ĐỀ BÀI ---
+Lan đếm dãy Đ, X, Đ, Đ, X và nói: "Đ xuất hiện $4$ lần, X xuất hiện $2$ lần." Lan sai ở đâu? Hãy đếm lại.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Dãy có $5$ lần thử mà Lan tính $4+2=6$, nên đếm trùng. Đếm đúng: Đ có $3$ lần, X có $2$ lần ($3+2=5$).
+
+**Đáp số.** Đ $3$ lần, X $2$ lần.
+
+--- Bài 7: ĐỀ BÀI ---
+Trong $30$ phút trước cổng trường, bảng kiểm đếm số xe đi qua là: xe đạp $12$, xe máy $9$, ô tô $5$, còn lại là người đi bộ. 
+a) Có bao nhiêu người đi bộ?
+b) Xe máy và ô tô đi qua tất cả bao nhiêu chiếc?
+c) Xe đạp nhiều hơn ô tô bao nhiêu chiếc?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Xe đạp, xe máy, ô tô: $12+9+5=26$. Người đi bộ: $30-26=4$. b) $9+5=14$ (chiếc). c) $12-5=7$ (chiếc).
+
+**Đáp số.** a) $4$ người; b) $14$ chiếc; c) $7$ chiếc.
+
+--- Bài 8: ĐỀ BÀI ---
+Gieo một con xúc xắc $20$ lần, các mặt chẵn xuất hiện tất cả $12$ lần. Biết mặt $2$ xuất hiện $5$ lần, mặt $6$ xuất hiện $3$ lần. Hỏi mặt $4$ xuất hiện mấy lần? Các mặt lẻ xuất hiện tất cả mấy lần?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Mặt $4$: $12-5-3=4$ (lần). Mặt lẻ: $20-12=8$ (lần).
+
+**Kiểm tra.** $5+4+3=12$ và $12+8=20$. Đúng.
+
+**Đáp số.** Mặt $4$ xuất hiện $4$ lần; mặt lẻ $8$ lần.
+
+@@@ g4/finding-the-mean
+(Bài học: Tìm số trung bình cộng)
+
+--- Bài 1: ĐỀ BÀI ---
+Tìm số trung bình cộng của $5$, $7$ và $9$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$(5+7+9):3=21:3=7$.
+
+**Đáp số.** $7$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tìm số trung bình cộng của $10$, $20$, $30$ và $40$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$(10+20+30+40):4=100:4=25$.
+
+**Đáp số.** $25$.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài chia cho số có hai chữ số: tính $156:12$. Từ đó cho biết trung bình cộng của $12$ số có tổng bằng $156$ là bao nhiêu.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$12\times13=156$, nên $156:12=13$. Trung bình cộng của $12$ số đó là $13$.
+
+**Đáp số.** $13$.
+
+--- Bài 4: ĐỀ BÀI ---
+Ba số có tổng bằng $45$. Tìm số trung bình cộng của ba số đó.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$45:3=15$.
+
+**Đáp số.** $15$.
+
+--- Bài 5: ĐỀ BÀI ---
+Hai bạn gộp $20$ viên bi và $36$ viên bi rồi chia đều cho nhau. Mỗi bạn được bao nhiêu viên bi? Vì sao phải chia cho $2$?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Tổng số bi là $20+36=56$ (viên). Có $2$ bạn nên chia cho $2$: $56:2=28$ (viên).
+
+**Đáp số.** $28$ viên bi.
+
+--- Bài 6: ĐỀ BÀI ---
+Mai làm bài: "Số trung bình cộng của $4$, $8$, $6$, $10$: tổng là $28$, chia cho $3$ không hết nên không có số trung bình cộng." Bạn Mai sai ở đâu? Hãy làm lại cho đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Có $4$ số, không phải $3$ số, nên Mai chia sai. Đúng là $(4+8+6+10):4=28:4=7$.
+
+**Đáp số.** $7$.
+
+--- Bài 7: ĐỀ BÀI ---
+Nhiệt độ lúc trưa trong năm ngày liền: Thứ Hai $22$ độ, Thứ Ba $24$ độ, Thứ Tư $25$ độ, Thứ Năm $23$ độ, Thứ Sáu $26$ độ.
+a) Tìm nhiệt độ trung bình của năm ngày.
+b) Những ngày nào có nhiệt độ cao hơn mức trung bình?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $(22+24+25+23+26):5=120:5=24$ (độ).
+b) Các ngày có nhiệt độ lớn hơn $24$ độ là Thứ Tư ($25$) và Thứ Sáu ($26$).
+
+**Đáp số.** a) $24$ độ; b) Thứ Tư và Thứ Sáu.
+
+--- Bài 8: ĐỀ BÀI ---
+Trung bình cộng của bốn số là $15$. Ba trong bốn số là $12$, $18$ và $20$. Tìm số thứ tư.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Tổng bốn số là $15\times4=60$. Ba số đã biết có tổng $12+18+20=50$. Số thứ tư là $60-50=10$.
+
+**Kiểm tra.** $(12+18+20+10):4=60:4=15$. Đúng.
+
+**Đáp số.** $10$.

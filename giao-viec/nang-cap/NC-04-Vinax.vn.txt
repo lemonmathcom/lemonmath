@@ -1,0 +1,721 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – tài khoản Vinax.vn
+Giao ngày 11/11/2026. Việc này LÀM XEN KẼ với việc viết bài mới, không thay phân công cũ. Số bài học cần nâng cấp: 7.
+
+VIỆC CẦN LÀM
+Các bài học dưới đây đã có trên lemonmath.com, nhưng LỜI GIẢI của các bài tập còn vắn tắt (chỉ có phép tính). Hãy VIẾT LẠI LỜI GIẢI của từng bài tập cho chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (Kết nối tri thức), để học sinh có thể chép cách trình bày vào vở.
+KHÔNG đổi đề bài, KHÔNG đổi số liệu, KHÔNG đổi đáp số. Nếu phát hiện đáp số cũ sai, vẫn viết lời giải đúng và ghi thêm một dòng "GHI CHÚ: đáp số cũ sai vì …" ngay dưới lời giải đó.
+
+CÁCH TRÌNH BÀY LỜI GIẢI (bắt buộc)
+1. Mỗi ý là một đoạn ngắn, cách nhau một dòng trống:
+   - Đặt vấn đề: "Điều kiện xác định: …", "Gọi x (m) là … (x > 0).", "Gọi A là biến cố "…".", "Xét tam giác ABC vuông tại A, ta có …".
+   - Từng bước, mỗi bước một dòng, có lời dẫn và lí do: "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …".
+   - Phép tính dài viết ở dạng công thức riêng dòng $$ … $$.
+   - Bài có nhiều ý: mỗi ý a), b), c) bắt đầu một đoạn mới và có kết quả riêng.
+   - Câu kết luận đầy đủ: "Vậy …" (có đơn vị nếu là bài toán thực tế).
+   - Dòng cuối: **Đáp số.** … (giữ đúng đáp số cũ).
+2. Lớp 1–5 trình bày kiểu tiểu học: "Bài giải" → câu lời giải → phép tính → "Đáp số: …"; xưng "em", câu thật ngắn. Bài tính thuần tuý (Tính, Đặt tính rồi tính, Số?) thì viết rõ cách làm từng bước rồi nêu kết quả.
+3. Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện. Không dùng kí hiệu đô la cho tiền.
+4. Công thức viết bằng LaTeX trong $…$ như bản cũ. Bản Việt: số thập phân 2{,}5, khoảng (a; b). Bản Anh: 2.5, (a, b), chính tả Anh (metres, factorise).
+5. Độ dài: bài cơ bản 3–5 dòng, bài vận dụng 5–8 dòng, bài khó dài hơn nếu cần.
+6. Mỗi lời giải viết HAI bản: tiếng Việt và tiếng Anh, cùng các bước, cùng số liệu. Bản Anh: "We have …", "Hence …", "So …", dòng cuối **Answer.** …
+
+VÍ DỤ
+Lời giải cũ:   $3(x+2)=5(x-2)\iff 2x=16\iff x=8$ (thoả mãn điều kiện).
+Lời giải mới:
+Điều kiện xác định: $x\neq2$ và $x\neq-2$.
+
+Quy đồng mẫu hai vế rồi khử mẫu, ta được
+$$3(x+2)=5(x-2).$$
+
+Suy ra $3x+6=5x-10$, hay $2x=16$, tức là $x=8$.
+
+Ta thấy $x=8$ thoả mãn điều kiện xác định.
+
+Vậy phương trình đã cho có nghiệm $x=8$.
+
+**Đáp số.** $x=8$.
+
+CÁCH NỘP (rất quan trọng: máy sẽ tự ghép, nên phải đúng mẫu)
+Xuất MỘT file tên "NC-Vinax.vn.md" (hết hạn mức thì nộp phần đã xong, lần sau làm tiếp và nộp file "NC-Vinax.vn-2.md"). Trong file, mỗi bài học bắt đầu bằng dòng @@@ kèm mã bài chép y nguyên, rồi lần lượt từng bài tập:
+
+@@@ g9/cube-roots
+### 1 VI
+(lời giải mới của Bài 1, tiếng Việt)
+### 1 EN
+(lời giải mới của Bài 1, tiếng Anh)
+### 2 VI
+…
+
+Chỉ viết lời giải, không chép lại đề bài, không thêm lời bình ngoài mẫu trên. Lưu file vào thư mục Dropbox "viec da lam".
+
+===== CÁC BÀI HỌC CẦN NÂNG CẤP (7 bài) =====
+
+@@@ g10/sets-and-set-operations
+(Bài học: Tập hợp và các phép toán trên tập hợp)
+
+--- Bài 1: ĐỀ BÀI ---
+Liệt kê các phần tử của mỗi tập hợp.
+
+(a) $\{x\in\mathbb{N}^*\mid x\le 4\}$. (b) $\{x\in\mathbb{Z}\mid -3<x\le 1\}$. (c) $\{x\in\mathbb{R}\mid x^2-4x=0\}$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+(a) $\{1; 2; 3; 4\}$. (b) Số nguyên lớn hơn $-3$ và không vượt quá $1$: $\{-2; -1; 0; 1\}$. (c) $x^2-4x=x(x-4)=0$ cho $x=0$ hoặc $x=4$.
+
+**Đáp số.** (a) $\{1; 2; 3; 4\}$; (b) $\{-2; -1; 0; 1\}$; (c) $\{0; 4\}$.
+
+--- Bài 2: ĐỀ BÀI ---
+Viết mỗi tập sau bằng cách nêu tính chất đặc trưng.
+
+(a) $\{4; 8; 12; 16; 20\}$. (b) $\{1; 4; 9; 16; 25\}$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+(a) Đây là các bội dương của $4$ không vượt quá $20$. (b) Đây là bình phương của $1, 2, 3, 4, 5$.
+
+**Đáp số.** (a) $\{x\in\mathbb{N}^*\mid x \text{ chia hết cho } 4,\ x\le 20\}$; (b) $\{n^2\mid n\in\mathbb{N}^*,\ n\le 5\}$.
+
+--- Bài 3: ĐỀ BÀI ---
+Cho $A=\{2; 3; 5; 7\}$. Tập $A$ có bao nhiêu tập con? Có bao nhiêu tập con của $A$ chứa phần tử $2$?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Mỗi phần tử trong bốn phần tử có $2$ lựa chọn, nên số tập con là $2\cdot2\cdot2\cdot2=16$ (kể cả $\varnothing$ và $A$). Nếu bắt buộc lấy $2$, ba phần tử $3, 5, 7$ còn lại cho $2\cdot2\cdot2=8$ cách.
+
+**Đáp số.** $16$ tập con; $8$ tập con chứa $2$.
+
+--- Bài 4: ĐỀ BÀI ---
+Cho $A=[-4; 1]$ và $B=(-1; 3)$. Tìm $A\cap B$, $A\cup B$, $A\setminus B$ và $B\setminus A$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Phần chung là $-1<x\le 1$; gộp lại là $-4\le x<3$. Bỏ khỏi $A$ phần $x>-1$: còn $[-4; -1]$ vì $-1\notin B$. Bỏ khỏi $B$ phần $x\le 1$: còn $(1; 3)$ vì $1\in A$.
+
+**Đáp số.** $A\cap B=(-1; 1]$, $A\cup B=[-4; 3)$, $A\setminus B=[-4; -1]$, $B\setminus A=(1; 3)$.
+
+--- Bài 5: ĐỀ BÀI ---
+Tìm phần bù trong $\mathbb{R}$ của tập $A=(-\infty; -2]\cup(3; +\infty)$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Phần còn trống nằm giữa $-2$ và $3$. Điểm $-2\in A$ nên không lấy; điểm $3\notin A$ nên được lấy.
+
+**Đáp số.** $C_{\mathbb{R}}A=(-2; 3]$.
+
+--- Bài 6: ĐỀ BÀI ---
+Cho $A=[-1; 4)$ và $B=\{x\in\mathbb{Z}\mid -2\le x\le 2\}$. Mỗi khẳng định sau đúng hay sai?
+
+a) $A\cap B=\{-1; 0; 1; 2\}$.
+b) $A\cup B=[-2; 4)$.
+c) $B\setminus A=\{-2\}$.
+d) $A$ chứa đúng $4$ số nguyên.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$B=\{-2; -1; 0; 1; 2\}$.
+
+a) **Đúng.** Trong $B$, chỉ $-2$ không thuộc $A$.
+
+b) **Sai.** $-1{,}5\in[-2; 4)$ nhưng $-1{,}5\notin A$ và $-1{,}5\notin B$. Thực ra $A\cup B=\{-2\}\cup[-1; 4)$.
+
+c) **Đúng.** $-2$ là phần tử duy nhất của $B$ không thuộc $A$.
+
+d) **Sai.** $A$ chứa $5$ số nguyên: $-1, 0, 1, 2, 3$ ($4\notin A$).
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+--- Bài 7: ĐỀ BÀI ---
+Khảo sát $50$ học sinh: $32$ bạn thích bóng đá, $25$ bạn thích bơi và $9$ bạn không thích môn nào trong hai môn. Có bao nhiêu bạn thích cả hai môn?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số bạn thích ít nhất một môn: $50-9=41$. Khi đó $41=32+25-n(A\cap B)$, nên $n(A\cap B)=57-41=16$.
+
+**Đáp số.** $16$.
+
+--- Bài 8: ĐỀ BÀI ---
+Một công ty du lịch hỏi $120$ khách: $70$ người đã đến Hạ Long, $55$ người đã đến Sa Pa và $30$ người đã đến cả hai nơi. Có bao nhiêu khách đã đến đúng một trong hai nơi? Bao nhiêu khách chưa đến nơi nào?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Ít nhất một nơi: $70+55-30=95$. Đúng một nơi: $95-30=65$ (gồm $40$ người chỉ đến Hạ Long và $25$ người chỉ đến Sa Pa). Chưa đến nơi nào: $120-95=25$.
+
+**Đáp số.** $65$ khách đến đúng một nơi; $25$ khách chưa đến nơi nào.
+
+--- Bài 9: ĐỀ BÀI ---
+(Ôn tập bài [Mệnh đề](lesson:statements)) Cho $A=\{x\in\mathbb{R}\mid x^2\le 4\}$ và $B=(-3; 3)$.
+
+(a) Viết $A$ dưới dạng đoạn. (b) Mệnh đề "$\forall x\in A,\ x\in B$" đúng hay sai? Lập mệnh đề phủ định của nó. (c) Mệnh đề "$\forall x\in B,\ x\in A$" đúng hay sai?
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+(a) $x^2\le 4\iff -2\le x\le 2$, nên $A=[-2; 2]$.
+
+(b) Mọi $x\in[-2; 2]$ đều thoả $-3<x<3$, nên mệnh đề đúng ($A\subset B$). Phủ định: "$\exists x\in A,\ x\notin B$".
+
+(c) Sai: $x=2{,}5\in B$ nhưng $2{,}5^2=6{,}25>4$ nên $2{,}5\notin A$.
+
+**Đáp số.** (a) $A=[-2; 2]$; (b) đúng; (c) sai.
+
+--- Bài 10: ĐỀ BÀI ---
+Có bao nhiêu tập hợp $X$ thoả mãn $\{1; 2\}\subset X\subset\{1; 2; 3; 4; 5\}$?
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$X$ luôn chứa $1$ và $2$; mỗi phần tử $3$, $4$, $5$ có thể lấy hoặc không. Số cách là $2\cdot2\cdot2=8$, từ $X=\{1; 2\}$ đến $X=\{1; 2; 3; 4; 5\}$.
+
+**Đáp số.** $8$.
+
+@@@ g10/sign-of-quadratic
+(Bài học: Dấu của tam thức bậc hai)
+
+--- Bài 1: ĐỀ BÀI ---
+Giải $x^2-4x+3>0$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$x^2-4x+3=(x-1)(x-3)$ có hai nghiệm $1$ và $3$. Vì $a=1>0$ nên tam thức dương khi $x$ nằm ngoài hai nghiệm; dấu "$>$" chặt nên không lấy nghiệm.
+
+**Đáp số.** $S=(-\infty; 1)\cup(3; +\infty)$.
+
+--- Bài 2: ĐỀ BÀI ---
+Giải $x^2-9\le 0$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$x^2-9=(x-3)(x+3)$ có hai nghiệm $\pm3$. Vì $a=1>0$ nên tam thức $\le 0$ ở giữa hai nghiệm, lấy cả hai nghiệm vì có dấu bằng.
+
+**Đáp số.** $S=[-3; 3]$.
+
+--- Bài 3: ĐỀ BÀI ---
+Giải $-x^2+2x+8>0$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$-x^2+2x+8=-(x-4)(x+2)$, hai nghiệm $-2$ và $4$. Vì $a=-1<0$ nên tam thức dương ở giữa hai nghiệm.
+
+**Đáp số.** $S=(-2; 4)$.
+
+--- Bài 4: ĐỀ BÀI ---
+Giải $2x^2-x-3\ge 0$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\Delta=1+24=25$, nghiệm $x=\dfrac{1\pm5}{4}$, tức $x=-1$ và $x=\dfrac32$. Vì $a=2>0$ nên tam thức không âm ở ngoài hai nghiệm, kể cả hai nghiệm.
+
+**Đáp số.** $S=(-\infty; -1]\cup\left[\dfrac32; +\infty\right)$.
+
+--- Bài 5: ĐỀ BÀI ---
+Giải $x^2+4x+5>0$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\Delta=16-20=-4<0$ và $a=1>0$, nên tam thức luôn dương với mọi $x$.
+
+**Đáp số.** $S=\mathbb{R}$.
+
+--- Bài 6: ĐỀ BÀI ---
+Giải $x^2-4x+4\le 0$.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$x^2-4x+4=(x-2)^2\ge 0$ với mọi $x$, nên nó $\le 0$ chỉ khi bằng $0$, tức $x=2$.
+
+**Đáp số.** $S=\{2\}$.
+
+--- Bài 7: ĐỀ BÀI ---
+Một mảnh vườn hình chữ nhật có chu vi $20$ m, chiều rộng là $x$ m (chiều rộng không lớn hơn chiều dài). Với những giá trị nào của $x$ thì diện tích vườn ít nhất $21$ m²?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Nửa chu vi là $10$ m nên chiều dài là $10-x$ và diện tích là $x(10-x)$. Ta cần
+$$\begin{aligned} x(10-x)\ge 21 &\iff x^2-10x+21\le 0\\ &\iff (x-3)(x-7)\le 0\\ &\iff 3\le x\le 7. \end{aligned}$$
+Chiều rộng không lớn hơn chiều dài: $x\le 10-x$, tức $x\le 5$.
+
+**Đáp số.** $3\le x\le 5$ (mét). Kiểm tra: $x=3$ cho diện tích $3\cdot7=21$ m², vừa đủ.
+
+--- Bài 8: ĐỀ BÀI ---
+Giải $\dfrac{x+1}{x-3}<0$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Tử bằng $0$ tại $x=-1$, mẫu bằng $0$ tại $x=3$ (loại). Trên khoảng $(-1; 3)$ tử dương, mẫu âm nên thương âm; ngoài khoảng đó tử và mẫu cùng dấu nên thương dương.
+
+**Đáp số.** $S=(-1; 3)$.
+
+--- Bài 9: ĐỀ BÀI ---
+Giải $x^4-5x^2+4<0$.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Với $t=x^2$: $t^2-5t+4=(t-1)(t-4)<0 \iff 1<t<4$. Vậy $1<x^2<4$, tức $1<|x|<2$.
+
+**Đáp số.** $S=(-2; -1)\cup(1; 2)$.
+
+--- Bài 10: ĐỀ BÀI ---
+Tìm tập xác định của hàm số $y=\sqrt{x^2-3x-4}$.
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Cần $x^2-3x-4=(x-4)(x+1)\ge 0$. Vì $a=1>0$ nên điều này đúng khi $x$ ở ngoài hai nghiệm $-1$ và $4$, kể cả hai nghiệm.
+
+**Đáp số.** $D=(-\infty; -1]\cup[4; +\infty)$.
+
+@@@ g10/statements
+(Bài học: Mệnh đề)
+
+--- Bài 1: ĐỀ BÀI ---
+Câu nào dưới đây là mệnh đề? Nếu là mệnh đề thì đúng hay sai?
+
+(a) $221$ là số nguyên tố. (b) $x-3>0$. (c) Bài này hay quá! (d) $\sqrt{49}=7$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+(a) Là mệnh đề sai, vì $221=13\cdot17$. (b) Chứa biến $x$ nên chưa phải mệnh đề (đúng khi $x=5$, sai khi $x=0$). (c) Câu cảm thán, không phải mệnh đề. (d) Là mệnh đề đúng, vì $7^2=49$ và $7>0$.
+
+**Đáp số.** (a) mệnh đề sai; (b) mệnh đề chứa biến; (c) không phải mệnh đề; (d) mệnh đề đúng.
+
+--- Bài 2: ĐỀ BÀI ---
+Lập mệnh đề phủ định của mỗi mệnh đề sau và cho biết mệnh đề nào trong hai mệnh đề là đúng.
+
+(a) "$2023$ chia hết cho $7$." (b) "$\pi<3{,}14$." (c) "$-3>-5$."
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+(a) "$2023$ không chia hết cho $7$". Vì $2023=7\cdot289$ nên mệnh đề gốc đúng, phủ định sai.
+
+(b) "$\pi\ge 3{,}14$". Vì $\pi\approx3{,}1416$ nên mệnh đề gốc sai, phủ định đúng.
+
+(c) "$-3\le -5$". Mệnh đề gốc đúng, phủ định sai.
+
+**Đáp số.** Đúng là: (a) mệnh đề gốc; (b) mệnh đề phủ định; (c) mệnh đề gốc.
+
+--- Bài 3: ĐỀ BÀI ---
+Cho mệnh đề "Nếu tứ giác $ABCD$ là hình thoi thì hai đường chéo của nó vuông góc với nhau." Mệnh đề này có đúng không? Phát biểu mệnh đề đảo và xét tính đúng sai của nó.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Mệnh đề đã cho đúng: hai đường chéo của hình thoi vuông góc với nhau. Mệnh đề đảo: "Nếu tứ giác $ABCD$ có hai đường chéo vuông góc thì nó là hình thoi." Mệnh đề đảo sai: tứ giác có hai đường chéo vuông góc, cắt nhau tại trung điểm của chỉ một đường chéo (hình "cánh diều", chẳng hạn $AB=AD=2$, $CB=CD=5$) không phải hình thoi.
+
+**Đáp số.** Mệnh đề đúng; mệnh đề đảo sai.
+
+--- Bài 4: ĐỀ BÀI ---
+Điền "cần", "đủ" hoặc "cần và đủ" vào chỗ trống.
+
+(a) "$n$ chia hết cho $6$" là điều kiện ... để "$n$ chia hết cho $3$".
+(b) "$x^2>4$" là điều kiện ... để "$x>2$".
+(c) "Tam giác có hai góc bằng nhau" là điều kiện ... để "tam giác đó cân".
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+(a) $6\mid n\Rightarrow 3\mid n$ đúng; chiều ngược lại sai ($n=3$). Vậy là điều kiện **đủ**.
+
+(b) $x>2\Rightarrow x^2>4$ đúng; $x^2>4\Rightarrow x>2$ sai ($x=-3$). Vậy "$x^2>4$" là điều kiện **cần** để "$x>2$".
+
+(c) Tam giác có hai góc bằng nhau khi và chỉ khi nó cân, nên là điều kiện **cần và đủ**.
+
+**Đáp số.** (a) đủ; (b) cần; (c) cần và đủ.
+
+--- Bài 5: ĐỀ BÀI ---
+Lập mệnh đề phủ định của $A$: "$\forall x\in\mathbb{R},\ x^2+x+1>0$" và cho biết $A$ hay $\overline{A}$ đúng.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\overline{A}$: "$\exists x\in\mathbb{R},\ x^2+x+1\le 0$". Ta có
+$$x^2+x+1=\left(x+\dfrac12\right)^2+\dfrac34\ge\dfrac34>0$$
+với mọi $x$, nên $A$ đúng.
+
+**Đáp số.** $A$ đúng, $\overline{A}$ sai.
+
+--- Bài 6: ĐỀ BÀI ---
+Cho mệnh đề $A$: "$\exists n\in\mathbb{N},\ n^2+1$ chia hết cho $3$". Mỗi khẳng định sau đúng hay sai?
+
+a) $A$ là mệnh đề sai.
+b) Mệnh đề phủ định của $A$ là "$\exists n\in\mathbb{N},\ n^2+1$ không chia hết cho $3$".
+c) Với mệnh đề chứa biến $P(n)$: "$n^2+1$ chia hết cho $3$", mệnh đề $P(2)$ đúng.
+d) Mệnh đề "$\exists n\in\mathbb{N},\ n^2+1$ chia hết cho $5$" là mệnh đề đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) **Đúng.** Với $n=3k$ thì $n^2=9k^2$ chia hết cho $3$; với $n=3k\pm1$ thì $n^2=9k^2\pm6k+1$ chia $3$ dư $1$. Vậy $n^2+1$ chia $3$ dư $1$ hoặc $2$, không bao giờ chia hết cho $3$.
+
+b) **Sai.** Phủ định đúng là "$\forall n\in\mathbb{N},\ n^2+1$ không chia hết cho $3$".
+
+c) **Sai.** $P(2)$: $2^2+1=5$ không chia hết cho $3$.
+
+d) **Đúng.** Với $n=2$: $2^2+1=5$ chia hết cho $5$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
+
+--- Bài 7: ĐỀ BÀI ---
+Trong các số tự nhiên $n$ từ $1$ đến $20$, có bao nhiêu số làm cho mệnh đề $P(n)$: "$n^2-1$ chia hết cho $8$" là mệnh đề đúng?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Nếu $n$ chẵn thì $n^2-1$ lẻ, không chia hết cho $8$. Nếu $n$ lẻ thì $n-1$, $n+1$ là hai số chẵn liên tiếp, một trong hai chia hết cho $4$, nên $(n-1)(n+1)$ chia hết cho $2\cdot4=8$. Từ $1$ đến $20$ có $10$ số lẻ.
+
+**Đáp số.** $10$.
+
+--- Bài 8: ĐỀ BÀI ---
+Nội quy của một trường ghi: "Nếu học sinh đến muộn quá $15$ phút thì phải lên phòng giám thị." Bốn bạn trong một buổi sáng:
+
+| Bạn | Đến muộn | Lên phòng giám thị |
+|---|---|---|
+| An | $0$ phút | không |
+| Bình | $10$ phút | có |
+| Chi | $20$ phút | có |
+| Dũng | $25$ phút | không |
+
+Bạn nào vi phạm nội quy?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+An: $P$ sai, $Q$ sai. Bình: $P$ sai, $Q$ đúng (tự giác lên phòng, nội quy không cấm). Chi: $P$ đúng, $Q$ đúng. Dũng: $P$ đúng, $Q$ sai, đây là trường hợp duy nhất làm $P\Rightarrow Q$ sai.
+
+**Đáp số.** Chỉ bạn Dũng vi phạm nội quy.
+
+--- Bài 9: ĐỀ BÀI ---
+(Ôn tập lớp 9) Xét tính đúng sai và lập mệnh đề phủ định của mỗi mệnh đề.
+
+(a) $P$: "Phương trình $x^2-6x+10=0$ có nghiệm thực."
+(b) $Q$: "$\exists x\in\mathbb{R},\ x^2-7x+10<0$".
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+(a) $\Delta'=(-3)^2-10=-1<0$ nên phương trình vô nghiệm: $P$ sai. $\overline{P}$: "Phương trình $x^2-6x+10=0$ không có nghiệm thực" là mệnh đề đúng.
+
+(b) Với $x=3$: $9-21+10=-2<0$, nên $Q$ đúng. $\overline{Q}$: "$\forall x\in\mathbb{R},\ x^2-7x+10\ge 0$" là mệnh đề sai.
+
+**Đáp số.** (a) $P$ sai, $\overline{P}$ đúng; (b) $Q$ đúng, $\overline{Q}$ sai.
+
+--- Bài 10: ĐỀ BÀI ---
+Với số tự nhiên $n$, chứng minh mệnh đề "$n$ chia hết cho $3$ $\Leftrightarrow$ $n^2$ chia hết cho $3$" là đúng.
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+($\Rightarrow$) Nếu $n=3k$ thì $n^2=9k^2=3\cdot3k^2$ chia hết cho $3$.
+
+($\Leftarrow$) Nếu $n$ không chia hết cho $3$ thì
+$$n=3k+1\Rightarrow n^2=3(3k^2+2k)+1,\qquad n=3k+2\Rightarrow n^2=3(3k^2+4k+1)+1,$$
+nên $n^2$ chia $3$ dư $1$. Vậy nếu $n^2$ chia hết cho $3$ thì $n$ phải chia hết cho $3$.
+
+**Đáp số.** Cả hai chiều đều đúng nên mệnh đề tương đương đúng.
+
+@@@ g10/systems-linear-inequalities
+(Bài học: Hệ bất phương trình bậc nhất hai ẩn)
+
+--- Bài 1: ĐỀ BÀI ---
+Cặp nào trong $(2; 1)$, $(0; 0)$, $(5; 1)$ là nghiệm của hệ $\begin{cases} x+y\ge 2\\ x-y\le 3 \end{cases}$?
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$(2; 1):\ 3\ge 2,\ 1\le 3\ \text{(đúng)};\quad (0; 0):\ 0\ge 2\ \text{(sai)};\quad (5; 1):\ 6\ge 2,\ \text{nhưng } 4\le 3\ \text{(sai)}.$$
+
+**Đáp số.** Chỉ có $(2; 1)$.
+
+--- Bài 2: ĐỀ BÀI ---
+Hệ $\begin{cases} x+y\le 1\\ x+y\ge 3 \end{cases}$ có nghiệm không? Giải thích.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Nếu $(x; y)$ là nghiệm thì $3\le x+y\le 1$, vô lí vì $3>1$. Hai đường biên $x+y=1$ và $x+y=3$ song song, hai nửa mặt phẳng nằm về hai phía không chồng lên nhau.
+
+**Đáp số.** Hệ vô nghiệm (miền nghiệm rỗng).
+
+--- Bài 3: ĐỀ BÀI ---
+Miền nghiệm của hệ $1\le x\le 4$, $0\le y\le 3$ là một hình chữ nhật. Nêu các đỉnh và tìm giá trị lớn nhất, nhỏ nhất của $F=2x+y$ trên miền đó.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Các đỉnh $(1; 0)$, $(4; 0)$, $(4; 3)$, $(1; 3)$ cho
+$$F=2,\quad 8,\quad 11,\quad 5.$$
+
+**Đáp số.** Lớn nhất $11$ tại $(4; 3)$; nhỏ nhất $2$ tại $(1; 0)$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tìm các đỉnh của miền nghiệm của hệ $x\ge 0$, $y\ge 0$, $x+y\le 6$, $x+3y\le 12$, rồi tìm giá trị lớn nhất của $F=5x+4y$ trên miền đó.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Trên trục: $(0; 0)$, $(6; 0)$, $(0; 4)$. Trừ vế theo vế $x+3y=12$ và $x+y=6$: $2y=6$, $y=3$, $x=3$. Giá trị của $F$:
+$$F(0; 0)=0,\quad F(6; 0)=30,\quad F(0; 4)=16,\quad F(3; 3)=27.$$
+
+**Đáp số.** Các đỉnh $(0; 0)$, $(6; 0)$, $(3; 3)$, $(0; 4)$; giá trị lớn nhất của $F$ là $30$, tại $(6; 0)$.
+
+--- Bài 5: ĐỀ BÀI ---
+Cho hệ $\begin{cases} x\ge 0,\ y\ge 0\\ 2x+y\le 8\\ y\le 4 \end{cases}$ có miền nghiệm $D$. Mỗi khẳng định sau đúng hay sai?
+
+a) Cặp $(1; 5)$ là một nghiệm của hệ.
+
+b) $D$ là một tứ giác, trong đó có đỉnh $(2; 4)$.
+
+c) Giá trị lớn nhất của $x+y$ trên $D$ bằng $6$.
+
+d) Giá trị nhỏ nhất của $x-y$ trên $D$ bằng $-2$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) **Sai:** $y=5\le 4$ là sai.
+
+b) **Đúng:** các đỉnh là $(0; 0)$, $(4; 0)$, $(2; 4)$, $(0; 4)$; đỉnh $(2; 4)$ có được khi thay $y=4$ vào $2x+y=8$.
+
+c) **Đúng:** $x+y$ tại bốn đỉnh bằng $0$, $4$, $6$, $4$; lớn nhất là $6$.
+
+d) **Sai:** $x-y$ tại bốn đỉnh bằng $0$, $4$, $-2$, $-4$; nhỏ nhất là $-4$ (tại $(0; 4)$), không phải $-2$.
+
+**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
+
+--- Bài 6: ĐỀ BÀI ---
+Một quầy ăn của câu lạc bộ mỗi ngày bán $x$ bánh mì kẹp và $y$ cốc nước. Thời gian chuẩn bị cho phép tổng cộng nhiều nhất $30$ món ($x+y\le 30$), quầy chuẩn bị được nhiều nhất $20$ bánh và nhiều nhất $20$ cốc nước. Mỗi bánh lãi $4$ nghìn đồng, mỗi cốc nước lãi $3$ nghìn đồng. Tiền lãi lớn nhất trong một ngày là bao nhiêu nghìn đồng?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Các đỉnh $(0; 0)$, $(20; 0)$, $(20; 10)$, $(10; 20)$, $(0; 20)$ cho
+$$F=0,\quad 80,\quad 110,\quad 100,\quad 60.$$
+Lãi lớn nhất khi bán $20$ bánh và $10$ cốc nước.
+
+**Đáp số.** $110$.
+
+--- Bài 7: ĐỀ BÀI ---
+Bác Hùng có $8$ ha đất để trồng ngô và đậu, và có $30$ triệu đồng để chi cho giống và phân bón. Mỗi ha ngô cần $5$ triệu đồng và lãi $4$ triệu đồng; mỗi ha đậu cần $3$ triệu đồng và lãi $3$ triệu đồng. Bác nên trồng bao nhiêu ha mỗi loại để lãi nhiều nhất?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Trên trục: $(0; 0)$, $(6; 0)$, $(0; 8)$. Thế $y=8-x$ vào $5x+3y=30$: $2x+24=30$, $x=3$, $y=5$. Giá trị của $F$:
+$$F(0; 0)=0,\quad F(6; 0)=24,\quad F(0; 8)=24,\quad F(3; 5)=12+15=27.$$
+
+**Đáp số.** Trồng $3$ ha ngô và $5$ ha đậu, lãi lớn nhất $27$ triệu đồng.
+
+--- Bài 8: ĐỀ BÀI ---
+Viết một hệ bất phương trình bậc nhất hai ẩn có miền nghiệm là tam giác (kể cả cạnh) với các đỉnh $(0; 0)$, $(4; 0)$, $(0; 2)$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hai cạnh trên trục cho $x\ge 0$, $y\ge 0$. Đường qua $(4; 0)$ và $(0; 2)$ là $\dfrac{x}{4}+\dfrac{y}{2}=1$, tức $x+2y=4$; gốc toạ độ cho $0\le 4$.
+
+**Đáp số.** $\begin{cases} x\ge 0\\ y\ge 0\\ x+2y\le 4 \end{cases}$
+
+--- Bài 9: ĐỀ BÀI ---
+Trên miền nghiệm của hệ $x\ge 0$, $y\ge 0$, $x+y\le 6$, $x+3y\le 12$, tìm giá trị lớn nhất và nhỏ nhất của $F=x-y$.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Các đỉnh $(0; 0)$, $(6; 0)$, $(3; 3)$, $(0; 4)$ cho
+$$F=0,\quad 6,\quad 0,\quad -4.$$
+
+**Đáp số.** Lớn nhất $6$ tại $(6; 0)$; nhỏ nhất $-4$ tại $(0; 4)$.
+
+--- Bài 10: ĐỀ BÀI ---
+(Ôn lại [Tập hợp và các phép toán trên tập hợp](lesson:sets-and-set-operations).) Gọi $D_1$ là miền nghiệm của $x+y\le 4$ và $D_2$ là miền nghiệm của $x-y\ge 0$. Mỗi điểm $A(1; 1)$, $B(1; 2)$, $C(3; 2)$, $E(0; 5)$ thuộc tập nào trong các tập $D_1\cap D_2$, $D_1\setminus D_2$, $D_2\setminus D_1$, hay không thuộc $D_1\cup D_2$?
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\begin{aligned} A&:\ 2\le 4,\ 0\ge 0 &&\Rightarrow A\in D_1\cap D_2,\\ B&:\ 3\le 4,\ -1\ge 0\ \text{sai} &&\Rightarrow B\in D_1\setminus D_2,\\ C&:\ 5\le 4\ \text{sai},\ 1\ge 0 &&\Rightarrow C\in D_2\setminus D_1,\\ E&:\ 5\le 4\ \text{sai},\ -5\ge 0\ \text{sai} &&\Rightarrow E\notin D_1\cup D_2. \end{aligned}$$
+
+**Đáp số.** $A\in D_1\cap D_2$; $B\in D_1\setminus D_2$; $C\in D_2\setminus D_1$; $E\notin D_1\cup D_2$.
+
+@@@ g10/triangle-relations
+(Bài học: Hệ thức lượng trong tam giác)
+
+--- Bài 1: ĐỀ BÀI ---
+Cho tam giác $ABC$ có $b=6$, $c=8$ và $A=60^\circ$. Tính $a$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$a^2=36+64-2\cdot6\cdot8\cdot\frac12=100-48=52\Rightarrow a=\sqrt{52}=2\sqrt{13}.$$
+
+**Đáp số.** $a=2\sqrt{13}\approx7{,}21$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tam giác có các cạnh $a=5$, $b=6$, $c=7$. Tính góc $C$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\cos C=\frac{25+36-49}{2\cdot5\cdot6}=\frac{12}{60}=0{,}2\Rightarrow C\approx78{,}46^\circ.$$
+
+**Đáp số.** $C\approx78{,}46^\circ$.
+
+--- Bài 3: ĐỀ BÀI ---
+a) Tam giác có $a=8$ và $A=30^\circ$. Tính bán kính đường tròn ngoại tiếp $R$.
+
+b) Cho tam giác $ABC$ có $A=45^\circ$, $B=60^\circ$, $b=\sqrt6$. Tính $a$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $2R=\dfrac{8}{\sin30^\circ}=16$, nên $R=8$.
+
+b)
+$$a=\frac{\sqrt6\cdot\frac{\sqrt2}{2}}{\frac{\sqrt3}{2}}=\frac{\sqrt{12}}{\sqrt3}=2.$$
+
+**Đáp số.** a) $R=8$; b) $a=2$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tính diện tích tam giác có $a=6$, $b=9$ và $C=30^\circ$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$S=\frac12\cdot6\cdot9\cdot\frac12=13{,}5.$$
+
+**Đáp số.** $S=13{,}5$.
+
+--- Bài 5: ĐỀ BÀI ---
+Cho tam giác có ba cạnh $13$, $14$, $15$. Mỗi khẳng định sau đúng hay sai?
+
+a) Nửa chu vi của tam giác là $p=21$.
+
+b) Diện tích tam giác bằng $84$.
+
+c) Bán kính đường tròn ngoại tiếp bằng $8$.
+
+d) Góc đối diện cạnh $15$ là góc tù.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) **Đúng:** $p=\dfrac{13+14+15}{2}=21$.
+
+b) **Đúng:** $S=\sqrt{21\cdot8\cdot7\cdot6}=\sqrt{7056}=84$.
+
+c) **Sai:** $R=\dfrac{13\cdot14\cdot15}{4\cdot84}=\dfrac{2730}{336}=8{,}125$.
+
+d) **Sai:** $15^2=225<13^2+14^2=365$, nên $\cos$ của góc đó dương và góc nhọn.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+--- Bài 6: ĐỀ BÀI ---
+Hai con tàu cùng rời một cảng. Tàu thứ nhất chạy với vận tốc $12$ km/h, tàu thứ hai $16$ km/h; hai hướng đi hợp với nhau một góc $50^\circ$. Sau $2$ giờ, hai tàu cách nhau bao nhiêu kilômét (làm tròn đến hàng phần mười)?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Sau $2$ giờ hai tàu cách cảng $24$ km và $32$ km.
+$$d^2=24^2+32^2-2\cdot24\cdot32\cos50^\circ=1600-1536\cos50^\circ\approx612{,}7\Rightarrow d\approx24{,}75.$$
+
+**Đáp số.** $24{,}8$.
+
+--- Bài 7: ĐỀ BÀI ---
+Để đo khoảng cách từ điểm $A$ trên bờ sông đến một cái cây $C$ ở bờ bên kia, người ta chọn điểm $B$ cùng bờ với $A$ sao cho $AB=200$ m, rồi đo được $\widehat{CAB}=62^\circ$ và $\widehat{CBA}=71^\circ$. Tính $AC$.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\widehat{C}=180^\circ-62^\circ-71^\circ=47^\circ,\qquad AC=\frac{200\sin71^\circ}{\sin47^\circ}\approx258{,}6\ \text{(m)}.$$
+
+**Đáp số.** $AC\approx258{,}6$ m.
+
+--- Bài 8: ĐỀ BÀI ---
+Có tồn tại tam giác $ABC$ với $A=40^\circ$, $a=4$, $b=8$ hay không? Giải thích.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\sin B=\frac{8\sin40^\circ}{4}=2\sin40^\circ\approx1{,}286>1,$$
+điều này không thể xảy ra. (Cũng thấy được từ quy tắc nhanh: $a=4<b\sin A\approx5{,}14$.)
+
+**Đáp số.** Không tồn tại tam giác như vậy.
+
+--- Bài 9: ĐỀ BÀI ---
+Tam giác có ba cạnh $3$, $5$, $7$. Chứng minh góc lớn nhất bằng $120^\circ$, rồi tính diện tích $S$ và bán kính đường tròn nội tiếp $r$.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\cos\theta=\frac{3^2+5^2-7^2}{2\cdot3\cdot5}=\frac{-15}{30}=-\frac12\Rightarrow \theta=120^\circ.$$
+$$S=\frac12\cdot3\cdot5\cdot\sin120^\circ=\frac{15\sqrt3}{4},\qquad p=\frac{15}{2},\qquad r=\frac{S}{p}=\frac{15\sqrt3}{4}\cdot\frac{2}{15}=\frac{\sqrt3}{2}.$$
+
+**Đáp số.** $S=\dfrac{15\sqrt3}{4}\approx6{,}50$; $r=\dfrac{\sqrt3}{2}\approx0{,}87$.
+
+--- Bài 10: ĐỀ BÀI ---
+(Ôn lại [Giá trị lượng giác của một góc từ 0° đến 180°](lesson:trig-ratios-0-180).) Cho tam giác $ABC$ có $b=5$, $c=4$ và $\cos A=-\dfrac35$. Tính $\sin A$, diện tích $S$ và cạnh $a$.
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\sin^2A=1-\frac{9}{25}=\frac{16}{25}\Rightarrow \sin A=\frac45,\qquad S=\frac12\cdot5\cdot4\cdot\frac45=8,$$
+$$a^2=25+16-2\cdot5\cdot4\cdot\left(-\frac35\right)=41+24=65.$$
+
+**Đáp số.** $\sin A=\dfrac45$; $S=8$; $a=\sqrt{65}\approx8{,}06$.
+
+@@@ g10/trig-ratios-0-180
+(Bài học: Giá trị lượng giác của một góc từ 0° đến 180°)
+
+--- Bài 1: ĐỀ BÀI ---
+Dùng quy tắc góc bù nhau để tìm $\sin150^\circ$, $\cos150^\circ$, $\tan150^\circ$, $\cot150^\circ$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\sin150^\circ=\frac12,\quad \cos150^\circ=-\frac{\sqrt3}{2},\quad \tan150^\circ=-\frac{\sqrt3}{3},\quad \cot150^\circ=-\sqrt3.$$
+
+**Đáp số.** $\dfrac12$; $-\dfrac{\sqrt3}{2}$; $-\dfrac{\sqrt3}{3}$; $-\sqrt3$.
+
+--- Bài 2: ĐỀ BÀI ---
+Giá trị nào trong các giá trị sau không xác định: $\tan90^\circ$, $\cot0^\circ$, $\tan180^\circ$, $\cot180^\circ$, $\cot90^\circ$? Tính các giá trị xác định.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$M(1; 0)$ ở $0^\circ$, $M(0; 1)$ ở $90^\circ$, $M(-1; 0)$ ở $180^\circ$. Các mẫu số bằng $0$ ở $\tan90^\circ$, $\cot0^\circ$, $\cot180^\circ$. Còn
+$$\tan180^\circ=\frac{0}{-1}=0,\qquad \cot90^\circ=\frac01=0.$$
+
+**Đáp số.** Không xác định: $\tan90^\circ$, $\cot0^\circ$, $\cot180^\circ$; $\tan180^\circ=0$, $\cot90^\circ=0$.
+
+--- Bài 3: ĐỀ BÀI ---
+Cho $\cos\alpha=-\dfrac35$ với $0^\circ\leq\alpha\leq180^\circ$. Tính $\sin\alpha$, $\tan\alpha$, $\cot\alpha$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\sin^2\alpha=1-\frac{9}{25}=\frac{16}{25},\ \sin\alpha\geq0\Rightarrow \sin\alpha=\frac45;\qquad \tan\alpha=\frac{4/5}{-3/5}=-\frac43,\quad \cot\alpha=-\frac34.$$
+
+**Đáp số.** $\sin\alpha=\dfrac45$, $\tan\alpha=-\dfrac43$, $\cot\alpha=-\dfrac34$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tính $B=\cos20^\circ+\cos160^\circ+\sin35^\circ-\sin145^\circ$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\cos160^\circ=-\cos20^\circ,\quad \sin145^\circ=\sin35^\circ\Rightarrow B=\cos20^\circ-\cos20^\circ+\sin35^\circ-\sin35^\circ=0.$$
+
+**Đáp số.** $B=0$.
+
+--- Bài 5: ĐỀ BÀI ---
+Cho góc $\alpha$ với $90^\circ<\alpha<180^\circ$ và $\sin\alpha=\dfrac{12}{13}$. Mỗi khẳng định sau đúng hay sai?
+
+a) $\cos\alpha=\dfrac{5}{13}$.
+
+b) $\tan\alpha=-\dfrac{12}{5}$.
+
+c) $\cos(180^\circ-\alpha)=-\dfrac{5}{13}$.
+
+d) $\sin\alpha\cos\alpha=-\dfrac{60}{169}$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\cos^2\alpha=1-\dfrac{144}{169}=\dfrac{25}{169}$, góc tù nên $\cos\alpha=-\dfrac{5}{13}$.
+
+a) **Sai:** $\cos\alpha=-\dfrac5{13}$, không phải $\dfrac5{13}$.
+
+b) **Đúng:** $\tan\alpha=\dfrac{12/13}{-5/13}=-\dfrac{12}{5}$.
+
+c) **Sai:** $\cos(180^\circ-\alpha)=-\cos\alpha=\dfrac{5}{13}$.
+
+d) **Đúng:** $\dfrac{12}{13}\cdot\left(-\dfrac{5}{13}\right)=-\dfrac{60}{169}$.
+
+**Đáp số.** a) Sai; b) Đúng; c) Sai; d) Đúng.
+
+--- Bài 6: ĐỀ BÀI ---
+Cánh tay của một cần cẩu dài $20$ m, gắn vào thân cần cẩu tại điểm $O$ cao $3$ m so với mặt đất. Cánh tay tạo với tia nằm ngang $Ox$ một góc $115^\circ$. Đầu cánh tay cao bao nhiêu mét so với mặt đất (làm tròn đến hàng phần mười)?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$h=3+20\sin115^\circ\approx3+20\cdot0{,}9063\approx21{,}1\ \text{(m)}.$$
+
+**Đáp số.** $21{,}1$.
+
+--- Bài 7: ĐỀ BÀI ---
+Trong tam giác $ABC$, chứng minh $\sin(B+C)=\sin A$ và $\cos(B+C)=-\cos A$. Áp dụng: tính $\sin(B+C)$ và $\cos(B+C)$ khi $A=120^\circ$.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$B+C=180^\circ-A$, nên $\sin(B+C)=\sin A$ và $\cos(B+C)=-\cos A$. Với $A=120^\circ$:
+$$\sin(B+C)=\sin120^\circ=\frac{\sqrt3}{2},\qquad \cos(B+C)=-\cos120^\circ=\frac12.$$
+
+**Đáp số.** $\sin(B+C)=\dfrac{\sqrt3}{2}$, $\cos(B+C)=\dfrac12$ (đúng với $B+C=60^\circ$).
+
+--- Bài 8: ĐỀ BÀI ---
+Dùng máy tính, tìm mọi góc $\alpha\in[0^\circ; 180^\circ]$ (làm tròn đến hàng phần trăm của độ) sao cho: a) $\sin\alpha=0{,}6$; b) $\cos\alpha=-0{,}6$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $\sin^{-1}(0{,}6)\approx36{,}87^\circ$, và $180^\circ-36{,}87^\circ=143{,}13^\circ$.
+
+b) $\cos^{-1}(-0{,}6)\approx126{,}87^\circ$ (một góc duy nhất).
+
+**Đáp số.** a) $\alpha\approx36{,}87^\circ$ hoặc $\alpha\approx143{,}13^\circ$; b) $\alpha\approx126{,}87^\circ$.
+
+--- Bài 9: ĐỀ BÀI ---
+Cho góc $\alpha\in[0^\circ; 180^\circ]$ thoả mãn $\sin\alpha+\cos\alpha=\dfrac12$. Tính $\sin\alpha$ và $\cos\alpha$.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Bình phương hai vế:
+$$1+2\sin\alpha\cos\alpha=\frac14\Rightarrow \sin\alpha\cos\alpha=-\frac38.$$
+Tích âm và $\sin\alpha\geq0$ nên $\sin\alpha>0>\cos\alpha$, do đó $\sin\alpha-\cos\alpha>0$:
+$$(\sin\alpha-\cos\alpha)^2=1+\frac34=\frac74\Rightarrow \sin\alpha-\cos\alpha=\frac{\sqrt7}{2}.$$
+Cộng và trừ với $\sin\alpha+\cos\alpha=\dfrac12$.
+
+**Đáp số.** $\sin\alpha=\dfrac{1+\sqrt7}{4}\approx0{,}911$, $\cos\alpha=\dfrac{1-\sqrt7}{4}\approx-0{,}411$.
+
+--- Bài 10: ĐỀ BÀI ---
+(Ôn lại [Mệnh đề](lesson:statements).) Xét hai mệnh đề
+
+$P$: "$\forall\alpha\in[0^\circ; 180^\circ],\ \sin\alpha\geq0$";
+
+$Q$: "$\exists\alpha\in[0^\circ; 180^\circ]$ sao cho $\tan\alpha=0$ và $\cot\alpha=0$".
+
+Mỗi mệnh đề đúng hay sai? Phát biểu mệnh đề phủ định của $P$.
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$P$ đúng vì $M$ nằm trên nửa đường tròn phía trên trục hoành nên $y_0\geq0$.
+
+$\tan\alpha=0$ chỉ khi $y_0=0$, tức $\alpha=0^\circ$ hoặc $180^\circ$; khi đó $\cot\alpha$ không xác định. Vậy không có góc nào thoả mãn cả hai, $Q$ sai.
+
+**Đáp số.** $P$ đúng, $Q$ sai. $\overline{P}$: "$\exists\alpha\in[0^\circ; 180^\circ],\ \sin\alpha<0$".
+
+@@@ g10/vector-basics
+(Bài học: Các khái niệm mở đầu về vectơ)
+
+--- Bài 1: ĐỀ BÀI ---
+Trong các đại lượng sau, đại lượng nào là vectơ, đại lượng nào chỉ là số (vô hướng)? (a) khối lượng một túi gạo, $5$ kg; (b) gió thổi từ phía tây với tốc độ $30$ km/h; (c) nhiệt độ $25$ °C; (d) một lực $20$ N đẩy xuống phía dưới; (e) một độ dời (độ dịch chuyển) $3$ km về hướng đông.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Gió, lực và độ dời đều có kèm hướng (từ phía tây, xuống dưới, về hướng đông). Khối lượng và nhiệt độ chỉ có độ lớn.
+
+**Đáp số.** (b), (d), (e) là vectơ; (a), (c) là đại lượng vô hướng.
+
+--- Bài 2: ĐỀ BÀI ---
+$ABCD$ là hình vuông cạnh $3$. Tính $|\overrightarrow{AB}|$ và $|\overrightarrow{AC}|$. Hỏi $\overrightarrow{AB} = \overrightarrow{DC}$ có đúng không? $\overrightarrow{AB} = \overrightarrow{BC}$ có đúng không?
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$|\overrightarrow{AB}|=3$ và $|\overrightarrow{AC}|=\sqrt{3^2+3^2}=3\sqrt2$. Hình vuông là hình bình hành nên $\overrightarrow{AB}=\overrightarrow{DC}$. Còn $\overrightarrow{AB}$ và $\overrightarrow{BC}$ cùng độ dài nhưng giá vuông góc nhau, nên không bằng nhau.
+
+**Đáp số.** $|\overrightarrow{AB}|=3$, $|\overrightarrow{AC}|=3\sqrt2$; $\overrightarrow{AB}=\overrightarrow{DC}$ đúng; $\overrightarrow{AB}=\overrightarrow{BC}$ sai.
+
+--- Bài 3: ĐỀ BÀI ---
+$ABCD$ là hình bình hành tâm $O$. Chỉ ra một vectơ bằng $\overrightarrow{AO}$, một vectơ bằng $\overrightarrow{BO}$ và hai vectơ đối của $\overrightarrow{AB}$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$O$ là trung điểm của $AC$ nên $\overrightarrow{AO}=\overrightarrow{OC}$; $O$ là trung điểm của $BD$ nên $\overrightarrow{BO}=\overrightarrow{OD}$. Vì $\overrightarrow{AB}=\overrightarrow{DC}$ nên $\overrightarrow{CD}=-\overrightarrow{AB}$.
+
+**Đáp số.** $\overrightarrow{OC}$; $\overrightarrow{OD}$; $\overrightarrow{BA}$ và $\overrightarrow{CD}$.
+
+--- Bài 4: ĐỀ BÀI ---
+Cho hình chữ nhật $ABCD$ có $AB=3$, $BC=4$, $O$ là giao điểm của hai đường chéo. Mỗi khẳng định sau đúng hay sai?
+
+a) $|\overrightarrow{BD}|=5$.
+b) $\overrightarrow{OA}=\overrightarrow{OC}$.
+c) $\overrightarrow{AD}=\overrightarrow{BC}$.
+d) $\overrightarrow{AB}$ và $\overrightarrow{CD}$ cùng hướng.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) **Đúng.** $BD=AC=\sqrt{3^2+4^2}=5$.
+
+b) **Sai.** $O$ là trung điểm của $AC$, nên $\overrightarrow{OA}$ và $\overrightarrow{OC}$ cùng độ dài $2{,}5$ nhưng ngược hướng: $\overrightarrow{OA}=-\overrightarrow{OC}$.
+
+c) **Đúng.** $ABCD$ là hình bình hành nên $\overrightarrow{AD}=\overrightarrow{BC}$.
+
+d) **Sai.** $\overrightarrow{AB}=\overrightarrow{DC}$, nên $\overrightarrow{CD}$ ngược hướng với $\overrightarrow{AB}$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+--- Bài 5: ĐỀ BÀI ---
+Ba người cùng kéo một thùng hàng trên mặt sàn bằng ba sợi dây nằm ngang: người thứ nhất kéo với lực $30$ N sang phải, người thứ hai $30$ N sang trái, người thứ ba $45$ N sang phải. Gọi $\vec{F_1}$, $\vec{F_2}$, $\vec{F_3}$ là ba vectơ lực. Cặp nào cùng hướng? Cặp nào là hai vectơ đối nhau? Có hai vectơ nào bằng nhau không?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\vec{F_1}$ và $\vec{F_3}$ cùng hướng (sang phải) nhưng độ lớn khác nhau ($30$ và $45$), nên không bằng nhau. $\vec{F_1}$ và $\vec{F_2}$ cùng độ lớn $30$ và ngược hướng, nên đối nhau. $\vec{F_2}$ và $\vec{F_3}$ ngược hướng, khác độ lớn.
+
+**Đáp số.** $\vec{F_1}$, $\vec{F_3}$ cùng hướng; $\vec{F_2}=-\vec{F_1}$; không có hai vectơ nào bằng nhau.
+
+--- Bài 6: ĐỀ BÀI ---
+$ABCDEF$ là lục giác đều tâm $O$. Liệt kê tất cả các vectơ bằng $\overrightarrow{OA}$ (khác chính nó) có điểm đầu và điểm cuối thuộc $A, B, C, D, E, F, O$.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$D$, $O$, $A$ thẳng hàng và $DO=OA$, nên $\overrightarrow{DO}=\overrightarrow{OA}$. $OABC$ là hình thoi, nên $\overrightarrow{OA}=\overrightarrow{CB}$. $OAFE$ là hình thoi, nên $\overrightarrow{OA}=\overrightarrow{EF}$.
+
+**Đáp số.** $\overrightarrow{DO}$, $\overrightarrow{CB}$, $\overrightarrow{EF}$.
+
+--- Bài 7: ĐỀ BÀI ---
+Cho tam giác $ABC$. Gọi $M$, $N$, $P$ lần lượt là trung điểm của $BC$, $CA$, $AB$. Có bao nhiêu vectơ có điểm đầu và điểm cuối thuộc sáu điểm $A, B, C, M, N, P$ và bằng $\overrightarrow{PN}$ (kể cả $\overrightarrow{PN}$)?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$PN\parallel BC$ và $PN=\dfrac{BC}{2}=BM=MC$. Chiều $P\to N$ trùng chiều $B\to C$, nên $\overrightarrow{PN}=\overrightarrow{BM}=\overrightarrow{MC}$. Không có đoạn nào khác song song với $BC$ và dài $\dfrac{BC}{2}$.
+
+**Đáp số.** $3$.
+
+--- Bài 8: ĐỀ BÀI ---
+(Ôn lại định lí côsin.) Tam giác $ABC$ có $AB=5$, $AC=8$ và $\widehat{BAC}=60^\circ$. Tính $|\overrightarrow{BC}|$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$BC^2=8^2+5^2-2\cdot8\cdot5\cdot\frac12=64+25-40=49.$$
+Vậy $BC=7$.
+
+**Đáp số.** $|\overrightarrow{BC}|=7$.
+
+--- Bài 9: ĐỀ BÀI ---
+Bốn điểm $A, B, C, D$ không cùng nằm trên một đường thẳng và $\overrightarrow{AB} = \overrightarrow{CD}$. Chứng minh $ABDC$ là hình bình hành.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Với $P=A$, $Q=B$, $R=D$, $S=C$, điều kiện $\overrightarrow{PQ}=\overrightarrow{SR}$ trở thành $\overrightarrow{AB}=\overrightarrow{CD}$, đúng theo giả thiết. Bốn điểm không thẳng hàng, nên tứ giác $ABDC$ là hình bình hành.
+
+**Đáp số.** $ABDC$ là hình bình hành (chú ý: thường **không** phải $ABCD$).
+
+--- Bài 10: ĐỀ BÀI ---
+Hình bình hành có các đỉnh $A, B, C, D$. Có bao nhiêu vectơ khác $\vec{0}$ có cả điểm đầu và điểm cuối thuộc bốn điểm này? Trong đó có bao nhiêu vectơ *khác nhau* (các vectơ bằng nhau chỉ tính một lần)?
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Có $4$ cách chọn điểm đầu và $3$ cách chọn điểm cuối: $4\cdot3=12$ vectơ. Các cạnh cho bốn cặp bằng nhau: $\overrightarrow{AB}=\overrightarrow{DC}$, $\overrightarrow{BA}=\overrightarrow{CD}$, $\overrightarrow{AD}=\overrightarrow{BC}$, $\overrightarrow{DA}=\overrightarrow{CB}$, tức $4$ vectơ khác nhau. Bốn vectơ trên đường chéo $\overrightarrow{AC}$, $\overrightarrow{CA}$, $\overrightarrow{BD}$, $\overrightarrow{DB}$ đôi một khác nhau và khác các vectơ cạnh.
+
+**Đáp số.** $12$ vectơ, trong đó $4+4=8$ vectơ khác nhau.

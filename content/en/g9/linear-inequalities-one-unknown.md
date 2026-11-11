@@ -174,7 +174,13 @@ Which of the numbers $-1$, $0$, $3$ are solutions of the inequality $2x+1>0$?
 2. Compare with $0$.
 
 ::solution
-$x=-1$: $-1>0$ false. $x=0$: $1>0$ true. $x=3$: $7>0$ true.
+We substitute each number in turn into the inequality $2x+1>0$:
+
+- For $x=-1$, we have $2\cdot(-1)+1=-1$. Since $-1>0$ is false, $x=-1$ is not a solution.
+- For $x=0$, we have $2\cdot0+1=1$. Since $1>0$ is true, $x=0$ is a solution.
+- For $x=3$, we have $2\cdot3+1=7$. Since $7>0$ is true, $x=3$ is a solution.
+
+So among the three numbers, $0$ and $3$ are solutions of the inequality.
 
 **Answer.** $0$ and $3$.
 :::
@@ -190,7 +196,14 @@ Solve the inequality $4x-8<0$.
 2. Divide by $4$.
 
 ::solution
-$4x<8\iff x<2$.
+We have
+$$\begin{aligned}
+4x-8&<0\\
+4x&<8 &&\text{(adding $8$ to both sides)}\\
+x&<2 &&\text{(dividing both sides by $4>0$, same direction)}.
+\end{aligned}$$
+
+So the solution of the inequality is $x<2$.
 
 **Answer.** $x<2$.
 :::
@@ -206,7 +219,14 @@ Solve the inequality $-3x+9\le0$.
 2. Divide both sides by $-3$ and reverse the sign.
 
 ::solution
-$-3x\le-9\iff x\ge3$.
+We have
+$$\begin{aligned}
+-3x+9&\le0\\
+-3x&\le-9 &&\text{(adding $-9$ to both sides)}\\
+x&\ge3 &&\text{(dividing both sides by $-3<0$, direction reversed)}.
+\end{aligned}$$
+
+So the solution of the inequality is $x\ge3$.
 
 **Answer.** $x\ge3$.
 :::
@@ -223,7 +243,16 @@ Solve the inequality $2(x+3)>5x-6$.
 3. Divide by $-3$ and reverse the sign.
 
 ::solution
-$2x+6>5x-6\iff -3x>-12\iff x<4$.
+We have
+$$\begin{aligned}
+2(x+3)&>5x-6\\
+2x+6&>5x-6 &&\text{(expanding the brackets)}\\
+2x-5x&>-6-6 &&\text{(moving terms across and changing signs)}\\
+-3x&>-12\\
+x&<4 &&\text{(dividing both sides by $-3<0$, direction reversed)}.
+\end{aligned}$$
+
+So the solution of the inequality is $x<4$.
 
 **Answer.** $x<4$.
 :::
@@ -239,7 +268,18 @@ Solve the inequality $\dfrac{2x-1}{3}\ge\dfrac{x+2}{4}$.
 2. Expand, move terms, divide by the coefficient of $x$.
 
 ::solution
-$4(2x-1)\ge3(x+2)\iff 8x-4\ge3x+6\iff 5x\ge10\iff x\ge2$.
+Multiplying both sides by $12$ (the common denominator of $3$ and $4$; since $12>0$ the direction stays the same), we get
+$$4(2x-1)\ge3(x+2).$$
+
+It follows that
+$$\begin{aligned}
+8x-4&\ge3x+6\\
+8x-3x&\ge6+4\\
+5x&\ge10\\
+x&\ge2.
+\end{aligned}$$
+
+So the solution of the inequality is $x\ge2$.
 
 **Answer.** $x\ge2$.
 :::
@@ -255,7 +295,16 @@ A taxi firm charges a starting fee of $10$ thousand đồng plus $14$ thousand �
 2. Solve and choose the greatest whole number.
 
 ::solution
-$14x\le140\iff x\le10$.
+Let $x$ (km) be the distance travelled ($x>0$).
+
+The fare is $10+14x$ (thousand đồng).
+
+There are only $150$ thousand đồng, so we have the inequality
+$$10+14x\le150.$$
+
+It follows that $14x\le140$, so $x\le10$.
+
+So with $150$ thousand đồng you can travel at most $10$ km.
 
 **Answer.** At most $10$ km.
 :::
@@ -271,9 +320,20 @@ Nam has scored $7$, $8$ and $6$ in three tests. What is the lowest mark he needs
 2. Form $\dfrac{7+8+6+x}{4}\ge7.5$ and multiply both sides by $4$.
 
 ::solution
-$21+x\ge30\iff x\ge9$.
+Let $x$ be Nam's mark in the fourth test ($0\le x\le10$).
 
-**Answer.** At least $9$.
+The mean of the four tests is $\dfrac{7+8+6+x}{4}=\dfrac{21+x}{4}$.
+
+The mean must be at least $7.5$, so we have the inequality
+$$\frac{21+x}{4}\ge7.5.$$
+
+Multiplying both sides by $4$, we get $21+x\ge30$, so $x\ge9$.
+
+Combining with the condition, we get $9\le x\le10$.
+
+So Nam needs at least $9$ marks in the fourth test.
+
+**Answer.** At least $9$ marks.
 :::
 
 :::exercise Review
@@ -287,7 +347,17 @@ Find the solutions of the equation $(x-4)(2x+1)=0$ that satisfy the inequality $
 2. Substitute each solution into $3x-2$.
 
 ::solution
-The equation has solutions $x=4$ and $x=-\dfrac12$. For $x=4$: $10>0$, it works. For $x=-\dfrac12$: $-\dfrac72<0$, it does not.
+First we solve the equation $(x-4)(2x+1)=0$:
+
+- $x-4=0$, which gives $x=4$;
+- $2x+1=0$, which gives $x=-\dfrac12$.
+
+Next we substitute each solution into the inequality $3x-2>0$:
+
+- For $x=4$, we have $3\cdot4-2=10>0$ (true), so $x=4$ satisfies it.
+- For $x=-\dfrac12$, we have $3\cdot\left(-\dfrac12\right)-2=-\dfrac72<0$, so $x=-\dfrac12$ does not satisfy it.
+
+So the solution of the equation that satisfies the given inequality is $x=4$.
 
 **Answer.** $x=4$.
 :::
@@ -310,7 +380,21 @@ c) Find the least integer $x$ such that $A>B$.
 3. c) Choose the least integer that satisfies part b).
 
 ::solution
-a) $2x=8\iff x=4$. b) $2x>8\iff x>4$. c) The least integer greater than $4$ is $5$.
+a) We have $A=B$ when $3(x-1)=x+5$.
+
+It follows that $3x-3=x+5$, that is $2x=8$, so $x=4$.
+
+So $A=B$ when $x=4$.
+
+b) We have $A>B$ when $3(x-1)>x+5$.
+
+It follows that $3x-3>x+5$, that is $2x>8$, so $x>4$ (dividing both sides by $2>0$, same direction).
+
+So $A>B$ when $x>4$.
+
+c) By part b), $A>B$ when $x>4$. The smallest integer greater than $4$ is $5$.
+
+So the smallest integer $x$ for which $A>B$ is $x=5$.
 
 **Answer.** a) $x=4$; b) $x>4$; c) $x=5$.
 :::
@@ -327,7 +411,20 @@ Phone plan A charges $3$ thousand đồng per minute of calls. Plan B charges $4
 3. Choose the least whole number.
 
 ::solution
-$45+x<3x\iff -2x<-45\iff x>22.5$. The least whole number greater than $22.5$ is $23$. Check: for $23$ minutes plan A costs $69$ and plan B $68$ thousand đồng.
+Let $x$ be the number of minutes of calls in a month ($x$ is a positive integer).
+
+The cost with plan A is $3x$ (thousand đồng); with plan B it is $45+x$ (thousand đồng).
+
+Plan B is cheaper than plan A when
+$$45+x<3x.$$
+
+It follows that $-2x<-45$, so $x>22.5$ (dividing both sides by $-2<0$, direction reversed).
+
+Since $x$ is an integer, the smallest value of $x$ is $23$.
+
+Check: for $23$ minutes, plan A costs $3\cdot23=69$ (thousand đồng) and plan B costs $45+23=68$ (thousand đồng).
+
+So you must call for at least $23$ minutes in a month for plan B to be cheaper than plan A.
 
 **Answer.** At least $23$ minutes.
 :::

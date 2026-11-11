@@ -1,0 +1,830 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – tài khoản Xedap102
+Giao ngày 11/11/2026. Việc này LÀM XEN KẼ với việc viết bài mới, không thay phân công cũ. Số bài học cần nâng cấp: 11.
+
+VIỆC CẦN LÀM
+Các bài học dưới đây đã có trên lemonmath.com, nhưng LỜI GIẢI của các bài tập còn vắn tắt (chỉ có phép tính). Hãy VIẾT LẠI LỜI GIẢI của từng bài tập cho chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (Kết nối tri thức), để học sinh có thể chép cách trình bày vào vở.
+KHÔNG đổi đề bài, KHÔNG đổi số liệu, KHÔNG đổi đáp số. Nếu phát hiện đáp số cũ sai, vẫn viết lời giải đúng và ghi thêm một dòng "GHI CHÚ: đáp số cũ sai vì …" ngay dưới lời giải đó.
+
+CÁCH TRÌNH BÀY LỜI GIẢI (bắt buộc)
+1. Mỗi ý là một đoạn ngắn, cách nhau một dòng trống:
+   - Đặt vấn đề: "Điều kiện xác định: …", "Gọi x (m) là … (x > 0).", "Gọi A là biến cố "…".", "Xét tam giác ABC vuông tại A, ta có …".
+   - Từng bước, mỗi bước một dòng, có lời dẫn và lí do: "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …".
+   - Phép tính dài viết ở dạng công thức riêng dòng $$ … $$.
+   - Bài có nhiều ý: mỗi ý a), b), c) bắt đầu một đoạn mới và có kết quả riêng.
+   - Câu kết luận đầy đủ: "Vậy …" (có đơn vị nếu là bài toán thực tế).
+   - Dòng cuối: **Đáp số.** … (giữ đúng đáp số cũ).
+2. Lớp 1–5 trình bày kiểu tiểu học: "Bài giải" → câu lời giải → phép tính → "Đáp số: …"; xưng "em", câu thật ngắn. Bài tính thuần tuý (Tính, Đặt tính rồi tính, Số?) thì viết rõ cách làm từng bước rồi nêu kết quả.
+3. Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện. Không dùng kí hiệu đô la cho tiền.
+4. Công thức viết bằng LaTeX trong $…$ như bản cũ. Bản Việt: số thập phân 2{,}5, khoảng (a; b). Bản Anh: 2.5, (a, b), chính tả Anh (metres, factorise).
+5. Độ dài: bài cơ bản 3–5 dòng, bài vận dụng 5–8 dòng, bài khó dài hơn nếu cần.
+6. Mỗi lời giải viết HAI bản: tiếng Việt và tiếng Anh, cùng các bước, cùng số liệu. Bản Anh: "We have …", "Hence …", "So …", dòng cuối **Answer.** …
+
+VÍ DỤ
+Lời giải cũ:   $3(x+2)=5(x-2)\iff 2x=16\iff x=8$ (thoả mãn điều kiện).
+Lời giải mới:
+Điều kiện xác định: $x\neq2$ và $x\neq-2$.
+
+Quy đồng mẫu hai vế rồi khử mẫu, ta được
+$$3(x+2)=5(x-2).$$
+
+Suy ra $3x+6=5x-10$, hay $2x=16$, tức là $x=8$.
+
+Ta thấy $x=8$ thoả mãn điều kiện xác định.
+
+Vậy phương trình đã cho có nghiệm $x=8$.
+
+**Đáp số.** $x=8$.
+
+CÁCH NỘP (rất quan trọng: máy sẽ tự ghép, nên phải đúng mẫu)
+Xuất MỘT file tên "NC-Xedap102.md" (hết hạn mức thì nộp phần đã xong, lần sau làm tiếp và nộp file "NC-Xedap102-2.md"). Trong file, mỗi bài học bắt đầu bằng dòng @@@ kèm mã bài chép y nguyên, rồi lần lượt từng bài tập:
+
+@@@ g9/cube-roots
+### 1 VI
+(lời giải mới của Bài 1, tiếng Việt)
+### 1 EN
+(lời giải mới của Bài 1, tiếng Anh)
+### 2 VI
+…
+
+Chỉ viết lời giải, không chép lại đề bài, không thêm lời bình ngoài mẫu trên. Lưu file vào thư mục Dropbox "viec da lam".
+
+===== CÁC BÀI HỌC CẦN NÂNG CẤP (11 bài) =====
+
+@@@ g4/fractions-and-division
+(Bài học: Phân số và phép chia số tự nhiên)
+
+--- Bài 1: ĐỀ BÀI ---
+Viết thương của phép chia $3:5$ dưới dạng phân số.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$3:5=\dfrac{3}{5}$.
+
+**Đáp số.** $\dfrac{3}{5}$.
+
+--- Bài 2: ĐỀ BÀI ---
+Chia đều $4$ chiếc bánh cho $6$ bạn. Mỗi bạn được bao nhiêu phần chiếc bánh?
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$4:6=\dfrac{4}{6}$ (chiếc bánh).
+
+**Đáp số.** $\dfrac{4}{6}$ chiếc bánh.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước: một hình chia thành $9$ phần bằng nhau, tô màu $7$ phần. Viết phân số chỉ phần đã tô, rồi viết phân số đó dưới dạng một phép chia.
+
+![Hình vuông ba nhân ba có bảy phần được tô màu](/assets/img/g4/g4-fractions-and-division-01.svg)
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Phân số chỉ phần đã tô là $\dfrac{7}{9}$, và $\dfrac{7}{9}=7:9$.
+
+**Đáp số.** $\dfrac{7}{9}=7:9$.
+
+--- Bài 4: ĐỀ BÀI ---
+Viết mỗi số tự nhiên sau dưới dạng phân số có mẫu số $1$: a) $5$; b) $12$. Viết số $1$ dưới dạng phân số có mẫu số $6$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $5=\dfrac{5}{1}$. b) $12=\dfrac{12}{1}$. Số $1$ với mẫu số $6$ là $\dfrac{6}{6}$.
+
+**Đáp số.** $\dfrac{5}{1}$; $\dfrac{12}{1}$; $\dfrac{6}{6}$.
+
+--- Bài 5: ĐỀ BÀI ---
+Vì sao không thể viết $5:0$ thành một phân số?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số chia là $0$ sẽ thành mẫu số $0$. Không thể chia $5$ thành $0$ phần bằng nhau, nên không có phân số $\dfrac{5}{0}$.
+
+**Đáp số.** Vì mẫu số không được bằng $0$.
+
+--- Bài 6: ĐỀ BÀI ---
+Hà viết: "$2:3=\dfrac{3}{2}$." Hà sai ở đâu? Hãy viết lại cho đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hà viết ngược. Số bị chia là $2$ nên là tử số: $2:3=\dfrac{2}{3}$.
+
+**Đáp số.** $\dfrac{2}{3}$.
+
+--- Bài 7: ĐỀ BÀI ---
+Viết kết quả mỗi bài toán dưới dạng phân số:
+a) Chia đều $2$ lít nước vào $3$ chai. Mỗi chai có bao nhiêu lít?
+b) Chia đều $3$ lít nước vào $2$ chai. Mỗi chai có bao nhiêu lít?
+c) Chia đều $6$ lít nước vào $6$ chai. Mỗi chai có bao nhiêu lít?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $2:3=\dfrac{2}{3}$ (lít). b) $3:2=\dfrac{3}{2}$ (lít). c) $6:6=\dfrac{6}{6}=1$ (lít).
+
+**Đáp số.** a) $\dfrac{2}{3}$ lít; b) $\dfrac{3}{2}$ lít; c) $1$ lít.
+
+--- Bài 8: ĐỀ BÀI ---
+Tìm số thích hợp thay cho dấu $?$:
+a) $4:9=\dfrac{?}{9}$.
+b) $12:?=\dfrac{12}{5}$.
+c) $7:4=\dfrac{?}{4}$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Số bị chia là $4$ nên $?=4$. b) Mẫu số là $5$ nên số chia $?=5$. c) Số bị chia là $7$ nên $?=7$.
+
+**Kiểm tra.** $4:9=\dfrac{4}{9}$; $12:5=\dfrac{12}{5}$; $7:4=\dfrac{7}{4}$. Đúng.
+
+**Đáp số.** a) $4$; b) $5$; c) $7$.
+
+@@@ g4/g4-bar-charts
+(Bài học: Biểu đồ cột)
+
+--- Bài 1: ĐỀ BÀI ---
+Ngày nào các bạn mượn ít nhất, và mượn bao nhiêu quyển?
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Cột thấp nhất là cột Thứ Sáu, ghi $4$.
+
+**Đáp số.** Thứ Sáu, $4$ quyển.
+
+--- Bài 2: ĐỀ BÀI ---
+Thứ Ba các bạn mượn nhiều hơn Thứ Sáu bao nhiêu quyển?
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$10-4=6$ (quyển).
+
+**Đáp số.** $6$ quyển.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước: viết dãy số liệu của biểu đồ theo thứ tự các ngày từ Thứ Hai đến Thứ Sáu, rồi sắp xếp từ bé đến lớn.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Dãy số liệu: $6, 10, 8, 12, 4$. Sắp xếp từ bé đến lớn: $4, 6, 8, 10, 12$.
+
+**Đáp số.** $6, 10, 8, 12, 4$; sắp xếp: $4, 6, 8, 10, 12$.
+
+--- Bài 4: ĐỀ BÀI ---
+Ngày nào các bạn mượn số quyển đúng gấp đôi ngày Thứ Sáu?
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Thứ Sáu mượn $4$ quyển, gấp đôi là $4\times2=8$ quyển. Cột ghi $8$ là Thứ Tư.
+
+**Đáp số.** Thứ Tư.
+
+--- Bài 5: ĐỀ BÀI ---
+Biểu đồ cột cho số bạn thích môn thể thao: cột bóng đá cao $12$, cột bơi $8$, cột cầu lông $6$, cột cờ vua $4$. Muốn biết tổng số bạn được hỏi, ta làm phép tính gì? Vì sao? Tính kết quả.
+
+![Biểu đồ cột số bạn thích bóng đá, bơi, cầu lông và cờ vua](/assets/img/g4/g4-bar-charts-01-vi.svg)
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Ta làm phép cộng vì tổng số bạn là số bạn của cả bốn môn gộp lại: $12+8+6+4=30$ (bạn).
+
+**Đáp số.** Phép cộng; $30$ bạn.
+
+--- Bài 6: ĐỀ BÀI ---
+Hà nói: "Thứ Năm mượn $12$ quyển, Thứ Sáu mượn $4$ quyển, nên Thứ Năm mượn nhiều hơn Thứ Sáu là $12+4=16$ quyển." Hà sai ở đâu? Hãy làm lại cho đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hà dùng phép cộng, nhưng phải dùng phép trừ: $12-4=8$ (quyển).
+
+**Đáp số.** $8$ quyển.
+
+--- Bài 7: ĐỀ BÀI ---
+Biểu đồ cột cho số cây trồng của bốn lớp, mỗi vạch ứng với $5$ cây: lớp $4$A cao $5$ vạch, lớp $4$B cao $6$ vạch, lớp $4$C cao $4$ vạch, lớp $4$D cao $5$ vạch.
+a) Mỗi lớp trồng bao nhiêu cây?
+b) Lớp nhiều nhất trồng hơn lớp ít nhất bao nhiêu cây?
+c) Trung bình mỗi lớp trồng bao nhiêu cây?
+
+![Biểu đồ cột số cây trồng của các lớp 4A, 4B, 4C, 4D, mỗi vạch lưới ứng với 5 cây](/assets/img/g4/g4-bar-charts-02.svg)
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $4$A: $5\times5=25$; $4$B: $6\times5=30$; $4$C: $4\times5=20$; $4$D: $25$ (cây). b) $30-20=10$ (cây). c) $(25+30+20+25):4=100:4=25$ (cây).
+
+**Đáp số.** a) $25$, $30$, $20$, $25$ cây; b) $10$ cây; c) $25$ cây.
+
+--- Bài 8: ĐỀ BÀI ---
+Biểu đồ có ba cột A, B, C. Cột C cao $5$. Cột B cao hơn cột C là $3$. Cột A cao hơn cột B là $4$. Hỏi chiều cao mỗi cột và tổng chiều cao ba cột.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Cột B: $5+3=8$. Cột A: $8+4=12$. Tổng: $12+8+5=25$.
+
+**Kiểm tra.** $12-8=4$ và $8-5=3$. Đúng.
+
+**Đáp số.** A cao $12$, B cao $8$, C cao $5$; tổng $25$.
+
+@@@ g4/odd-and-even-numbers
+(Bài học: Số chẵn, số lẻ)
+
+--- Bài 1: ĐỀ BÀI ---
+Trong các số $7\,482$; $6\,135$; $20\,508$; $9\,999$, những số nào là số chẵn?
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Chữ số tận cùng: $2$, $5$, $8$, $9$. Vậy số chẵn là $7\,482$ và $20\,508$.
+
+**Đáp số.** $7\,482$ và $20\,508$.
+
+--- Bài 2: ĐỀ BÀI ---
+a) Viết ba số chẵn liên tiếp bắt đầu từ $96$.
+b) Viết ba số lẻ liên tiếp bắt đầu từ $49$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $96$; $96+2=98$; $98+2=100$.
+
+b) $49$; $49+2=51$; $51+2=53$.
+
+**Đáp số.** a) $96$, $98$, $100$. b) $49$, $51$, $53$.
+
+--- Bài 3: ĐỀ BÀI ---
+a) Tìm số chẵn lớn nhất có bốn chữ số khác nhau.
+b) Tìm số lẻ bé nhất có ba chữ số khác nhau.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Lấy các chữ số lớn nhất: $9$, $8$, $7$, $6$. Số $9\,876$ tận cùng $6$ nên là số chẵn.
+
+b) Hàng trăm bé nhất là $1$. Hàng chục bé nhất khác $1$ là $0$. Hàng đơn vị là số lẻ bé nhất khác $1$, tức $3$. Được $103$.
+
+**Đáp số.** a) $9\,876$. b) $103$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tổng của hai số lẻ là số chẵn hay số lẻ? Em hãy thử với ba cặp số: $3+5$; $7+9$; $11+15$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$3+5=8$; $7+9=16$; $11+15=26$. Cả ba tổng đều có chữ số tận cùng chẵn. Vì sao? Mỗi số lẻ gồm một số chẵn cộng thêm $1$, nên hai số lẻ cộng lại có thêm $1+1=2$, và kết quả vẫn chia hết cho $2$.
+
+**Đáp số.** Tổng của hai số lẻ là số chẵn.
+
+--- Bài 5: ĐỀ BÀI ---
+Bình nói: "$1\,250$ là số lẻ vì nó có chữ số $5$". Bình sai ở đâu? Hãy sửa lại.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Chữ số tận cùng của $1\,250$ là $0$. Chia thử: $1\,250:2=625$, không dư.
+
+**Đáp số.** Bình sai: $1\,250$ là số chẵn vì tận cùng $0$.
+
+--- Bài 6: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước (phép chia). Lớp có $34$ bạn xếp hàng đôi. Sau đó có thêm một bạn nữa, thành $35$ bạn.
+
+a) Tính $34:2$ và $35:2$.
+b) Trường hợp nào có bạn bị thừa?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $34:2=17$, dư $0$. $35:2=17$, dư $1$.
+
+b) Khi có $35$ bạn thì dư $1$ bạn.
+
+**Đáp số.** a) $17$ dư $0$; $17$ dư $1$. b) Trường hợp $35$ bạn.
+
+--- Bài 7: ĐỀ BÀI ---
+Một dãy nhà đánh số lẻ liên tiếp: $15$, $17$, $19$, …. Hỏi nhà số $25$ là nhà thứ mấy trong dãy? Vì sao các số của dãy đều là số lẻ?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Dãy: $15$, $17$, $19$, $21$, $23$, $25$. Số $25$ là số thứ $6$. Mỗi số cộng thêm $2$ nên chữ số tận cùng vẫn lẻ.
+
+**Đáp số.** Nhà số $25$ là nhà thứ $6$.
+
+--- Bài 8: ĐỀ BÀI ---
+Có bao nhiêu số chẵn có hai chữ số? Có bao nhiêu số lẻ có hai chữ số?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Các chục từ $10$ đến $99$ là $10$–$19$, $20$–$29$, …, $90$–$99$: có $9$ chục. Mỗi chục có $5$ số chẵn và $5$ số lẻ. Số chẵn: $9\times5=45$. Số lẻ: $9\times5=45$.
+
+**Đáp số.** $45$ số chẵn và $45$ số lẻ.
+
+@@@ g4/review-calculations-to-100000
+(Bài học: Ôn tập các phép tính trong phạm vi 100 000)
+
+--- Bài 1: ĐỀ BÀI ---
+Tính $46\,285+27\,639$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$5+9=14$ (viết $4$ nhớ $1$); $8+3+1=12$ (viết $2$ nhớ $1$); $2+6+1=9$; $6+7=13$ (viết $3$ nhớ $1$); $4+2+1=7$. Được $73\,924$.
+
+**Đáp số.** $73\,924$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tính $80\,000-36\,457$ rồi thử lại.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$10-7=3$; $9-5=4$; $9-4=5$; $9-6=3$; $7-3=4$. Được $43\,543$.
+
+**Thử lại.** $43\,543+36\,457=80\,000$.
+
+**Đáp số.** $43\,543$.
+
+--- Bài 3: ĐỀ BÀI ---
+Tính $14\,308\times5$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$8\times5=40$ (viết $0$ nhớ $4$); $0\times5+4=4$; $3\times5=15$ (viết $5$ nhớ $1$); $4\times5+1=21$ (viết $1$ nhớ $2$); $1\times5+2=7$. Được $71\,540$.
+
+**Đáp số.** $71\,540$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tính $72\,168:8$ rồi thử lại.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$72:8=9$ dư $0$. Hạ $1$: $1:8=0$ dư $1$. Hạ $6$: $16:8=2$ dư $0$. Hạ $8$: $8:8=1$. Thương là $9\,021$.
+
+**Thử lại.** $9\,021\times8=72\,168$.
+
+**Đáp số.** $9\,021$.
+
+--- Bài 5: ĐỀ BÀI ---
+Có $18\,000$ kg ngô, chia đều vào $6$ xe tải. Mỗi xe chở bao nhiêu ki-lô-gam ngô? Vì sao em dùng phép chia?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Chia đều thì mỗi xe chở như nhau, nên ta chia tổng số ngô cho số xe:
+$$18\,000:6=3\,000\ \text{(kg)}.$$
+
+**Thử lại.** $3\,000\times6=18\,000$.
+
+**Đáp số.** $3\,000$ kg ngô.
+
+--- Bài 6: ĐỀ BÀI ---
+Nam tính $36\,054:6=609$. Nam sai ở đâu? Hãy tính lại.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$609\times6=3\,654\ne36\,054$, nên Nam sai. Chia lại: $36:6=6$. Hạ $0$: $0:6=0$. Hạ $5$: $5:6=0$ dư $5$. Hạ $4$: $54:6=9$. Thương là $6\,009$.
+
+**Đáp số.** Nam quên chữ số $0$; đúng là $36\,054:6=6\,009$.
+
+--- Bài 7: ĐỀ BÀI ---
+Ngày đầu một cửa hàng bán $15\,360$ kg gạo. Ngày thứ hai bán nhiều hơn ngày đầu $2\,840$ kg. Cả hai ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Ngày thứ hai bán: $15\,360+2\,840=18\,200$ (kg). Cả hai ngày bán: $15\,360+18\,200=33\,560$ (kg).
+
+**Đáp số.** $33\,560$ kg gạo.
+
+--- Bài 8: ĐỀ BÀI ---
+Một đơn hàng cần $90\,000$ viên gạch. Bốn xe đã chở, mỗi xe $12\,500$ viên. Số gạch còn thiếu được chở đều trong $8$ ngày. Mỗi ngày phải chở bao nhiêu viên gạch?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Đã chở: $12\,500\times4=50\,000$ (viên). Còn thiếu: $90\,000-50\,000=40\,000$ (viên). Mỗi ngày chở: $40\,000:8=5\,000$ (viên).
+
+**Kiểm tra.** $5\,000\times8=40\,000$.
+
+**Đáp số.** $5\,000$ viên gạch.
+
+@@@ g4/review-numbers-to-100000
+(Bài học: Ôn tập các số đến 100 000)
+
+--- Bài 1: ĐỀ BÀI ---
+Đọc số $41\,305$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Các chữ số: chục nghìn $4$, nghìn $1$, trăm $3$, chục $0$, đơn vị $5$.
+
+**Đáp số.** Bốn mươi mốt nghìn ba trăm linh năm.
+
+--- Bài 2: ĐỀ BÀI ---
+Viết các số sau:
+a) Sáu mươi nghìn hai trăm mười.
+b) Hai mươi ba nghìn không trăm linh tám.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $60\,000+200+10=60\,210$.
+
+b) $23\,000+8=23\,008$.
+
+**Đáp số.** a) $60\,210$. b) $23\,008$.
+
+--- Bài 3: ĐỀ BÀI ---
+Viết số $70\,605$ thành tổng các hàng.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Các chữ số: $7$ chục nghìn, $0$ nghìn, $6$ trăm, $0$ chục, $5$ đơn vị. Vậy $70\,605=70\,000+600+5$.
+
+**Đáp số.** $70\,000+600+5$.
+
+--- Bài 4: ĐỀ BÀI ---
+Cho số $58\,142$. Hãy nêu giá trị của chữ số $5$, chữ số $8$ và chữ số $4$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Chữ số $5$ ở hàng chục nghìn: giá trị $50\,000$. Chữ số $8$ ở hàng nghìn: giá trị $8\,000$. Chữ số $4$ ở hàng chục: giá trị $40$.
+
+**Đáp số.** $50\,000$; $8\,000$; $40$.
+
+--- Bài 5: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống và giải thích vì sao:
+a) $48\,215\;\square\;48\,251$.
+b) $70\,000\;\square\;69\,999$.
+c) $12\,345\;\square\;12\,345$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Hai số cùng $5$ chữ số; hàng chục: $1<5$. Vậy $48\,215<48\,251$.
+
+b) Hai số cùng $5$ chữ số; hàng chục nghìn: $7>6$. Vậy $70\,000>69\,999$.
+
+c) Hai số giống hệt nhau, nên bằng nhau.
+
+**Đáp số.** a) $<$. b) $>$. c) $=$.
+
+--- Bài 6: ĐỀ BÀI ---
+Hà làm hai bài sau. Hà sai ở đâu? Hãy sửa lại.
+a) Hà đọc $30\,502$ là "ba mươi nghìn năm trăm hai mươi".
+b) Hà nói $9\,999>10\,000$ vì $9>1$.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) "Ba mươi nghìn năm trăm hai mươi" là $30\,520$. Số $30\,502$ có chữ số hàng chục là $0$, nên đọc là "ba mươi nghìn năm trăm linh hai".
+
+b) $9\,999$ có $4$ chữ số, $10\,000$ có $5$ chữ số, nên $9\,999<10\,000$. Hà không được so một chữ số đầu khi số chữ số khác nhau.
+
+**Đáp số.** a) Ba mươi nghìn năm trăm linh hai. b) $9\,999<10\,000$.
+
+--- Bài 7: ĐỀ BÀI ---
+Ba thư viện có số quyển sách là $24\,300$; $8\,900$; $24\,030$. Hãy sắp xếp theo thứ tự từ bé đến lớn và cho biết thư viện nào có nhiều sách nhất.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$8\,900$ có $4$ chữ số nên bé nhất. Hai số còn lại cùng có $5$ chữ số, chung hàng chục nghìn và hàng nghìn. Hàng trăm: $0<3$ nên $24\,030<24\,300$.
+
+**Đáp số.** $8\,900<24\,030<24\,300$; thư viện có $24\,300$ quyển nhiều sách nhất.
+
+--- Bài 8: ĐỀ BÀI ---
+Từ các chữ số $0$, $3$, $5$, $7$, $9$ (mỗi chữ số dùng đúng một lần), hãy lập số có $5$ chữ số lớn nhất và số có $5$ chữ số bé nhất.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số lớn nhất: $97\,530$. Số bé nhất: chữ số đầu là chữ số bé nhất khác $0$, tức $3$; các chữ số còn lại xếp từ bé đến lớn: $0$, $5$, $7$, $9$. Được $30\,579$.
+
+**Đáp số.** Số lớn nhất $97\,530$; số bé nhất $30\,579$.
+
+@@@ g4/square-dm-m-mm
+(Bài học: Đề-xi-mét vuông, mét vuông, mi-li-mét vuông)
+
+--- Bài 1: ĐỀ BÀI ---
+Điền số thích hợp vào chỗ trống:
+
+a) $1\ \text{dm}^2=\ ?\ \text{cm}^2$.
+
+b) $1\ \text{m}^2=\ ?\ \text{dm}^2$.
+
+c) $1\ \text{cm}^2=\ ?\ \text{mm}^2$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $1\ \text{dm}^2=100\ \text{cm}^2$. b) $1\ \text{m}^2=100\ \text{dm}^2$. c) $1\ \text{cm}^2=100\ \text{mm}^2$.
+
+**Đáp số.** Cả ba chỗ trống đều là $100$.
+
+--- Bài 2: ĐỀ BÀI ---
+Đổi các số đo sau:
+
+a) $5\ \text{dm}^2=\ ?\ \text{cm}^2$.
+
+b) $9\ \text{m}^2=\ ?\ \text{dm}^2$.
+
+c) $2\ \text{cm}^2=\ ?\ \text{mm}^2$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $5\times100=500$. b) $9\times100=900$. c) $2\times100=200$.
+
+**Đáp số.** a) $500\ \text{cm}^2$; b) $900\ \text{dm}^2$; c) $200\ \text{mm}^2$.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước (yến, tạ, tấn). Một xe chở $3$ tạ gạo và $5$ yến ngô. Hỏi xe chở tất cả bao nhiêu ki-lô-gam?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$3$ tạ $=3\times100=300\ \text{kg}$. $5$ yến $=5\times10=50\ \text{kg}$. Tổng là $300+50=350\ (\text{kg})$.
+
+**Đáp số.** $350\ \text{kg}$.
+
+--- Bài 4: ĐỀ BÀI ---
+Đổi các số đo sau (lần này đổi sang đơn vị lớn hơn):
+
+a) $600\ \text{cm}^2=\ ?\ \text{dm}^2$.
+
+b) $800\ \text{dm}^2=\ ?\ \text{m}^2$.
+
+c) $4\,000\ \text{mm}^2=\ ?\ \text{cm}^2$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $600:100=6$. b) $800:100=8$. c) $4\,000:100=40$.
+
+**Đáp số.** a) $6\ \text{dm}^2$; b) $8\ \text{m}^2$; c) $40\ \text{cm}^2$.
+
+--- Bài 5: ĐỀ BÀI ---
+a) Muốn đổi $35\ \text{dm}^2$ ra $\text{cm}^2$, An nhân với $100$, còn Bình chia cho $100$. Bạn nào đúng? Vì sao? Rồi đổi.
+
+b) Đơn vị nào hợp lí nhất để đo diện tích sân trường: $\text{mm}^2$, $\text{dm}^2$ hay $\text{m}^2$? Vì sao?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $\text{cm}^2$ là đơn vị bé hơn $\text{dm}^2$, nên số đo phải lớn lên. Vậy An đúng: $35\times100=3\,500$.
+b) Sân trường rất rộng, dùng $\text{m}^2$ thì số đo gọn, dễ đọc.
+
+**Đáp số.** a) An đúng, $35\ \text{dm}^2=3\,500\ \text{cm}^2$; b) $\text{m}^2$.
+
+--- Bài 6: ĐỀ BÀI ---
+Tìm và sửa lỗi sai trong lời giải của Mai:
+
+a) $6\ \text{dm}^2\ 4\ \text{cm}^2=64\ \text{cm}^2$.
+
+b) $2\,000\ \text{cm}^2=200\ \text{dm}^2$.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Mai quên đổi đúng $6\ \text{dm}^2$. Đúng là $6\ \text{dm}^2=600\ \text{cm}^2$, rồi $600+4=604$.
+b) Mai chia sai. Đúng là $2\,000:100=20$.
+
+**Đáp số.** a) $604\ \text{cm}^2$; b) $20\ \text{dm}^2$.
+
+--- Bài 7: ĐỀ BÀI ---
+Nền một phòng học hình chữ nhật dài $5\ \text{m}$, rộng $4\ \text{m}$.
+
+a) Tính diện tích nền phòng theo $\text{m}^2$.
+
+b) Đổi diện tích đó ra $\text{dm}^2$.
+
+c) Nếu lát bằng gạch hình vuông cạnh $1\ \text{dm}$ thì cần bao nhiêu viên gạch?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $5\times4=20\ (\text{m}^2)$.
+b) $20\times100=2\,000\ (\text{dm}^2)$.
+c) Mỗi viên phủ $1\ \text{dm}^2$ nên cần $2\,000$ viên.
+
+**Đáp số.** a) $20\ \text{m}^2$; b) $2\,000\ \text{dm}^2$; c) $2\,000$ viên gạch.
+
+--- Bài 8: ĐỀ BÀI ---
+Một tấm bìa hình vuông có diện tích $1\ \text{m}^2$. Bạn Hà cắt tấm bìa thành các mảnh hình vuông cạnh $1\ \text{dm}$, rồi xếp các mảnh nối nhau thành một hàng thẳng. Hàng dài bao nhiêu mét?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số mảnh là $100$, vì $1\ \text{m}^2=100\ \text{dm}^2$. Mỗi mảnh rộng $1\ \text{dm}$, nên hàng dài $100\times1=100\ \text{dm}$. Đổi ra mét: $100:10=10\ \text{m}$.
+
+**Kiểm tra.** $10\ \text{m}=100\ \text{dm}$. Đúng.
+
+**Đáp số.** $10\ \text{m}$.
+
+@@@ g4/statistical-data-lists
+(Bài học: Dãy số liệu thống kê)
+
+--- Bài 1: ĐỀ BÀI ---
+Cho dãy số liệu $4, 8, 6, 9, 5$. Dãy có mấy số? Số lớn nhất và số nhỏ nhất là số nào?
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Dãy có $5$ số. Số lớn nhất là $9$, số nhỏ nhất là $4$.
+
+**Đáp số.** $5$ số; lớn nhất $9$; nhỏ nhất $4$.
+
+--- Bài 2: ĐỀ BÀI ---
+Sắp xếp dãy số liệu $15, 9, 12, 20, 9$ từ bé đến lớn.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số nhỏ nhất là $9$, xuất hiện hai lần. Dãy sắp xếp là $9, 9, 12, 15, 20$.
+
+**Đáp số.** $9, 9, 12, 15, 20$.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước (rút về đơn vị): $5$ hộp bút có $30$ cái bút. Mỗi hộp có bao nhiêu bút? Hãy viết dãy số bút trong $1$, $2$, $3$ và $4$ hộp.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Một hộp có $30:5=6$ (cái bút). Số bút trong $1$, $2$, $3$, $4$ hộp là $6, 12, 18, 24$.
+
+**Đáp số.** Mỗi hộp $6$ cái; dãy $6, 12, 18, 24$.
+
+--- Bài 4: ĐỀ BÀI ---
+Điểm kiểm tra của $6$ bạn là: $8, 9, 7, 10, 9, 8$.
+a) Có mấy bạn được $9$ điểm?
+b) Điểm cao nhất hơn điểm thấp nhất mấy điểm?
+c) Có mấy bạn được từ $9$ điểm trở lên?
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Số $9$ xuất hiện $2$ lần. b) $10-7=3$ (điểm). c) Có hai điểm $9$ và một điểm $10$, tức $3$ bạn.
+
+**Đáp số.** a) $2$ bạn; b) $3$ điểm; c) $3$ bạn.
+
+--- Bài 5: ĐỀ BÀI ---
+Cho dãy số liệu $3, 8, 3, 5, 3, 8$. Số lớn nhất và số xuất hiện nhiều nhất có phải cùng là một số không? Vì sao?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số lớn nhất là $8$ (xuất hiện $2$ lần). Số $3$ xuất hiện $3$ lần, nhiều hơn $8$. Vậy hai số này khác nhau.
+
+**Đáp số.** Không: số lớn nhất là $8$, số xuất hiện nhiều nhất là $3$.
+
+--- Bài 6: ĐỀ BÀI ---
+Hà làm: "Dãy $5, 9, 3, 7, 9$ có $4$ số vì số $9$ chỉ tính một lần; số nhỏ nhất là $5$." Hà sai ở những chỗ nào? Hãy làm lại cho đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Dãy có $5$ số vì số $9$ xuất hiện hai lần, phải đếm hai lần. Số nhỏ nhất là $3$, không phải $5$.
+
+**Đáp số.** $5$ số; số nhỏ nhất là $3$.
+
+--- Bài 7: ĐỀ BÀI ---
+Sáu bạn thi nhảy dây. Số lần nhảy: An $24$, Bình $31$, Chi $28$, Dũng $31$, Em $25$, Giang $30$.
+a) Viết dãy số liệu và cho biết số lớn nhất.
+b) Sắp xếp từ bé đến lớn.
+c) Bạn nhảy nhiều nhất hơn bạn nhảy ít nhất bao nhiêu lần?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Dãy là $24, 31, 28, 31, 25, 30$; số lớn nhất là $31$ (Bình và Dũng). b) $24, 25, 28, 30, 31, 31$. c) $31-24=7$ (lần).
+
+**Đáp số.** a) $31$; b) $24, 25, 28, 30, 31, 31$; c) $7$ lần.
+
+--- Bài 8: ĐỀ BÀI ---
+Dãy có $5$ số: $6, 9, ?, 4, 9$. Số nhỏ nhất là $4$, số lớn nhất là $9$, và số $9$ xuất hiện đúng $2$ lần. Số $?$ có thể là những số nào?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Nếu $?<4$ thì số nhỏ nhất không còn là $4$. Nếu $?>9$ thì số lớn nhất không còn là $9$. Nếu $?=9$ thì số $9$ xuất hiện $3$ lần. Vậy $?$ là số tự nhiên từ $4$ đến $8$.
+
+**Kiểm tra.** Với $?=6$: dãy $6, 9, 6, 4, 9$ có nhỏ nhất $4$, lớn nhất $9$, số $9$ xuất hiện $2$ lần. Đúng.
+
+**Đáp số.** $4, 5, 6, 7, 8$.
+
+@@@ g4/unitary-method
+(Bài học: Bài toán liên quan đến rút về đơn vị)
+
+--- Bài 1: ĐỀ BÀI ---
+Mua $3$ quyển vở hết $18\,000$ đồng. Hỏi một quyển vở giá bao nhiêu tiền?
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$18\,000:3=6\,000$ (đồng).
+
+**Đáp số.** $6\,000$ đồng.
+
+--- Bài 2: ĐỀ BÀI ---
+$4$ can dầu như nhau chứa $28$ lít. Hỏi $6$ can dầu như thế chứa bao nhiêu lít?
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$28:4=7$ (lít), $7\times6=42$ (lít).
+
+**Đáp số.** $42$ lít.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước: tìm số trung bình cộng của $12$, $18$ và $15$. Một bạn đọc mỗi ngày số trang bằng số đó. Hỏi $4$ ngày bạn đó đọc được bao nhiêu trang?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$(12+18+15):3=45:3=15$ (trang mỗi ngày). $15\times4=60$ (trang).
+
+**Đáp số.** $60$ trang.
+
+--- Bài 4: ĐỀ BÀI ---
+Một công nhân làm $5$ ngày được $40$ sản phẩm. Hỏi làm $9$ ngày như thế thì được bao nhiêu sản phẩm?
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$40:5=8$ (sản phẩm), $8\times9=72$ (sản phẩm).
+
+**Đáp số.** $72$ sản phẩm.
+
+--- Bài 5: ĐỀ BÀI ---
+Mua $6$ kg đường hết $90\,000$ đồng. Hỏi mua $4$ kg đường hết bao nhiêu tiền? Vì sao phải tìm giá $1$ kg đường trước?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$90\,000:6=15\,000$ (đồng), $15\,000\times4=60\,000$ (đồng). Phải tìm giá $1$ kg vì mỗi ki-lô-gam giá bằng nhau, nên từ đó tính được số kg bất kì.
+
+**Đáp số.** $60\,000$ đồng.
+
+--- Bài 6: ĐỀ BÀI ---
+Lan giải: "$8$ cái bút giá $32\,000$ đồng. $5$ cái bút giá $32\,000\times5=160\,000$ đồng." Lan sai ở đâu? Hãy làm lại cho đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Lan nhân ngay mà chưa tìm giá một cái bút. Đúng là $32\,000:8=4\,000$ (đồng), $4\,000\times5=20\,000$ (đồng).
+
+**Đáp số.** $20\,000$ đồng.
+
+--- Bài 7: ĐỀ BÀI ---
+Vòi nước chảy đều, $3$ phút được $45$ lít.
+a) Mỗi phút vòi chảy được bao nhiêu lít?
+b) $8$ phút vòi chảy được bao nhiêu lít?
+c) Cần bao nhiêu phút để chảy đầy bể $150$ lít?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $45:3=15$ (lít). b) $15\times8=120$ (lít). c) $150:15=10$ (phút).
+
+**Đáp số.** a) $15$ lít; b) $120$ lít; c) $10$ phút.
+
+--- Bài 8: ĐỀ BÀI ---
+Mua $6$ hộp bánh như nhau hết $90\,000$ đồng. Mai có $130\,000$ đồng. Hỏi Mai mua được nhiều nhất bao nhiêu hộp bánh như thế và còn thừa bao nhiêu tiền?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Giá một hộp: $90\,000:6=15\,000$ (đồng). $15\,000\times8=120\,000$ (đồng) nhỏ hơn $130\,000$; $15\,000\times9=135\,000$ (đồng) lớn hơn $130\,000$. Vậy mua được $8$ hộp, còn thừa $130\,000-120\,000=10\,000$ (đồng).
+
+**Đáp số.** $8$ hộp, còn thừa $10\,000$ đồng.
+
+@@@ g4/what-is-a-fraction
+(Bài học: Khái niệm phân số)
+
+--- Bài 1: ĐỀ BÀI ---
+Một hình chữ nhật được chia thành $5$ phần bằng nhau, tô màu $2$ phần. Viết phân số chỉ phần đã tô.
+
+![Hình chữ nhật chia năm phần bằng nhau, hai phần được tô màu](/assets/img/g4/g4-what-is-a-fraction-03.svg)
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Chia thành $5$ phần, tô $2$ phần, nên phân số là $\dfrac{2}{5}$.
+
+**Đáp số.** $\dfrac{2}{5}$.
+
+--- Bài 2: ĐỀ BÀI ---
+Viết các phân số: a) bốn phần bảy; b) hai phần năm; c) mười một phần mười hai.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $\dfrac{4}{7}$; b) $\dfrac{2}{5}$; c) $\dfrac{11}{12}$.
+
+**Đáp số.** $\dfrac{4}{7}$, $\dfrac{2}{5}$, $\dfrac{11}{12}$.
+
+--- Bài 3: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước (số lần xuất hiện): tung đồng xu $10$ lần, mặt ngửa xuất hiện $6$ lần. Viết phân số chỉ số lần ngửa so với số lần tung.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số lần ngửa là $6$ trong $10$ lần tung, nên phân số là $\dfrac{6}{10}$.
+
+**Đáp số.** $\dfrac{6}{10}$.
+
+--- Bài 4: ĐỀ BÀI ---
+Đọc các phân số $\dfrac{7}{10}$ và $\dfrac{3}{8}$, rồi chỉ ra tử số và mẫu số của mỗi phân số.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\dfrac{7}{10}$ đọc là "bảy phần mười": tử số $7$, mẫu số $10$. $\dfrac{3}{8}$ đọc là "ba phần tám": tử số $3$, mẫu số $8$.
+
+**Đáp số.** Xem lời giải.
+
+--- Bài 5: ĐỀ BÀI ---
+Một chiếc bánh được cắt thành $4$ phần to nhỏ khác nhau, Lan ăn $1$ phần. Có thể nói Lan ăn $\dfrac{1}{4}$ chiếc bánh không? Vì sao?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Không. Các phần không bằng nhau nên phần Lan ăn không nhất định là một phần tư chiếc bánh.
+
+**Đáp số.** Không, vì các phần không bằng nhau.
+
+--- Bài 6: ĐỀ BÀI ---
+Nam viết: "Chiếc bánh chia $4$ phần, ăn $3$ phần nên phân số là $\dfrac{4}{3}$." Nam sai ở đâu? Hãy viết lại cho đúng.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Nam viết ngược tử số và mẫu số. Cả chiếc bánh có $4$ phần nên mẫu số là $4$, ăn $3$ phần nên tử số là $3$: $\dfrac{3}{4}$.
+
+**Đáp số.** $\dfrac{3}{4}$.
+
+--- Bài 7: ĐỀ BÀI ---
+Một thanh sô-cô-la có $12$ ô bằng nhau. Mai ăn $5$ ô, Nam ăn $4$ ô.
+a) Viết phân số chỉ phần Mai ăn.
+b) Viết phân số chỉ phần Nam ăn.
+c) Viết phân số chỉ phần còn lại.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $\dfrac{5}{12}$. b) $\dfrac{4}{12}$. c) Còn lại $12-5-4=3$ ô, nên $\dfrac{3}{12}$.
+
+**Đáp số.** a) $\dfrac{5}{12}$; b) $\dfrac{4}{12}$; c) $\dfrac{3}{12}$.
+
+--- Bài 8: ĐỀ BÀI ---
+Một băng giấy được chia thành $8$ phần bằng nhau. Em tô $3$ phần màu xanh, $2$ phần màu đỏ, phần còn lại để trắng. Viết phân số chỉ phần mỗi màu và phân số chỉ phần đã tô màu (cả hai màu).
+
+![Băng giấy tám phần gồm ba phần xanh, hai phần đỏ và ba phần trắng](/assets/img/g4/g4-what-is-a-fraction-04.svg)
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Xanh: $\dfrac{3}{8}$; đỏ: $\dfrac{2}{8}$; trắng: $8-3-2=3$ phần nên $\dfrac{3}{8}$. Phần đã tô là $3+2=5$ phần, tức $\dfrac{5}{8}$.
+
+**Kiểm tra.** $3+2+3=8$ phần. Đúng.
+
+**Đáp số.** Xanh $\dfrac{3}{8}$, đỏ $\dfrac{2}{8}$, trắng $\dfrac{3}{8}$; đã tô $\dfrac{5}{8}$.
+
+@@@ g5/adding-decimals
+(Bài học: Phép cộng số thập phân)
+
+--- Bài 1: ĐỀ BÀI ---
+Đặt tính rồi tính: $5{,}8+3{,}6$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\begin{array}{r} 5{,}8 \\ +\ 3{,}6 \\ \hline 9{,}4 \end{array}$$
+Hàng phần mười: $8+6=14$, viết $4$ nhớ $1$. Hàng đơn vị: $5+3+1=9$.
+
+**Đáp số.** $9{,}4$.
+
+--- Bài 2: ĐỀ BÀI ---
+Đặt tính rồi tính: $14{,}68+5{,}75$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\begin{array}{r} 14{,}68 \\ +\ \ 5{,}75 \\ \hline 20{,}43 \end{array}$$
+Hàng phần trăm: $8+5=13$, viết $3$ nhớ $1$. Hàng phần mười: $6+7+1=14$, viết $4$ nhớ $1$. Hàng đơn vị: $4+5+1=10$, viết $0$ nhớ $1$. Hàng chục: $1+1=2$.
+
+**Đáp số.** $20{,}43$.
+
+--- Bài 3: ĐỀ BÀI ---
+Tính: $9{,}5+2{,}87$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$9{,}5=9{,}50$. Ta có:
+$$\begin{array}{r} 9{,}50 \\ +\ 2{,}87 \\ \hline 12{,}37 \end{array}$$
+
+**Đáp số.** $12{,}37$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tính: $15+7{,}08$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\begin{array}{r} 15{,}00 \\ +\ \ 7{,}08 \\ \hline 22{,}08 \end{array}$$
+
+**Đáp số.** $22{,}08$.
+
+--- Bài 5: ĐỀ BÀI ---
+Tính bằng cách thuận tiện: $2{,}5+6{,}7+7{,}5$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Vì $2{,}5+7{,}5=10$, ta có:
+$$2{,}5+6{,}7+7{,}5=(2{,}5+7{,}5)+6{,}7=10+6{,}7=16{,}7.$$
+
+**Đáp số.** $16{,}7$.
+
+--- Bài 6: ĐỀ BÀI ---
+Mẹ may một cái áo cần $1{,}6$ m vải và một cái quần cần $1{,}25$ m vải. Hỏi may cả bộ quần áo cần bao nhiêu mét vải?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số mét vải cần để may cả bộ là:
+$$1{,}60+1{,}25=2{,}85\ \text{(m)}.$$
+
+**Đáp số.** $2{,}85$ m vải.
+
+--- Bài 7: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước về đơn vị đo diện tích. Một mảnh vườn rộng $0{,}5$ ha, mảnh vườn bên cạnh rộng $2500\ \text{m}^2$. Hỏi cả hai mảnh vườn rộng bao nhiêu héc-ta?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Vì $1\ \text{ha}=10\,000\ \text{m}^2$ nên $2500\ \text{m}^2=0{,}25\ \text{ha}$. Ta có:
+$$0{,}5+0{,}25=0{,}50+0{,}25=0{,}75\ \text{(ha)}.$$
+
+**Kiểm tra.** $0{,}75\ \text{ha}=7500\ \text{m}^2$, và $5000+2500=7500$. Đúng.
+
+**Đáp số.** $0{,}75$ ha.
+
+--- Bài 8: ĐỀ BÀI ---
+Tính nhanh: $0{,}1+0{,}2+0{,}3+0{,}4+0{,}5+0{,}6+0{,}7+0{,}8+0{,}9$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Ta ghép thành bốn cặp, mỗi cặp có tổng bằng $1$, còn lại $0{,}5$:
+$$(0{,}1+0{,}9)+(0{,}2+0{,}8)+(0{,}3+0{,}7)+(0{,}4+0{,}6)+0{,}5=1+1+1+1+0{,}5=4{,}5.$$
+
+**Đáp số.** $4{,}5$.
+
+@@@ g5/g5-review-decimals-percent
+(Bài học: Ôn tập: số thập phân và tỉ số phần trăm)
+
+--- Bài 1: ĐỀ BÀI ---
+Viết mỗi phân số sau dưới dạng số thập phân và dạng tỉ số phần trăm: a) $\dfrac{3}{4}$; b) $\dfrac{7}{20}$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $3:4=0{,}75=75\%$. b) $\dfrac{7}{20}=\dfrac{35}{100}=0{,}35=35\%$.
+
+**Đáp số.** a) $0{,}75=75\%$; b) $0{,}35=35\%$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tính: a) $25{,}4-8{,}75$; b) $4{,}8\times0{,}25$; c) $9{,}6:0{,}8$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $25{,}40-8{,}75=16{,}65$.
+b) $48\times25=1\,200$ và có $1+2=3$ chữ số thập phân, nên $4{,}8\times0{,}25=1{,}2$.
+c) $9{,}6:0{,}8=96:8=12$.
+
+**Đáp số.** a) $16{,}65$; b) $1{,}2$; c) $12$.
+
+--- Bài 3: ĐỀ BÀI ---
+Điền dấu $>$, $<$ hoặc $=$: a) $7{,}305\;\square\;7{,}35$; b) $0{,}6\;\square\;65\%$; c) $\dfrac{2}{5}\;\square\;40\%$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Hai số có hàng phần mười đều là $3$; hàng phần trăm là $0$ và $5$, nên $7{,}305<7{,}35$.
+b) $65\%=0{,}65$ và $0{,}6=0{,}60$, nên $0{,}6<65\%$.
+c) $\dfrac{2}{5}=2:5=0{,}4=40\%$, nên hai số bằng nhau.
+
+**Đáp số.** a) $<$; b) $<$; c) $=$.
+
+--- Bài 4: ĐỀ BÀI ---
+Lan chạy $1{,}2$ km, Mai chạy $1{,}5$ km. Quãng đường Lan chạy bằng bao nhiêu phần trăm quãng đường Mai chạy?
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$1{,}2:1{,}5=12:15=0{,}8=80\%$.
+
+**Đáp số.** $80\%$.
+
+--- Bài 5: ĐỀ BÀI ---
+Một trường có $1\,250$ học sinh, trong đó $48\%$ là học sinh nữ. Hỏi trường có bao nhiêu học sinh nam?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số học sinh nữ là $1\,250\times48:100=600$ (em).
+Số học sinh nam là $1\,250-600=650$ (em).
+
+**Đáp số.** $650$ học sinh nam.
+
+--- Bài 6: ĐỀ BÀI ---
+Em hãy nhớ lại bài trước về phân số. Một bể nước: buổi sáng người ta dùng $\dfrac{2}{5}$ lượng nước ban đầu, buổi chiều dùng $35\%$ lượng nước ban đầu. Lúc này bể còn $100$ lít. Hỏi lúc đầu bể có bao nhiêu lít nước?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Vì $\dfrac{2}{5}=40\%$ nên đã dùng $40\%+35\%=75\%$ lượng nước, và còn lại $100\%-75\%=25\%$.
+$25\%$ lượng nước là $100$ lít, nên lúc đầu bể có $100:25\times100=400$ (lít).
+
+**Kiểm tra.** $\dfrac{2}{5}\times400=160$ và $35\%\times400=140$; $400-160-140=100$. Đúng.
+
+**Đáp số.** $400$ lít.
+
+--- Bài 7: ĐỀ BÀI ---
+Một đôi giày được giảm giá $25\%$ và có giá sau khi giảm là $150\,000$ đồng. a) Giá ban đầu của đôi giày là bao nhiêu đồng? b) Số tiền được giảm là bao nhiêu đồng?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $150\,000$ đồng là $75\%$ giá ban đầu, nên giá ban đầu là $150\,000:75\times100=200\,000$ (đồng).
+b) Số tiền được giảm là $200\,000-150\,000=50\,000$ (đồng). Đây cũng là $25\%$ của $200\,000$.
+
+**Đáp số.** a) $200\,000$ đồng; b) $50\,000$ đồng.
+
+--- Bài 8: ĐỀ BÀI ---
+Một chiếc áo giá $500\,000$ đồng. Tháng trước cửa hàng tăng giá $10\%$. Tháng này cửa hàng giảm giá $10\%$ so với giá đã tăng. Hỏi giá hiện nay là bao nhiêu đồng? Giá hiện nay cao hơn hay thấp hơn giá ban đầu, và chênh lệch bằng bao nhiêu phần trăm giá ban đầu?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Giá sau khi tăng là $500\,000\times110:100=550\,000$ (đồng).
+Giá hiện nay là $550\,000\times90:100=495\,000$ (đồng).
+Giá hiện nay thấp hơn giá ban đầu $500\,000-495\,000=5\,000$ (đồng), và $5\,000:500\,000=0{,}01=1\%$.
+
+**Đáp số.** Giá hiện nay là $495\,000$ đồng, thấp hơn giá ban đầu $1\%$.

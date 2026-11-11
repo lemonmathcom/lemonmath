@@ -1,0 +1,686 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – tài khoản Lemonmath.com
+Giao ngày 11/11/2026. Việc này LÀM XEN KẼ với việc viết bài mới, không thay phân công cũ. Số bài học cần nâng cấp: 7.
+
+VIỆC CẦN LÀM
+Các bài học dưới đây đã có trên lemonmath.com, nhưng LỜI GIẢI của các bài tập còn vắn tắt (chỉ có phép tính). Hãy VIẾT LẠI LỜI GIẢI của từng bài tập cho chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (Kết nối tri thức), để học sinh có thể chép cách trình bày vào vở.
+KHÔNG đổi đề bài, KHÔNG đổi số liệu, KHÔNG đổi đáp số. Nếu phát hiện đáp số cũ sai, vẫn viết lời giải đúng và ghi thêm một dòng "GHI CHÚ: đáp số cũ sai vì …" ngay dưới lời giải đó.
+
+CÁCH TRÌNH BÀY LỜI GIẢI (bắt buộc)
+1. Mỗi ý là một đoạn ngắn, cách nhau một dòng trống:
+   - Đặt vấn đề: "Điều kiện xác định: …", "Gọi x (m) là … (x > 0).", "Gọi A là biến cố "…".", "Xét tam giác ABC vuông tại A, ta có …".
+   - Từng bước, mỗi bước một dòng, có lời dẫn và lí do: "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …".
+   - Phép tính dài viết ở dạng công thức riêng dòng $$ … $$.
+   - Bài có nhiều ý: mỗi ý a), b), c) bắt đầu một đoạn mới và có kết quả riêng.
+   - Câu kết luận đầy đủ: "Vậy …" (có đơn vị nếu là bài toán thực tế).
+   - Dòng cuối: **Đáp số.** … (giữ đúng đáp số cũ).
+2. Lớp 1–5 trình bày kiểu tiểu học: "Bài giải" → câu lời giải → phép tính → "Đáp số: …"; xưng "em", câu thật ngắn. Bài tính thuần tuý (Tính, Đặt tính rồi tính, Số?) thì viết rõ cách làm từng bước rồi nêu kết quả.
+3. Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện. Không dùng kí hiệu đô la cho tiền.
+4. Công thức viết bằng LaTeX trong $…$ như bản cũ. Bản Việt: số thập phân 2{,}5, khoảng (a; b). Bản Anh: 2.5, (a, b), chính tả Anh (metres, factorise).
+5. Độ dài: bài cơ bản 3–5 dòng, bài vận dụng 5–8 dòng, bài khó dài hơn nếu cần.
+6. Mỗi lời giải viết HAI bản: tiếng Việt và tiếng Anh, cùng các bước, cùng số liệu. Bản Anh: "We have …", "Hence …", "So …", dòng cuối **Answer.** …
+
+VÍ DỤ
+Lời giải cũ:   $3(x+2)=5(x-2)\iff 2x=16\iff x=8$ (thoả mãn điều kiện).
+Lời giải mới:
+Điều kiện xác định: $x\neq2$ và $x\neq-2$.
+
+Quy đồng mẫu hai vế rồi khử mẫu, ta được
+$$3(x+2)=5(x-2).$$
+
+Suy ra $3x+6=5x-10$, hay $2x=16$, tức là $x=8$.
+
+Ta thấy $x=8$ thoả mãn điều kiện xác định.
+
+Vậy phương trình đã cho có nghiệm $x=8$.
+
+**Đáp số.** $x=8$.
+
+CÁCH NỘP (rất quan trọng: máy sẽ tự ghép, nên phải đúng mẫu)
+Xuất MỘT file tên "NC-Lemonmath.com.md" (hết hạn mức thì nộp phần đã xong, lần sau làm tiếp và nộp file "NC-Lemonmath.com-2.md"). Trong file, mỗi bài học bắt đầu bằng dòng @@@ kèm mã bài chép y nguyên, rồi lần lượt từng bài tập:
+
+@@@ g9/cube-roots
+### 1 VI
+(lời giải mới của Bài 1, tiếng Việt)
+### 1 EN
+(lời giải mới của Bài 1, tiếng Anh)
+### 2 VI
+…
+
+Chỉ viết lời giải, không chép lại đề bài, không thêm lời bình ngoài mẫu trên. Lưu file vào thư mục Dropbox "viec da lam".
+
+===== CÁC BÀI HỌC CẦN NÂNG CẤP (7 bài) =====
+
+@@@ g10/functions
+(Bài học: Hàm số)
+
+--- Bài 1: ĐỀ BÀI ---
+Cho $f(x)=3x-2$. Tính $f(-1)$ và $f(4)$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$f(-1)=3\cdot(-1)-2=-5$ và $f(4)=3\cdot4-2=10$.
+
+**Đáp số.** $f(-1)=-5$; $f(4)=10$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tìm tập xác định của: (a) $f(x)=\sqrt{5-x}$; (b) $g(x)=\dfrac{1}{x^2-4}$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+(a) $5-x\ge0\iff x\le5$. (b) $x^2-4=0\iff x=\pm2$, nên ta bỏ hai giá trị này.
+
+**Đáp số.** (a) $D=(-\infty; 5]$; (b) $D=\mathbb{R}\setminus\{-2; 2\}$.
+
+--- Bài 3: ĐỀ BÀI ---
+Một bảng cho các cặp $(x; y)$: $(1; 4)$, $(2; 5)$, $(2; 6)$, $(3; 7)$. Bảng này có xác định $y$ là hàm số của $x$ không? Vì sao?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Giá trị $x=2$ ứng với hai giá trị khác nhau của $y$ là $5$ và $6$.
+
+**Đáp số.** Không phải hàm số.
+
+--- Bài 4: ĐỀ BÀI ---
+Chứng minh $h(x)=-2x+5$ nghịch biến trên $\mathbb{R}$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Với $x_1<x_2$:
+$$h(x_1)-h(x_2)=(-2x_1+5)-(-2x_2+5)=2(x_2-x_1)>0,$$
+nên $h(x_1)>h(x_2)$.
+
+**Đáp số.** $h$ nghịch biến trên $\mathbb{R}$ (đã chứng minh).
+
+--- Bài 5: ĐỀ BÀI ---
+Cho $f(x)=\begin{cases} x+2 & \text{nếu } x<0,\\ x^2 & \text{nếu } x\ge 0.\end{cases}$ Giải các phương trình $f(x)=9$ và $f(x)=-1$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$f(x)=9$: với $x<0$, $x+2=9$ cho $x=7$ (loại vì $7\ge0$); với $x\ge0$, $x^2=9$ cho $x=3$ (loại $x=-3$). $f(x)=-1$: với $x<0$, $x+2=-1$ cho $x=-3$ (nhận); với $x\ge0$, $x^2=-1$ vô nghiệm.
+
+**Đáp số.** $f(x)=9\iff x=3$; $f(x)=-1\iff x=-3$.
+
+--- Bài 6: ĐỀ BÀI ---
+Một công ty điện tính $2$ nghìn đồng cho mỗi kWh trong $50$ kWh đầu và $2{,}5$ nghìn đồng cho mỗi kWh vượt quá $50$. Một hộ gia đình nhận hoá đơn $300$ nghìn đồng. Hộ đó đã dùng bao nhiêu kWh?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$50$ kWh đầu hết $2\cdot50=100$ nghìn đồng $<300$, nên $x>50$ và
+$$100+2{,}5(x-50)=300\iff 2{,}5(x-50)=200\iff x-50=80\iff x=130.$$
+
+**Đáp số.** $130$.
+
+--- Bài 7: ĐỀ BÀI ---
+Dựa vào đồ thị của $f(x)=x^2-2x-3$ trong bài, mỗi khẳng định sau đúng hay sai?
+
+a) $f(0)=-3$.
+b) Tập giá trị của $f$ là $[-4; +\infty)$.
+c) $f$ đồng biến trên khoảng $(-1; 3)$.
+d) $f(x)<0$ khi và chỉ khi $-1<x<3$.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) **Đúng.** Đồ thị cắt trục tung tại $(0; -3)$.
+
+b) **Đúng.** Điểm thấp nhất là $(1; -4)$ và đồ thị đi lên mãi về hai phía.
+
+c) **Sai.** Trên $(-1; 1)$ đồ thị đi xuống, chẳng hạn $f(0)=-3>f(1)=-4$; $f$ chỉ đồng biến trên $(1; +\infty)$.
+
+d) **Đúng.** Phần đồ thị nằm dưới trục hoành ứng với $x$ nằm giữa hai không điểm $-1$ và $3$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+--- Bài 8: ĐỀ BÀI ---
+(Ôn lại tập hợp.) Tìm tập xác định $D$ của $f(x)=\sqrt{x+3}+\dfrac{1}{\sqrt{2-x}}$, rồi tìm $D\cap\mathbb{Z}$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$x+3\ge0\iff x\ge-3$ và $2-x>0\iff x<2$. Vậy $D=[-3; 2)$, và các số nguyên trong $D$ là $-3, -2, -1, 0, 1$ (không lấy $2$).
+
+**Đáp số.** $D=[-3; 2)$; $D\cap\mathbb{Z}=\{-3; -2; -1; 0; 1\}$.
+
+--- Bài 9: ĐỀ BÀI ---
+Tìm tập giá trị của $f(x)=x^2-4x+7$ trên $\mathbb{R}$ và trên đoạn $[0; 3]$.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Trên $\mathbb{R}$, $(x-2)^2$ nhận mọi giá trị trong $[0; +\infty)$, nên $f(x)$ nhận mọi giá trị trong $[3; +\infty)$.
+
+Với $0\le x\le3$ thì $-2\le x-2\le1$, nên $(x-2)^2$ nhận mọi giá trị trong $[0; 4]$ (giá trị $4$ tại $x=0$, giá trị $0$ tại $x=2$). Do đó $f(x)$ nhận mọi giá trị trong $[3; 7]$.
+
+**Đáp số.** Trên $\mathbb{R}$: $[3; +\infty)$; trên $[0; 3]$: $[3; 7]$.
+
+--- Bài 10: ĐỀ BÀI ---
+Một nhà mạng có hai gói dữ liệu theo tháng. Gói A: $50$ nghìn đồng cộng $10$ nghìn đồng cho mỗi GB dùng. Gói B: $90$ nghìn đồng cho tối đa $6$ GB, mỗi GB vượt quá $6$ tính thêm $15$ nghìn đồng. Với lượng dùng $x$ GB nào thì gói B rẻ hơn gói A?
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Với $0\le x\le6$: $90<50+10x\iff x>4$, nên $4<x\le6$.
+
+Với $x>6$: $B(x)=90+15(x-6)=15x$, và $15x<50+10x\iff x<10$, nên $6<x<10$.
+
+Gộp lại được $4<x<10$. **Kiểm tra.** Tại $x=4$: $A=B=90$; tại $x=10$: $A=B=150$.
+
+**Đáp số.** Gói B rẻ hơn khi $4<x<10$ (GB).
+
+@@@ g10/linear-inequality-two-variables
+(Bài học: Bất phương trình bậc nhất hai ẩn)
+
+--- Bài 1: ĐỀ BÀI ---
+Trong các cặp $(2; -1)$, $(0; 3)$, $(6; 1)$, cặp nào là nghiệm của bất phương trình $x-2y\ge 4$?
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$(2; -1):\ 2+2=4\ge 4\ \text{(đúng)};\quad (0; 3):\ 0-6=-6\ge 4\ \text{(sai)};\quad (6; 1):\ 6-2=4\ge 4\ \text{(đúng)}.$$
+
+**Đáp số.** $(2; -1)$ và $(6; 1)$ là nghiệm.
+
+--- Bài 2: ĐỀ BÀI ---
+Cho bất phương trình $2x-3y\le 6$. Mỗi khẳng định sau đúng hay sai?
+
+a) Cặp $(0; 0)$ là một nghiệm của bất phương trình.
+
+b) Đường thẳng biên đi qua hai điểm $(3; 0)$ và $(0; 2)$.
+
+c) Cặp $(1; -2)$ là một nghiệm của bất phương trình.
+
+d) Miền nghiệm là nửa mặt phẳng chứa gốc toạ độ, kể cả đường thẳng biên.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) **Đúng:** $2\cdot 0-3\cdot 0=0\le 6$.
+
+b) **Sai:** cho $x=0$ ta được $-3y=6$, tức $y=-2$. Đường biên đi qua $(3; 0)$ và $(0; -2)$, không đi qua $(0; 2)$.
+
+c) **Sai:** $2\cdot 1-3\cdot(-2)=8$, mà $8\le 6$ là sai.
+
+d) **Đúng:** $O$ là nghiệm (câu a) và dấu $\le$ nên bờ thuộc miền nghiệm.
+
+**Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
+
+--- Bài 3: ĐỀ BÀI ---
+Biểu diễn miền nghiệm của $2x-y\le 4$: nêu hai điểm của đường biên, loại nét vẽ, điểm kiểm tra và phía cần lấy.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$y=0\Rightarrow x=2,\qquad x=0\Rightarrow y=-4.$$
+Đường biên đi qua $(2; 0)$ và $(0; -4)$, vẽ nét liền vì dấu $\le$. Thay $O$: $0\le 4$ đúng.
+
+**Đáp số.** Miền nghiệm là nửa mặt phẳng bờ $2x-y=4$ chứa gốc toạ độ, kể cả bờ.
+
+--- Bài 4: ĐỀ BÀI ---
+Biểu diễn miền nghiệm của $x-y\ge 0$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Đường biên $y=x$ đi qua $O$ và $(1; 1)$, vẽ nét liền. Thử $(1; 0)$: $1-0=1\ge 0$, đúng.
+
+**Đáp số.** Miền nghiệm là nửa mặt phẳng bờ $y=x$ chứa điểm $(1; 0)$ (phía dưới đường thẳng $y=x$), kể cả bờ.
+
+--- Bài 5: ĐỀ BÀI ---
+Điểm nào trong các điểm $A(1; 1)$, $B(-2; 3)$, $C(4; -1)$ thuộc miền nghiệm của $3x+2y>5$?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$A:\ 3+2=5;\qquad B:\ -6+6=0;\qquad C:\ 12-2=10.$$
+Chỉ có $10>5$ đúng; tại $A$ ta có $5>5$ là sai vì $A$ nằm trên bờ nét đứt.
+
+**Đáp số.** Chỉ có điểm $C$.
+
+--- Bài 6: ĐỀ BÀI ---
+Một gói cước điện thoại tính $2000$ đồng mỗi phút gọi và $500$ đồng mỗi tin nhắn. Mai có tối đa $40000$ đồng trong tài khoản. Gọi $x$ là số phút gọi, $y$ là số tin nhắn. Viết bất phương trình, rồi cho biết Mai có thể gọi $15$ phút và nhắn $20$ tin không, còn $18$ phút và $10$ tin thì sao?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$2000x+500y\le 40000\iff 4x+y\le 80.$$
+Với $(15; 20)$: $60+20=80\le 80$, đúng. Với $(18; 10)$: $72+10=82\le 80$, sai (cần $41000$ đồng).
+
+**Đáp số.** $4x+y\le 80$; Mai dùng được $15$ phút và $20$ tin, nhưng không đủ tiền cho $18$ phút và $10$ tin.
+
+--- Bài 7: ĐỀ BÀI ---
+Có bao nhiêu cặp số nguyên không âm $(x; y)$ là nghiệm của bất phương trình $2x+y\le 4$?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$x=0:\ 0\le y\le 4\ (5\ \text{cặp});\quad x=1:\ 0\le y\le 2\ (3\ \text{cặp});\quad x=2:\ y=0\ (1\ \text{cặp}).$$
+Tổng cộng $5+3+1=9$ cặp.
+
+**Đáp số.** $9$.
+
+--- Bài 8: ĐỀ BÀI ---
+Vé học sinh giá $20$ nghìn đồng, vé người lớn giá $50$ nghìn đồng. Một nhóm có tối đa $200$ nghìn đồng và phải mua ít nhất $2$ vé người lớn. Viết các bất phương trình và tìm số người nhiều nhất của nhóm (mỗi người một vé).
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$20x+50y\le 200\iff 2x+5y\le 20,\qquad y\ge 2,\ x\ge 0.$$
+Với $y=2$: $2x\le 10$, $x\le 5$, tổng $7$. Với $y=3$: $2x\le 5$, $x\le 2$, tổng $5$. Với $y=4$: $x=0$, tổng $4$.
+
+**Đáp số.** Nhiều nhất $7$ người ($5$ học sinh và $2$ người lớn).
+
+--- Bài 9: ĐỀ BÀI ---
+Tìm một bất phương trình dạng $ax+by\le c$ có đường biên đi qua $(0; 2)$ và $(3; 0)$ và có miền nghiệm chứa gốc toạ độ.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\frac{x}{3}+\frac{y}{2}=1\iff 2x+3y=6.$$
+Tại $O$: $2\cdot 0+3\cdot 0=0\le 6$, nên gốc toạ độ nằm về phía "$\le 6$".
+
+**Đáp số.** $2x+3y\le 6$.
+
+--- Bài 10: ĐỀ BÀI ---
+(Ôn lại [Mệnh đề](lesson:statements).) Xét mệnh đề $P$: "Với mọi số thực $x$, cặp $(x; 1)$ là nghiệm của bất phương trình $2x+y\le 7$." Mệnh đề $P$ đúng hay sai? Phát biểu mệnh đề phủ định của $P$.
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Thay $y=1$: $2x+1\le 7\iff x\le 3$. Với $x=4$: $2\cdot 4+1=9>7$, nên $(4; 1)$ không là nghiệm và $P$ sai.
+
+**Đáp số.** $P$ sai (phản ví dụ $x=4$). $\overline{P}$: "Tồn tại số thực $x$ sao cho $2x+1>7$", tức là có cặp $(x; 1)$ không là nghiệm.
+
+@@@ g10/lines-angles-distances
+(Bài học: Vị trí tương đối giữa hai đường thẳng. Góc và khoảng cách)
+
+--- Bài 1: ĐỀ BÀI ---
+Xác định vị trí tương đối của hai đường thẳng $x-3y+2=0$ và $-2x+6y-4=0$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\dfrac{1}{-2}=\dfrac{-3}{6}=\dfrac{2}{-4}=-\dfrac12$. Ba tỉ số bằng nhau, nên hai phương trình tỉ lệ.
+
+**Đáp số.** Hai đường thẳng trùng nhau.
+
+--- Bài 2: ĐỀ BÀI ---
+Tìm giao điểm của hai đường thẳng $3x+2y-6=0$ và $x-y+2=0$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Thế $x=y-2$: $3(y-2)+2y-6=0\iff 5y=12\iff y=\dfrac{12}{5}$, suy ra $x=\dfrac{12}{5}-2=\dfrac25$.
+
+**Đáp số.** $\left(\dfrac25; \dfrac{12}{5}\right)$.
+
+--- Bài 3: ĐỀ BÀI ---
+Tính góc giữa hai đường thẳng $x+y=0$ và $x+3y-2=0$ (đơn vị: độ, làm tròn đến hàng phần trăm).
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\cos\varphi=\dfrac{|1+3|}{\sqrt2\cdot\sqrt{10}}=\dfrac{4}{\sqrt{20}}=\dfrac{2}{\sqrt5}$, nên $\varphi\approx 26{,}57^\circ$.
+
+**Đáp số.** $26{,}57$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tìm khoảng cách từ gốc toạ độ đến đường thẳng $5x+12y-26=0$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$d=\dfrac{|0+0-26|}{\sqrt{25+144}}=\dfrac{26}{13}=2$.
+
+**Đáp số.** $2$.
+
+--- Bài 5: ĐỀ BÀI ---
+Tìm khoảng cách giữa hai đường thẳng song song $2x-y+1=0$ và $2x-y-4=0$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hai phương trình có cùng $a=2$, $b=-1$. $d=\dfrac{|1-(-4)|}{\sqrt{4+1}}=\dfrac{5}{\sqrt5}=\sqrt5$.
+
+**Đáp số.** $\sqrt5$.
+
+--- Bài 6: ĐỀ BÀI ---
+Cho hai đường thẳng $d_1: 3x-4y+5=0$, $d_2: 4x+3y-10=0$ và điểm $A(2; -1)$. Mỗi khẳng định sau đúng hay sai?
+
+a) $d_1$ vuông góc với $d_2$.
+
+b) $d_1$ và $d_2$ cắt nhau tại điểm $(1; 2)$.
+
+c) Khoảng cách từ $A$ đến $d_1$ bằng $2$.
+
+d) Khoảng cách từ $A$ đến $d_2$ bằng $1$.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) **Đúng**: $3\cdot4+(-4)\cdot3=0$.
+
+b) **Đúng**: $3-8+5=0$ và $4+6-10=0$.
+
+c) **Sai**: $d(A, d_1)=\dfrac{|6+4+5|}{5}=3$.
+
+d) **Đúng**: $d(A, d_2)=\dfrac{|8-3-10|}{5}=1$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+--- Bài 7: ĐỀ BÀI ---
+Trên bản vẽ (đơn vị: chục mét), một mảnh đất hình tam giác có các đỉnh $A(1; 1)$, $B(5; 4)$, $C(2; 5)$. Viết phương trình đường thẳng $AB$, tính khoảng cách từ $C$ đến $AB$ và diện tích thực của mảnh đất (m²).
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\vec{n}=(3; -4)$: $AB: 3(x-1)-4(y-1)=0\iff 3x-4y+1=0$. $d(C, AB)=\dfrac{|6-20+1|}{5}=2{,}6$, $AB=\sqrt{16+9}=5$. Diện tích trên bản vẽ $\dfrac12\cdot5\cdot2{,}6=6{,}5$, diện tích thực $6{,}5\cdot100=650$ m².
+
+**Đáp số.** $3x-4y+1=0$; $2{,}6$; $650$ m².
+
+--- Bài 8: ĐỀ BÀI ---
+Một ngọn hải đăng ở điểm $M(3; 4)$ trên hải đồ (đơn vị: km), ánh sáng của nó nhìn thấy được trong bán kính $6$ km. Một tàu đi theo đường thẳng $4x+3y-49=0$. Tàu có đi vào vùng nhìn thấy ánh sáng không?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$d(M, \Delta)=\dfrac{|12+12-49|}{\sqrt{16+9}}=\dfrac{25}{5}=5$ km. Vì $5<6$ nên tàu đi vào vùng nhìn thấy ánh sáng.
+
+**Đáp số.** Có; khoảng cách gần nhất là $5$ km.
+
+--- Bài 9: ĐỀ BÀI ---
+Tính khoảng cách từ $A(1; 1)$ đến đường thẳng đi qua $B(2; -1)$ và có vectơ chỉ phương $\vec{u}=(3; 4)$.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\vec{n}=(4; -3)$: $4(x-2)-3(y+1)=0\iff 4x-3y-11=0$. Khoảng cách từ $A$: $\dfrac{|4-3-11|}{5}=\dfrac{10}{5}=2$.
+
+**Đáp số.** $2$.
+
+--- Bài 10: ĐỀ BÀI ---
+Cho tam giác $ABC$ với $A(0; 0)$, $B(4; 0)$, $C(-2; 3)$.
+
+a) Dùng [tích vô hướng](lesson:dot-product), tính góc $\widehat{BAC}$ (làm tròn đến hàng phần trăm của độ).
+
+b) Tính góc giữa hai đường thẳng $AB$ và $AC$. Vì sao kết quả khác câu a)?
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $\overrightarrow{AB}=(4; 0)$, $\overrightarrow{AC}=(-2; 3)$, $\cos\widehat{BAC}=\dfrac{-8}{4\sqrt{13}}=-\dfrac{2}{\sqrt{13}}$, nên $\widehat{BAC}\approx 123{,}69^\circ$.
+
+b) Góc $\widehat{BAC}$ tù, nên góc giữa hai đường thẳng là $180^\circ-123{,}69^\circ=56{,}31^\circ$ (cũng là góc có $\cos\varphi=\dfrac{2}{\sqrt{13}}$).
+
+**Đáp số.** a) $\approx 123{,}69^\circ$; b) $\approx 56{,}31^\circ$.
+
+@@@ g10/permutations-combinations
+(Bài học: Hoán vị, chỉnh hợp và tổ hợp)
+
+--- Bài 1: ĐỀ BÀI ---
+Tính $7!$, $A_8^3$ và $C_9^2$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$7!=5040$; $A_8^3=8\cdot7\cdot6=336$; $C_9^2=\dfrac{9\cdot8}{2}=36$.
+
+**Đáp số.** $5040$; $336$; $36$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tìm số tự nhiên $n\ge2$ thoả mãn $A_n^2=56$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$n(n-1)=56\iff n^2-n-56=0\iff(n-8)(n+7)=0$. Vì $n\ge2$ nên $n=8$.
+
+**Đáp số.** $n=8$.
+
+--- Bài 3: ĐỀ BÀI ---
+Từ các chữ số $1, 2, 3, 4, 5, 6$ lập được bao nhiêu số có bốn chữ số khác nhau?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Mỗi số là một chỉnh hợp chập $4$ của $6$ chữ số (không có chữ số $0$ nên không lo chữ số đầu): $A_6^4=6\cdot5\cdot4\cdot3=360$.
+
+**Đáp số.** $360$.
+
+--- Bài 4: ĐỀ BÀI ---
+Một nhóm có $5$ bạn nam và $4$ bạn nữ. Có bao nhiêu cách chọn $3$ bạn đi dự hội nghị sao cho có ít nhất một bạn nữ?
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Tất cả: $C_9^3=84$. Toàn nam: $C_5^3=10$. Vậy có $84-10=74$ cách.
+
+**Đáp số.** $74$.
+
+--- Bài 5: ĐỀ BÀI ---
+Một giải bóng đá có $8$ đội, đá vòng tròn một lượt (hai đội bất kì gặp nhau đúng một lần). Giải có bao nhiêu trận đấu?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Mỗi trận là một tổ hợp chập $2$ của $8$ đội: $C_8^2=\dfrac{8\cdot7}{2}=28$.
+
+**Đáp số.** $28$.
+
+--- Bài 6: ĐỀ BÀI ---
+Một tổ có $10$ học sinh, trong đó có bạn An. Mỗi khẳng định sau đúng hay sai?
+
+a) Có $720$ cách chọn $3$ bạn làm tổ trưởng, tổ phó và thư kí.
+b) Có $720$ cách chọn $3$ bạn đi trực nhật.
+c) $C_{10}^3=C_{10}^7$.
+d) Có $45$ cách chọn $3$ bạn đi trực nhật, trong đó có bạn An.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) **Đúng.** Ba chức vụ khác nhau: $A_{10}^3=10\cdot9\cdot8=720$.
+
+b) **Sai.** Trực nhật không có thứ tự: $C_{10}^3=120$.
+
+c) **Đúng.** Theo tính đối xứng, cả hai bằng $120$.
+
+d) **Sai.** Chọn thêm $2$ bạn trong $9$ bạn còn lại: $C_9^2=36$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+--- Bài 7: ĐỀ BÀI ---
+Xếp $3$ bạn nam và $3$ bạn nữ ngồi vào một hàng $6$ ghế sao cho nam và nữ ngồi xen kẽ. Có bao nhiêu cách xếp?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Chọn kiểu xen kẽ: $2$ cách. Xếp nam: $3!=6$ cách, xếp nữ: $3!=6$ cách. Tổng: $2\cdot6\cdot6=72$.
+
+**Đáp số.** $72$.
+
+--- Bài 8: ĐỀ BÀI ---
+Trên một đường tròn có $9$ điểm phân biệt. Có bao nhiêu tam giác và bao nhiêu tứ giác có các đỉnh là các điểm này?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Tam giác: $C_9^3=84$. Tứ giác: $C_9^4=126$ (bốn điểm trên đường tròn, nối theo thứ tự trên đường tròn, cho đúng một tứ giác lồi).
+
+**Đáp số.** $84$ tam giác; $126$ tứ giác.
+
+--- Bài 9: ĐỀ BÀI ---
+(Ôn tập bài [Quy tắc đếm](lesson:counting-rules)) Một mã gồm $2$ chữ cái khác nhau chọn trong $A, B, C, D, E$ rồi đến $3$ chữ số khác nhau. Có bao nhiêu mã như vậy?
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Phần chữ cái: $A_5^2=20$. Phần chữ số: $A_{10}^3=720$. Theo quy tắc nhân: $20\cdot720=14\,400$.
+
+**Đáp số.** $14\,400$ mã.
+
+--- Bài 10: ĐỀ BÀI ---
+Từ các chữ số $0, 1, 2, 3, 4, 5$ lập được bao nhiêu số có bốn chữ số khác nhau chia hết cho $5$?
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Tận cùng $0$: $A_5^3=60$. Tận cùng $5$: chữ số đầu $4$ cách, hai chữ số giữa $A_4^2=12$ cách, được $48$. Tổng: $60+48=108$.
+
+**Đáp số.** $108$.
+
+@@@ g10/probability-practice
+(Bài học: Thực hành tính xác suất theo định nghĩa cổ điển)
+
+--- Bài 1: ĐỀ BÀI ---
+Một hộp có $6$ bóng trắng và $4$ bóng đen. Lấy ngẫu nhiên cùng lúc hai bóng. Tính xác suất để cả hai bóng đều trắng.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$P=\dfrac{C_6^2}{C_{10}^2}=\dfrac{15}{45}=\dfrac13$.
+
+**Đáp số.** $\dfrac13$.
+
+--- Bài 2: ĐỀ BÀI ---
+Với hộp bóng ở bài trên, tính xác suất để hai bóng lấy ra khác màu.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$n(A)=6\cdot4=24$, nên $P=\dfrac{24}{45}=\dfrac{8}{15}$.
+
+**Đáp số.** $\dfrac{8}{15}$.
+
+--- Bài 3: ĐỀ BÀI ---
+Một lớp có $12$ nam và $8$ nữ. Chọn ngẫu nhiên ba học sinh. Tính xác suất để a) cả ba đều là nam, b) có ít nhất một nữ.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $P=\dfrac{C_{12}^3}{C_{20}^3}=\dfrac{220}{1140}=\dfrac{11}{57}$. b) $P=1-\dfrac{11}{57}=\dfrac{46}{57}$.
+
+**Đáp số.** a) $\dfrac{11}{57}$; b) $\dfrac{46}{57}$.
+
+--- Bài 4: ĐỀ BÀI ---
+Một cửa hàng nhận một thùng $15$ chiếc bóng đèn, trong đó có $2$ chiếc hỏng. Nhân viên lấy ngẫu nhiên $3$ chiếc để thử. Tính xác suất để cả $3$ chiếc đều tốt.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$P=\dfrac{C_{13}^3}{C_{15}^3}=\dfrac{286}{455}=\dfrac{22}{35}$.
+
+**Đáp số.** $\dfrac{22}{35}$.
+
+--- Bài 5: ĐỀ BÀI ---
+Gieo hai con xúc xắc cân đối. Tính xác suất để tích hai số chấm là số chẵn.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Có $3\cdot3=9$ cặp gồm hai số lẻ trong $36$ cặp. $P(\text{chẵn})=1-\dfrac{9}{36}=\dfrac34$.
+
+**Đáp số.** $\dfrac34$.
+
+--- Bài 6: ĐỀ BÀI ---
+Một hộp có $4$ bóng đỏ, $3$ bóng vàng và $2$ bóng xanh. Lấy ngẫu nhiên cùng lúc $3$ bóng. Mỗi khẳng định sau đúng hay sai?
+
+a) Số kết quả có thể là $84$.
+
+b) Xác suất lấy được $3$ bóng đỏ là $\dfrac{1}{21}$.
+
+c) Xác suất lấy được $3$ bóng có đủ ba màu là $\dfrac13$.
+
+d) Xác suất có ít nhất một bóng xanh là $\dfrac{7}{12}$.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) **Đúng**: $C_9^3=84$.
+
+b) **Đúng**: $\dfrac{C_4^3}{84}=\dfrac{4}{84}=\dfrac{1}{21}$.
+
+c) **Sai**: $\dfrac{4\cdot3\cdot2}{84}=\dfrac{24}{84}=\dfrac27$.
+
+d) **Đúng**: không có bóng xanh có $C_7^3=35$ cách, nên $P=1-\dfrac{35}{84}=\dfrac{49}{84}=\dfrac{7}{12}$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+--- Bài 7: ĐỀ BÀI ---
+Rút ngẫu nhiên ba lá bài từ bộ bài $52$ lá. Tính xác suất để cả ba lá đều là lá cơ (làm tròn đến hàng phần nghìn).
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$P=\dfrac{C_{13}^3}{C_{52}^3}=\dfrac{286}{22\,100}=\dfrac{11}{850}\approx 0{,}013$.
+
+**Đáp số.** $0{,}013$.
+
+--- Bài 8: ĐỀ BÀI ---
+Một nhóm có $5$ nam và $4$ nữ. Chọn ngẫu nhiên $4$ người. Tính xác suất để có đúng $2$ nam và $2$ nữ.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$n(\Omega)=C_9^4=126$, $n(A)=C_5^2\cdot C_4^2=10\cdot6=60$, nên $P=\dfrac{60}{126}=\dfrac{10}{21}$.
+
+**Đáp số.** $\dfrac{10}{21}$.
+
+--- Bài 9: ĐỀ BÀI ---
+Gieo ba con xúc xắc cân đối. Tính xác suất để a) tổng số chấm bằng $9$, b) có ít nhất một con xuất hiện mặt sáu chấm.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Các bộ có tổng $9$: $\{1; 2; 6\}$, $\{1; 3; 5\}$, $\{2; 3; 4\}$ (mỗi bộ $6$ cách sắp), $\{1; 4; 4\}$, $\{2; 2; 5\}$ (mỗi bộ $3$ cách), $\{3; 3; 3\}$ ($1$ cách): tổng $18+6+1=25$, nên $P=\dfrac{25}{216}$.
+
+b) $P=1-\dfrac{125}{216}=\dfrac{91}{216}$.
+
+**Đáp số.** a) $\dfrac{25}{216}$; b) $\dfrac{91}{216}$.
+
+--- Bài 10: ĐỀ BÀI ---
+Năm bạn, trong đó có An và Bình, ngồi ngẫu nhiên vào một hàng ghế $5$ chỗ. Dùng [hoán vị](lesson:permutations-combinations), tính xác suất để An và Bình ngồi cạnh nhau.
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$n(\Omega)=5!=120$, $n(A)=2\cdot4!=48$, nên $P=\dfrac{48}{120}=\dfrac25$.
+
+**Đáp số.** $\dfrac25$.
+
+@@@ g10/quadratic-function
+(Bài học: Hàm số bậc hai)
+
+--- Bài 1: ĐỀ BÀI ---
+Tìm đỉnh, trục đối xứng và các giao điểm với trục hoành của parabol $y=x^2-6x+5$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$x_I=\dfrac{6}{2}=3$, $y_I=9-18+5=-4$. Phương trình $x^2-6x+5=(x-1)(x-5)=0$ cho $x=1$ hoặc $x=5$.
+
+**Đáp số.** Đỉnh $(3; -4)$; trục $x=3$; giao với trục hoành tại $(1; 0)$ và $(5; 0)$.
+
+--- Bài 2: ĐỀ BÀI ---
+Tìm giá trị nhỏ nhất của $y=3x^2-12x+7$ và giá trị của $x$ tại đó.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$a=3>0$, $x_I=\dfrac{12}{6}=2$ và $y(2)=12-24+7=-5$.
+
+**Đáp số.** Giá trị nhỏ nhất là $-5$, tại $x=2$.
+
+--- Bài 3: ĐỀ BÀI ---
+Lập bảng biến thiên của $y=-x^2+4x$ và cho biết giá trị lớn nhất.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$a=-1<0$, $x_I=2$, $y_I=-4+8=4$.
+
+| $x$ | $-\infty$ | | $2$ | | $+\infty$ |
+|---|---|---|---|---|---|
+| $y$ | $-\infty$ | đồng biến | $4$ | nghịch biến | $-\infty$ |
+
+**Đáp số.** Đồng biến trên $(-\infty; 2)$, nghịch biến trên $(2; +\infty)$; giá trị lớn nhất là $4$ tại $x=2$.
+
+--- Bài 4: ĐỀ BÀI ---
+Tìm hàm số bậc hai có đồ thị đi qua $A(0; 1)$, $B(1; 0)$ và $C(2; 3)$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$A$ cho $c=1$. $B$ cho $a+b+1=0$, $C$ cho $4a+2b+1=3$, tức $2a+b=1$. Trừ vế theo vế: $a=2$, nên $b=-3$. Kiểm tra $C$: $8-6+1=3$.
+
+**Đáp số.** $y=2x^2-3x+1$.
+
+--- Bài 5: ĐỀ BÀI ---
+Cho hàm số $y=-2x^2+4x+1$. Mỗi khẳng định sau đúng hay sai?
+
+a) Parabol có bề lõm hướng xuống.
+b) Đỉnh của parabol là $(1; 3)$.
+c) Hàm số đồng biến trên $(1; +\infty)$.
+d) Đồ thị cắt trục tung tại $(0; 1)$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) **Đúng.** $a=-2<0$.
+
+b) **Đúng.** $x_I=-\dfrac{4}{2\cdot(-2)}=1$ và $y_I=-2+4+1=3$.
+
+c) **Sai.** Vì $a<0$, hàm số **nghịch biến** trên $(1; +\infty)$.
+
+d) **Đúng.** $x=0$ cho $y=1$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+--- Bài 6: ĐỀ BÀI ---
+Một quả bóng được đá lên từ mặt đất, độ cao của nó là $h(t)=-5t^2+10t$ (mét) sau $t$ giây. Tìm độ cao lớn nhất và thời điểm quả bóng trở lại mặt đất.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$t_I=-\dfrac{10}{2\cdot(-5)}=1$ và $h(1)=-5+10=5$. Phương trình $-5t(t-2)=0$ cho $t=0$ (lúc đá) hoặc $t=2$.
+
+**Đáp số.** Cao nhất $5$ m (lúc $t=1$ giây); chạm đất lúc $t=2$ giây.
+
+--- Bài 7: ĐỀ BÀI ---
+Một cửa hàng nhập áo với giá $50$ nghìn đồng một chiếc. Nếu bán với giá $x$ nghìn đồng một chiếc ($50\le x\le150$) thì mỗi tháng bán được $300-2x$ chiếc. Cửa hàng nên bán với giá bao nhiêu nghìn đồng một chiếc để lợi nhuận mỗi tháng lớn nhất?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$P(x)=(x-50)(300-2x)=-2x^2+400x-15\,000,\qquad x_I=-\frac{400}{2\cdot(-2)}=100.$$
+Giá trị $100$ thuộc $[50; 150]$. Khi đó cửa hàng bán $100$ chiếc, lãi $50$ nghìn mỗi chiếc, tức $P(100)=5000$ nghìn đồng.
+
+**Đáp số.** $100$.
+
+--- Bài 8: ĐỀ BÀI ---
+(Ôn lại tích vô hướng.) Parabol $y=x^2-4x+3$ cắt trục hoành tại $A(1; 0)$, $B(3; 0)$ và có đỉnh $I$. Chứng minh tam giác $IAB$ vuông cân tại $I$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$I(2; -1)$, $\overrightarrow{IA}=(-1; 1)$, $\overrightarrow{IB}=(1; 1)$. Ta có $\overrightarrow{IA}\cdot\overrightarrow{IB}=-1+1=0$ và $IA=IB=\sqrt2$.
+
+**Đáp số.** Tam giác $IAB$ vuông tại $I$ và $IA=IB=\sqrt2$, nên vuông cân tại $I$.
+
+--- Bài 9: ĐỀ BÀI ---
+Một cổng có dạng parabol, chân cổng rộng $8$ m và đỉnh cổng cao $6$ m so với mặt đất. Một xe tải rộng $3$ m đi chính giữa cổng. Thùng xe cao tối đa bao nhiêu mét để đi qua được? (Làm tròn đến $0{,}01$ m.)
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Từ $0=16a+6$ được $a=-\dfrac38$. Tại $x=1{,}5$:
+$$y=-\frac38\cdot2{,}25+6=6-0{,}84375=5{,}15625.$$
+Thùng xe phải thấp hơn độ cao cổng tại hai mép, tức là thấp hơn $5{,}15625$ m. Vì đây là giới hạn trên, ta làm tròn **xuống**: tối đa khoảng $5{,}15$ m.
+
+**Đáp số.** Thấp hơn $5{,}15625$ m, tức tối đa khoảng $5{,}15$ m.
+
+--- Bài 10: ĐỀ BÀI ---
+Tìm $a$, $b$ biết parabol $y=ax^2+bx+2$ có đỉnh $I(2; -2)$.
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$b=-4a$. Đỉnh thuộc đồ thị: $4a+2b+2=-2$, tức $4a-8a=-4$, nên $a=1$ và $b=-4$.
+
+**Kiểm tra.** $y=x^2-4x+2=(x-2)^2-2$ có đỉnh $(2; -2)$.
+
+**Đáp số.** $a=1$, $b=-4$.
+
+@@@ g10/scalar-multiplication
+(Bài học: Tích của một vectơ với một số)
+
+--- Bài 1: ĐỀ BÀI ---
+Cho $|\vec{a}| = 6$. Tìm $|2\vec{a}|$, $\left|-\dfrac{1}{2}\vec{a}\right|$ và $|0\vec{a}|$. Trong hai vectơ $2\vec{a}$ và $-\dfrac{1}{2}\vec{a}$, vectơ nào cùng hướng với $\vec{a}$?
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$|2\vec{a}| = 2\cdot6 = 12$, $\left|-\dfrac{1}{2}\vec{a}\right| = \dfrac{1}{2}\cdot6 = 3$, $|0\vec{a}| = |\vec{0}| = 0$. Vì $2>0$ nên $2\vec{a}$ cùng hướng $\vec{a}$; vì $-\dfrac12<0$ nên $-\dfrac{1}{2}\vec{a}$ ngược hướng.
+
+**Đáp số.** $12$; $3$; $0$; chỉ $2\vec{a}$ cùng hướng với $\vec{a}$.
+
+--- Bài 2: ĐỀ BÀI ---
+Rút gọn $3(\vec{a} - 2\vec{b}) - 2(\vec{a} - \vec{b})$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$3\vec{a} - 6\vec{b} - 2\vec{a} + 2\vec{b} = (3-2)\vec{a} + (-6+2)\vec{b} = \vec{a} - 4\vec{b}.$$
+
+**Đáp số.** $\vec{a} - 4\vec{b}$.
+
+--- Bài 3: ĐỀ BÀI ---
+Trong tam giác $ABC$, gọi $M$, $N$ lần lượt là trung điểm của $AB$, $AC$. Chứng minh $\overrightarrow{MN} = \dfrac{1}{2}\overrightarrow{BC}$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\overrightarrow{MN} = \overrightarrow{AN} - \overrightarrow{AM} = \frac{1}{2}\overrightarrow{AC} - \frac{1}{2}\overrightarrow{AB} = \frac{1}{2}(\overrightarrow{AC} - \overrightarrow{AB}) = \frac{1}{2}\overrightarrow{BC}.$$
+
+**Đáp số.** $\overrightarrow{MN} = \dfrac{1}{2}\overrightarrow{BC}$ (đã chứng minh): đường trung bình song song và bằng nửa cạnh đáy.
+
+--- Bài 4: ĐỀ BÀI ---
+Cho $\vec{u}$, $\vec{v}$ không cùng phương, $\overrightarrow{AB} = 2\vec{u} - \vec{v}$ và $\overrightarrow{AC} = -6\vec{u} + 3\vec{v}$. Chứng minh $A$, $B$, $C$ thẳng hàng và tìm $k$ để $\overrightarrow{AC} = k\overrightarrow{AB}$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\overrightarrow{AC} = -6\vec{u} + 3\vec{v} = -3(2\vec{u} - \vec{v}) = -3\overrightarrow{AB}.$$
+Vậy ba điểm thẳng hàng với $k=-3$; vì $k<0$ nên $B$, $C$ nằm về hai phía của $A$.
+
+**Đáp số.** $k=-3$.
+
+--- Bài 5: ĐỀ BÀI ---
+Trên một đoạn đường thẳng chạy theo hướng đông – tây, một ô tô chạy $40$ km/h về hướng đông; gọi vận tốc của nó là $\vec{v}$. Một xe tải chạy $60$ km/h về hướng tây, một xe đạp chạy $15$ km/h về hướng đông. Biểu diễn vận tốc của xe tải và của xe đạp theo $\vec{v}$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Xe tải: $\dfrac{60}{40}=\dfrac32$ và ngược hướng, nên vận tốc là $-\dfrac32\vec{v}$. Xe đạp: $\dfrac{15}{40}=\dfrac38$ và cùng hướng, nên vận tốc là $\dfrac38\vec{v}$.
+
+**Đáp số.** Xe tải $-\dfrac{3}{2}\vec{v}$; xe đạp $\dfrac{3}{8}\vec{v}$.
+
+--- Bài 6: ĐỀ BÀI ---
+Cho tam giác $ABC$ có trọng tâm $G$ và $M$ là trung điểm của $BC$. Mỗi khẳng định sau đúng hay sai?
+
+a) $\overrightarrow{AG} = \dfrac{2}{3}\overrightarrow{AM}$.
+b) $\overrightarrow{GA} = 2\overrightarrow{GM}$.
+c) $\overrightarrow{GB} + \overrightarrow{GC} = 2\overrightarrow{GM}$.
+d) $\overrightarrow{AB} + \overrightarrow{AC} = 3\overrightarrow{AG}$.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) **Đúng.** $\overrightarrow{AG}$ và $\overrightarrow{AM}$ cùng hướng và $AG=\dfrac23AM$.
+
+b) **Sai.** $GA=2GM$ nhưng $\overrightarrow{GA}$ và $\overrightarrow{GM}$ ngược hướng ($G$ nằm giữa $A$ và $M$), nên $\overrightarrow{GA} = -2\overrightarrow{GM}$.
+
+c) **Đúng.** Công thức trung điểm với $O=G$.
+
+d) **Đúng.** Với $O=A$: $\overrightarrow{AB} + \overrightarrow{AC} = 2\overrightarrow{AM} = 2\cdot\dfrac{3}{2}\overrightarrow{AG} = 3\overrightarrow{AG}$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
+
+--- Bài 7: ĐỀ BÀI ---
+Trong tam giác $ABC$, điểm $D$ nằm trên cạnh $BC$ với $BD = \dfrac{1}{4}BC$. Biểu diễn $\overrightarrow{AD}$ theo $\overrightarrow{AB}$ và $\overrightarrow{AC}$.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\overrightarrow{AD} = \overrightarrow{AB} + \frac{1}{4}(\overrightarrow{AC} - \overrightarrow{AB}) = \frac{3}{4}\overrightarrow{AB} + \frac{1}{4}\overrightarrow{AC}.$$
+
+**Đáp số.** $\overrightarrow{AD} = \dfrac{3}{4}\overrightarrow{AB} + \dfrac{1}{4}\overrightarrow{AC}$.
+
+--- Bài 8: ĐỀ BÀI ---
+(Ôn lại định lí côsin.) Tam giác $ABC$ có $AB=3$, $AC=5$, $\widehat{BAC}=60^\circ$, và $M$ là trung điểm của $BC$. Tính độ dài trung tuyến $AM$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Dựng hình bình hành $ABDC$. Khi đó $\overrightarrow{AB}+\overrightarrow{AC}=\overrightarrow{AD}=2\overrightarrow{AM}$, và trong tam giác $ABD$ có $AB=3$, $BD=5$, $\widehat{ABD}=120^\circ$:
+$$AD^2=3^2+5^2-2\cdot3\cdot5\cos120^\circ=9+25+15=49,$$
+nên $AD=7$ và $AM=\dfrac72=3{,}5$.
+
+**Đáp số.** $3{,}5$.
+
+--- Bài 9: ĐỀ BÀI ---
+Trong tam giác $ABC$, $D$ là điểm trên $BC$ sao cho $\overrightarrow{BD} = 2\overrightarrow{DC}$, $E$ là trung điểm của $AD$, và $F$ là điểm trên $AC$ sao cho $\overrightarrow{AF} = \dfrac{2}{5}\overrightarrow{AC}$. Chứng minh $B$, $E$, $F$ thẳng hàng.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\overrightarrow{AD} = \vec{b} + \dfrac{2}{3}(\vec{c} - \vec{b}) = \dfrac{1}{3}\vec{b} + \dfrac{2}{3}\vec{c}$, nên $\overrightarrow{AE} = \dfrac{1}{6}\vec{b} + \dfrac{1}{3}\vec{c}$. Khi đó:
+$$\overrightarrow{BE} = \overrightarrow{AE} - \vec{b} = -\frac{5}{6}\vec{b} + \frac{1}{3}\vec{c},\qquad \overrightarrow{BF} = \overrightarrow{AF} - \vec{b} = -\vec{b} + \frac{2}{5}\vec{c} = \frac{6}{5}\overrightarrow{BE}.$$
+
+**Đáp số.** $\overrightarrow{BF} = \dfrac{6}{5}\overrightarrow{BE}$, nên $B$, $E$, $F$ thẳng hàng.
+
+--- Bài 10: ĐỀ BÀI ---
+Cho $\vec{a}$, $\vec{b}$ không cùng phương, $\vec{u} = \vec{a} + 2\vec{b}$, $\vec{v} = \vec{a} - \vec{b}$ và $\vec{w} = 5\vec{a} + \vec{b}$. Tìm các số $x$, $y$ để $\vec{w} = x\vec{u} + y\vec{v}$.
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$x\vec{u} + y\vec{v} = (x + y)\vec{a} + (2x - y)\vec{b}$. So sánh hệ số:
+$$\begin{cases} x + y = 5\\ 2x - y = 1\end{cases}\iff\begin{cases} x = 2\\ y = 3.\end{cases}$$
+**Kiểm tra.** $2(\vec{a} + 2\vec{b}) + 3(\vec{a} - \vec{b}) = 5\vec{a} + \vec{b}$.
+
+**Đáp số.** $x=2$, $y=3$.

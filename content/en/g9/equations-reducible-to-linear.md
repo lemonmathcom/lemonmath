@@ -149,7 +149,14 @@ Solve the equation $(x-5)(3x+6)=0$.
 2. Set $3x+6=0$.
 
 ::solution
-$x-5=0\iff x=5$; $3x+6=0\iff x=-2$.
+We have $(x-5)(3x+6)=0$.
+
+A product is $0$ exactly when at least one factor is $0$, so we solve the two equations:
+
+- $x-5=0$, which gives $x=5$;
+- $3x+6=0$, that is $3x=-6$, which gives $x=-2$.
+
+So the equation has two solutions, $x=5$ and $x=-2$.
 
 **Answer.** $x=5$ or $x=-2$.
 :::
@@ -165,7 +172,15 @@ Solve the equation $2x^2+7x=0$.
 2. Solve each linear equation.
 
 ::solution
-$x(2x+7)=0\iff x=0$ or $2x+7=0\iff x=-\dfrac72$.
+Taking out the common factor $x$ on the left-hand side, we get
+$$2x^2+7x=0\iff x(2x+7)=0.$$
+
+We solve the two equations:
+
+- $x=0$;
+- $2x+7=0$, that is $2x=-7$, which gives $x=-\dfrac72$.
+
+So the equation has two solutions, $x=0$ and $x=-\dfrac72$.
 
 **Answer.** $x=0$ or $x=-\dfrac72$.
 :::
@@ -181,7 +196,18 @@ Solve the equation $(2x-1)^2-(x+4)^2=0$.
 2. Simplify each factor and solve.
 
 ::solution
-$(2x-1-x-4)(2x-1+x+4)=0\iff(x-5)(3x+3)=0\iff x=5$ or $x=-1$.
+The left-hand side is a difference of two squares $a^2-b^2=(a-b)(a+b)$ with $a=2x-1$ and $b=x+4$. We have
+$$\begin{aligned}
+(2x-1)^2-(x+4)^2&=\big[(2x-1)-(x+4)\big]\big[(2x-1)+(x+4)\big]\\
+&=(x-5)(3x+3).
+\end{aligned}$$
+
+Hence the equation becomes $(x-5)(3x+3)=0$. We solve the two equations:
+
+- $x-5=0$, which gives $x=5$;
+- $3x+3=0$, that is $3x=-3$, which gives $x=-1$.
+
+So the equation has two solutions, $x=5$ and $x=-1$.
 
 **Answer.** $x=5$ or $x=-1$.
 :::
@@ -198,7 +224,16 @@ Solve the equation $\dfrac{3}{x-2}=\dfrac{5}{x+2}$.
 3. Solve and check against the excluded values.
 
 ::solution
-$3(x+2)=5(x-2)\iff 3x+6=5x-10\iff 2x=16\iff x=8$ (not an excluded value).
+Condition: $x\neq2$ and $x\neq-2$.
+
+Writing both sides over a common denominator and removing it, we get
+$$3(x+2)=5(x-2).$$
+
+It follows that $3x+6=5x-10$, that is $2x=16$, so $x=8$.
+
+We see that $x=8$ satisfies the condition.
+
+So the equation has the solution $x=8$.
 
 **Answer.** $x=8$.
 :::
@@ -215,7 +250,18 @@ Solve the equation $\dfrac{x+1}{x-3}=2+\dfrac{4}{x-3}$.
 3. Check against the excluded value.
 
 ::solution
-$x+1=2(x-3)+4\iff x+1=2x-2\iff x=3$. This is the excluded value $x=3$, so it is rejected.
+Condition: $x\neq3$.
+
+Writing both sides over the common denominator $x-3$, we have
+$$\frac{x+1}{x-3}=\frac{2(x-3)+4}{x-3}.$$
+
+Removing the denominator, we get $x+1=2(x-3)+4$.
+
+It follows that $x+1=2x-2$, so $x=3$.
+
+We see that $x=3$ does not satisfy the condition.
+
+So the equation has no solution.
 
 **Answer.** The equation has no solution.
 :::
@@ -232,7 +278,18 @@ Solve the equation $\dfrac{2}{x+1}-\dfrac{1}{x-1}=\dfrac{3x-11}{x^2-1}$.
 3. Solve and check against the excluded values.
 
 ::solution
-$2(x-1)-(x+1)=3x-11\iff x-3=3x-11\iff 2x=8\iff x=4$ (not an excluded value).
+We have $x^2-1=(x+1)(x-1)$. Condition: $x\neq1$ and $x\neq-1$.
+
+Writing both sides over the common denominator $(x+1)(x-1)$, we have
+$$\frac{2(x-1)-(x+1)}{(x+1)(x-1)}=\frac{3x-11}{(x+1)(x-1)}.$$
+
+Removing the denominator, we get $2(x-1)-(x+1)=3x-11$.
+
+It follows that $x-3=3x-11$, that is $2x=8$, so $x=4$.
+
+We see that $x=4$ satisfies the condition.
+
+So the equation has the solution $x=4$.
 
 **Answer.** $x=4$.
 :::
@@ -248,7 +305,22 @@ With $120$ thousand đồng, Linh can buy as many type I exercise books as she c
 2. Form the equation $\dfrac{120}{x+2}=\dfrac{90}{x}$ and solve it.
 
 ::solution
-A price is positive, so $x>0$. $120x=90(x+2)\iff 30x=180\iff x=6$. Check: $120\div8=15$ and $90\div6=15$.
+Let $x$ (thousand đồng) be the price of one type II notebook ($x>0$).
+
+Then the price of one type I notebook is $x+2$ (thousand đồng).
+
+The number of type I notebooks bought with $120$ thousand đồng is $\dfrac{120}{x+2}$. The number of type II notebooks bought with $90$ thousand đồng is $\dfrac{90}{x}$.
+
+These two numbers are equal, so we have the equation
+$$\frac{120}{x+2}=\frac{90}{x}.$$
+
+Writing both sides over a common denominator and removing it, we get $120x=90(x+2)$.
+
+It follows that $120x=90x+180$, that is $30x=180$, so $x=6$.
+
+We see that $x=6$ satisfies the condition $x>0$. Check: $120\div8=15$ notebooks and $90\div6=15$ notebooks.
+
+So one type II notebook costs $6$ thousand đồng.
 
 **Answer.** $6$ thousand đồng.
 :::
@@ -271,11 +343,30 @@ c) Find $x$ such that $A=\dfrac12$.
 3. c) Solve $\dfrac{x+2}{x+3}=\dfrac12$ and check against the excluded values.
 
 ::solution
-a) $x\neq3$ and $x\neq-3$.
+a) We have $x^2-9=(x-3)(x+3)$. The expression $A$ is defined when the denominators are not $0$, that is $x+3\neq0$ and $x-3\neq0$.
 
-b) $A=\dfrac{x(x-3)+2(x+3)-12}{(x-3)(x+3)}=\dfrac{x^2-x-6}{(x-3)(x+3)}=\dfrac{(x-3)(x+2)}{(x-3)(x+3)}=\dfrac{x+2}{x+3}$.
+So $A$ is defined for $x\neq3$ and $x\neq-3$.
 
-c) $2(x+2)=x+3\iff x=-1$ (not an excluded value).
+b) For $x\neq3$ and $x\neq-3$, writing the fractions over the common denominator $(x-3)(x+3)$, we have
+$$\begin{aligned}
+A&=\frac{x(x-3)+2(x+3)-12}{(x-3)(x+3)}\\
+&=\frac{x^2-3x+2x+6-12}{(x-3)(x+3)}\\
+&=\frac{x^2-x-6}{(x-3)(x+3)}.
+\end{aligned}$$
+
+Factorising the numerator: $x^2-x-6=x^2-3x+2x-6=x(x-3)+2(x-3)=(x-3)(x+2)$. Hence
+$$A=\frac{(x-3)(x+2)}{(x-3)(x+3)}=\frac{x+2}{x+3}.$$
+
+So $A=\dfrac{x+2}{x+3}$ for $x\neq3$ and $x\neq-3$.
+
+c) For $x\neq3$ and $x\neq-3$, we have $A=\dfrac12$ when
+$$\frac{x+2}{x+3}=\frac12.$$
+
+It follows that $2(x+2)=x+3$, that is $2x+4=x+3$, so $x=-1$.
+
+We see that $x=-1$ satisfies the condition.
+
+So $A=\dfrac12$ when $x=-1$.
 
 **Answer.** a) $x\neq\pm3$; b) $A=\dfrac{x+2}{x+3}$; c) $x=-1$.
 :::
@@ -291,7 +382,20 @@ Solve the equation $x^3+2x^2-x-2=0$.
 2. Take out the common factor $x+2$, then use $x^2-1=(x-1)(x+1)$.
 
 ::solution
-$x^2(x+2)-(x+2)=0\iff(x+2)(x^2-1)=0\iff(x+2)(x-1)(x+1)=0$.
+Grouping the terms on the left-hand side and taking out the common factor, we have
+$$\begin{aligned}
+x^3+2x^2-x-2&=x^2(x+2)-(x+2)\\
+&=(x+2)(x^2-1)\\
+&=(x+2)(x-1)(x+1).
+\end{aligned}$$
+
+Hence the equation becomes $(x+2)(x-1)(x+1)=0$. We solve the three equations:
+
+- $x+2=0$, which gives $x=-2$;
+- $x-1=0$, which gives $x=1$;
+- $x+1=0$, which gives $x=-1$.
+
+So the equation has three solutions, $x=-2$, $x=1$ and $x=-1$.
 
 **Answer.** $x=-2$, $x=1$ or $x=-1$.
 :::

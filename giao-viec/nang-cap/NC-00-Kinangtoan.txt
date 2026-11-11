@@ -1,0 +1,787 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – tài khoản Kinangtoan
+Giao ngày 11/11/2026. Việc này LÀM XEN KẼ với việc viết bài mới, không thay phân công cũ. Số bài học cần nâng cấp: 7.
+
+VIỆC CẦN LÀM
+Các bài học dưới đây đã có trên lemonmath.com, nhưng LỜI GIẢI của các bài tập còn vắn tắt (chỉ có phép tính). Hãy VIẾT LẠI LỜI GIẢI của từng bài tập cho chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (Kết nối tri thức), để học sinh có thể chép cách trình bày vào vở.
+KHÔNG đổi đề bài, KHÔNG đổi số liệu, KHÔNG đổi đáp số. Nếu phát hiện đáp số cũ sai, vẫn viết lời giải đúng và ghi thêm một dòng "GHI CHÚ: đáp số cũ sai vì …" ngay dưới lời giải đó.
+
+CÁCH TRÌNH BÀY LỜI GIẢI (bắt buộc)
+1. Mỗi ý là một đoạn ngắn, cách nhau một dòng trống:
+   - Đặt vấn đề: "Điều kiện xác định: …", "Gọi x (m) là … (x > 0).", "Gọi A là biến cố "…".", "Xét tam giác ABC vuông tại A, ta có …".
+   - Từng bước, mỗi bước một dòng, có lời dẫn và lí do: "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …".
+   - Phép tính dài viết ở dạng công thức riêng dòng $$ … $$.
+   - Bài có nhiều ý: mỗi ý a), b), c) bắt đầu một đoạn mới và có kết quả riêng.
+   - Câu kết luận đầy đủ: "Vậy …" (có đơn vị nếu là bài toán thực tế).
+   - Dòng cuối: **Đáp số.** … (giữ đúng đáp số cũ).
+2. Lớp 1–5 trình bày kiểu tiểu học: "Bài giải" → câu lời giải → phép tính → "Đáp số: …"; xưng "em", câu thật ngắn. Bài tính thuần tuý (Tính, Đặt tính rồi tính, Số?) thì viết rõ cách làm từng bước rồi nêu kết quả.
+3. Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện. Không dùng kí hiệu đô la cho tiền.
+4. Công thức viết bằng LaTeX trong $…$ như bản cũ. Bản Việt: số thập phân 2{,}5, khoảng (a; b). Bản Anh: 2.5, (a, b), chính tả Anh (metres, factorise).
+5. Độ dài: bài cơ bản 3–5 dòng, bài vận dụng 5–8 dòng, bài khó dài hơn nếu cần.
+6. Mỗi lời giải viết HAI bản: tiếng Việt và tiếng Anh, cùng các bước, cùng số liệu. Bản Anh: "We have …", "Hence …", "So …", dòng cuối **Answer.** …
+
+VÍ DỤ
+Lời giải cũ:   $3(x+2)=5(x-2)\iff 2x=16\iff x=8$ (thoả mãn điều kiện).
+Lời giải mới:
+Điều kiện xác định: $x\neq2$ và $x\neq-2$.
+
+Quy đồng mẫu hai vế rồi khử mẫu, ta được
+$$3(x+2)=5(x-2).$$
+
+Suy ra $3x+6=5x-10$, hay $2x=16$, tức là $x=8$.
+
+Ta thấy $x=8$ thoả mãn điều kiện xác định.
+
+Vậy phương trình đã cho có nghiệm $x=8$.
+
+**Đáp số.** $x=8$.
+
+CÁCH NỘP (rất quan trọng: máy sẽ tự ghép, nên phải đúng mẫu)
+Xuất MỘT file tên "NC-Kinangtoan.md" (hết hạn mức thì nộp phần đã xong, lần sau làm tiếp và nộp file "NC-Kinangtoan-2.md"). Trong file, mỗi bài học bắt đầu bằng dòng @@@ kèm mã bài chép y nguyên, rồi lần lượt từng bài tập:
+
+@@@ g9/cube-roots
+### 1 VI
+(lời giải mới của Bài 1, tiếng Việt)
+### 1 EN
+(lời giải mới của Bài 1, tiếng Anh)
+### 2 VI
+…
+
+Chỉ viết lời giải, không chép lại đề bài, không thêm lời bình ngoài mẫu trên. Lưu file vào thư mục Dropbox "viec da lam".
+
+===== CÁC BÀI HỌC CẦN NÂNG CẤP (7 bài) =====
+
+@@@ g7/intro-to-probability
+(Bài học: Làm quen với xác suất của biến cố)
+
+--- Bài 1: ĐỀ BÀI ---
+Gieo một con xúc xắc cân đối.
+
+a) Liệt kê các kết quả có thể.
+
+b) Biến cố $A$: "Số chấm là số lẻ". Liệt kê các kết quả thuận lợi cho $A$ và tính $P(A)$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Có $6$ kết quả: $1, 2, 3, 4, 5, 6$.
+
+b) Kết quả thuận lợi cho $A$ là $1, 3, 5$, nên $k=3$ và $P(A)=\dfrac36=\dfrac12$.
+
+**Đáp số.** a) $6$ kết quả; b) $P(A)=\dfrac12$.
+
+--- Bài 2: ĐỀ BÀI ---
+Một hộp có $15$ viên kẹo cùng cỡ: $6$ viên cam, $5$ viên dâu, $4$ viên nho. Lấy ngẫu nhiên một viên. Tính xác suất lấy được kẹo cam, kẹo dâu, kẹo nho.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$P(\text{cam})=\dfrac{6}{15}=\dfrac25$; $P(\text{dâu})=\dfrac{5}{15}=\dfrac13$; $P(\text{nho})=\dfrac{4}{15}$.
+
+**Đáp số.** $\dfrac25$; $\dfrac13$; $\dfrac{4}{15}$.
+
+--- Bài 3: ĐỀ BÀI ---
+Hãy nhớ lại bài trước (biến cố). Gieo một con xúc xắc cân đối. Mỗi biến cố sau là chắc chắn, không thể hay ngẫu nhiên? Tính xác suất của mỗi biến cố.
+
+a) "Số chấm nhỏ hơn $7$".
+
+b) "Số chấm bằng $0$".
+
+c) "Số chấm lớn hơn $4$".
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Cả $6$ kết quả đều nhỏ hơn $7$: chắc chắn, $P=\dfrac66=1$.
+
+b) Không có kết quả nào bằng $0$: không thể, $P=0$.
+
+c) Các kết quả $5, 6$: ngẫu nhiên, $P=\dfrac26=\dfrac13$.
+
+**Đáp số.** a) Chắc chắn, $1$; b) không thể, $0$; c) ngẫu nhiên, $\dfrac13$.
+
+--- Bài 4: ĐỀ BÀI ---
+Một túi có $20$ tấm thẻ ghi các số từ $1$ đến $20$. Rút ngẫu nhiên một thẻ. Tính xác suất để thẻ rút được:
+
+a) ghi số nhỏ hơn $6$;
+
+b) ghi số chẵn;
+
+c) ghi số có một chữ số.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Các số $1, 2, 3, 4, 5$: $k=5$, $P=\dfrac{5}{20}=\dfrac14$.
+
+b) Các số chẵn $2, 4, \dots, 20$: $k=10$, $P=\dfrac{10}{20}=\dfrac12$.
+
+c) Các số $1, 2, \dots, 9$: $k=9$, $P=\dfrac{9}{20}$.
+
+**Đáp số.** a) $\dfrac14$; b) $\dfrac12$; c) $\dfrac{9}{20}$.
+
+--- Bài 5: ĐỀ BÀI ---
+Hộp $A$ có $3$ bi đỏ và $7$ bi xanh. Hộp $B$ có $2$ bi đỏ và $3$ bi xanh. Lấy ngẫu nhiên một viên bi từ mỗi hộp. Lấy từ hộp nào thì khả năng được bi đỏ lớn hơn? Vì sao?
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hộp $A$ có $10$ viên: $P_A=\dfrac{3}{10}$. Hộp $B$ có $5$ viên: $P_B=\dfrac25=\dfrac{4}{10}$. Vì $\dfrac{3}{10}<\dfrac{4}{10}$ nên $P_A<P_B$.
+
+**Đáp số.** Hộp $B$, vì $\dfrac25>\dfrac{3}{10}$.
+
+--- Bài 6: ĐỀ BÀI ---
+Tìm lỗi sai trong lời giải của hai bạn rồi sửa lại.
+
+a) Mai: "Hộp có $5$ bi đỏ và $1$ bi xanh. Hộp chỉ có hai màu nên xác suất lấy được bi xanh là $\dfrac12$."
+
+b) Bình: "Gieo xúc xắc, biến cố $M$: số chấm chia hết cho $2$. Các kết quả thuận lợi là $2, 4, 6$ nên $P(M)=\dfrac33=1$."
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Mai coi hai màu có khả năng như nhau, nhưng bi đỏ nhiều hơn bi xanh. Mỗi viên bi mới là một kết quả: $n=6$, $k=1$, nên $P=\dfrac16$.
+
+b) Bình lấy $n=3$, trong khi xúc xắc có $6$ kết quả có thể. Đúng là $P(M)=\dfrac36=\dfrac12$.
+
+**Đáp số.** a) $\dfrac16$; b) $\dfrac12$.
+
+--- Bài 7: ĐỀ BÀI ---
+Lớp $7$B có $40$ học sinh, trong đó có $22$ bạn nữ. Cô giáo gọi ngẫu nhiên một bạn lên bảng.
+
+a) Tính xác suất bạn được gọi là nữ.
+
+b) Tính xác suất bạn được gọi là nam.
+
+c) Cộng hai xác suất ở câu a) và b). Vì sao kết quả như vậy?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $P(\text{nữ})=\dfrac{22}{40}=\dfrac{11}{20}$.
+
+b) Số bạn nam là $40-22=18$, nên $P(\text{nam})=\dfrac{18}{40}=\dfrac{9}{20}$.
+
+c) $\dfrac{11}{20}+\dfrac{9}{20}=1$. Mỗi bạn hoặc là nữ hoặc là nam, nên biến cố "nữ hoặc nam" là chắc chắn.
+
+**Đáp số.** a) $\dfrac{11}{20}$; b) $\dfrac{9}{20}$; c) $1$.
+
+--- Bài 8: ĐỀ BÀI ---
+Một hộp có $30$ viên bi, được ghi lại trong bảng sau:
+
+| Màu | Đỏ | Xanh | Vàng | Trắng |
+|---|---|---|---|---|
+| Số viên | $6$ | $9$ | $5$ | $10$ |
+
+Lấy ngẫu nhiên một viên bi. Tính xác suất lấy được mỗi màu rồi cộng bốn xác suất lại.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Tổng số bi là $6+9+5+10=30$. Các xác suất là $P(\text{đỏ})=\dfrac{6}{30}=\dfrac15$, $P(\text{xanh})=\dfrac{9}{30}=\dfrac{3}{10}$, $P(\text{vàng})=\dfrac{5}{30}=\dfrac16$, $P(\text{trắng})=\dfrac{10}{30}=\dfrac13$. Tổng bốn xác suất là $\dfrac{6+9+5+10}{30}=\dfrac{30}{30}=1$.
+
+**Đáp số.** $\dfrac15$; $\dfrac{3}{10}$; $\dfrac16$; $\dfrac13$; tổng bằng $1$.
+
+--- Bài 9: ĐỀ BÀI ---
+Một hộp có $5$ bi đỏ và $3$ bi xanh. Cần bỏ thêm bao nhiêu bi vàng vào hộp để xác suất lấy được bi vàng bằng $\dfrac13$?
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Số bi đỏ và xanh là $5+3=8$. Chúng chiếm $2$ phần trong $3$ phần, nên một phần là $8:2=4$ viên. Vậy số bi vàng cần bỏ thêm là $4$.
+
+**Kiểm tra.** Khi đó hộp có $12$ viên và $P(\text{vàng})=\dfrac{4}{12}=\dfrac13$.
+
+**Đáp số.** $4$ viên bi vàng.
+
+@@@ g7/medians-angle-bisectors
+(Bài học: Sự đồng quy của ba đường trung tuyến, ba đường phân giác trong một tam giác)
+
+--- Bài 1: ĐỀ BÀI ---
+Cho tam giác $ABC$ có trọng tâm $G$, trung tuyến $AM=15$ cm.
+
+a) Viết tỉ số $\dfrac{AG}{AM}$.
+
+b) Tính $AG$ và $GM$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $\dfrac{AG}{AM}=\dfrac23$.
+
+b) $AG=\dfrac23\cdot15=10$ (cm), $GM=\dfrac13\cdot15=5$ (cm).
+
+**Đáp số.** a) $\dfrac23$; b) $AG=10$ cm, $GM=5$ cm.
+
+--- Bài 2: ĐỀ BÀI ---
+Cho tam giác $ABC$ có trọng tâm $G$ và trung tuyến $BN$. Biết $BG=14$ cm. Tính $GN$ và $BN$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$GN=BG:2=14:2=7$ (cm). $BN=14+7=21$ (cm).
+
+**Kiểm tra.** $BG=\dfrac23\cdot21=14$.
+
+**Đáp số.** $GN=7$ cm, $BN=21$ cm.
+
+--- Bài 3: ĐỀ BÀI ---
+Cho tam giác $ABC$. Ba đường phân giác cắt nhau tại $I$. Khoảng cách từ $I$ đến cạnh $AB$ bằng $4$ cm.
+
+a) Khoảng cách từ $I$ đến cạnh $BC$ là bao nhiêu?
+
+b) Khoảng cách từ $I$ đến cạnh $CA$ là bao nhiêu?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Vì $I$ là giao điểm của ba đường phân giác nên $I$ cách đều ba cạnh. Do đó khoảng cách từ $I$ đến $BC$ và đến $CA$ đều bằng $4$ cm.
+
+**Đáp số.** a) $4$ cm; b) $4$ cm.
+
+--- Bài 4: ĐỀ BÀI ---
+Cho tam giác $ABC$ có $\widehat B=64^\circ$ và $\widehat C=56^\circ$. Các đường phân giác của góc $B$ và góc $C$ cắt nhau tại $I$.
+
+a) Tính $\widehat A$.
+
+b) Tính $\widehat{IBC}$ và $\widehat{ICB}$.
+
+c) Tính $\widehat{BIC}$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $\widehat A=180^\circ-64^\circ-56^\circ=60^\circ$.
+
+b) $\widehat{IBC}=64^\circ:2=32^\circ$, $\widehat{ICB}=56^\circ:2=28^\circ$.
+
+c) $\widehat{BIC}=180^\circ-32^\circ-28^\circ=120^\circ$.
+
+**Đáp số.** a) $60^\circ$; b) $32^\circ$ và $28^\circ$; c) $120^\circ$.
+
+--- Bài 5: ĐỀ BÀI ---
+Chọn đường trung tuyến hay đường phân giác để giải quyết mỗi việc sau. Vì sao?
+
+a) Đặt một cái giếng trong khu đất hình tam giác sao cho giếng cách đều ba cạnh của khu đất.
+
+b) Tìm điểm để đặt một ngón tay đỡ tấm bìa tam giác cho nằm thăng bằng.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Chọn ba đường phân giác. Giao điểm $I$ của chúng cách đều ba cạnh của khu đất.
+
+b) Chọn ba đường trung tuyến. Giao điểm của chúng là trọng tâm, tại đó tấm bìa thăng bằng.
+
+**Đáp số.** a) đường phân giác; b) đường trung tuyến.
+
+--- Bài 6: ĐỀ BÀI ---
+Tìm lỗi sai trong lời giải rồi sửa lại.
+
+Đề: Tam giác $ABC$ có trọng tâm $G$, trung tuyến $AM=18$ cm. Tính $AG$.
+
+Lời giải của Bình: "$AG=\dfrac13AM=\dfrac13\cdot18=6$ cm."
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Bình dùng nhầm $\dfrac13$. Con số $6$ cm thực ra là $GM$, đoạn từ $G$ đến trung điểm $M$. Làm đúng: $AG=\dfrac23\cdot18=12$ (cm).
+
+**Kiểm tra.** $AG=2GM=2\cdot6=12$.
+
+**Đáp số.** $AG=12$ cm.
+
+--- Bài 7: ĐỀ BÀI ---
+Hoa cắt một tấm bìa hình tam giác cân $ABC$ với $AB=AC$ và đáy $BC=16$ cm. Gọi $M$ là trung điểm của $BC$; Hoa đo được $AM=15$ cm. Hoa đỡ tấm bìa tại trọng tâm $G$.
+
+a) Tính $AG$ và $GM$.
+
+b) Tính khoảng cách từ $G$ đến $BC$.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $AG=\dfrac23\cdot15=10$ (cm), $GM=\dfrac13\cdot15=5$ (cm).
+
+b) Tam giác $ABC$ cân tại $A$ nên trung tuyến $AM$ vuông góc với $BC$. Do đó khoảng cách từ $G$ đến $BC$ là $GM=5$ cm.
+
+**Đáp số.** a) $AG=10$ cm, $GM=5$ cm; b) $5$ cm.
+
+--- Bài 8: ĐỀ BÀI ---
+Ôn bài trước (quan hệ giữa ba cạnh của một tam giác). Bộ ba độ dài nào sau đây là ba cạnh của một tam giác?
+
+a) $5$ cm, $7$ cm, $11$ cm.
+
+b) $4$ cm, $9$ cm, $13$ cm.
+
+c) $8$ cm, $8$ cm, $15$ cm.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $5+7=12>11$: có.
+
+b) $4+9=13$, không lớn hơn $13$: không.
+
+c) $8+8=16>15$: có.
+
+**Đáp số.** a) có; b) không; c) có.
+
+--- Bài 9: ĐỀ BÀI ---
+Cho tam giác $ABC$. Hai trung tuyến $BN$ và $CP$ cắt nhau tại $G$. Biết $BN=18$ cm và $CP=12$ cm.
+
+a) Tính $BG$ và $CG$.
+
+b) Dùng bất đẳng thức tam giác cho tam giác $GBC$ để tìm khoảng giá trị của $BC$.
+
+c) $BC$ có thể bằng $3$ cm không?
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $BG=\dfrac23\cdot18=12$ (cm), $CG=\dfrac23\cdot12=8$ (cm).
+
+b) $BG+CG=20$ và $BG-CG=4$, nên $4<BC<20$.
+
+c) Không, vì $3<4$.
+
+**Đáp số.** a) $BG=12$ cm, $CG=8$ cm; b) $4$ cm $<BC<20$ cm; c) không.
+
+@@@ g8/linear-functions-graphs
+(Bài học: Hàm số bậc nhất và đồ thị của hàm số bậc nhất)
+
+--- Bài 1: ĐỀ BÀI ---
+Công thức nào sau đây cho hàm số bậc nhất? Hãy xác định $a$, $b$.
+
+a) $y=4x+1$; b) $y=-3x$; c) $y=6$; d) $y=x^2-4$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Có $a=4$, $b=1$. b) Có $a=-3$, $b=0$. c) Có $a=0$. d) Chứa $x^2$.
+
+**Đáp số.** a) và b) là hàm số bậc nhất.
+
+--- Bài 2: ĐỀ BÀI ---
+Cho hàm số $y=-2x+5$. Tính $y$ khi $x=-1$, $x=0$ và $x=3$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$x=-1\Rightarrow y=7;\qquad x=0\Rightarrow y=5;\qquad x=3\Rightarrow y=-1.$$
+
+**Đáp số.** $7$, $5$, $-1$.
+
+--- Bài 3: ĐỀ BÀI ---
+Điểm nào trong các điểm $A(0; -2)$, $B(1; 1)$, $C(-1; -5)$, $D(2; 5)$ thuộc đồ thị $y=3x-2$?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Với $x=0,1,-1,2$, ta được $-2,1,-5,4$. Ba kết quả đầu khớp; điểm $D$ có $5\ne4$.
+
+**Đáp số.** $A$, $B$, $C$.
+
+--- Bài 4: ĐỀ BÀI ---
+Vẽ đồ thị hàm số $y=2x+6$ bằng hai giao điểm với các trục toạ độ.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$x=0\Rightarrow y=6$, nên $P(0; 6)$. $y=0\Rightarrow2x+6=0\Rightarrow x=-3$, nên $Q(-3; 0)$. Đồ thị là đường thẳng $PQ$.
+
+**Đáp số.** Đường thẳng qua $(0; 6)$ và $(-3; 0)$.
+
+--- Bài 5: ĐỀ BÀI ---
+Vẽ đồ thị hàm số $y=-4x$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$x=0\Rightarrow O(0; 0)$. $x=1\Rightarrow M(1; -4)$. Đồ thị là đường thẳng $OM$.
+
+**Đáp số.** Đường thẳng qua $(0; 0)$ và $(1; -4)$.
+
+--- Bài 6: ĐỀ BÀI ---
+Không cần vẽ, hãy tìm giao điểm của đồ thị $y=-\dfrac12x+3$ với mỗi trục toạ độ.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$x=0\Rightarrow y=3$, nên giao điểm với trục tung là $(0; 3)$. Cho $y=0$: $-\dfrac12x+3=0\Rightarrow x=6$.
+
+**Đáp số.** $(0; 3)$ và $(6; 0)$.
+
+--- Bài 7: ĐỀ BÀI ---
+Bãi giữ xe thu $12$ nghìn đồng vào cổng và $4$ nghìn đồng mỗi giờ. Gọi $t$ là số giờ, $C$ là chi phí nghìn đồng, với $0\le t\le8$.
+
+a) Viết công thức của $C$ theo $t$. b) Tính phí gửi $5$ giờ. c) Nêu hai đầu mút của phần đồ thị phù hợp với tình huống.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$C=4t+12$. Với $t=5$, $C=4\cdot5+12=32$. Khi $t=0$, $C=12$; khi $t=8$, $C=44$.
+
+**Đáp số.** a) $C=4t+12$; b) $32$ nghìn đồng; c) $(0; 12)$ và $(8; 44)$.
+
+--- Bài 8: ĐỀ BÀI ---
+Bể có $72$ lít nước, xả đều $8$ lít mỗi phút. Gọi $t$ là số phút và $V$ là số lít còn lại.
+
+a) Viết $V$ theo $t$. b) Tính $V$ sau $6$ phút. c) Khi nào bể hết nước, và phần đồ thị phù hợp có hai đầu mút nào?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$V=72-8t$. Sau $6$ phút, $V=72-8\cdot6=24$. Bể hết nước khi $72-8t=0\Rightarrow t=9$.
+
+**Đáp số.** a) $V=72-8t$; b) $24$ lít; c) $9$ phút, hai đầu mút $(0; 72)$ và $(9; 0)$.
+
+--- Bài 9: ĐỀ BÀI ---
+Hai đường thẳng $y=2x-3$ và $y=-x+6$ cắt nhau tại $M$. Không vẽ đồ thị, hãy tìm toạ độ $M$ rồi kiểm tra kết quả.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$2x-3=-x+6\Rightarrow3x=9\Rightarrow x=3$. Khi đó $y=2\cdot3-3=3$. Kiểm tra: $-3+6=3$.
+
+**Đáp số.** $M(3; 3)$.
+
+@@@ g8/monomials
+(Bài học: Đơn thức)
+
+--- Bài 1: ĐỀ BÀI ---
+Trong các biểu thức $-3$, $x^2y$, $x-2y$, $\dfrac{5}{x}$, $\dfrac{2}{3}ab$, $y^3$, biểu thức nào là đơn thức?
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$x-2y$ có phép trừ nên không là đơn thức. $\dfrac{5}{x}$ có biến ở mẫu nên không là đơn thức. Các biểu thức còn lại đều là số, biến hoặc tích của số và biến.
+
+**Đáp số.** $-3$, $x^2y$, $\dfrac23ab$, $y^3$.
+
+--- Bài 2: ĐỀ BÀI ---
+Thu gọn rồi chỉ ra hệ số và bậc:
+
+a) $5x\cdot(-2)\cdot xy^2$.
+
+b) $\dfrac12x^2\cdot6y\cdot x$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $5x\cdot(-2)\cdot xy^2=(5\cdot(-2))\cdot x^2y^2=-10x^2y^2$. Hệ số $-10$, bậc $2+2=4$.
+
+b) $\dfrac12x^2\cdot6y\cdot x=\left(\dfrac12\cdot6\right)\cdot x^3y=3x^3y$. Hệ số $3$, bậc $3+1=4$.
+
+**Đáp số.** a) $-10x^2y^2$, hệ số $-10$, bậc $4$; b) $3x^3y$, hệ số $3$, bậc $4$.
+
+--- Bài 3: ĐỀ BÀI ---
+Tính:
+
+a) $6xy^2+(-2xy^2)+xy^2$.
+
+b) $9x^3y-4x^3y-x^3y$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $(6-2+1)xy^2=5xy^2$.
+
+b) $(9-4-1)x^3y=4x^3y$.
+
+**Đáp số.** a) $5xy^2$; b) $4x^3y$.
+
+--- Bài 4: ĐỀ BÀI ---
+Hãy nhớ lại lũy thừa ở lớp 7: $x^m\cdot x^n=x^{m+n}$.
+
+a) Viết $2^3\cdot2^4$ thành một lũy thừa của $2$ rồi tính giá trị.
+
+b) Viết $x^3\cdot x^4$ thành một lũy thừa của $x$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $2^3\cdot2^4=2^{3+4}=2^7=128$. (Thử lại: $8\cdot16=128$.)
+
+b) $x^3\cdot x^4=x^{3+4}=x^7$.
+
+**Đáp số.** a) $2^7=128$; b) $x^7$.
+
+--- Bài 5: ĐỀ BÀI ---
+Cho đơn thức $-4x^3yz^2$. Hãy cho biết:
+
+a) hệ số của đơn thức;
+
+b) phần biến của đơn thức;
+
+c) bậc của đơn thức.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Hệ số là $-4$.
+
+b) Phần biến là $x^3yz^2$.
+
+c) Bậc là $3+1+2=6$.
+
+**Đáp số.** a) $-4$; b) $x^3yz^2$; c) $6$.
+
+--- Bài 6: ĐỀ BÀI ---
+Trong mỗi cặp sau, hai đơn thức có đồng dạng không? Vì sao?
+
+a) $3x^2y$ và $-5x^2y$.
+
+b) $2xy$ và $2xy^2$.
+
+c) $4ab$ và $ba$.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Có: cùng phần biến $x^2y$, hệ số $3$ và $-5$ khác $0$.
+
+b) Không: phần biến là $xy$ và $xy^2$, khác nhau.
+
+c) Có: $ba=ab$ có hệ số $1$, cùng phần biến $ab$ với $4ab$.
+
+**Đáp số.** a) có; b) không; c) có.
+
+--- Bài 7: ĐỀ BÀI ---
+Tìm lỗi sai trong lời giải của bạn Hà rồi sửa lại.
+
+a) $4x^2+3x^2=7x^4$.
+
+b) $(-2x)\cdot(3x^2)=-6x^2$.
+
+c) Bậc của đơn thức $5x^3y$ là $3$.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Sai ở phần biến: khi cộng chỉ cộng hệ số. Đúng: $4x^2+3x^2=7x^2$ (thử $x=2$: $16+12=28=7\cdot4$).
+
+b) Sai ở số mũ: $x\cdot x^2=x^3$. Đúng: $(-2x)(3x^2)=-6x^3$.
+
+c) Sai vì quên số mũ của $y$: $3+1=4$.
+
+**Đáp số.** a) $7x^2$; b) $-6x^3$; c) bậc $4$.
+
+--- Bài 8: ĐỀ BÀI ---
+Một sân chơi hình chữ nhật có chiều dài $3x$ m và chiều rộng $2x$ m.
+
+a) Viết diện tích sân dưới dạng đơn thức thu gọn và cho biết bậc của nó.
+
+b) Tính diện tích khi $x=5$.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) Diện tích là $3x\cdot2x=(3\cdot2)\cdot x^{1+1}=6x^2$ (m²). Bậc là $2$.
+
+b) Với $x=5$: $6\cdot5^2=6\cdot25=150$ (m²).
+
+**Đáp số.** a) $6x^2$ m², bậc $2$; b) $150$ m².
+
+--- Bài 9: ĐỀ BÀI ---
+Tìm đơn thức $M$ sao cho $M\cdot(-3xy^2)=6x^3y^4$. Sau đó tính giá trị của $M$ khi $x=2$, $y=-1$.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Hệ số của $M$ là $-2$ vì $(-2)\cdot(-3)=6$. Số mũ của $x$ là $3-1=2$. Số mũ của $y$ là $4-2=2$. Vậy $M=-2x^2y^2$.
+
+**Kiểm tra.** $(-2x^2y^2)\cdot(-3xy^2)=6x^3y^4$. Đúng.
+
+Với $x=2$, $y=-1$: $M=-2\cdot4\cdot1=-8$.
+
+**Đáp số.** $M=-2x^2y^2$; giá trị bằng $-8$.
+
+@@@ g10/approximations-errors
+(Bài học: Số gần đúng và sai số)
+
+--- Bài 1: ĐỀ BÀI ---
+Quy tròn $4\,863$ đến hàng chục và hàng trăm; quy tròn $2{,}71828$ đến hàng phần trăm và hàng phần nghìn.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$4\,863$: chữ số hàng đơn vị $3<5$ nên đến hàng chục là $4\,860$; chữ số hàng chục $6\ge5$ nên đến hàng trăm là $4\,900$. $2{,}71828$: chữ số hàng phần nghìn $8\ge5$ nên đến hàng phần trăm là $2{,}72$; chữ số hàng phần chục nghìn $2<5$ nên đến hàng phần nghìn là $2{,}718$.
+
+**Đáp số.** $4\,860$; $4\,900$; $2{,}72$; $2{,}718$.
+
+--- Bài 2: ĐỀ BÀI ---
+Biết $\sqrt3=1{,}7320508\ldots$ Lấy $\bar a=1{,}73$ làm số gần đúng của $\sqrt3$. Chứng tỏ $\Delta_{\bar a}<0{,}0021$ và tìm cận trên của sai số tương đối (dạng phần trăm, làm tròn đến hàng phần trăm).
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\Delta_{\bar a}=1{,}7320508\ldots-1{,}73=0{,}0020508\ldots<0{,}0021$. Do đó
+$$\delta_{\bar a}\le\dfrac{0{,}0021}{1{,}73}\approx0{,}0012=0{,}12\%.$$
+
+**Đáp số.** $\delta_{\bar a}\le0{,}12\%$.
+
+--- Bài 3: ĐỀ BÀI ---
+Số nào xấp xỉ $\sqrt2=1{,}41421356\ldots$ tốt hơn: $1{,}41$ hay $\dfrac{99}{70}$?
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\dfrac{99}{70}=1{,}4142857\ldots$ Ta có
+$$|\sqrt2-1{,}41|\approx0{,}0042,\qquad \left|\dfrac{99}{70}-\sqrt2\right|\approx0{,}000072.$$
+Sai số thứ hai nhỏ hơn rất nhiều.
+
+**Đáp số.** $\dfrac{99}{70}$ xấp xỉ $\sqrt2$ tốt hơn.
+
+--- Bài 4: ĐỀ BÀI ---
+Biết $\sqrt7=2{,}6457513\ldots$ và $\pi^2=9{,}8696044\ldots$ Viết số gần đúng của $\sqrt7$ với độ chính xác $0{,}001$ và của $\pi^2$ với độ chính xác $0{,}01$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$\sqrt7\approx2{,}646$ với sai số $\approx0{,}00025\le0{,}001$. $\pi^2\approx9{,}87$ với sai số $\approx0{,}0004\le0{,}01$.
+
+**Đáp số.** $\sqrt7\approx2{,}646$; $\pi^2\approx9{,}87$.
+
+--- Bài 5: ĐỀ BÀI ---
+Viết số quy tròn của mỗi số gần đúng: (a) $\bar a=2\,476\,154\pm2\,000$; (b) $\bar b=0{,}73914\pm0{,}004$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+(a) $2\,000$ không nhỏ hơn $1\,000$ nhưng nhỏ hơn $10\,000$, nên quy tròn đến hàng chục nghìn; chữ số hàng nghìn là $6\ge5$: $2\,480\,000$.
+
+(b) $0{,}004$ nhỏ hơn $0{,}01$ nhưng không nhỏ hơn $0{,}001$, nên quy tròn đến hàng phần trăm; chữ số hàng phần nghìn là $9\ge5$: $0{,}74$.
+
+**Đáp số.** (a) $2\,480\,000$; (b) $0{,}74$.
+
+--- Bài 6: ĐỀ BÀI ---
+Một thợ may đo tấm vải dài $6{,}4$ m với độ chính xác $0{,}05$ m. Một thợ xây đo bức tường dài $85$ m với độ chính xác $0{,}4$ m. Phép đo của ai chính xác hơn?
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Thợ may: $\delta_1\le\dfrac{0{,}05}{6{,}4}\approx0{,}78\%$. Thợ xây: $\delta_2\le\dfrac{0{,}4}{85}\approx0{,}47\%$.
+
+**Đáp số.** Phép đo của thợ xây chính xác hơn.
+
+--- Bài 7: ĐỀ BÀI ---
+Cho $\bar a=4{,}375$ là số gần đúng của $a$ với độ chính xác $d=0{,}02$. Mỗi khẳng định sau đúng hay sai?
+
+a) $a$ thuộc đoạn $[4{,}355; 4{,}395]$.
+b) Sai số tương đối của $\bar a$ không vượt quá $0{,}5\%$.
+c) Số quy tròn của $\bar a$ là $4{,}38$.
+d) Có thể $a=4{,}4$.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) **Đúng.** $4{,}375-0{,}02=4{,}355$ và $4{,}375+0{,}02=4{,}395$.
+
+b) **Đúng.** $\dfrac{0{,}02}{4{,}375}\approx0{,}46\%\le0{,}5\%$.
+
+c) **Sai.** $0{,}02$ không nhỏ hơn $0{,}01$ nhưng nhỏ hơn $0{,}1$, nên quy tròn đến hàng phần mười: $4{,}4$.
+
+d) **Sai.** $4{,}4-4{,}375=0{,}025>0{,}02$, nên $4{,}4$ nằm ngoài đoạn ở câu a).
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+--- Bài 8: ĐỀ BÀI ---
+Một sân hình chữ nhật có chiều dài $32{,}5\pm0{,}1$ m và chiều rộng $18{,}4\pm0{,}1$ m. Tính cận trên của sai số tương đối của chu vi, viết dưới dạng phần trăm và làm tròn đến hàng phần trăm.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Chu vi gần đúng $\bar P=2(32{,}5+18{,}4)=101{,}8$ m, độ chính xác $d=2(0{,}1+0{,}1)=0{,}4$ m. Do đó
+$$\delta\le\dfrac{0{,}4}{101{,}8}\approx0{,}39\%.$$
+
+**Đáp số.** $\delta\le0{,}39\%$.
+
+--- Bài 9: ĐỀ BÀI ---
+(Ôn tập bài [Tập hợp và các phép toán trên tập hợp](lesson:sets-and-set-operations)) Biết $\pi=3{,}14\pm0{,}002$.
+
+(a) Viết tập $I$ các giá trị có thể của $\pi$ theo thông tin này dưới dạng một đoạn. (b) Số $\dfrac{22}{7}$ có thuộc $I$ không? (c) Tìm $I\cap[3{,}141; 3{,}15]$.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+(a) $I=[3{,}138; 3{,}142]$.
+
+(b) $\dfrac{22}{7}=3{,}142857\ldots>3{,}142$, nên $\dfrac{22}{7}\notin I$.
+
+(c) Phần chung của $[3{,}138; 3{,}142]$ và $[3{,}141; 3{,}15]$ là $[3{,}141; 3{,}142]$.
+
+**Đáp số.** (a) $[3{,}138; 3{,}142]$; (b) không; (c) $[3{,}141; 3{,}142]$.
+
+--- Bài 10: ĐỀ BÀI ---
+Với sân hình chữ nhật ở bài trên ($32{,}5\pm0{,}1$ m và $18{,}4\pm0{,}1$ m), diện tích được ước lượng là $32{,}5\cdot18{,}4$. Tìm diện tích nhỏ nhất và lớn nhất có thể, một độ chính xác $d$ cho diện tích ước lượng, rồi viết số quy tròn của diện tích.
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Diện tích ước lượng $\bar S=32{,}5\cdot18{,}4=598$ m². Nhỏ nhất $32{,}4\cdot18{,}3=592{,}92$, lớn nhất $32{,}6\cdot18{,}5=603{,}1$. Hai khoảng cách là $598-592{,}92=5{,}08$ và $603{,}1-598=5{,}1$, nên lấy $d=5{,}1$. Vì $5{,}1$ không nhỏ hơn $1$ nhưng nhỏ hơn $10$, ta quy tròn $598$ đến hàng chục: $600$.
+
+**Đáp số.** $592{,}92\le S\le603{,}1$; $S=598\pm5{,}1$ (m²); số quy tròn là $600$ m².
+
+@@@ g10/binomial-theorem
+(Bài học: Nhị thức Newton)
+
+--- Bài 1: ĐỀ BÀI ---
+Khai triển $(x+1)^5$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Với $a=x$, $b=1$, mọi luỹ thừa của $b$ đều bằng $1$.
+
+**Đáp số.** $(x+1)^5=x^5+5x^4+10x^3+10x^2+5x+1$.
+
+--- Bài 2: ĐỀ BÀI ---
+Khai triển $(x-3)^4$.
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$(x-3)^4=x^4+4x^3(-3)+6x^2\cdot9+4x(-27)+81.$$
+
+**Đáp số.** $(x-3)^4=x^4-12x^3+54x^2-108x+81$.
+
+--- Bài 3: ĐỀ BÀI ---
+Tìm hệ số của $x^2$ trong khai triển $(3+x)^5$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$C_5^2\cdot3^3=10\cdot27=270$.
+
+**Đáp số.** $270$.
+
+--- Bài 4: ĐỀ BÀI ---
+Rút gọn biểu thức $(x+y)^4+(x-y)^4$.
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$(x+y)^4=x^4+4x^3y+6x^2y^2+4xy^3+y^4$ và $(x-y)^4=x^4-4x^3y+6x^2y^2-4xy^3+y^4$. Cộng lại, các số hạng $\pm4x^3y$, $\pm4xy^3$ triệt tiêu.
+
+**Đáp số.** $2x^4+12x^2y^2+2y^4$.
+
+--- Bài 5: ĐỀ BÀI ---
+Xét khai triển $(1-2x)^5$. Mỗi khẳng định sau đúng hay sai?
+
+a) Khai triển có $6$ số hạng.
+b) Hệ số của $x^2$ là $40$.
+c) Tổng các hệ số bằng $1$.
+d) Số hạng chứa $x^5$ là $32x^5$.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) **Đúng.** Số mũ $5$ cho $5+1=6$ số hạng.
+
+b) **Đúng.** $C_5^2(-2)^2=10\cdot4=40$.
+
+c) **Sai.** Thay $x=1$: $(1-2)^5=-1$.
+
+d) **Sai.** $C_5^5(-2)^5x^5=-32x^5$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+--- Bài 6: ĐỀ BÀI ---
+Tìm hệ số của $x^4$ trong khai triển $\left(x^2+\dfrac2x\right)^5$ (với $x\ne0$).
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$C_5^k(x^2)^{5-k}\left(\dfrac2x\right)^k=C_5^k2^kx^{10-3k}$. Ta cần $10-3k=4$, tức $k=2$: hệ số là $C_5^2\cdot2^2=10\cdot4=40$.
+
+**Đáp số.** $40$.
+
+--- Bài 7: ĐỀ BÀI ---
+Một máy lọc nước giá $10$ triệu đồng, mỗi năm giá trị của nó giảm $2\%$ so với năm trước. Dùng ba số hạng đầu của khai triển $(1-0{,}02)^5$ để ước lượng giá trị của máy sau $5$ năm.
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$0{,}98^5\approx1-5\cdot0{,}02+10\cdot0{,}02^2=1-0{,}1+0{,}004=0{,}904.$$
+Giá trị của máy khoảng $10\,000\,000\cdot0{,}904=9\,040\,000$ đồng. (Giá trị đúng là $9\,039\,207{,}968$ đồng, lệch chưa tới $800$ đồng.)
+
+**Đáp số.** Khoảng $9\,040\,000$ đồng.
+
+--- Bài 8: ĐỀ BÀI ---
+(Ôn tập bài [Hoán vị, chỉnh hợp và tổ hợp](lesson:permutations-combinations)) Cho tập $X=\{1; 2; 3; 4; 5\}$.
+
+(a) Với mỗi $k=0, 1, \dots, 5$, tập $X$ có bao nhiêu tập con gồm $k$ phần tử? (b) Dùng công thức khai triển để giải thích vì sao $X$ có tất cả $32$ tập con.
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+(a) $C_5^0=1$, $C_5^1=5$, $C_5^2=10$, $C_5^3=10$, $C_5^4=5$, $C_5^5=1$.
+
+(b) Thay $a=b=1$ vào khai triển $(a+b)^5$:
+$$C_5^0+C_5^1+\cdots+C_5^5=(1+1)^5=32.$$
+
+**Đáp số.** (a) $1, 5, 10, 10, 5, 1$; (b) $1+5+10+10+5+1=2^5=32$.
+
+--- Bài 9: ĐỀ BÀI ---
+Tìm hệ số của $x^2$ trong khai triển của $(1+x)(1+2x)^4$.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Trong $(1+2x)^4$: hệ số của $x$ là $C_4^1\cdot2=8$, của $x^2$ là $C_4^2\cdot2^2=24$. Trong tích, $x^2$ đến từ $1\cdot24x^2$ và $x\cdot8x$, nên hệ số là $24+8=32$.
+
+**Đáp số.** $32$.
+
+--- Bài 10: ĐỀ BÀI ---
+Không dùng máy tính, hãy so sánh $1{,}1^5$ với $1{,}6$.
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$1{,}1^5=1+5\cdot0{,}1+10\cdot0{,}01+10\cdot0{,}001+5\cdot0{,}0001+0{,}00001=1{,}61051.$$
+Ngay ba số hạng đầu đã cho $1+0{,}5+0{,}1=1{,}6$, và các số hạng còn lại đều dương.
+
+**Đáp số.** $1{,}1^5=1{,}61051>1{,}6$.
+
+@@@ g10/central-tendency
+(Bài học: Các số đặc trưng đo xu thế trung tâm)
+
+--- Bài 1: ĐỀ BÀI ---
+a) Tìm số trung bình cộng của $6, 8, 9, 10, 12$.
+
+b) Tìm trung vị của $3, 9, 4, 7, 1, 6$.
+--- Bài 1: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $\bar{x}=\dfrac{45}{5}=9$.
+
+b) Sắp xếp: $1, 3, 4, 6, 7, 9$; $M_e=\dfrac{4+6}{2}=5$.
+
+**Đáp số.** a) $9$; b) $5$.
+
+--- Bài 2: ĐỀ BÀI ---
+a) Tìm mốt của $2, 3, 3, 5, 5, 5, 7$.
+
+b) Một cửa hàng ghi cỡ áo bán được trong ngày: M, L, S, M, XL, M, L, M, S, L. Tìm mốt. Có thể tính số trung bình cộng của dữ liệu này không?
+--- Bài 2: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $5$ xuất hiện ba lần, nhiều nhất.
+
+b) Tần số: S: $2$, M: $4$, L: $3$, XL: $1$. Cỡ áo không phải là số nên không cộng và chia được.
+
+**Đáp số.** a) $M_o=5$; b) $M_o=\text{M}$; không tính được số trung bình cộng.
+
+--- Bài 3: ĐỀ BÀI ---
+Tìm $M_e$, $Q_1$, $Q_3$ của mỗi mẫu số liệu:
+
+a) $2, 4, 5, 7, 8, 10, 11, 13, 15$;
+
+b) $3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 20$.
+--- Bài 3: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) $n=9$, $M_e=8$. Nửa dưới $2, 4, 5, 7$: $Q_1=\dfrac{4+5}{2}=4{,}5$. Nửa trên $10, 11, 13, 15$: $Q_3=\dfrac{11+13}{2}=12$.
+
+b) $n=12$, $M_e=\dfrac{10+12}{2}=11$. Nửa dưới $3, 4, 6, 7, 9, 10$: $Q_1=6{,}5$. Nửa trên $12, 13, 15, 16, 18, 20$: $Q_3=15{,}5$.
+
+**Đáp số.** a) $M_e=8$, $Q_1=4{,}5$, $Q_3=12$; b) $M_e=11$, $Q_1=6{,}5$, $Q_3=15{,}5$.
+
+--- Bài 4: ĐỀ BÀI ---
+Bảng cho số quyển sách đã đọc trong tháng của $22$ học sinh. Tìm $\bar{x}$ (làm tròn đến hàng phần trăm), $M_e$ và mốt.
+
+| Số sách | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| Số học sinh | 3 | 5 | 8 | 4 | 2 |
+--- Bài 4: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\bar{x}=\frac{3+10+24+16+10}{22}=\frac{63}{22}\approx2{,}86.$$
+Tần số tích luỹ $3, 8, 16, 20, 22$: giá trị thứ $11$ và $12$ đều bằng $3$, nên $M_e=3$. Tần số lớn nhất là $8$, ứng với $3$ quyển.
+
+**Đáp số.** $\bar{x}\approx2{,}86$; $M_e=3$; $M_o=3$.
+
+--- Bài 5: ĐỀ BÀI ---
+Cho mẫu số liệu $5, 7, 7, 8, 9, 10, 10, 10, 12$. Mỗi khẳng định sau đúng hay sai?
+
+a) Số trung bình cộng bằng $8$.
+
+b) Trung vị bằng $9$.
+
+c) Tứ phân vị thứ nhất $Q_1=7$.
+
+d) Nếu thêm giá trị $30$ vào mẫu thì trung vị thay đổi nhiều hơn số trung bình cộng.
+--- Bài 5: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+a) **Sai:** $\bar{x}=\dfrac{78}{9}\approx8{,}67$.
+
+b) **Đúng:** giá trị thứ $5$ là $9$.
+
+c) **Đúng:** nửa dưới $5, 7, 7, 8$ cho $Q_1=\dfrac{7+7}{2}=7$.
+
+d) **Sai:** sau khi thêm $30$, $M_e=\dfrac{9+10}{2}=9{,}5$ (tăng $0{,}5$), còn $\bar{x}=\dfrac{108}{10}=10{,}8$ (tăng khoảng $2{,}13$).
+
+**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
+
+--- Bài 6: ĐỀ BÀI ---
+Một lớp có $20$ bạn nữ với điểm trung bình $7{,}0$ và $10$ bạn nam với điểm trung bình $8{,}5$. Tính điểm trung bình của cả lớp.
+--- Bài 6: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\bar{x}=\frac{20\cdot7+10\cdot8{,}5}{30}=\frac{140+85}{30}=\frac{225}{30}=7{,}5.$$
+Không được lấy $\dfrac{7+8{,}5}{2}=7{,}75$, vì hai nhóm có số người khác nhau.
+
+**Đáp số.** $7{,}5$.
+
+--- Bài 7: ĐỀ BÀI ---
+Lương tháng (triệu đồng) của bảy nhân viên một cửa hàng nhỏ là $12, 13, 14, 15, 16, 17, 90$ (số $90$ là lương của chủ cửa hàng). Tính số trung bình cộng và trung vị. Một bạn muốn biết "một nhân viên ở đây thường được trả bao nhiêu"; nên dùng số nào?
+--- Bài 7: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\bar{x}=\frac{177}{7}\approx25{,}29,\qquad M_e=15.$$
+Sáu trong bảy người nhận dưới $18$ triệu đồng, nên $25{,}29$ không đại diện cho ai.
+
+**Đáp số.** $\bar{x}\approx25{,}29$ triệu đồng, $M_e=15$ triệu đồng; nên dùng trung vị.
+
+--- Bài 8: ĐỀ BÀI ---
+Bảy số có trung bình cộng bằng $10$. Bỏ đi một số thì trung bình cộng của sáu số còn lại bằng $9$. Số bị bỏ đi là số nào?
+--- Bài 8: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Tổng bảy số là $7\cdot10=70$, tổng sáu số là $6\cdot9=54$, nên số bị bỏ là $70-54=16$.
+
+**Đáp số.** $16$.
+
+--- Bài 9: ĐỀ BÀI ---
+Một mẫu gồm $5$ số nguyên dương có số trung bình cộng bằng $6$, trung vị bằng $5$, mốt duy nhất bằng $3$ và giá trị lớn nhất bằng $11$. Tìm mẫu số liệu đó.
+--- Bài 9: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+Tổng bằng $5\cdot6=30$. Vì $3<5=c$, số $3$ chỉ có thể là $a$, $b$, nên $a=b=3$. Khi đó
+$$d=30-3-3-5-11=8.$$
+Mẫu $3, 3, 5, 8, 11$ có mỗi giá trị khác $3$ xuất hiện một lần, nên mốt duy nhất là $3$.
+
+**Đáp số.** $3, 3, 5, 8, 11$.
+
+--- Bài 10: ĐỀ BÀI ---
+(Ôn lại [Bất phương trình bậc nhất hai ẩn](lesson:linear-inequality-two-variables).) Bình đã có bốn bài kiểm tra được $6, 7, 8, 7$. Còn hai bài nữa, được $x$ và $y$ điểm. Viết điều kiện để điểm trung bình của sáu bài ít nhất là $7{,}5$. Cặp điểm $(8; 9)$ và $(10; 6)$ có thoả mãn không?
+--- Bài 10: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---
+$$\frac{6+7+8+7+x+y}{6}\ge7{,}5\iff 28+x+y\ge45\iff x+y\ge17.$$
+Với $(8; 9)$: $17\ge17$, đúng. Với $(10; 6)$: $16\ge17$, sai.
+
+**Đáp số.** $x+y\ge17$ (với $0\le x, y\le10$); $(8; 9)$ thoả mãn, $(10; 6)$ không thoả mãn.
