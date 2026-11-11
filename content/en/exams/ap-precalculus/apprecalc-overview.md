@@ -48,7 +48,7 @@ Each free-response question is worth 6 points and has a fixed type:
 3. **Modeling a periodic context** (no calculator): building a sinusoidal model from a description or a graph and interpreting it.
 4. **Symbolic manipulations** (no calculator): rewriting expressions with exponent, logarithm and trigonometric identities, and solving equations.
 
-The lesson "The four free-response types and how to score" in this section will show how each type is marked.
+The lesson [The four free-response types and how to score](lesson:apprecalc-frq-strategies) shows how each type is marked.
 
 ## Three sample questions
 

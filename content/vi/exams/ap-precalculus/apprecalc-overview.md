@@ -48,7 +48,7 @@ Mỗi câu tự luận được 6 điểm và có dạng cố định:
 3. **Mô hình hoá tình huống tuần hoàn (Modeling a periodic context)** (không máy tính): lập mô hình hình sin từ một mô tả hoặc đồ thị và giải thích ý nghĩa.
 4. **Biến đổi biểu thức (Symbolic manipulations)** (không máy tính): biến đổi biểu thức bằng các quy tắc luỹ thừa, logarit và đẳng thức lượng giác, và giải phương trình.
 
-Bài "Bốn dạng câu tự luận và cách lấy điểm" trong mục này sẽ cho thấy mỗi dạng được chấm như thế nào.
+Bài [Bốn dạng câu tự luận và cách đạt điểm](lesson:apprecalc-frq-strategies) cho thấy mỗi dạng được chấm như thế nào.
 
 ## Ba câu hỏi mẫu
 
