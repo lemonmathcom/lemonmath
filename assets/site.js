@@ -65,16 +65,22 @@
     });
     fitOpts();
   };
-  /* answer options that do not fit side by side drop to one per row */
+  /* answer options that do not fit side by side: four per row -> two per row -> one per row */
+  var optsOverflow = function (g) {
+    var kids = g.children, i, c, w;
+    for (i = 0; i < kids.length; i++) {
+      c = kids[i].firstElementChild && kids[i].firstElementChild.tagName === 'LABEL' ? kids[i].firstElementChild : kids[i];
+      w = kids[i].clientWidth;
+      if (w && (c.scrollWidth > w + 1 || kids[i].scrollWidth > w + 1)) return true;
+    }
+    return false;
+  };
   var fitOpts = function () {
     $$('.mc-opts, .qz-opts').forEach(function (g) {
-      g.classList.remove('stack');
-      var kids = g.children, i, c, w;
-      for (i = 0; i < kids.length; i++) {
-        c = kids[i].firstElementChild && kids[i].firstElementChild.tagName === 'LABEL' ? kids[i].firstElementChild : kids[i];
-        w = kids[i].clientWidth;
-        if (w && (c.scrollWidth > w + 1 || kids[i].scrollWidth > w + 1)) { g.classList.add('stack'); break; }
-      }
+      g.classList.remove('stack', 'half');
+      if (!optsOverflow(g)) return;
+      if (g.classList.contains('cols-4')) { g.classList.add('half'); if (!optsOverflow(g)) return; g.classList.remove('half'); }
+      g.classList.add('stack');
     });
   };
   if ($('.main .katex') || $('.mc-opts, .qz-opts')) {

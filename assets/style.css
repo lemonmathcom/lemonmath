@@ -282,7 +282,7 @@ a.card:hover { transform: translateY(-3px); }
 /* multiple-choice options laid out like the national exam paper: 4, 2 or 1 per row */
 .mc-opts { display: grid; gap: 4px 14px; margin: .3em 0 .8em; }
 .mc-opts span { padding: 2px 0; }
-.mc-opts.cols-4 span, .qz-opts.cols-4 li { white-space: nowrap; }
+.mc-opts.cols-4 span, .qz-opts.cols-4 li, .qz-opts.cols-4 li label { white-space: nowrap; }
 .mc-opts b, .qz-opts b { color: var(--lvl-ink, inherit); }
 .cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -555,5 +555,5 @@ pre { max-width: 100%; overflow-x: auto; padding: 12px 14px; border: 2px solid v
 body.menu-open .to-top { display: none; }
 @media print { .to-top { display: none !important; } }
 .qz-opts .katex, .mc-opts .katex { white-space: nowrap; }
-@media screen { .mc-opts.stack, .qz-opts.stack { grid-template-columns: 1fr !important; } }
+@media screen { .mc-opts.half, .qz-opts.half { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; } .mc-opts.stack, .qz-opts.stack { grid-template-columns: 1fr !important; } }
 @media (max-width: 760px) { .to-top { width: 44px; height: 44px; right: 10px; } }
