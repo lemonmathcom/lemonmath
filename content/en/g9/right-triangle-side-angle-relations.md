@@ -161,7 +161,11 @@ Triangle $ABC$ has a right angle at $A$, $BC=8$ cm and $\angle C=30^\circ$. Find
 2. $AC$ is adjacent to angle $C$.
 
 ::solution
-In the right-angled triangle $ABC$, $AB=BC\sin C=8\sin30^\circ=4$ (cm) and $AC=BC\cos C=8\cos30^\circ=4\sqrt3\approx6.93$ (cm).
+Consider triangle $ABC$ with a right angle at $A$. The side $AB$ is opposite the angle $C$ and the side $AC$ is adjacent to it. Using the relations between the sides and angles of a right-angled triangle, we have
+$$AB=BC\cdot\sin C=8\cdot\sin30^\circ=8\cdot\frac12=4\ \text{(cm)};$$
+$$AC=BC\cdot\cos C=8\cdot\cos30^\circ=8\cdot\frac{\sqrt3}{2}=4\sqrt3\approx6.93\ \text{(cm)}.$$
+
+So $AB=4$ cm and $AC=4\sqrt3\approx6.93$ cm.
 
 **Answer.** $AB=4$ cm, $AC=4\sqrt3\approx6.93$ cm.
 :::
@@ -177,7 +181,15 @@ Triangle $ABC$ has a right angle at $A$, $AC=10$ cm and $\angle C=42^\circ$. Fin
 2. $BC=\dfrac{AC}{\cos C}$.
 
 ::solution
-In the right-angled triangle $ABC$, $AB=AC\tan C=10\tan42^\circ\approx9.00$ (cm). Since $AC=BC\cos C$, $BC=\dfrac{AC}{\cos C}=\dfrac{10}{\cos42^\circ}\approx13.46$ (cm).
+Consider triangle $ABC$ with a right angle at $A$. For the angle $C$, the side $AB$ is opposite and the side $AC$ is adjacent.
+
+We have $AB=AC\cdot\tan C$, so
+$$AB=10\cdot\tan42^\circ\approx9.00\ \text{(cm)}.$$
+
+We have $AC=BC\cdot\cos C$, so
+$$BC=\frac{AC}{\cos C}=\frac{10}{\cos42^\circ}\approx13.46\ \text{(cm)}.$$
+
+So $AB\approx9.00$ cm and $BC\approx13.46$ cm.
 
 **Answer.** $AB\approx9.00$ cm, $BC\approx13.46$ cm.
 :::
@@ -193,9 +205,19 @@ Solve triangle $ABC$ with a right angle at $A$, given $AB=9$ cm and $BC=15$ cm (
 2. Find angle $C$, then angle $B=90^\circ-\angle C$.
 
 ::solution
-In the right-angled triangle $ABC$, $AC=\sqrt{BC^2-AB^2}=\sqrt{225-81}=12$ (cm) (Pythagoras' theorem). We have $\sin C=\dfrac{AB}{BC}=\dfrac9{15}=0.6$, so $\angle C\approx37^\circ$. Hence $\angle B\approx90^\circ-37^\circ=53^\circ$.
+Solving a right-angled triangle means finding all the remaining sides and angles: here $AC$, $\widehat C$ and $\widehat B$.
 
-**Answer.** $AC=12$ cm, $\angle C\approx37^\circ$, $\angle B\approx53^\circ$.
+Consider triangle $ABC$ with a right angle at $A$. By Pythagoras' theorem, we have
+$$AC^2=BC^2-AB^2=15^2-9^2=225-81=144,$$
+so $AC=12$ cm.
+
+We have $\sin C=\dfrac{AB}{BC}=\dfrac{9}{15}=0.6$, so $\widehat C\approx37^\circ$.
+
+Since $\widehat B+\widehat C=90^\circ$, we have $\widehat B\approx90^\circ-37^\circ=53^\circ$.
+
+So $AC=12$ cm, $\widehat C\approx37^\circ$, $\widehat B\approx53^\circ$.
+
+**Answer.** $AC=12$ cm, $\widehat{C}\approx37^\circ$, $\widehat{B}\approx53^\circ$.
 :::
 
 :::exercise
@@ -209,9 +231,19 @@ Solve triangle $ABC$ with a right angle at $A$, given $AC=4$ cm and $\angle B=50
 2. $AB=AC\cot B=\dfrac{AC}{\tan B}$; $BC=\dfrac{AC}{\sin B}$.
 
 ::solution
-In the right-angled triangle $ABC$, $\angle C=90^\circ-50^\circ=40^\circ$. Since $AC=AB\tan B$, $AB=\dfrac{AC}{\tan B}=\dfrac{4}{\tan50^\circ}\approx3.36$ (cm). Since $AC=BC\sin B$, $BC=\dfrac{AC}{\sin B}=\dfrac{4}{\sin50^\circ}\approx5.22$ (cm).
+Consider triangle $ABC$ with a right angle at $A$. We need to find $\widehat C$, $AB$ and $BC$.
 
-**Answer.** $\angle C=40^\circ$, $AB\approx3.36$ cm, $BC\approx5.22$ cm.
+Since $\widehat B+\widehat C=90^\circ$, we have $\widehat C=90^\circ-50^\circ=40^\circ$.
+
+For the angle $B$, the side $AC$ is opposite and the side $AB$ is adjacent. We have $AC=AB\cdot\tan B$, so
+$$AB=\frac{AC}{\tan B}=\frac{4}{\tan50^\circ}\approx3.36\ \text{(cm)}.$$
+
+We have $AC=BC\cdot\sin B$, so
+$$BC=\frac{AC}{\sin B}=\frac{4}{\sin50^\circ}\approx5.22\ \text{(cm)}.$$
+
+So $\widehat C=40^\circ$, $AB\approx3.36$ cm, $BC\approx5.22$ cm.
+
+**Answer.** $\widehat{C}=40^\circ$, $AB\approx3.36$ cm, $BC\approx5.22$ cm.
 :::
 
 :::exercise
@@ -225,7 +257,15 @@ Triangle $ABC$ has a right angle at $A$, $AB=2\sqrt3$ cm and $\angle B=60^\circ$
 2. $BC=\dfrac{AB}{\cos B}$.
 
 ::solution
-In the right-angled triangle $ABC$, $AC=AB\tan B=2\sqrt3\cdot\sqrt3=6$ (cm). Since $AB=BC\cos B$, $BC=\dfrac{AB}{\cos B}=\dfrac{2\sqrt3}{1/2}=4\sqrt3$ (cm).
+Consider triangle $ABC$ with a right angle at $A$. For the angle $B$, the side $AC$ is opposite and the side $AB$ is adjacent.
+
+We have
+$$AC=AB\cdot\tan B=2\sqrt3\cdot\tan60^\circ=2\sqrt3\cdot\sqrt3=6\ \text{(cm)}.$$
+
+We have $AB=BC\cdot\cos B$, so
+$$BC=\frac{AB}{\cos60^\circ}=\frac{2\sqrt3}{\frac12}=4\sqrt3\ \text{(cm)}.$$
+
+So $AC=6$ cm and $BC=4\sqrt3$ cm.
 
 **Answer.** $AC=6$ cm, $BC=4\sqrt3$ cm.
 :::
@@ -241,7 +281,15 @@ A $6$ m ladder leans against a wall and makes an angle of $70^\circ$ with the gr
 2. Height $=6\sin70^\circ$.
 
 ::solution
-The ladder, the wall and the ground form a right-angled triangle whose hypotenuse is the $6$ m ladder. The distance from the foot of the ladder to the wall is $6\cos70^\circ\approx2.05$ (m). The height of the top of the ladder is $6\sin70^\circ\approx5.64$ (m).
+Let $A$ be the top of the ladder (touching the wall), $B$ its foot and $C$ the foot of the wall. Then triangle $ABC$ has a right angle at $C$, hypotenuse $AB=6$ m and $\widehat{ABC}=70^\circ$.
+
+The distance from the foot of the ladder to the wall is
+$$BC=AB\cdot\cos70^\circ=6\cos70^\circ\approx2.05\ \text{(m)}.$$
+
+The height of the top of the ladder is
+$$AC=AB\cdot\sin70^\circ=6\sin70^\circ\approx5.64\ \text{(m)}.$$
+
+So the foot of the ladder is about $2.05$ m from the wall and its top is about $5.64$ m high.
 
 **Answer.** About $2.05$ m and $5.64$ m.
 :::
@@ -257,7 +305,14 @@ From the top of a lighthouse $40$ m above the sea, the keeper sees a boat at an 
 2. Distance $=\dfrac{40}{\tan12^\circ}$.
 
 ::solution
-Let $d$ (m) be the distance from the boat to the foot of the lighthouse. The angle between the line of sight and the sea is $12^\circ$ (alternate angles). In the right-angled triangle formed by the lighthouse, the sea and the line of sight, $40=d\tan12^\circ$, so $d=\dfrac{40}{\tan12^\circ}\approx188$ (m).
+Let $A$ be the top of the lighthouse, $H$ its foot (at sea level) and $B$ the position of the boat. Then triangle $AHB$ has a right angle at $H$, with $AH=40$ m.
+
+The angle of depression $12^\circ$ is the angle between the line of sight $AB$ and the horizontal through $A$. Since the horizontal through $A$ is parallel to the sea surface $HB$, we have $\widehat{ABH}=12^\circ$ (alternate angles).
+
+Let $d=HB$ (m). In triangle $AHB$, we have $AH=HB\cdot\tan B$, that is $40=d\tan12^\circ$. Hence
+$$d=\frac{40}{\tan12^\circ}\approx188\ \text{(m)}.$$
+
+So the boat is about $188$ m from the foot of the lighthouse.
 
 **Answer.** About $188$ m.
 :::
@@ -273,7 +328,12 @@ When the sun's rays make an angle of $52^\circ$ with the ground, a tree casts a 
 2. Height $=9\tan52^\circ$.
 
 ::solution
-The tree, its shadow and the sun's ray form a right-angled triangle. The height of the tree is $9\tan52^\circ\approx11.5$ (m).
+Let $A$ be the top of the tree, $H$ its foot and $B$ the end of its shadow on the ground. Then triangle $AHB$ has a right angle at $H$, with $HB=9$ m, and the angle between the sun's rays and the ground is $\widehat{ABH}=52^\circ$.
+
+In triangle $AHB$, we have
+$$AH=HB\cdot\tan B=9\tan52^\circ\approx11.5\ \text{(m)}.$$
+
+So the tree is about $11.5$ m tall.
 
 **Answer.** About $11.5$ m.
 :::
@@ -296,11 +356,24 @@ c) Hà lets out more string until it is $60$ m long, keeping the same angle. How
 3. The rise: $(60-50)\sin38^\circ$.
 
 ::solution
-a) The height of the kite above Hà's hand is $50\sin38^\circ\approx30.78$ (m). Hence its height above the ground is about $30.78+1.2\approx32.0$ (m).
+Let $T$ be Hà's hand holding the string, $D$ the kite and $K$ the point at the height of Hà's hand directly below the kite. Then triangle $TKD$ has a right angle at $K$, hypotenuse $TD=50$ m and $\widehat{DTK}=38^\circ$.
 
-b) The horizontal distance is $50\cos38^\circ\approx39.4$ (m).
+a) The height of the kite above Hà's hand is
+$$DK=TD\cdot\sin38^\circ=50\sin38^\circ\approx30.78\ \text{(m)}.$$
 
-c) The kite rises by $60\sin38^\circ-50\sin38^\circ=10\sin38^\circ\approx6.2$ (m).
+Hà's hand is $1.2$ m above the ground, so the height of the kite above the ground is about $30.78+1.2\approx32.0$ (m).
+
+So the kite is about $32.0$ m above the ground.
+
+b) The horizontal distance from Hà's hand to the point directly below the kite is
+$$TK=TD\cdot\cos38^\circ=50\cos38^\circ\approx39.4\ \text{(m)}.$$
+
+So this distance is about $39.4$ m.
+
+c) With a $60$ m string at the same angle, the height of the kite above Hà's hand is $60\sin38^\circ$ (m). The kite rises by
+$$60\sin38^\circ-50\sin38^\circ=10\sin38^\circ\approx6.2\ \text{(m)}.$$
+
+So the kite goes about $6.2$ m higher.
 
 **Answer.** a) $32.0$ m; b) $39.4$ m; c) $6.2$ m.
 :::
@@ -316,7 +389,21 @@ Two friends stand on the same straight line through the foot of a building, on t
 2. Form the equation $h\sqrt3-h=20$ and solve it.
 
 ::solution
-Let $h$ (m) be the height of the building ($h>0$). The distances from the two friends to the foot of the building are $h\cot45^\circ=h$ and $h\cot30^\circ=h\sqrt3$. From the question, $h\sqrt3-h=20$. Hence $h=\dfrac{20}{\sqrt3-1}=\dfrac{20\left(\sqrt3+1\right)}{2}=10\left(\sqrt3+1\right)\approx27.32$ (m) (which satisfies the condition).
+Let $h$ (m) be the height of the building ($h>0$), $H$ its foot and $A$ its top; let $M$ and $N$ be the positions of the nearer and the farther friend.
+
+Consider triangle $AHM$ with a right angle at $H$ and $\widehat{AMH}=45^\circ$. We have $HM=AH\cdot\cot45^\circ=h$.
+
+Consider triangle $AHN$ with a right angle at $H$ and $\widehat{ANH}=30^\circ$. We have $HN=AH\cdot\cot30^\circ=h\sqrt3$.
+
+The two friends are on the same side and $20$ m apart, so $HN-HM=20$, that is
+$$h\sqrt3-h=20.$$
+
+It follows that $h\left(\sqrt3-1\right)=20$, so
+$$h=\frac{20}{\sqrt3-1}=\frac{20\left(\sqrt3+1\right)}{\left(\sqrt3-1\right)\left(\sqrt3+1\right)}=\frac{20\left(\sqrt3+1\right)}{2}=10\left(\sqrt3+1\right)\approx27.32.$$
+
+This value satisfies the condition $h>0$.
+
+So the building is $10\left(\sqrt3+1\right)$ m tall, about $27.32$ m.
 
 **Answer.** $10\left(\sqrt3+1\right)\approx27.32$ m.
 :::

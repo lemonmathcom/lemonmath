@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Nâng cấp lời giải bài tập theo chuẩn 2e (trình bày chi tiết như SGK).
 
-  python3 tools/qa/upgrade.py export g9/cube-roots [g9/...]     in đề + lời giải hiện tại (bản Việt) của từng bài tập
+  python3 tools/qa/upgrade.py export [--weak] g9/cube-roots [...]  in đề + lời giải hiện tại (bản Việt); --weak: chỉ bài còn vắn tắt
   python3 tools/qa/upgrade.py apply <file-nộp-về> [...]         ghép lời giải mới vào content/vi và content/en
   python3 tools/qa/upgrade.py jobs                              tạo lại giao-viec/nang-cap/*.txt cho các tài khoản
 
@@ -23,13 +23,19 @@ def split_box(body):
     q_end = h.start() if h else (m.start() if m else len(body))
     return body[:q_end], (body[h.start():m.start()] if h and m else ''), (body[m.end():] if m else ''), m
 
-def export(rels, out=sys.stdout):
+W = lambda t: len(re.findall(r'\w+', re.sub(r'\$[^$]*\$', ' M ', t)))
+def weak(q, sol):
+    s2 = re.sub(r'\*\*Đáp số\.\*\*.*', '', sol, flags=re.S)
+    return W(s2) < 25 or not re.search(r'\bVậy\b', s2) or bool(re.search(r'\(a\)[^\n]*\(b\)', q + s2)) or bool(re.search(r'\ba\)[^\n]+\bb\)', s2))
+
+def export(rels, out=sys.stdout, only_weak=False):
     for rel in rels:
         s = open(os.path.join(ROOT, 'content', 'vi', rel + '.md'), encoding='utf-8').read()
         title = re.search(r'^title:\s*(.*)$', s, re.M).group(1)
         out.write('\n@@@ %s\n(Bài học: %s)\n' % (rel, title))
         for k, m in enumerate(BOX.finditer(s), 1):
             q, hint, sol, _ = split_box(m.group(2))
+            if only_weak and not weak(q, sol): continue
             out.write('\n--- Bài %d: ĐỀ BÀI ---\n%s\n--- Bài %d: LỜI GIẢI HIỆN TẠI (còn vắn tắt) ---\n%s\n' % (k, q.strip(), k, sol.strip()))
 
 def apply(files):
@@ -141,7 +147,7 @@ def jobs():
 
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else ''
-    if cmd == 'export': export(sys.argv[2:])
+    if cmd == 'export': export([a for a in sys.argv[2:] if a != '--weak'], only_weak='--weak' in sys.argv)
     elif cmd == 'apply': apply(sys.argv[2:])
     elif cmd == 'jobs': jobs()
     else: print(__doc__)

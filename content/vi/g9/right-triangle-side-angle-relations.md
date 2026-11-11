@@ -161,7 +161,11 @@ Cho tam giác $ABC$ vuông tại $A$ có $BC=8$ cm, $\widehat{C}=30^\circ$. Tín
 2. $AC$ kề góc $C$.
 
 ::solution
-Xét tam giác $ABC$ vuông tại $A$, ta có $AB=BC\sin C=8\sin30^\circ=4$ (cm) và $AC=BC\cos C=8\cos30^\circ=4\sqrt3\approx6{,}93$ (cm).
+Xét tam giác $ABC$ vuông tại $A$. Cạnh $AB$ đối diện góc $C$, cạnh $AC$ kề góc $C$. Áp dụng hệ thức giữa cạnh và góc trong tam giác vuông, ta có
+$$AB=BC\cdot\sin C=8\cdot\sin30^\circ=8\cdot\frac12=4\ \text{(cm)};$$
+$$AC=BC\cdot\cos C=8\cdot\cos30^\circ=8\cdot\frac{\sqrt3}{2}=4\sqrt3\approx6{,}93\ \text{(cm)}.$$
+
+Vậy $AB=4$ cm và $AC=4\sqrt3\approx6{,}93$ cm.
 
 **Đáp số.** $AB=4$ cm, $AC=4\sqrt3\approx6{,}93$ cm.
 :::
@@ -177,7 +181,15 @@ Cho tam giác $ABC$ vuông tại $A$ có $AC=10$ cm, $\widehat{C}=42^\circ$. Tí
 2. $BC=\dfrac{AC}{\cos C}$.
 
 ::solution
-Xét tam giác $ABC$ vuông tại $A$, ta có $AB=AC\tan C=10\tan42^\circ\approx9{,}00$ (cm). Vì $AC=BC\cos C$ nên $BC=\dfrac{AC}{\cos C}=\dfrac{10}{\cos42^\circ}\approx13{,}46$ (cm).
+Xét tam giác $ABC$ vuông tại $A$. Đối với góc $C$, cạnh $AB$ là cạnh đối, cạnh $AC$ là cạnh kề.
+
+Ta có $AB=AC\cdot\tan C$, nên
+$$AB=10\cdot\tan42^\circ\approx9{,}00\ \text{(cm)}.$$
+
+Ta có $AC=BC\cdot\cos C$, suy ra
+$$BC=\frac{AC}{\cos C}=\frac{10}{\cos42^\circ}\approx13{,}46\ \text{(cm)}.$$
+
+Vậy $AB\approx9{,}00$ cm và $BC\approx13{,}46$ cm.
 
 **Đáp số.** $AB\approx9{,}00$ cm, $BC\approx13{,}46$ cm.
 :::
@@ -193,7 +205,17 @@ Giải tam giác $ABC$ vuông tại $A$, biết $AB=9$ cm, $BC=15$ cm (góc làm
 2. Tính góc $C$, rồi góc $B=90^\circ-\widehat C$.
 
 ::solution
-Xét tam giác $ABC$ vuông tại $A$, ta có $AC=\sqrt{BC^2-AB^2}=\sqrt{225-81}=12$ (cm) (định lí Pythagore). Ta có $\sin C=\dfrac{AB}{BC}=\dfrac9{15}=0{,}6$, suy ra $\widehat{C}\approx37^\circ$. Do đó $\widehat{B}\approx90^\circ-37^\circ=53^\circ$.
+Giải tam giác vuông là tìm tất cả các cạnh và góc còn lại: ở đây là $AC$, $\widehat C$ và $\widehat B$.
+
+Xét tam giác $ABC$ vuông tại $A$. Theo định lí Pythagore, ta có
+$$AC^2=BC^2-AB^2=15^2-9^2=225-81=144,$$
+suy ra $AC=12$ cm.
+
+Ta có $\sin C=\dfrac{AB}{BC}=\dfrac{9}{15}=0{,}6$, suy ra $\widehat C\approx37^\circ$.
+
+Vì $\widehat B+\widehat C=90^\circ$ nên $\widehat B\approx90^\circ-37^\circ=53^\circ$.
+
+Vậy $AC=12$ cm, $\widehat C\approx37^\circ$, $\widehat B\approx53^\circ$.
 
 **Đáp số.** $AC=12$ cm, $\widehat{C}\approx37^\circ$, $\widehat{B}\approx53^\circ$.
 :::
@@ -209,7 +231,17 @@ Giải tam giác $ABC$ vuông tại $A$, biết $AC=4$ cm, $\widehat{B}=50^\circ
 2. $AB=AC\cot B=\dfrac{AC}{\tan B}$; $BC=\dfrac{AC}{\sin B}$.
 
 ::solution
-Xét tam giác $ABC$ vuông tại $A$, ta có $\widehat{C}=90^\circ-50^\circ=40^\circ$. Vì $AC=AB\tan B$ nên $AB=\dfrac{AC}{\tan B}=\dfrac{4}{\tan50^\circ}\approx3{,}36$ (cm). Vì $AC=BC\sin B$ nên $BC=\dfrac{AC}{\sin B}=\dfrac{4}{\sin50^\circ}\approx5{,}22$ (cm).
+Xét tam giác $ABC$ vuông tại $A$. Ta cần tìm $\widehat C$, $AB$ và $BC$.
+
+Vì $\widehat B+\widehat C=90^\circ$ nên $\widehat C=90^\circ-50^\circ=40^\circ$.
+
+Đối với góc $B$, cạnh $AC$ là cạnh đối, cạnh $AB$ là cạnh kề. Ta có $AC=AB\cdot\tan B$, suy ra
+$$AB=\frac{AC}{\tan B}=\frac{4}{\tan50^\circ}\approx3{,}36\ \text{(cm)}.$$
+
+Ta có $AC=BC\cdot\sin B$, suy ra
+$$BC=\frac{AC}{\sin B}=\frac{4}{\sin50^\circ}\approx5{,}22\ \text{(cm)}.$$
+
+Vậy $\widehat C=40^\circ$, $AB\approx3{,}36$ cm, $BC\approx5{,}22$ cm.
 
 **Đáp số.** $\widehat{C}=40^\circ$, $AB\approx3{,}36$ cm, $BC\approx5{,}22$ cm.
 :::
@@ -225,7 +257,15 @@ Cho tam giác $ABC$ vuông tại $A$ có $AB=2\sqrt3$ cm, $\widehat{B}=60^\circ$
 2. $BC=\dfrac{AB}{\cos B}$.
 
 ::solution
-Xét tam giác $ABC$ vuông tại $A$, ta có $AC=AB\tan B=2\sqrt3\cdot\sqrt3=6$ (cm). Vì $AB=BC\cos B$ nên $BC=\dfrac{AB}{\cos B}=\dfrac{2\sqrt3}{1/2}=4\sqrt3$ (cm).
+Xét tam giác $ABC$ vuông tại $A$. Đối với góc $B$, cạnh $AC$ là cạnh đối, cạnh $AB$ là cạnh kề.
+
+Ta có
+$$AC=AB\cdot\tan B=2\sqrt3\cdot\tan60^\circ=2\sqrt3\cdot\sqrt3=6\ \text{(cm)}.$$
+
+Ta có $AB=BC\cdot\cos B$, suy ra
+$$BC=\frac{AB}{\cos60^\circ}=\frac{2\sqrt3}{\frac12}=4\sqrt3\ \text{(cm)}.$$
+
+Vậy $AC=6$ cm và $BC=4\sqrt3$ cm.
 
 **Đáp số.** $AC=6$ cm, $BC=4\sqrt3$ cm.
 :::
@@ -241,7 +281,15 @@ Một chiếc thang dài $6$ m dựa vào tường, tạo với mặt đất gó
 2. Độ cao $=6\sin70^\circ$.
 
 ::solution
-Thang, tường và mặt đất tạo thành một tam giác vuông có cạnh huyền là thang dài $6$ m. Khoảng cách từ chân thang đến tường là $6\cos70^\circ\approx2{,}05$ (m). Độ cao của đỉnh thang là $6\sin70^\circ\approx5{,}64$ (m).
+Gọi $A$ là đỉnh thang (chạm tường), $B$ là chân thang và $C$ là chân tường. Khi đó tam giác $ABC$ vuông tại $C$, có cạnh huyền $AB=6$ m và $\widehat{ABC}=70^\circ$.
+
+Khoảng cách từ chân thang đến tường là
+$$BC=AB\cdot\cos70^\circ=6\cos70^\circ\approx2{,}05\ \text{(m)}.$$
+
+Độ cao của đỉnh thang là
+$$AC=AB\cdot\sin70^\circ=6\sin70^\circ\approx5{,}64\ \text{(m)}.$$
+
+Vậy chân thang cách tường khoảng $2{,}05$ m và đỉnh thang cao khoảng $5{,}64$ m.
 
 **Đáp số.** Khoảng $2{,}05$ m và $5{,}64$ m.
 :::
@@ -257,7 +305,14 @@ Từ đỉnh một ngọn hải đăng cao $40$ m so với mặt biển, ngườ
 2. Khoảng cách $=\dfrac{40}{\tan12^\circ}$.
 
 ::solution
-Gọi $d$ (m) là khoảng cách từ thuyền đến chân hải đăng. Góc giữa tia nhìn và mặt biển bằng $12^\circ$ (hai góc so le trong). Trong tam giác vuông tạo bởi hải đăng, mặt biển và tia nhìn, ta có $40=d\tan12^\circ$, suy ra $d=\dfrac{40}{\tan12^\circ}\approx188$ (m).
+Gọi $A$ là đỉnh hải đăng, $H$ là chân hải đăng (trên mặt biển) và $B$ là vị trí chiếc thuyền. Khi đó tam giác $AHB$ vuông tại $H$, có $AH=40$ m.
+
+Góc hạ $12^\circ$ là góc giữa tia nhìn $AB$ và phương nằm ngang qua $A$. Vì phương nằm ngang qua $A$ song song với mặt biển $HB$ nên $\widehat{ABH}=12^\circ$ (hai góc so le trong).
+
+Đặt $d=HB$ (m). Trong tam giác $AHB$, ta có $AH=HB\cdot\tan B$, tức là $40=d\tan12^\circ$. Suy ra
+$$d=\frac{40}{\tan12^\circ}\approx188\ \text{(m)}.$$
+
+Vậy thuyền cách chân hải đăng khoảng $188$ m.
 
 **Đáp số.** Khoảng $188$ m.
 :::
@@ -273,7 +328,12 @@ Lúc tia nắng tạo với mặt đất góc $52^\circ$, một cây có bóng d
 2. Chiều cao $=9\tan52^\circ$.
 
 ::solution
-Cây, bóng cây và tia nắng tạo thành một tam giác vuông. Chiều cao của cây là $9\tan52^\circ\approx11{,}5$ (m).
+Gọi $A$ là ngọn cây, $H$ là gốc cây và $B$ là đầu mút của bóng cây trên mặt đất. Khi đó tam giác $AHB$ vuông tại $H$, có $HB=9$ m và góc giữa tia nắng với mặt đất là $\widehat{ABH}=52^\circ$.
+
+Trong tam giác $AHB$, ta có
+$$AH=HB\cdot\tan B=9\tan52^\circ\approx11{,}5\ \text{(m)}.$$
+
+Vậy cây cao khoảng $11{,}5$ m.
 
 **Đáp số.** Khoảng $11{,}5$ m.
 :::
@@ -296,11 +356,24 @@ c) Hà thả thêm dây cho dài $60$ m, góc giữ nguyên. Diều lên cao th�
 3. Phần tăng: $(60-50)\sin38^\circ$.
 
 ::solution
-a) Độ cao của diều so với tay Hà là $50\sin38^\circ\approx30{,}78$ (m). Do đó độ cao của diều so với mặt đất là khoảng $30{,}78+1{,}2\approx32{,}0$ (m).
+Gọi $T$ là vị trí tay Hà cầm dây, $D$ là con diều và $K$ là điểm ở cùng độ cao với tay Hà, nằm ngay dưới diều. Khi đó tam giác $TKD$ vuông tại $K$, có cạnh huyền $TD=50$ m và $\widehat{DTK}=38^\circ$.
 
-b) Khoảng cách theo phương ngang là $50\cos38^\circ\approx39{,}4$ (m).
+a) Độ cao của diều so với tay Hà là
+$$DK=TD\cdot\sin38^\circ=50\sin38^\circ\approx30{,}78\ \text{(m)}.$$
 
-c) Diều lên cao thêm $60\sin38^\circ-50\sin38^\circ=10\sin38^\circ\approx6{,}2$ (m).
+Tay Hà ở độ cao $1{,}2$ m nên độ cao của diều so với mặt đất là khoảng $30{,}78+1{,}2\approx32{,}0$ (m).
+
+Vậy diều cao khoảng $32{,}0$ m so với mặt đất.
+
+b) Khoảng cách theo phương ngang từ tay Hà đến điểm ngay dưới diều là
+$$TK=TD\cdot\cos38^\circ=50\cos38^\circ\approx39{,}4\ \text{(m)}.$$
+
+Vậy khoảng cách đó là khoảng $39{,}4$ m.
+
+c) Khi dây dài $60$ m và góc giữ nguyên, độ cao của diều so với tay Hà là $60\sin38^\circ$ (m). Diều lên cao thêm
+$$60\sin38^\circ-50\sin38^\circ=10\sin38^\circ\approx6{,}2\ \text{(m)}.$$
+
+Vậy diều lên cao thêm khoảng $6{,}2$ m.
 
 **Đáp số.** a) $32{,}0$ m; b) $39{,}4$ m; c) $6{,}2$ m.
 :::
@@ -316,7 +389,21 @@ Hai bạn đứng trên cùng một đường thẳng với chân một toà nh�
 2. Lập phương trình $h\sqrt3-h=20$ và giải.
 
 ::solution
-Gọi $h$ (m) là chiều cao toà nhà ($h>0$). Khoảng cách từ hai bạn đến chân toà nhà lần lượt là $h\cot45^\circ=h$ và $h\cot30^\circ=h\sqrt3$. Theo đề bài ta có phương trình $h\sqrt3-h=20$. Suy ra $h=\dfrac{20}{\sqrt3-1}=\dfrac{20\left(\sqrt3+1\right)}{2}=10\left(\sqrt3+1\right)\approx27{,}32$ (m) (thoả mãn điều kiện).
+Gọi $h$ (m) là chiều cao toà nhà ($h>0$), $H$ là chân toà nhà, $A$ là đỉnh toà nhà; $M$ và $N$ lần lượt là vị trí bạn đứng gần và bạn đứng xa.
+
+Xét tam giác $AHM$ vuông tại $H$, có $\widehat{AMH}=45^\circ$. Ta có $HM=AH\cdot\cot45^\circ=h$.
+
+Xét tam giác $AHN$ vuông tại $H$, có $\widehat{ANH}=30^\circ$. Ta có $HN=AH\cdot\cot30^\circ=h\sqrt3$.
+
+Hai bạn đứng cùng một phía và cách nhau $20$ m nên $HN-HM=20$, tức là
+$$h\sqrt3-h=20.$$
+
+Suy ra $h\left(\sqrt3-1\right)=20$, do đó
+$$h=\frac{20}{\sqrt3-1}=\frac{20\left(\sqrt3+1\right)}{\left(\sqrt3-1\right)\left(\sqrt3+1\right)}=\frac{20\left(\sqrt3+1\right)}{2}=10\left(\sqrt3+1\right)\approx27{,}32.$$
+
+Giá trị này thoả mãn điều kiện $h>0$.
+
+Vậy toà nhà cao $10\left(\sqrt3+1\right)$ m, khoảng $27{,}32$ m.
 
 **Đáp số.** $10\left(\sqrt3+1\right)\approx27{,}32$ m.
 :::

@@ -179,7 +179,14 @@ Triangle $ABC$ has a right angle at $A$, $AB=3$ and $AC=4$. Find the trigonometr
 2. For angle $B$: the opposite side is $AC$, the adjacent side is $AB$.
 
 ::solution
-In the right-angled triangle $ABC$, $BC=\sqrt{AB^2+AC^2}=\sqrt{9+16}=5$ (Pythagoras' theorem). Hence $\sin B=\dfrac{AC}{BC}=\dfrac45$, $\cos B=\dfrac{AB}{BC}=\dfrac35$, $\tan B=\dfrac{AC}{AB}=\dfrac43$, $\cot B=\dfrac{AB}{AC}=\dfrac34$.
+Consider triangle $ABC$ with a right angle at $A$. By Pythagoras' theorem, we have
+$$BC^2=AB^2+AC^2=3^2+4^2=25,$$
+so $BC=5$.
+
+For the angle $B$: the opposite side is $AC=4$, the adjacent side is $AB=3$ and the hypotenuse is $BC=5$. Hence
+$$\sin B=\frac{AC}{BC}=\frac45;\quad \cos B=\frac{AB}{BC}=\frac35;\quad \tan B=\frac{AC}{AB}=\frac43;\quad \cot B=\frac{AB}{AC}=\frac34.$$
+
+So $\sin B=\dfrac45$, $\cos B=\dfrac35$, $\tan B=\dfrac43$, $\cot B=\dfrac34$.
 
 **Answer.** $\dfrac45$; $\dfrac35$; $\dfrac43$; $\dfrac34$.
 :::
@@ -195,13 +202,23 @@ Triangle $ABC$ has a right angle at $A$, $BC=17$ and $AB=8$. Find the trigonomet
 2. Write the four ratios.
 
 ::solution
-In the right-angled triangle $ABC$, $AC=\sqrt{BC^2-AB^2}=\sqrt{289-64}=15$ (Pythagoras' theorem). Hence $\sin C=\dfrac{AB}{BC}=\dfrac8{17}$, $\cos C=\dfrac{AC}{BC}=\dfrac{15}{17}$, $\tan C=\dfrac{AB}{AC}=\dfrac8{15}$, $\cot C=\dfrac{AC}{AB}=\dfrac{15}8$.
+Consider triangle $ABC$ with a right angle at $A$. By Pythagoras' theorem, we have
+$$AC^2=BC^2-AB^2=17^2-8^2=289-64=225,$$
+so $AC=15$.
+
+For the angle $C$: the opposite side is $AB=8$, the adjacent side is $AC=15$ and the hypotenuse is $BC=17$. Hence
+$$\sin C=\frac{AB}{BC}=\frac8{17};\quad \cos C=\frac{AC}{BC}=\frac{15}{17};\quad \tan C=\frac{AB}{AC}=\frac8{15};\quad \cot C=\frac{AC}{AB}=\frac{15}8.$$
+
+So $\sin C=\dfrac8{17}$, $\cos C=\dfrac{15}{17}$, $\tan C=\dfrac8{15}$, $\cot C=\dfrac{15}8$.
 
 **Answer.** $\dfrac8{17}$; $\dfrac{15}{17}$; $\dfrac8{15}$; $\dfrac{15}8$.
 :::
 
 :::exercise
-Evaluate: a) $\sin45^\circ\cdot\cos45^\circ$; b) $\tan60^\circ-\cot30^\circ+\tan45^\circ$.
+Calculate:
+
+a) $\sin45^\circ\cdot\cos45^\circ$;
+b) $\tan60^\circ-\cot30^\circ+\tan45^\circ$.
 
 ::hint
 **What you need:** the table of special-angle ratios.
@@ -211,7 +228,15 @@ Evaluate: a) $\sin45^\circ\cdot\cos45^\circ$; b) $\tan60^\circ-\cot30^\circ+\tan
 2. Work it out.
 
 ::solution
-a) $\sin45^\circ\cdot\cos45^\circ=\dfrac{\sqrt2}2\cdot\dfrac{\sqrt2}2=\dfrac24=\dfrac12$. b) $\tan60^\circ-\cot30^\circ+\tan45^\circ=\sqrt3-\sqrt3+1=1$.
+We use the table of trigonometric ratios of special angles.
+
+a) We have $\sin45^\circ=\cos45^\circ=\dfrac{\sqrt2}{2}$. Hence
+$$\sin45^\circ\cdot\cos45^\circ=\frac{\sqrt2}2\cdot\frac{\sqrt2}2=\frac24=\frac12.$$
+
+b) We have $\tan60^\circ=\sqrt3$, $\cot30^\circ=\sqrt3$, $\tan45^\circ=1$. Hence
+$$\tan60^\circ-\cot30^\circ+\tan45^\circ=\sqrt3-\sqrt3+1=1.$$
+
+So the values of the two expressions are $\dfrac12$ and $1$ respectively.
 
 **Answer.** a) $\dfrac12$; b) $1$.
 :::
@@ -227,7 +252,12 @@ Write as trigonometric ratios of angles smaller than $45^\circ$: $\sin70^\circ$,
 2. Swap sin ↔ cos and tan ↔ cot.
 
 ::solution
-Since the pairs $70^\circ$ and $20^\circ$, $58^\circ$ and $32^\circ$, $80^\circ$ and $10^\circ$, $47^\circ$ and $43^\circ$ are complementary, $\sin70^\circ=\cos20^\circ$, $\cos58^\circ=\sin32^\circ$, $\tan80^\circ=\cot10^\circ$, $\cot47^\circ=\tan43^\circ$.
+If two angles are complementary, the sine of one equals the cosine of the other, and the tangent of one equals the cotangent of the other.
+
+We have $70^\circ+20^\circ=90^\circ$, $58^\circ+32^\circ=90^\circ$, $80^\circ+10^\circ=90^\circ$, $47^\circ+43^\circ=90^\circ$. Hence
+$$\sin70^\circ=\cos20^\circ;\quad \cos58^\circ=\sin32^\circ;\quad \tan80^\circ=\cot10^\circ;\quad \cot47^\circ=\tan43^\circ.$$
+
+So the four ratios are equal to $\cos20^\circ$; $\sin32^\circ$; $\cot10^\circ$; $\tan43^\circ$ respectively.
 
 **Answer.** $\cos20^\circ$; $\sin32^\circ$; $\cot10^\circ$; $\tan43^\circ$.
 :::
@@ -243,7 +273,14 @@ Without a calculator, evaluate $M=\dfrac{\sin32^\circ}{\cos58^\circ}+\tan17^\cir
 2. Write $\tan73^\circ=\cot17^\circ$.
 
 ::solution
-Since $58^\circ+32^\circ=90^\circ$ and $73^\circ+17^\circ=90^\circ$, $\cos58^\circ=\sin32^\circ$ and $\tan73^\circ=\cot17^\circ$. Hence $M=\dfrac{\sin32^\circ}{\sin32^\circ}+\tan17^\circ\cdot\cot17^\circ=1+1=2$.
+Since $58^\circ+32^\circ=90^\circ$, we have $\cos58^\circ=\sin32^\circ$.
+
+Since $73^\circ+17^\circ=90^\circ$, we have $\tan73^\circ=\cot17^\circ$. Also $\tan17^\circ\cdot\cot17^\circ=1$.
+
+Hence
+$$M=\frac{\sin32^\circ}{\sin32^\circ}+\tan17^\circ\cdot\cot17^\circ=1+1=2.$$
+
+So $M=2$.
 
 **Answer.** $M=2$.
 :::
@@ -263,9 +300,14 @@ b) Find the acute angle $\alpha$ (to the nearest degree) given that $\tan\alpha=
 2. Key in and round.
 
 ::solution
-a) Using a calculator, we get $\sin54^\circ\approx0.8090$ and $\tan20^\circ\approx0.3640$.
+a) Set the calculator to degree mode. We get
+$$\sin54^\circ=0.80901\ldots\approx0.8090;\qquad \tan20^\circ=0.36397\ldots\approx0.3640.$$
 
-b) From $\tan\alpha=2$ we get $\alpha\approx63^\circ$. From $\sin\alpha=0.25$ we get $\alpha\approx14^\circ$.
+b) Using the $\tan^{-1}$ key: for $\tan\alpha=2$, we get $\alpha=63.43\ldots^\circ\approx63^\circ$.
+
+Using the $\sin^{-1}$ key: for $\sin\alpha=0.25$, we get $\alpha=14.47\ldots^\circ\approx14^\circ$.
+
+So $\sin54^\circ\approx0.8090$, $\tan20^\circ\approx0.3640$; the angle $\alpha$ is about $63^\circ$ and $14^\circ$ respectively.
 
 **Answer.** a) $0.8090$; $0.3640$; b) $63^\circ$; $14^\circ$.
 :::
@@ -281,7 +323,15 @@ A "$10\%$ gradient" road sign means that for every $100$ m horizontally, the roa
 2. Press `SHIFT` `tan`.
 
 ::solution
-Let $\alpha$ and $\beta$ be the angles of the $10\%$ road and of the wheelchair ramp. We have $\tan\alpha=\dfrac{10}{100}=0.1$, so $\alpha\approx6^\circ$; and $\tan\beta=\dfrac1{12}$, so $\beta\approx5^\circ$.
+Let $\alpha$ and $\beta$ be the angles to the horizontal of the $10\%$ slope and of the wheelchair ramp.
+
+Each slope, together with the horizontal and the vertical, forms a right-angled triangle in which the rise is the side opposite and the horizontal run is the side adjacent to the angle of slope.
+
+For the $10\%$ slope: $\tan\alpha=\dfrac{10}{100}=0.1$, so $\alpha\approx5.7^\circ\approx6^\circ$.
+
+For the wheelchair ramp: $\tan\beta=\dfrac{1}{12}$, so $\beta\approx4.8^\circ\approx5^\circ$.
+
+So the $10\%$ slope makes an angle of about $6^\circ$ and the wheelchair ramp about $5^\circ$ with the horizontal.
 
 **Answer.** About $6^\circ$ and $5^\circ$.
 :::
@@ -306,13 +356,26 @@ d) Find the size of angle $B$ (to the nearest degree).
 3. Write the ratios; press `SHIFT` `sin` $0.6$.
 
 ::solution
-a) In the right-angled triangle $ABC$, $\sin B=\dfrac{AC}{BC}$, so $AC=BC\cdot\sin B=10\cdot0.6=6$ (cm).
+a) Consider triangle $ABC$ with a right angle at $A$. We have $\sin B=\dfrac{AC}{BC}$, so
+$$AC=BC\cdot\sin B=10\cdot0.6=6\ \text{(cm)}.$$
 
-b) $AB=\sqrt{BC^2-AC^2}=\sqrt{100-36}=8$ (cm) (Pythagoras' theorem).
+So $AC=6$ cm.
 
-c) $\tan B=\dfrac{AC}{AB}=\dfrac68=0.75$; $\cos C=\sin B=0.6$ (complementary angles).
+b) By Pythagoras' theorem, we have
+$$AB^2=BC^2-AC^2=10^2-6^2=64,$$
+so $AB=8$ cm.
 
-d) From $\sin B=0.6$ we get $\angle B\approx37^\circ$.
+So $AB=8$ cm.
+
+c) We have $\tan B=\dfrac{AC}{AB}=\dfrac68=0.75$.
+
+Since $\widehat B+\widehat C=90^\circ$ (complementary angles), we have $\cos C=\sin B=0.6$.
+
+So $\tan B=0.75$ and $\cos C=0.6$.
+
+d) From $\sin B=0.6$, using a calculator, we get $\widehat B\approx36.87^\circ\approx37^\circ$.
+
+So $\widehat B\approx37^\circ$.
 
 **Answer.** a) $6$ cm; b) $8$ cm; c) $0.75$ and $0.6$; d) $37^\circ$.
 :::
@@ -328,7 +391,14 @@ Triangle $ABC$ has a right angle at $A$, $AB=1$ and $AC=2$. Find $\sin B$ and $\
 2. Write the ratios, then rationalise the denominators.
 
 ::solution
-In the right-angled triangle $ABC$, $BC=\sqrt{AB^2+AC^2}=\sqrt{1+4}=\sqrt5$ (Pythagoras' theorem). Hence $\sin B=\dfrac{AC}{BC}=\dfrac2{\sqrt5}=\dfrac{2\sqrt5}5$ and $\cos B=\dfrac{AB}{BC}=\dfrac1{\sqrt5}=\dfrac{\sqrt5}5$.
+Consider triangle $ABC$ with a right angle at $A$. By Pythagoras' theorem, we have
+$$BC^2=AB^2+AC^2=1^2+2^2=5,$$
+so $BC=\sqrt5$.
+
+Hence
+$$\sin B=\frac{AC}{BC}=\frac{2}{\sqrt5}=\frac{2\sqrt5}{5};\qquad \cos B=\frac{AB}{BC}=\frac{1}{\sqrt5}=\frac{\sqrt5}{5}.$$
+
+So $\sin B=\dfrac{2\sqrt5}5$ and $\cos B=\dfrac{\sqrt5}5$.
 
 **Answer.** $\sin B=\dfrac{2\sqrt5}5$, $\cos B=\dfrac{\sqrt5}5$.
 :::
@@ -344,9 +414,16 @@ Triangle $ABC$ is isosceles with $AB=AC$, $BC=12$ cm and $\angle B=30^\circ$. Dr
 2. $\cos B=\dfrac{BH}{AB}$ gives $AB$; rationalise the denominator.
 
 ::solution
-Since triangle $ABC$ is isosceles with $AB=AC$, the altitude $AH$ is also a median, hence $BH=\dfrac{BC}2=6$ cm.
+Since triangle $ABC$ is isosceles at $A$, the altitude $AH$ is also a median. Hence $H$ is the midpoint of $BC$ and
+$$BH=\frac{BC}{2}=\frac{12}{2}=6\ \text{(cm)}.$$
 
-In triangle $ABH$ with a right angle at $H$, $AH=BH\cdot\tan B=6\cdot\dfrac{\sqrt3}3=2\sqrt3$ (cm) and $AB=\dfrac{BH}{\cos B}=\dfrac{6\cdot2}{\sqrt3}=\dfrac{12}{\sqrt3}=4\sqrt3$ (cm).
+Consider triangle $ABH$ with a right angle at $H$. We have $\tan B=\dfrac{AH}{BH}$, so
+$$AH=BH\cdot\tan30^\circ=6\cdot\frac{\sqrt3}{3}=2\sqrt3\ \text{(cm)}.$$
+
+Also in triangle $ABH$, we have $\cos B=\dfrac{BH}{AB}$, so
+$$AB=\frac{BH}{\cos30^\circ}=\frac{6}{\frac{\sqrt3}{2}}=\frac{12}{\sqrt3}=4\sqrt3\ \text{(cm)}.$$
+
+So $AH=2\sqrt3$ cm and $AB=4\sqrt3$ cm.
 
 **Answer.** $AH=2\sqrt3$ cm, $AB=4\sqrt3$ cm.
 :::

@@ -179,7 +179,14 @@ Cho tam giác $ABC$ vuông tại $A$ có $AB=3$, $AC=4$. Tính các tỉ số l�
 2. Với góc $B$: đối là $AC$, kề là $AB$.
 
 ::solution
-Xét tam giác $ABC$ vuông tại $A$, ta có $BC=\sqrt{AB^2+AC^2}=\sqrt{9+16}=5$ (định lí Pythagore). Do đó $\sin B=\dfrac{AC}{BC}=\dfrac45$, $\cos B=\dfrac{AB}{BC}=\dfrac35$, $\tan B=\dfrac{AC}{AB}=\dfrac43$, $\cot B=\dfrac{AB}{AC}=\dfrac34$.
+Xét tam giác $ABC$ vuông tại $A$. Theo định lí Pythagore, ta có
+$$BC^2=AB^2+AC^2=3^2+4^2=25,$$
+suy ra $BC=5$.
+
+Đối với góc $B$: cạnh đối là $AC=4$, cạnh kề là $AB=3$, cạnh huyền là $BC=5$. Do đó
+$$\sin B=\frac{AC}{BC}=\frac45;\quad \cos B=\frac{AB}{BC}=\frac35;\quad \tan B=\frac{AC}{AB}=\frac43;\quad \cot B=\frac{AB}{AC}=\frac34.$$
+
+Vậy $\sin B=\dfrac45$, $\cos B=\dfrac35$, $\tan B=\dfrac43$, $\cot B=\dfrac34$.
 
 **Đáp số.** $\dfrac45$; $\dfrac35$; $\dfrac43$; $\dfrac34$.
 :::
@@ -195,13 +202,23 @@ Cho tam giác $ABC$ vuông tại $A$ có $BC=17$, $AB=8$. Tính các tỉ số l
 2. Lập bốn tỉ số.
 
 ::solution
-Xét tam giác $ABC$ vuông tại $A$, ta có $AC=\sqrt{BC^2-AB^2}=\sqrt{289-64}=15$ (định lí Pythagore). Do đó $\sin C=\dfrac{AB}{BC}=\dfrac8{17}$, $\cos C=\dfrac{AC}{BC}=\dfrac{15}{17}$, $\tan C=\dfrac{AB}{AC}=\dfrac8{15}$, $\cot C=\dfrac{AC}{AB}=\dfrac{15}8$.
+Xét tam giác $ABC$ vuông tại $A$. Theo định lí Pythagore, ta có
+$$AC^2=BC^2-AB^2=17^2-8^2=289-64=225,$$
+suy ra $AC=15$.
+
+Đối với góc $C$: cạnh đối là $AB=8$, cạnh kề là $AC=15$, cạnh huyền là $BC=17$. Do đó
+$$\sin C=\frac{AB}{BC}=\frac8{17};\quad \cos C=\frac{AC}{BC}=\frac{15}{17};\quad \tan C=\frac{AB}{AC}=\frac8{15};\quad \cot C=\frac{AC}{AB}=\frac{15}8.$$
+
+Vậy $\sin C=\dfrac8{17}$, $\cos C=\dfrac{15}{17}$, $\tan C=\dfrac8{15}$, $\cot C=\dfrac{15}8$.
 
 **Đáp số.** $\dfrac8{17}$; $\dfrac{15}{17}$; $\dfrac8{15}$; $\dfrac{15}8$.
 :::
 
 :::exercise
-Tính: a) $\sin45^\circ\cdot\cos45^\circ$; b) $\tan60^\circ-\cot30^\circ+\tan45^\circ$.
+Tính:
+
+a) $\sin45^\circ\cdot\cos45^\circ$;
+b) $\tan60^\circ-\cot30^\circ+\tan45^\circ$.
 
 ::hint
 **Kiến thức:** bảng tỉ số lượng giác của các góc đặc biệt.
@@ -211,7 +228,15 @@ Tính: a) $\sin45^\circ\cdot\cos45^\circ$; b) $\tan60^\circ-\cot30^\circ+\tan45^
 2. Tính.
 
 ::solution
-a) $\sin45^\circ\cdot\cos45^\circ=\dfrac{\sqrt2}2\cdot\dfrac{\sqrt2}2=\dfrac24=\dfrac12$. b) $\tan60^\circ-\cot30^\circ+\tan45^\circ=\sqrt3-\sqrt3+1=1$.
+Ta dùng bảng tỉ số lượng giác của các góc đặc biệt.
+
+a) Ta có $\sin45^\circ=\cos45^\circ=\dfrac{\sqrt2}{2}$. Do đó
+$$\sin45^\circ\cdot\cos45^\circ=\frac{\sqrt2}2\cdot\frac{\sqrt2}2=\frac24=\frac12.$$
+
+b) Ta có $\tan60^\circ=\sqrt3$, $\cot30^\circ=\sqrt3$, $\tan45^\circ=1$. Do đó
+$$\tan60^\circ-\cot30^\circ+\tan45^\circ=\sqrt3-\sqrt3+1=1.$$
+
+Vậy giá trị của hai biểu thức lần lượt là $\dfrac12$ và $1$.
 
 **Đáp số.** a) $\dfrac12$; b) $1$.
 :::
@@ -227,7 +252,12 @@ Viết thành tỉ số lượng giác của góc nhỏ hơn $45^\circ$: $\sin70
 2. Đổi sin ↔ cos, tan ↔ cot.
 
 ::solution
-Vì các cặp góc $70^\circ$ và $20^\circ$, $58^\circ$ và $32^\circ$, $80^\circ$ và $10^\circ$, $47^\circ$ và $43^\circ$ phụ nhau nên $\sin70^\circ=\cos20^\circ$, $\cos58^\circ=\sin32^\circ$, $\tan80^\circ=\cot10^\circ$, $\cot47^\circ=\tan43^\circ$.
+Nếu hai góc phụ nhau thì sin góc này bằng côsin góc kia, tang góc này bằng côtang góc kia.
+
+Ta có $70^\circ+20^\circ=90^\circ$, $58^\circ+32^\circ=90^\circ$, $80^\circ+10^\circ=90^\circ$, $47^\circ+43^\circ=90^\circ$. Do đó
+$$\sin70^\circ=\cos20^\circ;\quad \cos58^\circ=\sin32^\circ;\quad \tan80^\circ=\cot10^\circ;\quad \cot47^\circ=\tan43^\circ.$$
+
+Vậy bốn tỉ số đã cho lần lượt bằng $\cos20^\circ$; $\sin32^\circ$; $\cot10^\circ$; $\tan43^\circ$.
 
 **Đáp số.** $\cos20^\circ$; $\sin32^\circ$; $\cot10^\circ$; $\tan43^\circ$.
 :::
@@ -243,7 +273,14 @@ Không dùng máy tính, tính $M=\dfrac{\sin32^\circ}{\cos58^\circ}+\tan17^\cir
 2. Viết $\tan73^\circ=\cot17^\circ$.
 
 ::solution
-Vì $58^\circ+32^\circ=90^\circ$ và $73^\circ+17^\circ=90^\circ$ nên $\cos58^\circ=\sin32^\circ$ và $\tan73^\circ=\cot17^\circ$. Do đó $M=\dfrac{\sin32^\circ}{\sin32^\circ}+\tan17^\circ\cdot\cot17^\circ=1+1=2$.
+Vì $58^\circ+32^\circ=90^\circ$ nên $\cos58^\circ=\sin32^\circ$.
+
+Vì $73^\circ+17^\circ=90^\circ$ nên $\tan73^\circ=\cot17^\circ$. Mặt khác $\tan17^\circ\cdot\cot17^\circ=1$.
+
+Do đó
+$$M=\frac{\sin32^\circ}{\sin32^\circ}+\tan17^\circ\cdot\cot17^\circ=1+1=2.$$
+
+Vậy $M=2$.
 
 **Đáp số.** $M=2$.
 :::
@@ -263,9 +300,14 @@ b) Tìm góc nhọn $\alpha$ (làm tròn đến độ), biết $\tan\alpha=2$; b
 2. Bấm và làm tròn.
 
 ::solution
-a) Dùng máy tính cầm tay, ta được $\sin54^\circ\approx0{,}8090$ và $\tan20^\circ\approx0{,}3640$.
+a) Để máy tính ở chế độ đơn vị đo độ. Bấm máy, ta được
+$$\sin54^\circ=0{,}80901\ldots\approx0{,}8090;\qquad \tan20^\circ=0{,}36397\ldots\approx0{,}3640.$$
 
-b) Từ $\tan\alpha=2$ suy ra $\alpha\approx63^\circ$. Từ $\sin\alpha=0{,}25$ suy ra $\alpha\approx14^\circ$.
+b) Dùng phím $\tan^{-1}$: với $\tan\alpha=2$, ta được $\alpha=63{,}43\ldots^\circ\approx63^\circ$.
+
+Dùng phím $\sin^{-1}$: với $\sin\alpha=0{,}25$, ta được $\alpha=14{,}47\ldots^\circ\approx14^\circ$.
+
+Vậy $\sin54^\circ\approx0{,}8090$, $\tan20^\circ\approx0{,}3640$; góc $\alpha$ lần lượt xấp xỉ $63^\circ$ và $14^\circ$.
 
 **Đáp số.** a) $0{,}8090$; $0{,}3640$; b) $63^\circ$; $14^\circ$.
 :::
@@ -281,7 +323,15 @@ Biển báo "dốc $10\%$" nghĩa là cứ đi ngang $100$ m thì đường lên
 2. Bấm `SHIFT` `tan`.
 
 ::solution
-Gọi $\alpha$, $\beta$ lần lượt là góc nghiêng của con dốc $10\%$ và của lối đi cho xe lăn. Ta có $\tan\alpha=\dfrac{10}{100}=0{,}1$, suy ra $\alpha\approx6^\circ$; $\tan\beta=\dfrac1{12}$, suy ra $\beta\approx5^\circ$.
+Gọi $\alpha$ và $\beta$ lần lượt là góc nghiêng so với phương ngang của con dốc $10\%$ và của lối đi cho xe lăn.
+
+Mỗi con dốc cùng với phương ngang và phương thẳng đứng tạo thành một tam giác vuông, trong đó độ cao là cạnh đối và chiều ngang là cạnh kề của góc nghiêng.
+
+Với con dốc $10\%$: $\tan\alpha=\dfrac{10}{100}=0{,}1$, suy ra $\alpha\approx5{,}7^\circ\approx6^\circ$.
+
+Với lối đi cho xe lăn: $\tan\beta=\dfrac{1}{12}$, suy ra $\beta\approx4{,}8^\circ\approx5^\circ$.
+
+Vậy góc nghiêng của con dốc $10\%$ khoảng $6^\circ$ và của lối đi cho xe lăn khoảng $5^\circ$.
 
 **Đáp số.** Khoảng $6^\circ$ và $5^\circ$.
 :::
@@ -306,13 +356,26 @@ d) Tìm số đo góc $B$ (làm tròn đến độ).
 3. Lập các tỉ số; bấm `SHIFT` `sin` $0{,}6$.
 
 ::solution
-a) Xét tam giác $ABC$ vuông tại $A$, ta có $\sin B=\dfrac{AC}{BC}$, suy ra $AC=BC\cdot\sin B=10\cdot0{,}6=6$ (cm).
+a) Xét tam giác $ABC$ vuông tại $A$, ta có $\sin B=\dfrac{AC}{BC}$. Suy ra
+$$AC=BC\cdot\sin B=10\cdot0{,}6=6\ \text{(cm)}.$$
 
-b) $AB=\sqrt{BC^2-AC^2}=\sqrt{100-36}=8$ (cm) (định lí Pythagore).
+Vậy $AC=6$ cm.
 
-c) $\tan B=\dfrac{AC}{AB}=\dfrac68=0{,}75$; $\cos C=\sin B=0{,}6$ (hai góc phụ nhau).
+b) Theo định lí Pythagore, ta có
+$$AB^2=BC^2-AC^2=10^2-6^2=64,$$
+suy ra $AB=8$ cm.
 
-d) Từ $\sin B=0{,}6$ suy ra $\widehat{B}\approx37^\circ$.
+Vậy $AB=8$ cm.
+
+c) Ta có $\tan B=\dfrac{AC}{AB}=\dfrac68=0{,}75$.
+
+Vì $\widehat B+\widehat C=90^\circ$ (hai góc phụ nhau) nên $\cos C=\sin B=0{,}6$.
+
+Vậy $\tan B=0{,}75$ và $\cos C=0{,}6$.
+
+d) Từ $\sin B=0{,}6$, dùng máy tính cầm tay, ta được $\widehat B\approx36{,}87^\circ\approx37^\circ$.
+
+Vậy $\widehat B\approx37^\circ$.
 
 **Đáp số.** a) $6$ cm; b) $8$ cm; c) $0{,}75$ và $0{,}6$; d) $37^\circ$.
 :::
@@ -328,7 +391,14 @@ Cho tam giác $ABC$ vuông tại $A$ có $AB=1$, $AC=2$. Tính $\sin B$ và $\co
 2. Lập tỉ số rồi trục căn thức ở mẫu.
 
 ::solution
-Xét tam giác $ABC$ vuông tại $A$, ta có $BC=\sqrt{AB^2+AC^2}=\sqrt{1+4}=\sqrt5$ (định lí Pythagore). Do đó $\sin B=\dfrac{AC}{BC}=\dfrac2{\sqrt5}=\dfrac{2\sqrt5}5$ và $\cos B=\dfrac{AB}{BC}=\dfrac1{\sqrt5}=\dfrac{\sqrt5}5$.
+Xét tam giác $ABC$ vuông tại $A$. Theo định lí Pythagore, ta có
+$$BC^2=AB^2+AC^2=1^2+2^2=5,$$
+suy ra $BC=\sqrt5$.
+
+Do đó
+$$\sin B=\frac{AC}{BC}=\frac{2}{\sqrt5}=\frac{2\sqrt5}{5};\qquad \cos B=\frac{AB}{BC}=\frac{1}{\sqrt5}=\frac{\sqrt5}{5}.$$
+
+Vậy $\sin B=\dfrac{2\sqrt5}5$ và $\cos B=\dfrac{\sqrt5}5$.
 
 **Đáp số.** $\sin B=\dfrac{2\sqrt5}5$, $\cos B=\dfrac{\sqrt5}5$.
 :::
@@ -344,9 +414,16 @@ Cho tam giác $ABC$ cân tại $A$ có $BC=12$ cm và $\widehat{B}=30^\circ$. K�
 2. $\cos B=\dfrac{BH}{AB}$, suy ra $AB$; trục căn thức ở mẫu.
 
 ::solution
-Vì tam giác $ABC$ cân tại $A$ nên đường cao $AH$ cũng là đường trung tuyến, do đó $BH=\dfrac{BC}2=6$ cm.
+Vì tam giác $ABC$ cân tại $A$ nên đường cao $AH$ đồng thời là đường trung tuyến. Do đó $H$ là trung điểm của $BC$ và
+$$BH=\frac{BC}{2}=\frac{12}{2}=6\ \text{(cm)}.$$
 
-Xét tam giác $ABH$ vuông tại $H$, ta có $AH=BH\cdot\tan B=6\cdot\dfrac{\sqrt3}3=2\sqrt3$ (cm) và $AB=\dfrac{BH}{\cos B}=\dfrac{6\cdot2}{\sqrt3}=\dfrac{12}{\sqrt3}=4\sqrt3$ (cm).
+Xét tam giác $ABH$ vuông tại $H$, ta có $\tan B=\dfrac{AH}{BH}$. Suy ra
+$$AH=BH\cdot\tan30^\circ=6\cdot\frac{\sqrt3}{3}=2\sqrt3\ \text{(cm)}.$$
+
+Cũng trong tam giác $ABH$, ta có $\cos B=\dfrac{BH}{AB}$. Suy ra
+$$AB=\frac{BH}{\cos30^\circ}=\frac{6}{\frac{\sqrt3}{2}}=\frac{12}{\sqrt3}=4\sqrt3\ \text{(cm)}.$$
+
+Vậy $AH=2\sqrt3$ cm và $AB=4\sqrt3$ cm.
 
 **Đáp số.** $AH=2\sqrt3$ cm, $AB=4\sqrt3$ cm.
 :::
