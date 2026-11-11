@@ -164,9 +164,13 @@ Cho góc ở tâm $\widehat{AOB}=65^\circ$. Tính số đo cung nhỏ $AB$ và c
 1. Đọc số đo cung nhỏ, rồi lấy $360^\circ$ trừ đi.
 
 ::solution
-Ta có $\text{sđ}\,\overset{\frown}{AB}_{\text{nhỏ}}=65^\circ$, suy ra cung lớn có số đo $360^\circ-65^\circ=295^\circ$.
+Số đo của cung nhỏ bằng số đo của góc ở tâm chắn cung đó. Do đó
+$$\text{sđ}\,\overset{\frown}{AB}_{\text{nhỏ}}=\widehat{AOB}=65^\circ.$$
 
-Vậy cung nhỏ $65^\circ$, cung lớn $295^\circ$.
+Số đo của cung lớn bằng hiệu giữa $360^\circ$ và số đo của cung nhỏ có chung hai mút. Do đó
+$$\text{sđ}\,\overset{\frown}{AB}_{\text{lớn}}=360^\circ-65^\circ=295^\circ.$$
+
+Vậy cung nhỏ $AB$ có số đo $65^\circ$, cung lớn $AB$ có số đo $295^\circ$.
 
 **Đáp số.** Cung nhỏ $65^\circ$, cung lớn $295^\circ$.
 :::
@@ -181,7 +185,14 @@ Cho đường tròn $(O; 5\text{ cm})$ và dây $AB$ cách tâm $3$ cm. Tính $A
 1. Tính nửa dây $HA$, rồi nhân đôi.
 
 ::solution
-Kẻ $OH\perp AB$, ta có $HA=\sqrt{5^2-3^2}=4$ (cm), suy ra $AB=2HA=8$ cm.
+Kẻ $OH\perp AB$ tại $H$. Khi đó $OH=3$ cm là khoảng cách từ tâm đến dây $AB$.
+
+Vì đường kính vuông góc với một dây thì đi qua trung điểm của dây đó, nên $H$ là trung điểm của $AB$.
+
+Xét tam giác $OHA$ vuông tại $H$, có $OA=5$ cm (bán kính). Theo định lí Pythagore, ta có
+$$HA=\sqrt{OA^2-OH^2}=\sqrt{5^2-3^2}=\sqrt{16}=4\ \text{(cm)}.$$
+
+Do đó $AB=2HA=2\cdot4=8$ (cm).
 
 Vậy $AB=8$ cm.
 
@@ -234,9 +245,15 @@ Lúc $3$ giờ, Hà bắt đầu làm bài và làm xong lúc $3$ giờ $45$ ph�
 2. Kim giờ quay $\dfrac{45}{60}$ giờ.
 
 ::solution
-Kim phút quay $45\cdot6^\circ=270^\circ$. Kim giờ quay $\dfrac{45}{60}\cdot30^\circ=22{,}5^\circ$.
+Từ $3$ giờ đến $3$ giờ $45$ phút là $45$ phút.
 
-Vậy kim phút quay $270^\circ$, kim giờ quay $22{,}5^\circ$.
+Kim phút quay một vòng ($360^\circ$) trong $60$ phút, nên mỗi phút quay được $\dfrac{360^\circ}{60}=6^\circ$. Trong $45$ phút, kim phút quay được
+$$45\cdot6^\circ=270^\circ.$$
+
+Kim giờ quay một vòng trong $12$ giờ, nên mỗi giờ quay được $\dfrac{360^\circ}{12}=30^\circ$. Trong $45$ phút, tức là $\dfrac{45}{60}=\dfrac34$ giờ, kim giờ quay được
+$$\frac34\cdot30^\circ=22{,}5^\circ.$$
+
+Vậy kim phút quay được $270^\circ$ và kim giờ quay được $22{,}5^\circ$.
 
 **Đáp số.** Kim phút quay $270^\circ$, kim giờ quay $22{,}5^\circ$.
 :::

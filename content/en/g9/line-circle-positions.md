@@ -162,7 +162,17 @@ Three lines are at distances $4$ cm, $6$ cm and $7.5$ cm from the centre of the 
 1. Compare each distance with $6$.
 
 ::solution
-We have $4<6$, $6=6$ and $7.5>6$.
+Let $d$ be the distance from the centre $O$ to the line and $R=6$ cm the radius. We compare $d$ with $R$:
+
+- If $d<R$, the line meets the circle at two points;
+- If $d=R$, the line touches the circle;
+- If $d>R$, the line and the circle do not meet.
+
+For the first line, $d=4<6$, so it cuts the circle.
+
+For the second line, $d=6=R$, so it touches the circle.
+
+For the third line, $d=7.5>6$, so it does not meet the circle.
 
 So the first line cuts the circle, the second touches it and the third does not meet it.
 
@@ -179,9 +189,16 @@ The line $a$ is at distance $8$ cm from the centre of the circle $(O, 10\text{ c
 1. Compare $8$ with $10$, then find the chord.
 
 ::solution
-We have $d=8<10=R$, so $a$ cuts the circle at two points. Then $AB=2\sqrt{10^2-8^2}=2\cdot6=12$ (cm).
+Let $d=8$ cm be the distance from $O$ to the line $a$ and $R=10$ cm the radius. Since $d<R$, the line $a$ meets the circle at two points $A$, $B$.
 
-So $AB=12$ cm.
+Draw $OH\perp a$ at $H$; then $OH=8$ cm. Since $OA=OB$, triangle $OAB$ is isosceles at $O$, so the altitude $OH$ is also a median, that is $H$ is the midpoint of $AB$.
+
+Consider triangle $OHA$ with a right angle at $H$. By Pythagoras' theorem, we have
+$$HA=\sqrt{OA^2-OH^2}=\sqrt{10^2-8^2}=\sqrt{36}=6\ \text{(cm)}.$$
+
+It follows that $AB=2HA=12$ (cm).
+
+So the line $a$ meets the circle at two points and $AB=12$ cm.
 
 **Answer.** $AB=12$ cm.
 :::
@@ -196,7 +213,10 @@ From a point $M$ at distance $15$ cm from the centre $O$, draw the tangent $MA$ 
 1. Use Pythagoras' theorem with hypotenuse $OM$.
 
 ::solution
-In the triangle $OAM$, right-angled at $A$, we have $MA=\sqrt{15^2-9^2}=\sqrt{144}=12$ (cm).
+Since $MA$ is a tangent to the circle $(O)$ at $A$, we have $MA\perp OA$, so triangle $OAM$ has a right angle at $A$.
+
+In triangle $OAM$, we have $OM=15$ cm and $OA=9$ cm (a radius). By Pythagoras' theorem,
+$$MA=\sqrt{OM^2-OA^2}=\sqrt{15^2-9^2}=\sqrt{144}=12\ \text{(cm)}.$$
 
 So $MA=12$ cm.
 

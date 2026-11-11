@@ -164,9 +164,13 @@ An angle at the centre has $\angle AOB=65^\circ$. Find the measures of the minor
 1. Read off the minor arc, then subtract it from $360^\circ$.
 
 ::solution
-We have $\overset{\frown}{AB}_{\text{minor}}=65^\circ$, so the major arc measures $360^\circ-65^\circ=295^\circ$.
+The measure of a minor arc equals the measure of the angle at the centre subtending it. Hence the minor arc $AB$ measures
+$$\angle AOB=65^\circ.$$
 
-So the arcs measure $65^\circ$ and $295^\circ$.
+The measure of a major arc is $360^\circ$ minus the measure of the minor arc with the same end points. Hence the major arc $AB$ measures
+$$360^\circ-65^\circ=295^\circ.$$
+
+So the minor arc $AB$ measures $65^\circ$ and the major arc $AB$ measures $295^\circ$.
 
 **Answer.** Minor arc $65^\circ$, major arc $295^\circ$.
 :::
@@ -181,7 +185,14 @@ Consider the circle $(O, 5\text{ cm})$ and a chord $AB$ at distance $3$ cm from 
 1. Find half the chord, $HA$, then double it.
 
 ::solution
-Draw $OH\perp AB$; then $HA=\sqrt{5^2-3^2}=4$ (cm), so $AB=2HA=8$ cm.
+Draw $OH\perp AB$ at $H$. Then $OH=3$ cm is the distance from the centre to the chord $AB$.
+
+A diameter perpendicular to a chord passes through the midpoint of the chord, so $H$ is the midpoint of $AB$.
+
+Consider triangle $OHA$ with a right angle at $H$, where $OA=5$ cm (a radius). By Pythagoras' theorem, we have
+$$HA=\sqrt{OA^2-OH^2}=\sqrt{5^2-3^2}=\sqrt{16}=4\ \text{(cm)}.$$
+
+Hence $AB=2HA=2\cdot4=8$ (cm).
 
 So $AB=8$ cm.
 
@@ -234,11 +245,17 @@ Ha starts her homework at $3{:}00$ and finishes at $3{:}45$. Through how many de
 2. The hour hand turns for $\dfrac{45}{60}$ of an hour.
 
 ::solution
-The minute hand turns $45\cdot6^\circ=270^\circ$. The hour hand turns $\dfrac{45}{60}\cdot30^\circ=22.5^\circ$.
+From $3{:}00$ to $3{:}45$ is $45$ minutes.
 
-So the minute hand turns $270^\circ$ and the hour hand $22.5^\circ$.
+The minute hand makes one full turn ($360^\circ$) in $60$ minutes, so it turns $\dfrac{360^\circ}{60}=6^\circ$ each minute. In $45$ minutes it turns through
+$$45\cdot6^\circ=270^\circ.$$
 
-**Answer.** The minute hand turns $270^\circ$ and the hour hand $22.5^\circ$.
+The hour hand makes one full turn in $12$ hours, so it turns $\dfrac{360^\circ}{12}=30^\circ$ each hour. In $45$ minutes, that is $\dfrac{45}{60}=\dfrac34$ hour, it turns through
+$$\frac34\cdot30^\circ=22.5^\circ.$$
+
+So the minute hand turns through $270^\circ$ and the hour hand through $22.5^\circ$.
+
+**Answer.** The minute hand turns $270^\circ$, the hour hand $22.5^\circ$.
 :::
 
 :::exercise

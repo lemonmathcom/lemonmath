@@ -241,9 +241,22 @@ b) Nếu tất cả số người này đi xe buýt 40 chỗ thì cần ít nh�
 2. Chia cho $40$ rồi làm tròn lên.
 
 ::solution
-a) Tổng số người là $1\cdot21+2\cdot34+3\cdot5=21+68+15=104$.
+a) Ta có bảng tần số:
 
-b) Ta có $104:40=2{,}6$ nên cần ít nhất $3$ chuyến. Như vậy $3$ chuyến xe buýt thay được $60$ xe máy.
+| Số người trên xe | $1$ | $2$ | $3$ |
+|---|---|---|---|
+| Số xe (tần số) | $21$ | $34$ | $5$ |
+
+Tổng số người bằng tổng các tích của mỗi giá trị với tần số của nó:
+$$1\cdot21+2\cdot34+3\cdot5=21+68+15=104.$$
+
+Vậy có tất cả $104$ người trên $60$ xe máy.
+
+b) Mỗi chuyến xe buýt chở được $40$ người. Ta có $104:40=2{,}6$.
+
+Vì số chuyến là số tự nhiên và $2<2{,}6\le3$ nên cần ít nhất $3$ chuyến.
+
+Vậy cần ít nhất $3$ chuyến xe buýt. *Nhận xét:* chỉ $3$ chuyến xe buýt có thể thay cho $60$ lượt xe máy, giúp giảm ùn tắc ở cổng trường.
 
 **Đáp số.** a) $104$; b) $3$.
 :::
@@ -267,11 +280,23 @@ c) Tính tổng thời gian đi đến trường của 20 học sinh.
 2. "Hơn 15 phút" không gồm $15$.
 
 ::solution
-a) Các giá trị $5, 10, 15, 20, 25, 30$ (phút) có tần số lần lượt là $3, 6, 6, 3, 1, 1$.
+a) Đếm số lần xuất hiện của mỗi giá trị trong mẫu dữ liệu, ta được bảng tần số:
 
-b) Số học sinh mất hơn 15 phút là $3+1+1=5$.
+| Thời gian (phút) | $5$ | $10$ | $15$ | $20$ | $25$ | $30$ |
+|---|---|---|---|---|---|---|
+| Tần số | $3$ | $6$ | $6$ | $3$ | $1$ | $1$ |
 
-c) Tổng thời gian là $5\cdot3+10\cdot6+15\cdot6+20\cdot3+25+30=280$ (phút).
+Kiểm tra: $3+6+6+3+1+1=20$, đúng bằng số học sinh.
+
+b) Các học sinh mất hơn $15$ phút ứng với các giá trị $20$, $25$, $30$. Số học sinh đó là
+$$3+1+1=5.$$
+
+Vậy có $5$ học sinh mất hơn $15$ phút.
+
+c) Tổng thời gian bằng tổng các tích của mỗi giá trị với tần số của nó:
+$$5\cdot3+10\cdot6+15\cdot6+20\cdot3+25\cdot1+30\cdot1=15+60+90+60+25+30=280.$$
+
+Vậy tổng thời gian đi đến trường của $20$ học sinh là $280$ phút.
 
 **Đáp số.** a) $3, 6, 6, 3, 1, 1$; b) $5$; c) $280$ phút.
 :::
@@ -287,9 +312,15 @@ Giả sử lớp 9C (40 học sinh) có $14$ bạn ngủ từ 8 giờ trở lên
 2. So sánh hai tỉ số.
 
 ::solution
-Ta có $\dfrac{14}{40}=0{,}35$ và $\dfrac{14}{35}=0{,}4$.
+Hai lớp có sĩ số khác nhau nên ta không so sánh số học sinh mà so sánh tần số tương đối (tỉ lệ) học sinh ngủ đủ giấc.
 
-Vậy không đồng ý: tỉ lệ học sinh ngủ đủ giấc ở lớp 9D cao hơn.
+Ở lớp 9C, tần số tương đối là $\dfrac{14}{40}=0{,}35=35\%$.
+
+Ở lớp 9D, tần số tương đối là $\dfrac{14}{35}=0{,}4=40\%$.
+
+Vì $35\%<40\%$ nên tỉ lệ học sinh ngủ đủ giấc ở lớp 9D cao hơn ở lớp 9C.
+
+Vậy không đồng ý với bạn Hà: tuy số học sinh bằng nhau nhưng lớp 9D ngủ đủ giấc hơn.
 
 **Đáp số.** Không đồng ý ($0{,}35<0{,}4$).
 :::

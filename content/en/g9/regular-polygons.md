@@ -167,9 +167,15 @@ Find each angle of a regular decagon ($10$ sides) and of a regular polygon with 
 1. Substitute $n=10$ and $n=12$.
 
 ::solution
-We have $\dfrac{8\cdot180^\circ}{10}=144^\circ$ and $\dfrac{10\cdot180^\circ}{12}=150^\circ$.
+The angles of an $n$-sided polygon add up to $(n-2)\cdot180^\circ$. A regular polygon has equal angles, so each angle is $\dfrac{(n-2)\cdot180^\circ}{n}$.
 
-So each angle is $144^\circ$ and $150^\circ$ respectively.
+For the regular decagon ($n=10$), each angle is
+$$\frac{(10-2)\cdot180^\circ}{10}=\frac{8\cdot180^\circ}{10}=144^\circ.$$
+
+For the regular $12$-sided polygon ($n=12$), each angle is
+$$\frac{(12-2)\cdot180^\circ}{12}=\frac{10\cdot180^\circ}{12}=150^\circ.$$
+
+So each angle of the regular decagon is $144^\circ$ and each angle of the regular $12$-sided polygon is $150^\circ$.
 
 **Answer.** $144^\circ$; $150^\circ$.
 :::
@@ -184,17 +190,25 @@ Each angle of a regular polygon is $140^\circ$. How many sides does it have?
 1. Multiply both sides by $n$ and solve the linear equation.
 
 ::solution
-We have $(n-2)\cdot180=140n$, so $180n-360=140n$, $40n=360$ and $n=9$.
+Let $n$ be the number of sides of the regular polygon ($n$ is a whole number, $n\ge3$).
 
-So the polygon has $9$ sides.
+Each angle of a regular $n$-sided polygon is $\dfrac{(n-2)\cdot180^\circ}{n}$. From the question, we have
+$$\frac{(n-2)\cdot180}{n}=140.$$
+
+It follows that $(n-2)\cdot180=140n$, that is $180n-360=140n$, so $40n=360$ and $n=9$.
+
+The value $n=9$ satisfies the condition.
+
+So the regular polygon has $9$ sides.
 
 **Answer.** $9$ sides.
 :::
 
 :::exercise
-a) Find the side of a square inscribed in a circle of radius $5$ cm.
+Consider a circle of radius $5$ cm.
 
-b) Find the side of a square circumscribed about a circle of radius $5$ cm.
+a) Find the side of the square inscribed in the circle.
+b) Find the side of the square circumscribed about the circle.
 
 ::hint
 **What you need:** a square with side $a$ has $R=\dfrac{a\sqrt2}{2}$ and $r=\dfrac a2$.
@@ -203,11 +217,17 @@ b) Find the side of a square circumscribed about a circle of radius $5$ cm.
 1. a) Solve $\dfrac{a\sqrt2}{2}=5$. b) Solve $\dfrac a2=5$.
 
 ::solution
-a) We have $\dfrac{a\sqrt2}{2}=5$, so $a=\dfrac{10}{\sqrt2}=5\sqrt2\approx7.07$ (cm).
+a) Let $a$ (cm) be the side of the inscribed square ($a>0$). The diagonal of the square is a diameter of the circle, so the diagonal is $2\cdot5=10$ (cm) long.
 
-b) We have $\dfrac a2=5$, so $a=10$ cm.
+On the other hand, the diagonal of a square with side $a$ is $a\sqrt2$ long. Hence $a\sqrt2=10$, so
+$$a=\frac{10}{\sqrt2}=5\sqrt2\approx7.07\ \text{(cm)}.$$
 
-So a) $5\sqrt2$ cm; b) $10$ cm.
+So the side of the inscribed square is $5\sqrt2$ cm.
+
+b) The circle is inscribed in the circumscribed square, so it touches all four sides and the side of the square equals the diameter of the circle:
+$$a=2\cdot5=10\ \text{(cm)}.$$
+
+So the side of the circumscribed square is $10$ cm.
 
 **Answer.** a) $5\sqrt2$ cm; b) $10$ cm.
 :::
@@ -262,13 +282,22 @@ b) Find the distance between two neighbouring cabins (give your answer to 2 deci
 2. Draw the height of the isosceles triangle $OAB$ and use $\sin15^\circ$.
 
 ::solution
-a) Neighbouring cabins are $\dfrac{360^\circ}{12}=30^\circ$ apart at the centre, so the wheel must turn through $4\cdot30^\circ=120^\circ$.
+a) The twelve cabins divide the circle into $12$ equal arcs. The angle at the centre between two neighbouring cabins is
+$$\frac{360^\circ}{12}=30^\circ.$$
 
-b) Let $A$, $B$ be neighbouring cabins and $H$ the midpoint of $AB$. The triangle $OAB$ is isosceles at $O$ with $\angle AOB=30^\circ$, so $\angle AOH=15^\circ$ and
+From cabin $1$ to the position of cabin $5$ there are $5-1=4$ such gaps. Hence the wheel must turn through
+$$4\cdot30^\circ=120^\circ.$$
 
-$$AB=2AH=2\cdot20\cdot\sin15^\circ\approx10.35\ \text{(m)}.$$
+So the wheel must turn through $120^\circ$.
 
-So a) $120^\circ$; b) about $10.35$ m.
+b) Let $O$ be the centre of the wheel and $A$, $B$ two neighbouring cabins. Triangle $OAB$ is isosceles at $O$ (since $OA=OB=20$ m) and $\angle AOB=30^\circ$.
+
+Let $H$ be the midpoint of $AB$. Then $OH\perp AB$ and $OH$ bisects the angle $AOB$, so $\angle AOH=15^\circ$.
+
+In triangle $OHA$ with a right angle at $H$, we have $AH=OA\cdot\sin15^\circ=20\sin15^\circ$. Hence
+$$AB=2AH=40\sin15^\circ\approx10.35\ \text{(m)}.$$
+
+So the distance between two neighbouring cabins is about $10.35$ m.
 
 **Answer.** a) $120^\circ$; b) about $10.35$ m.
 :::
@@ -290,13 +319,29 @@ c) Find the area of the part of the disc outside the hexagon (give your answer t
 2. c) Subtract the area of $6$ equilateral triangles with side $6$ cm from $\pi R^2$.
 
 ::solution
-a) We have $AB=R=6$ cm and $\angle AOB=\dfrac{360^\circ}{6}=60^\circ$.
+a) The regular hexagon $ABCDEF$ inscribed in the circle $(O; 6\text{ cm})$ divides the circle into $6$ equal arcs, so
+$$\angle AOB=\frac{360^\circ}{6}=60^\circ.$$
 
-b) Each of the arcs $AC$, $CE$, $EA$ is made of two equal arcs of $60^\circ$, so it measures $120^\circ$. Three equal arcs have three equal chords, hence $AC=CE=EA$ and the triangle $ACE$ is equilateral. It is inscribed in $(O, 6\text{ cm})$, so $\dfrac{AC\sqrt3}{3}=6$, hence $AC=6\sqrt3$ cm.
+Triangle $OAB$ has $OA=OB=6$ cm and $\angle AOB=60^\circ$, so it is equilateral. Hence $AB=OA=6$ cm.
 
-c) The area of the hexagon is $6\cdot\dfrac{6^2\sqrt3}{4}=54\sqrt3$ (cm²). The required area is $36\pi-54\sqrt3\approx19.57$ (cm²).
+So $AB=6$ cm and $\angle AOB=60^\circ$.
 
-So a) $AB=6$ cm, $\angle AOB=60^\circ$; b) $AC=6\sqrt3$ cm; c) about $19.57$ cm².
+b) Each of the arcs $AB$, $BC$, $CD$, $DE$, $EF$, $FA$ measures $60^\circ$. Hence each of the minor arcs $AC$, $CE$, $EA$ consists of two such arcs and measures $120^\circ$.
+
+In a circle, equal arcs are subtended by equal chords, so $AC=CE=EA$. So triangle $ACE$ is equilateral.
+
+The equilateral triangle $ACE$ is inscribed in a circle of radius $R=6$ cm, so $\dfrac{AC\sqrt3}{3}=6$. It follows that
+$$AC=\frac{18}{\sqrt3}=6\sqrt3\ \text{(cm)}.$$
+
+So triangle $ACE$ is equilateral and $AC=6\sqrt3$ cm.
+
+c) The regular hexagon is made up of $6$ equilateral triangles with side $6$ cm (like triangle $OAB$). The area of the hexagon is
+$$6\cdot\frac{6^2\sqrt3}{4}=54\sqrt3\ \text{(cm}^2\text{)}.$$
+
+The area of the disc is $\pi\cdot6^2=36\pi$ (cm²). The area of the part of the disc outside the hexagon is
+$$36\pi-54\sqrt3\approx19.57\ \text{(cm}^2\text{)}.$$
+
+So the required area is about $19.57$ cm².
 
 **Answer.** a) $6$ cm, $60^\circ$; b) $6\sqrt3$ cm; c) $\approx19.57$ cm².
 :::

@@ -193,9 +193,14 @@ Consider the function $y=3x^2$. Find the value of $y$ when $x=-2$, $x=0$, $x=\df
 2. Multiply the result by $3$.
 
 ::solution
-We have $3\cdot(-2)^2=12$, $3\cdot0^2=0$, $3\cdot\left(\dfrac13\right)^2=\dfrac13$ and $3\cdot(\sqrt3)^2=9$.
+Substituting each value of $x$ in turn into $y=3x^2$, we get:
 
-So the values of $y$ are $12$, $0$, $\dfrac13$ and $9$ respectively.
+- For $x=-2$: $y=3\cdot(-2)^2=3\cdot4=12$.
+- For $x=0$: $y=3\cdot0^2=0$.
+- For $x=\dfrac13$: $y=3\cdot\left(\dfrac13\right)^2=3\cdot\dfrac19=\dfrac13$.
+- For $x=\sqrt3$: $y=3\cdot\left(\sqrt3\right)^2=3\cdot3=9$.
+
+So the values of $y$ are $12$; $0$; $\dfrac13$; $9$ respectively.
 
 **Answer.** $12$; $0$; $\dfrac13$; $9$.
 :::
@@ -232,9 +237,14 @@ Which of the points $A(1, 2)$, $B(-2, 8)$, $C(3, 18)$, $D(-1, -2)$ lie on the gr
 1. Work out $2x_0^2$ for each point and compare it with $y_0$.
 
 ::solution
-We have $2\cdot1^2=2$, $2\cdot(-2)^2=8$, $2\cdot3^2=18$ and $2\cdot(-1)^2=2\neq-2$.
+A point $M(x_0, y_0)$ lies on the graph of $y=2x^2$ exactly when $y_0=2x_0^2$. We check each point in turn:
 
-So the points $A$, $B$, $C$ lie on the graph and the point $D$ does not.
+- $A(1, 2)$: $2\cdot1^2=2$, equal to the $y$-coordinate of $A$. Point $A$ lies on the graph.
+- $B(-2, 8)$: $2\cdot(-2)^2=8$, equal to the $y$-coordinate of $B$. Point $B$ lies on the graph.
+- $C(3, 18)$: $2\cdot3^2=18$, equal to the $y$-coordinate of $C$. Point $C$ lies on the graph.
+- $D(-1, -2)$: $2\cdot(-1)^2=2\neq-2$. Point $D$ does not lie on the graph.
+
+So the points $A$, $B$, $C$ lie on the graph of $y=2x^2$; the point $D$ does not.
 
 **Answer.** $A$, $B$, $C$.
 :::
@@ -328,11 +338,19 @@ b) Find the value of $y$ when $x=1-\sqrt2$.
 2. Expand $(1-\sqrt2)^2$, then multiply by $3$.
 
 ::solution
-a) We have $3x^2=6\Leftrightarrow x^2=2\Leftrightarrow x=\sqrt2$ or $x=-\sqrt2$.
+a) A point on the graph has $y$-coordinate $6$ when $3x^2=6$.
 
-b) We have $(1-\sqrt2)^2=1-2\sqrt2+2=3-2\sqrt2$, so $y=3(3-2\sqrt2)=9-6\sqrt2$.
+It follows that $x^2=2$, so $x=\sqrt2$ or $x=-\sqrt2$.
 
-So a) $x=\pm\sqrt2$; b) $y=9-6\sqrt2$.
+So there are two such points, with $x$-coordinates $x=\sqrt2$ and $x=-\sqrt2$.
+
+b) We have
+$$\left(1-\sqrt2\right)^2=1-2\sqrt2+\left(\sqrt2\right)^2=1-2\sqrt2+2=3-2\sqrt2.$$
+
+Substituting $x=1-\sqrt2$ into the formula, we get
+$$y=3\left(1-\sqrt2\right)^2=3\left(3-2\sqrt2\right)=9-6\sqrt2.$$
+
+So when $x=1-\sqrt2$ we have $y=9-6\sqrt2$.
 
 **Answer.** a) $x=\sqrt2$, $x=-\sqrt2$; b) $9-6\sqrt2$.
 :::

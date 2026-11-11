@@ -241,9 +241,22 @@ b) If all these people travelled by 40-seat bus instead, at least how many bus j
 2. Divide by $40$ and round up.
 
 ::solution
-a) The total number of people is $1\cdot21+2\cdot34+3\cdot5=21+68+15=104$.
+a) The frequency table is:
 
-b) We have $104\div40=2.6$, so at least $3$ journeys are needed. So $3$ bus journeys could replace $60$ motorbikes.
+| People on the motorbike | $1$ | $2$ | $3$ |
+|---|---|---|---|
+| Motorbikes (frequency) | $21$ | $34$ | $5$ |
+
+The total number of people is the sum of each value multiplied by its frequency:
+$$1\cdot21+2\cdot34+3\cdot5=21+68+15=104.$$
+
+So there are $104$ people on the $60$ motorbikes.
+
+b) Each bus journey carries $40$ people. We have $104\div40=2.6$.
+
+The number of journeys is a whole number and $2<2.6\le3$, so at least $3$ journeys are needed.
+
+So at least $3$ bus journeys are needed. *Comment:* just $3$ bus journeys could replace $60$ motorbikes, which would ease the congestion at the school gate.
 
 **Answer.** a) $104$; b) $3$.
 :::
@@ -267,11 +280,23 @@ c) Find the total travel time of the 20 students.
 2. "More than 15 minutes" does not include $15$.
 
 ::solution
-a) The values $5, 10, 15, 20, 25, 30$ (minutes) have frequencies $3, 6, 6, 3, 1, 1$.
+a) Counting how many times each value appears in the data, we get the frequency table:
 
-b) The number of students taking more than 15 minutes is $3+1+1=5$.
+| Time (minutes) | $5$ | $10$ | $15$ | $20$ | $25$ | $30$ |
+|---|---|---|---|---|---|---|
+| Frequency | $3$ | $6$ | $6$ | $3$ | $1$ | $1$ |
 
-c) The total time is $5\cdot3+10\cdot6+15\cdot6+20\cdot3+25+30=280$ (minutes).
+Check: $3+6+6+3+1+1=20$, which equals the number of students.
+
+b) The students who take more than $15$ minutes correspond to the values $20$, $25$, $30$. Their number is
+$$3+1+1=5.$$
+
+So $5$ students take more than $15$ minutes.
+
+c) The total time is the sum of each value multiplied by its frequency:
+$$5\cdot3+10\cdot6+15\cdot6+20\cdot3+25\cdot1+30\cdot1=15+60+90+60+25+30=280.$$
+
+So the total travel time of the $20$ students is $280$ minutes.
 
 **Answer.** a) $3, 6, 6, 3, 1, 1$; b) $5$; c) $280$ minutes.
 :::
@@ -287,9 +312,15 @@ Suppose class 9C (40 students) has $14$ students who sleep 8 hours or more, and 
 2. Compare the two ratios.
 
 ::solution
-We have $\dfrac{14}{40}=0.35$ and $\dfrac{14}{35}=0.4$.
+The two classes have different sizes, so we compare the relative frequencies (proportions) of students who sleep enough rather than the numbers of students.
 
-So we do not agree: the proportion of students who sleep enough is higher in class 9D.
+In class 9C, the relative frequency is $\dfrac{14}{40}=0.35=35\%$.
+
+In class 9D, the relative frequency is $\dfrac{14}{35}=0.4=40\%$.
+
+Since $35\%<40\%$, a larger proportion of students sleep enough in class 9D than in class 9C.
+
+So we do not agree with Ha: the numbers are equal, but class 9D sleeps better.
 
 **Answer.** No ($0.35<0.4$).
 :::

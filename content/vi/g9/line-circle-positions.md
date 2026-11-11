@@ -162,9 +162,19 @@ Ba đường thẳng cách tâm của đường tròn $(O; 6\text{ cm})$ lần l
 1. So sánh từng khoảng cách với $6$.
 
 ::solution
-Ta có $4<6$, $6=6$, $7{,}5>6$.
+Gọi $d$ là khoảng cách từ tâm $O$ đến đường thẳng và $R=6$ cm là bán kính. Ta so sánh $d$ với $R$:
 
-Vậy đường thứ nhất cắt, đường thứ hai tiếp xúc, đường thứ ba không giao với đường tròn.
+- Nếu $d<R$ thì đường thẳng cắt đường tròn tại hai điểm;
+- Nếu $d=R$ thì đường thẳng tiếp xúc với đường tròn;
+- Nếu $d>R$ thì đường thẳng và đường tròn không giao nhau.
+
+Với đường thẳng thứ nhất, $d=4<6$, nên nó cắt đường tròn.
+
+Với đường thẳng thứ hai, $d=6=R$, nên nó tiếp xúc với đường tròn.
+
+Với đường thẳng thứ ba, $d=7{,}5>6$, nên nó không giao với đường tròn.
+
+Vậy đường thẳng thứ nhất cắt, đường thẳng thứ hai tiếp xúc, đường thẳng thứ ba không giao với đường tròn.
 
 **Đáp số.** Đường thứ nhất cắt, đường thứ hai tiếp xúc, đường thứ ba không giao với đường tròn.
 :::
@@ -179,9 +189,16 @@ Vậy đường thứ nhất cắt, đường thứ hai tiếp xúc, đường t
 1. So sánh $8$ với $10$, rồi tính dây.
 
 ::solution
-Ta có $d=8<10=R$ nên $a$ cắt đường tròn tại hai điểm. Khi đó $AB=2\sqrt{10^2-8^2}=2\cdot6=12$ (cm).
+Gọi $d=8$ cm là khoảng cách từ $O$ đến đường thẳng $a$ và $R=10$ cm là bán kính. Vì $d<R$ nên đường thẳng $a$ cắt đường tròn tại hai điểm $A$, $B$.
 
-Vậy $AB=12$ cm.
+Kẻ $OH\perp a$ tại $H$, khi đó $OH=8$ cm. Vì $OA=OB$ nên tam giác $OAB$ cân tại $O$, do đó đường cao $OH$ cũng là đường trung tuyến, tức là $H$ là trung điểm của $AB$.
+
+Xét tam giác $OHA$ vuông tại $H$, theo định lí Pythagore, ta có
+$$HA=\sqrt{OA^2-OH^2}=\sqrt{10^2-8^2}=\sqrt{36}=6\ \text{(cm)}.$$
+
+Suy ra $AB=2HA=12$ (cm).
+
+Vậy đường thẳng $a$ cắt đường tròn tại hai điểm và $AB=12$ cm.
 
 **Đáp số.** $AB=12$ cm.
 :::
@@ -196,7 +213,10 @@ Từ điểm $M$ cách tâm $O$ là $15$ cm, kẻ tiếp tuyến $MA$ của đư
 1. Dùng định lí Pythagore với cạnh huyền $OM$.
 
 ::solution
-Xét tam giác $OAM$ vuông tại $A$, ta có $MA=\sqrt{15^2-9^2}=\sqrt{144}=12$ (cm).
+Vì $MA$ là tiếp tuyến của đường tròn $(O)$ tại $A$ nên $MA\perp OA$, tức là tam giác $OAM$ vuông tại $A$.
+
+Trong tam giác $OAM$, ta có $OM=15$ cm và $OA=9$ cm (bán kính). Theo định lí Pythagore,
+$$MA=\sqrt{OM^2-OA^2}=\sqrt{15^2-9^2}=\sqrt{144}=12\ \text{(cm)}.$$
 
 Vậy $MA=12$ cm.
 

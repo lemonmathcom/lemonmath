@@ -193,7 +193,12 @@ Cho hàm số $y=3x^2$. Tính giá trị của $y$ khi $x=-2$; $x=0$; $x=\dfrac1
 2. Nhân kết quả với $3$.
 
 ::solution
-Ta có $3\cdot(-2)^2=12$; $3\cdot0^2=0$; $3\cdot\left(\dfrac13\right)^2=\dfrac13$; $3\cdot(\sqrt3)^2=9$.
+Thay lần lượt từng giá trị của $x$ vào công thức $y=3x^2$, ta được:
+
+- Với $x=-2$: $y=3\cdot(-2)^2=3\cdot4=12$.
+- Với $x=0$: $y=3\cdot0^2=0$.
+- Với $x=\dfrac13$: $y=3\cdot\left(\dfrac13\right)^2=3\cdot\dfrac19=\dfrac13$.
+- Với $x=\sqrt3$: $y=3\cdot\left(\sqrt3\right)^2=3\cdot3=9$.
 
 Vậy các giá trị của $y$ lần lượt là $12$; $0$; $\dfrac13$; $9$.
 
@@ -232,9 +237,14 @@ Trong các điểm $A(1; 2)$, $B(-2; 8)$, $C(3; 18)$, $D(-1; -2)$, điểm nào 
 1. Tính $2x_0^2$ cho từng điểm và so sánh với $y_0$.
 
 ::solution
-Ta có $2\cdot1^2=2$; $2\cdot(-2)^2=8$; $2\cdot3^2=18$; $2\cdot(-1)^2=2\neq-2$.
+Điểm $M(x_0; y_0)$ thuộc đồ thị của hàm số $y=2x^2$ khi và chỉ khi $y_0=2x_0^2$. Ta kiểm tra lần lượt từng điểm:
 
-Vậy các điểm $A$, $B$, $C$ thuộc đồ thị, điểm $D$ không thuộc đồ thị.
+- $A(1; 2)$: $2\cdot1^2=2$, bằng tung độ của $A$. Điểm $A$ thuộc đồ thị.
+- $B(-2; 8)$: $2\cdot(-2)^2=8$, bằng tung độ của $B$. Điểm $B$ thuộc đồ thị.
+- $C(3; 18)$: $2\cdot3^2=18$, bằng tung độ của $C$. Điểm $C$ thuộc đồ thị.
+- $D(-1; -2)$: $2\cdot(-1)^2=2\neq-2$. Điểm $D$ không thuộc đồ thị.
+
+Vậy các điểm $A$, $B$, $C$ thuộc đồ thị của hàm số $y=2x^2$; điểm $D$ không thuộc đồ thị.
 
 **Đáp số.** $A$, $B$, $C$.
 :::
@@ -328,11 +338,19 @@ b) Tính giá trị của $y$ khi $x=1-\sqrt2$.
 2. Khai triển $(1-\sqrt2)^2$ rồi nhân với $3$.
 
 ::solution
-a) Ta có $3x^2=6\Leftrightarrow x^2=2\Leftrightarrow x=\sqrt2$ hoặc $x=-\sqrt2$.
+a) Điểm thuộc đồ thị có tung độ bằng $6$ khi $3x^2=6$.
 
-b) Ta có $(1-\sqrt2)^2=1-2\sqrt2+2=3-2\sqrt2$, nên $y=3(3-2\sqrt2)=9-6\sqrt2$.
+Suy ra $x^2=2$, do đó $x=\sqrt2$ hoặc $x=-\sqrt2$.
 
-Vậy a) $x=\pm\sqrt2$; b) $y=9-6\sqrt2$.
+Vậy có hai điểm thoả mãn, với hoành độ $x=\sqrt2$ và $x=-\sqrt2$.
+
+b) Ta có
+$$\left(1-\sqrt2\right)^2=1-2\sqrt2+\left(\sqrt2\right)^2=1-2\sqrt2+2=3-2\sqrt2.$$
+
+Thay $x=1-\sqrt2$ vào công thức, ta được
+$$y=3\left(1-\sqrt2\right)^2=3\left(3-2\sqrt2\right)=9-6\sqrt2.$$
+
+Vậy khi $x=1-\sqrt2$ thì $y=9-6\sqrt2$.
 
 **Đáp số.** a) $x=\sqrt2$, $x=-\sqrt2$; b) $9-6\sqrt2$.
 :::

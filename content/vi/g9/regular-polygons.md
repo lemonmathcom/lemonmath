@@ -167,9 +167,15 @@ Tính số đo mỗi góc của thập giác đều ($10$ cạnh) và của đa 
 1. Thay $n=10$ và $n=12$.
 
 ::solution
-Ta có $\dfrac{8\cdot180^\circ}{10}=144^\circ$ và $\dfrac{10\cdot180^\circ}{12}=150^\circ$.
+Tổng các góc của một đa giác $n$ cạnh là $(n-2)\cdot180^\circ$. Đa giác đều có các góc bằng nhau, nên mỗi góc bằng $\dfrac{(n-2)\cdot180^\circ}{n}$.
 
-Vậy mỗi góc lần lượt là $144^\circ$ và $150^\circ$.
+Với thập giác đều ($n=10$), mỗi góc bằng
+$$\frac{(10-2)\cdot180^\circ}{10}=\frac{8\cdot180^\circ}{10}=144^\circ.$$
+
+Với đa giác đều $12$ cạnh ($n=12$), mỗi góc bằng
+$$\frac{(12-2)\cdot180^\circ}{12}=\frac{10\cdot180^\circ}{12}=150^\circ.$$
+
+Vậy mỗi góc của thập giác đều bằng $144^\circ$ và mỗi góc của đa giác đều $12$ cạnh bằng $150^\circ$.
 
 **Đáp số.** $144^\circ$; $150^\circ$.
 :::
@@ -184,17 +190,25 @@ Một đa giác đều có mỗi góc bằng $140^\circ$. Đa giác đó có bao
 1. Nhân hai vế với $n$ rồi giải phương trình bậc nhất.
 
 ::solution
-Ta có $(n-2)\cdot180=140n$, suy ra $180n-360=140n$, $40n=360$, $n=9$.
+Gọi $n$ là số cạnh của đa giác đều ($n$ là số tự nhiên, $n\ge3$).
 
-Vậy đa giác có $9$ cạnh.
+Mỗi góc của đa giác đều $n$ cạnh bằng $\dfrac{(n-2)\cdot180^\circ}{n}$. Theo đề bài, ta có
+$$\frac{(n-2)\cdot180}{n}=140.$$
+
+Suy ra $(n-2)\cdot180=140n$, hay $180n-360=140n$, tức là $40n=360$, do đó $n=9$.
+
+Giá trị $n=9$ thoả mãn điều kiện.
+
+Vậy đa giác đều đó có $9$ cạnh.
 
 **Đáp số.** $9$ cạnh.
 :::
 
 :::exercise
-a) Tính cạnh của hình vuông nội tiếp đường tròn bán kính $5$ cm.
+Cho đường tròn bán kính $5$ cm.
 
-b) Tính cạnh của hình vuông ngoại tiếp đường tròn bán kính $5$ cm.
+a) Tính cạnh của hình vuông nội tiếp đường tròn đó.
+b) Tính cạnh của hình vuông ngoại tiếp đường tròn đó.
 
 ::hint
 **Kiến thức:** hình vuông cạnh $a$ có $R=\dfrac{a\sqrt2}{2}$, $r=\dfrac a2$.
@@ -203,11 +217,17 @@ b) Tính cạnh của hình vuông ngoại tiếp đường tròn bán kính $5$
 1. a) Giải $\dfrac{a\sqrt2}{2}=5$. b) Giải $\dfrac a2=5$.
 
 ::solution
-a) Ta có $\dfrac{a\sqrt2}{2}=5$, suy ra $a=\dfrac{10}{\sqrt2}=5\sqrt2\approx7{,}07$ (cm).
+a) Gọi $a$ (cm) là cạnh của hình vuông nội tiếp ($a>0$). Đường chéo của hình vuông là đường kính của đường tròn, nên đường chéo dài $2\cdot5=10$ (cm).
 
-b) Ta có $\dfrac a2=5$, suy ra $a=10$ cm.
+Mặt khác, đường chéo của hình vuông cạnh $a$ dài $a\sqrt2$. Do đó $a\sqrt2=10$, suy ra
+$$a=\frac{10}{\sqrt2}=5\sqrt2\approx7{,}07\ \text{(cm)}.$$
 
-Vậy a) $5\sqrt2$ cm; b) $10$ cm.
+Vậy cạnh của hình vuông nội tiếp bằng $5\sqrt2$ cm.
+
+b) Đường tròn nội tiếp hình vuông ngoại tiếp nó, nên đường tròn tiếp xúc với bốn cạnh và cạnh hình vuông bằng đường kính của đường tròn:
+$$a=2\cdot5=10\ \text{(cm)}.$$
+
+Vậy cạnh của hình vuông ngoại tiếp bằng $10$ cm.
 
 **Đáp số.** a) $5\sqrt2$ cm; b) $10$ cm.
 :::
@@ -262,13 +282,22 @@ b) Tính khoảng cách giữa hai cabin liền kề (làm tròn kết quả đ�
 2. Kẻ đường cao của tam giác cân $OAB$ và dùng $\sin15^\circ$.
 
 ::solution
-a) Hai cabin liền kề cách nhau góc ở tâm $\dfrac{360^\circ}{12}=30^\circ$, nên vòng quay phải quay $4\cdot30^\circ=120^\circ$.
+a) Mười hai cabin chia đường tròn thành $12$ cung bằng nhau. Góc ở tâm giữa hai cabin liền kề là
+$$\frac{360^\circ}{12}=30^\circ.$$
 
-b) Gọi $A$, $B$ là hai cabin liền kề, $H$ là trung điểm của $AB$. Tam giác $OAB$ cân tại $O$ có $\widehat{AOB}=30^\circ$, nên $\widehat{AOH}=15^\circ$ và
+Từ cabin số $1$ đến vị trí cabin số $5$ có $5-1=4$ khoảng như vậy. Do đó vòng quay phải quay một góc
+$$4\cdot30^\circ=120^\circ.$$
 
-$$AB=2AH=2\cdot20\cdot\sin15^\circ\approx10{,}35\ \text{(m)}.$$
+Vậy vòng quay phải quay $120^\circ$.
 
-Vậy a) $120^\circ$; b) khoảng $10{,}35$ m.
+b) Gọi $O$ là tâm vòng quay, $A$ và $B$ là hai cabin liền kề. Tam giác $OAB$ cân tại $O$ (vì $OA=OB=20$ m) và $\widehat{AOB}=30^\circ$.
+
+Gọi $H$ là trung điểm của $AB$. Khi đó $OH\perp AB$ và $OH$ là tia phân giác của góc $AOB$, nên $\widehat{AOH}=15^\circ$.
+
+Xét tam giác $OHA$ vuông tại $H$, ta có $AH=OA\cdot\sin15^\circ=20\sin15^\circ$. Do đó
+$$AB=2AH=40\sin15^\circ\approx10{,}35\ \text{(m)}.$$
+
+Vậy khoảng cách giữa hai cabin liền kề khoảng $10{,}35$ m.
 
 **Đáp số.** a) $120^\circ$; b) khoảng $10{,}35$ m.
 :::
@@ -290,13 +319,29 @@ c) Tính diện tích phần hình tròn nằm ngoài lục giác (làm tròn k�
 2. c) Lấy $\pi R^2$ trừ diện tích $6$ tam giác đều cạnh $6$ cm.
 
 ::solution
-a) Ta có $AB=R=6$ cm và $\widehat{AOB}=\dfrac{360^\circ}{6}=60^\circ$.
+a) Lục giác đều $ABCDEF$ nội tiếp đường tròn $(O; 6\text{ cm})$ chia đường tròn thành $6$ cung bằng nhau, nên
+$$\widehat{AOB}=\frac{360^\circ}{6}=60^\circ.$$
 
-b) Mỗi cung $AC$, $CE$, $EA$ gồm hai cung bằng nhau $60^\circ$, nên có số đo $120^\circ$. Ba cung bằng nhau căng ba dây bằng nhau, do đó $AC=CE=EA$ và tam giác $ACE$ đều. Tam giác này nội tiếp $(O; 6\text{ cm})$ nên $\dfrac{AC\sqrt3}{3}=6$, suy ra $AC=6\sqrt3$ cm.
+Tam giác $OAB$ có $OA=OB=6$ cm và $\widehat{AOB}=60^\circ$ nên là tam giác đều. Do đó $AB=OA=6$ cm.
 
-c) Diện tích lục giác là $6\cdot\dfrac{6^2\sqrt3}{4}=54\sqrt3$ (cm²). Diện tích cần tìm là $36\pi-54\sqrt3\approx19{,}57$ (cm²).
+Vậy $AB=6$ cm và $\widehat{AOB}=60^\circ$.
 
-Vậy a) $AB=6$ cm, $\widehat{AOB}=60^\circ$; b) $AC=6\sqrt3$ cm; c) khoảng $19{,}57$ cm².
+b) Mỗi cung $AB$, $BC$, $CD$, $DE$, $EF$, $FA$ có số đo $60^\circ$. Do đó mỗi cung nhỏ $AC$, $CE$, $EA$ gồm hai cung như vậy và có số đo $120^\circ$.
+
+Trong một đường tròn, các cung bằng nhau căng các dây bằng nhau, nên $AC=CE=EA$. Vậy tam giác $ACE$ là tam giác đều.
+
+Tam giác đều $ACE$ nội tiếp đường tròn bán kính $R=6$ cm, nên $\dfrac{AC\sqrt3}{3}=6$. Suy ra
+$$AC=\frac{18}{\sqrt3}=6\sqrt3\ \text{(cm)}.$$
+
+Vậy tam giác $ACE$ đều và $AC=6\sqrt3$ cm.
+
+c) Lục giác đều được chia thành $6$ tam giác đều cạnh $6$ cm (như tam giác $OAB$). Diện tích lục giác là
+$$6\cdot\frac{6^2\sqrt3}{4}=54\sqrt3\ \text{(cm}^2\text{)}.$$
+
+Diện tích hình tròn là $\pi\cdot6^2=36\pi$ (cm²). Diện tích phần hình tròn nằm ngoài lục giác là
+$$36\pi-54\sqrt3\approx19{,}57\ \text{(cm}^2\text{)}.$$
+
+Vậy diện tích cần tìm khoảng $19{,}57$ cm².
 
 **Đáp số.** a) $6$ cm, $60^\circ$; b) $6\sqrt3$ cm; c) $\approx19{,}57$ cm².
 :::
