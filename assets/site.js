@@ -56,22 +56,28 @@
 
   /* ---------- a long formula inside a sentence scrolls on its own, the page never does ---------- */
   var fitMath = function () {
+    // lay out the answer options first (formulas at full width), then let any formula that still overflows scroll
+    $$('.main .katex-wide').forEach(function (k) { k.classList.remove('katex-wide'); });
+    fitOpts();
     $$('.main .katex').forEach(function (k) {
       if (k.parentNode.classList.contains('katex-display')) return;
-      k.classList.remove('katex-wide');
       var box = k.parentNode;
       while (box && box !== d.body && getComputedStyle(box).display === 'inline') box = box.parentNode;
       if (box && k.getBoundingClientRect().width > box.clientWidth + 1) k.classList.add('katex-wide');
     });
-    fitOpts();
   };
   /* answer options that do not fit side by side: four per row -> two per row -> one per row */
   var optsOverflow = function (g) {
-    var kids = g.children, i, c, w;
+    var kids = g.children, i, j, c, w, r, parts;
     for (i = 0; i < kids.length; i++) {
       c = kids[i].firstElementChild && kids[i].firstElementChild.tagName === 'LABEL' ? kids[i].firstElementChild : kids[i];
       w = kids[i].clientWidth;
-      if (w && (c.scrollWidth > w + 1 || kids[i].scrollWidth > w + 1)) return true;
+      if (!w) continue;
+      if (c.scrollWidth > w + 1 || kids[i].scrollWidth > w + 1) return true;
+      // a formula that cannot wrap may stick out of a flex label without changing scrollWidth: compare edges
+      r = kids[i].getBoundingClientRect().right;
+      parts = kids[i].querySelectorAll('.katex');
+      for (j = 0; j < parts.length; j++) if (parts[j].getBoundingClientRect().right > r + 1) return true;
     }
     return false;
   };
@@ -86,6 +92,7 @@
   if ($('.main .katex') || $('.mc-opts, .qz-opts')) {
     fitMath();
     window.addEventListener('load', fitMath);
+    if (d.fonts && d.fonts.ready) d.fonts.ready.then(fitMath);
     var fitT; window.addEventListener('resize', function () { clearTimeout(fitT); fitT = setTimeout(fitMath, 150); });
     d.addEventListener('toggle', function () { fitMath(); }, true);
   }

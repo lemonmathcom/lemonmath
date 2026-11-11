@@ -289,6 +289,7 @@ a.card:hover { transform: translateY(-3px); }
 .cols-1 { grid-template-columns: 1fr; }
 /* the options react to the width of their own box, not the screen */
 .box-body, .qz-item { container-type: inline-size; }
+.mc-opts, .qz-opts { min-width: 0; max-width: 100%; }
 @container (max-width: 640px) { .cols-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @container (max-width: 420px) { .cols-2, .qz-opts.cols-2 { grid-template-columns: 1fr; } }
 @container (max-width: 250px) { .cols-4 { grid-template-columns: 1fr; } }

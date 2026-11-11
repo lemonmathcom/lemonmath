@@ -111,4 +111,4 @@ Both tests are accepted by US universities, and many students try both. The digi
 - **Leaving blanks.** A guess can only help.
 :::
 
-The official ACT website offers free practice material, including a full practice test; use it alongside the lessons here. When you have revised the topics, try ACT Math practice test 1 in this section.
+The official ACT website offers free practice material, including a full practice test; use it alongside the lessons here. When you have revised the topics, try [ACT Math practice test 1](lesson:act-practice-test-1).

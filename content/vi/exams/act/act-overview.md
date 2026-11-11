@@ -111,4 +111,4 @@ Cả hai kì thi đều được các trường đại học Hoa Kì chấp nh�
 - **Bỏ trống.** Đoán chỉ có lợi chứ không có hại.
 :::
 
-Trang chính thức của ACT có tài liệu luyện tập miễn phí, kể cả một đề luyện đầy đủ; hãy dùng song song với các bài học ở đây. Khi đã ôn xong các chủ đề, hãy làm Đề luyện ACT Math số 1 trong mục này.
+Trang chính thức của ACT có tài liệu luyện tập miễn phí, kể cả một đề luyện đầy đủ; hãy dùng song song với các bài học ở đây. Khi đã ôn xong các chủ đề, hãy làm [Đề luyện ACT Math số 1](lesson:act-practice-test-1).
