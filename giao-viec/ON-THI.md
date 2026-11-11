@@ -22,7 +22,9 @@ Thứ tự ưu tiên đề nghị: O12 (kĩ năng, ngắn, dùng cho mọi học
 ## Tiến độ (tài khoản Pro tự viết từ 11/11/2026)
 - Chưa giao gói nào cho tài khoản khác (11/11/2026).
 - Đã xong: evidence-based-revision, E001–E011 (toàn bộ bài chủ đề SAT: sat-overview, sat-desmos-strategies, sat-linear-equations-systems, sat-linear-functions-inequalities, sat-equivalent-expressions, sat-quadratics-nonlinear, sat-exponential-functions, sat-ratios-percentages-units, sat-statistics-probability, sat-area-volume-lines-angles, sat-triangles-trig-circles).
-- Tiếp theo: E012–E013 (2 đề luyện SAT, type: test, mỗi đề 2 module × 22 câu), rồi gói O12 kĩ năng ôn thi.
+- SAT xong trọn gói O01–O02 (E001–E013), kể cả 2 đề luyện. Đề luyện sinh từ tools/gen/sat_tests.py (ngân hàng câu song ngữ) — nếu sửa đề, sửa thẳng file .md.
+- Tiếp theo: gói O12 kĩ năng ôn thi (revision-plan, error-log, exam-day-strategy, calculator-skills, calm-under-pressure), rồi AP Calculus.
+- Đề trắc nghiệm quốc tế: có thể dùng nhiều hộp `:::quiz test` (mỗi module một hộp); câu giữ đúng thứ tự viết, đánh số liên tục, không chia Phần I/II/III.
 - Biểu đồ dữ liệu (trục khác đơn vị): thêm dòng `shape: free` trong :::graph.
 - Quy ước số: bản Anh viết 24{,}000 hoặc 24,000; bản Việt viết 24.000 (dấu chấm phân cách hàng nghìn, {,} cho số thập phân) để check.js so khớp số liệu hai bản.
 

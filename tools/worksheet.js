@@ -118,6 +118,7 @@ function worksheet(o) {
   const p = parts(o.md, o.lang);
   if (!p.exercises.length && !p.quiz.length) return null;
   if (o.meta.type === 'paper') return paperSheet(o, L, p);
+  if (o.meta.type === 'test') return null; // international practice tests: print the page itself (questions + answer appendix)
   const exam = !p.exercises.length;
   const R = (s) => (s ? o.renderMd(s) : '');
   const qrUrl = o.lessonUrl + (exam ? '' : '#ex-1');

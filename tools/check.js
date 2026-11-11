@@ -61,9 +61,10 @@ function stats(file) {
     return s;
   }
   if (meta.type === 'test') { // international practice paper (SAT, ACT, AP ...): :::quiz test, one mark per question
-    const qx = /^:::quiz[ \t]+test[ \t]*\n([\s\S]*?)^:::[ \t]*$/m.exec(body);
-    if (!qx) { problem(file + ': đề luyện quốc tế cần một hộp ":::quiz test"'); return s; }
-    const it = require('./render.js').parseQuiz(qx[1]);
+    const boxes = [...body.matchAll(/^:::quiz[ \t]+test[ \t]*\n([\s\S]*?)^:::[ \t]*$/gm)];
+    if (!boxes.length) { problem(file + ': đề luyện quốc tế cần ít nhất một hộp ":::quiz test"'); return s; }
+    const it = [].concat(...boxes.map((b) => require('./render.js').parseQuiz(b[1])));
+    s.sections = boxes.length;
     const c = (t) => it.filter((i) => i.type === t).length;
     s.quiz = c('mc') + '-' + c('tf') + '-' + c('sa');
     if (it.length < 15) problem(file + ': đề luyện chỉ có ' + it.length + ' câu (cần ≥ 15)');

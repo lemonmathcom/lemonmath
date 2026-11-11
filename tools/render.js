@@ -155,11 +155,14 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
       const L = QZ[lang], items = parseQuiz(body);
       const inl = (md) => { const h = parse(md).trim(); return /^<p>[\s\S]*<\/p>$/.test(h) && h.indexOf('<p>', 1) === -1 ? h.slice(3, -4) : h; };
       let n = 0, html = '', keys = '';
-      [['mc', 0], ['tf', 1], ['sa', 2]].forEach(([t, pi]) => {
-        const list = items.filter((it) => it.type === t);
+      // international practice tests (":::quiz test") keep the questions in the order written, numbered 1, 2, 3 …
+      const groups = title === 'test' ? [['all', -1]] : [['mc', 0], ['tf', 1], ['sa', 2]];
+      groups.forEach(([g, pi]) => {
+        const list = g === 'all' ? items : items.filter((it) => it.type === g);
         if (!list.length) return;
-        html += '<div class="qz-part"><h3>' + L.parts[pi] + '</h3>';
+        html += '<div class="qz-part">' + (pi >= 0 ? '<h3>' + L.parts[pi] + '</h3>' : '');
         list.forEach((it, j) => {
+          const t = it.type;
           n++;
           const name = 'qz' + qzNo + '-' + n;
           html += '<div class="qz-item" data-type="' + t + '" data-key="' + esc(t === 'sa' ? it.key.replace(',', '.') : it.key) + '"><div class="qz-q"><b>' + L.q + ' ' + (j + 1) + '.</b> ' + inl(it.q) + '</div>';
@@ -167,7 +170,7 @@ function blocks(text, parse, restoreCode, warn, lang, uid) {
           if (t === 'tf') html += '<table class="qz-tf"><tbody>' + it.opts.map((o, i) => { const c = 'abcd'[i]; return '<tr><td><b>' + c + ')</b> ' + inl(o) + '</td><td><label><input type="radio" name="' + name + c + '" value="T"> ' + L.T + '</label></td><td><label><input type="radio" name="' + name + c + '" value="F"> ' + L.F + '</label></td></tr>'; }).join('') + '</tbody></table>';
           if (t === 'sa') html += '<p class="qz-sa"><input type="text" inputmode="decimal" autocomplete="off" maxlength="8" placeholder="' + L.saPh + '" aria-label="' + L.answer + '"><span class="qz-boxes" aria-hidden="true"><i></i><i></i><i></i><i></i></span></p>';
           html += '<div class="qz-expl" hidden><b>' + L.answer + ': ' + esc(t === 'tf' ? it.key.split('').map((x, i) => 'abcd'[i] + ') ' + (x === 'T' ? L.T : L.F)).join('; ') : it.key) + '.</b> ' + parse(it.expl) + '</div></div>';
-          keys += '<li><b>' + L.parts[pi].split('.')[0] + ', ' + L.q.toLowerCase() + ' ' + (j + 1) + ':</b> ' + esc(t === 'tf' ? it.key.split('').map((x, i) => 'abcd'[i] + ') ' + (x === 'T' ? L.T : L.F)).join('; ') : it.key) + '. ' + inl(it.expl) + '</li>';
+          keys += '<li><b>' + (pi >= 0 ? L.parts[pi].split('.')[0] + ', ' + L.q.toLowerCase() : L.q) + ' ' + (j + 1) + ':</b> ' + esc(t === 'tf' ? it.key.split('').map((x, i) => 'abcd'[i] + ') ' + (x === 'T' ? L.T : L.F)).join('; ') : it.key) + '. ' + inl(it.expl) + '</li>';
         });
         html += '</div>';
       });
