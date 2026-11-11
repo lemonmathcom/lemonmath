@@ -516,3 +516,26 @@ pre { max-width: 100%; overflow-x: auto; padding: 12px 14px; border: 2px solid v
 @media (max-width: 520px) { .lang-btn { padding: 0 10px; gap: 4px; } }
 @media (max-width: 359px) { .lang-btn svg { display: none; } .main { padding-left: 12px; padding-right: 12px; } }
 @media print { #search-btn, #search-close, .side-top, .side-main { display: none !important; } }
+
+/* print button on every page */
+.foot-print { border: 0; background: transparent; padding: 8px 4px; color: var(--link); font: inherit; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+@media print {
+  .hero-art, .hero-actions, .langbar, .paper-actions, .soon-note a { display: none !important; }
+  .hero { display: block; padding: 0; }
+  .page, .page.wide { max-width: none !important; }
+  .main { padding: 0 !important; }
+  .card, .gtile, .level, .gradehead, .feat, .lesson-list a, .eyebrow, .cicon, .feat-ico { box-shadow: none !important; }
+  .card, .gtile, .feat, .lesson-list li, .level-head { break-inside: avoid; }
+  .card, .gtile, .gradehead, .level, .lesson-list a, .eyebrow, .gbadge, .nav-num { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .level { padding: 4mm; margin: 4mm 0; border-width: 1.2px; } .level-head { break-after: avoid; }
+  .gradehead { padding: 4mm 5mm; margin: 0 0 4mm; border-width: 1.2px; } .grade-mascot { width: 22mm; height: 22mm; }
+  .cards { grid-template-columns: repeat(2, 1fr); gap: 3mm; margin: 3mm 0; }
+  .card { padding: 3mm 4mm; border-width: 1.2px; } .card h3 { font-size: 11.5pt; } .card p, .card-meta { font-size: 9.5pt; }
+  .cicon { width: 9mm; height: 9mm; border-width: 1.2px; } .cicon svg { width: 5mm; height: 5mm; }
+  .cicon.big { width: 14mm; height: 14mm; }
+  .gtiles { grid-template-columns: repeat(6, 1fr); gap: 3mm; } .gtile { padding: 2mm; border-width: 1.2px; } .gnum { font-size: 20pt; }
+  .feat-grid { grid-template-columns: repeat(2, 1fr); gap: 3mm; } .feat { padding: 3mm 4mm; border-width: 1.2px; }
+  .lesson-list { gap: 2mm; } .lesson-list a { padding: 2mm 4mm; border-width: 1.2px; min-height: 0; }
+  .bar { display: none !important; }
+  .lead { font-size: 11pt; }
+}
