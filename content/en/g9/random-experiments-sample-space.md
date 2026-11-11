@@ -172,9 +172,19 @@ b) A family has two children; record the sex of the first child and then of the 
 2. Draw a tree diagram for the two children.
 
 ::solution
-a) We have $\Omega=\{\text{red}, \text{blue}, \text{black}, \text{purple}\}$.
+The sample space $\Omega$ is the set of all possible outcomes of the experiment.
 
-b) We have $\Omega=\{(B, B),\ (B, G),\ (G, B),\ (G, G)\}$.
+a) The pen taken can be red, blue, black or purple. Hence
+$$\Omega=\{\text{red}, \text{blue}, \text{black}, \text{purple}\}.$$
+
+The sample space has $4$ elements.
+
+b) Each outcome is a pair $(x, y)$, where $x$ is the sex of the first child and $y$ the sex of the second; each position can be $B$ or $G$. Hence
+$$\Omega=\{(B, B),\ (B, G),\ (G, B),\ (G, G)\}.$$
+
+The sample space has $2\cdot2=4$ elements.
+
+So the two sample spaces are $\{\text{red}, \text{blue}, \text{black}, \text{purple}\}$ and $\{(B, B), (B, G), (G, B), (G, G)\}$.
 
 **Answer.** a) $\{\text{red}, \text{blue}, \text{black}, \text{purple}\}$; b) $\{(B, B), (B, G), (G, B), (G, G)\}$.
 :::
@@ -190,9 +200,14 @@ Toss a coin and then roll a dice. Describe the sample space and state its number
 2. List the outcomes with $T$, then with $H$.
 
 ::solution
-We have $\Omega=\{(T, 1), (T, 2), \ldots, (T, 6), (H, 1), (H, 2), \ldots, (H, 6)\}$.
+Write $H$ for heads and $T$ for tails. Each outcome is a pair $(x, y)$, where $x$ is the side of the coin ($H$ or $T$) and $y$ is the score on the die ($1$, $2$, …, $6$).
 
-So the sample space has $2\cdot6=12$ elements.
+Hence
+$$\Omega=\{(H, 1), (H, 2), \ldots, (H, 6), (T, 1), (T, 2), \ldots, (T, 6)\}.$$
+
+The coin has $2$ outcomes, and for each of them the die has $6$ outcomes. By the multiplication rule, the number of elements of $\Omega$ is $2\cdot6=12$.
+
+So the sample space has $12$ elements.
 
 **Answer.** $12$ elements.
 :::
@@ -208,7 +223,18 @@ From three cards showing the digits $1$, $2$, $3$, two cards are drawn at random
 2. Write down the numbers formed.
 
 ::solution
-So $\Omega=\{12, 13, 21, 23, 31, 32\}$, with $3\cdot2=6$ elements.
+The two cards are drawn one after the other without replacement, so the tens digit and the units digit are different.
+
+- The first card can be $1$, $2$ or $3$: $3$ ways.
+- For each of these, the second card is one of the two remaining cards: $2$ ways.
+
+Listing by the first card, we get the numbers $12$, $13$; $21$, $23$; $31$, $32$.
+
+Hence
+$$\Omega=\{12, 13, 21, 23, 31, 32\},$$
+with $3\cdot2=6$ elements.
+
+So the sample space is $\{12, 13, 21, 23, 31, 32\}$.
 
 **Answer.** $\{12, 13, 21, 23, 31, 32\}$.
 :::
@@ -244,7 +270,16 @@ The teacher chooses two of the four students An (A), Binh (B), Chi (C) and Dung 
 2. Count the pairs.
 
 ::solution
-We have $\Omega=\{AB, AC, AD, BC, BD, CD\}$, where $AB$ is the outcome "An and Binh are chosen".
+The two students are chosen together, so order does not matter: each outcome is a group of two students. We write, for example, $AB$ for the outcome "An and Binh are chosen".
+
+Listing by the first name in the group:
+
+- groups with An: $AB$, $AC$, $AD$;
+- groups with Binh (without An): $BC$, $BD$;
+- the remaining group: $CD$.
+
+Hence
+$$\Omega=\{AB, AC, AD, BC, BD, CD\}.$$
 
 So the sample space has $6$ elements.
 
@@ -269,11 +304,19 @@ c) If the cards are drawn with replacement, how many elements does the sample sp
 3. With replacement, each step has $4$ possibilities.
 
 ::solution
-a) We have $\Omega=\{(i, j)\mid i, j\in\{1, 2, 3, 4\},\ i\neq j\}$, with $4\cdot3=12$ elements.
+Each outcome is a pair $(i, j)$, where $i$ is the number on the first card and $j$ the number on the second card.
 
-b) The outcomes with total $5$ are $(1, 4)$, $(4, 1)$, $(2, 3)$, $(3, 2)$.
+a) The cards are drawn without replacement, so $i\neq j$. Hence
+$$\Omega=\{(i, j)\mid i, j\in\{1, 2, 3, 4\},\ i\neq j\}.$$
 
-c) With replacement, the pairs $(i, i)$ are added, so the sample space has $4\cdot4=16$ elements.
+There are $4$ ways for the first draw and $3$ ways for the second. By the multiplication rule, $\Omega$ has $4\cdot3=12$ elements.
+
+b) The pairs of different numbers in $\{1, 2, 3, 4\}$ with sum $5$ are $1+4$ and $2+3$. Taking the order of drawing into account, we get the outcomes
+$$(1, 4),\ (4, 1),\ (2, 3),\ (3, 2).$$
+
+c) With replacement, the second card can be the same as the first: there are $4$ ways each time. By the multiplication rule, the sample space has $4\cdot4=16$ elements.
+
+So a) the sample space has $12$ elements; b) there are $4$ outcomes with sum $5$; c) the sample space has $16$ elements.
 
 **Answer.** a) $12$; b) $(1, 4), (4, 1), (2, 3), (3, 2)$; c) $16$.
 :::

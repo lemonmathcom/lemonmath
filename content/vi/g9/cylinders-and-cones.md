@@ -245,9 +245,15 @@ Một hình trụ có bán kính đáy $3$ cm và chiều cao $10$ cm. Tính di�
 1. Thay $r=3$, $h=10$.
 
 ::solution
-Ta có $S_{xq}=2\pi\cdot3\cdot10=60\pi\approx188{,}50$ (cm²) và $V=\pi\cdot3^2\cdot10=90\pi\approx282{,}74$ (cm³).
+Hình trụ có bán kính đáy $r=3$ cm và chiều cao $h=10$ cm.
 
-Vậy $S_{xq}\approx188{,}50$ cm², $V\approx282{,}74$ cm³.
+Diện tích xung quanh của hình trụ là
+$$S_{xq}=2\pi rh=2\pi\cdot3\cdot10=60\pi\approx188{,}50\ \text{(cm}^2\text{)}.$$
+
+Thể tích của hình trụ là
+$$V=\pi r^2h=\pi\cdot3^2\cdot10=90\pi\approx282{,}74\ \text{(cm}^3\text{)}.$$
+
+Vậy $S_{xq}=60\pi\approx188{,}50$ cm² và $V=90\pi\approx282{,}74$ cm³.
 
 **Đáp số.** $60\pi\approx188{,}50$ cm²; $90\pi\approx282{,}74$ cm³.
 :::
@@ -263,9 +269,18 @@ Một hình nón có bán kính đáy $5$ cm và đường sinh $13$ cm. Tính c
 2. Thay vào hai công thức.
 
 ::solution
-Ta có $h=\sqrt{13^2-5^2}=12$ (cm). Do đó $S_{xq}=\pi\cdot5\cdot13=65\pi$ (cm²) và $V=\dfrac13\pi\cdot5^2\cdot12=100\pi$ (cm³).
+Hình nón có bán kính đáy $r=5$ cm và đường sinh $l=13$ cm.
 
-Vậy $h=12$ cm, $S_{xq}=65\pi\approx204{,}2$ cm², $V=100\pi\approx314{,}2$ cm³.
+Chiều cao $h$, bán kính đáy $r$ và đường sinh $l$ là ba cạnh của một tam giác vuông có cạnh huyền $l$. Theo định lí Pythagore, ta có
+$$h=\sqrt{l^2-r^2}=\sqrt{13^2-5^2}=\sqrt{144}=12\ \text{(cm)}.$$
+
+Diện tích xung quanh của hình nón là
+$$S_{xq}=\pi rl=\pi\cdot5\cdot13=65\pi\approx204{,}2\ \text{(cm}^2\text{)}.$$
+
+Thể tích của hình nón là
+$$V=\frac13\pi r^2h=\frac13\pi\cdot5^2\cdot12=100\pi\approx314{,}2\ \text{(cm}^3\text{)}.$$
+
+Vậy $h=12$ cm, $S_{xq}=65\pi$ cm² và $V=100\pi$ cm³.
 
 **Đáp số.** $12$ cm; $65\pi$ cm²; $100\pi$ cm³.
 :::
@@ -280,9 +295,14 @@ Một hình trụ có chiều cao $8$ cm và thể tích $72\pi$ cm³. Tính bá
 1. Giải $\pi r^2\cdot8=72\pi$ với $r>0$.
 
 ::solution
-Ta có $\pi r^2\cdot8=72\pi$, suy ra $r^2=9$, $r=3$ (vì $r>0$).
+Gọi $r$ (cm) là bán kính đáy của hình trụ ($r>0$).
 
-Vậy bán kính đáy là $3$ cm.
+Thể tích hình trụ là $V=\pi r^2h=\pi r^2\cdot8$. Theo đề bài, ta có
+$$8\pi r^2=72\pi.$$
+
+Suy ra $r^2=9$. Vì $r>0$ nên $r=3$.
+
+Vậy bán kính đáy của hình trụ là $3$ cm.
 
 **Đáp số.** $3$ cm.
 :::
@@ -315,7 +335,12 @@ Giả sử ở công trường có một đống cát hình nón với đường
 1. Tính thể tích, chia cho $5$, làm tròn lên.
 
 ::solution
-Ta có $V=\dfrac13\pi\cdot2^2\cdot1{,}5=2\pi\approx6{,}28$ (m³). Vì $5<6{,}28\leq10$ nên một chuyến không đủ, hai chuyến thì đủ.
+Đống cát có dạng hình nón với bán kính đáy $r=\dfrac42=2$ (m) và chiều cao $h=1{,}5$ m.
+
+Thể tích đống cát là
+$$V=\frac13\pi r^2h=\frac13\pi\cdot2^2\cdot1{,}5=2\pi\approx6{,}28\ \text{(m}^3\text{)}.$$
+
+Mỗi chuyến chở được $5$ m³. Vì $6{,}28>5$ nên một chuyến không chở hết; vì $6{,}28<2\cdot5=10$ nên hai chuyến chở hết.
 
 Vậy cần ít nhất $2$ chuyến xe.
 
@@ -332,9 +357,17 @@ Một cốc hình nón và một cốc hình trụ có cùng bán kính đáy $4
 1. Tính hai thể tích rồi chia.
 
 ::solution
-Ta có $V_{\text{nón}}=\dfrac13\pi\cdot4^2\cdot9=48\pi$ (cm³) và $V_{\text{trụ}}=\pi\cdot4^2\cdot9=144\pi$ (cm³). Ta thấy $144\pi:48\pi=3$.
+Hai cốc có cùng bán kính đáy $r=4$ cm và cùng chiều cao $h=9$ cm.
 
-Vậy cần đổ đầy cốc hình nón $3$ lần.
+Thể tích cốc hình nón là
+$$V_{\text{nón}}=\frac13\pi r^2h=\frac13\pi\cdot4^2\cdot9=48\pi\ \text{(cm}^3\text{)}.$$
+
+Thể tích cốc hình trụ là
+$$V_{\text{trụ}}=\pi r^2h=\pi\cdot4^2\cdot9=144\pi\ \text{(cm}^3\text{)}.$$
+
+Ta có $\dfrac{V_{\text{trụ}}}{V_{\text{nón}}}=\dfrac{144\pi}{48\pi}=3$.
+
+Vậy cốc hình nón có thể tích $48\pi$ cm³, cốc hình trụ có thể tích $144\pi$ cm³, và phải đổ đầy cốc hình nón $3$ lần để rót đầy cốc hình trụ.
 
 **Đáp số.** $48\pi$ cm³, $144\pi$ cm³; $3$ lần.
 :::
@@ -356,13 +389,27 @@ c) Tính diện tích xung quanh của hình nón ở câu b) (làm tròn kết 
 2. c) Đường sinh là $AC$.
 
 ::solution
-a) Hình trụ có $r=BC=4$ cm, $h=AB=6$ cm, nên $V=\pi\cdot4^2\cdot6=96\pi\approx301{,}59$ (cm³).
+a) Khi quay hình chữ nhật $ABCD$ một vòng quanh cạnh $AB$ cố định, ta được hình trụ có chiều cao $h=AB=6$ cm và bán kính đáy $r=BC=4$ cm.
 
-b) Hình nón có $r=4$ cm, $h=6$ cm, nên $V=\dfrac13\pi\cdot4^2\cdot6=32\pi\approx100{,}53$ (cm³).
+Thể tích hình trụ là
+$$V=\pi r^2h=\pi\cdot4^2\cdot6=96\pi\approx301{,}59\ \text{(cm}^3\text{)}.$$
 
-c) Đường sinh $l=AC=\sqrt{6^2+4^2}=2\sqrt{13}$ (cm), nên $S_{xq}=\pi\cdot4\cdot2\sqrt{13}=8\sqrt{13}\pi\approx90{,}62$ (cm²).
+Vậy thể tích hình trụ là $96\pi$ cm³.
 
-Vậy a) $96\pi$ cm³; b) $32\pi$ cm³; c) khoảng $90{,}62$ cm².
+b) Khi quay tam giác $ABC$ vuông tại $B$ một vòng quanh cạnh $AB$ cố định, ta được hình nón có đỉnh $A$, chiều cao $h=AB=6$ cm và bán kính đáy $r=BC=4$ cm.
+
+Thể tích hình nón là
+$$V=\frac13\pi r^2h=\frac13\pi\cdot4^2\cdot6=32\pi\approx100{,}53\ \text{(cm}^3\text{)}.$$
+
+Vậy thể tích hình nón là $32\pi$ cm³.
+
+c) Đường sinh của hình nón là $l=AC$. Xét tam giác $ABC$ vuông tại $B$, theo định lí Pythagore, ta có
+$$AC=\sqrt{AB^2+BC^2}=\sqrt{6^2+4^2}=\sqrt{52}=2\sqrt{13}\ \text{(cm)}.$$
+
+Diện tích xung quanh của hình nón là
+$$S_{xq}=\pi rl=\pi\cdot4\cdot2\sqrt{13}=8\sqrt{13}\,\pi\approx90{,}62\ \text{(cm}^2\text{)}.$$
+
+Vậy diện tích xung quanh của hình nón khoảng $90{,}62$ cm².
 
 **Đáp số.** a) $96\pi$ cm³; b) $32\pi$ cm³; c) $\approx90{,}62$ cm².
 :::

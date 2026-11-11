@@ -158,9 +158,12 @@ Find the length of an arc of $45^\circ$ on a circle of radius $12$ cm (give your
 1. Substitute $R=12$ and $n=45$.
 
 ::solution
-We have $l=\dfrac{\pi\cdot12\cdot45}{180}=3\pi\approx9.42$ (cm).
+The length $l$ of an arc of $n^\circ$ on a circle of radius $R$ is $l=\dfrac{\pi Rn}{180}$.
 
-So the arc is about $9.42$ cm long.
+With $R=12$ cm and $n=45$, we have
+$$l=\frac{\pi\cdot12\cdot45}{180}=3\pi\approx9.42\ \text{(cm)}.$$
+
+So the arc is $3\pi$ cm long, about $9.42$ cm.
 
 **Answer.** $l=3\pi\approx9.42$ cm.
 :::
@@ -175,9 +178,12 @@ Find the area of a sector of radius $6$ cm with an arc of $150^\circ$ (give your
 1. Substitute $R=6$ and $n=150$.
 
 ::solution
-We have $S=\dfrac{\pi\cdot36\cdot150}{360}=15\pi\approx47.12$ (cm²).
+The area $S$ of a sector of radius $R$ with an arc of $n^\circ$ is $S=\dfrac{\pi R^2n}{360}$.
 
-So the area of the sector is about $47.12$ cm².
+With $R=6$ cm and $n=150$, we have
+$$S=\frac{\pi\cdot6^2\cdot150}{360}=\frac{\pi\cdot36\cdot150}{360}=15\pi\approx47.12\ \text{(cm}^2\text{)}.$$
+
+So the area of the sector is $15\pi$ cm², about $47.12$ cm².
 
 **Answer.** $S=15\pi\approx47.12$ cm².
 :::
@@ -192,9 +198,13 @@ Find the area of the annulus between two concentric circles of radii $5$ cm and 
 1. Compute $R^2-r^2$ and multiply by $\pi$.
 
 ::solution
-We have $S=\pi\left(5^2-3^2\right)=16\pi\approx50.27$ (cm²).
+The area of the annulus between two concentric circles of radii $R$ and $r$ ($R>r$) is the difference of the areas of the two discs:
+$$S=\pi R^2-\pi r^2=\pi\left(R^2-r^2\right).$$
 
-So the area of the annulus is about $50.27$ cm².
+With $R=5$ cm and $r=3$ cm, we have
+$$S=\pi\left(5^2-3^2\right)=\pi(25-9)=16\pi\approx50.27\ \text{(cm}^2\text{)}.$$
+
+So the area of the annulus is $16\pi$ cm², about $50.27$ cm².
 
 **Answer.** $S=16\pi\approx50.27$ cm².
 :::
@@ -209,9 +219,14 @@ An arc of $90^\circ$ has length $4\pi$ cm. Find the radius of the circle.
 1. Substitute $l=4\pi$ and $n=90$.
 
 ::solution
-We have $R=\dfrac{180\cdot4\pi}{90\pi}=8$ (cm).
+Let $R$ (cm) be the radius of the circle ($R>0$).
 
-So the radius is $8$ cm.
+Using the arc length formula $l=\dfrac{\pi Rn}{180}$ with $l=4\pi$ and $n=90$, we have
+$$\frac{\pi R\cdot90}{180}=4\pi,\ \text{that is}\ \frac{\pi R}{2}=4\pi.$$
+
+It follows that $R=8$.
+
+So the radius of the circle is $8$ cm.
 
 **Answer.** $R=8$ cm.
 :::
@@ -227,7 +242,13 @@ Nam's bicycle wheel has diameter $70$ cm. How many metres does the bicycle trave
 2. Multiply by $100$ and convert to metres.
 
 ::solution
-In one turn the bicycle travels $C=70\pi$ (cm). Hence $100$ turns give $7000\pi\approx21991$ (cm) $\approx219.9$ (m).
+When the wheel turns once, the bicycle travels a distance equal to the circumference of the wheel.
+
+The circumference of the wheel is
+$$C=\pi d=70\pi\ \text{(cm)}.$$
+
+When the wheel turns $100$ times, the bicycle travels
+$$100\cdot70\pi=7000\pi\approx21991\ \text{(cm)}\approx219.9\ \text{(m)}.$$
 
 So the bicycle travels about $219.9$ m.
 
@@ -272,13 +293,24 @@ c) In those $20$ minutes, through how many degrees does the hour hand turn, and 
 3. Do the same for the hour hand.
 
 ::solution
-a) The minute hand turns $20\cdot6^\circ=120^\circ$, so $l=\dfrac{\pi\cdot10\cdot120}{180}=\dfrac{20\pi}{3}\approx20.94$ (cm).
+a) Each minute the minute hand turns through $\dfrac{360^\circ}{60}=6^\circ$. In $20$ minutes it turns through $20\cdot6^\circ=120^\circ$.
 
-b) We have $S=\dfrac{\pi\cdot10^2\cdot120}{360}=\dfrac{100\pi}{3}\approx104.72$ (cm²).
+The tip of the minute hand traces an arc of $120^\circ$ on a circle of radius $10$ cm. The distance it travels is
+$$l=\frac{\pi\cdot10\cdot120}{180}=\frac{20\pi}{3}\approx20.94\ \text{(cm)}.$$
 
-c) The hour hand turns $20\cdot0.5^\circ=10^\circ$, so $l=\dfrac{\pi\cdot6\cdot10}{180}=\dfrac{\pi}{3}\approx1.05$ (cm).
+So the tip of the minute hand travels about $20.94$ cm.
 
-So a) about $20.94$ cm; b) about $104.72$ cm²; c) $10^\circ$ and about $1.05$ cm.
+b) The minute hand sweeps a sector of radius $10$ cm with an arc of $120^\circ$. The area of this sector is
+$$S=\frac{\pi\cdot10^2\cdot120}{360}=\frac{100\pi}{3}\approx104.72\ \text{(cm}^2\text{)}.$$
+
+So the area of the sector is about $104.72$ cm².
+
+c) Each hour the hour hand turns through $\dfrac{360^\circ}{12}=30^\circ$, so each minute it turns through $\dfrac{30^\circ}{60}=0.5^\circ$. In $20$ minutes it turns through $20\cdot0.5^\circ=10^\circ$.
+
+The distance travelled by the tip of the hour hand is
+$$l=\frac{\pi\cdot6\cdot10}{180}=\frac{\pi}{3}\approx1.05\ \text{(cm)}.$$
+
+So the hour hand turns through $10^\circ$ and its tip travels about $1.05$ cm.
 
 **Answer.** a) $\dfrac{20\pi}{3}\approx20.94$ cm; b) $\dfrac{100\pi}{3}\approx104.72$ cm²; c) $10^\circ$ and $\dfrac{\pi}{3}\approx1.05$ cm.
 :::

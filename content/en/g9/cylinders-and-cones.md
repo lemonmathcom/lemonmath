@@ -245,9 +245,15 @@ A cylinder has base radius $3$ cm and height $10$ cm. Find its curved surface ar
 1. Substitute $r=3$ and $h=10$.
 
 ::solution
-We have $S_{\text{curved}}=2\pi\cdot3\cdot10=60\pi\approx188.50$ (cm²) and $V=\pi\cdot3^2\cdot10=90\pi\approx282.74$ (cm³).
+The cylinder has base radius $r=3$ cm and height $h=10$ cm.
 
-So $S_{\text{curved}}\approx188.50$ cm² and $V\approx282.74$ cm³.
+The curved surface area of the cylinder is
+$$S_{xq}=2\pi rh=2\pi\cdot3\cdot10=60\pi\approx188.50\ \text{(cm}^2\text{)}.$$
+
+The volume of the cylinder is
+$$V=\pi r^2h=\pi\cdot3^2\cdot10=90\pi\approx282.74\ \text{(cm}^3\text{)}.$$
+
+So $S_{xq}=60\pi\approx188.50$ cm² and $V=90\pi\approx282.74$ cm³.
 
 **Answer.** $60\pi\approx188.50$ cm²; $90\pi\approx282.74$ cm³.
 :::
@@ -263,9 +269,18 @@ A cone has base radius $5$ cm and slant height $13$ cm. Find its height, curved 
 2. Substitute into both formulae.
 
 ::solution
-We have $h=\sqrt{13^2-5^2}=12$ (cm). Hence $S_{\text{curved}}=\pi\cdot5\cdot13=65\pi$ (cm²) and $V=\dfrac13\pi\cdot5^2\cdot12=100\pi$ (cm³).
+The cone has base radius $r=5$ cm and slant height $l=13$ cm.
 
-So $h=12$ cm, $S_{\text{curved}}=65\pi\approx204.2$ cm² and $V=100\pi\approx314.2$ cm³.
+The height $h$, the base radius $r$ and the slant height $l$ are the sides of a right-angled triangle with hypotenuse $l$. By Pythagoras' theorem, we have
+$$h=\sqrt{l^2-r^2}=\sqrt{13^2-5^2}=\sqrt{144}=12\ \text{(cm)}.$$
+
+The curved surface area of the cone is
+$$S_{xq}=\pi rl=\pi\cdot5\cdot13=65\pi\approx204.2\ \text{(cm}^2\text{)}.$$
+
+The volume of the cone is
+$$V=\frac13\pi r^2h=\frac13\pi\cdot5^2\cdot12=100\pi\approx314.2\ \text{(cm}^3\text{)}.$$
+
+So $h=12$ cm, $S_{xq}=65\pi$ cm² and $V=100\pi$ cm³.
 
 **Answer.** $12$ cm; $65\pi$ cm²; $100\pi$ cm³.
 :::
@@ -280,9 +295,14 @@ A cylinder has height $8$ cm and volume $72\pi$ cm³. Find its base radius.
 1. Solve $\pi r^2\cdot8=72\pi$ with $r>0$.
 
 ::solution
-We have $\pi r^2\cdot8=72\pi$, so $r^2=9$ and $r=3$ (because $r>0$).
+Let $r$ (cm) be the base radius of the cylinder ($r>0$).
 
-So the base radius is $3$ cm.
+The volume of the cylinder is $V=\pi r^2h=\pi r^2\cdot8$. From the question, we have
+$$8\pi r^2=72\pi.$$
+
+It follows that $r^2=9$. Since $r>0$, we have $r=3$.
+
+So the base radius of the cylinder is $3$ cm.
 
 **Answer.** $3$ cm.
 :::
@@ -315,9 +335,14 @@ Suppose a building site has a conical sand pile with base diameter $4$ m and hei
 1. Find the volume, divide by $5$ and round up.
 
 ::solution
-We have $V=\dfrac13\pi\cdot2^2\cdot1.5=2\pi\approx6.28$ (m³). Since $5<6.28\leq10$, one load is not enough and two loads are.
+The sand pile is a cone with base radius $r=\dfrac42=2$ (m) and height $h=1.5$ m.
 
-So at least $2$ loads are needed.
+The volume of the sand pile is
+$$V=\frac13\pi r^2h=\frac13\pi\cdot2^2\cdot1.5=2\pi\approx6.28\ \text{(m}^3\text{)}.$$
+
+Each lorry load carries $5$ m³. Since $6.28>5$, one load is not enough; since $6.28<2\cdot5=10$, two loads are enough.
+
+So at least $2$ lorry loads are needed.
 
 **Answer.** $2$ loads.
 :::
@@ -332,9 +357,17 @@ A conical cup and a cylindrical cup have the same base radius $4$ cm and the sam
 1. Find both volumes, then divide.
 
 ::solution
-We have $V_{\text{cone}}=\dfrac13\pi\cdot4^2\cdot9=48\pi$ (cm³) and $V_{\text{cylinder}}=\pi\cdot4^2\cdot9=144\pi$ (cm³). Also $144\pi\div48\pi=3$.
+The two cups have the same base radius $r=4$ cm and the same height $h=9$ cm.
 
-So the conical cup must be filled $3$ times.
+The volume of the conical cup is
+$$V_{\text{cone}}=\frac13\pi r^2h=\frac13\pi\cdot4^2\cdot9=48\pi\ \text{(cm}^3\text{)}.$$
+
+The volume of the cylindrical cup is
+$$V_{\text{cylinder}}=\pi r^2h=\pi\cdot4^2\cdot9=144\pi\ \text{(cm}^3\text{)}.$$
+
+We have $\dfrac{V_{\text{cylinder}}}{V_{\text{cone}}}=\dfrac{144\pi}{48\pi}=3$.
+
+So the conical cup holds $48\pi$ cm³, the cylindrical cup holds $144\pi$ cm³, and the conical cup must be filled $3$ times to fill the cylindrical cup.
 
 **Answer.** $48\pi$ cm³, $144\pi$ cm³; $3$ times.
 :::
@@ -356,13 +389,27 @@ c) Find the curved surface area of the cone in b) (give your answer to 2 decimal
 2. c) The slant height is $AC$.
 
 ::solution
-a) The cylinder has $r=BC=4$ cm and $h=AB=6$ cm, so $V=\pi\cdot4^2\cdot6=96\pi\approx301.59$ (cm³).
+a) Turning the rectangle $ABCD$ through one full turn about the fixed side $AB$ gives a cylinder with height $h=AB=6$ cm and base radius $r=BC=4$ cm.
 
-b) The cone has $r=4$ cm and $h=6$ cm, so $V=\dfrac13\pi\cdot4^2\cdot6=32\pi\approx100.53$ (cm³).
+The volume of the cylinder is
+$$V=\pi r^2h=\pi\cdot4^2\cdot6=96\pi\approx301.59\ \text{(cm}^3\text{)}.$$
 
-c) The slant height is $l=AC=\sqrt{6^2+4^2}=2\sqrt{13}$ (cm), so $S_{\text{curved}}=\pi\cdot4\cdot2\sqrt{13}=8\sqrt{13}\pi\approx90.62$ (cm²).
+So the volume of the cylinder is $96\pi$ cm³.
 
-So a) $96\pi$ cm³; b) $32\pi$ cm³; c) about $90.62$ cm².
+b) Turning the triangle $ABC$, with a right angle at $B$, through one full turn about the fixed side $AB$ gives a cone with apex $A$, height $h=AB=6$ cm and base radius $r=BC=4$ cm.
+
+The volume of the cone is
+$$V=\frac13\pi r^2h=\frac13\pi\cdot4^2\cdot6=32\pi\approx100.53\ \text{(cm}^3\text{)}.$$
+
+So the volume of the cone is $32\pi$ cm³.
+
+c) The slant height of the cone is $l=AC$. In triangle $ABC$ with a right angle at $B$, by Pythagoras' theorem, we have
+$$AC=\sqrt{AB^2+BC^2}=\sqrt{6^2+4^2}=\sqrt{52}=2\sqrt{13}\ \text{(cm)}.$$
+
+The curved surface area of the cone is
+$$S_{xq}=\pi rl=\pi\cdot4\cdot2\sqrt{13}=8\sqrt{13}\,\pi\approx90.62\ \text{(cm}^2\text{)}.$$
+
+So the curved surface area of the cone is about $90.62$ cm².
 
 **Answer.** a) $96\pi$ cm³; b) $32\pi$ cm³; c) $\approx90.62$ cm².
 :::

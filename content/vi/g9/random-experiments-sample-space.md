@@ -172,9 +172,19 @@ b) Một gia đình có hai con; ghi giới tính của con thứ nhất rồi c
 2. Vẽ sơ đồ cây cho hai con.
 
 ::solution
-a) Ta có $\Omega=\{\text{đỏ}; \text{xanh}; \text{đen}; \text{tím}\}$.
+Không gian mẫu $\Omega$ là tập hợp tất cả các kết quả có thể xảy ra của phép thử.
 
-b) Ta có $\Omega=\{(T; T);\ (T; G);\ (G; T);\ (G; G)\}$.
+a) Chiếc bút rút ra có thể là bút đỏ, bút xanh, bút đen hoặc bút tím. Do đó
+$$\Omega=\{\text{đỏ}; \text{xanh}; \text{đen}; \text{tím}\}.$$
+
+Không gian mẫu có $4$ phần tử.
+
+b) Mỗi kết quả là một cặp $(x; y)$, trong đó $x$ là giới tính của con thứ nhất, $y$ là giới tính của con thứ hai; mỗi vị trí có thể là $T$ hoặc $G$. Do đó
+$$\Omega=\{(T; T);\ (T; G);\ (G; T);\ (G; G)\}.$$
+
+Không gian mẫu có $2\cdot2=4$ phần tử.
+
+Vậy hai không gian mẫu là $\{\text{đỏ}; \text{xanh}; \text{đen}; \text{tím}\}$ và $\{(T; T); (T; G); (G; T); (G; G)\}$.
 
 **Đáp số.** a) $\{\text{đỏ}; \text{xanh}; \text{đen}; \text{tím}\}$; b) $\{(T; T); (T; G); (G; T); (G; G)\}$.
 :::
@@ -190,9 +200,14 @@ Tung một đồng xu rồi gieo một con xúc xắc. Mô tả không gian mẫ
 2. Liệt kê với mặt $S$, rồi với mặt $N$.
 
 ::solution
-Ta có $\Omega=\{(S; 1); (S; 2); \ldots; (S; 6); (N; 1); (N; 2); \ldots; (N; 6)\}$.
+Kí hiệu $S$ là mặt sấp, $N$ là mặt ngửa. Mỗi kết quả của phép thử là một cặp $(x; y)$, trong đó $x$ là mặt xuất hiện của đồng xu ($S$ hoặc $N$) và $y$ là số chấm xuất hiện trên con xúc xắc ($1$, $2$, …, $6$).
 
-Vậy không gian mẫu có $2\cdot6=12$ phần tử.
+Do đó
+$$\Omega=\{(S; 1); (S; 2); \ldots; (S; 6); (N; 1); (N; 2); \ldots; (N; 6)\}.$$
+
+Đồng xu có $2$ kết quả, với mỗi kết quả đó con xúc xắc có $6$ kết quả. Theo quy tắc nhân, số phần tử của $\Omega$ là $2\cdot6=12$.
+
+Vậy không gian mẫu có $12$ phần tử.
 
 **Đáp số.** $12$ phần tử.
 :::
@@ -208,7 +223,18 @@ Từ ba thẻ ghi các chữ số $1$, $2$, $3$, rút ngẫu nhiên lần lượ
 2. Viết các số tạo thành.
 
 ::solution
-Vậy $\Omega=\{12; 13; 21; 23; 31; 32\}$, gồm $3\cdot2=6$ phần tử.
+Rút lần lượt hai thẻ không hoàn lại nên chữ số hàng chục và chữ số hàng đơn vị là hai chữ số khác nhau.
+
+- Thẻ rút lần đầu có thể là $1$, $2$ hoặc $3$: có $3$ cách.
+- Với mỗi cách đó, thẻ rút lần hai là một trong hai thẻ còn lại: có $2$ cách.
+
+Liệt kê theo thẻ rút lần đầu, ta được các số $12$, $13$; $21$, $23$; $31$, $32$.
+
+Do đó
+$$\Omega=\{12; 13; 21; 23; 31; 32\},$$
+gồm $3\cdot2=6$ phần tử.
+
+Vậy không gian mẫu là $\{12; 13; 21; 23; 31; 32\}$.
 
 **Đáp số.** $\{12; 13; 21; 23; 31; 32\}$.
 :::
@@ -244,7 +270,16 @@ Cô giáo chọn ngẫu nhiên đồng thời hai bạn trong bốn bạn An (A)
 2. Đếm các cặp.
 
 ::solution
-Ta có $\Omega=\{AB; AC; AD; BC; BD; CD\}$, trong đó $AB$ là kết quả "chọn An và Bình".
+Chọn đồng thời hai bạn nên không phân biệt thứ tự: mỗi kết quả là một nhóm gồm hai bạn. Ta kí hiệu, chẳng hạn, $AB$ là kết quả "chọn An và Bình".
+
+Liệt kê lần lượt theo bạn có tên đứng trước:
+
+- nhóm có An: $AB$, $AC$, $AD$;
+- nhóm có Bình (không có An): $BC$, $BD$;
+- nhóm còn lại: $CD$.
+
+Do đó
+$$\Omega=\{AB; AC; AD; BC; BD; CD\}.$$
 
 Vậy không gian mẫu có $6$ phần tử.
 
@@ -269,11 +304,19 @@ c) Nếu rút có hoàn lại thì không gian mẫu có bao nhiêu phần tử?
 3. Có hoàn lại: mỗi bước có $4$ khả năng.
 
 ::solution
-a) Ta có $\Omega=\{(i; j)\mid i, j\in\{1; 2; 3; 4\},\ i\neq j\}$, gồm $4\cdot3=12$ phần tử.
+Mỗi kết quả là một cặp $(i; j)$, trong đó $i$ là số trên thẻ rút lần đầu và $j$ là số trên thẻ rút lần hai.
 
-b) Các kết quả có tổng bằng $5$ là $(1; 4)$, $(4; 1)$, $(2; 3)$, $(3; 2)$.
+a) Rút không hoàn lại nên $i\neq j$. Do đó
+$$\Omega=\{(i; j)\mid i, j\in\{1; 2; 3; 4\},\ i\neq j\}.$$
 
-c) Có hoàn lại thì có thêm các cặp $(i; i)$, nên không gian mẫu có $4\cdot4=16$ phần tử.
+Lần đầu có $4$ cách rút, lần hai còn $3$ cách. Theo quy tắc nhân, $\Omega$ có $4\cdot3=12$ phần tử.
+
+b) Các cặp hai số khác nhau trong $\{1; 2; 3; 4\}$ có tổng bằng $5$ là $1+4$ và $2+3$. Kể cả thứ tự rút, ta được các kết quả
+$$(1; 4),\ (4; 1),\ (2; 3),\ (3; 2).$$
+
+c) Rút có hoàn lại thì thẻ rút lần hai có thể trùng thẻ lần đầu: mỗi lần đều có $4$ cách. Theo quy tắc nhân, không gian mẫu có $4\cdot4=16$ phần tử.
+
+Vậy a) không gian mẫu có $12$ phần tử; b) có $4$ kết quả có tổng bằng $5$; c) không gian mẫu có $16$ phần tử.
 
 **Đáp số.** a) $12$; b) $(1; 4), (4; 1), (2; 3), (3; 2)$; c) $16$.
 :::

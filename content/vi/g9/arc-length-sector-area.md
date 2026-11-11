@@ -158,9 +158,12 @@ Tính độ dài cung $45^\circ$ của đường tròn bán kính $12$ cm (làm 
 1. Thay $R=12$, $n=45$.
 
 ::solution
-Ta có $l=\dfrac{\pi\cdot12\cdot45}{180}=3\pi\approx9{,}42$ (cm).
+Độ dài $l$ của cung $n^\circ$ trên đường tròn bán kính $R$ là $l=\dfrac{\pi Rn}{180}$.
 
-Vậy cung dài khoảng $9{,}42$ cm.
+Với $R=12$ cm và $n=45$, ta có
+$$l=\frac{\pi\cdot12\cdot45}{180}=3\pi\approx9{,}42\ \text{(cm)}.$$
+
+Vậy cung dài $3\pi$ cm, khoảng $9{,}42$ cm.
 
 **Đáp số.** $l=3\pi\approx9{,}42$ cm.
 :::
@@ -175,9 +178,12 @@ Tính diện tích hình quạt tròn bán kính $6$ cm, cung $150^\circ$ (làm 
 1. Thay $R=6$, $n=150$.
 
 ::solution
-Ta có $S=\dfrac{\pi\cdot36\cdot150}{360}=15\pi\approx47{,}12$ (cm²).
+Diện tích $S$ của hình quạt tròn bán kính $R$, cung $n^\circ$ là $S=\dfrac{\pi R^2n}{360}$.
 
-Vậy diện tích hình quạt khoảng $47{,}12$ cm².
+Với $R=6$ cm và $n=150$, ta có
+$$S=\frac{\pi\cdot6^2\cdot150}{360}=\frac{\pi\cdot36\cdot150}{360}=15\pi\approx47{,}12\ \text{(cm}^2\text{)}.$$
+
+Vậy diện tích hình quạt là $15\pi$ cm², khoảng $47{,}12$ cm².
 
 **Đáp số.** $S=15\pi\approx47{,}12$ cm².
 :::
@@ -192,9 +198,13 @@ Tính diện tích hình vành khuyên giới hạn bởi hai đường tròn đ
 1. Tính $R^2-r^2$ rồi nhân với $\pi$.
 
 ::solution
-Ta có $S=\pi\left(5^2-3^2\right)=16\pi\approx50{,}27$ (cm²).
+Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm bán kính $R$ và $r$ ($R>r$) bằng hiệu diện tích của hai hình tròn:
+$$S=\pi R^2-\pi r^2=\pi\left(R^2-r^2\right).$$
 
-Vậy diện tích hình vành khuyên khoảng $50{,}27$ cm².
+Với $R=5$ cm và $r=3$ cm, ta có
+$$S=\pi\left(5^2-3^2\right)=\pi(25-9)=16\pi\approx50{,}27\ \text{(cm}^2\text{)}.$$
+
+Vậy diện tích hình vành khuyên là $16\pi$ cm², khoảng $50{,}27$ cm².
 
 **Đáp số.** $S=16\pi\approx50{,}27$ cm².
 :::
@@ -209,9 +219,14 @@ Một cung $90^\circ$ có độ dài $4\pi$ cm. Tính bán kính của đường
 1. Thay $l=4\pi$, $n=90$.
 
 ::solution
-Ta có $R=\dfrac{180\cdot4\pi}{90\pi}=8$ (cm).
+Gọi $R$ (cm) là bán kính của đường tròn ($R>0$).
 
-Vậy bán kính bằng $8$ cm.
+Áp dụng công thức độ dài cung $l=\dfrac{\pi Rn}{180}$ với $l=4\pi$ và $n=90$, ta có
+$$\frac{\pi R\cdot90}{180}=4\pi,\ \text{tức là}\ \frac{\pi R}{2}=4\pi.$$
+
+Suy ra $R=8$.
+
+Vậy bán kính của đường tròn là $8$ cm.
 
 **Đáp số.** $R=8$ cm.
 :::
@@ -227,7 +242,13 @@ Bánh xe đạp của Nam có đường kính $70$ cm. Khi bánh xe lăn đượ
 2. Nhân với $100$ rồi đổi ra mét.
 
 ::solution
-Mỗi vòng xe đi được $C=70\pi$ (cm). Do đó $100$ vòng ứng với $7000\pi\approx21991$ (cm) $\approx219{,}9$ (m).
+Khi bánh xe lăn được một vòng, xe đi được quãng đường bằng chu vi bánh xe.
+
+Chu vi bánh xe là
+$$C=\pi d=70\pi\ \text{(cm)}.$$
+
+Khi bánh xe lăn được $100$ vòng, xe đi được quãng đường
+$$100\cdot70\pi=7000\pi\approx21991\ \text{(cm)}\approx219{,}9\ \text{(m)}.$$
 
 Vậy xe đi được khoảng $219{,}9$ m.
 
@@ -272,13 +293,24 @@ c) Trong $20$ phút đó, kim giờ quay được bao nhiêu độ và đầu ki
 3. Làm tương tự với kim giờ.
 
 ::solution
-a) Kim phút quay $20\cdot6^\circ=120^\circ$, nên $l=\dfrac{\pi\cdot10\cdot120}{180}=\dfrac{20\pi}{3}\approx20{,}94$ (cm).
+a) Mỗi phút kim phút quay được $\dfrac{360^\circ}{60}=6^\circ$. Trong $20$ phút, kim phút quay được $20\cdot6^\circ=120^\circ$.
 
-b) Ta có $S=\dfrac{\pi\cdot10^2\cdot120}{360}=\dfrac{100\pi}{3}\approx104{,}72$ (cm²).
+Đầu kim phút vạch nên cung $120^\circ$ của đường tròn bán kính $10$ cm. Quãng đường đầu kim phút đi được là
+$$l=\frac{\pi\cdot10\cdot120}{180}=\frac{20\pi}{3}\approx20{,}94\ \text{(cm)}.$$
 
-c) Kim giờ quay $20\cdot0{,}5^\circ=10^\circ$, nên $l=\dfrac{\pi\cdot6\cdot10}{180}=\dfrac{\pi}{3}\approx1{,}05$ (cm).
+Vậy đầu kim phút đi được khoảng $20{,}94$ cm.
 
-Vậy a) khoảng $20{,}94$ cm; b) khoảng $104{,}72$ cm²; c) $10^\circ$ và khoảng $1{,}05$ cm.
+b) Kim phút quét được hình quạt tròn bán kính $10$ cm, cung $120^\circ$. Diện tích hình quạt đó là
+$$S=\frac{\pi\cdot10^2\cdot120}{360}=\frac{100\pi}{3}\approx104{,}72\ \text{(cm}^2\text{)}.$$
+
+Vậy diện tích hình quạt khoảng $104{,}72$ cm².
+
+c) Mỗi giờ kim giờ quay được $\dfrac{360^\circ}{12}=30^\circ$, nên mỗi phút quay được $\dfrac{30^\circ}{60}=0{,}5^\circ$. Trong $20$ phút, kim giờ quay được $20\cdot0{,}5^\circ=10^\circ$.
+
+Quãng đường đầu kim giờ đi được là
+$$l=\frac{\pi\cdot6\cdot10}{180}=\frac{\pi}{3}\approx1{,}05\ \text{(cm)}.$$
+
+Vậy kim giờ quay được $10^\circ$ và đầu kim giờ đi được khoảng $1{,}05$ cm.
 
 **Đáp số.** a) $\dfrac{20\pi}{3}\approx20{,}94$ cm; b) $\dfrac{100\pi}{3}\approx104{,}72$ cm²; c) $10^\circ$ và $\dfrac{\pi}{3}\approx1{,}05$ cm.
 :::
