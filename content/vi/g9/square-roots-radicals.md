@@ -172,7 +172,11 @@ Vậy $P=2$ với mọi $x<3$.
 Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-Tìm các căn bậc hai của: a) $121$; b) $0{,}49$; c) $\dfrac{25}{36}$.
+Tìm các căn bậc hai của mỗi số sau:
+
+a) $121$;
+b) $0{,}49$;
+c) $\dfrac{25}{36}$.
 
 ::hint
 **Kiến thức:** số dương $a$ có hai căn bậc hai là $\sqrt{a}$ và $-\sqrt{a}$.
@@ -182,13 +186,24 @@ Tìm các căn bậc hai của: a) $121$; b) $0{,}49$; c) $\dfrac{25}{36}$.
 2. Viết thêm số đối của nó.
 
 ::solution
-Ta có $11^2=121$, $0{,}7^2=0{,}49$, $\left(\dfrac56\right)^2=\dfrac{25}{36}$.
+Số dương $a$ có đúng hai căn bậc hai là hai số đối nhau: $\sqrt a$ và $-\sqrt a$.
+
+a) Ta có $11^2=121$ nên $\sqrt{121}=11$. Do đó các căn bậc hai của $121$ là $11$ và $-11$.
+
+b) Ta có $0{,}7^2=0{,}49$ nên $\sqrt{0{,}49}=0{,}7$. Do đó các căn bậc hai của $0{,}49$ là $0{,}7$ và $-0{,}7$.
+
+c) Ta có $\left(\dfrac56\right)^2=\dfrac{25}{36}$ nên $\sqrt{\dfrac{25}{36}}=\dfrac56$. Do đó các căn bậc hai của $\dfrac{25}{36}$ là $\dfrac56$ và $-\dfrac56$.
+
+Vậy các căn bậc hai cần tìm lần lượt là $\pm11$; $\pm0{,}7$; $\pm\dfrac56$.
 
 **Đáp số.** a) $\pm11$; b) $\pm0{,}7$; c) $\pm\dfrac56$.
 :::
 
 :::exercise
-Tính: a) $\sqrt{0{,}64}+\sqrt{1{,}21}$; b) $\left(\sqrt7\right)^2-\sqrt{(-6)^2}$.
+Tính:
+
+a) $\sqrt{0{,}64}+\sqrt{1{,}21}$;
+b) $\left(\sqrt7\right)^2-\sqrt{(-6)^2}$.
 
 ::hint
 **Kiến thức:** $\left(\sqrt{a}\right)^2=a$ với $a\ge0$; $\sqrt{a^2}=|a|$.
@@ -198,15 +213,22 @@ Tính: a) $\sqrt{0{,}64}+\sqrt{1{,}21}$; b) $\left(\sqrt7\right)^2-\sqrt{(-6)^2}
 2. Cộng hoặc trừ.
 
 ::solution
-a) Ta có $\sqrt{0{,}64}+\sqrt{1{,}21}=0{,}8+1{,}1=1{,}9$.
+a) Ta có $\sqrt{0{,}64}=0{,}8$ (vì $0{,}8>0$ và $0{,}8^2=0{,}64$) và $\sqrt{1{,}21}=1{,}1$ (vì $1{,}1>0$ và $1{,}1^2=1{,}21$). Do đó
+$$\sqrt{0{,}64}+\sqrt{1{,}21}=0{,}8+1{,}1=1{,}9.$$
 
-b) Ta có $\left(\sqrt7\right)^2-\sqrt{(-6)^2}=7-|-6|=7-6=1$.
+b) Áp dụng $\left(\sqrt a\right)^2=a$ (với $a\ge0$) và $\sqrt{a^2}=|a|$, ta có
+$$\left(\sqrt7\right)^2-\sqrt{(-6)^2}=7-|-6|=7-6=1.$$
+
+Vậy giá trị của hai biểu thức lần lượt là $1{,}9$ và $1$.
 
 **Đáp số.** a) $1{,}9$; b) $1$.
 :::
 
 :::exercise
-So sánh: a) $6$ và $\sqrt{35}$; b) $\sqrt{10}-1$ và $2$.
+So sánh:
+
+a) $6$ và $\sqrt{35}$;
+b) $\sqrt{10}-1$ và $2$.
 
 ::hint
 **Kiến thức:** với $a$, $b\ge0$: $a<b\iff\sqrt{a}<\sqrt{b}$.
@@ -216,15 +238,27 @@ So sánh: a) $6$ và $\sqrt{35}$; b) $\sqrt{10}-1$ và $2$.
 2. So sánh hai số dưới dấu căn.
 
 ::solution
-a) Ta có $6=\sqrt{36}$. Vì $36>35$ nên $\sqrt{36}>\sqrt{35}$, do đó $6>\sqrt{35}$.
+a) Ta có $6=\sqrt{36}$.
 
-b) Ta có $3=\sqrt9$. Vì $10>9$ nên $\sqrt{10}>3$. Suy ra $\sqrt{10}-1>2$.
+Vì $36>35$ nên $\sqrt{36}>\sqrt{35}$.
+
+Vậy $6>\sqrt{35}$.
+
+b) Ta có $3=\sqrt9$. Vì $10>9$ nên $\sqrt{10}>\sqrt9$, tức là $\sqrt{10}>3$.
+
+Cộng $-1$ vào hai vế, ta được $\sqrt{10}-1>3-1$, tức là $\sqrt{10}-1>2$.
+
+Vậy $\sqrt{10}-1>2$.
 
 **Đáp số.** a) $6>\sqrt{35}$; b) $\sqrt{10}-1>2$.
 :::
 
 :::exercise
-Tìm điều kiện của $x$ để mỗi căn thức xác định: a) $\sqrt{3x-12}$; b) $\sqrt{7-2x}$; c) $\sqrt{x^2+4}$.
+Tìm điều kiện của $x$ để mỗi căn thức sau xác định:
+
+a) $\sqrt{3x-12}$;
+b) $\sqrt{7-2x}$;
+c) $\sqrt{x^2+4}$.
 
 ::hint
 **Kiến thức:** $\sqrt{A}$ xác định khi $A\ge0$.
@@ -234,17 +268,28 @@ Tìm điều kiện của $x$ để mỗi căn thức xác định: a) $\sqrt{3x
 2. Giải; nhớ đổi chiều khi chia cho số âm.
 
 ::solution
-a) $\sqrt{3x-12}$ xác định khi $3x-12\ge0\iff 3x\ge12\iff x\ge4$.
+Căn thức $\sqrt A$ xác định khi biểu thức $A$ lấy giá trị không âm, tức là $A\ge0$.
 
-b) $\sqrt{7-2x}$ xác định khi $7-2x\ge0\iff -2x\ge-7\iff x\le3{,}5$.
+a) $\sqrt{3x-12}$ xác định khi $3x-12\ge0$, hay $3x\ge12$, tức là $x\ge4$.
 
-c) Vì $x^2+4\ge4>0$ với mọi $x$ nên $\sqrt{x^2+4}$ xác định với mọi $x$.
+Vậy điều kiện xác định là $x\ge4$.
+
+b) $\sqrt{7-2x}$ xác định khi $7-2x\ge0$, hay $-2x\ge-7$, tức là $x\le3{,}5$ (chia hai vế cho $-2<0$ nên đổi chiều).
+
+Vậy điều kiện xác định là $x\le3{,}5$.
+
+c) Vì $x^2\ge0$ với mọi $x$ nên $x^2+4\ge4>0$ với mọi $x$.
+
+Vậy $\sqrt{x^2+4}$ xác định với mọi số thực $x$.
 
 **Đáp số.** a) $x\ge4$; b) $x\le3{,}5$; c) mọi $x$.
 :::
 
 :::exercise
-Rút gọn các biểu thức sau: a) $\sqrt{\left(\sqrt3-1\right)^2}$; b) $\sqrt{\left(3-\sqrt{11}\right)^2}$.
+Rút gọn các biểu thức sau:
+
+a) $\sqrt{\left(\sqrt3-1\right)^2}$;
+b) $\sqrt{\left(3-\sqrt{11}\right)^2}$.
 
 ::hint
 **Kiến thức:** $\sqrt{A^2}=|A|$.
@@ -254,9 +299,19 @@ Rút gọn các biểu thức sau: a) $\sqrt{\left(\sqrt3-1\right)^2}$; b) $\sqr
 2. Bỏ dấu giá trị tuyệt đối.
 
 ::solution
-a) Vì $\sqrt3>\sqrt1=1$ nên $\sqrt3-1>0$. Do đó $\sqrt{\left(\sqrt3-1\right)^2}=\left|\sqrt3-1\right|=\sqrt3-1$.
+Áp dụng hằng đẳng thức $\sqrt{A^2}=|A|$.
 
-b) Vì $\sqrt{11}>\sqrt9=3$ nên $3-\sqrt{11}<0$. Do đó $\sqrt{\left(3-\sqrt{11}\right)^2}=\left|3-\sqrt{11}\right|=\sqrt{11}-3$.
+a) Ta có $\sqrt{\left(\sqrt3-1\right)^2}=\left|\sqrt3-1\right|$.
+
+Vì $3>1$ nên $\sqrt3>\sqrt1=1$, do đó $\sqrt3-1>0$. Suy ra $\left|\sqrt3-1\right|=\sqrt3-1$.
+
+Vậy $\sqrt{\left(\sqrt3-1\right)^2}=\sqrt3-1$.
+
+b) Ta có $\sqrt{\left(3-\sqrt{11}\right)^2}=\left|3-\sqrt{11}\right|$.
+
+Vì $11>9$ nên $\sqrt{11}>\sqrt9=3$, do đó $3-\sqrt{11}<0$. Suy ra $\left|3-\sqrt{11}\right|=-\left(3-\sqrt{11}\right)=\sqrt{11}-3$.
+
+Vậy $\sqrt{\left(3-\sqrt{11}\right)^2}=\sqrt{11}-3$.
 
 **Đáp số.** a) $\sqrt3-1$; b) $\sqrt{11}-3$.
 :::
@@ -272,7 +327,14 @@ Một tấm thảm hình vuông có diện tích $30$ m². Tính chu vi tấm th
 2. Chu vi bằng $4$ lần cạnh; bấm máy rồi làm tròn ở bước cuối.
 
 ::solution
-Cạnh tấm thảm dài $\sqrt{30}$ m. Do đó chu vi tấm thảm là $4\sqrt{30}\approx21{,}9$ (m).
+Gọi $a$ (m) là độ dài cạnh của tấm thảm ($a>0$).
+
+Diện tích tấm thảm là $30$ m² nên $a^2=30$. Vì $a>0$ nên $a=\sqrt{30}$.
+
+Chu vi tấm thảm là
+$$4a=4\sqrt{30}\approx21{,}9\ \text{(m)}.$$
+
+Vậy chu vi tấm thảm khoảng $21{,}9$ m.
 
 **Đáp số.** Khoảng $21{,}9$ m.
 :::
@@ -292,9 +354,18 @@ b) Một viên bi rơi mất đúng $2{,}5$ giây. Viên bi được thả từ 
 2. Câu b: dùng $h=5t^2$.
 
 ::solution
-a) Thay $h=80$ vào công thức, ta được $t=\sqrt{\dfrac{80}{5}}=\sqrt{16}=4$.
+a) Thay $h=80$ vào công thức $t=\sqrt{\dfrac h5}$, ta được
+$$t=\sqrt{\frac{80}{5}}=\sqrt{16}=4.$$
 
-b) Từ $t=\sqrt{\dfrac h5}$ suy ra $h=5t^2=5\cdot2{,}5^2=31{,}25$.
+Vậy sau $4$ giây quả bóng chạm đất.
+
+b) Thay $t=2{,}5$ vào công thức, ta được $\sqrt{\dfrac h5}=2{,}5$.
+
+Bình phương hai vế (hai vế đều không âm), ta được $\dfrac h5=2{,}5^2=6{,}25$.
+
+Suy ra $h=5\cdot6{,}25=31{,}25$.
+
+Vậy viên bi được thả từ độ cao $31{,}25$ m.
 
 **Đáp số.** a) $4$ giây; b) $31{,}25$ m.
 :::
@@ -310,7 +381,14 @@ Rút gọn biểu thức $Q=\sqrt{x^2-6x+9}-x$ với $x\ge3$.
 2. Với $x\ge3$, $|x-3|=x-3$.
 
 ::solution
-Ta có $Q=\sqrt{(x-3)^2}-x=|x-3|-x$. Vì $x\ge3$ nên $|x-3|=x-3$. Do đó $Q=x-3-x=-3$.
+Ta có $x^2-6x+9=(x-3)^2$. Do đó
+$$Q=\sqrt{(x-3)^2}-x=|x-3|-x.$$
+
+Vì $x\ge3$ nên $x-3\ge0$, suy ra $|x-3|=x-3$.
+
+Do đó $Q=(x-3)-x=-3$.
+
+Vậy với $x\ge3$ thì $Q=-3$.
 
 **Đáp số.** $Q=-3$.
 :::
@@ -333,11 +411,22 @@ c) Tìm $x$ để $A=6$.
 3. Giải $4x-8=36$ và đối chiếu điều kiện.
 
 ::solution
-a) $A$ xác định khi $4x-8\ge0\iff x\ge2$.
+a) Biểu thức $A=\sqrt{4x-8}$ xác định khi $4x-8\ge0$, hay $4x\ge8$, tức là $x\ge2$.
 
-b) Thay $x=6$ (thoả mãn điều kiện) vào $A$, ta được $A=\sqrt{24-8}=\sqrt{16}=4$.
+Vậy điều kiện xác định của $A$ là $x\ge2$.
 
-c) Ta có $A=6\iff 4x-8=36\iff x=11$ (thoả mãn điều kiện).
+b) Giá trị $x=6$ thoả mãn điều kiện $x\ge2$. Thay $x=6$ vào $A$, ta được
+$$A=\sqrt{4\cdot6-8}=\sqrt{16}=4.$$
+
+Vậy khi $x=6$ thì $A=4$.
+
+c) Với $x\ge2$, ta có $A=6$ khi $\sqrt{4x-8}=6$.
+
+Bình phương hai vế (hai vế đều không âm), ta được $4x-8=36$, hay $4x=44$, tức là $x=11$.
+
+Ta thấy $x=11$ thoả mãn điều kiện $x\ge2$.
+
+Vậy $A=6$ khi $x=11$.
 
 **Đáp số.** a) $x\ge2$; b) $A=4$; c) $x=11$.
 :::
@@ -353,7 +442,17 @@ Tìm $x$, biết $\sqrt{x^2}=2x-3$.
 2. Khi đó $x>0$ nên $|x|=x$; giải $x=2x-3$.
 
 ::solution
-Vì $\sqrt{x^2}=|x|\ge0$ nên cần $2x-3\ge0$, tức là $x\ge1{,}5$. Khi đó $x>0$ nên $|x|=x$. Suy ra $x=2x-3\iff x=3$ (thoả mãn điều kiện).
+Ta có $\sqrt{x^2}=|x|$, nên đẳng thức đã cho trở thành $|x|=2x-3$.
+
+Vì $|x|\ge0$ nên phải có $2x-3\ge0$, tức là $x\ge1{,}5$.
+
+Với $x\ge1{,}5$ thì $x>0$, do đó $|x|=x$. Khi đó ta có
+$$x=2x-3,$$
+suy ra $x=3$.
+
+Ta thấy $x=3$ thoả mãn điều kiện $x\ge1{,}5$. Thử lại: $\sqrt{3^2}=3$ và $2\cdot3-3=3$.
+
+Vậy $x=3$.
 
 **Đáp số.** $x=3$.
 :::

@@ -172,7 +172,11 @@ So $P=2$ for every $x<3$.
 Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
 
 :::exercise
-Find the square roots of: a) $121$; b) $0.49$; c) $\dfrac{25}{36}$.
+Find the square roots of each of the following numbers:
+
+a) $121$;
+b) $0.49$;
+c) $\dfrac{25}{36}$.
 
 ::hint
 **What you need:** a positive number $a$ has two square roots, $\sqrt{a}$ and $-\sqrt{a}$.
@@ -182,13 +186,24 @@ Find the square roots of: a) $121$; b) $0.49$; c) $\dfrac{25}{36}$.
 2. Add its opposite.
 
 ::solution
-We have $11^2=121$, $0.7^2=0.49$, $\left(\dfrac56\right)^2=\dfrac{25}{36}$.
+A positive number $a$ has exactly two square roots, which are opposite numbers: $\sqrt a$ and $-\sqrt a$.
+
+a) We have $11^2=121$, so $\sqrt{121}=11$. Hence the square roots of $121$ are $11$ and $-11$.
+
+b) We have $0.7^2=0.49$, so $\sqrt{0.49}=0.7$. Hence the square roots of $0.49$ are $0.7$ and $-0.7$.
+
+c) We have $\left(\dfrac56\right)^2=\dfrac{25}{36}$, so $\sqrt{\dfrac{25}{36}}=\dfrac56$. Hence the square roots of $\dfrac{25}{36}$ are $\dfrac56$ and $-\dfrac56$.
+
+So the square roots are $\pm11$; $\pm0.7$; $\pm\dfrac56$ respectively.
 
 **Answer.** a) $\pm11$; b) $\pm0.7$; c) $\pm\dfrac56$.
 :::
 
 :::exercise
-Evaluate: a) $\sqrt{0.64}+\sqrt{1.21}$; b) $\left(\sqrt7\right)^2-\sqrt{(-6)^2}$.
+Calculate:
+
+a) $\sqrt{0.64}+\sqrt{1.21}$;
+b) $\left(\sqrt7\right)^2-\sqrt{(-6)^2}$.
 
 ::hint
 **What you need:** $\left(\sqrt{a}\right)^2=a$ for $a\ge0$; $\sqrt{a^2}=|a|$.
@@ -198,15 +213,22 @@ Evaluate: a) $\sqrt{0.64}+\sqrt{1.21}$; b) $\left(\sqrt7\right)^2-\sqrt{(-6)^2}$
 2. Add or subtract.
 
 ::solution
-a) We have $\sqrt{0.64}+\sqrt{1.21}=0.8+1.1=1.9$.
+a) We have $\sqrt{0.64}=0.8$ (since $0.8>0$ and $0.8^2=0.64$) and $\sqrt{1.21}=1.1$ (since $1.1>0$ and $1.1^2=1.21$). Hence
+$$\sqrt{0.64}+\sqrt{1.21}=0.8+1.1=1.9.$$
 
-b) We have $\left(\sqrt7\right)^2-\sqrt{(-6)^2}=7-|-6|=7-6=1$.
+b) Using $\left(\sqrt a\right)^2=a$ (for $a\ge0$) and $\sqrt{a^2}=|a|$, we have
+$$\left(\sqrt7\right)^2-\sqrt{(-6)^2}=7-|-6|=7-6=1.$$
+
+So the values of the two expressions are $1.9$ and $1$ respectively.
 
 **Answer.** a) $1.9$; b) $1$.
 :::
 
 :::exercise
-Compare: a) $6$ and $\sqrt{35}$; b) $\sqrt{10}-1$ and $2$.
+Compare:
+
+a) $6$ and $\sqrt{35}$;
+b) $\sqrt{10}-1$ and $2$.
 
 ::hint
 **What you need:** for $a$, $b\ge0$: $a<b\iff\sqrt{a}<\sqrt{b}$.
@@ -216,15 +238,27 @@ Compare: a) $6$ and $\sqrt{35}$; b) $\sqrt{10}-1$ and $2$.
 2. Compare the numbers under the root signs.
 
 ::solution
-a) We have $6=\sqrt{36}$. Since $36>35$, $\sqrt{36}>\sqrt{35}$, hence $6>\sqrt{35}$.
+a) We have $6=\sqrt{36}$.
 
-b) We have $3=\sqrt9$. Since $10>9$, $\sqrt{10}>3$. So $\sqrt{10}-1>2$.
+Since $36>35$, we have $\sqrt{36}>\sqrt{35}$.
+
+So $6>\sqrt{35}$.
+
+b) We have $3=\sqrt9$. Since $10>9$, we have $\sqrt{10}>\sqrt9$, that is $\sqrt{10}>3$.
+
+Adding $-1$ to both sides, we get $\sqrt{10}-1>3-1$, that is $\sqrt{10}-1>2$.
+
+So $\sqrt{10}-1>2$.
 
 **Answer.** a) $6>\sqrt{35}$; b) $\sqrt{10}-1>2$.
 :::
 
 :::exercise
-Find the condition on $x$ for each expression to be defined: a) $\sqrt{3x-12}$; b) $\sqrt{7-2x}$; c) $\sqrt{x^2+4}$.
+Find the condition on $x$ for each of the following radicals to be defined:
+
+a) $\sqrt{3x-12}$;
+b) $\sqrt{7-2x}$;
+c) $\sqrt{x^2+4}$.
 
 ::hint
 **What you need:** $\sqrt{A}$ is defined when $A\ge0$.
@@ -234,17 +268,28 @@ Find the condition on $x$ for each expression to be defined: a) $\sqrt{3x-12}$; 
 2. Solve it; remember to reverse the sign when dividing by a negative number.
 
 ::solution
-a) $\sqrt{3x-12}$ is defined when $3x-12\ge0\iff 3x\ge12\iff x\ge4$.
+The radical $\sqrt A$ is defined when the expression $A$ takes a non-negative value, that is $A\ge0$.
 
-b) $\sqrt{7-2x}$ is defined when $7-2x\ge0\iff -2x\ge-7\iff x\le3.5$.
+a) $\sqrt{3x-12}$ is defined when $3x-12\ge0$, that is $3x\ge12$, so $x\ge4$.
 
-c) Since $x^2+4\ge4>0$ for every $x$, $\sqrt{x^2+4}$ is defined for every $x$.
+So the condition is $x\ge4$.
+
+b) $\sqrt{7-2x}$ is defined when $7-2x\ge0$, that is $-2x\ge-7$, so $x\le3.5$ (dividing both sides by $-2<0$ reverses the direction).
+
+So the condition is $x\le3.5$.
+
+c) Since $x^2\ge0$ for every $x$, we have $x^2+4\ge4>0$ for every $x$.
+
+So $\sqrt{x^2+4}$ is defined for every real number $x$.
 
 **Answer.** a) $x\ge4$; b) $x\le3.5$; c) every $x$.
 :::
 
 :::exercise
-Simplify the following expressions: a) $\sqrt{\left(\sqrt3-1\right)^2}$; b) $\sqrt{\left(3-\sqrt{11}\right)^2}$.
+Simplify the following expressions:
+
+a) $\sqrt{\left(\sqrt3-1\right)^2}$;
+b) $\sqrt{\left(3-\sqrt{11}\right)^2}$.
 
 ::hint
 **What you need:** $\sqrt{A^2}=|A|$.
@@ -254,9 +299,19 @@ Simplify the following expressions: a) $\sqrt{\left(\sqrt3-1\right)^2}$; b) $\sq
 2. Remove the absolute value.
 
 ::solution
-a) Since $\sqrt3>\sqrt1=1$, $\sqrt3-1>0$. Hence $\sqrt{\left(\sqrt3-1\right)^2}=\left|\sqrt3-1\right|=\sqrt3-1$.
+We use the identity $\sqrt{A^2}=|A|$.
 
-b) Since $\sqrt{11}>\sqrt9=3$, $3-\sqrt{11}<0$. Hence $\sqrt{\left(3-\sqrt{11}\right)^2}=\left|3-\sqrt{11}\right|=\sqrt{11}-3$.
+a) We have $\sqrt{\left(\sqrt3-1\right)^2}=\left|\sqrt3-1\right|$.
+
+Since $3>1$, we have $\sqrt3>\sqrt1=1$, so $\sqrt3-1>0$. It follows that $\left|\sqrt3-1\right|=\sqrt3-1$.
+
+So $\sqrt{\left(\sqrt3-1\right)^2}=\sqrt3-1$.
+
+b) We have $\sqrt{\left(3-\sqrt{11}\right)^2}=\left|3-\sqrt{11}\right|$.
+
+Since $11>9$, we have $\sqrt{11}>\sqrt9=3$, so $3-\sqrt{11}<0$. It follows that $\left|3-\sqrt{11}\right|=-\left(3-\sqrt{11}\right)=\sqrt{11}-3$.
+
+So $\sqrt{\left(3-\sqrt{11}\right)^2}=\sqrt{11}-3$.
 
 **Answer.** a) $\sqrt3-1$; b) $\sqrt{11}-3$.
 :::
@@ -272,7 +327,14 @@ A square rug has an area of $30$ m². Find its perimeter (rounded to one decimal
 2. The perimeter is $4$ times the side; use the calculator and round only at the end.
 
 ::solution
-The side of the rug is $\sqrt{30}$ m. Hence its perimeter is $4\sqrt{30}\approx21.9$ (m).
+Let $a$ (m) be the side length of the rug ($a>0$).
+
+The area of the rug is $30$ m², so $a^2=30$. Since $a>0$, we have $a=\sqrt{30}$.
+
+The perimeter of the rug is
+$$4a=4\sqrt{30}\approx21.9\ \text{(m)}.$$
+
+So the perimeter of the rug is about $21.9$ m.
 
 **Answer.** About $21.9$ m.
 :::
@@ -292,9 +354,18 @@ b) A marble takes exactly $2.5$ seconds to fall. From what height was it dropped
 2. Part b: use $h=5t^2$.
 
 ::solution
-a) Substituting $h=80$ into the formula, we get $t=\sqrt{\dfrac{80}{5}}=\sqrt{16}=4$.
+a) Substituting $h=80$ into the formula $t=\sqrt{\dfrac h5}$, we get
+$$t=\sqrt{\frac{80}{5}}=\sqrt{16}=4.$$
 
-b) From $t=\sqrt{\dfrac h5}$ we get $h=5t^2=5\cdot2.5^2=31.25$.
+So the ball hits the ground after $4$ seconds.
+
+b) Substituting $t=2.5$ into the formula, we get $\sqrt{\dfrac h5}=2.5$.
+
+Squaring both sides (both are non-negative), we get $\dfrac h5=2.5^2=6.25$.
+
+It follows that $h=5\cdot6.25=31.25$.
+
+So the marble was dropped from a height of $31.25$ m.
 
 **Answer.** a) $4$ seconds; b) $31.25$ m.
 :::
@@ -310,7 +381,14 @@ Simplify the expression $Q=\sqrt{x^2-6x+9}-x$ for $x\ge3$.
 2. For $x\ge3$, $|x-3|=x-3$.
 
 ::solution
-We have $Q=\sqrt{(x-3)^2}-x=|x-3|-x$. Since $x\ge3$, $|x-3|=x-3$. Hence $Q=x-3-x=-3$.
+We have $x^2-6x+9=(x-3)^2$. Hence
+$$Q=\sqrt{(x-3)^2}-x=|x-3|-x.$$
+
+Since $x\ge3$, we have $x-3\ge0$, so $|x-3|=x-3$.
+
+Hence $Q=(x-3)-x=-3$.
+
+So for $x\ge3$ we have $Q=-3$.
 
 **Answer.** $Q=-3$.
 :::
@@ -333,11 +411,22 @@ c) Find $x$ such that $A=6$.
 3. Solve $4x-8=36$ and check the condition.
 
 ::solution
-a) $A$ is defined when $4x-8\ge0\iff x\ge2$.
+a) The expression $A=\sqrt{4x-8}$ is defined when $4x-8\ge0$, that is $4x\ge8$, so $x\ge2$.
 
-b) Substituting $x=6$ (which satisfies the condition) into $A$, we get $A=\sqrt{24-8}=\sqrt{16}=4$.
+So $A$ is defined for $x\ge2$.
 
-c) We have $A=6\iff 4x-8=36\iff x=11$ (which satisfies the condition).
+b) The value $x=6$ satisfies the condition $x\ge2$. Substituting $x=6$ into $A$, we get
+$$A=\sqrt{4\cdot6-8}=\sqrt{16}=4.$$
+
+So when $x=6$ we have $A=4$.
+
+c) For $x\ge2$, we have $A=6$ when $\sqrt{4x-8}=6$.
+
+Squaring both sides (both are non-negative), we get $4x-8=36$, that is $4x=44$, so $x=11$.
+
+We see that $x=11$ satisfies the condition $x\ge2$.
+
+So $A=6$ when $x=11$.
 
 **Answer.** a) $x\ge2$; b) $A=4$; c) $x=11$.
 :::
@@ -353,7 +442,17 @@ Find $x$ given that $\sqrt{x^2}=2x-3$.
 2. Then $x>0$, so $|x|=x$; solve $x=2x-3$.
 
 ::solution
-Since $\sqrt{x^2}=|x|\ge0$, we need $2x-3\ge0$, that is, $x\ge1.5$. Then $x>0$, so $|x|=x$. Hence $x=2x-3\iff x=3$ (which satisfies the condition).
+We have $\sqrt{x^2}=|x|$, so the given equality becomes $|x|=2x-3$.
+
+Since $|x|\ge0$, we must have $2x-3\ge0$, that is $x\ge1.5$.
+
+For $x\ge1.5$ we have $x>0$, so $|x|=x$. Then we have
+$$x=2x-3,$$
+which gives $x=3$.
+
+We see that $x=3$ satisfies the condition $x\ge1.5$. Check: $\sqrt{3^2}=3$ and $2\cdot3-3=3$.
+
+So $x=3$.
 
 **Answer.** $x=3$.
 :::

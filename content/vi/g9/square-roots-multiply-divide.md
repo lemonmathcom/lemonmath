@@ -159,7 +159,11 @@ Vậy tốc độ của sóng khoảng $6$ m/s, tức khoảng $21{,}6$ km/h.
 Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-Tính: a) $\sqrt{16\cdot0{,}25}$; b) $\sqrt{2{,}5\cdot40}$; c) $\sqrt{12\cdot75}$.
+Tính:
+
+a) $\sqrt{16\cdot0{,}25}$;
+b) $\sqrt{2{,}5\cdot40}$;
+c) $\sqrt{12\cdot75}$.
 
 ::hint
 **Kiến thức:** $\sqrt{ab}=\sqrt a\cdot\sqrt b$ với $a$, $b\ge0$.
@@ -169,13 +173,25 @@ Tính: a) $\sqrt{16\cdot0{,}25}$; b) $\sqrt{2{,}5\cdot40}$; c) $\sqrt{12\cdot75}
 2. Nếu không, nhân lại để được một số chính phương.
 
 ::solution
-a) $\sqrt{16\cdot0{,}25}=\sqrt{16}\cdot\sqrt{0{,}25}=4\cdot0{,}5=2$. b) $\sqrt{2{,}5\cdot40}=\sqrt{100}=10$. c) $\sqrt{12\cdot75}=\sqrt{900}=30$.
+a) Áp dụng quy tắc khai căn một tích $\sqrt{ab}=\sqrt a\cdot\sqrt b$ (với $a\ge0$, $b\ge0$), ta có
+$$\sqrt{16\cdot0{,}25}=\sqrt{16}\cdot\sqrt{0{,}25}=4\cdot0{,}5=2.$$
+
+b) Ta có $2{,}5\cdot40=100$. Do đó $\sqrt{2{,}5\cdot40}=\sqrt{100}=10$.
+
+c) Ta có $12\cdot75=(4\cdot3)\cdot(3\cdot25)=4\cdot9\cdot25$. Do đó
+$$\sqrt{12\cdot75}=\sqrt4\cdot\sqrt9\cdot\sqrt{25}=2\cdot3\cdot5=30.$$
+
+Vậy kết quả lần lượt là $2$; $10$; $30$.
 
 **Đáp số.** a) $2$; b) $10$; c) $30$.
 :::
 
 :::exercise
-Tính: a) $\sqrt3\cdot\sqrt{27}$; b) $\sqrt{0{,}2}\cdot\sqrt{180}$; c) $\sqrt{1{,}6}\cdot\sqrt{250}$.
+Tính:
+
+a) $\sqrt3\cdot\sqrt{27}$;
+b) $\sqrt{0{,}2}\cdot\sqrt{180}$;
+c) $\sqrt{1{,}6}\cdot\sqrt{250}$.
 
 ::hint
 **Kiến thức:** $\sqrt a\cdot\sqrt b=\sqrt{ab}$.
@@ -185,13 +201,24 @@ Tính: a) $\sqrt3\cdot\sqrt{27}$; b) $\sqrt{0{,}2}\cdot\sqrt{180}$; c) $\sqrt{1{
 2. Khai căn kết quả.
 
 ::solution
-a) $\sqrt3\cdot\sqrt{27}=\sqrt{81}=9$. b) $\sqrt{0{,}2}\cdot\sqrt{180}=\sqrt{36}=6$. c) $\sqrt{1{,}6}\cdot\sqrt{250}=\sqrt{400}=20$.
+Áp dụng quy tắc nhân các căn bậc hai $\sqrt a\cdot\sqrt b=\sqrt{ab}$ (với $a\ge0$, $b\ge0$).
+
+a) Ta có $\sqrt3\cdot\sqrt{27}=\sqrt{3\cdot27}=\sqrt{81}=9$.
+
+b) Ta có $\sqrt{0{,}2}\cdot\sqrt{180}=\sqrt{0{,}2\cdot180}=\sqrt{36}=6$.
+
+c) Ta có $\sqrt{1{,}6}\cdot\sqrt{250}=\sqrt{1{,}6\cdot250}=\sqrt{400}=20$.
+
+Vậy kết quả lần lượt là $9$; $6$; $20$.
 
 **Đáp số.** a) $9$; b) $6$; c) $20$.
 :::
 
 :::exercise
-Tính: a) $\sqrt{\dfrac{49}{81}}$; b) $\sqrt{2\dfrac79}$.
+Tính:
+
+a) $\sqrt{\dfrac{49}{81}}$;
+b) $\sqrt{2\dfrac79}$.
 
 ::hint
 **Kiến thức:** $\sqrt{\dfrac ab}=\dfrac{\sqrt a}{\sqrt b}$ với $a\ge0$, $b>0$.
@@ -201,13 +228,24 @@ Tính: a) $\sqrt{\dfrac{49}{81}}$; b) $\sqrt{2\dfrac79}$.
 2. Khai căn tử và mẫu.
 
 ::solution
-a) $\sqrt{\dfrac{49}{81}}=\dfrac{\sqrt{49}}{\sqrt{81}}=\dfrac79$. b) Ta có $2\dfrac79=\dfrac{25}9$, do đó $\sqrt{2\dfrac79}=\dfrac{\sqrt{25}}{\sqrt9}=\dfrac53$.
+Áp dụng quy tắc khai căn một thương $\sqrt{\dfrac ab}=\dfrac{\sqrt a}{\sqrt b}$ (với $a\ge0$, $b>0$).
+
+a) Ta có $\sqrt{\dfrac{49}{81}}=\dfrac{\sqrt{49}}{\sqrt{81}}=\dfrac79$.
+
+b) Đổi hỗn số ra phân số: $2\dfrac79=\dfrac{2\cdot9+7}{9}=\dfrac{25}9$. Do đó
+$$\sqrt{2\frac79}=\sqrt{\frac{25}{9}}=\frac{\sqrt{25}}{\sqrt9}=\frac53.$$
+
+Vậy kết quả lần lượt là $\dfrac79$ và $\dfrac53$.
 
 **Đáp số.** a) $\dfrac79$; b) $\dfrac53$.
 :::
 
 :::exercise
-Tính: a) $\dfrac{\sqrt{72}}{\sqrt2}$; b) $\dfrac{\sqrt{6{,}4}}{\sqrt{0{,}1}}$; c) $\dfrac{\sqrt{12{,}5}}{\sqrt{0{,}5}}$.
+Tính:
+
+a) $\dfrac{\sqrt{72}}{\sqrt2}$;
+b) $\dfrac{\sqrt{6{,}4}}{\sqrt{0{,}1}}$;
+c) $\dfrac{\sqrt{12{,}5}}{\sqrt{0{,}5}}$.
 
 ::hint
 **Kiến thức:** $\dfrac{\sqrt a}{\sqrt b}=\sqrt{\dfrac ab}$.
@@ -217,13 +255,24 @@ Tính: a) $\dfrac{\sqrt{72}}{\sqrt2}$; b) $\dfrac{\sqrt{6{,}4}}{\sqrt{0{,}1}}$; 
 2. Khai căn thương.
 
 ::solution
-a) $\dfrac{\sqrt{72}}{\sqrt2}=\sqrt{36}=6$. b) $\dfrac{\sqrt{6{,}4}}{\sqrt{0{,}1}}=\sqrt{64}=8$. c) $\dfrac{\sqrt{12{,}5}}{\sqrt{0{,}5}}=\sqrt{25}=5$.
+Áp dụng quy tắc chia các căn bậc hai $\dfrac{\sqrt a}{\sqrt b}=\sqrt{\dfrac ab}$ (với $a\ge0$, $b>0$).
+
+a) Ta có $\dfrac{\sqrt{72}}{\sqrt2}=\sqrt{\dfrac{72}{2}}=\sqrt{36}=6$.
+
+b) Ta có $\dfrac{\sqrt{6{,}4}}{\sqrt{0{,}1}}=\sqrt{\dfrac{6{,}4}{0{,}1}}=\sqrt{64}=8$.
+
+c) Ta có $\dfrac{\sqrt{12{,}5}}{\sqrt{0{,}5}}=\sqrt{\dfrac{12{,}5}{0{,}5}}=\sqrt{25}=5$.
+
+Vậy kết quả lần lượt là $6$; $8$; $5$.
 
 **Đáp số.** a) $6$; b) $8$; c) $5$.
 :::
 
 :::exercise
-Rút gọn các biểu thức sau: a) $\sqrt{5x}\cdot\sqrt{20x}$ với $x\ge0$; b) $\dfrac{\sqrt{27y^3}}{\sqrt{3y}}$ với $y>0$.
+Rút gọn các biểu thức sau:
+
+a) $\sqrt{5x}\cdot\sqrt{20x}$ với $x\ge0$;
+b) $\dfrac{\sqrt{27y^3}}{\sqrt{3y}}$ với $y>0$.
 
 ::hint
 **Kiến thức:** gộp thành một căn, rồi dùng $\sqrt{A^2}=|A|$.
@@ -233,7 +282,19 @@ Rút gọn các biểu thức sau: a) $\sqrt{5x}\cdot\sqrt{20x}$ với $x\ge0$; 
 2. Viết kết quả dưới dạng bình phương và bỏ căn theo điều kiện.
 
 ::solution
-a) Ta có $\sqrt{5x}\cdot\sqrt{20x}=\sqrt{100x^2}=|10x|=10x$ (vì $x\ge0$). b) Ta có $\dfrac{\sqrt{27y^3}}{\sqrt{3y}}=\sqrt{9y^2}=|3y|=3y$ (vì $y>0$).
+a) Với $x\ge0$, ta có
+$$\sqrt{5x}\cdot\sqrt{20x}=\sqrt{5x\cdot20x}=\sqrt{100x^2}=\sqrt{(10x)^2}=|10x|.$$
+
+Vì $x\ge0$ nên $10x\ge0$, do đó $|10x|=10x$.
+
+Vậy $\sqrt{5x}\cdot\sqrt{20x}=10x$.
+
+b) Với $y>0$, ta có
+$$\frac{\sqrt{27y^3}}{\sqrt{3y}}=\sqrt{\frac{27y^3}{3y}}=\sqrt{9y^2}=\sqrt{(3y)^2}=|3y|.$$
+
+Vì $y>0$ nên $3y>0$, do đó $|3y|=3y$.
+
+Vậy $\dfrac{\sqrt{27y^3}}{\sqrt{3y}}=3y$.
 
 **Đáp số.** a) $10x$; b) $3y$.
 :::
@@ -249,7 +310,12 @@ Rút gọn biểu thức $\sqrt{4a^2}-3a$ với $a<0$.
 2. Với $a<0$, $|a|=-a$.
 
 ::solution
-Ta có $\sqrt{4a^2}-3a=2|a|-3a$. Vì $a<0$ nên $|a|=-a$. Do đó $\sqrt{4a^2}-3a=-2a-3a=-5a$.
+Ta có $\sqrt{4a^2}=\sqrt{(2a)^2}=|2a|=2|a|$.
+
+Vì $a<0$ nên $|a|=-a$. Do đó
+$$\sqrt{4a^2}-3a=2\cdot(-a)-3a=-2a-3a=-5a.$$
+
+Vậy với $a<0$ thì $\sqrt{4a^2}-3a=-5a$.
 
 **Đáp số.** $-5a$.
 :::
@@ -269,9 +335,18 @@ b) Cạnh mới gấp bao nhiêu lần cạnh cũ (làm tròn đến hàng phầ
 2. Chia hai cạnh, dùng quy tắc chia hai căn.
 
 ::solution
-a) Diện tích tấm ảnh mới là $150\cdot6=900$ (cm²). Do đó cạnh tấm ảnh mới dài $\sqrt{900}=30$ (cm).
+a) Diện tích tấm ảnh mới là $150\cdot6=900$ (cm²).
 
-b) Cạnh cũ dài $\sqrt{150}$ cm. Suy ra cạnh mới gấp $\dfrac{\sqrt{900}}{\sqrt{150}}=\sqrt6\approx2{,}45$ lần cạnh cũ.
+Tấm ảnh mới là hình vuông nên cạnh của nó dài $\sqrt{900}=30$ (cm).
+
+Vậy cạnh tấm ảnh mới dài $30$ cm.
+
+b) Tấm ảnh cũ là hình vuông có diện tích $150$ cm² nên cạnh của nó dài $\sqrt{150}$ (cm).
+
+Tỉ số giữa cạnh mới và cạnh cũ là
+$$\frac{\sqrt{900}}{\sqrt{150}}=\sqrt{\frac{900}{150}}=\sqrt6\approx2{,}45.$$
+
+Vậy cạnh mới gấp khoảng $2{,}45$ lần cạnh cũ.
 
 **Đáp số.** a) $30$ cm; b) khoảng $2{,}45$ lần.
 :::
@@ -293,11 +368,21 @@ c) Với tốc độ ở câu b, sau $1$ giờ sóng đi được bao nhiêu ki-
 2. Đổi $1$ giờ $=3600$ giây.
 
 ::solution
-a) Thay $d=2{,}5$ vào công thức, ta được $v=\sqrt{25}=5$ (m/s).
+a) Thay $d=2{,}5$ vào công thức $v=\sqrt{10d}$, ta được
+$$v=\sqrt{10\cdot2{,}5}=\sqrt{25}=5\ \text{(m/s)}.$$
 
-b) Thay $d=4000$ vào công thức, ta được $v=\sqrt{40000}=200$ (m/s).
+Vậy khi độ sâu là $2{,}5$ m, tốc độ sóng là $5$ m/s.
 
-c) Ta có $1$ giờ $=3600$ giây. Quãng đường sóng đi được là $200\cdot3600=720000$ (m) $=720$ (km).
+b) Thay $d=4000$ vào công thức, ta được
+$$v=\sqrt{10\cdot4000}=\sqrt{40000}=200\ \text{(m/s)}.$$
+
+Vậy khi độ sâu là $4000$ m, tốc độ sóng là $200$ m/s.
+
+c) Đổi: $1$ giờ $=3600$ giây.
+
+Quãng đường sóng đi được sau $1$ giờ là $200\cdot3600=720000$ (m) $=720$ (km).
+
+Vậy sau $1$ giờ sóng đi được khoảng $720$ km.
 
 **Đáp số.** a) $5$ m/s; b) $200$ m/s; c) khoảng $720$ km.
 :::
@@ -313,7 +398,16 @@ Tìm $x\ge0$, biết $\sqrt{2x}\cdot\sqrt8=12$.
 2. Tìm $\sqrt x$, rồi tìm $x$.
 
 ::solution
-Ta có $\sqrt{2x}\cdot\sqrt8=\sqrt{16x}=4\sqrt x$. Do đó $4\sqrt x=12\iff\sqrt x=3\iff x=9$ (thoả mãn điều kiện).
+Với $x\ge0$, ta có
+$$\sqrt{2x}\cdot\sqrt8=\sqrt{2x\cdot8}=\sqrt{16x}=\sqrt{16}\cdot\sqrt x=4\sqrt x.$$
+
+Do đó đẳng thức đã cho trở thành $4\sqrt x=12$, suy ra $\sqrt x=3$.
+
+Bình phương hai vế, ta được $x=9$.
+
+Ta thấy $x=9$ thoả mãn điều kiện $x\ge0$. Thử lại: $\sqrt{18}\cdot\sqrt8=\sqrt{144}=12$.
+
+Vậy $x=9$.
 
 **Đáp số.** $x=9$.
 :::
@@ -329,7 +423,16 @@ Không dùng máy tính, tính $A=\sqrt{3+\sqrt5}\cdot\sqrt{3-\sqrt5}$.
 2. Gộp thành một căn và dùng hằng đẳng thức.
 
 ::solution
-Vì $\sqrt5<\sqrt9=3$ nên $3-\sqrt5>0$. Do đó $A=\sqrt{\left(3+\sqrt5\right)\left(3-\sqrt5\right)}=\sqrt{9-5}=\sqrt4=2$.
+Vì $5<9$ nên $\sqrt5<\sqrt9=3$, do đó $3-\sqrt5>0$. Vậy cả hai căn thức đều xác định.
+
+Áp dụng quy tắc nhân các căn bậc hai và hằng đẳng thức $(a+b)(a-b)=a^2-b^2$, ta có
+$$\begin{aligned}
+A&=\sqrt{\left(3+\sqrt5\right)\left(3-\sqrt5\right)}\\
+&=\sqrt{3^2-\left(\sqrt5\right)^2}\\
+&=\sqrt{9-5}=\sqrt4=2.
+\end{aligned}$$
+
+Vậy $A=2$.
 
 **Đáp số.** $A=2$.
 :::

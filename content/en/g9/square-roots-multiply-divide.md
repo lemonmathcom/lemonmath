@@ -159,7 +159,11 @@ So the speed of the wave is about $6$ m/s, which is about $21.6$ km/h.
 Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
 
 :::exercise
-Evaluate: a) $\sqrt{16\cdot0.25}$; b) $\sqrt{2.5\cdot40}$; c) $\sqrt{12\cdot75}$.
+Calculate:
+
+a) $\sqrt{16\cdot0.25}$;
+b) $\sqrt{2.5\cdot40}$;
+c) $\sqrt{12\cdot75}$.
 
 ::hint
 **What you need:** $\sqrt{ab}=\sqrt a\cdot\sqrt b$ for $a$, $b\ge0$.
@@ -169,13 +173,25 @@ Evaluate: a) $\sqrt{16\cdot0.25}$; b) $\sqrt{2.5\cdot40}$; c) $\sqrt{12\cdot75}$
 2. If not, multiply to get a perfect square.
 
 ::solution
-a) $\sqrt{16\cdot0.25}=\sqrt{16}\cdot\sqrt{0.25}=4\cdot0.5=2$. b) $\sqrt{2.5\cdot40}=\sqrt{100}=10$. c) $\sqrt{12\cdot75}=\sqrt{900}=30$.
+a) Using the rule for the square root of a product $\sqrt{ab}=\sqrt a\cdot\sqrt b$ (for $a\ge0$, $b\ge0$), we have
+$$\sqrt{16\cdot0.25}=\sqrt{16}\cdot\sqrt{0.25}=4\cdot0.5=2.$$
+
+b) We have $2.5\cdot40=100$. Hence $\sqrt{2.5\cdot40}=\sqrt{100}=10$.
+
+c) We have $12\cdot75=(4\cdot3)\cdot(3\cdot25)=4\cdot9\cdot25$. Hence
+$$\sqrt{12\cdot75}=\sqrt4\cdot\sqrt9\cdot\sqrt{25}=2\cdot3\cdot5=30.$$
+
+So the results are $2$; $10$; $30$ respectively.
 
 **Answer.** a) $2$; b) $10$; c) $30$.
 :::
 
 :::exercise
-Evaluate: a) $\sqrt3\cdot\sqrt{27}$; b) $\sqrt{0.2}\cdot\sqrt{180}$; c) $\sqrt{1.6}\cdot\sqrt{250}$.
+Calculate:
+
+a) $\sqrt3\cdot\sqrt{27}$;
+b) $\sqrt{0.2}\cdot\sqrt{180}$;
+c) $\sqrt{1.6}\cdot\sqrt{250}$.
 
 ::hint
 **What you need:** $\sqrt a\cdot\sqrt b=\sqrt{ab}$.
@@ -185,13 +201,24 @@ Evaluate: a) $\sqrt3\cdot\sqrt{27}$; b) $\sqrt{0.2}\cdot\sqrt{180}$; c) $\sqrt{1
 2. Take the root of the result.
 
 ::solution
-a) $\sqrt3\cdot\sqrt{27}=\sqrt{81}=9$. b) $\sqrt{0.2}\cdot\sqrt{180}=\sqrt{36}=6$. c) $\sqrt{1.6}\cdot\sqrt{250}=\sqrt{400}=20$.
+We use the rule for multiplying square roots $\sqrt a\cdot\sqrt b=\sqrt{ab}$ (for $a\ge0$, $b\ge0$).
+
+a) We have $\sqrt3\cdot\sqrt{27}=\sqrt{3\cdot27}=\sqrt{81}=9$.
+
+b) We have $\sqrt{0.2}\cdot\sqrt{180}=\sqrt{0.2\cdot180}=\sqrt{36}=6$.
+
+c) We have $\sqrt{1.6}\cdot\sqrt{250}=\sqrt{1.6\cdot250}=\sqrt{400}=20$.
+
+So the results are $9$; $6$; $20$ respectively.
 
 **Answer.** a) $9$; b) $6$; c) $20$.
 :::
 
 :::exercise
-Evaluate: a) $\sqrt{\dfrac{49}{81}}$; b) $\sqrt{2\dfrac79}$.
+Calculate:
+
+a) $\sqrt{\dfrac{49}{81}}$;
+b) $\sqrt{2\dfrac79}$.
 
 ::hint
 **What you need:** $\sqrt{\dfrac ab}=\dfrac{\sqrt a}{\sqrt b}$ for $a\ge0$, $b>0$.
@@ -201,13 +228,24 @@ Evaluate: a) $\sqrt{\dfrac{49}{81}}$; b) $\sqrt{2\dfrac79}$.
 2. Take the root of the numerator and of the denominator.
 
 ::solution
-a) $\sqrt{\dfrac{49}{81}}=\dfrac{\sqrt{49}}{\sqrt{81}}=\dfrac79$. b) We have $2\dfrac79=\dfrac{25}9$, hence $\sqrt{2\dfrac79}=\dfrac{\sqrt{25}}{\sqrt9}=\dfrac53$.
+We use the rule for the square root of a quotient $\sqrt{\dfrac ab}=\dfrac{\sqrt a}{\sqrt b}$ (for $a\ge0$, $b>0$).
+
+a) We have $\sqrt{\dfrac{49}{81}}=\dfrac{\sqrt{49}}{\sqrt{81}}=\dfrac79$.
+
+b) Changing the mixed number to a fraction: $2\dfrac79=\dfrac{2\cdot9+7}{9}=\dfrac{25}9$. Hence
+$$\sqrt{2\frac79}=\sqrt{\frac{25}{9}}=\frac{\sqrt{25}}{\sqrt9}=\frac53.$$
+
+So the results are $\dfrac79$ and $\dfrac53$ respectively.
 
 **Answer.** a) $\dfrac79$; b) $\dfrac53$.
 :::
 
 :::exercise
-Evaluate: a) $\dfrac{\sqrt{72}}{\sqrt2}$; b) $\dfrac{\sqrt{6.4}}{\sqrt{0.1}}$; c) $\dfrac{\sqrt{12.5}}{\sqrt{0.5}}$.
+Calculate:
+
+a) $\dfrac{\sqrt{72}}{\sqrt2}$;
+b) $\dfrac{\sqrt{6.4}}{\sqrt{0.1}}$;
+c) $\dfrac{\sqrt{12.5}}{\sqrt{0.5}}$.
 
 ::hint
 **What you need:** $\dfrac{\sqrt a}{\sqrt b}=\sqrt{\dfrac ab}$.
@@ -217,13 +255,24 @@ Evaluate: a) $\dfrac{\sqrt{72}}{\sqrt2}$; b) $\dfrac{\sqrt{6.4}}{\sqrt{0.1}}$; c
 2. Take the root of the quotient.
 
 ::solution
-a) $\dfrac{\sqrt{72}}{\sqrt2}=\sqrt{36}=6$. b) $\dfrac{\sqrt{6.4}}{\sqrt{0.1}}=\sqrt{64}=8$. c) $\dfrac{\sqrt{12.5}}{\sqrt{0.5}}=\sqrt{25}=5$.
+We use the rule for dividing square roots $\dfrac{\sqrt a}{\sqrt b}=\sqrt{\dfrac ab}$ (for $a\ge0$, $b>0$).
+
+a) We have $\dfrac{\sqrt{72}}{\sqrt2}=\sqrt{\dfrac{72}{2}}=\sqrt{36}=6$.
+
+b) We have $\dfrac{\sqrt{6.4}}{\sqrt{0.1}}=\sqrt{\dfrac{6.4}{0.1}}=\sqrt{64}=8$.
+
+c) We have $\dfrac{\sqrt{12.5}}{\sqrt{0.5}}=\sqrt{\dfrac{12.5}{0.5}}=\sqrt{25}=5$.
+
+So the results are $6$; $8$; $5$ respectively.
 
 **Answer.** a) $6$; b) $8$; c) $5$.
 :::
 
 :::exercise
-Simplify the following expressions: a) $\sqrt{5x}\cdot\sqrt{20x}$ for $x\ge0$; b) $\dfrac{\sqrt{27y^3}}{\sqrt{3y}}$ for $y>0$.
+Simplify the following expressions:
+
+a) $\sqrt{5x}\cdot\sqrt{20x}$ for $x\ge0$;
+b) $\dfrac{\sqrt{27y^3}}{\sqrt{3y}}$ for $y>0$.
 
 ::hint
 **What you need:** combine into one root, then use $\sqrt{A^2}=|A|$.
@@ -233,7 +282,19 @@ Simplify the following expressions: a) $\sqrt{5x}\cdot\sqrt{20x}$ for $x\ge0$; b
 2. Write the result as a square and remove the root using the condition.
 
 ::solution
-a) We have $\sqrt{5x}\cdot\sqrt{20x}=\sqrt{100x^2}=|10x|=10x$ (since $x\ge0$). b) We have $\dfrac{\sqrt{27y^3}}{\sqrt{3y}}=\sqrt{9y^2}=|3y|=3y$ (since $y>0$).
+a) For $x\ge0$, we have
+$$\sqrt{5x}\cdot\sqrt{20x}=\sqrt{5x\cdot20x}=\sqrt{100x^2}=\sqrt{(10x)^2}=|10x|.$$
+
+Since $x\ge0$, we have $10x\ge0$, so $|10x|=10x$.
+
+So $\sqrt{5x}\cdot\sqrt{20x}=10x$.
+
+b) For $y>0$, we have
+$$\frac{\sqrt{27y^3}}{\sqrt{3y}}=\sqrt{\frac{27y^3}{3y}}=\sqrt{9y^2}=\sqrt{(3y)^2}=|3y|.$$
+
+Since $y>0$, we have $3y>0$, so $|3y|=3y$.
+
+So $\dfrac{\sqrt{27y^3}}{\sqrt{3y}}=3y$.
 
 **Answer.** a) $10x$; b) $3y$.
 :::
@@ -249,7 +310,12 @@ Simplify the expression $\sqrt{4a^2}-3a$ for $a<0$.
 2. For $a<0$, $|a|=-a$.
 
 ::solution
-We have $\sqrt{4a^2}-3a=2|a|-3a$. Since $a<0$, $|a|=-a$. Hence $\sqrt{4a^2}-3a=-2a-3a=-5a$.
+We have $\sqrt{4a^2}=\sqrt{(2a)^2}=|2a|=2|a|$.
+
+Since $a<0$, we have $|a|=-a$. Hence
+$$\sqrt{4a^2}-3a=2\cdot(-a)-3a=-2a-3a=-5a.$$
+
+So for $a<0$ we have $\sqrt{4a^2}-3a=-5a$.
 
 **Answer.** $-5a$.
 :::
@@ -269,9 +335,18 @@ b) How many times as long as the old side is the new side (rounded to two decima
 2. Divide the two sides using the rule for dividing roots.
 
 ::solution
-a) The area of the new photo is $150\cdot6=900$ (cm²). Hence a side of the new photo is $\sqrt{900}=30$ (cm).
+a) The area of the new photo is $150\cdot6=900$ (cm²).
 
-b) The old side is $\sqrt{150}$ cm. So the new side is $\dfrac{\sqrt{900}}{\sqrt{150}}=\sqrt6\approx2.45$ times as long as the old side.
+The new photo is a square, so its side is $\sqrt{900}=30$ (cm) long.
+
+So the side of the new photo is $30$ cm long.
+
+b) The old photo is a square of area $150$ cm², so its side is $\sqrt{150}$ (cm) long.
+
+The ratio of the new side to the old side is
+$$\frac{\sqrt{900}}{\sqrt{150}}=\sqrt{\frac{900}{150}}=\sqrt6\approx2.45.$$
+
+So the new side is about $2.45$ times the old side.
 
 **Answer.** a) $30$ cm; b) about $2.45$ times.
 :::
@@ -293,11 +368,21 @@ c) At the speed in part b, how many kilometres does the wave travel in $1$ hour?
 2. Convert $1$ hour $=3600$ seconds.
 
 ::solution
-a) Substituting $d=2.5$ into the formula, we get $v=\sqrt{25}=5$ (m/s).
+a) Substituting $d=2.5$ into the formula $v=\sqrt{10d}$, we get
+$$v=\sqrt{10\cdot2.5}=\sqrt{25}=5\ \text{(m/s)}.$$
 
-b) Substituting $d=4000$ into the formula, we get $v=\sqrt{40000}=200$ (m/s).
+So at a depth of $2.5$ m the speed of the wave is $5$ m/s.
 
-c) We have $1$ hour $=3600$ seconds. The distance travelled is $200\cdot3600=720000$ (m) $=720$ (km).
+b) Substituting $d=4000$ into the formula, we get
+$$v=\sqrt{10\cdot4000}=\sqrt{40000}=200\ \text{(m/s)}.$$
+
+So at a depth of $4000$ m the speed of the wave is $200$ m/s.
+
+c) Convert: $1$ hour $=3600$ seconds.
+
+The distance the wave travels in $1$ hour is $200\cdot3600=720000$ (m) $=720$ (km).
+
+So in $1$ hour the wave travels about $720$ km.
 
 **Answer.** a) $5$ m/s; b) $200$ m/s; c) about $720$ km.
 :::
@@ -313,7 +398,16 @@ Find $x\ge0$ given that $\sqrt{2x}\cdot\sqrt8=12$.
 2. Find $\sqrt x$, then $x$.
 
 ::solution
-We have $\sqrt{2x}\cdot\sqrt8=\sqrt{16x}=4\sqrt x$. Hence $4\sqrt x=12\iff\sqrt x=3\iff x=9$ (which satisfies the condition).
+For $x\ge0$, we have
+$$\sqrt{2x}\cdot\sqrt8=\sqrt{2x\cdot8}=\sqrt{16x}=\sqrt{16}\cdot\sqrt x=4\sqrt x.$$
+
+Hence the given equality becomes $4\sqrt x=12$, which gives $\sqrt x=3$.
+
+Squaring both sides, we get $x=9$.
+
+We see that $x=9$ satisfies the condition $x\ge0$. Check: $\sqrt{18}\cdot\sqrt8=\sqrt{144}=12$.
+
+So $x=9$.
 
 **Answer.** $x=9$.
 :::
@@ -329,7 +423,16 @@ Without a calculator, evaluate $A=\sqrt{3+\sqrt5}\cdot\sqrt{3-\sqrt5}$.
 2. Combine into one root and use the identity.
 
 ::solution
-Since $\sqrt5<\sqrt9=3$, $3-\sqrt5>0$. Hence $A=\sqrt{\left(3+\sqrt5\right)\left(3-\sqrt5\right)}=\sqrt{9-5}=\sqrt4=2$.
+Since $5<9$, we have $\sqrt5<\sqrt9=3$, so $3-\sqrt5>0$. So both radicals are defined.
+
+Using the rule for multiplying square roots and the identity $(a+b)(a-b)=a^2-b^2$, we have
+$$\begin{aligned}
+A&=\sqrt{\left(3+\sqrt5\right)\left(3-\sqrt5\right)}\\
+&=\sqrt{3^2-\left(\sqrt5\right)^2}\\
+&=\sqrt{9-5}=\sqrt4=2.
+\end{aligned}$$
+
+So $A=2$.
 
 **Answer.** $A=2$.
 :::
