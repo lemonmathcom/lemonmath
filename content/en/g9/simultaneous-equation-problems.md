@@ -140,9 +140,24 @@ There are $36$ chickens and rabbits, with $100$ legs altogether. How many chicke
 2. Form the equations from the number of animals and the number of legs, then solve.
 
 ::solution
-$x+y=36$ and $2x+4y=100$, that is $x+2y=50$. Subtracting: $y=14$, $x=22$.
+Let $x$ be the number of chickens and $y$ the number of rabbits ($x$, $y$ are positive integers).
 
-**Answer.** $22$ chickens and $14$ rabbits.
+There are $36$ animals in all, so we have the equation $x+y=36$.
+
+Each chicken has $2$ legs and each rabbit has $4$ legs, with $100$ legs in total, so we have the equation $2x+4y=100$, that is $x+2y=50$.
+
+Hence we have the system
+$$\begin{cases} x+y=36\\ x+2y=50. \end{cases}$$
+
+Subtracting the first equation from the second side by side, we get $y=14$.
+
+Substituting $y=14$ into the equation $x+y=36$, we get $x=22$.
+
+The values $x=22$, $y=14$ satisfy the conditions on the unknowns.
+
+So there are $22$ chickens and $14$ rabbits.
+
+**Answer.** $22$ chickens, $14$ rabbits.
 :::
 
 :::exercise
@@ -156,7 +171,22 @@ Class 9B visits a museum: $42$ people, teachers and students together. A student
 2. Form the equations, divide the cost equation by $20$, then solve.
 
 ::solution
-$x+y=42$ and $20x+40y=920$, that is $x+2y=46$. Subtracting: $y=4$, $x=38$.
+Let $x$ be the number of students and $y$ the number of teachers ($x$, $y$ are positive integers).
+
+The group has $42$ people, so we have the equation $x+y=42$.
+
+The student tickets cost $20x$ (thousand đồng) and the teacher tickets cost $40y$ (thousand đồng). The tickets cost $920$ thousand đồng in total, so we have the equation $20x+40y=920$, that is $x+2y=46$.
+
+Hence we have the system
+$$\begin{cases} x+y=42\\ x+2y=46. \end{cases}$$
+
+Subtracting the first equation from the second side by side, we get $y=4$.
+
+Substituting $y=4$ into the equation $x+y=42$, we get $x=38$.
+
+The values $x=38$, $y=4$ satisfy the conditions on the unknowns.
+
+So there are $38$ students and $4$ teachers.
 
 **Answer.** $38$ students and $4$ teachers.
 :::
@@ -172,7 +202,22 @@ In a two-digit number, the tens digit is twice the units digit. If the two digit
 2. Substitute $a=2b$ into the second equation.
 
 ::solution
-$a-b=4$ and $a=2b$ give $b=4$, $a=8$. Check: $84-48=36$.
+Let $a$ be the tens digit and $b$ the units digit of the number ($a$, $b$ are digits, $a\neq0$).
+
+The number is $10a+b$; the new number after swapping the two digits is $10b+a$.
+
+The tens digit is twice the units digit, so we have the equation $a=2b$.
+
+The new number is $36$ less than the old one, so $(10a+b)-(10b+a)=36$, that is $9a-9b=36$, so $a-b=4$.
+
+Hence we have the system
+$$\begin{cases} a=2b\\ a-b=4. \end{cases}$$
+
+Substituting $a=2b$ into the second equation, we get $2b-b=4$, which gives $b=4$. Then $a=2\cdot4=8$.
+
+The values $a=8$, $b=4$ satisfy the conditions on the unknowns. Check: $84-48=36$.
+
+So the number is $84$.
 
 **Answer.** $84$.
 :::
@@ -189,7 +234,25 @@ A rectangular garden has perimeter $56$ m. If its length is increased by $2$ m a
 3. Solve the equations.
 
 ::solution
-$(x+2)(y-1)=xy\iff -x+2y-2=0\iff -x+2y=2$. Adding $x+y=28$: $3y=30$, $y=10$, $x=18$. Check: $20\cdot9=180=18\cdot10$.
+Let $x$ (m) be the length and $y$ (m) the width of the garden ($x>y>1$).
+
+The perimeter of the garden is $56$ m, so $2(x+y)=56$, that is $x+y=28$.
+
+The original area is $xy$ (m$^2$). After the length is increased by $2$ m and the width is decreased by $1$ m, the area is $(x+2)(y-1)$ (m$^2$). The area does not change, so
+$$(x+2)(y-1)=xy.$$
+
+It follows that $xy-x+2y-2=xy$, that is $-x+2y=2$.
+
+Hence we have the system
+$$\begin{cases} x+y=28\\ -x+2y=2. \end{cases}$$
+
+Adding the two equations side by side, we get $3y=30$, which gives $y=10$.
+
+Substituting $y=10$ into the equation $x+y=28$, we get $x=18$.
+
+The values $x=18$, $y=10$ satisfy the conditions on the unknowns. Check: $20\cdot9=180=18\cdot10$.
+
+So the garden is $18$ m long and $10$ m wide.
 
 **Answer.** Length $18$ m, width $10$ m.
 :::
@@ -205,7 +268,22 @@ How many grams of a $10\%$ salt solution and how many grams of a $30\%$ salt sol
 2. Form the equations from the total mass and the total salt ($16\%$ of $200$ g is $32$ g).
 
 ::solution
-$x+y=200$ and $0.1x+0.3y=32$, that is $x+3y=320$. Subtracting: $2y=120$, $y=60$, $x=140$.
+Let $x$ (g) be the mass of the $10\%$ salt solution and $y$ (g) the mass of the $30\%$ salt solution to be mixed ($x>0$, $y>0$).
+
+The mass of the mixture is $200$ g, so we have the equation $x+y=200$.
+
+The masses of salt in the two original solutions are $0.1x$ (g) and $0.3y$ (g). The mass of salt in the mixture is $16\%\cdot200=32$ (g). Hence we have the equation $0.1x+0.3y=32$, that is $x+3y=320$.
+
+We have the system
+$$\begin{cases} x+y=200\\ x+3y=320. \end{cases}$$
+
+Subtracting the first equation from the second side by side, we get $2y=120$, which gives $y=60$.
+
+Substituting $y=60$ into the equation $x+y=200$, we get $x=140$.
+
+The values $x=140$, $y=60$ satisfy the conditions on the unknowns.
+
+So we need to mix $140$ g of the $10\%$ salt solution with $60$ g of the $30\%$ salt solution.
 
 **Answer.** $140$ g of the $10\%$ solution and $60$ g of the $30\%$ solution.
 :::
@@ -221,9 +299,20 @@ Solve the chickens-and-rabbits problem of exercise 1 again by forming **one equa
 2. Solve the linear equation in one unknown.
 
 ::solution
-$2x+4(36-x)=100\iff 144-2x=100\iff x=22$, so there are $14$ rabbits. This is really the substitution method: we wrote $y=36-x$ as soon as we chose the unknown.
+Let $x$ be the number of chickens ($x$ is a positive integer, $x<36$). Then the number of rabbits is $36-x$.
 
-**Answer.** $22$ chickens and $14$ rabbits.
+The chickens have $2x$ legs and the rabbits have $4(36-x)$ legs. There are $100$ legs in all, so we have the equation
+$$2x+4(36-x)=100.$$
+
+It follows that $2x+144-4x=100$, that is $-2x=-44$, so $x=22$.
+
+The value $x=22$ satisfies the condition on the unknown. The number of rabbits is $36-22=14$.
+
+So there are $22$ chickens and $14$ rabbits, the same result as in exercise 1.
+
+*Comparison.* Setting up one equation in one unknown is exactly the substitution method: as soon as we choose the unknown, we have already taken $y=36-x$ from the equation $x+y=36$ and substituted it into the other equation.
+
+**Answer.** $22$ chickens, $14$ rabbits.
 :::
 
 :::exercise
@@ -244,13 +333,31 @@ c) Which team sewed more this month, and by how many shirts?
 3. Work out each team's shirts this month.
 
 ::solution
-a) $\begin{cases} x+y=1000\\ 1.1x+0.95y=1040 \end{cases}$
+a) Last month the two teams made $1000$ shirts, so $x+y=1000$ ($x$, $y$ are positive integers).
 
-b) Multiplying by $20$: $22x+19y=20800$. Substituting $x=1000-y$: $22000-3y=20800$, $y=400$, $x=600$.
+This month team A made $10\%$ more, so it made $x+10\%x=1.1x$ shirts; team B made $5\%$ fewer, so it made $y-5\%y=0.95y$ shirts. The two teams made $1040$ shirts, so $1.1x+0.95y=1040$.
 
-c) Team A: $1.1\cdot600=660$ shirts; team B: $0.95\cdot400=380$ shirts; the difference is $280$ shirts.
+So we have the system
+$$\begin{cases} x+y=1000\\ 1.1x+0.95y=1040. \end{cases}$$
 
-**Answer.** b) $x=600$, $y=400$; c) team A sewed $280$ more shirts.
+b) Multiplying both sides of the second equation by $20$, we get $22x+19y=20800$.
+
+From the first equation, we have $x=1000-y$. Substituting into the equation above, we get
+$$22(1000-y)+19y=20800.$$
+
+It follows that $22000-3y=20800$, that is $3y=1200$, so $y=400$. Then $x=1000-400=600$.
+
+The values $x=600$, $y=400$ satisfy the conditions on the unknowns.
+
+So last month team A made $600$ shirts and team B made $400$ shirts.
+
+c) This month team A made $1.1\cdot600=660$ shirts and team B made $0.95\cdot400=380$ shirts.
+
+We have $660-380=280$.
+
+So this month team A made $280$ more shirts than team B.
+
+**Answer.** b) $x=600$, $y=400$; c) team A made $280$ more.
 :::
 
 :::exercise Challenge
@@ -265,9 +372,28 @@ Hà cycles from home to school. At $15$ km/h she arrives $6$ minutes before the 
 3. Solve by substitution.
 
 ::solution
-$15(t-0.1)=12(t+0.05)\iff 15t-1.5=12t+0.6\iff 3t=2.1\iff t=0.7$. Then $s=15\cdot0.6=9$. Check: $12\cdot0.75=9$.
+Let $s$ (km) be the distance from home to school and $t$ (hours) the time Hà needs to arrive exactly on time ($s>0$, $t>0.1$).
 
-**Answer.** The distance is $9$ km; the time is $0.7$ hours $=42$ minutes.
+Convert: $6$ minutes $=0.1$ hour; $3$ minutes $=0.05$ hour.
+
+At $15$ km/h Hà arrives $6$ minutes early, so the travel time is $t-0.1$ (hours). Hence $s=15(t-0.1)$.
+
+At $12$ km/h Hà arrives $3$ minutes late, so the travel time is $t+0.05$ (hours). Hence $s=12(t+0.05)$.
+
+We have the system
+$$\begin{cases} s=15(t-0.1)\\ s=12(t+0.05). \end{cases}$$
+
+From the two equations of the system, we have $15(t-0.1)=12(t+0.05)$.
+
+It follows that $15t-1.5=12t+0.6$, that is $3t=2.1$, so $t=0.7$.
+
+Substituting $t=0.7$ into the first equation, we get $s=15\cdot(0.7-0.1)=15\cdot0.6=9$.
+
+The values $s=9$, $t=0.7$ satisfy the conditions on the unknowns. Check: $12\cdot(0.7+0.05)=12\cdot0.75=9$.
+
+So the distance from home to school is $9$ km and Hà needs $0.7$ hour, that is $42$ minutes, to arrive exactly on time.
+
+**Answer.** Distance $9$ km; time $0.7$ hour $=42$ minutes.
 :::
 
 ## Mini test

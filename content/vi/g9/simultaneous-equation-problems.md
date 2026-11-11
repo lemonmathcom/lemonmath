@@ -140,7 +140,22 @@ Vừa gà vừa thỏ có $36$ con, đếm được $100$ chân. Hỏi có bao n
 2. Lập hệ từ số con và số chân, rồi giải.
 
 ::solution
-$x+y=36$ và $2x+4y=100$, tức $x+2y=50$. Trừ: $y=14$, $x=22$.
+Gọi $x$ là số con gà và $y$ là số con thỏ ($x$, $y$ là các số nguyên dương).
+
+Có tất cả $36$ con nên ta có phương trình $x+y=36$.
+
+Mỗi con gà có $2$ chân, mỗi con thỏ có $4$ chân, tổng cộng có $100$ chân nên ta có phương trình $2x+4y=100$, hay $x+2y=50$.
+
+Do đó ta có hệ phương trình
+$$\begin{cases} x+y=36\\ x+2y=50. \end{cases}$$
+
+Trừ từng vế phương trình thứ hai cho phương trình thứ nhất, ta được $y=14$.
+
+Thay $y=14$ vào phương trình $x+y=36$, ta được $x=22$.
+
+Các giá trị $x=22$, $y=14$ thoả mãn điều kiện của ẩn.
+
+Vậy có $22$ con gà và $14$ con thỏ.
 
 **Đáp số.** $22$ con gà, $14$ con thỏ.
 :::
@@ -156,7 +171,22 @@ Lớp 9B đi tham quan bảo tàng, cả giáo viên và học sinh là $42$ ng�
 2. Lập hệ, chia phương trình tiền cho $20$ rồi giải.
 
 ::solution
-$x+y=42$ và $20x+40y=920$, tức $x+2y=46$. Trừ: $y=4$, $x=38$.
+Gọi $x$ là số học sinh và $y$ là số giáo viên ($x$, $y$ là các số nguyên dương).
+
+Cả đoàn có $42$ người nên ta có phương trình $x+y=42$.
+
+Tiền vé của học sinh là $20x$ (nghìn đồng), tiền vé của giáo viên là $40y$ (nghìn đồng). Tổng tiền vé là $920$ nghìn đồng nên ta có phương trình $20x+40y=920$, hay $x+2y=46$.
+
+Do đó ta có hệ phương trình
+$$\begin{cases} x+y=42\\ x+2y=46. \end{cases}$$
+
+Trừ từng vế phương trình thứ hai cho phương trình thứ nhất, ta được $y=4$.
+
+Thay $y=4$ vào phương trình $x+y=42$, ta được $x=38$.
+
+Các giá trị $x=38$, $y=4$ thoả mãn điều kiện của ẩn.
+
+Vậy có $38$ học sinh và $4$ giáo viên.
 
 **Đáp số.** $38$ học sinh và $4$ giáo viên.
 :::
@@ -172,7 +202,22 @@ Một số có hai chữ số, chữ số hàng chục gấp đôi chữ số h�
 2. Thế $a=2b$ vào phương trình thứ hai.
 
 ::solution
-$a-b=4$ và $a=2b$ cho $b=4$, $a=8$. Kiểm tra: $84-48=36$.
+Gọi $a$ là chữ số hàng chục và $b$ là chữ số hàng đơn vị của số cần tìm ($a$, $b$ là các chữ số, $a\neq0$).
+
+Số cần tìm là $10a+b$; số mới sau khi đổi chỗ hai chữ số là $10b+a$.
+
+Chữ số hàng chục gấp đôi chữ số hàng đơn vị nên ta có phương trình $a=2b$.
+
+Số mới nhỏ hơn số cũ $36$ đơn vị nên $(10a+b)-(10b+a)=36$, hay $9a-9b=36$, tức là $a-b=4$.
+
+Do đó ta có hệ phương trình
+$$\begin{cases} a=2b\\ a-b=4. \end{cases}$$
+
+Thế $a=2b$ vào phương trình thứ hai, ta được $2b-b=4$, suy ra $b=4$. Khi đó $a=2\cdot4=8$.
+
+Các giá trị $a=8$, $b=4$ thoả mãn điều kiện của ẩn. Thử lại: $84-48=36$.
+
+Vậy số cần tìm là $84$.
 
 **Đáp số.** $84$.
 :::
@@ -189,7 +234,25 @@ Một mảnh vườn hình chữ nhật có chu vi $56$ m. Nếu tăng chiều d
 3. Giải hệ.
 
 ::solution
-$(x+2)(y-1)=xy\iff -x+2y-2=0\iff -x+2y=2$. Cộng với $x+y=28$: $3y=30$, $y=10$, $x=18$. Kiểm tra: $20\cdot9=180=18\cdot10$.
+Gọi $x$ (m) là chiều dài và $y$ (m) là chiều rộng của mảnh vườn ($x>y>1$).
+
+Chu vi mảnh vườn là $56$ m nên $2(x+y)=56$, hay $x+y=28$.
+
+Diện tích ban đầu là $xy$ (m$^2$). Sau khi tăng chiều dài thêm $2$ m và giảm chiều rộng đi $1$ m, diện tích là $(x+2)(y-1)$ (m$^2$). Vì diện tích không đổi nên
+$$(x+2)(y-1)=xy.$$
+
+Suy ra $xy-x+2y-2=xy$, hay $-x+2y=2$.
+
+Do đó ta có hệ phương trình
+$$\begin{cases} x+y=28\\ -x+2y=2. \end{cases}$$
+
+Cộng từng vế hai phương trình, ta được $3y=30$, suy ra $y=10$.
+
+Thay $y=10$ vào phương trình $x+y=28$, ta được $x=18$.
+
+Các giá trị $x=18$, $y=10$ thoả mãn điều kiện của ẩn. Thử lại: $20\cdot9=180=18\cdot10$.
+
+Vậy mảnh vườn có chiều dài $18$ m và chiều rộng $10$ m.
 
 **Đáp số.** Chiều dài $18$ m, chiều rộng $10$ m.
 :::
@@ -205,7 +268,22 @@ Cần trộn bao nhiêu gam dung dịch muối nồng độ $10\%$ với bao nhi
 2. Lập hệ từ tổng khối lượng và tổng lượng muối ($16\%$ của $200$ g là $32$ g).
 
 ::solution
-$x+y=200$ và $0{,}1x+0{,}3y=32$, tức $x+3y=320$. Trừ: $2y=120$, $y=60$, $x=140$.
+Gọi $x$ (g) là khối lượng dung dịch muối nồng độ $10\%$ và $y$ (g) là khối lượng dung dịch muối nồng độ $30\%$ cần trộn ($x>0$, $y>0$).
+
+Khối lượng dung dịch sau khi trộn là $200$ g nên ta có phương trình $x+y=200$.
+
+Khối lượng muối trong hai dung dịch ban đầu lần lượt là $0{,}1x$ (g) và $0{,}3y$ (g). Khối lượng muối trong dung dịch sau khi trộn là $16\%\cdot200=32$ (g). Do đó ta có phương trình $0{,}1x+0{,}3y=32$, hay $x+3y=320$.
+
+Ta có hệ phương trình
+$$\begin{cases} x+y=200\\ x+3y=320. \end{cases}$$
+
+Trừ từng vế phương trình thứ hai cho phương trình thứ nhất, ta được $2y=120$, suy ra $y=60$.
+
+Thay $y=60$ vào phương trình $x+y=200$, ta được $x=140$.
+
+Các giá trị $x=140$, $y=60$ thoả mãn điều kiện của ẩn.
+
+Vậy cần trộn $140$ g dung dịch muối nồng độ $10\%$ với $60$ g dung dịch muối nồng độ $30\%$.
 
 **Đáp số.** $140$ g dung dịch $10\%$ và $60$ g dung dịch $30\%$.
 :::
@@ -221,7 +299,18 @@ Giải lại bài toán gà và thỏ ở bài 1 bằng cách lập **phương t
 2. Giải phương trình bậc nhất một ẩn.
 
 ::solution
-$2x+4(36-x)=100\iff 144-2x=100\iff x=22$, nên có $14$ con thỏ. Cách này chính là phương pháp thế: ta đã rút $y=36-x$ ngay khi chọn ẩn.
+Gọi $x$ là số con gà ($x$ là số nguyên dương, $x<36$). Khi đó số con thỏ là $36-x$.
+
+Số chân gà là $2x$, số chân thỏ là $4(36-x)$. Vì có tất cả $100$ chân nên ta có phương trình
+$$2x+4(36-x)=100.$$
+
+Suy ra $2x+144-4x=100$, hay $-2x=-44$, tức là $x=22$.
+
+Giá trị $x=22$ thoả mãn điều kiện của ẩn. Số con thỏ là $36-22=14$.
+
+Vậy có $22$ con gà và $14$ con thỏ, giống kết quả ở bài 1.
+
+*So sánh.* Cách lập phương trình một ẩn chính là phương pháp thế: ngay khi chọn ẩn, ta đã rút $y=36-x$ từ phương trình $x+y=36$ rồi thế vào phương trình còn lại.
 
 **Đáp số.** $22$ con gà, $14$ con thỏ.
 :::
@@ -244,11 +333,29 @@ c) Tháng này tổ nào may nhiều hơn, và nhiều hơn bao nhiêu chiếc?
 3. Tính số áo tháng này của mỗi tổ.
 
 ::solution
-a) $\begin{cases} x+y=1000\\ 1{,}1x+0{,}95y=1040 \end{cases}$
+a) Tháng trước hai tổ may được $1000$ chiếc áo nên $x+y=1000$ ($x$, $y$ là các số nguyên dương).
 
-b) Nhân với $20$: $22x+19y=20800$. Thế $x=1000-y$: $22000-3y=20800$, $y=400$, $x=600$.
+Tháng này tổ A may tăng $10\%$ nên may được $x+10\%x=1{,}1x$ (chiếc); tổ B may giảm $5\%$ nên may được $y-5\%y=0{,}95y$ (chiếc). Cả hai tổ may được $1040$ chiếc nên $1{,}1x+0{,}95y=1040$.
 
-c) Tổ A: $1{,}1\cdot600=660$ áo; tổ B: $0{,}95\cdot400=380$ áo; chênh lệch $280$ áo.
+Vậy ta có hệ phương trình
+$$\begin{cases} x+y=1000\\ 1{,}1x+0{,}95y=1040. \end{cases}$$
+
+b) Nhân hai vế của phương trình thứ hai với $20$, ta được $22x+19y=20800$.
+
+Từ phương trình thứ nhất, ta có $x=1000-y$. Thế vào phương trình trên, ta được
+$$22(1000-y)+19y=20800.$$
+
+Suy ra $22000-3y=20800$, hay $3y=1200$, tức là $y=400$. Khi đó $x=1000-400=600$.
+
+Các giá trị $x=600$, $y=400$ thoả mãn điều kiện của ẩn.
+
+Vậy tháng trước tổ A may được $600$ chiếc áo và tổ B may được $400$ chiếc áo.
+
+c) Tháng này tổ A may được $1{,}1\cdot600=660$ (chiếc), tổ B may được $0{,}95\cdot400=380$ (chiếc).
+
+Ta có $660-380=280$.
+
+Vậy tháng này tổ A may nhiều hơn tổ B $280$ chiếc áo.
 
 **Đáp số.** b) $x=600$, $y=400$; c) tổ A may nhiều hơn $280$ chiếc.
 :::
@@ -265,7 +372,26 @@ Bạn Hà đi xe đạp từ nhà đến trường. Nếu đi với vận tốc 
 3. Giải hệ bằng phương pháp thế.
 
 ::solution
-$15(t-0{,}1)=12(t+0{,}05)\iff 15t-1{,}5=12t+0{,}6\iff 3t=2{,}1\iff t=0{,}7$. Khi đó $s=15\cdot0{,}6=9$. Kiểm tra: $12\cdot0{,}75=9$.
+Gọi $s$ (km) là quãng đường từ nhà đến trường và $t$ (giờ) là thời gian Hà cần để đến vừa đúng giờ ($s>0$, $t>0{,}1$).
+
+Đổi: $6$ phút $=0{,}1$ giờ; $3$ phút $=0{,}05$ giờ.
+
+Đi với vận tốc $15$ km/h thì Hà đến sớm $6$ phút, tức là thời gian đi là $t-0{,}1$ (giờ). Do đó $s=15(t-0{,}1)$.
+
+Đi với vận tốc $12$ km/h thì Hà đến muộn $3$ phút, tức là thời gian đi là $t+0{,}05$ (giờ). Do đó $s=12(t+0{,}05)$.
+
+Ta có hệ phương trình
+$$\begin{cases} s=15(t-0{,}1)\\ s=12(t+0{,}05). \end{cases}$$
+
+Từ hai phương trình của hệ, ta có $15(t-0{,}1)=12(t+0{,}05)$.
+
+Suy ra $15t-1{,}5=12t+0{,}6$, hay $3t=2{,}1$, tức là $t=0{,}7$.
+
+Thay $t=0{,}7$ vào phương trình thứ nhất, ta được $s=15\cdot(0{,}7-0{,}1)=15\cdot0{,}6=9$.
+
+Các giá trị $s=9$, $t=0{,}7$ thoả mãn điều kiện của ẩn. Thử lại: $12\cdot(0{,}7+0{,}05)=12\cdot0{,}75=9$.
+
+Vậy quãng đường từ nhà đến trường dài $9$ km và Hà cần $0{,}7$ giờ, tức là $42$ phút, để đến vừa đúng giờ.
 
 **Đáp số.** Quãng đường $9$ km; thời gian $0{,}7$ giờ $=42$ phút.
 :::

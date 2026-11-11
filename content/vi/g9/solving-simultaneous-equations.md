@@ -154,7 +154,14 @@ Giải hệ $\begin{cases} x=2y\\ x+y=9 \end{cases}$ bằng phương pháp thế
 2. Tìm $y$, rồi tìm $x$.
 
 ::solution
-$2y+y=9\iff y=3$, nên $x=6$.
+Thế $x=2y$ từ phương trình thứ nhất vào phương trình thứ hai, ta được
+$$2y+y=9.$$
+
+Suy ra $3y=9$, tức là $y=3$.
+
+Thay $y=3$ vào $x=2y$, ta được $x=2\cdot3=6$.
+
+Vậy hệ phương trình đã cho có nghiệm duy nhất $(x; y)=(6; 3)$.
 
 **Đáp số.** $(6; 3)$.
 :::
@@ -170,7 +177,16 @@ Giải hệ $\begin{cases} 2x-y=3\\ x+2y=4 \end{cases}$ bằng phương pháp th
 2. Thế vào phương trình thứ hai và giải.
 
 ::solution
-$x+2(2x-3)=4\iff 5x=10\iff x=2$, nên $y=2\cdot2-3=1$.
+Từ phương trình thứ nhất, ta có $y=2x-3$.
+
+Thế $y=2x-3$ vào phương trình thứ hai, ta được
+$$x+2(2x-3)=4.$$
+
+Suy ra $x+4x-6=4$, hay $5x=10$, tức là $x=2$.
+
+Thay $x=2$ vào $y=2x-3$, ta được $y=2\cdot2-3=1$.
+
+Vậy hệ phương trình đã cho có nghiệm duy nhất $(x; y)=(2; 1)$.
 
 **Đáp số.** $(2; 1)$.
 :::
@@ -186,7 +202,13 @@ Giải hệ $\begin{cases} x+y=7\\ x-y=1 \end{cases}$ bằng phương pháp cộ
 2. Thay vào $x+y=7$ để tìm $y$.
 
 ::solution
-$2x=8\iff x=4$; $4+y=7\iff y=3$.
+Hệ số của $y$ trong hai phương trình là hai số đối nhau. Cộng từng vế hai phương trình của hệ, ta được
+$$2x=8,$$
+suy ra $x=4$.
+
+Thay $x=4$ vào phương trình thứ nhất, ta được $4+y=7$, suy ra $y=3$.
+
+Vậy hệ phương trình đã cho có nghiệm duy nhất $(x; y)=(4; 3)$.
 
 **Đáp số.** $(4; 3)$.
 :::
@@ -202,13 +224,24 @@ Giải hệ $\begin{cases} 3x+4y=5\\ 2x-3y=-8 \end{cases}$
 2. Trừ từng vế để mất $x$.
 
 ::solution
-$6x+8y=10$ và $6x-9y=-24$. Trừ từng vế: $17y=34\iff y=2$. Khi đó $3x+8=5\iff x=-1$.
+Nhân hai vế của phương trình thứ nhất với $2$ và nhân hai vế của phương trình thứ hai với $3$, ta được hệ
+$$\begin{cases} 6x+8y=10\\ 6x-9y=-24. \end{cases}$$
+
+Trừ từng vế hai phương trình của hệ mới, ta được $17y=34$, suy ra $y=2$.
+
+Thay $y=2$ vào phương trình $3x+4y=5$, ta được $3x+8=5$, hay $3x=-3$, suy ra $x=-1$.
+
+Vậy hệ phương trình đã cho có nghiệm duy nhất $(x; y)=(-1; 2)$.
 
 **Đáp số.** $(-1; 2)$.
 :::
 
 :::exercise
-Mỗi hệ sau có bao nhiêu nghiệm? a) $\begin{cases} 2x-4y=6\\ x-2y=3 \end{cases}$ b) $\begin{cases} x-2y=1\\ -2x+4y=5 \end{cases}$
+Mỗi hệ phương trình sau có bao nhiêu nghiệm?
+
+a) $\begin{cases} 2x-4y=6\\ x-2y=3 \end{cases}$
+
+b) $\begin{cases} x-2y=1\\ -2x+4y=5 \end{cases}$
 
 ::hint
 **Kiến thức:** sau khi thế, $0x=0$ cho vô số nghiệm, $0x=c$ ($c\neq0$) cho vô nghiệm.
@@ -218,7 +251,21 @@ Mỗi hệ sau có bao nhiêu nghiệm? a) $\begin{cases} 2x-4y=6\\ x-2y=3 \end{
 2. Thế vào phương trình còn lại.
 
 ::solution
-a) $x=3+2y$: $2(3+2y)-4y=6\iff 0y=0$. b) $x=1+2y$: $-2(1+2y)+4y=5\iff 0y=7$.
+a) Từ phương trình thứ hai, ta có $x=3+2y$.
+
+Thế $x=3+2y$ vào phương trình thứ nhất, ta được $2(3+2y)-4y=6$, hay $6+4y-4y=6$, tức là $0y=0$.
+
+Đẳng thức $0y=0$ đúng với mọi giá trị của $y$. Với mỗi giá trị của $y$, ta tìm được một giá trị $x=3+2y$.
+
+Vậy hệ phương trình có vô số nghiệm.
+
+b) Từ phương trình thứ nhất, ta có $x=1+2y$.
+
+Thế $x=1+2y$ vào phương trình thứ hai, ta được $-2(1+2y)+4y=5$, hay $-2-4y+4y=5$, tức là $0y=7$.
+
+Không có giá trị nào của $y$ thoả mãn $0y=7$.
+
+Vậy hệ phương trình vô nghiệm.
 
 **Đáp số.** a) Vô số nghiệm; b) vô nghiệm.
 :::
@@ -235,7 +282,19 @@ Gọi $x$, $y$ (nghìn đồng) lần lượt là giá một quyển vở và gi
 3. Giải hệ mới.
 
 ::solution
-$x+y=13$ và $x-y=3$, nên $2x=16$, $x=8$, $y=5$.
+Cộng từng vế hai phương trình của hệ, ta được $5x+5y=65$, hay
+$$x+y=13. \quad (1)$$
+
+Trừ từng vế phương trình thứ nhất cho phương trình thứ hai, ta được
+$$x-y=3. \quad (2)$$
+
+Cộng từng vế $(1)$ và $(2)$, ta được $2x=16$, suy ra $x=8$.
+
+Thay $x=8$ vào $(1)$, ta được $8+y=13$, suy ra $y=5$.
+
+Thử lại: $3\cdot8+2\cdot5=34$ và $2\cdot8+3\cdot5=31$ (đúng).
+
+Vậy mỗi quyển vở giá $8$ nghìn đồng và mỗi chiếc bút giá $5$ nghìn đồng.
 
 **Đáp số.** Vở $8$ nghìn đồng, bút $5$ nghìn đồng.
 :::
@@ -251,7 +310,18 @@ Tìm $a$ và $b$ để đồ thị hàm số $y=ax+b$ đi qua hai điểm $A(1; 
 2. Trừ hai phương trình để tìm $a$.
 
 ::solution
-$a+b=3$ và $2a+b=5$. Trừ từng vế: $a=2$, nên $b=1$.
+Đồ thị hàm số $y=ax+b$ đi qua điểm $A(1; 3)$ nên $a\cdot1+b=3$, hay $a+b=3$.
+
+Đồ thị hàm số đi qua điểm $B(2; 5)$ nên $a\cdot2+b=5$, hay $2a+b=5$.
+
+Do đó ta có hệ phương trình
+$$\begin{cases} a+b=3\\ 2a+b=5. \end{cases}$$
+
+Trừ từng vế phương trình thứ hai cho phương trình thứ nhất, ta được $a=2$.
+
+Thay $a=2$ vào phương trình $a+b=3$, ta được $2+b=3$, suy ra $b=1$.
+
+Vậy $a=2$ và $b=1$; hàm số cần tìm là $y=2x+1$.
 
 **Đáp số.** $a=2$, $b=1$, tức $y=2x+1$.
 :::
@@ -274,11 +344,28 @@ c) Chứng tỏ đường thẳng $y=x+1$ đi qua giao điểm của hai đườ
 3. c) Thay toạ độ giao điểm vào $y=x+1$.
 
 ::solution
-a) $3(5-2y)-y=1\iff 15-7y=1\iff y=2$, $x=1$.
+a) Từ phương trình thứ nhất, ta có $x=5-2y$.
 
-b) $x+2y=5$ và $6x-2y=2$; cộng: $7x=7$, $x=1$, $y=2$. Hai cách cho cùng kết quả.
+Thế $x=5-2y$ vào phương trình thứ hai, ta được $3(5-2y)-y=1$, hay $15-7y=1$, suy ra $7y=14$, tức là $y=2$.
 
-c) Giao điểm là $(1; 2)$ và $2=1+1$.
+Thay $y=2$ vào $x=5-2y$, ta được $x=5-2\cdot2=1$.
+
+Vậy hệ phương trình có nghiệm duy nhất $(x; y)=(1; 2)$.
+
+b) Nhân hai vế của phương trình thứ hai với $2$, ta được hệ
+$$\begin{cases} x+2y=5\\ 6x-2y=2. \end{cases}$$
+
+Cộng từng vế hai phương trình của hệ mới, ta được $7x=7$, suy ra $x=1$.
+
+Thay $x=1$ vào phương trình $x+2y=5$, ta được $1+2y=5$, suy ra $y=2$.
+
+Vậy hệ phương trình có nghiệm duy nhất $(x; y)=(1; 2)$. Hai phương pháp cho cùng một kết quả.
+
+c) Toạ độ giao điểm của hai đường thẳng $x+2y=5$ và $3x-y=1$ là nghiệm của hệ đã cho. Theo câu a), giao điểm đó là $M(1; 2)$.
+
+Thay $x=1$ vào $y=x+1$, ta được $y=1+1=2$, đúng bằng tung độ của $M$.
+
+Vậy đường thẳng $y=x+1$ đi qua giao điểm $M(1; 2)$ của hai đường thẳng đã cho.
 
 **Đáp số.** a), b) $(1; 2)$; c) $(1; 2)$ thuộc $y=x+1$.
 :::
@@ -294,7 +381,24 @@ Giải hệ $\begin{cases} 2(x+y)+3(x-y)=13\\ 3(x+y)-2(x-y)=13 \end{cases}$
 2. Từ $x+y=u$, $x-y=v$ tìm $x$, $y$.
 
 ::solution
-Nhân phương trình thứ nhất với $2$, phương trình thứ hai với $3$ rồi cộng: $13u=65$, $u=5$; khi đó $3v=3$, $v=1$. Từ $x+y=5$, $x-y=1$: $x=3$, $y=2$. (Phá ngoặc cũng được hệ $5x-y=13$, $x+5y=13$ với cùng nghiệm.)
+Đặt $u=x+y$ và $v=x-y$. Hệ đã cho trở thành
+$$\begin{cases} 2u+3v=13\\ 3u-2v=13. \end{cases}$$
+
+Nhân hai vế của phương trình thứ nhất với $2$ và nhân hai vế của phương trình thứ hai với $3$, ta được
+$$\begin{cases} 4u+6v=26\\ 9u-6v=39. \end{cases}$$
+
+Cộng từng vế hai phương trình, ta được $13u=65$, suy ra $u=5$.
+
+Thay $u=5$ vào phương trình $2u+3v=13$, ta được $10+3v=13$, suy ra $v=1$.
+
+Do đó ta có hệ
+$$\begin{cases} x+y=5\\ x-y=1. \end{cases}$$
+
+Cộng từng vế hai phương trình, ta được $2x=6$, suy ra $x=3$. Thay $x=3$ vào $x+y=5$, ta được $y=2$.
+
+Vậy hệ phương trình đã cho có nghiệm duy nhất $(x; y)=(3; 2)$.
+
+*Chú ý.* Ta cũng có thể bỏ dấu ngoặc để đưa hệ về dạng $\begin{cases} 5x-y=13\\ x+5y=13 \end{cases}$ rồi giải; kết quả vẫn là $(3; 2)$.
 
 **Đáp số.** $(3; 2)$.
 :::

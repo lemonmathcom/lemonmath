@@ -151,7 +151,11 @@ So $a^2+b^2\ge2ab$ for all $a$, $b$; equality holds when $a-b=0$, that is $a=b$.
 Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
 
 :::exercise
-Write as inequalities: a) the number of students $n$ in a class is at most $45$; b) the ticket price $p$ (thousand đồng) is at least $50$; c) the temperature $T$ ($^\circ$C) is below $0$.
+Write an inequality to describe each of the following situations:
+
+a) The number of students $n$ in a class is at most $45$;
+b) The ticket price $p$ (thousand đồng) is at least $50$;
+c) The temperature $T$ ($^\circ$C) is below $0$.
 
 ::hint
 **What you need:** "at most" is $\le$, "at least" is $\ge$, "below" is $<$.
@@ -161,13 +165,24 @@ Write as inequalities: a) the number of students $n$ in a class is at most $45$;
 2. Write the inequality.
 
 ::solution
-a) $n\le45$; b) $p\ge50$; c) $T<0$.
+a) "At most $45$" means less than or equal to $45$. We have the inequality $n\le45$.
+
+b) "At least $50$" means greater than or equal to $50$. We have the inequality $p\ge50$.
+
+c) "Below $0$" means less than $0$. We have the inequality $T<0$.
+
+So the inequalities are $n\le45$; $p\ge50$; $T<0$.
 
 **Answer.** $n\le45$; $p\ge50$; $T<0$.
 :::
 
 :::exercise
-Is each statement true or false? a) $-5<-3$; b) $2\cdot(-3)\ge-6$; c) $(-2)^2<3$; d) $7-10\le-4$.
+Decide whether each of the following statements is true or false:
+
+a) $-5<-3$;
+b) $2\cdot(-3)\ge-6$;
+c) $(-2)^2<3$;
+d) $7-10\le-4$.
 
 ::hint
 **What you need:** work out each side, then compare; $\ge$ is also true when the two sides are equal.
@@ -177,13 +192,25 @@ Is each statement true or false? a) $-5<-3$; b) $2\cdot(-3)\ge-6$; c) $(-2)^2<3$
 2. Compare them on a number line.
 
 ::solution
-a) True. b) $-6\ge-6$: true. c) $4<3$: false. d) $-3\le-4$: false.
+a) **True.** On the number line, the point $-5$ lies to the left of the point $-3$, so $-5<-3$.
+
+b) **True.** We have $2\cdot(-3)=-6$. Since $-6=-6$, the statement $-6\ge-6$ is true.
+
+c) **False.** We have $(-2)^2=4$, and $4>3$, so the statement $4<3$ is false.
+
+d) **False.** We have $7-10=-3$, and $-3>-4$, so the statement $-3\le-4$ is false.
+
+So statements a) and b) are true; statements c) and d) are false.
 
 **Answer.** True, True, False, False.
 :::
 
 :::exercise
-Suppose $a<b$. Compare: a) $a+5$ and $b+5$; b) $-3a$ and $-3b$; c) $2a-1$ and $2b-1$.
+Given $a<b$. Compare:
+
+a) $a+5$ and $b+5$;
+b) $-3a$ and $-3b$;
+c) $2a-1$ and $2b-1$.
 
 ::hint
 **What you need:** adding keeps the direction; multiplying by a positive number keeps it, by a negative number reverses it.
@@ -193,7 +220,15 @@ Suppose $a<b$. Compare: a) $a+5$ and $b+5$; b) $-3a$ and $-3b$; c) $2a-1$ and $2
 2. In c) multiply by $2$, then add $-1$.
 
 ::solution
-a) $a+5<b+5$. b) $-3a>-3b$. c) $2a<2b\Rightarrow 2a-1<2b-1$.
+a) Adding $5$ to both sides of the inequality $a<b$, we get $a+5<b+5$.
+
+b) Multiply both sides of the inequality $a<b$ by $-3$. Since $-3<0$, the inequality is reversed: $-3a>-3b$.
+
+c) Multiply both sides of the inequality $a<b$ by $2$. Since $2>0$, the inequality keeps its direction: $2a<2b$.
+
+Adding $-1$ to both sides, we get $2a-1<2b-1$.
+
+So $a+5<b+5$; $-3a>-3b$; $2a-1<2b-1$.
 
 **Answer.** a) $<$; b) $>$; c) $<$.
 :::
@@ -209,7 +244,13 @@ Given that $-2a+3<-2b+3$, compare $a$ and $b$.
 2. Divide by $-2$.
 
 ::solution
-$-2a+3<-2b+3\Rightarrow -2a<-2b\Rightarrow a>b$ (dividing by $-2<0$ reverses the sign).
+We have $-2a+3<-2b+3$.
+
+Adding $-3$ to both sides, we get $-2a<-2b$.
+
+Divide both sides by $-2$. Since $-2<0$, the inequality is reversed, and we get $a>b$.
+
+So $a>b$.
 
 **Answer.** $a>b$.
 :::
@@ -225,7 +266,13 @@ Prove that if $a>2$, then $3a-1>5$.
 2. Add $-1$ to both sides.
 
 ::solution
-$a>2\Rightarrow 3a>6\Rightarrow 3a-1>5$.
+We have $a>2$.
+
+Multiply both sides by $3$. Since $3>0$, the inequality keeps its direction: $3a>6$.
+
+Adding $-1$ to both sides, we get $3a-1>6-1$, that is $3a-1>5$.
+
+So if $a>2$ then $3a-1>5$, as required.
 
 **Answer.** Proved.
 :::
@@ -241,9 +288,18 @@ A lift can carry at most $600$ kg. Mr Tư, who weighs $70$ kg, wants to take som
 2. Compare with $600$.
 
 ::solution
-$10$ bags: $70+10\cdot50=570\le600$, allowed. $11$ bags: $70+11\cdot50=620>600$, not allowed.
+The lift carries at most $600$ kg, so the total mass of Mr Tư and the bags of cement must not exceed $600$ kg.
 
-**Answer.** He can take $10$ bags but not $11$.
+With $10$ bags, the total mass is $70+10\cdot50=570$ (kg). We have the inequality
+$$70+10\cdot50\le600.$$
+
+Since $570\le600$ is true, Mr Tư can carry $10$ bags.
+
+With $11$ bags, the total mass is $70+11\cdot50=620$ (kg). Since $620>600$, Mr Tư cannot carry $11$ bags.
+
+So Mr Tư can carry $10$ bags but cannot carry $11$ bags of cement in one trip.
+
+**Answer.** $10$ bags can be carried, $11$ bags cannot.
 :::
 
 :::exercise Review
@@ -257,7 +313,16 @@ What are the solutions of the equation $(x-1)(x+2)=0$? Which of them satisfies $
 2. Compare each solution with $0$.
 
 ::solution
-The solutions are $x=1$ and $x=-2$. Since $1>0$ and $-2<0$, only $x=1$ works.
+We have $(x-1)(x+2)=0$. We solve the two equations:
+
+- $x-1=0$, which gives $x=1$;
+- $x+2=0$, which gives $x=-2$.
+
+Hence the equation has two solutions, $x=1$ and $x=-2$.
+
+Since $1>0$, the solution $x=1$ satisfies $x>0$. Since $-2<0$, the solution $x=-2$ does not satisfy $x>0$.
+
+So the equation has two solutions, $x=1$ and $x=-2$; only the solution $x=1$ satisfies $x>0$.
 
 **Answer.** $x=1$.
 :::
@@ -280,9 +345,17 @@ c) Deduce that $a^2>b^2$.
 3. c) Use the transitive property.
 
 ::solution
-a) $a>0$, so $a\cdot a>b\cdot a$, that is $a^2>ab$. b) $b>0$, so $ab>b\cdot b=b^2$. c) $a^2>ab$ and $ab>b^2$, so $a^2>b^2$.
+a) We have $a>b$. Multiply both sides by $a$. Since $a>0$, the inequality keeps its direction:
+$$a\cdot a>b\cdot a,\ \text{that is } a^2>ab.$$
 
-**Answer.** Proved; so for two positive numbers, the larger one has the larger square.
+b) We have $a>b$. Multiply both sides by $b$. Since $b>0$, the inequality keeps its direction:
+$$a\cdot b>b\cdot b,\ \text{that is } ab>b^2.$$
+
+c) By parts a) and b), we have $a^2>ab$ and $ab>b^2$. By the transitive property, it follows that $a^2>b^2$.
+
+So for two positive numbers, the larger number has the larger square.
+
+**Answer.** Proved; so for two positive numbers, the larger number has the larger square.
 :::
 
 :::exercise Challenge
@@ -296,7 +369,20 @@ Prove that $a^2+b^2+2\ge2(a+b)$ for all numbers $a$, $b$. When does equality hol
 2. Write the left-hand side as $(a-1)^2+(b-1)^2$.
 
 ::solution
-$a^2+b^2+2-2a-2b=(a^2-2a+1)+(b^2-2b+1)=(a-1)^2+(b-1)^2\ge0$. Equality holds when $a-1=0$ and $b-1=0$.
+Consider the difference of the left-hand side and the right-hand side:
+$$\begin{aligned}
+a^2+b^2+2-2(a+b)&=a^2+b^2+2-2a-2b\\
+&=(a^2-2a+1)+(b^2-2b+1)\\
+&=(a-1)^2+(b-1)^2.
+\end{aligned}$$
+
+Since $(a-1)^2\ge0$ and $(b-1)^2\ge0$ for all $a$, $b$, we have $(a-1)^2+(b-1)^2\ge0$.
+
+Hence $a^2+b^2+2-2(a+b)\ge0$, that is $a^2+b^2+2\ge2(a+b)$.
+
+Equality holds exactly when $(a-1)^2=0$ and $(b-1)^2=0$, that is $a=1$ and $b=1$.
+
+So $a^2+b^2+2\ge2(a+b)$ for all numbers $a$, $b$; equality holds when $a=b=1$.
 
 **Answer.** The inequality holds; equality when $a=b=1$.
 :::

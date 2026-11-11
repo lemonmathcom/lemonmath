@@ -151,7 +151,11 @@ Vậy $a^2+b^2\ge2ab$ với mọi $a$, $b$; dấu bằng xảy ra khi $a-b=0$, t
 Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-Viết bằng bất đẳng thức: a) số học sinh $n$ của một lớp không quá $45$; b) giá vé $p$ (nghìn đồng) ít nhất là $50$; c) nhiệt độ $T$ ($^\circ$C) dưới $0$.
+Viết bất đẳng thức để mô tả mỗi tình huống sau:
+
+a) Số học sinh $n$ của một lớp không quá $45$;
+b) Giá vé $p$ (nghìn đồng) ít nhất là $50$;
+c) Nhiệt độ $T$ ($^\circ$C) dưới $0$.
 
 ::hint
 **Kiến thức:** "không quá" là $\le$, "ít nhất" là $\ge$, "dưới" là $<$.
@@ -161,13 +165,24 @@ Viết bằng bất đẳng thức: a) số học sinh $n$ của một lớp kh�
 2. Viết bất đẳng thức.
 
 ::solution
-a) $n\le45$; b) $p\ge50$; c) $T<0$.
+a) "Không quá $45$" nghĩa là nhỏ hơn hoặc bằng $45$. Ta có bất đẳng thức $n\le45$.
+
+b) "Ít nhất là $50$" nghĩa là lớn hơn hoặc bằng $50$. Ta có bất đẳng thức $p\ge50$.
+
+c) "Dưới $0$" nghĩa là nhỏ hơn $0$. Ta có bất đẳng thức $T<0$.
+
+Vậy các bất đẳng thức cần viết là $n\le45$; $p\ge50$; $T<0$.
 
 **Đáp số.** $n\le45$; $p\ge50$; $T<0$.
 :::
 
 :::exercise
-Mỗi khẳng định sau đúng hay sai? a) $-5<-3$; b) $2\cdot(-3)\ge-6$; c) $(-2)^2<3$; d) $7-10\le-4$.
+Xét tính đúng sai của mỗi khẳng định sau:
+
+a) $-5<-3$;
+b) $2\cdot(-3)\ge-6$;
+c) $(-2)^2<3$;
+d) $7-10\le-4$.
 
 ::hint
 **Kiến thức:** tính giá trị mỗi vế rồi so sánh; $\ge$ đúng cả khi hai vế bằng nhau.
@@ -177,13 +192,25 @@ Mỗi khẳng định sau đúng hay sai? a) $-5<-3$; b) $2\cdot(-3)\ge-6$; c) $
 2. So sánh trên trục số.
 
 ::solution
-a) Đúng. b) $-6\ge-6$: đúng. c) $4<3$: sai. d) $-3\le-4$: sai.
+a) **Đúng.** Trên trục số, điểm $-5$ nằm bên trái điểm $-3$ nên $-5<-3$.
+
+b) **Đúng.** Ta có $2\cdot(-3)=-6$. Vì $-6=-6$ nên khẳng định $-6\ge-6$ đúng.
+
+c) **Sai.** Ta có $(-2)^2=4$, mà $4>3$ nên khẳng định $4<3$ sai.
+
+d) **Sai.** Ta có $7-10=-3$, mà $-3>-4$ nên khẳng định $-3\le-4$ sai.
+
+Vậy các khẳng định a) và b) đúng; các khẳng định c) và d) sai.
 
 **Đáp số.** Đúng, Đúng, Sai, Sai.
 :::
 
 :::exercise
-Cho $a<b$. So sánh: a) $a+5$ và $b+5$; b) $-3a$ và $-3b$; c) $2a-1$ và $2b-1$.
+Cho $a<b$. So sánh:
+
+a) $a+5$ và $b+5$;
+b) $-3a$ và $-3b$;
+c) $2a-1$ và $2b-1$.
 
 ::hint
 **Kiến thức:** cộng giữ chiều; nhân với số dương giữ chiều, với số âm đổi chiều.
@@ -193,7 +220,15 @@ Cho $a<b$. So sánh: a) $a+5$ và $b+5$; b) $-3a$ và $-3b$; c) $2a-1$ và $2b-1
 2. Câu c) nhân với $2$ rồi cộng $-1$.
 
 ::solution
-a) $a+5<b+5$. b) $-3a>-3b$. c) $2a<2b\Rightarrow 2a-1<2b-1$.
+a) Cộng $5$ vào hai vế của bất đẳng thức $a<b$, ta được $a+5<b+5$.
+
+b) Nhân hai vế của bất đẳng thức $a<b$ với $-3$. Vì $-3<0$ nên bất đẳng thức đổi chiều: $-3a>-3b$.
+
+c) Nhân hai vế của bất đẳng thức $a<b$ với $2$. Vì $2>0$ nên bất đẳng thức giữ nguyên chiều: $2a<2b$.
+
+Cộng $-1$ vào hai vế, ta được $2a-1<2b-1$.
+
+Vậy $a+5<b+5$; $-3a>-3b$; $2a-1<2b-1$.
 
 **Đáp số.** a) $<$; b) $>$; c) $<$.
 :::
@@ -209,7 +244,13 @@ Biết $-2a+3<-2b+3$. So sánh $a$ và $b$.
 2. Chia cho $-2$.
 
 ::solution
-$-2a+3<-2b+3\Rightarrow -2a<-2b\Rightarrow a>b$ (chia cho $-2<0$ nên đổi chiều).
+Ta có $-2a+3<-2b+3$.
+
+Cộng $-3$ vào hai vế, ta được $-2a<-2b$.
+
+Chia hai vế cho $-2$. Vì $-2<0$ nên bất đẳng thức đổi chiều, ta được $a>b$.
+
+Vậy $a>b$.
 
 **Đáp số.** $a>b$.
 :::
@@ -225,7 +266,13 @@ Chứng minh: nếu $a>2$ thì $3a-1>5$.
 2. Cộng $-1$ vào hai vế.
 
 ::solution
-$a>2\Rightarrow 3a>6\Rightarrow 3a-1>5$.
+Ta có $a>2$.
+
+Nhân hai vế với $3$. Vì $3>0$ nên bất đẳng thức giữ nguyên chiều: $3a>6$.
+
+Cộng $-1$ vào hai vế, ta được $3a-1>6-1$, tức là $3a-1>5$.
+
+Vậy nếu $a>2$ thì $3a-1>5$ (điều phải chứng minh).
 
 **Đáp số.** Đã chứng minh.
 :::
@@ -241,7 +288,16 @@ Một thang máy chở được tối đa $600$ kg. Bác Tư nặng $70$ kg mu�
 2. So sánh với $600$.
 
 ::solution
-$10$ bao: $70+10\cdot50=570\le600$, được. $11$ bao: $70+11\cdot50=620>600$, không được.
+Thang máy chở được tối đa $600$ kg nên tổng khối lượng của bác Tư và các bao xi măng phải không vượt quá $600$ kg.
+
+Khi chở $10$ bao, tổng khối lượng là $70+10\cdot50=570$ (kg). Ta có bất đẳng thức
+$$70+10\cdot50\le600.$$
+
+Vì $570\le600$ là khẳng định đúng nên bác Tư chở được $10$ bao.
+
+Khi chở $11$ bao, tổng khối lượng là $70+11\cdot50=620$ (kg). Vì $620>600$ nên bác Tư không chở được $11$ bao.
+
+Vậy bác Tư chở được $10$ bao nhưng không chở được $11$ bao xi măng trong một lần.
 
 **Đáp số.** Chở được $10$ bao, không chở được $11$ bao.
 :::
@@ -257,7 +313,16 @@ Phương trình $(x-1)(x+2)=0$ có những nghiệm nào? Nghiệm nào thoả m
 2. So sánh từng nghiệm với $0$.
 
 ::solution
-Nghiệm $x=1$ và $x=-2$. Vì $1>0$ còn $-2<0$, chỉ $x=1$ thoả mãn.
+Ta có $(x-1)(x+2)=0$. Ta giải hai phương trình sau:
+
+- $x-1=0$, suy ra $x=1$;
+- $x+2=0$, suy ra $x=-2$.
+
+Do đó phương trình có hai nghiệm $x=1$ và $x=-2$.
+
+Vì $1>0$ nên nghiệm $x=1$ thoả mãn $x>0$. Vì $-2<0$ nên nghiệm $x=-2$ không thoả mãn $x>0$.
+
+Vậy phương trình có hai nghiệm $x=1$ và $x=-2$; trong đó chỉ nghiệm $x=1$ thoả mãn $x>0$.
 
 **Đáp số.** $x=1$.
 :::
@@ -280,7 +345,15 @@ c) Suy ra $a^2>b^2$.
 3. c) Bắc cầu.
 
 ::solution
-a) $a>0$ nên $a\cdot a>b\cdot a$, tức $a^2>ab$. b) $b>0$ nên $ab>b\cdot b=b^2$. c) $a^2>ab$ và $ab>b^2$ nên $a^2>b^2$.
+a) Ta có $a>b$. Nhân hai vế với $a$. Vì $a>0$ nên bất đẳng thức giữ nguyên chiều:
+$$a\cdot a>b\cdot a,\ \text{tức là } a^2>ab.$$
+
+b) Ta có $a>b$. Nhân hai vế với $b$. Vì $b>0$ nên bất đẳng thức giữ nguyên chiều:
+$$a\cdot b>b\cdot b,\ \text{tức là } ab>b^2.$$
+
+c) Theo câu a) và câu b), ta có $a^2>ab$ và $ab>b^2$. Theo tính chất bắc cầu, suy ra $a^2>b^2$.
+
+Vậy với hai số dương, số lớn hơn có bình phương lớn hơn.
 
 **Đáp số.** Đã chứng minh; vậy với hai số dương, số lớn hơn có bình phương lớn hơn.
 :::
@@ -296,7 +369,20 @@ Chứng minh rằng với mọi số $a$, $b$: $a^2+b^2+2\ge2(a+b)$. Khi nào x�
 2. Viết vế trái thành $(a-1)^2+(b-1)^2$.
 
 ::solution
-$a^2+b^2+2-2a-2b=(a^2-2a+1)+(b^2-2b+1)=(a-1)^2+(b-1)^2\ge0$. Dấu bằng xảy ra khi $a-1=0$ và $b-1=0$.
+Xét hiệu của vế trái và vế phải:
+$$\begin{aligned}
+a^2+b^2+2-2(a+b)&=a^2+b^2+2-2a-2b\\
+&=(a^2-2a+1)+(b^2-2b+1)\\
+&=(a-1)^2+(b-1)^2.
+\end{aligned}$$
+
+Vì $(a-1)^2\ge0$ và $(b-1)^2\ge0$ với mọi $a$, $b$ nên $(a-1)^2+(b-1)^2\ge0$.
+
+Do đó $a^2+b^2+2-2(a+b)\ge0$, tức là $a^2+b^2+2\ge2(a+b)$.
+
+Dấu bằng xảy ra khi và chỉ khi $(a-1)^2=0$ và $(b-1)^2=0$, tức là $a=1$ và $b=1$.
+
+Vậy $a^2+b^2+2\ge2(a+b)$ với mọi số $a$, $b$; dấu bằng xảy ra khi $a=b=1$.
 
 **Đáp số.** Bất đẳng thức đúng; dấu bằng khi $a=b=1$.
 :::

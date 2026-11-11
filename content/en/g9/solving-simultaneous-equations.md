@@ -154,7 +154,14 @@ Solve $\begin{cases} x=2y\\ x+y=9 \end{cases}$ by substitution.
 2. Find $y$, then $x$.
 
 ::solution
-$2y+y=9\iff y=3$, so $x=6$.
+Substituting $x=2y$ from the first equation into the second equation, we get
+$$2y+y=9.$$
+
+It follows that $3y=9$, so $y=3$.
+
+Substituting $y=3$ into $x=2y$, we get $x=2\cdot3=6$.
+
+So the system has the unique solution $(x, y)=(6, 3)$.
 
 **Answer.** $(6, 3)$.
 :::
@@ -170,7 +177,16 @@ Solve $\begin{cases} 2x-y=3\\ x+2y=4 \end{cases}$ by substitution.
 2. Substitute into the second equation and solve.
 
 ::solution
-$x+2(2x-3)=4\iff 5x=10\iff x=2$, so $y=2\cdot2-3=1$.
+From the first equation, we have $y=2x-3$.
+
+Substituting $y=2x-3$ into the second equation, we get
+$$x+2(2x-3)=4.$$
+
+It follows that $x+4x-6=4$, that is $5x=10$, so $x=2$.
+
+Substituting $x=2$ into $y=2x-3$, we get $y=2\cdot2-3=1$.
+
+So the system has the unique solution $(x, y)=(2, 1)$.
 
 **Answer.** $(2, 1)$.
 :::
@@ -186,7 +202,13 @@ Solve $\begin{cases} x+y=7\\ x-y=1 \end{cases}$ by elimination.
 2. Substitute into $x+y=7$ to find $y$.
 
 ::solution
-$2x=8\iff x=4$; $4+y=7\iff y=3$.
+The coefficients of $y$ in the two equations are opposite numbers. Adding the two equations side by side, we get
+$$2x=8,$$
+which gives $x=4$.
+
+Substituting $x=4$ into the first equation, we get $4+y=7$, which gives $y=3$.
+
+So the system has the unique solution $(x, y)=(4, 3)$.
 
 **Answer.** $(4, 3)$.
 :::
@@ -202,13 +224,24 @@ Solve $\begin{cases} 3x+4y=5\\ 2x-3y=-8 \end{cases}$
 2. Subtract to remove $x$.
 
 ::solution
-$6x+8y=10$ and $6x-9y=-24$. Subtracting: $17y=34\iff y=2$. Then $3x+8=5\iff x=-1$.
+Multiplying both sides of the first equation by $2$ and both sides of the second equation by $3$, we get the system
+$$\begin{cases} 6x+8y=10\\ 6x-9y=-24. \end{cases}$$
+
+Subtracting the two equations of the new system side by side, we get $17y=34$, which gives $y=2$.
+
+Substituting $y=2$ into the equation $3x+4y=5$, we get $3x+8=5$, that is $3x=-3$, which gives $x=-1$.
+
+So the system has the unique solution $(x, y)=(-1, 2)$.
 
 **Answer.** $(-1, 2)$.
 :::
 
 :::exercise
-How many solutions does each pair of equations have? a) $\begin{cases} 2x-4y=6\\ x-2y=3 \end{cases}$ b) $\begin{cases} x-2y=1\\ -2x+4y=5 \end{cases}$
+How many solutions does each of the following systems have?
+
+a) $\begin{cases} 2x-4y=6\\ x-2y=3 \end{cases}$
+
+b) $\begin{cases} x-2y=1\\ -2x+4y=5 \end{cases}$
 
 ::hint
 **What you need:** after substituting, $0x=0$ means infinitely many solutions and $0x=c$ ($c\neq0$) means no solution.
@@ -218,9 +251,23 @@ How many solutions does each pair of equations have? a) $\begin{cases} 2x-4y=6\\
 2. Substitute into the other equation.
 
 ::solution
-a) $x=3+2y$: $2(3+2y)-4y=6\iff 0y=0$. b) $x=1+2y$: $-2(1+2y)+4y=5\iff 0y=7$.
+a) From the second equation, we have $x=3+2y$.
 
-**Answer.** a) Infinitely many; b) none.
+Substituting $x=3+2y$ into the first equation, we get $2(3+2y)-4y=6$, that is $6+4y-4y=6$, so $0y=0$.
+
+The equality $0y=0$ is true for every value of $y$. For each value of $y$, we find one value $x=3+2y$.
+
+So the system has infinitely many solutions.
+
+b) From the first equation, we have $x=1+2y$.
+
+Substituting $x=1+2y$ into the second equation, we get $-2(1+2y)+4y=5$, that is $-2-4y+4y=5$, so $0y=7$.
+
+No value of $y$ satisfies $0y=7$.
+
+So the system has no solution.
+
+**Answer.** a) Infinitely many solutions; b) no solution.
 :::
 
 :::exercise
@@ -235,9 +282,21 @@ Let $x$ and $y$ (thousand đồng) be the price of an exercise book and of a pen
 3. Solve the new pair.
 
 ::solution
-$x+y=13$ and $x-y=3$, so $2x=16$, $x=8$, $y=5$.
+Adding the two equations side by side, we get $5x+5y=65$, that is
+$$x+y=13. \quad (1)$$
 
-**Answer.** A book costs $8$ thousand đồng and a pen $5$ thousand đồng.
+Subtracting the second equation from the first side by side, we get
+$$x-y=3. \quad (2)$$
+
+Adding $(1)$ and $(2)$ side by side, we get $2x=16$, which gives $x=8$.
+
+Substituting $x=8$ into $(1)$, we get $8+y=13$, which gives $y=5$.
+
+Check: $3\cdot8+2\cdot5=34$ and $2\cdot8+3\cdot5=31$ (true).
+
+So a notebook costs $8$ thousand đồng and a pen costs $5$ thousand đồng.
+
+**Answer.** Notebook $8$ thousand đồng, pen $5$ thousand đồng.
 :::
 
 :::exercise Review
@@ -251,7 +310,18 @@ Find $a$ and $b$ so that the graph of $y=ax+b$ passes through the points $A(1, 3
 2. Subtract them to find $a$.
 
 ::solution
-$a+b=3$ and $2a+b=5$. Subtracting: $a=2$, so $b=1$.
+The graph of $y=ax+b$ passes through the point $A(1, 3)$, so $a\cdot1+b=3$, that is $a+b=3$.
+
+The graph passes through the point $B(2, 5)$, so $a\cdot2+b=5$, that is $2a+b=5$.
+
+Hence we have the system
+$$\begin{cases} a+b=3\\ 2a+b=5. \end{cases}$$
+
+Subtracting the first equation from the second side by side, we get $a=2$.
+
+Substituting $a=2$ into the equation $a+b=3$, we get $2+b=3$, which gives $b=1$.
+
+So $a=2$ and $b=1$; the function is $y=2x+1$.
 
 **Answer.** $a=2$, $b=1$, that is $y=2x+1$.
 :::
@@ -274,11 +344,28 @@ c) Show that the line $y=x+1$ passes through the point where the lines $x+2y=5$ 
 3. c) Substitute the coordinates of that point into $y=x+1$.
 
 ::solution
-a) $3(5-2y)-y=1\iff 15-7y=1\iff y=2$, $x=1$.
+a) From the first equation, we have $x=5-2y$.
 
-b) $x+2y=5$ and $6x-2y=2$; adding: $7x=7$, $x=1$, $y=2$. Both methods give the same result.
+Substituting $x=5-2y$ into the second equation, we get $3(5-2y)-y=1$, that is $15-7y=1$, which gives $7y=14$, so $y=2$.
 
-c) The lines meet at $(1, 2)$, and $2=1+1$.
+Substituting $y=2$ into $x=5-2y$, we get $x=5-2\cdot2=1$.
+
+So the system has the unique solution $(x, y)=(1, 2)$.
+
+b) Multiplying both sides of the second equation by $2$, we get the system
+$$\begin{cases} x+2y=5\\ 6x-2y=2. \end{cases}$$
+
+Adding the two equations of the new system side by side, we get $7x=7$, which gives $x=1$.
+
+Substituting $x=1$ into the equation $x+2y=5$, we get $1+2y=5$, which gives $y=2$.
+
+So the system has the unique solution $(x, y)=(1, 2)$. The two methods give the same result.
+
+c) The coordinates of the point where the lines $x+2y=5$ and $3x-y=1$ meet are the solution of the given system. By part a), that point is $M(1, 2)$.
+
+Substituting $x=1$ into $y=x+1$, we get $y=1+1=2$, which equals the $y$-coordinate of $M$.
+
+So the line $y=x+1$ passes through the point $M(1, 2)$ where the two given lines meet.
 
 **Answer.** a), b) $(1, 2)$; c) $(1, 2)$ lies on $y=x+1$.
 :::
@@ -294,7 +381,24 @@ Solve $\begin{cases} 2(x+y)+3(x-y)=13\\ 3(x+y)-2(x-y)=13 \end{cases}$
 2. From $x+y=u$, $x-y=v$ find $x$ and $y$.
 
 ::solution
-Multiply the first equation by $2$ and the second by $3$, then add: $13u=65$, $u=5$; then $3v=3$, $v=1$. From $x+y=5$, $x-y=1$: $x=3$, $y=2$. (Expanding gives $5x-y=13$, $x+5y=13$, with the same solution.)
+Let $u=x+y$ and $v=x-y$. The system becomes
+$$\begin{cases} 2u+3v=13\\ 3u-2v=13. \end{cases}$$
+
+Multiplying both sides of the first equation by $2$ and both sides of the second equation by $3$, we get
+$$\begin{cases} 4u+6v=26\\ 9u-6v=39. \end{cases}$$
+
+Adding the two equations side by side, we get $13u=65$, which gives $u=5$.
+
+Substituting $u=5$ into the equation $2u+3v=13$, we get $10+3v=13$, which gives $v=1$.
+
+Hence we have the system
+$$\begin{cases} x+y=5\\ x-y=1. \end{cases}$$
+
+Adding the two equations side by side, we get $2x=6$, which gives $x=3$. Substituting $x=3$ into $x+y=5$, we get $y=2$.
+
+So the system has the unique solution $(x, y)=(3, 2)$.
+
+*Note.* We can also expand the brackets to bring the system to the form $\begin{cases} 5x-y=13\\ x+5y=13 \end{cases}$ and then solve it; the result is still $(3, 2)$.
 
 **Answer.** $(3, 2)$.
 :::

@@ -139,7 +139,12 @@ Vậy Lan mua $4$ bút và $5$ vở. Bài sau sẽ chỉ cách tìm nghiệm nà
 Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-Phương trình nào sau đây là phương trình bậc nhất hai ẩn? a) $3x-y=2$; b) $0x+5y=-10$; c) $x+y^2=4$; d) $0x+0y=7$.
+Trong các phương trình sau, phương trình nào là phương trình bậc nhất hai ẩn?
+
+a) $3x-y=2$;
+b) $0x+5y=-10$;
+c) $x+y^2=4$;
+d) $0x+0y=7$.
 
 ::hint
 **Kiến thức:** $ax+by=c$ là phương trình bậc nhất hai ẩn khi $a\neq0$ hoặc $b\neq0$, và $x$, $y$ không có số mũ khác $1$.
@@ -149,7 +154,17 @@ Phương trình nào sau đây là phương trình bậc nhất hai ẩn? a) $3x
 2. Loại phương trình có $y^2$ và phương trình có cả hai hệ số bằng $0$.
 
 ::solution
-a) $a=3$, $b=-1$: đúng dạng. b) $a=0$, $b=5\neq0$: đúng dạng. c) có $y^2$: không phải. d) $a=b=0$: không phải.
+Phương trình bậc nhất hai ẩn có dạng $ax+by=c$, trong đó $a$ và $b$ không đồng thời bằng $0$.
+
+a) Phương trình $3x-y=2$ có dạng $ax+by=c$ với $a=3$, $b=-1$, $c=2$. Vì $a\neq0$ nên đây là phương trình bậc nhất hai ẩn.
+
+b) Phương trình $0x+5y=-10$ có $a=0$, $b=5$, $c=-10$. Vì $b\neq0$ nên đây là phương trình bậc nhất hai ẩn.
+
+c) Phương trình $x+y^2=4$ chứa $y^2$ nên không có dạng $ax+by=c$. Đây không là phương trình bậc nhất hai ẩn.
+
+d) Phương trình $0x+0y=7$ có $a=b=0$ nên không là phương trình bậc nhất hai ẩn.
+
+Vậy các phương trình ở câu a) và câu b) là phương trình bậc nhất hai ẩn.
 
 **Đáp số.** a) và b).
 :::
@@ -165,7 +180,14 @@ Cặp số nào là nghiệm của phương trình $3x+2y=8$: $(2; 1)$, $(0; 4)$
 2. So sánh kết quả với $8$.
 
 ::solution
-$3\cdot2+2\cdot1=8$; $3\cdot0+2\cdot4=8$; $3\cdot4+2\cdot(-2)=8$; $3\cdot1+2\cdot3=9\neq8$.
+Ta thay lần lượt từng cặp số vào vế trái của phương trình $3x+2y=8$ rồi so sánh với vế phải:
+
+- Với $(2; 1)$: $3\cdot2+2\cdot1=8$. Cặp số này là nghiệm.
+- Với $(0; 4)$: $3\cdot0+2\cdot4=8$. Cặp số này là nghiệm.
+- Với $(4; -2)$: $3\cdot4+2\cdot(-2)=12-4=8$. Cặp số này là nghiệm.
+- Với $(1; 3)$: $3\cdot1+2\cdot3=9\neq8$. Cặp số này không là nghiệm.
+
+Vậy các cặp số $(2; 1)$, $(0; 4)$ và $(4; -2)$ là nghiệm của phương trình đã cho.
 
 **Đáp số.** $(2; 1)$, $(0; 4)$ và $(4; -2)$.
 :::
@@ -181,13 +203,21 @@ Tìm $x$ để $(x; -1)$ là nghiệm của phương trình $4x+3y=9$.
 2. Giải phương trình một ẩn vừa nhận được.
 
 ::solution
-$4x-3=9\iff 4x=12\iff x=3$.
+Cặp số $(x; -1)$ là nghiệm của phương trình $4x+3y=9$ khi thay $y=-1$ vào phương trình ta được một đẳng thức đúng:
+$$4x+3\cdot(-1)=9.$$
+
+Suy ra $4x-3=9$, hay $4x=12$, tức là $x=3$.
+
+Vậy với $x=3$ thì $(x; -1)$ là nghiệm của phương trình đã cho.
 
 **Đáp số.** $x=3$.
 :::
 
 :::exercise
-Biểu diễn tập nghiệm của mỗi phương trình: a) $2x-y=1$; b) $0x+2y=6$.
+Biểu diễn tập nghiệm của mỗi phương trình sau trên mặt phẳng toạ độ:
+
+a) $2x-y=1$;
+b) $0x+2y=6$.
 
 ::hint
 **Kiến thức:** khi $b\neq0$, viết $y$ theo $x$ rồi vẽ đường thẳng qua hai điểm.
@@ -197,7 +227,15 @@ Biểu diễn tập nghiệm của mỗi phương trình: a) $2x-y=1$; b) $0x+2y
 2. Tìm hai điểm của đường thẳng (ví dụ với $x=0$ và $x=1$).
 
 ::solution
-a) $y=2x-1$: đường thẳng đi qua $(0; -1)$ và $(1; 1)$. b) $2y=6\iff y=3$: đường thẳng song song với trục hoành, cắt trục tung tại $(0; 3)$.
+a) Ta có $2x-y=1$, suy ra $y=2x-1$.
+
+Cho $x=0$ thì $y=-1$; cho $x=1$ thì $y=1$. Do đó đường thẳng $y=2x-1$ đi qua hai điểm $(0; -1)$ và $(1; 1)$.
+
+Vậy tập nghiệm của phương trình $2x-y=1$ được biểu diễn bởi đường thẳng $y=2x-1$, đi qua hai điểm $(0; -1)$ và $(1; 1)$.
+
+b) Ta có $0x+2y=6$, suy ra $2y=6$, tức là $y=3$ (với mọi $x$).
+
+Vậy tập nghiệm của phương trình $0x+2y=6$ được biểu diễn bởi đường thẳng $y=3$: đường thẳng này song song với trục hoành và cắt trục tung tại điểm $(0; 3)$.
 
 **Đáp số.** a) Đường thẳng $y=2x-1$; b) đường thẳng $y=3$.
 :::
@@ -214,7 +252,19 @@ Một nhóm $7$ người đi xem phim. Vé học sinh giá $45$ nghìn đồng, 
 3. Thay từng cặp vào cả hai phương trình.
 
 ::solution
-Hệ: $x+y=7$ và $45x+70y=365$. Với $(5; 2)$: $5+2=7$, $225+140=365$. Với $(4; 3)$: $4+3=7$ nhưng $180+210=390\neq365$.
+Nhóm có $7$ người nên ta có phương trình $x+y=7$.
+
+Số tiền mua vé học sinh là $45x$ (nghìn đồng), số tiền mua vé người lớn là $70y$ (nghìn đồng). Cả nhóm trả $365$ nghìn đồng nên ta có phương trình $45x+70y=365$.
+
+Do đó ta có hệ phương trình
+$$\begin{cases} x+y=7\\ 45x+70y=365. \end{cases}$$
+
+Ta thử từng cặp số:
+
+- Với $(5; 2)$: $5+2=7$ và $45\cdot5+70\cdot2=225+140=365$. Cặp số này thoả mãn cả hai phương trình nên là nghiệm của hệ.
+- Với $(4; 3)$: $4+3=7$ nhưng $45\cdot4+70\cdot3=180+210=390\neq365$. Cặp số này không thoả mãn phương trình thứ hai nên không là nghiệm của hệ.
+
+Vậy cặp số $(5; 2)$ là nghiệm của hệ: nhóm có $5$ học sinh và $2$ người lớn.
 
 **Đáp số.** $(5; 2)$: nhóm có $5$ học sinh và $2$ người lớn.
 :::
@@ -230,7 +280,14 @@ Viết phương trình $3x+y=5$ dưới dạng $y=ax+b$. Đường thẳng biể
 2. Đọc $a$ và $b$.
 
 ::solution
-$3x+y=5\iff y=-3x+5$, nên $a=-3$, $b=5$.
+Ta có $3x+y=5$. Chuyển $3x$ sang vế phải, ta được
+$$y=-3x+5.$$
+
+Đây là hàm số bậc nhất $y=ax+b$ với $a=-3$ và $b=5$.
+
+Do đó đường thẳng biểu diễn tập nghiệm có hệ số góc $a=-3$. Cho $x=0$ thì $y=5$, nên đường thẳng cắt trục tung tại điểm $(0; 5)$.
+
+Vậy phương trình viết được dưới dạng $y=-3x+5$; đường thẳng biểu diễn tập nghiệm có hệ số góc bằng $-3$ và cắt trục tung tại điểm $(0; 5)$.
 
 **Đáp số.** Hệ số góc $-3$; cắt trục tung tại $(0; 5)$.
 :::
@@ -253,11 +310,22 @@ c) Trong hai nghiệm $(6; 1)$ và $(2; -1)$ của phương trình, nghiệm nà
 3. Thay từng cặp vào $2x+y$.
 
 ::solution
-a) $x=0$: $-2y=4\iff y=-2$. $y=0$: $x=4$. Hai nghiệm là $(0; -2)$ và $(4; 0)$.
+a) Thay $x=0$ vào phương trình $x-2y=4$, ta được $-2y=4$, suy ra $y=-2$. Ta có nghiệm $(0; -2)$.
 
-b) Đường thẳng đi qua $(0; -2)$ và $(4; 0)$, tức là $y=\dfrac12x-2$.
+Thay $y=0$ vào phương trình, ta được $x=4$. Ta có nghiệm $(4; 0)$.
 
-c) $2\cdot6+1=13\neq3$; $2\cdot2+(-1)=3$.
+Vậy hai nghiệm cần tìm là $(0; -2)$ và $(4; 0)$.
+
+b) Tập nghiệm của phương trình $x-2y=4$ được biểu diễn bởi một đường thẳng. Theo câu a), đường thẳng này đi qua hai điểm $(0; -2)$ và $(4; 0)$.
+
+Ta đánh dấu hai điểm đó trên mặt phẳng toạ độ rồi vẽ đường thẳng đi qua chúng. Đường thẳng này chính là đồ thị của hàm số $y=\dfrac12x-2$.
+
+c) Ta thay từng nghiệm vào phương trình $2x+y=3$:
+
+- Với $(6; 1)$: $2\cdot6+1=13\neq3$, nên $(6; 1)$ không là nghiệm của phương trình $2x+y=3$.
+- Với $(2; -1)$: $2\cdot2+(-1)=3$, nên $(2; -1)$ là nghiệm của phương trình $2x+y=3$.
+
+Vậy nghiệm $(2; -1)$ cũng là nghiệm của phương trình $2x+y=3$.
 
 **Đáp số.** a) $(0; -2)$, $(4; 0)$; b) đường thẳng qua hai điểm đó; c) $(2; -1)$.
 :::
@@ -273,7 +341,19 @@ Một cửa hàng bán nhãn dán giá $3$ nghìn đồng một tờ và $5$ ngh
 2. Suy ra $x$ chia hết cho $5$; thử $x=5, 10, 15$.
 
 ::solution
-$x$ phải chia hết cho $5$ và $3x<40$, nên $x\in\{5; 10\}$. Với $x=5$: $5y=25$, $y=5$. Với $x=10$: $5y=10$, $y=2$. (Với $x=15$ thì $3x=45>40$.)
+Gọi $x$ là số tờ nhãn dán loại $3$ nghìn đồng và $y$ là số tờ loại $5$ nghìn đồng ($x$, $y$ là các số nguyên dương).
+
+Vì Hùng tiêu vừa hết $40$ nghìn đồng nên ta có phương trình
+$$3x+5y=40.$$
+
+Suy ra $3x=40-5y=5(8-y)$. Vế phải chia hết cho $5$ nên $3x$ chia hết cho $5$, do đó $x$ chia hết cho $5$.
+
+Mặt khác, vì $y\ge1$ nên $3x\le35$, tức là $x<12$. Do đó $x=5$ hoặc $x=10$.
+
+- Với $x=5$: $5y=40-15=25$, suy ra $y=5$.
+- Với $x=10$: $5y=40-30=10$, suy ra $y=2$.
+
+Vậy có hai cách mua: $5$ tờ loại $3$ nghìn đồng và $5$ tờ loại $5$ nghìn đồng; hoặc $10$ tờ loại $3$ nghìn đồng và $2$ tờ loại $5$ nghìn đồng.
 
 **Đáp số.** Hai cách: $5$ tờ loại $3$ nghìn và $5$ tờ loại $5$ nghìn, hoặc $10$ tờ loại $3$ nghìn và $2$ tờ loại $5$ nghìn.
 :::

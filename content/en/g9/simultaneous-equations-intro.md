@@ -139,7 +139,12 @@ So Lan buys $4$ pens and $5$ books. The next lesson shows how to find this solut
 Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
 
 :::exercise
-Which of these are linear equations in two unknowns? a) $3x-y=2$; b) $0x+5y=-10$; c) $x+y^2=4$; d) $0x+0y=7$.
+Which of the following equations are linear equations in two unknowns?
+
+a) $3x-y=2$;
+b) $0x+5y=-10$;
+c) $x+y^2=4$;
+d) $0x+0y=7$.
 
 ::hint
 **What you need:** $ax+by=c$ is a linear equation in two unknowns when $a\neq0$ or $b\neq0$, and $x$, $y$ appear with no power other than $1$.
@@ -149,7 +154,17 @@ Which of these are linear equations in two unknowns? a) $3x-y=2$; b) $0x+5y=-10$
 2. Rule out the equation with $y^2$ and the one where both coefficients are $0$.
 
 ::solution
-a) $a=3$, $b=-1$: the right form. b) $a=0$, $b=5\neq0$: the right form. c) contains $y^2$: no. d) $a=b=0$: no.
+A linear equation in two unknowns has the form $ax+by=c$, where $a$ and $b$ are not both $0$.
+
+a) The equation $3x-y=2$ has the form $ax+by=c$ with $a=3$, $b=-1$, $c=2$. Since $a\neq0$, it is a linear equation in two unknowns.
+
+b) The equation $0x+5y=-10$ has $a=0$, $b=5$, $c=-10$. Since $b\neq0$, it is a linear equation in two unknowns.
+
+c) The equation $x+y^2=4$ contains $y^2$, so it does not have the form $ax+by=c$. It is not a linear equation in two unknowns.
+
+d) The equation $0x+0y=7$ has $a=b=0$, so it is not a linear equation in two unknowns.
+
+So the equations in parts a) and b) are linear equations in two unknowns.
 
 **Answer.** a) and b).
 :::
@@ -165,7 +180,14 @@ Which of the pairs $(2, 1)$, $(0, 4)$, $(4, -2)$, $(1, 3)$ are solutions of the 
 2. Compare the result with $8$.
 
 ::solution
-$3\cdot2+2\cdot1=8$; $3\cdot0+2\cdot4=8$; $3\cdot4+2\cdot(-2)=8$; $3\cdot1+2\cdot3=9\neq8$.
+We substitute each pair in turn into the left-hand side of the equation $3x+2y=8$ and compare with the right-hand side:
+
+- For $(2, 1)$: $3\cdot2+2\cdot1=8$. This pair is a solution.
+- For $(0, 4)$: $3\cdot0+2\cdot4=8$. This pair is a solution.
+- For $(4, -2)$: $3\cdot4+2\cdot(-2)=12-4=8$. This pair is a solution.
+- For $(1, 3)$: $3\cdot1+2\cdot3=9\neq8$. This pair is not a solution.
+
+So the pairs $(2, 1)$, $(0, 4)$ and $(4, -2)$ are solutions of the equation.
 
 **Answer.** $(2, 1)$, $(0, 4)$ and $(4, -2)$.
 :::
@@ -181,13 +203,21 @@ Find $x$ so that $(x, -1)$ is a solution of the equation $4x+3y=9$.
 2. Solve the equation in one unknown that you get.
 
 ::solution
-$4x-3=9\iff 4x=12\iff x=3$.
+The pair $(x, -1)$ is a solution of the equation $4x+3y=9$ when substituting $y=-1$ into the equation gives a true equality:
+$$4x+3\cdot(-1)=9.$$
+
+It follows that $4x-3=9$, that is $4x=12$, so $x=3$.
+
+So for $x=3$ the pair $(x, -1)$ is a solution of the equation.
 
 **Answer.** $x=3$.
 :::
 
 :::exercise
-Show the solution set of each equation: a) $2x-y=1$; b) $0x+2y=6$.
+Represent the solution set of each of the following equations on the coordinate plane:
+
+a) $2x-y=1$;
+b) $0x+2y=6$.
 
 ::hint
 **What you need:** when $b\neq0$, write $y$ in terms of $x$ and draw the line through two points.
@@ -197,7 +227,15 @@ Show the solution set of each equation: a) $2x-y=1$; b) $0x+2y=6$.
 2. Find two points on the line (for example with $x=0$ and $x=1$).
 
 ::solution
-a) $y=2x-1$: the line through $(0, -1)$ and $(1, 1)$. b) $2y=6\iff y=3$: the line parallel to the $x$-axis that crosses the $y$-axis at $(0, 3)$.
+a) We have $2x-y=1$, which gives $y=2x-1$.
+
+Taking $x=0$ gives $y=-1$; taking $x=1$ gives $y=1$. Hence the line $y=2x-1$ passes through the two points $(0, -1)$ and $(1, 1)$.
+
+So the solution set of the equation $2x-y=1$ is represented by the line $y=2x-1$, which passes through $(0, -1)$ and $(1, 1)$.
+
+b) We have $0x+2y=6$, which gives $2y=6$, so $y=3$ (for every $x$).
+
+So the solution set of the equation $0x+2y=6$ is represented by the line $y=3$: this line is parallel to the $x$-axis and meets the $y$-axis at the point $(0, 3)$.
 
 **Answer.** a) The line $y=2x-1$; b) the line $y=3$.
 :::
@@ -214,7 +252,19 @@ A group of $7$ people go to the cinema. A student ticket costs $45$ thousand đ�
 3. Substitute each pair into both equations.
 
 ::solution
-The equations: $x+y=7$ and $45x+70y=365$. For $(5, 2)$: $5+2=7$ and $225+140=365$. For $(4, 3)$: $4+3=7$ but $180+210=390\neq365$.
+The group has $7$ people, so we have the equation $x+y=7$.
+
+The student tickets cost $45x$ (thousand đồng) and the adult tickets cost $70y$ (thousand đồng). The group pays $365$ thousand đồng, so we have the equation $45x+70y=365$.
+
+Hence we have the simultaneous equations
+$$\begin{cases} x+y=7\\ 45x+70y=365. \end{cases}$$
+
+We test each pair:
+
+- For $(5, 2)$: $5+2=7$ and $45\cdot5+70\cdot2=225+140=365$. This pair satisfies both equations, so it is a solution of the system.
+- For $(4, 3)$: $4+3=7$ but $45\cdot4+70\cdot3=180+210=390\neq365$. This pair does not satisfy the second equation, so it is not a solution of the system.
+
+So the pair $(5, 2)$ is the solution of the system: the group has $5$ students and $2$ adults.
 
 **Answer.** $(5, 2)$: the group has $5$ students and $2$ adults.
 :::
@@ -230,9 +280,16 @@ Write the equation $3x+y=5$ in the form $y=ax+b$. What is the gradient of the li
 2. Read off $a$ and $b$.
 
 ::solution
-$3x+y=5\iff y=-3x+5$, so $a=-3$ and $b=5$.
+We have $3x+y=5$. Moving $3x$ to the right-hand side, we get
+$$y=-3x+5.$$
 
-**Answer.** Gradient $-3$; it crosses the $y$-axis at $(0, 5)$.
+This is the linear function $y=ax+b$ with $a=-3$ and $b=5$.
+
+Hence the line representing the solution set has gradient $a=-3$. Taking $x=0$ gives $y=5$, so the line meets the $y$-axis at the point $(0, 5)$.
+
+So the equation can be written as $y=-3x+5$; the line representing the solution set has gradient $-3$ and meets the $y$-axis at the point $(0, 5)$.
+
+**Answer.** Gradient $-3$; it meets the $y$-axis at $(0, 5)$.
 :::
 
 :::exercise
@@ -253,11 +310,22 @@ c) Of the two solutions $(6, 1)$ and $(2, -1)$ of the equation, which one is als
 3. Substitute each pair into $2x+y$.
 
 ::solution
-a) $x=0$: $-2y=4\iff y=-2$. $y=0$: $x=4$. The two solutions are $(0, -2)$ and $(4, 0)$.
+a) Substituting $x=0$ into the equation $x-2y=4$, we get $-2y=4$, which gives $y=-2$. We have the solution $(0, -2)$.
 
-b) The line through $(0, -2)$ and $(4, 0)$, that is $y=\dfrac12x-2$.
+Substituting $y=0$ into the equation, we get $x=4$. We have the solution $(4, 0)$.
 
-c) $2\cdot6+1=13\neq3$; $2\cdot2+(-1)=3$.
+So the two solutions are $(0, -2)$ and $(4, 0)$.
+
+b) The solution set of the equation $x-2y=4$ is represented by a line. By part a), this line passes through the two points $(0, -2)$ and $(4, 0)$.
+
+We mark these two points on the coordinate plane and draw the line through them. This line is the graph of the function $y=\dfrac12x-2$.
+
+c) We substitute each solution into the equation $2x+y=3$:
+
+- For $(6, 1)$: $2\cdot6+1=13\neq3$, so $(6, 1)$ is not a solution of the equation $2x+y=3$.
+- For $(2, -1)$: $2\cdot2+(-1)=3$, so $(2, -1)$ is a solution of the equation $2x+y=3$.
+
+So the solution $(2, -1)$ is also a solution of the equation $2x+y=3$.
 
 **Answer.** a) $(0, -2)$, $(4, 0)$; b) the line through those two points; c) $(2, -1)$.
 :::
@@ -273,9 +341,21 @@ A shop sells stickers at $3$ thousand đồng a sheet and at $5$ thousand đồn
 2. So $x$ is a multiple of $5$; try $x=5, 10, 15$.
 
 ::solution
-$x$ must be a multiple of $5$ with $3x<40$, so $x\in\{5, 10\}$. For $x=5$: $5y=25$, $y=5$. For $x=10$: $5y=10$, $y=2$. (For $x=15$, $3x=45>40$.)
+Let $x$ be the number of stickers at $3$ thousand đồng and $y$ the number at $5$ thousand đồng ($x$, $y$ are positive integers).
 
-**Answer.** Two ways: $5$ sheets at $3$ thousand and $5$ sheets at $5$ thousand, or $10$ sheets at $3$ thousand and $2$ sheets at $5$ thousand.
+Hùng spends exactly $40$ thousand đồng, so we have the equation
+$$3x+5y=40.$$
+
+It follows that $3x=40-5y=5(8-y)$. The right-hand side is divisible by $5$, so $3x$ is divisible by $5$, and hence $x$ is divisible by $5$.
+
+Also, since $y\ge1$ we have $3x\le35$, so $x<12$. Hence $x=5$ or $x=10$.
+
+- For $x=5$: $5y=40-15=25$, which gives $y=5$.
+- For $x=10$: $5y=40-30=10$, which gives $y=2$.
+
+So there are two ways to buy: $5$ stickers at $3$ thousand đồng and $5$ at $5$ thousand đồng; or $10$ stickers at $3$ thousand đồng and $2$ at $5$ thousand đồng.
+
+**Answer.** Two ways: $5$ stickers at $3$ thousand and $5$ at $5$ thousand, or $10$ stickers at $3$ thousand and $2$ at $5$ thousand.
 :::
 
 ## Mini test
