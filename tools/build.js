@@ -278,21 +278,26 @@ function shell(o) {
     '<script>(function(){var r=document.documentElement;r.classList.add("js");try{var t=localStorage.getItem("lm-theme");if(t)r.setAttribute("data-theme",t)}catch(e){}})()</script>'
   ].concat((o.jsonld || []).map(ldTag)).filter(Boolean).join('\n');
 
-  const switchLink = '<a class="lang-btn" href="' + relDir(d, o.altDir) + '" hreflang="' + altLang + '" lang="' + altLang + '" data-lang="' + altLang + '" title="' + esc(T.switchTitle) + '">' + icon('globe', 18) + '<span>' + LANG[altLang].name + '</span></a>';
+  const switchLink = '<a class="lang-btn" href="' + relDir(d, o.altDir) + '" hreflang="' + altLang + '" lang="' + altLang + '" data-lang="' + altLang + '" title="' + esc(T.switchTitle) + '">' + icon('globe', 18) + '<span>' + LANG[altLang].name + '</span><b class="lang-short" aria-hidden="true">' + altLang.toUpperCase() + '</b></a>';
 
-  const side = o.side
-    ? '<aside id="sidebar" class="sidebar" aria-label="' + esc(T.lessonsLabel) + '">\n<p class="side-title">' + esc(gName(lang, o.side.grade)) + '</p>\n<nav id="nav" aria-label="' + esc(T.chaptersAndLessons) + '">\n' + navHtml(lang, d, o.side.grade, o.side.lesson, o.side.chapter) + '\n</nav>\n</aside>\n<div id="scrim" class="scrim" hidden></div>\n'
-    : '';
+  const mainLinks = '<a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsNav) + '</a><a href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paper) + '</a><a href="' + relDir(d, parentsDir(lang)) + '">' + esc(T.parents) + '</a><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a>';
+  // the drawer (phones, tablets held upright): the main menu first, then the lessons of this grade
+  const drawerTop = '<div class="side-top"><span>Menu</span><button id="menu-close" class="icon-btn side-close" type="button" aria-label="' + esc(T.closeMenu) + '" hidden>✕</button></div>\n<nav class="side-main" aria-label="' + esc(T.mainNav) + '">' + mainLinks + '</nav>\n';
+  const side = (o.side
+    ? '<aside id="sidebar" class="sidebar" aria-label="' + esc(T.lessonsLabel) + '">\n' + drawerTop + '<p class="side-title">' + esc(gName(lang, o.side.grade)) + '</p>\n<nav id="nav" aria-label="' + esc(T.chaptersAndLessons) + '">\n' + navHtml(lang, d, o.side.grade, o.side.lesson, o.side.chapter) + '\n</nav>\n</aside>\n'
+    : '<aside id="sidebar" class="sidebar nav-only" aria-label="' + esc(T.mainNav) + '">\n' + drawerTop + '</aside>\n') + '<div id="scrim" class="scrim" hidden></div>\n';
 
   const bodyCls = ['lvl-' + (o.level || 'home'), o.side ? 'has-side' : ''].filter(Boolean).join(' ');
   return '<!doctype html>\n<html lang="' + L.htmlLang + '" data-root="' + esc(rel0(d, L.prefix)) + '">\n<head>\n' + head + '\n</head>\n<body class="' + bodyCls + '">\n' +
     '<a class="skip" href="#main">' + esc(T.skip) + '</a>\n' +
     '<header class="topbar">\n' +
-    (o.side ? '  <button id="menu-btn" class="icon-btn" type="button" aria-label="' + esc(T.menu) + '" aria-expanded="false" aria-controls="sidebar" hidden>☰</button>\n' : '') +
+    '  <button id="menu-btn" class="icon-btn" type="button" aria-label="' + esc(o.side ? T.menu : T.openMenu) + '" aria-expanded="false" aria-controls="sidebar" hidden>☰</button>\n' +
     '  <a class="brand" href="' + relDir(d, homeDir(lang)) + '">' + mascot({ cls: 'brand-mark' }) + '<span>Lemon<b>math</b></span></a>\n' +
-    '  <nav class="topnav" aria-label="' + esc(T.mainNav) + '"><a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsNav) + '</a><a href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paper) + '</a><a href="' + relDir(d, parentsDir(lang)) + '">' + esc(T.parents) + '</a><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a></nav>\n' +
+    '  <nav class="topnav" aria-label="' + esc(T.mainNav) + '">' + mainLinks + '</nav>\n' +
     '  <div class="spacer"></div>\n' +
+    '  <button id="search-btn" class="icon-btn" type="button" aria-label="' + esc(T.search) + '" aria-expanded="false" hidden>' + icon('search', 20) + '</button>\n' +
     '  <div class="searchbox" hidden><label class="sr" for="q">' + esc(T.search) + '</label>' + icon('search', 18) + '<input id="q" type="search" placeholder="' + esc(T.searchPh) + '" autocomplete="off" aria-controls="results"><ul id="results" class="results" hidden></ul></div>\n' +
+    '  <button id="search-close" class="icon-btn" type="button" aria-label="' + esc(T.closeSearch) + '" hidden>✕</button>\n' +
     '  ' + switchLink + '\n' +
     '  <button id="theme-btn" class="icon-btn" type="button" aria-label="' + esc(T.theme) + '" hidden>' + THEME_ICON + '</button>\n' +
     '</header>\n' +

@@ -5,7 +5,7 @@
 const UI = {
   en: {
     skip: 'Skip to content',
-    menu: 'Open lesson menu',
+    menu: 'Open the menu and lesson list', openMenu: 'Open the menu', closeMenu: 'Close the menu', closeSearch: 'Close search',
     theme: 'Switch between light and dark mode',
     search: 'Search lessons and topics',
     searchPh: 'Search lessons and topics…',
@@ -82,7 +82,7 @@ const UI = {
   },
   vi: {
     skip: 'Bỏ qua, đến nội dung chính',
-    menu: 'Mở danh sách bài học',
+    menu: 'Mở menu và danh sách bài học', openMenu: 'Mở menu', closeMenu: 'Đóng menu', closeSearch: 'Đóng ô tìm kiếm',
     theme: 'Chuyển giữa giao diện sáng và tối',
     search: 'Tìm bài học và chủ đề',
     searchPh: 'Tìm bài học, chủ đề…',

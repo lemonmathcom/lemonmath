@@ -28,20 +28,47 @@
     });
   }
 
-  /* ---------- mobile menu ---------- */
+  /* ---------- menu drawer (phones and tablets): main menu + lessons of the grade ---------- */
   var menuBtn = $('#menu-btn');
   var sidebar = $('#sidebar');
   var scrim = $('#scrim');
+  var menuClose = $('#menu-close');
   if (menuBtn && sidebar && scrim) {
     menuBtn.hidden = false;
+    if (menuClose) menuClose.hidden = false;
     var setMenu = function (open) {
       sidebar.classList.toggle('open', open);
       scrim.hidden = !open;
+      d.body.classList.toggle('menu-open', open);
       menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      if (open) {
+        var cur = $('a[aria-current="page"]', sidebar);
+        if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: 'center' });
+      }
     };
     menuBtn.addEventListener('click', function () { setMenu(!sidebar.classList.contains('open')); });
+    if (menuClose) menuClose.addEventListener('click', function () { setMenu(false); menuBtn.focus(); });
     scrim.addEventListener('click', function () { setMenu(false); });
+    sidebar.addEventListener('click', function (e) { if (e.target.closest && e.target.closest('a')) setMenu(false); });
     d.addEventListener('keydown', function (e) { if (e.key === 'Escape') setMenu(false); });
+    window.addEventListener('resize', function () { if (window.innerWidth > 960 && sidebar.classList.contains('open')) setMenu(false); });
+  }
+
+  /* ---------- a long formula inside a sentence scrolls on its own, the page never does ---------- */
+  var fitMath = function () {
+    $$('.main .katex').forEach(function (k) {
+      if (k.parentNode.classList.contains('katex-display')) return;
+      k.classList.remove('katex-wide');
+      var box = k.parentNode;
+      while (box && box !== d.body && getComputedStyle(box).display === 'inline') box = box.parentNode;
+      if (box && k.getBoundingClientRect().width > box.clientWidth + 1) k.classList.add('katex-wide');
+    });
+  };
+  if ($('.main .katex')) {
+    fitMath();
+    window.addEventListener('load', fitMath);
+    var fitT; window.addEventListener('resize', function () { clearTimeout(fitT); fitT = setTimeout(fitMath, 150); });
+    d.addEventListener('toggle', function () { fitMath(); }, true);
   }
 
   /* ---------- progress (saved in this browser only; shared by both languages) ---------- */
@@ -109,6 +136,18 @@
   var list = $('#results');
   if (box && input && list) {
     box.hidden = false;
+    var topBar = $('.topbar'), sBtn = $('#search-btn'), sClose = $('#search-close');
+    var setSearch = function (open) {
+      topBar.classList.toggle('searching', open);
+      if (sBtn) sBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      if (open) input.focus(); else { list.hidden = true; }
+    };
+    if (topBar && sBtn && sClose) {
+      sBtn.hidden = false; sClose.hidden = false;
+      sBtn.addEventListener('click', function () { setSearch(true); });
+      sClose.addEventListener('click', function () { setSearch(false); sBtn.focus(); });
+      d.addEventListener('keydown', function (e) { if (e.key === 'Escape' && topBar.classList.contains('searching')) setSearch(false); });
+    }
     var base = (root.getAttribute('data-root') || '.').replace(/\/$/, '');
     var prefix = base === '.' ? '' : base + '/';
     var index = null, loading = false, active = -1;

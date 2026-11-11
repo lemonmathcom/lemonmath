@@ -85,3 +85,20 @@ h2 { margin: 0 0 4px; font: 800 11.5pt/1.3 "Nunito Variable", sans-serif; text-t
 .ws-keys .pa-keys { padding-left: 6mm; }
 .ws-keys .pa-keys li, .ws-key-ex { margin: 1.5mm 0; break-inside: avoid; }
 .ws-paper .ws-end { break-inside: avoid; }
+/* on a phone the sheet is only a preview: nothing may push the page wider than the screen */
+img, svg { max-width: 100%; height: auto; }
+.ws-bar a { display: inline-block; padding: 10px 4px; }
+.ws-bar button { min-height: 44px; }
+@media screen {
+  .ws-sheet { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .ws-sheet table { max-width: 100%; }
+}
+@media screen and (max-width: 700px) {
+  body { font-size: 12pt; }
+  .ws-sheet { margin: 10px auto 28px; }
+  .ws-hints { column-count: 1; font-size: 10.5pt; }
+  .ws-how, .ws-again, .ws-where { font-size: 10.5pt; } .ws-self table { font-size: 10pt; }
+  .ws-head { flex-wrap: wrap; gap: 4px 10px; }
+  .ws-fields i { width: 48mm; max-width: 60vw; }
+  .ws-foot, .ws-qrbox { font-size: 9.5pt; }
+}
