@@ -11,7 +11,7 @@ minutes: 45
 - Calculate binomial and normal probabilities, including inverse normal problems.
 :::
 
-Topic 4 is mostly a Paper 2 topic: the GDC does the arithmetic, and the marks go to choosing the right model, entering the right numbers and stating the answer in context. Two habits pay off. First, define the random variable in words and write its distribution, for example "$X\sim B(10,0.3)$, where $X$ is the number of defective items". Second, write the probability statement you are calculating, such as $P(X\ge2)$, before the number.
+Topic 4 is mostly a Paper 2 topic: the GDC does the arithmetic, and the marks go to choosing the right model, entering the right numbers and stating the answer in context. Two habits pay off. First, define the random variable in words and write its distribution, for example "$X\sim B(10, 0.3)$, where $X$ is the number of defective items". Second, write the probability statement you are calculating, such as $P(X\ge2)$, before the number.
 
 ## Data and regression
 
@@ -84,7 +84,7 @@ Each seed in a packet germinates with probability $0.3$, independently. Ten seed
 (a) exactly $3$ germinate; [2 marks]
 (b) at least $2$ germinate. [3 marks]
 
-**Solution.** Let $X$ be the number that germinate: $X\sim B(10,0.3)$.
+**Solution.** Let $X$ be the number that germinate: $X\sim B(10, 0.3)$.
 
 (a) $P(X=3)\approx0.267$.
 
@@ -96,7 +96,7 @@ The heights of students in a school are normally distributed with mean $170$ cm 
 (a) Find the probability that a student is taller than $180$ cm. [2 marks]
 (b) $90\%$ of students are shorter than $h$ cm. Find $h$. [2 marks]
 
-**Solution.** Let $H\sim N\left(170,8^2\right)$.
+**Solution.** Let $H\sim N\left(170, 8^2\right)$.
 
 (a) $P(H>180)\approx0.106$.
 
@@ -104,7 +104,7 @@ The heights of students in a school are normally distributed with mean $170$ cm 
 :::
 
 :::warning Common traps
-- **Variance or standard deviation.** $N\left(170,8^2\right)$ has $\sigma=8$; enter $8$ in the GDC, not $64$.
+- **Variance or standard deviation.** $N\left(170, 8^2\right)$ has $\sigma=8$; enter $8$ in the GDC, not $64$.
 - **"At least" and "more than".** For a binomial, $P(X>2)=1-P(X\le2)$, but $P(X\ge2)=1-P(X\le1)$.
 - **Mutually exclusive is not independent.** Two events with positive probabilities that are mutually exclusive are never independent.
 - **Conditional probability upside down.** $P(A\mid B)$ divides by $P(B)$, the condition.
@@ -163,14 +163,14 @@ $0(0.2)+1(0.5)+2(0.3)=1.1$.
 A fair coin is tossed $8$ times. Find the probability of exactly $4$ heads. [2 marks]
 
 ::hint
-**What you need:** $X\sim B(8,0.5)$.
+**What you need:** $X\sim B(8, 0.5)$.
 
 ::solution
 $\dbinom84(0.5)^8=\dfrac{70}{256}\approx0.273$.
 :::
 
 :::exercise Normal probability
-$X\sim N\left(50,4^2\right)$. Find $P(46<X<58)$. [2 marks]
+$X\sim N\left(50, 4^2\right)$. Find $P(46<X<58)$. [2 marks]
 
 ::hint
 **What you need:** the normal cdf with lower bound $46$, upper bound $58$, $\mu=50$, $\sigma=4$.
@@ -185,7 +185,7 @@ $P(46<X<58)\approx0.819$.
 $2\%$ of the light bulbs made in a factory are defective. A random sample of $20$ bulbs is checked. Find the probability that at most one bulb is defective. [3 marks]
 
 ::hint
-**What you need:** $X\sim B(20,0.02)$ and $P(X\le1)$.
+**What you need:** $X\sim B(20, 0.02)$ and $P(X\le1)$.
 
 ::solution
 $P(X\le1)\approx0.940$.
@@ -242,7 +242,7 @@ D. $1$
 For mutually exclusive events, $P(A\cup B)=P(A)+P(B)$.
 
 ::mc
-$X\sim B(5,0.2)$. What is $E(X)$?
+$X\sim B(5, 0.2)$. What is $E(X)$?
 A. $1$
 B. $0.2$
 C. $0.8$
@@ -269,7 +269,7 @@ D. $0.2$
 $0.2+k+0.5=1$.
 
 ::tf
-$X\sim N\left(100,15^2\right)$.
+$X\sim N\left(100, 15^2\right)$.
 a) $P(X<100)=0.5$.
 b) $P(X>115)=P(X<85)$.
 c) $P(X>130)>0.05$.
