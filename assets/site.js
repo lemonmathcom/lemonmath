@@ -63,8 +63,21 @@
       while (box && box !== d.body && getComputedStyle(box).display === 'inline') box = box.parentNode;
       if (box && k.getBoundingClientRect().width > box.clientWidth + 1) k.classList.add('katex-wide');
     });
+    fitOpts();
   };
-  if ($('.main .katex')) {
+  /* answer options that do not fit side by side drop to one per row */
+  var fitOpts = function () {
+    $$('.mc-opts, .qz-opts').forEach(function (g) {
+      g.classList.remove('stack');
+      var kids = g.children, i, c, w;
+      for (i = 0; i < kids.length; i++) {
+        c = kids[i].firstElementChild && kids[i].firstElementChild.tagName === 'LABEL' ? kids[i].firstElementChild : kids[i];
+        w = kids[i].clientWidth;
+        if (w && (c.scrollWidth > w + 1 || kids[i].scrollWidth > w + 1)) { g.classList.add('stack'); break; }
+      }
+    });
+  };
+  if ($('.main .katex') || $('.mc-opts, .qz-opts')) {
     fitMath();
     window.addEventListener('load', fitMath);
     var fitT; window.addEventListener('resize', function () { clearTimeout(fitT); fitT = setTimeout(fitMath, 150); });
@@ -342,4 +355,18 @@
       if (navigator.clipboard) navigator.clipboard.writeText(data.url).then(function () { b.textContent = '✓ ' + b.getAttribute('data-copied'); }, function () {});
     });
   });
+})();
+
+/* Back to top: appears after a long scroll, on phones, tablets and computers alike. */
+(function () {
+  var d = document, b = d.createElement('button'), vi = d.documentElement.lang === 'vi', tick = false;
+  b.type = 'button'; b.className = 'to-top'; b.textContent = '↑';
+  b.setAttribute('aria-label', vi ? 'Lên đầu trang' : 'Back to top'); b.title = vi ? 'Lên đầu trang' : 'Back to top';
+  b.addEventListener('click', function () { window.scrollTo(0, 0); var m = d.getElementById('main'); if (m) m.focus({ preventScroll: true }); });
+  d.body.appendChild(b);
+  var last = window.pageYOffset;
+  /* only while scrolling back up, so it never sits on top of what is being read */
+  var sync = function () { tick = false; var y = window.pageYOffset; if (Math.abs(y - last) < 6) return; b.classList.toggle('show', y < last && y > Math.max(900, window.innerHeight * 1.5)); last = y; };
+  window.addEventListener('scroll', function () { if (!tick) { tick = true; (window.requestAnimationFrame || setTimeout)(sync); } }, { passive: true });
+  sync();
 })();

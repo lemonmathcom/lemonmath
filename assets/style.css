@@ -539,3 +539,21 @@ pre { max-width: 100%; overflow-x: auto; padding: 12px 14px; border: 2px solid v
   .bar { display: none !important; }
   .lead { font-size: 11pt; }
 }
+
+/* second pass: badges, short landscape screens, back-to-top */
+@media (max-width: 760px) {
+  .gbadge { white-space: nowrap; font-size: .72rem; padding: 2px 6px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+  .box-kind, .card-num, .eyebrow { font-size: 13px; }
+}
+@media (max-height: 480px) and (orientation: landscape) {
+  .topbar { position: static; }
+  html { scroll-padding-top: 12px; }
+  .paper-timer { top: 8px; }
+}
+.to-top { position: fixed; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); z-index: 25; width: 48px; height: 48px; border: 2px solid var(--edge); border-radius: 50%; background: var(--lemon); color: var(--lemon-ink); font: 800 1.3rem/1 var(--font); cursor: pointer; box-shadow: 0 3px 0 var(--edge); opacity: 0; visibility: hidden; transform: translateY(8px); transition: opacity .2s, transform .2s, visibility 0s .2s; }
+.to-top.show { opacity: .95; visibility: visible; transform: none; transition: opacity .2s, transform .2s, visibility 0s; }
+body.menu-open .to-top { display: none; }
+@media print { .to-top { display: none !important; } }
+.qz-opts .katex, .mc-opts .katex { white-space: nowrap; }
+@media screen { .mc-opts.stack, .qz-opts.stack { grid-template-columns: 1fr !important; } }
+@media (max-width: 760px) { .to-top { width: 44px; height: 44px; right: 10px; } }
