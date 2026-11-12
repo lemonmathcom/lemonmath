@@ -140,7 +140,7 @@ Không dùng máy tính, tính $3\dfrac13-1\dfrac34$.
 **Kiến thức:** đổi ra phân số với mẫu số chung $12$.
 
 ::solution
-Đổi ra phân số, $3\dfrac13=\dfrac{10}{3}=\dfrac{40}{12}$ và $1\dfrac34=\dfrac74=\dfrac{21}{12}$.
+Muốn trừ hai hỗn số, ta đổi chúng ra phân số rồi quy đồng mẫu số $12$. Đổi ra phân số, $3\dfrac13=\dfrac{10}{3}=\dfrac{40}{12}$ và $1\dfrac34=\dfrac74=\dfrac{21}{12}$.
 
 Trừ đi, $\dfrac{40}{12}-\dfrac{21}{12}=\dfrac{19}{12}=1\dfrac{7}{12}$.
 
@@ -170,7 +170,7 @@ Rút gọn $\sqrt{50}+\sqrt{18}$.
 **Kiến thức:** $50=25\times2$ và $18=9\times2$.
 
 ::solution
-Đưa thừa số chính phương ra ngoài, $\sqrt{50}=\sqrt{25}\sqrt2=5\sqrt2$ và $\sqrt{18}=\sqrt9\sqrt2=3\sqrt2$.
+Hai căn chưa cộng được vì chưa đồng dạng, nên ta rút gọn từng căn trước. Đưa thừa số chính phương ra ngoài, $\sqrt{50}=\sqrt{25}\sqrt2=5\sqrt2$ và $\sqrt{18}=\sqrt9\sqrt2=3\sqrt2$.
 
 Đây là các căn đồng dạng, nên $5\sqrt2+3\sqrt2=8\sqrt2$.
 
@@ -186,7 +186,7 @@ Viết $0{,}\dot2\dot7$ thành phân số tối giản.
 **Kiến thức:** có hai chữ số lặp lại, nên dùng $100x-x$.
 
 ::solution
-Đặt $x=0{,}272727\ldots$ Khi đó $100x=27{,}2727\ldots$, và trừ đi được $99x=27$.
+Nhóm hai chữ số $27$ lặp lại, nên ta nhân với $100$ để phần đuôi trùng khớp. Đặt $x=0{,}272727\ldots$ Khi đó $100x=27{,}2727\ldots$, và trừ đi được $99x=27$.
 
 Vậy $x=\dfrac{27}{99}=\dfrac{3}{11}$.
 

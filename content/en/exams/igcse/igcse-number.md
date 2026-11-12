@@ -140,7 +140,7 @@ Without a calculator, work out $3\dfrac13-1\dfrac34$.
 **What you need:** change to improper fractions with denominator $12$.
 
 ::solution
-As improper fractions, $3\dfrac13=\dfrac{10}{3}=\dfrac{40}{12}$ and $1\dfrac34=\dfrac74=\dfrac{21}{12}$.
+To subtract mixed numbers, we change them to improper fractions with the common denominator $12$. As improper fractions, $3\dfrac13=\dfrac{10}{3}=\dfrac{40}{12}$ and $1\dfrac34=\dfrac74=\dfrac{21}{12}$.
 
 Subtracting, $\dfrac{40}{12}-\dfrac{21}{12}=\dfrac{19}{12}=1\dfrac{7}{12}$.
 
@@ -170,7 +170,7 @@ Simplify $\sqrt{50}+\sqrt{18}$.
 **What you need:** $50=25\times2$ and $18=9\times2$.
 
 ::solution
-Taking out square factors, $\sqrt{50}=\sqrt{25}\sqrt2=5\sqrt2$ and $\sqrt{18}=\sqrt9\sqrt2=3\sqrt2$.
+The two surds cannot be added yet because they are not like terms, so we simplify each first. Taking out square factors, $\sqrt{50}=\sqrt{25}\sqrt2=5\sqrt2$ and $\sqrt{18}=\sqrt9\sqrt2=3\sqrt2$.
 
 These are like terms, so $5\sqrt2+3\sqrt2=8\sqrt2$.
 
@@ -186,7 +186,7 @@ Write $0.\dot2\dot7$ as a fraction in its simplest form.
 **What you need:** two digits repeat, so use $100x-x$.
 
 ::solution
-Let $x=0.272727\ldots$. Then $100x=27.2727\ldots$, and subtracting gives $99x=27$.
+The block $27$ repeats, so we multiply by $100$ to line up the tails. Let $x=0.272727\ldots$. Then $100x=27.2727\ldots$, and subtracting gives $99x=27$.
 
 So $x=\dfrac{27}{99}=\dfrac{3}{11}$.
 
