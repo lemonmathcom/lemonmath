@@ -10,6 +10,7 @@
  *   English  (root)        /   /grade-10/   /grade-10/<chapter>/   /grade-10/<chapter>/<lesson>/
  *   Vietnamese (/vi/)      /vi/   /vi/lop-10/   /vi/lop-10/<chapter>/   /vi/lop-10/<chapter>/<lesson>/
  *   sitemap.xml, robots.txt, 404.html, search-index.json (per language), assets/
+ *   manifest.webmanifest (per language), sw.js, offline.html (install as an app, read offline)
  *
  * Lessons live in content/en/g<N>/<lesson-id>.md and content/vi/g<N>/<lesson-id>.md.
  */
@@ -17,6 +18,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const crypto = require('crypto');
 const katex = require('katex');
 const { marked } = require('marked');
 const { render, esc } = require('./render.js');
@@ -205,6 +207,34 @@ const YEAR = new Date().getUTCFullYear();
 const THEME_ICON = '<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg>';
 const FAVICON = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><path d="M6 62Q14 56 20 46C30 30 45 22 60 22 75 22 90 30 100 46Q106 56 114 62 106 68 100 78 90 94 75 102 60 102 45 102 30 94 20 78 14 68 6 62Z" fill="#FFD93B" stroke="#B8860B" stroke-width="6"/><path d="M60 23C58 10 68 3 84 5 85 17 76 25 60 23Z" fill="#4CAF50"/></svg>');
 
+/*
+ * Visitor statistics (optional). In data/curriculum.json, under "site":
+ *   "analytics": { "cloudflare": "<token>" }   Cloudflare Web Analytics: free, no cookies
+ *   "analytics": { "ga4": "G-XXXXXXXXXX" }     Google Analytics 4
+ * Nothing is added to the pages while both are empty.
+ * Google Search Console (which Google searches bring people in): "verify": { "google": "<code>" }
+ * adds the ownership meta tag to the two home pages.
+ */
+const GVERIFY = (function () {
+  const v = (site.verify || {}).google;
+  if (!v) return '';
+  if (!/^[A-Za-z0-9_-]{20,100}$/.test(v)) { fail('data/curriculum.json: "verify.google" chỉ là đoạn mã trong content="…" của thẻ google-site-verification.'); return ''; }
+  return '<meta name="google-site-verification" content="' + v + '">';
+})();
+const ANALYTICS = (function () {
+  const a = site.analytics || {};
+  let out = '';
+  if (a.cloudflare) {
+    if (!/^[a-f0-9]{32}$/.test(a.cloudflare)) fail('data/curriculum.json: "analytics.cloudflare" phải là mã token 32 kí tự (0-9, a-f) của Cloudflare Web Analytics.');
+    else out += '<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon=\'{"token": "' + a.cloudflare + '"}\'></script>\n';
+  }
+  if (a.ga4) {
+    if (!/^G-[A-Z0-9]{6,14}$/.test(a.ga4)) fail('data/curriculum.json: "analytics.ga4" phải có dạng "G-XXXXXXXXXX".');
+    else out += '<script async src="https://www.googletagmanager.com/gtag/js?id=' + a.ga4 + '"></script>\n<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","' + a.ga4 + '");</script>\n';
+  }
+  return out;
+})();
+
 function resolveLinks(html, dir, lang, where) {
   const assetsPrefix = px.relative(dir || '.', 'assets') + '/';
   html = html.replace(/(src|href)="\/?assets\//g, (m, attr) => attr + '="' + assetsPrefix);
@@ -278,7 +308,12 @@ function shell(o) {
     '<meta property="og:url" content="' + esc(canonical) + '">',
     '<meta property="og:image" content="' + esc(ogImage) + '">',
     '<meta name="twitter:card" content="summary_large_image">',
+    (d === L.prefix ? GVERIFY : ''),
     '<link rel="icon" href="' + FAVICON + '">',
+    '<link rel="manifest" href="' + relFile(d, px.join(L.prefix, 'manifest.webmanifest')) + '">',
+    '<link rel="apple-touch-icon" href="' + A('assets/icons/apple-touch-icon.png') + '">',
+    '<meta name="apple-mobile-web-app-title" content="' + esc(site.name) + '">',
+    '<meta name="mobile-web-app-capable" content="yes">',
     '<link rel="preload" as="font" type="font/woff2" crossorigin href="' + A('assets/fonts/nunito-latin-wght-normal.woff2') + '">',
     '<link rel="stylesheet" href="' + A('assets/fonts.css') + '">',
     '<link rel="stylesheet" href="' + A('assets/style.css') + '">',
@@ -314,7 +349,7 @@ function shell(o) {
     '  <main id="main" class="main" tabindex="-1">\n    <div class="page' + (o.wide ? ' wide' : '') + '">\n' + o.body + '\n    </div>\n  </main>\n</div>\n' +
     '<footer class="footer">\n  ' + mascot({ cls: 'foot-mark' }) + '\n  <p>© ' + YEAR + ' ' + esc(site.name) + ' · ' + esc(T.footer) + '</p>\n' +
     '  <nav aria-label="' + esc(T.aboutNav) + '"><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a> · <a href="https://github.com/lemonmathcom/lemonmath/issues">' + esc(T.report) + '</a> · <button type="button" class="foot-print" onclick="window.print()">🖨 ' + esc(T.printPage) + '</button></nav>\n</footer>\n' +
-    '<script src="' + A('assets/site.js') + '" defer></script>\n</body>\n</html>\n';
+    '<script src="' + A('assets/site.js') + '" defer></script>\n' + ANALYTICS + '</body>\n</html>\n';
 }
 
 function put(lang, dir, altDir, html, lastmod, noindex) {
@@ -603,6 +638,59 @@ function copyAssets() {
   fs.writeFileSync(path.join(OUT, 'assets', 'fonts.css'), fontCss);
 }
 
+/* ------------------------------------------------------------------ */
+/* Install as an app (PWA): manifest, offline page, service worker     */
+/* ------------------------------------------------------------------ */
+
+function offlineHtml() {
+  return '<!doctype html>\n<html lang="vi">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n' +
+    '<title>Không có mạng · Offline | ' + esc(site.name) + '</title>\n<meta name="robots" content="noindex">\n<style>\n' +
+    'body{margin:0;min-height:100vh;display:grid;place-items:center;font:18px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#FFFBEA;color:#2B2A33;text-align:center;padding:24px}\n' +
+    'a,button{color:#B45309;font:inherit;font-weight:800}button{background:#FFD43B;color:#2B2A33;border:2px solid #2B2A33;border-radius:999px;padding:8px 22px;cursor:pointer;margin:.6em 0}h1{font-size:1.7rem;margin:.2em 0}p{margin:.4em 0}svg{width:120px;height:120px}hr{border:0;border-top:2px dashed #EFE6B8;margin:1.2em auto;width:60%}\n@media (prefers-color-scheme:dark){body{background:#17161C;color:#F4F1E8}a{color:#FDBA74}hr{border-color:#3A3647}}\n</style>\n</head>\n<body>\n<main>\n' +
+    mascot({ mood: 'wow' }) + '\n<h1>Bạn đang không có mạng</h1>\n<p>Trang này chưa được lưu trên máy. Những bài bạn đã mở trước đó vẫn đọc lại được.</p>\n<p><a href="/vi/">Về trang chủ Lemonmath</a></p>\n' +
+    '<hr>\n<h1 lang="en">You are offline</h1>\n<p lang="en">This page has not been saved on your device yet. Lessons you opened before can still be read.</p>\n<p lang="en"><a href="/">Go to the Lemonmath home page</a></p>\n' +
+    '<p><button type="button" onclick="location.reload()">Thử lại · Try again</button></p>\n</main>\n</body>\n</html>\n';
+}
+
+function writePwa() {
+  const icons = [
+    { src: '/assets/icons/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
+    { src: '/assets/icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
+    { src: '/assets/icons/maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' }
+  ];
+  icons.forEach((i) => { if (!fs.existsSync(path.join(OUT, i.src))) fail('thiếu icon ứng dụng: ' + i.src.slice(1)); });
+  LANGS.forEach((lang) => {
+    const T = UI[lang], home = '/' + (LANG[lang].prefix ? LANG[lang].prefix + '/' : '');
+    const m = {
+      id: home, name: T.appName, short_name: site.name, description: T.appDesc, lang: LANG[lang].htmlLang, dir: 'ltr',
+      start_url: home, scope: '/', display: 'standalone', orientation: 'any',
+      background_color: '#FFFBEA', theme_color: '#FFD43B', categories: ['education'], icons,
+      shortcuts: [
+        { name: T.allGrades, url: home + '#grades' },
+        { name: T.examsNav, url: '/' + examsDir(lang) + '/' },
+        { name: T.weekNav || T.paper, url: '/' + (T.weekNav ? weekDir(lang) : paperDir(lang)) + '/' }
+      ]
+    };
+    fs.writeFileSync(path.join(OUT, LANG[lang].prefix, 'manifest.webmanifest'), JSON.stringify(m, null, 1));
+  });
+  fs.writeFileSync(path.join(OUT, 'offline.html'), offlineHtml());
+
+  // Files saved on the device at install time, so the app opens with no network.
+  const core = ['/', '/vi/', '/offline.html', '/assets/style.css', '/assets/print.css', '/assets/site.js', '/assets/fonts.css', '/assets/katex/katex.min.css',
+    '/assets/fonts/nunito-latin-wght-normal.woff2', '/assets/fonts/nunito-vietnamese-wght-normal.woff2',
+    '/assets/fonts/baloo-2-latin-800-normal.woff2', '/assets/fonts/baloo-2-vietnamese-800-normal.woff2',
+    '/assets/icons/icon-192.png', '/search-index.json', '/vi/search-index.json'];
+  const h = crypto.createHash('sha1');
+  const tpl = fs.readFileSync(path.join(__dirname, 'sw.template.js'), 'utf8');
+  h.update(tpl);
+  core.forEach((u) => {
+    const f = path.join(OUT, u.endsWith('/') ? u + 'index.html' : u);
+    if (!fs.existsSync(f)) { fail('service worker: không thấy file ' + u); return; }
+    h.update(u); h.update(fs.readFileSync(f));
+  });
+  fs.writeFileSync(path.join(OUT, 'sw.js'), tpl.replace('__VERSION__', h.digest('hex').slice(0, 10)).replace('__CORE__', JSON.stringify(core)));
+}
+
 function writeSitemap() {
   const byKey = {};
   urls.forEach((u) => { byKey[u.lang + ':' + u.dir] = u; });
@@ -659,6 +747,7 @@ function main() {
   });
 
   fs.writeFileSync(path.join(OUT, '404.html'), notFoundHtml());
+  writePwa();
   writeSitemap();
   report();
   console.log('Dựng xong: ' + lessons.length + ' bài × 2 ngôn ngữ, ' + grades.length + ' lớp, ' + exams.length + ' kì thi -> ' + path.relative(process.cwd(), OUT) + '/');

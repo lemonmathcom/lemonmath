@@ -383,3 +383,51 @@
   window.addEventListener('scroll', function () { if (!tick) { tick = true; (window.requestAnimationFrame || setTimeout)(sync); } }, { passive: true });
   sync();
 })();
+
+/* Install as an app + offline reading. The service worker (/sw.js) keeps the pages already opened. */
+(function () {
+  var d = document, n = navigator, vi = d.documentElement.lang === 'vi';
+  if ('serviceWorker' in n && /^https?:$/.test(location.protocol)) {
+    window.addEventListener('load', function () { n.serviceWorker.register('/sw.js').catch(function () {}); });
+  }
+  var get = function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } };
+  var set = function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} };
+  var standalone = (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || n.standalone === true;
+  if (standalone || get('lm-install') === 'no') return;
+  /* offer it only to someone who keeps coming back: from the third page on */
+  var seen = (parseInt(get('lm-views'), 10) || 0) + 1;
+  set('lm-views', String(seen));
+  var bar = null;
+  function show(text, action) {
+    if (bar || seen < 3) return;
+    bar = d.createElement('div'); bar.className = 'install-bar'; bar.setAttribute('role', 'region');
+    bar.setAttribute('aria-label', vi ? 'Cài Lemonmath' : 'Install Lemonmath');
+    var p = d.createElement('p'); p.textContent = text; bar.appendChild(p);
+    if (action) {
+      var b = d.createElement('button'); b.type = 'button'; b.className = 'btn'; b.textContent = vi ? 'Cài đặt' : 'Install';
+      b.addEventListener('click', action); bar.appendChild(b);
+    }
+    var x = d.createElement('button'); x.type = 'button'; x.className = 'install-x'; x.textContent = '✕';
+    x.setAttribute('aria-label', vi ? 'Đóng' : 'Close');
+    x.addEventListener('click', function () { set('lm-install', 'no'); bar.remove(); });
+    bar.appendChild(x);
+    d.body.appendChild(bar);
+  }
+  var deferred = null;
+  window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault(); deferred = e;
+    show(vi ? 'Cài Lemonmath lên màn hình chính để mở nhanh và đọc lại bài khi không có mạng.' : 'Add Lemonmath to your home screen: opens fast, and saved lessons work offline.', function () {
+      if (!deferred) return;
+      deferred.prompt();
+      deferred.userChoice.then(function (c) { if (c && c.outcome !== 'accepted') set('lm-install', 'no'); }, function () {});
+      deferred = null; if (bar) bar.remove();
+    });
+  });
+  window.addEventListener('appinstalled', function () { set('lm-install', 'no'); if (bar) bar.remove(); });
+  /* iPhone and iPad have no install prompt: explain the two taps instead */
+  var ua = n.userAgent || '';
+  var ios = /iPad|iPhone|iPod/.test(ua) || (n.platform === 'MacIntel' && n.maxTouchPoints > 1);
+  if (ios && /Safari/.test(ua) && !/CriOS|FxiOS|EdgiOS/.test(ua)) {
+    show(vi ? 'Muốn mở Lemonmath như một ứng dụng? Bấm nút Chia sẻ rồi chọn “Thêm vào Màn hình chính”.' : 'Want Lemonmath as an app? Tap the Share button, then “Add to Home Screen”.', null);
+  }
+})();
