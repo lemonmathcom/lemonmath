@@ -12,8 +12,8 @@ Quyết định 12/11/2026: bản ChatGPT nộp (sinh bằng script, gợi ý ch
 | B097 | 6 | highest-common-factor | Ước chung. Ước chung lớn nhất | xong 12/11 |
 | B098 | 6 | lowest-common-multiple | Bội chung. Bội chung nhỏ nhất | xong 12/11 |
 | B099 | 6 | set-of-integers | Tập hợp các số nguyên | xong 12/11 |
-| B100 | 6 | add-subtract-integers | Phép cộng và phép trừ số nguyên. Quy tắc dấu ngoặc | chưa |
-| B101 | 6 | multiplying-integers | Phép nhân số nguyên. Phép chia hết. Ước và bội của một số nguyên | chưa |
+| B100 | 6 | add-subtract-integers | Phép cộng và phép trừ số nguyên. Quy tắc dấu ngoặc | xong 12/11 |
+| B101 | 6 | multiplying-integers | Phép nhân số nguyên. Phép chia hết. Ước và bội của một số nguyên | xong 12/11 |
 | B102 | 6 | triangles-squares-hexagons | Hình tam giác đều. Hình vuông. Hình lục giác đều. Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân | chưa |
 | B103 | 6 | quadrilateral-perimeter-area | Chu vi và diện tích của một số tứ giác đã học | chưa |
 | B104 | 6 | line-symmetry | Hình có trục đối xứng. Hình có tâm đối xứng | chưa |
