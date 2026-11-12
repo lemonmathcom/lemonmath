@@ -13,15 +13,15 @@ minutes: 22
 
 Lớp 10A có $40$ học sinh, gồm $22$ bạn nữ và $18$ bạn nam. Cô giáo bốc thăm ngẫu nhiên $2$ bạn đi dự lễ kỉ niệm của trường. Khả năng cả hai bạn được chọn đều là nữ là bao nhiêu? Và khả năng có ít nhất một bạn nam là bao nhiêu?
 
-Ta không thể biết trước ai sẽ được chọn, nhưng ta có thể đo **khả năng** xảy ra bằng một con số từ $0$ đến $1$. Bước đầu tiên luôn là liệt kê (hoặc đếm) cẩn thận **những điều có thể xảy ra**.
+Không ai biết trước tờ thăm nào sẽ được bốc. Vậy mà ta vẫn có thể nói khá chắc rằng chuyện này "dễ xảy ra" hơn chuyện kia. Toán học làm cho cảm giác ấy trở nên chính xác: nó đo **khả năng** xảy ra bằng một con số từ $0$ đến $1$. Muốn có con số đó, việc đầu tiên bao giờ cũng là liệt kê (hoặc đếm) cho cẩn thận **những điều có thể xảy ra**.
 
 ## Phép thử và không gian mẫu
 
-Tung một đồng xu hai lần. Trước khi tung, ta không biết kết quả, nhưng biết chắc nó là một trong bốn khả năng. Kí hiệu $S$ là mặt sấp, $N$ là mặt ngửa và ghi lần lượt kết quả hai lần tung:
+Ta bắt đầu từ một trò rất quen: tung một đồng xu hai lần. Trước khi tung, ta không biết kết quả, nhưng biết chắc nó là một trong bốn khả năng. Kí hiệu $S$ là mặt sấp, $N$ là mặt ngửa và ghi lần lượt kết quả hai lần tung:
 
 $$SS,\quad SN,\quad NS,\quad NN.$$
 
-Câu "có đúng một lần sấp" đúng với $SN$ và $NS$, sai với hai kết quả còn lại. Như vậy mỗi câu hỏi về kết quả tương ứng với **một tập con** của tập bốn kết quả. Ta đặt tên cho các khái niệm này.
+Câu "có đúng một lần sấp" đúng với $SN$ và $NS$, sai với hai kết quả còn lại. Bạn để ý: mỗi câu nói về kết quả tương ứng với **một tập con** của tập bốn kết quả, gồm những kết quả làm câu đó đúng. Đó là ý quan trọng nhất của mục này. Bây giờ ta đặt tên cho các khái niệm.
 
 :::definition Phép thử, không gian mẫu, biến cố
 - **Phép thử ngẫu nhiên** là một hoạt động mà ta không đoán trước được kết quả, dù biết mọi kết quả có thể xảy ra.
@@ -43,7 +43,7 @@ Vậy $n(\Omega)=4$, $n(A)=2$, $n(B)=2$; biến cố $\overline{A}$ là "hai l�
 
 ## Định nghĩa cổ điển của xác suất
 
-Với đồng xu cân đối, bốn kết quả trên có khả năng như nhau. Biến cố $A$ chứa $2$ trong $4$ kết quả, nên ta nói khả năng $A$ xảy ra là $\dfrac24=\dfrac12$.
+Đồng xu cân đối thì không có lí do gì để mặt này được ưu ái hơn mặt kia, nên bốn kết quả trên có khả năng như nhau. Biến cố $A$ chiếm $2$ trong $4$ kết quả, nên thật tự nhiên khi nói khả năng $A$ xảy ra là $\dfrac24=\dfrac12$. Định nghĩa dưới đây chỉ viết ý ấy thành công thức.
 
 :::definition Định nghĩa cổ điển của xác suất
 Cho phép thử có không gian mẫu $\Omega$ gồm hữu hạn kết quả **đồng khả năng**. Xác suất của biến cố $A$ là
@@ -55,7 +55,7 @@ $$P(A)=\frac{n(A)}{n(\Omega)}.$$
 - $P(\overline{A})=1-P(A)$.
 :::
 
-**Vì sao?** Vì $\varnothing\subset A\subset\Omega$ nên $0\le n(A)\le n(\Omega)$; chia cho $n(\Omega)$ được tính chất thứ nhất. Các kết quả của $\Omega$ chia thành hai phần không giao nhau là $A$ và $\overline{A}$, nên $n(A)+n(\overline{A})=n(\Omega)$; chia cho $n(\Omega)$ được $P(A)+P(\overline{A})=1$.
+**Vì sao các tính chất này đúng?** Vì $\varnothing\subset A\subset\Omega$ nên $0\le n(A)\le n(\Omega)$; chia cho $n(\Omega)$ được tính chất thứ nhất. Các kết quả của $\Omega$ chia thành hai phần không giao nhau là $A$ và $\overline{A}$, nên $n(A)+n(\overline{A})=n(\Omega)$; chia cho $n(\Omega)$ được $P(A)+P(\overline{A})=1$.
 
 :::example Gieo một con xúc xắc
 Gieo một con xúc xắc cân đối. Tính xác suất của các biến cố $A$: "số chấm là số nguyên tố", $B$: "số chấm không nhỏ hơn $5$", $C$: "số chấm chia hết cho $7$".
@@ -69,7 +69,7 @@ Do đó $P(A)=\dfrac36=\dfrac12$, $P(B)=\dfrac26=\dfrac13$, $P(C)=0$.
 Vậy $P(A)=\dfrac12$, $P(B)=\dfrac13$ và $C$ là biến cố không thể.
 :::
 
-Khi gieo hai con xúc xắc, liệt kê từng kết quả sẽ dài, nên ta dùng một bảng.
+Với hai con xúc xắc, số kết quả đã lên tới $36$, liệt kê từng cái thì rất dễ sót. Một cái bảng sẽ giúp ta nhìn thấy hết mà không bỏ quên trường hợp nào.
 
 :::example Tổng số chấm của hai con xúc xắc
 Gieo hai con xúc xắc cân đối. Tính xác suất để tổng số chấm bằng $7$, và để tổng số chấm không nhỏ hơn $10$.
@@ -94,7 +94,7 @@ Vậy cả hai biến cố đều có xác suất $\dfrac16$.
 
 ## Dùng tổ hợp để đếm
 
-Khi lấy nhiều đối tượng cùng lúc, ta không liệt kê mà đếm $n(\Omega)$ và $n(A)$ bằng các công thức của bài [Hoán vị, chỉnh hợp và tổ hợp](lesson:permutations-combinations).
+Khi lấy nhiều đối tượng cùng lúc, số kết quả tăng rất nhanh, bảng cũng không đủ chỗ. Lúc này các công cụ đếm đã học phát huy tác dụng: ta đếm $n(\Omega)$ và $n(A)$ bằng các công thức của bài [Hoán vị, chỉnh hợp và tổ hợp](lesson:permutations-combinations).
 
 :::example Lấy bi trong hộp
 Một hộp có $5$ viên bi đỏ và $3$ viên bi xanh, cùng kích thước. Lấy ngẫu nhiên đồng thời $2$ viên. Tính xác suất của mỗi biến cố sau:
@@ -115,7 +115,7 @@ Vậy xác suất hai viên đều đỏ là $\dfrac{5}{14}$, xác suất hai vi
 
 ## Dùng biến cố đối
 
-Với các câu hỏi "**có ít nhất một**", biến cố đối ("không có cái nào") thường chỉ có một trường hợp, nên dễ đếm hơn nhiều.
+Gặp câu hỏi "**có ít nhất một**", đếm thẳng thường phải chia nhiều trường hợp: một, hai, ba… Trong khi đó, biến cố đối ("không có cái nào") thường chỉ có một trường hợp. Vì vậy, ta tính xác suất của biến cố đối rồi lấy $1$ trừ đi.
 
 :::example Ít nhất một lần sấp
 Tung một đồng xu cân đối $3$ lần. Tính xác suất để có ít nhất một lần sấp.
@@ -127,7 +127,7 @@ $$P(A)=1-P(\overline{A})=1-\frac18=\frac78.$$
 Vậy xác suất có ít nhất một lần sấp là $\dfrac78$.
 :::
 
-Bây giờ ta trả lời câu hỏi bốc thăm ở đầu bài.
+Đến đây ta đã có đủ cách để trả lời câu hỏi bốc thăm ở đầu bài.
 
 :::example Bốc thăm hai bạn đi dự lễ
 Lớp có $22$ nữ và $18$ nam. Chọn ngẫu nhiên $2$ bạn. Tính xác suất để:
@@ -154,7 +154,7 @@ Vậy xác suất cả hai bạn là nữ là $\dfrac{77}{260}$, và xác suất
 - **Dùng định nghĩa cổ điển khi kết quả không đồng khả năng.** Nói "khi gieo hai con xúc xắc, tổng có $11$ giá trị từ $2$ đến $12$, nên $P(\text{tổng}=7)=\dfrac1{11}$". Sai vì các tổng không đồng khả năng (tổng $2$ chỉ có $1$ cặp, tổng $7$ có $6$ cặp). Đúng: đếm trên $36$ cặp có thứ tự, được $\dfrac16$.
 - **Lẫn lộn có thứ tự và không có thứ tự.** Lấy đồng thời $2$ viên bi nhưng đếm $n(\Omega)=A_8^2=56$ trong khi lại đếm $n(A)=C_5^2=10$. Sai vì hai phép đếm phải cùng một kiểu. Đúng: dùng tổ hợp cho cả hai (hoặc chỉnh hợp cho cả hai).
 - **Phủ định sai "ít nhất một".** Viết biến cố đối của "có ít nhất một bạn nam" là "có ít nhất một bạn nữ". Sai vì hai biến cố này có thể cùng xảy ra. Đúng: biến cố đối là "không có bạn nam nào", tức cả hai là nữ.
-- **Xác suất lớn hơn $1$.** Nếu tính ra $P(A)>1$ hay $P(A)<0$ thì chắc chắn đã đếm sai.
+- **Xác suất lớn hơn $1$.** Nếu tính ra $P(A)>1$ hay $P(A)<0$ thì chắc chắn đã đếm sai. Đây là phép thử nhanh rất có ích, bạn nên liếc qua mỗi khi tính xong.
 :::
 
 ## Thuật ngữ
@@ -181,9 +181,11 @@ Vậy xác suất cả hai bạn là nữ là $\dfrac{77}{260}$, và xác suất
 - Đếm $n(\Omega)$, $n(A)$ bằng quy tắc đếm, bảng, hoặc tổ hợp; hai phép đếm phải cùng kiểu (cùng có thứ tự hoặc cùng không).
 - "Có ít nhất một": tính qua biến cố đối "không có cái nào".
 
+Nhìn lại buổi bốc thăm ở đầu bài: dù lớp có nhiều bạn nữ hơn, khả năng cả hai bạn được chọn đều là nữ chỉ khoảng $30\%$, còn khả năng có ít nhất một bạn nam khoảng $70\%$. Cảm giác ban đầu có khi đánh lừa ta; đếm cẩn thận rồi chia mới cho câu trả lời đáng tin.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và gợi ý vài bước đầu. Bạn cứ tự làm trước, sai cũng không sao; đối chiếu với lời giải sau mới thấy mình hiểu đến đâu.
 
 :::exercise
 Gieo một con xúc xắc cân đối. Tính xác suất để số chấm xuất hiện chia hết cho $3$.

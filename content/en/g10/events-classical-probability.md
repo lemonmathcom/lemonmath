@@ -13,15 +13,15 @@ minutes: 22
 
 Class 10A has $40$ students: $22$ girls and $18$ boys. The teacher draws $2$ students at random to attend the school's anniversary ceremony. How likely is it that both chosen students are girls? And how likely is it that at least one is a boy?
 
-We cannot know in advance who will be chosen, but we can measure the **likelihood** with a number between $0$ and $1$. The first step is always to list (or count) carefully **what can happen**.
+Nobody knows in advance which names will be drawn. Even so, we can say with some confidence that one thing is "more likely" than another. Mathematics makes that feeling precise: it measures the **likelihood** with a number between $0$ and $1$. To get that number, the first job is always to list (or count) carefully **what can happen**.
 
 ## Experiments and sample spaces
 
-Toss a coin twice. Before tossing we do not know the result, but we know for sure it is one of four possibilities. Write $H$ for heads and $T$ for tails, and record the two tosses in order:
+We start with a very familiar game: toss a coin twice. Before tossing we do not know the result, but we know for sure it is one of four possibilities. Write $H$ for heads and $T$ for tails, and record the two tosses in order:
 
 $$HH,\quad HT,\quad TH,\quad TT.$$
 
-The sentence "exactly one head" is true for $HT$ and $TH$ and false for the other two. So each question about the result corresponds to **a subset** of the set of four outcomes. We give these ideas names.
+The sentence "exactly one head" is true for $HT$ and $TH$ and false for the other two. Notice that each statement about the result corresponds to **a subset** of the set of four outcomes, made up of the outcomes that make it true. That is the most important idea in this section. Now we give these ideas names.
 
 :::definition Experiment, sample space, event
 - A **random experiment** is an activity whose result cannot be predicted, although all possible results are known.
@@ -43,7 +43,7 @@ So $n(\Omega)=4$, $n(A)=2$, $n(B)=2$; the event $\overline{A}$ is "both tosses s
 
 ## The classical definition of probability
 
-With a fair coin the four outcomes above are equally likely. The event $A$ contains $2$ of the $4$ outcomes, so we say the chance of $A$ is $\dfrac24=\dfrac12$.
+A fair coin has no reason to favour one face over the other, so the four outcomes above are equally likely. The event $A$ takes up $2$ of the $4$ outcomes, so it is natural to say the chance of $A$ is $\dfrac24=\dfrac12$. The definition below simply writes that idea as a formula.
 
 :::definition Classical definition of probability
 Let an experiment have a sample space $\Omega$ with finitely many **equally likely** outcomes. The probability of an event $A$ is
@@ -55,7 +55,7 @@ $$P(A)=\frac{n(A)}{n(\Omega)}.$$
 - $P(\overline{A})=1-P(A)$.
 :::
 
-**Why?** Since $\varnothing\subset A\subset\Omega$, we have $0\le n(A)\le n(\Omega)$; dividing by $n(\Omega)$ gives the first property. The outcomes of $\Omega$ split into two non-overlapping parts, $A$ and $\overline{A}$, so $n(A)+n(\overline{A})=n(\Omega)$; dividing by $n(\Omega)$ gives $P(A)+P(\overline{A})=1$.
+**Why are these properties true?** Since $\varnothing\subset A\subset\Omega$, we have $0\le n(A)\le n(\Omega)$; dividing by $n(\Omega)$ gives the first property. The outcomes of $\Omega$ split into two non-overlapping parts, $A$ and $\overline{A}$, so $n(A)+n(\overline{A})=n(\Omega)$; dividing by $n(\Omega)$ gives $P(A)+P(\overline{A})=1$.
 
 :::example Rolling one die
 Roll a fair die. Find the probabilities of the events $A$: "the number is prime", $B$: "the number is at least $5$", $C$: "the number is divisible by $7$".
@@ -69,7 +69,7 @@ Hence $P(A)=\dfrac36=\dfrac12$, $P(B)=\dfrac26=\dfrac13$, $P(C)=0$.
 So $P(A)=\dfrac12$, $P(B)=\dfrac13$, and $C$ is the impossible event.
 :::
 
-When we roll two dice, listing every outcome is long, so we use a table.
+With two dice there are already $36$ outcomes, and listing them one by one makes it easy to miss some. A table lets us see them all without forgetting any.
 
 :::example The total of two dice
 Roll two fair dice. Find the probability that the total is $7$, and that the total is at least $10$.
@@ -94,7 +94,7 @@ So both events have probability $\dfrac16$.
 
 ## Counting with combinations
 
-When several objects are taken at once, we do not list; we count $n(\Omega)$ and $n(A)$ with the formulas from [Permutations, arrangements and combinations](lesson:permutations-combinations).
+When several objects are taken at once, the number of outcomes grows very fast, and a table no longer has room. This is where the counting tools we have learnt come in: we count $n(\Omega)$ and $n(A)$ with the formulas from [Permutations, arrangements and combinations](lesson:permutations-combinations).
 
 :::example Drawing marbles from a box
 A box holds $5$ red marbles and $3$ blue marbles of the same size. Two marbles are drawn at random at the same time. Find the probability of each of the following events:
@@ -115,7 +115,7 @@ So the probability that both are red is $\dfrac{5}{14}$, and that they have diff
 
 ## Using the complementary event
 
-For "**at least one**" questions, the complementary event ("none at all") is often a single case, so it is much easier to count.
+With an "**at least one**" question, counting directly often means splitting into many cases: one, two, three… The complementary event ("none at all"), on the other hand, is usually a single case. So we find the probability of the complement and take it away from $1$.
 
 :::example At least one head
 Toss a fair coin $3$ times. Find the probability of at least one head.
@@ -127,7 +127,7 @@ $$P(A)=1-P(\overline{A})=1-\frac18=\frac78.$$
 So the probability of at least one head is $\dfrac78$.
 :::
 
-Now we can answer the draw question from the start of the lesson.
+We now have everything we need to answer the draw question from the start of the lesson.
 
 :::example Drawing two students for the ceremony
 The class has $22$ girls and $18$ boys. Two students are chosen at random. Find the probability that:
@@ -151,10 +151,10 @@ So the probability that both are girls is $\dfrac{77}{260}$, and the probability
 :::
 
 :::warning Common mistakes
-- **Using the classical definition when outcomes are not equally likely.** Saying "with two dice the total takes $11$ values from $2$ to $12$, so $P(\text{total}=7)=\dfrac1{11}$". Wrong, because the totals are not equally likely (total $2$ has $1$ pair, total $7$ has $6). Right: count over the $36$ ordered pairs to get $\dfrac16$.
+- **Using the classical definition when outcomes are not equally likely.** Saying "with two dice the total takes $11$ values from $2$ to $12$, so $P(\text{total}=7)=\dfrac1{11}$". Wrong, because the totals are not equally likely (total $2$ has $1$ pair, total $7$ has $6$ pairs). Right: count over the $36$ ordered pairs to get $\dfrac16$.
 - **Mixing ordered and unordered counts.** Drawing $2$ marbles together but counting $n(\Omega)=P(8, 2)=56$ while counting $n(A)=\binom{5}{2}=10$. Wrong, because both counts must be of the same kind. Right: use combinations for both (or arrangements for both).
 - **Negating "at least one" wrongly.** Writing the complement of "at least one boy" as "at least one girl". Wrong, because these two events can happen together. Right: the complement is "no boy at all", that is, both are girls.
-- **A probability above $1$.** If you get $P(A)>1$ or $P(A)<0$, a count is certainly wrong.
+- **A probability above $1$.** If you get $P(A)>1$ or $P(A)<0$, a count is certainly wrong. This is a quick and useful check; glance at it every time you finish.
 :::
 
 ## Key terms
@@ -181,9 +181,11 @@ So the probability that both are girls is $\dfrac{77}{260}$, and the probability
 - Count $n(\Omega)$ and $n(A)$ with counting rules, a table or combinations; both counts must be of the same kind (both ordered or both unordered).
 - "At least one": go through the complement "none at all".
 
+Think back to the draw at the start: even though the class has more girls, the chance that both chosen students are girls is only about $30\%$, and the chance of at least one boy is about $70\%$. First impressions can mislead us; careful counting and dividing give an answer we can trust.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with the ideas you need and a few steps to get going. Have a go on your own first, and do not worry about mistakes; comparing with the solution afterwards shows you how much you have understood.
 
 :::exercise
 Roll a fair die. Find the probability that the number shown is divisible by $3$.
