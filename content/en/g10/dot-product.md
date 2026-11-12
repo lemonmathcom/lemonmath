@@ -13,15 +13,17 @@ minutes: 25
 
 You pull a trolley across a playground with a rope, using a force of $10$ N. The rope makes an angle of $60^\circ$ with the ground, and the trolley moves $5$ m. How much work does the pull do? If the rope were horizontal, the answer would be $10\cdot5=50$ J. But the rope slopes upwards, so is it still $50$ J?
 
+Your instinct probably says no: when you pull at a slant, some of your effort seems to go into lifting the trolley rather than moving it along. The question is how much. Answering it leads us to a new operation between two vectors, and this operation turns out to be useful in many places: testing whether lines are perpendicular, finding angles, finding lengths.
+
 ## The angle between two vectors
 
-Let us split the pull into two perpendicular parts: one along the ground and one straight up. The force, the part along the ground and the vertical part form a right-angled triangle with an angle of $60^\circ$, so:
+We do what physicists do: split the pull into two perpendicular parts, one along the ground and one straight up. The force, the part along the ground and the vertical part form a right-angled triangle with an angle of $60^\circ$, so:
 
 $$\text{part along the ground}=10\cos60^\circ=10\cdot\frac12=5\ \text{(N)}.$$
 
-Only this part moves the trolley; the vertical part just lifts it slightly. So the work is $5\cdot5=25$ J, that is $10\cdot5\cdot\cos60^\circ$. This number depends on the **lengths of two vectors** (force, displacement) and **the angle between them**. We call it the **scalar product** (also called the dot product).
+Only this part moves the trolley; the vertical part just lifts it slightly. So the work is $5\cdot5=25$ J, that is $10\cdot5\cdot\cos60^\circ$, only half of what a horizontal rope would give. Notice that this number is built from three things: the **lengths of two vectors** (force, displacement) and **the angle between them**. This way of combining them is so useful that it gets its own name: the **scalar product** (also called the dot product).
 
-First we must say exactly what the angle between two vectors is. Place two non-zero vectors $\vec{a}$ and $\vec{b}$ so that they start at the same point $O$: $\overrightarrow{OA}=\vec{a}$, $\overrightarrow{OB}=\vec{b}$. The **angle between** them, written $(\vec{a}, \vec{b})$, is the angle $\angle AOB$, with $0^\circ\le(\vec{a}, \vec{b})\le 180^\circ$.
+Before that, we must say exactly which angle "the angle between two vectors" is, because two vectors may sit in different places on the plane. Place two non-zero vectors $\vec{a}$ and $\vec{b}$ so that they start at the same point $O$: $\overrightarrow{OA}=\vec{a}$, $\overrightarrow{OB}=\vec{b}$. The **angle between** them, written $(\vec{a}, \vec{b})$, is the angle $\angle AOB$, with $0^\circ\le(\vec{a}, \vec{b})\le 180^\circ$.
 
 :::diagram The angle $\theta$ between $\vec{a}$ and $\vec{b}$
 alt: Two arrows a and b leaving the origin O, with an arc marking the angle theta between them
@@ -33,7 +35,7 @@ arrow O B "b"
 angle A O B "θ"
 :::
 
-If the angle is $0^\circ$ the vectors point the same way; if it is $180^\circ$ they point opposite ways; if it is $90^\circ$ they are perpendicular, written $\vec{a}\perp\vec{b}$.
+Three special cases are worth remembering: if the angle is $0^\circ$ the vectors point the same way; if it is $180^\circ$ they point opposite ways; if it is $90^\circ$ they are perpendicular, written $\vec{a}\perp\vec{b}$.
 
 ## Definition of the scalar product
 
@@ -43,9 +45,9 @@ $$\vec{a}\cdot\vec{b}=|\vec{a}|\,|\vec{b}|\cos(\vec{a}, \vec{b}).$$
 If $\vec{a}=\vec{0}$ or $\vec{b}=\vec{0}$, then $\vec{a}\cdot\vec{b}=0$.
 :::
 
-The result is a **number**, not a vector. Its sign is the sign of the cosine: positive for an acute angle, negative for an obtuse angle, $0$ for a right angle. In particular $\vec{a}\cdot\vec{a}=|\vec{a}|^2$, because the angle is $0^\circ$ and $\cos 0^\circ=1$. In the opening problem, the work is exactly the scalar product of the force vector and the displacement vector: $25$ J.
+Many students slip up here, so let us say it straight away: the result is a **number**, not a vector. That is where the name "scalar" comes from. Its sign is the sign of the cosine: positive for an acute angle, negative for an obtuse angle, $0$ for a right angle. In particular $\vec{a}\cdot\vec{a}=|\vec{a}|^2$, because the angle is $0^\circ$ and $\cos 0^\circ=1$. In the opening problem, the work is exactly the scalar product of the force vector and the displacement vector: $25$ J.
 
-The first example shows how the angle changes the scalar product.
+Keep the lengths of the two vectors fixed and just turn the angle between them; let us see how the scalar product changes.
 
 :::example Three angles
 Let $|\vec{a}|=3$ and $|\vec{b}|=4$. Find $\vec{a}\cdot\vec{b}$ when the angle between the vectors is $60^\circ$, $120^\circ$ and $90^\circ$.
@@ -61,7 +63,7 @@ $$\begin{aligned}
 So the scalar products are $6$, $-6$ and $0$: an obtuse angle gives a negative number and a right angle gives $0$.
 :::
 
-When two vectors do not share a tail, we must move one of them before reading the angle.
+In geometry, two vectors often do not share a tail. Then do not read the angle off the picture straight away; move one vector so that the tails coincide, and only then look at the angle.
 
 :::example In an equilateral triangle
 Equilateral triangle $ABC$ has side $4$. Find $\overrightarrow{AB}\cdot\overrightarrow{AC}$ and $\overrightarrow{AB}\cdot\overrightarrow{BC}$.
@@ -87,11 +89,11 @@ For any vectors $\vec{a}, \vec{b}, \vec{c}$ and number $k$:
 - $\vec{a}\cdot\vec{a}=|\vec{a}|^2\ge 0$.
 :::
 
-With these properties we expand just as with the familiar algebraic identities:
+These properties are exactly like those of multiplying numbers, so we may expand just as with the familiar algebraic identities:
 $$|\vec{a}+\vec{b}|^2=(\vec{a}+\vec{b})\cdot(\vec{a}+\vec{b})=|\vec{a}|^2+2\,\vec{a}\cdot\vec{b}+|\vec{b}|^2,$$
 $$|\vec{a}-\vec{b}|^2=|\vec{a}|^2-2\,\vec{a}\cdot\vec{b}+|\vec{b}|^2.$$
 
-These identities let us find the length of a sum without drawing.
+The nice thing is that these identities let us find the length of a sum without drawing anything, knowing only two lengths and the angle between them.
 
 :::example Length of a sum and a difference
 Let $|\vec{a}|=2$, $|\vec{b}|=3$ and $(\vec{a}, \vec{b})=60^\circ$. Find $|\vec{a}+\vec{b}|$ and $|\vec{a}-\vec{b}|$.
@@ -109,18 +111,20 @@ So $|\vec{a}+\vec{b}|=\sqrt{19}$ and $|\vec{a}-\vec{b}|=\sqrt{7}$.
 
 ## The scalar product in coordinates
 
+The definition with the angle has a clear meaning, but when we only have coordinates we do not know the angle. Luckily there is a much quicker way.
+
 :::theorem Coordinate formula
 If $\vec{a}=(x_1, y_1)$ and $\vec{b}=(x_2, y_2)$, then
 $$\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2.$$
 :::
 
-**Why?** Write $\vec{a}=x_1\vec{i}+y_1\vec{j}$, $\vec{b}=x_2\vec{i}+y_2\vec{j}$ and expand. Since $\vec{i}\cdot\vec{i}=\vec{j}\cdot\vec{j}=1$ (length $1$) and $\vec{i}\cdot\vec{j}=0$ (perpendicular), only $x_1x_2+y_1y_2$ is left.
+**Why does this formula work?** Write $\vec{a}=x_1\vec{i}+y_1\vec{j}$, $\vec{b}=x_2\vec{i}+y_2\vec{j}$ and expand. Since $\vec{i}\cdot\vec{i}=\vec{j}\cdot\vec{j}=1$ (length $1$) and $\vec{i}\cdot\vec{j}=0$ (perpendicular), only $x_1x_2+y_1y_2$ is left.
 
-This formula has two consequences:
+This short formula brings two consequences that we use all the time:
 - $\vec{a}\perp\vec{b}\iff x_1x_2+y_1y_2=0$ (for non-zero vectors).
 - $\cos(\vec{a}, \vec{b})=\dfrac{x_1x_2+y_1y_2}{\sqrt{x_1^2+y_1^2}\,\sqrt{x_2^2+y_2^2}}$.
 
-The next example uses the second consequence to find an angle that is not a special one.
+With the second consequence we can find even angles that are not special ones; a calculator is only needed at the very last step.
 
 :::example Scalar product and angle
 For $\vec{a}=(2, 3)$ and $\vec{b}=(4, -1)$, find $\vec{a}\cdot\vec{b}$ and the angle between the vectors (to $0.1$ of a degree).
@@ -136,7 +140,7 @@ So $\vec{a}\cdot\vec{b}=5$ and the angle between the vectors is about $70.3^\cir
 
 ## Angles in a triangle
 
-To find the angle at a vertex, we use the two vectors that **leave that vertex**.
+Now let us take the new tool into a triangle. One small rule saves you from sign errors: to find the angle at a vertex, use the two vectors that **leave that vertex**.
 
 :::diagram Triangle $ABC$
 alt: A triangle with vertices A(1, 2), B(3, 1) and C(2, 4) and a right-angle mark at A
@@ -162,7 +166,7 @@ $$\cos B=\frac{(-2)(-1)+1\cdot3}{\sqrt5\cdot\sqrt{10}}=\frac{5}{\sqrt{50}}=\frac
 The angles add up to $180^\circ$, so $\angle C=45^\circ$. Hence triangle $ABC$ is a right-angled isosceles triangle with the right angle at $A$.
 :::
 
-The perpendicularity test also helps us find an unknown point.
+The perpendicularity test is not only for checking; it also gives us an equation for finding an unknown point.
 
 :::example Finding a point for a right angle
 Let $A(1, 2)$ and $B(3, 1)$. Find the point $C$ on the $x$-axis such that triangle $ABC$ has a right angle at $A$.
@@ -180,7 +184,7 @@ So $C(0, 0)$.
 - **Treating the scalar product as a vector.** Wrong: "$\vec{a}\cdot\vec{b}=(8, -3)$" for $\vec{a}=(2, 3)$, $\vec{b}=(4, -1)$. Right: $\vec{a}\cdot\vec{b}=8-3=5$, a number.
 - **Reading the angle when the vectors do not share a tail.** Wrong: "$(\overrightarrow{AB}, \overrightarrow{BC})=\angle ABC$". Move a vector so the tails coincide; in an equilateral triangle that angle is $120^\circ$, not $60^\circ$.
 - **Forgetting the middle term.** Wrong: $|\vec{a}+\vec{b}|^2=|\vec{a}|^2+|\vec{b}|^2$. Right: $|\vec{a}+\vec{b}|^2=|\vec{a}|^2+2\vec{a}\cdot\vec{b}+|\vec{b}|^2$; the two agree only when $\vec{a}\perp\vec{b}$.
-- **Concluding $\vec{a}=\vec{0}$ or $\vec{b}=\vec{0}$ from $\vec{a}\cdot\vec{b}=0$.** Two non-zero perpendicular vectors also give $0$.
+- **Concluding $\vec{a}=\vec{0}$ or $\vec{b}=\vec{0}$ from $\vec{a}\cdot\vec{b}=0$.** The habit from multiplying numbers makes this mistake easy. Two non-zero perpendicular vectors also give $0$.
 :::
 
 ## Key terms
@@ -204,9 +208,11 @@ So $C(0, 0)$.
 - Coordinates: $\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2$; $\vec{a}\perp\vec{b}\iff x_1x_2+y_1y_2=0$.
 - $\cos(\vec{a}, \vec{b})=\dfrac{\vec{a}\cdot\vec{b}}{|\vec{a}|\,|\vec{b}|}$; for the angle at a vertex of a triangle use the two vectors leaving that vertex.
 
+The trolley at the start has its answer: pulling at $60^\circ$, the work is only $25$ J, because only the part of the force along the ground does the job. The scalar product is a short way of writing exactly that idea: it measures how much two vectors "go the same way".
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with the ideas you need and a few steps to get going. Have a go on your own first, and do not worry about mistakes; comparing with the solution afterwards shows you how much you have understood.
 
 :::exercise
 Find $\vec{a}\cdot\vec{b}$ in two cases: (a) $|\vec{a}|=5$, $|\vec{b}|=2$, $(\vec{a}, \vec{b})=60^\circ$; (b) $|\vec{a}|=4$, $|\vec{b}|=3$, $(\vec{a}, \vec{b})=150^\circ$.

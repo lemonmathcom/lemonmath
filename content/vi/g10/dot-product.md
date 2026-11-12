@@ -13,15 +13,17 @@ minutes: 25
 
 Bạn kéo một chiếc xe hàng trên mặt sân bằng một sợi dây, với lực $10$ N. Sợi dây hợp với mặt đất góc $60^\circ$, và xe đi được $5$ m. Lực kéo đã sinh công bao nhiêu? Nếu dây nằm ngang, câu trả lời là $10\cdot5=50$ J. Nhưng dây đang chếch lên, vậy có còn là $50$ J không?
 
+Cảm giác mách bảo là không: khi kéo chếch lên, một phần sức của bạn như bị "phí" vào việc nhấc xe lên chứ không đẩy xe đi. Câu hỏi là phí mất bao nhiêu. Trả lời được điều đó, ta sẽ gặp một phép toán mới giữa hai vectơ, và phép toán này hoá ra dùng được ở rất nhiều chỗ: xét hai đường vuông góc, tìm góc, tính độ dài.
+
 ## Góc giữa hai vectơ
 
-Ta thử tách lực kéo thành hai phần vuông góc: một phần dọc mặt đất, một phần thẳng đứng. Lực, phần dọc mặt đất và phần thẳng đứng tạo thành một tam giác vuông có góc $60^\circ$, nên:
+Ta làm như các nhà vật lí vẫn làm: tách lực kéo thành hai phần vuông góc, một phần dọc mặt đất, một phần thẳng đứng. Lực, phần dọc mặt đất và phần thẳng đứng tạo thành một tam giác vuông có góc $60^\circ$, nên:
 
 $$\text{phần dọc mặt đất}=10\cos60^\circ=10\cdot\frac12=5\ \text{(N)}.$$
 
-Chỉ phần này kéo xe đi; phần thẳng đứng chỉ nhấc nhẹ xe lên. Vậy công là $5\cdot5=25$ J, tức $10\cdot5\cdot\cos60^\circ$. Con số này phụ thuộc vào **độ dài hai vectơ** (lực, độ dời) và **góc giữa chúng**. Ta đặt tên cho nó là tích vô hướng.
+Chỉ phần này kéo xe đi; phần thẳng đứng chỉ nhấc nhẹ xe lên. Vậy công là $5\cdot5=25$ J, tức $10\cdot5\cdot\cos60^\circ$, chỉ bằng một nửa so với khi kéo dây nằm ngang. Bạn để ý con số này được ghép từ ba thứ: **độ dài hai vectơ** (lực, độ dời) và **góc giữa chúng**. Cách ghép ấy hay đến mức ta đặt cho nó một cái tên riêng: tích vô hướng.
 
-Trước hết cần nói rõ góc giữa hai vectơ. Đặt hai vectơ khác $\vec{0}$ là $\vec{a}$ và $\vec{b}$ sao cho chúng cùng xuất phát từ một điểm $O$: $\overrightarrow{OA}=\vec{a}$, $\overrightarrow{OB}=\vec{b}$. **Góc giữa** hai vectơ, kí hiệu $(\vec{a}, \vec{b})$, là góc $\widehat{AOB}$, với $0^\circ\le(\vec{a}, \vec{b})\le 180^\circ$.
+Muốn vậy, trước hết phải nói cho rõ "góc giữa hai vectơ" là góc nào, vì hai vectơ có thể nằm ở hai chỗ khác nhau trên mặt phẳng. Đặt hai vectơ khác $\vec{0}$ là $\vec{a}$ và $\vec{b}$ sao cho chúng cùng xuất phát từ một điểm $O$: $\overrightarrow{OA}=\vec{a}$, $\overrightarrow{OB}=\vec{b}$. **Góc giữa** hai vectơ, kí hiệu $(\vec{a}, \vec{b})$, là góc $\widehat{AOB}$, với $0^\circ\le(\vec{a}, \vec{b})\le 180^\circ$.
 
 :::diagram Góc $\theta$ giữa $\vec{a}$ và $\vec{b}$
 alt: Hai mũi tên a và b xuất phát từ gốc O, có cung tròn đánh dấu góc theta giữa chúng
@@ -33,7 +35,7 @@ arrow O B "b"
 angle A O B "θ"
 :::
 
-Nếu góc bằng $0^\circ$ thì hai vectơ cùng hướng; bằng $180^\circ$ thì ngược hướng; bằng $90^\circ$ thì chúng vuông góc, viết là $\vec{a}\perp\vec{b}$.
+Ba trường hợp đặc biệt bạn nên nhớ: góc bằng $0^\circ$ thì hai vectơ cùng hướng; bằng $180^\circ$ thì ngược hướng; bằng $90^\circ$ thì chúng vuông góc, viết là $\vec{a}\perp\vec{b}$.
 
 ## Định nghĩa tích vô hướng
 
@@ -43,9 +45,9 @@ $$\vec{a}\cdot\vec{b}=|\vec{a}|\,|\vec{b}|\cos(\vec{a}, \vec{b}).$$
 Nếu $\vec{a}=\vec{0}$ hoặc $\vec{b}=\vec{0}$ thì $\vec{a}\cdot\vec{b}=0$.
 :::
 
-Kết quả là một **số**, không phải vectơ. Dấu của nó là dấu của côsin: dương khi góc nhọn, âm khi góc tù, bằng $0$ khi góc vuông. Đặc biệt $\vec{a}\cdot\vec{a}=|\vec{a}|^2$, vì góc bằng $0^\circ$ và $\cos 0^\circ=1$. Ở bài toán mở đầu, công chính là tích vô hướng của vectơ lực và vectơ độ dời: $25$ J.
+Chỗ này nhiều bạn hay nhầm, nên ta nói ngay: kết quả là một **số**, không phải vectơ. Cái tên "vô hướng" cũng từ đó mà ra. Dấu của nó là dấu của côsin: dương khi góc nhọn, âm khi góc tù, bằng $0$ khi góc vuông. Đặc biệt $\vec{a}\cdot\vec{a}=|\vec{a}|^2$, vì góc bằng $0^\circ$ và $\cos 0^\circ=1$. Ở bài toán mở đầu, công chính là tích vô hướng của vectơ lực và vectơ độ dời: $25$ J.
 
-Ví dụ đầu tiên cho thấy góc làm thay đổi tích vô hướng thế nào.
+Giữ nguyên độ dài hai vectơ, chỉ xoay góc giữa chúng, ta xem tích vô hướng thay đổi ra sao.
 
 :::example Ba góc khác nhau
 Cho $|\vec{a}|=3$ và $|\vec{b}|=4$. Tìm $\vec{a}\cdot\vec{b}$ khi góc giữa hai vectơ là $60^\circ$, $120^\circ$ và $90^\circ$.
@@ -61,7 +63,7 @@ $$\begin{aligned}
 Vậy tích vô hướng lần lượt là $6$, $-6$ và $0$: góc tù cho số âm, góc vuông cho số $0$.
 :::
 
-Khi hai vectơ không chung điểm đầu, ta phải dời một vectơ trước khi đọc góc.
+Trong hình học, hai vectơ thường không chung điểm đầu. Khi đó đừng vội đọc góc trên hình; hãy dời một vectơ cho hai điểm đầu trùng nhau rồi mới nhìn góc.
 
 :::example Trong tam giác đều
 Tam giác đều $ABC$ có cạnh $4$. Tính $\overrightarrow{AB}\cdot\overrightarrow{AC}$ và $\overrightarrow{AB}\cdot\overrightarrow{BC}$.
@@ -87,11 +89,11 @@ Với mọi vectơ $\vec{a}, \vec{b}, \vec{c}$ và số $k$:
 - $\vec{a}\cdot\vec{a}=|\vec{a}|^2\ge 0$.
 :::
 
-Nhờ các tính chất này, ta khai triển như với hằng đẳng thức đáng nhớ:
+Các tính chất này giống hệt tính chất của phép nhân số, nên bạn được khai triển y như với hằng đẳng thức đáng nhớ quen thuộc:
 $$|\vec{a}+\vec{b}|^2=(\vec{a}+\vec{b})\cdot(\vec{a}+\vec{b})=|\vec{a}|^2+2\,\vec{a}\cdot\vec{b}+|\vec{b}|^2,$$
 $$|\vec{a}-\vec{b}|^2=|\vec{a}|^2-2\,\vec{a}\cdot\vec{b}+|\vec{b}|^2.$$
 
-Các hằng đẳng thức này cho phép tính độ dài của một tổng mà không cần vẽ hình.
+Điều thú vị là các hằng đẳng thức này cho phép tính độ dài của một tổng mà không cần vẽ hình, chỉ cần biết hai độ dài và góc giữa chúng.
 
 :::example Độ dài của vectơ tổng và hiệu
 Cho $|\vec{a}|=2$, $|\vec{b}|=3$ và $(\vec{a}, \vec{b})=60^\circ$. Tính $|\vec{a}+\vec{b}|$ và $|\vec{a}-\vec{b}|$.
@@ -109,18 +111,20 @@ Vậy $|\vec{a}+\vec{b}|=\sqrt{19}$ và $|\vec{a}-\vec{b}|=\sqrt{7}$.
 
 ## Tích vô hướng theo toạ độ
 
+Định nghĩa bằng góc rất rõ nghĩa, nhưng khi chỉ có toạ độ thì ta đâu biết góc. May là còn một cách tính gọn hơn nhiều.
+
 :::theorem Công thức toạ độ
 Nếu $\vec{a}=(x_1; y_1)$ và $\vec{b}=(x_2; y_2)$ thì
 $$\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2.$$
 :::
 
-**Vì sao?** Viết $\vec{a}=x_1\vec{i}+y_1\vec{j}$, $\vec{b}=x_2\vec{i}+y_2\vec{j}$ và khai triển. Vì $\vec{i}\cdot\vec{i}=\vec{j}\cdot\vec{j}=1$ (độ dài $1$) và $\vec{i}\cdot\vec{j}=0$ (vuông góc), chỉ còn lại $x_1x_2+y_1y_2$.
+**Vì sao công thức này đúng?** Viết $\vec{a}=x_1\vec{i}+y_1\vec{j}$, $\vec{b}=x_2\vec{i}+y_2\vec{j}$ và khai triển. Vì $\vec{i}\cdot\vec{i}=\vec{j}\cdot\vec{j}=1$ (độ dài $1$) và $\vec{i}\cdot\vec{j}=0$ (vuông góc), chỉ còn lại $x_1x_2+y_1y_2$.
 
-Từ công thức này có hai hệ quả:
+Công thức ngắn gọn ấy mang lại hai hệ quả rất hay dùng:
 - $\vec{a}\perp\vec{b}\iff x_1x_2+y_1y_2=0$ (với hai vectơ khác $\vec{0}$).
 - $\cos(\vec{a}, \vec{b})=\dfrac{x_1x_2+y_1y_2}{\sqrt{x_1^2+y_1^2}\,\sqrt{x_2^2+y_2^2}}$.
 
-Ví dụ sau dùng hệ quả thứ hai để tìm một góc không đặc biệt.
+Nhờ hệ quả thứ hai, ta tìm được cả những góc không đặc biệt, chỉ cần một chiếc máy tính cầm tay ở bước cuối.
 
 :::example Tích vô hướng và góc
 Với $\vec{a}=(2; 3)$ và $\vec{b}=(4; -1)$, tìm $\vec{a}\cdot\vec{b}$ và góc giữa hai vectơ (làm tròn đến $0{,}1$ độ).
@@ -136,7 +140,7 @@ Vậy $\vec{a}\cdot\vec{b}=5$ và góc giữa hai vectơ xấp xỉ $70{,}3^\cir
 
 ## Các góc trong tam giác
 
-Để tìm góc tại một đỉnh, ta dùng hai vectơ **xuất phát từ đỉnh đó**.
+Bây giờ đem công cụ mới vào tam giác. Có một nguyên tắc nhỏ giúp tránh nhầm dấu: để tìm góc tại một đỉnh, ta dùng hai vectơ **xuất phát từ đỉnh đó**.
 
 :::diagram Tam giác $ABC$
 alt: Tam giác có các đỉnh A(1; 2), B(3; 1), C(2; 4) và dấu góc vuông tại A
@@ -162,7 +166,7 @@ $$\cos B=\frac{(-2)(-1)+1\cdot3}{\sqrt5\cdot\sqrt{10}}=\frac{5}{\sqrt{50}}=\frac
 Tổng ba góc bằng $180^\circ$, nên $\widehat{C}=45^\circ$. Vậy tam giác $ABC$ vuông cân tại $A$.
 :::
 
-Điều kiện vuông góc còn giúp tìm một điểm chưa biết.
+Điều kiện vuông góc không chỉ dùng để kiểm tra; nó còn cho ta một phương trình để tìm điểm chưa biết.
 
 :::example Tìm điểm để có góc vuông
 Cho $A(1; 2)$ và $B(3; 1)$. Tìm điểm $C$ trên trục hoành sao cho tam giác $ABC$ vuông tại $A$.
@@ -180,7 +184,7 @@ Vậy $C(0; 0)$.
 - **Coi tích vô hướng là vectơ.** Sai: "$\vec{a}\cdot\vec{b}=(8; -3)$" với $\vec{a}=(2; 3)$, $\vec{b}=(4; -1)$. Đúng: $\vec{a}\cdot\vec{b}=8-3=5$, một số.
 - **Đọc góc khi hai vectơ không chung điểm đầu.** Sai: "$(\overrightarrow{AB}, \overrightarrow{BC})=\widehat{ABC}$". Phải dời vectơ cho chung điểm đầu; trong tam giác đều, góc đó là $120^\circ$, không phải $60^\circ$.
 - **Quên số hạng giữa.** Sai: $|\vec{a}+\vec{b}|^2=|\vec{a}|^2+|\vec{b}|^2$. Đúng: $|\vec{a}+\vec{b}|^2=|\vec{a}|^2+2\vec{a}\cdot\vec{b}+|\vec{b}|^2$; hai vế chỉ bằng nhau khi $\vec{a}\perp\vec{b}$.
-- **Từ $\vec{a}\cdot\vec{b}=0$ suy ra $\vec{a}=\vec{0}$ hoặc $\vec{b}=\vec{0}$.** Hai vectơ khác $\vec{0}$ nhưng vuông góc cũng cho tích bằng $0$.
+- **Từ $\vec{a}\cdot\vec{b}=0$ suy ra $\vec{a}=\vec{0}$ hoặc $\vec{b}=\vec{0}$.** Thói quen từ phép nhân số dễ dẫn đến lỗi này. Hai vectơ khác $\vec{0}$ nhưng vuông góc cũng cho tích bằng $0$.
 :::
 
 ## Thuật ngữ
@@ -204,9 +208,11 @@ Vậy $C(0; 0)$.
 - Toạ độ: $\vec{a}\cdot\vec{b}=x_1x_2+y_1y_2$; $\vec{a}\perp\vec{b}\iff x_1x_2+y_1y_2=0$.
 - $\cos(\vec{a}, \vec{b})=\dfrac{\vec{a}\cdot\vec{b}}{|\vec{a}|\,|\vec{b}|}$; góc tại một đỉnh tam giác dùng hai vectơ xuất phát từ đỉnh đó.
 
+Chiếc xe hàng ở đầu bài đã cho ta câu trả lời: kéo chếch $60^\circ$ thì công chỉ còn $25$ J, vì chỉ phần lực dọc mặt đất mới làm việc. Tích vô hướng chính là cách viết gọn ý ấy: nó đo xem hai vectơ "cùng chiều" với nhau đến mức nào.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và gợi ý vài bước đầu. Bạn cứ tự làm trước, sai cũng không sao; đối chiếu với lời giải sau mới thấy mình hiểu đến đâu.
 
 :::exercise
 Tìm $\vec{a}\cdot\vec{b}$ trong hai trường hợp: (a) $|\vec{a}|=5$, $|\vec{b}|=2$, $(\vec{a}, \vec{b})=60^\circ$; (b) $|\vec{a}|=4$, $|\vec{b}|=3$, $(\vec{a}, \vec{b})=150^\circ$.
