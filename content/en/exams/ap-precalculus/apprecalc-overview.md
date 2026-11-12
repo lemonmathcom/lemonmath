@@ -96,9 +96,9 @@ So the amplitude is $3$ and the period is $\pi$, answer **B**.
 
 :::note Weeks before the exam
 1. **Weeks 1 to 3, Unit 1:** [Rates of change and polynomial functions](lesson:apprecalc-rates-polynomials), then [Rational functions, transformations and modelling](lesson:apprecalc-rational-transformations).
-2. **Weeks 4 to 6, Unit 2:** sequences, exponential and logarithmic functions, semi-log plots.
-3. **Weeks 7 to 8, Unit 3:** trigonometric functions, equations and polar functions.
-4. **Weeks 9 to 10:** the free-response types, then a full timed practice exam; review every mistake in an error log.
+2. **Weeks 4 to 6, Unit 2:** [Sequences and exponential functions](lesson:apprecalc-sequences-exponentials), then [Logarithms, inverses and semi-log models](lesson:apprecalc-logarithms-semilog).
+3. **Weeks 7 to 8, Unit 3:** [Trigonometric functions and periodic models](lesson:apprecalc-trig-functions-modelling), then [Trigonometric equations and polar functions](lesson:apprecalc-trig-equations-polar).
+4. **Weeks 9 to 10:** [the free-response types](lesson:apprecalc-frq-strategies), then the timed [practice exam](lesson:apprecalc-practice-exam-1); review every mistake in an error log.
 :::
 
 :::warning Common traps

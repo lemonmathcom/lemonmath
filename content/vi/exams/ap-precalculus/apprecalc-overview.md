@@ -96,9 +96,9 @@ Vậy biên độ là $3$ và chu kì là $\pi$, chọn đáp án **B**.
 
 :::note Các tuần trước kì thi
 1. **Tuần 1 đến 3, Unit 1:** [Tốc độ thay đổi và hàm đa thức](lesson:apprecalc-rates-polynomials), rồi [Hàm phân thức, phép biến đổi và mô hình hoá](lesson:apprecalc-rational-transformations).
-2. **Tuần 4 đến 6, Unit 2:** dãy số, hàm mũ và hàm logarit, đồ thị bán logarit.
-3. **Tuần 7 đến 8, Unit 3:** hàm lượng giác, phương trình lượng giác và hàm trong toạ độ cực.
-4. **Tuần 9 đến 10:** các dạng câu tự luận, rồi làm trọn một đề luyện có bấm giờ; xem lại mọi lỗi sai trong sổ lỗi sai.
+2. **Tuần 4 đến 6, Unit 2:** [Dãy số và hàm mũ](lesson:apprecalc-sequences-exponentials), rồi [Logarit, hàm ngược và mô hình bán logarit](lesson:apprecalc-logarithms-semilog).
+3. **Tuần 7 đến 8, Unit 3:** [Hàm lượng giác và mô hình tuần hoàn](lesson:apprecalc-trig-functions-modelling), rồi [Phương trình lượng giác và toạ độ cực](lesson:apprecalc-trig-equations-polar).
+4. **Tuần 9 đến 10:** [các dạng câu tự luận](lesson:apprecalc-frq-strategies), rồi làm trọn [đề luyện](lesson:apprecalc-practice-exam-1) có bấm giờ; xem lại mọi lỗi sai trong sổ lỗi sai.
 :::
 
 :::warning Những cái bẫy thường gặp
