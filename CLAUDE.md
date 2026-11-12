@@ -37,3 +37,5 @@ Từ 12/11/2026: phần nâng cấp lời giải còn lại (lớp 12 + Ôn thi)
 Giọng văn (từ 12/11/2026, chủ dự án yêu cầu): viết lại phần lời của toàn bộ trang theo giọng một nhà giáo tâm huyết, dung dị (chuẩn 2f trong _templates/WRITING-SPEC.md; bài mẫu content/*/g10/equation-of-a-line.md). Pro tự viết dần mỗi ngày 10 bài học (2 lượt tự chạy 13h29 và 17h29, mỗi lượt 5 bài), cả Việt và Anh, theo thứ tự và quy trình trong giao-viec/GIONG-VAN.md; không đổi toán, đề, lời giải. Bài mới nhận từ các tài khoản cũng phải đạt chuẩn 2f.
 
 Viết lại bài ChatGPT (từ 12/11/2026, chủ dự án chọn): 46 bài B096–B141 (lớp 6–7) do Pro tự viết lại kỹ, mỗi lượt 7 bài (chủ dự án tăng từ 4 lên 7 ngày 12/11/2026); tiến độ và quy trình ở giao-viec/viet-lai-chatgpt/TIEN-DO.md; bản nháp ChatGPT (không đạt, chỉ tham khảo) ở giao-viec/viet-lai-chatgpt/nhap/.
+
+Dọn thư mục nộp bài (từ 12/11/2026, chủ dự án cho phép chủ động làm): sau khi đã đăng xong một đợt, chuyển các file đã xử lý trong Dropbox "Lemonmath.com/viec da lam" vào thư mục con "viec da lam/da dang" (dùng mcp__Dropbox__move), để thư mục gốc chỉ còn bài mới. Bài chưa đạt thì để lại và ghi lời nhắn sửa.
