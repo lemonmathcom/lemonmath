@@ -426,10 +426,10 @@ Box I holds $4$ red and $2$ white balls; box II holds $2$ red and $4$ white ball
 ::solution
 Let $B$ be the event "Box I is chosen" and $A$ the event "$2$ red balls are drawn". We have $P(B)=P\left(\overline B\right)=\dfrac12$.
 
-Each box has $6$ balls, so the number of ways to draw $2$ balls together is $C_6^2=15$.
+Each box has $6$ balls, so the number of ways to draw $2$ balls together is $\binom{6}{2}=15$.
 
-- Box I has $4$ red balls: $P(A\mid B)=\dfrac{C_4^2}{C_6^2}=\dfrac{6}{15}$.
-- Box II has $2$ red balls: $P\left(A\mid\overline B\right)=\dfrac{C_2^2}{C_6^2}=\dfrac{1}{15}$.
+- Box I has $4$ red balls: $P(A\mid B)=\dfrac{\binom{4}{2}}{\binom{6}{2}}=\dfrac{6}{15}$.
+- Box II has $2$ red balls: $P\left(A\mid\overline B\right)=\dfrac{\binom{2}{2}}{\binom{6}{2}}=\dfrac{1}{15}$.
 
 By the law of total probability,
 $$P(A)=\frac12\cdot\frac{6}{15}+\frac12\cdot\frac{1}{15}=\frac{6}{30}+\frac{1}{30}=\frac{7}{30}.$$
