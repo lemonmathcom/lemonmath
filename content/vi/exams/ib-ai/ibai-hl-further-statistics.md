@@ -157,7 +157,7 @@ Với $X\sim\text{Po}(2{,}5)$, tính $P(X=0)$ và $P(X=4)$.
 **Kiến thức:** $P(X=k)=\dfrac{m^ke^{-m}}{k!}$.
 
 ::solution
-Ta thay $m=2{,}5$ vào công thức Poisson. Với $k=0$, vì $2{,}5^0=1$ và $0!=1$, ta có $P(X=0)=e^{-2{,}5}\approx0{,}0821$.
+Số sự kiện trong một khoảng cố định với trung bình $2{,}5$ tuân theo phân phối Poisson, nên ta thay $m=2{,}5$ vào công thức $P(X=k)=\dfrac{m^ke^{-m}}{k!}$. Với $k=0$, vì $2{,}5^0=1$ và $0!=1$, ta có $P(X=0)=e^{-2{,}5}\approx0{,}0821$.
 
 Tương tự, $P(X=4)=\dfrac{2{,}5^4e^{-2{,}5}}{4!}=\dfrac{39{,}0625\times0{,}08209}{24}\approx0{,}134$.
 
@@ -205,7 +205,7 @@ Giải phương trình $\dfrac{dy}{dx}=\dfrac{2x}{y}$ với $y=3$ khi $x=0$, tro
 ::solution
 Tách biến được $y\,dy=2x\,dx$, và lấy nguyên hàm hai vế được $\dfrac{y^2}{2}=x^2+c$.
 
-Điều kiện $y=3$ khi $x=0$ cho $c=\dfrac92$, nên $y^2=2x^2+9$.
+Đừng quên hằng số: chính điều kiện ban đầu sẽ xác định nó. Điều kiện $y=3$ khi $x=0$ cho $c=\dfrac92$, nên $y^2=2x^2+9$.
 
 Vậy, vì $y>0$, $y=\sqrt{2x^2+9}$.
 

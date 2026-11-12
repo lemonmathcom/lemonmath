@@ -132,6 +132,8 @@ Trong tam giác $ABC$, $a=10$ cm, $A=40^\circ$ và $B=65^\circ$. Tính $b$.
 Ta biết cạnh $a$ cùng góc đối diện $A$, và góc $B$, nên áp dụng định lí sin:
 $$b=\frac{a\sin B}{\sin A}=\frac{10\sin65^\circ}{\sin40^\circ}\approx14{,}1\text{ cm}.$$
 
+Vì $B=65^\circ$ lớn hơn $A=40^\circ$ nên cạnh $b$ phải dài hơn $a=10$ cm, và đúng là như vậy. Kiểm tra nhanh kiểu này giúp phát hiện khi ghép nhầm cạnh với góc.
+
 Vậy $b\approx14{,}1$ cm.
 
 **Đáp số.** $b\approx14{,}1$ cm.
@@ -160,7 +162,7 @@ Một quả bóng có bán kính $4$ cm. Tính diện tích bề mặt và thể
 **Kiến thức:** $S=4\pi r^2$, $V=\tfrac43\pi r^3$.
 
 ::solution
-Diện tích bề mặt là $S=4\pi(4)^2=64\pi\approx201\text{ cm}^2$.
+Quả bóng là hình cầu bán kính $4$ cm, nên ta dùng công thức hình cầu trong tập công thức. Diện tích bề mặt là $S=4\pi(4)^2=64\pi\approx201\text{ cm}^2$.
 
 Thể tích là $V=\tfrac43\pi(4)^3=\tfrac{256}{3}\pi\approx268\text{ cm}^3$.
 
@@ -245,6 +247,8 @@ Một cốc giấy hình nón có bán kính $4$ cm và chiều cao $10$ cm. M�
 Cốc có dạng hình nón nên thể tích một cốc là $\tfrac13\pi(4)^2(10)\approx167{,}6\text{ cm}^3$.
 
 Hai lít là $2000\text{ cm}^3$, và $\dfrac{2000}{167{,}6}\approx11{,}9$.
+
+Cốc thứ $12$ không thể rót đầy, nên ta làm tròn xuống chứ không làm tròn lên.
 
 Vậy rót đầy được $11$ cốc.
 

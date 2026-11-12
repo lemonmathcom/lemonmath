@@ -157,7 +157,7 @@ For $X\sim\text{Po}(2.5)$, find $P(X=0)$ and $P(X=4)$.
 **What you need:** $P(X=k)=\dfrac{m^ke^{-m}}{k!}$.
 
 ::solution
-We substitute $m=2.5$ into the Poisson formula. For $k=0$, since $2.5^0=1$ and $0!=1$, $P(X=0)=e^{-2.5}\approx0.0821$.
+The number of events in a fixed interval with mean $2.5$ follows a Poisson distribution, so we substitute $m=2.5$ into the Poisson formula $P(X=k)=\dfrac{m^ke^{-m}}{k!}$. For $k=0$, since $2.5^0=1$ and $0!=1$, $P(X=0)=e^{-2.5}\approx0.0821$.
 
 Similarly $P(X=4)=\dfrac{2.5^4e^{-2.5}}{4!}=\dfrac{39.0625\times0.08209}{24}\approx0.134$.
 
@@ -205,7 +205,7 @@ Solve $\dfrac{dy}{dx}=\dfrac{2x}{y}$ with $y=3$ when $x=0$, for $y>0$.
 ::solution
 Separating variables gives $y\,dy=2x\,dx$, and integrating both sides gives $\dfrac{y^2}{2}=x^2+c$.
 
-The condition $y=3$ when $x=0$ gives $c=\dfrac92$, so $y^2=2x^2+9$.
+Do not forget the constant: it is what the initial condition fixes. The condition $y=3$ when $x=0$ gives $c=\dfrac92$, so $y^2=2x^2+9$.
 
 So, since $y>0$, $y=\sqrt{2x^2+9}$.
 

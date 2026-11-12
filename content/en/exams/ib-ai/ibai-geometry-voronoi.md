@@ -132,6 +132,8 @@ In triangle $ABC$, $a=10$ cm, $A=40^\circ$ and $B=65^\circ$. Find $b$.
 We know side $a$ with its opposite angle $A$, and angle $B$, so the sine rule applies:
 $$b=\frac{a\sin B}{\sin A}=\frac{10\sin65^\circ}{\sin40^\circ}\approx14.1\text{ cm}.$$
 
+Since $B=65^\circ$ is larger than $A=40^\circ$, side $b$ should be longer than $a=10$ cm, and it is. A quick check like this catches a wrong pairing of sides and angles.
+
 So $b\approx14.1$ cm.
 
 **Answer.** $b\approx14.1$ cm.
@@ -160,7 +162,7 @@ A ball has radius $4$ cm. Find its surface area and its volume.
 **What you need:** $S=4\pi r^2$, $V=\tfrac43\pi r^3$.
 
 ::solution
-The surface area is $S=4\pi(4)^2=64\pi\approx201\text{ cm}^2$.
+The ball is a sphere of radius $4$ cm, so we use the sphere formulas from the formula booklet. The surface area is $S=4\pi(4)^2=64\pi\approx201\text{ cm}^2$.
 
 The volume is $V=\tfrac43\pi(4)^3=\tfrac{256}{3}\pi\approx268\text{ cm}^3$.
 
@@ -243,6 +245,8 @@ A conical paper cup has radius $4$ cm and height $10$ cm. How many full cups can
 The cup is a cone, so the volume of one cup is $\tfrac13\pi(4)^2(10)\approx167.6\text{ cm}^3$.
 
 Two litres is $2000\text{ cm}^3$, and $\dfrac{2000}{167.6}\approx11.9$.
+
+The $12$th cup cannot be filled, so we round down, not up.
 
 So $11$ cups can be filled completely.
 
