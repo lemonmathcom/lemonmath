@@ -34,3 +34,4 @@ Thứ tự: lớp 9 → lớp 12 → Ôn thi. Mỗi lượt 4–6 bài học; fi
 | g9-lo9 | relative-frequency-tables, quadratic-equations, two-circle-positions, cyclic-quadrilaterals (chỉ bài còn vắn tắt) | xong 12/11/2026 |
 | g9-lo10 | inscribed-angles, intro-to-circles, vietes-theorem — **LỚP 9 XONG** (0 lời giải vắn tắt, 0 thiếu "Vậy") | xong 12/11/2026 |
 | g12-lo1 | review-trig-exp-log-sequences, review-coordinates-space | xong 12/11/2026 |
+| g12-lo2 | total-probability-bayes | xong 12/11/2026 |

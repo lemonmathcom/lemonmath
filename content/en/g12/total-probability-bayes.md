@@ -202,7 +202,15 @@ Given $P(B)=0.3$, $P(A\mid B)=0.6$ and $P(A\mid\overline B)=0.2$, find $P(A)$ an
 2. Find $P(A)$, then divide $0.3\cdot0.6$ by $P(A)$.
 
 ::solution
-$P(A)=0.3\cdot0.6+0.7\cdot0.2=0.18+0.14=0.32$. $P(B\mid A)=\dfrac{0.18}{0.32}=\dfrac9{16}=0.5625$.
+We have $P\left(\overline B\right)=1-P(B)=1-0.3=0.7$.
+
+By the law of total probability,
+$$P(A)=P(B)\cdot P(A\mid B)+P\left(\overline B\right)\cdot P\left(A\mid\overline B\right)=0.3\cdot0.6+0.7\cdot0.2=0.18+0.14=0.32.$$
+
+By Bayes' theorem,
+$$P(B\mid A)=\frac{P(B)\cdot P(A\mid B)}{P(A)}=\frac{0.18}{0.32}=\frac{9}{16}=0.5625.$$
+
+So $P(A)=0.32$ and $P(B\mid A)=0.5625$.
 
 **Answer.** $P(A)=0.32$; $P(B\mid A)=0.5625$.
 :::
@@ -218,7 +226,16 @@ A school has two campuses: $70\%$ of its students are at campus 1 and $30\%$ at 
 2. Divide the path through campus 2 by the total.
 
 ::solution
-$P(\text{cycles})=0.7\cdot0.2+0.3\cdot0.5=0.14+0.15=0.29$. $P(\text{campus 2}\mid\text{cycles})=\dfrac{0.15}{0.29}=\dfrac{15}{29}\approx0.517$.
+Let $B$ be the event "The student chosen is at campus 2" and $A$ the event "The student chosen cycles". From the question,
+$$P(B)=0.3;\quad P\left(\overline B\right)=0.7;\quad P(A\mid B)=0.5;\quad P\left(A\mid\overline B\right)=0.2.$$
+
+By the law of total probability,
+$$P(A)=P\left(\overline B\right)P\left(A\mid\overline B\right)+P(B)P(A\mid B)=0.7\cdot0.2+0.3\cdot0.5=0.14+0.15=0.29.$$
+
+By Bayes' theorem,
+$$P(B\mid A)=\frac{P(B)P(A\mid B)}{P(A)}=\frac{0.15}{0.29}=\frac{15}{29}\approx0.517.$$
+
+So the probability that the student cycles is $0.29$; if the student cycles, the probability of being at campus 2 is $\dfrac{15}{29}\approx0.517$.
 
 **Answer.** $0.29$ and $\dfrac{15}{29}\approx0.517$.
 :::
@@ -234,7 +251,19 @@ Box I holds $4$ red and $6$ blue balls; box II holds $7$ red and $3$ blue balls.
 2. Use Bayes' theorem.
 
 ::solution
-$P(\text{red})=\dfrac{4}{30}+\dfrac{14}{30}=\dfrac{18}{30}=\dfrac35$. $P(\text{box I}\mid\text{red})=\dfrac{4/30}{18/30}=\dfrac29$.
+Let $B$ be the event "Box I is chosen" and $A$ the event "A red ball is drawn".
+
+Box I is chosen when the die shows $1$ or $2$, so $P(B)=\dfrac26=\dfrac13$ and $P\left(\overline B\right)=\dfrac23$.
+
+Box I has $4$ red balls out of $10$, so $P(A\mid B)=\dfrac{4}{10}$; box II has $7$ red balls out of $10$, so $P\left(A\mid\overline B\right)=\dfrac{7}{10}$.
+
+By the law of total probability,
+$$P(A)=\frac13\cdot\frac{4}{10}+\frac23\cdot\frac{7}{10}=\frac{4}{30}+\frac{14}{30}=\frac{18}{30}=\frac35.$$
+
+By Bayes' theorem,
+$$P(B\mid A)=\frac{P(B)P(A\mid B)}{P(A)}=\frac{\frac{4}{30}}{\frac{18}{30}}=\frac{4}{18}=\frac29.$$
+
+So the probability of a red ball is $\dfrac35$, and the probability that this red ball came from box I is $\dfrac29$.
 
 **Answer.** $\dfrac35$ and $\dfrac29$.
 :::
@@ -250,7 +279,17 @@ The first box holds $3$ white and $2$ black balls; the second box holds $2$ whit
 2. Moving a black ball (probability $\dfrac25$): the second box has $2$ white out of $5$.
 
 ::solution
-$P(\text{white})=\dfrac35\cdot\dfrac35+\dfrac25\cdot\dfrac25=\dfrac9{25}+\dfrac4{25}=\dfrac{13}{25}$.
+Let $B$ be the event "The ball moved to the second box is white" and $A$ the event "The last ball drawn is white".
+
+The first box has $3$ white balls out of $5$, so $P(B)=\dfrac35$ and $P\left(\overline B\right)=\dfrac25$.
+
+- If $B$ happens, the second box has $3$ white and $2$ black balls, so $P(A\mid B)=\dfrac35$.
+- If $\overline B$ happens, the second box has $2$ white and $3$ black balls, so $P\left(A\mid\overline B\right)=\dfrac25$.
+
+By the law of total probability,
+$$P(A)=\frac35\cdot\frac35+\frac25\cdot\frac25=\frac{9}{25}+\frac{4}{25}=\frac{13}{25}.$$
+
+So the probability that the last ball drawn is white is $\dfrac{13}{25}$.
 
 **Answer.** $\dfrac{13}{25}$.
 :::
@@ -274,13 +313,21 @@ d) Given that the bus is not late, the probability of rain is less than $0.25$.
 2. Apply Bayes' theorem to "late" and to "not late".
 
 ::solution
-a) **True**: $0.25\cdot0.6+0.75\cdot0.2=0.15+0.15=0.3$.
+Let $R$ be the event "It rains" and $L$ the event "The bus is late". From the question,
+$$P(R)=0.25;\quad P\left(\overline R\right)=0.75;\quad P(L\mid R)=0.6;\quad P\left(L\mid\overline R\right)=0.2.$$
 
-b) **False**: that probability is given as $0.2$; $0.8$ is the probability of **not** being late when it does not rain.
+a) **True.** By the law of total probability,
+$$P(L)=0.25\cdot0.6+0.75\cdot0.2=0.15+0.15=0.3.$$
 
-c) **True**: $\dfrac{0.15}{0.3}=0.5$.
+b) **False.** The question gives $P\left(L\mid\overline R\right)=0.2$. The number $0.8=1-0.2$ is the probability that the bus is **not** late when it does not rain.
 
-d) **True**: $P(\text{rain}\mid\text{not late})=\dfrac{0.25\cdot0.4}{0.7}=\dfrac17\approx0.143<0.25$.
+c) **True.** By Bayes' theorem,
+$$P(R\mid L)=\frac{P(R)P(L\mid R)}{P(L)}=\frac{0.15}{0.3}=0.5.$$
+
+d) **True.** We have $P\left(\overline L\right)=1-0.3=0.7$ and $P\left(\overline L\mid R\right)=1-0.6=0.4$. By Bayes' theorem,
+$$P\left(R\mid\overline L\right)=\frac{P(R)P\left(\overline L\mid R\right)}{P\left(\overline L\right)}=\frac{0.25\cdot0.4}{0.7}=\frac17\approx0.143<0.25.$$
+
+So claims a), c), d) are true; claim b) is false.
 
 **Answer.** a) True; b) False; c) True; d) True.
 :::
@@ -296,7 +343,16 @@ Three factories supply parts to a phone maker in the proportions $40\%$, $35\%$,
 2. Divide $0.4\cdot0.02$ by that sum.
 
 ::solution
-$P(\text{defective})=0.008+0.0105+0.01=0.0285$. The probability is $\dfrac{0.008}{0.0285}=\dfrac{16}{57}\approx0.2807$.
+Let $B_1$, $B_2$, $B_3$ be the events "The part comes from the first, the second, the third factory" and $A$ the event "The part is defective". From the question,
+$$P(B_1)=0.4;\ P(B_2)=0.35;\ P(B_3)=0.25;\quad P(A\mid B_1)=0.02;\ P(A\mid B_2)=0.03;\ P(A\mid B_3)=0.04.$$
+
+By the law of total probability,
+$$P(A)=0.4\cdot0.02+0.35\cdot0.03+0.25\cdot0.04=0.008+0.0105+0.01=0.0285.$$
+
+By Bayes' theorem,
+$$P(B_1\mid A)=\frac{P(B_1)P(A\mid B_1)}{P(A)}=\frac{0.008}{0.0285}=\frac{16}{57}\approx0.28.$$
+
+So the probability that the defective part came from the first factory is about $0.28$.
 
 **Answer.** $0.28$.
 :::
@@ -312,7 +368,16 @@ In a company's inbox, $30\%$ of emails are spam. The phrase "you have won" appea
 2. Divide $0.3\cdot0.4$ by that result.
 
 ::solution
-$P(\text{phrase})=0.12+0.014=0.134$. $P(\text{spam}\mid\text{phrase})=\dfrac{0.12}{0.134}=\dfrac{60}{67}\approx0.896$.
+Let $S$ be the event "The email is spam" and $W$ the event "The email contains 'you have won'". From the question,
+$$P(S)=0.3;\quad P\left(\overline S\right)=0.7;\quad P(W\mid S)=0.4;\quad P\left(W\mid\overline S\right)=0.02.$$
+
+By the law of total probability,
+$$P(W)=0.3\cdot0.4+0.7\cdot0.02=0.12+0.014=0.134.$$
+
+By Bayes' theorem,
+$$P(S\mid W)=\frac{P(S)P(W\mid S)}{P(W)}=\frac{0.12}{0.134}=\frac{60}{67}\approx0.896=89.6\%.$$
+
+So the probability that the new email is spam is about $89.6\%$.
 
 **Answer.** About $89.6\%$.
 :::
@@ -328,7 +393,22 @@ Machine A makes $300$ items, $9$ of them defective; machine B makes $200$ items,
 2. Formula: $P(A)=\dfrac{300}{500}=0.6$, $P(\text{defective}\mid A)=\dfrac{9}{300}=0.03$, and similarly for machine B.
 
 ::solution
-Counting: $\dfrac{19}{500}=0.038$. Formula: $0.6\cdot0.03+0.4\cdot0.05=0.018+0.02=0.038$, the same. $P(\text{machine B}\mid\text{defective})=\dfrac{10}{19}$ (counting among the $19$ defective items).
+Let $B$ be the event "The item was made by machine B" and $D$ the event "The item is defective".
+
+*Method 1 (direct counting).* There are $300+200=500$ items, of which $9+10=19$ are defective. Hence
+$$P(D)=\frac{19}{500}=0.038.$$
+
+*Method 2 (law of total probability).* We have $P\left(\overline B\right)=\dfrac{300}{500}=0.6$, $P(B)=\dfrac{200}{500}=0.4$, $P\left(D\mid\overline B\right)=\dfrac{9}{300}=0.03$, $P(D\mid B)=\dfrac{10}{200}=0.05$. Hence
+$$P(D)=0.6\cdot0.03+0.4\cdot0.05=0.018+0.02=0.038.$$
+
+The two methods give the same result.
+
+By Bayes' theorem,
+$$P(B\mid D)=\frac{P(B)P(D\mid B)}{P(D)}=\frac{0.02}{0.038}=\frac{10}{19}.$$
+
+Counting gives this at once too: of the $19$ defective items, $10$ were made by machine B.
+
+So the probability that the item is defective is $0.038$; if it is defective, the probability that machine B made it is $\dfrac{10}{19}$.
 
 **Answer.** $0.038$; $\dfrac{10}{19}$.
 :::
@@ -344,13 +424,29 @@ Box I holds $4$ red and $2$ white balls; box II holds $2$ red and $4$ white ball
 2. Use the law of total probability, then Bayes' theorem.
 
 ::solution
-$P(\text{2 red})=\dfrac12\cdot\dfrac6{15}+\dfrac12\cdot\dfrac1{15}=\dfrac7{30}$. $P(\text{box I}\mid\text{2 red})=\dfrac{6/30}{7/30}=\dfrac67$.
+Let $B$ be the event "Box I is chosen" and $A$ the event "$2$ red balls are drawn". We have $P(B)=P\left(\overline B\right)=\dfrac12$.
+
+Each box has $6$ balls, so the number of ways to draw $2$ balls together is $C_6^2=15$.
+
+- Box I has $4$ red balls: $P(A\mid B)=\dfrac{C_4^2}{C_6^2}=\dfrac{6}{15}$.
+- Box II has $2$ red balls: $P\left(A\mid\overline B\right)=\dfrac{C_2^2}{C_6^2}=\dfrac{1}{15}$.
+
+By the law of total probability,
+$$P(A)=\frac12\cdot\frac{6}{15}+\frac12\cdot\frac{1}{15}=\frac{6}{30}+\frac{1}{30}=\frac{7}{30}.$$
+
+By Bayes' theorem,
+$$P(B\mid A)=\frac{P(B)P(A\mid B)}{P(A)}=\frac{\frac{6}{30}}{\frac{7}{30}}=\frac67.$$
+
+So the probability of getting $2$ red balls is $\dfrac{7}{30}$; if $2$ red balls are drawn, the probability that box I was chosen is $\dfrac67$.
 
 **Answer.** $\dfrac7{30}$ and $\dfrac67$.
 :::
 
 :::exercise Challenge
-A disease affects $2\%$ of the population. A test is positive for $90\%$ of people with the disease and gives a false positive for $4\%$ of people without it. a) A person tests positive; find the probability that the person has the disease. b) The person retakes the test and is positive again (the two results are independent for each person); find the probability of the disease again.
+A disease affects $2\%$ of the population. A test is positive for $90\%$ of people with the disease and gives a false positive for $4\%$ of people without it.
+
+a) A person tests positive. Find the probability that the person has the disease.
+b) The person retakes the test and is positive again (the two tests are independent for each person). Find the probability that the person has the disease now.
 
 ::hint
 **What you need:** Bayes' theorem; with two independent tests, the probability of two positives is $0.9^2$ with the disease and $0.04^2$ without it.
@@ -360,9 +456,25 @@ A disease affects $2\%$ of the population. A test is positive for $90\%$ of peop
 2. b) Replace $0.9$ by $0.81$ and $0.04$ by $0.0016$.
 
 ::solution
-a) $\dfrac{0.018}{0.018+0.0392}=\dfrac{0.018}{0.0572}\approx0.315$.
+Let $B$ be the event "The person has the disease". We have $P(B)=0.02$ and $P\left(\overline B\right)=0.98$.
 
-b) $\dfrac{0.02\cdot0.81}{0.02\cdot0.81+0.98\cdot0.0016}=\dfrac{0.0162}{0.017768}\approx0.912$.
+a) Let $D$ be the event "The test is positive". We have $P(D\mid B)=0.9$ and $P\left(D\mid\overline B\right)=0.04$.
+
+By the law of total probability,
+$$P(D)=0.02\cdot0.9+0.98\cdot0.04=0.018+0.0392=0.0572.$$
+
+By Bayes' theorem,
+$$P(B\mid D)=\frac{0.018}{0.0572}\approx0.315.$$
+
+So the probability that the person has the disease is about $0.315$.
+
+b) Let $D_2$ be the event "Both tests are positive". The two tests are independent for each person, so
+$$P(D_2\mid B)=0.9^2=0.81;\qquad P\left(D_2\mid\overline B\right)=0.04^2=0.0016.$$
+
+By Bayes' theorem,
+$$P(B\mid D_2)=\frac{0.02\cdot0.81}{0.02\cdot0.81+0.98\cdot0.0016}=\frac{0.0162}{0.017768}\approx0.912.$$
+
+So after two positive tests, the probability that the person has the disease is about $0.912$.
 
 **Answer.** a) $\approx0.315$; b) $\approx0.912$.
 :::

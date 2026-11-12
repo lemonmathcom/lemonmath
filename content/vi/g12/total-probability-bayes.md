@@ -202,7 +202,15 @@ Cho $P(B)=0{,}3$, $P(A\mid B)=0{,}6$ và $P(A\mid\overline B)=0{,}2$. Tính $P(A
 2. Tính $P(A)$, rồi chia $0{,}3\cdot0{,}6$ cho $P(A)$.
 
 ::solution
-$P(A)=0{,}3\cdot0{,}6+0{,}7\cdot0{,}2=0{,}18+0{,}14=0{,}32$. $P(B\mid A)=\dfrac{0{,}18}{0{,}32}=\dfrac9{16}=0{,}5625$.
+Ta có $P\left(\overline B\right)=1-P(B)=1-0{,}3=0{,}7$.
+
+Theo công thức xác suất toàn phần,
+$$P(A)=P(B)\cdot P(A\mid B)+P\left(\overline B\right)\cdot P\left(A\mid\overline B\right)=0{,}3\cdot0{,}6+0{,}7\cdot0{,}2=0{,}18+0{,}14=0{,}32.$$
+
+Theo công thức Bayes,
+$$P(B\mid A)=\frac{P(B)\cdot P(A\mid B)}{P(A)}=\frac{0{,}18}{0{,}32}=\frac{9}{16}=0{,}5625.$$
+
+Vậy $P(A)=0{,}32$ và $P(B\mid A)=0{,}5625$.
 
 **Đáp số.** $P(A)=0{,}32$; $P(B\mid A)=0{,}5625$.
 :::
@@ -218,7 +226,16 @@ Một trường có hai cơ sở: $70\%$ học sinh học ở cơ sở 1, $30\%$
 2. Chia đường đi qua cơ sở 2 cho tổng.
 
 ::solution
-$P(\text{xe đạp})=0{,}7\cdot0{,}2+0{,}3\cdot0{,}5=0{,}14+0{,}15=0{,}29$. $P(\text{cơ sở 2}\mid\text{xe đạp})=\dfrac{0{,}15}{0{,}29}=\dfrac{15}{29}\approx0{,}517$.
+Gọi $B$ là biến cố "Học sinh được chọn học ở cơ sở 2" và $A$ là biến cố "Học sinh được chọn đi xe đạp". Theo đề bài,
+$$P(B)=0{,}3;\quad P\left(\overline B\right)=0{,}7;\quad P(A\mid B)=0{,}5;\quad P\left(A\mid\overline B\right)=0{,}2.$$
+
+Theo công thức xác suất toàn phần,
+$$P(A)=P\left(\overline B\right)P\left(A\mid\overline B\right)+P(B)P(A\mid B)=0{,}7\cdot0{,}2+0{,}3\cdot0{,}5=0{,}14+0{,}15=0{,}29.$$
+
+Theo công thức Bayes,
+$$P(B\mid A)=\frac{P(B)P(A\mid B)}{P(A)}=\frac{0{,}15}{0{,}29}=\frac{15}{29}\approx0{,}517.$$
+
+Vậy xác suất học sinh đi xe đạp là $0{,}29$; nếu học sinh đi xe đạp thì xác suất bạn ấy học ở cơ sở 2 là $\dfrac{15}{29}\approx0{,}517$.
 
 **Đáp số.** $0{,}29$ và $\dfrac{15}{29}\approx0{,}517$.
 :::
@@ -234,7 +251,19 @@ Hộp I có $4$ bi đỏ, $6$ bi xanh; hộp II có $7$ bi đỏ, $3$ bi xanh. G
 2. Dùng công thức Bayes.
 
 ::solution
-$P(\text{đỏ})=\dfrac{4}{30}+\dfrac{14}{30}=\dfrac{18}{30}=\dfrac35$. $P(\text{hộp I}\mid\text{đỏ})=\dfrac{4/30}{18/30}=\dfrac29$.
+Gọi $B$ là biến cố "Chọn hộp I" và $A$ là biến cố "Lấy được bi đỏ".
+
+Hộp I được chọn khi xúc xắc ra mặt $1$ hoặc $2$ chấm, nên $P(B)=\dfrac26=\dfrac13$ và $P\left(\overline B\right)=\dfrac23$.
+
+Hộp I có $4$ bi đỏ trong $10$ bi, nên $P(A\mid B)=\dfrac{4}{10}$; hộp II có $7$ bi đỏ trong $10$ bi, nên $P\left(A\mid\overline B\right)=\dfrac{7}{10}$.
+
+Theo công thức xác suất toàn phần,
+$$P(A)=\frac13\cdot\frac{4}{10}+\frac23\cdot\frac{7}{10}=\frac{4}{30}+\frac{14}{30}=\frac{18}{30}=\frac35.$$
+
+Theo công thức Bayes,
+$$P(B\mid A)=\frac{P(B)P(A\mid B)}{P(A)}=\frac{\frac{4}{30}}{\frac{18}{30}}=\frac{4}{18}=\frac29.$$
+
+Vậy xác suất lấy được bi đỏ là $\dfrac35$, và xác suất bi đỏ đó từ hộp I là $\dfrac29$.
 
 **Đáp số.** $\dfrac35$ và $\dfrac29$.
 :::
@@ -250,7 +279,17 @@ Hộp thứ nhất có $3$ bi trắng, $2$ bi đen; hộp thứ hai có $2$ bi t
 2. Chuyển bi đen (xác suất $\dfrac25$): hộp hai có $2$ trắng trong $5$.
 
 ::solution
-$P(\text{trắng})=\dfrac35\cdot\dfrac35+\dfrac25\cdot\dfrac25=\dfrac9{25}+\dfrac4{25}=\dfrac{13}{25}$.
+Gọi $B$ là biến cố "Viên bi chuyển sang hộp thứ hai là bi trắng" và $A$ là biến cố "Viên bi lấy ra sau cùng là bi trắng".
+
+Hộp thứ nhất có $3$ bi trắng trong $5$ bi, nên $P(B)=\dfrac35$ và $P\left(\overline B\right)=\dfrac25$.
+
+- Nếu $B$ xảy ra, hộp thứ hai có $3$ bi trắng, $2$ bi đen, nên $P(A\mid B)=\dfrac35$.
+- Nếu $\overline B$ xảy ra, hộp thứ hai có $2$ bi trắng, $3$ bi đen, nên $P\left(A\mid\overline B\right)=\dfrac25$.
+
+Theo công thức xác suất toàn phần,
+$$P(A)=\frac35\cdot\frac35+\frac25\cdot\frac25=\frac{9}{25}+\frac{4}{25}=\frac{13}{25}.$$
+
+Vậy xác suất viên bi lấy ra sau cùng là bi trắng bằng $\dfrac{13}{25}$.
 
 **Đáp số.** $\dfrac{13}{25}$.
 :::
@@ -274,13 +313,21 @@ d) Biết xe không đến trễ, xác suất trời mưa nhỏ hơn $0{,}25$.
 2. Áp dụng công thức Bayes cho "trễ" và cho "không trễ".
 
 ::solution
-a) **Đúng**: $0{,}25\cdot0{,}6+0{,}75\cdot0{,}2=0{,}15+0{,}15=0{,}3$.
+Gọi $M$ là biến cố "Trời mưa" và $T$ là biến cố "Xe buýt đến trễ". Theo đề bài,
+$$P(M)=0{,}25;\quad P\left(\overline M\right)=0{,}75;\quad P(T\mid M)=0{,}6;\quad P\left(T\mid\overline M\right)=0{,}2.$$
 
-b) **Sai**: đề cho xác suất đó là $0{,}2$; $0{,}8$ là xác suất **không** trễ khi trời không mưa.
+a) **Đúng.** Theo công thức xác suất toàn phần,
+$$P(T)=0{,}25\cdot0{,}6+0{,}75\cdot0{,}2=0{,}15+0{,}15=0{,}3.$$
 
-c) **Đúng**: $\dfrac{0{,}15}{0{,}3}=0{,}5$.
+b) **Sai.** Đề bài cho $P\left(T\mid\overline M\right)=0{,}2$. Số $0{,}8=1-0{,}2$ là xác suất xe **không** đến trễ khi trời không mưa.
 
-d) **Đúng**: $P(\text{mưa}\mid\text{không trễ})=\dfrac{0{,}25\cdot0{,}4}{0{,}7}=\dfrac17\approx0{,}143<0{,}25$.
+c) **Đúng.** Theo công thức Bayes,
+$$P(M\mid T)=\frac{P(M)P(T\mid M)}{P(T)}=\frac{0{,}15}{0{,}3}=0{,}5.$$
+
+d) **Đúng.** Ta có $P\left(\overline T\right)=1-0{,}3=0{,}7$ và $P\left(\overline T\mid M\right)=1-0{,}6=0{,}4$. Theo công thức Bayes,
+$$P\left(M\mid\overline T\right)=\frac{P(M)P\left(\overline T\mid M\right)}{P\left(\overline T\right)}=\frac{0{,}25\cdot0{,}4}{0{,}7}=\frac17\approx0{,}143<0{,}25.$$
+
+Vậy các khẳng định a), c), d) đúng; khẳng định b) sai.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 :::
@@ -296,7 +343,16 @@ Ba nhà máy cung cấp linh kiện cho một hãng điện thoại theo tỉ l�
 2. Chia $0{,}4\cdot0{,}02$ cho tổng đó.
 
 ::solution
-$P(\text{lỗi})=0{,}008+0{,}0105+0{,}01=0{,}0285$. Xác suất cần tìm là $\dfrac{0{,}008}{0{,}0285}=\dfrac{16}{57}\approx0{,}2807$.
+Gọi $B_1$, $B_2$, $B_3$ lần lượt là các biến cố "Linh kiện do nhà máy thứ nhất, thứ hai, thứ ba cung cấp" và $A$ là biến cố "Linh kiện bị lỗi". Theo đề bài,
+$$P(B_1)=0{,}4;\ P(B_2)=0{,}35;\ P(B_3)=0{,}25;\quad P(A\mid B_1)=0{,}02;\ P(A\mid B_2)=0{,}03;\ P(A\mid B_3)=0{,}04.$$
+
+Theo công thức xác suất toàn phần,
+$$P(A)=0{,}4\cdot0{,}02+0{,}35\cdot0{,}03+0{,}25\cdot0{,}04=0{,}008+0{,}0105+0{,}01=0{,}0285.$$
+
+Theo công thức Bayes,
+$$P(B_1\mid A)=\frac{P(B_1)P(A\mid B_1)}{P(A)}=\frac{0{,}008}{0{,}0285}=\frac{16}{57}\approx0{,}28.$$
+
+Vậy xác suất linh kiện bị lỗi đó do nhà máy thứ nhất cung cấp là khoảng $0{,}28$.
 
 **Đáp số.** $0{,}28$.
 :::
@@ -312,7 +368,16 @@ Trong hộp thư của một công ty, $30\%$ thư là thư rác. Cụm từ "tr
 2. Chia $0{,}3\cdot0{,}4$ cho kết quả đó.
 
 ::solution
-$P(\text{có cụm từ})=0{,}12+0{,}014=0{,}134$. $P(\text{rác}\mid\text{có cụm từ})=\dfrac{0{,}12}{0{,}134}=\dfrac{60}{67}\approx0{,}896$.
+Gọi $R$ là biến cố "Thư là thư rác" và $C$ là biến cố "Thư có cụm từ 'trúng thưởng'". Theo đề bài,
+$$P(R)=0{,}3;\quad P\left(\overline R\right)=0{,}7;\quad P(C\mid R)=0{,}4;\quad P\left(C\mid\overline R\right)=0{,}02.$$
+
+Theo công thức xác suất toàn phần,
+$$P(C)=0{,}3\cdot0{,}4+0{,}7\cdot0{,}02=0{,}12+0{,}014=0{,}134.$$
+
+Theo công thức Bayes,
+$$P(R\mid C)=\frac{P(R)P(C\mid R)}{P(C)}=\frac{0{,}12}{0{,}134}=\frac{60}{67}\approx0{,}896=89{,}6\%.$$
+
+Vậy xác suất thư mới là thư rác khoảng $89{,}6\%$.
 
 **Đáp số.** Khoảng $89{,}6\%$.
 :::
@@ -328,7 +393,22 @@ Máy A làm $300$ sản phẩm, trong đó $9$ sản phẩm lỗi; máy B làm $
 2. Công thức: $P(A)=\dfrac{300}{500}=0{,}6$, $P(\text{lỗi}\mid A)=\dfrac{9}{300}=0{,}03$, tương tự cho máy B.
 
 ::solution
-Đếm: $\dfrac{19}{500}=0{,}038$. Công thức: $0{,}6\cdot0{,}03+0{,}4\cdot0{,}05=0{,}018+0{,}02=0{,}038$, trùng khớp. $P(\text{máy B}\mid\text{lỗi})=\dfrac{10}{19}$ (đếm trong $19$ sản phẩm lỗi).
+Gọi $B$ là biến cố "Sản phẩm do máy B làm" và $L$ là biến cố "Sản phẩm bị lỗi".
+
+*Cách 1 (đếm trực tiếp).* Có tất cả $300+200=500$ sản phẩm, trong đó $9+10=19$ sản phẩm lỗi. Do đó
+$$P(L)=\frac{19}{500}=0{,}038.$$
+
+*Cách 2 (công thức xác suất toàn phần).* Ta có $P\left(\overline B\right)=\dfrac{300}{500}=0{,}6$, $P(B)=\dfrac{200}{500}=0{,}4$, $P\left(L\mid\overline B\right)=\dfrac{9}{300}=0{,}03$, $P(L\mid B)=\dfrac{10}{200}=0{,}05$. Do đó
+$$P(L)=0{,}6\cdot0{,}03+0{,}4\cdot0{,}05=0{,}018+0{,}02=0{,}038.$$
+
+Hai cách cho cùng kết quả.
+
+Theo công thức Bayes,
+$$P(B\mid L)=\frac{P(B)P(L\mid B)}{P(L)}=\frac{0{,}02}{0{,}038}=\frac{10}{19}.$$
+
+Kết quả này cũng thấy ngay khi đếm: trong $19$ sản phẩm lỗi có $10$ sản phẩm của máy B.
+
+Vậy xác suất sản phẩm bị lỗi là $0{,}038$; nếu sản phẩm bị lỗi thì xác suất nó do máy B làm là $\dfrac{10}{19}$.
 
 **Đáp số.** $0{,}038$; $\dfrac{10}{19}$.
 :::
@@ -344,13 +424,29 @@ Hộp I có $4$ bi đỏ và $2$ bi trắng; hộp II có $2$ bi đỏ và $4$ b
 2. Dùng công thức xác suất toàn phần rồi công thức Bayes.
 
 ::solution
-$P(\text{2 đỏ})=\dfrac12\cdot\dfrac6{15}+\dfrac12\cdot\dfrac1{15}=\dfrac7{30}$. $P(\text{hộp I}\mid\text{2 đỏ})=\dfrac{6/30}{7/30}=\dfrac67$.
+Gọi $B$ là biến cố "Chọn hộp I" và $A$ là biến cố "Lấy được $2$ bi đỏ". Ta có $P(B)=P\left(\overline B\right)=\dfrac12$.
+
+Mỗi hộp có $6$ viên bi, nên số cách lấy đồng thời $2$ viên là $C_6^2=15$.
+
+- Hộp I có $4$ bi đỏ: $P(A\mid B)=\dfrac{C_4^2}{C_6^2}=\dfrac{6}{15}$.
+- Hộp II có $2$ bi đỏ: $P\left(A\mid\overline B\right)=\dfrac{C_2^2}{C_6^2}=\dfrac{1}{15}$.
+
+Theo công thức xác suất toàn phần,
+$$P(A)=\frac12\cdot\frac{6}{15}+\frac12\cdot\frac{1}{15}=\frac{6}{30}+\frac{1}{30}=\frac{7}{30}.$$
+
+Theo công thức Bayes,
+$$P(B\mid A)=\frac{P(B)P(A\mid B)}{P(A)}=\frac{\frac{6}{30}}{\frac{7}{30}}=\frac67.$$
+
+Vậy xác suất được $2$ bi đỏ là $\dfrac{7}{30}$; nếu được $2$ bi đỏ thì xác suất đã chọn hộp I là $\dfrac67$.
 
 **Đáp số.** $\dfrac7{30}$ và $\dfrac67$.
 :::
 
 :::exercise Thử thách
-Một bệnh có ở $2\%$ dân số. Xét nghiệm dương tính với $90\%$ người bệnh và dương tính nhầm với $4\%$ người không bệnh. a) Một người dương tính; tính xác suất người đó mắc bệnh. b) Người đó làm lại xét nghiệm và vẫn dương tính (hai lần độc lập với nhau ở mỗi người); tính lại xác suất mắc bệnh.
+Một bệnh có ở $2\%$ dân số. Xét nghiệm dương tính với $90\%$ người bệnh và dương tính nhầm với $4\%$ người không bệnh.
+
+a) Một người có kết quả dương tính. Tính xác suất người đó mắc bệnh.
+b) Người đó làm lại xét nghiệm và vẫn dương tính (hai lần xét nghiệm độc lập với nhau ở mỗi người). Tính lại xác suất người đó mắc bệnh.
 
 ::hint
 **Kiến thức:** công thức Bayes; với hai lần độc lập, xác suất hai lần dương tính là $0{,}9^2$ nếu bệnh và $0{,}04^2$ nếu không bệnh.
@@ -360,9 +456,25 @@ Một bệnh có ở $2\%$ dân số. Xét nghiệm dương tính với $90\%$ n
 2. b) Thay $0{,}9$ bằng $0{,}81$ và $0{,}04$ bằng $0{,}0016$.
 
 ::solution
-a) $\dfrac{0{,}018}{0{,}018+0{,}0392}=\dfrac{0{,}018}{0{,}0572}\approx0{,}315$.
+Gọi $B$ là biến cố "Người đó mắc bệnh". Ta có $P(B)=0{,}02$ và $P\left(\overline B\right)=0{,}98$.
 
-b) $\dfrac{0{,}02\cdot0{,}81}{0{,}02\cdot0{,}81+0{,}98\cdot0{,}0016}=\dfrac{0{,}0162}{0{,}017768}\approx0{,}912$.
+a) Gọi $D$ là biến cố "Xét nghiệm dương tính". Ta có $P(D\mid B)=0{,}9$ và $P\left(D\mid\overline B\right)=0{,}04$.
+
+Theo công thức xác suất toàn phần,
+$$P(D)=0{,}02\cdot0{,}9+0{,}98\cdot0{,}04=0{,}018+0{,}0392=0{,}0572.$$
+
+Theo công thức Bayes,
+$$P(B\mid D)=\frac{0{,}018}{0{,}0572}\approx0{,}315.$$
+
+Vậy xác suất người đó mắc bệnh khoảng $0{,}315$.
+
+b) Gọi $D_2$ là biến cố "Cả hai lần xét nghiệm đều dương tính". Vì hai lần xét nghiệm độc lập với nhau ở mỗi người nên
+$$P(D_2\mid B)=0{,}9^2=0{,}81;\qquad P\left(D_2\mid\overline B\right)=0{,}04^2=0{,}0016.$$
+
+Theo công thức Bayes,
+$$P(B\mid D_2)=\frac{0{,}02\cdot0{,}81}{0{,}02\cdot0{,}81+0{,}98\cdot0{,}0016}=\frac{0{,}0162}{0{,}017768}\approx0{,}912.$$
+
+Vậy sau hai lần dương tính, xác suất người đó mắc bệnh khoảng $0{,}912$.
 
 **Đáp số.** a) $\approx0{,}315$; b) $\approx0{,}912$.
 :::
