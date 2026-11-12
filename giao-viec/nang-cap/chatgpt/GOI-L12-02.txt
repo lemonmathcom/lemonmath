@@ -1,0 +1,1343 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – GOI-L12-02
+Người làm: ChatGPT. Gói này có 41 bài tập thuộc 6 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/data/NC-ChatGPT-GOI-L12-02.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/6). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/data/NC-ChatGPT-GOI-L12-02.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG GÓI NÀY =====
+- g12/derivative-real-problems (4 bài tập)
+- g12/exam-format-strategy (8 bài tập)
+- g12/graphing-functions (2 bài tập)
+- g12/grouped-range-iqr (9 bài tập)
+- g12/grouped-variance-sd (9 bài tập)
+- g12/integral-applications (9 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g12/derivative-real-problems
+Bài học: Ứng dụng đạo hàm để giải quyết một số vấn đề liên quan đến thực tiễn / Derivatives in real-world problems
+Cần viết lại lời giải các bài: 1, 5, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một vật chuyển động trên đường thẳng với quãng đường $s(t)=t^3-6t^2+9t$ (mét) sau $t$ giây. Tìm các thời điểm vận tốc bằng $0$, và tính gia tốc tại các thời điểm đó.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $v(t)=3t^2-12t+9=3(t-1)(t-3)=0\iff t=1$ hoặc $t=3$. Ta có $a(t)=6t-12$ nên $a(1)=-6$, $a(3)=6$.
+
+Vậy vận tốc bằng $0$ tại $t=1$ s và $t=3$ s.
+
+**Đáp số.** $t=1$ s (gia tốc $-6$ m/s²) và $t=3$ s (gia tốc $6$ m/s²).
+
+[ĐỀ – EN]
+An object moves along a straight line and has travelled $s(t)=t^3-6t^2+9t$ (metres) after $t$ seconds. Find the times when the velocity is $0$, and the acceleration at those times.
+
+[LỜI GIẢI CŨ – EN]
+We have $v(t)=3t^2-12t+9=3(t-1)(t-3)=0\iff t=1$ or $t=3$. We have $a(t)=6t-12$, so $a(1)=-6$, $a(3)=6$.
+
+So the velocity is $0$ at $t=1$ s and $t=3$ s.
+
+**Answer.** $t=1$ s (acceleration $-6$ m/s²) and $t=3$ s (acceleration $6$ m/s²).
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một khách sạn có $50$ phòng. Với giá $400$ nghìn đồng mỗi đêm thì kín phòng; cứ tăng giá thêm $20$ nghìn đồng thì có thêm một phòng bị bỏ trống. Gọi $x$ là số lần tăng giá ($0\le x\le 50$) và $R(x)$ là doanh thu mỗi đêm (nghìn đồng). Xét tính đúng sai của các mệnh đề sau:
+
+a) $R(x)=(400+20x)(50-x)$.
+
+b) Hàm số $R$ đồng biến trên khoảng $(0; 15)$.
+
+c) Doanh thu lớn nhất khi giá phòng là $700$ nghìn đồng.
+
+d) Doanh thu lớn nhất mỗi đêm là $24\,000\,000$ đồng.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**. Giá phòng là $400+20x$ và số phòng được thuê là $50-x$.
+
+b) **Đúng**. Ta có $R(x)=-20x^2+600x+20\,000$ và $R'(x)=600-40x>0$ khi $x<15$.
+
+c) **Đúng**. Vì $R'$ đổi dấu từ $+$ sang $-$ tại $x=15$ nên $R$ lớn nhất tại $x=15$; khi đó giá phòng là $400+300=700$ nghìn đồng.
+
+d) **Sai**. Ta có $R(15)=700\cdot35=24\,500$ nghìn đồng, tức là $24\,500\,000$ đồng.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+A hotel has $50$ rooms. At $400$ thousand đồng a night it is full; each increase of $20$ thousand đồng in the price leaves one more room empty. Let $x$ be the number of price increases ($0\le x\le 50$) and $R(x)$ the revenue per night (thousand đồng). Decide whether each statement is true or false.
+
+a) $R(x)=(400+20x)(50-x)$.
+
+b) The function $R$ is increasing on the interval $(0, 15)$.
+
+c) The revenue is largest when the room price is $700$ thousand đồng.
+
+d) The largest revenue per night is $24\,000\,000$ đồng.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**. The room price is $400+20x$ and the number of rooms let is $50-x$.
+
+b) **True**. We have $R(x)=-20x^2+600x+20\,000$ and $R'(x)=600-40x>0$ when $x<15$.
+
+c) **True**. Since $R'$ changes sign from $+$ to $-$ at $x=15$, $R$ is largest at $x=15$; the room price is then $400+300=700$ thousand đồng.
+
+d) **False**. We have $R(15)=700\cdot35=24\,500$ thousand đồng, that is $24\,500\,000$ đồng.
+
+**Answer.** a) True; b) True; c) True; d) False.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Trong một đợt cúm, số người mắc bệnh tính đến ngày thứ $t$ được ước tính là $f(t)=30t^2-t^3$ ($0\le t\le 20$). Tốc độ lây lan là $f'(t)$ (người/ngày). Hỏi tốc độ lây lan lớn nhất vào ngày thứ mấy? Tính tốc độ lây lan lớn nhất đó.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $g'(t)=60-6t=0\iff t=10$ và $g(0)=0$, $g(10)=600-300=300$, $g(20)=1200-1200=0$.
+
+Vậy tốc độ lây lan lớn nhất vào ngày thứ $10$ và bằng $300$ người/ngày.
+
+**Đáp số.** Ngày thứ $10$; tốc độ lây lan lớn nhất là $300$ người/ngày.
+
+[ĐỀ – EN]
+During a flu outbreak, the number of people who have caught the illness by day $t$ is estimated as $f(t)=30t^2-t^3$ ($0\le t\le 20$). The rate of spread is $f'(t)$ (people per day). On which day is the rate of spread greatest? Find this greatest rate of spread.
+
+[LỜI GIẢI CŨ – EN]
+We have $g'(t)=60-6t=0\iff t=10$, and $g(0)=0$, $g(10)=600-300=300$, $g(20)=1200-1200=0$.
+
+So the rate of spread is greatest on day $10$, at $300$ people per day.
+
+**Answer.** Day $10$; the greatest rate of spread is $300$ people per day.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một xe tải chạy quãng đường $300$ km với vận tốc không đổi $v$ (km/h), $40\le v\le 90$. Mỗi giờ chạy xe tốn $500$ nghìn đồng (lương, khấu hao) cộng với tiền nhiên liệu $\dfrac{v^2}{5}$ nghìn đồng. Tìm $v$ để tổng chi phí chuyến đi là nhỏ nhất.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $C'(v)=-\dfrac{150\,000}{v^2}+60=0\iff v^2=2500\iff v=50$ (vì $v>0$). Ta có $C(40)=3750+2400=6150$, $C(50)=3000+3000=6000$, $C(90)=\dfrac{5000}{3}+5400\approx7066{,}67$.
+
+Vậy xe nên chạy với vận tốc $50$ km/h.
+
+**Đáp số.** $v=50$ km/h; chi phí nhỏ nhất $6000$ nghìn đồng ($6$ triệu đồng).
+
+[ĐỀ – EN]
+A lorry travels $300$ km at a constant speed $v$ (km/h), $40\le v\le 90$. Each hour of driving costs $500$ thousand đồng (wages, depreciation) plus $\dfrac{v^2}{5}$ thousand đồng of fuel. Find $v$ so that the total cost of the trip is as small as possible.
+
+[LỜI GIẢI CŨ – EN]
+We have $C'(v)=-\dfrac{150\,000}{v^2}+60=0\iff v^2=2500\iff v=50$ (since $v>0$). We have $C(40)=3750+2400=6150$, $C(50)=3000+3000=6000$, $C(90)=\dfrac{5000}{3}+5400\approx7066.67$.
+
+So the lorry should travel at $50$ km/h.
+
+**Answer.** $v=50$ km/h; the least cost is $6000$ thousand đồng ($6$ million đồng).
+
+
+######################################################################
+@@@ g12/exam-format-strategy
+Bài học: Cấu trúc đề thi và cách làm bài / The exam format and how to tackle it
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Trong một câu đúng/sai, bạn chọn đúng $3$ ý. Bạn được bao nhiêu điểm ở câu đó?
+A. $0{,}5$.
+B. $0{,}75$.
+C. $0{,}25$.
+D. $1$.
+
+[LỜI GIẢI CŨ – VI]
+Theo bảng điểm, $3$ ý đúng được $0{,}5$ điểm. Phương án B là lỗi tính $3\cdot0{,}25$.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+In one true/false question you judge $3$ statements correctly. What mark do you get for that question?
+A. $0.5$.
+B. $0.75$.
+C. $0.25$.
+D. $1$.
+
+[LỜI GIẢI CŨ – EN]
+By the scale, $3$ correct statements give $0.5$. Option B is the mistake $3\cdot0.25$.
+
+**Answer.** A.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Bạn Bình làm đúng $9$ câu Phần I; ở Phần II đúng lần lượt $4$, $4$, $2$, $1$ ý; ở Phần III đúng $3$ câu. Tính điểm của Bình.
+
+[LỜI GIẢI CŨ – VI]
+Phần I: $9\cdot0{,}25=2{,}25$. Phần II: $1+1+0{,}25+0{,}1=2{,}35$. Phần III: $3\cdot0{,}5=1{,}5$.
+
+**Đáp số.** $2{,}25+2{,}35+1{,}5=6{,}1$ điểm.
+
+[ĐỀ – EN]
+Bình gets $9$ questions right in Part I; in Part II, $4$, $4$, $2$, $1$ statements right; in Part III, $3$ questions right. Find Bình's mark.
+
+[LỜI GIẢI CŨ – EN]
+Part I: $9\cdot0.25=2.25$. Part II: $1+1+0.25+0.1=2.35$. Part III: $3\cdot0.5=1.5$.
+
+**Answer.** $2.25+2.35+1.5=6.1$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Một câu trả lời ngắn yêu cầu làm tròn đến hàng phần mười, và kết quả đúng là $-\dfrac{2}{3}$. Bạn ghi gì vào 4 ô? Vì sao đề không yêu cầu làm tròn đến hàng phần trăm?
+
+[LỜI GIẢI CŨ – VI]
+$-\dfrac23\approx-0{,}667$, làm tròn đến hàng phần mười được $-0{,}7$: bốn kí tự "−", "0", ",", "7". Nếu làm tròn đến hàng phần trăm thì được $-0{,}67$, cần $5$ ô, không ghi được.
+
+**Đáp số.** $-0{,}7$.
+
+[ĐỀ – EN]
+A short-answer question asks for 1 decimal place, and the exact result is $-\dfrac{2}{3}$. What do you write in the 4 boxes? Why does the question not ask for 2 decimal places?
+
+[LỜI GIẢI CŨ – EN]
+$-\dfrac23\approx-0.667$, which to 1 decimal place is $-0.7$: four characters "−", "0", ",", "7". To 2 decimal places it would be $-0.67$, which needs $5$ boxes and cannot be written.
+
+**Answer.** $-0.7$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tiệm cận ngang của đồ thị hàm số $y=\dfrac{2x+1}{x-1}$ là
+A. $y=2$.
+B. $x=1$.
+C. $y=-1$.
+D. $x=2$.
+
+[LỜI GIẢI CŨ – VI]
+Phương án B, D là đường thẳng đứng, bị loại. $\lim\limits_{x\to\pm\infty}\dfrac{2x+1}{x-1}=2$. Phương án C lấy tỉ số hai hệ số tự do $\dfrac{1}{-1}$.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+The horizontal asymptote of the graph of $y=\dfrac{2x+1}{x-1}$ is
+A. $y=2$.
+B. $x=1$.
+C. $y=-1$.
+D. $x=2$.
+
+[LỜI GIẢI CŨ – EN]
+Options B and D are vertical lines, so they are ruled out. $\lim\limits_{x\to\pm\infty}\dfrac{2x+1}{x-1}=2$. Option C takes the ratio of the constant terms $\dfrac{1}{-1}$.
+
+**Answer.** A.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho $\displaystyle\int_0^2 f(x)\,dx=3$ và $\displaystyle\int_0^2 g(x)\,dx=-1$.
+
+a) $\displaystyle\int_0^2\left[f(x)+g(x)\right]dx=2$.
+
+b) $\displaystyle\int_0^2 2f(x)\,dx=6$.
+
+c) $\displaystyle\int_2^0 g(x)\,dx=1$.
+
+d) $\displaystyle\int_0^2 f(x)g(x)\,dx=-3$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: $3+(-1)=2$.
+
+b) **Đúng**: $2\cdot3=6$.
+
+c) **Đúng**: đổi cận thì đổi dấu, $-(-1)=1$.
+
+d) **Sai**: tích phân của tích không bằng tích các tích phân. Chẳng hạn $f(x)=\dfrac32$ và $g(x)=-x+\dfrac12$ thoả mãn đề nhưng $\displaystyle\int_0^2 f(x)g(x)\,dx=-\dfrac32$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Given $\displaystyle\int_0^2 f(x)\,dx=3$ and $\displaystyle\int_0^2 g(x)\,dx=-1$.
+
+a) $\displaystyle\int_0^2\left[f(x)+g(x)\right]dx=2$.
+
+b) $\displaystyle\int_0^2 2f(x)\,dx=6$.
+
+c) $\displaystyle\int_2^0 g(x)\,dx=1$.
+
+d) $\displaystyle\int_0^2 f(x)g(x)\,dx=-3$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: $3+(-1)=2$.
+
+b) **True**: $2\cdot3=6$.
+
+c) **True**: swapping the limits changes the sign, $-(-1)=1$.
+
+d) **False**: the integral of a product is not the product of the integrals. For instance $f(x)=\dfrac32$ and $g(x)=-x+\dfrac12$ satisfy the conditions, but $\displaystyle\int_0^2 f(x)g(x)\,dx=-\dfrac32$.
+
+**Answer.** a) True; b) True; c) True; d) False.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một chiếc xe chuyển động với vận tốc $v(t)=3t^2+2$ (m/s), $t$ tính bằng giây. Tính quãng đường xe đi được trong $3$ giây đầu (đơn vị: mét).
+
+[LỜI GIẢI CŨ – VI]
+$$s=\int_0^3(3t^2+2)\,dt=\Big[t^3+2t\Big]_0^3=27+6=33.$$
+
+**Đáp số.** $33$.
+
+[ĐỀ – EN]
+A car moves with velocity $v(t)=3t^2+2$ (m/s), with $t$ in seconds. Find the distance it travels in the first $3$ seconds, in metres.
+
+[LỜI GIẢI CŨ – EN]
+$$s=\int_0^3(3t^2+2)\,dt=\Big[t^3+2t\Big]_0^3=27+6=33.$$
+
+**Answer.** $33$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho hai biến cố $A$, $B$ với $P(A)=0{,}4$, $P(B\mid A)=0{,}3$ và $P(B\mid\overline{A})=0{,}5$. Tính $P(B)$.
+
+[LỜI GIẢI CŨ – VI]
+$$P(B)=0{,}4\cdot0{,}3+0{,}6\cdot0{,}5=0{,}12+0{,}3=0{,}42.$$
+
+**Đáp số.** $0{,}42$.
+
+[ĐỀ – EN]
+Two events $A$, $B$ have $P(A)=0.4$, $P(B\mid A)=0.3$ and $P(B\mid\overline{A})=0.5$. Find $P(B)$.
+
+[LỜI GIẢI CŨ – EN]
+$$P(B)=0.4\cdot0.3+0.6\cdot0.5=0.12+0.3=0.42.$$
+
+**Answer.** $0.42$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Bạn Minh lập kế hoạch cho bài thi $90$ phút: dành $5$ phút cuối để kiểm tra, mỗi câu Phần I làm trong $2$ phút, mỗi câu Phần III làm trong $5$ phút. Thời gian còn lại chia đều cho $4$ câu Phần II. Mỗi câu Phần II được bao nhiêu phút?
+
+[LỜI GIẢI CŨ – VI]
+Phần I: $12\cdot2=24$ phút; Phần III: $6\cdot5=30$ phút. Còn lại $90-5-24-30=31$ phút cho Phần II, mỗi câu $\dfrac{31}{4}=7{,}75$ phút.
+
+**Đáp số.** $7{,}75$ phút (khoảng $7$ phút $45$ giây).
+
+[ĐỀ – EN]
+Minh plans the $90$-minute paper: the last $5$ minutes for checking, $2$ minutes for each Part I question and $5$ minutes for each Part III question. The remaining time is shared equally among the $4$ Part II questions. How many minutes does each Part II question get?
+
+[LỜI GIẢI CŨ – EN]
+Part I: $12\cdot2=24$ minutes; Part III: $6\cdot5=30$ minutes. That leaves $90-5-24-30=31$ minutes for Part II, so $\dfrac{31}{4}=7.75$ minutes per question.
+
+**Answer.** $7.75$ minutes (about $7$ minutes $45$ seconds).
+
+
+######################################################################
+@@@ g12/graphing-functions
+Bài học: Khảo sát và vẽ đồ thị hàm số / Studying and graphing a function
+Cần viết lại lời giải các bài: 4, 5 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Dựa vào đồ thị hàm số $y=x^3-3x$ (bài 1), tìm số nghiệm của mỗi phương trình sau: a) $x^3-3x=1$; b) $x^3-3x=-3$.
+
+[LỜI GIẢI CŨ – VI]
+a) Vì $-2<1<2$ nên đường thẳng $y=1$ cắt cả ba "đoạn" của đồ thị. Do đó phương trình có $3$ nghiệm. b) Vì $-3<-2$ nên đường thẳng $y=-3$ chỉ cắt nhánh bên trái (nơi $y$ đi từ $-\infty$ lên $2$). Do đó phương trình có $1$ nghiệm.
+
+Vậy phương trình a) có ba nghiệm, phương trình b) có một nghiệm.
+
+**Đáp số.** a) $3$ nghiệm; b) $1$ nghiệm.
+
+[ĐỀ – EN]
+Using the graph of $y=x^3-3x$ (exercise 1), find the number of solutions of each of the following equations: a) $x^3-3x=1$; b) $x^3-3x=-3$.
+
+[LỜI GIẢI CŨ – EN]
+a) Since $-2<1<2$, the line $y=1$ cuts all three "pieces" of the graph. Hence the equation has $3$ solutions. b) Since $-3<-2$, the line $y=-3$ only cuts the left-hand part (where $y$ goes from $-\infty$ up to $2$). Hence the equation has $1$ solution.
+
+So equation a) has three solutions and equation b) has one solution.
+
+**Answer.** a) $3$ solutions; b) $1$ solution.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho hàm số $y=x^3-6x^2+9x-2$. Xét tính đúng sai của các mệnh đề sau:
+
+a) Đồ thị cắt trục tung tại điểm $(0; -2)$.
+
+b) Điểm cực đại của đồ thị là $(1; 2)$.
+
+c) Phương trình $x^3-6x^2+9x-2=0$ có đúng hai nghiệm.
+
+d) Tâm đối xứng của đồ thị là điểm $(2; 0)$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $y'=3(x-1)(x-3)$; $y(1)=2$ (cực đại), $y(3)=-2$ (cực tiểu).
+
+a) **Đúng**. Ta có $y(0)=-2$.
+
+b) **Đúng**. Vì $y'$ đổi dấu $+\to-$ tại $x=1$ và $y(1)=2$ nên $(1; 2)$ là điểm cực đại của đồ thị.
+
+c) **Sai**. Vì $-2<0<2$ nên đường thẳng $y=0$ cắt đồ thị tại $3$ điểm (các nghiệm là $2$ và $2\pm\sqrt3$).
+
+d) **Đúng**. Ta có $y''=6x-12=0\iff x=2$ và $y(2)=8-24+18-2=0$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Consider the function $y=x^3-6x^2+9x-2$. Decide whether each statement is true or false.
+
+a) The graph meets the y-axis at the point $(0, -2)$.
+
+b) The local maximum point of the graph is $(1, 2)$.
+
+c) The equation $x^3-6x^2+9x-2=0$ has exactly two solutions.
+
+d) The centre of symmetry of the graph is the point $(2, 0)$.
+
+[LỜI GIẢI CŨ – EN]
+We have $y'=3(x-1)(x-3)$; $y(1)=2$ (local maximum), $y(3)=-2$ (local minimum).
+
+a) **True**. We have $y(0)=-2$.
+
+b) **True**. Since $y'$ changes sign $+\to-$ at $x=1$ and $y(1)=2$, the point $(1, 2)$ is the local maximum point of the graph.
+
+c) **False**. Since $-2<0<2$, the line $y=0$ cuts the graph at $3$ points (the solutions are $2$ and $2\pm\sqrt3$).
+
+d) **True**. We have $y''=6x-12=0\iff x=2$ and $y(2)=8-24+18-2=0$.
+
+**Answer.** a) True; b) True; c) False; d) True.
+
+
+######################################################################
+@@@ g12/grouped-range-iqr
+Bài học: Khoảng biến thiên và khoảng tứ phân vị / Range and interquartile range of grouped data
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Khối lượng (g) của $40$ quả táo được cho trong bảng. Tính $R$, $Q_1$, $Q_3$ và $\Delta_Q$.
+
+| Khối lượng (g) | $[150; 160)$ | $[160; 170)$ | $[170; 180)$ | $[180; 190)$ | $[190; 200)$ |
+|---|---|---|---|---|---|
+| Số quả | $4$ | $10$ | $14$ | $8$ | $4$ |
+
+[LỜI GIẢI CŨ – VI]
+Tần số tích luỹ: $4$, $14$, $28$, $36$, $40$; $R=200-150=50$.
+$$Q_1=160+\frac{10-4}{10}\cdot10=166,\qquad Q_3=180+\frac{30-28}{8}\cdot10=182{,}5.$$
+
+**Đáp số.** $R=50$ g, $Q_1=166$, $Q_3=182{,}5$, $\Delta_Q=16{,}5$ g.
+
+[ĐỀ – EN]
+The masses (g) of $40$ apples are given in the table. Find $R$, $Q_1$, $Q_3$ and $\Delta_Q$.
+
+| Mass (g) | $[150, 160)$ | $[160, 170)$ | $[170, 180)$ | $[180, 190)$ | $[190, 200)$ |
+|---|---|---|---|---|---|
+| Apples | $4$ | $10$ | $14$ | $8$ | $4$ |
+
+[LỜI GIẢI CŨ – EN]
+Cumulative frequencies: $4$, $14$, $28$, $36$, $40$; $R=200-150=50$.
+$$Q_1=160+\frac{10-4}{10}\cdot10=166,\qquad Q_3=180+\frac{30-28}{8}\cdot10=182.5.$$
+
+**Answer.** $R=50$ g, $Q_1=166$, $Q_3=182.5$, $\Delta_Q=16.5$ g.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Thời gian đọc sách mỗi ngày (phút) của $50$ học sinh được cho trong bảng. Tính $Q_1$, $Q_3$ và $\Delta_Q$ (làm tròn đến hàng phần trăm).
+
+| Thời gian (phút) | $[0; 20)$ | $[20; 40)$ | $[40; 60)$ | $[60; 80)$ | $[80; 100)$ |
+|---|---|---|---|---|---|
+| Số học sinh | $5$ | $9$ | $16$ | $12$ | $8$ |
+
+[LỜI GIẢI CŨ – VI]
+$$Q_1=20+\frac{12{,}5-5}{9}\cdot20=20+\frac{50}{3}\approx36{,}67,\qquad Q_3=60+\frac{37{,}5-30}{12}\cdot20=72{,}5.$$
+
+**Đáp số.** $Q_1\approx36{,}67$; $Q_3=72{,}5$; $\Delta_Q\approx35{,}83$ phút.
+
+[ĐỀ – EN]
+The daily reading times (minutes) of $50$ students are given in the table. Find $Q_1$, $Q_3$ and $\Delta_Q$ (to two decimal places).
+
+| Time (minutes) | $[0, 20)$ | $[20, 40)$ | $[40, 60)$ | $[60, 80)$ | $[80, 100)$ |
+|---|---|---|---|---|---|
+| Students | $5$ | $9$ | $16$ | $12$ | $8$ |
+
+[LỜI GIẢI CŨ – EN]
+$$Q_1=20+\frac{12.5-5}{9}\cdot20=20+\frac{50}{3}\approx36.67,\qquad Q_3=60+\frac{37.5-30}{12}\cdot20=72.5.$$
+
+**Answer.** $Q_1\approx36.67$; $Q_3=72.5$; $\Delta_Q\approx35.83$ minutes.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Một cửa hàng thử thời lượng pin (giờ) của $50$ chiếc điện thoại mỗi loại X và Y.
+
+| Thời lượng (giờ) | $[8; 10)$ | $[10; 12)$ | $[12; 14)$ | $[14; 16)$ | $[16; 18)$ |
+|---|---|---|---|---|---|
+| Loại X | $3$ | $10$ | $24$ | $10$ | $3$ |
+| Loại Y | $8$ | $12$ | $10$ | $12$ | $8$ |
+
+Tính khoảng tứ phân vị của mỗi loại. Nếu khách hàng cần thời lượng pin ổn định, nên chọn loại nào?
+
+[LỜI GIẢI CŨ – VI]
+Loại X (tích luỹ $3$, $13$, $37$, $47$, $50$):
+$$Q_1=10+\frac{12{,}5-3}{10}\cdot2=11{,}9,\qquad Q_3=14+\frac{37{,}5-37}{10}\cdot2=14{,}1,\qquad \Delta_Q=2{,}2.$$
+Loại Y (tích luỹ $8$, $20$, $30$, $42$, $50$):
+$$Q_1=10+\frac{12{,}5-8}{12}\cdot2=10{,}75,\qquad Q_3=14+\frac{37{,}5-30}{12}\cdot2=15{,}25,\qquad \Delta_Q=4{,}5.$$
+Hai loại có cùng $R=10$ giờ, nhưng $\Delta_Q$ của X nhỏ hơn nhiều.
+
+**Đáp số.** $\Delta_Q=2{,}2$ giờ (X) và $4{,}5$ giờ (Y); nên chọn loại X.
+
+[ĐỀ – EN]
+A shop tests the battery life (hours) of $50$ phones of each of two models X and Y.
+
+| Battery life (hours) | $[8, 10)$ | $[10, 12)$ | $[12, 14)$ | $[14, 16)$ | $[16, 18)$ |
+|---|---|---|---|---|---|
+| Model X | $3$ | $10$ | $24$ | $10$ | $3$ |
+| Model Y | $8$ | $12$ | $10$ | $12$ | $8$ |
+
+Find the interquartile range of each model. If a customer wants a steady battery life, which model should they choose?
+
+[LỜI GIẢI CŨ – EN]
+Model X (cumulative $3$, $13$, $37$, $47$, $50$):
+$$Q_1=10+\frac{12.5-3}{10}\cdot2=11.9,\qquad Q_3=14+\frac{37.5-37}{10}\cdot2=14.1,\qquad \Delta_Q=2.2.$$
+Model Y (cumulative $8$, $20$, $30$, $42$, $50$):
+$$Q_1=10+\frac{12.5-8}{12}\cdot2=10.75,\qquad Q_3=14+\frac{37.5-30}{12}\cdot2=15.25,\qquad \Delta_Q=4.5.$$
+Both models have the same $R=10$ hours, but the $\Delta_Q$ of X is much smaller.
+
+**Answer.** $\Delta_Q=2.2$ hours (X) and $4.5$ hours (Y); choose model X.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Số giờ tập thể dục mỗi tuần của $30$ học sinh được cho trong bảng.
+
+| Số giờ | $[0; 2)$ | $[2; 4)$ | $[4; 6)$ | $[6; 8)$ | $[8; 10)$ |
+|---|---|---|---|---|---|
+| Số học sinh | $3$ | $7$ | $10$ | $6$ | $4$ |
+
+Mỗi khẳng định sau đúng hay sai?
+
+a) Khoảng biến thiên của mẫu số liệu bằng $10$.
+
+b) Tứ phân vị thứ nhất thuộc nhóm $[2; 4)$.
+
+c) $Q_3\approx6{,}83$.
+
+d) Khoảng tứ phân vị lớn hơn $4$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** $R=10-0=10$.
+
+b) **Đúng.** $3<7{,}5\le10$, và $Q_1=2+\dfrac{7{,}5-3}{7}\cdot2=\dfrac{23}{7}\approx3{,}29$.
+
+c) **Đúng.** $20<22{,}5\le26$, nên $Q_3=6+\dfrac{22{,}5-20}{6}\cdot2=\dfrac{41}{6}\approx6{,}83$.
+
+d) **Sai.** $\Delta_Q=\dfrac{41}{6}-\dfrac{23}{7}=\dfrac{149}{42}\approx3{,}55<4$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+The weekly hours of exercise of $30$ students are given in the table.
+
+| Hours | $[0, 2)$ | $[2, 4)$ | $[4, 6)$ | $[6, 8)$ | $[8, 10)$ |
+|---|---|---|---|---|---|
+| Students | $3$ | $7$ | $10$ | $6$ | $4$ |
+
+Is each claim true or false?
+
+a) The range of the data is $10$.
+
+b) The first quartile lies in the class $[2, 4)$.
+
+c) $Q_3\approx6.83$.
+
+d) The interquartile range is greater than $4$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** $R=10-0=10$.
+
+b) **True.** $3<7.5\le10$, and $Q_1=2+\dfrac{7.5-3}{7}\cdot2=\dfrac{23}{7}\approx3.29$.
+
+c) **True.** $20<22.5\le26$, so $Q_3=6+\dfrac{22.5-20}{6}\cdot2=\dfrac{41}{6}\approx6.83$.
+
+d) **False.** $\Delta_Q=\dfrac{41}{6}-\dfrac{23}{7}=\dfrac{149}{42}\approx3.55<4$.
+
+**Answer.** a) True; b) True; c) True; d) False.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cân nặng (kg) của $40$ học sinh được cho trong bảng. Tính khoảng tứ phân vị (đơn vị: kg, làm tròn đến hàng phần trăm).
+
+| Cân nặng (kg) | $[40; 45)$ | $[45; 50)$ | $[50; 55)$ | $[55; 60)$ | $[60; 65)$ |
+|---|---|---|---|---|---|
+| Số học sinh | $4$ | $9$ | $15$ | $8$ | $4$ |
+
+[LỜI GIẢI CŨ – VI]
+$$Q_1=45+\frac{10-4}{9}\cdot5=\frac{145}{3}\approx48{,}33,\qquad Q_3=55+\frac{30-28}{8}\cdot5=56{,}25.$$
+$$\Delta_Q=56{,}25-\frac{145}{3}\approx7{,}9167.$$
+
+**Đáp số.** $7{,}92$.
+
+[ĐỀ – EN]
+The masses (kg) of $40$ students are given in the table. Find the interquartile range (in kg, to two decimal places).
+
+| Mass (kg) | $[40, 45)$ | $[45, 50)$ | $[50, 55)$ | $[55, 60)$ | $[60, 65)$ |
+|---|---|---|---|---|---|
+| Students | $4$ | $9$ | $15$ | $8$ | $4$ |
+
+[LỜI GIẢI CŨ – EN]
+$$Q_1=45+\frac{10-4}{9}\cdot5=\frac{145}{3}\approx48.33,\qquad Q_3=55+\frac{30-28}{8}\cdot5=56.25.$$
+$$\Delta_Q=56.25-\frac{145}{3}\approx7.9167.$$
+
+**Answer.** $7.92$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+(Ôn lại trung vị của mẫu số liệu ghép nhóm, lớp 11.) Với bảng khối lượng táo ở Bài 1, tính trung vị $M_e$ và kiểm tra rằng $Q_1<M_e<Q_3$.
+
+[LỜI GIẢI CŨ – VI]
+$$M_e=170+\frac{20-14}{14}\cdot10=170+\frac{30}{7}\approx174{,}29.$$
+Vì $166<174{,}29<182{,}5$, ta có $Q_1<M_e<Q_3$.
+
+**Đáp số.** $M_e\approx174{,}29$ g.
+
+[ĐỀ – EN]
+(Revisiting the median of grouped data, grade 11.) For the table of apple masses in Exercise 1, find the median $M_e$ and check that $Q_1<M_e<Q_3$.
+
+[LỜI GIẢI CŨ – EN]
+$$M_e=170+\frac{20-14}{14}\cdot10=170+\frac{30}{7}\approx174.29.$$
+Since $166<174.29<182.5$, we have $Q_1<M_e<Q_3$.
+
+**Answer.** $M_e\approx174.29$ g.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+(Ôn lại [Các số đặc trưng đo độ phân tán](lesson:dispersion).) Cho mẫu số liệu gốc $3, 7, 8, 11, 12, 14, 15, 16, 18, 21, 24, 29$.
+
+a) Tính $R$ và $\Delta_Q$ của mẫu số liệu gốc.
+
+b) Ghép thành ba nhóm $[0; 10)$, $[10; 20)$, $[20; 30)$ rồi tính $R$ và $\Delta_Q$ của mẫu ghép nhóm.
+
+[LỜI GIẢI CŨ – VI]
+a) $R=29-3=26$; $Q_1=\dfrac{8+11}{2}=9{,}5$, $Q_3=\dfrac{18+21}{2}=19{,}5$, $\Delta_Q=10$.
+
+b) Tần số $3$, $6$, $3$ (tích luỹ $3$, $9$, $12$), $R=30$.
+$$Q_1=0+\frac{3-0}{3}\cdot10=10,\qquad Q_3=10+\frac{9-3}{6}\cdot10=20,\qquad \Delta_Q=10.$$
+
+**Đáp số.** a) $R=26$, $\Delta_Q=10$; b) $R=30$, $\Delta_Q=10$. Ở đây $\Delta_Q$ xấp xỉ rất tốt, còn $R$ thì lớn hơn thực tế.
+
+[ĐỀ – EN]
+(Revisiting [Measures of dispersion](lesson:dispersion).) Consider the raw data $3, 7, 8, 11, 12, 14, 15, 16, 18, 21, 24, 29$.
+
+a) Find $R$ and $\Delta_Q$ of the raw data.
+
+b) Group them into the three classes $[0, 10)$, $[10, 20)$, $[20, 30)$ and find $R$ and $\Delta_Q$ of the grouped data.
+
+[LỜI GIẢI CŨ – EN]
+a) $R=29-3=26$; $Q_1=\dfrac{8+11}{2}=9.5$, $Q_3=\dfrac{18+21}{2}=19.5$, $\Delta_Q=10$.
+
+b) Frequencies $3$, $6$, $3$ (cumulative $3$, $9$, $12$), $R=30$.
+$$Q_1=0+\frac{3-0}{3}\cdot10=10,\qquad Q_3=10+\frac{9-3}{6}\cdot10=20,\qquad \Delta_Q=10.$$
+
+**Answer.** a) $R=26$, $\Delta_Q=10$; b) $R=30$, $\Delta_Q=10$. Here $\Delta_Q$ is a very good approximation, while $R$ is larger than the true value.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Ở lớp 12A (Ví dụ 1), ta có $Q_1=15$ và $Q_3=32{,}5$ phút. Một học sinh mới chuyển đến lớp mất $62$ phút để đến trường. Theo quy tắc $1{,}5\,\Delta_Q$, thời gian này có bất thường không?
+
+[LỜI GIẢI CŨ – VI]
+$\Delta_Q=17{,}5$ và $1{,}5\,\Delta_Q=26{,}25$. Ngưỡng trên là
+$$Q_3+1{,}5\,\Delta_Q=32{,}5+26{,}25=58{,}75<62.$$
+
+**Đáp số.** Có, $62$ phút là giá trị bất thường so với lớp.
+
+[ĐỀ – EN]
+For class 12A (Example 1) we have $Q_1=15$ and $Q_3=32.5$ minutes. A new student who joins the class takes $62$ minutes to get to school. By the $1.5\,\Delta_Q$ rule, is this time an outlier?
+
+[LỜI GIẢI CŨ – EN]
+$\Delta_Q=17.5$ and $1.5\,\Delta_Q=26.25$. The upper limit is
+$$Q_3+1.5\,\Delta_Q=32.5+26.25=58.75<62.$$
+
+**Answer.** Yes, $62$ minutes is an outlier for this class.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một mẫu số liệu ghép nhóm có bảng tần số sau, với $x$ là số nguyên dương chưa biết.
+
+| Nhóm | $[0; 10)$ | $[10; 20)$ | $[20; 30)$ | $[30; 40)$ |
+|---|---|---|---|---|
+| Tần số | $4$ | $x$ | $10$ | $6$ |
+
+Biết $Q_1=13{,}75$ và $Q_1$ thuộc nhóm $[10; 20)$. Tìm $x$.
+
+[LỜI GIẢI CŨ – VI]
+$$10+\frac{\frac{20+x}{4}-4}{x}\cdot10=13{,}75\iff\frac{x+4}{4x}\cdot10=3{,}75\iff 10x+40=15x\iff x=8.$$
+**Kiểm tra.** $n=28$, $\frac n4=7$ và $4<7\le12$, nên $Q_1$ đúng là thuộc $[10; 20)$: $Q_1=10+\frac{7-4}{8}\cdot10=13{,}75$.
+
+**Đáp số.** $x=8$.
+
+[ĐỀ – EN]
+Grouped data have the following frequency table, where $x$ is an unknown positive integer.
+
+| Class | $[0, 10)$ | $[10, 20)$ | $[20, 30)$ | $[30, 40)$ |
+|---|---|---|---|---|
+| Frequency | $4$ | $x$ | $10$ | $6$ |
+
+We know that $Q_1=13.75$ and that $Q_1$ lies in the class $[10, 20)$. Find $x$.
+
+[LỜI GIẢI CŨ – EN]
+$$10+\frac{\frac{20+x}{4}-4}{x}\cdot10=13.75\iff\frac{x+4}{4x}\cdot10=3.75\iff 10x+40=15x\iff x=8.$$
+**Check.** $n=28$, $\frac n4=7$ and $4<7\le12$, so $Q_1$ does lie in $[10, 20)$: $Q_1=10+\frac{7-4}{8}\cdot10=13.75$.
+
+**Answer.** $x=8$.
+
+
+######################################################################
+@@@ g12/grouped-variance-sd
+Bài học: Phương sai và độ lệch chuẩn / Variance and standard deviation of grouped data
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Thời gian dùng điện thoại mỗi ngày (giờ) của $20$ học sinh được cho trong bảng. Tính $s^2$ và $s$ bằng công thức định nghĩa.
+
+| Thời gian (giờ) | $[0; 4)$ | $[4; 8)$ | $[8; 12)$ | $[12; 16)$ |
+|---|---|---|---|---|
+| Số học sinh | $3$ | $7$ | $7$ | $3$ |
+
+[LỜI GIẢI CŨ – VI]
+$\bar{x}=\dfrac{6+42+70+42}{20}=8$; các độ lệch $-6$, $-2$, $2$, $6$.
+$$s^2=\frac{3\cdot36+7\cdot4+7\cdot4+3\cdot36}{20}=\frac{272}{20}=13{,}6,\qquad s\approx3{,}69.$$
+
+**Đáp số.** $s^2=13{,}6$; $s\approx3{,}69$ giờ.
+
+[ĐỀ – EN]
+The daily phone use (hours) of $20$ students is given in the table. Find $s^2$ and $s$ with the definition.
+
+| Time (hours) | $[0, 4)$ | $[4, 8)$ | $[8, 12)$ | $[12, 16)$ |
+|---|---|---|---|---|
+| Students | $3$ | $7$ | $7$ | $3$ |
+
+[LỜI GIẢI CŨ – EN]
+$\bar{x}=\dfrac{6+42+70+42}{20}=8$; the deviations are $-6$, $-2$, $2$, $6$.
+$$s^2=\frac{3\cdot36+7\cdot4+7\cdot4+3\cdot36}{20}=\frac{272}{20}=13.6,\qquad s\approx3.69.$$
+
+**Answer.** $s^2=13.6$; $s\approx3.69$ hours.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Điểm kiểm tra của $40$ học sinh được ghép nhóm như sau. Lập bảng tính và tìm $\bar{x}$, $s^2$, $s$.
+
+| Điểm | $[4; 5)$ | $[5; 6)$ | $[6; 7)$ | $[7; 8)$ | $[8; 9)$ | $[9; 10)$ |
+|---|---|---|---|---|---|---|
+| Số học sinh | $2$ | $5$ | $9$ | $14$ | $7$ | $3$ |
+
+[LỜI GIẢI CŨ – VI]
+$\sum n_ix_i=9+27{,}5+58{,}5+105+59{,}5+28{,}5=288$ và $\sum n_ix_i^2=2136$.
+$$\bar{x}=\frac{288}{40}=7{,}2,\qquad s^2=\frac{2136}{40}-7{,}2^2=53{,}4-51{,}84=1{,}56,\qquad s\approx1{,}25.$$
+
+**Đáp số.** $\bar{x}=7{,}2$; $s^2=1{,}56$; $s\approx1{,}25$.
+
+[ĐỀ – EN]
+The test marks of $40$ students are grouped as follows. Draw up the table and find $\bar{x}$, $s^2$, $s$.
+
+| Mark | $[4, 5)$ | $[5, 6)$ | $[6, 7)$ | $[7, 8)$ | $[8, 9)$ | $[9, 10)$ |
+|---|---|---|---|---|---|---|
+| Students | $2$ | $5$ | $9$ | $14$ | $7$ | $3$ |
+
+[LỜI GIẢI CŨ – EN]
+$\sum n_ix_i=9+27.5+58.5+105+59.5+28.5=288$ and $\sum n_ix_i^2=2136$.
+$$\bar{x}=\frac{288}{40}=7.2,\qquad s^2=\frac{2136}{40}-7.2^2=53.4-51.84=1.56,\qquad s\approx1.25.$$
+
+**Answer.** $\bar{x}=7.2$; $s^2=1.56$; $s\approx1.25$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Hai đơn vị giao hàng P và Q ghi lại thời gian giao (phút) của $40$ đơn hàng mỗi bên.
+
+| Thời gian (phút) | $[20; 25)$ | $[25; 30)$ | $[30; 35)$ | $[35; 40)$ | $[40; 45)$ |
+|---|---|---|---|---|---|
+| Đơn vị P | $2$ | $10$ | $16$ | $10$ | $2$ |
+| Đơn vị Q | $8$ | $8$ | $8$ | $8$ | $8$ |
+
+Tính thời gian trung bình và độ lệch chuẩn của mỗi đơn vị. Đơn vị nào giao hàng đúng hẹn ổn định hơn?
+
+[LỜI GIẢI CŨ – VI]
+Cả hai có $\bar{x}=32{,}5$ phút.
+$$\text{P: } s^2=\frac{2\cdot100+10\cdot25+0+10\cdot25+2\cdot100}{40}=\frac{900}{40}=22{,}5,\ s\approx4{,}74;$$
+$$\text{Q: } s^2=\frac{8\cdot(100+25+0+25+100)}{40}=\frac{2000}{40}=50,\ s\approx7{,}07.$$
+
+**Đáp số.** Trung bình $32{,}5$ phút; $s\approx4{,}74$ (P) và $s\approx7{,}07$ (Q). Đơn vị P ổn định hơn.
+
+[ĐỀ – EN]
+Two delivery services P and Q recorded the delivery times (minutes) of $40$ orders each.
+
+| Time (minutes) | $[20, 25)$ | $[25, 30)$ | $[30, 35)$ | $[35, 40)$ | $[40, 45)$ |
+|---|---|---|---|---|---|
+| Service P | $2$ | $10$ | $16$ | $10$ | $2$ |
+| Service Q | $8$ | $8$ | $8$ | $8$ | $8$ |
+
+Find the mean time and the standard deviation for each service. Which service delivers more reliably on time?
+
+[LỜI GIẢI CŨ – EN]
+Both have $\bar{x}=32.5$ minutes.
+$$\text{P: } s^2=\frac{2\cdot100+10\cdot25+0+10\cdot25+2\cdot100}{40}=\frac{900}{40}=22.5,\ s\approx4.74;$$
+$$\text{Q: } s^2=\frac{8\cdot(100+25+0+25+100)}{40}=\frac{2000}{40}=50,\ s\approx7.07.$$
+
+**Answer.** Mean $32.5$ minutes; $s\approx4.74$ (P) and $s\approx7.07$ (Q). Service P is more reliable.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho mẫu số liệu ghép nhóm sau.
+
+| Nhóm | $[0; 10)$ | $[10; 20)$ | $[20; 30)$ | $[30; 40)$ |
+|---|---|---|---|---|
+| Tần số | $1$ | $4$ | $4$ | $1$ |
+
+Mỗi khẳng định sau đúng hay sai?
+
+a) Số trung bình bằng $20$.
+
+b) Phương sai bằng $65$.
+
+c) Độ lệch chuẩn lớn hơn $9$.
+
+d) Nếu mọi giá trị tăng thêm $5$ (các nhóm thành $[5; 15)$, …, $[35; 45)$) thì phương sai bằng $70$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** $\bar{x}=\dfrac{5+60+100+35}{10}=20$.
+
+b) **Đúng.** $s^2=\dfrac{1\cdot225+4\cdot25+4\cdot25+1\cdot225}{10}=\dfrac{650}{10}=65$.
+
+c) **Sai.** $s=\sqrt{65}\approx8{,}06<9$.
+
+d) **Sai.** Trung điểm và $\bar{x}$ cùng tăng $5$, các độ lệch giữ nguyên, nên phương sai vẫn bằng $65$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+[ĐỀ – EN]
+Consider the following grouped data.
+
+| Class | $[0, 10)$ | $[10, 20)$ | $[20, 30)$ | $[30, 40)$ |
+|---|---|---|---|---|
+| Frequency | $1$ | $4$ | $4$ | $1$ |
+
+Is each claim true or false?
+
+a) The mean is $20$.
+
+b) The variance is $65$.
+
+c) The standard deviation is greater than $9$.
+
+d) If every value is increased by $5$ (the classes become $[5, 15)$, …, $[35, 45)$), the variance becomes $70$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** $\bar{x}=\dfrac{5+60+100+35}{10}=20$.
+
+b) **True.** $s^2=\dfrac{1\cdot225+4\cdot25+4\cdot25+1\cdot225}{10}=\dfrac{650}{10}=65$.
+
+c) **False.** $s=\sqrt{65}\approx8.06<9$.
+
+d) **False.** The midpoints and $\bar{x}$ all increase by $5$, so the deviations are unchanged and the variance is still $65$.
+
+**Answer.** a) True; b) True; c) False; d) False.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Chiều cao (cm) của $50$ học sinh được cho trong bảng. Tính độ lệch chuẩn (đơn vị: cm, làm tròn đến hàng phần trăm).
+
+| Chiều cao (cm) | $[150; 155)$ | $[155; 160)$ | $[160; 165)$ | $[165; 170)$ | $[170; 175)$ |
+|---|---|---|---|---|---|
+| Số học sinh | $5$ | $12$ | $18$ | $10$ | $5$ |
+
+[LỜI GIẢI CŨ – VI]
+$\sum n_ix_i=8115$, nên $\bar{x}=162{,}3$; $\sum n_ix_i^2=1318612{,}5$.
+$$s^2=\frac{1318612{,}5}{50}-162{,}3^2=26372{,}25-26341{,}29=30{,}96,\qquad s\approx5{,}564.$$
+
+**Đáp số.** $5{,}56$.
+
+[ĐỀ – EN]
+The heights (cm) of $50$ students are given in the table. Find the standard deviation (in cm, to two decimal places).
+
+| Height (cm) | $[150, 155)$ | $[155, 160)$ | $[160, 165)$ | $[165, 170)$ | $[170, 175)$ |
+|---|---|---|---|---|---|
+| Students | $5$ | $12$ | $18$ | $10$ | $5$ |
+
+[LỜI GIẢI CŨ – EN]
+$\sum n_ix_i=8115$, so $\bar{x}=162.3$; $\sum n_ix_i^2=1318612.5$.
+$$s^2=\frac{1318612.5}{50}-162.3^2=26372.25-26341.29=30.96,\qquad s\approx5.564.$$
+
+**Answer.** $5.56$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+(Ôn lại số trung bình của mẫu số liệu ghép nhóm, lớp 11.) Thời gian (phút) hoàn thành một bài tập của $20$ học sinh được cho trong bảng. Tính $\bar{x}$, rồi tính $s$.
+
+| Thời gian (phút) | $[10; 20)$ | $[20; 30)$ | $[30; 40)$ | $[40; 50)$ |
+|---|---|---|---|---|
+| Số học sinh | $3$ | $9$ | $6$ | $2$ |
+
+[LỜI GIẢI CŨ – VI]
+$$\bar{x}=\frac{45+225+210+90}{20}=\frac{570}{20}=28{,}5,\qquad \frac{675+5625+7350+4050}{20}=\frac{17700}{20}=885.$$
+$$s^2=885-28{,}5^2=885-812{,}25=72{,}75,\qquad s\approx8{,}53.$$
+
+**Đáp số.** $\bar{x}=28{,}5$ phút; $s\approx8{,}53$ phút.
+
+[ĐỀ – EN]
+(Revisiting the mean of grouped data, grade 11.) The times (minutes) that $20$ students took to finish an assignment are given in the table. Find $\bar{x}$, then $s$.
+
+| Time (minutes) | $[10, 20)$ | $[20, 30)$ | $[30, 40)$ | $[40, 50)$ |
+|---|---|---|---|---|
+| Students | $3$ | $9$ | $6$ | $2$ |
+
+[LỜI GIẢI CŨ – EN]
+$$\bar{x}=\frac{45+225+210+90}{20}=\frac{570}{20}=28.5,\qquad \frac{675+5625+7350+4050}{20}=\frac{17700}{20}=885.$$
+$$s^2=885-28.5^2=885-812.25=72.75,\qquad s\approx8.53.$$
+
+**Answer.** $\bar{x}=28.5$ minutes; $s\approx8.53$ minutes.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+(Ôn lại [Khoảng biến thiên và khoảng tứ phân vị](lesson:grouped-range-iqr).) Với hai đơn vị giao hàng ở Bài 3, tính khoảng tứ phân vị của mỗi đơn vị. Kết luận có giống khi dùng độ lệch chuẩn không?
+
+[LỜI GIẢI CŨ – VI]
+P: $Q_1=25+\dfrac{10-2}{10}\cdot5=29$, $Q_3=35+\dfrac{30-28}{10}\cdot5=36$, $\Delta_Q=7$.
+
+Q: $Q_1=25+\dfrac{10-8}{8}\cdot5=26{,}25$, $Q_3=35+\dfrac{30-24}{8}\cdot5=38{,}75$, $\Delta_Q=12{,}5$.
+
+**Đáp số.** $\Delta_Q=7$ (P) và $12{,}5$ (Q); giống kết luận từ độ lệch chuẩn: P ổn định hơn.
+
+[ĐỀ – EN]
+(Revisiting [Range and interquartile range of grouped data](lesson:grouped-range-iqr).) For the two delivery services in Exercise 3, find the interquartile range of each. Is the conclusion the same as with the standard deviation?
+
+[LỜI GIẢI CŨ – EN]
+P: $Q_1=25+\dfrac{10-2}{10}\cdot5=29$, $Q_3=35+\dfrac{30-28}{10}\cdot5=36$, $\Delta_Q=7$.
+
+Q: $Q_1=25+\dfrac{10-8}{8}\cdot5=26.25$, $Q_3=35+\dfrac{30-24}{8}\cdot5=38.75$, $\Delta_Q=12.5$.
+
+**Answer.** $\Delta_Q=7$ (P) and $12.5$ (Q); the same conclusion as from the standard deviation: P is more reliable.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một mẫu số liệu ghép nhóm có bảng tần số sau, với $x$ là số nguyên dương. Biết số trung bình bằng $4{,}2$. Tìm $x$, rồi tính phương sai (làm tròn đến hàng phần trăm).
+
+| Nhóm | $[0; 2)$ | $[2; 4)$ | $[4; 6)$ | $[6; 8)$ |
+|---|---|---|---|---|
+| Tần số | $2$ | $x$ | $5$ | $3$ |
+
+[LỜI GIẢI CŨ – VI]
+$$\frac{2+3x+25+21}{10+x}=4{,}2\iff 48+3x=42+4{,}2x\iff 1{,}2x=6\iff x=5.$$
+Khi đó $n=15$ và $\sum n_ix_i^2=2+45+125+147=319$:
+$$s^2=\frac{319}{15}-4{,}2^2=\frac{319}{15}-17{,}64=\frac{272}{75}\approx3{,}63.$$
+
+**Đáp số.** $x=5$; $s^2\approx3{,}63$.
+
+[ĐỀ – EN]
+Grouped data have the following frequency table, where $x$ is a positive integer. The mean is $4.2$. Find $x$, then the variance (to two decimal places).
+
+| Class | $[0, 2)$ | $[2, 4)$ | $[4, 6)$ | $[6, 8)$ |
+|---|---|---|---|---|
+| Frequency | $2$ | $x$ | $5$ | $3$ |
+
+[LỜI GIẢI CŨ – EN]
+$$\frac{2+3x+25+21}{10+x}=4.2\iff 48+3x=42+4.2x\iff 1.2x=6\iff x=5.$$
+Then $n=15$ and $\sum n_ix_i^2=2+45+125+147=319$:
+$$s^2=\frac{319}{15}-4.2^2=\frac{319}{15}-17.64=\frac{272}{75}\approx3.63.$$
+
+**Answer.** $x=5$; $s^2\approx3.63$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Ở Ví dụ 1, thời gian ngủ có $s^2=1{,}1275$ (đơn vị: giờ²). Nếu đổi toàn bộ số liệu sang phút (nhân mọi giá trị và đầu mút nhóm với $60$), thì phương sai và độ lệch chuẩn mới bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$$s^2_{\text{mới}}=3600\cdot1{,}1275=4059,\qquad s_{\text{mới}}=60\cdot\sqrt{1{,}1275}\approx63{,}71.$$
+(Kiểm tra: $\sqrt{4059}\approx63{,}71$.)
+
+**Đáp số.** $s^2=4059$ (phút²); $s\approx63{,}71$ phút.
+
+[ĐỀ – EN]
+In Example 1 the sleep data have $s^2=1.1275$ (unit: hours²). If all the data are converted to minutes (every value and every class end multiplied by $60$), what are the new variance and standard deviation?
+
+[LỜI GIẢI CŨ – EN]
+$$s^2_{\text{new}}=3600\cdot1.1275=4059,\qquad s_{\text{new}}=60\cdot\sqrt{1.1275}\approx63.71.$$
+(Check: $\sqrt{4059}\approx63.71$.)
+
+**Answer.** $s^2=4059$ (minutes²); $s\approx63.71$ minutes.
+
+
+######################################################################
+@@@ g12/integral-applications
+Bài học: Ứng dụng hình học của tích phân / Applications of integrals: area and volume
+Cần viết lại lời giải các bài: 1, 2, 3, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi đồ thị $y=x^2+1$, trục hoành và hai đường thẳng $x=0$, $x=3$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $x^2+1>0$ trên $[0; 3]$ nên $S=\displaystyle\int_0^3(x^2+1)\,dx=\Big[\dfrac{x^3}{3}+x\Big]_0^3=9+3=12$.
+
+Vậy diện tích hình phẳng bằng $12$.
+
+**Đáp số.** $12$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the graph of $y=x^2+1$, the $x$-axis and the lines $x=0$, $x=3$.
+
+[LỜI GIẢI CŨ – EN]
+Since $x^2+1>0$ on $[0, 3]$, $S=\displaystyle\int_0^3(x^2+1)\,dx=\Big[\dfrac{x^3}{3}+x\Big]_0^3=9+3=12$.
+
+So the area of the region is $12$.
+
+**Answer.** $12$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi đồ thị $y=x^3$, trục hoành và hai đường thẳng $x=-1$, $x=2$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $x^3$ đổi dấu tại $x=0$ nên ta tách đoạn: $\displaystyle\int_{-1}^0x^3dx=-\frac14$, $\displaystyle\int_0^2x^3dx=4$. Vậy $S=\dfrac14+4=\dfrac{17}{4}$.
+
+**Đáp số.** $\dfrac{17}{4}$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the graph of $y=x^3$, the $x$-axis and the lines $x=-1$, $x=2$.
+
+[LỜI GIẢI CŨ – EN]
+Since $x^3$ changes sign at $x=0$, we split the interval: $\displaystyle\int_{-1}^0x^3dx=-\frac14$ and $\displaystyle\int_0^2x^3dx=4$. So $S=\dfrac14+4=\dfrac{17}{4}$.
+
+**Answer.** $\dfrac{17}{4}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2$ và đường thẳng $y=2x$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $x^2=2x\iff x=0$ hoặc $x=2$. Tại $x=1$ ta có $2x=2>1=x^2$ nên đường thẳng nằm trên parabol trên $(0; 2)$.
+
+Vậy $S=\displaystyle\int_0^2(2x-x^2)\,dx=4-\frac83=\frac43$.
+
+**Đáp số.** $\dfrac43$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the parabola $y=x^2$ and the line $y=2x$.
+
+[LỜI GIẢI CŨ – EN]
+We have $x^2=2x\iff x=0$ or $x=2$. At $x=1$ we have $2x=2>1=x^2$, so the line lies above the parabola on $(0, 2)$.
+
+So $S=\displaystyle\int_0^2(2x-x^2)\,dx=4-\frac83=\frac43$.
+
+**Answer.** $\dfrac43$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Gọi $H$ là hình phẳng giới hạn bởi đồ thị $y=x^2-4$ và trục hoành. Xét tính đúng sai của các mệnh đề sau:
+
+a) $H$ nằm giữa hai đường thẳng $x=-2$ và $x=2$.
+
+b) Diện tích của $H$ là $\displaystyle\int_{-2}^2(x^2-4)\,dx$.
+
+c) Diện tích của $H$ bằng $\dfrac{32}{3}$.
+
+d) Quay $H$ quanh trục $Ox$ được khối tròn xoay có thể tích $\dfrac{512\pi}{15}$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**. Ta có $x^2-4=0\iff x=\pm2$.
+
+b) **Sai**. Tích phân đó bằng $-\dfrac{32}{3}<0$, không thể là diện tích.
+
+c) **Đúng**. Vì $x^2-4\le0$ trên $[-2; 2]$ nên diện tích bằng $\displaystyle\int_{-2}^2(4-x^2)\,dx=\frac{32}{3}$.
+
+d) **Đúng**. Ta có $(x^2-4)^2=x^4-8x^2+16$ và $\pi\displaystyle\int_{-2}^2(x^4-8x^2+16)\,dx=\pi\left(\frac{64}{5}-\frac{128}{3}+64\right)=\frac{512\pi}{15}$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
+
+[ĐỀ – EN]
+Let $H$ be the region bounded by the graph of $y=x^2-4$ and the $x$-axis. Decide whether each statement is true or false.
+
+a) $H$ lies between the lines $x=-2$ and $x=2$.
+
+b) The area of $H$ is $\displaystyle\int_{-2}^2(x^2-4)\,dx$.
+
+c) The area of $H$ is $\dfrac{32}{3}$.
+
+d) Rotating $H$ about the $x$-axis gives a solid of revolution of volume $\dfrac{512\pi}{15}$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**. We have $x^2-4=0\iff x=\pm2$.
+
+b) **False**. That integral equals $-\dfrac{32}{3}<0$, so it cannot be an area.
+
+c) **True**. Since $x^2-4\le0$ on $[-2, 2]$, the area is $\displaystyle\int_{-2}^2(4-x^2)\,dx=\frac{32}{3}$.
+
+d) **True**. We have $(x^2-4)^2=x^4-8x^2+16$ and $\pi\displaystyle\int_{-2}^2(x^4-8x^2+16)\,dx=\pi\left(\frac{64}{5}-\frac{128}{3}+64\right)=\frac{512\pi}{15}$.
+
+**Answer.** a) True; b) False; c) True; d) True.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2-2x$ và đường thẳng $y=x$ (viết kết quả dưới dạng số thập phân).
+
+[LỜI GIẢI CŨ – VI]
+Phương trình hoành độ giao điểm: $x^2-2x=x\iff x^2-3x=0\iff x=0$ hoặc $x=3$. Trên $(0; 3)$ đường thẳng nằm trên parabol, do đó $S=\displaystyle\int_0^3(3x-x^2)\,dx=\frac{27}{2}-9=\frac92$.
+
+Vậy diện tích bằng $\dfrac92$.
+
+**Đáp số.** $4{,}5$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the parabola $y=x^2-2x$ and the line $y=x$ (give the result as a decimal).
+
+[LỜI GIẢI CŨ – EN]
+The intersection points satisfy $x^2-2x=x\iff x^2-3x=0\iff x=0$ or $x=3$. On $(0, 3)$ the line lies above the parabola, hence $S=\displaystyle\int_0^3(3x-x^2)\,dx=\frac{27}{2}-9=\frac92$.
+
+So the area is $\dfrac92$.
+
+**Answer.** $4.5$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một ô cửa sổ có dạng hình phẳng giới hạn bởi parabol $y=1{,}5-1{,}5x^2$ và trục hoành (đơn vị mét): rộng $2$ m, cao $1{,}5$ m. Kính lắp cửa giá $800$ nghìn đồng một mét vuông. Tính số tiền mua kính để lắp ô cửa đó.
+
+[LỜI GIẢI CŨ – VI]
+Parabol cắt trục hoành tại $x=\pm1$. Diện tích ô cửa là $S=\displaystyle\int_{-1}^1(1{,}5-1{,}5x^2)\,dx=\Big[1{,}5x-0{,}5x^3\Big]_{-1}^{1}=1-(-1)=2$ (m²).
+
+Vậy tiền kính là $2\cdot800=1600$ nghìn đồng.
+
+**Đáp số.** $1\,600$ nghìn đồng ($1{,}6$ triệu đồng).
+
+[ĐỀ – EN]
+A window has the shape of the region bounded by the parabola $y=1.5-1.5x^2$ and the $x$-axis (units in metres): it is $2$ m wide and $1.5$ m high. The glass costs $800$ thousand đồng per square metre. Find the cost of the glass for this window.
+
+[LỜI GIẢI CŨ – EN]
+The parabola meets the $x$-axis at $x=\pm1$. The area of the window is $S=\displaystyle\int_{-1}^1(1.5-1.5x^2)\,dx=\Big[1.5x-0.5x^3\Big]_{-1}^{1}=1-(-1)=2$ (m²).
+
+So the glass costs $2\cdot800=1600$ thousand đồng.
+
+**Answer.** $1\,600$ thousand đồng ($1.6$ million đồng).
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một vật thể nằm giữa hai mặt phẳng $x=0$ và $x=4$. Thiết diện vuông góc với $Ox$ tại $x$ $(0\le x\le4)$ là hình chữ nhật có hai cạnh $x$ và $4-x$. Tính thể tích vật thể.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích thiết diện là $S(x)=x(4-x)=4x-x^2$. Do đó $V=\displaystyle\int_0^4(4x-x^2)\,dx=\Big[2x^2-\dfrac{x^3}{3}\Big]_0^4=32-\dfrac{64}{3}=\dfrac{32}{3}$.
+
+Vậy thể tích vật thể bằng $\dfrac{32}{3}$.
+
+**Đáp số.** $\dfrac{32}{3}$.
+
+[ĐỀ – EN]
+A solid lies between the planes $x=0$ and $x=4$. Its cross-section perpendicular to the $x$-axis at $x$ $(0\le x\le4)$ is a rectangle with sides $x$ and $4-x$. Find the volume of the solid.
+
+[LỜI GIẢI CŨ – EN]
+The cross-section has area $S(x)=x(4-x)=4x-x^2$. Hence $V=\displaystyle\int_0^4(4x-x^2)\,dx=\Big[2x^2-\dfrac{x^3}{3}\Big]_0^4=32-\dfrac{64}{3}=\dfrac{32}{3}$.
+
+So the volume of the solid is $\dfrac{32}{3}$.
+
+**Answer.** $\dfrac{32}{3}$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi đồ thị $y=\sin x$, trục hoành và hai đường thẳng $x=0$, $x=\pi$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $\sin x\ge0$ trên $[0; \pi]$ nên $S=\displaystyle\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=1-(-1)=2$.
+
+Vậy diện tích bằng $2$.
+
+**Đáp số.** $2$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the graph of $y=\sin x$, the $x$-axis and the lines $x=0$, $x=\pi$.
+
+[LỜI GIẢI CŨ – EN]
+Since $\sin x\ge0$ on $[0, \pi]$, $S=\displaystyle\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=1-(-1)=2$.
+
+So the area is $2$.
+
+**Answer.** $2$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi hai đồ thị $y=x^3-x$ và $y=3x$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $x^3-x=3x\iff x^3-4x=0\iff x\in\{-2; 0; 2\}$. Ta có $\displaystyle\int_{-2}^0(x^3-4x)\,dx=\Big[\frac{x^4}{4}-2x^2\Big]_{-2}^0=0-(4-8)=4$; $\displaystyle\int_0^2(4x-x^3)\,dx=8-4=4$. Vậy $S=8$.
+
+**Đáp số.** $8$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the graphs of $y=x^3-x$ and $y=3x$.
+
+[LỜI GIẢI CŨ – EN]
+We have $x^3-x=3x\iff x^3-4x=0\iff x\in\{-2, 0, 2\}$. We have $\displaystyle\int_{-2}^0(x^3-4x)\,dx=\Big[\frac{x^4}{4}-2x^2\Big]_{-2}^0=0-(4-8)=4$; $\displaystyle\int_0^2(4x-x^3)\,dx=8-4=4$. So $S=8$.
+
+**Answer.** $8$.
+
+
+===== HẾT GÓI GOI-L12-02 =====

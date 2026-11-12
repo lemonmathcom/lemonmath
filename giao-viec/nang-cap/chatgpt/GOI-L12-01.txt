@@ -1,0 +1,1263 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – GOI-L12-01
+Người làm: ChatGPT. Gói này có 45 bài tập thuộc 6 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/data/NC-ChatGPT-GOI-L12-01.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/6). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/data/NC-ChatGPT-GOI-L12-01.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG GÓI NÀY =====
+- g12/angle-formulas-space (10 bài tập)
+- g12/antiderivatives (8 bài tập)
+- g12/asymptotes (3 bài tập)
+- g12/conditional-probability-intro (10 bài tập)
+- g12/coordinate-system-space (6 bài tập)
+- g12/definite-integrals (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g12/angle-formulas-space
+Bài học: Công thức tính góc trong không gian / Angle formulas in space
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính góc giữa $d_1: x=1+t$, $y=2t$, $z=-t$ và $d_2: \dfrac{x-1}{2}=\dfrac{y}{-1}=\dfrac{z+3}{1}$ (làm tròn đến hàng phần mười của độ).
+
+[LỜI GIẢI CŨ – VI]
+$$\vec{u}_1\cdot\vec{u}_2=2-2-1=-1,\qquad \cos\varphi=\frac{1}{\sqrt6\cdot\sqrt6}=\frac16,\qquad \varphi\approx80{,}4^\circ.$$
+
+**Đáp số.** Khoảng $80{,}4^\circ$.
+
+[ĐỀ – EN]
+Find the angle between $d_1: x=1+t$, $y=2t$, $z=-t$ and $d_2: \dfrac{x-1}{2}=\dfrac{y}{-1}=\dfrac{z+3}{1}$ (to one decimal place of a degree).
+
+[LỜI GIẢI CŨ – EN]
+$$\vec{u}_1\cdot\vec{u}_2=2-2-1=-1,\qquad \cos\varphi=\frac{1}{\sqrt6\cdot\sqrt6}=\frac16,\qquad \varphi\approx80.4^\circ.$$
+
+**Answer.** About $80.4^\circ$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính góc giữa đường thẳng $d: x=1+t$, $y=t$, $z=2$ và mặt phẳng $(P): x+z-5=0$.
+
+[LỜI GIẢI CŨ – VI]
+$$\sin\varphi=\frac{|1+0+0|}{\sqrt2\cdot\sqrt2}=\frac12,\qquad\varphi=30^\circ.$$
+
+**Đáp số.** $30^\circ$.
+
+[ĐỀ – EN]
+Find the angle between the line $d: x=1+t$, $y=t$, $z=2$ and the plane $(P): x+z-5=0$.
+
+[LỜI GIẢI CŨ – EN]
+$$\sin\varphi=\frac{|1+0+0|}{\sqrt2\cdot\sqrt2}=\frac12,\qquad\varphi=30^\circ.$$
+
+**Answer.** $30^\circ$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính góc giữa hai mặt phẳng $(P): 2x-y+z-1=0$ và $(Q): x+y+2z+3=0$.
+
+[LỜI GIẢI CŨ – VI]
+$$\cos\varphi=\frac{|2-1+2|}{\sqrt6\cdot\sqrt6}=\frac36=\frac12,\qquad\varphi=60^\circ.$$
+
+**Đáp số.** $60^\circ$.
+
+[ĐỀ – EN]
+Find the angle between the planes $(P): 2x-y+z-1=0$ and $(Q): x+y+2z+3=0$.
+
+[LỜI GIẢI CŨ – EN]
+$$\cos\varphi=\frac{|2-1+2|}{\sqrt6\cdot\sqrt6}=\frac36=\frac12,\qquad\varphi=60^\circ.$$
+
+**Answer.** $60^\circ$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính góc giữa đường thẳng $\Delta: \dfrac{x-1}{2}=\dfrac{y+1}{-2}=\dfrac{z}{1}$ và mặt phẳng $(Oxy)$ (làm tròn đến hàng phần mười của độ).
+
+[LỜI GIẢI CŨ – VI]
+$$\sin\varphi=\frac{|1|}{3\cdot1}=\frac13,\qquad\varphi\approx19{,}5^\circ.$$
+
+**Đáp số.** Khoảng $19{,}5^\circ$.
+
+[ĐỀ – EN]
+Find the angle between the line $\Delta: \dfrac{x-1}{2}=\dfrac{y+1}{-2}=\dfrac{z}{1}$ and the plane $(Oxy)$ (to one decimal place of a degree).
+
+[LỜI GIẢI CŨ – EN]
+$$\sin\varphi=\frac{|1|}{3\cdot1}=\frac13,\qquad\varphi\approx19.5^\circ.$$
+
+**Answer.** About $19.5^\circ$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $1$, đặt $A(0; 0; 0)$, $B(1; 0; 0)$, $D(0; 1; 0)$, $A'(0; 0; 1)$. Mỗi khẳng định sau đúng hay sai?
+
+a) Góc giữa hai đường thẳng $AC$ và $B'D'$ bằng $90^\circ$.
+
+b) Góc giữa đường thẳng $A'C$ và mặt phẳng $(ABCD)$ bằng $45^\circ$.
+
+c) Góc $\varphi$ giữa mặt phẳng $(A'BD)$ và mặt phẳng $(ABCD)$ thoả mãn $\cos\varphi=\dfrac{1}{\sqrt3}$.
+
+d) Góc giữa hai đường thẳng $AC'$ và $BD$ bằng $60^\circ$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** $\overrightarrow{AC}=(1; 1; 0)$, $\overrightarrow{B'D'}=(-1; 1; 0)$, tích vô hướng bằng $0$.
+
+b) **Sai.** $\overrightarrow{A'C}=(1; 1; -1)$, $\sin\varphi=\dfrac{1}{\sqrt3}$, nên $\varphi\approx35{,}3^\circ$.
+
+c) **Đúng.** $\vec{n}=(1; 1; 1)$ và $\vec{k}=(0; 0; 1)$: $\cos\varphi=\dfrac{1}{\sqrt3}$.
+
+d) **Sai.** $\overrightarrow{AC'}=(1; 1; 1)$, $\overrightarrow{BD}=(-1; 1; 0)$, tích vô hướng bằng $0$, nên góc bằng $90^\circ$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Let $ABCD.A'B'C'D'$ be a cube with edge $1$, with $A(0, 0, 0)$, $B(1, 0, 0)$, $D(0, 1, 0)$, $A'(0, 0, 1)$. Is each claim true or false?
+
+a) The angle between the lines $AC$ and $B'D'$ is $90^\circ$.
+
+b) The angle between the line $A'C$ and the plane $(ABCD)$ is $45^\circ$.
+
+c) The angle $\varphi$ between the planes $(A'BD)$ and $(ABCD)$ satisfies $\cos\varphi=\dfrac{1}{\sqrt3}$.
+
+d) The angle between the lines $AC'$ and $BD$ is $60^\circ$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** $\overrightarrow{AC}=(1, 1, 0)$, $\overrightarrow{B'D'}=(-1, 1, 0)$, and their scalar product is $0$.
+
+b) **False.** $\overrightarrow{A'C}=(1, 1, -1)$, $\sin\varphi=\dfrac{1}{\sqrt3}$, so $\varphi\approx35.3^\circ$.
+
+c) **True.** $\vec{n}=(1, 1, 1)$ and $\vec{k}=(0, 0, 1)$: $\cos\varphi=\dfrac{1}{\sqrt3}$.
+
+d) **False.** $\overrightarrow{AC'}=(1, 1, 1)$, $\overrightarrow{BD}=(-1, 1, 0)$, and their scalar product is $0$, so the angle is $90^\circ$.
+
+**Answer.** a) True; b) False; c) True; d) False.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một đường dốc cho xe lăn là mặt phẳng nghiêng: cứ đi $12$ m theo phương ngang thì lên cao $1$ m. Đặt mặt dốc là $(P): x-12z=0$ (đơn vị: mét). Tính góc giữa mặt dốc và mặt đất (đơn vị: độ, làm tròn đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+$$\cos\varphi=\frac{|-12|}{\sqrt{1+144}\cdot1}=\frac{12}{\sqrt{145}}\approx0{,}9965,\qquad\varphi\approx4{,}8^\circ.$$
+(Kiểm tra bằng tam giác vuông: $\tan\varphi=\dfrac{1}{12}$.)
+
+**Đáp số.** $4{,}8$.
+
+[ĐỀ – EN]
+A wheelchair ramp is an inclined plane: for every $12$ m along the ground it rises $1$ m. Take the ramp as the plane $(P): x-12z=0$ (unit: metre). Find the angle between the ramp and the ground (in degrees, to 1 decimal place).
+
+[LỜI GIẢI CŨ – EN]
+$$\cos\varphi=\frac{|-12|}{\sqrt{1+144}\cdot1}=\frac{12}{\sqrt{145}}\approx0.9965,\qquad\varphi\approx4.8^\circ.$$
+(Check with a right-angled triangle: $\tan\varphi=\dfrac{1}{12}$.)
+
+**Answer.** $4.8$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật, $AB=3$, $AD=4$, $SA$ vuông góc với đáy và $SA=5$. Tính góc giữa $SC$ và mặt đáy, góc giữa $SC$ và mặt phẳng $(SAB)$ (làm tròn đến hàng phần mười của độ).
+
+[LỜI GIẢI CŨ – VI]
+$|\overrightarrow{SC}|=\sqrt{50}=5\sqrt2$.
+$$\sin\varphi_1=\frac{5}{5\sqrt2}=\frac{\sqrt2}{2},\ \varphi_1=45^\circ;\qquad \sin\varphi_2=\frac{4}{5\sqrt2}\approx0{,}566,\ \varphi_2\approx34{,}4^\circ.$$
+
+**Đáp số.** $45^\circ$ và khoảng $34{,}4^\circ$.
+
+[ĐỀ – EN]
+The pyramid $S.ABCD$ has a rectangular base with $AB=3$, $AD=4$, $SA$ perpendicular to the base and $SA=5$. Find the angle between $SC$ and the base, and the angle between $SC$ and the plane $(SAB)$ (to one decimal place of a degree).
+
+[LỜI GIẢI CŨ – EN]
+$|\overrightarrow{SC}|=\sqrt{50}=5\sqrt2$.
+$$\sin\varphi_1=\frac{5}{5\sqrt2}=\frac{\sqrt2}{2},\ \varphi_1=45^\circ;\qquad \sin\varphi_2=\frac{4}{5\sqrt2}\approx0.566,\ \varphi_2\approx34.4^\circ.$$
+
+**Answer.** $45^\circ$ and about $34.4^\circ$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+(Ôn lại [Phương trình mặt phẳng](lesson:plane-equation).) Mặt phẳng đi qua $A(2; 0; 0)$, $B(0; 1; 0)$, $C(0; 0; 2)$ tạo với mặt phẳng $(Oxy)$ một góc bao nhiêu độ (làm tròn đến hàng phần mười)?
+
+[LỜI GIẢI CŨ – VI]
+$$\cos\varphi=\frac{1}{\sqrt6}\approx0{,}408,\qquad\varphi\approx65{,}9^\circ.$$
+
+**Đáp số.** Khoảng $65{,}9^\circ$.
+
+[ĐỀ – EN]
+(Revisiting [The equation of a plane](lesson:plane-equation).) What angle does the plane through $A(2, 0, 0)$, $B(0, 1, 0)$, $C(0, 0, 2)$ make with the plane $(Oxy)$ (to one decimal place of a degree)?
+
+[LỜI GIẢI CŨ – EN]
+$$\cos\varphi=\frac{1}{\sqrt6}\approx0.408,\qquad\varphi\approx65.9^\circ.$$
+
+**Answer.** About $65.9^\circ$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+(Ôn lại [Phương trình đường thẳng trong không gian](lesson:line-equation-space).) Cho $A(1; 2; -1)$, $B(3; -1; 1)$ và $(P): x-2y+2z+3=0$. Tính góc giữa đường thẳng $AB$ và $(P)$ (làm tròn đến hàng phần mười của độ).
+
+[LỜI GIẢI CŨ – VI]
+$$\sin\varphi=\frac{|2+6+4|}{\sqrt{17}\cdot3}=\frac{4}{\sqrt{17}}\approx0{,}970,\qquad\varphi\approx76{,}0^\circ.$$
+
+**Đáp số.** Khoảng $76{,}0^\circ$.
+
+[ĐỀ – EN]
+(Revisiting [The equation of a line in space](lesson:line-equation-space).) Let $A(1, 2, -1)$, $B(3, -1, 1)$ and $(P): x-2y+2z+3=0$. Find the angle between the line $AB$ and $(P)$ (to one decimal place of a degree).
+
+[LỜI GIẢI CŨ – EN]
+$$\sin\varphi=\frac{|2+6+4|}{\sqrt{17}\cdot3}=\frac{4}{\sqrt{17}}\approx0.970,\qquad\varphi\approx76.0^\circ.$$
+
+**Answer.** About $76.0^\circ$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $1$. Tính góc giữa đường chéo $BD'$ và mặt phẳng $(A'BD)$ (làm tròn đến hàng phần mười của độ).
+
+[LỜI GIẢI CŨ – VI]
+$$\sin\varphi=\frac{|-1+1+1|}{\sqrt3\cdot\sqrt3}=\frac13,\qquad\varphi\approx19{,}5^\circ.$$
+**Kiểm tra.** $\sin\varphi$ nhỏ nên $BD'$ gần như nằm sát mặt phẳng, đúng vì $B$ thuộc $(A'BD)$ và $D'$ chỉ cách mặt phẳng $\dfrac{1}{\sqrt3}$.
+
+**Đáp số.** Khoảng $19{,}5^\circ$.
+
+[ĐỀ – EN]
+Let $ABCD.A'B'C'D'$ be a cube with edge $1$. Find the angle between the diagonal $BD'$ and the plane $(A'BD)$ (to one decimal place of a degree).
+
+[LỜI GIẢI CŨ – EN]
+$$\sin\varphi=\frac{|-1+1+1|}{\sqrt3\cdot\sqrt3}=\frac13,\qquad\varphi\approx19.5^\circ.$$
+**Check.** $\sin\varphi$ is small, so $BD'$ stays close to the plane, which fits: $B$ lies in $(A'BD)$ and $D'$ is only $\dfrac{1}{\sqrt3}$ from it.
+
+**Answer.** About $19.5^\circ$.
+
+
+######################################################################
+@@@ g12/antiderivatives
+Bài học: Nguyên hàm / Antiderivatives
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tìm $\displaystyle\int(4x^3-6x+7)\,dx$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\displaystyle\int(4x^3-6x+7)\,dx=4\cdot\frac{x^4}{4}-6\cdot\frac{x^2}{2}+7x+C=x^4-3x^2+7x+C$.
+
+Vậy họ nguyên hàm cần tìm là $x^4-3x^2+7x+C$.
+
+**Đáp số.** $x^4-3x^2+7x+C$.
+
+[ĐỀ – EN]
+Find $\displaystyle\int(4x^3-6x+7)\,dx$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\displaystyle\int(4x^3-6x+7)\,dx=4\cdot\frac{x^4}{4}-6\cdot\frac{x^2}{2}+7x+C=x^4-3x^2+7x+C$.
+
+So the required family is $x^4-3x^2+7x+C$.
+
+**Answer.** $x^4-3x^2+7x+C$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm $\displaystyle\int\left(3\sqrt x+\frac1{x^2}\right)dx$ trên khoảng $(0; +\infty)$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\displaystyle\int\left(3x^{\frac12}+x^{-2}\right)dx=3\cdot\frac{x^{\frac32}}{\frac32}+\frac{x^{-1}}{-1}+C=2x\sqrt x-\frac1x+C$.
+
+Vậy họ nguyên hàm cần tìm là $2x\sqrt x-\dfrac1x+C$.
+
+**Đáp số.** $2x\sqrt x-\dfrac1x+C$.
+
+[ĐỀ – EN]
+Find $\displaystyle\int\left(3\sqrt x+\frac1{x^2}\right)dx$ on $(0, +\infty)$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\displaystyle\int\left(3x^{\frac12}+x^{-2}\right)dx=3\cdot\frac{x^{\frac32}}{\frac32}+\frac{x^{-1}}{-1}+C=2x\sqrt x-\frac1x+C$.
+
+So the required family is $2x\sqrt x-\dfrac1x+C$.
+
+**Answer.** $2x\sqrt x-\dfrac1x+C$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tìm $\displaystyle\int\left(5e^x-2\sin x+\frac{1}{\sin^2x}\right)dx$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\displaystyle\int\left(5e^x-2\sin x+\frac{1}{\sin^2x}\right)dx=5e^x-2(-\cos x)+(-\cot x)+C=5e^x+2\cos x-\cot x+C$.
+
+Vậy họ nguyên hàm cần tìm là $5e^x+2\cos x-\cot x+C$.
+
+**Đáp số.** $5e^x+2\cos x-\cot x+C$.
+
+[ĐỀ – EN]
+Find $\displaystyle\int\left(5e^x-2\sin x+\frac{1}{\sin^2x}\right)dx$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\displaystyle\int\left(5e^x-2\sin x+\frac{1}{\sin^2x}\right)dx=5e^x-2(-\cos x)+(-\cot x)+C=5e^x+2\cos x-\cot x+C$.
+
+So the required family is $5e^x+2\cos x-\cot x+C$.
+
+**Answer.** $5e^x+2\cos x-\cot x+C$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm $\displaystyle\int(2x-1)^2\,dx$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $(2x-1)^2=4x^2-4x+1$. Do đó $\displaystyle\int(4x^2-4x+1)\,dx=\frac{4x^3}{3}-2x^2+x+C$.
+
+Vậy họ nguyên hàm cần tìm là $\dfrac43x^3-2x^2+x+C$.
+
+**Đáp số.** $\dfrac43x^3-2x^2+x+C$.
+
+[ĐỀ – EN]
+Find $\displaystyle\int(2x-1)^2\,dx$.
+
+[LỜI GIẢI CŨ – EN]
+We have $(2x-1)^2=4x^2-4x+1$. Hence $\displaystyle\int(4x^2-4x+1)\,dx=\frac{4x^3}{3}-2x^2+x+C$.
+
+So the required family is $\dfrac43x^3-2x^2+x+C$.
+
+**Answer.** $\dfrac43x^3-2x^2+x+C$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho hàm số $f(x)=3x^2+2\cos x$. Xét tính đúng sai của các mệnh đề sau:
+
+a) $F(x)=x^3+2\sin x$ là một nguyên hàm của $f(x)$.
+
+b) $F(x)=x^3-2\sin x+5$ là một nguyên hàm của $f(x)$.
+
+c) Nguyên hàm $G(x)$ của $f(x)$ thoả mãn $G(0)=1$ là $G(x)=x^3+2\sin x+1$.
+
+d) Với $G(x)$ ở ý c), ta có $G\left(\dfrac{\pi}{2}\right)=\dfrac{\pi^3}{8}+2$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**. Ta có $(x^3+2\sin x)'=3x^2+2\cos x=f(x)$.
+
+b) **Sai**. Ta có $(x^3-2\sin x+5)'=3x^2-2\cos x\neq f(x)$.
+
+c) **Đúng**. Ta có $G(x)=x^3+2\sin x+C$ và $G(0)=C=1$.
+
+d) **Sai**. Ta có $G\left(\dfrac{\pi}{2}\right)=\dfrac{\pi^3}{8}+2\cdot1+1=\dfrac{\pi^3}{8}+3$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Consider the function $f(x)=3x^2+2\cos x$. Decide whether each statement is true or false.
+
+a) $F(x)=x^3+2\sin x$ is an antiderivative of $f(x)$.
+
+b) $F(x)=x^3-2\sin x+5$ is an antiderivative of $f(x)$.
+
+c) The antiderivative $G(x)$ of $f(x)$ with $G(0)=1$ is $G(x)=x^3+2\sin x+1$.
+
+d) For $G(x)$ in c), $G\left(\dfrac{\pi}{2}\right)=\dfrac{\pi^3}{8}+2$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**. We have $(x^3+2\sin x)'=3x^2+2\cos x=f(x)$.
+
+b) **False**. We have $(x^3-2\sin x+5)'=3x^2-2\cos x\neq f(x)$.
+
+c) **True**. We have $G(x)=x^3+2\sin x+C$ and $G(0)=C=1$.
+
+d) **False**. We have $G\left(\dfrac{\pi}{2}\right)=\dfrac{\pi^3}{8}+2\cdot1+1=\dfrac{\pi^3}{8}+3$.
+
+**Answer.** a) True; b) False; c) True; d) False.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho $F(x)$ là nguyên hàm của $f(x)=4x^3-2x$ thoả mãn $F(1)=3$. Tính $F(2)$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $F(x)=x^4-x^2+C$. Vì $F(1)=1-1+C=3$ nên $C=3$.
+
+Vậy $F(2)=16-4+3=15$.
+
+**Đáp số.** $15$.
+
+[ĐỀ – EN]
+Let $F(x)$ be the antiderivative of $f(x)=4x^3-2x$ that satisfies $F(1)=3$. Find $F(2)$.
+
+[LỜI GIẢI CŨ – EN]
+We have $F(x)=x^4-x^2+C$. Since $F(1)=1-1+C=3$, $C=3$.
+
+So $F(2)=16-4+3=15$.
+
+**Answer.** $15$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm hàm số $f(x)$ biết $f''(x)=6x+2$, $f'(0)=1$ và $f(0)=-1$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $f'(x)=\displaystyle\int(6x+2)\,dx=3x^2+2x+C_1$. Vì $f'(0)=C_1=1$ nên $f'(x)=3x^2+2x+1$. Suy ra $f(x)=x^3+x^2+x+C_2$. Vì $f(0)=C_2=-1$ nên $f(x)=x^3+x^2+x-1$ (kiểm tra: $f''(x)=6x+2$).
+
+Vậy $f(x)=x^3+x^2+x-1$.
+
+**Đáp số.** $f(x)=x^3+x^2+x-1$.
+
+[ĐỀ – EN]
+Find the function $f(x)$ with $f''(x)=6x+2$, $f'(0)=1$ and $f(0)=-1$.
+
+[LỜI GIẢI CŨ – EN]
+We have $f'(x)=\displaystyle\int(6x+2)\,dx=3x^2+2x+C_1$. Since $f'(0)=C_1=1$, $f'(x)=3x^2+2x+1$. It follows that $f(x)=x^3+x^2+x+C_2$. Since $f(0)=C_2=-1$, $f(x)=x^3+x^2+x-1$ (check: $f''(x)=6x+2$).
+
+So $f(x)=x^3+x^2+x-1$.
+
+**Answer.** $f(x)=x^3+x^2+x-1$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tìm $\displaystyle\int\sin^2\frac{x}{2}\,dx$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\sin^2\dfrac x2=\dfrac{1-\cos x}{2}$ (công thức hạ bậc). Do đó $\displaystyle\int\left(\frac12-\frac12\cos x\right)dx=\frac x2-\frac12\sin x+C$. Kiểm tra: $\left(\dfrac x2-\dfrac12\sin x\right)'=\dfrac{1-\cos x}{2}=\sin^2\dfrac x2$.
+
+**Đáp số.** $\dfrac x2-\dfrac{\sin x}{2}+C$.
+
+[ĐỀ – EN]
+Find $\displaystyle\int\sin^2\frac{x}{2}\,dx$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\sin^2\dfrac x2=\dfrac{1-\cos x}{2}$ (the half-angle formula). Hence $\displaystyle\int\left(\frac12-\frac12\cos x\right)dx=\frac x2-\frac12\sin x+C$. Check: $\left(\dfrac x2-\dfrac12\sin x\right)'=\dfrac{1-\cos x}{2}=\sin^2\dfrac x2$.
+
+**Answer.** $\dfrac x2-\dfrac{\sin x}{2}+C$.
+
+
+######################################################################
+@@@ g12/asymptotes
+Bài học: Đường tiệm cận của đồ thị hàm số / Asymptotes
+Cần viết lại lời giải các bài: 2, 5, 7 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm các tiệm cận của đồ thị hàm số $y=\dfrac{1-2x}{x+3}$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\lim\limits_{x\to\pm\infty}y=\dfrac{-2}{1}=-2$. Tại $x=-3$, tử bằng $7\neq0$ nên $\lim\limits_{x\to-3^+}y=+\infty$.
+
+Vậy đồ thị có một tiệm cận đứng và một tiệm cận ngang.
+
+**Đáp số.** Tiệm cận đứng $x=-3$, tiệm cận ngang $y=-2$.
+
+[ĐỀ – EN]
+Find the asymptotes of the graph of $y=\dfrac{1-2x}{x+3}$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\lim\limits_{x\to\pm\infty}y=\dfrac{-2}{1}=-2$. At $x=-3$ the numerator is $7\neq0$, so $\lim\limits_{x\to-3^+}y=+\infty$.
+
+So the graph has one vertical and one horizontal asymptote.
+
+**Answer.** Vertical asymptote $x=-3$, horizontal asymptote $y=-2$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho hàm số $y=\dfrac{x^2-3x+4}{x-2}$. Xét tính đúng sai của các mệnh đề sau:
+
+a) Đường thẳng $x=2$ là tiệm cận đứng của đồ thị.
+
+b) Đồ thị không có tiệm cận ngang.
+
+c) Đường thẳng $y=x+1$ là tiệm cận xiên của đồ thị.
+
+d) Đồ thị có đúng hai đường tiệm cận.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $x^2-3x+4=(x-2)(x-1)+2$ nên $y=x-1+\dfrac{2}{x-2}$.
+
+a) **Đúng**. Vì tử bằng $2\neq0$ tại $x=2$ nên $\lim\limits_{x\to2^+}y=+\infty$.
+
+b) **Đúng**. Ta có $y\to+\infty$ khi $x\to+\infty$ và $y\to-\infty$ khi $x\to-\infty$.
+
+c) **Sai**. Tiệm cận xiên là $y=x-1$.
+
+d) **Đúng**. Đồ thị có tiệm cận đứng $x=2$ và tiệm cận xiên $y=x-1$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Consider the function $y=\dfrac{x^2-3x+4}{x-2}$. Decide whether each statement is true or false.
+
+a) The line $x=2$ is a vertical asymptote of the graph.
+
+b) The graph has no horizontal asymptote.
+
+c) The line $y=x+1$ is an oblique asymptote of the graph.
+
+d) The graph has exactly two asymptotes.
+
+[LỜI GIẢI CŨ – EN]
+We have $x^2-3x+4=(x-2)(x-1)+2$, so $y=x-1+\dfrac{2}{x-2}$.
+
+a) **True**. Since the numerator is $2\neq0$ at $x=2$, $\lim\limits_{x\to2^+}y=+\infty$.
+
+b) **True**. We have $y\to+\infty$ as $x\to+\infty$ and $y\to-\infty$ as $x\to-\infty$.
+
+c) **False**. The oblique asymptote is $y=x-1$.
+
+d) **True**. The graph has the vertical asymptote $x=2$ and the oblique asymptote $y=x-1$.
+
+**Answer.** a) True; b) True; c) False; d) True.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một bể chứa $200$ lít nước sạch. Người ta bơm vào bể nước muối có nồng độ $30$ gam/lít với tốc độ $10$ lít/phút. Sau $t$ phút, nồng độ muối trong bể là $C(t)=\dfrac{30t}{20+t}$ (gam/lít). Tìm tiệm cận ngang của đồ thị hàm số $C(t)$ và nêu ý nghĩa thực tế.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{300t}{200+10t}=\dfrac{30t}{20+t}$ (chia tử và mẫu cho $10$) và $\lim\limits_{t\to+\infty}\dfrac{30t}{20+t}=30$. Chẳng hạn $C(10)=10$, $C(60)=22{,}5$, $C(180)=27$.
+
+Vậy đồ thị có tiệm cận ngang $C=30$.
+
+**Đáp số.** Tiệm cận ngang $C=30$: theo thời gian, nồng độ muối trong bể tiến gần $30$ gam/lít (nồng độ của nước bơm vào) nhưng không vượt quá.
+
+[ĐỀ – EN]
+A tank holds $200$ litres of clean water. Salt water with a concentration of $30$ grams per litre is pumped in at $10$ litres per minute. After $t$ minutes, the salt concentration in the tank is $C(t)=\dfrac{30t}{20+t}$ (grams per litre). Find the horizontal asymptote of the graph of $C(t)$ and explain its practical meaning.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{300t}{200+10t}=\dfrac{30t}{20+t}$ (dividing the numerator and the denominator by $10$) and $\lim\limits_{t\to+\infty}\dfrac{30t}{20+t}=30$. For example, $C(10)=10$, $C(60)=22.5$, $C(180)=27$.
+
+So the graph has the horizontal asymptote $C=30$.
+
+**Answer.** Horizontal asymptote $C=30$: over time the salt concentration in the tank gets close to $30$ grams per litre (the concentration of the incoming water) but never exceeds it.
+
+
+######################################################################
+@@@ g12/conditional-probability-intro
+Bài học: Xác suất có điều kiện / Conditional probability
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Gieo một con xúc xắc cân đối. Biết xuất hiện mặt lẻ, tính xác suất số chấm không vượt quá $3$.
+
+[LỜI GIẢI CŨ – VI]
+$A\cap B=\{1; 3\}$, nên $P(A\mid B)=\dfrac23$.
+
+**Đáp số.** $\dfrac23$.
+
+[ĐỀ – EN]
+A fair die is rolled. Given that the result is odd, find the probability that it is at most $3$.
+
+[LỜI GIẢI CŨ – EN]
+$A\cap B=\{1, 3\}$, so $P(A\mid B)=\dfrac23$.
+
+**Answer.** $\dfrac23$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Một lớp có $40$ học sinh: $20$ nam, trong đó $14$ bạn thích môn Toán; $20$ nữ, trong đó $10$ bạn thích môn Toán. Chọn ngẫu nhiên một học sinh. Tính xác suất bạn đó thích Toán biết đó là bạn nữ, và xác suất bạn đó là nam biết bạn thích Toán.
+
+[LỜI GIẢI CŨ – VI]
+$P(\text{thích Toán}\mid\text{nữ})=\dfrac{10}{20}=\dfrac12$; $P(\text{nam}\mid\text{thích Toán})=\dfrac{14}{24}=\dfrac{7}{12}$.
+
+**Đáp số.** $\dfrac12$ và $\dfrac7{12}$.
+
+[ĐỀ – EN]
+A class has $40$ students: $20$ boys, $14$ of whom like maths, and $20$ girls, $10$ of whom like maths. One student is chosen at random. Find the probability that the student likes maths given that she is a girl, and the probability that the student is a boy given that the student likes maths.
+
+[LỜI GIẢI CŨ – EN]
+$P(\text{likes maths}\mid\text{girl})=\dfrac{10}{20}=\dfrac12$; $P(\text{boy}\mid\text{likes maths})=\dfrac{14}{24}=\dfrac{7}{12}$.
+
+**Answer.** $\dfrac12$ and $\dfrac7{12}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho $P(A)=0{,}5$, $P(B)=0{,}4$, $P(A\cap B)=0{,}2$. Tính $P(A\mid B)$, $P(B\mid A)$ và cho biết $A$, $B$ có độc lập không.
+
+[LỜI GIẢI CŨ – VI]
+$P(A\mid B)=\dfrac{0{,}2}{0{,}4}=0{,}5$, $P(B\mid A)=\dfrac{0{,}2}{0{,}5}=0{,}4$. Vì $P(A\mid B)=P(A)$ nên $A$, $B$ độc lập.
+
+**Đáp số.** $0{,}5$; $0{,}4$; độc lập.
+
+[ĐỀ – EN]
+Given $P(A)=0.5$, $P(B)=0.4$ and $P(A\cap B)=0.2$, find $P(A\mid B)$ and $P(B\mid A)$, and decide whether $A$ and $B$ are independent.
+
+[LỜI GIẢI CŨ – EN]
+$P(A\mid B)=\dfrac{0.2}{0.4}=0.5$ and $P(B\mid A)=\dfrac{0.2}{0.5}=0.4$. Since $P(A\mid B)=P(A)$, $A$ and $B$ are independent.
+
+**Answer.** $0.5$; $0.4$; independent.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một hộp có $4$ viên bi trắng và $6$ viên bi đen. Lấy lần lượt hai viên không hoàn lại. Tính xác suất cả hai viên đều đen, và xác suất viên thứ hai trắng biết viên thứ nhất đen.
+
+[LỜI GIẢI CŨ – VI]
+$P(\text{hai viên đen})=\dfrac{6}{10}\cdot\dfrac59=\dfrac13$. $P(\text{trắng lần 2}\mid\text{đen lần 1})=\dfrac49$.
+
+**Đáp số.** $\dfrac13$ và $\dfrac49$.
+
+[ĐỀ – EN]
+A box holds $4$ white balls and $6$ black balls. Two balls are drawn one after the other without replacement. Find the probability that both are black, and the probability that the second is white given that the first is black.
+
+[LỜI GIẢI CŨ – EN]
+$P(\text{both black})=\dfrac{6}{10}\cdot\dfrac59=\dfrac13$. $P(\text{white second}\mid\text{black first})=\dfrac49$.
+
+**Answer.** $\dfrac13$ and $\dfrac49$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một hộp có $10$ tấm thẻ đánh số từ $1$ đến $10$. Rút ngẫu nhiên một thẻ. Gọi $A$: "số trên thẻ chẵn", $B$: "số trên thẻ lớn hơn hoặc bằng $7$". Mỗi khẳng định sau đúng hay sai?
+
+a) $P(B)=0{,}4$.
+
+b) $P(A\mid B)=\dfrac12$.
+
+c) $P(B\mid A)=\dfrac25$.
+
+d) $A$ và $B$ không độc lập.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: $P(B)=\dfrac4{10}=0{,}4$.
+
+b) **Đúng**: $P(A\mid B)=\dfrac24=\dfrac12$.
+
+c) **Đúng**: $A$ có $5$ phần tử, trong đó $8$ và $10$ thuộc $B$, nên $P(B\mid A)=\dfrac25$.
+
+d) **Sai**: $P(A\mid B)=\dfrac12=P(A)$, nên $A$ và $B$ độc lập.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+A box holds $10$ cards numbered $1$ to $10$. One card is drawn at random. Let $A$ be "the number is even" and $B$ be "the number is at least $7$". Is each claim true or false?
+
+a) $P(B)=0.4$.
+
+b) $P(A\mid B)=\dfrac12$.
+
+c) $P(B\mid A)=\dfrac25$.
+
+d) $A$ and $B$ are not independent.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: $P(B)=\dfrac4{10}=0.4$.
+
+b) **True**: $P(A\mid B)=\dfrac24=\dfrac12$.
+
+c) **True**: $A$ has $5$ elements, of which $8$ and $10$ are in $B$, so $P(B\mid A)=\dfrac25$.
+
+d) **False**: $P(A\mid B)=\dfrac12=P(A)$, so $A$ and $B$ are independent.
+
+**Answer.** a) True; b) True; c) True; d) False.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Gieo hai con xúc xắc cân đối. Biết có ít nhất một con xuất hiện mặt $6$ chấm, tính xác suất tổng số chấm ít nhất là $10$ (làm tròn đến hàng phần trăm).
+
+[LỜI GIẢI CŨ – VI]
+Các kết quả có mặt $6$ và tổng $\ge10$: $(4; 6)$, $(6; 4)$, $(5; 6)$, $(6; 5)$, $(6; 6)$. Xác suất là $\dfrac5{11}\approx0{,}4545$.
+
+**Đáp số.** $0{,}45$.
+
+[ĐỀ – EN]
+Two fair dice are rolled. Given that at least one die shows a $6$, find the probability that the total is at least $10$. Give your answer to 2 decimal places.
+
+[LỜI GIẢI CŨ – EN]
+The outcomes with a $6$ and total $\ge10$ are $(4, 6)$, $(6, 4)$, $(5, 6)$, $(6, 5)$, $(6, 6)$. The probability is $\dfrac5{11}\approx0.4545$.
+
+**Answer.** $0.45$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Ở một quán cà phê, $70\%$ khách gọi đồ uống có cà phê và $40\%$ trong số đó gọi thêm bánh. Ngoài ra, $35\%$ tổng số khách có gọi bánh. Tính xác suất một khách gọi cả cà phê và bánh, và xác suất một khách gọi cà phê biết khách đó có gọi bánh.
+
+[LỜI GIẢI CŨ – VI]
+$P(\text{cà phê và bánh})=0{,}7\cdot0{,}4=0{,}28$. $P(\text{cà phê}\mid\text{bánh})=\dfrac{0{,}28}{0{,}35}=0{,}8$.
+
+**Đáp số.** $0{,}28$ và $0{,}8$.
+
+[ĐỀ – EN]
+In a café, $70\%$ of customers order a coffee drink, and $40\%$ of those also order a cake. Also, $35\%$ of all customers order a cake. Find the probability that a customer orders both coffee and cake, and the probability that a customer ordered coffee given that the customer ordered cake.
+
+[LỜI GIẢI CŨ – EN]
+$P(\text{coffee and cake})=0.7\cdot0.4=0.28$. $P(\text{coffee}\mid\text{cake})=\dfrac{0.28}{0.35}=0.8$.
+
+**Answer.** $0.28$ and $0.8$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Hai xạ thủ bắn độc lập vào một mục tiêu, mỗi người một viên, với xác suất trúng lần lượt $0{,}8$ và $0{,}7$. Biết mục tiêu bị trúng ít nhất một viên, tính xác suất cả hai người đều bắn trúng (làm tròn đến hàng phần trăm).
+
+[LỜI GIẢI CŨ – VI]
+$P(\text{cả hai})=0{,}56$, $P(\text{ít nhất một})=1-0{,}06=0{,}94$. Vì "cả hai trúng" kéo theo "ít nhất một trúng", giao của chúng là "cả hai trúng", nên xác suất cần tìm là $\dfrac{0{,}56}{0{,}94}=\dfrac{28}{47}\approx0{,}596$.
+
+**Đáp số.** $\approx0{,}60$.
+
+[ĐỀ – EN]
+Two marksmen fire independently at a target, one shot each, hitting with probabilities $0.8$ and $0.7$. Given that the target is hit at least once, find the probability that both hit it. Give your answer to 2 decimal places.
+
+[LỜI GIẢI CŨ – EN]
+$P(\text{both})=0.56$ and $P(\text{at least one})=1-0.06=0.94$. Since "both hit" implies "at least one hit", their intersection is "both hit", so the probability is $\dfrac{0.56}{0.94}=\dfrac{28}{47}\approx0.596$.
+
+**Answer.** $\approx0.60$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một nhóm có $5$ bạn nam và $4$ bạn nữ. Chọn ngẫu nhiên $3$ bạn. Biết trong $3$ bạn được chọn có ít nhất một bạn nữ, tính xác suất có đúng một bạn nữ.
+
+[LỜI GIẢI CŨ – VI]
+$C_9^3-C_5^3=84-10=74$ và $C_4^1\cdot C_5^2=4\cdot10=40$. Xác suất là $\dfrac{40}{74}=\dfrac{20}{37}$.
+
+**Đáp số.** $\dfrac{20}{37}$.
+
+[ĐỀ – EN]
+A group has $5$ boys and $4$ girls. Three of them are chosen at random. Given that at least one girl is chosen, find the probability that exactly one girl is chosen.
+
+[LỜI GIẢI CŨ – EN]
+$\binom{9}{3}-\binom{5}{3}=84-10=74$ and $\binom{4}{1}\cdot\binom{5}{2}=4\cdot10=40$. The probability is $\dfrac{40}{74}=\dfrac{20}{37}$.
+
+**Answer.** $\dfrac{20}{37}$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Gieo một đồng xu cân đối ba lần. Gọi $A$: "lần đầu xuất hiện mặt ngửa", $B$: "có ít nhất hai lần xuất hiện mặt ngửa". Tính $P(A\mid B)$, $P(B\mid A)$ và cho biết $A$, $B$ có độc lập không.
+
+[LỜI GIẢI CŨ – VI]
+$A\cap B=\{\text{NNS}; \text{NSN}; \text{NNN}\}$ có $3$ phần tử. $P(A\mid B)=\dfrac34$ và $P(B\mid A)=\dfrac34$. Vì $P(A)=\dfrac12\neq\dfrac34$, hai biến cố không độc lập: biết lần đầu ngửa thì dễ có ít nhất hai mặt ngửa hơn.
+
+**Đáp số.** $\dfrac34$; $\dfrac34$; không độc lập.
+
+[ĐỀ – EN]
+A fair coin is tossed three times. Let $A$ be "the first toss is heads" and $B$ be "at least two tosses are heads". Find $P(A\mid B)$ and $P(B\mid A)$, and decide whether $A$ and $B$ are independent.
+
+[LỜI GIẢI CŨ – EN]
+$A\cap B=\{\text{HHT}, \text{HTH}, \text{HHH}\}$ has $3$ elements. $P(A\mid B)=\dfrac34$ and $P(B\mid A)=\dfrac34$. Since $P(A)=\dfrac12\neq\dfrac34$, the events are not independent: knowing the first toss is heads makes at least two heads more likely.
+
+**Answer.** $\dfrac34$; $\dfrac34$; not independent.
+
+
+######################################################################
+@@@ g12/coordinate-system-space
+Bài học: Hệ trục toạ độ trong không gian / Coordinate system in space
+Cần viết lại lời giải các bài: 1, 3, 4, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+a) Tìm toạ độ điểm $M$ biết $\overrightarrow{OM}=2\vec{i}-3\vec{j}+\vec{k}$.
+
+b) Tìm toạ độ của vectơ $\vec{a}=-\vec{i}+4\vec{k}$.
+
+[LỜI GIẢI CŨ – VI]
+a) Vì $\overrightarrow{OM}=2\vec{i}+(-3)\vec{j}+1\cdot\vec{k}$ nên $M(2; -3; 1)$.
+
+b) Vì $\vec{a}=-1\cdot\vec{i}+0\cdot\vec{j}+4\vec{k}$ nên $\vec{a}=(-1; 0; 4)$.
+
+Vậy $M(2; -3; 1)$ và $\vec{a}=(-1; 0; 4)$.
+
+**Đáp số.** a) $M(2; -3; 1)$; b) $\vec{a}=(-1; 0; 4)$.
+
+[ĐỀ – EN]
+a) Find the coordinates of the point $M$ given $\overrightarrow{OM}=2\vec{i}-3\vec{j}+\vec{k}$.
+
+b) Find the coordinates of the vector $\vec{a}=-\vec{i}+4\vec{k}$.
+
+[LỜI GIẢI CŨ – EN]
+a) Since $\overrightarrow{OM}=2\vec{i}+(-3)\vec{j}+1\cdot\vec{k}$, $M(2, -3, 1)$.
+
+b) Since $\vec{a}=-1\cdot\vec{i}+0\cdot\vec{j}+4\vec{k}$, $\vec{a}=(-1, 0, 4)$.
+
+So $M(2, -3, 1)$ and $\vec{a}=(-1, 0, 4)$.
+
+**Answer.** a) $M(2, -3, 1)$; b) $\vec{a}=(-1, 0, 4)$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho $A(2; -1; 3)$ và $B(-1; 3; 3)$. Tìm toạ độ của $\overrightarrow{AB}$ và độ dài $AB$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có
+$$\overrightarrow{AB}=(-3; 4; 0),\qquad AB=\sqrt{9+16+0}=5.$$
+Vậy $\overrightarrow{AB}=(-3; 4; 0)$ và $AB=5$.
+
+**Đáp số.** $\overrightarrow{AB}=(-3; 4; 0)$; $AB=5$.
+
+[ĐỀ – EN]
+Let $A(2, -1, 3)$ and $B(-1, 3, 3)$. Find the coordinates of $\overrightarrow{AB}$ and the length $AB$.
+
+[LỜI GIẢI CŨ – EN]
+We have
+$$\overrightarrow{AB}=(-3, 4, 0),\qquad AB=\sqrt{9+16+0}=5.$$
+So $\overrightarrow{AB}=(-3, 4, 0)$ and $AB=5$.
+
+**Answer.** $\overrightarrow{AB}=(-3, 4, 0)$; $AB=5$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho $A(2; 1; -3)$, $B(0; 5; 1)$, $C(4; -3; 5)$. Tìm trung điểm $M$ của $AB$ và trọng tâm $G$ của tam giác $ABC$.
+
+[LỜI GIẢI CŨ – VI]
+Theo công thức toạ độ trung điểm và trọng tâm, ta có
+$$M\left(\frac{2+0}{2};\ \frac{1+5}{2};\ \frac{-3+1}{2}\right)=M(1; 3; -1),\qquad G\left(\frac{6}{3};\ \frac{3}{3};\ \frac{3}{3}\right)=G(2; 1; 1).$$
+
+**Đáp số.** $M(1; 3; -1)$; $G(2; 1; 1)$.
+
+[ĐỀ – EN]
+Let $A(2, 1, -3)$, $B(0, 5, 1)$, $C(4, -3, 5)$. Find the midpoint $M$ of $AB$ and the centroid $G$ of triangle $ABC$.
+
+[LỜI GIẢI CŨ – EN]
+By the formulas for the midpoint and the centroid, we have
+$$M\left(\frac{2+0}{2},\ \frac{1+5}{2},\ \frac{-3+1}{2}\right)=M(1, 3, -1),\qquad G\left(\frac{6}{3},\ \frac{3}{3},\ \frac{3}{3}\right)=G(2, 1, 1).$$
+
+**Answer.** $M(1, 3, -1)$; $G(2, 1, 1)$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Trong không gian $Oxyz$, cho điểm $M(3; -4; 12)$. Xét tính đúng sai của các mệnh đề sau:
+
+a) Hình chiếu của $M$ lên mặt phẳng $(Oxy)$ là $(3; -4; 0)$.
+
+b) Khoảng cách từ $M$ đến mặt phẳng $(Oyz)$ bằng $4$.
+
+c) $OM=13$.
+
+d) Khoảng cách từ $M$ đến trục $Ox$ bằng $4$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** Hình chiếu lên $(Oxy)$ giữ nguyên $x$, $y$ và có $z=0$.
+
+b) **Sai.** Khoảng cách đến $(Oyz)$ là $|x|=3$.
+
+c) **Đúng.** Ta có $OM=\sqrt{9+16+144}=\sqrt{169}=13$.
+
+d) **Sai.** Hình chiếu của $M$ lên $Ox$ là $H(3; 0; 0)$ nên $MH=\sqrt{16+144}=\sqrt{160}=4\sqrt{10}$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+In the system $Oxyz$, let $M(3, -4, 12)$. Decide whether each statement is true or false.
+
+a) The projection of $M$ onto the plane $(Oxy)$ is $(3, -4, 0)$.
+
+b) The distance from $M$ to the plane $(Oyz)$ is $4$.
+
+c) $OM=13$.
+
+d) The distance from $M$ to the axis $Ox$ is $4$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** The projection onto $(Oxy)$ keeps $x$, $y$ and has $z=0$.
+
+b) **False.** The distance to $(Oyz)$ is $|x|=3$.
+
+c) **True.** We have $OM=\sqrt{9+16+144}=\sqrt{169}=13$.
+
+d) **False.** The projection of $M$ onto $Ox$ is $H(3, 0, 0)$, so $MH=\sqrt{16+144}=\sqrt{160}=4\sqrt{10}$.
+
+**Answer.** a) True; b) False; c) True; d) False.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Hình lập phương $ABCD.A'B'C'D'$ cạnh $4$ được đặt vào hệ $Oxyz$ sao cho $A$ trùng $O$, $B(4; 0; 0)$, $D(0; 4; 0)$, $A'(0; 0; 4)$. Tìm toạ độ $C'$, tâm $I$ của mặt $A'B'C'D'$ và độ dài $IB$.
+
+[LỜI GIẢI CŨ – VI]
+Theo quy tắc hình hộp, $\overrightarrow{AC'}=\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=(4; 0; 0)+(0; 4; 0)+(0; 0; 4)=(4; 4; 4)$ nên $C'(4; 4; 4)$. Tâm $I$ là trung điểm của $A'(0; 0; 4)$ và $C'$ nên $I(2; 2; 4)$. Do đó
+$$IB=\sqrt{(4-2)^2+(0-2)^2+(0-4)^2}=\sqrt{24}=2\sqrt6.$$
+
+**Đáp số.** $C'(4; 4; 4)$, $I(2; 2; 4)$, $IB=2\sqrt6\approx4{,}90$.
+
+[ĐỀ – EN]
+The cube $ABCD.A'B'C'D'$ with edge $4$ is placed in $Oxyz$ so that $A$ is at $O$, $B(4, 0, 0)$, $D(0, 4, 0)$, $A'(0, 0, 4)$. Find the coordinates of $C'$, of the centre $I$ of the face $A'B'C'D'$, and the length $IB$.
+
+[LỜI GIẢI CŨ – EN]
+By the parallelepiped rule, $\overrightarrow{AC'}=\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=(4, 0, 0)+(0, 4, 0)+(0, 0, 4)=(4, 4, 4)$, so $C'(4, 4, 4)$. The centre $I$ is the midpoint of $A'(0, 0, 4)$ and $C'$, so $I(2, 2, 4)$. Hence
+$$IB=\sqrt{(4-2)^2+(0-2)^2+(0-4)^2}=\sqrt{24}=2\sqrt6.$$
+
+**Answer.** $C'(4, 4, 4)$, $I(2, 2, 4)$, $IB=2\sqrt6\approx4.90$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+(Ôn lại [Vectơ trong mặt phẳng toạ độ](lesson:vectors-in-coordinates).) Trong mặt phẳng $Oxy$, cho $A(1; 2)$ và $B(4; 6)$.
+
+a) Tính $AB$ theo công thức của lớp 10.
+
+b) Coi $A$, $B$ là các điểm $A(1; 2; 0)$, $B(4; 6; 0)$ của mặt phẳng $(Oxy)$ trong không gian. Nâng $B$ lên thẳng đứng thành $B'(4; 6; 12)$. Tính $AB'$.
+
+[LỜI GIẢI CŨ – VI]
+a) Ta có $\overrightarrow{AB}=(3; 4)$ nên $AB=\sqrt{3^2+4^2}=5$.
+
+b) Ta có $\overrightarrow{AB'}=(3; 4; 12)$ nên $AB'=\sqrt{9+16+144}=13$. Đây đúng là định lí Pythagore trong tam giác $ABB'$ vuông tại $B$: $5^2+12^2=13^2$.
+
+**Đáp số.** a) $AB=5$; b) $AB'=13$.
+
+[ĐỀ – EN]
+(Revisiting [Vectors in the coordinate plane](lesson:vectors-in-coordinates).) In the plane $Oxy$, let $A(1, 2)$ and $B(4, 6)$.
+
+a) Find $AB$ with the grade-10 formula.
+
+b) Regard $A$, $B$ as the points $A(1, 2, 0)$, $B(4, 6, 0)$ of the plane $(Oxy)$ in space. Lift $B$ straight up to $B'(4, 6, 12)$. Find $AB'$.
+
+[LỜI GIẢI CŨ – EN]
+a) We have $\overrightarrow{AB}=(3, 4)$, so $AB=\sqrt{3^2+4^2}=5$.
+
+b) We have $\overrightarrow{AB'}=(3, 4, 12)$, so $AB'=\sqrt{9+16+144}=13$. This is exactly Pythagoras' theorem in triangle $ABB'$ with the right angle at $B$: $5^2+12^2=13^2$.
+
+**Answer.** a) $AB=5$; b) $AB'=13$.
+
+
+######################################################################
+@@@ g12/definite-integrals
+Bài học: Tích phân / Definite integrals
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $\displaystyle\int_0^2(x^3-2x+3)\,dx$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\displaystyle\int_0^2(x^3-2x+3)\,dx=\Big[\dfrac{x^4}{4}-x^2+3x\Big]_0^2=(4-4+6)-0=6$.
+
+Vậy tích phân bằng $6$.
+
+**Đáp số.** $6$.
+
+[ĐỀ – EN]
+Evaluate $\displaystyle\int_0^2(x^3-2x+3)\,dx$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\displaystyle\int_0^2(x^3-2x+3)\,dx=\Big[\dfrac{x^4}{4}-x^2+3x\Big]_0^2=(4-4+6)-0=6$.
+
+So the integral equals $6$.
+
+**Answer.** $6$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính $\displaystyle\int_1^4\left(\sqrt x-\frac{1}{x^2}\right)dx$.
+
+[LỜI GIẢI CŨ – VI]
+Một nguyên hàm là $F(x)=\dfrac23x\sqrt x+\dfrac1x$. Ta có $F(4)=\dfrac{16}{3}+\dfrac14$, $F(1)=\dfrac23+1$. Vậy tích phân bằng $\dfrac{14}{3}-\dfrac34=\dfrac{56-9}{12}=\dfrac{47}{12}$.
+
+**Đáp số.** $\dfrac{47}{12}$.
+
+[ĐỀ – EN]
+Evaluate $\displaystyle\int_1^4\left(\sqrt x-\frac{1}{x^2}\right)dx$.
+
+[LỜI GIẢI CŨ – EN]
+An antiderivative is $F(x)=\dfrac23x\sqrt x+\dfrac1x$. We have $F(4)=\dfrac{16}{3}+\dfrac14$ and $F(1)=\dfrac23+1$. So the integral equals $\dfrac{14}{3}-\dfrac34=\dfrac{56-9}{12}=\dfrac{47}{12}$.
+
+**Answer.** $\dfrac{47}{12}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $\displaystyle\int_0^{\pi}(\sin x+2)\,dx$.
+
+[LỜI GIẢI CŨ – VI]
+Một nguyên hàm là $F(x)=-\cos x+2x$. Ta có $F(\pi)=1+2\pi$, $F(0)=-1$. Vậy tích phân bằng $1+2\pi-(-1)=2+2\pi$.
+
+**Đáp số.** $2+2\pi$.
+
+[ĐỀ – EN]
+Evaluate $\displaystyle\int_0^{\pi}(\sin x+2)\,dx$.
+
+[LỜI GIẢI CŨ – EN]
+An antiderivative is $F(x)=-\cos x+2x$. We have $F(\pi)=1+2\pi$ and $F(0)=-1$. So the integral equals $1+2\pi-(-1)=2+2\pi$.
+
+**Answer.** $2+2\pi$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Biết $\displaystyle\int_1^3 f(x)\,dx=5$ và $\displaystyle\int_1^3 g(x)\,dx=-2$. Tính $\displaystyle\int_1^3\big(3f(x)-2g(x)+x\big)\,dx$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\displaystyle\int_1^3x\,dx=\Big[\frac{x^2}{2}\Big]_1^3=\frac92-\frac12=4$. Theo tính chất tuyến tính, tích phân cần tính bằng $3\cdot5-2\cdot(-2)+4=15+4+4=23$.
+
+Vậy tích phân bằng $23$.
+
+**Đáp số.** $23$.
+
+[ĐỀ – EN]
+Given $\displaystyle\int_1^3 f(x)\,dx=5$ and $\displaystyle\int_1^3 g(x)\,dx=-2$, find $\displaystyle\int_1^3\big(3f(x)-2g(x)+x\big)\,dx$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\displaystyle\int_1^3x\,dx=\Big[\frac{x^2}{2}\Big]_1^3=\frac92-\frac12=4$. By linearity, the required integral is $3\cdot5-2\cdot(-2)+4=15+4+4=23$.
+
+So the integral equals $23$.
+
+**Answer.** $23$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho tích phân $I=\displaystyle\int_0^3\lvert x-2\rvert\,dx$. Xét tính đúng sai của các mệnh đề sau:
+
+a) Trên đoạn $[0; 2]$, $\lvert x-2\rvert=2-x$.
+
+b) $I=\left\lvert\displaystyle\int_0^3(x-2)\,dx\right\rvert=\dfrac32$.
+
+c) $I=\dfrac52$.
+
+d) $\displaystyle\int_3^0\lvert x-2\rvert\,dx=\dfrac52$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**. Vì với $x\le2$ thì $x-2\le0$ nên $\lvert x-2\rvert=2-x$.
+
+b) **Sai**. Không thể đưa dấu giá trị tuyệt đối ra ngoài tích phân; $I$ không bằng $\dfrac32$ (xem c).
+
+c) **Đúng**. Ta có $\displaystyle\int_0^2(2-x)\,dx=2$ và $\displaystyle\int_2^3(x-2)\,dx=\frac12$, nên $I=\dfrac52$.
+
+d) **Sai**. Vì đổi chỗ hai cận thì tích phân đổi dấu nên tích phân đó bằng $-\dfrac52$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Consider the integral $I=\displaystyle\int_0^3\lvert x-2\rvert\,dx$. Decide whether each statement is true or false.
+
+a) On $[0, 2]$, $\lvert x-2\rvert=2-x$.
+
+b) $I=\left\lvert\displaystyle\int_0^3(x-2)\,dx\right\rvert=\dfrac32$.
+
+c) $I=\dfrac52$.
+
+d) $\displaystyle\int_3^0\lvert x-2\rvert\,dx=\dfrac52$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**. Since $x-2\le0$ for $x\le2$, $\lvert x-2\rvert=2-x$.
+
+b) **False**. The absolute value cannot be moved outside the integral; $I$ is not $\dfrac32$ (see c).
+
+c) **True**. We have $\displaystyle\int_0^2(2-x)\,dx=2$ and $\displaystyle\int_2^3(x-2)\,dx=\frac12$, so $I=\dfrac52$.
+
+d) **False**. Since swapping the limits changes the sign, that integral equals $-\dfrac52$.
+
+**Answer.** a) True; b) False; c) True; d) False.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tính $\displaystyle\int_0^1(3x+1)^2\,dx$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\displaystyle\int_0^1(3x+1)^2\,dx=\Big[\dfrac{(3x+1)^3}{9}\Big]_0^1=\dfrac{64}{9}-\dfrac19=7$.
+
+Vậy tích phân bằng $7$.
+
+**Đáp số.** $7$.
+
+[ĐỀ – EN]
+Evaluate $\displaystyle\int_0^1(3x+1)^2\,dx$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\displaystyle\int_0^1(3x+1)^2\,dx=\Big[\dfrac{(3x+1)^3}{9}\Big]_0^1=\dfrac{64}{9}-\dfrac19=7$.
+
+So the integral equals $7$.
+
+**Answer.** $7$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cho $F(x)$ là một nguyên hàm của $f(x)$ trên $\mathbb{R}$ với $F(1)=2$ và $F(4)=7$. Tính $\displaystyle\int_1^4 f(x)\,dx$ và $\displaystyle\int_1^4\big(2f(x)+1\big)\,dx$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\displaystyle\int_1^4f(x)\,dx=F(4)-F(1)=7-2=5$. Do đó $\displaystyle\int_1^4\big(2f(x)+1\big)\,dx=2\cdot5+3=13$ (vì $\displaystyle\int_1^4 1\,dx=3$).
+
+Vậy hai tích phân lần lượt bằng $5$ và $13$.
+
+**Đáp số.** $5$ và $13$.
+
+[ĐỀ – EN]
+Let $F(x)$ be an antiderivative of $f(x)$ on $\mathbb{R}$ with $F(1)=2$ and $F(4)=7$. Find $\displaystyle\int_1^4 f(x)\,dx$ and $\displaystyle\int_1^4\big(2f(x)+1\big)\,dx$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\displaystyle\int_1^4f(x)\,dx=F(4)-F(1)=7-2=5$. Hence $\displaystyle\int_1^4\big(2f(x)+1\big)\,dx=2\cdot5+3=13$ (since $\displaystyle\int_1^4 1\,dx=3$).
+
+So the two integrals equal $5$ and $13$.
+
+**Answer.** $5$ and $13$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tính $\displaystyle\int_0^{\ln3}e^x\,dx$ và $\displaystyle\int_1^2 2^x\,dx$ (kết quả của tích phân thứ hai làm tròn đến hàng phần trăm).
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\displaystyle\int_0^{\ln3}e^x\,dx=e^{\ln3}-e^0=3-1=2$ và $\displaystyle\int_1^22^x\,dx=\Big[\frac{2^x}{\ln2}\Big]_1^2=\frac{2}{\ln2}\approx2{,}885$.
+
+Vậy hai tích phân lần lượt bằng $2$ và khoảng $2{,}89$.
+
+**Đáp số.** $2$ và $\dfrac{2}{\ln2}\approx2{,}89$.
+
+[ĐỀ – EN]
+Evaluate $\displaystyle\int_0^{\ln3}e^x\,dx$ and $\displaystyle\int_1^2 2^x\,dx$ (give the second one to 2 decimal places).
+
+[LỜI GIẢI CŨ – EN]
+We have $\displaystyle\int_0^{\ln3}e^x\,dx=e^{\ln3}-e^0=3-1=2$ and $\displaystyle\int_1^22^x\,dx=\Big[\frac{2^x}{\ln2}\Big]_1^2=\frac{2}{\ln2}\approx2.885$.
+
+So the two integrals equal $2$ and about $2.89$.
+
+**Answer.** $2$ and $\dfrac{2}{\ln2}\approx2.89$.
+
+
+===== HẾT GÓI GOI-L12-01 =====

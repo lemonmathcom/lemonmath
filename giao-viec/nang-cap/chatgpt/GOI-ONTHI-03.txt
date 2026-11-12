@@ -1,0 +1,960 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – GOI-ONTHI-03
+Người làm: ChatGPT. Gói này có 44 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/data/NC-ChatGPT-GOI-ONTHI-03.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/data/NC-ChatGPT-GOI-ONTHI-03.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG GÓI NÀY =====
+- exams/sat/sat-triangles-trig-circles (9 bài tập)
+- exams/ap-calculus/apcalc-accumulation-ftc (9 bài tập)
+- exams/ap-calculus/apcalc-analytical-applications (8 bài tập)
+- exams/ap-calculus/apcalc-area-volume (9 bài tập)
+- exams/ap-calculus/apcalc-bc-parametric-polar (9 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ exams/sat/sat-triangles-trig-circles
+Bài học: Tam giác, lượng giác và đường tròn / Triangles, trigonometry and circles
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Trong một tam giác vuông cân, mỗi cạnh góc vuông dài 7. Cạnh huyền dài bao nhiêu?
+A. $7$
+B. $14$
+C. $7\sqrt3$
+D. $7\sqrt2$
+
+[LỜI GIẢI CŨ – VI]
+Cạnh huyền là $7\sqrt2$: đáp án **D**. Kiểm tra bằng Pythagore: $49+49=98=(7\sqrt2)^2$.
+
+[ĐỀ – EN]
+In an isosceles right triangle, each leg has length 7. What is the length of the hypotenuse?
+A. $7$
+B. $14$
+C. $7\sqrt3$
+D. $7\sqrt2$
+
+[LỜI GIẢI CŨ – EN]
+The hypotenuse is $7\sqrt2$: answer **D**. Check with Pythagoras: $49+49=98=(7\sqrt2)^2$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Một cây cột cao 2 mét có bóng dài 3 mét. Cùng lúc đó, một cái cây có bóng dài 18 mét. Cây cao bao nhiêu mét?
+
+[LỜI GIẢI CŨ – VI]
+$h=18\cdot\dfrac23=12$ mét.
+
+[ĐỀ – EN]
+A pole 2 meters tall casts a shadow 3 meters long. At the same time, a tree casts a shadow 18 meters long. How tall is the tree, in meters?
+
+[LỜI GIẢI CŨ – EN]
+$h=18\cdot\dfrac23=12$ meters.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Với góc $0<x<90$, $\cos x^\circ=\sin20^\circ$. Giá trị của $x$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$x=70$.
+
+[ĐỀ – EN]
+For an angle with $0<x<90$, $\cos x^\circ=\sin20^\circ$. What is the value of $x$?
+
+[LỜI GIẢI CŨ – EN]
+$x=70$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Trong tam giác $ABC$ vuông tại $C$, $\sin A=\dfrac35$. Giá trị của $\cos B$ là
+A. $\dfrac45$
+B. $\dfrac34$
+C. $\dfrac35$
+D. $\dfrac43$
+
+[LỜI GIẢI CŨ – VI]
+$\cos B=\sin A=\dfrac35$: đáp án **C**. Phương án A là $\cos A$ (và $\sin B$).
+
+[ĐỀ – EN]
+In right triangle $ABC$ with the right angle at $C$, $\sin A=\dfrac35$. What is $\cos B$?
+A. $\dfrac45$
+B. $\dfrac34$
+C. $\dfrac35$
+D. $\dfrac43$
+
+[LỜI GIẢI CŨ – EN]
+$\cos B=\sin A=\dfrac35$: answer **C**. Option A is $\cos A$ (and $\sin B$).
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tâm của đường tròn $x^2+y^2+8x-2y+8=0$ là
+A. $(4, -1)$
+B. $(-4, 1)$
+C. $(8, -2)$
+D. $(-8, 2)$
+
+[LỜI GIẢI CŨ – VI]
+$(x+4)^2+(y-1)^2=16+1-8=9$. Tâm là $(-4, 1)$ và bán kính là $3$: đáp án **B**.
+
+[ĐỀ – EN]
+What is the center of the circle $x^2+y^2+8x-2y+8=0$?
+A. $(4, -1)$
+B. $(-4, 1)$
+C. $(8, -2)$
+D. $(-8, 2)$
+
+[LỜI GIẢI CŨ – EN]
+$(x+4)^2+(y-1)^2=16+1-8=9$. The center is $(-4, 1)$ and the radius is $3$: answer **B**.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một chiếc thang dài 13 feet dựa vào một bức tường thẳng đứng. Chân thang cách tường 5 feet. Đầu thang chạm tường ở độ cao bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$h^2=169-25=144$, nên $h=12$ feet.
+
+[ĐỀ – EN]
+A 13-foot ladder leans against a vertical wall. Its foot is 5 feet from the wall. How high up the wall does the ladder reach?
+
+[LỜI GIẢI CŨ – EN]
+$h^2=169-25=144$, so $h=12$ feet.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một con dốc dài 10 mét nghiêng một góc $6^\circ$ so với phương ngang. Con dốc cao lên bao nhiêu mét, làm tròn đến hàng phần trăm?
+
+[LỜI GIẢI CŨ – VI]
+$10\sin6^\circ\approx10\cdot0{,}1045=1{,}05$ mét.
+
+[ĐỀ – EN]
+A ramp 10 meters long rises at an angle of $6^\circ$ to the horizontal. How much does the ramp rise, to the nearest hundredth of a meter?
+
+[LỜI GIẢI CŨ – EN]
+$10\sin6^\circ\approx10\cdot0.1045=1.05$ meters.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một chiếc bánh pizza có bán kính 20 xăng-ti-mét được cắt thành 8 miếng bằng nhau. Diện tích một miếng và độ dài mép cong của nó là bao nhiêu? Cho giá trị chính xác và giá trị thập phân làm tròn đến một chữ số sau dấu phẩy.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích $=\dfrac18\cdot400\pi=50\pi\approx157{,}1$ xăng-ti-mét vuông. Cung $=\dfrac18\cdot40\pi=5\pi\approx15{,}7$ xăng-ti-mét.
+
+[ĐỀ – EN]
+A pizza has radius 20 centimeters and is cut into 8 equal slices. What is the area of one slice, and the length of its curved edge? Give exact answers and decimals to one decimal place.
+
+[LỜI GIẢI CŨ – EN]
+Area $=\dfrac18\cdot400\pi=50\pi\approx157.1$ square centimeters. Arc $=\dfrac18\cdot40\pi=5\pi\approx15.7$ centimeters.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Điểm $(5, k)$, với $k>0$, nằm trên đường tròn $(x-2)^2+(y-1)^2=25$. Giá trị của $k$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$(k-1)^2=16$, nên $k-1=4$ hoặc $k-1=-4$, cho $k=5$ hoặc $k=-3$. Vì $k>0$ nên $k=5$. Hai điểm $(5, 5)$ và $(5, -3)$ đối xứng nhau qua đường nằm ngang đi qua tâm.
+
+[ĐỀ – EN]
+The point $(5, k)$, with $k>0$, lies on the circle $(x-2)^2+(y-1)^2=25$. What is the value of $k$?
+
+[LỜI GIẢI CŨ – EN]
+$(k-1)^2=16$, so $k-1=4$ or $k-1=-4$, giving $k=5$ or $k=-3$. Since $k>0$, $k=5$. The two points $(5, 5)$ and $(5, -3)$ are symmetric about the horizontal line through the center.
+
+
+######################################################################
+@@@ exams/ap-calculus/apcalc-accumulation-ftc
+Bài học: Tổng Riemann, tích luỹ và định lí cơ bản của giải tích / Riemann sums, accumulation and the fundamental theorem
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Với $f(x)=x^2$ trên $[0,3]$, tính tổng Riemann trái và phải với ba khoảng bằng nhau, rồi so sánh với giá trị đúng của $\displaystyle\int_0^3x^2\,dx$.
+
+[LỜI GIẢI CŨ – VI]
+Tổng trái bằng $5$, tổng phải bằng $14$, giá trị đúng bằng $9$. Đúng như dự đoán với hàm đồng biến: $5<9<14$.
+
+[ĐỀ – EN]
+For $f(x)=x^2$ on $[0,3]$, compute the left and right Riemann sums with three equal subintervals, and compare them with the exact value of $\displaystyle\int_0^3x^2\,dx$.
+
+[LỜI GIẢI CŨ – EN]
+Left sum $5$, right sum $14$, exact value $9$. As expected for an increasing function, $5<9<14$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tích phân $\displaystyle\int_0^{\pi}\sin x\,dx$ bằng
+A. $0$
+B. $-2$
+C. $1$
+D. $2$
+
+[LỜI GIẢI CŨ – VI]
+$-(-1)+1=2$: đáp án **D**.
+
+[ĐỀ – EN]
+What is $\displaystyle\int_0^{\pi}\sin x\,dx$?
+A. $0$
+B. $-2$
+C. $1$
+D. $2$
+
+[LỜI GIẢI CŨ – EN]
+$-(-1)+1=2$: answer **D**.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho $F(x)=\displaystyle\int_1^x\left(t^3+1\right)dt$. Tính $F'(2)$ và $F(1)$.
+
+[LỜI GIẢI CŨ – VI]
+$F'(x)=x^3+1$, nên $F'(2)=9$. $F(1)=0$ vì khoảng lấy tích phân có độ rộng bằng không.
+
+[ĐỀ – EN]
+Let $F(x)=\displaystyle\int_1^x\left(t^3+1\right)dt$. Find $F'(2)$ and $F(1)$.
+
+[LỜI GIẢI CŨ – EN]
+$F'(x)=x^3+1$, so $F'(2)=9$. $F(1)=0$ because the interval has zero width.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Nếu $\displaystyle\int_0^5f(x)\,dx=7$ và $\displaystyle\int_0^2f(x)\,dx=3$ thì $\displaystyle\int_2^5\big(2f(x)+1\big)\,dx$ bằng
+A. $8$
+B. $11$
+C. $9$
+D. $14$
+
+[LỜI GIẢI CŨ – VI]
+$2(4)+3=11$: đáp án **B**. Phương án A quên số hạng $+1$.
+
+[ĐỀ – EN]
+If $\displaystyle\int_0^5f(x)\,dx=7$ and $\displaystyle\int_0^2f(x)\,dx=3$, then $\displaystyle\int_2^5\big(2f(x)+1\big)\,dx$ equals
+A. $8$
+B. $11$
+C. $9$
+D. $14$
+
+[LỜI GIẢI CŨ – EN]
+$2(4)+3=11$: answer **B**. Option A forgets the $+1$ term.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Xấp xỉ $\displaystyle\int_0^4x^2\,dx$ bằng tổng điểm giữa với hai khoảng bằng nhau. Giá trị xấp xỉ lớn hơn hay nhỏ hơn giá trị thật?
+
+[LỜI GIẢI CŨ – VI]
+Tổng điểm giữa bằng $2(1+9)=20$, còn giá trị đúng là $\dfrac{64}{3}\approx21{,}33$, nên giá trị xấp xỉ nhỏ hơn. Với hàm lõm lên, tổng điểm giữa luôn nhỏ hơn giá trị thật.
+
+[ĐỀ – EN]
+Approximate $\displaystyle\int_0^4x^2\,dx$ with a midpoint sum using two equal subintervals. Is the estimate too large or too small?
+
+[LỜI GIẢI CŨ – EN]
+The midpoint sum is $2(1+9)=20$, and the exact value is $\dfrac{64}{3}\approx21.33$, so it is too small. For a concave-up function, the midpoint sum always underestimates.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lúc $t=0$, bể chứa $50$ lít nước. Nước chảy vào với tốc độ $E(t)=4t$ lít mỗi phút và chảy ra đều $10$ lít mỗi phút, với $0\le t\le8$.
+a) Lúc $t=8$ trong bể có bao nhiêu nước?
+b) Lượng nước ít nhất vào lúc nào và bằng bao nhiêu? Giải thích.
+
+[LỜI GIẢI CŨ – VI]
+a) $50+(128-80)=98$ lít.
+
+b) Tốc độ ròng $4t-10$ đổi dấu từ âm sang dương tại $t=2{,}5$. Các ứng viên: $50$ lúc $t=0$, $50+(12{,}5-25)=37{,}5$ lúc $t=2{,}5$, và $98$ lúc $t=8$. Lượng nước ít nhất là $37{,}5$ lít, lúc $t=2{,}5$ phút.
+
+[ĐỀ – EN]
+A tank holds $50$ liters at $t=0$. Water flows in at $E(t)=4t$ liters per minute and drains out at a constant $10$ liters per minute, for $0\le t\le8$.
+a) How much water is in the tank at $t=8$?
+b) At what time is the amount of water smallest, and what is that amount? Justify.
+
+[LỜI GIẢI CŨ – EN]
+a) $50+(128-80)=98$ liters.
+
+b) The net rate $4t-10$ changes from negative to positive at $t=2.5$. Candidates: $50$ at $t=0$, $50+(12.5-25)=37.5$ at $t=2.5$, and $98$ at $t=8$. The smallest amount is $37.5$ liters, at $t=2.5$ minutes.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một hạt có vận tốc $v(t)=3t^2-12t$ mét mỗi giây, $0\le t\le5$, và $x(0)=4$.
+a) Tính $x(5)$.
+b) Tính tổng quãng đường hạt đi được.
+
+[LỜI GIẢI CŨ – VI]
+a) $\displaystyle\int_0^5v\,dt=125-150=-25$, nên $x(5)=4-25=-21$.
+
+b) $\displaystyle\int_0^4v\,dt=64-96=-32$ và $\displaystyle\int_4^5v\,dt=-25-(-32)=7$. Quãng đường $=32+7=39$ mét.
+
+[ĐỀ – EN]
+A particle has velocity $v(t)=3t^2-12t$ meters per second for $0\le t\le5$, and $x(0)=4$.
+a) Find $x(5)$.
+b) Find the total distance traveled.
+
+[LỜI GIẢI CŨ – EN]
+a) $\displaystyle\int_0^5v\,dt=125-150=-25$, so $x(5)=4-25=-21$.
+
+b) $\displaystyle\int_0^4v\,dt=64-96=-32$ and $\displaystyle\int_4^5v\,dt=-25-(-32)=7$. Distance $=32+7=39$ meters.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cho $F(x)=\displaystyle\int_x^{2x}t^2\,dt$. Tìm $F'(x)$ bằng hai cách: dùng định lí cơ bản, và tính tích phân trước.
+
+[LỜI GIẢI CŨ – VI]
+Định lí cơ bản: $F'(x)=8x^2-x^2=7x^2$. Tính trực tiếp: $F(x)=\dfrac{7x^3}{3}$, nên $F'(x)=7x^2$. Hai cách cho cùng kết quả.
+
+[ĐỀ – EN]
+Let $F(x)=\displaystyle\int_x^{2x}t^2\,dt$. Find $F'(x)$ in two ways: with the fundamental theorem, and by evaluating the integral first.
+
+[LỜI GIẢI CŨ – EN]
+FTC: $F'(x)=8x^2-x^2=7x^2$. Directly: $F(x)=\dfrac{7x^3}{3}$, so $F'(x)=7x^2$. Both agree.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Vận tốc của một ô tô, tính bằng mét mỗi giây, được ghi lại sau mỗi $10$ giây.
+
+| $t$ (giây) | $0$ | $10$ | $20$ | $30$ | $40$ |
+|---|---|---|---|---|---|
+| $v(t)$ (mét mỗi giây) | $0$ | $8$ | $14$ | $18$ | $20$ |
+
+Dùng tổng hình thang để ước lượng quãng đường ô tô đi được trong $40$ giây. Nếu đồ thị của $v$ lõm xuống thì giá trị ước lượng lớn hơn hay nhỏ hơn giá trị thật?
+
+[LỜI GIẢI CŨ – VI]
+$10\cdot\dfrac{0+8}{2}+10\cdot\dfrac{8+14}{2}+10\cdot\dfrac{14+18}{2}+10\cdot\dfrac{18+20}{2}=40+110+160+190=500$ mét. Với đồ thị lõm xuống, mỗi dây cung nằm dưới đồ thị, nên $500$ mét nhỏ hơn giá trị thật.
+
+[ĐỀ – EN]
+A car's velocity, in meters per second, is recorded every $10$ seconds.
+
+| $t$ (seconds) | $0$ | $10$ | $20$ | $30$ | $40$ |
+|---|---|---|---|---|---|
+| $v(t)$ (meters per second) | $0$ | $8$ | $14$ | $18$ | $20$ |
+
+Use a trapezoidal sum to estimate the distance traveled in $40$ seconds. If the graph of $v$ is concave down, is the estimate too large or too small?
+
+[LỜI GIẢI CŨ – EN]
+$10\cdot\dfrac{0+8}{2}+10\cdot\dfrac{8+14}{2}+10\cdot\dfrac{14+18}{2}+10\cdot\dfrac{18+20}{2}=40+110+160+190=500$ meters. For a concave-down graph, each chord lies below the graph, so $500$ meters is an underestimate.
+
+
+######################################################################
+@@@ exams/ap-calculus/apcalc-analytical-applications
+Bài học: Khảo sát hàm số bằng đạo hàm / Analyzing functions with derivatives
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Với $f(x)=x^2$ trên $[1,3]$, giá trị $c$ mà định lí giá trị trung bình bảo đảm là
+A. $1{,}5$
+B. $2$
+C. $2{,}5$
+D. $4$
+
+[LỜI GIẢI CŨ – VI]
+$c=2$: đáp án **B**.
+
+[ĐỀ – EN]
+For $f(x)=x^2$ on $[1,3]$, the value of $c$ guaranteed by the Mean Value Theorem is
+A. $1.5$
+B. $2$
+C. $2.5$
+D. $4$
+
+[LỜI GIẢI CŨ – EN]
+$c=2$: answer **B**.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm các khoảng đồng biến, nghịch biến và cực trị của $f(x)=xe^{-x}$.
+
+[LỜI GIẢI CŨ – VI]
+$f$ đồng biến trên $(-\infty,1)$ và nghịch biến trên $(1,\infty)$. Cực đại tại $x=1$, giá trị $f(1)=\dfrac1e$, vì $f'$ đổi dấu từ dương sang âm tại đó.
+
+[ĐỀ – EN]
+Find the intervals on which $f(x)=xe^{-x}$ is increasing or decreasing, and its relative extrema.
+
+[LỜI GIẢI CŨ – EN]
+$f$ is increasing on $(-\infty,1)$ and decreasing on $(1,\infty)$. Relative maximum at $x=1$, with value $f(1)=\dfrac1e$, because $f'$ changes from positive to negative there.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Điểm uốn của $f(x)=x^3-6x^2+1$ có hoành độ
+A. $x=0$
+B. $x=4$
+C. $x=2$
+D. $x=-2$
+
+[LỜI GIẢI CŨ – VI]
+$f''$ đổi dấu tại $x=2$: đáp án **C**. Phương án B là điểm tới hạn ($f'(4)=0$), không phải điểm uốn.
+
+[ĐỀ – EN]
+The point of inflection of $f(x)=x^3-6x^2+1$ is at
+A. $x=0$
+B. $x=4$
+C. $x=2$
+D. $x=-2$
+
+[LỜI GIẢI CŨ – EN]
+$f''$ changes sign at $x=2$: answer **C**. Option B is a critical point ($f'(4)=0$), not an inflection point.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm giá trị lớn nhất và nhỏ nhất của $f(x)=2x^3-3x^2-12x+1$ trên $[-2,3]$.
+
+[LỜI GIẢI CŨ – VI]
+$f(-2)=-3$, $f(-1)=8$, $f(2)=-19$, $f(3)=-8$. Giá trị lớn nhất $8$ tại $x=-1$; giá trị nhỏ nhất $-19$ tại $x=2$.
+
+[ĐỀ – EN]
+Find the absolute maximum and minimum of $f(x)=2x^3-3x^2-12x+1$ on $[-2,3]$.
+
+[LỜI GIẢI CŨ – EN]
+$f(-2)=-3$, $f(-1)=8$, $f(2)=-19$, $f(3)=-8$. Absolute maximum $8$ at $x=-1$; absolute minimum $-19$ at $x=2$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Từ một tấm bìa hình vuông $30$ nhân $30$ xăng-ti-mét, người ta cắt bốn hình vuông cạnh $x$ xăng-ti-mét ở bốn góc rồi gấp lên thành một chiếc hộp không nắp. Tìm $x$ để thể tích lớn nhất và tính thể tích đó.
+
+[LỜI GIẢI CŨ – VI]
+$V'>0$ khi $0<x<5$ và $V'<0$ khi $5<x<15$, nên $x=5$ cho giá trị lớn nhất: $V(5)=5\cdot20^2=2000$ xăng-ti-mét khối.
+
+[ĐỀ – EN]
+Equal squares of side $x$ centimeters are cut from the corners of a $30$ by $30$ centimeter sheet, and the sides are folded up to make an open box. Find $x$ that gives the largest volume, and that volume.
+
+[LỜI GIẢI CŨ – EN]
+$V'>0$ for $0<x<5$ and $V'<0$ for $5<x<15$, so $x=5$ gives the maximum: $V(5)=5\cdot20^2=2000$ cubic centimeters.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Hàm số $f$ có $f'(x)=x^2-4$.
+a) $f$ có đạt cực đại tại $x=-2$ không? Giải thích.
+b) Tại $x=1$, đồ thị của $f$ lõm lên hay lõm xuống? Giải thích.
+
+[LỜI GIẢI CŨ – VI]
+a) Có: $f'$ đổi dấu từ dương (khi $x<-2$) sang âm (khi $-2<x<2$) tại $x=-2$, nên $f$ đạt cực đại tại đó.
+
+b) $f''(1)=2>0$, nên đồ thị của $f$ lõm lên tại $x=1$.
+
+[ĐỀ – EN]
+A function $f$ has $f'(x)=x^2-4$.
+a) Does $f$ have a relative maximum at $x=-2$? Justify.
+b) Is the graph of $f$ concave up or concave down at $x=1$? Justify.
+
+[LỜI GIẢI CŨ – EN]
+a) Yes: $f'$ changes from positive (for $x<-2$) to negative (for $-2<x<2$) at $x=-2$, so $f$ has a relative maximum there.
+
+b) $f''(1)=2>0$, so the graph of $f$ is concave up at $x=1$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm điểm trên đường cong $y=\sqrt x$ gần điểm $(3, 0)$ nhất.
+
+[LỜI GIẢI CŨ – VI]
+$D'(x)=0$ tại $x=2{,}5$, và $D''=2>0$, nên đây là cực tiểu. Điểm cần tìm là $\left(2{,}5; \sqrt{2{,}5}\right)\approx(2{,}5; 1{,}58)$, cách điểm đã cho một khoảng $\sqrt{2{,}75}\approx1{,}66$.
+
+[ĐỀ – EN]
+Find the point on the curve $y=\sqrt x$ closest to the point $(3, 0)$.
+
+[LỜI GIẢI CŨ – EN]
+$D'(x)=0$ at $x=2.5$, and $D''=2>0$, so this is the minimum. The point is $\left(2.5, \sqrt{2.5}\right)\approx(2.5, 1.58)$, at distance $\sqrt{2.75}\approx1.66$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một lon hình trụ kín phải chứa được $500$ xăng-ti-mét khối. Tìm bán kính để tốn ít vật liệu nhất, và chứng tỏ lon tốt nhất có chiều cao bằng đường kính.
+
+[LỜI GIẢI CŨ – VI]
+$S'(r)=0$ cho $r^3=\dfrac{250}{\pi}$, nên $r\approx4{,}30$ xăng-ti-mét. $S''(r)=4\pi+\dfrac{2000}{r^3}>0$, nên đây là cực tiểu. Khi đó $h=\dfrac{500}{\pi r^2}=\dfrac{2\cdot250}{\pi r^2}=\dfrac{2\pi r^3}{\pi r^2}=2r$, nên $h\approx8{,}60$ xăng-ti-mét, bằng đường kính.
+
+[ĐỀ – EN]
+A closed cylindrical can must hold $500$ cubic centimeters. Find the radius that uses the least material, and show that the best can has height equal to its diameter.
+
+[LỜI GIẢI CŨ – EN]
+$S'(r)=0$ gives $r^3=\dfrac{250}{\pi}$, so $r\approx4.30$ centimeters. $S''(r)=4\pi+\dfrac{2000}{r^3}>0$, so this is a minimum. Then $h=\dfrac{500}{\pi r^2}=\dfrac{2\cdot250}{\pi r^2}=\dfrac{2\pi r^3}{\pi r^2}=2r$, so $h\approx8.60$ centimeters, equal to the diameter.
+
+
+######################################################################
+@@@ exams/ap-calculus/apcalc-area-volume
+Bài học: Diện tích, thể tích và giá trị trung bình / Area, volume and average value
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Giá trị trung bình của $\sin x$ trên $[0,\pi]$ bằng
+A. $\dfrac{1}{\pi}$
+B. $\dfrac{2}{\pi}$
+C. $\dfrac12$
+D. $2$
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{1}{\pi}\cdot2=\dfrac2\pi$: đáp án **B**. Phương án D quên chia cho độ dài khoảng.
+
+[ĐỀ – EN]
+What is the average value of $\sin x$ on $[0,\pi]$?
+A. $\dfrac{1}{\pi}$
+B. $\dfrac{2}{\pi}$
+C. $\dfrac12$
+D. $2$
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{1}{\pi}\cdot2=\dfrac2\pi$: answer **B**. Option D forgets to divide by the length of the interval.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính diện tích miền giới hạn bởi $y=4-x^2$ và trục hoành.
+
+[LỜI GIẢI CŨ – VI]
+$\displaystyle\int_{-2}^2\left(4-x^2\right)dx=16-\frac{16}{3}=\frac{32}{3}$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by $y=4-x^2$ and the $x$-axis.
+
+[LỜI GIẢI CŨ – EN]
+$\displaystyle\int_{-2}^2\left(4-x^2\right)dx=16-\frac{16}{3}=\frac{32}{3}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính diện tích miền giữa $y=x^2$ và $y=2x$.
+
+[LỜI GIẢI CŨ – VI]
+$\displaystyle\int_0^2\left(2x-x^2\right)dx=4-\frac83=\frac43$.
+
+[ĐỀ – EN]
+Find the area of the region between $y=x^2$ and $y=2x$.
+
+[LỜI GIẢI CŨ – EN]
+$\displaystyle\int_0^2\left(2x-x^2\right)dx=4-\frac83=\frac43$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Miền dưới $y=x$ với $0\le x\le3$ quay quanh trục $x$. Thể tích khối tạo thành bằng
+A. $3\pi$
+B. $\dfrac{9\pi}{2}$
+C. $27\pi$
+D. $9\pi$
+
+[LỜI GIẢI CŨ – VI]
+$\pi\displaystyle\int_0^3x^2\,dx=9\pi$: đáp án **D**. Đây là hình nón có bán kính $3$ và chiều cao $3$: $\dfrac13\pi\cdot9\cdot3=9\pi$.
+
+[ĐỀ – EN]
+The region under $y=x$ for $0\le x\le3$ is revolved around the $x$-axis. What is the volume?
+A. $3\pi$
+B. $\dfrac{9\pi}{2}$
+C. $27\pi$
+D. $9\pi$
+
+[LỜI GIẢI CŨ – EN]
+$\pi\displaystyle\int_0^3x^2\,dx=9\pi$: answer **D**. This is a cone with radius $3$ and height $3$: $\dfrac13\pi\cdot9\cdot3=9\pi$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Đáy của một khối là miền dưới $y=e^x$ với $0\le x\le1$. Các thiết diện vuông góc với trục $x$ là hình vuông. Tính thể tích, cho giá trị đúng và giá trị làm tròn đến ba chữ số thập phân.
+
+[LỜI GIẢI CŨ – VI]
+$\displaystyle\int_0^1e^{2x}\,dx=\frac{e^2-1}{2}\approx3{,}195$.
+
+[ĐỀ – EN]
+The base of a solid is the region under $y=e^x$ for $0\le x\le1$. Cross sections perpendicular to the $x$-axis are squares. Find the volume, exactly and to three decimal places.
+
+[LỜI GIẢI CŨ – EN]
+$\displaystyle\int_0^1e^{2x}\,dx=\frac{e^2-1}{2}\approx3.195$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Gọi $R$ là miền giới hạn bởi $y=\sqrt x$, trục hoành và đường thẳng $x=4$.
+a) Tính diện tích của $R$.
+b) Tính thể tích khối tạo thành khi quay $R$ quanh đường thẳng $y=-1$.
+c) Đường thẳng đứng $x=k$ chia $R$ thành hai miền có diện tích bằng nhau. Tìm $k$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\dfrac23\cdot8=\dfrac{16}{3}$.
+
+b) $\pi\displaystyle\int_0^4\left(x+2\sqrt x\right)dx=\pi\left(8+\frac{32}{3}\right)=\frac{56\pi}{3}$.
+
+c) $k^{3/2}=4$, nên $k=4^{2/3}\approx2{,}520$.
+
+[ĐỀ – EN]
+Let $R$ be the region bounded by $y=\sqrt x$, the $x$-axis and the line $x=4$.
+a) Find the area of $R$.
+b) Find the volume of the solid formed when $R$ is revolved around the line $y=-1$.
+c) The vertical line $x=k$ divides $R$ into two regions of equal area. Find $k$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\dfrac23\cdot8=\dfrac{16}{3}$.
+
+b) $\pi\displaystyle\int_0^4\left(x+2\sqrt x\right)dx=\pi\left(8+\frac{32}{3}\right)=\frac{56\pi}{3}$.
+
+c) $k^{3/2}=4$, so $k=4^{2/3}\approx2.520$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Nhiệt độ ở một thành phố được mô hình hoá bởi $T(t)=20+6\sin\left(\dfrac{\pi t}{12}\right)$ độ C, với $t$ là số giờ tính từ 6 giờ sáng. Tìm nhiệt độ trung bình trong cả ngày ($0\le t\le24$) và trong $12$ giờ đầu.
+
+[LỜI GIẢI CŨ – VI]
+Trong $24$ giờ, nhiệt độ trung bình là $20$ độ C. Trong $12$ giờ đầu, nó bằng $20+\dfrac{6}{12}\cdot\dfrac{24}{\pi}=20+\dfrac{12}{\pi}\approx23{,}820$ độ C.
+
+[ĐỀ – EN]
+The temperature in a city is modeled by $T(t)=20+6\sin\left(\dfrac{\pi t}{12}\right)$ degrees Celsius, $t$ hours after 6 a.m. Find the average temperature over a full day ($0\le t\le24$) and over the first $12$ hours.
+
+[LỜI GIẢI CŨ – EN]
+Over $24$ hours the average is $20$ degrees Celsius. Over the first $12$ hours it is $20+\dfrac{6}{12}\cdot\dfrac{24}{\pi}=20+\dfrac{12}{\pi}\approx23.820$ degrees Celsius.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tính diện tích miền giới hạn bởi $x=y^2$ và đường thẳng $x=4$ bằng cách lấy tích phân theo $y$.
+
+[LỜI GIẢI CŨ – VI]
+$\displaystyle\int_{-2}^2\left(4-y^2\right)dy=16-\frac{16}{3}=\frac{32}{3}$. Cùng đáp số với bài parabol ở trên: đó chính là cùng một hình, chỉ xoay nằm ngang.
+
+[ĐỀ – EN]
+Find the area of the region bounded by $x=y^2$ and the line $x=4$ by integrating in $y$.
+
+[LỜI GIẢI CŨ – EN]
+$\displaystyle\int_{-2}^2\left(4-y^2\right)dy=16-\frac{16}{3}=\frac{32}{3}$. The same answer as the parabola exercise above: it is the same shape, turned on its side.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Thiết lập và tính độ dài của $y=\ln(\cos x)$ với $0\le x\le\dfrac{\pi}{4}$.
+
+[LỜI GIẢI CŨ – VI]
+$L=\displaystyle\int_0^{\pi/4}\sqrt{1+\tan^2x}\,dx=\int_0^{\pi/4}\sec x\,dx=\ln\left(\sqrt2+1\right)\approx0{,}881$. Ở phần được dùng máy tính, chỉ cần tích phân kèm cận và giá trị $0{,}881$.
+
+[ĐỀ – EN]
+Set up and evaluate the length of $y=\ln(\cos x)$ for $0\le x\le\dfrac{\pi}{4}$.
+
+[LỜI GIẢI CŨ – EN]
+$L=\displaystyle\int_0^{\pi/4}\sqrt{1+\tan^2x}\,dx=\int_0^{\pi/4}\sec x\,dx=\ln\left(\sqrt2+1\right)\approx0.881$. On the calculator part, the integral with its limits and the value $0.881$ are enough.
+
+
+######################################################################
+@@@ exams/ap-calculus/apcalc-bc-parametric-polar
+Bài học: Hàm tham số, hàm véc-tơ và toạ độ cực / Parametric, vector-valued and polar functions
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Với $x=2t+1$, $y=t^2$, giá trị của $\dfrac{dy}{dx}$ tại $t=3$ bằng
+A. $6$
+B. $\dfrac32$
+C. $9$
+D. $3$
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{dy}{dx}=t=3$: đáp án **D**.
+
+[ĐỀ – EN]
+For $x=2t+1$, $y=t^2$, what is $\dfrac{dy}{dx}$ at $t=3$?
+A. $6$
+B. $\dfrac32$
+C. $9$
+D. $3$
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{dy}{dx}=t=3$: answer **D**.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết phương trình tiếp tuyến của $x=e^t$, $y=t^2+1$ tại $t=1$.
+
+[LỜI GIẢI CŨ – VI]
+Hệ số góc bằng $\dfrac2e$, nên tiếp tuyến là $y=2+\dfrac2e(x-e)$, tức $y=\dfrac2ex$.
+
+[ĐỀ – EN]
+Find the equation of the tangent line to $x=e^t$, $y=t^2+1$ at $t=1$.
+
+[LỜI GIẢI CŨ – EN]
+The slope is $\dfrac2e$, so the tangent line is $y=2+\dfrac2e(x-e)$, that is $y=\dfrac2ex$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính độ dài quỹ đạo $x=t^2$, $y=\dfrac23t^3$ với $0\le t\le1$.
+
+[LỜI GIẢI CŨ – VI]
+$\displaystyle\int_0^12t\sqrt{1+t^2}\,dt=\left[\frac23\left(1+t^2\right)^{3/2}\right]_0^1=\frac23\left(2\sqrt2-1\right)\approx1{,}219$.
+
+[ĐỀ – EN]
+Find the length of the path $x=t^2$, $y=\dfrac23t^3$ for $0\le t\le1$.
+
+[LỜI GIẢI CŨ – EN]
+$\displaystyle\int_0^12t\sqrt{1+t^2}\,dt=\left[\frac23\left(1+t^2\right)^{3/2}\right]_0^1=\frac23\left(2\sqrt2-1\right)\approx1.219$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Diện tích miền giới hạn bởi $r=4\sin\theta$ với $0\le\theta\le\pi$ bằng
+A. $4\pi$
+B. $8\pi$
+C. $16\pi$
+D. $2\pi$
+
+[LỜI GIẢI CŨ – VI]
+$8\displaystyle\int_0^\pi\sin^2\theta\,d\theta=8\cdot\frac\pi2=4\pi$: đáp án **A**. Đường cong là đường tròn bán kính $2$, tâm $(0,2)$.
+
+[ĐỀ – EN]
+What is the area enclosed by $r=4\sin\theta$ for $0\le\theta\le\pi$?
+A. $4\pi$
+B. $8\pi$
+C. $16\pi$
+D. $2\pi$
+
+[LỜI GIẢI CŨ – EN]
+$8\displaystyle\int_0^\pi\sin^2\theta\,d\theta=8\cdot\frac\pi2=4\pi$: answer **A**. The curve is the circle of radius $2$ centered at $(0,2)$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Với đường xoắn ốc $r=\theta$, $0\le\theta\le\pi$: khi $\theta$ tăng, điểm đi lại gần hay ra xa gốc toạ độ? Tính diện tích miền mà đoạn thẳng nối gốc với điểm đó quét qua.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{dr}{d\theta}=1>0$ và $r>0$, nên điểm ra xa gốc. Diện tích $=\dfrac12\cdot\dfrac{\pi^3}{3}=\dfrac{\pi^3}{6}\approx5{,}168$.
+
+[ĐỀ – EN]
+For the spiral $r=\theta$, $0\le\theta\le\pi$: is the point moving toward or away from the origin as $\theta$ increases? Find the area swept out by the segment from the origin.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{dr}{d\theta}=1>0$ and $r>0$, so it moves away from the origin. Area $=\dfrac12\cdot\dfrac{\pi^3}{3}=\dfrac{\pi^3}{6}\approx5.168$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một hạt chuyển động với $\dfrac{dx}{dt}=3t^2-6t$ và $\dfrac{dy}{dt}=4t$, và ở điểm $(1,0)$ lúc $t=0$.
+a) Tại thời điểm $t>0$ nào hạt chuyển động theo phương thẳng đứng?
+b) Tìm vị trí của hạt tại thời điểm đó.
+c) Tìm hệ số góc của quỹ đạo tại $t=1$.
+
+[LỜI GIẢI CŨ – VI]
+a) $t=2$ (tại $t=0$ cả hai thành phần đều bằng $0$: hạt đang đứng yên).
+
+b) $x(2)=1+(8-12)=-3$ và $y(2)=8$: điểm $(-3,8)$.
+
+c) $\dfrac{dy}{dx}=\dfrac{4}{3-6}=-\dfrac43$.
+
+[ĐỀ – EN]
+A particle moves with $\dfrac{dx}{dt}=3t^2-6t$ and $\dfrac{dy}{dt}=4t$, and is at $(1,0)$ at $t=0$.
+a) At what time $t>0$ is the particle moving vertically?
+b) Find the position of the particle at that time.
+c) Find the slope of the path at $t=1$.
+
+[LỜI GIẢI CŨ – EN]
+a) $t=2$ (at $t=0$ both components are $0$: the particle is at rest).
+
+b) $x(2)=1+(8-12)=-3$ and $y(2)=8$: the point $(-3,8)$.
+
+c) $\dfrac{dy}{dx}=\dfrac{4}{3-6}=-\dfrac43$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho $r=2+2\sin\theta$.
+a) Tính diện tích miền giới hạn bởi đường cong.
+b) Tính $\dfrac{dr}{d\theta}$ tại $\theta=\pi$ và giải thích ý nghĩa đối với đường cong.
+
+[LỜI GIẢI CŨ – VI]
+a) $\dfrac12\displaystyle\int_0^{2\pi}\left(4+8\sin\theta+4\sin^2\theta\right)d\theta=\dfrac12(8\pi+4\pi)=6\pi$.
+
+b) $\dfrac{dr}{d\theta}=2\cos\theta=-2$ tại $\theta=\pi$. Vì ở đó $r=2>0$, đường cong đang tiến lại gần gốc khi $\theta$ tăng.
+
+[ĐỀ – EN]
+Let $r=2+2\sin\theta$.
+a) Find the area enclosed by the curve.
+b) Find $\dfrac{dr}{d\theta}$ at $\theta=\pi$ and explain what it says about the curve.
+
+[LỜI GIẢI CŨ – EN]
+a) $\dfrac12\displaystyle\int_0^{2\pi}\left(4+8\sin\theta+4\sin^2\theta\right)d\theta=\dfrac12(8\pi+4\pi)=6\pi$.
+
+b) $\dfrac{dr}{d\theta}=2\cos\theta=-2$ at $\theta=\pi$. Since $r=2>0$ there, the curve is getting closer to the origin as $\theta$ increases.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tính diện tích miền nằm trong $r=3\cos\theta$ và nằm ngoài $r=1+\cos\theta$.
+
+[LỜI GIẢI CŨ – VI]
+Tích phân bằng $\pi$. Ở phần được dùng máy tính vẽ đồ thị, chỉ cần viết tích phân và giá trị $3{,}142$.
+
+[ĐỀ – EN]
+Find the area of the region inside $r=3\cos\theta$ and outside $r=1+\cos\theta$.
+
+[LỜI GIẢI CŨ – EN]
+The integral equals $\pi$. With a graphing calculator on the calculator part, the setup and the value $3.142$ are enough.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm điểm trên $r=1+\cos\theta$, $0<\theta<\pi$, tại đó tiếp tuyến nằm ngang.
+
+[LỜI GIẢI CŨ – VI]
+$\cos\theta=\dfrac12$, nên $\theta=\dfrac\pi3$ (nghiệm $\cos\theta=-1$ cho $\theta=\pi$, nằm ngoài khoảng). Khi đó $r=\dfrac32$, và điểm cần tìm là $\left(\dfrac34,\dfrac{3\sqrt3}{4}\right)$. Kiểm tra: tại đó $\dfrac{dx}{d\theta}\ne0$.
+
+[ĐỀ – EN]
+Find the point on $r=1+\cos\theta$, $0<\theta<\pi$, where the tangent line is horizontal.
+
+[LỜI GIẢI CŨ – EN]
+$\cos\theta=\dfrac12$, so $\theta=\dfrac\pi3$ (the root $\cos\theta=-1$ gives $\theta=\pi$, outside the interval). There $r=\dfrac32$, and the point is $\left(\dfrac34,\dfrac{3\sqrt3}{4}\right)$. Check: $\dfrac{dx}{d\theta}\ne0$ there.
+
+
+===== HẾT GÓI GOI-ONTHI-03 =====

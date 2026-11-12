@@ -35,3 +35,7 @@ Thứ tự: lớp 9 → lớp 12 → Ôn thi. Mỗi lượt 4–6 bài học; fi
 | g9-lo10 | inscribed-angles, intro-to-circles, vietes-theorem — **LỚP 9 XONG** (0 lời giải vắn tắt, 0 thiếu "Vậy") | xong 12/11/2026 |
 | g12-lo1 | review-trig-exp-log-sequences, review-coordinates-space | xong 12/11/2026 |
 | g12-lo2 | total-probability-bayes | xong 12/11/2026 |
+
+## Đổi phương án (12/11/2026)
+
+Chủ dự án quyết định giao phần còn lại của lớp 12 (24 bài học) và toàn bộ mục Ôn thi (35 bài học) cho ChatGPT Plus. 12 gói ở `giao-viec/nang-cap/chatgpt/` (GOI-L12-01…05, GOI-ONTHI-01…07), hướng dẫn giao ở `giao-viec/nang-cap/chatgpt/HUONG-DAN-GIAO-CHATGPT.md`, brief chung `_templates/BRIEF-nang-cap-chatgpt.md`. File nộp về: `NC-ChatGPT-GOI-….md` trong Dropbox "viec da lam"; ghép bằng `upgrade.py apply` (in GHI CHÚ và KHÁC ĐÁP SỐ để kiểm tra tay). Tạo lại gói cho phần còn thiếu: `upgrade.py pack`.

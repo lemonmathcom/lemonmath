@@ -4,6 +4,7 @@
   python3 tools/qa/upgrade.py export [--weak] g9/cube-roots [...]  in đề + lời giải hiện tại (bản Việt); --weak: chỉ bài còn vắn tắt
   python3 tools/qa/upgrade.py apply <file-nộp-về> [...]         ghép lời giải mới vào content/vi và content/en
   python3 tools/qa/upgrade.py jobs                              tạo lại giao-viec/nang-cap/*.txt cho các tài khoản
+  python3 tools/qa/upgrade.py pack                              đóng gói lớp 12 + Ôn thi còn thiếu cho ChatGPT (giao-viec/nang-cap/chatgpt/)
 
 File nộp về (một file cho nhiều bài học):
   @@@ g9/cube-roots
@@ -48,6 +49,10 @@ def apply(files):
             for i in range(1, len(parts), 4):
                 no, lang, isq, text = int(parts[i]), parts[i + 1].lower(), parts[i + 2], parts[i + 3].strip('\n')
                 text = re.sub(r'^```\w*\n|\n```\s*$', '', text.strip()).strip()
+                notes = [l for l in text.splitlines() if l.strip().startswith('GHI CHÚ')]
+                if notes:
+                    print('*** GHI CHÚ %s bài %d (%s): %s' % (rel, no, lang, ' | '.join(notes)))
+                    text = '\n'.join(l for l in text.splitlines() if not l.strip().startswith('GHI CHÚ')).strip()
                 p = os.path.join(ROOT, 'content', lang, rel + '.md')
                 if not os.path.exists(p): print('KHÔNG THẤY', p); continue
                 s = open(p, encoding='utf-8').read()
@@ -59,6 +64,9 @@ def apply(files):
                 else:
                     if not sm: print('%s (%s) bài %d: không có ::solution' % (rel, lang, no)); continue
                     if not re.search(r'\*\*(Đáp số|Answer)\.\*\*|Đáp số:', text): print('LƯU Ý %s (%s) bài %d: thiếu dòng Đáp số / Answer' % (rel, lang, no))
+                    last = lambda t: re.sub(r'\s+', '', ([l for l in t.strip().splitlines() if re.match(r'\*\*(Đáp số|Answer)\.\*\*', l)] or [''])[-1])
+                    if last(sol) and last(text) and last(sol) != last(text):
+                        print('KHÁC ĐÁP SỐ %s bài %d (%s):\n   cũ: %s\n   mới: %s' % (rel, no, lang, last(sol), last(text)))
                     new = body[:sm.end()] + text + '\n'
                 s = s[:m.start(2)] + new + s[m.end(2):]
                 open(p, 'w', encoding='utf-8').write(s); changed.add(rel); n += 1
@@ -145,9 +153,53 @@ def jobs():
         fh.write('\n## Phần tài khoản Pro tự viết\n\nThứ tự: lớp 9 → lớp 12 → Ôn thi. Mỗi lượt 4–6 bài học; file lời giải đã ghép lưu ở `giao-viec/nang-cap/da-ghep/`.\n')
     for a, n, kb, part in table: print(a, n, 'bài,', kb, 'KB')
 
+PACK_BRIEF = open(os.path.join(ROOT, '_templates', 'BRIEF-nang-cap-chatgpt.md'), encoding='utf-8').read() if os.path.exists(os.path.join(ROOT, '_templates', 'BRIEF-nang-cap-chatgpt.md')) else ''
+
+def lesson_block(rel):
+    """Đề + lời giải cũ của các bài tập còn vắn tắt, cả bản Việt và bản Anh (để giữ thuật ngữ bản Anh)."""
+    vi = open(os.path.join(ROOT, 'content', 'vi', rel + '.md'), encoding='utf-8').read()
+    en = open(os.path.join(ROOT, 'content', 'en', rel + '.md'), encoding='utf-8').read()
+    tvi = re.search(r'^title:\s*(.*)$', vi, re.M).group(1); ten = re.search(r'^title:\s*(.*)$', en, re.M).group(1)
+    bv, be = list(BOX.finditer(vi)), list(BOX.finditer(en))
+    out, nums = [], []
+    for k, m in enumerate(bv, 1):
+        q, hint, sol, _ = split_box(m.group(2))
+        if not weak(q, sol): continue
+        qe, he, se, _ = split_box(be[k - 1].group(2)) if k <= len(be) else ('', '', '', None)
+        nums.append(k)
+        out.append('\n=== Bài %d ===\n[ĐỀ – VI]\n%s\n\n[LỜI GIẢI CŨ – VI]\n%s\n\n[ĐỀ – EN]\n%s\n\n[LỜI GIẢI CŨ – EN]\n%s\n' % (k, q.strip(), sol.strip(), qe.strip(), se.strip()))
+    head = '\n\n######################################################################\n@@@ %s\nBài học: %s / %s\nCần viết lại lời giải các bài: %s (giữ ĐÚNG số thứ tự này)\n######################################################################\n' % (rel, tvi.strip('"'), ten.strip('"'), ', '.join(map(str, nums)))
+    return head + ''.join(out), len(nums)
+
+def pack(rels, size, prefix):
+    d = os.path.join(ROOT, 'giao-viec', 'nang-cap', 'chatgpt'); os.makedirs(d, exist_ok=True)
+    groups, cur, cur_n = [], [], 0
+    for rel in rels:
+        blk, n = lesson_block(rel)
+        if not n: continue
+        if cur and cur_n + n > size: groups.append(cur); cur, cur_n = [], 0
+        cur.append((rel, blk, n)); cur_n += n
+    if cur: groups.append(cur)
+    made = []
+    for i, g in enumerate(groups, 1):
+        name = 'GOI-%s-%02d' % (prefix, i)
+        body = PACK_BRIEF.replace('{GOI}', name).replace('{SO_BAI}', str(sum(n for _, _, n in g))).replace('{SO_BAI_HOC}', str(len(g)))
+        body += '\n\n===== DANH SÁCH BÀI HỌC TRONG GÓI NÀY =====\n' + '\n'.join('- %s (%d bài tập)' % (r, n) for r, _, n in g)
+        body += '\n\n===== NỘI DUNG CẦN LÀM =====' + ''.join(b for _, b, _ in g) + '\n\n===== HẾT GÓI %s =====\n' % name
+        open(os.path.join(d, name + '.txt'), 'w', encoding='utf-8').write(body)
+        made.append((name, [r for r, _, _ in g], sum(n for _, _, n in g), len(body.encode()) // 1024))
+    return made
+
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else ''
     if cmd == 'export': export([a for a in sys.argv[2:] if a != '--weak'], only_weak='--weak' in sys.argv)
     elif cmd == 'apply': apply(sys.argv[2:])
     elif cmd == 'jobs': jobs()
+    elif cmd == 'pack':
+        out = subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'qa', 'style-audit.py'), '--list'], capture_output=True, text=True).stdout
+        todo = [l.split()[0][:-3] for l in out.splitlines() if re.match(r'^(g12|exams)/', l)]
+        order = ['g12/', 'exams/sat/', 'exams/ap-calculus/', 'exams/ib-aa/', 'exams/act/', 'exams/ap-precalculus/', 'exams/ap-statistics/', 'exams/ib-ai/', 'exams/igcse/']
+        key = lambda t: (next((i for i, o in enumerate(order) if t.startswith(o)), 99), t)
+        g12 = sorted([t for t in todo if t.startswith('g12/')], key=key); ex = sorted([t for t in todo if t.startswith('exams/')], key=key)
+        for name, rs, n, kb in pack(g12, 45, 'L12') + pack(ex, 45, 'ONTHI'): print(name, n, 'bài tập,', kb, 'KB:', ', '.join(rs))
     else: print(__doc__)

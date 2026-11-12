@@ -1,0 +1,839 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – GOI-ONTHI-01
+Người làm: ChatGPT. Gói này có 37 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/data/NC-ChatGPT-GOI-ONTHI-01.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/data/NC-ChatGPT-GOI-ONTHI-01.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG GÓI NÀY =====
+- exams/sat/sat-area-volume-lines-angles (9 bài tập)
+- exams/sat/sat-equivalent-expressions (9 bài tập)
+- exams/sat/sat-exponential-functions (9 bài tập)
+- exams/sat/sat-linear-equations-systems (10 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ exams/sat/sat-area-volume-lines-angles
+Bài học: Diện tích, thể tích, đường thẳng và góc / Area, volume, lines and angles
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Hai góc kề bù có số đo $(2x+15)^\circ$ và $(4x-3)^\circ$. Giá trị của $x$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$6x+12=180\iff x=28$. Hai góc là $71^\circ$ và $109^\circ$.
+
+[ĐỀ – EN]
+Two angles form a linear pair. Their measures are $(2x+15)^\circ$ and $(4x-3)^\circ$. What is the value of $x$?
+
+[LỜI GIẢI CŨ – EN]
+$6x+12=180\iff x=28$. The angles are $71^\circ$ and $109^\circ$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Các góc của một tam giác tỉ lệ với $2:3:4$. Góc lớn nhất có số đo bao nhiêu độ?
+
+[LỜI GIẢI CŨ – VI]
+Một phần là $20^\circ$, nên góc lớn nhất là $80^\circ$.
+
+[ĐỀ – EN]
+The angles of a triangle are in the ratio $2:3:4$. What is the measure, in degrees, of the largest angle?
+
+[LỜI GIẢI CŨ – EN]
+One part is $20^\circ$, so the largest angle is $80^\circ$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Số đo mỗi góc trong của bát giác đều là
+A. $120^\circ$
+B. $135^\circ$
+C. $140^\circ$
+D. $1.080^\circ$
+
+[LỜI GIẢI CŨ – VI]
+$6\cdot180^\circ=1.080^\circ$, và $1.080^\circ:8=135^\circ$: đáp án **B**.
+
+[ĐỀ – EN]
+What is the measure of each interior angle of a regular octagon?
+A. $120^\circ$
+B. $135^\circ$
+C. $140^\circ$
+D. $1{,}080^\circ$
+
+[LỜI GIẢI CŨ – EN]
+$6\cdot180^\circ=1{,}080^\circ$, and $1{,}080^\circ\div8=135^\circ$: answer **B**.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một hình nón có bán kính đáy 4 xăng-ti-mét và chiều cao 6 xăng-ti-mét. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+A. $32\pi$
+B. $96\pi$
+C. $16\pi$
+D. $48\pi$
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac13\pi\cdot16\cdot6=32\pi$: đáp án **A**. Phương án B quên $\dfrac13$.
+
+[ĐỀ – EN]
+A cone has radius 4 centimeters and height 6 centimeters. What is its volume, in cubic centimeters?
+A. $32\pi$
+B. $96\pi$
+C. $16\pi$
+D. $48\pi$
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac13\pi\cdot16\cdot6=32\pi$: answer **A**. Option B forgets the $\dfrac13$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Chiều dài và chiều rộng của một hình chữ nhật đều được gấp ba. Diện tích thay đổi thế nào?
+A. Gấp ba.
+B. Gấp 6 lần.
+C. Gấp 9 lần.
+D. Gấp 27 lần.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích được nhân với $3^2=9$: đáp án **C**. Phương án D là hệ số cho thể tích.
+
+[ĐỀ – EN]
+The length and the width of a rectangle are both tripled. How does the area change?
+A. It is tripled.
+B. It is multiplied by 6.
+C. It is multiplied by 9.
+D. It is multiplied by 27.
+
+[LỜI GIẢI CŨ – EN]
+The area is multiplied by $3^2=9$: answer **C**. Option D is the factor for volume.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một chiếc hộp hình hộp chữ nhật dài 30 xăng-ti-mét, rộng 20 xăng-ti-mét và cao 10 xăng-ti-mét. Diện tích toàn phần của hộp là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$2(600+300+200)=2.200$ xăng-ti-mét vuông.
+
+[ĐỀ – EN]
+A box is a rectangular prism 30 centimeters long, 20 centimeters wide and 10 centimeters high. What is its total surface area?
+
+[LỜI GIẢI CŨ – EN]
+$2(600+300+200)=2{,}200$ square centimeters.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một bể cá dài 60 xăng-ti-mét, rộng 40 xăng-ti-mét và cao 30 xăng-ti-mét. Bể chứa nước đến độ sâu 25 xăng-ti-mét. Trong bể có bao nhiêu lít nước? (1 lít = 1.000 xăng-ti-mét khối)
+
+[LỜI GIẢI CŨ – VI]
+$60\cdot40\cdot25=60.000$ xăng-ti-mét khối, tức 60 lít.
+
+[ĐỀ – EN]
+An aquarium is 60 centimeters long, 40 centimeters wide and 30 centimeters high. It is filled with water to a depth of 25 centimeters. How many liters of water does it contain? (1 liter = 1,000 cubic centimeters)
+
+[LỜI GIẢI CŨ – EN]
+$60\cdot40\cdot25=60{,}000$ cubic centimeters, which is 60 liters.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một đường chạy hình vành khuyên có bán kính trong 30 mét và bán kính ngoài 35 mét. Diện tích đường chạy là bao nhiêu mét vuông, làm tròn đến hàng đơn vị?
+
+[LỜI GIẢI CŨ – VI]
+$\pi(1.225-900)=325\pi\approx1.021$ mét vuông.
+
+[ĐỀ – EN]
+A circular track has an inner radius of 30 meters and an outer radius of 35 meters. What is the area of the track, to the nearest square meter?
+
+[LỜI GIẢI CŨ – EN]
+$\pi(1{,}225-900)=325\pi\approx1{,}021$ square meters.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một hình cầu nằm vừa khít trong một hình lập phương có thể tích 64 xăng-ti-mét khối, tiếp xúc với cả sáu mặt. Hình cầu chiếm bao nhiêu phần thể tích của hình lập phương? Cho giá trị chính xác và giá trị thập phân làm tròn đến hàng phần trăm.
+
+[LỜI GIẢI CŨ – VI]
+Hình cầu có thể tích $\dfrac43\pi\cdot8=\dfrac{32\pi}{3}$. Tỉ số là $\dfrac{32\pi}{3\cdot64}=\dfrac{\pi}{6}\approx0{,}52$. Hình cầu luôn chiếm $\dfrac{\pi}{6}$ thể tích hình lập phương bao quanh nó, dù to hay nhỏ.
+
+[ĐỀ – EN]
+A sphere fits exactly inside a cube with volume 64 cubic centimeters, touching all six faces. What fraction of the cube's volume does the sphere fill? Give the exact value and a decimal rounded to the nearest hundredth.
+
+[LỜI GIẢI CŨ – EN]
+The sphere has volume $\dfrac43\pi\cdot8=\dfrac{32\pi}{3}$. The fraction is $\dfrac{32\pi}{3\cdot64}=\dfrac{\pi}{6}\approx0.52$. A sphere always fills $\dfrac{\pi}{6}$ of the cube around it, whatever its size.
+
+
+######################################################################
+@@@ exams/sat/sat-equivalent-expressions
+Bài học: Biểu thức tương đương và lũy thừa / Equivalent expressions and exponents
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Biểu thức nào tương đương với $\dfrac{(3a^2b)^3}{9ab^2}$, với $a$ và $b$ khác $0$?
+A. $a^5b$
+B. $3a^4b$
+C. $3a^5b$
+D. $9a^5b$
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{27a^6b^3}{9ab^2}=3a^5b$. Đáp án là **C**. Phương án A bỏ mất hệ số, còn phương án D chia $27$ cho $3$ thay vì cho $9$.
+
+[ĐỀ – EN]
+Which expression is equivalent to $\dfrac{(3a^2b)^3}{9ab^2}$, where $a$ and $b$ are nonzero?
+A. $a^5b$
+B. $3a^4b$
+C. $3a^5b$
+D. $9a^5b$
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{27a^6b^3}{9ab^2}=3a^5b$. The answer is **C**. Option A drops the coefficient, and option D divides $27$ by $3$ instead of by $9$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Biểu thức nào sau đây là một nhân tử của $3x^2-10x-8$?
+A. $x+4$
+B. $3x-2$
+C. $3x+2$
+D. $x-2$
+
+[LỜI GIẢI CŨ – VI]
+$3x^2-12x+2x-8=3x(x-4)+2(x-4)=(3x+2)(x-4)$. Đáp án là **C**. Kiểm tra: tại $x=-\dfrac23$, $3\cdot\dfrac49+\dfrac{20}{3}-8=\dfrac43+\dfrac{20}3-8=0$.
+
+[ĐỀ – EN]
+Which of the following is a factor of $3x^2-10x-8$?
+A. $x+4$
+B. $3x-2$
+C. $3x+2$
+D. $x-2$
+
+[LỜI GIẢI CŨ – EN]
+$3x^2-12x+2x-8=3x(x-4)+2(x-4)=(3x+2)(x-4)$. The answer is **C**. Check: at $x=-\dfrac23$, $3\cdot\dfrac49+\dfrac{20}{3}-8=\dfrac43+\dfrac{20}3-8=0$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Trong đẳng thức $(2x+k)(x-4)=2x^2-5x-12$, $k$ là hằng số và đẳng thức đúng với mọi $x$. Giá trị của $k$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$k-8=-5\iff k=3$, và hệ số tự do là $-4\cdot3=-12$, khớp với đề. Đáp số là $3$.
+
+[ĐỀ – EN]
+In the equation $(2x+k)(x-4)=2x^2-5x-12$, $k$ is a constant and the equation is true for all $x$. What is the value of $k$?
+
+[LỜI GIẢI CŨ – EN]
+$k-8=-5\iff k=3$, and the constant is $-4\cdot3=-12$, which matches. The answer is $3$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Với $x>0$, biểu thức nào tương đương với $x^{\frac23}\cdot x^{\frac13}\cdot\sqrt x$?
+A. $x^{\frac13}$
+B. $x\sqrt x$
+C. $x^2$
+D. $\sqrt[3]{x}$
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac23+\dfrac13+\dfrac12=\dfrac32$, và $x^{\frac32}=x\cdot x^{\frac12}=x\sqrt x$. Đáp án là **B**.
+
+[ĐỀ – EN]
+For $x>0$, which expression is equivalent to $x^{\frac23}\cdot x^{\frac13}\cdot\sqrt x$?
+A. $x^{\frac13}$
+B. $x\sqrt x$
+C. $x^2$
+D. $\sqrt[3]{x}$
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac23+\dfrac13+\dfrac12=\dfrac32$, and $x^{\frac32}=x\cdot x^{\frac12}=x\sqrt x$. The answer is **B**.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Diện tích hình thang là $A=\dfrac12h(b_1+b_2)$. Đẳng thức nào biểu diễn $h$ theo $A$, $b_1$ và $b_2$?
+A. $h=\dfrac{2A}{b_1+b_2}$
+B. $h=\dfrac{A}{2(b_1+b_2)}$
+C. $h=2A-(b_1+b_2)$
+D. $h=\dfrac{A(b_1+b_2)}{2}$
+
+[LỜI GIẢI CŨ – VI]
+$2A=h(b_1+b_2)\iff h=\dfrac{2A}{b_1+b_2}$. Đáp án là **A**.
+
+[ĐỀ – EN]
+The area of a trapezoid is $A=\dfrac12h(b_1+b_2)$. Which equation gives $h$ in terms of $A$, $b_1$ and $b_2$?
+A. $h=\dfrac{2A}{b_1+b_2}$
+B. $h=\dfrac{A}{2(b_1+b_2)}$
+C. $h=2A-(b_1+b_2)$
+D. $h=\dfrac{A(b_1+b_2)}{2}$
+
+[LỜI GIẢI CŨ – EN]
+$2A=h(b_1+b_2)\iff h=\dfrac{2A}{b_1+b_2}$. The answer is **A**.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một khu vườn hình vuông có cạnh $x$ mét. Một lối đi rộng $2$ mét chạy vòng quanh bên ngoài khu vườn. Viết biểu thức rút gọn cho diện tích lối đi, tính bằng mét vuông. Diện tích đó bằng bao nhiêu khi $x=10$?
+
+[LỜI GIẢI CŨ – VI]
+$(x+4)^2-x^2=x^2+8x+16-x^2=8x+16$. Khi $x=10$, lối đi có diện tích $96$ mét vuông. Kiểm tra: $14^2-10^2=196-100=96$.
+
+[ĐỀ – EN]
+A square garden has side length $x$ meters. A path $2$ meters wide runs around the outside of the garden. Write a simplified expression for the area of the path, in square meters. What is the area when $x=10$?
+
+[LỜI GIẢI CŨ – EN]
+$(x+4)^2-x^2=x^2+8x+16-x^2=8x+16$. When $x=10$ the path has area $96$ square meters. Check: $14^2-10^2=196-100=96$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Nếu $x^2-y^2=48$ và $x+y=8$ thì giá trị của $x-y$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$48=8(x-y)$, nên $x-y=6$. (Ở đây $x=7$, $y=1$.)
+
+[ĐỀ – EN]
+If $x^2-y^2=48$ and $x+y=8$, what is the value of $x-y$?
+
+[LỜI GIẢI CŨ – EN]
+$48=8(x-y)$, so $x-y=6$. (Here $x=7$, $y=1$.)
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Nếu $x+\dfrac1x=5$ thì giá trị của $x^2+\dfrac{1}{x^2}$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$25=x^2+2+\dfrac1{x^2}$, nên $x^2+\dfrac1{x^2}=23$.
+
+[ĐỀ – EN]
+If $x+\dfrac1x=5$, what is the value of $x^2+\dfrac{1}{x^2}$?
+
+[LỜI GIẢI CŨ – EN]
+$25=x^2+2+\dfrac1{x^2}$, so $x^2+\dfrac1{x^2}=23$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Với mọi $x\ne2$, $\dfrac{3x^2-5x-2}{x-2}=ax+b$, trong đó $a$ và $b$ là các hằng số. Giá trị của $a+b$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+Hai số đó là $-6$ và $1$: $3x^2-6x+x-2=3x(x-2)+(x-2)=(3x+1)(x-2)$. Vậy biểu thức bằng $3x+1$, nên $a=3$, $b=1$ và $a+b=4$.
+
+[ĐỀ – EN]
+For all $x\ne2$, $\dfrac{3x^2-5x-2}{x-2}=ax+b$, where $a$ and $b$ are constants. What is the value of $a+b$?
+
+[LỜI GIẢI CŨ – EN]
+The numbers are $-6$ and $1$: $3x^2-6x+x-2=3x(x-2)+(x-2)=(3x+1)(x-2)$. So the expression equals $3x+1$, giving $a=3$, $b=1$ and $a+b=4$.
+
+
+######################################################################
+@@@ exams/sat/sat-exponential-functions
+Bài học: Hàm mũ: tăng trưởng và suy giảm / Exponential growth and decay
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Giá trị, tính bằng đô la, của một chiếc máy tính xách tay sau $t$ năm kể từ khi mua là $V(t)=900(0{,}92)^t$. Câu nào đúng?
+A. Giá trị giảm 92% mỗi năm.
+B. Giá trị giảm 8 đô la mỗi năm.
+C. Giá trị giảm 8% mỗi năm.
+D. Giá trị lúc mua là 828 đô la.
+
+[LỜI GIẢI CŨ – VI]
+Hệ số $0{,}92$ nghĩa là giảm $8\%$ mỗi năm: đáp án **C**. Giá trị lúc mua là $V(0)=900$ đô la; 828 đô la là giá trị sau một năm.
+
+[ĐỀ – EN]
+The value, in dollars, of a laptop $t$ years after it was bought is $V(t)=900(0.92)^t$. Which statement is true?
+A. The value decreases by 92% each year.
+B. The value decreases by 8 dollars each year.
+C. The value decreases by 8% each year.
+D. The value was 828 dollars when it was bought.
+
+[LỜI GIẢI CŨ – EN]
+The factor $0.92$ means a decrease of $8\%$ per year: answer **C**. The value when bought is $V(0)=900$ dollars; 828 dollars is the value after one year.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Mai gửi 2.000 đô la vào một tài khoản có lãi suất 5% mỗi năm, tính lãi kép mỗi năm một lần. Làm tròn đến đô la, sau 4 năm trong tài khoản có bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+$2.000\cdot(1{,}05)^4\approx2.431{,}01$, nên khoảng $2.431$ đô la. Khi nhập vào Bluebook, gõ `2431`.
+
+[ĐỀ – EN]
+Mai deposits 2,000 dollars in an account that earns 5% interest per year, compounded once a year. To the nearest dollar, how much is in the account after 4 years?
+
+[LỜI GIẢI CŨ – EN]
+$2{,}000(1.05)^4\approx2{,}431.01$, so about $2{,}431$ dollars.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+| $x$ | $0$ | $1$ | $2$ | $3$ |
+|---|---|---|---|---|
+| $f(x)$ | $162$ | $54$ | $18$ | $6$ |
+
+Hàm số $f$ là hàm mũ. Giá trị của $f(4)$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+Mỗi giá trị bằng $\dfrac13$ giá trị trước, nên $f(4)=6\cdot\dfrac13=2$.
+
+[ĐỀ – EN]
+| $x$ | $0$ | $1$ | $2$ | $3$ |
+|---|---|---|---|---|
+| $f(x)$ | $162$ | $54$ | $18$ | $6$ |
+
+The function $f$ is exponential. What is the value of $f(4)$?
+
+[LỜI GIẢI CŨ – EN]
+Each value is $\dfrac13$ of the previous one, so $f(4)=6\cdot\dfrac13=2$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một mẻ nuôi cấy bắt đầu với 400 vi khuẩn, và số vi khuẩn nhân đôi sau mỗi 3 giờ. Sau 12 giờ có bao nhiêu vi khuẩn?
+
+[LỜI GIẢI CŨ – VI]
+$400\cdot2^4=400\cdot16=6.400$ vi khuẩn.
+
+[ĐỀ – EN]
+A culture starts with 400 bacteria, and the number doubles every 3 hours. How many bacteria are there after 12 hours?
+
+[LỜI GIẢI CŨ – EN]
+$400\cdot2^4=400\cdot16=6{,}400$ bacteria.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hàm số nào sau đây mô tả sự suy giảm theo hàm mũ?
+A. $y=3(1{,}2)^x$
+B. $y=0{,}8x+3$
+C. $y=3(0{,}8)^x$
+D. $y=3x^{0{,}8}$
+
+[LỜI GIẢI CŨ – VI]
+B là hàm bậc nhất và D là hàm lũy thừa. A có $b=1{,}2>1$, là tăng trưởng. C có $b=0{,}8<1$: đáp án **C**.
+
+[ĐỀ – EN]
+Which of the following functions models exponential decay?
+A. $y=3(1.2)^x$
+B. $y=0.8x+3$
+C. $y=3(0.8)^x$
+D. $y=3x^{0.8}$
+
+[LỜI GIẢI CŨ – EN]
+B is linear and D is a power function. A has $b=1.2>1$, which is growth. C has $b=0.8<1$: answer **C**.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giá một chiếc vé tăng 10% trong một năm và lại tăng 10% vào năm sau. Sau hai năm, giá vé tăng bao nhiêu phần trăm?
+
+[LỜI GIẢI CŨ – VI]
+$1{,}1^2=1{,}21$, nên giá vé tăng tổng cộng $21\%$, không phải $20\%$. Ví dụ, 100 đô la thành 110 đô la, rồi thành 121 đô la.
+
+[ĐỀ – EN]
+The price of a ticket increases by 10% one year and by 10% again the next year. By what percent did the price increase over the two years?
+
+[LỜI GIẢI CŨ – EN]
+$1.1^2=1.21$, so the price increased by $21\%$ in total, not $20\%$. For example, 100 dollars becomes 110 dollars, then 121 dollars.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Phương án A trả 1.000 đô la cộng 100 đô la cho mỗi tháng làm việc. Phương án B trả $10\cdot2^m$ đô la sau $m$ tháng. Sau bao nhiêu tháng tròn thì phương án B lần đầu trả nhiều hơn phương án A?
+
+[LỜI GIẢI CŨ – VI]
+| $m$ | $6$ | $7$ | $8$ |
+|---|---|---|---|
+| Phương án A | $1.600$ | $1.700$ | $1.800$ |
+| Phương án B | $640$ | $1.280$ | $2.560$ |
+
+Phương án B lần đầu trả nhiều hơn sau $8$ tháng. Tăng trưởng hàm mũ khởi đầu chậm nhưng rồi sẽ vượt mọi tăng trưởng bậc nhất.
+
+[ĐỀ – EN]
+Plan A pays 1,000 dollars plus 100 dollars for each month worked. Plan B pays $10\cdot2^m$ dollars after $m$ months. After how many whole months does plan B first pay more than plan A?
+
+[LỜI GIẢI CŨ – EN]
+| $m$ | $6$ | $7$ | $8$ |
+|---|---|---|---|
+| Plan A | $1{,}600$ | $1{,}700$ | $1{,}800$ |
+| Plan B | $640$ | $1{,}280$ | $2{,}560$ |
+
+Plan B first pays more after $8$ months. Exponential growth starts slowly but eventually overtakes any linear growth.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một quần thể tuân theo $f(t)=a\cdot b^t$, với $t$ tính bằng năm. Tại $t=0$ có 500 con và tại $t=2$ có 720 con. Mô hình dự đoán tại $t=5$ có bao nhiêu con? Làm tròn đến hàng đơn vị.
+
+[LỜI GIẢI CŨ – VI]
+$a=500$ và $b^2=1{,}44$, nên $b=1{,}2$ (hệ số tăng trưởng dương). Khi đó $f(5)=500(1{,}2)^5=1.244{,}16$, khoảng $1.244$ con.
+
+[ĐỀ – EN]
+A population follows $f(t)=a\cdot b^t$, where $t$ is in years. At $t=0$ there are 500 animals and at $t=2$ there are 720. How many animals does the model predict at $t=5$? Round to the nearest whole number.
+
+[LỜI GIẢI CŨ – EN]
+$a=500$ and $b^2=1.44$, so $b=1.2$ (a growth factor is positive). Then $f(5)=500(1.2)^5=1{,}244.16$, about $1{,}244$ animals.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một bệnh nhân được dùng 200 mi-li-gam thuốc. Mỗi giờ, cơ thể đào thải 20% lượng thuốc có ở đầu giờ đó. Sau bao nhiêu giờ tròn thì lượng thuốc lần đầu ít hơn 50 mi-li-gam?
+
+[LỜI GIẢI CŨ – VI]
+$200(0{,}8)^6\approx52{,}4$ mi-li-gam, vẫn trên 50; $200(0{,}8)^7\approx41{,}9$ mi-li-gam. Lượng thuốc lần đầu xuống dưới 50 mi-li-gam sau $7$ giờ.
+
+[ĐỀ – EN]
+A patient is given 200 milligrams of a medicine. Each hour, the body removes 20% of the amount present at the start of that hour. After how many whole hours is the amount first less than 50 milligrams?
+
+[LỜI GIẢI CŨ – EN]
+$200(0.8)^6\approx52.4$ milligrams, still above 50; $200(0.8)^7\approx41.9$ milligrams. The amount first falls below 50 milligrams after $7$ hours.
+
+
+######################################################################
+@@@ exams/sat/sat-linear-equations-systems
+Bài học: Phương trình và hệ phương trình bậc nhất / Linear equations and systems
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Nếu $5(x-2)-3x=x+4$ thì giá trị của $x$ là
+A. $6$
+B. $7$
+C. $12$
+D. $14$
+
+[LỜI GIẢI CŨ – VI]
+$5x-10-3x=x+4\iff 2x-10=x+4\iff x=14$. Đáp án là **D**. Phương án A có được khi tính $10-4$ thay vì $10+4$.
+
+[ĐỀ – EN]
+If $5(x-2)-3x=x+4$, what is the value of $x$?
+A. $6$
+B. $7$
+C. $12$
+D. $14$
+
+[LỜI GIẢI CŨ – EN]
+$5x-10-3x=x+4\iff 2x-10=x+4\iff x=14$. The answer is **D**. Option A comes from computing $10-4$ instead of $10+4$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Trong phương trình $2(4x+k)=8x+10$, $k$ là hằng số. Phương trình có vô số nghiệm. Giá trị của $k$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$8x+2k=8x+10$ với mọi $x$ khi và chỉ khi $2k=10$, nên $k=5$.
+
+[ĐỀ – EN]
+In the equation $2(4x+k)=8x+10$, $k$ is a constant. The equation has infinitely many solutions. What is the value of $k$?
+
+[LỜI GIẢI CŨ – EN]
+$8x+2k=8x+10$ for every $x$ exactly when $2k=10$, so $k=5$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Một chuyến taxi có giá mở cửa 3 đô la cộng 2 đô la cho mỗi ki-lô-mét. Một chuyến đi hết 27 đô la. Chuyến đi dài bao nhiêu ki-lô-mét?
+A. $9$
+B. $12$
+C. $13{,}5$
+D. $15$
+
+[LỜI GIẢI CŨ – VI]
+$3+2d=27\iff 2d=24\iff d=12$. Đáp án là **B**. Phương án C bỏ qua giá mở cửa; phương án D cộng nó vào thay vì trừ đi.
+
+[ĐỀ – EN]
+A taxi ride costs a flat fee of 3 dollars plus 2 dollars per kilometer. A ride cost 27 dollars. How many kilometers long was the ride?
+A. $9$
+B. $12$
+C. $13.5$
+D. $15$
+
+[LỜI GIẢI CŨ – EN]
+$3+2d=27\iff 2d=24\iff d=12$. The answer is **B**. Option C ignores the flat fee; option D adds it instead of subtracting.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+$$x+2y=11$$
+$$3x-y=5$$
+Nghiệm của hệ là $(x, y)$. Giá trị của $y$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$x+2(3x-5)=11\iff 7x=21\iff x=3$, nên $y=3\cdot3-5=4$. Đáp số là $4$.
+
+[ĐỀ – EN]
+$$x+2y=11$$
+$$3x-y=5$$
+The solution to the system is $(x, y)$. What is the value of $y$?
+
+[LỜI GIẢI CŨ – EN]
+$x+2(3x-5)=11\iff 7x=21\iff x=3$, so $y=3\cdot3-5=4$. The answer is $4$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+$$4x+y=13$$
+$$x+4y=7$$
+Giá trị của $x+y$ là
+A. $4$
+B. $5$
+C. $6$
+D. $20$
+
+[LỜI GIẢI CŨ – VI]
+Cộng lại được $5x+5y=20$, nên $x+y=4$. Đáp án là **A**. (Kiểm tra: $x=3$, $y=1$.) Phương án D quên chia cho $5$.
+
+[ĐỀ – EN]
+$$4x+y=13$$
+$$x+4y=7$$
+What is the value of $x+y$?
+A. $4$
+B. $5$
+C. $6$
+D. $20$
+
+[LỜI GIẢI CŨ – EN]
+Adding gives $5x+5y=20$, so $x+y=4$. The answer is **A**. (Check: $x=3$, $y=1$.) Option D forgets to divide by $5$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một trường bán được 50 vé cho buổi hoà nhạc. Vé người lớn giá 12 đô la, vé học sinh giá 8 đô la. Tổng số tiền thu được là 480 đô la. Có bao nhiêu vé người lớn đã được bán?
+
+[LỜI GIẢI CŨ – VI]
+$12a+8(50-a)=480\iff 4a+400=480\iff a=20$. Có hai mươi vé người lớn được bán. Kiểm tra: $20\cdot12+30\cdot8=240+240=480$.
+
+[ĐỀ – EN]
+A school sold 50 tickets for a concert. Adult tickets cost 12 dollars and student tickets cost 8 dollars. The total income was 480 dollars. How many adult tickets were sold?
+
+[LỜI GIẢI CŨ – EN]
+$12a+8(50-a)=480\iff 4a+400=480\iff a=20$. Twenty adult tickets were sold. Check: $20\cdot12+30\cdot8=240+240=480$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+$$6x-ky=7$$
+$$3x+2y=5$$
+Trong hệ, $k$ là hằng số. Hệ vô nghiệm. Giá trị của $k$ là
+A. $-4$
+B. $-1$
+C. $1$
+D. $4$
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac63=2$, nên $\dfrac{-k}{2}=2$ và $k=-4$. Các hằng số cho $\dfrac75\ne2$, nên hai đường thẳng song song và phân biệt. Đáp án là **A**. Phương án D quên dấu trừ đứng trước $k$.
+
+[ĐỀ – EN]
+$$6x-ky=7$$
+$$3x+2y=5$$
+In the system, $k$ is a constant. The system has no solution. What is the value of $k$?
+A. $-4$
+B. $-1$
+C. $1$
+D. $4$
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac63=2$, so $\dfrac{-k}{2}=2$ and $k=-4$. The constants give $\dfrac75\ne2$, so the lines are parallel and distinct. The answer is **A**. Option D forgets the minus sign in front of $k$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Gói A giá 30 đô la mỗi tháng cộng 2 đô la cho mỗi gigabyte dữ liệu. Gói B giá 10 đô la mỗi tháng cộng 6 đô la cho mỗi gigabyte. Dùng bao nhiêu gigabyte trong một tháng thì hai gói có giá bằng nhau, và giá đó là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$30+2g=10+6g\iff 20=4g\iff g=5$. Ở mức 5 gigabyte, cả hai gói có giá $30+2\cdot5=40$ đô la. Dưới 5 gigabyte gói B rẻ hơn; trên mức đó gói A rẻ hơn.
+
+[ĐỀ – EN]
+Plan A costs 30 dollars per month plus 2 dollars per gigabyte of data. Plan B costs 10 dollars per month plus 6 dollars per gigabyte. For how many gigabytes in a month do the two plans cost the same, and what is that cost?
+
+[LỜI GIẢI CŨ – EN]
+$30+2g=10+6g\iff 20=4g\iff g=5$. At 5 gigabytes both plans cost $30+2\cdot5=40$ dollars. Below 5 gigabytes plan B is cheaper; above it plan A is cheaper.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Nếu $\dfrac{x}{2}+\dfrac{x}{3}=10$ thì giá trị của $x$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+Nhân với $6$: $3x+2x=60\iff 5x=60\iff x=12$. Kiểm tra: $6+4=10$.
+
+[ĐỀ – EN]
+If $\dfrac{x}{2}+\dfrac{x}{3}=10$, what is the value of $x$?
+
+[LỜI GIẢI CŨ – EN]
+Multiplying by $6$: $3x+2x=60\iff 5x=60\iff x=12$. Check: $6+4=10$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+$$2x+5y=8$$
+$$ax+by=24$$
+Trong hệ, $a$ và $b$ là các hằng số. Hệ có vô số nghiệm. Giá trị của $a+b$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$24=3\cdot8$, nên phương trình thứ hai phải gấp $3$ lần phương trình thứ nhất: $6x+15y=24$. Do đó $a=6$, $b=15$ và $a+b=21$.
+
+[ĐỀ – EN]
+$$2x+5y=8$$
+$$ax+by=24$$
+In the system, $a$ and $b$ are constants. The system has infinitely many solutions. What is the value of $a+b$?
+
+[LỜI GIẢI CŨ – EN]
+$24=3\cdot8$, so the second equation must be $3$ times the first: $6x+15y=24$. Hence $a=6$, $b=15$ and $a+b=21$.
+
+
+===== HẾT GÓI GOI-ONTHI-01 =====

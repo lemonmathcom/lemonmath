@@ -1,0 +1,873 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – GOI-ONTHI-06
+Người làm: ChatGPT. Gói này có 45 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/data/NC-ChatGPT-GOI-ONTHI-06.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/data/NC-ChatGPT-GOI-ONTHI-06.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG GÓI NÀY =====
+- exams/ib-aa/ibaa-hl-complex-proof (9 bài tập)
+- exams/ib-aa/ibaa-hl-further-calculus (9 bài tập)
+- exams/ib-aa/ibaa-hl-vectors (9 bài tập)
+- exams/ib-aa/ibaa-number-algebra (9 bài tập)
+- exams/ib-aa/ibaa-statistics-probability (9 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ exams/ib-aa/ibaa-hl-complex-proof
+Bài học: Số phức, quy nạp và chứng minh / Complex numbers, induction and proof
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $(2-i)^2$ và $\dfrac{1}{2-i}$ dưới dạng $a+bi$. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$(2-i)^2=4-4i+i^2=3-4i$. $\dfrac{1}{2-i}=\dfrac{2+i}{5}=\dfrac25+\dfrac15i$.
+
+[ĐỀ – EN]
+Find $(2-i)^2$ and $\dfrac{1}{2-i}$ in the form $a+bi$. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$(2-i)^2=4-4i+i^2=3-4i$. $\dfrac{1}{2-i}=\dfrac{2+i}{5}=\dfrac25+\dfrac15i$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết $-2-2i$ dưới dạng $re^{i\theta}$, $-\pi<\theta\le\pi$. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$r=\sqrt{8}=2\sqrt2$ và $\theta=-\dfrac{3\pi}{4}$, nên $-2-2i=2\sqrt2e^{-3\pi i/4}$.
+
+[ĐỀ – EN]
+Write $-2-2i$ in the form $re^{i\theta}$, $-\pi<\theta\le\pi$. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$r=\sqrt{8}=2\sqrt2$ and $\theta=-\dfrac{3\pi}{4}$, so $-2-2i=2\sqrt2e^{-3\pi i/4}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Giải $z^4=16$. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$z=2e^{ik\pi/2}$, $k=0,1,2,3$: $2$, $2i$, $-2$, $-2i$.
+
+[ĐỀ – EN]
+Solve $z^4=16$. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$z=2e^{ik\pi/2}$, $k=0,1,2,3$: $2$, $2i$, $-2$, $-2i$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm $z=a+bi$ sao cho $z+2z^*=6-i$. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$3a=6$ và $-b=-1$, nên $z=2+i$.
+
+[ĐỀ – EN]
+Find $z=a+bi$ such that $z+2z^*=6-i$. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$3a=6$ and $-b=-1$, so $z=2+i$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Chứng minh bằng quy nạp rằng $3^{2n}-1$ chia hết cho $8$ với mọi $n\in\mathbb{Z}^+$. [6 marks]
+
+[LỜI GIẢI CŨ – VI]
+Cơ sở: $3^2-1=8$. Giả sử $3^{2k}-1=8m$ với $m$ nguyên. Khi đó $3^{2k+2}-1=9(8m)+8=8(9m+1)$, là bội của $8$. Vì mệnh đề đúng với $n=1$ và đúng với $n=k+1$ mỗi khi đúng với $n=k$, nên theo nguyên lí quy nạp nó đúng với mọi $n\in\mathbb{Z}^+$.
+
+[ĐỀ – EN]
+Prove by induction that $3^{2n}-1$ is divisible by $8$ for all $n\in\mathbb{Z}^+$. [6 marks]
+
+[LỜI GIẢI CŨ – EN]
+Basis: $3^2-1=8$. Assume $3^{2k}-1=8m$ for some integer $m$. Then $3^{2k+2}-1=9(8m)+8=8(9m+1)$, a multiple of $8$. Since the statement is true for $n=1$ and true for $n=k+1$ whenever true for $n=k$, it is true for all $n\in\mathbb{Z}^+$ by induction.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Dùng định lí De Moivre với $n=3$ để chứng minh $\cos3\theta=4\cos^3\theta-3\cos\theta$. [6 marks]
+
+[LỜI GIẢI CŨ – VI]
+Phần thực của $(c+is)^3$: $c^3-3cs^2=c^3-3c\left(1-c^2\right)=4c^3-3c$, với $c=\cos\theta$ và $s=\sin\theta$. Theo De Moivre, phần thực đó cũng bằng $\cos3\theta$.
+
+[ĐỀ – EN]
+Use De Moivre's theorem with $n=3$ to show that $\cos3\theta=4\cos^3\theta-3\cos\theta$. [6 marks]
+
+[LỜI GIẢI CŨ – EN]
+Real part of $(c+is)^3$: $c^3-3cs^2=c^3-3c\left(1-c^2\right)=4c^3-3c$, where $c=\cos\theta$ and $s=\sin\theta$. By De Moivre, the real part is also $\cos3\theta$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho $\omega=e^{2\pi i/3}$. Chứng minh $1+\omega+\omega^2=0$, và mô tả ba căn bậc ba của $1$ trên mặt phẳng phức. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\omega^3-1=(\omega-1)\left(\omega^2+\omega+1\right)=0$ và $\omega\ne1$, nên $1+\omega+\omega^2=0$. Ba nghiệm $1$, $\omega$, $\omega^2$ là ba đỉnh của một tam giác đều nội tiếp đường tròn đơn vị.
+
+[ĐỀ – EN]
+Let $\omega=e^{2\pi i/3}$. Show that $1+\omega+\omega^2=0$, and describe the three cube roots of $1$ on an Argand diagram. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\omega^3-1=(\omega-1)\left(\omega^2+\omega+1\right)=0$ and $\omega\ne1$, so $1+\omega+\omega^2=0$. The roots $1$, $\omega$, $\omega^2$ are the vertices of an equilateral triangle inscribed in the unit circle.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Chứng minh bằng quy nạp rằng $\dfrac{d^n}{dx^n}\left(xe^x\right)=(x+n)e^x$ với mọi $n\in\mathbb{Z}^+$. [6 marks]
+
+[LỜI GIẢI CŨ – VI]
+Cơ sở: $\dfrac{d}{dx}\left(xe^x\right)=e^x+xe^x=(x+1)e^x$. Giả sử đúng với $n=k$. Khi đó $\dfrac{d}{dx}\big((x+k)e^x\big)=e^x+(x+k)e^x=(x+k+1)e^x$, đúng là công thức với $n=k+1$. Kết luận như trong khung ở trên.
+
+[ĐỀ – EN]
+Prove by induction that $\dfrac{d^n}{dx^n}\left(xe^x\right)=(x+n)e^x$ for all $n\in\mathbb{Z}^+$. [6 marks]
+
+[LỜI GIẢI CŨ – EN]
+Basis: $\dfrac{d}{dx}\left(xe^x\right)=e^x+xe^x=(x+1)e^x$. Assume true for $n=k$. Then $\dfrac{d}{dx}\big((x+k)e^x\big)=e^x+(x+k)e^x=(x+k+1)e^x$, the formula for $n=k+1$. Conclusion as in the note above.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Chứng minh bằng phản chứng rằng $\log_23$ là số vô tỉ. [5 marks]
+
+[LỜI GIẢI CŨ – VI]
+Giả sử $\log_23=\dfrac pq$, $p,q\in\mathbb{Z}^+$. Khi đó $2^{p/q}=3$, nên $2^p=3^q$. Vế trái chẵn còn vế phải lẻ, vô lí. Vậy $\log_23$ là số vô tỉ.
+
+[ĐỀ – EN]
+Prove by contradiction that $\log_23$ is irrational. [5 marks]
+
+[LỜI GIẢI CŨ – EN]
+Assume $\log_23=\dfrac pq$, $p,q\in\mathbb{Z}^+$. Then $2^{p/q}=3$, so $2^p=3^q$. The left side is even and the right side is odd, which is impossible. So $\log_23$ is irrational.
+
+
+######################################################################
+@@@ exams/ib-aa/ibaa-hl-further-calculus
+Bài học: Giải tích nâng cao: chuỗi Maclaurin, phương trình vi phân / Further calculus: Maclaurin series and differential equations
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tìm chuỗi Maclaurin của $\cos2x$ đến số hạng chứa $x^4$. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$1-\dfrac{(2x)^2}{2}+\dfrac{(2x)^4}{24}=1-2x^2+\dfrac{2x^4}{3}$.
+
+[ĐỀ – EN]
+Find the Maclaurin series of $\cos2x$ up to the term in $x^4$. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$1-\dfrac{(2x)^2}{2}+\dfrac{(2x)^4}{24}=1-2x^2+\dfrac{2x^4}{3}$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm bốn số hạng đầu của chuỗi Maclaurin của $e^{x^2}$. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$1+x^2+\dfrac{x^4}{2}+\dfrac{x^6}{6}$.
+
+[ĐỀ – EN]
+Find the first four terms of the Maclaurin series of $e^{x^2}$. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$1+x^2+\dfrac{x^4}{2}+\dfrac{x^6}{6}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $\displaystyle\lim_{x\to0}\frac{x-\sin x}{x^3}$. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{\frac{x^3}{6}-\dots}{x^3}\to\dfrac16$.
+
+[ĐỀ – EN]
+Find $\displaystyle\lim_{x\to0}\frac{x-\sin x}{x^3}$. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{\frac{x^3}{6}-\dots}{x^3}\to\dfrac16$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Giải $\dfrac{dy}{dx}=2x\left(1+y^2\right)$, biết $y=0$ khi $x=0$. [5 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\arctan y=x^2+C$, và $C=0$, nên $y=\tan\left(x^2\right)$.
+
+[ĐỀ – EN]
+Solve $\dfrac{dy}{dx}=2x\left(1+y^2\right)$, given that $y=0$ when $x=0$. [5 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\arctan y=x^2+C$, and $C=0$, so $y=\tan\left(x^2\right)$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giải $\dfrac{dy}{dx}-y=e^{2x}$, biết $y=0$ khi $x=0$. [5 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{d}{dx}\left(ye^{-x}\right)=e^x$, nên $ye^{-x}=e^x+C$; $C=-1$. Vậy $y=e^{2x}-e^x$.
+
+[ĐỀ – EN]
+Solve $\dfrac{dy}{dx}-y=e^{2x}$, given that $y=0$ when $x=0$. [5 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{d}{dx}\left(ye^{-x}\right)=e^x$, so $ye^{-x}=e^x+C$; $C=-1$. Hence $y=e^{2x}-e^x$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tại thời điểm $t$ phút, một bể chứa $Q$ kg muối. Nước muối chảy vào và hỗn hợp chảy ra sao cho $\dfrac{dQ}{dt}=2-\dfrac{Q}{50}$, và $Q=0$ khi $t=0$.
+(a) Giải phương trình vi phân. [5 marks]
+(b) Mô tả lượng muối về lâu dài. [1 mark]
+
+[LỜI GIẢI CŨ – VI]
+(a) $\dfrac{d}{dt}\left(Qe^{t/50}\right)=2e^{t/50}$, nên $Qe^{t/50}=100e^{t/50}+C$ và $C=-100$. Vậy $Q=100\left(1-e^{-t/50}\right)$.
+
+(b) $Q\to100$ kg.
+
+[ĐỀ – EN]
+A tank contains $Q$ kg of salt at time $t$ minutes. Brine flows in and the mixture flows out so that $\dfrac{dQ}{dt}=2-\dfrac{Q}{50}$, and $Q=0$ when $t=0$.
+(a) Solve the differential equation. [5 marks]
+(b) Describe the amount of salt in the long run. [1 mark]
+
+[LỜI GIẢI CŨ – EN]
+(a) $\dfrac{d}{dt}\left(Qe^{t/50}\right)=2e^{t/50}$, so $Qe^{t/50}=100e^{t/50}+C$ and $C=-100$. Hence $Q=100\left(1-e^{-t/50}\right)$.
+
+(b) $Q\to100$ kg.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Dùng hai số hạng khác không đầu tiên của chuỗi Maclaurin của $\sin\left(x^2\right)$ để ước lượng $\displaystyle\int_0^1\sin\left(x^2\right)dx$. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\displaystyle\int_0^1\left(x^2-\frac{x^6}{6}\right)dx=\frac13-\frac{1}{42}=\frac{13}{42}\approx0{,}310$. (GDC cũng cho $0{,}310$.)
+
+[ĐỀ – EN]
+Use the first two nonzero terms of the Maclaurin series of $\sin\left(x^2\right)$ to estimate $\displaystyle\int_0^1\sin\left(x^2\right)dx$. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\displaystyle\int_0^1\left(x^2-\frac{x^6}{6}\right)dx=\frac13-\frac{1}{42}=\frac{13}{42}\approx0.310$. (A GDC gives $0.310$ as well.)
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Với $\dfrac{dy}{dx}=\sin x+y$ và $y(0)=1$, dùng phương pháp Euler với $h=0{,}2$ để ước lượng $y(0{,}4)$. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$y_1=1+0{,}2(\sin0+1)=1{,}2$. $y_2=1{,}2+0{,}2(\sin0{,}2+1{,}2)\approx1{,}48$.
+
+[ĐỀ – EN]
+For $\dfrac{dy}{dx}=\sin x+y$ with $y(0)=1$, use Euler's method with $h=0.2$ to estimate $y(0.4)$. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$y_1=1+0.2(\sin0+1)=1.2$. $y_2=1.2+0.2(\sin0.2+1.2)\approx1.48$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm chuỗi Maclaurin của $\tan x$ đến số hạng chứa $x^3$ bằng cách lấy đạo hàm. [5 marks]
+
+[LỜI GIẢI CŨ – VI]
+$f(0)=0$, $f'(0)=1$, $f''(0)=0$, $f'''(0)=2$. Vậy $\tan x=x+\dfrac{2}{3!}x^3+\dots=x+\dfrac{x^3}{3}+\dots$
+
+[ĐỀ – EN]
+Find the Maclaurin series of $\tan x$ up to the term in $x^3$ by differentiating. [5 marks]
+
+[LỜI GIẢI CŨ – EN]
+$f(0)=0$, $f'(0)=1$, $f''(0)=0$, $f'''(0)=2$. So $\tan x=x+\dfrac{2}{3!}x^3+\dots=x+\dfrac{x^3}{3}+\dots$
+
+
+######################################################################
+@@@ exams/ib-aa/ibaa-hl-vectors
+Bài học: Véc-tơ, đường thẳng và mặt phẳng / Vectors, lines and planes
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tìm $k$ để $\begin{pmatrix}k\\2\\-1\end{pmatrix}$ và $\begin{pmatrix}3\\k\\4\end{pmatrix}$ vuông góc. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$3k+2k-4=0$, nên $k=\dfrac45$.
+
+[ĐỀ – EN]
+Find $k$ such that $\begin{pmatrix}k\\2\\-1\end{pmatrix}$ and $\begin{pmatrix}3\\k\\4\end{pmatrix}$ are perpendicular. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$3k+2k-4=0$, so $k=\dfrac45$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết một phương trình véc-tơ của đường thẳng qua $A(2,-1,3)$ và $B(4,1,0)$. [2 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\boldsymbol r=\begin{pmatrix}2\\-1\\3\end{pmatrix}+\lambda\begin{pmatrix}2\\2\\-3\end{pmatrix}$.
+
+[ĐỀ – EN]
+Write a vector equation of the line through $A(2,-1,3)$ and $B(4,1,0)$. [2 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\boldsymbol r=\begin{pmatrix}2\\-1\\3\end{pmatrix}+\lambda\begin{pmatrix}2\\2\\-3\end{pmatrix}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tìm giao điểm của $L_1:\boldsymbol r=\begin{pmatrix}0\\1\\1\end{pmatrix}+\lambda\begin{pmatrix}1\\0\\1\end{pmatrix}$ và $L_2:\boldsymbol r=\begin{pmatrix}1\\2\\3\end{pmatrix}+\mu\begin{pmatrix}0\\1\\1\end{pmatrix}$. [5 marks]
+
+[LỜI GIẢI CŨ – VI]
+$x$: $\lambda=1$. $y$: $1=2+\mu$, nên $\mu=-1$. Kiểm tra $z$: $1+\lambda=2$ và $3+\mu=2$, khớp nhau. Hai đường thẳng cắt nhau tại $(1,1,2)$.
+
+[ĐỀ – EN]
+Find the point of intersection of $L_1:\boldsymbol r=\begin{pmatrix}0\\1\\1\end{pmatrix}+\lambda\begin{pmatrix}1\\0\\1\end{pmatrix}$ and $L_2:\boldsymbol r=\begin{pmatrix}1\\2\\3\end{pmatrix}+\mu\begin{pmatrix}0\\1\\1\end{pmatrix}$. [5 marks]
+
+[LỜI GIẢI CŨ – EN]
+$x$: $\lambda=1$. $y$: $1=2+\mu$, so $\mu=-1$. Check $z$: $1+\lambda=2$ and $3+\mu=2$, which agree. The lines meet at $(1,1,2)$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính $\begin{pmatrix}1\\2\\3\end{pmatrix}\times\begin{pmatrix}0\\1\\4\end{pmatrix}$. [2 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\begin{pmatrix}2\cdot4-3\cdot1\\3\cdot0-1\cdot4\\1\cdot1-2\cdot0\end{pmatrix}=\begin{pmatrix}5\\-4\\1\end{pmatrix}$.
+
+[ĐỀ – EN]
+Find $\begin{pmatrix}1\\2\\3\end{pmatrix}\times\begin{pmatrix}0\\1\\4\end{pmatrix}$. [2 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\begin{pmatrix}2\cdot4-3\cdot1\\3\cdot0-1\cdot4\\1\cdot1-2\cdot0\end{pmatrix}=\begin{pmatrix}5\\-4\\1\end{pmatrix}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Viết phương trình toạ độ của mặt phẳng qua $(1,2,3)$ có véc-tơ pháp tuyến $\begin{pmatrix}2\\-1\\1\end{pmatrix}$. [2 marks]
+
+[LỜI GIẢI CŨ – VI]
+$d=2-2+3=3$, nên $2x-y+z=3$.
+
+[ĐỀ – EN]
+Find the Cartesian equation of the plane through $(1,2,3)$ with normal $\begin{pmatrix}2\\-1\\1\end{pmatrix}$. [2 marks]
+
+[LỜI GIẢI CŨ – EN]
+$d=2-2+3=3$, so $2x-y+z=3$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một chiếc drone chuyển động sao cho vị trí của nó, tính bằng km, sau $t$ giờ kể từ khi cất cánh là $\boldsymbol r=\begin{pmatrix}2\\1\\0\end{pmatrix}+t\begin{pmatrix}3\\4\\12\end{pmatrix}$, với thành phần thứ ba là độ cao.
+(a) Tính tốc độ của drone. [2 marks]
+(b) Tìm vị trí của drone khi nó đạt độ cao $6$ km. [2 marks]
+
+[LỜI GIẢI CŨ – VI]
+(a) $\sqrt{9+16+144}=13$ km mỗi giờ.
+
+(b) $12t=6$, nên $t=0{,}5$ và vị trí là $(3{,}5;3;6)$.
+
+[ĐỀ – EN]
+A drone moves so that its position, in km, $t$ hours after take-off is $\boldsymbol r=\begin{pmatrix}2\\1\\0\end{pmatrix}+t\begin{pmatrix}3\\4\\12\end{pmatrix}$, where the third component is height.
+(a) Find its speed. [2 marks]
+(b) Find its position when it reaches a height of $6$ km. [2 marks]
+
+[LỜI GIẢI CŨ – EN]
+(a) $\sqrt{9+16+144}=13$ km per hour.
+
+(b) $12t=6$, so $t=0.5$ and the position is $(3.5,3,6)$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Tính khoảng cách từ $P(3,1,2)$ đến mặt phẳng $2x-y+2z=1$. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{|6-1+4-1|}{\sqrt{4+1+4}}=\dfrac83$.
+
+[ĐỀ – EN]
+Find the distance from $P(3,1,2)$ to the plane $2x-y+2z=1$. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{|6-1+4-1|}{\sqrt{4+1+4}}=\dfrac83$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm góc giữa hai mặt phẳng $x+y+z=1$ và $x-y=0$. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\begin{pmatrix}1\\1\\1\end{pmatrix}\cdot\begin{pmatrix}1\\-1\\0\end{pmatrix}=0$, nên hai mặt phẳng vuông góc: $90^\circ$.
+
+[ĐỀ – EN]
+Find the angle between the planes $x+y+z=1$ and $x-y=0$. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\begin{pmatrix}1\\1\\1\end{pmatrix}\cdot\begin{pmatrix}1\\-1\\0\end{pmatrix}=0$, so the planes are perpendicular: $90^\circ$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm điểm trên đường thẳng $\boldsymbol r=t\begin{pmatrix}1\\1\\1\end{pmatrix}$ gần $P(1,2,3)$ nhất, và khoảng cách ngắn nhất từ $P$ đến đường thẳng. [6 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\begin{pmatrix}1-t\\2-t\\3-t\end{pmatrix}\cdot\begin{pmatrix}1\\1\\1\end{pmatrix}=6-3t=0$, nên $t=2$ và điểm gần nhất là $(2,2,2)$. Khoảng cách là $\sqrt{1+0+1}=\sqrt2$.
+
+[ĐỀ – EN]
+Find the point on the line $\boldsymbol r=t\begin{pmatrix}1\\1\\1\end{pmatrix}$ closest to $P(1,2,3)$, and the shortest distance from $P$ to the line. [6 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\begin{pmatrix}1-t\\2-t\\3-t\end{pmatrix}\cdot\begin{pmatrix}1\\1\\1\end{pmatrix}=6-3t=0$, so $t=2$ and the closest point is $(2,2,2)$. The distance is $\sqrt{1+0+1}=\sqrt2$.
+
+
+######################################################################
+@@@ exams/ib-aa/ibaa-number-algebra
+Bài học: Số và đại số: cấp số, logarit, nhị thức, chứng minh / Number and algebra: sequences, logarithms, binomial, proof
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một cấp số cộng có số hạng đầu $7$ và công sai $4$.
+(a) Tìm $n$ sao cho $u_n=95$. [2 marks]
+(b) Tính tổng $n$ số hạng đầu với giá trị $n$ đó. [2 marks]
+
+[LỜI GIẢI CŨ – VI]
+(a) $7+4(n-1)=95$ cho $n-1=22$, nên $n=23$.
+
+(b) $S_{23}=\dfrac{23}{2}(7+95)=23\cdot51=1173$.
+
+[ĐỀ – EN]
+An arithmetic sequence has first term $7$ and common difference $4$.
+(a) Find $n$ such that $u_n=95$. [2 marks]
+(b) Find the sum of the first $n$ terms for this value of $n$. [2 marks]
+
+[LỜI GIẢI CŨ – EN]
+(a) $7+4(n-1)=95$ gives $n-1=22$, so $n=23$.
+
+(b) $S_{23}=\dfrac{23}{2}(7+95)=23\cdot51=1173$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Trong một cấp số nhân, $u_2=12$ và $u_5=96$. Tìm công bội, số hạng đầu và $S_{10}$. [5 marks]
+
+[LỜI GIẢI CŨ – VI]
+$r^3=8$, nên $r=2$ và $u_1=6$. $S_{10}=\dfrac{6\left(2^{10}-1\right)}{2-1}=6\cdot1023=6138$.
+
+[ĐỀ – EN]
+In a geometric sequence, $u_2=12$ and $u_5=96$. Find the common ratio, the first term and $S_{10}$. [5 marks]
+
+[LỜI GIẢI CŨ – EN]
+$r^3=8$, so $r=2$ and $u_1=6$. $S_{10}=\dfrac{6\left(2^{10}-1\right)}{2-1}=6\cdot1023=6138$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Giải $\log_2(x+3)+\log_2(x-3)=4$. [5 marks]
+
+[LỜI GIẢI CŨ – VI]
+$x^2=25$, nên $x=\pm5$. Loại $x=-5$ vì khi đó $x-3<0$. Nghiệm là $x=5$.
+
+[ĐỀ – EN]
+Solve $\log_2(x+3)+\log_2(x-3)=4$. [5 marks]
+
+[LỜI GIẢI CŨ – EN]
+$x^2=25$, so $x=\pm5$. $x=-5$ is rejected because $x-3<0$. The solution is $x=5$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm hệ số của $x^2$ trong khai triển $(1+3x)^6$. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\dbinom62\cdot9x^2=15\cdot9x^2=135x^2$. Hệ số là $135$.
+
+[ĐỀ – EN]
+Find the coefficient of $x^2$ in the expansion of $(1+3x)^6$. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\dbinom62\cdot9x^2=15\cdot9x^2=135x^2$. The coefficient is $135$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Chứng minh rằng $(2n+1)^2-(2n-1)^2$ là bội của $8$ với mọi số nguyên $n$. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$(2n+1)^2-(2n-1)^2=\big((2n+1)-(2n-1)\big)\big((2n+1)+(2n-1)\big)=2\cdot4n=8n$, là bội của $8$ vì $n$ là số nguyên.
+
+[ĐỀ – EN]
+Show that $(2n+1)^2-(2n-1)^2$ is a multiple of $8$ for every integer $n$. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$(2n+1)^2-(2n-1)^2=\big((2n+1)-(2n-1)\big)\big((2n+1)+(2n-1)\big)=2\cdot4n=8n$, which is a multiple of $8$ because $n$ is an integer.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một thị trấn có $12.000$ dân, và dân số tăng $2{,}5\%$ mỗi năm. Sau bao nhiêu năm tròn thì dân số lần đầu vượt $20.000$? [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$1{,}025^n>\dfrac53$, nên $n>\dfrac{\ln(5/3)}{\ln1{,}025}\approx20{,}7$. Dân số lần đầu vượt $20.000$ sau $21$ năm. Kiểm tra: $12.000\cdot(1{,}025)^{20}\approx19.663$ và $12.000\cdot(1{,}025)^{21}\approx20.155$.
+
+[ĐỀ – EN]
+A town has $12{,}000$ residents, and its population grows by $2.5\%$ each year. After how many complete years will the population first exceed $20{,}000$? [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$1.025^n>\dfrac53$, so $n>\dfrac{\ln(5/3)}{\ln1.025}\approx20.7$. The population first exceeds $20{,}000$ after $21$ years. Check: $12{,}000(1.025)^{20}\approx19{,}663$ and $12{,}000(1.025)^{21}\approx20{,}155$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Lương khởi điểm của một giáo viên là $32.000$ đô la mỗi năm, và tăng $1500$ đô la mỗi năm. Tính tổng số tiền nhận được trong $10$ năm đầu. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$S_{10}=\dfrac{10}{2}\big(2\cdot32.000+9\cdot1500\big)=5\cdot77.500=387.500$ đô la.
+
+[ĐỀ – EN]
+A teacher's starting salary is $32{,}000$ dollars per year, and it rises by $1500$ dollars every year. Find the total amount earned in the first $10$ years. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$S_{10}=\dfrac{10}{2}\big(2\cdot32000+9\cdot1500\big)=5\cdot77{,}500=387{,}500$ dollars.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một quả bóng được thả từ độ cao $10$ mét. Sau mỗi lần nảy, nó lên tới $70\%$ độ cao trước đó. Tính tổng quãng đường theo phương thẳng đứng mà bóng đi được cho đến khi dừng. [5 marks]
+
+[LỜI GIẢI CŨ – VI]
+Tổng $=10+2\cdot\dfrac{7}{1-0{,}7}=10+\dfrac{14}{0{,}3}\approx56{,}7$ mét.
+
+[ĐỀ – EN]
+A ball is dropped from a height of $10$ meters. After each bounce it rises to $70\%$ of its previous height. Find the total vertical distance it travels before coming to rest. [5 marks]
+
+[LỜI GIẢI CŨ – EN]
+Total $=10+2\cdot\dfrac{7}{1-0.7}=10+\dfrac{14}{0.3}\approx56.7$ meters.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Chuỗi $1+2x+4x^2+8x^3+\dots$ là chuỗi cấp số nhân.
+(a) Tìm các giá trị của $x$ để tổng vô hạn tồn tại. [2 marks]
+(b) Tìm $x$ nếu tổng vô hạn bằng $4$. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+(a) $|2x|<1$, tức $-\dfrac12<x<\dfrac12$.
+
+(b) $\dfrac{1}{1-2x}=4$, nên $1-2x=\dfrac14$ và $x=\dfrac38$, thuộc khoảng ở câu (a).
+
+[ĐỀ – EN]
+The series $1+2x+4x^2+8x^3+\dots$ is geometric.
+(a) Find the values of $x$ for which the sum to infinity exists. [2 marks]
+(b) Find $x$ if the sum to infinity is $4$. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+(a) $|2x|<1$, that is $-\dfrac12<x<\dfrac12$.
+
+(b) $\dfrac{1}{1-2x}=4$, so $1-2x=\dfrac14$ and $x=\dfrac38$, which lies in the interval from (a).
+
+
+######################################################################
+@@@ exams/ib-aa/ibaa-statistics-probability
+Bài học: Thống kê và xác suất / Statistics and probability
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Năm số có trung bình $12$. Thêm số thứ sáu thì trung bình thành $13$. Tìm số thứ sáu. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+Các tổng là $5(12)=60$ và $6(13)=78$, nên số thứ sáu là $18$.
+
+[ĐỀ – EN]
+Five numbers have mean $12$. A sixth number is added and the mean becomes $13$. Find the sixth number. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+The totals are $5(12)=60$ and $6(13)=78$, so the sixth number is $18$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+$A$ và $B$ độc lập, với $P(A)=0{,}3$ và $P(B)=0{,}6$. Tính $P(A\cup B)$. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$0{,}3+0{,}6-0{,}18=0{,}72$.
+
+[ĐỀ – EN]
+$A$ and $B$ are independent, with $P(A)=0.3$ and $P(B)=0.6$. Find $P(A\cup B)$. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$0.3+0.6-0.18=0.72$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+| $x$ | $0$ | $1$ | $2$ |
+|---|---|---|---|
+| $P(X=x)$ | $0{,}2$ | $0{,}5$ | $0{,}3$ |
+
+Tính $E(X)$. [2 marks]
+
+[LỜI GIẢI CŨ – VI]
+$0(0{,}2)+1(0{,}5)+2(0{,}3)=1{,}1$.
+
+[ĐỀ – EN]
+| $x$ | $0$ | $1$ | $2$ |
+|---|---|---|---|
+| $P(X=x)$ | $0.2$ | $0.5$ | $0.3$ |
+
+Find $E(X)$. [2 marks]
+
+[LỜI GIẢI CŨ – EN]
+$0(0.2)+1(0.5)+2(0.3)=1.1$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tung một đồng xu cân đối $8$ lần. Tính xác suất được đúng $4$ lần mặt ngửa. [2 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\dbinom84(0{,}5)^8=\dfrac{70}{256}\approx0{,}273$.
+
+[ĐỀ – EN]
+A fair coin is tossed $8$ times. Find the probability of exactly $4$ heads. [2 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\dbinom84(0.5)^8=\dfrac{70}{256}\approx0.273$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+$X\sim N\left(50;4^2\right)$. Tính $P(46<X<58)$. [2 marks]
+
+[LỜI GIẢI CŨ – VI]
+$P(46<X<58)\approx0{,}819$.
+
+[ĐỀ – EN]
+$X\sim N\left(50, 4^2\right)$. Find $P(46<X<58)$. [2 marks]
+
+[LỜI GIẢI CŨ – EN]
+$P(46<X<58)\approx0.819$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+$2\%$ bóng đèn của một nhà máy bị lỗi. Kiểm tra ngẫu nhiên $20$ bóng. Tính xác suất có nhiều nhất một bóng lỗi. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$P(X\le1)\approx0{,}940$.
+
+[ĐỀ – EN]
+$2\%$ of the light bulbs made in a factory are defective. A random sample of $20$ bulbs is checked. Find the probability that at most one bulb is defective. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$P(X\le1)\approx0.940$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Điểm một bài kiểm tra có phân phối chuẩn với trung bình $65$ và độ lệch chuẩn $12$. $10\%$ học sinh cao điểm nhất được xếp loại cao nhất. Tìm điểm thấp nhất được xếp loại này. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+Tra ngược: $k\approx80{,}4$.
+
+[ĐỀ – EN]
+Scores on a test are normally distributed with mean $65$ and standard deviation $12$. The top $10\%$ of students receive the highest grade. Find the lowest score that receives this grade. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+Inverse normal: $k\approx80.4$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Khảo sát $200$ học sinh, ghi lại việc có học hơn $5$ giờ hay không và có đạt hay không.
+
+| | Đạt | Không đạt |
+|---|---|---|
+| Hơn $5$ giờ | $90$ | $30$ |
+| Từ $5$ giờ trở xuống | $50$ | $30$ |
+
+(a) Tính xác suất một học sinh đạt, biết rằng học sinh đó học hơn $5$ giờ. [2 marks]
+(b) Tính xác suất một học sinh học hơn $5$ giờ, biết rằng học sinh đó đạt. [2 marks]
+
+[LỜI GIẢI CŨ – VI]
+(a) $\dfrac{90}{120}=0{,}75$.
+
+(b) $\dfrac{90}{140}\approx0{,}643$. Hai đáp số khác nhau: nói chung $P(A\mid B)\ne P(B\mid A)$.
+
+[ĐỀ – EN]
+A survey of $200$ students records whether they studied more than $5$ hours and whether they passed.
+
+| | Passed | Failed |
+|---|---|---|
+| More than $5$ hours | $90$ | $30$ |
+| $5$ hours or less | $50$ | $30$ |
+
+(a) Find the probability that a student passed, given that they studied more than $5$ hours. [2 marks]
+(b) Find the probability that a student studied more than $5$ hours, given that they passed. [2 marks]
+
+[LỜI GIẢI CŨ – EN]
+(a) $\dfrac{90}{120}=0.75$.
+
+(b) $\dfrac{90}{140}\approx0.643$. The two answers differ: $P(A\mid B)\ne P(B\mid A)$ in general.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Người chơi trả $k$ đô la để gieo một con xúc xắc cân đối sáu mặt và nhận số đô la bằng số chấm xuất hiện. Tìm $k$ để trò chơi công bằng. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$E(\text{tiền thưởng})=\dfrac{1+2+3+4+5+6}{6}=3{,}5$, nên $k=3{,}5$.
+
+[ĐỀ – EN]
+A player pays $k$ dollars to roll a fair six-sided die and wins, in dollars, the number shown. Find $k$ so that the game is fair. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$E(\text{winnings})=\dfrac{1+2+3+4+5+6}{6}=3.5$, so $k=3.5$.
+
+
+===== HẾT GÓI GOI-ONTHI-06 =====

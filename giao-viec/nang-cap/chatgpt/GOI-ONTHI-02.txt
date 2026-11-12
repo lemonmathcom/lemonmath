@@ -1,0 +1,798 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – GOI-ONTHI-02
+Người làm: ChatGPT. Gói này có 38 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/data/NC-ChatGPT-GOI-ONTHI-02.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/data/NC-ChatGPT-GOI-ONTHI-02.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG GÓI NÀY =====
+- exams/sat/sat-linear-functions-inequalities (10 bài tập)
+- exams/sat/sat-quadratics-nonlinear (10 bài tập)
+- exams/sat/sat-ratios-percentages-units (9 bài tập)
+- exams/sat/sat-statistics-probability (9 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ exams/sat/sat-linear-functions-inequalities
+Bài học: Hàm số bậc nhất và bất phương trình / Linear functions and inequalities
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đường thẳng $\ell$ đi qua các điểm $(2, 1)$ và $(6, 13)$. Tung độ gốc của đường thẳng $\ell$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$m=\dfrac{12}{4}=3$. Khi đó $1=3\cdot2+b$, nên $b=-5$. Tung độ gốc là $-5$.
+
+[ĐỀ – EN]
+Line $\ell$ passes through the points $(2, 1)$ and $(6, 13)$. What is the $y$-intercept of line $\ell$?
+
+[LỜI GIẢI CŨ – EN]
+$m=\dfrac{12}{4}=3$. Then $1=3\cdot2+b$, so $b=-5$. The $y$-intercept is $-5$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Chi phí, tính bằng đô la, để thuê một chiếc thuyền trong $n$ giờ là $C(n)=50+15n$. Cách giải thích nào đúng nhất về số $15$?
+A. Tổng chi phí thuê thuyền trong một giờ
+B. Mức tăng chi phí cho mỗi giờ thuê thêm
+C. Khoản phí cố định phải trả trước khi tính giờ
+D. Số giờ thuê thuyền
+
+[LỜI GIẢI CŨ – VI]
+Số $15$ nhân với $n$, nên chi phí tăng $15$ đô la cho mỗi giờ thuê thêm: đáp án **B**. Phương án A phải là $C(1)=65$; phương án C mô tả số $50$.
+
+[ĐỀ – EN]
+The cost, in dollars, of renting a boat for $n$ hours is $C(n)=50+15n$. What is the best interpretation of the number $15$?
+A. The cost of renting the boat for one hour in total
+B. The increase in cost for each additional hour
+C. The fixed fee paid before any hours are counted
+D. The number of hours the boat is rented
+
+[LỜI GIẢI CŨ – EN]
+$15$ multiplies $n$, so the cost increases by $15$ dollars for each additional hour: answer **B**. Option A would be $C(1)=65$; option C describes $50$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Đường thẳng $p$ song song với đường thẳng $y=-3x+2$ và đi qua điểm $(1, 4)$. Phương trình của đường thẳng $p$ là $y=-3x+b$. Giá trị của $b$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$4=-3\cdot1+b$, nên $b=7$.
+
+[ĐỀ – EN]
+Line $p$ is parallel to the line $y=-3x+2$ and passes through the point $(1, 4)$. The equation of line $p$ is $y=-3x+b$. What is the value of $b$?
+
+[LỜI GIẢI CŨ – EN]
+$4=-3\cdot1+b$, so $b=7$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Hàm số $g$ là hàm bậc nhất, với $g(1)=4$ và $g(4)=13$. Giá trị của $g(7)$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+Hệ số góc là $\dfrac{13-4}{4-1}=3$. Từ $x=4$ đến $x=7$ là thêm $3$ đơn vị, nên $g(7)=13+3\cdot3=22$.
+
+[ĐỀ – EN]
+The function $g$ is linear, with $g(1)=4$ and $g(4)=13$. What is the value of $g(7)$?
+
+[LỜI GIẢI CŨ – EN]
+The slope is $\dfrac{13-4}{4-1}=3$. From $x=4$ to $x=7$ is $3$ more units, so $g(7)=13+3\cdot3=22$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Mệnh đề nào sau đây mô tả tất cả các nghiệm của $5-2x>11$?
+A. $x>-3$
+B. $x<3$
+C. $x<-3$
+D. $x>3$
+
+[LỜI GIẢI CŨ – VI]
+$-2x>6$, nên $x<-3$. Đáp án là **C**. Phương án A quên đổi chiều. Kiểm tra với $x=-4$: $5+8=13>11$.
+
+[ĐỀ – EN]
+Which of the following describes all solutions of $5-2x>11$?
+A. $x>-3$
+B. $x<3$
+C. $x<-3$
+D. $x>3$
+
+[LỜI GIẢI CŨ – EN]
+$-2x>6$, so $x<-3$. The answer is **C**. Option A forgets to reverse the sign. Check with $x=-4$: $5+8=13>11$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một bể chứa 500 lít nước và được xả với tốc độ không đổi 20 lít mỗi phút. Viết hàm số $V(t)$ cho thể tích nước, tính bằng lít, sau $t$ phút. Sau bao nhiêu phút thì trong bể còn 140 lít?
+
+[LỜI GIẢI CŨ – VI]
+$V(t)=500-20t$. Khi đó $500-20t=140\iff 20t=360\iff t=18$. Sau 18 phút, trong bể còn 140 lít.
+
+[ĐỀ – EN]
+A tank holds 500 liters of water and is drained at a constant rate of 20 liters per minute. Write a function $V(t)$ for the volume of water, in liters, after $t$ minutes. After how many minutes are 140 liters left?
+
+[LỜI GIẢI CŨ – EN]
+$V(t)=500-20t$. Then $500-20t=140\iff 20t=360\iff t=18$. After 18 minutes, 140 liters are left.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Trong mặt phẳng $xy$, đường thẳng $3x-4y=24$ cắt trục $x$ tại điểm $A$ và cắt trục $y$ tại điểm $B$. Diện tích tam giác $OAB$, với $O$ là gốc toạ độ, bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+Với $y=0$: $x=8$, nên $A(8, 0)$. Với $x=0$: $y=-6$, nên $B(0, -6)$. Hai cạnh góc vuông dài $8$ và $6$, nên diện tích là $\dfrac12\cdot8\cdot6=24$.
+
+[ĐỀ – EN]
+In the $xy$-plane, the line $3x-4y=24$ crosses the $x$-axis at point $A$ and the $y$-axis at point $B$. What is the area of triangle $OAB$, where $O$ is the origin?
+
+[LỜI GIẢI CŨ – EN]
+With $y=0$: $x=8$, so $A(8, 0)$. With $x=0$: $y=-6$, so $B(0, -6)$. The legs have lengths $8$ and $6$, so the area is $\dfrac12\cdot8\cdot6=24$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Hoa có 120 đô la và mỗi tuần tiết kiệm thêm 15 đô la. Hoa muốn có ít nhất 300 đô la. Hoa phải tiết kiệm ít nhất bao nhiêu tuần?
+
+[LỜI GIẢI CŨ – VI]
+$15w\ge180\iff w\ge12$. Số tuần ít nhất là $12$. Sau 12 tuần Hoa có đúng $120+180=300$ đô la, thoả mãn "ít nhất 300".
+
+[ĐỀ – EN]
+Hoa has 120 dollars and saves 15 dollars each week. She wants to have at least 300 dollars. What is the least number of weeks she must save?
+
+[LỜI GIẢI CŨ – EN]
+$15w\ge180\iff w\ge12$. The least number of weeks is $12$. After 12 weeks she has exactly $120+180=300$ dollars, which satisfies "at least 300".
+
+=== Bài 9 ===
+[ĐỀ – VI]
+$$y>2x-1$$
+$$y\le-x+5$$
+Điểm $(x, y)$ nào là nghiệm của hệ bất phương trình?
+A. $(2, 3)$
+B. $(0, 6)$
+C. $(1, 3)$
+D. $(3, 1)$
+
+[LỜI GIẢI CŨ – VI]
+$(2, 3)$: $3>3$ sai. $(0, 6)$: $6\le5$ sai. $(3, 1)$: $1>5$ sai. $(1, 3)$: $3>1$ và $3\le4$ đều đúng. Đáp án là **C**. Lưu ý dấu $>$ là nghiêm ngặt, nên $(2, 3)$ bị loại.
+
+[ĐỀ – EN]
+$$y>2x-1$$
+$$y\le-x+5$$
+Which point $(x, y)$ is a solution to the system of inequalities?
+A. $(2, 3)$
+B. $(0, 6)$
+C. $(1, 3)$
+D. $(3, 1)$
+
+[LỜI GIẢI CŨ – EN]
+$(2, 3)$: $3>3$ is false. $(0, 6)$: $6\le5$ is false. $(3, 1)$: $1>5$ is false. $(1, 3)$: $3>1$ and $3\le4$ are both true. The answer is **C**. Note that $>$ is strict, which rules out $(2, 3)$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Đường thẳng $k$ đi qua $(0, 2)$ và $(3, 8)$. Đường thẳng $m$ vuông góc với đường thẳng $k$ và đi qua $(6, 4)$. Hai đường thẳng cắt nhau tại điểm $(x, y)$. Giá trị của $x+y$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+Đường thẳng $k$: $m_k=\dfrac{8-2}{3-0}=2$, nên $y=2x+2$. Đường thẳng $m$: $y=-\dfrac12x+b$ với $4=-3+b$, nên $b=7$ và $y=-\dfrac12x+7$. Giao điểm: $2x+2=-\dfrac12x+7\iff\dfrac52x=5\iff x=2$, khi đó $y=6$. Vậy $x+y=8$.
+
+[ĐỀ – EN]
+Line $k$ passes through $(0, 2)$ and $(3, 8)$. Line $m$ is perpendicular to line $k$ and passes through $(6, 4)$. The lines intersect at the point $(x, y)$. What is the value of $x+y$?
+
+[LỜI GIẢI CŨ – EN]
+Line $k$: $m_k=\dfrac{8-2}{3-0}=2$, so $y=2x+2$. Line $m$: $y=-\dfrac12x+b$ with $4=-3+b$, so $b=7$ and $y=-\dfrac12x+7$. Intersection: $2x+2=-\dfrac12x+7\iff\dfrac52x=5\iff x=2$, then $y=6$. So $x+y=8$.
+
+
+######################################################################
+@@@ exams/sat/sat-quadratics-nonlinear
+Bài học: Hàm bậc hai và phương trình phi tuyến / Quadratics and nonlinear equations
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Hàm số $g$ được cho bởi $g(x)=-(x+2)^2+9$. Tổng hoành độ các giao điểm của đồ thị $y=g(x)$ với trục $x$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$x=1$ hoặc $x=-5$, nên tổng là $-4$. Cách nhanh: hai nghiệm đối xứng qua đỉnh $x=-2$, nên tổng của chúng là $2\cdot(-2)=-4$.
+
+[ĐỀ – EN]
+The function $g$ is defined by $g(x)=-(x+2)^2+9$. What is the sum of the $x$-intercepts of the graph of $y=g(x)$?
+
+[LỜI GIẢI CŨ – EN]
+$x=1$ or $x=-5$, so the sum is $-4$. Shortcut: the zeros are symmetric about the vertex $x=-2$, so their sum is $2\cdot(-2)=-4$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Trong phương trình $x^2+8x+k=0$, $k$ là hằng số. Phương trình không có nghiệm thực. Giá trị nào sau đây có thể là $k$?
+A. $12$
+B. $16$
+C. $4$
+D. $20$
+
+[LỜI GIẢI CŨ – VI]
+$64-4k<0\iff k>16$. Chỉ $20$ thoả mãn: đáp án **D**. Với $k=16$, phương trình có đúng một nghiệm.
+
+[ĐỀ – EN]
+In the equation $x^2+8x+k=0$, $k$ is a constant. The equation has no real solutions. Which of the following could be the value of $k$?
+A. $12$
+B. $16$
+C. $4$
+D. $20$
+
+[LỜI GIẢI CŨ – EN]
+$64-4k<0\iff k>16$. Only $20$ works: the answer is **D**. With $k=16$ there is exactly one solution.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Nghiệm dương của $3x^2+2x-1=0$ là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$3x(x+1)-(x+1)=(3x-1)(x+1)=0$, nên $x=\dfrac13$ hoặc $x=-1$. Nghiệm dương là $\dfrac13$; gõ `1/3`.
+
+[ĐỀ – EN]
+What is the positive solution of $3x^2+2x-1=0$?
+
+[LỜI GIẢI CŨ – EN]
+$3x(x+1)-(x+1)=(3x-1)(x+1)=0$, so $x=\dfrac13$ or $x=-1$. The positive solution is $\dfrac13$; type `1/3`.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+$$y=x^2+1$$
+$$y=2x+4$$
+Đồ thị của hai phương trình cắt nhau tại hai điểm. Tổng tung độ của hai điểm này là
+A. $8$
+B. $10$
+C. $12$
+D. $14$
+
+[LỜI GIẢI CŨ – VI]
+$x^2-2x-3=0\iff(x-3)(x+1)=0$. Với $x=3$, $y=10$; với $x=-1$, $y=2$. Tổng là $12$: đáp án **C**.
+
+[ĐỀ – EN]
+$$y=x^2+1$$
+$$y=2x+4$$
+The graphs of the equations intersect at two points. What is the sum of the $y$-coordinates of these points?
+A. $8$
+B. $10$
+C. $12$
+D. $14$
+
+[LỜI GIẢI CŨ – EN]
+$x^2-2x-3=0\iff(x-3)(x+1)=0$. For $x=3$, $y=10$; for $x=-1$, $y=2$. The sum is $12$: answer **C**.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Nghiệm của $\sqrt{2x+3}=x$ là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$x^2-2x-3=0$ cho $x=3$ hoặc $x=-1$. Với $x=-1$: $\sqrt1=1\ne-1$, nên đó là nghiệm ngoại lai. Nghiệm là $3$.
+
+[ĐỀ – EN]
+What is the solution of $\sqrt{2x+3}=x$?
+
+[LỜI GIẢI CŨ – EN]
+$x^2-2x-3=0$ gives $x=3$ or $x=-1$. For $x=-1$: $\sqrt1=1\ne-1$, so it is extraneous. The solution is $3$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Chiều dài một hình chữ nhật hơn chiều rộng $4$ xăng-ti-mét, và diện tích của nó là $96$ xăng-ti-mét vuông. Chu vi hình chữ nhật bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$w^2+4w-96=0\iff(w+12)(w-8)=0$, nên $w=8$ và chiều dài là $12$. Chu vi là $2(8+12)=40$ xăng-ti-mét.
+
+[ĐỀ – EN]
+The length of a rectangle is $4$ centimeters more than its width, and its area is $96$ square centimeters. What is the perimeter of the rectangle?
+
+[LỜI GIẢI CŨ – EN]
+$w^2+4w-96=0\iff(w+12)(w-8)=0$, so $w=8$ and the length is $12$. The perimeter is $2(8+12)=40$ centimeters.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Độ cao, tính bằng feet, của một quả bóng sau $t$ giây kể từ khi được ném từ ban công là $h(t)=-16t^2+48t+4$.
+
+a) Độ cao lớn nhất là bao nhiêu, và đạt được lúc nào?
+
+b) Sau bao nhiêu giây thì quả bóng chạm đất? Làm tròn đến hàng phần trăm.
+
+[LỜI GIẢI CŨ – VI]
+a) $t=1{,}5$ giây, và $h(1{,}5)=-36+72+4=40$ feet.
+
+b) Chia cho $-4$: $4t^2-12t-1=0$, nên $t=\dfrac{12\pm\sqrt{160}}{8}$. Nghiệm dương là $t\approx3{,}08$ giây; nghiệm âm không có ý nghĩa ở đây.
+
+[ĐỀ – EN]
+The height, in feet, of a ball $t$ seconds after it is thrown from a balcony is $h(t)=-16t^2+48t+4$.
+
+a) What is the maximum height, and when is it reached?
+
+b) After how many seconds does the ball hit the ground? Round to the nearest hundredth.
+
+[LỜI GIẢI CŨ – EN]
+a) $t=1.5$ seconds, and $h(1.5)=-36+72+4=40$ feet.
+
+b) Divide by $-4$: $4t^2-12t-1=0$, so $t=\dfrac{12\pm\sqrt{160}}{8}$. The positive solution is $t\approx3.08$ seconds; the negative one has no meaning here.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Hàm số $f(x)=x^2+bx+c$ có các nghiệm $2$ và $-6$. Giá trị của $f(1)$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$f(1)=(1-2)(1+6)=-7$. (Tương đương $f(x)=x^2+4x-12$, nên $b=4$, $c=-12$.)
+
+[ĐỀ – EN]
+The function $f(x)=x^2+bx+c$ has zeros $2$ and $-6$. What is the value of $f(1)$?
+
+[LỜI GIẢI CŨ – EN]
+$f(1)=(1-2)(1+6)=-7$. (Equivalently $f(x)=x^2+4x-12$, so $b=4$, $c=-12$.)
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tổng các nghiệm của $\dfrac1x+\dfrac{1}{x+2}=\dfrac43$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$6x+6=4x^2+8x\iff 2x^2+x-3=0\iff(2x+3)(x-1)=0$, nên $x=1$ hoặc $x=-\dfrac32$. Không nghiệm nào bằng $0$ hay $-2$, nên cả hai đều nhận. Tổng của chúng là $-\dfrac12$.
+
+[ĐỀ – EN]
+What is the sum of the solutions of $\dfrac1x+\dfrac{1}{x+2}=\dfrac43$?
+
+[LỜI GIẢI CŨ – EN]
+$6x+6=4x^2+8x\iff 2x^2+x-3=0\iff(2x+3)(x-1)=0$, so $x=1$ or $x=-\dfrac32$. Neither is $0$ or $-2$, so both are valid. Their sum is $-\dfrac12$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Đường thẳng $y=mx-1$, với $m>0$, cắt parabol $y=x^2$ tại đúng một điểm. Giá trị của $m$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$D=m^2-4=0$ cho $m=\pm2$, và vì $m>0$ nên $m=2$. Đường thẳng $y=2x-1$ tiếp xúc với parabol tại $(1, 1)$.
+
+[ĐỀ – EN]
+The line $y=mx-1$, where $m>0$, intersects the parabola $y=x^2$ at exactly one point. What is the value of $m$?
+
+[LỜI GIẢI CŨ – EN]
+$D=m^2-4=0$ gives $m=\pm2$, and since $m>0$, $m=2$. The line $y=2x-1$ touches the parabola at $(1, 1)$.
+
+
+######################################################################
+@@@ exams/sat/sat-ratios-percentages-units
+Bài học: Tỉ số, tỉ lệ, phần trăm và đổi đơn vị / Ratios, rates, percentages and units
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một số tiền 150 đô la được chia cho hai người theo tỉ số $3:7$. Người nhận phần lớn hơn được bao nhiêu đô la?
+
+[LỜI GIẢI CŨ – VI]
+Một phần là $15$ đô la, nên phần lớn hơn là $7\cdot15=105$ đô la.
+
+[ĐỀ – EN]
+A sum of 150 dollars is shared between two people in the ratio $3:7$. How many dollars does the person with the larger share receive?
+
+[LỜI GIẢI CŨ – EN]
+One part is $15$ dollars, so the larger share is $7\cdot15=105$ dollars.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Linh gõ phím với tốc độ 45 từ mỗi phút. Linh cần bao nhiêu phút để gõ một bài luận dài 1.800 từ?
+
+[LỜI GIẢI CŨ – VI]
+$1.800:45=40$ phút.
+
+[ĐỀ – EN]
+Linh types at a rate of 45 words per minute. How many minutes does she need to type a 1,800-word essay?
+
+[LỜI GIẢI CŨ – EN]
+$1{,}800\div45=40$ minutes.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Một inch bằng 2,54 xăng-ti-mét. Đường chéo màn hình 30 inch dài bao nhiêu xăng-ti-mét?
+
+[LỜI GIẢI CŨ – VI]
+$30\cdot2{,}54=76{,}2$ xăng-ti-mét.
+
+[ĐỀ – EN]
+One inch is equal to 2.54 centimeters. What is the length, in centimeters, of a 30-inch screen diagonal?
+
+[LỜI GIẢI CŨ – EN]
+$30\cdot2.54=76.2$ centimeters.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Số khách tham quan một bảo tàng giảm từ 250 người vào thứ Hai xuống 200 người vào thứ Ba. Số khách đã giảm bao nhiêu phần trăm?
+A. $20\%$
+B. $25\%$
+C. $50\%$
+D. $80\%$
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{50}{250}=0{,}2$, tức giảm $20\%$: đáp án **A**. Phương án B chia cho $200$; phương án D là tỉ số $\dfrac{200}{250}$.
+
+[ĐỀ – EN]
+The number of visitors to a museum fell from 250 on Monday to 200 on Tuesday. By what percent did the number of visitors decrease?
+A. $20\%$
+B. $25\%$
+C. $50\%$
+D. $80\%$
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{50}{250}=0.2$, a decrease of $20\%$: answer **A**. Option B divides by $200$; option D is the ratio $\dfrac{200}{250}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tổng số tiền 54 đô la đã gồm thuế bán hàng 8%. Giá trước thuế là bao nhiêu đô la?
+
+[LỜI GIẢI CŨ – VI]
+$P=\dfrac{54}{1{,}08}=50$ đô la. Kiểm tra: $50+4=54$.
+
+[ĐỀ – EN]
+A total of 54 dollars includes an 8% sales tax. What was the price before tax, in dollars?
+
+[LỜI GIẢI CŨ – EN]
+$P=\dfrac{54}{1.08}=50$ dollars. Check: $50+4=54$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Khối lượng riêng của vàng là 19,3 gam trên mỗi xăng-ti-mét khối. Một khối vàng có kích thước 2 xăng-ti-mét × 3 xăng-ti-mét × 5 xăng-ti-mét. Khối lượng của nó là bao nhiêu gam?
+
+[LỜI GIẢI CŨ – VI]
+Thể tích là $2\cdot3\cdot5=30$ xăng-ti-mét khối, nên khối lượng là $30\cdot19{,}3=579$ gam.
+
+[ĐỀ – EN]
+The density of gold is 19.3 grams per cubic centimeter. A gold block measures 2 centimeters by 3 centimeters by 5 centimeters. What is its mass, in grams?
+
+[LỜI GIẢI CŨ – EN]
+The volume is $2\cdot3\cdot5=30$ cubic centimeters, so the mass is $30\cdot19.3=579$ grams.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một ô tô tiêu thụ 6,5 lít nhiên liệu cho mỗi 100 ki-lô-mét. Nhiên liệu giá 1,2 đô la mỗi lít. Chuyến đi dài 340 ki-lô-mét tốn bao nhiêu tiền nhiên liệu?
+
+[LỜI GIẢI CŨ – VI]
+Ô tô dùng $340\cdot0{,}065=22{,}1$ lít, hết $22{,}1\cdot1{,}2=26{,}52$ đô la.
+
+[ĐỀ – EN]
+A car uses 6.5 liters of fuel per 100 kilometers. Fuel costs 1.2 dollars per liter. How much does the fuel cost for a 340-kilometer trip?
+
+[LỜI GIẢI CŨ – EN]
+The car uses $340\cdot0.065=22.1$ liters, costing $22.1\cdot1.2=26.52$ dollars.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Dân số một thị trấn tăng 25% trong một thập kỉ rồi giảm 20% trong thập kỉ tiếp theo. Sau hai thập kỉ, dân số thay đổi bao nhiêu phần trăm?
+
+[LỜI GIẢI CŨ – VI]
+$1{,}25\cdot0{,}8=1$: dân số trở về đúng như ban đầu, thay đổi $0\%$. Ví dụ, $1.000\to1.250\to1.000$.
+
+[ĐỀ – EN]
+A town's population increased by 25% in one decade and then decreased by 20% in the next decade. What was the overall percent change over the two decades?
+
+[LỜI GIẢI CŨ – EN]
+$1.25\cdot0.8=1$: the population is exactly back to where it started, a change of $0\%$. For example, $1{,}000\to1{,}250\to1{,}000$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một thùng chứa 40 lít dung dịch nước muối có nồng độ muối 30%. Phải thêm bao nhiêu lít nước tinh khiết để được dung dịch có nồng độ muối 20%?
+
+[LỜI GIẢI CŨ – VI]
+$12=0{,}2(40+w)\iff 60=40+w\iff w=20$. Thêm 20 lít nước: dung dịch mới có 12 lít muối trong 60 lít, tức 20%.
+
+[ĐỀ – EN]
+A container holds 40 liters of a salt solution that is 30% salt. How many liters of pure water must be added to make a solution that is 20% salt?
+
+[LỜI GIẢI CŨ – EN]
+$12=0.2(40+w)\iff 60=40+w\iff w=20$. Add 20 liters of water: the new solution has 12 liters of salt in 60 liters, which is 20%.
+
+
+######################################################################
+@@@ exams/sat/sat-statistics-probability
+Bài học: Thống kê, đọc biểu đồ và xác suất / Statistics, data displays and probability
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Số trung bình của năm số là 12. Bốn trong năm số đó là 10, 14, 9 và 15. Số thứ năm là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$5\cdot12=60$ và $10+14+9+15=48$, nên số thứ năm là $12$.
+
+[ĐỀ – EN]
+The mean of five numbers is 12. Four of the numbers are 10, 14, 9 and 15. What is the fifth number?
+
+[LỜI GIẢI CŨ – EN]
+$5\cdot12=60$ and $10+14+9+15=48$, so the fifth number is $12$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Với tập dữ liệu 2, 4, 4, 5, 7, 9, 30, câu nào đúng?
+A. Số trung bình nhỏ hơn trung vị.
+B. Số trung bình bằng trung vị.
+C. Số trung bình lớn hơn trung vị.
+D. Trung vị là 4.
+
+[LỜI GIẢI CŨ – VI]
+Trung vị là $5$ và số trung bình là $\dfrac{61}{7}\approx8{,}7$. Giá trị ngoại lai kéo số trung bình lên: đáp án **C**.
+
+[ĐỀ – EN]
+For the data set 2, 4, 4, 5, 7, 9, 30, which statement is true?
+A. The mean is less than the median.
+B. The mean is equal to the median.
+C. The mean is greater than the median.
+D. The median is 4.
+
+[LỜI GIẢI CŨ – EN]
+The median is $5$ and the mean is $\dfrac{61}{7}\approx8.7$. The outlier pulls the mean up: answer **C**.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Dùng bảng hai chiều về câu lạc bộ ở trên. Chọn ngẫu nhiên một học sinh lớp 10. Xác suất để học sinh đó thuộc CLB Toán là bao nhiêu? Viết đáp số dưới dạng số thập phân.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{18}{30}=0{,}6$. Khi nhập vào Bluebook, gõ `0.6`.
+
+[ĐỀ – EN]
+Use the two-way table of club choices above. A student is chosen at random from grade 10. What is the probability that the student is in the math club? Give your answer as a decimal.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{18}{30}=0.6$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Đường thẳng khớp nhất của một tập dữ liệu là $y=1{,}8x+12$. Đường thẳng dự đoán giá trị $y$ bằng bao nhiêu khi $x=10$?
+
+[LỜI GIẢI CŨ – VI]
+$18+12=30$.
+
+[ĐỀ – EN]
+A line of best fit for some data is $y=1.8x+12$. What value of $y$ does the line predict when $x=10$?
+
+[LỜI GIẢI CŨ – EN]
+$18+12=30$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Các nhà nghiên cứu phân ngẫu nhiên 100 tình nguyện viên vào hai nhóm. Một nhóm đi bộ 30 phút mỗi ngày, nhóm kia thì không. Sau 8 tuần, nhóm đi bộ có huyết áp trung bình thấp hơn đáng kể. Kết luận nào được ủng hộ tốt nhất?
+A. Đi bộ mỗi ngày làm giảm huyết áp ở mọi người trưởng thành.
+B. Đi bộ mỗi ngày có khả năng làm giảm huyết áp ở những người tương tự các tình nguyện viên.
+C. Người có huyết áp thấp chọn đi bộ nhiều hơn.
+D. Không kết luận được gì vì các tình nguyện viên không phải mẫu ngẫu nhiên.
+
+[LỜI GIẢI CŨ – VI]
+Phân nhóm ngẫu nhiên cho phép kết luận nhân quả, nhưng chỉ với những người giống các tình nguyện viên, vì họ không được chọn ngẫu nhiên từ mọi người trưởng thành. Đáp án là **B**. Phương án A khái quát quá mức; phương án D bỏ qua điều mà phân nhóm ngẫu nhiên đã cho thấy.
+
+[ĐỀ – EN]
+Researchers randomly assigned 100 volunteers to two groups. One group walked 30 minutes every day and the other did not. After 8 weeks, the walking group had significantly lower blood pressure on average. Which conclusion is best supported?
+A. Walking every day causes lower blood pressure for all adults.
+B. Walking every day is likely to cause lower blood pressure for people similar to the volunteers.
+C. People with low blood pressure choose to walk more.
+D. No conclusion can be made because the volunteers were not a random sample.
+
+[LỜI GIẢI CŨ – EN]
+Random assignment supports a causal conclusion, but only for people like the volunteers, because they were not randomly sampled from all adults. The answer is **B**. Option A over-generalizes; option D ignores what random assignment does show.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lớp A có 20 học sinh với điểm trung bình 75. Lớp B có 30 học sinh với điểm trung bình 80. Điểm trung bình của cả 50 học sinh là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{1.500+2.400}{50}=\dfrac{3.900}{50}=78$. Số trung bình gần 80 hơn 75 vì lớp B đông hơn.
+
+[ĐỀ – EN]
+Class A has 20 students with a mean score of 75. Class B has 30 students with a mean score of 80. What is the mean score of all 50 students?
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{1{,}500+2{,}400}{50}=\dfrac{3{,}900}{50}=78$. The mean is closer to 80 than to 75 because class B is larger.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một túi có 4 viên bi đỏ, 6 viên bi xanh dương và 5 viên bi xanh lá. Lấy ngẫu nhiên một viên bi. Xác suất để viên bi đó không phải màu xanh dương là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{9}{15}=\dfrac35$.
+
+[ĐỀ – EN]
+A bag contains 4 red, 6 blue and 5 green marbles. One marble is drawn at random. What is the probability that it is not blue?
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{9}{15}=\dfrac35$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tập dữ liệu A là 48, 49, 50, 51, 52. Tập dữ liệu B là 30, 40, 50, 60, 70. So sánh số trung bình, khoảng biến thiên và độ lệch chuẩn của hai tập dữ liệu.
+
+[LỜI GIẢI CŨ – VI]
+Cả hai số trung bình đều là $50$. Khoảng biến thiên của A là $4$, của B là $40$. Các giá trị của B nằm xa số trung bình hơn nhiều, nên B có độ lệch chuẩn lớn hơn.
+
+[ĐỀ – EN]
+Data set A is 48, 49, 50, 51, 52. Data set B is 30, 40, 50, 60, 70. Compare the means, the ranges and the standard deviations of the two data sets.
+
+[LỜI GIẢI CŨ – EN]
+Both means are $50$. The range of A is $4$ and the range of B is $40$. The values of B lie much farther from the mean, so B has the larger standard deviation.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Các số 6, 8, $x$, 15, 21 được viết theo thứ tự tăng dần, và số trung bình của chúng bằng trung vị. Giá trị của $x$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{50+x}{5}=x\iff50+x=5x\iff x=12{,}5$. Giá trị này nằm giữa $8$ và $15$, nên thứ tự vẫn đúng.
+
+[ĐỀ – EN]
+The numbers 6, 8, $x$, 15, 21 are listed in increasing order, and their mean is equal to their median. What is the value of $x$?
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{50+x}{5}=x\iff50+x=5x\iff x=12.5$. This lies between $8$ and $15$, so the order is kept.
+
+
+===== HẾT GÓI GOI-ONTHI-02 =====

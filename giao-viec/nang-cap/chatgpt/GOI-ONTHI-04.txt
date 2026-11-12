@@ -1,0 +1,949 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – GOI-ONTHI-04
+Người làm: ChatGPT. Gói này có 45 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/data/NC-ChatGPT-GOI-ONTHI-04.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/data/NC-ChatGPT-GOI-ONTHI-04.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG GÓI NÀY =====
+- exams/ap-calculus/apcalc-bc-series (9 bài tập)
+- exams/ap-calculus/apcalc-contextual-applications (9 bài tập)
+- exams/ap-calculus/apcalc-differential-equations (9 bài tập)
+- exams/ap-calculus/apcalc-differentiation-rules (9 bài tập)
+- exams/ap-calculus/apcalc-implicit-inverse (9 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ exams/ap-calculus/apcalc-bc-series
+Bài học: Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa / Infinite series, Taylor and power series
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Chuỗi nào phân kì?
+A. $\displaystyle\sum_{n=1}^\infty\frac{1}{n^2}$
+B. $\displaystyle\sum_{n=1}^\infty\frac{1}{n^{0{,}9}}$
+C. $\displaystyle\sum_{n=1}^\infty\frac{1}{2^n}$
+D. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n}$
+
+[LỜI GIẢI CŨ – VI]
+$p=0{,}9\le1$: đáp án **B**. Chuỗi D hội tụ có điều kiện.
+
+[ĐỀ – EN]
+Which series diverges?
+A. $\displaystyle\sum_{n=1}^\infty\frac{1}{n^2}$
+B. $\displaystyle\sum_{n=1}^\infty\frac{1}{n^{0.9}}$
+C. $\displaystyle\sum_{n=1}^\infty\frac{1}{2^n}$
+D. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n}$
+
+[LỜI GIẢI CŨ – EN]
+$p=0.9\le1$: answer **B**. D converges conditionally.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính tổng $\displaystyle\sum_{n=0}^\infty(-1)^n\left(\frac12\right)^n$.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{1}{1-(-1/2)}=\dfrac{1}{3/2}=\dfrac23$.
+
+[ĐỀ – EN]
+Find the sum of $\displaystyle\sum_{n=0}^\infty(-1)^n\left(\frac12\right)^n$.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{1}{1-(-1/2)}=\dfrac{1}{3/2}=\dfrac23$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Dùng tiêu chuẩn tỉ số cho $\displaystyle\sum_{n=1}^\infty\frac{2^n}{n!}$. Sau đó tính tổng của nó bằng chuỗi của $e^x$.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{2}{n+1}\to0<1$, nên chuỗi hội tụ. Bắt đầu từ $n=1$ là bỏ đi số hạng $1$: tổng bằng $e^2-1$.
+
+[ĐỀ – EN]
+Use the ratio test on $\displaystyle\sum_{n=1}^\infty\frac{2^n}{n!}$. Then find its sum using the series for $e^x$.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{2}{n+1}\to0<1$, so the series converges. Starting from $n=1$ leaves out the term $1$: the sum is $e^2-1$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Chuỗi Maclaurin của $\dfrac{1}{1+x^2}$ là
+A. $1+x^2+x^4+x^6+\dots$
+B. $1-x+x^2-x^3+\dots$
+C. $1-x^2+x^4-x^6+\dots$
+D. $x-\dfrac{x^3}{3}+\dfrac{x^5}{5}-\dots$
+
+[LỜI GIẢI CŨ – VI]
+$\displaystyle\sum\left(-x^2\right)^n$: đáp án **C**. Phương án D là chuỗi của $\arctan x$, tức tích phân của nó.
+
+[ĐỀ – EN]
+What is the Maclaurin series for $\dfrac{1}{1+x^2}$?
+A. $1+x^2+x^4+x^6+\dots$
+B. $1-x+x^2-x^3+\dots$
+C. $1-x^2+x^4-x^6+\dots$
+D. $x-\dfrac{x^3}{3}+\dfrac{x^5}{5}-\dots$
+
+[LỜI GIẢI CŨ – EN]
+$\displaystyle\sum\left(-x^2\right)^n$: answer **C**. Option D is the series for $\arctan x$, its integral.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tìm đa thức Taylor bậc hai của $\ln x$ tại $x=1$ và dùng nó để tính gần đúng $\ln1{,}2$.
+
+[LỜI GIẢI CŨ – VI]
+$P_2(x)=(x-1)-\dfrac{(x-1)^2}{2}$, nên $\ln1{,}2\approx0{,}2-0{,}02=0{,}18$. (Giá trị thật khoảng $0{,}1823$.)
+
+[ĐỀ – EN]
+Find the second-degree Taylor polynomial for $\ln x$ about $x=1$ and use it to approximate $\ln1.2$.
+
+[LỜI GIẢI CŨ – EN]
+$P_2(x)=(x-1)-\dfrac{(x-1)^2}{2}$, so $\ln1.2\approx0.2-0.02=0.18$. (The true value is about $0.1823$.)
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hàm số $f$ có $f(1)=3$, $f'(1)=-2$, $f''(1)=5$ và $f'''(1)=12$.
+a) Viết đa thức Taylor bậc ba của $f$ tại $x=1$.
+b) Dùng nó để tính gần đúng $f(1{,}2)$.
+c) Biết $\left|f^{(4)}(x)\right|\le24$ với $1\le x\le1{,}2$, chứng tỏ giá trị gần đúng sai khác $f(1{,}2)$ ít hơn $0{,}002$.
+
+[LỜI GIẢI CŨ – VI]
+a) $P_3(x)=3-2(x-1)+\dfrac52(x-1)^2+2(x-1)^3$.
+
+b) $3-0{,}4+0{,}1+0{,}016=2{,}716$.
+
+c) $\left|f(1{,}2)-P_3(1{,}2)\right|\le\dfrac{24}{24}(0{,}2)^4=0{,}0016<0{,}002$.
+
+[ĐỀ – EN]
+A function $f$ has $f(1)=3$, $f'(1)=-2$, $f''(1)=5$ and $f'''(1)=12$.
+a) Write the third-degree Taylor polynomial for $f$ about $x=1$.
+b) Use it to approximate $f(1.2)$.
+c) If $\left|f^{(4)}(x)\right|\le24$ for $1\le x\le1.2$, show that the approximation differs from $f(1.2)$ by less than $0.002$.
+
+[LỜI GIẢI CŨ – EN]
+a) $P_3(x)=3-2(x-1)+\dfrac52(x-1)^2+2(x-1)^3$.
+
+b) $3-0.4+0.1+0.016=2.716$.
+
+c) $\left|f(1.2)-P_3(1.2)\right|\le\dfrac{24}{24}(0.2)^4=0.0016<0.002$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Tìm khoảng hội tụ của $\displaystyle\sum_{n=1}^\infty\frac{(x+1)^n}{n^2}$.
+
+[LỜI GIẢI CŨ – VI]
+Tỉ số tiến tới $|x+1|$, nên $-2<x<0$. Tại $x=0$: $\displaystyle\sum\frac{1}{n^2}$ hội tụ. Tại $x=-2$: $\displaystyle\sum\frac{(-1)^n}{n^2}$ hội tụ tuyệt đối. Khoảng hội tụ là $[-2,0]$.
+
+[ĐỀ – EN]
+Find the interval of convergence of $\displaystyle\sum_{n=1}^\infty\frac{(x+1)^n}{n^2}$.
+
+[LỜI GIẢI CŨ – EN]
+The ratio tends to $|x+1|$, so $-2<x<0$. At $x=0$: $\displaystyle\sum\frac{1}{n^2}$ converges. At $x=-2$: $\displaystyle\sum\frac{(-1)^n}{n^2}$ converges absolutely. The interval is $[-2,0]$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Dùng chuỗi của $e^x$ để viết chuỗi cho $\displaystyle\int_0^xe^{-t^2}\,dt$. Dùng ba số hạng khác không đầu tiên để tính gần đúng $\displaystyle\int_0^{0{,}5}e^{-t^2}\,dt$, và đánh giá sai số.
+
+[LỜI GIẢI CŨ – VI]
+$0{,}5-\dfrac{0{,}125}{3}+\dfrac{0{,}03125}{10}\approx0{,}4615$. Chuỗi đan dấu với số hạng giảm dần, nên sai số không vượt quá $\dfrac{0{,}5^7}{42}\approx0{,}0002$.
+
+[ĐỀ – EN]
+Use the series for $e^x$ to write a series for $\displaystyle\int_0^xe^{-t^2}\,dt$. Use the first three nonzero terms to approximate $\displaystyle\int_0^{0.5}e^{-t^2}\,dt$, and bound the error.
+
+[LỜI GIẢI CŨ – EN]
+$0.5-\dfrac{0.125}{3}+\dfrac{0.03125}{10}\approx0.4615$. The series alternates with decreasing terms, so the error is at most $\dfrac{0.5^7}{42}\approx0.0002$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Lấy đạo hàm chuỗi hình học $\displaystyle\sum_{n=0}^\infty x^n=\frac{1}{1-x}$ để tính tổng $\displaystyle\sum_{n=1}^\infty\frac{n}{2^n}$.
+
+[LỜI GIẢI CŨ – VI]
+$\displaystyle\sum_{n=1}^\infty nx^n=\frac{x}{(1-x)^2}$. Tại $x=\dfrac12$: $\dfrac{1/2}{1/4}=2$.
+
+[ĐỀ – EN]
+Differentiate the geometric series $\displaystyle\sum_{n=0}^\infty x^n=\frac{1}{1-x}$ to find the sum of $\displaystyle\sum_{n=1}^\infty\frac{n}{2^n}$.
+
+[LỜI GIẢI CŨ – EN]
+$\displaystyle\sum_{n=1}^\infty nx^n=\frac{x}{(1-x)^2}$. At $x=\dfrac12$: $\dfrac{1/2}{1/4}=2$.
+
+
+######################################################################
+@@@ exams/ap-calculus/apcalc-contextual-applications
+Bài học: Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan / Derivatives in context, motion and related rates
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một hạt chuyển động trên một đường thẳng với vận tốc $v(t)=t^2-4t+3$, $t\ge0$. Hạt đi sang trái trên khoảng nào?
+A. $0<t<1$
+B. $1<t<3$
+C. $t>3$
+D. $0<t<2$
+
+[LỜI GIẢI CŨ – VI]
+$v(t)<0$ giữa hai nghiệm, nên hạt đi sang trái khi $1<t<3$: đáp án **B**.
+
+[ĐỀ – EN]
+A particle moves along a line with velocity $v(t)=t^2-4t+3$ for $t\ge0$. On which interval is the particle moving left?
+A. $0<t<1$
+B. $1<t<3$
+C. $t>3$
+D. $0<t<2$
+
+[LỜI GIẢI CŨ – EN]
+$v(t)<0$ between the roots, so the particle moves left for $1<t<3$: answer **B**.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Bán kính của một vết dầu loang hình tròn tăng $2$ xăng-ti-mét mỗi giây. Diện tích tăng nhanh đến mức nào khi bán kính bằng $10$ xăng-ti-mét?
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{dA}{dt}=2\pi(10)(2)=40\pi\approx125{,}7$ xăng-ti-mét vuông mỗi giây.
+
+[ĐỀ – EN]
+The radius of a circular oil spill grows at $2$ centimeters per second. How fast is the area growing when the radius is $10$ centimeters?
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{dA}{dt}=2\pi(10)(2)=40\pi\approx125.7$ square centimeters per second.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+$\displaystyle\lim_{x\to0}\frac{e^x-1-x}{x^2}$ bằng
+A. $0$
+B. $1$
+C. $2$
+D. $\dfrac12$
+
+[LỜI GIẢI CŨ – VI]
+Lần thứ hai cho $\dfrac{e^x}{2}\to\dfrac12$: đáp án **D**.
+
+[ĐỀ – EN]
+What is $\displaystyle\lim_{x\to0}\frac{e^x-1-x}{x^2}$?
+A. $0$
+B. $1$
+C. $2$
+D. $\dfrac12$
+
+[LỜI GIẢI CŨ – EN]
+The second application gives $\dfrac{e^x}{2}\to\dfrac12$: answer **D**.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Hàm số có đạo hàm $f$ thoả mãn $f(3)=2$ và $f'(3)=4$. Dùng tiếp tuyến tại $x=3$ để ước lượng $f(2{,}9)$.
+
+[LỜI GIẢI CŨ – VI]
+$f(2{,}9)\approx2+4(-0{,}1)=1{,}6$.
+
+[ĐỀ – EN]
+A differentiable function has $f(3)=2$ and $f'(3)=4$. Use the tangent line at $x=3$ to estimate $f(2.9)$.
+
+[LỜI GIẢI CŨ – EN]
+$f(2.9)\approx2+4(-0.1)=1.6$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một quần thể vi khuẩn có $P(t)$ nghìn con sau $t$ giờ kể từ khi bắt đầu thí nghiệm. Giải thích ý nghĩa của $P'(4)=1{,}5$ trong ngữ cảnh.
+
+[LỜI GIẢI CŨ – VI]
+Tại thời điểm $t=4$ giờ, số vi khuẩn đang tăng với tốc độ $1{,}5$ nghìn con mỗi giờ.
+
+[ĐỀ – EN]
+A bacteria colony has $P(t)$ thousand bacteria $t$ hours after an experiment starts. Interpret $P'(4)=1.5$ in context.
+
+[LỜI GIẢI CŨ – EN]
+At $t=4$ hours, the number of bacteria is increasing at a rate of $1.5$ thousand bacteria per hour.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Người ta đổ nước với tốc độ $2$ mét khối mỗi phút vào một bể hình nón đặt ngược (đỉnh ở dưới), bán kính đáy $3$ mét và chiều cao $6$ mét. Mực nước dâng nhanh đến mức nào khi nước sâu $4$ mét?
+
+[LỜI GIẢI CŨ – VI]
+$2=\dfrac{\pi(16)}{4}\dfrac{dh}{dt}=4\pi\dfrac{dh}{dt}$, nên $\dfrac{dh}{dt}=\dfrac{1}{2\pi}\approx0{,}159$ mét mỗi phút.
+
+[ĐỀ – EN]
+Water is poured at $2$ cubic meters per minute into a tank shaped like an inverted cone with radius $3$ meters and height $6$ meters. How fast is the water level rising when the water is $4$ meters deep?
+
+[LỜI GIẢI CŨ – EN]
+$2=\dfrac{\pi(16)}{4}\dfrac{dh}{dt}=4\pi\dfrac{dh}{dt}$, so $\dfrac{dh}{dt}=\dfrac{1}{2\pi}\approx0.159$ meters per minute.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một hạt chuyển động trên trục $x$ với $x(t)=2t^3-9t^2+12t$, $0\le t\le3$.
+a) Khi nào hạt đi sang trái?
+b) Tại $t=1{,}2$ hạt nhanh dần hay chậm dần?
+c) Tính tổng quãng đường đi được trên $0\le t\le3$.
+
+[LỜI GIẢI CŨ – VI]
+a) $v<0$ khi $1<t<2$.
+
+b) $v(1{,}2)=6(0{,}2)(-0{,}8)=-0{,}96$ và $a(1{,}2)=-3{,}6$: cùng dấu, nên hạt nhanh dần.
+
+c) $x(0)=0$, $x(1)=5$, $x(2)=4$, $x(3)=9$. Quãng đường $=5+1+5=11$.
+
+[ĐỀ – EN]
+A particle moves along the $x$-axis with $x(t)=2t^3-9t^2+12t$ for $0\le t\le3$.
+a) When is the particle moving left?
+b) Is it speeding up or slowing down at $t=1.2$?
+c) Find the total distance traveled on $0\le t\le3$.
+
+[LỜI GIẢI CŨ – EN]
+a) $v<0$ for $1<t<2$.
+
+b) $v(1.2)=6(0.2)(-0.8)=-0.96$ and $a(1.2)=-3.6$: same sign, so it is speeding up.
+
+c) $x(0)=0$, $x(1)=5$, $x(2)=4$, $x(3)=9$. Distance $=5+1+5=11$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Xe A chạy về hướng bắc từ một ngã tư với vận tốc $60$ ki-lô-mét mỗi giờ, xe B chạy về hướng đông từ cùng ngã tư với vận tốc $80$ ki-lô-mét mỗi giờ, hai xe xuất phát cùng lúc. Sau nửa giờ, khoảng cách giữa hai xe tăng nhanh đến mức nào?
+
+[LỜI GIẢI CŨ – VI]
+$50\dfrac{dz}{dt}=40(80)+30(60)=5000$, nên $\dfrac{dz}{dt}=100$ ki-lô-mét mỗi giờ.
+
+[ĐỀ – EN]
+Car A drives north from an intersection at $60$ kilometers per hour and car B drives east from the same intersection at $80$ kilometers per hour, both starting at the same time. How fast is the distance between them increasing after half an hour?
+
+[LỜI GIẢI CŨ – EN]
+$50\dfrac{dz}{dt}=40(80)+30(60)=5000$, so $\dfrac{dz}{dt}=100$ kilometers per hour.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Hàm số $f$ có đạo hàm cấp hai, $f(1)=3$, $f'(1)=2$ và $f''(x)>0$ với mọi $x$. Ước lượng $f(1{,}2)$ bằng tiếp tuyến tại $x=1$ và cho biết giá trị ước lượng lớn hơn hay nhỏ hơn giá trị thật.
+
+[LỜI GIẢI CŨ – VI]
+$f(1{,}2)\approx3{,}4$. Vì $f''>0$ nên đồ thị lõm lên và nằm phía trên tiếp tuyến, do đó $3{,}4$ nhỏ hơn giá trị thật.
+
+[ĐỀ – EN]
+A twice-differentiable function has $f(1)=3$, $f'(1)=2$ and $f''(x)>0$ for all $x$. Estimate $f(1.2)$ with the tangent line at $x=1$, and decide whether the estimate is too large or too small.
+
+[LỜI GIẢI CŨ – EN]
+$f(1.2)\approx3.4$. Because $f''>0$, the graph is concave up and lies above its tangent line, so $3.4$ is an underestimate.
+
+
+######################################################################
+@@@ exams/ap-calculus/apcalc-differential-equations
+Bài học: Phương trình vi phân và trường hướng / Differential equations and slope fields
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Nghiệm của $\dfrac{dy}{dx}=2xe^{-y}$ thoả mãn $y(0)=0$ là
+A. $y=x^2$
+B. $y=\ln\left(x^2+1\right)$
+C. $y=e^{x^2}-1$
+D. $y=\ln\left(x^2\right)+1$
+
+[LỜI GIẢI CŨ – VI]
+$e^y=x^2+1$, nên $y=\ln\left(x^2+1\right)$: đáp án **B**.
+
+[ĐỀ – EN]
+Which is the solution of $\dfrac{dy}{dx}=2xe^{-y}$ with $y(0)=0$?
+A. $y=x^2$
+B. $y=\ln\left(x^2+1\right)$
+C. $y=e^{x^2}-1$
+D. $y=\ln\left(x^2\right)+1$
+
+[LỜI GIẢI CŨ – EN]
+$e^y=x^2+1$, so $y=\ln\left(x^2+1\right)$: answer **B**.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Chứng tỏ $y=Ce^{-x}+x-1$ là nghiệm của $\dfrac{dy}{dx}=x-y$ với mọi hằng số $C$.
+
+[LỜI GIẢI CŨ – VI]
+Vế trái: $y'=-Ce^{-x}+1$. Vế phải: $x-\left(Ce^{-x}+x-1\right)=1-Ce^{-x}$. Hai vế bằng nhau với mọi $C$. Khi $C=0$ ta được đường thẳng trong trường hướng ở trên.
+
+[ĐỀ – EN]
+Show that $y=Ce^{-x}+x-1$ is a solution of $\dfrac{dy}{dx}=x-y$ for every constant $C$.
+
+[LỜI GIẢI CŨ – EN]
+Left side: $y'=-Ce^{-x}+1$. Right side: $x-\left(Ce^{-x}+x-1\right)=1-Ce^{-x}$. They are equal for every $C$. With $C=0$ this is the line in the slope field above.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Giải $\dfrac{dy}{dx}=y^2$ với $y(0)=1$, và cho biết nghiệm tồn tại ở đâu.
+
+[LỜI GIẢI CŨ – VI]
+$-\dfrac1y=x-1$, nên $y=\dfrac{1}{1-x}$. Đường cong qua $(0,1)$ tiến ra vô cực tại $x=1$, nên nghiệm tồn tại khi $x<1$.
+
+[ĐỀ – EN]
+Solve $\dfrac{dy}{dx}=y^2$ with $y(0)=1$, and state where the solution exists.
+
+[LỜI GIẢI CŨ – EN]
+$-\dfrac1y=x-1$, so $y=\dfrac{1}{1-x}$. The curve through $(0,1)$ blows up at $x=1$, so the solution exists for $x<1$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một chất phóng xạ có chu kì bán rã $10$ năm. Sau $30$ năm còn lại bao nhiêu phần?
+A. $\dfrac13$
+B. $\dfrac16$
+C. $\dfrac18$
+D. $\dfrac{1}{30}$
+
+[LỜI GIẢI CŨ – VI]
+$\left(\dfrac12\right)^3=\dfrac18$: đáp án **C**.
+
+[ĐỀ – EN]
+A radioactive substance has a half-life of $10$ years. What fraction of it remains after $30$ years?
+A. $\dfrac13$
+B. $\dfrac16$
+C. $\dfrac18$
+D. $\dfrac{1}{30}$
+
+[LỜI GIẢI CŨ – EN]
+$\left(\dfrac12\right)^3=\dfrac18$: answer **C**.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Với $\dfrac{dy}{dx}=x^2-y$, tìm hệ số góc của đường cong nghiệm đi qua $(2,1)$ và phương trình tiếp tuyến tại đó. Dùng nó để xấp xỉ $y(2{,}1)$.
+
+[LỜI GIẢI CŨ – VI]
+Hệ số góc bằng $3$, tiếp tuyến là $y=1+3(x-2)$, và $y(2{,}1)\approx1+3(0{,}1)=1{,}3$.
+
+[ĐỀ – EN]
+For $\dfrac{dy}{dx}=x^2-y$, find the slope of the solution curve through $(2,1)$ and the equation of its tangent line there. Use it to approximate $y(2.1)$.
+
+[LỜI GIẢI CŨ – EN]
+The slope is $3$, the tangent line is $y=1+3(x-2)$, and $y(2.1)\approx1+3(0.1)=1.3$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một cốc trà ở $90$ độ C được đặt trong phòng $20$ độ C. Nhiệt độ của nó thoả mãn $\dfrac{dT}{dt}=-k(T-20)$, với $t$ tính bằng phút, và $T(10)=55$. Tính $T(20)$.
+
+[LỜI GIẢI CŨ – VI]
+Chênh lệch nhiệt độ giảm một nửa sau mỗi $10$ phút: $T(20)=20+70\cdot\dfrac14=37{,}5$ độ C.
+
+[ĐỀ – EN]
+A cup of tea at $90$ degrees Celsius is placed in a room at $20$ degrees Celsius. Its temperature satisfies $\dfrac{dT}{dt}=-k(T-20)$, with $t$ in minutes, and $T(10)=55$. Find $T(20)$.
+
+[LỜI GIẢI CŨ – EN]
+The temperature difference halves every $10$ minutes: $T(20)=20+70\cdot\dfrac14=37.5$ degrees Celsius.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Xét $\dfrac{dy}{dx}=x(y-1)$ và gọi $y=f(x)$ là nghiệm có $f(0)=3$.
+a) Tìm $\dfrac{d^2y}{dx^2}$ theo $x$ và $y$, rồi tính giá trị tại $(0,3)$.
+b) Tìm $f(x)$ bằng cách tách biến.
+
+[LỜI GIẢI CŨ – VI]
+a) $\dfrac{d^2y}{dx^2}=(y-1)\left(1+x^2\right)$, bằng $2$ tại $(0,3)$: đồ thị lõm lên ở đó.
+
+b) $y-1=2e^{x^2/2}$, nên $f(x)=1+2e^{x^2/2}$.
+
+[ĐỀ – EN]
+Consider $\dfrac{dy}{dx}=x(y-1)$, and let $y=f(x)$ be the solution with $f(0)=3$.
+a) Find $\dfrac{d^2y}{dx^2}$ in terms of $x$ and $y$, and evaluate it at $(0,3)$.
+b) Find $f(x)$ by separation of variables.
+
+[LỜI GIẢI CŨ – EN]
+a) $\dfrac{d^2y}{dx^2}=(y-1)\left(1+x^2\right)$, equal to $2$ at $(0,3)$: the graph is concave up there.
+
+b) $y-1=2e^{x^2/2}$, so $f(x)=1+2e^{x^2/2}$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Với $\dfrac{dy}{dx}=2y$ và $y(0)=1$, dùng hai bước Euler độ dài $0{,}25$ để xấp xỉ $y(0{,}5)$. So sánh với giá trị chính xác.
+
+[LỜI GIẢI CŨ – VI]
+$y(0{,}25)\approx1{,}5$ và $y(0{,}5)\approx2{,}25$. Nghiệm chính xác là $y=e^{2x}$, nên $y(0{,}5)=e\approx2{,}718$: phương pháp Euler cho giá trị nhỏ hơn vì nghiệm lõm lên.
+
+[ĐỀ – EN]
+For $\dfrac{dy}{dx}=2y$ with $y(0)=1$, use two Euler steps of size $0.25$ to approximate $y(0.5)$. Compare with the exact value.
+
+[LỜI GIẢI CŨ – EN]
+$y(0.25)\approx1.5$ and $y(0.5)\approx2.25$. The exact solution is $y=e^{2x}$, so $y(0.5)=e\approx2.718$: Euler's method underestimates because the solution is concave up.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một tin đồn lan trong trường có $600$ học sinh theo $\dfrac{dP}{dt}=0{,}3P\left(1-\dfrac{P}{600}\right)$, trong đó $P$ là số học sinh đã nghe tin sau $t$ ngày, và $P(0)=100$.
+a) Tìm $\displaystyle\lim_{t\to\infty}P(t)$.
+b) Tin đồn lan nhanh nhất khi $P$ bằng bao nhiêu?
+c) Tại $t=0$, đồ thị của $P$ lõm lên hay lõm xuống?
+
+[LỜI GIẢI CŨ – VI]
+a) $600$. b) $P=300$. c) Lõm lên: $P(0)=100<300$, nên $\dfrac{dP}{dt}$ vẫn đang tăng.
+
+[ĐỀ – EN]
+A rumor spreads in a school of $600$ students according to $\dfrac{dP}{dt}=0.3P\left(1-\dfrac{P}{600}\right)$, where $P$ is the number who have heard it after $t$ days, and $P(0)=100$.
+a) Find $\displaystyle\lim_{t\to\infty}P(t)$.
+b) For what value of $P$ is the rumor spreading fastest?
+c) Is the graph of $P$ concave up or concave down at $t=0$?
+
+[LỜI GIẢI CŨ – EN]
+a) $600$. b) $P=300$. c) Concave up: $P(0)=100<300$, so $\dfrac{dP}{dt}$ is still increasing.
+
+
+######################################################################
+@@@ exams/ap-calculus/apcalc-differentiation-rules
+Bài học: Định nghĩa đạo hàm và các quy tắc tính / The derivative and differentiation rules
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+$\displaystyle\lim_{h\to0}\frac{\sin\left(\frac{\pi}{2}+h\right)-1}{h}$ bằng
+A. $-1$
+B. $0$
+C. $1$
+D. Giới hạn không tồn tại.
+
+[LỜI GIẢI CŨ – VI]
+Giới hạn bằng $\cos\dfrac{\pi}{2}=0$: đáp án **B**.
+
+[ĐỀ – EN]
+What is $\displaystyle\lim_{h\to0}\frac{\sin\left(\frac{\pi}{2}+h\right)-1}{h}$?
+A. $-1$
+B. $0$
+C. $1$
+D. The limit does not exist.
+
+[LỜI GIẢI CŨ – EN]
+The limit is $\cos\dfrac{\pi}{2}=0$: answer **B**.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Với $g(x)=5x^4-3x^2+\dfrac{4}{x^2}$, tính $g'(1)$.
+
+[LỜI GIẢI CŨ – VI]
+$g'(x)=20x^3-6x-8x^{-3}$, nên $g'(1)=20-6-8=6$.
+
+[ĐỀ – EN]
+For $g(x)=5x^4-3x^2+\dfrac{4}{x^2}$, find $g'(1)$.
+
+[LỜI GIẢI CŨ – EN]
+$g'(x)=20x^3-6x-8x^{-3}$, so $g'(1)=20-6-8=6$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Với $f(x)=xe^x$, $f'(0)$ bằng
+A. $0$
+B. $e$
+C. $2$
+D. $1$
+
+[LỜI GIẢI CŨ – VI]
+$f'(0)=1+0=1$: đáp án **D**.
+
+[ĐỀ – EN]
+For $f(x)=xe^x$, what is $f'(0)$?
+A. $0$
+B. $e$
+C. $2$
+D. $1$
+
+[LỜI GIẢI CŨ – EN]
+$f'(0)=1+0=1$: answer **D**.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Với $f(x)=\dfrac{x}{x^2+1}$, tính $f'(1)$ và giải thích ý nghĩa.
+
+[LỜI GIẢI CŨ – VI]
+$f'(x)=\dfrac{1-x^2}{(x^2+1)^2}$, nên $f'(1)=0$: tiếp tuyến tại $x=1$ nằm ngang. Thật ra $f$ đạt giá trị lớn nhất $\dfrac12$ tại đó.
+
+[ĐỀ – EN]
+For $f(x)=\dfrac{x}{x^2+1}$, find $f'(1)$ and interpret it.
+
+[LỜI GIẢI CŨ – EN]
+$f'(x)=\dfrac{1-x^2}{(x^2+1)^2}$, so $f'(1)=0$: the tangent line at $x=1$ is horizontal. In fact $f$ has its maximum value $\dfrac12$ there.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Viết phương trình tiếp tuyến của $y=\ln x$ tại $x=1$.
+
+[LỜI GIẢI CŨ – VI]
+$y=0+1\cdot(x-1)$, tức là $y=x-1$.
+
+[ĐỀ – EN]
+Write the equation of the tangent line to $y=\ln x$ at $x=1$.
+
+[LỜI GIẢI CŨ – EN]
+$y=0+1\cdot(x-1)$, that is $y=x-1$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một chất điểm chuyển động trên một đường thẳng với vị trí $s(t)=t^3-6t^2+9t$ khi $t\ge0$. Vào những thời điểm nào chất điểm đứng yên?
+
+[LỜI GIẢI CŨ – VI]
+$3(t^2-4t+3)=3(t-1)(t-3)=0$, nên chất điểm đứng yên tại $t=1$ và $t=3$.
+
+[ĐỀ – EN]
+A particle moves along a line with position $s(t)=t^3-6t^2+9t$ for $t\ge0$. At what times is the particle at rest?
+
+[LỜI GIẢI CŨ – EN]
+$3(t^2-4t+3)=3(t-1)(t-3)=0$, so the particle is at rest at $t=1$ and $t=3$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Tìm các điểm trên đồ thị $y=x^3-3x$ mà tại đó tiếp tuyến nằm ngang.
+
+[LỜI GIẢI CŨ – VI]
+$3x^2-3=0$ cho $x=\pm1$. Các điểm là $(1, -2)$ và $(-1, 2)$.
+
+[ĐỀ – EN]
+Find the points on the graph of $y=x^3-3x$ where the tangent line is horizontal.
+
+[LỜI GIẢI CŨ – EN]
+$3x^2-3=0$ gives $x=\pm1$. The points are $(1, -2)$ and $(-1, 2)$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Bảng cho giá trị của các hàm số có đạo hàm $f$ và $g$ tại $x=2$.
+
+| $x$ | $f(x)$ | $f'(x)$ | $g(x)$ | $g'(x)$ |
+|---|---|---|---|---|
+| $2$ | $3$ | $-1$ | $4$ | $5$ |
+
+Đặt $h(x)=f(x)g(x)$. Tính $h'(2)$.
+
+[LỜI GIẢI CŨ – VI]
+$h'(2)=(-1)(4)+(3)(5)=-4+15=11$.
+
+[ĐỀ – EN]
+The table gives values of the differentiable functions $f$ and $g$ at $x=2$.
+
+| $x$ | $f(x)$ | $f'(x)$ | $g(x)$ | $g'(x)$ |
+|---|---|---|---|---|
+| $2$ | $3$ | $-1$ | $4$ | $5$ |
+
+Let $h(x)=f(x)g(x)$. Find $h'(2)$.
+
+[LỜI GIẢI CŨ – EN]
+$h'(2)=(-1)(4)+(3)(5)=-4+15=11$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+$$f(x)=\begin{cases}ax^2, & x\le1\\ bx-2, & x>1\end{cases}$$
+Tìm $a$ và $b$ để $f$ có đạo hàm tại $x=1$.
+
+[LỜI GIẢI CŨ – VI]
+Thay $b=2a$ vào $a=b-2$ được $a=2a-2$, nên $a=2$ và $b=4$. Kiểm tra: cả hai nhánh cho giá trị $2$ và hệ số góc $4$ tại $x=1$.
+
+[ĐỀ – EN]
+$$f(x)=\begin{cases}ax^2, & x\le1\\ bx-2, & x>1\end{cases}$$
+Find $a$ and $b$ so that $f$ is differentiable at $x=1$.
+
+[LỜI GIẢI CŨ – EN]
+Substituting $b=2a$ into $a=b-2$ gives $a=2a-2$, so $a=2$ and $b=4$. Check: both pieces give the value $2$ and the slope $4$ at $x=1$.
+
+
+######################################################################
+@@@ exams/ap-calculus/apcalc-implicit-inverse
+Bài học: Đạo hàm hàm hợp, hàm ẩn và hàm ngược / Chain rule, implicit and inverse functions
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Với $f(x)=\sqrt{x^2+9}$, tính $f'(4)$.
+
+[LỜI GIẢI CŨ – VI]
+$f'(x)=\dfrac{x}{\sqrt{x^2+9}}$, nên $f'(4)=\dfrac45$.
+
+[ĐỀ – EN]
+For $f(x)=\sqrt{x^2+9}$, find $f'(4)$.
+
+[LỜI GIẢI CŨ – EN]
+$f'(x)=\dfrac{x}{\sqrt{x^2+9}}$, so $f'(4)=\dfrac45$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Với $g(x)=\ln\left(x^2+1\right)$, $g'(1)$ bằng
+A. $\dfrac12$
+B. $1$
+C. $2$
+D. $\ln2$
+
+[LỜI GIẢI CŨ – VI]
+$g'(1)=\dfrac22=1$: đáp án **B**. Phương án D là $g(1)$.
+
+[ĐỀ – EN]
+For $g(x)=\ln\left(x^2+1\right)$, what is $g'(1)$?
+A. $\dfrac12$
+B. $1$
+C. $2$
+D. $\ln2$
+
+[LỜI GIẢI CŨ – EN]
+$g'(1)=\dfrac22=1$: answer **B**. Option D is $g(1)$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tìm hệ số góc của đường cong $xy=6$ tại điểm $(2, 3)$ bằng đạo hàm hàm ẩn.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{dy}{dx}=-\dfrac yx=-\dfrac32$ tại $(2, 3)$.
+
+[ĐỀ – EN]
+Find the slope of the curve $xy=6$ at the point $(2, 3)$ by implicit differentiation.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{dy}{dx}=-\dfrac yx=-\dfrac32$ at $(2, 3)$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho $f(x)=2x+e^x$. $\left(f^{-1}\right)'(1)$ bằng
+A. $\dfrac{1}{2+e}$
+B. $3$
+C. $\dfrac13$
+D. $2+e$
+
+[LỜI GIẢI CŨ – VI]
+$f'(0)=3$, nên $\left(f^{-1}\right)'(1)=\dfrac13$: đáp án **C**. Phương án A dùng $f'(1)$.
+
+[ĐỀ – EN]
+Let $f(x)=2x+e^x$. What is $\left(f^{-1}\right)'(1)$?
+A. $\dfrac{1}{2+e}$
+B. $3$
+C. $\dfrac13$
+D. $2+e$
+
+[LỜI GIẢI CŨ – EN]
+$f'(0)=3$, so $\left(f^{-1}\right)'(1)=\dfrac13$: answer **C**. Option A uses $f'(1)$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Với $y=\arcsin\left(\dfrac x2\right)$, tính $\dfrac{dy}{dx}$ tại $x=1$.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{dy}{dx}=\dfrac{\frac12}{\sqrt{1-\frac{x^2}{4}}}$, nên tại $x=1$: $\dfrac{\frac12}{\sqrt{\frac34}}=\dfrac{1}{\sqrt3}=\dfrac{\sqrt3}{3}$.
+
+[ĐỀ – EN]
+For $y=\arcsin\left(\dfrac x2\right)$, find $\dfrac{dy}{dx}$ at $x=1$.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{dy}{dx}=\dfrac{\frac12}{\sqrt{1-\frac{x^2}{4}}}$, so at $x=1$: $\dfrac{\frac12}{\sqrt{\frac34}}=\dfrac{1}{\sqrt3}=\dfrac{\sqrt3}{3}$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Viết phương trình tiếp tuyến của $x^2+y^2=10$ tại $(1, 3)$.
+
+[LỜI GIẢI CŨ – VI]
+$y-3=-\dfrac13(x-1)$, tức là $y=-\dfrac13x+\dfrac{10}{3}$.
+
+[ĐỀ – EN]
+Write the equation of the tangent line to $x^2+y^2=10$ at $(1, 3)$.
+
+[LỜI GIẢI CŨ – EN]
+$y-3=-\dfrac13(x-1)$, that is $y=-\dfrac13x+\dfrac{10}{3}$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Hàm số $f$ có đạo hàm và là đơn ánh, với $f(3)=5$ và $f'(3)=2$. Đặt $g=f^{-1}$. Tính $g(5)$ và $g'(5)$, rồi viết tiếp tuyến của $g$ tại $x=5$.
+
+[LỜI GIẢI CŨ – VI]
+$g(5)=3$ và $g'(5)=\dfrac12$. Tiếp tuyến là $y=3+\dfrac12(x-5)$.
+
+[ĐỀ – EN]
+The function $f$ is differentiable and one-to-one, with $f(3)=5$ and $f'(3)=2$. Let $g=f^{-1}$. Find $g(5)$ and $g'(5)$, and write the tangent line to $g$ at $x=5$.
+
+[LỜI GIẢI CŨ – EN]
+$g(5)=3$ and $g'(5)=\dfrac12$. The tangent line is $y=3+\dfrac12(x-5)$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Với đường cong $x^2+y^2=25$, chứng minh $\dfrac{d^2y}{dx^2}=-\dfrac{25}{y^3}$.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{d^2y}{dx^2}=-\dfrac{y+\frac{x^2}{y}}{y^2}=-\dfrac{y^2+x^2}{y^3}=-\dfrac{25}{y^3}$.
+
+[ĐỀ – EN]
+For the curve $x^2+y^2=25$, show that $\dfrac{d^2y}{dx^2}=-\dfrac{25}{y^3}$.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{d^2y}{dx^2}=-\dfrac{y+\frac{x^2}{y}}{y^2}=-\dfrac{y^2+x^2}{y^3}=-\dfrac{25}{y^3}$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Cho $h(x)=f\big(g(x)\big)$, trong đó $g(x)=x^2+1$ và $f'(5)=3$. Tính $h'(2)$, rồi tính giá trị của $\dfrac{d}{dx}\Big[h(x)\Big]^2$ tại $x=2$, biết $f(5)=-1$.
+
+[LỜI GIẢI CŨ – VI]
+$h'(2)=3\cdot4=12$. Khi đó $\dfrac{d}{dx}h(x)^2=2h(x)h'(x)$, tại $x=2$ bằng $2\cdot(-1)\cdot12=-24$.
+
+[ĐỀ – EN]
+Let $h(x)=f\big(g(x)\big)$, where $g(x)=x^2+1$ and $f'(5)=3$. Find $h'(2)$, then find the value of $\dfrac{d}{dx}\Big[h(x)\Big]^2$ at $x=2$ given that $f(5)=-1$.
+
+[LỜI GIẢI CŨ – EN]
+$h'(2)=3\cdot4=12$. Then $\dfrac{d}{dx}h(x)^2=2h(x)h'(x)$, which at $x=2$ equals $2\cdot(-1)\cdot12=-24$.
+
+
+===== HẾT GÓI GOI-ONTHI-04 =====

@@ -1,0 +1,677 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – GOI-L12-05
+Người làm: ChatGPT. Gói này có 21 bài tập thuộc 3 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/data/NC-ChatGPT-GOI-L12-05.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/3). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/data/NC-ChatGPT-GOI-L12-05.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG GÓI NÀY =====
+- g12/sphere-equation (9 bài tập)
+- g12/vector-coordinate-operations (10 bài tập)
+- g12/vectors-in-space (2 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g12/sphere-equation
+Bài học: Phương trình mặt cầu / The equation of a sphere
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết phương trình mặt cầu tâm $I(-1; 2; 0)$, bán kính $3$. Điểm $A(1; 3; 2)$ nằm trong, trên hay ngoài mặt cầu?
+
+[LỜI GIẢI CŨ – VI]
+$(x+1)^2+(y-2)^2+z^2=9$. $IA^2=2^2+1^2+2^2=9=R^2$.
+
+**Đáp số.** $(x+1)^2+(y-2)^2+z^2=9$; $A$ nằm trên mặt cầu.
+
+[ĐỀ – EN]
+Write the equation of the sphere with centre $I(-1, 2, 0)$ and radius $3$. Is the point $A(1, 3, 2)$ inside, on or outside the sphere?
+
+[LỜI GIẢI CŨ – EN]
+$(x+1)^2+(y-2)^2+z^2=9$. $IA^2=2^2+1^2+2^2=9=R^2$.
+
+**Answer.** $(x+1)^2+(y-2)^2+z^2=9$; $A$ lies on the sphere.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm tâm và bán kính của mặt cầu $x^2+y^2+z^2+4x-6y+2z-11=0$.
+
+[LỜI GIẢI CŨ – VI]
+$a=-2$, $b=3$, $c=-1$, $d=-11$. $R^2=4+9+1+11=25$.
+
+**Đáp số.** $I(-2; 3; -1)$, $R=5$.
+
+[ĐỀ – EN]
+Find the centre and radius of the sphere $x^2+y^2+z^2+4x-6y+2z-11=0$.
+
+[LỜI GIẢI CŨ – EN]
+$a=-2$, $b=3$, $c=-1$, $d=-11$. $R^2=4+9+1+11=25$.
+
+**Answer.** $I(-2, 3, -1)$, $R=5$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Phương trình nào sau đây là phương trình mặt cầu? Tìm tâm và bán kính của các mặt cầu đó.
+
+a) $x^2+y^2+z^2-2x+4z+1=0$. b) $x^2+y^2+z^2+2y+5=0$. c) $2x^2+2y^2+2z^2-4x+8y-2=0$.
+
+[LỜI GIẢI CŨ – VI]
+a) $a=1$, $b=0$, $c=-2$, $d=1$: $1+0+4-1=4>0$, tâm $(1; 0; -2)$, $R=2$.
+b) $a=0$, $b=-1$, $c=0$, $d=5$: $1-5=-4<0$, không phải mặt cầu.
+c) $x^2+y^2+z^2-2x+4y-1=0$: $1+4+0+1=6>0$, tâm $(1; -2; 0)$, $R=\sqrt6$.
+
+**Đáp số.** a) và c) là mặt cầu; b) không phải.
+
+[ĐỀ – EN]
+Which of these are equations of spheres? Find the centre and radius of each sphere.
+
+a) $x^2+y^2+z^2-2x+4z+1=0$. b) $x^2+y^2+z^2+2y+5=0$. c) $2x^2+2y^2+2z^2-4x+8y-2=0$.
+
+[LỜI GIẢI CŨ – EN]
+a) $a=1$, $b=0$, $c=-2$, $d=1$: $1+0+4-1=4>0$, centre $(1, 0, -2)$, $R=2$.
+b) $a=0$, $b=-1$, $c=0$, $d=5$: $1-5=-4<0$, not a sphere.
+c) $x^2+y^2+z^2-2x+4y-1=0$: $1+4+0+1=6>0$, centre $(1, -2, 0)$, $R=\sqrt6$.
+
+**Answer.** a) and c) are spheres; b) is not.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Viết phương trình mặt cầu đường kính $AB$ với $A(2; -1; 3)$, $B(0; 3; -1)$.
+
+[LỜI GIẢI CŨ – VI]
+$I(1; 1; 1)$, $AB=\sqrt{4+16+16}=6$, $R=3$.
+
+**Đáp số.** $(x-1)^2+(y-1)^2+(z-1)^2=9$.
+
+[ĐỀ – EN]
+Write the equation of the sphere with diameter $AB$, where $A(2, -1, 3)$ and $B(0, 3, -1)$.
+
+[LỜI GIẢI CŨ – EN]
+$I(1, 1, 1)$, $AB=\sqrt{4+16+16}=6$, $R=3$.
+
+**Answer.** $(x-1)^2+(y-1)^2+(z-1)^2=9$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+(Ôn lại [Phương trình mặt phẳng](lesson:plane-equation).) Viết phương trình mặt cầu tâm $I(1; 2; -1)$ tiếp xúc với mặt phẳng $(P): 2x-2y+z+9=0$.
+
+[LỜI GIẢI CŨ – VI]
+$$R=d(I, (P))=\frac{|2-4-1+9|}{\sqrt{4+4+1}}=\frac63=2.$$
+
+**Đáp số.** $(x-1)^2+(y-2)^2+(z+1)^2=4$.
+
+[ĐỀ – EN]
+(Revisiting [The equation of a plane](lesson:plane-equation).) Write the equation of the sphere with centre $I(1, 2, -1)$ that touches the plane $(P): 2x-2y+z+9=0$.
+
+[LỜI GIẢI CŨ – EN]
+$$R=d(I, (P))=\frac{|2-4-1+9|}{\sqrt{4+4+1}}=\frac63=2.$$
+
+**Answer.** $(x-1)^2+(y-2)^2+(z+1)^2=4$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho mặt cầu $(S): (x-2)^2+(y+1)^2+z^2=9$. Mỗi khẳng định sau đúng hay sai?
+
+a) $(S)$ có tâm $I(2; -1; 0)$.
+
+b) $(S)$ có bán kính bằng $9$.
+
+c) Điểm $M(4; 1; 1)$ thuộc $(S)$.
+
+d) Mặt phẳng $z=4$ cắt $(S)$ theo một đường tròn.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** $x-2$, $y+1=y-(-1)$, $z-0$.
+
+b) **Sai.** $R^2=9$, nên $R=3$.
+
+c) **Đúng.** $2^2+2^2+1^2=9$.
+
+d) **Sai.** Khoảng cách từ $I$ đến mặt phẳng $z=4$ là $|0-4|=4>3$, nên không có điểm chung.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Let $(S): (x-2)^2+(y+1)^2+z^2=9$. Is each claim true or false?
+
+a) $(S)$ has centre $I(2, -1, 0)$.
+
+b) $(S)$ has radius $9$.
+
+c) The point $M(4, 1, 1)$ lies on $(S)$.
+
+d) The plane $z=4$ cuts $(S)$ in a circle.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** $x-2$, $y+1=y-(-1)$, $z-0$.
+
+b) **False.** $R^2=9$, so $R=3$.
+
+c) **True.** $2^2+2^2+1^2=9$.
+
+d) **False.** The distance from $I$ to the plane $z=4$ is $|0-4|=4>3$, so they have no common point.
+
+**Answer.** a) True; b) False; c) True; d) False.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một chiếc loa Bluetooth treo ở $I(2; 3; 4)$ trong phòng (đơn vị: mét), sàn nhà là mặt phẳng $z=0$. Tiếng loa nghe rõ trong phạm vi $6$ m quanh loa. Tính diện tích phần sàn nhà nghe rõ tiếng loa (đơn vị: m², làm tròn đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+$r^2=36-16=20$, nên diện tích là $20\pi\approx62{,}8$ m².
+
+**Đáp số.** $62{,}8$.
+
+[ĐỀ – EN]
+A Bluetooth speaker hangs at $I(2, 3, 4)$ in a room (unit: metre), and the floor is the plane $z=0$. The speaker can be heard clearly within $6$ m of it. Find the area of the part of the floor where the speaker is heard clearly (in m², to 1 decimal place).
+
+[LỜI GIẢI CŨ – EN]
+$r^2=36-16=20$, so the area is $20\pi\approx62.8$ m².
+
+**Answer.** $62.8$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Viết phương trình mặt cầu có tâm nằm trên trục $Ox$ và đi qua hai điểm $A(1; 2; 3)$, $B(3; 0; 1)$.
+
+[LỜI GIẢI CŨ – VI]
+$$(1-t)^2+4+9=(3-t)^2+0+1\iff 14-2t=10-6t\iff t=-1.$$
+$I(-1; 0; 0)$, $R^2=4+4+9=17$.
+
+**Đáp số.** $(x+1)^2+y^2+z^2=17$.
+
+[ĐỀ – EN]
+Write the equation of the sphere whose centre lies on the axis $Ox$ and which passes through $A(1, 2, 3)$ and $B(3, 0, 1)$.
+
+[LỜI GIẢI CŨ – EN]
+$$(1-t)^2+4+9=(3-t)^2+0+1\iff 14-2t=10-6t\iff t=-1.$$
+$I(-1, 0, 0)$, $R^2=4+4+9=17$.
+
+**Answer.** $(x+1)^2+y^2+z^2=17$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+(Ôn lại [Phương trình đường thẳng trong không gian](lesson:line-equation-space).) Tìm giao điểm của đường thẳng $d: x=1+t$, $y=2$, $z=2-3t$ với mặt cầu $(S): x^2+y^2+z^2=9$, và tính độ dài dây cung tạo thành.
+
+[LỜI GIẢI CŨ – VI]
+$$(1+t)^2+4+(2-3t)^2=9\iff 10t^2-10t=0\iff t=0\ \text{hoặc}\ t=1.$$
+Hai giao điểm là $(1; 2; 2)$ và $(2; 2; -1)$. Dây cung dài $\sqrt{1^2+0^2+3^2}=\sqrt{10}$.
+
+**Đáp số.** $(1; 2; 2)$, $(2; 2; -1)$; dây cung dài $\sqrt{10}\approx3{,}16$.
+
+[ĐỀ – EN]
+(Revisiting [The equation of a line in space](lesson:line-equation-space).) Find where the line $d: x=1+t$, $y=2$, $z=2-3t$ meets the sphere $(S): x^2+y^2+z^2=9$, and find the length of the chord.
+
+[LỜI GIẢI CŨ – EN]
+$$(1+t)^2+4+(2-3t)^2=9\iff 10t^2-10t=0\iff t=0\ \text{or}\ t=1.$$
+The two points are $(1, 2, 2)$ and $(2, 2, -1)$. The chord has length $\sqrt{1^2+0^2+3^2}=\sqrt{10}$.
+
+**Answer.** $(1, 2, 2)$, $(2, 2, -1)$; the chord is $\sqrt{10}\approx3.16$ long.
+
+
+######################################################################
+@@@ g12/vector-coordinate-operations
+Bài học: Biểu thức toạ độ của các phép toán vectơ / Operations on vectors in coordinates
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho $\vec{u}=(2; -1; 3)$ và $\vec{v}=(-1; 4; 0)$. Tìm $\vec{u}+\vec{v}$, $3\vec{u}-2\vec{v}$ và $\vec{u}\cdot\vec{v}$.
+
+[LỜI GIẢI CŨ – VI]
+$\vec{u}+\vec{v}=(1; 3; 3)$. $3\vec{u}=(6; -3; 9)$, $2\vec{v}=(-2; 8; 0)$, nên $3\vec{u}-2\vec{v}=(8; -11; 9)$. $\vec{u}\cdot\vec{v}=-2-4+0=-6$.
+
+**Đáp số.** $(1; 3; 3)$; $(8; -11; 9)$; $-6$.
+
+[ĐỀ – EN]
+Let $\vec{u}=(2, -1, 3)$ and $\vec{v}=(-1, 4, 0)$. Find $\vec{u}+\vec{v}$, $3\vec{u}-2\vec{v}$ and $\vec{u}\cdot\vec{v}$.
+
+[LỜI GIẢI CŨ – EN]
+$\vec{u}+\vec{v}=(1, 3, 3)$. $3\vec{u}=(6, -3, 9)$, $2\vec{v}=(-2, 8, 0)$, so $3\vec{u}-2\vec{v}=(8, -11, 9)$. $\vec{u}\cdot\vec{v}=-2-4+0=-6$.
+
+**Answer.** $(1, 3, 3)$; $(8, -11, 9)$; $-6$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho $\vec{a}=(2; -3; 6)$. Tính $|\vec{a}|$ và tìm vectơ $\vec{e}$ cùng hướng với $\vec{a}$ có độ dài bằng $1$.
+
+[LỜI GIẢI CŨ – VI]
+$|\vec{a}|=\sqrt{4+9+36}=7$, nên $\vec{e}=\dfrac17\vec{a}=\left(\dfrac27; -\dfrac37; \dfrac67\right)$.
+
+**Đáp số.** $|\vec{a}|=7$; $\vec{e}=\left(\dfrac27; -\dfrac37; \dfrac67\right)$.
+
+[ĐỀ – EN]
+Let $\vec{a}=(2, -3, 6)$. Find $|\vec{a}|$ and the vector $\vec{e}$ with the same direction as $\vec{a}$ and length $1$.
+
+[LỜI GIẢI CŨ – EN]
+$|\vec{a}|=\sqrt{4+9+36}=7$, so $\vec{e}=\dfrac17\vec{a}=\left(\dfrac27, -\dfrac37, \dfrac67\right)$.
+
+**Answer.** $|\vec{a}|=7$; $\vec{e}=\left(\dfrac27, -\dfrac37, \dfrac67\right)$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính góc giữa hai vectơ $\vec{a}=(1; 1; 0)$ và $\vec{b}=(0; 1; 1)$.
+
+[LỜI GIẢI CŨ – VI]
+$$\vec{a}\cdot\vec{b}=0+1+0=1,\qquad |\vec{a}|=|\vec{b}|=\sqrt2,\qquad \cos(\vec{a}, \vec{b})=\frac{1}{2}.$$
+
+**Đáp số.** $60^\circ$.
+
+[ĐỀ – EN]
+Find the angle between the vectors $\vec{a}=(1, 1, 0)$ and $\vec{b}=(0, 1, 1)$.
+
+[LỜI GIẢI CŨ – EN]
+$$\vec{a}\cdot\vec{b}=0+1+0=1,\qquad |\vec{a}|=|\vec{b}|=\sqrt2,\qquad \cos(\vec{a}, \vec{b})=\frac{1}{2}.$$
+
+**Answer.** $60^\circ$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Trong ba vectơ $\vec{u}=(1; 2; -1)$, $\vec{v}=(3; -1; 1)$, $\vec{w}=(1; 1; 3)$, những cặp nào vuông góc với nhau?
+
+[LỜI GIẢI CŨ – VI]
+$\vec{u}\cdot\vec{v}=3-2-1=0$, $\vec{u}\cdot\vec{w}=1+2-3=0$, $\vec{v}\cdot\vec{w}=3-1+3=5$.
+
+**Đáp số.** $\vec{u}\perp\vec{v}$ và $\vec{u}\perp\vec{w}$; $\vec{v}$ và $\vec{w}$ không vuông góc.
+
+[ĐỀ – EN]
+Among the three vectors $\vec{u}=(1, 2, -1)$, $\vec{v}=(3, -1, 1)$, $\vec{w}=(1, 1, 3)$, which pairs are perpendicular?
+
+[LỜI GIẢI CŨ – EN]
+$\vec{u}\cdot\vec{v}=3-2-1=0$, $\vec{u}\cdot\vec{w}=1+2-3=0$, $\vec{v}\cdot\vec{w}=3-1+3=5$.
+
+**Answer.** $\vec{u}\perp\vec{v}$ and $\vec{u}\perp\vec{w}$; $\vec{v}$ and $\vec{w}$ are not perpendicular.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tìm $x$, $y$ để hai vectơ $\vec{a}=(1; x; 3)$ và $\vec{b}=(-2; 4; y)$ cùng phương.
+
+[LỜI GIẢI CŨ – VI]
+$k=-2$. Khi đó $4=-2x$ nên $x=-2$, và $y=-2\cdot3=-6$.
+
+**Đáp số.** $x=-2$, $y=-6$.
+
+[ĐỀ – EN]
+Find $x$, $y$ such that the vectors $\vec{a}=(1, x, 3)$ and $\vec{b}=(-2, 4, y)$ are collinear.
+
+[LỜI GIẢI CŨ – EN]
+$k=-2$. Then $4=-2x$, so $x=-2$, and $y=-2\cdot3=-6$.
+
+**Answer.** $x=-2$, $y=-6$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho $A(3; 2; -1)$, $B(1; 1; 1)$, $C(2; 3; 3)$. Chứng minh tam giác $ABC$ vuông tại $B$ và tính diện tích của nó.
+
+[LỜI GIẢI CŨ – VI]
+$$\overrightarrow{BA}=(2; 1; -2),\quad \overrightarrow{BC}=(1; 2; 2),\quad \overrightarrow{BA}\cdot\overrightarrow{BC}=2+2-4=0.$$
+$BA=BC=3$, nên $S=\dfrac12\cdot3\cdot3=4{,}5$.
+
+**Đáp số.** Tam giác vuông (và cân) tại $B$; $S=4{,}5$.
+
+[ĐỀ – EN]
+Let $A(3, 2, -1)$, $B(1, 1, 1)$, $C(2, 3, 3)$. Prove that triangle $ABC$ has a right angle at $B$ and find its area.
+
+[LỜI GIẢI CŨ – EN]
+$$\overrightarrow{BA}=(2, 1, -2),\quad \overrightarrow{BC}=(1, 2, 2),\quad \overrightarrow{BA}\cdot\overrightarrow{BC}=2+2-4=0.$$
+$BA=BC=3$, so $S=\dfrac12\cdot3\cdot3=4.5$.
+
+**Answer.** The triangle is right-angled (and isosceles) at $B$; $S=4.5$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho $\vec{a}=(1; -2; 2)$ và $\vec{b}=(2; 2; 1)$. Mỗi khẳng định sau đúng hay sai?
+
+a) $|\vec{a}|=3$.
+
+b) $\vec{a}\perp\vec{b}$.
+
+c) $\vec{a}-\vec{b}=(-1; -4; 3)$.
+
+d) $|\vec{a}+\vec{b}|=6$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** $|\vec{a}|=\sqrt{1+4+4}=3$.
+
+b) **Đúng.** $\vec{a}\cdot\vec{b}=2-4+2=0$.
+
+c) **Sai.** $\vec{a}-\vec{b}=(1-2;\ -2-2;\ 2-1)=(-1; -4; 1)$.
+
+d) **Sai.** $\vec{a}+\vec{b}=(3; 0; 3)$, nên $|\vec{a}+\vec{b}|=\sqrt{18}=3\sqrt2\approx4{,}24$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+[ĐỀ – EN]
+Let $\vec{a}=(1, -2, 2)$ and $\vec{b}=(2, 2, 1)$. Is each claim true or false?
+
+a) $|\vec{a}|=3$.
+
+b) $\vec{a}\perp\vec{b}$.
+
+c) $\vec{a}-\vec{b}=(-1, -4, 3)$.
+
+d) $|\vec{a}+\vec{b}|=6$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** $|\vec{a}|=\sqrt{1+4+4}=3$.
+
+b) **True.** $\vec{a}\cdot\vec{b}=2-4+2=0$.
+
+c) **False.** $\vec{a}-\vec{b}=(1-2,\ -2-2,\ 2-1)=(-1, -4, 1)$.
+
+d) **False.** $\vec{a}+\vec{b}=(3, 0, 3)$, so $|\vec{a}+\vec{b}|=\sqrt{18}=3\sqrt2\approx4.24$.
+
+**Answer.** a) True; b) True; c) False; d) False.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một người kéo một chiếc xe trượt bằng lực $\vec{F}=(10; 5; -2)$ (đơn vị: N). Xe dịch chuyển theo vectơ $\vec{d}=(3; 4; 0)$ (đơn vị: m). Tính góc giữa lực kéo và hướng dịch chuyển (đơn vị: độ, làm tròn đến hàng đơn vị).
+
+[LỜI GIẢI CŨ – VI]
+$$\vec{F}\cdot\vec{d}=30+20+0=50,\qquad |\vec{F}|=\sqrt{100+25+4}=\sqrt{129},\qquad |\vec{d}|=5.$$
+$$\cos(\vec{F}, \vec{d})=\frac{50}{5\sqrt{129}}=\frac{10}{\sqrt{129}}\approx0{,}880,\qquad (\vec{F}, \vec{d})\approx28{,}3^\circ.$$
+(Công của lực là $50$ J.)
+
+**Đáp số.** $28$.
+
+[ĐỀ – EN]
+A person pulls a sledge with the force $\vec{F}=(10, 5, -2)$ (unit: N). The sledge moves along the displacement $\vec{d}=(3, 4, 0)$ (unit: m). Find the angle between the pulling force and the direction of motion (in degrees, rounded to the nearest whole number).
+
+[LỜI GIẢI CŨ – EN]
+$$\vec{F}\cdot\vec{d}=30+20+0=50,\qquad |\vec{F}|=\sqrt{100+25+4}=\sqrt{129},\qquad |\vec{d}|=5.$$
+$$\cos(\vec{F}, \vec{d})=\frac{50}{5\sqrt{129}}=\frac{10}{\sqrt{129}}\approx0.880,\qquad (\vec{F}, \vec{d})\approx28.3^\circ.$$
+(The work done by the force is $50$ J.)
+
+**Answer.** $28$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+(Ôn lại [Vectơ và các phép toán trong không gian](lesson:vectors-in-space).) Ở bài trước, bằng cách phân tích vectơ, ta tính được góc giữa $\overrightarrow{AC}$ và $\overrightarrow{A'D}$ trong hình lập phương $ABCD.A'B'C'D'$ bằng $60^\circ$. Hãy tính lại bằng toạ độ, với hình lập phương cạnh $1$, $A$ ở gốc, $B(1; 0; 0)$, $D(0; 1; 0)$, $A'(0; 0; 1)$.
+
+[LỜI GIẢI CŨ – VI]
+$$\overrightarrow{AC}=(1; 1; 0),\qquad \overrightarrow{A'D}=(0; 1; -1),\qquad \cos=\frac{0+1+0}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+**Đáp số.** $60^\circ$, trùng với kết quả của bài trước.
+
+[ĐỀ – EN]
+(Revisiting [Vectors and their operations in space](lesson:vectors-in-space).) In the previous lesson, by decomposing vectors, we found that the angle between $\overrightarrow{AC}$ and $\overrightarrow{A'D}$ in the cube $ABCD.A'B'C'D'$ is $60^\circ$. Find it again with coordinates, for the cube with edge $1$, $A$ at the origin, $B(1, 0, 0)$, $D(0, 1, 0)$, $A'(0, 0, 1)$.
+
+[LỜI GIẢI CŨ – EN]
+$$\overrightarrow{AC}=(1, 1, 0),\qquad \overrightarrow{A'D}=(0, 1, -1),\qquad \cos=\frac{0+1+0}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+**Answer.** $60^\circ$, the same as in the previous lesson.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Cho $A(2; 1; 1)$ và $B(4; -1; 1)$. Tìm các điểm $M$ trên trục $Ox$ sao cho tam giác $MAB$ vuông tại $M$.
+
+[LỜI GIẢI CŨ – VI]
+$\overrightarrow{MA}=(2-t; 1; 1)$, $\overrightarrow{MB}=(4-t; -1; 1)$.
+$$(2-t)(4-t)-1+1=0\iff(2-t)(4-t)=0\iff t=2\ \text{hoặc}\ t=4.$$
+**Kiểm tra.** Với $M(2; 0; 0)$: $(0; 1; 1)\cdot(2; -1; 1)=0$. Với $M(4; 0; 0)$: $(-2; 1; 1)\cdot(0; -1; 1)=0$.
+
+**Đáp số.** $M(2; 0; 0)$ hoặc $M(4; 0; 0)$.
+
+[ĐỀ – EN]
+Let $A(2, 1, 1)$ and $B(4, -1, 1)$. Find the points $M$ on the axis $Ox$ such that triangle $MAB$ has a right angle at $M$.
+
+[LỜI GIẢI CŨ – EN]
+$\overrightarrow{MA}=(2-t, 1, 1)$, $\overrightarrow{MB}=(4-t, -1, 1)$.
+$$(2-t)(4-t)-1+1=0\iff(2-t)(4-t)=0\iff t=2\ \text{or}\ t=4.$$
+**Check.** For $M(2, 0, 0)$: $(0, 1, 1)\cdot(2, -1, 1)=0$. For $M(4, 0, 0)$: $(-2, 1, 1)\cdot(0, -1, 1)=0$.
+
+**Answer.** $M(2, 0, 0)$ or $M(4, 0, 0)$.
+
+
+######################################################################
+@@@ g12/vectors-in-space
+Bài học: Vectơ và các phép toán trong không gian / Vectors and their operations in space
+Cần viết lại lời giải các bài: 6, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $1$. Xét tính đúng sai của các mệnh đề sau:
+
+a) $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}$.
+
+b) $AC'=\sqrt3$.
+
+c) $\overrightarrow{AB}\cdot\overrightarrow{CD'}=1$.
+
+d) Góc giữa hai vectơ $\overrightarrow{AC}$ và $\overrightarrow{B'D'}$ bằng $90^\circ$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** Đây là quy tắc hình hộp.
+
+b) **Đúng.** Ta có $AC'^2=1+1+1=3$.
+
+c) **Sai.** Vì $\overrightarrow{CD'}=-\overrightarrow{AB}+\overrightarrow{AA'}$ nên $\overrightarrow{AB}\cdot\overrightarrow{CD'}=\overrightarrow{AB}\cdot\left(-\overrightarrow{AB}+\overrightarrow{AA'}\right)=-1+0=-1$.
+
+d) **Đúng.** Ta có $\overrightarrow{B'D'}=\overrightarrow{BD}$ và $AC\perp BD$ (hai đường chéo của hình vuông $ABCD$).
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Let $ABCD.A'B'C'D'$ be a cube with edge $1$. Decide whether each statement is true or false.
+
+a) $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}$.
+
+b) $AC'=\sqrt3$.
+
+c) $\overrightarrow{AB}\cdot\overrightarrow{CD'}=1$.
+
+d) The angle between the vectors $\overrightarrow{AC}$ and $\overrightarrow{B'D'}$ is $90^\circ$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** This is the parallelepiped rule.
+
+b) **True.** We have $AC'^2=1+1+1=3$.
+
+c) **False.** Since $\overrightarrow{CD'}=-\overrightarrow{AB}+\overrightarrow{AA'}$, we have $\overrightarrow{AB}\cdot\overrightarrow{CD'}=\overrightarrow{AB}\cdot\left(-\overrightarrow{AB}+\overrightarrow{AA'}\right)=-1+0=-1$.
+
+d) **True.** We have $\overrightarrow{B'D'}=\overrightarrow{BD}$ and $AC\perp BD$ (the diagonals of the square $ABCD$).
+
+**Answer.** a) True; b) True; c) False; d) True.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+(Ôn lại [Tích của vectơ với một số](lesson:scalar-multiplication).) Cho tứ diện $ABCD$ và $G$ là trọng tâm tam giác $BCD$. Chứng minh rằng $\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}=3\overrightarrow{AG}$.
+
+[LỜI GIẢI CŨ – VI]
+Theo quy tắc ba điểm, $\overrightarrow{AB}=\overrightarrow{AG}+\overrightarrow{GB}$, $\overrightarrow{AC}=\overrightarrow{AG}+\overrightarrow{GC}$, $\overrightarrow{AD}=\overrightarrow{AG}+\overrightarrow{GD}$. Vì $G$ là trọng tâm tam giác $BCD$ nên $\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}=\vec{0}$. Cộng ba đẳng thức, ta được
+$$\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}=3\overrightarrow{AG}+\left(\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}\right)=3\overrightarrow{AG}+\vec{0}=3\overrightarrow{AG}.$$
+
+**Đáp số.** Đẳng thức được chứng minh.
+
+[ĐỀ – EN]
+(Revisiting [Multiplying a vector by a number](lesson:scalar-multiplication).) Let $ABCD$ be a tetrahedron and $G$ the centroid of triangle $BCD$. Prove that $\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}=3\overrightarrow{AG}$.
+
+[LỜI GIẢI CŨ – EN]
+By the triangle rule, $\overrightarrow{AB}=\overrightarrow{AG}+\overrightarrow{GB}$, $\overrightarrow{AC}=\overrightarrow{AG}+\overrightarrow{GC}$, $\overrightarrow{AD}=\overrightarrow{AG}+\overrightarrow{GD}$. Since $G$ is the centroid of triangle $BCD$, $\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}=\vec{0}$. Adding the three equations, we get
+$$\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}=3\overrightarrow{AG}+\left(\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}\right)=3\overrightarrow{AG}+\vec{0}=3\overrightarrow{AG}.$$
+
+**Answer.** The identity is proved.
+
+
+===== HẾT GÓI GOI-L12-05 =====

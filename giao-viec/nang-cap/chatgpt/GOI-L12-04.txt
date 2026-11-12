@@ -1,0 +1,1180 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – GOI-L12-04
+Người làm: ChatGPT. Gói này có 40 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/data/NC-ChatGPT-GOI-L12-04.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/data/NC-ChatGPT-GOI-L12-04.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG GÓI NÀY =====
+- g12/review-integrals (10 bài tập)
+- g12/review-optimisation-real-life (10 bài tập)
+- g12/review-space-geometry (10 bài tập)
+- g12/review-statistics-probability (10 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g12/review-integrals
+Bài học: Ôn tập: nguyên hàm và tích phân / Revision: antiderivatives and integrals
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+$\displaystyle\int\left(4x^3-\frac{1}{x^2}\right)dx$ bằng
+A. $x^4+\dfrac1x+C$.
+B. $x^4-\dfrac1x+C$.
+C. $12x^2+\dfrac{2}{x^3}+C$.
+D. $x^4+\dfrac{1}{3x^3}+C$.
+
+[LỜI GIẢI CŨ – VI]
+$\displaystyle\int4x^3\,dx=x^4$ và $-\displaystyle\int x^{-2}\,dx=-\left(-\dfrac1x\right)=\dfrac1x$. Phương án B sai dấu; C là đạo hàm; D giảm số mũ thay vì tăng.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+$\displaystyle\int\left(4x^3-\frac{1}{x^2}\right)dx$ equals
+A. $x^4+\dfrac1x+C$.
+B. $x^4-\dfrac1x+C$.
+C. $12x^2+\dfrac{2}{x^3}+C$.
+D. $x^4+\dfrac{1}{3x^3}+C$.
+
+[LỜI GIẢI CŨ – EN]
+$\displaystyle\int4x^3\,dx=x^4$ and $-\displaystyle\int x^{-2}\,dx=-\left(-\dfrac1x\right)=\dfrac1x$. Option B has the wrong sign; C is the derivative; D lowers the power instead of raising it.
+
+**Answer.** A.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+$\displaystyle\int_0^{\frac{\pi}{2}}\cos x\,dx$ bằng
+A. $1$.
+B. $0$.
+C. $-1$.
+D. $\dfrac{\pi}{2}$.
+
+[LỜI GIẢI CŨ – VI]
+$\Big[\sin x\Big]_0^{\frac{\pi}{2}}=1-0=1$. Phương án C dùng nhầm nguyên hàm $-\sin x$.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+$\displaystyle\int_0^{\frac{\pi}{2}}\cos x\,dx$ equals
+A. $1$.
+B. $0$.
+C. $-1$.
+D. $\dfrac{\pi}{2}$.
+
+[LỜI GIẢI CŨ – EN]
+$\Big[\sin x\Big]_0^{\frac{\pi}{2}}=1-0=1$. Option C uses the wrong antiderivative $-\sin x$.
+
+**Answer.** A.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $\displaystyle\int_0^2\left(3x^2-2x+1\right)dx$.
+
+[LỜI GIẢI CŨ – VI]
+$\Big[x^3-x^2+x\Big]_0^2=8-4+2=6$.
+
+**Đáp số.** $6$.
+
+[ĐỀ – EN]
+Evaluate $\displaystyle\int_0^2\left(3x^2-2x+1\right)dx$.
+
+[LỜI GIẢI CŨ – EN]
+$\Big[x^3-x^2+x\Big]_0^2=8-4+2=6$.
+
+**Answer.** $6$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho hàm số $f(x)=e^x+2x$.
+
+a) $F(x)=e^x+x^2$ là một nguyên hàm của $f(x)$.
+
+b) $\displaystyle\int_0^1 f(x)\,dx=e+1$.
+
+c) Nguyên hàm $F$ của $f$ thoả mãn $F(0)=3$ là $F(x)=e^x+x^2+3$.
+
+d) $\displaystyle\int_{-1}^1 f(x)\,dx=e-\dfrac1e$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: $(e^x+x^2)'=e^x+2x$.
+
+b) **Sai**: $\Big[e^x+x^2\Big]_0^1=(e+1)-(1+0)=e$.
+
+c) **Sai**: $F(0)=1+C=3$ nên $C=2$, $F(x)=e^x+x^2+2$.
+
+d) **Đúng**: $(e+1)-\left(\dfrac1e+1\right)=e-\dfrac1e$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Let $f(x)=e^x+2x$.
+
+a) $F(x)=e^x+x^2$ is an antiderivative of $f(x)$.
+
+b) $\displaystyle\int_0^1 f(x)\,dx=e+1$.
+
+c) The antiderivative $F$ of $f$ with $F(0)=3$ is $F(x)=e^x+x^2+3$.
+
+d) $\displaystyle\int_{-1}^1 f(x)\,dx=e-\dfrac1e$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: $(e^x+x^2)'=e^x+2x$.
+
+b) **False**: $\Big[e^x+x^2\Big]_0^1=(e+1)-(1+0)=e$.
+
+c) **False**: $F(0)=1+C=3$, so $C=2$ and $F(x)=e^x+x^2+2$.
+
+d) **True**: $(e+1)-\left(\dfrac1e+1\right)=e-\dfrac1e$.
+
+**Answer.** a) True; b) False; c) False; d) True.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2-4$ và trục hoành (làm tròn kết quả đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+$$S=\int_{-2}^2(4-x^2)\,dx=\Big[4x-\frac{x^3}{3}\Big]_{-2}^2=\left(8-\frac83\right)-\left(-8+\frac83\right)=\frac{32}{3}\approx10{,}67.$$
+
+**Đáp số.** $10{,}7$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the parabola $y=x^2-4$ and the $x$-axis. Give your answer to 1 decimal place.
+
+[LỜI GIẢI CŨ – EN]
+$$S=\int_{-2}^2(4-x^2)\,dx=\Big[4x-\frac{x^3}{3}\Big]_{-2}^2=\left(8-\frac83\right)-\left(-8+\frac83\right)=\frac{32}{3}\approx10.67.$$
+
+**Answer.** $10.7$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi đồ thị $y=x^3-x$, trục hoành và hai đường thẳng $x=0$, $x=2$.
+
+[LỜI GIẢI CŨ – VI]
+$$S=\int_0^1(x-x^3)\,dx+\int_1^2(x^3-x)\,dx=\left(\frac12-\frac14\right)+\left[\left(4-2\right)-\left(\frac14-\frac12\right)\right]=\frac14+\frac94=\frac52.$$
+
+**Đáp số.** $S=\dfrac52$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the graph of $y=x^3-x$, the $x$-axis and the lines $x=0$, $x=2$.
+
+[LỜI GIẢI CŨ – EN]
+$$S=\int_0^1(x-x^3)\,dx+\int_1^2(x^3-x)\,dx=\left(\frac12-\frac14\right)+\left[\left(4-2\right)-\left(\frac14-\frac12\right)\right]=\frac14+\frac94=\frac52.$$
+
+**Answer.** $S=\dfrac52$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Quay hình phẳng giới hạn bởi $y=2x$, trục $Ox$ và đường thẳng $x=3$ quanh trục $Ox$, ta được một khối nón có thể tích bằng
+A. $36\pi$.
+B. $9\pi$.
+C. $108\pi$.
+D. $18\pi$.
+
+[LỜI GIẢI CŨ – VI]
+$V=\pi\Big[\dfrac{4x^3}{3}\Big]_0^3=36\pi$. Kiểm tra: khối nón có $r=6$, $h=3$, $V=\dfrac13\pi\cdot36\cdot3=36\pi$. Phương án B quên bình phương; C quên chia cho $3$; D chỉ bình phương $x$.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+Rotating the region bounded by $y=2x$, the $x$-axis and the line $x=3$ about the $x$-axis gives a cone of volume
+A. $36\pi$.
+B. $9\pi$.
+C. $108\pi$.
+D. $18\pi$.
+
+[LỜI GIẢI CŨ – EN]
+$V=\pi\Big[\dfrac{4x^3}{3}\Big]_0^3=36\pi$. Check: the cone has $r=6$, $h=3$, so $V=\dfrac13\pi\cdot36\cdot3=36\pi$. Option B forgets to square; C forgets to divide by $3$; D squares only $x$.
+
+**Answer.** A.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Nước chảy vào một bể với tốc độ $r(t)=0{,}6t+2$ (lít/phút), $t$ tính bằng phút. Trong $10$ phút đầu, bao nhiêu lít nước chảy vào bể?
+
+[LỜI GIẢI CŨ – VI]
+$\Big[0{,}3t^2+2t\Big]_0^{10}=30+20=50$.
+
+**Đáp số.** $50$.
+
+[ĐỀ – EN]
+Water flows into a tank at a rate of $r(t)=0.6t+2$ (litres per minute), with $t$ in minutes. How many litres flow into the tank in the first $10$ minutes?
+
+[LỜI GIẢI CŨ – EN]
+$\Big[0.3t^2+2t\Big]_0^{10}=30+20=50$.
+
+**Answer.** $50$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một ô tô đạp phanh và chuyển động chậm dần đều với vận tốc $v(t)=12-3t$ (m/s), $t$ là số giây kể từ lúc đạp phanh.
+
+a) Ô tô dừng hẳn sau $4$ giây.
+
+b) Quãng đường đi được sau $t$ giây kể từ lúc phanh là $s(t)=12t-1{,}5t^2$ (m), $0\le t\le4$.
+
+c) Từ lúc đạp phanh đến khi dừng, ô tô đi được $24$ m.
+
+d) Trong giây cuối cùng trước khi dừng, ô tô đi được $3$ m.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: $12-3t=0\iff t=4$.
+
+b) **Đúng**: $s(t)=\Big[12u-1{,}5u^2\Big]_0^t=12t-1{,}5t^2$.
+
+c) **Đúng**: $s(4)=48-24=24$.
+
+d) **Sai**: $s(4)-s(3)=24-22{,}5=1{,}5$ m.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+A car brakes and slows down uniformly with velocity $v(t)=12-3t$ (m/s), where $t$ is the time in seconds since braking.
+
+a) The car stops after $4$ seconds.
+
+b) The distance travelled $t$ seconds after braking is $s(t)=12t-1.5t^2$ (m), $0\le t\le4$.
+
+c) From braking to stopping, the car travels $24$ m.
+
+d) In the last second before stopping, the car travels $3$ m.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: $12-3t=0\iff t=4$.
+
+b) **True**: $s(t)=\Big[12u-1.5u^2\Big]_0^t=12t-1.5t^2$.
+
+c) **True**: $s(4)=48-24=24$.
+
+d) **False**: $s(4)-s(3)=24-22.5=1.5$ m.
+
+**Answer.** a) True; b) True; c) True; d) False.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một cổng có dạng parabol, chân cổng rộng $8$ m và đỉnh cao $4$ m so với mặt đất. Người ta lắp kính kín toàn bộ mặt cổng. Tính diện tích phần kính (đơn vị: m², làm tròn đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+Parabol có dạng $y=4-ax^2$ và đi qua $(4; 0)$ nên $a=\dfrac14$.
+$$S=\int_{-4}^4\left(4-\frac{x^2}{4}\right)dx=\Big[4x-\frac{x^3}{12}\Big]_{-4}^4=2\left(16-\frac{16}{3}\right)=\frac{64}{3}\approx21{,}33.$$
+
+**Đáp số.** $21{,}3$.
+
+[ĐỀ – EN]
+A gateway has the shape of a parabola: it is $8$ m wide at ground level and its top is $4$ m above the ground. The whole gateway is filled with glass. Find the area of glass, in m², to 1 decimal place.
+
+[LỜI GIẢI CŨ – EN]
+The parabola has the form $y=4-ax^2$ and passes through $(4, 0)$, so $a=\dfrac14$.
+$$S=\int_{-4}^4\left(4-\frac{x^2}{4}\right)dx=\Big[4x-\frac{x^3}{12}\Big]_{-4}^4=2\left(16-\frac{16}{3}\right)=\frac{64}{3}\approx21.33.$$
+
+**Answer.** $21.3$.
+
+
+######################################################################
+@@@ g12/review-optimisation-real-life
+Bài học: Ôn tập: bài toán tối ưu và thực tế / Revision: optimisation and real-life problems
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một mảnh vườn hình chữ nhật có chu vi $40$ m. Diện tích lớn nhất của mảnh vườn là
+A. $100$ m².
+B. $400$ m².
+C. $96$ m².
+D. $200$ m².
+
+[LỜI GIẢI CŨ – VI]
+$S'(x)=20-2x=0\iff x=10$, $S'$ đổi dấu từ $+$ sang $-$. $S(10)=100$. Phương án B là $20^2$.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+A rectangular garden has perimeter $40$ m. Its greatest possible area is
+A. $100$ m².
+B. $400$ m².
+C. $96$ m².
+D. $200$ m².
+
+[LỜI GIẢI CŨ – EN]
+$S'(x)=20-2x=0\iff x=10$, and $S'$ changes from $+$ to $-$. $S(10)=100$. Option B is $20^2$.
+
+**Answer.** A.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Một vật chuyển động với $s(t)=t^3-3t^2+5t$ (m), $t$ (giây). Tính vận tốc của vật (m/s) tại thời điểm gia tốc bằng $0$.
+
+[LỜI GIẢI CŨ – VI]
+$v(t)=3t^2-6t+5$, $a(t)=6t-6=0\iff t=1$. $v(1)=3-6+5=2$.
+
+**Đáp số.** $2$.
+
+[ĐỀ – EN]
+An object moves with $s(t)=t^3-3t^2+5t$ (m), $t$ in seconds. Find its velocity (m/s) at the moment when its acceleration is $0$.
+
+[LỜI GIẢI CŨ – EN]
+$v(t)=3t^2-6t+5$, $a(t)=6t-6=0\iff t=1$. $v(1)=3-6+5=2$.
+
+**Answer.** $2$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tổng chi phí sản xuất $x$ sản phẩm là $C(x)=x^2+20x+900$ (nghìn đồng), $x>0$. Chi phí trung bình nhỏ nhất cho mỗi sản phẩm là
+A. $80$ nghìn đồng.
+B. $30$ nghìn đồng.
+C. $60$ nghìn đồng.
+D. $50$ nghìn đồng.
+
+[LỜI GIẢI CŨ – VI]
+$\overline C'(x)=0\iff x=30$, và $\overline C'$ đổi dấu từ $-$ sang $+$. $\overline C(30)=30+20+30=80$. Phương án B là số sản phẩm $x$; C quên số hạng $20$.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+The total cost of making $x$ items is $C(x)=x^2+20x+900$ (thousand đồng), $x>0$. The least average cost per item is
+A. $80$ thousand đồng.
+B. $30$ thousand đồng.
+C. $60$ thousand đồng.
+D. $50$ thousand đồng.
+
+[LỜI GIẢI CŨ – EN]
+$\overline C'(x)=0\iff x=30$, and $\overline C'$ changes from $-$ to $+$. $\overline C(30)=30+20+30=80$. Option B is the number of items $x$; C leaves out the term $20$.
+
+**Answer.** A.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một bể chứa không nắp có đáy hình vuông, thể tích $32$ dm³. Tìm kích thước của bể để tốn ít vật liệu nhất (diện tích đáy cộng bốn mặt bên nhỏ nhất).
+
+[LỜI GIẢI CŨ – VI]
+$S'(x)=2x-\dfrac{128}{x^2}=\dfrac{2(x^3-64)}{x^2}=0\iff x=4$; $S'<0$ khi $0<x<4$, $S'>0$ khi $x>4$. Khi đó $h=\dfrac{32}{16}=2$ và $S(4)=16+32=48$ dm².
+
+**Đáp số.** Đáy cạnh $4$ dm, cao $2$ dm (diện tích vật liệu $48$ dm²).
+
+[ĐỀ – EN]
+An open tank with a square base has volume $32$ dm³. Find its dimensions so that it uses the least material (the area of the base plus the four sides is least).
+
+[LỜI GIẢI CŨ – EN]
+$S'(x)=2x-\dfrac{128}{x^2}=\dfrac{2(x^3-64)}{x^2}=0\iff x=4$; $S'<0$ for $0<x<4$ and $S'>0$ for $x>4$. Then $h=\dfrac{32}{16}=2$ and $S(4)=16+32=48$ dm².
+
+**Answer.** Base side $4$ dm, height $2$ dm (material area $48$ dm²).
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một cửa hàng bán áo với giá $200$ nghìn đồng mỗi chiếc thì mỗi tháng bán được $50$ chiếc; cứ giảm giá $1$ nghìn đồng thì bán thêm được $1$ chiếc. Giá nhập mỗi chiếc là $120$ nghìn đồng. Gọi $x$ (nghìn đồng) là số tiền giảm giá, $0\le x\le80$.
+
+a) Khi bán với giá $190$ nghìn đồng, cửa hàng bán được $60$ chiếc mỗi tháng.
+
+b) Lợi nhuận mỗi tháng là $P(x)=(80-x)(50+x)$ (nghìn đồng).
+
+c) Lợi nhuận lớn nhất khi giá bán là $170$ nghìn đồng.
+
+d) Lợi nhuận lớn nhất là $4225$ nghìn đồng.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: giảm $10$ nghìn thì bán $50+10=60$ chiếc.
+
+b) **Đúng**: lãi mỗi chiếc $200-x-120=80-x$, nhân với $50+x$.
+
+c) **Sai**: $P'(x)=30-2x=0\iff x=15$, nên giá bán tốt nhất là $185$ nghìn đồng.
+
+d) **Đúng**: $P(15)=65\cdot65=4225$, lớn hơn $P(0)=4000$ và $P(80)=0$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+A shop sells shirts at $200$ thousand đồng each and sells $50$ a month; for every $1$ thousand đồng reduction in price it sells $1$ more shirt. Each shirt costs the shop $120$ thousand đồng. Let $x$ (thousand đồng) be the price reduction, $0\le x\le80$.
+
+a) At a price of $190$ thousand đồng, the shop sells $60$ shirts a month.
+
+b) The monthly profit is $P(x)=(80-x)(50+x)$ (thousand đồng).
+
+c) The profit is greatest when the price is $170$ thousand đồng.
+
+d) The greatest profit is $4225$ thousand đồng.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: a reduction of $10$ thousand gives $50+10=60$ shirts.
+
+b) **True**: profit per shirt $200-x-120=80-x$, times $50+x$.
+
+c) **False**: $P'(x)=30-2x=0\iff x=15$, so the best price is $185$ thousand đồng.
+
+d) **True**: $P(15)=65\cdot65=4225$, more than $P(0)=4000$ and $P(80)=0$.
+
+**Answer.** a) True; b) True; c) False; d) True.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một quả bóng được ném thẳng đứng lên, độ cao sau $t$ giây là $h(t)=1{,}5+19{,}6t-4{,}9t^2$ (m). Tính độ cao lớn nhất của quả bóng (đơn vị: mét).
+
+[LỜI GIẢI CŨ – VI]
+$h'(t)=0\iff t=2$, $h'$ đổi dấu từ $+$ sang $-$. $h(2)=1{,}5+39{,}2-19{,}6=21{,}1$.
+
+**Đáp số.** $21{,}1$.
+
+[ĐỀ – EN]
+A ball is thrown straight up; its height after $t$ seconds is $h(t)=1.5+19.6t-4.9t^2$ (m). Find the greatest height of the ball, in metres.
+
+[LỜI GIẢI CŨ – EN]
+$h'(t)=0\iff t=2$, and $h'$ changes from $+$ to $-$. $h(2)=1.5+39.2-19.6=21.1$.
+
+**Answer.** $21.1$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một lon nước hình trụ có thể tích $16\pi$ cm³. Để tốn ít vật liệu nhất (diện tích toàn phần nhỏ nhất), bán kính đáy của lon phải bằng
+A. $2$ cm.
+B. $4$ cm.
+C. $8$ cm.
+D. $1$ cm.
+
+[LỜI GIẢI CŨ – VI]
+$S'(r)=4\pi r-\dfrac{32\pi}{r^2}=0\iff r^3=8\iff r=2$; $S'$ đổi dấu từ $-$ sang $+$. Khi đó $h=4$. Phương án B là chiều cao, C là $r^3$.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+A cylindrical can has volume $16\pi$ cm³. To use the least material (least total surface area), the radius of its base must be
+A. $2$ cm.
+B. $4$ cm.
+C. $8$ cm.
+D. $1$ cm.
+
+[LỜI GIẢI CŨ – EN]
+$S'(r)=4\pi r-\dfrac{32\pi}{r^2}=0\iff r^3=8\iff r=2$; $S'$ changes from $-$ to $+$. Then $h=4$. Option B is the height, C is $r^3$.
+
+**Answer.** A.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một người ở điểm $A$ trên mặt hồ, cách bờ thẳng $4$ km ($B$ là điểm trên bờ gần $A$ nhất). Người đó muốn đến điểm $C$ trên bờ với $BC=10$ km: chèo thuyền với vận tốc $3$ km/h đến điểm $M$ trên đoạn $BC$, rồi đi bộ với vận tốc $5$ km/h đến $C$. Điểm $M$ cách $B$ bao nhiêu km thì thời gian ít nhất?
+
+[LỜI GIẢI CŨ – VI]
+$T'(x)=\dfrac{x}{3\sqrt{x^2+16}}-\dfrac15=0\iff5x=3\sqrt{x^2+16}\iff16x^2=144\iff x=3$. $T(0)\approx3{,}33$, $T(3)=\dfrac53+\dfrac75\approx3{,}07$, $T(10)\approx3{,}59$ (giờ).
+
+**Đáp số.** $3$.
+
+[ĐỀ – EN]
+A person at point $A$ on a lake is $4$ km from a straight shore ($B$ is the point of the shore nearest to $A$). They want to reach point $C$ on the shore with $BC=10$ km: they row at $3$ km/h to a point $M$ on $BC$, then walk at $5$ km/h to $C$. How far from $B$ should $M$ be to make the time least, in km?
+
+[LỜI GIẢI CŨ – EN]
+$T'(x)=\dfrac{x}{3\sqrt{x^2+16}}-\dfrac15=0\iff5x=3\sqrt{x^2+16}\iff16x^2=144\iff x=3$. $T(0)\approx3.33$, $T(3)=\dfrac53+\dfrac75\approx3.07$, $T(10)\approx3.59$ (hours).
+
+**Answer.** $3$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Từ một tấm bìa hình chữ nhật kích thước $16$ cm × $10$ cm, người ta cắt bốn hình vuông cạnh $x$ cm ở bốn góc rồi gấp thành hộp không nắp.
+
+a) Điều kiện của $x$ là $0<x<5$.
+
+b) Thể tích hộp là $V(x)=x(16-x)(10-x)$.
+
+c) Thể tích lớn nhất khi $x=\dfrac{20}{3}$.
+
+d) Thể tích lớn nhất của hộp là $144$ cm³.
+
+[LỜI GIẢI CŨ – VI]
+$V(x)=x(16-2x)(10-2x)=4x^3-52x^2+160x$, $V'(x)=12x^2-104x+160=4(x-2)(3x-20)$.
+
+a) **Đúng**: cần $10-2x>0$ và $x>0$.
+
+b) **Sai**: mỗi cạnh đáy bị cắt hai lần, phải là $16-2x$ và $10-2x$.
+
+c) **Sai**: $\dfrac{20}{3}\approx6{,}67$ không thuộc $(0; 5)$; nghiệm cần lấy là $x=2$.
+
+d) **Đúng**: $V'$ đổi dấu từ $+$ sang $-$ tại $x=2$, $V(2)=2\cdot12\cdot6=144$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Four squares of side $x$ cm are cut from the corners of a $16$ cm × $10$ cm rectangular sheet of card, which is then folded into an open box.
+
+a) The constraint on $x$ is $0<x<5$.
+
+b) The volume of the box is $V(x)=x(16-x)(10-x)$.
+
+c) The volume is greatest when $x=\dfrac{20}{3}$.
+
+d) The greatest volume of the box is $144$ cm³.
+
+[LỜI GIẢI CŨ – EN]
+$V(x)=x(16-2x)(10-2x)=4x^3-52x^2+160x$, $V'(x)=12x^2-104x+160=4(x-2)(3x-20)$.
+
+a) **True**: we need $10-2x>0$ and $x>0$.
+
+b) **False**: each side of the base loses two squares, so it must be $16-2x$ and $10-2x$.
+
+c) **False**: $\dfrac{20}{3}\approx6.67$ is not in $(0, 5)$; the root to use is $x=2$.
+
+d) **True**: $V'$ changes from $+$ to $-$ at $x=2$, and $V(2)=2\cdot12\cdot6=144$.
+
+**Answer.** a) True; b) False; c) False; d) True.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một tấm tôn rộng $30$ cm được gấp thành máng nước: đáy rộng $10$ cm, hai thành mỗi bên rộng $10$ cm, nghiêng với phương nằm ngang một góc $\theta$ với $0<\theta\le\dfrac{\pi}{2}$ (mặt cắt là hình thang cân). Tìm $\theta$ để diện tích mặt cắt lớn nhất và tính diện tích đó (làm tròn đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+$$A'(\theta)=100\left(\cos\theta+\cos^2\theta-\sin^2\theta\right)=100(2\cos^2\theta+\cos\theta-1)=100(2\cos\theta-1)(\cos\theta+1).$$
+Trên $\left(0; \dfrac{\pi}{2}\right]$, $\cos\theta+1>0$, nên $A'=0\iff\cos\theta=\dfrac12\iff\theta=\dfrac{\pi}{3}$; $A'>0$ khi $\theta<\dfrac{\pi}{3}$ và $A'<0$ khi $\theta>\dfrac{\pi}{3}$. $A\left(\dfrac{\pi}{3}\right)=100\cdot\dfrac{\sqrt3}{2}\cdot\dfrac32=75\sqrt3\approx129{,}9$.
+
+**Đáp số.** $\theta=\dfrac{\pi}{3}$ ($60^\circ$), diện tích lớn nhất $75\sqrt3\approx129{,}9$ cm².
+
+[ĐỀ – EN]
+A metal sheet $30$ cm wide is folded into a gutter: a base $10$ cm wide and two sides $10$ cm wide, each making an angle $\theta$ with the horizontal, $0<\theta\le\dfrac{\pi}{2}$ (the cross-section is an isosceles trapezium). Find $\theta$ so that the cross-sectional area is greatest, and find that area to 1 decimal place.
+
+[LỜI GIẢI CŨ – EN]
+$$A'(\theta)=100\left(\cos\theta+\cos^2\theta-\sin^2\theta\right)=100(2\cos^2\theta+\cos\theta-1)=100(2\cos\theta-1)(\cos\theta+1).$$
+On $\left(0, \dfrac{\pi}{2}\right]$, $\cos\theta+1>0$, so $A'=0\iff\cos\theta=\dfrac12\iff\theta=\dfrac{\pi}{3}$; $A'>0$ for $\theta<\dfrac{\pi}{3}$ and $A'<0$ for $\theta>\dfrac{\pi}{3}$. $A\left(\dfrac{\pi}{3}\right)=100\cdot\dfrac{\sqrt3}{2}\cdot\dfrac32=75\sqrt3\approx129.9$.
+
+**Answer.** $\theta=\dfrac{\pi}{3}$ ($60^\circ$), with greatest area $75\sqrt3\approx129.9$ cm².
+
+
+######################################################################
+@@@ g12/review-space-geometry
+Bài học: Ôn tập: hình học không gian / Revision: geometry in space
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Khối lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác vuông tại $A$, $AB=3$, $AC=4$ và $AA'=5$. Thể tích của khối lăng trụ là
+
+**A.** $30$. **B.** $10$. **C.** $60$. **D.** $20$.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích đáy là $\dfrac12\cdot3\cdot4=6$, nên $V=6\cdot5=30$. Phương án B nhân thêm $\dfrac13$, phương án C quên $\dfrac12$.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+The right prism $ABC.A'B'C'$ has a base that is a right-angled triangle at $A$, with $AB=3$, $AC=4$ and $AA'=5$. The volume of the prism is
+
+**A.** $30$. **B.** $10$. **C.** $60$. **D.** $20$.
+
+[LỜI GIẢI CŨ – EN]
+The base area is $\dfrac12\cdot3\cdot4=6$, so $V=6\cdot5=30$. Option B multiplies by an extra $\dfrac13$; option C forgets the $\dfrac12$.
+
+**Answer.** A.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc, $OA=2$, $OB=3$, $OC=4$. Thể tích khối tứ diện là
+
+**A.** $24$. **B.** $12$. **C.** $8$. **D.** $4$.
+
+[LỜI GIẢI CŨ – VI]
+$V=\dfrac13\cdot\dfrac12\cdot2\cdot3\cdot4=4$. Phương án A quên cả $\dfrac13$ và $\dfrac12$; phương án B quên $\dfrac13$; phương án C quên $\dfrac12$.
+
+**Đáp số.** D.
+
+[ĐỀ – EN]
+In the tetrahedron $OABC$, the edges $OA$, $OB$, $OC$ are mutually perpendicular, $OA=2$, $OB=3$, $OC=4$. The volume of the tetrahedron is
+
+**A.** $24$. **B.** $12$. **C.** $8$. **D.** $4$.
+
+[LỜI GIẢI CŨ – EN]
+$V=\dfrac13\cdot\dfrac12\cdot2\cdot3\cdot4=4$. Option A forgets both $\dfrac13$ and $\dfrac12$; option B forgets $\dfrac13$; option C forgets $\dfrac12$.
+
+**Answer.** D.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABC$ có đáy là tam giác đều cạnh $a$, $SA\perp(ABC)$, góc giữa mặt phẳng $(SBC)$ và mặt phẳng đáy bằng $60^\circ$. Thể tích khối chóp là
+
+**A.** $\dfrac{a^3\sqrt3}{24}$. **B.** $\dfrac{a^3\sqrt3}{8}$. **C.** $\dfrac{3a^3\sqrt3}{8}$. **D.** $\dfrac{a^3}{4}$.
+
+[LỜI GIẢI CŨ – VI]
+$SA=\dfrac{a\sqrt3}{2}\cdot\sqrt3=\dfrac{3a}{2}$, nên $V=\dfrac13\cdot\dfrac{a^2\sqrt3}{4}\cdot\dfrac{3a}{2}=\dfrac{a^3\sqrt3}{8}$. Phương án A dùng nhầm $\tan30^\circ$, phương án C quên $\dfrac13$, phương án D lấy nhầm góc là $\widehat{SBA}$.
+
+**Đáp số.** B.
+
+[ĐỀ – EN]
+The pyramid $S.ABC$ has an equilateral base with side $a$, $SA\perp(ABC)$, and the angle between the plane $(SBC)$ and the base is $60^\circ$. The volume of the pyramid is
+
+**A.** $\dfrac{a^3\sqrt3}{24}$. **B.** $\dfrac{a^3\sqrt3}{8}$. **C.** $\dfrac{3a^3\sqrt3}{8}$. **D.** $\dfrac{a^3}{4}$.
+
+[LỜI GIẢI CŨ – EN]
+$SA=\dfrac{a\sqrt3}{2}\cdot\sqrt3=\dfrac{3a}{2}$, so $V=\dfrac13\cdot\dfrac{a^2\sqrt3}{4}\cdot\dfrac{3a}{2}=\dfrac{a^3\sqrt3}{8}$. Option A uses $\tan30^\circ$ by mistake, option C forgets $\dfrac13$, and option D takes the angle to be $\angle SBA$.
+
+**Answer.** B.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$, $O$ là tâm của hình vuông $ABCD$.
+
+a) $AC\perp(BDD'B')$.
+
+b) Góc giữa hai đường thẳng $AB'$ và $BC'$ bằng $60^\circ$.
+
+c) Khoảng cách từ $A$ đến mặt phẳng $(BDD'B')$ bằng $\dfrac{a\sqrt2}{2}$.
+
+d) Số đo của góc nhị diện $[C', BD, C]$ bằng $45^\circ$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** $AC\perp BD$ (hai đường chéo hình vuông) và $AC\perp BB'$, nên $AC\perp(BDD'B')$.
+
+b) **Đúng.** $BC'\parallel AD'$; tam giác $AB'D'$ có ba cạnh đều bằng $a\sqrt2$ nên là tam giác đều, góc bằng $60^\circ$.
+
+c) **Đúng.** Theo a), $AO\perp(BDD'B')$, nên khoảng cách là $AO=\dfrac{a\sqrt2}{2}$.
+
+d) **Sai.** Góc nhị diện là $\widehat{C'OC}$ với $\tan\widehat{C'OC}=\dfrac{CC'}{CO}=\dfrac{a}{\frac{a\sqrt2}{2}}=\sqrt2$, nên góc khoảng $54{,}7^\circ$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+$ABCD.A'B'C'D'$ is a cube with side $a$, and $O$ is the centre of the square $ABCD$.
+
+a) $AC\perp(BDD'B')$.
+
+b) The angle between the lines $AB'$ and $BC'$ is $60^\circ$.
+
+c) The distance from $A$ to the plane $(BDD'B')$ is $\dfrac{a\sqrt2}{2}$.
+
+d) The dihedral angle $[C', BD, C]$ is $45^\circ$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** $AC\perp BD$ (diagonals of a square) and $AC\perp BB'$, so $AC\perp(BDD'B')$.
+
+b) **True.** $BC'\parallel AD'$; triangle $AB'D'$ has all three sides equal to $a\sqrt2$, so it is equilateral and the angle is $60^\circ$.
+
+c) **True.** By a), $AO\perp(BDD'B')$, so the distance is $AO=\dfrac{a\sqrt2}{2}$.
+
+d) **False.** The dihedral angle is $\angle C'OC$ with $\tan\angle C'OC=\dfrac{CC'}{CO}=\dfrac{a}{\frac{a\sqrt2}{2}}=\sqrt2$, so the angle is about $54.7^\circ$.
+
+**Answer.** a) True; b) True; c) True; d) False.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa đường thẳng $A'C$ và mặt phẳng $(ABCD)$ (đơn vị: độ, làm tròn kết quả đến hàng đơn vị).
+
+[LỜI GIẢI CŨ – VI]
+$\tan\widehat{A'CA}=\dfrac{a}{a\sqrt2}=\dfrac{1}{\sqrt2}$, nên $\widehat{A'CA}\approx35{,}26^\circ$.
+
+**Đáp số.** $35$.
+
+[ĐỀ – EN]
+$ABCD.A'B'C'D'$ is a cube. Find the angle between the line $A'C$ and the plane $(ABCD)$ (in degrees, to the nearest whole number).
+
+[LỜI GIẢI CŨ – EN]
+$\tan\angle A'CA=\dfrac{a}{a\sqrt2}=\dfrac{1}{\sqrt2}$, so $\angle A'CA\approx35.26^\circ$.
+
+**Answer.** $35$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABC$ có đáy là tam giác đều cạnh $2$, $SA\perp(ABC)$ và $SA=1$. Tính khoảng cách từ $A$ đến mặt phẳng $(SBC)$ (làm tròn kết quả đến hàng phần trăm).
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{1}{AH^2}=1+\dfrac13=\dfrac43$, nên $AH=\dfrac{\sqrt3}{2}\approx0{,}866$.
+
+**Đáp số.** $0{,}87$.
+
+[ĐỀ – EN]
+The pyramid $S.ABC$ has an equilateral base with side $2$, $SA\perp(ABC)$ and $SA=1$. Find the distance from $A$ to the plane $(SBC)$ (to 2 decimal places).
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{1}{AH^2}=1+\dfrac13=\dfrac43$, so $AH=\dfrac{\sqrt3}{2}\approx0.866$.
+
+**Answer.** $0.87$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Mái che của một giếng trời có dạng hình chóp tứ giác đều, đáy là hình vuông cạnh $4$ m, chiều cao $3$ m. Tính góc giữa một mặt bên của mái và mặt đáy (đơn vị: độ, làm tròn kết quả đến hàng đơn vị).
+
+[LỜI GIẢI CŨ – VI]
+$OM=2$, $\tan\widehat{SMO}=\dfrac32$, nên $\widehat{SMO}\approx56{,}31^\circ$.
+
+**Đáp số.** $56$.
+
+[ĐỀ – EN]
+The cover of a skylight is a regular square pyramid with a square base of side $4$ m and height $3$ m. Find the angle between a sloping face of the cover and the base (in degrees, to the nearest whole number).
+
+[LỜI GIẢI CŨ – EN]
+$OM=2$ and $\tan\angle SMO=\dfrac32$, so $\angle SMO\approx56.31^\circ$.
+
+**Answer.** $56$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một máng nước dài $2$ m có dạng hình lăng trụ đứng, mặt cắt ngang là hình thang cân với đáy lớn (miệng máng) $0{,}6$ m, đáy nhỏ $0{,}4$ m và chiều sâu $0{,}3$ m. Máng chứa được tối đa bao nhiêu lít nước?
+
+[LỜI GIẢI CŨ – VI]
+$B=\dfrac{(0{,}6+0{,}4)\cdot0{,}3}{2}=0{,}15$ m², nên $V=0{,}15\cdot2=0{,}3$ m³ $=300$ lít.
+
+**Đáp số.** $300$.
+
+[ĐỀ – EN]
+A water trough $2$ m long is a right prism whose cross-section is an isosceles trapezium with a longer base (the top) of $0.6$ m, a shorter base of $0.4$ m and a depth of $0.3$ m. At most how many litres of water can the trough hold?
+
+[LỜI GIẢI CŨ – EN]
+$B=\dfrac{(0.6+0.4)\cdot0.3}{2}=0.15$ m², so $V=0.15\cdot2=0.3$ m³ $=300$ litres.
+
+**Answer.** $300$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, tâm $O$, $SA\perp(ABCD)$ và $SA=a$. Tính khoảng cách giữa hai đường thẳng chéo nhau $SC$ và $BD$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $BD\perp(SAC)$ và $OH\subset(SAC)$ nên $OH\perp BD$; lại có $OH\perp SC$, nên $d(SC, BD)=OH$. Ta có $OC=\dfrac{a\sqrt2}{2}$, $SC=\sqrt{a^2+2a^2}=a\sqrt3$, $\sin\widehat{SCA}=\dfrac{SA}{SC}=\dfrac{1}{\sqrt3}$:
+
+$$OH=\frac{a\sqrt2}{2}\cdot\frac{1}{\sqrt3}=\frac{a\sqrt6}{6}.$$
+
+**Đáp số.** $d(SC, BD)=\dfrac{a\sqrt6}{6}$.
+
+[ĐỀ – EN]
+The pyramid $S.ABCD$ has a square base with side $a$ and centre $O$, $SA\perp(ABCD)$ and $SA=a$. Find the distance between the skew lines $SC$ and $BD$.
+
+[LỜI GIẢI CŨ – EN]
+Since $BD\perp(SAC)$ and $OH\subset(SAC)$, $OH\perp BD$; also $OH\perp SC$, so $d(SC, BD)=OH$. We have $OC=\dfrac{a\sqrt2}{2}$, $SC=\sqrt{a^2+2a^2}=a\sqrt3$ and $\sin\angle SCA=\dfrac{SA}{SC}=\dfrac{1}{\sqrt3}$:
+
+$$OH=\frac{a\sqrt2}{2}\cdot\frac{1}{\sqrt3}=\frac{a\sqrt6}{6}.$$
+
+**Answer.** $d(SC, BD)=\dfrac{a\sqrt6}{6}$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Khối lăng trụ $ABC.A'B'C'$ có thể tích bằng $30$. Gọi $M$ là trung điểm của cạnh $CC'$. Cắt bỏ khối chóp $M.ABC$ khỏi khối lăng trụ. Tính thể tích phần còn lại.
+
+[LỜI GIẢI CŨ – VI]
+$d(M, (ABC))=\dfrac12 d(C', (ABC))=\dfrac h2$, nên $V_{M.ABC}=\dfrac13\cdot B\cdot\dfrac h2=\dfrac{V}{6}=5$. Phần còn lại có thể tích $30-5=25$.
+
+**Đáp số.** $25$.
+
+[ĐỀ – EN]
+The prism $ABC.A'B'C'$ has volume $30$. Let $M$ be the midpoint of the edge $CC'$. The pyramid $M.ABC$ is cut away from the prism. Find the volume of what remains.
+
+[LỜI GIẢI CŨ – EN]
+$d(M, (ABC))=\dfrac12 d(C', (ABC))=\dfrac h2$, so $V_{M.ABC}=\dfrac13\cdot B\cdot\dfrac h2=\dfrac{V}{6}=5$. What remains has volume $30-5=25$.
+
+**Answer.** $25$.
+
+
+######################################################################
+@@@ g12/review-statistics-probability
+Bài học: Ôn tập: thống kê và xác suất / Revision: statistics and probability
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Thời gian chờ (phút) của $10$ khách hàng được ghép nhóm: nhóm $[0; 4)$ có $3$ người, nhóm $[4; 8)$ có $5$ người, nhóm $[8; 12)$ có $2$ người. Số trung bình của mẫu số liệu là
+
+**A.** $5{,}6$. **B.** $6$. **C.** $18{,}67$. **D.** $3{,}6$.
+
+[LỜI GIẢI CŨ – VI]
+$\bar x=\dfrac{3\cdot2+5\cdot6+2\cdot10}{10}=\dfrac{56}{10}=5{,}6$. Phương án B là trung bình của ba giá trị đại diện, phương án C chia cho $3$ thay vì $10$, phương án D dùng đầu mút trái.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+The waiting times (minutes) of $10$ customers are grouped: the class $[0, 4)$ has $3$ people, $[4, 8)$ has $5$ people and $[8, 12)$ has $2$ people. The mean of the data is
+
+**A.** $5.6$. **B.** $6$. **C.** $18.67$. **D.** $3.6$.
+
+[LỜI GIẢI CŨ – EN]
+$\bar x=\dfrac{3\cdot2+5\cdot6+2\cdot10}{10}=\dfrac{56}{10}=5.6$. Option B is the mean of the three midpoints, option C divides by $3$ instead of $10$, and option D uses the left endpoints.
+
+**Answer.** A.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Điểm kiểm tra của $50$ học sinh được cho trong bảng. Trung vị của mẫu số liệu (làm tròn đến hàng phần trăm) là
+
+| Điểm | $[5; 6)$ | $[6; 7)$ | $[7; 8)$ | $[8; 9)$ | $[9; 10)$ |
+|---|---|---|---|---|---|
+| Số học sinh | $4$ | $8$ | $16$ | $14$ | $8$ |
+
+**A.** $7{,}81$. **B.** $7{,}5$. **C.** $6{,}81$. **D.** $7{,}93$.
+
+[LỜI GIẢI CŨ – VI]
+$M_e=7+\dfrac{25-12}{16}\cdot1=7{,}8125\approx7{,}81$. Phương án C lấy $C=28$ (gồm cả nhóm chứa trung vị), phương án D dùng nhầm tần số $14$ của nhóm sau, phương án B chỉ là trung điểm nhóm.
+
+**Đáp số.** A.
+
+[ĐỀ – EN]
+The test marks of $50$ students are given in the table. The median of the data (to 2 decimal places) is
+
+| Mark | $[5, 6)$ | $[6, 7)$ | $[7, 8)$ | $[8, 9)$ | $[9, 10)$ |
+|---|---|---|---|---|---|
+| Number of students | $4$ | $8$ | $16$ | $14$ | $8$ |
+
+**A.** $7.81$. **B.** $7.5$. **C.** $6.81$. **D.** $7.93$.
+
+[LỜI GIẢI CŨ – EN]
+$M_e=7+\dfrac{25-12}{16}\cdot1=7.8125\approx7.81$. Option C takes $C=28$ (including the median class), option D uses the frequency $14$ of the next class, and option B is just the midpoint of the class.
+
+**Answer.** A.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cân nặng (kg) của $20$ học sinh: nhóm $[45; 50)$ có $5$ bạn, nhóm $[50; 55)$ có $10$ bạn, nhóm $[55; 60)$ có $5$ bạn.
+
+a) Mốt của mẫu số liệu thuộc nhóm $[55; 60)$.
+
+b) Tứ phân vị thứ nhất $Q_1=50$.
+
+c) Phương sai của mẫu số liệu bằng $12{,}5$.
+
+d) Độ lệch chuẩn của mẫu số liệu bằng $12{,}5$ kg.
+
+[LỜI GIẢI CŨ – VI]
+a) **Sai.** Nhóm có tần số lớn nhất là $[50; 55)$.
+
+b) **Đúng.** Nhóm đầu tiên có tần số tích luỹ $\ge5$ là $[45; 50)$: $Q_1=45+\dfrac{5-0}{5}\cdot5=50$.
+
+c) **Đúng.** $s^2=\dfrac{5\cdot(-5)^2+10\cdot0^2+5\cdot5^2}{20}=\dfrac{250}{20}=12{,}5$.
+
+d) **Sai.** $s=\sqrt{12{,}5}\approx3{,}54$ kg.
+
+**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+The masses (kg) of $20$ students: the class $[45, 50)$ has $5$ students, $[50, 55)$ has $10$ and $[55, 60)$ has $5$.
+
+a) The mode of the data lies in the class $[55, 60)$.
+
+b) The lower quartile is $Q_1=50$.
+
+c) The variance of the data is $12.5$.
+
+d) The standard deviation of the data is $12.5$ kg.
+
+[LỜI GIẢI CŨ – EN]
+a) **False.** The class with the highest frequency is $[50, 55)$.
+
+b) **True.** The first class with cumulative frequency $\ge5$ is $[45, 50)$: $Q_1=45+\dfrac{5-0}{5}\cdot5=50$.
+
+c) **True.** $s^2=\dfrac{5\cdot(-5)^2+10\cdot0^2+5\cdot5^2}{20}=\dfrac{250}{20}=12.5$.
+
+d) **False.** $s=\sqrt{12.5}\approx3.54$ kg.
+
+**Answer.** a) False; b) True; c) True; d) False.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính khoảng tứ phân vị của mẫu số liệu ghép nhóm sau (làm tròn kết quả đến hàng phần mười).
+
+| Nhóm | $[0; 10)$ | $[10; 20)$ | $[20; 30)$ | $[30; 40)$ |
+|---|---|---|---|---|
+| Tần số | $5$ | $12$ | $15$ | $8$ |
+
+[LỜI GIẢI CŨ – VI]
+$$Q_1=10+\frac{10-5}{12}\cdot10=\frac{85}{6}\approx14{,}17,\qquad Q_3=20+\frac{30-17}{15}\cdot10=\frac{86}{3}\approx28{,}67.$$
+
+Để tránh sai số làm tròn, ta trừ hai phân số: $\Delta_Q=\dfrac{86}{3}-\dfrac{85}{6}=\dfrac{87}{6}=14{,}5$.
+
+**Đáp số.** $14{,}5$.
+
+[ĐỀ – EN]
+Find the interquartile range of the following grouped data (to 1 decimal place).
+
+| Class | $[0, 10)$ | $[10, 20)$ | $[20, 30)$ | $[30, 40)$ |
+|---|---|---|---|---|
+| Frequency | $5$ | $12$ | $15$ | $8$ |
+
+[LỜI GIẢI CŨ – EN]
+$$Q_1=10+\frac{10-5}{12}\cdot10=\frac{85}{6}\approx14.17,\qquad Q_3=20+\frac{30-17}{15}\cdot10=\frac{86}{3}\approx28.67.$$
+
+To avoid rounding errors, we subtract the fractions: $\Delta_Q=\dfrac{86}{3}-\dfrac{85}{6}=\dfrac{87}{6}=14.5$.
+
+**Answer.** $14.5$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho hai biến cố độc lập $A$, $B$ với $P(A)=0{,}4$ và $P(B)=0{,}5$. Xác suất $P(A\cup B)$ bằng
+
+**A.** $0{,}9$. **B.** $0{,}2$. **C.** $0{,}7$. **D.** $0{,}3$.
+
+[LỜI GIẢI CŨ – VI]
+$P(A\cap B)=0{,}2$, nên $P(A\cup B)=0{,}4+0{,}5-0{,}2=0{,}7$. Phương án A coi $A$, $B$ xung khắc; phương án B là $P(A\cap B)$; phương án D là $1-0{,}7$.
+
+**Đáp số.** C.
+
+[ĐỀ – EN]
+$A$ and $B$ are independent events with $P(A)=0.4$ and $P(B)=0.5$. The probability $P(A\cup B)$ is
+
+**A.** $0.9$. **B.** $0.2$. **C.** $0.7$. **D.** $0.3$.
+
+[LỜI GIẢI CŨ – EN]
+$P(A\cap B)=0.2$, so $P(A\cup B)=0.4+0.5-0.2=0.7$. Option A treats $A$, $B$ as mutually exclusive; option B is $P(A\cap B)$; option D is $1-0.7$.
+
+**Answer.** C.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một hộp có $10$ tấm thẻ, trong đó có $4$ thẻ đỏ. Lấy lần lượt hai thẻ, không hoàn lại. Tính xác suất cả hai thẻ đều đỏ (làm tròn kết quả đến hàng phần trăm).
+
+[LỜI GIẢI CŨ – VI]
+$P=\dfrac{4}{10}\cdot\dfrac39=\dfrac{2}{15}\approx0{,}133$.
+
+**Đáp số.** $0{,}13$.
+
+[ĐỀ – EN]
+A box holds $10$ cards, $4$ of which are red. Two cards are taken one after the other, without replacement. Find the probability that both cards are red (to 2 decimal places).
+
+[LỜI GIẢI CŨ – EN]
+$P=\dfrac{4}{10}\cdot\dfrac39=\dfrac{2}{15}\approx0.133$.
+
+**Answer.** $0.13$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Trong hộp thư của một công ty, $30\%$ số thư là thư rác. Bộ lọc đánh dấu "rác" cho $90\%$ thư rác và cho $5\%$ thư bình thường. Một thư bị đánh dấu "rác". Tính xác suất thư đó thật sự là thư rác (làm tròn kết quả đến hàng phần trăm).
+
+[LỜI GIẢI CŨ – VI]
+$P(\text{đánh dấu})=0{,}27+0{,}035=0{,}305$, nên $P(\text{rác}\mid\text{đánh dấu})=\dfrac{0{,}27}{0{,}305}\approx0{,}885$.
+
+**Đáp số.** $0{,}89$.
+
+[ĐỀ – EN]
+In a company's inbox, $30\%$ of the emails are spam. A filter marks $90\%$ of spam emails as "spam" and also $5\%$ of normal emails. An email is marked "spam". Find the probability that it really is spam (to 2 decimal places).
+
+[LỜI GIẢI CŨ – EN]
+$P(\text{marked})=0.27+0.035=0.305$, so $P(\text{spam}\mid\text{marked})=\dfrac{0.27}{0.305}\approx0.885$.
+
+**Answer.** $0.89$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Ở một thành phố, xác suất một ngày có mưa là $0{,}3$. Nếu trời mưa, xác suất bạn Minh đi học muộn là $0{,}4$; nếu không mưa, xác suất đó là $0{,}1$. Tính xác suất Minh đi học muộn vào một ngày bất kì. Biết hôm nay Minh đi học muộn, tính xác suất hôm nay trời mưa.
+
+[LỜI GIẢI CŨ – VI]
+$P(\text{muộn})=0{,}3\cdot0{,}4+0{,}7\cdot0{,}1=0{,}12+0{,}07=0{,}19$. Khi đó $P(\text{mưa}\mid\text{muộn})=\dfrac{0{,}12}{0{,}19}=\dfrac{12}{19}\approx0{,}63$.
+
+**Đáp số.** $0{,}19$ và khoảng $0{,}63$.
+
+[ĐỀ – EN]
+In a city, the probability of rain on a given day is $0.3$. If it rains, the probability that Minh is late for school is $0.4$; if it does not rain, that probability is $0.1$. Find the probability that Minh is late on a randomly chosen day. Given that Minh is late today, find the probability that it is raining today.
+
+[LỜI GIẢI CŨ – EN]
+$P(\text{late})=0.3\cdot0.4+0.7\cdot0.1=0.12+0.07=0.19$. Then $P(\text{rain}\mid\text{late})=\dfrac{0.12}{0.19}=\dfrac{12}{19}\approx0.63$.
+
+**Answer.** $0.19$ and about $0.63$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tính độ lệch chuẩn của mẫu số liệu ghép nhóm sau.
+
+| Nhóm | $[2; 4)$ | $[4; 6)$ | $[6; 8)$ | $[8; 10)$ |
+|---|---|---|---|---|
+| Tần số | $4$ | $8$ | $6$ | $2$ |
+
+[LỜI GIẢI CŨ – VI]
+$\bar x=\dfrac{12+40+42+18}{20}=5{,}6$. $\dfrac{4\cdot9+8\cdot25+6\cdot49+2\cdot81}{20}=\dfrac{692}{20}=34{,}6$, nên $s^2=34{,}6-31{,}36=3{,}24$ và $s=1{,}8$.
+
+**Đáp số.** $1{,}8$.
+
+[ĐỀ – EN]
+Find the standard deviation of the following grouped data.
+
+| Class | $[2, 4)$ | $[4, 6)$ | $[6, 8)$ | $[8, 10)$ |
+|---|---|---|---|---|
+| Frequency | $4$ | $8$ | $6$ | $2$ |
+
+[LỜI GIẢI CŨ – EN]
+$\bar x=\dfrac{12+40+42+18}{20}=5.6$. $\dfrac{4\cdot9+8\cdot25+6\cdot49+2\cdot81}{20}=\dfrac{692}{20}=34.6$, so $s^2=34.6-31.36=3.24$ and $s=1.8$.
+
+**Answer.** $1.8$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một cửa hàng nhập linh kiện từ ba nhà cung cấp X, Y, Z với tỉ lệ $50\%$, $30\%$, $20\%$. Tỉ lệ linh kiện lỗi của X, Y, Z lần lượt là $1\%$, $2\%$, $3\%$. Chọn ngẫu nhiên một linh kiện thì thấy bị lỗi. Tính xác suất linh kiện đó do Z cung cấp (làm tròn kết quả đến hàng phần trăm).
+
+[LỜI GIẢI CŨ – VI]
+$P(\text{lỗi})=0{,}5\cdot0{,}01+0{,}3\cdot0{,}02+0{,}2\cdot0{,}03=0{,}005+0{,}006+0{,}006=0{,}017$. Khi đó $P(Z\mid\text{lỗi})=\dfrac{0{,}006}{0{,}017}\approx0{,}353$.
+
+**Đáp số.** $0{,}35$.
+
+[ĐỀ – EN]
+A shop buys components from three suppliers X, Y, Z in the proportions $50\%$, $30\%$, $20\%$. The defect rates of X, Y, Z are $1\%$, $2\%$, $3\%$ respectively. A component chosen at random is found to be faulty. Find the probability that it came from Z (to 2 decimal places).
+
+[LỜI GIẢI CŨ – EN]
+$P(\text{faulty})=0.5\cdot0.01+0.3\cdot0.02+0.2\cdot0.03=0.005+0.006+0.006=0.017$. Then $P(Z\mid\text{faulty})=\dfrac{0.006}{0.017}\approx0.353$.
+
+**Answer.** $0.35$.
+
+
+===== HẾT GÓI GOI-L12-04 =====

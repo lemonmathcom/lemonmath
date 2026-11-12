@@ -1,0 +1,873 @@
+NÂNG CẤP LỜI GIẢI LEMONMATH – GOI-ONTHI-05
+Người làm: ChatGPT. Gói này có 45 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/data/NC-ChatGPT-GOI-ONTHI-05.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/data/NC-ChatGPT-GOI-ONTHI-05.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG GÓI NÀY =====
+- exams/ap-calculus/apcalc-integration-techniques (9 bài tập)
+- exams/ap-calculus/apcalc-limits-continuity (9 bài tập)
+- exams/ib-aa/ibaa-calculus (9 bài tập)
+- exams/ib-aa/ibaa-functions (9 bài tập)
+- exams/ib-aa/ibaa-geometry-trigonometry (9 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ exams/ap-calculus/apcalc-integration-techniques
+Bài học: Kĩ thuật tính tích phân / Integration techniques
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Nguyên hàm $\displaystyle\int e^{3x}\,dx$ bằng
+A. $3e^{3x}+C$
+B. $e^{3x}+C$
+C. $\dfrac{e^{3x}}{3}+C$
+D. $\dfrac{e^{3x+1}}{3x+1}+C$
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac13\displaystyle\int e^u\,du=\dfrac{e^{3x}}{3}+C$: đáp án **C**. Phương án D coi $e^{3x}$ như một luỹ thừa của $x$.
+
+[ĐỀ – EN]
+What is $\displaystyle\int e^{3x}\,dx$?
+A. $3e^{3x}+C$
+B. $e^{3x}+C$
+C. $\dfrac{e^{3x}}{3}+C$
+D. $\dfrac{e^{3x+1}}{3x+1}+C$
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac13\displaystyle\int e^u\,du=\dfrac{e^{3x}}{3}+C$: answer **C**. Option D treats $e^{3x}$ like a power of $x$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm $\displaystyle\int\frac{\ln x}{x}\,dx$.
+
+[LỜI GIẢI CŨ – VI]
+$\displaystyle\int u\,du=\dfrac{u^2}{2}+C=\dfrac{(\ln x)^2}{2}+C$.
+
+[ĐỀ – EN]
+Find $\displaystyle\int\frac{\ln x}{x}\,dx$.
+
+[LỜI GIẢI CŨ – EN]
+$\displaystyle\int u\,du=\dfrac{u^2}{2}+C=\dfrac{(\ln x)^2}{2}+C$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $\displaystyle\int_0^{\pi/2}\cos x\,e^{\sin x}\,dx$.
+
+[LỜI GIẢI CŨ – VI]
+$\displaystyle\int_0^1e^u\,du=e-1$.
+
+[ĐỀ – EN]
+Evaluate $\displaystyle\int_0^{\pi/2}\cos x\,e^{\sin x}\,dx$.
+
+[LỜI GIẢI CŨ – EN]
+$\displaystyle\int_0^1e^u\,du=e-1$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tích phân $\displaystyle\int_0^2\frac{x}{x^2+1}\,dx$ bằng
+A. $\dfrac{\ln5}{2}$
+B. $\ln5$
+C. $2\ln5$
+D. $\dfrac{\ln3}{2}$
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac12\Big[\ln u\Big]_1^5=\dfrac{\ln5}{2}$: đáp án **A**.
+
+[ĐỀ – EN]
+What is $\displaystyle\int_0^2\frac{x}{x^2+1}\,dx$?
+A. $\dfrac{\ln5}{2}$
+B. $\ln5$
+C. $2\ln5$
+D. $\dfrac{\ln3}{2}$
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac12\Big[\ln u\Big]_1^5=\dfrac{\ln5}{2}$: answer **A**.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tìm $\displaystyle\int x\cos x\,dx$.
+
+[LỜI GIẢI CŨ – VI]
+$x\sin x+\cos x+C$. Kiểm tra: đạo hàm bằng $\sin x+x\cos x-\sin x=x\cos x$.
+
+[ĐỀ – EN]
+Find $\displaystyle\int x\cos x\,dx$.
+
+[LỜI GIẢI CŨ – EN]
+$x\sin x+\cos x+C$. Check: the derivative is $\sin x+x\cos x-\sin x=x\cos x$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Nước chảy vào bể với tốc độ $r(t)=\dfrac{20t}{t^2+1}$ lít mỗi phút. Từ $t=0$ đến $t=3$ phút có bao nhiêu nước chảy vào bể? Cho giá trị đúng và giá trị thập phân.
+
+[LỜI GIẢI CŨ – VI]
+$10\displaystyle\int_1^{10}\frac{du}{u}=10\ln10\approx23{,}026$ lít.
+
+[ĐỀ – EN]
+Water flows into a tank at a rate of $r(t)=\dfrac{20t}{t^2+1}$ liters per minute. How much water enters the tank from $t=0$ to $t=3$ minutes? Give an exact value and a decimal.
+
+[LỜI GIẢI CŨ – EN]
+$10\displaystyle\int_1^{10}\frac{du}{u}=10\ln10\approx23.026$ liters.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Tìm $\displaystyle\int\frac{dx}{x^2-4x+13}$.
+
+[LỜI GIẢI CŨ – VI]
+Với $u=x-2$ và $a=3$: $\dfrac13\arctan\dfrac{x-2}{3}+C$.
+
+[ĐỀ – EN]
+Find $\displaystyle\int\frac{dx}{x^2-4x+13}$.
+
+[LỜI GIẢI CŨ – EN]
+With $u=x-2$ and $a=3$: $\dfrac13\arctan\dfrac{x-2}{3}+C$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tính $\displaystyle\int_0^{\infty}xe^{-x}\,dx$.
+
+[LỜI GIẢI CŨ – VI]
+$\displaystyle\lim_{b\to\infty}\left[-xe^{-x}-e^{-x}\right]_0^b=\lim_{b\to\infty}\left(-\frac{b}{e^b}-\frac{1}{e^b}+1\right)=1$. Tích phân hội tụ về $1$.
+
+[ĐỀ – EN]
+Evaluate $\displaystyle\int_0^{\infty}xe^{-x}\,dx$.
+
+[LỜI GIẢI CŨ – EN]
+$\displaystyle\lim_{b\to\infty}\left[-xe^{-x}-e^{-x}\right]_0^b=\lim_{b\to\infty}\left(-\frac{b}{e^b}-\frac{1}{e^b}+1\right)=1$. The integral converges to $1$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Cho $\displaystyle\int_0^4f(x)\,dx=10$. Tính $\displaystyle\int_0^2f(2x)\,dx$ và $\displaystyle\int_1^3f(2x-2)\,dx$.
+
+[LỜI GIẢI CŨ – VI]
+Cả hai tích phân đều bằng $\dfrac12\displaystyle\int_0^4f(u)\,du=\dfrac12\cdot10=5$.
+
+[ĐỀ – EN]
+Given $\displaystyle\int_0^4f(x)\,dx=10$, find $\displaystyle\int_0^2f(2x)\,dx$ and $\displaystyle\int_1^3f(2x-2)\,dx$.
+
+[LỜI GIẢI CŨ – EN]
+Both integrals equal $\dfrac12\displaystyle\int_0^4f(u)\,du=\dfrac12\cdot10=5$.
+
+
+######################################################################
+@@@ exams/ap-calculus/apcalc-limits-continuity
+Bài học: Giới hạn và tính liên tục / Limits and continuity
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+$\displaystyle\lim_{x\to4}\frac{x^2-4x}{x^2-16}$ bằng
+A. $0$
+B. $\dfrac12$
+C. $1$
+D. Giới hạn không tồn tại.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{x}{x+4}\to\dfrac48=\dfrac12$: đáp án **B**.
+
+[ĐỀ – EN]
+What is $\displaystyle\lim_{x\to4}\frac{x^2-4x}{x^2-16}$?
+A. $0$
+B. $\dfrac12$
+C. $1$
+D. The limit does not exist.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{x}{x+4}\to\dfrac48=\dfrac12$: answer **B**.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+$$g(x)=\begin{cases}x+k, & x\le1\\ 2x^2, & x>1\end{cases}$$
+Tìm $k$ để $g$ liên tục tại $x=1$, và giải thích.
+
+[LỜI GIẢI CŨ – VI]
+$g$ liên tục tại $1$ khi $\displaystyle\lim_{x\to1^-}g(x)=\lim_{x\to1^+}g(x)=g(1)$, tức là $1+k=2$, nên $k=1$.
+
+[ĐỀ – EN]
+$$g(x)=\begin{cases}x+k, & x\le1\\ 2x^2, & x>1\end{cases}$$
+Find $k$ so that $g$ is continuous at $x=1$, and justify.
+
+[LỜI GIẢI CŨ – EN]
+$g$ is continuous at $1$ when $\displaystyle\lim_{x\to1^-}g(x)=\lim_{x\to1^+}g(x)=g(1)$, that is $1+k=2$, so $k=1$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+$\displaystyle\lim_{x\to0}\frac{\sin(5x)}{2x}$ bằng
+A. $\dfrac25$
+B. $1$
+C. $\dfrac52$
+D. $5$
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac52\cdot1=\dfrac52$: đáp án **C**.
+
+[ĐỀ – EN]
+What is $\displaystyle\lim_{x\to0}\frac{\sin(5x)}{2x}$?
+A. $\dfrac25$
+B. $1$
+C. $\dfrac52$
+D. $5$
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac52\cdot1=\dfrac52$: answer **C**.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính $\displaystyle\lim_{x\to9}\frac{x-9}{\sqrt x-3}$.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{(\sqrt x-3)(\sqrt x+3)}{\sqrt x-3}=\sqrt x+3\to6$.
+
+[ĐỀ – EN]
+Evaluate $\displaystyle\lim_{x\to9}\frac{x-9}{\sqrt x-3}$.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{(\sqrt x-3)(\sqrt x+3)}{\sqrt x-3}=\sqrt x+3\to6$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+$\displaystyle\lim_{x\to\infty}\frac{4x^3+1}{2x^3-x}$ bằng
+A. $0$
+B. $2$
+C. $4$
+D. $\infty$
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac42=2$: đáp án **B**.
+
+[ĐỀ – EN]
+What is $\displaystyle\lim_{x\to\infty}\frac{4x^3+1}{2x^3-x}$?
+A. $0$
+B. $2$
+C. $4$
+D. $\infty$
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac42=2$: answer **B**.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tìm mọi tiệm cận đứng và điểm khuyết của đồ thị $y=\dfrac{x+1}{x^2-1}$.
+
+[LỜI GIẢI CŨ – VI]
+Với $x\ne\pm1$, $y=\dfrac{1}{x-1}$. Vậy $x=1$ là tiệm cận đứng, còn tại $x=-1$ đồ thị bị khuyết tại điểm $\left(-1; -\dfrac12\right)$.
+
+[ĐỀ – EN]
+Find all vertical asymptotes and holes of the graph of $y=\dfrac{x+1}{x^2-1}$.
+
+[LỜI GIẢI CŨ – EN]
+For $x\ne\pm1$, $y=\dfrac{1}{x-1}$. So $x=1$ is a vertical asymptote, and at $x=-1$ there is a hole at $\left(-1, -\dfrac12\right)$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Chứng minh phương trình $x^3+x-1=0$ có một nghiệm nằm giữa $0$ và $1$.
+
+[LỜI GIẢI CŨ – VI]
+$f$ là đa thức nên liên tục trên $[0; 1]$. $f(0)=-1<0$ và $f(1)=1>0$. Theo IVT tồn tại $c$ thuộc $(0; 1)$ sao cho $f(c)=0$. (Máy tính cho $c\approx0{,}682$.)
+
+[ĐỀ – EN]
+Show that the equation $x^3+x-1=0$ has a solution between $0$ and $1$.
+
+[LỜI GIẢI CŨ – EN]
+$f$ is a polynomial, so it is continuous on $[0, 1]$. $f(0)=-1<0$ and $f(1)=1>0$. By the IVT there is $c$ in $(0, 1)$ with $f(c)=0$. (A calculator gives $c\approx0.682$.)
+
+=== Bài 8 ===
+[ĐỀ – VI]
+$\displaystyle\lim_{x\to0}\frac{|x|}{x}$ có tồn tại không? Giải thích bằng giới hạn một bên.
+
+[LỜI GIẢI CŨ – VI]
+Khi $x>0$ biểu thức bằng $1$; khi $x<0$ biểu thức bằng $-1$. Hai giới hạn một bên là $1$ và $-1$, khác nhau, nên giới hạn không tồn tại: đồ thị có bước nhảy tại $0$.
+
+[ĐỀ – EN]
+Does $\displaystyle\lim_{x\to0}\frac{|x|}{x}$ exist? Explain using one-sided limits.
+
+[LỜI GIẢI CŨ – EN]
+For $x>0$ the expression equals $1$; for $x<0$ it equals $-1$. The one-sided limits are $1$ and $-1$, which are different, so the limit does not exist: the graph has a jump at $0$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+$$f(x)=\begin{cases}x^2, & x<1\\ ax+b, & 1\le x\le3\\ 12-x, & x>3\end{cases}$$
+Tìm $a$ và $b$ để $f$ liên tục trên toàn bộ tập số thực.
+
+[LỜI GIẢI CŨ – VI]
+Trừ hai phương trình: $2a=8$, nên $a=4$ và $b=-3$. Kiểm tra: tại $x=1$ hai vế đều bằng $1$; tại $x=3$ đều bằng $9$.
+
+[ĐỀ – EN]
+$$f(x)=\begin{cases}x^2, & x<1\\ ax+b, & 1\le x\le3\\ 12-x, & x>3\end{cases}$$
+Find $a$ and $b$ so that $f$ is continuous for all real numbers.
+
+[LỜI GIẢI CŨ – EN]
+Subtracting: $2a=8$, so $a=4$ and $b=-3$. Check: at $x=1$ both sides give $1$; at $x=3$ both give $9$.
+
+
+######################################################################
+@@@ exams/ib-aa/ibaa-calculus
+Bài học: Giải tích: đạo hàm, tích phân, động học / Calculus: differentiation, integration, kinematics
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho $f(x)=\dfrac{e^x}{x+1}$, $x\ne-1$. Chứng minh $f'(x)=\dfrac{xe^x}{(x+1)^2}$. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$f'(x)=\dfrac{e^x(x+1)-e^x\cdot1}{(x+1)^2}=\dfrac{xe^x}{(x+1)^2}$.
+
+[ĐỀ – EN]
+Let $f(x)=\dfrac{e^x}{x+1}$, $x\ne-1$. Show that $f'(x)=\dfrac{xe^x}{(x+1)^2}$. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$f'(x)=\dfrac{e^x(x+1)-e^x\cdot1}{(x+1)^2}=\dfrac{xe^x}{(x+1)^2}$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết phương trình tiếp tuyến của $y=\ln(2x)$ tại $x=\dfrac12$. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+Hệ số góc bằng $2$, nên $y=2\left(x-\dfrac12\right)=2x-1$.
+
+[ĐỀ – EN]
+Find the equation of the tangent to $y=\ln(2x)$ at $x=\dfrac12$. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+The gradient is $2$, so $y=2\left(x-\dfrac12\right)=2x-1$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho $f(x)=x^4-4x^3$. Tìm các điểm dừng và xác định tính chất của chúng. [6 marks]
+
+[LỜI GIẢI CŨ – VI]
+$f'(x)=0$ tại $x=0$ và $x=3$. Quanh $x=0$, $f'$ âm ở cả hai bên: điểm uốn có tiếp tuyến nằm ngang tại $(0,0)$. Quanh $x=3$, $f'$ đổi dấu từ âm sang dương: cực tiểu tại $(3,-27)$.
+
+[ĐỀ – EN]
+Let $f(x)=x^4-4x^3$. Find the stationary points and determine their nature. [6 marks]
+
+[LỜI GIẢI CŨ – EN]
+$f'(x)=0$ at $x=0$ and $x=3$. Around $x=0$, $f'$ is negative on both sides: a stationary point of inflection at $(0,0)$. Around $x=3$, $f'$ changes from negative to positive: a minimum at $(3,-27)$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính $\displaystyle\int_1^4\left(3\sqrt x-1\right)dx$. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\left[2x^{3/2}-x\right]_1^4=(16-4)-(2-1)=11$.
+
+[ĐỀ – EN]
+Evaluate $\displaystyle\int_1^4\left(3\sqrt x-1\right)dx$. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\left[2x^{3/2}-x\right]_1^4=(16-4)-(2-1)=11$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một hạt có gia tốc $a(t)=6t$ m s⁻² và vận tốc ban đầu $-3$ m s⁻¹. Tìm thời điểm hạt dừng lại. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$v(t)=3t^2-3=0$ tại $t=1$ s ($t\ge0$).
+
+[ĐỀ – EN]
+A particle has acceleration $a(t)=6t$ m s⁻² and initial velocity $-3$ m s⁻¹. Find when it is at rest. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$v(t)=3t^2-3=0$ at $t=1$ s ($t\ge0$).
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một người nông dân có $40$ m hàng rào để rào một khu đất hình chữ nhật sát một bức tường dài, bức tường làm một cạnh. Tìm diện tích lớn nhất. [5 marks]
+
+[LỜI GIẢI CŨ – VI]
+$A'=40-4x=0$ tại $x=10$, và $A''=-4<0$. Diện tích lớn nhất là $10\cdot20=200$ m².
+
+[ĐỀ – EN]
+A farmer has $40$ m of fencing to make a rectangular enclosure against a long straight wall, which forms one side. Find the maximum area. [5 marks]
+
+[LỜI GIẢI CŨ – EN]
+$A'=40-4x=0$ at $x=10$, and $A''=-4<0$. The maximum area is $10\cdot20=200$ m².
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một lon hình trụ có nắp, thể tích $500$ cm³. Tìm bán kính để diện tích toàn phần nhỏ nhất, và tính diện tích nhỏ nhất đó. [6 marks]
+
+[LỜI GIẢI CŨ – VI]
+$r^3=\dfrac{250}{\pi}$, nên $r\approx4{,}30$ cm, và $S\approx349$ cm².
+
+[ĐỀ – EN]
+A closed cylindrical can has volume $500$ cm³. Find the radius that minimizes its surface area, and the minimum area. [6 marks]
+
+[LỜI GIẢI CŨ – EN]
+$r^3=\dfrac{250}{\pi}$, so $r\approx4.30$ cm, and $S\approx349$ cm².
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tính diện tích miền giới hạn bởi $y=\sin x$ và $y=\cos x$ với $\dfrac\pi4\le x\le\dfrac{5\pi}{4}$. [5 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\displaystyle\int_{\pi/4}^{5\pi/4}(\sin x-\cos x)\,dx=\Big[-\cos x-\sin x\Big]_{\pi/4}^{5\pi/4}=\sqrt2-\left(-\sqrt2\right)=2\sqrt2$.
+
+[ĐỀ – EN]
+Find the area enclosed by $y=\sin x$ and $y=\cos x$ for $\dfrac\pi4\le x\le\dfrac{5\pi}{4}$. [5 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\displaystyle\int_{\pi/4}^{5\pi/4}(\sin x-\cos x)\,dx=\Big[-\cos x-\sin x\Big]_{\pi/4}^{5\pi/4}=\sqrt2-\left(-\sqrt2\right)=2\sqrt2$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một hạt có vận tốc $v(t)=e^{0{,}5t}\cos t$ m s⁻¹, $0\le t\le4$. Tính độ dời và quãng đường đi được. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+Độ dời $\approx-6{,}81$ m; quãng đường $\approx9{,}51$ m. Hạt đổi chiều tại $t=\dfrac\pi2$.
+
+[ĐỀ – EN]
+A particle has velocity $v(t)=e^{0.5t}\cos t$ m s⁻¹ for $0\le t\le4$. Find its displacement and the distance traveled. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+Displacement $\approx-6.81$ m; distance $\approx9.51$ m. The particle changes direction at $t=\dfrac\pi2$.
+
+
+######################################################################
+@@@ exams/ib-aa/ibaa-functions
+Bài học: Hàm số: đồ thị, phép biến đổi, hàm ngược / Functions: graphs, transformations, inverses
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho $f(x)=\ln(5-x)$. Viết tập xác định và tập giá trị của $f$. [2 marks]
+
+[LỜI GIẢI CŨ – VI]
+Tập xác định $x<5$; tập giá trị $f(x)\in\mathbb{R}$.
+
+[ĐỀ – EN]
+Let $f(x)=\ln(5-x)$. Write down the domain and the range of $f$. [2 marks]
+
+[LỜI GIẢI CŨ – EN]
+Domain $x<5$; range $f(x)\in\mathbb{R}$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho $f(x)=x+2$ và $g(x)=3x^2$. Giải $(g\circ f)(x)=27$. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$(x+2)^2=9$, nên $x+2=\pm3$: $x=1$ hoặc $x=-5$.
+
+[ĐỀ – EN]
+Let $f(x)=x+2$ and $g(x)=3x^2$. Solve $(g\circ f)(x)=27$. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$(x+2)^2=9$, so $x+2=\pm3$: $x=1$ or $x=-5$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho $f(x)=e^{2x}-1$. Tìm $f^{-1}(x)$ và tập xác định của nó. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$x=e^{2y}-1$, nên $e^{2y}=x+1$ và $f^{-1}(x)=\dfrac12\ln(x+1)$, với tập xác định $x>-1$ (tập giá trị của $f$).
+
+[ĐỀ – EN]
+Let $f(x)=e^{2x}-1$. Find $f^{-1}(x)$ and its domain. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$x=e^{2y}-1$, so $e^{2y}=x+1$ and $f^{-1}(x)=\dfrac12\ln(x+1)$, with domain $x>-1$ (the range of $f$).
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Mô tả dãy các phép biến đổi đưa $y=x^2$ thành $y=-(x+1)^2+4$, và viết toạ độ đỉnh của đồ thị mới. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+Đối xứng qua trục $x$, rồi tịnh tiến sang trái $1$ đơn vị và lên trên $4$ đơn vị. Đỉnh là $(-1,4)$.
+
+[ĐỀ – EN]
+Describe the sequence of transformations that maps $y=x^2$ onto $y=-(x+1)^2+4$, and write down the vertex of the new graph. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+A reflection in the $x$-axis, then a translation by $1$ unit left and $4$ units up. The vertex is $(-1,4)$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tìm các giá trị của $k$ để $kx^2+4x+1=0$ có hai nghiệm thực phân biệt. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$16-4k>0$, nên $k<4$, với $k\ne0$.
+
+[ĐỀ – EN]
+Find the values of $k$ for which $kx^2+4x+1=0$ has two distinct real roots. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$16-4k>0$, so $k<4$, with $k\ne0$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một quả bóng được ném lên, độ cao tính bằng mét sau $t$ giây là $h(t)=-4{,}9t^2+19{,}6t+1{,}5$.
+(a) Tìm độ cao lớn nhất. [3 marks]
+(b) Tìm thời điểm bóng chạm đất. [2 marks]
+
+[LỜI GIẢI CŨ – VI]
+(a) $t=\dfrac{19{,}6}{9{,}8}=2$, và $h(2)=21{,}1$ mét.
+
+(b) $h(t)=0$ khi $t\approx4{,}08$ giây (nghiệm còn lại âm).
+
+[ĐỀ – EN]
+A ball is thrown upward, and its height in meters after $t$ seconds is $h(t)=-4.9t^2+19.6t+1.5$.
+(a) Find the maximum height. [3 marks]
+(b) Find the time when the ball hits the ground. [2 marks]
+
+[LỜI GIẢI CŨ – EN]
+(a) $t=\dfrac{19.6}{9.8}=2$, and $h(2)=21.1$ meters.
+
+(b) $h(t)=0$ when $t\approx4.08$ seconds (the other root is negative).
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Nhiệt độ của một cốc nước, tính bằng độ C, sau $t$ phút kể từ khi rót là $T(t)=20+70e^{-0{,}05t}$.
+(a) Viết phương trình tiệm cận ngang của đồ thị $T$ và giải thích ý nghĩa. [2 marks]
+(b) Tìm thời điểm nhiệt độ bằng $50$ độ C. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+(a) $T=20$: về lâu dài, cốc nước tiến tới nhiệt độ phòng $20$ độ C.
+
+(b) $e^{-0{,}05t}=\dfrac37$, nên $t=\dfrac{\ln(7/3)}{0{,}05}\approx16{,}9$ phút.
+
+[ĐỀ – EN]
+The temperature of a drink, in degrees Celsius, $t$ minutes after it is poured is $T(t)=20+70e^{-0.05t}$.
+(a) Write down the equation of the horizontal asymptote of the graph of $T$ and interpret it. [2 marks]
+(b) Find the time when the temperature is $50$ degrees Celsius. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+(a) $T=20$: in the long run, the drink approaches the room temperature of $20$ degrees Celsius.
+
+(b) $e^{-0.05t}=\dfrac37$, so $t=\dfrac{\ln(7/3)}{0.05}\approx16.9$ minutes.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cho $f(x)=\dfrac{x+2}{x-1}$, $x\ne1$. Chứng minh $f^{-1}(x)=f(x)$. Điều này cho biết gì về đồ thị của $f$? [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$x=\dfrac{y+2}{y-1}$ cho $xy-x=y+2$, nên $y(x-1)=x+2$ và $f^{-1}(x)=\dfrac{x+2}{x-1}=f(x)$. Đồ thị của $f$ đối xứng qua đường thẳng $y=x$.
+
+[ĐỀ – EN]
+Let $f(x)=\dfrac{x+2}{x-1}$, $x\ne1$. Show that $f^{-1}(x)=f(x)$. What does this tell you about the graph of $f$? [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$x=\dfrac{y+2}{y-1}$ gives $xy-x=y+2$, so $y(x-1)=x+2$ and $f^{-1}(x)=\dfrac{x+2}{x-1}=f(x)$. The graph of $f$ is symmetric about the line $y=x$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm các giá trị của $k$ để đường thẳng $y=kx$ tiếp xúc với đường cong $y=x^2+1$. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$x^2-kx+1=0$ có $\Delta=k^2-4=0$, nên $k=\pm2$.
+
+[ĐỀ – EN]
+Find the values of $k$ for which the line $y=kx$ is tangent to the curve $y=x^2+1$. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$x^2-kx+1=0$ has $\Delta=k^2-4=0$, so $k=\pm2$.
+
+
+######################################################################
+@@@ exams/ib-aa/ibaa-geometry-trigonometry
+Bài học: Hình học và lượng giác / Geometry and trigonometry
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một hình cầu có thể tích $36\pi$ cm³. Tìm bán kính và diện tích mặt cầu. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac43r^3=36$, nên $r^3=27$ và $r=3$ cm. $S=4\pi(9)=36\pi$ cm².
+
+[ĐỀ – EN]
+A sphere has volume $36\pi$ cm³. Find its radius and its surface area. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac43r^3=36$, so $r^3=27$ and $r=3$ cm. $S=4\pi(9)=36\pi$ cm².
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Một tam giác có các cạnh $5$, $7$ và $8$. Tìm góc đối diện cạnh dài $7$. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\cos C=\dfrac{25+64-49}{2(5)(8)}=\dfrac{40}{80}=\dfrac12$, nên góc đó bằng $60^\circ$.
+
+[ĐỀ – EN]
+A triangle has sides $5$, $7$ and $8$. Find the angle opposite the side of length $7$. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\cos C=\dfrac{25+64-49}{2(5)(8)}=\dfrac{40}{80}=\dfrac12$, so the angle is $60^\circ$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Một hình quạt có bán kính $6$ cm và góc $\dfrac\pi3$. Tìm chu vi chính xác của nó. [3 marks]
+
+[LỜI GIẢI CŨ – VI]
+$l=6\cdot\dfrac\pi3=2\pi$, nên chu vi là $12+2\pi$ cm.
+
+[ĐỀ – EN]
+A sector has radius $6$ cm and angle $\dfrac\pi3$. Find its exact perimeter. [3 marks]
+
+[LỜI GIẢI CŨ – EN]
+$l=6\cdot\dfrac\pi3=2\pi$, so the perimeter is $12+2\pi$ cm.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho $\cos\theta=-\dfrac{5}{13}$ và $\pi<\theta<\dfrac{3\pi}{2}$. Tìm giá trị chính xác của $\sin\theta$ và $\tan\theta$. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\sin\theta=-\sqrt{1-\dfrac{25}{169}}=-\dfrac{12}{13}$, và $\tan\theta=\dfrac{-12/13}{-5/13}=\dfrac{12}{5}$.
+
+[ĐỀ – EN]
+Given $\cos\theta=-\dfrac{5}{13}$ and $\pi<\theta<\dfrac{3\pi}{2}$, find the exact values of $\sin\theta$ and $\tan\theta$. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\sin\theta=-\sqrt{1-\dfrac{25}{169}}=-\dfrac{12}{13}$, and $\tan\theta=\dfrac{-12/13}{-5/13}=\dfrac{12}{5}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giải $\sin2x=\sin x$ với $0\le x\le\pi$. [5 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\sin x=0$ cho $x=0$ hoặc $x=\pi$; $\cos x=\dfrac12$ cho $x=\dfrac\pi3$. Các nghiệm là $0$, $\dfrac\pi3$, $\pi$.
+
+[ĐỀ – EN]
+Solve $\sin2x=\sin x$ for $0\le x\le\pi$. [5 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\sin x=0$ gives $x=0$ or $x=\pi$; $\cos x=\dfrac12$ gives $x=\dfrac\pi3$. The solutions are $0$, $\dfrac\pi3$, $\pi$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Với vòng đu quay ở trên, $h(t)=12-10\cos\left(\dfrac{\pi t}{15}\right)$. Tìm thời điểm đầu tiên ghế ở độ cao $17$ mét. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{\pi t}{15}=\dfrac{2\pi}{3}$, nên $t=10$ giây.
+
+[ĐỀ – EN]
+For the Ferris wheel above, $h(t)=12-10\cos\left(\dfrac{\pi t}{15}\right)$. Find the first time at which the seat is $17$ meters above the ground. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{\pi t}{15}=\dfrac{2\pi}{3}$, so $t=10$ seconds.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một con tàu đi $12$ km theo phương vị $060^\circ$, rồi đi $8$ km theo phương vị $150^\circ$. Tính khoảng cách từ tàu đến điểm xuất phát. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+$\sqrt{12^2+8^2}=\sqrt{208}\approx14{,}4$ km.
+
+[ĐỀ – EN]
+A ship sails $12$ km on a bearing of $060^\circ$, then $8$ km on a bearing of $150^\circ$. Find its distance from the starting point. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+$\sqrt{12^2+8^2}=\sqrt{208}\approx14.4$ km.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Từ một điểm cách chân tháp $50$ m trên mặt đất bằng phẳng, góc nâng tới đỉnh tháp là $32^\circ$. Tính chiều cao của tháp. [2 marks]
+
+[LỜI GIẢI CŨ – VI]
+$h=50\tan32^\circ\approx31{,}2$ m.
+
+[ĐỀ – EN]
+From a point $50$ m from the foot of a tower, on level ground, the angle of elevation of the top is $32^\circ$. Find the height of the tower. [2 marks]
+
+[LỜI GIẢI CŨ – EN]
+$h=50\tan32^\circ\approx31.2$ m.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Chứng minh $\dfrac{1-\cos2x}{\sin2x}=\tan x$ với $\sin2x\ne0$. [4 marks]
+
+[LỜI GIẢI CŨ – VI]
+VT $=\dfrac{1-\left(1-2\sin^2x\right)}{2\sin x\cos x}=\dfrac{2\sin^2x}{2\sin x\cos x}=\dfrac{\sin x}{\cos x}=\tan x=$ VP.
+
+[ĐỀ – EN]
+Show that $\dfrac{1-\cos2x}{\sin2x}=\tan x$ for $\sin2x\ne0$. [4 marks]
+
+[LỜI GIẢI CŨ – EN]
+LHS $=\dfrac{1-\left(1-2\sin^2x\right)}{2\sin x\cos x}=\dfrac{2\sin^2x}{2\sin x\cos x}=\dfrac{\sin x}{\cos x}=\tan x=$ RHS.
+
+
+===== HẾT GÓI GOI-ONTHI-05 =====
