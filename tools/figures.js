@@ -428,7 +428,7 @@ function diagram(body, o) {
   // points on top
   names.forEach((n) => {
     const P = pts[n];
-    s += '<circle class="fpt" cx="' + f(X(P.x)) + '" cy="' + f(Y(P.y)) + '" r="3.6"/>';
+    if (P.text !== '') s += '<circle class="fpt" cx="' + f(X(P.x)) + '" cy="' + f(Y(P.y)) + '" r="3.6"/>';
     if (P.text) {
       let pos = P.pos;
       if (!pos) {
