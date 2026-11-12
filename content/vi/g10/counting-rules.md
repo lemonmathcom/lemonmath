@@ -13,17 +13,17 @@ minutes: 20
 
 Thư viện trường cấp cho mỗi bạn đọc một mã thẻ gồm một chữ cái trong năm chữ $A, B, C, D, E$, theo sau là ba chữ số. Thư viện có $4\,800$ bạn đọc. Liệu có đủ mã để mỗi bạn một mã khác nhau không? Và nếu quy định ba chữ số trong mã phải khác nhau thì sao?
 
-Liệt kê hết các mã thì quá dài. Các **quy tắc đếm** giúp ta tìm ra con số bằng cách nhìn vào *cấu trúc* của việc chọn, thay vì viết ra từng khả năng. Chúng là nền tảng của hoán vị, tổ hợp và xác suất.
+Bạn có thể thử ngồi viết ra từng mã: $A000$, $A001$, $A002$, … Nhưng chỉ sau vài chục mã là đã thấy mỏi tay, mà còn dễ sót. Cách khôn hơn là nhìn vào *cách* một mã được tạo ra: chọn chữ cái trước, rồi đến từng chữ số. Các **quy tắc đếm** trong bài này giúp ta đếm theo cấu trúc ấy, không cần liệt kê. Về sau, hoán vị, tổ hợp và cả xác suất đều đứng trên hai quy tắc nhỏ này.
 
 ## Quy tắc cộng
 
-Lớp bạn được đi tham quan **một** địa điểm: hoặc một trong $3$ bảo tàng, hoặc một trong $2$ công viên. Mỗi địa điểm thuộc đúng một nhóm, nên số cách chọn là $3+2=5$. Ta chỉ đếm từng nhóm rồi cộng lại.
+Lớp bạn được đi tham quan **một** địa điểm: hoặc một trong $3$ bảo tàng, hoặc một trong $2$ công viên. Ta chỉ đi đúng một nơi, và mỗi nơi thuộc đúng một nhóm, nên số cách chọn là $3+2=5$. Đếm từng nhóm, rồi cộng lại, thế thôi.
 
 :::definition Quy tắc cộng
 Nếu một công việc có thể làm theo một trong hai phương án **không có lựa chọn chung**, phương án thứ nhất có $m$ cách và phương án thứ hai có $n$ cách, thì công việc đó có $m+n$ cách thực hiện. Với nhiều phương án hơn cũng vậy: cộng các số lại.
 :::
 
-Dấu hiệu là chữ "**hoặc**": mỗi lựa chọn thuộc đúng một nhóm.
+Khi đọc đề, bạn để ý chữ "**hoặc**": ta chỉ chọn ở nhóm này hoặc nhóm kia, và mỗi lựa chọn thuộc đúng một nhóm. Gặp tình huống ấy thì cộng.
 
 :::example Chọn một cuốn sách
 Tủ sách của lớp có $7$ truyện tranh, $5$ sách khoa học và $4$ tiểu thuyết. Có bao nhiêu cách chọn một cuốn để mượn về nhà?
@@ -37,7 +37,7 @@ Vậy có $16$ cách chọn.
 
 ## Quy tắc nhân
 
-Bây giờ ta chọn một đồ uống **và** một món ăn nhẹ. Việc chọn diễn ra qua hai bước liên tiếp: chọn đồ uống (trà hoặc nước ép), rồi với mỗi đồ uống chọn món ăn nhẹ (bánh, trái cây hoặc hạt). Sơ đồ hình cây cho thấy mọi khả năng.
+Giờ đổi tình huống một chút: ở căng-tin, bạn chọn một đồ uống **và** một món ăn nhẹ. Lần này không phải chọn một thứ nữa, mà chọn hai thứ, lần lượt: chọn đồ uống trước (trà hoặc nước ép), rồi với mỗi đồ uống chọn một món ăn nhẹ (bánh, trái cây hoặc hạt). Vẽ ra thành sơ đồ hình cây thì thấy hết mọi khả năng.
 
 :::diagram Sơ đồ hình cây: 2 đồ uống, sau đó 3 món ăn nhẹ
 alt: Một cây bắt đầu từ một điểm, tách thành hai đồ uống là trà và nước ép, mỗi đồ uống lại tách thành ba món ăn nhẹ, cho tổng cộng sáu nhánh
@@ -60,7 +60,7 @@ segment J J2
 segment J J3
 :::
 
-Đếm các đầu nhánh bên phải: $3+3=6$. Mỗi đồ uống mở ra cùng $3$ nhánh, nên ta cũng có thể viết $2\cdot3=6$.
+Đếm các đầu nhánh bên phải: $3+3=6$. Bạn để ý, đồ uống nào cũng mở ra đúng $3$ nhánh như nhau, nên thay vì cộng $3$ hai lần, ta viết gọn $2\cdot3=6$. Phép nhân xuất hiện từ đó.
 
 :::definition Quy tắc nhân
 Nếu một công việc được thực hiện qua **các bước liên tiếp**, bước 1 có $n_1$ cách, ứng với mỗi cách đó bước 2 có $n_2$ cách, ..., bước $k$ có $n_k$ cách, thì cả công việc có
@@ -68,9 +68,9 @@ $$n_1\cdot n_2\cdots n_k$$
 cách thực hiện.
 :::
 
-**Vì sao?** Trên sơ đồ hình cây, mỗi nhánh ở bước 1 tách thành $n_2$ nhánh, nên sau hai bước có $n_1$ nhóm, mỗi nhóm $n_2$ nhánh, tức $n_1\cdot n_2$ nhánh. Lặp lại cho các bước sau.
+**Vì sao lại nhân?** Nhìn lại sơ đồ hình cây: mỗi nhánh ở bước 1 tách thành $n_2$ nhánh, nên sau hai bước có $n_1$ nhóm, mỗi nhóm $n_2$ nhánh, tức $n_1\cdot n_2$ nhánh. Bước sau lại tách tiếp từng nhánh như thế, nên ta cứ nhân thêm.
 
-Dấu hiệu là chữ "**và**" (hay "rồi"): làm bước 1, **rồi** bước 2, **rồi** bước 3.
+Dấu hiệu lần này là chữ "**và**" (hay "rồi"): làm bước 1, **rồi** bước 2, **rồi** bước 3, và phải làm đủ các bước mới xong việc.
 
 :::example Chọn trang phục
 Bạn Lan có $5$ chiếc áo, $4$ chiếc quần và $2$ đôi giày. Mỗi bộ trang phục gồm một áo, một quần và một đôi giày. Lan có bao nhiêu bộ trang phục khác nhau?
@@ -83,12 +83,12 @@ Vậy Lan có $40$ bộ trang phục.
 :::
 
 :::tip Cộng hay nhân?
-Hãy tự hỏi: "Ta làm việc này **hoặc** việc kia?" thì cộng. "Ta làm việc này **rồi** việc kia?" thì nhân. Nhiều bài dùng cả hai: nhân dọc theo một phương án, rồi cộng các phương án khác nhau.
+Trước khi viết phép tính, bạn tự hỏi một câu: "Ta làm việc này **hoặc** việc kia?" thì cộng. "Ta làm việc này **rồi** việc kia?" thì nhân. Nhiều bài cần cả hai: trong mỗi phương án thì nhân các bước, rồi cộng các phương án lại.
 :::
 
 ## Số, mã và lộ trình
 
-Khi có điều kiện ràng buộc, ta **điền vị trí bị ràng buộc nhiều nhất trước**, và chia trường hợp nếu số cách ở một bước phụ thuộc vào lựa chọn trước đó.
+Bài toán thật thường kèm điều kiện: chữ số đầu không được là $0$, số phải chẵn, các chữ số phải khác nhau… Lời khuyên ở đây rất đơn giản: **điền vị trí khó tính nhất trước**, vì để nó về sau thì có khi nó chẳng còn mấy lựa chọn. Còn nếu số cách ở một bước lại tuỳ vào lựa chọn trước đó, thì ta chia trường hợp mà đếm.
 
 :::example Lập số từ các chữ số cho trước
 Từ các chữ số $0, 1, 2, 3, 4, 5$ lập được bao nhiêu số có ba chữ số khác nhau? Trong đó có bao nhiêu số chẵn?
@@ -106,7 +106,7 @@ Hai trường hợp không có số chung, nên cộng lại: $20+32=52$.
 Vậy lập được $100$ số có ba chữ số khác nhau, trong đó có $52$ số chẵn.
 :::
 
-Bây giờ ta trả lời câu hỏi về mã thẻ thư viện ở đầu bài.
+Đến đây ta đã đủ đồ nghề để quay lại với thư viện ở đầu bài.
 
 :::example Mã thẻ thư viện
 Mỗi mã thẻ gồm một chữ cái trong $A, B, C, D, E$ rồi đến ba chữ số. Có bao nhiêu mã nếu các chữ số được lặp lại? Bao nhiêu mã nếu ba chữ số phải khác nhau? Mỗi cách có đủ cho $4\,800$ bạn đọc không?
@@ -124,7 +124,7 @@ $$5\cdot10\cdot9\cdot8=3\,600.$$
 Vậy có $5\,000$ mã khi được lặp chữ số, đủ cho $4\,800$ bạn đọc; nhưng chỉ có $3\,600$ mã khi ba chữ số khác nhau, không đủ.
 :::
 
-Quy tắc cộng và quy tắc nhân thường đi cùng nhau, như ở bài toán lộ trình sau.
+Trong nhiều bài, hai quy tắc không đứng riêng mà đi cùng nhau. Bài toán chọn đường đi sau là một ví dụ quen thuộc.
 
 :::example Lộ trình giữa các thị trấn
 Từ thị trấn $A$ đến thị trấn $B$ có $4$ con đường, từ $B$ đến thị trấn $C$ có $2$ con đường, ngoài ra có $3$ con đường đi thẳng từ $A$ đến $C$. Có bao nhiêu cách đi từ $A$ đến $C$?
@@ -138,7 +138,7 @@ Vậy có $11$ cách đi từ $A$ đến $C$.
 
 ## Cách đếm phần bù
 
-Đôi khi đếm những trường hợp **không** mong muốn lại dễ hơn. Nếu có tất cả $N$ khả năng, trong đó $M$ khả năng không thoả điều kiện, thì số khả năng thoả điều kiện là $N-M$.
+Có những bài đếm thẳng thì rất rối, nhưng đếm phần ngược lại thì nhẹ nhàng. Giống như muốn biết lớp có bao nhiêu bạn đã nộp bài, đôi khi đếm số bạn *chưa* nộp rồi lấy sĩ số trừ đi lại nhanh hơn. Nếu có tất cả $N$ khả năng, trong đó $M$ khả năng không thoả điều kiện, thì số khả năng thoả điều kiện là $N-M$.
 
 :::example Có ít nhất một chữ số chẵn
 Có bao nhiêu số có ba chữ số chứa ít nhất một chữ số chẵn?
@@ -158,7 +158,7 @@ Vậy có $900-125=775$ số có ba chữ số chứa ít nhất một chữ s�
 
 ## Kiểm tra bằng máy tính
 
-Một chương trình ngắn có thể kiểm tra lập luận đếm bằng cách thử hết mọi khả năng. Đây là đoạn kiểm tra cho ví dụ lập số từ các chữ số $0, 1, 2, 3, 4, 5$:
+Đếm sai là chuyện rất hay gặp, kể cả với người làm toán lâu năm. Nếu có máy tính, bạn có thể để nó thử hết mọi khả năng rồi so với kết quả của mình. Đây là đoạn kiểm tra cho ví dụ lập số từ các chữ số $0, 1, 2, 3, 4, 5$:
 
 ```python
 count = 0
@@ -173,10 +173,10 @@ print(count, even)   # 100 52
 ```
 
 :::warning Những sai lầm thường gặp
-- **Nhân khi phải cộng.** Với tủ sách $7$, $5$, $4$ cuốn, viết $7\cdot5\cdot4=140$ cách chọn **một** cuốn. Sai vì ta không chọn một cuốn ở mỗi nhóm. Đúng: $7+5+4=16$. Hãy thử với một trường hợp nhỏ liệt kê được bằng tay.
-- **Quên chữ số $0$ ở đầu.** Đếm số có ba chữ số khác nhau từ $0, \dots, 5$ là $6\cdot5\cdot4=120$. Sai vì tính cả những "số" như $012$. Đúng: $5\cdot5\cdot4=100$.
+- **Nhân khi phải cộng.** Với tủ sách $7$, $5$, $4$ cuốn, nhiều bạn viết $7\cdot5\cdot4=140$ cách chọn **một** cuốn. Sai vì ta đâu có lấy mỗi nhóm một cuốn. Đúng: $7+5+4=16$. Khi phân vân, hãy thử với một trường hợp nhỏ liệt kê được bằng tay.
+- **Quên chữ số $0$ ở đầu.** Đếm số có ba chữ số khác nhau từ $0, \dots, 5$ là $6\cdot5\cdot4=120$. Sai vì đã tính cả những "số" như $012$, mà $012$ thật ra chỉ là số có hai chữ số. Đúng: $5\cdot5\cdot4=100$.
 - **Không chia trường hợp khi cần.** Đếm số chẵn ở ví dụ trên là $5\cdot4\cdot3=60$ (hàng trăm $5$ cách, hàng chục $4$ cách, hàng đơn vị là $0$, $2$ hoặc $4$). Sai vì có thể một chữ số chẵn đã được dùng ở hàng trăm hay hàng chục, nên hàng đơn vị không phải lúc nào cũng còn $3$ cách. Đúng: chọn hàng đơn vị trước, chia hai trường hợp, được $52$.
-- **Đếm trùng.** Cộng hai nhóm có phần chung. Quy tắc cộng cần các phương án **không có lựa chọn chung**.
+- **Đếm trùng.** Cộng hai nhóm có phần chung thì phần chung bị đếm hai lần. Quy tắc cộng chỉ dùng được khi các phương án **không có lựa chọn chung**.
 :::
 
 ## Thuật ngữ
@@ -198,9 +198,11 @@ print(count, even)   # 100 52
 - Có điều kiện: điền vị trí bị ràng buộc nhiều nhất trước (chữ số đầu khác $0$, chữ số cuối chẵn, ...), chia trường hợp khi số cách thay đổi.
 - **Đếm phần bù**: số cách thoả điều kiện $=$ tất cả $-$ số cách không thoả. Rất hợp với "có ít nhất một".
 
+Nhớ lại thư viện ở đầu bài: không cần viết ra mã nào, chỉ một phép nhân $5\cdot10\cdot10\cdot10$ đã cho biết có đủ mã hay không. Đó là sức mạnh của việc đếm theo cấu trúc. Khi làm bài, bạn cứ tự hỏi "đây là *hoặc* hay là *rồi*?" trước, phần còn lại sẽ dễ hơn nhiều.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và gợi ý vài bước đầu. Bạn cứ tự làm trước, sai cũng không sao; đối chiếu với lời giải sau mới thấy mình hiểu đến đâu.
 
 :::exercise
 Căng tin có $4$ món chính, $3$ món canh và $2$ món tráng miệng. Một suất ăn gồm một món chính, một món canh và một món tráng miệng. Có bao nhiêu suất ăn khác nhau?

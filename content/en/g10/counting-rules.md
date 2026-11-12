@@ -13,17 +13,17 @@ minutes: 20
 
 The school library gives each reader a card code made of one letter from the five letters $A, B, C, D, E$, followed by three digits. The library has $4\,800$ readers. Are there enough codes for every reader to get a different one? And what if the three digits in a code must be different?
 
-Listing all the codes would take far too long. The **counting rules** let us find the number by looking at the *structure* of the choice instead of writing out every possibility. They are the foundation of permutations, combinations and probability.
+You could try writing the codes out: $A000$, $A001$, $A002$, … After a few dozen your hand is tired, and it is easy to miss some. A smarter way is to look at *how* a code is made: choose the letter first, then each digit in turn. The **counting rules** in this lesson let us count along that structure without listing anything. Later on, permutations, combinations and probability all stand on these two small rules.
 
 ## The addition rule
 
-Your class may visit **one** place: either one of $3$ museums or one of $2$ parks. Each place belongs to exactly one group, so the number of choices is $3+2=5$. We just count each group and add.
+Your class may visit **one** place: either one of $3$ museums or one of $2$ parks. You go to just one place, and each place belongs to exactly one group, so the number of choices is $3+2=5$. Count each group, then add. That is all.
 
 :::definition Addition rule
 If a task can be done by one of two options **with no choice in common**, the first option in $m$ ways and the second in $n$ ways, then the task can be done in $m+n$ ways. The same holds for more options: add the numbers.
 :::
 
-The signal is the word "**or**": each choice belongs to exactly one group.
+When you read a problem, watch for the word "**or**": we choose from this group or that one, and each choice belongs to exactly one group. In that situation, add.
 
 :::example Choosing a book
 The class bookshelf holds $7$ comics, $5$ science books and $4$ novels. In how many ways can you choose one book to borrow?
@@ -37,7 +37,7 @@ So there are $16$ ways to choose.
 
 ## The multiplication rule
 
-Now we choose a drink **and** a snack. The choice happens in two successive steps: choose a drink (tea or juice), then for each drink choose a snack (cake, fruit or nuts). A tree diagram shows every possibility.
+Now change the situation a little: at the canteen you choose a drink **and** a snack. This time you are not choosing one thing but two, one after the other: first a drink (tea or juice), then for each drink a snack (cake, fruit or nuts). Drawn as a tree diagram, every possibility is in view.
 
 :::diagram Tree diagram: 2 drinks, then 3 snacks
 alt: A tree starting at one point, splitting into two drinks, tea and juice, and each drink splitting into three snacks, giving six branches in total
@@ -60,7 +60,7 @@ segment J J2
 segment J J3
 :::
 
-Count the ends of the branches on the right: $3+3=6$. Each drink opens the same $3$ branches, so we can also write $2\cdot3=6$.
+Count the ends of the branches on the right: $3+3=6$. Notice that every drink opens exactly the same $3$ branches, so instead of adding $3$ twice we can write $2\cdot3=6$. That is where the multiplication comes from.
 
 :::definition Multiplication rule
 If a task is done in **successive steps**, step 1 in $n_1$ ways, then for each of those step 2 in $n_2$ ways, ..., step $k$ in $n_k$ ways, then the whole task can be done in
@@ -68,9 +68,9 @@ $$n_1\cdot n_2\cdots n_k$$
 ways.
 :::
 
-**Why?** On the tree diagram each branch of step 1 splits into $n_2$ branches, so after two steps there are $n_1$ groups of $n_2$ branches, that is $n_1\cdot n_2$ branches. Repeat for the later steps.
+**Why multiply?** Look at the tree again: each branch of step 1 splits into $n_2$ branches, so after two steps there are $n_1$ groups of $n_2$ branches, that is $n_1\cdot n_2$ branches. Each later step splits every branch again in the same way, so we keep multiplying.
 
-The signal is the word "**and**" (or "then"): do step 1, **then** step 2, **then** step 3.
+The signal this time is the word "**and**" (or "then"): do step 1, **then** step 2, **then** step 3, and the job is only done when every step is done.
 
 :::example Choosing an outfit
 Lan has $5$ shirts, $4$ pairs of trousers and $2$ pairs of shoes. An outfit is one shirt, one pair of trousers and one pair of shoes. How many different outfits does Lan have?
@@ -83,12 +83,12 @@ So Lan has $40$ outfits.
 :::
 
 :::tip Add or multiply?
-Ask yourself: "Do we do this **or** that?" Then add. "Do we do this **and then** that?" Then multiply. Many problems use both: multiply along one option, then add the different options.
+Before you write any calculation, ask yourself one question: "Do we do this **or** that?" Then add. "Do we do this **and then** that?" Then multiply. Many problems need both: within each option multiply the steps, then add the options.
 :::
 
 ## Numbers, codes and routes
 
-When there is a restriction, **fill the most restricted position first**, and split into cases if the number of ways at one step depends on an earlier choice.
+Real problems usually come with conditions: the first digit cannot be $0$, the number must be even, the digits must be different… The advice here is simple: **fill the fussiest position first**, because if you leave it till last it may have hardly any choices left. And if the number of ways at one step depends on an earlier choice, split into cases and count each one.
 
 :::example Making numbers from given digits
 Using the digits $0, 1, 2, 3, 4, 5$, how many three-digit numbers with distinct digits can be made? How many of them are even?
@@ -106,7 +106,7 @@ The two cases share no number, so we add: $20+32=52$.
 So $100$ three-digit numbers with distinct digits can be made, and $52$ of them are even.
 :::
 
-Now we can answer the question about the library codes from the start of the lesson.
+We now have all the tools we need to go back to the library from the start of the lesson.
 
 :::example Library card codes
 Each card code is one letter from $A, B, C, D, E$ followed by three digits. How many codes are there if digits may repeat? How many if the three digits must be different? Is each enough for $4\,800$ readers?
@@ -124,7 +124,7 @@ $$5\cdot10\cdot9\cdot8=3\,600.$$
 So there are $5\,000$ codes when digits may repeat, enough for $4\,800$ readers; but only $3\,600$ codes when the digits must be different, which is not enough.
 :::
 
-The addition and multiplication rules often work together, as in the next route problem.
+In many problems the two rules do not work alone but together. The route problem below is a familiar example.
 
 :::example Routes between towns
 There are $4$ roads from town $A$ to town $B$, $2$ roads from $B$ to town $C$, and also $3$ roads going directly from $A$ to $C$. In how many ways can you travel from $A$ to $C$?
@@ -138,7 +138,7 @@ So there are $11$ ways to travel from $A$ to $C$.
 
 ## Complementary counting
 
-Sometimes it is easier to count the cases we do **not** want. If there are $N$ possibilities in all and $M$ of them fail the condition, then $N-M$ possibilities satisfy it.
+Some problems are messy to count directly but easy to count the other way round. It is like finding how many classmates have handed in their homework: sometimes it is quicker to count those who have *not*, and take that from the class size. If there are $N$ possibilities in all and $M$ of them fail the condition, then $N-M$ possibilities satisfy it.
 
 :::example At least one even digit
 How many three-digit numbers contain at least one even digit?
@@ -158,7 +158,7 @@ So $900-125=775$ three-digit numbers contain at least one even digit.
 
 ## Checking with a computer
 
-A short program can check a counting argument by trying every possibility. Here is a check of the example with the digits $0, 1, 2, 3, 4, 5$:
+Counting mistakes are very common, even for people who have done maths for years. If you have a computer, you can let it try every possibility and compare with your answer. Here is a check of the example with the digits $0, 1, 2, 3, 4, 5$:
 
 ```python
 count = 0
@@ -173,10 +173,10 @@ print(count, even)   # 100 52
 ```
 
 :::warning Common mistakes
-- **Multiplying instead of adding.** With $7$, $5$ and $4$ books, writing $7\cdot5\cdot4=140$ ways to choose **one** book. Wrong, because we do not take one book from each group. Right: $7+5+4=16$. Test your method on a small case you can list by hand.
-- **Forgetting the leading zero.** Counting three-digit numbers with distinct digits from $0, \dots, 5$ as $6\cdot5\cdot4=120$. Wrong, because it includes "numbers" like $012$. Right: $5\cdot5\cdot4=100$.
+- **Multiplying instead of adding.** With $7$, $5$ and $4$ books, many students write $7\cdot5\cdot4=140$ ways to choose **one** book. Wrong, because we are not taking one book from each group. Right: $7+5+4=16$. When in doubt, test your method on a small case you can list by hand.
+- **Forgetting the leading zero.** Counting three-digit numbers with distinct digits from $0, \dots, 5$ as $6\cdot5\cdot4=120$. Wrong, because it includes "numbers" like $012$, which is really a two-digit number. Right: $5\cdot5\cdot4=100$.
 - **Not splitting into cases.** Counting the even numbers above as $5\cdot4\cdot3=60$ (hundreds $5$ ways, tens $4$ ways, units $0$, $2$ or $4$). Wrong, because an even digit may already be used in the hundreds or tens place, so the units digit does not always have $3$ choices left. Right: choose the units digit first, split into two cases, and get $52$.
-- **Double counting.** Adding two groups that overlap. The addition rule needs options **with no choice in common**.
+- **Double counting.** If you add two groups that overlap, the overlap is counted twice. The addition rule only works when the options have **no choice in common**.
 :::
 
 ## Key terms
@@ -198,9 +198,11 @@ print(count, even)   # 100 52
 - With restrictions: fill the most restricted position first (first digit not $0$, last digit even, ...), and split into cases when the number of ways changes.
 - **Complementary counting**: ways that satisfy the condition $=$ all ways $-$ ways that fail. Ideal for "at least one".
 
+Think back to the library: without writing a single code, one multiplication $5\cdot10\cdot10\cdot10$ told us whether there were enough. That is the power of counting by structure. When you start a problem, ask yourself "is it *or*, or is it *then*?" first, and the rest becomes much easier.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with the ideas you need and a few steps to get going. Have a go on your own first, and do not worry about mistakes; comparing with the solution afterwards shows you how much you have understood.
 
 :::exercise
 The canteen offers $4$ main dishes, $3$ soups and $2$ desserts. A meal is one main dish, one soup and one dessert. How many different meals are there?
