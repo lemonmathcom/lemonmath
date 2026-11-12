@@ -13,17 +13,17 @@ minutes: 25
 
 A group of $10$ students has just taken a test, with these marks: $3, 5, 6, 6, 7, 8, 8, 8, 9, 10$. The group leader says: "Our average mark is $7$." Another student says: "Half of the group got $7.5$ or more." A third says: "The most common mark is $8$." Who is right?
 
-All three are. Each one describes the "centre" of the same data set in a different way. This lesson introduces these ways and when to use each one.
+It sounds as if someone must be wrong, but in fact all three are right. Each student is looking for one number that stands for the whole group; they just look at the "middle" of the marks in different ways. Whenever we face a long list of data, we want a number like that, to say briefly "on the whole, it looks like this". The hard part is choosing the right one, because each kind suits some situations and can mislead in others.
 
 ## The mean
 
 ### Exploring: the balance point
 
-Take the leader's mark $7$ and compute how far each student is from $7$:
+What is special about the leader's number $7$? Let us see how far above or below $7$ each student is:
 
 $$-4,\ -2,\ -1,\ -1,\ 0,\ 1,\ 1,\ 1,\ 2,\ 3.$$
 
-The negative differences add up to $-8$ and the positive ones to $8$: they cancel out. The number $7$ is the "balance point" of the data. It is exactly the total of the marks ($70$) divided by the number of students ($10$).
+The shortfalls add up to $-8$ and the extras to $8$: they cancel out exactly. Picture a see-saw: put the pivot at $7$ and the two sides balance. That is why $7$ is the "balance point" of the data, and it is exactly the total of the marks ($70$) divided by the number of students ($10$).
 
 :::definition Mean
 For a data set $x_1, x_2, \dots, x_n$, the **mean** is
@@ -31,7 +31,7 @@ $$\bar{x}=\frac{x_1+x_2+\cdots+x_n}{n}.$$
 If the value $x_i$ occurs $n_i$ times (frequency $n_i$), then $\bar{x}=\dfrac{n_1x_1+n_2x_2+\cdots+n_kx_k}{n}$, where $n=n_1+\cdots+n_k$.
 :::
 
-The mean uses every value, so it is sensitive to very large or very small values. Our first example uses the definition backwards: we know the mean and look for one value.
+Because it is built from every value, the mean "hears" all of them, including any that are unusually large or small. That is both its strength and its weakness, and we come back to it at the end of the lesson. First, let us use the definition backwards: we know the mean and look for one missing value. Many students ask themselves exactly this before an exam.
 
 :::example How many marks are needed?
 Lan has four test marks: $7$, $8$, $7$, $8$. What must she score on the fifth test so that the mean of the five tests is $8$?
@@ -47,7 +47,7 @@ So Lan needs $10$ on the fifth test.
 
 ## The median and the quartiles
 
-First, sort the data in non-decreasing order.
+The mean asks "where does it balance?". The median asks a different, simpler question: "who stands in the middle of the line?". To know who is in the middle, everyone has to line up first, so the first step is always to sort the data in non-decreasing order.
 
 :::definition Median and quartiles
 - The **median** $M$ is the middle value if $n$ is odd, and the mean of the two middle values if $n$ is even.
@@ -55,7 +55,7 @@ First, sort the data in non-decreasing order.
 - If $n$ is odd, the median value itself is **not** included in either half.
 :::
 
-The median splits the data into two halves with the same number of values; the three quartiles split it into four parts. We start with an odd $n$.
+The median cuts the data into two halves with the same number of values; the three quartiles cut it into four parts. The usual stumbling point is when to take one value and when to average two, so we do the two cases one at a time, starting with an odd $n$.
 
 :::example Marks of 11 students
 The marks of $11$ students are $4, 5, 6, 6, 7, 7, 7, 8, 9, 9, 10$. Find $\bar{x}$, $M$, $Q_1$, $Q_3$ and the mode.
@@ -73,7 +73,7 @@ The value $7$ occurs most often (three times), so the mode is $7$.
 So $\bar{x}\approx7.09$, $M=7$, $Q_1=6$, $Q_3=9$, mode $7$.
 :::
 
-When $n$ is even, no value sits exactly in the middle, so we take the mean of the two middle values. These are the group's marks from the start of the lesson.
+When $n$ is even, nobody stands exactly in the middle of the line: there are two people there. Then we take the mean of those two values. The data below are the group's marks from the start of the lesson, so you will see where the three statements came from.
 
 :::example Marks of 10 students
 Marks: $3, 5, 6, 6, 7, 8, 8, 8, 9, 10$. Find $\bar{x}$, $M$, $Q_1$, $Q_3$ and the mode.
@@ -93,11 +93,11 @@ So $\bar{x}=7$, $M=7.5$, $Q_1=6$, $Q_3=8$, mode $8$: exactly the three numbers t
 
 ## The mode
 
-The **mode** is the value with the largest frequency. A data set can have several modes (when several values share the largest frequency). The mode is the only measure that works for data that are not numbers, such as the most chosen shirt colour or the best-selling shoe size.
+The third way is the simplest: just see which value turns up most often. The **mode** is the value with the largest frequency. A data set can have several modes (when several values share the largest frequency). The mode is the only measure that works for data that are not numbers, such as the most chosen shirt colour or the best-selling shoe size.
 
 ## Data in a frequency table
 
-With many values, we record the data in a frequency table. To find the $k$th value, we add up the frequencies as we go (the **cumulative frequency**).
+With many values, nobody writes them all out; we record them neatly in a frequency table. The only snag is that a table does not show at a glance what, say, the $10$th value is. The trick is to add up the frequencies from left to right as we go (the **cumulative frequency**): each running total tells you how many values are in the line up to that column.
 
 :::example A frequency table
 The marks of $20$ students are given in the table. Find $\bar{x}$, $M$, $Q_1$, $Q_3$ and the mode.
@@ -121,7 +121,7 @@ So $\bar{x}=7.4$, $M=7.5$, $Q_1=6.5$, $Q_3=8$, mode $8$.
 
 ## Effect of an outlier
 
-The last example shows why the mean is not always the right choice.
+Earlier we said the mean "hears" every value. The next example shows how that can mislead, and why the median is more trustworthy in such cases.
 
 :::example An extreme value
 The monthly pocket money of seven students (thousand dong) is $50, 60, 60, 70, 80, 90, 500$. Compare $\bar{x}$ and $M$ with and without the value $500$.
@@ -138,6 +138,8 @@ So one outlier raises the mean by about $62$ thousand dong but the median by onl
 :::
 
 :::tip Which measure to use
+No single measure is best every time. Before you choose, ask yourself: are there any unusual values, and what question do I want to answer?
+
 - Mean: data without outliers, when every value matters (totals, budgets).
 - Median: data with outliers or strongly skewed to one side (salaries, house prices).
 - Mode: data that are not numbers, or when you need the most frequent value (which shirt size to stock most).
@@ -145,6 +147,8 @@ So one outlier raises the mean by about $62$ thousand dong but the median by onl
 :::
 
 :::warning Common mistakes
+The three slips below are very common, even among students who understand the lesson. Most come from rushing, so slowing down by one step is usually enough.
+
 - **Wrong:** the median of $3, 9, 4, 7, 1, 6$ is $\dfrac{4+7}{2}=5.5$. **Why it is wrong:** the data were not sorted. **Right:** sort to $1, 3, 4, 6, 7, 9$ and take $\dfrac{4+6}{2}=5$.
 - **Wrong:** for $4, 5, 6, 6, 7, 7, 7, 8, 9, 9, 10$, taking the upper half as $7, 7, 8, 9, 9, 10$ and $Q_3=8.5$. **Why it is wrong:** when $n$ is odd the median (the $6$th value) belongs to neither half. **Right:** the upper half is $7, 8, 9, 9, 10$, so $Q_3=9$.
 - **Wrong:** saying "the mode is $6$" because the mark $8$ has frequency $6$. **Why it is wrong:** the mode is a value, not a frequency. **Right:** the mode is $8$.
@@ -172,9 +176,11 @@ So one outlier raises the mean by about $62$ thousand dong but the median by onl
 - The mode is the value with the largest frequency.
 - An outlier pulls $\bar{x}$ a long way, while $M$ hardly changes.
 
+Think back to the three students at the start: none of them was wrong, because each measure answers its own question. Next time you see an "average" in the news or in class, ask one more thing: is it the mean, the median or the mode, and could one unusual value be pulling it off course?
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Try it yourself first, and do not worry about mistakes; then open the solution and compare it with your own thinking.
 
 :::exercise
 a) Find the mean of $6, 8, 9, 10, 12$.

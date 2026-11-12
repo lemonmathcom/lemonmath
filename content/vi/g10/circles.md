@@ -13,36 +13,36 @@ minutes: 28
 
 Một trạm phát sóng điện thoại đặt tại điểm $I(1; 2)$ trên bản đồ (đơn vị: km) và phủ sóng mọi nơi cách nó không quá $5$ km. Một ngôi nhà ở $P(5; 1)$. Ngôi nhà có sóng không? Một con đường chạy theo đường thẳng $3x+4y-31=0$: đoạn đường có sóng dài bao nhiêu?
 
-Biên của vùng phủ sóng là một đường tròn. Để trả lời, ta cần mô tả đường tròn bằng một phương trình.
+Nếu vẽ ra giấy, bạn sẽ thấy ngay biên của vùng phủ sóng là một đường tròn. Nhưng vẽ thì khó chính xác, nhất là khi phải đo một đoạn đường dài bao nhiêu ki-lô-mét. Ta sẽ làm như đã làm với đường thẳng: viết đường tròn thành một phương trình, để mọi câu hỏi về nó trở thành phép tính.
 
 ## Phương trình đường tròn
 
 ### Khám phá: những điểm cách $I$ đúng $5$ km
 
-Ta tính bình phương khoảng cách $IM^2=(x-1)^2+(y-2)^2$ cho vài điểm $M(x; y)$:
+Một điểm có sóng hay không chỉ phụ thuộc vào khoảng cách từ nó đến trạm. Để khỏi phải khai căn, ta tính bình phương khoảng cách $IM^2=(x-1)^2+(y-2)^2$ cho vài điểm $M(x; y)$:
 
 | $M$ | $(4; 6)$ | $(6; 2)$ | $(1; -3)$ | $(-3; 5)$ | $(5; 1)$ |
 |---|---|---|---|---|---|
 | $IM^2$ | $9+16=25$ | $25+0=25$ | $0+25=25$ | $16+9=25$ | $16+1=17$ |
 
-Bốn điểm đầu có $IM^2=25$, tức $IM=5$: chúng nằm trên biên vùng phủ sóng. Điểm $(5; 1)$ có $IM^2=17<25$, nên nằm bên trong. Vậy điểm $M(x; y)$ nằm trên biên khi và chỉ khi $(x-1)^2+(y-2)^2=25$.
+Bạn để ý: bốn điểm đầu đều cho $IM^2=25$, tức $IM=5$, nên chúng nằm đúng trên biên vùng phủ sóng. Điểm $(5; 1)$ có $IM^2=17<25$, nên nằm bên trong. Vậy điểm $M(x; y)$ nằm trên biên khi và chỉ khi $(x-1)^2+(y-2)^2=25$.
 
 :::definition Phương trình đường tròn
 Đường tròn tâm $I(a; b)$ bán kính $R>0$ là tập hợp các điểm $M(x; y)$ thoả mãn $IM=R$, tức là
 $$(x-a)^2+(y-b)^2=R^2.$$
 :::
 
-Phương trình này đúng vì $IM=\sqrt{(x-a)^2+(y-b)^2}$, và với hai số không âm, $IM=R\iff IM^2=R^2$.
+Phương trình này thật ra chỉ là câu "$M$ cách $I$ đúng $R$" viết bằng toạ độ. Vì $IM=\sqrt{(x-a)^2+(y-b)^2}$, và với hai số không âm thì $IM=R\iff IM^2=R^2$, ta bình phương lên cho gọn, khỏi phải mang theo dấu căn.
 
 ### Dạng khai triển
 
-Khai triển $(x-a)^2+(y-b)^2=R^2$ ta được $x^2+y^2-2ax-2by+c=0$ với $c=a^2+b^2-R^2$.
+Trong đề bài, đường tròn không phải lúc nào cũng được viết sẵn ở dạng đẹp như trên. Nhiều khi người ta đã khai triển hết các bình phương. Khai triển $(x-a)^2+(y-b)^2=R^2$ ta được $x^2+y^2-2ax-2by+c=0$ với $c=a^2+b^2-R^2$.
 
 :::theorem Nhận biết đường tròn
 Phương trình $x^2+y^2-2ax-2by+c=0$ là phương trình đường tròn khi và chỉ khi $a^2+b^2-c>0$. Khi đó đường tròn có tâm $I(a; b)$ và bán kính $R=\sqrt{a^2+b^2-c}$.
 :::
 
-Thật vậy, thêm bớt để có bình phương, phương trình trở thành $(x-a)^2+(y-b)^2=a^2+b^2-c$. Vế trái không âm, nên nếu $a^2+b^2-c<0$ thì không có điểm nào thoả mãn, còn nếu bằng $0$ thì chỉ có một điểm $(a; b)$.
+Vì sao lại cần điều kiện ấy? Thêm bớt để đưa về bình phương, phương trình trở thành $(x-a)^2+(y-b)^2=a^2+b^2-c$. Vế trái là tổng hai bình phương nên không âm. Vì vậy nếu $a^2+b^2-c<0$ thì không có điểm nào thoả mãn, còn nếu bằng $0$ thì chỉ có một điểm $(a; b)$. Chỉ khi vế phải dương, ta mới có một đường tròn thật sự.
 
 :::example Từ tâm và bán kính đến phương trình
 Viết phương trình đường tròn tâm $I(1; -2)$ bán kính $3$, ở cả hai dạng.
@@ -54,7 +54,7 @@ $$(x-1)^2+(y+2)^2=9\iff x^2-2x+1+y^2+4y+4-9=0\iff x^2+y^2-2x+4y-4=0.$$
 Vậy đường tròn là $(x-1)^2+(y+2)^2=9$, hay $x^2+y^2-2x+4y-4=0$.
 :::
 
-Chiều ngược lại cần cẩn thận hơn, vì không phải phương trình nào dạng này cũng là đường tròn.
+Chiều ngược lại cần cẩn thận hơn một chút. Một phương trình trông giống hệt phương trình đường tròn vẫn có thể không phải đường tròn, nên bao giờ ta cũng kiểm tra dấu của $a^2+b^2-c$ trước khi kết luận.
 
 :::example Từ phương trình đến tâm và bán kính
 Mỗi phương trình sau có phải là phương trình đường tròn không? Nếu có, tìm tâm và bán kính.
@@ -69,7 +69,7 @@ Vậy a) là đường tròn tâm $(3; -2)$, bán kính $R=\sqrt{25}=5$; còn b)
 
 ## Tìm đường tròn
 
-Để viết phương trình đường tròn, ta chỉ cần tìm tâm và bán kính. Với đường kính cho trước, tâm là trung điểm.
+Dù đề cho gì đi nữa, muốn viết phương trình đường tròn thì việc chính chỉ có hai: tìm tâm và tìm bán kính. Khi biết hai đầu một đường kính, tâm nằm ngay giữa, tức là trung điểm.
 
 :::example Đường tròn có đường kính cho trước
 Viết phương trình đường tròn đường kính $AB$ với $A(1; 2)$ và $B(5; 6)$.
@@ -83,7 +83,7 @@ Vậy đường tròn là $(x-3)^2+(y-4)^2=8$.
 **Kiểm tra.** Điểm $A$: $(1-3)^2+(2-4)^2=4+4=8$.
 :::
 
-Khi chỉ biết ba điểm, ta dùng dạng khai triển: mỗi điểm cho một phương trình với ẩn $a$, $b$, $c$.
+Khi chỉ biết ba điểm trên đường tròn, tâm không hiện ra ngay. Lúc này dạng khai triển giúp ta: mỗi điểm cho một phương trình với ẩn $a$, $b$, $c$, và ba điểm cho đúng ba phương trình.
 
 :::example Đường tròn đi qua ba điểm
 Viết phương trình đường tròn đi qua $O(0; 0)$, $A(4; 0)$ và $B(0; 2)$.
@@ -99,7 +99,7 @@ Vậy đường tròn là $(x-2)^2+(y-1)^2=5$.
 
 ## Tiếp tuyến tại một điểm
 
-Đường thẳng **tiếp xúc** với đường tròn khi nó có đúng một điểm chung với đường tròn. Tiếp tuyến tại $M_0$ vuông góc với bán kính $IM_0$, nên nhận $\overrightarrow{IM_0}$ làm vectơ pháp tuyến.
+Hãy hình dung một chiếc thước đặt sát mép một cái đĩa: nó chạm đĩa đúng một điểm. Đường thẳng **tiếp xúc** với đường tròn khi nó có đúng một điểm chung với đường tròn. Tiếp tuyến tại $M_0$ vuông góc với bán kính $IM_0$, nên nhận $\overrightarrow{IM_0}$ làm vectơ pháp tuyến.
 
 :::graph Tiếp tuyến của đường tròn tại $M$
 alt: Đường tròn tâm I(1; 1) bán kính 5 và một đường thẳng tiếp xúc với nó tại điểm M(4; 5)
@@ -127,13 +127,13 @@ Vậy tiếp tuyến là $3x+4y-32=0$.
 
 ## Vị trí của điểm và đường thẳng đối với đường tròn
 
-Cho đường tròn tâm $I$, bán kính $R$.
+Mọi câu hỏi về vị trí đều quy về một việc quen thuộc: so một khoảng cách với bán kính. Cho đường tròn tâm $I$, bán kính $R$.
 
 - Điểm $P$ nằm **trong**, **trên** hay **ngoài** đường tròn tuỳ theo $IP<R$, $IP=R$ hay $IP>R$.
 - Đường thẳng $\Delta$ **cắt** đường tròn tại hai điểm, **tiếp xúc** hay **không có điểm chung** với đường tròn tuỳ theo $d(I, \Delta)<R$, $=R$ hay $>R$.
 - Khi $d=d(I, \Delta)<R$, dây cung chắn trên $\Delta$ có độ dài $2\sqrt{R^2-d^2}$ (theo định lí Pythagore trong tam giác vuông tạo bởi bán kính, khoảng cách và nửa dây cung).
 
-Bây giờ ta trả lời câu hỏi về trạm phát sóng ở đầu bài.
+Đến đây ta đã đủ công cụ để trả lời câu hỏi về trạm phát sóng ở đầu bài, mà không cần vẽ hình chính xác.
 
 :::graph Vùng phủ sóng và con đường
 alt: Đường tròn tâm I(1; 2) bán kính 5, điểm P(5; 1) nằm trong đường tròn và đường thẳng 3x cộng 4y bằng 31 cắt đường tròn tại hai điểm
@@ -167,6 +167,8 @@ Vậy ngôi nhà nằm trong vùng phủ sóng, và con đường có một đo�
 :::
 
 :::warning Những sai lầm thường gặp
+Phần lớn lỗi ở bài này là lỗi dấu và lỗi quên bình phương. Bạn đọc kĩ để biết mình cần dừng lại kiểm tra ở đâu.
+
 - **Sai dấu toạ độ tâm.** Sai: $(x+2)^2+(y-3)^2=16$ có tâm $(2; -3)$. Lí do sai: $x+2=x-(-2)$. Đúng: tâm $(-2; 3)$, bán kính $4$.
 - **Viết $R$ thay cho $R^2$.** Sai: đường tròn tâm $(3; 4)$ bán kính $2\sqrt2$ là $(x-3)^2+(y-4)^2=2\sqrt2$. Lí do sai: vế phải là bình phương bán kính. Đúng: $(x-3)^2+(y-4)^2=8$.
 - **Không kiểm tra $a^2+b^2-c>0$.** Sai: "$x^2+y^2+2x+2y+5=0$ là đường tròn tâm $(-1; -1)$". Lí do sai: $a^2+b^2-c=-3<0$, không có điểm nào thoả mãn. Đúng: đây không phải đường tròn.
@@ -194,9 +196,11 @@ Vậy ngôi nhà nằm trong vùng phủ sóng, và con đường có một đo�
 - Tiếp tuyến tại $M_0$: đi qua $M_0$, vectơ pháp tuyến $\overrightarrow{IM_0}$.
 - So sánh $IP$ và $d(I, \Delta)$ với $R$ để biết vị trí; dây cung dài $2\sqrt{R^2-d^2}$.
 
+Câu hỏi về ngôi nhà và con đường ở đầu bài hoá ra chỉ là hai phép so sánh khoảng cách với bán kính. Đó là điều đáng nhớ nhất: đường tròn là tập hợp những điểm cách tâm đúng $R$, và gần như mọi bài toán về nó đều bắt đầu từ chữ "khoảng cách".
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý các bước. Bạn cứ tự làm trước, sai cũng không sao, rồi hãy bấm xem lời giải để so cách nghĩ của mình.
 
 :::exercise
 Viết phương trình đường tròn tâm $(-2; 3)$, bán kính $4$.

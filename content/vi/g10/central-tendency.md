@@ -13,17 +13,17 @@ minutes: 25
 
 Một tổ có $10$ bạn vừa làm bài kiểm tra, điểm như sau: $3, 5, 6, 6, 7, 8, 8, 8, 9, 10$. Tổ trưởng nói: "Điểm trung bình của tổ là $7$." Một bạn nói: "Một nửa tổ được từ $7{,}5$ trở lên." Bạn khác nói: "Điểm hay gặp nhất là $8$." Ai nói đúng?
 
-Cả ba đều đúng. Mỗi người mô tả "trung tâm" của cùng một mẫu số liệu theo một cách khác nhau. Bài này giới thiệu các cách đó và khi nào nên dùng cách nào.
+Nghe thì tưởng phải có người sai, nhưng thật ra cả ba đều đúng. Mỗi bạn đang tìm một con số đại diện cho cả tổ, chỉ là mỗi người nhìn "chỗ giữa" của dãy điểm theo một kiểu. Khi gặp một bảng số liệu dài, ta cũng cần một con số như thế để nói gọn "nhìn chung thì thế này". Cái khó là chọn cho đúng con số, vì mỗi cách có lúc hợp, có lúc lại dễ đánh lừa người đọc.
 
 ## Số trung bình cộng
 
 ### Khám phá: điểm cân bằng
 
-Lấy điểm $7$ của tổ trưởng và tính độ chênh của từng bạn so với $7$:
+Con số $7$ của tổ trưởng có gì đặc biệt? Ta thử xem mỗi bạn cao hơn hay thấp hơn $7$ bao nhiêu điểm:
 
 $$-4,\ -2,\ -1,\ -1,\ 0,\ 1,\ 1,\ 1,\ 2,\ 3.$$
 
-Tổng các độ chênh âm là $-8$, tổng các độ chênh dương là $8$: chúng triệt tiêu nhau. Số $7$ là "điểm cân bằng" của mẫu số liệu. Đó chính là tổng các điểm ($70$) chia cho số bạn ($10$).
+Phần thiếu cộng lại là $-8$, phần dư cộng lại là $8$: chúng triệt tiêu nhau vừa khít. Bạn có thể hình dung một chiếc bập bênh: đặt điểm tựa ở $7$ thì hai bên cân nhau. Vì thế số $7$ là "điểm cân bằng" của mẫu số liệu, và nó chính là tổng các điểm ($70$) chia cho số bạn ($10$).
 
 :::definition Số trung bình cộng
 Với mẫu số liệu $x_1, x_2, \dots, x_n$, **số trung bình cộng** là
@@ -31,7 +31,7 @@ $$\bar{x}=\frac{x_1+x_2+\cdots+x_n}{n}.$$
 Nếu giá trị $x_i$ xuất hiện $n_i$ lần (tần số $n_i$) thì $\bar{x}=\dfrac{n_1x_1+n_2x_2+\cdots+n_kx_k}{n}$, trong đó $n=n_1+\cdots+n_k$.
 :::
 
-Số trung bình cộng dùng mọi giá trị, nên nó nhạy với các giá trị quá lớn hoặc quá nhỏ. Ví dụ đầu tiên dùng định nghĩa theo chiều ngược lại: biết trung bình, tìm một giá trị.
+Vì được tính từ mọi giá trị, số trung bình cộng "nghe" thấy tất cả, kể cả những giá trị lớn hay nhỏ bất thường. Đó vừa là điểm mạnh vừa là điểm yếu của nó, ta sẽ quay lại ở cuối bài. Trước hết, thử dùng định nghĩa theo chiều ngược lại: biết trung bình rồi, tìm một giá trị còn thiếu. Đây là bài toán rất nhiều bạn tự hỏi trước mỗi kì thi.
 
 :::example Cần bao nhiêu điểm?
 Lan có bốn bài kiểm tra được $7$, $8$, $7$, $8$. Bài thứ năm Lan cần được bao nhiêu điểm để điểm trung bình của năm bài bằng $8$?
@@ -47,7 +47,7 @@ Vậy Lan cần được $10$ điểm ở bài thứ năm.
 
 ## Trung vị và tứ phân vị
 
-Trước hết sắp xếp mẫu số liệu theo thứ tự không giảm.
+Số trung bình hỏi "cân bằng ở đâu". Trung vị hỏi một câu khác, giản dị hơn: "đứng ở giữa hàng là ai?". Muốn biết ai đứng giữa thì phải xếp hàng trước, nên việc đầu tiên luôn là sắp xếp mẫu số liệu theo thứ tự không giảm.
 
 :::definition Trung vị và tứ phân vị
 - **Trung vị** $M_e$ là giá trị đứng giữa nếu $n$ lẻ, và là trung bình cộng của hai giá trị đứng giữa nếu $n$ chẵn.
@@ -55,7 +55,7 @@ Trước hết sắp xếp mẫu số liệu theo thứ tự không giảm.
 - Nếu $n$ lẻ, giá trị trung vị **không** được tính vào hai nửa.
 :::
 
-Trung vị chia mẫu số liệu thành hai nửa bằng nhau về số lượng; ba tứ phân vị chia nó thành bốn phần. Ta bắt đầu với $n$ lẻ.
+Trung vị cắt mẫu số liệu thành hai nửa có số lượng bằng nhau; ba tứ phân vị cắt nó thành bốn phần. Chỗ hay lúng túng là khi nào lấy một giá trị, khi nào lấy trung bình hai giá trị, nên ta làm lần lượt từng trường hợp, bắt đầu với $n$ lẻ.
 
 :::example Điểm của 11 học sinh
 Điểm của $11$ học sinh: $4, 5, 6, 6, 7, 7, 7, 8, 9, 9, 10$. Tìm $\bar{x}$, $M_e$, $Q_1$, $Q_3$ và mốt.
@@ -73,7 +73,7 @@ Giá trị $7$ xuất hiện nhiều nhất (ba lần) nên mốt $M_o=7$.
 Vậy $\bar{x}\approx7{,}09$, $M_e=7$, $Q_1=6$, $Q_3=9$, $M_o=7$.
 :::
 
-Với $n$ chẵn, không có giá trị nào đứng chính giữa, nên ta lấy trung bình của hai giá trị giữa. Đây là dữ liệu của tổ ở đầu bài.
+Khi $n$ chẵn, hàng không có ai đứng đúng chính giữa: ở giữa là hai bạn. Lúc ấy ta lấy trung bình của hai giá trị đó. Dữ liệu dưới đây chính là điểm của tổ ở đầu bài, nên bạn sẽ thấy ba câu nói kia từ đâu mà ra.
 
 :::example Điểm của 10 học sinh
 Điểm: $3, 5, 6, 6, 7, 8, 8, 8, 9, 10$. Tìm $\bar{x}$, $M_e$, $Q_1$, $Q_3$ và mốt.
@@ -93,11 +93,11 @@ Vậy $\bar{x}=7$, $M_e=7{,}5$, $Q_1=6$, $Q_3=8$, $M_o=8$: đúng ba con số m�
 
 ## Mốt
 
-**Mốt** $M_o$ là giá trị có tần số lớn nhất. Một mẫu số liệu có thể có nhiều mốt (khi nhiều giá trị cùng có tần số lớn nhất). Mốt là số đặc trưng duy nhất dùng được cho dữ liệu không phải là số, chẳng hạn màu áo được chọn nhiều nhất hay cỡ giày bán chạy nhất.
+Cách thứ ba đơn giản nhất: chỉ cần xem giá trị nào gặp nhiều lần nhất. **Mốt** $M_o$ là giá trị có tần số lớn nhất. Một mẫu số liệu có thể có nhiều mốt (khi nhiều giá trị cùng có tần số lớn nhất). Mốt là số đặc trưng duy nhất dùng được cho dữ liệu không phải là số, chẳng hạn màu áo được chọn nhiều nhất hay cỡ giày bán chạy nhất.
 
 ## Số liệu trong bảng tần số
 
-Khi số liệu nhiều, ta ghi vào bảng tần số. Để tìm giá trị thứ $k$, ta cộng dồn tần số (**tần số tích luỹ**).
+Khi số liệu nhiều, chẳng ai viết ra từng con số; ta ghi gọn vào bảng tần số. Chỉ có điều, nhìn bảng thì khó thấy ngay giá trị thứ $10$ là bao nhiêu. Mẹo là cộng dồn tần số từ trái sang (**tần số tích luỹ**): con số cộng dồn cho biết đến cột ấy đã có bao nhiêu giá trị đứng trong hàng.
 
 :::example Bảng tần số
 Điểm của $20$ học sinh được cho trong bảng. Tìm $\bar{x}$, $M_e$, $Q_1$, $Q_3$ và mốt.
@@ -121,7 +121,7 @@ Vậy $\bar{x}=7{,}4$, $M_e=7{,}5$, $Q_1=6{,}5$, $Q_3=8$, $M_o=8$.
 
 ## Ảnh hưởng của giá trị bất thường
 
-Ví dụ cuối cho thấy vì sao không phải lúc nào cũng nên dùng số trung bình cộng.
+Ở trên ta có nói số trung bình cộng "nghe" thấy mọi giá trị. Ví dụ sau cho thấy điều đó có thể gây hiểu lầm thế nào, và vì sao lúc ấy trung vị đáng tin hơn.
 
 :::example Một giá trị quá lớn
 Tiền tiêu vặt hằng tháng của bảy học sinh (nghìn đồng): $50, 60, 60, 70, 80, 90, 500$. So sánh $\bar{x}$ và $M_e$ khi có và khi không có giá trị $500$.
@@ -138,6 +138,8 @@ Vậy một giá trị bất thường làm số trung bình cộng tăng khoả
 :::
 
 :::tip Nên dùng số đặc trưng nào
+Không có số nào tốt nhất trong mọi trường hợp. Trước khi chọn, bạn tự hỏi: số liệu có giá trị nào bất thường không, và mình muốn trả lời câu hỏi gì?
+
 - Số trung bình cộng: dữ liệu không có giá trị bất thường, khi mọi giá trị đều quan trọng (tổng, ngân sách).
 - Trung vị: dữ liệu có giá trị bất thường hoặc lệch hẳn về một phía (lương, giá nhà).
 - Mốt: dữ liệu không phải số, hoặc khi cần giá trị gặp nhiều nhất (cỡ áo cần nhập nhiều nhất).
@@ -145,6 +147,8 @@ Vậy một giá trị bất thường làm số trung bình cộng tăng khoả
 :::
 
 :::warning Những sai lầm thường gặp
+Ba lỗi dưới đây gặp rất thường xuyên, kể cả ở bạn đã hiểu bài. Phần lớn chỉ vì vội, nên làm chậm một nhịp là tránh được.
+
 - **Sai:** trung vị của $3, 9, 4, 7, 1, 6$ là $\dfrac{4+7}{2}=5{,}5$. **Vì sao sai:** chưa sắp xếp số liệu. **Đúng:** sắp xếp $1, 3, 4, 6, 7, 9$ rồi lấy $\dfrac{4+6}{2}=5$.
 - **Sai:** với $4, 5, 6, 6, 7, 7, 7, 8, 9, 9, 10$, lấy nửa trên là $7, 7, 8, 9, 9, 10$ và $Q_3=8{,}5$. **Vì sao sai:** $n$ lẻ thì trung vị (giá trị thứ $6$) không thuộc nửa nào. **Đúng:** nửa trên là $7, 8, 9, 9, 10$, nên $Q_3=9$.
 - **Sai:** nói "mốt bằng $6$" vì điểm $8$ có tần số $6$. **Vì sao sai:** mốt là giá trị, không phải tần số. **Đúng:** $M_o=8$.
@@ -172,9 +176,11 @@ Vậy một giá trị bất thường làm số trung bình cộng tăng khoả
 - Mốt là giá trị có tần số lớn nhất.
 - Giá trị bất thường kéo $\bar{x}$ đi xa, còn $M_e$ gần như không đổi.
 
+Nhớ lại ba bạn trong tổ ở đầu bài: không ai sai cả, vì mỗi số đặc trưng trả lời một câu hỏi riêng. Lần sau gặp một con số "trung bình" trên báo hay trong lớp, bạn thử hỏi thêm: đây là trung bình, trung vị hay mốt, và nó có bị một giá trị bất thường kéo lệch không?
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý các bước. Bạn cứ tự làm trước, sai cũng không sao, rồi hãy bấm xem lời giải để so cách nghĩ của mình.
 
 :::exercise
 a) Tìm số trung bình cộng của $6, 8, 9, 10, 12$.

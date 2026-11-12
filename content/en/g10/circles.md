@@ -13,36 +13,36 @@ minutes: 28
 
 A mobile phone mast stands at the point $I(1, 2)$ on a map (units: km) and covers every place within $5$ km of it. A house stands at $P(5, 1)$. Does the house have signal? A road runs along the line $3x+4y-31=0$: how long is the stretch of road with signal?
 
-The edge of the coverage zone is a circle. To answer, we need to describe a circle by an equation.
+If you sketch it, you will see at once that the edge of the coverage zone is a circle. But a sketch is never quite accurate, especially when you need to know how many kilometres of road are covered. So we do what we did with lines: write the circle as an equation, so that every question about it becomes a calculation.
 
 ## The equation of a circle
 
 ### Explore: the points exactly $5$ km from $I$
 
-We compute the squared distance $IM^2=(x-1)^2+(y-2)^2$ for a few points $M(x, y)$:
+Whether a point has signal depends only on its distance from the mast. To avoid square roots, we compute the squared distance $IM^2=(x-1)^2+(y-2)^2$ for a few points $M(x, y)$:
 
 | $M$ | $(4, 6)$ | $(6, 2)$ | $(1, -3)$ | $(-3, 5)$ | $(5, 1)$ |
 |---|---|---|---|---|---|
 | $IM^2$ | $9+16=25$ | $25+0=25$ | $0+25=25$ | $16+9=25$ | $16+1=17$ |
 
-The first four points have $IM^2=25$, that is $IM=5$: they lie on the edge of the coverage zone. The point $(5, 1)$ has $IM^2=17<25$, so it lies inside. So a point $M(x, y)$ is on the edge exactly when $(x-1)^2+(y-2)^2=25$.
+Notice that the first four points all give $IM^2=25$, that is $IM=5$, so they lie exactly on the edge of the coverage zone. The point $(5, 1)$ has $IM^2=17<25$, so it lies inside. So a point $M(x, y)$ is on the edge exactly when $(x-1)^2+(y-2)^2=25$.
 
 :::definition Equation of a circle
 The circle with centre $I(a, b)$ and radius $R>0$ is the set of points $M(x, y)$ with $IM=R$, that is
 $$(x-a)^2+(y-b)^2=R^2.$$
 :::
 
-This equation is correct because $IM=\sqrt{(x-a)^2+(y-b)^2}$, and for two non-negative numbers, $IM=R\iff IM^2=R^2$.
+This equation is really just the sentence "$M$ is exactly $R$ from $I$" written in coordinates. Since $IM=\sqrt{(x-a)^2+(y-b)^2}$, and for two non-negative numbers $IM=R\iff IM^2=R^2$, we square both sides to keep things tidy and get rid of the square root.
 
 ### The expanded form
 
-Expanding $(x-a)^2+(y-b)^2=R^2$ gives $x^2+y^2-2ax-2by+c=0$ with $c=a^2+b^2-R^2$.
+In exercises, a circle is not always handed to you in the neat form above. Often the squares have already been multiplied out. Expanding $(x-a)^2+(y-b)^2=R^2$ gives $x^2+y^2-2ax-2by+c=0$ with $c=a^2+b^2-R^2$.
 
 :::theorem Recognising a circle
 The equation $x^2+y^2-2ax-2by+c=0$ is the equation of a circle if and only if $a^2+b^2-c>0$. The circle then has centre $I(a, b)$ and radius $R=\sqrt{a^2+b^2-c}$.
 :::
 
-Indeed, completing the squares turns the equation into $(x-a)^2+(y-b)^2=a^2+b^2-c$. The left side is non-negative, so if $a^2+b^2-c<0$ no point satisfies it, and if it equals $0$ only the single point $(a, b)$ does.
+Why do we need that condition? Completing the squares turns the equation into $(x-a)^2+(y-b)^2=a^2+b^2-c$. The left side is a sum of two squares, so it is never negative. So if $a^2+b^2-c<0$ no point satisfies it, and if it equals $0$ only the single point $(a, b)$ does. Only when the right side is positive do we get a real circle.
 
 :::example From centre and radius to the equation
 Write the equation of the circle with centre $I(1, -2)$ and radius $3$, in both forms.
@@ -54,7 +54,7 @@ $$(x-1)^2+(y+2)^2=9\iff x^2-2x+1+y^2+4y+4-9=0\iff x^2+y^2-2x+4y-4=0.$$
 So the circle is $(x-1)^2+(y+2)^2=9$, or $x^2+y^2-2x+4y-4=0$.
 :::
 
-The other direction needs more care, because not every equation of this shape is a circle.
+The other direction needs a little more care. An equation can look exactly like a circle's equation and still not be one, so we always check the sign of $a^2+b^2-c$ before drawing a conclusion.
 
 :::example From the equation to the centre and radius
 Is each equation the equation of a circle? If so, find the centre and the radius.
@@ -69,7 +69,7 @@ So a) is a circle with centre $(3, -2)$ and radius $R=\sqrt{25}=5$, while b) is 
 
 ## Finding a circle
 
-To write the equation of a circle, we only need its centre and radius. With a given diameter, the centre is the midpoint.
+Whatever the question gives you, writing the equation of a circle comes down to two jobs: find the centre and find the radius. When you know the two ends of a diameter, the centre sits right in the middle, at the midpoint.
 
 :::example The circle on a given diameter
 Write the equation of the circle with diameter $AB$, where $A(1, 2)$ and $B(5, 6)$.
@@ -83,7 +83,7 @@ So the circle is $(x-3)^2+(y-4)^2=8$.
 **Check.** The point $A$: $(1-3)^2+(2-4)^2=4+4=8$.
 :::
 
-When we only know three points, we use the expanded form: each point gives one equation in the unknowns $a$, $b$, $c$.
+When all we know is three points on the circle, the centre does not show itself straight away. Here the expanded form helps: each point gives one equation in the unknowns $a$, $b$, $c$, and three points give exactly three equations.
 
 :::example The circle through three points
 Write the equation of the circle through $O(0, 0)$, $A(4, 0)$ and $B(0, 2)$.
@@ -99,7 +99,7 @@ So the circle is $(x-2)^2+(y-1)^2=5$.
 
 ## The tangent at a point
 
-A line is **tangent** to a circle when it has exactly one point in common with the circle. The tangent at $M_0$ is perpendicular to the radius $IM_0$, so $\overrightarrow{IM_0}$ is a normal vector of it.
+Picture a ruler laid against the edge of a plate: it touches the plate at exactly one point. A line is **tangent** to a circle when it has exactly one point in common with the circle. The tangent at $M_0$ is perpendicular to the radius $IM_0$, so $\overrightarrow{IM_0}$ is a normal vector of it.
 
 :::graph The tangent to a circle at $M$
 alt: The circle with centre I(1, 1) and radius 5 and a line touching it at the point M(4, 5)
@@ -127,13 +127,13 @@ So the tangent is $3x+4y-32=0$.
 
 ## Position of a point and a line relative to a circle
 
-Take a circle with centre $I$ and radius $R$.
+Every question about position comes down to one familiar job: compare a distance with the radius. Take a circle with centre $I$ and radius $R$.
 
 - A point $P$ lies **inside**, **on** or **outside** the circle according as $IP<R$, $IP=R$ or $IP>R$.
 - A line $\Delta$ **cuts** the circle in two points, is **tangent** to it, or **does not meet** it according as $d(I, \Delta)<R$, $=R$ or $>R$.
 - When $d=d(I, \Delta)<R$, the chord cut off on $\Delta$ has length $2\sqrt{R^2-d^2}$ (by Pythagoras' theorem in the right-angled triangle formed by a radius, the distance and half the chord).
 
-Now we answer the question about the phone mast from the start.
+We now have all we need to answer the question about the phone mast from the start, without drawing an accurate picture.
 
 :::graph The coverage zone and the road
 alt: The circle with centre I(1, 2) and radius 5, the point P(5, 1) inside it, and the line 3x plus 4y equals 31 cutting the circle in two points
@@ -167,6 +167,8 @@ So the house is inside the coverage zone, and a $6$ km stretch of the road has s
 :::
 
 :::warning Common mistakes
+Most mistakes in this topic are sign slips and forgotten squares. Read these carefully so you know where to pause and check.
+
 - **Wrong signs for the centre.** Wrong: $(x+2)^2+(y-3)^2=16$ has centre $(2, -3)$. Why it is wrong: $x+2=x-(-2)$. Right: the centre is $(-2, 3)$ and the radius is $4$.
 - **Writing $R$ instead of $R^2$.** Wrong: the circle with centre $(3, 4)$ and radius $2\sqrt2$ is $(x-3)^2+(y-4)^2=2\sqrt2$. Why it is wrong: the right side is the square of the radius. Right: $(x-3)^2+(y-4)^2=8$.
 - **Not checking $a^2+b^2-c>0$.** Wrong: "$x^2+y^2+2x+2y+5=0$ is a circle with centre $(-1, -1)$". Why it is wrong: $a^2+b^2-c=-3<0$, so no point satisfies it. Right: it is not a circle.
@@ -194,9 +196,11 @@ So the house is inside the coverage zone, and a $6$ km stretch of the road has s
 - Tangent at $M_0$: through $M_0$, normal vector $\overrightarrow{IM_0}$.
 - Compare $IP$ and $d(I, \Delta)$ with $R$ to find positions; a chord has length $2\sqrt{R^2-d^2}$.
 
+The questions about the house and the road at the start turned out to be just two comparisons of a distance with the radius. That is the thing to remember: a circle is the set of points exactly $R$ from the centre, and almost every problem about it starts from the word "distance".
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Try it yourself first, and do not worry about mistakes; then open the solution and compare it with your own thinking.
 
 :::exercise
 Write the equation of the circle with centre $(-2, 3)$ and radius $4$.
