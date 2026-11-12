@@ -82,10 +82,10 @@ Vậy mô hình phù hợp nhất là hàm mũ, chọn đáp án **C**.
 
 :::note Mười hai tuần trước kì thi
 1. **Tuần 1–2:** [Số, xấp xỉ và toán tài chính](lesson:ibai-number-finance), rồi [Mô hình hàm số](lesson:ibai-function-models). Học thành thạo TVM solver và các menu hồi quy trên chính máy tính của bạn.
-2. **Tuần 3–4:** hình học, lượng giác và sơ đồ Voronoi.
-3. **Tuần 5–6:** thống kê, tương quan và kiểm định.
-4. **Tuần 7–8:** giải tích ứng dụng; học sinh HL học thêm ma trận, lí thuyết đồ thị và phương trình vi phân.
-5. **Tuần 9–12:** làm trọn đề có bấm giờ, rồi ghi sổ lỗi sai: với mỗi điểm bị mất, ghi rõ do phương pháp, do làm tròn hay do đọc đề.
+2. **Tuần 3–4:** [Hình học, lượng giác và sơ đồ Voronoi](lesson:ibai-geometry-voronoi).
+3. **Tuần 5–6:** [Thống kê, tương quan và kiểm định](lesson:ibai-statistics-tests).
+4. **Tuần 7–8:** [Giải tích ứng dụng](lesson:ibai-calculus); học sinh HL học thêm [Ma trận và lí thuyết đồ thị](lesson:ibai-hl-matrices-graphs) và [Thống kê nâng cao và phương trình vi phân](lesson:ibai-hl-further-statistics).
+5. **Tuần 9–12:** làm trọn đề có bấm giờ, bắt đầu với [đề luyện SL](lesson:ibai-practice-paper-sl), rồi ghi sổ lỗi sai: với mỗi điểm bị mất, ghi rõ do phương pháp, do làm tròn hay do đọc đề.
 :::
 
 :::warning Những cái bẫy thường gặp

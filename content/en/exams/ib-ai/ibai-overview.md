@@ -82,10 +82,10 @@ So the most suitable model is exponential, answer **C**.
 
 :::note Twelve weeks before the exams
 1. **Weeks 1–2:** [Number, approximation and financial maths](lesson:ibai-number-finance), then [Function models](lesson:ibai-function-models). Learn the TVM solver and regression menus on your own GDC.
-2. **Weeks 3–4:** geometry, trigonometry and Voronoi diagrams.
-3. **Weeks 5–6:** statistics, correlation and hypothesis tests.
-4. **Weeks 7–8:** applied calculus; HL students add matrices, graph theory and differential equations.
-5. **Weeks 9–12:** full timed papers, then an error log: for each lost mark, write whether it was method, rounding or reading the question.
+2. **Weeks 3–4:** [Geometry, trigonometry and Voronoi diagrams](lesson:ibai-geometry-voronoi).
+3. **Weeks 5–6:** [Statistics, correlation and hypothesis tests](lesson:ibai-statistics-tests).
+4. **Weeks 7–8:** [Applied calculus](lesson:ibai-calculus); HL students add [Matrices and graph theory](lesson:ibai-hl-matrices-graphs) and [Further statistics and differential equations](lesson:ibai-hl-further-statistics).
+5. **Weeks 9–12:** full timed papers, starting with the [SL practice paper](lesson:ibai-practice-paper-sl), then an error log: for each lost mark, write whether it was method, rounding or reading the question.
 :::
 
 :::warning Common traps
