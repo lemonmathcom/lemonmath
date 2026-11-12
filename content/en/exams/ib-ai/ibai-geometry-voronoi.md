@@ -26,9 +26,9 @@ A cylindrical tank has radius $1.2$ m and height $3$ m. How many litres of water
 
 **Solution.** The volume of a cylinder is $V=\pi r^2h=\pi(1.2)^2(3)\approx13.57\text{ m}^3$.
 
-Since $1\text{ m}^3=1000$ litres, the tank holds about $13.57\times1000\approx13\,600$ litres, to three significant figures.
+Since $1\text{ m}^3=1000$ litres, the tank holds about $13.57\times1000\approx13{,}600$ litres, to three significant figures.
 
-So the full tank holds about $13\,600$ litres.
+So the full tank holds about $13{,}600$ litres.
 :::
 
 ## Non-right-angled triangles and bearings
@@ -56,7 +56,7 @@ A Voronoi diagram divides the plane around a set of points called **sites**. Eac
 
 To find the perpendicular bisector of $P(x_1,y_1)$ and $Q(x_2,y_2)$: find the midpoint, find the gradient $m$ of $PQ$, then use the gradient $-\dfrac1m$ through the midpoint.
 
-:::graph Voronoi diagram for the sites $A(0,0)$, $B(6,0)$ and $C(2,6)$
+:::graph Voronoi diagram for the sites $A(0, 0)$, $B(6, 0)$ and $C(2, 6)$
 alt: Three sites A, B and C with three edges meeting at the vertex V at (3, 2.33); one edge goes straight down along x = 3, one goes left and up, one goes right and up
 x: -1..8
 y: -1..7
@@ -71,11 +71,11 @@ point: (3, 2.333) "V" right
 :::
 
 :::example Finding an edge and a vertex
-For the sites $A(0,0)$, $B(6,0)$ and $C(2,6)$, find the equation of the edge between the cells of $A$ and $C$, and the coordinates of the vertex $V$.
+For the sites $A(0, 0)$, $B(6, 0)$ and $C(2, 6)$, find the equation of the edge between the cells of $A$ and $C$, and the coordinates of the vertex $V$.
 
 **Solution.** The edge between $A$ and $B$ is the perpendicular bisector of $AB$, the vertical line $x=3$.
 
-For $A$ and $C$: the midpoint is $(1,3)$ and the gradient of $AC$ is $\dfrac{6}{2}=3$, so the bisector has gradient $-\dfrac13$:
+For $A$ and $C$: the midpoint is $(1, 3)$ and the gradient of $AC$ is $\dfrac{6}{2}=3$, so the bisector has gradient $-\dfrac13$:
 $$y-3=-\frac13(x-1),\qquad y=-\frac13x+\frac{10}{3}.$$
 
 The vertex lies on both bisectors, so $x=3$ and $y=-1+\dfrac{10}{3}=\dfrac73\approx2.33$.
@@ -89,13 +89,13 @@ Two common uses of a Voronoi diagram:
 - **The largest empty circle:** to place something as far as possible from all sites (a new shop away from competitors, or a facility away from homes), look at the **vertices** inside the region; the best one is the vertex furthest from its nearest sites.
 
 :::example Nearest neighbour
-Rainfall is measured at three stations: $A$ recorded $12$ mm, $B$ recorded $18$ mm and $C$ recorded $25$ mm. Using the diagram above, what is the nearest-neighbour estimate of the rainfall at the point $(5,1)$?
+Rainfall is measured at three stations: $A$ recorded $12$ mm, $B$ recorded $18$ mm and $C$ recorded $25$ mm. Using the diagram above, what is the nearest-neighbour estimate of the rainfall at the point $(5, 1)$?
 A. $12$ mm
 B. $25$ mm
 C. $18.3$ mm
 D. $18$ mm
 
-**Solution.** The point $(5,1)$ has $x>3$, so it is on $B$'s side of the edge $x=3$. Checking distances confirms it: $(5,1)$ is $\sqrt{4+1}\approx2.24$ from $B$, compared with $\sqrt{25+1}\approx5.10$ from $A$ and $\sqrt{9+25}\approx5.83$ from $C$.
+**Solution.** The point $(5, 1)$ has $x>3$, so it is on $B$'s side of the edge $x=3$. Checking distances confirms it: $(5, 1)$ is $\sqrt{4+1}\approx2.24$ from $B$, compared with $\sqrt{25+1}\approx5.10$ from $A$ and $\sqrt{9+25}\approx5.83$ from $C$.
 
 So the estimate is the value at $B$, $18$ mm, answer **D**. Option C averages the three values, which is not nearest-neighbour interpolation.
 :::
@@ -144,7 +144,7 @@ Find the area of a triangle with two sides $7$ m and $9$ m and an included angle
 **What you need:** $\text{Area}=\tfrac12ab\sin C$.
 
 ::solution
-The angle of $50^\circ$ lies between the two given sides, so the area is $\tfrac12(7)(9)\sin50^\circ$.
+The formula $\tfrac12ab\sin C$ needs the angle between the two sides. The angle of $50^\circ$ lies between the two given sides, so the area is $\tfrac12(7)(9)\sin50^\circ$.
 
 This gives $31.5\times0.7660\approx24.1\text{ m}^2$.
 
@@ -170,15 +170,15 @@ So the ball has surface area about $201\text{ cm}^2$ and volume about $268\text{
 :::
 
 :::exercise
-Find the equation of the perpendicular bisector of the points $P(1,2)$ and $Q(5,6)$.
+Find the equation of the perpendicular bisector of the points $P(1, 2)$ and $Q(5, 6)$.
 
 ::hint
 **What you need:** midpoint and the negative reciprocal of the gradient.
 
 ::solution
-The midpoint of $PQ$ is $\left(\dfrac{1+5}{2},\dfrac{2+6}{2}\right)=(3,4)$, and the gradient of $PQ$ is $\dfrac{6-2}{5-1}=1$.
+The midpoint of $PQ$ is $\left(\dfrac{1+5}{2},\dfrac{2+6}{2}\right)=(3, 4)$, and the gradient of $PQ$ is $\dfrac{6-2}{5-1}=1$.
 
-The bisector is perpendicular to $PQ$, so its gradient is $-1$, and it passes through $(3,4)$: $y-4=-(x-3)$, that is $y=-x+7$.
+The bisector is perpendicular to $PQ$, so its gradient is $-1$, and it passes through $(3, 4)$: $y-4=-(x-3)$, that is $y=-x+7$.
 
 So the perpendicular bisector is $y=-x+7$.
 
@@ -186,15 +186,15 @@ So the perpendicular bisector is $y=-x+7$.
 :::
 
 :::exercise
-Sites are at $A(0,0)$, $B(6,0)$ and $C(2,6)$. In whose cell is the point $(1,4)$?
+Sites are at $A(0, 0)$, $B(6, 0)$ and $C(2, 6)$. In whose cell is the point $(1, 4)$?
 
 ::hint
 **What you need:** compare the distances to the three sites.
 
 ::solution
-The squared distances from $(1,4)$ are $1+16=17$ to $A$, $25+16=41$ to $B$ and $1+4=5$ to $C$.
+The squared distances from $(1, 4)$ are $1+16=17$ to $A$, $25+16=41$ to $B$ and $1+4=5$ to $C$.
 
-The smallest is to $C$, so $(1,4)$ lies in the cell of $C$.
+The smallest is to $C$, so $(1, 4)$ lies in the cell of $C$.
 
 **Answer.** The cell of $C$.
 :::
@@ -218,7 +218,7 @@ So the ship is $15$ km from the start on a bearing of about $097^\circ$.
 :::
 
 :::exercise
-A company wants to build a warehouse inside the triangle formed by the sites $A(0,0)$, $B(6,0)$ and $C(2,6)$ (in km), as far as possible from all three towns. Use the Voronoi diagram to suggest a location and find its distance to the nearest town.
+A company wants to build a warehouse inside the triangle formed by the sites $A(0, 0)$, $B(6, 0)$ and $C(2, 6)$ (in km), as far as possible from all three towns. Use the Voronoi diagram to suggest a location and find its distance to the nearest town.
 
 ::hint
 **What you need:** the vertex $V\left(3,\tfrac73\right)$ is equidistant from all three sites.
@@ -240,7 +240,7 @@ A conical paper cup has radius $4$ cm and height $10$ cm. How many full cups can
 **What you need:** $V=\tfrac13\pi r^2h$ and $2$ litres $=2000\text{ cm}^3$.
 
 ::solution
-The volume of one cup is $\tfrac13\pi(4)^2(10)\approx167.6\text{ cm}^3$.
+The cup is a cone, so the volume of one cup is $\tfrac13\pi(4)^2(10)\approx167.6\text{ cm}^3$.
 
 Two litres is $2000\text{ cm}^3$, and $\dfrac{2000}{167.6}\approx11.9$.
 
@@ -250,19 +250,19 @@ So $11$ cups can be filled completely.
 :::
 
 :::exercise Challenge
-Three phone masts are at $(0,0)$, $(8,0)$ and $(0,6)$, in km. Find the Voronoi vertex and explain what it means.
+Three phone masts are at $(0, 0)$, $(8, 0)$ and $(0, 6)$, in km. Find the Voronoi vertex and explain what it means.
 
 ::hint
 **What you need:** the bisectors of the first two pairs are $x=4$ and $y=3$.
 
 ::solution
-The perpendicular bisector of $(0,0)$ and $(8,0)$ is $x=4$, and that of $(0,0)$ and $(0,6)$ is $y=3$, so the vertex is $(4,3)$.
+The perpendicular bisector of $(0, 0)$ and $(8, 0)$ is $x=4$, and that of $(0, 0)$ and $(0, 6)$ is $y=3$, so the vertex is $(4, 3)$.
 
-Its distance to each mast is $\sqrt{4^2+3^2}=5$ km; you can check that $(4,3)$ is also $\sqrt{16+9}=5$ km from $(8,0)$ and from $(0,6)$.
+Its distance to each mast is $\sqrt{4^2+3^2}=5$ km; you can check that $(4, 3)$ is also $\sqrt{16+9}=5$ km from $(8, 0)$ and from $(0, 6)$.
 
-So the vertex $(4,3)$ is the point inside the region that is furthest from its nearest mast, $5$ km away: the worst place for signal.
+So the vertex $(4, 3)$ is the point inside the region that is furthest from its nearest mast, $5$ km away: the worst place for signal.
 
-**Answer.** $(4,3)$, $5$ km from each mast.
+**Answer.** $(4, 3)$, $5$ km from each mast.
 :::
 
 :::quiz
@@ -303,13 +303,13 @@ D. using the value at the site whose cell contains the point
 The cell's site is the nearest site.
 
 ::tf
-For sites $(0,0)$ and $(4,0)$, decide whether each statement is true or false.
+For sites $(0, 0)$ and $(4, 0)$, decide whether each statement is true or false.
 a) The edge between their cells is $x=2$.
-b) The point $(1,5)$ is in the cell of $(0,0)$.
-c) The point $(2,3)$ is equidistant from both sites.
-d) The point $(3,-2)$ is in the cell of $(0,0)$.
+b) The point $(1, 5)$ is in the cell of $(0, 0)$.
+c) The point $(2, 3)$ is equidistant from both sites.
+d) The point $(3, -2)$ is in the cell of $(0, 0)$.
 ::key T T T F
-$(3,-2)$ has $x>2$, so it is closer to $(4,0)$.
+$(3, -2)$ has $x>2$, so it is closer to $(4, 0)$.
 
 ::sa
 Find the area of a triangle with sides $6$ and $8$ and an included angle of $90^\circ$.
@@ -317,7 +317,7 @@ Find the area of a triangle with sides $6$ and $8$ and an included angle of $90^
 $\tfrac12(6)(8)\sin90^\circ=24$.
 
 ::sa
-Find the distance from $(0,0)$ to $(4,3)$.
+Find the distance from $(0, 0)$ to $(4, 3)$.
 ::key 5
 $\sqrt{16+9}=5$.
 :::

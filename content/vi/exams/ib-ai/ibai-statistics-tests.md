@@ -162,7 +162,7 @@ Trong một bảng tiếp liên có tổng chung $200$, một ô nằm ở hàng
 **Kiến thức:** $\dfrac{\text{tổng hàng}\times\text{tổng cột}}{\text{tổng chung}}$.
 
 ::solution
-Nếu hai biến độc lập, tần số kì vọng của ô là $\dfrac{80\times50}{200}=20$.
+Tần số kì vọng là số ta chờ đợi ở ô đó nếu hai biến không liên quan. Nếu hai biến độc lập, tần số kì vọng của ô là $\dfrac{80\times50}{200}=20$.
 
 Vậy tần số kì vọng là $20$.
 
@@ -176,7 +176,7 @@ Kiểm định $\chi^2$ về tính độc lập cho bảng có $3$ hàng và $4$
 **Kiến thức:** $(r-1)(c-1)$.
 
 ::solution
-Số bậc tự do là $(\text{số hàng}-1)(\text{số cột}-1)=(3-1)(4-1)=2\times3$.
+Khi biết tổng các hàng và các cột, chỉ có $(\text{số hàng}-1)(\text{số cột}-1)$ ô được chọn tự do. Số bậc tự do là $(\text{số hàng}-1)(\text{số cột}-1)=(3-1)(4-1)=2\times3$.
 
 Vậy kiểm định có $6$ bậc tự do.
 

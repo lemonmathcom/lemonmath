@@ -144,7 +144,7 @@ Tính diện tích tam giác có hai cạnh $7$ m và $9$ m, góc xen giữa $50
 **Kiến thức:** $\text{Diện tích}=\tfrac12ab\sin C$.
 
 ::solution
-Góc $50^\circ$ nằm giữa hai cạnh đã cho, nên diện tích là $\tfrac12(7)(9)\sin50^\circ$.
+Công thức $\tfrac12ab\sin C$ cần góc xen giữa hai cạnh. Góc $50^\circ$ nằm giữa hai cạnh đã cho, nên diện tích là $\tfrac12(7)(9)\sin50^\circ$.
 
 Ta được $31{,}5\times0{,}7660\approx24{,}1\text{ m}^2$.
 
@@ -242,7 +242,7 @@ Một cốc giấy hình nón có bán kính $4$ cm và chiều cao $10$ cm. M�
 **Kiến thức:** $V=\tfrac13\pi r^2h$ và $2$ lít $=2000\text{ cm}^3$.
 
 ::solution
-Thể tích một cốc là $\tfrac13\pi(4)^2(10)\approx167{,}6\text{ cm}^3$.
+Cốc có dạng hình nón nên thể tích một cốc là $\tfrac13\pi(4)^2(10)\approx167{,}6\text{ cm}^3$.
 
 Hai lít là $2000\text{ cm}^3$, và $\dfrac{2000}{167{,}6}\approx11{,}9$.
 

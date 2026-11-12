@@ -162,7 +162,7 @@ In a contingency table with grand total $200$, a cell is in a row with total $80
 **What you need:** $\dfrac{\text{row total}\times\text{column total}}{\text{grand total}}$.
 
 ::solution
-If the two variables were independent, the cell's expected frequency would be $\dfrac{80\times50}{200}=20$.
+The expected frequency is what we would expect in that cell if the variables were unrelated. If the two variables were independent, the cell's expected frequency would be $\dfrac{80\times50}{200}=20$.
 
 So the expected frequency is $20$.
 
@@ -176,7 +176,7 @@ How many degrees of freedom does a $\chi^2$ test for independence have for a tab
 **What you need:** $(r-1)(c-1)$.
 
 ::solution
-The number of degrees of freedom is $(\text{rows}-1)(\text{columns}-1)=(3-1)(4-1)=2\times3$.
+Once the row and column totals are known, only $(\text{rows}-1)(\text{columns}-1)$ cells can be chosen freely. The number of degrees of freedom is $(\text{rows}-1)(\text{columns}-1)=(3-1)(4-1)=2\times3$.
 
 So the test has $6$ degrees of freedom.
 
