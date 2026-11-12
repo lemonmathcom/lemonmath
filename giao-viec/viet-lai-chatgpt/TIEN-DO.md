@@ -1,6 +1,6 @@
 # Viết lại 46 bài ChatGPT (B096–B141, lớp 6–7)
 
-Quyết định 12/11/2026: bản ChatGPT nộp (sinh bằng script, gợi ý chung chung, lời giải cụt, không có hình) không đăng. Chủ dự án chọn để tài khoản Pro tự viết lại kỹ cả 46 bài, mỗi lượt khoảng 4 bài, đạt chuẩn 2e + 2f của WRITING-SPEC.
+Quyết định 12/11/2026: bản ChatGPT nộp (sinh bằng script, gợi ý chung chung, lời giải cụt, không có hình) không đăng. Chủ dự án chọn để tài khoản Pro tự viết lại kỹ cả 46 bài, mỗi lượt 7 bài (tăng từ 4 lên 7 theo yêu cầu chủ dự án ngày 12/11/2026), đạt chuẩn 2e + 2f của WRITING-SPEC.
 
 - Bản nháp gốc của ChatGPT (chỉ để tham khảo đề mục, không chép): `giao-viec/viet-lai-chatgpt/nhap/content/...`
 - Mỗi bài: viết mới `content/vi/gN/<id>.md` và `content/en/gN/<id>.md`, `node tools/check.js <id>` sạch, rồi đánh dấu ở bảng dưới, build + push.
