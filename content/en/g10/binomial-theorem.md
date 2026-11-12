@@ -13,11 +13,11 @@ minutes: 20
 
 Minh puts $20$ million dong into a savings account at $5\%$ interest a year, and the interest is added to the balance at the end of each year. After $4$ years he has $20\cdot1.05^4$ million dong. Without a calculator, how can we compute $1.05^4$ quickly and exactly? And if we only need to know roughly how many million he has, is there a shorter way to estimate it?
 
-We write $1.05^4=(1+0.05)^4$. So the question becomes: how do we expand $(a+b)^4$? This lesson gives the formulas for $(a+b)^4$ and $(a+b)^5$, and they come straight from the counting in [Permutations, arrangements and combinations](lesson:permutations-combinations).
+The first trick is to split the awkward number into two easy ones: $1.05^4=(1+0.05)^4$. Now the question is: what do you get when you multiply $(a+b)$ by itself four times? Doing it by hand is long, and it is easy to drop a term. Luckily the coefficients in the answer are not random at all; they are the very numbers you met when counting in [Permutations, arrangements and combinations](lesson:permutations-combinations). Once you see why, you can write the expansion almost without working.
 
 ## Where do the coefficients come from?
 
-Let us multiply out $(a+b)^3=(a+b)(a+b)(a+b)$ systematically. Each term of the product is made by taking from **each bracket** either an $a$ or a $b$, and multiplying. For example, taking $b$ from the second bracket and $a$ from the other two gives $a\cdot b\cdot a=a^2b$.
+Let us start with a small power, $(a+b)^3=(a+b)(a+b)(a+b)$, and multiply it out slowly to see what happens. Each term of the product is made by taking from **each bracket** either an $a$ or a $b$, and multiplying. For example, taking $b$ from the second bracket and $a$ from the other two gives $a\cdot b\cdot a=a^2b$.
 
 | Brackets giving $b$ | Term | Ways to choose the brackets giving $b$ |
 |---|---|---|
@@ -30,7 +30,7 @@ Collecting like terms gives exactly the familiar identity:
 
 $$(a+b)^3=a^3+3a^2b+3ab^2+b^3.$$
 
-The coefficient of $a^{3-k}b^k$ is the number of ways to choose $k$ of the $3$ brackets to give $b$, that is $\binom{3}{k}$. The same argument works for any exponent.
+Look at the last column of the table: the $3$ in front of $a^2b$ did not appear by chance. It counts the ways to pick one bracket to give $b$. In general, the coefficient of $a^{3-k}b^k$ is the number of ways to choose $k$ of the $3$ brackets to give $b$, that is $\binom{3}{k}$. Nothing in this argument depends on the number $3$, so it works for any exponent.
 
 ## The expansion for $n=4$ and $n=5$
 
@@ -55,7 +55,7 @@ Row $n$ (counting the top row as row $0$) lists $\binom{n}{0}, \binom{n}{1}, \do
 
 ## Expanding a binomial
 
-Method: identify $a$ and $b$ (including coefficients and signs), take the row of coefficients from Pascal's triangle, and raise **both** $a$ and $b$ to their powers.
+To expand, you only need three steps: identify $a$ and $b$ (carry their coefficients and signs with them), take the row of coefficients from Pascal's triangle, and raise **both** $a$ and $b$ to their powers. The last step is where terms most often go wrong, so write the brackets in full to be safe.
 
 :::example Expanding $(x+2)^4$
 Expand $(x+2)^4$.
@@ -69,7 +69,7 @@ So $(x+2)^4=x^4+8x^3+24x^2+32x+16$.
 **Check.** Put $x=1$: the left side is $3^4=81$, the right side is $1+8+24+32+16=81$.
 :::
 
-When $b$ is negative, its odd powers are negative, so the signs of the terms alternate.
+A minus sign is nothing to fear. Just treat $b$ as a negative number: its even powers are positive and its odd powers are negative, so the signs of the terms simply alternate.
 
 :::example With a minus sign
 Expand $(2x-1)^5$.
@@ -83,7 +83,7 @@ So $(2x-1)^5=32x^5-80x^4+80x^3-40x^2+10x-1$.
 
 ## Finding just one coefficient
 
-Often we need only one term. In $(a+b)^n$ the term containing $b^k$ is $\binom{n}{k}a^{n-k}b^k$; we choose the right $k$ without writing out the whole expansion.
+Questions often ask for just one term. Writing out the whole expansion takes time and invites mistakes. Instead, we write one "typical" term: in $(a+b)^n$ the term containing $b^k$ is $\binom{n}{k}a^{n-k}b^k$. Then we just choose the $k$ that lands on the term we want.
 
 :::example The coefficient of $x^3$
 Find the coefficient of $x^3$ in the expansion of $(1+2x)^5$.
@@ -95,7 +95,7 @@ $$\binom{5}{3}\cdot2^3=10\cdot8=80.$$
 So the coefficient of $x^3$ is $80$.
 :::
 
-The method is the same when $b$ has $x$ in the denominator: add up the powers of $x$ and set the total equal to the power we want.
+What if $x$ also sits in a denominator? The method is exactly the same, with a little more care: collect all the powers of $x$ into one exponent, then set that exponent equal to the power we want.
 
 :::example The constant term
 Find the term independent of $x$ in the expansion of $\left(x+\dfrac2x\right)^4$ (with $x\ne0$).
@@ -113,7 +113,7 @@ So the constant term is $24$.
 
 ## Sum of coefficients and approximations
 
-Putting $x=1$ into a polynomial leaves each term equal to its coefficient, so we get the **sum of the coefficients**. Putting $a=b=1$ into the expansion gives $\binom{5}{0}+\binom{5}{1}+\cdots+\binom{5}{5}=2^5=32$.
+Here is a small trick worth remembering. Put $x=1$ into a polynomial and every power of $x$ becomes $1$, so each term is left with just its coefficient, and we get the **sum of the coefficients** straight away. Putting $a=b=1$ into the expansion gives $\binom{5}{0}+\binom{5}{1}+\cdots+\binom{5}{5}=2^5=32$.
 
 :::example Sum of the coefficients
 Find the sum of the coefficients in the expansion of $(3x-1)^5$.
@@ -125,7 +125,7 @@ $$(3\cdot1-1)^5=2^5=32.$$
 So the sum of the coefficients is $32$. (The full expansion is $243x^5-405x^4+270x^3-90x^2+15x-1$, and $243-405+270-90+15-1=32$.)
 :::
 
-Now we can answer the question about the savings account from the start of the lesson.
+We now have all the tools to go back to Minh's savings. Notice how quickly the terms shrink: that is exactly why an estimate from the first few terms works so well.
 
 :::example Minh's savings
 Compute $1.05^4$ with the expansion, then the amount Minh has after $4$ years. How far off is the result if we use only the first three terms?
@@ -142,6 +142,8 @@ So after $4$ years Minh has $24\,310\,125$ dong; the estimate from the first thr
 :::
 
 :::warning Common mistakes
+These slips turn up in tests again and again. Read them carefully once, and you will know where to stop and check in your own work.
+
 - **Forgetting to raise the coefficient.** Writing the term $10(2x)^3(-1)^2$ as $10\cdot2x^3$. Wrong, because $(2x)^3=8x^3$. Right: $10\cdot8x^3=80x^3$.
 - **Losing the signs.** Writing every term of $(2x-1)^5$ as positive. Wrong, because $(-1)^k$ is negative for odd $k$. Right: the signs alternate $+,-,+,-,+,-$.
 - **Writing $(a+b)^n=a^n+b^n$.** Wrong: with $a=b=1$, $n=4$, the left side is $16$ and the right side is $2$. Right: there must be all $n+1$ terms.
@@ -170,9 +172,11 @@ So after $4$ years Minh has $24\,310\,125$ dong; the estimate from the first thr
 - One coefficient: write $\binom{n}{k}a^{n-k}b^k$, collect the powers of $x$, choose $k$.
 - Sum of coefficients: put $x=1$. Approximating $(1+h)^n$ for small $h$: use the first few terms.
 
+The question about $1.05^4$ at the start turns out not to need a calculator: remember that each coefficient counts ways of choosing brackets, add a few terms, and you are done. If you forget the formula, just draw Pascal's triangle again; it is always there to help.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Try it yourself first, and do not worry about mistakes; then open the solution and compare it with your own thinking.
 
 :::exercise
 Expand $(x+1)^5$.

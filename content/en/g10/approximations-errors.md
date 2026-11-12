@@ -13,7 +13,7 @@ minutes: 20
 
 A bicycle wheel has a diameter of $60$ cm. Its true circumference is $60\pi$ cm, but $\pi$ has infinitely many decimal places, so nobody can compute it "all the way". An uses $\pi\approx3.14$ and gets a circumference of $188.4$ cm. Binh uses $\pi\approx\dfrac{22}{7}$ and gets about $188.57$ cm. Whose result is closer to the true circumference, and by how much can it be off?
 
-In real life almost every number you meet, from a length to a mass, is an **approximate value**. The important question is not "is this number exact?" but "how far off can this number be?". This lesson gives you the tools to answer that.
+Look around: the height on a health record, the weight printed on a bag of rice, the distance on a map. Almost every one of them is an **approximate value**. Nobody can measure anything perfectly, so asking "is this number exact?" nearly always gets the answer "no". The more useful question is: "how far off can this number be?". Once you can answer that, you know how much to trust a number.
 
 ## Approximate values and absolute error
 
@@ -24,7 +24,7 @@ Using a calculator with many digits, $60\pi=188.4955\ldots$ cm. Compare the two 
 | An | $188.4$ | $188.4955\ldots-188.4\approx0.096$ |
 | Binh | $188.5714\ldots$ | $188.5714\ldots-188.4955\ldots\approx0.076$ |
 
-Binh's result is slightly closer. What we just did is measure the **distance** between the true value and the approximate value. That distance has its own name.
+Binh's result is slightly closer. To compare them we did something very natural: we measured the **distance** between the true value and the approximate value. That distance is used so often that it has a name of its own.
 
 :::definition Absolute error and error bound
 Let $a$ be the true value and $\bar{a}$ an approximate value of it. The **absolute error** of $\bar{a}$ is
@@ -33,7 +33,7 @@ Usually we do not know $a$, so we cannot compute $\Delta_{\bar a}$. Instead we f
 $$a = \bar{a} \pm d,\quad\text{meaning}\quad \bar{a} - d \leq a \leq \bar{a} + d.$$
 :::
 
-The smaller $d$ is, the better the approximation. Our first example is the most familiar approximate value of all.
+You can think of $d$ as a promise: "the true value is no further than $d$ from $\bar a$". The tighter the promise, that is, the smaller $d$, the more you can trust the approximation. We start with the most familiar approximate value of all.
 
 :::example Writing $\pi$ as $3.14\pm d$
 Given $\pi=3.14159265\ldots$, find the absolute error of the approximation $3.14$ and choose a neat error bound $d$.
@@ -58,7 +58,7 @@ point: (3.14, 0) "ā" above-left
 open: (3.14159, 0) "π" above-right
 :::
 
-With $\pi$ we are lucky to know many digits. With a real measurement we only know that the true value lies in some interval.
+With $\pi$ we are lucky: we know so many digits that we can work out the real error. With a tape measure in your hand it is different. You never know the true value, only that it lies somewhere in an interval. That is when $d$ really earns its keep.
 
 :::example When the true value is unknown
 A garden is measured several times and every result lies between $24.6$ m and $25.0$ m. Choose an approximate value $\bar a$ and an error bound $d$ for its length $a$.
@@ -74,7 +74,7 @@ So the length of the garden is $a=24.8\pm0.2$ (m).
 
 ## Relative error
 
-Is an error of $1$ cm serious? For the length of a pen, yes. For the length of a football pitch, hardly at all. To decide which measurement is **more accurate**, we must compare the error with the size of the quantity.
+Does being $1$ cm out matter? For a pen, quite a lot, because a pen is only about fifteen centimetres long. For a football pitch, nobody would notice. The same error weighs differently depending on what is being measured. So to decide which measurement is **more accurate**, we have to put the error next to the size of the quantity and compare.
 
 :::definition Relative error
 The **relative error** of the approximate value $\bar{a}$ is
@@ -94,7 +94,7 @@ So the pitch measurement is more accurate, even though its error bound of $0.2$ 
 
 ## Rounding
 
-To round a number to a given place, look at the digit just to the right of that place.
+You have been rounding since primary school. Here we recall the rule, then ask how far rounding can move the original number. To round a number to a given place, look at the digit just to the right of that place.
 
 - If that digit is **less than $5$**: keep the digits on the left and replace the digits on the right by $0$ (or drop them if they are decimals).
 - If that digit is **$5$ or more**: add $1$ to the digit in the rounding place, then do the same.
@@ -105,7 +105,7 @@ For example, $4\,863$ rounded to the nearest hundred is $4\,900$ (because the te
 When a number is rounded to a given place, the absolute error is at most **half a unit** of that place.
 :::
 
-**Why?** The rounded value is the multiple of that place's unit closest to the original number. Two consecutive multiples are one unit apart, so the original number is at most half a unit from the nearest one.
+**Why?** Think of the marks on a ruler. When you round to the nearest hundred, the "marks" are $4\,800$, $4\,900$, $5\,000$, … and you pick the mark closest to your number. Two neighbouring marks are exactly one unit apart, so your number can never be more than half a unit from the nearest one.
 
 :::example Rounding and its error
 Round $7\,254\,836$ to the nearest thousand and $0.58276$ to two decimal places. Find the absolute error in each case.
@@ -120,7 +120,7 @@ So the rounded values are $7\,255\,000$ (error $164$) and $0.58$ (error $0.00276
 
 ## Approximations to a given error bound
 
-Two questions come up often, and both rely on the rule "the error is at most half a unit".
+The rule "the error is at most half a unit" answers two questions that come up often. They sound alike but go in opposite directions, so read them slowly.
 
 **1. Given a known number and an error bound $d$, find an approximation.** Round the number to the place of the first non-zero digit (from the left) of $d$. The error is then at most half a unit of that place, so at most $d$.
 
@@ -140,7 +140,7 @@ $$\sqrt5\approx2.236,\qquad |\sqrt5-2.236|=0.000067\ldots\le0.001.$$
 So an approximation of $\sqrt5$ is $2.24$ with error bound $0.01$, and $2.236$ with error bound $0.001$.
 :::
 
-The second question goes the other way: we already have $\bar a$ and $d$, and we must drop the digits that cannot be trusted.
+Now the second question. This time we already have $\bar a$ and $d$; the job is to be brave and drop the digits that $d$ tells us cannot be trusted.
 
 :::example The rounded form of an approximate value
 (a) A road is $\bar a=3\,527\,418$ mm long with error bound $d=300$ mm. Write the rounded form of $\bar a$.
@@ -156,6 +156,8 @@ So the rounded forms are $3\,527\,000$ mm and $12.5$ kg.
 :::
 
 :::warning Common mistakes
+Many students have tripped over the points below. Read them once, so you can spot them in your own work.
+
 - **Choosing $d$ too small.** Writing $\pi=3.14\pm0.001$. Wrong, because the real error is $0.00159\ldots>0.001$. Right: $d$ must be at least the real error, for example $d=0.002$.
 - **Comparing absolute errors of different quantities.** Concluding that the pen ($d=0.1$ cm) is measured more accurately than the pitch ($d=0.2$ m). Wrong, because the two quantities have very different sizes. Right: compare relative errors.
 - **Keeping too many digits.** For $\bar b=12.4637\pm0.02$, writing the rounded form as $12.46$. Wrong, because $d=0.02$ is larger than one hundredth. Right: $12.5$.
@@ -182,9 +184,11 @@ So the rounded forms are $3\,527\,000$ mm and $12.5$ kg.
 - Approximation of a number with error bound $d$: round to the place of the first non-zero digit of $d$.
 - Rounded form of $\bar a\pm d$: round to the lowest place whose unit is greater than $d$.
 
+Back to the bicycle wheel: neither An nor Binh has the "true" number, and neither needs it. What makes an approximation worth something is that we can say how far off it can be. Get into the habit of giving every number its error bound, and you will read data with a much clearer head.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Try it yourself first, and do not worry about mistakes; then open the solution and compare it with your own thinking.
 
 :::exercise
 Round $4\,863$ to the nearest ten and the nearest hundred; round $2.71828$ to two and to three decimal places.

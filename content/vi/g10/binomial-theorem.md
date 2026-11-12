@@ -13,11 +13,11 @@ minutes: 20
 
 Bạn Minh gửi tiết kiệm $20$ triệu đồng với lãi suất $5\%$ một năm, lãi được nhập vào gốc sau mỗi năm. Sau $4$ năm, số tiền là $20\cdot1{,}05^4$ triệu đồng. Không có máy tính, làm sao tính $1{,}05^4$ nhanh và chính xác? Và nếu chỉ cần biết số tiền khoảng bao nhiêu triệu, có cách nào ước lượng gọn hơn không?
 
-Ta viết $1{,}05^4=(1+0{,}05)^4$. Vậy câu hỏi trở thành: khai triển $(a+b)^4$ thế nào? Bài này cho ta công thức khai triển $(a+b)^4$ và $(a+b)^5$, và nó đến từ chính các phép đếm trong bài [Hoán vị, chỉnh hợp và tổ hợp](lesson:permutations-combinations).
+Mẹo đầu tiên là tách số khó thành tổng của hai số dễ: $1{,}05^4=(1+0{,}05)^4$. Câu hỏi bây giờ thành: nhân $(a+b)$ với chính nó bốn lần thì được gì? Nhân tay thì dài và dễ sót. May là các hệ số trong kết quả không hề ngẫu nhiên; chúng chính là những con số bạn đã gặp khi đếm ở bài [Hoán vị, chỉnh hợp và tổ hợp](lesson:permutations-combinations). Hiểu được vì sao, bạn sẽ viết ra khai triển gần như không cần nháp.
 
 ## Hệ số đến từ đâu?
 
-Hãy nhân $(a+b)^3=(a+b)(a+b)(a+b)$ một cách có hệ thống. Mỗi số hạng của tích được tạo ra bằng cách lấy từ **mỗi ngoặc** một chữ $a$ hoặc một chữ $b$, rồi nhân lại. Chẳng hạn lấy $b$ ở ngoặc thứ hai, $a$ ở hai ngoặc còn lại cho $a\cdot b\cdot a=a^2b$.
+Ta thử với số mũ nhỏ trước, $(a+b)^3=(a+b)(a+b)(a+b)$, và nhân thật chậm để thấy chuyện gì xảy ra. Mỗi số hạng của tích được tạo ra bằng cách lấy từ **mỗi ngoặc** một chữ $a$ hoặc một chữ $b$, rồi nhân lại. Chẳng hạn lấy $b$ ở ngoặc thứ hai, $a$ ở hai ngoặc còn lại cho $a\cdot b\cdot a=a^2b$.
 
 | Số ngoặc lấy $b$ | Số hạng | Số cách chọn các ngoặc lấy $b$ |
 |---|---|---|
@@ -30,7 +30,7 @@ Gom các số hạng giống nhau, ta được đúng hằng đẳng thức quen
 
 $$(a+b)^3=a^3+3a^2b+3ab^2+b^3.$$
 
-Hệ số của $a^{3-k}b^k$ chính là số cách chọn $k$ ngoặc (trong $3$ ngoặc) để lấy $b$, tức $C_3^k$. Lập luận này dùng được cho mọi số mũ.
+Bạn nhìn cột cuối của bảng: hệ số $3$ trước $a^2b$ không phải tự nhiên mà có. Nó đếm số cách chọn ra một ngoặc để lấy $b$. Nói chung, hệ số của $a^{3-k}b^k$ là số cách chọn $k$ ngoặc (trong $3$ ngoặc) để lấy $b$, tức $C_3^k$. Lập luận này chẳng dùng gì riêng cho số $3$, nên nó đúng với mọi số mũ.
 
 ## Công thức khai triển với $n=4$ và $n=5$
 
@@ -55,7 +55,7 @@ Hàng thứ $n$ (tính từ hàng $0$ ở đỉnh) liệt kê $C_n^0, C_n^1, \do
 
 ## Khai triển một nhị thức
 
-Cách làm: xác định $a$ và $b$ (kể cả hệ số và dấu), lấy hàng hệ số trong tam giác Pascal, rồi nâng **cả** $a$ và $b$ lên luỹ thừa.
+Khi khai triển, bạn chỉ cần ba bước: xác định $a$ và $b$ (nhớ mang theo cả hệ số và dấu), lấy hàng hệ số trong tam giác Pascal, rồi nâng **cả** $a$ lẫn $b$ lên luỹ thừa. Bước cuối là chỗ hay sót nhất, nên ta viết đủ ngoặc cho chắc.
 
 :::example Khai triển $(x+2)^4$
 Khai triển $(x+2)^4$.
@@ -69,7 +69,7 @@ Vậy $(x+2)^4=x^4+8x^3+24x^2+32x+16$.
 **Kiểm tra.** Thay $x=1$: vế trái $3^4=81$, vế phải $1+8+24+32+16=81$.
 :::
 
-Khi $b$ âm, các luỹ thừa bậc lẻ của $b$ âm, nên dấu các số hạng đan xen.
+Gặp dấu trừ cũng đừng ngại. Cứ coi $b$ là một số âm: luỹ thừa bậc chẵn của nó dương, bậc lẻ thì âm, nên dấu các số hạng cứ thế đan xen nhau.
 
 :::example Có dấu trừ
 Khai triển $(2x-1)^5$.
@@ -83,7 +83,7 @@ Vậy $(2x-1)^5=32x^5-80x^4+80x^3-40x^2+10x-1$.
 
 ## Chỉ tìm một hệ số
 
-Nhiều khi ta chỉ cần một số hạng. Trong $(a+b)^n$, số hạng chứa $b^k$ là $C_n^ka^{n-k}b^k$; ta chọn $k$ cho phù hợp mà không cần viết cả khai triển.
+Đề bài nhiều khi chỉ hỏi một số hạng. Viết hết cả khai triển thì vừa mất công vừa dễ nhầm. Thay vào đó, ta viết một số hạng "đại diện": trong $(a+b)^n$, số hạng chứa $b^k$ là $C_n^ka^{n-k}b^k$. Rồi chỉ việc chọn $k$ cho đúng chỗ cần tìm.
 
 :::example Hệ số của $x^3$
 Tìm hệ số của $x^3$ trong khai triển $(1+2x)^5$.
@@ -95,7 +95,7 @@ $$C_5^3\cdot2^3=10\cdot8=80.$$
 Vậy hệ số của $x^3$ là $80$.
 :::
 
-Cách làm tương tự khi $b$ chứa $x$ ở mẫu: ta cộng các số mũ của $x$ rồi cho bằng số mũ cần tìm.
+Khi $x$ nằm cả ở mẫu thì sao? Cách làm vẫn y như vậy, chỉ cần cẩn thận hơn một chút: gom tất cả các luỹ thừa của $x$ lại thành một số mũ, rồi cho số mũ ấy bằng số mũ cần tìm.
 
 :::example Số hạng không chứa $x$
 Tìm số hạng không chứa $x$ trong khai triển $\left(x+\dfrac2x\right)^4$ (với $x\ne0$).
@@ -113,7 +113,7 @@ Vậy số hạng không chứa $x$ là $24$.
 
 ## Tổng các hệ số và tính gần đúng
 
-Thay $x=1$ vào một đa thức thì mỗi số hạng chỉ còn lại hệ số của nó, nên ta được **tổng các hệ số**. Thay $a=b=1$ vào công thức khai triển cho $C_5^0+C_5^1+\cdots+C_5^5=2^5=32$.
+Có một mẹo nhỏ rất đáng nhớ. Thay $x=1$ vào một đa thức thì mọi luỹ thừa của $x$ đều bằng $1$, mỗi số hạng chỉ còn lại hệ số của nó, nên ta được ngay **tổng các hệ số**. Thay $a=b=1$ vào công thức khai triển cho $C_5^0+C_5^1+\cdots+C_5^5=2^5=32$.
 
 :::example Tổng các hệ số
 Tính tổng các hệ số trong khai triển $(3x-1)^5$.
@@ -125,7 +125,7 @@ $$(3\cdot1-1)^5=2^5=32.$$
 Vậy tổng các hệ số là $32$. (Khai triển đầy đủ là $243x^5-405x^4+270x^3-90x^2+15x-1$, và $243-405+270-90+15-1=32$.)
 :::
 
-Bây giờ ta trả lời câu hỏi về khoản tiết kiệm ở đầu bài.
+Đến đây ta đã đủ đồ nghề để quay lại khoản tiết kiệm của Minh. Bạn để ý xem các số hạng nhỏ đi nhanh thế nào: đó chính là lí do ước lượng bằng vài số hạng đầu lại tốt đến vậy.
 
 :::example Khoản tiết kiệm của Minh
 Tính $1{,}05^4$ bằng công thức khai triển, rồi tính số tiền của Minh sau $4$ năm. Nếu chỉ dùng ba số hạng đầu thì sai lệch bao nhiêu?
@@ -142,6 +142,8 @@ Vậy sau $4$ năm Minh có $24\,310\,125$ đồng; ước lượng bằng ba s�
 :::
 
 :::warning Những sai lầm thường gặp
+Mấy chỗ dưới đây rất hay gặp trong bài kiểm tra. Đọc kĩ một lần, lúc làm bài bạn sẽ tự dừng lại kiểm tra đúng chỗ.
+
 - **Quên nâng hệ số lên luỹ thừa.** Viết số hạng $10(2x)^3(-1)^2$ thành $10\cdot2x^3$. Sai vì $(2x)^3=8x^3$. Đúng: $10\cdot8x^3=80x^3$.
 - **Mất dấu.** Trong $(2x-1)^5$ viết mọi số hạng đều dương. Sai vì $(-1)^k$ âm khi $k$ lẻ. Đúng: dấu đan xen $+,-,+,-,+,-$.
 - **Viết $(a+b)^n=a^n+b^n$.** Sai: với $a=b=1$, $n=4$ thì vế trái bằng $16$, vế phải bằng $2$. Đúng: phải có đủ $n+1$ số hạng.
@@ -170,9 +172,11 @@ Vậy sau $4$ năm Minh có $24\,310\,125$ đồng; ước lượng bằng ba s�
 - Tìm một hệ số: viết $C_n^ka^{n-k}b^k$, gom số mũ của $x$, chọn $k$.
 - Tổng các hệ số: thay $x=1$. Tính gần đúng $(1+h)^n$ với $h$ nhỏ: dùng vài số hạng đầu.
 
+Câu hỏi đầu bài về $1{,}05^4$ hoá ra không cần máy tính: chỉ cần nhớ rằng mỗi hệ số đếm số cách chọn ngoặc, rồi cộng vài số hạng là đủ. Nếu quên công thức, bạn cứ vẽ lại tam giác Pascal; nó luôn ở đó để giúp bạn.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý các bước. Bạn cứ tự làm trước, sai cũng không sao, rồi hãy bấm xem lời giải để so cách nghĩ của mình.
 
 :::exercise
 Khai triển $(x+1)^5$.

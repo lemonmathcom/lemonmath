@@ -16,8 +16,8 @@ Quyết định 12/11/2026: chủ dự án muốn toàn bộ phần lời (mở 
 
 | # | Bài học | Trạng thái |
 |---|---|---|
-| 1 | g10/approximations-errors |  |
-| 2 | g10/binomial-theorem |  |
+| 1 | g10/approximations-errors | xong 12/11/2026 |
+| 2 | g10/binomial-theorem | xong 12/11/2026 |
 | 3 | g10/central-tendency |  |
 | 4 | g10/circles |  |
 | 5 | g10/conic-sections |  |

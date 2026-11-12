@@ -13,7 +13,7 @@ minutes: 20
 
 Một bánh xe đạp có đường kính $60$ cm. Chu vi đúng của nó là $60\pi$ cm, nhưng $\pi$ có vô số chữ số thập phân nên không ai tính "hết" được. Bạn An dùng $\pi\approx3{,}14$ và được chu vi $188{,}4$ cm. Bạn Bình dùng $\pi\approx\dfrac{22}{7}$ và được khoảng $188{,}57$ cm. Kết quả của ai gần với chu vi đúng hơn, và lệch nhiều nhất bao nhiêu?
 
-Trong đời sống, hầu hết các số ta gặp, từ độ dài đến khối lượng, đều là **số gần đúng**. Câu hỏi quan trọng không phải là "số này có chính xác không?" mà là "số này có thể lệch nhiều nhất bao nhiêu?". Bài này trang bị cho bạn công cụ để trả lời.
+Bạn để ý mà xem: chiều cao ghi trong sổ khám sức khoẻ, cân nặng trên bao gạo, quãng đường trên bản đồ, gần như số nào cũng là **số gần đúng**. Không ai đo được tuyệt đối đúng, nên hỏi "số này có chính xác không?" thì câu trả lời gần như luôn là "không". Câu hỏi đáng hỏi hơn là: "số này có thể lệch nhiều nhất bao nhiêu?". Biết được điều đó, bạn sẽ biết nên tin một con số đến đâu.
 
 ## Số gần đúng và sai số tuyệt đối
 
@@ -24,7 +24,7 @@ Dùng máy tính với nhiều chữ số, ta có $60\pi=188{,}4955\ldots$ cm. S
 | An | $188{,}4$ | $188{,}4955\ldots-188{,}4\approx0{,}096$ |
 | Bình | $188{,}5714\ldots$ | $188{,}5714\ldots-188{,}4955\ldots\approx0{,}076$ |
 
-Kết quả của Bình gần hơn một chút. Điều ta vừa làm là đo **khoảng cách** giữa giá trị đúng và giá trị gần đúng. Khoảng cách đó có tên gọi riêng.
+Kết quả của Bình gần hơn một chút. Để so như vậy, ta đã làm một việc rất tự nhiên: đo **khoảng cách** giữa giá trị đúng và giá trị gần đúng. Khoảng cách ấy dùng nhiều đến mức người ta đặt cho nó một cái tên.
 
 :::definition Sai số tuyệt đối và độ chính xác
 Gọi $a$ là giá trị đúng và $\bar{a}$ là một giá trị gần đúng của nó. **Sai số tuyệt đối** của $\bar{a}$ là
@@ -33,7 +33,7 @@ Thường ta không biết $a$ nên không tính được $\Delta_{\bar a}$. Khi
 $$a = \bar{a} \pm d,\quad\text{nghĩa là}\quad \bar{a} - d \leq a \leq \bar{a} + d.$$
 :::
 
-Số $d$ càng nhỏ thì số gần đúng càng tốt. Ví dụ đầu tiên là một số gần đúng quen thuộc nhất.
+Bạn có thể hình dung $d$ như một lời cam kết: "giá trị đúng không lệch khỏi $\bar a$ quá $d$". Lời cam kết càng chặt, tức $d$ càng nhỏ, thì số gần đúng càng đáng tin. Ta bắt đầu với con số gần đúng quen thuộc nhất.
 
 :::example Viết $\pi$ dưới dạng $3{,}14\pm d$
 Biết $\pi=3{,}14159265\ldots$ Tìm sai số tuyệt đối của số gần đúng $3{,}14$ và chọn một độ chính xác $d$ gọn.
@@ -58,7 +58,7 @@ point: (3.14, 0) "ā" above-left
 open: (3.14159, 0) "π" above-right
 :::
 
-Với $\pi$ ta may mắn biết rất nhiều chữ số. Với một phép đo thật, ta chỉ biết giá trị đúng nằm trong một khoảng nào đó.
+Với $\pi$, ta may mắn biết rất nhiều chữ số nên tính được sai số thật. Còn khi cầm thước đi đo thì khác: ta không bao giờ biết giá trị đúng, chỉ biết nó nằm đâu đó trong một khoảng. Lúc ấy $d$ mới thật sự phát huy tác dụng.
 
 :::example Khi không biết giá trị đúng
 Đo chiều dài một mảnh vườn nhiều lần, các kết quả đều nằm giữa $24{,}6$ m và $25{,}0$ m. Hãy chọn một số gần đúng $\bar a$ và độ chính xác $d$ cho chiều dài $a$.
@@ -74,7 +74,7 @@ Vậy chiều dài mảnh vườn là $a=24{,}8\pm0{,}2$ (m).
 
 ## Sai số tương đối
 
-Sai số $1$ cm có đáng kể không? Với chiều dài một cây bút thì có. Với chiều dài sân bóng thì gần như không. Muốn biết phép đo nào **chính xác hơn**, ta phải so sánh sai số với độ lớn của đại lượng.
+Đo lệch $1$ cm thì có sao không? Đo cây bút mà lệch $1$ cm thì khá nhiều, vì cây bút chỉ dài hơn chục xăng-ti-mét. Đo sân bóng mà lệch $1$ cm thì gần như chẳng ai để ý. Cùng một mức lệch, nhưng nặng nhẹ khác nhau tuỳ vật được đo. Vậy muốn biết phép đo nào **chính xác hơn**, ta phải đặt sai số bên cạnh độ lớn của đại lượng mà so.
 
 :::definition Sai số tương đối
 **Sai số tương đối** của số gần đúng $\bar{a}$ là
@@ -94,7 +94,7 @@ Vậy phép đo sân bóng chính xác hơn, dù độ chính xác $0{,}2$ m c�
 
 ## Quy tròn số
 
-Để quy tròn một số đến một hàng nào đó, ta nhìn chữ số ngay bên phải hàng đó.
+Quy tròn thì bạn đã làm từ hồi tiểu học. Ở đây ta nhắc lại quy tắc, rồi xem nó làm lệch số ban đầu nhiều nhất bao nhiêu. Để quy tròn một số đến một hàng nào đó, ta nhìn chữ số ngay bên phải hàng đó.
 
 - Nếu chữ số ấy **nhỏ hơn $5$**: giữ nguyên các chữ số bên trái, thay các chữ số bên phải bằng $0$ (hoặc bỏ đi nếu ở phần thập phân).
 - Nếu chữ số ấy **lớn hơn hoặc bằng $5$**: cộng thêm $1$ vào chữ số của hàng quy tròn rồi làm như trên.
@@ -105,7 +105,7 @@ Chẳng hạn, $4\,863$ quy tròn đến hàng trăm là $4\,900$ (vì chữ s�
 Khi quy tròn một số đến một hàng nào đó, sai số tuyệt đối không vượt quá **nửa đơn vị** của hàng đó.
 :::
 
-**Vì sao?** Số quy tròn là bội của đơn vị hàng đó gần số ban đầu nhất. Hai bội liên tiếp cách nhau một đơn vị, nên số ban đầu cách bội gần nhất không quá nửa đơn vị.
+**Vì sao?** Hãy nghĩ đến các vạch trên thước. Khi quy tròn đến hàng trăm, các "vạch" là $4\,800$, $4\,900$, $5\,000$… và ta chọn vạch gần số ban đầu nhất. Hai vạch liền nhau cách nhau đúng một đơn vị, nên số ban đầu không thể cách vạch gần nhất quá nửa đơn vị.
 
 :::example Quy tròn và sai số
 Quy tròn $7\,254\,836$ đến hàng nghìn và $0{,}58276$ đến hàng phần trăm. Tính sai số tuyệt đối trong mỗi trường hợp.
@@ -120,7 +120,7 @@ Vậy hai số quy tròn là $7\,255\,000$ (sai số $164$) và $0{,}58$ (sai s�
 
 ## Số gần đúng với độ chính xác cho trước
 
-Có hai câu hỏi thường gặp, và cả hai đều dựa vào quy tắc "sai số không quá nửa đơn vị".
+Từ quy tắc "sai số không quá nửa đơn vị", ta trả lời được hai câu hỏi hay gặp. Hai câu hỏi nghe na ná nhau nhưng đi theo hai hướng ngược nhau, nên bạn đọc chậm một chút.
 
 **1. Cho một số đã biết và độ chính xác $d$, tìm số gần đúng.** Ta quy tròn số đó đến hàng của chữ số khác $0$ đầu tiên (tính từ trái) của $d$. Sai số khi đó không quá nửa đơn vị của hàng ấy, nên không quá $d$.
 
@@ -140,7 +140,7 @@ $$\sqrt5\approx2{,}236,\qquad |\sqrt5-2{,}236|=0{,}000067\ldots\le0{,}001.$$
 Vậy số gần đúng của $\sqrt5$ là $2{,}24$ với độ chính xác $0{,}01$, và $2{,}236$ với độ chính xác $0{,}001$.
 :::
 
-Câu hỏi thứ hai đi theo hướng ngược lại: ta đã có $\bar a$ cùng $d$, và cần bỏ bớt những chữ số không đáng tin.
+Bây giờ sang câu hỏi thứ hai. Lần này ta đã có sẵn $\bar a$ và $d$; việc cần làm là mạnh dạn bỏ đi những chữ số mà $d$ cho biết là không đáng tin.
 
 :::example Số quy tròn của một số gần đúng
 (a) Một con đường dài $\bar a=3\,527\,418$ mm với độ chính xác $d=300$ mm. Viết số quy tròn của $\bar a$.
@@ -156,6 +156,8 @@ Vậy số quy tròn là $3\,527\,000$ mm và $12{,}5$ kg.
 :::
 
 :::warning Những sai lầm thường gặp
+Những chỗ dưới đây nhiều bạn từng vấp. Bạn đọc qua một lượt để lúc làm bài tự nhận ra.
+
 - **Chọn $d$ quá nhỏ.** Viết $\pi=3{,}14\pm0{,}001$. Sai vì sai số thật là $0{,}00159\ldots>0{,}001$. Đúng: $d$ phải lớn hơn hoặc bằng sai số thật, chẳng hạn $d=0{,}002$.
 - **So sánh sai số tuyệt đối của hai đại lượng khác nhau.** Kết luận cây bút ($d=0{,}1$ cm) đo chính xác hơn sân bóng ($d=0{,}2$ m). Sai vì hai đại lượng có độ lớn rất khác nhau. Đúng: so sánh sai số tương đối.
 - **Giữ quá nhiều chữ số.** Với $\bar b=12{,}4637\pm0{,}02$, viết số quy tròn là $12{,}46$. Sai vì $d=0{,}02$ lớn hơn một đơn vị hàng phần trăm. Đúng: $12{,}5$.
@@ -182,9 +184,11 @@ Vậy số quy tròn là $3\,527\,000$ mm và $12{,}5$ kg.
 - Số gần đúng của một số với độ chính xác $d$: quy tròn đến hàng của chữ số khác $0$ đầu tiên của $d$.
 - Số quy tròn của $\bar a\pm d$: quy tròn đến hàng thấp nhất mà $d$ nhỏ hơn một đơn vị của hàng đó.
 
+Quay lại chiếc bánh xe đạp ở đầu bài: cả An và Bình đều không có con số "đúng", và cũng chẳng cần. Điều làm nên giá trị của một số gần đúng là ta nói được nó lệch nhiều nhất bao nhiêu. Có thói quen đi kèm mỗi con số một độ chính xác, bạn sẽ đọc số liệu tỉnh táo hơn hẳn.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý các bước. Bạn cứ tự làm trước, sai cũng không sao, rồi hãy bấm xem lời giải để so cách nghĩ của mình.
 
 :::exercise
 Quy tròn $4\,863$ đến hàng chục và hàng trăm; quy tròn $2{,}71828$ đến hàng phần trăm và hàng phần nghìn.
