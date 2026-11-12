@@ -48,10 +48,10 @@ Quy tắc này dùng được cả khi tử là số âm, chỉ cần so sánh h
 
 :::graph Một số phân số trên trục số
 alt: Trục số từ -1 đến 1 có đánh dấu các điểm -1, -3/4, -1/2, 0, 1/4, 1/2 và 1 theo thứ tự từ trái sang phải
-x: -1.2..1.2
+x: -1.5..1.5
 y: -1..1
 shape: free
-segment: (-1.2, 0) (1.2, 0)
+segment: (-1.5, 0) (1.5, 0)
 point: (-1, 0) "-1" below
 point: (-0.75, 0) "-3/4" above
 point: (-0.5, 0) "-1/2" below

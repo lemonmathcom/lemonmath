@@ -48,10 +48,10 @@ The rule also works when the numerators are negative; just compare the numerator
 
 :::graph Some fractions on the number line
 alt: A number line from -1 to 1 with the points -1, -3/4, -1/2, 0, 1/4, 1/2 and 1 marked in order from left to right
-x: -1.2..1.2
+x: -1.5..1.5
 y: -1..1
 shape: free
-segment: (-1.2, 0) (1.2, 0)
+segment: (-1.5, 0) (1.5, 0)
 point: (-1, 0) "-1" below
 point: (-0.75, 0) "-3/4" above
 point: (-0.5, 0) "-1/2" below

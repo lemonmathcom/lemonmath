@@ -22,8 +22,8 @@ Quyết định 12/11/2026: bản ChatGPT nộp (sinh bằng script, gợi ý ch
 | B107 | 6 | g6-add-subtract-fractions | Phép cộng và phép trừ phân số | xong 12/11 |
 | B108 | 6 | g6-multiply-divide-fractions | Phép nhân và phép chia phân số | xong 12/11 |
 | B109 | 6 | two-fraction-problems | Hai bài toán về phân số | xong 12/11 |
-| B110 | 6 | decimal-numbers | Số thập phân. Tính toán với số thập phân | chưa |
-| B111 | 6 | rounding-and-estimating | Làm tròn và ước lượng | chưa |
+| B110 | 6 | decimal-numbers | Số thập phân. Tính toán với số thập phân | xong 12/11 |
+| B111 | 6 | rounding-and-estimating | Làm tròn và ước lượng | xong 12/11 |
 | B112 | 6 | ratio-percentage-problems | Một số bài toán về tỉ số và tỉ số phần trăm | chưa |
 | B113 | 6 | points-and-lines | Điểm và đường thẳng. Điểm nằm giữa hai điểm. Tia | chưa |
 | B114 | 6 | line-segments | Đoạn thẳng. Độ dài đoạn thẳng | chưa |
