@@ -24,13 +24,13 @@ Quyết định 12/11/2026: bản ChatGPT nộp (sinh bằng script, gợi ý ch
 | B109 | 6 | two-fraction-problems | Hai bài toán về phân số | xong 12/11 |
 | B110 | 6 | decimal-numbers | Số thập phân. Tính toán với số thập phân | xong 12/11 |
 | B111 | 6 | rounding-and-estimating | Làm tròn và ước lượng | xong 12/11 |
-| B112 | 6 | ratio-percentage-problems | Một số bài toán về tỉ số và tỉ số phần trăm | chưa |
-| B113 | 6 | points-and-lines | Điểm và đường thẳng. Điểm nằm giữa hai điểm. Tia | chưa |
-| B114 | 6 | line-segments | Đoạn thẳng. Độ dài đoạn thẳng | chưa |
-| B115 | 6 | intro-to-angles | Góc và số đo góc | chưa |
-| B116 | 6 | data-collection | Thu thập, phân loại và biểu diễn dữ liệu | chưa |
-| B117 | 6 | g6-bar-charts | Biểu đồ cột | chưa |
-| B118 | 6 | outcomes-and-events | Kết quả có thể xảy ra và sự kiện trong trò chơi, thí nghiệm | chưa |
+| B112 | 6 | ratio-percentage-problems | Một số bài toán về tỉ số và tỉ số phần trăm | xong 13/11 |
+| B113 | 6 | points-and-lines | Điểm và đường thẳng. Điểm nằm giữa hai điểm. Tia | xong 13/11 |
+| B114 | 6 | line-segments | Đoạn thẳng. Độ dài đoạn thẳng | xong 13/11 |
+| B115 | 6 | intro-to-angles | Góc và số đo góc | xong 13/11 |
+| B116 | 6 | data-collection | Thu thập, phân loại và biểu diễn dữ liệu | xong 13/11 |
+| B117 | 6 | g6-bar-charts | Biểu đồ cột | xong 13/11 |
+| B118 | 6 | outcomes-and-events | Kết quả có thể xảy ra và sự kiện trong trò chơi, thí nghiệm | xong 13/11 |
 | B119 | 7 | set-of-rational-numbers | Tập hợp các số hữu tỉ | chưa |
 | B120 | 7 | rational-number-operations | Các phép tính với số hữu tỉ | chưa |
 | B121 | 7 | powers-of-rational-numbers | Luỹ thừa của một số hữu tỉ | chưa |
