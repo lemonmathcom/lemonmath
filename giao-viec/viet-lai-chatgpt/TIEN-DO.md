@@ -19,9 +19,9 @@ Quyết định 12/11/2026: bản ChatGPT nộp (sinh bằng script, gợi ý ch
 | B104 | 6 | line-symmetry | Hình có trục đối xứng. Hình có tâm đối xứng | xong 12/11 |
 | B105 | 6 | g6-equivalent-fractions | Mở rộng phân số. Phân số bằng nhau | xong 12/11 |
 | B106 | 6 | comparing-fractions-mixed-numbers | So sánh phân số. Hỗn số dương | xong 12/11 |
-| B107 | 6 | g6-add-subtract-fractions | Phép cộng và phép trừ phân số | chưa |
-| B108 | 6 | g6-multiply-divide-fractions | Phép nhân và phép chia phân số | chưa |
-| B109 | 6 | two-fraction-problems | Hai bài toán về phân số | chưa |
+| B107 | 6 | g6-add-subtract-fractions | Phép cộng và phép trừ phân số | xong 12/11 |
+| B108 | 6 | g6-multiply-divide-fractions | Phép nhân và phép chia phân số | xong 12/11 |
+| B109 | 6 | two-fraction-problems | Hai bài toán về phân số | xong 12/11 |
 | B110 | 6 | decimal-numbers | Số thập phân. Tính toán với số thập phân | chưa |
 | B111 | 6 | rounding-and-estimating | Làm tròn và ước lượng | chưa |
 | B112 | 6 | ratio-percentage-problems | Một số bài toán về tỉ số và tỉ số phần trăm | chưa |

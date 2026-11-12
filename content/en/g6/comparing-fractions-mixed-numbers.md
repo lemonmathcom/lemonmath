@@ -249,7 +249,7 @@ So Chi has read the most and Binh has read the least.
 - A negative fraction is less than $0$ and less than every positive fraction.
 - Positive mixed numbers: $\dfrac{17}{5}=3\dfrac25$ ($17$ divided by $5$ is $3$ remainder $2$); the other way, $2\dfrac37=\dfrac{2\cdot7+3}{7}=\dfrac{17}{7}$.
 
-Back to An and Binh: $\dfrac{7}{10}=\dfrac{14}{20}$ and $\dfrac{3}{4}=\dfrac{15}{20}$, so Binh got a larger part right. Two fractions can only be compared when they speak the same "language", that is, when they have the same denominator. You will meet exactly this idea again in the lesson on adding and subtracting fractions. If you need to revise how to find an LCM, see [Common multiples. Lowest common multiple](lesson:lowest-common-multiple).
+Back to An and Binh: $\dfrac{7}{10}=\dfrac{14}{20}$ and $\dfrac{3}{4}=\dfrac{15}{20}$, so Binh got a larger part right. Two fractions can only be compared when they speak the same "language", that is, when they have the same denominator. You will meet exactly this idea again in [adding and subtracting fractions](lesson:g6-add-subtract-fractions). If you need to revise how to find an LCM, see [Common multiples. Lowest common multiple](lesson:lowest-common-multiple).
 
 ## Practice
 

@@ -249,7 +249,7 @@ Vậy Chi đọc được nhiều nhất, Bình đọc được ít nhất.
 - Phân số âm nhỏ hơn $0$ và nhỏ hơn mọi phân số dương.
 - Hỗn số dương: $\dfrac{17}{5}=3\dfrac25$ (lấy $17$ chia $5$ được $3$ dư $2$); ngược lại $2\dfrac37=\dfrac{2\cdot7+3}{7}=\dfrac{17}{7}$.
 
-Trở lại với An và Bình: $\dfrac{7}{10}=\dfrac{14}{20}$ còn $\dfrac{3}{4}=\dfrac{15}{20}$, nên Bình làm đúng nhiều phần hơn. Hai phân số chỉ so được với nhau khi cùng nói một "ngôn ngữ", tức là cùng mẫu. Bạn sẽ gặp lại đúng ý này ở bài phép cộng và phép trừ phân số. Nếu cần ôn cách tìm BCNN, bạn xem bài [Bội chung. Bội chung nhỏ nhất](lesson:lowest-common-multiple).
+Trở lại với An và Bình: $\dfrac{7}{10}=\dfrac{14}{20}$ còn $\dfrac{3}{4}=\dfrac{15}{20}$, nên Bình làm đúng nhiều phần hơn. Hai phân số chỉ so được với nhau khi cùng nói một "ngôn ngữ", tức là cùng mẫu. Bạn sẽ gặp lại đúng ý này ở bài [phép cộng và phép trừ phân số](lesson:g6-add-subtract-fractions). Nếu cần ôn cách tìm BCNN, bạn xem bài [Bội chung. Bội chung nhỏ nhất](lesson:lowest-common-multiple).
 
 ## Luyện tập
 
