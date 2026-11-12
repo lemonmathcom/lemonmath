@@ -226,7 +226,7 @@ const ANALYTICS = (function () {
   let out = '';
   if (a.cloudflare) {
     if (!/^[a-f0-9]{32}$/.test(a.cloudflare)) fail('data/curriculum.json: "analytics.cloudflare" phải là mã token 32 kí tự (0-9, a-f) của Cloudflare Web Analytics.');
-    else out += '<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon=\'{"token": "' + a.cloudflare + '"}\'></script>\n';
+    else out += '<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon=\'{"token": "' + a.cloudflare + '"}\'></script>\n';
   }
   if (a.ga4) {
     if (!/^G-[A-Z0-9]{6,14}$/.test(a.ga4)) fail('data/curriculum.json: "analytics.ga4" phải có dạng "G-XXXXXXXXXX".');
