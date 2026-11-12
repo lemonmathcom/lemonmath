@@ -35,3 +35,5 @@ Nâng cấp lời giải cũ (quyết định 11/11/2026, "phương án 3"): tà
 Từ 12/11/2026: phần nâng cấp lời giải còn lại (lớp 12 + Ôn thi) đã chuyển sang ChatGPT Plus theo 12 gói `giao-viec/nang-cap/chatgpt/GOI-*.txt` (lớp 9 và 3 bài lớp 12 do Pro làm xong). Khi nhận file `NC-ChatGPT-GOI-*.md`: `python3 tools/qa/upgrade.py apply <file>`, xem các dòng GHI CHÚ / KHÁC ĐÁP SỐ, rồi check.js + build + push; phần còn thiếu đóng gói lại bằng `upgrade.py pack`.
 
 Giọng văn (từ 12/11/2026, chủ dự án yêu cầu): viết lại phần lời của toàn bộ trang theo giọng một nhà giáo tâm huyết, dung dị (chuẩn 2f trong _templates/WRITING-SPEC.md; bài mẫu content/*/g10/equation-of-a-line.md). Pro tự viết dần mỗi ngày 10 bài học (2 lượt tự chạy 13h29 và 17h29, mỗi lượt 5 bài), cả Việt và Anh, theo thứ tự và quy trình trong giao-viec/GIONG-VAN.md; không đổi toán, đề, lời giải. Bài mới nhận từ các tài khoản cũng phải đạt chuẩn 2f.
+
+Viết lại bài ChatGPT (từ 12/11/2026, chủ dự án chọn): 46 bài B096–B141 (lớp 6–7) do Pro tự viết lại kỹ, mỗi lượt ~4 bài; tiến độ và quy trình ở giao-viec/viet-lai-chatgpt/TIEN-DO.md; bản nháp ChatGPT (không đạt, chỉ tham khảo) ở giao-viec/viet-lai-chatgpt/nhap/.

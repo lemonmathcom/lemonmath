@@ -1,0 +1,324 @@
+[
+  {
+    "code": "B096",
+    "grade": 6,
+    "id": "prime-numbers",
+    "vi": "Số nguyên tố",
+    "en": "Prime numbers"
+  },
+  {
+    "code": "B097",
+    "grade": 6,
+    "id": "highest-common-factor",
+    "vi": "Ước chung. Ước chung lớn nhất",
+    "en": "Common factors. Highest common factor"
+  },
+  {
+    "code": "B098",
+    "grade": 6,
+    "id": "lowest-common-multiple",
+    "vi": "Bội chung. Bội chung nhỏ nhất",
+    "en": "Common multiples. Lowest common multiple"
+  },
+  {
+    "code": "B099",
+    "grade": 6,
+    "id": "set-of-integers",
+    "vi": "Tập hợp các số nguyên",
+    "en": "The set of integers"
+  },
+  {
+    "code": "B100",
+    "grade": 6,
+    "id": "add-subtract-integers",
+    "vi": "Phép cộng và phép trừ số nguyên. Quy tắc dấu ngoặc",
+    "en": "Adding and subtracting integers. Rules for removing brackets"
+  },
+  {
+    "code": "B101",
+    "grade": 6,
+    "id": "multiplying-integers",
+    "vi": "Phép nhân số nguyên. Phép chia hết. Ước và bội của một số nguyên",
+    "en": "Multiplying integers. Exact division. Factors and multiples of an integer"
+  },
+  {
+    "code": "B102",
+    "grade": 6,
+    "id": "triangles-squares-hexagons",
+    "vi": "Hình tam giác đều. Hình vuông. Hình lục giác đều. Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân",
+    "en": "Equilateral triangles. Squares. Regular hexagons. Rectangles. Rhombuses. Parallelograms. Isosceles trapeziums"
+  },
+  {
+    "code": "B103",
+    "grade": 6,
+    "id": "quadrilateral-perimeter-area",
+    "vi": "Chu vi và diện tích của một số tứ giác đã học",
+    "en": "Perimeter and area of familiar quadrilaterals"
+  },
+  {
+    "code": "B104",
+    "grade": 6,
+    "id": "line-symmetry",
+    "vi": "Hình có trục đối xứng. Hình có tâm đối xứng",
+    "en": "Shapes with a line of symmetry. Shapes with a centre of symmetry"
+  },
+  {
+    "code": "B105",
+    "grade": 6,
+    "id": "g6-equivalent-fractions",
+    "vi": "Mở rộng phân số. Phân số bằng nhau",
+    "en": "Extending fractions. Equivalent fractions"
+  },
+  {
+    "code": "B106",
+    "grade": 6,
+    "id": "comparing-fractions-mixed-numbers",
+    "vi": "So sánh phân số. Hỗn số dương",
+    "en": "Comparing fractions. Positive mixed numbers"
+  },
+  {
+    "code": "B107",
+    "grade": 6,
+    "id": "g6-add-subtract-fractions",
+    "vi": "Phép cộng và phép trừ phân số",
+    "en": "Adding and subtracting fractions"
+  },
+  {
+    "code": "B108",
+    "grade": 6,
+    "id": "g6-multiply-divide-fractions",
+    "vi": "Phép nhân và phép chia phân số",
+    "en": "Multiplying and dividing fractions"
+  },
+  {
+    "code": "B109",
+    "grade": 6,
+    "id": "two-fraction-problems",
+    "vi": "Hai bài toán về phân số",
+    "en": "Two key problems with fractions"
+  },
+  {
+    "code": "B110",
+    "grade": 6,
+    "id": "decimal-numbers",
+    "vi": "Số thập phân. Tính toán với số thập phân",
+    "en": "Decimals. Calculating with decimals"
+  },
+  {
+    "code": "B111",
+    "grade": 6,
+    "id": "rounding-and-estimating",
+    "vi": "Làm tròn và ước lượng",
+    "en": "Rounding and estimating"
+  },
+  {
+    "code": "B112",
+    "grade": 6,
+    "id": "ratio-percentage-problems",
+    "vi": "Một số bài toán về tỉ số và tỉ số phần trăm",
+    "en": "Problems involving ratios and percentages"
+  },
+  {
+    "code": "B113",
+    "grade": 6,
+    "id": "points-and-lines",
+    "vi": "Điểm và đường thẳng. Điểm nằm giữa hai điểm. Tia",
+    "en": "Points and lines. A point between two points. Rays"
+  },
+  {
+    "code": "B114",
+    "grade": 6,
+    "id": "line-segments",
+    "vi": "Đoạn thẳng. Độ dài đoạn thẳng",
+    "en": "Line segments and their lengths"
+  },
+  {
+    "code": "B115",
+    "grade": 6,
+    "id": "intro-to-angles",
+    "vi": "Góc và số đo góc",
+    "en": "Angles and angle measure"
+  },
+  {
+    "code": "B116",
+    "grade": 6,
+    "id": "data-collection",
+    "vi": "Thu thập, phân loại và biểu diễn dữ liệu",
+    "en": "Collecting, classifying and representing data"
+  },
+  {
+    "code": "B117",
+    "grade": 6,
+    "id": "g6-bar-charts",
+    "vi": "Biểu đồ cột",
+    "en": "Bar charts"
+  },
+  {
+    "code": "B118",
+    "grade": 6,
+    "id": "outcomes-and-events",
+    "vi": "Kết quả có thể xảy ra và sự kiện trong trò chơi, thí nghiệm",
+    "en": "Possible outcomes and events in games and experiments"
+  },
+  {
+    "code": "B119",
+    "grade": 7,
+    "id": "set-of-rational-numbers",
+    "vi": "Tập hợp các số hữu tỉ",
+    "en": "The set of rational numbers"
+  },
+  {
+    "code": "B120",
+    "grade": 7,
+    "id": "rational-number-operations",
+    "vi": "Các phép tính với số hữu tỉ",
+    "en": "Operations with rational numbers"
+  },
+  {
+    "code": "B121",
+    "grade": 7,
+    "id": "powers-of-rational-numbers",
+    "vi": "Luỹ thừa của một số hữu tỉ",
+    "en": "Powers of rational numbers"
+  },
+  {
+    "code": "B122",
+    "grade": 7,
+    "id": "operations-and-transposition",
+    "vi": "Thứ tự thực hiện phép tính và quy tắc chuyển vế",
+    "en": "Order of operations and transposition"
+  },
+  {
+    "code": "B123",
+    "grade": 7,
+    "id": "recurring-decimals",
+    "vi": "Số thập phân hữu hạn và số thập phân vô hạn tuần hoàn",
+    "en": "Terminating and recurring decimals"
+  },
+  {
+    "code": "B124",
+    "grade": 7,
+    "id": "set-of-real-numbers",
+    "vi": "Tập hợp các số thực",
+    "en": "The set of real numbers"
+  },
+  {
+    "code": "B125",
+    "grade": 7,
+    "id": "angle-pairs-bisectors",
+    "vi": "Các cặp góc đặc biệt và tia phân giác",
+    "en": "Special angle pairs and angle bisectors"
+  },
+  {
+    "code": "B126",
+    "grade": 7,
+    "id": "identifying-parallel-lines",
+    "vi": "Nhận biết hai đường thẳng song song",
+    "en": "Identifying parallel lines"
+  },
+  {
+    "code": "B127",
+    "grade": 7,
+    "id": "theorems-and-proofs",
+    "vi": "Định lí và chứng minh định lí",
+    "en": "Theorems and mathematical proof"
+  },
+  {
+    "code": "B128",
+    "grade": 7,
+    "id": "triangle-angle-sum",
+    "vi": "Tổng ba góc trong một tam giác",
+    "en": "The angle sum of a triangle"
+  },
+  {
+    "code": "B129",
+    "grade": 7,
+    "id": "congruent-triangles-sss",
+    "vi": "Hai tam giác bằng nhau và trường hợp cạnh–cạnh–cạnh",
+    "en": "Congruent triangles and the side–side–side case"
+  },
+  {
+    "code": "B130",
+    "grade": 7,
+    "id": "congruence-sas-asa",
+    "vi": "Trường hợp cạnh–góc–cạnh và góc–cạnh–góc",
+    "en": "Side–angle–side and angle–side–angle congruence"
+  },
+  {
+    "code": "B131",
+    "grade": 7,
+    "id": "right-triangle-congruence",
+    "vi": "Các trường hợp bằng nhau của tam giác vuông",
+    "en": "Congruence cases for right triangles"
+  },
+  {
+    "code": "B132",
+    "grade": 7,
+    "id": "isosceles-perpendicular-bisector",
+    "vi": "Tam giác cân và đường trung trực của đoạn thẳng",
+    "en": "Isosceles triangles and perpendicular bisectors"
+  },
+  {
+    "code": "B133",
+    "grade": 7,
+    "id": "g7-collecting-classifying-data",
+    "vi": "Thu thập và phân loại dữ liệu",
+    "en": "Collecting and classifying data"
+  },
+  {
+    "code": "B134",
+    "grade": 7,
+    "id": "line-graphs",
+    "vi": "Biểu đồ đoạn thẳng",
+    "en": "Line graphs"
+  },
+  {
+    "code": "B135",
+    "grade": 7,
+    "id": "proportions",
+    "vi": "Tỉ lệ thức",
+    "en": "Proportions"
+  },
+  {
+    "code": "B136",
+    "grade": 7,
+    "id": "direct-proportion",
+    "vi": "Đại lượng tỉ lệ thuận",
+    "en": "Direct proportion"
+  },
+  {
+    "code": "B137",
+    "grade": 7,
+    "id": "algebraic-expressions",
+    "vi": "Biểu thức đại số",
+    "en": "Algebraic expressions"
+  },
+  {
+    "code": "B138",
+    "grade": 7,
+    "id": "g7-add-subtract-polynomials",
+    "vi": "Cộng và trừ đa thức",
+    "en": "Adding and subtracting polynomials"
+  },
+  {
+    "code": "B139",
+    "grade": 7,
+    "id": "dividing-polynomials",
+    "vi": "Phép chia đa thức",
+    "en": "Dividing polynomials"
+  },
+  {
+    "code": "B140",
+    "grade": 7,
+    "id": "intro-to-events",
+    "vi": "Làm quen với biến cố và xác suất",
+    "en": "Introduction to events and probability"
+  },
+  {
+    "code": "B141",
+    "grade": 7,
+    "id": "angles-and-opposite-sides",
+    "vi": "Quan hệ giữa góc và cạnh đối diện trong tam giác",
+    "en": "Angles and opposite sides in a triangle"
+  }
+]
