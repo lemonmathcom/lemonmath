@@ -16,9 +16,9 @@ Quyết định 12/11/2026: bản ChatGPT nộp (sinh bằng script, gợi ý ch
 | B101 | 6 | multiplying-integers | Phép nhân số nguyên. Phép chia hết. Ước và bội của một số nguyên | xong 12/11 |
 | B102 | 6 | triangles-squares-hexagons | Hình tam giác đều. Hình vuông. Hình lục giác đều. Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân | xong 12/11 |
 | B103 | 6 | quadrilateral-perimeter-area | Chu vi và diện tích của một số tứ giác đã học | xong 12/11 |
-| B104 | 6 | line-symmetry | Hình có trục đối xứng. Hình có tâm đối xứng | chưa |
-| B105 | 6 | g6-equivalent-fractions | Mở rộng phân số. Phân số bằng nhau | chưa |
-| B106 | 6 | comparing-fractions-mixed-numbers | So sánh phân số. Hỗn số dương | chưa |
+| B104 | 6 | line-symmetry | Hình có trục đối xứng. Hình có tâm đối xứng | xong 12/11 |
+| B105 | 6 | g6-equivalent-fractions | Mở rộng phân số. Phân số bằng nhau | xong 12/11 |
+| B106 | 6 | comparing-fractions-mixed-numbers | So sánh phân số. Hỗn số dương | xong 12/11 |
 | B107 | 6 | g6-add-subtract-fractions | Phép cộng và phép trừ phân số | chưa |
 | B108 | 6 | g6-multiply-divide-fractions | Phép nhân và phép chia phân số | chưa |
 | B109 | 6 | two-fraction-problems | Hai bài toán về phân số | chưa |
