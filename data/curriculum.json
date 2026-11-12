@@ -2,7 +2,8 @@
   "site": {
     "name": "Lemonmath",
     "url": "https://lemonmath.com",
-    "analytics": { "cloudflare": "6a74655cf2b249db96db252439a4f446" }
+    "analytics": { "cloudflare": "6a74655cf2b249db96db252439a4f446" },
+    "verify": { "google": "uasMEvj5Mx2JKhXh_ibckxpB1MWIHRTAvvNPT0LKwj0" }
   },
   "grades": [
     {
