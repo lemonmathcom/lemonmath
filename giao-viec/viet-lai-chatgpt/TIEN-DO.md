@@ -4,6 +4,7 @@ Quyết định 12/11/2026: bản ChatGPT nộp (sinh bằng script, gợi ý ch
 
 - Bản nháp gốc của ChatGPT (chỉ để tham khảo đề mục, không chép): `giao-viec/viet-lai-chatgpt/nhap/content/...`
 - Mỗi bài: viết mới `content/vi/gN/<id>.md` và `content/en/gN/<id>.md`, `node tools/check.js <id>` sạch, rồi đánh dấu ở bảng dưới, build + push.
+- 13/11/2026: B096–B118 (lớp 6) Pro đã viết xong. Chủ dự án giao 23 bài lớp 7 còn lại (B119–B141) cho 9 tài khoản Claude Free đã nộp đủ bài đợt 1; file giao: `giao-viec/dot2-lop7/NN-<tài khoản>.txt`. Bài nộp về Dropbox "viec da lam" → intake.py như thường, kiểm tra đạt 2e + 2f và có hình, rồi đánh dấu "xong" ở bảng dưới.
 - Bài hình học và thống kê bắt buộc có hình (:::diagram / :::graph). Bản Việt dùng c.c.c, c.g.c, g.c.g.
 
 | Mã | Lớp | id | Tên bài | Trạng thái |
@@ -31,26 +32,26 @@ Quyết định 12/11/2026: bản ChatGPT nộp (sinh bằng script, gợi ý ch
 | B116 | 6 | data-collection | Thu thập, phân loại và biểu diễn dữ liệu | xong 13/11 |
 | B117 | 6 | g6-bar-charts | Biểu đồ cột | xong 13/11 |
 | B118 | 6 | outcomes-and-events | Kết quả có thể xảy ra và sự kiện trong trò chơi, thí nghiệm | xong 13/11 |
-| B119 | 7 | set-of-rational-numbers | Tập hợp các số hữu tỉ | chưa |
-| B120 | 7 | rational-number-operations | Các phép tính với số hữu tỉ | chưa |
-| B121 | 7 | powers-of-rational-numbers | Luỹ thừa của một số hữu tỉ | chưa |
-| B122 | 7 | operations-and-transposition | Thứ tự thực hiện phép tính và quy tắc chuyển vế | chưa |
-| B123 | 7 | recurring-decimals | Số thập phân hữu hạn và số thập phân vô hạn tuần hoàn | chưa |
-| B124 | 7 | set-of-real-numbers | Tập hợp các số thực | chưa |
-| B125 | 7 | angle-pairs-bisectors | Các cặp góc đặc biệt và tia phân giác | chưa |
-| B126 | 7 | identifying-parallel-lines | Nhận biết hai đường thẳng song song | chưa |
-| B127 | 7 | theorems-and-proofs | Định lí và chứng minh định lí | chưa |
-| B128 | 7 | triangle-angle-sum | Tổng ba góc trong một tam giác | chưa |
-| B129 | 7 | congruent-triangles-sss | Hai tam giác bằng nhau và trường hợp cạnh–cạnh–cạnh | chưa |
-| B130 | 7 | congruence-sas-asa | Trường hợp cạnh–góc–cạnh và góc–cạnh–góc | chưa |
-| B131 | 7 | right-triangle-congruence | Các trường hợp bằng nhau của tam giác vuông | chưa |
-| B132 | 7 | isosceles-perpendicular-bisector | Tam giác cân và đường trung trực của đoạn thẳng | chưa |
-| B133 | 7 | g7-collecting-classifying-data | Thu thập và phân loại dữ liệu | chưa |
-| B134 | 7 | line-graphs | Biểu đồ đoạn thẳng | chưa |
-| B135 | 7 | proportions | Tỉ lệ thức | chưa |
-| B136 | 7 | direct-proportion | Đại lượng tỉ lệ thuận | chưa |
-| B137 | 7 | algebraic-expressions | Biểu thức đại số | chưa |
-| B138 | 7 | g7-add-subtract-polynomials | Cộng và trừ đa thức | chưa |
-| B139 | 7 | dividing-polynomials | Phép chia đa thức | chưa |
-| B140 | 7 | intro-to-events | Làm quen với biến cố và xác suất | chưa |
-| B141 | 7 | angles-and-opposite-sides | Quan hệ giữa góc và cạnh đối diện trong tam giác | chưa |
+| B119 | 7 | set-of-rational-numbers | Tập hợp các số hữu tỉ | giao Kinangtoan (đợt 2, 13/11) |
+| B120 | 7 | rational-number-operations | Các phép tính với số hữu tỉ | giao Kinangtoan (đợt 2, 13/11) |
+| B121 | 7 | powers-of-rational-numbers | Luỹ thừa của một số hữu tỉ | giao Kinangtoan (đợt 2, 13/11) |
+| B122 | 7 | operations-and-transposition | Thứ tự thực hiện phép tính và quy tắc chuyển vế | giao Alexnguyen122222 (đợt 2, 13/11) |
+| B123 | 7 | recurring-decimals | Số thập phân hữu hạn và số thập phân vô hạn tuần hoàn | giao Alexnguyen122222 (đợt 2, 13/11) |
+| B124 | 7 | set-of-real-numbers | Tập hợp các số thực | giao Alexnguyen122222 (đợt 2, 13/11) |
+| B125 | 7 | angle-pairs-bisectors | Các cặp góc đặc biệt và tia phân giác | giao thichgiaitoan (đợt 2, 13/11) |
+| B126 | 7 | identifying-parallel-lines | Nhận biết hai đường thẳng song song | giao thichgiaitoan (đợt 2, 13/11) |
+| B127 | 7 | theorems-and-proofs | Định lí và chứng minh định lí | giao thichgiaitoan (đợt 2, 13/11) |
+| B128 | 7 | triangle-angle-sum | Tổng ba góc trong một tam giác | giao Lemonmath.com (đợt 2, 13/11) |
+| B129 | 7 | congruent-triangles-sss | Hai tam giác bằng nhau và trường hợp cạnh–cạnh–cạnh | giao Lemonmath.com (đợt 2, 13/11) |
+| B130 | 7 | congruence-sas-asa | Trường hợp cạnh–góc–cạnh và góc–cạnh–góc | giao Lemonmath.com (đợt 2, 13/11) |
+| B131 | 7 | right-triangle-congruence | Các trường hợp bằng nhau của tam giác vuông | giao Vinax.vn (đợt 2, 13/11) |
+| B132 | 7 | isosceles-perpendicular-bisector | Tam giác cân và đường trung trực của đoạn thẳng | giao Vinax.vn (đợt 2, 13/11) |
+| B133 | 7 | g7-collecting-classifying-data | Thu thập và phân loại dữ liệu | giao Nguyenchanh2358 (đợt 2, 13/11) |
+| B134 | 7 | line-graphs | Biểu đồ đoạn thẳng | giao Nguyenchanh2358 (đợt 2, 13/11) |
+| B135 | 7 | proportions | Tỉ lệ thức | giao Vinax258 (đợt 2, 13/11) |
+| B136 | 7 | direct-proportion | Đại lượng tỉ lệ thuận | giao Vinax258 (đợt 2, 13/11) |
+| B137 | 7 | algebraic-expressions | Biểu thức đại số | giao Vimus2358 (đợt 2, 13/11) |
+| B138 | 7 | g7-add-subtract-polynomials | Cộng và trừ đa thức | giao Vimus2358 (đợt 2, 13/11) |
+| B139 | 7 | dividing-polynomials | Phép chia đa thức | giao Lemonmath112 (đợt 2, 13/11) |
+| B140 | 7 | intro-to-events | Làm quen với biến cố và xác suất | giao Lemonmath112 (đợt 2, 13/11) |
+| B141 | 7 | angles-and-opposite-sides | Quan hệ giữa góc và cạnh đối diện trong tam giác | giao Vinax.vn (đợt 2, 13/11) |

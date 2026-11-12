@@ -244,3 +244,20 @@ Sức viết: 11 tài khoản Claude Free (mỗi tài khoản 1 phần) + 1 Chat
 | B214 | 11 | volumes | Thể tích | chanh106 |
 | B215 | 11 | union-intersection-events | Biến cố hợp, biến cố giao, biến cố độc lập | chanh106 |
 | B216 | 11 | addition-rule | Công thức cộng xác suất | chanh106 |
+
+
+## Đợt 2 (13/11/2026): 23 bài lớp 7 B119–B141 chuyển từ ChatGPT Plus sang các tài khoản Claude Free đã nộp đủ
+
+File giao: `giao-viec/dot2-lop7/NN-<tài khoản>.txt`.
+
+| Tài khoản | Bài |
+|---|---|
+| Kinangtoan | B119, B120, B121 |
+| Alexnguyen122222 | B122, B123, B124 |
+| thichgiaitoan | B125, B126, B127 |
+| Lemonmath.com | B128, B129, B130 |
+| Vinax.vn | B131, B132, B141 |
+| Nguyenchanh2358 | B133, B134 |
+| Vinax258 | B135, B136 |
+| Vimus2358 | B137, B138 |
+| Lemonmath112 | B139, B140 |

@@ -1,0 +1,45 @@
+GIAO VIỆC LEMONMATH – ĐỢT 2 (LỚP 7) – tài khoản Alexnguyen122222
+Phân công ngày 13/11/2026. Bạn đã nộp đủ bài đợt 1, cảm ơn bạn! Đợt này: 3 bài song ngữ lớp 7, mã B122, B123, B124.
+Đây là các bài trước đây giao cho ChatGPT nhưng bản nộp không đạt (lời giải vắn tắt, gợi ý chung chung, thiếu hình). Bạn viết MỚI hoàn toàn, không cần xem bản cũ.
+Bạn là một thầy/cô giáo toán tâm huyết, viết bài học song ngữ Việt–Anh cho website lemonmath.com theo chương trình GDPT 2018, sách Kết nối tri thức.
+
+FILE ĐÍNH KÈM CẦN DÁN VÀO CHAT (trong Dropbox Lemonmath.com/lemonmath-giao-viec/lemonmath-giao-viec/dinh-kem):
+- WRITING-SPEC.md (đọc kĩ mục 2, 2b, 2c, 2d, 2e, 2f, 4 "Figures")
+- GLOSSARY.md
+- mau-THCS-VI.md và mau-THCS-EN.md (bài mẫu cùng cấp)
+- Bài mẫu mới nhất, viết đúng chuẩn 2e + 2f (xem trên lemonmath.com, mục Lớp 6): g6-add-subtract-fractions, ratio-percentage-problems, decimal-numbers
+
+QUY TẮC VIẾT (bắt buộc)
+1. Đọc hết các file đính kèm trước khi viết. Chép đúng cú pháp các khung :::goals, :::definition, :::theorem, :::note, :::tip, :::warning, :::example, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key) như bài mẫu.
+2. Mỗi bài = 2 file: bản tiếng Việt và bản tiếng Anh, CÙNG cấu trúc, cùng số ví dụ, bài tập, hình, cùng số liệu và đáp số. Hai bản KHÔNG cần dịch sát: mỗi bản viết theo văn phong tự nhiên của ngôn ngữ đó. Đầu file có title (đúng tên bài trong danh sách), description (tối đa 155 kí tự), minutes. Không viết "# Tiêu đề".
+3. Xưng hô: gọi học sinh là "bạn", giải thích dùng "ta". Tiếng Anh dùng chính tả Anh (metres, factorise). Bản Anh viết toạ độ, khoảng, tập hợp có dấu cách sau dấu phẩy: $(2, 4)$, $\{1, 2, 3\}$. Không dùng kí hiệu đô la trong lời văn (trùng dấu công thức).
+4. Thứ tự trong bài: mục tiêu → tình huống mở đầu có số liệu thật, kết bằng câu hỏi → khám phá nhỏ → định nghĩa/quy tắc → vì sao đúng → 4–6 ví dụ từ dễ đến khó (có một ví dụ thực tế trình bày theo 4 bước: Hiểu đề / Tìm cách giải / Giải / Nhìn lại) → lỗi hay gặp (sai, vì sao sai, đúng) → thuật ngữ → tóm tắt → Luyện tập 8–10 bài :::exercise (bài cuối "Thử thách"/"Challenge") → Kiểm tra mini: 4 trắc nghiệm, 1 đúng/sai, 2 trả lời ngắn (đáp số tối đa 4 kí tự, bỏ số 0 thừa). Bài gộp: mỗi nội dung là một mục ## riêng.
+5. LỜI GIẢI CHI TIẾT như SGK (chuẩn 2e): mỗi ví dụ và mỗi ::solution phải có dẫn giải từng bước (vì sao làm bước này, dựa vào quy tắc/định lí nào), có câu kết luận và dòng "Đáp số." / "Answer.". Bài hình viết đủ "Xét tam giác … có: … (gt) … Do đó … (c.g.c)". Gợi ý (::hint) phải cụ thể cho đúng bài đó, không viết chung chung kiểu "Hãy áp dụng quy tắc".
+6. GIỌNG VĂN (chuẩn 2f): như một thầy/cô tâm huyết, dung dị nói chuyện với học trò; nói vì sao kiến thức có ích, nhắc chỗ hay nhầm bằng lời ân cần; không sáo rỗng, không khen lấy lệ, không dùng câu cảm thán dồn dập.
+7. HÌNH VẼ BẮT BUỘC với bài hình học và thống kê: dùng khung :::diagram (điểm, đoạn, đa giác, đường tròn, góc, kí hiệu góc vuông, kí hiệu cạnh bằng nhau) và :::graph (trục số, đồ thị, biểu đồ) theo đúng cú pháp mục 4 của WRITING-SPEC.md. Mỗi ví dụ hình học có hình; dòng lệnh vẽ giống hệt nhau ở hai bản, chỉ khác chú thích. Biểu đồ quạt, biểu đồ đoạn thẳng vẽ được bằng :::graph hoặc bảng số liệu kèm mô tả rõ.
+8. Văn phong đề bài theo SGK Kết nối tri thức. Không dạy vượt chương trình lớp 7. Mọi đề bài, số liệu tự nghĩ, không chép sách hay web. Số liệu thực tế phải đúng; không chắc thì viết dạng giả định ("Một cửa hàng…").
+9. TỰ GIẢI LẠI mọi ví dụ, bài tập, câu trắc nghiệm trước khi nộp. Đáp án đúng A–D rải đều, không chữ nào quá 2 lần trong 4 câu trắc nghiệm. Phương án trắc nghiệm viết 4 dòng "A. …" đến "D. …" ngay dưới đề.
+10. Độ dài mỗi ngôn ngữ khoảng 1.400–2.200 từ (bài gộp được tăng thêm khoảng một nửa).
+
+CÁCH NỘP
+- Viết lần lượt từng bài theo thứ tự mã. Mỗi bài xuất ra 2 file .md, ĐẶT TÊN ĐÚNG id, ví dụ operations-and-transposition.md cho bản Việt và operations-and-transposition.md (tải xuống sẽ thành "operations-and-transposition (1).md") cho bản Anh. Không đổi id, không thêm chữ vào tên file.
+- Bỏ file vào Dropbox: Lemonmath.com/viec da lam
+- Hết hạn mức thì dừng ở cuối một bài trọn vẹn (đủ hai bản), lần sau viết tiếp bài kế.
+
+
+===== DANH SÁCH BÀI (3 bài, viết theo thứ tự) =====
+
+[Lớp 7 – Số hữu tỉ]
+B122  lớp 7  id: operations-and-transposition
+      VI: Thứ tự thực hiện các phép tính. Quy tắc chuyển vế
+      EN: Order of operations. Moving terms across the equals sign
+
+[Lớp 7 – Số thực]
+B123  lớp 7  id: recurring-decimals
+      VI: Làm quen với số thập phân vô hạn tuần hoàn. Số vô tỉ. Căn bậc hai số học
+      EN: Introducing recurring decimals. Irrational numbers. Principal square roots
+      (BÀI GỘP: viết thành MỘT bài, mỗi nội dung là một mục ## riêng; độ dài được phép tăng thêm khoảng một nửa)
+
+B124  lớp 7  id: set-of-real-numbers
+      VI: Tập hợp các số thực
+      EN: The set of real numbers
