@@ -215,7 +215,12 @@ Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là
 2. Thay vào công thức.
 
 ::solution
-$\cos2x=1-2\cdot\dfrac19=\dfrac79$. Phương án B quên bình phương, phương án C dùng nhầm $2\sin^2x-1$, phương án D là $\cos^2x$.
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
 
 **Đáp số.** A.
 :::
@@ -233,7 +238,15 @@ Nghiệm của phương trình $\tan x=\sqrt3$ là
 2. Viết họ nghiệm với chu kì $\pi$.
 
 ::solution
-$\tan x=\tan\dfrac{\pi}{3}\iff x=\dfrac{\pi}{3}+k\pi$. Phương án B bỏ sót một nửa số nghiệm; phương án C dùng $\tan\dfrac{\pi}{6}=\dfrac{\sqrt3}{3}$.
+Ta có $\sqrt3=\tan\dfrac{\pi}{3}$. Do đó phương trình trở thành
+$$\tan x=\tan\frac{\pi}{3}.$$
+
+Hàm số $y=\tan x$ tuần hoàn với chu kì $\pi$, nên
+$$\tan x=\tan\frac{\pi}{3}\iff x=\frac{\pi}{3}+k\pi\quad(k\in\mathbb Z).$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B dùng chu kì $2\pi$ nên bỏ sót một nửa số nghiệm; phương án C dùng nhầm $\tan\dfrac{\pi}{6}=\dfrac{\sqrt3}{3}$.
 
 **Đáp số.** A.
 :::
@@ -251,7 +264,12 @@ $\tan x=\tan\dfrac{\pi}{3}\iff x=\dfrac{\pi}{3}+k\pi$. Phương án B bỏ sót 
 2. Dùng $\log_28=3$.
 
 ::solution
-$\log_224=\log_28+\log_23=3+a$. Phương án A nhầm phép cộng thành phép nhân; phương án C quên tính $\log_28$.
+Ta có $24=8\cdot3$. Áp dụng quy tắc lôgarit của một tích, ta được
+$$\log_224=\log_2(8\cdot3)=\log_28+\log_23=3+a.$$
+
+Vậy chọn **B**.
+
+*Nhận xét.* Phương án A nhầm phép cộng thành phép nhân; phương án C quên tính $\log_28=3$.
 
 **Đáp số.** B.
 :::
@@ -275,13 +293,18 @@ d) Số $384$ là số hạng thứ $7$ của cấp số nhân.
 2. Giải $3\cdot2^{n-1}=384$.
 
 ::solution
-a) **Đúng.** $u_5=3\cdot2^4=48$.
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
 
-b) **Đúng.** $S_5=\dfrac{3(1-2^5)}{1-2}=3\cdot31=93$.
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
 
-c) **Sai.** $u_n=3\cdot2^{n-1}$; công thức $3\cdot2^n$ cho $u_1=6$.
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=\frac{3\cdot(-31)}{-1}=93.$$
 
-d) **Sai.** $3\cdot2^{n-1}=384\iff2^{n-1}=128\iff n=8$, nên $384$ là số hạng thứ $8$.
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $u_n=384\iff3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$, không phải thứ $7$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
 :::
@@ -297,7 +320,17 @@ Tính tổng các nghiệm của phương trình $4^x-6\cdot2^x+8=0$.
 2. Tìm $x$ từ $2^x=t$.
 
 ::solution
-$t^2-6t+8=0\iff t=2$ hoặc $t=4$ (đều dương). Khi đó $x=1$ hoặc $x=2$; tổng bằng $3$.
+Ta có $4^x=\left(2^x\right)^2$. Đặt $t=2^x$ ($t>0$), phương trình trở thành
+$$t^2-6t+8=0.$$
+
+Ta có $\Delta'=9-8=1$, nên $t=3+1=4$ hoặc $t=3-1=2$. Cả hai giá trị đều thoả mãn $t>0$.
+
+- Với $t=2$: $2^x=2$, suy ra $x=1$.
+- Với $t=4$: $2^x=4=2^2$, suy ra $x=2$.
+
+Phương trình có hai nghiệm $x=1$ và $x=2$, nên tổng các nghiệm là $1+2=3$.
+
+Vậy tổng các nghiệm của phương trình bằng $3$.
 
 **Đáp số.** $3$.
 :::
@@ -313,7 +346,17 @@ Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên
 2. Giải $0<x-2\le4$.
 
 ::solution
-$\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$.
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
 
 **Đáp số.** $4$.
 :::
@@ -329,7 +372,17 @@ Bạn An gửi $100$ triệu đồng vào ngân hàng với lãi suất $6\%$ m�
 2. Lấy số nguyên nhỏ nhất thoả mãn.
 
 ::solution
-$1{,}06^n\ge1{,}5\iff n\ge\log_{1{,}06}1{,}5\approx6{,}96$. Kiểm tra: $100\cdot1{,}06^6\approx141{,}9$ và $100\cdot1{,}06^7\approx150{,}4$ (triệu đồng).
+Gọi $n$ là số năm gửi ($n$ là số nguyên dương). Theo công thức lãi kép, sau $n$ năm số tiền trong tài khoản là
+$$T_n=100\cdot(1+6\%)^n=100\cdot1{,}06^n\ \text{(triệu đồng)}.$$
+
+Số tiền đạt từ $150$ triệu đồng trở lên khi
+$$100\cdot1{,}06^n\ge150\iff1{,}06^n\ge1{,}5\iff n\ge\log_{1{,}06}1{,}5\approx6{,}96.$$
+
+Vì $n$ là số nguyên nên $n\ge7$.
+
+Kiểm tra: $100\cdot1{,}06^6\approx141{,}9<150$ và $100\cdot1{,}06^7\approx150{,}4\ge150$ (triệu đồng).
+
+Vậy sau ít nhất $7$ năm thì số tiền đạt từ $150$ triệu đồng trở lên.
 
 **Đáp số.** $7$.
 :::
@@ -345,7 +398,14 @@ Một mẻ nuôi cấy có $1000$ vi khuẩn, và cứ $3$ giờ số vi khuẩn
 2. Lấy số nguyên nhỏ nhất thoả mãn, rồi kiểm tra lại.
 
 ::solution
-$t>3\log_220\approx12{,}97$. Kiểm tra: $N(12)=1000\cdot2^4=16\,000$ và $N(13)\approx20\,159>20\,000$.
+Số vi khuẩn vượt quá $20\,000$ con khi
+$$1000\cdot2^{\frac t3}>20\,000\iff2^{\frac t3}>20\iff\frac t3>\log_220\iff t>3\log_220\approx12{,}97.$$
+
+Vì $t$ là số nguyên nên $t\ge13$.
+
+Kiểm tra: $N(12)=1000\cdot2^4=16\,000<20\,000$ và $N(13)=1000\cdot2^{\frac{13}{3}}\approx20\,159>20\,000$.
+
+Vậy sau ít nhất $13$ giờ thì số vi khuẩn vượt quá $20\,000$ con.
 
 **Đáp số.** $13$.
 :::
@@ -361,7 +421,15 @@ Giải phương trình $\sin2x=\cos x$ trên đoạn $[0; \pi]$.
 2. Giải từng phương trình và chọn nghiệm thuộc $[0; \pi]$.
 
 ::solution
-$2\sin x\cos x-\cos x=0\iff\cos x(2\sin x-1)=0$. Trên $[0; \pi]$: $\cos x=0\iff x=\dfrac{\pi}{2}$; $\sin x=\dfrac12\iff x=\dfrac{\pi}{6}$ hoặc $x=\dfrac{5\pi}{6}$.
+Áp dụng công thức nhân đôi $\sin2x=2\sin x\cos x$, phương trình trở thành
+$$2\sin x\cos x-\cos x=0\iff\cos x\,(2\sin x-1)=0.$$
+
+Do đó $\cos x=0$ hoặc $\sin x=\dfrac12$.
+
+- Trên đoạn $[0; \pi]$, $\cos x=0\iff x=\dfrac{\pi}{2}$.
+- Trên đoạn $[0; \pi]$, $\sin x=\dfrac12\iff x=\dfrac{\pi}{6}$ hoặc $x=\dfrac{5\pi}{6}$.
+
+Vậy trên đoạn $[0; \pi]$, phương trình có ba nghiệm $x=\dfrac{\pi}{6}$, $x=\dfrac{\pi}{2}$, $x=\dfrac{5\pi}{6}$.
 
 **Đáp số.** $x\in\left\{\dfrac{\pi}{6}; \dfrac{\pi}{2}; \dfrac{5\pi}{6}\right\}$.
 :::
@@ -377,7 +445,15 @@ Thả một quả bóng từ độ cao $10$ m xuống sàn. Mỗi lần chạm s
 2. Các độ cao nảy là $7{,}5$; $7{,}5\cdot\dfrac34$; … lập cấp số nhân lùi vô hạn.
 
 ::solution
-Tổng các độ cao nảy là $\dfrac{7{,}5}{1-\frac34}=30$ m. Mỗi độ cao được đi hai lần, nên quãng đường là $10+2\cdot30=70$ m.
+Quãng đường bóng đi được gồm lần rơi đầu tiên $10$ m và các lần nảy lên rồi rơi xuống.
+
+Độ cao các lần nảy lên lập thành cấp số nhân với số hạng đầu $u_1=10\cdot\dfrac34=7{,}5$ (m) và công bội $q=\dfrac34$. Vì $|q|<1$ nên tổng các độ cao nảy là
+$$S=\frac{u_1}{1-q}=\frac{7{,}5}{1-\frac34}=30\ \text{(m)}.$$
+
+Mỗi lần nảy, bóng đi lên rồi rơi xuống cùng một độ cao, nên mỗi độ cao được đi hai lần. Do đó tổng quãng đường bóng đi được là
+$$10+2\cdot30=70\ \text{(m)}.$$
+
+Vậy bóng đi được tổng cộng $70$ m.
 
 **Đáp số.** $70$.
 :::

@@ -205,7 +205,14 @@ Mặt phẳng đi qua $M(1; -2; 3)$ và có vectơ pháp tuyến $\vec n=(2; -1;
 2. Khai triển và thu gọn.
 
 ::solution
-$2(x-1)-(y+2)+(z-3)=0\iff 2x-y+z-7=0$. Phương án C đổi vai trò điểm và vectơ pháp tuyến.
+Mặt phẳng đi qua $M(x_0; y_0; z_0)$ và có vectơ pháp tuyến $\vec n=(A; B; C)$ có phương trình $A(x-x_0)+B(y-y_0)+C(z-z_0)=0$.
+
+Với $M(1; -2; 3)$ và $\vec n=(2; -1; 1)$, ta có
+$$2(x-1)-(y+2)+(z-3)=0\iff2x-y+z-7=0.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án C đổi vai trò của toạ độ điểm và toạ độ vectơ pháp tuyến.
 
 **Đáp số.** A.
 :::
@@ -223,7 +230,12 @@ Khoảng cách từ điểm $M(1; 2; 3)$ đến mặt phẳng $(P)\colon 2x-2y+z
 2. Tính mẫu số $\sqrt{4+4+1}$.
 
 ::solution
-$d=\dfrac{|2-4+3+3|}{3}=\dfrac43$. Phương án B quên lấy căn ở mẫu.
+Áp dụng công thức khoảng cách từ điểm $M(x_0; y_0; z_0)$ đến mặt phẳng $Ax+By+Cz+D=0$:
+$$d\left(M, (P)\right)=\frac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}=\frac{|2\cdot1-2\cdot2+3+3|}{\sqrt{2^2+(-2)^2+1^2}}=\frac{4}{3}.$$
+
+Vậy chọn **C**.
+
+*Nhận xét.* Phương án B quên lấy căn bậc hai ở mẫu.
 
 **Đáp số.** C.
 :::
@@ -241,7 +253,14 @@ Mặt cầu $(S)\colon x^2+y^2+z^2-2x+4y-6z-2=0$ có tâm $I$ và bán kính $R$
 2. Tính $R$ với $d=-2$.
 
 ::solution
-$a=1$, $b=-2$, $c=3$, $R=\sqrt{1+4+9+2}=4$. Phương án C lấy nhầm $R^2=14-2$, phương án B sai dấu tâm.
+Phương trình $x^2+y^2+z^2-2ax-2by-2cz+d=0$ (với $a^2+b^2+c^2-d>0$) là phương trình mặt cầu tâm $I(a; b; c)$, bán kính $R=\sqrt{a^2+b^2+c^2-d}$.
+
+So sánh với phương trình đã cho, ta có $-2a=-2$, $-2b=4$, $-2c=-6$, $d=-2$, nên $a=1$, $b=-2$, $c=3$. Do đó tâm là $I(1; -2; 3)$ và
+$$R=\sqrt{1^2+(-2)^2+3^2-(-2)}=\sqrt{16}=4.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B sai dấu toạ độ tâm; phương án C lấy nhầm $R^2=14-2$.
 
 **Đáp số.** A.
 :::
@@ -265,13 +284,20 @@ d) $d$ cắt $(P)$ tại điểm $(1; 2; 0)$.
 2. Tính $\vec u\cdot\vec n$ và giải phương trình theo $t$.
 
 ::solution
-a) **Đúng.** Hệ số của $t$ là $1$, $-1$, $2$.
+Mặt phẳng $(P)$ có vectơ pháp tuyến $\vec n=(1; 1; 1)$.
 
-b) **Đúng.** Với $t=1$ ta được $(2; 1; 2)$.
+a) **Đúng.** Các hệ số của $t$ trong phương trình tham số của $d$ là $1$, $-1$, $2$, nên $\vec u=(1; -1; 2)$ là một vectơ chỉ phương của $d$.
 
-c) **Sai.** $\vec u\cdot\vec n=1-1+2=2\neq0$.
+b) **Đúng.** Với $t=1$, ta có $x=2$, $y=1$, $z=2$, nên điểm $A(2; 1; 2)$ thuộc $d$.
 
-d) **Đúng.** $(1+t)+(2-t)+2t-3=0\iff 2t=0\iff t=0$, cho điểm $(1; 2; 0)$.
+c) **Sai.** Ta có $\vec u\cdot\vec n=1\cdot1+(-1)\cdot1+2\cdot1=2\neq0$, nên $\vec u$ không vuông góc với $\vec n$. Do đó $d$ không song song với $(P)$.
+
+d) **Đúng.** Thay $x$, $y$, $z$ theo $t$ vào phương trình của $(P)$, ta được
+$$(1+t)+(2-t)+2t-3=0\iff2t=0\iff t=0.$$
+
+Với $t=0$, ta được điểm $(1; 2; 0)$. Vậy $d$ cắt $(P)$ tại điểm $(1; 2; 0)$.
+
+Vậy các mệnh đề a), b), d) đúng; mệnh đề c) sai.
 
 **Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 :::
@@ -287,7 +313,14 @@ Tính góc giữa hai đường thẳng $d_1\colon x=t$, $y=1+t$, $z=2$ và $d_2
 2. Thay vào công thức.
 
 ::solution
-$\cos\varphi=\dfrac{|0+1+0|}{\sqrt2\cdot\sqrt2}=\dfrac12$, nên $\varphi=60^\circ$.
+Đường thẳng $d_1$ có vectơ chỉ phương $\vec u_1=(1; 1; 0)$; đường thẳng $d_2$ có vectơ chỉ phương $\vec u_2=(0; 1; -1)$.
+
+Gọi $\varphi$ là góc giữa $d_1$ và $d_2$. Ta có
+$$\cos\varphi=\frac{\left|\vec u_1\cdot\vec u_2\right|}{\left|\vec u_1\right|\cdot\left|\vec u_2\right|}=\frac{|1\cdot0+1\cdot1+0\cdot(-1)|}{\sqrt{1^2+1^2+0^2}\cdot\sqrt{0^2+1^2+(-1)^2}}=\frac{1}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+Suy ra $\varphi=60^\circ$.
+
+Vậy góc giữa hai đường thẳng bằng $60^\circ$.
 
 **Đáp số.** $60$.
 :::
@@ -303,7 +336,16 @@ Cho $A(1; 0; 1)$, $B(2; 1; 0)$, $C(0; 2; 3)$. Tính khoảng cách từ gốc to
 2. Viết phương trình $(ABC)$ rồi tính khoảng cách.
 
 ::solution
-$[\overrightarrow{AB}, \overrightarrow{AC}]=(1\cdot2-(-1)\cdot2;\ (-1)(-1)-1\cdot2;\ 1\cdot2-1\cdot(-1))=(4; -1; 3)$. Phương trình $(ABC)$: $4(x-1)-y+3(z-1)=0\iff 4x-y+3z-7=0$. Khi đó $d(O, (ABC))=\dfrac{7}{\sqrt{26}}\approx1{,}37$.
+Ta có $\overrightarrow{AB}=(1; 1; -1)$ và $\overrightarrow{AC}=(-1; 2; 2)$. Một vectơ pháp tuyến của mặt phẳng $(ABC)$ là
+$$\vec n=\left[\overrightarrow{AB}, \overrightarrow{AC}\right]=\big(1\cdot2-(-1)\cdot2;\ (-1)\cdot(-1)-1\cdot2;\ 1\cdot2-1\cdot(-1)\big)=(4; -1; 3).$$
+
+Mặt phẳng $(ABC)$ đi qua $A(1; 0; 1)$ và có vectơ pháp tuyến $\vec n=(4; -1; 3)$, nên có phương trình
+$$4(x-1)-y+3(z-1)=0\iff4x-y+3z-7=0.$$
+
+Khoảng cách từ $O(0; 0; 0)$ đến mặt phẳng $(ABC)$ là
+$$d\left(O, (ABC)\right)=\frac{|-7|}{\sqrt{4^2+(-1)^2+3^2}}=\frac{7}{\sqrt{26}}\approx1{,}37.$$
+
+Vậy khoảng cách cần tìm xấp xỉ $1{,}37$.
 
 **Đáp số.** $1{,}37$.
 :::
@@ -319,7 +361,13 @@ Một căn phòng dạng hình hộp chữ nhật dài $6$ m, rộng $4$ m, cao 
 2. Tính độ dài.
 
 ::solution
-$\overrightarrow{AB}=(6; 4; -3)$, nên $AB=\sqrt{36+16+9}=\sqrt{61}\approx7{,}81$ m.
+Sợi dây là đoạn thẳng $AB$ với $A(0; 0; 3)$ và $B(6; 4; 0)$. Ta có
+$$\overrightarrow{AB}=(6-0;\ 4-0;\ 0-3)=(6; 4; -3).$$
+
+Độ dài sợi dây là
+$$AB=\left|\overrightarrow{AB}\right|=\sqrt{6^2+4^2+(-3)^2}=\sqrt{61}\approx7{,}81\ \text{(m)}.$$
+
+Vậy sợi dây dài khoảng $7{,}81$ m.
 
 **Đáp số.** $7{,}81$.
 :::
@@ -335,7 +383,14 @@ Một thiết bị bay không người lái xuất phát từ gốc $O$ và bay 
 2. Giải phương trình theo $t$.
 
 ::solution
-$2t+4t+2t=8t=30\iff t=3{,}75$. Với $t<3{,}75$ thì $8t<30$, nên trước thời điểm đó thiết bị chưa vào vùng cấm.
+Tại thời điểm $t$ giây ($t\ge0$), thiết bị ở vị trí $M(2t; 2t; t)$. Thay toạ độ của $M$ vào vế trái của bất phương trình mô tả vùng cấm bay, ta được
+$$x+2y+2z=2t+2\cdot2t+2\cdot t=8t.$$
+
+Thiết bị ở trong vùng cấm bay khi $8t\ge30$, tức là $t\ge3{,}75$.
+
+Với $0\le t<3{,}75$ thì $8t<30$, nên thiết bị chưa vào vùng cấm; tại $t=3{,}75$ thì $8t=30$, thiết bị bắt đầu chạm vào vùng cấm.
+
+Vậy sau $3{,}75$ giây thì thiết bị bắt đầu đi vào vùng cấm bay.
 
 **Đáp số.** $3{,}75$.
 :::
@@ -351,7 +406,22 @@ Cho điểm $A(3; 1; -2)$ và mặt phẳng $(P)\colon x+2y-2z=0$. Viết phươ
 2. Thay vào $(P)$ để tìm $t$, suy ra $H$; tính $AH$.
 
 ::solution
-Thay vào $(P)$: $(3+t)+2(1+2t)-2(-2-2t)=0\iff 9+9t=0\iff t=-1$, nên $H(2; -1; 0)$. Khi đó $AH=\sqrt{1+4+4}=3$, khớp với $d(A, (P))=\dfrac{|3+2+4|}{3}=3$.
+Mặt phẳng $(P)$ có vectơ pháp tuyến $\vec n=(1; 2; -2)$.
+
+Đường thẳng $d$ vuông góc với $(P)$ nên nhận $\vec n=(1; 2; -2)$ làm vectơ chỉ phương. Đường thẳng $d$ đi qua $A(3; 1; -2)$, nên có phương trình tham số
+$$d\colon\ x=3+t,\quad y=1+2t,\quad z=-2-2t.$$
+
+Hình chiếu vuông góc $H$ của $A$ trên $(P)$ là giao điểm của $d$ và $(P)$. Thay $x$, $y$, $z$ theo $t$ vào phương trình của $(P)$, ta được
+$$(3+t)+2(1+2t)-2(-2-2t)=0\iff9+9t=0\iff t=-1.$$
+
+Với $t=-1$, ta được $H(2; -1; 0)$.
+
+Khoảng cách từ $A$ đến $(P)$ là
+$$d\left(A, (P)\right)=AH=\sqrt{(2-3)^2+(-1-1)^2+(0+2)^2}=\sqrt9=3.$$
+
+Kiểm tra bằng công thức: $d\left(A, (P)\right)=\dfrac{|3+2\cdot1-2\cdot(-2)|}{\sqrt{1+4+4}}=\dfrac93=3$ (khớp).
+
+Vậy $d\colon x=3+t$, $y=1+2t$, $z=-2-2t$; $H(2; -1; 0)$ và $d\left(A, (P)\right)=3$.
 
 **Đáp số.** $d\colon x=3+t$, $y=1+2t$, $z=-2-2t$; $H(2; -1; 0)$; $d(A, (P))=3$.
 :::
@@ -367,7 +437,19 @@ Mặt cầu $(S)$ có tâm $I(1; 2; -1)$ và tiếp xúc với mặt phẳng $(P
 2. Viết đường thẳng qua $I$ vuông góc với $(P)$ rồi tìm giao điểm với $(P)$.
 
 ::solution
-$R=\dfrac{|2-2-2+11|}{3}=3$. Đường thẳng $x=1+2s$, $y=2-s$, $z=-1+2s$ cắt $(P)$ khi $2(1+2s)-(2-s)+2(-1+2s)+11=0\iff 9s+9=0\iff s=-1$, nên $H(-1; 3; -3)$ và $a+b+c=-1$.
+Mặt cầu $(S)$ tiếp xúc với $(P)$ nên bán kính bằng khoảng cách từ tâm $I$ đến $(P)$:
+$$R=d\left(I, (P)\right)=\frac{|2\cdot1-2+2\cdot(-1)+11|}{\sqrt{2^2+(-1)^2+2^2}}=\frac{9}{3}=3.$$
+
+Tiếp điểm $H$ là hình chiếu vuông góc của $I$ trên $(P)$. Đường thẳng $\Delta$ đi qua $I$ và vuông góc với $(P)$ nhận vectơ pháp tuyến $\vec n=(2; -1; 2)$ của $(P)$ làm vectơ chỉ phương:
+$$\Delta\colon\ x=1+2s,\quad y=2-s,\quad z=-1+2s.$$
+
+Thay vào phương trình của $(P)$, ta được
+$$2(1+2s)-(2-s)+2(-1+2s)+11=0\iff9s+9=0\iff s=-1.$$
+
+Với $s=-1$, ta được $H(-1; 3; -3)$. Do đó $a=-1$, $b=3$, $c=-3$ và
+$$a+b+c=-1+3-3=-1.$$
+
+Vậy $a+b+c=-1$.
 
 **Đáp số.** $-1$.
 :::

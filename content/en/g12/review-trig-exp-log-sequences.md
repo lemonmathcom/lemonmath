@@ -215,7 +215,12 @@ Given $\sin x=\dfrac13$, the value of $\cos2x$ is
 2. Substitute into the identity.
 
 ::solution
-$\cos2x=1-2\cdot\dfrac19=\dfrac79$. Option B forgets to square, option C uses $2\sin^2x-1$ by mistake, and option D is $\cos^2x$.
+Using the double-angle formula $\cos2x=1-2\sin^2x$, we have
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+So the answer is **A**.
+
+*Remark.* Option B forgets to square $\sin x$; option C uses the wrong formula $2\sin^2x-1$; option D is the value of $\cos^2x$.
 
 **Answer.** A.
 :::
@@ -233,7 +238,15 @@ The solutions of the equation $\tan x=\sqrt3$ are
 2. Write the general solution with period $\pi$.
 
 ::solution
-$\tan x=\tan\dfrac{\pi}{3}\iff x=\dfrac{\pi}{3}+k\pi$. Option B misses half of the solutions; option C uses $\tan\dfrac{\pi}{6}=\dfrac{\sqrt3}{3}$.
+We have $\sqrt3=\tan\dfrac{\pi}{3}$. Hence the equation becomes
+$$\tan x=\tan\frac{\pi}{3}.$$
+
+The function $y=\tan x$ is periodic with period $\pi$, so
+$$\tan x=\tan\frac{\pi}{3}\iff x=\frac{\pi}{3}+k\pi\quad(k\in\mathbb Z).$$
+
+So the answer is **A**.
+
+*Remark.* Option B uses the period $2\pi$ and misses half of the solutions; option C confuses this with $\tan\dfrac{\pi}{6}=\dfrac{\sqrt3}{3}$.
 
 **Answer.** A.
 :::
@@ -251,7 +264,12 @@ Let $a=\log_23$. Then $\log_224$ equals
 2. Use $\log_28=3$.
 
 ::solution
-$\log_224=\log_28+\log_23=3+a$. Option A turns the addition into a multiplication; option C forgets to evaluate $\log_28$.
+We have $24=8\cdot3$. Using the rule for the logarithm of a product, we get
+$$\log_224=\log_2(8\cdot3)=\log_28+\log_23=3+a.$$
+
+So the answer is **B**.
+
+*Remark.* Option A turns the sum into a product; option C forgets to work out $\log_28=3$.
 
 **Answer.** B.
 :::
@@ -275,13 +293,18 @@ d) The number $384$ is the $7$th term of the sequence.
 2. Solve $3\cdot2^{n-1}=384$.
 
 ::solution
-a) **True.** $u_5=3\cdot2^4=48$.
+The general term of the geometric sequence is $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
 
-b) **True.** $S_5=\dfrac{3(1-2^5)}{1-2}=3\cdot31=93$.
+a) **True.** We have $u_5=3\cdot2^{5-1}=3\cdot16=48$.
 
-c) **False.** $u_n=3\cdot2^{n-1}$; the formula $3\cdot2^n$ gives $u_1=6$.
+b) **True.** The sum of the first $n$ terms is $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, so
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=\frac{3\cdot(-31)}{-1}=93.$$
 
-d) **False.** $3\cdot2^{n-1}=384\iff2^{n-1}=128\iff n=8$, so $384$ is the $8$th term.
+c) **False.** As above, $u_n=3\cdot2^{n-1}$. The formula $u_n=3\cdot2^n$ gives $u_1=6\neq3$.
+
+d) **False.** We have $u_n=384\iff3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. So $384$ is the 8th term, not the 7th.
+
+So statements a) and b) are true; statements c) and d) are false.
 
 **Answer.** a) True; b) True; c) False; d) False.
 :::
@@ -297,7 +320,17 @@ Find the sum of the solutions of the equation $4^x-6\cdot2^x+8=0$.
 2. Find $x$ from $2^x=t$.
 
 ::solution
-$t^2-6t+8=0\iff t=2$ or $t=4$ (both positive). Then $x=1$ or $x=2$, and the sum is $3$.
+We have $4^x=\left(2^x\right)^2$. Let $t=2^x$ ($t>0$); the equation becomes
+$$t^2-6t+8=0.$$
+
+We have $\Delta'=9-8=1$, so $t=3+1=4$ or $t=3-1=2$. Both values satisfy $t>0$.
+
+- For $t=2$: $2^x=2$, so $x=1$.
+- For $t=4$: $2^x=4=2^2$, so $x=2$.
+
+The equation has two solutions, $x=1$ and $x=2$, so the sum of the solutions is $1+2=3$.
+
+So the sum of the solutions of the equation is $3$.
 
 **Answer.** $3$.
 :::
@@ -313,7 +346,17 @@ How many integer solutions does the inequality $\log_{\frac12}(x-2)\ge-2$ have?
 2. Solve $0<x-2\le4$.
 
 ::solution
-$\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. The integers are $3$, $4$, $5$, $6$.
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
 
 **Answer.** $4$.
 :::
@@ -329,7 +372,17 @@ Your friend An deposits $100$ million đồng in a bank at $6\%$ interest per ye
 2. Take the least integer that works.
 
 ::solution
-$1.06^n\ge1.5\iff n\ge\log_{1.06}1.5\approx6.96$. Check: $100\cdot1.06^6\approx141.9$ and $100\cdot1.06^7\approx150.4$ (million đồng).
+Let $n$ be the number of years ($n$ is a positive integer). By the compound interest formula, after $n$ years the balance is
+$$T_n=100\cdot(1+6\%)^n=100\cdot1.06^n\ \text{(million đồng)}.$$
+
+The balance reaches $150$ million đồng or more when
+$$100\cdot1.06^n\ge150\iff1.06^n\ge1.5\iff n\ge\log_{1.06}1.5\approx6.96.$$
+
+Since $n$ is an integer, $n\ge7$.
+
+Check: $100\cdot1.06^6\approx141.9<150$ and $100\cdot1.06^7\approx150.4\ge150$ (million đồng).
+
+So after at least $7$ years the balance is $150$ million đồng or more.
 
 **Answer.** $7$.
 :::
@@ -345,7 +398,14 @@ A culture starts with $1000$ bacteria, and the number doubles every $3$ hours, s
 2. Take the least integer that works, then check.
 
 ::solution
-$t>3\log_220\approx12.97$. Check: $N(12)=1000\cdot2^4=16\,000$ and $N(13)\approx20\,159>20\,000$.
+The number of bacteria exceeds $20\,000$ when
+$$1000\cdot2^{\frac t3}>20\,000\iff2^{\frac t3}>20\iff\frac t3>\log_220\iff t>3\log_220\approx12.97.$$
+
+Since $t$ is a whole number, $t\ge13$.
+
+Check: $N(12)=1000\cdot2^4=16\,000<20\,000$ and $N(13)=1000\cdot2^{\frac{13}{3}}\approx20\,159>20\,000$.
+
+So after at least $13$ hours the number of bacteria exceeds $20\,000$.
 
 **Answer.** $13$.
 :::
@@ -361,7 +421,15 @@ Solve the equation $\sin2x=\cos x$ on $[0, \pi]$.
 2. Solve each factor and keep the solutions in $[0, \pi]$.
 
 ::solution
-$2\sin x\cos x-\cos x=0\iff\cos x(2\sin x-1)=0$. On $[0, \pi]$: $\cos x=0\iff x=\dfrac{\pi}{2}$; $\sin x=\dfrac12\iff x=\dfrac{\pi}{6}$ or $x=\dfrac{5\pi}{6}$.
+Using the double-angle formula $\sin2x=2\sin x\cos x$, the equation becomes
+$$2\sin x\cos x-\cos x=0\iff\cos x\,(2\sin x-1)=0.$$
+
+Hence $\cos x=0$ or $\sin x=\dfrac12$.
+
+- On $[0, \pi]$, $\cos x=0\iff x=\dfrac{\pi}{2}$.
+- On $[0, \pi]$, $\sin x=\dfrac12\iff x=\dfrac{\pi}{6}$ or $x=\dfrac{5\pi}{6}$.
+
+So on $[0, \pi]$ the equation has three solutions: $x=\dfrac{\pi}{6}$, $x=\dfrac{\pi}{2}$, $x=\dfrac{5\pi}{6}$.
 
 **Answer.** $x\in\left\{\dfrac{\pi}{6}, \dfrac{\pi}{2}, \dfrac{5\pi}{6}\right\}$.
 :::
@@ -377,7 +445,15 @@ A ball is dropped from a height of $10$ m onto the floor. Each time it hits the 
 2. The bounce heights $7.5$, $7.5\cdot\dfrac34$, … form a convergent geometric series.
 
 ::solution
-The bounce heights add up to $\dfrac{7.5}{1-\frac34}=30$ m. Each height is travelled twice, so the distance is $10+2\cdot30=70$ m.
+The distance travelled by the ball consists of the first drop of $10$ m and the bounces up and down.
+
+The bounce heights form a geometric sequence with first term $u_1=10\cdot\dfrac34=7.5$ (m) and common ratio $q=\dfrac34$. Since $|q|<1$, the bounce heights add up to
+$$S=\frac{u_1}{1-q}=\frac{7.5}{1-\frac34}=30\ \text{(m)}.$$
+
+On each bounce the ball goes up and comes down the same height, so each height is travelled twice. Hence the total distance travelled is
+$$10+2\cdot30=70\ \text{(m)}.$$
+
+So the ball travels $70$ m in total.
 
 **Answer.** $70$.
 :::

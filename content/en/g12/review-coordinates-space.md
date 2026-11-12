@@ -205,7 +205,14 @@ The plane through $M(1, -2, 3)$ with normal vector $\vec n=(2, -1, 1)$ has equat
 2. Expand and simplify.
 
 ::solution
-$2(x-1)-(y+2)+(z-3)=0\iff 2x-y+z-7=0$. Option C swaps the point and the normal vector.
+The plane through $M(x_0, y_0, z_0)$ with normal vector $\vec n=(A, B, C)$ has equation $A(x-x_0)+B(y-y_0)+C(z-z_0)=0$.
+
+With $M(1, -2, 3)$ and $\vec n=(2, -1, 1)$, we have
+$$2(x-1)-(y+2)+(z-3)=0\iff2x-y+z-7=0.$$
+
+So the answer is **A**.
+
+*Remark.* Option C swaps the roles of the coordinates of the point and of the normal vector.
 
 **Answer.** A.
 :::
@@ -223,7 +230,12 @@ The distance from $M(1, 2, 3)$ to the plane $(P)\colon 2x-2y+z+3=0$ is
 2. Compute the denominator $\sqrt{4+4+1}$.
 
 ::solution
-$d=\dfrac{|2-4+3+3|}{3}=\dfrac43$. Option B forgets the square root in the denominator.
+Using the formula for the distance from a point $M(x_0, y_0, z_0)$ to the plane $Ax+By+Cz+D=0$:
+$$d\left(M, (P)\right)=\frac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}=\frac{|2\cdot1-2\cdot2+3+3|}{\sqrt{2^2+(-2)^2+1^2}}=\frac{4}{3}.$$
+
+So the answer is **C**.
+
+*Remark.* Option B forgets the square root in the denominator.
 
 **Answer.** C.
 :::
@@ -241,7 +253,14 @@ The sphere $(S)\colon x^2+y^2+z^2-2x+4y-6z-2=0$ has centre $I$ and radius $R$ gi
 2. Compute $R$ with $d=-2$.
 
 ::solution
-$a=1$, $b=-2$, $c=3$ and $R=\sqrt{1+4+9+2}=4$. Option C takes $R^2=14-2$ by mistake; option B has the wrong signs for the centre.
+The equation $x^2+y^2+z^2-2ax-2by-2cz+d=0$ (with $a^2+b^2+c^2-d>0$) is the equation of the sphere with centre $I(a, b, c)$ and radius $R=\sqrt{a^2+b^2+c^2-d}$.
+
+Comparing with the given equation, $-2a=-2$, $-2b=4$, $-2c=-6$, $d=-2$, so $a=1$, $b=-2$, $c=3$. Hence the centre is $I(1, -2, 3)$ and
+$$R=\sqrt{1^2+(-2)^2+3^2-(-2)}=\sqrt{16}=4.$$
+
+So the answer is **A**.
+
+*Remark.* Option B has the wrong signs for the centre; option C takes $R^2=14-2$ by mistake.
 
 **Answer.** A.
 :::
@@ -265,13 +284,20 @@ d) $d$ meets $(P)$ at the point $(1, 2, 0)$.
 2. Compute $\vec u\cdot\vec n$ and solve the equation in $t$.
 
 ::solution
-a) **True.** The coefficients of $t$ are $1$, $-1$, $2$.
+The plane $(P)$ has normal vector $\vec n=(1, 1, 1)$.
 
-b) **True.** With $t=1$ we get $(2, 1, 2)$.
+a) **True.** The coefficients of $t$ in the parametric equations of $d$ are $1$, $-1$, $2$, so $\vec u=(1, -1, 2)$ is a direction vector of $d$.
 
-c) **False.** $\vec u\cdot\vec n=1-1+2=2\neq0$.
+b) **True.** For $t=1$ we get $x=2$, $y=1$, $z=2$, so the point $A(2, 1, 2)$ lies on $d$.
 
-d) **True.** $(1+t)+(2-t)+2t-3=0\iff 2t=0\iff t=0$, which gives the point $(1, 2, 0)$.
+c) **False.** We have $\vec u\cdot\vec n=1\cdot1+(-1)\cdot1+2\cdot1=2\neq0$, so $\vec u$ is not perpendicular to $\vec n$. Hence $d$ is not parallel to $(P)$.
+
+d) **True.** Substituting $x$, $y$, $z$ in terms of $t$ into the equation of $(P)$, we get
+$$(1+t)+(2-t)+2t-3=0\iff2t=0\iff t=0.$$
+
+For $t=0$ we get the point $(1, 2, 0)$. So $d$ meets $(P)$ at the point $(1, 2, 0)$.
+
+So statements a), b), d) are true; statement c) is false.
 
 **Answer.** a) True; b) True; c) False; d) True.
 :::
@@ -287,7 +313,14 @@ Find the angle between the lines $d_1\colon x=t$, $y=1+t$, $z=2$ and $d_2\colon 
 2. Substitute into the formula.
 
 ::solution
-$\cos\varphi=\dfrac{|0+1+0|}{\sqrt2\cdot\sqrt2}=\dfrac12$, so $\varphi=60^\circ$.
+The line $d_1$ has direction vector $\vec u_1=(1, 1, 0)$; the line $d_2$ has direction vector $\vec u_2=(0, 1, -1)$.
+
+Let $\varphi$ be the angle between $d_1$ and $d_2$. We have
+$$\cos\varphi=\frac{\left|\vec u_1\cdot\vec u_2\right|}{\left|\vec u_1\right|\cdot\left|\vec u_2\right|}=\frac{|1\cdot0+1\cdot1+0\cdot(-1)|}{\sqrt{1^2+1^2+0^2}\cdot\sqrt{0^2+1^2+(-1)^2}}=\frac{1}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+Hence $\varphi=60^\circ$.
+
+So the angle between the two lines is $60^\circ$.
 
 **Answer.** $60$.
 :::
@@ -303,7 +336,16 @@ Let $A(1, 0, 1)$, $B(2, 1, 0)$, $C(0, 2, 3)$. Find the distance from the origin 
 2. Write the equation of $(ABC)$, then find the distance.
 
 ::solution
-$[\overrightarrow{AB}, \overrightarrow{AC}]=(1\cdot2-(-1)\cdot2,\ (-1)(-1)-1\cdot2,\ 1\cdot2-1\cdot(-1))=(4, -1, 3)$. The plane $(ABC)$ is $4(x-1)-y+3(z-1)=0\iff 4x-y+3z-7=0$. Then $d(O, (ABC))=\dfrac{7}{\sqrt{26}}\approx1.37$.
+We have $\overrightarrow{AB}=(1, 1, -1)$ and $\overrightarrow{AC}=(-1, 2, 2)$. A normal vector of the plane $(ABC)$ is
+$$\vec n=\left[\overrightarrow{AB}, \overrightarrow{AC}\right]=\big(1\cdot2-(-1)\cdot2,\ (-1)\cdot(-1)-1\cdot2,\ 1\cdot2-1\cdot(-1)\big)=(4, -1, 3).$$
+
+The plane $(ABC)$ passes through $A(1, 0, 1)$ with normal vector $\vec n=(4, -1, 3)$, so its equation is
+$$4(x-1)-y+3(z-1)=0\iff4x-y+3z-7=0.$$
+
+The distance from $O(0, 0, 0)$ to the plane $(ABC)$ is
+$$d\left(O, (ABC)\right)=\frac{|-7|}{\sqrt{4^2+(-1)^2+3^2}}=\frac{7}{\sqrt{26}}\approx1.37.$$
+
+So the required distance is about $1.37$.
 
 **Answer.** $1.37$.
 :::
@@ -319,7 +361,13 @@ A room is a cuboid $6$ m long, $4$ m wide and $3$ m high. Choose axes $Oxyz$ wit
 2. Find its length.
 
 ::solution
-$\overrightarrow{AB}=(6, 4, -3)$, so $AB=\sqrt{36+16+9}=\sqrt{61}\approx7.81$ m.
+The wire is the segment $AB$ with $A(0, 0, 3)$ and $B(6, 4, 0)$. We have
+$$\overrightarrow{AB}=(6-0,\ 4-0,\ 0-3)=(6, 4, -3).$$
+
+The length of the wire is
+$$AB=\left|\overrightarrow{AB}\right|=\sqrt{6^2+4^2+(-3)^2}=\sqrt{61}\approx7.81\ \text{(m)}.$$
+
+So the wire is about $7.81$ m long.
 
 **Answer.** $7.81$.
 :::
@@ -335,7 +383,14 @@ A drone starts at the origin $O$ and flies in a straight line; after $t$ seconds
 2. Solve the equation for $t$.
 
 ::solution
-$2t+4t+2t=8t=30\iff t=3.75$. For $t<3.75$ we have $8t<30$, so before that moment the drone is outside the zone.
+At time $t$ seconds ($t\ge0$), the drone is at $M(2t, 2t, t)$. Substituting the coordinates of $M$ into the left-hand side of the inequality describing the no-fly zone, we get
+$$x+2y+2z=2t+2\cdot2t+2\cdot t=8t.$$
+
+The drone is in the no-fly zone when $8t\ge30$, that is $t\ge3.75$.
+
+For $0\le t<3.75$ we have $8t<30$, so the drone is not yet in the zone; at $t=3.75$ we have $8t=30$ and the drone starts to enter it.
+
+So the drone starts to enter the no-fly zone after $3.75$ seconds.
 
 **Answer.** $3.75$.
 :::
@@ -351,7 +406,22 @@ Let $A(3, 1, -2)$ and the plane $(P)\colon x+2y-2z=0$. Write the equations of th
 2. Substitute into $(P)$ to find $t$, hence $H$; then find $AH$.
 
 ::solution
-Substituting into $(P)$: $(3+t)+2(1+2t)-2(-2-2t)=0\iff 9+9t=0\iff t=-1$, so $H(2, -1, 0)$. Then $AH=\sqrt{1+4+4}=3$, which agrees with $d(A, (P))=\dfrac{|3+2+4|}{3}=3$.
+The plane $(P)$ has normal vector $\vec n=(1, 2, -2)$.
+
+The line $d$ is perpendicular to $(P)$, so it has direction vector $\vec n=(1, 2, -2)$. The line $d$ passes through $A(3, 1, -2)$, so its parametric equations are
+$$d\colon\ x=3+t,\quad y=1+2t,\quad z=-2-2t.$$
+
+The foot of the perpendicular $H$ from $A$ to $(P)$ is the point where $d$ meets $(P)$. Substituting $x$, $y$, $z$ in terms of $t$ into the equation of $(P)$, we get
+$$(3+t)+2(1+2t)-2(-2-2t)=0\iff9+9t=0\iff t=-1.$$
+
+For $t=-1$ we get $H(2, -1, 0)$.
+
+The distance from $A$ to $(P)$ is
+$$d\left(A, (P)\right)=AH=\sqrt{(2-3)^2+(-1-1)^2+(0+2)^2}=\sqrt9=3.$$
+
+Check with the formula: $d\left(A, (P)\right)=\dfrac{|3+2\cdot1-2\cdot(-2)|}{\sqrt{1+4+4}}=\dfrac93=3$ (it agrees).
+
+So $d\colon x=3+t$, $y=1+2t$, $z=-2-2t$; $H(2, -1, 0)$ and $d\left(A, (P)\right)=3$.
 
 **Answer.** $d\colon x=3+t$, $y=1+2t$, $z=-2-2t$; $H(2, -1, 0)$; $d(A, (P))=3$.
 :::
@@ -367,7 +437,19 @@ The sphere $(S)$ has centre $I(1, 2, -1)$ and touches the plane $(P)\colon 2x-y+
 2. Write the line through $I$ perpendicular to $(P)$ and find where it meets $(P)$.
 
 ::solution
-$R=\dfrac{|2-2-2+11|}{3}=3$. The line $x=1+2s$, $y=2-s$, $z=-1+2s$ meets $(P)$ when $2(1+2s)-(2-s)+2(-1+2s)+11=0\iff 9s+9=0\iff s=-1$, so $H(-1, 3, -3)$ and $a+b+c=-1$.
+The sphere $(S)$ touches $(P)$, so its radius is the distance from the centre $I$ to $(P)$:
+$$R=d\left(I, (P)\right)=\frac{|2\cdot1-2+2\cdot(-1)+11|}{\sqrt{2^2+(-1)^2+2^2}}=\frac{9}{3}=3.$$
+
+The point of contact $H$ is the foot of the perpendicular from $I$ to $(P)$. The line $\Delta$ through $I$ perpendicular to $(P)$ has the normal vector $\vec n=(2, -1, 2)$ of $(P)$ as its direction vector:
+$$\Delta\colon\ x=1+2s,\quad y=2-s,\quad z=-1+2s.$$
+
+Substituting into the equation of $(P)$, we get
+$$2(1+2s)-(2-s)+2(-1+2s)+11=0\iff9s+9=0\iff s=-1.$$
+
+For $s=-1$ we get $H(-1, 3, -3)$. Hence $a=-1$, $b=3$, $c=-3$ and
+$$a+b+c=-1+3-3=-1.$$
+
+So $a+b+c=-1$.
 
 **Answer.** $-1$.
 :::
