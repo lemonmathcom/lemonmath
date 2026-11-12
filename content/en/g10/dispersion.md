@@ -13,24 +13,24 @@ minutes: 25
 
 Two basketball players both score $8$ points per game on average. In the last three games, An scored $7, 8, 9$ points and Bao scored $0, 8, 16$ points. The coach needs a player who scores steadily. The means are equal, so what should the choice be based on?
 
-The mean only tells us the "centre" of the data. This lesson gives numbers that measure how widely the data **spread** around that centre.
+At a glance An looks steadier: always somewhere around $8$ points. Bao, on the other hand, scored nothing in one game and twice as much in another. The mean only tells us the "centre" of the data; it says nothing about how widely the values **spread** around that centre. To compare the players properly, we need numbers that measure that spread.
 
 ## Range and interquartile range
 
 ### Exploring: how wide are the data?
 
-The simplest idea is to see how far apart the highest and lowest scores are:
+The first idea that comes to anyone's mind is to see how far apart the best and the worst game are:
 
 $$\text{An: } 9-7=2,\qquad \text{Bao: } 16-0=16.$$
 
-Bao's scores spread over an interval $8$ times as wide. This number is called the range.
+Bao's scores spread over an interval $8$ times as wide as An's. This simple number is called the range.
 
 :::definition Range and interquartile range
 - The **range** is $R=x_{\max}-x_{\min}$.
 - The **interquartile range** is $\Delta_Q=Q_3-Q_1$, the width of the middle half of the data.
 :::
 
-The range is easy to compute but depends only on the two extreme values, so one unusual value makes it jump. The interquartile range ignores a quarter of the data at each end, so it is more stable.
+The range is easy to compute, but it only looks at the two values at the ends. One unusual value, say a test that went badly, is enough to make it jump. The interquartile range "ignores" a quarter of the data at each end and measures only the middle half, so strange values disturb it much less.
 
 :::example Range and interquartile range
 The marks of the $8$ students in group A are $4, 6, 7, 7, 8, 9, 10, 11$. Find $R$ and $\Delta_Q$.
@@ -44,7 +44,7 @@ So $R=7$ and $\Delta_Q=9.5-6.5=3$.
 
 ## Variance and standard deviation
 
-The range and the interquartile range use only a few values. To use **every** value, we look at the deviation $x_i-\bar{x}$ of each value from the mean. But the deviations always add up to $0$ (previous lesson), so we square them before taking the mean. For An, the deviations are $-1, 0, 1$, their squares $1, 0, 1$, with mean $\dfrac23$. For Bao: $64, 0, 64$, with mean $\dfrac{128}{3}$, which is $64$ times larger. The coach should choose An.
+The two measures above use only a few values from the data. To let **every** value have its say, we look at how far each value is from the mean, that is the deviation $x_i-\bar{x}$. The natural idea is to take the mean of the deviations. But there is a snag: positive and negative deviations cancel out, and they always add up to $0$ (previous lesson). The fix is to square the deviations so that none of them is negative, and only then take the mean. For An, the deviations are $-1, 0, 1$, their squares $1, 0, 1$, with mean $\dfrac23$. For Bao: $64, 0, 64$, with mean $\dfrac{128}{3}$, which is $64$ times larger. This number puts into figures what we felt at the start. The coach should choose An.
 
 :::definition Variance and standard deviation
 For a data set $x_1, \dots, x_n$ with mean $\bar{x}$,
@@ -53,9 +53,9 @@ An equivalent formula, often quicker, is
 $$s^2=\frac{x_1^2+\cdots+x_n^2}{n}-\bar{x}^2.$$
 :::
 
-**Why are the two formulas equal?** Expand $(x_i-\bar{x})^2=x_i^2-2\bar{x}x_i+\bar{x}^2$, add up and divide by $n$. Since $\dfrac{x_1+\cdots+x_n}{n}=\bar{x}$, we get $\dfrac{\sum x_i^2}{n}-2\bar{x}^2+\bar{x}^2=\dfrac{\sum x_i^2}{n}-\bar{x}^2$.
+**Why are the two formulas equal?** You do not need to learn this working by heart, but reading it once will make you more comfortable using the second formula. Expand $(x_i-\bar{x})^2=x_i^2-2\bar{x}x_i+\bar{x}^2$, add up and divide by $n$. Since $\dfrac{x_1+\cdots+x_n}{n}=\bar{x}$, we get $\dfrac{\sum x_i^2}{n}-2\bar{x}^2+\bar{x}^2=\dfrac{\sum x_i^2}{n}-\bar{x}^2$.
 
-The standard deviation $s$ has the same unit as the data, so it is easier to interpret. A small $s$ means the values are close to the mean; a large $s$ means they are spread out. The next example computes the variance with both formulas.
+Why do we need the standard deviation as well, when we already have the variance? Because the variance is measured in "squared units": squared points, squared hours, which are hard to picture. Taking the square root gives $s$, which has the same unit as the data, so it is easier to interpret. A small $s$ means the values are close to the mean; a large $s$ means they are spread out. The next example computes the variance with both formulas, so you can see the two roads arrive at the same place.
 
 :::example Two ways to get the variance
 Find $s^2$ and $s$ for group A: $4, 6, 7, 7, 8, 9, 10, 11$.
@@ -72,7 +72,7 @@ $$s^2=\frac{516}{8}-7.75^2=64.5-60.0625=4.4375.$$
 So $s^2=4.4375$ and $s=\sqrt{4.4375}\approx2.11$.
 :::
 
-When the data come in a frequency table, each square is multiplied by its frequency.
+Often the data are not listed one by one but given in a frequency table. The method is the same; just remember that a value appearing several times has its square counted that many times, which means multiplying by the frequency.
 
 :::example Variance from a frequency table
 The table gives the daily hours of self-study of $20$ students. Find $s^2$ and $s$.
@@ -91,7 +91,7 @@ $$s^2=7.7-2.6^2=7.7-6.76=0.94,\qquad s\approx0.97.$$
 So $s^2=0.94$ and $s\approx0.97$ hours.
 :::
 
-The variance is most useful for **comparing** two data sets with similar means.
+A single variance on its own does not say much. It really earns its keep when we **compare** two data sets with similar means, just like the two players at the start.
 
 :::example Comparing two groups
 Group B has marks $7, 7, 7, 8, 8, 8, 9, 9$. Compare the spread of group B with that of group A from Example 2.
@@ -110,7 +110,7 @@ So the two groups have almost the same mean, but every measure of spread is smal
 
 ## The box plot
 
-A **box plot** shows five numbers: the minimum, $Q_1$, the median, $Q_3$ and the maximum. The box holds the middle half of the data (its length is $\Delta_Q$), and the two "whiskers" reach out to the extremes (from the end of one whisker to the end of the other is $R$).
+Sometimes a picture is quicker to read than a table of numbers. A **box plot** shows five numbers: the minimum, $Q_1$, the median, $Q_3$ and the maximum. The box holds the middle half of the data (its length is $\Delta_Q$), and the two "whiskers" reach out to the extremes (from the end of one whisker to the end of the other is $R$).
 
 :::diagram Box plot of $4, 6, 7, 7, 8, 9, 10, 11$
 alt: A box plot on a number line: whiskers from 4 to 11, a box from 6.5 to 9.5 and a line inside the box at the median 7.5
@@ -146,10 +146,10 @@ label 11,-0.9 "11"
 
 ## Outliers
 
-A value is an **outlier** if it lies too far from most of the data. A common rule: $x$ is an outlier if
+Now and then a data set contains one value that sits well apart from the rest. It may be a genuinely special case, or it may simply be a recording mistake. Either way, we should spot it before drawing conclusions. A value is an **outlier** if it lies too far from most of the data. A common rule: $x$ is an outlier if
 $$x<Q_1-1.5\,\Delta_Q\qquad\text{or}\qquad x>Q_3+1.5\,\Delta_Q.$$
 
-The last example applies this rule to a data set with one strange value.
+The last example applies this rule to a data set with one rather suspicious value.
 
 :::example Is 45 an outlier?
 The times (minutes) that $9$ students take to get from home to school are $12, 13, 13, 14, 15, 15, 16, 17, 45$. Does the data set have an outlier?
@@ -168,9 +168,9 @@ Only $45>21.75$. So $45$ is the only outlier (perhaps that student lives very fa
 :::
 
 :::warning Common mistakes
-- **Wrong:** computing the variance of $7, 8, 9$ as $\dfrac{1+0+1}{2}=1$. **Why it is wrong:** in this course the variance divides by $n$, not by $n-1$. **Right:** $s^2=\dfrac{2}{3}$.
+- **Wrong:** computing the variance of $7, 8, 9$ as $\dfrac{1+0+1}{2}=1$. **Why it is wrong:** in this course the variance divides by $n$, not by $n-1$ (you may meet the $n-1$ version in other books or on a calculator, but we do not use it here). **Right:** $s^2=\dfrac{2}{3}$.
 - **Wrong:** $s^2=\dfrac{\sum x_i^2}{n}-\bar{x}$. **Why it is wrong:** $\bar{x}$ is not squared; for group A this gives $64.5-7.75=56.75$, which is absurd. **Right:** subtract $\bar{x}^2$.
-- **Wrong:** answering $s^2$ when the standard deviation is asked for. **Right:** take the square root: $s=\sqrt{s^2}$.
+- **Wrong:** answering $s^2$ when the standard deviation is asked for. This one is very common, because finishing $s^2$ feels like the end. **Right:** remember to take the square root as well: $s=\sqrt{s^2}$.
 - **Wrong:** comparing spreads with the range when there is an outlier. **Why it is wrong:** in Example 5, $R=45-12=33$ reflects only one student. **Right:** use $\Delta_Q$.
 :::
 
@@ -195,9 +195,11 @@ Only $45>21.75$. So $45$ is the only outlier (perhaps that student lives very fa
 - The smaller $s$ (or $\Delta_Q$), the more even the data.
 - Outlier: $x<Q_1-1.5\Delta_Q$ or $x>Q_3+1.5\Delta_Q$.
 
+Back to the two players from the start: the means are equal, but the standard deviation shows that An scores far more steadily than Bao. When you compare two data sets, get into the habit of looking at both the "centre" and the "spread", not just the mean.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with the ideas you need and a few steps to get going. Have a go on your own first, and do not worry about mistakes; comparing with the solution afterwards shows you how much you have understood.
 
 :::exercise
 Find $R$ and $\Delta_Q$ for the data set $3, 5, 7, 9, 11$.

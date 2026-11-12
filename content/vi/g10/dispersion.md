@@ -13,24 +13,24 @@ minutes: 25
 
 Hai cầu thủ bóng rổ cùng ghi trung bình $8$ điểm mỗi trận. Trong ba trận gần nhất, cầu thủ An ghi $7, 8, 9$ điểm, còn cầu thủ Bảo ghi $0, 8, 16$ điểm. Huấn luyện viên cần một người ghi điểm đều đặn. Số trung bình như nhau, vậy dựa vào đâu để chọn?
 
-Số trung bình chỉ cho biết "trung tâm" của số liệu. Bài này cho ta những con số đo xem số liệu **trải rộng** quanh trung tâm đến mức nào.
+Nhìn qua cũng thấy An đều tay hơn: lúc nào cũng quanh quanh $8$ điểm. Còn Bảo thì có trận không ghi được điểm nào, có trận lại ghi gấp đôi. Số trung bình chỉ cho biết "trung tâm" của số liệu, chứ không nói gì về chuyện các giá trị **trải rộng** quanh trung tâm ấy ra sao. Muốn so sánh cho rõ, ta cần những con số đo được độ trải rộng đó.
 
 ## Khoảng biến thiên và khoảng tứ phân vị
 
 ### Khám phá: độ rộng của số liệu
 
-Cách đơn giản nhất là xem điểm cao nhất và thấp nhất cách nhau bao nhiêu:
+Ý đầu tiên ai cũng nghĩ tới là xem trận cao nhất và trận thấp nhất chênh nhau bao nhiêu:
 
 $$\text{An: } 9-7=2,\qquad \text{Bảo: } 16-0=16.$$
 
-Điểm của Bảo trải trên một khoảng rộng gấp $8$ lần. Con số này gọi là khoảng biến thiên.
+Điểm của Bảo trải trên một khoảng rộng gấp $8$ lần của An. Con số đơn giản này có tên là khoảng biến thiên.
 
 :::definition Khoảng biến thiên và khoảng tứ phân vị
 - **Khoảng biến thiên** là $R=x_{\max}-x_{\min}$.
 - **Khoảng tứ phân vị** là $\Delta_Q=Q_3-Q_1$, độ rộng của nửa số liệu ở giữa.
 :::
 
-Khoảng biến thiên dễ tính nhưng chỉ phụ thuộc hai giá trị ở hai đầu, nên một giá trị bất thường làm nó lớn vọt. Khoảng tứ phân vị bỏ qua một phần tư số liệu ở mỗi đầu nên ổn định hơn.
+Khoảng biến thiên dễ tính, nhưng nó chỉ nhìn vào hai giá trị ở hai đầu. Chỉ cần một giá trị bất thường, chẳng hạn một bài kiểm tra làm hỏng, là nó lớn vọt lên. Khoảng tứ phân vị thì "bỏ qua" một phần tư số liệu ở mỗi đầu, chỉ đo nửa ở giữa, nên ít bị những giá trị lạ làm nhiễu hơn.
 
 :::example Khoảng biến thiên và khoảng tứ phân vị
 Điểm của $8$ học sinh nhóm A: $4, 6, 7, 7, 8, 9, 10, 11$. Tìm $R$ và $\Delta_Q$.
@@ -44,7 +44,7 @@ Vậy $R=7$ và $\Delta_Q=9{,}5-6{,}5=3$.
 
 ## Phương sai và độ lệch chuẩn
 
-Khoảng biến thiên và khoảng tứ phân vị chỉ dùng vài giá trị. Muốn dùng **mọi** giá trị, ta xét độ lệch $x_i-\bar{x}$ của từng giá trị so với số trung bình. Nhưng tổng các độ lệch luôn bằng $0$ (bài trước), nên ta bình phương chúng trước khi lấy trung bình. Với cầu thủ An, các độ lệch là $-1, 0, 1$, bình phương là $1, 0, 1$, trung bình là $\dfrac23$. Với Bảo: $64, 0, 64$, trung bình là $\dfrac{128}{3}$, lớn gấp $64$ lần. Huấn luyện viên nên chọn An.
+Hai số đo ở trên chỉ dùng vài giá trị trong mẫu. Muốn để **mọi** giá trị cùng lên tiếng, ta xét xem từng giá trị lệch khỏi số trung bình bao nhiêu, tức là độ lệch $x_i-\bar{x}$. Ý tự nhiên là lấy trung bình các độ lệch. Nhưng có một trục trặc: các độ lệch dương và âm triệt tiêu nhau, tổng của chúng luôn bằng $0$ (bài trước). Cách khắc phục là bình phương các độ lệch cho chúng cùng không âm, rồi mới lấy trung bình. Với cầu thủ An, các độ lệch là $-1, 0, 1$, bình phương là $1, 0, 1$, trung bình là $\dfrac23$. Với Bảo: $64, 0, 64$, trung bình là $\dfrac{128}{3}$, lớn gấp $64$ lần. Con số này nói rõ điều ta cảm thấy từ đầu. Huấn luyện viên nên chọn An.
 
 :::definition Phương sai và độ lệch chuẩn
 Với mẫu số liệu $x_1, \dots, x_n$ có số trung bình cộng $\bar{x}$,
@@ -53,9 +53,9 @@ Một công thức tương đương, thường nhanh hơn, là
 $$s^2=\frac{x_1^2+\cdots+x_n^2}{n}-\bar{x}^2.$$
 :::
 
-**Vì sao hai công thức bằng nhau?** Khai triển $(x_i-\bar{x})^2=x_i^2-2\bar{x}x_i+\bar{x}^2$, cộng lại rồi chia cho $n$. Vì $\dfrac{x_1+\cdots+x_n}{n}=\bar{x}$ nên được $\dfrac{\sum x_i^2}{n}-2\bar{x}^2+\bar{x}^2=\dfrac{\sum x_i^2}{n}-\bar{x}^2$.
+**Vì sao hai công thức bằng nhau?** Bạn không cần thuộc lòng phép biến đổi này, nhưng xem qua một lần sẽ thấy yên tâm hơn khi dùng công thức thứ hai. Khai triển $(x_i-\bar{x})^2=x_i^2-2\bar{x}x_i+\bar{x}^2$, cộng lại rồi chia cho $n$. Vì $\dfrac{x_1+\cdots+x_n}{n}=\bar{x}$ nên được $\dfrac{\sum x_i^2}{n}-2\bar{x}^2+\bar{x}^2=\dfrac{\sum x_i^2}{n}-\bar{x}^2$.
 
-Độ lệch chuẩn $s$ có cùng đơn vị với số liệu nên dễ diễn giải hơn. $s$ nhỏ nghĩa là các giá trị tập trung gần số trung bình; $s$ lớn nghĩa là chúng phân tán. Ví dụ sau tính phương sai bằng cả hai công thức.
+Vì sao còn cần thêm độ lệch chuẩn, khi đã có phương sai? Vì phương sai đo bằng "bình phương đơn vị": điểm bình phương, giờ bình phương, nghe rất khó hình dung. Lấy căn bậc hai, ta được $s$ có cùng đơn vị với số liệu nên dễ diễn giải hơn. $s$ nhỏ nghĩa là các giá trị tập trung gần số trung bình; $s$ lớn nghĩa là chúng phân tán. Ví dụ sau tính phương sai bằng cả hai công thức, để bạn thấy hai đường cùng về một đích.
 
 :::example Hai cách tính phương sai
 Tìm $s^2$ và $s$ của nhóm A: $4, 6, 7, 7, 8, 9, 10, 11$.
@@ -72,7 +72,7 @@ $$s^2=\frac{516}{8}-7{,}75^2=64{,}5-60{,}0625=4{,}4375.$$
 Vậy $s^2=4{,}4375$ và $s=\sqrt{4{,}4375}\approx2{,}11$.
 :::
 
-Khi số liệu cho bằng bảng tần số, mỗi bình phương được nhân với tần số của nó.
+Nhiều khi số liệu không được liệt kê từng giá trị mà cho bằng bảng tần số. Cách làm vẫn vậy, chỉ cần nhớ: giá trị nào xuất hiện mấy lần thì bình phương của nó cũng được tính mấy lần, tức là nhân với tần số.
 
 :::example Phương sai từ bảng tần số
 Số giờ tự học mỗi ngày của $20$ học sinh được cho trong bảng. Tìm $s^2$ và $s$.
@@ -91,7 +91,7 @@ $$s^2=7{,}7-2{,}6^2=7{,}7-6{,}76=0{,}94,\qquad s\approx0{,}97.$$
 Vậy $s^2=0{,}94$ và $s\approx0{,}97$ giờ.
 :::
 
-Phương sai mạnh nhất khi dùng để **so sánh** hai mẫu số liệu có trung bình gần nhau.
+Một con số phương sai đứng một mình thì khó nói lên nhiều điều. Nó thật sự hữu ích khi ta **so sánh** hai mẫu số liệu có trung bình gần nhau, đúng như chuyện hai cầu thủ ở đầu bài.
 
 :::example So sánh hai nhóm
 Nhóm B có điểm $7, 7, 7, 8, 8, 8, 9, 9$. So sánh độ phân tán của nhóm B với nhóm A ở Ví dụ 2.
@@ -110,7 +110,7 @@ Vậy hai nhóm có trung bình gần bằng nhau, nhưng mọi số đo độ p
 
 ## Biểu đồ hộp
 
-**Biểu đồ hộp** vẽ năm số: giá trị nhỏ nhất, $Q_1$, trung vị, $Q_3$ và giá trị lớn nhất. Hộp chứa nửa số liệu ở giữa (độ dài hộp là $\Delta_Q$), còn hai "râu" kéo ra đến hai đầu (từ đầu râu này đến đầu râu kia là $R$).
+Đôi khi nhìn một hình vẽ lại hiểu nhanh hơn đọc một bảng số. **Biểu đồ hộp** vẽ năm số: giá trị nhỏ nhất, $Q_1$, trung vị, $Q_3$ và giá trị lớn nhất. Hộp chứa nửa số liệu ở giữa (độ dài hộp là $\Delta_Q$), còn hai "râu" kéo ra đến hai đầu (từ đầu râu này đến đầu râu kia là $R$).
 
 :::diagram Biểu đồ hộp của $4, 6, 7, 7, 8, 9, 10, 11$
 alt: Biểu đồ hộp trên trục số: râu từ 4 đến 11, hộp từ 6,5 đến 9,5 và một đoạn trong hộp tại trung vị 7,5
@@ -146,10 +146,10 @@ label 11,-0.9 "11"
 
 ## Giá trị ngoại lệ
 
-Một giá trị là **giá trị ngoại lệ** nếu nó nằm quá xa phần lớn số liệu. Quy tắc thường dùng: $x$ là giá trị ngoại lệ nếu
+Thỉnh thoảng trong mẫu có một giá trị "lạc loài", nằm tách hẳn khỏi phần còn lại. Có thể đó là một trường hợp đặc biệt thật, cũng có thể chỉ là ghi nhầm. Dù thế nào, ta cũng nên phát hiện ra nó trước khi rút kết luận. Một giá trị là **giá trị ngoại lệ** nếu nó nằm quá xa phần lớn số liệu. Quy tắc thường dùng: $x$ là giá trị ngoại lệ nếu
 $$x<Q_1-1{,}5\,\Delta_Q\qquad\text{hoặc}\qquad x>Q_3+1{,}5\,\Delta_Q.$$
 
-Ví dụ cuối áp dụng quy tắc này cho một mẫu có một giá trị lạ.
+Ví dụ cuối áp dụng quy tắc này cho một mẫu có một giá trị trông rất đáng ngờ.
 
 :::example 45 có phải giá trị ngoại lệ không?
 Thời gian (phút) đi từ nhà đến trường của $9$ học sinh: $12, 13, 13, 14, 15, 15, 16, 17, 45$. Mẫu có giá trị ngoại lệ không?
@@ -168,9 +168,9 @@ Chỉ có $45>21{,}75$. Vậy $45$ là giá trị ngoại lệ duy nhất (có t
 :::
 
 :::warning Những sai lầm thường gặp
-- **Sai:** tính phương sai của $7, 8, 9$ bằng $\dfrac{1+0+1}{2}=1$. **Vì sao sai:** trong chương trình này phương sai chia cho $n$, không chia cho $n-1$. **Đúng:** $s^2=\dfrac{2}{3}$.
+- **Sai:** tính phương sai của $7, 8, 9$ bằng $\dfrac{1+0+1}{2}=1$. **Vì sao sai:** trong chương trình này phương sai chia cho $n$, không chia cho $n-1$ (công thức chia cho $n-1$ bạn có thể gặp ở sách khác hoặc trên máy tính, nhưng ở đây ta không dùng). **Đúng:** $s^2=\dfrac{2}{3}$.
 - **Sai:** $s^2=\dfrac{\sum x_i^2}{n}-\bar{x}$. **Vì sao sai:** quên bình phương $\bar{x}$; với nhóm A sẽ ra $64{,}5-7{,}75=56{,}75$, vô lí. **Đúng:** trừ $\bar{x}^2$.
-- **Sai:** đề hỏi độ lệch chuẩn mà trả lời $s^2$. **Đúng:** lấy căn bậc hai: $s=\sqrt{s^2}$.
+- **Sai:** đề hỏi độ lệch chuẩn mà trả lời $s^2$. Lỗi này rất hay gặp vì ta tính $s^2$ xong là thấy nhẹ người. **Đúng:** nhớ lấy thêm căn bậc hai: $s=\sqrt{s^2}$.
 - **Sai:** dùng khoảng biến thiên để so sánh khi có giá trị bất thường. **Vì sao sai:** ở Ví dụ 5, $R=45-12=33$ chỉ phản ánh một bạn. **Đúng:** dùng $\Delta_Q$.
 :::
 
@@ -195,9 +195,11 @@ Chỉ có $45>21{,}75$. Vậy $45$ là giá trị ngoại lệ duy nhất (có t
 - $s$ (hoặc $\Delta_Q$) càng nhỏ thì số liệu càng đồng đều.
 - Ngoại lệ: $x<Q_1-1{,}5\Delta_Q$ hoặc $x>Q_3+1{,}5\Delta_Q$.
 
+Quay lại hai cầu thủ ở đầu bài: số trung bình như nhau, nhưng độ lệch chuẩn cho thấy An ghi điểm đều đặn hơn Bảo rất nhiều. Khi so sánh hai mẫu số liệu, bạn hãy tập thói quen nhìn cả "trung tâm" lẫn "độ trải rộng", đừng chỉ dừng ở số trung bình.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và gợi ý vài bước đầu. Bạn cứ tự làm trước, sai cũng không sao; đối chiếu với lời giải sau mới thấy mình hiểu đến đâu.
 
 :::exercise
 Tìm $R$ và $\Delta_Q$ của mẫu số liệu $3, 5, 7, 9, 11$.
