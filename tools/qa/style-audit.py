@@ -28,7 +28,7 @@ for f in sorted(glob.glob(ROOT+'/**/*.md',recursive=True)):
     r['pr_short']=sum(1 for q,s in sols if W(s)<25)
     r['pr_no_vay']=sum(1 for q,s in sols if not re.search(r'\bVậy\b',s))
     r['pr_no_link']=sum(1 for q,s in sols if not re.search(r'Ta có|Do đó|Suy ra|Vì |nên|Gọi |Theo |Áp dụng|Xét |Thay ',s))
-    r['pr_inline_parts']=sum(1 for q,s in sols if re.search(r'\(a\)[^\n]*\(b\)',s) or re.search(r'\ba\)[^\n]+\bb\)',s))
+    r['pr_inline_parts']=sum(1 for q,s in sols if re.search(r'\(a\)[^\n]*\(b\)',s) or re.search(r'^(?!Vậy)[^\n]*\ba\)[^\n]+\bb\)',s,flags=re.M))
     r['q_inline_parts']=sum(1 for q,s in sols if re.search(r'\(a\)[^\n]*\(b\)',q))
     r['pr_words']=sum(W(s) for q,s in sols)/max(1,len(sols))
     rows.append(r)

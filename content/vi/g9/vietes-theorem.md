@@ -222,13 +222,17 @@ c) $x^2+x+1=0$.
 2. Tính $-\dfrac ba$ và $\dfrac ca$.
 
 ::solution
-a) Ta có $\Delta'=9-2=7>0$, nên $x_1+x_2=6$, $x_1x_2=2$.
+Trước hết ta kiểm tra phương trình có nghiệm hay không, rồi mới áp dụng định lí Viète: nếu phương trình $ax^2+bx+c=0$ có hai nghiệm $x_1$, $x_2$ thì $x_1+x_2=-\dfrac ba$ và $x_1x_2=\dfrac ca$.
 
-b) Ta có $a=3$, $c=-4$ trái dấu nên phương trình có hai nghiệm, và $x_1+x_2=-\dfrac53$, $x_1x_2=-\dfrac43$.
+a) Phương trình $x^2-6x+2=0$ có $b'=-3$, $\Delta'=(-3)^2-1\cdot2=7>0$, nên có hai nghiệm phân biệt. Theo định lí Viète,
+$$x_1+x_2=6;\qquad x_1x_2=2.$$
 
-c) Ta có $\Delta=1-4=-3<0$ nên phương trình vô nghiệm.
+b) Phương trình $3x^2+5x-4=0$ có $a=3$ và $c=-4$ trái dấu, nên có hai nghiệm phân biệt. Theo định lí Viète,
+$$x_1+x_2=-\frac53;\qquad x_1x_2=-\frac43.$$
 
-Vậy a) $S=6$, $P=2$; b) $S=-\dfrac53$, $P=-\dfrac43$; c) không có nghiệm.
+c) Phương trình $x^2+x+1=0$ có $\Delta=1^2-4\cdot1\cdot1=-3<0$, nên vô nghiệm; không tính tổng và tích các nghiệm.
+
+Vậy a) tổng bằng $6$, tích bằng $2$; b) tổng bằng $-\dfrac53$, tích bằng $-\dfrac43$; c) phương trình vô nghiệm.
 
 **Đáp số.** a) $6$ và $2$; b) $-\dfrac53$ và $-\dfrac43$; c) phương trình vô nghiệm.
 :::
@@ -250,13 +254,21 @@ c) $7x^2+4x-3=0$.
 2. Viết nghiệm còn lại $\dfrac ca$ hoặc $-\dfrac ca$.
 
 ::solution
-a) Ta có $5-3-2=0$ nên $x_1=1$, $x_2=-\dfrac25$.
+Ta dùng hai hệ quả của định lí Viète:
 
-b) Ta có $1-9+8=0$ nên $x_1=-1$, $x_2=-8$.
+- Nếu $a+b+c=0$ thì phương trình có hai nghiệm $x_1=1$, $x_2=\dfrac ca$;
+- Nếu $a-b+c=0$ thì phương trình có hai nghiệm $x_1=-1$, $x_2=-\dfrac ca$.
 
-c) Ta có $7-4-3=0$ nên $x_1=-1$, $x_2=\dfrac37$.
+a) Phương trình $5x^2-3x-2=0$ có $a+b+c=5-3-2=0$, nên có hai nghiệm
+$$x_1=1;\qquad x_2=\frac ca=-\frac25.$$
 
-Vậy a) $1$; $-\dfrac25$. b) $-1$; $-8$. c) $-1$; $\dfrac37$.
+b) Phương trình $x^2+9x+8=0$ có $a-b+c=1-9+8=0$, nên có hai nghiệm
+$$x_1=-1;\qquad x_2=-\frac ca=-8.$$
+
+c) Phương trình $7x^2+4x-3=0$ có $a-b+c=7-4-3=0$, nên có hai nghiệm
+$$x_1=-1;\qquad x_2=-\frac ca=\frac37.$$
+
+Vậy a) $x=1$, $x=-\dfrac25$; b) $x=-1$, $x=-8$; c) $x=-1$, $x=\dfrac37$.
 
 **Đáp số.** a) $1$; $-\dfrac25$. b) $-1$; $-8$. c) $-1$; $\dfrac37$.
 :::
@@ -272,7 +284,12 @@ Biết phương trình $x^2-4x+1=0$ có một nghiệm là $x_1=2+\sqrt3$. Tìm 
 2. Kiểm tra lại bằng tích: $x_2=\dfrac1{2+\sqrt3}$.
 
 ::solution
-Theo định lí Viète, $x_1+x_2=4$, suy ra $x_2=4-(2+\sqrt3)=2-\sqrt3$. Kiểm tra bằng tích: $(2+\sqrt3)(2-\sqrt3)=4-3=1=\dfrac ca$.
+Phương trình $x^2-4x+1=0$ có $a=1$, $b=-4$, $c=1$. Gọi $x_2$ là nghiệm còn lại.
+
+Theo định lí Viète, $x_1+x_2=-\dfrac ba=4$. Suy ra
+$$x_2=4-x_1=4-\left(2+\sqrt3\right)=2-\sqrt3.$$
+
+Kiểm tra bằng tích: $x_1x_2=\left(2+\sqrt3\right)\left(2-\sqrt3\right)=4-3=1=\dfrac ca$ (đúng).
 
 Vậy nghiệm còn lại là $x_2=2-\sqrt3$.
 
@@ -296,13 +313,25 @@ c) $u+v=6$, $uv=10$.
 2. Giải phương trình (hoặc chỉ ra nó vô nghiệm).
 
 ::solution
-a) $u$, $v$ là nghiệm của $x^2-10x+21=0$. Ta có $\Delta'=25-21=4$, nên $x=5\pm2$, tức $x=7$ hoặc $x=3$.
+Nếu hai số $u$, $v$ có tổng $S$ và tích $P$ thì chúng là nghiệm của phương trình $x^2-Sx+P=0$ (điều kiện để có hai số đó là $S^2-4P\ge0$).
 
-b) $u$, $v$ là nghiệm của $x^2+3x-40=0$. Ta có $\Delta=9+160=169$, nên $x=\dfrac{-3\pm13}{2}$, tức $x=5$ hoặc $x=-8$.
+a) Với $S=10$, $P=21$: ta có $S^2-4P=100-84=16\ge0$. Hai số $u$, $v$ là nghiệm của phương trình
+$$x^2-10x+21=0.$$
 
-c) Ta có $S^2-4P=36-40=-4<0$, nên không có hai số như vậy.
+Ta có $\Delta'=(-5)^2-21=4$, $\sqrt{\Delta'}=2$, nên $x_1=5+2=7$, $x_2=5-2=3$.
 
-Vậy a) $\{u; v\}=\{7; 3\}$; b) $\{u; v\}=\{5; -8\}$; c) không tồn tại.
+Vậy hai số cần tìm là $7$ và $3$.
+
+b) Với $S=-3$, $P=-40$: ta có $S^2-4P=9+160=169\ge0$. Hai số $u$, $v$ là nghiệm của phương trình
+$$x^2+3x-40=0.$$
+
+Ta có $\Delta=3^2-4\cdot1\cdot(-40)=169$, $\sqrt\Delta=13$, nên $x_1=\dfrac{-3+13}{2}=5$, $x_2=\dfrac{-3-13}{2}=-8$.
+
+Vậy hai số cần tìm là $5$ và $-8$.
+
+c) Với $S=6$, $P=10$: ta có $S^2-4P=36-40=-4<0$.
+
+Vậy không có hai số $u$, $v$ nào thoả mãn.
 
 **Đáp số.** a) $7$ và $3$; b) $5$ và $-8$; c) không có.
 :::
@@ -324,11 +353,19 @@ c) $x_1^2x_2+x_1x_2^2$.
 2. Dùng $S^2-2P$, $\dfrac SP$ và $x_1x_2(x_1+x_2)=PS$.
 
 ::solution
-Ta có $a=1$, $c=-5$ trái dấu nên phương trình có hai nghiệm, với $S=3$, $P=-5$. Do đó
+Phương trình $x^2-3x-5=0$ có $a=1$ và $c=-5$ trái dấu, nên có hai nghiệm phân biệt $x_1$, $x_2$. Theo định lí Viète,
+$$S=x_1+x_2=3;\qquad P=x_1x_2=-5.$$
 
-$$x_1^2+x_2^2=9+10=19,\qquad \frac1{x_1}+\frac1{x_2}=\frac{3}{-5}=-\frac35,\qquad x_1^2x_2+x_1x_2^2=PS=-15.$$
+a) Ta có
+$$x_1^2+x_2^2=\left(x_1+x_2\right)^2-2x_1x_2=S^2-2P=3^2-2\cdot(-5)=9+10=19.$$
 
-Vậy a) $19$; b) $-\dfrac35$; c) $-15$.
+b) Vì $P=-5\neq0$ nên $x_1\neq0$, $x_2\neq0$. Ta có
+$$\frac1{x_1}+\frac1{x_2}=\frac{x_1+x_2}{x_1x_2}=\frac{S}{P}=\frac{3}{-5}=-\frac35.$$
+
+c) Đặt nhân tử chung, ta có
+$$x_1^2x_2+x_1x_2^2=x_1x_2\left(x_1+x_2\right)=PS=(-5)\cdot3=-15.$$
+
+Vậy a) $x_1^2+x_2^2=19$; b) $\dfrac1{x_1}+\dfrac1{x_2}=-\dfrac35$; c) $x_1^2x_2+x_1x_2^2=-15$.
 
 **Đáp số.** a) $19$; b) $-\dfrac35$; c) $-15$.
 :::
@@ -349,13 +386,19 @@ c) $x^2+8x+3=0$.
 1. Tính $P$; nếu $P>0$ thì kiểm tra $\Delta'$ và tính $S$.
 
 ::solution
-a) Ta có $P=-\dfrac92<0$ nên hai nghiệm trái dấu.
+Gọi $S$ và $P$ lần lượt là tổng và tích hai nghiệm. Ta dùng các nhận xét:
 
-b) Ta có $\Delta'=25-7=18>0$, $P=7>0$, $S=10>0$ nên hai nghiệm cùng dương.
+- Nếu $P<0$ thì phương trình có hai nghiệm trái dấu;
+- Nếu $\Delta\ge0$, $P>0$, $S>0$ thì hai nghiệm cùng dương;
+- Nếu $\Delta\ge0$, $P>0$, $S<0$ thì hai nghiệm cùng âm.
 
-c) Ta có $\Delta'=16-3=13>0$, $P=3>0$, $S=-8<0$ nên hai nghiệm cùng âm.
+a) Phương trình $2x^2+5x-9=0$ có $P=\dfrac ca=-\dfrac92<0$, nên có hai nghiệm trái dấu.
 
-Vậy a) trái dấu; b) cùng dương; c) cùng âm.
+b) Phương trình $x^2-10x+7=0$ có $\Delta'=(-5)^2-7=18>0$, nên có hai nghiệm phân biệt. Ta có $P=7>0$ và $S=10>0$, nên hai nghiệm cùng dương.
+
+c) Phương trình $x^2+8x+3=0$ có $\Delta'=4^2-3=13>0$, nên có hai nghiệm phân biệt. Ta có $P=3>0$ và $S=-8<0$, nên hai nghiệm cùng âm.
+
+Vậy a) hai nghiệm trái dấu; b) hai nghiệm cùng dương; c) hai nghiệm cùng âm.
 
 **Đáp số.** a) Trái dấu; b) hai nghiệm dương; c) hai nghiệm âm.
 :::

@@ -26,7 +26,7 @@ def split_box(body):
 W = lambda t: len(re.findall(r'\w+', re.sub(r'\$[^$]*\$', ' M ', t)))
 def weak(q, sol):
     s2 = re.sub(r'\*\*Đáp số\.\*\*.*', '', sol, flags=re.S)
-    return W(s2) < 25 or not re.search(r'\bVậy\b', s2) or bool(re.search(r'\(a\)[^\n]*\(b\)', q + s2)) or bool(re.search(r'\ba\)[^\n]+\bb\)', s2))
+    return W(s2) < 25 or not re.search(r'\bVậy\b', s2) or bool(re.search(r'\(a\)[^\n]*\(b\)', q + s2)) or bool(re.search(r'^(?!Vậy)[^\n]*\ba\)[^\n]+\bb\)', s2, flags=re.M))
 
 def export(rels, out=sys.stdout, only_weak=False):
     for rel in rels:

@@ -187,11 +187,20 @@ c) Find $\angle ADB$.
 2. Decide which arc each angle subtends, then halve it.
 
 ::solution
-a) The minor arc $AB$ measures $130^\circ$, so the major arc $AB$ measures $360^\circ-130^\circ=230^\circ$.
+a) The angle at the centre $\angle AOB=130^\circ$ subtends the minor arc $AB$, so the minor arc $AB$ measures $130^\circ$. Hence the major arc $AB$ measures
+$$360^\circ-130^\circ=230^\circ.$$
 
-b) The angle $\angle ACB$ subtends the minor arc $AB$, so $\angle ACB=\dfrac{130^\circ}{2}=65^\circ$.
+So the major arc $AB$ measures $230^\circ$.
 
-c) The angle $\angle ADB$ subtends the major arc $AB$, so $\angle ADB=\dfrac{230^\circ}{2}=115^\circ$.
+b) The point $C$ is on the major arc $AB$, so the inscribed angle $\angle ACB$ subtends the minor arc $AB$. An inscribed angle is half the measure of the arc it subtends, so
+$$\angle ACB=\frac{130^\circ}{2}=65^\circ.$$
+
+So $\angle ACB=65^\circ$.
+
+c) The point $D$ is on the minor arc $AB$, so the inscribed angle $\angle ADB$ subtends the major arc $AB$. Hence
+$$\angle ADB=\frac{230^\circ}{2}=115^\circ.$$
+
+So $\angle ADB=115^\circ$.
 
 **Answer.** a) $230^\circ$; b) $65^\circ$; c) $115^\circ$.
 :::

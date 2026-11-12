@@ -187,11 +187,20 @@ c) Tính $\widehat{ADB}$.
 2. Xác định mỗi góc chắn cung nào rồi chia đôi.
 
 ::solution
-a) Ta có $\text{sđ}\,\overset{\frown}{AB}_{\text{nhỏ}}=130^\circ$, nên cung lớn $AB$ có số đo $360^\circ-130^\circ=230^\circ$.
+a) Góc ở tâm $\widehat{AOB}=130^\circ$ chắn cung nhỏ $AB$, nên cung nhỏ $AB$ có số đo $130^\circ$. Do đó cung lớn $AB$ có số đo
+$$360^\circ-130^\circ=230^\circ.$$
 
-b) Góc $\widehat{ACB}$ chắn cung nhỏ $AB$, nên $\widehat{ACB}=\dfrac{130^\circ}{2}=65^\circ$.
+Vậy cung lớn $AB$ có số đo $230^\circ$.
 
-c) Góc $\widehat{ADB}$ chắn cung lớn $AB$, nên $\widehat{ADB}=\dfrac{230^\circ}{2}=115^\circ$.
+b) Điểm $C$ thuộc cung lớn $AB$, nên góc nội tiếp $\widehat{ACB}$ chắn cung nhỏ $AB$. Số đo của góc nội tiếp bằng nửa số đo của cung bị chắn, do đó
+$$\widehat{ACB}=\frac{130^\circ}{2}=65^\circ.$$
+
+Vậy $\widehat{ACB}=65^\circ$.
+
+c) Điểm $D$ thuộc cung nhỏ $AB$, nên góc nội tiếp $\widehat{ADB}$ chắn cung lớn $AB$. Do đó
+$$\widehat{ADB}=\frac{230^\circ}{2}=115^\circ.$$
+
+Vậy $\widehat{ADB}=115^\circ$.
 
 **Đáp số.** a) $230^\circ$; b) $65^\circ$; c) $115^\circ$.
 :::

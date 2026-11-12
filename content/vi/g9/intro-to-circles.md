@@ -137,9 +137,19 @@ Cho đường tròn $(O; 4\text{ cm})$ và ba điểm $A$, $B$, $C$ với $OA=3$
 1. So sánh $OA$, $OB$, $OC$ với $4$.
 
 ::solution
-Ta có $OA=3<4$, $OB=4$, $OC=4{,}5>4$.
+Ta so sánh khoảng cách từ tâm $O$ đến mỗi điểm với bán kính $R=4$ cm:
 
-Vậy $A$ nằm trong, $B$ nằm trên, $C$ nằm ngoài đường tròn.
+- Điểm $M$ nằm trong đường tròn khi $OM<R$;
+- Điểm $M$ nằm trên đường tròn khi $OM=R$;
+- Điểm $M$ nằm ngoài đường tròn khi $OM>R$.
+
+Vì $OA=3<4$ nên điểm $A$ nằm trong đường tròn.
+
+Vì $OB=4=R$ nên điểm $B$ nằm trên đường tròn.
+
+Vì $OC=4{,}5>4$ nên điểm $C$ nằm ngoài đường tròn.
+
+Vậy $A$ nằm trong, $B$ nằm trên và $C$ nằm ngoài đường tròn $(O; 4\text{ cm})$.
 
 **Đáp số.** $A$ nằm trong, $B$ nằm trên, $C$ nằm ngoài đường tròn.
 :::

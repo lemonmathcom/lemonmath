@@ -137,9 +137,19 @@ Consider the circle $(O, 4\text{ cm})$ and three points $A$, $B$, $C$ with $OA=3
 1. Compare $OA$, $OB$, $OC$ with $4$.
 
 ::solution
-We have $OA=3<4$, $OB=4$ and $OC=4.5>4$.
+We compare the distance from the centre $O$ to each point with the radius $R=4$ cm:
 
-So $A$ lies inside, $B$ lies on and $C$ lies outside the circle.
+- A point $M$ lies inside the circle when $OM<R$;
+- A point $M$ lies on the circle when $OM=R$;
+- A point $M$ lies outside the circle when $OM>R$.
+
+Since $OA=3<4$, the point $A$ lies inside the circle.
+
+Since $OB=4=R$, the point $B$ lies on the circle.
+
+Since $OC=4.5>4$, the point $C$ lies outside the circle.
+
+So $A$ lies inside, $B$ on and $C$ outside the circle $(O, 4\text{ cm})$.
 
 **Answer.** $A$ inside, $B$ on, $C$ outside the circle.
 :::

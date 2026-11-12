@@ -222,13 +222,17 @@ c) $x^2+x+1=0$.
 2. Work out $-\dfrac ba$ and $\dfrac ca$.
 
 ::solution
-a) We have $\Delta'=9-2=7>0$, so $x_1+x_2=6$ and $x_1x_2=2$.
+First we check whether the equation has roots, then we apply Viète's theorem: if the equation $ax^2+bx+c=0$ has roots $x_1$, $x_2$, then $x_1+x_2=-\dfrac ba$ and $x_1x_2=\dfrac ca$.
 
-b) We have $a=3$ and $c=-4$ of opposite signs, so the equation has two roots, with $x_1+x_2=-\dfrac53$ and $x_1x_2=-\dfrac43$.
+a) The equation $x^2-6x+2=0$ has $b'=-3$ and $\Delta'=(-3)^2-1\cdot2=7>0$, so it has two distinct roots. By Viète's theorem,
+$$x_1+x_2=6;\qquad x_1x_2=2.$$
 
-c) We have $\Delta=1-4=-3<0$, so the equation has no solutions.
+b) The equation $3x^2+5x-4=0$ has $a=3$ and $c=-4$ of opposite signs, so it has two distinct roots. By Viète's theorem,
+$$x_1+x_2=-\frac53;\qquad x_1x_2=-\frac43.$$
 
-So a) $S=6$, $P=2$; b) $S=-\dfrac53$, $P=-\dfrac43$; c) there are no roots.
+c) The equation $x^2+x+1=0$ has $\Delta=1^2-4\cdot1\cdot1=-3<0$, so it has no solutions; there is no sum or product to find.
+
+So a) the sum is $6$ and the product is $2$; b) the sum is $-\dfrac53$ and the product is $-\dfrac43$; c) the equation has no solutions.
 
 **Answer.** a) $6$ and $2$; b) $-\dfrac53$ and $-\dfrac43$; c) the equation has no solutions.
 :::
@@ -250,13 +254,21 @@ c) $7x^2+4x-3=0$.
 2. Write the other root $\dfrac ca$ or $-\dfrac ca$.
 
 ::solution
-a) We have $5-3-2=0$, so $x_1=1$ and $x_2=-\dfrac25$.
+We use two consequences of Viète's theorem:
 
-b) We have $1-9+8=0$, so $x_1=-1$ and $x_2=-8$.
+- If $a+b+c=0$, the equation has the roots $x_1=1$ and $x_2=\dfrac ca$;
+- If $a-b+c=0$, the equation has the roots $x_1=-1$ and $x_2=-\dfrac ca$.
 
-c) We have $7-4-3=0$, so $x_1=-1$ and $x_2=\dfrac37$.
+a) The equation $5x^2-3x-2=0$ has $a+b+c=5-3-2=0$, so its roots are
+$$x_1=1;\qquad x_2=\frac ca=-\frac25.$$
 
-So a) $1$; $-\dfrac25$. b) $-1$; $-8$. c) $-1$; $\dfrac37$.
+b) The equation $x^2+9x+8=0$ has $a-b+c=1-9+8=0$, so its roots are
+$$x_1=-1;\qquad x_2=-\frac ca=-8.$$
+
+c) The equation $7x^2+4x-3=0$ has $a-b+c=7-4-3=0$, so its roots are
+$$x_1=-1;\qquad x_2=-\frac ca=\frac37.$$
+
+So a) $x=1$, $x=-\dfrac25$; b) $x=-1$, $x=-8$; c) $x=-1$, $x=\dfrac37$.
 
 **Answer.** a) $1$; $-\dfrac25$. b) $-1$; $-8$. c) $-1$; $\dfrac37$.
 :::
@@ -272,7 +284,12 @@ The equation $x^2-4x+1=0$ has the root $x_1=2+\sqrt3$. Find the other root. (Rev
 2. Check with the product: $x_2=\dfrac1{2+\sqrt3}$.
 
 ::solution
-By Viète's theorem, $x_1+x_2=4$, so $x_2=4-(2+\sqrt3)=2-\sqrt3$. Check with the product: $(2+\sqrt3)(2-\sqrt3)=4-3=1=\dfrac ca$.
+The equation $x^2-4x+1=0$ has $a=1$, $b=-4$, $c=1$. Let $x_2$ be the other root.
+
+By Viète's theorem, $x_1+x_2=-\dfrac ba=4$. Hence
+$$x_2=4-x_1=4-\left(2+\sqrt3\right)=2-\sqrt3.$$
+
+Check with the product: $x_1x_2=\left(2+\sqrt3\right)\left(2-\sqrt3\right)=4-3=1=\dfrac ca$ (true).
 
 So the other root is $x_2=2-\sqrt3$.
 
@@ -296,13 +313,25 @@ c) $u+v=6$, $uv=10$.
 2. Solve it (or show that it has no solutions).
 
 ::solution
-a) $u$, $v$ are the roots of $x^2-10x+21=0$. We have $\Delta'=25-21=4$, so $x=5\pm2$, that is $x=7$ or $x=3$.
+If two numbers $u$, $v$ have sum $S$ and product $P$, they are the roots of the equation $x^2-Sx+P=0$ (such numbers exist when $S^2-4P\ge0$).
 
-b) $u$, $v$ are the roots of $x^2+3x-40=0$. We have $\Delta=9+160=169$, so $x=\dfrac{-3\pm13}{2}$, that is $x=5$ or $x=-8$.
+a) For $S=10$, $P=21$: we have $S^2-4P=100-84=16\ge0$. The numbers $u$, $v$ are the roots of
+$$x^2-10x+21=0.$$
 
-c) We have $S^2-4P=36-40=-4<0$, so there are no such numbers.
+We have $\Delta'=(-5)^2-21=4$, $\sqrt{\Delta'}=2$, so $x_1=5+2=7$ and $x_2=5-2=3$.
 
-So a) $\{u, v\}=\{7, 3\}$; b) $\{u, v\}=\{5, -8\}$; c) they do not exist.
+So the two numbers are $7$ and $3$.
+
+b) For $S=-3$, $P=-40$: we have $S^2-4P=9+160=169\ge0$. The numbers $u$, $v$ are the roots of
+$$x^2+3x-40=0.$$
+
+We have $\Delta=3^2-4\cdot1\cdot(-40)=169$, $\sqrt\Delta=13$, so $x_1=\dfrac{-3+13}{2}=5$ and $x_2=\dfrac{-3-13}{2}=-8$.
+
+So the two numbers are $5$ and $-8$.
+
+c) For $S=6$, $P=10$: we have $S^2-4P=36-40=-4<0$.
+
+So no such numbers $u$, $v$ exist.
 
 **Answer.** a) $7$ and $3$; b) $5$ and $-8$; c) none.
 :::
@@ -324,11 +353,19 @@ c) $x_1^2x_2+x_1x_2^2$.
 2. Use $S^2-2P$, $\dfrac SP$ and $x_1x_2(x_1+x_2)=PS$.
 
 ::solution
-We have $a=1$ and $c=-5$ of opposite signs, so the equation has two roots, with $S=3$ and $P=-5$. Hence
+The equation $x^2-3x-5=0$ has $a=1$ and $c=-5$ of opposite signs, so it has two distinct roots $x_1$, $x_2$. By Viète's theorem,
+$$S=x_1+x_2=3;\qquad P=x_1x_2=-5.$$
 
-$$x_1^2+x_2^2=9+10=19,\qquad \frac1{x_1}+\frac1{x_2}=\frac{3}{-5}=-\frac35,\qquad x_1^2x_2+x_1x_2^2=PS=-15.$$
+a) We have
+$$x_1^2+x_2^2=\left(x_1+x_2\right)^2-2x_1x_2=S^2-2P=3^2-2\cdot(-5)=9+10=19.$$
 
-So a) $19$; b) $-\dfrac35$; c) $-15$.
+b) Since $P=-5\neq0$, we have $x_1\neq0$ and $x_2\neq0$. Then
+$$\frac1{x_1}+\frac1{x_2}=\frac{x_1+x_2}{x_1x_2}=\frac{S}{P}=\frac{3}{-5}=-\frac35.$$
+
+c) Taking out the common factor, we have
+$$x_1^2x_2+x_1x_2^2=x_1x_2\left(x_1+x_2\right)=PS=(-5)\cdot3=-15.$$
+
+So a) $x_1^2+x_2^2=19$; b) $\dfrac1{x_1}+\dfrac1{x_2}=-\dfrac35$; c) $x_1^2x_2+x_1x_2^2=-15$.
 
 **Answer.** a) $19$; b) $-\dfrac35$; c) $-15$.
 :::
@@ -349,13 +386,19 @@ c) $x^2+8x+3=0$.
 1. Work out $P$; if $P>0$, check $\Delta'$ and work out $S$.
 
 ::solution
-a) We have $P=-\dfrac92<0$, so the roots have opposite signs.
+Let $S$ and $P$ be the sum and the product of the roots. We use the following facts:
 
-b) We have $\Delta'=25-7=18>0$, $P=7>0$ and $S=10>0$, so both roots are positive.
+- If $P<0$, the equation has two roots of opposite signs;
+- If $\Delta\ge0$, $P>0$ and $S>0$, both roots are positive;
+- If $\Delta\ge0$, $P>0$ and $S<0$, both roots are negative.
 
-c) We have $\Delta'=16-3=13>0$, $P=3>0$ and $S=-8<0$, so both roots are negative.
+a) The equation $2x^2+5x-9=0$ has $P=\dfrac ca=-\dfrac92<0$, so its two roots have opposite signs.
 
-So a) opposite signs; b) both positive; c) both negative.
+b) The equation $x^2-10x+7=0$ has $\Delta'=(-5)^2-7=18>0$, so it has two distinct roots. We have $P=7>0$ and $S=10>0$, so both roots are positive.
+
+c) The equation $x^2+8x+3=0$ has $\Delta'=4^2-3=13>0$, so it has two distinct roots. We have $P=3>0$ and $S=-8<0$, so both roots are negative.
+
+So a) the roots have opposite signs; b) both roots are positive; c) both roots are negative.
 
 **Answer.** a) Opposite signs; b) two positive roots; c) two negative roots.
 :::
