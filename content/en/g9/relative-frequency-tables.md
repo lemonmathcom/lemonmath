@@ -193,9 +193,18 @@ Suppose the numbers of children in 25 families have the frequency table: values 
 2. Check that the total is $100\%$.
 
 ::solution
-We have $\dfrac{7}{25}=28\%$, $\dfrac{12}{25}=48\%$, $\dfrac{5}{25}=20\%$, $\dfrac{1}{25}=4\%$; the total is $100\%$.
+The sample size is $n=25$. The relative frequency of each value is its frequency divided by $n$:
+$$\frac{7}{25}=28\%;\quad \frac{12}{25}=48\%;\quad \frac{5}{25}=20\%;\quad \frac{1}{25}=4\%.$$
 
-So the values $1, 2, 3, 4$ have relative frequencies $28\%, 48\%, 20\%, 4\%$.
+The relative frequency table is:
+
+| Number of children | $1$ | $2$ | $3$ | $4$ |
+|---|---|---|---|---|
+| Relative frequency | $28\%$ | $48\%$ | $20\%$ | $4\%$ |
+
+Check: $28\%+48\%+20\%+4\%=100\%$.
+
+So the values $1, 2, 3, 4$ have relative frequencies $28\%, 48\%, 20\%, 4\%$ respectively.
 
 **Answer.** $28\%$, $48\%$, $20\%$, $4\%$.
 :::
@@ -229,9 +238,12 @@ A data set has four values with relative frequencies $25\%$, $40\%$, $20\%$, $15
 2. Check that the total is $360^\circ$.
 
 ::solution
-We have $25\%\cdot360^\circ=90^\circ$, $40\%\cdot360^\circ=144^\circ$, $20\%\cdot360^\circ=72^\circ$, $15\%\cdot360^\circ=54^\circ$; the total is $360^\circ$.
+In a pie chart, the angle at the centre of each sector is the relative frequency multiplied by $360^\circ$:
+$$25\%\cdot360^\circ=90^\circ;\quad 40\%\cdot360^\circ=144^\circ;\quad 20\%\cdot360^\circ=72^\circ;\quad 15\%\cdot360^\circ=54^\circ.$$
 
-So the angles are $90^\circ$, $144^\circ$, $72^\circ$, $54^\circ$.
+Check: $90^\circ+144^\circ+72^\circ+54^\circ=360^\circ$.
+
+So the angles at the centre are $90^\circ$, $144^\circ$, $72^\circ$, $54^\circ$ respectively.
 
 **Answer.** $90^\circ$, $144^\circ$, $72^\circ$, $54^\circ$.
 :::
@@ -290,11 +302,25 @@ c) Find the angle at the centre of the "English" sector.
 3. Multiply the $f$ for English by $360^\circ$.
 
 ::solution
-a) We have $x=50-(14+18+8)=10$.
+a) The four clubs have $50$ students in total, so
+$$14+18+x+8=50.$$
 
-b) The relative frequencies are: Maths $\dfrac{14}{50}=28\%$, English $\dfrac{18}{50}=36\%$, Football $\dfrac{10}{50}=20\%$, Music $\dfrac{8}{50}=16\%$.
+It follows that $x+40=50$, so $x=10$.
 
-c) The angle of the "English" sector is $36\%\cdot360^\circ=129.6^\circ$.
+So $x=10$.
+
+b) The relative frequency of each club is the number of students choosing it divided by $50$:
+
+| Club | Maths | English | Football | Music |
+|---|---|---|---|---|
+| Relative frequency | $\dfrac{14}{50}=28\%$ | $\dfrac{18}{50}=36\%$ | $\dfrac{10}{50}=20\%$ | $\dfrac{8}{50}=16\%$ |
+
+Check: $28\%+36\%+20\%+16\%=100\%$.
+
+c) The angle at the centre of the "English" sector is
+$$36\%\cdot360^\circ=129.6^\circ.$$
+
+So the "English" sector has an angle of $129.6^\circ$ at the centre.
 
 **Answer.** a) $10$; b) $28\%$, $36\%$, $20\%$, $16\%$; c) $129.6^\circ$.
 :::

@@ -133,7 +133,13 @@ Vậy bánh nhỏ có bán kính $5$ cm, bánh lớn có bán kính $10$ cm.
 Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-Cho hai đường tròn $(O; 6\text{ cm})$ và $(O'; 4\text{ cm})$. Xác định vị trí tương đối của chúng khi $OO'$ bằng: a) $11$ cm; b) $10$ cm; c) $5$ cm; d) $2$ cm; e) $1$ cm.
+Cho hai đường tròn $(O; 6\text{ cm})$ và $(O'; 4\text{ cm})$. Xác định vị trí tương đối của hai đường tròn trong mỗi trường hợp sau:
+
+a) $OO'=11$ cm;
+b) $OO'=10$ cm;
+c) $OO'=5$ cm;
+d) $OO'=2$ cm;
+e) $OO'=1$ cm.
 
 ::hint
 **Kiến thức:** so sánh $d$ với $R+r=10$ và $R-r=2$.
@@ -142,7 +148,17 @@ Cho hai đường tròn $(O; 6\text{ cm})$ và $(O'; 4\text{ cm})$. Xác định
 1. Tính $R+r$ và $R-r$, rồi so sánh với từng giá trị.
 
 ::solution
-Ta có $R+r=10$, $R-r=2$. Do đó: a) $11>10$; b) $10=R+r$; c) $2<5<10$; d) $2=R-r$; e) $1<2$.
+Ta có $R=6$ cm, $r=4$ cm, nên $R+r=10$ cm và $R-r=2$ cm. Ta so sánh đoạn nối tâm $d=OO'$ với $R+r$ và $R-r$.
+
+a) $d=11>R+r=10$: hai đường tròn ở ngoài nhau.
+
+b) $d=10=R+r$: hai đường tròn tiếp xúc ngoài.
+
+c) $R-r=2<d=5<R+r=10$: hai đường tròn cắt nhau.
+
+d) $d=2=R-r$: hai đường tròn tiếp xúc trong.
+
+e) $d=1<R-r=2$: đường tròn $(O)$ đựng đường tròn $(O')$.
 
 Vậy a) ở ngoài nhau; b) tiếp xúc ngoài; c) cắt nhau; d) tiếp xúc trong; e) đựng nhau.
 
@@ -176,7 +192,12 @@ Vậy $AB=6$ cm.
 1. Giải phương trình $9-r=4$.
 
 ::solution
-Hai đường tròn tiếp xúc trong nên $9-r=4$, suy ra $r=5$ (cm).
+Hai đường tròn $(O; 9\text{ cm})$ và $(O'; r)$ với $r<9$ cm tiếp xúc trong, nên đoạn nối tâm bằng hiệu hai bán kính:
+$$OO'=9-r.$$
+
+Theo đề bài $OO'=4$ cm, nên $9-r=4$, suy ra $r=5$ cm.
+
+Giá trị $r=5$ thoả mãn điều kiện $r<9$.
 
 Vậy $r=5$ cm.
 
@@ -193,9 +214,12 @@ Hai đường tròn $(O; 7\text{ cm})$ và $(O'; 3\text{ cm})$ tiếp xúc nhau.
 1. Xét hai trường hợp.
 
 ::solution
-Nếu tiếp xúc ngoài thì $OO'=7+3=10$ (cm). Nếu tiếp xúc trong thì $OO'=7-3=4$ (cm).
+Hai đường tròn tiếp xúc nhau có thể tiếp xúc ngoài hoặc tiếp xúc trong, nên ta xét hai trường hợp.
 
-Vậy $OO'=10$ cm hoặc $OO'=4$ cm.
+- Nếu hai đường tròn tiếp xúc ngoài thì đoạn nối tâm bằng tổng hai bán kính: $OO'=7+3=10$ (cm).
+- Nếu hai đường tròn tiếp xúc trong thì đoạn nối tâm bằng hiệu hai bán kính: $OO'=7-3=4$ (cm).
+
+Vậy $OO'=10$ cm (tiếp xúc ngoài) hoặc $OO'=4$ cm (tiếp xúc trong).
 
 **Đáp số.** $OO'=10$ cm hoặc $OO'=4$ cm.
 :::

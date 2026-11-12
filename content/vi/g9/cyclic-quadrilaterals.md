@@ -164,9 +164,15 @@ Tứ giác $ABCD$ nội tiếp đường tròn có $\widehat{A}=80^\circ$, $\wid
 1. Lấy $180^\circ$ trừ góc đối diện.
 
 ::solution
-Ta có $\widehat{C}=180^\circ-80^\circ=100^\circ$ và $\widehat{D}=180^\circ-95^\circ=85^\circ$.
+Trong tứ giác nội tiếp, tổng hai góc đối nhau bằng $180^\circ$.
 
-Vậy $\widehat{C}=100^\circ$, $\widehat{D}=85^\circ$.
+Vì $\widehat A$ và $\widehat C$ là hai góc đối nhau nên $\widehat A+\widehat C=180^\circ$. Suy ra
+$$\widehat C=180^\circ-80^\circ=100^\circ.$$
+
+Vì $\widehat B$ và $\widehat D$ là hai góc đối nhau nên $\widehat B+\widehat D=180^\circ$. Suy ra
+$$\widehat D=180^\circ-95^\circ=85^\circ.$$
+
+Vậy $\widehat C=100^\circ$ và $\widehat D=85^\circ$.
 
 **Đáp số.** $\widehat{C}=100^\circ$; $\widehat{D}=85^\circ$.
 :::
@@ -187,13 +193,15 @@ c) Hình bình hành có một góc vuông.
 1. Tính tổng hai góc đối trong mỗi trường hợp.
 
 ::solution
-a) Ta có $\widehat{A}+\widehat{C}=180^\circ$ nên tứ giác nội tiếp được.
+Một tứ giác nội tiếp được đường tròn khi và chỉ khi tổng hai góc đối nhau bằng $180^\circ$.
 
-b) Ta có $\widehat{P}=\widehat{M}=80^\circ$, nên $\widehat{M}+\widehat{P}=160^\circ\neq180^\circ$: không nội tiếp được.
+a) Ta có $\widehat A+\widehat C=75^\circ+105^\circ=180^\circ$. Do đó tứ giác $ABCD$ nội tiếp được đường tròn.
 
-c) Hình bình hành có một góc vuông là hình chữ nhật, nên nội tiếp được.
+b) Trong hình bình hành, hai góc đối bằng nhau nên $\widehat P=\widehat M=80^\circ$. Suy ra $\widehat M+\widehat P=160^\circ\neq180^\circ$. Do đó hình bình hành $MNPQ$ không nội tiếp được đường tròn.
 
-Vậy a) và c) nội tiếp được, b) không.
+c) Hình bình hành có một góc vuông là hình chữ nhật. Hình chữ nhật có hai góc đối nhau đều bằng $90^\circ$, tổng bằng $180^\circ$, nên nội tiếp được đường tròn.
+
+Vậy các tứ giác ở câu a) và câu c) nội tiếp được đường tròn, tứ giác ở câu b) thì không.
 
 **Đáp số.** a) Có; b) Không; c) Có.
 :::
@@ -212,11 +220,19 @@ b) Hình vuông cạnh $4$ cm.
 1. Tính đường chéo bằng định lí Pythagore, rồi chia đôi.
 
 ::solution
-a) Đường chéo dài $\sqrt{6^2+8^2}=10$ (cm), nên $R=5$ cm.
+Tâm đường tròn ngoại tiếp hình chữ nhật (hình vuông) là giao điểm của hai đường chéo, và bán kính bằng nửa đường chéo.
 
-b) Đường chéo dài $\sqrt{4^2+4^2}=4\sqrt2$ (cm), nên $R=2\sqrt2$ cm.
+a) Đường chéo của hình chữ nhật dài
+$$\sqrt{6^2+8^2}=\sqrt{100}=10\ \text{(cm)}.$$
 
-Vậy a) $R=5$ cm; b) $R=2\sqrt2\approx2{,}83$ cm.
+Do đó bán kính đường tròn ngoại tiếp là $R=\dfrac{10}{2}=5$ (cm).
+
+b) Đường chéo của hình vuông dài
+$$\sqrt{4^2+4^2}=\sqrt{32}=4\sqrt2\ \text{(cm)}.$$
+
+Do đó bán kính đường tròn ngoại tiếp là $R=\dfrac{4\sqrt2}{2}=2\sqrt2\approx2{,}83$ (cm).
+
+Vậy a) $R=5$ cm; b) $R=2\sqrt2$ cm.
 
 **Đáp số.** a) $5$ cm; b) $2\sqrt2$ cm.
 :::

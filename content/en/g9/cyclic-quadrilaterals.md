@@ -164,7 +164,13 @@ The quadrilateral $ABCD$ is cyclic with $\angle A=80^\circ$ and $\angle B=95^\ci
 1. Subtract the opposite angle from $180^\circ$.
 
 ::solution
-We have $\angle C=180^\circ-80^\circ=100^\circ$ and $\angle D=180^\circ-95^\circ=85^\circ$.
+In a cyclic quadrilateral, opposite angles add up to $180^\circ$.
+
+The angles $A$ and $C$ are opposite, so $\angle A+\angle C=180^\circ$. Hence
+$$\angle C=180^\circ-80^\circ=100^\circ.$$
+
+The angles $B$ and $D$ are opposite, so $\angle B+\angle D=180^\circ$. Hence
+$$\angle D=180^\circ-95^\circ=85^\circ.$$
 
 So $\angle C=100^\circ$ and $\angle D=85^\circ$.
 
@@ -187,13 +193,15 @@ c) A parallelogram with one right angle.
 1. Add a pair of opposite angles in each case.
 
 ::solution
-a) We have $\angle A+\angle C=180^\circ$, so the quadrilateral is cyclic.
+A quadrilateral is cyclic exactly when a pair of opposite angles adds up to $180^\circ$.
 
-b) We have $\angle P=\angle M=80^\circ$, so $\angle M+\angle P=160^\circ\neq180^\circ$: it is not cyclic.
+a) We have $\angle A+\angle C=75^\circ+105^\circ=180^\circ$. Hence the quadrilateral $ABCD$ is cyclic.
 
-c) A parallelogram with one right angle is a rectangle, so it is cyclic.
+b) In a parallelogram, opposite angles are equal, so $\angle P=\angle M=80^\circ$. It follows that $\angle M+\angle P=160^\circ\neq180^\circ$. Hence the parallelogram $MNPQ$ is not cyclic.
 
-So a) and c) are cyclic, b) is not.
+c) A parallelogram with one right angle is a rectangle. A rectangle has opposite angles of $90^\circ$ each, adding up to $180^\circ$, so it is cyclic.
+
+So the quadrilaterals in parts a) and c) are cyclic, and the one in part b) is not.
 
 **Answer.** a) Yes; b) No; c) Yes.
 :::
@@ -212,11 +220,17 @@ b) a square with side $4$ cm.
 1. Find the diagonal by Pythagoras' theorem, then halve it.
 
 ::solution
-a) The diagonal is $\sqrt{6^2+8^2}=10$ (cm), so $R=5$ cm.
+The centre of the circle through the vertices of a rectangle (or square) is the point where the diagonals meet, and the radius is half a diagonal.
 
-b) The diagonal is $\sqrt{4^2+4^2}=4\sqrt2$ (cm), so $R=2\sqrt2$ cm.
+a) The diagonal of the rectangle is
+$$\sqrt{6^2+8^2}=\sqrt{100}=10\ \text{(cm)}$$
+long. Hence the radius is $R=\dfrac{10}{2}=5$ (cm).
 
-So a) $R=5$ cm; b) $R=2\sqrt2\approx2.83$ cm.
+b) The diagonal of the square is
+$$\sqrt{4^2+4^2}=\sqrt{32}=4\sqrt2\ \text{(cm)}$$
+long. Hence the radius is $R=\dfrac{4\sqrt2}{2}=2\sqrt2\approx2.83$ (cm).
+
+So a) $R=5$ cm; b) $R=2\sqrt2$ cm.
 
 **Answer.** a) $5$ cm; b) $2\sqrt2$ cm.
 :::

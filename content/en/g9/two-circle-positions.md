@@ -133,7 +133,13 @@ So the small wheel has radius $5$ cm and the large wheel has radius $10$ cm.
 Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
 
 :::exercise
-Consider the circles $(O, 6\text{ cm})$ and $(O', 4\text{ cm})$. Find their relative position when $OO'$ is: a) $11$ cm; b) $10$ cm; c) $5$ cm; d) $2$ cm; e) $1$ cm.
+Consider the circles $(O, 6\text{ cm})$ and $(O', 4\text{ cm})$. Find their relative position in each of the following cases:
+
+a) $OO'=11$ cm;
+b) $OO'=10$ cm;
+c) $OO'=5$ cm;
+d) $OO'=2$ cm;
+e) $OO'=1$ cm.
 
 ::hint
 **What you need:** compare $d$ with $R+r=10$ and $R-r=2$.
@@ -142,9 +148,19 @@ Consider the circles $(O, 6\text{ cm})$ and $(O', 4\text{ cm})$. Find their rela
 1. Compute $R+r$ and $R-r$, then compare each value with them.
 
 ::solution
-We have $R+r=10$ and $R-r=2$. Hence: a) $11>10$; b) $10=R+r$; c) $2<5<10$; d) $2=R-r$; e) $1<2$.
+We have $R=6$ cm and $r=4$ cm, so $R+r=10$ cm and $R-r=2$ cm. We compare the distance between the centres $d=OO'$ with $R+r$ and $R-r$.
 
-So a) outside each other; b) touch externally; c) intersect; d) touch internally; e) one inside the other.
+a) $d=11>R+r=10$: the circles are outside each other.
+
+b) $d=10=R+r$: the circles touch externally.
+
+c) $R-r=2<d=5<R+r=10$: the circles intersect.
+
+d) $d=2=R-r$: the circles touch internally.
+
+e) $d=1<R-r=2$: the circle $(O)$ contains the circle $(O')$.
+
+So a) the circles are outside each other; b) they touch externally; c) they intersect; d) they touch internally; e) one is inside the other.
 
 **Answer.** a) outside each other; b) touch externally; c) intersect; d) touch internally; e) one inside the other.
 :::
@@ -176,7 +192,12 @@ The circle $(O, 9\text{ cm})$ touches the circle $(O', r)$ internally, with $r<9
 1. Solve the equation $9-r=4$.
 
 ::solution
-The circles touch internally, so $9-r=4$, hence $r=5$ (cm).
+The circles $(O, 9\text{ cm})$ and $(O', r)$ with $r<9$ cm touch internally, so the distance between the centres is the difference of the radii:
+$$OO'=9-r.$$
+
+From the question $OO'=4$ cm, so $9-r=4$, which gives $r=5$ cm.
+
+The value $r=5$ satisfies the condition $r<9$.
 
 So $r=5$ cm.
 
@@ -193,9 +214,12 @@ The circles $(O, 7\text{ cm})$ and $(O', 3\text{ cm})$ touch each other. Find $O
 1. Look at the two cases.
 
 ::solution
-If they touch externally, $OO'=7+3=10$ (cm). If they touch internally, $OO'=7-3=4$ (cm).
+Two touching circles can touch externally or internally, so we consider two cases.
 
-So $OO'=10$ cm or $OO'=4$ cm.
+- If the circles touch externally, the distance between the centres is the sum of the radii: $OO'=7+3=10$ (cm).
+- If the circles touch internally, the distance between the centres is the difference of the radii: $OO'=7-3=4$ (cm).
+
+So $OO'=10$ cm (touching externally) or $OO'=4$ cm (touching internally).
 
 **Answer.** $OO'=10$ cm or $OO'=4$ cm.
 :::

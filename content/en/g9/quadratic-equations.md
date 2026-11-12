@@ -233,11 +233,18 @@ b) $-2x^2+6x=0$.
 2. b) Write $-2x(x-3)=0$.
 
 ::solution
-a) We have $5x^2=20\Leftrightarrow x^2=4\Leftrightarrow x=2$ or $x=-2$.
+a) We have $5x^2-20=0$, so $5x^2=20$, that is $x^2=4$.
 
-b) We have $-2x(x-3)=0\Leftrightarrow x=0$ or $x=3$.
+Hence $x=2$ or $x=-2$.
 
-So a) $x=\pm2$; b) $x=0$, $x=3$.
+So the equation has two solutions, $x=2$ and $x=-2$.
+
+b) Taking out the common factor, we have
+$$-2x^2+6x=0\iff -2x(x-3)=0.$$
+
+It follows that $-2x=0$ or $x-3=0$, so $x=0$ or $x=3$.
+
+So the equation has two solutions, $x=0$ and $x=3$.
 
 **Answer.** a) $x=2$, $x=-2$; b) $x=0$, $x=3$.
 :::
@@ -259,13 +266,25 @@ c) $9x^2-6x+1=0$.
 2. Look at the sign of $\Delta$, then apply the formula.
 
 ::solution
-a) We have $\Delta=49-40=9$ and $\sqrt\Delta=3$, so $x_1=\dfrac{7+3}{2}=5$ and $x_2=\dfrac{7-3}{2}=2$.
+a) The equation $x^2-7x+10=0$ has $a=1$, $b=-7$, $c=10$. We have
+$$\Delta=b^2-4ac=(-7)^2-4\cdot1\cdot10=49-40=9>0,\quad \sqrt\Delta=3.$$
 
-b) We have $\Delta=1+8=9$, so $x_1=\dfrac{-1+3}{4}=\dfrac12$ and $x_2=\dfrac{-1-3}{4}=-1$.
+The equation has two distinct roots
+$$x_1=\frac{7+3}{2}=5;\qquad x_2=\frac{7-3}{2}=2.$$
 
-c) We have $\Delta=36-36=0$, so the equation has a repeated root $x_1=x_2=\dfrac{6}{18}=\dfrac13$.
+b) The equation $2x^2+x-1=0$ has $a=2$, $b=1$, $c=-1$. We have
+$$\Delta=1^2-4\cdot2\cdot(-1)=1+8=9>0,\quad \sqrt\Delta=3.$$
 
-So a) $x=5$, $x=2$; b) $x=\dfrac12$, $x=-1$; c) $x=\dfrac13$.
+The equation has two distinct roots
+$$x_1=\frac{-1+3}{2\cdot2}=\frac12;\qquad x_2=\frac{-1-3}{2\cdot2}=-1.$$
+
+c) The equation $9x^2-6x+1=0$ has $a=9$, $b=-6$, $c=1$. We have
+$$\Delta=(-6)^2-4\cdot9\cdot1=36-36=0.$$
+
+The equation has a repeated root
+$$x_1=x_2=-\frac{b}{2a}=\frac{6}{18}=\frac13.$$
+
+So a) $x=5$, $x=2$; b) $x=\dfrac12$, $x=-1$; c) the repeated root $x=\dfrac13$.
 
 **Answer.** a) $5$; $2$. b) $\dfrac12$; $-1$. c) Repeated root $\dfrac13$.
 :::
@@ -285,11 +304,18 @@ b) $5x^2+2x+1=0$.
 2. Apply $x_{1,2}=\dfrac{-b'\pm\sqrt{\Delta'}}{a}$.
 
 ::solution
-a) We have $b'=-2$ and $\Delta'=4+1=5>0$, so $x_{1,2}=2\pm\sqrt5$.
+a) The equation $x^2-4x-1=0$ has $a=1$, $b'=-2$, $c=-1$. We have
+$$\Delta'=b'^2-ac=(-2)^2-1\cdot(-1)=4+1=5>0.$$
 
-b) We have $b'=1$ and $\Delta'=1-5=-4<0$, so the equation has no solutions.
+The equation has two distinct roots
+$$x_1=\frac{-b'+\sqrt{\Delta'}}{a}=2+\sqrt5;\qquad x_2=\frac{-b'-\sqrt{\Delta'}}{a}=2-\sqrt5.$$
 
-So a) $x=2+\sqrt5$, $x=2-\sqrt5$; b) no solutions.
+b) The equation $5x^2+2x+1=0$ has $a=5$, $b'=1$, $c=1$. We have
+$$\Delta'=1^2-5\cdot1=-4<0.$$
+
+Hence the equation has no solutions.
+
+So a) $x=2+\sqrt5$, $x=2-\sqrt5$; b) the equation has no solutions.
 
 **Answer.** a) $x=2\pm\sqrt5$; b) no solutions.
 :::
@@ -309,11 +335,25 @@ b) $x(x+2)=3(x+4)$.
 2. Solve the resulting quadratic equation.
 
 ::solution
-a) We have $x^2-2x-3=2x-7\Leftrightarrow x^2-4x+4=0$. We have $\Delta'=4-4=0$, so the equation has a repeated root $x=2$.
+a) Expanding the left-hand side, we have $(x+1)(x-3)=x^2-2x-3$. The equation becomes
+$$x^2-2x-3=2x-7\iff x^2-4x+4=0.$$
 
-b) We have $x^2+2x=3x+12\Leftrightarrow x^2-x-12=0$. We have $\Delta=1+48=49$, so $x_1=\dfrac{1+7}{2}=4$ and $x_2=\dfrac{1-7}{2}=-3$.
+This equation has $a=1$, $b'=-2$, $c=4$, so $\Delta'=(-2)^2-1\cdot4=0$.
 
-So a) $x=2$; b) $x=4$, $x=-3$.
+Hence the equation has the repeated root $x_1=x_2=-\dfrac{b'}{a}=2$.
+
+So the equation has the solution $x=2$.
+
+b) Expanding both sides, we have
+$$x^2+2x=3x+12\iff x^2-x-12=0.$$
+
+This equation has $a=1$, $b=-1$, $c=-12$, so
+$$\Delta=(-1)^2-4\cdot1\cdot(-12)=1+48=49>0,\quad \sqrt\Delta=7.$$
+
+The equation has two distinct roots
+$$x_1=\frac{1+7}{2}=4;\qquad x_2=\frac{1-7}{2}=-3.$$
+
+So the equation has two solutions, $x=4$ and $x=-3$.
 
 **Answer.** a) $x=2$; b) $x=4$, $x=-3$.
 :::
@@ -399,13 +439,30 @@ c) Solve the equation $x^2-2\sqrt2x-6=0$.
 3. c) Use $b'=-\sqrt2$.
 
 ::solution
-a) We have $\Delta=9+40=49$, so $x_1=\dfrac{3+7}{4}=\dfrac52$ and $x_2=\dfrac{3-7}{4}=-1$.
+a) The equation $2x^2-3x-5=0$ has $a=2$, $b=-3$, $c=-5$. We have
+$$\Delta=(-3)^2-4\cdot2\cdot(-5)=9+40=49>0,\quad \sqrt\Delta=7.$$
 
-b) The $x$-coordinates of the points of intersection are the roots of $x^2=x+2\Leftrightarrow x^2-x-2=0$. We have $\Delta=1+8=9$, so $x=2$ or $x=-1$. When $x=2$, $y=4$; when $x=-1$, $y=1$.
+The equation has two distinct roots
+$$x_1=\frac{3+7}{4}=\frac52;\qquad x_2=\frac{3-7}{4}=-1.$$
 
-c) We have $b'=-\sqrt2$, $\Delta'=2+6=8$ and $\sqrt{\Delta'}=2\sqrt2$. Hence $x_1=\sqrt2+2\sqrt2=3\sqrt2$ and $x_2=\sqrt2-2\sqrt2=-\sqrt2$.
+So the equation has two solutions, $x=\dfrac52$ and $x=-1$.
 
-So a) $x=\dfrac52$, $x=-1$; b) the points of intersection are $(2, 4)$ and $(-1, 1)$; c) $x=3\sqrt2$, $x=-\sqrt2$.
+b) The $x$-coordinates of the intersection points of $(P)$ and $(d)$ are the solutions of the equation
+$$x^2=x+2\iff x^2-x-2=0.$$
+
+We have $\Delta=(-1)^2-4\cdot1\cdot(-2)=9$, $\sqrt\Delta=3$, so $x_1=\dfrac{1+3}{2}=2$ and $x_2=\dfrac{1-3}{2}=-1$.
+
+For $x=2$ we get $y=2^2=4$; for $x=-1$ we get $y=(-1)^2=1$.
+
+So $(P)$ and $(d)$ meet at the two points $(2, 4)$ and $(-1, 1)$.
+
+c) The equation $x^2-2\sqrt2x-6=0$ has $a=1$, $b'=-\sqrt2$, $c=-6$. We have
+$$\Delta'=\left(-\sqrt2\right)^2-1\cdot(-6)=2+6=8>0,\quad \sqrt{\Delta'}=2\sqrt2.$$
+
+The equation has two distinct roots
+$$x_1=\sqrt2+2\sqrt2=3\sqrt2;\qquad x_2=\sqrt2-2\sqrt2=-\sqrt2.$$
+
+So the equation has two solutions, $x=3\sqrt2$ and $x=-\sqrt2$.
 
 **Answer.** a) $\dfrac52$; $-1$. b) $(2, 4)$, $(-1, 1)$. c) $3\sqrt2$; $-\sqrt2$.
 :::

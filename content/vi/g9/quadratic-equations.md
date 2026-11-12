@@ -233,11 +233,18 @@ b) $-2x^2+6x=0$.
 2. b) Viết $-2x(x-3)=0$.
 
 ::solution
-a) Ta có $5x^2=20\Leftrightarrow x^2=4\Leftrightarrow x=2$ hoặc $x=-2$.
+a) Ta có $5x^2-20=0$, suy ra $5x^2=20$, hay $x^2=4$.
 
-b) Ta có $-2x(x-3)=0\Leftrightarrow x=0$ hoặc $x=3$.
+Do đó $x=2$ hoặc $x=-2$.
 
-Vậy a) $x=\pm2$; b) $x=0$, $x=3$.
+Vậy phương trình có hai nghiệm $x=2$ và $x=-2$.
+
+b) Đặt nhân tử chung, ta có
+$$-2x^2+6x=0\iff -2x(x-3)=0.$$
+
+Suy ra $-2x=0$ hoặc $x-3=0$, tức là $x=0$ hoặc $x=3$.
+
+Vậy phương trình có hai nghiệm $x=0$ và $x=3$.
 
 **Đáp số.** a) $x=2$, $x=-2$; b) $x=0$, $x=3$.
 :::
@@ -259,13 +266,25 @@ c) $9x^2-6x+1=0$.
 2. Xét dấu $\Delta$ rồi áp dụng công thức.
 
 ::solution
-a) Ta có $\Delta=49-40=9$, $\sqrt\Delta=3$, nên $x_1=\dfrac{7+3}{2}=5$, $x_2=\dfrac{7-3}{2}=2$.
+a) Phương trình $x^2-7x+10=0$ có $a=1$, $b=-7$, $c=10$. Ta có
+$$\Delta=b^2-4ac=(-7)^2-4\cdot1\cdot10=49-40=9>0,\quad \sqrt\Delta=3.$$
 
-b) Ta có $\Delta=1+8=9$, nên $x_1=\dfrac{-1+3}{4}=\dfrac12$, $x_2=\dfrac{-1-3}{4}=-1$.
+Phương trình có hai nghiệm phân biệt
+$$x_1=\frac{7+3}{2}=5;\qquad x_2=\frac{7-3}{2}=2.$$
 
-c) Ta có $\Delta=36-36=0$, nên phương trình có nghiệm kép $x_1=x_2=\dfrac{6}{18}=\dfrac13$.
+b) Phương trình $2x^2+x-1=0$ có $a=2$, $b=1$, $c=-1$. Ta có
+$$\Delta=1^2-4\cdot2\cdot(-1)=1+8=9>0,\quad \sqrt\Delta=3.$$
 
-Vậy a) $x=5$, $x=2$; b) $x=\dfrac12$, $x=-1$; c) $x=\dfrac13$.
+Phương trình có hai nghiệm phân biệt
+$$x_1=\frac{-1+3}{2\cdot2}=\frac12;\qquad x_2=\frac{-1-3}{2\cdot2}=-1.$$
+
+c) Phương trình $9x^2-6x+1=0$ có $a=9$, $b=-6$, $c=1$. Ta có
+$$\Delta=(-6)^2-4\cdot9\cdot1=36-36=0.$$
+
+Phương trình có nghiệm kép
+$$x_1=x_2=-\frac{b}{2a}=\frac{6}{18}=\frac13.$$
+
+Vậy a) $x=5$, $x=2$; b) $x=\dfrac12$, $x=-1$; c) nghiệm kép $x=\dfrac13$.
 
 **Đáp số.** a) $5$; $2$. b) $\dfrac12$; $-1$. c) Nghiệm kép $\dfrac13$.
 :::
@@ -285,11 +304,18 @@ b) $5x^2+2x+1=0$.
 2. Áp dụng $x_{1,2}=\dfrac{-b'\pm\sqrt{\Delta'}}{a}$.
 
 ::solution
-a) Ta có $b'=-2$, $\Delta'=4+1=5>0$, nên $x_{1,2}=2\pm\sqrt5$.
+a) Phương trình $x^2-4x-1=0$ có $a=1$, $b'=-2$, $c=-1$. Ta có
+$$\Delta'=b'^2-ac=(-2)^2-1\cdot(-1)=4+1=5>0.$$
 
-b) Ta có $b'=1$, $\Delta'=1-5=-4<0$, nên phương trình vô nghiệm.
+Phương trình có hai nghiệm phân biệt
+$$x_1=\frac{-b'+\sqrt{\Delta'}}{a}=2+\sqrt5;\qquad x_2=\frac{-b'-\sqrt{\Delta'}}{a}=2-\sqrt5.$$
 
-Vậy a) $x=2+\sqrt5$, $x=2-\sqrt5$; b) vô nghiệm.
+b) Phương trình $5x^2+2x+1=0$ có $a=5$, $b'=1$, $c=1$. Ta có
+$$\Delta'=1^2-5\cdot1=-4<0.$$
+
+Do đó phương trình vô nghiệm.
+
+Vậy a) $x=2+\sqrt5$, $x=2-\sqrt5$; b) phương trình vô nghiệm.
 
 **Đáp số.** a) $x=2\pm\sqrt5$; b) vô nghiệm.
 :::
@@ -309,11 +335,25 @@ b) $x(x+2)=3(x+4)$.
 2. Giải phương trình bậc hai nhận được.
 
 ::solution
-a) Ta có $x^2-2x-3=2x-7\Leftrightarrow x^2-4x+4=0$. Ta có $\Delta'=4-4=0$, nên phương trình có nghiệm kép $x=2$.
+a) Khai triển vế trái, ta có $(x+1)(x-3)=x^2-2x-3$. Phương trình trở thành
+$$x^2-2x-3=2x-7\iff x^2-4x+4=0.$$
 
-b) Ta có $x^2+2x=3x+12\Leftrightarrow x^2-x-12=0$. Ta có $\Delta=1+48=49$, nên $x_1=\dfrac{1+7}{2}=4$, $x_2=\dfrac{1-7}{2}=-3$.
+Phương trình này có $a=1$, $b'=-2$, $c=4$, nên $\Delta'=(-2)^2-1\cdot4=0$.
 
-Vậy a) $x=2$; b) $x=4$, $x=-3$.
+Do đó phương trình có nghiệm kép $x_1=x_2=-\dfrac{b'}{a}=2$.
+
+Vậy phương trình có nghiệm $x=2$.
+
+b) Khai triển hai vế, ta có
+$$x^2+2x=3x+12\iff x^2-x-12=0.$$
+
+Phương trình này có $a=1$, $b=-1$, $c=-12$, nên
+$$\Delta=(-1)^2-4\cdot1\cdot(-12)=1+48=49>0,\quad \sqrt\Delta=7.$$
+
+Phương trình có hai nghiệm phân biệt
+$$x_1=\frac{1+7}{2}=4;\qquad x_2=\frac{1-7}{2}=-3.$$
+
+Vậy phương trình có hai nghiệm $x=4$ và $x=-3$.
 
 **Đáp số.** a) $x=2$; b) $x=4$, $x=-3$.
 :::
@@ -399,13 +439,30 @@ c) Giải phương trình $x^2-2\sqrt2x-6=0$.
 3. c) Dùng $b'=-\sqrt2$.
 
 ::solution
-a) Ta có $\Delta=9+40=49$, nên $x_1=\dfrac{3+7}{4}=\dfrac52$, $x_2=\dfrac{3-7}{4}=-1$.
+a) Phương trình $2x^2-3x-5=0$ có $a=2$, $b=-3$, $c=-5$. Ta có
+$$\Delta=(-3)^2-4\cdot2\cdot(-5)=9+40=49>0,\quad \sqrt\Delta=7.$$
 
-b) Hoành độ giao điểm là nghiệm của $x^2=x+2\Leftrightarrow x^2-x-2=0$. Ta có $\Delta=1+8=9$, nên $x=2$ hoặc $x=-1$. Với $x=2$ thì $y=4$; với $x=-1$ thì $y=1$.
+Phương trình có hai nghiệm phân biệt
+$$x_1=\frac{3+7}{4}=\frac52;\qquad x_2=\frac{3-7}{4}=-1.$$
 
-c) Ta có $b'=-\sqrt2$, $\Delta'=2+6=8$, $\sqrt{\Delta'}=2\sqrt2$. Do đó $x_1=\sqrt2+2\sqrt2=3\sqrt2$, $x_2=\sqrt2-2\sqrt2=-\sqrt2$.
+Vậy phương trình có hai nghiệm $x=\dfrac52$ và $x=-1$.
 
-Vậy a) $x=\dfrac52$, $x=-1$; b) hai giao điểm là $(2; 4)$ và $(-1; 1)$; c) $x=3\sqrt2$, $x=-\sqrt2$.
+b) Hoành độ giao điểm của $(P)$ và $(d)$ là nghiệm của phương trình
+$$x^2=x+2\iff x^2-x-2=0.$$
+
+Ta có $\Delta=(-1)^2-4\cdot1\cdot(-2)=9$, $\sqrt\Delta=3$, nên $x_1=\dfrac{1+3}{2}=2$ và $x_2=\dfrac{1-3}{2}=-1$.
+
+Với $x=2$ thì $y=2^2=4$; với $x=-1$ thì $y=(-1)^2=1$.
+
+Vậy $(P)$ và $(d)$ cắt nhau tại hai điểm $(2; 4)$ và $(-1; 1)$.
+
+c) Phương trình $x^2-2\sqrt2x-6=0$ có $a=1$, $b'=-\sqrt2$, $c=-6$. Ta có
+$$\Delta'=\left(-\sqrt2\right)^2-1\cdot(-6)=2+6=8>0,\quad \sqrt{\Delta'}=2\sqrt2.$$
+
+Phương trình có hai nghiệm phân biệt
+$$x_1=\sqrt2+2\sqrt2=3\sqrt2;\qquad x_2=\sqrt2-2\sqrt2=-\sqrt2.$$
+
+Vậy phương trình có hai nghiệm $x=3\sqrt2$ và $x=-\sqrt2$.
 
 **Đáp số.** a) $\dfrac52$; $-1$. b) $(2; 4)$, $(-1; 1)$. c) $3\sqrt2$; $-\sqrt2$.
 :::
