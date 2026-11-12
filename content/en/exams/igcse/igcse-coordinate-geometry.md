@@ -139,7 +139,7 @@ Find the equation of the line through $(3,\ -1)$ and $(5,\ 7)$.
 **What you need:** find the gradient, then use one of the points.
 
 ::solution
-The gradient is $\dfrac{7-(-1)}{5-3}=\dfrac82=4$.
+The gradient is the change in $y$ divided by the change in $x$: $\dfrac{7-(-1)}{5-3}=\dfrac82=4$. Either point can then be used; we take the first.
 
 Through $(3,\ -1)$: $y-(-1)=4(x-3)$, so $y+1=4x-12$ and $y=4x-13$. Check with $(5,\ 7)$: $4(5)-13=7$.
 

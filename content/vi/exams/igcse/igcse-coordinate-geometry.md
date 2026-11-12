@@ -139,7 +139,7 @@ Viết phương trình đường thẳng đi qua $(3;\ -1)$ và $(5;\ 7)$.
 **Kiến thức:** tìm hệ số góc, rồi dùng một trong hai điểm.
 
 ::solution
-Hệ số góc là $\dfrac{7-(-1)}{5-3}=\dfrac82=4$.
+Hệ số góc bằng độ thay đổi của $y$ chia cho độ thay đổi của $x$: $\dfrac{7-(-1)}{5-3}=\dfrac82=4$. Sau đó dùng điểm nào cũng được; ta lấy điểm thứ nhất.
 
 Qua $(3;\ -1)$: $y-(-1)=4(x-3)$, nên $y+1=4x-12$ và $y=4x-13$. Kiểm tra với $(5;\ 7)$: $4(5)-13=7$.
 
