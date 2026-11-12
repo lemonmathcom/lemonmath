@@ -1,6 +1,6 @@
 # Viết lại giọng văn (chuẩn 2f – người thầy tâm huyết)
 
-Quyết định 12/11/2026: chủ dự án muốn toàn bộ phần lời (mở bài, giải thích, lập luận, chuyển ý, hộp mẹo/lỗi/tóm tắt) viết lại tự nhiên, thân thiện như một nhà giáo tâm huyết, cả bản Việt và bản Anh; tài khoản Pro tự viết dần, **mỗi ngày 3 bài học** (lịch tự chạy hằng ngày).
+Quyết định 12/11/2026: chủ dự án muốn toàn bộ phần lời (mở bài, giải thích, lập luận, chuyển ý, hộp mẹo/lỗi/tóm tắt) viết lại tự nhiên, thân thiện như một nhà giáo tâm huyết, cả bản Việt và bản Anh; tài khoản Pro tự viết dần, **mỗi ngày 10 bài học** (lịch tự chạy 13h29 và 17h29, mỗi lượt 5 bài).
 
 ## Cách làm một bài (giữ nguyên toán)
 
