@@ -25,7 +25,7 @@ Quyết định 12/11/2026: chủ dự án muốn toàn bộ phần lời (mở 
 | 7 | g10/dispersion | xong 12/11/2026 |
 | 8 | g10/dot-product | xong 12/11/2026 |
 | 9 | g10/equation-of-a-line | xong 12/11/2026 |
-| 10 | g10/equations-reducible-quadratic |  |
+| 10 | g10/equations-reducible-quadratic | xong 12/11/2026 |
 | 11 | g10/events-classical-probability |  |
 | 12 | g10/functions |  |
 | 13 | g10/linear-inequality-two-variables |  |

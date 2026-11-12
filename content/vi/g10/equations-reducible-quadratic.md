@@ -13,41 +13,41 @@ minutes: 25
 
 Một chiếc thang dài $10$ m dựa vào tường. Gọi $d$ là khoảng cách từ chân thang đến tường. Theo định lí Pythagore, đầu thang ở độ cao $\sqrt{100-d^2}$ mét. Người thợ muốn đầu thang cao hơn $d$ đúng $2$ m. Chân thang phải đặt cách tường bao xa?
 
-Ta cần giải $\sqrt{100-d^2}=d+2$, một phương trình có ẩn nằm dưới dấu căn. Cách tự nhiên là **bình phương** hai vế để bỏ căn, rồi giải phương trình bậc hai nhận được.
+Viết thành phương trình, ta cần giải $\sqrt{100-d^2}=d+2$. Ẩn nằm dưới dấu căn, và đó là chỗ khó. Ý tự nhiên nhất là **bình phương** hai vế cho mất căn, rồi giải phương trình bậc hai quen thuộc. Ý ấy đúng hướng, nhưng có một cái bẫy nhỏ nằm ngay trong phép bình phương. Bài này giúp bạn nhìn ra cái bẫy đó và biết cách tránh.
 
 ## Vì sao bình phương cần thử lại
 
 ### Khám phá: bình phương thêm nghiệm
 
-Xét phương trình $\sqrt{x+6}=x$. Bình phương hai vế:
+Ta thử với một phương trình nhỏ, $\sqrt{x+6}=x$, và cứ làm theo ý tự nhiên là bình phương hai vế:
 
 $$x+6=x^2\iff x^2-x-6=0\iff x=3\ \text{ hoặc }\ x=-2.$$
 
-Thay lại vào phương trình ban đầu:
+Có hai giá trị, trông rất ổn. Nhưng cẩn thận một chút, ta thay lại vào phương trình ban đầu:
 
 | $x$ | vế trái $\sqrt{x+6}$ | vế phải $x$ | kết quả |
 |---|---|---|---|
 | $3$ | $\sqrt9=3$ | $3$ | đúng |
 | $-2$ | $\sqrt4=2$ | $-2$ | sai |
 
-Giá trị $x=-2$ thoả mãn phương trình sau khi bình phương, nhưng không thoả mãn phương trình ban đầu. Ta gọi nó là **nghiệm ngoại lai**.
+Lạ chưa: giá trị $x=-2$ thoả mãn phương trình sau khi bình phương, nhưng không thoả mãn phương trình ban đầu. Nó "lọt" vào từ đâu đó trong lúc biến đổi. Ta gọi nó là **nghiệm ngoại lai**.
 
 ### Nguyên nhân
 
-Nếu $A=B$ thì $A^2=B^2$. Chiều ngược lại sai: $A^2=B^2$ chỉ cho biết $A=B$ **hoặc** $A=-B$. Với $x=-2$ ở trên, $A=2$ và $B=-2$: hai số đối nhau nhưng có cùng bình phương $4$.
+Vấn đề nằm ở chỗ phép bình phương "làm mất dấu". Nếu $A=B$ thì $A^2=B^2$, điều đó đúng. Nhưng chiều ngược lại thì sai: $A^2=B^2$ chỉ cho biết $A=B$ **hoặc** $A=-B$. Với $x=-2$ ở trên, $A=2$ và $B=-2$: hai số đối nhau nhưng có cùng bình phương $4$.
 
-Nếu biết thêm $A\ge 0$ và $B\ge 0$ thì trường hợp $A=-B$ chỉ xảy ra khi $A=B=0$. Khi đó bình phương là phép biến đổi tương đương. Từ đó có hai cách giải dưới đây.
+Vậy làm sao để bình phương mà không sợ? Nếu biết thêm $A\ge 0$ và $B\ge 0$ thì trường hợp $A=-B$ chỉ xảy ra khi $A=B=0$. Khi đó bình phương là phép biến đổi tương đương, không thêm nghiệm nào. Đó là ý nằm sau hai cách giải dưới đây.
 
 :::theorem Cách giải hai dạng phương trình chứa căn
 $$\sqrt{f(x)}=\sqrt{g(x)}\iff\begin{cases}f(x)\ge 0\\ f(x)=g(x)\end{cases}\qquad\qquad \sqrt{f(x)}=g(x)\iff\begin{cases}g(x)\ge 0\\ f(x)=[g(x)]^2\end{cases}$$
 Trong thực hành, ta giải phương trình sau khi bình phương, rồi **thử lại** từng giá trị vào phương trình ban đầu (hoặc vào điều kiện).
 :::
 
-Ở dạng thứ nhất chỉ cần $f(x)\ge 0$, vì khi $f(x)=g(x)$ thì $g(x)\ge 0$ cũng đúng. Ở dạng thứ hai không cần viết $f(x)\ge 0$, vì $f(x)=[g(x)]^2$ đã không âm.
+Có thể bạn thắc mắc vì sao mỗi dạng chỉ có một điều kiện. Ở dạng thứ nhất chỉ cần $f(x)\ge 0$, vì khi $f(x)=g(x)$ thì $g(x)\ge 0$ cũng đúng. Ở dạng thứ hai không cần viết $f(x)\ge 0$, vì $f(x)=[g(x)]^2$ đã không âm sẵn rồi.
 
 ## Phương trình $\sqrt{f(x)}=\sqrt{g(x)}$
 
-Ta bắt đầu với dạng đơn giản nhất: sau khi bình phương chỉ còn một phương trình bậc nhất.
+Ta bắt đầu từ trường hợp nhẹ nhàng nhất: bình phương xong chỉ còn một phương trình bậc nhất.
 
 :::example Hai biểu thức bậc nhất dưới dấu căn
 Giải $\sqrt{2x-3}=\sqrt{x+1}$.
@@ -61,7 +61,7 @@ Với $x=4$: $x+1=5\ge 0$, và hai vế đều bằng $\sqrt5$.
 Vậy phương trình có tập nghiệm $S=\{4\}$.
 :::
 
-Khi một vế có $x^2$, phương trình sau khi bình phương là bậc hai, nên có thể có hai giá trị cần thử.
+Khi một vế có $x^2$, bình phương xong ta được phương trình bậc hai, nên thường có hai giá trị. Đừng vội nhận cả hai; giá trị nào cũng phải qua bước thử lại.
 
 :::example Thử lại cả hai giá trị
 Giải $\sqrt{x^2-x-2}=\sqrt{x+1}$.
@@ -79,7 +79,7 @@ Vậy $S=\{-1; 3\}$.
 
 ## Phương trình $\sqrt{f(x)}=g(x)$
 
-Căn bậc hai không bao giờ âm, nên vế phải $g(x)$ phải không âm. Đây chính là điều kiện giúp loại nghiệm ngoại lai trong phần khám phá.
+Dạng này là nơi nghiệm ngoại lai hay xuất hiện nhất. Lí do đơn giản: căn bậc hai không bao giờ âm, nên vế phải $g(x)$ cũng phải không âm. Chính điều kiện nhỏ này đã loại được $x=-2$ trong phần khám phá, vì ở đó vế phải là $x$ mà $-2<0$.
 
 :::example Một nghiệm bị loại
 Giải $\sqrt{2x+1}=x-1$.
@@ -93,7 +93,7 @@ Chỉ $x=4$ thoả mãn $x\ge 1$. Thử lại: $\sqrt9=3=4-1$.
 Vậy $S=\{4\}$.
 :::
 
-Có khi phương trình sau khi bình phương không có nghiệm nào. Khi đó phương trình ban đầu cũng vô nghiệm.
+Cũng có lúc bình phương xong, phương trình bậc hai chẳng có nghiệm nào. Khi đó phương trình ban đầu cũng vô nghiệm, vì mọi nghiệm của nó (nếu có) đều phải là nghiệm của phương trình sau khi bình phương.
 
 :::example Phương trình vô nghiệm
 Giải $\sqrt{x-1}=x+1$.
@@ -109,7 +109,7 @@ Vậy phương trình đã cho vô nghiệm, $S=\varnothing$.
 
 ## Bài toán chiếc thang
 
-Bây giờ ta trả lời câu hỏi ở đầu bài.
+Đã đủ đồ nghề, ta quay lại với người thợ và chiếc thang ở đầu bài.
 
 :::diagram Chiếc thang
 alt: Tam giác vuông với bức tường là cạnh đứng, mặt đất là cạnh ngang và chiếc thang dài 10 mét là cạnh huyền
@@ -138,7 +138,7 @@ Vậy chân thang cách tường $6$ m và đầu thang ở độ cao $h=8$ m.
 :::
 
 :::warning Những sai lầm thường gặp
-- **Không thử lại.** Sai: "$\sqrt{x+6}=x\Rightarrow x^2-x-6=0$, nên $S=\{-2; 3\}$". Lí do sai: bình phương có thể thêm nghiệm; $x=-2$ cho $\sqrt4=2\neq-2$. Đúng: $S=\{3\}$.
+- **Không thử lại.** Đây là lỗi phổ biến nhất của bài này. Sai: "$\sqrt{x+6}=x\Rightarrow x^2-x-6=0$, nên $S=\{-2; 3\}$". Lí do sai: bình phương có thể thêm nghiệm; $x=-2$ cho $\sqrt4=2\neq-2$. Đúng: $S=\{3\}$.
 - **Bình phương sai một nhị thức.** Sai: $(x-1)^2=x^2-1$. Lí do sai: thiếu số hạng $-2x$. Đúng: $(x-1)^2=x^2-2x+1$.
 - **Quên điều kiện vế phải.** Sai: chỉ kiểm tra biểu thức dưới căn $2x+1\ge 0$ rồi nhận cả $x=0$ cho $\sqrt{2x+1}=x-1$. Lí do sai: vế trái không âm nên vế phải cũng phải không âm, mà $0-1<0$. Đúng: cần $x-1\ge 0$, chỉ nhận $x=4$.
 :::
@@ -164,9 +164,11 @@ Vậy chân thang cách tường $6$ m và đầu thang ở độ cao $h=8$ m.
 - Luôn thử lại mọi giá trị tìm được vào phương trình ban đầu.
 - Bài toán thực tế: lập phương trình, giải, rồi chỉ giữ đáp số có ý nghĩa (độ dài dương).
 
+Ở bài toán chiếc thang, bình phương cho ta hai giá trị $6$ và $-8$, nhưng chỉ $d=6$ là khoảng cách thật. Bình phương là cách bỏ căn rất tiện, chỉ cần bạn nhớ một thói quen: tìm được giá trị nào thì thử lại giá trị ấy.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và gợi ý vài bước đầu. Bạn cứ tự làm trước, sai cũng không sao; đối chiếu với lời giải sau mới thấy mình hiểu đến đâu.
 
 :::exercise
 Giải $\sqrt{x+5}=\sqrt{3x-1}$.

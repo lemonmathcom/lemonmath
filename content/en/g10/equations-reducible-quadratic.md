@@ -13,41 +13,41 @@ minutes: 25
 
 A $10$ m ladder leans against a wall. Let $d$ be the distance from the foot of the ladder to the wall. By Pythagoras' theorem, the top of the ladder is at height $\sqrt{100-d^2}$ metres. The builder wants the top to be exactly $2$ m higher than $d$. How far from the wall should the foot of the ladder stand?
 
-We need to solve $\sqrt{100-d^2}=d+2$, an equation with the unknown under a square root. The natural move is to **square** both sides to remove the root, then solve the quadratic equation we get.
+Written as an equation, we need to solve $\sqrt{100-d^2}=d+2$. The unknown sits under a square root, and that is the awkward part. The most natural idea is to **square** both sides to get rid of the root, then solve a familiar quadratic. That idea points the right way, but there is a small trap hidden in the squaring. This lesson helps you see the trap and step around it.
 
 ## Why squaring needs a check
 
 ### Explore: squaring adds a solution
 
-Take the equation $\sqrt{x+6}=x$. Square both sides:
+Let us try a small equation, $\sqrt{x+6}=x$, and simply follow the natural idea of squaring both sides:
 
 $$x+6=x^2\iff x^2-x-6=0\iff x=3\ \text{ or }\ x=-2.$$
 
-Substitute back into the original equation:
+Two values, and they look fine. But to be careful, we substitute them back into the original equation:
 
 | $x$ | left side $\sqrt{x+6}$ | right side $x$ | result |
 |---|---|---|---|
 | $3$ | $\sqrt9=3$ | $3$ | true |
 | $-2$ | $\sqrt4=2$ | $-2$ | false |
 
-The value $x=-2$ satisfies the squared equation but not the original one. We call it an **extraneous solution**.
+Surprising: the value $x=-2$ satisfies the squared equation but not the original one. It slipped in somewhere along the way. We call it an **extraneous solution**.
 
 ### The reason
 
-If $A=B$ then $A^2=B^2$. The converse is false: $A^2=B^2$ only tells us that $A=B$ **or** $A=-B$. For $x=-2$ above, $A=2$ and $B=-2$: two opposite numbers with the same square $4$.
+The trouble is that squaring "forgets the sign". If $A=B$ then $A^2=B^2$; that is true. But the converse is false: $A^2=B^2$ only tells us that $A=B$ **or** $A=-B$. For $x=-2$ above, $A=2$ and $B=-2$: two opposite numbers with the same square $4$.
 
-If we also know that $A\ge 0$ and $B\ge 0$, then $A=-B$ can happen only when $A=B=0$. In that case squaring is an equivalent step. This gives the two methods below.
+So how can we square without worry? If we also know that $A\ge 0$ and $B\ge 0$, then $A=-B$ can happen only when $A=B=0$. In that case squaring is an equivalent step and adds no solution. That is the idea behind the two methods below.
 
 :::theorem Solving the two types of equation with a square root
 $$\sqrt{f(x)}=\sqrt{g(x)}\iff\begin{cases}f(x)\ge 0\\ f(x)=g(x)\end{cases}\qquad\qquad \sqrt{f(x)}=g(x)\iff\begin{cases}g(x)\ge 0\\ f(x)=[g(x)]^2\end{cases}$$
 In practice we solve the squared equation, then **check** each value in the original equation (or in the condition).
 :::
 
-In the first type we only need $f(x)\ge 0$, because when $f(x)=g(x)$, $g(x)\ge 0$ holds too. In the second type we need not write $f(x)\ge 0$, because $f(x)=[g(x)]^2$ is already non-negative.
+You may wonder why each type has only one condition. In the first type we only need $f(x)\ge 0$, because when $f(x)=g(x)$, $g(x)\ge 0$ holds too. In the second type we need not write $f(x)\ge 0$, because $f(x)=[g(x)]^2$ is already non-negative.
 
 ## Equations $\sqrt{f(x)}=\sqrt{g(x)}$
 
-We start with the simplest case: after squaring only a linear equation is left.
+We start with the gentlest case: after squaring, only a linear equation is left.
 
 :::example Two linear expressions under roots
 Solve $\sqrt{2x-3}=\sqrt{x+1}$.
@@ -61,7 +61,7 @@ For $x=4$: $x+1=5\ge 0$, and both sides equal $\sqrt5$.
 So the equation has solution set $S=\{4\}$.
 :::
 
-When one side contains $x^2$, the squared equation is quadratic, so there may be two values to check.
+When one side contains $x^2$, squaring gives a quadratic, so there are often two values. Do not accept both straight away; each one has to pass the check.
 
 :::example Checking both values
 Solve $\sqrt{x^2-x-2}=\sqrt{x+1}$.
@@ -79,7 +79,7 @@ So $S=\{-1, 3\}$.
 
 ## Equations $\sqrt{f(x)}=g(x)$
 
-A square root is never negative, so the right-hand side $g(x)$ must be non-negative. This is exactly the condition that removes the extraneous solution in the exploration.
+This is the type where extraneous solutions turn up most often. The reason is simple: a square root is never negative, so the right-hand side $g(x)$ must be non-negative too. This small condition is exactly what removed $x=-2$ in the exploration, because there the right-hand side was $x$ and $-2<0$.
 
 :::example One value rejected
 Solve $\sqrt{2x+1}=x-1$.
@@ -93,7 +93,7 @@ Only $x=4$ satisfies $x\ge 1$. Check: $\sqrt9=3=4-1$.
 So $S=\{4\}$.
 :::
 
-Sometimes the squared equation has no solution at all. Then the original equation has none either.
+Sometimes, after squaring, the quadratic has no solution at all. Then the original equation has none either, because any solution of it would have to be a solution of the squared equation.
 
 :::example An equation with no solution
 Solve $\sqrt{x-1}=x+1$.
@@ -109,7 +109,7 @@ So the given equation has no solution, $S=\varnothing$.
 
 ## The ladder problem
 
-Now we answer the question from the start of the lesson.
+With these tools in hand, we go back to the builder and the ladder from the start of the lesson.
 
 :::diagram The ladder
 alt: A right-angled triangle with the wall as the vertical side, the ground as the horizontal side and the 10 metre ladder as the hypotenuse
@@ -138,7 +138,7 @@ So the foot of the ladder is $6$ m from the wall and the top is at height $h=8$ 
 :::
 
 :::warning Common mistakes
-- **Not checking.** Wrong: "$\sqrt{x+6}=x\Rightarrow x^2-x-6=0$, so $S=\{-2, 3\}$". Why it is wrong: squaring can add solutions; $x=-2$ gives $\sqrt4=2\neq-2$. Right: $S=\{3\}$.
+- **Not checking.** This is the most common mistake in this lesson. Wrong: "$\sqrt{x+6}=x\Rightarrow x^2-x-6=0$, so $S=\{-2, 3\}$". Why it is wrong: squaring can add solutions; $x=-2$ gives $\sqrt4=2\neq-2$. Right: $S=\{3\}$.
 - **Squaring a binomial wrongly.** Wrong: $(x-1)^2=x^2-1$. Why it is wrong: the term $-2x$ is missing. Right: $(x-1)^2=x^2-2x+1$.
 - **Forgetting the condition on the right-hand side.** Wrong: checking only $2x+1\ge 0$ and accepting $x=0$ for $\sqrt{2x+1}=x-1$. Why it is wrong: the left side is non-negative, so the right side must be too, but $0-1<0$. Right: require $x-1\ge 0$ and keep only $x=4$.
 :::
@@ -164,9 +164,11 @@ So the foot of the ladder is $6$ m from the wall and the top is at height $h=8$ 
 - Always check every value you find in the original equation.
 - Real-life problems: set up the equation, solve it, then keep only the answers that make sense (positive lengths).
 
+In the ladder problem, squaring gave two values, $6$ and $-8$, but only $d=6$ is a real distance. Squaring is a handy way to remove a root; just keep one habit: whatever value you find, check it.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with the ideas you need and a few steps to get going. Have a go on your own first, and do not worry about mistakes; comparing with the solution afterwards shows you how much you have understood.
 
 :::exercise
 Solve $\sqrt{x+5}=\sqrt{3x-1}$.
