@@ -2,7 +2,8 @@
 
     python3 tools/qa/split-tonghop.py <file-tong-hop.md> <thư mục ra>
 
-Nhận hai dạng đã gặp:
+Nhận ba dạng đã gặp:
+- "## Bxxx · <id> · Tiếng Việt|English" rồi front matter --- (kiểu Nguyenchanh2358);
 - "===== Bxxx | id: <id> | ... | bản: VI|EN | ... =====" rồi nội dung bài (kiểu Alexnguyen122222);
 - "# Bxxx · lớp N · <id>" rồi "## 🇻🇳 ..." / "## 🇬🇧 ..." với front matter trong khối ```yaml (kiểu Lemonmath112).
 """
@@ -23,4 +24,10 @@ for k in range(1,len(blocks),4):
         m=re.search(r'```yaml\n(.*?)\n```\n',s,flags=re.S)
         rest=re.sub(r'\n---\s*$','',s[m.end():].strip())
         w(L,i,"---\n"+m.group(1).strip()+"\n---\n\n"+rest.strip()+"\n")
+blocks=re.split(r'^## (B\d+) · ([\w-]+) · (Tiếng Việt|English)\s*$',t,flags=re.M)
+for k in range(1,len(blocks),4):
+    _,i,L,body=blocks[k:k+4]
+    a=body.index('---\n'); body=body[a:].rstrip()
+    body=re.sub(r'\n---\s*$','',body)
+    w('VI' if L=='Tiếng Việt' else 'EN',i,body.strip()+"\n")
 print(f'Đã tách {n} file vào {out}')
