@@ -157,7 +157,7 @@ Với $X\sim\text{Po}(2{,}5)$, tính $P(X=0)$ và $P(X=4)$.
 **Kiến thức:** $P(X=k)=\dfrac{m^ke^{-m}}{k!}$.
 
 ::solution
-Với $m=2{,}5$, $P(X=0)=e^{-2{,}5}\approx0{,}0821$.
+Ta thay $m=2{,}5$ vào công thức Poisson. Với $k=0$, vì $2{,}5^0=1$ và $0!=1$, ta có $P(X=0)=e^{-2{,}5}\approx0{,}0821$.
 
 Tương tự, $P(X=4)=\dfrac{2{,}5^4e^{-2{,}5}}{4!}=\dfrac{39{,}0625\times0{,}08209}{24}\approx0{,}134$.
 
@@ -187,7 +187,7 @@ Giải phương trình $\dfrac{dy}{dx}=3y$ với $y=4$ khi $x=0$.
 **Kiến thức:** $\dfrac{dy}{dx}=ky$ cho $y=y_0e^{kx}$.
 
 ::solution
-Tách biến, $\dfrac1y\,dy=3\,dx$, nên $\ln y=3x+c$ và $y=Ae^{3x}$.
+Tốc độ thay đổi tỉ lệ với $y$, nên ta tách biến: $\dfrac1y\,dy=3\,dx$. Lấy nguyên hàm hai vế được $\ln y=3x+c$, nên $y=Ae^{3x}$.
 
 Điều kiện $y=4$ khi $x=0$ cho $A=4$.
 

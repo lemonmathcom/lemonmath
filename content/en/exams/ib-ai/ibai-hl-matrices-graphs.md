@@ -125,7 +125,7 @@ Find $AB$ for $A=\begin{pmatrix}1&2\\3&0\end{pmatrix}$ and $B=\begin{pmatrix}4&1
 **What you need:** entry $(i,j)$ is row $i$ of $A$ times column $j$ of $B$.
 
 ::solution
-Row $1$ of $A$ times the columns of $B$: $1(4)+2(-1)=2$ and $1(1)+2(2)=5$. Row $2$: $3(4)+0(-1)=12$ and $3(1)+0(2)=3$.
+The product is defined because $A$ has $2$ columns and $B$ has $2$ rows. Row $1$ of $A$ times the columns of $B$: $1(4)+2(-1)=2$ and $1(1)+2(2)=5$. Row $2$: $3(4)+0(-1)=12$ and $3(1)+0(2)=3$.
 
 So $AB=\begin{pmatrix}2&5\\12&3\end{pmatrix}$.
 
@@ -187,7 +187,7 @@ For $T=\begin{pmatrix}0.9&0.3\\0.1&0.7\end{pmatrix}$, find the steady-state vect
 **What you need:** solve $0.9p+0.3(1-p)=p$.
 
 ::solution
-Let the steady state be $\begin{pmatrix}p\\1-p\end{pmatrix}$. The first row of $Ts=s$ gives $0.9p+0.3(1-p)=p$, so $0.3=0.4p$ and $p=0.75$.
+At the steady state, multiplying by $T$ leaves the vector unchanged. Let the steady state be $\begin{pmatrix}p\\1-p\end{pmatrix}$. The first row of $Ts=s$ gives $0.9p+0.3(1-p)=p$, so $0.3=0.4p$ and $p=0.75$.
 
 So the steady-state vector is $\begin{pmatrix}0.75\\0.25\end{pmatrix}$.
 

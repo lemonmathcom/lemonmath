@@ -125,7 +125,7 @@ Tính $AB$ với $A=\begin{pmatrix}1&2\\3&0\end{pmatrix}$ và $B=\begin{pmatrix}
 **Kiến thức:** phần tử $(i,j)$ là hàng $i$ của $A$ nhân với cột $j$ của $B$.
 
 ::solution
-Hàng $1$ của $A$ nhân với các cột của $B$: $1(4)+2(-1)=2$ và $1(1)+2(2)=5$. Hàng $2$: $3(4)+0(-1)=12$ và $3(1)+0(2)=3$.
+Tích $AB$ xác định vì $A$ có $2$ cột và $B$ có $2$ hàng. Hàng $1$ của $A$ nhân với các cột của $B$: $1(4)+2(-1)=2$ và $1(1)+2(2)=5$. Hàng $2$: $3(4)+0(-1)=12$ và $3(1)+0(2)=3$.
 
 Vậy $AB=\begin{pmatrix}2&5\\12&3\end{pmatrix}$.
 
@@ -187,7 +187,7 @@ Với $T=\begin{pmatrix}0{,}9&0{,}3\\0{,}1&0{,}7\end{pmatrix}$, tìm vectơ tr�
 **Kiến thức:** giải $0{,}9p+0{,}3(1-p)=p$.
 
 ::solution
-Gọi trạng thái dừng là $\begin{pmatrix}p\\1-p\end{pmatrix}$. Hàng thứ nhất của $Ts=s$ cho $0{,}9p+0{,}3(1-p)=p$, nên $0{,}3=0{,}4p$ và $p=0{,}75$.
+Ở trạng thái dừng, nhân với $T$ không làm vectơ thay đổi. Gọi trạng thái dừng là $\begin{pmatrix}p\\1-p\end{pmatrix}$. Hàng thứ nhất của $Ts=s$ cho $0{,}9p+0{,}3(1-p)=p$, nên $0{,}3=0{,}4p$ và $p=0{,}75$.
 
 Vậy vectơ trạng thái dừng là $\begin{pmatrix}0{,}75\\0{,}25\end{pmatrix}$.
 

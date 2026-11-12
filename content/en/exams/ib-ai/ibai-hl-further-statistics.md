@@ -157,7 +157,7 @@ For $X\sim\text{Po}(2.5)$, find $P(X=0)$ and $P(X=4)$.
 **What you need:** $P(X=k)=\dfrac{m^ke^{-m}}{k!}$.
 
 ::solution
-With $m=2.5$, $P(X=0)=e^{-2.5}\approx0.0821$.
+We substitute $m=2.5$ into the Poisson formula. For $k=0$, since $2.5^0=1$ and $0!=1$, $P(X=0)=e^{-2.5}\approx0.0821$.
 
 Similarly $P(X=4)=\dfrac{2.5^4e^{-2.5}}{4!}=\dfrac{39.0625\times0.08209}{24}\approx0.134$.
 
@@ -187,7 +187,7 @@ Solve $\dfrac{dy}{dx}=3y$ with $y=4$ when $x=0$.
 **What you need:** $\dfrac{dy}{dx}=ky$ gives $y=y_0e^{kx}$.
 
 ::solution
-Separating variables, $\dfrac1y\,dy=3\,dx$, so $\ln y=3x+c$ and $y=Ae^{3x}$.
+The rate of change is proportional to $y$, so we separate variables: $\dfrac1y\,dy=3\,dx$. Integrating both sides gives $\ln y=3x+c$, so $y=Ae^{3x}$.
 
 The condition $y=4$ when $x=0$ gives $A=4$.
 
