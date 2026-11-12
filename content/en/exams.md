@@ -5,7 +5,7 @@ description: Free maths exam preparation for SAT, ACT, AP, IB, IGCSE and Vietnam
 
 ## How is each exam covered?
 
-Each exam above is its own roadmap, and every roadmap follows the same order, so you never have to guess what to study first:
+Revising for an exam can feel overwhelming: so much to cover and no idea where to start. So each exam above has its own roadmap, and every roadmap follows the same order, so you can simply take it one step at a time:
 
 1. **Know the exam.** The opening lesson explains the format, the scoring, where a calculator is allowed and a week-by-week revision plan.
 2. **Revise by topic.** Each topic has a short theory summary, worked examples written in that exam's question style, similar exercises (follow the model) and application exercises (new situations and real-life problems).

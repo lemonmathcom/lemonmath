@@ -5,7 +5,7 @@ description: Lộ trình ôn thi Toán miễn phí cho thi vào lớp 10, tốt 
 
 ## Mỗi kì thi được ôn như thế nào?
 
-Mỗi kì thi ở trên là một lộ trình riêng, luôn theo cùng một trình tự để bạn không phải đoán nên học gì trước:
+Ôn thi dễ làm người ta hoang mang: quá nhiều thứ phải học mà không biết bắt đầu từ đâu. Vì vậy mỗi kì thi ở trên có một lộ trình riêng, và lộ trình nào cũng đi theo cùng một trình tự, để bạn chỉ việc đi từng bước:
 
 1. **Hiểu đề thi.** Bài mở đầu nói rõ cấu trúc đề, cách chấm điểm, phần nào được dùng máy tính và kế hoạch ôn theo tuần.
 2. **Ôn theo chủ đề.** Mỗi chủ đề có phần lí thuyết ngắn gọn, ví dụ mẫu viết đúng kiểu câu hỏi của kì thi đó, bài tập tương tự (làm theo mẫu) và bài tập vận dụng (tình huống mới, bài thực tế).

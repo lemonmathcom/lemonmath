@@ -13,19 +13,19 @@ minutes: 28
 
 A robot vacuum cleaner starts at the point $M(1, 2)$ on a floor (units: metres). Every second it moves by the vector $\vec{u}=(2, 3)$, that is $2$ m to the right and $3$ m up. Does the robot pass through the point $N(9, 14)$, and if so, after how many seconds?
 
-The robot needs only a **starting point** and a **direction** to trace a whole straight line. This lesson turns that idea into equations.
+You could plot the robot's positions one by one and see whether it reaches $N$. But think about it: once you know where the robot starts and which way it moves each second, you can already tell which spots on the floor it will pass through. A **point** and a **direction** are enough to fix a whole line. Our job in this lesson is to turn that into equations, so we can answer questions like this without drawing at all.
 
 ## Direction and normal vectors
 
 ### Explore: the robot's positions
 
-After $t$ seconds the robot is at the point $M+t\vec{u}$. We record a few positions:
+Each second the robot adds the vector $\vec{u}$ to its position, so after $t$ seconds it is at the point $M+t\vec{u}$. Let us write down the first few positions:
 
 | $t$ (seconds) | $0$ | $1$ | $2$ | $3$ |
 |---|---|---|---|---|
 | position | $(1, 2)$ | $(3, 5)$ | $(5, 8)$ | $(7, 11)$ |
 
-These points are collinear, and the position after $t$ seconds is $(1+2t, 2+3t)$. To reach $N(9, 14)$ we need $1+2t=9$ and $2+3t=14$. Both give $t=4$, so the robot passes through $N$ after $4$ seconds.
+Notice that the $x$-coordinate keeps going up by $2$ and the $y$-coordinate by $3$, and the points all lie on one straight line. The position after $t$ seconds is $(1+2t, 2+3t)$. For the robot to reach $N(9, 14)$ we need $1+2t=9$ and $2+3t=14$. Luckily, both give $t=4$. So the robot passes through $N$ after $4$ seconds. (If the two equations gave different values of $t$, the robot would never pass through $N$.)
 
 :::graph The robot's path
 alt: A straight line through the robot's positions at t equal 0, 1, 2 and the point N(9, 14)
@@ -38,7 +38,7 @@ point: (5, 8) "t=2" right
 point: (9, 14) "N" right
 :::
 
-The vector $\vec{u}=(2, 3)$ gives the **direction** of the line. The vector $\vec{n}=(3, -2)$ is perpendicular to it, because $\vec{u}\cdot\vec{n}=2\cdot3+3\cdot(-2)=0$.
+The vector $\vec{u}=(2, 3)$ tells us the **direction** of the line. There is another way to describe that same direction: use a vector **perpendicular** to the line, such as $\vec{n}=(3, -2)$. You can check: $\vec{u}\cdot\vec{n}=2\cdot3+3\cdot(-2)=0$. Both points of view are useful, so we give each a name.
 
 :::definition Direction vector and normal vector
 - A **direction vector** of a line $\Delta$ is a vector $\vec{u}\neq\vec{0}$ that is parallel to $\Delta$ (or lies along it).
@@ -59,11 +59,11 @@ $$A(x-x_0)+B(y-y_0)=0,\ \text{ that is }\ Ax+By+C=0.$$
 
 ### Why is the general equation true?
 
-A point $M(x, y)$ lies on the line exactly when $\overrightarrow{M_0M}=(x-x_0, y-y_0)$ is perpendicular to $\vec{n}$. Two vectors are perpendicular when their scalar product is $0$:
+A formula does not come from nowhere, so let us see where this one comes from. Take any point $M(x, y)$. It lies on the line exactly when the vector $\overrightarrow{M_0M}=(x-x_0, y-y_0)$ runs along the line, that is, when it is perpendicular to $\vec{n}$. And two vectors are perpendicular when their scalar product is $0$:
 $$\vec{n}\cdot\overrightarrow{M_0M}=A(x-x_0)+B(y-y_0)=0.$$
 Conversely, in the equation $Ax+By+C=0$ the pair $(A, B)$ is a normal vector. If $B\neq 0$, solving for $y$ gives $y=-\dfrac{A}{B}x-\dfrac{C}{B}$, so the gradient is $k=-\dfrac{A}{B}$.
 
-For the robot at the start, we can now write both forms at once.
+Now back to our robot. We have everything we need to write its path in both forms.
 
 :::example From a point and a normal vector
 Write the general and the parametric equations of the line through $M(1, 2)$ with normal vector $\vec{n}=(3, -2)$.
@@ -81,7 +81,7 @@ So the line has general equation $3x-2y+1=0$ and parametric equations $\begin{ca
 
 ## The line through two points
 
-When we only know two points, we make the direction ourselves: the vector joining them is a direction vector.
+Often a question gives no vector at all, only two points. That is fine: both points lie on the line, so the vector joining them runs along the line, and that makes it a direction vector.
 
 :::graph The line through $A$ and $B$
 alt: A line with positive gradient through A(1, 3) and B(4, 9)
@@ -108,7 +108,7 @@ So the line $AB$ is $2x-y+1=0$, with gradient $k=2$.
 
 ## Converting and drawing lines
 
-To draw a line given in general form, the quickest way is to find where it meets the two axes.
+To draw a line you only need two of its points. With a general equation, the easiest two are usually where the line crosses the axes: put $y=0$, then $x=0$, and you are done.
 
 :::example Intercepts with the axes
 Draw the line $2x+3y-6=0$ and find its gradient.
@@ -131,7 +131,7 @@ point: (3, 0) "(3, 0)" above-right
 point: (0, 2) "(0, 2)" above-right
 :::
 
-The opposite direction is common too: from parametric equations we read off a point and a direction vector.
+The opposite direction comes up often too. Parametric equations already tell us a point and a direction vector; we just read them off and rewrite.
 
 :::example From parametric to general
 Convert $\begin{cases}x=1+2t\\ y=-1+3t\end{cases}$ to a general equation.
@@ -145,7 +145,7 @@ So the general equation is $3x-2y-5=0$.
 
 ## Parallel and perpendicular lines
 
-A line parallel to $Ax+By+C=0$ has the same normal vector, so it has the form $Ax+By+C'=0$ with $C'\neq C$. A line perpendicular to it takes the old direction vector $(B, -A)$ as its normal vector, so it has the form $Bx-Ay+C''=0$.
+Parallel lines point the same way, so they can share a normal vector. That is why a line parallel to $Ax+By+C=0$ has the form $Ax+By+C'=0$ with $C'\neq C$. A perpendicular line works the other way round: the old direction vector $(B, -A)$ becomes the new normal vector, so the line has the form $Bx-Ay+C''=0$. Either way, only the constant term is left to find.
 
 :::example Parallel and perpendicular
 Write the equation of the line through $P(2, -1)$ that is a) parallel, b) perpendicular to $3x-4y+5=0$.
@@ -157,7 +157,7 @@ $$\begin{aligned} \text{a) }& 3x-4y+C'=0,\ \ 3\cdot2-4\cdot(-1)+C'=0\Rightarrow 
 So the parallel line is $3x-4y-10=0$ and the perpendicular line is $4x+3y-5=0$.
 :::
 
-The last example uses a perpendicular line in a real situation: finding a place at the same distance from two points.
+The last example shows how all this is used in real life: choosing where to build something so that it is fair to two places.
 
 :::example A pumping station equidistant from two villages
 On a map (units: km), two villages are at $A(1, 1)$ and $B(5, 3)$, and a canal runs along the $x$-axis. A pumping station must be built on the canal at the same distance from both villages. Find its position.
@@ -199,6 +199,8 @@ So the pumping station is at the point $(4, 0)$.
 - General: $A(x-x_0)+B(y-y_0)=0$, that is $Ax+By+C=0$.
 - Gradient $k=-\dfrac{A}{B}$ (when $B\neq 0$). Quick drawing: find the intercepts with both axes.
 - Parallel: keep $(A, B)$. Perpendicular: change $(A, B)$ to $(B, -A)$.
+
+If you remember only one thing, remember the robot: a point and a direction are enough to know a whole line. Every form of the equation above is just a different way of writing that down.
 
 ## Practice
 

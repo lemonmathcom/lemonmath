@@ -3,7 +3,7 @@ title: Why learn maths with printed sheets?
 description: Working on paper without looking at the answers, then redoing it a few days later, helps you focus, remember longer and understand more deeply. Here is why, and how.
 ---
 
-Every Lemonmath lesson has an A4 **self-study sheet** you can print. Not because screens are bad, but because a sheet of paper makes it easy to do exactly what memory research shows works best: recall on your own, write every step, and come back a few days later.
+Every Lemonmath lesson has an A4 **self-study sheet** you can print. We do not think screens are bad. A sheet of paper simply makes it easy to do what memory research shows helps most: recall on your own, write out every step, and come back to it a few days later. Anyone who has sat alone with a question sheet and a pen will remember the feeling: that is when you really think.
 
 ## Three reasons backed by research
 

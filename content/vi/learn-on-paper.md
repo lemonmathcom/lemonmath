@@ -3,7 +3,7 @@ title: Vì sao nên học toán bằng phiếu in?
 description: Tự làm trên giấy, không nhìn lời giải, rồi làm lại sau vài ngày giúp tập trung hơn, nhớ lâu hơn và hiểu sâu hơn. Đây là lí do và cách dùng phiếu.
 ---
 
-Mỗi bài học trên Lemonmath có một **phiếu tự học** khổ A4 để in ra. Lí do không phải vì màn hình là xấu. Lí do là tờ giấy giúp học sinh làm đúng những việc mà nghiên cứu về trí nhớ cho thấy là hiệu quả nhất: tự nhớ lại, viết từng bước, và làm lại sau vài ngày.
+Mỗi bài học trên Lemonmath có một **phiếu tự học** khổ A4 để in ra. Chúng tôi không nghĩ màn hình là xấu. Chỉ là tờ giấy giúp học sinh làm đúng những việc mà các nghiên cứu về trí nhớ cho thấy có ích nhất: tự nhớ lại, viết ra từng bước, và vài ngày sau làm lại. Ai từng đi học chắc cũng nhớ cảm giác ngồi một mình với tờ đề và cây bút: đó là lúc mình thật sự nghĩ.
 
 ## Ba lí do có nghiên cứu ủng hộ
 

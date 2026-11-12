@@ -1,25 +1,31 @@
 ---
 title: Giới thiệu Lemonmath
-description: Lemonmath cung cấp bài học toán miễn phí, từng bước, lớp 1–12 theo chương trình quốc gia của Việt Nam, song ngữ Việt – Anh.
+description: Lemonmath là những bài học toán miễn phí lớp 1–12, giảng từng bước như một thầy cô ngồi cạnh, theo chương trình Việt Nam, có cả tiếng Việt và tiếng Anh.
 ---
 
 ## Lemonmath là gì?
 
-Lemonmath là website miễn phí gồm những bài học toán rõ ràng, đi từng bước, dành cho học sinh từ lớp 1 đến lớp 12. Các bài học bám theo nội dung và thứ tự của chương trình môn Toán quốc gia (Chương trình giáo dục phổ thông 2018, theo bộ sách *Kết nối tri thức*), và trang nào cũng có cả **tiếng Việt** lẫn **English**.
+Lemonmath bắt đầu từ một mong muốn rất giản dị: học sinh nào cũng có một người giảng bài kiên nhẫn ngồi cạnh, giảng chậm, giảng đến khi hiểu thì thôi. Không phải em nào cũng có điều đó ở nhà, nên chúng tôi viết những bài học như thế và để chúng ở đây, miễn phí.
+
+Các bài học đi từ lớp 1 đến lớp 12, theo đúng nội dung và thứ tự của chương trình môn Toán hiện hành (Chương trình giáo dục phổ thông 2018, bám theo bộ sách *Kết nối tri thức*). Trang nào cũng có bản **tiếng Việt** và bản **English**, cùng một nội dung, cùng một số liệu.
 
 ## Hiện đã có gì?
 
-- **Lớp 10** đã hoàn chỉnh: chín chương và 27 bài học, mỗi bài có ví dụ giải chi tiết, hình minh hoạ, thuật ngữ và bài luyện tập kèm lời giải đầy đủ.
-- **Lớp 1–9, 11 và 12** hiện có lộ trình các chương. Bài học sẽ được bổ sung dần.
+- **Lớp 9, lớp 10 và lớp 12** đã có đủ bài học cho cả năm.
+- **Tiểu học (lớp 1–5)** đã có nhiều bài, mỗi bài kèm phiếu tự học để in.
+- **Lớp 6, 7, 8 và 11** đang được viết dần, mỗi tuần thêm một ít.
+- **Ôn thi**: lộ trình ôn thi vào 10, tốt nghiệp THPT, SAT, ACT, AP và IB.
 
-## Các bài học được viết như thế nào?
+## Chúng tôi viết bài học như thế nào?
 
-Mỗi bài đều đi theo một trình tự: hình vẽ hoặc ví dụ nhỏ, rồi ý tưởng bằng lời giản dị, rồi quy tắc, rồi ví dụ giải chi tiết, cuối cùng là luyện tập. Văn bản là nội dung gốc, không sao chép từ sách giáo khoa nào. Chương trình thuộc về Bộ Giáo dục và Đào tạo, còn *Kết nối tri thức* là bộ sách của nhà xuất bản tương ứng. Lemonmath không có quan hệ trực thuộc với hai đơn vị này.
+Mỗi bài đi theo cách một thầy cô vẫn dạy trên lớp. Bắt đầu từ một tình huống quen thuộc hay một câu hỏi nhỏ. Cùng nhau làm thử vài trường hợp để thấy quy luật hiện ra. Hiểu vì sao rồi mới viết thành quy tắc. Sau đó là ví dụ giải chi tiết, những lỗi hay gặp, và bài luyện tập có lời giải trình bày đầy đủ như trong vở.
+
+Toàn bộ chữ trong bài là do Lemonmath tự viết, không chép từ sách giáo khoa nào. Chương trình môn Toán là của Bộ Giáo dục và Đào tạo; *Kết nối tri thức* là bộ sách của nhà xuất bản. Lemonmath không liên kết với hai đơn vị này.
 
 ## Tiến độ học của bạn
 
-Khi bạn bấm "Đánh dấu đã học xong", bài học chỉ được ghi nhớ trên thiết bị của bạn. Chúng tôi không nhận bất kỳ dữ liệu nào và bạn không cần tạo tài khoản.
+Khi bạn bấm "Đánh dấu đã học xong", bài học chỉ được ghi nhớ trên chính thiết bị của bạn. Chúng tôi không nhận dữ liệu nào, và bạn cũng không cần tạo tài khoản.
 
-## Phát hiện lỗi?
+## Thấy chỗ chưa đúng?
 
-Chúng tôi rất muốn biết. Xin hãy [báo lỗi tại đây](https://github.com/lemonmathcom/lemonmath/issues), cho biết tên bài học và chỗ nào có vẻ chưa đúng.
+Người viết nào cũng có lúc nhầm, và chúng tôi rất cảm ơn khi được chỉ ra. Bạn hãy [báo lỗi tại đây](https://github.com/lemonmathcom/lemonmath/issues), ghi tên bài học và chỗ bạn thấy chưa ổn.

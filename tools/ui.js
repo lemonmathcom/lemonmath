@@ -55,19 +55,19 @@ const UI = {
       high: ['Upper secondary', 'Grades 10–12 · THPT']
     },
     homeTitle: 'Lemonmath: free math lessons for grades 1–12, in English and Vietnamese',
-    homeDesc: 'Free step-by-step math lessons following Vietnam’s national curriculum for grades 1–12, in English and Vietnamese. The complete Grade 10 course is ready.',
+    homeDesc: 'Free maths lessons for grades 1–12, explained step by step the way a patient teacher would, following Vietnam’s curriculum, in English and Vietnamese.',
     eyebrow: 'Free math lessons · English & Tiếng Việt',
     h1: 'Math, one small step at a time.',
-    lead: 'Clear lessons with worked examples, pictures and practice problems with full solutions. They follow Vietnam’s grade 1–12 curriculum, in English and Vietnamese.',
+    lead: 'Each lesson starts from something you already know, explains why the idea works, then walks you through examples and practice with full solutions. Grades 1–12, Vietnam’s curriculum, in English and Vietnamese.',
     startG10: 'Start with Grade 10',
     browse: 'Browse all grades',
     pickGrade: 'Pick your grade',
-    why: 'Why you will like it',
+    why: 'How we teach',
     features: [
-      ['star', 'Step by step', 'Every idea starts with a picture or a simple example, then the rule, then more examples.'],
-      ['globe', 'Two languages', 'Read the same lesson in English or Tiếng Việt and switch with one click.'],
-      ['equation', 'Practice with solutions', 'Each lesson ends with graded exercises. Open a solution only when you are ready.'],
-      ['chart', 'Keeps your progress', 'Tick off lessons as you finish them. Your progress stays on your own device.']
+      ['star', 'Reason first, rule second', 'We start from a picture or a small example, let you see the pattern, and only then write the rule down.'],
+      ['globe', 'Two languages, one lesson', 'Read in Vietnamese to understand, switch to English to learn the words. Same lesson, same numbers.'],
+      ['equation', 'Practice, then check', 'Try each exercise on your own first. The solution is written out in full, step by step, for when you want to check.'],
+      ['chart', 'Your progress, your device', 'Tick off a lesson when you have finished it. Nothing is sent anywhere and you do not need an account.']
     ],
     featuredG10: 'Grade 10: the complete course',
     gradeTitle: (n) => 'Grade ' + n + ' maths: Vietnam curriculum lessons',
@@ -75,7 +75,7 @@ const UI = {
     gradeRoadmapLead: (c) => 'The roadmap: ' + c + ' chapters in the Vietnamese curriculum.',
     gradeFullDesc: (n, l, c) => 'Grade ' + n + ' maths in English: ' + c + ' chapters and ' + l + ' lessons with worked examples, pictures and practice, following Vietnam’s curriculum.',
     gradeRoadmapDesc: (n, c) => 'Roadmap of the ' + c + ' chapters of Grade ' + n + ' maths in Vietnam’s curriculum. Lessons are coming soon.',
-    soonNote: 'The lessons for this grade are being written.',
+    soonNote: 'The lessons for this grade are being written, a few more every week.',
     tryG10: 'Try the complete Grade 10 course',
     chapterTitle: (c, t, g) => 'Chapter ' + c + ': ' + t + ' | Grade ' + g,
     chapterDescTail: (g) => 'Grade ' + g + ' maths lessons.'
@@ -132,19 +132,19 @@ const UI = {
       high: ['Trung học phổ thông', 'Lớp 10–12 · Upper secondary']
     },
     homeTitle: 'Lemonmath: bài học toán miễn phí lớp 1–12, song ngữ Anh – Việt',
-    homeDesc: 'Bài học toán từng bước, miễn phí, theo chương trình toán lớp 1–12 của Việt Nam, song ngữ Việt – Anh. Đã có đầy đủ khoá học Toán lớp 10.',
+    homeDesc: 'Bài học toán miễn phí lớp 1–12, giảng từng bước như một thầy cô kiên nhẫn ngồi cạnh, theo chương trình Việt Nam, có cả tiếng Việt và tiếng Anh.',
     eyebrow: 'Học toán miễn phí · Tiếng Việt & English',
     h1: 'Học toán từng bước nhỏ, nhẹ nhàng như vắt một quả chanh.',
-    lead: 'Bài giảng rõ ràng, có ví dụ giải chi tiết, hình minh hoạ và bài luyện tập kèm lời giải. Bám sát chương trình toán lớp 1–12 của Việt Nam, có cả tiếng Việt và tiếng Anh.',
+    lead: 'Mỗi bài bắt đầu từ điều bạn đã biết, giải thích vì sao lại như thế, rồi cùng bạn làm ví dụ và luyện tập, có lời giải đầy đủ. Lớp 1–12, theo chương trình Việt Nam, có cả tiếng Việt và tiếng Anh.',
     startG10: 'Bắt đầu với Toán lớp 10',
     browse: 'Xem tất cả các lớp',
     pickGrade: 'Chọn lớp của bạn',
-    why: 'Vì sao bạn sẽ thích',
+    why: 'Lemonmath dạy thế nào',
     features: [
-      ['star', 'Từng bước một', 'Mỗi ý tưởng bắt đầu bằng hình vẽ hoặc ví dụ đơn giản, rồi mới đến quy tắc và ví dụ nâng cao.'],
-      ['globe', 'Hai ngôn ngữ', 'Đọc cùng một bài học bằng tiếng Việt hoặc English, chuyển đổi chỉ với một cú nhấp.'],
-      ['equation', 'Luyện tập có lời giải', 'Cuối mỗi bài có bài tập từ dễ đến khó. Chỉ mở lời giải khi bạn đã sẵn sàng.'],
-      ['chart', 'Nhớ tiến độ của bạn', 'Đánh dấu những bài đã học xong. Tiến độ được lưu ngay trên thiết bị của bạn.']
+      ['star', 'Hiểu vì sao trước, nhớ quy tắc sau', 'Ta bắt đầu từ một hình vẽ hay một ví dụ nhỏ, để bạn tự nhìn ra quy luật, rồi mới viết thành quy tắc.'],
+      ['globe', 'Hai ngôn ngữ, một bài học', 'Đọc tiếng Việt để hiểu, chuyển sang tiếng Anh để quen thuật ngữ. Cùng một bài, cùng một số liệu.'],
+      ['equation', 'Tự làm trước, rồi mới xem', 'Cứ thử sức với từng bài tập trước. Lời giải được viết đầy đủ từng bước, như trong vở, để bạn đối chiếu khi cần.'],
+      ['chart', 'Tiến độ nằm trên máy của bạn', 'Học xong bài nào thì đánh dấu bài đó. Không gửi đi đâu cả, cũng không cần tạo tài khoản.']
     ],
     featuredG10: 'Toán lớp 10: khoá học đầy đủ',
     gradeTitle: (n) => 'Toán lớp ' + n + ': bài học theo chương trình mới',
@@ -152,7 +152,7 @@ const UI = {
     gradeRoadmapLead: (c) => 'Lộ trình: ' + c + ' chương trong chương trình toán của Việt Nam.',
     gradeFullDesc: (n, l, c) => 'Toán lớp ' + n + ': ' + c + ' chương, ' + l + ' bài học có ví dụ giải chi tiết, hình minh hoạ và bài tập, theo chương trình của Việt Nam.',
     gradeRoadmapDesc: (n, c) => 'Lộ trình ' + c + ' chương của môn Toán lớp ' + n + ' theo chương trình của Việt Nam. Bài học sắp ra mắt.',
-    soonNote: 'Các bài học của lớp này đang được biên soạn.',
+    soonNote: 'Các bài của lớp này đang được viết dần, mỗi tuần thêm một ít.',
     tryG10: 'Học thử khoá Toán lớp 10 đầy đủ',
     chapterTitle: (c, t, g) => 'Chương ' + c + ': ' + t + ' | Toán lớp ' + g,
     chapterDescTail: (g) => 'Bài học Toán lớp ' + g + '.'

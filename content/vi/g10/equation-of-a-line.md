@@ -13,19 +13,19 @@ minutes: 28
 
 Một robot hút bụi xuất phát tại điểm $M(1; 2)$ trên sàn nhà (đơn vị: mét). Mỗi giây nó dịch chuyển theo vectơ $\vec{u}=(2; 3)$, tức là sang phải $2$ m và lên trên $3$ m. Robot có đi qua điểm $N(9; 14)$ không, và nếu có thì sau bao nhiêu giây?
 
-Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+Bạn có thể vẽ từng vị trí của robot rồi dò xem nó có chạm $N$ không. Nhưng thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một **điểm** và một **hướng** là đủ để xác định cả một đường thẳng. Việc của ta trong bài này là viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được những câu hỏi như thế.
 
 ## Vectơ chỉ phương và vectơ pháp tuyến
 
 ### Khám phá: vị trí của robot
 
-Sau $t$ giây robot ở điểm $M+t\vec{u}$. Ta ghi vài vị trí:
+Mỗi giây robot lại cộng thêm vectơ $\vec{u}$ vào vị trí của mình, nên sau $t$ giây nó ở điểm $M+t\vec{u}$. Ta thử ghi vài vị trí đầu tiên:
 
 | $t$ (giây) | $0$ | $1$ | $2$ | $3$ |
 |---|---|---|---|---|
 | vị trí | $(1; 2)$ | $(3; 5)$ | $(5; 8)$ | $(7; 11)$ |
 
-Các điểm này thẳng hàng, và vị trí sau $t$ giây là $(1+2t; 2+3t)$. Muốn đến $N(9; 14)$ ta cần $1+2t=9$ và $2+3t=14$. Cả hai cùng cho $t=4$, nên robot đi qua $N$ sau $4$ giây.
+Bạn để ý: hoành độ cứ tăng $2$, tung độ cứ tăng $3$, và các điểm nằm trên cùng một đường thẳng. Vị trí sau $t$ giây là $(1+2t; 2+3t)$. Muốn robot đến $N(9; 14)$ thì phải có $1+2t=9$ và $2+3t=14$. Thật may, cả hai đẳng thức cùng cho $t=4$. Vậy robot đi qua $N$ sau $4$ giây. (Nếu hai đẳng thức cho hai giá trị $t$ khác nhau thì robot không bao giờ đi qua $N$.)
 
 :::graph Đường đi của robot
 alt: Đường thẳng đi qua các vị trí của robot tại t bằng 0, 1, 2 và điểm N(9; 14)
@@ -38,7 +38,7 @@ point: (5, 8) "t=2" right
 point: (9, 14) "N" right
 :::
 
-Vectơ $\vec{u}=(2; 3)$ cho **hướng** của đường thẳng. Vectơ $\vec{n}=(3; -2)$ vuông góc với nó, vì $\vec{u}\cdot\vec{n}=2\cdot3+3\cdot(-2)=0$.
+Vectơ $\vec{u}=(2; 3)$ cho ta biết **hướng** của đường thẳng. Có một cách khác cũng mô tả được hướng ấy: dùng một vectơ **vuông góc** với đường thẳng, chẳng hạn $\vec{n}=(3; -2)$. Bạn có thể kiểm tra: $\vec{u}\cdot\vec{n}=2\cdot3+3\cdot(-2)=0$. Hai cách nhìn này đều có ích, nên ta đặt tên cho cả hai.
 
 :::definition Vectơ chỉ phương và vectơ pháp tuyến
 - **Vectơ chỉ phương** của đường thẳng $\Delta$ là vectơ $\vec{u}\neq\vec{0}$ có giá song song hoặc trùng với $\Delta$.
@@ -59,11 +59,11 @@ $$A(x-x_0)+B(y-y_0)=0,\ \text{ tức là }\ Ax+By+C=0.$$
 
 ### Vì sao phương trình tổng quát đúng?
 
-Điểm $M(x; y)$ thuộc đường thẳng khi và chỉ khi $\overrightarrow{M_0M}=(x-x_0; y-y_0)$ vuông góc với $\vec{n}$. Hai vectơ vuông góc khi tích vô hướng bằng $0$:
+Công thức không tự nhiên mà có, nên ta xem nó từ đâu ra. Lấy một điểm $M(x; y)$ bất kì. Điểm $M$ nằm trên đường thẳng khi và chỉ khi vectơ $\overrightarrow{M_0M}=(x-x_0; y-y_0)$ chạy dọc theo đường thẳng, tức là vuông góc với $\vec{n}$. Mà hai vectơ vuông góc khi tích vô hướng của chúng bằng $0$:
 $$\vec{n}\cdot\overrightarrow{M_0M}=A(x-x_0)+B(y-y_0)=0.$$
 Ngược lại, trong phương trình $Ax+By+C=0$ thì $(A; B)$ là một vectơ pháp tuyến. Nếu $B\neq 0$, giải theo $y$ được $y=-\dfrac{A}{B}x-\dfrac{C}{B}$, nên hệ số góc là $k=-\dfrac{A}{B}$.
 
-Với robot ở đầu bài, ta viết được ngay cả hai dạng.
+Bây giờ quay lại với chú robot. Ta đã có đủ thứ để viết đường đi của nó theo cả hai dạng.
 
 :::example Từ một điểm và một vectơ pháp tuyến
 Viết phương trình tổng quát và phương trình tham số của đường thẳng đi qua $M(1; 2)$ với vectơ pháp tuyến $\vec{n}=(3; -2)$.
@@ -81,7 +81,7 @@ Vậy đường thẳng có phương trình tổng quát $3x-2y+1=0$ và phươn
 
 ## Đường thẳng đi qua hai điểm
 
-Khi chỉ biết hai điểm, ta tự tạo ra hướng: vectơ nối hai điểm chính là một vectơ chỉ phương.
+Nhiều khi đề bài không cho sẵn vectơ nào, chỉ cho hai điểm. Không sao cả: hai điểm nằm trên đường thẳng thì vectơ nối chúng chạy dọc theo đường thẳng, nên nó chính là một vectơ chỉ phương.
 
 :::graph Đường thẳng đi qua $A$ và $B$
 alt: Đường thẳng có hệ số góc dương đi qua A(1; 3) và B(4; 9)
@@ -108,7 +108,7 @@ Vậy đường thẳng $AB$ là $2x-y+1=0$, có hệ số góc $k=2$.
 
 ## Chuyển đổi và vẽ đường thẳng
 
-Để vẽ một đường thẳng cho ở dạng tổng quát, cách nhanh nhất là tìm hai giao điểm với các trục.
+Muốn vẽ một đường thẳng, ta chỉ cần hai điểm của nó. Với phương trình tổng quát, hai điểm dễ tìm nhất thường là chỗ đường thẳng cắt hai trục toạ độ: cho $y=0$ rồi cho $x=0$ là xong.
 
 :::example Giao điểm với các trục
 Vẽ đường thẳng $2x+3y-6=0$ và tìm hệ số góc.
@@ -131,7 +131,7 @@ point: (3, 0) "(3; 0)" above-right
 point: (0, 2) "(0; 2)" above-right
 :::
 
-Chiều ngược lại cũng thường gặp: từ phương trình tham số, ta đọc ra một điểm và vectơ chỉ phương.
+Chiều ngược lại cũng hay gặp. Phương trình tham số thật ra đã "kể" sẵn cho ta một điểm và một vectơ chỉ phương; ta chỉ việc đọc ra rồi viết lại.
 
 :::example Từ tham số sang tổng quát
 Chuyển $\begin{cases}x=1+2t\\ y=-1+3t\end{cases}$ về phương trình tổng quát.
@@ -145,7 +145,7 @@ Vậy phương trình tổng quát là $3x-2y-5=0$.
 
 ## Đường thẳng song song và vuông góc
 
-Đường thẳng song song với $Ax+By+C=0$ có cùng vectơ pháp tuyến, nên có dạng $Ax+By+C'=0$ với $C'\neq C$. Đường thẳng vuông góc với nó nhận vectơ chỉ phương $(B; -A)$ của đường thẳng cũ làm vectơ pháp tuyến, nên có dạng $Bx-Ay+C''=0$.
+Hai đường thẳng song song thì "cùng hướng", nên chúng dùng chung được vectơ pháp tuyến. Vì vậy đường thẳng song song với $Ax+By+C=0$ có dạng $Ax+By+C'=0$ với $C'\neq C$. Còn đường thẳng vuông góc thì ngược lại: vectơ chỉ phương $(B; -A)$ của đường thẳng cũ trở thành vectơ pháp tuyến của đường thẳng mới, nên nó có dạng $Bx-Ay+C''=0$. Trong cả hai trường hợp, ta chỉ còn phải tìm hệ số tự do.
 
 :::example Song song và vuông góc
 Viết phương trình đường thẳng đi qua $P(2; -1)$ và a) song song, b) vuông góc với $3x-4y+5=0$.
@@ -157,7 +157,7 @@ $$\begin{aligned} \text{a) }& 3x-4y+C'=0,\ \ 3\cdot2-4\cdot(-1)+C'=0\Rightarrow 
 Vậy đường thẳng song song là $3x-4y-10=0$ và đường thẳng vuông góc là $4x+3y-5=0$.
 :::
 
-Ví dụ cuối dùng đường thẳng vuông góc trong một tình huống thực tế: tìm vị trí cách đều hai điểm.
+Ví dụ cuối cho thấy những điều vừa học dùng được ngoài đời ra sao: chọn chỗ đặt một công trình sao cho công bằng với hai nơi.
 
 :::example Trạm bơm cách đều hai làng
 Trên một bản đồ (đơn vị: km), hai làng ở $A(1; 1)$ và $B(5; 3)$, còn một con kênh chạy dọc trục hoành. Cần đặt một trạm bơm trên kênh, cách đều hai làng. Tìm vị trí trạm bơm.
@@ -199,6 +199,8 @@ Vậy trạm bơm đặt tại điểm $(4; 0)$.
 - Tổng quát: $A(x-x_0)+B(y-y_0)=0$, tức $Ax+By+C=0$.
 - Hệ số góc $k=-\dfrac{A}{B}$ (khi $B\neq 0$). Vẽ nhanh: tìm giao điểm với hai trục.
 - Song song: giữ $(A; B)$. Vuông góc: đổi $(A; B)$ thành $(B; -A)$.
+
+Nếu chỉ nhớ một điều, hãy nhớ câu hỏi ở đầu bài: một điểm và một hướng là đủ để biết cả một đường thẳng. Mọi dạng phương trình ở trên chỉ là những cách khác nhau để viết lại điều đó.
 
 ## Luyện tập
 
