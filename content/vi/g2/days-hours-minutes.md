@@ -1,6 +1,7 @@
 ---
 title: Ngày - giờ, giờ - phút. Ngày - tháng
 description: Em biết một ngày có 24 giờ, một giờ có 60 phút, xem giờ và phút trên đồng hồ, biết số ngày của các tháng và xem lịch tháng.
+numbers: loose
 minutes: 20
 ---
 

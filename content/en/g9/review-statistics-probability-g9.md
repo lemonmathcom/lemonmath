@@ -55,7 +55,7 @@ When the data has many different values (heights, weights, times), we divide it 
 :::example A grouped frequency table
 Suppose the heights (in cm) of $40$ students are recorded in this table:
 
-| Group | $[145,150)$ | $[150,155)$ | $[155,160)$ | $[160,165)$ | $[165,170)$ |
+| Group | $[145, 150)$ | $[150, 155)$ | $[155, 160)$ | $[160, 165)$ | $[165, 170)$ |
 |---|---|---|---|---|---|
 | Frequency | $4$ | $10$ | $14$ | $9$ | $3$ |
 
@@ -65,11 +65,11 @@ a) Find the relative frequency of each group. b) Which group has the most studen
 
 a) The total frequency is $4+10+14+9+3=40$. The relative frequencies are $\dfrac4{40}=10\%$; $\dfrac{10}{40}=25\%$; $\dfrac{14}{40}=35\%$; $\dfrac9{40}=22.5\%$; $\dfrac3{40}=7.5\%$. They add up to $100\%$.
 
-b) The group $[155,160)$ has the greatest frequency ($14$ students).
+b) The group $[155, 160)$ has the greatest frequency ($14$ students).
 
 c) The number of students shorter than $160$ cm is $4+10+14=28$, which is $\dfrac{28}{40}=70\%$.
 
-**Answer.** a) $10\%$; $25\%$; $35\%$; $22.5\%$; $7.5\%$. b) The group $[155,160)$. c) $70\%$.
+**Answer.** a) $10\%$; $25\%$; $35\%$; $22.5\%$; $7.5\%$. b) The group $[155, 160)$. c) $70\%$.
 :::
 
 ### Pie charts
@@ -92,7 +92,7 @@ Check: $25+40+20+15=100\%$ and $90^\circ+144^\circ+72^\circ+54^\circ=360^\circ$.
 
 ### Explore: rolling a die
 
-Roll a fair die; every face is equally likely to come up. The **sample space** is the set of all possible outcomes: $\Omega=\{1,2,3,4,5,6\}$, which has $6$ outcomes. The event "the number of dots is even" happens when the outcome is $2$, $4$ or $6$. These are $3$ **favourable outcomes** out of $6$ possible outcomes, so the chance of it happening is $\dfrac36=\dfrac12$.
+Roll a fair die; every face is equally likely to come up. The **sample space** is the set of all possible outcomes: $\Omega=\{1,2, 3, 4, 5, 6\}$, which has $6$ outcomes. The event "the number of dots is even" happens when the outcome is $2$, $4$ or $6$. These are $3$ **favourable outcomes** out of $6$ possible outcomes, so the chance of it happening is $\dfrac36=\dfrac12$.
 
 :::definition Probability of an event
 If an experiment has $n$ possible, equally likely outcomes, and an event $A$ has $k$ favourable outcomes, then the **probability** of $A$ is
@@ -137,9 +137,9 @@ d) The event $D$ is the complement of "the number of dots is $6$", so $P(D)=1-\d
 
 *Solve.*
 
-a) ($0.5$ marks) The sample space consists of the pairs $(a,b)$ with $a,b\in\{1,2,3,4\}$. There are $4\cdot4=16$ equally likely outcomes.
+a) ($0.5$ marks) The sample space consists of the pairs $(a,b)$ with $a,b\in\{1,2, 3, 4\}$. There are $4\cdot4=16$ equally likely outcomes.
 
-b) ($0.5$ marks) The pairs with sum $5$ are $(1,4)$, $(2,3)$, $(3,2)$, $(4,1)$, that is $4$ favourable outcomes. So $P(A)=\dfrac4{16}=\dfrac14$.
+b) ($0.5$ marks) The pairs with sum $5$ are $(1, 4)$, $(2, 3)$, $(3, 2)$, $(4, 1)$, that is $4$ favourable outcomes. So $P(A)=\dfrac4{16}=\dfrac14$.
 
 c) ($0.5$ marks) The complementary event $\overline B$: "the product of the two numbers is odd" happens when both numbers are odd, that is each number is in $\{1,3\}$. There are $2\cdot2=4$ favourable outcomes, so $P(\overline B)=\dfrac4{16}=\dfrac14$. So $P(B)=1-\dfrac14=\dfrac34$.
 
@@ -162,7 +162,7 @@ So the experimental probability is $0.48$, close to the theoretical probability 
 
 :::warning Common mistakes
 - **Confusing frequency with relative frequency.** Wrong: saying "the mark $8$ makes up $6\%$ of the students" because the frequency is $6$. Why it is wrong: $6$ is a number of students, and a percentage must be divided by the total $20$. Right: $\dfrac6{20}=30\%$.
-- **Missing a group or confusing the ends of a group.** Wrong: putting a height of $160$ cm in the group $[155,160)$. Why it is wrong: the half-open interval $[155,160)$ does not contain $160$. Right: $160$ belongs to the group $[160,165)$.
+- **Missing a group or confusing the ends of a group.** Wrong: putting a height of $160$ cm in the group $[155, 160)$. Why it is wrong: the half-open interval $[155, 160)$ does not contain $160$. Right: $160$ belongs to the group $[160, 165)$.
 - **A probability greater than $1$ or negative.** Wrong: finding $P=\dfrac{6}{4}$. Why it is wrong: the number of favourable outcomes cannot be greater than the number of possible outcomes. Right: $0\leq P\leq1$, so check the counting again.
 - **Counting too few outcomes in the sample space.** Wrong: for two draws with replacement from $4$ cards, thinking there are $4$ or $8$ outcomes. Why it is wrong: each draw has $4$ ways, so there are $4\cdot4=16$ pairs. Right: list the table of pairs before counting.
 - **Forgetting that theoretical probability needs equally likely outcomes.** Wrong: "tomorrow it either rains or it does not, so the probability of rain is $\dfrac12$". Why it is wrong: these two outcomes are not equally likely. Right: use $\dfrac kn$ only when the outcomes are equally likely; otherwise use experimental probability.
@@ -223,7 +223,7 @@ The relative frequencies are $\dfrac2{20}=10\%$; $\dfrac4{20}=20\%$; $\dfrac8{20
 :::exercise
 The weights (in kg) of $50$ students are recorded in this table:
 
-| Group | $[40,45)$ | $[45,50)$ | $[50,55)$ | $[55,60)$ | $[60,65)$ |
+| Group | $[40, 45)$ | $[45, 50)$ | $[50, 55)$ | $[55, 60)$ | $[60, 65)$ |
 |---|---|---|---|---|---|
 | Frequency | $5$ | $15$ | $20$ | $8$ | $2$ |
 
@@ -237,9 +237,9 @@ Find the relative frequency of each group. Which group has the greatest relative
 2. Add the groups with weight less than $55$ kg.
 
 ::solution
-$N=5+15+20+8+2=50$. The relative frequencies are $10\%$; $30\%$; $40\%$; $16\%$; $4\%$. The group $[50,55)$ has the greatest relative frequency. The number of students weighing less than $55$ kg is $5+15+20=40$, which is $\dfrac{40}{50}=80\%$.
+$N=5+15+20+8+2=50$. The relative frequencies are $10\%$; $30\%$; $40\%$; $16\%$; $4\%$. The group $[50, 55)$ has the greatest relative frequency. The number of students weighing less than $55$ kg is $5+15+20=40$, which is $\dfrac{40}{50}=80\%$.
 
-**Answer.** $10\%$; $30\%$; $40\%$; $16\%$; $4\%$; the group $[50,55)$; $80\%$.
+**Answer.** $10\%$; $30\%$; $40\%$; $16\%$; $4\%$; the group $[50, 55)$; $80\%$.
 :::
 
 :::exercise
@@ -279,11 +279,11 @@ d) $D$: "the sum of the dots is even".
 ::solution
 The sample space has $36$ outcomes.
 
-a) Sum $8$: $(2,6)$, $(3,5)$, $(4,4)$, $(5,3)$, $(6,2)$, which is $5$ outcomes, so $P(A)=\dfrac5{36}$.
+a) Sum $8$: $(2, 6)$, $(3, 5)$, $(4, 4)$, $(5, 3)$, $(6, 2)$, which is $5$ outcomes, so $P(A)=\dfrac5{36}$.
 
 b) A sum less than $5$ means $2$, $3$ or $4$, which gives $1+2+3=6$ outcomes, so $P(B)=\dfrac6{36}=\dfrac16$.
 
-c) There are $6$ outcomes $(1,1)$, $(2,2)$, …, $(6,6)$, so $P(C)=\dfrac6{36}=\dfrac16$.
+c) There are $6$ outcomes $(1, 1)$, $(2, 2)$, …, $(6, 6)$, so $P(C)=\dfrac6{36}=\dfrac16$.
 
 d) The sum is even when both numbers are even or both are odd: $3\cdot3+3\cdot3=18$ outcomes, so $P(D)=\dfrac{18}{36}=\dfrac12$.
 
@@ -436,5 +436,5 @@ $P=\dfrac3{10}=30\%$.
 ::sa
 Two fair dice are rolled. How many outcomes give a sum of $8$?
 ::key 5
-The pairs are $(2,6)$, $(3,5)$, $(4,4)$, $(5,3)$, $(6,2)$.
+The pairs are $(2, 6)$, $(3, 5)$, $(4, 4)$, $(5, 3)$, $(6, 2)$.
 :::

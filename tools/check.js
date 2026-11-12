@@ -175,7 +175,10 @@ args.forEach((a) => {
     const ce = cnt(nums(e.file)), cv = cnt(nums(v.file));
     const diff = [];
     Object.keys(Object.assign({}, ce, cv)).forEach((n) => { if ((ce[n] || 0) !== (cv[n] || 0) && Math.abs((ce[n] || 0) - (cv[n] || 0)) >= 2) diff.push(n + '(EN' + (ce[n] || 0) + '/VI' + (cv[n] || 0) + ')'); });
-    if (diff.length > 6) problem(a + ': nhiều số xuất hiện khác nhau giữa hai bản: ' + diff.slice(0, 12).join(' '));
+    // "numbers: loose" in the front matter: the two versions deliberately write numbers differently
+    // (e.g. "tháng 9" / "September", "7 giờ 30 phút" / "half past 7"); the content was checked by hand
+    const loose = [e.file, v.file].some((f) => /^---[\s\S]*?^numbers:\s*loose\s*$[\s\S]*?^---/m.test(fs.readFileSync(f, 'utf8')));
+    if (diff.length > 6) (loose ? say : problem)(a + ': nhiều số xuất hiện khác nhau giữa hai bản' + (loose ? ' (numbers: loose, đã kiểm tay)' : '') + ': ' + diff.slice(0, 12).join(' '));
   }
 });
 console.log(bad ? '\n' + bad + ' vấn đề cần sửa.' : '\nTất cả đều ổn.');

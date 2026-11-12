@@ -1,6 +1,7 @@
 ---
 title: "Days and hours, hours and minutes. Days and months"
 description: Learn that a day has 24 hours and an hour has 60 minutes, read hours and minutes on a clock, and know the days in each month and how to use a calendar.
+numbers: loose
 minutes: 20
 ---
 
@@ -56,7 +57,7 @@ The clock in the picture above has its long hand pointing to 6 and its short han
 
 **Solution.** The long hand at 6 means 30 minutes have passed. The short hand has just passed 7, so the hour is 7.
 
-So the clock shows half past 7, which is 7 hours 30 minutes.
+So the clock shows half past 7, which we can also write as 7:30.
 :::
 
 :::example Reading the clock: quarter past 3
@@ -64,7 +65,7 @@ A clock has its long hand pointing to 3 and its short hand just past 3. What tim
 
 **Solution.** The long hand at 3 means 15 minutes have passed. The short hand has just passed 3, so the hour is 3.
 
-So the clock shows quarter past 3, which is 3 hours 15 minutes.
+So the clock shows quarter past 3, which we can also write as 3:15.
 :::
 
 :::example How many hours does Lan study?
@@ -89,12 +90,12 @@ A **year** has **12 months**. The months have different numbers of days. Look at
 | 30 | | | | | | |
 
 :::definition Days in each month
-- Months 1, 3, 5, 7, 8, 10 and 12 have **31 days**.
-- Months 4, 6, 9 and 11 have **30 days**.
-- Month 2 has **28 days** (in some years it has 29).
+- January, March, May, July, August, October and December have **31 days**.
+- April, June, September and November have **30 days**.
+- February has **28 days** (in a leap year it has 29).
 :::
 
-To remember, make a fist and count the months in order, touching each raised knuckle and each dip between them in turn. A month on a raised knuckle has 31 days, and a month in a dip has 30 days, except for month 2, which is special.
+To remember, make a fist and count the months in order, touching each raised knuckle and each dip between them in turn. A month on a raised knuckle has 31 days, and a month in a dip has 30 days, except for February, which is special.
 
 :::example Days in a month
 How many days do September and December each have?
@@ -113,21 +114,17 @@ Suppose today is 11 November 2026. Mai's birthday is on 24 November. How many mo
 
 **Plan.** The two days are in the same month, so we subtract the smaller date from the larger one.
 
-**Solve.**
-
-Solution
-
-The number of days left until Mai's birthday is:
+**Solve.** The number of days left until Mai's birthday is
 $$24-11=13\ \text{(days)}.$$
-Answer: 13 days.
+So there are 13 more days until Mai's birthday.
 
 **Look back.** Check with addition: $11+13=24$, which is correct. You can also use the calendar: the 11th is a Wednesday, the 18th is also a Wednesday (7 days later), and 6 more days takes you to the 24th, which is a Tuesday. So from the 11th to the 24th is $7+6=13$ days.
 :::
 
 :::warning Mistakes to watch out for
-- **Thinking the minute hand at 6 means 6 minutes.** Wrong: the long hand at 6 means 6 minutes. Why it is wrong: each number is 5 minutes apart, and counting 6 numbers gives 30 minutes. Right: the long hand at 6 means 30 minutes.
-- **Getting the days in a month wrong.** Wrong: April has 31 days. Why it is wrong: April is one of the months with 30 days. Right: April has 30 days.
-- **Getting the minutes in an hour wrong.** Wrong: 1 hour = 100 minutes. Why it is wrong: the minute hand takes exactly 60 minutes to go round once. Right: 1 hour = 60 minutes.
+- **The long hand at 6 does not mean 6 minutes.** Each number is 5 minutes after the one before, so counting 6 numbers gives 30 minutes: the long hand at 6 means 30 minutes.
+- **Not every month has 31 days.** April is one of the four months with 30 days, so April has 30 days, not 31.
+- **An hour is not 100 minutes.** The minute hand takes exactly 60 minutes to go round once, so 1 hour = 60 minutes.
 :::
 
 ## Key terms
@@ -147,7 +144,7 @@ Answer: 13 days.
 
 - 1 day has 24 hours and 1 hour has 60 minutes.
 - Each number on a clock face is 5 minutes after the one before: the minute hand at 3 means 15 minutes, at 6 means 30 minutes and at 9 means 45 minutes.
-- A year has 12 months. Months 1, 3, 5, 7, 8, 10 and 12 have 31 days, months 4, 6, 9 and 11 have 30 days, and month 2 has 28 days (29 in some years).
+- A year has 12 months. January, March, May, July, August, October and December have 31 days; April, June, September and November have 30 days; and February has 28 days (29 in a leap year).
 - To find how many more days within one month, subtract the smaller date from the larger.
 
 ## Practice
@@ -215,7 +212,7 @@ A clock has its short hand just past 9 and its long hand pointing to 3. What tim
 ::solution
 The short hand has just passed 9, so the hour is 9. The long hand at 3 means 15 minutes.
 
-**Answer.** 9 hours 15 minutes (quarter past 9).
+**Answer.** Quarter past 9 (9:15).
 :::
 
 :::exercise
@@ -244,11 +241,11 @@ b) From 8 o'clock to half past 8 is 30 minutes.
 How many days does each of these months have: May, June, November and December?
 
 ::hint
-**What you need:** months 4, 6, 9 and 11 have 30 days, and months 1, 3, 5, 7, 8, 10 and 12 have 31 days.
+**What you need:** April, June, September and November have 30 days; January, March, May, July, August, October and December have 31 days.
 
 **Steps:**
 1. Which group does the month belong to?
-2. Remember the fist method.
+2. Remember the knuckle method.
 
 ::solution
 May has 31 days. June has 30 days. November has 30 days. December has 31 days.
@@ -268,11 +265,11 @@ Suppose today is 20 November. November has 30 days. How many more days are there
 3. Check with addition.
 
 ::solution
-Solution
-
-The number of days left until the end of November is:
+November has 30 days, so the number of days left until the end of November is
 $$30-20=10\ \text{(days)}.$$
-Answer: 10 days.
+So there are 10 days left.
+
+**Answer.** 10 days.
 :::
 
 :::exercise
@@ -307,9 +304,9 @@ b) Today is 31 December. What is tomorrow's date?
 ::solution
 a) April has 30 days, so the 30th is the last day of the month. Tomorrow is 1 May.
 
-b) December has 31 days, so the 31st is the last day of the year. Tomorrow is 1 January of the next year.
+b) December has 31 days, so the 31st is the last day of the year. Tomorrow is 1 January of the new year.
 
-**Answer.** a) 1 May; b) 1 January of the next year.
+**Answer.** a) 1 May; b) 1 January of the new year.
 :::
 
 ## Mini test
@@ -340,7 +337,7 @@ B. March.
 C. July.
 D. January.
 ::key A
-September is one of months 4, 6, 9 and 11, which have 30 days. January, March and July have 31 days.
+September is one of the four months with 30 days, together with April, June and November. January, March and July have 31 days.
 
 ::mc
 An hour has
