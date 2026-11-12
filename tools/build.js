@@ -111,6 +111,8 @@ const exams = cfg.exams || [];
 const examTracks = exams.filter((e) => !e.link);
 examTracks.forEach((e) => { e.exam = true; e.n = e.id; if (!ID_RE.test(e.id)) fail('kì thi "' + e.id + '": id không hợp lệ.'); });
 const tracks = grades.concat(examTracks);
+/* Search results show about 60 characters of a title: keep the subject (what people type), drop the brand when there is no room. */
+const seoTitle = (t) => (t.length + 3 + site.name.length <= 62 ? t + ' | ' + site.name : t);
 const gName = (lang, g) => (g.exam ? g[lang] : UI[lang].grade(g.n));
 const gFolder = (g) => (g.exam ? 'exams/' + g.id : 'g' + g.n);
 const lessons = []; // only lessons that have content in both languages
@@ -478,7 +480,7 @@ function chapterPage(lang, ch) {
   const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a><span aria-hidden="true">›</span><a href="' + relDir(d, gradeDir(lang, g)) + '">' + esc(gName(lang, g)) + '</a></nav>\n' +
     '<header class="chaphead"><span class="cicon big">' + icon(ch.icon, 40) + '</span><div><p class="eyebrow">' + esc(T.chapterN(ch.number)) + '</p><h1>' + esc(ch[lang]) + '</h1><p class="lead">' + esc(ch.summary[lang]) + '</p></div></header>\n' + pageActions(lang, d) +
     '<ol class="lesson-list">\n' + items + '\n</ol>';
-  const title = (g.exam ? ch[lang] + ' | ' + g[lang] : T.chapterTitle(ch.number, ch[lang], g.n)) + ' | ' + site.name;
+  const title = seoTitle(g.exam ? ch[lang] + ' | ' + g[lang] : T.chapterTitle(ch.number, ch[lang], g.n));
   put(lang, d, alt, shell({
     lang, dir: d, altDir: alt, title, description: clip(ch.summary[lang] + ' ' + (g.exam ? g[lang] + '.' : T.chapterDescTail(g.n)), 160), body, level: g.level,
     side: { grade: g, chapter: ch.id },
@@ -541,7 +543,7 @@ function lessonPage(lang, ls) {
   if (meta.minutes) learning.timeRequired = 'PT' + meta.minutes + 'M';
   if (C.modified) learning.dateModified = C.modified;
   put(lang, d, alt, shell({
-    lang, dir: d, altDir: alt, title: meta.title + ' | ' + gName(lang, g) + ' | ' + site.name, description: meta.description, ogType: 'article', body,
+    lang, dir: d, altDir: alt, title: seoTitle(meta.title + ' | ' + (g.exam ? g[lang] : (lang === 'vi' ? 'Toán lớp ' + g.n : 'Grade ' + g.n + ' Maths'))), description: meta.description, ogType: 'article', body,
     math: r.math > 0, level: g.level, side: { grade: g, lesson: ls.id, chapter: ch.id },
     jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: gName(lang, g), url: abs(gradeDir(lang, g)) }, { name: ch[lang], url: abs(chapterDir(lang, ch)) }, { name: meta.title, url: abs(d) }]), learning]
   }), C.modified);
