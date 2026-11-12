@@ -95,10 +95,10 @@ Vậy cách diễn giải đúng là D, chọn đáp án **D**.
 
 :::note Các tuần trước kì thi
 1. **Tuần 1–2:** [Mô tả dữ liệu một biến](lesson:apstats-one-variable-data) và [Dữ liệu hai biến và hồi quy tuyến tính](lesson:apstats-two-variable-regression).
-2. **Tuần 3:** chọn mẫu, nghiên cứu quan sát và thí nghiệm.
-3. **Tuần 4–5:** xác suất, biến ngẫu nhiên, phân phối chuẩn và phân phối mẫu.
-4. **Tuần 6–8:** suy luận cho tỉ lệ, rồi suy luận cho trung bình; luyện viết đầy đủ kiểm định và khoảng tin cậy.
-5. **Tuần 9–10:** các dạng câu tự luận, rồi một đề luyện trọn vẹn có bấm giờ; ghi mọi lỗi sai vào sổ lỗi sai.
+2. **Tuần 3:** [Chọn mẫu, nghiên cứu quan sát và thí nghiệm](lesson:apstats-collecting-data).
+3. **Tuần 4–5:** [Xác suất và biến ngẫu nhiên](lesson:apstats-probability-random-variables), rồi [Phân phối chuẩn và phân phối mẫu](lesson:apstats-sampling-distributions).
+4. **Tuần 6–8:** [Suy luận cho tỉ lệ](lesson:apstats-inference-proportions), rồi [Suy luận cho trung bình](lesson:apstats-inference-means); luyện viết đầy đủ kiểm định và khoảng tin cậy.
+5. **Tuần 9–10:** [bốn câu tự luận](lesson:apstats-frq-strategies), rồi [đề luyện](lesson:apstats-practice-exam-1) trọn vẹn có bấm giờ; ghi mọi lỗi sai vào sổ lỗi sai.
 :::
 
 :::warning Những cái bẫy thường gặp

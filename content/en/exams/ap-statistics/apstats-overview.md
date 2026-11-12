@@ -95,10 +95,10 @@ So the correct interpretation is D, answer **D**.
 
 :::note Weeks before the exam
 1. **Weeks 1 to 2:** [Describing one-variable data](lesson:apstats-one-variable-data) and [Two-variable data and linear regression](lesson:apstats-two-variable-regression).
-2. **Week 3:** sampling, observational studies and experiments.
-3. **Weeks 4 to 5:** probability, random variables, normal models and sampling distributions.
-4. **Weeks 6 to 8:** inference for proportions, then inference for means; practise writing full tests and intervals.
-5. **Weeks 9 to 10:** the free-response types, then a full timed practice exam; review every mistake in an error log.
+2. **Week 3:** [Sampling, observational studies and experiments](lesson:apstats-collecting-data).
+3. **Weeks 4 to 5:** [Probability and random variables](lesson:apstats-probability-random-variables), then [Normal models and sampling distributions](lesson:apstats-sampling-distributions).
+4. **Weeks 6 to 8:** [Inference for proportions](lesson:apstats-inference-proportions), then [Inference for means](lesson:apstats-inference-means); practise writing full tests and intervals.
+5. **Weeks 9 to 10:** [the free-response questions](lesson:apstats-frq-strategies), then the timed [practice exam](lesson:apstats-practice-exam-1); review every mistake in an error log.
 :::
 
 :::warning Common traps
