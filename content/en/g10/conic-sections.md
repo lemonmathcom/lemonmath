@@ -13,13 +13,13 @@ minutes: 28
 
 A gardener wants an oval flower bed. He drives two stakes into the ground $8$ m apart, ties the ends of a $10$ m rope to the stakes, pulls the rope tight with a stick and walks the stick all the way round. The stick traces a closed curve. How long and how wide is the flower bed, and what is the equation of the curve?
 
-That curve is an **ellipse**. Together with the hyperbola and the parabola it belongs to the family of **conic sections**: planets move on ellipses, a satellite dish has a parabolic cross-section, and power-station cooling towers have the shape of a hyperbola.
+That curve is an **ellipse**. Drawing with a rope and two stakes sounds homely, but it holds the curve's whole secret: the sum of the distances to the two stakes never changes. The ellipse has two relatives, the hyperbola and the parabola; together they form the family of **conic sections**. You meet them more often than you might think: planets move on ellipses, a satellite dish has a parabolic cross-section, and power-station cooling towers have the shape of a hyperbola. For each curve we go from a property about distances to a neat equation.
 
 ## The ellipse
 
 ### Explore: a constant sum of two distances
 
-Put the stakes at $F_1(-4, 0)$ and $F_2(4, 0)$. The stick is always at a position $M$ with $MF_1+MF_2=10$ (the length of the rope). We check a few points:
+To use coordinates, we put the stakes symmetrically about the origin, at $F_1(-4, 0)$ and $F_2(4, 0)$. The rope is always tight, so the stick is always at a position $M$ with $MF_1+MF_2=10$ (the length of the rope). Let us try a few points:
 
 | $M$ | $(5, 0)$ | $(0, 3)$ | $(-5, 0)$ | $(3, 2.4)$ |
 |---|---|---|---|---|
@@ -39,7 +39,7 @@ The vertices are $(\pm a, 0)$ and $(0, \pm b)$; $2a$ is the length of the major 
 
 ### Why that equation?
 
-For $M(x, y)$: $MF_1^2-MF_2^2=(x+c)^2-(x-c)^2=4cx$. Dividing by $MF_1+MF_2=2a$ gives $MF_1-MF_2=\dfrac{2cx}{a}$. Adding and subtracting with $MF_1+MF_2=2a$:
+This part has quite a lot of algebra; you can skim it the first time and come back later. The main idea: starting from the condition that the two distances add up to $2a$, we remove the square roots step by step until only $x^2$ and $y^2$ are left. For $M(x, y)$: $MF_1^2-MF_2^2=(x+c)^2-(x-c)^2=4cx$. Dividing by $MF_1+MF_2=2a$ gives $MF_1-MF_2=\dfrac{2cx}{a}$. Adding and subtracting with $MF_1+MF_2=2a$:
 $$MF_1=a+\frac{c}{a}x,\qquad MF_2=a-\frac{c}{a}x.$$
 Substituting into $MF_2^2=(x-c)^2+y^2$ and simplifying gives $\dfrac{x^2}{a^2}+\dfrac{y^2}{a^2-c^2}=1$. The two formulas for $MF_1$, $MF_2$ above are called the **focal radii**; they will be useful in the practice.
 
@@ -57,6 +57,8 @@ point: (0, 3) "B_2" above-right
 point: (0, -3) "B_1" below-right
 :::
 
+From the definition, writing the equation of an ellipse only needs $a$ and $b$. The first example gives the foci, which means it gives $c$.
+
 :::example An ellipse from its foci
 Write the standard equation of the ellipse with foci $(\pm3, 0)$ and $MF_1+MF_2=10$ for every point $M$ of the ellipse.
 
@@ -67,7 +69,7 @@ $$2a=10\Rightarrow a=5,\qquad c=3,\qquad b^2=25-9=16.$$
 So the ellipse is $\dfrac{x^2}{25}+\dfrac{y^2}{16}=1$.
 :::
 
-The reverse problem: from the lengths of the axes, we find the foci.
+Now the other way round: if we know how long and how wide the flower bed is, where should the two stakes go?
 
 :::example An ellipse from the lengths of its axes
 An ellipse has a major axis of length $12$ and a minor axis of length $8$, with its foci on $Ox$. Write its standard equation and find its foci.
@@ -81,7 +83,7 @@ So the ellipse is $\dfrac{x^2}{36}+\dfrac{y^2}{16}=1$, with foci $(\pm2\sqrt5, 0
 
 ## The hyperbola
 
-If we replace the **sum** of the two distances by their **difference**, we get a curve with two separate branches.
+Let us change one word in the definition of the ellipse: replace the **sum** of the two distances by their **difference**. The result is quite different: no longer a closed curve, but a curve with two separate branches, back to back.
 
 :::definition Hyperbola
 Let $F_1, F_2$ be two foci with $F_1F_2=2c$, and let $0<a<c$. The **hyperbola** is the set of points $M$ with
@@ -107,6 +109,8 @@ point: (4, 0) "A_2" below-left
 point: (-4, 0) "A_1" below-right
 :::
 
+As with the ellipse, everything comes down to finding $a$ and $b$. The thing to watch is that the relation between $a$, $b$, $c$ for a hyperbola is not the same as for an ellipse.
+
 :::example A hyperbola from its foci and vertices
 Write the standard equation of the hyperbola with foci $(\pm5, 0)$ and vertices $(\pm3, 0)$, then write its asymptotes.
 
@@ -119,13 +123,15 @@ So the hyperbola is $\dfrac{x^2}{9}-\dfrac{y^2}{16}=1$, with asymptotes $y=\pm\d
 
 ## The parabola
 
+The third conic needs only one focus, together with a straight line. A point on a parabola is "fair": it is exactly as far from the focus as it is from that line.
+
 :::definition Parabola
 Let $F$ be a point (the **focus**) and $\Delta$ a line not through $F$ (the **directrix**). The **parabola** is the set of points equidistant from $F$ and $\Delta$.
 With $F\left(\dfrac p2, 0\right)$ and $\Delta: x=-\dfrac p2$ ($p>0$), the parabola has the standard equation
 $$y^2=2px.$$
 :::
 
-Indeed, $MF=\sqrt{\left(x-\frac p2\right)^2+y^2}$ and the distance from $M$ to $\Delta$ is $\left|x+\frac p2\right|$. Squaring both and simplifying gives $y^2=2px$.
+Why $y^2=2px$? Write out the two distances: $MF=\sqrt{\left(x-\frac p2\right)^2+y^2}$ and the distance from $M$ to $\Delta$ is $\left|x+\frac p2\right|$. Squaring both and simplifying gives $y^2=2px$.
 
 :::graph The parabola $y^2=4x$
 alt: A parabola opening to the right with vertex at the origin, focus at (1, 0) and the dashed vertical directrix x equals -1
@@ -137,6 +143,8 @@ vline: -1 ; dashed
 point: (1, 0) "F" below-right
 point: (0, 0) "O" above-left
 :::
+
+A parabola has only one parameter, $p$, so writing its equation is even lighter: knowing the focus means knowing $p$.
 
 :::example A parabola from its focus
 Write the standard equation of the parabola with focus $F(3, 0)$, then write its directrix.
@@ -150,7 +158,7 @@ So the parabola is $y^2=12x$, with directrix $x=-3$.
 
 ## Recognising and applying
 
-When an equation is not yet in standard form, we transform it so that the right side is $1$ before reading off $a^2$, $b^2$.
+In exercises, an equation is not always handed to you in standard form. When it is not, do not rush to read off $a^2$ and $b^2$; first transform it so that the right side is $1$.
 
 :::example Which conic is it?
 Identify the curve $9x^2+16y^2=144$ and find its foci.
@@ -164,7 +172,7 @@ This is an ellipse with $a=4$, $b=3$, so $c^2=16-9=7$.
 So the curve is an ellipse with foci $(\pm\sqrt7, 0)$.
 :::
 
-The reflecting property of the parabola is used in satellite dishes: every ray parallel to the axis passes through the focus after reflection.
+The parabola has a lovely property that satellite dishes make use of: every ray parallel to the axis passes through the focus after reflection. That is why the receiver must sit exactly at the focus to collect all the signal.
 
 :::example Placing the receiver of a satellite dish
 A satellite dish has a parabolic cross-section; its opening is $1.2$ m wide and it is $0.18$ m deep. The receiver must sit at the focus. How far from the bottom of the dish is the receiver?
@@ -179,6 +187,8 @@ So the receiver is $0.5$ m from the bottom of the dish.
 :::
 
 :::warning Common mistakes
+The three conics have formulas that look alike, so they are easy to mix up. Each time, ask yourself: is this an ellipse, a hyperbola or a parabola, and which relation goes with it?
+
 - **Mixing up the relation between $a$, $b$, $c$.** Wrong: a hyperbola with vertices $(\pm3, 0)$ and foci $(\pm5, 0)$ has $b^2=9-25$. Why it is wrong: for a hyperbola $c>a$ and $c^2=a^2+b^2$. Right: $b^2=c^2-a^2=16$. For an ellipse it is the other way round, $c^2=a^2-b^2$.
 - **Reading $a^2$, $b^2$ before the right side is $1$.** Wrong: $9x^2+16y^2=144$ has $a^2=9$, $b^2=16$. Why it is wrong: both sides must be divided by $144$ first. Right: $\dfrac{x^2}{16}+\dfrac{y^2}{9}=1$, $a=4$, $b=3$.
 - **Confusing $p$ with $\dfrac p2$.** Wrong: $y^2=8x$ has focus $(4, 0)$. Why it is wrong: $2p=8$ gives $p=4$, and the focus is at $\dfrac p2$. Right: focus $(2, 0)$, directrix $x=-2$.
@@ -204,9 +214,11 @@ So the receiver is $0.5$ m from the bottom of the dish.
 - Parabola: $MF=d(M, \Delta)$; $y^2=2px$; focus $\left(\dfrac p2, 0\right)$, directrix $x=-\dfrac p2$.
 - In standard form the foci always lie on $Ox$. To read off $a^2$, $b^2$: make the right side $1$.
 
+Think back to the rope and the two stakes at the start: a single condition about distances was enough to draw a whole curve and then write its equation. The hyperbola and the parabola work the same way. If you forget a formula, go back to the definition in terms of distances; everything else follows from it.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Try it yourself first, and do not worry about mistakes; then open the solution and compare it with your own thinking.
 
 :::exercise
 For the ellipse $\dfrac{x^2}{49}+\dfrac{y^2}{25}=1$, find $a$, $b$, $c$, the foci and the vertices.

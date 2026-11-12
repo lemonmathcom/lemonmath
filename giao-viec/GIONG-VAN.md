@@ -20,7 +20,7 @@ Quyết định 12/11/2026: chủ dự án muốn toàn bộ phần lời (mở 
 | 2 | g10/binomial-theorem | xong 12/11/2026 |
 | 3 | g10/central-tendency | xong 12/11/2026 |
 | 4 | g10/circles | xong 12/11/2026 |
-| 5 | g10/conic-sections |  |
+| 5 | g10/conic-sections | xong 12/11/2026 |
 | 6 | g10/counting-rules |  |
 | 7 | g10/dispersion |  |
 | 8 | g10/dot-product |  |

@@ -13,13 +13,13 @@ minutes: 28
 
 Một người làm vườn muốn tạo một bồn hoa hình bầu dục. Anh cắm hai cọc cách nhau $8$ m, buộc hai đầu một sợi dây dài $10$ m vào hai cọc, rồi căng dây bằng một que và kéo que đi một vòng. Que vạch ra một đường cong khép kín. Bồn hoa dài bao nhiêu, rộng bao nhiêu, và đường cong đó có phương trình gì?
 
-Đường cong ấy là một **elip**. Cùng với hypebol và parabol, nó thuộc nhóm các **đường conic**: quỹ đạo hành tinh là elip, mặt cắt chảo ăn-ten là parabol, tháp làm mát nhà máy điện có dạng hypebol.
+Đường cong ấy là một **elip**. Cách vẽ bằng dây và cọc nghe có vẻ mộc mạc, nhưng nó chứa đúng bí mật của đường cong: tổng hai khoảng cách đến hai cọc không bao giờ đổi. Elip có hai "người anh em" là hypebol và parabol; cả ba hợp thành nhóm các **đường conic**. Bạn gặp chúng nhiều hơn bạn tưởng: quỹ đạo hành tinh là elip, mặt cắt chảo ăn-ten là parabol, tháp làm mát nhà máy điện có dạng hypebol. Với mỗi đường, ta sẽ đi từ một tính chất về khoảng cách đến một phương trình gọn gàng.
 
 ## Elip
 
 ### Khám phá: tổng hai khoảng cách không đổi
 
-Đặt hai cọc tại $F_1(-4; 0)$ và $F_2(4; 0)$. Que luôn ở vị trí $M$ có $MF_1+MF_2=10$ (độ dài dây). Ta kiểm tra vài điểm:
+Để dùng được toạ độ, ta đặt hai cọc đối xứng nhau qua gốc, tại $F_1(-4; 0)$ và $F_2(4; 0)$. Dây luôn căng nên que luôn ở vị trí $M$ có $MF_1+MF_2=10$ (độ dài dây). Ta thử vài điểm:
 
 | $M$ | $(5; 0)$ | $(0; 3)$ | $(-5; 0)$ | $(3; 2{,}4)$ |
 |---|---|---|---|---|
@@ -39,7 +39,7 @@ Các đỉnh là $(\pm a; 0)$ và $(0; \pm b)$; $2a$ là độ dài trục lớn
 
 ### Vì sao có phương trình đó?
 
-Với $M(x; y)$: $MF_1^2-MF_2^2=(x+c)^2-(x-c)^2=4cx$. Chia cho $MF_1+MF_2=2a$, ta được $MF_1-MF_2=\dfrac{2cx}{a}$. Cộng và trừ với $MF_1+MF_2=2a$:
+Phần này hơi nhiều biến đổi, bạn có thể đọc lướt lần đầu rồi quay lại sau. Ý chính là: từ điều kiện tổng hai khoảng cách bằng $2a$, ta khử dần dấu căn để được một phương trình chỉ có $x^2$ và $y^2$. Với $M(x; y)$: $MF_1^2-MF_2^2=(x+c)^2-(x-c)^2=4cx$. Chia cho $MF_1+MF_2=2a$, ta được $MF_1-MF_2=\dfrac{2cx}{a}$. Cộng và trừ với $MF_1+MF_2=2a$:
 $$MF_1=a+\frac{c}{a}x,\qquad MF_2=a-\frac{c}{a}x.$$
 Thay vào $MF_2^2=(x-c)^2+y^2$ rồi rút gọn, ta được $\dfrac{x^2}{a^2}+\dfrac{y^2}{a^2-c^2}=1$. Hai công thức $MF_1$, $MF_2$ ở trên gọi là **bán kính qua tiêu**, sẽ có ích trong phần luyện tập.
 
@@ -57,6 +57,8 @@ point: (0, 3) "B_2" above-right
 point: (0, -3) "B_1" below-right
 :::
 
+Từ định nghĩa, muốn viết phương trình elip, ta chỉ cần tìm được $a$ và $b$. Ví dụ đầu tiên cho sẵn tiêu điểm, tức là cho $c$.
+
 :::example Elip từ các tiêu điểm
 Viết phương trình chính tắc của elip có các tiêu điểm $(\pm3; 0)$ và $MF_1+MF_2=10$ với mọi điểm $M$ của elip.
 
@@ -67,7 +69,7 @@ $$2a=10\Rightarrow a=5,\qquad c=3,\qquad b^2=25-9=16.$$
 Vậy elip là $\dfrac{x^2}{25}+\dfrac{y^2}{16}=1$.
 :::
 
-Bài toán ngược lại: biết độ dài các trục, ta tìm tiêu điểm.
+Bây giờ đi theo chiều ngược lại: biết bồn hoa dài bao nhiêu, rộng bao nhiêu, ta tìm chỗ cắm hai cọc.
 
 :::example Elip từ độ dài các trục
 Một elip có trục lớn dài $12$ và trục nhỏ dài $8$, các tiêu điểm nằm trên $Ox$. Viết phương trình chính tắc và tìm các tiêu điểm.
@@ -81,7 +83,7 @@ Vậy elip là $\dfrac{x^2}{36}+\dfrac{y^2}{16}=1$, các tiêu điểm là $(\pm
 
 ## Hypebol
 
-Nếu thay **tổng** hai khoảng cách bằng **hiệu**, ta được một đường cong có hai nhánh rời nhau.
+Thử đổi một chữ trong định nghĩa elip xem sao: thay **tổng** hai khoảng cách bằng **hiệu**. Kết quả khác hẳn: không còn một đường khép kín mà là một đường cong có hai nhánh rời nhau, quay lưng vào nhau.
 
 :::definition Hypebol
 Cho hai tiêu điểm $F_1, F_2$ với $F_1F_2=2c$ và số $0<a<c$. **Hypebol** là tập hợp các điểm $M$ thoả mãn
@@ -107,6 +109,8 @@ point: (4, 0) "A_2" below-left
 point: (-4, 0) "A_1" below-right
 :::
 
+Cũng như elip, mọi việc quy về tìm $a$ và $b$. Chỗ cần để ý là hệ thức giữa $a$, $b$, $c$ ở hypebol khác với ở elip.
+
 :::example Hypebol từ tiêu điểm và đỉnh
 Viết phương trình chính tắc của hypebol có các tiêu điểm $(\pm5; 0)$ và các đỉnh $(\pm3; 0)$, rồi viết các đường tiệm cận.
 
@@ -119,13 +123,15 @@ Vậy hypebol là $\dfrac{x^2}{9}-\dfrac{y^2}{16}=1$, với hai đường tiệm
 
 ## Parabol
 
+Đường conic thứ ba chỉ cần một tiêu điểm, cùng với một đường thẳng. Điểm trên parabol là điểm "công bằng": cách tiêu điểm bao nhiêu thì cách đường thẳng ấy đúng bấy nhiêu.
+
 :::definition Parabol
 Cho điểm $F$ (**tiêu điểm**) và đường thẳng $\Delta$ không đi qua $F$ (**đường chuẩn**). **Parabol** là tập hợp các điểm cách đều $F$ và $\Delta$.
 Với $F\left(\dfrac p2; 0\right)$ và $\Delta: x=-\dfrac p2$ ($p>0$), parabol có phương trình chính tắc
 $$y^2=2px.$$
 :::
 
-Thật vậy, $MF=\sqrt{\left(x-\frac p2\right)^2+y^2}$ và khoảng cách từ $M$ đến $\Delta$ là $\left|x+\frac p2\right|$. Bình phương hai vế rồi rút gọn, ta được $y^2=2px$.
+Vì sao lại là $y^2=2px$? Ta viết hai khoảng cách ra: $MF=\sqrt{\left(x-\frac p2\right)^2+y^2}$ và khoảng cách từ $M$ đến $\Delta$ là $\left|x+\frac p2\right|$. Bình phương hai vế rồi rút gọn, ta được $y^2=2px$.
 
 :::graph Parabol $y^2=4x$
 alt: Parabol mở sang phải với đỉnh tại gốc toạ độ, tiêu điểm tại (1; 0) và đường chuẩn thẳng đứng nét đứt x bằng -1
@@ -137,6 +143,8 @@ vline: -1 ; dashed
 point: (1, 0) "F" below-right
 point: (0, 0) "O" above-left
 :::
+
+Ở parabol chỉ có một tham số $p$, nên viết phương trình còn nhẹ nhàng hơn: biết tiêu điểm là biết $p$.
 
 :::example Parabol từ tiêu điểm
 Viết phương trình chính tắc của parabol có tiêu điểm $F(3; 0)$, rồi viết đường chuẩn.
@@ -150,7 +158,7 @@ Vậy parabol là $y^2=12x$, đường chuẩn là $x=-3$.
 
 ## Nhận dạng và vận dụng
 
-Khi phương trình chưa ở dạng chính tắc, ta biến đổi để vế phải bằng $1$ rồi mới đọc $a^2$, $b^2$.
+Trong đề bài, phương trình không phải lúc nào cũng được viết sẵn ở dạng chính tắc. Khi đó đừng vội đọc $a^2$, $b^2$; hãy biến đổi cho vế phải bằng $1$ trước đã.
 
 :::example Đó là đường conic nào?
 Nhận dạng đường cong $9x^2+16y^2=144$ và tìm các tiêu điểm.
@@ -164,7 +172,7 @@ $$\frac{9x^2}{144}+\frac{16y^2}{144}=1\iff\frac{x^2}{16}+\frac{y^2}{9}=1.$$
 Vậy đường cong là elip có các tiêu điểm $(\pm\sqrt7; 0)$.
 :::
 
-Tính chất quang học của parabol được dùng trong chảo ăn-ten: mọi tia song song với trục, sau khi phản xạ, đều đi qua tiêu điểm.
+Parabol có một tính chất rất đẹp mà người ta tận dụng trong chảo ăn-ten: mọi tia song song với trục, sau khi phản xạ, đều đi qua tiêu điểm. Vì thế bộ thu phải đặt đúng ở tiêu điểm thì mới gom được hết tín hiệu.
 
 :::example Đặt bộ thu của chảo ăn-ten
 Một chảo ăn-ten có mặt cắt là parabol, miệng chảo rộng $1{,}2$ m và lòng chảo sâu $0{,}18$ m. Bộ thu phải đặt tại tiêu điểm. Bộ thu cách đáy chảo bao xa?
@@ -179,6 +187,8 @@ Vậy bộ thu đặt cách đáy chảo $0{,}5$ m.
 :::
 
 :::warning Những sai lầm thường gặp
+Ba đường conic có công thức na ná nhau nên rất dễ lẫn. Mỗi khi làm bài, bạn tự hỏi lại: đây là elip, hypebol hay parabol, và hệ thức nào đi với nó?
+
 - **Nhầm hệ thức giữa $a$, $b$, $c$.** Sai: hypebol có đỉnh $(\pm3; 0)$, tiêu điểm $(\pm5; 0)$ thì $b^2=9-25$. Lí do sai: với hypebol $c>a$ và $c^2=a^2+b^2$. Đúng: $b^2=c^2-a^2=16$. Với elip thì ngược lại, $c^2=a^2-b^2$.
 - **Đọc $a^2$, $b^2$ khi vế phải chưa bằng $1$.** Sai: $9x^2+16y^2=144$ có $a^2=9$, $b^2=16$. Lí do sai: phải chia hai vế cho $144$ trước. Đúng: $\dfrac{x^2}{16}+\dfrac{y^2}{9}=1$, $a=4$, $b=3$.
 - **Nhầm $p$ với $\dfrac p2$.** Sai: $y^2=8x$ có tiêu điểm $(4; 0)$. Lí do sai: $2p=8$ nên $p=4$, tiêu điểm ở $\dfrac p2$. Đúng: tiêu điểm $(2; 0)$, đường chuẩn $x=-2$.
@@ -204,9 +214,11 @@ Vậy bộ thu đặt cách đáy chảo $0{,}5$ m.
 - Parabol: $MF=d(M, \Delta)$; $y^2=2px$; tiêu điểm $\left(\dfrac p2; 0\right)$, đường chuẩn $x=-\dfrac p2$.
 - Tiêu điểm luôn nằm trên $Ox$ ở dạng chính tắc. Muốn đọc $a^2$, $b^2$: đưa vế phải về $1$.
 
+Nhớ lại sợi dây và hai chiếc cọc ở đầu bài: chỉ một điều kiện về khoảng cách đã đủ để vẽ nên cả một đường cong, rồi viết được phương trình của nó. Hypebol và parabol cũng vậy. Khi quên công thức, bạn hãy quay về định nghĩa bằng khoảng cách; mọi thứ khác đều suy ra từ đó.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý các bước. Bạn cứ tự làm trước, sai cũng không sao, rồi hãy bấm xem lời giải để so cách nghĩ của mình.
 
 :::exercise
 Với elip $\dfrac{x^2}{49}+\dfrac{y^2}{25}=1$, tìm $a$, $b$, $c$, các tiêu điểm và các đỉnh.
