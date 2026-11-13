@@ -13,11 +13,11 @@ minutes: 22
 
 Class 10A has $38$ students. $21$ of them are in the basketball club, $17$ are in the chess club and $5$ are in no club at all. Adding $21+17=38$ gives exactly the class size, yet $5$ students are left out. So how many students are in both clubs?
 
-To answer neatly we need the language of **sets**: put the basketball players in one set, the chess players in another, and look at how the two sets overlap. Almost every later topic, from solution sets of inequalities to probability, is written in this language.
+The trouble lies with the students who play both: when we add $21+17$, each of them is counted twice. To sort this out neatly we need the language of **sets**: put the basketball players in one set, the chess players in another, and look at how the two sets overlap. You will use this language for the rest of secondary school, from solution sets of inequalities to probability, so it is well worth learning carefully now.
 
 ## Sets and elements
 
-Try to describe the group of positive divisors of $12$. We can list them all: $1, 2, 3, 4, 6, 12$. Or we can give only the rule for choosing them: "the non-zero natural numbers that divide $12$". The two descriptions are different, but they describe the same group of numbers:
+We start with something small: try to describe the group of positive divisors of $12$. We can list them all: $1, 2, 3, 4, 6, 12$. Or we can give only the rule for choosing them: "the non-zero natural numbers that divide $12$". The two descriptions are different, but they describe the same group of numbers:
 
 $$\{1, 2, 3, 4, 6, 12\}=\{x\in\mathbb{N}^* \mid x \text{ divides } 12\}.$$
 
@@ -52,7 +52,7 @@ So $n(A)=5$, $n(B)=2$, $n(C)=5$ and $n(D)=0$.
 $A$ is a **subset** of $B$, written $A \subset B$, if every element of $A$ is an element of $B$. Two sets are **equal**, $A=B$, if $A\subset B$ and $B\subset A$. The empty set is a subset of every set, and every set is a subset of itself.
 :::
 
-Once we can list elements, we can compare two sets element by element.
+Once we can list elements, comparing two sets becomes easy: we go through the elements one by one and ask "is this one in the other set?".
 
 :::example Subsets
 Let $A=\{1, 2, 4\}$ and let $B$ be the set of positive divisors of $8$.
@@ -74,11 +74,11 @@ So $A\subset B$ but $A\ne B$, and $A$ has $3$ two-element subsets. (Counting $\v
 - $\mathbb{Q}$: the rational numbers, the numbers of the form $\dfrac{p}{q}$ with $p,q\in\mathbb{Z}$, $q\neq 0$.
 - $\mathbb{R}$: the real numbers, all the points of the number line.
 
-These sets are nested: $\mathbb{N}^*\subset\mathbb{N}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}$. The number $\sqrt{2}$ is in $\mathbb{R}$ but not in $\mathbb{Q}$.
+You can picture these sets as boxes inside one another, each box bigger than the one before: $\mathbb{N}^*\subset\mathbb{N}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}$. The number $\sqrt{2}$ is in $\mathbb{R}$ but not in $\mathbb{Q}$.
 
 ## Intervals
 
-Many subsets of $\mathbb{R}$ are a "piece" of the number line. Suppose $a<b$.
+The real numbers cannot be listed, so for subsets of $\mathbb{R}$ we need another way of writing. Luckily, many such sets are just one unbroken "piece" of the number line, and we only need to say where the piece starts and ends. Suppose $a<b$.
 
 | Set | Name | Notation |
 |---|---|---|
@@ -89,7 +89,7 @@ Many subsets of $\mathbb{R}$ are a "piece" of the number line. Suppose $a<b$.
 | $\{x\in\mathbb{R} \mid x>a\}$, $\{x\in\mathbb{R}\mid x\ge a\}$ | unbounded interval (open, half-open) | $(a, +\infty)$, $[a, +\infty)$ |
 | $\{x\in\mathbb{R} \mid x<b\}$, $\{x\in\mathbb{R}\mid x\le b\}$ | unbounded interval (open, half-open) | $(-\infty, b)$, $(-\infty, b]$ |
 
-A square bracket means the endpoint is included (filled dot); a round bracket means it is not (hollow dot). The side of $+\infty$ or $-\infty$ always takes a round bracket, because infinity is not a number.
+The table has many rows, but there is really only one convention to remember: a square bracket means the endpoint is included (filled dot); a round bracket means it is not (hollow dot). The side of $+\infty$ or $-\infty$ always takes a round bracket, because infinity is not a number; we can never "stand" there.
 
 :::graph The half-open interval $[-1, 3)$
 alt: Number line with a segment from -1 to 3, filled dot at -1 and hollow dot at 3
@@ -109,7 +109,7 @@ point: (2, 0) "2" below
 label: (-2.5, 0.5) "-∞"
 :::
 
-When the property is an inequality, we solve the inequality first and then write the notation.
+Sometimes the property is given as an inequality. Then do not rush to write brackets: solve the inequality first, see clearly where $x$ runs from and to, and only then write the notation.
 
 :::example Writing intervals
 Write each set using interval notation.
@@ -136,7 +136,7 @@ So the three sets are $(-2, 3]$, $[-1, +\infty)$ and $(-\infty, 3)$.
 - **Complement**: if $A\subset E$, the complement of $A$ in $E$ is $C_E A=E\setminus A$.
 :::
 
-A Venn diagram lets us see these operations: each set is a circle, and the common part of two circles is the intersection.
+These four operations sound like four rules, but they are really just everyday words: "or", "and", "but not". A Venn diagram lets us see them: each set is a circle, and the common part of two circles is the intersection.
 
 :::example Operations on finite sets
 Let $E=\{1, 2, \dots, 10\}$, $A=\{x\in E\mid x \text{ even}\}$ and let $B$ be the set of positive divisors of $12$ that lie in $E$. Find $A\cup B$, $A\cap B$, $A\setminus B$, $B\setminus A$ and $C_E A$.
@@ -168,7 +168,7 @@ label 2.0,-0.2 "1, 3"
 label 2.6,-1.3 "5, 7, 9"
 :::
 
-With intervals we cannot list the elements, so we draw the sets on a number line and read off the result.
+With intervals we cannot list the elements, so the number line plays the part of the Venn diagram. The place to be most careful is the endpoints: stop at each one and ask separately whether it is included.
 
 :::example Operations on intervals
 Let $A=[-3, 2)$ and $B=(0, 5]$. Find $A\cap B$, $A\cup B$, $A\setminus B$, $B\setminus A$ and $C_{\mathbb{R}}A$.
@@ -191,9 +191,9 @@ For two finite sets $A$ and $B$:
 $$n(A\cup B)=n(A)+n(B)-n(A\cap B).$$
 :::
 
-**Why?** In $n(A)+n(B)$, an element of only one set is counted once, but each element of $A\cap B$ is counted twice. Subtracting $n(A\cap B)$ leaves every element of $A\cup B$ counted exactly once. In the example above: $5+5-3=7$.
+This is exactly what fooled us when we added $21+17$ at the start. **Why subtract?** In $n(A)+n(B)$, an element of only one set is counted once, but each element of $A\cap B$ is counted twice. Subtracting $n(A\cap B)$ leaves every element of $A\cup B$ counted exactly once. In the example above: $5+5-3=7$.
 
-Now we can answer the question about the two clubs from the start of the lesson.
+Now the question about the two clubs from the start is just a matter of substituting numbers.
 
 :::example Two clubs
 Class 10A has $38$ students; $21$ play basketball, $17$ play chess and $5$ are in no club. How many students are in both clubs?
@@ -212,6 +212,7 @@ So $5$ students are in both clubs.
 :::
 
 :::warning Common mistakes
+Most mistakes in this topic come not from misunderstanding but from writing too fast. Read through these once so you know where to slow down.
 - **A square bracket at infinity.** Writing $[2, +\infty]$. Wrong, because $+\infty$ is not a number and cannot be "included". Right: $[2, +\infty)$.
 - **Simply adding the sizes.** Writing $n(A\cup B)=n(A)+n(B)$ when the sets overlap. Wrong, because the overlap is counted twice. Right: subtract $n(A\cap B)$.
 - **Losing an endpoint in a difference.** With $A=[-3, 2)$, $B=(0, 5]$, writing $A\setminus B=[-3, 0)$. Wrong, because $0\notin B$, so $0$ stays in the difference. Right: $A\setminus B=[-3, 0]$.
@@ -244,9 +245,11 @@ So $5$ students are in both clubs.
 - With intervals: draw them on a number line and check each endpoint separately.
 - $n(A\cup B)=n(A)+n(B)-n(A\cap B)$.
 
+Back to class 10A: $21+17$ came to exactly the class size and yet $5$ students were left out, because the $5$ who play both games had been counted twice. Whenever you count two groups that overlap, ask yourself: how many times has the overlap been counted?
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise reminds you what you need and gives some steps to start. Have a go yourself first, and for the interval questions draw the number line on paper; drawing before writing brackets saves a lot of slips. Then open the solution and compare.
 
 :::exercise
 List the elements of each set.

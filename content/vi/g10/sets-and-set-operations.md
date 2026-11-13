@@ -13,11 +13,11 @@ minutes: 22
 
 Lớp 10A có $38$ học sinh. Có $21$ bạn tham gia câu lạc bộ bóng rổ, $17$ bạn tham gia câu lạc bộ cờ vua và $5$ bạn không tham gia câu lạc bộ nào. Cộng $21+17=38$ thì vừa bằng sĩ số, nhưng vẫn có $5$ bạn đứng ngoài. Vậy có bao nhiêu bạn tham gia cả hai câu lạc bộ?
 
-Để trả lời gọn gàng, ta cần ngôn ngữ **tập hợp**: gom các bạn bóng rổ thành một tập, các bạn cờ vua thành một tập, rồi xem hai tập "chồng lên nhau" thế nào. Hầu hết các chủ đề sau này, từ tập nghiệm của bất phương trình đến xác suất, đều được viết bằng ngôn ngữ này.
+Chỗ vướng nằm ở những bạn chơi cả hai môn: khi cộng $21+17$, mỗi bạn ấy bị đếm hai lần. Muốn gỡ cho gọn, ta cần ngôn ngữ **tập hợp**: gom các bạn bóng rổ thành một tập, các bạn cờ vua thành một tập, rồi xem hai tập "chồng lên nhau" thế nào. Ngôn ngữ này bạn sẽ dùng suốt ba năm cấp ba, từ tập nghiệm của bất phương trình đến xác suất, nên học kĩ bây giờ là rất đáng.
 
 ## Tập hợp và phần tử
 
-Thử mô tả nhóm các ước dương của $12$. Ta có thể kể hết ra: $1, 2, 3, 4, 6, 12$. Ta cũng có thể chỉ nói quy tắc chọn: "các số tự nhiên khác $0$ chia hết $12$". Hai cách nói khác nhau nhưng mô tả cùng một nhóm số:
+Ta bắt đầu từ một việc nhỏ: thử mô tả nhóm các ước dương của $12$. Ta có thể kể hết ra: $1, 2, 3, 4, 6, 12$. Ta cũng có thể chỉ nói quy tắc chọn: "các số tự nhiên khác $0$ chia hết $12$". Hai cách nói khác nhau nhưng mô tả cùng một nhóm số:
 
 $$\{1; 2; 3; 4; 6; 12\}=\{x\in\mathbb{N}^* \mid 12 \text{ chia hết cho } x\}.$$
 
@@ -52,7 +52,7 @@ Vậy $n(A)=5$, $n(B)=2$, $n(C)=5$ và $n(D)=0$.
 $A$ là **tập hợp con** của $B$, kí hiệu $A \subset B$, nếu mọi phần tử của $A$ đều là phần tử của $B$. Hai tập hợp **bằng nhau**, $A=B$, nếu $A\subset B$ và $B\subset A$. Tập rỗng là tập con của mọi tập hợp, và mọi tập hợp là tập con của chính nó.
 :::
 
-Biết cách liệt kê, ta có thể so sánh hai tập hợp phần tử theo phần tử.
+Khi đã liệt kê được, so sánh hai tập hợp trở nên dễ: ta chỉ cần đi qua từng phần tử và hỏi "phần tử này có nằm trong tập kia không?".
 
 :::example Tập con
 Cho $A=\{1; 2; 4\}$ và $B$ là tập các ước dương của $8$.
@@ -74,11 +74,11 @@ Vậy $A\subset B$ nhưng $A\ne B$, và $A$ có $3$ tập con hai phần tử. (
 - $\mathbb{Q}$: tập số hữu tỉ, gồm các số có dạng $\dfrac{p}{q}$ với $p,q\in\mathbb{Z}$, $q\neq 0$.
 - $\mathbb{R}$: tập số thực, gồm mọi điểm của trục số.
 
-Các tập này lồng vào nhau: $\mathbb{N}^*\subset\mathbb{N}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}$. Số $\sqrt{2}$ thuộc $\mathbb{R}$ nhưng không thuộc $\mathbb{Q}$.
+Bạn có thể hình dung các tập này như những chiếc hộp lồng vào nhau, hộp sau rộng hơn hộp trước: $\mathbb{N}^*\subset\mathbb{N}\subset\mathbb{Z}\subset\mathbb{Q}\subset\mathbb{R}$. Số $\sqrt{2}$ thuộc $\mathbb{R}$ nhưng không thuộc $\mathbb{Q}$.
 
 ## Khoảng, đoạn, nửa khoảng
 
-Nhiều tập con của $\mathbb{R}$ là một "đoạn" của trục số. Giả sử $a<b$.
+Tập số thực thì không liệt kê được, nên với các tập con của $\mathbb{R}$ ta cần cách viết khác. May là rất nhiều tập như vậy chỉ là một "khúc" liền của trục số, và chỉ cần nói khúc ấy bắt đầu, kết thúc ở đâu. Giả sử $a<b$.
 
 | Tập hợp | Tên gọi | Kí hiệu |
 |---|---|---|
@@ -89,7 +89,7 @@ Nhiều tập con của $\mathbb{R}$ là một "đoạn" của trục số. Gi�
 | $\{x\in\mathbb{R} \mid x>a\}$, $\{x\in\mathbb{R}\mid x\ge a\}$ | khoảng, nửa khoảng | $(a; +\infty)$, $[a; +\infty)$ |
 | $\{x\in\mathbb{R} \mid x<b\}$, $\{x\in\mathbb{R}\mid x\le b\}$ | khoảng, nửa khoảng | $(-\infty; b)$, $(-\infty; b]$ |
 
-Ngoặc vuông nghĩa là lấy đầu mút (chấm đặc), ngoặc tròn nghĩa là không lấy (chấm rỗng). Phía $+\infty$ hay $-\infty$ luôn dùng ngoặc tròn, vì vô cực không phải là một số.
+Bảng trông nhiều dòng, nhưng thật ra chỉ có một quy ước cần nhớ: ngoặc vuông nghĩa là lấy đầu mút (chấm đặc), ngoặc tròn nghĩa là không lấy (chấm rỗng). Phía $+\infty$ hay $-\infty$ luôn dùng ngoặc tròn, vì vô cực không phải là một số, ta không "đứng" ở đó được.
 
 :::graph Nửa khoảng $[-1; 3)$
 alt: Trục số có đoạn thẳng từ -1 đến 3, chấm đặc tại -1 và chấm rỗng tại 3
@@ -109,7 +109,7 @@ point: (2, 0) "2" below
 label: (-2.5, 0.5) "-∞"
 :::
 
-Khi tính chất đặc trưng là một bất phương trình, ta giải bất phương trình trước rồi mới viết kí hiệu.
+Đôi khi tính chất đặc trưng được cho dưới dạng một bất phương trình. Khi đó đừng vội viết ngoặc: ta giải bất phương trình trước, nhìn rõ $x$ chạy từ đâu đến đâu, rồi mới viết kí hiệu.
 
 :::example Viết dưới dạng khoảng, đoạn, nửa khoảng
 Viết các tập sau bằng kí hiệu khoảng, đoạn hoặc nửa khoảng.
@@ -136,7 +136,7 @@ Vậy ba tập lần lượt là $(-2; 3]$, $[-1; +\infty)$ và $(-\infty; 3)$.
 - **Phần bù**: nếu $A\subset E$ thì phần bù của $A$ trong $E$ là $C_E A=E\setminus A$.
 :::
 
-Biểu đồ Ven giúp nhìn thấy các phép toán này: mỗi tập là một vòng tròn, phần chung của hai vòng là giao.
+Bốn phép toán này nghe như bốn quy tắc, nhưng thật ra chỉ là những chữ rất đời thường: "hoặc", "và", "mà không". Biểu đồ Ven giúp ta nhìn thấy chúng: mỗi tập là một vòng tròn, phần chung của hai vòng là giao.
 
 :::example Các phép toán trên tập hữu hạn
 Cho $E=\{1; 2; \dots; 10\}$, $A=\{x\in E\mid x \text{ chẵn}\}$ và $B$ là tập các ước dương của $12$ thuộc $E$. Tìm $A\cup B$, $A\cap B$, $A\setminus B$, $B\setminus A$ và $C_E A$.
@@ -168,7 +168,7 @@ label 2.0,-0.2 "1; 3"
 label 2.6,-1.3 "5; 7; 9"
 :::
 
-Với khoảng và đoạn, ta không liệt kê được phần tử, nên ta vẽ các tập lên trục số rồi đọc kết quả.
+Với khoảng và đoạn, ta không liệt kê được phần tử, nên trục số đóng vai trò của biểu đồ Ven. Chỗ cần cẩn thận nhất là các đầu mút: mỗi đầu mút ta dừng lại hỏi riêng xem nó có được lấy không.
 
 :::example Các phép toán trên khoảng, đoạn
 Cho $A=[-3; 2)$ và $B=(0; 5]$. Tìm $A\cap B$, $A\cup B$, $A\setminus B$, $B\setminus A$ và $C_{\mathbb{R}}A$.
@@ -191,9 +191,9 @@ Với hai tập hữu hạn $A$, $B$:
 $$n(A\cup B)=n(A)+n(B)-n(A\cap B).$$
 :::
 
-**Vì sao?** Khi cộng $n(A)+n(B)$, mỗi phần tử chỉ thuộc một tập được đếm một lần, còn mỗi phần tử của $A\cap B$ được đếm hai lần. Trừ đi $n(A\cap B)$ thì mỗi phần tử của $A\cup B$ được đếm đúng một lần. Ở ví dụ trên: $5+5-3=7$.
+Đây chính là chỗ đã làm phép cộng $21+17$ ở đầu bài "lừa" ta. **Vì sao phải trừ?** Khi cộng $n(A)+n(B)$, mỗi phần tử chỉ thuộc một tập được đếm một lần, còn mỗi phần tử của $A\cap B$ được đếm hai lần. Trừ đi $n(A\cap B)$ thì mỗi phần tử của $A\cup B$ được đếm đúng một lần. Ở ví dụ trên: $5+5-3=7$.
 
-Bây giờ ta trả lời câu hỏi về hai câu lạc bộ ở đầu bài.
+Giờ thì câu hỏi về hai câu lạc bộ ở đầu bài chỉ còn là một phép thay số.
 
 :::example Hai câu lạc bộ
 Lớp 10A có $38$ học sinh; $21$ bạn chơi bóng rổ, $17$ bạn chơi cờ vua và $5$ bạn không tham gia câu lạc bộ nào. Có bao nhiêu bạn tham gia cả hai câu lạc bộ?
@@ -212,6 +212,7 @@ Vậy có $5$ bạn tham gia cả hai câu lạc bộ.
 :::
 
 :::warning Những sai lầm thường gặp
+Phần lớn lỗi ở bài này không do không hiểu, mà do viết vội. Bạn đọc qua một lượt để biết mình cần chậm lại ở đâu.
 - **Ngoặc vuông ở vô cực.** Viết $[2; +\infty]$. Sai vì $+\infty$ không phải một số nên không thể "lấy". Đúng: $[2; +\infty)$.
 - **Cộng thẳng số phần tử.** Viết $n(A\cup B)=n(A)+n(B)$ khi hai tập có phần chung. Sai vì phần chung bị đếm hai lần. Đúng: trừ đi $n(A\cap B)$.
 - **Bỏ quên đầu mút khi lấy hiệu.** Với $A=[-3; 2)$, $B=(0; 5]$, viết $A\setminus B=[-3; 0)$. Sai vì $0\notin B$ nên $0$ vẫn còn trong hiệu. Đúng: $A\setminus B=[-3; 0]$.
@@ -244,9 +245,11 @@ Vậy có $5$ bạn tham gia cả hai câu lạc bộ.
 - Với khoảng, đoạn: vẽ lên trục số và xét riêng từng đầu mút.
 - $n(A\cup B)=n(A)+n(B)-n(A\cap B)$.
 
+Trở lại lớp 10A: phép cộng $21+17$ vừa bằng sĩ số mà vẫn có $5$ bạn đứng ngoài, vì $5$ bạn chơi cả hai môn đã bị đếm hai lần. Mỗi khi đếm hai nhóm có phần chung, bạn hãy tự hỏi: phần chung đã bị đếm mấy lần?
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có nhắc lại kiến thức cần dùng và gợi ý các bước. Bạn cứ tự làm trước, và với bài về khoảng, đoạn thì hãy vẽ trục số ra giấy; vẽ rồi mới viết ngoặc sẽ đỡ nhầm hơn nhiều. Sau đó hãy bấm xem lời giải để so.
 
 :::exercise
 Liệt kê các phần tử của mỗi tập hợp.

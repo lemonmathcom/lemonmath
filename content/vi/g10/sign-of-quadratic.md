@@ -12,20 +12,20 @@ minutes: 25
 
 Bạn Minh ném một quả bóng thẳng lên cao. Độ cao của bóng sau $t$ giây là $h=-5t^2+20t$ (mét). Sau $1$ giây bóng ở độ cao $15$ m, sau $2$ giây ở $20$ m, sau $3$ giây lại về $15$ m. Vậy trong khoảng thời gian nào bóng cao **hơn** $15$ m?
 
-Câu hỏi này là một bất phương trình bậc hai. Để giải nó, ta cần biết khi nào một tam thức bậc hai dương, khi nào âm.
+Nhìn bảng số, ta đoán ngay là "giữa giây thứ $1$ và giây thứ $3$". Nhưng đoán từ vài con số thì chưa chắc: biết đâu bóng lại xuống dưới $15$ m ở đâu đó trong khoảng ấy? Câu hỏi này thật ra là một bất phương trình bậc hai. Để trả lời chắc chắn, ta cần biết một tam thức bậc hai dương ở đâu, âm ở đâu, và bài này cho bạn đúng công cụ đó.
 
 ## Định lí về dấu
 
 ### Khám phá: dấu đổi ở đâu?
 
-Xét $f(x)=x^2-5x+6$. Ta tính vài giá trị:
+Trước khi có định lí, ta cứ tò mò tính thử. Xét $f(x)=x^2-5x+6$ và một vài giá trị của $x$:
 
 | $x$ | $0$ | $1$ | $2$ | $2{,}5$ | $3$ | $4$ | $5$ |
 |---|---|---|---|---|---|---|---|
 | $f(x)$ | $6$ | $2$ | $0$ | $-0{,}25$ | $0$ | $2$ | $6$ |
 | dấu | $+$ | $+$ | $0$ | $-$ | $0$ | $+$ | $+$ |
 
-Tam thức dương ở hai bên và âm ở giữa. Dấu chỉ đổi tại $x=2$ và $x=3$, đúng là hai nghiệm của $f(x)=0$.
+Bạn để ý hàng cuối: tam thức dương ở hai bên và âm ở giữa. Dấu chỉ đổi tại $x=2$ và $x=3$, mà đó lại đúng là hai nghiệm của $f(x)=0$. Nghĩ một chút thì thấy hợp lí: muốn đổi từ dương sang âm, đồ thị phải đi qua trục hoành, tức là phải đi qua một nghiệm.
 
 :::graph Parabol $y=x^2-5x+6$
 alt: Parabol quay lên cắt trục hoành tại x bằng 2 và x bằng 3, nằm dưới trục hoành giữa hai nghiệm
@@ -36,7 +36,7 @@ point: (2, 0) "2" below
 point: (3, 0) "3" below
 :::
 
-Nhận xét này đúng với mọi tam thức bậc hai, và được phát biểu thành định lí dưới đây.
+Điều ta vừa thấy không phải tình cờ: nó đúng với mọi tam thức bậc hai. Chỉ cần biết dấu của $a$ và số nghiệm là đoán được dấu ở khắp nơi.
 
 :::definition Tam thức bậc hai
 **Tam thức bậc hai** là biểu thức $f(x)=ax^2+bx+c$ với $a\neq 0$. Biệt thức của nó là $\Delta=b^2-4ac$.
@@ -50,7 +50,7 @@ Nhận xét này đúng với mọi tam thức bậc hai, và được phát bi�
 
 ### Vì sao định lí đúng?
 
-Khi $\Delta>0$ ta viết được $f(x)=a(x-x_1)(x-x_2)$. Nếu $x$ nằm ngoài hai nghiệm thì hai thừa số $x-x_1$ và $x-x_2$ cùng dấu, tích của chúng dương, nên $f(x)$ cùng dấu $a$. Nếu $x$ nằm giữa thì hai thừa số trái dấu, nên $f(x)$ trái dấu $a$.
+Định lí nghe có vẻ phải học thuộc, nhưng lí do đằng sau rất gần gũi: đó chỉ là quy tắc nhân dấu bạn đã biết. Khi $\Delta>0$ ta viết được $f(x)=a(x-x_1)(x-x_2)$. Nếu $x$ nằm ngoài hai nghiệm thì hai thừa số $x-x_1$ và $x-x_2$ cùng dấu, tích của chúng dương, nên $f(x)$ cùng dấu $a$. Nếu $x$ nằm giữa thì hai thừa số trái dấu, nên $f(x)$ trái dấu $a$.
 
 Khi $\Delta\le 0$, ta biến đổi
 $$f(x)=a\left[\left(x+\frac{b}{2a}\right)^2-\frac{\Delta}{4a^2}\right].$$
@@ -58,14 +58,14 @@ Biểu thức trong ngoặc vuông không âm (vì $-\Delta\ge 0$), và chỉ b�
 
 ## Giải bất phương trình bậc hai
 
-Để giải một bất phương trình bậc hai, ta làm theo thứ tự:
+Có định lí trong tay, giải bất phương trình bậc hai chỉ còn là làm cẩn thận từng bước. Bạn cứ đi theo thứ tự này:
 
 1. Chuyển mọi số hạng về một vế, vế kia bằng $0$.
 2. Tính $\Delta$, tìm nghiệm (nếu có).
 3. Dùng định lí về dấu, chọn phần có dấu cần tìm.
 4. Viết tập nghiệm: dấu $<$, $>$ dùng ngoặc tròn; dấu $\le$, $\ge$ lấy cả nghiệm.
 
-Ta bắt đầu với trường hợp quen thuộc nhất: hai nghiệm và $a>0$.
+Ta bắt đầu với trường hợp quen thuộc nhất, cũng chính là tam thức ở phần khám phá: hai nghiệm và $a>0$.
 
 :::example Hai nghiệm, $a>0$
 Giải $x^2-5x+6<0$.
@@ -81,7 +81,7 @@ Vậy tập nghiệm là $S=(2; 3)$.
 **Kiểm tra.** Bảng giá trị ở phần khám phá cho $f(2{,}5)=-0{,}25<0$ và $f(0)=6>0$, khớp với kết luận.
 :::
 
-Khi $a<0$, parabol quay bề lõm xuống dưới và hình bị lật. Đây là chỗ hay nhầm nhất.
+Bây giờ đến chỗ nhiều bạn hay nhầm nhất. Khi $a<0$, parabol úp xuống, cả bức tranh bị lật ngược: phần giữa hai nghiệm giờ lại nằm phía trên trục hoành. Bạn đừng học vẹt "giữa thì âm", mà hãy luôn hỏi: dấu của $a$ là gì?
 
 :::example Hai nghiệm, $a<0$
 Giải $-x^2+4x-3\ge 0$.
@@ -97,7 +97,7 @@ Vậy tập nghiệm là $S=[1; 3]$.
 **Kiểm tra.** Nhân hai vế với $-1$ và đổi chiều, ta được $x^2-4x+3\le 0$. Tam thức này có $a=1>0$, không dương ở giữa hai nghiệm $1$ và $3$: cùng kết quả.
 :::
 
-Hai ví dụ tiếp theo là các trường hợp đặc biệt: $\Delta<0$ thì không có nghiệm nào chia trục số, còn $\Delta=0$ thì chỉ có một điểm.
+Hai ví dụ tiếp theo là các trường hợp đặc biệt. Khi $\Delta<0$, parabol không chạm trục hoành, nên không có điểm nào để dấu đổi; khi $\Delta=0$, nó chỉ chạm trục tại đúng một điểm rồi quay lại.
 
 :::example Tam thức không có nghiệm
 Giải hai bất phương trình $x^2+x+1>0$ và $2x^2-3x+5<0$.
@@ -123,7 +123,7 @@ Vậy bất phương trình thứ nhất có $S=\{3\}$, bất phương trình th
 
 ## Bất phương trình dạng thương
 
-Với một phân thức, dấu của thương phụ thuộc vào dấu của cả tử và mẫu, và mẫu phải khác $0$. Bảng xét dấu giúp ta theo dõi cả hai cùng lúc.
+Ý tưởng "dấu chỉ đổi tại nơi biểu thức bằng $0$" còn dùng được xa hơn, chẳng hạn với một phân thức. Dấu của thương phụ thuộc vào dấu của cả tử và mẫu, và mẫu phải khác $0$. Một bảng xét dấu nhỏ giúp ta theo dõi cả hai cùng lúc mà không rối.
 
 :::example Bảng xét dấu của một phân thức
 Giải $\dfrac{x-1}{x+2}\le 0$.
@@ -143,7 +143,7 @@ Vậy tập nghiệm là $S=(-2; 1]$.
 
 ## Bài toán thực tế
 
-Bây giờ ta đã đủ công cụ để trả lời câu hỏi về quả bóng ở đầu bài.
+Giờ ta quay lại quả bóng của Minh. Lần này ta không đoán từ bảng số nữa, mà giải hẳn bất phương trình.
 
 :::example Khi nào bóng cao hơn 15 m?
 Độ cao của quả bóng sau $t$ giây là $h=-5t^2+20t$ (mét). Trong khoảng thời gian nào bóng cao hơn $15$ m?
@@ -170,6 +170,7 @@ point: (3, 15) "3" below-left
 :::
 
 :::warning Những sai lầm thường gặp
+Bốn lỗi dưới đây đều đến từ việc nhớ quy tắc mà quên lí do. Khi phân vân, bạn cứ vẽ phác parabol ra là thấy ngay.
 - **Quên lật hình khi $a<0$.** Sai: "$-x^2+4x-3\ge 0$ nên lấy ngoài hai nghiệm, $S=(-\infty; 1]\cup[3; +\infty)$". Lí do sai: quy tắc "ngoài hai nghiệm" là nơi tam thức **cùng dấu $a$**, ở đây là âm. Đúng: lấy phần giữa, $S=[1; 3]$.
 - **Chia cho số âm mà không đổi chiều.** Sai: $-5t^2+20t-15>0\iff t^2-4t+3>0$. Lí do sai: chia cho $-5$ thì phải đổi chiều bất phương trình. Đúng: $t^2-4t+3<0$.
 - **Kết luận vội khi $\Delta<0$.** Sai: "$2x^2-3x+5<0$ không có nghiệm nên $S=\mathbb{R}$". Lí do sai: $\Delta<0$ chỉ cho biết tam thức luôn cùng dấu $a$, ở đây luôn dương. Đúng: $S=\varnothing$.
@@ -197,9 +198,11 @@ point: (3, 15) "3" below-left
 - Giải bất phương trình: một vế bằng $0$ → $\Delta$ và nghiệm → định lí về dấu → viết tập nghiệm, chú ý dấu bằng.
 - Chia hoặc nhân với số âm thì đổi chiều. Bất phương trình dạng thương: lập bảng xét dấu, loại giá trị làm mẫu bằng $0$.
 
+Quay lại câu hỏi đầu bài: bóng của Minh cao hơn $15$ m đúng trong khoảng $1<t<3$, và giờ ta biết chắc vì sao, không còn phải đoán từ vài con số. Điều đáng nhớ nhất: dấu của tam thức chỉ đổi tại nghiệm, còn đổi ra sao thì do dấu của $a$ quyết định.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có nhắc lại kiến thức cần dùng và gợi ý các bước. Bạn cứ tự làm trước; mỗi bài nên vẽ phác một parabol nhỏ bên lề để kiểm tra dấu, thói quen ấy cứu bạn khỏi rất nhiều lỗi. Sau đó hãy bấm xem lời giải để so.
 
 :::exercise
 Giải $x^2-4x+3>0$.

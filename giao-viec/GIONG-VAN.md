@@ -34,8 +34,8 @@ Quyết định 12/11/2026: chủ dự án muốn toàn bộ phần lời (mở 
 | 16 | g10/probability-practice | xong 13/11/2026 |
 | 17 | g10/quadratic-function | xong 13/11/2026 |
 | 18 | g10/scalar-multiplication | xong 13/11/2026 |
-| 19 | g10/sets-and-set-operations |  |
-| 20 | g10/sign-of-quadratic |  |
+| 19 | g10/sets-and-set-operations | xong 13/11/2026 |
+| 20 | g10/sign-of-quadratic | xong 13/11/2026 |
 | 21 | g10/statements |  |
 | 22 | g10/systems-linear-inequalities |  |
 | 23 | g10/triangle-relations |  |

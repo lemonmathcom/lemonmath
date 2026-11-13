@@ -12,20 +12,20 @@ minutes: 25
 
 Minh throws a ball straight up. Its height after $t$ seconds is $h=-5t^2+20t$ (metres). After $1$ second the ball is at $15$ m, after $2$ seconds at $20$ m, and after $3$ seconds back at $15$ m. So during which time interval is the ball **higher** than $15$ m?
 
-This question is a quadratic inequality. To solve it, we need to know where a quadratic expression is positive and where it is negative.
+Looking at the numbers, we would guess "between second $1$ and second $3$". But a guess from a few values is not certain: what if the ball dipped below $15$ m somewhere in between? The question is really a quadratic inequality. To answer it for sure, we need to know where a quadratic expression is positive and where it is negative, and this lesson gives you exactly that tool.
 
 ## The sign theorem
 
 ### Explore: where does the sign change?
 
-Take $f(x)=x^2-5x+6$. We compute a few values:
+Before any theorem, let us just be curious and try some values. Take $f(x)=x^2-5x+6$:
 
 | $x$ | $0$ | $1$ | $2$ | $2.5$ | $3$ | $4$ | $5$ |
 |---|---|---|---|---|---|---|---|
 | $f(x)$ | $6$ | $2$ | $0$ | $-0.25$ | $0$ | $2$ | $6$ |
 | sign | $+$ | $+$ | $0$ | $-$ | $0$ | $+$ | $+$ |
 
-The quadratic is positive on both sides and negative in the middle. The sign changes only at $x=2$ and $x=3$, which are exactly the roots of $f(x)=0$.
+Look at the last row: the quadratic is positive on both sides and negative in the middle. The sign changes only at $x=2$ and $x=3$, which are exactly the roots of $f(x)=0$. That makes sense when you think about it: to go from positive to negative, the graph has to cross the $x$-axis, that is, pass through a root.
 
 :::graph The parabola $y=x^2-5x+6$
 alt: An upward parabola crossing the x-axis at x equal 2 and x equal 3, below the axis between the roots
@@ -36,7 +36,7 @@ point: (2, 0) "2" below
 point: (3, 0) "3" below
 :::
 
-This observation holds for every quadratic expression, and it is stated as the theorem below.
+What we have just seen is no accident: it holds for every quadratic expression. Knowing the sign of $a$ and the number of roots is enough to tell the sign everywhere.
 
 :::definition Quadratic expression
 A **quadratic expression** is an expression $f(x)=ax^2+bx+c$ with $a\neq 0$. Its discriminant is $\Delta=b^2-4ac$.
@@ -50,7 +50,7 @@ A **quadratic expression** is an expression $f(x)=ax^2+bx+c$ with $a\neq 0$. Its
 
 ### Why is it true?
 
-When $\Delta>0$ we can write $f(x)=a(x-x_1)(x-x_2)$. If $x$ lies outside the roots, the factors $x-x_1$ and $x-x_2$ have the same sign, so their product is positive and $f(x)$ has the sign of $a$. If $x$ lies between the roots, the two factors have opposite signs, so $f(x)$ has the opposite sign to $a$.
+The theorem may look like something to memorise, but the reason behind it is homely: it is just the rule for multiplying signs. When $\Delta>0$ we can write $f(x)=a(x-x_1)(x-x_2)$. If $x$ lies outside the roots, the factors $x-x_1$ and $x-x_2$ have the same sign, so their product is positive and $f(x)$ has the sign of $a$. If $x$ lies between the roots, the two factors have opposite signs, so $f(x)$ has the opposite sign to $a$.
 
 When $\Delta\le 0$, we rewrite
 $$f(x)=a\left[\left(x+\frac{b}{2a}\right)^2-\frac{\Delta}{4a^2}\right].$$
@@ -58,14 +58,14 @@ The expression in square brackets is non-negative (because $-\Delta\ge 0$), and 
 
 ## Solving quadratic inequalities
 
-To solve a quadratic inequality, we work in this order:
+With the theorem in hand, solving a quadratic inequality is just a matter of careful steps. Work in this order:
 
 1. Move every term to one side, so the other side is $0$.
 2. Compute $\Delta$ and find the roots (if any).
 3. Use the sign theorem and keep the part with the sign you want.
 4. Write the solution set: round brackets for $<$, $>$; include the roots for $\le$, $\ge$.
 
-We start with the most familiar case: two roots and $a>0$.
+We start with the most familiar case, the very expression from the exploration: two roots and $a>0$.
 
 :::example Two roots, $a>0$
 Solve $x^2-5x+6<0$.
@@ -81,7 +81,7 @@ So the solution set is $S=(2, 3)$.
 **Check.** The table in the exploration gives $f(2.5)=-0.25<0$ and $f(0)=6>0$, which agrees with the conclusion.
 :::
 
-When $a<0$, the parabola opens downward and the picture is flipped. This is where mistakes happen most often.
+Now comes the place where many students slip. When $a<0$, the parabola opens downwards and the whole picture is flipped: the part between the roots now lies above the $x$-axis. Do not learn "between means negative" by rote; always ask: what is the sign of $a$?
 
 :::example Two roots, $a<0$
 Solve $-x^2+4x-3\ge 0$.
@@ -97,7 +97,7 @@ So the solution set is $S=[1, 3]$.
 **Check.** Multiplying both sides by $-1$ and reversing the sign gives $x^2-4x+3\le 0$. This quadratic has $a=1>0$ and is non-positive between the roots $1$ and $3$: the same result.
 :::
 
-The next two examples are special cases: with $\Delta<0$ there is no root to cut the number line, and with $\Delta=0$ there is only one point.
+The next two examples are special cases. When $\Delta<0$, the parabola never touches the $x$-axis, so there is nowhere for the sign to change; when $\Delta=0$, it touches the axis at exactly one point and turns back.
 
 :::example A quadratic with no roots
 Solve the two inequalities $x^2+x+1>0$ and $2x^2-3x+5<0$.
@@ -123,7 +123,7 @@ So the first inequality has $S=\{3\}$, and the second has $S=\mathbb{R}\setminus
 
 ## A quotient inequality
 
-With a fraction, the sign of the quotient depends on the signs of both the numerator and the denominator, and the denominator must not be $0$. A sign table keeps track of both at once.
+The idea "the sign can only change where the expression is $0$" reaches further, for example to a fraction. The sign of a quotient depends on the signs of both the numerator and the denominator, and the denominator must not be $0$. A small sign table keeps track of both at once without confusion.
 
 :::example Sign table for a fraction
 Solve $\dfrac{x-1}{x+2}\le 0$.
@@ -143,7 +143,7 @@ So the solution set is $S=(-2, 1]$.
 
 ## A real-life problem
 
-Now we have all the tools to answer the question about the ball from the start of the lesson.
+Now back to Minh's ball. This time we do not guess from a table; we solve the inequality properly.
 
 :::example When is the ball above 15 m?
 The height of the ball after $t$ seconds is $h=-5t^2+20t$ (metres). During which time interval is the ball higher than $15$ m?
@@ -170,6 +170,7 @@ point: (3, 15) "3" below-left
 :::
 
 :::warning Common mistakes
+All four mistakes below come from remembering a rule but forgetting the reason. When in doubt, sketch the parabola and you will see straight away.
 - **Not flipping the picture when $a<0$.** Wrong: "$-x^2+4x-3\ge 0$, so take outside the roots, $S=(-\infty, 1]\cup[3, +\infty)$". Why it is wrong: "outside the roots" is where the quadratic has **the sign of $a$**, which here is negative. Right: take the middle, $S=[1, 3]$.
 - **Dividing by a negative number without reversing.** Wrong: $-5t^2+20t-15>0\iff t^2-4t+3>0$. Why it is wrong: dividing by $-5$ reverses the inequality. Right: $t^2-4t+3<0$.
 - **Jumping to a conclusion when $\Delta<0$.** Wrong: "$2x^2-3x+5<0$ has no roots, so $S=\mathbb{R}$". Why it is wrong: $\Delta<0$ only says the quadratic always has the sign of $a$, here always positive. Right: $S=\varnothing$.
@@ -197,9 +198,11 @@ point: (3, 15) "3" below-left
 - Solving an inequality: one side zero → $\Delta$ and roots → sign theorem → solution set, minding the equals sign.
 - Multiplying or dividing by a negative number reverses the inequality. For a quotient: make a sign table and exclude values that make the denominator $0$.
 
+Back to the opening question: Minh's ball is higher than $15$ m exactly for $1<t<3$, and now we know why for certain, rather than guessing from a few numbers. The thing to remember: the sign of a quadratic can only change at a root, and how it changes is decided by the sign of $a$.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise reminds you what you need and gives some steps to start. Have a go yourself first; for each one, sketch a small parabola in the margin to check the signs, a habit that saves you from many slips. Then open the solution and compare.
 
 :::exercise
 Solve $x^2-4x+3>0$.
