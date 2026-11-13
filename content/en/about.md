@@ -9,6 +9,12 @@ Lemonmath began with a simple wish: that every student could have a patient teac
 
 The lessons run from grade 1 to grade 12 and follow the content and order of Vietnam's current mathematics curriculum (the 2018 general education programme, as used in the *Kết nối tri thức* textbook series). Every page comes in **English** and in **Tiếng Việt**, with the same content and the same numbers.
 
+## A way to get better at studying on your own
+
+What Lemonmath most wants to build is the ability to learn independently. So every lesson follows the same four steps: **learn** from the lesson at your own pace, **practise** with exercises that have full solutions, **test yourself** with a test that is marked at once, then **look back** through feedback that tells you your level, why marks were lost and what to do next.
+
+Teachers and parents remain the most important companions. Lemonmath simply hopes to be something to lean on in the hours when a student has to study alone.
+
 ## What is ready now?
 
 - **Grades 9, 10 and 12** have lessons for the whole year.

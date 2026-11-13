@@ -21,7 +21,7 @@ const { execFileSync } = require('child_process');
 const crypto = require('crypto');
 const katex = require('katex');
 const { marked } = require('marked');
-const { render, esc } = require('./render.js');
+const { render, esc, parseQuiz, optCols } = require('./render.js');
 const { mascot, icon } = require('./art.js');
 const { UI } = require('./ui.js');
 const { worksheet, WS_DIR, WS_LABEL } = require('./worksheet.js');
@@ -98,8 +98,8 @@ if (!/^https:\/\/[^\s/]+$/.test(site.url)) fail('data/curriculum.json: "url" ph�
 
 const LANGS = ['en', 'vi'];
 const LANG = {
-  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', exams: 'exams', htmlLang: 'en', locale: 'en-US', name: 'English' },
-  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', exams: 'on-thi', htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
+  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', exams: 'exams', teachers: 'teachers', htmlLang: 'en', locale: 'en-US', name: 'English' },
+  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', exams: 'on-thi', teachers: 'giao-vien', htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
 };
 const LEVEL = (n) => (n <= 5 ? 'primary' : n <= 9 ? 'middle' : 'high');
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -146,6 +146,7 @@ const aboutDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].about);
 const paperDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].paper);
 const parentsDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].parents);
 const weekDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].week);
+const teachersDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].teachers);
 const abs = (dir) => site.url + '/' + (dir ? dir + '/' : '');
 const other = (lang) => (lang === 'en' ? 'vi' : 'en');
 
@@ -282,6 +283,18 @@ function pageActions(lang, d, o) {
     (o.why ? ' <a class="ws-why" href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paperWhy) + '</a>' : '') + '</p>\n';
 }
 
+/* Closing block of every page: an invitation to pass the page on (works without JavaScript through the plain links). */
+function spreadHtml(lang, url, title) {
+  const T = UI[lang];
+  const fb = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+  const mail = 'mailto:?subject=' + encodeURIComponent(T.spreadSubject) + '&body=' + encodeURIComponent(T.spreadBody + '\n' + title + '\n' + url);
+  return '<section class="spread" aria-labelledby="spread-h">\n  <div class="spread-in">' + mascot({ cls: 'spread-mark', mood: 'wow' }) + '<div><h2 id="spread-h">' + esc(T.spreadH) + '</h2>\n  <p>' + esc(T.spreadP) + '</p>\n' +
+    '  <p class="spread-actions"><button type="button" class="btn share-lesson" data-copied="' + esc(T.copied) + '">🔗 ' + esc(T.spreadShare) + '</button> ' +
+    '<a class="btn btn-outline" href="' + esc(fb) + '" target="_blank" rel="noopener nofollow">Facebook</a> ' +
+    '<a class="btn btn-outline" href="' + esc(mail) + '">✉ ' + esc(T.spreadMail) + '</a> ' +
+    '<button type="button" class="btn btn-outline copy-link" data-copied="' + esc(T.copied) + '" hidden>' + esc(T.spreadCopy) + '</button></p></div></div>\n</section>\n';
+}
+
 function shell(o) {
   const lang = o.lang, d = o.dir, T = UI[lang], L = LANG[lang];
   const A = (f) => relFile(d, f);
@@ -326,7 +339,7 @@ function shell(o) {
 
   const switchLink = '<a class="lang-btn" href="' + relDir(d, o.altDir) + '" hreflang="' + altLang + '" lang="' + altLang + '" data-lang="' + altLang + '" title="' + esc(T.switchTitle) + '">' + icon('globe', 18) + '<span>' + LANG[altLang].name + '</span><b class="lang-short" aria-hidden="true">' + altLang.toUpperCase() + '</b></a>';
 
-  const mainLinks = '<a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsNav) + '</a><a href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paper) + '</a><a href="' + relDir(d, parentsDir(lang)) + '">' + esc(T.parents) + '</a><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a>';
+  const mainLinks = '<a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsNav) + '</a><a href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paper) + '</a><a href="' + relDir(d, parentsDir(lang)) + '">' + esc(T.parents) + '</a><a href="' + relDir(d, teachersDir(lang)) + '">' + esc(T.teachers) + '</a><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a>';
   // the drawer (phones, tablets held upright): the main menu first, then the lessons of this grade
   const drawerTop = '<div class="side-top"><span>Menu</span><button id="menu-close" class="icon-btn side-close" type="button" aria-label="' + esc(T.closeMenu) + '" hidden>✕</button></div>\n<nav class="side-main" aria-label="' + esc(T.mainNav) + '">' + mainLinks + '</nav>\n';
   const side = (o.side
@@ -349,9 +362,10 @@ function shell(o) {
     '</header>\n' +
     '<div class="layout">\n' + side +
     '  <main id="main" class="main" tabindex="-1">\n    <div class="page' + (o.wide ? ' wide' : '') + '">\n' + o.body + '\n    </div>\n  </main>\n</div>\n' +
+    spreadHtml(lang, canonical, o.title) +
     '<footer class="footer">\n  ' + mascot({ cls: 'foot-mark' }) + '\n  <p>© ' + YEAR + ' ' + esc(site.name) + ' · ' + esc(T.footer) + '</p>\n' +
     '  <nav aria-label="' + esc(T.aboutNav) + '"><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a> · <a href="https://github.com/lemonmathcom/lemonmath/issues">' + esc(T.report) + '</a> · <button type="button" class="foot-print" onclick="window.print()">🖨 ' + esc(T.printPage) + '</button></nav>\n</footer>\n' +
-    '<script src="' + A('assets/site.js') + '" defer></script>\n' + ANALYTICS + '</body>\n</html>\n';
+    '<script src="' + A('assets/site.js') + '" defer></script>\n' + (o.scripts || []).map((f) => '<script src="' + A(f) + '" defer></script>\n').join('') + ANALYTICS + '</body>\n</html>\n';
 }
 
 function put(lang, dir, altDir, html, lastmod, noindex) {
@@ -432,6 +446,9 @@ function homePage(lang) {
     '<div class="hero-art" aria-hidden="true">' + mascot({ cls: 'hero-mascot', mood: 'wow' }) + '<span class="float f1">x²</span><span class="float f2">π</span><span class="float f3">∑</span><span class="float f4">√</span></div>\n</section>\n' +
     '<section id="grades" class="grades" aria-labelledby="grades-h"><h2 id="grades-h">' + esc(T.pickGrade) + '</h2>\n' + ['primary', 'middle', 'high'].map(levelBlock).join('\n') + '</section>\n' +
     '<section id="exams" class="grades" aria-labelledby="exams-h"><h2 id="exams-h">' + esc(T.examsHome) + '</h2>\n<p class="lead">' + esc(T.examsHomeLead) + ' <a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsAll) + ' →</a></p>\n<div class="cards">' + exams.map((e) => examCard(lang, d, e)).join('\n') + '</div></section>\n' +
+    '<section class="features loop" aria-labelledby="loop-h"><h2 id="loop-h">' + esc(T.loopH) + '</h2><p class="lead">' + esc(T.loopLead) + '</p><ol class="feat-grid loop-grid">' +
+    T.loop.map((f, i) => '<li class="feat"><span class="feat-ico loop-n">' + (i + 1) + '</span><h3>' + esc(f[0]) + '</h3><p>' + esc(f[1]) + '</p></li>').join('') + '</ol>' +
+    '<p class="loop-teach">' + esc(T.loopTeach) + ' <a href="' + relDir(d, teachersDir(lang)) + '">' + esc(T.teachTitle) + ' →</a></p></section>\n' +
     '<section class="features" aria-labelledby="why-h"><h2 id="why-h">' + esc(T.why) + '</h2><div class="feat-grid">' +
     T.features.map((f) => '<div class="feat"><span class="feat-ico">' + icon(f[0], 28) + '</span><h3>' + esc(f[1]) + '</h3><p>' + esc(f[2]) + '</p></div>').join('') + '</div></section>\n' +
     '<section class="featured" aria-labelledby="g10-h"><h2 id="g10-h">' + esc(T.featuredG10) + '</h2><div class="cards">' + g10.chapters.map((ch) => chapterCard(lang, d, ch, true)).join('\n') + '</div></section>';
@@ -571,10 +588,75 @@ function aboutPage(lang, page, dirFn) {
     jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: page.meta.title, url: abs(d) }])] }), page.modified);
 }
 
+/*
+ * Teachers' corner: a test builder fed by a question bank, and a class score analyser (assets/teacher.js).
+ * The bank is every :::quiz question of the lessons (real exam papers are left out: they belong to their schools).
+ * Formulas stay as TeX inside <span class="tex"> and are drawn in the browser, which keeps the files small.
+ */
+const BANK_FIXED = /\b(cả|both|all of|none of|neither|either|above)\b|[A-D]\s*(và|and|hoặc|or|,)\s*[A-D]\b|đáp án|phương án|(ý|câu|khẳng định) trên|option/i;
+const BANK_CONTEXT = /câu (hỏi )?(trên|trước|\d)|(ở|nói|kể|nêu) trên|(bảng|hình|mẫu số liệu|dữ liệu|đề bài|bài toán) (ở )?(trên|trước)|previous|preceding|above|earlier|question \d|same (data|table|situation)/i;
+function writeBank(lang) {
+  const dir = teachersDir(lang);
+  const fake = { renderToString: (tex, o) => '<span class="tex"' + (o && o.displayMode ? ' data-d="1"' : '') + '>' + esc(tex) + '</span>' };
+  const uid = { n: 9000 };
+  const md = (t, where) => resolveLinks(render(t, { marked, katex: fake, lang, uid, warn: () => {} }).html, dir, lang, where + ' (ngân hàng câu hỏi)').trim();
+  const one = (t, where) => { const h = md(t, where); return /^<p>[\s\S]*<\/p>$/.test(h) && h.indexOf('<p>', 3) === -1 ? h.slice(3, -4) : h; };
+  const index = [];
+  tracks.forEach((g) => {
+    const out = { name: gName(lang, g), chapters: [], items: [] };
+    let li = 0;
+    g.chapters.forEach((ch) => {
+      const rows = [];
+      ch.lessons.forEach((ls) => {
+        const C = ls.content[lang];
+        if (C.meta.type === 'paper') return;
+        const n = { mc: 0, tf: 0, sa: 0 };
+        const re = /^:::quiz[ \t]*[^\n]*\n([\s\S]*?)^:::[ \t]*$/gm;
+        let m;
+        while ((m = re.exec(C.body))) {
+          parseQuiz(m[1]).forEach((it) => {
+            if (!it.key || !it.q || (it.type !== 'sa' && it.opts.length !== 4)) return;
+            if (BANK_CONTEXT.test(it.q)) return; // the question leans on another question of its own test
+            try {
+              const row = { l: li, y: it.type, q: md(it.q, C.rel), k: it.key, e: it.expl ? md(it.expl, C.rel) : '' };
+              if (it.type !== 'sa') row.o = it.opts.map((o) => one(it.type === 'mc' ? o.replace(/\.\s*$/, '') : o, C.rel));
+              if (it.type === 'mc') { row.c = optCols(it.opts); if (it.opts.some((o) => BANK_FIXED.test(o))) row.x = 1; }
+              out.items.push(row); n[it.type]++;
+            } catch (e) { warn(C.rel + ': bỏ qua một câu khi lập ngân hàng câu hỏi (' + e.message + ').'); }
+          });
+        }
+        if (n.mc + n.tf + n.sa) { rows.push({ i: li, t: C.meta.title, n: [n.mc, n.tf, n.sa] }); li++; }
+      });
+      if (rows.length) out.chapters.push({ t: ch[lang], lessons: rows });
+    });
+    if (!out.items.length) return;
+    const key = g.exam ? g.id : 'g' + g.n;
+    fs.mkdirSync(path.join(OUT, dir, 'bank'), { recursive: true });
+    fs.writeFileSync(path.join(OUT, dir, 'bank', key + '.json'), JSON.stringify(out));
+    index.push({ id: key, name: out.name, n: out.items.length });
+  });
+  fs.mkdirSync(path.join(OUT, dir, 'bank'), { recursive: true });
+  fs.writeFileSync(path.join(OUT, dir, 'bank', 'index.json'), JSON.stringify(index));
+  return index.reduce((a, b) => a + b.n, 0);
+}
+
+function teachersPage(lang, page) {
+  const T = UI[lang], d = teachersDir(lang), alt = teachersDir(other(lang));
+  const total = writeBank(lang);
+  const body = '<article class="lesson about teach"><nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n<h1>' + esc(page.meta.title) + '</h1>\n' +
+    '<p class="lead">' + esc(page.meta.description) + '</p>\n<noscript><p class="soon-note">' + esc(T.noJs) + '</p></noscript>\n' +
+    '<section id="tq-app" class="tool" data-bank="bank/" data-total="' + total + '" data-site="' + esc(site.name) + '" hidden></section>\n' +
+    '<section id="sc-app" class="tool" hidden></section>\n' +
+    '<div class="prose">\n' + resolveLinks(page.rendered.html, d, lang, 'teachers') + '\n</div></article>\n<div id="tq-out" hidden></div>';
+  put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: page.meta.title + ' | ' + site.name, description: page.meta.description, body, math: true, scripts: ['assets/katex/katex.min.js', 'assets/teacher.js'],
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: page.meta.title, url: abs(d) }])] }), page.modified);
+}
+
 function searchIndex(lang) {
   const T = UI[lang];
   const rows = [];
   rows.push({ t: T.examsNav, s: T.examsHome, u: examsDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
+  rows.push({ t: T.teachTitle, s: T.teachers, u: teachersDir(lang).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
   tracks.forEach((g) => {
     const full = g.status === 'full' && g.chapters.some((c) => c.lessons.length);
     rows.push({ t: gName(lang, g), s: T.levels[g.level][0], u: gradeDir(lang, g).slice(LANG[lang].prefix ? LANG[lang].prefix.length + 1 : 0) });
@@ -614,6 +696,7 @@ function copyAssets() {
   fs.mkdirSync(path.join(dest, 'fonts'), { recursive: true });
   const css = fs.readFileSync(cssFile, 'utf8').replace(/,url\(fonts\/[^)]*\.(?:woff|ttf)\) format\("[a-z]+"\)/g, '');
   fs.writeFileSync(path.join(dest, 'katex.min.css'), css);
+  fs.copyFileSync(path.join(dist, 'katex.min.js'), path.join(dest, 'katex.min.js')); // only the teachers' test builder loads it
   fs.readdirSync(fontsDir).filter((f) => f.endsWith('.woff2')).forEach((f) => fs.copyFileSync(path.join(fontsDir, f), path.join(dest, 'fonts', f)));
   const lic = path.join(dist, '..', 'LICENSE');
   if (fs.existsSync(lic)) fs.copyFileSync(lic, path.join(dest, 'LICENSE.txt'));
@@ -723,8 +806,8 @@ function report() {
 function main() {
   loadLessons();
   const about = {};
-  const paper = {}, parents = {}, week = {};
-  LANGS.forEach((l) => { about[l] = loadPage(l, 'about'); paper[l] = loadPage(l, 'learn-on-paper'); parents[l] = loadPage(l, 'parents'); week[l] = loadPage(l, 'this-week'); });
+  const paper = {}, parents = {}, week = {}, teach = {};
+  LANGS.forEach((l) => { about[l] = loadPage(l, 'about'); paper[l] = loadPage(l, 'learn-on-paper'); parents[l] = loadPage(l, 'parents'); week[l] = loadPage(l, 'this-week'); teach[l] = loadPage(l, 'teachers'); });
   const examsIntro = {};
   LANGS.forEach((l) => { examsIntro[l] = loadPage(l, 'exams'); });
   if (errors.length) report();
@@ -745,6 +828,7 @@ function main() {
     if (paper[lang]) aboutPage(lang, paper[lang], paperDir);
     if (parents[lang]) aboutPage(lang, parents[lang], parentsDir);
     if (week[lang]) aboutPage(lang, week[lang], weekDir);
+    if (teach[lang]) teachersPage(lang, teach[lang]);
     searchIndex(lang);
   });
 

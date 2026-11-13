@@ -9,6 +9,12 @@ Lemonmath bắt đầu từ một mong muốn rất giản dị: học sinh nào
 
 Các bài học đi từ lớp 1 đến lớp 12, theo đúng nội dung và thứ tự của chương trình môn Toán hiện hành (Chương trình giáo dục phổ thông 2018, bám theo bộ sách *Kết nối tri thức*). Trang nào cũng có bản **tiếng Việt** và bản **English**, cùng một nội dung, cùng một số liệu.
 
+## Một giải pháp để tự học tốt hơn
+
+Điều Lemonmath muốn bồi đắp nhất là khả năng tự học. Vì thế mỗi bài được sắp theo một vòng bốn bước: **học** bài giảng theo nhịp của mình, **luyện** bằng bài tập có lời giải đầy đủ, **tự kiểm tra** bằng bài test chấm ngay, rồi **nhìn lại** qua lời nhận xét cho biết mình đang ở mức nào, vì sao mất điểm và nên làm gì tiếp.
+
+Thầy cô và phụ huynh vẫn là người đồng hành quan trọng nhất. Lemonmath chỉ mong các em có thêm một chỗ dựa những lúc phải học một mình.
+
 ## Hiện đã có gì?
 
 - **Lớp 9, lớp 10 và lớp 12** đã có đủ bài học cho cả năm.
