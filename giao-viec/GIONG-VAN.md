@@ -36,7 +36,7 @@ Quyết định 12/11/2026: chủ dự án muốn toàn bộ phần lời (mở 
 | 18 | g10/scalar-multiplication | xong 13/11/2026 |
 | 19 | g10/sets-and-set-operations | xong 13/11/2026 |
 | 20 | g10/sign-of-quadratic | xong 13/11/2026 |
-| 21 | g10/statements |  |
+| 21 | g10/statements | xong 13/11/2026 |
 | 22 | g10/systems-linear-inequalities |  |
 | 23 | g10/triangle-relations |  |
 | 24 | g10/trig-ratios-0-180 |  |

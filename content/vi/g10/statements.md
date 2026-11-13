@@ -13,11 +13,11 @@ minutes: 20
 
 Bạn An đưa ra một khẳng định: "Với mọi số tự nhiên $n$, số $n^2-n+11$ là số nguyên tố." An thử $n=0, 1, 2, 3, 4, 5$ và được $11, 11, 13, 17, 23, 31$, toàn là số nguyên tố. An có được phép kết luận khẳng định của mình là đúng không?
 
-Để trả lời, ta cần biết chính xác thế nào là một câu "đúng" hay "sai", và cần bao nhiêu bằng chứng để khẳng định hoặc bác bỏ một câu nói về **mọi** số. Đó là nội dung của bài này.
+Sáu lần thử, sáu lần đúng, nghe rất thuyết phục. Nhưng khẳng định của An nói về **mọi** số tự nhiên, mà số tự nhiên thì nhiều vô kể. Vậy cần bao nhiêu bằng chứng mới đủ để tin một câu như thế, và cần bao nhiêu để bác bỏ nó? Muốn trả lời rõ ràng, trước hết ta phải nói cho thật chính xác thế nào là một câu "đúng" hay "sai". Cách nghĩ chính xác này sẽ theo bạn suốt môn Toán, vì mọi định lí đều là những câu như vậy.
 
 ## Mệnh đề là gì?
 
-Thử đọc bốn câu sau và hỏi: câu nào ta có thể trả lời "đúng" hoặc "sai"?
+Ta bắt đầu bằng một việc rất đời thường. Bạn đọc bốn câu sau và tự hỏi: câu nào ta có thể trả lời "đúng" hoặc "sai"?
 
 | Câu | Đúng hay sai? |
 |---|---|
@@ -26,7 +26,7 @@ Thử đọc bốn câu sau và hỏi: câu nào ta có thể trả lời "đún
 | "Hôm nay có kiểm tra không?" | Không trả lời được: đây là câu hỏi. |
 | "$2x-1=7$." | Chưa trả lời được: còn tuỳ $x$. |
 
-Hai câu đầu có một giá trị đúng sai rõ ràng. Câu thứ ba không khẳng định điều gì. Câu thứ tư đúng khi $x=4$ và sai khi $x=0$. Từ cách phân loại này ta có định nghĩa sau.
+Hai câu đầu có một giá trị đúng sai rõ ràng. Câu thứ ba chỉ hỏi, không khẳng định điều gì cả. Câu thứ tư thì lửng lơ: đúng khi $x=4$, sai khi $x=0$. Cách ta vừa phân loại chính là định nghĩa dưới đây, chỉ là được nói gọn lại.
 
 :::definition Mệnh đề
 **Mệnh đề** là một câu khẳng định hoặc **đúng** hoặc **sai**, không thể vừa đúng vừa sai.
@@ -54,14 +54,14 @@ Vậy (a), (b), (e) là mệnh đề; (d) là mệnh đề chứa biến; (c) kh
 
 ## Mệnh đề phủ định
 
-Mỗi mệnh đề có một "mặt trái" nói điều ngược lại. **Mệnh đề phủ định** của $P$, kí hiệu $\overline{P}$, đúng khi $P$ sai và sai khi $P$ đúng.
+Mỗi mệnh đề có một "mặt trái" nói điều ngược lại, và hai mặt ấy không bao giờ cùng đúng. **Mệnh đề phủ định** của $P$, kí hiệu $\overline{P}$, đúng khi $P$ sai và sai khi $P$ đúng.
 
 | $P$ | $\overline{P}$ |
 |---|---|
 | đúng | sai |
 | sai | đúng |
 
-Thường ta lập $\overline{P}$ bằng cách thêm (hoặc bớt) chữ "không" trước vị ngữ. Với một bất đẳng thức, ta đổi dấu theo cặp: phủ định của $>$ là $\le$, phủ định của $\ge$ là $<$.
+Thường ta lập $\overline{P}$ bằng cách thêm (hoặc bớt) chữ "không" trước vị ngữ. Với một bất đẳng thức thì cần tỉnh táo hơn một chút: phủ định của $>$ là $\le$, chứ không phải $<$, vì "không lớn hơn" còn gồm cả trường hợp bằng nhau. Tương tự, phủ định của $\ge$ là $<$.
 
 :::example Lập mệnh đề phủ định
 Viết mệnh đề phủ định của mỗi mệnh đề và cho biết mệnh đề nào trong hai mệnh đề là đúng.
@@ -77,11 +77,11 @@ Viết mệnh đề phủ định của mỗi mệnh đề và cho biết mệnh
 Vậy $\overline{P}$ sai, $\overline{Q}$ đúng; còn $R$ hay $\overline{R}$ đúng thì phải hỏi lớp 10A.
 :::
 
-Câu (c) cho thấy phủ định của "mọi" không phải là "không ai", mà là "có ít nhất một ... không". Ta sẽ quay lại điều này ở mục kí hiệu $\forall$, $\exists$.
+Câu (c) đáng để dừng lại một chút. Phủ định của "mọi bạn đều có" không phải là "không bạn nào có", mà chỉ là "có ít nhất một bạn không có". Nhiều bạn hay nhầm chỗ này, và ta sẽ quay lại nó ở mục kí hiệu $\forall$, $\exists$.
 
 ## Mệnh đề kéo theo và mệnh đề đảo
 
-Hãy nghĩ đến một lời hứa: "Nếu bạn đạt từ $8$ điểm trở lên thì cô thưởng một quyển sách." Lời hứa bị phá vỡ chỉ trong một trường hợp: bạn đạt $8$ điểm trở lên mà không được thưởng. Nếu bạn đạt $6$ điểm, lời hứa không nói gì, nên dù có thưởng hay không thì cô cũng không thất hứa.
+Câu "nếu ... thì ..." là kiểu câu ta gặp nhiều nhất trong toán, vì định lí nào cũng có dạng đó. Để hiểu khi nào nó đúng, hãy nghĩ đến một lời hứa: "Nếu bạn đạt từ $8$ điểm trở lên thì cô thưởng một quyển sách." Lời hứa bị phá vỡ chỉ trong một trường hợp: bạn đạt $8$ điểm trở lên mà không được thưởng. Nếu bạn đạt $6$ điểm, lời hứa không nói gì, nên dù có thưởng hay không thì cô cũng không thất hứa.
 
 :::definition Mệnh đề kéo theo
 Mệnh đề "nếu $P$ thì $Q$", kí hiệu $P \Rightarrow Q$, **chỉ sai khi $P$ đúng và $Q$ sai**. Các trường hợp còn lại đều đúng.
@@ -96,7 +96,7 @@ Mệnh đề "nếu $P$ thì $Q$", kí hiệu $P \Rightarrow Q$, **chỉ sai khi
 **Mệnh đề đảo** của $P \Rightarrow Q$ là $Q \Rightarrow P$.
 :::
 
-Một mệnh đề kéo theo đúng có thể có mệnh đề đảo sai. Ví dụ sau cho thấy điều đó.
+Chỗ dễ trượt chân là ở đây: một mệnh đề kéo theo đúng hoàn toàn có thể có mệnh đề đảo sai. Đảo hai vế của một câu đúng không có nghĩa là được một câu đúng, như ví dụ sau cho thấy.
 
 :::example Mệnh đề kéo theo và mệnh đề đảo
 Với số thực $a$, xét mệnh đề "Nếu $a>3$ thì $a^2>9$". Mệnh đề này có đúng không? Phát biểu và xét tính đúng sai của mệnh đề đảo.
@@ -114,7 +114,7 @@ Vậy mệnh đề "Nếu $a>3$ thì $a^2>9$" đúng, còn mệnh đề đảo c
 
 ### Điều kiện cần, điều kiện đủ và mệnh đề tương đương
 
-Khi $P \Rightarrow Q$ đúng, ta nói:
+Hai cụm "điều kiện cần", "điều kiện đủ" xuất hiện rất nhiều trong đề thi, và nghe thì dễ lẫn. Cách nhớ đơn giản nhất là bám vào chiều mũi tên. Khi $P \Rightarrow Q$ đúng, ta nói:
 - $P$ là **điều kiện đủ** để có $Q$: biết $P$ là đủ để chắc chắn có $Q$;
 - $Q$ là **điều kiện cần** để có $P$: không có $Q$ thì không thể có $P$.
 
@@ -122,7 +122,7 @@ Khi $P \Rightarrow Q$ đúng, ta nói:
 Nếu cả $P \Rightarrow Q$ và $Q \Rightarrow P$ đều đúng thì ta có mệnh đề tương đương $P \Leftrightarrow Q$, đọc là "$P$ khi và chỉ khi $Q$". Khi đó $P$ là **điều kiện cần và đủ** để có $Q$. Mệnh đề $P \Leftrightarrow Q$ đúng khi $P$ và $Q$ cùng đúng hoặc cùng sai.
 :::
 
-Muốn biết $P$ là điều kiện gì của $Q$, ta luôn xét **cả hai chiều**.
+Vì vậy, muốn biết $P$ là điều kiện gì của $Q$, bạn luôn xét **cả hai chiều**, mỗi chiều một lần, đừng để chiều này "kéo" chiều kia theo.
 
 :::example Điều kiện cần hay đủ?
 (a) Cho $P$: "Tứ giác $ABCD$ là hình chữ nhật", $Q$: "Tứ giác $ABCD$ có hai đường chéo bằng nhau". $P$ là điều kiện gì của $Q$?
@@ -139,6 +139,8 @@ Vậy ở (a), "là hình chữ nhật" là điều kiện **đủ** (nhưng kh�
 
 ## Kí hiệu "với mọi" và "tồn tại"
 
+Trong toán ta hay phải nói "với mọi số ..." hoặc "có một số ...". Hai cụm này dùng thường đến mức người ta đặt cho chúng hai kí hiệu riêng.
+
 - $\forall$ đọc là "với mọi". Mệnh đề $\forall x \in X,\ P(x)$ nói rằng $P(x)$ đúng với **mọi** $x$ thuộc $X$.
 - $\exists$ đọc là "tồn tại". Mệnh đề $\exists x \in X,\ P(x)$ nói rằng có **ít nhất một** $x$ thuộc $X$ làm $P(x)$ đúng.
 
@@ -147,7 +149,7 @@ $$\overline{\forall x \in X,\ P(x)} \ \text{ là } \ \exists x \in X,\ \overline
 $$\overline{\exists x \in X,\ P(x)} \ \text{ là } \ \forall x \in X,\ \overline{P(x)}$$
 :::
 
-**Vì sao?** Câu "mọi $x$ đều có tính chất $P$" sai đúng khi có ít nhất một $x$ không có tính chất đó. Câu "có một $x$ có tính chất $P$" sai đúng khi không $x$ nào có tính chất đó, tức là mọi $x$ đều không có tính chất $P$. Nói gọn: đổi $\forall$ thành $\exists$ (hoặc ngược lại) và phủ định tính chất.
+**Vì sao?** Bạn cứ nghĩ đến lớp học: câu "mọi bạn đều đi học" sai ngay khi có một bạn vắng. Tổng quát, câu "mọi $x$ đều có tính chất $P$" sai đúng khi có ít nhất một $x$ không có tính chất đó. Câu "có một $x$ có tính chất $P$" sai đúng khi không $x$ nào có tính chất đó, tức là mọi $x$ đều không có tính chất $P$. Nói gọn: đổi $\forall$ thành $\exists$ (hoặc ngược lại) và phủ định tính chất.
 
 :::example Đúng hay sai, và phủ định
 Xét tính đúng sai rồi lập mệnh đề phủ định của mỗi mệnh đề.
@@ -167,7 +169,7 @@ Vậy $A$ và $B$ đúng, $C$ sai (nên $\overline{C}$ đúng).
 
 ## Bác bỏ bằng phản ví dụ
 
-Để chứng tỏ "$\forall x,\ P(x)$" sai, chỉ cần **một** giá trị $x$ làm $P(x)$ sai. Giá trị đó gọi là **phản ví dụ**. Ngược lại, dù thử bao nhiêu ví dụ đúng cũng không chứng minh được một mệnh đề "với mọi" (trừ khi tập $X$ hữu hạn và ta thử hết). Bây giờ ta trả lời câu hỏi của bạn An.
+Có một sự không cân bằng thú vị ở đây. Để chứng tỏ "$\forall x,\ P(x)$" sai, chỉ cần **một** giá trị $x$ làm $P(x)$ sai. Giá trị đó gọi là **phản ví dụ**. Ngược lại, dù thử bao nhiêu ví dụ đúng cũng không chứng minh được một mệnh đề "với mọi" (trừ khi tập $X$ hữu hạn và ta thử hết). Giờ ta đã đủ hiểu biết để trả lời câu hỏi của bạn An.
 
 :::example Khẳng định của bạn An
 Khẳng định: "Với mọi số tự nhiên $n$, số $n^2-n+11$ là số nguyên tố." Khẳng định này đúng hay sai?
@@ -188,6 +190,7 @@ Vậy khẳng định của An sai, và $n=11$ là một phản ví dụ.
 :::
 
 :::warning Những sai lầm thường gặp
+Những lỗi dưới đây rất "người": chúng đến từ cách ta vẫn nói hằng ngày. Trong toán, ta cần nói chính xác hơn một chút.
 - **Phủ định sai dấu.** Viết phủ định của "$x>2$" là "$x<2$". Sai vì bỏ sót $x=2$. Đúng: phủ định của "$x>2$" là "$x\le 2$".
 - **Phủ định "mọi" thành "không ai".** Viết phủ định của "Mọi bạn đều đi học" là "Không bạn nào đi học". Sai vì chỉ cần một bạn vắng là câu gốc đã sai. Đúng: "Có ít nhất một bạn không đi học".
 - **Nhầm mệnh đề với mệnh đề đảo.** Từ "Nếu $a>3$ thì $a^2>9$" đúng mà suy ra "Nếu $a^2>9$ thì $a>3$" đúng. Sai: $a=-4$. Mỗi chiều phải được kiểm tra riêng.
@@ -218,9 +221,11 @@ Vậy khẳng định của An sai, và $n=11$ là một phản ví dụ.
 - $\overline{\forall x,\ P(x)}$ là $\exists x,\ \overline{P(x)}$; $\overline{\exists x,\ P(x)}$ là $\forall x,\ \overline{P(x)}$.
 - Một phản ví dụ đủ để bác bỏ mệnh đề "với mọi"; vài ví dụ không đủ để chứng minh nó.
 
+Trở lại với An: mười một lần thử đúng vẫn không cứu được khẳng định, vì chỉ một số $n=11$ đã đủ bác bỏ nó. Lần sau gặp câu nói về "mọi" số, bạn hãy nhớ: muốn tin thì cần một lí do chung, muốn bác thì chỉ cần một phản ví dụ.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có nhắc lại kiến thức cần dùng và gợi ý các bước. Bạn cứ tự làm trước; với câu hỏi đúng hay sai, hãy tập thói quen tìm phản ví dụ trước khi vội tin. Sau đó hãy bấm xem lời giải để so.
 
 :::exercise
 Câu nào dưới đây là mệnh đề? Nếu là mệnh đề thì đúng hay sai?

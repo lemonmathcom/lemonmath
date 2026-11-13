@@ -13,11 +13,11 @@ minutes: 20
 
 An makes a claim: "For every natural number $n$, the number $n^2-n+11$ is prime." He tries $n=0, 1, 2, 3, 4, 5$ and gets $11, 11, 13, 17, 23, 31$, all of them primes. Is An allowed to conclude that his claim is true?
 
-To answer, we need to know exactly what it means for a sentence to be "true" or "false", and how much evidence it takes to prove or to disprove a sentence about **every** number. That is what this lesson is about.
+Six tries, six successes: that sounds convincing. But An's claim is about **every** natural number, and there are endlessly many of those. So how much evidence is enough to believe a sentence like this, and how much does it take to knock it down? To answer clearly, we first have to say very precisely what it means for a sentence to be "true" or "false". This careful way of thinking will stay with you through all of mathematics, because every theorem is a sentence of this kind.
 
 ## What is a statement?
 
-Read these four sentences and ask: for which ones can we answer "true" or "false"?
+We start with something quite ordinary. Read these four sentences and ask yourself: for which ones can we answer "true" or "false"?
 
 | Sentence | True or false? |
 |---|---|
@@ -26,7 +26,7 @@ Read these four sentences and ask: for which ones can we answer "true" or "false
 | "Is there a test today?" | Cannot answer: it is a question. |
 | "$2x-1=7$." | Cannot answer yet: it depends on $x$. |
 
-The first two sentences have a clear truth value. The third one claims nothing. The fourth is true when $x=4$ and false when $x=0$. This sorting leads to the following definition.
+The first two sentences have a clear truth value. The third only asks; it claims nothing at all. The fourth is left hanging: true when $x=4$, false when $x=0$. The sorting we have just done is the definition below, only said more briefly.
 
 :::definition Statement
 A **statement** (also called a *proposition*) is a sentence that is either **true** or **false**, but not both.
@@ -54,14 +54,14 @@ So (a), (b), (e) are statements; (d) is a statement with a variable; (c) is not 
 
 ## Negation
 
-Every statement has a "flip side" that says the opposite. The **negation** of $P$, written $\overline{P}$, is true when $P$ is false and false when $P$ is true.
+Every statement has a "flip side" that says the opposite, and the two sides are never true together. The **negation** of $P$, written $\overline{P}$, is true when $P$ is false and false when $P$ is true.
 
 | $P$ | $\overline{P}$ |
 |---|---|
 | true | false |
 | false | true |
 
-Usually we form $\overline{P}$ by adding (or removing) the word "not". For an inequality, the signs swap in pairs: the negation of $>$ is $\le$, and the negation of $\ge$ is $<$.
+Usually we form $\overline{P}$ by adding (or removing) the word "not". With an inequality you need to be a little more alert: the negation of $>$ is $\le$, not $<$, because "not greater than" also includes being equal. In the same way, the negation of $\ge$ is $<$.
 
 :::example Forming negations
 Write the negation of each statement and say which of the two is true.
@@ -77,11 +77,11 @@ Write the negation of each statement and say which of the two is true.
 So $\overline{P}$ is false and $\overline{Q}$ is true; whether $R$ or $\overline{R}$ is true, we would have to ask class 10A.
 :::
 
-Part (c) shows that the negation of "every" is not "nobody" but "at least one ... not". We come back to this in the section on $\forall$ and $\exists$.
+Part (c) is worth a pause. The negation of "everyone has one" is not "nobody has one", but only "at least one person does not have one". Many students slip here, and we come back to it in the section on $\forall$ and $\exists$.
 
 ## Implication and converse
 
-Think of a promise: "If you score $8$ or more, I will give you a book." The promise is broken in only one case: you score $8$ or more and get no book. If you score $6$, the promise says nothing, so whether or not you get a book, the teacher has kept her word.
+The "if ... then ..." sentence is the kind we meet most in mathematics, because every theorem has that shape. To understand when it is true, think of a promise: "If you score $8$ or more, I will give you a book." The promise is broken in only one case: you score $8$ or more and get no book. If you score $6$, the promise says nothing, so whether or not you get a book, the teacher has kept her word.
 
 :::definition Implication
 The statement "if $P$ then $Q$", written $P \Rightarrow Q$, **is false only when $P$ is true and $Q$ is false**. In every other case it is true.
@@ -96,7 +96,7 @@ The statement "if $P$ then $Q$", written $P \Rightarrow Q$, **is false only when
 The **converse** of $P \Rightarrow Q$ is $Q \Rightarrow P$.
 :::
 
-A true implication can have a false converse. The next example shows this.
+Here is the place where it is easy to slip: a perfectly true implication can have a false converse. Swapping the two halves of a true sentence does not guarantee a true sentence, as the next example shows.
 
 :::example An implication and its converse
 For a real number $a$, consider "If $a>3$ then $a^2>9$". Is it true? State its converse and decide whether the converse is true.
@@ -114,7 +114,7 @@ So "If $a>3$ then $a^2>9$" is true, but its converse is false: for $a=-4$ the hy
 
 ### Necessary and sufficient conditions, and equivalence
 
-When $P \Rightarrow Q$ is true, we say:
+The words "necessary" and "sufficient" come up a lot in exams, and they are easy to mix up. The simplest way to keep them straight is to follow the direction of the arrow. When $P \Rightarrow Q$ is true, we say:
 - $P$ is a **sufficient condition** for $Q$: knowing $P$ is enough to be sure of $Q$;
 - $Q$ is a **necessary condition** for $P$: without $Q$, $P$ cannot happen.
 
@@ -122,7 +122,7 @@ When $P \Rightarrow Q$ is true, we say:
 If both $P \Rightarrow Q$ and $Q \Rightarrow P$ are true, we have the equivalence $P \Leftrightarrow Q$, read "$P$ if and only if $Q$". Then $P$ is a **necessary and sufficient condition** for $Q$. The statement $P \Leftrightarrow Q$ is true when $P$ and $Q$ are both true or both false.
 :::
 
-To find what kind of condition $P$ is for $Q$, always check **both directions**.
+So to find what kind of condition $P$ is for $Q$, always check **both directions**, one at a time; do not let one direction drag the other along with it.
 
 :::example Necessary or sufficient?
 (a) Let $P$: "Quadrilateral $ABCD$ is a rectangle" and $Q$: "Quadrilateral $ABCD$ has equal diagonals". What kind of condition is $P$ for $Q$?
@@ -139,6 +139,8 @@ So in (a), "is a rectangle" is a **sufficient** (but not necessary) condition fo
 
 ## The symbols "for all" and "there exists"
 
+In mathematics we often need to say "for every number ..." or "there is a number ...". These phrases are so common that they have symbols of their own.
+
 - $\forall$ reads "for all". The statement $\forall x \in X,\ P(x)$ says that $P(x)$ is true for **every** $x$ in $X$.
 - $\exists$ reads "there exists". The statement $\exists x \in X,\ P(x)$ says that **at least one** $x$ in $X$ makes $P(x)$ true.
 
@@ -147,7 +149,7 @@ $$\overline{\forall x \in X,\ P(x)} \ \text{ is } \ \exists x \in X,\ \overline{
 $$\overline{\exists x \in X,\ P(x)} \ \text{ is } \ \forall x \in X,\ \overline{P(x)}$$
 :::
 
-**Why?** "Every $x$ has property $P$" is false exactly when at least one $x$ lacks the property. "Some $x$ has property $P$" is false exactly when no $x$ has it, that is, every $x$ fails to have property $P$. In short: swap $\forall$ and $\exists$, and negate the property.
+**Why?** Think of a class: "every student came to school" is false as soon as one student is absent. In general, "every $x$ has property $P$" is false exactly when at least one $x$ lacks the property. "Some $x$ has property $P$" is false exactly when no $x$ has it, that is, every $x$ fails to have property $P$. In short: swap $\forall$ and $\exists$, and negate the property.
 
 :::example True or false, and the negation
 Decide whether each statement is true, then write its negation.
@@ -167,7 +169,7 @@ So $A$ and $B$ are true, and $C$ is false (hence $\overline{C}$ is true).
 
 ## Disproving with a counter-example
 
-To show that "$\forall x,\ P(x)$" is false, **one** value of $x$ that makes $P(x)$ false is enough. Such a value is called a **counter-example**. On the other hand, no number of examples that work can prove a "for all" statement (unless the set $X$ is finite and we try every element). Now we can answer An's question.
+There is an interesting imbalance here. To show that "$\forall x,\ P(x)$" is false, **one** value of $x$ that makes $P(x)$ false is enough. Such a value is called a **counter-example**. On the other hand, no number of examples that work can prove a "for all" statement (unless the set $X$ is finite and we try every element). Now we know enough to answer An's question.
 
 :::example An's claim
 Claim: "For every natural number $n$, the number $n^2-n+11$ is prime." Is the claim true or false?
@@ -188,6 +190,7 @@ So An's claim is false, and $n=11$ is a counter-example.
 :::
 
 :::warning Common mistakes
+These mistakes are very human: they come from the way we talk every day. In mathematics we need to be just a little more precise.
 - **Wrong sign in a negation.** Writing the negation of "$x>2$" as "$x<2$". This is wrong because it leaves out $x=2$. Right: the negation of "$x>2$" is "$x\le 2$".
 - **Negating "every" as "nobody".** Writing the negation of "Every student came to school" as "No student came to school". Wrong: one absent student already makes the original false. Right: "At least one student did not come to school".
 - **Mixing up a statement and its converse.** Concluding from "If $a>3$ then $a^2>9$" that "If $a^2>9$ then $a>3$". Wrong: $a=-4$. Each direction must be checked separately.
@@ -218,9 +221,11 @@ So An's claim is false, and $n=11$ is a counter-example.
 - $\overline{\forall x,\ P(x)}$ is $\exists x,\ \overline{P(x)}$; $\overline{\exists x,\ P(x)}$ is $\forall x,\ \overline{P(x)}$.
 - One counter-example disproves a "for all" statement; a few examples do not prove it.
 
+Back to An: eleven successful tries could not save his claim, because the single value $n=11$ was enough to knock it down. Next time you meet a sentence about "every" number, remember: to believe it you need a general reason; to reject it you need just one counter-example.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise reminds you what you need and gives some steps to start. Have a go yourself first; with true-or-false questions, get into the habit of looking for a counter-example before you believe a claim. Then open the solution and compare.
 
 :::exercise
 Which of these are statements? For each statement, is it true or false?
