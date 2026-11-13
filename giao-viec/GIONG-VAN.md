@@ -32,8 +32,8 @@ Quyết định 12/11/2026: chủ dự án muốn toàn bộ phần lời (mở 
 | 14 | g10/lines-angles-distances | xong 13/11/2026 |
 | 15 | g10/permutations-combinations | xong 13/11/2026 |
 | 16 | g10/probability-practice | xong 13/11/2026 |
-| 17 | g10/quadratic-function |  |
-| 18 | g10/scalar-multiplication |  |
+| 17 | g10/quadratic-function | xong 13/11/2026 |
+| 18 | g10/scalar-multiplication | xong 13/11/2026 |
 | 19 | g10/sets-and-set-operations |  |
 | 20 | g10/sign-of-quadratic |  |
 | 21 | g10/statements |  |

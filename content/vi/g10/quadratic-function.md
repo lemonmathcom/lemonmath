@@ -13,15 +13,17 @@ minutes: 30
 
 Một bác nông dân có $40$ m lưới và muốn quây một chuồng gà hình chữ nhật, một cạnh dựa vào bức tường thẳng (cạnh này không cần lưới). Chuồng có kích thước bao nhiêu thì diện tích lớn nhất?
 
+Thoạt nghe, nhiều người nghĩ cứ làm chuồng hình vuông là rộng nhất. Nhưng ở đây có một bức tường giúp ta một cạnh, nên câu trả lời không đơn giản thế. Bài này cho bạn một công cụ để trả lời chắc chắn, không phải đoán: hàm số bậc hai và đồ thị của nó.
+
 ## Hàm số $y=ax^2+bx+c$
 
-Ta thử vài con số. Gọi hai cạnh vuông góc với tường dài $x$ m; cạnh song song với tường dài $40-2x$ m, và diện tích là $S=x(40-2x)$:
+Trước khi dùng công thức, ta cứ thử vài con số đã. Gọi hai cạnh vuông góc với tường dài $x$ m; cạnh song song với tường dài $40-2x$ m, và diện tích là $S=x(40-2x)$:
 
 | $x$ (m) | $5$ | $8$ | $10$ | $12$ | $15$ |
 |---|---|---|---|---|---|
 | $S$ (m²) | $150$ | $192$ | $200$ | $192$ | $150$ |
 
-Diện tích tăng rồi giảm, và các giá trị **đối xứng** quanh $x=10$: $S(8)=S(12)$, $S(5)=S(15)$. Có vẻ $x=10$ cho diện tích lớn nhất. Khai triển, $S=-2x^2+40x$: một biểu thức bậc hai theo $x$. Để chắc chắn, ta cần hiểu đồ thị của những hàm số như vậy.
+Diện tích tăng rồi giảm, và các giá trị **đối xứng** quanh $x=10$: $S(8)=S(12)$, $S(5)=S(15)$. Có vẻ $x=10$ cho diện tích lớn nhất. Nhưng "có vẻ" thì chưa đủ: biết đâu ở $x=9{,}5$ hay $x=10{,}3$ diện tích còn lớn hơn? Khai triển, $S=-2x^2+40x$: một biểu thức bậc hai theo $x$. Muốn chắc chắn, ta cần hiểu đồ thị của những hàm số như vậy trông ra sao.
 
 :::definition Hàm số bậc hai
 **Hàm số bậc hai** là hàm số có dạng
@@ -32,11 +34,11 @@ Tập xác định là $\mathbb{R}$ và đồ thị là một **parabol**. Đặ
 - Nếu $a>0$, parabol có bề lõm **hướng lên** và đỉnh là điểm thấp nhất. Nếu $a<0$, bề lõm **hướng xuống** và đỉnh là điểm cao nhất.
 :::
 
-**Vì sao đỉnh nằm ở đó?** Hoàn thành bình phương:
+**Vì sao đỉnh nằm ở đó?** Công thức trông hơi rắc rối, nhưng nó đến từ một việc rất quen: hoàn thành bình phương.
 $$ax^2+bx+c=a\left(x+\frac{b}{2a}\right)^2-\frac{\Delta}{4a}.$$
-Bình phương $\left(x+\frac{b}{2a}\right)^2$ không âm và bằng $0$ chỉ khi $x=-\frac{b}{2a}$. Nếu $a>0$ thì $y\ge-\frac{\Delta}{4a}$, dấu bằng tại $x=-\frac{b}{2a}$; nếu $a<0$ thì $y\le-\frac{\Delta}{4a}$. Hai giá trị $x$ cách đều $-\frac{b}{2a}$ cho cùng một $y$, nên đồ thị đối xứng qua đường thẳng $x=-\frac{b}{2a}$.
+Bình phương $\left(x+\frac{b}{2a}\right)^2$ không âm và bằng $0$ chỉ khi $x=-\frac{b}{2a}$. Nếu $a>0$ thì $y\ge-\frac{\Delta}{4a}$, dấu bằng tại $x=-\frac{b}{2a}$; nếu $a<0$ thì $y\le-\frac{\Delta}{4a}$. Hai giá trị $x$ cách đều $-\frac{b}{2a}$ cho cùng một $y$, nên đồ thị đối xứng qua đường thẳng $x=-\frac{b}{2a}$. Đó cũng là lí do bảng số chuồng gà ở trên đối xứng quanh $x=10$.
 
-Giá trị $|a|$ quyết định parabol "hẹp" hay "rộng".
+Dấu của $a$ cho biết parabol úp hay ngửa, còn độ lớn $|a|$ cho biết nó "hẹp" hay "rộng": $|a|$ càng lớn, hai nhánh càng dựng đứng. Bạn nhìn ba đồ thị dưới đây là thấy.
 
 :::graph Các parabol $y=x^2$, $y=-x^2$ và $y=\frac12x^2$
 alt: Ba parabol cùng đi qua gốc toạ độ: y=x^2 bề lõm hướng lên, y=-x^2 bề lõm hướng xuống và y=0,5x^2 rộng hơn, bề lõm hướng lên
@@ -49,9 +51,9 @@ plot: 0.5*x^2
 
 ## Vẽ phác parabol
 
-Để vẽ phác $y=ax^2+bx+c$: (1) tìm đỉnh; (2) vẽ trục đối xứng; (3) tìm giao điểm của đồ thị với các trục ($x=0$ cho $y=c$; $y=0$ cho các nghiệm, nếu có); (4) dùng tính đối xứng qua trục.
+Vẽ parabol không cần thật nhiều điểm. Chỉ vài điểm "đắt giá" là đủ, phần còn lại nhờ tính đối xứng. Để vẽ phác $y=ax^2+bx+c$: (1) tìm đỉnh; (2) vẽ trục đối xứng; (3) tìm giao điểm của đồ thị với các trục ($x=0$ cho $y=c$; $y=0$ cho các nghiệm, nếu có); (4) dùng tính đối xứng qua trục.
 
-Ví dụ đầu tiên làm đủ bốn bước với một parabol có bề lõm hướng lên.
+Ta cùng đi đủ bốn bước với một parabol có bề lõm hướng lên.
 
 :::example Parabol có bề lõm hướng lên
 Tìm đỉnh, trục đối xứng, giao điểm với các trục và vẽ phác $y=x^2-4x+3$.
@@ -81,7 +83,7 @@ point: (0, 3) "3" left
 
 ### Bảng biến thiên
 
-Bảng biến thiên cho biết hàm số đi lên hay đi xuống ở đâu. Với $y=x^2-4x+3$ ($a>0$):
+Đồ thị cho ta một bức tranh; bảng biến thiên tóm bức tranh ấy lại trong một dòng: hàm số đi xuống ở đâu, đi lên ở đâu, và "đáy" nằm ở mức nào. Với $y=x^2-4x+3$ ($a>0$):
 
 | $x$ | $-\infty$ | | $2$ | | $+\infty$ |
 |---|---|---|---|---|---|
@@ -89,7 +91,7 @@ Bảng biến thiên cho biết hàm số đi lên hay đi xuống ở đâu. V�
 
 Với $a>0$: nghịch biến trên $\left(-\infty; -\frac{b}{2a}\right)$, đồng biến trên $\left(-\frac{b}{2a}; +\infty\right)$, giá trị nhỏ nhất là $-\frac{\Delta}{4a}$. Với $a<0$ thì ngược lại và $-\frac{\Delta}{4a}$ là giá trị lớn nhất.
 
-Khi $a<0$ mọi thứ lật ngược: đỉnh thành điểm cao nhất.
+Bây giờ thử lật ngược parabol lại. Khi $a<0$, đỉnh không còn là đáy nữa mà thành điểm cao nhất, và mọi chiều đi lên, đi xuống cũng đổi chỗ cho nhau.
 
 :::example Parabol có bề lõm hướng xuống
 Tìm đỉnh, các khoảng đồng biến, nghịch biến và giá trị lớn nhất của $y=-x^2+2x+3$.
@@ -117,7 +119,7 @@ point: (0, 3) "3" left
 
 ## Tìm công thức của hàm số
 
-Ngược lại, biết ba điểm trên parabol, ta tìm được $a$, $b$, $c$ bằng cách giải một hệ phương trình.
+Đến giờ ta đi từ công thức ra đồ thị. Bài toán cũng có thể đi theo chiều ngược lại: biết parabol đi qua ba điểm, ta tìm lại công thức. Có ba ẩn $a$, $b$, $c$ nên cần ba điểm, mỗi điểm cho một phương trình.
 
 :::example Parabol đi qua ba điểm
 Tìm hàm số bậc hai có đồ thị đi qua $A(0; 5)$, $B(1; 2)$ và $C(3; 2)$.
@@ -133,7 +135,7 @@ Trừ vế theo vế: $2a=2$, nên $a=1$ và $b=-4$. Vậy hàm số là $y=x^2-
 
 ## Phép tịnh tiến: $y=a(x-p)^2+q$
 
-Phép hoàn thành bình phương ở trên cho $ax^2+bx+c=a(x-p)^2+q$ với $p=-\frac{b}{2a}$ và $q=-\frac{\Delta}{4a}$. Vậy **đỉnh là $(p; q)$**. Đồ thị là parabol $y=ax^2$ được tịnh tiến sang phải $p$ đơn vị và lên trên $q$ đơn vị (sang trái hoặc xuống dưới nếu số đó âm).
+Nhớ lại phép hoàn thành bình phương ở phần đầu. Nó cho $ax^2+bx+c=a(x-p)^2+q$ với $p=-\frac{b}{2a}$ và $q=-\frac{\Delta}{4a}$. Vậy **đỉnh là $(p; q)$**. Đồ thị là parabol $y=ax^2$ được tịnh tiến sang phải $p$ đơn vị và lên trên $q$ đơn vị (sang trái hoặc xuống dưới nếu số đó âm). Nói cách khác, mọi parabol cùng hệ số $a$ đều giống hệt nhau về hình dáng; chúng chỉ khác nhau ở chỗ đặt đỉnh.
 
 :::graph $y=2x^2$ tịnh tiến thành $y=2(x-1)^2+3$
 alt: Parabol y=2x^2 vẽ nét đứt và chính parabol đó được tịnh tiến sang phải một đơn vị, lên trên ba đơn vị, có đỉnh (1; 3)
@@ -144,11 +146,11 @@ plot: 2(x - 1)^2 + 3
 point: (1, 3) "(1; 3)" below-right
 :::
 
-Khai triển, $2(x-1)^2+3=2x^2-4x+5$, và công thức đỉnh cho $x_I=\frac{4}{4}=1$, $y_I=2-4+5=3$: đúng là $(1; 3)$.
+Để chắc là hai cách nhìn khớp nhau, ta khai triển: $2(x-1)^2+3=2x^2-4x+5$, và công thức đỉnh cho $x_I=\frac{4}{4}=1$, $y_I=2-4+5=3$: đúng là $(1; 3)$.
 
 ## Ứng dụng
 
-Đỉnh của parabol trả lời các câu hỏi "cao nhất", "lớn nhất", "nhỏ nhất". Ví dụ đầu tiên là một vật được ném lên.
+Mỗi khi đề hỏi "cao nhất", "lớn nhất", "nhỏ nhất" mà đại lượng là một hàm bậc hai, bạn hãy nghĩ ngay đến đỉnh parabol. Ta bắt đầu với một quả bóng được ném lên: nó bay lên chậm dần, dừng một thoáng, rồi rơi xuống.
 
 :::example Quả bóng được ném lên
 Một quả bóng được ném lên cao. Độ cao của nó (mét) sau $t$ giây là $h(t)=-5t^2+20t+1{,}5$. Tìm độ cao lớn nhất và thời điểm quả bóng chạm đất (làm tròn đến $0{,}01$ giây).
@@ -172,7 +174,7 @@ plot: -5x^2 + 20x + 1.5 ; 0..4.07
 point: (2, 21.5) "(2; 21,5)" above
 :::
 
-Cuối cùng, ta trả lời câu hỏi về chuồng gà ở đầu bài.
+Giờ ta đã đủ đồ nghề để trả lời câu hỏi về chuồng gà ở đầu bài, và lần này thì chắc chắn, không còn "có vẻ" nữa.
 
 :::example Diện tích lớn nhất
 Bác nông dân có $40$ m lưới để quây chuồng hình chữ nhật, một cạnh dựa vào tường. Tìm kích thước cho diện tích lớn nhất.
@@ -187,6 +189,7 @@ Giá trị $x=10$ thuộc khoảng $(0; 20)$, nên nó dùng được. Vậy chu
 :::
 
 :::warning Những sai lầm thường gặp
+Mấy chỗ dưới đây không khó, nhưng rất nhiều bạn trượt điểm vì chúng. Bạn đọc kĩ một lần là tránh được.
 - **Quên dấu trừ ở hoành độ đỉnh.** Sai: với $y=x^2-4x+3$, $x_I=\frac{b}{2a}=-2$. Đúng: $x_I=-\frac{b}{2a}=2$.
 - **Nói "giá trị nhỏ nhất" khi $a<0$.** Với $y=-x^2+2x+3$, đỉnh cho giá trị **lớn nhất** $4$; hàm số không có giá trị nhỏ nhất. Hãy xem dấu của $a$ trước.
 - **Quên điều kiện của biến trong bài toán thực tế.** Ở bài chuồng gà cần $0<x<20$; nếu hoành độ đỉnh nằm ngoài khoảng đó thì không dùng được đỉnh.
@@ -216,9 +219,11 @@ Giá trị $x=10$ thuộc khoảng $(0; 20)$, nên nó dùng được. Vậy chu
 - $y=a(x-p)^2+q$ có đỉnh $(p; q)$: tịnh tiến $y=ax^2$.
 - Bài toán thực tế: lập hàm số, tìm đỉnh, kiểm tra điều kiện của biến.
 
+Quay lại chuồng gà của bác nông dân: hình vuông không phải đáp án, mà là chuồng $10$ m nhân $20$ m, và ta biết chắc điều đó nhờ đỉnh của parabol $S=-2x^2+40x$. Lần sau gặp câu hỏi "lớn nhất, nhỏ nhất", bạn hãy thử viết đại lượng cần tìm thành một hàm bậc hai rồi đi tìm đỉnh.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có nhắc lại kiến thức cần dùng và gợi ý các bước. Bạn cứ tự làm trước, nhất là tự vẽ phác parabol ra giấy; tay quen rồi thì mắt sẽ nhìn ra đỉnh rất nhanh. Sau đó hãy bấm xem lời giải để so.
 
 :::exercise
 Tìm đỉnh, trục đối xứng và các giao điểm với trục hoành của parabol $y=x^2-6x+5$.

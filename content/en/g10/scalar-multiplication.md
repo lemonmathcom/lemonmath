@@ -13,13 +13,15 @@ minutes: 25
 
 Three friends cycle away from the school gate. The first rides $3$ km east; call her displacement $\vec{a}$. The second rides $6$ km east and the third rides $3$ km west. Can we write the displacements of the other two using only $\vec{a}$ and a number?
 
+The question sounds small, but the answer opens up a very useful tool. Once you can multiply a vector by a number, you can prove that three points lie on a line, or that a geometric identity holds, in a few lines of working, without drawing any extra construction lines.
+
 ## The product of a number and a vector
 
-Let us try with the addition we already know. The second friend rides the first friend's leg twice, head to tail:
+We start from something familiar: adding vectors. The second friend rides the first friend's leg twice, head to tail:
 
 $$\vec{a}+\vec{a}:\quad\text{direction east, length } 3+3=6 \text{ km}.$$
 
-In the same way $\vec{a}+\vec{a}+\vec{a}$ points east and is $9$ km long. The third friend rides exactly the opposite vector $-\vec{a}$: $3$ km long, the other way. So a number in front of a vector tells us **how many times longer** the vector becomes and whether it is **reversed**. We write $\vec{a}+\vec{a}=2\vec{a}$, and extend this idea to every real number.
+In the same way $\vec{a}+\vec{a}+\vec{a}$ points east and is $9$ km long. The third friend rides exactly the opposite vector $-\vec{a}$: $3$ km long, the other way. Looking back, a number in front of a vector does exactly two jobs: it tells us **how many times longer** the vector becomes, and whether it is **reversed**. We write $\vec{a}+\vec{a}=2\vec{a}$, and then boldly extend the idea to every real number, even numbers like $\frac12$ or $-\frac32$.
 
 :::definition Product of a number and a vector
 Let $k\neq0$ be a real number and $\vec{a}\neq\vec{0}$ a vector. The product $k\vec{a}$ is the vector that:
@@ -42,7 +44,7 @@ arrow R S "2a"
 arrow T U "-a/2"
 :::
 
-In particular $1\vec{a} = \vec{a}$ and $(-1)\vec{a} = -\vec{a}$, the opposite vector. In the opening problem, the second friend's displacement is $2\vec{a}$ and the third friend's is $-\vec{a}$.
+In particular $1\vec{a} = \vec{a}$ and $(-1)\vec{a} = -\vec{a}$, the opposite vector. So the opening question has its answer: the second friend's displacement is $2\vec{a}$ and the third friend's is $-\vec{a}$.
 
 ### Properties
 
@@ -55,9 +57,9 @@ For all vectors $\vec{a}$, $\vec{b}$ and numbers $k$, $l$:
 | Associative | $k(l\vec{a}) = (kl)\vec{a}$ |
 | Multiplying by $1$ and $-1$ | $1\vec{a} = \vec{a}$, $(-1)\vec{a} = -\vec{a}$ |
 
-These are the same rules you use with letters in algebra, so we expand and collect terms in the usual way. Also $k\vec{a} = \vec{0}$ only when $k = 0$ or $\vec{a} = \vec{0}$.
+You will notice that these are exactly the rules you have used with letters in algebra for years. So expand and collect terms as usual; just remember that $\vec{a}$ and $\vec{b}$ are two different "kinds" and cannot be merged. Also $k\vec{a} = \vec{0}$ only when $k = 0$ or $\vec{a} = \vec{0}$.
 
-The first example practises two basic skills: finding lengths and simplifying.
+We warm up with the two most basic jobs: finding lengths and simplifying an expression.
 
 :::example Lengths and simplification
 a) Suppose $|\vec{a}| = 5$. Find $|3\vec{a}|$ and $|-2\vec{a}|$, and compare their directions with $\vec{a}$.
@@ -78,21 +80,21 @@ So the expression equals $5\vec{a} - 3\vec{b}$.
 
 ## Collinear vectors
 
-If $\vec{b} = k\vec{a}$, then $\vec{b}$ is a stretched or reversed copy of $\vec{a}$, so the two are collinear. The converse is also true.
+If $\vec{b} = k\vec{a}$, then $\vec{b}$ is just $\vec{a}$ stretched, shrunk or turned round, so the two lie along parallel (or identical) lines: they are collinear. The nice thing is that the converse is true as well.
 
 :::theorem Criterion for collinear vectors
 Let $\vec{a} \neq \vec{0}$. A vector $\vec{b}$ is collinear with $\vec{a}$ **if and only if** there is a number $k$ such that $\vec{b} = k\vec{a}$. Then $k > 0$ if they have the same direction, $k < 0$ if opposite, and $|k| = \dfrac{|\vec{b}|}{|\vec{a}|}$.
 :::
 
-**Why does the converse hold?** If $\vec{b}$ has the direction of $\vec{a}$, take $k=\dfrac{|\vec{b}|}{|\vec{a}|}$; then $k\vec{a}$ has the same direction and the same length as $\vec{b}$, so $k\vec{a}=\vec{b}$. If the directions are opposite, take $k=-\dfrac{|\vec{b}|}{|\vec{a}|}$.
+**Why does the converse hold?** We only need to choose the right number. If $\vec{b}$ has the direction of $\vec{a}$, take $k=\dfrac{|\vec{b}|}{|\vec{a}|}$; then $k\vec{a}$ has the same direction and the same length as $\vec{b}$, so $k\vec{a}=\vec{b}$. If the directions are opposite, take $k=-\dfrac{|\vec{b}|}{|\vec{a}|}$.
 
-Applying this to the vectors $\overrightarrow{AB}$ and $\overrightarrow{AC}$ with common tail $A$ gives a test for three points on one line.
+Now apply this to the vectors $\overrightarrow{AB}$ and $\overrightarrow{AC}$ with common tail $A$. If they are collinear, the lines $AB$ and $AC$ are parallel or the same; since both pass through $A$, they must be the same line. That gives us a way to test three points for collinearity by calculation.
 
 :::theorem Three collinear points
 Three distinct points $A$, $B$, $C$ are collinear **if and only if** there is a number $k$ such that $\overrightarrow{AC} = k\overrightarrow{AB}$.
 :::
 
-The next example uses this test when the vectors are given through two "base" vectors $\vec{u}$, $\vec{v}$.
+In the next example the vectors are given through two "base" vectors $\vec{u}$, $\vec{v}$. All we have to do is see whether one vector is a multiple of the other.
 
 :::example Are the points collinear?
 Let $\vec{u}$ and $\vec{v}$ be two non-collinear vectors. Points $A$, $B$, $C$ satisfy $\overrightarrow{AB} = \vec{u} + 2\vec{v}$ and $\overrightarrow{AC} = 3\vec{u} + 6\vec{v}$. Prove that $A$, $B$, $C$ are collinear, and say which point lies between the other two.
@@ -106,11 +108,11 @@ Since $k=3>0$, the points $B$ and $C$ are on the same side of $A$, and $AC=3AB$,
 
 ## Midpoint and centroid formulas
 
-In the previous lesson we had $\overrightarrow{MA} + \overrightarrow{MB} = \vec{0}$ for the midpoint $M$ of $AB$. Insert an arbitrary point $O$: $\overrightarrow{MA} = \overrightarrow{MO} + \overrightarrow{OA}$ and $\overrightarrow{MB} = \overrightarrow{MO} + \overrightarrow{OB}$. Adding:
+The two formulas in this section are used all the time, and you do not have to learn them blindly: we can build them ourselves. In the previous lesson we had $\overrightarrow{MA} + \overrightarrow{MB} = \vec{0}$ for the midpoint $M$ of $AB$. Insert an arbitrary point $O$: $\overrightarrow{MA} = \overrightarrow{MO} + \overrightarrow{OA}$ and $\overrightarrow{MB} = \overrightarrow{MO} + \overrightarrow{OB}$. Adding:
 
 $$\vec{0}=2\overrightarrow{MO}+\overrightarrow{OA} + \overrightarrow{OB},\quad\text{so}\quad \overrightarrow{OA} + \overrightarrow{OB} = 2\overrightarrow{OM}.$$
 
-The same trick with the centroid identity gives $\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} = 3\overrightarrow{OG}$.
+The very same trick with the centroid identity $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\vec{0}$ gives $\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} = 3\overrightarrow{OG}$.
 
 :::theorem Midpoint and centroid with any point
 For **any** point $O$:
@@ -118,7 +120,7 @@ For **any** point $O$:
 - if $G$ is the centroid of triangle $ABC$, then $\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} = 3\overrightarrow{OG}$.
 :::
 
-The midpoint formula lets us combine two vectors with a common tail into one, as in the next example.
+The midpoint formula has a handy use: it merges two vectors with a common tail into a single vector. When you see a sum like $\overrightarrow{IB}+\overrightarrow{IC}$ and $B$, $C$ have a midpoint, think of it straight away.
 
 :::example An identity with midpoints
 In triangle $ABC$, $M$ is the midpoint of $BC$ and $I$ is the midpoint of $AM$. Prove that $2\overrightarrow{IA} + \overrightarrow{IB} + \overrightarrow{IC} = \vec{0}$.
@@ -136,7 +138,7 @@ This proves the identity.
 
 If $\vec{a}$ and $\vec{b}$ are **not** collinear, every vector $\vec{w}$ in the plane can be written in **exactly one** way as
 $$\vec{w} = x\vec{a} + y\vec{b}.$$
-Think of moving $x$ times the vector $\vec{a}$ and then $y$ times the vector $\vec{b}$. The figure shows the case $x=2$, $y=1$.
+Imagine you may only move in the two directions $\vec{a}$ and $\vec{b}$, like walking along the streets of a grid. To get anywhere, you go $x$ times the vector $\vec{a}$ and then $y$ times the vector $\vec{b}$; and there is only one way to choose $x$ and $y$. The figure shows the case $x=2$, $y=1$.
 
 :::diagram $\vec{w} = 2\vec{a} + \vec{b}$
 alt: Arrows a and b from the point O, a dashed copy of b starting at the end of 2a, and the arrow w from O to the far corner.
@@ -152,7 +154,7 @@ arrow O B "b"
 arrow O P "w"
 :::
 
-In a triangle, the two sides from one vertex are the most natural pair of non-collinear vectors.
+In a triangle, the easiest pair of non-collinear vectors to choose is two sides from the same vertex. Let us write everything in terms of those two sides.
 
 :::example Decomposing along two sides of a triangle
 In triangle $ABC$ let $\vec{b} = \overrightarrow{AB}$ and $\vec{c} = \overrightarrow{AC}$. Let $M$ be the midpoint of $BC$ and $G$ the centroid. Express $\overrightarrow{AM}$, $\overrightarrow{AG}$ and $\overrightarrow{BG}$ in terms of $\vec{b}$ and $\vec{c}$.
@@ -174,7 +176,7 @@ $$\overrightarrow{BG} = \overrightarrow{BA} + \overrightarrow{AG} = -\vec{b} + \
 
 ## Solving geometry problems with vectors
 
-The method is always the same:
+You now have all the pieces. When you want to use vectors on a geometry problem, follow the same three steps:
 
 1. Choose two non-collinear vectors as a "base", usually two sides from one vertex.
 2. Write every vector in the problem as $x\vec{a} + y\vec{b}$, using the triangle rule, midpoints and the given ratios.
@@ -193,7 +195,7 @@ segment A C
 segment D M dashed
 :::
 
-The last example applies all three steps to prove that three points lie on one line.
+The last example goes through all three steps. Done with pure geometry, this problem would need several extra lines in the figure; with vectors, it is just calculation.
 
 :::example Three points on a line
 $ABCD$ is a parallelogram, $M$ is the midpoint of $BC$, and $N$ is the point of the diagonal $AC$ with $\overrightarrow{AN} = \dfrac{2}{3}\overrightarrow{AC}$. Prove that $D$, $N$, $M$ are collinear.
@@ -212,6 +214,7 @@ So $\overrightarrow{DN} = \dfrac{2}{3}\overrightarrow{DM}$: the points $D$, $N$,
 :::
 
 :::warning Common mistakes
+Vectors behave like algebra, but not in every way. These are the places where habit makes many students write something wrong.
 - **Multiplying or dividing vectors by each other.** Wrong: "$\overrightarrow{AC}=3\overrightarrow{AB}$, so $\dfrac{\overrightarrow{AC}}{\overrightarrow{AB}}=3$". Dividing vectors means nothing; write $\overrightarrow{AC}=3\overrightarrow{AB}$, or $AC=3AB$ for lengths.
 - **Forgetting the absolute value.** Wrong: "$|-2\vec{a}|=-2|\vec{a}|$". A length is never negative; the right form is $|-2\vec{a}|=2|\vec{a}|$.
 - **Comparing coefficients without the condition.** From $x\vec{a} + y\vec{b} = x'\vec{a} + y'\vec{b}$ you may conclude $x=x'$, $y=y'$ only when $\vec{a}$, $\vec{b}$ are **non-collinear**.
@@ -238,9 +241,11 @@ So $\overrightarrow{DN} = \dfrac{2}{3}\overrightarrow{DM}$: the points $D$, $N$,
 - For any $O$: $\overrightarrow{OA} + \overrightarrow{OB} = 2\overrightarrow{OM}$ ($M$ midpoint of $AB$); $\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} = 3\overrightarrow{OG}$ ($G$ centroid).
 - $\vec{a}$, $\vec{b}$ non-collinear: every $\vec{w}$ is uniquely $x\vec{a} + y\vec{b}$.
 
+From a small question about three friends on bicycles we have come a long way: a single number in front of a vector lets us test collinearity and handle midpoints and centroids. The one thing to remember: to prove three points are collinear, look for a number $k$ with $\overrightarrow{AC}=k\overrightarrow{AB}$.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise reminds you what you need and gives some steps to start. Have a go yourself first; if you get stuck, choose two base vectors and write everything in terms of them, and the way forward usually appears. Then open the solution and compare.
 
 :::exercise
 Suppose $|\vec{a}| = 6$. Find $|2\vec{a}|$, $\left|-\dfrac{1}{2}\vec{a}\right|$ and $|0\vec{a}|$. Which of the two vectors $2\vec{a}$ and $-\dfrac{1}{2}\vec{a}$ has the same direction as $\vec{a}$?

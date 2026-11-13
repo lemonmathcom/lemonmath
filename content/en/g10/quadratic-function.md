@@ -13,15 +13,17 @@ minutes: 30
 
 A farmer has $40$ m of netting and wants to fence a rectangular chicken run against a straight wall (the side along the wall needs no netting). Which dimensions give the largest area?
 
+At first many people guess that a square run must be best. But here the wall gives us one side for free, so the answer is not that simple. This lesson gives you a tool to answer for certain rather than guess: the quadratic function and its graph.
+
 ## The function $y=ax^2+bx+c$
 
-Let us try some numbers. Let the two sides perpendicular to the wall be $x$ m long; the side parallel to the wall is $40-2x$ m long, and the area is $S=x(40-2x)$:
+Before any formula, let us just try some numbers. Let the two sides perpendicular to the wall be $x$ m long; the side parallel to the wall is $40-2x$ m long, and the area is $S=x(40-2x)$:
 
 | $x$ (m) | $5$ | $8$ | $10$ | $12$ | $15$ |
 |---|---|---|---|---|---|
 | $S$ (m²) | $150$ | $192$ | $200$ | $192$ | $150$ |
 
-The area rises and then falls, and the values are **symmetric** about $x=10$: $S(8)=S(12)$, $S(5)=S(15)$. It looks as if $x=10$ gives the largest area. Expanding, $S=-2x^2+40x$: a quadratic expression in $x$. To be sure, we need to understand the graphs of such functions.
+The area rises and then falls, and the values are **symmetric** about $x=10$: $S(8)=S(12)$, $S(5)=S(15)$. It looks as if $x=10$ gives the largest area. But "looks as if" is not quite enough: perhaps $x=9.5$ or $x=10.3$ does even better? Expanding, $S=-2x^2+40x$: a quadratic expression in $x$. To be sure, we need to understand what the graphs of such functions look like.
 
 :::definition Quadratic function
 A **quadratic function** is a function of the form
@@ -32,11 +34,11 @@ Its domain is $\mathbb{R}$ and its graph is a **parabola**. Let $\Delta=b^2-4ac$
 - If $a>0$, the parabola **opens upwards** and the vertex is its lowest point. If $a<0$, it **opens downwards** and the vertex is its highest point.
 :::
 
-**Why is the vertex there?** Complete the square:
+**Why is the vertex there?** The formula looks a little fussy, but it comes from something you already know: completing the square.
 $$ax^2+bx+c=a\left(x+\frac{b}{2a}\right)^2-\frac{\Delta}{4a}.$$
-The square $\left(x+\frac{b}{2a}\right)^2$ is never negative and is $0$ only when $x=-\frac{b}{2a}$. If $a>0$, then $y\ge-\frac{\Delta}{4a}$, with equality at $x=-\frac{b}{2a}$; if $a<0$, then $y\le-\frac{\Delta}{4a}$. Two values of $x$ at the same distance from $-\frac{b}{2a}$ give the same $y$, so the graph is symmetric about the line $x=-\frac{b}{2a}$.
+The square $\left(x+\frac{b}{2a}\right)^2$ is never negative and is $0$ only when $x=-\frac{b}{2a}$. If $a>0$, then $y\ge-\frac{\Delta}{4a}$, with equality at $x=-\frac{b}{2a}$; if $a<0$, then $y\le-\frac{\Delta}{4a}$. Two values of $x$ at the same distance from $-\frac{b}{2a}$ give the same $y$, so the graph is symmetric about the line $x=-\frac{b}{2a}$. That is also why the chicken-run table above is symmetric about $x=10$.
 
-The value of $|a|$ decides whether the parabola is "narrow" or "wide".
+The sign of $a$ tells you whether the parabola opens up or down; the size $|a|$ tells you whether it is "narrow" or "wide": the larger $|a|$, the steeper the two arms. The three graphs below show it.
 
 :::graph Parabolas $y=x^2$, $y=-x^2$ and $y=\frac12x^2$
 alt: Three parabolas through the origin: y=x^2 opening upwards, y=-x^2 opening downwards and the wider y=0.5x^2 opening upwards
@@ -49,9 +51,9 @@ plot: 0.5*x^2
 
 ## Sketching a parabola
 
-To sketch $y=ax^2+bx+c$: (1) find the vertex; (2) draw the axis of symmetry; (3) find where the graph meets the axes ($x=0$ gives $y=c$; $y=0$ gives the roots, if any); (4) use the symmetry about the axis.
+Drawing a parabola does not need lots of points. A few well-chosen ones are enough, and symmetry gives you the rest. To sketch $y=ax^2+bx+c$: (1) find the vertex; (2) draw the axis of symmetry; (3) find where the graph meets the axes ($x=0$ gives $y=c$; $y=0$ gives the roots, if any); (4) use the symmetry about the axis.
 
-The first example carries out all four steps for a parabola that opens upwards.
+Let us go through all four steps together for a parabola that opens upwards.
 
 :::example A parabola opening upwards
 Find the vertex, the axis of symmetry and the points on the axes, and sketch $y=x^2-4x+3$.
@@ -81,7 +83,7 @@ point: (0, 3) "3" left
 
 ### Table of variations
 
-The table of variations shows where the function goes up and where it goes down. For $y=x^2-4x+3$ ($a>0$):
+The graph gives us a picture; the table of variations squeezes that picture into one line: where the function goes down, where it goes up, and how low the bottom is. For $y=x^2-4x+3$ ($a>0$):
 
 | $x$ | $-\infty$ | | $2$ | | $+\infty$ |
 |---|---|---|---|---|---|
@@ -89,7 +91,7 @@ The table of variations shows where the function goes up and where it goes down.
 
 For $a>0$: decreasing on $\left(-\infty, -\frac{b}{2a}\right)$, increasing on $\left(-\frac{b}{2a}, +\infty\right)$, minimum $-\frac{\Delta}{4a}$. For $a<0$ it is the other way round and $-\frac{\Delta}{4a}$ is the maximum.
 
-When $a<0$ everything turns upside down: the vertex becomes the highest point.
+Now turn the parabola upside down. When $a<0$ the vertex is no longer the bottom but the highest point, and the going-up and going-down parts swap places too.
 
 :::example A parabola opening downwards
 Find the vertex, where the function increases and decreases, and the maximum of $y=-x^2+2x+3$.
@@ -117,7 +119,7 @@ point: (0, 3) "3" left
 
 ## Finding the formula
 
-The other way round: if we know three points on the parabola, we find $a$, $b$, $c$ by solving a system of equations.
+So far we have gone from the formula to the graph. A problem can also go the other way: we know three points on the parabola and want the formula back. There are three unknowns $a$, $b$, $c$, so we need three points, each giving one equation.
 
 :::example A parabola through three points
 Find the quadratic function whose graph passes through $A(0, 5)$, $B(1, 2)$ and $C(3, 2)$.
@@ -133,7 +135,7 @@ Subtracting: $2a=2$, so $a=1$ and $b=-4$. The function is $y=x^2-4x+5$.
 
 ## Translations: $y=a(x-p)^2+q$
 
-Completing the square above gives $ax^2+bx+c=a(x-p)^2+q$ with $p=-\frac{b}{2a}$ and $q=-\frac{\Delta}{4a}$. So **the vertex is $(p, q)$**. The graph is the parabola $y=ax^2$ moved $p$ units to the right and $q$ units up (left or down if the number is negative).
+Remember the completed square from the start of the lesson. It gives $ax^2+bx+c=a(x-p)^2+q$ with $p=-\frac{b}{2a}$ and $q=-\frac{\Delta}{4a}$. So **the vertex is $(p, q)$**. The graph is the parabola $y=ax^2$ moved $p$ units to the right and $q$ units up (left or down if the number is negative). In other words, all parabolas with the same $a$ have exactly the same shape; they differ only in where the vertex sits.
 
 :::graph $y=2x^2$ moved to $y=2(x-1)^2+3$
 alt: The parabola y=2x^2 drawn dashed, and the same parabola moved one unit right and three units up, with vertex (1, 3)
@@ -144,11 +146,11 @@ plot: 2(x - 1)^2 + 3
 point: (1, 3) "(1, 3)" below-right
 :::
 
-Expanding, $2(x-1)^2+3=2x^2-4x+5$, and the vertex formula gives $x_I=\frac{4}{4}=1$, $y_I=2-4+5=3$: indeed $(1, 3)$.
+To make sure the two points of view agree, expand: $2(x-1)^2+3=2x^2-4x+5$, and the vertex formula gives $x_I=\frac{4}{4}=1$, $y_I=2-4+5=3$: indeed $(1, 3)$.
 
 ## Applications
 
-The vertex of a parabola answers questions about "highest", "largest" and "smallest". The first example is a thrown object.
+Whenever a question asks for the "highest", "largest" or "smallest" and the quantity is quadratic, think of the vertex straight away. We start with a ball thrown upwards: it rises more and more slowly, pauses for a moment, then falls.
 
 :::example A thrown ball
 A ball is thrown upwards. Its height in metres after $t$ seconds is $h(t)=-5t^2+20t+1.5$. Find the greatest height, and when the ball reaches the ground (to $0.01$ of a second).
@@ -172,7 +174,7 @@ plot: -5x^2 + 20x + 1.5 ; 0..4.07
 point: (2, 21.5) "(2, 21.5)" above
 :::
 
-Finally, we answer the question about the chicken run from the start of the lesson.
+Now we have all the tools to answer the chicken-run question from the start, and this time for certain, with no "looks as if".
 
 :::example Largest area
 The farmer has $40$ m of netting to fence a rectangular run against a wall. Find the dimensions that give the largest area.
@@ -187,6 +189,7 @@ The value $x=10$ lies in $(0, 20)$, so it can be used. The run should be $10$ m 
 :::
 
 :::warning Common mistakes
+None of these is hard, but many students lose marks on them. Read them carefully once and you will avoid them.
 - **Dropping the minus sign in the vertex.** Wrong: for $y=x^2-4x+3$, $x_I=\frac{b}{2a}=-2$. Right: $x_I=-\frac{b}{2a}=2$.
 - **Saying "minimum" when $a<0$.** For $y=-x^2+2x+3$ the vertex gives the **maximum** $4$; the function has no minimum. Check the sign of $a$ first.
 - **Forgetting the condition on the variable in a real-life problem.** For the chicken run we need $0<x<20$; if the vertex were outside that interval, it could not be used.
@@ -216,9 +219,11 @@ The value $x=10$ lies in $(0, 20)$, so it can be used. The run should be $10$ m 
 - $y=a(x-p)^2+q$ has vertex $(p, q)$: a translation of $y=ax^2$.
 - Real-life problems: build the function, find the vertex, check the condition on the variable.
 
+Back to the farmer's chicken run: the answer is not a square but a $10$ m by $20$ m run, and we know it for certain from the vertex of the parabola $S=-2x^2+40x$. Next time you meet a "largest" or "smallest" question, try writing the quantity as a quadratic function and look for its vertex.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise reminds you what you need and gives some steps to start. Have a go yourself first, and do sketch the parabola on paper; once your hand is used to it, your eye will spot the vertex quickly. Then open the solution and compare.
 
 :::exercise
 Find the vertex, the axis of symmetry and the points where the parabola $y=x^2-6x+5$ meets the $x$-axis.

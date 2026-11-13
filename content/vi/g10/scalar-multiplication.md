@@ -13,13 +13,15 @@ minutes: 25
 
 Ba bạn cùng đạp xe từ cổng trường. Bạn thứ nhất đi $3$ km về phía đông; gọi độ dời của bạn ấy là $\vec{a}$. Bạn thứ hai đi $6$ km về phía đông, bạn thứ ba đi $3$ km về phía tây. Có cách nào viết độ dời của hai bạn sau chỉ bằng $\vec{a}$ và một con số không?
 
+Câu hỏi nghe đơn giản, nhưng câu trả lời mở ra một công cụ rất mạnh. Khi biết nhân vectơ với một số, bạn sẽ chứng minh được ba điểm thẳng hàng hay một hệ thức hình học chỉ bằng vài dòng tính toán, không cần vẽ thêm đường phụ nào.
+
 ## Tích của một số với một vectơ
 
-Ta thử bằng phép cộng đã học. Bạn thứ hai đi hai lần chặng của bạn thứ nhất, nối đuôi nhau:
+Ta bắt đầu từ thứ đã quen: phép cộng vectơ. Bạn thứ hai đi hai lần chặng của bạn thứ nhất, nối đuôi nhau:
 
 $$\vec{a}+\vec{a}:\quad\text{cùng hướng đông, dài } 3+3=6 \text{ km}.$$
 
-Tương tự $\vec{a}+\vec{a}+\vec{a}$ cùng hướng đông và dài $9$ km. Còn bạn thứ ba đi đúng vectơ đối $-\vec{a}$: dài $3$ km, ngược hướng. Vậy một con số đứng trước vectơ cho biết vectơ được **kéo dài bao nhiêu lần** và có **đảo chiều** hay không. Ta viết $\vec{a}+\vec{a}=2\vec{a}$, và mở rộng ý này cho mọi số thực.
+Tương tự $\vec{a}+\vec{a}+\vec{a}$ cùng hướng đông và dài $9$ km. Còn bạn thứ ba đi đúng vectơ đối $-\vec{a}$: dài $3$ km, ngược hướng. Nhìn lại, ta thấy một con số đứng trước vectơ làm đúng hai việc: cho biết vectơ được **kéo dài bao nhiêu lần**, và có bị **đảo chiều** hay không. Ta viết $\vec{a}+\vec{a}=2\vec{a}$, rồi mạnh dạn mở rộng ý này cho mọi số thực, kể cả số như $\frac12$ hay $-\frac32$.
 
 :::definition Tích của một số với một vectơ
 Cho số thực $k\neq0$ và vectơ $\vec{a}\neq\vec{0}$. Tích $k\vec{a}$ là vectơ:
@@ -42,7 +44,7 @@ arrow R S "2a"
 arrow T U "-a/2"
 :::
 
-Đặc biệt $1\vec{a} = \vec{a}$ và $(-1)\vec{a} = -\vec{a}$, là vectơ đối. Ở bài toán mở đầu, độ dời của bạn thứ hai là $2\vec{a}$, của bạn thứ ba là $-\vec{a}$.
+Đặc biệt $1\vec{a} = \vec{a}$ và $(-1)\vec{a} = -\vec{a}$, là vectơ đối. Vậy câu hỏi mở đầu đã có lời đáp: độ dời của bạn thứ hai là $2\vec{a}$, của bạn thứ ba là $-\vec{a}$.
 
 ### Tính chất
 
@@ -55,9 +57,9 @@ Với mọi vectơ $\vec{a}$, $\vec{b}$ và mọi số $k$, $l$:
 | Kết hợp | $k(l\vec{a}) = (kl)\vec{a}$ |
 | Nhân với $1$ và $-1$ | $1\vec{a} = \vec{a}$, $(-1)\vec{a} = -\vec{a}$ |
 
-Đây là những quy tắc giống như khi tính toán với chữ cái, nên ta khai triển và gộp các hạng tử như bình thường. Ngoài ra $k\vec{a} = \vec{0}$ chỉ khi $k = 0$ hoặc $\vec{a} = \vec{0}$.
+Bạn để ý sẽ thấy: đây chính là những quy tắc bạn vẫn dùng khi tính với chữ cái từ lớp 7, lớp 8. Nên cứ khai triển và gộp các hạng tử như bình thường, chỉ cần nhớ $\vec{a}$ và $\vec{b}$ là hai "loại" khác nhau, không gộp vào nhau được. Ngoài ra $k\vec{a} = \vec{0}$ chỉ khi $k = 0$ hoặc $\vec{a} = \vec{0}$.
 
-Ví dụ đầu tiên luyện hai việc cơ bản: tính độ dài và rút gọn.
+Ta làm quen bằng hai việc cơ bản nhất: tính độ dài và rút gọn biểu thức.
 
 :::example Độ dài và rút gọn
 a) Cho $|\vec{a}| = 5$. Tìm $|3\vec{a}|$ và $|-2\vec{a}|$, rồi so sánh hướng của chúng với $\vec{a}$.
@@ -78,21 +80,21 @@ Vậy biểu thức bằng $5\vec{a} - 3\vec{b}$.
 
 ## Các vectơ cùng phương
 
-Nếu $\vec{b} = k\vec{a}$ thì $\vec{b}$ là bản co giãn hoặc đảo chiều của $\vec{a}$, nên hai vectơ cùng phương. Điều ngược lại cũng đúng.
+Nếu $\vec{b} = k\vec{a}$ thì $\vec{b}$ chỉ là $\vec{a}$ được kéo dài, thu ngắn hoặc quay đầu, nên hai vectơ nằm trên hai đường thẳng song song (hoặc trùng nhau): chúng cùng phương. Điều thú vị là chiều ngược lại cũng đúng.
 
 :::theorem Điều kiện để hai vectơ cùng phương
 Cho $\vec{a} \neq \vec{0}$. Vectơ $\vec{b}$ cùng phương với $\vec{a}$ **khi và chỉ khi** có số $k$ sao cho $\vec{b} = k\vec{a}$. Khi đó $k > 0$ nếu hai vectơ cùng hướng, $k < 0$ nếu ngược hướng, và $|k| = \dfrac{|\vec{b}|}{|\vec{a}|}$.
 :::
 
-**Vì sao chiều ngược lại đúng?** Nếu $\vec{b}$ cùng hướng với $\vec{a}$, lấy $k=\dfrac{|\vec{b}|}{|\vec{a}|}$; khi đó $k\vec{a}$ cùng hướng và cùng độ dài với $\vec{b}$, nên $k\vec{a}=\vec{b}$. Nếu ngược hướng, lấy $k=-\dfrac{|\vec{b}|}{|\vec{a}|}$.
+**Vì sao chiều ngược lại đúng?** Ta chỉ cần chọn đúng con số. Nếu $\vec{b}$ cùng hướng với $\vec{a}$, lấy $k=\dfrac{|\vec{b}|}{|\vec{a}|}$; khi đó $k\vec{a}$ cùng hướng và cùng độ dài với $\vec{b}$, nên $k\vec{a}=\vec{b}$. Nếu ngược hướng, lấy $k=-\dfrac{|\vec{b}|}{|\vec{a}|}$.
 
-Áp dụng cho hai vectơ $\overrightarrow{AB}$ và $\overrightarrow{AC}$ chung điểm đầu $A$, ta có cách kiểm tra ba điểm thẳng hàng.
+Bây giờ áp dụng cho hai vectơ $\overrightarrow{AB}$ và $\overrightarrow{AC}$ chung điểm đầu $A$. Hai vectơ này cùng phương thì hai đường thẳng $AB$, $AC$ song song hoặc trùng nhau; mà chúng có chung điểm $A$ nên phải trùng nhau. Thế là ta có một cách kiểm tra ba điểm thẳng hàng bằng tính toán.
 
 :::theorem Ba điểm thẳng hàng
 Ba điểm phân biệt $A$, $B$, $C$ thẳng hàng **khi và chỉ khi** có số $k$ sao cho $\overrightarrow{AC} = k\overrightarrow{AB}$.
 :::
 
-Ví dụ tiếp theo dùng điều kiện này khi các vectơ được cho qua hai vectơ "gốc" $\vec{u}$, $\vec{v}$.
+Trong ví dụ sau, các vectơ được cho qua hai vectơ "gốc" $\vec{u}$, $\vec{v}$. Việc của ta chỉ là nhìn xem vectơ này có phải là một bội của vectơ kia không.
 
 :::example Ba điểm có thẳng hàng không?
 Cho hai vectơ không cùng phương $\vec{u}$ và $\vec{v}$. Các điểm $A$, $B$, $C$ thoả mãn $\overrightarrow{AB} = \vec{u} + 2\vec{v}$ và $\overrightarrow{AC} = 3\vec{u} + 6\vec{v}$. Chứng minh $A$, $B$, $C$ thẳng hàng và cho biết điểm nào nằm giữa hai điểm còn lại.
@@ -106,11 +108,11 @@ Vì $k=3>0$ nên $B$ và $C$ nằm cùng phía đối với $A$, và $AC=3AB$, t
 
 ## Công thức trung điểm và trọng tâm
 
-Ở bài trước ta đã có $\overrightarrow{MA} + \overrightarrow{MB} = \vec{0}$ với $M$ là trung điểm của $AB$. Chèn một điểm $O$ bất kì: $\overrightarrow{MA} = \overrightarrow{MO} + \overrightarrow{OA}$ và $\overrightarrow{MB} = \overrightarrow{MO} + \overrightarrow{OB}$. Cộng lại:
+Hai công thức trong phần này dùng rất nhiều, và chúng không phải học thuộc suông: ta tự dựng được. Ở bài trước ta đã có $\overrightarrow{MA} + \overrightarrow{MB} = \vec{0}$ với $M$ là trung điểm của $AB$. Chèn một điểm $O$ bất kì: $\overrightarrow{MA} = \overrightarrow{MO} + \overrightarrow{OA}$ và $\overrightarrow{MB} = \overrightarrow{MO} + \overrightarrow{OB}$. Cộng lại:
 
 $$\vec{0}=2\overrightarrow{MO}+\overrightarrow{OA} + \overrightarrow{OB},\quad\text{nên}\quad \overrightarrow{OA} + \overrightarrow{OB} = 2\overrightarrow{OM}.$$
 
-Làm tương tự với hệ thức trọng tâm ta được $\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} = 3\overrightarrow{OG}$.
+Làm y hệt với hệ thức trọng tâm $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\vec{0}$, ta được $\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} = 3\overrightarrow{OG}$.
 
 :::theorem Trung điểm và trọng tâm theo một điểm bất kì
 Với **mọi** điểm $O$:
@@ -118,7 +120,7 @@ Với **mọi** điểm $O$:
 - nếu $G$ là trọng tâm tam giác $ABC$ thì $\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} = 3\overrightarrow{OG}$.
 :::
 
-Công thức trung điểm cho phép gộp hai vectơ chung điểm đầu thành một, như trong ví dụ sau.
+Công thức trung điểm có một công dụng rất hay: nó gộp hai vectơ chung điểm đầu thành một vectơ duy nhất. Gặp tổng $\overrightarrow{IB}+\overrightarrow{IC}$ mà $B$, $C$ có trung điểm, bạn hãy nghĩ ngay đến nó.
 
 :::example Một hệ thức với trung điểm
 Cho tam giác $ABC$, $M$ là trung điểm của $BC$ và $I$ là trung điểm của $AM$. Chứng minh rằng $2\overrightarrow{IA} + \overrightarrow{IB} + \overrightarrow{IC} = \vec{0}$.
@@ -136,7 +138,7 @@ Vậy hệ thức được chứng minh.
 
 Nếu $\vec{a}$ và $\vec{b}$ **không** cùng phương thì mọi vectơ $\vec{w}$ trong mặt phẳng đều viết được **duy nhất** dưới dạng
 $$\vec{w} = x\vec{a} + y\vec{b}.$$
-Hãy hình dung việc đi $x$ lần vectơ $\vec{a}$ rồi $y$ lần vectơ $\vec{b}$. Hình dưới vẽ trường hợp $x=2$, $y=1$.
+Hãy hình dung bạn chỉ được đi theo hai hướng $\vec{a}$ và $\vec{b}$, như đi trên những con phố kẻ ô. Muốn tới bất kì đâu, bạn đi $x$ lần vectơ $\vec{a}$ rồi $y$ lần vectơ $\vec{b}$; và chỉ có đúng một cách chọn $x$, $y$. Hình dưới vẽ trường hợp $x=2$, $y=1$.
 
 :::diagram $\vec{w} = 2\vec{a} + \vec{b}$
 alt: Các mũi tên a và b xuất phát từ điểm O, một bản sao nét đứt của b bắt đầu từ cuối 2a, và mũi tên w đi từ O đến đỉnh xa nhất.
@@ -152,7 +154,7 @@ arrow O B "b"
 arrow O P "w"
 :::
 
-Trong tam giác, hai cạnh xuất phát từ một đỉnh là cặp vectơ không cùng phương tự nhiên nhất.
+Trong tam giác, cặp vectơ không cùng phương dễ chọn nhất là hai cạnh xuất phát từ cùng một đỉnh. Ta thử viết mọi thứ theo hai cạnh ấy.
 
 :::example Phân tích theo hai cạnh của tam giác
 Trong tam giác $ABC$ đặt $\vec{b} = \overrightarrow{AB}$ và $\vec{c} = \overrightarrow{AC}$. Gọi $M$ là trung điểm của $BC$ và $G$ là trọng tâm. Biểu diễn $\overrightarrow{AM}$, $\overrightarrow{AG}$ và $\overrightarrow{BG}$ theo $\vec{b}$ và $\vec{c}$.
@@ -174,7 +176,7 @@ $$\overrightarrow{BG} = \overrightarrow{BA} + \overrightarrow{AG} = -\vec{b} + \
 
 ## Giải bài toán hình học bằng vectơ
 
-Phương pháp luôn là:
+Đến đây bạn đã có đủ mảnh ghép. Gặp một bài hình học mà muốn dùng vectơ, bạn cứ đi theo ba bước quen thuộc:
 
 1. Chọn hai vectơ không cùng phương làm "gốc", thường là hai cạnh xuất phát từ một đỉnh.
 2. Viết mọi vectơ trong bài dưới dạng $x\vec{a} + y\vec{b}$, dùng quy tắc ba điểm, trung điểm và các tỉ số đã cho.
@@ -193,7 +195,7 @@ segment A C
 segment D M dashed
 :::
 
-Ví dụ cuối áp dụng đủ ba bước trên để chứng minh ba điểm thẳng hàng.
+Ví dụ cuối đi đủ ba bước. Nếu chứng minh bằng hình học thuần tuý thì bài này phải vẽ thêm khá nhiều; với vectơ, mọi thứ chỉ còn là tính toán.
 
 :::example Ba điểm trên một đường thẳng
 $ABCD$ là hình bình hành, $M$ là trung điểm của $BC$, và $N$ là điểm trên đường chéo $AC$ sao cho $\overrightarrow{AN} = \dfrac{2}{3}\overrightarrow{AC}$. Chứng minh $D$, $N$, $M$ thẳng hàng.
@@ -212,6 +214,7 @@ Vậy $\overrightarrow{DN} = \dfrac{2}{3}\overrightarrow{DM}$, nên $D$, $N$, $M
 :::
 
 :::warning Những sai lầm thường gặp
+Vectơ tính giống đại số, nhưng không giống hoàn toàn. Mấy chỗ dưới đây là nơi nhiều bạn quen tay mà viết sai.
 - **Nhân hay chia hai vectơ cho nhau.** Sai: "$\overrightarrow{AC}=3\overrightarrow{AB}$ nên $\dfrac{\overrightarrow{AC}}{\overrightarrow{AB}}=3$". Phép chia hai vectơ không có nghĩa; chỉ viết $\overrightarrow{AC}=3\overrightarrow{AB}$ hoặc $AC=3AB$ (độ dài).
 - **Quên trị tuyệt đối.** Sai: "$|-2\vec{a}|=-2|\vec{a}|$". Độ dài không âm; đúng là $|-2\vec{a}|=2|\vec{a}|$.
 - **So sánh hệ số khi chưa đủ điều kiện.** Từ $x\vec{a} + y\vec{b} = x'\vec{a} + y'\vec{b}$ chỉ suy ra $x=x'$, $y=y'$ khi $\vec{a}$, $\vec{b}$ **không** cùng phương.
@@ -238,9 +241,11 @@ Vậy $\overrightarrow{DN} = \dfrac{2}{3}\overrightarrow{DM}$, nên $D$, $N$, $M
 - Với mọi $O$: $\overrightarrow{OA} + \overrightarrow{OB} = 2\overrightarrow{OM}$ ($M$ trung điểm $AB$); $\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} = 3\overrightarrow{OG}$ ($G$ trọng tâm).
 - $\vec{a}$, $\vec{b}$ không cùng phương: mọi $\vec{w}$ viết duy nhất được dưới dạng $x\vec{a} + y\vec{b}$.
 
+Từ câu hỏi nhỏ về ba bạn đạp xe, ta đã đi khá xa: chỉ một con số đứng trước vectơ mà kiểm tra được thẳng hàng, gộp được trung điểm, trọng tâm. Điều cần nhớ nhất là: muốn chứng minh ba điểm thẳng hàng, hãy tìm số $k$ để $\overrightarrow{AC}=k\overrightarrow{AB}$.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có nhắc lại kiến thức cần dùng và gợi ý các bước. Bạn cứ tự làm trước; bài nào bí thì thử chọn hai vectơ gốc rồi viết hết mọi thứ theo chúng, thường lối ra sẽ hiện dần. Sau đó hãy bấm xem lời giải để so.
 
 :::exercise
 Cho $|\vec{a}| = 6$. Tìm $|2\vec{a}|$, $\left|-\dfrac{1}{2}\vec{a}\right|$ và $|0\vec{a}|$. Trong hai vectơ $2\vec{a}$ và $-\dfrac{1}{2}\vec{a}$, vectơ nào cùng hướng với $\vec{a}$?
