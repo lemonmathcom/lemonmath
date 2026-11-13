@@ -169,7 +169,7 @@ const UI = {
     homeTitle: 'Lemonmath: con tự học toán, bố mẹ đồng hành | Lớp 1–12, miễn phí',
     homeDesc: 'Toán lớp 1–12 miễn phí: học sinh tự học với bài giảng từng bước và nhận xét ngay sau bài kiểm tra, phụ huynh có cách đơn giản để đồng hành cùng con.',
     eyebrow: 'Con tự học · bố mẹ đồng hành · miễn phí',
-    h1: 'Tự học toán mỗi ngày, càng luyện càng giỏi.',
+    h1: 'Tự học toán mỗi ngày, nhẹ nhàng, vui vẻ.',
     lead: 'Lemonmath giúp học sinh tăng cường tự học, luyện tập đều đặn cho thật vững, và học với lòng hăng say, niềm phấn khởi. Bố mẹ không cần giỏi toán vẫn đồng hành được cùng con. Lớp 1–12, theo chương trình Việt Nam, có cả tiếng Việt và tiếng Anh.',
     pillarsH: 'Bốn điều Lemonmath theo đuổi',
     pillars: [
