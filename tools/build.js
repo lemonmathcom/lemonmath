@@ -445,6 +445,8 @@ function homePage(lang) {
     '<p class="hero-actions"><a class="btn" id="start-btn" href="' + relDir(d, gradeDir(lang, g10)) + '">' + esc(T.startG10) + '</a> <a class="btn btn-ghost" href="#grades">' + esc(T.browse) + '</a></p>\n</div>\n' +
     '<div class="hero-art" aria-hidden="true">' + mascot({ cls: 'hero-mascot', mood: 'wow' }) + '<span class="float f1">x²</span><span class="float f2">π</span><span class="float f3">∑</span><span class="float f4">√</span></div>\n</section>\n' +
     '<section id="grades" class="grades" aria-labelledby="grades-h"><h2 id="grades-h">' + esc(T.pickGrade) + '</h2>\n' + ['primary', 'middle', 'high'].map(levelBlock).join('\n') + '</section>\n' +
+    '<section class="features pillars" aria-labelledby="pillars-h"><h2 id="pillars-h">' + esc(T.pillarsH) + '</h2><div class="feat-grid">' +
+    T.pillars.map((f, i) => '<div class="feat"><span class="feat-ico loop-n">' + (i + 1) + '</span><h3>' + esc(f[1]) + '</h3><p>' + esc(f[2]) + '</p></div>').join('') + '</div></section>\n' +
     '<section id="exams" class="grades" aria-labelledby="exams-h"><h2 id="exams-h">' + esc(T.examsHome) + '</h2>\n<p class="lead">' + esc(T.examsHomeLead) + ' <a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsAll) + ' →</a></p>\n<div class="cards">' + exams.map((e) => examCard(lang, d, e)).join('\n') + '</div></section>\n' +
     '<section class="features loop" aria-labelledby="loop-h"><h2 id="loop-h">' + esc(T.loopH) + '</h2><p class="lead">' + esc(T.loopLead) + '</p><ol class="feat-grid loop-grid">' +
     T.loop.map((f, i) => '<li class="feat"><span class="feat-ico loop-n">' + (i + 1) + '</span><h3>' + esc(f[0]) + '</h3><p>' + esc(f[1]) + '</p></li>').join('') + '</ol>' +
