@@ -71,7 +71,7 @@ const UI = {
     homeTitle: 'Lemonmath: self-study maths for students, a guide for parents | Grades 1–12',
     homeDesc: 'Free maths for grades 1–12: students study on their own with step-by-step lessons and instant feedback, and parents get a simple way to walk beside them.',
     eyebrow: 'For students who study on their own · for parents beside them · free',
-    h1: 'Teach yourself maths, a little every day. Practice makes perfect.',
+    h1: 'Study with passion and excitement',
     lead: 'Lemonmath helps students get better at studying on their own, practise steadily until it is secure, and study with passion and excitement. Parents can walk beside their child without being good at maths. Grades 1–12, Vietnam’s curriculum, in English and Vietnamese.',
     pillarsH: 'Four things Lemonmath stands for',
     pillars: [
@@ -169,7 +169,7 @@ const UI = {
     homeTitle: 'Lemonmath: con tự học toán, bố mẹ đồng hành | Lớp 1–12, miễn phí',
     homeDesc: 'Toán lớp 1–12 miễn phí: học sinh tự học với bài giảng từng bước và nhận xét ngay sau bài kiểm tra, phụ huynh có cách đơn giản để đồng hành cùng con.',
     eyebrow: 'Con tự học · bố mẹ đồng hành · miễn phí',
-    h1: 'Tự học toán mỗi ngày, nhẹ nhàng, vui vẻ.',
+    h1: 'Học với lòng hăng say và niềm phấn khởi',
     lead: 'Lemonmath giúp học sinh tăng cường tự học, luyện tập đều đặn cho thật vững, và học với lòng hăng say, niềm phấn khởi. Bố mẹ không cần giỏi toán vẫn đồng hành được cùng con. Lớp 1–12, theo chương trình Việt Nam, có cả tiếng Việt và tiếng Anh.',
     pillarsH: 'Bốn điều Lemonmath theo đuổi',
     pillars: [
