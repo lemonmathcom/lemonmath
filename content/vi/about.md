@@ -9,11 +9,15 @@ Lemonmath bắt đầu từ một mong muốn rất giản dị: học sinh nào
 
 Các bài học đi từ lớp 1 đến lớp 12, theo đúng nội dung và thứ tự của chương trình môn Toán hiện hành (Chương trình giáo dục phổ thông 2018, bám theo bộ sách *Kết nối tri thức*). Trang nào cũng có bản **tiếng Việt** và bản **English**, cùng một nội dung, cùng một số liệu.
 
-## Một giải pháp để tự học tốt hơn
+## Con tự học, bố mẹ đồng hành
 
-Điều Lemonmath muốn bồi đắp nhất là khả năng tự học. Vì thế mỗi bài được sắp theo một vòng bốn bước: **học** bài giảng theo nhịp của mình, **luyện** bằng bài tập có lời giải đầy đủ, **tự kiểm tra** bằng bài test chấm ngay, rồi **nhìn lại** qua lời nhận xét cho biết mình đang ở mức nào, vì sao mất điểm và nên làm gì tiếp.
+Lemonmath làm hai việc cùng lúc.
 
-Thầy cô và phụ huynh vẫn là người đồng hành quan trọng nhất. Lemonmath chỉ mong các em có thêm một chỗ dựa những lúc phải học một mình.
+**Giúp người học tự học.** Mỗi bài được sắp theo một vòng bốn bước: **học** bài giảng theo nhịp của mình, **luyện** bằng bài tập có lời giải đầy đủ, **tự kiểm tra** bằng bài test chấm ngay, rồi **nhìn lại** qua lời nhận xét cho biết mình đang ở mức nào, vì sao mất điểm và nên làm gì tiếp.
+
+**Giúp phụ huynh đồng hành cùng con.** Bố mẹ không cần giỏi toán. Mỗi bài có phiếu tự học để in, lời giải đầy đủ để đối chiếu, và lời nhận xét sau bài kiểm tra kèm gợi ý riêng cho bố mẹ. [Trang dành cho phụ huynh](/vi/phu-huynh/) chỉ cách kèm con 15 phút mỗi ngày.
+
+Việc học là của con. Bố mẹ ở bên để hỏi han, khích lệ và giữ nếp. Lemonmath lo phần còn lại.
 
 ## Hiện đã có gì?
 

@@ -14,6 +14,12 @@ Many parents hold back from helping with maths because they feel they have forgo
 
 When your child gets something wrong, try not to rush to the answer. Mistakes are a normal part of learning. Every lesson has a **Mistakes to watch out for** box: read it together and ask whether they made one of those mistakes. A mistake a child finds for themselves stays with them far longer than one someone else corrects.
 
+## Read the feedback after a test together
+
+Every lesson ends with a mini test. It is marked the moment your child submits, and the page shows the level, a remark, the questions to look at again and what to do next. Under the feedback there is one line of advice just for parents.
+
+You do not need to mark anything. Sit with your child for five minutes, ask them to explain one question they got wrong, and praise the effort you can actually see. When they retake the test, the page shows how many points they have gained since last time.
+
 ## Choose your child's grade
 
 - **Primary:** [grade 1](grade:1) · [grade 2](grade:2) · [grade 3](grade:3) · [grade 4](grade:4) · [grade 5](grade:5)

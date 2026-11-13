@@ -9,11 +9,15 @@ Lemonmath began with a simple wish: that every student could have a patient teac
 
 The lessons run from grade 1 to grade 12 and follow the content and order of Vietnam's current mathematics curriculum (the 2018 general education programme, as used in the *Kết nối tri thức* textbook series). Every page comes in **English** and in **Tiếng Việt**, with the same content and the same numbers.
 
-## A way to get better at studying on your own
+## Students learn on their own, parents walk beside them
 
-What Lemonmath most wants to build is the ability to learn independently. So every lesson follows the same four steps: **learn** from the lesson at your own pace, **practise** with exercises that have full solutions, **test yourself** with a test that is marked at once, then **look back** through feedback that tells you your level, why marks were lost and what to do next.
+Lemonmath does two things at once.
 
-Teachers and parents remain the most important companions. Lemonmath simply hopes to be something to lean on in the hours when a student has to study alone.
+**It helps students study independently.** Every lesson follows the same four steps: **learn** from the lesson at your own pace, **practise** with exercises that have full solutions, **test yourself** with a test that is marked at once, then **look back** through feedback that tells you your level, why marks were lost and what to do next.
+
+**It helps parents walk beside their child.** You do not need to be good at maths. Every lesson has a printable self-study sheet, full solutions to compare with, and feedback after each test with a suggestion just for parents. The [page for parents](/parents/) shows how to support your child in 15 minutes a day.
+
+The learning belongs to the child. Parents are there to ask, encourage and keep the routine. Lemonmath takes care of the rest.
 
 ## What is ready now?
 

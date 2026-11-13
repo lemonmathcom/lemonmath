@@ -14,6 +14,12 @@ Nhiều bố mẹ ngại kèm con học toán vì nghĩ mình đã quên hết. 
 
 Khi con làm sai, bạn đừng vội chỉ đáp án. Sai là một phần rất bình thường của việc học. Mỗi bài có mục **Những lỗi hay gặp**: bạn cùng con đọc và hỏi con xem mình có mắc lỗi nào trong đó không. Lỗi con tự tìm ra, con sẽ nhớ lâu hơn nhiều so với lỗi được người khác sửa giúp.
 
+## Đọc lời nhận xét sau bài kiểm tra cùng con
+
+Cuối mỗi bài có một bài kiểm tra mini. Con nộp bài là trang chấm ngay và hiện mức điểm, lời nhận xét, những câu cần xem lại và việc nên làm tiếp. Dưới lời nhận xét có một dòng gợi ý dành riêng cho bố mẹ.
+
+Bố mẹ không cần chấm lại. Chỉ cần ngồi cùng con năm phút, nhờ con giảng lại một câu con làm sai, và khen đúng chỗ con đã cố gắng. Lần sau con làm lại, trang sẽ cho biết con tiến bộ bao nhiêu điểm so với lần trước.
+
 ## Chọn lớp của con
 
 - **Tiểu học:** [lớp 1](grade:1) · [lớp 2](grade:2) · [lớp 3](grade:3) · [lớp 4](grade:4) · [lớp 5](grade:5)

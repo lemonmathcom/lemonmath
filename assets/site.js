@@ -272,6 +272,16 @@
       score: 'Score', scale: 'out of 10', level: 'Level', causes: 'Why is the score low? (likely causes)', fix: 'What to do now', aim: 'Where to go next', how: 'How to get there',
       last: function (a, b) { return b > a ? 'Last time ' + fmt(a) + ', this time ' + fmt(b) + ': up by ' + fmt(b - a) + '. Keep it going! 📈' : b < a ? 'Last time ' + fmt(a) + ', this time ' + fmt(b) + '. That happens. Go through the wrong answers and you are fine.' : 'The same as last time (' + fmt(a) + '). Try changing how you study a little.'; }
     };
+    /* one line for the parent sitting next to the child (primary and lower secondary) */
+    var withParent = young || d.body.classList.contains('lvl-middle');
+    var PARENT = isVi ? ['Bố mẹ đừng trách điểm. Hãy ngồi cạnh con 15 phút, cùng đọc lại một ví dụ trong bài và để con tự làm lại một câu sai.',
+      'Bố mẹ nhờ con giảng lại một câu con làm sai. Con giảng được nghĩa là con đã hiểu; khen sự cố gắng trước, nói chuyện điểm sau.',
+      'Bố mẹ khen một điều cụ thể con đã làm tốt, rồi để con tự chọn bài tiếp theo. Được tự quyết, con sẽ thích tự học hơn.']
+      : ['Please do not scold the score. Sit with your child for 15 minutes, reread one example from the lesson together and let them redo one wrong question.',
+        'Ask your child to explain one question they got wrong. If they can explain it, they understand it. Praise the effort first, talk about the score later.',
+        'Praise one specific thing your child did well, then let them choose the next lesson. Children who get to decide enjoy studying on their own more.'];
+    var parentsUrl0 = (root.getAttribute('data-root') || '.').replace(/\/$/, '');
+    var parentsUrl = (parentsUrl0 === '.' ? '' : parentsUrl0 + '/') + (isVi ? 'phu-huynh/' : 'parents/');
     var base = (root.getAttribute('data-root') || '.').replace(/\/$/, '');
     var examsUrl = (base === '.' ? '' : base + '/') + (isVi ? 'on-thi/' : 'exams/');
 
@@ -323,7 +333,8 @@
         '<p class="fb-remark">' + fill(B[2]) + '</p><p class="fb-cute">' + fill(pick(B[3])) + '</p>' +
         (!isNaN(prev) ? '<p class="fb-last">' + W.last(prev, s) + '</p>' : '') +
         (s < 5 ? (a.causes.length ? '<h4>' + W.causes + '</h4>' + ul(a.causes) : '') + '<h4>' + W.fix + '</h4>' + ul(a.steps)
-          : '<h4>' + W.aim + '</h4><p>' + fill(a.aim) + '</p><h4>' + W.how + '</h4>' + ul(a.steps));
+          : '<h4>' + W.aim + '</h4><p>' + fill(a.aim) + '</p><h4>' + W.how + '</h4>' + ul(a.steps)) +
+        (withParent ? '<p class="fb-parent"><b>' + (isVi ? 'Dành cho bố mẹ' : 'For parents') + ':</b> ' + PARENT[s < 5 ? 0 : k >= 4 ? 2 : 1] + ' <a href="' + parentsUrl + '">' + (isVi ? 'Cách đồng hành cùng con' : 'How to support your child') + ' →</a></p>' : '');
       var art = $('.foot-mark');
       if (art) { var c = art.cloneNode(true); c.setAttribute('class', 'fb-mascot'); c.setAttribute('aria-hidden', 'true'); $('.fb-art', box).appendChild(c); }
       host.parentNode.insertBefore(box, host.nextSibling);

@@ -448,6 +448,7 @@ function homePage(lang) {
     '<section id="exams" class="grades" aria-labelledby="exams-h"><h2 id="exams-h">' + esc(T.examsHome) + '</h2>\n<p class="lead">' + esc(T.examsHomeLead) + ' <a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsAll) + ' →</a></p>\n<div class="cards">' + exams.map((e) => examCard(lang, d, e)).join('\n') + '</div></section>\n' +
     '<section class="features loop" aria-labelledby="loop-h"><h2 id="loop-h">' + esc(T.loopH) + '</h2><p class="lead">' + esc(T.loopLead) + '</p><ol class="feat-grid loop-grid">' +
     T.loop.map((f, i) => '<li class="feat"><span class="feat-ico loop-n">' + (i + 1) + '</span><h3>' + esc(f[0]) + '</h3><p>' + esc(f[1]) + '</p></li>').join('') + '</ol>' +
+    '<p class="loop-teach">' + esc(T.loopParent) + ' <a href="' + relDir(d, parentsDir(lang)) + '">' + esc(T.loopParentLink) + ' →</a></p>' +
     '<p class="loop-teach">' + esc(T.loopTeach) + ' <a href="' + relDir(d, teachersDir(lang)) + '">' + esc(T.teachTitle) + ' →</a></p></section>\n' +
     '<section class="features" aria-labelledby="why-h"><h2 id="why-h">' + esc(T.why) + '</h2><div class="feat-grid">' +
     T.features.map((f) => '<div class="feat"><span class="feat-ico">' + icon(f[0], 28) + '</span><h3>' + esc(f[1]) + '</h3><p>' + esc(f[2]) + '</p></div>').join('') + '</div></section>\n' +
