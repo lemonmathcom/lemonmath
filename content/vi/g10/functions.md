@@ -13,15 +13,17 @@ minutes: 25
 
 Một hãng taxi tính $15$ nghìn đồng cho kilômét đầu tiên (hoặc ít hơn) và $12$ nghìn đồng cho mỗi kilômét tiếp theo. Một chuyến đi $3$ km hết bao nhiêu tiền? Và nếu biết số tiền, ta có luôn biết được quãng đường không?
 
+Câu hỏi đầu dễ, chỉ cần cộng và nhân. Câu thứ hai mới thú vị: nghe thì tưởng tất nhiên là được, nhưng thử vài chuyến đi ngắn là thấy có chuyện. Chính chỗ "có chuyện" ấy dẫn ta đến khái niệm hàm số, một trong những ý quan trọng nhất của toán phổ thông.
+
 ## Hàm số là gì?
 
-Ta lập bảng số tiền $T$ (nghìn đồng) theo quãng đường $d$ (km). Với $d>1$, ngoài $15$ nghìn của kilômét đầu còn $d-1$ kilômét, mỗi kilômét $12$ nghìn:
+Cách dễ nhất để nhìn rõ là ghi ra một bảng. Ta lập bảng số tiền $T$ (nghìn đồng) theo quãng đường $d$ (km). Với $d>1$, ngoài $15$ nghìn của kilômét đầu còn $d-1$ kilômét, mỗi kilômét $12$ nghìn:
 
 | $d$ (km) | $0{,}5$ | $1$ | $2$ | $3$ | $5$ |
 |---|---|---|---|---|---|
 | $T$ (nghìn đồng) | $15$ | $15$ | $27$ | $39$ | $63$ |
 
-Chuyến đi $3$ km hết $15+12\cdot2=39$ nghìn đồng. Hãy để ý hai điều:
+Chuyến đi $3$ km hết $15+12\cdot2=39$ nghìn đồng. Giờ bạn nhìn bảng theo hai chiều và để ý hai điều:
 
 - Mỗi quãng đường cho **đúng một** số tiền. Vậy $T$ là một hàm số của $d$.
 - Ngược lại, số tiền $15$ nghìn ứng với **hai** quãng đường khác nhau ($0{,}5$ km và $1$ km). Vậy biết số tiền chưa chắc biết được quãng đường: $d$ **không** là hàm số của $T$.
@@ -33,9 +35,9 @@ Cho $D$ là một tập con khác rỗng của $\mathbb{R}$. **Hàm số** $f$ x
 - **Đồ thị** của hàm số $f$ là tập hợp các điểm $(x; f(x))$ trên mặt phẳng toạ độ, với $x\in D$.
 :::
 
-Hàm số có thể cho bằng **công thức** ($f(x)=3x-2$), bằng **bảng** giá trị, bằng **đồ thị**, hoặc bằng **lời** ("giá tiền của chuyến đi dài $x$ km"). Một quan hệ cho hai giá trị khác nhau ứng với cùng một $x$ thì **không** phải hàm số. Chẳng hạn đường tròn $x^2+y^2=1$ không phải đồ thị của hàm số, vì $x=0$ cho cả $y=1$ lẫn $y=-1$. Trên đồ thị của một hàm số, không có đường thẳng đứng nào cắt đồ thị tại hai điểm.
+Điều cốt lõi trong định nghĩa là chữ "đúng một": cho $x$ vào thì chỉ có một kết quả, không lưỡng lự. Còn cách cho hàm số thì rất linh hoạt. Hàm số có thể cho bằng **công thức** ($f(x)=3x-2$), bằng **bảng** giá trị, bằng **đồ thị**, hoặc bằng **lời** ("giá tiền của chuyến đi dài $x$ km"). Một quan hệ cho hai giá trị khác nhau ứng với cùng một $x$ thì **không** phải hàm số. Chẳng hạn đường tròn $x^2+y^2=1$ không phải đồ thị của hàm số, vì $x=0$ cho cả $y=1$ lẫn $y=-1$. Từ đó có một cách kiểm tra bằng mắt rất tiện: trên đồ thị của một hàm số, không có đường thẳng đứng nào cắt đồ thị tại hai điểm.
 
-Ví dụ đầu tiên luyện cách nhận ra một hàm số cho bằng bảng.
+Ta thử ngay với một tình huống quen thuộc ở trường. Bạn chỉ cần tự hỏi: mỗi giá trị bên này có ứng với đúng một giá trị bên kia không?
 
 :::example Bảng nào cho một hàm số?
 Bãi gửi xe của trường thu tiền theo số giờ gửi như sau: $1$ giờ hay $2$ giờ đều $5$ nghìn đồng, $3$ giờ hay $4$ giờ đều $10$ nghìn đồng.
@@ -52,7 +54,7 @@ b) Số tiền $5$ nghìn ứng với hai số giờ khác nhau là $1$ và $2$.
 Vậy tiền gửi xe là hàm số của số giờ, còn số giờ **không** là hàm số của tiền gửi xe.
 :::
 
-Khi hàm số cho bằng công thức mà không nói gì thêm, tập xác định là tập tất cả các số thực $x$ làm cho công thức có nghĩa. Cần chú ý hai điều: **mẫu khác $0$** và **biểu thức dưới dấu căn bậc hai không âm**.
+Khi hàm số cho bằng công thức mà không nói gì thêm, tập xác định là tập tất cả các số thực $x$ làm cho công thức có nghĩa, tức là những số ta "được phép" thay vào. Ở lớp 10, có hai chỗ khiến một công thức mất nghĩa: chia cho $0$, và lấy căn bậc hai của số âm. Vì thế bạn luôn dò hai điều: **mẫu khác $0$** và **biểu thức dưới dấu căn bậc hai không âm**.
 
 :::example Tìm tập xác định
 Tìm tập xác định của $f(x)=\dfrac{\sqrt{x-2}}{x-5}$ và tính $f(3)$.
@@ -78,7 +80,7 @@ point: (0, -3) "(0; -3)" below-left
 point: (1, -4) "(1; -4)" below
 :::
 
-Từ hình vẽ, không cần tính toán, ta đọc được:
+Một đồ thị chứa rất nhiều thông tin, nếu ta biết cách nhìn. Từ hình vẽ, không cần tính toán, ta đọc được:
 - $f(0)=-3$, là điểm đồ thị cắt trục tung.
 - $f(x)=0$ khi $x=-1$ và $x=3$ (các **không điểm** của $f$).
 - Điểm thấp nhất là $(1; -4)$ nên **tập giá trị** là $[-4; +\infty)$.
@@ -92,7 +94,7 @@ Cho $K$ là một khoảng nằm trong tập xác định của $f$.
 
 Vậy $f(x)=x^2-2x-3$ nghịch biến trên $(-\infty; 1)$ và đồng biến trên $(1; +\infty)$.
 
-Đọc đồ thị cho ta dự đoán; để chứng minh, ta so sánh $f(x_1)$ và $f(x_2)$ bằng cách xét dấu của hiệu.
+Nhưng hình vẽ dù đẹp vẫn chỉ cho ta một dự đoán: mắt có thể nhìn nhầm, và hình chỉ vẽ được một đoạn. Muốn chắc chắn, ta so sánh $f(x_1)$ và $f(x_2)$ bằng cách xét dấu của hiệu. Hiệu dương thì giá trị sau lớn hơn, hiệu âm thì nhỏ hơn, thế thôi.
 
 :::example Chứng minh hàm số đồng biến, nghịch biến
 Chứng minh $g(x)=x^2$ đồng biến trên $(0; +\infty)$ và nghịch biến trên $(-\infty; 0)$.
@@ -111,7 +113,7 @@ Vậy $g$ đồng biến trên $(0; +\infty)$ và nghịch biến trên $(-\inft
 
 ## Hàm số cho bởi nhiều công thức
 
-Đôi khi một công thức không đủ: quy tắc thay đổi theo giá trị của $x$. Khi đó ta viết hàm số thành **nhiều dòng**, mỗi dòng kèm một điều kiện.
+Cước taxi ở đầu bài không viết được bằng một công thức duy nhất: kilômét đầu tính một kiểu, các kilômét sau tính kiểu khác. Rất nhiều thứ trong đời sống cũng vậy, như tiền điện theo bậc hay vé vào cửa theo độ tuổi. Khi quy tắc thay đổi theo giá trị của $x$, ta viết hàm số thành **nhiều dòng**, mỗi dòng kèm một điều kiện. Việc đầu tiên khi tính toán luôn là xem $x$ thuộc dòng nào.
 
 :::example Hàm số cho bởi hai công thức
 Cho $f(x)=\begin{cases} x+2 & \text{nếu } x<0,\\ x^2 & \text{nếu } x\ge 0.\end{cases}$ Tính $f(-3)$, $f(0)$, $f(2)$ và mô tả đồ thị.
@@ -135,10 +137,10 @@ point: (0, 0) "O" below-right
 
 ### Hàm số trong thực tế: cước taxi
 
-Quay lại hãng taxi ở đầu bài. Với quãng đường $d$ km, số tiền (nghìn đồng) là
+Bây giờ ta có đủ công cụ để quay lại hãng taxi ở đầu bài. Với quãng đường $d$ km, số tiền (nghìn đồng) là
 $$T(d)=\begin{cases}15 & \text{nếu } 0<d\le 1,\\ 15+12(d-1) & \text{nếu } d>1.\end{cases}$$
 
-Ví dụ cuối đi theo cả hai chiều: từ quãng đường tính tiền, và từ tiền tìm quãng đường.
+Ví dụ cuối đi theo cả hai chiều: từ quãng đường tính tiền, và từ tiền tìm quãng đường. Chiều thứ hai cần cẩn thận hơn một chút, vì phải đoán trước chuyến đi rơi vào dòng nào.
 
 :::example Cước taxi
 Tìm số tiền phải trả cho quãng đường $0{,}8$ km và $5$ km. Một chuyến đi hết $99$ nghìn đồng thì dài bao nhiêu kilômét?
@@ -167,6 +169,7 @@ point: (1, 15) "(1; 15)" below-right
 :::
 
 :::warning Những lỗi thường gặp
+Ba chỗ dưới đây nhiều bạn hay vấp, kể cả khi đã hiểu bài. Đọc chậm một lần là đủ để tránh.
 - **Quên điều kiện của tập xác định.** Sai: tập xác định của $\dfrac{1}{\sqrt{2-x}}$ là $(-\infty; 2]$. Tại $x=2$ mẫu bằng $0$; đúng là $(-\infty; 2)$.
 - **Nói đồng biến "trên toàn bộ".** Sai: "$y=x^2$ đồng biến". Hàm số này chỉ đồng biến trên $(0; +\infty)$; trên $(-\infty; 0)$ nó nghịch biến.
 - **Dùng sai dòng của hàm số nhiều công thức.** Sai: với $f$ ở trên, giải $x+2=9$ được $x=7$ rồi kết luận $f(7)=9$. Nhưng $7\ge0$ nên $f(7)=49$; phải kiểm tra nghiệm có thoả điều kiện của dòng đã dùng.
@@ -194,9 +197,11 @@ point: (1, 15) "(1; 15)" below-right
 - Đồ thị cho biết giá trị, không điểm, tập giá trị và khoảng đồng biến, nghịch biến.
 - Hàm số nhiều công thức: chọn dòng theo điều kiện, và kiểm tra nghiệm với điều kiện đó.
 
+Quay lại câu hỏi đầu bài: số tiền là hàm số của quãng đường, nhưng quãng đường thì không là hàm số của số tiền, vì $15$ nghìn có thể là chuyến $0{,}5$ km hay $1$ km. Khi gặp một quan hệ mới, bạn hãy tự hỏi đúng câu ấy: mỗi đầu vào có cho đúng một kết quả không?
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có nhắc lại kiến thức cần dùng và gợi ý các bước. Bạn cứ tự làm trước, kể cả khi chưa chắc; sai một chỗ rồi tự tìm ra vì sao sai là cách học nhớ lâu nhất. Sau đó hãy bấm xem lời giải để so.
 
 :::exercise
 Cho $f(x)=3x-2$. Tính $f(-1)$ và $f(4)$.

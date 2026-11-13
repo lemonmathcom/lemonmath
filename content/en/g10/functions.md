@@ -13,15 +13,17 @@ minutes: 25
 
 A taxi company charges $15$ thousand dong for the first kilometre (or less) and $12$ thousand dong for each further kilometre. How much does a $3$ km trip cost? And if you know the price, do you always know the distance?
 
+The first question is easy: a little adding and multiplying. The second is more interesting. It sounds as if the answer must be yes, but try a few short trips and something goes wrong. That small surprise leads us to the idea of a function, one of the most important ideas in school mathematics.
+
 ## What is a function?
 
-Let us make a table of the fare $T$ (thousand dong) against the distance $d$ (km). For $d>1$, on top of the $15$ thousand for the first kilometre there are $d-1$ more kilometres at $12$ thousand each:
+The easiest way to see what is going on is to write a table. Let us make a table of the fare $T$ (thousand dong) against the distance $d$ (km). For $d>1$, on top of the $15$ thousand for the first kilometre there are $d-1$ more kilometres at $12$ thousand each:
 
 | $d$ (km) | $0.5$ | $1$ | $2$ | $3$ | $5$ |
 |---|---|---|---|---|---|
 | $T$ (thousand dong) | $15$ | $15$ | $27$ | $39$ | $63$ |
 
-A $3$ km trip costs $15+12\cdot2=39$ thousand dong. Notice two things:
+A $3$ km trip costs $15+12\cdot2=39$ thousand dong. Now read the table both ways and notice two things:
 
 - Each distance gives **exactly one** fare. So $T$ is a function of $d$.
 - The other way round, the fare $15$ thousand belongs to **two** different distances ($0.5$ km and $1$ km). So the price does not always tell you the distance: $d$ is **not** a function of $T$.
@@ -33,9 +35,9 @@ Let $D$ be a non-empty subset of $\mathbb{R}$. A **function** $f$ defined on $D$
 - The **graph** of $f$ is the set of points $(x, f(x))$ in the coordinate plane, $x\in D$.
 :::
 
-A function can be given by a **formula** ($f(x)=3x-2$), by a **table** of values, by a **graph**, or by **words** ("the price of a trip of $x$ km"). A relation that gives two different outputs for one input is **not** a function. For example, the circle $x^2+y^2=1$ is not the graph of a function, because $x=0$ gives both $y=1$ and $y=-1$. On the graph of a function, no vertical line meets the graph at two points.
+The heart of the definition is the phrase "exactly one": put $x$ in and one answer comes out, never two. How the function is given is much more flexible. A function can be given by a **formula** ($f(x)=3x-2$), by a **table** of values, by a **graph**, or by **words** ("the price of a trip of $x$ km"). A relation that gives two different outputs for one input is **not** a function. For example, the circle $x^2+y^2=1$ is not the graph of a function, because $x=0$ gives both $y=1$ and $y=-1$. This gives a handy check by eye: on the graph of a function, no vertical line meets the graph at two points.
 
-The first example practises recognising a function given by a table.
+Let us try this straight away with a familiar situation at school. Just ask yourself: does each value on one side match exactly one value on the other?
 
 :::example Which table gives a function?
 The school car park charges by the number of hours: $1$ hour or $2$ hours both cost $5$ thousand dong, $3$ hours or $4$ hours both cost $10$ thousand dong.
@@ -52,7 +54,7 @@ b) The fee $5$ thousand matches two different numbers of hours, $1$ and $2$.
 So the fee is a function of the number of hours, but the number of hours is **not** a function of the fee.
 :::
 
-When a function is given by a formula without any comment, its domain is the set of all real $x$ for which the formula makes sense. Two things to watch: **the denominator is not $0$**, and **the expression under a square root is not negative**.
+When a function is given by a formula without any comment, its domain is the set of all real $x$ for which the formula makes sense, that is, the numbers we are "allowed" to put in. At this level, two things make a formula meaningless: dividing by $0$, and taking the square root of a negative number. So you always check two things: **the denominator is not $0$**, and **the expression under a square root is not negative**.
 
 :::example Finding a domain
 Find the domain of $f(x)=\dfrac{\sqrt{x-2}}{x-5}$ and compute $f(3)$.
@@ -78,7 +80,7 @@ point: (0, -3) "(0, -3)" below-left
 point: (1, -4) "(1, -4)" below
 :::
 
-From this picture we read, without any calculation:
+A graph holds a lot of information if you know how to look. From this picture we read, without any calculation:
 - $f(0)=-3$, the point where the graph meets the $y$-axis.
 - $f(x)=0$ for $x=-1$ and $x=3$ (the **zeros** of $f$).
 - The lowest point is $(1, -4)$, so the **range** is $[-4, +\infty)$.
@@ -92,7 +94,7 @@ Let $K$ be an interval inside the domain of $f$.
 
 So $f(x)=x^2-2x-3$ is decreasing on $(-\infty, 1)$ and increasing on $(1, +\infty)$.
 
-Reading a graph gives a guess; to prove it, we compare $f(x_1)$ and $f(x_2)$ by looking at the sign of their difference.
+But however neat a picture is, it only gives a guess: the eye can be fooled, and a graph only shows a small part. To be sure, we compare $f(x_1)$ and $f(x_2)$ by looking at the sign of their difference. A positive difference means the later value is bigger, a negative one means it is smaller; that is all there is to it.
 
 :::example Proving that a function increases or decreases
 Prove that $g(x)=x^2$ is increasing on $(0, +\infty)$ and decreasing on $(-\infty, 0)$.
@@ -111,7 +113,7 @@ So $g$ is increasing on $(0, +\infty)$ and decreasing on $(-\infty, 0)$.
 
 ## Piecewise functions
 
-Sometimes one formula is not enough: the rule changes with the input. We then write the function in **several lines**, each with its own condition.
+The taxi fare at the start cannot be written as a single formula: the first kilometre is charged one way, the rest another way. Many things in daily life work like this, such as electricity charged in bands or ticket prices by age. When the rule changes with the input, we write the function in **several lines**, each with its own condition. The first job in any calculation is to see which line $x$ belongs to.
 
 :::example A function given by two formulas
 Let $f(x)=\begin{cases} x+2 & \text{if } x<0,\\ x^2 & \text{if } x\ge 0.\end{cases}$ Compute $f(-3)$, $f(0)$, $f(2)$ and describe the graph.
@@ -135,10 +137,10 @@ point: (0, 0) "O" below-right
 
 ### A real-life function: the taxi fare
 
-Back to the taxi company from the start of the lesson. For a trip of $d$ km, the fare in thousand dong is
+We now have all the tools to go back to the taxi company from the start of the lesson. For a trip of $d$ km, the fare in thousand dong is
 $$T(d)=\begin{cases}15 & \text{if } 0<d\le 1,\\ 15+12(d-1) & \text{if } d>1.\end{cases}$$
 
-The last example works in both directions: from the distance to the fare, and from the fare to the distance.
+The last example works in both directions: from the distance to the fare, and from the fare to the distance. The second direction needs a little more care, because you must first decide which line the trip falls into.
 
 :::example Taxi fare
 Find the fare for $0.8$ km and for $5$ km. A trip costs $99$ thousand dong: how many kilometres long is it?
@@ -167,6 +169,7 @@ point: (1, 15) "(1, 15)" below-right
 :::
 
 :::warning Common mistakes
+Many students trip over the three points below, even when they understand the lesson. One slow read is enough to avoid them.
 - **Forgetting a domain condition.** Wrong: the domain of $\dfrac{1}{\sqrt{2-x}}$ is $(-\infty, 2]$. At $x=2$ the denominator is $0$; the right answer is $(-\infty, 2)$.
 - **Saying "increasing" for the whole function.** Wrong: "$y=x^2$ is increasing". It is increasing only on $(0, +\infty)$; on $(-\infty, 0)$ it is decreasing.
 - **Using the wrong line of a piecewise function.** Wrong: for $f$ above, solving $x+2=9$ gives $x=7$, so "$f(7)=9$". But $7\ge0$, so $f(7)=49$; always check the solution against the condition of the line you used.
@@ -194,9 +197,11 @@ point: (1, 15) "(1, 15)" below-right
 - A graph shows values, zeros, the range and where the function increases or decreases.
 - Piecewise function: choose the line by its condition, and check solutions against that condition.
 
+Back to the question at the start: the fare is a function of the distance, but the distance is not a function of the fare, because $15$ thousand could be a $0.5$ km trip or a $1$ km trip. Whenever you meet a new relationship, ask yourself that same question: does each input give exactly one output?
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise reminds you what you need and gives some steps to start. Have a go yourself first, even if you are not sure; making a mistake and then finding out why is the way that sticks longest. Then open the solution and compare.
 
 :::exercise
 Let $f(x)=3x-2$. Compute $f(-1)$ and $f(4)$.

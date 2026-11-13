@@ -13,16 +13,16 @@ minutes: 22
 
 The school maths club has $6$ members. At the end of the year the club must do three things: line up all $6$ members for a photo; elect $3$ members as president, vice-president and treasurer; and send $3$ members to a competition. Can the three tasks be done in the same number of ways?
 
-All three tasks are "choose and arrange", but some care about **order** and some do not. This lesson gives a formula for each kind, and a simple test to know which formula to use.
+At first glance the three tasks look alike: each one picks some members and puts them somewhere. But think a little more carefully. In the photo, who stands at the front of the row makes a difference. In the election, who is president and who is treasurer also makes a difference. When we send a team to the competition, though, three people simply go together, and nobody comes before anybody else. The difference is **order**. Once you can see whether order matters, you can pick the right formula and count quickly without listing everything.
 
 ## Ordered or unordered?
 
-Let us do a small experiment with $4$ students $A, B, C, D$, choosing $2$ of them.
+Let us start with an experiment small enough to list in full: there are $4$ students $A, B, C, D$, and we choose $2$ of them.
 
 - If we choose **a class monitor and a deputy**, then "$A$ monitor, $B$ deputy" differs from "$B$ monitor, $A$ deputy". Listing: $AB, BA, AC, CA, AD, DA, BC, CB, BD, DB, CD, DC$, that is $4\cdot3=12$ ways.
 - If we only choose **two students to clean the classroom**, then $AB$ and $BA$ are the same. Each pair appears twice in the list above, so only $12\div2=6$ ways are left: $\{A, B\}$, $\{A, C\}$, $\{A, D\}$, $\{B, C\}$, $\{B, D\}$, $\{C, D\}$.
 
-Both times we choose $2$ out of $4$, but one count is ordered ($12$) and the other is not ($6$). We give each kind a name.
+Both times we choose $2$ out of $4$, yet one count gives $12$ and the other gives $6$. The only reason is that order means something the first time and nothing the second time. These two kinds of counting turn up all the time, so we give each one a name.
 
 ## Permutations
 
@@ -31,7 +31,7 @@ Each way of putting $n$ distinct objects in an order is called a **permutation**
 $$n!=n\cdot(n-1)\cdots 2\cdot 1,\qquad\text{with the convention } 0!=1.$$
 :::
 
-**Why?** The first place has $n$ choices, the second has $n-1$ left, ..., the last place has $1$ left. By the multiplication rule from [Counting rules](lesson:counting-rules), we get $n\cdot(n-1)\cdots1=n!$.
+**Why $n!$?** Imagine filling the places one at a time. The first place has $n$ objects to choose from. Once one is placed, the second place has only $n-1$ choices left, and so on, until the last place has exactly $1$. By the multiplication rule from [Counting rules](lesson:counting-rules), we get $n\cdot(n-1)\cdots1=n!$.
 
 :::example Books on a shelf
 In how many ways can $6$ different books be put in a row on a shelf?
@@ -45,14 +45,14 @@ So there are $720$ ways. This is also the number of ways to line up the $6$ club
 
 ## Arrangements
 
-When we choose only $k$ of the $n$ objects and put them in order, we stop the multiplication rule after $k$ steps.
+Often we do not arrange all $n$ objects but only fill $k$ places, such as three positions for six members. The thinking is exactly the same as before; we simply stop multiplying once the $k$ places are filled.
 
 :::definition Arrangement
 Each way of taking $k$ of $n$ objects ($1\le k\le n$) and putting them in an order is called an **arrangement of $k$ out of $n$**. The number of arrangements is
 $$P(n, k)=n(n-1)\cdots(n-k+1)=\frac{n!}{(n-k)!}.$$
 :::
 
-In the experiment above: $P(4, 2)=4\cdot3=12$. The next example uses arrangements for a race.
+Back to the experiment: choosing a monitor and a deputy from $4$ students gives $P(4, 2)=4\cdot3=12$ ways, the same as our list. A race with three prizes is the same kind of situation.
 
 :::example First, second and third
 $10$ runners take part in a $100$ m final. How many results are possible for first, second and third place (no two runners finish together)?
@@ -71,7 +71,7 @@ Each subset of $k$ elements of a set with $n$ elements ($0\le k\le n$) is called
 $$\binom{n}{k}=\frac{n!}{k!\,(n-k)!}=\frac{P(n, k)}{k!}.$$
 :::
 
-**Why divide by $k!$?** Each group of $k$ objects can be put in $k!$ orders, so in $P(n, k)$ every group is counted exactly $k!$ times. In the experiment: $\binom{4}{2}=\dfrac{12}{2!}=6$.
+**Why divide by $k!$?** Think back to the experiment: the pair $\{A, B\}$ appears twice in the ordered list, once as $AB$ and once as $BA$. More generally, each group of $k$ objects can be put in $k!$ orders, so in $P(n, k)$ every group is counted exactly $k!$ times. Dividing by $k!$ removes that repeated counting. In the experiment: $\binom{4}{2}=\dfrac{12}{2!}=6$.
 
 :::example Sending students to a competition
 (a) The $6$-member club sends $3$ members to a competition. In how many ways? (b) A class has $9$ volunteers and needs $4$ of them to plant trees. In how many ways?
@@ -83,17 +83,17 @@ $$\binom{6}{3}=\frac{6\cdot5\cdot4}{3\cdot2\cdot1}=20,\qquad \binom{9}{4}=\frac{
 So there are $20$ ways to choose the competition team and $126$ ways to choose the tree-planting group. To answer the opening question: the three tasks have $720$, $120$ and $20$ ways, all different.
 :::
 
-Two properties are often useful:
+Two properties will come up again and again, and both have a very everyday reason behind them:
 - **Symmetry:** $\binom{n}{k}=\binom{n}{n-k}$, because choosing $k$ people to go is the same as choosing $n-k$ people to stay.
 - **Pascal's rule:** $\binom{n}{k-1}+\binom{n}{k}=\binom{n+1}{k}$. For example $\binom{5}{2}+\binom{5}{3}=10+10=20=\binom{6}{3}$.
 
 :::tip Which formula?
-Ask: **does swapping two chosen objects give a different result?** Yes (positions, prizes, digits of a number): arrangements. No (a group, a team, a subset): combinations. Using all $n$ objects in a row: permutations.
+Whenever you are unsure, ask yourself one question: **does swapping two chosen objects give a different result?** If yes (positions, prizes, digits of a number), use arrangements. If no (a group, a team, a subset), use combinations. And if all $n$ objects are put in a row, that is a permutation.
 :::
 
 ## Combining with the counting rules
 
-Many problems consist of several successive choices; each choice is a combination or an arrangement, and we multiply.
+Real problems rarely involve just one choice. Usually we choose several times in a row: these people first, then those. We count each choice with a combination or an arrangement, then multiply the results, just as the multiplication rule says.
 
 :::example Choosing a group of girls and boys
 A class has $7$ girls and $6$ boys. In how many ways can a group of $2$ girls and $3$ boys be chosen?
@@ -105,7 +105,7 @@ $$\binom{7}{2}\cdot\binom{6}{3}=21\cdot20=420.$$
 So there are $420$ ways.
 :::
 
-Combinations also count geometric objects, since a segment is determined by an unordered pair of points.
+Combinations do not only count people. A segment joining two points depends only on that pair of points: segment $AB$ and segment $BA$ are the same. So combinations can count things in geometry too.
 
 :::example Handshakes and diagonals
 (a) $12$ people meet and each shakes hands exactly once with every other person. How many handshakes are there? (b) How many diagonals does a convex octagon have?
@@ -117,7 +117,7 @@ $$\text{(a) } \binom{12}{2}=\frac{12\cdot11}{2}=66;\qquad \text{(b) } \binom{8}{
 In (b) we subtract $8$ because $8$ of the $28$ segments joining two vertices are sides. So there are $66$ handshakes and the octagon has $20$ diagonals.
 :::
 
-The last example combines permutations with a trick: treat several people as one "block".
+The last example has a condition you will meet often: two people must stand next to each other. The trick is easy to remember: tie the two of them together and treat them as one "block".
 
 :::example Together or apart
 Six students, including An and Binh, stand in a row. In how many ways can they stand if (a) An and Binh are next to each other; (b) An and Binh are not next to each other?
@@ -166,9 +166,11 @@ So there are $240$ ways with An and Binh next to each other and $480$ ways with 
 - Test: does swapping two chosen objects change the result? Yes: arrangements; no: combinations.
 - "Together": tie into a block and multiply by the orders inside the block; "apart": count the complement.
 
+Back to the $6$-member club from the start: the photo can be taken in $720$ ways, the election can go $120$ ways, and the competition team can be chosen in only $20$ ways. Same six people, yet the numbers are far apart, only because of whether order matters. Before every counting problem, stop and ask that question before you write a formula.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Have a go yourself first, even if you are not sure. For each choice, remember to ask "does order matter?", then open the solution to compare.
 
 :::exercise
 Compute $7!$, $P(8, 3)$ and $\binom{9}{2}$.

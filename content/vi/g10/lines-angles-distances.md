@@ -13,7 +13,7 @@ minutes: 28
 
 Trên một bản đồ (đơn vị: km), một con đường chạy theo đường thẳng $d_1: x+y-3=0$ và một đường sắt chạy theo $d_2: 2x-y=0$. Một ngôi nhà ở điểm $M(4; 3)$. Đường bộ và đường sắt gặp nhau ở đâu, dưới góc bao nhiêu độ? Ngôi nhà cách con đường bao xa?
 
-Cả ba câu hỏi đều trả lời được chỉ từ phương trình của hai đường thẳng, nhờ **vectơ pháp tuyến** của chúng.
+Bạn có thể vẽ thật cẩn thận rồi đo bằng thước và thước đo góc, nhưng hình vẽ tay khó mà chính xác. Thật ra ta chẳng cần vẽ: cả ba câu hỏi đều trả lời được chỉ từ phương trình của hai đường thẳng. Chìa khoá là **vectơ pháp tuyến**, mũi tên nhỏ vuông góc với mỗi đường, cho ta biết đường ấy "quay mặt" về hướng nào.
 
 :::graph Đường bộ $d_1$, đường sắt $d_2$ và ngôi nhà $M$
 alt: Hai đường thẳng x cộng y bằng 3 và y bằng 2x cắt nhau tại điểm (1; 2), ngôi nhà ở điểm M(4; 3)
@@ -29,7 +29,7 @@ point: (4, 3) "M" above-right
 
 ### Khám phá: giải hệ để biết vị trí
 
-Xét $d: 2x-y+1=0$ và ba đường thẳng khác. Ta giải hệ gồm $d$ và từng đường:
+Hai đường thẳng gặp nhau ở đâu thì điểm đó phải thoả mãn cả hai phương trình. Vậy cách tự nhiên nhất là giải hệ. Ta thử với $d: 2x-y+1=0$ và ba đường thẳng khác:
 
 | đường thẳng | vectơ pháp tuyến | hệ với $d$ | vị trí |
 |---|---|---|---|
@@ -37,9 +37,9 @@ Xét $d: 2x-y+1=0$ và ba đường thẳng khác. Ta giải hệ gồm $d$ và 
 | $4x-2y+2=0$ | $(4; -2)$ | vô số nghiệm | trùng nhau |
 | $x+y-2=0$ | $(1; 1)$ | nghiệm duy nhất $\left(\frac13; \frac53\right)$ | cắt nhau |
 
-Vectơ pháp tuyến của $d$ là $(2; -1)$. Ở hai dòng đầu, vectơ pháp tuyến là $(4; -2)=2(2; -1)$, cùng phương với $(2; -1)$, và hai đường không cắt nhau tại đúng một điểm. Ở dòng cuối, hai vectơ pháp tuyến không cùng phương và hai đường cắt nhau.
+Bạn nhìn vào cột vectơ pháp tuyến. Vectơ pháp tuyến của $d$ là $(2; -1)$. Ở hai dòng đầu, vectơ pháp tuyến là $(4; -2)=2(2; -1)$, cùng phương với $(2; -1)$: hai đường "cùng hướng", nên chúng không cắt nhau tại đúng một điểm. Ở dòng cuối, hai vectơ pháp tuyến không cùng phương và hai đường cắt nhau. Như vậy, chỉ cần so hai vectơ pháp tuyến là đoán được kết quả, chưa cần giải hệ.
 
-Cho $d_1: a_1x+b_1y+c_1=0$ và $d_2: a_2x+b_2y+c_2=0$ với các vectơ pháp tuyến $\vec{n}_1=(a_1; b_1)$ và $\vec{n}_2=(a_2; b_2)$.
+Ta viết điều đó thành quy tắc chung. Cho $d_1: a_1x+b_1y+c_1=0$ và $d_2: a_2x+b_2y+c_2=0$ với các vectơ pháp tuyến $\vec{n}_1=(a_1; b_1)$ và $\vec{n}_2=(a_2; b_2)$.
 
 :::theorem Vị trí của hai đường thẳng
 - $\vec{n}_1,\vec{n}_2$ **không cùng phương** ($a_1b_2-a_2b_1\neq 0$): hai đường thẳng **cắt nhau** tại một điểm. Giải hệ phương trình để tìm điểm đó.
@@ -63,24 +63,26 @@ c) Ta có $\dfrac{2}{1}=\dfrac{-4}{-2}=\dfrac{6}{3}=2$, nên hai phương trình
 Vậy cặp a) cắt nhau tại $(1; 2)$, cặp b) song song, cặp c) trùng nhau.
 :::
 
-Cặp a) chính là đường bộ và đường sắt ở đầu bài: chúng gặp nhau tại $(1; 2)$. Câu hỏi tiếp theo là góc giữa chúng.
+Bạn có nhận ra cặp a) không? Đó chính là đường bộ và đường sắt ở đầu bài: chúng gặp nhau tại $(1; 2)$. Câu hỏi thứ nhất đã xong. Giờ ta xem chúng cắt nhau "chéo" đến mức nào.
 
 ## Góc giữa hai đường thẳng
 
-Góc giữa hai đường thẳng cắt nhau là góc nhỏ nhất trong bốn góc tạo thành, nên $0^\circ\le\varphi\le 90^\circ$. Hai đường thẳng song song hoặc trùng nhau có góc $0^\circ$.
+Hai đường thẳng cắt nhau tạo ra bốn góc, từng cặp bằng nhau. Người ta quy ước lấy góc nhỏ nhất làm góc giữa hai đường thẳng, nên $0^\circ\le\varphi\le 90^\circ$. Hai đường thẳng song song hoặc trùng nhau thì coi như có góc $0^\circ$.
+
+Vì vectơ pháp tuyến vuông góc với đường thẳng, góc giữa hai đường cũng "hiện ra" ở góc giữa hai vectơ pháp tuyến. Đó là lí do công thức dưới đây chỉ cần đến $\vec{n}_1$ và $\vec{n}_2$.
 
 :::theorem Công thức góc
 $$\cos\varphi=\frac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1|\,|\vec{n}_2|}=\frac{|a_1a_2+b_1b_2|}{\sqrt{a_1^2+b_1^2}\sqrt{a_2^2+b_2^2}}.$$
 Hai đường thẳng **vuông góc** khi và chỉ khi $a_1a_2+b_1b_2=0$.
 :::
 
-Hai vectơ pháp tuyến tạo với nhau một góc bằng $\varphi$ hoặc $180^\circ-\varphi$. Hai góc này có côsin đối nhau, nên dấu giá trị tuyệt đối giúp ta luôn nhận được góc không tù.
+Vì sao lại có dấu giá trị tuyệt đối? Hai vectơ pháp tuyến có thể tạo với nhau góc $\varphi$, cũng có thể là $180^\circ-\varphi$, tuỳ ta chọn chiều của chúng. Hai góc này có côsin đối nhau. Lấy giá trị tuyệt đối là cách bảo đảm ta luôn nhận được góc không tù, đúng như quy ước.
 
 :::example Góc giữa đường bộ và đường sắt
 a) Tính góc giữa $d_1: x+y-3=0$ và $d_2: 2x-y=0$.
 b) Hai đường thẳng $2x-3y+5=0$ và $3x+2y-1=0$ có vuông góc không?
 
-**Lời giải.** Ta dùng công thức góc với hai vectơ pháp tuyến.
+**Lời giải.** Ta đọc vectơ pháp tuyến từ mỗi phương trình rồi đưa vào công thức góc.
 
 a) $\vec{n}_1=(1; 1)$, $\vec{n}_2=(2; -1)$:
 $$\cos\varphi=\frac{|1\cdot2+1\cdot(-1)|}{\sqrt2\cdot\sqrt5}=\frac{1}{\sqrt{10}}\ \Rightarrow\ \varphi\approx 71{,}57^\circ.$$
@@ -99,7 +101,7 @@ $$d(M_0, \Delta)=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}.$$
 
 **Vì sao?** Gọi $H$ là hình chiếu của $M_0$ trên $\Delta$. Vectơ $\overrightarrow{HM_0}$ cùng phương với $\vec{n}=(a; b)$, nên $|\vec{n}\cdot\overrightarrow{HM_0}|=|\vec{n}|\cdot HM_0$. Mặt khác $H(x_H; y_H)$ thuộc $\Delta$ nên $ax_H+by_H=-c$, do đó $\vec{n}\cdot\overrightarrow{HM_0}=ax_0+by_0+c$. Chia cho $|\vec{n}|=\sqrt{a^2+b^2}$ ta được công thức.
 
-Bây giờ ta trả lời câu hỏi cuối của đầu bài.
+Công thức trông hơi dài, nhưng cách dùng rất gọn: thay toạ độ điểm vào vế trái của phương trình, lấy giá trị tuyệt đối, rồi chia cho độ dài vectơ pháp tuyến. Giờ ta trả lời câu hỏi cuối cùng của đầu bài.
 
 :::example Ngôi nhà cách con đường bao xa?
 Tính khoảng cách từ ngôi nhà $M(4; 3)$ đến con đường $d_1: x+y-3=0$ (đơn vị: km).
@@ -111,7 +113,7 @@ $$d(M, d_1)=\frac{|4+3-3|}{\sqrt{1^2+1^2}}=\frac{4}{\sqrt2}=2\sqrt2\approx 2{,}8
 Vậy ngôi nhà cách con đường khoảng $2{,}83$ km.
 :::
 
-Với hai đường thẳng **song song**, khoảng cách giữa chúng là khoảng cách từ một điểm bất kì của đường này đến đường kia. Nếu hai phương trình có **cùng** $a$, $b$: $ax+by+c_1=0$ và $ax+by+c_2=0$, thì khoảng cách là $\dfrac{|c_1-c_2|}{\sqrt{a^2+b^2}}$.
+Hai đường thẳng **song song** thì cách nhau đều đặn ở mọi chỗ, giống hai mép của một con đường. Vì vậy khoảng cách giữa chúng là khoảng cách từ một điểm bất kì của đường này đến đường kia. Nếu hai phương trình có **cùng** $a$, $b$: $ax+by+c_1=0$ và $ax+by+c_2=0$, thì khoảng cách là $\dfrac{|c_1-c_2|}{\sqrt{a^2+b^2}}$.
 
 :::example Khoảng cách giữa hai đường thẳng song song
 Tìm khoảng cách giữa $3x+4y-2=0$ và $6x+8y+16=0$.
@@ -127,7 +129,7 @@ Vậy khoảng cách giữa hai đường thẳng là $2$.
 **Kiểm tra.** Điểm $(2; -1)$ thuộc đường thứ nhất, và khoảng cách từ nó đến $3x+4y+8=0$ là $\dfrac{|6-4+8|}{5}=2$.
 :::
 
-Công thức khoảng cách cũng dùng được theo chiều ngược lại: biết khoảng cách, tìm điểm.
+Công thức khoảng cách còn dùng được theo chiều ngược lại: biết khoảng cách, đi tìm điểm. Chỗ cần chú ý là dấu giá trị tuyệt đối, vì nó thường cho ta hai đáp án, ứng với hai phía của đường thẳng.
 
 :::example Tìm điểm khi biết khoảng cách
 Tìm các điểm trên trục hoành cách đường thẳng $4x-3y+2=0$ một khoảng bằng $2$.
@@ -143,7 +145,7 @@ Vậy có hai điểm thoả mãn: $(2; 0)$ và $(-3; 0)$.
 
 ## Đường cao và diện tích tam giác
 
-Đường cao của tam giác chính là khoảng cách từ một đỉnh đến đường thẳng chứa cạnh đối diện.
+Bạn còn nhớ diện tích tam giác bằng nửa đáy nhân chiều cao. Khi biết toạ độ ba đỉnh, đáy thì tính dễ, còn chiều cao thì sao? Thật ra đường cao chính là khoảng cách từ một đỉnh đến đường thẳng chứa cạnh đối diện, nên công thức khoảng cách làm nốt phần việc còn lại.
 
 :::diagram Tam giác $ABC$ và đường cao $AH$
 alt: Tam giác có các đỉnh A(1; 1), B(5; 1) và C(3; 5), đường cao nét đứt từ A vuông góc với BC tại H
@@ -200,9 +202,11 @@ Vậy đường cao kẻ từ $A$ dài $\dfrac{8}{\sqrt5}$ và diện tích tam 
 - Hai đường song song: đưa về cùng $a$, $b$ rồi dùng $\dfrac{|c_1-c_2|}{\sqrt{a^2+b^2}}$.
 - Diện tích tam giác $=\dfrac12\cdot$ cạnh $\cdot$ khoảng cách từ đỉnh đối diện.
 
+Quay lại tấm bản đồ ở đầu bài: chỉ với hai phương trình, ta đã biết đường bộ và đường sắt gặp nhau tại $(1; 2)$, dưới góc khoảng $71{,}57^\circ$, và ngôi nhà cách con đường khoảng $2{,}83$ km. Điều đáng nhớ nhất là vectơ pháp tuyến: so sánh chúng để biết vị trí, dùng chúng để tính góc và khoảng cách.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có nhắc lại kiến thức cần dùng và gợi ý vài bước đầu. Bạn cứ tự làm trước, kể cả khi chưa chắc; sai ở đâu, xem lời giải sẽ thấy rõ hơn nhiều.
 
 :::exercise
 Xác định vị trí tương đối của hai đường thẳng $x-3y+2=0$ và $-2x+6y-4=0$.

@@ -13,16 +13,16 @@ minutes: 22
 
 Câu lạc bộ Toán của trường có $6$ thành viên. Cuối năm, câu lạc bộ cần làm ba việc: xếp cả $6$ bạn thành một hàng để chụp ảnh; bầu $3$ bạn làm chủ nhiệm, phó chủ nhiệm và thủ quỹ; và cử $3$ bạn đi thi. Ba việc này có cùng số cách thực hiện không?
 
-Cả ba việc đều là "chọn rồi xếp", nhưng có việc quan tâm đến **thứ tự**, có việc thì không. Bài này cho ta công thức cho từng loại, cùng một phép thử đơn giản để biết dùng công thức nào.
+Thoạt nhìn, ba việc khá giống nhau: việc nào cũng là chọn vài bạn rồi xếp vào chỗ. Nhưng thử nghĩ kĩ một chút. Khi chụp ảnh, ai đứng đầu hàng là chuyện khác hẳn. Khi bầu ban chủ nhiệm, ai làm chủ nhiệm, ai làm thủ quỹ cũng khác. Còn khi cử đi thi, ba bạn đi cùng nhau là xong, chẳng ai đứng trước ai. Chỗ khác nhau nằm ở **thứ tự**. Khi đã nhìn ra thứ tự có quan trọng hay không, bạn sẽ chọn đúng công thức và đếm được nhanh mà không phải liệt kê.
 
 ## Có thứ tự hay không có thứ tự?
 
-Hãy làm một thí nghiệm nhỏ với $4$ bạn $A, B, C, D$, chọn ra $2$ bạn.
+Ta làm một thí nghiệm nhỏ, đủ ít để liệt kê được hết: có $4$ bạn $A, B, C, D$, cần chọn ra $2$ bạn.
 
 - Nếu chọn **một lớp trưởng và một lớp phó**, thì "$A$ trưởng, $B$ phó" khác "$B$ trưởng, $A$ phó". Liệt kê: $AB, BA, AC, CA, AD, DA, BC, CB, BD, DB, CD, DC$, tức $4\cdot3=12$ cách.
 - Nếu chỉ chọn **hai bạn đi trực nhật**, thì $AB$ và $BA$ là một. Mỗi nhóm hai bạn xuất hiện $2$ lần trong danh sách trên, nên chỉ còn $12:2=6$ cách: $\{A; B\}$, $\{A; C\}$, $\{A; D\}$, $\{B; C\}$, $\{B; D\}$, $\{C; D\}$.
 
-Cùng chọn $2$ trong $4$, nhưng một cách đếm có thứ tự ($12$), một cách không ($6$). Ta đặt tên cho từng loại.
+Cùng là chọn $2$ trong $4$, vậy mà một cách ra $12$, một cách ra $6$. Lí do duy nhất là ở cách thứ nhất thứ tự có ý nghĩa, ở cách thứ hai thì không. Vì hai kiểu đếm này gặp rất thường xuyên, ta đặt tên cho từng loại.
 
 ## Hoán vị
 
@@ -31,7 +31,7 @@ Mỗi cách sắp xếp $n$ phần tử khác nhau theo một thứ tự gọi l
 $$P_n=n!=n\cdot(n-1)\cdots 2\cdot 1,\qquad\text{quy ước } 0!=1.$$
 :::
 
-**Vì sao?** Vị trí thứ nhất có $n$ cách chọn, vị trí thứ hai còn $n-1$ cách, ..., vị trí cuối còn $1$ cách. Theo quy tắc nhân trong bài [Quy tắc đếm](lesson:counting-rules), ta được $n\cdot(n-1)\cdots1=n!$.
+**Vì sao lại là $n!$?** Bạn hình dung đang xếp từng chỗ một. Chỗ thứ nhất có $n$ phần tử để chọn. Đặt xong một phần tử thì chỗ thứ hai chỉ còn $n-1$ lựa chọn, cứ thế bớt dần, đến chỗ cuối cùng chỉ còn đúng $1$. Theo quy tắc nhân trong bài [Quy tắc đếm](lesson:counting-rules), ta được $n\cdot(n-1)\cdots1=n!$.
 
 :::example Xếp sách lên giá
 Có bao nhiêu cách xếp $6$ quyển sách khác nhau thành một hàng trên giá?
@@ -45,14 +45,14 @@ Vậy có $720$ cách xếp. Đây cũng là số cách xếp $6$ bạn câu l�
 
 ## Chỉnh hợp
 
-Khi chỉ chọn $k$ trong $n$ phần tử rồi xếp thứ tự, ta dừng quy tắc nhân sau $k$ bước.
+Nhiều khi ta không xếp hết cả $n$ phần tử mà chỉ cần $k$ chỗ, chẳng hạn ba chức vụ cho sáu bạn. Cách nghĩ vẫn y như trên, chỉ khác là hết $k$ chỗ thì ta dừng nhân.
 
 :::definition Chỉnh hợp
 Mỗi cách lấy $k$ phần tử từ $n$ phần tử ($1\le k\le n$) và sắp xếp chúng theo một thứ tự gọi là một **chỉnh hợp chập $k$ của $n$**. Số chỉnh hợp là
 $$A_n^k=n(n-1)\cdots(n-k+1)=\frac{n!}{(n-k)!}.$$
 :::
 
-Với thí nghiệm ở trên: $A_4^2=4\cdot3=12$. Ví dụ tiếp theo dùng chỉnh hợp cho một cuộc thi.
+Quay lại thí nghiệm: chọn lớp trưởng và lớp phó trong $4$ bạn có $A_4^2=4\cdot3=12$ cách, đúng bằng số ta đã liệt kê. Một cuộc thi chạy có ba giải cũng là một tình huống như vậy.
 
 :::example Giải nhất, nhì, ba
 Có $10$ bạn chạy chung kết $100$ m. Có bao nhiêu kết quả cho ba giải nhất, nhì, ba (không có hai bạn về cùng lúc)?
@@ -71,7 +71,7 @@ Mỗi tập con gồm $k$ phần tử của một tập có $n$ phần tử ($0\
 $$C_n^k=\frac{n!}{k!\,(n-k)!}=\frac{A_n^k}{k!}.$$
 :::
 
-**Vì sao chia cho $k!$?** Mỗi nhóm $k$ phần tử có thể xếp theo $k!$ thứ tự, nên trong $A_n^k$ mỗi nhóm bị đếm đúng $k!$ lần. Ở thí nghiệm: $C_4^2=\dfrac{12}{2!}=6$.
+**Vì sao lại chia cho $k!$?** Hãy nhớ lại thí nghiệm: nhóm $\{A; B\}$ xuất hiện hai lần trong danh sách có thứ tự, một lần là $AB$, một lần là $BA$. Tổng quát hơn, mỗi nhóm $k$ phần tử có thể xếp theo $k!$ thứ tự, nên trong $A_n^k$ mỗi nhóm bị đếm đúng $k!$ lần. Chia cho $k!$ là bỏ đi phần đếm lặp ấy. Ở thí nghiệm: $C_4^2=\dfrac{12}{2!}=6$.
 
 :::example Cử bạn đi thi
 (a) Câu lạc bộ $6$ bạn cử $3$ bạn đi thi. Có bao nhiêu cách? (b) Lớp có $9$ bạn tình nguyện, cần chọn $4$ bạn đi trồng cây. Có bao nhiêu cách?
@@ -83,17 +83,17 @@ $$C_6^3=\frac{6\cdot5\cdot4}{3\cdot2\cdot1}=20,\qquad C_9^4=\frac{9\cdot8\cdot7\
 Vậy có $20$ cách cử đi thi và $126$ cách chọn nhóm trồng cây. Trả lời câu hỏi đầu bài: ba việc có $720$, $120$ và $20$ cách, hoàn toàn khác nhau.
 :::
 
-Hai tính chất hay dùng:
+Có hai tính chất bạn sẽ gặp lại nhiều lần, và cả hai đều có lí do rất đời thường:
 - **Tính đối xứng:** $C_n^k=C_n^{n-k}$, vì chọn $k$ người đi cũng là chọn $n-k$ người ở lại.
 - **Công thức Pascal:** $C_n^{k-1}+C_n^{k}=C_{n+1}^{k}$. Chẳng hạn $C_5^2+C_5^3=10+10=20=C_6^3$.
 
 :::tip Dùng công thức nào?
-Hãy hỏi: **đổi chỗ hai phần tử đã chọn có cho kết quả khác không?** Có (các chức vụ, các giải, các chữ số của một số): chỉnh hợp. Không (một nhóm, một đội, một tập con): tổ hợp. Dùng hết cả $n$ phần tử để xếp: hoán vị.
+Mỗi khi phân vân, bạn chỉ cần tự hỏi một câu: **đổi chỗ hai phần tử đã chọn có cho kết quả khác không?** Nếu có (các chức vụ, các giải, các chữ số của một số) thì dùng chỉnh hợp. Nếu không (một nhóm, một đội, một tập con) thì dùng tổ hợp. Còn nếu xếp hết cả $n$ phần tử thì đó là hoán vị.
 :::
 
 ## Kết hợp với quy tắc đếm
 
-Nhiều bài toán gồm vài lần chọn liên tiếp; mỗi lần chọn là một tổ hợp hay chỉnh hợp, rồi ta nhân lại.
+Bài toán thực tế ít khi chỉ có một lần chọn. Thường ta phải chọn vài lần nối tiếp nhau: chọn người này xong rồi chọn người kia. Mỗi lần chọn ta đếm bằng tổ hợp hay chỉnh hợp, rồi nhân các kết quả lại, đúng như quy tắc nhân.
 
 :::example Chọn nhóm có nam và nữ
 Một lớp có $7$ bạn nữ và $6$ bạn nam. Có bao nhiêu cách chọn một nhóm gồm $2$ bạn nữ và $3$ bạn nam?
@@ -105,7 +105,7 @@ $$C_7^2\cdot C_6^3=21\cdot20=420.$$
 Vậy có $420$ cách chọn.
 :::
 
-Tổ hợp cũng đếm được các đối tượng hình học, vì một đoạn thẳng được xác định bởi một cặp điểm không có thứ tự.
+Tổ hợp không chỉ đếm người. Một đoạn thẳng nối hai điểm cũng chỉ phụ thuộc vào cặp điểm ấy, đoạn $AB$ với đoạn $BA$ là một. Vì thế tổ hợp đếm được cả những thứ trong hình học.
 
 :::example Bắt tay và đường chéo
 (a) $12$ người gặp nhau, mỗi người bắt tay đúng một lần với mỗi người khác. Có bao nhiêu cái bắt tay? (b) Một bát giác lồi có bao nhiêu đường chéo?
@@ -117,7 +117,7 @@ $$\text{(a) } C_{12}^2=\frac{12\cdot11}{2}=66;\qquad \text{(b) } C_8^2-8=28-8=20
 Ở (b) ta trừ $8$ vì trong $28$ đoạn nối hai đỉnh có $8$ đoạn là cạnh. Vậy có $66$ cái bắt tay và bát giác có $20$ đường chéo.
 :::
 
-Ví dụ cuối kết hợp hoán vị với một mẹo: coi nhiều người như một "khối".
+Ví dụ cuối có một điều kiện hay gặp: hai người phải đứng cạnh nhau. Mẹo ở đây rất dễ nhớ: buộc hai người lại, coi như một "khối".
 
 :::example Đứng cạnh nhau hoặc không
 Sáu bạn, trong đó có An và Bình, đứng thành một hàng. Có bao nhiêu cách xếp nếu (a) An và Bình đứng cạnh nhau; (b) An và Bình không đứng cạnh nhau?
@@ -166,9 +166,11 @@ Vậy có $240$ cách để An và Bình đứng cạnh nhau và $480$ cách đ�
 - Phép thử: đổi chỗ hai phần tử đã chọn có làm kết quả thay đổi không? Có: chỉnh hợp; không: tổ hợp.
 - "Cạnh nhau": buộc thành khối và nhân với số cách xếp trong khối; "không cạnh nhau": đếm phần bù.
 
+Quay lại câu lạc bộ $6$ bạn ở đầu bài: chụp ảnh có $720$ cách, bầu ban chủ nhiệm có $120$ cách, cử đi thi chỉ có $20$ cách. Cùng sáu bạn, cùng chọn ba hay xếp cả sáu, mà con số khác xa nhau, chỉ vì thứ tự có quan trọng hay không. Trước mỗi bài đếm, bạn hãy dừng lại hỏi câu ấy trước khi viết công thức.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức cần dùng và gợi ý các bước. Bạn cứ tự làm trước, kể cả khi chưa chắc. Với mỗi lần chọn, nhớ hỏi "thứ tự có quan trọng không?", rồi hãy bấm xem lời giải để so.
 
 :::exercise
 Tính $7!$, $A_8^3$ và $C_9^2$.

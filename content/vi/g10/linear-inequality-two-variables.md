@@ -13,13 +13,13 @@ minutes: 25
 
 Lớp bạn có $300$ nghìn đồng để mua vé xem phim cho buổi ngoại khoá. Vé người lớn giá $60$ nghìn đồng, vé học sinh giá $30$ nghìn đồng. Mua $3$ vé người lớn và $4$ vé học sinh thì có đủ tiền không? Còn $4$ vé người lớn và $3$ vé học sinh thì sao?
 
-Mỗi cách mua là một **cặp** số: số vé người lớn và số vé học sinh. Bài này cho ta một công cụ mô tả cùng lúc tất cả các cặp "mua được".
+Hai câu này, bạn cứ nhân rồi cộng là trả lời được. Nhưng nếu cô giáo hỏi "lớp mình có những cách mua nào?" thì sao? Để ý rằng mỗi cách mua là một **cặp** số: số vé người lớn và số vé học sinh. Thay vì thử từng cặp mãi, ta sẽ tìm một cách nhìn thấy cùng lúc tất cả các cặp "mua được", và cách đó hoá ra là một vùng trên mặt phẳng toạ độ.
 
 ## Bất phương trình bậc nhất hai ẩn là gì?
 
 ### Thử vài cách mua
 
-Gọi $x$ là số vé người lớn, $y$ là số vé học sinh. Số tiền phải trả là $60x+30y$ (nghìn đồng). Ta thử vài cặp:
+Gọi $x$ là số vé người lớn, $y$ là số vé học sinh. Khi đó số tiền phải trả là $60x+30y$ (nghìn đồng). Ta thử vài cặp xem sao:
 
 | Cặp $(x; y)$ | Số tiền $60x+30y$ | Có $\le 300$ không? |
 |---|---|---|
@@ -28,7 +28,7 @@ Gọi $x$ là số vé người lớn, $y$ là số vé học sinh. Số tiền 
 | $(3; 4)$ | $300$ | có (vừa đủ) |
 | $(4; 3)$ | $330$ | không |
 
-Điều kiện "đủ tiền" chính là $60x+30y\le 300$. Đây là một bất phương trình có **hai** ẩn, và mỗi ẩn chỉ có bậc nhất.
+Bạn thấy không, mọi phép thử đều quy về một câu hỏi: $60x+30y$ có vượt quá $300$ hay không. Nói gọn lại, điều kiện "đủ tiền" chính là $60x+30y\le 300$. Đây là một bất phương trình có **hai** ẩn, và mỗi ẩn chỉ có bậc nhất. Ta đặt tên cho loại bất phương trình này.
 
 :::definition Bất phương trình bậc nhất hai ẩn
 **Bất phương trình bậc nhất hai ẩn** $x, y$ là bất phương trình có một trong các dạng
@@ -38,7 +38,7 @@ trong đó $a, b, c$ là những số cho trước và $a, b$ không đồng th�
 Một **nghiệm** của bất phương trình là một cặp số $(x_0; y_0)$ sao cho khi thay $x=x_0$, $y=y_0$ ta được một khẳng định đúng.
 :::
 
-Cặp số có thứ tự: $(1; 2)$ và $(2; 1)$ là hai cặp khác nhau. Ta bắt đầu bằng việc đơn giản nhất: kiểm tra một cặp có phải là nghiệm hay không.
+Một chỗ nhỏ nhưng hay nhầm: cặp số có thứ tự. Số đứng trước luôn là $x$, số đứng sau luôn là $y$, nên $(1; 2)$ và $(2; 1)$ là hai cặp khác nhau. Việc đầu tiên ta cần làm thật thạo là kiểm tra một cặp có phải là nghiệm hay không: thay vào, tính, rồi so sánh.
 
 :::example Kiểm tra cặp số
 Trong các cặp $(1; 2)$, $(3; 1)$, $(0; 0)$, $(2; 1)$, cặp nào là nghiệm của bất phương trình $2x+y\le 5$?
@@ -50,13 +50,13 @@ $$\begin{aligned} (1; 2)&:\ 2\cdot 1+2=4\le 5 \ \text{(đúng)},\\ (3; 1)&:\ 2\c
 Vậy các cặp $(1; 2)$, $(0; 0)$, $(2; 1)$ là nghiệm, còn $(3; 1)$ không là nghiệm.
 :::
 
-Bất phương trình có vô số nghiệm nên ta không liệt kê được. Thay vào đó, ta vẽ chúng.
+Thử từng cặp thì chắc chắn, nhưng một bất phương trình như thế có vô số nghiệm, ta không thể liệt kê hết. Vậy ta làm theo cách khác: coi mỗi nghiệm là một điểm trên mặt phẳng toạ độ, rồi vẽ tất cả chúng ra.
 
 ## Miền nghiệm
 
-Xét $x+y\le 3$. Phương trình $x+y=3$ là một đường thẳng. Đường thẳng này chia mặt phẳng thành hai **nửa mặt phẳng**: ở một nửa luôn có $x+y<3$, ở nửa kia luôn có $x+y>3$.
+Ta bắt đầu với một bất phương trình thật gọn: $x+y\le 3$. Phần "bằng" của nó, tức phương trình $x+y=3$, là một đường thẳng mà bạn đã quen. Đường thẳng này chia mặt phẳng thành hai **nửa mặt phẳng**: ở một nửa luôn có $x+y<3$, ở nửa kia luôn có $x+y>3$.
 
-**Vì sao như vậy?** Giữ $x$ cố định và cho $y$ tăng dần, tổng $x+y$ cũng tăng. Vậy đi lên trên đường thẳng thì $x+y>3$, đi xuống dưới thì $x+y<3$. Do đó nghiệm của $x+y\le 3$ là nửa mặt phẳng phía dưới, kể cả đường thẳng (gọi là **bờ**).
+**Vì sao như vậy?** Bạn thử đứng ở một điểm trên đường thẳng, giữ $x$ cố định rồi bước dần lên trên, tức là cho $y$ tăng. Tổng $x+y$ cũng tăng theo. Vậy cứ ở phía trên đường thẳng thì $x+y>3$, ở phía dưới thì $x+y<3$. Do đó nghiệm của $x+y\le 3$ là nửa mặt phẳng phía dưới, kể cả đường thẳng (gọi là **bờ**).
 
 :::graph Miền nghiệm của $x+y\le 3$
 alt: Mặt phẳng toạ độ có đường thẳng x+y=3 và nửa mặt phẳng phía dưới đường thẳng được tô màu, chứa gốc toạ độ
@@ -68,7 +68,9 @@ point: (3, 0) "(3; 0)" below
 point: (0, 3) "(0; 3)" left
 :::
 
-Tập hợp tất cả các điểm có toạ độ là nghiệm gọi là **miền nghiệm** của bất phương trình.
+Tập hợp tất cả các điểm có toạ độ là nghiệm gọi là **miền nghiệm** của bất phương trình. Vô số nghiệm giờ gói gọn trong một hình bạn nhìn thấy được.
+
+Lập luận "bước lên trên thì tổng tăng" dùng được cho $x+y$, nhưng với những biểu thức như $3x-y$ thì đi lên lại làm biểu thức giảm, rất dễ rối. Vì thế ta cần một cách làm chắc chắn, không phải đoán phía.
 
 ### Cách vẽ: phương pháp điểm kiểm tra
 
@@ -79,7 +81,7 @@ Tập hợp tất cả các điểm có toạ độ là nghiệm gọi là **mi�
 3. Thay toạ độ điểm kiểm tra vào bất phương trình. Nếu đúng, miền nghiệm là nửa mặt phẳng chứa điểm đó; nếu sai, miền nghiệm là nửa còn lại.
 :::
 
-Ví dụ đầu tiên dùng dấu bất đẳng thức chặt, nên bờ không thuộc miền nghiệm.
+Ý tưởng ở bước 3 rất đơn giản: cả một nửa mặt phẳng cùng "đúng" hoặc cùng "sai", nên chỉ cần hỏi một điểm đại diện là biết cả nửa. Ở ví dụ đầu tiên, dấu là dấu chặt, nên bạn để ý xem bờ được vẽ thế nào.
 
 :::example Đường biên nét đứt
 Biểu diễn miền nghiệm của bất phương trình $x+2y<4$.
@@ -104,7 +106,7 @@ open: (4, 0) "(4; 0)" below
 open: (0, 2) "(0; 2)" left
 :::
 
-Gốc toạ độ không phải lúc nào cũng nằm trong miền nghiệm. Ví dụ sau cho thấy khi phép thử cho kết quả sai.
+Đừng nghĩ gốc toạ độ lúc nào cũng nằm trong miền nghiệm. Ở ví dụ sau, phép thử cho kết quả sai, và chính kết quả sai ấy cũng cho ta biết cần tô phía nào.
 
 :::example Đường biên nét liền, gốc toạ độ không là nghiệm
 Biểu diễn miền nghiệm của bất phương trình $3x-y\ge 3$.
@@ -131,7 +133,7 @@ point: (0, -3) "(0; -3)" left
 point: (1, 0) "(1; 0)" above-left
 :::
 
-Khi đường biên đi qua gốc toạ độ, thay $O$ chỉ cho $0$ so với $0$, không giúp gì. Ta phải chọn điểm kiểm tra khác.
+Còn một trường hợp cần cẩn thận: đường biên đi qua gốc toạ độ. Khi đó $O$ nằm ngay trên bờ, thay vào chỉ được $0$ so với $0$, không nói gì về phía nào cả. Ta chọn một điểm kiểm tra khác, miễn là nó không nằm trên đường biên.
 
 :::example Đường biên đi qua gốc toạ độ
 Biểu diễn miền nghiệm của bất phương trình $2x-3y\le 0$.
@@ -155,14 +157,14 @@ point: (3, 2) "(3; 2)" below-right
 :::
 
 :::warning Những lỗi thường gặp
-- **Sai:** vẽ nét liền cho $x+2y<4$. **Vì sao sai:** điểm $(4; 0)$ nằm trên bờ nhưng $4<4$ là khẳng định sai, nên bờ không thuộc miền nghiệm. **Đúng:** dấu $<$, $>$ vẽ nét đứt; dấu $\le$, $\ge$ vẽ nét liền.
-- **Sai:** dùng $O(0; 0)$ làm điểm kiểm tra cho $2x-3y\le 0$ và kết luận "$0\le 0$ đúng nên tô phía chứa $O$". **Vì sao sai:** $O$ nằm trên bờ, nó không thuộc phía nào. **Đúng:** chọn một điểm không nằm trên bờ, chẳng hạn $(1; 0)$.
-- **Sai:** đoán phía cần tô theo "dấu $\le$ là phía dưới". **Vì sao sai:** với $3x-y\ge 3$, miền nghiệm lại nằm phía dưới đường thẳng. **Đúng:** luôn thay một điểm kiểm tra.
+- **Sai:** vẽ nét liền cho $x+2y<4$. **Vì sao sai:** điểm $(4; 0)$ nằm trên bờ, nhưng $4<4$ là khẳng định sai, nên bờ không thuộc miền nghiệm. **Đúng:** dấu $<$, $>$ thì vẽ nét đứt; dấu $\le$, $\ge$ thì vẽ nét liền.
+- **Sai:** dùng $O(0; 0)$ làm điểm kiểm tra cho $2x-3y\le 0$ rồi kết luận "$0\le 0$ đúng nên tô phía chứa $O$". **Vì sao sai:** $O$ nằm ngay trên bờ, nó không thuộc phía nào cả. **Đúng:** chọn một điểm không nằm trên bờ, chẳng hạn $(1; 0)$.
+- **Sai:** đoán phía cần tô theo kiểu "dấu $\le$ là phía dưới". **Vì sao sai:** mẹo này nghe tiện nhưng không đáng tin; với $3x-y\ge 3$, dấu là $\ge$ mà miền nghiệm lại nằm phía dưới đường thẳng. **Đúng:** lúc nào cũng thay một điểm kiểm tra, mất thêm vài giây mà chắc chắn.
 :::
 
 ## Lập bất phương trình từ thực tế
 
-Bây giờ ta quay lại câu hỏi mua vé ở đầu bài.
+Giờ bạn đã có đủ đồ nghề để quay lại câu hỏi mua vé ở đầu bài. Việc khó nhất thường không phải là tính, mà là đọc đề rồi viết đúng bất phương trình.
 
 :::example Mua vé xem phim
 Vé người lớn giá $60$ nghìn đồng, vé học sinh giá $30$ nghìn đồng, lớp có tối đa $300$ nghìn đồng. Gọi $x$ là số vé người lớn, $y$ là số vé học sinh.
@@ -195,7 +197,7 @@ point: (3, 4) "(3; 4)" above-right
 open: (4, 3) "(4; 3)" right
 :::
 
-Nghiệm thực tế chỉ là các điểm của miền có toạ độ nguyên, vì không thể mua nửa tấm vé.
+Bạn để ý một điều khi đọc hình: miền tô màu chứa vô số điểm, nhưng đáp số thật chỉ là những điểm có toạ độ nguyên, vì chẳng ai mua được nửa tấm vé.
 
 ## Thuật ngữ
 
@@ -218,9 +220,11 @@ Nghiệm thực tế chỉ là các điểm của miền có toạ độ nguyên
 - Chọn phía: thay một điểm **không nằm trên bờ** (thường là $O$); đúng thì lấy phía chứa điểm đó.
 - Bài toán thực tế: đặt ẩn, viết bất phương trình, nhớ điều kiện $x, y\ge 0$ và nguyên nếu cần.
 
+Quay lại câu hỏi của lớp bạn: tất cả các cách mua vé vừa túi tiền chính là những điểm có toạ độ nguyên trong tam giác tô màu. Một đường thẳng, một điểm kiểm tra, thế là ta thấy được mọi lựa chọn cùng một lúc.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài đều có phần kiến thức cần dùng và gợi ý các bước. Bạn cứ tự làm trước, kể cả khi chưa chắc; sai ở đâu, lời giải sẽ giúp bạn thấy rõ ở đó.
 
 :::exercise
 Trong các cặp $(2; -1)$, $(0; 3)$, $(6; 1)$, cặp nào là nghiệm của bất phương trình $x-2y\ge 4$?

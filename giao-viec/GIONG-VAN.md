@@ -27,11 +27,11 @@ Quyết định 12/11/2026: chủ dự án muốn toàn bộ phần lời (mở 
 | 9 | g10/equation-of-a-line | xong 12/11/2026 |
 | 10 | g10/equations-reducible-quadratic | xong 12/11/2026 |
 | 11 | g10/events-classical-probability | xong 12/11/2026 |
-| 12 | g10/functions |  |
-| 13 | g10/linear-inequality-two-variables |  |
-| 14 | g10/lines-angles-distances |  |
-| 15 | g10/permutations-combinations |  |
-| 16 | g10/probability-practice |  |
+| 12 | g10/functions | xong 13/11/2026 |
+| 13 | g10/linear-inequality-two-variables | xong 13/11/2026 |
+| 14 | g10/lines-angles-distances | xong 13/11/2026 |
+| 15 | g10/permutations-combinations | xong 13/11/2026 |
+| 16 | g10/probability-practice | xong 13/11/2026 |
 | 17 | g10/quadratic-function |  |
 | 18 | g10/scalar-multiplication |  |
 | 19 | g10/sets-and-set-operations |  |

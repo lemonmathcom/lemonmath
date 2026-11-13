@@ -13,13 +13,13 @@ minutes: 25
 
 Your class has $300$ thousand dong to buy cinema tickets for a school outing. An adult ticket costs $60$ thousand dong and a student ticket costs $30$ thousand dong. Is there enough money for $3$ adult and $4$ student tickets? What about $4$ adult and $3$ student tickets?
 
-Each way of buying is a **pair** of numbers: the number of adult tickets and the number of student tickets. This lesson gives us a tool that describes all the "affordable" pairs at once.
+You can answer both questions by multiplying and adding. But what if your teacher asks, "Which ways of buying can we afford?" Notice that each way of buying is a **pair** of numbers: the number of adult tickets and the number of student tickets. Rather than testing pairs one by one for ever, we will find a way to see all the "affordable" pairs at once, and it turns out to be a region of the coordinate plane.
 
 ## What is a linear inequality in two variables?
 
 ### Trying a few purchases
 
-Let $x$ be the number of adult tickets and $y$ the number of student tickets. The cost is $60x+30y$ (thousand dong). We try a few pairs:
+Let $x$ be the number of adult tickets and $y$ the number of student tickets. Then the cost is $60x+30y$ (thousand dong). Let us try a few pairs and see:
 
 | Pair $(x, y)$ | Cost $60x+30y$ | Is it $\le 300$? |
 |---|---|---|
@@ -28,7 +28,7 @@ Let $x$ be the number of adult tickets and $y$ the number of student tickets. Th
 | $(3, 4)$ | $300$ | yes (exactly) |
 | $(4, 3)$ | $330$ | no |
 
-The condition "we can afford it" is exactly $60x+30y\le 300$. This is an inequality with **two** unknowns, each appearing only to the first power.
+Every test comes down to one question: is $60x+30y$ more than $300$ or not? Put briefly, the condition "we can afford it" is exactly $60x+30y\le 300$. This is an inequality with **two** unknowns, each appearing only to the first power. Let us give this kind of inequality a name.
 
 :::definition Linear inequality in two variables
 A **linear inequality in two variables** $x, y$ is an inequality of one of the forms
@@ -38,7 +38,7 @@ where $a, b, c$ are given numbers and $a, b$ are not both $0$.
 A **solution** is an ordered pair $(x_0, y_0)$ such that the inequality becomes a true statement when $x=x_0$ and $y=y_0$.
 :::
 
-"Ordered" means that the order matters: $(1, 2)$ and $(2, 1)$ are different pairs. We start with the simplest task: checking whether a pair is a solution.
+A small point that is easy to slip on: the pair is ordered. The first number is always $x$ and the second is always $y$, so $(1, 2)$ and $(2, 1)$ are different pairs. The first skill to make really solid is checking whether a pair is a solution: substitute, work it out, compare.
 
 :::example Testing pairs
 Which of the pairs $(1, 2)$, $(3, 1)$, $(0, 0)$, $(2, 1)$ are solutions of $2x+y\le 5$?
@@ -50,13 +50,13 @@ $$\begin{aligned} (1, 2)&:\ 2\cdot 1+2=4\le 5 \ \text{(true)},\\ (3, 1)&:\ 2\cdo
 So $(1, 2)$, $(0, 0)$ and $(2, 1)$ are solutions, and $(3, 1)$ is not.
 :::
 
-There are infinitely many solutions, so we cannot list them. Instead, we draw them.
+Testing pairs is reliable, but an inequality like this has infinitely many solutions, so we could never list them all. So we do something different: think of each solution as a point in the coordinate plane, and draw them all.
 
 ## The solution region
 
-Take $x+y\le 3$. The equation $x+y=3$ is a straight line. It cuts the plane into two **half-planes**: on one side we always have $x+y<3$, on the other side $x+y>3$.
+We begin with a very simple inequality: $x+y\le 3$. Its "equals" part, the equation $x+y=3$, is a straight line you already know. This line cuts the plane into two **half-planes**: on one side we always have $x+y<3$, on the other side $x+y>3$.
 
-**Why is that?** Keep $x$ fixed and let $y$ increase: the sum $x+y$ increases too. So above the line $x+y>3$, and below it $x+y<3$. Therefore the solutions of $x+y\le 3$ form the lower half-plane together with the line (called the **boundary**).
+**Why is that?** Imagine standing at a point on the line, keeping $x$ fixed and stepping upwards, so that $y$ increases. The sum $x+y$ increases too. So anywhere above the line $x+y>3$, and anywhere below it $x+y<3$. Therefore the solutions of $x+y\le 3$ form the lower half-plane together with the line (called the **boundary**).
 
 :::graph The region $x+y\le 3$
 alt: A coordinate plane with the line x+y=3 and the half-plane below it shaded, containing the origin
@@ -68,7 +68,9 @@ point: (3, 0) "(3, 0)" below
 point: (0, 3) "(0, 3)" left
 :::
 
-The set of all points whose coordinates are solutions is called the **solution region** of the inequality.
+The set of all points whose coordinates are solutions is called the **solution region** of the inequality. Infinitely many solutions now fit into one picture you can see.
+
+The "step up and the sum grows" argument works for $x+y$, but for an expression like $3x-y$, stepping up makes it smaller, and it is easy to get muddled. So we want a method that is always safe and never relies on guessing the side.
 
 ### How to draw it: the test-point method
 
@@ -79,7 +81,7 @@ To draw the solution region of $ax+by\le c$ (or $<, \ge, >$):
 3. Substitute the test point. If the result is true, the region is the half-plane containing that point; if false, it is the other half-plane.
 :::
 
-Our first example uses a strict sign, so the boundary is not part of the region.
+The idea behind step 3 is simple: a whole half-plane is either all "true" or all "false", so asking one representative point tells you about the whole half. In the first example the sign is strict, so watch how the boundary is drawn.
 
 :::example A dashed boundary
 Draw the solution region of $x+2y<4$.
@@ -104,7 +106,7 @@ open: (4, 0) "(4, 0)" below
 open: (0, 2) "(0, 2)" left
 :::
 
-The origin is not always in the region. The next example shows what happens when the test fails.
+Don't assume the origin is always in the region. In the next example the test gives "false", and that false result tells us just as clearly which side to shade.
 
 :::example A solid boundary, and the origin is not a solution
 Draw the solution region of $3x-y\ge 3$.
@@ -131,7 +133,7 @@ point: (0, -3) "(0, -3)" left
 point: (1, 0) "(1, 0)" above-left
 :::
 
-When the boundary passes through the origin, substituting $O$ only compares $0$ with $0$, which tells us nothing. We must choose another test point.
+One more case needs care: a boundary through the origin. Then $O$ sits right on the boundary, and substituting it only compares $0$ with $0$, which says nothing about either side. We pick another test point, as long as it is not on the boundary.
 
 :::example A boundary through the origin
 Draw the solution region of $2x-3y\le 0$.
@@ -155,14 +157,14 @@ point: (3, 2) "(3, 2)" below-right
 :::
 
 :::warning Common mistakes
-- **Wrong:** drawing a solid line for $x+2y<4$. **Why it is wrong:** the point $(4, 0)$ is on the boundary, but $4<4$ is false, so the boundary is not in the region. **Right:** $<$, $>$ give a dashed line; $\le$, $\ge$ give a solid line.
-- **Wrong:** testing $O(0, 0)$ for $2x-3y\le 0$ and concluding "$0\le 0$ is true, so shade the side of $O$". **Why it is wrong:** $O$ is on the boundary and belongs to neither side. **Right:** choose a point not on the boundary, such as $(1, 0)$.
-- **Wrong:** guessing the side with "$\le$ means below". **Why it is wrong:** for $3x-y\ge 3$ the region is below the line. **Right:** always substitute a test point.
+- **Wrong:** drawing a solid line for $x+2y<4$. **Why it is wrong:** the point $(4, 0)$ is on the boundary, but $4<4$ is false, so the boundary is not in the region. **Right:** $<$ and $>$ give a dashed line; $\le$ and $\ge$ give a solid line.
+- **Wrong:** testing $O(0, 0)$ for $2x-3y\le 0$ and concluding "$0\le 0$ is true, so shade the side of $O$". **Why it is wrong:** $O$ sits right on the boundary and belongs to neither side. **Right:** choose a point not on the boundary, such as $(1, 0)$.
+- **Wrong:** guessing the side with "$\le$ means below". **Why it is wrong:** the shortcut sounds handy but cannot be trusted; for $3x-y\ge 3$ the sign is $\ge$, yet the region is below the line. **Right:** always substitute a test point; it takes a few seconds and it is certain.
 :::
 
 ## Modelling real situations
 
-Now we return to the ticket question from the start of the lesson.
+You now have all the tools to go back to the ticket question from the start. The hard part is usually not the arithmetic but reading the problem and writing the right inequality.
 
 :::example Cinema tickets
 An adult ticket costs $60$ thousand dong, a student ticket $30$ thousand dong, and the class has at most $300$ thousand dong. Let $x$ be the number of adult tickets and $y$ the number of student tickets.
@@ -195,7 +197,7 @@ point: (3, 4) "(3, 4)" above-right
 open: (4, 3) "(4, 3)" right
 :::
 
-The real answers are only the points of the region with whole-number coordinates, because we cannot buy half a ticket.
+One thing to notice when you read the picture: the shaded region holds infinitely many points, but the real answers are only those with whole-number coordinates, because nobody can buy half a ticket.
 
 ## Key terms
 
@@ -218,9 +220,11 @@ The real answers are only the points of the region with whole-number coordinates
 - Choosing the side: substitute a point **not on the boundary** (usually $O$); if true, take the side containing it.
 - Real problems: name the unknowns, write the inequality, and remember $x, y\ge 0$ and whole numbers when needed.
 
+Back to your class's question: every way of buying tickets within the budget is a whole-number point in the shaded triangle. One line and one test point, and we can see every choice at once.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Have a go yourself first, even if you are not sure; wherever you go wrong, the solution will show you exactly where.
 
 :::exercise
 Which of the pairs $(2, -1)$, $(0, 3)$, $(6, 1)$ are solutions of $x-2y\ge 4$?

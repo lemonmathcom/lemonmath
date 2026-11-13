@@ -13,7 +13,7 @@ minutes: 28
 
 On a map (units: km), a road runs along the line $d_1: x+y-3=0$ and a railway runs along $d_2: 2x-y=0$. A house stands at the point $M(4, 3)$. Where do the road and the railway meet, and at what angle? How far is the house from the road?
 
-All three questions can be answered from the equations of the two lines alone, thanks to their **normal vectors**.
+You could draw it all very carefully and measure with a ruler and a protractor, but a hand drawing is rarely exact. In fact we do not need a drawing at all: all three questions can be answered from the equations of the two lines alone. The key is the **normal vector**, a small arrow perpendicular to each line that tells us which way the line "faces".
 
 :::graph The road $d_1$, the railway $d_2$ and the house $M$
 alt: The lines x plus y equals 3 and y equals 2x meeting at the point (1, 2), with the house at the point M(4, 3)
@@ -29,7 +29,7 @@ point: (4, 3) "M" above-right
 
 ### Explore: solve the system to find the position
 
-Take $d: 2x-y+1=0$ and three other lines. We solve the system formed by $d$ and each line:
+Wherever two lines meet, that point must satisfy both equations. So the natural thing to do is to solve the system. Let us try it with $d: 2x-y+1=0$ and three other lines:
 
 | line | normal vector | system with $d$ | position |
 |---|---|---|---|
@@ -37,9 +37,9 @@ Take $d: 2x-y+1=0$ and three other lines. We solve the system formed by $d$ and 
 | $4x-2y+2=0$ | $(4, -2)$ | infinitely many solutions | coincide |
 | $x+y-2=0$ | $(1, 1)$ | one solution $\left(\frac13, \frac53\right)$ | intersect |
 
-The normal vector of $d$ is $(2, -1)$. In the first two rows the normal vector is $(4, -2)=2(2, -1)$, parallel to $(2, -1)$, and the two lines do not meet in exactly one point. In the last row the normal vectors are not parallel and the lines intersect.
+Look at the normal vector column. The normal vector of $d$ is $(2, -1)$. In the first two rows the normal vector is $(4, -2)=2(2, -1)$, parallel to $(2, -1)$: the two lines "face the same way", so they do not meet in exactly one point. In the last row the normal vectors are not parallel and the lines intersect. So comparing the two normal vectors already tells us the answer, before we solve anything.
 
-Let $d_1: a_1x+b_1y+c_1=0$ and $d_2: a_2x+b_2y+c_2=0$ have normal vectors $\vec{n}_1=(a_1, b_1)$ and $\vec{n}_2=(a_2, b_2)$.
+Let us turn this into a general rule. Let $d_1: a_1x+b_1y+c_1=0$ and $d_2: a_2x+b_2y+c_2=0$ have normal vectors $\vec{n}_1=(a_1, b_1)$ and $\vec{n}_2=(a_2, b_2)$.
 
 :::theorem Position of two lines
 - $\vec{n}_1,\vec{n}_2$ **not parallel** ($a_1b_2-a_2b_1\neq 0$): the lines **intersect** in one point. Solve the system to find it.
@@ -63,24 +63,26 @@ c) We have $\dfrac{2}{1}=\dfrac{-4}{-2}=\dfrac{6}{3}=2$, so the equations are pr
 So pair a) intersects at $(1, 2)$, pair b) is parallel, and pair c) coincides.
 :::
 
-Pair a) is exactly the road and the railway from the start: they meet at $(1, 2)$. The next question is the angle between them.
+Did you recognise pair a)? It is the road and the railway from the start: they meet at $(1, 2)$. That is the first question done. Now let us see how sharply they cross.
 
 ## The angle between two lines
 
-The angle between two intersecting lines is the smallest of the four angles they form, so $0^\circ\le\varphi\le 90^\circ$. Two parallel or coinciding lines make an angle of $0^\circ$.
+Two intersecting lines make four angles, equal in pairs. By convention we take the smallest one as the angle between the lines, so $0^\circ\le\varphi\le 90^\circ$. Two parallel or coinciding lines are said to make an angle of $0^\circ$.
+
+Since a normal vector is perpendicular to its line, the angle between the lines also shows up as the angle between the normal vectors. That is why the formula below needs only $\vec{n}_1$ and $\vec{n}_2$.
 
 :::theorem The angle formula
 $$\cos\varphi=\frac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1|\,|\vec{n}_2|}=\frac{|a_1a_2+b_1b_2|}{\sqrt{a_1^2+b_1^2}\sqrt{a_2^2+b_2^2}}.$$
 The lines are **perpendicular** if and only if $a_1a_2+b_1b_2=0$.
 :::
 
-The two normal vectors make an angle of $\varphi$ or $180^\circ-\varphi$. These two angles have opposite cosines, so the absolute value makes sure we always get the angle that is not obtuse.
+Why the absolute value? The two normal vectors may make an angle of $\varphi$, or of $180^\circ-\varphi$, depending on which way we point them. These two angles have opposite cosines. Taking the absolute value makes sure we always get the angle that is not obtuse, just as the convention says.
 
 :::example The angle between the road and the railway
 a) Find the angle between $d_1: x+y-3=0$ and $d_2: 2x-y=0$.
 b) Are the lines $2x-3y+5=0$ and $3x+2y-1=0$ perpendicular?
 
-**Solution.** We use the angle formula with the two normal vectors.
+**Solution.** We read a normal vector off each equation and put them into the angle formula.
 
 a) $\vec{n}_1=(1, 1)$, $\vec{n}_2=(2, -1)$:
 $$\cos\varphi=\frac{|1\cdot2+1\cdot(-1)|}{\sqrt2\cdot\sqrt5}=\frac{1}{\sqrt{10}}\ \Rightarrow\ \varphi\approx 71.57^\circ.$$
@@ -99,7 +101,7 @@ $$d(M_0, \Delta)=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}.$$
 
 **Why?** Let $H$ be the foot of the perpendicular from $M_0$ to $\Delta$. The vector $\overrightarrow{HM_0}$ is parallel to $\vec{n}=(a, b)$, so $|\vec{n}\cdot\overrightarrow{HM_0}|=|\vec{n}|\cdot HM_0$. Also $H(x_H, y_H)$ lies on $\Delta$, so $ax_H+by_H=-c$, and therefore $\vec{n}\cdot\overrightarrow{HM_0}=ax_0+by_0+c$. Dividing by $|\vec{n}|=\sqrt{a^2+b^2}$ gives the formula.
 
-Now we answer the last question from the start.
+The formula looks long, but using it is quick: substitute the point into the left-hand side of the equation, take the absolute value, and divide by the length of the normal vector. Now we can answer the last question from the start.
 
 :::example How far is the house from the road?
 Find the distance from the house $M(4, 3)$ to the road $d_1: x+y-3=0$ (units: km).
@@ -111,7 +113,7 @@ $$d(M, d_1)=\frac{|4+3-3|}{\sqrt{1^2+1^2}}=\frac{4}{\sqrt2}=2\sqrt2\approx 2.83.
 So the house is about $2.83$ km from the road.
 :::
 
-For two **parallel** lines, the distance between them is the distance from any point of one line to the other. If the two equations have the **same** $a$, $b$: $ax+by+c_1=0$ and $ax+by+c_2=0$, the distance is $\dfrac{|c_1-c_2|}{\sqrt{a^2+b^2}}$.
+Two **parallel** lines stay the same distance apart everywhere, like the two edges of a road. So the distance between them is the distance from any point of one line to the other. If the two equations have the **same** $a$, $b$: $ax+by+c_1=0$ and $ax+by+c_2=0$, the distance is $\dfrac{|c_1-c_2|}{\sqrt{a^2+b^2}}$.
 
 :::example Distance between two parallel lines
 Find the distance between $3x+4y-2=0$ and $6x+8y+16=0$.
@@ -127,7 +129,7 @@ So the distance between the lines is $2$.
 **Check.** The point $(2, -1)$ lies on the first line, and its distance to $3x+4y+8=0$ is $\dfrac{|6-4+8|}{5}=2$.
 :::
 
-The distance formula also works backwards: given a distance, find a point.
+The distance formula also works backwards: given a distance, find a point. Watch the absolute value here, because it usually gives two answers, one on each side of the line.
 
 :::example Finding points at a given distance
 Find the points on the $x$-axis at distance $2$ from the line $4x-3y+2=0$.
@@ -143,7 +145,7 @@ So there are two such points: $(2, 0)$ and $(-3, 0)$.
 
 ## Heights and areas of triangles
 
-A height of a triangle is exactly the distance from a vertex to the line containing the opposite side.
+You know that the area of a triangle is half the base times the height. With the coordinates of the three vertices the base is easy, but what about the height? The height is exactly the distance from a vertex to the line containing the opposite side, so the distance formula does the rest.
 
 :::diagram Triangle $ABC$ and the altitude $AH$
 alt: A triangle with vertices A(1, 1), B(5, 1) and C(3, 5), with a dashed altitude from A perpendicular to BC at H
@@ -200,9 +202,11 @@ So the altitude from $A$ has length $\dfrac{8}{\sqrt5}$ and the area of the tria
 - Two parallel lines: make $a$, $b$ the same, then use $\dfrac{|c_1-c_2|}{\sqrt{a^2+b^2}}$.
 - Area of a triangle $=\dfrac12\cdot$ side $\cdot$ distance from the opposite vertex.
 
+Back to the map from the start: from two equations alone, we found that the road and the railway meet at $(1, 2)$ at an angle of about $71.57^\circ$, and that the house is about $2.83$ km from the road. The one thing to remember is the normal vector: compare them to find the position, use them to find angles and distances.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise reminds you of what you need and suggests a few first steps. Have a go on your own first, even if you are not sure; if you go wrong, the solution will make much more sense afterwards.
 
 :::exercise
 Determine the relative position of the lines $x-3y+2=0$ and $-2x+6y-4=0$.

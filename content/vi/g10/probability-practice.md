@@ -13,19 +13,19 @@ minutes: 28
 
 Câu lạc bộ toán của trường có $6$ bạn nam và $4$ bạn nữ. Thầy giáo chọn ngẫu nhiên $3$ bạn đi thi. Khả năng cả ba bạn được chọn đều là nữ là bao nhiêu? Khả năng có ít nhất một bạn nữ là bao nhiêu?
 
-Có tất cả $120$ cách chọn $3$ bạn, quá nhiều để liệt kê. Bài này luyện cách **đếm** bằng tổ hợp thay cho liệt kê, rồi dùng định nghĩa cổ điển của xác suất.
+Có tất cả $120$ cách chọn $3$ bạn. Ngồi viết hết ra thì mỏi tay mà dễ sót. May là ta không cần liệt kê: chỉ cần **đếm** cho đúng, bằng tổ hợp, rồi chia theo định nghĩa cổ điển của xác suất. Bài này là để luyện cho cách đếm ấy thật vững tay.
 
 ## Một chiến lược hiệu quả
 
 ### Khám phá: liệt kê một trường hợp nhỏ
 
-Một hộp có $3$ bóng đỏ $\text{Đ}_1, \text{Đ}_2, \text{Đ}_3$ và $2$ bóng xanh $X_1, X_2$. Lấy cùng lúc $2$ bóng. Mọi cách lấy là:
+Trước khi đếm những con số lớn, ta thử với một hộp thật nhỏ, nhỏ đến mức viết ra được hết. Một hộp có $3$ bóng đỏ $\text{Đ}_1, \text{Đ}_2, \text{Đ}_3$ và $2$ bóng xanh $X_1, X_2$. Lấy cùng lúc $2$ bóng. Mọi cách lấy là:
 
 $$\text{Đ}_1\text{Đ}_2,\ \text{Đ}_1\text{Đ}_3,\ \text{Đ}_2\text{Đ}_3,\ \text{Đ}_1X_1,\ \text{Đ}_1X_2,\ \text{Đ}_2X_1,\ \text{Đ}_2X_2,\ \text{Đ}_3X_1,\ \text{Đ}_3X_2,\ X_1X_2.$$
 
-Có $10$ kết quả, trong đó $3$ kết quả có hai bóng đỏ. Vậy xác suất lấy được hai bóng đỏ là $\dfrac{3}{10}$.
+Đếm lại, bạn thấy có $10$ kết quả, trong đó $3$ kết quả có hai bóng đỏ. Vậy xác suất lấy được hai bóng đỏ là $\dfrac{3}{10}$.
 
-Ta không cần liệt kê: lấy $2$ bóng **không kể thứ tự** trong $5$ bóng có $C_5^2=10$ cách, lấy $2$ bóng trong $3$ bóng đỏ có $C_3^2=3$ cách. Số đếm khớp với danh sách.
+Bây giờ ta đếm mà không nhìn danh sách. Lấy $2$ bóng **không kể thứ tự** trong $5$ bóng có $C_5^2=10$ cách, lấy $2$ bóng trong $3$ bóng đỏ có $C_3^2=3$ cách. Hai con số khớp đúng với danh sách. Đó là điều làm ta yên tâm: với hộp lớn hơn, không liệt kê được nữa, tổ hợp vẫn đếm đúng.
 
 :::definition Xác suất theo định nghĩa cổ điển
 Nếu các kết quả của phép thử đồng khả năng thì xác suất của biến cố $A$ là
@@ -33,9 +33,11 @@ $$P(A)=\frac{n(A)}{n(\Omega)},$$
 trong đó $n(\Omega)$ là số kết quả có thể và $n(A)$ là số kết quả thuận lợi cho $A$ (xem [biến cố và định nghĩa cổ điển của xác suất](lesson:events-classical-probability)). Với biến cố đối $\overline{A}$: $P(A)=1-P(\overline{A})$.
 :::
 
-Công thức biến cố đối đúng vì mỗi kết quả thuộc đúng một trong hai biến cố $A$ và $\overline{A}$, nên $n(A)+n(\overline{A})=n(\Omega)$.
+Vì sao công thức biến cố đối đúng? Vì mỗi kết quả thuộc đúng một trong hai biến cố $A$ và $\overline{A}$, không thiếu cũng không trùng, nên $n(A)+n(\overline{A})=n(\Omega)$. Chia hai vế cho $n(\Omega)$ là ra công thức.
 
 ### Bốn bước
+
+Các bài xác suất cổ điển trông rất khác nhau, nhưng hầu hết đều đi qua bốn bước giống nhau. Nắm được bốn bước này, bạn sẽ ít bị rối khi gặp đề lạ.
 
 1. **Xác định phép thử** và xem thứ tự có quan trọng không. Lấy "cùng lúc" nghĩa là không kể thứ tự, nên dùng tổ hợp.
 2. **Đếm $n(\Omega)$** bằng quy tắc đếm, hoán vị, chỉnh hợp hoặc tổ hợp.
@@ -44,7 +46,7 @@ Công thức biến cố đối đúng vì mỗi kết quả thuộc đúng mộ
 
 ## Bóng trong hộp
 
-Ta bắt đầu với hộp bóng, mở rộng phần khám phá cho hộp lớn hơn.
+Ta quay lại với hộp bóng, lần này hộp lớn hơn một chút, đủ để thấy tổ hợp làm việc thay cho danh sách.
 
 :::example Hai bóng lấy cùng lúc
 Một hộp có $5$ bóng đỏ và $3$ bóng xanh. Lấy ngẫu nhiên cùng lúc hai bóng. Tính xác suất để a) cả hai bóng đều đỏ, b) hai bóng khác màu, c) có ít nhất một bóng đỏ.
@@ -65,7 +67,7 @@ Vậy các xác suất lần lượt là $\dfrac{5}{14}$, $\dfrac{15}{28}$ và $
 
 ## Chọn ban đại diện
 
-Cách đếm tương tự cho phép trả lời câu hỏi ở đầu bài.
+Đến đây ta đã đủ đồ nghề để trả lời câu hỏi về câu lạc bộ toán ở đầu bài. Cách đếm y như với hộp bóng: các bạn nam đóng vai bóng đỏ, các bạn nữ đóng vai bóng xanh.
 
 :::example Câu lạc bộ toán
 Câu lạc bộ có $6$ nam và $4$ nữ. Chọn ngẫu nhiên $3$ bạn. Tính xác suất để a) cả ba đều là nữ, b) có đúng $2$ nam, c) có ít nhất một nữ.
@@ -83,7 +85,7 @@ Vậy xác suất cả ba là nữ bằng $\dfrac{1}{30}$, có đúng $2$ nam b�
 
 ## Gieo xúc xắc
 
-Với xúc xắc, hai con được phân biệt (con thứ nhất, con thứ hai), nên mỗi kết quả là một **cặp có thứ tự**.
+Với xúc xắc thì khác một chút. Dù gieo cùng lúc, hai con vẫn là hai con riêng (con thứ nhất, con thứ hai), nên mỗi kết quả là một **cặp có thứ tự**. Chỗ này nhiều bạn hay nhầm, nên ta xem kĩ qua ví dụ.
 
 :::example Tổng số chấm của hai con xúc xắc
 Gieo hai con xúc xắc cân đối. Tính xác suất để tổng số chấm bằng $7$, và xác suất để tổng số chấm bằng $11$.
@@ -99,7 +101,7 @@ Vậy $P(\text{tổng }7)=\dfrac{6}{36}=\dfrac16$ và $P(\text{tổng }11)=\dfra
 
 ## Kiểm tra chất lượng
 
-Trong sản xuất, người ta lấy mẫu vài sản phẩm để kiểm tra. Biến cố đối giúp tính nhanh khả năng phát hiện lỗi.
+Ở nhà máy, không ai kiểm tra hết từng sản phẩm. Người ta chỉ lấy ra vài cái để thử. Câu hỏi tự nhiên là: lấy vài cái như thế thì có bao nhiêu khả năng bắt được hàng lỗi? Ở đây, đếm phần "không có lỗi nào" dễ hơn nhiều, nên ta dùng biến cố đối.
 
 :::example Sản phẩm lỗi
 Một hộp có $20$ sản phẩm, trong đó $3$ sản phẩm lỗi. Người kiểm tra lấy ngẫu nhiên $4$ sản phẩm. Tính xác suất để không có sản phẩm lỗi nào, và xác suất để có ít nhất một sản phẩm lỗi.
@@ -113,7 +115,7 @@ Vậy người kiểm tra phát hiện được ít nhất một sản phẩm l�
 
 ## Xổ số và bộ bài
 
-Hai ví dụ cuối có số kết quả rất lớn, nên chỉ đếm được bằng tổ hợp.
+Hai ví dụ cuối có số kết quả lên tới hàng nghìn, hàng triệu. Không ai liệt kê nổi, nhưng tổ hợp vẫn đếm gọn trong một dòng. Kết quả cũng giúp bạn hiểu vì sao trúng xổ số lại hiếm đến thế.
 
 :::example Một trò xổ số
 Trong một trò xổ số, người chơi chọn $6$ số trong $45$ số, và máy quay ra $6$ số. Tính xác suất để a) vé trùng cả sáu số, b) vé trùng đúng năm số.
@@ -165,9 +167,11 @@ Vậy xác suất rút được hai lá át là $\dfrac{1}{221}$.
 - Nhiều nhóm: quy tắc nhân, ví dụ $C_6^2\cdot C_4^1$.
 - "Ít nhất một": $P(A)=1-P(\overline{A})$, với $\overline{A}$ là "không có cái nào".
 
+Quay lại câu lạc bộ toán: khả năng cả ba bạn đều là nữ chỉ là $\dfrac{1}{30}$, còn khả năng có ít nhất một bạn nữ lên tới $\dfrac56$. Ta có được hai con số ấy mà không phải liệt kê $120$ cách chọn, chỉ nhờ đếm cho khéo. Điều đáng nhớ nhất: tử số và mẫu số phải đếm theo cùng một cách.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có phần kiến thức và gợi ý các bước. Bạn cứ tự làm trước, đi lần lượt qua bốn bước, đếm $n(\Omega)$ rồi mới đến $n(A)$. Bí quá hãy mở gợi ý, sau cùng mới xem lời giải để so.
 
 :::exercise
 Một hộp có $6$ bóng trắng và $4$ bóng đen. Lấy ngẫu nhiên cùng lúc hai bóng. Tính xác suất để cả hai bóng đều trắng.

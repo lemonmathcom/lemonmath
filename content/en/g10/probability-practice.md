@@ -13,19 +13,19 @@ minutes: 28
 
 The school maths club has $6$ boys and $4$ girls. The teacher picks $3$ members at random for a competition. How likely is it that all three are girls? How likely is it that at least one is a girl?
 
-There are $120$ ways to choose $3$ members, far too many to list. This lesson practises **counting** with combinations instead of listing, and then uses the classical definition of probability.
+There are $120$ ways to choose $3$ members. Writing them all out would take ages, and it is easy to miss one. Luckily we do not need the list: we only need to **count** correctly, using combinations, and then divide as the classical definition of probability says. This lesson is practice in counting like that until it feels steady.
 
 ## A strategy that works
 
 ### Explore: list a small case
 
-A box holds $3$ red balls $R_1, R_2, R_3$ and $2$ blue balls $B_1, B_2$. We take $2$ balls at the same time. All the possible draws are:
+Before counting big numbers, we try a box so small that we can write everything down. A box holds $3$ red balls $R_1, R_2, R_3$ and $2$ blue balls $B_1, B_2$. We take $2$ balls at the same time. All the possible draws are:
 
 $$R_1R_2,\ R_1R_3,\ R_2R_3,\ R_1B_1,\ R_1B_2,\ R_2B_1,\ R_2B_2,\ R_3B_1,\ R_3B_2,\ B_1B_2.$$
 
-There are $10$ outcomes, and $3$ of them have two red balls. So the probability of drawing two red balls is $\dfrac{3}{10}$.
+Count them and you find $10$ outcomes, and $3$ of them have two red balls. So the probability of drawing two red balls is $\dfrac{3}{10}$.
 
-We do not need the list: taking $2$ balls **without order** from $5$ can be done in $\binom{5}{2}=10$ ways, and taking $2$ of the $3$ red balls in $\binom{3}{2}=3$ ways. The counts match the list.
+Now let us count without looking at the list. Taking $2$ balls **without order** from $5$ can be done in $\binom{5}{2}=10$ ways, and taking $2$ of the $3$ red balls in $\binom{3}{2}=3$ ways. Both numbers match the list exactly. That is what lets us trust combinations: with a bigger box, where listing is hopeless, they still count correctly.
 
 :::definition Classical probability
 If the outcomes of an experiment are equally likely, the probability of an event $A$ is
@@ -33,9 +33,11 @@ $$P(A)=\frac{n(A)}{n(\Omega)},$$
 where $n(\Omega)$ is the number of possible outcomes and $n(A)$ is the number of outcomes favourable to $A$ (see [events and classical probability](lesson:events-classical-probability)). For the complementary event $\overline{A}$ (the complement of $A$): $P(A)=1-P(\overline{A})$.
 :::
 
-The complement rule holds because each outcome belongs to exactly one of $A$ and $\overline{A}$, so $n(A)+n(\overline{A})=n(\Omega)$.
+Why does the complement rule hold? Because each outcome belongs to exactly one of $A$ and $\overline{A}$, none left out and none counted twice, so $n(A)+n(\overline{A})=n(\Omega)$. Divide both sides by $n(\Omega)$ and the rule appears.
 
 ### Four steps
+
+Classical probability problems look very different from one another, but most of them go through the same four steps. Once you have these steps, an unfamiliar question is much less confusing.
 
 1. **Identify the experiment** and decide whether order matters. Taking objects "at the same time" means order does not matter, so use combinations.
 2. **Count $n(\Omega)$** with the counting rules, permutations, arrangements or combinations.
@@ -44,7 +46,7 @@ The complement rule holds because each outcome belongs to exactly one of $A$ and
 
 ## Balls in a box
 
-We start with a box of balls, extending the exploration to a bigger box.
+We go back to the box of balls, this time a slightly bigger one, big enough to see combinations doing the work of the list.
 
 :::example Two balls drawn together
 A box holds $5$ red balls and $3$ blue balls. Two balls are drawn at random at the same time. Find the probability that a) both balls are red, b) the two balls have different colours, c) at least one ball is red.
@@ -65,7 +67,7 @@ So the probabilities are $\dfrac{5}{14}$, $\dfrac{15}{28}$ and $\dfrac{25}{28}$.
 
 ## Choosing a committee
 
-The same counting answers the question from the start.
+We now have all the tools to answer the question about the maths club from the start. The counting is just like the box of balls: the boys play the part of the red balls and the girls the blue ones.
 
 :::example The maths club
 The club has $6$ boys and $4$ girls. Three members are chosen at random. Find the probability that a) all three are girls, b) exactly $2$ are boys, c) at least one is a girl.
@@ -83,7 +85,7 @@ So the probability that all three are girls is $\dfrac{1}{30}$, that exactly $2$
 
 ## Rolling dice
 
-With dice, the two dice are told apart (the first die and the second die), so each outcome is an **ordered pair**.
+Dice are a little different. Even when rolled together, the two dice are still two separate dice (the first die and the second die), so each outcome is an **ordered pair**. Many students slip up here, so let us look at it carefully.
 
 :::example The sum of two dice
 Two fair dice are rolled. Find the probability that the sum is $7$, and the probability that the sum is $11$.
@@ -99,7 +101,7 @@ So $P(\text{sum }7)=\dfrac{6}{36}=\dfrac16$ and $P(\text{sum }11)=\dfrac{2}{36}=
 
 ## Quality control
 
-In production, a few items are sampled for testing. The complement gives a quick way to find the chance of catching a fault.
+In a factory, nobody tests every single item. A few are taken out and checked. The natural question is: with only a few checked, how likely are we to catch a faulty one? Here it is much easier to count "no faulty item at all", so we use the complement.
 
 :::example Faulty items
 A box holds $20$ items, $3$ of which are faulty. An inspector picks $4$ items at random. Find the probability that none is faulty, and the probability that at least one is faulty.
@@ -113,7 +115,7 @@ So the inspector finds at least one faulty item with probability about $0.51$, o
 
 ## Lotteries and cards
 
-The last two examples have a huge number of outcomes, so they can only be counted with combinations.
+The last two examples have thousands, even millions, of outcomes. Nobody could list them, yet combinations count them in a single line. The answers also show why winning a lottery is so rare.
 
 :::example A lottery
 In a lottery, a player chooses $6$ of the numbers $1$ to $45$, and a machine draws $6$ numbers. Find the probability that a) the ticket matches all six numbers, b) the ticket matches exactly five numbers.
@@ -165,9 +167,11 @@ So the probability of drawing two aces is $\dfrac{1}{221}$.
 - Several groups: multiplication rule, for example $\binom{6}{2}\cdot\binom{4}{1}$.
 - "At least one": $P(A)=1-P(\overline{A})$, where $\overline{A}$ is "none at all".
 
+Back to the maths club: the chance that all three are girls is only $\dfrac{1}{30}$, while the chance of at least one girl is as high as $\dfrac56$. We found both without listing the $120$ choices, just by counting carefully. The thing to remember most: count the top and the bottom of the fraction in the same way.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise comes with what you need and some steps to start. Try it yourself first, working through the four steps: $n(\Omega)$ first, then $n(A)$. If you get stuck, open the hint, and only look at the solution at the end to compare.
 
 :::exercise
 A box holds $6$ white balls and $4$ black balls. Two balls are drawn at random at the same time. Find the probability that both are white.
