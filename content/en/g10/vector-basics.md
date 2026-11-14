@@ -13,13 +13,13 @@ minutes: 25
 
 From the school gate, Lan walks $200$ m straight towards the north, while Minh walks $200$ m straight towards the east. They cover the same distance. Are they standing in the same place?
 
-No, because they walked in different **directions**. The number $200$ m only gives a size. A size together with a direction is the idea behind a **vector**. Forces, velocities and displacements all work this way, which is why vectors are the language of physics, navigation and computer graphics.
+Certainly not. They walked the same distance but in different **directions**, so they end up quite far apart. The number $200$ m tells only half the story: how far. The other half is where to. Wrap the size and the direction into one object and you have a **vector**. A push, a velocity, a displacement in real life all need both pieces of information, which is why vectors are a language that physics, navigation maps and computer graphics use every day.
 
 ## From a segment to a vector
 
 Let us experiment on squared paper. An ant crawls in a straight line from a point $A$ to a point $B$, $4$ squares to the right and $3$ squares up. By Pythagoras' theorem, it crawls $\sqrt{4^2+3^2}=5$ squares.
 
-Now the ant crawls back from $B$ to $A$. The distance is still $5$ squares, but the motion is different: it goes the other way. To describe the motion fully we must give the **start**, the **end** and the **length**. That is why we draw an arrow instead of a plain segment.
+Now the ant crawls back from $B$ to $A$. The distance is still $5$ squares, but the motion is different: it goes the other way. A plain segment $AB$ cannot tell these two trips apart. To describe the motion fully we must give the **start**, the **end** and the **length**. An arrow does exactly that: one look tells you where it starts, where it ends and how long it is.
 
 :::definition Vector
 A **vector** is a line segment with a chosen direction: one endpoint is the **initial point** (the tail) and the other is the **terminal point** (the head). The vector with initial point $A$ and terminal point $B$ is written $\overrightarrow{AB}$. A vector can also be named by one small letter with an arrow, such as $\vec{a}$, $\vec{u}$.
@@ -32,7 +32,7 @@ point B 4,2 above
 arrow A B "u"
 :::
 
-Two things describe a vector:
+So to know a vector, you need two things:
 
 - its **direction**, given by the line $AB$ and the arrow;
 - its **magnitude** (length) $|\overrightarrow{AB}|$, which is the length of the segment $AB$. So $|\overrightarrow{AB}| = AB$.
@@ -41,9 +41,9 @@ A vector with magnitude $1$ is called a **unit vector**.
 
 ### The zero vector
 
-If the initial and terminal points are the same point, we get the vector $\overrightarrow{AA}$. Its length is $0$ and it has no particular direction. All such vectors are regarded as one vector, the **zero vector**, written $\vec{0}$. So $|\vec{0}| = 0$, and $\overrightarrow{AA} = \overrightarrow{BB} = \vec{0}$ for any points $A$ and $B$.
+If the initial and terminal points are the same point, we get the vector $\overrightarrow{AA}$. Its length is $0$ and it has no particular direction. It sounds a little odd, like "going nowhere", but it is very useful in calculations later, just as the number $0$ is useful in addition. All such vectors are regarded as one vector, the **zero vector**, written $\vec{0}$. So $|\vec{0}| = 0$, and $\overrightarrow{AA} = \overrightarrow{BB} = \vec{0}$ for any points $A$ and $B$.
 
-The first example needs only the definition and Pythagoras' theorem.
+The first example needs only the definition and Pythagoras' theorem, but it shows something important: the same length does not mean the same vector.
 
 :::example The length of a vector
 Triangle $ABC$ has a right angle at $A$, with $AB=5$ and $AC=12$. Find $|\overrightarrow{BC}|$ and $|\overrightarrow{CB}|$. Are the two vectors equal?
@@ -57,7 +57,7 @@ The segment $CB$ is the same segment as $BC$, so $|\overrightarrow{CB}|=13$. The
 
 ## Same direction, opposite direction, collinear
 
-The **line of action** of a non-zero vector $\overrightarrow{AB}$ is the line $AB$ that contains it. Two non-zero vectors are **collinear** if their lines of action are parallel or coincide. Collinear vectors point either the same way or in opposite ways.
+Think of trains on one railway line: whether they go up the line or down, they travel along the same track. Vectors are similar: before asking "which way does it point?", we ask "along which line does it lie?". The **line of action** of a non-zero vector $\overrightarrow{AB}$ is the line $AB$ that contains it. Two non-zero vectors are **collinear** if their lines of action are parallel or coincide. Collinear vectors point either the same way or in opposite ways.
 
 :::definition Collinear vectors
 Two non-zero vectors $\vec{a}$ and $\vec{b}$ are **collinear** if their lines of action are parallel or coincide. Then they have either the **same direction** or **opposite directions**. By convention, the zero vector is collinear with every vector.
@@ -78,7 +78,7 @@ arrow E F "c"
 
 In the figure, $\vec{a}$ and $\vec{b}$ have the same direction, while $\vec{c}$ has the opposite direction to both. All three are collinear, even though they do not lie on one line, because their lines of action are parallel.
 
-The next example applies these words to velocity, a familiar quantity with a direction.
+The words "collinear", "same direction" and "opposite direction" are easy to mix up at first. We practise them with velocity, a very familiar quantity with a direction.
 
 :::example Velocities of three ships
 Ship P sails at $18$ km/h towards the north, ship Q at $18$ km/h towards the south and ship R at $25$ km/h towards the north. Among the three velocity vectors, which pairs are collinear and which have the same direction?
@@ -100,7 +100,7 @@ So all three velocity vectors are collinear; only the pair P, R has the same dir
 
 Back to the three ships: P and R point the same way but their speeds differ ($18$ and $25$), so their velocity vectors are **not** equal. P and Q have the same magnitude $18$ and opposite directions, so the velocity of Q is the opposite vector of the velocity of P.
 
-Notice that a vector can be drawn **anywhere** in the plane: we may slide a vector without turning it and without changing its length, and it stays the same vector. This is what lets us add forces drawn from different points later on.
+Here is something that may sound strange at first: a vector cares only about its direction and its length, not about where it is drawn. So a vector can be drawn **anywhere** in the plane. We may slide a vector without turning it and without changing its length, and it stays the same vector, just as the instruction "walk $200$ m north" makes sense wherever you are standing. This is what lets us add forces drawn from different points later on.
 
 :::diagram In the parallelogram $ABCD$, $\overrightarrow{AB} = \overrightarrow{DC}$
 alt: A parallelogram ABCD with an arrow from A to B and an equal arrow from D to C, both labelled u.
@@ -119,7 +119,7 @@ For four points $A, B, C, D$ not on one line, $ABCD$ is a parallelogram **if and
 
 **Why?** If $ABCD$ is a parallelogram, then $AB\parallel DC$ and $AB=DC$; the arrows $A\to B$ and $D\to C$ point the same way, so the vectors are equal. Conversely, if $\overrightarrow{AB}=\overrightarrow{DC}$, the quadrilateral $ABCD$ has a pair of opposite sides $AB$, $DC$ that are parallel and equal, so it is a parallelogram.
 
-Now we use this fact to find equal vectors in a rectangle.
+A rectangle is a parallelogram too, so we use this fact straight away to find equal vectors in a rectangle.
 
 :::example Vectors in a rectangle
 Rectangle $ABCD$ has $AB = 6$ and $AD = 8$. Let $O$ be the intersection of the diagonals.
@@ -139,7 +139,7 @@ c) $ABCD$ is a parallelogram, so $\overrightarrow{AB}=\overrightarrow{DC}$, and 
 So $|\overrightarrow{AC}|=10$, $\overrightarrow{AO}=\overrightarrow{OC}$, and the claim in c) is false: $\overrightarrow{CD}=-\overrightarrow{AB}$.
 :::
 
-In a figure with many points, we look for equal vectors systematically: find segments that are **parallel**, **equal in length**, and then check the **direction**.
+When a figure has many points, looking at random means missing some. It is better to search in order: first find segments that are **parallel**, among them pick those **equal in length**, and only then check the **direction**.
 
 :::diagram Regular hexagon with centre O
 alt: A regular hexagon ABCDEF with centre O. Arrows from A to B and from O to C are drawn and labelled u.
@@ -186,6 +186,7 @@ So $\overrightarrow{AM}=\overrightarrow{NC}$. The points $A, M, C, N$ are not on
 :::
 
 :::warning Common mistakes
+When you first meet vectors, it is easy to trip over the points below. Each time you conclude that two vectors are equal, ask yourself again: same direction? same length?
 - **Equal length does not mean equal vectors.** Wrong: "$|\vec{a}|=|\vec{b}|$, so $\vec{a}=\vec{b}$". Length says nothing about direction; you also need the same direction.
 - **Collinear does not mean equal.** A vector and its opposite are collinear but different.
 - **The order of the letters matters.** Wrong: "$\overrightarrow{AB}=\overrightarrow{CD}$ because $ABCD$ is a parallelogram". Right: $\overrightarrow{AB}=\overrightarrow{DC}$, while $\overrightarrow{CD}=-\overrightarrow{AB}$.
@@ -216,9 +217,11 @@ So $\overrightarrow{AM}=\overrightarrow{NC}$. The points $A, M, C, N$ are not on
 - Opposite vector $-\vec{a}$: same magnitude, opposite direction; $\overrightarrow{BA} = -\overrightarrow{AB}$.
 - $ABCD$ is a parallelogram $\iff\overrightarrow{AB} = \overrightarrow{DC}$ (watch the order of the letters).
 
+Lan and Minh each walked $200$ m and still did not meet, because their displacement vectors have the same length but different directions. That is the heart of the whole lesson: a vector is fully known only when we know both its length and its direction.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise reminds you what you need and gives some steps to start. Have a go yourself first; when there is a figure, draw the arrows on paper, and their directions will stop you mixing up the order of the letters. Then open the solution and compare.
 
 :::exercise
 Which of these are vectors and which are only numbers (scalars)? (a) the mass of a bag of rice, $5$ kg; (b) a wind of $30$ km/h blowing from the west; (c) the temperature, $25$ °C; (d) a force of $20$ N pushing downwards; (e) a displacement of $3$ km due east.

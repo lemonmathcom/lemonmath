@@ -13,13 +13,13 @@ minutes: 25
 
 Từ cổng trường, Lan đi thẳng $200$ m về hướng bắc, còn Minh đi thẳng $200$ m về hướng đông. Hai bạn đi quãng đường như nhau. Vậy hai bạn có đứng ở cùng một chỗ không?
 
-Không, vì hai bạn đi theo hai **hướng** khác nhau. Con số $200$ m chỉ cho biết độ lớn. Một đại lượng có cả độ lớn lẫn hướng chính là ý tưởng của **vectơ**. Lực, vận tốc và độ dời đều như vậy, nên vectơ là ngôn ngữ của vật lí, của dẫn đường và của đồ hoạ máy tính.
+Chắc chắn là không. Hai bạn đi xa như nhau nhưng theo hai **hướng** khác nhau, nên đứng ở hai chỗ cách nhau khá xa. Con số $200$ m chỉ kể được một nửa câu chuyện: đi bao xa. Nửa còn lại là đi về đâu. Gói cả độ lớn lẫn hướng vào một đối tượng, ta có **vectơ**. Lực đẩy, vận tốc, độ dời ngoài đời đều cần cả hai thông tin ấy, nên vectơ là thứ ngôn ngữ mà vật lí, bản đồ dẫn đường và đồ hoạ máy tính đều dùng hằng ngày.
 
 ## Từ đoạn thẳng đến vectơ
 
 Ta thử một chút trên lưới ô vuông. Một con kiến bò thẳng từ điểm $A$ đến điểm $B$, lệch $4$ ô sang phải và $3$ ô lên trên. Theo định lí Pythagore, nó bò được $\sqrt{4^2+3^2}=5$ ô.
 
-Bây giờ con kiến bò ngược từ $B$ về $A$. Quãng đường vẫn là $5$ ô, nhưng chuyển động đã khác hẳn: nó đi theo chiều ngược lại. Muốn mô tả đủ chuyển động, ta phải nói cả **điểm xuất phát**, **điểm kết thúc** và **độ dài**. Đó là lí do ta vẽ một mũi tên thay cho một đoạn thẳng.
+Bây giờ con kiến bò ngược từ $B$ về $A$. Quãng đường vẫn là $5$ ô, nhưng chuyển động đã khác hẳn: nó đi theo chiều ngược lại. Nếu chỉ vẽ đoạn thẳng $AB$ thì không phân biệt được hai lần bò ấy. Muốn mô tả đủ chuyển động, ta phải nói cả **điểm xuất phát**, **điểm kết thúc** và **độ dài**. Một mũi tên làm được đúng việc đó: nhìn vào là biết đi từ đâu, đến đâu, dài bao nhiêu.
 
 :::definition Vectơ
 **Vectơ** là một đoạn thẳng có hướng: một đầu mút là **điểm đầu**, đầu mút kia là **điểm cuối**. Vectơ có điểm đầu $A$, điểm cuối $B$ được kí hiệu là $\overrightarrow{AB}$. Vectơ cũng có thể được gọi tên bằng một chữ cái in thường có mũi tên, chẳng hạn $\vec{a}$, $\vec{u}$.
@@ -32,7 +32,7 @@ point B 4,2 above
 arrow A B "u"
 :::
 
-Hai yếu tố xác định một vectơ:
+Như vậy, muốn biết một vectơ, bạn cần nắm hai điều:
 
 - **hướng**, cho bởi đường thẳng $AB$ và chiều mũi tên;
 - **độ dài** $|\overrightarrow{AB}|$, là độ dài đoạn thẳng $AB$. Vậy $|\overrightarrow{AB}| = AB$.
@@ -41,9 +41,9 @@ Vectơ có độ dài bằng $1$ gọi là **vectơ đơn vị**.
 
 ### Vectơ-không
 
-Nếu điểm đầu và điểm cuối trùng nhau thì ta có vectơ $\overrightarrow{AA}$. Nó có độ dài bằng $0$ và không có hướng xác định. Mọi vectơ như vậy được coi là một vectơ duy nhất, gọi là **vectơ-không**, kí hiệu $\vec{0}$. Do đó $|\vec{0}| = 0$ và $\overrightarrow{AA} = \overrightarrow{BB} = \vec{0}$ với mọi điểm $A$, $B$.
+Nếu điểm đầu và điểm cuối trùng nhau thì ta có vectơ $\overrightarrow{AA}$. Nó có độ dài bằng $0$ và không có hướng xác định. Nghe hơi lạ, giống như "đi mà không đi đâu cả", nhưng nó rất cần cho tính toán về sau, cũng như số $0$ cần trong phép cộng. Mọi vectơ như vậy được coi là một vectơ duy nhất, gọi là **vectơ-không**, kí hiệu $\vec{0}$. Do đó $|\vec{0}| = 0$ và $\overrightarrow{AA} = \overrightarrow{BB} = \vec{0}$ với mọi điểm $A$, $B$.
 
-Ví dụ đầu tiên chỉ cần định nghĩa và định lí Pythagore.
+Ví dụ đầu tiên chỉ cần định nghĩa và định lí Pythagore, nhưng nó cho thấy một điều quan trọng: cùng độ dài chưa chắc đã là cùng một vectơ.
 
 :::example Độ dài của vectơ
 Tam giác $ABC$ vuông tại $A$ có $AB=5$, $AC=12$. Tính $|\overrightarrow{BC}|$ và $|\overrightarrow{CB}|$. Hai vectơ này có bằng nhau không?
@@ -57,7 +57,7 @@ $$|\overrightarrow{BC}|=BC=\sqrt{AB^2+AC^2}=\sqrt{25+144}=\sqrt{169}=13.$$
 
 ## Cùng hướng, ngược hướng, cùng phương
 
-**Giá** của vectơ $\overrightarrow{AB}$ khác vectơ-không là đường thẳng $AB$. Hai vectơ khác vectơ-không gọi là **cùng phương** nếu giá của chúng song song hoặc trùng nhau. Hai vectơ cùng phương thì hoặc cùng hướng, hoặc ngược hướng.
+Hãy nghĩ đến các toa tàu trên cùng một đường ray: dù chạy lên hay chạy xuống, chúng vẫn đi dọc một đường. Với vectơ cũng vậy, trước khi hỏi "chỉ về đâu", ta hỏi "nằm dọc theo đường nào". **Giá** của vectơ $\overrightarrow{AB}$ khác vectơ-không là đường thẳng $AB$. Hai vectơ khác vectơ-không gọi là **cùng phương** nếu giá của chúng song song hoặc trùng nhau. Hai vectơ cùng phương thì hoặc cùng hướng, hoặc ngược hướng.
 
 :::definition Hai vectơ cùng phương
 Hai vectơ $\vec{a}$ và $\vec{b}$ khác $\vec{0}$ là **cùng phương** nếu giá của chúng song song hoặc trùng nhau. Khi đó chúng **cùng hướng** hoặc **ngược hướng**. Theo quy ước, vectơ-không cùng phương với mọi vectơ.
@@ -78,7 +78,7 @@ arrow E F "c"
 
 Trong hình, $\vec{a}$ và $\vec{b}$ cùng hướng, còn $\vec{c}$ ngược hướng với cả hai. Cả ba vectơ đều cùng phương, dù không nằm trên một đường thẳng, vì giá của chúng song song với nhau.
 
-Ví dụ tiếp theo dùng các khái niệm này cho vận tốc, một đại lượng có hướng quen thuộc.
+Ba từ "cùng phương", "cùng hướng", "ngược hướng" dễ lẫn vào nhau lúc đầu. Ta luyện chúng với vận tốc, một đại lượng có hướng rất quen thuộc.
 
 :::example Vận tốc của ba con tàu
 Tàu P chạy $18$ km/h về hướng bắc, tàu Q chạy $18$ km/h về hướng nam, tàu R chạy $25$ km/h về hướng bắc. Trong ba vectơ vận tốc, cặp nào cùng phương, cặp nào cùng hướng?
@@ -100,7 +100,7 @@ Vậy cả ba vectơ vận tốc cùng phương với nhau; chỉ cặp P, R cù
 
 Quay lại ba con tàu: P và R cùng hướng nhưng tốc độ khác nhau ($18$ và $25$), nên hai vectơ vận tốc **không** bằng nhau. P và Q cùng độ lớn $18$ và ngược hướng, nên vận tốc của Q là vectơ đối của vận tốc của P.
 
-Hãy để ý: ta có thể vẽ một vectơ **ở bất cứ đâu** trên mặt phẳng. Trượt vectơ đi mà không xoay và không đổi độ dài thì ta vẫn được chính vectơ ấy. Nhờ vậy, sau này ta cộng được các lực vẽ từ những điểm khác nhau.
+Có một điều thoạt nghe hơi lạ, bạn để ý nhé: vectơ chỉ quan tâm hướng và độ dài, không quan tâm nó đặt ở đâu. Vì thế ta có thể vẽ một vectơ **ở bất cứ đâu** trên mặt phẳng. Trượt vectơ đi mà không xoay và không đổi độ dài thì ta vẫn được chính vectơ ấy, giống như lời chỉ đường "đi $200$ m về hướng bắc" đúng ở bất kì chỗ nào bạn đứng. Nhờ vậy, sau này ta cộng được các lực vẽ từ những điểm khác nhau.
 
 :::diagram Trong hình bình hành $ABCD$ có $\overrightarrow{AB} = \overrightarrow{DC}$
 alt: Hình bình hành ABCD có một mũi tên từ A đến B và một mũi tên bằng nó từ D đến C, cùng kí hiệu là u.
@@ -119,7 +119,7 @@ Với bốn điểm $A, B, C, D$ không cùng nằm trên một đường thẳn
 
 **Vì sao?** Nếu $ABCD$ là hình bình hành thì $AB\parallel DC$ và $AB=DC$; hai mũi tên $A\to B$ và $D\to C$ cùng chỉ về một phía, nên hai vectơ bằng nhau. Ngược lại, nếu $\overrightarrow{AB}=\overrightarrow{DC}$ thì tứ giác $ABCD$ có hai cạnh đối $AB$, $DC$ song song và bằng nhau, nên nó là hình bình hành.
 
-Bây giờ ta dùng kết quả này để tìm các vectơ bằng nhau trong một hình chữ nhật.
+Hình chữ nhật cũng là hình bình hành, nên ta dùng ngay kết quả này để tìm các vectơ bằng nhau trong một hình chữ nhật.
 
 :::example Các vectơ trong hình chữ nhật
 Hình chữ nhật $ABCD$ có $AB = 6$ và $AD = 8$. Gọi $O$ là giao điểm của hai đường chéo.
@@ -139,7 +139,7 @@ c) $ABCD$ là hình bình hành nên $\overrightarrow{AB}=\overrightarrow{DC}$, 
 Vậy $|\overrightarrow{AC}|=10$, $\overrightarrow{AO}=\overrightarrow{OC}$, và câu c sai: $\overrightarrow{CD}=-\overrightarrow{AB}$.
 :::
 
-Trong một hình có nhiều điểm, ta tìm vectơ bằng nhau một cách có hệ thống: tìm các đoạn **song song**, **bằng nhau**, rồi kiểm tra **chiều**.
+Khi hình có nhiều điểm, nhìn đại dễ sót. Ta nên tìm vectơ bằng nhau theo thứ tự: trước hết tìm các đoạn **song song**, trong đó chọn đoạn **bằng nhau**, cuối cùng mới kiểm tra **chiều**.
 
 :::diagram Lục giác đều tâm O
 alt: Lục giác đều ABCDEF tâm O. Hai mũi tên từ A đến B và từ O đến C được vẽ và cùng kí hiệu là u.
@@ -186,6 +186,7 @@ Vậy $\overrightarrow{AM}=\overrightarrow{NC}$. Bốn điểm $A, M, C, N$ khô
 :::
 
 :::warning Những sai lầm thường gặp
+Lúc mới làm quen với vectơ, ai cũng dễ vấp vài chỗ dưới đây. Mỗi khi kết luận hai vectơ bằng nhau, bạn tự hỏi lại: cùng hướng chưa, cùng độ dài chưa?
 - **Cùng độ dài chưa chắc bằng nhau.** Sai: "$|\vec{a}|=|\vec{b}|$ nên $\vec{a}=\vec{b}$". Độ dài không nói gì về hướng; đúng là cần thêm điều kiện cùng hướng.
 - **Cùng phương chưa chắc bằng nhau.** Một vectơ và vectơ đối của nó cùng phương nhưng khác nhau.
 - **Thứ tự các chữ cái quan trọng.** Sai: "$\overrightarrow{AB}=\overrightarrow{CD}$ vì $ABCD$ là hình bình hành". Đúng: $\overrightarrow{AB}=\overrightarrow{DC}$; còn $\overrightarrow{CD}=-\overrightarrow{AB}$.
@@ -216,9 +217,11 @@ Vậy $\overrightarrow{AM}=\overrightarrow{NC}$. Bốn điểm $A, M, C, N$ khô
 - Vectơ đối $-\vec{a}$: cùng độ dài, ngược hướng; $\overrightarrow{BA} = -\overrightarrow{AB}$.
 - $ABCD$ là hình bình hành $\iff\overrightarrow{AB} = \overrightarrow{DC}$ (chú ý thứ tự chữ cái).
 
+Lan và Minh đi cùng $200$ m nhưng không gặp nhau, vì hai vectơ độ dời của họ cùng độ dài mà khác hướng. Đó là điều cốt lõi của cả bài: một vectơ chỉ được biết đầy đủ khi ta biết cả độ dài lẫn hướng.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có nhắc lại kiến thức cần dùng và gợi ý các bước. Bạn cứ tự làm trước; bài nào có hình thì nên vẽ mũi tên ra giấy, chiều mũi tên sẽ giúp bạn tránh nhầm thứ tự chữ cái. Sau đó hãy bấm xem lời giải để so.
 
 :::exercise
 Trong các đại lượng sau, đại lượng nào là vectơ, đại lượng nào chỉ là số (vô hướng)? (a) khối lượng một túi gạo, $5$ kg; (b) gió thổi từ phía tây với tốc độ $30$ km/h; (c) nhiệt độ $25$ °C; (d) một lực $20$ N đẩy xuống phía dưới; (e) một độ dời (độ dịch chuyển) $3$ km về hướng đông.

@@ -13,13 +13,13 @@ minutes: 25
 
 Một thanh chắn dài $1$ m quay quanh trục $O$ đặt sát mặt đường. Khi thanh nghiêng $30^\circ$ so với mặt đường, đầu thanh cao $0{,}5$ m và ở bên phải $O$ khoảng $0{,}87$ m. Nếu thanh quay tiếp đến $150^\circ$ thì đầu thanh ở đâu: cao bao nhiêu, bên nào của $O$, cách bao xa?
 
-Trong tam giác vuông, sin và côsin chỉ định nghĩa cho góc nhọn, nên chưa trả lời được câu hỏi với góc $150^\circ$. Bài này mở rộng chúng cho mọi góc từ $0^\circ$ đến $180^\circ$.
+Với góc $30^\circ$, ta vẽ một tam giác vuông là tính được ngay. Nhưng góc $150^\circ$ thì không nằm gọn trong tam giác vuông nào cả, vì sin và côsin bạn học ở lớp 9 chỉ dành cho góc nhọn. Bài này mở rộng chúng cho mọi góc từ $0^\circ$ đến $180^\circ$. Cách mở rộng rất tự nhiên, và nó sẽ trả lời luôn câu hỏi về thanh chắn: đầu thanh ở bên nào, cao bao nhiêu.
 
 ## Nửa đường tròn đơn vị
 
-Vẽ nửa đường tròn nằm phía trên trục hoành, tâm $O(0; 0)$, bán kính $1$. Đó là **nửa đường tròn đơn vị**: các điểm $(x; y)$ của nó thoả mãn $x^2+y^2=1$ và $y\geq0$.
+Ý tưởng là thay tam giác vuông bằng một hình không bao giờ "hết chỗ" khi góc lớn dần: một nửa đường tròn. Vẽ nửa đường tròn nằm phía trên trục hoành, tâm $O(0; 0)$, bán kính $1$. Đó là **nửa đường tròn đơn vị**: các điểm $(x; y)$ của nó thoả mãn $x^2+y^2=1$ và $y\geq0$.
 
-Lấy một góc $\alpha$ từ $0^\circ$ đến $180^\circ$. Xuất phát từ tia $Ox$ rồi quay ngược chiều kim đồng hồ một góc $\alpha$. Tia này cắt nửa đường tròn tại đúng một điểm $M(x_0; y_0)$.
+Lấy một góc $\alpha$ từ $0^\circ$ đến $180^\circ$. Bạn cứ hình dung chính thanh chắn ở đầu bài: xuất phát nằm trên tia $Ox$ rồi quay ngược chiều kim đồng hồ một góc $\alpha$. Tia này cắt nửa đường tròn tại đúng một điểm $M(x_0; y_0)$.
 
 :::graph Điểm $M$ ứng với góc $\alpha$
 alt: Nửa đường tròn đơn vị tâm O. Điểm M trên nửa đường tròn được nối với O, góc alpha giữa trục hoành và OM được đánh dấu, và chân H của đường vuông góc hạ từ M xuống trục hoành.
@@ -37,11 +37,11 @@ label: (0.17, 0.08) "α"
 
 ### Khám phá với góc nhọn
 
-Khi $\alpha$ nhọn, tam giác $OHM$ vuông tại $H$ với cạnh huyền $OM=1$. Theo định nghĩa trong tam giác vuông:
+Ta đi từ cái đã biết. Khi $\alpha$ nhọn, tam giác $OHM$ vuông tại $H$ với cạnh huyền $OM=1$. Cạnh huyền bằng $1$ nên các tỉ số trở nên rất gọn:
 
 $$\cos\alpha=\frac{OH}{OM}=OH=x_0,\qquad \sin\alpha=\frac{HM}{OM}=HM=y_0.$$
 
-Chẳng hạn với $\alpha=30^\circ$: $M\left(\dfrac{\sqrt3}{2}; \dfrac12\right)\approx(0{,}87; 0{,}5)$, đúng là vị trí đầu thanh chắn ở đầu bài. Vậy với góc nhọn, **hoành độ của $M$ là côsin, tung độ là sin**. Ta lấy điều này làm định nghĩa cho **mọi** góc $\alpha$ thuộc $[0^\circ; 180^\circ]$.
+Chẳng hạn với $\alpha=30^\circ$: $M\left(\dfrac{\sqrt3}{2}; \dfrac12\right)\approx(0{,}87; 0{,}5)$, đúng là vị trí đầu thanh chắn ở đầu bài. Vậy với góc nhọn, **hoành độ của $M$ là côsin, tung độ là sin**. Phát hiện nhỏ này là chìa khoá: hoành độ và tung độ thì góc nào cũng có, kể cả góc tù. Nên ta lấy chính điều này làm định nghĩa cho **mọi** góc $\alpha$ thuộc $[0^\circ; 180^\circ]$. Với góc nhọn, định nghĩa mới cho kết quả y hệt như cũ, nên bạn không phải bỏ đi điều gì đã học.
 
 :::definition Giá trị lượng giác của góc từ 0° đến 180°
 Cho $M(x_0; y_0)$ là điểm của nửa đường tròn đơn vị sao cho $\widehat{xOM}=\alpha$. Khi đó
@@ -53,12 +53,14 @@ $$\tan\alpha=\frac{y_0}{x_0}\ (x_0\neq0),\qquad \cot\alpha=\frac{x_0}{y_0}\ (y_0
 
 ### Khi nào tan và cot không xác định?
 
+Tang và côtang là phép chia, mà phép chia thì sợ nhất mẫu bằng $0$. Ta xem khi nào chuyện đó xảy ra.
+
 - $x_0=0$ đúng khi $M=(0; 1)$, tức là $\alpha=90^\circ$. Vậy $\tan90^\circ$ không xác định.
 - $y_0=0$ đúng khi $M=(1; 0)$ hoặc $M=(-1; 0)$, tức là $\alpha=0^\circ$ hoặc $\alpha=180^\circ$. Vậy $\cot0^\circ$ và $\cot180^\circ$ không xác định.
 
 ### Dấu của các giá trị lượng giác
 
-Vì $M$ nằm trên nửa đường tròn phía trên nên $\sin\alpha\geq0$ với mọi $\alpha$. Dấu của $\cos\alpha=x_0$ phụ thuộc vào việc $M$ nằm bên phải hay bên trái trục tung:
+Dấu của các giá trị đọc thẳng được trên hình, không cần học thuộc. Vì $M$ luôn nằm trên nửa đường tròn phía trên nên $\sin\alpha\geq0$ với mọi $\alpha$. Dấu của $\cos\alpha=x_0$ phụ thuộc vào việc $M$ nằm bên phải hay bên trái trục tung:
 
 | góc | $\sin\alpha$ | $\cos\alpha$ | $\tan\alpha$ | $\cot\alpha$ |
 |---|---|---|---|---|
@@ -67,7 +69,7 @@ Vì $M$ nằm trên nửa đường tròn phía trên nên $\sin\alpha\geq0$ v�
 
 ## Hai góc bù nhau
 
-Quay lại thanh chắn: góc $150^\circ$ và góc $30^\circ$ có tổng $180^\circ$. Hai điểm $M$ (góc $\alpha$) và $M'$ (góc $180^\circ-\alpha$) đối xứng với nhau qua trục tung.
+Bây giờ quay lại thanh chắn. Để ý rằng $150^\circ$ và $30^\circ$ cộng lại đúng bằng $180^\circ$: hai góc bù nhau. Thanh nghiêng $30^\circ$ về bên phải và thanh nghiêng $30^\circ$ về bên trái (tức là $150^\circ$) giống như hai hình soi gương. Tổng quát, hai điểm $M$ (góc $\alpha$) và $M'$ (góc $180^\circ-\alpha$) đối xứng với nhau qua trục tung.
 
 :::graph Hai góc bù nhau cho hai điểm đối xứng qua trục tung
 alt: Nửa đường tròn đơn vị với hai điểm M ứng với góc 60 độ và M' ứng với góc 120 độ, cùng độ cao và đối xứng nhau qua trục tung.
@@ -84,7 +86,7 @@ label: (0.3, 0.12) "α"
 label: (-0.45, 0.12) "180°−α"
 :::
 
-Hai điểm đối xứng qua trục tung có cùng tung độ và hoành độ đối nhau. Từ đó có quy tắc cho mọi $\alpha$.
+Soi gương qua trục tung thì độ cao giữ nguyên, chỉ có trái phải đổi chỗ: hai điểm có cùng tung độ và hoành độ đối nhau. Viết thành công thức, ta có quy tắc cho mọi $\alpha$.
 
 :::theorem Hai góc bù nhau
 Với $0^\circ\leq\alpha\leq180^\circ$:
@@ -98,7 +100,7 @@ $$\tan(180^\circ-\alpha)=-\tan\alpha,\qquad \cot(180^\circ-\alpha)=-\cot\alpha$$
 
 Vậy ở góc $150^\circ$, đầu thanh chắn vẫn cao $0{,}5$ m nhưng nằm **bên trái** $O$ khoảng $0{,}87$ m, vì $\cos150^\circ=-\cos30^\circ\approx-0{,}87$. Với góc nhọn, bạn còn biết quy tắc hai góc phụ nhau: $\sin(90^\circ-\alpha)=\cos\alpha$ và $\cos(90^\circ-\alpha)=\sin\alpha$.
 
-Ví dụ đầu tiên chỉ dùng quy tắc góc bù, không cần biết giá trị cụ thể nào.
+Quy tắc góc bù mạnh đến mức có khi không cần biết giá trị cụ thể nào mà vẫn tính được. Ví dụ sau cho thấy điều đó.
 
 :::example Rút gọn nhờ góc bù nhau
 Tính $A=\sin100^\circ-\sin80^\circ+\cos100^\circ+\cos80^\circ$.
@@ -114,7 +116,7 @@ Vậy $A=0$.
 
 ## Bảng giá trị lượng giác của các góc đặc biệt
 
-Đặt $M$ ở các góc $30^\circ$, $45^\circ$, $60^\circ$ (và các điểm đối xứng ở $150^\circ$, $135^\circ$, $120^\circ$) ta được bảng dưới đây. Bạn chỉ cần nhớ nửa đầu; nửa sau suy ra từ quy tắc góc bù nhau.
+Đặt $M$ ở các góc $30^\circ$, $45^\circ$, $60^\circ$ (và các điểm đối xứng ở $150^\circ$, $135^\circ$, $120^\circ$) ta được bảng dưới đây. Đừng lo nếu thấy bảng nhiều số: bạn chỉ cần nhớ nửa đầu, mà nửa đầu chính là những giá trị đã học ở lớp 9. Nửa sau tự suy ra từ quy tắc góc bù nhau.
 
 :::graph Các điểm của nửa đường tròn ở những góc đặc biệt
 alt: Nửa đường tròn đơn vị với các điểm được đánh dấu ở các góc 30, 45, 60, 90, 120, 135 và 150 độ.
@@ -138,7 +140,7 @@ point: (0, 1) "90°" above
 | $\tan\alpha$ | $0$ | $\frac{\sqrt3}{3}$ | $1$ | $\sqrt3$ | không xác định | $-\sqrt3$ | $-1$ | $-\frac{\sqrt3}{3}$ | $0$ |
 | $\cot\alpha$ | không xác định | $\sqrt3$ | $1$ | $\frac{\sqrt3}{3}$ | $0$ | $-\frac{\sqrt3}{3}$ | $-1$ | $-\sqrt3$ | không xác định |
 
-Bây giờ ta dùng bảng và quy tắc góc bù để tìm cả bốn giá trị của một góc tù.
+Ta thử dùng bảng và quy tắc góc bù để tìm cả bốn giá trị của một góc tù. Bạn sẽ thấy chỉ cần nhớ góc $45^\circ$ là đủ.
 
 :::example Các giá trị tại 135°
 Tìm $\sin135^\circ$, $\cos135^\circ$, $\tan135^\circ$, $\cot135^\circ$.
@@ -154,7 +156,7 @@ Vậy $\sin135^\circ=\dfrac{\sqrt2}{2}$, $\cos135^\circ=-\dfrac{\sqrt2}{2}$, $\t
 
 ## Các hệ thức cơ bản
 
-**Vì sao $\sin^2\alpha+\cos^2\alpha=1$?** Điểm $M(x_0; y_0)$ nằm trên đường tròn tâm $O$ bán kính $1$, nên $x_0^2+y_0^2=OM^2=1$, tức là $\cos^2\alpha+\sin^2\alpha=1$. Chia hai vế cho $\cos^2\alpha$ hoặc $\sin^2\alpha$ ta được thêm hai hệ thức nữa.
+**Vì sao $\sin^2\alpha+\cos^2\alpha=1$?** Lí do nằm ngay trong hình. Điểm $M(x_0; y_0)$ nằm trên đường tròn tâm $O$ bán kính $1$, nên $x_0^2+y_0^2=OM^2=1$, tức là $\cos^2\alpha+\sin^2\alpha=1$. Chia hai vế cho $\cos^2\alpha$ hoặc $\sin^2\alpha$ ta được thêm hai hệ thức nữa.
 
 :::theorem Các hệ thức cơ bản
 $$\sin^2\alpha+\cos^2\alpha=1$$
@@ -166,7 +168,7 @@ $$\tan\alpha=\frac{\sin\alpha}{\cos\alpha},\qquad \cot\alpha=\frac{\cos\alpha}{\
 (hệ thức cuối khi $\alpha\neq0^\circ,90^\circ,180^\circ$).
 :::
 
-Khi biết một giá trị, ta tìm bình phương của giá trị cần tính bằng một hệ thức, rồi **chọn dấu** theo góc nhọn hay góc tù. Chỗ chọn dấu là chỗ dễ sai nhất: từ $\cos^2\alpha=\dfrac{16}{25}$ có hai khả năng $\cos\alpha=\dfrac45$ hoặc $\cos\alpha=-\dfrac45$.
+Các hệ thức này giúp ta biết một giá trị là suy ra các giá trị còn lại. Cách làm: dùng hệ thức tìm bình phương của giá trị cần tính, rồi **chọn dấu** theo góc nhọn hay góc tù. Chỗ chọn dấu là chỗ nhiều bạn hay vấp nhất, vì khai căn xong ta dễ quên rằng có hai khả năng: từ $\cos^2\alpha=\dfrac{16}{25}$ có hai khả năng $\cos\alpha=\dfrac45$ hoặc $\cos\alpha=-\dfrac45$.
 
 :::example Biết sin, góc tù
 Cho $\sin\alpha=\dfrac35$ và $90^\circ<\alpha<180^\circ$. Tính $\cos\alpha$, $\tan\alpha$, $\cot\alpha$.
@@ -182,7 +184,7 @@ $$\cos\alpha=-\frac45,\qquad \tan\alpha=\frac{3/5}{-4/5}=-\frac34,\qquad \cot\al
 Vậy $\cos\alpha=-\dfrac45$, $\tan\alpha=-\dfrac34$, $\cot\alpha=-\dfrac43$.
 :::
 
-Khi đề cho tang, dấu của tang cho biết luôn góc nhọn hay tù.
+Có khi đề không nói góc nhọn hay tù. Đừng vội, nếu đề cho tang thì chính dấu của tang đã tiết lộ điều đó.
 
 :::example Biết tang
 Cho $\tan\alpha=-2$. Tính $\cos\alpha$, $\sin\alpha$, $\cot\alpha$.
@@ -201,6 +203,7 @@ Vậy $\cos\alpha=-\dfrac{\sqrt5}{5}$, $\sin\alpha=\dfrac{2\sqrt5}{5}$, $\cot\al
 :::
 
 :::warning Những lỗi thường gặp
+Khi phân vân, bạn cứ vẽ nhanh nửa đường tròn và chấm điểm $M$: hình sẽ cho biết dấu đúng.
 - **Sai:** $\cos120^\circ=\dfrac12$. **Vì sao sai:** $120^\circ$ là góc tù, điểm $M$ nằm bên trái trục tung nên hoành độ âm. **Đúng:** $\cos120^\circ=-\cos60^\circ=-\dfrac12$.
 - **Sai:** từ $\cos^2\alpha=\dfrac{16}{25}$ viết ngay $\cos\alpha=\dfrac45$. **Vì sao sai:** $\sqrt{\cos^2\alpha}=|\cos\alpha|$, còn hai khả năng về dấu. **Đúng:** xét góc nhọn hay tù rồi mới chọn dấu.
 - **Sai:** viết $\tan90^\circ=\infty$ hoặc $\cot0^\circ=0$. **Vì sao sai:** mẫu số $x_0$ (hoặc $y_0$) bằng $0$, phép chia không thực hiện được. **Đúng:** các giá trị này không xác định.
@@ -208,14 +211,14 @@ Vậy $\cos\alpha=-\dfrac{\sqrt5}{5}$, $\sin\alpha=\dfrac{2\sqrt5}{5}$, $\cot\al
 
 ## Dùng máy tính cầm tay
 
-Phím bấm khác nhau đôi chút giữa các loại máy, nhưng ý tưởng thì giống nhau.
+Với những góc không đặc biệt như $37^\circ$, ta nhờ máy tính. Phím bấm khác nhau đôi chút giữa các loại máy, nhưng ý tưởng thì giống nhau.
 
 - Trước hết đặt máy ở chế độ **độ** (màn hình hiện D hoặc DEG). Ở chế độ radian, kết quả sẽ sai.
 - Với $\sin$, $\cos$, $\tan$: bấm phím hàm, nhập góc rồi bấm dấu bằng.
 - Máy không có phím $\cot$: dùng $\cot\alpha=\dfrac{1}{\tan\alpha}$.
 - Để tìm góc khi biết giá trị, bấm SHIFT (hoặc 2nd) rồi phím hàm ($\sin^{-1}$, $\cos^{-1}$, $\tan^{-1}$).
 
-Ví dụ cuối cho thấy một cái bẫy: biết sin thì có thể có **hai** góc.
+Máy tính rất tiện, nhưng nó không nghĩ thay ta. Ví dụ cuối cho thấy một cái bẫy: biết sin thì có thể có **hai** góc, còn máy chỉ báo một.
 
 :::example Làm việc với máy tính
 a) Tìm $\sin37^\circ$ (làm tròn đến $4$ chữ số thập phân).
@@ -258,9 +261,11 @@ Vậy $\alpha\approx53{,}13^\circ$ hoặc $\alpha\approx126{,}87^\circ$.
 - $\sin^2\alpha+\cos^2\alpha=1$, $1+\tan^2\alpha=\dfrac1{\cos^2\alpha}$, $1+\cot^2\alpha=\dfrac1{\sin^2\alpha}$. Khai căn xong phải chọn dấu.
 - Máy tính: chế độ độ; $\sin^{-1}$ chỉ cho góc nhọn, nhớ thêm góc bù.
 
+Trở lại thanh chắn ở đầu bài: quay đến $150^\circ$, đầu thanh vẫn cao $0{,}5$ m, cách $O$ khoảng $0{,}87$ m nhưng ở bên trái, vì $\cos150^\circ<0$. Bạn chỉ cần nhớ một hình: điểm $M$ trên nửa đường tròn, hoành độ là côsin, tung độ là sin. Mọi điều khác trong bài đều đọc ra từ hình ấy.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có nhắc lại kiến thức cần dùng và gợi ý các bước. Bạn cứ tự làm trước; gặp góc tù thì vẽ phác nửa đường tròn để biết dấu trước khi tính. Sau đó hãy bấm xem lời giải để so.
 
 :::exercise
 Dùng quy tắc góc bù nhau để tìm $\sin150^\circ$, $\cos150^\circ$, $\tan150^\circ$, $\cot150^\circ$.

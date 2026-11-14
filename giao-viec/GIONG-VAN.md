@@ -39,8 +39,8 @@ Quyết định 12/11/2026: chủ dự án muốn toàn bộ phần lời (mở 
 | 21 | g10/statements | xong 13/11/2026 |
 | 22 | g10/systems-linear-inequalities | xong 14/11/2026 |
 | 23 | g10/triangle-relations | xong 14/11/2026 |
-| 24 | g10/trig-ratios-0-180 |  |
-| 25 | g10/vector-basics |  |
+| 24 | g10/trig-ratios-0-180 | xong 14/11/2026 |
+| 25 | g10/vector-basics | xong 14/11/2026 |
 | 26 | g10/vector-sum-difference |  |
 | 27 | g10/vectors-in-coordinates |  |
 | 28 | g9/acute-angle-trig-ratios |  |

@@ -13,13 +13,13 @@ minutes: 25
 
 A barrier arm $1$ m long turns about a pivot $O$ at road level. When the arm makes $30^\circ$ with the road, its tip is $0.5$ m high and about $0.87$ m to the right of $O$. If the arm keeps turning until it reaches $150^\circ$, where is the tip: how high, on which side of $O$, and how far?
 
-In a right-angled triangle, sine and cosine are defined only for acute angles, so we cannot yet answer for $150^\circ$. This lesson extends them to every angle from $0^\circ$ to $180^\circ$.
+For $30^\circ$ we can draw a right-angled triangle and work it out at once. But $150^\circ$ does not fit inside any right-angled triangle, because the sine and cosine you met in grade 9 are only for acute angles. This lesson extends them to every angle from $0^\circ$ to $180^\circ$. The extension is very natural, and it answers the barrier question too: which side the tip is on, and how high.
 
 ## The unit semicircle
 
-Draw the half of the circle above the $x$-axis with centre $O(0, 0)$ and radius $1$. This is the **unit semicircle**: its points $(x, y)$ satisfy $x^2+y^2=1$ and $y\geq0$.
+The idea is to replace the right-angled triangle with a shape that never "runs out of room" as the angle grows: a semicircle. Draw the half of the circle above the $x$-axis with centre $O(0, 0)$ and radius $1$. This is the **unit semicircle**: its points $(x, y)$ satisfy $x^2+y^2=1$ and $y\geq0$.
 
-Take an angle $\alpha$ from $0^\circ$ to $180^\circ$. Start on the ray $Ox$ and turn anticlockwise through $\alpha$. This ray meets the semicircle at exactly one point $M(x_0, y_0)$.
+Take an angle $\alpha$ from $0^\circ$ to $180^\circ$. Think of the barrier arm from the start: it begins lying along the ray $Ox$ and turns anticlockwise through $\alpha$. This ray meets the semicircle at exactly one point $M(x_0, y_0)$.
 
 :::graph The point $M$ for the angle $\alpha$
 alt: The unit semicircle with centre O. A point M on the semicircle is joined to O, the angle alpha between the x-axis and OM is marked, and the foot H of the perpendicular from M to the x-axis is shown.
@@ -37,11 +37,11 @@ label: (0.17, 0.08) "α"
 
 ### Exploring with an acute angle
 
-When $\alpha$ is acute, triangle $OHM$ has a right angle at $H$ and hypotenuse $OM=1$. By the definitions in a right-angled triangle:
+We start from what we know. When $\alpha$ is acute, triangle $OHM$ has a right angle at $H$ and hypotenuse $OM=1$. Because the hypotenuse is $1$, the ratios become very simple:
 
 $$\cos\alpha=\frac{OH}{OM}=OH=x_0,\qquad \sin\alpha=\frac{HM}{OM}=HM=y_0.$$
 
-For example, with $\alpha=30^\circ$: $M\left(\dfrac{\sqrt3}{2}, \dfrac12\right)\approx(0.87, 0.5)$, exactly the position of the barrier tip at the start. So for acute angles, **the $x$-coordinate of $M$ is the cosine and the $y$-coordinate is the sine**. We take this as the definition for **every** angle $\alpha$ in $[0^\circ, 180^\circ]$.
+For example, with $\alpha=30^\circ$: $M\left(\dfrac{\sqrt3}{2}, \dfrac12\right)\approx(0.87, 0.5)$, exactly the position of the barrier tip at the start. So for acute angles, **the $x$-coordinate of $M$ is the cosine and the $y$-coordinate is the sine**. This small discovery is the key: every angle has an $x$-coordinate and a $y$-coordinate, obtuse ones included. So we take exactly this as the definition for **every** angle $\alpha$ in $[0^\circ, 180^\circ]$. For acute angles the new definition gives the same results as the old one, so nothing you learned is thrown away.
 
 :::definition Trigonometric ratios of an angle from 0° to 180°
 Let $M(x_0, y_0)$ be the point of the unit semicircle with $\angle xOM=\alpha$. Then
@@ -53,12 +53,14 @@ $$\tan\alpha=\frac{y_0}{x_0}\ (x_0\neq0),\qquad \cot\alpha=\frac{x_0}{y_0}\ (y_0
 
 ### When are tan and cot undefined?
 
+Tangent and cotangent are divisions, and a division cannot have a zero denominator. Let us see when that happens.
+
 - $x_0=0$ exactly when $M=(0, 1)$, that is, $\alpha=90^\circ$. So $\tan90^\circ$ is undefined.
 - $y_0=0$ exactly when $M=(1, 0)$ or $M=(-1, 0)$, that is, $\alpha=0^\circ$ or $\alpha=180^\circ$. So $\cot0^\circ$ and $\cot180^\circ$ are undefined.
 
 ### Signs of the ratios
 
-Since $M$ is on the upper semicircle, $\sin\alpha\geq0$ for every $\alpha$. The sign of $\cos\alpha=x_0$ depends on whether $M$ is to the right or to the left of the $y$-axis:
+The signs can be read straight off the picture, with nothing to learn by heart. Since $M$ is always on the upper semicircle, $\sin\alpha\geq0$ for every $\alpha$. The sign of $\cos\alpha=x_0$ depends on whether $M$ is to the right or to the left of the $y$-axis:
 
 | angle | $\sin\alpha$ | $\cos\alpha$ | $\tan\alpha$ | $\cot\alpha$ |
 |---|---|---|---|---|
@@ -67,7 +69,7 @@ Since $M$ is on the upper semicircle, $\sin\alpha\geq0$ for every $\alpha$. The 
 
 ## Supplementary angles
 
-Back to the barrier: the angles $150^\circ$ and $30^\circ$ add up to $180^\circ$. The points $M$ (angle $\alpha$) and $M'$ (angle $180^\circ-\alpha$) are mirror images in the $y$-axis.
+Now back to the barrier. Notice that $150^\circ$ and $30^\circ$ add up to exactly $180^\circ$: they are supplementary. An arm tilted $30^\circ$ to the right and an arm tilted $30^\circ$ to the left (that is, at $150^\circ$) are like mirror images. In general, the points $M$ (angle $\alpha$) and $M'$ (angle $180^\circ-\alpha$) are mirror images in the $y$-axis.
 
 :::graph Supplementary angles give points symmetric in the y-axis
 alt: The unit semicircle with the point M for 60 degrees and the point M' for 120 degrees, at the same height and symmetric in the y-axis.
@@ -84,7 +86,7 @@ label: (0.3, 0.12) "α"
 label: (-0.45, 0.12) "180°−α"
 :::
 
-Points symmetric in the $y$-axis have the same $y$-coordinate and opposite $x$-coordinates. This gives a rule for every $\alpha$.
+A mirror in the $y$-axis keeps the height and only swaps left and right: the two points have the same $y$-coordinate and opposite $x$-coordinates. Written as formulas, this gives a rule for every $\alpha$.
 
 :::theorem Supplementary angles
 For $0^\circ\leq\alpha\leq180^\circ$:
@@ -98,7 +100,7 @@ $$\tan(180^\circ-\alpha)=-\tan\alpha,\qquad \cot(180^\circ-\alpha)=-\cot\alpha$$
 
 So at $150^\circ$ the barrier tip is still $0.5$ m high, but it is about $0.87$ m to the **left** of $O$, because $\cos150^\circ=-\cos30^\circ\approx-0.87$. For acute angles you also know the complementary-angle rule: $\sin(90^\circ-\alpha)=\cos\alpha$ and $\cos(90^\circ-\alpha)=\sin\alpha$.
 
-Our first example uses only the supplementary rule, without knowing any particular value.
+The supplementary rule is so strong that sometimes we can compute without knowing a single value. The next example shows this.
 
 :::example Simplifying with supplementary angles
 Compute $A=\sin100^\circ-\sin80^\circ+\cos100^\circ+\cos80^\circ$.
@@ -114,7 +116,7 @@ So $A=0$.
 
 ## Table of special values
 
-Putting $M$ at $30^\circ$, $45^\circ$, $60^\circ$ (and at the mirror points $150^\circ$, $135^\circ$, $120^\circ$) gives the table below. You only need to remember the first half; the second half follows from the supplementary rule.
+Putting $M$ at $30^\circ$, $45^\circ$, $60^\circ$ (and at the mirror points $150^\circ$, $135^\circ$, $120^\circ$) gives the table below. Do not worry about all those numbers: you only need to remember the first half, and those are the values you already learned in grade 9. The second half follows from the supplementary rule.
 
 :::graph Points of the semicircle at special angles
 alt: The unit semicircle with points marked at 30, 45, 60, 90, 120, 135 and 150 degrees.
@@ -138,7 +140,7 @@ point: (0, 1) "90°" above
 | $\tan\alpha$ | $0$ | $\frac{\sqrt3}{3}$ | $1$ | $\sqrt3$ | undefined | $-\sqrt3$ | $-1$ | $-\frac{\sqrt3}{3}$ | $0$ |
 | $\cot\alpha$ | undefined | $\sqrt3$ | $1$ | $\frac{\sqrt3}{3}$ | $0$ | $-\frac{\sqrt3}{3}$ | $-1$ | $-\sqrt3$ | undefined |
 
-Now we use the table and the supplementary rule to find all four values for an obtuse angle.
+Let us use the table and the supplementary rule to find all four values for an obtuse angle. You will see that knowing $45^\circ$ is enough.
 
 :::example The values at 135°
 Find $\sin135^\circ$, $\cos135^\circ$, $\tan135^\circ$, $\cot135^\circ$.
@@ -154,7 +156,7 @@ So $\sin135^\circ=\dfrac{\sqrt2}{2}$, $\cos135^\circ=-\dfrac{\sqrt2}{2}$, $\tan1
 
 ## Basic identities
 
-**Why is $\sin^2\alpha+\cos^2\alpha=1$?** The point $M(x_0, y_0)$ lies on the circle with centre $O$ and radius $1$, so $x_0^2+y_0^2=OM^2=1$, that is, $\cos^2\alpha+\sin^2\alpha=1$. Dividing both sides by $\cos^2\alpha$ or by $\sin^2\alpha$ gives two more identities.
+**Why is $\sin^2\alpha+\cos^2\alpha=1$?** The reason is right there in the picture. The point $M(x_0, y_0)$ lies on the circle with centre $O$ and radius $1$, so $x_0^2+y_0^2=OM^2=1$, that is, $\cos^2\alpha+\sin^2\alpha=1$. Dividing both sides by $\cos^2\alpha$ or by $\sin^2\alpha$ gives two more identities.
 
 :::theorem Basic identities
 $$\sin^2\alpha+\cos^2\alpha=1$$
@@ -166,7 +168,7 @@ $$\tan\alpha=\frac{\sin\alpha}{\cos\alpha},\qquad \cot\alpha=\frac{\cos\alpha}{\
 (the last one when $\alpha\neq0^\circ,90^\circ,180^\circ$).
 :::
 
-When one value is known, we find the square of the value we want with an identity, then **choose the sign** according to whether the angle is acute or obtuse. Choosing the sign is where most mistakes happen: $\cos^2\alpha=\dfrac{16}{25}$ allows both $\cos\alpha=\dfrac45$ and $\cos\alpha=-\dfrac45$.
+These identities let us find all the other values from one known value. The method: use an identity to find the square of the value we want, then **choose the sign** according to whether the angle is acute or obtuse. Choosing the sign is where many students slip, because after a square root it is easy to forget there are two possibilities: $\cos^2\alpha=\dfrac{16}{25}$ allows both $\cos\alpha=\dfrac45$ and $\cos\alpha=-\dfrac45$.
 
 :::example Given the sine of an obtuse angle
 Given $\sin\alpha=\dfrac35$ and $90^\circ<\alpha<180^\circ$, find $\cos\alpha$, $\tan\alpha$, $\cot\alpha$.
@@ -182,7 +184,7 @@ $$\cos\alpha=-\frac45,\qquad \tan\alpha=\frac{3/5}{-4/5}=-\frac34,\qquad \cot\al
 So $\cos\alpha=-\dfrac45$, $\tan\alpha=-\dfrac34$, $\cot\alpha=-\dfrac43$.
 :::
 
-When the tangent is given, its sign tells us at once whether the angle is acute or obtuse.
+Sometimes the problem does not say whether the angle is acute or obtuse. No need to worry: if the tangent is given, its sign gives that away.
 
 :::example Given the tangent
 Given $\tan\alpha=-2$, find $\cos\alpha$, $\sin\alpha$, $\cot\alpha$.
@@ -201,6 +203,7 @@ So $\cos\alpha=-\dfrac{\sqrt5}{5}$, $\sin\alpha=\dfrac{2\sqrt5}{5}$, $\cot\alpha
 :::
 
 :::warning Common mistakes
+When in doubt, sketch the semicircle quickly and mark the point $M$: the picture will show you the right sign.
 - **Wrong:** $\cos120^\circ=\dfrac12$. **Why it is wrong:** $120^\circ$ is obtuse, so $M$ is left of the $y$-axis and its $x$-coordinate is negative. **Right:** $\cos120^\circ=-\cos60^\circ=-\dfrac12$.
 - **Wrong:** from $\cos^2\alpha=\dfrac{16}{25}$, writing $\cos\alpha=\dfrac45$ straight away. **Why it is wrong:** $\sqrt{\cos^2\alpha}=|\cos\alpha|$, and both signs are still possible. **Right:** decide whether the angle is acute or obtuse, then choose the sign.
 - **Wrong:** writing $\tan90^\circ=\infty$ or $\cot0^\circ=0$. **Why it is wrong:** the denominator $x_0$ (or $y_0$) is $0$, so the division cannot be done. **Right:** these values are undefined.
@@ -208,14 +211,14 @@ So $\cos\alpha=-\dfrac{\sqrt5}{5}$, $\sin\alpha=\dfrac{2\sqrt5}{5}$, $\cot\alpha
 
 ## Using a scientific calculator
 
-The keys differ a little between models, but the idea is the same.
+For angles that are not special, such as $37^\circ$, we use a calculator. The keys differ a little between models, but the idea is the same.
 
 - First set the calculator to **degree** mode (the screen shows D or DEG). In radian mode the results are wrong.
 - For $\sin$, $\cos$, $\tan$: press the function key, enter the angle, then press equals.
 - There is no $\cot$ key: use $\cot\alpha=\dfrac{1}{\tan\alpha}$.
 - To find an angle from a value, press SHIFT (or 2nd) and then the function key ($\sin^{-1}$, $\cos^{-1}$, $\tan^{-1}$).
 
-The last example shows a trap: a given sine can come from **two** angles.
+A calculator is handy, but it does not think for us. The last example shows a trap: a given sine can come from **two** angles, while the calculator reports only one.
 
 :::example Working with a calculator
 a) Find $\sin37^\circ$ (to $4$ decimal places).
@@ -258,9 +261,11 @@ So $\alpha\approx53.13^\circ$ or $\alpha\approx126.87^\circ$.
 - $\sin^2\alpha+\cos^2\alpha=1$, $1+\tan^2\alpha=\dfrac1{\cos^2\alpha}$, $1+\cot^2\alpha=\dfrac1{\sin^2\alpha}$. After taking a square root, choose the sign.
 - Calculator: degree mode; $\sin^{-1}$ gives only the acute angle, so remember the supplementary one.
 
+Back to the barrier from the start: at $150^\circ$ the tip is still $0.5$ m high and about $0.87$ m from $O$, but on the left, because $\cos150^\circ<0$. You only need to remember one picture: the point $M$ on the semicircle, whose $x$-coordinate is the cosine and $y$-coordinate the sine. Everything else in the lesson can be read from that picture.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise reminds you what you need and gives some steps to start. Have a go yourself first; with an obtuse angle, sketch the semicircle to find the sign before you calculate. Then open the solution and compare.
 
 :::exercise
 Use the supplementary rule to find $\sin150^\circ$, $\cos150^\circ$, $\tan150^\circ$, $\cot150^\circ$.
