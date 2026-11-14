@@ -13,13 +13,13 @@ minutes: 30
 
 Câu lạc bộ thủ công của trường làm vòng tay và dây chuyền để bán gây quỹ. Mỗi ngày câu lạc bộ có $10$ đơn vị hạt cườm và $8$ giờ công. Một vòng tay cần $2$ đơn vị hạt cườm và $1$ giờ công; một dây chuyền cần $1$ đơn vị hạt cườm và $2$ giờ công. Mỗi vòng tay lãi $30$ nghìn đồng, mỗi dây chuyền lãi $40$ nghìn đồng. Nên làm bao nhiêu chiếc mỗi loại để lãi nhiều nhất?
 
-Ở đây có **hai** giới hạn phải được thoả mãn **cùng một lúc**. Chúng tạo thành một hệ bất phương trình.
+Nếu chỉ lo hạt cườm thì dễ, chỉ lo giờ công cũng dễ. Cái khó là phải lo **cả hai** giới hạn **cùng một lúc**: làm nhiều vòng tay thì tốn hạt cườm, làm nhiều dây chuyền thì tốn giờ công. Khi nhiều điều kiện phải đúng cùng nhau như thế, ta có một hệ bất phương trình. Học xong bài này, bạn sẽ tìm ra phương án lãi nhất mà không phải đoán mò.
 
 ## Hệ bất phương trình và miền nghiệm
 
 ### Thử vài phương án
 
-Gọi $x$ là số vòng tay, $y$ là số dây chuyền làm trong một ngày. Hạt cườm dùng hết $2x+y$ đơn vị, giờ công dùng hết $x+2y$ giờ. Ta thử vài phương án:
+Trước khi học quy tắc nào, ta cứ thử như một người trong câu lạc bộ sẽ làm. Gọi $x$ là số vòng tay, $y$ là số dây chuyền làm trong một ngày. Hạt cườm dùng hết $2x+y$ đơn vị, giờ công dùng hết $x+2y$ giờ. Thử vài phương án xem sao:
 
 | Phương án $(x; y)$ | Hạt cườm $2x+y\le 10$? | Giờ công $x+2y\le 8$? | Làm được? |
 |---|---|---|---|
@@ -28,7 +28,7 @@ Gọi $x$ là số vòng tay, $y$ là số dây chuyền làm trong một ngày.
 | $(2; 3)$ | $7$: có | $8$: có | có |
 | $(3; 3)$ | $9$: có | $9$: không | không |
 
-Phương án $(5; 1)$ đủ giờ công nhưng thiếu hạt cườm; phương án $(3; 3)$ thì ngược lại. Một phương án chỉ làm được khi nó thoả mãn **tất cả** các điều kiện.
+Bạn để ý hai phương án bị loại: $(5; 1)$ đủ giờ công nhưng thiếu hạt cườm, còn $(3; 3)$ thì ngược lại. Hụt một điều kiện thôi là phương án đã không làm được. Muốn làm được, nó phải thoả mãn **tất cả** các điều kiện. Đó chính là ý của chữ "hệ".
 
 :::definition Hệ bất phương trình bậc nhất hai ẩn
 **Hệ bất phương trình bậc nhất hai ẩn** gồm hai hay nhiều bất phương trình bậc nhất với cùng hai ẩn $x, y$.
@@ -36,9 +36,9 @@ Phương án $(5; 1)$ đủ giờ công nhưng thiếu hạt cườm; phương �
 Một **nghiệm** của hệ là cặp số $(x_0; y_0)$ thoả mãn **mọi** bất phương trình của hệ. Tập hợp các điểm có toạ độ là nghiệm của hệ là **miền nghiệm** của hệ.
 :::
 
-Mỗi bất phương trình cho một nửa mặt phẳng (xem bài [Bất phương trình bậc nhất hai ẩn](lesson:linear-inequality-two-variables)). Một điểm thuộc miền nghiệm của hệ khi và chỉ khi nó nằm trong **mọi** nửa mặt phẳng đó. Vậy miền nghiệm của hệ là **giao** của các miền nghiệm của từng bất phương trình.
+Bạn đã biết mỗi bất phương trình cho một nửa mặt phẳng (xem lại bài [Bất phương trình bậc nhất hai ẩn](lesson:linear-inequality-two-variables) nếu cần). Một điểm thuộc miền nghiệm của hệ khi nó nằm trong **mọi** nửa mặt phẳng ấy, không sót cái nào. Nói gọn lại: miền nghiệm của hệ là **giao** của các miền nghiệm của từng bất phương trình.
 
-Miền nghiệm thường là một đa giác. Các góc của nó gọi là **đỉnh**; mỗi đỉnh là giao điểm của hai đường thẳng biên. Trước khi vẽ, ta luyện việc kiểm tra một cặp số.
+Phần chung ấy thường có dạng một đa giác. Các góc của nó gọi là **đỉnh**; mỗi đỉnh là chỗ hai đường thẳng biên cắt nhau. Lát nữa ta sẽ thấy các đỉnh quan trọng thế nào. Còn bây giờ, ta tập việc nhỏ nhất trước: kiểm tra một cặp số có là nghiệm hay không.
 
 :::example Kiểm tra nghiệm của hệ
 Cặp nào trong $(2; 1)$, $(4; 1)$, $(0; 5)$, $(2; 3)$ là nghiệm của hệ
@@ -51,7 +51,7 @@ $$\begin{aligned} (2; 1)&:\ 2-1=1\le 2,\quad 2+2=4\le 8 &&\text{(cả hai đúng
 Vậy $(2; 1)$ và $(2; 3)$ là nghiệm của hệ; $(4; 1)$ và $(0; 5)$ không là nghiệm.
 :::
 
-Bây giờ ta vẽ toàn bộ miền nghiệm của một hệ có bốn bất phương trình.
+Kiểm tra từng điểm thì được, nhưng miền nghiệm có vô số điểm. Muốn thấy hết, ta vẽ nó ra. Ví dụ sau có bốn bất phương trình, ta xử lí lần lượt từng cái.
 
 :::example Vẽ miền nghiệm và tìm các đỉnh
 Biểu diễn miền nghiệm của hệ
@@ -84,7 +84,7 @@ point: (3, 1) "(3; 1)" right
 point: (0, 4) "(0; 4)" left
 :::
 
-Ở ví dụ trên các đỉnh tìm được ngay. Khi hai đường biên đều xiên, ta phải giải một hệ hai phương trình để tìm đỉnh.
+Ở ví dụ trên, các đỉnh gần như đọc ngay được trên hình vì nhiều đường biên nằm dọc hoặc ngang. Khi hai đường biên đều xiên thì nhìn hình khó đoán chính xác, nên ta giải một hệ hai phương trình cho chắc.
 
 :::example Đỉnh là nghiệm của hệ hai phương trình
 Tìm các đỉnh của miền nghiệm của hệ
@@ -116,22 +116,23 @@ point: (2, 3) "(2; 3)" above
 :::
 
 :::warning Những lỗi thường gặp
-- **Sai:** tô riêng từng bất phương trình rồi lấy mọi chỗ có tô màu. **Vì sao sai:** đó là *hợp*; điểm $(0; 5)$ ở Ví dụ 1 thoả mãn bất phương trình thứ nhất nhưng không là nghiệm của hệ. **Đúng:** chỉ lấy phần chung (*giao*) của tất cả các nửa mặt phẳng.
-- **Sai:** quên các điều kiện $x\ge 0$, $y\ge 0$ trong bài toán thực tế. **Vì sao sai:** không thể làm ra $-2$ chiếc vòng tay. **Đúng:** luôn thêm các điều kiện tự nhiên của ẩn.
-- **Sai:** coi mọi giao điểm của hai đường biên là đỉnh. **Vì sao sai:** ở Ví dụ 2, đường $x+y=4$ cắt trục hoành tại $(4; 0)$, nhưng $4\le 3$ sai nên $(4; 0)$ nằm ngoài miền. **Đúng:** kiểm tra giao điểm thoả mãn mọi bất phương trình còn lại.
+Ba chỗ dưới đây nhiều bạn hay vấp, nhất là khi làm vội.
+- **Sai:** tô riêng từng bất phương trình rồi lấy mọi chỗ có tô màu. **Vì sao sai:** làm thế là lấy *hợp*, không phải giao; điểm $(0; 5)$ ở Ví dụ 1 thoả mãn bất phương trình thứ nhất nhưng không là nghiệm của hệ. **Đúng:** chỉ lấy phần chung (*giao*) của tất cả các nửa mặt phẳng.
+- **Sai:** quên các điều kiện $x\ge 0$, $y\ge 0$ trong bài toán thực tế. **Vì sao sai:** chẳng ai làm ra được $-2$ chiếc vòng tay. **Đúng:** luôn thêm các điều kiện tự nhiên của ẩn, dù đề không viết ra.
+- **Sai:** coi mọi giao điểm của hai đường biên là đỉnh. **Vì sao sai:** ở Ví dụ 2, đường $x+y=4$ cắt trục hoành tại $(4; 0)$, nhưng $4\le 3$ sai nên $(4; 0)$ nằm ngoài miền. **Đúng:** tìm được giao điểm rồi thì thử lại nó vào mọi bất phương trình còn lại.
 :::
 
 ## Tối ưu trên miền đa giác
 
-Quay lại câu lạc bộ thủ công: tiền lãi là $F=30x+40y$ (nghìn đồng). Tại $(2; 3)$ lãi $180$, tại $(4; 2)$ lãi $200$. Câu hỏi là: trong vô số điểm của miền nghiệm, điểm nào cho $F$ lớn nhất?
+Giờ ta quay lại câu lạc bộ thủ công. Tiền lãi là $F=30x+40y$ (nghìn đồng). Tại $(2; 3)$ lãi $180$, tại $(4; 2)$ lãi $200$. Nhưng miền nghiệm có vô số điểm, thử hết là không thể. Vậy làm sao biết điểm nào cho $F$ lớn nhất?
 
-**Vì sao chỉ cần xét các đỉnh?** Với mỗi số $k$, các điểm có $30x+40y=k$ nằm trên một đường thẳng, và khi $k$ thay đổi các đường thẳng này song song với nhau. Tăng $k$ là trượt đường thẳng về một phía. Điểm cuối cùng đường thẳng còn chạm vào đa giác là một đỉnh (hoặc cả một cạnh, khi đó hai đỉnh của cạnh cùng cho giá trị đó).
+**Vì sao chỉ cần xét các đỉnh?** Bạn hình dung thế này. Với mỗi số $k$, các điểm có $30x+40y=k$ nằm trên một đường thẳng, và khi $k$ thay đổi, các đường thẳng ấy luôn song song với nhau. Tăng $k$ giống như đẩy một cây thước trượt dần về một phía. Đẩy mãi, chỗ cuối cùng cây thước còn chạm vào đa giác chính là một đỉnh (hoặc cả một cạnh; khi đó hai đỉnh của cạnh cho cùng một giá trị). Vì thế ta không cần thử vô số điểm, chỉ cần thử vài đỉnh.
 
 :::theorem Quy tắc đỉnh
 Nếu miền nghiệm của một hệ bất phương trình bậc nhất hai ẩn là một đa giác thì biểu thức $F=ax+by$ đạt giá trị lớn nhất và giá trị nhỏ nhất trên miền đó tại các **đỉnh** của đa giác.
 :::
 
-Quy trình: (1) tìm các đỉnh, (2) tính $F$ tại từng đỉnh, (3) so sánh. Bài toán của câu lạc bộ có nhiều dữ kiện, nên ta giải theo bốn bước.
+Cách làm vì thế gọn gàng: (1) tìm các đỉnh, (2) tính $F$ tại từng đỉnh, (3) so sánh. Bài toán của câu lạc bộ có khá nhiều dữ kiện, nên ta đi chậm theo bốn bước để không bỏ sót.
 
 :::example Nên làm bao nhiêu chiếc mỗi loại?
 Giải bài toán câu lạc bộ thủ công ở đầu bài.
@@ -168,7 +169,7 @@ point: (4, 2) "(4; 2)" above-right
 point: (0, 4) "(0; 4)" left
 :::
 
-Quy tắc đỉnh cũng dùng để tìm giá trị **nhỏ nhất**, chẳng hạn chi phí thấp nhất.
+Quy tắc đỉnh không chỉ giúp tìm lãi cao nhất. Khi cần tìm giá trị **nhỏ nhất**, chẳng hạn chi phí thấp nhất, ta làm y như vậy, chỉ khác là chọn đỉnh cho giá trị bé nhất.
 
 :::example Khẩu phần ăn rẻ nhất
 Một bữa ăn dùng $x$ suất món A và $y$ suất món B. Bữa ăn cần ít nhất $6$ đơn vị chất đạm ($2x+y\ge 6$) và ít nhất $6$ đơn vị chất xơ ($x+2y\ge 6$); mỗi món dùng tối đa $5$ suất. Một suất món A giá $3$ nghìn đồng, một suất món B giá $4$ nghìn đồng. Tìm khẩu phần có chi phí thấp nhất.
@@ -219,9 +220,11 @@ point: (5, 0.5) "(5; 0,5)" below-right
 - Trên miền đa giác, $F=ax+by$ đạt lớn nhất và nhỏ nhất tại các đỉnh: tính $F$ ở từng đỉnh rồi so sánh.
 - Bài toán thực tế: đặt ẩn, thêm $x\ge 0$, $y\ge 0$, trả lời bằng câu có đơn vị.
 
+Câu hỏi đầu bài tưởng phải thử rất nhiều phương án, hoá ra chỉ cần so bốn đỉnh: làm $4$ vòng tay và $2$ dây chuyền là lãi nhất. Bạn nhớ một điều thôi: miền nghiệm là phần chung, và đáp án nằm ở các đỉnh.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có nhắc lại kiến thức cần dùng và gợi ý các bước. Bạn cứ tự làm trước; bài nào có miền nghiệm thì nên vẽ phác ra giấy, nhìn hình sẽ thấy ngay đỉnh nào cần tìm. Sau đó hãy bấm xem lời giải để so.
 
 :::exercise
 Cặp nào trong $(2; 1)$, $(0; 0)$, $(5; 1)$ là nghiệm của hệ $\begin{cases} x+y\ge 2\\ x-y\le 3 \end{cases}$?

@@ -13,9 +13,9 @@ minutes: 30
 
 Bạn muốn biết khoảng cách giữa hai điểm $A$ và $B$ ở hai bờ đối diện của một cái ao, nhưng không thể lội qua. Đứng ở điểm $C$ trên bờ, bạn đo được $CA=120$ m, $CB=95$ m và $\widehat{ACB}=70^\circ$. Từ ba số đo đó, có tính được $AB$ không?
 
-Tam giác $ABC$ không vuông, nên định lí Pythagore không dùng trực tiếp được. Ở [bài trước](lesson:trig-ratios-0-180) bạn đã biết $\sin$ và $\cos$ của góc từ $0^\circ$ đến $180^\circ$; bây giờ ta dùng chúng trong mọi tam giác.
+Nếu góc $C$ là góc vuông thì quá dễ: dùng định lí Pythagore là xong. Nhưng ở đây góc $C$ bằng $70^\circ$, mà ngoài đời hiếm khi ta gặp đúng góc vuông. Tin vui là bạn đã có sẵn công cụ: ở [bài trước](lesson:trig-ratios-0-180) bạn đã biết $\sin$ và $\cos$ của mọi góc từ $0^\circ$ đến $180^\circ$. Bài này dùng chúng để tính cạnh, góc và diện tích của bất kì tam giác nào, vuông hay không vuông.
 
-Trong cả bài, tam giác là $ABC$, các cạnh đối diện $A, B, C$ là $a, b, c$; $R$ là bán kính đường tròn ngoại tiếp, $r$ là bán kính đường tròn nội tiếp, $p=\frac{a+b+c}{2}$ là nửa chu vi.
+Để khỏi nhắc lại nhiều lần, trong cả bài ta quy ước: tam giác là $ABC$, các cạnh đối diện $A, B, C$ là $a, b, c$; $R$ là bán kính đường tròn ngoại tiếp, $r$ là bán kính đường tròn nội tiếp, $p=\frac{a+b+c}{2}$ là nửa chu vi. Mẹo nhớ: chữ thường đứng đối diện chữ hoa cùng tên.
 
 :::diagram Tam giác $ABC$ và các cạnh
 alt: Tam giác ABC có A ở bên trái, B ở bên phải, C ở phía trên; các cạnh đối diện mỗi đỉnh được ghi là a, b, c
@@ -33,24 +33,24 @@ label 3,-0.4 "c"
 
 ### Khám phá: Pythagore cần sửa thế nào?
 
-Xét tam giác có $b=3$, $c=4$. Nếu $A=90^\circ$ thì $a^2=9+16=25$. Nếu $A=60^\circ$ thì sao? Đặt $A$ ở gốc toạ độ, $B(4; 0)$ trên trục hoành, khi đó $C$ có toạ độ $(3\cos60^\circ; 3\sin60^\circ)\approx(1{,}5; 2{,}598)$. Tính $a^2=BC^2$:
+Ta bắt đầu từ thứ quen thuộc. Xét tam giác có $b=3$, $c=4$. Nếu $A=90^\circ$ thì $a^2=9+16=25$. Còn nếu góc $A$ khép lại còn $60^\circ$ thì sao? Cạnh $a$ chắc chắn ngắn đi, nhưng ngắn đi bao nhiêu? Đặt $A$ ở gốc toạ độ, $B(4; 0)$ trên trục hoành, khi đó $C$ có toạ độ $(3\cos60^\circ; 3\sin60^\circ)\approx(1{,}5; 2{,}598)$. Tính $a^2=BC^2$:
 
 $$a^2=(4-1{,}5)^2+2{,}598^2\approx6{,}25+6{,}75=13.$$
 
-Ta thấy $13=25-12$, và $12=2\cdot3\cdot4\cdot\cos60^\circ$. Pythagore chỉ cần thêm một số hạng chứa $\cos A$.
+Kết quả $13$ nhỏ hơn $25$ đúng $12$ đơn vị, và thật thú vị: $12=2\cdot3\cdot4\cdot\cos60^\circ$. Vậy Pythagore không sai, nó chỉ thiếu một số hạng chứa $\cos A$ để bù cho việc góc không còn vuông.
 
 :::definition Định lí côsin
 Trong mọi tam giác $ABC$,
 $$a^2=b^2+c^2-2bc\cos A,\qquad b^2=a^2+c^2-2ac\cos B,\qquad c^2=a^2+b^2-2ab\cos C.$$
 :::
 
-**Vì sao đúng?** Làm như phần khám phá với số đo tổng quát: $A(0; 0)$, $B(c; 0)$, $C(b\cos A; b\sin A)$. Khi đó
+**Vì sao đúng?** Ta làm lại đúng như phần khám phá, chỉ thay số cụ thể bằng chữ: $A(0; 0)$, $B(c; 0)$, $C(b\cos A; b\sin A)$. Khi đó
 $$a^2=(b\cos A-c)^2+b^2\sin^2A=b^2(\cos^2A+\sin^2A)-2bc\cos A+c^2=b^2+c^2-2bc\cos A.$$
 
-Nếu $A=90^\circ$ thì $\cos A=0$ và ta được $a^2=b^2+c^2$: **định lí Pythagore là trường hợp đặc biệt** của định lí côsin. Với góc tù, $\cos A<0$ nên $a^2$ *lớn hơn* $b^2+c^2$. Định lí dùng để tính **một cạnh** khi biết hai cạnh và góc xen giữa, và tính **một góc** khi biết ba cạnh:
+Bạn thử cho $A=90^\circ$: khi đó $\cos A=0$ và ta trở về $a^2=b^2+c^2$. Nghĩa là **định lí Pythagore chỉ là một trường hợp đặc biệt** của định lí côsin, không có gì phải học lại từ đầu. Góc nhọn thì $a^2$ nhỏ hơn $b^2+c^2$; góc tù thì $\cos A<0$ nên $a^2$ *lớn hơn* $b^2+c^2$, đúng như trực giác: góc càng mở, cạnh đối diện càng dài. Định lí dùng theo hai chiều: tính **một cạnh** khi biết hai cạnh và góc xen giữa, và tính **một góc** khi biết ba cạnh:
 $$\cos A=\frac{b^2+c^2-a^2}{2bc}.$$
 
-Ví dụ đầu tiên tính một cạnh từ hai cạnh và góc xen giữa.
+Ta dùng chiều thứ nhất trước: biết hai cạnh và góc kẹp giữa chúng, tìm cạnh còn lại.
 
 :::example Biết hai cạnh và góc xen giữa
 Cho tam giác $ABC$ có $b=7$, $c=5$ và $A=60^\circ$. Tính $a$ và các góc $B$, $C$.
@@ -70,7 +70,7 @@ Vậy $a=\sqrt{39}\approx6{,}24$, $B\approx76{,}1^\circ$, $C\approx43{,}9^\circ$
 **Kiểm tra.** Cạnh lớn nhất $b=7$ đối diện góc lớn nhất $B$, đúng như mong đợi.
 :::
 
-Khi biết cả ba cạnh, định lí côsin cho góc mà không cần đoán.
+Bây giờ đến chiều ngược lại. Khi biết cả ba cạnh, định lí côsin cho ta góc, không cần thước đo góc, cũng không phải đoán.
 
 :::example Biết ba cạnh
 Tam giác có ba cạnh $a=7$, $b=5$, $c=8$. Tính góc $A$.
@@ -89,7 +89,7 @@ Trong mọi tam giác $ABC$ có bán kính đường tròn ngoại tiếp $R$,
 $$\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}=2R.$$
 :::
 
-Định lí sin dùng khi biết **một cạnh và góc đối diện** của nó cùng một yếu tố nữa. Chẳng hạn với tam giác ở Ví dụ 2: $a=7$, $A=60^\circ$ nên $2R=\dfrac{7}{\sin60^\circ}=\dfrac{14}{\sqrt3}$ và $R=\dfrac{7}{\sqrt3}\approx4{,}04$.
+Định lí côsin cần góc *xen giữa* hai cạnh. Nhưng có lúc ta lại biết một cạnh và góc *đối diện* nó; khi ấy định lí sin hợp hơn. Nó nói rằng trong một tam giác, cạnh nào chia cho sin góc đối diện cũng ra cùng một số, và số ấy chính là đường kính đường tròn ngoại tiếp. Chỉ cần biết **một cặp cạnh – góc đối diện** cùng một yếu tố nữa là đủ. Chẳng hạn với tam giác ở Ví dụ 2: $a=7$, $A=60^\circ$ nên $2R=\dfrac{7}{\sin60^\circ}=\dfrac{14}{\sqrt3}$ và $R=\dfrac{7}{\sqrt3}\approx4{,}04$.
 
 :::example Biết một cạnh và hai góc
 Cho tam giác $ABC$ có $B=40^\circ$, $C=75^\circ$ và $a=10$. Tính $A$, $b$, $c$.
@@ -107,7 +107,7 @@ Vậy $A=65^\circ$, $b\approx7{,}09$, $c\approx10{,}66$.
 
 ### Trường hợp có hai nghiệm
 
-Nếu biết hai cạnh và một góc **không** xen giữa, chẳng hạn $A$, $a$, $b$, thì $\sin B=\dfrac{b\sin A}{a}$. Vì $B$ và $180^\circ-B$ có cùng sin, có thể có $0$, $1$ hoặc $2$ tam giác.
+Đây là chỗ nhiều bạn hay bỏ sót, nên ta nói kĩ một chút. Nếu biết hai cạnh và một góc **không** xen giữa, chẳng hạn $A$, $a$, $b$, thì $\sin B=\dfrac{b\sin A}{a}$. Nhưng bạn nhớ lại bài trước: $B$ và $180^\circ-B$ có cùng sin. Vì thế từ một giá trị sin có thể ra hai góc, và có thể có $0$, $1$ hoặc $2$ tam giác cùng khớp dữ kiện.
 
 :::example Hai tam giác từ cùng một dữ kiện
 Cho tam giác $ABC$ có $A=30^\circ$, $a=5$, $b=8$. Tính $B$, $C$, $c$.
@@ -123,18 +123,18 @@ $$\begin{aligned} B_1\approx53{,}13^\circ &\Rightarrow C_1\approx96{,}87^\circ,\
 Vậy có **hai** tam giác thoả mãn dữ kiện.
 :::
 
-Quy tắc nhanh: biết $A$ nhọn, $a$, $b$, hãy tính $b\sin A$. Nếu $a<b\sin A$ thì không có tam giác; nếu $a=b\sin A$ thì có một tam giác (vuông tại $B$); nếu $b\sin A<a<b$ thì có hai tam giác; nếu $a\ge b$ thì chỉ có một.
+Không cần nhớ thuộc lòng, nhưng nếu muốn biết trước có mấy tam giác, bạn có thể dùng quy tắc nhanh này: biết $A$ nhọn, $a$, $b$, hãy tính $b\sin A$. Nếu $a<b\sin A$ thì không có tam giác; nếu $a=b\sin A$ thì có một tam giác (vuông tại $B$); nếu $b\sin A<a<b$ thì có hai tam giác; nếu $a\ge b$ thì chỉ có một.
 
 ## Diện tích tam giác
 
-Đường cao hạ từ $C$ xuống $AB$ dài $b\sin A$ (cạnh $b$ nhân sin góc $A$), nên $S=\dfrac12c\cdot b\sin A$. Các công thức còn lại suy ra từ công thức này và định lí sin.
+Diện tích tam giác bạn đã quen tính bằng "nửa đáy nhân cao". Vấn đề là đường cao thường không cho sẵn. Nhưng nhìn kĩ: đường cao hạ từ $C$ xuống $AB$ dài đúng $b\sin A$ (cạnh $b$ nhân sin góc $A$). Thế vào, ta được $S=\dfrac12c\cdot b\sin A$, không cần đo đường cao nữa. Các công thức còn lại suy ra từ công thức này và định lí sin.
 
 :::theorem Các công thức diện tích
 $$S=\tfrac12ab\sin C=\tfrac12bc\sin A=\tfrac12ca\sin B,\qquad S=\frac{abc}{4R},\qquad S=pr,$$
 $$S=\sqrt{p(p-a)(p-b)(p-c)}\quad\text{(công thức Heron).}$$
 :::
 
-Với ba cạnh đã biết, công thức Heron cho diện tích ngay, rồi từ đó có $R$ và $r$.
+Nhiều công thức thế này để làm gì? Để bạn chọn cái hợp với dữ kiện đang có. Biết ba cạnh thì công thức Heron cho diện tích ngay, rồi từ diện tích lại suy ra $R$ và $r$.
 
 :::example Diện tích, $R$ và $r$ của một tam giác
 Tính $S$, $R$, $r$ của tam giác có $a=7$, $b=5$, $c=8$.
@@ -154,7 +154,7 @@ Vậy $S=10\sqrt3$, $R=\dfrac{7}{\sqrt3}$, $r=\sqrt3$.
 
 ## Ứng dụng thực tế
 
-Cuối cùng, ta trả lời câu hỏi về cái ao ở đầu bài.
+Giờ ta đã đủ đồ nghề để quay lại cái ao ở đầu bài. Bạn thử tự đoán xem nên dùng định lí nào trước khi đọc lời giải.
 
 :::example Khoảng cách qua cái ao
 Từ điểm $C$ trên bờ, $CA=120$ m, $CB=95$ m và $\widehat{ACB}=70^\circ$. Tính $AB$.
@@ -167,10 +167,11 @@ Vậy $AB\approx125$ m.
 :::
 
 :::warning Những lỗi thường gặp
+Những lỗi dưới đây không phải do không hiểu bài, mà thường do vội. Trước khi bấm máy, bạn dừng lại vài giây soát chúng.
 - **Sai:** $a^2=b^2+c^2-bc\cos A$. **Vì sao sai:** thiếu hệ số $2$; với $b=3$, $c=4$, $A=60^\circ$ sẽ ra $a^2=19$ thay vì $13$. **Đúng:** $a^2=b^2+c^2-2bc\cos A$.
 - **Sai:** với $A=30^\circ$, $a=5$, $b=8$ chỉ lấy $B=53{,}13^\circ$. **Vì sao sai:** $\sin B=0{,}8$ còn ứng với $B=126{,}87^\circ$, cũng cho một tam giác. **Đúng:** luôn kiểm tra cả $180^\circ-B$.
 - **Sai:** dùng định lí côsin với góc không xen giữa hai cạnh đã biết. **Vì sao sai:** trong $a^2=b^2+c^2-2bc\cos A$, góc $A$ phải xen giữa $b$, $c$ và đối diện $a$. **Đúng:** xác định đúng cạnh đối diện góc trước khi thay số.
-- **Sai:** để máy tính ở chế độ radian, ra $\cos60=-0{,}95$. **Đúng:** chuyển sang chế độ độ.
+- **Sai:** để máy tính ở chế độ radian, ra $\cos60=-0{,}95$. **Đúng:** chuyển sang chế độ độ. Thấy côsin của góc nhọn ra số âm là biết ngay máy đang để nhầm chế độ.
 :::
 
 ## Thuật ngữ
@@ -194,9 +195,11 @@ Vậy $AB\approx125$ m.
 - Diện tích: $S=\frac12ab\sin C=\sqrt{p(p-a)(p-b)(p-c)}=\frac{abc}{4R}=pr$.
 - Máy tính ở chế độ độ; làm tròn ở bước cuối.
 
+Vậy là không cần lội qua ao, chỉ với hai cạnh và một góc đo trên bờ, định lí côsin đã cho ta $AB\approx125$ m. Điều đáng nhớ nhất: nhìn dữ kiện trước, biết góc xen giữa thì dùng côsin, biết cặp cạnh – góc đối diện thì dùng sin.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có nhắc lại kiến thức cần dùng và gợi ý các bước. Bạn cứ tự làm trước; trước mỗi bài, hãy vẽ phác tam giác và đánh dấu những gì đã biết, nhìn hình là chọn được định lí. Sau đó hãy bấm xem lời giải để so.
 
 :::exercise
 Cho tam giác $ABC$ có $b=6$, $c=8$ và $A=60^\circ$. Tính $a$.

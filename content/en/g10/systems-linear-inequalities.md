@@ -13,13 +13,13 @@ minutes: 30
 
 The school craft club makes bracelets and necklaces to raise money. Each day the club has $10$ units of beads and $8$ hours of work. A bracelet needs $2$ units of beads and $1$ hour; a necklace needs $1$ unit of beads and $2$ hours. Each bracelet makes a profit of $30$ thousand dong and each necklace $40$ thousand dong. How many of each should the club make to earn the most?
 
-There are **two** limits here, and both must hold **at the same time**. Together they form a system of inequalities.
+Worrying only about beads would be easy, and so would worrying only about hours. The hard part is that **both** limits must hold **at the same time**: more bracelets use up beads, more necklaces use up hours. When several conditions must all be true together, we have a system of inequalities. By the end of this lesson you will find the most profitable plan without guessing.
 
 ## Systems and their solution region
 
 ### Trying a few plans
 
-Let $x$ be the number of bracelets and $y$ the number of necklaces made in one day. The beads used are $2x+y$ units and the work time is $x+2y$ hours. We try a few plans:
+Before any rule, let us simply try things, the way someone in the club would. Let $x$ be the number of bracelets and $y$ the number of necklaces made in one day. The beads used are $2x+y$ units and the work time is $x+2y$ hours. Here are a few plans:
 
 | Plan $(x, y)$ | Beads $2x+y\le 10$? | Hours $x+2y\le 8$? | Possible? |
 |---|---|---|---|
@@ -28,7 +28,7 @@ Let $x$ be the number of bracelets and $y$ the number of necklaces made in one d
 | $(2, 3)$ | $7$: yes | $8$: yes | yes |
 | $(3, 3)$ | $9$: yes | $9$: no | no |
 
-Plan $(5, 1)$ has enough hours but not enough beads; plan $(3, 3)$ is the other way round. A plan is possible only when it satisfies **all** the conditions.
+Look at the two plans that fail: $(5, 1)$ has enough hours but not enough beads, and $(3, 3)$ is the other way round. Missing just one condition is enough to sink a plan. To work, it must satisfy **all** the conditions. That is exactly what the word "system" means.
 
 :::definition System of linear inequalities in two variables
 A **system of linear inequalities in two variables** consists of two or more linear inequalities in the same unknowns $x, y$.
@@ -36,9 +36,9 @@ A **system of linear inequalities in two variables** consists of two or more lin
 A **solution** of the system is a pair $(x_0, y_0)$ that satisfies **every** inequality of the system. The set of points whose coordinates are solutions is the **solution region** of the system.
 :::
 
-Each inequality gives a half-plane (see [Linear inequalities in two variables](lesson:linear-inequality-two-variables)). A point is in the solution region of the system exactly when it lies in **every** one of those half-planes. So the solution region of the system is the **intersection** of the solution regions of the separate inequalities.
+You already know that each inequality gives a half-plane (look back at [Linear inequalities in two variables](lesson:linear-inequality-two-variables) if you need to). A point is in the solution region of the system when it lies in **every** one of those half-planes, with none left out. Put briefly: the solution region of the system is the **intersection** of the solution regions of the separate inequalities.
 
-The region is often a polygon. Its corners are called **vertices**; each vertex is the intersection point of two boundary lines. Before drawing, we practise testing a pair.
+That common part is often a polygon. Its corners are called **vertices**; each vertex is where two boundary lines cross. We will soon see why the vertices matter so much. For now, we start with the smallest job: checking whether a pair is a solution.
 
 :::example Testing solutions of a system
 Which of $(2, 1)$, $(4, 1)$, $(0, 5)$, $(2, 3)$ are solutions of the system
@@ -51,7 +51,7 @@ $$\begin{aligned} (2, 1)&:\ 2-1=1\le 2,\quad 2+2=4\le 8 &&\text{(both true)},\\ 
 So $(2, 1)$ and $(2, 3)$ are solutions of the system; $(4, 1)$ and $(0, 5)$ are not.
 :::
 
-Now we draw the whole solution region of a system with four inequalities.
+Checking points one at a time works, but the region has infinitely many points. To see all of them, we draw it. The next example has four inequalities, and we deal with them one by one.
 
 :::example Drawing the region and finding the vertices
 Draw the solution region of the system
@@ -84,7 +84,7 @@ point: (3, 1) "(3, 1)" right
 point: (0, 4) "(0, 4)" left
 :::
 
-In that example the vertices came out at once. When both boundary lines are slanted, we must solve a system of two equations to find a vertex.
+In that example the vertices could almost be read off the picture, because several boundary lines were vertical or horizontal. When both boundary lines are slanted, the picture is hard to read exactly, so we solve a system of two equations to be sure.
 
 :::example A vertex from a system of two equations
 Find the vertices of the solution region of the system
@@ -116,22 +116,23 @@ point: (2, 3) "(2, 3)" above
 :::
 
 :::warning Common mistakes
-- **Wrong:** shading each inequality separately and keeping every shaded spot. **Why it is wrong:** that is the *union*; the point $(0, 5)$ in Example 1 satisfies the first inequality but is not a solution of the system. **Right:** keep only the common part (the *intersection*) of all the half-planes.
-- **Wrong:** forgetting $x\ge 0$, $y\ge 0$ in real problems. **Why it is wrong:** nobody can make $-2$ bracelets. **Right:** always add the natural conditions on the unknowns.
-- **Wrong:** treating every intersection of two boundary lines as a vertex. **Why it is wrong:** in Example 2, the line $x+y=4$ meets the $x$-axis at $(4, 0)$, but $4\le 3$ is false, so $(4, 0)$ is outside the region. **Right:** check that the intersection satisfies all the other inequalities.
+These three slips catch many students, especially in a hurry.
+- **Wrong:** shading each inequality separately and keeping every shaded spot. **Why it is wrong:** that gives the *union*, not the intersection; the point $(0, 5)$ in Example 1 satisfies the first inequality but is not a solution of the system. **Right:** keep only the common part (the *intersection*) of all the half-planes.
+- **Wrong:** forgetting $x\ge 0$, $y\ge 0$ in real problems. **Why it is wrong:** nobody can make $-2$ bracelets. **Right:** always add the natural conditions on the unknowns, even when the problem does not write them.
+- **Wrong:** treating every intersection of two boundary lines as a vertex. **Why it is wrong:** in Example 2, the line $x+y=4$ meets the $x$-axis at $(4, 0)$, but $4\le 3$ is false, so $(4, 0)$ is outside the region. **Right:** once you have an intersection, test it in all the other inequalities.
 :::
 
 ## Optimising over a polygonal region
 
-Back to the craft club: the profit is $F=30x+40y$ (thousand dong). At $(2, 3)$ the profit is $180$, at $(4, 2)$ it is $200$. The question is: among the infinitely many points of the region, which one makes $F$ largest?
+Now back to the craft club. The profit is $F=30x+40y$ (thousand dong). At $(2, 3)$ the profit is $180$, at $(4, 2)$ it is $200$. But the region has infinitely many points, and we cannot try them all. So how do we know which one makes $F$ largest?
 
-**Why is it enough to look at the vertices?** For each number $k$, the points with $30x+40y=k$ lie on a line, and as $k$ changes these lines stay parallel. Increasing $k$ slides the line in one direction. The last point where the line still touches the polygon is a vertex (or a whole side, and then both end vertices of that side give the same value).
+**Why is it enough to look at the vertices?** Picture it like this. For each number $k$, the points with $30x+40y=k$ lie on a line, and as $k$ changes these lines always stay parallel. Increasing $k$ is like pushing a ruler steadily in one direction. Keep pushing, and the last place where the ruler still touches the polygon is a vertex (or a whole side; then both end vertices of that side give the same value). So instead of infinitely many points, we only need to try a few vertices.
 
 :::theorem The vertex rule
 If the solution region of a system of linear inequalities in two variables is a polygon, then the expression $F=ax+by$ reaches its maximum and its minimum over the region at **vertices** of the polygon.
 :::
 
-The procedure: (1) find the vertices, (2) compute $F$ at each vertex, (3) compare. The craft club problem has a lot of data, so we solve it in four steps.
+That makes the method tidy: (1) find the vertices, (2) compute $F$ at each vertex, (3) compare. The craft club problem has quite a lot of data, so we go slowly in four steps and miss nothing.
 
 :::example How many of each should the club make?
 Solve the craft club problem from the start of the lesson.
@@ -168,7 +169,7 @@ point: (4, 2) "(4, 2)" above-right
 point: (0, 4) "(0, 4)" left
 :::
 
-The vertex rule also finds a **minimum**, such as the lowest cost.
+The vertex rule does more than find the biggest profit. When we want a **minimum**, such as the lowest cost, we do exactly the same, and simply pick the vertex with the smallest value.
 
 :::example The cheapest meal
 A meal uses $x$ portions of dish A and $y$ portions of dish B. It needs at least $6$ units of protein ($2x+y\ge 6$) and at least $6$ units of fibre ($x+2y\ge 6$); at most $5$ portions of each dish are used. A portion of A costs $3$ thousand dong and a portion of B costs $4$ thousand dong. Find the cheapest meal.
@@ -219,9 +220,11 @@ point: (5, 0.5) "(5, 0.5)" below-right
 - Over a polygonal region, $F=ax+by$ has its maximum and minimum at vertices: compute $F$ at each vertex and compare.
 - Real problems: name the unknowns, add $x\ge 0$, $y\ge 0$, and answer with a sentence and units.
 
+The opening question looked as if it needed endless trial and error, yet comparing four vertices was enough: $4$ bracelets and $2$ necklaces give the most profit. Remember just one thing: the region is the common part, and the answer sits at a vertex.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise reminds you what you need and gives some steps to start. Have a go yourself first; whenever there is a region, sketch it on paper, and the picture will show you which vertices to find. Then open the solution and compare.
 
 :::exercise
 Which of $(2, 1)$, $(0, 0)$, $(5, 1)$ are solutions of the system $\begin{cases} x+y\ge 2\\ x-y\le 3 \end{cases}$?

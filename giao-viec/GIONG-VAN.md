@@ -37,8 +37,8 @@ Quyết định 12/11/2026: chủ dự án muốn toàn bộ phần lời (mở 
 | 19 | g10/sets-and-set-operations | xong 13/11/2026 |
 | 20 | g10/sign-of-quadratic | xong 13/11/2026 |
 | 21 | g10/statements | xong 13/11/2026 |
-| 22 | g10/systems-linear-inequalities |  |
-| 23 | g10/triangle-relations |  |
+| 22 | g10/systems-linear-inequalities | xong 14/11/2026 |
+| 23 | g10/triangle-relations | xong 14/11/2026 |
 | 24 | g10/trig-ratios-0-180 |  |
 | 25 | g10/vector-basics |  |
 | 26 | g10/vector-sum-difference |  |

@@ -13,9 +13,9 @@ minutes: 30
 
 You want the distance between two points $A$ and $B$ on opposite sides of a pond, but you cannot walk across. Standing at a point $C$ on the shore, you measure $CA=120$ m, $CB=95$ m and $\angle ACB=70^\circ$. Can you work out $AB$ from these three measurements?
 
-Triangle $ABC$ is not right-angled, so Pythagoras' theorem does not apply directly. In [the previous lesson](lesson:trig-ratios-0-180) you learned $\sin$ and $\cos$ for angles from $0^\circ$ to $180^\circ$; now we use them in every triangle.
+If the angle at $C$ were a right angle, it would be easy: Pythagoras' theorem and we are done. But here the angle is $70^\circ$, and in real life right angles are rare. The good news is that you already have the tools: in [the previous lesson](lesson:trig-ratios-0-180) you learned $\sin$ and $\cos$ for every angle from $0^\circ$ to $180^\circ$. This lesson uses them to find the sides, angles and area of any triangle, right-angled or not.
 
-Throughout, the triangle is $ABC$, the sides opposite $A, B, C$ are $a, b, c$; $R$ is the radius of the circumscribed circle, $r$ the radius of the inscribed circle, and $p=\frac{a+b+c}{2}$ the semi-perimeter.
+So we do not have to repeat ourselves, we agree on this for the whole lesson: the triangle is $ABC$, the sides opposite $A, B, C$ are $a, b, c$; $R$ is the radius of the circumscribed circle, $r$ the radius of the inscribed circle, and $p=\frac{a+b+c}{2}$ the semi-perimeter. A way to remember: each small letter sits opposite the capital with the same name.
 
 :::diagram Triangle $ABC$ with its sides
 alt: Triangle ABC with vertices A at the left, B at the right and C at the top, and the sides opposite each vertex labelled a, b and c
@@ -33,24 +33,24 @@ label 3,-0.4 "c"
 
 ### Exploring: how should Pythagoras' theorem be corrected?
 
-Take a triangle with $b=3$, $c=4$. If $A=90^\circ$, then $a^2=9+16=25$. What if $A=60^\circ$? Put $A$ at the origin and $B(4, 0)$ on the $x$-axis; then $C$ has coordinates $(3\cos60^\circ, 3\sin60^\circ)\approx(1.5, 2.598)$. Compute $a^2=BC^2$:
+We start from something familiar. Take a triangle with $b=3$, $c=4$. If $A=90^\circ$, then $a^2=9+16=25$. But what if angle $A$ closes up to $60^\circ$? Side $a$ must get shorter, but by how much? Put $A$ at the origin and $B(4, 0)$ on the $x$-axis; then $C$ has coordinates $(3\cos60^\circ, 3\sin60^\circ)\approx(1.5, 2.598)$. Compute $a^2=BC^2$:
 
 $$a^2=(4-1.5)^2+2.598^2\approx6.25+6.75=13.$$
 
-We see that $13=25-12$, and $12=2\cdot3\cdot4\cdot\cos60^\circ$. Pythagoras' theorem only needs one extra term containing $\cos A$.
+The answer $13$ is exactly $12$ less than $25$, and here is the nice part: $12=2\cdot3\cdot4\cdot\cos60^\circ$. So Pythagoras is not wrong; it is just missing one term containing $\cos A$ to make up for the angle no longer being right.
 
 :::definition The cosine rule
 In every triangle $ABC$,
 $$a^2=b^2+c^2-2bc\cos A,\qquad b^2=a^2+c^2-2ac\cos B,\qquad c^2=a^2+b^2-2ab\cos C.$$
 :::
 
-**Why is it true?** Repeat the exploration with general measurements: $A(0, 0)$, $B(c, 0)$, $C(b\cos A, b\sin A)$. Then
+**Why is it true?** We repeat the exploration exactly, using letters instead of numbers: $A(0, 0)$, $B(c, 0)$, $C(b\cos A, b\sin A)$. Then
 $$a^2=(b\cos A-c)^2+b^2\sin^2A=b^2(\cos^2A+\sin^2A)-2bc\cos A+c^2=b^2+c^2-2bc\cos A.$$
 
-If $A=90^\circ$ then $\cos A=0$ and we get $a^2=b^2+c^2$: **Pythagoras' theorem is a special case** of the cosine rule. For an obtuse angle $\cos A<0$, so $a^2$ is *larger* than $b^2+c^2$. The rule finds **a side** from two sides and the included angle, and **an angle** from three sides:
+Try $A=90^\circ$: then $\cos A=0$ and we are back to $a^2=b^2+c^2$. In other words, **Pythagoras' theorem is just a special case** of the cosine rule, so nothing has to be learned from scratch. For an acute angle, $a^2$ is smaller than $b^2+c^2$; for an obtuse angle $\cos A<0$, so $a^2$ is *larger* than $b^2+c^2$, just as your instinct says: the wider the angle, the longer the opposite side. The rule works both ways: it finds **a side** from two sides and the included angle, and **an angle** from three sides:
 $$\cos A=\frac{b^2+c^2-a^2}{2bc}.$$
 
-Our first example finds a side from two sides and the included angle.
+We use the first direction first: two sides and the angle between them give the third side.
 
 :::example Two sides and the included angle
 In triangle $ABC$, $b=7$, $c=5$ and $A=60^\circ$. Find $a$ and the angles $B$, $C$.
@@ -70,7 +70,7 @@ So $a=\sqrt{39}\approx6.24$, $B\approx76.1^\circ$, $C\approx43.9^\circ$.
 **Check.** The longest side $b=7$ is opposite the largest angle $B$, as expected.
 :::
 
-When all three sides are known, the cosine rule gives an angle with no guessing.
+Now the other direction. When all three sides are known, the cosine rule gives an angle, with no protractor and no guessing.
 
 :::example Three sides
 A triangle has sides $a=7$, $b=5$, $c=8$. Find the angle $A$.
@@ -89,7 +89,7 @@ In every triangle $ABC$ with circumradius $R$,
 $$\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}=2R.$$
 :::
 
-The sine rule is used when we know **a side and its opposite angle** plus one more measurement. For example, in the triangle of Example 2: $a=7$, $A=60^\circ$, so $2R=\dfrac{7}{\sin60^\circ}=\dfrac{14}{\sqrt3}$ and $R=\dfrac{7}{\sqrt3}\approx4.04$.
+The cosine rule needs the angle *between* two sides. Sometimes, though, we know a side and the angle *opposite* it; then the sine rule fits better. It says that in a triangle, every side divided by the sine of its opposite angle gives the same number, and that number is the diameter of the circumscribed circle. Knowing **one side–opposite angle pair** plus one more measurement is enough. For example, in the triangle of Example 2: $a=7$, $A=60^\circ$, so $2R=\dfrac{7}{\sin60^\circ}=\dfrac{14}{\sqrt3}$ and $R=\dfrac{7}{\sqrt3}\approx4.04$.
 
 :::example One side and two angles
 In triangle $ABC$, $B=40^\circ$, $C=75^\circ$ and $a=10$. Find $A$, $b$, $c$.
@@ -107,7 +107,7 @@ So $A=65^\circ$, $b\approx7.09$, $c\approx10.66$.
 
 ### The ambiguous case (SSA)
 
-If we know two sides and an angle that is **not** between them, for example $A$, $a$, $b$, then $\sin B=\dfrac{b\sin A}{a}$. Since $B$ and $180^\circ-B$ have the same sine, there may be $0$, $1$ or $2$ triangles.
+This is a spot many students miss, so we go through it carefully. If we know two sides and an angle that is **not** between them, for example $A$, $a$, $b$, then $\sin B=\dfrac{b\sin A}{a}$. But remember the previous lesson: $B$ and $180^\circ-B$ have the same sine. So one value of the sine can give two angles, and there may be $0$, $1$ or $2$ triangles that fit the data.
 
 :::example Two triangles from the same data
 In triangle $ABC$, $A=30^\circ$, $a=5$, $b=8$. Find $B$, $C$, $c$.
@@ -123,18 +123,18 @@ $$\begin{aligned} B_1\approx53.13^\circ &\Rightarrow C_1\approx96.87^\circ,\quad
 So **two** triangles fit the data.
 :::
 
-Quick rule: given an acute $A$, $a$ and $b$, compute $b\sin A$. If $a<b\sin A$ there is no triangle; if $a=b\sin A$ there is one (right-angled at $B$); if $b\sin A<a<b$ there are two; if $a\ge b$ there is only one.
+You need not learn this by heart, but if you want to know in advance how many triangles there are, here is a quick rule: given an acute $A$, $a$ and $b$, compute $b\sin A$. If $a<b\sin A$ there is no triangle; if $a=b\sin A$ there is one (right-angled at $B$); if $b\sin A<a<b$ there are two; if $a\ge b$ there is only one.
 
 ## Area of a triangle
 
-The height from $C$ to $AB$ is $b\sin A$ (side $b$ times the sine of angle $A$), so $S=\dfrac12c\cdot b\sin A$. The other formulas follow from this one and the sine rule.
+You are used to finding the area of a triangle as "half the base times the height". The trouble is that the height is rarely given. But look closely: the height from $C$ to $AB$ is exactly $b\sin A$ (side $b$ times the sine of angle $A$). Put that in and we get $S=\dfrac12c\cdot b\sin A$, with no height to measure. The other formulas follow from this one and the sine rule.
 
 :::theorem Area formulas
 $$S=\tfrac12ab\sin C=\tfrac12bc\sin A=\tfrac12ca\sin B,\qquad S=\frac{abc}{4R},\qquad S=pr,$$
 $$S=\sqrt{p(p-a)(p-b)(p-c)}\quad\text{(Heron's formula).}$$
 :::
 
-With three known sides, Heron's formula gives the area at once, and then $R$ and $r$ follow.
+Why so many formulas? So that you can pick the one that suits the data you have. With three known sides, Heron's formula gives the area at once, and from the area we get $R$ and $r$.
 
 :::example Area, $R$ and $r$ of one triangle
 Find $S$, $R$, $r$ for the triangle with $a=7$, $b=5$, $c=8$.
@@ -154,7 +154,7 @@ So $S=10\sqrt3$, $R=\dfrac{7}{\sqrt3}$, $r=\sqrt3$.
 
 ## Using triangles in real life
 
-Finally, we answer the pond question from the start.
+Now we have all the tools to go back to the pond from the start. Try to guess which rule to use before you read the solution.
 
 :::example Distance across a pond
 From a point $C$ on the shore, $CA=120$ m, $CB=95$ m and $\angle ACB=70^\circ$. Find $AB$.
@@ -167,10 +167,11 @@ So $AB\approx125$ m.
 :::
 
 :::warning Common mistakes
+These mistakes rarely come from not understanding; they usually come from rushing. Before you press the calculator, pause for a few seconds and check for them.
 - **Wrong:** $a^2=b^2+c^2-bc\cos A$. **Why it is wrong:** the factor $2$ is missing; with $b=3$, $c=4$, $A=60^\circ$ it gives $a^2=19$ instead of $13$. **Right:** $a^2=b^2+c^2-2bc\cos A$.
 - **Wrong:** for $A=30^\circ$, $a=5$, $b=8$, keeping only $B=53.13^\circ$. **Why it is wrong:** $\sin B=0.8$ also gives $B=126.87^\circ$, which is another triangle. **Right:** always check $180^\circ-B$ too.
 - **Wrong:** using the cosine rule with an angle that is not between the two known sides. **Why it is wrong:** in $a^2=b^2+c^2-2bc\cos A$, the angle $A$ must lie between $b$ and $c$ and be opposite $a$. **Right:** match each side with its opposite angle before substituting.
-- **Wrong:** leaving the calculator in radian mode, which gives $\cos60=-0.95$. **Right:** switch to degree mode.
+- **Wrong:** leaving the calculator in radian mode, which gives $\cos60=-0.95$. **Right:** switch to degree mode. If the cosine of an acute angle comes out negative, you know at once the mode is wrong.
 :::
 
 ## Key terms
@@ -194,9 +195,11 @@ So $AB\approx125$ m.
 - Area: $S=\frac12ab\sin C=\sqrt{p(p-a)(p-b)(p-c)}=\frac{abc}{4R}=pr$.
 - Calculator in degree mode; round only at the last step.
 
+So without wading across the pond, two sides and one angle measured on the shore were enough: the cosine rule gives $AB\approx125$ m. The thing most worth remembering: look at the data first; an included angle means the cosine rule, a side–opposite angle pair means the sine rule.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise reminds you what you need and gives some steps to start. Have a go yourself first; before each one, sketch the triangle and mark what you know, and the picture will tell you which rule to use. Then open the solution and compare.
 
 :::exercise
 In triangle $ABC$, $b=6$, $c=8$ and $A=60^\circ$. Find $a$.
