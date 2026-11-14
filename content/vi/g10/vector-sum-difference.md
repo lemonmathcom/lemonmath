@@ -13,15 +13,17 @@ minutes: 25
 
 Từ nhà, bạn đi $300$ m về phía đông đến cổng trường, rồi đi tiếp $400$ m về phía bắc đến thư viện. Bạn đã đi tổng cộng $700$ m. Vậy thư viện cách nhà bạn bao xa, và theo hướng nào?
 
+Nhiều bạn sẽ trả lời ngay "$700$ m". Nhưng nếu có một con đường chéo đi thẳng từ nhà đến thư viện, chắc chắn nó ngắn hơn. Vì hai chặng đi theo hai hướng khác nhau, ta không thể cộng độ dài một cách đơn giản. Bài này dạy cách "cộng" những đại lượng có hướng như thế, gọi là cộng vectơ.
+
 ## Cộng hai vectơ
 
 ### Quy tắc ba điểm
 
-Ta vẽ thử. Gọi nhà là $A$, cổng trường là $B$, thư viện là $C$. Chặng thứ nhất là vectơ $\overrightarrow{AB}$ dài $300$ m, chặng thứ hai là $\overrightarrow{BC}$ dài $400$ m, và hai chặng vuông góc với nhau. Kết quả cuối cùng của chuyến đi chỉ phụ thuộc vào điểm đầu $A$ và điểm cuối $C$:
+Cách chắc chắn nhất là vẽ ra. Gọi nhà là $A$, cổng trường là $B$, thư viện là $C$. Chặng thứ nhất là vectơ $\overrightarrow{AB}$ dài $300$ m, chặng thứ hai là $\overrightarrow{BC}$ dài $400$ m, và hai chặng vuông góc với nhau. Kết quả cuối cùng của chuyến đi chỉ phụ thuộc vào điểm đầu $A$ và điểm cuối $C$:
 
 $$AC=\sqrt{300^2+400^2}=\sqrt{250\,000}=500\ \text{(m)}.$$
 
-Vậy thư viện cách nhà $500$ m, theo hướng nằm giữa đông và bắc, chứ không phải $700$ m. Hai độ dời $\overrightarrow{AB}$ và $\overrightarrow{BC}$ được gộp thành **một** độ dời $\overrightarrow{AC}$. Đó là ý nghĩa của phép cộng vectơ.
+Vậy thư viện cách nhà $500$ m, theo hướng nằm giữa đông và bắc, chứ không phải $700$ m. Đi hai chặng hay đi thẳng một mạch từ $A$ đến $C$ thì rốt cuộc bạn cũng đứng ở cùng một chỗ. Nghĩa là hai độ dời $\overrightarrow{AB}$ và $\overrightarrow{BC}$ gộp lại thành **một** độ dời $\overrightarrow{AC}$. Phép cộng vectơ chính là việc gộp ấy.
 
 :::definition Tổng của hai vectơ (quy tắc ba điểm)
 Cho hai vectơ $\vec{a}$ và $\vec{b}$. Lấy điểm $A$ tuỳ ý, vẽ $\overrightarrow{AB} = \vec{a}$ rồi vẽ $\overrightarrow{BC} = \vec{b}$. Vectơ $\overrightarrow{AC}$ là **tổng** của $\vec{a}$ và $\vec{b}$, kí hiệu $\vec{a}+\vec{b}$. Như vậy, với ba điểm $A$, $B$, $C$ bất kì:
@@ -38,11 +40,11 @@ arrow B C "b"
 arrow A C "a+b"
 :::
 
-Quy tắc đúng với **mọi** bộ ba điểm, kể cả khi ba điểm thẳng hàng. Điểm $B$ ở giữa "triệt tiêu": điểm cuối của vectơ thứ nhất phải trùng điểm đầu của vectơ thứ hai.
+Quy tắc đúng với **mọi** bộ ba điểm, kể cả khi ba điểm thẳng hàng. Mẹo nhớ: điểm $B$ ở giữa như "biến mất", chỉ còn lại điểm đầu và điểm cuối. Nhưng chỉ được làm thế khi hai vectơ nối đuôi nhau, tức là điểm cuối của vectơ thứ nhất trùng điểm đầu của vectơ thứ hai. Chỗ này nhiều bạn hay quên.
 
 ### Quy tắc hình bình hành
 
-Nếu hai vectơ cùng xuất phát từ điểm $O$, chẳng hạn $\overrightarrow{OA} = \vec{a}$ và $\overrightarrow{OD} = \vec{b}$, ta dựng hình bình hành $OACD$. Đường chéo xuất phát từ $O$ là tổng của hai vectơ.
+Quy tắc ba điểm cần hai vectơ nối đuôi. Còn khi hai vectơ cùng xuất phát từ một điểm, như hai sợi dây cùng kéo một chiếc xe, thì sao? Lúc ấy ta dùng hình bình hành. Nếu hai vectơ cùng xuất phát từ điểm $O$, chẳng hạn $\overrightarrow{OA} = \vec{a}$ và $\overrightarrow{OD} = \vec{b}$, ta dựng hình bình hành $OACD$. Đường chéo xuất phát từ $O$ là tổng của hai vectơ.
 
 :::theorem Quy tắc hình bình hành
 Nếu $OACD$ là hình bình hành thì
@@ -77,7 +79,7 @@ Với mọi vectơ $\vec{a}$, $\vec{b}$, $\vec{c}$:
 
 Tính giao hoán thực chất là quy tắc hình bình hành: $\overrightarrow{OA} + \overrightarrow{OD}$ và $\overrightarrow{OD} + \overrightarrow{OA}$ đều là đường chéo $\overrightarrow{OC}$. Nhờ tính kết hợp, ta cộng nhiều vectơ mà không cần dấu ngoặc. Tính chất cuối suy ra từ quy tắc ba điểm: $\overrightarrow{AB} + \overrightarrow{BA} = \overrightarrow{AA} = \vec{0}$.
 
-Ví dụ đầu tiên chỉ dùng quy tắc ba điểm nhiều lần liên tiếp.
+Ví dụ đầu tiên chỉ dùng quy tắc ba điểm, lặp lại vài lần. Bạn để ý xem các vectơ được sắp lại cho nối đuôi nhau như thế nào.
 
 :::example Đường đi khép kín
 Với bốn điểm $A$, $B$, $C$, $D$ bất kì, rút gọn $\overrightarrow{AB} + \overrightarrow{CD} + \overrightarrow{BC} + \overrightarrow{DA}$.
@@ -93,7 +95,7 @@ $$\begin{aligned}
 Vậy tổng bằng $\vec{0}$: đi theo một đường khép kín quay về chỗ xuất phát thì tổng độ dời bằng $\vec{0}$.
 :::
 
-Khi cần **độ dài** của một tổng, ta đưa tổng về một vectơ duy nhất rồi tính độ dài đoạn thẳng đó.
+Khi cần **độ dài** của một tổng, đừng vội cộng hai độ dài lại. Ta đưa tổng về một vectơ duy nhất trước, rồi mới tính độ dài đoạn thẳng đó.
 
 :::example Độ dài của tổng trong hình thoi
 Hình thoi $ABCD$ có cạnh $4$ và $\widehat{BAD}=60^\circ$. Tính $|\overrightarrow{AB}+\overrightarrow{AD}|$.
@@ -111,14 +113,14 @@ Vậy $|\overrightarrow{AB}+\overrightarrow{AD}|=4\sqrt3$.
 
 ## Hiệu của hai vectơ
 
-Nếu cộng là "đi tiếp", thì trừ là "đi tiếp theo chiều ngược lại". Ta định nghĩa phép trừ qua vectơ đối.
+Với số, trừ đi $3$ cũng là cộng với $-3$. Vectơ cũng vậy: nếu cộng là "đi tiếp", thì trừ là "đi tiếp theo chiều ngược lại". Vì thế ta định nghĩa phép trừ qua vectơ đối.
 
 :::definition Hiệu của hai vectơ
 **Hiệu** của hai vectơ $\vec{a}$ và $\vec{b}$ là tổng của $\vec{a}$ và vectơ đối của $\vec{b}$:
 $$\vec{a} - \vec{b} = \vec{a} + (-\vec{b}).$$
 :::
 
-Dạng hữu ích nhất của phép trừ là: với ba điểm $O$, $A$, $B$ bất kì,
+Trong thực hành, bạn sẽ dùng phép trừ nhiều nhất ở dạng sau: với ba điểm $O$, $A$, $B$ bất kì,
 $$\overrightarrow{OA} - \overrightarrow{OB} = \overrightarrow{BA}.$$
 **Vì sao?** $\overrightarrow{OA} - \overrightarrow{OB} = \overrightarrow{OA} + \overrightarrow{BO} = \overrightarrow{BO} + \overrightarrow{OA} = \overrightarrow{BA}$. Nói bằng lời: *hiệu của hai vectơ cùng điểm đầu là vectơ nối hai điểm cuối, hướng về điểm cuối của vectơ thứ nhất.*
 
@@ -132,7 +134,7 @@ arrow O B "b"
 arrow B A "a−b"
 :::
 
-Ví dụ sau đặt tổng và hiệu cạnh nhau trong cùng một hình.
+Tổng và hiệu của cùng hai vectơ thường nằm ngay trên hai đường chéo của một hình bình hành. Ví dụ sau đặt chúng cạnh nhau để bạn thấy rõ.
 
 :::example Tổng và hiệu trong hình chữ nhật
 $ABCD$ là hình chữ nhật có $AB = 6$ và $AD = 8$. Tính $|\overrightarrow{AB} + \overrightarrow{AD}|$ và $|\overrightarrow{AB} - \overrightarrow{AD}|$.
@@ -148,7 +150,7 @@ $$AC = DB = \sqrt{6^2 + 8^2} = 10.$$
 Vậy $|\overrightarrow{AB} + \overrightarrow{AD}| = |\overrightarrow{AB} - \overrightarrow{AD}| = 10$. Hai vectơ $\overrightarrow{AC}$ và $\overrightarrow{DB}$ khác nhau (khác hướng) nhưng cùng độ dài.
 :::
 
-Phép trừ còn giúp chứng minh các đẳng thức vectơ: ta biến đổi một vế, chèn thêm điểm bằng quy tắc ba điểm.
+Đến đây bạn đã có đủ công cụ để chứng minh các đẳng thức vectơ. Cách làm quen thuộc: chọn một vế để biến đổi, rồi "chèn" thêm điểm bằng quy tắc ba điểm cho đến khi ra vế kia.
 
 :::example Chứng minh một đẳng thức
 Chứng minh rằng với bốn điểm $A$, $B$, $C$, $D$ bất kì: $\overrightarrow{AB} - \overrightarrow{CD} = \overrightarrow{AC} + \overrightarrow{DB}$.
@@ -173,7 +175,7 @@ Mà $\overrightarrow{DC}=-\overrightarrow{CD}$, nên $\overrightarrow{AB} + \ove
 
 **Vì sao hệ thức thứ nhất đúng?** Nếu $M$ là trung điểm thì $\overrightarrow{MA}$ và $\overrightarrow{MB}$ cùng độ dài và ngược hướng, nên chúng là hai vectơ đối nhau và tổng bằng $\vec{0}$. Ngược lại, tổng bằng $\vec{0}$ nghĩa là $\overrightarrow{MB}=-\overrightarrow{MA}$, nên $M$ nằm giữa $A$, $B$ và $MA=MB$.
 
-Hệ thức trọng tâm khó hơn; ta chứng minh nó bằng quy tắc hình bình hành.
+Hệ thức trọng tâm cần thêm một chút khéo léo: ta dựng thêm một điểm để có hình bình hành. Bạn đọc chậm từng bước, đừng lo nếu lần đầu thấy hơi dài.
 
 :::example Chứng minh hệ thức trọng tâm
 Gọi $G$ là trọng tâm tam giác $ABC$ và $M$ là trung điểm của $BC$. Chứng minh rằng $\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC} = \vec{0}$.
@@ -191,7 +193,7 @@ $$\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC} = \overrightar
 
 ## Lực và vận tốc
 
-Khi hai lực cùng tác dụng lên một vật, lực duy nhất có tác dụng tương đương gọi là **hợp lực**: đó là tổng của hai vectơ lực. Vận tốc cũng cộng như vậy, chẳng hạn vận tốc của chiếc thuyền và của dòng nước.
+Phép cộng vectơ không chỉ là chuyện trên giấy. Khi hai lực cùng tác dụng lên một vật, lực duy nhất có tác dụng tương đương gọi là **hợp lực**: đó là tổng của hai vectơ lực. Vận tốc cũng cộng như vậy, chẳng hạn vận tốc của chiếc thuyền và của dòng nước.
 
 :::diagram Thuyền qua sông
 alt: Hình chữ nhật có đỉnh O. Mũi tên b đi lên từ O (thuyền) và mũi tên c đi sang phải từ O (dòng nước). Mũi tên đường chéo v đi từ O đến đỉnh đối diện. Có kí hiệu góc vuông tại O.
@@ -207,7 +209,7 @@ arrow O C "v"
 right A O B
 :::
 
-Ví dụ cuối là một bài toán thực tế: vận tốc thật của thuyền là tổng của hai vận tốc.
+Ví dụ cuối là chuyện qua sông. Thuyền hướng mũi sang bờ bên kia, nhưng dòng nước cứ đẩy nó trôi xuôi, nên thuyền thật ra đi chéo. Vận tốc thật của thuyền là tổng của hai vận tốc.
 
 :::example Thuyền và dòng nước
 Một chiếc thuyền hướng mũi thẳng sang bờ bên kia và chạy với vận tốc $4$ km/h so với nước. Dòng nước chảy với vận tốc $3$ km/h, vuông góc với hướng của thuyền. Tìm tốc độ của thuyền so với bờ.
@@ -222,6 +224,7 @@ Vậy tốc độ của thuyền so với bờ là $5$ km/h. Đây cũng là tam
 :::
 
 :::warning Những sai lầm thường gặp
+Ba lỗi dưới đây rất hay gặp. Chúng đều có chung một gốc: quên rằng vectơ có hướng.
 - **Cộng thẳng độ dài.** Sai: "$|\vec{b}+\vec{c}|=4+3=7$". Đúng: $|\vec{a} + \vec{b}| \leq |\vec{a}| + |\vec{b}|$, dấu bằng chỉ khi hai vectơ cùng hướng; ở ví dụ chiếc thuyền, tốc độ là $5$.
 - **Đảo thứ tự khi trừ.** Sai: "$\overrightarrow{OA} - \overrightarrow{OB} = \overrightarrow{AB}$". Đúng: $\overrightarrow{OA} - \overrightarrow{OB} = \overrightarrow{BA}$, vectơ hiệu hướng về điểm cuối của vectơ **thứ nhất**.
 - **Dùng quy tắc ba điểm khi hai vectơ không nối đuôi.** Sai: "$\overrightarrow{AB} + \overrightarrow{CB}=\overrightarrow{AC}$". Đúng: $\overrightarrow{AB} + \overrightarrow{CB}=\overrightarrow{AB} - \overrightarrow{BC}$, phải biến đổi tiếp; quy tắc ba điểm cần điểm cuối của vectơ thứ nhất là điểm đầu của vectơ thứ hai.
@@ -251,9 +254,11 @@ Vậy tốc độ của thuyền so với bờ là $5$ km/h. Đây cũng là tam
 - Trung điểm: $\overrightarrow{MA} + \overrightarrow{MB} = \vec{0}$. Trọng tâm: $\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC} = \vec{0}$.
 - Hợp lực, vận tốc thật là tổng vectơ; độ dài tính bằng Pythagore hoặc định lí côsin.
 
+Quay lại câu hỏi đầu bài: đi $700$ m nhưng thư viện chỉ cách nhà $500$ m, vì $\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$. Bạn nhớ điều này nhé: cộng vectơ là gộp các chặng đi lại, và độ dài của tổng thường không bằng tổng các độ dài.
+
 ## Luyện tập
 
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+Mỗi bài có nhắc lại kiến thức cần dùng và gợi ý các bước. Bạn cứ tự làm trước; trước khi cộng, hãy xem hai vectơ nối đuôi hay chung gốc để chọn đúng quy tắc. Sau đó hãy bấm xem lời giải để so.
 
 :::exercise
 Rút gọn: (a) $\overrightarrow{MN} + \overrightarrow{NP} + \overrightarrow{PQ}$; (b) $\overrightarrow{AB} - \overrightarrow{AC}$; (c) $\overrightarrow{AB} + \overrightarrow{BC} - \overrightarrow{AD}$.

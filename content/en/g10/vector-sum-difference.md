@@ -13,15 +13,17 @@ minutes: 25
 
 From home you walk $300$ m east to the school gate, and then $400$ m north to the library. You have walked $700$ m in total. So how far is the library from your home, and in which direction?
 
+Many people would answer "$700$ m" straight away. But if there were a path cutting straight across from home to the library, it would surely be shorter. Because the two legs go in different directions, we cannot simply add the lengths. This lesson shows how to "add" quantities with a direction like these; it is called adding vectors.
+
 ## Adding vectors
 
 ### The triangle rule
 
-Let us draw it. Call home $A$, the school gate $B$ and the library $C$. The first leg is the vector $\overrightarrow{AB}$ of length $300$ m, the second leg is $\overrightarrow{BC}$ of length $400$ m, and the two legs are perpendicular. The overall result of the trip depends only on the start $A$ and the end $C$:
+The surest way is to draw it. Call home $A$, the school gate $B$ and the library $C$. The first leg is the vector $\overrightarrow{AB}$ of length $300$ m, the second leg is $\overrightarrow{BC}$ of length $400$ m, and the two legs are perpendicular. The overall result of the trip depends only on the start $A$ and the end $C$:
 
 $$AC=\sqrt{300^2+400^2}=\sqrt{250\,000}=500\ \text{(m)}.$$
 
-So the library is $500$ m from home, in a direction between east and north, not $700$ m. The two displacements $\overrightarrow{AB}$ and $\overrightarrow{BC}$ combine into **one** displacement $\overrightarrow{AC}$. That is what adding vectors means.
+So the library is $500$ m from home, in a direction between east and north, not $700$ m. Whether you walk the two legs or go straight from $A$ to $C$, you end up standing in the same place. So the two displacements $\overrightarrow{AB}$ and $\overrightarrow{BC}$ combine into **one** displacement $\overrightarrow{AC}$. Adding vectors is exactly this combining.
 
 :::definition Sum of two vectors (triangle rule)
 Take two vectors $\vec{a}$ and $\vec{b}$. Choose any point $A$, draw $\overrightarrow{AB} = \vec{a}$ and then $\overrightarrow{BC} = \vec{b}$. The vector $\overrightarrow{AC}$ is the **sum** of $\vec{a}$ and $\vec{b}$, written $\vec{a}+\vec{b}$. So, for any three points $A$, $B$, $C$:
@@ -38,11 +40,11 @@ arrow B C "b"
 arrow A C "a+b"
 :::
 
-The rule works for **any** three points, even when they lie on one line. The point $B$ in the middle "cancels": the head of the first vector must be the tail of the second.
+The rule works for **any** three points, even when they lie on one line. A way to remember it: the point $B$ in the middle seems to "disappear", leaving only the start and the end. But you may do this only when the vectors are joined head to tail, that is, the head of the first vector is the tail of the second. Many students forget this.
 
 ### The parallelogram rule
 
-If two vectors start from the same point $O$, say $\overrightarrow{OA} = \vec{a}$ and $\overrightarrow{OD} = \vec{b}$, complete the parallelogram $OACD$. Its diagonal from $O$ is the sum.
+The triangle rule needs the vectors joined head to tail. What about two vectors starting from the same point, like two ropes pulling the same cart? Then we use a parallelogram. If two vectors start from the same point $O$, say $\overrightarrow{OA} = \vec{a}$ and $\overrightarrow{OD} = \vec{b}$, complete the parallelogram $OACD$. Its diagonal from $O$ is the sum.
 
 :::theorem Parallelogram rule
 If $OACD$ is a parallelogram, then
@@ -77,7 +79,7 @@ For all vectors $\vec{a}$, $\vec{b}$, $\vec{c}$:
 
 The commutative law is the parallelogram rule in disguise: $\overrightarrow{OA} + \overrightarrow{OD}$ and $\overrightarrow{OD} + \overrightarrow{OA}$ are both the diagonal $\overrightarrow{OC}$. Because of associativity we can add many vectors without brackets. The last rule comes from the triangle rule: $\overrightarrow{AB} + \overrightarrow{BA} = \overrightarrow{AA} = \vec{0}$.
 
-The first example uses only the triangle rule, several times in a row.
+The first example uses only the triangle rule, repeated a few times. Watch how the vectors are rearranged so that they join head to tail.
 
 :::example Closing a loop
 For any four points $A$, $B$, $C$, $D$, simplify $\overrightarrow{AB} + \overrightarrow{CD} + \overrightarrow{BC} + \overrightarrow{DA}$.
@@ -93,7 +95,7 @@ $$\begin{aligned}
 So the sum is $\vec{0}$: a path that returns to its starting point has total displacement $\vec{0}$.
 :::
 
-To find the **length** of a sum, we first turn the sum into a single vector and then measure that segment.
+To find the **length** of a sum, do not rush to add the two lengths. First turn the sum into a single vector, and only then measure that segment.
 
 :::example The length of a sum in a rhombus
 Rhombus $ABCD$ has side $4$ and $\angle BAD=60^\circ$. Find $|\overrightarrow{AB}+\overrightarrow{AD}|$.
@@ -111,14 +113,14 @@ So $|\overrightarrow{AB}+\overrightarrow{AD}|=4\sqrt3$.
 
 ## Subtracting vectors
 
-If adding means "carry on", subtracting means "carry on the other way". We define subtraction through the opposite vector.
+With numbers, subtracting $3$ is the same as adding $-3$. Vectors work the same way: if adding means "carry on", subtracting means "carry on the other way". So we define subtraction through the opposite vector.
 
 :::definition Difference of two vectors
 The **difference** of $\vec{a}$ and $\vec{b}$ is the sum of $\vec{a}$ and the opposite vector of $\vec{b}$:
 $$\vec{a} - \vec{b} = \vec{a} + (-\vec{b}).$$
 :::
 
-The most useful form of subtraction is the following. For any three points $O$, $A$, $B$:
+In practice you will use subtraction most often in this form. For any three points $O$, $A$, $B$:
 $$\overrightarrow{OA} - \overrightarrow{OB} = \overrightarrow{BA}.$$
 **Why?** $\overrightarrow{OA} - \overrightarrow{OB} = \overrightarrow{OA} + \overrightarrow{BO} = \overrightarrow{BO} + \overrightarrow{OA} = \overrightarrow{BA}$. In words: *the difference of two vectors with the same tail is the vector joining their heads, pointing to the head of the first one.*
 
@@ -132,7 +134,7 @@ arrow O B "b"
 arrow B A "a−b"
 :::
 
-The next example puts a sum and a difference side by side in one figure.
+The sum and the difference of the same two vectors often lie along the two diagonals of a parallelogram. The next example puts them side by side so you can see this clearly.
 
 :::example Sum and difference in a rectangle
 $ABCD$ is a rectangle with $AB = 6$ and $AD = 8$. Find $|\overrightarrow{AB} + \overrightarrow{AD}|$ and $|\overrightarrow{AB} - \overrightarrow{AD}|$.
@@ -148,7 +150,7 @@ $$AC = DB = \sqrt{6^2 + 8^2} = 10.$$
 So $|\overrightarrow{AB} + \overrightarrow{AD}| = |\overrightarrow{AB} - \overrightarrow{AD}| = 10$. The vectors $\overrightarrow{AC}$ and $\overrightarrow{DB}$ are different (they point different ways) but have the same length.
 :::
 
-Subtraction also helps us prove vector identities: we transform one side, inserting points with the triangle rule.
+You now have enough tools to prove vector identities. The usual method: pick one side to work on, then "insert" points with the triangle rule until you reach the other side.
 
 :::example Proving an identity
 Prove that for any four points $A$, $B$, $C$, $D$: $\overrightarrow{AB} - \overrightarrow{CD} = \overrightarrow{AC} + \overrightarrow{DB}$.
@@ -173,7 +175,7 @@ Since $\overrightarrow{DC}=-\overrightarrow{CD}$, we have $\overrightarrow{AB} +
 
 **Why does the first identity hold?** If $M$ is the midpoint, then $\overrightarrow{MA}$ and $\overrightarrow{MB}$ have the same length and opposite directions, so they are opposite vectors and their sum is $\vec{0}$. Conversely, a zero sum means $\overrightarrow{MB}=-\overrightarrow{MA}$, so $M$ lies between $A$ and $B$ with $MA=MB$.
 
-The centroid identity is harder; we prove it with the parallelogram rule.
+The centroid identity needs a little more cleverness: we add one extra point to make a parallelogram. Read it slowly, step by step, and do not worry if it feels long the first time.
 
 :::example Proving the centroid identity
 Let $G$ be the centroid of triangle $ABC$ and $M$ the midpoint of $BC$. Prove that $\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC} = \vec{0}$.
@@ -191,7 +193,7 @@ $$\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC} = \overrightar
 
 ## Forces and velocities
 
-When two forces act on the same object, the single force that has the same effect is their **resultant**: the sum of the two force vectors. Velocities add in the same way, for example the velocity of a boat and that of a river current.
+Adding vectors is not just something on paper. When two forces act on the same object, the single force that has the same effect is their **resultant**: the sum of the two force vectors. Velocities add in the same way, for example the velocity of a boat and that of a river current.
 
 :::diagram A boat crossing a river
 alt: A rectangle with corner O. The arrow b goes up from O (the boat) and the arrow c goes right from O (the current). The diagonal arrow v goes from O to the opposite corner. A right-angle mark is at O.
@@ -207,7 +209,7 @@ arrow O C "v"
 right A O B
 :::
 
-The last example is a real-life problem: the true velocity of the boat is the sum of two velocities.
+The last example is about crossing a river. The boat points straight across, but the current keeps pushing it downstream, so the boat actually moves at a slant. The true velocity of the boat is the sum of two velocities.
 
 :::example The boat and the current
 A boat points straight across a river and moves at $4$ km/h relative to the water. The current flows at $3$ km/h, perpendicular to the direction of the boat. Find the speed of the boat relative to the bank.
@@ -222,6 +224,7 @@ So the speed of the boat relative to the bank is $5$ km/h. This is the same $3$-
 :::
 
 :::warning Common mistakes
+These three mistakes are very common. They all have the same root: forgetting that vectors have a direction.
 - **Adding lengths directly.** Wrong: "$|\vec{b}+\vec{c}|=4+3=7$". Right: $|\vec{a} + \vec{b}| \leq |\vec{a}| + |\vec{b}|$, with equality only when the vectors have the same direction; in the boat example the speed is $5$.
 - **Swapping the order when subtracting.** Wrong: "$\overrightarrow{OA} - \overrightarrow{OB} = \overrightarrow{AB}$". Right: $\overrightarrow{OA} - \overrightarrow{OB} = \overrightarrow{BA}$; the difference points to the head of the **first** vector.
 - **Using the triangle rule when the vectors are not head to tail.** Wrong: "$\overrightarrow{AB} + \overrightarrow{CB}=\overrightarrow{AC}$". Right: $\overrightarrow{AB} + \overrightarrow{CB}=\overrightarrow{AB} - \overrightarrow{BC}$, which needs more work; the triangle rule needs the head of the first vector to be the tail of the second.
@@ -251,9 +254,11 @@ So the speed of the boat relative to the bank is $5$ km/h. This is the same $3$-
 - Midpoint: $\overrightarrow{MA} + \overrightarrow{MB} = \vec{0}$. Centroid: $\overrightarrow{GA} + \overrightarrow{GB} + \overrightarrow{GC} = \vec{0}$.
 - A resultant force or a true velocity is a vector sum; find its length with Pythagoras' theorem or the cosine rule.
 
+Back to the opening question: you walked $700$ m, yet the library is only $500$ m from home, because $\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$. Keep this in mind: adding vectors combines the legs of a journey, and the length of a sum is usually not the sum of the lengths.
+
 ## Practice
 
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+Each exercise reminds you what you need and gives some steps to start. Have a go yourself first; before adding, check whether the vectors are head to tail or share a starting point, so that you choose the right rule. Then open the solution and compare.
 
 :::exercise
 Simplify: (a) $\overrightarrow{MN} + \overrightarrow{NP} + \overrightarrow{PQ}$; (b) $\overrightarrow{AB} - \overrightarrow{AC}$; (c) $\overrightarrow{AB} + \overrightarrow{BC} - \overrightarrow{AD}$.
