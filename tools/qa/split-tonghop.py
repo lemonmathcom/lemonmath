@@ -2,7 +2,8 @@
 
     python3 tools/qa/split-tonghop.py <file-tong-hop.md> <thư mục ra>
 
-Nhận ba dạng đã gặp:
+Nhận bốn dạng đã gặp:
+- "<!-- ===== FILE: vi/<id>.md ... ===== -->" hoặc "<!-- ===== BEGIN Bxxx | vi | <id>.md ===== -->" (kiểu Kinangtoan, thichgiaitoan, Alexnguyen122222 đợt 2);
 - "## Bxxx · <id> · Tiếng Việt|English" rồi front matter --- (kiểu Nguyenchanh2358);
 - "===== Bxxx | id: <id> | ... | bản: VI|EN | ... =====" rồi nội dung bài (kiểu Alexnguyen122222);
 - "# Bxxx · lớp N · <id>" rồi "## 🇻🇳 ..." / "## 🇬🇧 ..." với front matter trong khối ```yaml (kiểu Lemonmath112).
@@ -30,4 +31,10 @@ for k in range(1,len(blocks),4):
     a=body.index('---\n'); body=body[a:].rstrip()
     body=re.sub(r'\n---\s*$','',body)
     w('VI' if L=='Tiếng Việt' else 'EN',i,body.strip()+"\n")
+t2=re.sub(r'^<!-- ===== END .*?-->\s*$','',t,flags=re.M)
+blocks=re.split(r'^<!-- ===== (?:FILE: (vi|en)/([\w-]+)\.md[^\n]*?|BEGIN B\d+ \| (vi|en) \| ([\w-]+)\.md) ===== -->\s*$',t2,flags=re.M)
+for k in range(1,len(blocks),5):
+    L1,i1,L2,i2,body=blocks[k:k+5]
+    L=(L1 or L2).upper(); i=i1 or i2
+    w(L,i,body.strip()+"\n")
 print(f'Đã tách {n} file vào {out}')
