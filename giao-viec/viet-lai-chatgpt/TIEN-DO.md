@@ -55,3 +55,8 @@ Quyết định 12/11/2026: bản ChatGPT nộp (sinh bằng script, gợi ý ch
 | B139 | 7 | dividing-polynomials | Phép chia đa thức | giao Lemonmath112 (đợt 2, 13/11) |
 | B140 | 7 | intro-to-events | Làm quen với biến cố và xác suất | giao Lemonmath112 (đợt 2, 13/11) |
 | B141 | 7 | angles-and-opposite-sides | Quan hệ giữa góc và cạnh đối diện trong tam giác | giao Vinax.vn (đợt 2, 13/11) |
+
+## 17/11/2026: đổi cách giao 23 bài lớp 7
+Chín tài khoản được giao 13/11 chưa nộp bài nào, nên chủ dự án chuyển sang chia thành 5 gói theo chương cho 5 tài khoản Claude Free: `giao-viec/dot2-lop7-5goi/GOI-1..5.txt`.
+- GOI-1: B119–B123 (số hữu tỉ); GOI-2: B124–B128 (số thực, góc và đường song song); GOI-3: B129–B132 (tam giác bằng nhau); GOI-4: B135–B139 (tỉ lệ thức, đa thức); GOI-5: B133, B134, B140, B141 (thống kê, xác suất, góc–cạnh).
+- Tài khoản nhận gói nào ghi vào đây khi giao. Bài về: intake.py như thường lệ.
