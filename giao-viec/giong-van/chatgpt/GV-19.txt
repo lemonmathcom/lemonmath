@@ -1,0 +1,3449 @@
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – GV-19
+Gồm 10 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/act/act-practice-test-1, exams/act/act-statistics-probability, exams/ap-calculus/apcalc-accumulation-ftc, exams/ap-calculus/apcalc-analytical-applications, exams/ap-calculus/apcalc-area-volume, exams/ap-calculus/apcalc-bc-parametric-polar, exams/ap-calculus/apcalc-bc-series, exams/ap-calculus/apcalc-contextual-applications, exams/ap-calculus/apcalc-differential-equations, exams/ap-calculus/apcalc-differentiation-rules
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  GV-ChatGPT-GV-19.md  (trong /mnt/data), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/data/GV-ChatGPT-GV-19.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/10). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file GV-ChatGPT-GV-19.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/act/act-practice-test-1 – BẢN TIẾNG VIỆT ########
+---
+title: Đề luyện ACT Math số 1
+description: Đề luyện ACT Math trọn vẹn theo cấu trúc mới: 45 câu trắc nghiệm trong 50 phút, chấm điểm ngay, có lời giải cho từng câu.
+minutes: 50
+type: test
+---
+
+[[P1·6fe9]]
+Đề luyện này theo cấu trúc ACT Math mới: **45 câu, 50 phút, 4 phương án, được dùng máy tính, trả lời sai không bị trừ điểm**. Mọi câu hỏi đều do Lemonmath soạn; đây không phải câu hỏi ACT thật, nhưng bao quát các mảng nội dung chính thức ở đúng mức độ của kì thi. Các câu khó dần, như trong đề thật.
+
+## Cách làm đề
+
+[[P2·a5a7]]
+1. Bấm giờ **50 phút** (khoảng 67 giây mỗi câu) và làm mà không xem lời giải.
+2. Làm lượt đầu qua tất cả các câu, bỏ qua câu chậm, rồi quay lại sau.
+3. Trong phút cuối, điền hết các câu còn lại: đoán không thể làm giảm điểm của bạn.
+4. Nộp bài để xem số câu đúng, rồi đọc lời giải của mọi câu sai.
+
+## Đề thi
+
+:::quiz test
+   (… 404 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Sau khi làm đề
+
+[[P3·7240]]
+Số câu đúng là điểm thô của bạn trên 45. ACT quy đổi điểm thô sang thang 1–36 bằng một bảng khác nhau theo từng đề, nên đề luyện này không đưa ra điểm quy đổi. Hãy dùng bảng dưới để biết mỗi câu sai cần ôn lại bài nào.
+
+| Câu | Bài cần ôn |
+|---|---|
+| 1 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 2 | [Số, đại lượng và tỉ lệ](lesson:act-number-quantity) |
+| 3 | [Số, đại lượng và tỉ lệ](lesson:act-number-quantity) |
+| 4 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 5 | [Số, đại lượng và tỉ lệ](lesson:act-number-quantity) |
+| 6 | [Thống kê và xác suất](lesson:act-statistics-probability) |
+| 7 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 8 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 9 | [Số, đại lượng và tỉ lệ](lesson:act-number-quantity) |
+| 10 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 11 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 12 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 13 | [Thống kê và xác suất](lesson:act-statistics-probability) |
+| 14 | [Số, đại lượng và tỉ lệ](lesson:act-number-quantity) |
+| 15 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 16 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 17 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 18 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 19 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 20 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 21 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 22 | [Thống kê và xác suất](lesson:act-statistics-probability) |
+| 23 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 24 | [Số, đại lượng và tỉ lệ](lesson:act-number-quantity) |
+| 25 | [Thống kê và xác suất](lesson:act-statistics-probability) |
+| 26 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 27 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 28 | [Mô hình hoá và bài tổng hợp](lesson:act-modelling-integrating) |
+| 29 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 30 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 31 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 32 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 33 | [Thống kê và xác suất](lesson:act-statistics-probability) |
+| 34 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 35 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 36 | [Thống kê và xác suất](lesson:act-statistics-probability) |
+| 37 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 38 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 39 | [Mô hình hoá và bài tổng hợp](lesson:act-modelling-integrating) |
+| 40 | [Hình học phẳng, toạ độ và lượng giác](lesson:act-geometry) |
+| 41 | [Số, đại lượng và tỉ lệ](lesson:act-number-quantity) |
+| 42 | [Đại số và hàm số](lesson:act-algebra-functions) |
+| 43 | [Mô hình hoá và bài tổng hợp](lesson:act-modelling-integrating) |
+| 44 | [Thống kê và xác suất](lesson:act-statistics-probability) |
+| 45 | [Mô hình hoá và bài tổng hợp](lesson:act-modelling-integrating) |
+
+[[P4·c93f]]
+Sau đó ôn lại bằng bài [ACT Math gồm những gì và cách ôn](lesson:act-overview), và ghi mọi lỗi sai vào sổ lỗi sai.
+
+
+######## BÀI exams/act/act-practice-test-1 – BẢN TIẾNG ANH ########
+---
+title: ACT Math practice test 1
+description: A full ACT Math practice test in the enhanced format: 45 multiple-choice questions in 50 minutes, marked instantly, with a solution to every question.
+minutes: 50
+type: test
+---
+
+[[P1·395d]]
+This practice test follows the enhanced ACT Math format: **45 questions, 50 minutes, 4 answer options, calculator allowed, no penalty for wrong answers**. All questions are written by Lemonmath; they are not real ACT questions, but they cover the official content areas at the level of the test. The questions get gradually harder, as on the real test.
+
+## How to take this test
+
+[[P2·0981]]
+1. Set a timer for **50 minutes** (about 67 seconds per question) and work without looking at the solutions.
+2. Make a first pass through all the questions, skip the slow ones, and come back to them.
+3. In the last minute, answer every remaining question: a guess cannot lower your score.
+4. Submit to see how many questions you got right, then read the solution of every question you missed.
+
+## The test
+
+:::quiz test
+   (… 404 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## After the test
+
+[[P3·decd]]
+The number of correct answers is your raw score out of 45. ACT converts raw scores to the 1–36 scale with a table that differs from test to test, so this practice test does not give a scaled score. Use the table below to find which lesson to revise for each question you missed.
+
+| Question | Lesson |
+|---|---|
+| 1 | [Algebra and functions](lesson:act-algebra-functions) |
+| 2 | [Number, quantity and proportion](lesson:act-number-quantity) |
+| 3 | [Number, quantity and proportion](lesson:act-number-quantity) |
+| 4 | [Algebra and functions](lesson:act-algebra-functions) |
+| 5 | [Number, quantity and proportion](lesson:act-number-quantity) |
+| 6 | [Statistics and probability](lesson:act-statistics-probability) |
+| 7 | [Algebra and functions](lesson:act-algebra-functions) |
+| 8 | [Algebra and functions](lesson:act-algebra-functions) |
+| 9 | [Number, quantity and proportion](lesson:act-number-quantity) |
+| 10 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 11 | [Algebra and functions](lesson:act-algebra-functions) |
+| 12 | [Algebra and functions](lesson:act-algebra-functions) |
+| 13 | [Statistics and probability](lesson:act-statistics-probability) |
+| 14 | [Number, quantity and proportion](lesson:act-number-quantity) |
+| 15 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 16 | [Algebra and functions](lesson:act-algebra-functions) |
+| 17 | [Algebra and functions](lesson:act-algebra-functions) |
+| 18 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 19 | [Algebra and functions](lesson:act-algebra-functions) |
+| 20 | [Algebra and functions](lesson:act-algebra-functions) |
+| 21 | [Algebra and functions](lesson:act-algebra-functions) |
+| 22 | [Statistics and probability](lesson:act-statistics-probability) |
+| 23 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 24 | [Number, quantity and proportion](lesson:act-number-quantity) |
+| 25 | [Statistics and probability](lesson:act-statistics-probability) |
+| 26 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 27 | [Algebra and functions](lesson:act-algebra-functions) |
+| 28 | [Modelling and integrating skills](lesson:act-modelling-integrating) |
+| 29 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 30 | [Algebra and functions](lesson:act-algebra-functions) |
+| 31 | [Algebra and functions](lesson:act-algebra-functions) |
+| 32 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 33 | [Statistics and probability](lesson:act-statistics-probability) |
+| 34 | [Algebra and functions](lesson:act-algebra-functions) |
+| 35 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 36 | [Statistics and probability](lesson:act-statistics-probability) |
+| 37 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 38 | [Algebra and functions](lesson:act-algebra-functions) |
+| 39 | [Modelling and integrating skills](lesson:act-modelling-integrating) |
+| 40 | [Geometry, coordinates and trigonometry](lesson:act-geometry) |
+| 41 | [Number, quantity and proportion](lesson:act-number-quantity) |
+| 42 | [Algebra and functions](lesson:act-algebra-functions) |
+| 43 | [Modelling and integrating skills](lesson:act-modelling-integrating) |
+| 44 | [Statistics and probability](lesson:act-statistics-probability) |
+| 45 | [Modelling and integrating skills](lesson:act-modelling-integrating) |
+
+[[P4·c4d3]]
+Then review with [What ACT Math tests and how to prepare](lesson:act-overview), and keep an error log of every mistake.
+
+
+######## BÀI exams/act/act-statistics-probability – BẢN TIẾNG VIỆT ########
+---
+title: Thống kê và xác suất
+description: ACT Math thống kê và xác suất: trung bình, trung vị, mốt, độ phân tán, giá trị còn thiếu, đếm, xác suất của biến cố kết hợp, bảng hai chiều, kì vọng.
+minutes: 45
+---
+
+  :::goals
+  - Tìm và so sánh trung bình, trung vị, mốt, khoảng biến thiên, và nhận xét tập dữ liệu nào phân tán hơn.
+  - Tìm giá trị còn thiếu khi biết trung bình, kể cả trung bình có trọng số.
+  - Đếm số cách sắp xếp và lựa chọn bằng quy tắc nhân, hoán vị và tổ hợp.
+  - Tính xác suất của biến cố đơn và biến cố kết hợp, kể cả xác suất có điều kiện từ bảng.
+  - Tính giá trị kì vọng.
+  :::
+
+[[P1·bf06]]
+Câu hỏi thống kê và xác suất trong ACT hiếm khi cần tính toán dài. Chúng kiểm tra xem bạn có hiểu chính xác ý nghĩa của từng số đặc trưng và biết dùng quy tắc đếm nào. Một câu điển hình cho một tập dữ liệu nhỏ, một bảng hoặc một mô tả ngắn, và hỏi một con số. Hãy viết quy tắc bạn dùng trước khi tính; điều đó ngăn được phần lớn lỗi sai.
+
+## Trung bình, trung vị, mốt và độ phân tán
+
+[[P2·b2e8]]
+**Số trung bình (mean)** là tổng chia cho số giá trị; **trung vị (median)** là giá trị đứng giữa của dãy đã sắp xếp (trung bình của hai giá trị giữa nếu số giá trị chẵn); **mốt (mode)** là giá trị xuất hiện nhiều nhất; **khoảng biến thiên (range)** là giá trị lớn nhất trừ giá trị nhỏ nhất. **Độ lệch chuẩn (standard deviation)** đo mức các giá trị thường cách xa trung bình: dữ liệu càng phân tán thì độ lệch chuẩn càng lớn.
+
+  :::example Ba số đặc trưng đo xu thế trung tâm
+  Với dữ liệu $4, 7, 7, 9, 13$, khẳng định nào đúng?
+  A. Số trung bình lớn hơn trung vị.
+  B. Trung vị lớn hơn số trung bình.
+  C. Mốt lớn hơn trung vị.
+  D. Số trung bình, trung vị và mốt bằng nhau.
+
+  **Lời giải.** Số trung bình là $\dfrac{4+7+7+9+13}{5}=\dfrac{40}{5}=8$.
+
+  Dữ liệu đã được sắp xếp, nên trung vị là giá trị thứ ba, bằng $7$. Mốt là $7$, vì nó xuất hiện hai lần.
+
+  Vì $8>7$ nên số trung bình lớn hơn trung vị.
+
+  Vậy khẳng định A đúng, chọn đáp án **A**.
+  :::
+
+  :::example Điểm cần đạt
+  Điểm trung bình của Minh trong $5$ bài kiểm tra là $82$. Minh cần đạt bao nhiêu điểm ở bài thứ sáu để điểm trung bình tăng lên $85$?
+  A. $85$
+  B. $88$
+  C. $95$
+  D. $100$
+
+  **Lời giải.** Tổng điểm của $5$ bài đầu là $5\times82=410$.
+
+  Để trung bình của $6$ bài là $85$, tổng điểm phải bằng $6\times85=510$.
+
+  Do đó điểm bài thứ sáu phải là $510-410=100$.
+
+  Vậy Minh cần đạt $100$ điểm, chọn đáp án **D**. Phương án B cộng hiệu $3$ vào $85$ thay vì làm việc với các tổng.
+  :::
+
+## Đếm
+
+[[P3·a830]]
+Theo **quy tắc nhân**, nếu một lựa chọn có $m$ cách và lựa chọn thứ hai có $n$ cách thì cả hai lựa chọn có $mn$ cách. Số cách xếp $n$ đồ vật khác nhau thành một hàng là $n!$. Số cách chọn $r$ đồ vật từ $n$ đồ vật, khi không tính thứ tự, là $\dbinom nr=\dfrac{n!}{r!(n-r)!}$.
+
+  :::example Có thứ tự hay không
+  Một câu lạc bộ có $8$ thành viên. Có bao nhiêu cách chọn một ban gồm $3$ thành viên?
+  A. $336$
+  B. $56$
+  C. $24$
+  D. $512$
+
+  **Lời giải.** Thứ tự các thành viên trong một ban không quan trọng, nên ta đếm tổ hợp:
+  $$\binom83=\frac{8\times7\times6}{3\times2\times1}=56.$$
+
+  Vậy có $56$ cách chọn ban, chọn đáp án **B**. Phương án A đếm các cách chọn có thứ tự, chẳng hạn chủ tịch, thư kí và thủ quỹ.
+  :::
+
+## Xác suất
+
+[[P4·a45a]]
+Với các kết quả đồng khả năng, $P(A)=\dfrac{\text{số kết quả thuận lợi}}{\text{số kết quả có thể}}$. Với hai biến cố **độc lập**, $P(A\text{ và }B)=P(A)P(B)$. Xác suất để $A$ không xảy ra là $1-P(A)$. **Xác suất có điều kiện** chỉ xét các kết quả thoả mãn điều kiện.
+
+  :::example Một đồng xu và một con xúc xắc
+  Tung một đồng xu cân đối và gieo một con xúc xắc cân đối sáu mặt. Xác suất được mặt ngửa và mặt $6$ chấm là
+  A. $\dfrac{1}{12}$
+  B. $\dfrac{2}{3}$
+  C. $\dfrac{1}{8}$
+  D. $\dfrac{7}{12}$
+
+  **Lời giải.** Đồng xu và con xúc xắc không ảnh hưởng đến nhau, nên hai biến cố độc lập:
+  $$P(\text{ngửa và }6)=\frac12\times\frac16=\frac{1}{12}.$$
+
+  Vậy xác suất cần tìm là $\dfrac{1}{12}$, chọn đáp án **A**. Phương án B cộng hai xác suất thay vì nhân.
+  :::
+
+  :::example Xác suất có điều kiện từ bảng
+  Một khảo sát hỏi $100$ người xem họ có uống trà và có uống cà phê hay không.
+
+  | | Cà phê | Không cà phê | Tổng |
+  |---|---|---|---|
+  | Trà | $25$ | $15$ | $40$ |
+  | Không trà | $35$ | $25$ | $60$ |
+  | Tổng | $60$ | $40$ | $100$ |
+
+  Chọn ngẫu nhiên một người uống trà. Xác suất người đó cũng uống cà phê là
+  A. $\dfrac14$
+  B. $\dfrac{5}{12}$
+  C. $\dfrac58$
+  D. $\dfrac35$
+
+  **Lời giải.** Điều kiện "uống trà" giới hạn ta trong $40$ người ở hàng Trà. Trong số đó, $25$ người cũng uống cà phê.
+
+  Do đó xác suất là
+  $$\frac{25}{40}=\frac58.$$
+
+  Vậy xác suất cần tìm là $\dfrac58$, chọn đáp án **C**. Phương án A chia cho $100$, còn phương án B chia cho $60$ người uống cà phê.
+  :::
+
+## Giá trị kì vọng
+
+[[P5·57b2]]
+Giá trị kì vọng của một biến ngẫu nhiên là $E(X)=\sum x\,P(X=x)$: kết quả trung bình mỗi lần thử khi lặp lại rất nhiều lần.
+
+  :::example Có nên chơi trò này không?
+  Trong một trò chơi, người chơi thắng $10$ đô la với xác suất $0{,}2$, ngược lại thì thua $3$ đô la. Số tiền lãi kì vọng mỗi ván là
+  A. $7$ đô la
+  B. $-0{,}4$ đô la
+  C. $2$ đô la
+  D. $0{,}4$ đô la
+
+  **Lời giải.** Người chơi thua với xác suất $1-0{,}2=0{,}8$. Do đó
+  $$E=10(0{,}2)+(-3)(0{,}8)=2-2{,}4=-0{,}4.$$
+
+  Vậy số tiền lãi kì vọng là $-0{,}4$ đô la mỗi ván, tức trung bình mỗi ván lỗ $40$ xu, chọn đáp án **B**.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P6·8059]]
+- **Trung vị của dữ liệu chưa sắp xếp:** hãy sắp xếp trước.
+- **Bài toán về trung bình:** làm việc với tổng, không làm với hiệu các trung bình.
+- **Hoán vị hay tổ hợp:** thứ tự có quan trọng không? Một ban: không; xếp hạng hay các vai trò khác nhau: có.
+- **"Và" với "hoặc":** nhân với "và" khi các biến cố độc lập; với "hoặc", cộng rồi trừ phần chung.
+- **Mẫu số của xác suất có điều kiện** là tổng của nhóm thoả điều kiện, không phải tổng chung.
+:::
+
+  :::terms
+  - mean, median, mode, range | trung bình, trung vị, mốt, khoảng biến thiên
+  - standard deviation | độ lệch chuẩn
+  - weighted average | trung bình có trọng số
+  - multiplication principle | quy tắc nhân
+  - permutation, combination | hoán vị, tổ hợp
+  - independent events | biến cố độc lập
+  - conditional probability | xác suất có điều kiện
+  - expected value | giá trị kì vọng
+  :::
+
+## Bài tập tương tự
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise
+   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/act/act-statistics-probability – BẢN TIẾNG ANH ########
+---
+title: Statistics and probability
+description: ACT Math statistics and probability: mean, median, mode and spread, missing values, counting, probability of combined events, two-way tables, expected value.
+minutes: 45
+---
+
+  :::goals
+  - Find and compare the mean, median, mode and range, and judge which data set is more spread out.
+  - Find a missing value from a given mean, including weighted averages.
+  - Count arrangements and selections with the multiplication principle, permutations and combinations.
+  - Find probabilities of single and combined events, including conditional probability from a table.
+  - Calculate an expected value.
+  :::
+
+[[P1·4a8e]]
+Statistics and probability questions on the ACT rarely need long calculations. They test whether you know exactly what each measure means and which counting rule to use. A typical question gives a small data set, a table or a short description, and asks for one number. Write the rule you use before you calculate; it prevents most errors.
+
+## Mean, median, mode and spread
+
+[[P2·f04e]]
+The **mean** is the sum divided by the number of values; the **median** is the middle value of the ordered data (the mean of the two middle values when there is an even number of values); the **mode** is the most frequent value; the **range** is the largest value minus the smallest. The **standard deviation** measures how far the values typically are from the mean: more spread out data has a larger standard deviation.
+
+  :::example Three measures of center
+  For the data $4, 7, 7, 9, 13$, which statement is true?
+  A. The mean is greater than the median.
+  B. The median is greater than the mean.
+  C. The mode is greater than the median.
+  D. The mean, median and mode are all equal.
+
+  **Solution.** The mean is $\dfrac{4+7+7+9+13}{5}=\dfrac{40}{5}=8$.
+
+  The data are already in order, so the median is the third value, $7$. The mode is $7$, because it appears twice.
+
+  Since $8>7$, the mean is greater than the median.
+
+  So statement A is true, answer **A**.
+  :::
+
+  :::example The score needed
+  Minh's mean score on $5$ tests is $82$. What score does he need on the sixth test to raise his mean to $85$?
+  A. $85$
+  B. $88$
+  C. $95$
+  D. $100$
+
+  **Solution.** The total of the first $5$ scores is $5\times82=410$.
+
+  For a mean of $85$ over $6$ tests, the total must be $6\times85=510$.
+
+  So the sixth score must be $510-410=100$.
+
+  So Minh needs a score of $100$, answer **D**. Option B adds the difference $3$ to $85$ instead of working with totals.
+  :::
+
+## Counting
+
+[[P3·99a3]]
+By the **multiplication principle**, if one choice can be made in $m$ ways and a second in $n$ ways, both can be made in $mn$ ways. The number of ways to arrange $n$ different objects in a row is $n!$. The number of ways to choose $r$ objects from $n$, when order does not matter, is $\dbinom nr=\dfrac{n!}{r!(n-r)!}$.
+
+  :::example Order or no order
+  A club has $8$ members. In how many ways can a committee of $3$ members be chosen?
+  A. $336$
+  B. $56$
+  C. $24$
+  D. $512$
+
+  **Solution.** The order of the members in a committee does not matter, so we count combinations:
+  $$\binom83=\frac{8\times7\times6}{3\times2\times1}=56.$$
+
+  So there are $56$ possible committees, answer **B**. Option A counts ordered choices, such as president, secretary and treasurer.
+  :::
+
+## Probability
+
+[[P4·c07e]]
+For equally likely outcomes, $P(A)=\dfrac{\text{number of favorable outcomes}}{\text{number of outcomes}}$. For **independent** events, $P(A\text{ and }B)=P(A)P(B)$. The probability that $A$ does not happen is $1-P(A)$. A **conditional** probability restricts the outcomes to those satisfying the condition.
+
+  :::example A coin and a die
+  A fair coin is tossed and a fair six-sided die is rolled. What is the probability of getting heads and a $6$?
+  A. $\dfrac{1}{12}$
+  B. $\dfrac{2}{3}$
+  C. $\dfrac{1}{8}$
+  D. $\dfrac{7}{12}$
+
+  **Solution.** The coin and the die do not affect each other, so the events are independent:
+  $$P(\text{heads and }6)=\frac12\times\frac16=\frac{1}{12}.$$
+
+  So the probability is $\dfrac{1}{12}$, answer **A**. Option B adds the probabilities instead of multiplying.
+  :::
+
+  :::example Conditional probability from a table
+  A survey asked $100$ people whether they drink tea and whether they drink coffee.
+
+  | | Coffee | No coffee | Total |
+  |---|---|---|---|
+  | Tea | $25$ | $15$ | $40$ |
+  | No tea | $35$ | $25$ | $60$ |
+  | Total | $60$ | $40$ | $100$ |
+
+  If a person who drinks tea is chosen at random, what is the probability that this person also drinks coffee?
+  A. $\dfrac14$
+  B. $\dfrac{5}{12}$
+  C. $\dfrac58$
+  D. $\dfrac35$
+
+  **Solution.** The condition "drinks tea" restricts us to the $40$ people in the Tea row. Of these, $25$ also drink coffee.
+
+  So the probability is
+  $$\frac{25}{40}=\frac58.$$
+
+  So the probability is $\dfrac58$, answer **C**. Option A divides by $100$, and option B divides by the $60$ coffee drinkers.
+  :::
+
+## Expected value
+
+[[P5·558d]]
+The expected value of a random variable is $E(X)=\sum x\,P(X=x)$: the long-run average result per trial.
+
+  :::example Is the game worth playing?
+  In a game, a player wins $10$ dollars with probability $0.2$ and loses $3$ dollars otherwise. What is the expected gain per game?
+  A. $7$ dollars
+  B. $-0.4$ dollars
+  C. $2$ dollars
+  D. $0.4$ dollars
+
+  **Solution.** The player loses with probability $1-0.2=0.8$. So
+  $$E=10(0.2)+(-3)(0.8)=2-2.4=-0.4.$$
+
+  So the expected gain is $-0.4$ dollars per game, a loss of $40$ cents on average, answer **B**.
+  :::
+
+:::warning Common traps
+[[P6·65a2]]
+- **The median of unordered data:** sort first.
+- **Mean problems:** work with totals, not with differences of means.
+- **Permutations and combinations:** does order matter? A committee: no; a ranking or different roles: yes.
+- **"And" and "or":** multiply for independent "and"; for "or", add and subtract the overlap.
+- **The denominator of a conditional probability** is the total of the condition, not the grand total.
+:::
+
+  :::terms
+  - mean, median, mode, range | trung bình, trung vị, mốt, khoảng biến thiên
+  - standard deviation | độ lệch chuẩn
+  - weighted average | trung bình có trọng số
+  - multiplication principle | quy tắc nhân
+  - permutation, combination | hoán vị, tổ hợp
+  - independent events | biến cố độc lập
+  - conditional probability | xác suất có điều kiện
+  - expected value | giá trị kì vọng
+  :::
+
+## Similar exercises
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise
+   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-accumulation-ftc – BẢN TIẾNG VIỆT ########
+---
+title: Tổng Riemann, tích luỹ và định lí cơ bản của giải tích
+description: AP Calculus Unit 6, phần 1: tổng Riemann và tổng hình thang từ bảng số, tích phân là lượng tích luỹ, hai phần của định lí cơ bản.
+minutes: 50
+---
+
+  :::goals
+  - Xấp xỉ tích phân xác định bằng tổng trái, tổng phải, tổng điểm giữa và tổng hình thang, kể cả từ bảng số có khoảng không đều.
+  - Xác định một giá trị xấp xỉ là lớn hơn hay nhỏ hơn giá trị thật.
+  - Hiểu $\displaystyle\int_a^b r(t)\,dt$ là lượng thay đổi ròng của một đại lượng, kèm đơn vị.
+  - Dùng định lí cơ bản của giải tích để tính tích phân và lấy đạo hàm của hàm tích luỹ.
+  - Khảo sát $g(x)=\displaystyle\int_a^x f(t)\,dt$ từ đồ thị của $f$.
+  :::
+
+[[P1·81c4]]
+Unit 6 đặt câu hỏi ngược với đạo hàm: thay vì "đại lượng thay đổi nhanh đến mức nào?", ta hỏi "đã tích luỹ được bao nhiêu?". Ý tưởng này có mặt khắp đề AP. Gần như phần tự luận nào cũng mở đầu bằng một tốc độ cho dưới dạng bảng hoặc công thức, rồi hỏi một tổng Riemann, một lượng thay đổi toàn phần hay giá trị của đại lượng ở thời điểm sau. Bài này trình bày phần cốt lõi của unit; bài tiếp theo về kĩ thuật tính tích phân sẽ nói về phép đổi biến và các cách tìm nguyên hàm khác.
+
+## Tổng Riemann từ bảng số
+
+[[P2·2c27]]
+Để xấp xỉ $\displaystyle\int_a^b f(x)\,dx$, chia $[a,b]$ thành các khoảng nhỏ rồi cộng các tích (độ rộng) × (chiều cao). Chiều cao lấy ở đầu mút trái, đầu mút phải hoặc điểm giữa; **tổng hình thang** lấy trung bình chiều cao bên trái và bên phải. Các khoảng nhỏ không cần bằng nhau: bảng số trong đề AP thường có các mốc thời gian không đều.
+
+  :::example Nước chảy vào bể
+  Nước chảy vào một bể với tốc độ $R(t)$ lít mỗi phút. Bảng dưới cho một số giá trị.
+
+  | $t$ (phút) | $0$ | $2$ | $5$ | $7$ | $10$ |
+  |---|---|---|---|---|---|
+  | $R(t)$ (lít mỗi phút) | $4$ | $7$ | $9$ | $6$ | $5$ |
+
+  Dùng tổng hình thang với bốn khoảng trong bảng để xấp xỉ $\displaystyle\int_0^{10}R(t)\,dt$, rồi giải thích ý nghĩa của nó.
+
+  **Lời giải.** Độ rộng các khoảng là $2$, $3$, $2$, $3$.
+  $$2\cdot\frac{4+7}{2}+3\cdot\frac{7+9}{2}+2\cdot\frac{9+6}{2}+3\cdot\frac{6+5}{2}=11+24+15+16{,}5=66{,}5.$$
+  Khoảng $66{,}5$ lít nước chảy vào bể trong $10$ phút đầu. Để so sánh, tổng trái bằng $65$ và tổng phải bằng $68$.
+  :::
+
+  :::example Lớn hơn hay nhỏ hơn?
+  Hàm số $f$ đồng biến trên $[0,4]$. Gọi $L$ và $R$ là tổng Riemann trái và phải với bốn khoảng bằng nhau. Khẳng định nào chắc chắn đúng?
+  A. $L<\displaystyle\int_0^4 f(x)\,dx<R$
+  B. $R<\displaystyle\int_0^4 f(x)\,dx<L$
+  C. Cả hai tổng đều lớn hơn tích phân.
+  D. Cả hai tổng đều nhỏ hơn tích phân.
+
+  **Lời giải.** Trên mỗi khoảng nhỏ của một hàm đồng biến, chiều cao bên trái là giá trị nhỏ nhất và chiều cao bên phải là giá trị lớn nhất: đáp án **A**. Với hình thang, tính lồi lõm quyết định: nếu $f$ lõm lên (concave up) thì mỗi dây cung nằm trên đồ thị và tổng hình thang lớn hơn giá trị thật; nếu $f$ lõm xuống thì tổng hình thang nhỏ hơn.
+  :::
+
+## Định lí cơ bản của giải tích
+
+  :::theorem Định lí cơ bản của giải tích
+  **Phần 1.** Nếu $f$ liên tục thì $\dfrac{d}{dx}\displaystyle\int_a^x f(t)\,dt=f(x)$. Kết hợp quy tắc chuỗi: $\dfrac{d}{dx}\displaystyle\int_a^{u(x)}f(t)\,dt=f\big(u(x)\big)\cdot u'(x)$.
+
+  **Phần 2.** Nếu $F'=f$ và $f$ liên tục trên $[a,b]$ thì $\displaystyle\int_a^b f(x)\,dx=F(b)-F(a)$.
+  :::
+
+:::note Các nguyên hàm cần thuộc lòng
+[[P3·7ac1]]
+$$\int x^n\,dx=\frac{x^{n+1}}{n+1}+C\ (n\ne-1),\quad\int\frac1x\,dx=\ln|x|+C,$$
+$$\int e^x\,dx=e^x+C,\quad\int\cos x\,dx=\sin x+C,\quad\int\sin x\,dx=-\cos x+C,$$
+$$\int\sec^2x\,dx=\tan x+C,\quad\int\frac{dx}{1+x^2}=\arctan x+C.$$
+:::
+
+  :::example Tính tích phân bằng Phần 2
+  Tích phân $\displaystyle\int_1^3\left(3x^2-2x\right)dx$ bằng
+  A. $16$
+  B. $20$
+  C. $18$
+  D. $26$
+
+  **Lời giải.** Một nguyên hàm là $x^3-x^2$. Tích phân bằng $(27-9)-(1-1)=18$: đáp án **C**.
+  :::
+
+  :::example Lấy đạo hàm bằng Phần 1
+  Cho $g(x)=\displaystyle\int_0^{x^2}\sin t\,dt$. Tìm $g'(x)$.
+
+  **Lời giải.** Cận trên là $u=x^2$, nên $g'(x)=\sin\left(x^2\right)\cdot2x=2x\sin\left(x^2\right)$. Không cần tính tích phân trước.
+  :::
+
+## Hàm tích luỹ đọc từ đồ thị
+
+:::graph Đồ thị của $f$ trên $[0,6]$, gồm ba đoạn thẳng
+   (… 10 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Đọc diện tích thành giá trị của g
+  Đồ thị của $f$ cho ở trên. Đặt $g(x)=\displaystyle\int_0^x f(t)\,dt$.
+
+  a) Tính $g(2)$, $g(3)$, $g(4)$ và $g(6)$.
+  b) Trên $[0,6]$, $g$ đạt giá trị lớn nhất tại $x$ nào? Giải thích.
+
+  **Lời giải.** a) Phần diện tích phía trên trục hoành mang dấu dương, phía dưới mang dấu âm. $g(2)=4$ (hình chữ nhật). $g(3)=4+1=5$ (tam giác diện tích $1$). $g(4)=5-1=4$. $g(6)=4-2=2$.
+
+  b) $g'(x)=f(x)$, chỉ đổi dấu từ dương sang âm tại $x=3$. Các ứng viên: $g(0)=0$, $g(3)=5$, $g(6)=2$. Giá trị lớn nhất là $5$, đạt tại $x=3$.
+  :::
+
+## Lượng thay đổi ròng và tổng quãng đường
+
+[[P4·812b]]
+Nếu $r$ là tốc độ thay đổi của đại lượng $Q$ thì $\displaystyle\int_a^b r(t)\,dt=Q(b)-Q(a)$ là **lượng thay đổi ròng**, và $Q(b)=Q(a)+\displaystyle\int_a^b r(t)\,dt$. Với một hạt có vận tốc $v$: $\displaystyle\int_a^b v(t)\,dt$ là độ dời, còn $\displaystyle\int_a^b|v(t)|\,dt$ là tổng quãng đường.
+
+  :::example Độ dời và quãng đường
+  Một hạt có vận tốc $v(t)=t-2$ mét mỗi giây, $0\le t\le5$. Tìm độ dời và tổng quãng đường hạt đi được.
+
+  **Lời giải.** Độ dời: $\displaystyle\int_0^5(t-2)\,dt=\left[\frac{t^2}{2}-2t\right]_0^5=12{,}5-10=2{,}5$ mét.
+
+  Quãng đường: $v<0$ trên $(0,2)$ và $v>0$ trên $(2,5)$, nên quãng đường bằng $\left|\displaystyle\int_0^2(t-2)\,dt\right|+\displaystyle\int_2^5(t-2)\,dt=2+4{,}5=6{,}5$ mét.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P5·64fb]]
+- **Coi các khoảng bằng nhau.** Bảng có $t=0, 2, 5, 7, 10$ thì độ rộng là $2, 3, 2, 3$.
+- **Quên lượng ban đầu.** "Lúc $t=10$ trong bể có bao nhiêu nước?" nghĩa là lượng ban đầu cộng với tích phân.
+- **Diện tích dưới trục hoành.** Mang dấu âm trong $\displaystyle\int f$, nhưng mang dấu dương khi tính tổng quãng đường.
+- **Dùng Phần 1 mà quên quy tắc chuỗi.** $\dfrac{d}{dx}\displaystyle\int_0^{x^2}f(t)\,dt=f\left(x^2\right)\cdot2x$, không phải $f\left(x^2\right)$.
+- **Đơn vị.** Nếu $R$ tính bằng lít mỗi phút và $t$ tính bằng phút thì $\displaystyle\int R\,dt$ tính bằng lít.
+:::
+
+:::tip Ở phần được dùng máy tính
+[[P6·4ba0]]
+Khi tốc độ cho bằng công thức trong phần được dùng máy tính, hãy viết tích phân kèm cận trước, ví dụ $\displaystyle\int_0^{10}R(t)\,dt$, rồi mới ghi giá trị chính xác đến ba chữ số thập phân. Riêng việc viết đúng tích phân đã được một điểm.
+:::
+
+  :::terms
+  - Riemann sum | tổng Riemann
+  - left / right / midpoint sum | tổng trái / phải / điểm giữa
+  - trapezoidal sum | tổng hình thang
+  - definite integral | tích phân xác định
+  - accumulation function | hàm tích luỹ
+  - fundamental theorem of calculus | định lí cơ bản của giải tích
+  - net change | biến thiên toàn phần (lượng thay đổi ròng)
+  - antiderivative | nguyên hàm
+  :::
+
+## Bài tập tương tự
+
+:::exercise Tự luận
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Bể vừa chảy vào vừa chảy ra
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Vị trí từ vận tốc
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Hai cận đều thay đổi
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-accumulation-ftc – BẢN TIẾNG ANH ########
+---
+title: Riemann sums, accumulation and the fundamental theorem
+description: AP Calculus Unit 6, part 1: Riemann and trapezoidal sums from tables, the definite integral as accumulation, and both parts of the fundamental theorem.
+minutes: 50
+---
+
+  :::goals
+  - Approximate a definite integral with left, right, midpoint and trapezoidal sums, including from tables with unequal intervals.
+  - Decide whether an approximation is an overestimate or an underestimate.
+  - Interpret $\displaystyle\int_a^b r(t)\,dt$ as the net change of a quantity, with units.
+  - Use the fundamental theorem of calculus to evaluate integrals and to differentiate accumulation functions.
+  - Analyze $g(x)=\displaystyle\int_a^x f(t)\,dt$ from the graph of $f$.
+  :::
+
+[[P1·d9a6]]
+Unit 6 turns the questions of the derivative around: instead of "how fast is it changing?", it asks "how much has accumulated?". On the AP exam this idea is everywhere. Almost every free-response section opens with a rate given in a table or by a formula, and asks for a Riemann sum, a total change or an amount at a later time. This lesson covers the core of the unit; the next one, on integration techniques, covers substitution and the other antidifferentiation methods.
+
+## Riemann sums from a table
+
+[[P2·1a0d]]
+To approximate $\displaystyle\int_a^b f(x)\,dx$, split $[a,b]$ into subintervals and add up (width) × (height). The height comes from the left endpoint, the right endpoint or the midpoint; the **trapezoidal sum** averages the left and right heights. The subintervals do not need to be equal: AP tables often use uneven times.
+
+  :::example Water flowing into a tank
+  Water flows into a tank at a rate of $R(t)$ liters per minute. Selected values are shown.
+
+  | $t$ (minutes) | $0$ | $2$ | $5$ | $7$ | $10$ |
+  |---|---|---|---|---|---|
+  | $R(t)$ (liters per minute) | $4$ | $7$ | $9$ | $6$ | $5$ |
+
+  Use a trapezoidal sum with the four subintervals in the table to approximate $\displaystyle\int_0^{10}R(t)\,dt$, and explain its meaning.
+
+  **Solution.** The widths are $2$, $3$, $2$, $3$.
+  $$2\cdot\frac{4+7}{2}+3\cdot\frac{7+9}{2}+2\cdot\frac{9+6}{2}+3\cdot\frac{6+5}{2}=11+24+15+16.5=66.5.$$
+  About $66.5$ liters of water flow into the tank during the first $10$ minutes. For comparison, the left sum is $65$ and the right sum is $68$.
+  :::
+
+  :::example Over or under?
+  A function $f$ is increasing on $[0,4]$. Let $L$ and $R$ be the left and right Riemann sums with four equal subintervals. Which statement must be true?
+  A. $L<\displaystyle\int_0^4 f(x)\,dx<R$
+  B. $R<\displaystyle\int_0^4 f(x)\,dx<L$
+  C. Both sums overestimate the integral.
+  D. Both sums underestimate the integral.
+
+  **Solution.** On each subinterval of an increasing function, the left height is the smallest value and the right height is the largest: answer **A**. For trapezoids, concavity decides: if $f$ is concave up, each chord lies above the graph and the trapezoidal sum overestimates; concave down, it underestimates.
+  :::
+
+## The fundamental theorem of calculus
+
+  :::theorem Fundamental theorem of calculus
+  **Part 1.** If $f$ is continuous, then $\dfrac{d}{dx}\displaystyle\int_a^x f(t)\,dt=f(x)$. With the chain rule: $\dfrac{d}{dx}\displaystyle\int_a^{u(x)}f(t)\,dt=f\big(u(x)\big)\cdot u'(x)$.
+
+  **Part 2.** If $F'=f$ and $f$ is continuous on $[a,b]$, then $\displaystyle\int_a^b f(x)\,dx=F(b)-F(a)$.
+  :::
+
+:::note Antiderivatives to know by heart
+[[P3·7ac1]]
+$$\int x^n\,dx=\frac{x^{n+1}}{n+1}+C\ (n\ne-1),\quad\int\frac1x\,dx=\ln|x|+C,$$
+$$\int e^x\,dx=e^x+C,\quad\int\cos x\,dx=\sin x+C,\quad\int\sin x\,dx=-\cos x+C,$$
+$$\int\sec^2x\,dx=\tan x+C,\quad\int\frac{dx}{1+x^2}=\arctan x+C.$$
+:::
+
+  :::example Evaluating with Part 2
+  What is $\displaystyle\int_1^3\left(3x^2-2x\right)dx$?
+  A. $16$
+  B. $20$
+  C. $18$
+  D. $26$
+
+  **Solution.** An antiderivative is $x^3-x^2$. So the integral is $(27-9)-(1-1)=18$: answer **C**.
+  :::
+
+  :::example Differentiating with Part 1
+  Let $g(x)=\displaystyle\int_0^{x^2}\sin t\,dt$. Find $g'(x)$.
+
+  **Solution.** The upper limit is $u=x^2$, so $g'(x)=\sin\left(x^2\right)\cdot2x=2x\sin\left(x^2\right)$. There is no need to evaluate the integral first.
+  :::
+
+## Accumulation functions from a graph
+
+:::graph The graph of $f$ on $[0,6]$, made of three line segments
+   (… 10 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Reading areas as values of g
+  The graph of $f$ is shown above. Let $g(x)=\displaystyle\int_0^x f(t)\,dt$.
+
+  a) Find $g(2)$, $g(3)$, $g(4)$ and $g(6)$.
+  b) At which $x$ in $[0,6]$ does $g$ have its absolute maximum? Justify.
+
+  **Solution.** a) Areas above the axis count positive, below negative. $g(2)=4$ (rectangle). $g(3)=4+1=5$ (triangle of area $1$). $g(4)=5-1=4$. $g(6)=4-2=2$.
+
+  b) $g'(x)=f(x)$, which changes from positive to negative only at $x=3$. Candidates: $g(0)=0$, $g(3)=5$, $g(6)=2$. The absolute maximum is $5$, at $x=3$.
+  :::
+
+## Net change and total distance
+
+[[P4·252a]]
+If $r$ is the rate of change of a quantity $Q$, then $\displaystyle\int_a^b r(t)\,dt=Q(b)-Q(a)$, the **net change**, and $Q(b)=Q(a)+\displaystyle\int_a^b r(t)\,dt$. For a particle with velocity $v$: $\displaystyle\int_a^b v(t)\,dt$ is the displacement and $\displaystyle\int_a^b|v(t)|\,dt$ is the total distance.
+
+  :::example Displacement versus distance
+  A particle has velocity $v(t)=t-2$ meters per second for $0\le t\le5$. Find its displacement and the total distance traveled.
+
+  **Solution.** Displacement: $\displaystyle\int_0^5(t-2)\,dt=\left[\frac{t^2}{2}-2t\right]_0^5=12.5-10=2.5$ meters.
+
+  Distance: $v<0$ on $(0,2)$ and $v>0$ on $(2,5)$, so the distance is $\left|\displaystyle\int_0^2(t-2)\,dt\right|+\displaystyle\int_2^5(t-2)\,dt=2+4.5=6.5$ meters.
+  :::
+
+:::warning Common traps
+[[P5·4e57]]
+- **Equal widths assumed.** In a table with $t=0, 2, 5, 7, 10$, the widths are $2, 3, 2, 3$.
+- **Forgetting the starting amount.** "How much water is in the tank at $t=10$?" means initial amount plus the integral.
+- **Areas below the axis.** They count negative in $\displaystyle\int f$, but positive in total distance.
+- **FTC Part 1 without the chain rule.** $\dfrac{d}{dx}\displaystyle\int_0^{x^2}f(t)\,dt=f\left(x^2\right)\cdot2x$, not $f\left(x^2\right)$.
+- **Units.** If $R$ is in liters per minute and $t$ in minutes, $\displaystyle\int R\,dt$ is in liters.
+:::
+
+:::tip On the calculator section
+[[P6·3cbb]]
+When a rate is given by a formula on a calculator part, write the integral with its limits first, for example $\displaystyle\int_0^{10}R(t)\,dt$, then the value correct to three decimal places. The written setup earns a point on its own.
+:::
+
+  :::terms
+  - Riemann sum | tổng Riemann
+  - left / right / midpoint sum | tổng trái / phải / điểm giữa
+  - trapezoidal sum | tổng hình thang
+  - definite integral | tích phân xác định
+  - accumulation function | hàm tích luỹ
+  - fundamental theorem of calculus | định lí cơ bản của giải tích
+  - net change | biến thiên toàn phần (lượng thay đổi ròng)
+  - antiderivative | nguyên hàm
+  :::
+
+## Similar exercises
+
+:::exercise Free response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A tank that fills and drains
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Position from velocity
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Two variable limits
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-analytical-applications – BẢN TIẾNG VIỆT ########
+---
+title: Khảo sát hàm số bằng đạo hàm
+description: AP Calculus Unit 5: định lí giá trị trung bình, cực trị, đồng biến – nghịch biến, tính lõm, đọc đồ thị của f', tối ưu và cách lập luận.
+minutes: 50
+---
+
+  :::goals
+  - Áp dụng định lí giá trị trung bình và định lí giá trị cực biên, có kiểm tra điều kiện.
+  - Tìm khoảng đồng biến, nghịch biến và phân loại cực trị bằng dấu hiệu đạo hàm cấp một, cấp hai.
+  - Tìm giá trị lớn nhất, nhỏ nhất trên một đoạn bằng cách so sánh các "ứng viên".
+  - Xác định tính lõm và điểm uốn, kể cả từ đồ thị của $f'$.
+  - Giải bài toán tối ưu và viết lời lập luận được đủ điểm.
+  :::
+
+[[P1·1fcb]]
+Unit 5 là một trong những unit có trọng số lớn nhất của AB, và các ý tưởng của nó quay lại trong gần như mọi câu tự luận có đồ thị hay bảng giá trị của $f'$. Phần tính toán ngắn; điều đề thi thực sự kiểm tra là lập luận. "Vì $f'$ đổi dấu từ âm sang dương tại $x=2$" được điểm; "vì $f'(2)=0$" thì không. Bài này luyện cả phần toán lẫn câu chữ. Bạn đã quen nhiều nội dung này từ chương khảo sát hàm số ở trường phổ thông; điểm mới là cách AP đòi hỏi lí giải bằng lời.
+
+## Hai định lí về sự tồn tại
+
+  :::theorem Định lí giá trị trung bình (Mean Value Theorem, MVT)
+  Nếu $f$ liên tục trên $[a,b]$ và có đạo hàm trên $(a,b)$ thì tồn tại ít nhất một $c$ thuộc $(a,b)$ sao cho
+  $$f'(c)=\frac{f(b)-f(a)}{b-a}.$$
+  Ở đâu đó, tốc độ tức thời bằng tốc độ trung bình. Ở Việt Nam định lí này còn gọi là định lí Lagrange.
+  :::
+
+  :::theorem Định lí giá trị cực biên (Extreme Value Theorem, EVT)
+  Nếu $f$ liên tục trên một đoạn $[a,b]$ thì $f$ có cả giá trị lớn nhất và giá trị nhỏ nhất trên $[a,b]$.
+  :::
+
+  :::example Giá trị c mà MVT bảo đảm
+  Với $f(x)=x^3-x$ trên $[0,2]$, giá trị $c$ nào thoả mãn kết luận của định lí giá trị trung bình?
+  A. $1$
+  B. $\dfrac{\sqrt3}{2}$
+  C. $1{,}5$
+  D. $\dfrac{2}{\sqrt3}$
+
+  **Lời giải.** $f$ là đa thức nên thoả mãn các điều kiện. Tốc độ trung bình là $\dfrac{f(2)-f(0)}{2}=\dfrac{6-0}{2}=3$. Giải $f'(c)=3c^2-1=3$: $c^2=\dfrac43$, nên $c=\dfrac{2}{\sqrt3}\approx1{,}155$, thuộc $(0,2)$: đáp án **D**.
+  :::
+
+## Đồng biến, nghịch biến và cực trị
+
+[[P2·21e2]]
+$f$ đồng biến (tăng) khi $f'>0$ và nghịch biến (giảm) khi $f'<0$. **Điểm tới hạn** là một $x$ bên trong miền xác định tại đó $f'(x)=0$ hoặc $f'(x)$ không tồn tại.
+
+[[P3·7a5b]]
+- **Dấu hiệu đạo hàm cấp một.** Nếu $f'$ đổi dấu từ dương sang âm tại một điểm tới hạn thì $f$ đạt cực đại tại đó; từ âm sang dương thì cực tiểu; không đổi dấu thì không có cực trị.
+- **Dấu hiệu đạo hàm cấp hai.** Nếu $f'(c)=0$ và $f''(c)<0$ thì cực đại; nếu $f''(c)>0$ thì cực tiểu; nếu $f''(c)=0$ thì dấu hiệu không kết luận được.
+
+  :::example Một hàm bậc ba
+  Cho $f(x)=x^3-3x^2-9x+5$. Tìm khoảng đồng biến và các cực trị của $f$.
+
+  **Lời giải.** $f'(x)=3x^2-6x-9=3(x-3)(x+1)$. Xét dấu: $f'>0$ khi $x<-1$, $f'<0$ khi $-1<x<3$, $f'>0$ khi $x>3$. Vậy $f$ đồng biến trên $(-\infty,-1)$ và $(3,\infty)$.
+
+  $f'$ đổi dấu từ dương sang âm tại $x=-1$: cực đại $f(-1)=10$. $f'$ đổi dấu từ âm sang dương tại $x=3$: cực tiểu $f(3)=-22$.
+  :::
+
+## Giá trị lớn nhất, nhỏ nhất: so sánh các ứng viên
+
+[[P4·7635]]
+Trên một đoạn, tính $f$ tại mọi điểm tới hạn và tại hai đầu mút; giá trị lớn nhất trong số đó là giá trị lớn nhất của hàm, giá trị nhỏ nhất là giá trị nhỏ nhất của hàm.
+
+  :::example Các ứng viên trên một đoạn
+  Tìm giá trị lớn nhất và nhỏ nhất của $g(x)=x^3-3x^2$ trên $[-1,4]$.
+
+  **Lời giải.** $g'(x)=3x^2-6x=3x(x-2)$, nên các điểm tới hạn là $x=0$ và $x=2$.
+
+  | $x$ | $-1$ | $0$ | $2$ | $4$ |
+  |---|---|---|---|---|
+  | $g(x)$ | $-4$ | $0$ | $-4$ | $16$ |
+
+  Giá trị lớn nhất $16$ tại $x=4$; giá trị nhỏ nhất $-4$, đạt tại cả $x=-1$ và $x=2$.
+  :::
+
+## Tính lõm và điểm uốn
+
+[[P5·b824]]
+$f$ lõm lên (concave up) khi $f''>0$ (tương đương: $f'$ đồng biến) và lõm xuống (concave down) khi $f''<0$. **Điểm uốn** là điểm tại đó đồ thị đổi chiều lõm, tức là $f''$ đổi dấu.
+
+  :::example Khi dấu hiệu cấp hai bất lực
+  Cho $h(x)=x^4-4x^3$. Tìm các điểm uốn và phân loại các điểm tới hạn.
+
+  **Lời giải.** $h'(x)=4x^3-12x^2=4x^2(x-3)$ và $h''(x)=12x^2-24x=12x(x-2)$.
+
+  $h''$ đổi dấu tại $x=0$ và $x=2$: cả hai đều là điểm uốn.
+
+  Điểm tới hạn: $x=0$ và $x=3$. $h''(3)=36>0$, nên cực tiểu tại $x=3$. Tại $x=0$, $h''(0)=0$ và dấu hiệu cấp hai không kết luận được; dấu hiệu cấp một cho thấy $h'\le0$ ở cả hai phía của $0$, nên tại đó không có cực trị.
+  :::
+
+:::graph Đồ thị của $f'(x)=x^2-x-2$ (đồ thị đạo hàm, không phải đồ thị của $f$)
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Đọc đồ thị của đạo hàm
+  Hình trên là đồ thị của $f'$, đạo hàm của hàm số $f$. Hàm số $f$ đạt cực tiểu tại
+  A. $-1$
+  B. $0{,}5$
+  C. $2$
+  D. $-2$
+
+  **Lời giải.** $f'$ đổi dấu từ âm sang dương tại $x=2$, nên $f$ đạt cực tiểu tại đó: đáp án **C**. Tại $x=-1$, dấu đổi từ dương sang âm (cực đại). Tại $x=0{,}5$, $f'$ đạt điểm thấp nhất, tức là $f'$ chuyển từ giảm sang tăng: đó là điểm uốn của $f$, một cái bẫy quen thuộc.
+  :::
+
+## Bài toán tối ưu
+
+[[P6·db24]]
+Viết đại lượng cần tối ưu thành hàm của một biến, nêu miền xác định, tìm điểm tới hạn, rồi lập luận đó là lớn nhất hay nhỏ nhất bằng cách so sánh ứng viên, bảng xét dấu hoặc đạo hàm cấp hai.
+
+  :::example Rào đất ven sông
+  Một bác nông dân có $600$ mét lưới để rào một mảnh đất hình chữ nhật ven một con sông thẳng; phía bờ sông không cần rào. Diện tích lớn nhất có thể là bao nhiêu?
+
+  **Lời giải.** Gọi $y$ là mỗi cạnh vuông góc với bờ sông; cạnh song song với bờ sông là $600-2y$. Diện tích $A(y)=y(600-2y)=600y-2y^2$ với $0<y<300$. $A'(y)=600-4y=0$ cho $y=150$. Vì $A''(y)=-4<0$ nên đây là cực đại, và là điểm tới hạn duy nhất trên khoảng, nên là giá trị lớn nhất: $A(150)=150\cdot300=45.000$ mét vuông.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P7·4509]]
+- **"$f'(c)=0$ nên có cực trị."** Chưa đủ: $f'$ phải đổi dấu (hoặc dùng $f''$).
+- **"$f''(c)=0$ nên có điểm uốn."** Chưa đủ: $f''$ phải đổi dấu.
+- **Quên hai đầu mút** khi so sánh ứng viên.
+- **Đọc đồ thị $f'$ như đồ thị $f$.** Trên đồ thị của $f'$, cực trị của $f$ nằm ở các giao điểm với trục hoành mà tại đó có đổi dấu; điểm uốn của $f$ nằm ở các đỉnh và đáy của $f'$.
+- **Bỏ qua điều kiện của MVT.** Ở phần tự luận, hãy ghi "liên tục trên $[a,b]$ và có đạo hàm trên $(a,b)$".
+:::
+
+:::tip Câu lập luận được điểm (viết bằng tiếng Anh trong bài thi)
+[[P8·4be8]]
+- "$f$ has a relative maximum at $x=-1$ because $f'$ changes from positive to negative there." ($f$ đạt cực đại tại $x=-1$ vì $f'$ đổi dấu từ dương sang âm tại đó.)
+- "The graph of $f$ is concave up on $(0,2)$ because $f'$ is increasing there" (hoặc "because $f''>0$").
+- Luôn nói về đúng hàm được cho: nếu đồ thị là của $f'$, hãy nói về $f'$, đừng nói mơ hồ "đồ thị".
+:::
+
+  :::terms
+  - định lí giá trị trung bình (định lí Lagrange) | Mean Value Theorem
+  - định lí giá trị cực biên (tồn tại GTLN, GTNN) | Extreme Value Theorem
+  - điểm tới hạn | critical point
+  - cực trị (địa phương) | relative (local) extremum
+  - giá trị lớn nhất, nhỏ nhất (cực trị toàn cục) | absolute extremum
+  - lõm lên / lõm xuống | concave up / concave down
+  - điểm uốn | point of inflection
+  - bài toán tối ưu | optimization
+  :::
+
+## Bài tập tương tự
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Chiếc hộp không nắp
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Viết lời lập luận
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Điểm gần nhất
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-analytical-applications – BẢN TIẾNG ANH ########
+---
+title: Analyzing functions with derivatives
+description: AP Calculus Unit 5: the Mean Value Theorem, extrema, increasing and decreasing, concavity, reading the graph of f', optimization and justifications.
+minutes: 50
+---
+
+  :::goals
+  - Apply the Mean Value Theorem and the Extreme Value Theorem, checking their conditions.
+  - Find intervals of increase and decrease and classify relative extrema with the first and second derivative tests.
+  - Find absolute extrema on a closed interval with the candidates test.
+  - Determine concavity and points of inflection, including from the graph of $f'$.
+  - Solve optimization problems and write justifications that earn full credit.
+  :::
+
+[[P1·0537]]
+Unit 5 is one of the most heavily weighted units of AB, and its ideas return in almost every free-response question that shows a graph or a table of $f'$. The calculations are short; what the exam really tests is reasoning. "Because $f'$ changes from negative to positive at $x=2$" earns a point; "because $f'(2)=0$" does not. This lesson trains both the mathematics and the sentences.
+
+## Two existence theorems
+
+  :::theorem Mean Value Theorem (MVT)
+  If $f$ is continuous on $[a,b]$ and differentiable on $(a,b)$, then there is at least one $c$ in $(a,b)$ with
+  $$f'(c)=\frac{f(b)-f(a)}{b-a}.$$
+  Somewhere, the instantaneous rate equals the average rate.
+  :::
+
+  :::theorem Extreme Value Theorem (EVT)
+  If $f$ is continuous on a closed interval $[a,b]$, then $f$ has both an absolute maximum and an absolute minimum on $[a,b]$.
+  :::
+
+  :::example The value promised by the MVT
+  For $f(x)=x^3-x$ on $[0,2]$, which value of $c$ satisfies the conclusion of the Mean Value Theorem?
+  A. $1$
+  B. $\dfrac{\sqrt3}{2}$
+  C. $1.5$
+  D. $\dfrac{2}{\sqrt3}$
+
+  **Solution.** $f$ is a polynomial, so the conditions hold. The average rate is $\dfrac{f(2)-f(0)}{2}=\dfrac{6-0}{2}=3$. Solve $f'(c)=3c^2-1=3$: $c^2=\dfrac43$, so $c=\dfrac{2}{\sqrt3}\approx1.155$, which lies in $(0,2)$: answer **D**.
+  :::
+
+## Increasing, decreasing and relative extrema
+
+[[P2·885b]]
+$f$ is increasing where $f'>0$ and decreasing where $f'<0$. A **critical point** is an interior $x$ where $f'(x)=0$ or $f'(x)$ does not exist.
+
+[[P3·b540]]
+- **First derivative test.** If $f'$ changes from positive to negative at a critical point, $f$ has a relative maximum there; from negative to positive, a relative minimum; no sign change, no extremum.
+- **Second derivative test.** If $f'(c)=0$ and $f''(c)<0$, relative maximum; if $f''(c)>0$, relative minimum; if $f''(c)=0$, the test says nothing.
+
+  :::example A cubic
+  Let $f(x)=x^3-3x^2-9x+5$. Find where $f$ is increasing and its relative extrema.
+
+  **Solution.** $f'(x)=3x^2-6x-9=3(x-3)(x+1)$. Sign chart: $f'>0$ for $x<-1$, $f'<0$ for $-1<x<3$, $f'>0$ for $x>3$. So $f$ is increasing on $(-\infty,-1)$ and $(3,\infty)$.
+
+  $f'$ changes from positive to negative at $x=-1$: relative maximum $f(-1)=10$. It changes from negative to positive at $x=3$: relative minimum $f(3)=-22$.
+  :::
+
+## Absolute extrema: the candidates test
+
+[[P4·c68b]]
+On a closed interval, evaluate $f$ at every critical point and at both endpoints; the largest value is the absolute maximum, the smallest the absolute minimum.
+
+  :::example Candidates on a closed interval
+  Find the absolute extrema of $g(x)=x^3-3x^2$ on $[-1,4]$.
+
+  **Solution.** $g'(x)=3x^2-6x=3x(x-2)$, so the critical points are $x=0$ and $x=2$.
+
+  | $x$ | $-1$ | $0$ | $2$ | $4$ |
+  |---|---|---|---|---|
+  | $g(x)$ | $-4$ | $0$ | $-4$ | $16$ |
+
+  Absolute maximum $16$ at $x=4$; absolute minimum $-4$, reached at both $x=-1$ and $x=2$.
+  :::
+
+## Concavity and points of inflection
+
+[[P5·9be1]]
+$f$ is concave up where $f''>0$ (equivalently, where $f'$ is increasing) and concave down where $f''<0$. A **point of inflection** is a point where the graph changes concavity, that is, where $f''$ changes sign.
+
+  :::example When the second derivative test fails
+  Let $h(x)=x^4-4x^3$. Find the points of inflection and classify the critical points.
+
+  **Solution.** $h'(x)=4x^3-12x^2=4x^2(x-3)$ and $h''(x)=12x^2-24x=12x(x-2)$.
+
+  $h''$ changes sign at $x=0$ and $x=2$: both are points of inflection.
+
+  Critical points: $x=0$ and $x=3$. $h''(3)=36>0$, so a relative minimum at $x=3$. At $x=0$, $h''(0)=0$ and the second derivative test is inconclusive; the first derivative test shows $h'\le0$ on both sides of $0$, so there is no extremum there.
+  :::
+
+:::graph The graph of $f'(x)=x^2-x-2$ (the derivative, not $f$)
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Reading the graph of the derivative
+  The graph above shows $f'$, the derivative of a function $f$. At which value of $x$ does $f$ have a relative minimum?
+  A. $-1$
+  B. $0.5$
+  C. $2$
+  D. $-2$
+
+  **Solution.** $f'$ changes from negative to positive at $x=2$, so $f$ has a relative minimum there: answer **C**. At $x=-1$ the sign changes from positive to negative (relative maximum). At $x=0.5$, $f'$ has its lowest point, so $f'$ changes from decreasing to increasing: that is a point of inflection of $f$, a common trap.
+  :::
+
+## Optimization
+
+[[P6·c73c]]
+Write the quantity to optimize as a function of one variable, state the domain, find the critical points, and justify the maximum or minimum with the candidates test, a sign chart or the second derivative.
+
+  :::example A fence along a river
+  A farmer has $600$ meters of fence to enclose a rectangular field along a straight river; no fence is needed along the river. What is the largest possible area?
+
+  **Solution.** Let $y$ be each side perpendicular to the river; the side parallel to the river is $600-2y$. Area $A(y)=y(600-2y)=600y-2y^2$ for $0<y<300$. $A'(y)=600-4y=0$ gives $y=150$. Since $A''(y)=-4<0$, this is a maximum, and the only critical point on the interval, so it is the absolute maximum: $A(150)=150\cdot300=45{,}000$ square meters.
+  :::
+
+:::warning Common traps
+[[P7·0049]]
+- **"$f'(c)=0$, so there is an extremum."** Not enough: $f'$ must change sign (or use $f''$).
+- **"$f''(c)=0$, so there is an inflection point."** Not enough: $f''$ must change sign.
+- **Forgetting the endpoints** in the candidates test.
+- **Reading the graph of $f'$ as if it were $f$.** On a graph of $f'$, extrema of $f$ are at the $x$-intercepts where the sign changes; inflection points of $f$ are at the peaks and valleys of $f'$.
+- **Dropping the MVT conditions.** On the free-response section, state "continuous on $[a,b]$ and differentiable on $(a,b)$".
+:::
+
+:::tip Justification phrases that earn points
+[[P8·bf87]]
+- "$f$ has a relative maximum at $x=-1$ because $f'$ changes from positive to negative there."
+- "The graph of $f$ is concave up on $(0,2)$ because $f'$ is increasing there" (or "because $f''>0$").
+- Always refer to the function you are given: if the graph is of $f'$, talk about $f'$, never about "the graph" vaguely.
+:::
+
+  :::terms
+  - Mean Value Theorem | định lí giá trị trung bình (định lí Lagrange)
+  - Extreme Value Theorem | định lí giá trị cực biên (tồn tại GTLN, GTNN)
+  - critical point | điểm tới hạn
+  - relative (local) extremum | cực trị (địa phương)
+  - absolute extremum | giá trị lớn nhất, nhỏ nhất (cực trị toàn cục)
+  - concave up / concave down | lõm lên / lõm xuống
+  - point of inflection | điểm uốn
+  - optimization | bài toán tối ưu
+  :::
+
+## Similar exercises
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise An open box
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Writing justifications
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise The closest point
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-area-volume – BẢN TIẾNG VIỆT ########
+---
+title: Diện tích, thể tích và giá trị trung bình
+description: AP Calculus Unit 8: giá trị trung bình, diện tích giữa hai đường cong theo x và theo y, thể tích theo thiết diện, đĩa và vành khuyên; riêng BC: độ dài cung.
+minutes: 45
+---
+
+  :::goals
+  - Tìm giá trị trung bình của hàm số trên một khoảng và giải thích ý nghĩa.
+  - Tính diện tích giữa hai đường cong, lấy tích phân theo $x$ hoặc theo $y$, tuỳ cách nào đơn giản hơn.
+  - Tính thể tích khối có thiết diện đã biết.
+  - Tính thể tích khối tròn xoay bằng đĩa và vành khuyên, kể cả khi trục quay không phải là trục toạ độ.
+  - (BC) Tính độ dài một đường cong.
+  :::
+
+[[P1·3447]]
+Unit 8 mang lại một trong những câu tự luận dễ đoán nhất của đề: một miền $R$ giới hạn bởi hai đường cong, rồi hỏi diện tích của nó, thể tích khối có đáy là $R$, và thể tích khi quay $R$ quanh một đường thẳng. Câu này thường nằm ở phần được dùng máy tính, nên điểm đến từ một tích phân đúng với cận đúng; máy tính lo phần tính toán. Bài này luyện kĩ năng thiết lập.
+
+## Giá trị trung bình
+
+  :::theorem Giá trị trung bình của hàm số
+  Giá trị trung bình của hàm liên tục $f$ trên $[a,b]$ là
+  $$f_{\text{tb}}=\frac{1}{b-a}\int_a^bf(x)\,dx.$$
+  Theo định lí giá trị trung bình cho tích phân, $f$ nhận giá trị này tại một điểm $c$ nào đó trong $[a,b]$.
+  :::
+
+  :::example Trung bình của một bình phương
+  Tìm giá trị trung bình của $f(x)=x^2$ trên $[0,3]$ và một điểm mà tại đó $f$ nhận giá trị ấy.
+
+  **Lời giải.** $f_{\text{tb}}=\dfrac13\displaystyle\int_0^3x^2\,dx=\dfrac13\cdot9=3$. Vì $c^2=3$ nên $c=\sqrt3$, nằm trong $[0,3]$.
+
+  Đừng nhầm với tốc độ thay đổi trung bình $\dfrac{f(3)-f(0)}{3-0}=3$. Ở đây hai số tình cờ bằng nhau; thông thường thì không.
+  :::
+
+## Diện tích giữa hai đường cong
+
+[[P2·3de8]]
+Diện tích giữa $y=f(x)$ ở trên và $y=g(x)$ ở dưới, với $a\le x\le b$, là $\displaystyle\int_a^b\big(f(x)-g(x)\big)\,dx$: trên trừ dưới. Khi miền dễ mô tả hơn bằng đường bên phải $x=p(y)$ và đường bên trái $x=q(y)$, hãy dùng $\displaystyle\int_c^d\big(p(y)-q(y)\big)\,dy$: phải trừ trái.
+
+:::graph Miền giữa $y=x$ và $y=x^2$
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Trên trừ dưới
+  Diện tích miền giữa $y=x$ và $y=x^2$ bằng
+  A. $\dfrac12$
+  B. $\dfrac13$
+  C. $\dfrac16$
+  D. $\dfrac56$
+
+  **Lời giải.** Hai đường cắt nhau khi $x=x^2$, tức $x=0$ và $x=1$. Trên $(0,1)$ đường thẳng nằm trên: $\displaystyle\int_0^1\left(x-x^2\right)dx=\frac12-\frac13=\frac16$. Đáp án **C**.
+  :::
+
+  :::example Lấy tích phân theo y
+  Tính diện tích miền giữa $x=y^2$ và $x=y+2$.
+
+  **Lời giải.** Nếu tính theo $x$, miền này cần hai tích phân. Tính theo $y$: hai đường cắt nhau khi $y^2=y+2$, tức $y=-1$ và $y=2$, và đường thẳng $x=y+2$ nằm bên phải.
+  $$\int_{-1}^2\left(y+2-y^2\right)dy=\left[\frac{y^2}{2}+2y-\frac{y^3}{3}\right]_{-1}^2=\frac{10}{3}+\frac76=\frac92.$$
+  :::
+
+## Thể tích khối có thiết diện đã biết
+
+[[P3·61c8]]
+Nếu thiết diện vuông góc với trục $x$ tại $x$ có diện tích $A(x)$ thì thể tích là $\displaystyle\int_a^bA(x)\,dx$. Bạn chỉ cần cạnh của thiết diện theo $x$, rồi dùng công thức diện tích: hình vuông $s^2$, nửa hình tròn đường kính $s$: $\dfrac{\pi}{8}s^2$, tam giác đều $\dfrac{\sqrt3}{4}s^2$.
+
+  :::example Thiết diện là hình vuông
+  Đáy của một khối là miền dưới $y=\sqrt x$ với $0\le x\le4$. Các thiết diện vuông góc với trục $x$ là hình vuông. Tính thể tích.
+
+  **Lời giải.** Cạnh là $s=\sqrt x$, nên $A(x)=x$ và $V=\displaystyle\int_0^4x\,dx=8$.
+  :::
+
+## Đĩa và vành khuyên
+
+[[P4·c915]]
+Quay một miền quanh một đường thẳng thì mỗi lát cắt là hình tròn. Nếu miền chạm trục quay, lát cắt là **đĩa**: $V=\pi\displaystyle\int_a^bR(x)^2\,dx$. Nếu có khoảng hở, lát cắt là **vành khuyên**: $V=\pi\displaystyle\int_a^b\left(R(x)^2-r(x)^2\right)dx$, trong đó $R$ và $r$ là bán kính ngoài và trong, đo từ trục quay.
+
+  :::example Vành khuyên quanh một đường nằm dưới miền
+  Miền giữa $y=x$ và $y=x^2$ quay quanh đường thẳng $y=-1$. Tính thể tích.
+
+  **Lời giải.** Khoảng cách tới $y=-1$ là $R=x+1$ (đường thẳng, xa hơn) và $r=x^2+1$.
+  $$V=\pi\int_0^1\left[(x+1)^2-\left(x^2+1\right)^2\right]dx=\pi\int_0^1\left(2x-x^2-x^4\right)dx=\pi\left(1-\frac13-\frac15\right)=\frac{7\pi}{15}.$$
+  Nếu quay quanh trục $x$ thì $R=x$, $r=x^2$ và $V=\dfrac{2\pi}{15}$.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P5·2d0e]]
+- **Viết $(R-r)^2$ thay cho $R^2-r^2$.** Vành khuyên là đĩa lớn trừ đĩa nhỏ.
+- **Đo bán kính từ sai đường thẳng.** Quanh $y=-1$, bán kính ứng với đường cong $y=f(x)$ là $f(x)+1$; quanh $y=3$ là $3-f(x)$.
+- **Nhầm đường nằm trên.** Thử một giá trị để biết đường nào nằm trên trước khi lấy tích phân.
+- **Giá trị trung bình thiếu $\dfrac{1}{b-a}$.** Thiếu hệ số này thì bạn mới có tích phân, chưa phải trung bình.
+:::
+
+## Độ dài cung (BC)
+
+[[P6·5f57]]
+Độ dài đường cong $y=f(x)$ với $a\le x\le b$ là $L=\displaystyle\int_a^b\sqrt{1+\left(f'(x)\right)^2}\,dx$. Trong đề, tích phân này thường được tính bằng máy tính; viết đúng tích phân là được điểm.
+
+  :::example Một độ dài tính được chính xác
+  Tính độ dài của $y=\dfrac23x^{3/2}$ với $0\le x\le3$.
+
+  **Lời giải.** $f'(x)=\sqrt x$, nên $L=\displaystyle\int_0^3\sqrt{1+x}\,dx=\left[\frac23(1+x)^{3/2}\right]_0^3=\frac23(8-1)=\frac{14}{3}$.
+  :::
+
+  :::terms
+  - average value | giá trị trung bình
+  - area between curves | diện tích giữa hai đường cong
+  - cross section | thiết diện
+  - solid of revolution | khối tròn xoay
+  - disk method / washer method | phương pháp đĩa / vành khuyên
+  - axis of rotation | trục quay
+  - outer / inner radius | bán kính ngoài / trong
+  - arc length | độ dài cung
+  :::
+
+## Bài tập tương tự
+
+:::exercise Trắc nghiệm
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Một câu về miền đầy đủ kiểu đề AP
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Nhiệt độ trung bình
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Chọn biến lấy tích phân
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise BC: độ dài cung bằng máy tính
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-area-volume – BẢN TIẾNG ANH ########
+---
+title: Area, volume and average value
+description: AP Calculus Unit 8: average value, area between curves in x and in y, volumes by cross sections, disks and washers; for BC, arc length.
+minutes: 45
+---
+
+  :::goals
+  - Find the average value of a function on an interval and interpret it.
+  - Find the area between two curves, integrating in $x$ or in $y$, whichever is simpler.
+  - Find volumes of solids with known cross sections.
+  - Find volumes of revolution with disks and washers, including around lines other than the axes.
+  - (BC) Find the length of a curve.
+  :::
+
+[[P1·049e]]
+Unit 8 supplies one of the most predictable free-response questions on the exam: a region $R$ bounded by two curves, then its area, the volume of a solid with $R$ as its base, and the volume when $R$ is revolved around a line. Usually it sits in the calculator part, so the points come from a correct integral with correct limits; the calculator does the arithmetic. This lesson trains the setups.
+
+## Average value
+
+  :::theorem Average value of a function
+  The average value of a continuous function $f$ on $[a,b]$ is
+  $$f_{\text{avg}}=\frac{1}{b-a}\int_a^bf(x)\,dx.$$
+  By the mean value theorem for integrals, $f$ takes this value at some $c$ in $[a,b]$.
+  :::
+
+  :::example Average of a square
+  Find the average value of $f(x)=x^2$ on $[0,3]$, and a point where $f$ takes that value.
+
+  **Solution.** $f_{\text{avg}}=\dfrac13\displaystyle\int_0^3x^2\,dx=\dfrac13\cdot9=3$. Since $c^2=3$, $c=\sqrt3$, which lies in $[0,3]$.
+
+  Do not confuse this with the average rate of change $\dfrac{f(3)-f(0)}{3-0}=3$. Here the two numbers happen to be equal; usually they are not.
+  :::
+
+## Area between curves
+
+[[P2·6677]]
+The area between $y=f(x)$ on top and $y=g(x)$ below, for $a\le x\le b$, is $\displaystyle\int_a^b\big(f(x)-g(x)\big)\,dx$: top minus bottom. When the region is easier to describe with right and left curves $x=p(y)$ and $x=q(y)$, use $\displaystyle\int_c^d\big(p(y)-q(y)\big)\,dy$: right minus left.
+
+:::graph The region between $y=x$ and $y=x^2$
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Top minus bottom
+  What is the area of the region between $y=x$ and $y=x^2$?
+  A. $\dfrac12$
+  B. $\dfrac13$
+  C. $\dfrac16$
+  D. $\dfrac56$
+
+  **Solution.** The curves meet where $x=x^2$, at $x=0$ and $x=1$. On $(0,1)$ the line is on top: $\displaystyle\int_0^1\left(x-x^2\right)dx=\frac12-\frac13=\frac16$. Answer **C**.
+  :::
+
+  :::example Integrating in y
+  Find the area of the region between $x=y^2$ and $x=y+2$.
+
+  **Solution.** In $x$, the region would need two integrals. In $y$: the curves meet where $y^2=y+2$, at $y=-1$ and $y=2$, and the line $x=y+2$ is on the right.
+  $$\int_{-1}^2\left(y+2-y^2\right)dy=\left[\frac{y^2}{2}+2y-\frac{y^3}{3}\right]_{-1}^2=\frac{10}{3}+\frac76=\frac92.$$
+  :::
+
+## Volumes with known cross sections
+
+[[P3·64f6]]
+If the cross section perpendicular to the $x$-axis at $x$ has area $A(x)$, the volume is $\displaystyle\int_a^bA(x)\,dx$. You only need the side of the cross section in terms of $x$, then the area formula: square $s^2$, semicircle with diameter $s$: $\dfrac{\pi}{8}s^2$, equilateral triangle $\dfrac{\sqrt3}{4}s^2$.
+
+  :::example Square cross sections
+  The base of a solid is the region under $y=\sqrt x$ for $0\le x\le4$. Cross sections perpendicular to the $x$-axis are squares. Find the volume.
+
+  **Solution.** The side is $s=\sqrt x$, so $A(x)=x$ and $V=\displaystyle\int_0^4x\,dx=8$.
+  :::
+
+## Disks and washers
+
+[[P4·133a]]
+Revolving a region around a line gives circular slices. If the region touches the axis, slices are **disks**: $V=\pi\displaystyle\int_a^bR(x)^2\,dx$. If there is a gap, slices are **washers**: $V=\pi\displaystyle\int_a^b\left(R(x)^2-r(x)^2\right)dx$, where $R$ and $r$ are the outer and inner radii, measured from the axis of rotation.
+
+  :::example A washer around a line below the region
+  The region between $y=x$ and $y=x^2$ is revolved around the line $y=-1$. Find the volume.
+
+  **Solution.** The distances to $y=-1$ are $R=x+1$ (the line, farther away) and $r=x^2+1$.
+  $$V=\pi\int_0^1\left[(x+1)^2-\left(x^2+1\right)^2\right]dx=\pi\int_0^1\left(2x-x^2-x^4\right)dx=\pi\left(1-\frac13-\frac15\right)=\frac{7\pi}{15}.$$
+  Around the $x$-axis instead, $R=x$, $r=x^2$ and $V=\dfrac{2\pi}{15}$.
+  :::
+
+:::warning Common traps
+[[P5·ad52]]
+- **$(R-r)^2$ instead of $R^2-r^2$.** A washer is a big disk minus a small disk.
+- **Radii from the wrong line.** Around $y=-1$, the radius of a curve $y=f(x)$ is $f(x)+1$; around $y=3$ it is $3-f(x)$.
+- **Wrong top curve.** Check which curve is on top with one test value before integrating.
+- **Average value without $\dfrac{1}{b-a}$.** Without it you have the integral, not the average.
+:::
+
+## Arc length (BC)
+
+[[P6·976c]]
+The length of the curve $y=f(x)$ for $a\le x\le b$ is $L=\displaystyle\int_a^b\sqrt{1+\left(f'(x)\right)^2}\,dx$. On the exam it is usually evaluated with a calculator; the setup earns the point.
+
+  :::example A length that can be found exactly
+  Find the length of $y=\dfrac23x^{3/2}$ for $0\le x\le3$.
+
+  **Solution.** $f'(x)=\sqrt x$, so $L=\displaystyle\int_0^3\sqrt{1+x}\,dx=\left[\frac23(1+x)^{3/2}\right]_0^3=\frac23(8-1)=\frac{14}{3}$.
+  :::
+
+  :::terms
+  - average value | giá trị trung bình
+  - area between curves | diện tích giữa hai đường cong
+  - cross section | thiết diện
+  - solid of revolution | khối tròn xoay
+  - disk method / washer method | phương pháp đĩa / vành khuyên
+  - axis of rotation | trục quay
+  - outer / inner radius | bán kính ngoài / trong
+  - arc length | độ dài cung
+  :::
+
+## Similar exercises
+
+:::exercise Multiple choice
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A full AP-style region question
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Average temperature
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Choosing the variable
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise BC: arc length with a calculator
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-bc-parametric-polar – BẢN TIẾNG VIỆT ########
+---
+title: Hàm tham số, hàm véc-tơ và toạ độ cực
+description: AP Calculus BC Unit 9: đạo hàm của đường cong tham số, chuyển động bằng véc-tơ, tốc độ và quãng đường, hệ số góc và diện tích trong toạ độ cực.
+minutes: 45
+---
+
+  :::goals
+  - Tìm $\dfrac{dy}{dx}$ và $\dfrac{d^2y}{dx^2}$ của đường cong tham số, xác định tiếp tuyến nằm ngang và thẳng đứng.
+  - Mô tả chuyển động trong mặt phẳng bằng véc-tơ vị trí, vận tốc, gia tốc; tính tốc độ và quãng đường.
+  - Tìm hệ số góc của đường cong trong toạ độ cực và hiểu ý nghĩa của $\dfrac{dr}{d\theta}$.
+  - Tính diện tích miền giới hạn bởi một hoặc hai đường cong trong toạ độ cực.
+  :::
+
+[[P1·96a0]]
+Unit 9 chỉ có ở BC và chiếm khoảng một phần mười điểm BC. Câu tự luận của unit này thường là một hạt chuyển động trong mặt phẳng, hoặc một miền giới hạn bởi đường cong trong toạ độ cực, và cả hai đều dựng từ một vài công thức. Cái khó không nằm ở giải tích mà ở việc nhớ mình đang lấy đạo hàm theo biến nào.
+
+## Đường cong tham số
+
+[[P2·8ff8]]
+Đường cong cho bởi $x=x(t)$, $y=y(t)$ có hệ số góc
+  $$\frac{dy}{dx}=\frac{dy/dt}{dx/dt}\quad\text{khi }\frac{dx}{dt}\ne0.$$
+[[P3·52ce]]
+Tiếp tuyến nằm ngang khi $\dfrac{dy}{dt}=0$ và $\dfrac{dx}{dt}\ne0$, thẳng đứng khi $\dfrac{dx}{dt}=0$ và $\dfrac{dy}{dt}\ne0$.
+
+  :::example Hệ số góc và tiếp tuyến
+  Với $x=t^2$, $y=t^3-3t$:
+
+  a) Tìm $\dfrac{dy}{dx}$ tại $t=2$.
+  b) Tiếp tuyến nằm ngang và thẳng đứng ở đâu?
+
+  **Lời giải.** a) $\dfrac{dy}{dx}=\dfrac{3t^2-3}{2t}$, nên tại $t=2$ hệ số góc bằng $\dfrac{9}{4}$.
+
+  b) Nằm ngang khi $3t^2-3=0$, tức $t=\pm1$ (khi đó $2t\ne0$): các điểm $(1,-2)$ và $(1,2)$. Thẳng đứng khi $2t=0$, tức $t=0$ (khi đó $3t^2-3=-3\ne0$): điểm $(0,0)$.
+  :::
+
+:::note Đạo hàm cấp hai
+[[P4·eb96]]
+$\dfrac{d^2y}{dx^2}$ **không** bằng $\dfrac{d^2y/dt^2}{d^2x/dt^2}$. Hãy lấy đạo hàm của $\dfrac{dy}{dx}$ theo $t$, rồi chia cho $\dfrac{dx}{dt}$:
+$$\frac{d^2y}{dx^2}=\frac{\dfrac{d}{dt}\left(\dfrac{dy}{dx}\right)}{dx/dt}.$$
+:::
+
+  :::example Tính lồi lõm của đường cong tham số
+  Với cùng đường cong $x=t^2$, $y=t^3-3t$, giá trị của $\dfrac{d^2y}{dx^2}$ tại $t=1$ bằng
+  A. $3$
+  B. $\dfrac32$
+  C. $\dfrac34$
+  D. $6$
+
+  **Lời giải.** $\dfrac{dy}{dx}=\dfrac32\left(t-\dfrac1t\right)$, nên $\dfrac{d}{dt}\left(\dfrac{dy}{dx}\right)=\dfrac32\left(1+\dfrac{1}{t^2}\right)$. Chia cho $2t$: $\dfrac{d^2y}{dx^2}=\dfrac{3\left(t^2+1\right)}{4t^3}$, bằng $\dfrac32$ tại $t=1$. Đáp án **B**. Phương án C quên thừa số $1+\dfrac{1}{t^2}$, chỉ lấy $\dfrac32$ chia cho $2t$.
+  :::
+
+## Chuyển động bằng véc-tơ
+
+[[P5·a1cf]]
+Một hạt có vị trí $\langle x(t),y(t)\rangle$ thì có vận tốc $\langle x'(t),y'(t)\rangle$ và gia tốc $\langle x''(t),y''(t)\rangle$.
+
+[[P6·3b8a]]
+- **Tốc độ** là độ dài véc-tơ vận tốc: $\sqrt{x'(t)^2+y'(t)^2}$.
+- **Quãng đường** từ $t=a$ đến $t=b$ là $\displaystyle\int_a^b\sqrt{x'(t)^2+y'(t)^2}\,dt$; cũng tích phân đó cho độ dài cung của quỹ đạo.
+- **Vị trí về sau:** $x(b)=x(a)+\displaystyle\int_a^bx'(t)\,dt$, tương tự với $y$.
+
+  :::example Một hạt trong mặt phẳng
+  Một hạt có vận tốc $v(t)=\left\langle2t,\ t^2-1\right\rangle$ và ở điểm $(1,2)$ lúc $t=0$.
+
+  a) Tìm tốc độ và gia tốc của hạt lúc $t=2$.
+  b) Tìm vị trí của hạt lúc $t=3$.
+  c) Tìm quãng đường hạt đi được từ $t=0$ đến $t=3$.
+
+  **Lời giải.** a) $v(2)=\langle4,3\rangle$, tốc độ $\sqrt{16+9}=5$. $a(t)=\langle2,2t\rangle$, nên $a(2)=\langle2,4\rangle$.
+
+  b) $x(3)=1+\displaystyle\int_0^32t\,dt=1+9=10$ và $y(3)=2+\displaystyle\int_0^3\left(t^2-1\right)dt=2+(9-3)=8$. Hạt ở điểm $(10,8)$.
+
+  c) $4t^2+\left(t^2-1\right)^2=t^4+2t^2+1=\left(t^2+1\right)^2$, nên quãng đường bằng $\displaystyle\int_0^3\left(t^2+1\right)dt=9+3=12$. Trong đề thi, tích phân này thường tính bằng máy tính; ở đây nó rút gọn được chính xác.
+  :::
+
+## Đường cong cực: hệ số góc và ý nghĩa của dr/dθ
+
+[[P7·bd91]]
+Đường cong cực $r=f(\theta)$ chính là đường cong tham số $x=r\cos\theta$, $y=r\sin\theta$ với tham số $\theta$. Vì vậy hệ số góc của nó là
+  $$\frac{dy}{dx}=\frac{dy/d\theta}{dx/d\theta}=\frac{r'\sin\theta+r\cos\theta}{r'\cos\theta-r\sin\theta}.$$
+[[P8·2faa]]
+Dấu của $\dfrac{dr}{d\theta}$ cho biết khoảng cách tới gốc toạ độ: khi $r>0$ và $\dfrac{dr}{d\theta}>0$, điểm đang ra xa gốc; khi $\dfrac{dr}{d\theta}<0$, điểm đang lại gần gốc.
+
+  :::example Hệ số góc của đường hình tim
+  Tìm hệ số góc của $r=1+\cos\theta$ tại $\theta=\dfrac{\pi}{2}$.
+
+  **Lời giải.** Tại $\theta=\dfrac\pi2$: $r=1$ và $r'=-\sin\theta=-1$.
+  $\dfrac{dy}{d\theta}=(-1)(1)+(1)(0)=-1$ và $\dfrac{dx}{d\theta}=(-1)(0)-(1)(1)=-1$, nên $\dfrac{dy}{dx}=1$.
+  :::
+
+## Diện tích trong toạ độ cực
+
+  :::theorem Diện tích trong toạ độ cực
+  Diện tích miền giới hạn bởi $r=f(\theta)$ và hai tia $\theta=\alpha$, $\theta=\beta$ là
+  $$A=\frac12\int_\alpha^\beta r^2\,d\theta.$$
+  Giữa hai đường cong, với $r_{\text{ngoài}}$ xa gốc hơn: $A=\dfrac12\displaystyle\int_\alpha^\beta\left(r_{\text{ngoài}}^2-r_{\text{trong}}^2\right)d\theta$.
+  :::
+
+  :::example Diện tích bên trong đường hình tim
+  Diện tích miền giới hạn bởi $r=1+\cos\theta$ bằng
+  A. $\pi$
+  B. $3\pi$
+  C. $\dfrac{3\pi}{2}$
+  D. $2\pi$
+
+  **Lời giải.** $\dfrac12\displaystyle\int_0^{2\pi}\left(1+2\cos\theta+\cos^2\theta\right)d\theta=\dfrac12\left(2\pi+0+\pi\right)=\dfrac{3\pi}{2}$. Đáp án **C**. Phương án B quên hệ số $\dfrac12$.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P9·5338]]
+- **Chia hai đạo hàm cấp hai cho nhau.** $\dfrac{d^2y}{dx^2}\ne\dfrac{y''(t)}{x''(t)}$.
+- **Nhầm tốc độ với vận tốc.** Tốc độ là một số; vận tốc là một véc-tơ.
+- **Diện tích cực thiếu $\dfrac12$, hoặc dùng $r$ thay cho $r^2$.**
+- **Lỗi kiểu vành khuyên trong toạ độ cực.** Giữa hai đường cong, dùng $r_{\text{ngoài}}^2-r_{\text{trong}}^2$, không phải $\left(r_{\text{ngoài}}-r_{\text{trong}}\right)^2$.
+- **Sai cận.** Tìm giao điểm bằng cách giải $f(\theta)=g(\theta)$, rồi kiểm tra miền trên hình vẽ hoặc máy tính vẽ đồ thị.
+:::
+
+  :::terms
+  - parametric equations | phương trình tham số
+  - parameter | tham số
+  - vector-valued function | hàm véc-tơ
+  - velocity / acceleration vector | véc-tơ vận tốc / gia tốc
+  - speed | tốc độ (độ lớn vận tốc)
+  - arc length | độ dài cung
+  - polar coordinates | toạ độ cực
+  - cardioid | đường hình tim
+  :::
+
+## Bài tập tương tự
+
+:::exercise Trắc nghiệm
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Một câu về chuyển động kiểu đề AP
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Bên trong đường hình tim
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Giữa hai đường cong cực
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-bc-parametric-polar – BẢN TIẾNG ANH ########
+---
+title: Parametric, vector-valued and polar functions
+description: AP Calculus BC Unit 9: derivatives of parametric curves, motion with vectors, speed and distance, polar slope and polar area.
+minutes: 45
+---
+
+  :::goals
+  - Find $\dfrac{dy}{dx}$ and $\dfrac{d^2y}{dx^2}$ for a parametric curve, and locate horizontal and vertical tangents.
+  - Describe motion in the plane with position, velocity and acceleration vectors; find speed and distance traveled.
+  - Find the slope of a polar curve and interpret $\dfrac{dr}{d\theta}$.
+  - Find the area of a region bounded by one or two polar curves.
+  :::
+
+[[P1·b49d]]
+Unit 9 is for BC only and carries about a tenth of the BC score. Its free-response question is usually a particle moving in the plane, or a region bounded by a polar curve, and both are built from a handful of formulas. The difficulty is not the calculus; it is keeping track of which variable you are differentiating with respect to.
+
+## Parametric curves
+
+[[P2·5267]]
+A curve given by $x=x(t)$, $y=y(t)$ has slope
+  $$\frac{dy}{dx}=\frac{dy/dt}{dx/dt}\quad\text{when }\frac{dx}{dt}\ne0.$$
+[[P3·953b]]
+The tangent is horizontal where $\dfrac{dy}{dt}=0$ and $\dfrac{dx}{dt}\ne0$, vertical where $\dfrac{dx}{dt}=0$ and $\dfrac{dy}{dt}\ne0$.
+
+  :::example Slope and tangents
+  For $x=t^2$, $y=t^3-3t$:
+
+  a) Find $\dfrac{dy}{dx}$ at $t=2$.
+  b) Where are the tangents horizontal and vertical?
+
+  **Solution.** a) $\dfrac{dy}{dx}=\dfrac{3t^2-3}{2t}$, so at $t=2$ the slope is $\dfrac{9}{4}$.
+
+  b) Horizontal where $3t^2-3=0$, at $t=\pm1$ (there $2t\ne0$): the points $(1,-2)$ and $(1,2)$. Vertical where $2t=0$, at $t=0$ (there $3t^2-3=-3\ne0$): the point $(0,0)$.
+  :::
+
+:::note The second derivative
+[[P4·06fe]]
+$\dfrac{d^2y}{dx^2}$ is **not** $\dfrac{d^2y/dt^2}{d^2x/dt^2}$. Differentiate $\dfrac{dy}{dx}$ with respect to $t$, then divide by $\dfrac{dx}{dt}$:
+$$\frac{d^2y}{dx^2}=\frac{\dfrac{d}{dt}\left(\dfrac{dy}{dx}\right)}{dx/dt}.$$
+:::
+
+  :::example Concavity of a parametric curve
+  For the same curve $x=t^2$, $y=t^3-3t$, what is $\dfrac{d^2y}{dx^2}$ at $t=1$?
+  A. $3$
+  B. $\dfrac32$
+  C. $\dfrac34$
+  D. $6$
+
+  **Solution.** $\dfrac{dy}{dx}=\dfrac32\left(t-\dfrac1t\right)$, so $\dfrac{d}{dt}\left(\dfrac{dy}{dx}\right)=\dfrac32\left(1+\dfrac{1}{t^2}\right)$. Dividing by $2t$: $\dfrac{d^2y}{dx^2}=\dfrac{3\left(t^2+1\right)}{4t^3}$, which equals $\dfrac32$ at $t=1$. Answer **B**. Option C forgets the factor $1+\dfrac{1}{t^2}$, using only $\dfrac32$ divided by $2t$.
+  :::
+
+## Motion with vectors
+
+[[P5·85fa]]
+A particle at position $\langle x(t),y(t)\rangle$ has velocity $\langle x'(t),y'(t)\rangle$ and acceleration $\langle x''(t),y''(t)\rangle$.
+
+[[P6·de82]]
+- **Speed** is the length of the velocity vector: $\sqrt{x'(t)^2+y'(t)^2}$.
+- **Distance traveled** from $t=a$ to $t=b$ is $\displaystyle\int_a^b\sqrt{x'(t)^2+y'(t)^2}\,dt$; the same integral gives the arc length of the path.
+- **Position later:** $x(b)=x(a)+\displaystyle\int_a^bx'(t)\,dt$, and likewise for $y$.
+
+  :::example A particle in the plane
+  A particle has velocity $v(t)=\left\langle2t,\ t^2-1\right\rangle$ and is at $(1,2)$ at $t=0$.
+
+  a) Find its speed and acceleration at $t=2$.
+  b) Find its position at $t=3$.
+  c) Find the distance traveled from $t=0$ to $t=3$.
+
+  **Solution.** a) $v(2)=\langle4,3\rangle$, speed $\sqrt{16+9}=5$. $a(t)=\langle2,2t\rangle$, so $a(2)=\langle2,4\rangle$.
+
+  b) $x(3)=1+\displaystyle\int_0^32t\,dt=1+9=10$ and $y(3)=2+\displaystyle\int_0^3\left(t^2-1\right)dt=2+(9-3)=8$. The particle is at $(10,8)$.
+
+  c) $4t^2+\left(t^2-1\right)^2=t^4+2t^2+1=\left(t^2+1\right)^2$, so the distance is $\displaystyle\int_0^3\left(t^2+1\right)dt=9+3=12$. On the exam this integral is usually done with a calculator; here it simplifies exactly.
+  :::
+
+## Polar curves: slope and the meaning of dr/dθ
+
+[[P7·c569]]
+A polar curve $r=f(\theta)$ is the parametric curve $x=r\cos\theta$, $y=r\sin\theta$ with parameter $\theta$. So its slope is
+  $$\frac{dy}{dx}=\frac{dy/d\theta}{dx/d\theta}=\frac{r'\sin\theta+r\cos\theta}{r'\cos\theta-r\sin\theta}.$$
+[[P8·ade1]]
+The sign of $\dfrac{dr}{d\theta}$ tells you about distance from the origin: when $r>0$ and $\dfrac{dr}{d\theta}>0$, the point moves away from the origin; when $\dfrac{dr}{d\theta}<0$, toward it.
+
+  :::example Slope of a cardioid
+  Find the slope of $r=1+\cos\theta$ at $\theta=\dfrac{\pi}{2}$.
+
+  **Solution.** At $\theta=\dfrac\pi2$: $r=1$ and $r'=-\sin\theta=-1$.
+  $\dfrac{dy}{d\theta}=(-1)(1)+(1)(0)=-1$ and $\dfrac{dx}{d\theta}=(-1)(0)-(1)(1)=-1$, so $\dfrac{dy}{dx}=1$.
+  :::
+
+## Polar area
+
+  :::theorem Area in polar coordinates
+  The area of the region bounded by $r=f(\theta)$ and the rays $\theta=\alpha$, $\theta=\beta$ is
+  $$A=\frac12\int_\alpha^\beta r^2\,d\theta.$$
+  Between two curves, with $r_{\text{out}}$ farther from the origin: $A=\dfrac12\displaystyle\int_\alpha^\beta\left(r_{\text{out}}^2-r_{\text{in}}^2\right)d\theta$.
+  :::
+
+  :::example Area inside a cardioid
+  What is the area enclosed by $r=1+\cos\theta$?
+  A. $\pi$
+  B. $3\pi$
+  C. $\dfrac{3\pi}{2}$
+  D. $2\pi$
+
+  **Solution.** $\dfrac12\displaystyle\int_0^{2\pi}\left(1+2\cos\theta+\cos^2\theta\right)d\theta=\dfrac12\left(2\pi+0+\pi\right)=\dfrac{3\pi}{2}$. Answer **C**. Option B forgets the $\dfrac12$.
+  :::
+
+:::warning Common traps
+[[P9·8864]]
+- **Dividing second derivatives.** $\dfrac{d^2y}{dx^2}\ne\dfrac{y''(t)}{x''(t)}$.
+- **Speed is not velocity.** Speed is a number; velocity is a vector.
+- **Polar area without the $\dfrac12$, or with $r$ instead of $r^2$.**
+- **Washer-style mistake in polar.** Between two curves, use $r_{\text{out}}^2-r_{\text{in}}^2$, not $\left(r_{\text{out}}-r_{\text{in}}\right)^2$.
+- **Wrong limits.** Find where the curves meet by solving $f(\theta)=g(\theta)$, and check the region on a sketch or a graphing calculator.
+:::
+
+  :::terms
+  - parametric equations | phương trình tham số
+  - parameter | tham số
+  - vector-valued function | hàm véc-tơ
+  - velocity / acceleration vector | véc-tơ vận tốc / gia tốc
+  - speed | tốc độ (độ lớn vận tốc)
+  - arc length | độ dài cung
+  - polar coordinates | toạ độ cực
+  - cardioid | đường hình tim
+  :::
+
+## Similar exercises
+
+:::exercise Multiple choice
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A particle question in AP style
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Inside a cardioid
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Between two polar curves
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-bc-series – BẢN TIẾNG VIỆT ########
+---
+title: Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa
+description: AP Calculus BC Unit 10: các tiêu chuẩn hội tụ, hội tụ tuyệt đối và có điều kiện, đa thức Taylor, cận sai số và khoảng hội tụ.
+minutes: 50
+---
+
+  :::goals
+  - Chọn tiêu chuẩn phù hợp để xét một chuỗi hội tụ hay phân kì, có nêu điều kiện của tiêu chuẩn.
+  - Phân biệt hội tụ tuyệt đối với hội tụ có điều kiện.
+  - Lập đa thức Taylor và dùng nó để tính gần đúng.
+  - Đánh giá sai số bằng cận sai số của chuỗi đan dấu hoặc cận sai số Lagrange.
+  - Tìm bán kính và khoảng hội tụ của chuỗi luỹ thừa, kể cả hai đầu mút.
+  :::
+
+[[P1·ab35]]
+Unit 10 là unit lớn nhất chỉ có ở BC, chiếm khoảng một phần sáu điểm BC, và gần như đề BC nào cũng có một câu tự luận về nó: lập đa thức Taylor, đánh giá sai số, tìm khoảng hội tụ. Điểm thuộc về học sinh nêu tên tiêu chuẩn mình dùng và viết ra việc kiểm tra điều kiện. Viết "hội tụ theo tiêu chuẩn tỉ số" kèm giới hạn được tính ra thì có điểm; chỉ viết "hội tụ" thì không.
+
+## Hội tụ: bộ công cụ cơ bản
+
+:::note Các chuỗi phải nhận ra ngay
+[[P2·c4dd]]
+- **Chuỗi hình học:** $\displaystyle\sum_{n=0}^\infty ar^n$ hội tụ về $\dfrac{a}{1-r}$ khi $|r|<1$, và phân kì khi $|r|\ge1$.
+- **Chuỗi $p$:** $\displaystyle\sum_{n=1}^\infty\frac{1}{n^p}$ hội tụ khi $p>1$ và phân kì khi $p\le1$. **Chuỗi điều hoà** ($p=1$) phân kì.
+- **Tiêu chuẩn số hạng thứ $n$:** nếu $\displaystyle\lim_{n\to\infty}a_n\ne0$ thì chuỗi phân kì. Nếu giới hạn bằng $0$ thì tiêu chuẩn này không kết luận được gì.
+:::
+
+  :::example Tổng của chuỗi hình học
+  Tính $\displaystyle\sum_{n=0}^\infty3\left(\frac25\right)^n$.
+
+  **Lời giải.** Chuỗi hình học với $a=3$ và $r=\dfrac25$, và $|r|<1$: tổng bằng $\dfrac{3}{1-2/5}=5$.
+  :::
+
+  :::example Chuỗi nào hội tụ?
+  Chuỗi nào hội tụ?
+  A. $\displaystyle\sum_{n=1}^\infty\frac{n}{n+1}$
+  B. $\displaystyle\sum_{n=1}^\infty\frac{1}{\sqrt n}$
+  C. $\displaystyle\sum_{n=1}^\infty\frac{1}{n^{3/2}}$
+  D. $\displaystyle\sum_{n=1}^\infty\left(\frac54\right)^n$
+
+  **Lời giải.** A: số hạng tiến tới $1$, nên phân kì theo tiêu chuẩn số hạng thứ $n$. B: $p=\dfrac12\le1$, phân kì. C: $p=\dfrac32>1$, hội tụ. D: chuỗi hình học với $r=\dfrac54>1$, phân kì. Đáp án **C**.
+  :::
+
+## Thêm các tiêu chuẩn, hội tụ tuyệt đối và có điều kiện
+
+[[P3·a085]]
+- **Tiêu chuẩn tích phân:** nếu $f$ dương, liên tục, nghịch biến và $f(n)=a_n$ thì $\displaystyle\sum a_n$ và $\displaystyle\int_1^\infty f(x)\,dx$ cùng hội tụ hoặc cùng phân kì.
+- **So sánh và so sánh giới hạn:** so với một chuỗi hình học hoặc chuỗi $p$ đã biết tính chất.
+- **Tiêu chuẩn tỉ số:** nếu $\displaystyle\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|=L$ thì chuỗi hội tụ tuyệt đối khi $L<1$ và phân kì khi $L>1$; $L=1$ thì không kết luận được.
+- **Tiêu chuẩn chuỗi đan dấu:** $\displaystyle\sum(-1)^nb_n$ với $b_n>0$ giảm dần và $b_n\to0$ thì hội tụ.
+
+[[P4·25ed]]
+Chuỗi **hội tụ tuyệt đối** nếu $\displaystyle\sum|a_n|$ hội tụ; chuỗi **hội tụ có điều kiện** nếu nó hội tụ nhưng $\displaystyle\sum|a_n|$ phân kì.
+
+  :::example Tiêu chuẩn tỉ số
+  Chứng tỏ $\displaystyle\sum_{n=1}^\infty\frac{n^2}{3^n}$ hội tụ.
+
+  **Lời giải.** $\left|\dfrac{a_{n+1}}{a_n}\right|=\dfrac{(n+1)^2}{3^{n+1}}\cdot\dfrac{3^n}{n^2}=\dfrac13\left(\dfrac{n+1}{n}\right)^2\to\dfrac13$. Vì $\dfrac13<1$ nên chuỗi hội tụ theo tiêu chuẩn tỉ số.
+  :::
+
+  :::example Tuyệt đối hay có điều kiện?
+  Phân loại $\displaystyle\sum_{n=1}^\infty\frac{(-1)^{n+1}}{n}$ và $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n^2}$.
+
+  **Lời giải.** Chuỗi thứ nhất hội tụ theo tiêu chuẩn chuỗi đan dấu ($\dfrac1n$ giảm dần về $0$), nhưng chuỗi các giá trị tuyệt đối là chuỗi điều hoà, phân kì: hội tụ **có điều kiện**. Chuỗi thứ hai có giá trị tuyệt đối là $\dfrac{1}{n^2}$, một chuỗi $p$ hội tụ: hội tụ **tuyệt đối**.
+  :::
+
+## Đa thức Taylor và cận sai số
+
+[[P5·4b60]]
+Đa thức Taylor bậc $n$ của $f$ tại $x=a$ là
+  $$P_n(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+\dots+\frac{f^{(n)}(a)}{n!}(x-a)^n.$$
+
+:::note Các chuỗi Maclaurin cần thuộc lòng
+[[P6·6da5]]
+$$e^x=\sum_{n=0}^\infty\frac{x^n}{n!},\qquad\sin x=\sum_{n=0}^\infty\frac{(-1)^nx^{2n+1}}{(2n+1)!},\qquad\cos x=\sum_{n=0}^\infty\frac{(-1)^nx^{2n}}{(2n)!},$$
+$$\frac{1}{1-x}=\sum_{n=0}^\infty x^n\quad(|x|<1).$$
+Các chuỗi mới được tạo từ những chuỗi này bằng cách thế biến, nhân với một luỹ thừa của $x$, đạo hàm hoặc lấy tích phân từng số hạng.
+:::
+
+  :::example Đa thức Taylor từ các đạo hàm cho trước
+  Hàm số $f$ có $f(0)=2$, $f'(0)=-1$, $f''(0)=4$ và $f'''(0)=-6$. Viết đa thức Taylor bậc ba của $f$ tại $x=0$ và dùng nó để tính gần đúng $f(0{,}1)$.
+
+  **Lời giải.** $P_3(x)=2-x+\dfrac{4}{2}x^2+\dfrac{-6}{6}x^3=2-x+2x^2-x^3$. Vậy $f(0{,}1)\approx2-0{,}1+0{,}02-0{,}001=1{,}919$. Nhớ chia cho giai thừa: đây là chỗ mất điểm nhiều nhất.
+  :::
+
+  :::theorem Hai cận sai số
+  **Cận sai số của chuỗi đan dấu.** Nếu chuỗi thoả mãn tiêu chuẩn chuỗi đan dấu thì sai số khi dừng ở một số hạng không vượt quá giá trị tuyệt đối của số hạng đầu tiên bị bỏ đi.
+
+  **Cận sai số Lagrange.** Nếu $\left|f^{(n+1)}(x)\right|\le M$ giữa $a$ và $x$ thì $\left|f(x)-P_n(x)\right|\le\dfrac{M}{(n+1)!}|x-a|^{n+1}$.
+  :::
+
+  :::example Giá trị gần đúng tốt đến đâu?
+  Tính gần đúng $\cos0{,}5$ bằng $1-\dfrac{x^2}{2}$ và đánh giá sai số.
+
+  **Lời giải.** $1-\dfrac{0{,}25}{2}=0{,}875$. Chuỗi của $\cos0{,}5$ đan dấu với các số hạng giảm dần, nên sai số không vượt quá số hạng tiếp theo: $\dfrac{0{,}5^4}{24}\approx0{,}0026$. (Giá trị thật khoảng $0{,}8776$, sai số khoảng $0{,}0026$.)
+  :::
+
+## Chuỗi luỹ thừa và khoảng hội tụ
+
+[[P7·d8f3]]
+Chuỗi luỹ thừa $\displaystyle\sum c_n(x-a)^n$ hội tụ trên một khoảng có tâm $a$. Dùng tiêu chuẩn tỉ số để tìm bán kính, rồi **xét riêng từng đầu mút**: tiêu chuẩn tỉ số không cho thông tin gì ở đó.
+
+  :::example Khoảng hội tụ chứa một đầu mút
+  Tìm khoảng hội tụ của $\displaystyle\sum_{n=1}^\infty\frac{(x-2)^n}{n\cdot3^n}$.
+
+  **Lời giải.** $\left|\dfrac{a_{n+1}}{a_n}\right|=\dfrac{|x-2|}{3}\cdot\dfrac{n}{n+1}\to\dfrac{|x-2|}{3}$. Giới hạn này nhỏ hơn $1$ khi $|x-2|<3$, tức $-1<x<5$.
+
+  Tại $x=5$: $\displaystyle\sum\frac1n$, chuỗi điều hoà, phân kì. Tại $x=-1$: $\displaystyle\sum\frac{(-1)^n}{n}$ hội tụ theo tiêu chuẩn chuỗi đan dấu. Khoảng hội tụ là $[-1,5)$.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P8·4425]]
+- **Dùng tiêu chuẩn số hạng thứ $n$ để chứng minh hội tụ.** Chỉ có $a_n\to0$ thì chưa chứng minh được gì: chuỗi điều hoà là phản ví dụ.
+- **Bỏ qua hai đầu mút**, hoặc xét đầu mút bằng tiêu chuẩn tỉ số.
+- **Quên giai thừa** trong đa thức Taylor.
+- **Không nêu tên tiêu chuẩn.** Viết tên tiêu chuẩn, kiểm tra điều kiện, nêu kết luận.
+- **Nhầm hai cận sai số.** Cận của chuỗi đan dấu cần chuỗi đan dấu có số hạng giảm dần; cận Lagrange cần một chặn $M$ của đạo hàm cấp tiếp theo.
+:::
+
+  :::terms
+  - series, partial sum | chuỗi, tổng riêng
+  - converge / diverge | hội tụ / phân kì
+  - geometric series, harmonic series | chuỗi hình học, chuỗi điều hoà
+  - ratio test, alternating series test | tiêu chuẩn tỉ số, tiêu chuẩn chuỗi đan dấu
+  - absolute / conditional convergence | hội tụ tuyệt đối / có điều kiện
+  - Taylor polynomial, Maclaurin series | đa thức Taylor, chuỗi Maclaurin
+  - error bound | cận sai số
+  - radius / interval of convergence | bán kính / khoảng hội tụ
+  :::
+
+## Bài tập tương tự
+
+:::exercise Trắc nghiệm
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Một câu Taylor đầy đủ
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Cả hai đầu mút
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Lấy tích phân một chuỗi
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-bc-series – BẢN TIẾNG ANH ########
+---
+title: Infinite series, Taylor and power series
+description: AP Calculus BC Unit 10: convergence tests, absolute and conditional convergence, Taylor polynomials, error bounds and intervals of convergence.
+minutes: 50
+---
+
+  :::goals
+  - Choose a suitable test and decide whether a series converges or diverges, stating the conditions of the test.
+  - Tell absolute from conditional convergence.
+  - Build Taylor polynomials and use them to approximate values.
+  - Bound the error with the alternating series error bound or the Lagrange error bound.
+  - Find the radius and interval of convergence of a power series, including the endpoints.
+  :::
+
+[[P1·7d75]]
+Unit 10 is the largest BC-only unit, roughly a sixth of the BC score, and almost every BC exam has a free-response question on it: build a Taylor polynomial, bound the error, find an interval of convergence. The points go to students who name the test they use and check its conditions in writing. "It converges by the ratio test" with the limit shown earns credit; "it converges" alone does not.
+
+## Convergence: the basic toolkit
+
+:::note Series you must recognize
+[[P2·c1ab]]
+- **Geometric:** $\displaystyle\sum_{n=0}^\infty ar^n$ converges to $\dfrac{a}{1-r}$ when $|r|<1$, and diverges when $|r|\ge1$.
+- **$p$-series:** $\displaystyle\sum_{n=1}^\infty\frac{1}{n^p}$ converges when $p>1$ and diverges when $p\le1$. The **harmonic series** ($p=1$) diverges.
+- **$n$th term test:** if $\displaystyle\lim_{n\to\infty}a_n\ne0$, the series diverges. If the limit is $0$, this test says nothing.
+:::
+
+  :::example A geometric sum
+  Find $\displaystyle\sum_{n=0}^\infty3\left(\frac25\right)^n$.
+
+  **Solution.** Geometric with $a=3$ and $r=\dfrac25$, and $|r|<1$: the sum is $\dfrac{3}{1-2/5}=5$.
+  :::
+
+  :::example Which one converges?
+  Which series converges?
+  A. $\displaystyle\sum_{n=1}^\infty\frac{n}{n+1}$
+  B. $\displaystyle\sum_{n=1}^\infty\frac{1}{\sqrt n}$
+  C. $\displaystyle\sum_{n=1}^\infty\frac{1}{n^{3/2}}$
+  D. $\displaystyle\sum_{n=1}^\infty\left(\frac54\right)^n$
+
+  **Solution.** A: the terms tend to $1$, so it diverges by the $n$th term test. B: $p=\dfrac12\le1$, diverges. C: $p=\dfrac32>1$, converges. D: geometric with $r=\dfrac54>1$, diverges. Answer **C**.
+  :::
+
+## More tests, and absolute versus conditional
+
+[[P3·5ac1]]
+- **Integral test:** if $f$ is positive, continuous and decreasing with $f(n)=a_n$, then $\displaystyle\sum a_n$ and $\displaystyle\int_1^\infty f(x)\,dx$ both converge or both diverge.
+- **Comparison and limit comparison:** compare with a geometric or $p$-series whose behavior you know.
+- **Ratio test:** if $\displaystyle\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|=L$, the series converges absolutely when $L<1$ and diverges when $L>1$; $L=1$ gives no conclusion.
+- **Alternating series test:** $\displaystyle\sum(-1)^nb_n$ with $b_n>0$ decreasing and $b_n\to0$ converges.
+
+[[P4·47f1]]
+A series **converges absolutely** if $\displaystyle\sum|a_n|$ converges; it **converges conditionally** if it converges but $\displaystyle\sum|a_n|$ diverges.
+
+  :::example The ratio test
+  Show that $\displaystyle\sum_{n=1}^\infty\frac{n^2}{3^n}$ converges.
+
+  **Solution.** $\left|\dfrac{a_{n+1}}{a_n}\right|=\dfrac{(n+1)^2}{3^{n+1}}\cdot\dfrac{3^n}{n^2}=\dfrac13\left(\dfrac{n+1}{n}\right)^2\to\dfrac13$. Since $\dfrac13<1$, the series converges by the ratio test.
+  :::
+
+  :::example Absolute or conditional?
+  Classify $\displaystyle\sum_{n=1}^\infty\frac{(-1)^{n+1}}{n}$ and $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n^2}$.
+
+  **Solution.** The first converges by the alternating series test ($\dfrac1n$ decreases to $0$), but the series of absolute values is the harmonic series, which diverges: **conditional** convergence. The second has absolute values $\dfrac{1}{n^2}$, a convergent $p$-series: **absolute** convergence.
+  :::
+
+## Taylor polynomials and error bounds
+
+[[P5·0802]]
+The Taylor polynomial of degree $n$ for $f$ about $x=a$ is
+  $$P_n(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+\dots+\frac{f^{(n)}(a)}{n!}(x-a)^n.$$
+
+:::note Maclaurin series to know by heart
+[[P6·b5c6]]
+$$e^x=\sum_{n=0}^\infty\frac{x^n}{n!},\qquad\sin x=\sum_{n=0}^\infty\frac{(-1)^nx^{2n+1}}{(2n+1)!},\qquad\cos x=\sum_{n=0}^\infty\frac{(-1)^nx^{2n}}{(2n)!},$$
+$$\frac{1}{1-x}=\sum_{n=0}^\infty x^n\quad(|x|<1).$$
+New series come from these by substituting, multiplying by a power of $x$, differentiating or integrating term by term.
+:::
+
+  :::example A Taylor polynomial from given derivatives
+  A function $f$ has $f(0)=2$, $f'(0)=-1$, $f''(0)=4$ and $f'''(0)=-6$. Write the third-degree Taylor polynomial for $f$ about $x=0$ and use it to approximate $f(0.1)$.
+
+  **Solution.** $P_3(x)=2-x+\dfrac{4}{2}x^2+\dfrac{-6}{6}x^3=2-x+2x^2-x^3$. So $f(0.1)\approx2-0.1+0.02-0.001=1.919$. Remember to divide by the factorials: this is the most common lost point.
+  :::
+
+  :::theorem Two error bounds
+  **Alternating series error bound.** If a series satisfies the alternating series test, the error after stopping at a term is at most the absolute value of the first omitted term.
+
+  **Lagrange error bound.** If $\left|f^{(n+1)}(x)\right|\le M$ between $a$ and $x$, then $\left|f(x)-P_n(x)\right|\le\dfrac{M}{(n+1)!}|x-a|^{n+1}$.
+  :::
+
+  :::example How good is the approximation?
+  Approximate $\cos0.5$ with $1-\dfrac{x^2}{2}$ and bound the error.
+
+  **Solution.** $1-\dfrac{0.25}{2}=0.875$. The series for $\cos0.5$ alternates with decreasing terms, so the error is at most the next term: $\dfrac{0.5^4}{24}\approx0.0026$. (The true value is about $0.8776$, an error of about $0.0026$.)
+  :::
+
+## Power series and intervals of convergence
+
+[[P7·bf81]]
+A power series $\displaystyle\sum c_n(x-a)^n$ converges on an interval centered at $a$. Use the ratio test to find the radius, then **test each endpoint separately**: the ratio test gives no information there.
+
+  :::example An interval with one endpoint
+  Find the interval of convergence of $\displaystyle\sum_{n=1}^\infty\frac{(x-2)^n}{n\cdot3^n}$.
+
+  **Solution.** $\left|\dfrac{a_{n+1}}{a_n}\right|=\dfrac{|x-2|}{3}\cdot\dfrac{n}{n+1}\to\dfrac{|x-2|}{3}$. This is less than $1$ when $|x-2|<3$, that is $-1<x<5$.
+
+  At $x=5$: $\displaystyle\sum\frac1n$, the harmonic series, diverges. At $x=-1$: $\displaystyle\sum\frac{(-1)^n}{n}$ converges by the alternating series test. The interval is $[-1,5)$.
+  :::
+
+:::warning Common traps
+[[P8·e8cf]]
+- **Using the $n$th term test to prove convergence.** $a_n\to0$ alone proves nothing: the harmonic series is the counterexample.
+- **Skipping the endpoints**, or testing them with the ratio test.
+- **Forgetting the factorials** in a Taylor polynomial.
+- **Not naming the test.** Write the test, check its conditions, state the conclusion.
+- **Mixing up the two error bounds.** The alternating bound needs an alternating series with decreasing terms; Lagrange needs a bound $M$ on the next derivative.
+:::
+
+  :::terms
+  - series, partial sum | chuỗi, tổng riêng
+  - converge / diverge | hội tụ / phân kì
+  - geometric series, harmonic series | chuỗi hình học, chuỗi điều hoà
+  - ratio test, alternating series test | tiêu chuẩn tỉ số, tiêu chuẩn chuỗi đan dấu
+  - absolute / conditional convergence | hội tụ tuyệt đối / có điều kiện
+  - Taylor polynomial, Maclaurin series | đa thức Taylor, chuỗi Maclaurin
+  - error bound | cận sai số
+  - radius / interval of convergence | bán kính / khoảng hội tụ
+  :::
+
+## Similar exercises
+
+:::exercise Multiple choice
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A full Taylor question
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Both endpoints
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Integrating a series
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-contextual-applications – BẢN TIẾNG VIỆT ########
+---
+title: Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan
+description: AP Calculus Unit 4: tốc độ thay đổi kèm đơn vị, chuyển động thẳng, tốc độ liên quan, xấp xỉ tuyến tính và quy tắc L'Hôpital.
+minutes: 45
+---
+
+  :::goals
+  - Giải thích ý nghĩa của đạo hàm trong ngữ cảnh, có đơn vị đúng và cụm "tại thời điểm t".
+  - Phân tích chuyển động thẳng: vận tốc, gia tốc, nhanh dần hay chậm dần, tổng quãng đường.
+  - Giải bài toán tốc độ liên quan bằng cách lấy đạo hàm một phương trình theo thời gian.
+  - Ước lượng giá trị bằng tiếp tuyến và tính giới hạn dạng $\dfrac00$, $\dfrac{\infty}{\infty}$ bằng quy tắc L'Hôpital.
+  :::
+
+[[P1·1a91]]
+Unit 4 là nơi giải tích gặp đời sống, và là một trong những unit xuất hiện rõ nhất ở phần tự luận: gần như năm nào cũng có ít nhất một câu yêu cầu giải thích ý nghĩa của đạo hàm trong một bối cảnh, xác định hạt đang nhanh dần hay chậm dần, hoặc ước lượng một giá trị bằng tiếp tuyến. Phần toán không nặng; điểm số được quyết định bởi câu chữ rõ ràng và đơn vị đúng.
+
+## Đạo hàm là tốc độ thay đổi
+
+[[P2·8b8b]]
+Nếu $Q(t)$ đo một đại lượng tại thời điểm $t$ thì $Q'(a)$ là tốc độ thay đổi tức thời của $Q$ tại $t=a$. Đơn vị của nó là "đơn vị của $Q$ trên một đơn vị của $t$". Một lời giải thích đầy đủ trả lời ba câu hỏi: cái gì đang thay đổi, tại thời điểm nào, và nhanh đến mức nào (kèm chiều: tăng hay giảm).
+
+  :::example Giải thích ý nghĩa của đạo hàm
+  Nhiệt độ của một cốc trà là $W(t)$ độ C, sau $t$ phút kể từ lúc rót. Phát biểu nào giải thích đúng nhất ý nghĩa của $W'(10)=-2{,}5$?
+  A. Nhiệt độ của trà là $-2{,}5$ độ C sau $10$ phút.
+  B. Trà nguội đi $2{,}5$ độ C trong $10$ phút đầu.
+  C. Tại thời điểm $10$ phút, nhiệt độ của trà đang giảm với tốc độ $2{,}5$ độ C mỗi phút.
+  D. Trà cần thêm $2{,}5$ phút để nguội đi $10$ độ C.
+
+  **Lời giải.** $W'(10)$ là tốc độ tức thời tại thời điểm $t=10$, đơn vị độ C mỗi phút, và mang dấu âm nên nhiệt độ đang giảm: đáp án **C**. Phương án A mô tả $W(10)$; phương án B mô tả mức thay đổi trung bình trên một khoảng.
+  :::
+
+## Chuyển động thẳng
+
+[[P3·7d9e]]
+Với một hạt chuyển động trên một đường thẳng có vị trí $x(t)$: vận tốc $v(t)=x'(t)$, gia tốc $a(t)=v'(t)=x''(t)$, tốc độ $|v(t)|$.
+
+[[P4·edda]]
+- Hạt đi sang phải khi $v>0$, sang trái khi $v<0$, và đổi chiều tại nơi $v$ đổi dấu.
+- Hạt **nhanh dần** khi $v$ và $a$ cùng dấu, **chậm dần** khi chúng trái dấu.
+- Tổng quãng đường bằng tổng quãng đường của từng chặng giữa các điểm đổi chiều.
+
+  :::example Đọc chuyển động
+  Một hạt chuyển động trên trục $x$ với vị trí $x(t)=t^3-6t^2+9t$, $t\ge0$.
+
+  a) Khi nào hạt đi sang trái?
+  b) Tại $t=2{,}5$ hạt đang nhanh dần hay chậm dần?
+  c) Tính tổng quãng đường hạt đi được từ $t=0$ đến $t=4$.
+
+  **Lời giải.** a) $v(t)=3t^2-12t+9=3(t-1)(t-3)$, âm khi $1<t<3$: hạt đi sang trái trên khoảng này.
+
+  b) $v(2{,}5)=3(1{,}5)(-0{,}5)=-2{,}25$ và $a(t)=6t-12$, nên $a(2{,}5)=3$. Vận tốc và gia tốc trái dấu: hạt đang **chậm dần**.
+
+  c) Hạt đổi chiều tại $t=1$ và $t=3$. Vị trí: $x(0)=0$, $x(1)=4$, $x(3)=0$, $x(4)=4$. Quãng đường $=4+4+4=12$.
+  :::
+
+## Tốc độ liên quan
+
+[[P5·4e59]]
+Khi hai đại lượng liên hệ với nhau bằng một phương trình và cùng thay đổi theo thời gian, hãy lấy đạo hàm phương trình đó theo $t$. Trình tự chắc chắn: vẽ hình và đặt tên, viết phương trình đúng ở mọi thời điểm, lấy đạo hàm theo $t$, và chỉ sau đó mới thay các giá trị tại thời điểm được hỏi.
+
+  :::example Quả bóng bay
+  Người ta bơm khí vào một quả bóng hình cầu với tốc độ $100$ xăng-ti-mét khối mỗi giây. Bán kính tăng nhanh đến mức nào khi bán kính bằng $5$ xăng-ti-mét?
+
+  **Lời giải.** $V=\dfrac43\pi r^3$, nên $\dfrac{dV}{dt}=4\pi r^2\dfrac{dr}{dt}$. Thay số: $100=4\pi(25)\dfrac{dr}{dt}$, suy ra $\dfrac{dr}{dt}=\dfrac1\pi\approx0{,}318$ xăng-ti-mét mỗi giây.
+  :::
+
+  :::example Chiếc thang trượt
+  Một chiếc thang dài $5$ mét dựa vào tường. Chân thang trượt ra xa tường với tốc độ $0{,}6$ mét mỗi giây. Đầu thang trượt xuống nhanh đến mức nào khi chân thang cách tường $3$ mét?
+
+  **Lời giải.** Gọi $x$ là khoảng cách từ tường đến chân thang, $y$ là độ cao đầu thang: $x^2+y^2=25$, nên $2x\dfrac{dx}{dt}+2y\dfrac{dy}{dt}=0$. Khi $x=3$ thì $y=4$: $3(0{,}6)+4\dfrac{dy}{dt}=0$, nên $\dfrac{dy}{dt}=-0{,}45$. Đầu thang trượt xuống với tốc độ $0{,}45$ mét mỗi giây. Dấu âm nghĩa là $y$ đang giảm; hãy nói rõ điều đó bằng lời.
+  :::
+
+## Xấp xỉ tuyến tính và quy tắc L'Hôpital
+
+[[P6·97a6]]
+Gần $x=a$, tiếp tuyến cho phép xấp xỉ $f(x)\approx f(a)+f'(a)(x-a)$. Nếu $f$ lõm lên gần $a$, tiếp tuyến nằm dưới đồ thị và giá trị ước lượng **nhỏ hơn** giá trị thật; nếu lõm xuống, giá trị ước lượng **lớn hơn** giá trị thật.
+
+  :::example Ước lượng căn bậc hai
+  Dùng tiếp tuyến của $f(x)=\sqrt x$ tại $x=4$, giá trị xấp xỉ của $\sqrt{4{,}1}$ là
+  A. $2{,}05$
+  B. $2{,}0025$
+  C. $2{,}025$
+  D. $2{,}25$
+
+  **Lời giải.** $f(4)=2$ và $f'(x)=\dfrac{1}{2\sqrt x}$, nên $f'(4)=\dfrac14$. Khi đó $\sqrt{4{,}1}\approx2+\dfrac14(0{,}1)=2{,}025$: đáp án **C**. Vì $\sqrt x$ lõm xuống nên giá trị này hơi lớn hơn giá trị thật.
+  :::
+
+  :::theorem Quy tắc L'Hôpital
+  Nếu $\lim f(x)$ và $\lim g(x)$ cùng bằng $0$, hoặc cùng là $\pm\infty$, và $\lim\dfrac{f'(x)}{g'(x)}$ tồn tại, thì $\lim\dfrac{f(x)}{g(x)}=\lim\dfrac{f'(x)}{g'(x)}$. Ở phần tự luận, hãy chỉ ra giới hạn có dạng $\dfrac00$ (hoặc $\dfrac\infty\infty$) trước khi dùng quy tắc.
+  :::
+
+  :::example Dùng quy tắc hai lần
+  $\displaystyle\lim_{x\to0}\frac{1-\cos x}{x^2}$ bằng
+  A. $0$
+  B. $\dfrac12$
+  C. $1$
+  D. Giới hạn không tồn tại.
+
+  **Lời giải.** Dạng $\dfrac00$. Quy tắc L'Hôpital cho $\displaystyle\lim_{x\to0}\frac{\sin x}{2x}$, vẫn là $\dfrac00$; dùng thêm một lần được $\displaystyle\lim_{x\to0}\frac{\cos x}{2}=\frac12$: đáp án **B**.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P7·e734]]
+- **Thiếu đơn vị hoặc thời điểm.** "Tốc độ là $-3$" không được điểm; "tại $t=5$ phút, thể tích đang giảm với tốc độ $3$ lít mỗi phút" mới được điểm.
+- **Nhanh dần nghĩa là $a>0$.** Sai: phải so sánh dấu của $v$ và $a$.
+- **Thay số quá sớm** trong bài tốc độ liên quan. Lấy đạo hàm trước, thay số sau.
+- **Độ dời không phải quãng đường.** Trong ví dụ chuyển động, $x(4)-x(0)=4$ nhưng hạt đã đi $12$.
+- **L'Hôpital không phải quy tắc thương.** Lấy đạo hàm riêng tử và riêng mẫu.
+:::
+
+:::tip Mẫu câu trả lời
+[[P8·1e52]]
+Với mọi câu "giải thích ý nghĩa", hãy điền vào: "Tại $t=$ ___ (đơn vị), ___ đang tăng/giảm với tốc độ ___ (đơn vị) mỗi (đơn vị)." Giám khảo AP tìm đúng những mảnh này. Khi làm bài bằng tiếng Anh: "At $t=$ ___, the ___ is increasing/decreasing at a rate of ___ per ___."
+:::
+
+  :::terms
+  - tốc độ thay đổi | rate of change
+  - vận tốc | velocity
+  - gia tốc | acceleration
+  - tốc độ (độ lớn vận tốc) | speed
+  - tổng quãng đường đi được | total distance traveled
+  - tốc độ liên quan | related rates
+  - xấp xỉ tuyến tính địa phương | local linearization
+  - quy tắc L'Hôpital | L'Hôpital's rule
+  :::
+
+## Bài tập tương tự
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Đổ nước vào bể hình nón
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Một câu chuyển động đầy đủ
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Hai chiếc xe
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-contextual-applications – BẢN TIẾNG ANH ########
+---
+title: Derivatives in context, motion and related rates
+description: AP Calculus Unit 4: rates of change with units, straight-line motion, related rates, local linearization and L'Hôpital's rule.
+minutes: 45
+---
+
+  :::goals
+  - Interpret a derivative in context, with correct units and the words "at time t".
+  - Analyze straight-line motion: velocity, acceleration, speeding up and slowing down, total distance.
+  - Solve related-rates problems by differentiating an equation with respect to time.
+  - Estimate values with a tangent line and evaluate $\dfrac00$ and $\dfrac{\infty}{\infty}$ limits with L'Hôpital's rule.
+  :::
+
+[[P1·8fe0]]
+Unit 4 is where calculus meets the real world, and it is one of the most visible units on the free-response section: almost every year at least one question asks you to explain what a derivative means in a context, to decide whether a particle is speeding up, or to estimate a value with a tangent line. The mathematics is light; the points are won or lost on clear language and correct units.
+
+## The derivative as a rate of change
+
+[[P2·2d2c]]
+If $Q(t)$ measures a quantity at time $t$, then $Q'(a)$ is the instantaneous rate of change of $Q$ at $t=a$. Its units are "units of $Q$ per unit of $t$". A complete interpretation answers three questions: what is changing, at what moment, and how fast (with the direction: increasing or decreasing).
+
+  :::example Interpreting a derivative
+  The temperature of a cup of tea is $W(t)$ degrees Celsius, $t$ minutes after it is poured. Which statement is the best interpretation of $W'(10)=-2.5$?
+  A. The temperature of the tea is $-2.5$ degrees Celsius after $10$ minutes.
+  B. The tea cools by $2.5$ degrees Celsius during the first $10$ minutes.
+  C. At $10$ minutes, the temperature of the tea is decreasing at a rate of $2.5$ degrees Celsius per minute.
+  D. The tea needs $2.5$ more minutes to cool by $10$ degrees Celsius.
+
+  **Solution.** $W'(10)$ is an instantaneous rate at the moment $t=10$, with units degrees Celsius per minute, and its sign is negative, so the temperature is decreasing: answer **C**. Option A describes $W(10)$; option B describes an average change over an interval.
+  :::
+
+## Straight-line motion
+
+[[P3·7c99]]
+For a particle moving along a line with position $x(t)$: velocity $v(t)=x'(t)$, acceleration $a(t)=v'(t)=x''(t)$, and speed $|v(t)|$.
+
+[[P4·65d0]]
+- The particle moves right when $v>0$, left when $v<0$, and changes direction where $v$ changes sign.
+- It is **speeding up** when $v$ and $a$ have the same sign, and **slowing down** when they have opposite signs.
+- Total distance traveled adds the distances of each leg between turning points.
+
+  :::example Reading the motion
+  A particle moves along the $x$-axis with position $x(t)=t^3-6t^2+9t$ for $t\ge0$.
+
+  a) When is the particle moving left?
+  b) Is the particle speeding up or slowing down at $t=2.5$?
+  c) Find the total distance traveled from $t=0$ to $t=4$.
+
+  **Solution.** a) $v(t)=3t^2-12t+9=3(t-1)(t-3)$, which is negative for $1<t<3$: the particle moves left on this interval.
+
+  b) $v(2.5)=3(1.5)(-0.5)=-2.25$ and $a(t)=6t-12$, so $a(2.5)=3$. Velocity and acceleration have opposite signs: the particle is **slowing down**.
+
+  c) It turns at $t=1$ and $t=3$. Positions: $x(0)=0$, $x(1)=4$, $x(3)=0$, $x(4)=4$. Distance $=4+4+4=12$.
+  :::
+
+## Related rates
+
+[[P5·ca17]]
+When two quantities are linked by an equation and both change with time, differentiate the equation with respect to $t$. A reliable routine: draw and label a picture, write the equation that holds at every moment, differentiate with respect to $t$, and only then substitute the values at the moment asked.
+
+  :::example A balloon
+  Air is pumped into a spherical balloon at $100$ cubic centimeters per second. How fast is the radius increasing when the radius is $5$ centimeters?
+
+  **Solution.** $V=\dfrac43\pi r^3$, so $\dfrac{dV}{dt}=4\pi r^2\dfrac{dr}{dt}$. Substitute: $100=4\pi(25)\dfrac{dr}{dt}$, which gives $\dfrac{dr}{dt}=\dfrac1\pi\approx0.318$ centimeters per second.
+  :::
+
+  :::example A sliding ladder
+  A ladder $5$ meters long leans against a wall. The bottom slides away from the wall at $0.6$ meters per second. How fast is the top sliding down when the bottom is $3$ meters from the wall?
+
+  **Solution.** With $x$ the distance from the wall to the bottom and $y$ the height of the top, $x^2+y^2=25$, so $2x\dfrac{dx}{dt}+2y\dfrac{dy}{dt}=0$. When $x=3$, $y=4$: $3(0.6)+4\dfrac{dy}{dt}=0$, so $\dfrac{dy}{dt}=-0.45$. The top slides down at $0.45$ meters per second. The negative sign means $y$ is decreasing; say so in words.
+  :::
+
+## Local linearization and L'Hôpital's rule
+
+[[P6·3f1b]]
+Near $x=a$, the tangent line gives the approximation $f(x)\approx f(a)+f'(a)(x-a)$. If $f$ is concave up near $a$, the tangent lies below the graph and the estimate is an **underestimate**; if concave down, it is an **overestimate**.
+
+  :::example Estimating a square root
+  Using the tangent line to $f(x)=\sqrt x$ at $x=4$, the approximation of $\sqrt{4.1}$ is
+  A. $2.05$
+  B. $2.0025$
+  C. $2.025$
+  D. $2.25$
+
+  **Solution.** $f(4)=2$ and $f'(x)=\dfrac{1}{2\sqrt x}$, so $f'(4)=\dfrac14$. Then $\sqrt{4.1}\approx2+\dfrac14(0.1)=2.025$: answer **C**. Since $\sqrt x$ is concave down, this is a slight overestimate.
+  :::
+
+  :::theorem L'Hôpital's rule
+  If $\lim f(x)$ and $\lim g(x)$ are both $0$, or both $\pm\infty$, and $\lim\dfrac{f'(x)}{g'(x)}$ exists, then $\lim\dfrac{f(x)}{g(x)}=\lim\dfrac{f'(x)}{g'(x)}$. On the free-response section, show that the limit has the form $\dfrac00$ (or $\dfrac\infty\infty$) before using the rule.
+  :::
+
+  :::example Using the rule twice
+  What is $\displaystyle\lim_{x\to0}\frac{1-\cos x}{x^2}$?
+  A. $0$
+  B. $\dfrac12$
+  C. $1$
+  D. The limit does not exist.
+
+  **Solution.** The form is $\dfrac00$. L'Hôpital gives $\displaystyle\lim_{x\to0}\frac{\sin x}{2x}$, still $\dfrac00$; once more gives $\displaystyle\lim_{x\to0}\frac{\cos x}{2}=\frac12$: answer **B**.
+  :::
+
+:::warning Common traps
+[[P7·4bd4]]
+- **Missing units or time.** "The rate is $-3$" earns nothing; "at $t=5$ minutes, the volume is decreasing at $3$ liters per minute" earns the point.
+- **Speeding up means $a>0$.** Wrong: compare the signs of $v$ and $a$.
+- **Substituting too early** in related rates. Differentiate first; plug in values only after.
+- **Displacement is not distance.** $x(4)-x(0)=4$ in the motion example, but the particle traveled $12$.
+- **L'Hôpital is not the quotient rule.** Differentiate the top and the bottom separately.
+:::
+
+:::tip The sentence template
+[[P8·79e1]]
+For any "interpret" question, fill in: "At $t=$ ___ (units), the ___ is increasing/decreasing at a rate of ___ (units) per (units)." Readers of the AP exam look for exactly these pieces.
+:::
+
+  :::terms
+  - rate of change | tốc độ thay đổi
+  - velocity | vận tốc
+  - acceleration | gia tốc
+  - speed | tốc độ (độ lớn vận tốc)
+  - total distance traveled | tổng quãng đường đi được
+  - related rates | tốc độ liên quan
+  - local linearization | xấp xỉ tuyến tính địa phương
+  - L'Hôpital's rule | quy tắc L'Hôpital
+  :::
+
+## Similar exercises
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise Filling a cone
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A full motion question
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Two cars
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-differential-equations – BẢN TIẾNG VIỆT ########
+---
+title: Phương trình vi phân và trường hướng
+description: AP Calculus Unit 7: kiểm tra nghiệm, trường hướng, tách biến, mô hình hàm mũ; riêng BC: phương pháp Euler và tăng trưởng logistic.
+minutes: 45
+---
+
+  :::goals
+  - Kiểm tra một hàm số có phải là nghiệm của phương trình vi phân hay không.
+  - Vẽ và đọc trường hướng, nhận ra phương trình tương ứng.
+  - Giải phương trình vi phân tách biến có điều kiện ban đầu, đủ từng bước như người chấm yêu cầu.
+  - Mô hình hoá tăng trưởng và suy giảm bằng $\dfrac{dy}{dt}=ky$.
+  - (BC) Xấp xỉ nghiệm bằng phương pháp Euler và phân tích tăng trưởng logistic.
+  :::
+
+[[P1·45a6]]
+Unit 7 gần như năm nào cũng có trong phần tự luận, thường là trọn một câu: vẽ trường hướng tại vài điểm, tìm xấp xỉ bằng tiếp tuyến, rồi giải phương trình bằng cách tách biến. Phần tách biến đáng nhiều điểm và được chấm rất chặt từng bước. Tin vui là các bước lúc nào cũng giống nhau.
+
+## Nghiệm và trường hướng
+
+[[P2·21f0]]
+**Phương trình vi phân** liên hệ một hàm chưa biết với các đạo hàm của nó. Một hàm số là **nghiệm** nếu thay vào thì phương trình đúng. **Trường hướng** vẽ tại mỗi điểm $(x,y)$ một đoạn thẳng ngắn có hệ số góc $\dfrac{dy}{dx}$ cho bởi phương trình; các đường cong nghiệm đi theo hướng của những đoạn này.
+
+  :::example Kiểm tra nghiệm
+  Hàm số nào thoả mãn $\dfrac{dy}{dx}=2y$?
+  A. $y=x^2$
+  B. $y=e^{x^2}$
+  C. $y=2e^{x}$
+  D. $y=3e^{2x}$
+
+  **Lời giải.** Với $y=3e^{2x}$: $y'=6e^{2x}=2\left(3e^{2x}\right)=2y$. Đáp án **D**. Với C, $y'=2e^x=y$, không phải $2y$.
+  :::
+
+:::graph Trường hướng của $\dfrac{dy}{dx}=x-y$, cùng nghiệm $y=x-1$
+   (… 29 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Đọc trường hướng
+  Với $\dfrac{dy}{dx}=x-y$ như hình trên:
+
+  a) Các đoạn nằm ngang ở đâu?
+  b) Chứng tỏ $y=x-1$ là một nghiệm.
+  c) Đường cong nghiệm lõm lên ở đâu?
+
+  **Lời giải.** a) Ở những điểm có $x-y=0$, tức trên đường thẳng $y=x$.
+
+  b) $y'=1$ và $x-y=x-(x-1)=1$. Hai vế bằng nhau.
+
+  c) $\dfrac{d^2y}{dx^2}=1-\dfrac{dy}{dx}=1-(x-y)=1-x+y$. Đường cong lõm lên khi $y>x-1$, tức phía trên đường thẳng đó.
+  :::
+
+## Tách biến
+
+:::note Các bước người chấm kiểm tra
+[[P3·241f]]
+1. **Tách biến:** mọi $y$ một vế cùng $dy$, mọi $x$ vế kia cùng $dx$.
+2. **Lấy tích phân hai vế**, có hằng số $C$.
+3. **Dùng điều kiện ban đầu** để tìm $C$ ngay.
+4. **Rút $y$ ra.**
+
+[[P4·77c8]]
+Thiếu hằng số tích phân thường làm cả câu bị chặn điểm, nên hãy viết $+C$ ngay khi lấy tích phân.
+:::
+
+  :::example Một phương trình tách biến kinh điển
+  Tìm nghiệm của $\dfrac{dy}{dx}=xy$ thoả mãn $y(0)=3$.
+
+  **Lời giải.** $\dfrac{dy}{y}=x\,dx$, nên $\ln|y|=\dfrac{x^2}{2}+C$. Với $x=0$, $y=3$: $C=\ln3$. Vì $y>0$ gần điểm ban đầu nên $y=e^{x^2/2+\ln3}=3e^{x^2/2}$.
+  :::
+
+  :::example Chọn đúng dấu
+  Giải $\dfrac{dy}{dx}=\dfrac{2x}{y}$ với $y(0)=-2$.
+
+  **Lời giải.** $y\,dy=2x\,dx$, nên $\dfrac{y^2}{2}=x^2+C$. Với điểm $(0,-2)$: $C=2$, nên $y^2=2x^2+4$. Giá trị ban đầu âm nên $y=-\sqrt{2x^2+4}$. Lấy căn dương sẽ mất điểm.
+  :::
+
+## Tăng trưởng và suy giảm theo hàm mũ
+
+[[P5·a0e6]]
+Nếu một đại lượng thay đổi với tốc độ tỉ lệ với chính nó, $\dfrac{dy}{dt}=ky$, thì $y=y_0e^{kt}$. Tăng trưởng khi $k>0$, suy giảm khi $k<0$.
+
+  :::example Thời gian nhân đôi
+  Một quần thể vi khuẩn tăng với tốc độ tỉ lệ với số lượng của nó. Lúc $t=0$ có $500$ vi khuẩn và lúc $t=3$ giờ có $1000$. Tìm số vi khuẩn lúc $t=6$ và hằng số $k$.
+
+  **Lời giải.** Quần thể nhân đôi sau mỗi $3$ giờ, nên $P(6)=2000$. Từ $1000=500e^{3k}$: $k=\dfrac{\ln2}{3}\approx0{,}231$ mỗi giờ.
+  :::
+
+## Phương pháp Euler và tăng trưởng logistic (BC)
+
+[[P6·fcaf]]
+**Phương pháp Euler** đi theo trường hướng bằng các bước thẳng có độ dài $h$: $y_{\text{mới}}=y_{\text{cũ}}+h\cdot\dfrac{dy}{dx}\Big|_{(x_{\text{cũ}},\,y_{\text{cũ}})}$.
+
+  :::example Hai bước Euler
+  Với $\dfrac{dy}{dx}=x+y$ và $y(0)=1$, dùng phương pháp Euler với hai bước độ dài $0{,}5$ để xấp xỉ $y(1)$.
+
+  **Lời giải.** Tại $(0,1)$ hệ số góc bằng $1$: $y(0{,}5)\approx1+0{,}5\cdot1=1{,}5$. Tại $(0{,}5;1{,}5)$ hệ số góc bằng $2$: $y(1)\approx1{,}5+0{,}5\cdot2=2{,}5$. Nghiệm chính xác $y=2e^x-x-1$ cho $y(1)\approx3{,}437$; các đường cong nghiệm ở đây lõm lên nên phương pháp Euler cho giá trị nhỏ hơn giá trị thật.
+  :::
+
+  :::example Tăng trưởng logistic
+  Một quần thể thoả mãn $\dfrac{dP}{dt}=0{,}2P\left(1-\dfrac{P}{1000}\right)$ với $P(0)=100$. Tìm $\displaystyle\lim_{t\to\infty}P(t)$ và số lượng quần thể khi nó tăng nhanh nhất.
+
+  **Lời giải.** Sức chứa là $1000$, nên giới hạn bằng $1000$. Tốc độ $0{,}2P\left(1-\dfrac{P}{1000}\right)$ là một parabol quay xuống theo biến $P$, có nghiệm $0$ và $1000$; nó lớn nhất tại $P=500$, bằng một nửa sức chứa.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P7·e66b]]
+- **Không có hằng số, hoặc thêm hằng số quá muộn.** Viết $+C$ khi lấy tích phân và tìm nó trước khi rút $y$.
+- **Chọn sai nhánh.** Sau khi có $y^2=\dots$, điều kiện ban đầu quyết định dấu của căn.
+- **Chia cho không.** Tách biến $\dfrac{dy}{dx}=xy$ phải chia cho $y$; nghiệm hằng $y=0$ bị mất, điều này không sao khi $y(0)\ne0$.
+- **Tập xác định.** Nghiệm $y=\dfrac{1}{1-x}$ đi qua $(0,1)$ chỉ tồn tại khi $x<1$.
+:::
+
+  :::terms
+  - differential equation | phương trình vi phân
+  - solution curve | đường cong nghiệm
+  - slope field | trường hướng (trường độ dốc)
+  - separation of variables | tách biến
+  - initial condition | điều kiện ban đầu
+  - exponential growth / decay | tăng trưởng / suy giảm theo hàm mũ
+  - Euler's method | phương pháp Euler
+  - logistic growth, carrying capacity | tăng trưởng logistic, sức chứa
+  :::
+
+## Bài tập tương tự
+
+:::exercise Trắc nghiệm
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Cốc trà nguội dần
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Một câu kiểu đề AP
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise BC: phương pháp Euler
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise BC: mô hình logistic
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-differential-equations – BẢN TIẾNG ANH ########
+---
+title: Differential equations and slope fields
+description: AP Calculus Unit 7: verifying solutions, slope fields, separation of variables, exponential models; for BC, Euler's method and logistic growth.
+minutes: 45
+---
+
+  :::goals
+  - Check whether a function is a solution of a differential equation.
+  - Sketch and read a slope field, and match it to its equation.
+  - Solve a separable differential equation with an initial condition, step by step as graders expect.
+  - Model growth and decay with $\dfrac{dy}{dt}=ky$.
+  - (BC) Approximate a solution with Euler's method and analyze logistic growth.
+  :::
+
+[[P1·623e]]
+Unit 7 appears on the free-response section almost every year, usually as a full question: sketch a slope field at a few points, find a tangent line approximation, then solve the equation by separating variables. The separation question is worth several points, and the scoring is strict about each step. The good news is that the steps are always the same.
+
+## Solutions and slope fields
+
+[[P2·13b2]]
+A **differential equation** relates an unknown function to its derivatives. A function is a **solution** if substituting it makes the equation true. A **slope field** draws, at each point $(x,y)$, a short segment with slope $\dfrac{dy}{dx}$ given by the equation; solution curves follow the segments.
+
+  :::example Checking a solution
+  Which function satisfies $\dfrac{dy}{dx}=2y$?
+  A. $y=x^2$
+  B. $y=e^{x^2}$
+  C. $y=2e^{x}$
+  D. $y=3e^{2x}$
+
+  **Solution.** For $y=3e^{2x}$: $y'=6e^{2x}=2\left(3e^{2x}\right)=2y$. Answer **D**. For C, $y'=2e^x=y$, not $2y$.
+  :::
+
+:::graph Slope field of $\dfrac{dy}{dx}=x-y$, with the solution $y=x-1$
+   (… 29 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Reading the slope field
+  For $\dfrac{dy}{dx}=x-y$, shown above:
+
+  a) Where are the segments horizontal?
+  b) Show that $y=x-1$ is a solution.
+  c) Where are solution curves concave up?
+
+  **Solution.** a) Where $x-y=0$, on the line $y=x$.
+
+  b) $y'=1$ and $x-y=x-(x-1)=1$. Both sides agree.
+
+  c) $\dfrac{d^2y}{dx^2}=1-\dfrac{dy}{dx}=1-(x-y)=1-x+y$. Concave up where $y>x-1$, above that line.
+  :::
+
+## Separation of variables
+
+:::note The steps graders check
+[[P3·5b56]]
+1. **Separate:** all $y$ on one side with $dy$, all $x$ on the other with $dx$.
+2. **Integrate both sides**, with a constant $C$.
+3. **Use the initial condition** to find $C$ right away.
+4. **Solve for $y$.**
+
+[[P4·4fc1]]
+A missing constant of integration usually caps the score of the whole question, so write $+C$ the moment you integrate.
+:::
+
+  :::example A classic separable equation
+  Find the solution of $\dfrac{dy}{dx}=xy$ with $y(0)=3$.
+
+  **Solution.** $\dfrac{dy}{y}=x\,dx$, so $\ln|y|=\dfrac{x^2}{2}+C$. With $x=0$, $y=3$: $C=\ln3$. Since $y>0$ near the initial point, $y=e^{x^2/2+\ln3}=3e^{x^2/2}$.
+  :::
+
+  :::example Choosing the right sign
+  Solve $\dfrac{dy}{dx}=\dfrac{2x}{y}$ with $y(0)=-2$.
+
+  **Solution.** $y\,dy=2x\,dx$, so $\dfrac{y^2}{2}=x^2+C$. With $(0,-2)$: $C=2$, so $y^2=2x^2+4$. The initial value is negative, so $y=-\sqrt{2x^2+4}$. Taking the positive root would lose the point.
+  :::
+
+## Exponential growth and decay
+
+[[P5·2041]]
+If a quantity changes at a rate proportional to its size, $\dfrac{dy}{dt}=ky$, then $y=y_0e^{kt}$. Growth when $k>0$, decay when $k<0$.
+
+  :::example Doubling time
+  A bacteria population grows at a rate proportional to its size. It has $500$ bacteria at $t=0$ and $1000$ at $t=3$ hours. Find the population at $t=6$, and the constant $k$.
+
+  **Solution.** It doubles every $3$ hours, so $P(6)=2000$. From $1000=500e^{3k}$: $k=\dfrac{\ln2}{3}\approx0.231$ per hour.
+  :::
+
+## Euler's method and logistic growth (BC)
+
+[[P6·7273]]
+**Euler's method** follows the slope field with straight steps of size $h$: $y_{\text{new}}=y_{\text{old}}+h\cdot\dfrac{dy}{dx}\Big|_{(x_{\text{old}},\,y_{\text{old}})}$.
+
+  :::example Two Euler steps
+  For $\dfrac{dy}{dx}=x+y$ with $y(0)=1$, use Euler's method with two steps of size $0.5$ to approximate $y(1)$.
+
+  **Solution.** At $(0,1)$ the slope is $1$: $y(0.5)\approx1+0.5\cdot1=1.5$. At $(0.5,1.5)$ the slope is $2$: $y(1)\approx1.5+0.5\cdot2=2.5$. The exact solution $y=2e^x-x-1$ gives $y(1)\approx3.437$; the solution curves are concave up here, so Euler's method underestimates.
+  :::
+
+  :::example Logistic growth
+  A population satisfies $\dfrac{dP}{dt}=0.2P\left(1-\dfrac{P}{1000}\right)$ with $P(0)=100$. Find $\displaystyle\lim_{t\to\infty}P(t)$, and the population when it grows fastest.
+
+  **Solution.** The carrying capacity is $1000$, so the limit is $1000$. The rate $0.2P\left(1-\dfrac{P}{1000}\right)$ is a downward parabola in $P$ with zeros $0$ and $1000$; its maximum is at $P=500$, half the carrying capacity.
+  :::
+
+:::warning Common traps
+[[P7·ad55]]
+- **No constant, or a late constant.** Write $+C$ when you integrate and find it before solving for $y$.
+- **Wrong branch.** After $y^2=\dots$, the initial condition decides the sign of the root.
+- **Dividing by zero.** Separating $\dfrac{dy}{dx}=xy$ divides by $y$; the constant solution $y=0$ is lost, which is fine when $y(0)\ne0$.
+- **Domain.** A solution such as $y=\dfrac{1}{1-x}$ through $(0,1)$ only lives on $x<1$.
+:::
+
+  :::terms
+  - differential equation | phương trình vi phân
+  - solution curve | đường cong nghiệm
+  - slope field | trường hướng (trường độ dốc)
+  - separation of variables | tách biến
+  - initial condition | điều kiện ban đầu
+  - exponential growth / decay | tăng trưởng / suy giảm theo hàm mũ
+  - Euler's method | phương pháp Euler
+  - logistic growth, carrying capacity | tăng trưởng logistic, sức chứa
+  :::
+
+## Similar exercises
+
+:::exercise Multiple choice
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise Cooling cup of tea
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise An AP-style question
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise BC: Euler's method
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise BC: logistic model
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-differentiation-rules – BẢN TIẾNG VIỆT ########
+---
+title: Định nghĩa đạo hàm và các quy tắc tính
+description: AP Calculus Unit 2: đạo hàm như một giới hạn, quy tắc luỹ thừa, tích, thương, đạo hàm hàm lượng giác, hàm mũ, hàm logarit và tiếp tuyến.
+minutes: 40
+---
+
+  :::goals
+  - Nhận ra định nghĩa đạo hàm bằng giới hạn và dùng nó để xác định $f'(a)$.
+  - Tính đạo hàm bằng quy tắc luỹ thừa, tổng, tích và thương.
+  - Dùng đạo hàm của $\sin x$, $\cos x$, $\tan x$, $e^x$ và $\ln x$.
+  - Viết phương trình tiếp tuyến, dùng nó để tính gần đúng, và giải thích vì sao có đạo hàm thì liên tục.
+  :::
+
+[[P1·f3e3]]
+Unit 2 biến ý tưởng giới hạn thành đạo hàm, tức tốc độ thay đổi tức thời. Phần lớn câu hỏi của unit này là câu trắc nghiệm làm nhanh ở phần không dùng máy tính, nhưng các kĩ năng này cần cho mọi câu tự luận, nên tính chính xác ở đây rất đáng giá. Học sinh Việt Nam biết các quy tắc từ lớp 11; kiểu đề AP bổ sung những câu **nguỵ trang** một đạo hàm thành một giới hạn.
+
+## Đạo hàm như một giới hạn
+
+  :::theorem Định nghĩa đạo hàm
+  $$f'(a)=\lim_{h\to0}\frac{f(a+h)-f(a)}{h}=\lim_{x\to a}\frac{f(x)-f(a)}{x-a}.$$
+  $f'(a)$ là hệ số góc của tiếp tuyến với đồ thị $f$ tại $x=a$, và là tốc độ thay đổi tức thời của $f$ tại $a$.
+  :::
+
+  :::example Giới hạn nguỵ trang
+  $\displaystyle\lim_{h\to0}\frac{(2+h)^3-8}{h}$ bằng
+  A. $0$
+  B. $8$
+  C. $12$
+  D. Giới hạn không tồn tại.
+
+  **Lời giải.** Đây là định nghĩa của $f'(2)$ với $f(x)=x^3$, vì $f(2)=8$. Do $f'(x)=3x^2$ nên giới hạn bằng $3\cdot4=12$. Đáp án là **C**. Nhận ra khuôn mẫu nhanh hơn nhiều so với khai triển $(2+h)^3$.
+  :::
+
+## Các quy tắc cơ bản
+
+:::note Quy tắc cần thuộc
+[[P2·27fa]]
+| Hàm số | Đạo hàm |
+|---|---|
+| $x^n$ ($n$ thực bất kì) | $nx^{n-1}$ |
+| $\sin x$, $\cos x$, $\tan x$ | $\cos x$, $-\sin x$, $\sec^2x$ |
+| $e^x$, $\ln x$ | $e^x$, $\dfrac1x$ |
+| $f\cdot g$ (quy tắc tích) | $f'g+fg'$ |
+| $\dfrac fg$ (quy tắc thương) | $\dfrac{f'g-fg'}{g^2}$ |
+:::
+
+  :::example Quy tắc luỹ thừa với số mũ âm và số mũ phân số
+  Với $f(x)=4x^3-\dfrac2x+\sqrt x$, tính $f'(1)$.
+
+  **Lời giải.** Viết $f(x)=4x^3-2x^{-1}+x^{\frac12}$. Khi đó $f'(x)=12x^2+2x^{-2}+\dfrac12x^{-\frac12}$, và $f'(1)=12+2+\dfrac12=14{,}5$.
+  :::
+
+  :::example Quy tắc tích
+  $\dfrac{d}{dx}\left(x^2\sin x\right)$ bằng
+  A. $2x\cos x$
+  B. $2x\sin x+x^2\cos x$
+  C. $2x\sin x-x^2\cos x$
+  D. $x^2\cos x$
+
+  **Lời giải.** $(x^2)'\sin x+x^2(\sin x)'=2x\sin x+x^2\cos x$: đáp án **B**. Phương án A nhân hai đạo hàm với nhau, không bao giờ là quy tắc đúng.
+  :::
+
+  :::example Quy tắc thương
+  Với $f(x)=\dfrac{2x+1}{x-3}$, tính $f'(4)$.
+
+  **Lời giải.** $f'(x)=\dfrac{2(x-3)-(2x+1)\cdot1}{(x-3)^2}=\dfrac{-7}{(x-3)^2}$, nên $f'(4)=-7$.
+  :::
+
+## Tiếp tuyến và xấp xỉ tuyến tính địa phương
+
+[[P3·32e9]]
+Tiếp tuyến của $y=f(x)$ tại $x=a$ là $y=f(a)+f'(a)(x-a)$. Gần $a$, tiếp tuyến xấp xỉ tốt cho $f$.
+
+  :::example Tính gần đúng bằng tiếp tuyến
+  Viết phương trình tiếp tuyến của $y=e^x$ tại $x=0$, và dùng nó để tính gần đúng $e^{0{,}1}$.
+
+  **Lời giải.** $f(0)=1$ và $f'(0)=e^0=1$, nên tiếp tuyến là $y=1+x$. Khi đó $e^{0{,}1}\approx1+0{,}1=1{,}1$. (Giá trị thật khoảng $1{,}105$; vì $e^x$ lõm lên nên tiếp tuyến nằm dưới đường cong và phép xấp xỉ cho giá trị nhỏ hơn giá trị thật.)
+  :::
+
+:::graph $y=e^x$ và tiếp tuyến $y=1+x$ tại $x=0$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Có đạo hàm và liên tục
+
+  :::theorem Có đạo hàm thì liên tục
+  Nếu $f$ có đạo hàm tại $x=a$ thì $f$ liên tục tại $x=a$. Điều ngược lại sai: một hàm số có thể liên tục tại một điểm nhưng không có đạo hàm tại đó, tại một **điểm góc** (corner), **điểm lùi** (cusp) hoặc nơi có **tiếp tuyến thẳng đứng**.
+  :::
+
+  :::example Một điểm góc
+  Khẳng định nào về $f(x)=|x-2|$ tại $x=2$ là đúng?
+  A. $f$ không liên tục và không có đạo hàm.
+  B. $f$ có đạo hàm nhưng không liên tục.
+  C. $f$ liên tục nhưng không có đạo hàm.
+  D. $f$ liên tục và có đạo hàm.
+
+  **Lời giải.** Đồ thị là hình chữ V có góc tại $(2, 0)$: không bị đứt nên $f$ liên tục, nhưng hệ số góc nhảy từ $-1$ sang $1$, nên $f'(2)$ không tồn tại. Đáp án là **C**. Phương án B không thể xảy ra theo định lí.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P4·5d85]]
+- **Nhân các đạo hàm.** $(fg)'\ne f'g'$ và $\left(\dfrac fg\right)'\ne\dfrac{f'}{g'}$.
+- **Thứ tự trong quy tắc thương.** Tử số là $f'g-fg'$; đảo ngược sẽ đổi dấu.
+- **$\dfrac{d}{dx}\cos x=-\sin x$.** Dấu trừ là chỗ mất điểm nhiều nhất.
+- **Hằng số.** $\dfrac{d}{dx}e^2=0$, vì $e^2$ là một số.
+:::
+
+:::tip Đạo hàm số trên máy tính
+[[P5·aa69]]
+Ở các phần được dùng máy, máy tính đồ thị tính được $f'(a)$ bằng phương pháp số. Hãy dùng để kiểm tra phần tính tay, hoặc khi đạo hàm rối mà chỉ cần giá trị của nó.
+:::
+
+  :::terms
+  - đạo hàm | derivative
+  - tỉ số gia số | difference quotient
+  - tốc độ thay đổi tức thời | instantaneous rate of change
+  - tiếp tuyến | tangent line
+  - quy tắc luỹ thừa / tích / thương | power / product / quotient rule
+  - xấp xỉ tuyến tính địa phương | local linear approximation
+  - có đạo hàm (khả vi) | differentiable
+  - điểm góc / điểm lùi | corner / cusp
+  :::
+
+## Bài tập tương tự
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tự luận
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Chuyển động của chất điểm
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tiếp tuyến nằm ngang
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Dùng bảng giá trị
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ap-calculus/apcalc-differentiation-rules – BẢN TIẾNG ANH ########
+---
+title: The derivative and differentiation rules
+description: AP Calculus Unit 2: the derivative as a limit, power, product and quotient rules, derivatives of trigonometric, exponential and log functions, tangent lines.
+minutes: 40
+---
+
+  :::goals
+  - Recognize the limit definition of the derivative and use it to identify $f'(a)$.
+  - Differentiate with the power, sum, product and quotient rules.
+  - Use the derivatives of $\sin x$, $\cos x$, $\tan x$, $e^x$ and $\ln x$.
+  - Write the equation of a tangent line, use it to approximate values, and explain why differentiability implies continuity.
+  :::
+
+[[P1·222c]]
+Unit 2 turns the idea of a limit into the derivative, the instantaneous rate of change. Most of its questions are fast multiple-choice items in the no-calculator part, but the same skills are needed in every free-response question, so accuracy here is worth a lot. Vietnamese students know these rules from grade 11; the AP style adds questions that **disguise** a derivative as a limit.
+
+## The derivative as a limit
+
+  :::theorem Definition of the derivative
+  $$f'(a)=\lim_{h\to0}\frac{f(a+h)-f(a)}{h}=\lim_{x\to a}\frac{f(x)-f(a)}{x-a}.$$
+  $f'(a)$ is the slope of the tangent line to the graph of $f$ at $x=a$, and the instantaneous rate of change of $f$ at $a$.
+  :::
+
+  :::example A limit in disguise
+  What is $\displaystyle\lim_{h\to0}\frac{(2+h)^3-8}{h}$?
+  A. $0$
+  B. $8$
+  C. $12$
+  D. The limit does not exist.
+
+  **Solution.** This is the definition of $f'(2)$ for $f(x)=x^3$, because $f(2)=8$. Since $f'(x)=3x^2$, the limit is $3\cdot4=12$. The answer is **C**. Recognizing the pattern is much faster than expanding $(2+h)^3$.
+  :::
+
+## Basic rules
+
+:::note Rules to know by heart
+[[P2·5b61]]
+| Function | Derivative |
+|---|---|
+| $x^n$ (any real $n$) | $nx^{n-1}$ |
+| $\sin x$, $\cos x$, $\tan x$ | $\cos x$, $-\sin x$, $\sec^2x$ |
+| $e^x$, $\ln x$ | $e^x$, $\dfrac1x$ |
+| $f\cdot g$ (product rule) | $f'g+fg'$ |
+| $\dfrac fg$ (quotient rule) | $\dfrac{f'g-fg'}{g^2}$ |
+:::
+
+  :::example Power rule with negative and fractional exponents
+  For $f(x)=4x^3-\dfrac2x+\sqrt x$, what is $f'(1)$?
+
+  **Solution.** Write $f(x)=4x^3-2x^{-1}+x^{\frac12}$. Then $f'(x)=12x^2+2x^{-2}+\dfrac12x^{-\frac12}$, and $f'(1)=12+2+\dfrac12=14.5$.
+  :::
+
+  :::example The product rule
+  What is $\dfrac{d}{dx}\left(x^2\sin x\right)$?
+  A. $2x\cos x$
+  B. $2x\sin x+x^2\cos x$
+  C. $2x\sin x-x^2\cos x$
+  D. $x^2\cos x$
+
+  **Solution.** $(x^2)'\sin x+x^2(\sin x)'=2x\sin x+x^2\cos x$: answer **B**. Option A multiplies the two derivatives, which is never the rule.
+  :::
+
+  :::example The quotient rule
+  For $f(x)=\dfrac{2x+1}{x-3}$, what is $f'(4)$?
+
+  **Solution.** $f'(x)=\dfrac{2(x-3)-(2x+1)\cdot1}{(x-3)^2}=\dfrac{-7}{(x-3)^2}$, so $f'(4)=-7$.
+  :::
+
+## Tangent lines and local linear approximation
+
+[[P3·3c83]]
+The tangent line to $y=f(x)$ at $x=a$ is $y=f(a)+f'(a)(x-a)$. Near $a$ it is a good approximation of $f$.
+
+  :::example Approximating with a tangent line
+  Write the equation of the tangent line to $y=e^x$ at $x=0$, and use it to approximate $e^{0.1}$.
+
+  **Solution.** $f(0)=1$ and $f'(0)=e^0=1$, so the tangent line is $y=1+x$. Then $e^{0.1}\approx1+0.1=1.1$. (The true value is about $1.105$; since $e^x$ is concave up, the tangent line lies below the curve and the approximation is an underestimate.)
+  :::
+
+:::graph $y=e^x$ and its tangent line $y=1+x$ at $x=0$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Differentiability and continuity
+
+  :::theorem Differentiability implies continuity
+  If $f$ is differentiable at $x=a$, then $f$ is continuous at $x=a$. The converse is false: a function can be continuous at a point but not differentiable there, at a **corner**, a **cusp** or a **vertical tangent**.
+  :::
+
+  :::example A corner
+  Which statement about $f(x)=|x-2|$ at $x=2$ is true?
+  A. $f$ is neither continuous nor differentiable.
+  B. $f$ is differentiable but not continuous.
+  C. $f$ is continuous but not differentiable.
+  D. $f$ is continuous and differentiable.
+
+  **Solution.** The graph is a V with its corner at $(2, 0)$: no break, so $f$ is continuous, but the slope jumps from $-1$ to $1$, so $f'(2)$ does not exist. The answer is **C**. Option B is impossible by the theorem.
+  :::
+
+:::warning Common traps
+[[P4·7d17]]
+- **Multiplying derivatives.** $(fg)'\ne f'g'$ and $\left(\dfrac fg\right)'\ne\dfrac{f'}{g'}$.
+- **Order in the quotient rule.** The numerator is $f'g-fg'$; reversing it changes the sign.
+- **$\dfrac{d}{dx}\cos x=-\sin x$.** The minus sign is the most common lost point.
+- **Constants.** $\dfrac{d}{dx}e^2=0$, because $e^2$ is a number.
+:::
+
+:::tip Numerical derivative on the calculator
+[[P5·f1a2]]
+In the calculator parts, your graphing calculator can compute $f'(a)$ numerically. Use it to check a hand computation, or when the derivative is messy and only its value is needed.
+:::
+
+  :::terms
+  - derivative | đạo hàm
+  - difference quotient | tỉ số gia số
+  - instantaneous rate of change | tốc độ thay đổi tức thời
+  - tangent line | tiếp tuyến
+  - power / product / quotient rule | quy tắc luỹ thừa / tích / thương
+  - local linear approximation | xấp xỉ tuyến tính địa phương
+  - differentiable | có đạo hàm (khả vi)
+  - corner / cusp | điểm góc / điểm lùi
+  :::
+
+## Similar exercises
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Free response
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise Particle motion
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Horizontal tangents
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Using a table
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

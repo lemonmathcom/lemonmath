@@ -1,0 +1,2467 @@
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – GV-25
+Gồm 9 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/sat/sat-ratios-percentages-units, exams/sat/sat-statistics-probability, exams/sat/sat-triangles-trig-circles, exams/study-skills/calculator-skills, exams/study-skills/calm-under-pressure, exams/study-skills/error-log, exams/study-skills/evidence-based-revision, exams/study-skills/exam-day-strategy, exams/study-skills/revision-plan
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  GV-ChatGPT-GV-25.md  (trong /mnt/data), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/data/GV-ChatGPT-GV-25.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/9). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file GV-ChatGPT-GV-25.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/sat/sat-ratios-percentages-units – BẢN TIẾNG VIỆT ########
+---
+title: Tỉ số, tỉ lệ, phần trăm và đổi đơn vị
+description: SAT Problem-Solving and Data Analysis: tỉ số và tỉ lệ thức, tốc độ, đổi đơn vị, phần trăm thay đổi, tìm giá trị ban đầu và bài toán pha trộn.
+minutes: 35
+---
+
+  :::goals
+  - Chia một đại lượng theo tỉ số cho trước và giải tỉ lệ thức, kể cả tỉ lệ bản đồ.
+  - Đổi đơn vị bằng các hệ số quy đổi, kể cả tốc độ như dặm mỗi giờ sang feet mỗi giây.
+  - Tìm phần trăm của một số, phần trăm thay đổi và giá trị ban đầu trước khi thay đổi theo phần trăm.
+  - Giải các bài toán nhiều bước về khối lượng riêng, tiêu thụ nhiên liệu và pha trộn.
+  :::
+
+[[P1·0430]]
+Mảng Problem-Solving and Data Analysis có khoảng 5 đến 7 câu trong đề, và khoảng một nửa số đó nói về tỉ số, tốc độ, phần trăm và đơn vị. Đây là những câu "đời thường" nhất của SAT: công thức nấu ăn, bản đồ, giá cả, giảm giá và tốc độ. Kiến thức chỉ ở lớp 6 và lớp 7, nhưng đọc đề cẩu thả làm mất nhiều điểm, nên thói quen cần tập ở đây là viết mọi đại lượng **kèm đơn vị**.
+
+## Tỉ số và tỉ lệ thức
+
+[[P2·694c]]
+Tỉ số (ratio) $a:b$ so sánh hai đại lượng. Nếu một tổng được chia theo tỉ số $a:b$ thì tổng đó gồm $a+b$ phần bằng nhau.
+
+  :::example Chia theo tỉ số
+  Trong một lớp có 36 học sinh, tỉ số giữa số bạn nam và số bạn nữ là $4:5$. Lớp có bao nhiêu bạn nữ?
+  A. $16$
+  B. $20$
+  C. $9$
+  D. $25$
+
+  **Lời giải.** Có $4+5=9$ phần bằng nhau, nên mỗi phần là $36:9=4$ học sinh. Số bạn nữ: $5\cdot4=20$. Đáp án là **B**. Phương án A là số bạn nam; phương án C là số phần.
+  :::
+
+[[P3·1188]]
+**Tỉ lệ thức** (proportion) cho biết hai tỉ số bằng nhau: $\dfrac{a}{b}=\dfrac{c}{d}$, suy ra $ad=bc$ (nhân chéo).
+
+  :::example Tỉ lệ bản đồ
+  Trên một bản đồ, 1 xăng-ti-mét ứng với 2,5 ki-lô-mét. Hai thị trấn cách nhau 7,2 xăng-ti-mét trên bản đồ. Khoảng cách thực giữa hai thị trấn là bao nhiêu ki-lô-mét?
+
+  **Lời giải.** $\dfrac{1}{2{,}5}=\dfrac{7{,}2}{d}$, nên $d=7{,}2\cdot2{,}5=18$. Bạn gõ **18**.
+  :::
+
+## Tốc độ và đổi đơn vị
+
+[[P4·5cec]]
+Tốc độ (rate) là tỉ số có đơn vị, như ki-lô-mét mỗi giờ hay đô la mỗi ki-lô-gam. Để đổi đơn vị, hãy nhân với các phân số bằng $1$, như $\dfrac{5.280\text{ feet}}{1\text{ dặm}}$, sắp xếp sao cho đơn vị không cần thiết bị triệt tiêu. SAT luôn cho sẵn hệ số quy đổi với các đơn vị của Mỹ.
+
+  :::example Đổi đơn vị tốc độ
+  Một ô tô chạy với tốc độ 60 dặm mỗi giờ. Tốc độ đó bằng bao nhiêu feet mỗi giây? (1 dặm = 5.280 feet)
+
+  **Lời giải.** Triệt tiêu dặm và giờ:
+
+  $$\frac{60\text{ dặm}}{1\text{ giờ}}\cdot\frac{5.280\text{ feet}}{1\text{ dặm}}\cdot\frac{1\text{ giờ}}{3.600\text{ giây}}=\frac{316.800}{3.600}=88\text{ feet mỗi giây}.$$
+
+  Bạn gõ **88**.
+  :::
+
+## Phần trăm
+
+  :::theorem Ba công cụ phần trăm
+  - $p\%$ của $N$ là $\dfrac{p}{100}\cdot N$.
+  - Phần trăm thay đổi $=\dfrac{\text{giá trị mới}-\text{giá trị ban đầu}}{\text{giá trị ban đầu}}\cdot100\%$.
+  - Tăng $p\%$ là nhân với $1+\dfrac{p}{100}$; giảm $p\%$ là nhân với $1-\dfrac{p}{100}$.
+  :::
+
+  :::example Phần trăm thay đổi
+  Giá một cuốn sách tăng từ 80 đô la lên 92 đô la. Giá đã tăng bao nhiêu phần trăm?
+  A. $12\%$
+  B. $13\%$
+  C. $15\%$
+  D. $87\%$
+
+  **Lời giải.** $\dfrac{92-80}{80}=\dfrac{12}{80}=0{,}15$, tức tăng $15\%$. Đáp án là **C**. Phương án A lấy số đô la tăng thêm làm phần trăm; phương án B chia cho $92$.
+  :::
+
+[[P5·2e0e]]
+Để tìm giá trị ban đầu sau khi thay đổi theo phần trăm, hãy **chia** cho hệ số nhân. Đừng bao giờ trừ phần trăm vào giá mới.
+
+  :::example Tìm giá trị ban đầu
+  Sau khi giảm giá 20%, một chiếc áo khoác có giá 64 đô la. Giá trước khi giảm là bao nhiêu đô la?
+  A. $76{,}80$
+  B. $80$
+  C. $84$
+  D. $77$
+
+  **Lời giải.** Giá sau giảm bằng $0{,}8$ giá ban đầu: $0{,}8P=64$, nên $P=80$. Đáp án là **B**. Phương án A cộng thêm 20% của giá sau giảm, đúng cái bẫy quen thuộc: $64\cdot1{,}2=76{,}8$.
+  :::
+
+  :::example Phần trăm của phần trăm
+  Ở một trường, 30% học sinh tham gia câu lạc bộ thể thao, và 40% thành viên câu lạc bộ là nữ. Học sinh nữ của câu lạc bộ thể thao chiếm bao nhiêu phần trăm số học sinh toàn trường?
+
+  **Lời giải.** $0{,}4\cdot0{,}3=0{,}12$, tức $12\%$. Bạn gõ **12**.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P6·3560]]
+- **Tỉ số giữa các phần hay tỉ số với cả tổng.** Với tỉ số $4:5$, số bạn nam bằng $\dfrac49$ cả lớp, không phải $\dfrac45$.
+- **Chia nhầm số trong phần trăm thay đổi.** Luôn chia cho giá trị ban đầu.
+- **Hoàn tác phần trăm bằng chính phần trăm đó.** Giảm 20% rồi tăng 20% không trở về ban đầu: $0{,}8\cdot1{,}2=0{,}96$.
+- **Bỏ đơn vị.** Ghi đơn vị ở từng bước; đơn vị cho biết nên nhân hay chia.
+:::
+
+:::tip Kiểm tra phần trăm thật nhanh
+[[P7·57e4]]
+$10\%$ của một số rất dễ tính (dời dấu phẩy), và $5\%$ là một nửa của nó. Vậy $15\%$ của $80$ là $8+4=12$. Hãy ước lượng như vậy trước khi tính.
+:::
+
+  :::terms
+  - tỉ số | ratio
+  - tỉ lệ thức | proportion
+  - tốc độ, tỉ lệ (theo đơn vị) | rate
+  - đổi đơn vị | unit conversion
+  - phần trăm thay đổi | percent change
+  - phần trăm tăng / giảm | percent increase / decrease
+  - giảm giá | discount
+  - khối lượng riêng | density
+  - tỉ lệ bản đồ | scale
+  :::
+
+## Bài tập tương tự
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Khối lượng riêng
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Nhiên liệu cho chuyến đi
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Lên rồi xuống
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-ratios-percentages-units – BẢN TIẾNG ANH ########
+---
+title: Ratios, rates, percentages and units
+description: SAT Problem-Solving and Data Analysis: ratios and proportions, rates, unit conversion, percent change, reverse percentages and mixtures.
+minutes: 35
+---
+
+  :::goals
+  - Split a quantity in a given ratio and solve proportions, including map scales.
+  - Convert units with conversion factors, including rates such as miles per hour to feet per second.
+  - Find a percent of a number, a percent change and an original value before a percent change.
+  - Solve multi-step problems with density, fuel use and mixtures.
+  :::
+
+[[P1·8cd7]]
+Problem-Solving and Data Analysis has about 5 to 7 questions on the test, and roughly half of them are about ratios, rates, percentages and units. These are the most "everyday" questions on the SAT: recipes, maps, prices, discounts and speeds. The math is from grades 6 and 7, but careless reading costs many points, so the habit to build here is to write every quantity **with its unit**.
+
+## Ratios and proportions
+
+[[P2·509d]]
+A ratio $a:b$ compares two quantities. If a total is split in the ratio $a:b$, the total is made of $a+b$ equal parts.
+
+  :::example Splitting in a ratio
+  In a class of 36 students, the ratio of boys to girls is $4:5$. How many girls are in the class?
+  A. $16$
+  B. $20$
+  C. $9$
+  D. $25$
+
+  **Solution.** There are $4+5=9$ equal parts, so each part is $36\div9=4$ students. Girls: $5\cdot4=20$. The answer is **B**. Option A is the number of boys; option C is the number of parts.
+  :::
+
+[[P3·e5cc]]
+A **proportion** says that two ratios are equal: $\dfrac{a}{b}=\dfrac{c}{d}$, which gives $ad=bc$ (cross-multiplication).
+
+  :::example A map scale
+  On a map, 1 centimeter represents 2.5 kilometers. Two towns are 7.2 centimeters apart on the map. What is the actual distance between the towns, in kilometers?
+
+  **Solution.** $\dfrac{1}{2.5}=\dfrac{7.2}{d}$, so $d=7.2\cdot2.5=18$. You type **18**.
+  :::
+
+## Rates and unit conversion
+
+[[P4·621b]]
+A rate is a ratio with units, such as kilometers per hour or dollars per kilogram. To convert units, multiply by fractions equal to $1$, such as $\dfrac{5{,}280\text{ feet}}{1\text{ mile}}$, arranged so that the unwanted units cancel. The SAT always gives the conversion factors for US units.
+
+  :::example Converting a speed
+  A car travels at 60 miles per hour. What is its speed in feet per second? (1 mile = 5,280 feet)
+
+  **Solution.** Cancel miles and hours:
+
+  $$\frac{60\text{ miles}}{1\text{ hour}}\cdot\frac{5{,}280\text{ feet}}{1\text{ mile}}\cdot\frac{1\text{ hour}}{3{,}600\text{ seconds}}=\frac{316{,}800}{3{,}600}=88\text{ feet per second}.$$
+
+  You type **88**.
+  :::
+
+## Percentages
+
+  :::theorem Three percent tools
+  - $p\%$ of $N$ is $\dfrac{p}{100}\cdot N$.
+  - Percent change $=\dfrac{\text{new}-\text{original}}{\text{original}}\cdot100\%$.
+  - An increase of $p\%$ multiplies by $1+\dfrac{p}{100}$; a decrease of $p\%$ multiplies by $1-\dfrac{p}{100}$.
+  :::
+
+  :::example Percent change
+  The price of a book rose from 80 dollars to 92 dollars. By what percent did the price increase?
+  A. $12\%$
+  B. $13\%$
+  C. $15\%$
+  D. $87\%$
+
+  **Solution.** $\dfrac{92-80}{80}=\dfrac{12}{80}=0.15$, an increase of $15\%$. The answer is **C**. Option A uses the change in dollars as a percent; option B divides by $92$.
+  :::
+
+[[P5·39c0]]
+To find an original value after a percent change, **divide** by the multiplier. Never subtract the percent from the new price.
+
+  :::example Reverse percentage
+  After a 20% discount, a jacket costs 64 dollars. What was the price before the discount, in dollars?
+  A. $76.80$
+  B. $80$
+  C. $84$
+  D. $77$
+
+  **Solution.** The sale price is $0.8$ of the original: $0.8P=64$, so $P=80$. The answer is **B**. Option A adds 20% of the sale price, which is the common trap: $64\cdot1.2=76.8$.
+  :::
+
+  :::example A percent of a percent
+  At a school, 30% of the students are in a sports club, and 40% of the club members are girls. What percent of all the students are girls in the sports club?
+
+  **Solution.** $0.4\cdot0.3=0.12$, so $12\%$. You type **12**.
+  :::
+
+:::warning Common traps
+[[P6·8c15]]
+- **Ratio of parts versus ratio to the whole.** In $4:5$, boys are $\dfrac49$ of the class, not $\dfrac45$.
+- **Dividing by the wrong number in a percent change.** Always divide by the original value.
+- **Undoing a percent by the same percent.** A 20% decrease followed by a 20% increase does not return to the start: $0.8\cdot1.2=0.96$.
+- **Dropping units.** Write units at each step; they show whether to multiply or divide.
+:::
+
+:::tip Fast percent checks
+[[P7·01b5]]
+$10\%$ of a number is easy (move the decimal point), and $5\%$ is half of that. So $15\%$ of $80$ is $8+4=12$. Use this to estimate before you calculate.
+:::
+
+  :::terms
+  - ratio | tỉ số
+  - proportion | tỉ lệ thức
+  - rate | tốc độ, tỉ lệ (theo đơn vị)
+  - unit conversion | đổi đơn vị
+  - percent change | phần trăm thay đổi
+  - percent increase / decrease | phần trăm tăng / giảm
+  - discount | giảm giá
+  - density | khối lượng riêng
+  - scale | tỉ lệ bản đồ
+  :::
+
+## Similar exercises
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise Density
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Fuel for a trip
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Up and down
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-statistics-probability – BẢN TIẾNG VIỆT ########
+---
+title: Thống kê, đọc biểu đồ và xác suất
+description: SAT Data Analysis: số trung bình, trung vị, giá trị ngoại lai, bảng tần số, biểu đồ phân tán, bảng hai chiều, xác suất có điều kiện và chọn mẫu.
+minutes: 35
+---
+
+  :::goals
+  - Tính và so sánh số trung bình, trung vị, giải thích ảnh hưởng của giá trị ngoại lai lên từng số.
+  - Đọc bảng tần số, biểu đồ phân tán và đường thẳng khớp nhất, giải thích hệ số góc và tung độ gốc.
+  - Tính xác suất, kể cả xác suất có điều kiện, từ bảng hai chiều.
+  - Xác định một cuộc khảo sát hay nghiên cứu cho phép rút ra kết luận nào.
+  :::
+
+[[P1·5509]]
+Câu hỏi thống kê trong SAT hiếm khi đòi tính toán dài. Thay vào đó, đề kiểm tra xem bạn có **hiểu** một số đặc trưng hay không: điều gì làm thay đổi số trung bình nhưng không làm thay đổi trung vị, hệ số góc trong biểu đồ phân tán có nghĩa gì, hay một cuộc khảo sát có đại diện được cho cả tổng thể không. Học sinh Việt Nam học phần lớn các ý này từ lớp 6 đến lớp 10; phần mới là từ vựng, vì vậy bảng thuật ngữ ở cuối bài rất quan trọng.
+
+## Số trung bình, trung vị và giá trị ngoại lai
+
+[[P2·a42f]]
+**Số trung bình** (mean) bằng tổng các giá trị chia cho số giá trị. **Trung vị** (median) là giá trị đứng giữa của dãy đã sắp xếp (là trung bình của hai giá trị đứng giữa khi số giá trị chẵn). **Giá trị ngoại lai** (outlier) là giá trị cách xa các giá trị còn lại: nó kéo số trung bình về phía mình nhưng hầu như không làm trung vị dịch chuyển.
+
+  :::example Tìm giá trị còn thiếu
+  Số trung bình của 6 bài kiểm tra đầu tiên của Nam là 82. Sau bài thứ bảy, số trung bình của cả 7 bài là 84. Nam được bao nhiêu điểm ở bài thứ bảy?
+
+  **Lời giải.** Hãy làm việc với tổng, không phải với số trung bình. Tổng 6 bài đầu là $6\cdot82=492$; tổng cả 7 bài là $7\cdot84=588$. Điểm bài thứ bảy là $588-492=96$. Bạn gõ **96**.
+  :::
+
+  :::example Ảnh hưởng của giá trị ngoại lai
+  Một công ty nhỏ có 9 nhân viên. Mức lương cao nhất lớn hơn rất nhiều so với tất cả các mức lương còn lại. Nếu bỏ mức lương đó ra khỏi dữ liệu thì câu nào đúng?
+  A. Số trung bình và trung vị đều tăng.
+  B. Số trung bình giảm, còn trung vị thay đổi ít.
+  C. Trung vị giảm, còn số trung bình không đổi.
+  D. Số trung bình và trung vị đều không đổi.
+
+  **Lời giải.** Giá trị ngoại lai cao hơn hẳn các giá trị khác, nên bỏ nó đi làm số trung bình giảm nhiều. Trung vị chỉ chuyển từ giá trị thứ 5 thành trung bình của giá trị thứ 4 và thứ 5 trong 8 giá trị còn lại, một thay đổi nhỏ. Đáp án là **B**.
+  :::
+
+[[P3·a541]]
+**Độ lệch chuẩn** (standard deviation) đo mức độ phân tán của các giá trị quanh số trung bình. SAT chỉ yêu cầu so sánh: tập dữ liệu có các giá trị tập trung sát số trung bình có độ lệch chuẩn nhỏ hơn tập có các giá trị trải rộng. **Khoảng biến thiên** (range) là giá trị lớn nhất trừ giá trị nhỏ nhất.
+
+## Bảng tần số và biểu đồ phân tán
+
+  :::example Trung vị từ bảng tần số
+  Bảng cho biết số sách 20 học sinh đã đọc trong tháng trước.
+
+  | Số sách | $1$ | $2$ | $3$ | $4$ |
+  |---|---|---|---|---|
+  | Số học sinh | $3$ | $5$ | $8$ | $4$ |
+
+  Trung vị của số sách là
+  A. $2$
+  B. $2{,}5$
+  C. $3$
+  D. $2{,}65$
+
+  **Lời giải.** Có 20 giá trị, nên trung vị là trung bình của giá trị thứ 10 và thứ 11. Đếm dần: các giá trị thứ 1 đến 3 là "1", thứ 4 đến 8 là "2", thứ 9 đến 16 là "3". Cả giá trị thứ 10 và thứ 11 đều là $3$, nên trung vị là $3$: đáp án **C**. Phương án D là số trung bình, $\dfrac{3+10+24+16}{20}=2{,}65$.
+  :::
+
+[[P4·c50e]]
+**Biểu đồ phân tán** (scatterplot) biểu diễn các cặp dữ liệu. **Đường thẳng khớp nhất** (line of best fit) $y=mx+b$ mô tả xu hướng: hệ số góc $m$ là mức thay đổi dự đoán của $y$ khi $x$ tăng $1$, còn $b$ là giá trị dự đoán của $y$ khi $x=0$.
+
+:::graph Số giờ học và điểm kiểm tra, với đường thẳng khớp nhất $y=2{,}5x+40$
+   (… 13 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Giải thích đường thẳng khớp nhất
+  Với dữ liệu trong biểu đồ phân tán, đường thẳng khớp nhất là $y=2{,}5x+40$, trong đó $x$ là số giờ một học sinh đã học và $y$ là điểm kiểm tra. Câu nào giải thích đúng nhất ý nghĩa của $2{,}5$?
+  A. Mỗi học sinh đã học 2,5 giờ.
+  B. Học sinh không học được dự đoán đạt 2,5 điểm.
+  C. Mỗi giờ học thêm, điểm dự đoán tăng 2,5 điểm.
+  D. Điểm của mọi học sinh tăng 2,5 điểm cho mỗi giờ học.
+
+  **Lời giải.** Hệ số góc là mức thay đổi của điểm **dự đoán** theo mỗi giờ: đáp án là **C**. Phương án D quá mạnh: mô hình dự đoán xu hướng, không dự đoán điểm của từng học sinh. Mô hình dự đoán $2{,}5\cdot6+40=55$ điểm cho 6 giờ học.
+  :::
+
+## Bảng hai chiều và xác suất
+
+[[P5·1b8c]]
+Khi mọi kết quả đồng khả năng, xác suất của một biến cố là $\dfrac{\text{số kết quả thuận lợi}}{\text{tổng số kết quả}}$. Trong bảng hai chiều, **xác suất có điều kiện** "biết rằng…" (given that) thu hẹp tổng về một hàng hoặc một cột.
+
+  :::example Bảng hai chiều
+  Bảng cho biết câu lạc bộ mà 80 học sinh chọn.
+
+  | | CLB Toán | CLB Mĩ thuật | Tổng |
+  |---|---|---|---|
+  | Lớp 10 | $18$ | $12$ | $30$ |
+  | Lớp 11 | $22$ | $28$ | $50$ |
+  | Tổng | $40$ | $40$ | $80$ |
+
+  Chọn ngẫu nhiên một học sinh trong số các bạn thuộc CLB Mĩ thuật. Xác suất để học sinh đó học lớp 11 là
+  A. $\dfrac{7}{20}$
+  B. $\dfrac{14}{25}$
+  C. $\dfrac{7}{10}$
+  D. $\dfrac{5}{8}$
+
+  **Lời giải.** "Trong số các bạn thuộc CLB Mĩ thuật" nghĩa là tổng là cột Mĩ thuật, $40$. Trong đó $28$ bạn học lớp 11: $\dfrac{28}{40}=\dfrac{7}{10}$. Đáp án là **C**. Phương án B là $\dfrac{28}{50}$, xác suất chọn Mĩ thuật **biết** học lớp 11; phương án A là $\dfrac{28}{80}$.
+  :::
+
+## Mẫu và nghiên cứu
+
+:::note Kết luận được điều gì?
+[[P6·a4a6]]
+- **Mẫu ngẫu nhiên** (random sample) cho phép khái quát lên tổng thể mà mẫu được chọn ra, và chỉ tổng thể đó.
+- **Biên sai số** (margin of error) cho một khoảng giá trị hợp lí của tổng thể: ước lượng 64% với biên sai số 5% gợi ý giá trị thật nằm trong khoảng từ 59% đến 69%.
+- Chỉ **thí nghiệm ngẫu nhiên** (đối tượng được phân ngẫu nhiên vào các nhóm) mới cho phép kết luận nhân quả. Nghiên cứu quan sát chỉ cho thấy mối liên hệ.
+:::
+
+:::warning Những cái bẫy thường gặp
+[[P7·f5ee]]
+- **Lấy nhầm tổng trong xác suất có điều kiện.** "Biết học lớp 11" thì chia cho tổng lớp 11, không chia cho tổng chung.
+- **Số trung bình và trung vị khi có ngoại lai.** Giá trị ngoại lai làm số trung bình dịch chuyển nhiều hơn hẳn trung vị.
+- **Khái quát quá mức.** Mẫu lấy ở một trường không nói chắc chắn điều gì về mọi trường trong cả nước.
+- **Kết luận nhân quả từ quan sát.** "Người uống nhiều cà phê ngủ ít hơn" không chứng tỏ cà phê làm ngủ ít.
+:::
+
+:::tip Thống kê trong Desmos
+[[P8·bb49]]
+Gõ một danh sách như `L=[3,9,4,7,12,5]`, rồi `mean(L)`, `median(L)` hoặc `stdev(L)`. Để tìm đường thẳng khớp nhất, nhập dữ liệu vào bảng rồi gõ `y_1~mx_1+b`.
+:::
+
+  :::terms
+  - số trung bình | mean
+  - trung vị | median
+  - giá trị ngoại lai | outlier
+  - độ lệch chuẩn | standard deviation
+  - khoảng biến thiên | range
+  - biểu đồ phân tán | scatterplot
+  - đường thẳng khớp nhất | line of best fit
+  - bảng hai chiều | two-way table
+  - xác suất có điều kiện | conditional probability
+  - mẫu ngẫu nhiên | random sample
+  - biên sai số | margin of error
+  :::
+
+## Bài tập tương tự
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Gộp hai lớp
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Viên bi
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise So sánh độ phân tán
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-statistics-probability – BẢN TIẾNG ANH ########
+---
+title: Statistics, data displays and probability
+description: SAT Problem-Solving and Data Analysis: mean, median and outliers, frequency tables, scatterplots, two-way tables, conditional probability and sampling.
+minutes: 35
+---
+
+  :::goals
+  - Compute and compare the mean and the median, and explain how an outlier affects each.
+  - Read frequency tables, scatterplots and lines of best fit, and interpret their slope and intercept.
+  - Find probabilities, including conditional probabilities, from a two-way table.
+  - Decide what conclusions a survey or a study can support.
+  :::
+
+[[P1·6438]]
+Statistics questions on the SAT rarely ask for long calculations. Instead, they test whether you **understand** a statistic: what changes the mean but not the median, what a slope means in a scatterplot, or whether a survey can speak for a whole population. Vietnamese students learn most of these ideas between grades 6 and 10; the new part is the vocabulary, so the glossary at the end of this lesson matters.
+
+## Mean, median and outliers
+
+[[P2·509b]]
+The **mean** is the sum of the values divided by their number. The **median** is the middle value of the ordered data (the mean of the two middle values when the number of values is even). An **outlier** is a value far from the others: it pulls the mean toward itself but barely moves the median.
+
+  :::example Finding a missing value
+  The mean of Nam's first 6 test scores is 82. After his seventh test, the mean of all 7 scores is 84. What was his score on the seventh test?
+
+  **Solution.** Work with totals, not means. The first 6 scores add up to $6\cdot82=492$; all 7 add up to $7\cdot84=588$. The seventh score is $588-492=96$. You type **96**.
+  :::
+
+  :::example The effect of an outlier
+  A small company has 9 employees. The highest salary is much greater than all the others. If that salary is removed from the data, which statement is true?
+  A. The mean and the median both increase.
+  B. The mean decreases, and the median changes little.
+  C. The median decreases, and the mean does not change.
+  D. The mean and the median do not change.
+
+  **Solution.** The outlier is far above the other values, so removing it lowers the mean a lot. The median moves only from the 5th value to the average of the 4th and 5th values of the remaining 8, a small change. The answer is **B**.
+  :::
+
+[[P3·159b]]
+The **standard deviation** measures how spread out the values are around the mean. The SAT asks only to compare it: a data set whose values cluster closely around the mean has a smaller standard deviation than one whose values are spread far apart. The **range** is the largest value minus the smallest.
+
+## Frequency tables and scatterplots
+
+  :::example Median from a frequency table
+  The table shows the number of books read last month by 20 students.
+
+  | Books | $1$ | $2$ | $3$ | $4$ |
+  |---|---|---|---|---|
+  | Students | $3$ | $5$ | $8$ | $4$ |
+
+  What is the median number of books?
+  A. $2$
+  B. $2.5$
+  C. $3$
+  D. $2.65$
+
+  **Solution.** With 20 values, the median is the mean of the 10th and 11th values. Counting up: values 1 to 3 are "1", values 4 to 8 are "2", values 9 to 16 are "3". Both the 10th and 11th values are $3$, so the median is $3$: answer **C**. Option D is the mean, $\dfrac{3+10+24+16}{20}=2.65$.
+  :::
+
+[[P4·c9bc]]
+A **scatterplot** shows pairs of data. A **line of best fit** $y=mx+b$ models the trend: the slope $m$ is the predicted change in $y$ for each increase of $1$ in $x$, and $b$ is the predicted value of $y$ when $x=0$.
+
+:::graph Hours of study and test scores, with the line of best fit $y=2.5x+40$
+   (… 13 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Interpreting a line of best fit
+  For the data in the scatterplot, the line of best fit is $y=2.5x+40$, where $x$ is the number of hours a student studied and $y$ is the test score. Which statement is the best interpretation of $2.5$?
+  A. Each student studied 2.5 hours.
+  B. A student who did not study is predicted to score 2.5.
+  C. For each additional hour of study, the predicted score increases by 2.5 points.
+  D. The score of every student increases by 2.5 points per hour.
+
+  **Solution.** The slope is the change in the **predicted** score per hour: the answer is **C**. Option D is too strong: a model predicts a trend, not the score of every student. The model predicts $2.5\cdot6+40=55$ points for 6 hours of study.
+  :::
+
+## Two-way tables and probability
+
+[[P5·aaf8]]
+The probability of an event, when all outcomes are equally likely, is $\dfrac{\text{number of favorable outcomes}}{\text{total number of outcomes}}$. In a two-way table, a **conditional probability** "given that…" restricts the total to one row or one column.
+
+  :::example A two-way table
+  The table shows the club choices of 80 students.
+
+  | | Math club | Art club | Total |
+  |---|---|---|---|
+  | Grade 10 | $18$ | $12$ | $30$ |
+  | Grade 11 | $22$ | $28$ | $50$ |
+  | Total | $40$ | $40$ | $80$ |
+
+  A student is chosen at random from those in the art club. What is the probability that the student is in grade 11?
+  A. $\dfrac{7}{20}$
+  B. $\dfrac{14}{25}$
+  C. $\dfrac{7}{10}$
+  D. $\dfrac{5}{8}$
+
+  **Solution.** "From those in the art club" means the total is the art column, $40$. Of these, $28$ are in grade 11: $\dfrac{28}{40}=\dfrac{7}{10}$. The answer is **C**. Option B is $\dfrac{28}{50}$, the probability of art **given** grade 11; option A is $\dfrac{28}{80}$.
+  :::
+
+## Samples and studies
+
+:::note What can we conclude?
+[[P6·1599]]
+- A **random sample** lets us generalize to the population it was chosen from, and only to that population.
+- A **margin of error** gives a range of plausible values for the population: an estimate of 64% with a margin of error of 5% suggests a true value between 59% and 69%.
+- Only a **randomized experiment** (subjects randomly assigned to treatments) supports a cause-and-effect conclusion. An observational study shows only an association.
+:::
+
+:::warning Common traps
+[[P7·f9b2]]
+- **The wrong total in a conditional probability.** "Given grade 11" divides by the grade 11 total, not by the grand total.
+- **Mean versus median with outliers.** Outliers move the mean much more than the median.
+- **Over-generalizing.** A sample of one school says nothing certain about all the schools in a country.
+- **Causation from observation.** "People who drink more coffee sleep less" does not show that coffee causes less sleep.
+:::
+
+:::tip Statistics in Desmos
+[[P8·dbf1]]
+Type a list such as `L=[3,9,4,7,12,5]`, then `mean(L)`, `median(L)` or `stdev(L)`. For a line of best fit, enter the data in a table and type `y_1~mx_1+b`.
+:::
+
+  :::terms
+  - mean | số trung bình
+  - median | trung vị
+  - outlier | giá trị ngoại lai
+  - standard deviation | độ lệch chuẩn
+  - range | khoảng biến thiên
+  - scatterplot | biểu đồ phân tán
+  - line of best fit | đường thẳng khớp nhất
+  - two-way table | bảng hai chiều
+  - conditional probability | xác suất có điều kiện
+  - random sample | mẫu ngẫu nhiên
+  - margin of error | biên sai số
+  :::
+
+## Similar exercises
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise Combining two classes
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Marbles
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Comparing spread
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-triangles-trig-circles – BẢN TIẾNG VIỆT ########
+---
+title: Tam giác, lượng giác và đường tròn
+description: SAT Geometry: định lí Pythagore, tam giác vuông đặc biệt, tam giác đồng dạng, sin, côsin, tang, radian, cung, hình quạt và phương trình đường tròn.
+minutes: 40
+---
+
+  :::goals
+  - Dùng định lí Pythagore và các tam giác vuông đặc biệt $30^\circ$–$60^\circ$–$90^\circ$ và $45^\circ$–$45^\circ$–$90^\circ$.
+  - Dùng tam giác đồng dạng để tìm độ dài chưa biết.
+  - Dùng sin, côsin, tang trong tam giác vuông và hệ thức $\sin x^\circ=\cos(90-x)^\circ$.
+  - Làm việc với radian, độ dài cung, diện tích hình quạt và phương trình đường tròn.
+  :::
+
+[[P1·6d5a]]
+Bài này bao quát nửa khó hơn của mảng Geometry and Trigonometry. Học sinh Việt Nam biết các tỉ số lượng giác từ lớp 9, nhưng SAT còn dùng radian và phương trình đường tròn $(x-h)^2+(y-k)^2=r^2$, những nội dung ở Việt Nam học vào lớp 10 và lớp 11. Bảng công thức trong Bluebook có ghi các tam giác vuông đặc biệt; mọi thứ khác trong bài này bạn nên thuộc lòng.
+
+## Tam giác vuông
+
+  :::theorem Định lí Pythagore và các tam giác vuông đặc biệt
+  - Trong tam giác vuông có hai cạnh góc vuông $a$, $b$ và cạnh huyền $c$: $a^2+b^2=c^2$.
+  - $45^\circ$–$45^\circ$–$90^\circ$: các cạnh tỉ lệ với $1:1:\sqrt2$.
+  - $30^\circ$–$60^\circ$–$90^\circ$: các cạnh tỉ lệ với $1:\sqrt3:2$ (cạnh ngắn nhất đối diện góc $30^\circ$).
+  - Các bộ ba Pythagore thường gặp: $3, 4, 5$; $5, 12, 13$; $8, 15, 17$ và các bội của chúng.
+  :::
+
+  :::example Tam giác 30–60–90
+  Trong một tam giác vuông, một góc bằng $30^\circ$ và cạnh huyền dài 10. Cạnh đối diện góc $60^\circ$ dài bao nhiêu?
+  A. $5$
+  B. $5\sqrt2$
+  C. $5\sqrt3$
+  D. $10\sqrt3$
+
+  **Lời giải.** Các cạnh tỉ lệ với $1:\sqrt3:2$, cạnh huyền ứng với $2$ là $10$, nên mỗi "đơn vị" là $5$. Cạnh đối diện $60^\circ$ là $5\sqrt3$: đáp án **C**. Phương án A là cạnh đối diện $30^\circ$.
+  :::
+
+## Tam giác đồng dạng
+
+[[P2·03b7]]
+Hai tam giác **đồng dạng** khi các góc tương ứng bằng nhau; khi đó các cạnh tương ứng tỉ lệ. Một đường thẳng song song với một cạnh của tam giác tạo ra một tam giác nhỏ đồng dạng với tam giác ban đầu.
+
+  :::example Đoạn thẳng song song
+  Trong tam giác $ABC$, điểm $D$ nằm trên $\overline{AB}$ và điểm $E$ nằm trên $\overline{AC}$, với $\overline{DE}$ song song với $\overline{BC}$. Nếu $AD=4$, $DB=6$ và $DE=5$ thì $\overline{BC}$ dài bao nhiêu?
+
+  **Lời giải.** Tam giác $ADE$ đồng dạng với tam giác $ABC$, với $AB=4+6=10$. Vậy $\dfrac{BC}{DE}=\dfrac{AB}{AD}$: $BC=5\cdot\dfrac{10}{4}=12{,}5$. Bạn gõ **12.5**. Cái bẫy là dùng $\dfrac{DB}{AD}$ thay vì $\dfrac{AB}{AD}$.
+  :::
+
+## Tỉ số lượng giác
+
+  :::theorem Sin, côsin và tang
+  Với góc nhọn $\theta$ của một tam giác vuông:
+  $$\sin\theta=\frac{\text{cạnh đối}}{\text{cạnh huyền}},\qquad\cos\theta=\frac{\text{cạnh kề}}{\text{cạnh huyền}},\qquad\tan\theta=\frac{\text{cạnh đối}}{\text{cạnh kề}}.$$
+  Hai góc nhọn của tam giác vuông có tổng $90^\circ$, nên $\sin x^\circ=\cos(90-x)^\circ$.
+  :::
+
+  :::example Hai góc phụ nhau
+  Với góc $0<x<90$, $\sin x^\circ=\cos32^\circ$. Giá trị của $x$ bằng bao nhiêu?
+
+  **Lời giải.** $\sin x^\circ=\cos(90-x)^\circ$, nên $90-x=32$ và $x=58$. Bạn gõ **58**.
+  :::
+
+  :::example Tỉ số từ các cạnh
+  Trong tam giác $PQR$ vuông tại $R$, $PR=8$, $QR=15$ và $PQ=17$. Giá trị của $\tan Q$ là
+  A. $\dfrac{8}{15}$
+  B. $\dfrac{15}{8}$
+  C. $\dfrac{8}{17}$
+  D. $\dfrac{15}{17}$
+
+  **Lời giải.** Cạnh đối diện $Q$ là $PR=8$ và cạnh kề $Q$ (không phải cạnh huyền) là $QR=15$: $\tan Q=\dfrac{8}{15}$. Đáp án là **A**. Phương án B là $\tan P$; phương án C là $\sin Q$.
+  :::
+
+## Radian, cung và đường tròn
+
+  :::theorem Radian và cung
+  $180^\circ=\pi$ radian. Trong đường tròn bán kính $r$, góc ở tâm $\theta$ radian chắn một cung dài $s=r\theta$ và tạo một hình quạt có diện tích $\dfrac12r^2\theta$. Theo độ: cung $=\dfrac{\theta}{360}\cdot2\pi r$, hình quạt $=\dfrac{\theta}{360}\cdot\pi r^2$.
+  :::
+
+  :::example Độ dài cung
+  Một đường tròn có bán kính 6. Cung bị chắn bởi góc ở tâm $\dfrac{2\pi}{3}$ radian dài bao nhiêu?
+  A. $2\pi$
+  B. $4\pi$
+  C. $12\pi$
+  D. $\dfrac{\pi}{9}$
+
+  **Lời giải.** $s=r\theta=6\cdot\dfrac{2\pi}{3}=4\pi$. Đáp án là **B**. Phương án C là diện tích hình quạt, $\dfrac12\cdot36\cdot\dfrac{2\pi}{3}$.
+  :::
+
+[[P3·8c75]]
+Đường tròn tâm $(h, k)$, bán kính $r$ có phương trình $(x-h)^2+(y-k)^2=r^2$. Nếu phương trình đã được khai triển, hãy thêm bớt để tạo bình phương theo $x$ và theo $y$.
+
+  :::example Tìm bán kính
+  Phương trình một đường tròn trong mặt phẳng $xy$ là $x^2+y^2-6x+4y-12=0$. Bán kính của đường tròn bằng bao nhiêu?
+
+  **Lời giải.** Nhóm lại và tạo bình phương:
+
+  $$(x^2-6x+9)+(y^2+4y+4)=12+9+4\iff(x-3)^2+(y+2)^2=25.$$
+
+  Tâm là $(3, -2)$ và bán kính là $5$. Bạn gõ **5**.
+  :::
+
+:::graph Đường tròn $(x-3)^2+(y+2)^2=25$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::warning Những cái bẫy thường gặp
+[[P4·c95a]]
+- **Nhầm cạnh "đối".** Cạnh đối và cạnh kề phụ thuộc vào góc đang xét; cạnh huyền luôn đối diện góc vuông.
+- **Dấu trong phương trình đường tròn.** $(x+4)^2+(y-1)^2=9$ có tâm $(-4, 1)$, không phải $(4, -1)$.
+- **$r^2$ hay $r$.** Trong $(x-3)^2+(y+2)^2=25$, bán kính là $5$, không phải $25$.
+- **Độ hay radian.** Đọc kĩ đề. Với máy tính cầm tay, kiểm tra chế độ đo góc; với Desmos, kiểm tra phần cài đặt.
+:::
+
+:::tip Lượng giác trong Desmos
+[[P5·d551]]
+Desmos mặc định dùng radian; hãy bấm biểu tượng cờ lê để chuyển sang độ trước khi gõ `sin(30)`. Để kiểm tra một đường tròn, gõ phương trình đúng như đề cho: Desmos vẽ nó, và nếu gõ thêm dạng đã tạo bình phương thì bạn thấy ngay tâm.
+:::
+
+  :::terms
+  - cạnh huyền | hypotenuse
+  - cạnh góc vuông | leg
+  - định lí Pythagore | Pythagorean theorem
+  - tam giác đồng dạng | similar triangles
+  - sin / côsin / tang | sine / cosine / tangent
+  - hai góc phụ nhau | complementary angles
+  - radian | radian
+  - độ dài cung | arc length
+  - hình quạt | sector
+  - tâm / bán kính | center / radius
+  :::
+
+## Bài tập tương tự
+
+:::exercise Trắc nghiệm
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Chiếc thang
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Dốc lên xuống
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Miếng bánh pizza
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-triangles-trig-circles – BẢN TIẾNG ANH ########
+---
+title: Triangles, trigonometry and circles
+description: SAT Geometry and Trigonometry: Pythagoras, special right triangles, similar triangles, sine, cosine and tangent, radians, arcs, sectors and circle equations.
+minutes: 40
+---
+
+  :::goals
+  - Use the Pythagorean theorem and the special right triangles $30^\circ$–$60^\circ$–$90^\circ$ and $45^\circ$–$45^\circ$–$90^\circ$.
+  - Use similar triangles to find unknown lengths.
+  - Use sine, cosine and tangent in right triangles, and the identity $\sin x^\circ=\cos(90-x)^\circ$.
+  - Work with radians, arc length, sector area and the equation of a circle.
+  :::
+
+[[P1·581f]]
+This lesson covers the harder half of the Geometry and Trigonometry domain. Vietnamese students know the trigonometric ratios from grade 9, but the SAT also uses radians and the circle equation $(x-h)^2+(y-k)^2=r^2$, which in Vietnam come in grade 10 and 11. The reference sheet in Bluebook gives the special right triangles; everything else in this lesson you should know by heart.
+
+## Right triangles
+
+  :::theorem Pythagoras and the special right triangles
+  - In a right triangle with legs $a$, $b$ and hypotenuse $c$: $a^2+b^2=c^2$.
+  - $45^\circ$–$45^\circ$–$90^\circ$: the sides are in the ratio $1:1:\sqrt2$.
+  - $30^\circ$–$60^\circ$–$90^\circ$: the sides are in the ratio $1:\sqrt3:2$ (the shortest side is opposite $30^\circ$).
+  - Common Pythagorean triples: $3, 4, 5$; $5, 12, 13$; $8, 15, 17$ and their multiples.
+  :::
+
+  :::example A 30–60–90 triangle
+  In a right triangle, one angle measures $30^\circ$ and the hypotenuse has length 10. What is the length of the side opposite the $60^\circ$ angle?
+  A. $5$
+  B. $5\sqrt2$
+  C. $5\sqrt3$
+  D. $10\sqrt3$
+
+  **Solution.** The sides are in the ratio $1:\sqrt3:2$, and the hypotenuse $2$ corresponds to $10$, so each "unit" is $5$. The side opposite $60^\circ$ is $5\sqrt3$: answer **C**. Option A is the side opposite $30^\circ$.
+  :::
+
+## Similar triangles
+
+[[P2·db63]]
+Two triangles are **similar** when their angles are equal; then their corresponding sides are proportional. A line parallel to one side of a triangle cuts off a smaller similar triangle.
+
+  :::example A parallel segment
+  In triangle $ABC$, point $D$ lies on $\overline{AB}$ and point $E$ lies on $\overline{AC}$, with $\overline{DE}$ parallel to $\overline{BC}$. If $AD=4$, $DB=6$ and $DE=5$, what is the length of $\overline{BC}$?
+
+  **Solution.** Triangles $ADE$ and $ABC$ are similar, with $AB=4+6=10$. So $\dfrac{BC}{DE}=\dfrac{AB}{AD}$: $BC=5\cdot\dfrac{10}{4}=12.5$. You type **12.5**. The trap is to use $\dfrac{DB}{AD}$ instead of $\dfrac{AB}{AD}$.
+  :::
+
+## Trigonometric ratios
+
+  :::theorem Sine, cosine and tangent
+  For an acute angle $\theta$ of a right triangle:
+  $$\sin\theta=\frac{\text{opposite}}{\text{hypotenuse}},\qquad\cos\theta=\frac{\text{adjacent}}{\text{hypotenuse}},\qquad\tan\theta=\frac{\text{opposite}}{\text{adjacent}}.$$
+  The two acute angles of a right triangle add up to $90^\circ$, so $\sin x^\circ=\cos(90-x)^\circ$.
+  :::
+
+  :::example Complementary angles
+  For an angle with $0<x<90$, $\sin x^\circ=\cos32^\circ$. What is the value of $x$?
+
+  **Solution.** $\sin x^\circ=\cos(90-x)^\circ$, so $90-x=32$ and $x=58$. You type **58**.
+  :::
+
+  :::example A ratio from the sides
+  In right triangle $PQR$, the right angle is at $R$, $PR=8$, $QR=15$ and $PQ=17$. What is $\tan Q$?
+  A. $\dfrac{8}{15}$
+  B. $\dfrac{15}{8}$
+  C. $\dfrac{8}{17}$
+  D. $\dfrac{15}{17}$
+
+  **Solution.** The side opposite $Q$ is $PR=8$ and the side adjacent to $Q$ (not the hypotenuse) is $QR=15$: $\tan Q=\dfrac{8}{15}$. The answer is **A**. Option B is $\tan P$; option C is $\sin Q$.
+  :::
+
+## Radians, arcs and circles
+
+  :::theorem Radians and arcs
+  $180^\circ=\pi$ radians. In a circle of radius $r$, a central angle of $\theta$ radians cuts off an arc of length $s=r\theta$ and a sector of area $\dfrac12r^2\theta$. In degrees: arc $=\dfrac{\theta}{360}\cdot2\pi r$, sector $=\dfrac{\theta}{360}\cdot\pi r^2$.
+  :::
+
+  :::example An arc length
+  A circle has radius 6. What is the length of the arc cut off by a central angle of $\dfrac{2\pi}{3}$ radians?
+  A. $2\pi$
+  B. $4\pi$
+  C. $12\pi$
+  D. $\dfrac{\pi}{9}$
+
+  **Solution.** $s=r\theta=6\cdot\dfrac{2\pi}{3}=4\pi$. The answer is **B**. Option C is the area of the sector, $\dfrac12\cdot36\cdot\dfrac{2\pi}{3}$.
+  :::
+
+[[P3·7613]]
+The circle with center $(h, k)$ and radius $r$ has equation $(x-h)^2+(y-k)^2=r^2$. If the equation is expanded, complete the square in $x$ and in $y$.
+
+  :::example Finding the radius
+  The equation of a circle in the $xy$-plane is $x^2+y^2-6x+4y-12=0$. What is the radius of the circle?
+
+  **Solution.** Group and complete the squares:
+
+  $$(x^2-6x+9)+(y^2+4y+4)=12+9+4\iff(x-3)^2+(y+2)^2=25.$$
+
+  The center is $(3, -2)$ and the radius is $5$. You type **5**.
+  :::
+
+:::graph The circle $(x-3)^2+(y+2)^2=25$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::warning Common traps
+[[P4·6711]]
+- **The wrong side as "opposite".** Opposite and adjacent depend on which angle you look from; the hypotenuse is always opposite the right angle.
+- **Signs in the circle equation.** $(x+4)^2+(y-1)^2=9$ has center $(-4, 1)$, not $(4, -1)$.
+- **$r^2$ versus $r$.** In $(x-3)^2+(y+2)^2=25$ the radius is $5$, not $25$.
+- **Degrees or radians.** Check the question. On a calculator, check the mode; in Desmos, check the settings.
+:::
+
+:::tip Trigonometry in Desmos
+[[P5·de04]]
+Desmos works in radians by default; switch to degrees with the wrench icon before typing `sin(30)`. To check a circle, type the equation exactly as given: Desmos draws it and shows the center if you also type the completed-square form.
+:::
+
+  :::terms
+  - hypotenuse | cạnh huyền
+  - leg | cạnh góc vuông
+  - Pythagorean theorem | định lí Pythagore
+  - similar triangles | tam giác đồng dạng
+  - sine / cosine / tangent | sin / côsin / tang
+  - complementary angles | hai góc phụ nhau
+  - radian | radian
+  - arc length | độ dài cung
+  - sector | hình quạt
+  - center / radius | tâm / bán kính
+  :::
+
+## Similar exercises
+
+:::exercise Multiple choice
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A ladder
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A ramp
+   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A slice of pizza
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/study-skills/calculator-skills – BẢN TIẾNG VIỆT ########
+---
+title: Dùng máy tính cầm tay và Desmos thông minh
+description: Mỗi kì thi cho dùng loại máy tính nào, những chức năng đáng thành thạo trên máy tính cầm tay, Desmos và máy tính đồ thị, và khi nào không nên bấm máy.
+minutes: 25
+type: guide
+---
+
+  :::goals
+  - Biết mỗi kì thi Toán lớn cho phép hoặc yêu cầu loại máy tính nào.
+  - Dùng những chức năng tiết kiệm thời gian nhất của máy tính cầm tay: bảng giá trị, giải phương trình, tích phân và thống kê.
+  - Dùng Desmos hoặc máy tính đồ thị để vẽ đồ thị, tìm nghiệm, tìm giao điểm và kiểm tra đáp số.
+  - Nhận ra những lúc máy tính làm mất thời gian hoặc che giấu một lỗi sai.
+  :::
+
+[[P1·b8cc]]
+Máy tính có mặt trong gần như mọi kì thi Toán ngày nay, và học sinh dùng tốt sẽ được lợi cả về thời gian lẫn độ an toàn. Nhưng máy tính chỉ trả lời câu bạn gõ vào. Kĩ năng nằm ở chỗ biết **gõ gì**, **khi nào** bấm máy nhanh hơn suy nghĩ, và **cách** dùng máy để kiểm tra phần đã làm tay.
+
+## Mỗi kì thi cho phép gì
+
+| Kì thi | Máy tính |
+|---|---|
+| Thi vào lớp 10 và thi tốt nghiệp THPT | Máy tính cầm tay thuộc các loại được quy chế cho phép (không có chức năng soạn thảo văn bản, không kết nối mạng). Nhiều học sinh dùng Casio fx-580VN X. |
+| SAT | Được dùng ở mọi câu. Bluebook có sẵn Desmos; bạn cũng có thể mang máy tính thuộc danh sách được phép. |
+| ACT | Được dùng trong cả phần Toán; một số loại máy bị cấm. |
+| AP Calculus, AP Precalculus, AP Statistics | Bắt buộc có máy tính đồ thị cho các phần dùng máy; các phần còn lại cấm mọi loại máy tính. |
+| IB Maths AA | Paper 1 cấm máy tính; Paper 2 và 3 bắt buộc máy tính đồ thị (GDC). IB Maths AI dùng GDC ở mọi bài thi. |
+| Cambridge IGCSE Mathematics 0580 | Ở mỗi cấp, một bài không dùng máy tính và một bài dùng máy tính khoa học. |
+
+[[P2·e901]]
+Quy định về loại máy được phép thay đổi theo thời gian và do từng tổ chức thi công bố. Trước khi đăng kí, hãy xem danh sách chính thức, và luyện tập trên đúng chiếc máy bạn sẽ mang vào phòng thi.
+
+## Máy tính cầm tay: bốn chức năng đáng thành thạo
+
+[[P3·163b]]
+Các chức năng này có trên những máy tính cầm tay phổ biến như Casio fx-580VN X; tên phím có thể khác trên máy khác.
+
+[[P4·c595]]
+1. **Bảng giá trị** (chế độ TABLE). Nhập $f(x)$, giá trị bắt đầu, kết thúc và bước nhảy. Dùng để ước lượng giá trị lớn nhất, nhỏ nhất, xem hàm số đổi dấu ở đâu, và kiểm tra một loạt giá trị cùng lúc.
+2. **Giải phương trình và hệ phương trình.** Phương trình đa thức bậc thấp và hệ phương trình bậc nhất được giải trực tiếp. Hãy dùng để kiểm tra, không thay cho phần đại số: câu tự luận chấm theo các bước làm.
+3. **Tích phân và đạo hàm tại một điểm.** Máy tính tích phân xác định hoặc đạo hàm tại một giá trị $x$ cho trước bằng phương pháp số. Với câu trắc nghiệm về tích phân, đây là cách nhanh nhất để thử các phương án.
+4. **Thống kê.** Nhập danh sách dữ liệu hoặc bảng tần số, rồi đọc số trung bình, độ lệch chuẩn, và với hai biến thì đọc đường hồi quy.
+
+  :::example Thử phương án bằng phím tích phân
+  Số nào bằng $\displaystyle\int_0^2(3x^2-2x+1)\,dx$?
+  A. $2$
+  B. $6$
+  C. $8$
+  D. $10$
+
+  **Lời giải.** Làm tay: $\Big[x^3-x^2+x\Big]_0^2=8-4+2=6$. Trên máy tính, phím tích phân cho kết quả $6$ trong vài giây. Đáp án là **B**. Hãy bấm máy sau khi đã làm tay, hoặc khi nguyên hàm khó tìm.
+  :::
+
+## Desmos và máy tính đồ thị
+
+[[P5·d391]]
+Với SAT, AP và IB, đồ thị thường nhanh hơn đại số. Năm việc cần luyện đến mức thành phản xạ:
+
+[[P6·c6e2]]
+- **Vẽ đồ thị** trong một khung nhìn hợp lí, và đọc các điểm quan trọng (đỉnh, giao điểm với các trục).
+- **Tìm nghiệm** của một hàm số.
+- **Tìm giao điểm** của hai đồ thị, tức là giải $f(x)=g(x)$ và các hệ phương trình.
+- **Dùng thanh trượt** cho một hằng số $k$ và quan sát đồ thị thay đổi.
+- **Tính các số đặc trưng** và đường thẳng khớp nhất từ một bảng dữ liệu.
+
+[[P7·c805]]
+Với AP Calculus, mô tả khoá học yêu cầu bốn kĩ năng dùng máy: vẽ đồ thị trong một khung nhìn tự chọn, tìm nghiệm, tính đạo hàm tại một điểm bằng phương pháp số và tính tích phân xác định bằng phương pháp số. Ở các câu tự luận được dùng máy, hãy viết phần thiết lập (ví dụ tích phân) trước khi ghi con số, và cho kết quả thập phân chính xác đến ba chữ số sau dấu phẩy.
+
+:::tip Một thói quen cho mọi công cụ vẽ đồ thị
+[[P8·487a]]
+Khi đồ thị cho thấy điều gì bất ngờ, hãy đổi khung nhìn trước khi tin nó. Một parabol có thể trông như đường thẳng, và hai đường cong có thể trông như chạm nhau dù thực ra không chạm.
+:::
+
+## Khi nào không nên bấm máy
+
+[[P9·b90e]]
+- **Khi tính nhẩm nhanh hơn.** $3x+7=22$ không cần đến máy.
+- **Khi đáp số phải chính xác.** Nếu các phương án là $2\sqrt3$ hay $\dfrac{\pi}{4}$, một số thập phân như $3{,}464$ vẫn phải đem đối chiếu; giữ phép biến đổi chính xác thường nhanh hơn.
+- **Khi câu hỏi kiểm tra lập luận.** Câu "khẳng định nào chắc chắn đúng?" hay "giải thích vì sao" không trả lời được bằng một con số.
+- **Khi bạn ngại suy nghĩ.** Gõ những biểu thức dài lúc căng thẳng là nơi xảy ra phần lớn lỗi bấm máy: thiếu một dấu ngoặc là thay đổi tất cả.
+
+:::warning Những lỗi bấm máy thường gặp
+[[P10·7c76]]
+- **Độ hay radian.** Kiểm tra chế độ đo góc trước mọi phép tính lượng giác.
+- **Dấu ngoặc.** $-3^2=-9$ nhưng $(-3)^2=9$; $\dfrac{1}{2x}$ phải gõ là `1/(2x)`.
+- **Làm tròn quá sớm.** Giữ đủ độ chính xác ở các bước trung gian và chỉ làm tròn kết quả cuối.
+- **Dấu thập phân.** SAT và AP dùng dấu chấm ($2.5$); đề thi Việt Nam dùng dấu phẩy ($2{,}5$). Hãy ghi đáp số cuối cùng đúng dạng đề yêu cầu.
+:::
+
+## Luyện tập với đúng công cụ
+
+[[P11·6f94]]
+Cách chuẩn bị tốt nhất rất đơn giản: làm mọi đề luyện bằng chính chiếc máy bạn sẽ dùng trong phòng thi, và ghi lỗi bấm máy vào [sổ lỗi sai](lesson:error-log) như mọi lỗi khác. Sau vài tuần, các phím cần dùng sẽ nằm đúng chỗ ngón tay bạn chờ, và thời gian thi được dành cho Toán thay vì cho các menu.
+
+
+######## BÀI exams/study-skills/calculator-skills – BẢN TIẾNG ANH ########
+---
+title: Using calculators and Desmos wisely
+description: Which calculator each exam allows, the functions worth mastering on a scientific calculator, Desmos and a graphing calculator, and when not to use them.
+minutes: 25
+type: guide
+---
+
+  :::goals
+  - Know which kind of calculator each major maths exam allows or requires.
+  - Use the functions of a scientific calculator that save the most time: tables, equation solvers, integrals and statistics.
+  - Use Desmos or a graphing calculator to graph, find zeros and intersections, and check answers.
+  - Recognize the situations where a calculator wastes time or hides a mistake.
+  :::
+
+[[P1·7bab]]
+A calculator is part of almost every maths exam today, and students who use it well gain both time and safety. But a calculator only answers the question you type. The skill is knowing **what** to type, **when** it is faster than thinking, and **how** to use it to check work done by hand.
+
+## What each exam allows
+
+| Exam | Calculator |
+|---|---|
+| Vietnam grade 10 entrance and graduation exams | A scientific calculator from the models allowed by the regulations (no text memory, no internet). Many students use a Casio fx-580VN X. |
+| SAT | Allowed on every question. Desmos is built into Bluebook; you may also bring an approved calculator. |
+| ACT | Allowed on the whole Math section; some models are prohibited. |
+| AP Calculus, AP Precalculus, AP Statistics | A graphing calculator is required for the calculator parts; other parts forbid any calculator. |
+| IB Maths AA | Paper 1 forbids calculators; Papers 2 and 3 require a graphic display calculator (GDC). IB Maths AI uses the GDC on every paper. |
+| Cambridge IGCSE Mathematics 0580 | One paper without a calculator and one with a scientific calculator, at each tier. |
+
+[[P2·e940]]
+Rules about permitted models change and are published by each exam board. Before you register, check the official list, and practise on the exact model you will use on the day.
+
+## A scientific calculator: four functions worth mastering
+
+[[P3·b491]]
+These are available on common scientific calculators such as the Casio fx-580VN X; the key names may differ on other models.
+
+[[P4·ebb3]]
+1. **Table of values** (TABLE mode). Enter $f(x)$, a start, an end and a step. Use it to estimate maximum and minimum values, to see where a function changes sign, and to check a whole row of an answer at once.
+2. **Equation and system solvers.** Polynomial equations of low degree and systems of linear equations are solved directly. Use them to check, not to replace, your algebra: the exam marks the method in written questions.
+3. **Integrals and derivatives at a point.** A definite integral or the derivative at a given $x$ is computed numerically. In multiple-choice questions on integrals, this is the fastest way to test the options.
+4. **Statistics.** Enter a data list, or a frequency table, and read the mean, the standard deviation and, with two variables, the regression line.
+
+  :::example Testing options with the integral key
+  Which number equals $\displaystyle\int_0^2(3x^2-2x+1)\,dx$?
+  A. $2$
+  B. $6$
+  C. $8$
+  D. $10$
+
+  **Solution.** By hand: $\Big[x^3-x^2+x\Big]_0^2=8-4+2=6$. On the calculator, the integral key gives $6$ in a few seconds. The answer is **B**. Use the calculator after solving by hand, or when the antiderivative is hard to find.
+  :::
+
+## Desmos and graphing calculators
+
+[[P5·ba99]]
+For the SAT, AP and IB, a graph is often faster than algebra. Five tasks to practise until they are automatic:
+
+[[P6·ec12]]
+- **Graph a function** in a sensible window, and read its key points (vertex, intercepts).
+- **Find the zeros** of a function.
+- **Find the intersection** of two graphs, which solves $f(x)=g(x)$ and systems.
+- **Use a slider** for a constant $k$ and watch how the graph changes.
+- **Compute statistics** and a line of best fit from a table of data.
+
+[[P7·54f7]]
+For AP Calculus the course description expects four calculator skills: plotting a graph in a chosen window, finding zeros, computing a numerical derivative at a point and computing a definite integral numerically. In calculator-active free-response questions, write the setup (for example the integral) before giving the number, and give decimals correct to three places.
+
+:::tip One habit for every graphing tool
+[[P8·743b]]
+When the graph shows something surprising, change the window before you trust it. A parabola can look like a straight line, and two curves can look as if they touch when they do not.
+:::
+
+## When not to use the calculator
+
+[[P9·60ca]]
+- **When mental arithmetic is faster.** $3x+7=22$ needs no machine.
+- **When the answer must be exact.** If the options are $2\sqrt3$ or $\dfrac{\pi}{4}$, a decimal like $3.464$ still has to be matched; it is often faster to keep the algebra exact.
+- **When the question tests reasoning.** "Which statement must be true?" or "explain why" cannot be answered by a number.
+- **When you are tired of thinking.** Typing long expressions under stress is where most calculator errors happen: a missing bracket changes everything.
+
+:::warning Common calculator mistakes
+[[P10·e260]]
+- **Degrees or radians.** Check the angle mode before any trigonometry.
+- **Brackets.** $-3^2=-9$ but $(-3)^2=9$; $\dfrac{1}{2x}$ must be typed as `1/(2x)`.
+- **Rounding too early.** Keep full precision in intermediate steps and round only the final answer.
+- **Decimal separator.** The SAT and AP use a point ($2.5$); Vietnamese exams use a comma ($2{,}5$). Make sure you write the final answer in the form the exam expects.
+:::
+
+## Practise with the same tool
+
+[[P11·4a34]]
+The best preparation is simple: do every practice paper with the calculator you will use on the day, and add calculator errors to your [error log](lesson:error-log) like any other mistake. After a few weeks, the keys you need will be where your fingers expect them, and you will spend exam time on mathematics instead of menus.
+
+
+######## BÀI exams/study-skills/calm-under-pressure – BẢN TIẾNG VIỆT ########
+---
+title: "Giữ bình tĩnh: giấc ngủ, căng thẳng và phong độ"
+description: Những cách thiết thực, có cơ sở nghiên cứu, để đối phó với hồi hộp trước kì thi: thói quen cho tuần cuối, tối hôm trước, sáng ngày thi và khi bị hoảng.
+minutes: 20
+type: guide
+---
+
+  :::goals
+  - Hiểu vì sao một chút căng thẳng giúp làm bài tốt hơn, còn căng thẳng quá mức thì gây hại.
+  - Dùng hai kĩ thuật đơn giản đã được kiểm chứng: viết ra nỗi lo và nhìn sự hồi hộp như năng lượng.
+  - Lên kế hoạch cho tuần cuối, tối hôm trước và buổi sáng ngày thi.
+  - Biết phải làm gì trong phòng thi nếu đầu óc trống rỗng.
+  :::
+
+[[P1·8e02]]
+Hầu như học sinh nào cũng hồi hộp trước một bài thi Toán quan trọng. Điều đó bình thường, và một chút căng thẳng còn có ích: nó làm bạn tập trung hơn và có thêm năng lượng. Vấn đề chỉ bắt đầu khi nỗi lo chiếm chỗ của trí nhớ làm việc mà Toán cần đến. Bài này tập hợp những thói quen thiết thực giúp bạn làm chủ bản thân. Đây không phải lời khuyên y khoa; nếu lo âu hay buồn chán kéo dài nhiều tuần, hoặc ảnh hưởng đến giấc ngủ, ăn uống hay sinh hoạt hằng ngày, hãy nói chuyện với bố mẹ, thầy cô, chuyên viên tư vấn học đường hoặc bác sĩ.
+
+## Vì sao hồi hộp có thể làm giảm điểm
+
+[[P2·cd05]]
+Giải một bài toán nhiều bước cần đến **trí nhớ làm việc** (working memory): khoảng không gian nhỏ trong đầu nơi bạn giữ các con số và kế hoạch giải. Những ý nghĩ lo âu như "mình sắp trượt rồi" tranh giành chính khoảng không gian đó. Vì vậy một bạn có thể biết rõ cách làm khi ở nhà nhưng quên sạch trong phòng thi. Tin vui là các cách dưới đây nhắm thẳng vào vấn đề này: chúng đưa nỗi lo ra khỏi trí nhớ làm việc, hoặc thay đổi cách ta hiểu các tín hiệu báo động của cơ thể.
+
+## Hai kĩ thuật có nghiên cứu ủng hộ
+
+[[P3·0011]]
+**1. Viết nỗi lo ra giấy trước giờ thi.** Trong các nghiên cứu đăng trên tạp chí *Science*, có một nghiên cứu với học sinh lớp 9 trước kì thi cuối năm, Ramirez và Beilock (2011) đề nghị học sinh dành khoảng mười phút trước một bài kiểm tra quan trọng để viết tự do về suy nghĩ và cảm xúc của mình đối với bài kiểm tra đó. Những học sinh vốn rất lo lắng khi kiểm tra đã làm bài tốt hơn sau khi viết so với những bạn tương tự không viết. Một cách giải thích hợp lí là đưa nỗi lo ra giấy giúp giải phóng trí nhớ làm việc.
+
+[[P4·6468]]
+Cách áp dụng: tối hôm trước, hoặc lúc chờ vào phòng thi, lấy một tờ giấy và viết trong mười phút về điều bạn đang lo, càng thật lòng càng tốt. Sau đó cất tờ giấy đi.
+
+[[P5·ca98]]
+**2. Gọi đó là năng lượng, không phải nỗi sợ.** Trong một nghiên cứu của Jamieson và các cộng sự (2010), những người đang chuẩn bị thi GRE, một kì thi xét tuyển sau đại học, được giải thích rằng các dấu hiệu hồi hộp của cơ thể khi làm bài, như tim đập nhanh hơn, không làm hại kết quả mà còn có thể giúp ích. Nhóm này đạt điểm phần Toán cao hơn nhóm không được nghe thông điệp đó, cả ở bài thi thử lẫn ở kì thi thật sau đó.
+
+[[P6·3961]]
+Cách áp dụng: khi nhận ra các dấu hiệu hồi hộp, hãy tự nói "cơ thể mình đang sẵn sàng", rồi hướng sự chú ý vào câu hỏi đầu tiên.
+
+## Tuần cuối
+
+[[P7·a5a5]]
+- **Giữ kế hoạch nhẹ nhàng.** Ôn trộn và [sổ lỗi sai](lesson:error-log), không học chủ đề mới.
+- **Tập dượt trong điều kiện thật** một hai lần: cùng giờ trong ngày, cùng máy tính, làm trọn đề.
+- **Giữ giờ ngủ như bình thường.** Giấc ngủ hỗ trợ trí nhớ, và tuần cuối không phải lúc thức khuya học nhồi.
+- **Chuẩn bị sẵn mọi thứ**: đường đi, giấy tờ, máy tính được phép mang với pin còn tốt, bút.
+
+## Tối hôm trước và buổi sáng
+
+| Khi nào | Nên làm | Nên tránh |
+|---|---|---|
+| Tối hôm trước | Xem qua danh sách công thức; chuẩn bị cặp sách; làm điều gì đó thư giãn | Làm một đề mới trọn vẹn; so sánh với bạn bè "đã học hết rồi" |
+| Giờ đi ngủ | Đúng giờ quen thuộc | Thức thêm để học thêm một chủ đề |
+| Buổi sáng | Ăn sáng như mọi ngày; đi sớm để dư thời gian | Học một cách giải mới lúc ngồi chờ |
+| Lúc chờ | Mười phút viết ra nỗi lo; thở chậm | Nghe tin đồn về đề thi |
+
+## Trong phòng thi
+
+[[P8·7737]]
+Nếu đầu óc trống rỗng:
+
+[[P9·daea]]
+1. **Dừng lại 30 giây.** Đặt bút xuống và thở chậm: hít vào bằng mũi, rồi thở ra lâu hơn lúc hít vào, vài lần.
+2. **Tìm một điểm dễ để bắt đầu lại.** Chuyển sang một câu bạn chắc chắn và làm nó. Thành công sẽ kéo trí nhớ trở lại.
+3. **Viết ra những gì mình biết.** Với câu khó, ghi các dữ kiện đã cho và công thức đầu tiên liên hệ chúng. Viết ra là cách khởi động suy nghĩ.
+4. **Dùng cách làm bài hai lượt** trong bài [Chiến thuật trong phòng thi](lesson:exam-day-strategy): không cần thắng từng câu theo đúng thứ tự.
+
+:::tip Tự nói với mình như một huấn luyện viên
+[[P10·8a3a]]
+Thay câu "mình không làm được" bằng một kế hoạch: "Mình làm câu 5 trước, rồi quay lại." Những câu ngắn, thiết thực hiệu quả hơn những lời động viên chung chung.
+:::
+
+## Dành cho phụ huynh
+
+[[P11·bc35]]
+Sự bình tĩnh của bố mẹ có sức lan toả. Trước kì thi, những lời có ích nhất là về sự cố gắng và chuẩn bị ("con đã luyện kĩ phần này rồi"), không phải về kết quả hay so sánh. Sau kì thi, hãy hỏi con cảm thấy thế nào, đừng hỏi con được mấy điểm. Nếu nỗi lo của con có vẻ mạnh hơn hẳn bình thường, hoặc không giảm sau mùa thi, hãy nhờ nhà trường hoặc nhân viên y tế hỗ trợ.
+
+## Nguồn tham khảo
+
+[[P12·920b]]
+- Ramirez, G., Beilock, S. L. (2011). *Writing About Testing Worries Boosts Exam Performance in the Classroom*. Science, 331(6014), 211–213. [doi:10.1126/science.1199427](https://doi.org/10.1126/science.1199427)
+- Jamieson, J. P., Mendes, W. B., Blackstock, E., Schmader, T. (2010). *Turning the knots in your stomach into bows: Reappraising arousal improves performance on the GRE*. Journal of Experimental Social Psychology, 46(1), 208–212. [doi:10.1016/j.jesp.2009.08.015](https://doi.org/10.1016/j.jesp.2009.08.015)
+
+
+######## BÀI exams/study-skills/calm-under-pressure – BẢN TIẾNG ANH ########
+---
+title: "Staying calm: sleep, stress and performance"
+description: Practical, research-informed ways to handle exam nerves: routines for the last week, the night before and the exam morning, and what to do when you panic.
+minutes: 20
+type: guide
+---
+
+  :::goals
+  - Understand why some stress helps performance and too much harms it.
+  - Use two simple techniques tested in research: writing about worries and reframing nerves as energy.
+  - Plan the last week, the night before and the morning of the exam.
+  - Know what to do in the exam room if your mind goes blank.
+  :::
+
+[[P1·328a]]
+Almost every student feels nervous before an important maths exam. That is normal, and a little tension is useful: it sharpens attention and gives energy. Problems start when worry takes up the space your working memory needs for mathematics. This lesson collects practical habits that help you stay in control. It is not medical advice; if worry or low mood lasts for weeks or affects sleep, eating or daily life, talk to a parent, a teacher, a school counselor or a doctor.
+
+## Why nerves can lower your score
+
+[[P2·c39a]]
+Solving a multi-step problem uses **working memory**: the small mental space where you hold the numbers and the plan. Anxious thoughts such as "I am going to fail" compete for that same space. That is why a student can know a method perfectly at home and forget it in the exam room. The good news is that the methods below aim directly at this problem: they move the worry out of working memory, or change how the body's alarm signals are interpreted.
+
+## Two techniques with research behind them
+
+[[P3·26f7]]
+**1. Write your worries down before the exam.** In studies published in *Science*, including one with ninth-grade students before their final exam, Ramirez and Beilock (2011) asked students to spend about ten minutes before an important test writing freely about their thoughts and feelings about it. Students who usually felt very anxious about tests did better after writing than similar students who did not write. A likely explanation is that putting the worries on paper frees working memory.
+
+[[P4·0e9d]]
+How to use it: the evening before, or in the waiting area, take a sheet and write for ten minutes about what you are worried about, as honestly as you can. Then put it away.
+
+[[P5·099a]]
+**2. Call it energy, not fear.** In a study by Jamieson and colleagues (2010), students preparing for the GRE, a graduate admission test, were told that the physical arousal they feel during a test, such as a faster heartbeat, does not hurt performance and can even help it. These students scored higher on the maths section than students who were not given this message, both on a practice test and later on the real exam.
+
+[[P6·007b]]
+How to use it: when you notice the signs of nerves, tell yourself "this is my body getting ready", and turn your attention to the first question.
+
+## The last week
+
+[[P7·54ac]]
+- **Keep the plan light.** Mixed review and the [error log](lesson:error-log), not new topics.
+- **Rehearse the real conditions** once or twice: the same time of day, the same calculator, a full paper.
+- **Keep your normal sleep schedule.** Sleep supports memory, and the last week is not the time to stay up late cramming.
+- **Prepare the logistics**: the route, the documents, the allowed calculator with fresh batteries, the pens.
+
+## The night before and the morning
+
+| When | Do | Avoid |
+|---|---|---|
+| Evening before | A short look at your formula list; pack your bag; something relaxing | A full new paper; comparing with friends who "studied everything" |
+| Bedtime | Your usual time | Staying up to study one more topic |
+| Morning | A normal breakfast; leave with time to spare | Learning a new method in the waiting area |
+| Waiting | The ten-minute worry writing; slow breathing | Listening to rumors about the paper |
+
+## In the exam room
+
+[[P8·2bcb]]
+If your mind goes blank:
+
+[[P9·91da]]
+1. **Stop for 30 seconds.** Put the pen down and breathe slowly: breathe in through your nose, then breathe out for longer than you breathed in, a few times.
+2. **Find an easy point to restart.** Go to a question you are sure about and do it. Success brings memory back.
+3. **Write what you know.** On the hard question, write the given facts and the first formula that relates them. Writing starts the thinking.
+4. **Use the two-pass method** from [Strategy in the exam room](lesson:exam-day-strategy): there is no need to win every question in order.
+
+:::tip Talk to yourself like a coach
+[[P10·9922]]
+Replace "I can't do this" with a plan: "I will do question 5 first, then come back." Short, practical sentences work better than general encouragement.
+:::
+
+## For parents
+
+[[P11·dcda]]
+Your calm is contagious. Before an exam, the most helpful messages are about effort and preparation ("you have practised this"), not about results or comparisons. After the exam, ask how your child is, not what the score will be. If your child's worry seems much stronger than usual, or does not fade after the exam season, ask for help from the school or a health professional.
+
+## References
+
+[[P12·920b]]
+- Ramirez, G., Beilock, S. L. (2011). *Writing About Testing Worries Boosts Exam Performance in the Classroom*. Science, 331(6014), 211–213. [doi:10.1126/science.1199427](https://doi.org/10.1126/science.1199427)
+- Jamieson, J. P., Mendes, W. B., Blackstock, E., Schmader, T. (2010). *Turning the knots in your stomach into bows: Reappraising arousal improves performance on the GRE*. Journal of Experimental Social Psychology, 46(1), 208–212. [doi:10.1016/j.jesp.2009.08.015](https://doi.org/10.1016/j.jesp.2009.08.015)
+
+
+######## BÀI exams/study-skills/error-log – BẢN TIẾNG VIỆT ########
+---
+title: "Sổ lỗi sai: biến mỗi lỗi thành điểm số"
+description: Cách ghi sổ lỗi sai môn Toán thật sự hiệu quả: ghi gì cho mỗi lỗi, năm loại lỗi, thói quen làm lại hằng tuần và các ví dụ cụ thể.
+minutes: 20
+type: guide
+---
+
+  :::goals
+  - Ghi một lỗi sai thành bốn dòng ngắn để dùng được về sau.
+  - Xếp mỗi lỗi vào một trong năm loại và chọn cách sửa phù hợp với từng loại.
+  - Duy trì thói quen làm lại hằng tuần cho đến khi lỗi thật sự biến mất.
+  - Dùng sổ lỗi sai để quyết định nên học gì tiếp theo.
+  :::
+
+[[P1·3a0b]]
+Mỗi câu sai đều chứa một bài học, nhưng phần lớn học sinh vứt nó đi: xem đáp án, nghĩ "à, ra vậy", rồi làm tiếp. Một tuần sau lại sai đúng chỗ đó. Sổ lỗi sai là một cuốn vở, hoặc một trang trong điện thoại, nơi giữ lại các lỗi cho đến khi chúng được sửa. Đây là công cụ ôn thi đơn giản nhất, và là một trong những công cụ hiệu quả nhất, vì nó biến chính các lỗi của bạn thành một ngân hàng câu hỏi riêng, kiểm tra bạn đúng ở chỗ bạn yếu.
+
+## Bốn dòng cho mỗi lỗi
+
+| Dòng | Ghi gì | Ví dụ |
+|---|---|---|
+| 1. Đề bài | Chép lại, hoặc dán ảnh | Giải $\sqrt{x+7}=x-5$. |
+| 2. Sai ở đâu | Một trong năm loại dưới đây, và một câu giải thích | Không thử lại: giữ $x=2$, là nghiệm ngoại lai. |
+| 3. Lời giải đúng | Tự viết lại, không chép | Bình phương, giải $x^2-11x+18=0$, thử cả hai giá trị: chỉ $x=9$ thoả mãn. |
+| 4. Dấu hiệu nhận biết lần sau | Một câu ngắn bạn nhận ra được | "Phương trình chứa căn → luôn thử lại vào phương trình ban đầu." |
+
+[[P2·2e9e]]
+Dòng 4 quan trọng nhất. Nó biến một bài toán thành một quy tắc mà bạn sẽ nhận ra trong một bài khác vào ngày thi.
+
+## Năm loại lỗi
+
+[[P3·588d]]
+Không phải lỗi nào cũng sửa giống nhau. Hãy xếp mỗi lỗi vào một loại:
+
+| Loại | Biểu hiện | Cách sửa |
+|---|---|---|
+| **Khái niệm** | Bạn chưa biết hoặc chưa hiểu ý đó | Quay lại bài học; làm lại các ví dụ mẫu |
+| **Phương pháp** | Biết chủ đề nhưng chọn cách sai hoặc chậm | Học hai, ba bài giải mẫu của dạng đó; viết dấu hiệu nhận biết |
+| **Tính toán** | Sai dấu, sai ngoặc hoặc tính nhầm | Chậm lại ở bước đó; kiểm tra bằng cách thay số hoặc ước lượng |
+| **Đọc đề** | Trả lời một câu khác với câu được hỏi | Gạch chân câu hỏi cuối trước khi làm; đọc lại trước khi chọn đáp án |
+| **Thời gian** | Làm được nhưng hết giờ | Luyện bộ câu trộn bấm giờ; học cách bỏ qua rồi quay lại |
+
+[[P4·7d11]]
+Sau hai hoặc ba tuần, hãy đếm từng loại. Con số sẽ cho bạn biết cần làm gì tiếp theo. Nhiều bạn bất ngờ khi thấy một nửa số điểm bị mất là do lỗi **đọc đề** và **tính toán**, những lỗi mà học thêm bao nhiêu lí thuyết cũng không sửa được.
+
+## Hai ví dụ cụ thể
+
+  :::example Một lỗi tính toán
+  **Đề bài.** Nếu $-3x+7\le22$ thì những giá trị nào của $x$ thoả mãn bất phương trình?
+
+  **Bài làm của mình.** $x\le-5$.
+
+  **Sai ở đâu.** Tính toán: chia cho $-3$ nhưng quên đổi chiều.
+
+  **Lời giải đúng.** $-3x\le15$, nên $x\ge-5$. Thử với $x=0$: $7\le22$ đúng và $0\ge-5$.
+
+  **Dấu hiệu.** "Nhân hoặc chia cho số âm → đổi chiều, rồi thử $x=0$."
+  :::
+
+  :::example Một lỗi đọc đề
+  **Đề bài.** Nếu $3x+7=22$ thì giá trị của $6x+5$ bằng bao nhiêu?
+
+  **Bài làm của mình.** $5$.
+
+  **Sai ở đâu.** Đọc đề: tìm được $x$ rồi dừng, nhưng đề hỏi $6x+5$.
+
+  **Lời giải đúng.** $3x=15$, nên $6x=30$ và $6x+5=35$.
+
+  **Dấu hiệu.** "Khoanh điều được hỏi trước khi làm; đọc lại trước khi chọn."
+  :::
+
+## Thói quen làm lại hằng tuần
+
+[[P5·95ba]]
+Mỗi tuần một lần, trong 20 đến 30 phút:
+
+[[P6·07c5]]
+1. Che dòng 2 đến dòng 4 của mọi lỗi từ các tuần trước.
+2. Làm lại từng bài trên giấy trắng, không nhìn.
+3. Nếu làm đúng, đánh một dấu tích bên cạnh. Nếu lại sai, viết dòng 2 mới: có thể lỗi đã khác.
+4. Khi một lỗi có **hai dấu tích ở hai tuần khác nhau**, gạch bỏ nó. Lỗi đó đã được sửa.
+
+[[P7·9b1a]]
+Thói quen này áp dụng học giãn cách và tự kiểm tra, hai kĩ thuật được đánh giá hữu ích nhất trong tổng quan được nói đến ở bài [Ôn thi theo khoa học](lesson:evidence-based-revision). Khoảng cách một tuần làm cho dấu tích thứ hai có ý nghĩa: làm đúng một bài ngay sau khi đọc lời giải gần như không chứng minh được gì.
+
+:::tip Vở giấy hay điện thoại?
+[[P8·1f9c]]
+Cách nào cũng được. Vở giấy dễ mang vào một phòng yên tĩnh và không có gì làm xao nhãng. Một album ảnh trên điện thoại, mỗi bài một ảnh và bốn dòng ghi ở phần chú thích, thì nhanh. Hãy chọn cách mà bạn sẽ thật sự duy trì.
+:::
+
+## Dùng sổ lỗi sai để lập kế hoạch
+
+[[P9·285c]]
+Cuối mỗi tuần, nhìn sổ lỗi sai như một bộ dữ liệu:
+
+[[P10·f7d4]]
+- **Chủ đề nào xuất hiện nhiều nhất?** Đưa chúng lên đầu kế hoạch tuần sau.
+- **Loại lỗi nào xuất hiện nhiều nhất?** Lỗi khái niệm nghĩa là cần học bài thêm; lỗi tính toán và đọc đề nghĩa là cần thói quen chậm và cẩn thận hơn; lỗi thời gian nghĩa là cần luyện thêm bộ câu trộn bấm giờ.
+- **Lỗi nào cứ quay lại?** Nhờ thầy cô hoặc bạn bè giải thích theo một cách khác.
+
+:::warning Những cái bẫy thường gặp
+[[P11·35ac]]
+- **Chép đáp án vào dòng 3.** Nếu chép, bạn chưa hề tự kiểm tra. Đóng đáp án lại và viết lời giải theo hiểu biết của mình.
+- **Chỉ ghi lỗi "to".** Sai một dấu cũng mất điểm như sai cả cách làm.
+- **Không bao giờ làm lại.** Một cuốn sổ chỉ viết mà không đọc lại chỉ là danh sách những kỉ niệm buồn.
+:::
+
+## Nguồn tham khảo
+
+[[P12·29f9]]
+- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., Willingham, D. T. (2013). *Improving Students' Learning With Effective Learning Techniques*. Psychological Science in the Public Interest, 14(1), 4–58.
+- Roediger, H. L., Karpicke, J. D. (2006). *Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention*. Psychological Science, 17(3), 249–255.
+
+
+######## BÀI exams/study-skills/error-log – BẢN TIẾNG ANH ########
+---
+title: "The error log: turning mistakes into marks"
+description: How to keep a maths error log that works: what to write for each mistake, five types of error, a weekly redo routine and worked examples.
+minutes: 20
+type: guide
+---
+
+  :::goals
+  - Record a mistake in four short lines that make it useful later.
+  - Classify each mistake into one of five types, and choose the right fix for each type.
+  - Run a weekly redo routine until a mistake is truly gone.
+  - Use the log to decide what to study next.
+  :::
+
+[[P1·2fef]]
+Every wrong answer contains a lesson, but most students throw it away: they check the answer key, think "oh, I see", and move on. A week later they make the same mistake. An error log is a notebook, or a page in your phone, where mistakes are kept until they are fixed. It is the simplest revision tool there is, and one of the most effective, because it turns your own mistakes into a personal question bank that tests you exactly where you are weak.
+
+## Four lines for each mistake
+
+| Line | What to write | Example |
+|---|---|---|
+| 1. The problem | Copy it, or paste a photo | Solve $\sqrt{x+7}=x-5$. |
+| 2. What went wrong | One of the five types below, and one sentence | Did not check: kept $x=2$, which is extraneous. |
+| 3. The correct solution | Rewritten by you, not copied | Square, solve $x^2-11x+18=0$, check both values: only $x=9$ works. |
+| 4. The signal for next time | One short sentence you can recognize | "Square root equation → always check in the original." |
+
+[[P2·5eda]]
+Line 4 is the most important. It turns one problem into a rule that you will recognize in a different problem on exam day.
+
+## Five types of mistake
+
+[[P3·9b31]]
+Not all mistakes need the same fix. Sort each one into a type:
+
+| Type | What it looks like | The fix |
+|---|---|---|
+| **Concept** | You did not know or did not understand the idea | Go back to the lesson; do the worked examples again |
+| **Method** | You knew the topic but chose a wrong or slow route | Study two or three solved problems of that type; write the signal |
+| **Calculation** | A sign, a bracket or an arithmetic slip | Slow down at that step; check by substitution or estimation |
+| **Reading** | You answered a different question from the one asked | Underline the final question before starting; reread it before answering |
+| **Time** | You could have done it but ran out of time | Practise mixed timed sets; learn when to skip and come back |
+
+[[P4·70da]]
+After two or three weeks, count the types. The counts tell you what to do next. Many students are surprised to find that half their lost marks are **reading** and **calculation** mistakes, which no amount of new theory will fix.
+
+## Two worked examples
+
+  :::example A calculation mistake
+  **Problem.** If $-3x+7\le22$, which values of $x$ satisfy the inequality?
+
+  **My answer.** $x\le-5$.
+
+  **What went wrong.** Calculation: I divided by $-3$ and forgot to reverse the sign.
+
+  **Correct solution.** $-3x\le15$, so $x\ge-5$. Check with $x=0$: $7\le22$ is true and $0\ge-5$.
+
+  **Signal.** "Dividing or multiplying by a negative number → reverse the sign, then test $x=0$."
+  :::
+
+  :::example A reading mistake
+  **Problem.** If $3x+7=22$, what is the value of $6x+5$?
+
+  **My answer.** $5$.
+
+  **What went wrong.** Reading: I found $x$ and stopped, but the question asked for $6x+5$.
+
+  **Correct solution.** $3x=15$, so $6x=30$ and $6x+5=35$.
+
+  **Signal.** "Circle what is asked before starting; reread it before choosing."
+  :::
+
+## The weekly redo routine
+
+[[P5·077e]]
+Once a week, for 20 to 30 minutes:
+
+[[P6·1f61]]
+1. Cover lines 2 to 4 of every entry from the past weeks.
+2. Redo each problem on a blank sheet, without looking.
+3. If you get it right, put a tick next to it. If it is wrong again, write a new line 2: the mistake may have changed.
+4. When an entry has **two ticks in two different weeks**, cross it out. It is fixed.
+
+[[P7·59d8]]
+This routine applies spaced practice and self-testing, the two techniques rated most useful in the review described in [Revision that works](lesson:evidence-based-revision). The gap of a week is what makes the second tick meaningful: getting a problem right straight after reading its solution proves very little.
+
+:::tip Paper or phone?
+[[P8·e288]]
+Either works. A paper notebook is easy to carry into a quiet room and has no distractions. A phone album with photos of each problem, and the four lines written as a caption, is fast. Choose the one you will actually keep using.
+:::
+
+## Using the log to plan
+
+[[P9·ca23]]
+At the end of each week, look at the log as data:
+
+[[P10·4e66]]
+- **Which topics appear most often?** They go to the top of next week's plan.
+- **Which types appear most often?** Concept mistakes mean more lessons; calculation and reading mistakes mean slower, more careful habits; time mistakes mean more mixed timed practice.
+- **Which entries keep coming back?** Ask a teacher or a friend to explain them in a different way.
+
+:::warning Common traps
+[[P11·9969]]
+- **Copying the answer key into line 3.** If you copy, you have not tested yourself. Close the key and write the solution from your understanding.
+- **Logging only "big" mistakes.** Small sign errors cost the same marks as big ones.
+- **Never redoing the problems.** A log that is only written and never reread is just a list of bad memories.
+:::
+
+## References
+
+[[P12·29f9]]
+- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., Willingham, D. T. (2013). *Improving Students' Learning With Effective Learning Techniques*. Psychological Science in the Public Interest, 14(1), 4–58.
+- Roediger, H. L., Karpicke, J. D. (2006). *Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention*. Psychological Science, 17(3), 249–255.
+
+
+######## BÀI exams/study-skills/evidence-based-revision – BẢN TIẾNG VIỆT ########
+---
+title: Ôn thi theo khoa học: những cách học đã được kiểm chứng
+description: Tự kiểm tra, học giãn cách, trộn dạng bài và sổ lỗi sai: những cách ôn thi Toán được nghiên cứu chứng minh là hiệu quả, kèm lịch ôn mẫu.
+minutes: 25
+type: guide
+---
+
+  :::goals
+  - Phân biệt được cách ôn "có vẻ hiệu quả" với cách ôn thật sự giúp nhớ lâu.
+  - Biết dùng bốn công cụ: tự kiểm tra, học giãn cách, trộn dạng bài, sổ lỗi sai.
+  - Lập được một tuần ôn Toán mẫu cho bất kì kì thi nào.
+  :::
+
+[[P1·c295]]
+Hai bạn cùng ôn 10 giờ cho một kì thi. Bạn An đọc lại vở, tô bút dạ quang những công thức quan trọng và thấy rất yên tâm vì "nhìn đâu cũng quen". Bạn Bình gấp vở lại, tự viết ra công thức, làm đề rồi chấm, và thấy khá mệt vì liên tục phát hiện mình quên. Đến ngày thi, người làm bài tốt hơn thường là Bình. Bài này giải thích vì sao, dựa trên các nghiên cứu về trí nhớ và việc học, để mỗi giờ ôn của bạn đáng giá hơn.
+
+## Cảm giác "đã hiểu" thường đánh lừa ta
+
+[[P2·9a22]]
+Năm 2013, nhóm của giáo sư John Dunlosky (Đại học Kent State, Mỹ) rà soát bằng chứng nghiên cứu về mười cách học phổ biến và xếp chúng theo mức độ hữu ích. Kết quả làm nhiều người bất ngờ:
+
+| Cách học | Mức hữu ích theo tổng quan năm 2013 |
+|---|---|
+| Tự kiểm tra (làm bài, làm đề, tự hỏi tự trả lời) | Cao |
+| Học giãn cách (chia nhỏ, lặp lại sau vài ngày) | Cao |
+| Trộn dạng bài khi luyện tập | Trung bình |
+| Tự giải thích "vì sao bước này đúng" | Trung bình |
+| Đọc lại bài | Thấp |
+| Tô, gạch chân | Thấp |
+| Tóm tắt lại bài | Thấp |
+
+[[P3·3336]]
+Đọc lại và tô màu được xếp thấp không phải vì vô ích hoàn toàn, mà vì chúng tạo ra cảm giác trôi chảy: mắt nhận ra dòng chữ quen, nên não tưởng rằng mình đã nhớ. Nhưng trong phòng thi không ai cho bạn nhìn vở. Đề thi yêu cầu **tự lấy kiến thức ra**, và kĩ năng đó chỉ mạnh lên khi bạn luyện đúng việc ấy.
+
+:::warning Dấu hiệu bạn đang ôn kiểu "ảo giác"
+[[P4·40cb]]
+Bạn xem lời giải và gật gù "à, dễ mà", nhưng che lời giải đi thì không viết lại được. Hãy coi một bài là "đã biết" chỉ khi bạn tự làm lại được trên giấy trắng.
+:::
+
+## Công cụ 1: tự kiểm tra thay cho đọc lại
+
+[[P5·89a9]]
+Các nhà tâm lí học gọi đây là hiệu ứng kiểm tra: việc cố nhớ lại một điều làm trí nhớ về điều đó bền hơn so với đọc thêm một lần nữa (Roediger và Karpicke, 2006). Với môn Toán, tự kiểm tra rất dễ làm:
+
+[[P6·003d]]
+- **Giấy trắng 5 phút.** Trước khi mở vở, viết ra mọi công thức và ý chính của chủ đề hôm nay. Sau đó mới mở vở để bổ sung bằng bút khác màu. Phần khác màu chính là phần cần ôn.
+- **Che lời giải.** Với mỗi ví dụ mẫu, đọc đề, che lời giải, tự làm, rồi mới so từng dòng.
+- **Kiểm tra mini.** Mỗi bài trên Lemonmath kết thúc bằng một bài kiểm tra chấm điểm ngay. Hãy làm nó vào hôm sau, không phải ngay sau khi đọc bài.
+- **Đề luyện bấm giờ.** Làm trọn đề trong đúng thời gian thật, không mở tài liệu.
+
+[[P7·a266]]
+Kiểm tra ở đây là công cụ để học, không phải để lấy điểm. Sai trong lúc ôn là tin tốt: bạn vừa tìm ra một chỗ hổng trước khi đề thi tìm ra nó.
+
+## Công cụ 2: học giãn cách thay cho học dồn
+
+[[P8·9d6c]]
+Cùng 3 giờ cho một chủ đề, chia thành ba buổi 1 giờ cách nhau vài ngày giúp nhớ lâu hơn một buổi 3 giờ liền. Quên đi một chút rồi phải cố nhớ lại chính là lúc trí nhớ được củng cố. Tổng quan của Dunlosky xếp cách này vào nhóm hữu ích cao, cho người học ở nhiều lứa tuổi và nhiều môn học.
+
+[[P9·3447]]
+Một lịch lặp lại đơn giản cho mỗi chủ đề:
+
+| Lần | Thời điểm | Việc làm |
+|---|---|---|
+| 1 | Ngày học | Học bài, làm ví dụ và 4–5 bài tập |
+| 2 | Sau 1–2 ngày | Giấy trắng 5 phút, làm kiểm tra mini |
+| 3 | Sau khoảng 1 tuần | 3–4 bài tập lấy ngẫu nhiên |
+| 4 | Sau khoảng 3–4 tuần | Gặp lại trong đề luyện |
+
+:::tip Đừng chờ "học xong hết rồi mới ôn"
+[[P10·8aa8]]
+Ngay từ tuần thứ hai, hãy dành khoảng một phần ba thời gian mỗi buổi cho chủ đề cũ. Kiến thức cũ được nhắc lại đúng lúc sẽ không phải học lại từ đầu.
+:::
+
+## Công cụ 3: trộn dạng bài
+
+[[P11·0720]]
+Sách bài tập thường xếp bài theo khối: 20 bài cùng một dạng. Làm đến bài thứ ba, bạn không cần nghĩ "dùng cách nào" nữa vì đã biết sẵn. Nhưng đề thi thì trộn mọi dạng, và bước khó nhất lại chính là **nhận ra bài này thuộc dạng nào**.
+
+[[P12·da0b]]
+Nhóm của Doug Rohrer (Đại học Nam Florida) đã thử điều này trong lớp học thật: 54 lớp Toán lớp 7 làm bài tập xếp theo khối hoặc trộn dạng trong bốn tháng. Một tháng sau, trong bài kiểm tra không báo trước, nhóm luyện trộn dạng đạt trung bình 61%, nhóm luyện theo khối đạt 38%. Tác giả cũng lưu ý nghiên cứu còn những giới hạn, nhưng hướng kết quả rất rõ.
+
+[[P13·0095]]
+Cách áp dụng:
+
+[[P14·53d5]]
+- Khi **mới học** một dạng, cứ làm 4–5 bài liền nhau cho quen tay.
+- Từ buổi sau, tự tạo phiếu trộn: mỗi chủ đề đã học lấy 1–2 bài, xáo thứ tự.
+- Trước khi giải, tự hỏi: "Bài này hỏi gì? Thuộc chủ đề nào? Vì sao chọn cách này?"
+
+[[P15·276e]]
+Luyện trộn dạng cho cảm giác chậm và khó hơn. Đó là cái khó có ích.
+
+## Công cụ 4: sổ lỗi sai
+
+[[P16·1ec2]]
+Một lời khuyên quen thuộc của các giáo viên luyện thi: thà làm 3 đề và hiểu thật sâu từng lỗi sai còn hơn làm 10 đề một cách hời hợt. Sổ lỗi sai biến lời khuyên đó thành thói quen. Mỗi lỗi ghi bốn dòng:
+
+[[P17·1569]]
+1. **Đề bài** (chép hoặc dán lại).
+2. **Mình đã sai ở đâu?** Chọn một loại: chưa hiểu khái niệm, chọn sai phương pháp, tính nhầm, đọc sót đề, hết giờ.
+3. **Lời giải đúng**, tự viết lại.
+4. **Dấu hiệu nhận biết lần sau**, một câu ngắn. Ví dụ: "Thấy 'ít nhất một' thì nghĩ đến biến cố đối."
+
+[[P18·1373]]
+Mỗi tuần, che phần lời giải và làm lại các bài trong sổ. Bài nào làm đúng hai lần liên tiếp thì gạch đi. Cách phân loại lỗi cũng cho bạn biết nên sửa gì: nếu phần lớn lỗi là "đọc sót đề", bạn không cần học thêm kiến thức mà cần tập gạch chân yêu cầu của đề.
+
+## Giải một bài toán như các chuyên gia
+
+[[P19·d809]]
+Nhà toán học George Pólya, trong cuốn *How to Solve It* (1945), chia việc giải toán thành bốn bước mà đến nay các chương trình Toán trên thế giới vẫn dùng:
+
+[[P20·4b5b]]
+1. **Hiểu đề.** Cái gì đã cho, cái gì cần tìm, điều kiện là gì?
+2. **Lập kế hoạch.** Đã gặp bài nào tương tự chưa? Có vẽ hình, lập bảng, đặt ẩn được không?
+3. **Thực hiện.** Viết từng bước, mỗi bước kiểm tra được.
+4. **Nhìn lại.** Kết quả có hợp lí không (đơn vị, dấu, độ lớn)? Có cách nào ngắn hơn không?
+
+[[P21·2397]]
+Bước 4 thường bị bỏ qua nhất, và cũng là bước cứu được nhiều điểm nhất trong phòng thi. Khi ôn, hãy tập "tự giải thích": sau mỗi dòng, nói thầm vì sao dòng đó đúng.
+
+## Một tuần ôn mẫu
+
+[[P22·e62a]]
+Giả sử bạn có khoảng 5 buổi, mỗi buổi 60–90 phút:
+
+| Buổi | Mở đầu (10 phút) | Phần chính | Kết thúc (10 phút) |
+|---|---|---|---|
+| 1 | Giấy trắng chủ đề tuần trước | Học chủ đề mới A | Ghi sổ lỗi |
+| 2 | Kiểm tra mini chủ đề A | Bài tập vận dụng A | Ghi sổ lỗi |
+| 3 | Giấy trắng chủ đề A | Học chủ đề mới B | Ghi sổ lỗi |
+| 4 | Kiểm tra mini chủ đề B | Phiếu trộn: A, B và chủ đề cũ | Ghi sổ lỗi |
+| 5 | Làm lại bài trong sổ lỗi | Nửa đề hoặc cả đề, bấm giờ | Chấm, phân loại lỗi |
+
+[[P23·3050]]
+Khi còn 3–4 tuần trước ngày thi, tăng dần phần đề bấm giờ; mỗi đề đều phải chấm và ghi sổ lỗi ngay trong ngày.
+
+## Nguồn tham khảo
+
+[[P24·8d33]]
+- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., Willingham, D. T. (2013). *Improving Students' Learning With Effective Learning Techniques*. Psychological Science in the Public Interest, 14(1), 4–58. [Bản tóm tắt của Association for Psychological Science](https://www.psychologicalscience.org/news/releases/which-study-strategies-make-the-grade.html).
+- Roediger, H. L., Karpicke, J. D. (2006). *Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention*. Psychological Science, 17(3), 249–255.
+- Rohrer, D., Dedrick, R. F., Hartwig, M. K., Cheung, C.-N. (2020). *A Randomized Controlled Trial of Interleaved Mathematics Practice*. Journal of Educational Psychology, 112(1), 40–52. [doi:10.1037/edu0000367](https://doi.org/10.1037/edu0000367).
+- Pólya, G. (1945). *How to Solve It*. Princeton University Press.
+
+
+######## BÀI exams/study-skills/evidence-based-revision – BẢN TIẾNG ANH ########
+---
+title: Revision that works: study methods backed by research
+description: Self-testing, spaced practice, mixed practice and an error log: maths revision methods that research supports, with a sample study week.
+minutes: 25
+type: guide
+---
+
+  :::goals
+  - Tell the difference between revision that feels effective and revision that makes knowledge last.
+  - Use four tools: self-testing, spaced practice, mixed practice and an error log.
+  - Plan a sample week of maths revision for any exam.
+  :::
+
+[[P1·06fd]]
+Two students each revise for 10 hours. An rereads her notes, highlights the important formulas and feels calm because everything looks familiar. Binh closes his notebook, writes the formulas from memory, sits a paper and marks it, and feels tired because he keeps finding things he has forgotten. On exam day, the one who usually does better is Binh. This lesson explains why, using research on memory and learning, so that each hour you revise is worth more.
+
+## The feeling of "I get it" is often misleading
+
+[[P2·bc77]]
+In 2013 a team led by Professor John Dunlosky (Kent State University, USA) reviewed the research evidence on ten common study techniques and rated how useful each one is. The results surprised many people:
+
+| Technique | Utility in the 2013 review |
+|---|---|
+| Self-testing (doing problems, papers, quizzing yourself) | High |
+| Spaced practice (short sessions, repeated after some days) | High |
+| Mixing problem types in practice | Moderate |
+| Explaining to yourself why a step is true | Moderate |
+| Rereading | Low |
+| Highlighting and underlining | Low |
+| Summarising | Low |
+
+[[P3·cef0]]
+Rereading and highlighting are rated low not because they are useless, but because they create fluency: your eyes recognise the line, so your brain assumes you remember it. In the exam room nobody lets you look at your notes. The paper asks you to **pull the knowledge out by yourself**, and that skill only grows when you practise exactly that.
+
+:::warning A sign that your revision is an illusion
+[[P4·dac3]]
+You read a solution and nod, "that's easy", but when you cover it you cannot write it again. Count a problem as "known" only when you can redo it on a blank sheet.
+:::
+
+## Tool 1: test yourself instead of rereading
+
+[[P5·fd5d]]
+Psychologists call this the testing effect: trying to recall something strengthens the memory more than reading it one more time (Roediger and Karpicke, 2006). In maths, self-testing is easy to do:
+
+[[P6·1a4d]]
+- **Five-minute blank page.** Before opening your notes, write every formula and key idea of today's topic. Then open your notes and add what is missing in another colour. The second colour is what you need to revise.
+- **Cover the solution.** For each worked example, read the problem, cover the solution, solve it, then compare line by line.
+- **Mini tests.** Every Lemonmath lesson ends with a test that is marked at once. Do it the next day, not straight after reading.
+- **Timed papers.** Sit a full paper in the real time, with no notes.
+
+[[P7·517f]]
+Here a test is a tool for learning, not for a grade. A mistake during revision is good news: you have found a gap before the exam found it.
+
+## Tool 2: space it out instead of cramming
+
+[[P8·ca38]]
+With the same 3 hours for one topic, three 1-hour sessions a few days apart give longer-lasting memory than one 3-hour block. Forgetting a little and then working to recall is exactly when memory is strengthened. Dunlosky's review rates this technique as highly useful, for learners of many ages and in many subjects.
+
+[[P9·4d85]]
+A simple repetition schedule for each topic:
+
+| Round | When | What to do |
+|---|---|---|
+| 1 | Day of learning | Study the lesson, do the examples and 4–5 exercises |
+| 2 | After 1–2 days | Five-minute blank page, then the mini test |
+| 3 | After about 1 week | 3–4 exercises chosen at random |
+| 4 | After about 3–4 weeks | Meet it again in a practice paper |
+
+:::tip Do not wait until you have "finished everything"
+[[P10·6345]]
+From the second week, give about one third of each session to older topics. Knowledge that is revisited at the right moment never has to be learned again from zero.
+:::
+
+## Tool 3: mix the problem types
+
+[[P11·b971]]
+Workbooks usually group problems in blocks: 20 problems of one type. By the third one you no longer think "which method?" because you already know. An exam mixes every type, and the hardest step is precisely **recognising which type this problem is**.
+
+[[P12·b4c0]]
+Doug Rohrer's team (University of South Florida) tested this in real classrooms: 54 seventh-grade maths classes did either blocked or mixed assignments for four months. One month later, on an unannounced test, the mixed-practice group averaged 61% and the blocked group 38%. The authors note that the study has limits, but the direction of the result is very clear.
+
+[[P13·6dcf]]
+How to apply it:
+
+[[P14·b911]]
+- When a type is **new**, do 4–5 problems in a row to get used to it.
+- From the next session, build a mixed sheet: 1–2 problems from each topic you have studied, in shuffled order.
+- Before solving, ask: "What is being asked? Which topic is this? Why this method?"
+
+[[P15·4e5f]]
+Mixed practice feels slower and harder. That is the useful kind of difficulty.
+
+## Tool 4: an error log
+
+[[P16·7092]]
+Experienced exam teachers often give the same advice: it is better to sit 3 papers and understand every mistake deeply than to rush through 10 papers. An error log turns that advice into a habit. Write four lines for each mistake:
+
+[[P17·9ef5]]
+1. **The problem** (copy or paste it).
+2. **Where did I go wrong?** Choose one type: concept not understood, wrong method, calculation slip, misread the question, ran out of time.
+3. **The correct solution**, rewritten by you.
+4. **The signal for next time**, in one short sentence. For example: "When I see 'at least one', think of the complement."
+
+[[P18·5f9d]]
+Each week, cover the solutions and redo the problems in the log. Cross out a problem once you get it right twice in a row. The types also tell you what to fix: if most of your mistakes are "misread the question", you do not need more theory; you need to practise underlining what the question asks.
+
+## Solving a problem the way experts do
+
+[[P19·2402]]
+The mathematician George Pólya, in *How to Solve It* (1945), split problem solving into four steps that maths courses around the world still use:
+
+[[P20·1d3c]]
+1. **Understand the problem.** What is given, what is wanted, what are the conditions?
+2. **Make a plan.** Have you seen a similar problem? Can you draw a figure, make a table, introduce an unknown?
+3. **Carry out the plan.** Write each step so that it can be checked.
+4. **Look back.** Is the answer reasonable (units, sign, size)? Is there a shorter way?
+
+[[P21·dc7c]]
+Step 4 is skipped most often, and it also rescues the most marks in the exam room. While revising, practise self-explanation: after each line, say quietly why that line is true.
+
+## A sample week
+
+[[P22·c67e]]
+Suppose you have about 5 sessions of 60–90 minutes:
+
+| Session | Start (10 min) | Main part | Finish (10 min) |
+|---|---|---|---|
+| 1 | Blank page on last week's topic | Learn new topic A | Update error log |
+| 2 | Mini test on topic A | Application exercises on A | Update error log |
+| 3 | Blank page on topic A | Learn new topic B | Update error log |
+| 4 | Mini test on topic B | Mixed sheet: A, B and older topics | Update error log |
+| 5 | Redo problems from the error log | Half a paper or a full paper, timed | Mark it, classify mistakes |
+
+[[P23·3adb]]
+When 3–4 weeks remain before the exam, increase the share of timed papers; mark every paper and update the error log on the same day.
+
+## References
+
+[[P24·1fec]]
+- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., Willingham, D. T. (2013). *Improving Students' Learning With Effective Learning Techniques*. Psychological Science in the Public Interest, 14(1), 4–58. [Summary by the Association for Psychological Science](https://www.psychologicalscience.org/news/releases/which-study-strategies-make-the-grade.html).
+- Roediger, H. L., Karpicke, J. D. (2006). *Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention*. Psychological Science, 17(3), 249–255.
+- Rohrer, D., Dedrick, R. F., Hartwig, M. K., Cheung, C.-N. (2020). *A Randomized Controlled Trial of Interleaved Mathematics Practice*. Journal of Educational Psychology, 112(1), 40–52. [doi:10.1037/edu0000367](https://doi.org/10.1037/edu0000367).
+- Pólya, G. (1945). *How to Solve It*. Princeton University Press.
+
+
+######## BÀI exams/study-skills/exam-day-strategy – BẢN TIẾNG VIỆT ########
+---
+title: Chiến thuật trong phòng thi
+description: Cách dùng thời gian trong một bài thi Toán: những phút đầu, làm bài hai lượt, khi nào bỏ qua, mẹo làm trắc nghiệm, trình bày tự luận và kiểm tra lại.
+minutes: 20
+type: guide
+---
+
+  :::goals
+  - Lên kế hoạch cho năm phút đầu và mười phút cuối của mọi bài thi Toán.
+  - Dùng cách làm bài hai lượt và một quy tắc rõ ràng về việc khi nào bỏ qua một câu.
+  - Áp dụng chiến thuật khác nhau cho câu nhiều lựa chọn, câu đúng/sai, câu trả lời ngắn và câu tự luận.
+  - Kiểm tra đáp số nhanh, theo những cách thật sự phát hiện được lỗi.
+  :::
+
+[[P1·ec55]]
+Hai học sinh biết cùng một lượng Toán có thể ra khỏi phòng thi với điểm số rất khác nhau. Sự khác biệt hiếm khi do may mắn; nó nằm ở cách dùng thời gian. Chiến thuật không thay được kiến thức, nhưng nó bảo đảm mọi thứ bạn biết đều biến thành điểm. Những ý dưới đây dùng được cho thi vào 10, thi tốt nghiệp THPT, cũng như SAT, ACT, AP và IB.
+
+## Trước khi bắt đầu viết
+
+[[P2·6244]]
+- **Biết trước cấu trúc đề.** Đến ngày thi, bạn phải biết số câu, thời gian, các phần và cách chấm từng phần. Đừng để đến lúc thi mới đọc hướng dẫn lần đầu.
+- **Nhìn toàn bộ đề trước, nếu hình thức thi cho phép.** Dành một, hai phút đọc lướt: câu nào quen, câu nào dài. Với bài thi trên máy như SAT, hãy xem bảng điều hướng câu hỏi.
+- **Ghi ra những gì dễ quên.** Một công thức bạn hay nhầm, ghi ra lề ngay phút đầu, sẽ giúp bạn đỡ căng thẳng về sau.
+
+## Làm bài hai lượt
+
+[[P3·fa1b]]
+Phần lớn điểm bị mất không phải ở câu khó nhất mà ở những câu dễ chưa kịp làm, hoặc làm vội vào cuối giờ. Làm bài hai lượt ngăn điều đó:
+
+[[P4·7da0]]
+1. **Lượt một.** Làm lần lượt theo thứ tự. Trả lời mọi câu bạn làm được trong thời gian hợp lí. Nếu sau khoảng **hai phút** vẫn chưa có hướng, đánh dấu câu đó, chọn phương án hợp lí nhất nếu là câu trắc nghiệm, rồi làm tiếp.
+2. **Lượt hai.** Quay lại các câu đã đánh dấu, câu dễ trước, với thời gian còn lại.
+
+:::tip Quy tắc hai phút
+[[P5·ab0b]]
+Hai phút là con số định hướng, không phải luật: với các câu tự luận dài cuối đề, mất nhiều thời gian hơn là bình thường. Quy tắc thật ra nói về việc bị bế tắc. Nếu đã đọc một câu hai lần mà vẫn không biết bắt đầu từ đâu, mỗi phút thêm ở đó là một phút lấy đi của những câu bạn làm được.
+:::
+
+## Phân bổ thời gian
+
+[[P6·89a1]]
+Hãy tính trước cách phân bổ thời gian, để có thể kiểm tra tốc độ ở những mốc cố định.
+
+| Kì thi | Thời gian | Mốc kiểm tra tốc độ |
+|---|---|---|
+| Thi tốt nghiệp THPT (12 câu nhiều lựa chọn, 4 câu đúng/sai, 6 câu trả lời ngắn) | 90 phút | khoảng 25 phút cho Phần I, 30 phút cho Phần II, 30 phút cho Phần III, 5 phút kiểm tra |
+| Một module SAT Math (22 câu) | 35 phút | đến câu 10 vào khoảng phút thứ 12; thời gian dư dành cho 6 câu cuối |
+| Bài tự luận 5 bài | 120 phút | khoảng 20 phút mỗi bài, 20 phút kiểm tra và hoàn thiện |
+
+[[P7·f25f]]
+Đây chỉ là gợi ý; hãy điều chỉnh theo điểm mạnh của bạn sau các lần làm đề luyện.
+
+## Chiến thuật theo từng dạng câu
+
+[[P8·809d]]
+**Câu nhiều lựa chọn.**
+- Che các phương án và tự giải trước, rồi mới đối chiếu. Các phương án được soạn để bẫy những lỗi quen thuộc.
+- Nếu bế tắc, hãy loại những gì không thể: sai dấu, sai độ lớn, sai đơn vị.
+- Thay các phương án vào đề, hoặc thay một số đơn giản vào các biểu thức.
+- Đừng bao giờ bỏ trống khi làm sai không bị trừ điểm.
+
+[[P9·1e0f]]
+**Câu đúng/sai có bốn ý (Phần II đề tốt nghiệp THPT).** Điểm tăng nhanh theo số ý đúng: đúng 1, 2, 3 hoặc 4 ý được 0,1; 0,25; 0,5 hoặc 1 điểm. Ý a) thường dễ nhất, và các ý sau hay dùng kết quả của ý trước, nên hãy làm lần lượt và quyết định từng ý một cách độc lập.
+
+[[P10·4095]]
+**Câu trả lời ngắn.** Đáp số phải là một số. Đọc kĩ hướng dẫn về làm tròn, cách viết số thập phân và số âm, và kiểm tra con số có hợp lí không trước khi ghi vào ô.
+
+[[P11·0b65]]
+**Câu tự luận (thi vào 10, tự luận AP, IB).** Điểm được cho theo các bước làm, không chỉ cho đáp số. Vì vậy:
+- viết mỗi bước trên một dòng, kèm công thức hoặc định lí đã dùng;
+- nếu không làm hết, hãy viết bước tiếp theo bạn định làm: điểm thành phần rất phổ biến;
+- ghi rõ kết luận, kèm đơn vị, và trả lời đúng điều đề hỏi.
+
+## Kiểm tra lại cho hiệu quả
+
+[[P12·f01c]]
+Đọc lại lời giải hiếm khi tìm ra lỗi, vì bạn đọc thấy điều mình định viết. Những cách kiểm tra tốt hơn:
+
+[[P13·ca09]]
+- **Thay ngược lại.** Thay nghiệm vào phương trình ban đầu.
+- **Ước lượng.** Độ lớn có hợp lí không? Xác suất lớn hơn $1$ hay độ dài âm là dấu hiệu sai, không phải một phát hiện.
+- **Giải theo cách khác.** Dùng đồ thị, bảng giá trị, hoặc bấm máy kiểm tra một phép tính đã làm tay.
+- **Chỉ đọc lại câu hỏi.** Đáp số có đúng là đại lượng được hỏi, đúng dạng yêu cầu không?
+
+[[P14·9c17]]
+Giữ năm đến mười phút cuối để kiểm tra, và dùng chúng cho những câu bạn ít chắc chắn nhất, không phải những câu thấy dễ.
+
+:::warning Những cái bẫy thường gặp
+[[P15·d439]]
+- **Đổi một đáp án đúng mà không có lí do.** Chỉ đổi khi một phép kiểm tra cho thấy có lỗi, không phải vì một cảm giác mơ hồ.
+- **Để câu khó nhất "làm sau" nhưng vẫn mất 20 phút đầu cho nó.**
+- **Chép nhầm.** Kiểm tra đáp án tô trên phiếu, hoặc gõ trên màn hình, đúng là đáp án trong bài làm.
+:::
+
+## Sau khi thi
+
+[[P16·b978]]
+Đừng dò lại từng câu với bạn bè ngay sau giờ thi: điều đó không thay đổi được gì và có thể làm bạn mất bình tĩnh trước môn tiếp theo. Hãy nghỉ ngơi, ăn uống và chuẩn bị cho môn sau. Việc xem xét kĩ thuộc về các đề luyện, nơi nó còn giúp được bạn: đó là việc của [sổ lỗi sai](lesson:error-log).
+
+
+######## BÀI exams/study-skills/exam-day-strategy – BẢN TIẾNG ANH ########
+---
+title: Strategy in the exam room
+description: How to use the time in a maths exam: the first minutes, the two-pass method, when to skip, multiple-choice tactics, written answers and checking.
+minutes: 20
+type: guide
+---
+
+  :::goals
+  - Plan the first five minutes and the last ten minutes of any maths exam.
+  - Use the two-pass method and a clear rule for when to skip a question.
+  - Apply different tactics to multiple-choice, true/false, short-answer and written questions.
+  - Check answers quickly, in ways that actually catch mistakes.
+  :::
+
+[[P1·8e81]]
+Two students who know the same mathematics can finish an exam with very different marks. The difference is rarely luck; it is how they spend their time. Strategy cannot replace knowledge, but it makes sure that everything you know turns into marks. The ideas below work for the Vietnamese entrance and graduation exams as well as for the SAT, ACT, AP and IB.
+
+## Before you start writing
+
+[[P2·4bd7]]
+- **Know the format in advance.** By exam day you should know the number of questions, the time, the parts and how each part is marked. You should not be reading the instructions for the first time.
+- **Look at the whole paper first, if the format allows it.** Spend one or two minutes reading through: which questions are familiar, which look long. On a computer-based test such as the SAT, look at the question navigator instead.
+- **Write down what you might forget.** A formula you always mix up, written in the margin in the first minute, saves stress later.
+
+## The two-pass method
+
+[[P3·8803]]
+Most marks are lost not on the hardest question but on easy questions that were never reached, or rushed at the end. The two-pass method prevents this:
+
+[[P4·2529]]
+1. **First pass.** Go through the paper in order. Answer every question you can do in a reasonable time. If a question has no clear plan after about **two minutes**, mark it, choose your best guess if it is multiple choice, and move on.
+2. **Second pass.** Return to the marked questions, easiest first, with the time you have left.
+
+:::tip The two-minute rule
+[[P5·e039]]
+Two minutes is a guide, not a law: for the long final questions of a written exam, more time is normal. The rule is really about being stuck. If you have read a question twice and still do not know where to start, every extra minute there is a minute stolen from questions you can do.
+:::
+
+## Time budget
+
+[[P6·28e4]]
+Work out a budget before the exam, so that you can check your pace at fixed points.
+
+| Exam | Time | Pace check |
+|---|---|---|
+| Vietnam graduation exam (12 multiple choice, 4 true/false, 6 short answer) | 90 minutes | about 25 minutes for Part I, 30 for Part II, 30 for Part III, 5 to check |
+| SAT Math module (22 questions) | 35 minutes | question 10 by about minute 12; the last 6 questions get the extra time |
+| A written exam with 5 problems | 120 minutes | about 20 minutes per problem, 20 minutes to check and finish |
+
+[[P7·ba48]]
+These are suggestions; adjust them to your own strengths after your practice papers.
+
+## Tactics by question type
+
+[[P8·1b1f]]
+**Multiple choice.**
+- Cover the options and solve first, then match. Options are designed to catch typical mistakes.
+- If you are stuck, eliminate what is impossible: wrong sign, wrong size, wrong units.
+- Plug the options into the question, or plug a simple number into expressions.
+- Never leave a question blank when there is no penalty for wrong answers.
+
+[[P9·880b]]
+**True/false with four statements (Vietnam graduation exam, Part II).** Marks grow quickly with the number of correct statements: 1, 2, 3 or 4 correct statements give 0.1, 0.25, 0.5 or 1 point. Statement a) is usually the easiest, and later statements often use earlier results, so work through them in order and decide each one on its own.
+
+[[P10·9da2]]
+**Short answer.** The answer must be one number. Read the instructions on rounding and on how to write decimals and negative numbers, and check that your number is reasonable before writing it in the boxes.
+
+[[P11·6ac3]]
+**Written solutions (entrance exams, AP free response, IB).** Marks are given for the method, not only for the answer. So:
+- write each step on its own line, with the formula or theorem you use;
+- if you cannot finish, write what you would do next: partial marks are common;
+- state the final answer clearly, with units, and answer the question exactly as asked.
+
+## Checking that works
+
+[[P12·19d3]]
+Rereading your solution rarely finds a mistake, because you read what you meant to write. Better checks:
+
+[[P13·10fb]]
+- **Substitute back.** Put the solution of an equation into the original equation.
+- **Estimate.** Does the size make sense? A probability above $1$ or a negative length is a sign error, not a discovery.
+- **Solve a different way.** Use a graph, a table, or a calculator check for a calculation done by hand.
+- **Reread only the question.** Is the answer the quantity asked for, in the requested form?
+
+[[P14·3b75]]
+Save the last five to ten minutes for checking, and spend them on the questions where you were least sure, not on the ones you found easy.
+
+:::warning Common traps
+[[P15·1aeb]]
+- **Changing a correct answer without a reason.** Change an answer when a check shows a mistake, not because of a vague feeling.
+- **Leaving the hardest question for "later" but spending the first 20 minutes on it anyway.**
+- **Copying mistakes.** Check that the answer you mark on the answer sheet, or type on the screen, is the answer in your working.
+:::
+
+## After the exam
+
+[[P16·969d]]
+Do not repeat every question with friends straight after the exam: it changes nothing and can shake your confidence before the next paper. Rest, eat, and get ready for the next one. The detailed review belongs to practice papers, where it can still help: that is what the [error log](lesson:error-log) is for.
+
+
+######## BÀI exams/study-skills/revision-plan – BẢN TIẾNG VIỆT ########
+---
+title: Lập kế hoạch ôn thi 12 tuần
+description: Kế hoạch ôn Toán 12 tuần dùng cho mọi kì thi: chẩn đoán, học theo chủ đề, trộn chủ đề, rồi luyện đề bấm giờ, kèm mẫu lịch học một tuần.
+minutes: 20
+type: guide
+---
+
+  :::goals
+  - Chia 12 tuần trước kì thi thành ba giai đoạn với mục tiêu rõ ràng.
+  - Biến chương trình thi thành danh sách chủ đề xếp theo tỉ trọng và theo điểm yếu.
+  - Lập một tuần học vừa sức, có chủ đề mới, chủ đề cũ và đề luyện.
+  - Điều chỉnh kế hoạch khi bị chậm thay vì bỏ hẳn.
+  :::
+
+[[P1·8182]]
+Phần lớn học sinh thi không tốt không phải vì không chịu học. Các bạn thi không tốt vì công sức bị phân bổ sai: ba tuần cho chủ đề mình vốn đã thích, không phút nào cho chủ đề mình sợ, và mọi đề thi cũ dồn đến cuối tuần cuối cùng. Một kế hoạch sẽ sửa điều đó. Mười hai tuần là độ dài hợp lí cho một kì thi lớn như thi vào lớp 10, thi tốt nghiệp THPT, SAT hay AP; nếu ít thời gian hơn, hãy rút ngắn từng giai đoạn theo tỉ lệ.
+
+## Ba giai đoạn
+
+| Tuần | Giai đoạn | Mục tiêu chính | Tỉ lệ thời gian làm đề trọn vẹn |
+|---|---|---|---|
+| 1 | Chẩn đoán | Biết mình đang ở đâu | một đề trọn vẹn |
+| 2–7 | Học và vá lỗ hổng | Học mỗi chủ đề một lượt, yếu nhất và nặng điểm nhất trước | khoảng 10% |
+| 8–10 | Trộn | Luyện các chủ đề lẫn với nhau, như đề thi trộn chúng | khoảng 30% |
+| 11–12 | Tổng duyệt | Làm đề bấm giờ trong điều kiện như thi thật | khoảng 60% |
+
+[[P2·88f8]]
+Hình dạng này dựa trên các nghiên cứu trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision): mỗi chủ đề học một lần, quay lại nhiều lần với khoảng cách giữa các lần, và ngày càng dành nhiều thời gian hơn để **tự lấy kiến thức ra** trong điều kiện thi.
+
+## Tuần 1: chẩn đoán
+
+[[P3·3f61]]
+1. Tìm mô tả chính thức của kì thi: các chủ đề, số câu và thời gian. Trên Lemonmath, mỗi kì thi có một bài tổng quan ghi đủ các thông tin này.
+2. Làm một đề trọn vẹn đúng thời gian thật, trước khi ôn bất cứ thứ gì. Dùng đề chính thức nếu có.
+3. Chấm bài và ghi mọi điểm bị mất vào một bảng như sau:
+
+| Chủ đề | Tỉ trọng trong đề | Số điểm mất | Ưu tiên |
+|---|---|---|---|
+| Hàm số bậc hai | cao | 6 | 1 |
+| Xác suất | trung bình | 4 | 2 |
+| Hình học | trung bình | 1 | 4 |
+| Thống kê | thấp | 3 | 3 |
+
+[[P4·00a4]]
+Ưu tiên = tỉ trọng cao và mất nhiều điểm đứng trước. Chủ đề tỉ trọng thấp và ít mất điểm có thể để sau.
+
+:::tip Thành thật, nhưng đừng khắt khe
+[[P5·0dd3]]
+Đề đầu tiên là để thấy lỗ hổng. Điểm thấp ở tuần 1 là thông tin, không phải bản án. Những bạn bỏ qua bước chẩn đoán thường dành cả mấy tuần cho những gì mình đã biết, vì học như vậy dễ chịu hơn.
+:::
+
+## Tuần 2 đến tuần 7: học và vá lỗ hổng
+
+[[P6·d054]]
+Học các chủ đề theo thứ tự ưu tiên. Nhịp học hợp lí là hai chủ đề mỗi tuần. Với mỗi chủ đề:
+
+[[P7·765e]]
+- **Ngày 1:** học bài, làm theo các ví dụ mẫu, làm bài tập tương tự.
+- **Ngày 2 hoặc 3:** viết ra giấy trắng những gì nhớ được, rồi làm bài tập vận dụng và kiểm tra mini.
+- **Một tuần sau:** năm câu trộn về chủ đề đó, xen trong một buổi học sau.
+
+[[P8·ef5d]]
+Ghi mọi lỗi sai vào [sổ lỗi sai](lesson:error-log) ngay từ tuần đầu. Đừng chờ "học xong chương trình" mới quay lại chủ đề cũ: từ tuần 3, 15 phút đầu mỗi buổi dành cho một chủ đề của các tuần trước.
+
+## Tuần 8 đến tuần 10: trộn
+
+[[P9·a721]]
+Giờ đây, cấu trúc đề thi quan trọng hơn danh sách chủ đề. Mỗi buổi gồm các bộ câu trộn: 15 đến 25 câu thuộc nhiều chủ đề, thứ tự ngẫu nhiên, với thời gian ngắn hơn khoảng 10% so với nhịp thi thật. Mỗi tuần làm một đề trọn vẹn. Sau mỗi đề, dành thời gian xem lại ít nhất bằng thời gian làm bài.
+
+## Tuần 11 và 12: tổng duyệt
+
+[[P10·b7c8]]
+- Mỗi tuần làm hai hoặc ba đề trọn vẹn, vào cùng giờ trong ngày với giờ thi thật.
+- Chỉ dùng những công cụ bạn sẽ có trong phòng thi: cùng một máy tính, cùng bảng công thức, không xem tài liệu.
+- Thời gian giữa các đề dùng để làm lại các bài trong sổ lỗi sai, không bắt đầu chủ đề mới.
+- Hai ngày cuối, dừng làm đề trọn vẹn. Xem lại danh sách công thức và sổ lỗi sai, ngủ như bình thường.
+
+## Một tuần mẫu ở giai đoạn "học và vá lỗ hổng"
+
+| Ngày | 45–60 phút |
+|---|---|
+| Thứ Hai | 15 phút chủ đề cũ · chủ đề mới A: bài học và ví dụ |
+| Thứ Ba | 15 phút chủ đề cũ · chủ đề A: bài tập |
+| Thứ Tư | Giấy trắng về A · chủ đề mới B: bài học và ví dụ |
+| Thứ Năm | Kiểm tra mini A · chủ đề B: bài tập |
+| Thứ Sáu | Kiểm tra mini B · bộ 15 câu trộn |
+| Thứ Bảy | Sổ lỗi sai: làm lại mọi bài sai trong tuần |
+| Chủ nhật | Nghỉ, hoặc bù ngắn nếu trong tuần bị lỡ buổi |
+
+## Khi kế hoạch bị vỡ
+
+[[P11·5294]]
+Kế hoạch nào cũng có lúc vỡ: ốm, đi dã ngoại, một tuần không như ý. Khi đó:
+
+[[P12·55cb]]
+1. **Đừng lùi mọi thứ lại.** Ngày thi không lùi. Thay vào đó, bỏ bớt chủ đề có ưu tiên thấp nhất trong bảng.
+2. **Giữ nguyên giai đoạn trộn và tổng duyệt.** Nếu phải cắt, hãy rút ngắn tuần 2 đến 7, đừng rút tuần 8 đến 12.
+3. **Duy trì sổ lỗi sai.** Chỉ cần 20 phút mỗi ngày cho các lỗi cũ cũng giữ được tiến bộ.
+
+:::note Dành cho phụ huynh
+[[P13·d9fb]]
+Kế hoạch của con hiệu quả nhất khi được viết ra và để ở chỗ dễ thấy, với các buổi học đủ ngắn để con hoàn thành. Câu hỏi có ích nhất phụ huynh có thể hỏi là "Tuần này con sai ở đâu, và con đã làm gì với lỗi đó?" hơn là "Hôm nay con học mấy tiếng?"
+:::
+
+## Nguồn tham khảo
+
+[[P14·a438]]
+- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., Willingham, D. T. (2013). *Improving Students' Learning With Effective Learning Techniques*. Psychological Science in the Public Interest, 14(1), 4–58.
+- Rohrer, D., Dedrick, R. F., Hartwig, M. K., Cheung, C.-N. (2020). *A Randomized Controlled Trial of Interleaved Mathematics Practice*. Journal of Educational Psychology, 112(1), 40–52.
+
+
+######## BÀI exams/study-skills/revision-plan – BẢN TIẾNG ANH ########
+---
+title: Building a 12-week revision plan
+description: A practical 12-week maths revision plan for any exam: diagnose, learn topic by topic, mix topics, then sit timed papers, with a weekly template.
+minutes: 20
+type: guide
+---
+
+  :::goals
+  - Divide the 12 weeks before an exam into three phases with clear aims.
+  - Turn a syllabus into a topic list ranked by weight and by weakness.
+  - Plan a realistic week that includes new topics, old topics and practice papers.
+  - Adjust the plan when you fall behind instead of giving up on it.
+  :::
+
+[[P1·25d1]]
+Most students do not fail an exam because they did not work. They fail because the work was spread badly: three weeks on the topic they already liked, nothing on the one they feared, and every past paper saved for the last weekend. A plan fixes that. Twelve weeks is a good length for a major exam such as the grade 10 entrance exam, the national graduation exam, the SAT or an AP exam; with less time, shorten each phase in proportion.
+
+## Three phases
+
+| Weeks | Phase | Main aim | Share of time on full papers |
+|---|---|---|---|
+| 1 | Diagnose | Find out where you stand | one full paper |
+| 2–7 | Learn and repair | Cover every topic once, weakest and heaviest first | about 10% |
+| 8–10 | Mix | Practise topics together, as the exam mixes them | about 30% |
+| 11–12 | Rehearse | Timed papers under real conditions | about 60% |
+
+[[P2·2e1b]]
+The idea behind this shape comes from the research in [Revision that works](lesson:evidence-based-revision): you learn each topic once, return to it several times with gaps in between, and spend more and more of your time **retrieving** knowledge in exam conditions.
+
+## Week 1: diagnose
+
+[[P3·1fba]]
+1. Find the official description of your exam: the topics, the number of questions and the time. On Lemonmath, every exam has an overview lesson with this information.
+2. Sit one complete paper under real timing, before you revise anything. Use an official paper if one is available.
+3. Mark it and put every lost mark into a table like this one:
+
+| Topic | Weight in the exam | Marks lost | Priority |
+|---|---|---|---|
+| Quadratic functions | high | 6 | 1 |
+| Probability | medium | 4 | 2 |
+| Geometry | medium | 1 | 4 |
+| Statistics | low | 3 | 3 |
+
+[[P4·6e12]]
+Priority = high weight and many lost marks first. A topic with low weight and few lost marks can wait.
+
+:::tip Be honest, not harsh
+[[P5·5969]]
+The first paper is meant to show gaps. A low score in week 1 is information, not a verdict. Students who skip the diagnosis usually spend their weeks on what they already know, because it feels good.
+:::
+
+## Weeks 2 to 7: learn and repair
+
+[[P6·f880]]
+Take the topics in priority order. A good rhythm is two topics per week. For each topic:
+
+[[P7·ac22]]
+- **Day 1:** study the lesson, follow the worked examples, do the similar exercises.
+- **Day 2 or 3:** blank page from memory, then the application exercises and the mini test.
+- **One week later:** five mixed questions on the topic inside a later session.
+
+[[P8·d7b8]]
+Keep every mistake in an [error log](lesson:error-log) from the first week. Do not wait to "finish the syllabus" before going back to old topics: from week 3, the first 15 minutes of each session are for a topic from an earlier week.
+
+## Weeks 8 to 10: mix
+
+[[P9·b7e1]]
+Now the exam format matters more than the topic list. Build sessions out of mixed sets: 15 to 25 questions from different topics, in random order, with a time limit about 10% shorter than the real pace. Once a week, sit a full paper. After each paper, spend at least as long reviewing as you spent writing it.
+
+## Weeks 11 and 12: rehearse
+
+[[P10·ced7]]
+- Sit two or three full papers per week at the same time of day as the real exam.
+- Use only the tools you will have on the day: the same calculator, the same reference sheet, no notes.
+- Use the time between papers to redo the problems in your error log, not to start new topics.
+- In the last two days, stop full papers. Review your formula list and your error log, and sleep normally.
+
+## A sample week in the "learn and repair" phase
+
+| Day | 45–60 minutes |
+|---|---|
+| Monday | 15 min old topic · new topic A: lesson and examples |
+| Tuesday | 15 min old topic · topic A: exercises |
+| Wednesday | Blank page on A · new topic B: lesson and examples |
+| Thursday | Mini test A · topic B: exercises |
+| Friday | Mini test B · mixed set of 15 questions |
+| Saturday | Error log: redo every problem from this week |
+| Sunday | Rest, or a short catch-up if the week was disrupted |
+
+## When the plan breaks
+
+[[P11·6f1d]]
+Every plan breaks: illness, a school trip, a bad week. When it does:
+
+[[P12·2d5e]]
+1. **Do not move everything back.** The exam date does not move. Instead, drop the lowest-priority topic from your table.
+2. **Protect the mixed and rehearsal phases.** If you must cut, shorten weeks 2 to 7, not weeks 8 to 12.
+3. **Keep the error log going.** Even 20 minutes a day on old mistakes keeps your progress alive.
+
+:::note For parents
+[[P13·69a2]]
+A child's plan works best when it is written down and visible, with sessions short enough to finish. The most useful questions a parent can ask are "What did you get wrong this week, and what did you do about it?" rather than "How many hours did you study?"
+:::
+
+## References
+
+[[P14·a438]]
+- Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., Willingham, D. T. (2013). *Improving Students' Learning With Effective Learning Techniques*. Psychological Science in the Public Interest, 14(1), 4–58.
+- Rohrer, D., Dedrick, R. F., Hartwig, M. K., Cheung, C.-N. (2020). *A Randomized Controlled Trial of Interleaved Mathematics Practice*. Journal of Educational Psychology, 112(1), 40–52.
+

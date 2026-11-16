@@ -1,0 +1,3686 @@
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – GV-15
+Gồm 10 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g4/basic-property-of-fractions, g4/event-frequency, g4/finding-the-mean, g4/fractions-and-division, g4/g4-bar-charts, g4/odd-and-even-numbers, g4/review-calculations-to-100000, g4/review-numbers-to-100000, g4/square-dm-m-mm, g4/statistical-data-lists
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  GV-ChatGPT-GV-15.md  (trong /mnt/data), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/data/GV-ChatGPT-GV-15.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/10). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file GV-ChatGPT-GV-15.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g4/basic-property-of-fractions – BẢN TIẾNG VIỆT ########
+---
+title: Tính chất cơ bản của phân số
+description: Em học: nhân hoặc chia cả tử số và mẫu số với cùng một số khác 0 thì được phân số mới bằng phân số đã cho.
+minutes: 15
+---
+
+  :::goals
+  - Hiểu hai phân số bằng nhau có thể có tử số và mẫu số khác nhau.
+  - Nhân hoặc chia cả tử số và mẫu số với cùng một số khác $0$ để được phân số bằng phân số đã cho.
+  - Tìm số còn thiếu trong hai phân số bằng nhau.
+  :::
+
+[[P1·e665]]
+Lan ăn $\dfrac{1}{2}$ chiếc bánh. Nam ăn $\dfrac{2}{4}$ chiếc bánh cùng loại. Hai bạn ai ăn nhiều hơn?
+
+[[P2·96ec]]
+Hai phân số trông khác nhau, vì tử số và mẫu số đều khác. Nhưng có thể phần bánh hai bạn ăn bằng nhau. Bài này giúp em biết khi nào hai phân số bằng nhau.
+
+## Cùng khám phá
+
+[[P3·7362]]
+Ta cắt chiếc bánh từng bước.
+
+[[P4·e835]]
+- Chiếc bánh cắt đôi: Lan ăn $1$ phần trong $2$ phần, tức $\dfrac{1}{2}$.
+- Cắt mỗi nửa thành $2$ phần nhỏ bằng nhau. Chiếc bánh có $4$ phần, và phần Lan ăn gồm $2$ phần nhỏ, tức $\dfrac{2}{4}$.
+- Cắt tiếp mỗi phần nhỏ thành $2$: chiếc bánh có $8$ phần, phần Lan ăn gồm $4$ phần, tức $\dfrac{4}{8}$.
+
+[[P5·f3b6]]
+Chiếc bánh và phần Lan ăn vẫn như cũ, chỉ cách cắt khác nhau. Vậy $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$. Hai bạn ăn bằng nhau.
+
+[[P6·77a2]]
+Ta thấy tử số và mẫu số cùng nhân với $2$: $1\times2=2$ và $2\times2=4$.
+
+:::graph Trên trục số: 1/2, 2/4 và 4/8 là cùng một điểm
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Tính chất cơ bản của phân số
+  Nếu nhân cả tử số và mẫu số của một phân số với cùng một số tự nhiên khác $0$ thì được một phân số bằng phân số đã cho.
+
+  Nếu chia cả tử số và mẫu số của một phân số cho cùng một số tự nhiên khác $0$ (chia hết cả hai) thì cũng được một phân số bằng phân số đã cho.
+  :::
+
+[[P7·2e48]]
+Điều này đúng vì nhân cả hai số với $2$ nghĩa là cắt mỗi phần thành $2$ phần nhỏ bằng nhau: số phần cả bánh gấp $2$, số phần đã lấy cũng gấp $2$, còn phần bánh đã lấy không đổi.
+
+## Ví dụ
+
+[[P8·6384]]
+Ta bắt đầu với phép nhân.
+
+  :::example Nhân tử số và mẫu số
+  Tìm số thích hợp: $\dfrac{2}{3}=\dfrac{?}{6}$.
+
+  **Lời giải.** Mẫu số $3$ thành $6$ nên đã nhân với $2$, vì $3\times2=6$. Ta nhân cả tử số với $2$:
+  $$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6}.$$
+  Vậy số cần tìm là $4$.
+  :::
+
+[[P9·0012]]
+Bây giờ số nhân khó thấy hơn.
+
+  :::example Tìm số nhân
+  Tìm số thích hợp: $\dfrac{3}{5}=\dfrac{?}{20}$.
+
+  **Lời giải.** Ta tìm số nhân bằng cách hỏi: $5$ nhân mấy được $20$? Đó là $20:5=4$. Nhân cả tử số với $4$:
+  $$\frac{3}{5}=\frac{3\times4}{5\times4}=\frac{12}{20}.$$
+  Vậy số cần tìm là $12$.
+
+  **Kiểm tra.** $12:4=3$ và $20:4=5$, đúng là $\dfrac{3}{5}$.
+  :::
+
+[[P10·fb76]]
+Ta cũng có thể chia, nhưng phải chia hết cả hai số.
+
+  :::example Chia tử số và mẫu số
+  Tìm số thích hợp: $\dfrac{6}{8}=\dfrac{?}{4}$.
+
+  **Lời giải.** Mẫu số $8$ thành $4$ nên đã chia cho $2$, vì $8:2=4$. Chia cả tử số cho $2$:
+  $$\frac{6}{8}=\frac{6:2}{8:2}=\frac{3}{4}.$$
+  Vậy số cần tìm là $3$.
+  :::
+
+[[P11·85ac]]
+Bây giờ em dùng tính chất này để trả lời một câu hỏi trong cuộc sống.
+
+  :::example Ai ăn nhiều hơn?
+  Lan ăn $\dfrac{1}{2}$ chiếc bánh, Hà ăn $\dfrac{3}{6}$ chiếc bánh cùng loại. Hai bạn có ăn bằng nhau không?
+
+  **Lời giải.** Ta đưa $\dfrac{3}{6}$ về mẫu số nhỏ hơn bằng cách chia cả tử số và mẫu số cho $3$:
+  $$\frac{3}{6}=\frac{3:3}{6:3}=\frac{1}{2}.$$
+  Vậy $\dfrac{3}{6}=\dfrac{1}{2}$, hai bạn ăn bằng nhau.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·6a26]]
+- **Chỉ nhân tử số.** Sai: $\dfrac{2}{3}=\dfrac{4}{3}$. Vì sao sai: phải nhân cả tử số và mẫu số với cùng một số. Đúng: $\dfrac{2}{3}=\dfrac{4}{6}$.
+- **Cộng thay vì nhân.** Sai: $\dfrac{1}{2}=\dfrac{2}{3}$ (cùng cộng $1$). Vì sao sai: tính chất cơ bản chỉ nói về phép nhân và phép chia. Đúng: $\dfrac{1}{2}=\dfrac{2}{4}$.
+- **Chia không hết.** Sai: chia cả $5$ và $8$ cho $2$. Vì sao sai: $5$ không chia hết cho $2$. Đúng: chỉ chia khi cả hai số cùng chia hết cho số đó.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - tính chất cơ bản của phân số | basic property of fractions
+  - phân số bằng nhau | equivalent fractions
+  - tử số | numerator
+  - mẫu số | denominator
+  - nhân | multiply
+  - chia hết | divide exactly
+  - cùng một số | the same number
+  :::
+
+## Tóm tắt
+
+[[P13·a615]]
+- Nhân cả tử số và mẫu số với cùng một số khác $0$ thì được phân số bằng phân số đã cho.
+- Chia cả tử số và mẫu số cho cùng một số khác $0$ (chia hết cả hai) cũng vậy.
+- Ví dụ: $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$.
+- Tìm số còn thiếu: tìm số nhân hoặc số chia từ hai mẫu số.
+- Hai phân số bằng nhau cùng biểu diễn một điểm trên trục số.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/basic-property-of-fractions – BẢN TIẾNG ANH ########
+---
+title: The basic property of fractions
+description: Learn that multiplying or dividing both the numerator and denominator by the same non-zero number gives a fraction equal to the one we started with.
+minutes: 15
+---
+
+  :::goals
+  - Understand that equal fractions can have different numerators and denominators.
+  - Multiply or divide both the numerator and denominator by the same non-zero number to get an equal fraction.
+  - Find a missing number in two equal fractions.
+  :::
+
+[[P1·4cd7]]
+Lan eats $\dfrac{1}{2}$ of a cake. Nam eats $\dfrac{2}{4}$ of the same kind of cake. Who eats more?
+
+[[P2·cdc7]]
+The two fractions look different, because both the numerators and the denominators are different. But the two children may have eaten the same amount. This lesson helps you see when two fractions are equal.
+
+## Let's explore
+
+[[P3·fabe]]
+We cut the cake step by step.
+
+[[P4·4235]]
+- The cake is cut in half: Lan eats $1$ part out of $2$, which is $\dfrac{1}{2}$.
+- Cut each half into $2$ equal smaller pieces. The cake has $4$ pieces, and Lan's part is $2$ small pieces, which is $\dfrac{2}{4}$.
+- Cut each small piece into $2$ again: the cake has $8$ pieces and Lan's part is $4$ pieces, which is $\dfrac{4}{8}$.
+
+[[P5·df7c]]
+The cake and Lan's part have not changed, only the way we cut it. So $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$. The two children ate the same amount.
+
+[[P6·cbe0]]
+We can see that the numerator and denominator are both multiplied by $2$: $1\times2=2$ and $2\times2=4$.
+
+:::graph On the number line: 1/2, 2/4 and 4/8 are the same point
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem The basic property of fractions
+  If we multiply both the numerator and the denominator of a fraction by the same non-zero whole number, we get a fraction equal to the one we started with.
+
+  If we divide both the numerator and the denominator by the same non-zero whole number (dividing both exactly), we also get an equal fraction.
+  :::
+
+[[P7·86b5]]
+This is true because multiplying both numbers by $2$ means cutting every part into $2$ equal smaller parts: the number of parts in the whole doubles, the number of parts taken doubles too, and the amount taken does not change.
+
+## Examples
+
+[[P8·65ae]]
+We start with multiplying.
+
+  :::example Multiplying the numerator and denominator
+  Find the missing number: $\dfrac{2}{3}=\dfrac{?}{6}$.
+
+  **Solution.** The denominator $3$ became $6$, so it was multiplied by $2$, because $3\times2=6$. We multiply the numerator by $2$ as well:
+  $$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6}.$$
+  So the missing number is $4$.
+  :::
+
+[[P9·c0a7]]
+Now the multiplier is harder to see.
+
+  :::example Finding the multiplier
+  Find the missing number: $\dfrac{3}{5}=\dfrac{?}{20}$.
+
+  **Solution.** To find the multiplier, ask: $5$ times what makes $20$? That is $20\div5=4$. Multiply the numerator by $4$:
+  $$\frac{3}{5}=\frac{3\times4}{5\times4}=\frac{12}{20}.$$
+  So the missing number is $12$.
+
+  **Check.** $12\div4=3$ and $20\div4=5$, which gives $\dfrac{3}{5}$. Correct.
+  :::
+
+[[P10·8750]]
+We can also divide, but both numbers must divide exactly.
+
+  :::example Dividing the numerator and denominator
+  Find the missing number: $\dfrac{6}{8}=\dfrac{?}{4}$.
+
+  **Solution.** The denominator $8$ became $4$, so it was divided by $2$, because $8\div2=4$. Divide the numerator by $2$ as well:
+  $$\frac{6}{8}=\frac{6\div2}{8\div2}=\frac{3}{4}.$$
+  So the missing number is $3$.
+  :::
+
+[[P11·0b8e]]
+Now we use the property to answer a question from everyday life.
+
+  :::example Who eats more?
+  Lan eats $\dfrac{1}{2}$ of a cake and Ha eats $\dfrac{3}{6}$ of the same kind of cake. Do they eat the same amount?
+
+  **Solution.** We bring $\dfrac{3}{6}$ to a smaller denominator by dividing both the numerator and the denominator by $3$:
+  $$\frac{3}{6}=\frac{3\div3}{6\div3}=\frac{1}{2}.$$
+  So $\dfrac{3}{6}=\dfrac{1}{2}$, and the two children eat the same amount.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·1f25]]
+- **Multiplying only the numerator.** Wrong: $\dfrac{2}{3}=\dfrac{4}{3}$. Why it is wrong: both the numerator and the denominator must be multiplied by the same number. Right: $\dfrac{2}{3}=\dfrac{4}{6}$.
+- **Adding instead of multiplying.** Wrong: $\dfrac{1}{2}=\dfrac{2}{3}$ (adding $1$ to both). Why it is wrong: the basic property is only about multiplying and dividing. Right: $\dfrac{1}{2}=\dfrac{2}{4}$.
+- **Dividing when it does not divide exactly.** Wrong: dividing both $5$ and $8$ by $2$. Why it is wrong: $5$ does not divide exactly by $2$. Right: divide only when both numbers divide exactly by that number.
+:::
+
+## Key terms
+
+  :::terms
+  - basic property of fractions | tính chất cơ bản của phân số
+  - equivalent fractions | phân số bằng nhau
+  - numerator | tử số
+  - denominator | mẫu số
+  - multiply | nhân
+  - divide exactly | chia hết
+  - the same number | cùng một số
+  :::
+
+## Summary
+
+[[P13·ccd4]]
+- Multiplying both the numerator and the denominator by the same non-zero number gives an equal fraction.
+- Dividing both by the same non-zero number (exactly) also does.
+- Example: $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$.
+- To find a missing number, find the multiplier or divisor from the two denominators.
+- Equal fractions show the same point on a number line.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/event-frequency – BẢN TIẾNG VIỆT ########
+---
+title: Số lần xuất hiện của một sự kiện
+description: Em học cách ghi kết quả nhiều lần thử, dùng vạch kiểm đếm và đếm số lần xuất hiện của từng sự kiện, rồi kiểm tra tổng bằng số lần thử.
+minutes: 15
+---
+
+  :::goals
+  - Biết đếm số lần xuất hiện của một sự kiện trong nhiều lần thử.
+  - Dùng bảng kiểm đếm (vạch kiểm đếm) để ghi và đọc kết quả.
+  - Kiểm tra: tổng số lần các sự kiện bằng số lần thử.
+  :::
+
+[[P1·a9c8]]
+Nam tung một đồng xu $10$ lần và ghi lại kết quả mỗi lần: mặt ngửa (N) hay mặt sấp (S). Kết quả là: N, S, S, N, N, S, N, N, S, N. Mặt ngửa xuất hiện bao nhiêu lần? Mặt sấp xuất hiện bao nhiêu lần?
+
+[[P2·7ace]]
+Em đã biết đọc dãy số liệu và biểu đồ cột. Bài này dạy em cách đếm kết quả của những lần thử như thế.
+
+## Cùng khám phá
+
+[[P3·08c5]]
+Mỗi lần tung đồng xu gọi là một **lần thử**. Mặt ngửa hay mặt sấp xuất hiện là một **sự kiện**. Ta đếm từng sự kiện bằng **vạch kiểm đếm**: mỗi lần xuất hiện, ta gạch một vạch. Cứ đủ $5$ vạch thì gom thành một nhóm cho dễ đếm.
+
+[[P4·ddbe]]
+Với dãy N, S, S, N, N, S, N, N, S, N, em đọc từng lần:
+
+[[P5·0011]]
+- Lần $1$: N, lần $4$: N, lần $5$: N, lần $7$: N, lần $8$: N, lần $10$: N. Có $6$ lần ngửa.
+- Lần $2$, $3$, $6$, $9$ là S. Có $4$ lần sấp.
+
+| Sự kiện | Vạch kiểm đếm | Số lần |
+|---|---|---|
+| Mặt ngửa | $\mid\mid\mid\mid\mid\ \mid$ | $6$ |
+| Mặt sấp | $\mid\mid\mid\mid$ | $4$ |
+
+[[P6·0a36]]
+Em kiểm tra lại: $6+4=10$, đúng bằng số lần tung.
+
+  :::definition Số lần xuất hiện của một sự kiện
+  **Số lần xuất hiện** của một sự kiện là số lần sự kiện đó xảy ra trong tất cả các lần thử. Tổng số lần xuất hiện của mọi sự kiện bằng số lần thử.
+  :::
+
+[[P7·1624]]
+Điều này đúng vì mỗi lần thử cho đúng một kết quả. Nên đếm hết các kết quả thì ta được đúng số lần thử.
+
+## Ví dụ
+
+[[P8·fb01]]
+Ta bắt đầu với bài toán đếm trực tiếp.
+
+  :::example Đếm từ dãy kết quả
+  Tung đồng xu $10$ lần được: N, S, S, N, N, S, N, N, S, N. Hỏi mặt ngửa và mặt sấp mỗi mặt xuất hiện mấy lần?
+
+  **Lời giải.** Ta đếm từng mặt, đánh dấu để không sót và không đếm trùng:
+  $$\text{ngửa: } 6\ \text{lần},\qquad \text{sấp: } 4\ \text{lần}.$$
+  Kiểm tra: $6+4=10$ lần tung. Vậy ngửa $6$ lần, sấp $4$ lần.
+  :::
+
+[[P9·d0d0]]
+Bây giờ có ba kết quả khác nhau thay vì hai.
+
+  :::example Lấy bi
+  Trong hộp có bi đỏ, bi xanh và bi vàng. Hà lấy một viên ra xem rồi bỏ lại, làm $12$ lần. Kết quả lần lượt là: Đ, X, Đ, Đ, V, X, Đ, V, Đ, X, Đ, Đ. Mỗi màu xuất hiện mấy lần?
+
+  **Lời giải.** Đếm từng màu trong dãy:
+  $$\text{Đỏ: } 7\ \text{lần},\qquad \text{Xanh: } 3\ \text{lần},\qquad \text{Vàng: } 2\ \text{lần}.$$
+  Kiểm tra: $7+3+2=12$ lần lấy. Vậy đỏ $7$ lần, xanh $3$ lần, vàng $2$ lần.
+  :::
+
+[[P10·7182]]
+Đôi khi kết quả đã cho trong bảng kiểm đếm. Ta đọc bảng rồi trả lời.
+
+  :::example Gieo xúc xắc
+  Gieo một con xúc xắc $20$ lần, ta được số lần xuất hiện của từng mặt:
+
+  | Mặt | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ |
+  |---|---|---|---|---|---|---|
+  | Số lần | $3$ | $4$ | $2$ | $5$ | $3$ | $3$ |
+
+  Hỏi: a) Mặt nào xuất hiện nhiều nhất, mấy lần? b) Mặt nào ít nhất? c) Các mặt chẵn ($2$, $4$, $6$) xuất hiện tất cả mấy lần?
+
+  **Lời giải.** Trước hết kiểm tra bảng: $3+4+2+5+3+3=20$, đúng bằng số lần gieo.
+
+  a) Số lớn nhất là $5$, ứng với mặt $4$. Mặt $4$ xuất hiện nhiều nhất, $5$ lần.
+
+  b) Số nhỏ nhất là $2$, ứng với mặt $3$.
+
+  c) Cộng số lần của ba mặt chẵn:
+  $$4+5+3=12\ \text{(lần)}.$$
+  Vậy các mặt chẵn xuất hiện $12$ lần.
+  :::
+
+[[P11·9159]]
+Biết tổng số lần thử, ta có thể tìm số lần còn thiếu.
+
+  :::example Tìm số lần còn thiếu
+  Tung đồng xu $15$ lần, mặt ngửa xuất hiện $9$ lần. Mặt sấp xuất hiện mấy lần?
+
+  **Lời giải.** Mỗi lần tung cho ngửa hoặc sấp, nên số lần ngửa cộng số lần sấp bằng $15$. Vậy số lần sấp là:
+  $$15-9=6\ \text{(lần)}.$$
+  **Kiểm tra.** $9+6=15$. Đúng.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·75d9]]
+- **Đếm sót hoặc đếm trùng.** Sai: dãy N, S, S, N, N có $2$ lần N. Vì sao sai: bỏ sót một lần N. Đúng: $3$ lần N. Em hãy đánh dấu từng kết quả khi đếm.
+- **Tổng không bằng số lần thử.** Sai: $6+5=11$ nhưng chỉ tung $10$ lần. Vì sao sai: có chỗ đếm trùng. Đúng: đếm lại cho đến khi tổng bằng $10$.
+- **Nhầm số lần với tên sự kiện.** Sai: "Mặt ngửa xuất hiện nhiều nhất là $6$" khi hỏi mặt nào. Vì sao sai: $6$ là số lần, còn câu hỏi cần tên mặt. Đúng: mặt ngửa, $6$ lần.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - sự kiện | event
+  - lần thử | trial
+  - số lần xuất hiện | frequency (number of times)
+  - kiểm đếm | tally
+  - vạch kiểm đếm | tally mark
+  - đồng xu | coin
+  - xúc xắc | dice
+  :::
+
+## Tóm tắt
+
+[[P13·d13c]]
+- Mỗi lần tung, lấy, gieo là một lần thử; kết quả của lần thử là một sự kiện.
+- Số lần xuất hiện của một sự kiện: đếm xem sự kiện xảy ra mấy lần.
+- Vạch kiểm đếm: mỗi lần một vạch, đủ $5$ vạch thì gom thành nhóm.
+- Tổng số lần của mọi sự kiện bằng số lần thử.
+- Biết tổng và số lần của một sự kiện thì tìm số lần còn lại bằng phép trừ.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/event-frequency – BẢN TIẾNG ANH ########
+---
+title: How many times an event happens
+description: Learn to record the results of many trials, use tally marks and count how many times each event happens, then check the total matches the trials.
+minutes: 15
+---
+
+  :::goals
+  - Count how many times an event happens in many trials.
+  - Use a tally chart (tally marks) to record and read results.
+  - Check that the total number of times all events happen equals the number of trials.
+  :::
+
+[[P1·8028]]
+Nam tosses a coin $10$ times and records each result: heads (H) or tails (T). The results are: H, T, T, H, H, T, H, H, T, H. How many times did heads come up? How many times did tails come up?
+
+[[P2·34b3]]
+You already know how to read a list of data and a bar chart. This lesson shows you how to count the results of trials like these.
+
+## Let's explore
+
+[[P3·fae9]]
+Each toss of the coin is one **trial**. Heads coming up, or tails coming up, is an **event**. We count each event with **tally marks**: for every time it happens we draw one mark. Every $5$ marks make a group, which is easier to count.
+
+[[P4·bd74]]
+For the list H, T, T, H, H, T, H, H, T, H, read through each toss:
+
+[[P5·d990]]
+- Tosses $1$, $4$, $5$, $7$, $8$ and $10$ are H. Heads came up $6$ times.
+- Tosses $2$, $3$, $6$ and $9$ are T. Tails came up $4$ times.
+
+| Event | Tally marks | Number of times |
+|---|---|---|
+| Heads | $\mid\mid\mid\mid\mid\ \mid$ | $6$ |
+| Tails | $\mid\mid\mid\mid$ | $4$ |
+
+[[P6·f33b]]
+Check: $6+4=10$, exactly the number of tosses.
+
+  :::definition How many times an event happens
+  The **frequency** of an event is how many times it happens in all the trials. The frequencies of all the events add up to the number of trials.
+  :::
+
+[[P7·610b]]
+This is true because each trial gives exactly one result. So when we count all the results we get exactly the number of trials.
+
+## Examples
+
+[[P8·2f5c]]
+We start with counting directly.
+
+  :::example Counting from a list of results
+  A coin is tossed $10$ times: H, T, T, H, H, T, H, H, T, H. How many times does each side come up?
+
+  **Solution.** We count each side, ticking the results so that we miss none and count none twice:
+  $$\text{heads: } 6\ \text{times},\qquad \text{tails: } 4\ \text{times}.$$
+  Check: $6+4=10$ tosses. So heads came up $6$ times and tails $4$ times.
+  :::
+
+[[P9·7a97]]
+Now there are three different results instead of two.
+
+  :::example Picking counters
+  A bag has red, blue and yellow counters. Ha takes one out, looks, and puts it back, $12$ times. The results in order are: R, B, R, R, Y, B, R, Y, R, B, R, R. How many times does each colour come up?
+
+  **Solution.** Count each colour in the list:
+  $$\text{Red: } 7\ \text{times},\qquad \text{Blue: } 3\ \text{times},\qquad \text{Yellow: } 2\ \text{times}.$$
+  Check: $7+3+2=12$ picks. So red came up $7$ times, blue $3$ times and yellow $2$ times.
+  :::
+
+[[P10·4a8e]]
+Sometimes the results are already in a tally chart. We read the chart and answer.
+
+  :::example Rolling a dice
+  A dice is rolled $20$ times. This table shows how many times each face came up:
+
+  | Face | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ |
+  |---|---|---|---|---|---|---|
+  | Number of times | $3$ | $4$ | $2$ | $5$ | $3$ | $3$ |
+
+  a) Which face came up most often, and how many times? b) Which face came up least often? c) How many times did the even faces ($2$, $4$, $6$) come up altogether?
+
+  **Solution.** First check the table: $3+4+2+5+3+3=20$, which equals the number of rolls.
+
+  a) The greatest number is $5$, for face $4$. Face $4$ came up most often, $5$ times.
+
+  b) The least number is $2$, for face $3$.
+
+  c) Add the times for the three even faces:
+  $$4+5+3=12\ \text{(times)}.$$
+  So the even faces came up $12$ times.
+  :::
+
+[[P11·3d1a]]
+If we know the number of trials, we can find a missing frequency.
+
+  :::example Finding a missing number of times
+  A coin is tossed $15$ times and heads comes up $9$ times. How many times does tails come up?
+
+  **Solution.** Every toss gives heads or tails, so the times for heads plus the times for tails make $15$. So tails came up:
+  $$15-9=6\ \text{(times)}.$$
+  **Check.** $9+6=15$. Correct.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·5b20]]
+- **Missing or double-counting a result.** Wrong: the list H, T, T, H, H has $2$ heads. Why it is wrong: one H was missed. Right: $3$ heads. Tick each result as you count it.
+- **A total that does not match the trials.** Wrong: $6+5=11$ but only $10$ tosses were made. Why it is wrong: something was counted twice. Right: count again until the total is $10$.
+- **Mixing up the number of times with the name of the event.** Wrong: "The side that came up most is $6$" when asked which side. Why it is wrong: $6$ is a count, but the question asks for a side. Right: heads, $6$ times.
+:::
+
+## Key terms
+
+  :::terms
+  - event | sự kiện
+  - trial | lần thử
+  - frequency (number of times) | số lần xuất hiện
+  - tally | kiểm đếm
+  - tally mark | vạch kiểm đếm
+  - coin | đồng xu
+  - dice | xúc xắc
+  :::
+
+## Summary
+
+[[P13·53d2]]
+- Each toss, pick or roll is one trial; its result is an event.
+- To find how many times an event happens, count its results.
+- Tally marks: one mark each time; every $5$ marks make a group.
+- The times for all events add up to the number of trials.
+- If you know the total and the times for one event, subtract to find the other.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/finding-the-mean – BẢN TIẾNG VIỆT ########
+---
+title: Tìm số trung bình cộng
+description: Em học cách tìm số trung bình cộng của nhiều số bằng cách lấy tổng chia cho số các số hạng, và dùng nó để giải bài toán chia đều.
+minutes: 15
+---
+
+  :::goals
+  - Hiểu số trung bình cộng là số chia đều cho tất cả các số.
+  - Tìm số trung bình cộng của hai, ba, bốn số bằng cách lấy tổng chia cho số các số hạng.
+  - Giải bài toán có lời văn về số trung bình cộng, kể cả tìm một số còn thiếu.
+  :::
+
+[[P1·1a8c]]
+Nam có $6$ viên bi, Lan có $8$ viên bi, Hà có $10$ viên bi. Ba bạn muốn chia lại để mỗi bạn có số bi bằng nhau. Mỗi bạn sẽ có bao nhiêu viên bi?
+
+[[P2·573d]]
+Em đã học phép chia ở các bài trước. Hôm nay em dùng phép cộng và phép chia để giải bài toán này.
+
+## Cùng khám phá
+
+[[P3·45a0]]
+Ta chia đều bằng cách chuyển bi từ bạn nhiều sang bạn ít.
+
+[[P4·29e6]]
+- Hà có $10$ viên, Nam có $6$ viên. Hà cho Nam $2$ viên.
+- Bây giờ Hà có $8$ viên, Nam có $8$ viên, Lan vẫn có $8$ viên.
+
+[[P5·e427]]
+Vậy mỗi bạn có $8$ viên bi. Ta nói $8$ là **số trung bình cộng** của $6$, $8$ và $10$.
+
+[[P6·d2bd]]
+Có cách làm nhanh hơn, không cần chuyển từng viên. Gộp hết bi lại: $6+8+10=24$ viên. Chia đều cho $3$ bạn: $24:3=8$ viên.
+
+:::graph Trên trục số: ba số 6, 8, 10 và số trung bình cộng 8 nằm ở giữa
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cách tìm số trung bình cộng
+  Muốn tìm số trung bình cộng của nhiều số, em làm hai bước:
+  1. Tính tổng của tất cả các số.
+  2. Chia tổng đó cho số các số hạng.
+  :::
+
+[[P7·b043]]
+Cách này đúng vì gộp tất cả lại rồi chia đều cho mỗi số một phần bằng nhau. Đó chính là chia đều.
+
+## Ví dụ
+
+[[P8·1de5]]
+Ta bắt đầu với ba số nhỏ.
+
+  :::example Tính số trung bình cộng của $4$, $6$ và $8$
+  **Lời giải.** Có $3$ số, nên ta lấy tổng chia cho $3$:
+  $$(4+6+8):3=18:3=6.$$
+  Vậy số trung bình cộng của $4$, $6$ và $8$ là $6$.
+  :::
+
+[[P9·a3fc]]
+Bây giờ em làm với bốn số. Chú ý số các số hạng đã đổi.
+
+  :::example Tính số trung bình cộng của $12$, $15$, $9$ và $16$
+  **Lời giải.** Có $4$ số, nên ta lấy tổng chia cho $4$:
+  $$(12+15+9+16):4=52:4=13.$$
+  Vậy số trung bình cộng là $13$.
+  :::
+
+[[P10·3c61]]
+Bây giờ em dùng cách này cho một bài toán trong cuộc sống.
+
+  :::example Trồng cây
+  Bốn tổ trồng được số cây lần lượt là $7$, $9$, $5$ và $7$ cây. Hỏi trung bình mỗi tổ trồng được bao nhiêu cây?
+
+  **Lời giải.** "Trung bình mỗi tổ" nghĩa là chia đều cho $4$ tổ. Tổng số cây của cả bốn tổ, rồi chia cho $4$:
+  $$(7+9+5+7):4=28:4=7\ \text{(cây)}.$$
+  Vậy trung bình mỗi tổ trồng được $7$ cây.
+  :::
+
+[[P11·638e]]
+Đôi khi ta biết số trung bình cộng và cần tìm một số còn thiếu. Khi đó em tìm tổng trước.
+
+  :::example Tìm số còn thiếu
+  Trung bình cộng của ba số là $9$. Hai trong ba số là $7$ và $12$. Tìm số thứ ba.
+
+  **Lời giải.** Ba số chia đều cho ra $9$, nên tổng ba số là $9\times3=27$. Hai số đã biết có tổng $7+12=19$. Số thứ ba bằng:
+  $$27-19=8.$$
+  Vậy số thứ ba là $8$.
+
+  **Kiểm tra.** $(7+12+8):3=27:3=9$. Đúng.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·9e9d]]
+- **Quên chia.** Sai: số trung bình cộng của $6$, $8$, $10$ là $24$. Vì sao sai: $24$ mới là tổng. Đúng: $24:3=8$.
+- **Chia sai số lần.** Sai: $(4+6+8):2=9$. Vì sao sai: có $3$ số nên phải chia cho $3$. Đúng: $18:3=6$.
+- **Quên đơn vị trong bài có lời văn.** Sai: "Đáp số: $7$". Đúng: "Đáp số: $7$ cây".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - số trung bình cộng | mean (average)
+  - tổng | sum (total)
+  - số hạng | value
+  - chia đều | share equally
+  - phép chia | division
+  - trục số | number line
+  - số còn thiếu | missing number
+  :::
+
+## Tóm tắt
+
+[[P13·c869]]
+- Số trung bình cộng là số mà nếu chia đều tổng cho mọi số thì mỗi số bằng nó.
+- Muốn tìm: lấy tổng các số chia cho số các số hạng.
+- Ví dụ: $(4+6+8):3=18:3=6$.
+- Biết số trung bình cộng và số các số hạng thì tổng bằng số trung bình cộng nhân số các số hạng.
+- Bài toán có lời văn: nhớ ghi đơn vị.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/finding-the-mean – BẢN TIẾNG ANH ########
+---
+title: Finding the mean (average)
+description: Learn to find the mean of several numbers by dividing the sum by how many numbers there are, and use it to solve sharing problems.
+minutes: 15
+---
+
+  :::goals
+  - Understand that the mean is the amount each number would have if the total were shared equally.
+  - Find the mean of two, three or four numbers: add them up, then divide by how many there are.
+  - Solve word problems about the mean, including finding a missing number.
+  :::
+
+[[P1·f099]]
+Nam has $6$ marbles, Lan has $8$ marbles and Ha has $10$ marbles. They want to share them out so that each child has the same number. How many marbles will each child have?
+
+[[P2·6507]]
+You already know division from earlier lessons. Today you use addition and division together to solve this.
+
+## Let's explore
+
+[[P3·09d2]]
+We can share equally by moving marbles from the child with more to the child with fewer.
+
+[[P4·c11d]]
+- Ha has $10$ and Nam has $6$. Ha gives Nam $2$ marbles.
+- Now Ha has $8$, Nam has $8$ and Lan still has $8$.
+
+[[P5·4e3a]]
+So each child has $8$ marbles. We say $8$ is the **mean** of $6$, $8$ and $10$.
+
+[[P6·ccb4]]
+There is a quicker way, with no moving. Put all the marbles together: $6+8+10=24$. Share them equally among $3$ children: $24\div3=8$.
+
+:::graph On the number line: the numbers 6, 8, 10 and their mean 8 in the middle
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem How to find the mean
+  To find the mean of several numbers, do two steps:
+  1. Add up all the numbers to get the sum.
+  2. Divide the sum by how many numbers there are.
+  :::
+
+[[P7·0775]]
+This works because putting everything together and dividing gives each number an equal share. That is exactly sharing equally.
+
+## Examples
+
+[[P8·74c2]]
+We start with three small numbers.
+
+  :::example Find the mean of $4$, $6$ and $8$
+  **Solution.** There are $3$ numbers, so we divide the sum by $3$:
+  $$(4+6+8)\div3=18\div3=6.$$
+  So the mean of $4$, $6$ and $8$ is $6$.
+  :::
+
+[[P9·156d]]
+Now try four numbers. Notice that what we divide by changes.
+
+  :::example Find the mean of $12$, $15$, $9$ and $16$
+  **Solution.** There are $4$ numbers, so we divide the sum by $4$:
+  $$(12+15+9+16)\div4=52\div4=13.$$
+  So the mean is $13$.
+  :::
+
+[[P10·8278]]
+Now use the same idea for a problem from everyday life.
+
+  :::example Planting trees
+  Four groups planted $7$, $9$, $5$ and $7$ trees. On average, how many trees did each group plant?
+
+  **Solution.** "On average each group" means sharing equally among $4$ groups. Add the trees of all four groups, then divide by $4$:
+  $$(7+9+5+7)\div4=28\div4=7\ \text{(trees)}.$$
+  So each group planted $7$ trees on average.
+  :::
+
+[[P11·d6cf]]
+Sometimes we know the mean and need a missing number. Then we find the sum first.
+
+  :::example Finding a missing number
+  The mean of three numbers is $9$. Two of the numbers are $7$ and $12$. Find the third number.
+
+  **Solution.** Three numbers with mean $9$ have sum $9\times3=27$. The two known numbers add up to $7+12=19$. The third number is:
+  $$27-19=8.$$
+  So the third number is $8$.
+
+  **Check.** $(7+12+8)\div3=27\div3=9$. Correct.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·557b]]
+- **Forgetting to divide.** Wrong: the mean of $6$, $8$, $10$ is $24$. Why it is wrong: $24$ is only the sum. Right: $24\div3=8$.
+- **Dividing by the wrong number.** Wrong: $(4+6+8)\div2=9$. Why it is wrong: there are $3$ numbers, so divide by $3$. Right: $18\div3=6$.
+- **No unit in a word problem.** Wrong: "Answer: $7$". Right: "Answer: $7$ trees".
+:::
+
+## Key terms
+
+  :::terms
+  - mean (average) | số trung bình cộng
+  - sum (total) | tổng
+  - value | số hạng
+  - share equally | chia đều
+  - division | phép chia
+  - number line | trục số
+  - missing number | số còn thiếu
+  :::
+
+## Summary
+
+[[P13·1e50]]
+- The mean is the number each value would be if the total were shared equally.
+- To find it, divide the sum by how many numbers there are.
+- Example: $(4+6+8)\div3=18\div3=6$.
+- If you know the mean and how many numbers there are, the sum is the mean times that number.
+- In word problems, remember the unit.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/fractions-and-division – BẢN TIẾNG VIỆT ########
+---
+title: Phân số và phép chia số tự nhiên
+description: Em học thương của phép chia hai số tự nhiên có thể viết thành một phân số, và mọi số tự nhiên đều viết được dưới dạng phân số.
+minutes: 15
+---
+
+  :::goals
+  - Biết thương của phép chia hai số tự nhiên ($a:b$, $b\neq0$) viết được thành phân số $\dfrac{a}{b}$.
+  - Viết một số tự nhiên dưới dạng phân số.
+  - Giải bài toán chia đều mà kết quả là một phân số.
+  :::
+
+[[P1·aee9]]
+Cô giáo chia đều $3$ chiếc bánh cho $4$ bạn. Mỗi bạn được bao nhiêu phần của một chiếc bánh?
+
+[[P2·a276]]
+Em đã biết $12:4=3$. Nhưng $3:4$ thì không chia hết, và em cần một loại số mới để viết thương. Đó chính là phân số mà em vừa học.
+
+## Cùng khám phá
+
+[[P3·3c69]]
+Ta chia đều từng bước.
+
+[[P4·e78f]]
+- Cắt mỗi chiếc bánh thành $4$ phần bằng nhau. Mỗi phần là $\dfrac{1}{4}$ chiếc bánh.
+- Mỗi bạn lấy $1$ phần của chiếc bánh thứ nhất, $1$ phần của chiếc bánh thứ hai và $1$ phần của chiếc bánh thứ ba.
+- Vậy mỗi bạn có $3$ phần, mỗi phần là $\dfrac{1}{4}$ chiếc bánh.
+
+[[P5·d5e1]]
+Mỗi bạn được $\dfrac{3}{4}$ chiếc bánh. Ta thấy $3:4=\dfrac{3}{4}$.
+
+:::graph Trên trục số: 3 : 4 là điểm 3/4, nằm giữa 0 và 1
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Phân số và phép chia
+  Thương của phép chia số tự nhiên $a$ cho số tự nhiên $b$ (khác $0$) viết được thành phân số có tử số là $a$ và mẫu số là $b$:
+  $$a:b=\frac{a}{b}.$$
+  :::
+
+[[P6·73e0]]
+Điều này đúng vì chia đều $a$ cái bánh cho $b$ bạn thì mỗi bạn được $a$ phần, mỗi phần là $\dfrac{1}{b}$ chiếc bánh, tức $\dfrac{a}{b}$.
+
+## Ví dụ
+
+[[P7·3a8d]]
+Ta bắt đầu với một phép chia mà số bị chia nhỏ hơn số chia.
+
+  :::example Chia bánh
+  Chia đều $2$ chiếc bánh cho $5$ bạn. Mỗi bạn được bao nhiêu phần chiếc bánh?
+
+  **Lời giải.** Ta lấy số bánh chia cho số bạn, rồi viết thương thành phân số:
+  $$2:5=\frac{2}{5}.$$
+  Vậy mỗi bạn được $\dfrac{2}{5}$ chiếc bánh.
+  :::
+
+[[P8·2f6f]]
+Khi số bị chia lớn hơn số chia, phân số có tử số lớn hơn mẫu số. Điều đó vẫn đúng.
+
+  :::example Chia ruy-băng
+  Chia đều $5$ m ruy-băng cho $4$ bạn. Mỗi bạn được bao nhiêu mét?
+
+  **Lời giải.** Ta chia $5$ cho $4$ và viết thương thành phân số:
+  $$5:4=\frac{5}{4}\ \text{(m)}.$$
+  Vậy mỗi bạn được $\dfrac{5}{4}$ m. Trên trục số, $\dfrac{5}{4}$ nằm sau điểm $1$ một phần tư.
+
+  :::
+
+[[P9·e3bc]]
+Mọi số tự nhiên cũng viết được dưới dạng phân số.
+
+  :::example Viết số tự nhiên thành phân số
+  Viết số $6$ và số $1$ dưới dạng phân số.
+
+  **Lời giải.** Chia $6$ cho $1$ thì được $6$, nên:
+  $$6=6:1=\frac{6}{1}.$$
+  Chia $8$ cho $8$ được $1$, nên $1=\dfrac{8}{8}$. Ta có thể viết số $1$ với mẫu số bất kì (khác $0$) bằng cách cho tử số bằng mẫu số.
+
+  **Kiểm tra.** $\dfrac{6}{1}$ là $6$ phần, mỗi phần là một cái nguyên: được $6$ cái nguyên. Đúng.
+  :::
+
+[[P10·1ff5]]
+Ta cũng đi theo chiều ngược lại: đọc một phân số như một phép chia.
+
+  :::example Phân số là một phép chia
+  Một sợi dây dài $9$ m được cắt thành $4$ đoạn bằng nhau. Mỗi đoạn dài bao nhiêu mét? Phân số $\dfrac{9}{4}$ là thương của phép chia nào?
+
+  **Lời giải.** Chia sợi dây thành $4$ đoạn bằng nhau nghĩa là chia $9$ cho $4$:
+  $$9:4=\frac{9}{4}\ \text{(m)}.$$
+  Vậy mỗi đoạn dài $\dfrac{9}{4}$ m, và phân số $\dfrac{9}{4}$ là thương của phép chia $9:4$.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·08ed]]
+- **Viết ngược.** Sai: $2:3=\dfrac{3}{2}$. Vì sao sai: số bị chia là tử số, số chia là mẫu số. Đúng: $2:3=\dfrac{2}{3}$.
+- **Chia cho $0$.** Sai: $5:0=\dfrac{5}{0}$. Vì sao sai: không có phép chia cho $0$, và mẫu số không được bằng $0$. Đúng: số chia phải khác $0$.
+- **Nghĩ thương luôn là số tự nhiên.** Sai: $3:4$ không có thương. Vì sao sai: thương là phân số $\dfrac{3}{4}$. Đúng: $3:4=\dfrac{3}{4}$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép chia | division
+  - thương | quotient
+  - số bị chia | dividend
+  - số chia | divisor
+  - số tự nhiên | whole number
+  - chia đều | share equally
+  - phân số | fraction
+  :::
+
+## Tóm tắt
+
+[[P12·794a]]
+- $a:b=\dfrac{a}{b}$ với $b\neq0$: số bị chia là tử số, số chia là mẫu số.
+- Ví dụ: $3:4=\dfrac{3}{4}$.
+- Phân số có thể có tử số lớn hơn mẫu số, ví dụ $5:4=\dfrac{5}{4}$.
+- Số tự nhiên $a$ viết được thành $\dfrac{a}{1}$; số $1$ viết được thành $\dfrac{b}{b}$.
+- Không chia cho $0$.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/fractions-and-division – BẢN TIẾNG ANH ########
+---
+title: Fractions and division of whole numbers
+description: Learn that the answer to dividing one whole number by another can be written as a fraction, and that every whole number can be written as a fraction.
+minutes: 15
+---
+
+  :::goals
+  - Know that the quotient of two whole numbers ($a\div b$, $b\neq0$) can be written as the fraction $\dfrac{a}{b}$.
+  - Write a whole number as a fraction.
+  - Solve sharing problems whose answer is a fraction.
+  :::
+
+[[P1·c48d]]
+A teacher shares $3$ cakes equally among $4$ children. What part of a cake does each child get?
+
+[[P2·777a]]
+You know that $12\div4=3$. But $3\div4$ does not divide exactly, and we need a new kind of number to write the answer. That number is the fraction you have just learned.
+
+## Let's explore
+
+[[P3·f45b]]
+We share step by step.
+
+[[P4·9d67]]
+- Cut each cake into $4$ equal pieces. Each piece is $\dfrac{1}{4}$ of a cake.
+- Each child takes $1$ piece from the first cake, $1$ piece from the second cake and $1$ piece from the third cake.
+- So each child has $3$ pieces, and each piece is $\dfrac{1}{4}$ of a cake.
+
+[[P5·cf10]]
+Each child gets $\dfrac{3}{4}$ of a cake. So $3\div4=\dfrac{3}{4}$.
+
+:::graph On the number line: 3 ÷ 4 is the point 3/4, between 0 and 1
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Fractions and division
+  The quotient of a whole number $a$ divided by a whole number $b$ (not $0$) can be written as the fraction with numerator $a$ and denominator $b$:
+  $$a\div b=\frac{a}{b}.$$
+  :::
+
+[[P6·e555]]
+This is true because sharing $a$ cakes equally among $b$ children gives each child $a$ pieces, and each piece is $\dfrac{1}{b}$ of a cake, which is $\dfrac{a}{b}$.
+
+## Examples
+
+[[P7·a345]]
+We start with a division where the number being divided is smaller than the divisor.
+
+  :::example Sharing cakes
+  Share $2$ cakes equally among $5$ children. What part of a cake does each child get?
+
+  **Solution.** Divide the number of cakes by the number of children, and write the quotient as a fraction:
+  $$2\div5=\frac{2}{5}.$$
+  So each child gets $\dfrac{2}{5}$ of a cake.
+  :::
+
+[[P8·1701]]
+When the number being divided is larger than the divisor, the numerator is larger than the denominator. This is still fine.
+
+  :::example Sharing ribbon
+  Share $5$ m of ribbon equally among $4$ children. How many metres does each child get?
+
+  **Solution.** Divide $5$ by $4$ and write the quotient as a fraction:
+  $$5\div4=\frac{5}{4}\ \text{(m)}.$$
+  So each child gets $\dfrac{5}{4}$ m. On the number line, $\dfrac{5}{4}$ lies one quarter past the point $1$.
+  :::
+
+[[P9·3a56]]
+Every whole number can also be written as a fraction.
+
+  :::example Writing a whole number as a fraction
+  Write the number $6$ and the number $1$ as fractions.
+
+  **Solution.** $6$ divided by $1$ is $6$, so:
+  $$6=6\div1=\frac{6}{1}.$$
+  $8$ divided by $8$ is $1$, so $1=\dfrac{8}{8}$. We can write $1$ with any denominator (not $0$) by making the numerator equal to the denominator.
+
+  **Check.** $\dfrac{6}{1}$ is $6$ parts, and each part is a whole one: that makes $6$ wholes. Correct.
+  :::
+
+[[P10·adcd]]
+We can also go the other way: read a fraction as a division.
+
+  :::example A fraction is a division
+  A rope $9$ m long is cut into $4$ equal pieces. How long is each piece? Which division has the fraction $\dfrac{9}{4}$ as its quotient?
+
+  **Solution.** Cutting the rope into $4$ equal pieces means dividing $9$ by $4$:
+  $$9\div4=\frac{9}{4}\ \text{(m)}.$$
+  So each piece is $\dfrac{9}{4}$ m long, and the fraction $\dfrac{9}{4}$ is the quotient of $9\div4$.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·2167]]
+- **Writing it the wrong way round.** Wrong: $2\div3=\dfrac{3}{2}$. Why it is wrong: the number being divided is the numerator and the divisor is the denominator. Right: $2\div3=\dfrac{2}{3}$.
+- **Dividing by $0$.** Wrong: $5\div0=\dfrac{5}{0}$. Why it is wrong: we cannot divide by $0$, and the denominator cannot be $0$. Right: the divisor must not be $0$.
+- **Thinking the quotient is always a whole number.** Wrong: $3\div4$ has no quotient. Why it is wrong: the quotient is the fraction $\dfrac{3}{4}$. Right: $3\div4=\dfrac{3}{4}$.
+:::
+
+## Key terms
+
+  :::terms
+  - division | phép chia
+  - quotient | thương
+  - dividend | số bị chia
+  - divisor | số chia
+  - whole number | số tự nhiên
+  - share equally | chia đều
+  - fraction | phân số
+  :::
+
+## Summary
+
+[[P12·faa0]]
+- $a\div b=\dfrac{a}{b}$ with $b\neq0$: the dividend is the numerator and the divisor is the denominator.
+- Example: $3\div4=\dfrac{3}{4}$.
+- A fraction can have a numerator larger than its denominator, for example $5\div4=\dfrac{5}{4}$.
+- A whole number $a$ can be written as $\dfrac{a}{1}$; the number $1$ can be written as $\dfrac{b}{b}$.
+- We never divide by $0$.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/g4-bar-charts – BẢN TIẾNG VIỆT ########
+---
+title: Biểu đồ cột
+description: Em học cách đọc biểu đồ cột: đọc số liệu của từng cột, so sánh các cột, tìm cột cao nhất và thấp nhất, rồi tính tổng và hiệu.
+minutes: 15
+---
+
+  :::goals
+  - Biết các phần của biểu đồ cột: cột, trục ngang, trục dọc.
+  - Đọc được số liệu của từng cột, tìm cột cao nhất và thấp nhất.
+  - So sánh các cột bằng phép trừ, tính tổng và trung bình cộng từ biểu đồ.
+  :::
+
+[[P1·2995]]
+Thư viện lớp em ghi số quyển sách các bạn mượn mỗi ngày trong tuần rồi vẽ thành biểu đồ cột. Ngày nào các bạn mượn nhiều sách nhất? Ngày nào ít nhất?
+
+[[P2·50b8]]
+Em đã biết đọc một dãy số liệu. Biểu đồ cột giúp em nhìn các số liệu đó thành những cột cao thấp khác nhau.
+
+## Cùng khám phá
+
+[[P3·af30]]
+Hãy nhìn biểu đồ dưới đây.
+
+:::diagram Số quyển sách mượn mỗi ngày trong tuần
+   (… 43 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·95d6]]
+- Các cột đứng cạnh nhau. Mỗi cột ứng với một ngày: T2 là Thứ Hai, T3 là Thứ Ba, và cứ thế.
+- Trên đỉnh mỗi cột có ghi số quyển sách. Cột Thứ Hai ghi $6$.
+- Mép trái ghi các số $2, 4, 6, \ldots, 12$. Đó là số quyển sách.
+
+[[P5·375b]]
+Cột nào cao hơn thì số quyển sách nhiều hơn. Cột Thứ Năm cao nhất, ghi $12$. Cột Thứ Sáu thấp nhất, ghi $4$. Vậy Thứ Năm mượn nhiều nhất, Thứ Sáu ít nhất.
+
+  :::definition Biểu đồ cột
+  **Biểu đồ cột** dùng các cột có chiều rộng bằng nhau để biểu diễn số liệu. **Trục ngang** cho biết các đối tượng (ví dụ các ngày). **Trục dọc** cho biết số liệu. Cột càng cao thì số liệu càng lớn.
+  :::
+
+[[P6·38e5]]
+Khi đọc một biểu đồ cột, em làm ba việc: xem tên biểu đồ và hai trục để biết biểu đồ nói về gì; xem mỗi vạch ứng với mấy đơn vị; rồi nhìn đỉnh cột để đọc số liệu.
+
+## Ví dụ
+
+[[P7·8176]]
+Ta bắt đầu bằng việc đọc số liệu của từng cột.
+
+  :::example Đọc biểu đồ
+  Dùng biểu đồ trên. Hỏi: a) Thứ Ba các bạn mượn bao nhiêu quyển? b) Ngày nào mượn nhiều nhất, bao nhiêu quyển? c) Ngày nào mượn ít nhất?
+
+  **Lời giải.** Ta nhìn số ghi trên đỉnh mỗi cột:
+
+  a) Cột Thứ Ba ghi $10$, nên các bạn mượn $10$ quyển.
+
+  b) Cột cao nhất là cột Thứ Năm, ghi $12$. Vậy Thứ Năm mượn nhiều nhất, $12$ quyển.
+
+  c) Cột thấp nhất là cột Thứ Sáu. Vậy Thứ Sáu mượn ít nhất, $4$ quyển.
+  :::
+
+[[P8·cfd2]]
+Bây giờ ta so sánh hai cột bằng phép trừ.
+
+  :::example So sánh hai cột
+  Thứ Năm các bạn mượn nhiều hơn Thứ Hai bao nhiêu quyển?
+
+  **Lời giải.** Thứ Năm mượn $12$ quyển, Thứ Hai mượn $6$ quyển. Muốn biết nhiều hơn bao nhiêu, ta lấy số lớn trừ số bé:
+  $$12-6=6\ \text{(quyển)}.$$
+  Vậy Thứ Năm mượn nhiều hơn Thứ Hai $6$ quyển.
+  :::
+
+[[P9·7da7]]
+Ta cũng có thể cộng các cột và tìm trung bình cộng.
+
+  :::example Cả tuần
+  Cả tuần các bạn mượn tất cả bao nhiêu quyển? Trung bình mỗi ngày mượn bao nhiêu quyển?
+
+  **Lời giải.** Cộng số quyển của cả năm ngày:
+  $$6+10+8+12+4=40\ \text{(quyển)}.$$
+  Trung bình mỗi ngày là tổng chia cho số ngày:
+  $$40:5=8\ \text{(quyển)}.$$
+  Vậy cả tuần mượn $40$ quyển, trung bình mỗi ngày $8$ quyển.
+  :::
+
+[[P10·0186]]
+Cuối cùng, ta tìm các cột thoả một điều kiện.
+
+  :::example Hơn $7$ quyển
+  Những ngày nào các bạn mượn nhiều hơn $7$ quyển?
+
+  **Lời giải.** Ta so sánh số trên đỉnh từng cột với $7$: Thứ Hai $6<7$; Thứ Ba $10>7$; Thứ Tư $8>7$; Thứ Năm $12>7$; Thứ Sáu $4<7$.
+
+  Vậy các ngày mượn nhiều hơn $7$ quyển là Thứ Ba, Thứ Tư và Thứ Năm.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·bd00]]
+- **Đọc nhầm cột.** Sai: nhìn cột Thứ Tư rồi đọc số của cột Thứ Ba. Vì sao sai: mỗi cột ứng với đúng một ngày. Đúng: đọc số ngay trên đỉnh cột của ngày đó.
+- **Cộng thay vì trừ khi so sánh.** Sai: Thứ Năm hơn Thứ Hai là $12+6=18$ quyển. Vì sao sai: "hơn bao nhiêu" là hiệu hai số. Đúng: $12-6=6$.
+- **Bỏ sót một cột khi tính tổng.** Sai: $6+10+8+12=36$. Vì sao sai: quên cột Thứ Sáu. Đúng: $6+10+8+12+4=40$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - biểu đồ cột | bar chart
+  - cột | bar
+  - trục ngang | horizontal axis
+  - trục dọc | vertical axis
+  - vạch chia | scale mark
+  - so sánh | compare
+  - số liệu | data value
+  :::
+
+## Tóm tắt
+
+[[P12·fdf3]]
+- Biểu đồ cột dùng các cột để biểu diễn số liệu; cột cao hơn thì số liệu lớn hơn.
+- Trục ngang cho các đối tượng, trục dọc cho số liệu.
+- Đọc số liệu ở đỉnh mỗi cột.
+- Hơn kém bao nhiêu: lấy số lớn trừ số bé.
+- Tổng: cộng tất cả các cột; trung bình cộng: lấy tổng chia cho số cột.
+
+## Luyện tập
+
+[[P13·ff66]]
+Các bài dưới đây dùng biểu đồ trong bài học (số quyển sách mượn: T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$) hoặc mô tả biểu đồ bằng lời. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+[[P14·62bb]]
+Các câu dưới đây dùng biểu đồ số quyển sách mượn trong bài (T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$).
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/g4-bar-charts – BẢN TIẾNG ANH ########
+---
+title: Bar charts
+description: Learn to read a bar chart: read each bar, compare bars, find the tallest and shortest, then work out totals and differences.
+minutes: 15
+---
+
+  :::goals
+  - Know the parts of a bar chart: bars, the horizontal axis and the vertical axis.
+  - Read the value of each bar and find the tallest and shortest bar.
+  - Compare bars by subtracting, and work out a total and a mean from a chart.
+  :::
+
+[[P1·1b1a]]
+The class library records how many books children borrow each day of the week, and draws a bar chart. On which day did children borrow the most books? On which day the fewest?
+
+[[P2·0e14]]
+You already know how to read a list of data. A bar chart lets you see that data as bars of different heights.
+
+## Let's explore
+
+[[P3·0385]]
+Look at the chart below.
+
+:::diagram Books borrowed each day of the week
+   (… 43 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·8aa2]]
+- The bars stand side by side. Each bar is one day: Mon is Monday, Tue is Tuesday, and so on.
+- On top of each bar is the number of books. The Monday bar shows $6$.
+- The left edge shows the numbers $2, 4, 6, \ldots, 12$. These count the books.
+
+[[P5·57a7]]
+The taller the bar, the more books. The Thursday bar is the tallest and shows $12$. The Friday bar is the shortest and shows $4$. So Thursday had the most borrowed and Friday the fewest.
+
+  :::definition Bar chart
+  A **bar chart** uses bars of equal width to show data. The **horizontal axis** shows the things we compare (for example the days). The **vertical axis** shows the data values. The taller the bar, the bigger the value.
+  :::
+
+[[P6·2931]]
+To read a bar chart, do three things: read the title and the two axes to see what the chart is about; check how many units each mark stands for; then look at the top of a bar to read its value.
+
+## Examples
+
+[[P7·ba59]]
+We start by reading the value of each bar.
+
+  :::example Reading the chart
+  Use the chart above. a) How many books were borrowed on Tuesday? b) Which day had the most, and how many books? c) Which day had the fewest?
+
+  **Solution.** We look at the number on top of each bar:
+
+  a) The Tuesday bar shows $10$, so $10$ books were borrowed.
+
+  b) The tallest bar is Thursday, showing $12$. So Thursday had the most, $12$ books.
+
+  c) The shortest bar is Friday. So Friday had the fewest, $4$ books.
+  :::
+
+[[P8·c15d]]
+Now we compare two bars by subtracting.
+
+  :::example Comparing two bars
+  How many more books were borrowed on Thursday than on Monday?
+
+  **Solution.** Thursday had $12$ books and Monday had $6$ books. To find how many more, subtract the smaller number from the larger:
+  $$12-6=6\ \text{(books)}.$$
+  So $6$ more books were borrowed on Thursday than on Monday.
+  :::
+
+[[P9·13f7]]
+We can also add the bars and find the mean.
+
+  :::example The whole week
+  How many books were borrowed in the whole week? On average, how many books were borrowed each day?
+
+  **Solution.** Add the books for all five days:
+  $$6+10+8+12+4=40\ \text{(books)}.$$
+  The mean per day is the total divided by the number of days:
+  $$40\div5=8\ \text{(books)}.$$
+  So $40$ books were borrowed in the week, and $8$ a day on average.
+  :::
+
+[[P10·b68f]]
+Finally, we find the bars that fit a condition.
+
+  :::example More than $7$ books
+  On which days were more than $7$ books borrowed?
+
+  **Solution.** We compare the number on top of each bar with $7$: Monday $6<7$; Tuesday $10>7$; Wednesday $8>7$; Thursday $12>7$; Friday $4<7$.
+
+  So more than $7$ books were borrowed on Tuesday, Wednesday and Thursday.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·2b9c]]
+- **Reading the wrong bar.** Wrong: looking at the Wednesday bar but reading the Tuesday number. Why it is wrong: each bar belongs to exactly one day. Right: read the number on top of that day's bar.
+- **Adding instead of subtracting to compare.** Wrong: Thursday has $12+6=18$ more than Monday. Why it is wrong: "how many more" is the difference of two numbers. Right: $12-6=6$.
+- **Missing a bar when finding a total.** Wrong: $6+10+8+12=36$. Why it is wrong: the Friday bar was left out. Right: $6+10+8+12+4=40$.
+:::
+
+## Key terms
+
+  :::terms
+  - bar chart | biểu đồ cột
+  - bar | cột
+  - horizontal axis | trục ngang
+  - vertical axis | trục dọc
+  - scale mark | vạch chia
+  - compare | so sánh
+  - data value | số liệu
+  :::
+
+## Summary
+
+[[P12·7238]]
+- A bar chart uses bars to show data; a taller bar means a bigger value.
+- The horizontal axis shows the things compared; the vertical axis shows the values.
+- Read the value on top of each bar.
+- To find how many more: subtract the smaller from the larger.
+- Total: add all the bars; mean: divide the total by the number of bars.
+
+## Practice
+
+[[P13·377d]]
+The exercises below use the chart in the lesson (books borrowed: Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$) or describe a chart in words. Try each one yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+[[P14·d156]]
+These questions use the chart of books borrowed in the lesson (Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$).
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/odd-and-even-numbers – BẢN TIẾNG VIỆT ########
+---
+title: Số chẵn, số lẻ
+description: Em học cách nhận biết số chẵn, số lẻ qua chữ số tận cùng và phép chia cho 2, rồi viết các số chẵn, số lẻ liên tiếp.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết số chẵn, số lẻ bằng chữ số tận cùng hoặc bằng phép chia cho $2$.
+  - Viết được các số chẵn, số lẻ liên tiếp.
+  - Giải bài toán đơn giản về số chẵn, số lẻ.
+  :::
+
+[[P1·318b]]
+Lớp $4$A có $18$ bạn xếp hàng đôi. Các bạn ghép thành từng cặp và không ai bị lẻ. Lớp $4$B có $19$ bạn xếp hàng đôi thì thừa một bạn. Số bạn của lớp nào xếp đủ cặp?
+
+[[P2·68fd]]
+Hai con số $18$ và $19$ khác nhau ở chỗ nào? Bài này sẽ giúp em trả lời.
+
+## Cùng khám phá
+
+[[P3·8558]]
+Ta chia số bạn cho $2$, vì mỗi cặp có $2$ bạn:
+
+[[P4·125c]]
+- $18:2=9$, dư $0$. Có $9$ cặp, không thừa ai.
+- $19:2=9$, dư $1$. Có $9$ cặp và thừa $1$ bạn.
+
+[[P5·9058]]
+Số $18$ chia hết cho $2$, ta gọi là **số chẵn**. Số $19$ chia cho $2$ dư $1$, ta gọi là **số lẻ**.
+
+[[P6·970d]]
+Bây giờ em nhìn các chữ số tận cùng. Các số chẵn nhỏ: $0$, $2$, $4$, $6$, $8$, $10$, $12$, $14$. Các số lẻ nhỏ: $1$, $3$, $5$, $7$, $9$, $11$, $13$. Em thấy chữ số hàng đơn vị của số chẵn luôn là $0$, $2$, $4$, $6$ hoặc $8$; của số lẻ luôn là $1$, $3$, $5$, $7$ hoặc $9$.
+
+  :::theorem Số chẵn và số lẻ
+  - **Số chẵn** là số chia hết cho $2$. Chữ số tận cùng là $0$, $2$, $4$, $6$ hoặc $8$.
+  - **Số lẻ** là số chia cho $2$ dư $1$. Chữ số tận cùng là $1$, $3$, $5$, $7$ hoặc $9$.
+  - Hai số chẵn liên tiếp hơn kém nhau $2$ đơn vị. Hai số lẻ liên tiếp cũng hơn kém nhau $2$ đơn vị.
+  :::
+
+[[P7·3d4a]]
+Chỉ cần nhìn chữ số tận cùng vì mọi hàng khác (chục, trăm, nghìn, …) đều chia hết cho $2$. Phần còn lại chỉ do hàng đơn vị quyết định.
+
+## Ví dụ
+
+[[P8·7bc6]]
+Ta bắt đầu bằng việc nhận biết số chẵn, số lẻ.
+
+  :::example Nhận biết
+  Trong các số $3\,406$; $5\,719$; $80\,000$; $99\,997$, số nào là số chẵn, số nào là số lẻ?
+
+  **Lời giải.** Ta nhìn chữ số tận cùng của mỗi số:
+
+  - $3\,406$ tận cùng $6$: số chẵn.
+  - $5\,719$ tận cùng $9$: số lẻ.
+  - $80\,000$ tận cùng $0$: số chẵn.
+  - $99\,997$ tận cùng $7$: số lẻ.
+
+  Vậy số chẵn là $3\,406$ và $80\,000$; số lẻ là $5\,719$ và $99\,997$.
+  :::
+
+[[P9·d7ab]]
+Tiếp theo, em viết số theo điều kiện cho trước.
+
+  :::example Số chẵn lớn nhất, số lẻ nhỏ nhất
+  Tìm số chẵn lớn nhất có ba chữ số và số lẻ nhỏ nhất có bốn chữ số.
+
+  **Lời giải.** Số lớn nhất có ba chữ số là $999$, nhưng $999$ là số lẻ. Số chẵn liền trước nó là $998$.
+
+  Số nhỏ nhất có bốn chữ số là $1\,000$, nhưng $1\,000$ là số chẵn. Số lẻ liền sau nó là $1\,001$.
+
+  Vậy số chẵn lớn nhất có ba chữ số là $998$, số lẻ nhỏ nhất có bốn chữ số là $1\,001$.
+  :::
+
+[[P10·5c01]]
+Em cũng viết được dãy số chẵn, số lẻ liên tiếp.
+
+  :::example Các số liên tiếp
+  Viết ba số chẵn liên tiếp bắt đầu từ $48$.
+
+  **Lời giải.** Hai số chẵn liên tiếp hơn kém nhau $2$ đơn vị, nên ta cộng thêm $2$ mỗi lần:
+  $$48,\quad 48+2=50,\quad 50+2=52.$$
+
+  Vậy ba số chẵn liên tiếp là $48$, $50$, $52$.
+  :::
+
+[[P11·784f]]
+Bây giờ ta lập số từ các chữ số cho trước.
+
+  :::example Lập số chẵn
+  Từ ba chữ số $1$, $2$, $5$ (mỗi chữ số dùng một lần), lập tất cả các số chẵn có ba chữ số.
+
+  **Lời giải.** Số chẵn phải tận cùng bằng chữ số chẵn. Trong ba chữ số chỉ có $2$ là chữ số chẵn, nên hàng đơn vị là $2$. Hai chữ số $1$ và $5$ xếp vào hàng trăm và hàng chục theo hai cách: $152$ và $512$.
+
+  Vậy có hai số chẵn là $152$ và $512$.
+  :::
+
+[[P12·49d1]]
+Cuối cùng là một bài toán gần với đời sống.
+
+  :::example Số nhà
+  Các nhà bên phải đường Hoa Lan được đánh số chẵn liên tiếp: $2$, $4$, $6$, … Nhà thứ $10$ có số mấy?
+
+  **Lời giải.** Ta liệt kê các số chẵn liên tiếp và đếm đến số thứ $10$:
+  $$2,\ 4,\ 6,\ 8,\ 10,\ 12,\ 14,\ 16,\ 18,\ 20.$$
+
+  Số thứ $10$ trong dãy là $20$. Vậy nhà thứ $10$ có số $20$.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·3d6d]]
+- **Nhìn chữ số ở giữa.** Sai: "$1\,250$ là số lẻ vì có chữ số $5$". Vì sao sai: chỉ chữ số tận cùng mới quyết định. Đúng: $1\,250$ tận cùng $0$ nên là số chẵn.
+- **Nhìn chữ số đầu tiên.** Sai: "$8\,371$ là số chẵn vì bắt đầu bằng $8$". Vì sao sai: chỉ xem chữ số hàng đơn vị. Đúng: $8\,371$ tận cùng $1$ nên là số lẻ.
+- **Hai số lẻ liên tiếp hơn kém $1$.** Sai: sau $7$ là $8$. Vì sao sai: $8$ là số chẵn. Đúng: sau $7$ là $9$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - số chẵn | even number
+  - số lẻ | odd number
+  - chia hết | divisible (with no remainder)
+  - số dư | remainder
+  - chữ số tận cùng | last digit
+  - hàng đơn vị | ones place
+  - liên tiếp | consecutive
+  - cặp | pair
+  :::
+
+## Tóm tắt
+
+[[P14·7fbe]]
+- Số chẵn chia hết cho $2$; chữ số tận cùng là $0$, $2$, $4$, $6$, $8$.
+- Số lẻ chia cho $2$ dư $1$; chữ số tận cùng là $1$, $3$, $5$, $7$, $9$.
+- Hai số chẵn (hoặc hai số lẻ) liên tiếp hơn kém nhau $2$ đơn vị.
+- Muốn biết một số là chẵn hay lẻ, chỉ cần nhìn chữ số tận cùng.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/odd-and-even-numbers – BẢN TIẾNG ANH ########
+---
+title: Odd and even numbers
+description: Learn to tell odd and even numbers apart by the last digit and by dividing by 2, then write consecutive odd and even numbers.
+minutes: 15
+---
+
+  :::goals
+  - Tell even and odd numbers apart by the last digit or by dividing by $2$.
+  - Write consecutive even numbers and consecutive odd numbers.
+  - Solve simple problems about odd and even numbers.
+  :::
+
+[[P1·e5a7]]
+Class $4$A has $18$ pupils lining up in pairs. They all make pairs and nobody is left over. Class $4$B has $19$ pupils, and when they line up in pairs one pupil is left over. Which class fills every pair?
+
+[[P2·53a9]]
+How are the numbers $18$ and $19$ different? This lesson will help you answer.
+
+## Let's explore
+
+[[P3·b3ea]]
+We divide the number of pupils by $2$, because each pair has $2$ pupils:
+
+[[P4·eccc]]
+- $18\div2=9$, remainder $0$. There are $9$ pairs and nobody is left over.
+- $19\div2=9$, remainder $1$. There are $9$ pairs and $1$ pupil is left over.
+
+[[P5·3f45]]
+The number $18$ divides exactly by $2$; we call it an **even number**. The number $19$ leaves a remainder of $1$ when divided by $2$; we call it an **odd number**.
+
+[[P6·ebfb]]
+Now look at the last digits. Small even numbers: $0$, $2$, $4$, $6$, $8$, $10$, $12$, $14$. Small odd numbers: $1$, $3$, $5$, $7$, $9$, $11$, $13$. The ones digit of an even number is always $0$, $2$, $4$, $6$ or $8$; the ones digit of an odd number is always $1$, $3$, $5$, $7$ or $9$.
+
+  :::theorem Even and odd numbers
+  - An **even number** divides exactly by $2$. Its last digit is $0$, $2$, $4$, $6$ or $8$.
+  - An **odd number** leaves a remainder of $1$ when divided by $2$. Its last digit is $1$, $3$, $5$, $7$ or $9$.
+  - Two consecutive even numbers differ by $2$. Two consecutive odd numbers also differ by $2$.
+  :::
+
+[[P7·6be8]]
+You only need to look at the last digit because every other place (tens, hundreds, thousands, …) divides exactly by $2$. What is left over depends only on the ones.
+
+## Examples
+
+[[P8·0cd3]]
+We start by telling even and odd numbers apart.
+
+  :::example Spotting even and odd
+  Among the numbers $3\,406$; $5\,719$; $80\,000$; $99\,997$, which are even and which are odd?
+
+  **Solution.** Look at the last digit of each number:
+
+  - $3\,406$ ends in $6$: even.
+  - $5\,719$ ends in $9$: odd.
+  - $80\,000$ ends in $0$: even.
+  - $99\,997$ ends in $7$: odd.
+
+  So the even numbers are $3\,406$ and $80\,000$; the odd numbers are $5\,719$ and $99\,997$.
+  :::
+
+[[P9·f28f]]
+Next, you write a number that fits a condition.
+
+  :::example The greatest even number and the least odd number
+  Find the greatest three-digit even number and the least four-digit odd number.
+
+  **Solution.** The greatest three-digit number is $999$, but $999$ is odd. The even number just before it is $998$.
+
+  The least four-digit number is $1\,000$, but $1\,000$ is even. The odd number just after it is $1\,001$.
+
+  So the greatest three-digit even number is $998$, and the least four-digit odd number is $1\,001$.
+  :::
+
+[[P10·7160]]
+You can also write a list of consecutive even or odd numbers.
+
+  :::example Consecutive numbers
+  Write three consecutive even numbers starting from $48$.
+
+  **Solution.** Two consecutive even numbers differ by $2$, so we add $2$ each time:
+  $$48,\quad 48+2=50,\quad 50+2=52.$$
+
+  So the three consecutive even numbers are $48$, $50$, $52$.
+  :::
+
+[[P11·d904]]
+Now we make numbers from given digits.
+
+  :::example Making even numbers
+  Using the digits $1$, $2$, $5$ (each digit once), make all the three-digit even numbers.
+
+  **Solution.** An even number must end in an even digit. Of the three digits, only $2$ is even, so the ones digit is $2$. The digits $1$ and $5$ go in the hundreds and tens places in two ways: $152$ and $512$.
+
+  So there are two even numbers: $152$ and $512$.
+  :::
+
+[[P12·3d33]]
+Last, a problem close to everyday life.
+
+  :::example House numbers
+  The houses on the right-hand side of Hoa Lan Street have consecutive even numbers: $2$, $4$, $6$, … What is the number of the $10$th house?
+
+  **Solution.** List the consecutive even numbers and count to the $10$th one:
+  $$2,\ 4,\ 6,\ 8,\ 10,\ 12,\ 14,\ 16,\ 18,\ 20.$$
+
+  The $10$th number in the list is $20$. So the $10$th house is number $20$.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·3a3f]]
+- **Looking at a digit in the middle.** Wrong: "$1\,250$ is odd because it has the digit $5$". Why it is wrong: only the last digit decides. Right: $1\,250$ ends in $0$, so it is even.
+- **Looking at the first digit.** Wrong: "$8\,371$ is even because it starts with $8$". Why it is wrong: look only at the ones digit. Right: $8\,371$ ends in $1$, so it is odd.
+- **Thinking consecutive odd numbers differ by $1$.** Wrong: after $7$ comes $8$. Why it is wrong: $8$ is even. Right: after $7$ comes $9$.
+:::
+
+## Key terms
+
+  :::terms
+  - even number | số chẵn
+  - odd number | số lẻ
+  - divisible (with no remainder) | chia hết
+  - remainder | số dư
+  - last digit | chữ số tận cùng
+  - ones place | hàng đơn vị
+  - consecutive | liên tiếp
+  - pair | cặp
+  :::
+
+## Summary
+
+[[P14·5a87]]
+- An even number divides exactly by $2$; its last digit is $0$, $2$, $4$, $6$, $8$.
+- An odd number leaves a remainder of $1$ when divided by $2$; its last digit is $1$, $3$, $5$, $7$, $9$.
+- Two consecutive even numbers (or two consecutive odd numbers) differ by $2$.
+- To tell whether a number is even or odd, just look at its last digit.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/review-calculations-to-100000 – BẢN TIẾNG VIỆT ########
+---
+title: Ôn tập các phép tính trong phạm vi 100 000
+description: Em ôn cách đặt tính và tính cộng, trừ, nhân với số có một chữ số, chia cho số có một chữ số trong phạm vi 100 000, và cách thử lại kết quả.
+minutes: 15
+---
+
+  :::goals
+  - Cộng, trừ các số trong phạm vi $100\,000$ bằng cách đặt tính.
+  - Nhân và chia số có năm chữ số với (cho) số có một chữ số.
+  - Thử lại kết quả và giải bài toán có lời văn bằng các phép tính này.
+  :::
+
+[[P1·0056]]
+Tháng Một, một cửa hàng bán được $23\,456$ quyển vở. Tháng Hai bán được $18\,749$ quyển. Cả hai tháng cửa hàng bán được bao nhiêu quyển vở?
+
+[[P2·964c]]
+Em đã biết đặt tính từ lớp $3$. Bài này giúp em nhớ lại thật chắc cách làm cả bốn phép tính với số lớn.
+
+## Cùng khám phá
+
+[[P3·eced]]
+Muốn biết "cả hai tháng", em làm phép cộng. Em đặt tính sao cho các chữ số cùng hàng thẳng cột, rồi cộng từ phải sang trái:
+
+  $$\begin{array}{r} 23\,456\\ +\ 18\,749\\ \hline 42\,205 \end{array}$$
+
+[[P4·f8b5]]
+Từng hàng, từ phải sang trái:
+
+[[P5·2462]]
+- Hàng đơn vị: $6+9=15$, viết $5$ nhớ $1$.
+- Hàng chục: $5+4+1=10$, viết $0$ nhớ $1$.
+- Hàng trăm: $4+7+1=12$, viết $2$ nhớ $1$.
+- Hàng nghìn: $3+8+1=12$, viết $2$ nhớ $1$.
+- Hàng chục nghìn: $2+1+1=4$, viết $4$.
+
+[[P6·dc92]]
+Vậy cả hai tháng bán được $42\,205$ quyển vở.
+
+  :::theorem Bốn phép tính và cách thử lại
+  - **Cộng, trừ:** đặt tính thẳng hàng, làm từ **phải sang trái**, nhớ khi cần. Thử lại phép cộng bằng phép trừ, thử lại phép trừ bằng phép cộng.
+  - **Nhân với số có một chữ số:** nhân lần lượt từng chữ số từ phải sang trái, nhớ khi cần.
+  - **Chia cho số có một chữ số:** chia từ **trái sang phải**, mỗi lần hạ một chữ số xuống. Thử lại bằng phép nhân.
+  :::
+
+[[P7·eeb7]]
+Các cách thử lại đúng vì phép cộng và phép trừ là hai phép ngược nhau, phép nhân và phép chia cũng vậy.
+
+## Ví dụ
+
+[[P8·b3dd]]
+Ta bắt đầu bằng một phép cộng có nhớ nhiều lần.
+
+  :::example Phép cộng
+  Tính $35\,628+24\,975$.
+
+  **Lời giải.** Đặt tính thẳng hàng rồi cộng từ phải sang trái:
+
+  $$\begin{array}{r} 35\,628\\ +\ 24\,975\\ \hline 60\,603 \end{array}$$
+
+  Các bước: $8+5=13$ (viết $3$ nhớ $1$); $2+7+1=10$ (viết $0$ nhớ $1$); $6+9+1=16$ (viết $6$ nhớ $1$); $5+4+1=10$ (viết $0$ nhớ $1$); $3+2+1=6$.
+
+  Vậy $35\,628+24\,975=60\,603$.
+  :::
+
+[[P9·8ed0]]
+Phép trừ có khó hơn khi số bị trừ có nhiều chữ số $0$.
+
+  :::example Phép trừ
+  Tính $70\,000-25\,438$.
+
+  **Lời giải.** Hàng đơn vị: $0$ không trừ được $8$. Hàng gần nhất có chữ số khác $0$ là hàng chục nghìn, nên ta mượn từ đó, và các hàng ở giữa trở thành $9$:
+
+  $$\begin{array}{r} 70\,000\\ -\ 25\,438\\ \hline 44\,562 \end{array}$$
+
+  Các bước: $10-8=2$; $9-3=6$; $9-4=5$; $9-5=4$; $6-2=4$.
+
+  **Thử lại.** $44\,562+25\,438=70\,000$. Đúng.
+
+  Vậy $70\,000-25\,438=44\,562$.
+  :::
+
+[[P10·a9fd]]
+Bây giờ đến phép nhân.
+
+  :::example Phép nhân
+  Tính $12\,405\times6$.
+
+  **Lời giải.** Nhân từng chữ số với $6$, từ phải sang trái:
+
+  $$\begin{array}{r} 12\,405\\ \times\ 6\\ \hline 74\,430 \end{array}$$
+
+  Các bước: $5\times6=30$ (viết $0$ nhớ $3$); $0\times6+3=3$ (viết $3$); $4\times6=24$ (viết $4$ nhớ $2$); $2\times6+2=14$ (viết $4$ nhớ $1$); $1\times6+1=7$.
+
+  Vậy $12\,405\times6=74\,430$.
+  :::
+
+[[P11·eb5c]]
+Phép chia làm từ trái sang phải.
+
+  :::example Phép chia
+  Tính $48\,372:6$.
+
+  **Lời giải.** Ta chia từng bước, mỗi bước hạ một chữ số:
+
+  - $48:6=8$, dư $0$. Viết $8$.
+  - Hạ $3$: $3:6=0$, dư $3$. Viết $0$.
+  - Hạ $7$: $37:6=6$, dư $1$. Viết $6$.
+  - Hạ $2$: $12:6=2$, dư $0$. Viết $2$.
+
+  Thương là $8\,062$ và dư $0$.
+
+  **Thử lại.** $8\,062\times6=48\,372$. Đúng.
+
+  Vậy $48\,372:6=8\,062$.
+  :::
+
+[[P12·020d]]
+Cuối cùng, ta dùng các phép tính trong một bài toán có lời văn.
+
+  :::example Kho gạo
+  Kho có $36\,000$ kg gạo. Mỗi ngày kho bán $4\,250$ kg, bán trong $5$ ngày. Hỏi kho còn lại bao nhiêu ki-lô-gam gạo?
+
+  **Lời giải.** Ta làm hai bước. Trước hết tìm số gạo bán trong $5$ ngày:
+  $$4\,250\times5=21\,250\ \text{(kg)}.$$
+
+  Số gạo còn lại là số gạo ban đầu trừ số gạo đã bán:
+  $$36\,000-21\,250=14\,750\ \text{(kg)}.$$
+
+  Vậy kho còn lại $14\,750$ kg gạo.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·a100]]
+- **Đặt tính không thẳng hàng.** Sai: viết $9\,365$ lệch cột so với $25\,480$. Vì sao sai: cộng nhầm các hàng khác nhau. Đúng: viết đơn vị dưới đơn vị, chục dưới chục, …
+- **Quên chữ số $0$ trong thương.** Sai: $36\,054:6=609$. Vì sao sai: khi hạ $0$ và $5$ mà chưa chia được, phải viết $0$ vào thương. Đúng: $36\,054:6=6\,009$.
+- **Quên số nhớ.** Sai: $8+5=13$ rồi viết $13$ vào một hàng. Vì sao sai: mỗi hàng chỉ viết một chữ số. Đúng: viết $3$, nhớ $1$ sang hàng sau.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép cộng | addition
+  - phép trừ | subtraction
+  - phép nhân | multiplication
+  - phép chia | division
+  - đặt tính | write in columns
+  - nhớ | regrouping (carrying)
+  - tổng | sum
+  - hiệu | difference
+  - tích | product
+  - thương | quotient
+  - số dư | remainder
+  :::
+
+## Tóm tắt
+
+[[P14·7b84]]
+- Cộng, trừ: đặt tính thẳng hàng, làm từ phải sang trái, nhớ khi cần.
+- Nhân với số có một chữ số: nhân từng chữ số từ phải sang trái, nhớ khi cần.
+- Chia cho số có một chữ số: làm từ trái sang phải, mỗi bước hạ một chữ số; nhớ viết $0$ vào thương khi chưa chia được.
+- Thử lại: cộng và trừ ngược nhau; nhân và chia ngược nhau.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/review-calculations-to-100000 – BẢN TIẾNG ANH ########
+---
+title: Review: calculations within 100,000
+description: Review how to add, subtract, multiply and divide by a one-digit number within 100,000 using written methods, and how to check your answers.
+minutes: 15
+---
+
+  :::goals
+  - Add and subtract numbers within $100\,000$ using written columns.
+  - Multiply and divide a five-digit number by a one-digit number.
+  - Check answers and solve word problems with these operations.
+  :::
+
+[[P1·8792]]
+In January, a shop sold $23\,456$ exercise books. In February it sold $18\,749$. How many exercise books did the shop sell in the two months altogether?
+
+[[P2·3603]]
+You have used written columns since Grade 3. This lesson helps you remember all four operations with big numbers.
+
+## Let's explore
+
+[[P3·a134]]
+"Altogether" means we add. Write the numbers in columns so that digits of the same place line up, then add from right to left:
+
+  $$\begin{array}{r} 23\,456\\ +\ 18\,749\\ \hline 42\,205 \end{array}$$
+
+[[P4·a7ee]]
+Place by place, from right to left:
+
+[[P5·e2be]]
+- Ones: $6+9=15$, write $5$, regroup $1$.
+- Tens: $5+4+1=10$, write $0$, regroup $1$.
+- Hundreds: $4+7+1=12$, write $2$, regroup $1$.
+- Thousands: $3+8+1=12$, write $2$, regroup $1$.
+- Ten thousands: $2+1+1=4$, write $4$.
+
+[[P6·394c]]
+So the shop sold $42\,205$ exercise books in the two months.
+
+  :::theorem Four operations and how to check them
+  - **Addition and subtraction:** write in columns, work from **right to left**, regroup when needed. Check an addition by subtracting, and check a subtraction by adding.
+  - **Multiplying by a one-digit number:** multiply each digit from right to left, regrouping when needed.
+  - **Dividing by a one-digit number:** work from **left to right**, bringing down one digit each time. Check by multiplying.
+  :::
+
+[[P7·21ac]]
+These checks work because addition and subtraction undo each other, and so do multiplication and division.
+
+## Examples
+
+[[P8·f242]]
+We start with an addition that regroups many times.
+
+  :::example Addition
+  Work out $35\,628+24\,975$.
+
+  **Solution.** Write in columns and add from right to left:
+
+  $$\begin{array}{r} 35\,628\\ +\ 24\,975\\ \hline 60\,603 \end{array}$$
+
+  The steps: $8+5=13$ (write $3$, regroup $1$); $2+7+1=10$ (write $0$, regroup $1$); $6+9+1=16$ (write $6$, regroup $1$); $5+4+1=10$ (write $0$, regroup $1$); $3+2+1=6$.
+
+  So $35\,628+24\,975=60\,603$.
+  :::
+
+[[P9·4f89]]
+Subtraction is harder when the top number has many zeros.
+
+  :::example Subtraction
+  Work out $70\,000-25\,438$.
+
+  **Solution.** In the ones place, $0$ is too small to take away $8$. The nearest place with a non-zero digit is the ten thousands, so we regroup from there, and the places in between become $9$:
+
+  $$\begin{array}{r} 70\,000\\ -\ 25\,438\\ \hline 44\,562 \end{array}$$
+
+  The steps: $10-8=2$; $9-3=6$; $9-4=5$; $9-5=4$; $6-2=4$.
+
+  **Check.** $44\,562+25\,438=70\,000$. Correct.
+
+  So $70\,000-25\,438=44\,562$.
+  :::
+
+[[P10·b6bf]]
+Now multiplication.
+
+  :::example Multiplication
+  Work out $12\,405\times6$.
+
+  **Solution.** Multiply each digit by $6$, from right to left:
+
+  $$\begin{array}{r} 12\,405\\ \times\ 6\\ \hline 74\,430 \end{array}$$
+
+  The steps: $5\times6=30$ (write $0$, regroup $3$); $0\times6+3=3$ (write $3$); $4\times6=24$ (write $4$, regroup $2$); $2\times6+2=14$ (write $4$, regroup $1$); $1\times6+1=7$.
+
+  So $12\,405\times6=74\,430$.
+  :::
+
+[[P11·1648]]
+Division works from left to right.
+
+  :::example Division
+  Work out $48\,372\div6$.
+
+  **Solution.** We divide step by step, bringing down one digit each time:
+
+  - $48\div6=8$, remainder $0$. Write $8$.
+  - Bring down $3$: $3\div6=0$, remainder $3$. Write $0$.
+  - Bring down $7$: $37\div6=6$, remainder $1$. Write $6$.
+  - Bring down $2$: $12\div6=2$, remainder $0$. Write $2$.
+
+  The quotient is $8\,062$ with remainder $0$.
+
+  **Check.** $8\,062\times6=48\,372$. Correct.
+
+  So $48\,372\div6=8\,062$.
+  :::
+
+[[P12·f0b3]]
+Finally, we use the operations in a word problem.
+
+  :::example The rice store
+  A store has $36\,000$ kg of rice. Each day it sells $4\,250$ kg, for $5$ days. How many kilograms of rice are left?
+
+  **Solution.** We work in two steps. First, find the rice sold in $5$ days:
+  $$4\,250\times5=21\,250\ \text{(kg)}.$$
+
+  The rice left is the starting amount minus the rice sold:
+  $$36\,000-21\,250=14\,750\ \text{(kg)}.$$
+
+  So $14\,750$ kg of rice are left.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·c320]]
+- **Columns not lined up.** Wrong: writing $9\,365$ out of line with $25\,480$. Why it is wrong: you add digits from different places. Right: ones under ones, tens under tens, and so on.
+- **Forgetting a zero in the quotient.** Wrong: $36\,054\div6=609$. Why it is wrong: when you bring down $0$ and $5$ and cannot divide yet, you must write $0$ in the quotient. Right: $36\,054\div6=6\,009$.
+- **Forgetting to regroup.** Wrong: $8+5=13$ and writing $13$ in one place. Why it is wrong: each place holds only one digit. Right: write $3$ and regroup $1$ to the next place.
+:::
+
+## Key terms
+
+  :::terms
+  - addition | phép cộng
+  - subtraction | phép trừ
+  - multiplication | phép nhân
+  - division | phép chia
+  - write in columns | đặt tính
+  - regrouping (carrying) | nhớ
+  - sum | tổng
+  - difference | hiệu
+  - product | tích
+  - quotient | thương
+  - remainder | số dư
+  :::
+
+## Summary
+
+[[P14·a90d]]
+- Add and subtract: write in columns, work from right to left, regroup when needed.
+- Multiply by a one-digit number: multiply each digit from right to left, regrouping when needed.
+- Divide by a one-digit number: work from left to right, bringing down one digit each step; write $0$ in the quotient when you cannot divide yet.
+- Check: addition and subtraction undo each other; multiplication and division undo each other.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/review-numbers-to-100000 – BẢN TIẾNG VIỆT ########
+---
+title: Ôn tập các số đến 100 000
+description: Em ôn cách đọc, viết, phân tích, so sánh và sắp xếp các số trong phạm vi 100 000 theo hàng chục nghìn, nghìn, trăm, chục, đơn vị.
+minutes: 15
+---
+
+  :::goals
+  - Đọc, viết các số trong phạm vi $100\,000$ và nêu giá trị của từng chữ số.
+  - Viết một số thành tổng các hàng.
+  - So sánh và sắp xếp các số trong phạm vi $100\,000$.
+  :::
+
+[[P1·23f6]]
+Thư viện trường em có $36\,407$ quyển sách. Em đọc số này thế nào? Chữ số $6$ trong số này có giá trị bao nhiêu? Thư viện của trường bên cạnh có $36\,470$ quyển. Trường nào có nhiều sách hơn?
+
+[[P2·2892]]
+Em đã học các số này ở lớp $3$. Bài này giúp em nhớ lại thật chắc trước khi học các số lớn hơn.
+
+## Cùng khám phá
+
+[[P3·b067]]
+Mỗi chữ số trong một số có một **hàng**. Với số $36\,407$, em đọc từ trái sang phải:
+
+| Hàng | Chục nghìn | Nghìn | Trăm | Chục | Đơn vị |
+|---|---|---|---|---|---|
+| Chữ số | $3$ | $6$ | $4$ | $0$ | $7$ |
+| Giá trị | $30\,000$ | $6\,000$ | $400$ | $0$ | $7$ |
+
+[[P4·b388]]
+Cộng các giá trị lại, em được số ban đầu:
+  $$36\,407=30\,000+6\,000+400+0+7.$$
+
+[[P5·2bad]]
+Vậy chữ số $6$ ở hàng nghìn, có giá trị $6\,000$. Em đọc số này là: **ba mươi sáu nghìn bốn trăm linh bảy**. Chữ số $0$ ở hàng chục nên em đọc "linh".
+
+[[P6·4619]]
+Bây giờ so sánh $36\,407$ và $36\,470$. Hai số đều có $5$ chữ số. Các chữ số hàng chục nghìn, nghìn, trăm đều giống nhau ($3$, $6$, $4$). Đến hàng chục: $0$ và $7$. Vì $0<7$ nên $36\,407<36\,470$. Trường bên cạnh có nhiều sách hơn.
+
+  :::theorem Cách đọc, viết và so sánh số
+  - **Đọc và viết:** đọc từ hàng cao đến hàng thấp, đọc "nghìn" sau phần chục nghìn và nghìn. Hàng nào có chữ số $0$ ở giữa thì đọc "không trăm" hoặc "linh".
+  - **So sánh:** số nào có nhiều chữ số hơn thì lớn hơn. Hai số có cùng số chữ số thì so từng hàng, bắt đầu từ hàng cao nhất; hàng nào khác nhau đầu tiên thì chữ số lớn hơn cho số lớn hơn.
+  :::
+
+[[P7·b156]]
+Cách so sánh này đúng vì hàng cao có giá trị lớn hơn rất nhiều: $1$ chục nghìn là $10\,000$, lớn hơn mọi giá trị của bốn hàng còn lại cộng lại.
+
+## Ví dụ
+
+[[P8·b10f]]
+Ta bắt đầu bằng việc đọc và phân tích một số.
+
+  :::example Đọc số
+  Đọc số $52\,019$ và nêu chữ số ở mỗi hàng.
+
+  **Lời giải.** Ta xem từng hàng, từ trái sang phải:
+
+  | Hàng | Chục nghìn | Nghìn | Trăm | Chục | Đơn vị |
+  |---|---|---|---|---|---|
+  | Chữ số | $5$ | $2$ | $0$ | $1$ | $9$ |
+
+  Hàng trăm là $0$ nên em đọc "không trăm". Vậy $52\,019$ đọc là: **năm mươi hai nghìn không trăm mười chín**.
+  :::
+
+[[P9·f4e0]]
+Từ cách phân tích hàng, em viết số thành tổng.
+
+  :::example Viết thành tổng
+  Viết số $84\,350$ thành tổng các hàng.
+
+  **Lời giải.** Mỗi chữ số có giá trị theo hàng của nó. Hàng đơn vị là $0$ nên không cần viết:
+  $$84\,350=80\,000+4\,000+300+50.$$
+
+  Vậy $84\,350=80\,000+4\,000+300+50$.
+  :::
+
+[[P10·bcb0]]
+Tiếp theo là so sánh hai số.
+
+  :::example So sánh số
+  So sánh: a) $45\,678$ và $45\,687$; b) $9\,999$ và $10\,000$.
+
+  **Lời giải.** a) Hai số đều có $5$ chữ số. So từng hàng từ trái sang phải: $4=4$, $5=5$, $6=6$. Đến hàng chục: $7<8$. Vậy $45\,678<45\,687$.
+
+  b) $9\,999$ có $4$ chữ số, $10\,000$ có $5$ chữ số. Số có nhiều chữ số hơn thì lớn hơn. Vậy $9\,999<10\,000$.
+  :::
+
+[[P11·7310]]
+Có nhiều số thì ta so sánh lần lượt rồi sắp xếp.
+
+  :::example Sắp xếp số
+  Sắp xếp các số $23\,540$; $32\,450$; $23\,450$; $9\,999$ theo thứ tự từ bé đến lớn.
+
+  **Lời giải.** Số $9\,999$ có $4$ chữ số nên bé nhất. Ba số còn lại đều có $5$ chữ số. Hàng chục nghìn: $2$, $3$, $2$ nên $32\,450$ lớn nhất. Còn $23\,540$ và $23\,450$ có cùng hàng chục nghìn và hàng nghìn; hàng trăm: $5>4$ nên $23\,540>23\,450$.
+
+  Vậy thứ tự từ bé đến lớn là: $9\,999$; $23\,450$; $23\,540$; $32\,450$.
+  :::
+
+[[P12·7e20]]
+Cuối cùng là số liền trước và số liền sau.
+
+  :::example Số liền trước, liền sau
+  Tìm số liền sau của $69\,999$ và số liền trước của $40\,000$.
+
+  **Lời giải.** Số liền sau hơn số đó $1$ đơn vị, số liền trước kém $1$ đơn vị:
+  $$69\,999+1=70\,000,\qquad 40\,000-1=39\,999.$$
+
+  Vậy số liền sau của $69\,999$ là $70\,000$, số liền trước của $40\,000$ là $39\,999$.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·c3eb]]
+- **Bỏ sót "linh" hoặc "không trăm".** Sai: đọc $30\,502$ là "ba mươi nghìn năm trăm hai mươi". Vì sao sai: đó là số $30\,520$. Đúng: "ba mươi nghìn năm trăm linh hai".
+- **So sánh khi số chữ số khác nhau.** Sai: $9\,999>10\,000$ vì $9>1$. Vì sao sai: $10\,000$ có nhiều chữ số hơn. Đúng: $9\,999<10\,000$.
+- **Nhầm giá trị với chữ số.** Sai: chữ số $6$ trong $46\,280$ có giá trị $6$. Vì sao sai: $6$ ở hàng nghìn. Đúng: giá trị là $6\,000$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - hàng | place (place value position)
+  - chục nghìn | ten thousands
+  - nghìn | thousands
+  - trăm | hundreds
+  - chục | tens
+  - đơn vị | ones
+  - số liền trước | the number before
+  - số liền sau | the number after
+  :::
+
+## Tóm tắt
+
+[[P14·a427]]
+- Số có $5$ chữ số gồm các hàng: chục nghìn, nghìn, trăm, chục, đơn vị.
+- Mỗi chữ số có giá trị theo hàng của nó: $36\,407=30\,000+6\,000+400+7$.
+- Đọc từ hàng cao đến hàng thấp; chữ số $0$ ở giữa thì đọc "linh" hoặc "không trăm".
+- So sánh: nhiều chữ số hơn thì lớn hơn; cùng số chữ số thì so từng hàng từ hàng cao nhất.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/review-numbers-to-100000 – BẢN TIẾNG ANH ########
+---
+title: Review: numbers to 100,000
+description: Review how to read, write, partition, compare and order numbers up to 100,000 using ten thousands, thousands, hundreds, tens and ones.
+minutes: 15
+---
+
+  :::goals
+  - Read and write numbers up to $100\,000$ and give the value of each digit.
+  - Write a number as a sum of its places.
+  - Compare and order numbers up to $100\,000$.
+  :::
+
+[[P1·fdd1]]
+Our school library has $36\,407$ books. How do you read this number? What is the value of the digit $6$? The library of the next school has $36\,470$ books. Which school has more books?
+
+[[P2·8e23]]
+You learned these numbers in Grade 3. This lesson helps you remember them well before we meet bigger numbers.
+
+## Let's explore
+
+[[P3·4686]]
+Each digit in a number has a **place**. For the number $36\,407$, read from left to right:
+
+| Place | Ten thousands | Thousands | Hundreds | Tens | Ones |
+|---|---|---|---|---|---|
+| Digit | $3$ | $6$ | $4$ | $0$ | $7$ |
+| Value | $30\,000$ | $6\,000$ | $400$ | $0$ | $7$ |
+
+[[P4·2d76]]
+Add the values and you get the number back:
+  $$36\,407=30\,000+6\,000+400+0+7.$$
+
+[[P5·9ef9]]
+So the digit $6$ is in the thousands place and has value $6\,000$. We read the number as: **thirty-six thousand, four hundred and seven**. The tens digit is $0$, so we say "and seven" with no tens.
+
+[[P6·55ac]]
+Now compare $36\,407$ and $36\,470$. Both have $5$ digits. The ten thousands, thousands and hundreds digits are the same ($3$, $6$, $4$). In the tens place we have $0$ and $7$. Since $0<7$, we get $36\,407<36\,470$. The next school has more books.
+
+  :::theorem Reading, writing and comparing numbers
+  - **Reading and writing:** read from the highest place to the lowest. Say "thousand" after the ten thousands and thousands part. If a place in the middle is $0$, skip it when reading, but write $0$ when writing.
+  - **Comparing:** the number with more digits is greater. If two numbers have the same number of digits, compare place by place from the highest place; the first place where they differ decides, and the bigger digit gives the bigger number.
+  :::
+
+[[P7·bb71]]
+This works because higher places are worth much more: $1$ ten thousand is $10\,000$, which is more than all the other four places can make together.
+
+## Examples
+
+[[P8·6f96]]
+We start by reading and partitioning a number.
+
+  :::example Reading a number
+  Read the number $52\,019$ and give the digit in each place.
+
+  **Solution.** We look at each place, from left to right:
+
+  | Place | Ten thousands | Thousands | Hundreds | Tens | Ones |
+  |---|---|---|---|---|---|
+  | Digit | $5$ | $2$ | $0$ | $1$ | $9$ |
+
+  The hundreds digit is $0$, so we skip hundreds. So $52\,019$ is read: **fifty-two thousand and nineteen**.
+  :::
+
+[[P9·bf77]]
+From the places, we can write a number as a sum.
+
+  :::example Writing as a sum
+  Write $84\,350$ as a sum of its places.
+
+  **Solution.** Each digit has a value given by its place. The ones digit is $0$, so we do not write it:
+  $$84\,350=80\,000+4\,000+300+50.$$
+
+  So $84\,350=80\,000+4\,000+300+50$.
+  :::
+
+[[P10·700d]]
+Next we compare two numbers.
+
+  :::example Comparing numbers
+  Compare: a) $45\,678$ and $45\,687$; b) $9\,999$ and $10\,000$.
+
+  **Solution.** a) Both numbers have $5$ digits. Compare place by place from the left: $4=4$, $5=5$, $6=6$. In the tens place: $7<8$. So $45\,678<45\,687$.
+
+  b) $9\,999$ has $4$ digits and $10\,000$ has $5$ digits. The number with more digits is greater. So $9\,999<10\,000$.
+  :::
+
+[[P11·5b39]]
+With several numbers, we compare them one by one and then put them in order.
+
+  :::example Ordering numbers
+  Put the numbers $23\,540$; $32\,450$; $23\,450$; $9\,999$ in order from least to greatest.
+
+  **Solution.** $9\,999$ has $4$ digits, so it is the least. The other three have $5$ digits. Their ten thousands digits are $2$, $3$, $2$, so $32\,450$ is the greatest. The numbers $23\,540$ and $23\,450$ have the same ten thousands and thousands digits; in the hundreds place $5>4$, so $23\,540>23\,450$.
+
+  So the order from least to greatest is: $9\,999$; $23\,450$; $23\,540$; $32\,450$.
+  :::
+
+[[P12·0fd1]]
+Finally, the number before and the number after.
+
+  :::example The number before and after
+  Find the number after $69\,999$ and the number before $40\,000$.
+
+  **Solution.** The number after is $1$ more, and the number before is $1$ less:
+  $$69\,999+1=70\,000,\qquad 40\,000-1=39\,999.$$
+
+  So the number after $69\,999$ is $70\,000$, and the number before $40\,000$ is $39\,999$.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·54f8]]
+- **Dropping a zero when reading.** Wrong: reading $30\,502$ as "thirty thousand, five hundred and twenty". Why it is wrong: that is $30\,520$. Right: "thirty thousand, five hundred and two".
+- **Comparing when the numbers of digits differ.** Wrong: $9\,999>10\,000$ because $9>1$. Why it is wrong: $10\,000$ has more digits. Right: $9\,999<10\,000$.
+- **Mixing up a digit and its value.** Wrong: the digit $6$ in $46\,280$ has value $6$. Why it is wrong: the $6$ is in the thousands place. Right: its value is $6\,000$.
+:::
+
+## Key terms
+
+  :::terms
+  - place (place value position) | hàng
+  - ten thousands | chục nghìn
+  - thousands | nghìn
+  - hundreds | trăm
+  - tens | chục
+  - ones | đơn vị
+  - the number before | số liền trước
+  - the number after | số liền sau
+  :::
+
+## Summary
+
+[[P14·759c]]
+- A $5$-digit number has these places: ten thousands, thousands, hundreds, tens, ones.
+- Each digit has a value given by its place: $36\,407=30\,000+6\,000+400+7$.
+- Read from the highest place to the lowest; a middle $0$ is written but not read.
+- Comparing: more digits means greater; with the same number of digits, compare place by place from the highest place.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/square-dm-m-mm – BẢN TIẾNG VIỆT ########
+---
+title: Đề-xi-mét vuông, mét vuông, mi-li-mét vuông
+description: Em học ba đơn vị đo diện tích mới là dm², m², mm², nhớ cách đổi giữa các đơn vị (gấp 100 lần) và đổi đơn vị diện tích thật chính xác.
+minutes: 15
+---
+
+  :::goals
+  - Biết $1\ \text{dm}^2$, $1\ \text{m}^2$, $1\ \text{mm}^2$ là diện tích của hình vuông cạnh $1\ \text{dm}$, $1\ \text{m}$, $1\ \text{mm}$.
+  - Nhớ $1\ \text{dm}^2=100\ \text{cm}^2$, $1\ \text{m}^2=100\ \text{dm}^2$, $1\ \text{cm}^2=100\ \text{mm}^2$.
+  - Đổi đơn vị diện tích và giải bài toán đơn giản có dùng các đơn vị này.
+  :::
+
+[[P1·8a31]]
+Lan có một tấm bìa hình vuông, mỗi cạnh dài $1\ \text{dm}$. Lan muốn dán kín tấm bìa bằng những mảnh giấy màu hình vuông, mỗi cạnh $1\ \text{cm}$. Hỏi Lan cần bao nhiêu mảnh giấy?
+
+[[P2·adb7]]
+Em đã học ở lớp 3: diện tích đo bằng xăng-ti-mét vuông ($\text{cm}^2$). Hôm nay em học thêm ba đơn vị mới để đo những mặt phẳng to hơn hoặc nhỏ hơn.
+
+## Cùng khám phá
+
+[[P3·6748]]
+Em nhớ lại: $1\ \text{dm}=10\ \text{cm}$. Vậy tấm bìa của Lan có cạnh dài $10\ \text{cm}$.
+
+[[P4·dc55]]
+- Mỗi hàng xếp được $10$ mảnh giấy cạnh $1\ \text{cm}$.
+- Tấm bìa có $10$ hàng như vậy.
+- Số mảnh giấy là $10\times10=100$ mảnh.
+
+[[P5·bf1e]]
+Mỗi mảnh giấy có diện tích $1\ \text{cm}^2$. Vậy tấm bìa có diện tích $100\ \text{cm}^2$.
+
+:::diagram Hình vuông cạnh 1 dm (10 cm) chia thành 100 ô vuông, mỗi ô là 1 cm²
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·ff12]]
+Tấm bìa này là hình vuông cạnh $1\ \text{dm}$. Diện tích của nó gọi là **một đề-xi-mét vuông**, viết là $1\ \text{dm}^2$. Em vừa tìm được $1\ \text{dm}^2=100\ \text{cm}^2$.
+
+[[P7·652e]]
+Ta làm tương tự với mét vuông. Hình vuông cạnh $1\ \text{m}$ có diện tích **một mét vuông** ($1\ \text{m}^2$). Vì $1\ \text{m}=10\ \text{dm}$, nên hình vuông này xếp được $10$ hàng, mỗi hàng $10$ hình vuông $1\ \text{dm}^2$. Số hình vuông là $10\times10=100$.
+
+[[P8·bd96]]
+Với mi-li-mét vuông, em nhớ $1\ \text{cm}=10\ \text{mm}$. Hình vuông cạnh $1\ \text{cm}$ xếp được $10\times10=100$ hình vuông cạnh $1\ \text{mm}$. Diện tích hình vuông cạnh $1\ \text{mm}$ gọi là **một mi-li-mét vuông** ($1\ \text{mm}^2$).
+
+  :::theorem Đổi các đơn vị diện tích
+  Ba đổi cần nhớ:
+  - $1\ \text{dm}^2=100\ \text{cm}^2$.
+  - $1\ \text{m}^2=100\ \text{dm}^2$.
+  - $1\ \text{cm}^2=100\ \text{mm}^2$.
+
+  Đơn vị lớn đổi sang đơn vị bé liền sau thì **nhân với $100$**. Đơn vị bé đổi sang đơn vị lớn liền trước thì **chia cho $100$**.
+  :::
+
+[[P9·ed3d]]
+Vì sao là $100$ mà không phải $10$? Vì khi độ dài cạnh gấp $10$ lần, hình vuông có $10$ hàng, mỗi hàng $10$ ô. Diện tích gấp $10\times10=100$ lần.
+
+[[P10·67e7]]
+Từ hai đổi đầu, em thấy $1\ \text{m}^2=100\ \text{dm}^2=10\,000\ \text{cm}^2$, vì $100\times100=10\,000$.
+
+## Ví dụ
+
+[[P11·1dc0]]
+Ta bắt đầu với một phép đổi từ đơn vị lớn sang đơn vị bé.
+
+  :::example Đổi $3\ \text{dm}^2$ ra $\text{cm}^2$
+  **Lời giải.** Đổi từ đơn vị lớn ($\text{dm}^2$) sang đơn vị bé ($\text{cm}^2$) nên em nhân với $100$, vì $1\ \text{dm}^2=100\ \text{cm}^2$:
+  $$3\ \text{dm}^2=3\times100\ \text{cm}^2=300\ \text{cm}^2.$$
+  Vậy $3\ \text{dm}^2=300\ \text{cm}^2$.
+
+  **Kiểm tra.** $300\ \text{cm}^2:100=3\ \text{dm}^2$. Đúng.
+  :::
+
+[[P12·d07c]]
+Bây giờ em đổi cả hai chiều với số khác.
+
+  :::example Đổi $8\ \text{m}^2$ ra $\text{dm}^2$ và $500\ \text{dm}^2$ ra $\text{m}^2$
+  **Lời giải.** a) Đổi $\text{m}^2$ sang $\text{dm}^2$ là đổi sang đơn vị bé hơn, nên nhân với $100$:
+  $$8\ \text{m}^2=8\times100\ \text{dm}^2=800\ \text{dm}^2.$$
+  b) Đổi $\text{dm}^2$ sang $\text{m}^2$ là đổi sang đơn vị lớn hơn, nên chia cho $100$:
+  $$500\ \text{dm}^2=500:100\ \text{m}^2=5\ \text{m}^2.$$
+  Vậy $8\ \text{m}^2=800\ \text{dm}^2$ và $500\ \text{dm}^2=5\ \text{m}^2$.
+  :::
+
+[[P13·1878]]
+Có khi số đo gồm hai đơn vị. Em đổi từng phần rồi cộng lại.
+
+  :::example Đổi $4\ \text{dm}^2\ 25\ \text{cm}^2$ ra $\text{cm}^2$
+  **Lời giải.** Đổi phần $4\ \text{dm}^2$ ra $\text{cm}^2$ trước:
+  $$4\ \text{dm}^2=4\times100\ \text{cm}^2=400\ \text{cm}^2.$$
+  Cộng thêm phần còn lại $25\ \text{cm}^2$:
+  $$400+25=425.$$
+  Vậy $4\ \text{dm}^2\ 25\ \text{cm}^2=425\ \text{cm}^2$.
+  :::
+
+[[P14·848e]]
+Muốn so sánh hai số đo, em đưa chúng về cùng một đơn vị.
+
+  :::example So sánh $2\ \text{m}^2\ 8\ \text{dm}^2$ với $280\ \text{dm}^2$
+  **Lời giải.** Đổi $2\ \text{m}^2\ 8\ \text{dm}^2$ ra $\text{dm}^2$: $2\ \text{m}^2=200\ \text{dm}^2$, rồi cộng $8\ \text{dm}^2$:
+  $$200+8=208\ \text{dm}^2.$$
+  So sánh hai số cùng đơn vị: $208<280$.
+  Vậy $2\ \text{m}^2\ 8\ \text{dm}^2<280\ \text{dm}^2$.
+  :::
+
+[[P15·e7e2]]
+Cuối cùng em dùng các đơn vị mới để giải một bài toán trong cuộc sống.
+
+  :::example Mặt bàn
+  Mặt bàn học hình chữ nhật dài $12\ \text{dm}$, rộng $6\ \text{dm}$. Tính diện tích mặt bàn theo $\text{dm}^2$ và theo $\text{cm}^2$.
+
+  **Lời giải.** Diện tích hình chữ nhật bằng chiều dài nhân chiều rộng:
+  $$12\times6=72\ (\text{dm}^2).$$
+  Đổi ra $\text{cm}^2$: nhân với $100$.
+  $$72\ \text{dm}^2=72\times100\ \text{cm}^2=7\,200\ \text{cm}^2.$$
+  Vậy diện tích mặt bàn là $72\ \text{dm}^2$, tức $7\,200\ \text{cm}^2$.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P16·d2cb]]
+- **Nhầm $1\ \text{dm}^2=10\ \text{cm}^2$.** Sai: $3\ \text{dm}^2=30\ \text{cm}^2$. Vì sao sai: $10$ chỉ là số xăng-ti-mét của một cạnh, còn diện tích gấp $10\times10$ lần. Đúng: $3\ \text{dm}^2=300\ \text{cm}^2$.
+- **Quên số $0$ ở giữa.** Sai: $4\ \text{dm}^2\ 5\ \text{cm}^2=45\ \text{cm}^2$. Vì sao sai: $4\ \text{dm}^2=400\ \text{cm}^2$, và $400+5=405$. Đúng: $405\ \text{cm}^2$.
+- **Nhân khi cần chia.** Sai: $500\ \text{dm}^2=50\,000\ \text{m}^2$. Vì sao sai: $\text{m}^2$ là đơn vị lớn hơn, nên số đo phải nhỏ đi. Đúng: $500\ \text{dm}^2=5\ \text{m}^2$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - đề-xi-mét vuông | square decimetre
+  - mét vuông | square metre
+  - mi-li-mét vuông | square millimetre
+  - xăng-ti-mét vuông | square centimetre
+  - diện tích | area
+  - đơn vị đo | unit of measurement
+  - hình vuông | square
+  - hình chữ nhật | rectangle
+  - cạnh | side
+  - đổi đơn vị | convert units
+  :::
+
+## Tóm tắt
+
+[[P17·e91f]]
+- $1\ \text{dm}^2$, $1\ \text{m}^2$, $1\ \text{mm}^2$ là diện tích của hình vuông cạnh $1\ \text{dm}$, $1\ \text{m}$, $1\ \text{mm}$.
+- $1\ \text{m}^2=100\ \text{dm}^2$, $1\ \text{dm}^2=100\ \text{cm}^2$, $1\ \text{cm}^2=100\ \text{mm}^2$.
+- Đổi sang đơn vị bé hơn thì nhân với $100$; đổi sang đơn vị lớn hơn thì chia cho $100$.
+- Đổi $1\ \text{m}^2$ ra $\text{cm}^2$ thì được $10\,000\ \text{cm}^2$.
+- Muốn so sánh hoặc cộng các số đo, em đưa về cùng một đơn vị.
+
+## Luyện tập
+
+[[P18·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/square-dm-m-mm – BẢN TIẾNG ANH ########
+---
+title: Square decimetres, square metres and square millimetres
+description: Learn three new units of area: dm², m² and mm². Remember how they convert (each is 100 times the next smaller one) and convert areas accurately.
+minutes: 15
+---
+
+  :::goals
+  - Know that $1\ \text{dm}^2$, $1\ \text{m}^2$ and $1\ \text{mm}^2$ are the areas of squares with sides $1\ \text{dm}$, $1\ \text{m}$ and $1\ \text{mm}$.
+  - Remember $1\ \text{dm}^2=100\ \text{cm}^2$, $1\ \text{m}^2=100\ \text{dm}^2$ and $1\ \text{cm}^2=100\ \text{mm}^2$.
+  - Convert units of area and solve simple problems with these units.
+  :::
+
+[[P1·6689]]
+Lan has a square piece of card. Each side is $1\ \text{dm}$ long. She wants to cover it completely with small square pieces of coloured paper. Each small piece has sides of $1\ \text{cm}$. How many pieces of paper does Lan need?
+
+[[P2·58ca]]
+In Grade 3 you learned to measure area in square centimetres ($\text{cm}^2$). Today you learn three new units, for surfaces that are bigger or smaller.
+
+## Let's explore
+
+[[P3·2f98]]
+Remember: $1\ \text{dm}=10\ \text{cm}$. So each side of Lan's card is $10\ \text{cm}$ long.
+
+[[P4·6e84]]
+- One row holds $10$ pieces with sides of $1\ \text{cm}$.
+- The card has $10$ rows like that.
+- The number of pieces is $10\times10=100$.
+
+[[P5·d657]]
+Each piece has an area of $1\ \text{cm}^2$. So the card has an area of $100\ \text{cm}^2$.
+
+:::diagram A square with side 1 dm (10 cm) split into 100 small squares, each 1 cm²
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·9a71]]
+The card is a square with sides of $1\ \text{dm}$. Its area is called **one square decimetre**, written $1\ \text{dm}^2$. You have just found that $1\ \text{dm}^2=100\ \text{cm}^2$.
+
+[[P7·aa9c]]
+We can do the same for square metres. A square with sides of $1\ \text{m}$ has an area of **one square metre** ($1\ \text{m}^2$). Since $1\ \text{m}=10\ \text{dm}$, the square holds $10$ rows, and each row has $10$ squares of $1\ \text{dm}^2$. That is $10\times10=100$ squares.
+
+[[P8·0c66]]
+Now square millimetres. Remember $1\ \text{cm}=10\ \text{mm}$. A square with sides of $1\ \text{cm}$ holds $10\times10=100$ squares with sides of $1\ \text{mm}$. The area of a square with sides of $1\ \text{mm}$ is called **one square millimetre** ($1\ \text{mm}^2$).
+
+  :::theorem Converting units of area
+  Three facts to remember:
+  - $1\ \text{dm}^2=100\ \text{cm}^2$.
+  - $1\ \text{m}^2=100\ \text{dm}^2$.
+  - $1\ \text{cm}^2=100\ \text{mm}^2$.
+
+  To change a larger unit into the next smaller unit, **multiply by $100$**. To change a smaller unit into the next larger unit, **divide by $100$**.
+  :::
+
+[[P9·aed6]]
+Why $100$ and not $10$? When the side is $10$ times as long, the square has $10$ rows with $10$ squares in each row. The area is $10\times10=100$ times as big.
+
+[[P10·a049]]
+From the first two facts, you can see that $1\ \text{m}^2=100\ \text{dm}^2=10\,000\ \text{cm}^2$, because $100\times100=10\,000$.
+
+## Examples
+
+[[P11·80ba]]
+We start with a conversion from a larger unit to a smaller unit.
+
+  :::example Convert $3\ \text{dm}^2$ into $\text{cm}^2$
+  **Solution.** We change the larger unit ($\text{dm}^2$) into the smaller unit ($\text{cm}^2$), so we multiply by $100$, because $1\ \text{dm}^2=100\ \text{cm}^2$:
+  $$3\ \text{dm}^2=3\times100\ \text{cm}^2=300\ \text{cm}^2.$$
+  So $3\ \text{dm}^2=300\ \text{cm}^2$.
+
+  **Check.** $300\ \text{cm}^2\div100=3\ \text{dm}^2$. Correct.
+  :::
+
+[[P12·ee17]]
+Now convert in both directions, with different numbers.
+
+  :::example Convert $8\ \text{m}^2$ into $\text{dm}^2$ and $500\ \text{dm}^2$ into $\text{m}^2$
+  **Solution.** a) Changing $\text{m}^2$ into $\text{dm}^2$ means changing to a smaller unit, so we multiply by $100$:
+  $$8\ \text{m}^2=8\times100\ \text{dm}^2=800\ \text{dm}^2.$$
+  b) Changing $\text{dm}^2$ into $\text{m}^2$ means changing to a larger unit, so we divide by $100$:
+  $$500\ \text{dm}^2=500\div100\ \text{m}^2=5\ \text{m}^2.$$
+  So $8\ \text{m}^2=800\ \text{dm}^2$ and $500\ \text{dm}^2=5\ \text{m}^2$.
+  :::
+
+[[P13·ed31]]
+Sometimes a measurement uses two units. Convert each part, then add.
+
+  :::example Convert $4\ \text{dm}^2\ 25\ \text{cm}^2$ into $\text{cm}^2$
+  **Solution.** First change the $4\ \text{dm}^2$ part into $\text{cm}^2$:
+  $$4\ \text{dm}^2=4\times100\ \text{cm}^2=400\ \text{cm}^2.$$
+  Add the part that is left, $25\ \text{cm}^2$:
+  $$400+25=425.$$
+  So $4\ \text{dm}^2\ 25\ \text{cm}^2=425\ \text{cm}^2$.
+  :::
+
+[[P14·55b0]]
+To compare two measurements, change them into the same unit.
+
+  :::example Compare $2\ \text{m}^2\ 8\ \text{dm}^2$ with $280\ \text{dm}^2$
+  **Solution.** Change $2\ \text{m}^2\ 8\ \text{dm}^2$ into $\text{dm}^2$: $2\ \text{m}^2=200\ \text{dm}^2$, then add $8\ \text{dm}^2$:
+  $$200+8=208\ \text{dm}^2.$$
+  Now compare two numbers in the same unit: $208<280$.
+  So $2\ \text{m}^2\ 8\ \text{dm}^2<280\ \text{dm}^2$.
+  :::
+
+[[P15·05b5]]
+Finally, use the new units to solve a problem from everyday life.
+
+  :::example A tabletop
+  A study table has a rectangular top $12\ \text{dm}$ long and $6\ \text{dm}$ wide. Find the area of the tabletop in $\text{dm}^2$ and in $\text{cm}^2$.
+
+  **Solution.** The area of a rectangle is length times width:
+  $$12\times6=72\ (\text{dm}^2).$$
+  Change to $\text{cm}^2$ by multiplying by $100$:
+  $$72\ \text{dm}^2=72\times100\ \text{cm}^2=7\,200\ \text{cm}^2.$$
+  So the tabletop has an area of $72\ \text{dm}^2$, which is $7\,200\ \text{cm}^2$.
+  :::
+
+:::warning Mistakes to watch out for
+[[P16·bae0]]
+- **Thinking $1\ \text{dm}^2=10\ \text{cm}^2$.** Wrong: $3\ \text{dm}^2=30\ \text{cm}^2$. Why it is wrong: $10$ is only the number of centimetres in one side, but the area is $10\times10$ times as big. Right: $3\ \text{dm}^2=300\ \text{cm}^2$.
+- **Forgetting the $0$ in the middle.** Wrong: $4\ \text{dm}^2\ 5\ \text{cm}^2=45\ \text{cm}^2$. Why it is wrong: $4\ \text{dm}^2=400\ \text{cm}^2$, and $400+5=405$. Right: $405\ \text{cm}^2$.
+- **Multiplying when you should divide.** Wrong: $500\ \text{dm}^2=50\,000\ \text{m}^2$. Why it is wrong: $\text{m}^2$ is the larger unit, so the number must get smaller. Right: $500\ \text{dm}^2=5\ \text{m}^2$.
+:::
+
+## Key terms
+
+  :::terms
+  - square decimetre | đề-xi-mét vuông
+  - square metre | mét vuông
+  - square millimetre | mi-li-mét vuông
+  - square centimetre | xăng-ti-mét vuông
+  - area | diện tích
+  - unit of measurement | đơn vị đo
+  - square | hình vuông
+  - rectangle | hình chữ nhật
+  - side | cạnh
+  - convert units | đổi đơn vị
+  :::
+
+## Summary
+
+[[P17·248b]]
+- $1\ \text{dm}^2$, $1\ \text{m}^2$ and $1\ \text{mm}^2$ are the areas of squares with sides of $1\ \text{dm}$, $1\ \text{m}$ and $1\ \text{mm}$.
+- $1\ \text{m}^2=100\ \text{dm}^2$, $1\ \text{dm}^2=100\ \text{cm}^2$ and $1\ \text{cm}^2=100\ \text{mm}^2$.
+- To change to a smaller unit, multiply by $100$. To change to a larger unit, divide by $100$.
+- $1\ \text{m}^2$ is $10\,000\ \text{cm}^2$.
+- To compare or add measurements, change them into the same unit first.
+
+## Practice
+
+[[P18·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/statistical-data-lists – BẢN TIẾNG VIỆT ########
+---
+title: Dãy số liệu thống kê
+description: Em học cách đọc một dãy số liệu: đếm số liệu, tìm số lớn nhất và nhỏ nhất, sắp xếp từ bé đến lớn và đếm số lần một số xuất hiện.
+minutes: 15
+---
+
+  :::goals
+  - Biết dãy số liệu thống kê là gì và đọc được dãy số liệu từ bảng.
+  - Đếm số số liệu, tìm số lớn nhất, số nhỏ nhất và sắp xếp dãy số liệu từ bé đến lớn.
+  - Đếm số lần một số xuất hiện và so sánh các số liệu bằng phép trừ.
+  :::
+
+[[P1·a381]]
+Cô giáo hỏi sáu bạn trong tổ em đã đọc bao nhiêu quyển truyện trong tháng. Bạn Mai đọc $5$ quyển, Nam đọc $3$ quyển, Hà đọc $7$ quyển, Bình đọc $4$ quyển, Lan đọc $6$ quyển và Tú đọc $3$ quyển. Bạn nào đọc nhiều nhất? Bạn nào đọc ít nhất?
+
+[[P2·dda2]]
+Các số $5, 3, 7, 4, 6, 3$ là những thông tin ta thu thập được. Bài này dạy em cách đọc và so sánh chúng.
+
+## Cùng khám phá
+
+[[P3·2251]]
+Trước hết, ta ghi lại thông tin vào một bảng.
+
+| Bạn | Mai | Nam | Hà | Bình | Lan | Tú |
+|---|---|---|---|---|---|---|
+| Số quyển truyện | $5$ | $3$ | $7$ | $4$ | $6$ | $3$ |
+
+[[P4·aa0f]]
+Chỉ lấy hàng số, ta được một dãy: $5, 3, 7, 4, 6, 3$. Em trả lời từng câu hỏi nhỏ:
+
+[[P5·4e81]]
+- Có bao nhiêu số? Đếm từng số: có $6$ số, ứng với $6$ bạn.
+- Số nào lớn nhất? So sánh các số: $7$ lớn nhất, đó là bạn Hà.
+- Số nào nhỏ nhất? $3$ nhỏ nhất, đó là Nam và Tú.
+- Sắp xếp từ bé đến lớn: $3, 3, 4, 5, 6, 7$. Em chú ý số $3$ xuất hiện hai lần nên viết hai lần.
+
+  :::definition Dãy số liệu thống kê
+  Những số ta thu thập được về cùng một việc (ví dụ số quyển truyện, số đo chiều cao) gọi là **số liệu**. Các số liệu viết thành một hàng gọi là **dãy số liệu thống kê**. Mỗi bạn hay mỗi lần đo cho một số liệu, nên số số liệu bằng số bạn hay số lần đo.
+  :::
+
+[[P6·ef36]]
+Khi đọc dãy số liệu, em luôn làm theo ba việc: đếm xem có bao nhiêu số, tìm số lớn nhất và nhỏ nhất, rồi trả lời câu hỏi của đề.
+
+## Ví dụ
+
+[[P7·8b1f]]
+Ta bắt đầu với một dãy ngắn.
+
+  :::example Số bàn thắng
+  Đội bóng lớp em ghi được số bàn thắng trong $7$ trận là: $2, 0, 3, 1, 3, 2, 4$. Hỏi: a) Đội đã đá mấy trận? b) Trận nhiều bàn thắng nhất có mấy bàn? c) Có mấy trận ghi đúng $2$ bàn?
+
+  **Lời giải.** Mỗi số cho một trận. Ta đếm số số, tìm số lớn nhất và đếm số $2$:
+
+  a) Có $7$ số, nên đội đã đá $7$ trận.
+
+  b) Số lớn nhất là $4$, nên trận nhiều nhất có $4$ bàn.
+
+  c) Số $2$ xuất hiện ở trận đầu và trận thứ sáu, nên có $2$ trận.
+  :::
+
+[[P8·0e70]]
+Bây giờ ta sắp xếp số liệu và so sánh.
+
+  :::example Chiều cao
+  Chiều cao của $5$ bạn (cm) là: $132, 128, 135, 130, 128$. Hãy sắp xếp từ bé đến lớn, rồi tìm bạn cao nhất hơn bạn thấp nhất bao nhiêu xăng-ti-mét.
+
+  **Lời giải.** Tìm số nhỏ nhất rồi lần lượt viết các số lớn dần, mỗi số viết đủ số lần:
+  $$128,\ 128,\ 130,\ 132,\ 135.$$
+  Số lớn nhất là $135$, số nhỏ nhất là $128$. Muốn biết hơn bao nhiêu, ta lấy hiệu:
+  $$135-128=7\ \text{(cm)}.$$
+  Vậy bạn cao nhất hơn bạn thấp nhất $7$ cm.
+  :::
+
+[[P9·9c5a]]
+Dãy số liệu thường cho trong bảng. Ta đọc bảng rồi làm tiếp.
+
+  :::example Sĩ số các lớp
+  Bảng cho sĩ số các lớp khối Bốn:
+
+  | Lớp | 4A | 4B | 4C | 4D |
+  |---|---|---|---|---|
+  | Số học sinh | $32$ | $30$ | $34$ | $32$ |
+
+  Hỏi lớp nào đông nhất? Cả khối có bao nhiêu học sinh?
+
+  **Lời giải.** Dãy số liệu là $32, 30, 34, 32$. Số lớn nhất là $34$, ứng với lớp $4$C. Tổng số học sinh là:
+  $$32+30+34+32=128\ \text{(học sinh)}.$$
+  Vậy lớp $4$C đông nhất, cả khối có $128$ học sinh.
+  :::
+
+[[P10·8e9e]]
+Cuối cùng, ta đếm xem một số xuất hiện bao nhiêu lần.
+
+  :::example Số lần xuất hiện
+  Cho dãy số liệu $6, 9, 4, 9, 7$. Có mấy số liệu? Số nào xuất hiện nhiều lần nhất?
+
+  **Lời giải.** Đếm các số, kể cả số lặp lại: $6, 9, 4, 9, 7$ có $5$ số. Số $9$ xuất hiện $2$ lần, các số khác chỉ $1$ lần. Vậy có $5$ số liệu và số $9$ xuất hiện nhiều lần nhất.
+
+  **Kiểm tra.** Cộng số lần xuất hiện: $1+2+1+1=5$. Khớp với $5$ số liệu.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·c1b4]]
+- **Bỏ số lặp lại.** Sai: dãy $6, 9, 4, 9, 7$ có $4$ số. Vì sao sai: mỗi bạn hay mỗi lần đo cho một số, số $9$ xuất hiện hai lần thì tính hai lần. Đúng: $5$ số.
+- **Nhầm số lớn nhất với số xuất hiện nhiều nhất.** Sai: dãy $3, 8, 3, 5$ có số xuất hiện nhiều nhất là $8$. Vì sao sai: $8$ chỉ là số lớn nhất, còn $3$ xuất hiện hai lần. Đúng: số $3$.
+- **Khi sắp xếp, làm mất số lặp lại.** Sai: sắp $7, 3, 9, 3$ thành $3, 7, 9$. Vì sao sai: dãy mới thiếu một số $3$. Đúng: $3, 3, 7, 9$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - dãy số liệu | data list
+  - số liệu | data value
+  - thống kê | statistics
+  - lớn nhất | greatest
+  - nhỏ nhất | least
+  - sắp xếp từ bé đến lớn | put in order, smallest first
+  - số lần xuất hiện | number of times it appears
+  :::
+
+## Tóm tắt
+
+[[P12·ebad]]
+- Số liệu là những số thu thập được; viết thành hàng gọi là dãy số liệu thống kê.
+- Mỗi bạn hay mỗi lần đo cho một số liệu; số lặp lại vẫn đếm đủ số lần.
+- Tìm số lớn nhất, số nhỏ nhất bằng cách so sánh từng số.
+- Sắp xếp từ bé đến lớn: viết đủ mọi số, kể cả số lặp lại.
+- So sánh hai số liệu bằng phép trừ: $\text{lớn}-\text{bé}$.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/statistical-data-lists – BẢN TIẾNG ANH ########
+---
+title: Lists of statistical data
+description: Learn to read a list of data: count the values, find the greatest and least, put them in order and count how many times a value appears.
+minutes: 15
+---
+
+  :::goals
+  - Know what a list of statistical data is and read one from a table.
+  - Count the values, find the greatest and the least, and put a list in order from smallest to largest.
+  - Count how many times a value appears and compare values by subtracting.
+  :::
+
+[[P1·d2e8]]
+The teacher asks six children in your group how many story books they read this month. Mai read $5$, Nam read $3$, Ha read $7$, Binh read $4$, Lan read $6$ and Tu read $3$. Who read the most? Who read the fewest?
+
+[[P2·ec9d]]
+The numbers $5, 3, 7, 4, 6, 3$ are information we collected. This lesson shows you how to read and compare them.
+
+## Let's explore
+
+[[P3·4eb7]]
+First we write the information in a table.
+
+| Child | Mai | Nam | Ha | Binh | Lan | Tu |
+|---|---|---|---|---|---|---|
+| Books read | $5$ | $3$ | $7$ | $4$ | $6$ | $3$ |
+
+[[P4·02c3]]
+Taking only the row of numbers gives a list: $5, 3, 7, 4, 6, 3$. Answer some small questions:
+
+[[P5·f279]]
+- How many numbers are there? Count each one: there are $6$, one for each child.
+- Which is the greatest? Compare them: $7$ is the greatest, and that is Ha.
+- Which is the least? $3$ is the least, and that is Nam and Tu.
+- In order from smallest to largest: $3, 3, 4, 5, 6, 7$. Notice that $3$ appears twice, so we write it twice.
+
+  :::definition A list of statistical data
+  The numbers we collect about the same thing (for example the number of books, or heights) are called **data values**. Data values written in a row make a **list of statistical data**. Each child or each measurement gives one value, so the number of values equals the number of children or measurements.
+  :::
+
+[[P6·5990]]
+When you read a list of data, always do three things: count how many values there are, find the greatest and the least, then answer the question.
+
+## Examples
+
+[[P7·e623]]
+We start with a short list.
+
+  :::example Goals scored
+  Our class football team scored these numbers of goals in $7$ matches: $2, 0, 3, 1, 3, 2, 4$. a) How many matches did the team play? b) What is the most goals in one match? c) In how many matches did the team score exactly $2$ goals?
+
+  **Solution.** Each number is one match. We count the numbers, find the greatest and count the $2$s:
+
+  a) There are $7$ numbers, so the team played $7$ matches.
+
+  b) The greatest number is $4$, so the most goals in a match is $4$.
+
+  c) The number $2$ appears in the first and the sixth match, so there are $2$ matches.
+  :::
+
+[[P8·371c]]
+Now we put the values in order and compare them.
+
+  :::example Heights
+  The heights (cm) of $5$ children are: $132, 128, 135, 130, 128$. Put them in order from smallest to largest, then find how many centimetres taller the tallest child is than the shortest.
+
+  **Solution.** Find the least, then write the numbers getting larger, each one as many times as it appears:
+  $$128,\ 128,\ 130,\ 132,\ 135.$$
+  The greatest is $135$ and the least is $128$. To find how much more, we subtract:
+  $$135-128=7\ \text{(cm)}.$$
+  So the tallest child is $7$ cm taller than the shortest.
+  :::
+
+[[P9·4b25]]
+Data often comes in a table. We read the table and carry on.
+
+  :::example Class sizes
+  The table shows the number of pupils in each Year 4 class:
+
+  | Class | 4A | 4B | 4C | 4D |
+  |---|---|---|---|---|
+  | Pupils | $32$ | $30$ | $34$ | $32$ |
+
+  Which class is the biggest? How many pupils are there in all?
+
+  **Solution.** The list of data is $32, 30, 34, 32$. The greatest is $34$, for class $4$C. The total number of pupils is:
+  $$32+30+34+32=128\ \text{(pupils)}.$$
+  So class $4$C is the biggest, and there are $128$ pupils in all.
+  :::
+
+[[P10·9c25]]
+Finally, we count how many times a value appears.
+
+  :::example How many times a value appears
+  Here is a list of data: $6, 9, 4, 9, 7$. How many values are there? Which value appears most often?
+
+  **Solution.** Count the numbers, including repeats: $6, 9, 4, 9, 7$ has $5$ numbers. The number $9$ appears $2$ times and the others only $1$ time. So there are $5$ values and $9$ appears most often.
+
+  **Check.** Add up the counts: $1+2+1+1=5$. This matches the $5$ values.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·d53c]]
+- **Leaving out repeats.** Wrong: the list $6, 9, 4, 9, 7$ has $4$ numbers. Why it is wrong: each child or measurement gives one number, and $9$ appears twice so we count it twice. Right: $5$ numbers.
+- **Mixing up the greatest with the most common.** Wrong: in $3, 8, 3, 5$ the most common value is $8$. Why it is wrong: $8$ is only the greatest, and $3$ appears twice. Right: the number $3$.
+- **Losing repeats when putting in order.** Wrong: writing $7, 3, 9, 3$ as $3, 7, 9$. Why it is wrong: the new list is missing one $3$. Right: $3, 3, 7, 9$.
+:::
+
+## Key terms
+
+  :::terms
+  - data list | dãy số liệu
+  - data value | số liệu
+  - statistics | thống kê
+  - greatest | lớn nhất
+  - least | nhỏ nhất
+  - put in order, smallest first | sắp xếp từ bé đến lớn
+  - number of times it appears | số lần xuất hiện
+  :::
+
+## Summary
+
+[[P12·7b4c]]
+- Data values are numbers we collect; written in a row they make a list of statistical data.
+- Each child or measurement gives one value; repeated values are still counted every time.
+- Find the greatest and the least by comparing each number.
+- To put in order from smallest to largest, write every number, repeats included.
+- Compare two values by subtracting: $\text{greater}-\text{smaller}$.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

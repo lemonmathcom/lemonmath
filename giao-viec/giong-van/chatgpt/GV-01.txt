@@ -1,0 +1,3817 @@
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – GV-01
+Gồm 9 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g10/vectors-in-coordinates, g9/acute-angle-trig-ratios, g9/arc-length-sector-area, g9/arcs-and-chords, g9/circumcircle-incircle, g9/cube-roots, g9/cyclic-quadrilaterals, g9/cylinders-and-cones, g9/equations-reducible-to-linear
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  GV-ChatGPT-GV-01.md  (trong /mnt/data), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/data/GV-ChatGPT-GV-01.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/9). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file GV-ChatGPT-GV-01.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g10/vectors-in-coordinates – BẢN TIẾNG VIỆT ########
+---
+title: Vectơ trong mặt phẳng toạ độ
+description: Mô tả vectơ bằng toạ độ, cộng và nhân vectơ với một số, rồi tìm độ dài, trung điểm, trọng tâm và các điểm thẳng hàng bằng toạ độ.
+minutes: 25
+---
+
+  :::goals
+  - Viết vectơ dưới dạng $\vec{a}=(x; y)$ và tìm toạ độ của $\overrightarrow{AB}$ từ hai điểm $A$, $B$.
+  - Cộng, trừ và nhân vectơ với một số bằng toạ độ.
+  - Tìm độ dài của vectơ và khoảng cách giữa hai điểm.
+  - Dùng toạ độ cho trung điểm, trọng tâm, tính thẳng hàng và đỉnh còn thiếu của hình bình hành.
+  :::
+
+[[P1·0b05]]
+Trên bản đồ một khu phố kẻ ô vuông, nhà Lan ở điểm $(0; 0)$. Ứng dụng chỉ đường bảo Lan "đi $3$ dãy nhà về phía đông, rồi $2$ dãy nhà về phía bắc" để tới trường. Nhà Minh ở điểm $(1; 4)$, và Minh làm đúng hai thao tác ấy. Minh sẽ đến điểm nào?
+
+## Toạ độ của vectơ
+
+[[P2·674d]]
+Ta thử tính. Thao tác "đi $3$ sang phải, $2$ lên trên" cộng $3$ vào hoành độ và $2$ vào tung độ, dù xuất phát ở đâu:
+
+  $$\text{Lan: } (0+3;\ 0+2)=(3; 2),\qquad \text{Minh: } (1+3;\ 4+2)=(4; 6).$$
+
+[[P3·b2e4]]
+Hai bạn đi hai mũi tên khác chỗ nhưng **bằng nhau**, và cặp số $(3; 2)$ mô tả trọn vẹn mũi tên đó. Vậy Minh đến điểm $(4; 6)$. Cặp số như $(3; 2)$ gọi là toạ độ của vectơ.
+
+[[P4·3c26]]
+Trong mặt phẳng có hệ trục $Ox$, $Oy$, gọi $\vec{i}$ là vectơ có độ dài $1$ trên trục $Ox$, cùng hướng với trục, và $\vec{j}$ là vectơ như vậy trên trục $Oy$. Đây là các **vectơ đơn vị** của hai trục.
+
+  :::definition Toạ độ của vectơ
+  Mỗi vectơ $\vec{a}$ viết được duy nhất dưới dạng
+  $$\vec{a}=x\vec{i}+y\vec{j}.$$
+  Cặp số $(x; y)$ là **toạ độ** của $\vec{a}$, và ta viết $\vec{a}=(x; y)$.
+  :::
+
+:::diagram Vectơ $\vec{a}=3\vec{i}+2\vec{j}$
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·d6a7]]
+Hai vectơ **bằng nhau** khi và chỉ khi toạ độ của chúng bằng nhau: $(x; y)=(x'; y')$ nghĩa là $x=x'$ và $y=y'$. Vectơ-không là $(0; 0)$.
+
+### Từ hai điểm đến một vectơ
+
+[[P6·8182]]
+Nếu $A(x_A; y_A)$ và $B(x_B; y_B)$ thì để đi từ $A$ đến $B$ ta dịch $x_B-x_A$ theo chiều ngang và $y_B-y_A$ theo chiều dọc:
+  $$\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A).$$
+[[P7·c3fa]]
+Nói gọn: toạ độ **điểm cuối trừ điểm đầu**.
+
+[[P8·523c]]
+Ví dụ đầu tiên áp dụng công thức này và cho thấy một vectơ có thể "nằm" ở nhiều chỗ.
+
+  :::example Vectơ từ hai điểm
+  Cho $A(1; 2)$, $B(4; 6)$, $C(-2; 0)$, $D(1; 4)$. Tìm toạ độ của $\overrightarrow{AB}$ và $\overrightarrow{CD}$. Hai vectơ này có bằng nhau không?
+
+  **Lời giải.** Lấy toạ độ điểm cuối trừ toạ độ điểm đầu:
+
+  $$\overrightarrow{AB}=(4-1;\ 6-2)=(3; 4),\qquad \overrightarrow{CD}=(1-(-2);\ 4-0)=(3; 4).$$
+
+  Hai vectơ có cùng toạ độ, nên $\overrightarrow{AB}=\overrightarrow{CD}$, dù bốn điểm khác nhau.
+  :::
+
+## Các phép toán theo toạ độ
+
+[[P9·c570]]
+Vì $\vec{a}=x_1\vec{i}+y_1\vec{j}$ và $\vec{b}=x_2\vec{i}+y_2\vec{j}$, các quy tắc tính toán của bài trước cho $\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}$. Làm tương tự cho hiệu và tích với một số:
+
+  :::theorem Các phép toán theo toạ độ
+  Cho $\vec{a}=(x_1; y_1)$, $\vec{b}=(x_2; y_2)$ và số $k$. Khi đó
+  - $\vec{a}+\vec{b}=(x_1+x_2;\ y_1+y_2)$,
+  - $\vec{a}-\vec{b}=(x_1-x_2;\ y_1-y_2)$,
+  - $k\vec{a}=(kx_1;\ ky_1)$.
+  :::
+
+[[P10·3da5]]
+Như vậy ta cộng, trừ và nhân vectơ với một số **từng toạ độ một**.
+
+  :::example Kết hợp các vectơ
+  Cho $\vec{a}=(2; -1)$ và $\vec{b}=(-3; 4)$. Tìm $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$ và $3\vec{a}-2\vec{b}$.
+
+  **Lời giải.** Ta tính riêng hoành độ và tung độ:
+
+  $$\vec{a}+\vec{b}=(2-3;\ -1+4)=(-1; 3),\qquad \vec{a}-\vec{b}=(2+3;\ -1-4)=(5; -5).$$
+
+  Với biểu thức thứ ba, nhân trước rồi trừ sau:
+
+  $$3\vec{a}=(6; -3),\quad 2\vec{b}=(-6; 8),\quad 3\vec{a}-2\vec{b}=(6+6;\ -3-8)=(12; -11).$$
+
+  Vậy $\vec{a}+\vec{b}=(-1; 3)$, $\vec{a}-\vec{b}=(5; -5)$ và $3\vec{a}-2\vec{b}=(12; -11)$.
+  :::
+
+## Độ dài vectơ và khoảng cách
+
+[[P11·0ca9]]
+Trong hình trên, $\vec{a}=(3; 2)$ là cạnh huyền của tam giác vuông có hai cạnh góc vuông $3$ và $2$. Tổng quát, theo định lí Pythagore, vectơ $\vec{a}=(x; y)$ có độ dài
+  $$|\vec{a}|=\sqrt{x^2+y^2}.$$
+[[P12·7397]]
+Vì $AB$ là độ dài của $\overrightarrow{AB}$, nên **khoảng cách giữa hai điểm** là
+  $$AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}.$$
+
+[[P13·b8b2]]
+Có độ dài ba cạnh, ta nhận dạng được tam giác mà không cần vẽ.
+
+  :::example Tam giác vuông
+  Cho $A(1; 2)$, $B(4; 6)$, $C(9; -4)$. Chứng minh tam giác $ABC$ vuông.
+
+  **Lời giải.** Ta tính bình phương ba cạnh rồi dùng định lí Pythagore đảo:
+
+  $$\begin{aligned}
+  \overrightarrow{AB}&=(3; 4), & AB^2&=9+16=25,\\
+  \overrightarrow{AC}&=(8; -6), & AC^2&=64+36=100,\\
+  \overrightarrow{BC}&=(5; -10), & BC^2&=25+100=125.
+  \end{aligned}$$
+
+  Vì $AB^2+AC^2=25+100=125=BC^2$, tam giác $ABC$ vuông tại $A$.
+
+  **Kiểm tra.** Cạnh dài nhất $BC$ là cạnh huyền, nên góc vuông nằm ở đỉnh đối diện, tức $A$.
+  :::
+
+## Trung điểm và trọng tâm
+
+[[P14·6023]]
+Dùng $\overrightarrow{OM}=\frac12(\overrightarrow{OA}+\overrightarrow{OB})$ và $\overrightarrow{OG}=\frac13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$ với $O$ là gốc toạ độ. Toạ độ của $\overrightarrow{OA}$ chính là toạ độ của điểm $A$, nên ta được toạ độ bằng cách lấy trung bình cộng.
+
+  :::theorem Trung điểm và trọng tâm
+  - Trung điểm $M$ của $AB$ là $M\left(\dfrac{x_A+x_B}{2};\ \dfrac{y_A+y_B}{2}\right)$.
+  - Trọng tâm $G$ của tam giác $ABC$ là $G\left(\dfrac{x_A+x_B+x_C}{3};\ \dfrac{y_A+y_B+y_C}{3}\right)$.
+  :::
+
+  :::example Trung điểm và trọng tâm
+  a) Tìm trung điểm của đoạn thẳng nối $A(2; -1)$ và $B(6; 5)$.
+  b) Tìm trọng tâm của tam giác có các đỉnh $A(1; 1)$, $B(5; 2)$, $C(0; 6)$.
+
+  **Lời giải.** Lấy trung bình cộng từng toạ độ:
+
+  $$M\left(\frac{2+6}{2};\ \frac{-1+5}{2}\right)=M(4; 2),\qquad G\left(\frac{1+5+0}{3};\ \frac{1+2+6}{3}\right)=G(2; 3).$$
+
+  Vậy trung điểm là $M(4; 2)$ và trọng tâm là $G(2; 3)$.
+  :::
+
+## Vectơ cùng phương và ba điểm thẳng hàng
+
+[[P15·9bc9]]
+Hai vectơ $\vec{a}=(x_1; y_1)$ và $\vec{b}=(x_2; y_2)$ khác $\vec{0}$ **cùng phương** khi vectơ này là bội của vectơ kia, chẳng hạn $(2; 4)$ và $(4; 8)=2(2; 4)$. Theo toạ độ, điều đó tương đương với
+  $$x_1y_2-x_2y_1=0.$$
+[[P16·560e]]
+Ta dùng phép thử bằng tích này thay cho tỉ số $\frac{x_1}{x_2}=\frac{y_1}{y_2}$, vì tỉ số không dùng được khi có một toạ độ bằng $0$. Ba điểm $A$, $B$, $C$ thẳng hàng khi $\overrightarrow{AB}$ và $\overrightarrow{AC}$ cùng phương.
+
+[[P17·effa]]
+Ví dụ sau dùng phép thử này hai lần: một lần để kiểm tra, một lần để tìm một điểm chưa biết.
+
+  :::example Ba điểm thẳng hàng
+  Cho $A(-1; 1)$, $B(3; 3)$, $C(7; 5)$.
+
+  a) Chứng minh $A$, $B$, $C$ thẳng hàng.
+  b) Đường thẳng $AB$ cắt trục hoành tại $M$. Tìm toạ độ của $M$.
+
+  **Lời giải.** a) Ta xét $\overrightarrow{AB}$ và $\overrightarrow{AC}$:
+
+  $$\overrightarrow{AB}=(4; 2),\quad \overrightarrow{AC}=(8; 4),\quad 4\cdot4-8\cdot2=0.$$
+
+  Hai vectơ cùng phương (thật vậy $\overrightarrow{AC}=2\overrightarrow{AB}$), nên $A$, $B$, $C$ thẳng hàng.
+
+  b) Điểm $M$ nằm trên trục hoành nên $M(t; 0)$. Cần $\overrightarrow{AM}=(t+1; -1)$ cùng phương với $\overrightarrow{AB}=(4; 2)$:
+
+  $$(t+1)\cdot2-4\cdot(-1)=0\iff 2t+6=0\iff t=-3.$$
+
+  Vậy $M(-3; 0)$.
+  :::
+
+## Đỉnh còn thiếu của hình bình hành
+
+[[P18·2eff]]
+$ABCD$ là hình bình hành khi và chỉ khi $\overrightarrow{AB}=\overrightarrow{DC}$. Viết đẳng thức này theo toạ độ, ta tìm được đỉnh thứ tư.
+
+:::diagram Hình bình hành $ABCD$
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Đỉnh thứ tư
+  Ba đỉnh của hình bình hành $ABCD$ là $A(1; 1)$, $B(4; 2)$ và $C(5; 5)$. Tìm $D$.
+
+  **Lời giải.** Gọi $D(x; y)$. Hình bình hành cho $\overrightarrow{AB}=\overrightarrow{DC}$; ta cho hai toạ độ bằng nhau:
+
+  $$(3; 1)=(5-x;\ 5-y)\iff\begin{cases}5-x=3\\5-y=1\end{cases}\iff\begin{cases}x=2\\y=4.\end{cases}$$
+
+  Vậy $D(2; 4)$.
+
+  **Kiểm tra.** Hai đường chéo phải cắt nhau tại trung điểm mỗi đường: trung điểm của $AC$ là $(3; 3)$ và trung điểm của $BD$ cũng là $(3; 3)$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P19·8d5f]]
+- **Trừ sai thứ tự.** Sai: với $A(1; 2)$, $B(4; 6)$, viết $\overrightarrow{AB}=(1-4;\ 2-6)=(-3; -4)$. Đó là $\overrightarrow{BA}$. Đúng: điểm cuối trừ điểm đầu, $\overrightarrow{AB}=(3; 4)$.
+- **Cộng toạ độ thay cho tính độ dài.** Sai: $|(3; 4)|=3+4=7$. Đúng: $|(3; 4)|=\sqrt{9+16}=5$.
+- **Dùng tỉ số khi có toạ độ bằng $0$.** Với $(0; 2)$ và $(0; 5)$, tỉ số $\frac{0}{0}$ không có nghĩa, nhưng $0\cdot5-0\cdot2=0$ cho biết hai vectơ cùng phương.
+- **Sai thứ tự đỉnh hình bình hành.** $ABCD$ là hình bình hành cần $\overrightarrow{AB}=\overrightarrow{DC}$, không phải $\overrightarrow{AB}=\overrightarrow{CD}$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - các vectơ đơn vị | unit vectors
+  - toạ độ của vectơ | coordinates of a vector
+  - hai vectơ bằng nhau | equal vectors
+  - độ dài vectơ | length of a vector
+  - khoảng cách giữa hai điểm | distance between two points
+  - trung điểm | midpoint
+  - trọng tâm | centroid
+  - cùng phương | collinear
+  - hình bình hành | parallelogram
+  :::
+
+## Tóm tắt
+
+[[P20·54b2]]
+- $\vec{a}=x\vec{i}+y\vec{j}$ được viết là $\vec{a}=(x; y)$; $\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A)$ (cuối trừ đầu).
+- Cộng, trừ và nhân với một số từng toạ độ một.
+- $|\vec{a}|=\sqrt{x^2+y^2}$; $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$.
+- Trung điểm: trung bình cộng hai toạ độ; trọng tâm: trung bình cộng ba toạ độ.
+- $\vec{a}$, $\vec{b}$ cùng phương $\iff x_1y_2-x_2y_1=0$; ba điểm thẳng hàng khi $\overrightarrow{AB}$, $\overrightarrow{AC}$ cùng phương.
+- Đỉnh thứ tư của hình bình hành $ABCD$: giải $\overrightarrow{AB}=\overrightarrow{DC}$.
+
+## Luyện tập
+
+[[P21·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g10/vectors-in-coordinates – BẢN TIẾNG ANH ########
+---
+title: Vectors in the coordinate plane
+description: Describe a vector by its coordinates, add and scale vectors with numbers, and find lengths, midpoints, centroids and collinear points from coordinates.
+minutes: 25
+---
+
+  :::goals
+  - Write a vector as $\vec{a}=(x, y)$ and find the coordinates of $\overrightarrow{AB}$ from the points $A$ and $B$.
+  - Add, subtract and scale vectors using coordinates.
+  - Find the length of a vector and the distance between two points.
+  - Use coordinates for midpoints, centroids, collinearity and a missing vertex of a parallelogram.
+  :::
+
+[[P1·19b5]]
+On a map of a neighbourhood drawn on a square grid, Lan's house is at the point $(0, 0)$. A map app tells Lan "walk $3$ blocks east, then $2$ blocks north" to reach school. Minh's house is at the point $(1, 4)$, and Minh follows exactly the same two instructions. Where does Minh end up?
+
+## Coordinates of a vector
+
+[[P2·9496]]
+Let us compute. The move "$3$ to the right, $2$ up" adds $3$ to the $x$-coordinate and $2$ to the $y$-coordinate, wherever you start:
+
+  $$\text{Lan: } (0+3,\ 0+2)=(3, 2),\qquad \text{Minh: } (1+3,\ 4+2)=(4, 6).$$
+
+[[P3·2fae]]
+The two friends follow arrows in different places, but the arrows are **equal**, and the pair $(3, 2)$ describes that arrow completely. So Minh ends up at $(4, 6)$. A pair such as $(3, 2)$ is called the coordinates of the vector.
+
+[[P4·7c1d]]
+In the plane with axes $Ox$ and $Oy$, let $\vec{i}$ be the vector of length $1$ along $Ox$, pointing the way of the axis, and $\vec{j}$ the same kind of vector along $Oy$. These are the **unit vectors** of the axes.
+
+  :::definition Coordinates of a vector
+  Every vector $\vec{a}$ can be written in exactly one way as
+  $$\vec{a}=x\vec{i}+y\vec{j}.$$
+  The pair $(x, y)$ is the **coordinates** of $\vec{a}$, and we write $\vec{a}=(x, y)$.
+  :::
+
+:::diagram The vector $\vec{a}=3\vec{i}+2\vec{j}$
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·360f]]
+Two vectors are **equal** exactly when their coordinates are equal: $(x, y)=(x', y')$ means $x=x'$ and $y=y'$. The zero vector is $(0, 0)$.
+
+### From points to a vector
+
+[[P6·3dc2]]
+If $A(x_A, y_A)$ and $B(x_B, y_B)$, then to go from $A$ to $B$ we move $x_B-x_A$ horizontally and $y_B-y_A$ vertically:
+  $$\overrightarrow{AB}=(x_B-x_A,\ y_B-y_A).$$
+[[P7·d4b9]]
+In short: **end point minus start point**.
+
+[[P8·5226]]
+The first example applies this formula and shows that one vector can "sit" in many places.
+
+  :::example A vector from two points
+  Let $A(1, 2)$, $B(4, 6)$, $C(-2, 0)$, $D(1, 4)$. Find the coordinates of $\overrightarrow{AB}$ and $\overrightarrow{CD}$. Are the two vectors equal?
+
+  **Solution.** Subtract the coordinates of the start point from those of the end point:
+
+  $$\overrightarrow{AB}=(4-1,\ 6-2)=(3, 4),\qquad \overrightarrow{CD}=(1-(-2),\ 4-0)=(3, 4).$$
+
+  The two vectors have the same coordinates, so $\overrightarrow{AB}=\overrightarrow{CD}$, even though the four points are different.
+  :::
+
+## Operations in coordinates
+
+[[P9·a86b]]
+Since $\vec{a}=x_1\vec{i}+y_1\vec{j}$ and $\vec{b}=x_2\vec{i}+y_2\vec{j}$, the rules from the previous lesson give $\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}$. The same works for differences and for multiples:
+
+  :::theorem Operations on coordinates
+  Let $\vec{a}=(x_1, y_1)$, $\vec{b}=(x_2, y_2)$ and $k$ a number. Then
+  - $\vec{a}+\vec{b}=(x_1+x_2,\ y_1+y_2)$,
+  - $\vec{a}-\vec{b}=(x_1-x_2,\ y_1-y_2)$,
+  - $k\vec{a}=(kx_1,\ ky_1)$.
+  :::
+
+[[P10·b414]]
+So we add, subtract and scale vectors **one coordinate at a time**.
+
+  :::example Combining vectors
+  Let $\vec{a}=(2, -1)$ and $\vec{b}=(-3, 4)$. Find $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$ and $3\vec{a}-2\vec{b}$.
+
+  **Solution.** We work on the $x$- and $y$-coordinates separately:
+
+  $$\vec{a}+\vec{b}=(2-3,\ -1+4)=(-1, 3),\qquad \vec{a}-\vec{b}=(2+3,\ -1-4)=(5, -5).$$
+
+  For the third expression, multiply first and subtract afterwards:
+
+  $$3\vec{a}=(6, -3),\quad 2\vec{b}=(-6, 8),\quad 3\vec{a}-2\vec{b}=(6+6,\ -3-8)=(12, -11).$$
+
+  So $\vec{a}+\vec{b}=(-1, 3)$, $\vec{a}-\vec{b}=(5, -5)$ and $3\vec{a}-2\vec{b}=(12, -11)$.
+  :::
+
+## Length of a vector and distance
+
+[[P11·66a6]]
+In the figure above, $\vec{a}=(3, 2)$ is the hypotenuse of a right-angled triangle with legs $3$ and $2$. In general, by Pythagoras' theorem, the vector $\vec{a}=(x, y)$ has length
+  $$|\vec{a}|=\sqrt{x^2+y^2}.$$
+[[P12·1c55]]
+Since $AB$ is the length of $\overrightarrow{AB}$, the **distance between two points** is
+  $$AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}.$$
+
+[[P13·7a7e]]
+With the three side lengths, we can recognise a triangle without drawing it.
+
+  :::example A right-angled triangle
+  Let $A(1, 2)$, $B(4, 6)$, $C(9, -4)$. Prove that triangle $ABC$ is right-angled.
+
+  **Solution.** We find the squares of the three sides and use the converse of Pythagoras' theorem:
+
+  $$\begin{aligned}
+  \overrightarrow{AB}&=(3, 4), & AB^2&=9+16=25,\\
+  \overrightarrow{AC}&=(8, -6), & AC^2&=64+36=100,\\
+  \overrightarrow{BC}&=(5, -10), & BC^2&=25+100=125.
+  \end{aligned}$$
+
+  Since $AB^2+AC^2=25+100=125=BC^2$, triangle $ABC$ has a right angle at $A$.
+
+  **Check.** The longest side $BC$ is the hypotenuse, so the right angle is at the opposite vertex, $A$.
+  :::
+
+## Midpoint and centroid
+
+[[P14·2069]]
+Use $\overrightarrow{OM}=\frac12(\overrightarrow{OA}+\overrightarrow{OB})$ and $\overrightarrow{OG}=\frac13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$ with $O$ the origin. The coordinates of $\overrightarrow{OA}$ are exactly the coordinates of the point $A$, so we get coordinates by averaging.
+
+  :::theorem Midpoint and centroid
+  - The midpoint $M$ of $AB$ is $M\left(\dfrac{x_A+x_B}{2},\ \dfrac{y_A+y_B}{2}\right)$.
+  - The centroid $G$ of triangle $ABC$ is $G\left(\dfrac{x_A+x_B+x_C}{3},\ \dfrac{y_A+y_B+y_C}{3}\right)$.
+  :::
+
+  :::example Midpoint and centroid
+  a) Find the midpoint of the segment joining $A(2, -1)$ and $B(6, 5)$.
+  b) Find the centroid of the triangle with vertices $A(1, 1)$, $B(5, 2)$, $C(0, 6)$.
+
+  **Solution.** Average each coordinate:
+
+  $$M\left(\frac{2+6}{2},\ \frac{-1+5}{2}\right)=M(4, 2),\qquad G\left(\frac{1+5+0}{3},\ \frac{1+2+6}{3}\right)=G(2, 3).$$
+
+  So the midpoint is $M(4, 2)$ and the centroid is $G(2, 3)$.
+  :::
+
+## Collinear vectors and collinear points
+
+[[P15·b68b]]
+Two non-zero vectors $\vec{a}=(x_1, y_1)$ and $\vec{b}=(x_2, y_2)$ are **collinear** when one is a multiple of the other, for example $(2, 4)$ and $(4, 8)=2(2, 4)$. In coordinates this is equivalent to
+  $$x_1y_2-x_2y_1=0.$$
+[[P16·c2c5]]
+We use this product test instead of the ratio $\frac{x_1}{x_2}=\frac{y_1}{y_2}$, because the ratio fails when a coordinate is $0$. Three points $A$, $B$, $C$ are collinear when $\overrightarrow{AB}$ and $\overrightarrow{AC}$ are collinear.
+
+[[P17·f4e2]]
+The next example uses the test twice: once to check, and once to find an unknown point.
+
+  :::example Three collinear points
+  Let $A(-1, 1)$, $B(3, 3)$, $C(7, 5)$.
+
+  a) Prove that $A$, $B$, $C$ are collinear.
+  b) The line $AB$ meets the $x$-axis at $M$. Find the coordinates of $M$.
+
+  **Solution.** a) We look at $\overrightarrow{AB}$ and $\overrightarrow{AC}$:
+
+  $$\overrightarrow{AB}=(4, 2),\quad \overrightarrow{AC}=(8, 4),\quad 4\cdot4-8\cdot2=0.$$
+
+  The vectors are collinear (indeed $\overrightarrow{AC}=2\overrightarrow{AB}$), so $A$, $B$, $C$ are collinear.
+
+  b) The point $M$ is on the $x$-axis, so $M(t, 0)$. We need $\overrightarrow{AM}=(t+1, -1)$ to be collinear with $\overrightarrow{AB}=(4, 2)$:
+
+  $$(t+1)\cdot2-4\cdot(-1)=0\iff 2t+6=0\iff t=-3.$$
+
+  So $M(-3, 0)$.
+  :::
+
+## A missing vertex of a parallelogram
+
+[[P18·5e5b]]
+$ABCD$ is a parallelogram exactly when $\overrightarrow{AB}=\overrightarrow{DC}$. Writing this equality in coordinates gives the fourth vertex.
+
+:::diagram Parallelogram $ABCD$
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Fourth vertex
+  Three vertices of parallelogram $ABCD$ are $A(1, 1)$, $B(4, 2)$ and $C(5, 5)$. Find $D$.
+
+  **Solution.** Let $D(x, y)$. The parallelogram gives $\overrightarrow{AB}=\overrightarrow{DC}$; we set the coordinates equal:
+
+  $$(3, 1)=(5-x,\ 5-y)\iff\begin{cases}5-x=3\\5-y=1\end{cases}\iff\begin{cases}x=2\\y=4.\end{cases}$$
+
+  So $D(2, 4)$.
+
+  **Check.** The diagonals must bisect each other: the midpoint of $AC$ is $(3, 3)$, and the midpoint of $BD$ is also $(3, 3)$.
+  :::
+
+:::warning Common mistakes
+[[P19·44ac]]
+- **Subtracting in the wrong order.** Wrong: for $A(1, 2)$, $B(4, 6)$, writing $\overrightarrow{AB}=(1-4,\ 2-6)=(-3, -4)$. That is $\overrightarrow{BA}$. Right: end minus start, $\overrightarrow{AB}=(3, 4)$.
+- **Adding coordinates instead of finding the length.** Wrong: $|(3, 4)|=3+4=7$. Right: $|(3, 4)|=\sqrt{9+16}=5$.
+- **Using the ratio when a coordinate is $0$.** For $(0, 2)$ and $(0, 5)$ the ratio $\frac{0}{0}$ means nothing, but $0\cdot5-0\cdot2=0$ shows the vectors are collinear.
+- **The wrong order of vertices.** $ABCD$ being a parallelogram needs $\overrightarrow{AB}=\overrightarrow{DC}$, not $\overrightarrow{AB}=\overrightarrow{CD}$.
+:::
+
+## Key terms
+
+  :::terms
+  - unit vectors | các vectơ đơn vị
+  - coordinates of a vector | toạ độ của vectơ
+  - equal vectors | hai vectơ bằng nhau
+  - length of a vector | độ dài vectơ
+  - distance between two points | khoảng cách giữa hai điểm
+  - midpoint | trung điểm
+  - centroid | trọng tâm
+  - collinear | cùng phương
+  - parallelogram | hình bình hành
+  :::
+
+## Summary
+
+[[P20·a33d]]
+- $\vec{a}=x\vec{i}+y\vec{j}$ is written $\vec{a}=(x, y)$; $\overrightarrow{AB}=(x_B-x_A,\ y_B-y_A)$ (end minus start).
+- Add, subtract and scale one coordinate at a time.
+- $|\vec{a}|=\sqrt{x^2+y^2}$; $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$.
+- Midpoint: average of two sets of coordinates; centroid: average of three.
+- $\vec{a}$, $\vec{b}$ collinear $\iff x_1y_2-x_2y_1=0$; three points are collinear when $\overrightarrow{AB}$, $\overrightarrow{AC}$ are collinear.
+- Fourth vertex of parallelogram $ABCD$: solve $\overrightarrow{AB}=\overrightarrow{DC}$.
+
+## Practice
+
+[[P21·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/acute-angle-trig-ratios – BẢN TIẾNG VIỆT ########
+---
+title: Tỉ số lượng giác của góc nhọn
+description: Định nghĩa sin, cos, tan, cot của góc nhọn trong tam giác vuông, nhớ giá trị của các góc đặc biệt và tỉ số lượng giác của hai góc phụ nhau.
+minutes: 20
+---
+
+  :::goals
+  - Viết được sin, cos, tan, cot của một góc nhọn trong tam giác vuông.
+  - Nhớ tỉ số lượng giác của các góc $30^\circ$, $45^\circ$, $60^\circ$ và dùng quan hệ giữa hai góc phụ nhau.
+  - Dùng máy tính cầm tay để tính tỉ số lượng giác và tìm góc khi biết một tỉ số.
+  :::
+
+[[P1·36c1]]
+Bác Tư dựng một chiếc thang dài $5$ m vào tường, chân thang cách chân tường $3$ m. Theo hướng dẫn an toàn, góc giữa thang và mặt đất nên vào khoảng $75^\circ$. Thang của bác Tư có đủ dốc không?
+
+[[P2·af28]]
+Ta biết hai cạnh của tam giác vuông nhưng cần một **góc**. Công cụ nối cạnh với góc là các tỉ số lượng giác.
+
+:::diagram Chiếc thang dựa vào tường
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Các tỉ số lượng giác của góc nhọn
+
+### Khám phá: tỉ số không phụ thuộc vào kích thước tam giác
+
+[[P3·66e3]]
+Xét hai tam giác vuông có cùng góc nhọn $\alpha$ ở đỉnh $B$: tam giác thứ nhất có các cạnh $3$, $4$, $5$; tam giác thứ hai có các cạnh $6$, $8$, $10$ (gấp đôi). Ta lập tỉ số giữa cạnh đối diện góc $\alpha$ và cạnh huyền:
+
+| Tam giác | cạnh đối | cạnh huyền | cạnh đối : cạnh huyền |
+|---|---|---|---|
+| thứ nhất | $3$ | $5$ | $0{,}6$ |
+| thứ hai | $6$ | $10$ | $0{,}6$ |
+
+[[P4·7c38]]
+Hai tam giác đồng dạng (lớp 8) nên tỉ số giống nhau. Tỉ số chỉ phụ thuộc vào góc $\alpha$, không phụ thuộc vào tam giác lớn hay nhỏ.
+
+:::diagram Cạnh đối, cạnh kề và cạnh huyền của góc $\alpha$
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::definition Tỉ số lượng giác của góc nhọn
+  Cho tam giác vuông có góc nhọn $\alpha$. Khi đó:
+  $$\sin\alpha=\frac{\text{cạnh đối}}{\text{cạnh huyền}},\quad \cos\alpha=\frac{\text{cạnh kề}}{\text{cạnh huyền}},\quad \tan\alpha=\frac{\text{cạnh đối}}{\text{cạnh kề}},\quad \cot\alpha=\frac{\text{cạnh kề}}{\text{cạnh đối}}.$$
+  :::
+
+[[P5·746f]]
+Vì cạnh huyền dài nhất, ta luôn có $0<\sin\alpha<1$ và $0<\cos\alpha<1$. Mẹo nhớ quen thuộc: "**sin đi học, cos không hư, tan đoàn kết, cot kết đoàn**" (sin = đối : huyền, cos = kề : huyền, tan = đối : kề, cot = kề : đối).
+
+  :::example Tính bốn tỉ số
+  Cho tam giác $ABC$ vuông tại $A$ có $AB=8$ cm, $AC=6$ cm. Tính các tỉ số lượng giác của góc $B$.
+
+  **Lời giải.** Xét tam giác $ABC$ vuông tại $A$, ta có $BC^2=AB^2+AC^2$ (định lí Pythagore). Với góc $B$, cạnh đối là $AC$, cạnh kề là $AB$. Do đó
+
+  $$BC=\sqrt{8^2+6^2}=\sqrt{100}=10;\qquad \sin B=\frac{6}{10}=\frac35,\quad \cos B=\frac{8}{10}=\frac45,\quad \tan B=\frac68=\frac34,\quad \cot B=\frac86=\frac43.$$
+
+  Vậy $\sin B=\dfrac35$, $\cos B=\dfrac45$, $\tan B=\dfrac34$, $\cot B=\dfrac43$.
+  :::
+
+[[P6·6032]]
+Cạnh đối và cạnh kề thay đổi khi ta xét góc nhọn còn lại, nên luôn xác định lại trước khi lập tỉ số.
+
+  :::example Tỉ số của góc còn lại
+  Cho tam giác $ABC$ vuông tại $A$ có $AB=5$, $AC=12$. Tính các tỉ số lượng giác của góc $C$.
+
+  **Lời giải.** Xét tam giác $ABC$ vuông tại $A$, ta có $BC^2=AB^2+AC^2$ (định lí Pythagore). Với góc $C$, cạnh đối là $AB$, cạnh kề là $AC$. Do đó
+
+  $$BC=\sqrt{5^2+12^2}=13;\qquad \sin C=\frac{5}{13},\quad \cos C=\frac{12}{13},\quad \tan C=\frac{5}{12},\quad \cot C=\frac{12}{5}.$$
+
+  Vậy $\sin C=\dfrac5{13}$, $\cos C=\dfrac{12}{13}$, $\tan C=\dfrac5{12}$, $\cot C=\dfrac{12}5$.
+  :::
+
+## Tỉ số lượng giác của các góc đặc biệt
+
+[[P7·e294]]
+Nửa hình vuông cạnh $1$ là tam giác vuông cân có hai góc $45^\circ$, cạnh huyền $\sqrt2$. Nửa tam giác đều cạnh $2$ là tam giác vuông có các góc $30^\circ$, $60^\circ$ và các cạnh $1$, $\sqrt3$, $2$. Từ hai tam giác này ta được bảng sau.
+
+| $\alpha$ | $30^\circ$ | $45^\circ$ | $60^\circ$ |
+|---|---|---|---|
+| $\sin\alpha$ | $\dfrac12$ | $\dfrac{\sqrt2}2$ | $\dfrac{\sqrt3}2$ |
+| $\cos\alpha$ | $\dfrac{\sqrt3}2$ | $\dfrac{\sqrt2}2$ | $\dfrac12$ |
+| $\tan\alpha$ | $\dfrac{\sqrt3}3$ | $1$ | $\sqrt3$ |
+| $\cot\alpha$ | $\sqrt3$ | $1$ | $\dfrac{\sqrt3}3$ |
+
+[[P8·fdda]]
+Chẳng hạn $\sin45^\circ=\dfrac{1}{\sqrt2}=\dfrac{\sqrt2}{2}$ (trục căn thức ở mẫu như ở chương trước).
+
+  :::example Tính giá trị biểu thức
+  Tính: a) $A=\sin30^\circ+\cos60^\circ-\tan45^\circ$; b) $B=\sin60^\circ\cdot\cot30^\circ$.
+
+  **Lời giải.** Thay các giá trị trong bảng, ta được
+
+  $$A=\frac12+\frac12-1=0;\qquad B=\frac{\sqrt3}{2}\cdot\sqrt3=\frac32.$$
+
+  Vậy $A=0$ và $B=\dfrac32$.
+  :::
+
+## Tỉ số lượng giác của hai góc phụ nhau
+
+[[P9·f7f6]]
+Trong tam giác $ABC$ vuông tại $A$, hai góc $B$ và $C$ phụ nhau: $\widehat{B}+\widehat{C}=90^\circ$. Cạnh đối của góc $B$ chính là cạnh kề của góc $C$, nên $\sin B=\dfrac{AC}{BC}=\cos C$.
+
+  :::theorem Hai góc phụ nhau
+  Nếu $\alpha+\beta=90^\circ$ thì
+  $$\sin\alpha=\cos\beta,\quad \cos\alpha=\sin\beta,\quad \tan\alpha=\cot\beta,\quad \cot\alpha=\tan\beta.$$
+  :::
+
+  :::example Dùng góc phụ nhau
+  a) Viết $\sin72^\circ$ và $\tan65^\circ$ thành tỉ số lượng giác của góc nhỏ hơn $45^\circ$.
+  b) Không dùng máy tính, tính $\dfrac{\sin25^\circ}{\cos65^\circ}$ và $\tan40^\circ\cdot\tan50^\circ$.
+
+  **Lời giải.** Ta có $72^\circ+18^\circ=90^\circ$, $65^\circ+25^\circ=90^\circ$, $25^\circ+65^\circ=90^\circ$, $40^\circ+50^\circ=90^\circ$ (các cặp góc phụ nhau) và $\tan40^\circ\cdot\cot40^\circ=\dfrac{\text{đối}}{\text{kề}}\cdot\dfrac{\text{kề}}{\text{đối}}=1$. Do đó
+
+  $$\sin72^\circ=\cos18^\circ,\quad \tan65^\circ=\cot25^\circ;\qquad \frac{\sin25^\circ}{\cos65^\circ}=\frac{\sin25^\circ}{\sin25^\circ}=1,\quad \tan40^\circ\cdot\tan50^\circ=\tan40^\circ\cdot\cot40^\circ=1.$$
+
+  Vậy a) $\cos18^\circ$ và $\cot25^\circ$; b) cả hai biểu thức đều bằng $1$.
+  :::
+
+[[P10·4235]]
+Với góc bất kì, ta dùng máy tính cầm tay (để ở chế độ độ, kí hiệu D). Phím `sin`, `cos`, `tan` cho tỉ số; tổ hợp `SHIFT` + `sin` (hoặc `cos`, `tan`) cho góc khi biết tỉ số. Không có phím cot, nên ta dùng $\cot\alpha=\dfrac{1}{\tan\alpha}$.
+
+  :::example Trả lời câu hỏi chiếc thang
+  Thang dài $5$ m, chân thang cách tường $3$ m. Tìm góc $\alpha$ giữa thang và mặt đất (làm tròn đến độ).
+
+  **Lời giải.** Xét tam giác $HPT$ vuông tại $H$, với góc $\alpha$ ở chân thang $P$, cạnh kề là $HP=3$ m, cạnh huyền là $PT=5$ m. Ta có
+
+  $$\cos\alpha=\frac35=0{,}6\ \Rightarrow\ \alpha\approx53{,}13^\circ\approx53^\circ.$$
+
+  Vậy góc giữa thang và mặt đất chỉ khoảng $53^\circ$, nhỏ hơn nhiều so với $75^\circ$, nên thang của bác Tư quá thoải, dễ trượt.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P11·fbff]]
+- **Nhầm cạnh đối và cạnh kề.** Sai: trong tam giác vuông tại $A$, $\sin C=\dfrac{AC}{BC}$. Lí do sai: cạnh đối diện góc $C$ là $AB$. Đúng: $\sin C=\dfrac{AB}{BC}$.
+- **Lập tỉ số với cạnh huyền ở tử.** Sai: $\cos B=\dfrac{BC}{AB}$. Lí do sai: tỉ số này lớn hơn $1$, mà $\cos B<1$. Đúng: $\cos B=\dfrac{AB}{BC}$.
+- **Nhầm giá trị đặc biệt.** Sai: $\sin60^\circ=\dfrac12$. Lí do sai: đó là $\sin30^\circ$ (cạnh đối góc $30^\circ$ ngắn nhất). Đúng: $\sin60^\circ=\dfrac{\sqrt3}2$.
+- **Để máy tính sai chế độ.** Sai: bấm $\sin30$ được $-0{,}988$. Lí do sai: máy đang ở chế độ radian. Đúng: chuyển sang chế độ độ, được $0{,}5$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - tỉ số lượng giác | trigonometric ratio
+  - góc nhọn | acute angle
+  - cạnh huyền | hypotenuse
+  - cạnh đối | opposite side
+  - cạnh kề | adjacent side
+  - sin, côsin, tang, côtang | sine, cosine, tangent, cotangent
+  - hai góc phụ nhau | complementary angles
+  - tam giác vuông cân | right-angled isosceles triangle
+  :::
+
+## Tóm tắt
+
+[[P12·d528]]
+- $\sin\alpha=\dfrac{\text{đối}}{\text{huyền}}$, $\cos\alpha=\dfrac{\text{kề}}{\text{huyền}}$, $\tan\alpha=\dfrac{\text{đối}}{\text{kề}}$, $\cot\alpha=\dfrac{\text{kề}}{\text{đối}}$.
+- Tỉ số chỉ phụ thuộc vào góc; $0<\sin\alpha<1$, $0<\cos\alpha<1$; $\tan\alpha\cdot\cot\alpha=1$.
+- $\sin30^\circ=\cos60^\circ=\dfrac12$, $\sin45^\circ=\cos45^\circ=\dfrac{\sqrt2}2$, $\sin60^\circ=\cos30^\circ=\dfrac{\sqrt3}2$, $\tan45^\circ=1$, $\tan60^\circ=\sqrt3$, $\tan30^\circ=\dfrac{\sqrt3}3$.
+- Hai góc phụ nhau: sin góc này bằng cos góc kia, tan góc này bằng cot góc kia.
+- Máy tính: chế độ độ; `SHIFT` + `sin`/`cos`/`tan` để tìm góc.
+
+## Luyện tập
+
+[[P13·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 41 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/acute-angle-trig-ratios – BẢN TIẾNG ANH ########
+---
+title: Trigonometric ratios of acute angles
+description: Sine, cosine, tangent and cotangent of an acute angle in a right-angled triangle, special-angle values and complementary angles.
+minutes: 20
+---
+
+  :::goals
+  - Write the sine, cosine, tangent and cotangent of an acute angle in a right-angled triangle.
+  - Learn the trigonometric ratios of $30^\circ$, $45^\circ$ and $60^\circ$, and use the link between complementary angles.
+  - Use a calculator to find trigonometric ratios, and to find an angle from a ratio.
+  :::
+
+[[P1·9309]]
+Mr Tư leans a $5$ m ladder against a wall, with its foot $3$ m from the bottom of the wall. Safety advice says the angle between a ladder and the ground should be about $75^\circ$. Is Mr Tư's ladder steep enough?
+
+[[P2·4065]]
+We know two sides of a right-angled triangle, but we need an **angle**. This lesson gives us the tool that links sides to angles: the trigonometric ratios.
+
+:::diagram The ladder against the wall
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## The trigonometric ratios of an acute angle
+
+### Explore: the ratio does not depend on the size of the triangle
+
+[[P3·856b]]
+Take two right-angled triangles with the same acute angle $\alpha$ at vertex $B$: the first has sides $3$, $4$, $5$; the second has sides $6$, $8$, $10$ (twice as big). We work out the ratio of the side opposite $\alpha$ to the hypotenuse:
+
+| Triangle | opposite | hypotenuse | opposite : hypotenuse |
+|---|---|---|---|
+| first | $3$ | $5$ | $0.6$ |
+| second | $6$ | $10$ | $0.6$ |
+
+[[P4·ec48]]
+The two triangles are similar (grade 8), so the ratios are the same. The ratio depends only on the angle $\alpha$, not on how big the triangle is.
+
+:::diagram The opposite side, adjacent side and hypotenuse for angle $\alpha$
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::definition Trigonometric ratios of an acute angle
+  In a right-angled triangle with an acute angle $\alpha$:
+  $$\sin\alpha=\frac{\text{opposite}}{\text{hypotenuse}},\quad \cos\alpha=\frac{\text{adjacent}}{\text{hypotenuse}},\quad \tan\alpha=\frac{\text{opposite}}{\text{adjacent}},\quad \cot\alpha=\frac{\text{adjacent}}{\text{opposite}}.$$
+  :::
+
+[[P5·d1c6]]
+Because the hypotenuse is the longest side, we always have $0<\sin\alpha<1$ and $0<\cos\alpha<1$. A well-known memory aid is **SOH CAH TOA** (Sine = Opposite : Hypotenuse, Cosine = Adjacent : Hypotenuse, Tangent = Opposite : Adjacent); the cotangent is the tangent turned upside down.
+
+  :::example Finding the four ratios
+  Triangle $ABC$ has a right angle at $A$, $AB=8$ cm and $AC=6$ cm. Find the trigonometric ratios of angle $B$.
+
+  **Solution.** In the right-angled triangle $ABC$, $BC^2=AB^2+AC^2$ (Pythagoras' theorem). For angle $B$, the opposite side is $AC$ and the adjacent side is $AB$. Hence
+
+  $$BC=\sqrt{8^2+6^2}=\sqrt{100}=10;\qquad \sin B=\frac{6}{10}=\frac35,\quad \cos B=\frac{8}{10}=\frac45,\quad \tan B=\frac68=\frac34,\quad \cot B=\frac86=\frac43.$$
+
+  So $\sin B=\dfrac35$, $\cos B=\dfrac45$, $\tan B=\dfrac34$, $\cot B=\dfrac43$.
+  :::
+
+[[P6·8355]]
+The opposite and adjacent sides change when we look at the other acute angle, so always identify them again before writing a ratio.
+
+  :::example The ratios of the other angle
+  Triangle $ABC$ has a right angle at $A$, $AB=5$ and $AC=12$. Find the trigonometric ratios of angle $C$.
+
+  **Solution.** In the right-angled triangle $ABC$, $BC^2=AB^2+AC^2$ (Pythagoras' theorem). For angle $C$, the opposite side is $AB$ and the adjacent side is $AC$. Hence
+
+  $$BC=\sqrt{5^2+12^2}=13;\qquad \sin C=\frac{5}{13},\quad \cos C=\frac{12}{13},\quad \tan C=\frac{5}{12},\quad \cot C=\frac{12}{5}.$$
+
+  So $\sin C=\dfrac5{13}$, $\cos C=\dfrac{12}{13}$, $\tan C=\dfrac5{12}$, $\cot C=\dfrac{12}5$.
+  :::
+
+## The ratios of special angles
+
+[[P7·e2d4]]
+Half of a square with side $1$ is a right-angled isosceles triangle with two $45^\circ$ angles and hypotenuse $\sqrt2$. Half of an equilateral triangle with side $2$ is a right-angled triangle with angles $30^\circ$ and $60^\circ$ and sides $1$, $\sqrt3$, $2$. These two triangles give the table below.
+
+| $\alpha$ | $30^\circ$ | $45^\circ$ | $60^\circ$ |
+|---|---|---|---|
+| $\sin\alpha$ | $\dfrac12$ | $\dfrac{\sqrt2}2$ | $\dfrac{\sqrt3}2$ |
+| $\cos\alpha$ | $\dfrac{\sqrt3}2$ | $\dfrac{\sqrt2}2$ | $\dfrac12$ |
+| $\tan\alpha$ | $\dfrac{\sqrt3}3$ | $1$ | $\sqrt3$ |
+| $\cot\alpha$ | $\sqrt3$ | $1$ | $\dfrac{\sqrt3}3$ |
+
+[[P8·5448]]
+For example, $\sin45^\circ=\dfrac{1}{\sqrt2}=\dfrac{\sqrt2}{2}$ (rationalising the denominator as in the previous chapter).
+
+  :::example Evaluating expressions
+  Evaluate: a) $A=\sin30^\circ+\cos60^\circ-\tan45^\circ$; b) $B=\sin60^\circ\cdot\cot30^\circ$.
+
+  **Solution.** Substituting the values from the table, we get
+
+  $$A=\frac12+\frac12-1=0;\qquad B=\frac{\sqrt3}{2}\cdot\sqrt3=\frac32.$$
+
+  So $A=0$ and $B=\dfrac32$.
+  :::
+
+## The ratios of complementary angles
+
+[[P9·d634]]
+In triangle $ABC$ with a right angle at $A$, angles $B$ and $C$ are complementary: $\angle B+\angle C=90^\circ$. The side opposite $B$ is the side adjacent to $C$, so $\sin B=\dfrac{AC}{BC}=\cos C$.
+
+  :::theorem Complementary angles
+  If $\alpha+\beta=90^\circ$, then
+  $$\sin\alpha=\cos\beta,\quad \cos\alpha=\sin\beta,\quad \tan\alpha=\cot\beta,\quad \cot\alpha=\tan\beta.$$
+  :::
+
+  :::example Using complementary angles
+  a) Write $\sin72^\circ$ and $\tan65^\circ$ as trigonometric ratios of angles smaller than $45^\circ$.
+  b) Without a calculator, evaluate $\dfrac{\sin25^\circ}{\cos65^\circ}$ and $\tan40^\circ\cdot\tan50^\circ$.
+
+  **Solution.** We have $72^\circ+18^\circ=90^\circ$, $65^\circ+25^\circ=90^\circ$, $25^\circ+65^\circ=90^\circ$, $40^\circ+50^\circ=90^\circ$ (complementary angles) and $\tan40^\circ\cdot\cot40^\circ=\dfrac{\text{opp}}{\text{adj}}\cdot\dfrac{\text{adj}}{\text{opp}}=1$. Hence
+
+  $$\sin72^\circ=\cos18^\circ,\quad \tan65^\circ=\cot25^\circ;\qquad \frac{\sin25^\circ}{\cos65^\circ}=\frac{\sin25^\circ}{\sin25^\circ}=1,\quad \tan40^\circ\cdot\tan50^\circ=\tan40^\circ\cdot\cot40^\circ=1.$$
+
+  So a) $\cos18^\circ$ and $\cot25^\circ$; b) both expressions equal $1$.
+  :::
+
+[[P10·e531]]
+For any other angle, we use a calculator (set to degree mode, shown as D). The `sin`, `cos` and `tan` keys give the ratio; `SHIFT` + `sin` (or `cos`, `tan`) gives the angle from a ratio. There is no cot key, so we use $\cot\alpha=\dfrac{1}{\tan\alpha}$.
+
+  :::example Answering the ladder question
+  The ladder is $5$ m long and its foot is $3$ m from the wall. Find the angle $\alpha$ between the ladder and the ground (rounded to the nearest degree).
+
+  **Solution.** In triangle $HPT$ with a right angle at $H$, for the angle $\alpha$ at the foot $P$ of the ladder, the adjacent side is $HP=3$ m and the hypotenuse is $PT=5$ m. We have
+
+  $$\cos\alpha=\frac35=0.6\ \Rightarrow\ \alpha\approx53.13^\circ\approx53^\circ.$$
+
+  So the angle between the ladder and the ground is only about $53^\circ$, much less than $75^\circ$, so Mr Tư's ladder is too shallow and may slip.
+  :::
+
+:::warning Common mistakes
+[[P11·1480]]
+- **Mixing up opposite and adjacent.** Wrong: in a triangle with a right angle at $A$, $\sin C=\dfrac{AC}{BC}$. Why it is wrong: the side opposite $C$ is $AB$. Right: $\sin C=\dfrac{AB}{BC}$.
+- **Putting the hypotenuse on top.** Wrong: $\cos B=\dfrac{BC}{AB}$. Why it is wrong: this ratio is greater than $1$, but $\cos B<1$. Right: $\cos B=\dfrac{AB}{BC}$.
+- **Mixing up special values.** Wrong: $\sin60^\circ=\dfrac12$. Why it is wrong: that is $\sin30^\circ$ (the side opposite $30^\circ$ is the shortest). Right: $\sin60^\circ=\dfrac{\sqrt3}2$.
+- **Using the wrong calculator mode.** Wrong: $\sin30$ gives $-0.988$. Why it is wrong: the calculator is in radian mode. Right: switch to degree mode to get $0.5$.
+:::
+
+## Key terms
+
+  :::terms
+  - trigonometric ratio | tỉ số lượng giác
+  - acute angle | góc nhọn
+  - hypotenuse | cạnh huyền
+  - opposite side | cạnh đối
+  - adjacent side | cạnh kề
+  - sine, cosine, tangent, cotangent | sin, côsin, tang, côtang
+  - complementary angles | hai góc phụ nhau
+  - right-angled isosceles triangle | tam giác vuông cân
+  :::
+
+## Summary
+
+[[P12·1e9f]]
+- $\sin\alpha=\dfrac{\text{opp}}{\text{hyp}}$, $\cos\alpha=\dfrac{\text{adj}}{\text{hyp}}$, $\tan\alpha=\dfrac{\text{opp}}{\text{adj}}$, $\cot\alpha=\dfrac{\text{adj}}{\text{opp}}$.
+- The ratios depend only on the angle; $0<\sin\alpha<1$, $0<\cos\alpha<1$; $\tan\alpha\cdot\cot\alpha=1$.
+- $\sin30^\circ=\cos60^\circ=\dfrac12$, $\sin45^\circ=\cos45^\circ=\dfrac{\sqrt2}2$, $\sin60^\circ=\cos30^\circ=\dfrac{\sqrt3}2$, $\tan45^\circ=1$, $\tan60^\circ=\sqrt3$, $\tan30^\circ=\dfrac{\sqrt3}3$.
+- Complementary angles: the sine of one is the cosine of the other, and the tangent of one is the cotangent of the other.
+- Calculator: degree mode; `SHIFT` + `sin`/`cos`/`tan` to find an angle.
+
+## Practice
+
+[[P13·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 41 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/arc-length-sector-area – BẢN TIẾNG VIỆT ########
+---
+title: Độ dài của cung tròn. Diện tích hình quạt tròn và hình vành khuyên
+description: Tính độ dài cung tròn, diện tích hình quạt tròn và diện tích hình vành khuyên, áp dụng vào các bài toán thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Tính được độ dài cung tròn $n^\circ$ của đường tròn bán kính $R$.
+  - Tính được diện tích hình quạt tròn và diện tích hình vành khuyên.
+  - Vận dụng các công thức vào bài toán thực tế (bánh xe, đồng hồ, cần gạt nước).
+  :::
+
+[[P1·a591]]
+Cần gạt nước của một ô tô quay quanh trục $O$. Lưỡi cao su gắn trên thanh gạt, từ điểm cách $O$ là $10$ cm đến điểm cách $O$ là $50$ cm. Mỗi lần gạt, thanh quay một góc $120^\circ$. Mỗi lần gạt lau được bao nhiêu xăng-ti-mét vuông kính?
+
+## Độ dài cung tròn
+
+### Khám phá: chia đường tròn thành $360$ phần
+
+[[P2·cc98]]
+Đường tròn bán kính $R$ có độ dài $C=2\pi R$. Cả đường tròn ứng với $360^\circ$, nên cung $1^\circ$ dài $\dfrac{2\pi R}{360}=\dfrac{\pi R}{180}$. Cung $n^\circ$ dài gấp $n$ lần cung $1^\circ$.
+
+  :::theorem Độ dài cung tròn
+  Trên đường tròn bán kính $R$, cung $n^\circ$ có độ dài
+  $$l=\frac{\pi Rn}{180}.$$
+  :::
+
+  :::example Tính độ dài cung
+  Tính độ dài cung $60^\circ$ của đường tròn bán kính $6$ cm (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Áp dụng công thức độ dài cung với $R=6$, $n=60$, ta có
+
+  $$l=\frac{\pi\cdot6\cdot60}{180}=2\pi\approx6{,}28\ \text{(cm)}.$$
+
+  Vậy cung dài khoảng $6{,}28$ cm.
+  :::
+
+[[P3·5a6d]]
+Từ công thức, khi biết $l$ và $R$ ta tìm được $n$.
+
+  :::example Tìm số đo cung
+  Một cung của đường tròn bán kính $9$ cm có độ dài $5\pi$ cm. Tính số đo của cung đó.
+
+  **Lời giải.** Từ $l=\dfrac{\pi Rn}{180}$, ta có
+
+  $$n=\frac{180l}{\pi R}=\frac{180\cdot5\pi}{9\pi}=100.$$
+
+  Vậy cung có số đo $100^\circ$.
+  :::
+
+## Diện tích hình quạt tròn
+
+[[P4·f38b]]
+Hình quạt tròn là phần hình tròn giới hạn bởi một cung và hai bán kính đi qua hai đầu mút của cung. Hình tròn có diện tích $\pi R^2$ ứng với $360^\circ$, nên hình quạt $n^\circ$ có diện tích bằng $\dfrac{n}{360}$ diện tích hình tròn.
+
+  :::theorem Diện tích hình quạt tròn
+  Hình quạt tròn bán kính $R$, cung $n^\circ$ có diện tích
+  $$S=\frac{\pi R^2n}{360}=\frac{lR}{2},$$
+  trong đó $l$ là độ dài cung của hình quạt.
+  :::
+
+:::diagram Hình quạt tròn $OAB$ bán kính $R$, cung $n^\circ$
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Diện tích hình quạt
+  Tính diện tích hình quạt tròn bán kính $10$ cm, cung $72^\circ$ (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Áp dụng công thức diện tích hình quạt, ta có
+
+  $$S=\frac{\pi\cdot10^2\cdot72}{360}=20\pi\approx62{,}83\ \text{(cm}^2\text{)}.$$
+
+  Tính cách khác: cung dài $l=\dfrac{\pi\cdot10\cdot72}{180}=4\pi$, nên $S=\dfrac{lR}{2}=\dfrac{4\pi\cdot10}{2}=20\pi$.
+
+  Vậy diện tích hình quạt khoảng $62{,}83$ cm².
+  :::
+
+## Diện tích hình vành khuyên
+
+[[P5·9b77]]
+Hình vành khuyên là phần nằm giữa hai đường tròn đồng tâm. Diện tích của nó bằng diện tích hình tròn lớn trừ diện tích hình tròn nhỏ.
+
+  :::theorem Diện tích hình vành khuyên
+  Hình vành khuyên giới hạn bởi hai đường tròn $(O; R)$ và $(O; r)$ với $R>r$ có diện tích
+  $$S=\pi R^2-\pi r^2=\pi\left(R^2-r^2\right).$$
+  :::
+
+:::diagram Hình vành khuyên giữa hai đường tròn đồng tâm
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Lối đi quanh hồ
+  Một hồ nước hình tròn bán kính $30$ m. Người ta làm một lối đi rộng $2$ m bao quanh hồ. Tính diện tích lối đi (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Lối đi là hình vành khuyên với $r=30$ m và $R=30+2=32$ m. Ta có
+
+  $$S=\pi\left(32^2-30^2\right)=\pi(1024-900)=124\pi\approx389{,}56\ \text{(m}^2\text{)}.$$
+
+  Vậy diện tích lối đi khoảng $389{,}56$ m².
+  :::
+
+[[P6·a3aa]]
+Phần kính được lau ở đầu bài là phần của hình vành khuyên nằm trong góc $120^\circ$.
+
+  :::example Cần gạt nước
+  Giải bài toán ở đầu bài (làm tròn kết quả đến hàng đơn vị).
+
+  **Lời giải.** Phần kính được lau bằng hình quạt bán kính $50$ cm trừ hình quạt bán kính $10$ cm, cùng cung $120^\circ$:
+
+  $$S=\frac{\pi\cdot50^2\cdot120}{360}-\frac{\pi\cdot10^2\cdot120}{360}=\frac{\pi\left(2500-100\right)}{3}=800\pi\approx2513\ \text{(cm}^2\text{)}.$$
+
+  Vậy mỗi lần gạt lau được khoảng $2513$ cm² kính.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P7·b963]]
+- **Nhầm hai công thức.** Sai: cung $90^\circ$ của đường tròn bán kính $4$ dài $\dfrac{\pi\cdot4^2\cdot90}{360}=4\pi$. Lí do sai: đó là diện tích hình quạt. Đúng: $l=\dfrac{\pi\cdot4\cdot90}{180}=2\pi$.
+- **Tính vành khuyên bằng hiệu bán kính.** Sai: $S=\pi(R-r)^2$. Lí do sai: phải trừ hai diện tích. Đúng: $S=\pi\left(R^2-r^2\right)$.
+- **Dùng đường kính thay cho bán kính.** Đọc kĩ đề: bánh xe "đường kính $70$ cm" có $R=35$ cm.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - độ dài đường tròn | circumference
+  - độ dài cung tròn | arc length
+  - hình quạt tròn | sector
+  - hình vành khuyên | annulus
+  - đường tròn đồng tâm | concentric circles
+  - hình viên phân | segment of a circle
+  :::
+
+## Tóm tắt
+
+[[P8·a4d5]]
+- Độ dài đường tròn $C=2\pi R$; diện tích hình tròn $\pi R^2$.
+- Cung $n^\circ$: $l=\dfrac{\pi Rn}{180}$.
+- Hình quạt $n^\circ$: $S=\dfrac{\pi R^2n}{360}=\dfrac{lR}{2}$.
+- Hình vành khuyên: $S=\pi\left(R^2-r^2\right)$.
+
+## Luyện tập
+
+[[P9·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/arc-length-sector-area – BẢN TIẾNG ANH ########
+---
+title: Arc length. Area of a sector and an annulus
+description: Find the length of an arc, the area of a sector and the area of an annulus, and use them in real-life problems.
+minutes: 20
+---
+
+  :::goals
+  - Find the length of an arc of $n^\circ$ on a circle of radius $R$.
+  - Find the area of a sector and the area of an annulus.
+  - Use the formulas in real-life problems (wheels, clocks, windscreen wipers).
+  :::
+
+[[P1·54d9]]
+A car's windscreen wiper turns about a pivot $O$. The rubber blade is fixed on the arm from the point $10$ cm from $O$ to the point $50$ cm from $O$. On each sweep the arm turns through $120^\circ$. How many square centimetres of glass does one sweep clean?
+
+## Arc length
+
+### Explore: split the circle into $360$ parts
+
+[[P2·337e]]
+A circle of radius $R$ has circumference $C=2\pi R$. The whole circle corresponds to $360^\circ$, so an arc of $1^\circ$ has length $\dfrac{2\pi R}{360}=\dfrac{\pi R}{180}$. An arc of $n^\circ$ is $n$ times as long as an arc of $1^\circ$.
+
+  :::theorem Arc length
+  On a circle of radius $R$, an arc of $n^\circ$ has length
+  $$l=\frac{\pi Rn}{180}.$$
+  :::
+
+  :::example Finding an arc length
+  Find the length of an arc of $60^\circ$ on a circle of radius $6$ cm (give your answer to 2 decimal places).
+
+  **Solution.** Using the arc-length formula with $R=6$ and $n=60$, we have
+
+  $$l=\frac{\pi\cdot6\cdot60}{180}=2\pi\approx6.28\ \text{(cm)}.$$
+
+  So the arc is about $6.28$ cm long.
+  :::
+
+[[P3·66a3]]
+From the formula, when we know $l$ and $R$ we can find $n$.
+
+  :::example Finding the measure of an arc
+  An arc of a circle of radius $9$ cm has length $5\pi$ cm. Find the measure of the arc.
+
+  **Solution.** From $l=\dfrac{\pi Rn}{180}$, we have
+
+  $$n=\frac{180l}{\pi R}=\frac{180\cdot5\pi}{9\pi}=100.$$
+
+  So the arc measures $100^\circ$.
+  :::
+
+## Area of a sector
+
+[[P4·6647]]
+A sector is the part of a disc bounded by an arc and the two radii through its end points. A disc of area $\pi R^2$ corresponds to $360^\circ$, so a sector of $n^\circ$ has area $\dfrac{n}{360}$ of the area of the disc.
+
+  :::theorem Area of a sector
+  A sector of radius $R$ with an arc of $n^\circ$ has area
+  $$S=\frac{\pi R^2n}{360}=\frac{lR}{2},$$
+  where $l$ is the length of the arc of the sector.
+  :::
+
+:::diagram The sector $OAB$ of radius $R$ with an arc of $n^\circ$
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Area of a sector
+  Find the area of a sector of radius $10$ cm with an arc of $72^\circ$ (give your answer to 2 decimal places).
+
+  **Solution.** Using the formula for the area of a sector, we have
+
+  $$S=\frac{\pi\cdot10^2\cdot72}{360}=20\pi\approx62.83\ \text{(cm}^2\text{)}.$$
+
+  Another way: the arc has length $l=\dfrac{\pi\cdot10\cdot72}{180}=4\pi$, so $S=\dfrac{lR}{2}=\dfrac{4\pi\cdot10}{2}=20\pi$.
+
+  So the area of the sector is about $62.83$ cm².
+  :::
+
+## Area of an annulus
+
+[[P5·8ba5]]
+An annulus is the region between two concentric circles. Its area is the area of the large disc minus the area of the small disc.
+
+  :::theorem Area of an annulus
+  The annulus between the circles $(O, R)$ and $(O, r)$, with $R>r$, has area
+  $$S=\pi R^2-\pi r^2=\pi\left(R^2-r^2\right).$$
+  :::
+
+:::diagram An annulus between two concentric circles
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example A path round a lake
+  A round lake has radius $30$ m. A path $2$ m wide is built all round the lake. Find the area of the path (give your answer to 2 decimal places).
+
+  **Solution.** The path is an annulus with $r=30$ m and $R=30+2=32$ m. We have
+
+  $$S=\pi\left(32^2-30^2\right)=\pi(1024-900)=124\pi\approx389.56\ \text{(m}^2\text{)}.$$
+
+  So the area of the path is about $389.56$ m².
+  :::
+
+[[P6·eb0f]]
+The glass cleaned in the opening problem is the part of an annulus inside an angle of $120^\circ$.
+
+  :::example The windscreen wiper
+  Solve the opening problem (give your answer to the nearest whole number).
+
+  **Solution.** The cleaned glass is the sector of radius $50$ cm minus the sector of radius $10$ cm, both with an arc of $120^\circ$:
+
+  $$S=\frac{\pi\cdot50^2\cdot120}{360}-\frac{\pi\cdot10^2\cdot120}{360}=\frac{\pi\left(2500-100\right)}{3}=800\pi\approx2513\ \text{(cm}^2\text{)}.$$
+
+  So one sweep cleans about $2513$ cm² of glass.
+  :::
+
+:::warning Common mistakes
+[[P7·09a7]]
+- **Mixing up the two formulas.** Wrong: an arc of $90^\circ$ on a circle of radius $4$ has length $\dfrac{\pi\cdot4^2\cdot90}{360}=4\pi$. Why it is wrong: that is the area of the sector. Right: $l=\dfrac{\pi\cdot4\cdot90}{180}=2\pi$.
+- **Using the difference of the radii for an annulus.** Wrong: $S=\pi(R-r)^2$. Why it is wrong: we must subtract two areas. Right: $S=\pi\left(R^2-r^2\right)$.
+- **Using the diameter instead of the radius.** Read carefully: a wheel "of diameter $70$ cm" has $R=35$ cm.
+:::
+
+## Key terms
+
+  :::terms
+  - circumference | độ dài đường tròn
+  - arc length | độ dài cung tròn
+  - sector | hình quạt tròn
+  - annulus | hình vành khuyên
+  - concentric circles | đường tròn đồng tâm
+  - segment of a circle | hình viên phân
+  :::
+
+## Summary
+
+[[P8·ade9]]
+- Circumference $C=2\pi R$; area of a disc $\pi R^2$.
+- Arc of $n^\circ$: $l=\dfrac{\pi Rn}{180}$.
+- Sector of $n^\circ$: $S=\dfrac{\pi R^2n}{360}=\dfrac{lR}{2}$.
+- Annulus: $S=\pi\left(R^2-r^2\right)$.
+
+## Practice
+
+[[P9·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/arcs-and-chords – BẢN TIẾNG VIỆT ########
+---
+title: Cung và dây của một đường tròn
+description: Nhận biết dây, góc ở tâm, cung nhỏ và cung lớn; tính độ dài dây và số đo cung của một đường tròn.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết dây cung và biết đường kính là dây lớn nhất.
+  - Tính độ dài dây hoặc khoảng cách từ tâm đến dây bằng định lí Pythagore.
+  - Nhận biết góc ở tâm, cung nhỏ, cung lớn và tính số đo cung.
+  :::
+
+[[P1·7bd1]]
+Chiếc đồng hồ treo tường trong lớp có kim phút dài $15$ cm. Từ $7$ giờ đến $7$ giờ $20$ phút, đầu kim phút đi từ vị trí $A$ đến vị trí $B$ trên một cung tròn. Cung đó có số đo bao nhiêu độ? Đoạn thẳng $AB$ dài bao nhiêu?
+
+## Dây của đường tròn
+
+### Khám phá: dây nào dài nhất?
+
+[[P2·fa34]]
+Trên đường tròn $(O; 5\text{ cm})$, nối hai điểm bất kì ta được một **dây**. Thử vài dây: dây cách tâm $4$ cm dài $6$ cm, dây cách tâm $3$ cm dài $8$ cm, dây đi qua tâm dài $10$ cm. Dây càng gần tâm càng dài, và dài nhất khi đi qua tâm.
+
+  :::definition Dây cung
+  Đoạn thẳng nối hai điểm phân biệt của một đường tròn gọi là **dây cung** (gọi tắt là **dây**). Dây đi qua tâm là đường kính.
+  :::
+
+  :::theorem Đường kính là dây lớn nhất
+  Trong các dây của một đường tròn, dây lớn nhất là đường kính.
+  :::
+
+[[P3·78b1]]
+**Vì sao?** Với dây $AB$ không đi qua tâm, xét tam giác $OAB$ ta có $AB<OA+OB=2R$. Nếu $AB$ đi qua tâm thì $AB=2R$.
+
+[[P4·b2ca]]
+Tam giác $OAB$ cân tại $O$ (vì $OA=OB=R$). Do đó nếu $H$ là chân đường vuông góc kẻ từ $O$ đến $AB$ thì $H$ là trung điểm của $AB$, và theo định lí Pythagore:
+
+  $$AB=2HA=2\sqrt{R^2-OH^2}.$$
+
+:::diagram Dây $AB$ và khoảng cách $OH$ từ tâm đến dây
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Tính độ dài dây
+  Cho đường tròn $(O; 10\text{ cm})$ và dây $AB$ cách $O$ một khoảng $6$ cm. Tính $AB$.
+
+  **Lời giải.** Kẻ $OH\perp AB$ tại $H$, ta có $OH=6$ cm và $H$ là trung điểm của $AB$ (tam giác $OAB$ cân tại $O$). Xét tam giác $OHA$ vuông tại $H$, ta có
+
+  $$HA=\sqrt{OA^2-OH^2}=\sqrt{10^2-6^2}=8\ \text{(cm)}.$$
+
+  Vậy $AB=2HA=16$ cm.
+  :::
+
+## Góc ở tâm và cung
+
+[[P5·7cfe]]
+Hai điểm $A$, $B$ trên đường tròn chia đường tròn thành hai **cung**, kí hiệu chung là $\overset{\frown}{AB}$. Để phân biệt, ta lấy thêm một điểm $M$ trên một cung và viết $\overset{\frown}{AMB}$.
+
+  :::definition Góc ở tâm, cung nhỏ, cung lớn
+  Góc có đỉnh trùng với tâm đường tròn gọi là **góc ở tâm**. Với góc ở tâm $\widehat{AOB}$ ($0^\circ<\widehat{AOB}<180^\circ$), cung nằm bên trong góc là **cung nhỏ**, cung còn lại là **cung lớn**; cung nhỏ $AB$ gọi là **cung bị chắn** bởi góc $\widehat{AOB}$. Nếu $AB$ là đường kính thì mỗi cung là một **nửa đường tròn**.
+  :::
+
+:::diagram Góc ở tâm $\widehat{AOB}$ chắn cung nhỏ $AB$
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Số đo cung
+
+  :::definition Số đo cung
+  - Số đo của cung nhỏ bằng số đo góc ở tâm chắn cung đó.
+  - Số đo của cung lớn bằng $360^\circ$ trừ số đo cung nhỏ có chung hai đầu mút.
+  - Số đo của nửa đường tròn bằng $180^\circ$; của cả đường tròn bằng $360^\circ$.
+
+  Số đo của cung $AB$ kí hiệu là $\text{sđ}\,\overset{\frown}{AB}$. Trong một đường tròn, hai cung bằng nhau nếu chúng có cùng số đo.
+  :::
+
+[[P6·91de]]
+Nếu điểm $C$ nằm trên cung $AB$ thì $\text{sđ}\,\overset{\frown}{AB}=\text{sđ}\,\overset{\frown}{AC}+\text{sđ}\,\overset{\frown}{CB}$ (vì góc ở tâm $\widehat{AOB}$ được chia thành hai góc).
+
+  :::example Cung nhỏ và cung lớn
+  Trên hình trên, $\widehat{AOB}=100^\circ$. Tính số đo cung nhỏ $AB$ và cung lớn $AMB$.
+
+  **Lời giải.** Ta có $\text{sđ}\,\overset{\frown}{AB}=\widehat{AOB}=100^\circ$ (số đo cung nhỏ bằng góc ở tâm chắn cung). Suy ra
+
+  $$\text{sđ}\,\overset{\frown}{AMB}=360^\circ-100^\circ=260^\circ.$$
+
+  Vậy cung nhỏ $AB$ có số đo $100^\circ$, cung lớn $AMB$ có số đo $260^\circ$.
+  :::
+
+[[P7·9959]]
+Bây giờ ta trả lời câu hỏi về chiếc đồng hồ ở đầu bài.
+
+  :::example Kim phút của đồng hồ
+  Kim phút $OA$ dài $15$ cm. Từ $7$ giờ đến $7$ giờ $20$ phút, đầu kim đi từ $A$ đến $B$. Tính $\text{sđ}\,\overset{\frown}{AB}$ (cung đầu kim đi qua) và độ dài $AB$ (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Mỗi phút kim phút quay $\dfrac{360^\circ}{60}=6^\circ$, nên trong $20$ phút kim quay $20\cdot6^\circ=120^\circ$. Do đó $\widehat{AOB}=120^\circ$ và $\text{sđ}\,\overset{\frown}{AB}=120^\circ$.
+
+  Kẻ $OH\perp AB$. Tam giác $OAB$ cân tại $O$ nên $OH$ vừa là đường cao vừa là tia phân giác, suy ra $\widehat{AOH}=60^\circ$. Xét tam giác $OHA$ vuông tại $H$, ta có
+
+  $$HA=OA\cdot\sin60^\circ=15\cdot\frac{\sqrt3}{2},\qquad AB=2HA=15\sqrt3\approx25{,}98\ \text{(cm)}.$$
+
+  Vậy cung có số đo $120^\circ$ và $AB\approx25{,}98$ cm.
+  :::
+
+[[P8·4af2]]
+Khi ba điểm chia đường tròn thành ba cung, ta dùng tính chất cộng số đo cung.
+
+  :::example Ba cung của một đường tròn
+  Ba điểm $A$, $B$, $C$ chia đường tròn $(O)$ thành ba cung $AB$, $BC$, $CA$ không chứa điểm còn lại, với $\text{sđ}\,\overset{\frown}{AB}=100^\circ$, $\text{sđ}\,\overset{\frown}{BC}=140^\circ$. Tính $\text{sđ}\,\overset{\frown}{CA}$ và số đo cung $ACB$.
+
+  **Lời giải.** Ba cung ghép lại thành cả đường tròn, nên
+
+  $$\text{sđ}\,\overset{\frown}{CA}=360^\circ-100^\circ-140^\circ=120^\circ,\qquad \text{sđ}\,\overset{\frown}{ACB}=\text{sđ}\,\overset{\frown}{BC}+\text{sđ}\,\overset{\frown}{CA}=260^\circ.$$
+
+  Vậy $\text{sđ}\,\overset{\frown}{CA}=120^\circ$ và $\text{sđ}\,\overset{\frown}{ACB}=260^\circ$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P9·9f3f]]
+- **Quên nhân đôi khi tính dây.** Sai: dây cách tâm $6$ cm của $(O; 10\text{ cm})$ dài $\sqrt{100-36}=8$ cm. Lí do sai: $8$ cm chỉ là nửa dây $HA$. Đúng: $AB=16$ cm.
+- **Lấy góc ở tâm làm số đo cung lớn.** Sai: $\widehat{AOB}=70^\circ$ nên cung lớn $AB$ có số đo $70^\circ$. Lí do sai: góc ở tâm chỉ bằng cung nhỏ. Đúng: cung lớn có số đo $290^\circ$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - dây cung | chord
+  - góc ở tâm | angle at the centre
+  - cung | arc
+  - cung nhỏ / cung lớn | minor arc / major arc
+  - cung bị chắn | intercepted arc
+  - nửa đường tròn | semicircle
+  - số đo cung | measure of an arc
+  :::
+
+## Tóm tắt
+
+[[P10·cedd]]
+- Dây nối hai điểm của đường tròn; đường kính là dây lớn nhất.
+- $OH\perp AB$ thì $H$ là trung điểm của $AB$ và $AB=2\sqrt{R^2-OH^2}$.
+- Số đo cung nhỏ bằng góc ở tâm chắn nó; cung lớn bằng $360^\circ$ trừ cung nhỏ; nửa đường tròn $180^\circ$.
+- $C$ nằm trên cung $AB$ thì $\text{sđ}\,\overset{\frown}{AB}=\text{sđ}\,\overset{\frown}{AC}+\text{sđ}\,\overset{\frown}{CB}$.
+
+## Luyện tập
+
+[[P11·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/arcs-and-chords – BẢN TIẾNG ANH ########
+---
+title: Arcs and chords of a circle
+description: Recognise chords, angles at the centre, minor and major arcs; find the length of a chord and the measure of an arc.
+minutes: 20
+---
+
+  :::goals
+  - Recognise a chord and know that a diameter is the longest chord.
+  - Find the length of a chord, or its distance from the centre, using Pythagoras' theorem.
+  - Recognise angles at the centre, minor and major arcs, and find the measure of an arc.
+  :::
+
+[[P1·8752]]
+The classroom clock has a minute hand $15$ cm long. From $7{:}00$ to $7{:}20$, its tip moves along an arc from $A$ to $B$. What is the measure of that arc? How long is the segment $AB$?
+
+## Chords of a circle
+
+### Explore: which chord is the longest?
+
+[[P2·aa51]]
+On the circle $(O, 5\text{ cm})$, joining two points gives a **chord**. A chord $4$ cm from the centre is $6$ cm long, one $3$ cm from the centre is $8$ cm long, and one through the centre is $10$ cm long. The closer to the centre, the longer the chord.
+
+  :::definition Chord
+  A segment joining two different points of a circle is called a **chord**. A chord through the centre is a diameter.
+  :::
+
+  :::theorem A diameter is the longest chord
+  Of all the chords of a circle, the longest is a diameter.
+  :::
+
+[[P3·08f9]]
+**Why?** For a chord $AB$ not through the centre, the triangle $OAB$ gives $AB<OA+OB=2R$. If $AB$ passes through the centre, then $AB=2R$.
+
+[[P4·4f5d]]
+The triangle $OAB$ is isosceles ($OA=OB=R$). Hence the foot $H$ of the perpendicular from $O$ to $AB$ is the midpoint of $AB$, and by Pythagoras' theorem:
+
+  $$AB=2HA=2\sqrt{R^2-OH^2}.$$
+
+:::diagram The chord $AB$ and its distance $OH$ from the centre
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Finding the length of a chord
+  Consider the circle $(O, 10\text{ cm})$ and a chord $AB$ at distance $6$ cm from $O$. Find $AB$.
+
+  **Solution.** Draw $OH\perp AB$; then $OH=6$ cm and $H$ is the midpoint of $AB$ (the triangle $OAB$ is isosceles). In the triangle $OHA$, right-angled at $H$, we have
+
+  $$HA=\sqrt{OA^2-OH^2}=\sqrt{10^2-6^2}=8\ \text{(cm)}.$$
+
+  So $AB=2HA=16$ cm.
+  :::
+
+## Angles at the centre and arcs
+
+[[P5·d6a4]]
+Two points $A$, $B$ on a circle split it into two **arcs**, both written $\overset{\frown}{AB}$; to tell them apart, we name a point $M$ on one and write $\overset{\frown}{AMB}$.
+
+  :::definition Angle at the centre, minor arc, major arc
+  An angle whose vertex is the centre of the circle is called an **angle at the centre**. For an angle at the centre $\angle AOB$ ($0^\circ<\angle AOB<180^\circ$), the arc inside the angle is the **minor arc**, and the other arc is the **major arc**; the minor arc $AB$ is called the arc **subtended** by $\angle AOB$. If $AB$ is a diameter, each arc is a **semicircle**.
+  :::
+
+:::diagram The angle at the centre $\angle AOB$ subtending the minor arc $AB$
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## The measure of an arc
+
+  :::definition The measure of an arc
+  - The measure of a minor arc equals the angle at the centre subtending it.
+  - The measure of a major arc is $360^\circ$ minus the measure of the minor arc with the same end points.
+  - A semicircle measures $180^\circ$; the whole circle measures $360^\circ$.
+
+  We write $\overset{\frown}{AB}=100^\circ$ for "the arc $AB$ measures $100^\circ$". In one circle, two arcs are equal if they have the same measure.
+  :::
+
+[[P6·4448]]
+If a point $C$ lies on the arc $AB$, then $\overset{\frown}{AB}=\overset{\frown}{AC}+\overset{\frown}{CB}$ (the angle $\angle AOB$ splits into two angles).
+
+  :::example Minor arc and major arc
+  In the figure above, $\angle AOB=100^\circ$. Find the measures of the minor arc $AB$ and the major arc $AMB$.
+
+  **Solution.** We have $\overset{\frown}{AB}=\angle AOB=100^\circ$ (a minor arc equals the angle at the centre subtending it). Hence
+
+  $$\overset{\frown}{AMB}=360^\circ-100^\circ=260^\circ.$$
+
+  So the minor arc $AB$ measures $100^\circ$ and the major arc $AMB$ measures $260^\circ$.
+  :::
+
+[[P7·9673]]
+Now we answer the question about the clock from the start.
+
+  :::example The minute hand of a clock
+  The minute hand $OA$ is $15$ cm long. From $7{:}00$ to $7{:}20$, its tip moves from $A$ to $B$. Find the measure of the arc $AB$ travelled by the tip and the length $AB$ (give your answer to 2 decimal places).
+
+  **Solution.** Each minute the minute hand turns $\dfrac{360^\circ}{60}=6^\circ$, so in $20$ minutes it turns $20\cdot6^\circ=120^\circ$. Hence $\angle AOB=120^\circ$ and $\overset{\frown}{AB}=120^\circ$.
+
+  Draw $OH\perp AB$. The triangle $OAB$ is isosceles, so $OH$ is also an angle bisector, hence $\angle AOH=60^\circ$. In the triangle $OHA$, right-angled at $H$, we have
+
+  $$HA=OA\cdot\sin60^\circ=15\cdot\frac{\sqrt3}{2},\qquad AB=2HA=15\sqrt3\approx25.98\ \text{(cm)}.$$
+
+  So the arc measures $120^\circ$ and $AB\approx25.98$ cm.
+  :::
+
+[[P8·d5ea]]
+When three points split a circle into three arcs, we add the measures of arcs.
+
+  :::example Three arcs of a circle
+  Three points $A$, $B$, $C$ split the circle $(O)$ into three arcs $AB$, $BC$, $CA$, none containing the third point, with $\overset{\frown}{AB}=100^\circ$ and $\overset{\frown}{BC}=140^\circ$. Find the measures of the arc $CA$ and the arc $ACB$.
+
+  **Solution.** The three arcs together make the whole circle, so
+
+  $$\overset{\frown}{CA}=360^\circ-100^\circ-140^\circ=120^\circ,\qquad \overset{\frown}{ACB}=\overset{\frown}{BC}+\overset{\frown}{CA}=260^\circ.$$
+
+  So the arc $CA$ measures $120^\circ$ and the arc $ACB$ measures $260^\circ$.
+  :::
+
+:::warning Common mistakes
+[[P9·3b16]]
+- **Forgetting to double for a chord.** Wrong: a chord $6$ cm from the centre of $(O, 10\text{ cm})$ has length $\sqrt{100-36}=8$ cm. Why it is wrong: $8$ cm is only half the chord, $HA$. Right: $AB=16$ cm.
+- **Using the angle at the centre for the major arc.** Wrong: $\angle AOB=70^\circ$, so the major arc $AB$ measures $70^\circ$. Why it is wrong: the angle equals the minor arc only. Right: the major arc measures $290^\circ$.
+:::
+
+## Key terms
+
+  :::terms
+  - chord | dây cung
+  - angle at the centre | góc ở tâm
+  - arc | cung
+  - minor arc / major arc | cung nhỏ / cung lớn
+  - subtended arc | cung bị chắn
+  - semicircle | nửa đường tròn
+  - measure of an arc | số đo cung
+  :::
+
+## Summary
+
+[[P10·7316]]
+- A chord joins two points of a circle; a diameter is the longest chord.
+- If $OH\perp AB$, then $H$ is the midpoint of $AB$ and $AB=2\sqrt{R^2-OH^2}$.
+- A minor arc equals the angle at the centre subtending it; a major arc is $360^\circ$ minus the minor arc; a semicircle is $180^\circ$.
+- If $C$ lies on the arc $AB$, then $\overset{\frown}{AB}=\overset{\frown}{AC}+\overset{\frown}{CB}$.
+
+## Practice
+
+[[P11·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/circumcircle-incircle – BẢN TIẾNG VIỆT ########
+---
+title: Đường tròn ngoại tiếp và đường tròn nội tiếp của một tam giác
+description: Xác định tâm và tính bán kính đường tròn ngoại tiếp, nội tiếp tam giác; trường hợp tam giác vuông, tam giác đều và các bài toán thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết đường tròn ngoại tiếp, đường tròn nội tiếp của một tam giác và giải thích vì sao tâm của chúng là giao điểm các đường trung trực, các đường phân giác.
+  - Tính bán kính đường tròn ngoại tiếp tam giác vuông, bán kính hai đường tròn của tam giác đều.
+  - Vận dụng vào các bài toán thực tế.
+  :::
+
+[[P1·340c]]
+Giả sử ba bản làng $A$, $B$, $C$ ở vùng núi muốn đặt chung một trạm phát sóng sao cho khoảng cách từ trạm đến ba bản **bằng nhau**, để không bản nào bị "thiệt". Đặt trạm ở đâu?
+
+[[P2·c101]]
+Một bài toán khác: từ một tấm gỗ hình tam giác, người thợ muốn cắt ra một mặt bàn tròn **lớn nhất**. Mép bàn phải chạm cả ba cạnh tấm gỗ, vì nếu còn hở một cạnh thì vẫn nới rộng được. Hai bài toán, hai đường tròn đặc biệt của tam giác.
+
+## Đường tròn ngoại tiếp tam giác
+
+### Khám phá: điểm cách đều ba đỉnh
+
+[[P3·85d4]]
+Điểm cách đều $A$ và $B$ nằm trên đường trung trực của $AB$; điểm cách đều $B$ và $C$ nằm trên đường trung trực của $BC$. Giao điểm $O$ của hai đường này có $OA=OB=OC$, nên $O$ cũng thuộc đường trung trực của $AC$. Đường tròn tâm $O$ bán kính $OA$ đi qua cả ba đỉnh.
+
+  :::definition Đường tròn ngoại tiếp tam giác
+  Đường tròn đi qua ba đỉnh của một tam giác gọi là **đường tròn ngoại tiếp** tam giác đó; tam giác gọi là **tam giác nội tiếp** đường tròn. Tâm của nó là giao điểm ba đường trung trực của tam giác.
+  :::
+
+[[P4·a02c]]
+Mỗi tam giác có đúng một đường tròn ngoại tiếp. Tâm $O$ nằm trong tam giác nếu tam giác nhọn, nằm ngoài nếu tam giác tù, và nằm trên cạnh huyền nếu tam giác vuông.
+
+:::diagram Đường tròn ngoại tiếp tam giác $ABC$
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Tam giác vuông
+
+[[P5·cdf8]]
+Nếu tam giác $ABC$ vuông tại $A$ thì $\widehat{BAC}=90^\circ$ là góc nội tiếp, nên nó chắn nửa đường tròn (bài [Góc nội tiếp](lesson:inscribed-angles)). Do đó:
+
+  :::theorem Đường tròn ngoại tiếp tam giác vuông
+  Tâm đường tròn ngoại tiếp tam giác vuông là trung điểm của cạnh huyền; bán kính bằng nửa cạnh huyền.
+  :::
+
+  :::example Vận dụng: đặt trạm phát sóng
+  Giả sử ba bản $A$, $B$, $C$ có $AB=6$ km, $AC=8$ km và $\widehat{BAC}=90^\circ$. Tìm vị trí đặt trạm cách đều ba bản và tính khoảng cách đó.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Cần điểm cách đều ba đỉnh, tức tâm đường tròn ngoại tiếp tam giác $ABC$.
+
+  *Tìm cách giải.* Tam giác vuông tại $A$ nên tâm là trung điểm của cạnh huyền $BC$.
+
+  *Giải.* Xét tam giác $ABC$ vuông tại $A$, theo định lí Pythagore ta có
+
+  $$BC=\sqrt{6^2+8^2}=10\ \text{(km)}.$$
+
+  Gọi $O$ là trung điểm của $BC$, ta có $OA=OB=OC=\dfrac{BC}{2}=5$ km.
+
+  Vậy trạm đặt tại trung điểm của đoạn $BC$, cách mỗi bản $5$ km.
+
+  *Nhìn lại.* Nếu góc tại $A$ tù thì tâm nằm **ngoài** tam giác: trạm ở xa cả ba bản hơn cần thiết. Khi đó có thể chọn tiêu chí khác (chẳng hạn trạm ở trung điểm cạnh dài nhất và phủ sóng cả ba bản). Toán học trả lời đúng câu hỏi ta đặt ra, nên phải đặt câu hỏi cho đúng.
+  :::
+
+## Đường tròn nội tiếp tam giác
+
+[[P6·da63]]
+Điểm nằm trên tia phân giác của một góc thì cách đều hai cạnh của góc (lớp 7). Giao điểm $I$ của hai đường phân giác trong (tại $B$ và $C$) cách đều cả ba cạnh, nên $I$ cũng nằm trên phân giác của góc $A$.
+
+  :::definition Đường tròn nội tiếp tam giác
+  Đường tròn tiếp xúc với ba cạnh của một tam giác gọi là **đường tròn nội tiếp** tam giác; tam giác gọi là **tam giác ngoại tiếp** đường tròn. Tâm của nó là giao điểm ba đường phân giác trong của tam giác, luôn nằm bên trong tam giác.
+  :::
+
+[[P7·24b5]]
+Bán kính $r$ bằng khoảng cách từ $I$ đến mỗi cạnh. Các cạnh là tiếp tuyến, nên từ mỗi đỉnh hai đoạn tiếp tuyến bằng nhau (bài [Vị trí tương đối của đường thẳng và đường tròn](lesson:line-circle-positions)).
+
+:::diagram Đường tròn nội tiếp tam giác vuông $ABC$ có cạnh $3$, $4$, $5$
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Bán kính đường tròn nội tiếp tam giác vuông
+  Cho tam giác $ABC$ vuông tại $A$ có $AB=4$ cm, $AC=3$ cm. Tính bán kính $r$ của đường tròn nội tiếp.
+
+  **Lời giải.** Ta có $BC=\sqrt{4^2+3^2}=5$ (cm). Gọi $D$, $E$, $F$ là tiếp điểm trên $AB$, $BC$, $CA$. Tứ giác $ADIF$ có ba góc vuông và $ID=IF=r$ nên là hình vuông, suy ra $AD=AF=r$. Theo tính chất hai tiếp tuyến cắt nhau, ta có $BD=BE$, $CE=CF$. Do đó
+
+  $$AB+AC-BC=(r+BD)+(r+CF)-(BE+CE)=2r.$$
+
+  Suy ra $r=\dfrac{4+3-5}{2}=1$ (cm).
+
+  Vậy bán kính đường tròn nội tiếp bằng $1$ cm.
+
+  **Nhận xét.** Công thức $r=\dfrac{b+c-a}{2}$ đúng cho mọi tam giác vuông với hai cạnh góc vuông $b$, $c$ và cạnh huyền $a$.
+  :::
+
+  :::example Vận dụng: mặt bàn tròn lớn nhất
+  Từ một tấm gỗ hình tam giác vuông có các cạnh $30$ cm, $40$ cm, $50$ cm, người thợ cắt một mặt bàn tròn lớn nhất. Tính bán kính mặt bàn và diện tích phần gỗ bỏ đi (làm tròn kết quả đến hàng đơn vị của cm²).
+
+  **Lời giải.** Mặt bàn lớn nhất là hình tròn nội tiếp tam giác. Ta có $30^2+40^2=50^2$ nên tam giác vuông, với cạnh huyền $50$ cm. Do đó
+
+  $$r=\frac{30+40-50}{2}=10\ \text{(cm)}.$$
+
+  Diện tích phần gỗ bỏ đi bằng diện tích tam giác trừ diện tích hình tròn:
+
+  $$\frac12\cdot30\cdot40-\pi\cdot10^2=600-100\pi\approx286\ \text{(cm}^2).$$
+
+  Vậy mặt bàn có bán kính $10$ cm và phần gỗ bỏ đi khoảng $286$ cm².
+  :::
+
+## Tam giác đều
+
+[[P8·772f]]
+Trong tam giác đều, mỗi đường trung trực cũng là đường phân giác, đường trung tuyến và đường cao. Vì vậy tâm đường tròn ngoại tiếp và tâm đường tròn nội tiếp **trùng nhau** tại trọng tâm $G$. Trọng tâm nằm trên trung tuyến, cách đỉnh $\dfrac23$ trung tuyến (lớp 7).
+
+  :::theorem Tam giác đều cạnh $a$
+  Đường cao (cũng là trung tuyến) dài $h=\dfrac{a\sqrt3}{2}$, nên
+  $$R=\frac23h=\frac{a\sqrt3}{3},\qquad r=\frac13h=\frac{a\sqrt3}{6},\qquad R=2r.$$
+  :::
+
+  :::example Tam giác đều cạnh $6$ cm
+  Tính bán kính đường tròn ngoại tiếp và đường tròn nội tiếp của tam giác đều cạnh $6$ cm.
+
+  **Lời giải.** Đường cao của tam giác là $h=\dfrac{6\sqrt3}{2}=3\sqrt3$ (cm). Tâm của hai đường tròn là trọng tâm $G$, do đó
+
+  $$R=\frac23\cdot3\sqrt3=2\sqrt3\approx3{,}46\ \text{(cm)},\qquad r=\frac13\cdot3\sqrt3=\sqrt3\approx1{,}73\ \text{(cm)}.$$
+
+  Vậy $R=2\sqrt3$ cm và $r=\sqrt3$ cm.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P9·fdce]]
+- **Nhầm hai loại tâm.** Tâm ngoại tiếp là giao các đường **trung trực** (cách đều ba đỉnh); tâm nội tiếp là giao các đường **phân giác** (cách đều ba cạnh).
+- **Lấy $R$ bằng cạnh huyền.** Sai: tam giác vuông có cạnh huyền $10$ cm nên $R=10$ cm. Đúng: $R=5$ cm (nửa cạnh huyền).
+- **Đảo $\dfrac23$ và $\dfrac13$ ở tam giác đều.** $R$ là đoạn từ tâm đến đỉnh (dài hơn), $r$ là đoạn từ tâm đến cạnh: $R=2r$.
+:::
+
+[[P10·a8fd]]
+**Kết nối.** Bài này gom nhiều kiến thức cũ: đường trung trực và phân giác (lớp 7), góc nội tiếp chắn nửa đường tròn, tính chất hai tiếp tuyến cắt nhau. Câu hỏi "đi qua ba điểm" sẽ mở rộng thành câu hỏi "bốn điểm có cùng nằm trên một đường tròn không?" ở bài [Tứ giác nội tiếp](lesson:cyclic-quadrilaterals), và tam giác đều là trường hợp đầu tiên của [đa giác đều](lesson:regular-polygons).
+
+## Thuật ngữ
+
+  :::terms
+  - đường tròn ngoại tiếp | circumcircle (circumscribed circle)
+  - đường tròn nội tiếp | incircle (inscribed circle)
+  - tâm đường tròn ngoại tiếp | circumcentre
+  - tâm đường tròn nội tiếp | incentre
+  - đường trung trực | perpendicular bisector
+  - đường phân giác | angle bisector
+  - trọng tâm | centroid
+  :::
+
+## Tóm tắt
+
+[[P11·82cb]]
+- Tâm ngoại tiếp $O$: giao ba đường trung trực, $OA=OB=OC=R$.
+- Tâm nội tiếp $I$: giao ba đường phân giác, cách đều ba cạnh một khoảng $r$.
+- Tam giác vuông: $O$ là trung điểm cạnh huyền, $R=\dfrac a2$; $r=\dfrac{b+c-a}{2}$.
+- Tam giác đều cạnh $a$: $R=\dfrac{a\sqrt3}{3}$, $r=\dfrac{a\sqrt3}{6}$, hai tâm trùng nhau.
+
+## Luyện tập
+
+[[P12·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 38 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/circumcircle-incircle – BẢN TIẾNG ANH ########
+---
+title: The circumcircle and incircle of a triangle
+description: Find the centre and radius of the circumcircle and incircle of a triangle, for right-angled and equilateral triangles and in real-life problems.
+minutes: 20
+---
+
+  :::goals
+  - Recognise the circumcircle and the incircle of a triangle and explain why their centres are where the perpendicular bisectors, and the angle bisectors, meet.
+  - Find the circumradius of a right-angled triangle and both radii of an equilateral triangle.
+  - Apply these ideas to real-life problems.
+  :::
+
+[[P1·8d6d]]
+Suppose three mountain villages $A$, $B$, $C$ want to share one phone mast placed at the **same distance** from all three villages, so that no village is "worse off". Where should the mast go?
+
+[[P2·8547]]
+Another problem: from a triangular wooden board, a carpenter wants to cut the **largest** round tabletop. Its edge must touch all three sides of the board, because if one side is not touched, the circle can still be enlarged. Two problems, two special circles of a triangle.
+
+## The circumcircle of a triangle
+
+### Explore: a point equidistant from three vertices
+
+[[P3·9890]]
+A point equidistant from $A$ and $B$ lies on the perpendicular bisector of $AB$; a point equidistant from $B$ and $C$ lies on the perpendicular bisector of $BC$. The point $O$ where these two lines meet has $OA=OB=OC$, so $O$ also lies on the perpendicular bisector of $AC$. The circle with centre $O$ and radius $OA$ passes through all three vertices.
+
+  :::definition Circumcircle of a triangle
+  The circle through the three vertices of a triangle is the **circumcircle** of the triangle; the triangle is **inscribed in** the circle. Its centre (the circumcentre) is the point where the three perpendicular bisectors of the triangle meet.
+  :::
+
+[[P4·9c62]]
+Every triangle has exactly one circumcircle. The centre $O$ lies inside the triangle if the triangle is acute, outside if it is obtuse, and on the hypotenuse if it is right-angled.
+
+:::diagram The circumcircle of the triangle $ABC$
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Right-angled triangles
+
+[[P5·67ae]]
+If the triangle $ABC$ is right-angled at $A$, then $\angle BAC=90^\circ$ is an inscribed angle, so it stands on a semicircle (lesson [Inscribed angles](lesson:inscribed-angles)). Hence:
+
+  :::theorem Circumcircle of a right-angled triangle
+  The circumcentre of a right-angled triangle is the midpoint of the hypotenuse; the circumradius is half the hypotenuse.
+  :::
+
+  :::example Application: placing a phone mast
+  Suppose three villages $A$, $B$, $C$ have $AB=6$ km, $AC=8$ km and $\angle BAC=90^\circ$. Find where to put a mast at the same distance from the three villages, and find that distance.
+
+  **Solution.**
+
+  *Understand.* We need a point equidistant from the three vertices, that is, the circumcentre of the triangle $ABC$.
+
+  *Plan.* The triangle is right-angled at $A$, so the centre is the midpoint of the hypotenuse $BC$.
+
+  *Solve.* In the triangle $ABC$, right-angled at $A$, Pythagoras' theorem gives
+
+  $$BC=\sqrt{6^2+8^2}=10\ \text{(km)}.$$
+
+  Let $O$ be the midpoint of $BC$; then $OA=OB=OC=\dfrac{BC}{2}=5$ km.
+
+  So the mast goes at the midpoint of $BC$, $5$ km from each village.
+
+  *Look back.* If the angle at $A$ were obtuse, the centre would lie **outside** the triangle: the mast would be further from all three villages than necessary. Then another criterion could be chosen (for instance, a mast at the midpoint of the longest side that still covers all three villages). Mathematics answers exactly the question we ask, so we must ask the right question.
+  :::
+
+## The incircle of a triangle
+
+[[P6·b9e6]]
+A point on the bisector of an angle is equidistant from the two arms of the angle (grade 7). The point $I$ where the internal bisectors at $B$ and $C$ meet is equidistant from all three sides, so $I$ also lies on the bisector of the angle at $A$.
+
+  :::definition Incircle of a triangle
+  The circle that touches the three sides of a triangle is the **incircle** of the triangle; the triangle is **circumscribed about** the circle. Its centre (the incentre) is the point where the three internal angle bisectors meet, and it always lies inside the triangle.
+  :::
+
+[[P7·fb03]]
+The radius $r$ is the distance from $I$ to each side. The sides are tangents, so the two tangent segments from each vertex are equal (lesson [Relative positions of a line and a circle](lesson:line-circle-positions)).
+
+:::diagram The incircle of the right-angled triangle $ABC$ with sides $3$, $4$, $5$
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example The inradius of a right-angled triangle
+  The triangle $ABC$ is right-angled at $A$, with $AB=4$ cm and $AC=3$ cm. Find the radius $r$ of its incircle.
+
+  **Solution.** We have $BC=\sqrt{4^2+3^2}=5$ (cm). Let $D$, $E$, $F$ be the points of contact on $AB$, $BC$, $CA$. The quadrilateral $ADIF$ has three right angles and $ID=IF=r$, so it is a square, hence $AD=AF=r$. By the property of two tangents from a point, $BD=BE$ and $CE=CF$. Hence
+
+  $$AB+AC-BC=(r+BD)+(r+CF)-(BE+CE)=2r.$$
+
+  So $r=\dfrac{4+3-5}{2}=1$ (cm).
+
+  So the radius of the incircle is $1$ cm.
+
+  **Remark.** The formula $r=\dfrac{b+c-a}{2}$ holds for every right-angled triangle with shorter sides $b$, $c$ and hypotenuse $a$.
+  :::
+
+  :::example Application: the largest round tabletop
+  From a wooden board in the shape of a right-angled triangle with sides $30$ cm, $40$ cm and $50$ cm, a carpenter cuts the largest round tabletop. Find the radius of the tabletop and the area of wood wasted (give your answer to the nearest cm²).
+
+  **Solution.** The largest tabletop is the disc inside the incircle of the triangle. We have $30^2+40^2=50^2$, so the triangle is right-angled with hypotenuse $50$ cm. Hence
+
+  $$r=\frac{30+40-50}{2}=10\ \text{(cm)}.$$
+
+  The wasted area is the area of the triangle minus the area of the disc:
+
+  $$\frac12\cdot30\cdot40-\pi\cdot10^2=600-100\pi\approx286\ \text{(cm}^2).$$
+
+  So the tabletop has radius $10$ cm and about $286$ cm² of wood is wasted.
+  :::
+
+## Equilateral triangles
+
+[[P8·d583]]
+In an equilateral triangle, each perpendicular bisector is also an angle bisector, a median and an altitude. So the circumcentre and the incentre **coincide** at the centroid $G$. The centroid lies on each median, two thirds of the way from the vertex (grade 7).
+
+  :::theorem Equilateral triangle with side $a$
+  The altitude (also a median) has length $h=\dfrac{a\sqrt3}{2}$, so
+  $$R=\frac23h=\frac{a\sqrt3}{3},\qquad r=\frac13h=\frac{a\sqrt3}{6},\qquad R=2r.$$
+  :::
+
+  :::example An equilateral triangle with side $6$ cm
+  Find the radii of the circumcircle and the incircle of an equilateral triangle with side $6$ cm.
+
+  **Solution.** The altitude of the triangle is $h=\dfrac{6\sqrt3}{2}=3\sqrt3$ (cm). Both centres are at the centroid $G$, hence
+
+  $$R=\frac23\cdot3\sqrt3=2\sqrt3\approx3.46\ \text{(cm)},\qquad r=\frac13\cdot3\sqrt3=\sqrt3\approx1.73\ \text{(cm)}.$$
+
+  So $R=2\sqrt3$ cm and $r=\sqrt3$ cm.
+  :::
+
+:::warning Common mistakes
+[[P9·1dae]]
+- **Mixing up the two centres.** The circumcentre is where the **perpendicular bisectors** meet (equidistant from the vertices); the incentre is where the **angle bisectors** meet (equidistant from the sides).
+- **Taking $R$ equal to the hypotenuse.** Wrong: the hypotenuse is $10$ cm, so $R=10$ cm. Right: $R=5$ cm (half the hypotenuse).
+- **Swapping $\dfrac23$ and $\dfrac13$ in an equilateral triangle.** $R$ goes from the centre to a vertex (longer), $r$ from the centre to a side: $R=2r$.
+:::
+
+[[P10·3d72]]
+**Connections.** This lesson pulls together earlier ideas: perpendicular bisectors and angle bisectors (grade 7), the angle in a semicircle, and two tangents from a point. The question "a circle through three points" grows into "do four points lie on one circle?" in [Cyclic quadrilaterals](lesson:cyclic-quadrilaterals), and the equilateral triangle is the first case of a [regular polygon](lesson:regular-polygons).
+
+## Key terms
+
+  :::terms
+  - circumcircle (circumscribed circle) | đường tròn ngoại tiếp
+  - incircle (inscribed circle) | đường tròn nội tiếp
+  - circumcentre | tâm đường tròn ngoại tiếp
+  - incentre | tâm đường tròn nội tiếp
+  - perpendicular bisector | đường trung trực
+  - angle bisector | đường phân giác
+  - centroid | trọng tâm
+  :::
+
+## Summary
+
+[[P11·ce10]]
+- Circumcentre $O$: where the three perpendicular bisectors meet, $OA=OB=OC=R$.
+- Incentre $I$: where the three angle bisectors meet, at distance $r$ from each side.
+- Right-angled triangle: $O$ is the midpoint of the hypotenuse, $R=\dfrac a2$; $r=\dfrac{b+c-a}{2}$.
+- Equilateral triangle with side $a$: $R=\dfrac{a\sqrt3}{3}$, $r=\dfrac{a\sqrt3}{6}$, and the two centres coincide.
+
+## Practice
+
+[[P12·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 38 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/cube-roots – BẢN TIẾNG VIỆT ########
+---
+title: Căn bậc ba và căn thức bậc ba
+description: Hiểu căn bậc ba của một số thực, tính căn bậc ba bằng định nghĩa và máy tính, dùng ∛(A³) = A để rút gọn căn thức bậc ba.
+minutes: 20
+---
+
+  :::goals
+  - Hiểu căn bậc ba của một số thực và tìm căn bậc ba của những số đơn giản.
+  - Dùng máy tính cầm tay để tính gần đúng căn bậc ba.
+  - Nhận biết căn thức bậc ba, dùng $\sqrt[3]{A^3}=A$ để tính và rút gọn.
+  :::
+
+[[P1·994e]]
+Một khối Rubik lớn được ghép từ $27$ khối lập phương nhỏ giống nhau. Mỗi cạnh của khối lớn có mấy khối nhỏ? Một hộp quà hình lập phương có thể tích $2$ lít, tức $2000$ cm³. Cạnh hộp dài bao nhiêu xăng-ti-mét?
+
+[[P2·eec6]]
+Câu hỏi thứ nhất: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai cần một số mà **lập phương** lên bằng $2000$. Đó là căn bậc ba.
+
+:::diagram Hình lập phương cạnh $a$, thể tích $a^3$
+   (… 21 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Căn bậc ba của một số thực
+
+### Khám phá: lập phương của vài số
+
+| $x$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ |
+|---|---|---|---|---|---|---|---|
+| $x^3$ | $-27$ | $-8$ | $-1$ | $0$ | $1$ | $8$ | $27$ |
+
+[[P3·b47d]]
+Khác với bình phương, lập phương của một số âm là số âm. Mỗi giá trị trong hàng dưới xuất hiện đúng một lần. Chẳng hạn, chỉ có một số lập phương bằng $-8$, đó là $-2$.
+
+  :::definition Căn bậc ba
+  **Căn bậc ba** của số thực $a$ là số $x$ sao cho $x^3=a$.
+
+  Mỗi số thực $a$ có **đúng một** căn bậc ba, kí hiệu là $\sqrt[3]{a}$. Số $3$ gọi là **chỉ số** của căn.
+
+  Từ định nghĩa: $\left(\sqrt[3]{a}\right)^3=a$ và $\sqrt[3]{a^3}=a$ với mọi số thực $a$.
+  :::
+
+[[P4·90ba]]
+Ghi nhớ: căn bậc ba của số dương là số dương, của số âm là số âm, của $0$ là $0$. Hơn nữa $\sqrt[3]{-a}=-\sqrt[3]{a}$.
+
+  :::example Tìm căn bậc ba
+  Tìm: a) $\sqrt[3]{64}$; b) $\sqrt[3]{-125}$; c) $\sqrt[3]{0{,}008}$; d) $\sqrt[3]{-\dfrac{8}{27}}$.
+
+  **Lời giải.** Ta có
+
+  $$4^3=64,\qquad (-5)^3=-125,\qquad 0{,}2^3=0{,}008,\qquad \left(-\frac23\right)^3=-\frac{8}{27}.$$
+
+  Vậy a) $4$; b) $-5$; c) $0{,}2$; d) $-\dfrac23$.
+  :::
+
+[[P5·2909]]
+Với số như $2000$, không có số nguyên nào lập phương bằng $2000$ (vì $12^3=1728$, $13^3=2197$). Ta dùng máy tính.
+
+  :::example Cạnh của hộp quà
+  Tính cạnh hộp quà có thể tích $2000$ cm³ (làm tròn đến hàng phần mười).
+
+  **Lời giải.** Gọi $a$ (cm) là độ dài cạnh hộp quà ($a>0$). Ta có $a^3=2000$, suy ra $a=\sqrt[3]{2000}$. Dùng máy tính cầm tay, ta được
+
+  $$a=\sqrt[3]{2000}\approx12{,}599\approx12{,}6.$$
+
+  Vậy cạnh hộp quà dài khoảng $12{,}6$ cm.
+  :::
+
+[[P6·b466]]
+Hai đẳng thức $\left(\sqrt[3]{a}\right)^3=a$ và $\sqrt[3]{a^3}=a$ giúp tính nhanh nhiều biểu thức.
+
+  :::example Tính giá trị biểu thức
+  Tính $A=\sqrt[3]{27}-\sqrt[3]{-64}+\left(\sqrt[3]{3}\right)^3$.
+
+  **Lời giải.** Ta có $\sqrt[3]{27}=3$, $\sqrt[3]{-64}=-4$ và $\left(\sqrt[3]{3}\right)^3=3$. Do đó
+
+  $$A=3-(-4)+3=10.$$
+
+  Vậy $A=10$.
+  :::
+
+## So sánh căn bậc ba
+
+[[P7·32e0]]
+Lập phương giữ nguyên thứ tự: số lớn hơn có lập phương lớn hơn. Vì thế, với mọi số thực $a$, $b$:
+  $$a<b\iff\sqrt[3]{a}<\sqrt[3]{b}.$$
+
+  :::example So sánh
+  So sánh: a) $3$ và $\sqrt[3]{26}$; b) $2\sqrt[3]{3}$ và $\sqrt[3]{25}$.
+
+  **Lời giải.** a) Ta có $3=\sqrt[3]{27}$ và $27>26$. b) Ta có $\left(2\sqrt[3]3\right)^3=2^3\cdot3=24$ nên $2\sqrt[3]3=\sqrt[3]{24}$, và $24<25$. Do đó
+
+  $$3=\sqrt[3]{27}>\sqrt[3]{26};\qquad 2\sqrt[3]{3}=\sqrt[3]{24}<\sqrt[3]{25}.$$
+
+  Vậy $3>\sqrt[3]{26}$ và $2\sqrt[3]{3}<\sqrt[3]{25}$.
+  :::
+
+## Căn thức bậc ba
+
+  :::definition Căn thức bậc ba
+  Với $A$ là một biểu thức đại số, $\sqrt[3]{A}$ gọi là **căn thức bậc ba**, $A$ là biểu thức lấy căn.
+
+  $\sqrt[3]{A}$ **xác định với mọi giá trị** của biến làm cho $A$ xác định, và $\sqrt[3]{A^3}=A$.
+  :::
+
+[[P8·30d5]]
+So với căn bậc hai: $\sqrt{A^2}=|A|$, còn $\sqrt[3]{A^3}=A$, không cần giá trị tuyệt đối, và không cần điều kiện $A\ge0$.
+
+  :::example Rút gọn căn thức bậc ba
+  Rút gọn: a) $\sqrt[3]{8x^3}$; b) $\sqrt[3]{x^3-3x^2+3x-1}$.
+
+  **Lời giải.** Áp dụng $\sqrt[3]{A^3}=A$, ta có (ở câu b, dùng hằng đẳng thức $(a-b)^3=a^3-3a^2b+3ab^2-b^3$):
+
+  $$\sqrt[3]{8x^3}=\sqrt[3]{(2x)^3}=2x;\qquad \sqrt[3]{x^3-3x^2+3x-1}=\sqrt[3]{(x-1)^3}=x-1.$$
+
+  Vậy a) $2x$; b) $x-1$, đúng với mọi $x$.
+  :::
+
+  :::example Bể nước hình lập phương
+  Một bể nước hình lập phương chứa được $1728$ lít khi đầy. Tính cạnh của bể theo mét.
+
+  **Lời giải.** Ta có $1728$ lít $=1728$ dm³. Gọi $a$ (dm) là độ dài cạnh bể ($a>0$), ta có $a^3=1728$. Do đó
+
+  $$a=\sqrt[3]{1728}=12\ \text{(dm)}=1{,}2\ \text{(m)}.$$
+
+  Vậy cạnh bể dài $1{,}2$ m.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P9·773e]]
+- **Nghĩ rằng số âm không có căn bậc ba.** Sai: "$\sqrt[3]{-8}$ không xác định". Lí do sai: $(-2)^3=-8$. Đúng: $\sqrt[3]{-8}=-2$.
+- **Viết $\sqrt[3]{a^3}=|a|$.** Sai: $\sqrt[3]{(-5)^3}=5$. Lí do sai: chỉ căn bậc hai mới cần giá trị tuyệt đối. Đúng: $\sqrt[3]{(-5)^3}=-5$.
+- **Nhầm căn bậc ba với chia ba.** Sai: $\sqrt[3]{27}=9$. Lí do sai: $9^3=729$. Đúng: $\sqrt[3]{27}=3$ vì $3^3=27$.
+- **Đặt điều kiện thừa.** Sai: "$\sqrt[3]{x-2}$ xác định khi $x\ge2$". Lí do sai: căn bậc ba xác định với mọi số. Đúng: xác định với mọi $x$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - căn bậc ba | cube root
+  - căn thức bậc ba | cube-root expression
+  - lập phương của một số | cube of a number
+  - hình lập phương | cube
+  - chỉ số của căn | index of the root
+  - thể tích | volume
+  - biểu thức lấy căn | expression under the root sign
+  :::
+
+## Tóm tắt
+
+[[P10·508c]]
+- $x=\sqrt[3]{a}\iff x^3=a$. Mọi số thực đều có đúng một căn bậc ba.
+- $\left(\sqrt[3]{a}\right)^3=a$, $\sqrt[3]{a^3}=a$, $\sqrt[3]{-a}=-\sqrt[3]{a}$.
+- $a<b\iff\sqrt[3]{a}<\sqrt[3]{b}$; để so sánh, đưa về cùng dạng căn bậc ba hoặc so sánh lập phương.
+- $\sqrt[3]{A}$ xác định khi $A$ xác định; $\sqrt[3]{A^3}=A$ (không có giá trị tuyệt đối).
+- Hình lập phương thể tích $V$ có cạnh $\sqrt[3]{V}$.
+
+## Luyện tập
+
+[[P11·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/cube-roots – BẢN TIẾNG ANH ########
+---
+title: Cube roots and cube-root expressions
+description: Understand the cube root of a real number, find cube roots by definition and by calculator, and use ∛(A³) = A to simplify cube-root expressions.
+minutes: 20
+---
+
+  :::goals
+  - Understand the cube root of a real number and find the cube roots of simple numbers.
+  - Use a calculator to find approximate cube roots.
+  - Recognise cube-root expressions and use $\sqrt[3]{A^3}=A$ to evaluate and simplify.
+  :::
+
+[[P1·f638]]
+A big Rubik's-style cube is built from $27$ identical small cubes. How many small cubes are there along each edge? A gift box in the shape of a cube has a volume of $2$ litres, that is $2000$ cm³. How long is each edge, in centimetres?
+
+[[P2·7552]]
+For the first question, $3\cdot3\cdot3=27$, so each edge has $3$ small cubes. The second question needs a number whose **cube** is $2000$. That is a cube root.
+
+:::diagram A cube with edge $a$ and volume $a^3$
+   (… 21 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## The cube root of a real number
+
+### Explore: the cubes of a few numbers
+
+| $x$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ |
+|---|---|---|---|---|---|---|---|
+| $x^3$ | $-27$ | $-8$ | $-1$ | $0$ | $1$ | $8$ | $27$ |
+
+[[P3·07aa]]
+Unlike a square, the cube of a negative number is negative. Each value in the bottom row appears exactly once. For example, only one number cubes to $-8$, namely $-2$.
+
+  :::definition Cube root
+  The **cube root** of a real number $a$ is the number $x$ with $x^3=a$.
+
+  Every real number $a$ has **exactly one** cube root, written $\sqrt[3]{a}$. The number $3$ is called the **index** of the root.
+
+  From the definition: $\left(\sqrt[3]{a}\right)^3=a$ and $\sqrt[3]{a^3}=a$ for every real number $a$.
+  :::
+
+[[P4·9937]]
+Remember: the cube root of a positive number is positive, of a negative number is negative, and of $0$ is $0$. Also, $\sqrt[3]{-a}=-\sqrt[3]{a}$.
+
+  :::example Finding cube roots
+  Find: a) $\sqrt[3]{64}$; b) $\sqrt[3]{-125}$; c) $\sqrt[3]{0.008}$; d) $\sqrt[3]{-\dfrac{8}{27}}$.
+
+  **Solution.** We have
+
+  $$4^3=64,\qquad (-5)^3=-125,\qquad 0.2^3=0.008,\qquad \left(-\frac23\right)^3=-\frac{8}{27}.$$
+
+  So a) $4$; b) $-5$; c) $0.2$; d) $-\dfrac23$.
+  :::
+
+[[P5·5ae4]]
+For a number like $2000$, no whole number cubes to $2000$ (since $12^3=1728$ and $13^3=2197$). We use a calculator.
+
+  :::example The edge of the gift box
+  Find the edge of the gift box with volume $2000$ cm³ (rounded to one decimal place).
+
+  **Solution.** Let $a$ (cm) be the edge of the box ($a>0$). We have $a^3=2000$, so $a=\sqrt[3]{2000}$. Using a calculator, we get
+
+  $$a=\sqrt[3]{2000}\approx12.599\approx12.6.$$
+
+  So each edge of the box is about $12.6$ cm.
+  :::
+
+[[P6·f51a]]
+The identities $\left(\sqrt[3]{a}\right)^3=a$ and $\sqrt[3]{a^3}=a$ make many expressions quick to evaluate.
+
+  :::example Evaluating an expression
+  Evaluate $A=\sqrt[3]{27}-\sqrt[3]{-64}+\left(\sqrt[3]{3}\right)^3$.
+
+  **Solution.** We have $\sqrt[3]{27}=3$, $\sqrt[3]{-64}=-4$ and $\left(\sqrt[3]{3}\right)^3=3$. Hence
+
+  $$A=3-(-4)+3=10.$$
+
+  So $A=10$.
+  :::
+
+## Comparing cube roots
+
+[[P7·7f1e]]
+Cubing keeps the order: a larger number has a larger cube. So for all real numbers $a$ and $b$:
+  $$a<b\iff\sqrt[3]{a}<\sqrt[3]{b}.$$
+
+  :::example Comparing
+  Compare: a) $3$ and $\sqrt[3]{26}$; b) $2\sqrt[3]{3}$ and $\sqrt[3]{25}$.
+
+  **Solution.** a) We have $3=\sqrt[3]{27}$ and $27>26$. b) We have $\left(2\sqrt[3]3\right)^3=2^3\cdot3=24$, so $2\sqrt[3]3=\sqrt[3]{24}$, and $24<25$. Hence
+
+  $$3=\sqrt[3]{27}>\sqrt[3]{26};\qquad 2\sqrt[3]{3}=\sqrt[3]{24}<\sqrt[3]{25}.$$
+
+  So $3>\sqrt[3]{26}$ and $2\sqrt[3]{3}<\sqrt[3]{25}$.
+  :::
+
+## Cube-root expressions
+
+  :::definition Cube-root expression
+  If $A$ is an algebraic expression, $\sqrt[3]{A}$ is called a **cube-root expression**, and $A$ is the expression under the root sign.
+
+  $\sqrt[3]{A}$ is **defined for every value** of the variable for which $A$ is defined, and $\sqrt[3]{A^3}=A$.
+  :::
+
+[[P8·f96a]]
+Compare with square roots: $\sqrt{A^2}=|A|$, but $\sqrt[3]{A^3}=A$, with no absolute value and no condition $A\ge0$.
+
+  :::example Simplifying cube-root expressions
+  Simplify: a) $\sqrt[3]{8x^3}$; b) $\sqrt[3]{x^3-3x^2+3x-1}$.
+
+  **Solution.** Using $\sqrt[3]{A^3}=A$, we have (in b), using the identity $(a-b)^3=a^3-3a^2b+3ab^2-b^3$):
+
+  $$\sqrt[3]{8x^3}=\sqrt[3]{(2x)^3}=2x;\qquad \sqrt[3]{x^3-3x^2+3x-1}=\sqrt[3]{(x-1)^3}=x-1.$$
+
+  So a) $2x$; b) $x-1$, true for every $x$.
+  :::
+
+  :::example A cube-shaped water tank
+  A cube-shaped water tank holds $1728$ litres when full. Find the edge of the tank in metres.
+
+  **Solution.** We have $1728$ litres $=1728$ dm³. Let $a$ (dm) be the edge of the tank ($a>0$); then $a^3=1728$. Hence
+
+  $$a=\sqrt[3]{1728}=12\ \text{(dm)}=1.2\ \text{(m)}.$$
+
+  So the edge of the tank is $1.2$ m.
+  :::
+
+:::warning Common mistakes
+[[P9·755f]]
+- **Thinking a negative number has no cube root.** Wrong: "$\sqrt[3]{-8}$ is not defined". Why it is wrong: $(-2)^3=-8$. Right: $\sqrt[3]{-8}=-2$.
+- **Writing $\sqrt[3]{a^3}=|a|$.** Wrong: $\sqrt[3]{(-5)^3}=5$. Why it is wrong: only square roots need the absolute value. Right: $\sqrt[3]{(-5)^3}=-5$.
+- **Confusing the cube root with dividing by three.** Wrong: $\sqrt[3]{27}=9$. Why it is wrong: $9^3=729$. Right: $\sqrt[3]{27}=3$ because $3^3=27$.
+- **Adding a condition that is not needed.** Wrong: "$\sqrt[3]{x-2}$ is defined when $x\ge2$". Why it is wrong: a cube root is defined for every number. Right: it is defined for every $x$.
+:::
+
+## Key terms
+
+  :::terms
+  - cube root | căn bậc ba
+  - cube-root expression | căn thức bậc ba
+  - cube of a number | lập phương của một số
+  - cube | hình lập phương
+  - index of the root | chỉ số của căn
+  - volume | thể tích
+  - expression under the root sign | biểu thức lấy căn
+  :::
+
+## Summary
+
+[[P10·2ef7]]
+- $x=\sqrt[3]{a}\iff x^3=a$. Every real number has exactly one cube root.
+- $\left(\sqrt[3]{a}\right)^3=a$, $\sqrt[3]{a^3}=a$, $\sqrt[3]{-a}=-\sqrt[3]{a}$.
+- $a<b\iff\sqrt[3]{a}<\sqrt[3]{b}$; to compare, write both as cube roots or compare their cubes.
+- $\sqrt[3]{A}$ is defined whenever $A$ is; $\sqrt[3]{A^3}=A$ (no absolute value).
+- A cube of volume $V$ has edge $\sqrt[3]{V}$.
+
+## Practice
+
+[[P11·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/cyclic-quadrilaterals – BẢN TIẾNG VIỆT ########
+---
+title: Tứ giác nội tiếp
+description: Hiểu tứ giác nội tiếp, tính chất tổng hai góc đối bằng 180° và dấu hiệu nhận biết, vận dụng để tính góc, chứng minh và giải bài toán thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết tứ giác nội tiếp và giải thích vì sao tổng hai góc đối của nó bằng $180^\circ$.
+  - Chứng minh một tứ giác là tứ giác nội tiếp.
+  - Xác định đường tròn ngoại tiếp hình chữ nhật, hình vuông, hình thang cân.
+  :::
+
+[[P1·0a10]]
+Qua ba điểm không thẳng hàng luôn vẽ được đúng một đường tròn (bài [Đường tròn ngoại tiếp và nội tiếp](lesson:circumcircle-incircle)). Nhưng với **bốn** điểm thì khác: đường tròn qua ba điểm đầu đã cố định, điểm thứ tư chỉ "may mắn" mới nằm trên nó.
+
+[[P2·50ed]]
+Vậy làm sao biết bốn đỉnh của một tứ giác có cùng nằm trên một đường tròn hay không, mà không cần vẽ? Chẳng hạn, vì sao người ta dễ dàng làm một khung vòm tròn đi qua bốn góc của một ô cửa hình thang cân, nhưng không làm được với một ô cửa hình bình hành bất kì?
+
+## Tứ giác nội tiếp và tính chất
+
+  :::definition Tứ giác nội tiếp
+  Tứ giác có bốn đỉnh nằm trên một đường tròn gọi là **tứ giác nội tiếp** đường tròn (gọi tắt là tứ giác nội tiếp).
+  :::
+
+### Khám phá: hai góc đối
+
+[[P3·c27b]]
+Cho tứ giác $ABCD$ nội tiếp đường tròn $(O)$. Góc $\widehat{DAB}$ là góc nội tiếp chắn cung $BCD$; góc $\widehat{BCD}$ là góc nội tiếp chắn cung $BAD$. Hai cung này ghép lại thành cả đường tròn, nên (bài [Góc nội tiếp](lesson:inscribed-angles))
+
+  $$\widehat{DAB}+\widehat{BCD}=\frac12\left(\text{sđ}\,\overset{\frown}{BCD}+\text{sđ}\,\overset{\frown}{BAD}\right)=\frac12\cdot360^\circ=180^\circ.$$
+
+  :::theorem Định lí
+  Trong một tứ giác nội tiếp, tổng số đo hai góc đối bằng $180^\circ$.
+
+  **Đảo lại:** nếu một tứ giác có tổng số đo hai góc đối bằng $180^\circ$ thì tứ giác đó nội tiếp được đường tròn.
+  :::
+
+:::diagram Tứ giác $ABCD$ nội tiếp đường tròn $(O)$
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·0120]]
+**Hiểu sâu hơn.** Hình bình hành có hai góc đối **bằng nhau**; muốn tổng của chúng là $180^\circ$ thì mỗi góc phải là $90^\circ$. Vậy hình bình hành nội tiếp được khi và chỉ khi nó là hình chữ nhật. Đó là lí do ô cửa hình bình hành "xiên" không có khung vòm tròn qua bốn góc.
+
+  :::example Tính các góc của tứ giác nội tiếp
+  Tứ giác $ABCD$ nội tiếp đường tròn có $\widehat{A}=70^\circ$, $\widehat{B}=105^\circ$. Tính $\widehat{C}$ và $\widehat{D}$.
+
+  **Lời giải.** Vì $ABCD$ là tứ giác nội tiếp nên $\widehat{A}+\widehat{C}=180^\circ$ và $\widehat{B}+\widehat{D}=180^\circ$. Do đó
+
+  $$\widehat{C}=180^\circ-70^\circ=110^\circ,\qquad \widehat{D}=180^\circ-105^\circ=75^\circ.$$
+
+  Vậy $\widehat{C}=110^\circ$ và $\widehat{D}=75^\circ$.
+  :::
+
+## Chứng minh một tứ giác nội tiếp
+
+[[P5·6110]]
+Có hai cách thường dùng ở lớp 9:
+- Chỉ ra tổng hai góc đối bằng $180^\circ$ (định lí đảo).
+- Chỉ ra bốn đỉnh cách đều một điểm. Đặc biệt, nếu hai đỉnh cùng nhìn đoạn thẳng nối hai đỉnh còn lại dưới góc vuông thì bốn đỉnh nằm trên đường tròn có đường kính là đoạn thẳng đó (trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền).
+
+  :::example Hai tứ giác nội tiếp trong tam giác
+  Cho tam giác $ABC$ có ba góc nhọn, hai đường cao $BE$, $CF$ cắt nhau tại $H$. Chứng minh rằng:
+
+  a) Tứ giác $AEHF$ nội tiếp.
+
+  b) Tứ giác $BCEF$ nội tiếp.
+
+  **Lời giải.** a) Ta có $\widehat{AEH}=90^\circ$ (vì $BE\perp AC$) và $\widehat{AFH}=90^\circ$ (vì $CF\perp AB$). Do đó $\widehat{AEH}+\widehat{AFH}=180^\circ$.
+
+  Vậy tứ giác $AEHF$ nội tiếp (tổng hai góc đối bằng $180^\circ$).
+
+  b) Gọi $M$ là trung điểm của $BC$. Tam giác $BEC$ vuông tại $E$ nên $ME=\dfrac{BC}{2}$ (trung tuyến ứng với cạnh huyền). Tương tự, tam giác $BFC$ vuông tại $F$ nên $MF=\dfrac{BC}{2}$. Suy ra $MB=MC=ME=MF$.
+
+  Vậy tứ giác $BCEF$ nội tiếp đường tròn tâm $M$, đường kính $BC$.
+
+  **Nhận xét.** Với câu b), tổng hai góc đối $\widehat{BEC}+\widehat{BFC}$ không có nghĩa vì $E$, $F$ là hai đỉnh **kề** nhau của tứ giác $BCEF$. Phải chọn đúng công cụ cho đúng hình.
+  :::
+
+:::diagram Hai đường cao $BE$, $CF$ của tam giác $ABC$
+   (… 12 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Hình chữ nhật, hình vuông, hình thang cân
+
+[[P6·92d7]]
+- Hình chữ nhật (và hình vuông) có bốn góc vuông, nên nội tiếp được; tâm đường tròn là giao điểm hai đường chéo, bán kính bằng nửa đường chéo.
+- Hình thang cân $ABCD$ ($AB\parallel CD$) có $\widehat{A}+\widehat{D}=180^\circ$ (hai góc trong cùng phía) và $\widehat{D}=\widehat{C}$, nên $\widehat{A}+\widehat{C}=180^\circ$: hình thang cân luôn nội tiếp được.
+
+  :::example Vận dụng: khung vòm của ô cửa
+  Giả sử một ô cửa kính hình thang cân $ABCD$ có đáy dưới $AB=80$ cm, đáy trên $CD=60$ cm và chiều cao $70$ cm. Người thợ muốn làm một khung vòm tròn đi qua bốn góc của ô cửa. Tính bán kính khung vòm.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Hình thang cân nội tiếp được; cần tìm bán kính đường tròn qua bốn đỉnh.
+
+  *Tìm cách giải.* Tâm $O$ cách đều $A$, $B$ nên nằm trên trục đối xứng của hình thang, tức đường thẳng nối trung điểm $K$ của $AB$ và trung điểm $L$ của $CD$. Đặt $OK=x$ (cm) rồi dùng $OA=OD$.
+
+  *Giải.* Giả sử $O$ nằm giữa $K$ và $L$, ta có $OL=70-x$. Theo định lí Pythagore trong các tam giác vuông $OKA$ và $OLD$:
+
+  $$OA^2=40^2+x^2,\qquad OD^2=30^2+(70-x)^2.$$
+
+  Vì $OA=OD$ nên $1600+x^2=900+4900-140x+x^2$, suy ra $140x=4200$, $x=30$ (thoả mãn $0<x<70$). Do đó
+
+  $$OA=\sqrt{40^2+30^2}=50\ \text{(cm)}.$$
+
+  Vậy bán kính khung vòm là $50$ cm.
+
+  *Nhìn lại.* Kiểm tra: $OD=\sqrt{30^2+40^2}=50$ cm. Nếu ta được $x<0$, tâm sẽ nằm ngoài ô cửa, phía dưới $AB$: cách đặt ẩn vẫn dùng được, chỉ cần đọc đúng dấu.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P7·ddf4]]
+- **Cộng hai góc kề.** Sai: "$\widehat{A}+\widehat{B}=180^\circ$ nên $ABCD$ nội tiếp". Lí do sai: định lí nói về hai góc **đối**. Đúng: xét $\widehat{A}+\widehat{C}$ hoặc $\widehat{B}+\widehat{D}$.
+- **Cho rằng hai góc đối bằng nhau.** Sai: "$ABCD$ nội tiếp, $\widehat{A}=70^\circ$ nên $\widehat{C}=70^\circ$". Đúng: $\widehat{C}=110^\circ$.
+- **Nghĩ mọi hình thang đều nội tiếp được.** Chỉ hình thang **cân** mới nội tiếp được.
+:::
+
+[[P8·e9da]]
+**Kết nối.** Tứ giác nội tiếp là nơi gặp nhau của góc nội tiếp, đường tròn ngoại tiếp tam giác và tam giác đồng dạng. Khi đã biết một tứ giác nội tiếp, ta "nhận" thêm nhiều cặp góc bằng nhau (cùng chắn một cung), từ đó chứng minh song song, vuông góc, đồng dạng. Đây là chuỗi suy luận quen thuộc trong bài hình học của đề thi vào lớp 10.
+
+## Thuật ngữ
+
+  :::terms
+  - tứ giác nội tiếp | cyclic quadrilateral
+  - hai góc đối | opposite angles
+  - hai góc kề | adjacent angles
+  - định lí đảo | converse
+  - hình thang cân | isosceles trapezium
+  - đường cao | altitude
+  - trung tuyến | median
+  :::
+
+## Tóm tắt
+
+[[P9·341d]]
+- Tứ giác nội tiếp: bốn đỉnh nằm trên một đường tròn.
+- Tứ giác nội tiếp $\Leftrightarrow$ tổng hai góc đối bằng $180^\circ$.
+- Hai đỉnh cùng nhìn một đoạn thẳng dưới góc vuông: bốn điểm nằm trên đường tròn có đường kính là đoạn đó.
+- Hình chữ nhật, hình vuông (tâm là giao hai đường chéo) và hình thang cân luôn nội tiếp được.
+
+## Luyện tập
+
+[[P10·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/cyclic-quadrilaterals – BẢN TIẾNG ANH ########
+---
+title: Cyclic quadrilaterals
+description: Learn why opposite angles of a cyclic quadrilateral add up to 180°, use the converse, and apply it to angles, proofs and real problems.
+minutes: 20
+---
+
+  :::goals
+  - Recognise a cyclic quadrilateral and explain why its opposite angles add up to $180^\circ$.
+  - Prove that a quadrilateral is cyclic.
+  - Find the circle through the vertices of a rectangle, a square and an isosceles trapezium.
+  :::
+
+[[P1·4e30]]
+Through three points that are not collinear we can always draw exactly one circle (lesson [The circumcircle and incircle](lesson:circumcircle-incircle)). With **four** points it is different: the circle through the first three is already fixed, and the fourth point lies on it only by "luck".
+
+[[P2·073a]]
+So how can we tell whether the four vertices of a quadrilateral lie on one circle, without drawing? For example, why is it easy to make a round arch through the four corners of a window shaped like an isosceles trapezium, but impossible for a window shaped like an arbitrary parallelogram?
+
+## Cyclic quadrilaterals and their property
+
+  :::definition Cyclic quadrilateral
+  A quadrilateral whose four vertices lie on a circle is called a **cyclic quadrilateral** (it is inscribed in the circle).
+  :::
+
+### Explore: two opposite angles
+
+[[P3·7925]]
+Let $ABCD$ be inscribed in the circle $(O)$. The angle $\angle DAB$ is an inscribed angle subtending the arc $BCD$; the angle $\angle BCD$ is an inscribed angle subtending the arc $BAD$. Together these two arcs make the whole circle, so (lesson [Inscribed angles](lesson:inscribed-angles))
+
+  $$\angle DAB+\angle BCD=\frac12\left(\overset{\frown}{BCD}+\overset{\frown}{BAD}\right)=\frac12\cdot360^\circ=180^\circ.$$
+
+  :::theorem Theorem
+  In a cyclic quadrilateral, opposite angles add up to $180^\circ$.
+
+  **Conversely:** if a quadrilateral has a pair of opposite angles adding up to $180^\circ$, then it is cyclic.
+  :::
+
+:::diagram The quadrilateral $ABCD$ inscribed in the circle $(O)$
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·9d9d]]
+**A deeper look.** A parallelogram has **equal** opposite angles; for their sum to be $180^\circ$, each must be $90^\circ$. So a parallelogram is cyclic exactly when it is a rectangle. That is why a "slanted" parallelogram window has no round arch through its four corners.
+
+  :::example Finding the angles of a cyclic quadrilateral
+  The quadrilateral $ABCD$ is cyclic with $\angle A=70^\circ$ and $\angle B=105^\circ$. Find $\angle C$ and $\angle D$.
+
+  **Solution.** Since $ABCD$ is cyclic, $\angle A+\angle C=180^\circ$ and $\angle B+\angle D=180^\circ$. Hence
+
+  $$\angle C=180^\circ-70^\circ=110^\circ,\qquad \angle D=180^\circ-105^\circ=75^\circ.$$
+
+  So $\angle C=110^\circ$ and $\angle D=75^\circ$.
+  :::
+
+## Proving that a quadrilateral is cyclic
+
+[[P5·1abf]]
+Two methods are common in grade 9:
+- Show that a pair of opposite angles adds up to $180^\circ$ (the converse).
+- Show that the four vertices are equidistant from one point. In particular, if two vertices both see the segment joining the other two at a right angle, the four vertices lie on the circle with that segment as diameter (the median to the hypotenuse is half the hypotenuse).
+
+  :::example Two cyclic quadrilaterals in a triangle
+  The triangle $ABC$ is acute, and its altitudes $BE$ and $CF$ meet at $H$. Prove that:
+
+  a) the quadrilateral $AEHF$ is cyclic;
+
+  b) the quadrilateral $BCEF$ is cyclic.
+
+  **Solution.** a) We have $\angle AEH=90^\circ$ (because $BE\perp AC$) and $\angle AFH=90^\circ$ (because $CF\perp AB$). Hence $\angle AEH+\angle AFH=180^\circ$.
+
+  So the quadrilateral $AEHF$ is cyclic (opposite angles add up to $180^\circ$).
+
+  b) Let $M$ be the midpoint of $BC$. The triangle $BEC$ is right-angled at $E$, so $ME=\dfrac{BC}{2}$ (the median to the hypotenuse). Similarly, the triangle $BFC$ is right-angled at $F$, so $MF=\dfrac{BC}{2}$. Hence $MB=MC=ME=MF$.
+
+  So the quadrilateral $BCEF$ is cyclic, inscribed in the circle with centre $M$ and diameter $BC$.
+
+  **Remark.** In b), the sum $\angle BEC+\angle BFC$ tells us nothing, because $E$ and $F$ are **adjacent** vertices of $BCEF$. We must choose the right tool for the figure.
+  :::
+
+:::diagram The altitudes $BE$, $CF$ of the triangle $ABC$
+   (… 12 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Rectangles, squares and isosceles trapezia
+
+[[P6·e74c]]
+- A rectangle (and a square) has four right angles, so it is cyclic; the centre of the circle is where the diagonals meet, and the radius is half a diagonal.
+- An isosceles trapezium $ABCD$ ($AB\parallel CD$) has $\angle A+\angle D=180^\circ$ (co-interior angles) and $\angle D=\angle C$, so $\angle A+\angle C=180^\circ$: an isosceles trapezium is always cyclic.
+
+  :::example Application: the arch of a window
+  Suppose a glass window is an isosceles trapezium $ABCD$ with lower base $AB=80$ cm, upper base $CD=60$ cm and height $70$ cm. A craftsman wants to make a round arch through the four corners of the window. Find the radius of the arch.
+
+  **Solution.**
+
+  *Understand.* An isosceles trapezium is cyclic; we need the radius of the circle through its four vertices.
+
+  *Plan.* The centre $O$ is equidistant from $A$ and $B$, so it lies on the axis of symmetry of the trapezium, the line through the midpoint $K$ of $AB$ and the midpoint $L$ of $CD$. Let $OK=x$ (cm) and use $OA=OD$.
+
+  *Solve.* Assume $O$ lies between $K$ and $L$; then $OL=70-x$. By Pythagoras' theorem in the right-angled triangles $OKA$ and $OLD$:
+
+  $$OA^2=40^2+x^2,\qquad OD^2=30^2+(70-x)^2.$$
+
+  Since $OA=OD$, we get $1600+x^2=900+4900-140x+x^2$, so $140x=4200$ and $x=30$ (this satisfies $0<x<70$). Hence
+
+  $$OA=\sqrt{40^2+30^2}=50\ \text{(cm)}.$$
+
+  So the radius of the arch is $50$ cm.
+
+  *Look back.* Check: $OD=\sqrt{30^2+40^2}=50$ cm. Had we found $x<0$, the centre would lie outside the window, below $AB$: the same unknown still works, we just read the sign correctly.
+  :::
+
+:::warning Common mistakes
+[[P7·5ab1]]
+- **Adding two adjacent angles.** Wrong: "$\angle A+\angle B=180^\circ$, so $ABCD$ is cyclic". Why it is wrong: the theorem is about **opposite** angles. Right: look at $\angle A+\angle C$ or $\angle B+\angle D$.
+- **Thinking opposite angles are equal.** Wrong: "$ABCD$ is cyclic and $\angle A=70^\circ$, so $\angle C=70^\circ$". Right: $\angle C=110^\circ$.
+- **Thinking every trapezium is cyclic.** Only an **isosceles** trapezium is.
+:::
+
+[[P8·cfa4]]
+**Connections.** Cyclic quadrilaterals are where inscribed angles, the circumcircle of a triangle and similar triangles meet. Once we know a quadrilateral is cyclic, we "receive" many pairs of equal angles (on the same arc), and from them we prove parallel lines, perpendicular lines and similar triangles. This chain of reasoning is the usual shape of the geometry question in the grade 10 entrance exam.
+
+## Key terms
+
+  :::terms
+  - cyclic quadrilateral | tứ giác nội tiếp
+  - opposite angles | hai góc đối
+  - adjacent angles | hai góc kề
+  - converse | định lí đảo
+  - isosceles trapezium | hình thang cân
+  - altitude | đường cao
+  - median | trung tuyến
+  :::
+
+## Summary
+
+[[P9·e066]]
+- Cyclic quadrilateral: its four vertices lie on one circle.
+- Cyclic $\Leftrightarrow$ a pair of opposite angles adds up to $180^\circ$.
+- Two vertices seeing a segment at right angles: the four points lie on the circle with that segment as diameter.
+- Rectangles, squares (centre where the diagonals meet) and isosceles trapezia are always cyclic.
+
+## Practice
+
+[[P10·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/cylinders-and-cones – BẢN TIẾNG VIỆT ########
+---
+title: Hình trụ và hình nón
+description: Nhận biết hình trụ, hình nón, hiểu vì sao có các công thức diện tích xung quanh và thể tích, vận dụng vào bồn nước, nón lá, đống cát.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết hình trụ, hình nón và các yếu tố: bán kính đáy, chiều cao, đường sinh.
+  - Giải thích và sử dụng công thức diện tích xung quanh, thể tích của hình trụ và hình nón.
+  - Giải các bài toán thực tế: bồn nước, sơn cột, nón lá, đống cát.
+  :::
+
+[[P1·3bcf]]
+Trên mái nhà nhiều gia đình Việt Nam có một chiếc bồn nước hình trụ; ngoài đồng, chiếc nón lá che nắng cho người nông dân; ở công trường, cát đổ xuống tự tạo thành một đống hình nón. Những câu hỏi rất đời thường: bồn chứa được bao nhiêu lít, đủ dùng mấy ngày? Làm một chiếc nón cần bao nhiêu lá? Đống cát cần mấy chuyến xe?
+
+[[P2·b9c6]]
+Muốn trả lời, ta cần biết đo hai loại hình khối "tròn" đầu tiên: hình trụ và hình nón.
+
+## Hình trụ
+
+[[P3·e1f5]]
+Quay một hình chữ nhật $OABO'$ một vòng quanh cạnh $OO'$ cố định, ta được một **hình trụ**. Hai cạnh $OA$, $O'B$ quét thành hai **mặt đáy** là hai hình tròn bằng nhau, nằm trên hai mặt phẳng song song; cạnh $AB$ quét thành **mặt xung quanh**, mỗi vị trí của $AB$ là một **đường sinh**. Độ dài $AB$ là **chiều cao** $h$, độ dài $OA$ là **bán kính đáy** $r$.
+
+:::diagram Hình trụ bán kính đáy $r$, chiều cao $h$
+   (… 61 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Khám phá: trải phẳng mặt xung quanh
+
+[[P4·8b72]]
+Hãy hình dung bóc nhãn của một lon nước hình trụ rồi trải phẳng: ta được một **hình chữ nhật**. Một cạnh của nó là chiều cao $h$, cạnh kia chính là chu vi đáy $2\pi r$. Do đó diện tích xung quanh bằng $2\pi r\cdot h$.
+
+[[P5·56e2]]
+Thể tích hình trụ tính như hình lăng trụ đứng (lớp 7): diện tích đáy nhân chiều cao.
+
+  :::theorem Hình trụ bán kính đáy $r$, chiều cao $h$
+  $$S_{xq}=2\pi rh,\qquad S_{tp}=2\pi rh+2\pi r^2,\qquad V=\pi r^2h.$$
+  :::
+
+  :::example Tính diện tích và thể tích hình trụ
+  Một hình trụ có bán kính đáy $5$ cm và chiều cao $12$ cm. Tính diện tích xung quanh, diện tích toàn phần và thể tích (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Ta có
+
+  $$S_{xq}=2\pi\cdot5\cdot12=120\pi\approx376{,}99\ \text{(cm}^2),$$
+
+  $$S_{tp}=120\pi+2\pi\cdot5^2=170\pi\approx534{,}07\ \text{(cm}^2),\qquad V=\pi\cdot5^2\cdot12=300\pi\approx942{,}48\ \text{(cm}^3).$$
+
+  Vậy $S_{xq}\approx376{,}99$ cm², $S_{tp}\approx534{,}07$ cm² và $V\approx942{,}48$ cm³.
+  :::
+
+  :::example Vận dụng: bồn nước đủ dùng mấy ngày?
+  Giả sử một gia đình $4$ người có bồn nước hình trụ đường kính đáy $1$ m, cao $1{,}4$ m, và mỗi người dùng trung bình $100$ lít nước mỗi ngày. Nếu bơm đầy bồn một lần, gia đình dùng được trọn mấy ngày?
+
+  **Lời giải.**
+
+  *Hiểu đề.* Cần thể tích bồn (đổi ra lít) và lượng nước dùng mỗi ngày.
+
+  *Tìm cách giải.* Tính $V=\pi r^2h$ với $r=0{,}5$ m, đổi $1$ m³ $=1000$ lít, rồi chia cho $4\cdot100=400$ lít.
+
+  *Giải.* Thể tích bồn là
+
+  $$V=\pi\cdot0{,}5^2\cdot1{,}4=0{,}35\pi\approx1{,}0996\ \text{(m}^3)\approx1100\ \text{(lít)}.$$
+
+  Mỗi ngày gia đình dùng $400$ lít, ta có $1100:400=2{,}75$.
+
+  Vậy bồn đầy đủ dùng trọn $2$ ngày (sang ngày thứ ba thì thiếu).
+
+  *Nhìn lại.* Kết quả hợp lí: $1$ m³ là $1000$ lít, bồn hơi lớn hơn $1$ m³. Nếu muốn đủ dùng $3$ ngày ($1200$ lít) với cùng đường kính, cần chiều cao $h=\dfrac{1{,}2}{0{,}25\pi}\approx1{,}53$ m. Thể tích tỉ lệ thuận với $h$ nhưng tỉ lệ với **bình phương** của $r$: tăng đường kính hiệu quả hơn tăng chiều cao.
+  :::
+
+## Hình nón
+
+[[P6·e1e2]]
+Quay một tam giác $SOA$ vuông tại $O$ một vòng quanh cạnh góc vuông $SO$ cố định, ta được một **hình nón**. Cạnh $OA$ quét thành **mặt đáy** (hình tròn bán kính $r=OA$), cạnh $SA$ quét thành **mặt xung quanh**, mỗi vị trí của $SA$ là một **đường sinh** $l$. Điểm $S$ là **đỉnh**, $SO=h$ là **chiều cao**. Theo định lí Pythagore, $l^2=r^2+h^2$.
+
+:::diagram Hình nón đỉnh $S$, bán kính đáy $r$, chiều cao $h$, đường sinh $l$
+   (… 37 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Vì sao $S_{xq}=\pi rl$?
+
+[[P7·f9c6]]
+Cắt mặt xung quanh của hình nón theo một đường sinh rồi trải phẳng, ta được một **hình quạt tròn** bán kính $l$. Độ dài cung của hình quạt bằng chu vi đáy $2\pi r$. Theo bài [Diện tích hình quạt tròn](lesson:arc-length-sector-area), $S_{\text{quạt}}=\dfrac{l_{\text{cung}}\cdot R}{2}$, nên
+
+  $$S_{xq}=\frac{2\pi r\cdot l}{2}=\pi rl.$$
+
+[[P8·c39b]]
+Về thể tích: đổ nước đầy một hình nón rồi rót sang hình trụ có cùng đáy và cùng chiều cao, ta thấy cần đúng $3$ lần mới đầy. Thể tích hình nón bằng $\dfrac13$ thể tích hình trụ cùng đáy, cùng chiều cao.
+
+  :::theorem Hình nón bán kính đáy $r$, chiều cao $h$, đường sinh $l$
+  $$S_{xq}=\pi rl,\qquad S_{tp}=\pi rl+\pi r^2,\qquad V=\frac13\pi r^2h.$$
+  :::
+
+  :::example Tính các yếu tố của hình nón
+  Một hình nón có bán kính đáy $6$ cm, chiều cao $8$ cm. Tính đường sinh, diện tích xung quanh và thể tích.
+
+  **Lời giải.** Xét tam giác $SOA$ vuông tại $O$, theo định lí Pythagore ta có $l=\sqrt{6^2+8^2}=10$ (cm). Do đó
+
+  $$S_{xq}=\pi\cdot6\cdot10=60\pi\approx188{,}50\ \text{(cm}^2),\qquad V=\frac13\pi\cdot6^2\cdot8=96\pi\approx301{,}59\ \text{(cm}^3).$$
+
+  Vậy $l=10$ cm, $S_{xq}=60\pi$ cm², $V=96\pi$ cm³.
+  :::
+
+  :::example Vận dụng: lá cho một chiếc nón
+  Giả sử một chiếc nón lá có dạng hình nón với đường kính vành $40$ cm và chiều cao $15$ cm. Tính diện tích lá cần để phủ một lớp mặt nón (làm tròn kết quả đến hàng đơn vị của cm²). Khi trải phẳng lớp lá, ta được hình quạt có số đo cung bao nhiêu độ?
+
+  **Lời giải.** Ta có $r=20$ cm, $h=15$ cm, nên $l=\sqrt{20^2+15^2}=25$ (cm). Diện tích một lớp lá là
+
+  $$S_{xq}=\pi\cdot20\cdot25=500\pi\approx1571\ \text{(cm}^2).$$
+
+  Hình quạt bán kính $25$ cm có độ dài cung bằng chu vi đáy $40\pi$ cm. Gọi $n^\circ$ là số đo cung, ta có $\dfrac{\pi\cdot25\cdot n}{180}=40\pi$, suy ra $n=288$.
+
+  Vậy cần khoảng $1571$ cm² lá cho một lớp, và hình quạt trải phẳng có số đo cung $288^\circ$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P9·724f]]
+- **Dùng chiều cao thay cho đường sinh.** Sai: $S_{xq}=\pi rh$. Đúng: $S_{xq}=\pi rl$ với $l=\sqrt{r^2+h^2}$.
+- **Quên $\dfrac13$.** Sai: $V_{\text{nón}}=\pi r^2h$. Đúng: $V_{\text{nón}}=\dfrac13\pi r^2h$.
+- **Dùng đường kính thay cho bán kính.** Đề cho đường kính $1$ m thì $r=0{,}5$ m; nhầm sẽ làm thể tích tăng gấp $4$ lần.
+- **Không đổi đơn vị.** $1$ m³ $=1000$ dm³ $=1000$ lít.
+:::
+
+[[P10·905b]]
+**Kết nối.** Hai công thức diện tích xung quanh đều đến từ việc **trải phẳng**: hình chữ nhật (hình trụ) và hình quạt tròn (hình nón), dùng độ dài đường tròn và diện tích hình quạt ở chương Đường tròn. Thể tích hình trụ mở rộng công thức lăng trụ đứng (lớp 7), thể tích hình nón giống công thức hình chóp đều ($\dfrac13$ đáy nhân cao) ở lớp 8. Bài tiếp theo, [hình cầu](lesson:spheres), là hình khối "tròn" thứ ba.
+
+## Thuật ngữ
+
+  :::terms
+  - hình trụ | cylinder
+  - hình nón | cone
+  - mặt đáy | base
+  - mặt xung quanh | curved surface
+  - đường sinh | slant height (generator)
+  - diện tích xung quanh | curved surface area
+  - diện tích toàn phần | total surface area
+  - thể tích | volume
+  :::
+
+## Tóm tắt
+
+[[P11·70a0]]
+- Hình trụ: $S_{xq}=2\pi rh$, $S_{tp}=2\pi rh+2\pi r^2$, $V=\pi r^2h$.
+- Hình nón: $l=\sqrt{r^2+h^2}$, $S_{xq}=\pi rl$, $S_{tp}=\pi rl+\pi r^2$, $V=\dfrac13\pi r^2h$.
+- Trải phẳng: mặt xung quanh hình trụ là hình chữ nhật $2\pi r\times h$; của hình nón là hình quạt bán kính $l$, cung dài $2\pi r$.
+- Nón và trụ cùng đáy, cùng chiều cao: $V_{\text{nón}}=\dfrac13V_{\text{trụ}}$.
+
+## Luyện tập
+
+[[P12·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 39 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/cylinders-and-cones – BẢN TIẾNG ANH ########
+---
+title: Cylinders and cones
+description: Recognise cylinders and cones, see why their surface area and volume formulae hold, and use them for water tanks, conical hats and sand piles.
+minutes: 20
+---
+
+  :::goals
+  - Recognise cylinders and cones and their parts: base radius, height, slant height.
+  - Explain and use the formulae for the curved surface area and the volume of a cylinder and a cone.
+  - Solve real-life problems: water tanks, painting columns, conical hats, sand piles.
+  :::
+
+[[P1·1629]]
+On the roofs of many Vietnamese homes stands a cylindrical water tank; in the fields, the conical hat (nón lá) shades the farmer from the sun; on building sites, poured sand forms a cone by itself. Very everyday questions follow: how many litres does the tank hold, and how many days will it last? How much leaf does one hat need? How many lorry loads will the sand pile take?
+
+[[P2·8eb8]]
+To answer them, we need to measure the first two "round" solids: the cylinder and the cone.
+
+## The cylinder
+
+[[P3·ce35]]
+Turn a rectangle $OABO'$ through one full turn about the fixed side $OO'$, and we get a **cylinder**. The sides $OA$ and $O'B$ sweep out the two **bases**, two equal discs in parallel planes; the side $AB$ sweeps out the **curved surface**, and each position of $AB$ is a **generator**. The length $AB$ is the **height** $h$, and the length $OA$ is the **base radius** $r$.
+
+:::diagram A cylinder with base radius $r$ and height $h$
+   (… 61 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Explore: unrolling the curved surface
+
+[[P4·6ca2]]
+Imagine peeling the label off a cylindrical can and laying it flat: we get a **rectangle**. One side is the height $h$; the other side is the circumference of the base, $2\pi r$. Hence the curved surface area is $2\pi r\cdot h$.
+
+[[P5·7b4f]]
+The volume of a cylinder is found as for a right prism (grade 7): base area times height.
+
+  :::theorem Cylinder with base radius $r$ and height $h$
+  $$S_{\text{curved}}=2\pi rh,\qquad S_{\text{total}}=2\pi rh+2\pi r^2,\qquad V=\pi r^2h.$$
+  :::
+
+  :::example Finding the surface area and volume of a cylinder
+  A cylinder has base radius $5$ cm and height $12$ cm. Find its curved surface area, total surface area and volume (give your answers to 2 decimal places).
+
+  **Solution.** We have
+
+  $$S_{\text{curved}}=2\pi\cdot5\cdot12=120\pi\approx376.99\ \text{(cm}^2),$$
+
+  $$S_{\text{total}}=120\pi+2\pi\cdot5^2=170\pi\approx534.07\ \text{(cm}^2),\qquad V=\pi\cdot5^2\cdot12=300\pi\approx942.48\ \text{(cm}^3).$$
+
+  So $S_{\text{curved}}\approx376.99$ cm², $S_{\text{total}}\approx534.07$ cm² and $V\approx942.48$ cm³.
+  :::
+
+  :::example Application: how many days will the tank last?
+  Suppose a family of $4$ has a cylindrical water tank with base diameter $1$ m and height $1.4$ m, and each person uses on average $100$ litres of water per day. If the tank is filled once, for how many whole days can the family use it?
+
+  **Solution.**
+
+  *Understand.* We need the volume of the tank (in litres) and the water used per day.
+
+  *Plan.* Compute $V=\pi r^2h$ with $r=0.5$ m, convert using $1$ m³ $=1000$ litres, then divide by $4\cdot100=400$ litres.
+
+  *Solve.* The volume of the tank is
+
+  $$V=\pi\cdot0.5^2\cdot1.4=0.35\pi\approx1.0996\ \text{(m}^3)\approx1100\ \text{(litres)}.$$
+
+  The family uses $400$ litres per day, and $1100\div400=2.75$.
+
+  So a full tank lasts $2$ whole days (it runs short on the third day).
+
+  *Look back.* The result is sensible: $1$ m³ is $1000$ litres and the tank is a little more than $1$ m³. To last $3$ days ($1200$ litres) with the same diameter, the height would need to be $h=\dfrac{1.2}{0.25\pi}\approx1.53$ m. The volume is proportional to $h$ but to the **square** of $r$: increasing the diameter is more effective than increasing the height.
+  :::
+
+## The cone
+
+[[P6·bc2d]]
+Turn a triangle $SOA$, right-angled at $O$, through one full turn about the fixed side $SO$, and we get a **cone**. The side $OA$ sweeps out the **base** (a disc of radius $r=OA$), the side $SA$ sweeps out the **curved surface**, and each position of $SA$ is a generator of length $l$, the **slant height**. The point $S$ is the **vertex**, and $SO=h$ is the **height**. By Pythagoras' theorem, $l^2=r^2+h^2$.
+
+:::diagram A cone with vertex $S$, base radius $r$, height $h$ and slant height $l$
+   (… 37 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Why is $S_{\text{curved}}=\pi rl$?
+
+[[P7·cc88]]
+Cut the curved surface of a cone along a generator and lay it flat: we get a **sector** of radius $l$. The arc length of the sector equals the circumference of the base, $2\pi r$. By the lesson on [the area of a sector](lesson:arc-length-sector-area), $S_{\text{sector}}=\dfrac{l_{\text{arc}}\cdot R}{2}$, so
+
+  $$S_{\text{curved}}=\frac{2\pi r\cdot l}{2}=\pi rl.$$
+
+[[P8·2e27]]
+As for the volume: fill a cone with water and pour it into a cylinder with the same base and the same height, and it takes exactly $3$ cones to fill it. The volume of a cone is $\dfrac13$ of the volume of the cylinder with the same base and height.
+
+  :::theorem Cone with base radius $r$, height $h$ and slant height $l$
+  $$S_{\text{curved}}=\pi rl,\qquad S_{\text{total}}=\pi rl+\pi r^2,\qquad V=\frac13\pi r^2h.$$
+  :::
+
+  :::example Finding the parts of a cone
+  A cone has base radius $6$ cm and height $8$ cm. Find its slant height, curved surface area and volume.
+
+  **Solution.** In the triangle $SOA$, right-angled at $O$, Pythagoras' theorem gives $l=\sqrt{6^2+8^2}=10$ (cm). Hence
+
+  $$S_{\text{curved}}=\pi\cdot6\cdot10=60\pi\approx188.50\ \text{(cm}^2),\qquad V=\frac13\pi\cdot6^2\cdot8=96\pi\approx301.59\ \text{(cm}^3).$$
+
+  So $l=10$ cm, $S_{\text{curved}}=60\pi$ cm² and $V=96\pi$ cm³.
+  :::
+
+  :::example Application: leaf for a conical hat
+  Suppose a conical hat (nón lá) is a cone with rim diameter $40$ cm and height $15$ cm. Find the area of leaf needed to cover the hat with one layer (give your answer to the nearest cm²). When the layer of leaf is laid flat, it is a sector: what is the angle of its arc?
+
+  **Solution.** We have $r=20$ cm and $h=15$ cm, so $l=\sqrt{20^2+15^2}=25$ (cm). The area of one layer of leaf is
+
+  $$S_{\text{curved}}=\pi\cdot20\cdot25=500\pi\approx1571\ \text{(cm}^2).$$
+
+  The sector of radius $25$ cm has arc length equal to the circumference of the base, $40\pi$ cm. Let the arc measure $n^\circ$; then $\dfrac{\pi\cdot25\cdot n}{180}=40\pi$, so $n=288$.
+
+  So about $1571$ cm² of leaf is needed for one layer, and the flat sector has an arc of $288^\circ$.
+  :::
+
+:::warning Common mistakes
+[[P9·46c8]]
+- **Using the height instead of the slant height.** Wrong: $S_{\text{curved}}=\pi rh$. Right: $S_{\text{curved}}=\pi rl$ with $l=\sqrt{r^2+h^2}$.
+- **Forgetting the $\dfrac13$.** Wrong: $V_{\text{cone}}=\pi r^2h$. Right: $V_{\text{cone}}=\dfrac13\pi r^2h$.
+- **Using the diameter instead of the radius.** If the diameter is $1$ m, then $r=0.5$ m; mixing them up makes the volume $4$ times too big.
+- **Not converting units.** $1$ m³ $=1000$ dm³ $=1000$ litres.
+:::
+
+[[P10·6d20]]
+**Connections.** Both curved-surface formulae come from **unrolling**: a rectangle (cylinder) and a sector (cone), using the circumference and the area of a sector from the Circles chapter. The volume of a cylinder extends the formula for a right prism (grade 7), and the volume of a cone looks like that of a regular pyramid ($\dfrac13$ base times height) from grade 8. The next lesson, [spheres](lesson:spheres), is the third "round" solid.
+
+## Key terms
+
+  :::terms
+  - cylinder | hình trụ
+  - cone | hình nón
+  - base | mặt đáy
+  - curved surface | mặt xung quanh
+  - slant height (generator) | đường sinh
+  - curved surface area | diện tích xung quanh
+  - total surface area | diện tích toàn phần
+  - volume | thể tích
+  :::
+
+## Summary
+
+[[P11·8dc1]]
+- Cylinder: $S_{\text{curved}}=2\pi rh$, $S_{\text{total}}=2\pi rh+2\pi r^2$, $V=\pi r^2h$.
+- Cone: $l=\sqrt{r^2+h^2}$, $S_{\text{curved}}=\pi rl$, $S_{\text{total}}=\pi rl+\pi r^2$, $V=\dfrac13\pi r^2h$.
+- Unrolled: the curved surface of a cylinder is a $2\pi r\times h$ rectangle; that of a cone is a sector of radius $l$ with arc length $2\pi r$.
+- A cone and a cylinder with the same base and height: $V_{\text{cone}}=\dfrac13V_{\text{cylinder}}$.
+
+## Practice
+
+[[P12·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 39 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/equations-reducible-to-linear – BẢN TIẾNG VIỆT ########
+---
+title: Phương trình quy về phương trình bậc nhất một ẩn
+description: Giải phương trình tích (ax+b)(cx+d)=0 và phương trình chứa ẩn ở mẫu bằng cách đưa về phương trình bậc nhất một ẩn, có đối chiếu điều kiện xác định.
+minutes: 20
+---
+
+  :::goals
+  - Giải phương trình tích $(ax+b)(cx+d)=0$, và đưa một phương trình về dạng tích bằng cách phân tích đa thức thành nhân tử.
+  - Tìm điều kiện xác định của phương trình chứa ẩn ở mẫu.
+  - Giải phương trình chứa ẩn ở mẫu và loại các giá trị không thoả mãn điều kiện xác định.
+  :::
+
+[[P1·43fc]]
+Bạn An giải phương trình $x^2=3x$ như sau: "Chia hai vế cho $x$, được $x=3$." Bạn Bình nói: "Còn thiếu một nghiệm." Thay $x=0$ vào, ta thấy $0^2=3\cdot0$, đúng là $0$ cũng là nghiệm. An sai ở đâu, và làm thế nào để không bỏ sót nghiệm?
+
+[[P2·3590]]
+Phương trình $x^2=3x$ không phải là phương trình bậc nhất, nhưng ta có thể **quy về** các phương trình bậc nhất. Bài này học hai dạng như vậy.
+
+## Phương trình tích
+
+### Khám phá: khi nào một tích bằng $0$?
+
+[[P3·d78e]]
+Ta có $5\cdot0=0$, $0\cdot(-7)=0$, còn $2\cdot3=6\neq0$. Một tích bằng $0$ chỉ khi có ít nhất một thừa số bằng $0$. Đây là chìa khoá để giải phương trình mà vế trái là một tích và vế phải bằng $0$ (gọi là **phương trình tích**).
+
+  :::theorem Cách giải phương trình tích
+  $$(ax+b)(cx+d)=0\iff ax+b=0\ \text{ hoặc }\ cx+d=0.$$
+  Giải hai phương trình bậc nhất rồi lấy **tất cả** các nghiệm tìm được.
+  :::
+
+  :::example Phương trình tích
+  Giải phương trình $(2x-6)(x+4)=0$.
+
+  **Lời giải.** Tích bằng $0$ khi một trong hai thừa số bằng $0$:
+
+  $$2x-6=0\iff x=3;\qquad x+4=0\iff x=-4.$$
+
+  Vậy phương trình có hai nghiệm $x=3$ và $x=-4$.
+  :::
+
+[[P4·5c7a]]
+Khi phương trình chưa có dạng tích, ta chuyển mọi số hạng sang vế trái rồi phân tích thành nhân tử (như ở lớp 8).
+
+  :::example Trả lời câu hỏi của An và Bình
+  Giải phương trình $x^2=3x$.
+
+  **Lời giải.** Chuyển $3x$ sang vế trái rồi đặt nhân tử chung $x$:
+
+  $$x^2-3x=0\iff x(x-3)=0\iff x=0\ \text{ hoặc }\ x=3.$$
+
+  Vậy phương trình có hai nghiệm $x=0$ và $x=3$. An bỏ sót nghiệm $x=0$, vì không được chia hai vế cho $x$ khi $x$ có thể bằng $0$.
+  :::
+
+  :::example Có nhân tử chung ở hai vế
+  Giải phương trình $(x-1)(2x+1)=(x-1)(x+4)$.
+
+  **Lời giải.** Chuyển vế phải sang vế trái và đặt nhân tử chung $x-1$:
+
+  $$\begin{aligned} (x-1)(2x+1)-(x-1)(x+4)&=0\\ (x-1)(2x+1-x-4)&=0\\ (x-1)(x-3)&=0. \end{aligned}$$
+
+  Vậy phương trình có hai nghiệm $x=1$ và $x=3$.
+  :::
+
+## Phương trình chứa ẩn ở mẫu
+
+[[P5·6560]]
+Hai bạn Hoà và Bình đạp xe cùng một lúc. Hoà đi được $12$ km, Bình đi được $18$ km trong cùng khoảng thời gian, và Bình đi nhanh hơn Hoà $4$ km/h. Gọi vận tốc của Hoà là $x$ (km/h), thời gian bằng nhau cho ta phương trình
+  $$\frac{12}{x}=\frac{18}{x+4}.$$
+[[P6·7682]]
+Ẩn nằm ở **mẫu**. Một phân thức chỉ có nghĩa khi mẫu khác $0$, nên trước hết ta phải tìm điều kiện của ẩn.
+
+  :::definition Điều kiện xác định
+  **Điều kiện xác định** của một phương trình chứa ẩn ở mẫu là điều kiện để **tất cả** các mẫu trong phương trình đều khác $0$. Nghiệm của phương trình phải thoả mãn điều kiện này.
+  :::
+
+:::note Các bước giải phương trình chứa ẩn ở mẫu
+[[P7·ff86]]
+1. Tìm điều kiện xác định.
+2. Quy đồng mẫu hai vế rồi khử mẫu.
+3. Giải phương trình vừa nhận được.
+4. Đối chiếu với điều kiện xác định và kết luận.
+:::
+
+  :::example Bài toán đạp xe
+  Giải phương trình $\dfrac{12}{x}=\dfrac{18}{x+4}$ và trả lời bài toán.
+
+  **Lời giải.** Điều kiện xác định: $x\neq0$ và $x\neq-4$. Nhân hai vế với mẫu chung $x(x+4)$:
+
+  $$12(x+4)=18x\iff 12x+48=18x\iff 6x=48\iff x=8.$$
+
+  Giá trị $x=8$ thoả mãn điều kiện xác định. Vậy Hoà đi với vận tốc $8$ km/h, Bình đi với vận tốc $12$ km/h.
+  :::
+
+[[P8·a8c3]]
+Bước đối chiếu điều kiện không phải là hình thức: có khi phương trình sau khi khử mẫu cho một giá trị làm mẫu bằng $0$.
+
+  :::example Phải loại một giá trị
+  Giải phương trình $\dfrac{x}{x-2}-\dfrac{1}{x}=\dfrac{2}{x(x-2)}$.
+
+  **Lời giải.** Điều kiện xác định: $x\neq0$ và $x\neq2$. Nhân hai vế với mẫu chung $x(x-2)$:
+
+  $$x^2-(x-2)=2\iff x^2-x=0\iff x(x-1)=0\iff x=0\ \text{ hoặc }\ x=1.$$
+
+  Giá trị $x=0$ không thoả mãn điều kiện xác định nên bị loại. Vậy phương trình có một nghiệm $x=1$.
+
+  **Kiểm tra.** Với $x=1$: vế trái $\dfrac{1}{-1}-1=-2$, vế phải $\dfrac{2}{1\cdot(-1)}=-2$.
+  :::
+
+:::graph Điều kiện xác định và nghiệm trên trục số
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::warning Những sai lầm thường gặp
+[[P9·b944]]
+- **Chia hai vế cho biểu thức chứa ẩn.** Sai: từ $(x-1)(2x+1)=(x-1)(x+4)$ chia cho $x-1$ được $x=3$. Lí do sai: mất nghiệm $x=1$. Đúng: chuyển vế, đặt nhân tử chung.
+- **Quên đối chiếu điều kiện xác định.** Sai: kết luận phương trình ở ví dụ cuối có nghiệm $x=0$. Lí do sai: tại $x=0$ mẫu bằng $0$. Đúng: loại $x=0$.
+- **Khử mẫu nhưng quên nhân số hạng không có mẫu.** Sai: từ $\dfrac{x+1}{x-3}=2+\dfrac{4}{x-3}$ viết $x+1=2+4$. Lí do sai: số $2$ cũng phải nhân với $x-3$. Đúng: $x+1=2(x-3)+4$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phương trình tích | product equation (an equation of the form A·B = 0)
+  - thừa số | factor
+  - phân tích thành nhân tử | factorise
+  - nhân tử chung | common factor
+  - phương trình chứa ẩn ở mẫu | equation with the unknown in the denominator
+  - điều kiện xác định | condition for the equation to be defined
+  - mẫu chung | common denominator
+  - khử mẫu | clear the fractions
+  :::
+
+## Tóm tắt
+
+[[P10·5414]]
+- $A\cdot B=0\iff A=0$ hoặc $B=0$. Đưa phương trình về dạng tích: chuyển hết sang một vế, phân tích thành nhân tử.
+- Không chia hai vế cho biểu thức chứa ẩn.
+- Phương trình chứa ẩn ở mẫu: tìm điều kiện xác định, quy đồng và khử mẫu, giải, rồi **đối chiếu điều kiện**.
+- Một phương trình có thể vô nghiệm nếu mọi giá trị tìm được đều bị loại.
+
+## Luyện tập
+
+[[P11·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 43 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/equations-reducible-to-linear – BẢN TIẾNG ANH ########
+---
+title: Equations reducible to linear equations in one unknown
+description: Solve equations in factorised form (ax+b)(cx+d)=0 and equations with the unknown in the denominator by reducing them to linear equations.
+minutes: 20
+---
+
+  :::goals
+  - Solve equations in factorised form $(ax+b)(cx+d)=0$, and get an equation into this form by factorising.
+  - Find the values of the unknown for which an equation with the unknown in the denominator is defined.
+  - Solve equations with the unknown in the denominator and reject any value that makes a denominator zero.
+  :::
+
+[[P1·6ded]]
+An solves the equation $x^2=3x$ like this: "Divide both sides by $x$, so $x=3$." Bình says: "You have lost a solution." Substituting $x=0$ gives $0^2=3\cdot0$, so $0$ really is a solution too. Where did An go wrong, and how can we make sure no solution is lost?
+
+[[P2·6ea4]]
+The equation $x^2=3x$ is not linear, but we can **reduce** it to linear equations. This lesson covers two kinds of equation like this.
+
+## Equations in factorised form
+
+### Explore: when is a product equal to $0$?
+
+[[P3·1b0d]]
+We have $5\cdot0=0$ and $0\cdot(-7)=0$, but $2\cdot3=6\neq0$. A product is $0$ only when at least one of its factors is $0$. This is the key to solving an equation whose left-hand side is a product of factors and whose right-hand side is $0$ (Vietnamese textbooks call it a *product equation*).
+
+  :::theorem Solving an equation in factorised form
+  $$(ax+b)(cx+d)=0\iff ax+b=0\ \text{ or }\ cx+d=0.$$
+  Solve the two linear equations and keep **all** the solutions found.
+  :::
+
+  :::example An equation in factorised form
+  Solve the equation $(2x-6)(x+4)=0$.
+
+  **Solution.** The product is $0$ when one of the two factors is $0$:
+
+  $$2x-6=0\iff x=3;\qquad x+4=0\iff x=-4.$$
+
+  So the equation has two solutions, $x=3$ and $x=-4$.
+  :::
+
+[[P4·9ef4]]
+When the equation is not yet in factorised form, we move every term to the left-hand side and factorise (as in Grade 8).
+
+  :::example Answering An and Bình
+  Solve the equation $x^2=3x$.
+
+  **Solution.** Move $3x$ to the left-hand side and take out the common factor $x$:
+
+  $$x^2-3x=0\iff x(x-3)=0\iff x=0\ \text{ or }\ x=3.$$
+
+  So the equation has two solutions, $x=0$ and $x=3$. An lost the solution $x=0$, because you must not divide both sides by $x$ when $x$ could be $0$.
+  :::
+
+  :::example A common factor on both sides
+  Solve the equation $(x-1)(2x+1)=(x-1)(x+4)$.
+
+  **Solution.** Move the right-hand side to the left and take out the common factor $x-1$:
+
+  $$\begin{aligned} (x-1)(2x+1)-(x-1)(x+4)&=0\\ (x-1)(2x+1-x-4)&=0\\ (x-1)(x-3)&=0. \end{aligned}$$
+
+  So the equation has two solutions, $x=1$ and $x=3$.
+  :::
+
+## Equations with the unknown in the denominator
+
+[[P5·d690]]
+Hoà and Bình set off on their bikes at the same time. In the same length of time Hoà rides $12$ km and Bình rides $18$ km, and Bình is $4$ km/h faster than Hoà. If Hoà's speed is $x$ (km/h), equal times give the equation
+  $$\frac{12}{x}=\frac{18}{x+4}.$$
+[[P6·2cbe]]
+The unknown is in the **denominator**. A fraction only makes sense when its denominator is not $0$, so first we must find which values of the unknown are allowed.
+
+  :::definition Values for which the equation is defined
+  An equation with the unknown in the denominator is **defined** only for the values of the unknown that make **every** denominator non-zero. A value that makes a denominator zero is an **excluded value**: it can never be a solution.
+  :::
+
+:::note Steps for solving an equation with the unknown in the denominator
+[[P7·3318]]
+1. Find the values for which the equation is defined (no denominator may be zero).
+2. Write both sides over a common denominator, then clear the fractions.
+3. Solve the equation you get.
+4. Reject any excluded value, then state the solutions.
+:::
+
+  :::example The cycling problem
+  Solve the equation $\dfrac{12}{x}=\dfrac{18}{x+4}$ and answer the problem.
+
+  **Solution.** The equation is defined for $x\neq0$ and $x\neq-4$. Multiply both sides by the common denominator $x(x+4)$:
+
+  $$12(x+4)=18x\iff 12x+48=18x\iff 6x=48\iff x=8.$$
+
+  The value $x=8$ is not excluded. So Hoà rides at $8$ km/h and Bình at $12$ km/h.
+  :::
+
+[[P8·0599]]
+Checking for excluded values is not a formality: sometimes the equation obtained after clearing fractions gives a value that makes a denominator $0$.
+
+  :::example A value that must be rejected
+  Solve the equation $\dfrac{x}{x-2}-\dfrac{1}{x}=\dfrac{2}{x(x-2)}$.
+
+  **Solution.** The equation is defined for $x\neq0$ and $x\neq2$. Multiply both sides by the common denominator $x(x-2)$:
+
+  $$x^2-(x-2)=2\iff x^2-x=0\iff x(x-1)=0\iff x=0\ \text{ or }\ x=1.$$
+
+  The value $x=0$ is excluded (it makes a denominator zero), so it is rejected. So the equation has one solution, $x=1$.
+
+  **Check.** For $x=1$: the left-hand side is $\dfrac{1}{-1}-1=-2$ and the right-hand side is $\dfrac{2}{1\cdot(-1)}=-2$.
+  :::
+
+:::graph Excluded values and the solution on a number line
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::warning Common mistakes
+[[P9·c22f]]
+- **Dividing both sides by an expression containing the unknown.** Wrong: dividing $(x-1)(2x+1)=(x-1)(x+4)$ by $x-1$ gives $x=3$. Why it is wrong: the solution $x=1$ is lost. Right: move everything to one side and take out the common factor.
+- **Forgetting to reject excluded values.** Wrong: saying the equation in the last example has the solution $x=0$. Why it is wrong: at $x=0$ a denominator is $0$. Right: reject $x=0$.
+- **Clearing fractions but not multiplying a term without a denominator.** Wrong: from $\dfrac{x+1}{x-3}=2+\dfrac{4}{x-3}$ writing $x+1=2+4$. Why it is wrong: the $2$ must also be multiplied by $x-3$. Right: $x+1=2(x-3)+4$.
+:::
+
+## Key terms
+
+  :::terms
+  - equation in factorised form, A·B = 0 (product equation) | phương trình tích
+  - factor | thừa số
+  - factorise | phân tích thành nhân tử
+  - common factor | nhân tử chung
+  - equation with the unknown in the denominator | phương trình chứa ẩn ở mẫu
+  - values for which the equation is defined (excluded values) | điều kiện xác định
+  - common denominator | mẫu chung
+  - clear the fractions | khử mẫu
+  :::
+
+## Summary
+
+[[P10·55d3]]
+- $A\cdot B=0\iff A=0$ or $B=0$. To get a product: move everything to one side and factorise.
+- Never divide both sides by an expression containing the unknown.
+- Unknown in the denominator: find the excluded values, use a common denominator and clear the fractions, solve, then **reject any excluded value**.
+- An equation may have no solution if every value found is rejected.
+
+## Practice
+
+[[P11·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 43 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

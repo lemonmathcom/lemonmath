@@ -1,0 +1,3469 @@
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – GV-11
+Gồm 10 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g2/addition-crossing-10, g2/comparing-multiples-of-10-100, g2/comparing-three-digit-numbers, g2/cylinders-and-spheres, g2/decimetres-metres-kilometres, g2/multiples-of-10-and-100, g2/ones-tens-hundreds-thousands, g2/partitioning-hundreds-tens-ones, g2/points-lines-curves, g2/regroup-add-1-digit
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  GV-ChatGPT-GV-11.md  (trong /mnt/data), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/data/GV-ChatGPT-GV-11.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/10). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file GV-ChatGPT-GV-11.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g2/addition-crossing-10 – BẢN TIẾNG VIỆT ########
+---
+title: Phép cộng (qua 10) trong phạm vi 20
+description: Em học cách cộng qua 10, ví dụ 8 + 5, bằng mẹo "gộp cho đủ 10": tách số thứ hai để làm tròn 10 rồi cộng tiếp phần còn lại.
+minutes: 15
+---
+
+  :::goals
+  - Biết cộng hai số có tổng lớn hơn 10, ví dụ $8+5$.
+  - Dùng mẹo "gộp cho đủ 10" để tính nhanh, không cần đếm từng cái.
+  - Giải bài toán có lời văn bằng một phép cộng.
+  :::
+
+[[P1·6ae7]]
+Lan có $8$ cái kẹo. Mẹ cho Lan thêm $5$ cái nữa. Hỏi Lan có tất cả bao nhiêu cái kẹo?
+
+[[P2·b511]]
+Em có thể đếm thêm từng cái: $9, 10, 11, 12, 13$. Nhưng đếm như vậy dễ nhầm và chậm. Bài này dạy em một mẹo nhanh hơn nhiều.
+
+## Cùng khám phá
+
+[[P3·b1d4]]
+Lan có một hộp đựng kẹo có đúng $10$ ô. Lan bỏ $8$ cái kẹo vào, hộp còn trống $2$ ô.
+
+[[P4·f845]]
+- Lan lấy $2$ cái trong $5$ cái mẹ cho để lấp đầy hộp. Hộp đủ $10$ cái.
+- Số kẹo mẹ cho còn lại $3$ cái ở ngoài hộp.
+- $10$ cái trong hộp và $3$ cái ở ngoài là $13$ cái.
+
+[[P5·f4ea]]
+Vậy $8+5=13$. Em thấy không, chỉ cần **gộp cho đủ 10** là tính được ngay.
+
+:::graph Trên tia số: từ 8, nhảy 2 bước đến 10, rồi nhảy 3 bước đến 13
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Mẹo "gộp cho đủ 10"
+  Muốn tính $8+5$:
+  1. Hỏi: $8$ cần thêm mấy để được $10$? Cần thêm $2$.
+  2. Tách $5$ thành $2$ và $3$.
+  3. Cộng: $8+2=10$, rồi $10+3=13$.
+  :::
+
+[[P6·0628]]
+Mẹo này đúng vì em không làm mất cái kẹo nào: em chỉ chuyển $2$ cái vào hộp cho đủ $10$, phần còn lại vẫn được đếm.
+
+## Ví dụ
+
+[[P7·9613]]
+Ta bắt đầu với một phép cộng có số $9$, vì $9$ chỉ cần thêm $1$ là đủ $10$.
+
+  :::example Tính $9+4$
+  **Lời giải.** $9$ cần thêm $1$ để được $10$, nên em tách $4$ thành $1$ và $3$:
+  $$9+4=9+1+3=10+3=13.$$
+  Vậy $9+4=13$.
+  :::
+
+[[P8·c2dc]]
+Với số $7$, em cần thêm nhiều hơn để đủ $10$.
+
+  :::example Tính $7+6$
+  **Lời giải.** $7$ cần thêm $3$ để được $10$, nên em tách $6$ thành $3$ và $3$:
+  $$7+6=7+3+3=10+3=13.$$
+  Vậy $7+6=13$.
+  :::
+
+[[P9·8d45]]
+Khi số đứng trước nhỏ hơn, em có thể đổi chỗ hai số cho dễ tính.
+
+  :::example Tính $6+8$
+  **Lời giải.** Đổi chỗ hai số hạng thì tổng không đổi, nên $6+8=8+6$. Số $8$ chỉ cần thêm $2$ để được $10$, nên em tách $6$ thành $2$ và $4$:
+  $$8+6=8+2+4=10+4=14.$$
+  Vậy $6+8=14$.
+  :::
+
+[[P10·9135]]
+Bây giờ em dùng phép cộng để trả lời một câu hỏi trong cuộc sống.
+
+  :::example Trồng cây
+  Tổ Một trồng được $9$ cây, tổ Hai trồng được $7$ cây. Hỏi cả hai tổ trồng được bao nhiêu cây?
+
+  **Lời giải.** "Cả hai tổ" nghĩa là gộp số cây của hai tổ lại, nên em làm phép cộng. $9$ cần thêm $1$ để được $10$, em tách $7$ thành $1$ và $6$:
+  $$9+7=10+6=16.$$
+  Vậy cả hai tổ trồng được $16$ cây.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·02b9]]
+- **Quên phần còn lại.** Sai: $8+5=10$. Vì sao sai: em mới cộng $2$ trong số $5$, còn quên $3$. Đúng: $8+5=10+3=13$.
+- **Tách sai.** Sai: tách $5$ thành $2$ và $2$. Vì sao sai: $2+2=4$, không bằng $5$. Đúng: $5=2+3$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $16$". Đúng: "Đáp số: $16$ cây".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép cộng | addition
+  - số hạng | addend
+  - tổng | sum (total)
+  - cộng qua 10 | bridging through 10
+  - gộp cho đủ 10 | make 10
+  - tách số | partition a number
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P12·9ac8]]
+- Muốn cộng qua $10$, em **gộp cho đủ 10**: tách số thứ hai thành phần cần để đủ $10$ và phần còn lại.
+- Ví dụ: $8+5=8+2+3=10+3=13$.
+- Đổi chỗ các số hạng thì tổng không đổi; em có thể cộng vào số lớn hơn cho dễ.
+- Bài toán hỏi "tất cả", "cả hai" thường là phép cộng; nhớ ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/addition-crossing-10 – BẢN TIẾNG ANH ########
+---
+title: Addition bridging through 10 (within 20)
+description: Learn to add across 10, for example 8 + 5, with the "make 10" trick: split the second number to make 10, then add what is left.
+minutes: 15
+---
+
+  :::goals
+  - Add two numbers whose total is more than 10, for example $8+5$.
+  - Use the "make 10" trick to add quickly, without counting one by one.
+  - Solve a word problem with one addition.
+  :::
+
+[[P1·f75a]]
+Lan has $8$ sweets. Her mum gives her $5$ more. How many sweets does Lan have altogether?
+
+[[P2·718a]]
+You could count on one at a time: $9, 10, 11, 12, 13$. But counting like that is slow and easy to get wrong. This lesson shows you a much quicker trick.
+
+## Let's explore
+
+[[P3·5f05]]
+Lan has a sweet box with exactly $10$ spaces. She puts her $8$ sweets in, so $2$ spaces are still empty.
+
+[[P4·5a42]]
+- Lan takes $2$ of the $5$ sweets from her mum to fill the box. Now the box has $10$.
+- $3$ of mum's sweets are left outside the box.
+- $10$ in the box and $3$ outside make $13$.
+
+[[P5·f6ec]]
+So $8+5=13$. You see: just **make 10** first, and the answer is easy.
+
+:::graph On the number line: from 8, jump 2 to reach 10, then jump 3 to reach 13
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem The "make 10" trick
+  To work out $8+5$:
+  1. Ask: how many does $8$ need to make $10$? It needs $2$.
+  2. Split $5$ into $2$ and $3$.
+  3. Add: $8+2=10$, then $10+3=13$.
+  :::
+
+[[P6·48cc]]
+The trick works because no sweet is lost: you only move $2$ of them into the box to make $10$, and the rest are still counted.
+
+## Examples
+
+[[P7·eaba]]
+We start with a sum that has a $9$ in it, because $9$ needs only $1$ more to make $10$.
+
+  :::example Work out $9+4$
+  **Solution.** $9$ needs $1$ more to make $10$, so split $4$ into $1$ and $3$:
+  $$9+4=9+1+3=10+3=13.$$
+  So $9+4=13$.
+  :::
+
+[[P8·1c33]]
+With a $7$, you need more to make $10$.
+
+  :::example Work out $7+6$
+  **Solution.** $7$ needs $3$ more to make $10$, so split $6$ into $3$ and $3$:
+  $$7+6=7+3+3=10+3=13.$$
+  So $7+6=13$.
+  :::
+
+[[P9·e880]]
+When the first number is the smaller one, you can swap the two numbers to make it easier.
+
+  :::example Work out $6+8$
+  **Solution.** Swapping the addends does not change the sum, so $6+8=8+6$. $8$ needs only $2$ more to make $10$, so split $6$ into $2$ and $4$:
+  $$8+6=8+2+4=10+4=14.$$
+  So $6+8=14$.
+  :::
+
+[[P10·9c6b]]
+Now use addition to answer a question from everyday life.
+
+  :::example Planting trees
+  Group One planted $9$ trees and Group Two planted $7$ trees. How many trees did the two groups plant altogether?
+
+  **Solution.** "Altogether" means putting the two groups' trees together, so we add. $9$ needs $1$ more to make $10$, so split $7$ into $1$ and $6$:
+  $$9+7=10+6=16.$$
+  So the two groups planted $16$ trees.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·3dff]]
+- **Forgetting what is left.** Wrong: $8+5=10$. Why it is wrong: you only added $2$ of the $5$ and forgot the other $3$. Right: $8+5=10+3=13$.
+- **Splitting wrongly.** Wrong: splitting $5$ into $2$ and $2$. Why it is wrong: $2+2=4$, not $5$. Right: $5=2+3$.
+- **No unit in a word problem.** Wrong: "Answer: $16$". Right: "Answer: $16$ trees".
+:::
+
+## Key terms
+
+  :::terms
+  - addition | phép cộng
+  - addend | số hạng
+  - sum (total) | tổng
+  - bridging through 10 | cộng qua 10
+  - make 10 | gộp cho đủ 10
+  - partition a number | tách số
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P12·fd7a]]
+- To add across $10$, **make 10**: split the second number into the part that makes $10$ and the part that is left.
+- Example: $8+5=8+2+3=10+3=13$.
+- Swapping the addends does not change the sum; add on to the bigger number to make it easier.
+- Questions with "altogether" or "both" usually need addition; remember the unit in the answer.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/comparing-multiples-of-10-100 – BẢN TIẾNG VIỆT ########
+---
+title: So sánh các số tròn trăm, tròn chục
+description: Em so sánh hai số tròn chục hoặc hai số tròn trăm bằng dấu lớn hơn, bé hơn, bằng, và sắp xếp các số từ bé đến lớn.
+minutes: 15
+---
+
+  :::goals
+  - So sánh hai số tròn chục và hai số tròn trăm.
+  - Dùng đúng các dấu $>$, $<$, $=$.
+  - Sắp xếp các số tròn chục, tròn trăm từ bé đến lớn và từ lớn đến bé.
+  :::
+
+[[P1·da36]]
+Lan có $30$ viên bi. Nam có $50$ viên bi. Ai có nhiều bi hơn?
+
+[[P2·4fb9]]
+Em đã biết $30$ là $3$ chục và $50$ là $5$ chục. Bài này giúp em so sánh các số như vậy một cách nhanh và chắc chắn.
+
+## Cùng khám phá
+
+[[P3·8e61]]
+Số bi của Lan là $3$ chục, số bi của Nam là $5$ chục. Em so sánh số chục: $5$ lớn hơn $3$, nên $5$ chục lớn hơn $3$ chục.
+
+[[P4·2907]]
+Em cũng thấy điều này trên tia số: số nào đứng bên phải thì lớn hơn.
+
+:::graph Trên tia số: 70 đứng bên phải 30 nên 70 lớn hơn 30
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·c639]]
+Ta dùng dấu để ghi kết quả so sánh:
+
+[[P6·6465]]
+- $50>30$ đọc là "năm mươi lớn hơn ba mươi".
+- $30<50$ đọc là "ba mươi bé hơn năm mươi".
+- $50=50$ đọc là "năm mươi bằng năm mươi".
+
+[[P7·ceaa]]
+Đầu nhọn của dấu $>$ hoặc $<$ luôn quay về phía số bé hơn.
+
+  :::theorem Cách so sánh
+  - Hai số tròn chục: số nào có nhiều chục hơn thì lớn hơn.
+  - Hai số tròn trăm: số nào có nhiều trăm hơn thì lớn hơn.
+  - Hai số có số chục (hoặc số trăm) bằng nhau thì bằng nhau.
+  :::
+
+[[P8·7e8b]]
+Cách này đúng vì mỗi chục có $10$ đơn vị, nên nhiều chục hơn thì có nhiều đơn vị hơn. Với trăm cũng vậy.
+
+## Ví dụ
+
+[[P9·3b7e]]
+Ta bắt đầu với hai số tròn chục.
+
+  :::example So sánh số tròn chục
+  So sánh $30$ và $50$.
+
+  **Lời giải.** $30$ là $3$ chục, $50$ là $5$ chục. Vì $3<5$ nên $3$ chục bé hơn $5$ chục:
+  $$30<50.$$
+  Vậy $30<50$, tức là Nam có nhiều bi hơn Lan.
+  :::
+
+[[P10·4c71]]
+Bây giờ ta so sánh hai số tròn trăm.
+
+  :::example So sánh số tròn trăm
+  So sánh $600$ và $400$.
+
+  **Lời giải.** $600$ là $6$ trăm, $400$ là $4$ trăm. Vì $6>4$ nên $6$ trăm lớn hơn $4$ trăm:
+  $$600>400.$$
+  Vậy $600>400$.
+  :::
+
+[[P11·2f3b]]
+Tiếp theo ta sắp xếp nhiều số theo thứ tự.
+
+  :::example Xếp từ bé đến lớn
+  Xếp các số $80, 20, 50$ theo thứ tự từ bé đến lớn.
+
+  **Lời giải.** Em đổi ra chục: $8$ chục, $2$ chục, $5$ chục. Số chục từ bé đến lớn là $2, 5, 8$:
+  $$20<50<80.$$
+  Vậy thứ tự từ bé đến lớn là $20, 50, 80$.
+  :::
+
+[[P12·4fea]]
+Cuối cùng em dùng so sánh trong một bài toán.
+
+  :::example Hộp bút
+  Hộp A có $40$ chiếc bút, hộp B có $70$ chiếc bút. Hộp nào có nhiều bút hơn?
+
+  **Lời giải.** So sánh $40$ và $70$. $4$ chục bé hơn $7$ chục, nên $40<70$.
+
+  Vậy hộp B có nhiều bút hơn.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·7cc1]]
+- **Quên đầu nhọn quay về số bé.** Sai: $30>50$. Vì sao sai: $30$ bé hơn $50$. Đúng: $30<50$.
+- **So sánh chữ số đầu của số tròn chục với số tròn trăm.** Sai: "$90>100$ vì $9>1$". Vì sao sai: $100$ là $10$ chục, nhiều hơn $9$ chục. Đúng: $90<100$.
+- **Nghĩ $50$ bằng $500$ vì cùng chữ số $5$.** Sai: $50=500$. Vì sao sai: $50$ là $5$ chục, $500$ là $5$ trăm. Đúng: $50<500$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - so sánh | compare
+  - lớn hơn | greater than
+  - bé hơn | less than
+  - bằng | equal to
+  - từ bé đến lớn | in order, smallest first
+  - từ lớn đến bé | in order, largest first
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P14·aa6f]]
+- Số tròn chục: so sánh số chục. Số tròn trăm: so sánh số trăm.
+- Dấu $>$ đọc là lớn hơn, $<$ đọc là bé hơn, $=$ đọc là bằng; đầu nhọn quay về số bé.
+- Trên tia số, số đứng bên phải thì lớn hơn.
+- Sắp xếp từ bé đến lớn: bắt đầu từ số bé nhất.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/comparing-multiples-of-10-100 – BẢN TIẾNG ANH ########
+---
+title: Comparing multiples of 10 and 100
+description: Compare two multiples of 10 or two multiples of 100 using greater than, less than and equal to, and put numbers in order from smallest to largest.
+minutes: 15
+---
+
+  :::goals
+  - Compare two multiples of 10 and two multiples of 100.
+  - Use the signs $>$, $<$ and $=$ correctly.
+  - Put multiples of 10 and 100 in order, smallest first and largest first.
+  :::
+
+[[P1·37fc]]
+Lan has $30$ marbles. Nam has $50$ marbles. Who has more marbles?
+
+[[P2·097c]]
+You know that $30$ is $3$ tens and $50$ is $5$ tens. This lesson helps you compare numbers like these quickly and surely.
+
+## Let's explore
+
+[[P3·4da5]]
+Lan has $3$ tens of marbles and Nam has $5$ tens. We compare the tens: $5$ is greater than $3$, so $5$ tens is greater than $3$ tens.
+
+[[P4·9c44]]
+You can also see this on a number line: the number further to the right is greater.
+
+:::graph On the number line: 70 is to the right of 30, so 70 is greater than 30
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·f8a5]]
+We use signs to write the result of a comparison:
+
+[[P6·031c]]
+- $50>30$ is read "fifty is greater than thirty".
+- $30<50$ is read "thirty is less than fifty".
+- $50=50$ is read "fifty is equal to fifty".
+
+[[P7·c6cb]]
+The pointed end of $>$ or $<$ always points to the smaller number.
+
+  :::theorem How to compare
+  - Two multiples of 10: the one with more tens is greater.
+  - Two multiples of 100: the one with more hundreds is greater.
+  - If the number of tens (or hundreds) is the same, the numbers are equal.
+  :::
+
+[[P8·86a8]]
+This works because each ten has $10$ ones, so more tens means more ones. The same is true for hundreds.
+
+## Examples
+
+[[P9·eb90]]
+We start with two multiples of 10.
+
+  :::example Comparing multiples of 10
+  Compare $30$ and $50$.
+
+  **Solution.** $30$ is $3$ tens and $50$ is $5$ tens. Since $3<5$, $3$ tens is less than $5$ tens:
+  $$30<50.$$
+  So $30<50$, which means Nam has more marbles than Lan.
+  :::
+
+[[P10·9828]]
+Now we compare two multiples of 100.
+
+  :::example Comparing multiples of 100
+  Compare $600$ and $400$.
+
+  **Solution.** $600$ is $6$ hundreds and $400$ is $4$ hundreds. Since $6>4$, $6$ hundreds is greater than $4$ hundreds:
+  $$600>400.$$
+  So $600>400$.
+  :::
+
+[[P11·a983]]
+Next we put several numbers in order.
+
+  :::example Smallest first
+  Put the numbers $80, 20, 50$ in order, smallest first.
+
+  **Solution.** Change to tens: $8$ tens, $2$ tens, $5$ tens. The tens in order from smallest are $2, 5, 8$:
+  $$20<50<80.$$
+  So the order from smallest to largest is $20, 50, 80$.
+  :::
+
+[[P12·2d23]]
+Finally you use comparing in a problem.
+
+  :::example Boxes of pens
+  Box A has $40$ pens and box B has $70$ pens. Which box has more pens?
+
+  **Solution.** Compare $40$ and $70$. $4$ tens is less than $7$ tens, so $40<70$.
+
+  So box B has more pens.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·5488]]
+- **Forgetting that the pointed end faces the smaller number.** Wrong: $30>50$. Why it is wrong: $30$ is less than $50$. Right: $30<50$.
+- **Comparing the first digits of a multiple of 10 and a multiple of 100.** Wrong: "$90>100$ because $9>1$". Why it is wrong: $100$ is $10$ tens, which is more than $9$ tens. Right: $90<100$.
+- **Thinking $50$ equals $500$ because both have a $5$.** Wrong: $50=500$. Why it is wrong: $50$ is $5$ tens and $500$ is $5$ hundreds. Right: $50<500$.
+:::
+
+## Key terms
+
+  :::terms
+  - compare | so sánh
+  - greater than | lớn hơn
+  - less than | bé hơn
+  - equal to | bằng
+  - in order, smallest first | từ bé đến lớn
+  - in order, largest first | từ lớn đến bé
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P14·281f]]
+- Multiples of 10: compare the tens. Multiples of 100: compare the hundreds.
+- $>$ is read greater than, $<$ is read less than, $=$ is read equal to; the pointed end faces the smaller number.
+- On a number line, the number further to the right is greater.
+- To order smallest first, start with the smallest number.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/comparing-three-digit-numbers – BẢN TIẾNG VIỆT ########
+---
+title: So sánh các số có ba chữ số
+description: Em so sánh hai số có ba chữ số bằng cách so sánh từng hàng từ trái sang phải, dùng các dấu lớn hơn, bé hơn, bằng và xếp các số theo thứ tự.
+minutes: 15
+---
+
+  :::goals
+  - So sánh hai số có ba chữ số bằng cách so sánh từng hàng từ trái sang phải.
+  - Dùng đúng các dấu $>$, $<$, $=$.
+  - Sắp xếp các số có ba chữ số từ bé đến lớn và từ lớn đến bé.
+  :::
+
+[[P1·83d0]]
+Trường A có $428$ học sinh. Trường B có $482$ học sinh. Trường nào đông học sinh hơn?
+
+[[P2·2057]]
+Em đã biết cách viết số có ba chữ số thành tổng. Bài này giúp em so sánh hai số có ba chữ số một cách nhanh và đúng.
+
+## Cùng khám phá
+
+[[P3·55dd]]
+Ta viết hai số thành tổng:
+  $$428=400+20+8,\qquad 482=400+80+2.$$
+
+[[P4·ab8c]]
+Hai số có cùng $4$ trăm. Ta so sánh tiếp hàng chục: $2$ chục bé hơn $8$ chục. Vậy $428<482$.
+
+[[P5·5ca1]]
+Trên tia số, số nào đứng bên phải thì lớn hơn:
+
+:::graph Trên tia số: 378 đứng bên phải 352 nên 378 lớn hơn 352
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cách so sánh hai số có ba chữ số
+  So sánh từng hàng từ trái sang phải:
+  1. So sánh hàng trăm. Số nào có nhiều trăm hơn thì lớn hơn.
+  2. Nếu hàng trăm bằng nhau, so sánh hàng chục.
+  3. Nếu hàng chục cũng bằng nhau, so sánh hàng đơn vị.
+  4. Nếu cả ba hàng bằng nhau thì hai số bằng nhau.
+  :::
+
+[[P6·1f24]]
+Ta bắt đầu từ hàng trăm vì một trăm lớn hơn bất kì số chục hay đơn vị nào đi kèm: $1$ trăm là $10$ chục, nhiều hơn $9$ chục.
+
+## Ví dụ
+
+[[P7·9446]]
+Ta bắt đầu với hai số khác nhau ở hàng trăm.
+
+  :::example So sánh hàng trăm
+  So sánh $476$ và $534$.
+
+  **Lời giải.** Hàng trăm: $4$ và $5$. Vì $4<5$ nên số thứ nhất bé hơn, không cần xét hàng chục và hàng đơn vị:
+  $$476<534.$$
+  Vậy $476<534$.
+  :::
+
+[[P8·0343]]
+Bây giờ hai số có cùng hàng trăm.
+
+  :::example So sánh hàng chục
+  So sánh $352$ và $378$.
+
+  **Lời giải.** Hàng trăm: $3$ và $3$, bằng nhau. Hàng chục: $5$ và $7$. Vì $5<7$ nên:
+  $$352<378.$$
+  Vậy $352<378$.
+  :::
+
+[[P9·ebf3]]
+Tiếp theo hai số có cùng hàng trăm và hàng chục.
+
+  :::example So sánh hàng đơn vị
+  So sánh $641$ và $647$.
+
+  **Lời giải.** Hàng trăm: $6$ và $6$. Hàng chục: $4$ và $4$. Hàng đơn vị: $1$ và $7$. Vì $1<7$ nên:
+  $$641<647.$$
+  Vậy $641<647$.
+  :::
+
+[[P10·0f33]]
+Cuối cùng em sắp xếp nhiều số theo thứ tự.
+
+  :::example Xếp thứ tự
+  Xếp các số $325, 235, 253$ từ bé đến lớn.
+
+  **Lời giải.** Hàng trăm: $3, 2, 2$. Số $325$ có hàng trăm lớn nhất. Hai số còn lại có hàng trăm bằng nhau, so tiếp hàng chục: $3$ và $5$, nên $235<253$:
+  $$235<253<325.$$
+  Vậy thứ tự từ bé đến lớn là $235, 253, 325$.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·05c0]]
+- **So sánh hàng đơn vị trước.** Sai: "$349>351$ vì $9>1$". Vì sao sai: phải so sánh hàng trăm trước. Hàng trăm $3$ và $3$ bằng nhau, hàng chục $4<5$. Đúng: $349<351$.
+- **Quên so sánh hàng tiếp theo khi hàng trước bằng nhau.** Sai: "$352=358$ vì cùng $35$". Vì sao sai: hàng đơn vị $2<8$. Đúng: $352<358$.
+- **Quay sai đầu nhọn của dấu.** Sai: $476>534$. Vì sao sai: đầu nhọn quay về số bé hơn. Đúng: $476<534$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - so sánh | compare
+  - lớn hơn | greater than
+  - bé hơn | less than
+  - bằng | equal to
+  - hàng trăm | hundreds place
+  - từ bé đến lớn | in order, smallest first
+  - từ lớn đến bé | in order, largest first
+  :::
+
+## Tóm tắt
+
+[[P12·e36b]]
+- So sánh từng hàng từ trái sang phải: trăm, rồi chục, rồi đơn vị.
+- Hàng nào khác nhau đầu tiên thì quyết định số nào lớn hơn.
+- Đầu nhọn của dấu $>$ hoặc $<$ quay về số bé hơn.
+- Xếp từ bé đến lớn: bắt đầu từ số bé nhất.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/comparing-three-digit-numbers – BẢN TIẾNG ANH ########
+---
+title: Comparing three-digit numbers
+description: Compare two three-digit numbers by comparing the places from left to right, use the signs greater than, less than and equal to, and put numbers in order.
+minutes: 15
+---
+
+  :::goals
+  - Compare two three-digit numbers by comparing the places from left to right.
+  - Use the signs $>$, $<$ and $=$ correctly.
+  - Put three-digit numbers in order, smallest first and largest first.
+  :::
+
+[[P1·0871]]
+School A has $428$ pupils. School B has $482$ pupils. Which school has more pupils?
+
+[[P2·8ff0]]
+You know how to write a three-digit number as a sum. This lesson shows you how to compare two three-digit numbers quickly and correctly.
+
+## Let's explore
+
+[[P3·378c]]
+We write both numbers as sums:
+  $$428=400+20+8,\qquad 482=400+80+2.$$
+
+[[P4·6180]]
+Both have $4$ hundreds. We compare the tens next: $2$ tens is less than $8$ tens. So $428<482$.
+
+[[P5·ea83]]
+On a number line, the number further to the right is greater:
+
+:::graph On the number line: 378 is to the right of 352, so 378 is greater than 352
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem How to compare two three-digit numbers
+  Compare the places from left to right:
+  1. Compare the hundreds. The number with more hundreds is greater.
+  2. If the hundreds are equal, compare the tens.
+  3. If the tens are also equal, compare the ones.
+  4. If all three places are equal, the numbers are equal.
+  :::
+
+[[P6·9360]]
+We start with the hundreds because one hundred is more than any tens or ones that go with it: $1$ hundred is $10$ tens, which is more than $9$ tens.
+
+## Examples
+
+[[P7·2c8c]]
+We start with two numbers that differ in the hundreds.
+
+  :::example Comparing the hundreds
+  Compare $476$ and $534$.
+
+  **Solution.** Hundreds: $4$ and $5$. Since $4<5$, the first number is less, and we do not need the tens or ones:
+  $$476<534.$$
+  So $476<534$.
+  :::
+
+[[P8·5b41]]
+Now two numbers with the same hundreds.
+
+  :::example Comparing the tens
+  Compare $352$ and $378$.
+
+  **Solution.** Hundreds: $3$ and $3$, equal. Tens: $5$ and $7$. Since $5<7$:
+  $$352<378.$$
+  So $352<378$.
+  :::
+
+[[P9·d2ad]]
+Next, two numbers with the same hundreds and the same tens.
+
+  :::example Comparing the ones
+  Compare $641$ and $647$.
+
+  **Solution.** Hundreds: $6$ and $6$. Tens: $4$ and $4$. Ones: $1$ and $7$. Since $1<7$:
+  $$641<647.$$
+  So $641<647$.
+  :::
+
+[[P10·db55]]
+Finally you put several numbers in order.
+
+  :::example Putting in order
+  Put the numbers $325, 235, 253$ in order, smallest first.
+
+  **Solution.** Hundreds: $3, 2, 2$. The number $325$ has the most hundreds. The other two have equal hundreds, so compare the tens: $3$ and $5$, so $235<253$:
+  $$235<253<325.$$
+  So the order from smallest to largest is $235, 253, 325$.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·3eb4]]
+- **Comparing the ones first.** Wrong: "$349>351$ because $9>1$". Why it is wrong: we must compare the hundreds first. The hundreds $3$ and $3$ are equal, and the tens $4<5$. Right: $349<351$.
+- **Not comparing the next place when the first are equal.** Wrong: "$352=358$ because both start with $35$". Why it is wrong: the ones $2<8$. Right: $352<358$.
+- **Turning the sign the wrong way.** Wrong: $476>534$. Why it is wrong: the pointed end faces the smaller number. Right: $476<534$.
+:::
+
+## Key terms
+
+  :::terms
+  - compare | so sánh
+  - greater than | lớn hơn
+  - less than | bé hơn
+  - equal to | bằng
+  - hundreds place | hàng trăm
+  - in order, smallest first | từ bé đến lớn
+  - in order, largest first | từ lớn đến bé
+  :::
+
+## Summary
+
+[[P12·a73f]]
+- Compare place by place from left to right: hundreds, then tens, then ones.
+- The first place that differs decides which number is greater.
+- The pointed end of $>$ or $<$ faces the smaller number.
+- To order smallest first, start with the smallest number.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/cylinders-and-spheres – BẢN TIẾNG VIỆT ########
+---
+title: Khối trụ, khối cầu
+description: Em nhận biết khối trụ và khối cầu qua đồ vật quen thuộc, đếm mặt phẳng, mặt cong và biết vật nào lăn được, vật nào xếp chồng được.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết khối trụ và khối cầu trong các đồ vật quanh em.
+  - Nói được khối trụ có $2$ mặt phẳng và $1$ mặt cong, khối cầu chỉ có mặt cong.
+  - Biết vì sao lon sữa xếp chồng được còn quả bóng thì không.
+  :::
+
+[[P1·c3ef]]
+Lan đặt một quả bóng và một lon sữa lên mặt bàn hơi nghiêng. Quả bóng lăn đi rất nhanh. Lon sữa nằm ngang cũng lăn, nhưng khi dựng đứng lên thì đứng yên.
+
+[[P2·f47c]]
+Vì sao hai vật này khác nhau? Hôm nay em sẽ tìm câu trả lời qua hai loại khối mới.
+
+## Cùng khám phá
+
+[[P3·1fc1]]
+Em hãy cầm một lon sữa. Sờ vào hai đầu: đầu trên và đầu dưới đều phẳng. Sờ xung quanh thân lon: chỗ này cong.
+
+![Một lon sữa hình trụ và một quả bóng hình cầu](/assets/img/g2/g2-cylinders-and-spheres-01.svg)
+
+[[P4·6bfc]]
+Bây giờ em cầm một quả bóng. Sờ khắp quả bóng: chỗ nào cũng cong, không có chỗ nào phẳng.
+
+[[P5·95bb]]
+Ta ghi lại những điều vừa thấy vào bảng:
+
+| | Lon sữa | Quả bóng |
+|---|---|---|
+| Số mặt phẳng | $2$ | $0$ |
+| Số mặt cong | $1$ | $1$ |
+| Đặt đứng, xếp chồng lên nhau | được | không vững |
+| Lăn | lăn theo một hướng | lăn theo mọi hướng |
+
+[[P6·e86f]]
+Lon sữa có dạng **khối trụ**. Quả bóng có dạng **khối cầu**.
+
+  :::theorem Nhận biết khối trụ và khối cầu
+  - **Khối trụ** có $2$ mặt phẳng hình tròn (gọi là hai đáy) và $1$ mặt cong xung quanh. Ví dụ: lon sữa, cái trống, hộp bánh tròn.
+  - **Khối cầu** chỉ có mặt cong, không có mặt phẳng nào. Ví dụ: quả bóng, viên bi.
+  :::
+
+[[P7·cd65]]
+Khối trụ xếp chồng được vì hai đáy của nó phẳng, đặt lên nhau không bị trượt. Khối cầu không có mặt phẳng nên dễ lăn đi.
+
+## Ví dụ
+
+[[P8·27ef]]
+Ta bắt đầu với việc nhận biết một đồ vật quen thuộc.
+
+  :::example Cái trống
+  Cái trống của lớp em là khối trụ hay khối cầu?
+
+  **Lời giải.** Hai đầu trống là hai mặt phẳng hình tròn, thân trống là một mặt cong. Vật có $2$ mặt phẳng tròn và $1$ mặt cong là khối trụ.
+
+  Vậy cái trống là khối trụ.
+  :::
+
+[[P9·08c5]]
+Tiếp theo, em đếm các mặt của một khối trụ.
+
+  :::example Đếm mặt của lon sữa
+  Một lon sữa có bao nhiêu mặt phẳng và bao nhiêu mặt cong?
+
+  **Lời giải.** Lon sữa là khối trụ. Khối trụ có hai đáy phẳng là đầu trên và đầu dưới, và một mặt cong là thân lon.
+
+  Vậy lon sữa có $2$ mặt phẳng và $1$ mặt cong.
+  :::
+
+[[P10·abf1]]
+Bây giờ ta phân loại nhiều đồ vật cùng lúc.
+
+  :::example Phân loại đồ vật
+  Trên bàn có: hộp bánh tròn, viên bi, cái cốc hình trụ, quả bóng đá, ống tre, quả bóng bàn. Có mấy khối trụ, mấy khối cầu?
+
+  ![Sáu đồ vật trên bàn: hộp bánh tròn, viên bi, cốc hình trụ, bóng đá, ống tre và bóng bàn](/assets/img/g2/g2-cylinders-and-spheres-02.svg)
+
+  **Lời giải.** Em xếp từng vật vào nhóm:
+
+  - Khối trụ (có hai đáy phẳng): hộp bánh tròn, cái cốc, ống tre. Có $3$ vật.
+  - Khối cầu (chỉ có mặt cong): viên bi, quả bóng đá, quả bóng bàn. Có $3$ vật.
+
+  Vậy có $3$ khối trụ và $3$ khối cầu.
+  :::
+
+[[P11·b5db]]
+Cuối cùng, em dùng hiểu biết này để chọn vật cho việc xếp tháp.
+
+  :::example Xếp tháp
+  Nam có $4$ lon sữa và $3$ quả bóng. Nam muốn xếp một cái tháp cao. Nam nên dùng loại nào? Vì sao?
+
+  ![Bốn lon sữa đứng cạnh ba quả bóng trên sàn](/assets/img/g2/g2-cylinders-and-spheres-03.svg)
+
+  **Lời giải.** Muốn xếp tháp, các vật phải đặt chồng lên nhau mà không lăn. Lon sữa là khối trụ, có đáy phẳng nên đặt chồng được. Quả bóng là khối cầu, không có mặt phẳng nên sẽ lăn.
+
+  Vậy Nam nên dùng $4$ lon sữa.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·d1b6]]
+- **Nghĩ quả bóng có mặt phẳng.** Sai: "Quả bóng có $1$ mặt phẳng". Vì sao sai: sờ khắp quả bóng chỗ nào cũng cong. Đúng: khối cầu có $0$ mặt phẳng.
+- **Quên khối trụ có mặt cong.** Sai: "Lon sữa chỉ có $2$ mặt phẳng". Vì sao sai: thân lon là mặt cong. Đúng: lon sữa có $2$ mặt phẳng và $1$ mặt cong.
+- **Nhầm hộp sữa hình hộp với khối trụ.** Sai: "Hộp sữa bốn góc vuông là khối trụ". Vì sao sai: khối trụ có hai đáy là hình tròn, không có góc. Đúng: chỉ vật có hai đáy tròn mới là khối trụ.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - khối trụ | cylinder
+  - khối cầu | sphere
+  - mặt phẳng | flat face
+  - mặt cong | curved surface
+  - đáy | base
+  - lăn | roll
+  - xếp chồng | stack
+  :::
+
+## Tóm tắt
+
+[[P13·5461]]
+- Khối trụ có $2$ mặt phẳng hình tròn (hai đáy) và $1$ mặt cong. Ví dụ: lon sữa, cái trống.
+- Khối cầu chỉ có $1$ mặt cong, không có mặt phẳng. Ví dụ: quả bóng, viên bi.
+- Khối trụ xếp chồng được vì có đáy phẳng; khối cầu dễ lăn nên không xếp chồng vững.
+- Muốn biết một vật là khối nào, em sờ xem vật có mặt phẳng không.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/cylinders-and-spheres – BẢN TIẾNG ANH ########
+---
+title: Cylinders and spheres
+description: Recognise cylinders and spheres in everyday objects, count flat faces and curved surfaces, and know which objects roll and which can be stacked.
+minutes: 15
+---
+
+  :::goals
+  - Recognise cylinders and spheres in the objects around you.
+  - Say that a cylinder has $2$ flat faces and $1$ curved surface, and a sphere has only a curved surface.
+  - Explain why tins can be stacked but balls cannot.
+  :::
+
+[[P1·15e8]]
+Lan puts a ball and a tin of milk on a slightly sloping table. The ball rolls away fast. The tin rolls when it lies on its side, but when it stands up it stays still.
+
+[[P2·9bd5]]
+Why are the two objects different? Today you will find the answer with two new solid shapes.
+
+## Let's explore
+
+[[P3·b42f]]
+Pick up a tin of milk. Feel both ends: the top and the bottom are flat. Feel around the side of the tin: this part is curved.
+
+![A cylindrical milk can and a spherical ball](/assets/img/g2/g2-cylinders-and-spheres-01.svg)
+
+[[P4·592a]]
+Now pick up a ball. Feel all over it: it is curved everywhere, with no flat part at all.
+
+[[P5·39e2]]
+We write down what we found in a table:
+
+| | Tin of milk | Ball |
+|---|---|---|
+| Number of flat faces | $2$ | $0$ |
+| Number of curved surfaces | $1$ | $1$ |
+| Stands up and stacks | yes | not steadily |
+| Rolling | rolls in one direction | rolls in every direction |
+
+[[P6·6d19]]
+The tin has the shape of a **cylinder**. The ball has the shape of a **sphere**.
+
+  :::theorem Recognising cylinders and spheres
+  - A **cylinder** has $2$ flat circular faces (called the two bases) and $1$ curved surface around the side. Examples: a tin of milk, a drum, a round cake tin.
+  - A **sphere** has only a curved surface and no flat faces. Examples: a ball, a marble.
+  :::
+
+[[P7·6002]]
+A cylinder can be stacked because its bases are flat, so one sits on another without sliding. A sphere has no flat face, so it rolls away easily.
+
+## Examples
+
+[[P8·5d78]]
+We start by recognising a familiar object.
+
+  :::example The drum
+  Is the drum in your classroom a cylinder or a sphere?
+
+  **Solution.** The two ends of the drum are flat circles, and the side is one curved surface. An object with $2$ flat circles and $1$ curved surface is a cylinder.
+
+  So the drum is a cylinder.
+  :::
+
+[[P9·662b]]
+Next, you count the faces of a cylinder.
+
+  :::example Counting the faces of a tin
+  How many flat faces and how many curved surfaces does a tin of milk have?
+
+  **Solution.** A tin is a cylinder. A cylinder has two flat bases, the top and the bottom, and one curved surface, the side of the tin.
+
+  So the tin has $2$ flat faces and $1$ curved surface.
+  :::
+
+[[P10·7d41]]
+Now we sort many objects at once.
+
+  :::example Sorting objects
+  On the table there are: a round cake tin, a marble, a cylinder-shaped cup, a football, a bamboo tube and a table-tennis ball. How many cylinders and how many spheres are there?
+
+  ![Six objects on a table: a round tin, marble, cylindrical cup, soccer ball, bamboo tube, and ping-pong ball](/assets/img/g2/g2-cylinders-and-spheres-02.svg)
+
+  **Solution.** Put each object in its group:
+
+  - Cylinders (two flat bases): the cake tin, the cup, the bamboo tube. That is $3$ objects.
+  - Spheres (only a curved surface): the marble, the football, the table-tennis ball. That is $3$ objects.
+
+  So there are $3$ cylinders and $3$ spheres.
+  :::
+
+[[P11·bcec]]
+Finally, you use what you know to choose objects for building a tower.
+
+  :::example Building a tower
+  Nam has $4$ tins of milk and $3$ balls. He wants to build a tall tower. Which should he use? Why?
+
+  ![Four milk cans standing beside three balls on the floor](/assets/img/g2/g2-cylinders-and-spheres-03.svg)
+
+  **Solution.** To build a tower, the objects must sit on top of each other without rolling. A tin is a cylinder with flat bases, so it can be stacked. A ball is a sphere with no flat face, so it rolls away.
+
+  So Nam should use the $4$ tins of milk.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·bc28]]
+- **Thinking a ball has a flat face.** Wrong: "A ball has $1$ flat face." Why it is wrong: a ball is curved everywhere you touch it. Right: a sphere has $0$ flat faces.
+- **Forgetting the curved surface of a cylinder.** Wrong: "A tin has only $2$ flat faces." Why it is wrong: the side of the tin is a curved surface. Right: a tin has $2$ flat faces and $1$ curved surface.
+- **Mixing up a box with a cylinder.** Wrong: "A box with square corners is a cylinder." Why it is wrong: a cylinder has two round bases and no corners. Right: only an object with two round bases is a cylinder.
+:::
+
+## Key terms
+
+  :::terms
+  - cylinder | khối trụ
+  - sphere | khối cầu
+  - flat face | mặt phẳng
+  - curved surface | mặt cong
+  - base | đáy
+  - roll | lăn
+  - stack | xếp chồng
+  :::
+
+## Summary
+
+[[P13·8318]]
+- A cylinder has $2$ flat circular faces (two bases) and $1$ curved surface. Examples: a tin of milk, a drum.
+- A sphere has only $1$ curved surface and no flat faces. Examples: a ball, a marble.
+- A cylinder can be stacked because it has flat bases; a sphere rolls, so it does not stack steadily.
+- To tell which solid an object is, feel whether it has a flat face.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/decimetres-metres-kilometres – BẢN TIẾNG VIỆT ########
+---
+title: Đề-xi-mét. Mét. Ki-lô-mét
+description: Em làm quen với các đơn vị đo độ dài đề-xi-mét (dm), mét (m), ki-lô-mét (km), biết đổi 1 m = 10 dm, 1 km = 1000 m và chọn đơn vị phù hợp.
+minutes: 15
+---
+
+  :::goals
+  - Biết các đơn vị đo độ dài đề-xi-mét (dm), mét (m), ki-lô-mét (km).
+  - Nhớ $1$ dm $=10$ cm, $1$ m $=10$ dm, $1$ km $=1000$ m và đổi giữa các đơn vị.
+  - Chọn đơn vị phù hợp để đo và làm tính với số đo độ dài.
+  :::
+
+[[P1·ac0f]]
+Nam đo chiều dài chiếc bàn học bằng gang tay và được $6$ gang. Mai đo cùng chiếc bàn ấy bằng gang tay của mình và được $7$ gang. Vì sao hai bạn đo ra hai số khác nhau?
+
+[[P2·2a9d]]
+Vì gang tay của mỗi người dài khác nhau. Muốn mọi người đo giống nhau, ta cần các đơn vị chuẩn. Em đã biết xăng-ti-mét (cm). Hôm nay em học thêm ba đơn vị mới.
+
+## Cùng khám phá
+
+[[P3·fbd9]]
+Em dùng thước kẻ dài $10$ cm. Đoạn dài $10$ cm gọi là $1$ **đề-xi-mét**, viết tắt là dm.
+
+![Thước kẻ từ 0 đến 10 cm với ngoặc chỉ 1 dm bằng 10 cm](/assets/img/g2/g2-decimetres-metres-kilometres-01.svg)
+
+[[P4·b0a3]]
+- $1$ dm $=10$ cm.
+
+[[P5·d181]]
+Em cầm thước mét của cô giáo. Thước dài bằng $10$ thước kẻ $1$ dm đặt nối nhau. Độ dài này gọi là $1$ **mét**, viết tắt là m.
+
+[[P6·4e2b]]
+- $1$ m $=10$ dm.
+
+[[P7·5347]]
+Quãng đường rất dài như từ trường đến thành phố khác ta dùng **ki-lô-mét**, viết tắt là km.
+
+[[P8·9d0d]]
+- $1$ km $=1000$ m.
+
+[[P9·e71c]]
+Ta ghi vào bảng:
+
+| Đơn vị | Viết tắt | Đổi |
+|---|---|---|
+| đề-xi-mét | dm | $1$ dm $=10$ cm |
+| mét | m | $1$ m $=10$ dm |
+| ki-lô-mét | km | $1$ km $=1000$ m |
+
+  :::theorem Các đơn vị đo độ dài
+  - $1$ dm $=10$ cm.
+  - $1$ m $=10$ dm.
+  - $1$ km $=1000$ m.
+  :::
+
+[[P10·d43f]]
+Đơn vị càng lớn thì càng dùng để đo vật càng dài: dm đo bàn, ghế; m đo lớp học, sân; km đo đường đi giữa các nơi xa nhau.
+
+## Ví dụ
+
+[[P11·78fa]]
+Ta bắt đầu với việc đổi mét ra đề-xi-mét.
+
+  :::example Đổi m ra dm
+  Đổi $3$ m ra dm.
+
+  **Lời giải.** Mỗi mét bằng $10$ dm, nên $3$ m là ba nhóm $10$ dm:
+  $$3\text{ m}=10+10+10=30\text{ dm}.$$
+  Vậy $3$ m $=30$ dm.
+  :::
+
+[[P12·8ff7]]
+Bây giờ em đổi ngược lại.
+
+  :::example Đổi dm ra m
+  Đổi $40$ dm ra m.
+
+  **Lời giải.** $10$ dm là $1$ m. Trong $40$ dm có $4$ nhóm $10$ dm:
+  $$40\text{ dm}=4\text{ m}.$$
+  Vậy $40$ dm $=4$ m.
+  :::
+
+[[P13·4852]]
+Tiếp theo em chọn đơn vị phù hợp.
+
+  :::example Chọn đơn vị
+  Chọn đơn vị dm, m hay km để đo: a) chiều dài sân trường; b) quãng đường từ Hà Nội đến Hải Phòng.
+
+  **Lời giải.** a) Sân trường dài hơn một lớp học nhưng không quá xa nên ta dùng mét. b) Quãng đường giữa hai thành phố rất dài nên ta dùng ki-lô-mét.
+
+  Vậy a) dùng m; b) dùng km.
+  :::
+
+[[P14·2799]]
+Cuối cùng em làm tính với số đo độ dài.
+
+  :::example Đi bộ
+  Sáng nay Nam đi bộ $3$ km, chiều nay Nam đi bộ $2$ km. Hỏi cả hai buổi Nam đi bộ bao nhiêu ki-lô-mét?
+
+  **Lời giải.** "Cả hai buổi" là gộp lại nên ta làm phép cộng, giữ nguyên đơn vị:
+  $$3+2=5\ \text{(km)}.$$
+  Vậy cả hai buổi Nam đi bộ $5$ km.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P15·6932]]
+- **Nhầm mét với đề-xi-mét.** Sai: "$1$ m $=100$ dm". Vì sao sai: một mét bằng mười thước $1$ dm. Đúng: $1$ m $=10$ dm.
+- **Quên đơn vị trong đáp số.** Sai: "Đáp số: $5$". Đúng: "Đáp số: $5$ km".
+- **Dùng sai đơn vị.** Sai: "Chiếc bút dài $15$ km". Vì sao sai: km dùng cho đường rất dài. Đúng: chiếc bút dài $15$ cm.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - đề-xi-mét | decimetre
+  - mét | metre
+  - ki-lô-mét | kilometre
+  - xăng-ti-mét | centimetre
+  - độ dài | length
+  - đơn vị đo | unit of measurement
+  - viết tắt | abbreviation
+  :::
+
+## Tóm tắt
+
+[[P16·0d76]]
+- $1$ dm $=10$ cm; $1$ m $=10$ dm; $1$ km $=1000$ m.
+- Dùng dm đo vật ngắn, m đo sân và lớp học, km đo đường dài.
+- Làm tính với số đo thì giữ nguyên đơn vị và ghi đơn vị vào đáp số.
+
+## Luyện tập
+
+[[P17·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/decimetres-metres-kilometres – BẢN TIẾNG ANH ########
+---
+title: Decimetres, metres and kilometres
+description: Get to know the units of length decimetre (dm), metre (m) and kilometre (km), learn 1 m = 10 dm and 1 km = 1000 m, and choose a sensible unit.
+minutes: 15
+---
+
+  :::goals
+  - Know the units of length decimetre (dm), metre (m) and kilometre (km).
+  - Remember $1$ dm $=10$ cm, $1$ m $=10$ dm, $1$ km $=1000$ m and change between units.
+  - Choose a sensible unit to measure with and do sums with lengths.
+  :::
+
+[[P1·0215]]
+Nam measures his desk with his hand span and gets $6$ spans. Mai measures the same desk with her hand span and gets $7$ spans. Why do the two friends get different numbers?
+
+[[P2·5ec0]]
+Because everyone's hand span is a different length. To make everyone measure the same, we need standard units. You already know the centimetre (cm). Today you learn three more units.
+
+## Let's explore
+
+[[P3·1b31]]
+Take a ruler that is $10$ cm long. A length of $10$ cm is called $1$ **decimetre**, written dm.
+
+![A ruler from 0 to 10 cm with a bracket showing 1 dm equals 10 cm](/assets/img/g2/g2-decimetres-metres-kilometres-01.svg)
+
+[[P4·b0a3]]
+- $1$ dm $=10$ cm.
+
+[[P5·1d53]]
+Now pick up your teacher's metre rule. It is as long as $10$ of those $1$ dm rulers placed end to end. This length is called $1$ **metre**, written m.
+
+[[P6·4e2b]]
+- $1$ m $=10$ dm.
+
+[[P7·71e2]]
+For very long distances, like from school to another town, we use the **kilometre**, written km.
+
+[[P8·9d0d]]
+- $1$ km $=1000$ m.
+
+[[P9·7557]]
+We put this in a table:
+
+| Unit | Short form | Exchange |
+|---|---|---|
+| decimetre | dm | $1$ dm $=10$ cm |
+| metre | m | $1$ m $=10$ dm |
+| kilometre | km | $1$ km $=1000$ m |
+
+  :::theorem Units of length
+  - $1$ dm $=10$ cm.
+  - $1$ m $=10$ dm.
+  - $1$ km $=1000$ m.
+  :::
+
+[[P10·4f2e]]
+The bigger the unit, the longer the things we measure with it: dm for desks and chairs; m for classrooms and playgrounds; km for the way between faraway places.
+
+## Examples
+
+[[P11·2fd8]]
+We start with changing metres to decimetres.
+
+  :::example Changing m to dm
+  Change $3$ m to dm.
+
+  **Solution.** Each metre is $10$ dm, so $3$ m is three groups of $10$ dm:
+  $$3\text{ m}=10+10+10=30\text{ dm}.$$
+  So $3$ m $=30$ dm.
+  :::
+
+[[P12·c9b0]]
+Now you change the other way.
+
+  :::example Changing dm to m
+  Change $40$ dm to m.
+
+  **Solution.** $10$ dm is $1$ m. In $40$ dm there are $4$ groups of $10$ dm:
+  $$40\text{ dm}=4\text{ m}.$$
+  So $40$ dm $=4$ m.
+  :::
+
+[[P13·f6a5]]
+Next you choose a sensible unit.
+
+  :::example Choosing a unit
+  Choose dm, m or km to measure: a) the length of the school playground; b) the distance from Hanoi to Hai Phong.
+
+  **Solution.** a) A playground is longer than a classroom but not very far, so we use metres. b) The distance between two cities is very long, so we use kilometres.
+
+  So a) use m; b) use km.
+  :::
+
+[[P14·b6a5]]
+Finally you do a sum with lengths.
+
+  :::example A walk
+  This morning Nam walks $3$ km and this afternoon he walks $2$ km. How many kilometres does he walk altogether?
+
+  **Solution.** "Altogether" means putting together, so we add and keep the unit:
+  $$3+2=5\ \text{(km)}.$$
+  So Nam walks $5$ km altogether.
+  :::
+
+:::warning Mistakes to watch out for
+[[P15·4d85]]
+- **Mixing up metres and decimetres.** Wrong: "$1$ m $=100$ dm". Why it is wrong: one metre is ten $1$ dm rulers. Right: $1$ m $=10$ dm.
+- **Leaving out the unit in the answer.** Wrong: "Answer: $5$". Right: "Answer: $5$ km".
+- **Using the wrong unit.** Wrong: "The pen is $15$ km long". Why it is wrong: km is for very long distances. Right: the pen is $15$ cm long.
+:::
+
+## Key terms
+
+  :::terms
+  - decimetre | đề-xi-mét
+  - metre | mét
+  - kilometre | ki-lô-mét
+  - centimetre | xăng-ti-mét
+  - length | độ dài
+  - unit of measurement | đơn vị đo
+  - short form | viết tắt
+  :::
+
+## Summary
+
+[[P16·7c5a]]
+- $1$ dm $=10$ cm; $1$ m $=10$ dm; $1$ km $=1000$ m.
+- Use dm for short objects, m for playgrounds and classrooms, km for long roads.
+- In sums with lengths, keep the unit and write it in the answer.
+
+## Practice
+
+[[P17·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/multiples-of-10-and-100 – BẢN TIẾNG VIỆT ########
+---
+title: Các số tròn trăm, tròn chục
+description: Em nhận biết, đọc, viết và đếm thêm các số tròn chục từ 10 đến 90 và các số tròn trăm từ 100 đến 900.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết, đọc và viết các số tròn chục, ví dụ $30$, $80$.
+  - Nhận biết, đọc và viết các số tròn trăm, ví dụ $400$, $900$.
+  - Đếm thêm $10$ và đếm thêm $100$.
+  :::
+
+[[P1·eeee]]
+Mỗi túi có $1$ chục viên kẹo. Mai có $6$ túi như vậy. Hỏi Mai có tất cả bao nhiêu viên kẹo?
+
+[[P2·b81d]]
+Em đã biết $1$ chục là $10$ đơn vị. Bài này giúp em gọi tên và viết nhanh số kẹo của nhiều túi.
+
+## Cùng khám phá
+
+[[P3·9514]]
+Em đếm thêm từng chục: $1$ chục, $2$ chục, $3$ chục, ... Mỗi lần thêm $1$ chục là thêm $10$.
+
+[[P4·fb2a]]
+- $1$ chục là $10$, $2$ chục là $20$, $3$ chục là $30$.
+- Cứ thế đến $9$ chục là $90$.
+
+[[P5·3fa4]]
+Những số như $10, 20, 30, \dots, 90$ gọi là **số tròn chục**. Chữ số hàng đơn vị của chúng đều là $0$.
+
+:::graph Trên tia số: các số tròn chục từ 0 đến 100
+   (… 15 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·4fb1]]
+Làm tương tự với trăm: $1$ trăm là $100$, $2$ trăm là $200$, ..., $9$ trăm là $900$. Những số này gọi là **số tròn trăm**. Hai chữ số cuối của chúng đều là $0$.
+
+  :::theorem Số tròn chục, số tròn trăm
+  - $n$ chục viết là $n$ rồi thêm một chữ số $0$. Ví dụ: $4$ chục là $40$.
+  - $n$ trăm viết là $n$ rồi thêm hai chữ số $0$. Ví dụ: $4$ trăm là $400$.
+  :::
+
+[[P7·d06e]]
+Cách viết này đúng vì $4$ chục là $10+10+10+10=40$, còn $4$ trăm là $100+100+100+100=400$.
+
+## Ví dụ
+
+[[P8·faf8]]
+Ta bắt đầu với số tròn chục.
+
+  :::example Viết số tròn chục
+  Viết số cho $3$ chục và $8$ chục.
+
+  **Lời giải.** Viết số chục rồi thêm chữ số $0$:
+  $$3\text{ chục}=30,\qquad 8\text{ chục}=80.$$
+  Vậy $3$ chục là $30$ và $8$ chục là $80$.
+  :::
+
+[[P9·b308]]
+Bây giờ em đếm thêm $10$ để điền số còn thiếu.
+
+  :::example Đếm thêm 10
+  Điền số còn thiếu: $20, 30, \square, 50, \square$.
+
+  **Lời giải.** Mỗi số hơn số đứng trước $10$ đơn vị. Sau $30$ là $40$, sau $50$ là $60$:
+  $$20, 30, 40, 50, 60.$$
+  Vậy hai số còn thiếu là $40$ và $60$.
+  :::
+
+[[P10·a91b]]
+Tiếp theo là số tròn trăm.
+
+  :::example Viết số tròn trăm
+  Viết số cho $4$ trăm. Số $700$ có mấy trăm?
+
+  **Lời giải.** $4$ trăm viết là $4$ rồi thêm hai chữ số $0$, được $400$. Ngược lại, $700$ là $7$ trăm.
+
+  Vậy $4$ trăm là $400$ và $700$ là $7$ trăm.
+  :::
+
+[[P11·33d3]]
+Cuối cùng em dùng số tròn chục trong một bài toán.
+
+  :::example Túi kẹo
+  Mỗi túi có $1$ chục viên kẹo. Mai có $6$ túi. Hỏi Mai có bao nhiêu viên kẹo?
+
+  **Lời giải.** $6$ túi, mỗi túi $1$ chục, là $6$ chục kẹo. $6$ chục là $60$.
+
+  Vậy Mai có $60$ viên kẹo.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·c077]]
+- **Quên chữ số 0.** Sai: "$4$ chục là $4$". Vì sao sai: $4$ chục là bốn nhóm $10$. Đúng: $4$ chục là $40$.
+- **Nhầm số tròn chục với số tròn trăm.** Sai: "$6$ trăm là $60$". Vì sao sai: $60$ là $6$ chục. Đúng: $6$ trăm là $600$.
+- **Cho rằng mọi số đều tròn chục.** Sai: "$35$ là số tròn chục". Vì sao sai: chữ số cuối của $35$ là $5$, không phải $0$. Đúng: $35$ không phải số tròn chục.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - số tròn chục | multiple of 10
+  - số tròn trăm | multiple of 100
+  - đếm thêm | count on
+  - tia số | number line
+  - chữ số | digit
+  - đọc số | read a number
+  - viết số | write a number
+  :::
+
+## Tóm tắt
+
+[[P13·5bb2]]
+- Số tròn chục: $10, 20, 30, \dots, 90$ (chữ số cuối là $0$).
+- Số tròn trăm: $100, 200, 300, \dots, 900$ (hai chữ số cuối là $0$).
+- $4$ chục là $40$; $4$ trăm là $400$.
+- Đếm thêm $10$ được số tròn chục kế tiếp; đếm thêm $100$ được số tròn trăm kế tiếp.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/multiples-of-10-and-100 – BẢN TIẾNG ANH ########
+---
+title: Multiples of 10 and 100
+description: Recognise, read, write and count on in the multiples of 10 from 10 to 90 and the multiples of 100 from 100 to 900.
+minutes: 15
+---
+
+  :::goals
+  - Recognise, read and write multiples of 10, for example $30$ and $80$.
+  - Recognise, read and write multiples of 100, for example $400$ and $900$.
+  - Count on in tens and in hundreds.
+  :::
+
+[[P1·7089]]
+Each bag holds $1$ ten sweets. Mai has $6$ such bags. How many sweets does Mai have altogether?
+
+[[P2·8374]]
+You already know that $1$ ten is $10$ ones. This lesson helps you name and write the number of sweets in many bags quickly.
+
+## Let's explore
+
+[[P3·f0e6]]
+Count on one ten at a time: $1$ ten, $2$ tens, $3$ tens, ... Each time we add $1$ ten, we add $10$.
+
+[[P4·f7b5]]
+- $1$ ten is $10$, $2$ tens are $20$, $3$ tens are $30$.
+- Keep going to $9$ tens, which is $90$.
+
+[[P5·b217]]
+Numbers like $10, 20, 30, \dots, 90$ are called **multiples of 10**. Their last digit is always $0$.
+
+:::graph On the number line: the multiples of 10 from 0 to 100
+   (… 15 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·9b02]]
+Do the same with hundreds: $1$ hundred is $100$, $2$ hundreds are $200$, ..., $9$ hundreds are $900$. These are called **multiples of 100**. Their last two digits are always $0$.
+
+  :::theorem Multiples of 10 and 100
+  - $n$ tens is written as $n$ followed by one $0$. Example: $4$ tens is $40$.
+  - $n$ hundreds is written as $n$ followed by two $0$s. Example: $4$ hundreds is $400$.
+  :::
+
+[[P7·6cad]]
+This works because $4$ tens is $10+10+10+10=40$, and $4$ hundreds is $100+100+100+100=400$.
+
+## Examples
+
+[[P8·89df]]
+We start with multiples of 10.
+
+  :::example Writing multiples of 10
+  Write the number for $3$ tens and for $8$ tens.
+
+  **Solution.** Write the number of tens, then add a $0$:
+  $$3\text{ tens}=30,\qquad 8\text{ tens}=80.$$
+  So $3$ tens is $30$ and $8$ tens is $80$.
+  :::
+
+[[P9·6bca]]
+Now you count on in tens to fill in a missing number.
+
+  :::example Counting on in tens
+  Fill in the missing numbers: $20, 30, \square, 50, \square$.
+
+  **Solution.** Each number is $10$ more than the one before. After $30$ comes $40$, and after $50$ comes $60$:
+  $$20, 30, 40, 50, 60.$$
+  So the missing numbers are $40$ and $60$.
+  :::
+
+[[P10·e120]]
+Next come the multiples of 100.
+
+  :::example Writing multiples of 100
+  Write the number for $4$ hundreds. How many hundreds is $700$?
+
+  **Solution.** $4$ hundreds is $4$ followed by two $0$s, which is $400$. The other way round, $700$ is $7$ hundreds.
+
+  So $4$ hundreds is $400$ and $700$ is $7$ hundreds.
+  :::
+
+[[P11·2944]]
+Finally you use a multiple of 10 in a problem.
+
+  :::example Bags of sweets
+  Each bag holds $1$ ten sweets. Mai has $6$ bags. How many sweets does she have?
+
+  **Solution.** $6$ bags with $1$ ten each make $6$ tens of sweets. $6$ tens is $60$.
+
+  So Mai has $60$ sweets.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·b962]]
+- **Forgetting the $0$.** Wrong: "$4$ tens is $4$". Why it is wrong: $4$ tens is four groups of $10$. Right: $4$ tens is $40$.
+- **Mixing up tens and hundreds.** Wrong: "$6$ hundreds is $60$". Why it is wrong: $60$ is $6$ tens. Right: $6$ hundreds is $600$.
+- **Thinking every number is a multiple of 10.** Wrong: "$35$ is a multiple of 10". Why it is wrong: the last digit of $35$ is $5$, not $0$. Right: $35$ is not a multiple of 10.
+:::
+
+## Key terms
+
+  :::terms
+  - multiple of 10 | số tròn chục
+  - multiple of 100 | số tròn trăm
+  - count on | đếm thêm
+  - number line | tia số
+  - digit | chữ số
+  - read a number | đọc số
+  - write a number | viết số
+  :::
+
+## Summary
+
+[[P13·139e]]
+- Multiples of 10: $10, 20, 30, \dots, 90$ (the last digit is $0$).
+- Multiples of 100: $100, 200, 300, \dots, 900$ (the last two digits are $0$).
+- $4$ tens is $40$; $4$ hundreds is $400$.
+- Counting on $10$ gives the next multiple of 10; counting on $100$ gives the next multiple of 100.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/ones-tens-hundreds-thousands – BẢN TIẾNG VIỆT ########
+---
+title: Đơn vị, chục, trăm, nghìn
+description: Em học cách đổi 10 đơn vị thành 1 chục, 10 chục thành 1 trăm, 10 trăm thành 1 nghìn, và đọc hiểu các nhóm đơn vị, chục, trăm, nghìn.
+minutes: 15
+---
+
+  :::goals
+  - Biết $10$ đơn vị là $1$ chục, $10$ chục là $1$ trăm, $10$ trăm là $1$ nghìn.
+  - Đổi qua lại giữa đơn vị, chục, trăm, nghìn.
+  - Dùng cách gói thành nhóm $10$ để đếm một số lượng lớn.
+  :::
+
+[[P1·f70c]]
+Mai có $10$ viên bi lẻ. Mai bỏ cả $10$ viên vào một túi. Hỏi $10$ viên bi lẻ đổi được mấy túi bi loại $10$ viên?
+
+[[P2·f933]]
+Đếm từng viên thì lâu. Bài này giúp em gói thành nhóm để đếm nhanh hơn.
+
+## Cùng khám phá
+
+[[P3·a4d7]]
+Em đã biết đếm đến $10$. Khi có $10$ vật lẻ, ta gói lại thành một nhóm gọi là **một chục**.
+
+![Bốn khối đếm lần lượt biểu diễn 1, 10, 100 và 1 000](/assets/img/g2/g2-ones-tens-hundreds-thousands-01.svg)
+
+[[P4·6ca1]]
+- $10$ vật lẻ (mỗi vật là $1$ **đơn vị**) gói thành $1$ **chục**.
+- $10$ túi như vậy (mỗi túi là $1$ chục) gộp lại thành $1$ **trăm**.
+- $10$ hộp như vậy (mỗi hộp là $1$ trăm) gộp lại thành $1$ **nghìn**.
+
+[[P5·e71c]]
+Ta ghi vào bảng:
+
+| Đổi | Được |
+|---|---|
+| $10$ đơn vị | $1$ chục |
+| $10$ chục | $1$ trăm |
+| $10$ trăm | $1$ nghìn |
+
+[[P6·bbd1]]
+Vậy $10$ viên bi lẻ đổi được $1$ túi bi loại $10$ viên.
+
+  :::theorem Quy tắc đổi
+  - $10$ đơn vị $=1$ chục.
+  - $10$ chục $=1$ trăm.
+  - $10$ trăm $=1$ nghìn.
+  :::
+
+[[P7·a664]]
+Quy tắc này đúng vì mỗi lần có $10$ nhóm giống nhau, ta gói chúng thành một nhóm lớn hơn, và không có vật nào bị mất đi.
+
+## Ví dụ
+
+[[P8·c3b3]]
+Ta bắt đầu với phép đổi đơn giản nhất.
+
+  :::example Từ đơn vị sang chục
+  Lan có $10$ chiếc kẹo lẻ. Lan gói được mấy chục kẹo?
+
+  **Lời giải.** $10$ đơn vị là $1$ chục, nên $10$ chiếc kẹo lẻ gói thành $1$ chục kẹo.
+
+  Vậy Lan có $1$ chục kẹo.
+  :::
+
+[[P9·c7fb]]
+Bây giờ ta đổi ngược lại, từ chục về đơn vị.
+
+  :::example Từ chục sang đơn vị
+  Nam có $2$ chục viên bi. Nam có bao nhiêu viên bi?
+
+  **Lời giải.** Mỗi chục có $10$ viên, nên $2$ chục có hai nhóm $10$:
+  $$10+10=20.$$
+  Vậy Nam có $20$ viên bi.
+  :::
+
+[[P10·3516]]
+Tiếp theo ta lên một bậc: từ chục sang trăm.
+
+  :::example Từ chục sang trăm
+  Có $10$ chục quyển vở. Đó là mấy trăm quyển vở? Một trăm có mấy chục?
+
+  **Lời giải.** $10$ chục là $1$ trăm, nên $10$ chục quyển vở là $1$ trăm quyển vở. Ngược lại, $1$ trăm có $10$ chục.
+
+  Vậy đó là $1$ trăm quyển vở, và $1$ trăm có $10$ chục.
+  :::
+
+[[P11·64f0]]
+Cuối cùng ta dùng quy tắc để giải một bài toán trong cuộc sống.
+
+  :::example Thùng vở
+  Một thùng có $100$ quyển vở. Cửa hàng có $10$ thùng như vậy. Hỏi có tất cả bao nhiêu quyển vở?
+
+  **Lời giải.** Mỗi thùng là $1$ trăm quyển. Có $10$ thùng, tức là $10$ trăm quyển. Mà $10$ trăm là $1$ nghìn.
+
+  Vậy cửa hàng có $1$ nghìn quyển vở.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·990e]]
+- **Nhầm trăm với chục.** Sai: "$1$ trăm có $10$ đơn vị". Vì sao sai: $10$ đơn vị chỉ là $1$ chục. Đúng: $1$ trăm có $10$ chục.
+- **Nhầm chục với đơn vị.** Sai: "$1$ chục là $1$ đơn vị". Vì sao sai: $1$ chục là một nhóm có $10$ đơn vị. Đúng: $1$ chục có $10$ đơn vị.
+- **Nhầm nghìn với trăm.** Sai: "$10$ trăm là $1$ trăm". Vì sao sai: $10$ trăm là mười nhóm lớn. Đúng: $10$ trăm là $1$ nghìn.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - đơn vị | ones
+  - chục | tens
+  - trăm | hundreds
+  - nghìn | thousand
+  - đổi | exchange
+  - gói thành nhóm | group
+  - nhóm mười | group of ten
+  :::
+
+## Tóm tắt
+
+[[P13·6bee]]
+- $10$ đơn vị $=1$ chục.
+- $10$ chục $=1$ trăm.
+- $10$ trăm $=1$ nghìn.
+- Gói thành nhóm $10$ giúp em đếm nhanh hơn.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/ones-tens-hundreds-thousands – BẢN TIẾNG ANH ########
+---
+title: Ones, tens, hundreds and thousands
+description: Learn to exchange 10 ones for 1 ten, 10 tens for 1 hundred and 10 hundreds for 1 thousand, and read groups of ones, tens, hundreds and thousands.
+minutes: 15
+---
+
+  :::goals
+  - Know that $10$ ones make $1$ ten, $10$ tens make $1$ hundred and $10$ hundreds make $1$ thousand.
+  - Exchange between ones, tens, hundreds and thousands.
+  - Use groups of $10$ to count a large amount.
+  :::
+
+[[P1·5deb]]
+Mai has $10$ loose marbles. She puts all $10$ into one bag. How many bags of ten marbles can $10$ loose marbles make?
+
+[[P2·1e5d]]
+Counting one by one takes a long time. This lesson shows you how to count faster by making groups.
+
+## Let's explore
+
+[[P3·528e]]
+You already know how to count to $10$. When we have $10$ loose objects, we put them in one group called **one ten**.
+
+![Four place-value blocks representing 1, 10, 100, and 1,000](/assets/img/g2/g2-ones-tens-hundreds-thousands-01.svg)
+
+[[P4·e5f7]]
+- $10$ loose objects (each is $1$ **one**) make $1$ **ten**.
+- $10$ of these bags (each is $1$ ten) make $1$ **hundred**.
+- $10$ of these boxes (each is $1$ hundred) make $1$ **thousand**.
+
+[[P5·01b0]]
+We write this in a table:
+
+| Exchange | Make |
+|---|---|
+| $10$ ones | $1$ ten |
+| $10$ tens | $1$ hundred |
+| $10$ hundreds | $1$ thousand |
+
+[[P6·ada4]]
+So $10$ loose marbles make $1$ bag of ten marbles.
+
+  :::theorem The exchange rule
+  - $10$ ones $=1$ ten.
+  - $10$ tens $=1$ hundred.
+  - $10$ hundreds $=1$ thousand.
+  :::
+
+[[P7·285f]]
+The rule works because each time we have $10$ equal groups, we put them into one bigger group, and nothing is lost.
+
+## Examples
+
+[[P8·717c]]
+We start with the simplest exchange.
+
+  :::example From ones to tens
+  Lan has $10$ loose sweets. How many tens of sweets can she make?
+
+  **Solution.** $10$ ones make $1$ ten, so $10$ loose sweets make $1$ ten of sweets.
+
+  So Lan has $1$ ten of sweets.
+  :::
+
+[[P9·9610]]
+Now we exchange the other way, from tens back to ones.
+
+  :::example From tens to ones
+  Nam has $2$ tens of marbles. How many marbles does he have?
+
+  **Solution.** Each ten has $10$ marbles, so $2$ tens are two groups of $10$:
+  $$10+10=20.$$
+  So Nam has $20$ marbles.
+  :::
+
+[[P10·be4b]]
+Next we go up one step: from tens to hundreds.
+
+  :::example From tens to hundreds
+  There are $10$ tens of exercise books. How many hundreds is that? How many tens are in one hundred?
+
+  **Solution.** $10$ tens make $1$ hundred, so $10$ tens of books make $1$ hundred books. The other way round, $1$ hundred has $10$ tens.
+
+  So it is $1$ hundred books, and $1$ hundred has $10$ tens.
+  :::
+
+[[P11·f54e]]
+Finally we use the rule for an everyday problem.
+
+  :::example Boxes of books
+  One box holds $100$ exercise books. A shop has $10$ such boxes. How many books are there altogether?
+
+  **Solution.** Each box is $1$ hundred books. $10$ boxes make $10$ hundreds of books. And $10$ hundreds make $1$ thousand.
+
+  So the shop has $1$ thousand books.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·469a]]
+- **Mixing up hundreds and tens.** Wrong: "$1$ hundred has $10$ ones". Why it is wrong: $10$ ones make only $1$ ten. Right: $1$ hundred has $10$ tens.
+- **Mixing up tens and ones.** Wrong: "$1$ ten is $1$ one". Why it is wrong: $1$ ten is one group of $10$ ones. Right: $1$ ten has $10$ ones.
+- **Mixing up thousands and hundreds.** Wrong: "$10$ hundreds make $1$ hundred". Why it is wrong: $10$ hundreds are ten big groups. Right: $10$ hundreds make $1$ thousand.
+:::
+
+## Key terms
+
+  :::terms
+  - ones | đơn vị
+  - tens | chục
+  - hundreds | trăm
+  - thousand | nghìn
+  - exchange | đổi
+  - group | gói thành nhóm
+  - group of ten | nhóm mười
+  :::
+
+## Summary
+
+[[P13·83cb]]
+- $10$ ones $=1$ ten.
+- $10$ tens $=1$ hundred.
+- $10$ hundreds $=1$ thousand.
+- Making groups of $10$ helps you count faster.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/partitioning-hundreds-tens-ones – BẢN TIẾNG VIỆT ########
+---
+title: Viết số thành tổng các trăm, chục, đơn vị
+description: Em viết một số có ba chữ số thành tổng các trăm, chục, đơn vị, ví dụ 345 = 300 + 40 + 5, và viết ngược lại từ tổng thành số.
+minutes: 15
+---
+
+  :::goals
+  - Viết số có ba chữ số thành tổng các trăm, chục, đơn vị, ví dụ $345=300+40+5$.
+  - Viết ngược lại: từ tổng các trăm, chục, đơn vị thành số.
+  - Viết đúng khi số có chữ số $0$, ví dụ $305=300+5$.
+  :::
+
+[[P1·fbc8]]
+Thư viện có $345$ quyển sách. Cô thủ thư xếp sách thành các thùng $100$ quyển, các bó $10$ quyển và các quyển lẻ. Hỏi cô dùng mấy thùng, mấy bó và mấy quyển lẻ?
+
+[[P2·bd58]]
+Em đã biết số $345$ có $3$ trăm, $4$ chục, $5$ đơn vị. Bài này giúp em viết điều đó bằng một phép cộng.
+
+## Cùng khám phá
+
+[[P3·f9e7]]
+Số $345$ gồm $3$ trăm, $4$ chục và $5$ đơn vị. Ta tính giá trị của từng phần:
+
+![Khối đếm gồm ba tấm trăm, bốn thanh chục và năm khối đơn vị](/assets/img/g2/g2-partitioning-hundreds-tens-ones-01.svg)
+
+[[P4·652f]]
+- $3$ trăm là $300$.
+- $4$ chục là $40$.
+- $5$ đơn vị là $5$.
+
+[[P5·e543]]
+Cộng ba phần lại được $300+40+5=345$. Vậy ta viết:
+  $$345=300+40+5.$$
+
+[[P6·f9ac]]
+Cô thủ thư dùng $3$ thùng, $4$ bó và $5$ quyển lẻ.
+
+  :::theorem Viết số thành tổng
+  Số có ba chữ số $\overline{abc}$ viết thành tổng của số trăm, số chục và số đơn vị:
+  - chữ số hàng trăm $a$ cho $a$ trăm (ví dụ $3$ thì được $300$);
+  - chữ số hàng chục $b$ cho $b$ chục (ví dụ $4$ thì được $40$);
+  - chữ số hàng đơn vị $c$ cho $c$ đơn vị (ví dụ $5$ thì được $5$).
+  :::
+
+[[P7·ce91]]
+Cách làm này đúng vì mỗi chữ số đứng ở một hàng, hàng cho biết giá trị của chữ số đó: chữ số $4$ ở hàng chục là $40$ chứ không phải $4$.
+
+## Ví dụ
+
+[[P8·280d]]
+Ta bắt đầu với một số không có chữ số $0$.
+
+  :::example Viết số thành tổng
+  Viết số $453$ thành tổng các trăm, chục, đơn vị.
+
+  **Lời giải.** Số $453$ có chữ số $4$ ở hàng trăm, $5$ ở hàng chục, $3$ ở hàng đơn vị. Giá trị từng phần là $400$, $50$ và $3$:
+  $$453=400+50+3.$$
+  Vậy $453=400+50+3$.
+  :::
+
+[[P9·a824]]
+Bây giờ em làm ngược lại: từ tổng ra số.
+
+  :::example Từ tổng thành số
+  Viết số $700+60+2$.
+
+  **Lời giải.** $700$ là $7$ trăm, $60$ là $6$ chục, $2$ là $2$ đơn vị. Viết ba chữ số liền nhau: $7$, $6$, $2$:
+  $$700+60+2=762.$$
+  Vậy $700+60+2=762$.
+  :::
+
+[[P10·147e]]
+Tiếp theo là số có chữ số $0$.
+
+  :::example Số có chữ số 0
+  Viết số $805$ thành tổng các trăm, chục, đơn vị.
+
+  **Lời giải.** Số $805$ có $8$ trăm, $0$ chục, $5$ đơn vị. Hàng chục không có gì nên không cần viết phần chục:
+  $$805=800+5.$$
+  Vậy $805=800+5$.
+  :::
+
+[[P11·e2ef]]
+Cuối cùng em dùng kiến thức này giải một bài toán.
+
+  :::example Thùng, bó và quyển lẻ
+  Cửa hàng có $5$ thùng bút loại $100$ chiếc, $1$ bó bút loại $10$ chiếc và $9$ chiếc bút lẻ. Viết số bút thành tổng rồi cho biết có bao nhiêu chiếc bút.
+
+  **Lời giải.** $5$ thùng là $500$, $1$ bó là $10$, $9$ chiếc lẻ là $9$:
+  $$500+10+9=519.$$
+  Vậy cửa hàng có $519$ chiếc bút, và $519=500+10+9$.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·c65e]]
+- **Cộng các chữ số.** Sai: "$453=4+5+3$". Vì sao sai: $4+5+3=12$, không phải $453$. Đúng: $453=400+50+3$.
+- **Quên giá trị của hàng.** Sai: "$345=300+4+5$". Vì sao sai: chữ số $4$ ở hàng chục là $40$. Đúng: $345=300+40+5$.
+- **Viết sai khi có chữ số 0.** Sai: "$305=300+50$". Vì sao sai: $305$ có $0$ chục, $5$ là $5$ đơn vị. Đúng: $305=300+5$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - tổng | sum
+  - hàng trăm | hundreds place
+  - hàng chục | tens place
+  - hàng đơn vị | ones place
+  - chữ số | digit
+  - giá trị | value
+  - phép cộng | addition
+  :::
+
+## Tóm tắt
+
+[[P13·5d16]]
+- Viết số thành tổng: số trăm + số chục + số đơn vị, ví dụ $345=300+40+5$.
+- Chữ số ở hàng nào thì có giá trị của hàng đó: $4$ ở hàng chục là $40$.
+- Hàng nào là $0$ thì có thể bỏ khỏi tổng: $305=300+5$.
+- Từ tổng $300+40+5$ viết ngược lại thành số $345$.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/partitioning-hundreds-tens-ones – BẢN TIẾNG ANH ########
+---
+title: Writing a number as hundreds, tens and ones
+description: Write a three-digit number as the sum of hundreds, tens and ones, for example 345 = 300 + 40 + 5, and write the sum back as a number.
+minutes: 15
+---
+
+  :::goals
+  - Write a three-digit number as a sum of hundreds, tens and ones, for example $345=300+40+5$.
+  - Go the other way: write a sum of hundreds, tens and ones as a number.
+  - Write correctly when a digit is $0$, for example $305=300+5$.
+  :::
+
+[[P1·a40f]]
+A library has $345$ books. The librarian packs them into crates of $100$, bundles of $10$ and loose books. How many crates, bundles and loose books does she use?
+
+[[P2·8de1]]
+You know that $345$ has $3$ hundreds, $4$ tens and $5$ ones. This lesson shows you how to write that as an addition.
+
+## Let's explore
+
+[[P3·8eab]]
+The number $345$ is made of $3$ hundreds, $4$ tens and $5$ ones. We work out the value of each part:
+
+![Base-ten blocks showing three hundreds, four tens, and five ones](/assets/img/g2/g2-partitioning-hundreds-tens-ones-01.svg)
+
+[[P4·db58]]
+- $3$ hundreds is $300$.
+- $4$ tens is $40$.
+- $5$ ones is $5$.
+
+[[P5·31d5]]
+Adding the three parts gives $300+40+5=345$. So we write:
+  $$345=300+40+5.$$
+
+[[P6·8e02]]
+The librarian uses $3$ crates, $4$ bundles and $5$ loose books.
+
+  :::theorem Writing a number as a sum
+  A three-digit number can be written as the sum of its hundreds, tens and ones:
+  - the hundreds digit gives that many hundreds (for example $3$ gives $300$);
+  - the tens digit gives that many tens (for example $4$ gives $40$);
+  - the ones digit gives that many ones (for example $5$ gives $5$).
+  :::
+
+[[P7·6bbc]]
+This works because each digit sits in a place, and the place tells the value of the digit: the digit $4$ in the tens place is $40$, not $4$.
+
+## Examples
+
+[[P8·4923]]
+We start with a number that has no $0$.
+
+  :::example Writing a number as a sum
+  Write $453$ as a sum of hundreds, tens and ones.
+
+  **Solution.** The number $453$ has the digit $4$ in the hundreds place, $5$ in the tens place and $3$ in the ones place. The values of the parts are $400$, $50$ and $3$:
+  $$453=400+50+3.$$
+  So $453=400+50+3$.
+  :::
+
+[[P9·d422]]
+Now you go the other way: from a sum to a number.
+
+  :::example From a sum to a number
+  Write the number $700+60+2$.
+
+  **Solution.** $700$ is $7$ hundreds, $60$ is $6$ tens and $2$ is $2$ ones. Write the three digits side by side: $7$, $6$, $2$:
+  $$700+60+2=762.$$
+  So $700+60+2=762$.
+  :::
+
+[[P10·2579]]
+Next comes a number with a $0$.
+
+  :::example A number with a 0
+  Write $805$ as a sum of hundreds, tens and ones.
+
+  **Solution.** The number $805$ has $8$ hundreds, $0$ tens and $5$ ones. The tens place is empty, so we do not need a tens part:
+  $$805=800+5.$$
+  So $805=800+5$.
+  :::
+
+[[P11·b5c3]]
+Finally you use this in a problem.
+
+  :::example Crates, bundles and loose pens
+  A shop has $5$ crates of $100$ pens, $1$ bundle of $10$ pens and $9$ loose pens. Write the number of pens as a sum and say how many pens there are.
+
+  **Solution.** $5$ crates is $500$, $1$ bundle is $10$ and $9$ loose pens is $9$:
+  $$500+10+9=519.$$
+  So the shop has $519$ pens, and $519=500+10+9$.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·ef92]]
+- **Adding the digits.** Wrong: "$453=4+5+3$". Why it is wrong: $4+5+3=12$, not $453$. Right: $453=400+50+3$.
+- **Forgetting the value of the place.** Wrong: "$345=300+4+5$". Why it is wrong: the digit $4$ in the tens place is $40$. Right: $345=300+40+5$.
+- **Going wrong with a $0$.** Wrong: "$305=300+50$". Why it is wrong: $305$ has $0$ tens, and the $5$ is $5$ ones. Right: $305=300+5$.
+:::
+
+## Key terms
+
+  :::terms
+  - sum | tổng
+  - hundreds place | hàng trăm
+  - tens place | hàng chục
+  - ones place | hàng đơn vị
+  - digit | chữ số
+  - value | giá trị
+  - addition | phép cộng
+  :::
+
+## Summary
+
+[[P13·7e0f]]
+- To write a number as a sum: hundreds + tens + ones, for example $345=300+40+5$.
+- A digit has the value of its place: the $4$ in the tens place is $40$.
+- A place with $0$ can be left out of the sum: $305=300+5$.
+- From the sum $300+40+5$ you can write the number back as $345$.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/points-lines-curves – BẢN TIẾNG VIỆT ########
+---
+title: Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng
+description: Em nhận biết điểm, đoạn thẳng, đường thẳng và đường cong, biết vẽ đoạn thẳng bằng thước và nhận ra ba điểm thẳng hàng.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết điểm, đoạn thẳng, đường thẳng và đường cong.
+  - Dùng thước vẽ đoạn thẳng và đọc tên đoạn thẳng, ví dụ đoạn thẳng $AB$.
+  - Nhận ra ba điểm thẳng hàng.
+  :::
+
+[[P1·548e]]
+Mai đứng ở cổng trường, nhìn thấy cột cờ ở xa. Mai muốn đi thẳng từ cổng đến cột cờ. Mai nên đi theo đường như thế nào, và làm sao vẽ đường đi đó lên giấy?
+
+[[P2·5b8e]]
+Bài này giúp em gọi tên các hình rất quen thuộc quanh em: điểm, đoạn thẳng, đường thẳng và đường cong.
+
+## Cùng khám phá
+
+[[P3·22d9]]
+Em chấm hai chấm nhỏ lên giấy. Mỗi chấm nhỏ là một **điểm**. Ta đặt tên cho điểm bằng chữ cái in hoa, ví dụ điểm $A$ và điểm $B$.
+
+[[P4·2f13]]
+Em đặt thước thẳng sao cho mép thước đi qua cả hai điểm $A$ và $B$. Em dùng bút kẻ một nét từ $A$ đến $B$. Nét vẽ đó là **đoạn thẳng** $AB$. Hai điểm $A$ và $B$ là hai đầu của đoạn thẳng.
+
+:::diagram Đoạn thẳng AB
+   (… 4 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·488b]]
+Nếu em kéo dài nét thẳng đó mãi về hai phía, không có điểm dừng, ta được một **đường thẳng**. Đường thẳng không có hai đầu.
+
+[[P6·489a]]
+Nếu nét vẽ không thẳng mà uốn lượn, ta gọi đó là **đường cong**.
+
+:::graph Một đường cong
+   (… 4 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Nhận biết các hình
+  - **Điểm**: một chấm nhỏ, đặt tên bằng chữ cái in hoa.
+  - **Đoạn thẳng** $AB$: nét thẳng nối điểm $A$ với điểm $B$, có hai đầu, vẽ bằng thước.
+  - **Đường thẳng**: nét thẳng kéo dài mãi về hai phía, không có hai đầu.
+  - **Đường cong**: nét không thẳng, uốn lượn.
+  :::
+
+[[P7·1eee]]
+Ta dùng thước để vẽ vì mép thước thẳng, nên nét vẽ theo mép thước sẽ thẳng.
+
+## Ví dụ
+
+[[P8·2bd8]]
+Ta bắt đầu với cách vẽ một đoạn thẳng.
+
+  :::example Vẽ đoạn thẳng $MN$
+  **Lời giải.** Em làm theo từng bước:
+  1. Chấm hai điểm trên giấy, viết $M$ và $N$ bên cạnh.
+  2. Đặt thước sao cho mép thước đi qua $M$ và $N$.
+  3. Dùng bút kẻ nét thẳng từ $M$ đến $N$ theo mép thước.
+
+  Vậy nét thẳng đó là đoạn thẳng $MN$.
+  :::
+
+[[P9·7515]]
+Bây giờ em phân biệt các hình trong đời sống.
+
+  :::example Đoạn thẳng hay đường cong?
+  Mép bàn học và vành miệng chiếc cốc tròn: hình nào gợi ra đoạn thẳng, hình nào gợi ra đường cong?
+
+  ![Mép bàn thẳng và vành miệng cốc tròn được tô đậm](/assets/img/g2/g2-points-lines-curves-01.svg)
+
+  **Lời giải.** Mép bàn học là một nét thẳng có hai đầu, nên gợi ra đoạn thẳng. Vành miệng chiếc cốc tròn uốn quanh, không thẳng, nên gợi ra đường cong.
+  :::
+
+[[P10·6880]]
+Bây giờ ta xét ba điểm có nằm trên cùng một nét thẳng hay không.
+
+:::diagram Ba điểm A, B, C và điểm D
+   (… 6 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Ba điểm thẳng hàng
+  Nhìn hình trên: ba điểm nào nằm trên cùng một đường thẳng?
+
+  **Lời giải.** Đặt thước theo nét thẳng từ $A$ đến $C$. Điểm $B$ nằm đúng trên mép thước, còn điểm $D$ nằm lệch ra ngoài. Vậy ba điểm $A$, $B$, $C$ cùng nằm trên một đường thẳng. Ta nói ba điểm $A$, $B$, $C$ **thẳng hàng**.
+  :::
+
+[[P11·7e54]]
+Cuối cùng, em đếm các đoạn thẳng nối từng cặp điểm.
+
+  :::example Đếm đoạn thẳng
+  Cho ba điểm $A$, $B$, $C$ thẳng hàng. Nối từng cặp điểm, ta có mấy đoạn thẳng?
+
+  **Lời giải.** Các cặp điểm là $A$ với $B$, $B$ với $C$, và $A$ với $C$. Mỗi cặp cho một đoạn thẳng: $AB$, $BC$, $AC$.
+
+  Vậy có $3$ đoạn thẳng.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·ee77]]
+- **Vẽ bằng tay không.** Sai: vẽ đoạn thẳng $AB$ mà không dùng thước, nét bị cong. Vì sao sai: nét cong không phải đoạn thẳng. Đúng: dùng thước kẻ theo mép thước.
+- **Nhầm đoạn thẳng với đường thẳng.** Sai: nói đoạn thẳng $AB$ kéo dài mãi. Vì sao sai: đoạn thẳng chỉ có hai đầu $A$ và $B$. Đúng: đường thẳng mới kéo dài mãi về hai phía.
+- **Gọi ba điểm là thẳng hàng khi một điểm lệch.** Sai: "$A$, $B$, $D$ thẳng hàng" ở hình trên. Vì sao sai: $D$ không nằm trên nét thẳng $AC$. Đúng: chỉ $A$, $B$, $C$ thẳng hàng.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - điểm | point
+  - đoạn thẳng | line segment
+  - đường thẳng | straight line
+  - đường cong | curve
+  - ba điểm thẳng hàng | three points in a line
+  - hai đầu của đoạn thẳng | endpoints
+  - thước kẻ | ruler
+  :::
+
+## Tóm tắt
+
+[[P13·0585]]
+- Điểm là một chấm nhỏ; đặt tên bằng chữ cái in hoa.
+- Đoạn thẳng $AB$ nối hai điểm $A$ và $B$, có hai đầu, vẽ bằng thước.
+- Đường thẳng kéo dài mãi về hai phía; đường cong thì không thẳng.
+- Ba điểm cùng nằm trên một đường thẳng là ba điểm thẳng hàng.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/points-lines-curves – BẢN TIẾNG ANH ########
+---
+title: Points, line segments, lines, curves and points in a line
+description: Recognise points, line segments, straight lines and curves, draw a line segment with a ruler, and tell when three points are in a line.
+minutes: 15
+---
+
+  :::goals
+  - Recognise points, line segments, straight lines and curves.
+  - Use a ruler to draw a line segment and say its name, for example line segment $AB$.
+  - Recognise three points that are in a line.
+  :::
+
+[[P1·278f]]
+Mai stands at the school gate and sees the flagpole far away. She wants to walk straight from the gate to the flagpole. What kind of path should she follow, and how can we draw that path on paper?
+
+[[P2·08aa]]
+This lesson helps you name some shapes you see all around you: points, line segments, straight lines and curves.
+
+## Let's explore
+
+[[P3·3aac]]
+Put two small dots on a sheet of paper. Each small dot is a **point**. We name a point with a capital letter, for example point $A$ and point $B$.
+
+[[P4·afc8]]
+Place a ruler so that its edge passes through both $A$ and $B$. Draw a line along the edge from $A$ to $B$. The line you drew is a **line segment**, called $AB$. The points $A$ and $B$ are the two endpoints of the segment.
+
+:::diagram Line segment AB
+   (… 4 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·4497]]
+If we keep this straight line going for ever in both directions, with no place to stop, we get a **straight line**. A straight line has no endpoints.
+
+[[P6·b814]]
+If the line is not straight but bends and wiggles, we call it a **curve**.
+
+:::graph A curve
+   (… 4 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Recognising the shapes
+  - **Point**: a small dot, named with a capital letter.
+  - **Line segment** $AB$: a straight line from point $A$ to point $B$, with two endpoints, drawn with a ruler.
+  - **Straight line**: a straight line that goes on for ever in both directions, with no endpoints.
+  - **Curve**: a line that is not straight and bends.
+  :::
+
+[[P7·6aa1]]
+We use a ruler because its edge is straight, so a line drawn along the edge is straight too.
+
+## Examples
+
+[[P8·7dae]]
+We start with how to draw a line segment.
+
+  :::example Draw line segment $MN$
+  **Solution.** Follow these steps:
+  1. Put two dots on the paper and write $M$ and $N$ next to them.
+  2. Place the ruler so that its edge passes through $M$ and $N$.
+  3. Draw a straight line from $M$ to $N$ along the edge.
+
+  The straight line you drew is the line segment $MN$.
+  :::
+
+[[P9·be77]]
+Now tell the shapes apart in everyday life.
+
+  :::example Line segment or curve?
+  The edge of a desk and the rim of a round cup: which one suggests a line segment, and which a curve?
+
+  ![A straight desk edge and a curved circular cup rim highlighted](/assets/img/g2/g2-points-lines-curves-01.svg)
+
+  **Solution.** The edge of a desk is straight and has two ends, so it suggests a line segment. The rim of a round cup goes round and is not straight, so it suggests a curve.
+  :::
+
+[[P10·f8e9]]
+Now we check whether three points lie on the same straight line.
+
+:::diagram Points A, B, C and point D
+   (… 6 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Three points in a line
+  Look at the picture. Which three points lie on the same straight line?
+
+  **Solution.** Place a ruler along the line from $A$ to $C$. Point $B$ lies exactly on the edge, but point $D$ is off to the side. So the three points $A$, $B$, $C$ lie on one straight line. We say $A$, $B$, $C$ are **in a line**.
+  :::
+
+[[P11·0b5e]]
+Finally, count the line segments that join pairs of points.
+
+  :::example Counting line segments
+  Three points $A$, $B$, $C$ are in a line. We join every pair of points. How many line segments do we get?
+
+  **Solution.** The pairs are $A$ and $B$, $B$ and $C$, and $A$ and $C$. Each pair gives one line segment: $AB$, $BC$, $AC$.
+
+  So we get $3$ line segments.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·f58c]]
+- **Drawing without a ruler.** Wrong: drawing line segment $AB$ by hand so that it bends. Why it is wrong: a bent line is not a line segment. Right: use a ruler and draw along its edge.
+- **Mixing up a line segment and a straight line.** Wrong: saying that line segment $AB$ goes on for ever. Why it is wrong: a line segment has only two ends, $A$ and $B$. Right: only a straight line goes on for ever in both directions.
+- **Saying three points are in a line when one is off.** Wrong: "$A$, $B$, $D$ are in a line" in the picture above. Why it is wrong: $D$ is not on the straight line $AC$. Right: only $A$, $B$, $C$ are in a line.
+:::
+
+## Key terms
+
+  :::terms
+  - point | điểm
+  - line segment | đoạn thẳng
+  - straight line | đường thẳng
+  - curve | đường cong
+  - three points in a line | ba điểm thẳng hàng
+  - endpoints | hai đầu của đoạn thẳng
+  - ruler | thước kẻ
+  :::
+
+## Summary
+
+[[P13·72c0]]
+- A point is a small dot; we name it with a capital letter.
+- Line segment $AB$ joins points $A$ and $B$, has two endpoints and is drawn with a ruler.
+- A straight line goes on for ever in both directions; a curve is not straight.
+- Three points on the same straight line are in a line.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/regroup-add-1-digit – BẢN TIẾNG VIỆT ########
+---
+title: Phép cộng (có nhớ) số có hai chữ số với số có một chữ số
+description: Em học cộng số có hai chữ số với số có một chữ số khi tổng hàng đơn vị từ 10 trở lên, ví dụ 38 + 6, bằng cách đổi 10 đơn vị thành 1 chục.
+minutes: 15
+---
+
+  :::goals
+  - Hiểu vì sao khi cộng hàng đơn vị được $10$ hoặc hơn thì phải thêm $1$ chục.
+  - Đặt tính theo cột dọc và tính đúng, ví dụ $38+6$.
+  - Giải bài toán có lời văn bằng một phép cộng có nhớ.
+  :::
+
+[[P1·1404]]
+Nam có $38$ viên bi. Bạn Hùng cho Nam thêm $6$ viên nữa. Hỏi Nam có tất cả bao nhiêu viên bi?
+
+[[P2·baf3]]
+Em đã biết cộng qua $10$ trong phạm vi $20$ ở các bài trước. Bài này dùng chính cách đó cho số lớn hơn.
+
+## Cùng khám phá
+
+[[P3·f598]]
+Ta tách số $38$ thành $3$ chục và $8$ đơn vị. Số $6$ chỉ có $6$ đơn vị.
+
+[[P4·04f1]]
+- Cộng hàng đơn vị: $8+6=14$. Vậy có $14$ đơn vị.
+- $14$ đơn vị là $1$ chục và $4$ đơn vị. Ta đổi $10$ đơn vị lấy $1$ chục.
+- Cộng hàng chục: $3$ chục cũ cộng $1$ chục mới là $4$ chục.
+
+[[P5·4f59]]
+Vậy có $4$ chục và $4$ đơn vị, tức là $44$.
+
+  $$\begin{array}{r} 38\\ +\ \ 6\\ \hline 44 \end{array}$$
+
+[[P6·62ce]]
+Em cũng có thể nhảy trên tia số: từ $38$ nhảy $2$ bước đến $40$, rồi nhảy thêm $4$ bước đến $44$.
+
+:::graph Trên tia số: từ 38 nhảy 2 bước đến 40, rồi nhảy 4 bước đến 44
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cộng có nhớ số có hai chữ số với số có một chữ số
+  Muốn tính $38+6$:
+  1. Đặt tính: hàng đơn vị thẳng hàng đơn vị, hàng chục thẳng hàng chục.
+  2. Cộng hàng đơn vị: $8+6=14$. Viết $4$ ở hàng đơn vị, nhớ $1$ chục.
+  3. Cộng hàng chục: $3+1=4$. Viết $4$ ở hàng chục.
+  :::
+
+[[P7·0a19]]
+Cách này đúng vì $14$ đơn vị bằng $1$ chục và $4$ đơn vị. Chục mới đó không bị mất: em cộng nó vào hàng chục.
+
+## Ví dụ
+
+[[P8·526a]]
+Ta bắt đầu với một phép cộng ở hàng đơn vị có tổng chỉ hơn $10$ một chút.
+
+  :::example Tính $27+5$
+  **Lời giải.** Cộng hàng đơn vị trước: $7+5=12$, viết $2$ và nhớ $1$ chục. Rồi cộng hàng chục: $2+1=3$:
+  $$\begin{array}{r} 27\\ +\ \ 5\\ \hline 32 \end{array}$$
+  Vậy $27+5=32$.
+  :::
+
+[[P9·0e77]]
+Phép tính sau làm giống hệt, chỉ đổi số.
+
+  :::example Tính $46+8$
+  **Lời giải.** Hàng đơn vị: $6+8=14$, viết $4$ và nhớ $1$. Hàng chục: $4+1=5$:
+  $$\begin{array}{r} 46\\ +\ \ 8\\ \hline 54 \end{array}$$
+  Vậy $46+8=54$.
+  :::
+
+[[P10·1ab5]]
+Bây giờ hàng đơn vị có tổng lớn hơn, nhưng cách làm vẫn như cũ.
+
+  :::example Tính $69+7$
+  **Lời giải.** Hàng đơn vị: $9+7=16$, viết $6$ và nhớ $1$. Hàng chục: $6+1=7$:
+  $$\begin{array}{r} 69\\ +\ \ 7\\ \hline 76 \end{array}$$
+  Vậy $69+7=76$.
+
+  **Kiểm tra.** Em tách $7=1+6$: $69+1=70$, rồi $70+6=76$. Kết quả giống nhau.
+  :::
+
+[[P11·95a3]]
+Bây giờ em dùng phép cộng để giải một bài toán trong cuộc sống.
+
+  :::example Giỏ táo
+  Trong giỏ có $58$ quả táo. Mẹ bỏ thêm $6$ quả táo. Hỏi trong giỏ có tất cả bao nhiêu quả táo?
+
+  **Lời giải.** "Bỏ thêm" nghĩa là gộp lại, nên em làm phép cộng. Hàng đơn vị: $8+6=14$, viết $4$ và nhớ $1$. Hàng chục: $5+1=6$:
+  $$58+6=64\ \text{(quả)}.$$
+  Vậy trong giỏ có tất cả $64$ quả táo.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·b605]]
+- **Quên chục nhớ.** Sai: $38+6=34$. Vì sao sai: em viết $4$ nhưng quên cộng $1$ chục vào hàng chục. Đúng: $38+6=44$.
+- **Viết cả $14$ vào hàng đơn vị.** Sai: $38+6=314$. Vì sao sai: $14$ đơn vị phải đổi thành $1$ chục và $4$ đơn vị. Đúng: $38+6=44$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $64$". Đúng: "Đáp số: $64$ quả táo".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép cộng có nhớ | addition with regrouping
+  - hàng chục | tens
+  - hàng đơn vị | ones
+  - đổi 10 đơn vị lấy 1 chục | exchange 10 ones for 1 ten
+  - đặt tính | set out the column
+  - tổng | sum (total)
+  - số hạng | addend
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P13·71c8]]
+- Cộng hàng đơn vị trước. Nếu được $10$ hoặc hơn, đổi $10$ đơn vị lấy $1$ chục.
+- Viết số đơn vị còn lại ở hàng đơn vị, nhớ $1$ chục sang hàng chục.
+- Ví dụ: $38+6$: $8+6=14$, viết $4$ nhớ $1$; $3+1=4$; kết quả $44$.
+- Bài toán hỏi "tất cả", "thêm" thường là phép cộng; nhớ ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/regroup-add-1-digit – BẢN TIẾNG ANH ########
+---
+title: Adding a one-digit number to a two-digit number (with regrouping)
+description: Learn to add a one-digit number to a two-digit number when the ones make 10 or more, such as 38 + 6, by exchanging 10 ones for 1 ten.
+minutes: 15
+---
+
+  :::goals
+  - Understand why you add $1$ ten when the ones make $10$ or more.
+  - Set out the sum in columns and work it out correctly, such as $38+6$.
+  - Solve a word problem with one addition with regrouping.
+  :::
+
+[[P1·c6e7]]
+Nam has $38$ marbles. His friend Hung gives him $6$ more. How many marbles does Nam have altogether?
+
+[[P2·924b]]
+You already know how to add across $10$ within $20$ from earlier lessons. This lesson uses the same idea for bigger numbers.
+
+## Let's explore
+
+[[P3·99f4]]
+We split $38$ into $3$ tens and $8$ ones. The number $6$ has just $6$ ones.
+
+[[P4·98e1]]
+- Add the ones: $8+6=14$. So there are $14$ ones.
+- $14$ ones are $1$ ten and $4$ ones. We exchange $10$ ones for $1$ ten.
+- Add the tens: the $3$ tens we had plus the $1$ new ten make $4$ tens.
+
+[[P5·359c]]
+So there are $4$ tens and $4$ ones, which is $44$.
+
+  $$\begin{array}{r} 38\\ +\ \ 6\\ \hline 44 \end{array}$$
+
+[[P6·2136]]
+You can also jump along a number line: from $38$ jump $2$ steps to $40$, then $4$ more steps to $44$.
+
+:::graph On a number line: from 38 jump 2 steps to 40, then 4 steps to 44
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Adding a one-digit number to a two-digit number with regrouping
+  To work out $38+6$:
+  1. Set out the sum: ones under ones, tens under tens.
+  2. Add the ones: $8+6=14$. Write $4$ in the ones and carry $1$ ten.
+  3. Add the tens: $3+1=4$. Write $4$ in the tens.
+  :::
+
+[[P7·a882]]
+This works because $14$ ones are the same as $1$ ten and $4$ ones. The new ten is not lost: you add it to the tens.
+
+## Examples
+
+[[P8·c428]]
+We start with an addition where the ones make just a little more than $10$.
+
+  :::example Work out $27+5$
+  **Solution.** Add the ones first: $7+5=12$, write $2$ and carry $1$ ten. Then add the tens: $2+1=3$:
+  $$\begin{array}{r} 27\\ +\ \ 5\\ \hline 32 \end{array}$$
+  So $27+5=32$.
+  :::
+
+[[P9·505b]]
+The next sum works in exactly the same way, with different numbers.
+
+  :::example Work out $46+8$
+  **Solution.** Ones: $6+8=14$, write $4$ and carry $1$. Tens: $4+1=5$:
+  $$\begin{array}{r} 46\\ +\ \ 8\\ \hline 54 \end{array}$$
+  So $46+8=54$.
+  :::
+
+[[P10·a8be]]
+Now the ones make a bigger total, but the method stays the same.
+
+  :::example Work out $69+7$
+  **Solution.** Ones: $9+7=16$, write $6$ and carry $1$. Tens: $6+1=7$:
+  $$\begin{array}{r} 69\\ +\ \ 7\\ \hline 76 \end{array}$$
+  So $69+7=76$.
+
+  **Check.** Split $7=1+6$: $69+1=70$, then $70+6=76$. The answers match.
+  :::
+
+[[P11·c417]]
+Now use addition to solve a problem from everyday life.
+
+  :::example A basket of apples
+  A basket holds $58$ apples. Mum puts in $6$ more apples. How many apples are in the basket altogether?
+
+  **Solution.** "Puts in more" means putting together, so you add. Ones: $8+6=14$, write $4$ and carry $1$. Tens: $5+1=6$:
+  $$58+6=64\ \text{(apples)}.$$
+  So there are $64$ apples in the basket altogether.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·5672]]
+- **Forgetting the carried ten.** Wrong: $38+6=34$. Why it is wrong: you wrote $4$ but forgot to add $1$ ten to the tens. Right: $38+6=44$.
+- **Writing all of $14$ in the ones.** Wrong: $38+6=314$. Why it is wrong: $14$ ones must be exchanged for $1$ ten and $4$ ones. Right: $38+6=44$.
+- **Leaving out the unit in a word problem.** Wrong: "Answer: $64$". Right: "Answer: $64$ apples".
+:::
+
+## Key terms
+
+  :::terms
+  - addition with regrouping | phép cộng có nhớ
+  - tens | hàng chục
+  - ones | hàng đơn vị
+  - exchange 10 ones for 1 ten | đổi 10 đơn vị lấy 1 chục
+  - set out the column | đặt tính
+  - sum (total) | tổng
+  - addend | số hạng
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P13·cd33]]
+- Add the ones first. If they make $10$ or more, exchange $10$ ones for $1$ ten.
+- Write the ones that are left in the ones place and carry $1$ ten to the tens.
+- Example: $38+6$: $8+6=14$, write $4$ carry $1$; $3+1=4$; the answer is $44$.
+- Word problems that ask "altogether" or "how many more are added" usually need an addition; remember to write the unit in the answer.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
