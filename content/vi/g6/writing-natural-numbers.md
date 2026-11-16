@@ -2,6 +2,7 @@
 title: Cách ghi số tự nhiên. Thứ tự trong tập hợp các số tự nhiên
 description: Hệ thập phân và giá trị theo vị trí, số La Mã đến 30; tập hợp ℕ và ℕ*, so sánh, sắp xếp, số liền trước, số liền sau trên tia số.
 minutes: 50
+numbers: loose
 ---
 
 :::goals

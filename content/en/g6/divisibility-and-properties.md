@@ -2,6 +2,7 @@
 title: Divisibility and its properties. Divisibility rules
 description: Divisibility, divisors and multiples, divisibility of a sum and a difference; divisibility rules for 2, 5, 3 and 9.
 minutes: 55
+numbers: loose
 ---
 
 :::goals

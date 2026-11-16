@@ -2,6 +2,7 @@
 title: Writing natural numbers. Order in the set of natural numbers
 description: The decimal system and place value, Roman numerals up to 30; the sets ℕ and ℕ*, comparing, ordering, and the number just before and after.
 minutes: 50
+numbers: loose
 ---
 
 :::goals

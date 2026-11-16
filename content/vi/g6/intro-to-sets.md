@@ -2,6 +2,7 @@
 title: Làm quen với tập hợp
 description: Làm quen với tập hợp, phần tử, kí hiệu thuộc và không thuộc; cách viết tập hợp bằng liệt kê và bằng tính chất đặc trưng.
 minutes: 35
+numbers: loose
 ---
 
 :::goals

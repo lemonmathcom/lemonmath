@@ -2,6 +2,7 @@
 title: Làm tròn số đến hàng trăm nghìn. Làm quen với dãy số tự nhiên
 description: Em học quy tắc làm tròn số đến hàng chục nghìn, hàng trăm nghìn, rồi làm quen với dãy số tự nhiên, số liền trước, số liền sau và số tự nhiên bé nhất.
 minutes: 20
+numbers: loose
 ---
 
 :::goals

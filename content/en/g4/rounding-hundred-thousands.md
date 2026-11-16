@@ -2,6 +2,7 @@
 title: Rounding to the nearest hundred thousand. Introducing the sequence of natural numbers
 description: Learn to round to the nearest ten thousand and hundred thousand, then meet the sequence of natural numbers and the smallest natural number.
 minutes: 20
+numbers: loose
 ---
 
 :::goals

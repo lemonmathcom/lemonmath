@@ -2,6 +2,7 @@
 title: Introduction to sets
 description: An introduction to sets, elements and the symbols for belongs to and does not belong to; writing a set by listing or by a defining property.
 minutes: 35
+numbers: loose
 ---
 
 :::goals

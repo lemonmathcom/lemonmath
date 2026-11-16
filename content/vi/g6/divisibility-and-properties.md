@@ -2,6 +2,7 @@
 title: Quan hệ chia hết và tính chất. Dấu hiệu chia hết
 description: Quan hệ chia hết, ước và bội, tính chất chia hết của một tổng và một hiệu; dấu hiệu chia hết cho 2, 5, 3 và 9.
 minutes: 55
+numbers: loose
 ---
 
 :::goals
