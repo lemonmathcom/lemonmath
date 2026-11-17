@@ -463,7 +463,7 @@ function homePage(lang) {
       '<div class="gtiles">' + gs.map((g) => gradeTile(lang, d, g)).join('') + '</div></section>';
   };
   const body = '<section class="hero">\n<div class="hero-text">\n<p class="eyebrow">' + esc(T.eyebrow) + '</p>\n<h1>' + esc(T.h1) + '</h1>\n<p class="lead">' + esc(T.lead) + '</p>\n' +
-    '<p class="hero-actions"><a class="btn" id="start-btn" href="' + relDir(d, gradeDir(lang, g10)) + '">' + esc(T.startG10) + '</a> <a class="btn btn-ghost" href="#grades">' + esc(T.browse) + '</a></p>\n</div>\n' +
+    '<p class="hero-actions"><a class="btn" href="#grades">' + esc(T.pickGrade) + '</a> <a class="btn btn-ghost" id="start-btn" href="' + relDir(d, gradeDir(lang, g10)) + '">' + esc(T.tryG10) + '</a></p>\n</div>\n' +
     '<div class="hero-art" aria-hidden="true">' + mascot({ cls: 'hero-mascot', mood: 'wow' }) + '<span class="float f1">x²</span><span class="float f2">π</span><span class="float f3">∑</span><span class="float f4">√</span></div>\n</section>\n' +
     '<section class="off-promo" aria-labelledby="off-h"><div class="off-promo-text"><p class="eyebrow">' + esc(T.offEyebrow) + '</p><h2 id="off-h">' + esc(T.offH) + '</h2><p>' + esc(T.offLead) + '</p>' +
     '<ul>' + T.offPoints.map((x) => '<li>' + esc(x) + '</li>').join('') + '</ul>' +
