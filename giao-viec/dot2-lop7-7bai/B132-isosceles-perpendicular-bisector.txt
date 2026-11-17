@@ -13,7 +13,10 @@ Tam giác cân và đường trung trực: định nghĩa, tính chất (hai gó
 
 CÁCH CHIA SỨC: bài này làm được trong một lần hạn mức nếu bạn không bị ngắt giữa chừng. Viết bản Việt trước, rồi bản Anh; mỗi bản viết xong hãy tự rà lại một lượt theo mục 12 bên dưới trước khi gửi.
 
-FILE ĐÍNH KÈM CẦN DÁN VÀO CHAT (bộ dinh-kem-lop7.zip do người điều phối gửi, giải nén rồi dán tất cả các file .md):
+FILE ĐÍNH KÈM CẦN DÁN VÀO CHAT (3 file người điều phối gửi kèm):
+- 1-QUY-CHUAN-WRITING-SPEC-GLOSSARY.md: quy chuẩn viết bài (đọc kĩ mục 2, 2b, 2c, 2d, 2e, 2f, 4 "Figures") và bảng thuật ngữ Việt–Anh
+- 2-BAI-MAU-TIENG-VIET.md: các bài mẫu bản tiếng Việt (chuẩn 2e + 2f; có mẫu hình học và thống kê)
+- 3-BAI-MAU-TIENG-ANH.md: các bài mẫu bản tiếng Anh
 
 - WRITING-SPEC.md (đọc kĩ mục 2, 2b, 2c, 2d, 2e, 2f, 4 "Figures")
 - GLOSSARY.md

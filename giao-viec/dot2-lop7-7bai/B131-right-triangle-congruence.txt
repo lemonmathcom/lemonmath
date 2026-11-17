@@ -9,12 +9,15 @@ B131  lớp 7  id: right-triangle-congruence
       EN: Congruence conditions for right-angled triangles
 
 LƯU Ý RIÊNG CHO BÀI NÀY
-Bản Việt ĐÃ CÓ (file right-triangle-congruence-VI.md đính kèm, chưa đăng vì thiếu bản Anh; cứ coi là đúng toán). Việc của bạn: chỉ viết BẢN TIẾNG ANH, cùng cấu trúc, cùng số ví dụ, bài tập, hình, số liệu và đáp số, nhưng viết theo văn phong tiếng Anh tự nhiên (không dịch từng chữ). Dùng thuật ngữ trong GLOSSARY: bốn trường hợp bằng nhau của tam giác vuông gọi là LL (leg–leg), LA (leg–acute angle), HA (hypotenuse–acute angle), HL (hypotenuse–leg). Dòng lệnh :::diagram và :::graph chép NGUYÊN VĂN từ bản Việt, chỉ đổi alt và nhãn chữ. Nộp đúng 1 file: right-triangle-congruence.md (bản Anh). Đừng sửa toán, đề hay đáp số của bản Việt; nếu thấy sai hãy ghi riêng cuối tin nhắn khi báo lại.
+Bản Việt ĐÃ CÓ (file DANH-RIENG-B131-right-triangle-congruence-VI.md đính kèm, chưa đăng vì thiếu bản Anh; cứ coi là đúng toán). Việc của bạn: chỉ viết BẢN TIẾNG ANH, cùng cấu trúc, cùng số ví dụ, bài tập, hình, số liệu và đáp số, nhưng viết theo văn phong tiếng Anh tự nhiên (không dịch từng chữ). Dùng thuật ngữ trong GLOSSARY: bốn trường hợp bằng nhau của tam giác vuông gọi là LL (leg–leg), LA (leg–acute angle), HA (hypotenuse–acute angle), HL (hypotenuse–leg). Dòng lệnh :::diagram và :::graph chép NGUYÊN VĂN từ bản Việt, chỉ đổi alt và nhãn chữ. Nộp đúng 1 file: right-triangle-congruence.md (bản Anh). Đừng sửa toán, đề hay đáp số của bản Việt; nếu thấy sai hãy ghi riêng cuối tin nhắn khi báo lại.
 
 CÁCH CHIA SỨC: bài này làm được trong một lần hạn mức nếu bạn không bị ngắt giữa chừng. Viết bản Anh; mỗi bản viết xong hãy tự rà lại một lượt theo mục 12 bên dưới trước khi gửi.
 
-FILE ĐÍNH KÈM CẦN DÁN VÀO CHAT (bộ dinh-kem-lop7.zip do người điều phối gửi, giải nén rồi dán tất cả các file .md):
-- right-triangle-congruence-VI.md (bản Việt đã đạt, để viết bản Anh theo)
+FILE ĐÍNH KÈM CẦN DÁN VÀO CHAT (3 file người điều phối gửi kèm):
+- 1-QUY-CHUAN-WRITING-SPEC-GLOSSARY.md: quy chuẩn viết bài (đọc kĩ mục 2, 2b, 2c, 2d, 2e, 2f, 4 "Figures") và bảng thuật ngữ Việt–Anh
+- 2-BAI-MAU-TIENG-VIET.md: các bài mẫu bản tiếng Việt (chuẩn 2e + 2f; có mẫu hình học và thống kê)
+- 3-BAI-MAU-TIENG-ANH.md: các bài mẫu bản tiếng Anh
+- DANH-RIENG-B131-right-triangle-congruence-VI.md: bản Việt của chính bài B131, để viết bản Anh theo (chỉ tài khoản làm B131 có file này)
 
 - WRITING-SPEC.md (đọc kĩ mục 2, 2b, 2c, 2d, 2e, 2f, 4 "Figures")
 - GLOSSARY.md
