@@ -489,7 +489,7 @@
   /* ---------- remember the chosen language; gently offer Vietnamese ---------- */
   var langBtn = $('.lang-btn');
   if (langBtn) langBtn.addEventListener('click', function () { lsSet('lm-lang', langBtn.getAttribute('data-lang')); });
-  if (!isVi && $('#start-btn') && !lsGet('lm-lang') && /^vi/i.test(navigator.language || '')) {
+  if (!isVi && $('.hero') && !lsGet('lm-lang') && /^vi/i.test(navigator.language || '')) {
     var bar = d.createElement('div');
     bar.className = 'langbar';
     bar.innerHTML = '<span>Bạn muốn xem website bằng tiếng Việt?</span>';

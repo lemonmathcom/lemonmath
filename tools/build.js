@@ -459,11 +459,11 @@ function homePage(lang) {
   const g10 = grades.find((g) => g.n === 10);
   const levelBlock = (lvl) => {
     const gs = grades.filter((g) => g.level === lvl);
-    return '<section class="level lvl-' + lvl + '" aria-labelledby="lv-' + lvl + '"><div class="level-head"><h3 id="lv-' + lvl + '">' + esc(T.levels[lvl][0]) + '</h3><p>' + esc(T.levels[lvl][1]) + '</p></div>' +
+    return '<section class="level lvl-' + lvl + '" id="cap-' + lvl + '" aria-labelledby="lv-' + lvl + '"><div class="level-head"><h3 id="lv-' + lvl + '">' + esc(T.levels[lvl][0]) + '</h3><p>' + esc(T.levels[lvl][1]) + '</p></div>' +
       '<div class="gtiles">' + gs.map((g) => gradeTile(lang, d, g)).join('') + '</div></section>';
   };
   const body = '<section class="hero">\n<div class="hero-text">\n<p class="eyebrow">' + esc(T.eyebrow) + '</p>\n<h1>' + esc(T.h1) + '</h1>\n<p class="lead">' + esc(T.lead) + '</p>\n' +
-    '<p class="hero-actions"><a class="btn" href="#grades">' + esc(T.pickGrade) + '</a> <a class="btn btn-ghost" id="start-btn" href="' + relDir(d, gradeDir(lang, g10)) + '">' + esc(T.tryG10) + '</a></p>\n</div>\n' +
+    '<p class="hero-actions"><a class="btn" href="#grades">' + esc(T.pickGrade) + '</a></p>\n<nav class="level-jump" aria-label="' + esc(T.pickGrade) + '">' + ['primary', 'middle', 'high'].map((l) => '<a class="btn btn-ghost" href="#cap-' + l + '">' + esc(T.levels[l][0]) + '</a>').join('') + '</nav>\n</div>\n' +
     '<div class="hero-art" aria-hidden="true">' + mascot({ cls: 'hero-mascot', mood: 'wow' }) + '<span class="float f1">x²</span><span class="float f2">π</span><span class="float f3">∑</span><span class="float f4">√</span></div>\n</section>\n' +
     '<section class="off-promo" aria-labelledby="off-h"><div class="off-promo-text"><p class="eyebrow">' + esc(T.offEyebrow) + '</p><h2 id="off-h">' + esc(T.offH) + '</h2><p>' + esc(T.offLead) + '</p>' +
     '<ul>' + T.offPoints.map((x) => '<li>' + esc(x) + '</li>').join('') + '</ul>' +
