@@ -115,7 +115,7 @@
       var a = A[i] == null ? '' : String(A[i]), inner;
       if (it.y === 'mc') inner = '<div class="jn-opts c' + (it.c || 1) + '">' + it.o.map(function (o, k) { var L = 'ABCD'[k]; return '<button type="button" data-a="' + L + '" aria-pressed="' + (a === L) + '"><b>' + L + '.</b> <span>' + o + '</span></button>'; }).join('') + '</div>';
       else if (it.y === 'tf') inner = '<div class="jn-tf">' + it.o.map(function (o, k) {
-        return '<div class="jn-st" data-k="' + k + '"><p><b>' + 'abcd'[k] + ')</b> ' + o + '</p><span><button type="button" data-t="T" aria-pressed="' + (a.charAt(k) === 'T') + '">' + T.stT + '</button><button type="button" data-t="F" aria-pressed="' + (a.charAt(k) === 'F') + '">' + T.stF + '</button></span></div>';
+        return '<div class="jn-st" data-k="' + k + '"><div class="jn-stx"><b>' + 'abcd'[k] + ')</b> ' + o + '</div><div class="jn-stb"><button type="button" data-t="T" aria-pressed="' + (a.charAt(k) === 'T') + '">' + T.stT + '</button><button type="button" data-t="F" aria-pressed="' + (a.charAt(k) === 'F') + '">' + T.stF + '</button></div></div>';
       }).join('') + '</div>';
       else inner = '<p class="jn-sa"><input type="text" inputmode="decimal" maxlength="12" autocomplete="off" placeholder="' + T.ph + '" value="' + esc(a) + '"></p>';
       return partHead(i) + '<section class="jn-q" data-i="' + i + '"><div class="jn-stem"><b>' + T.q + ' ' + (i + 1) + '.</b> ' + it.q + '</div>' + inner + '</section>';
