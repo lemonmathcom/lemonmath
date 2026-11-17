@@ -18,10 +18,6 @@ FILE ĐÍNH KÈM CẦN DÁN VÀO CHAT (3 file người điều phối gửi kèm
 - 2-BAI-MAU-TIENG-VIET.md: các bài mẫu bản tiếng Việt (chuẩn 2e + 2f; có mẫu hình học và thống kê)
 - 3-BAI-MAU-TIENG-ANH.md: các bài mẫu bản tiếng Anh
 
-- WRITING-SPEC.md (đọc kĩ mục 2, 2b, 2c, 2d, 2e, 2f, 4 "Figures")
-- GLOSSARY.md
-- mau-THCS-VI.md và mau-THCS-EN.md (bài mẫu cùng cấp)
-- Bài mẫu mới nhất, viết đúng chuẩn 2e + 2f (xem trên lemonmath.com, mục Lớp 6): g6-add-subtract-fractions, ratio-percentage-problems, decimal-numbers; bài hình học xem thêm quadrilateral-perimeter-area, line-segments, intro-to-angles
 
 QUY TẮC VIẾT (bắt buộc)
 1. Đọc hết các file đính kèm trước khi viết. Chép đúng cú pháp các khung :::goals, :::definition, :::theorem, :::note, :::tip, :::warning, :::example, :::exercise (::hint, ::solution), :::terms, :::quiz (::mc, ::tf, ::sa, ::key) như bài mẫu.
