@@ -582,3 +582,177 @@
     show(vi ? 'Muốn mở Lemonmath như một ứng dụng? Bấm nút Chia sẻ rồi chọn “Thêm vào Màn hình chính”.' : 'Want Lemonmath as an app? Tap the Share button, then “Add to Home Screen”.', null);
   }
 })();
+
+/*
+ * Learn offline. A family saves a chapter or a whole grade on the device once (cache "lm-pack-<key>"),
+ * then every saved lesson opens with the internet off. Lists and sizes come from /offline-data/ (tools/build.js).
+ * What is saved is remembered in localStorage "lm-off": { <key>: { t, u, v, all, c: { <chapter id>: 1 } } }.
+ */
+(function () {
+  var d = document, n = navigator, vi = d.documentElement.lang === 'vi';
+  var ok = 'caches' in window && 'serviceWorker' in n && window.fetch && /^https?:$/.test(location.protocol);
+  var L = vi ? {
+    pitch: 'Học không cần mạng: tải bài về máy một lần, tắt Wi-Fi vẫn mở được.',
+    ch: 'Tải chương này', all: 'Tải cả ', how: 'Cách dùng', manage: 'Bài đã tải',
+    savedCh: 'Chương này đã nằm trên máy. Tắt mạng vẫn học được.', savedAll: ' đã nằm trên máy. Tắt mạng vẫn học được.',
+    going: 'Đang tải', pages: 'trang', keep: 'Cứ để trang này mở cho đến khi tải xong.',
+    fail: 'Mạng chập chờn nên chưa tải hết. Bấm lại để tải tiếp phần còn thiếu.', full: 'Máy không còn đủ chỗ trống để lưu.',
+    get: 'Tải về', got: 'Đã lưu', part: 'Đã lưu một phần', rest: 'Tải nốt', upd: 'Cập nhật bản mới', del: 'Xoá', lessons: 'bài',
+    used: 'Lemonmath đang dùng khoảng ', onDevice: ' trên máy này.', none: 'Trình duyệt này chưa lưu được bài để học offline. Bạn thử Chrome, Edge hoặc Safari bản mới nhé.',
+    chip: 'Mất mạng · bài đã tải vẫn mở được', miss: 'Chưa tải về máy', delAsk: 'Xoá bài đã lưu của ', other: 'Bản tiếng Anh', mb: ' MB'
+  } : {
+    pitch: 'Learn with the internet off: save the lessons once and they open with no connection.',
+    ch: 'Save this chapter', all: 'Save all of ', how: 'How it works', manage: 'Saved lessons',
+    savedCh: 'This chapter is saved on this device. It opens with no internet.', savedAll: ' is saved on this device. It opens with no internet.',
+    going: 'Saving', pages: 'pages', keep: 'Keep this page open until it finishes.',
+    fail: 'The connection dropped before everything was saved. Tap again to fetch the rest.', full: 'There is not enough free space on this device.',
+    get: 'Save', got: 'Saved', part: 'Partly saved', rest: 'Save the rest', upd: 'Update', del: 'Remove', lessons: 'lessons',
+    used: 'Lemonmath is using about ', onDevice: ' on this device.', none: 'This browser cannot save lessons for offline use. Try a recent Chrome, Edge or Safari.',
+    chip: 'No internet · saved lessons still open', miss: 'Not saved on this device', delAsk: 'Remove the saved lessons of ', other: 'Vietnamese edition', mb: ' MB'
+  };
+  var meta = function () { try { return JSON.parse(localStorage.getItem('lm-off') || '{}') || {}; } catch (e) { return {}; } };
+  var setMeta = function (m) { try { localStorage.setItem('lm-off', JSON.stringify(m)); } catch (e) {} };
+  var mb = function (b) { var x = b / 1048576; x = x < 10 ? Math.max(0.1, Math.round(x * 10) / 10) : Math.round(x); return String(x).replace('.', vi ? ',' : '.') + L.mb; };
+  var el = function (tag, cls, text) { var e = d.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  var indexP = null;
+  var index = function () { return indexP || (indexP = fetch('/offline-data/packs.json').then(function (r) { if (!r.ok) throw 0; return r.json(); })); };
+  var busy = {};
+
+  /* Save a pack. chapters: array of chapter ids, or null for the whole grade. force: fetch again what is already saved (an update). */
+  function download(key, chapters, force, onStep) {
+    if (busy[key]) return busy[key];
+    var p = Promise.all([index(), fetch('/offline-data/' + key + '.json', { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error('net'); return r.json(); }), caches.open('lm-pack-' + key)])
+      .then(function (a) {
+        var info = a[0][key], pack = a[1], cache = a[2], m = meta(), cur = m[key] || {};
+        if (cur.v && cur.v !== pack.v) force = true;               /* the lessons changed since they were saved */
+        var ids = chapters || Object.keys(pack.c);
+        if (force) Object.keys(cur.c || {}).forEach(function (id) { if (pack.c[id] && ids.indexOf(id) < 0) ids.push(id); });
+        var urls = pack.base.slice();
+        ids.forEach(function (id) { urls = urls.concat(pack.c[id] || []); });
+        var i = 0, done = 0, failed = 0, quota = false;
+        if (n.storage && n.storage.persist) n.storage.persist().catch(function () {});
+        function one() {
+          if (i >= urls.length || quota) return Promise.resolve();
+          var u = urls[i++];
+          return cache.match(u).then(function (hit) {
+            if (hit && !force) return;
+            return fetch(u, { cache: 'no-cache' }).then(function (res) {
+              if (!res.ok || res.redirected) { failed++; return; }
+              return cache.put(u, res);
+            });
+          }).catch(function (e) { failed++; if (e && e.name === 'QuotaExceededError') quota = true; })
+            .then(function () { done++; if (onStep) onStep(done, urls.length); return one(); });
+        }
+        return Promise.all([one(), one(), one(), one()]).then(function () {
+          if (quota) throw new Error('quota');
+          if (failed) throw new Error('net');
+          m = meta(); cur = m[key] || { c: {} };
+          var c = force ? {} : (cur.c || {});
+          ids.forEach(function (id) { c[id] = 1; });
+          m[key] = { t: info ? info.t : key, u: info ? info.u : '/', v: pack.v, c: c, all: Object.keys(pack.c).every(function (id) { return c[id]; }) };
+          setMeta(m);
+        });
+      });
+    busy[key] = p;
+    var clear = function () { delete busy[key]; };
+    p.then(clear, clear);
+    return p;
+  }
+  function remove(key) { var m = meta(); delete m[key]; setMeta(m); return caches.delete('lm-pack-' + key); }
+
+  function progress(host) {
+    var w = el('div', 'off-prog'), bar = el('div', 'bar'), fill = el('i'), txt = el('p', 'off-note', L.going + '…');
+    bar.appendChild(fill); w.appendChild(bar); w.appendChild(txt); host.appendChild(w);
+    return function (a, b) { fill.style.width = Math.round(100 * a / b) + '%'; txt.textContent = L.going + ' ' + a + '/' + b + ' ' + L.pages + '. ' + L.keep; };
+  }
+  function errText(e) { return e && e.message === 'quota' ? L.full : L.fail; }
+
+  /* ---- the box on grade, chapter and lesson pages ---- */
+  function box(b, idx) {
+    var key = b.getAttribute('data-pack'), ch = b.getAttribute('data-ch'), hub = b.getAttribute('data-hub'), info = idx[key];
+    if (!info) return;
+    var chInfo = ch && info.c.filter(function (x) { return x.id === ch; })[0];
+    function draw(msg) {
+      var m = meta()[key] || {}, haveCh = !!(ch && m.c && m.c[ch]), haveAll = !!m.all, stale = m.v && m.v !== info.v;
+      b.textContent = ''; b.hidden = false;
+      b.classList.toggle('saved', haveAll || haveCh);
+      var p = el('p', 'off-msg', haveAll ? info.t + L.savedAll : haveCh ? L.savedCh : L.pitch);
+      p.insertBefore(el('span', 'off-ico', haveAll || haveCh ? '✓' : '⬇'), p.firstChild);
+      b.appendChild(p);
+      var row = el('p', 'off-row');
+      function btn(label, chapters, force) {
+        var x = el('button', 'btn btn-outline', label); x.type = 'button';
+        x.addEventListener('click', function () {
+          row.hidden = true;
+          download(key, chapters, force, progress(b)).then(function () { draw(); }, function (e) { draw(errText(e)); });
+        });
+        row.appendChild(x);
+      }
+      if (stale) btn(L.upd, null, true);
+      else {
+        if (chInfo && !haveCh && !haveAll) btn(L.ch + ' · ' + mb(chInfo.w + info.a), [ch]);
+        if (!haveAll) btn(L.all + info.t + ' · ' + mb(info.w), null);
+      }
+      var a = el('a', 'off-how', haveAll || haveCh ? L.manage : L.how); a.href = hub; row.appendChild(a);
+      b.appendChild(row);
+      if (msg) b.appendChild(el('p', 'off-note off-err', msg));
+    }
+    draw();
+  }
+
+  /* ---- the list on the "Learn offline" page ---- */
+  function hub(h, idx) {
+    var lang = vi ? 'vi-' : 'en-';
+    var list = el('ul', 'off-list'), foot = el('p', 'off-note');
+    h.appendChild(list); h.appendChild(foot);
+    function usage() {
+      if (!(n.storage && n.storage.estimate)) return;
+      n.storage.estimate().then(function (e) { foot.textContent = e && e.usage > 200000 ? L.used + mb(e.usage) + L.onDevice : ''; }, function () {});
+    }
+    function row(key) {
+      var info = idx[key], li = el('li');
+      function draw(msg) {
+        var m = meta()[key] || {}, some = m.c && Object.keys(m.c).length, stale = m.v && m.v !== info.v;
+        li.textContent = ''; li.className = m.all ? 'saved' : '';
+        var a = el('a', 'off-name', info.t + (key.indexOf(lang) === 0 ? '' : ' (' + L.other + ')')); a.href = info.u; li.appendChild(a);
+        li.appendChild(el('span', 'off-meta', info.n + ' ' + L.lessons + ' · ' + mb(info.w) + (m.all ? ' · ✓ ' + L.got : some ? ' · ' + L.part : '')));
+        var acts = el('span', 'off-acts'); li.appendChild(acts);
+        function btn(label, fn, cls) { var x = el('button', 'btn ' + (cls || ''), label); x.type = 'button'; x.addEventListener('click', fn); acts.appendChild(x); }
+        function go(force) { return function () { acts.hidden = true; download(key, null, force, progress(li)).then(function () { draw(); usage(); }, function (e) { draw(errText(e)); usage(); }); }; }
+        if (stale) btn(L.upd, go(true));
+        else if (!m.all) btn(some ? L.rest : L.get, go(false));
+        if (some) btn(L.del, function () { if (window.confirm(L.delAsk + info.t + '?')) remove(key).then(function () { draw(); usage(); }); }, 'btn-outline');
+        if (msg) li.appendChild(el('p', 'off-note off-err', msg));
+      }
+      draw();
+      return li;
+    }
+    var saved = meta();
+    Object.keys(idx).filter(function (k) { return k.indexOf(lang) === 0 || saved[k]; }).forEach(function (k) { list.appendChild(row(k)); });
+    usage();
+  }
+
+  /* ---- no internet: say so, and grey out the links that are not saved ---- */
+  var chip = null;
+  function offline() {
+    var off = n.onLine === false;
+    d.body.classList.toggle('is-offline', off);
+    if (!off) { if (chip) { chip.remove(); chip = null; } [].forEach.call(d.querySelectorAll('a.off-miss'), function (a) { a.classList.remove('off-miss'); a.removeAttribute('title'); }); return; }
+    if (!chip) { chip = el('div', 'off-chip', L.chip); chip.setAttribute('role', 'status'); d.body.appendChild(chip); }
+    if (!ok) return;
+    [].slice.call(d.querySelectorAll('.main a[href], .sidebar a[href]'), 0, 500).forEach(function (a) {
+      if (a.origin !== location.origin || a.pathname === location.pathname) return;
+      caches.match(a.pathname, { ignoreSearch: true }).then(function (hit) { if (!hit) { a.classList.add('off-miss'); a.title = L.miss; } }, function () {});
+    });
+  }
+  window.addEventListener('online', offline); window.addEventListener('offline', offline);
+  offline();
+
+  var boxes = [].slice.call(d.querySelectorAll('.off-box')), h = d.getElementById('off-hub');
+  if (!boxes.length && !h) return;
+  if (!ok) { if (h) h.appendChild(el('p', 'soon-note', L.none)); return; }
+  index().then(function (idx) {
+    boxes.forEach(function (b) { box(b, idx); });
+    if (h) hub(h, idx);
+  }, function () {});
+})();

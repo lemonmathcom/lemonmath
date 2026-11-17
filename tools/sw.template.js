@@ -1,7 +1,10 @@
 /*
  * Lemonmath service worker (built into /sw.js by tools/build.js).
  * Lets the site be installed like an app and read again with no network:
- *   - pages: fresh from the network when online, the saved copy when offline;
+ *   - pages: fresh from the network when online, the saved copy when offline
+ *     (and when the network is too slow to answer within a few seconds);
+ *   - "lm-pack-<key>" caches hold the grades a family chose to download (assets/site.js fills them);
+ *     they are never trimmed, and a page read online refreshes its copy there;
  *   - styles, scripts, search index: network first, saved copy as the fallback;
  *   - fonts, pictures, KaTeX: saved copy first (they rarely change).
  */
@@ -19,7 +22,7 @@ self.addEventListener('install', function (e) {
 
 self.addEventListener('activate', function (e) {
   e.waitUntil(caches.keys().then(function (keys) {
-    return Promise.all(keys.filter(function (k) { return k.indexOf('lm-') === 0 && k !== C_CORE && k !== C_PAGES && k !== C_FILES; })
+    return Promise.all(keys.filter(function (k) { return k.indexOf('lm-') === 0 && k.indexOf('lm-pack-') !== 0 && k !== C_CORE && k !== C_PAGES && k !== C_FILES; })
       .map(function (k) { return caches.delete(k); }));
   }).then(function () { return self.clients.claim(); }));
 });
@@ -30,13 +33,30 @@ function trim(name, max) {
   });
 }
 function save(name, max, req, res) {
-  if (res && res.ok && res.type === 'basic') {
+  if (res && res.ok && res.type === 'basic' && !res.redirected) {
     var copy = res.clone();
     caches.open(name).then(function (c) { c.put(req, copy).then(function () { trim(name, max); }, function () {}); });
   }
   return res;
 }
 function saved(req) { return caches.match(req, { ignoreSearch: true }); }
+/* A page that belongs to a downloaded grade is refreshed inside that grade's cache; any other page goes to the recent-pages cache. */
+function savePage(req, res) {
+  if (!res || !res.ok || res.type !== 'basic' || res.redirected) return res;
+  var copy = res.clone();
+  caches.keys().then(function (keys) {
+    var packs = keys.filter(function (k) { return k.indexOf('lm-pack-') === 0; });
+    var next = function (i) {
+      if (i >= packs.length) return caches.open(C_PAGES).then(function (c) { return c.put(req, copy).then(function () { trim(C_PAGES, MAX_PAGES); }); });
+      return caches.open(packs[i]).then(function (c) {
+        return c.match(req, { ignoreSearch: true }).then(function (hit) { return hit ? c.put(new URL(req.url).pathname, copy) : next(i + 1); });
+      });
+    };
+    return next(0);
+  }).catch(function () {});
+  return res;
+}
+var SLOW = 3500; /* ms to wait for the network before showing the saved copy */
 
 self.addEventListener('fetch', function (e) {
   var req = e.request;
@@ -45,8 +65,16 @@ self.addEventListener('fetch', function (e) {
   if (url.origin !== self.location.origin) return;
 
   if (req.mode === 'navigate') {
-    e.respondWith(fetch(req).then(function (res) { return save(C_PAGES, MAX_PAGES, req, res); })
-      .catch(function () { return saved(req).then(function (r) { return r || caches.match('/offline.html'); }); }));
+    e.respondWith(saved(req).then(function (hit) {
+      var net = fetch(req).then(function (res) { return savePage(req, res); });
+      if (!hit) return net.catch(function () { return caches.match('/offline.html'); });
+      return new Promise(function (resolve) {
+        var done = false;
+        var t = setTimeout(function () { if (!done) { done = true; resolve(hit); } }, SLOW);
+        net.then(function (res) { if (!done) { done = true; clearTimeout(t); resolve(res.ok ? res : hit); } },
+          function () { if (!done) { done = true; clearTimeout(t); resolve(hit); } });
+      });
+    }));
     return;
   }
   if (/\.(woff2|png|jpe?g|svg|webp|gif)$/.test(url.pathname) || url.pathname.indexOf('/assets/katex/') === 0) {

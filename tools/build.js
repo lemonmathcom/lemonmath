@@ -19,6 +19,7 @@ const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
 const crypto = require('crypto');
+const zlib = require('zlib');
 const katex = require('katex');
 const { marked } = require('marked');
 const { render, esc, parseQuiz, optCols } = require('./render.js');
@@ -98,8 +99,8 @@ if (!/^https:\/\/[^\s/]+$/.test(site.url)) fail('data/curriculum.json: "url" ph�
 
 const LANGS = ['en', 'vi'];
 const LANG = {
-  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', exams: 'exams', teachers: 'teachers', htmlLang: 'en', locale: 'en-US', name: 'English' },
-  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', exams: 'on-thi', teachers: 'giao-vien', htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
+  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', htmlLang: 'en', locale: 'en-US', name: 'English' },
+  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
 };
 const LEVEL = (n) => (n <= 5 ? 'primary' : n <= 9 ? 'middle' : 'high');
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -147,6 +148,14 @@ const paperDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].paper);
 const parentsDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].parents);
 const weekDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].week);
 const teachersDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].teachers);
+const offlineDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].offline);
+/* Offline packs: one per language and grade (or exam track), e.g. "vi-g9", "en-sat". See writePwa(). */
+const packKey = (lang, g) => lang + '-' + (g.exam ? g.id : 'g' + g.n);
+const isFull = (g) => g.status === 'full' && g.chapters.some((c) => c.lessons.length);
+/* The "save for offline" box; assets/site.js fills it in (it stays hidden where the browser cannot save pages). */
+function offBox(lang, d, g, ch) {
+  return '<div class="off-box" data-pack="' + packKey(lang, g) + '"' + (ch ? ' data-ch="' + ch.id + '"' : '') + ' data-hub="' + relDir(d, offlineDir(lang)) + '" hidden></div>\n';
+}
 const abs = (dir) => site.url + '/' + (dir ? dir + '/' : '');
 const other = (lang) => (lang === 'en' ? 'vi' : 'en');
 
@@ -192,6 +201,15 @@ function loadLessons() {
   });
 }
 
+function offlinePage(lang, page) {
+  const T = UI[lang], d = offlineDir(lang), alt = offlineDir(other(lang));
+  const body = '<article class="lesson about"><nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n<h1>' + esc(page.meta.title) + '</h1>\n' +
+    '<p class="lead">' + esc(page.meta.lead || page.meta.description) + '</p>\n' +
+    '<section id="off-hub" class="off-hub" aria-labelledby="off-hub-h"><h2 id="off-hub-h">' + esc(T.offHubH) + '</h2><noscript><p>' + esc(T.offNoJs) + '</p></noscript></section>\n' +
+    '<div class="prose">\n' + resolveLinks(page.rendered.html, d, lang, 'offline') + '\n</div></article>';
+  put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: page.meta.title + ' | ' + site.name, description: page.meta.description, body, math: false,
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: page.meta.title, url: abs(d) }])] }), page.modified);
+}
 function loadPage(lang, name) {
   const rel = 'content/' + lang + '/' + name + '.md';
   const file = path.join(ROOT, rel);
@@ -339,7 +357,7 @@ function shell(o) {
 
   const switchLink = '<a class="lang-btn" href="' + relDir(d, o.altDir) + '" hreflang="' + altLang + '" lang="' + altLang + '" data-lang="' + altLang + '" title="' + esc(T.switchTitle) + '">' + icon('globe', 18) + '<span>' + LANG[altLang].name + '</span><b class="lang-short" aria-hidden="true">' + altLang.toUpperCase() + '</b></a>';
 
-  const mainLinks = '<a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsNav) + '</a><a href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paper) + '</a><a href="' + relDir(d, parentsDir(lang)) + '">' + esc(T.parents) + '</a><a href="' + relDir(d, teachersDir(lang)) + '">' + esc(T.teachers) + '</a><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a>';
+  const mainLinks = '<a href="' + relDir(d, homeDir(lang)) + '#grades">' + esc(T.allGrades) + '</a><a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsNav) + '</a><a href="' + relDir(d, paperDir(lang)) + '">' + esc(T.paper) + '</a><a href="' + relDir(d, offlineDir(lang)) + '">' + esc(T.offlineNav) + '</a><a href="' + relDir(d, parentsDir(lang)) + '">' + esc(T.parents) + '</a><a href="' + relDir(d, teachersDir(lang)) + '">' + esc(T.teachers) + '</a><a href="' + relDir(d, aboutDir(lang)) + '">' + esc(T.about) + '</a>';
   // the drawer (phones, tablets held upright): the main menu first, then the lessons of this grade
   const drawerTop = '<div class="side-top"><span>Menu</span><button id="menu-close" class="icon-btn side-close" type="button" aria-label="' + esc(T.closeMenu) + '" hidden>✕</button></div>\n<nav class="side-main" aria-label="' + esc(T.mainNav) + '">' + mainLinks + '</nav>\n';
   const side = (o.side
@@ -444,6 +462,9 @@ function homePage(lang) {
   const body = '<section class="hero">\n<div class="hero-text">\n<p class="eyebrow">' + esc(T.eyebrow) + '</p>\n<h1>' + esc(T.h1) + '</h1>\n<p class="lead">' + esc(T.lead) + '</p>\n' +
     '<p class="hero-actions"><a class="btn" id="start-btn" href="' + relDir(d, gradeDir(lang, g10)) + '">' + esc(T.startG10) + '</a> <a class="btn btn-ghost" href="#grades">' + esc(T.browse) + '</a></p>\n</div>\n' +
     '<div class="hero-art" aria-hidden="true">' + mascot({ cls: 'hero-mascot', mood: 'wow' }) + '<span class="float f1">x²</span><span class="float f2">π</span><span class="float f3">∑</span><span class="float f4">√</span></div>\n</section>\n' +
+    '<section class="off-promo" aria-labelledby="off-h"><div class="off-promo-text"><p class="eyebrow">' + esc(T.offEyebrow) + '</p><h2 id="off-h">' + esc(T.offH) + '</h2><p>' + esc(T.offLead) + '</p>' +
+    '<ul>' + T.offPoints.map((x) => '<li>' + esc(x) + '</li>').join('') + '</ul>' +
+    '<p><a class="btn" href="' + relDir(d, offlineDir(lang)) + '">' + esc(T.offCta) + '</a></p></div></section>\n' +
     '<section id="grades" class="grades" aria-labelledby="grades-h"><h2 id="grades-h">' + esc(T.pickGrade) + '</h2>\n' + ['primary', 'middle', 'high'].map(levelBlock).join('\n') + '</section>\n' +
     '<section class="features pillars" aria-labelledby="pillars-h"><h2 id="pillars-h">' + esc(T.pillarsH) + '</h2><div class="feat-grid">' +
     T.pillars.map((f, i) => '<div class="feat"><span class="feat-ico loop-n">' + (i + 1) + '</span><h3>' + esc(f[1]) + '</h3><p>' + esc(f[2]) + '</p></div>').join('') + '</div></section>\n' +
@@ -471,7 +492,7 @@ function gradePage(lang, g) {
   const upCrumb = g.exam ? '<span aria-hidden="true">›</span><a href="' + relDir(d, examsDir(lang)) + '">' + esc(T.examsNav) + '</a>' : '';
   const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a>' + upCrumb + '</nav>\n' +
     '<header class="gradehead"><div><p class="eyebrow">' + esc(T.levels[g.level][0]) + '</p><h1>' + esc(gName(lang, g)) + '</h1>' +
-    '<p class="lead">' + esc(g.exam ? g.facts[lang] + ' ' + g.summary[lang] : full ? T.gradeFullLead(total, g.chapters.length, lc(g.chapters[0][lang]), lc(g.chapters.filter((c) => c.lessons.length).slice(-1)[0][lang])) : T.gradeRoadmapLead(g.chapters.length)) + '</p></div>' + mascot({ cls: 'grade-mascot', mood: full ? 'happy' : 'wow' }) + '</header>\n' + pageActions(lang, d) +
+    '<p class="lead">' + esc(g.exam ? g.facts[lang] + ' ' + g.summary[lang] : full ? T.gradeFullLead(total, g.chapters.length, lc(g.chapters[0][lang]), lc(g.chapters.filter((c) => c.lessons.length).slice(-1)[0][lang])) : T.gradeRoadmapLead(g.chapters.length)) + '</p></div>' + mascot({ cls: 'grade-mascot', mood: full ? 'happy' : 'wow' }) + '</header>\n' + pageActions(lang, d) + (full ? offBox(lang, d, g) : '') +
     (full ? '' : g.exam ? '<p class="soon-note">' + esc(T.examSoonNote) + '</p>\n' : '<p class="soon-note">' + esc(T.soonNote) + ' <a href="' + relDir(d, gradeDir(lang, grades.find((x) => x.status === 'full'))) + '">' + esc(T.tryG10) + '</a></p>\n') +
     '<div class="cards">' + g.chapters.map((ch) => chapterCard(lang, d, ch, full && ch.lessons.length > 0)).join('\n') + '</div>\n' +
     '<nav class="pager" aria-label="' + esc(T.gradeNav) + '">' +
@@ -498,7 +519,7 @@ function chapterPage(lang, ch) {
     '<span class="ll-meta">' + (l.content[lang].meta.minutes ? l.content[lang].meta.minutes + ' ' + T.min : '') + '</span>' +
     '<span class="sr" data-done-label hidden> ' + T.completed + '</span></a></li>').join('\n');
   const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a><span aria-hidden="true">›</span><a href="' + relDir(d, gradeDir(lang, g)) + '">' + esc(gName(lang, g)) + '</a></nav>\n' +
-    '<header class="chaphead"><span class="cicon big">' + icon(ch.icon, 40) + '</span><div><p class="eyebrow">' + esc(T.chapterN(ch.number)) + '</p><h1>' + esc(ch[lang]) + '</h1><p class="lead">' + esc(ch.summary[lang]) + '</p></div></header>\n' + pageActions(lang, d) +
+    '<header class="chaphead"><span class="cicon big">' + icon(ch.icon, 40) + '</span><div><p class="eyebrow">' + esc(T.chapterN(ch.number)) + '</p><h1>' + esc(ch[lang]) + '</h1><p class="lead">' + esc(ch.summary[lang]) + '</p></div></header>\n' + pageActions(lang, d) + offBox(lang, d, g, ch) +
     '<ol class="lesson-list">\n' + items + '\n</ol>';
   const title = seoTitle(g.exam ? ch[lang] + ' | ' + g[lang] : T.chapterTitle(ch.number, ch[lang], g.n));
   put(lang, d, alt, shell({
@@ -553,7 +574,7 @@ function lessonPage(lang, ls) {
     '<h1>' + esc(meta.title) + '</h1>\n<p class="meta">' + metaLine + '</p>\n' + (meta.type === 'paper' ? paperHead(lang, meta) : '') +
     pageActions(lang, d, { lesson: true, why: true, before: ls.ws && ls.ws[lang] ? '<a class="btn btn-outline" href="' + WS_DIR[lang] + '/">🖨 ' + esc(isPaper ? WS_LABEL.paper[lang] : WS_LABEL[lang]) + '</a> ' : '' }) + toc + '\n' +
     '<div class="prose">\n' + resolveLinks(r.html, d, lang, C.rel) + '\n</div>\n' +
-    '<div class="lesson-actions"><button id="done-btn" class="btn btn-outline" type="button" aria-pressed="false" data-lesson="' + ls.id + '" data-on="' + esc(T.markedDone) + '" data-off="' + esc(T.markDone) + '" hidden><span class="chk" aria-hidden="true"></span><span class="done-text">' + esc(T.markDone) + '</span></button></div>\n' +
+    '<div class="lesson-actions"><button id="done-btn" class="btn btn-outline" type="button" aria-pressed="false" data-lesson="' + ls.id + '" data-on="' + esc(T.markedDone) + '" data-off="' + esc(T.markDone) + '" hidden><span class="chk" aria-hidden="true"></span><span class="done-text">' + esc(T.markDone) + '</span></button></div>\n' + offBox(lang, d, g, ch) +
     '</article>\n' + pager;
   const learning = {
     '@context': 'https://schema.org', '@type': 'LearningResource', name: meta.title, description: meta.description, url: abs(d),
@@ -737,9 +758,12 @@ function offlineHtml() {
     'a,button{color:#B45309;font:inherit;font-weight:800}button{background:#FFD43B;color:#2B2A33;border:2px solid #2B2A33;border-radius:999px;padding:8px 22px;cursor:pointer;margin:.6em 0}h1{font-size:1.7rem;margin:.2em 0}p{margin:.4em 0}svg{width:120px;height:120px}hr{border:0;border-top:2px dashed #EFE6B8;margin:1.2em auto;width:60%}\n@media (prefers-color-scheme:dark){body{background:#17161C;color:#F4F1E8}a{color:#FDBA74}hr{border-color:#3A3647}}\n</style>\n</head>\n<body>\n<main>\n' +
     mascot({ mood: 'wow' }) + '\n<h1>Bạn đang không có mạng</h1>\n<p>Trang này chưa được lưu trên máy. Những bài bạn đã mở trước đó vẫn đọc lại được.</p>\n<p><a href="/vi/">Về trang chủ Lemonmath</a></p>\n' +
     '<hr>\n<h1 lang="en">You are offline</h1>\n<p lang="en">This page has not been saved on your device yet. Lessons you opened before can still be read.</p>\n<p lang="en"><a href="/">Go to the Lemonmath home page</a></p>\n' +
-    '<p><button type="button" onclick="location.reload()">Thử lại · Try again</button></p>\n</main>\n</body>\n</html>\n';
+    '<p><button type="button" onclick="location.reload()">Thử lại · Try again</button></p>\n' +
+    '<div id="saved" hidden><hr>\n<h1>Bài đã tải về máy · Saved on this device</h1>\n<p id="saved-list"></p></div>\n' +
+    '<script>(function(){try{var m=JSON.parse(localStorage.getItem("lm-off")||"{}"),k=Object.keys(m),h="";k.forEach(function(x){if(m[x]&&m[x].u){var a=document.createElement("a");a.href=m[x].u;a.textContent=m[x].t||x;h+=a.outerHTML+"<br>"}});if(h){document.getElementById("saved-list").innerHTML=h;document.getElementById("saved").hidden=false}}catch(e){}})()</script>\n</main>\n</body>\n</html>\n';
 }
 
+const T_ch = (lang, ch) => UI[lang].chapterN(ch.number) + ': ' + ch[lang];
 function writePwa() {
   const icons = [
     { src: '/assets/icons/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
@@ -763,8 +787,54 @@ function writePwa() {
   });
   fs.writeFileSync(path.join(OUT, 'offline.html'), offlineHtml());
 
+  /*
+   * Offline packs. For every language and every grade (or exam track) that has lessons:
+   *   /offline-data/<key>.json  { v, base: [urls], c: { <chapter id>: [urls] } }   what to save
+   *   /offline-data/packs.json  { <key>: { t, u, v, w, n, c: [{ id, t, w, n }] } } names and download sizes (w = bytes over the wire)
+   * A pack holds the grade page, the chapter pages, the lessons and their printable sheets, plus the pictures and maths fonts they use.
+   */
+  const gz = (file) => zlib.gzipSync(fs.readFileSync(file), { level: 6 }).length;
+  const fileOf = (u) => path.join(OUT, u.endsWith('/') ? u + 'index.html' : u);
+  const katexFonts = fs.readdirSync(path.join(OUT, 'assets', 'katex', 'fonts')).filter((f) => f.endsWith('.woff2')).map((f) => '/assets/katex/fonts/' + f);
+  const index = {};
+  fs.mkdirSync(path.join(OUT, 'offline-data'), { recursive: true });
+  LANGS.forEach((lang) => {
+    tracks.filter(isFull).forEach((g) => {
+      const key = packKey(lang, g), h = crypto.createHash('sha1');
+      const assets = new Set(katexFonts);
+      let wire = 0;
+      const take = (dir) => {
+        const u = '/' + dir + '/', f = fileOf(u);
+        if (!fs.existsSync(f)) return null;
+        const html = fs.readFileSync(f, 'utf8');
+        h.update(u); h.update(html);
+        html.replace(/src="([^"#?]+\.(?:svg|png|jpe?g|webp|gif))"/g, (m, src) => { if (!/^[a-z]+:/.test(src)) assets.add(px.join('/', dir, src)); return m; });
+        const w = gz(f); wire += w;
+        return { u, w };
+      };
+      const base = [take(gradeDir(lang, g))].filter(Boolean).map((x) => x.u);
+      const c = {}, rows = [];
+      g.chapters.filter((ch) => ch.lessons.length).forEach((ch) => {
+        const pages = [take(chapterDir(lang, ch))];
+        ch.lessons.forEach((ls) => {
+          pages.push(take(lessonDir(lang, ls)));
+          if (ls.ws && ls.ws[lang]) pages.push(take(px.join(lessonDir(lang, ls), WS_DIR[lang])));
+        });
+        const ok = pages.filter(Boolean);
+        c[ch.id] = ok.map((x) => x.u);
+        rows.push({ id: ch.id, t: T_ch(lang, ch), w: ok.reduce((a, x) => a + x.w, 0), n: ch.lessons.length });
+      });
+      let aw = 0;
+      [...assets].forEach((a) => { const f = fileOf(a); if (fs.existsSync(f)) aw += fs.statSync(f).size; else assets.delete(a); });
+      const v = h.digest('hex').slice(0, 10);
+      fs.writeFileSync(path.join(OUT, 'offline-data', key + '.json'), JSON.stringify({ v, base: base.concat([...assets]), c }));
+      index[key] = { t: g.exam ? g[lang] : (lang === 'vi' ? 'Toán lớp ' + g.n : 'Grade ' + g.n + ' maths'), u: '/' + gradeDir(lang, g) + '/', v, w: wire + aw, a: aw, n: rows.reduce((a, r) => a + r.n, 0), c: rows };
+    });
+  });
+  fs.writeFileSync(path.join(OUT, 'offline-data', 'packs.json'), JSON.stringify(index));
+
   // Files saved on the device at install time, so the app opens with no network.
-  const core = ['/', '/vi/', '/offline.html', '/assets/style.css', '/assets/print.css', '/assets/site.js', '/assets/fonts.css', '/assets/katex/katex.min.css',
+  const core = ['/', '/vi/', '/offline.html', '/' + offlineDir('en') + '/', '/' + offlineDir('vi') + '/', '/offline-data/packs.json', '/assets/style.css', '/assets/print.css', '/assets/site.js', '/assets/fonts.css', '/assets/katex/katex.min.css',
     '/assets/fonts/nunito-latin-wght-normal.woff2', '/assets/fonts/nunito-vietnamese-wght-normal.woff2',
     '/assets/fonts/baloo-2-latin-800-normal.woff2', '/assets/fonts/baloo-2-vietnamese-800-normal.woff2',
     '/assets/icons/icon-192.png', '/search-index.json', '/vi/search-index.json'];
@@ -809,8 +879,8 @@ function report() {
 function main() {
   loadLessons();
   const about = {};
-  const paper = {}, parents = {}, week = {}, teach = {};
-  LANGS.forEach((l) => { about[l] = loadPage(l, 'about'); paper[l] = loadPage(l, 'learn-on-paper'); parents[l] = loadPage(l, 'parents'); week[l] = loadPage(l, 'this-week'); teach[l] = loadPage(l, 'teachers'); });
+  const paper = {}, parents = {}, week = {}, teach = {}, offline = {};
+  LANGS.forEach((l) => { about[l] = loadPage(l, 'about'); paper[l] = loadPage(l, 'learn-on-paper'); parents[l] = loadPage(l, 'parents'); week[l] = loadPage(l, 'this-week'); teach[l] = loadPage(l, 'teachers'); offline[l] = loadPage(l, 'offline'); });
   const examsIntro = {};
   LANGS.forEach((l) => { examsIntro[l] = loadPage(l, 'exams'); });
   if (errors.length) report();
@@ -832,6 +902,7 @@ function main() {
     if (parents[lang]) aboutPage(lang, parents[lang], parentsDir);
     if (week[lang]) aboutPage(lang, week[lang], weekDir);
     if (teach[lang]) teachersPage(lang, teach[lang]);
+    if (offline[lang]) offlinePage(lang, offline[lang]);
     searchIndex(lang);
   });
 
