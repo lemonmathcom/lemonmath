@@ -58,8 +58,9 @@ Bối cảnh: site là trang **tĩnh** trên GitHub Pages (repo `lemonmathcom/le
    - Hiện site do GitHub Pages phục vụ trực tiếp; bạn mới chỉ dùng Cloudflare *Analytics*, chưa phải proxy.
    - Nếu trỏ DNS qua Cloudflare và bật đám mây cam (proxy), bạn được: **HTTP header bảo mật thật** (HSTS mạnh, `X-Frame-Options`/`frame-ancestors` chống nhúng khung, `X-Content-Type-Options: nosniff`) qua Transform Rules — những thứ GitHub Pages không cho đặt; chống DDoS; tường lửa WAF cơ bản.
    - Đây là nâng cấp lớn nhất về mặt hạ tầng cho một trang tĩnh.
+   - **Hướng dẫn từng bước đã soạn sẵn: `giao-viec/HUONG-DAN-CLOUDFLARE.md`.**
 
-9. **Ghim GitHub Actions theo SHA** (chống rủi ro chuỗi cung ứng): thay `actions/checkout@v6` bằng `actions/checkout@<sha>`… Tùy chọn; workflow hiện đã ở mức quyền tối thiểu (`contents: read`) nên rủi ro thấp.
+9. ~~**Ghim GitHub Actions theo SHA**~~ — **đã làm** (trong `.github/workflows/deploy.yml`, PR bảo mật): cả 5 Action đã ghim theo SHA kèm chú thích phiên bản.
 
 10. **Thêm `/.well-known/security.txt`** để người phát hiện lỗ hổng biết báo cho ai. Cần một email liên hệ; nếu bạn cho mình địa chỉ, mình thêm vào build.
 
