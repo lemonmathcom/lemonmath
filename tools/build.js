@@ -259,6 +259,43 @@ const ANALYTICS = (function () {
   return out;
 })();
 
+/*
+ * Content-Security-Policy đặt qua thẻ <meta> (GitHub Pages không cho đặt HTTP header riêng).
+ * Tự dựng từ cấu hình trong data/curriculum.json: chỉ mở đúng origin của Firebase (lớp trực
+ * tiếp) và của công cụ thống kê đang bật, còn lại khóa về 'self'. script/style phải để
+ * 'unsafe-inline' vì trang có vài <script>/style nội tuyến (bootstrap theme, ld+json, gtag)
+ * mà site tĩnh không gắn nonce được; bù lại object-src, base-uri, connect-src bị siết chặt.
+ * (frame-ancestors bị trình duyệt bỏ qua khi ở trong <meta> — chống nhúng khung thật sự cần
+ * một HTTP header, xem CHECKLIST-BAO-MAT.md.)
+ */
+const CSP = (function () {
+  const a = site.analytics || {};
+  const script = ["'self'", "'unsafe-inline'"];
+  const connect = ["'self'"];
+  const img = ["'self'", 'data:'];
+  const fb = site.live && site.live.firebase;
+  if (fb) { try { connect.push(new URL(fb).origin); } catch (e) { /* đã kiểm tra URL ở nơi khác */ } }
+  if (a.cloudflare) { script.push('https://static.cloudflareinsights.com'); connect.push('https://cloudflareinsights.com'); }
+  if (a.ga4) {
+    script.push('https://www.googletagmanager.com');
+    connect.push('https://www.google-analytics.com', 'https://region1.google-analytics.com');
+    img.push('https://www.google-analytics.com', 'https://www.googletagmanager.com');
+  }
+  const policy = [
+    "default-src 'self'",
+    "base-uri 'self'",
+    "object-src 'none'",
+    "frame-ancestors 'none'",
+    "form-action 'self'",
+    'img-src ' + img.join(' '),
+    "font-src 'self'",
+    "style-src 'self' 'unsafe-inline'",
+    'script-src ' + script.join(' '),
+    'connect-src ' + connect.join(' ')
+  ].join('; ');
+  return '<meta http-equiv="Content-Security-Policy" content="' + policy + '">';
+})();
+
 function resolveLinks(html, dir, lang, where) {
   const assetsPrefix = px.relative(dir || '.', 'assets') + '/';
   html = html.replace(/(src|href)="\/?assets\//g, (m, attr) => attr + '="' + assetsPrefix);
@@ -330,6 +367,8 @@ function shell(o) {
   const head = [
     '<meta charset="utf-8">',
     '<meta name="viewport" content="width=device-width, initial-scale=1">',
+    CSP,
+    '<meta name="referrer" content="strict-origin-when-cross-origin">',
     '<title>' + esc(o.title) + '</title>',
     '<meta name="description" content="' + esc(o.description) + '">',
     o.noindex ? '<meta name="robots" content="noindex,follow">' : '',
