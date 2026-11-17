@@ -15,27 +15,52 @@ Công cụ cần một máy chủ thời gian thực. Dùng Firebase Realtime Da
     ".read": false,
     ".write": false,
     "live": {
+      ".read": false,
+      ".write": false,
       "$room": {
-        ".read": true,
-        ".write": "!newData.exists()",
-        ".validate": "$room.matches(/^[0-9]{6}$/)",
+        ".read": "$room.matches(/^[0-9]{6}$/)",
+        ".write": "$room.matches(/^[0-9]{6}$/) && !newData.exists()",
         "meta": {
-          ".write": true,
-          ".validate": "newData.hasChildren(['state', 'bank', 'ids'])"
+          ".write": "$room.matches(/^[0-9]{6}$/)",
+          ".validate": "newData.hasChildren(['state', 'bank', 'ids'])",
+          "state": { ".validate": "newData.isString() && newData.val().matches(/^(lobby|run|end)$/)" },
+          "bank":  { ".validate": "newData.isString() && newData.val().length <= 40" },
+          "lang":  { ".validate": "newData.isString() && newData.val().matches(/^(vi|en)$/)" },
+          "ids":   { ".validate": "newData.hasChildren()", "$i": { ".validate": "newData.isNumber()" } },
+          "min":   { ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 600" },
+          "left":  { ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 36000" },
+          "title": { ".validate": "newData.isString() && newData.val().length <= 120" },
+          "t":     { ".validate": "newData.isNumber()" },
+          "$other": { ".validate": false }
         },
         "p": {
+          ".write": "$room.matches(/^[0-9]{6}$/)",
           "$pid": {
-            ".write": true,
-            ".validate": "newData.child('n').isString() && newData.child('n').val().length <= 40"
+            ".validate": "$pid.matches(/^[A-Za-z0-9]{1,24}$/) && newData.child('n').isString() && newData.child('n').val().length <= 40",
+            "n": { ".validate": "newData.isString() && newData.val().length <= 40" },
+            "a": {
+              ".validate": "newData.hasChildren()",
+              "$q": { ".validate": "(newData.isString() && newData.val().length <= 60) || newData.isNumber()" }
+            },
+            "d": { ".validate": "newData.isBoolean()" },
+            "t": { ".validate": "newData.isNumber()" },
+            "$other": { ".validate": false }
           }
-        }
+        },
+        "$other": { ".validate": false }
       }
     }
   }
 }
 ```
 
-Ý nghĩa: không ai liệt kê được danh sách lớp; chỉ người biết mã 6 số mới đọc và ghi được vào lớp đó; ai cũng xoá được một lớp nếu biết mã (để nút Đóng lớp hoạt động).
+Ý nghĩa và điểm siết chặt so với bản cũ:
+- Không ai liệt kê được danh sách lớp; chỉ người biết mã 6 số mới đọc/ghi được vào lớp đó; ai biết mã cũng xoá được lớp (để nút Đóng lớp chạy) — như cũ.
+- **Chặn nhồi dữ liệu làm cạn quota (phòng DoS):** mọi trường đều có kiểu và giới hạn độ dài (tên ≤ 40, mỗi đáp án ≤ 60 kí tự, tiêu đề ≤ 120…). Không thể ghi một khối dữ liệu khổng lồ để làm đầy 1 GB / 10 GB tải về của gói miễn phí.
+- **Chặn ghi rác:** trong mỗi lớp chỉ cho phép hai nhánh `meta` và `p`; mỗi học sinh chỉ có `n/a/d/t`; mã học sinh phải là chữ-số ≤ 24 kí tự. Mọi khoá lạ bị từ chối.
+- **Chặn `meta` sai hình:** `state` chỉ nhận lobby/run/end, `lang` chỉ vi/en, thời gian có trần hợp lý.
+
+> **Giới hạn còn lại (quan trọng, cần biết):** vì công cụ chạy không đăng nhập (REST thuần, không SDK), bí mật duy nhất bảo vệ một lớp là **mã 6 số**. Người nào đoán/dò trúng mã của một lớp đang mở vẫn có thể đọc tên + đáp án của học sinh trong lớp đó, hoặc sửa đề/trạng thái lớp. Quy tắc trên không xoá được rủi ro này. Lớp chỉ tồn tại trong lúc đang học và bị xoá khi Đóng lớp, nên cửa sổ rủi ro hẹp, nhưng để bịt hẳn cần bật **Firebase App Check** (chỉ cho phép yêu cầu phát ra từ chính trang lemonmath.com, chặn curl/bot dò mã) — xem CHECKLIST-BAO-MAT.md mục Firebase. Việc này cần sửa thêm phần gọi REST trong assets/live.js và assets/teacher.js; nhờ tài khoản Pro làm khi bạn sẵn sàng.
 
 ## Tài khoản Pro làm khi nhận địa chỉ
 
