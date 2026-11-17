@@ -236,4 +236,4 @@ function paperSheet(o, L, p) {
   return { html, dir: L.dir, count: p.exercises.length + p.quiz.length };
 }
 
-module.exports = { worksheet, WS_DIR: { vi: T.vi.dir, en: T.en.dir }, WS_LABEL: { vi: 'In phiếu tự học', en: 'Print a self-study sheet', paper: { vi: 'In đề kèm đáp án (dạng phiếu)', en: 'Print the paper with answers' } } };
+module.exports = { worksheet, qrSvg, WS_DIR: { vi: T.vi.dir, en: T.en.dir }, WS_LABEL: { vi: 'In phiếu tự học', en: 'Print a self-study sheet', paper: { vi: 'In đề kèm đáp án (dạng phiếu)', en: 'Print the paper with answers' } } };

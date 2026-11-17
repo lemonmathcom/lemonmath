@@ -3,6 +3,17 @@ title: Góc giáo viên Toán
 description: Công cụ miễn phí cho thầy cô dạy Toán, tạo đề kiểm tra nhiều mã đề từ ngân hàng câu hỏi và phân tích điểm của lớp kèm lời nhận xét cho từng học sinh.
 ---
 
+## Cho cả lớp làm bài trực tiếp
+
+Trong công cụ tạo đề ở trên có nút **Cho cả lớp làm trực tiếp**. Thầy cô chọn bài, chọn số câu nhiều lựa chọn (tối đa 30) rồi bấm nút. Màn hình chuyển sang chế độ trình chiếu, hiện địa chỉ, mã QR và một mã lớp gồm 6 chữ số.
+
+1. Học sinh mở địa chỉ trên bằng điện thoại, nhập mã lớp và tên. Tên từng em hiện lên màn chiếu ngay khi vào.
+2. Thầy cô đặt thời gian rồi bấm **Bắt đầu**. Cả lớp làm bài cùng lúc; em nào làm đến câu nào, ô của câu đó sáng lên trên màn chiếu.
+3. Hết giờ hoặc khi thầy cô bấm **Kết thúc**, màn chiếu hiện điểm từng em, điểm trung bình của lớp và những câu sai nhiều nhất. Bấm vào số câu để chiếu câu hỏi và xem lớp đã chọn những phương án nào.
+4. Trên điện thoại, mỗi em nhận điểm, lời nhận xét của Lemon và lời giải thích từng câu.
+
+Trong lúc làm bài, màn chiếu chỉ cho biết câu nào đã làm, chưa hiện đúng sai. Thầy cô có thể bật **Hiện đúng sai** hoặc **Ẩn tên** bất cứ lúc nào. Xong bài, nút **Viết nhận xét gửi phụ huynh** đưa bảng điểm xuống công cụ phân tích điểm ở trên.
+
 ## Những thứ khác thầy cô dùng được ngay
 
 Ngoài hai công cụ ở trên, cả website này đều có thể dùng trên lớp hoặc giao về nhà.
@@ -18,7 +29,7 @@ Lemonmath được làm ra để giúp học sinh tự học tốt hơn, không 
 
 ## Về dữ liệu
 
-Đề thầy cô tạo và điểm thầy cô nhập chỉ được xử lí ngay trên máy của thầy cô. Lemonmath không nhận và không lưu tên hay điểm của học sinh.
+Đề thầy cô tạo và điểm thầy cô nhập vào công cụ phân tích chỉ được xử lí ngay trên máy của thầy cô. Riêng khi cho cả lớp làm trực tiếp, tên học sinh nhập và câu trả lời được giữ tạm trên máy chủ trong lúc lớp đang mở, và bị xoá khi thầy cô bấm Đóng lớp. Thầy cô có thể dặn học sinh chỉ nhập tên gọi hoặc số thứ tự.
 
 ## Góp ý
 

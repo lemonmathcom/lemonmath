@@ -39,6 +39,7 @@ const UI = {
       ['Look back', 'Read the feedback: your level, likely causes of lost marks and what to do next. Then tick the lesson off.']
     ],
     loopTeach: 'Are you a teacher? Build a test from our question bank and analyse class scores in the',
+    joinTitle: 'Join your class', joinDesc: 'Enter the class code your teacher shows on the screen to take the test together with your class.',
     teachTitle: 'Tools for maths teachers', noJs: 'These tools need JavaScript. Please turn it on in your browser.',
     home: 'Home',
     breadcrumb: 'Breadcrumb',
@@ -145,6 +146,7 @@ const UI = {
       ['Nhìn lại', 'Đọc nhận xét: mức điểm, nguyên nhân mất điểm và việc cần làm tiếp. Rồi đánh dấu bài đã học xong.']
     ],
     loopTeach: 'Thầy cô dạy Toán? Tạo đề từ ngân hàng câu hỏi và phân tích điểm của lớp tại',
+    joinTitle: 'Vào lớp làm bài', joinDesc: 'Nhập mã lớp thầy cô chiếu trên màn hình để làm bài kiểm tra cùng cả lớp.',
     teachTitle: 'Công cụ cho giáo viên Toán', noJs: 'Các công cụ này cần JavaScript. Bạn hãy bật JavaScript trong trình duyệt.',
     home: 'Trang chủ',
     breadcrumb: 'Đường dẫn',

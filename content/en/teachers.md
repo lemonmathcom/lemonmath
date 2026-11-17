@@ -3,6 +3,17 @@ title: Teachers’ corner
 description: Free tools for maths teachers. Build a test in several versions from our question bank, and analyse class scores with a short comment for every student.
 ---
 
+## Run a test live for the whole class
+
+The test builder above has a button, **Run it live for the class**. Choose lessons and the number of multiple-choice questions (up to 30), then press it. The screen switches to a view for the projector showing an address, a QR code and a 6-digit class code.
+
+1. Students open the address on their phones and enter the class code and a name. Each name appears on the projector as the student joins.
+2. Set the time and press **Start**. The whole class works at once, and each answered question lights up on the projector.
+3. When time runs out, or when you press **End**, the projector shows each student’s score, the class mean and the most missed questions. Click a question number to show the question and what the class chose.
+4. On the phone, each student gets a score, feedback from Lemon and an explanation of every question.
+
+While the test is running the projector only shows which questions have been answered, not whether they are right. You can switch on **Show right/wrong** or **Hide names** at any time. Afterwards, **Write notes to parents** sends the scores to the score analyser above.
+
 ## Other things you can use straight away
 
 Besides the two tools above, the whole site can be used in class or set as homework.
@@ -18,7 +29,7 @@ Lemonmath exists to help students study better on their own. It does not replace
 
 ## About data
 
-The tests you build and the scores you type are processed on your own device only. Lemonmath does not receive or store any student names or scores.
+The tests you build and the scores you type into the analyser are processed on your own device only. A live class test is the exception: the names students enter and their answers are held on a server while the class is open, and deleted when you press Close class. You may ask students to enter a nickname or a number.
 
 ## Feedback
 
