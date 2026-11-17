@@ -5,7 +5,7 @@ description: Free tools for maths teachers. Build a test in several versions fro
 
 ## Run a test live for the whole class
 
-The test builder above has a button, **Run it live for the class**. Choose lessons and the number of multiple-choice questions (up to 30), then press it. The screen switches to a view for the projector showing an address, a QR code and a 6-digit class code.
+The test builder above has a button, **Run it live for the class**. Choose lessons and the number of questions for each part (multiple choice, true/false, short answer), then press it. Marks follow the graduation exam and are scaled to 10. The screen switches to a view for the projector showing an address, a QR code and a 6-digit class code.
 
 1. Students open the address on their phones and enter the class code and a name. Each name appears on the projector as the student joins.
 2. Set the time and press **Start**. The whole class works at once, and each answered question lights up on the projector.

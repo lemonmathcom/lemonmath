@@ -5,7 +5,7 @@ description: Công cụ miễn phí cho thầy cô dạy Toán, tạo đề ki�
 
 ## Cho cả lớp làm bài trực tiếp
 
-Trong công cụ tạo đề ở trên có nút **Cho cả lớp làm trực tiếp**. Thầy cô chọn bài, chọn số câu nhiều lựa chọn (tối đa 30) rồi bấm nút. Màn hình chuyển sang chế độ trình chiếu, hiện địa chỉ, mã QR và một mã lớp gồm 6 chữ số.
+Trong công cụ tạo đề ở trên có nút **Cho cả lớp làm trực tiếp**. Thầy cô chọn bài, nhập số câu cho từng phần (nhiều lựa chọn, đúng sai, trả lời ngắn) rồi bấm nút. Điểm được tính như đề thi tốt nghiệp rồi quy về thang 10. Màn hình chuyển sang chế độ trình chiếu, hiện địa chỉ, mã QR và một mã lớp gồm 6 chữ số.
 
 1. Học sinh mở địa chỉ trên bằng điện thoại, nhập mã lớp và tên. Tên từng em hiện lên màn chiếu ngay khi vào.
 2. Thầy cô đặt thời gian rồi bấm **Bắt đầu**. Cả lớp làm bài cùng lúc; em nào làm đến câu nào, ô của câu đó sáng lên trên màn chiếu.

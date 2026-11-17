@@ -201,16 +201,16 @@
     var DB = app.getAttribute('data-live');
     if (DB) (function () {
       var L = vi ? {
-        go: '📺 Cho cả lớp làm trực tiếp', back: '📺 Mở lại màn hình lớp', noMc: 'Các bài đã chọn chưa có câu nhiều lựa chọn. Thầy cô chọn thêm bài nhé.', err: 'Chưa kết nối được máy chủ lớp học. Thầy cô kiểm tra mạng rồi thử lại.',
-        hint: 'Làm trực tiếp dùng các câu Phần I (nhiều lựa chọn) của những bài đã chọn, tối đa 30 câu.',
+        go: '📺 Cho cả lớp làm trực tiếp', back: '📺 Mở lại màn hình lớp', noMc: 'Thầy cô nhập số câu cho ít nhất một phần, và chọn bài có câu hỏi của phần đó nhé.', err: 'Chưa kết nối được máy chủ lớp học. Thầy cô kiểm tra mạng rồi thử lại.',
+        hint: 'Làm trực tiếp dùng đúng số câu của ba phần ở trên (tối đa 30 câu nhiều lựa chọn, 10 câu đúng sai, 12 câu trả lời ngắn). Điểm tính như đề thi tốt nghiệp rồi quy về thang 10.', parts: ['nhiều lựa chọn', 'đúng sai', 'trả lời ngắn'], stT: 'Đúng', stF: 'Sai', keyIs: 'Đáp số đúng',
         at: 'Vào', pin: 'Mã lớp', scan: 'Quét mã hoặc mở địa chỉ trên, rồi nhập mã lớp', joined: 'đã vào lớp', nobody: 'Chưa có ai vào. Học sinh mở địa chỉ trên bằng điện thoại.', min: 'Thời gian (phút)', start: '▶ Bắt đầu', end: '■ Kết thúc', close: 'Đóng lớp', full: '⛶ Toàn màn hình',
         show: 'Hiện đúng sai', hide: 'Ẩn đúng sai', anon: 'Ẩn tên', named: 'Hiện tên', done: 'đã nộp', name: 'Học sinh', score: 'Điểm', right: '% đúng', q: 'Câu', stu: 'HS',
         sureEnd: 'Kết thúc bài làm của cả lớp ngay bây giờ?', sureClose: 'Đóng lớp sẽ xoá toàn bộ bài làm của lớp này. Thầy cô đã chép điểm chưa?', leave: 'Lớp đang mở.',
         ended: 'Đã kết thúc', n: 'Số bài', mean: 'Trung bình', med: 'Trung vị', pass: 'Từ 5 trở lên', hard: 'Câu sai nhiều nhất', tap: 'Bấm vào số câu để chiếu câu hỏi và xem lớp chọn gì.',
         copy: 'Chép bảng điểm', copied: 'Đã chép', toSc: 'Viết nhận xét gửi phụ huynh', toScDone: 'Đã đưa điểm xuống mục Phân tích điểm ở dưới.', chose: 'lượt chọn', blank: 'Chưa trả lời', x: 'Đóng', expl: 'Giải thích'
       } : {
-        go: '📺 Run it live for the class', back: '📺 Back to the class screen', noMc: 'The chosen lessons have no multiple-choice questions. Please choose more lessons.', err: 'Could not reach the class server. Check your connection and try again.',
-        hint: 'The live test uses Part I (multiple choice) questions from the chosen lessons, up to 30.',
+        go: '📺 Run it live for the class', back: '📺 Back to the class screen', noMc: 'Enter a number of questions for at least one part, and choose lessons that have questions of that kind.', err: 'Could not reach the class server. Check your connection and try again.',
+        hint: 'The live test uses the numbers of questions set for the three parts above (up to 30 multiple choice, 10 true/false, 12 short answer). Marks follow the graduation exam and are scaled to 10.', parts: ['multiple choice', 'true/false', 'short answer'], stT: 'True', stF: 'False', keyIs: 'Correct answer',
         at: 'Go to', pin: 'Class code', scan: 'Scan the code or open the address above, then enter the class code', joined: 'joined', nobody: 'Nobody yet. Students open the address above on their phones.', min: 'Time (minutes)', start: '▶ Start', end: '■ End', close: 'Close class', full: '⛶ Full screen',
         show: 'Show right/wrong', hide: 'Hide right/wrong', anon: 'Hide names', named: 'Show names', done: 'handed in', name: 'Student', score: 'Score', right: '% right', q: 'Q', stu: 'S',
         sureEnd: 'End the test for the whole class now?', sureClose: 'Closing the class deletes all of its answers. Have you copied the scores?', leave: 'The class is still open.',
@@ -229,7 +229,8 @@
       function create() {
         var ids = chosen();
         if (!bank || !ids.length) { msg.textContent = T.needLesson; return; }
-        var n = Math.max(1, Math.min(30, parseInt($('#tq-n-mc').value, 10) || 10)), list = take('mc', n, ids);
+        var caps = { mc: 30, tf: 10, sa: 12 }, list = [];
+        ['mc', 'tf', 'sa'].forEach(function (k) { var n = Math.max(0, Math.min(caps[k], parseInt($('#tq-n-' + k).value, 10) || 0)); if (n) list = list.concat(take(k, n, ids)); });
         if (!list.length) { msg.textContent = L.noMc; return; }
         var bankId = gradeSel.value, title = ($('#tq-title').value || '').trim().slice(0, 80);
         btn.disabled = true;
@@ -256,13 +257,15 @@
         if (v === null) delete o[ks[ks.length - 1]]; else o[ks[ks.length - 1]] = v;
       }
       function listen() {
-        var poll = function () { if (room) fb('GET', room.pin + '/p').then(function (p) { if (room) { room.P = p || {}; draw(); } }, function () {}); };
+        var seq = 0;   // a poll answer that was already on its way when a newer stream event arrived is stale: drop it
+        var poll = function () { if (!room) return; var at = seq; fb('GET', room.pin + '/p').then(function (p) { if (room && at === seq) { room.P = p || {}; draw(); } }, function () {}); };
         if (window.EventSource) {
           try {
             es = new EventSource(DB + '/live/' + room.pin + '/p.json');
             var on = function (patch) {
               return function (e) {
                 if (!room) return;
+                seq++;
                 var m = JSON.parse(e.data), ks = m.path.split('/').filter(Boolean);
                 if (!ks.length && !patch) room.P = m.data || {};
                 else if (patch && m.data && typeof m.data === 'object') Object.keys(m.data).forEach(function (k) { setDeep(room.P, ks.concat(k.split('/')), m.data[k]); });
@@ -276,9 +279,25 @@
         pollT = setInterval(poll, es ? 6000 : 3000); poll();   // the stream is the fast path; this keeps the board right if it stalls
       }
       function players() { return Object.keys(room.P).map(function (id) { var p = room.P[id] || {}; p.id = id; return p; }).filter(function (p) { return typeof p.n === 'string'; }).sort(function (a, b) { return (a.t || 0) - (b.t || 0); }); }
-      function ans(p, i) { return p.a && p.a[i] ? String(p.a[i]) : ''; }
-      function right(p) { var c = 0; room.items.forEach(function (it, i) { if (ans(p, i) === it.k) c++; }); return c; }
-      function s10(p) { return right(p) / room.items.length * 10; }
+      /* marks as in the graduation exam: 0.25 per multiple choice, up to 1 per true/false question (0.1, 0.25, 0.5, 1 for 1 to 4 right statements), 0.5 per short answer */
+      var MAXP = { mc: 0.25, tf: 1, sa: 0.5 };
+      function num(s) { s = String(s).replace(/\s/g, '').replace(',', '.'); return s === '' ? NaN : Number(s); }
+      function ans(p, i) { return p.a && p.a[i] != null ? String(p.a[i]) : ''; }
+      function has(it, a) { return it.y === 'tf' ? /[TF]/.test(a) : a.trim() !== ''; }
+      function tfRight(it, a) { var c = 0; for (var j = 0; j < 4; j++) if (a.charAt(j) === it.k.charAt(j)) c++; return c; }
+      function pts(it, a) {
+        if (!has(it, a)) return 0;
+        if (it.y === 'mc') return a === it.k ? 0.25 : 0;
+        if (it.y === 'tf') return [0, 0.1, 0.25, 0.5, 1][tfRight(it, a)];
+        var v = num(a), w = num(it.k); return !isNaN(v) && Math.abs(v - w) < 1e-9 ? 0.5 : 0;
+      }
+      function total(p) { var c = 0; room.items.forEach(function (it, i) { c += pts(it, ans(p, i)); }); return c; }
+      function s10(p) { return total(p) / room.items.reduce(function (s, it) { return s + MAXP[it.y]; }, 0) * 10; }
+      function legend() {
+        var out = [], from = 0;
+        ['mc', 'tf', 'sa'].forEach(function (k, j) { var c = room.items.filter(function (it) { return it.y === k; }).length; if (c) { out.push(L.q + ' ' + (from + 1) + (c > 1 ? '–' + (from + c) : '') + ': ' + L.parts[j]); from += c; } });
+        return out.length > 1 ? out.join(' · ') + '. ' : '';
+      }
       function pinText() { return room.pin.slice(0, 3) + ' ' + room.pin.slice(3); }
       function clock() { var s = Math.max(0, room.left | 0), m = Math.floor(s / 60); return (m < 10 ? '0' : '') + m + ':' + (s % 60 < 10 ? '0' : '') + (s % 60); }
 
@@ -293,7 +312,7 @@
           '</div></header><main class="lv-main">' +
           (st === 'lobby' ? '<div class="lv-lobby"><div class="lv-qr">' + (qr ? qr.innerHTML : '') + '</div><div><p class="lv-big">' + esc(app.getAttribute('data-join')) + '</p><p class="lv-code">' + pinText() + '</p><p>' + L.scan + '</p>' +
             '<p><label>' + L.min + ' <input type="number" id="lv-min" min="1" max="120" value="' + room.min + '" inputmode="numeric"></label> · ' + room.items.length + ' ' + L.q.toLowerCase() + '</p></div></div><p class="lv-count" id="lv-count"></p><div class="lv-names" id="lv-names"></div>'
-            : '<p class="lv-count" id="lv-count"></p><div id="lv-stats"></div><div class="lv-scroll"><table class="lv-board" id="lv-board"></table></div><p class="lv-tip">' + L.tap + '</p>') +
+            : '<p class="lv-count" id="lv-count"></p><div id="lv-stats"></div><div class="lv-scroll"><table class="lv-board" id="lv-board"></table></div><p class="lv-tip">' + legend() + L.tap + '</p>') +
           '</main>';
         var on = function (id, fn) { var x = $('#' + id, ov); if (x) x.addEventListener('click', fn); };
         on('lv-start', begin); on('lv-end', function () { if (window.confirm(L.sureEnd)) finish(); });
@@ -314,18 +333,19 @@
         var show = room.reveal || st === 'end', done = ps.filter(function (p) { return p.d; }).length;
         cnt.textContent = ps.length + ' ' + L.joined + ' · ' + done + ' ' + L.done;
         ps.forEach(function (p, i) { p.i = i; });
-        if (show) ps = ps.slice().sort(function (a, b) { return right(b) - right(a) || a.i - b.i; });
-        var okBy = room.items.map(function (it, i) { return ps.filter(function (p) { return ans(p, i) === it.k; }).length; });
-        $('#lv-board', ov).innerHTML = '<thead><tr><th>#</th><th class="l">' + L.name + '</th>' + room.items.map(function (it, i) { return '<th><button type="button" data-q="' + i + '">' + (i + 1) + '</button></th>'; }).join('') + (show ? '<th>' + L.score + '</th>' : '') + '</tr></thead><tbody>' +
+        if (show) ps = ps.slice().sort(function (a, b) { return total(b) - total(a) || a.i - b.i; });
+        var okBy = room.items.map(function (it, i) { return ps.reduce(function (s, p) { return s + pts(it, ans(p, i)) / MAXP[it.y]; }, 0); });
+        $('#lv-board', ov).innerHTML = '<thead><tr><th>#</th><th class="l">' + L.name + '</th>' + room.items.map(function (it, i) { return '<th><button type="button" class="k-' + it.y + '" data-q="' + i + '">' + (i + 1) + '</button></th>'; }).join('') + (show ? '<th>' + L.score + '</th>' : '') + '</tr></thead><tbody>' +
           ps.map(function (p, r) {
             return '<tr><td>' + (r + 1) + '</td><td class="l">' + who(p, p.i) + (p.d ? ' <span class="lv-done" title="' + L.done + '">✓</span>' : '') + '</td>' + room.items.map(function (it, i) {
-              var a = ans(p, i); return '<td class="' + (!a ? '' : !show ? 'on' : a === it.k ? 'ok' : 'no') + '">' + (show && a ? a : '') + '</td>';
+              var a = ans(p, i), on = has(it, a), g = on ? pts(it, a) / MAXP[it.y] : 0;
+              return '<td class="' + (!on ? '' : !show ? 'on' : g === 1 ? 'ok' : g === 0 ? 'no' : 'half') + '">' + (show && on ? (it.y === 'mc' ? a : it.y === 'tf' ? tfRight(it, a) + '/4' : g ? '✓' : '✗') : '') + '</td>';
             }).join('') + (show ? '<td class="s">' + fmt(s10(p), 1) + '</td>' : '') + '</tr>';
           }).join('') + '</tbody>' + (show && ps.length ? '<tfoot><tr><td></td><td class="l">' + L.right + '</td>' + okBy.map(function (c) { var pc = Math.round(100 * c / ps.length); return '<td class="' + (pc < 50 ? 'lo' : '') + '">' + pc + '</td>'; }).join('') + '<td></td></tr></tfoot>' : '');
         var stats = $('#lv-stats', ov);
         if (st === 'end' && ps.length) {
           var xs = ps.map(s10).sort(function (a, b) { return a - b; }), m = xs.length, mean = xs.reduce(function (a, b) { return a + b; }, 0) / m, med = m % 2 ? xs[(m - 1) / 2] : (xs[m / 2 - 1] + xs[m / 2]) / 2;
-          var hard = okBy.map(function (c, i) { return { i: i, c: c }; }).sort(function (a, b) { return a.c - b.c; }).slice(0, 3).filter(function (h) { return h.c < ps.length; }).map(function (h) { return L.q + ' ' + (h.i + 1) + ' (' + Math.round(100 * h.c / ps.length) + '%)'; }).join(', ');
+          var hard = okBy.map(function (c, i) { return { i: i, c: c }; }).sort(function (a, b) { return a.c - b.c; }).slice(0, 3).filter(function (h) { return h.c < ps.length - 1e-9; }).map(function (h) { return L.q + ' ' + (h.i + 1) + ' (' + Math.round(100 * h.c / ps.length) + '%)'; }).join(', ');
           var box = function (l, v) { return '<div class="sc-stat"><b>' + v + '</b><span>' + l + '</span></div>'; };
           stats.innerHTML = '<div class="sc-stats">' + box(L.n, m) + box(L.mean, fmt(mean)) + box(L.med, fmt(med)) + box(L.pass, Math.round(100 * xs.filter(function (x) { return x >= 5; }).length / m) + '%') + '</div>' + (hard ? '<p class="lv-hard"><b>' + L.hard + ':</b> ' + hard + '</p>' : '');
         } else stats.innerHTML = '';
@@ -337,12 +357,23 @@
         if (!t) return;
         if (t.hasAttribute('data-x')) { $('.lv-qwrap', ov).remove(); return; }
         var i = +t.getAttribute('data-q'), it = room.items[i], ps = players(), show = room.reveal || room.state === 'end';
-        var wrap = el('div', 'lv-qwrap'), none = ps.filter(function (p) { return !ans(p, i); }).length;
-        wrap.innerHTML = '<div class="lv-qbox"><button type="button" class="btn btn-outline lv-x" data-x="1">' + L.x + '</button><div class="lv-qtext"><b>' + T.q + ' ' + (i + 1) + '.</b> ' + it.q + '</div><ol class="lv-opts">' +
-          it.o.map(function (o, k) {
-            var c = ps.filter(function (p) { return ans(p, i) === 'ABCD'[k]; }).length, pc = ps.length ? 100 * c / ps.length : 0;
-            return '<li class="' + (show && 'ABCD'[k] === it.k ? 'ok' : '') + '"><span class="lv-bar" style="width:' + pc + '%"></span><b>' + 'ABCD'[k] + '.</b> <span>' + o + '</span><i>' + c + '</i></li>';
-          }).join('') + '</ol><p class="lv-none">' + L.blank + ': ' + none + '</p>' + (room.state === 'end' && it.e ? '<div class="lv-expl"><b>' + L.expl + ':</b> ' + it.e + '</div>' : '') + '</div>';
+        var wrap = el('div', 'lv-qwrap'), none = ps.filter(function (p) { return !has(it, ans(p, i)); }).length, body;
+        var bar = function (c) { return '<span class="lv-bar" style="width:' + (ps.length ? 100 * c / ps.length : 0) + '%"></span>'; };
+        if (it.y === 'mc') body = it.o.map(function (o, k) {
+          var c = ps.filter(function (p) { return ans(p, i) === 'ABCD'[k]; }).length;
+          return '<li class="' + (show && 'ABCD'[k] === it.k ? 'ok' : '') + '">' + bar(c) + '<b>' + 'ABCD'[k] + '.</b> <span>' + o + '</span><i>' + c + '</i></li>';
+        }).join('');
+        else if (it.y === 'tf') body = it.o.map(function (o, k) {
+          var t = ps.filter(function (p) { return ans(p, i).charAt(k) === 'T'; }).length, f = ps.filter(function (p) { return ans(p, i).charAt(k) === 'F'; }).length;
+          return '<li>' + bar(it.k.charAt(k) === 'T' ? t : f) + '<b>' + 'abcd'[k] + ')</b> <span>' + o + '</span><i>' + (show ? '<u>' + (it.k.charAt(k) === 'T' ? L.stT : L.stF) + '</u> · ' : '') + L.stT + ' ' + t + ' · ' + L.stF + ' ' + f + '</i></li>';
+        }).join('');
+        else {
+          var tally = {}; ps.forEach(function (p) { var a = ans(p, i).trim(); if (a) tally[a] = (tally[a] || 0) + 1; });
+          body = Object.keys(tally).sort(function (a, b) { return tally[b] - tally[a]; }).slice(0, 8).map(function (a) {
+            return '<li class="' + (show && pts(it, a) ? 'ok' : '') + '">' + bar(tally[a]) + '<span>' + esc(a) + '</span><i>' + tally[a] + '</i></li>';
+          }).join('') + (show ? '<li class="ok"><b>' + L.keyIs + ':</b> <span>' + esc(it.k) + '</span></li>' : '');
+        }
+        wrap.innerHTML = '<div class="lv-qbox"><button type="button" class="btn btn-outline lv-x" data-x="1">' + L.x + '</button><div class="lv-qtext"><b>' + T.q + ' ' + (i + 1) + '.</b> ' + it.q + '</div><ol class="lv-opts">' + body + '</ol><p class="lv-none">' + L.blank + ': ' + none + '</p>' + (room.state === 'end' && it.e ? '<div class="lv-expl"><b>' + L.expl + ':</b> ' + it.e + '</div>' : '') + '</div>';
         var old = $('.lv-qwrap', ov); if (old) old.remove();
         ov.appendChild(wrap); drawMath(wrap);
       });

@@ -22,13 +22,13 @@
   var T = vi ? {
     code: 'Mã lớp (6 chữ số trên màn chiếu)', name: 'Tên của bạn', go: 'Vào lớp', needCode: 'Bạn nhập đủ 6 chữ số của mã lớp nhé.', needName: 'Bạn nhập tên để thầy cô nhận ra bạn nhé.',
     noRoom: 'Chưa tìm thấy lớp này. Bạn xem lại mã trên màn chiếu nhé.', over: 'Lớp này đã làm bài xong rồi.', err: 'Chưa kết nối được. Bạn kiểm tra mạng rồi thử lại nhé.',
-    wait: 'Bạn đã vào lớp! Chờ thầy cô bấm bắt đầu nhé.', hi: 'Chào', q: 'Câu', answered: 'đã làm', submit: 'Nộp bài', edit: 'Xem lại và sửa bài',
+    wait: 'Bạn đã vào lớp! Chờ thầy cô bấm bắt đầu nhé.', hi: 'Chào', q: 'Câu', answered: 'đã làm', parts: ['Phần I. Chọn một phương án', 'Phần II. Mỗi ý chọn Đúng hoặc Sai', 'Phần III. Viết đáp số'], stT: 'Đúng', stF: 'Sai', ph: 'Đáp số', submit: 'Nộp bài', edit: 'Xem lại và sửa bài',
     sure: function (k) { return 'Bạn còn ' + k + ' câu chưa làm. Vẫn nộp bài chứ?'; }, sent: 'Bạn đã nộp bài. Chờ thầy cô kết thúc để xem kết quả nhé.', timeUp: 'Hết giờ',
     lost: 'Mất kết nối, đang thử lại… Câu trả lời của bạn vẫn được giữ trên máy.', result: 'Kết quả của bạn', yours: 'Bạn chọn', none: 'chưa trả lời', key: 'Đáp án đúng', closed: 'Thầy cô đã đóng lớp.', review: 'Xem lại từng câu'
   } : {
     code: 'Class code (6 digits on the screen)', name: 'Your name', go: 'Join', needCode: 'Please enter all 6 digits of the class code.', needName: 'Please enter your name so your teacher knows who you are.',
     noRoom: 'This class was not found. Check the code on the screen.', over: 'This class has already finished.', err: 'Could not connect. Check your connection and try again.',
-    wait: 'You are in! Wait for your teacher to press start.', hi: 'Hi', q: 'Question', answered: 'answered', submit: 'Hand in', edit: 'Go back and change answers',
+    wait: 'You are in! Wait for your teacher to press start.', hi: 'Hi', q: 'Question', answered: 'answered', parts: ['Part I. Choose one option', 'Part II. Mark each statement true or false', 'Part III. Write your answer'], stT: 'True', stF: 'False', ph: 'Answer', submit: 'Hand in', edit: 'Go back and change answers',
     sure: function (k) { return 'You still have ' + k + ' unanswered. Hand in anyway?'; }, sent: 'Handed in. Wait for your teacher to end the test to see your result.', timeUp: 'Time is up',
     lost: 'Connection lost, trying again… Your answers are kept on this device.', result: 'Your result', yours: 'You chose', none: 'no answer', key: 'Correct answer', closed: 'Your teacher has closed the class.', review: 'Go through each question'
   };
@@ -93,7 +93,18 @@
     box.innerHTML = head() + '<div class="jn-wait"><p><b>' + T.hi + ' ' + esc(me.n) + '!</b><br>' + T.wait + '</p></div>';
     $('.jn-wait', box).insertBefore(mascot(), $('.jn-wait', box).firstChild);
   }
-  function count() { return items.filter(function (it, i) { return A[i]; }).length; }
+  var MAXP = { mc: 0.25, tf: 1, sa: 0.5 };
+  function num(s) { s = String(s).replace(/\s/g, '').replace(',', '.'); return s === '' ? NaN : Number(s); }
+  function has(it, a) { a = a == null ? '' : String(a); return it.y === 'tf' ? /[TF]/.test(a) : a.trim() !== ''; }
+  function tfRight(it, a) { var c = 0; for (var j = 0; j < 4; j++) if (String(a).charAt(j) === it.k.charAt(j)) c++; return c; }
+  function pts(it, a) {
+    if (!has(it, a)) return 0;
+    if (it.y === 'mc') return a === it.k ? 0.25 : 0;
+    if (it.y === 'tf') return [0, 0.1, 0.25, 0.5, 1][tfRight(it, a)];
+    var v = num(a), w = num(it.k); return !isNaN(v) && Math.abs(v - w) < 1e-9 ? 0.5 : 0;
+  }
+  function partHead(i) { var j = ['mc', 'tf', 'sa'].indexOf(items[i].y), mixed = items.some(function (it) { return it.y !== items[0].y; }); return mixed && (i === 0 || items[i - 1].y !== items[i].y) ? '<h2 class="jn-part">' + T.parts[j] + '</h2>' : ''; }
+  function count() { return items.filter(function (it, i) { return has(it, A[i]); }).length; }
   function clock() {
     var s = Math.max(0, Math.round((endAt - Date.now()) / 1000)), c = $('#jn-clock');
     if (c) { c.textContent = s > 0 ? (Math.floor(s / 60) < 10 ? '0' : '') + Math.floor(s / 60) + ':' + (s % 60 < 10 ? '0' : '') + (s % 60) : T.timeUp; c.classList.toggle('low', s <= 60); }
@@ -101,20 +112,39 @@
   function run() {
     if (done) { sent(); return; }
     box.innerHTML = head('<span id="jn-clock" class="jn-clock"></span><span id="jn-n" class="jn-n"></span>') + items.map(function (it, i) {
-      return '<section class="jn-q" data-i="' + i + '"><div class="jn-stem"><b>' + T.q + ' ' + (i + 1) + '.</b> ' + it.q + '</div><div class="jn-opts c' + (it.c || 1) + '">' +
-        it.o.map(function (o, k) { var L = 'ABCD'[k]; return '<button type="button" data-a="' + L + '" aria-pressed="' + (A[i] === L) + '"><b>' + L + '.</b> <span>' + o + '</span></button>'; }).join('') + '</div></section>';
+      var a = A[i] == null ? '' : String(A[i]), inner;
+      if (it.y === 'mc') inner = '<div class="jn-opts c' + (it.c || 1) + '">' + it.o.map(function (o, k) { var L = 'ABCD'[k]; return '<button type="button" data-a="' + L + '" aria-pressed="' + (a === L) + '"><b>' + L + '.</b> <span>' + o + '</span></button>'; }).join('') + '</div>';
+      else if (it.y === 'tf') inner = '<div class="jn-tf">' + it.o.map(function (o, k) {
+        return '<div class="jn-st" data-k="' + k + '"><p><b>' + 'abcd'[k] + ')</b> ' + o + '</p><span><button type="button" data-t="T" aria-pressed="' + (a.charAt(k) === 'T') + '">' + T.stT + '</button><button type="button" data-t="F" aria-pressed="' + (a.charAt(k) === 'F') + '">' + T.stF + '</button></span></div>';
+      }).join('') + '</div>';
+      else inner = '<p class="jn-sa"><input type="text" inputmode="decimal" maxlength="12" autocomplete="off" placeholder="' + T.ph + '" value="' + esc(a) + '"></p>';
+      return partHead(i) + '<section class="jn-q" data-i="' + i + '"><div class="jn-stem"><b>' + T.q + ' ' + (i + 1) + '.</b> ' + it.q + '</div>' + inner + '</section>';
     }).join('') + '<p class="jn-end"><button type="button" class="btn" id="jn-submit">' + T.submit + '</button></p>';
     drawMath(box);
     var upd = function () { $('#jn-n').textContent = count() + '/' + items.length + ' ' + T.answered; };
     upd();
+    var changed = function () { upd(); store(); dirty = true; clearTimeout(run.t); run.t = setTimeout(function () { if (dirty) push(); }, 400); };
     box.onclick = function (e) {
-      var b = e.target.closest ? e.target.closest('.jn-opts button') : null;
-      if (b && state === 'run' && !done) {
-        var q = b.closest('.jn-q'), i = +q.getAttribute('data-i'), L = b.getAttribute('data-a');
+      var b = e.target.closest ? e.target.closest('.jn-opts button, .jn-st button') : null;
+      if (!b || state !== 'run' || done) return;
+      var q = b.closest('.jn-q'), i = +q.getAttribute('data-i');
+      if (b.hasAttribute('data-a')) {
+        var L = b.getAttribute('data-a');
         if (A[i] === L) delete A[i]; else A[i] = L;
         $$('button', q).forEach(function (x) { x.setAttribute('aria-pressed', String(A[i] === x.getAttribute('data-a'))); });
-        upd(); store(); dirty = true; clearTimeout(run.t); run.t = setTimeout(function () { if (dirty) push(); }, 400);
+      } else {
+        var row = b.closest('.jn-st'), k = +row.getAttribute('data-k'), cur = (A[i] ? String(A[i]) : '----').split(''), v = b.getAttribute('data-t');
+        cur[k] = cur[k] === v ? '-' : v;
+        if (/[TF]/.test(cur.join(''))) A[i] = cur.join(''); else delete A[i];
+        $$('button', row).forEach(function (x) { x.setAttribute('aria-pressed', String(cur[k] === x.getAttribute('data-t'))); });
       }
+      changed();
+    };
+    box.oninput = function (e) {
+      var inp = e.target; if (!inp.closest || !inp.closest('.jn-sa') || state !== 'run' || done) return;
+      var i = +inp.closest('.jn-q').getAttribute('data-i'), v = inp.value.trim().slice(0, 12);
+      if (v) A[i] = v; else delete A[i];
+      changed();
     };
     $('#jn-submit').addEventListener('click', function () {
       var left = items.length - count();
@@ -123,23 +153,32 @@
     });
   }
   function sent() {
-    box.onclick = null;
+    box.onclick = null; box.oninput = null;
     box.innerHTML = head('<span id="jn-clock" class="jn-clock"></span>') + '<div class="jn-wait"><p><b>' + T.sent + '</b></p><p><button type="button" class="btn btn-outline" id="jn-edit">' + T.edit + '</button></p></div>';
     $('.jn-wait', box).insertBefore(mascot(), $('.jn-wait', box).firstChild);
     $('#jn-edit').addEventListener('click', function () { if (state !== 'run') return; done = false; store(); push(); run(); clock(); });
     window.scrollTo(0, 0);
   }
   function result(gone) {
-    box.onclick = null; done = true; store(); if (!gone) push();
-    var got = 0, st = { n: items.length, blank: 0, wrong: [], tf: { pts: 0, max: 0 }, sa: { n: 0, ok: 0 }, written: [] };
-    items.forEach(function (it, i) { if (A[i] === it.k) got++; else st.wrong.push(String(i + 1)); if (!A[i]) st.blank++; });
+    box.onclick = null; box.oninput = null; done = true; store(); if (!gone) push();
+    var got = 0, max = 0, st = { n: items.length, blank: 0, wrong: [], tf: { pts: 0, max: 0 }, sa: { n: 0, ok: 0 }, written: [] };
+    items.forEach(function (it, i) {
+      var p = pts(it, A[i]); got += p; max += MAXP[it.y];
+      if (p < MAXP[it.y]) st.wrong.push(String(i + 1));
+      if (!has(it, A[i])) st.blank++;
+      if (it.y === 'tf') { st.tf.max += 1; st.tf.pts += p; }
+      if (it.y === 'sa') { st.sa.n++; if (p) st.sa.ok++; }
+    });
     box.innerHTML = head() + (gone ? '<p class="jn-lost">' + T.closed + '</p>' : '') + '<h2 id="jn-res">' + T.result + '</h2><h2 class="jn-rev">' + T.review + '</h2>' + items.map(function (it, i) {
-      return '<section class="jn-q"><div class="jn-stem"><b>' + T.q + ' ' + (i + 1) + '.</b> ' + it.q + '</div><div class="jn-opts c1">' +
-        it.o.map(function (o, k) { var L = 'ABCD'[k]; return '<div class="jn-o' + (L === it.k ? ' ok' : A[i] === L ? ' no' : '') + '"><b>' + L + '.</b> <span>' + o + '</span></div>'; }).join('') + '</div>' +
-        '<p class="jn-mine">' + T.yours + ': <b>' + (A[i] || T.none) + '</b> · ' + T.key + ': <b>' + it.k + '</b></p>' + (it.e ? '<div class="jn-expl">' + it.e + '</div>' : '') + '</section>';
+      var a = A[i] == null ? '' : String(A[i]), tfw = function (c) { return c === 'T' ? T.stT : c === 'F' ? T.stF : T.none; }, inner, mine, key;
+      if (it.y === 'mc') { inner = it.o.map(function (o, k) { var L = 'ABCD'[k]; return '<div class="jn-o' + (L === it.k ? ' ok' : a === L ? ' no' : '') + '"><b>' + L + '.</b> <span>' + o + '</span></div>'; }).join(''); mine = a || T.none; key = it.k; }
+      else if (it.y === 'tf') { inner = it.o.map(function (o, k) { var c = a.charAt(k); return '<div class="jn-o' + (c === it.k.charAt(k) ? ' ok' : ' no') + '"><b>' + 'abcd'[k] + ')</b> <span>' + o + ' <i>(' + tfw(c) + ' → ' + tfw(it.k.charAt(k)) + ')</i></span></div>'; }).join(''); mine = has(it, a) ? tfRight(it, a) + '/4' : T.none; key = it.k.split('').map(tfw).join(', '); }
+      else { inner = ''; mine = a ? esc(a) : T.none; key = esc(it.k); }
+      return partHead(i) + '<section class="jn-q"><div class="jn-stem"><b>' + T.q + ' ' + (i + 1) + '.</b> ' + it.q + '</div><div class="jn-opts c1">' + inner + '</div>' +
+        '<p class="jn-mine">' + T.yours + ': <b>' + mine + '</b> · ' + T.key + ': <b>' + key + '</b></p>' + (it.e ? '<div class="jn-expl">' + it.e + '</div>' : '') + '</section>';
     }).join('');
     drawMath(box);
-    if (window.lmFeedback) window.lmFeedback.show($('#jn-res'), got, items.length, st, '');
+    if (window.lmFeedback) window.lmFeedback.show($('#jn-res'), got, max, st, '');
     window.scrollTo(0, 0);
   }
 })();

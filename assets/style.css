@@ -738,3 +738,13 @@ a.off-miss { opacity: .45; }
 @media (max-width: 420px) { .jn-opts.c4 { grid-template-columns: 1fr 1fr; } .jn-opts.c2 { grid-template-columns: 1fr; } }
 .lv-back { position: fixed; right: 16px; bottom: 16px; z-index: 150; box-shadow: 0 4px 14px rgba(0, 0, 0, .3); }
 @media print { .lv-back { display: none !important; } }
+.lv-board td.half { background: #F59E0B; color: #1f1f24; } .lv-board th button.k-tf { border-style: dashed; } .lv-board th button.k-sa { border-radius: 999px; }
+.lv-opts li u { text-decoration: none; padding: 1px 8px; border-radius: 6px; background: #16A34A; color: #fff; } .lv-opts li i { white-space: nowrap; font-size: .8em; }
+.jn-part { margin: 1.2em 0 .5em; font-size: 1.15rem; }
+.jn-tf { display: grid; gap: 8px; margin-top: 10px; } .jn-st { display: flex; gap: 10px; align-items: center; padding: 8px 10px; border: 2px solid var(--line); border-radius: 12px; } .jn-st p { flex: 1; margin: 0; min-width: 0; } .jn-st span { display: flex; gap: 6px; flex: none; }
+.jn-st button { min-width: 58px; min-height: 44px; padding: 6px 10px; border: 2px solid var(--edge); border-radius: 10px; background: var(--bg); color: var(--ink); font: 700 .95rem var(--font); cursor: pointer; } .jn-st button[aria-pressed="true"] { background: var(--lemon); color: var(--lemon-ink); box-shadow: 0 3px 0 var(--edge); }
+.jn-sa { margin: 10px 0 0; } .jn-sa input { width: 100%; max-width: 260px; font: 700 1.25rem var(--font); padding: 10px 14px; border: 2px solid var(--edge); border-radius: 12px; background: var(--bg); color: var(--ink); }
+.jn-o i { color: var(--muted); font-size: .9em; }
+@media (max-width: 420px) { .jn-st { flex-direction: column; align-items: stretch; } .jn-st span { justify-content: flex-end; } }
+.jn-st .katex-display, .jn-opts .katex-display, .lv-opts .katex-display { display: inline-block; margin: 0 .2em; } .jn-st p > p, .jn-st p p { display: inline; }
+.lv-qtext table, .jn-stem table { display: table; width: auto; border-collapse: collapse; margin: .5em 0; } .lv-qtext th, .lv-qtext td, .jn-stem th, .jn-stem td { border: 2px solid var(--line); padding: 4px 12px; text-align: center; }
