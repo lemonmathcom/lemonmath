@@ -92,6 +92,7 @@ const UI = {
     startG10: 'Start with Grade 10',
     browse: 'Browse all grades',
     pickGrade: 'Pick your grade',
+    levelLead: { primary: 'Grades 1–5. Short lessons with plenty of examples and practice, so children build confidence step by step.', middle: 'Grades 6–9. Clear lessons, worked solutions and tests that show exactly where to improve.', high: 'Grades 10–12. Full courses with worked solutions, quizzes and timed papers for the national exam.' },
     why: 'How we teach',
     features: [
       ['star', 'Reason first, rule second', 'We start from a picture or a small example, let you see the pattern, and only then write the rule down.'],
@@ -199,6 +200,7 @@ const UI = {
     startG10: 'Bắt đầu với Toán lớp 10',
     browse: 'Xem tất cả các lớp',
     pickGrade: 'Chọn lớp của bạn',
+    levelLead: { primary: 'Lớp 1–5. Bài ngắn, nhiều ví dụ và bài luyện, để con tự tin hơn từng bước.', middle: 'Lớp 6–9. Bài giảng rõ ràng, lời giải chi tiết và bài kiểm tra chỉ ra chỗ cần luyện thêm.', high: 'Lớp 10–12. Khoá học đầy đủ với lời giải chi tiết, trắc nghiệm và đề thi bấm giờ.' },
     why: 'Lemonmath dạy thế nào',
     features: [
       ['star', 'Hiểu vì sao trước, nhớ quy tắc sau', 'Ta bắt đầu từ một hình vẽ hay một ví dụ nhỏ, để bạn tự nhìn ra quy luật, rồi mới viết thành quy tắc.'],

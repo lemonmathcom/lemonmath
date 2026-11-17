@@ -99,8 +99,8 @@ if (!/^https:\/\/[^\s/]+$/.test(site.url)) fail('data/curriculum.json: "url" ph�
 
 const LANGS = ['en', 'vi'];
 const LANG = {
-  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', htmlLang: 'en', locale: 'en-US', name: 'English' },
-  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
+  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', levels: { primary: 'primary', middle: 'middle-school', high: 'high-school' }, htmlLang: 'en', locale: 'en-US', name: 'English' },
+  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', levels: { primary: 'tieu-hoc', middle: 'thcs', high: 'thpt' }, htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
 };
 const LEVEL = (n) => (n <= 5 ? 'primary' : n <= 9 ? 'middle' : 'high');
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -149,6 +149,7 @@ const parentsDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].parents);
 const weekDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].week);
 const teachersDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].teachers);
 const offlineDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].offline);
+const levelDir = (lang, lvl) => px.join(LANG[lang].prefix, LANG[lang].levels[lvl]);
 /* Offline packs: one per language and grade (or exam track), e.g. "vi-g9", "en-sat". See writePwa(). */
 const packKey = (lang, g) => lang + '-' + (g.exam ? g.id : 'g' + g.n);
 const isFull = (g) => g.status === 'full' && g.chapters.some((c) => c.lessons.length);
@@ -437,6 +438,21 @@ function examCard(lang, d, e) {
     '</a>';
 }
 
+function levelPage(lang, lvl) {
+  const T = UI[lang], d = levelDir(lang, lvl), alt = levelDir(other(lang), lvl);
+  const gs = grades.filter((g) => g.level === lvl);
+  const others = ['primary', 'middle', 'high'].filter((l) => l !== lvl);
+  const body = '<nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n' +
+    '<header class="gradehead"><div><p class="eyebrow">' + esc(T.levels[lvl][1].split(' · ')[0]) + '</p><h1>' + esc(T.levels[lvl][0]) + '</h1>' +
+    '<p class="lead">' + esc(T.levelLead[lvl]) + '</p></div>' + mascot({ cls: 'grade-mascot', mood: 'happy' }) + '</header>\n' + pageActions(lang, d) +
+    '<div class="gtiles">' + gs.map((g) => gradeTile(lang, d, g)).join('') + '</div>\n' +
+    '<nav class="level-jump" aria-label="' + esc(T.pickGrade) + '">' + others.map((l) => '<a class="btn btn-ghost" href="' + relDir(d, levelDir(lang, l)) + '">' + esc(T.levels[l][0]) + '</a>').join('') + '</nav>';
+  put(lang, d, alt, shell({
+    lang, dir: d, altDir: alt, title: T.levels[lvl][0] + ' | ' + site.name, description: T.levelLead[lvl], body, level: lvl, wide: true,
+    jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: T.levels[lvl][0], url: abs(d) }])]
+  }), maxDay(gs.flatMap((g) => g.chapters.flatMap((c) => c.lessons.map((l) => l.content[lang].modified)))));
+}
+
 function examsPage(lang, intro) {
   const T = UI[lang], d = examsDir(lang), alt = examsDir(other(lang));
   const block = (key) => {
@@ -463,7 +479,7 @@ function homePage(lang) {
       '<div class="gtiles">' + gs.map((g) => gradeTile(lang, d, g)).join('') + '</div></section>';
   };
   const body = '<section class="hero">\n<div class="hero-text">\n<p class="eyebrow">' + esc(T.eyebrow) + '</p>\n<h1>' + esc(T.h1) + '</h1>\n<p class="lead">' + esc(T.lead) + '</p>\n' +
-    '<p class="hero-actions"><a class="btn" href="#grades">' + esc(T.pickGrade) + '</a></p>\n<nav class="level-jump" aria-label="' + esc(T.pickGrade) + '">' + ['primary', 'middle', 'high'].map((l) => '<a class="btn btn-ghost" href="#cap-' + l + '">' + esc(T.levels[l][0]) + '</a>').join('') + '</nav>\n</div>\n' +
+    '<p class="hero-actions"><a class="btn" href="#grades">' + esc(T.pickGrade) + '</a></p>\n<nav class="level-jump" aria-label="' + esc(T.pickGrade) + '">' + ['primary', 'middle', 'high'].map((l) => '<a class="btn btn-ghost" href="' + relDir(d, levelDir(lang, l)) + '">' + esc(T.levels[l][0]) + '</a>').join('') + '</nav>\n</div>\n' +
     '<div class="hero-art" aria-hidden="true">' + mascot({ cls: 'hero-mascot', mood: 'wow' }) + '<span class="float f1">x²</span><span class="float f2">π</span><span class="float f3">∑</span><span class="float f4">√</span></div>\n</section>\n' +
     '<section class="off-promo" aria-labelledby="off-h"><div class="off-promo-text"><p class="eyebrow">' + esc(T.offEyebrow) + '</p><h2 id="off-h">' + esc(T.offH) + '</h2><p>' + esc(T.offLead) + '</p>' +
     '<ul>' + T.offPoints.map((x) => '<li>' + esc(x) + '</li>').join('') + '</ul>' +
@@ -905,6 +921,7 @@ function main() {
   LANGS.forEach((lang) => {
     homePage(lang);
     examsPage(lang, examsIntro[lang]);
+    ['primary', 'middle', 'high'].forEach((l) => levelPage(lang, l));
     tracks.forEach((g) => {
       gradePage(lang, g);
       if (g.status === 'full') g.chapters.filter((c) => c.lessons.length).forEach((c) => chapterPage(lang, c));

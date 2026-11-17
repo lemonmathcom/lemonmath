@@ -121,6 +121,8 @@ img { max-width: 100%; height: auto; }
 .btn[aria-pressed="true"] .chk { background: currentColor; box-shadow: inset 0 0 0 3px #BBF7D0; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; }
 
+.level-jump { display: flex; flex-wrap: wrap; gap: 10px; margin: 28px 0 8px; }
+
 /* ---------- home ---------- */
 .hero { display: grid; grid-template-columns: 1.3fr .7fr; gap: 24px; align-items: center; padding: 20px 0 10px; }
 .eyebrow { display: inline-block; margin: 0 0 8px; padding: 4px 14px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); font: 800 .85rem var(--font); letter-spacing: .04em; text-transform: uppercase; color: var(--lvl-ink); }
