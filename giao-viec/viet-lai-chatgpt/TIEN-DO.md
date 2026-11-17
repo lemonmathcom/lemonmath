@@ -35,26 +35,26 @@ Quyết định 12/11/2026: bản ChatGPT nộp (sinh bằng script, gợi ý ch
 | B119 | 7 | set-of-rational-numbers | Tập hợp các số hữu tỉ | giao Kinangtoan (đợt 2, 13/11) |
 | B120 | 7 | rational-number-operations | Các phép tính với số hữu tỉ | giao Kinangtoan (đợt 2, 13/11) |
 | B121 | 7 | powers-of-rational-numbers | Luỹ thừa của một số hữu tỉ | giao Kinangtoan (đợt 2, 13/11) |
-| B122 | 7 | operations-and-transposition | Thứ tự thực hiện phép tính và quy tắc chuyển vế | giao Alexnguyen122222 (đợt 2, 13/11) |
-| B123 | 7 | recurring-decimals | Số thập phân hữu hạn và số thập phân vô hạn tuần hoàn | giao Alexnguyen122222 (đợt 2, 13/11) |
-| B124 | 7 | set-of-real-numbers | Tập hợp các số thực | giao Alexnguyen122222 (đợt 2, 13/11) |
-| B125 | 7 | angle-pairs-bisectors | Các cặp góc đặc biệt và tia phân giác | giao thichgiaitoan (đợt 2, 13/11) |
-| B126 | 7 | identifying-parallel-lines | Nhận biết hai đường thẳng song song | giao thichgiaitoan (đợt 2, 13/11) |
-| B127 | 7 | theorems-and-proofs | Định lí và chứng minh định lí | giao thichgiaitoan (đợt 2, 13/11) |
-| B128 | 7 | triangle-angle-sum | Tổng ba góc trong một tam giác | giao Lemonmath.com (đợt 2, 13/11) |
-| B129 | 7 | congruent-triangles-sss | Hai tam giác bằng nhau và trường hợp cạnh–cạnh–cạnh | giao Lemonmath.com (đợt 2, 13/11) |
-| B130 | 7 | congruence-sas-asa | Trường hợp cạnh–góc–cạnh và góc–cạnh–góc | giao Lemonmath.com (đợt 2, 13/11) |
+| B122 | 7 | operations-and-transposition | Thứ tự thực hiện phép tính và quy tắc chuyển vế | xong 17/11 (đã đăng) |
+| B123 | 7 | recurring-decimals | Số thập phân hữu hạn và số thập phân vô hạn tuần hoàn | xong 17/11 (đã đăng) |
+| B124 | 7 | set-of-real-numbers | Tập hợp các số thực | xong 17/11 (đã đăng) |
+| B125 | 7 | angle-pairs-bisectors | Các cặp góc đặc biệt và tia phân giác | xong 17/11 (đã đăng) |
+| B126 | 7 | identifying-parallel-lines | Nhận biết hai đường thẳng song song | xong 17/11 (đã đăng) |
+| B127 | 7 | theorems-and-proofs | Định lí và chứng minh định lí | xong 17/11 (đã đăng) |
+| B128 | 7 | triangle-angle-sum | Tổng ba góc trong một tam giác | xong 17/11 (đã đăng) |
+| B129 | 7 | congruent-triangles-sss | Hai tam giác bằng nhau và trường hợp cạnh–cạnh–cạnh | xong 17/11 (đã đăng) |
+| B130 | 7 | congruence-sas-asa | Trường hợp cạnh–góc–cạnh và góc–cạnh–góc | xong 17/11 (đã đăng) |
 | B131 | 7 | right-triangle-congruence | Các trường hợp bằng nhau của tam giác vuông | giao Vinax.vn (đợt 2, 13/11) |
 | B132 | 7 | isosceles-perpendicular-bisector | Tam giác cân và đường trung trực của đoạn thẳng | giao Vinax.vn (đợt 2, 13/11) |
 | B133 | 7 | g7-collecting-classifying-data | Thu thập và phân loại dữ liệu | giao Nguyenchanh2358 (đợt 2, 13/11) |
 | B134 | 7 | line-graphs | Biểu đồ đoạn thẳng | giao Nguyenchanh2358 (đợt 2, 13/11) |
-| B135 | 7 | proportions | Tỉ lệ thức | giao Vinax258 (đợt 2, 13/11) |
-| B136 | 7 | direct-proportion | Đại lượng tỉ lệ thuận | giao Vinax258 (đợt 2, 13/11) |
-| B137 | 7 | algebraic-expressions | Biểu thức đại số | giao Vimus2358 (đợt 2, 13/11) |
-| B138 | 7 | g7-add-subtract-polynomials | Cộng và trừ đa thức | giao Vimus2358 (đợt 2, 13/11) |
-| B139 | 7 | dividing-polynomials | Phép chia đa thức | giao Lemonmath112 (đợt 2, 13/11) |
-| B140 | 7 | intro-to-events | Làm quen với biến cố và xác suất | giao Lemonmath112 (đợt 2, 13/11) |
-| B141 | 7 | angles-and-opposite-sides | Quan hệ giữa góc và cạnh đối diện trong tam giác | giao Vinax.vn (đợt 2, 13/11) |
+| B135 | 7 | proportions | Tỉ lệ thức | xong 17/11 (đã đăng) |
+| B136 | 7 | direct-proportion | Đại lượng tỉ lệ thuận | xong 17/11 (đã đăng) |
+| B137 | 7 | algebraic-expressions | Biểu thức đại số | xong 17/11 (đã đăng) |
+| B138 | 7 | g7-add-subtract-polynomials | Cộng và trừ đa thức | xong 17/11 (đã đăng) |
+| B139 | 7 | dividing-polynomials | Phép chia đa thức | xong 17/11 (đã đăng) |
+| B140 | 7 | intro-to-events | Làm quen với biến cố và xác suất | xong 17/11 (đã đăng) |
+| B141 | 7 | angles-and-opposite-sides | Quan hệ giữa góc và cạnh đối diện trong tam giác | xong 17/11 (đã đăng) |
 
 ## 17/11/2026: đổi cách giao 23 bài lớp 7
 Chín tài khoản được giao 13/11 chưa nộp bài nào, nên chủ dự án chuyển sang chia thành 5 gói theo chương cho 5 tài khoản Claude Free: `giao-viec/dot2-lop7-5goi/GOI-1..5.txt`.
