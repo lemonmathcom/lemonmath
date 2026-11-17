@@ -30,7 +30,7 @@
     partNote: ['Mỗi câu hỏi chỉ chọn một phương án.', 'Trong mỗi ý a), b), c), d) ở mỗi câu, chọn đúng hoặc sai.', 'Viết đáp số vào chỗ trống.'], foot: 'tự học toán từng bước', ready: function (n, c) { return 'Đã tạo ' + c + ' mã đề, mỗi mã ' + n + ' câu. Xem trước ở dưới, rồi bấm in.'; },
     scH: 'Phân tích điểm của lớp', scLead: 'Dán danh sách điểm vào ô dưới đây, mỗi học sinh một dòng (tên rồi đến điểm, hoặc chỉ điểm). Điểm chỉ được tính ngay trên máy của thầy cô.',
     scPh: 'Nguyễn Văn An 7,5\nTrần Thị Bình 4\nLê Minh Châu 9,25', max: 'Thang điểm', run: 'Phân tích', none2: 'Chưa đọc được điểm nào. Mỗi dòng cần kết thúc bằng một con số.',
-    n: 'Sĩ số', mean: 'Điểm trung bình', med: 'Trung vị', hi: 'Cao nhất', lo: 'Thấp nhất', pass: 'Từ 5 trở lên', good: 'Từ 8 trở lên', dist: 'Phân bố theo mức', notes: 'Gợi ý cho thầy cô', each: 'Nhận xét cho từng học sinh', copy: 'Sao chép tất cả nhận xét', copied: 'Đã sao chép', student: 'Học sinh', pts: 'điểm', outOf: 'quy ra thang 10',
+    n: 'Sĩ số', mean: 'Điểm trung bình', med: 'Trung vị', hi: 'Cao nhất', lo: 'Thấp nhất', pass: 'Từ 5 trở lên', good: 'Từ 8 trở lên', dist: 'Phân bố theo mức', notes: 'Gợi ý cho thầy cô', each: 'Nhận xét gửi phụ huynh từng học sinh', copy: 'Sao chép tất cả nhận xét', copied: 'Đã sao chép', student: 'Học sinh', pts: 'điểm', outOf: 'quy ra thang 10',
     bad: function (l) { return 'Bỏ qua ' + l + ' dòng không đọc được điểm hoặc điểm vượt thang.'; }
   } : {
     tqH: 'Build a test from the question bank', tqLead: function (n) { return 'The bank holds ' + n + ' questions from Lemonmath’s mini tests, each with its answer and an explanation. Choose lessons, choose how many questions, then print.'; },
@@ -43,7 +43,7 @@
     partNote: ['Choose one option for each question.', 'For each statement a), b), c), d), decide whether it is true or false.', 'Write your answer in the space.'], foot: 'teach yourself maths, step by step', ready: function (n, c) { return c + (c === 1 ? ' version' : ' versions') + ' built, ' + n + ' questions each. Preview below, then print.'; },
     scH: 'Analyse class scores', scLead: 'Paste the scores below, one student per line (name then score, or just the score). The scores are processed on your device only.',
     scPh: 'Anna Nguyen 7.5\nBinh Tran 4\nChau Le 9.25', max: 'Maximum score', run: 'Analyse', none2: 'No scores could be read. Each line should end with a number.',
-    n: 'Students', mean: 'Mean', med: 'Median', hi: 'Highest', lo: 'Lowest', pass: '5 or above', good: '8 or above', dist: 'Distribution by level', notes: 'Suggestions for the teacher', each: 'A comment for each student', copy: 'Copy all comments', copied: 'Copied', student: 'Student', pts: 'points', outOf: 'on the 10-point scale',
+    n: 'Students', mean: 'Mean', med: 'Median', hi: 'Highest', lo: 'Lowest', pass: '5 or above', good: '8 or above', dist: 'Distribution by level', notes: 'Suggestions for the teacher', each: 'A note to each student’s parents', copy: 'Copy all comments', copied: 'Copied', student: 'Student', pts: 'points', outOf: 'on the 10-point scale',
     bad: function (l) { return l + (l === 1 ? ' line was' : ' lines were') + ' skipped: no score found, or the score is above the maximum.'; }
   };
 
@@ -192,28 +192,233 @@
     };
     $('#tq-print').addEventListener('click', function () { doPrint(false); });
     $('#tq-printq').addEventListener('click', function () { doPrint(true); });
+
+    /* ---------- live class test: the whole class answers on their phones, this screen (on the projector) fills in as they go ----------
+     * Data lives for the length of the lesson in a small realtime database (Firebase REST API):
+     *   live/<pin>/meta = { state: lobby|run|end, bank, lang, ids: [index in the bank], min, left (seconds), title }
+     *   live/<pin>/p/<student id> = { n: name, a: { <question index>: 'A'..'D' }, d: handed in?, t: joined at }
+     * Closing the class deletes it. */
+    var DB = app.getAttribute('data-live');
+    if (DB) (function () {
+      var L = vi ? {
+        go: '📺 Cho cả lớp làm trực tiếp', back: '📺 Mở lại màn hình lớp', noMc: 'Các bài đã chọn chưa có câu nhiều lựa chọn. Thầy cô chọn thêm bài nhé.', err: 'Chưa kết nối được máy chủ lớp học. Thầy cô kiểm tra mạng rồi thử lại.',
+        hint: 'Làm trực tiếp dùng các câu Phần I (nhiều lựa chọn) của những bài đã chọn, tối đa 30 câu.',
+        at: 'Vào', pin: 'Mã lớp', scan: 'Quét mã hoặc mở địa chỉ trên, rồi nhập mã lớp', joined: 'đã vào lớp', nobody: 'Chưa có ai vào. Học sinh mở địa chỉ trên bằng điện thoại.', min: 'Thời gian (phút)', start: '▶ Bắt đầu', end: '■ Kết thúc', close: 'Đóng lớp', full: '⛶ Toàn màn hình',
+        show: 'Hiện đúng sai', hide: 'Ẩn đúng sai', anon: 'Ẩn tên', named: 'Hiện tên', done: 'đã nộp', name: 'Học sinh', score: 'Điểm', right: '% đúng', q: 'Câu', stu: 'HS',
+        sureEnd: 'Kết thúc bài làm của cả lớp ngay bây giờ?', sureClose: 'Đóng lớp sẽ xoá toàn bộ bài làm của lớp này. Thầy cô đã chép điểm chưa?', leave: 'Lớp đang mở.',
+        ended: 'Đã kết thúc', n: 'Số bài', mean: 'Trung bình', med: 'Trung vị', pass: 'Từ 5 trở lên', hard: 'Câu sai nhiều nhất', tap: 'Bấm vào số câu để chiếu câu hỏi và xem lớp chọn gì.',
+        copy: 'Chép bảng điểm', copied: 'Đã chép', toSc: 'Viết nhận xét gửi phụ huynh', toScDone: 'Đã đưa điểm xuống mục Phân tích điểm ở dưới.', chose: 'lượt chọn', blank: 'Chưa trả lời', x: 'Đóng', expl: 'Giải thích'
+      } : {
+        go: '📺 Run it live for the class', back: '📺 Back to the class screen', noMc: 'The chosen lessons have no multiple-choice questions. Please choose more lessons.', err: 'Could not reach the class server. Check your connection and try again.',
+        hint: 'The live test uses Part I (multiple choice) questions from the chosen lessons, up to 30.',
+        at: 'Go to', pin: 'Class code', scan: 'Scan the code or open the address above, then enter the class code', joined: 'joined', nobody: 'Nobody yet. Students open the address above on their phones.', min: 'Time (minutes)', start: '▶ Start', end: '■ End', close: 'Close class', full: '⛶ Full screen',
+        show: 'Show right/wrong', hide: 'Hide right/wrong', anon: 'Hide names', named: 'Show names', done: 'handed in', name: 'Student', score: 'Score', right: '% right', q: 'Q', stu: 'S',
+        sureEnd: 'End the test for the whole class now?', sureClose: 'Closing the class deletes all of its answers. Have you copied the scores?', leave: 'The class is still open.',
+        ended: 'Finished', n: 'Papers', mean: 'Mean', med: 'Median', pass: '5 or above', hard: 'Most missed', tap: 'Click a question number to show the question and what the class chose.',
+        copy: 'Copy the scores', copied: 'Copied', toSc: 'Write notes to parents', toScDone: 'The scores are now in “Analyse class scores” below.', chose: 'chose', blank: 'No answer', x: 'Close', expl: 'Explanation'
+      };
+      var room = null, ov = null, es = null, pollT = 0, tickT = 0, lastSync = 0, queued = false, KEY = 'lm-live-host';
+      var btn = el('button', 'btn btn-outline'); btn.type = 'button'; btn.id = 'tq-live'; btn.textContent = L.go;
+      $('.tool-actions', app).appendChild(btn);
+      $('.tool-actions', app).parentNode.insertBefore(el('p', 'tool-mini', L.hint), $('#tq-msg'));
+      function fb(method, path, body) {
+        return fetch(DB + '/live/' + path + '.json', { method: method, body: body === undefined ? undefined : JSON.stringify(body) }).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+      }
+      function fail() { msg.textContent = L.err; }
+      function newPin(k) { var pin = String(Math.floor(100000 + Math.random() * 900000)); return fb('GET', pin + '/meta').then(function (m) { return m && k < 5 ? newPin(k + 1) : pin; }); }
+      function create() {
+        var ids = chosen();
+        if (!bank || !ids.length) { msg.textContent = T.needLesson; return; }
+        var n = Math.max(1, Math.min(30, parseInt($('#tq-n-mc').value, 10) || 10)), list = take('mc', n, ids);
+        if (!list.length) { msg.textContent = L.noMc; return; }
+        var bankId = gradeSel.value, title = ($('#tq-title').value || '').trim().slice(0, 80);
+        btn.disabled = true;
+        newPin(0).then(function (pin) {
+          return fb('PUT', pin + '/meta', { state: 'lobby', bank: bankId, lang: vi ? 'vi' : 'en', ids: list.map(function (it) { return bank.items.indexOf(it); }), min: 15, left: 0, title: title, t: { '.sv': 'timestamp' } })
+            .then(function () { open({ pin: pin, bankId: bankId, items: list, min: 15, state: 'lobby', left: 0, title: title }); });
+        }).catch(fail).then(function () { btn.disabled = false; });
+      }
+      btn.addEventListener('click', function () { if (room) { ov.hidden = false; d.documentElement.classList.add('lv-open'); } else create(); });
+
+      function open(r) {
+        room = r; room.P = {}; room.reveal = false; room.anon = false;
+        try { sessionStorage.setItem(KEY, JSON.stringify({ pin: r.pin, bankId: r.bankId })); } catch (e) {}
+        ov = el('div', 'lv'); ov.setAttribute('role', 'dialog'); ov.setAttribute('aria-modal', 'true');
+        d.body.appendChild(ov); d.documentElement.classList.add('lv-open');
+        btn.textContent = L.back; msg.textContent = '';
+        window.addEventListener('beforeunload', warn);
+        listen(); frame();
+        if (room.state === 'run') { room.endAt = Date.now() + room.left * 1000; tickT = setInterval(tick, 1000); tick(); }
+      }
+      function warn(e) { e.preventDefault(); e.returnValue = L.leave; return L.leave; }
+      function setDeep(o, ks, v) {
+        for (var i = 0; i < ks.length - 1; i++) { if (o[ks[i]] == null || typeof o[ks[i]] !== 'object') o[ks[i]] = {}; o = o[ks[i]]; }
+        if (v === null) delete o[ks[ks.length - 1]]; else o[ks[ks.length - 1]] = v;
+      }
+      function listen() {
+        var poll = function () { if (room) fb('GET', room.pin + '/p').then(function (p) { if (room) { room.P = p || {}; draw(); } }, function () {}); };
+        if (window.EventSource) {
+          try {
+            es = new EventSource(DB + '/live/' + room.pin + '/p.json');
+            var on = function (patch) {
+              return function (e) {
+                if (!room) return;
+                var m = JSON.parse(e.data), ks = m.path.split('/').filter(Boolean);
+                if (!ks.length && !patch) room.P = m.data || {};
+                else if (patch && m.data && typeof m.data === 'object') Object.keys(m.data).forEach(function (k) { setDeep(room.P, ks.concat(k.split('/')), m.data[k]); });
+                else setDeep(room.P, ks, m.data);
+                draw();
+              };
+            };
+            es.addEventListener('put', on(false)); es.addEventListener('patch', on(true));
+          } catch (e) { es = null; }
+        }
+        pollT = setInterval(poll, es ? 6000 : 3000); poll();   // the stream is the fast path; this keeps the board right if it stalls
+      }
+      function players() { return Object.keys(room.P).map(function (id) { var p = room.P[id] || {}; p.id = id; return p; }).filter(function (p) { return typeof p.n === 'string'; }).sort(function (a, b) { return (a.t || 0) - (b.t || 0); }); }
+      function ans(p, i) { return p.a && p.a[i] ? String(p.a[i]) : ''; }
+      function right(p) { var c = 0; room.items.forEach(function (it, i) { if (ans(p, i) === it.k) c++; }); return c; }
+      function s10(p) { return right(p) / room.items.length * 10; }
+      function pinText() { return room.pin.slice(0, 3) + ' ' + room.pin.slice(3); }
+      function clock() { var s = Math.max(0, room.left | 0), m = Math.floor(s / 60); return (m < 10 ? '0' : '') + m + ':' + (s % 60 < 10 ? '0' : '') + (s % 60); }
+
+      /* the frame is rebuilt when the stage changes (lobby, running, finished); the board inside it on every answer */
+      function frame() {
+        var st = room.state, qr = $('#lv-qr');
+        var b = function (id, label, cls) { return '<button type="button" class="btn ' + (cls || 'btn-outline') + '" id="' + id + '">' + label + '</button>'; };
+        ov.innerHTML = '<header class="lv-top"><div class="lv-join">' + L.at + ' <b>' + esc(app.getAttribute('data-join')) + '</b> · ' + L.pin + ' <b class="lv-pin">' + pinText() + '</b></div>' +
+          '<div class="lv-clock" id="lv-clock">' + (st === 'run' ? clock() : st === 'end' ? L.ended : '') + '</div><div class="lv-btns">' +
+          (st === 'lobby' ? b('lv-start', L.start, ' ') : '') + (st === 'run' ? b('lv-reveal', room.reveal ? L.hide : L.show) : '') + (st !== 'lobby' ? b('lv-anon', room.anon ? L.named : L.anon) : '') +
+          (st === 'run' ? b('lv-end', L.end, ' ') : '') + (st === 'end' ? b('lv-copy', L.copy) + b('lv-tosc', L.toSc, ' ') : '') + (d.documentElement.requestFullscreen ? b('lv-full', L.full) : '') + (st !== 'run' ? b('lv-close', L.close) : '') +
+          '</div></header><main class="lv-main">' +
+          (st === 'lobby' ? '<div class="lv-lobby"><div class="lv-qr">' + (qr ? qr.innerHTML : '') + '</div><div><p class="lv-big">' + esc(app.getAttribute('data-join')) + '</p><p class="lv-code">' + pinText() + '</p><p>' + L.scan + '</p>' +
+            '<p><label>' + L.min + ' <input type="number" id="lv-min" min="1" max="120" value="' + room.min + '" inputmode="numeric"></label> · ' + room.items.length + ' ' + L.q.toLowerCase() + '</p></div></div><p class="lv-count" id="lv-count"></p><div class="lv-names" id="lv-names"></div>'
+            : '<p class="lv-count" id="lv-count"></p><div id="lv-stats"></div><div class="lv-scroll"><table class="lv-board" id="lv-board"></table></div><p class="lv-tip">' + L.tap + '</p>') +
+          '</main>';
+        var on = function (id, fn) { var x = $('#' + id, ov); if (x) x.addEventListener('click', fn); };
+        on('lv-start', begin); on('lv-end', function () { if (window.confirm(L.sureEnd)) finish(); });
+        on('lv-reveal', function () { room.reveal = !room.reveal; frame(); }); on('lv-anon', function () { room.anon = !room.anon; frame(); });
+        on('lv-full', function () { if (d.fullscreenElement) d.exitFullscreen(); else d.documentElement.requestFullscreen().catch(function () {}); });
+        on('lv-close', close); on('lv-copy', copy); on('lv-tosc', toScores);
+        draw();
+      }
+      function draw() { if (queued || !room) return; queued = true; setTimeout(function () { queued = false; if (room) paint(); }, 150); }
+      function paint() {
+        var ps = players(), st = room.state, n = room.items.length, cnt = $('#lv-count', ov);
+        var who = function (p, i) { return room.anon ? L.stu + ' ' + (i + 1) : esc(p.n); };
+        if (st === 'lobby') {
+          cnt.textContent = ps.length ? ps.length + ' ' + L.joined : L.nobody;
+          $('#lv-names', ov).innerHTML = ps.map(function (p) { return '<span>' + esc(p.n) + '</span>'; }).join('');
+          return;
+        }
+        var show = room.reveal || st === 'end', done = ps.filter(function (p) { return p.d; }).length;
+        cnt.textContent = ps.length + ' ' + L.joined + ' · ' + done + ' ' + L.done;
+        ps.forEach(function (p, i) { p.i = i; });
+        if (show) ps = ps.slice().sort(function (a, b) { return right(b) - right(a) || a.i - b.i; });
+        var okBy = room.items.map(function (it, i) { return ps.filter(function (p) { return ans(p, i) === it.k; }).length; });
+        $('#lv-board', ov).innerHTML = '<thead><tr><th>#</th><th class="l">' + L.name + '</th>' + room.items.map(function (it, i) { return '<th><button type="button" data-q="' + i + '">' + (i + 1) + '</button></th>'; }).join('') + (show ? '<th>' + L.score + '</th>' : '') + '</tr></thead><tbody>' +
+          ps.map(function (p, r) {
+            return '<tr><td>' + (r + 1) + '</td><td class="l">' + who(p, p.i) + (p.d ? ' <span class="lv-done" title="' + L.done + '">✓</span>' : '') + '</td>' + room.items.map(function (it, i) {
+              var a = ans(p, i); return '<td class="' + (!a ? '' : !show ? 'on' : a === it.k ? 'ok' : 'no') + '">' + (show && a ? a : '') + '</td>';
+            }).join('') + (show ? '<td class="s">' + fmt(s10(p), 1) + '</td>' : '') + '</tr>';
+          }).join('') + '</tbody>' + (show && ps.length ? '<tfoot><tr><td></td><td class="l">' + L.right + '</td>' + okBy.map(function (c) { var pc = Math.round(100 * c / ps.length); return '<td class="' + (pc < 50 ? 'lo' : '') + '">' + pc + '</td>'; }).join('') + '<td></td></tr></tfoot>' : '');
+        var stats = $('#lv-stats', ov);
+        if (st === 'end' && ps.length) {
+          var xs = ps.map(s10).sort(function (a, b) { return a - b; }), m = xs.length, mean = xs.reduce(function (a, b) { return a + b; }, 0) / m, med = m % 2 ? xs[(m - 1) / 2] : (xs[m / 2 - 1] + xs[m / 2]) / 2;
+          var hard = okBy.map(function (c, i) { return { i: i, c: c }; }).sort(function (a, b) { return a.c - b.c; }).slice(0, 3).filter(function (h) { return h.c < ps.length; }).map(function (h) { return L.q + ' ' + (h.i + 1) + ' (' + Math.round(100 * h.c / ps.length) + '%)'; }).join(', ');
+          var box = function (l, v) { return '<div class="sc-stat"><b>' + v + '</b><span>' + l + '</span></div>'; };
+          stats.innerHTML = '<div class="sc-stats">' + box(L.n, m) + box(L.mean, fmt(mean)) + box(L.med, fmt(med)) + box(L.pass, Math.round(100 * xs.filter(function (x) { return x >= 5; }).length / m) + '%') + '</div>' + (hard ? '<p class="lv-hard"><b>' + L.hard + ':</b> ' + hard + '</p>' : '');
+        } else stats.innerHTML = '';
+      }
+      ov = null;
+      d.addEventListener('click', function (e) {
+        if (!room || !ov) return;
+        var t = e.target.closest ? e.target.closest('.lv-board button[data-q], .lv-qbox [data-x]') : null;
+        if (!t) return;
+        if (t.hasAttribute('data-x')) { $('.lv-qwrap', ov).remove(); return; }
+        var i = +t.getAttribute('data-q'), it = room.items[i], ps = players(), show = room.reveal || room.state === 'end';
+        var wrap = el('div', 'lv-qwrap'), none = ps.filter(function (p) { return !ans(p, i); }).length;
+        wrap.innerHTML = '<div class="lv-qbox"><button type="button" class="btn btn-outline lv-x" data-x="1">' + L.x + '</button><div class="lv-qtext"><b>' + T.q + ' ' + (i + 1) + '.</b> ' + it.q + '</div><ol class="lv-opts">' +
+          it.o.map(function (o, k) {
+            var c = ps.filter(function (p) { return ans(p, i) === 'ABCD'[k]; }).length, pc = ps.length ? 100 * c / ps.length : 0;
+            return '<li class="' + (show && 'ABCD'[k] === it.k ? 'ok' : '') + '"><span class="lv-bar" style="width:' + pc + '%"></span><b>' + 'ABCD'[k] + '.</b> <span>' + o + '</span><i>' + c + '</i></li>';
+          }).join('') + '</ol><p class="lv-none">' + L.blank + ': ' + none + '</p>' + (room.state === 'end' && it.e ? '<div class="lv-expl"><b>' + L.expl + ':</b> ' + it.e + '</div>' : '') + '</div>';
+        var old = $('.lv-qwrap', ov); if (old) old.remove();
+        ov.appendChild(wrap); drawMath(wrap);
+      });
+      function begin() {
+        room.min = Math.max(1, Math.min(120, parseInt($('#lv-min', ov).value, 10) || 15));
+        room.state = 'run'; room.left = room.min * 60; room.endAt = Date.now() + room.left * 1000; lastSync = Date.now();
+        fb('PATCH', room.pin + '/meta', { state: 'run', min: room.min, left: room.left }).catch(function () {});
+        frame(); tickT = setInterval(tick, 1000);
+      }
+      function tick() {
+        if (!room || room.state !== 'run') return;
+        room.left = Math.max(0, Math.round((room.endAt - Date.now()) / 1000));
+        var c = $('#lv-clock', ov); if (c) { c.textContent = clock(); c.classList.toggle('low', room.left <= 60); }
+        if (room.left <= 0) return finish();
+        if (Date.now() - lastSync >= 5000) { lastSync = Date.now(); fb('PATCH', room.pin + '/meta', { state: 'run', left: room.left }).catch(function () {}); }
+      }
+      function finish() {
+        clearInterval(tickT); room.state = 'end'; room.left = 0;
+        var put = function (k) { fb('PATCH', room.pin + '/meta', { state: 'end', left: 0 }).catch(function () { if (k < 5 && room) setTimeout(function () { put(k + 1); }, 2000); }); };
+        put(0); frame();
+      }
+      function rows() { return players().map(function (p) { return p.n.replace(/\s+/g, ' ').trim() + '\t' + fmt(s10(p)); }); }
+      function copy() { var c = $('#lv-copy', ov); if (navigator.clipboard) navigator.clipboard.writeText(rows().join('\n')).then(function () { c.textContent = '✓ ' + L.copied; }, function () {}); }
+      function toScores() {
+        var box = $('#sc-in'); if (!box) return;
+        box.value = rows().map(function (r) { return r.replace('\t', ' '); }).join('\n'); $('#sc-max').value = 10; $('#sc-run').click();
+        ov.hidden = true; d.documentElement.classList.remove('lv-open'); if (d.fullscreenElement) d.exitFullscreen();
+        msg.textContent = L.toScDone; $('#sc-app').scrollIntoView({ block: 'start' });
+        var back = el('button', 'btn lv-back'); back.type = 'button'; back.textContent = L.back;   // the class is still open: one tap brings its screen back
+        back.addEventListener('click', function () { back.remove(); if (ov) { ov.hidden = false; d.documentElement.classList.add('lv-open'); } });
+        d.body.appendChild(back);
+      }
+      function close() {
+        if (!window.confirm(L.sureClose)) return;
+        clearInterval(pollT); clearInterval(tickT); if (es) es.close(); es = null;
+        fb('DELETE', room.pin).catch(function () {});
+        try { sessionStorage.removeItem(KEY); } catch (e) {}
+        window.removeEventListener('beforeunload', warn);
+        var bk = $('.lv-back'); if (bk) bk.remove();
+        ov.remove(); ov = null; room = null; d.documentElement.classList.remove('lv-open'); if (d.fullscreenElement) d.exitFullscreen();
+        btn.textContent = L.go;
+      }
+      /* the page was reloaded by mistake in the middle of a lesson: pick the class up again */
+      try {
+        var saved = JSON.parse(sessionStorage.getItem(KEY) || 'null');
+        if (saved && saved.pin) Promise.all([fb('GET', saved.pin + '/meta'), fetch(bankUrl + saved.bankId + '.json').then(function (r) { return r.json(); })]).then(function (v) {
+          var m = v[0], b = v[1];
+          if (!m || !m.ids) { sessionStorage.removeItem(KEY); return; }
+          cache[saved.bankId] = b;
+          open({ pin: saved.pin, bankId: saved.bankId, items: [].concat(m.ids).map(function (i) { return b.items[i]; }).filter(Boolean), min: m.min || 15, state: m.state, left: m.left || 0, title: m.title || '' });
+        }).catch(function () {});
+      } catch (e) {}
+    })();
   })();
 
   /* ================= 2. class scores ================= */
   var sc = $('#sc-app');
   if (sc) (function () {
     var F = window.lmFeedback, names = F ? F.bands.map(function (b) { return b[1]; }) : [];
+    /* one comment per student, written to the parents: what the score says, then how to walk beside the child */
     var C = vi ? [
-      '{N} chưa nắm được kiến thức cơ bản của bài. Em cần ôn lại lí thuyết và làm lại các ví dụ mẫu, mỗi ngày một ít; thầy cô và gia đình cùng kèm thêm cho em.',
-      '{N} đã làm được một phần nhưng còn hổng một số kiến thức cơ bản. Em nên sửa lại các câu sai và luyện thêm dạng bài cơ bản để vượt mức 5.',
-      '{N} nắm được kiến thức cơ bản. Em cần luyện tập đều hơn để làm bài chắc tay và bớt lỗi tính toán.',
-      '{N} hiểu bài khá tốt. Em nên làm thêm bài vận dụng và soát lại bài trước khi nộp để lên mức Giỏi.',
-      '{N} nắm bài chắc và làm bài cẩn thận. Em có thể thử sức với các bài nâng cao.',
-      '{N} làm bài xuất sắc, hiểu sâu kiến thức. Em hãy tiếp tục phát huy và giúp đỡ các bạn trong lớp.',
-      '{N} đạt điểm tuyệt đối, rất đáng khen. Em hãy giữ vững phong độ và thử sức với những bài khó hơn.'
+      'Bài này còn khó với con, con chưa nắm được phần cơ bản. Con rất cần bố mẹ ở bên lúc này: mỗi tối bố mẹ ngồi cùng con 15 phút, cùng xem lại một ví dụ mẫu và động viên con làm lại từng bài nhỏ. Thầy cô sẽ kèm thêm cho con ở lớp.',
+      'Con đã làm được một phần, chỉ còn thiếu một chút nữa là đạt. Bố mẹ hãy ghi nhận sự cố gắng của con, cùng con xem lại những câu sai và hỏi con chỗ nào còn thấy khó. Có bố mẹ đồng hành, con sẽ sớm vượt mức 5.',
+      'Con đã nắm được kiến thức cơ bản. Bố mẹ hãy khen con vì điều đó, rồi khuyến khích con luyện đều mỗi ngày một ít để làm bài chắc tay hơn. Thỉnh thoảng bố mẹ nhờ con giảng lại một bài, con sẽ nhớ rất lâu.',
+      'Con hiểu bài khá tốt, đây là kết quả đáng mừng. Bố mẹ hãy chia vui với con và hỏi con câu nào con thấy tiếc nhất. Thêm một chút cẩn thận khi soát bài, con hoàn toàn có thể lên mức Giỏi.',
+      'Con nắm bài chắc và làm bài cẩn thận. Bố mẹ hãy nói cho con biết bố mẹ tự hào về sự chăm chỉ của con, và khuyến khích con thử sức với những bài khó hơn một chút.',
+      'Con làm bài xuất sắc và hiểu sâu kiến thức. Bố mẹ hãy cùng con mừng thành quả này, hỏi con đã học như thế nào, và động viên con giúp đỡ các bạn trong lớp.',
+      'Con đạt điểm tuyệt đối, một kết quả rất đáng tự hào. Bố mẹ hãy dành cho con một lời khen thật ấm áp vì sự nỗ lực, không chỉ vì điểm số, để con giữ được niềm vui học toán lâu dài.'
     ] : [
-      '{N} has not yet grasped the basics of this unit and needs to go back over the theory and worked examples, a little every day, with support from teacher and family.',
-      '{N} can do part of the work but has gaps in the basics. Correcting the wrong answers and practising standard questions should lift the score above 5.',
-      '{N} has the basics in place and needs more regular practice to work securely and avoid calculation slips.',
-      '{N} understands the unit well. More application problems and checking the paper before handing in would lead to a very good result.',
-      '{N} knows the unit securely and works carefully, and is ready to try more demanding problems.',
-      '{N} did excellently and shows deep understanding. Keep it up, and help classmates where possible.',
-      '{N} achieved full marks, which deserves real praise. Keep this standard and try harder problems.'
+      'This unit is still hard for {N}, and the basics are not in place yet. {N} needs you close by right now: sit together for 15 minutes each evening, look at one worked example and encourage one small exercise at a time. We will give extra help in class too.',
+      '{N} can do part of the work and is only a little short of a pass. Please notice the effort, go through the wrong answers together and ask which parts still feel hard. With you alongside, {N} will soon be above 5.',
+      '{N} has the basics in place. Please praise that, then encourage a little practice every day so the work becomes secure. Now and then, ask {N} to explain a lesson to you: it will stick for a long time.',
+      '{N} understands the unit well, which is good news. Share the joy, and ask which question {N} most regrets. With a little more care when checking, a very good result is well within reach.',
+      '{N} knows the unit securely and works carefully. Tell {N} you are proud of the hard work, and encourage trying problems that are a little harder.',
+      '{N} did excellently and shows deep understanding. Celebrate it together, ask how {N} studied, and encourage helping classmates.',
+      '{N} achieved full marks, something to be really proud of. A warm word of praise for the effort, not only the score, will help {N} keep enjoying maths for a long time.'
     ];
     sc.hidden = false;
     sc.innerHTML = '<h2>' + T.scH + '</h2><p>' + T.scLead + '</p>' +
@@ -255,7 +460,7 @@
       }
       var lines = rows.map(function (r, i) {
         var who = r.name || (T.student + ' ' + (i + 1));
-        return who + ' (' + fmt(r.raw) + (max !== 10 ? '/' + fmt(max) : '') + ' ' + T.pts + ', ' + names[r.k] + '): ' + C[r.k].replace('{N}', vi ? 'Em' : who.split(' ')[0]);
+        return who + ' (' + fmt(r.raw) + (max !== 10 ? '/' + fmt(max) : '') + ' ' + T.pts + ', ' + names[r.k] + '): ' + C[r.k].replace(/\{N\}/g, who.split(' ')[0]);
       });
       var top = Math.max.apply(null, cnt);
       res.innerHTML = '<div class="sc-stats">' + stat(T.n, n) + stat(T.mean, fmt(mean)) + stat(T.med, fmt(med)) + stat(T.hi, fmt(xs[n - 1])) + stat(T.lo, fmt(xs[0])) + stat(T.pass, pct(pass) + '%') + stat(T.good, pct(good) + '%') + '</div>' +

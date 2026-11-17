@@ -234,35 +234,35 @@
     var fmt = function (x) { var t = (Math.round(x * 100) / 100).toString(); return isVi ? t.replace('.', ',') : t; };
     /* bands on the 10-point scale: [from, name, remark, cute lines] */
     var BANDS = isVi ? [
-      [0, 'Cần cố gắng nhiều', 'Bài này còn khó với {b}, và điều đó hoàn toàn bình thường khi mới học. Điểm hôm nay chỉ cho biết {b} đang đứng ở đâu, không nói {b} sẽ đi được bao xa.',
-        ['Chanh nào lúc đầu cũng chua, kiên nhẫn một chút là thành nước chanh ngon thôi! 🍋', 'Chanh Lemon tin {b} lắm: ai giỏi toán cũng từng bắt đầu từ một bài làm sai be bét. 🌱', 'Điểm thấp không cắn đâu, nó chỉ chỉ đường thôi. Đi tiếp nhé! 🐢']],
-      [3.5, 'Chưa đạt', '{B} đã làm đúng được một phần, nghĩa là {b} không hề mất gốc. Chỉ còn thiếu một đoạn ngắn nữa là qua mức 5.',
-        ['Còn thiếu vài giọt nữa là đầy ly nước chanh rồi! 🍋', 'Gần tới rồi, Chanh Lemon đang đứng ở vạch 5 điểm vẫy tay chờ {b} đây! 👋', 'Sai chỗ nào, mai giỏi chỗ đó. Món hời đấy chứ! 😉']],
-      [5, 'Trung bình', '{B} đã qua mức đạt: phần cơ bản của bài {b} nắm được rồi. Giờ là lúc làm cho chắc tay hơn.',
-        ['Qua vạch rồi! Chanh Lemon tặng {b} một lát chanh mát lạnh. 🍋', 'Nền móng đã có, giờ mình xây thêm tầng thôi! 🧱', 'Một bước nhỏ hôm nay, một bậc điểm ngày mai. 🪜']],
-      [6.5, 'Khá', '{B} hiểu bài khá vững và làm đúng phần lớn các câu. Những câu còn sai chính là chỗ đáng học nhất hôm nay.',
-        ['Khá lắm! Ly nước chanh của {b} đã thơm rồi, thêm chút đường nữa là tuyệt. 🍹', 'Chanh Lemon vỗ tay bằng cả hai chiếc lá! 🍃👏', 'Thêm một chút cẩn thận là lên Giỏi ngay đấy. ✨']],
-      [8, 'Giỏi', '{B} nắm bài chắc và làm cẩn thận. Chỉ còn vài chi tiết nhỏ nữa là trọn vẹn.',
-        ['Giỏi quá! Chanh Lemon phải đeo kính râm vì {b} toả sáng. 😎🍋', 'Điểm này đủ làm cả vườn chanh nở hoa! 🌼', 'Suýt tuyệt đối rồi, lần sau {b} "vắt" nốt mấy điểm còn lại nhé! 🍋']],
-      [9, 'Xuất sắc', 'Một bài làm xuất sắc: {b} hiểu sâu và gần như không mắc lỗi.',
-        ['Xuất sắc! Chanh Lemon xin phép ngả mũ. 🎩🍋', 'Ngọt như chanh ngâm mật ong! 🍯', 'Chỉ cách điểm 10 đúng một cái chớp mắt thôi. 👀✨']],
-      [10, 'Tuyệt đối', 'Điểm tuyệt đối! {B} làm đúng tất cả, không sót một câu nào.',
-        ['10 điểm tròn như một quả chanh! Chanh Lemon nhảy múa mừng {b} đây! 💃🍋', 'Hôm nay vườn chanh mở hội vì {b}! 🎉', 'Không còn gì để chê, chỉ còn nước chanh để mời. 🍹']]
+      [0, 'Cần cố gắng nhiều', 'Bài này còn khó với {b}, và điều đó hoàn toàn bình thường khi mới học. Lemon thương sự cố gắng của {b} lắm. Điểm hôm nay chỉ cho biết {b} đang đứng ở đâu, không nói {b} sẽ đi được bao xa.',
+        ['Lemon ở ngay đây với {b}. Mình cùng làm lại từng câu một, chậm thôi cũng được, {b} nhé! 🍋', 'Lemon tin {b} lắm: ai giỏi toán cũng từng bắt đầu từ một bài làm sai nhiều như thế này. 🌱', '{B} đã dám làm đến hết bài, Lemon quý điều đó hơn cả điểm số. Mai mình thử lại nha! 🤗']],
+      [3.5, 'Chưa đạt', '{B} đã làm đúng được một phần rồi đấy, nghĩa là {b} không hề mất gốc. Chỉ còn một đoạn ngắn nữa thôi là qua mức 5, cố thêm chút nữa {b} nhé.',
+        ['Gần tới rồi {b} ơi! Lemon đang đứng ở vạch 5 điểm, vẫy tay chờ {b} đây. 👋🍋', 'Lemon thấy {b} đang tiến lên từng chút một. Đừng nản nhé, Lemon luôn cổ vũ {b}! 💛', 'Sai chỗ nào, mai mình giỏi chỗ đó. Lemon học cùng {b} mà! 😊']],
+      [5, 'Trung bình', '{B} đã qua mức đạt rồi, Lemon mừng cho {b} lắm! Phần cơ bản của bài {b} đã nắm được. Giờ mình luyện thêm cho thật chắc tay nhé.',
+        ['Qua vạch rồi! Lemon tặng {b} một lát chanh mát lạnh nè. 🍋', 'Lemon biết {b} đã cố gắng nhiều. Mỗi ngày thêm một chút, {b} sẽ bất ngờ về chính mình đấy! 🌟', 'Nền móng có rồi, mình cùng xây thêm tầng nữa nha {b}! 🧱💛']],
+      [6.5, 'Khá', '{B} hiểu bài khá vững và làm đúng phần lớn các câu, giỏi lắm! Những câu còn sai chính là món quà của hôm nay: sửa xong là {b} tiến thêm một bậc.',
+        ['Lemon vỗ tay cho {b} bằng cả hai chiếc lá! 🍃👏', 'Lemon tự hào về {b} lắm. Thêm một chút cẩn thận nữa là lên Giỏi ngay thôi! ✨', 'Ly nước chanh của {b} thơm rồi đấy, thêm chút đường nữa là tuyệt! 🍹']],
+      [8, 'Giỏi', '{B} nắm bài rất chắc và làm cẩn thận, Lemon vui quá! Chỉ còn vài chi tiết nhỏ nữa thôi là trọn vẹn.',
+        ['Giỏi quá {b} ơi! Lemon phải đeo kính râm vì {b} toả sáng. 😎🍋', 'Lemon tự hào về {b} vô cùng. Công sức luyện tập của {b} đang nở hoa đấy! 🌼', 'Suýt tuyệt đối rồi! Lần sau mình "vắt" nốt mấy điểm còn lại nha {b}. 🍋💛']],
+      [9, 'Xuất sắc', 'Một bài làm xuất sắc! {B} hiểu sâu và gần như không mắc lỗi nào. Lemon biết {b} đã chăm chỉ thế nào để có ngày hôm nay.',
+        ['Xuất sắc! Lemon xin ngả mũ trước {b}. 🎩🍋', 'Lemon hãnh diện về {b} lắm lắm! Ngọt như chanh ngâm mật ong. 🍯', 'Chỉ cách điểm 10 một cái chớp mắt thôi. {B} tuyệt lắm! 👀✨']],
+      [10, 'Tuyệt đối', 'Điểm tuyệt đối! {B} làm đúng tất cả, không sót một câu nào. Lemon mừng muốn rơi nước mắt luôn rồi!',
+        ['10 điểm tròn như một quả chanh! Lemon nhảy múa mừng {b} đây! 💃🍋', 'Hôm nay cả vườn chanh mở hội vì {b}! Lemon tự hào về {b} vô cùng. 🎉', 'Lemon ôm {b} một cái thật chặt nào! {B} xứng đáng lắm. 🤗💛']]
     ] : [
       [0, 'Just getting started', 'This one was tough, and that is normal when a topic is new. Today’s score only shows where you are standing, not how far you can go.',
-        ['Every lemon starts out sour. A little patience and it turns into lemonade! 🍋', 'Lemon believes in you: everyone who is good at maths once got a page full of wrong answers. 🌱', 'A low score does not bite. It just points the way. Keep going! 🐢']],
+        ['Lemon is right here with you. Let’s go through it again one question at a time, as slowly as you like! 🍋', 'Lemon believes in you: everyone who is good at maths once got a page full of wrong answers. 🌱', 'You stayed with it to the very end, and Lemon treasures that more than any score. Let’s try again tomorrow! 🤗']],
       [3.5, 'Not there yet', 'You got part of it right, so the basics are not lost. There is only a short stretch left to reach 5.',
-        ['A few more drops and the glass of lemonade is full! 🍋', 'So close. Lemon is waving at you from the 5-point line! 👋', 'What you got wrong today is what you will be good at tomorrow. Not a bad deal! 😉']],
+        ['So close! Lemon is waving at you from the 5-point line. 👋🍋', 'Lemon can see you moving forward bit by bit. Don’t lose heart, Lemon is cheering for you! 💛', 'What you got wrong today is what you will be good at tomorrow. Lemon is learning with you! 😊']],
       [5, 'Pass', 'You are over the line: the basics of this lesson are in place. Now it is time to make them steady.',
-        ['Over the line! Lemon hands you a cool slice of lemon. 🍋', 'The foundation is there. Time to build the next floor! 🧱', 'A small step today, one band higher tomorrow. 🪜']],
+        ['Over the line! Lemon hands you a cool slice of lemon. 🍋', 'Lemon knows how hard you tried. A little more each day and you will surprise yourself! 🌟', 'The foundation is there. Let’s build the next floor together! 🧱💛']],
       [6.5, 'Good', 'You understand this well and got most questions right. The ones you missed are the best thing to learn from today.',
-        ['Nicely done! Your lemonade smells great, one more spoon of sugar and it is perfect. 🍹', 'Lemon is clapping with both leaves! 🍃👏', 'A bit more care and this becomes “very good”. ✨']],
+        ['Lemon is clapping for you with both leaves! 🍃👏', 'Lemon is so proud of you. A bit more care and this becomes “very good”! ✨', 'Your lemonade smells great, one more spoon of sugar and it is perfect. 🍹']],
       [8, 'Very good', 'You know this lesson well and worked carefully. Only a few small details are left.',
-        ['Brilliant! Lemon needs sunglasses, you are shining. 😎🍋', 'That score could make a whole lemon orchard bloom! 🌼', 'So close to full marks. Squeeze out the last few points next time! 🍋']],
+        ['Brilliant! Lemon needs sunglasses, you are shining. 😎🍋', 'Lemon is so proud of you. All that practice is coming into bloom! 🌼', 'So close to full marks. Squeeze out the last few points next time! 🍋']],
       [9, 'Excellent', 'An excellent paper: deep understanding and almost no slips.',
-        ['Excellent! Lemon takes its hat off to you. 🎩🍋', 'Sweet as lemon in honey! 🍯', 'Full marks are just a blink away. 👀✨']],
+        ['Excellent! Lemon takes its hat off to you. 🎩🍋', 'Lemon could not be prouder of you. Sweet as lemon in honey! 🍯', 'Full marks are just a blink away. 👀✨']],
       [10, 'Perfect score', 'Full marks! Every single answer is right.',
-        ['A 10 as round as a lemon! Lemon is dancing for you! 💃🍋', 'The whole lemon orchard is having a party today! 🎉', 'Nothing to fix. Only lemonade to pour. 🍹']]
+        ['A 10 as round as a lemon! Lemon is dancing for you! 💃🍋', 'The whole lemon orchard is having a party today! 🎉', 'Here comes a big hug from Lemon. You earned it! 🤗💛']]
     ];
     var bandOf = function (s) { var k = 0; for (var i = 0; i < BANDS.length; i++) if (s >= BANDS[i][0] - 1e-9) k = i; return k; };
     var W = isVi ? {
@@ -274,12 +274,12 @@
     };
     /* one line for the parent sitting next to the child (primary and lower secondary) */
     var withParent = young || d.body.classList.contains('lvl-middle');
-    var PARENT = isVi ? ['Bố mẹ đừng trách điểm. Hãy ngồi cạnh con 15 phút, cùng đọc lại một ví dụ trong bài và để con tự làm lại một câu sai.',
-      'Bố mẹ nhờ con giảng lại một câu con làm sai. Con giảng được nghĩa là con đã hiểu; khen sự cố gắng trước, nói chuyện điểm sau.',
-      'Bố mẹ khen một điều cụ thể con đã làm tốt, rồi để con tự chọn bài tiếp theo. Được tự quyết, con sẽ thích tự học hơn.']
-      : ['Please do not scold the score. Sit with your child for 15 minutes, reread one example from the lesson together and let them redo one wrong question.',
-        'Ask your child to explain one question they got wrong. If they can explain it, they understand it. Praise the effort first, talk about the score later.',
-        'Praise one specific thing your child did well, then let them choose the next lesson. Children who get to decide enjoy studying on their own more.'];
+    var PARENT = isVi ? ['Bố mẹ ơi, lúc này con cần một cái ôm hơn là một lời trách. Bố mẹ ngồi cạnh con 15 phút, cùng đọc lại một ví dụ trong bài, rồi để con tự làm lại một câu sai nhé.',
+      'Bố mẹ hãy nhờ con giảng lại một câu con làm sai và lắng nghe con nói. Khen sự cố gắng của con trước, chuyện điểm số để sau: con sẽ muốn chia sẻ với bố mẹ nhiều hơn.',
+      'Bố mẹ hãy khen một điều cụ thể con đã làm tốt và hỏi con thấy vui nhất ở câu nào. Rồi để con tự chọn bài tiếp theo: được tin tưởng, con sẽ càng thích tự học.']
+      : ['Right now your child needs a hug more than a telling-off. Sit with them for 15 minutes, reread one example from the lesson together, then let them redo one wrong question.',
+        'Ask your child to explain one question they got wrong, and really listen. Praise the effort first and leave the score for later: they will want to share more with you.',
+        'Praise one specific thing your child did well and ask which question they enjoyed most. Then let them choose the next lesson: a child who feels trusted enjoys studying on their own.'];
     var parentsUrl0 = (root.getAttribute('data-root') || '.').replace(/\/$/, '');
     var parentsUrl = (parentsUrl0 === '.' ? '' : parentsUrl0 + '/') + (isVi ? 'phu-huynh/' : 'parents/');
     var base = (root.getAttribute('data-root') || '.').replace(/\/$/, '');

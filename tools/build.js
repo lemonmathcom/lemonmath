@@ -25,7 +25,7 @@ const { marked } = require('marked');
 const { render, esc, parseQuiz, optCols } = require('./render.js');
 const { mascot, icon } = require('./art.js');
 const { UI } = require('./ui.js');
-const { worksheet, WS_DIR, WS_LABEL } = require('./worksheet.js');
+const { worksheet, qrSvg, WS_DIR, WS_LABEL } = require('./worksheet.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.resolve(ROOT, process.env.OUT_DIR || 'dist');
@@ -99,8 +99,8 @@ if (!/^https:\/\/[^\s/]+$/.test(site.url)) fail('data/curriculum.json: "url" ph�
 
 const LANGS = ['en', 'vi'];
 const LANG = {
-  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', htmlLang: 'en', locale: 'en-US', name: 'English' },
-  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
+  en: { prefix: '', gradeSlug: (n) => 'grade-' + n, about: 'about', paper: 'learn-on-paper', parents: 'parents', week: 'this-week', offline: 'offline', exams: 'exams', teachers: 'teachers', join: 'join', htmlLang: 'en', locale: 'en-US', name: 'English' },
+  vi: { prefix: 'vi', gradeSlug: (n) => 'lop-' + n, about: 'gioi-thieu', paper: 'hoc-tren-giay', parents: 'phu-huynh', week: 'bai-cua-tuan', offline: 'hoc-offline', exams: 'on-thi', teachers: 'giao-vien', join: 'vao-lop', htmlLang: 'vi', locale: 'vi-VN', name: 'Tiếng Việt' }
 };
 const LEVEL = (n) => (n <= 5 ? 'primary' : n <= 9 ? 'middle' : 'high');
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -156,6 +156,9 @@ const isFull = (g) => g.status === 'full' && g.chapters.some((c) => c.lessons.le
 function offBox(lang, d, g, ch) {
   return '<div class="off-box" data-pack="' + packKey(lang, g) + '"' + (ch ? ' data-ch="' + ch.id + '"' : '') + ' data-hub="' + relDir(d, offlineDir(lang)) + '" hidden></div>\n';
 }
+const joinDir = (lang) => px.join(LANG[lang].prefix, LANG[lang].join);
+/* Live class test: address of the realtime database (Firebase Realtime Database, used through its REST API). Empty = the tool stays hidden. */
+const LIVE_DB = String(process.env.LIVE_DB || (cfg.site.live && cfg.site.live.firebase) || '').replace(/\/+$/, '');
 const abs = (dir) => site.url + '/' + (dir ? dir + '/' : '');
 const other = (lang) => (lang === 'en' ? 'vi' : 'en');
 
@@ -669,11 +672,21 @@ function teachersPage(lang, page) {
   const total = writeBank(lang);
   const body = '<article class="lesson about teach"><nav class="crumbs" aria-label="' + esc(T.breadcrumb) + '"><a href="' + relDir(d, homeDir(lang)) + '">' + esc(T.home) + '</a></nav>\n<h1>' + esc(page.meta.title) + '</h1>\n' +
     '<p class="lead">' + esc(page.meta.description) + '</p>\n<noscript><p class="soon-note">' + esc(T.noJs) + '</p></noscript>\n' +
-    '<section id="tq-app" class="tool" data-bank="bank/" data-total="' + total + '" data-site="' + esc(site.name) + '" hidden></section>\n' +
+    '<section id="tq-app" class="tool" data-bank="bank/" data-total="' + total + '" data-site="' + esc(site.name) + '"' +
+    (LIVE_DB ? ' data-live="' + esc(LIVE_DB) + '" data-join="' + esc(abs(joinDir(lang)).replace(/^https?:\/\//, '').replace(/\/$/, '')) + '"' : '') + ' hidden></section>\n' +
+    (LIVE_DB ? '<template id="lv-qr">' + qrSvg(abs(joinDir(lang))) + '</template>\n' : '') +
     '<section id="sc-app" class="tool" hidden></section>\n' +
     '<div class="prose">\n' + resolveLinks(page.rendered.html, d, lang, 'teachers') + '\n</div></article>\n<div id="tq-out" hidden></div>';
   put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: page.meta.title + ' | ' + site.name, description: page.meta.description, body, math: true, scripts: ['assets/katex/katex.min.js', 'assets/teacher.js'],
     jsonld: [crumbLD([{ name: T.home, url: abs(homeDir(lang)) }, { name: page.meta.title, url: abs(d) }])] }), page.modified);
+}
+
+/* The page students open on their phones to join a live class test (assets/live.js). */
+function joinPage(lang) {
+  const T = UI[lang], d = joinDir(lang), alt = joinDir(other(lang));
+  const body = '<article class="lesson about join"><h1>' + esc(T.joinTitle) + '</h1>\n<noscript><p class="soon-note">' + esc(T.noJs) + '</p></noscript>\n' +
+    '<div id="jn-app" data-db="' + esc(LIVE_DB) + '" data-bank-en="' + relDir(d, teachersDir('en')) + 'bank/" data-bank-vi="' + relDir(d, teachersDir('vi')) + 'bank/" hidden></div></article>';
+  put(lang, d, alt, shell({ lang, dir: d, altDir: alt, title: T.joinTitle + ' | ' + site.name, description: T.joinDesc, body, math: true, noindex: true, scripts: ['assets/katex/katex.min.js', 'assets/live.js'] }), null, true);
 }
 
 function searchIndex(lang) {
@@ -902,6 +915,7 @@ function main() {
     if (parents[lang]) aboutPage(lang, parents[lang], parentsDir);
     if (week[lang]) aboutPage(lang, week[lang], weekDir);
     if (teach[lang]) teachersPage(lang, teach[lang]);
+    if (teach[lang] && LIVE_DB) joinPage(lang);
     if (offline[lang]) offlinePage(lang, offline[lang]);
     searchIndex(lang);
   });
