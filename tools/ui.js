@@ -15,7 +15,7 @@ const UI = {
     offlineNav: 'Learn offline',
     offEyebrow: 'No internet needed',
     offH: 'Download the lessons. Switch the Wi-Fi off. Keep learning.',
-    offLead: 'Patchy connection? Or would you rather your child studied with the internet off, away from videos and games? Save a whole grade on the phone, tablet or computer once, and every lesson opens with no connection at all.',
+    offLead: 'Patchy connection? Or would you rather your child studied with the internet off? Save a grade once, then open any lesson with no connection.',
     offPoints: ['Lessons, worked solutions, quizzes and timed papers all work offline', 'Free, no account, nothing to install from a store', 'One tap to save a chapter or a whole grade'],
     offCta: 'Save lessons for offline',
     offHubH: 'Choose what to save on this device',
@@ -30,7 +30,7 @@ const UI = {
     teachers: 'Teachers',
     spreadH: 'Finding Lemonmath useful?', spreadP: 'Send this page to a friend, a parent or a teacher who could use it. Studying on your own is easier with company, and Lemonmath is free for everyone.',
     spreadShare: 'Share this page', spreadCopy: 'Copy the link', spreadMail: 'Email', spreadSubject: 'A free site for studying maths on your own', spreadBody: 'I found this useful for learning maths step by step:',
-    loopH: 'How self-study works here', loopLead: 'Lemonmath is built for two people: the student, who learns to study maths independently, and the parent, who wants to walk beside them without having to be good at maths. Every lesson takes the student round the same four steps.',
+    loopH: 'How self-study works here', loopLead: 'Lemonmath is for two people: the student, who studies maths alone, and the parent, who walks beside them without being good at maths. Every lesson follows the same four steps.',
     loopParent: 'Are you a parent? See how to support your child in 15 minutes a day in', loopParentLink: 'the guide for parents',
     loop: [
       ['Learn', 'Read the lesson at your own pace. It starts from what you know and explains why, not just how.'],
@@ -78,10 +78,10 @@ const UI = {
       high: ['Upper secondary', 'Grades 10–12 · THPT']
     },
     homeTitle: 'Lemonmath: self-study maths for students, a guide for parents | Grades 1–12',
-    homeDesc: 'Free maths for grades 1–12: students study on their own with step-by-step lessons and instant feedback, and parents get a simple way to walk beside them.',
+    homeDesc: 'Free maths for grades 1–12: students study on their own with step-by-step lessons, and parents can walk beside them.',
     eyebrow: 'For students who study on their own · for parents beside them · free',
     h1: 'Study with passion and excitement',
-    lead: 'Lemonmath helps students get better at studying on their own, practise steadily until it is secure, and study with passion and excitement. Parents can walk beside their child without being good at maths. Grades 1–12, Vietnam’s curriculum, in English and Vietnamese.',
+    lead: 'Lemonmath helps students study on their own and practise until they feel confident. Parents can support their child without being good at maths. Grades 1–12, Vietnam’s curriculum, in English and Vietnamese.',
     pillarsH: 'Four things Lemonmath stands for',
     pillars: [
       ['tree', 'Stronger independent study', 'Every lesson is written so that a student can read it, understand it and do the work alone, at their own pace.'],
@@ -122,7 +122,7 @@ const UI = {
     offlineNav: 'Học offline',
     offEyebrow: 'Không cần mạng',
     offH: 'Tải bài về máy. Tắt Wi-Fi. Con vẫn học được.',
-    offLead: 'Nhà mạng chập chờn? Hay bố mẹ muốn ngắt mạng để con ngồi học cho tập trung, không video, không trò chơi? Chỉ cần tải cả lớp về điện thoại, máy tính bảng hay máy tính một lần, sau đó mở bài nào cũng được dù không có mạng.',
+    offLead: 'Mạng chập chờn? Hay bố mẹ muốn con học khi tắt mạng cho tập trung? Tải cả lớp về một lần, sau đó mở bài nào cũng được, kể cả không có mạng.',
     offPoints: ['Bài học, lời giải, trắc nghiệm tự chấm, đề thi bấm giờ đều chạy khi mất mạng', 'Miễn phí, không cần tài khoản, không phải cài từ kho ứng dụng', 'Bấm một lần để lưu một chương hoặc cả lớp'],
     offCta: 'Tải bài về máy để học offline',
     offHubH: 'Chọn lớp muốn lưu về máy này',
@@ -137,7 +137,7 @@ const UI = {
     teachers: 'Giáo viên',
     spreadH: 'Bạn thấy Lemonmath hữu ích?', spreadP: 'Hãy gửi trang này cho một người bạn, một phụ huynh hay một thầy cô đang cần. Tự học sẽ vui hơn khi có người đồng hành, và Lemonmath miễn phí cho tất cả mọi người.',
     spreadShare: 'Chia sẻ trang này', spreadCopy: 'Sao chép liên kết', spreadMail: 'Email', spreadSubject: 'Trang tự học toán miễn phí', spreadBody: 'Mình thấy trang này hữu ích để tự học toán từng bước:',
-    loopH: 'Tự học với Lemonmath như thế nào?', loopLead: 'Lemonmath được làm ra cho hai người: người học, để tự học toán được, và phụ huynh, để đồng hành cùng con mà không cần giỏi toán. Bài nào cũng đưa người học đi qua đúng bốn bước.',
+    loopH: 'Tự học với Lemonmath như thế nào?', loopLead: 'Lemonmath dành cho hai người: con tự học toán, và bố mẹ đồng hành mà không cần giỏi toán. Bài nào cũng đi qua đúng bốn bước.',
     loopParent: 'Bạn là phụ huynh? Xem cách đồng hành cùng con 15 phút mỗi ngày tại', loopParentLink: 'trang dành cho phụ huynh',
     loop: [
       ['Học', 'Đọc bài giảng theo nhịp của riêng bạn. Bài đi từ điều bạn đã biết và giải thích vì sao, không chỉ là làm thế nào.'],
@@ -188,7 +188,7 @@ const UI = {
     homeDesc: 'Toán lớp 1–12 miễn phí: học sinh tự học với bài giảng từng bước và nhận xét ngay sau bài kiểm tra, phụ huynh có cách đơn giản để đồng hành cùng con.',
     eyebrow: 'Con tự học · bố mẹ đồng hành · miễn phí',
     h1: 'Học với lòng hăng say và niềm phấn khởi',
-    lead: 'Lemonmath giúp học sinh tăng cường tự học, luyện tập đều đặn cho thật vững, và học với lòng hăng say, niềm phấn khởi. Bố mẹ không cần giỏi toán vẫn đồng hành được cùng con. Lớp 1–12, theo chương trình Việt Nam, có cả tiếng Việt và tiếng Anh.',
+    lead: 'Lemonmath giúp con tự học toán từng bước và luyện đến khi vững. Bố mẹ không cần giỏi toán vẫn đồng hành được cùng con. Lớp 1–12, theo chương trình Việt Nam, song ngữ Việt – Anh.',
     pillarsH: 'Bốn điều Lemonmath theo đuổi',
     pillars: [
       ['tree', 'Tăng cường tự học', 'Mỗi bài được viết để học sinh tự đọc, tự hiểu và tự làm được, theo nhịp của riêng mình.'],
