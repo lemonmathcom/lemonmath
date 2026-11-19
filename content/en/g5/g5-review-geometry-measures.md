@@ -292,7 +292,7 @@ The radius of the semicircle is $12\div2=6$ (m). The area of the rectangle is $2
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A triangle with base $10$ cm and height $6$ cm has an area of
 A. $30\ \text{cm}^2$.
 B. $16\ \text{cm}^2$.
@@ -301,7 +301,7 @@ D. $60\ \text{cm}^2$.
 ::key A
 $S=10\times6\div2=30\ (\text{cm}^2)$. Option D forgets to divide by $2$, B is the sum of the two numbers and C multiplies by $2$ again.
 
-::mc
+::mc TH
 A circle with radius $3$ cm has a circumference of
 A. $28.26$ cm.
 B. $18.84$ cm.
@@ -310,7 +310,7 @@ D. $37.68$ cm.
 ::key B
 $C=3\times2\times3.14=18.84$ cm. Option A is the area ($3\times3\times3.14$), C treats $3$ cm as the diameter and D uses a radius of $6$ cm.
 
-::mc
+::mc TH
 A cuboid tank that is $8$ dm long, $5$ dm wide and $6$ dm high holds, when full,
 A. $2400$ litres.
 B. $19$ litres.
@@ -319,7 +319,7 @@ D. $120$ litres.
 ::key C
 $8\times5\times6=240\ (\text{dm}^3)=240$ litres. Option B adds the three numbers, A multiplies by $10$ again and D divides by $2$ as for the area of a triangle.
 
-::mc
+::mc NB
 $3.5$ ha equals
 A. $350\ \text{m}^2$.
 B. $350\,000\ \text{m}^2$.
@@ -328,7 +328,7 @@ D. $35\,000\ \text{m}^2$.
 ::key D
 $1$ ha $=10\,000\ \text{m}^2$, so $3.5\times10\,000=35\,000$. The other options multiply by $100$, $1000$ or $100\,000$.
 
-::tf
+::tf TH TH VD VD
 A trapezium has parallel sides of $14$ m and $8$ m and a height of $6$ m.
 a) The area of the trapezium is $132\ \text{m}^2$.
 b) The area of the trapezium is $66\ \text{m}^2$.
@@ -337,12 +337,12 @@ d) If the height is doubled (the parallel sides stay the same), the area is $132
 ::key F T F T
 a) False: $(14+8)\times6=132$ has not been divided by $2$. b) True: $132\div2=66$. c) False: that triangle has area $14\times6\div2=42\ \text{m}^2$. d) True: $(14+8)\times12\div2=132$.
 
-::sa
+::sa TH
 Find the area of a circle with radius $10$ cm, using $3.14$ (in $\text{cm}^2$).
 ::key 314
 $S=10\times10\times3.14=314$.
 
-::sa
+::sa NB
 Change $0.5\ \text{m}^3$ to $\text{dm}^3$.
 ::key 500
 $0.5\times1000=500$.

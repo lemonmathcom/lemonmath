@@ -298,7 +298,7 @@ Giá hiện nay thấp hơn giá ban đầu $500\,000-495\,000=5\,000$ (đồng)
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Số lớn nhất trong các số $4{,}62$; $4{,}6$; $4{,}602$; $4{,}26$ là
 A. $4{,}26$.
 B. $4{,}6$.
@@ -307,7 +307,7 @@ D. $4{,}62$.
 ::key D
 Viết cùng ba chữ số thập phân: $4{,}620$; $4{,}600$; $4{,}602$; $4{,}260$. Phương án C là lỗi coi $602$ lớn hơn $62$ như số tự nhiên.
 
-::mc
+::mc TH
 $25\%$ của $360$ là
 A. $90$.
 B. $14{,}4$.
@@ -316,7 +316,7 @@ D. $1\,440$.
 ::key A
 $360\times25:100=90$. Phương án B là $360:25$, phương án C quên chia cho $100$, phương án D coi $360$ là $25\%$ của một số.
 
-::mc
+::mc TH
 Kết quả của $6{,}4:0{,}08$ là
 A. $0{,}8$.
 B. $80$.
@@ -325,7 +325,7 @@ D. $800$.
 ::key B
 Nhân cả hai số với $100$: $6{,}4:0{,}08=640:8=80$. Các phương án còn lại do dời dấu phẩy ở hai số không cùng số chữ số.
 
-::mc
+::mc VD
 Biết $30\%$ của một số bằng $45$. Số đó là
 A. $13{,}5$.
 B. $1\,350$.
@@ -334,7 +334,7 @@ D. $75$.
 ::key C
 $45:30\times100=150$. Phương án A là lỗi tìm $30\%$ của $45$, phương án B là $45\times30$, phương án D là $45+30$.
 
-::tf
+::tf TH VD VD TH
 Lớp 5A có $40$ học sinh, trong đó có $18$ em nữ.
 a) Số em nữ chiếm $45\%$ số học sinh cả lớp.
 b) Số em nam chiếm $22\%$ số học sinh cả lớp.
@@ -343,12 +343,12 @@ d) Số em nữ bằng $0{,}45$ số em nam.
 ::key Đ S Đ S
 a) Đúng: $18:40=0{,}45=45\%$. b) Sai: có $40-18=22$ em nam và $22:40=0{,}55=55\%$. c) Đúng: $22-18=4$ và $10\%\times40=4$. d) Sai: $0{,}45$ là tỉ số so với cả lớp, còn so với số em nam phải tính $18:22$.
 
-::sa
+::sa TH
 Viết $\dfrac{3}{8}$ dưới dạng tỉ số phần trăm. Điền số vào chỗ trống: $\square\%$.
 ::key 37,5
 $\dfrac{3}{8}=3:8=0{,}375=37{,}5\%$.
 
-::sa
+::sa VD
 Một chiếc áo giá $250$ nghìn đồng được giảm giá $12\%$. Hỏi sau khi giảm, chiếc áo có giá bao nhiêu nghìn đồng?
 ::key 220
 Số tiền được giảm là $250\times12:100=30$ (nghìn đồng), nên giá mới là $250-30=220$ (nghìn đồng).

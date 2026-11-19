@@ -437,7 +437,7 @@ Vậy $r=10$ cm, $h=10\sqrt3\approx17{,}32$ cm và $V\approx1814$ cm³.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Diện tích xung quanh của hình trụ có bán kính đáy $2$ cm, chiều cao $5$ cm là
 A. $10\pi$ cm².
 B. $28\pi$ cm².
@@ -446,7 +446,7 @@ D. $40\pi$ cm².
 ::key C
 $2\pi\cdot2\cdot5=20\pi$. A quên hệ số $2$, B là diện tích toàn phần, D dùng đường kính thay cho bán kính.
 
-::mc
+::mc NB
 Thể tích của hình trụ có bán kính đáy $3$ cm, chiều cao $4$ cm là
 A. $36\pi$ cm³.
 B. $12\pi$ cm³.
@@ -455,7 +455,7 @@ D. $48\pi$ cm³.
 ::key A
 $\pi\cdot9\cdot4=36\pi$. B là thể tích hình nón, C là diện tích xung quanh, D đổi chỗ $r$ và $h$ ($\pi\cdot4^2\cdot3$).
 
-::mc
+::mc TH
 Hình nón có bán kính đáy $3$ cm, chiều cao $4$ cm có đường sinh bằng
 A. $7$ cm.
 B. $\sqrt7$ cm.
@@ -464,7 +464,7 @@ D. $5$ cm.
 ::key D
 $l=\sqrt{9+16}=5$. A cộng hai cạnh, B lấy hiệu dưới căn, C quên lấy căn.
 
-::mc
+::mc NB
 Diện tích xung quanh của hình nón có bán kính đáy $3$ cm, đường sinh $5$ cm là
 A. $12\pi$ cm².
 B. $15\pi$ cm².
@@ -473,7 +473,7 @@ D. $24\pi$ cm².
 ::key B
 $\pi\cdot3\cdot5=15\pi$. A dùng chiều cao $4$ thay cho đường sinh, C dùng $2\pi rl$ như hình trụ, D là diện tích toàn phần.
 
-::tf
+::tf TH VD TH TH
 Cho hình nón có bán kính đáy $6$ cm, chiều cao $8$ cm. Xét tính đúng sai của các mệnh đề sau:
 a) Đường sinh của hình nón dài $10$ cm.
 b) Diện tích xung quanh là $60\pi$ cm².
@@ -482,12 +482,12 @@ d) Nếu giữ nguyên bán kính và tăng chiều cao lên gấp đôi thì th
 ::key Đ Đ S Đ
 a) Đúng: $\sqrt{36+64}=10$. b) Đúng: $\pi\cdot6\cdot10$. c) Sai: $V=\dfrac13\pi\cdot36\cdot8=96\pi$. d) Đúng: $V$ tỉ lệ thuận với $h$.
 
-::sa
+::sa TH
 Tính thể tích (đơn vị: cm³) của hình trụ có bán kính đáy $1$ cm, chiều cao $2$ cm (làm tròn kết quả đến hàng phần trăm).
 ::key 6,28
 $V=\pi\cdot1\cdot2=2\pi\approx6{,}28$ cm³.
 
-::sa
+::sa TH
 Một hình nón và một hình trụ có cùng bán kính đáy và cùng chiều cao. Thể tích hình trụ là $27$ dm³. Tính thể tích (đơn vị: dm³) của hình nón.
 ::key 9
 $V_{\text{nón}}=\dfrac13V_{\text{trụ}}=9$ dm³.

@@ -392,7 +392,7 @@ $$(\vec{a}+\vec{b})\cdot(\vec{a}-\vec{b})=|\vec{a}|^2-\vec{a}\cdot\vec{b}+\vec{b
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho $|\vec a|=4$, $|\vec b|=5$ và $(\vec a, \vec b)=120^\circ$. Tích vô hướng $\vec a\cdot\vec b$ bằng
 A. $10$.
 B. $-10$.
@@ -401,7 +401,7 @@ D. $-10\sqrt3$.
 ::key B
 $\vec a\cdot\vec b=4\cdot5\cdot\cos120^\circ=20\cdot\left(-\dfrac12\right)=-10$. Phương án A quên dấu âm của $\cos120^\circ$; C quên nhân với côsin.
 
-::mc
+::mc NB
 Cho $\vec a=(2; -3)$ và $\vec b=(4; 1)$. Khi đó $\vec a\cdot\vec b$ bằng
 A. $5$.
 B. $(8; -3)$.
@@ -410,7 +410,7 @@ D. $-5$.
 ::key A
 $\vec a\cdot\vec b=2\cdot4+(-3)\cdot1=8-3=5$. Tích vô hướng là một số, không phải vectơ (phương án B).
 
-::mc
+::mc TH
 Vectơ nào sau đây vuông góc với $\vec a=(3; -2)$?
 A. $(2; 3)$.
 B. $(3; 2)$.
@@ -419,7 +419,7 @@ D. $(2; -3)$.
 ::key A
 $3\cdot2+(-2)\cdot3=0$. Với B, C, D tích vô hướng lần lượt là $5$, $-13$, $12$, đều khác $0$; vectơ ở C ngược hướng với $\vec a$.
 
-::mc
+::mc TH
 Tam giác $ABC$ đều có cạnh bằng $2$. Tích vô hướng $\overrightarrow{AB}\cdot\overrightarrow{BC}$ bằng
 A. $2$.
 B. $-2$.
@@ -428,7 +428,7 @@ D. $2\sqrt3$.
 ::key B
 Hai vectơ không chung gốc; dời $\overrightarrow{AB}$ về gốc $B$ thì góc giữa chúng là $180^\circ-60^\circ=120^\circ$. Vậy tích bằng $2\cdot2\cdot\cos120^\circ=-2$. Phương án A lấy nhầm góc $\widehat{ABC}=60^\circ$.
 
-::tf
+::tf NB TH VD TH
 Trong mặt phẳng toạ độ, cho $A(1; 1)$, $B(4; 2)$, $C(2; 4)$.
 a) $\overrightarrow{AB}\cdot\overrightarrow{AC}=6$.
 b) Tam giác $ABC$ cân tại $A$.
@@ -437,12 +437,12 @@ d) Góc $\widehat{ABC}$ là góc tù.
 ::key Đ Đ S S
 $\overrightarrow{AB}=(3; 1)$, $\overrightarrow{AC}=(1; 3)$. a) Đúng: $3+3=6$. b) Đúng: $AB=AC=\sqrt{10}$. c) Sai: $\cos A=\dfrac{6}{10}=0{,}6\ne\dfrac12$ (góc $A\approx53{,}1^\circ$). d) Sai: $\overrightarrow{BA}\cdot\overrightarrow{BC}=(-3)(-2)+(-1)\cdot2=4>0$ nên góc $B$ nhọn.
 
-::sa
+::sa VD
 Cho $|\vec a|=3$, $|\vec b|=4$ và $(\vec a, \vec b)=60^\circ$. Tính $|\vec a+\vec b|$ (làm tròn đến hàng phần trăm).
 ::key 6,08
 $\vec a\cdot\vec b=3\cdot4\cdot\dfrac12=6$, nên $|\vec a+\vec b|^2=9+2\cdot6+16=37$ và $|\vec a+\vec b|=\sqrt{37}\approx6{,}08$.
 
-::sa
+::sa TH
 Một người kéo một thùng hàng trượt trên sàn bằng một sợi dây với lực $50$ N; dây hợp với hướng chuyển động một góc $40^\circ$. Thùng hàng di chuyển được $10$ m. Tính công của lực kéo (đơn vị: J, làm tròn đến hàng đơn vị).
 ::key 383
 $W=\vec F\cdot\vec d=50\cdot10\cdot\cos40^\circ\approx383$ (J).

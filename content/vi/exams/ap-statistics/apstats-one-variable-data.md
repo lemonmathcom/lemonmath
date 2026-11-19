@@ -278,7 +278,7 @@ Vì $12>9$ nên thứ tự được giữ nguyên. Vậy $x=12$.
 :::
 
 :::quiz
-::mc
+::mc NB
 Biến nào là biến định tính?
 A. Chiều cao tính bằng xăng-ti-mét
 B. Môn thể thao yêu thích
@@ -287,7 +287,7 @@ D. Thời gian chạy $100$ m
 ::key B
 Môn thể thao yêu thích xếp mỗi người vào một nhóm.
 
-::mc
+::mc NB
 Cặp số đo nào bền vững trước giá trị ngoại lai?
 A. Trung bình và độ lệch chuẩn
 B. Trung bình và IQR
@@ -296,7 +296,7 @@ D. Trung vị và IQR
 ::key D
 Cả hai đều dựa vào phần giữa của dữ liệu đã sắp xếp.
 
-::mc
+::mc TH
 Với một phân phối lệch trái mạnh, thông thường
 A. trung bình nhỏ hơn trung vị
 B. trung bình bằng trung vị
@@ -305,7 +305,7 @@ D. trung vị bằng $0$
 ::key A
 Đuôi dài bên trái kéo trung bình xuống.
 
-::mc
+::mc TH
 Một giá trị có điểm z bằng $-1$. Điều này nghĩa là giá trị đó
 A. nhỏ hơn trung bình $1$ đơn vị
 B. ở bách phân vị thứ $1$
@@ -314,7 +314,7 @@ D. nhỏ hơn giá trị nhỏ nhất
 ::key C
 Điểm z đếm số độ lệch chuẩn so với trung bình.
 
-::tf
+::tf TH NB TH VD
 Cho dữ liệu $2,\ 4,\ 6,\ 8,\ 10$. Xét tính đúng sai của các mệnh đề sau:
 a) Trung bình là $6$.
 b) Trung vị là $6$.
@@ -323,12 +323,12 @@ d) IQR bằng $4$.
 ::key T T T F
 $Q_1=3$ và $Q_3=9$, nên IQR bằng $6$.
 
-::sa
+::sa TH
 Tìm trung vị của $3,\ 9,\ 4,\ 7,\ 10$.
 ::key 7
 Sắp xếp: $3,4,7,9,10$.
 
-::sa
+::sa TH
 Một bài kiểm tra có trung bình $50$ và độ lệch chuẩn $6$. Tìm điểm z của điểm số $65$.
 ::key 2,5
 $\dfrac{65-50}{6}=2{,}5$.

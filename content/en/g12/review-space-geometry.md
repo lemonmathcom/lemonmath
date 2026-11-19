@@ -374,7 +374,7 @@ $d(M, (ABC))=\dfrac12 d(C', (ABC))=\dfrac h2$, so $V_{M.ABC}=\dfrac13\cdot B\cdo
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A pyramid has base area $12$ and height $5$. Its volume is
 A. $60$.
 B. $20$.
@@ -383,7 +383,7 @@ D. $10$.
 ::key B
 $V=\dfrac13\cdot12\cdot5=20$. Option A is the prism formula; option C uses the factor $\dfrac12$ by mistake.
 
-::mc
+::mc TH
 The pyramid $S.ABCD$ has $SA\perp(ABCD)$. The angle between the line $SB$ and the plane $(ABCD)$ is
 A. $\angle SBA$.
 B. $\angle BSA$.
@@ -392,7 +392,7 @@ D. $\angle SAB$.
 ::key A
 The projection of $SB$ on the base is $AB$, so the angle is $\angle SBA$. Option B is the angle between $SB$ and $SA$; option D is a right angle.
 
-::mc
+::mc VD
 $ABCD.A'B'C'D'$ is a cube with side $2$. The distance between the lines $AA'$ and $BD$ is
 A. $2$.
 B. $2\sqrt2$.
@@ -401,7 +401,7 @@ D. $\sqrt3$.
 ::key C
 With $O$ the centre of the base, $AO\perp BD$ and $AO\perp AA'$, so the distance is $AO=\dfrac{2\sqrt2}{2}=\sqrt2$. Option B is the whole diagonal $AC$; option A is the edge $AB$.
 
-::mc
+::mc TH
 The pyramid $S.ABCD$ has a rectangular base and $SA\perp(ABCD)$. Which plane is perpendicular to the plane $(SAB)$?
 A. $(SCD)$.
 B. $(SBD)$.
@@ -410,7 +410,7 @@ D. $(SBC)$.
 ::key D
 $BC\perp AB$ and $BC\perp SA$, so $BC\perp(SAB)$; the plane $(SBC)$ contains $BC$, so it is perpendicular to $(SAB)$.
 
-::tf
+::tf NB TH VD TH
 $S.ABCD$ is a regular square pyramid with all edges equal to $2$, and $O$ is the centre of the base.
 a) $SO\perp(ABCD)$.
 b) $SO=\sqrt2$.
@@ -419,12 +419,12 @@ d) The volume of the pyramid is $\dfrac{4\sqrt2}{3}$.
 ::key T T F T
 a) True: the foot of the height of a regular pyramid is the centre of the base. b) True: $AO=\sqrt2$ and $SO=\sqrt{4-2}=\sqrt2$. c) False: $\tan\angle SAO=\dfrac{\sqrt2}{\sqrt2}=1$, so the angle is $45^\circ$. d) True: $V=\dfrac13\cdot4\cdot\sqrt2$.
 
-::sa
+::sa TH
 A right prism has an equilateral base with side $2$ and lateral edges of length $3$. Find its volume (to 1 decimal place).
 ::key 5.2
 $B=\dfrac{2^2\sqrt3}{4}=\sqrt3$ and $V=3\sqrt3\approx5.196$, which rounds to $5.2$.
 
-::sa
+::sa VD
 The pyramid $S.ABC$ has $SA\perp(ABC)$, triangle $ABC$ has its right angle at $B$, and $SA=AB=2$. Find the distance from $A$ to the plane $(SBC)$ (to 2 decimal places).
 ::key 1.41
 $BC\perp(SAB)$, so the distance is the altitude $AH$ of the isosceles right-angled triangle $SAB$: $AH=\dfrac{SB}{2}=\dfrac{2\sqrt2}{2}=\sqrt2\approx1.41$.

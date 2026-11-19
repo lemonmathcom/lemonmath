@@ -477,7 +477,7 @@ Tổng quát: $\widehat{IBC}+\widehat{ICB}=\dfrac12(180^\circ-\widehat A)=90^\ci
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Tổng ba góc của một tam giác bằng
 A. $90^\circ$.
 B. $180^\circ$.
@@ -486,7 +486,7 @@ D. $360^\circ$.
 ::key B
 Đó là định lí về tổng ba góc của một tam giác. $90^\circ$ là tổng hai góc nhọn của tam giác vuông, $360^\circ$ là một vòng tròn.
 
-::mc
+::mc TH
 Tam giác $ABC$ có $\widehat A=50^\circ$, $\widehat B=60^\circ$. Khi đó $\widehat C$ bằng
 A. $60^\circ$.
 B. $110^\circ$.
@@ -495,7 +495,7 @@ D. $130^\circ$.
 ::key C
 $\widehat C=180^\circ-(50^\circ+60^\circ)=70^\circ$. C là $180^\circ-70^\circ$, D là $180^\circ-50^\circ$.
 
-::mc
+::mc TH
 Tam giác $ABC$ vuông tại $A$, $\widehat B=28^\circ$. Khi đó $\widehat C$ bằng
 A. $118^\circ$.
 B. $152^\circ$.
@@ -504,7 +504,7 @@ D. $62^\circ$.
 ::key D
 Hai góc nhọn phụ nhau: $\widehat C=90^\circ-28^\circ=62^\circ$. B là $180^\circ-28^\circ$.
 
-::mc
+::mc TH
 Tam giác $ABC$ có $\widehat B=40^\circ$, $\widehat C=65^\circ$. Góc ngoài tại đỉnh $A$ bằng
 A. $105^\circ$.
 B. $115^\circ$.
@@ -513,7 +513,7 @@ D. $140^\circ$.
 ::key A
 Góc ngoài tại $A$ bằng $\widehat B+\widehat C=105^\circ$. A là $\widehat A$ (góc trong).
 
-::tf
+::tf VD TH TH VD
 Tam giác $ABC$ có $\widehat A=40^\circ$ và $\widehat B=\widehat C$. Xét tính đúng sai của các mệnh đề sau:
 a) $\widehat B=80^\circ$.
 b) $\widehat B+\widehat C=40^\circ$.
@@ -522,12 +522,12 @@ d) Tam giác $ABC$ có ba góc nhọn.
 ::key S S Đ Đ
 Ta có $\widehat B+\widehat C=140^\circ$ nên $\widehat B=\widehat C=70^\circ$. a) Sai. b) Sai: tổng là $140^\circ$. c) Đúng: $180^\circ-40^\circ=140^\circ$. d) Đúng: $40^\circ$, $70^\circ$, $70^\circ$ đều nhọn.
 
-::sa
+::sa TH
 Tam giác $ABC$ có $\widehat A=75^\circ$, $\widehat B=45^\circ$. Tính $\widehat C$ (đơn vị: độ).
 ::key 60
 $180-(75+45)=60$.
 
-::sa
+::sa VD
 Ba góc của một tam giác tỉ lệ $1:2:3$. Góc lớn nhất bằng bao nhiêu độ?
 ::key 90
 $k+2k+3k=180$ nên $k=30$, góc lớn nhất là $3k=90$.

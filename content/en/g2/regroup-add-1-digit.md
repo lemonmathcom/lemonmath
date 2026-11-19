@@ -260,7 +260,7 @@ The sum has $1$ in the ones, so $\square+7=11$, which means $\square=4$. Check: 
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The answer to $47+6$ is
 A. $53$.
 B. $43$.
@@ -269,7 +269,7 @@ D. $413$.
 ::key A
 $7+6=13$, write $3$ carry $1$; $4+1=5$, so $47+6=53$. Option B forgets the carried ten, D writes all of $13$ in the ones.
 
-::mc
+::mc TH
 When you work out $68+5$, you write $3$ in the ones. How many tens do you carry to the tens?
 A. $0$.
 B. $1$.
@@ -278,7 +278,7 @@ D. $3$.
 ::key B
 $8+5=13$ is $1$ ten and $3$ ones, so you carry $1$ ten. Tens: $6+1=7$, so the answer is $73$.
 
-::mc
+::mc TH
 Which sum has the answer $52$?
 A. $47+4$.
 B. $45+8$.
@@ -287,7 +287,7 @@ D. $49+4$.
 ::key C
 $46+6=52$. The other sums give $53$, $51$ and $53$.
 
-::mc
+::mc VD
 Lan has $36$ book labels and a friend gives her $8$ more. How many book labels does Lan have altogether?
 A. $34$ labels.
 B. $28$ labels.
@@ -296,7 +296,7 @@ D. $44$ labels.
 ::key D
 "Gives more" means putting together: $36+8=44$. Option A forgets the carried ten, B works out $36-8$, a subtraction by mistake.
 
-::tf
+::tf NB TH VD TH
 Look at the sum $59+7$.
 a) Ones: $9+7=16$.
 b) $16$ ones can be exchanged for $1$ ten and $6$ ones.
@@ -305,12 +305,12 @@ d) $59+7$ is greater than $60$.
 ::key T T F T
 a) True: $9+7=16$. b) True: $16=10+6$. c) False: the tens are $5+1=6$, so the answer is $66$. d) True: $66>60$.
 
-::sa
+::sa VD
 Work out $75+8$.
 ::key 83
 $5+8=13$, write $3$ carry $1$; $7+1=8$. So $75+8=83$.
 
-::sa
+::sa VD
 A tank has $49$ fish and $5$ more fish are put in. How many fish are in the tank altogether?
 ::key 54
 $9+5=14$, write $4$ carry $1$; $4+1=5$. So $49+5=54$ (fish).

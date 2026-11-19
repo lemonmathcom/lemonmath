@@ -455,7 +455,7 @@ Vậy $6$ công nhân còn lại phải làm thêm $40$ ngày nữa mới xong c
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Biết $y$ tỉ lệ thuận với $x$ theo hệ số $3$. Khi $x=5$ thì $y$ bằng
 A. $8$.
 B. $\dfrac53$.
@@ -464,7 +464,7 @@ D. $2$.
 ::key C
 $y=3x$ nên khi $x=5$ thì $y=15$. A là $x+3$, B là $\dfrac x3$, D là $x-3$.
 
-::mc
+::mc TH
 Hai đại lượng $x$, $y$ tỉ lệ nghịch. Khi $x=4$ thì $y=15$. Hệ số tỉ lệ là
 A. $\dfrac4{15}$.
 B. $19$.
@@ -473,7 +473,7 @@ D. $60$.
 ::key D
 $a=xy=4\cdot15=60$. B là tổng $4+15$, C là $\dfrac yx$ (dùng cho tỉ lệ thuận), A là $\dfrac xy$.
 
-::mc
+::mc TH
 Đại lượng $y$ tỉ lệ nghịch với $x$ theo hệ số $24$. Khi $x=8$ thì $y$ bằng
 A. $3$.
 B. $16$.
@@ -482,7 +482,7 @@ D. $192$.
 ::key A
 $y=\dfrac{24}8=3$. A là $24\cdot8$, B là $24-8$, C là $\dfrac8{24}$.
 
-::mc
+::mc VD
 Một đội $5$ người làm xong một việc trong $12$ ngày. Nếu đội có $10$ người (năng suất như nhau) thì xong việc trong
 A. $24$ ngày.
 B. $6$ ngày.
@@ -491,7 +491,7 @@ D. $60$ ngày.
 ::key B
 Số người và số ngày tỉ lệ nghịch: $5\cdot12=10\cdot x$, nên $x=6$. A là kết quả khi dùng tỉ lệ thuận, C là $12-5$, D là $5\cdot12$.
 
-::tf
+::tf TH TH VD VD
 Cho bảng giá trị của hai đại lượng $x$, $y$:
 
 | $x$ | $2$ | $4$ | $6$ |
@@ -506,12 +506,12 @@ d) Khi $y=2$ thì $x=10$.
 ::key Đ S Đ S
 a) Đúng: $2\cdot12=4\cdot6=6\cdot4=24$. b) Sai: $y$ giảm khi $x$ tăng và tích không đổi, nên $y$ tỉ lệ nghịch với $x$. c) Đúng: $y=\dfrac{24}8=3$. d) Sai: $x=\dfrac{24}2=12$.
 
-::sa
+::sa VD
 Biết $y$ tỉ lệ thuận với $x$ và khi $x=6$ thì $y=15$. Tính $y$ khi $x=10$.
 ::key 25
 $k=\dfrac{15}6=2{,}5$ nên $y=2{,}5\cdot10=25$.
 
-::sa
+::sa VD
 Giả sử $5$ máy bơm cùng công suất bơm cạn một ao trong $6$ giờ. Hỏi $4$ máy bơm như thế bơm cạn ao đó trong bao nhiêu giờ? (viết dưới dạng số thập phân)
 ::key 7,5
 Số máy và số giờ tỉ lệ nghịch: $5\cdot6=4\cdot x$, nên $x=\dfrac{30}4=7{,}5$.

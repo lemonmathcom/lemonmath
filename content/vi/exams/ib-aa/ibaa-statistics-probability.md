@@ -232,7 +232,7 @@ $E(\text{tiền thưởng})=\dfrac{1+2+3+4+5+6}{6}=3{,}5$, nên $k=3{,}5$.
 :::
 
 :::quiz
-::mc
+::mc TH
 $A$ và $B$ xung khắc, với $P(A)=0{,}4$ và $P(B)=0{,}5$. $P(A\cup B)$ bằng
 A. $0{,}2$
 B. $0{,}7$
@@ -241,7 +241,7 @@ D. $1$
 ::key C
 Với biến cố xung khắc, $P(A\cup B)=P(A)+P(B)$.
 
-::mc
+::mc NB
 $X\sim B(5;0{,}2)$. $E(X)$ bằng
 A. $1$
 B. $0{,}2$
@@ -250,7 +250,7 @@ D. $5$
 ::key A
 $np=5(0{,}2)=1$.
 
-::mc
+::mc TH
 $X\sim N\left(\mu,\sigma^2\right)$. $P(X<\mu)$ bằng
 A. $0{,}68$
 B. $0{,}95$
@@ -259,7 +259,7 @@ D. $0{,}5$
 ::key D
 Phân phối chuẩn đối xứng qua trung bình.
 
-::mc
+::mc TH
 Một biến ngẫu nhiên nhận các giá trị $1$, $2$, $3$ với xác suất $0{,}2$, $k$, $0{,}5$. $k$ bằng
 A. $0{,}5$
 B. $0{,}3$
@@ -268,7 +268,7 @@ D. $0{,}2$
 ::key B
 $0{,}2+k+0{,}5=1$.
 
-::tf
+::tf TH TH VD TH
 $X\sim N\left(100;15^2\right)$.
 a) $P(X<100)=0{,}5$.
 b) $P(X>115)=P(X<85)$.
@@ -277,12 +277,12 @@ d) Phương sai của $X$ bằng $15$.
 ::key T T F F
 a) Đúng: tính đối xứng. b) Đúng: tính đối xứng. c) Sai: $P(X>130)\approx0{,}0228$. d) Sai: phương sai bằng $225$.
 
-::sa
+::sa VD
 Gieo một con xúc xắc cân đối sáu mặt. Tính số chấm kì vọng.
 ::key 3,5
 $\dfrac{21}{6}=3{,}5$.
 
-::sa
+::sa TH
 Tung một đồng xu cân đối hai lần. Tính xác suất được hai lần mặt ngửa.
 ::key 0,25
 $0{,}5^2=0{,}25$.

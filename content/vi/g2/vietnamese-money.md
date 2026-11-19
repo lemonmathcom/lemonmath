@@ -313,7 +313,7 @@ Ta có $10+5=15$ nên trả đúng $15\,000$ đồng bằng tờ $10\,000$ đồ
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Tờ tiền $20\,000$ đồng đọc là
 A. hai nghìn đồng.
 B. hai trăm đồng.
@@ -322,7 +322,7 @@ D. hai mươi nghìn đồng.
 ::key D
 $20\,000$ là 20 nghìn nên đọc là hai mươi nghìn đồng. Phương án A đọc thiếu một chữ số 0.
 
-::mc
+::mc TH
 Kết quả của $2\,000$ đồng $+\ 5\,000$ đồng là
 A. $7\,000$ đồng.
 B. $7$ đồng.
@@ -331,7 +331,7 @@ D. $3\,000$ đồng.
 ::key A
 $2+5=7$ nghìn đồng, tức là $7\,000$ đồng. Phương án D là phép trừ.
 
-::mc
+::mc VD
 Mai mua một quyển vở giá $6\,000$ đồng, đưa tờ $10\,000$ đồng. Cô bán hàng trả lại
 A. $16\,000$ đồng.
 B. $4\,000$ đồng.
@@ -340,7 +340,7 @@ D. $6\,000$ đồng.
 ::key B
 $10-6=4$ nghìn đồng, tức là $4\,000$ đồng. Phương án A là phép cộng nhầm.
 
-::mc
+::mc TH
 Một tờ $10\,000$ đồng đổi được mấy tờ $5\,000$ đồng?
 A. 10 tờ.
 B. 5 tờ.
@@ -349,7 +349,7 @@ D. 15 tờ.
 ::key C
 $5\,000+5\,000=10\,000$ nên đổi được 2 tờ. Phương án B là số tờ $2\,000$ đồng.
 
-::tf
+::tf TH TH NB TH
 Nam có hai tờ $5\,000$ đồng và một tờ $2\,000$ đồng.
 a) Nam có $12\,000$ đồng.
 b) Một tờ $10\,000$ đồng đổi được 3 tờ $5\,000$ đồng.
@@ -358,12 +358,12 @@ d) Nam trả đúng $7\,000$ đồng được bằng một tờ $5\,000$ đồng
 ::key Đ S Đ Đ
 a) Đúng: $5+5+2=12$ nghìn. b) Sai: $10\,000$ đổi được 2 tờ $5\,000$ đồng. c) Đúng: $5+5=10$. d) Đúng: $5+2=7$ nghìn.
 
-::sa
+::sa VD
 Nam có 8 nghìn đồng, mẹ cho thêm 5 nghìn đồng. Nam có tất cả bao nhiêu nghìn đồng?
 ::key 13
 $8+5=13$ (nghìn đồng).
 
-::sa
+::sa VD
 Một tờ $20\,000$ đồng đổi được mấy tờ $5\,000$ đồng?
 ::key 4
 $5+5+5+5=20$ nên đổi được 4 tờ.

@@ -377,7 +377,7 @@ We have $70-15=55$, which is odd, so it is not divisible by $2$. So there is no 
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The sum of two numbers is $84$ and the difference is $12$. The larger number is
 A. $96$.
 B. $36$.
@@ -386,7 +386,7 @@ D. $48$.
 ::key D
 The larger number is $(84+12)\div2=96\div2=48$. Option B is the smaller number, option C is $84-12$, and option A is $84+12$.
 
-::mc
+::mc TH
 The sum of two numbers is $125$ and the difference is $35$. The smaller number is
 A. $45$.
 B. $90$.
@@ -395,7 +395,7 @@ D. $160$.
 ::key A
 The smaller number is $(125-35)\div2=90\div2=45$. Option C is the larger number, option B forgets to divide by $2$, and option D is $125+35$.
 
-::mc
+::mc VD
 Two stores hold $480$ tonnes of rice altogether. Store A holds $60$ tonnes more than store B. Store B holds
 A. $270$ tonnes.
 B. $210$ tonnes.
@@ -404,7 +404,7 @@ D. $420$ tonnes.
 ::key B
 The rice in store B is $(480-60)\div2=210$ tonnes. Option A is store A, option D forgets to divide by $2$, and option C is $480+60$.
 
-::mc
+::mc VD
 A rectangle has perimeter $56$ m and its length is $8$ m more than its width. The width is
 A. $18$ m.
 B. $28$ m.
@@ -413,7 +413,7 @@ D. $20$ m.
 ::key C
 Half the perimeter is $56\div2=28$ m. The width is $(28-8)\div2=10$ m. Option A is the length, option B is half the perimeter, and option D is $28-8$.
 
-::tf
+::tf TH TH NB TH
 Look at the problem: the sum of two numbers is $96$ and the difference of the two numbers is $18$.
 a) The smaller number is $39$.
 b) The larger number is $57$.
@@ -422,12 +422,12 @@ d) The sum of the two numbers you find is $96$.
 ::key T T F T
 a) True: $(96-18)\div2=39$. b) True: $39+18=57$. c) False: the larger number equals the smaller number plus $18$. d) True: $39+57=96$.
 
-::sa
+::sa VD
 The sum of two numbers is $70$ and the difference is $10$. What is the larger number?
 ::key 40
 $(70+10)\div2=40$.
 
-::sa
+::sa VD
 The sum of two numbers is $100$ and the difference is $36$. What is the smaller number?
 ::key 32
 $(100-36)\div2=64\div2=32$.

@@ -317,7 +317,7 @@ Each sum is equal to 12.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The sum $5+5+5$ written as a multiplication is
 A. $5\times5$.
 B. $5+3$.
@@ -326,7 +326,7 @@ D. $5\times3$.
 ::key D
 The number 5 is taken 3 times, so $5+5+5=5\times3$. Option A takes 5 five times.
 
-::mc
+::mc NB
 In the multiplication $2\times6=12$, the number $12$ is called the
 A. product.
 B. factor.
@@ -335,7 +335,7 @@ D. addend.
 ::key A
 The result of a multiplication is called the product. Option B names the numbers 2 and 6.
 
-::mc
+::mc TH
 The result of the multiplication $4\times2$ is
 A. $6$.
 B. $8$.
@@ -344,7 +344,7 @@ D. $42$.
 ::key B
 $4\times2=4+4=8$. Option A is the addition $4+2$.
 
-::mc
+::mc TH
 Each bicycle has 2 wheels. 5 bicycles have altogether
 A. $7$ wheels.
 B. $12$ wheels.
@@ -353,7 +353,7 @@ D. $25$ wheels.
 ::key C
 $2\times5=2+2+2+2+2=10$. Option A is the addition $2+5$.
 
-::tf
+::tf NB NB NB TH
 Look at the multiplication $3\times4=12$.
 a) $3$ and $4$ are the factors.
 b) $12$ is a factor.
@@ -362,12 +362,12 @@ d) $3\times4=3+3+3+3$.
 ::key T F T T
 a) True: the numbers being multiplied are factors. b) False: 12 is the result, so it is the product. c) True: the product of 3 and 4 is 12. d) True: 3 is taken 4 times.
 
-::sa
+::sa TH
 Work out $2\times5$.
 ::key 10
 $2\times5=2+2+2+2+2=10$.
 
-::sa
+::sa VD
 Each bicycle has 2 wheels. How many wheels do 7 bicycles have altogether?
 ::key 14
 $2\times7=14$ (wheels).

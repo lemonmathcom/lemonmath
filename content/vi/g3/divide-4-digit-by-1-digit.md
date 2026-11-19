@@ -340,7 +340,7 @@ $$4\,344+5=4\,349.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $7\,248:6$ là
 A. $128$.
 B. $1\,280$.
@@ -349,7 +349,7 @@ D. $1\,208$.
 ::key D
 $7:6=1$ (dư $1$); $12:6=2$; $4:6=0$ (dư $4$), viết $0$; $48:6=8$. Phương án A bỏ sót chữ số $0$, phương án B viết $0$ sai chỗ, phương án C là phép nhân.
 
-::mc
+::mc TH
 Kết quả của $5\,000:8$ là
 A. $625$.
 B. $600$ (dư $200$).
@@ -358,7 +358,7 @@ D. $62$.
 ::key A
 $50:8=6$ (dư $2$); $20:8=2$ (dư $4$); $40:8=5$. Phương án B có số dư lớn hơn số chia, phương án C thừa một chữ số $0$, phương án D thiếu một chữ số.
 
-::mc
+::mc TH
 Người ta chia đều $3\,150$ quả trứng vào $9$ khay. Mỗi khay có
 A. $35$ quả.
 B. $350$ quả.
@@ -367,7 +367,7 @@ D. $305$ quả.
 ::key B
 $31:9=3$ (dư $4$); $45:9=5$; $0:9=0$. Vậy mỗi khay có $350$ quả. Phương án A bỏ sót chữ số $0$ cuối, phương án D viết $0$ sai chỗ, phương án C là phép nhân.
 
-::mc
+::mc VD
 Kết quả của $9\,407:5$ là
 A. $1\,880$ (dư $7$).
 B. $1\,881$.
@@ -376,7 +376,7 @@ D. $1\,882$.
 ::key C
 $9\,407:5=1\,881$ (dư $2$), vì $1\,881\times5=9\,405$ và $9\,405+2=9\,407$. Phương án A có số dư lớn hơn số chia, phương án B bỏ số dư, phương án D làm tròn lên.
 
-::tf
+::tf TH TH TH TH
 Em xét phép chia $7\,305:5$.
 a) Thương có bốn chữ số.
 b) $7\,305:5=1\,416$.
@@ -385,12 +385,12 @@ d) $1\,461\times5=7\,305$.
 ::key Đ S S Đ
 a) Đúng: $7\,305:5=1\,461$, thương có bốn chữ số. b) Sai: $1\,416\times5=7\,080$, không bằng $7\,305$. c) Sai: số dư cuối cùng bằng $0$ nên đây là phép chia hết. d) Đúng: $1\,461\times5=7\,305$.
 
-::sa
+::sa TH
 Tính $8\,096:8$.
 ::key 1012
 $8:8=1$; $0:8=0$, viết $0$; $9:8=1$ (dư $1$); $16:8=2$. Vậy $8\,096:8=1\,012$.
 
-::sa
+::sa VD
 Tìm số dư của phép chia $6\,500:7$.
 ::key 4
 $6\,500:7=928$ (dư $4$), vì $928\times7=6\,496$ và $6\,500-6\,496=4$.

@@ -248,7 +248,7 @@ Chữ số hàng đơn vị là $0$ hoặc $1$, nên có hai số là $40$ và $
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số $25$ gồm
 A. $5$ chục và $2$ đơn vị.
 B. $2$ chục và $5$ đơn vị.
@@ -257,7 +257,7 @@ D. $7$ chục.
 ::key B
 Chữ số bên trái $2$ là hàng chục, chữ số bên phải $5$ là hàng đơn vị. Phương án A đảo hai chữ số.
 
-::mc
+::mc NB
 Số gồm $4$ chục và $7$ đơn vị là
 A. $74$.
 B. $47$.
@@ -266,7 +266,7 @@ D. $4$.
 ::key B
 Viết $4$ trước rồi $7$. Phương án A viết ngược.
 
-::mc
+::mc NB
 Số $50$ gồm
 A. $5$ chục và $0$ đơn vị.
 B. $0$ chục và $5$ đơn vị.
@@ -275,7 +275,7 @@ D. $10$ chục.
 ::key A
 Hàng chục là $5$, hàng đơn vị là $0$. Phương án B đảo hai chữ số.
 
-::mc
+::mc NB
 Chữ số hàng chục của số $68$ là
 A. $6$.
 B. $8$.
@@ -284,7 +284,7 @@ D. $14$.
 ::key A
 Chữ số bên trái $6$ là hàng chục. Phương án B là chữ số hàng đơn vị.
 
-::tf
+::tf NB NB TH TH
 Em xét số $36$.
 a) Chữ số hàng chục là $3$.
 b) Chữ số hàng đơn vị là $6$.
@@ -293,12 +293,12 @@ d) $36$ và $63$ là cùng một số.
 ::key Đ Đ S S
 a) Đúng. b) Đúng. c) Sai: $36$ gồm $3$ chục $6$ đơn vị. d) Sai: hai số khác nhau.
 
-::sa
+::sa TH
 Có $2$ bó que tính, mỗi bó $10$ que, và $6$ que lẻ. Có tất cả bao nhiêu que tính?
 ::key 26
 $2$ chục và $6$ đơn vị là $26$.
 
-::sa
+::sa NB
 Số có $9$ chục và $0$ đơn vị là số nào?
 ::key 90
 Viết $9$ rồi $0$.

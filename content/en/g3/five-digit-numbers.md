@@ -334,7 +334,7 @@ Largest number: the ten-thousands digit is $5$ and all the other digits are $0$,
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The number "thirty thousand, two hundred" is written
 A. $3\,200$.
 B. $30\,020$.
@@ -343,7 +343,7 @@ D. $30\,200$.
 ::key D
 "Thirty thousand" is $30\,000$ and "two hundred" is $200$, so the number is $30\,200$. Option A is missing a $0$, option B puts the $2$ in the tens place, and option C puts the $2$ in the thousands place.
 
-::mc
+::mc TH
 The number after $79\,999$ is
 A. $80\,000$.
 B. $79\,998$.
@@ -352,7 +352,7 @@ D. $100\,000$.
 ::key A
 $79\,999+1=80\,000$. Option B is the number before, option C forgets to change the thousands, and option D is the number after $99\,999$.
 
-::mc
+::mc TH
 The largest of these numbers is
 A. $56\,209$.
 B. $56\,290$.
@@ -361,7 +361,7 @@ D. $56\,092$.
 ::key B
 All four numbers start with $56$. Hundreds: $2$, $2$, $0$, $0$, so the largest is $56\,290$ or $56\,209$. Tens: $9>0$, so $56\,290>56\,209$.
 
-::mc
+::mc TH
 Five $20\,000$ dong notes make
 A. $10\,000$ dong.
 B. $25\,000$ dong.
@@ -370,7 +370,7 @@ D. $50\,000$ dong.
 ::key C
 $5\times20\,000=100\,000$ (dong). Option A works out $5\times2$ and forgets the $0$, option B adds $5+20$ instead of multiplying, and option D multiplies by $10\,000$ instead of $20\,000$.
 
-::tf
+::tf NB NB TH TH
 Look at the number $70\,508$.
 a) The digit $5$ is in the thousands place.
 b) The digit $7$ has a value of $70\,000$.
@@ -379,12 +379,12 @@ d) $70\,508$ is greater than $70\,058$.
 ::key F T F T
 a) False: the digit $5$ is in the hundreds place. b) True: the digit $7$ is in the ten-thousands place. c) False: $70\,000+5\,000+8=75\,008$; the right sum is $70\,000+500+8$. d) True: both numbers start with $70$ and the hundreds digits are $5>0$.
 
-::sa
+::sa NB
 How many digits $0$ does the number $100\,000$ have?
 ::key 5
 $100\,000$ is made of the digit $1$ and five digits $0$.
 
-::sa
+::sa VD
 Work out the sum of the digits of the number before $40\,000$.
 ::key 39
 The number before $40\,000$ is $39\,999$. The sum of its digits is $3+9+9+9+9=39$.

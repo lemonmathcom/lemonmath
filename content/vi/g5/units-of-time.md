@@ -366,7 +366,7 @@ $$3600\times24=86\,400\text{ (giây)}.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $2$ giờ $15$ phút đổi ra phút là
 A. $215$ phút.
 B. $120$ phút.
@@ -375,7 +375,7 @@ D. $75$ phút.
 ::key C
 $2\times60+15=135$. Phương án A coi $1$ giờ là $100$ phút, B quên $15$ phút lẻ, D là $60+15$ (chưa nhân $2$).
 
-::mc
+::mc TH
 $4$ giờ $50$ phút $+$ $2$ giờ $25$ phút bằng
 A. $6$ giờ $75$ phút.
 B. $6$ giờ $15$ phút.
@@ -384,7 +384,7 @@ D. $7$ giờ $15$ phút.
 ::key D
 $4$ giờ $50$ phút $+$ $2$ giờ $25$ phút $=6$ giờ $75$ phút $=7$ giờ $15$ phút. Phương án A chưa đổi $75$ phút, B quên cộng $1$ giờ, C là phép trừ $4$ giờ $50$ phút $-$ $2$ giờ $25$ phút.
 
-::mc
+::mc TH
 $6$ giờ $10$ phút $-$ $2$ giờ $40$ phút bằng
 A. $3$ giờ $30$ phút.
 B. $3$ giờ $70$ phút.
@@ -393,7 +393,7 @@ D. $8$ giờ $50$ phút.
 ::key A
 $6$ giờ $10$ phút $=5$ giờ $70$ phút, nên $5$ giờ $70$ phút $-$ $2$ giờ $40$ phút $=3$ giờ $30$ phút. Phương án C lấy $40-10$, B đổi $1$ giờ thành $100$ phút, D là phép cộng.
 
-::mc
+::mc TH
 Năm nào sau đây là năm nhuận (tháng Hai có $29$ ngày)?
 A. $2026$.
 B. $2028$.
@@ -402,7 +402,7 @@ D. $2029$.
 ::key B
 $2024$ là năm nhuận và $2028-2024=4$. Các năm $2026$, $2027$ chỉ cách năm $2024$ là $2$ và $3$ năm, còn $2029$ cách $5$ năm, đều không phải bội của $4$ năm.
 
-::tf
+::tf TH TH TH VD
 Em xét số đo thời gian $1$ giờ $45$ phút.
 a) $1$ giờ $45$ phút $=145$ phút.
 b) $1$ giờ $45$ phút $=1{,}45$ giờ.
@@ -411,12 +411,12 @@ d) $5$ giờ $20$ phút $-$ $1$ giờ $45$ phút $=3$ giờ $35$ phút.
 ::key S S Đ Đ
 a) Sai: $60+45=105$ phút. b) Sai: $45$ phút $=0{,}75$ giờ nên bằng $1{,}75$ giờ. c) Đúng: $3$ giờ $75$ phút $=4$ giờ $15$ phút. d) Đúng: $4$ giờ $80$ phút $-$ $1$ giờ $45$ phút $=3$ giờ $35$ phút.
 
-::sa
+::sa TH
 Đổi $2$ giờ $45$ phút ra phút (đáp số là một số tự nhiên).
 ::key 165
 $2\times60+45=165$.
 
-::sa
+::sa VD
 Từ $8$ giờ $50$ phút đến $10$ giờ $20$ phút là bao nhiêu phút?
 ::key 90
 $10$ giờ $20$ phút $=9$ giờ $80$ phút, và $9$ giờ $80$ phút $-$ $8$ giờ $50$ phút $=1$ giờ $30$ phút $=90$ phút.

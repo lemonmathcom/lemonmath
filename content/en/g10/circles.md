@@ -385,7 +385,7 @@ Midpoint $(3, 2)$, $\overrightarrow{AB}=(4, 2)$: the perpendicular bisector is $
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The circle $(x+3)^2+(y-1)^2=16$ has centre $I$ and radius $R$ given by
 A. $I(3, -1)$, $R=4$.
 B. $I(-3, 1)$, $R=16$.
@@ -394,7 +394,7 @@ D. $I(3, -1)$, $R=16$.
 ::key C
 Write $x+3=x-(-3)$ and $y-1$, so the centre is $(-3, 1)$; the right side is $R^2=16$, so $R=4$. Option A has the wrong signs for the centre, and B forgets the square root.
 
-::mc
+::mc TH
 Which of these is the equation of a circle?
 A. $x^2+y^2-2x+4y+6=0$.
 B. $x^2+y^2+4x-2y+1=0$.
@@ -403,7 +403,7 @@ D. $x^2+y^2-4x+2y+5=0$.
 ::key B
 For B: $a=-2$, $b=1$, $c=1$, so $a^2+b^2-c=4>0$. For A, $a^2+b^2-c=-1<0$; for D it equals $0$ (a single point); in C the coefficients of $x^2$ and $y^2$ are different.
 
-::mc
+::mc VD
 The circle with diameter $AB$, where $A(-1, 2)$ and $B(3, -4)$, has equation
 A. $(x-1)^2+(y+1)^2=13$.
 B. $(x-1)^2+(y+1)^2=52$.
@@ -412,7 +412,7 @@ D. $(x-1)^2+(y+1)^2=\sqrt{13}$.
 ::key A
 The centre is the midpoint $(1, -1)$ of $AB$. $AB^2=16+36=52$, so $R^2=\dfrac{AB^2}{4}=13$. Option B uses $AB^2$ as $R^2$, and D writes $R$ instead of $R^2$.
 
-::mc
+::mc VD
 The tangent to the circle $(x-2)^2+(y+1)^2=10$ at the point $M(3, 2)$ is
 A. $3x-y-7=0$.
 B. $x+3y+1=0$.
@@ -421,7 +421,7 @@ D. $x+3y-9=0$.
 ::key D
 $\overrightarrow{IM}=(1, 3)$ is a normal vector and the tangent passes through $M$: $(x-3)+3(y-2)=0\iff x+3y-9=0$. Option A uses $\overrightarrow{IM}$ as a direction vector, and B is the line through the centre $I$.
 
-::tf
+::tf NB TH TH VD
 Consider the circle $(C): x^2+y^2-4x+6y-12=0$.
 a) $(C)$ has centre $I(-2, 3)$.
 b) $(C)$ has radius $R=5$.
@@ -430,12 +430,12 @@ d) The line $4x+3y+16=0$ cuts $(C)$ in a chord of length $8$.
 ::key F T F T
 a) False: $-2a=-4$ and $-2b=6$, so the centre is $(2, -3)$. b) True: $R^2=4+9+12=25$. c) False: $IO^2=4+9=13<25$, so $O$ lies inside. d) True: $d=\dfrac{|8-9+16|}{5}=3$, and the chord has length $2\sqrt{25-9}=8$.
 
-::sa
+::sa VD
 A circle with centre $I(2, -1)$ is tangent to the line $4x-3y+9=0$. Find its radius.
 ::key 4
 A circle is tangent to a line when $R$ equals the distance from the centre to the line: $R=\dfrac{|8+3+9|}{\sqrt{16+9}}=\dfrac{20}{5}=4$.
 
-::sa
+::sa VD
 On a map (units: km), a phone mast stands at the origin $O$ and covers a radius of $10$ km. A road runs along the line $x+y-10=0$. How long, in kilometres, is the stretch of road with signal? (Round to one decimal place.)
 ::key 14.1
 $d=\dfrac{|-10|}{\sqrt2}=5\sqrt2<10$, so the stretch with signal is a chord of length $2\sqrt{100-50}=10\sqrt2\approx14.1$ km.

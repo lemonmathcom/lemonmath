@@ -385,7 +385,7 @@ Trung điểm $(3; 2)$, $\overrightarrow{AB}=(4; 2)$: trung trực $4(x-3)+2(y-2
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Đường tròn $(x+3)^2+(y-1)^2=16$ có tâm $I$ và bán kính $R$ là
 A. $I(3; -1)$, $R=4$.
 B. $I(-3; 1)$, $R=16$.
@@ -394,7 +394,7 @@ D. $I(3; -1)$, $R=16$.
 ::key C
 Viết $x+3=x-(-3)$ và $y-1$, nên tâm là $(-3; 1)$; vế phải là $R^2=16$ nên $R=4$. Phương án A sai dấu toạ độ tâm, B quên lấy căn.
 
-::mc
+::mc TH
 Phương trình nào sau đây là phương trình của một đường tròn?
 A. $x^2+y^2-2x+4y+6=0$.
 B. $x^2+y^2+4x-2y+1=0$.
@@ -403,7 +403,7 @@ D. $x^2+y^2-4x+2y+5=0$.
 ::key B
 Với B: $a=-2$, $b=1$, $c=1$ nên $a^2+b^2-c=4>0$. Với A ta có $a^2+b^2-c=-1<0$; với D bằng $0$ (chỉ có một điểm); C có hệ số của $x^2$ và $y^2$ khác nhau.
 
-::mc
+::mc VD
 Đường tròn đường kính $AB$ với $A(-1; 2)$, $B(3; -4)$ có phương trình là
 A. $(x-1)^2+(y+1)^2=13$.
 B. $(x-1)^2+(y+1)^2=52$.
@@ -412,7 +412,7 @@ D. $(x-1)^2+(y+1)^2=\sqrt{13}$.
 ::key A
 Tâm là trung điểm $(1; -1)$ của $AB$. $AB^2=16+36=52$ nên $R^2=\dfrac{AB^2}{4}=13$. Phương án B lấy $AB^2$ làm $R^2$, D viết $R$ thay cho $R^2$.
 
-::mc
+::mc VD
 Tiếp tuyến của đường tròn $(x-2)^2+(y+1)^2=10$ tại điểm $M(3; 2)$ có phương trình là
 A. $3x-y-7=0$.
 B. $x+3y+1=0$.
@@ -421,7 +421,7 @@ D. $x+3y-9=0$.
 ::key D
 $\overrightarrow{IM}=(1; 3)$ là vectơ pháp tuyến, tiếp tuyến đi qua $M$: $(x-3)+3(y-2)=0\iff x+3y-9=0$. Phương án A dùng $\overrightarrow{IM}$ làm vectơ chỉ phương, B cho đường thẳng đi qua tâm $I$.
 
-::tf
+::tf NB TH TH VD
 Cho đường tròn $(C): x^2+y^2-4x+6y-12=0$.
 a) $(C)$ có tâm $I(-2; 3)$.
 b) $(C)$ có bán kính $R=5$.
@@ -430,12 +430,12 @@ d) Đường thẳng $4x+3y+16=0$ cắt $(C)$ theo một dây cung dài $8$.
 ::key S Đ S Đ
 a) Sai: $-2a=-4$, $-2b=6$ nên tâm là $(2; -3)$. b) Đúng: $R^2=4+9+12=25$. c) Sai: $IO^2=4+9=13<25$ nên $O$ nằm trong. d) Đúng: $d=\dfrac{|8-9+16|}{5}=3$, dây cung dài $2\sqrt{25-9}=8$.
 
-::sa
+::sa VD
 Đường tròn tâm $I(2; -1)$ tiếp xúc với đường thẳng $4x-3y+9=0$. Tính bán kính của đường tròn.
 ::key 4
 Đường tròn tiếp xúc với đường thẳng khi $R$ bằng khoảng cách từ tâm đến đường thẳng: $R=\dfrac{|8+3+9|}{\sqrt{16+9}}=\dfrac{20}{5}=4$.
 
-::sa
+::sa VD
 Trên bản đồ (đơn vị: km), một trạm phát sóng đặt tại gốc toạ độ $O$ và phủ sóng trong bán kính $10$ km. Một con đường chạy dọc đường thẳng $x+y-10=0$. Đoạn đường có sóng dài bao nhiêu ki-lô-mét? (Làm tròn đến hàng phần mười.)
 ::key 14,1
 $d=\dfrac{|-10|}{\sqrt2}=5\sqrt2<10$, nên đoạn có sóng là dây cung dài $2\sqrt{100-50}=10\sqrt2\approx14{,}1$ km.

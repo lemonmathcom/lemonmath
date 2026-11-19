@@ -273,7 +273,7 @@ So the smallest sample size is $97$.
 :::
 
 :::quiz
-::mc
+::mc NB
 For a one-sample $t$ procedure with $n=20$, the degrees of freedom are
 A. $20$
 B. $19$
@@ -282,7 +282,7 @@ D. $21$
 ::key B
 df $=n-1$.
 
-::mc
+::mc NB
 Compared with the standard normal, a $t$ distribution has
 A. heavier tails
 B. a larger mean
@@ -291,7 +291,7 @@ D. a skewed shape
 ::key A
 Estimating $\sigma$ adds uncertainty.
 
-::mc
+::mc TH
 A study measures each patient's blood pressure before and after a drug. The correct procedure is
 A. a two-sample $t$ test
 B. a one-proportion $z$ test
@@ -300,7 +300,7 @@ D. a paired $t$ test on the differences
 ::key D
 The same patients are measured twice.
 
-::mc
+::mc TH
 For a small sample, the normal/large sample condition is checked by
 A. computing $np$
 B. making sure $n\ge10$
@@ -309,7 +309,7 @@ D. checking that $\bar x$ is close to $\mu_0$
 ::key C
 The sample shape gives evidence about the population shape.
 
-::tf
+::tf TH NB TH TH
 A random sample of $36$ values has $\bar x=50$ and $s=12$. Decide whether each statement is true or false.
 a) The standard error of the mean is $2$.
 b) The degrees of freedom are $35$.
@@ -318,12 +318,12 @@ d) The normal/large sample condition is met because $n\ge30$.
 ::key T T F T
 With df $=35$, $t^*\approx2.03$.
 
-::sa
+::sa TH
 Find the standard error of the mean when $s=8$ and $n=16$.
 ::key 2
 $\dfrac{8}{\sqrt{16}}=2$.
 
-::sa
+::sa TH
 In a test, $\bar x=52$, $\mu_0=50$ and the standard error is $0.8$. Find $t$.
 ::key 2.5
 $\dfrac{52-50}{0.8}=2.5$.

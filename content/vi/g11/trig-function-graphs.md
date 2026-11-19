@@ -414,7 +414,7 @@ Ta có $\sin^2(x+\pi)=(-\sin x)^2=\sin^2x$ nên $\pi$ là một chu kì. Giả s
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tập xác định của hàm số $y=\cot2x$ là
 A. $\mathbb{R}\setminus\{k\pi\mid k\in\mathbb{Z}\}$.
 B. $\mathbb{R}\setminus\left\{\dfrac{\pi}{2}+k\pi\mid k\in\mathbb{Z}\right\}$.
@@ -423,7 +423,7 @@ D. $\mathbb{R}\setminus\left\{\dfrac{k\pi}{4}\mid k\in\mathbb{Z}\right\}$.
 ::key C
 Hàm số xác định khi $\sin2x\ne0$, tức $2x\ne k\pi$, hay $x\ne\dfrac{k\pi}{2}$. Phương án A quên hệ số $2$, phương án B là tập xác định của $\tan$.
 
-::mc
+::mc TH
 Giá trị lớn nhất của hàm số $y=4-3\sin2x$ bằng
 A. $1$.
 B. $4$.
@@ -432,7 +432,7 @@ D. $7$.
 ::key D
 Vì $-1\le\sin2x\le1$ nên $y\le4+3=7$, đạt khi $\sin2x=-1$. Phương án A là giá trị nhỏ nhất, phương án C coi $\sin2x$ có thể bằng $-2$.
 
-::mc
+::mc NB
 Chu kì của hàm số $y=\sin\dfrac{\pi x}{3}$ là
 A. $6$.
 B. $3$.
@@ -441,7 +441,7 @@ D. $\dfrac{\pi}{3}$.
 ::key A
 Chu kì là $\dfrac{2\pi}{\pi/3}=6$. Phương án C bỏ qua hệ số của $x$, phương án B dùng $\dfrac{\pi}{\pi/3}$ (chu kì của $\tan$).
 
-::mc
+::mc TH
 Khẳng định nào sau đây đúng?
 A. $\cos\dfrac{\pi}{5}<\cos\dfrac{2\pi}{5}$.
 B. $\tan\dfrac{\pi}{5}<\tan\dfrac{2\pi}{5}$.
@@ -450,7 +450,7 @@ D. $\tan\dfrac{3\pi}{5}>\tan\dfrac{2\pi}{5}$.
 ::key B
 $\tan$ đồng biến trên $\left(0; \dfrac{\pi}{2}\right)$ nên A đúng. B sai vì $\cos$ nghịch biến trên $(0; \pi)$; C sai vì $\sin\dfrac{\pi}{2}=1$ là giá trị lớn nhất; D sai vì $\tan\dfrac{3\pi}{5}<0<\tan\dfrac{2\pi}{5}$.
 
-::tf
+::tf TH TH TH NB
 Cho hàm số $y=3-2\cos x$. Xét tính đúng sai của các mệnh đề sau:
 a) Tập giá trị của hàm số là $[1; 5]$.
 b) Hàm số đã cho là hàm số lẻ.
@@ -459,12 +459,12 @@ d) Hàm số tuần hoàn với chu kì $2\pi$.
 ::key Đ S Đ Đ
 a) Đúng: $-1\le\cos x\le1$ nên $1\le y\le5$. b) Sai: $y(-x)=3-2\cos(-x)=y(x)$, hàm số chẵn. c) Đúng: $\cos x$ nghịch biến trên $(0; \pi)$ nên $-2\cos x$ đồng biến. d) Đúng: $\cos x$ có chu kì $2\pi$.
 
-::sa
+::sa VD
 Có bao nhiêu giá trị $x\in[0; 3\pi]$ thoả mãn $\sin x=\dfrac12$?
 ::key 4
 Các nghiệm là $\dfrac{\pi}{6}$, $\dfrac{5\pi}{6}$, $\dfrac{13\pi}{6}$, $\dfrac{17\pi}{6}$, đều thuộc $[0; 3\pi]$; nghiệm tiếp theo $\dfrac{25\pi}{6}>3\pi$.
 
-::sa
+::sa TH
 Độ cao (m) của một cabin vòng quay so với mặt đất sau $t$ phút là $h(t)=22-20\cos\dfrac{\pi t}{4}$. Tính độ cao của cabin sau $3$ phút, làm tròn đến hàng phần mười.
 ::key 36,1
 $h(3)=22-20\cos\dfrac{3\pi}{4}=22+20\cdot\dfrac{\sqrt2}{2}=22+10\sqrt2\approx36{,}1$ (m).

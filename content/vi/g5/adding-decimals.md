@@ -274,7 +274,7 @@ $$(0{,}1+0{,}9)+(0{,}2+0{,}8)+(0{,}3+0{,}7)+(0{,}4+0{,}6)+0{,}5=1+1+1+1+0{,}5=4{
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $4{,}7+3{,}5$ là
 A. $7{,}12$.
 B. $7{,}2$.
@@ -283,7 +283,7 @@ D. $8{,}2$.
 ::key D
 $7+5=12$ phần mười, viết $2$ nhớ $1$; $4+3+1=8$, nên tổng là $8{,}2$. Phương án B quên nhớ, phương án C quên dấu phẩy.
 
-::mc
+::mc TH
 Kết quả của $6{,}3+2{,}45$ là
 A. $8{,}75$.
 B. $8{,}48$.
@@ -292,7 +292,7 @@ D. $3{,}08$.
 ::key A
 $6{,}3=6{,}30$ nên $6{,}30+2{,}45=8{,}75$. Phương án B coi $0{,}3$ như $3$ phần trăm ($3+45=48$); phương án D không thẳng dấu phẩy ($63+245=308$).
 
-::mc
+::mc TH
 Kết quả của $15+2{,}36$ là
 A. $2{,}51$.
 B. $17{,}36$.
@@ -301,7 +301,7 @@ D. $15{,}36$.
 ::key B
 $15=15{,}00$ nên $15{,}00+2{,}36=17{,}36$. Phương án C là coi $15$ như $1{,}5$; phương án D quên cộng phần nguyên $2$.
 
-::mc
+::mc VD
 Sáng nay Nam đạp xe $3{,}8$ km, chiều đạp thêm $2{,}45$ km. Cả ngày Nam đạp xe được
 A. $5{,}25$ km.
 B. $2{,}83$ km.
@@ -310,7 +310,7 @@ D. $1{,}35$ km.
 ::key C
 "Cả ngày" là gộp lại: $3{,}80+2{,}45=6{,}25$. Phương án A quên nhớ $1$, phương án D là phép trừ $3{,}8-2{,}45$.
 
-::tf
+::tf NB TH NB TH
 Em xét phép cộng $2{,}8+1{,}95$.
 a) Có thể viết $2{,}8$ thành $2{,}80$ mà giá trị không đổi.
 b) $2{,}8+1{,}95=3{,}75$.
@@ -319,12 +319,12 @@ d) Tổng này nhỏ hơn $4{,}5$.
 ::key Đ S Đ S
 a) Đúng: thêm chữ số $0$ ở cuối phần thập phân không đổi giá trị. b) Sai: $2{,}80+1{,}95=4{,}75$; $3{,}75$ là kết quả khi quên nhớ $1$. c) Đúng: đổi chỗ các số hạng thì tổng không đổi. d) Sai: $4{,}75>4{,}5$.
 
-::sa
+::sa NB
 Tính $7{,}6+5{,}9$.
 ::key 13,5
 $6+9=15$ phần mười, viết $5$ nhớ $1$; $7+5+1=13$. Vậy $7{,}6+5{,}9=13{,}5$.
 
-::sa
+::sa TH
 Lan mua $1{,}5$ m ruy băng đỏ và $2{,}75$ m ruy băng xanh. Lan mua tất cả bao nhiêu mét ruy băng?
 ::key 4,25
 $1{,}50+2{,}75=4{,}25$ (m).

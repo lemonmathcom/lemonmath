@@ -356,7 +356,7 @@ Let $O$ be the centre of the equilateral triangle $ABC$. We have $OA=\dfrac{6\sq
 ## Mini test
 
 :::quiz
-::mc
+::mc VD
 The regular square-based pyramid $S.ABCD$ has base side $16$ and height $6$. The slant height is
 A. $14$.
 B. $2\sqrt{41}$.
@@ -365,7 +365,7 @@ D. $10$.
 ::key D
 $OM=8$, so $d=\sqrt{6^2+8^2}=10$. Option A adds $h$ and $OM$, B uses $OB=8\sqrt2$ instead of $OM$, and C uses the whole side $16$.
 
-::mc
+::mc TH
 A regular triangular pyramid has base side $6$ cm and slant height $5$ cm. The lateral surface area is
 A. $45$ cm².
 B. $90$ cm².
@@ -374,7 +374,7 @@ D. $30$ cm².
 ::key A
 $p=9$, so $S_{\text{lat}}=9\cdot5=45$. Option B forgets the $\dfrac12$ (uses the perimeter), C is the area of one lateral face, and D is $6\cdot5$.
 
-::mc
+::mc TH
 A regular square-based pyramid has base side $6$ cm and height $5$ cm. The volume is
 A. $180$ cm³.
 B. $60$ cm³.
@@ -383,7 +383,7 @@ D. $40$ cm³.
 ::key B
 $V=\dfrac13\cdot36\cdot5=60$. Option A forgets the $\dfrac13$, C uses $\dfrac12$, and D uses the base perimeter $24$ instead of the base area.
 
-::mc
+::mc TH
 A regular triangular pyramid has base side $6$ and height $1$. The distance $OM$ from the centre of the base to a side of the base is
 A. $3$.
 B. $2\sqrt3$.
@@ -392,7 +392,7 @@ D. $3\sqrt3$.
 ::key C
 $OM=\dfrac{a\sqrt3}6=\sqrt3$. Option A is $\dfrac a2$, B is $OA$, and D is the median $AM$.
 
-::tf
+::tf TH VD VD TH
 The regular square-based pyramid $S.ABCD$ has base side $12$ and height $8$ ($O$ is the centre of the base and $M$ is the midpoint of $BC$). Decide whether each statement is true or false.
 a) $SM=10$.
 b) The lateral surface area is $480$.
@@ -401,12 +401,12 @@ d) The volume is $384$.
 ::key T F F T
 a) True: $SM=\sqrt{8^2+6^2}=10$. b) False: $S_{\text{lat}}=24\cdot10=240$; $480$ comes from forgetting the $\dfrac12$. c) False: $SB=\sqrt{8^2+(6\sqrt2)^2}=\sqrt{136}$, and $8$ is the height. d) True: $V=\dfrac13\cdot144\cdot8=384$.
 
-::sa
+::sa VD
 A regular triangular pyramid has base side $6$ cm and height $2$ cm. Find its volume (in cm³, give your answer to 1 decimal place).
 ::key 10.4
 $S_{\text{base}}=9\sqrt3$, so $V=\dfrac13\cdot9\sqrt3\cdot2=6\sqrt3\approx10.4$.
 
-::sa
+::sa VD
 A regular square-based pyramid has base side $6$ dm and slant height $7$ dm. Find its total surface area (in dm²).
 ::key 120
 $S_{\text{lat}}=12\cdot7=84$ and $S_{\text{base}}=36$, so $S_{\text{total}}=84+36=120$.

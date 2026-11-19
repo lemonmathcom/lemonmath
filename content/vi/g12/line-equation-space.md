@@ -401,7 +401,7 @@ $$M\left(1; 0; \tfrac12\right),\qquad 1+0+2\cdot\tfrac12-2=0.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Trong không gian $Oxyz$, một vectơ chỉ phương của đường thẳng $d: \begin{cases}x=1-2t\\ y=3\\ z=-1+t\end{cases}$ là
 A. $(1; 3; -1)$.
 B. $(-2; 3; 1)$.
@@ -410,7 +410,7 @@ D. $(2; 0; 1)$.
 ::key C
 Vectơ chỉ phương gồm các hệ số của $t$: $-2$, $0$, $1$. Phương án A là toạ độ một điểm, B lấy số $3$ không có $t$, D sai dấu.
 
-::mc
+::mc TH
 Điểm nào sau đây thuộc đường thẳng $\dfrac{x-1}{2}=\dfrac{y+2}{-1}=\dfrac{z-3}{3}$?
 A. $(-1; 2; -3)$.
 B. $(2; -1; 3)$.
@@ -419,7 +419,7 @@ D. $(1; -2; 3)$.
 ::key D
 Thay $(1; -2; 3)$ cả ba phân số bằng $0$. Phương án A đổi dấu toạ độ điểm, B lấy nhầm vectơ chỉ phương, C sai ở phân số thứ hai: $\dfrac{-1+2}{-1}=-1\neq1$.
 
-::mc
+::mc TH
 Đường thẳng đi qua $A(1; 0; 2)$ và vuông góc với $(P): 2x-y+z-3=0$ có phương trình là
 A. $x=1+2t$, $y=-t$, $z=2+t$.
 B. $x=2+t$, $y=-1$, $z=1+2t$.
@@ -428,7 +428,7 @@ D. $x=1+2t$, $y=-t$, $z=2-3t$.
 ::key A
 Vectơ chỉ phương là $\vec{n}_P=(2; -1; 1)$. Phương án B đổi vai trò điểm và vectơ, C sai dấu toạ độ thứ hai, D lấy nhầm hệ số tự do $-3$.
 
-::mc
+::mc VD
 Cho $d_1: x=1+t$, $y=2t$, $z=3-t$ và $d_2: x=s$, $y=1+s$, $z=2s$. Vị trí của $d_1$ và $d_2$ là
 A. song song.
 B. cắt nhau.
@@ -437,7 +437,7 @@ D. trùng nhau.
 ::key C
 $(1; 2; -1)$ và $(1; 1; 2)$ không cùng phương, nên loại A và D. Hai phương trình đầu cho $s=1+t$ và $2t=1+s=2+t$, tức $t=2$, $s=3$; phương trình thứ ba cần $3-2=2\cdot3$, vô lí. Vậy hai đường thẳng chéo nhau; chọn "song song" là quên trường hợp chéo nhau.
 
-::tf
+::tf NB TH VD TH
 Cho đường thẳng $d: x=1+t$, $y=2-t$, $z=-1+2t$ và mặt phẳng $(P): x+y+z-4=0$.
 a) $\vec{u}=(1; -1; 2)$ là một vectơ chỉ phương của $d$.
 b) $d$ song song với $(P)$.
@@ -446,12 +446,12 @@ d) $d$ vuông góc với mặt phẳng $(Q): x-y+2z+7=0$.
 ::key Đ S Đ Đ
 a) Đúng. b) Sai: $\vec{u}\cdot\vec{n}_P=1-1+2=2\neq0$. c) Đúng: thay vào được $2t-2=0$, $t=1$, điểm $(2; 1; 1)$. d) Đúng: $\vec{n}_Q=(1; -1; 2)=\vec{u}$.
 
-::sa
+::sa VD
 Đường thẳng $d: x=2+t$, $y=-1+2t$, $z=3-t$ cắt mặt phẳng $(P): x+y+z-10=0$ tại điểm $M(a; b; c)$. Tính $a+b+c$.
 ::key 10
 Thay vào: $2t-6=0$, $t=3$, nên $M(5; 5; 0)$ và $a+b+c=10$. Một cách khác: $M$ thuộc $(P)$ nên $a+b+c-10=0$.
 
-::sa
+::sa VD
 Tính khoảng cách từ $M(2; 3; 1)$ đến đường thẳng $d: x=1+2t$, $y=-1+t$, $z=1+2t$ (làm tròn đến hàng phần trăm).
 ::key 3,61
 $\overrightarrow{MH}=(2t-1; t-4; 2t)$ với $H\in d$; $\overrightarrow{MH}\cdot(2; 1; 2)=9t-6=0$, $t=\dfrac23$. Khi đó $\overrightarrow{MH}=\left(\dfrac13; -\dfrac{10}{3}; \dfrac43\right)$, $MH=\sqrt{13}\approx3{,}61$.

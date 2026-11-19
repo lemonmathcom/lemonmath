@@ -282,7 +282,7 @@ The numbers are $-6$ and $1$: $3x^2-6x+x-2=3x(x-2)+(x-2)=(3x+1)(x-2)$. So the ex
 :::
 
 :::quiz
-::mc
+::mc TH
 Which expression is equivalent to $(x^2)^3\cdot x^4$?
 A. $x^9$
 B. $x^{10}$
@@ -291,7 +291,7 @@ D. $x^{14}$
 ::key B
 $(x^2)^3=x^6$ and $x^6\cdot x^4=x^{10}$. Option C multiplies all three exponents.
 
-::mc
+::mc TH
 Which expression is equivalent to $4x^2-25$?
 A. $(4x-5)(x+5)$
 B. $(2x-5)^2$
@@ -300,7 +300,7 @@ D. $(2x-5)(2x+5)$
 ::key D
 $4x^2-25=(2x)^2-5^2=(2x-5)(2x+5)$.
 
-::mc
+::mc NB
 Which expression is equivalent to $(x+3)^2$?
 A. $x^2+9$
 B. $x^2+3x+9$
@@ -309,7 +309,7 @@ D. $x^2+6x+6$
 ::key C
 $(x+3)^2=x^2+2\cdot3\cdot x+9$. Option A is the typical mistake of squaring term by term.
 
-::mc
+::mc TH
 For $x>0$, which expression is equivalent to $x^{\frac12}\cdot x^{\frac13}$?
 A. $\sqrt[6]{x^5}$
 B. $\sqrt[6]{x}$
@@ -318,7 +318,7 @@ D. $x^{\frac16}$
 ::key A
 $\dfrac12+\dfrac13=\dfrac56$ and $x^{\frac56}=\sqrt[6]{x^5}$. Options B and D multiply the exponents.
 
-::tf
+::tf TH TH NB TH
 Consider the expression $(x-1)(x+5)$.
 a) It is equivalent to $x^2+4x-5$.
 b) $x+1$ is a factor of it.
@@ -327,12 +327,12 @@ d) It is equivalent to $(x+2)^2-9$.
 ::key T F T T
 a) True: $x^2+5x-x-5$. b) False: its factors are $x-1$ and $x+5$. c) True: $0\cdot6=0$. d) True: $x^2+4x+4-9=x^2+4x-5$.
 
-::sa
+::sa TH
 In the equation $(3x+2)(x+5)=3x^2+bx+10$, $b$ is a constant and the equation is true for all $x$. What is the value of $b$?
 ::key 17
 $(3x+2)(x+5)=3x^2+15x+2x+10=3x^2+17x+10$.
 
-::sa
+::sa TH
 If $a+b=7$ and $a-b=3$, what is the value of $a^2-b^2$?
 ::key 21
 $a^2-b^2=(a+b)(a-b)=7\cdot3=21$.

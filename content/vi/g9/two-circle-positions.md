@@ -319,7 +319,7 @@ Vậy $BC=12$ cm.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Cho hai đường tròn $(O; 8\text{ cm})$ và $(O'; 3\text{ cm})$ với $OO'=5$ cm. Vị trí tương đối của hai đường tròn là
 A. cắt nhau.
 B. tiếp xúc ngoài.
@@ -328,7 +328,7 @@ D. đựng nhau.
 ::key C
 $OO'=8-3=R-r$ nên hai đường tròn tiếp xúc trong. B nhầm với $R+r=11$.
 
-::mc
+::mc TH
 Cho hai đường tròn $(O; 6\text{ cm})$ và $(O'; 2\text{ cm})$ với $OO'=3$ cm. Vị trí tương đối của hai đường tròn là
 A. cắt nhau.
 B. tiếp xúc trong.
@@ -337,7 +337,7 @@ D. đựng nhau.
 ::key D
 $OO'=3<R-r=4$ nên $(O)$ đựng $(O')$. A chỉ so sánh với $R+r$.
 
-::mc
+::mc VD
 Hai đường tròn $(O; 5\text{ cm})$ và $(O'; 5\text{ cm})$ cắt nhau tại $A$, $B$, với $OO'=6$ cm. Độ dài dây chung $AB$ là
 A. $4$ cm.
 B. $8$ cm.
@@ -346,7 +346,7 @@ D. $2\sqrt{34}$ cm.
 ::key B
 $OH=3$ cm nên $AH=\sqrt{25-9}=4$ cm và $AB=8$ cm. A quên nhân đôi, D cộng dưới dấu căn.
 
-::mc
+::mc NB
 Hai đường tròn $(O; 7\text{ cm})$ và $(O'; 2\text{ cm})$ tiếp xúc ngoài. Khoảng cách $OO'$ là
 A. $5$ cm.
 B. $9$ cm.
@@ -355,7 +355,7 @@ D. $4{,}5$ cm.
 ::key B
 Tiếp xúc ngoài nên $OO'=R+r=9$ cm. A là trường hợp tiếp xúc trong.
 
-::tf
+::tf TH NB TH VD
 Cho hai đường tròn $(O; 5\text{ cm})$ và $(O'; 3\text{ cm})$ với $OO'=4$ cm. Xét tính đúng sai của các mệnh đề sau:
 a) Hai đường tròn cắt nhau.
 b) Đường nối tâm $OO'$ vuông góc với dây chung.
@@ -364,12 +364,12 @@ d) Dây chung dài $6$ cm.
 ::key Đ Đ S Đ
 a) Đúng: $2<4<8$. b) Đúng: $OO'$ là trung trực của dây chung. c) Sai: $4\neq R-r$. d) Đúng: $25-x^2=9-(4-x)^2$ cho $x=4$, nên $H$ trùng $O'$, $AH=3$.
 
-::sa
+::sa TH
 Đường tròn $(O; 10\text{ cm})$ tiếp xúc trong với đường tròn $(O'; r)$, $r<10$ cm, và $OO'=3{,}5$ cm. Tính $r$ (đơn vị: cm).
 ::key 6,5
 Tiếp xúc trong nên $10-r=3{,}5$, suy ra $r=6{,}5$ cm.
 
-::sa
+::sa VDC
 Hai đường tròn $(O; 8\text{ cm})$ và $(O'; 2\text{ cm})$ tiếp xúc ngoài. Một tiếp tuyến chung tiếp xúc với hai đường tròn tại $B$ và $C$, không đi qua tiếp điểm của hai đường tròn. Tính $BC$ (đơn vị: cm).
 ::key 8
 $OO'=10$ cm, $OK=8-2=6$ cm, nên $BC=\sqrt{10^2-6^2}=8$ cm.

@@ -411,7 +411,7 @@ Vậy toà nhà cao $10\left(\sqrt3+1\right)$ m, khoảng $27{,}32$ m.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tam giác $ABC$ vuông tại $A$ có $BC=a$, $CA=b$. Khi đó
 A. $b=a\sin C$.
 B. $b=a\cos B$.
@@ -420,7 +420,7 @@ D. $b=a\sin B$.
 ::key D
 Vì $b$ là cạnh góc vuông đối diện góc $B$ nên $b=a\sin B$ (hoặc $b=a\cos C$). Phương án B và A nhầm góc đối với góc kề, C dùng tang với cạnh huyền.
 
-::mc
+::mc TH
 Tam giác $ABC$ vuông tại $A$ có $AB=c$. Khi đó $AC$ bằng
 A. $c\cot B$.
 B. $c\sin B$.
@@ -429,7 +429,7 @@ D. $c\cos B$.
 ::key C
 Ta có $\tan B=\dfrac{AC}{AB}$, suy ra $AC=c\tan B$. Phương án A dùng côtang của góc đối, B và D dùng sin, cos với cạnh góc vuông thay cho cạnh huyền.
 
-::mc
+::mc TH
 Tam giác $ABC$ vuông tại $A$ có $BC=10$, $\widehat{B}=30^\circ$. Khi đó $AC$ bằng
 A. $5$.
 B. $5\sqrt3$.
@@ -438,7 +438,7 @@ D. $20$.
 ::key A
 Ta có $AC=BC\sin B=10\sin30^\circ=5$. Phương án B là $10\cos30^\circ$ (cạnh $AB$), D chia cho $\sin30^\circ$ thay vì nhân.
 
-::mc
+::mc VD
 Một cột điện cao $8$ m có bóng trên mặt đất dài $8\sqrt3$ m. Góc giữa tia nắng và mặt đất là
 A. khoảng $0{,}58^\circ$.
 B. $30^\circ$.
@@ -447,7 +447,7 @@ D. $60^\circ$.
 ::key B
 Gọi $\alpha$ là góc cần tìm. Ta có $\tan\alpha=\dfrac{8}{8\sqrt3}=\dfrac{\sqrt3}3$, suy ra $\alpha=30^\circ$. Phương án D đảo tỉ số (bóng chia cột), A viết luôn tỉ số $0{,}58$ thành số đo góc.
 
-::tf
+::tf TH VD TH TH
 Cho tam giác $ABC$ vuông tại $A$ có $AB=6$ cm, $\widehat{C}=30^\circ$. Xét tính đúng sai của các mệnh đề sau:
 a) $BC=12$ cm.
 b) $AC=6\sqrt3$ cm.
@@ -456,12 +456,12 @@ d) $AC=BC\sin C$.
 ::key Đ Đ S S
 a) Đúng. Vì $AB=BC\sin C$ nên $BC=\dfrac{AB}{\sin C}=\dfrac{6}{1/2}=12$ (cm). b) Đúng. $AC=AB\cot C=6\sqrt3$ (cm). c) Sai. $\widehat{B}=90^\circ-30^\circ=60^\circ$. d) Sai. $BC\sin C=6=AB$; hệ thức đúng là $AC=BC\cos C$.
 
-::sa
+::sa VD
 Một chiếc thang dài $4$ m dựa vào tường, tạo với mặt đất góc $60^\circ$. Hỏi đỉnh thang cách mặt đất bao nhiêu mét (làm tròn kết quả đến hàng phần mười)?
 ::key 3,5
 Độ cao của đỉnh thang là $4\sin60^\circ=2\sqrt3\approx3{,}5$ (m).
 
-::sa
+::sa VD
 Bóng của một toà nhà trên mặt đất dài $25$ m khi tia nắng tạo với mặt đất góc $40^\circ$. Hỏi toà nhà cao bao nhiêu mét (làm tròn kết quả đến hàng đơn vị)?
 ::key 21
 Chiều cao của toà nhà là $25\tan40^\circ\approx21$ (m).

@@ -258,7 +258,7 @@ From $4$ to $10$: "five, six, seven, eight, nine, ten", which is $6$ numbers.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $4+3$ equals
 A. $6$.
 B. $7$.
@@ -267,7 +267,7 @@ D. $1$.
 ::key B
 Count on $3$ numbers from $4$: five, six, seven. Option D is $4-3$, a subtraction by mistake.
 
-::mc
+::mc NB
 $5+0$ equals
 A. $0$.
 B. $6$.
@@ -276,7 +276,7 @@ D. $4$.
 ::key C
 Adding $0$ does not change the number. Option A is the mistake of thinking the answer is $0$.
 
-::mc
+::mc TH
 Which sum equals $8$?
 A. $5+2$.
 B. $7+2$.
@@ -285,7 +285,7 @@ D. $6+2$.
 ::key D
 $6+2=8$. The other sums are $7$, $7$ and $9$.
 
-::mc
+::mc TH
 There are $3$ cats and $6$ dogs. How many animals are there altogether?
 A. $9$ animals.
 B. $3$ animals.
@@ -294,7 +294,7 @@ D. $8$ animals.
 ::key A
 "Altogether" means putting together: $3+6=9$. Option B takes only one group.
 
-::tf
+::tf NB TH NB NB
 Look at the sum $2+6$.
 a) $2+6=8$.
 b) $6+2=8$.
@@ -303,12 +303,12 @@ d) $2+6=9$.
 ::key T T F F
 a) True: count on two from $6$ to get $8$. b) True: swap the two numbers. c) False. d) False.
 
-::sa
+::sa TH
 Work out $5+4$.
 ::key 9
 Count on $4$ numbers from $5$: six, seven, eight, nine.
 
-::sa
+::sa TH
 Work out $7+3$.
 ::key 10
 Count on $3$ numbers from $7$: eight, nine, ten.

@@ -389,7 +389,7 @@ $$a^2=25+16-2\cdot5\cdot4\cdot\left(-\frac35\right)=41+24=65.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Triangle $ABC$ has $b=3$, $c=5$ and $A=120^\circ$. The length of side $a$ is
 A. $7$.
 B. $\sqrt{19}$.
@@ -398,7 +398,7 @@ D. $\sqrt{\dfrac{83}{2}}$.
 ::key A
 $a^2=9+25-2\cdot3\cdot5\cdot\cos120^\circ=34+15=49$, so $a=7$. Taking $\cos120^\circ=\dfrac12$ gives $\sqrt{19}$; forgetting the factor $2$ gives $\sqrt{83/2}$.
 
-::mc
+::mc TH
 Triangle $ABC$ has $a=6$ and $A=30^\circ$. Its circumradius $R$ is
 A. $12$.
 B. $3$.
@@ -407,7 +407,7 @@ D. $\dfrac32$.
 ::key C
 By the sine rule, $2R=\dfrac{a}{\sin A}=\dfrac{6}{1/2}=12$, so $R=6$. Option A forgets to halve.
 
-::mc
+::mc TH
 Triangle $ABC$ has $a=4$, $b=5$ and $C=150^\circ$. Its area is
 A. $10$.
 B. $5$.
@@ -416,7 +416,7 @@ D. $10\sqrt3$.
 ::key B
 $S=\dfrac12ab\sin C=\dfrac12\cdot4\cdot5\cdot\dfrac12=5$. Option A forgets the factor $\dfrac12$; option C uses $|\cos150^\circ|$ instead of $\sin150^\circ$.
 
-::mc
+::mc TH
 The area of a triangle with sides $5$, $5$, $6$ is
 A. $12$.
 B. $15$.
@@ -425,7 +425,7 @@ D. $30$.
 ::key A
 $p=8$, and Heron's formula gives $S=\sqrt{8\cdot3\cdot3\cdot2}=\sqrt{144}=12$. Option C is the base $6$ times the height $4$ without dividing by $2$.
 
-::tf
+::tf TH VD VD TH
 Triangle $ABC$ has $a=7$, $b=3$, $c=8$.
 a) $A=60^\circ$.
 b) The area of the triangle is $6\sqrt3$.
@@ -434,12 +434,12 @@ d) The angle $C$ is obtuse.
 ::key T T F T
 a) True: $\cos A=\dfrac{9+64-49}{2\cdot3\cdot8}=\dfrac12$. b) True: $S=\dfrac12\cdot3\cdot8\cdot\dfrac{\sqrt3}{2}=6\sqrt3$. c) False: $2R=\dfrac{7}{\sin60^\circ}=\dfrac{14}{\sqrt3}$, so $R=\dfrac{7\sqrt3}{3}$. d) True: $\cos C=\dfrac{49+9-64}{2\cdot7\cdot3}=-\dfrac17<0$.
 
-::sa
+::sa VD
 Two straight roads leave a junction at an angle of $60^\circ$. An's house is on the first road, $10$ km from the junction; Binh's house is on the second road, $6$ km from the junction. How far apart are the two houses in a straight line, in kilometres (rounded to one decimal place)?
 ::key 8.7
 By the cosine rule, $d^2=10^2+6^2-2\cdot10\cdot6\cos60^\circ=136-60=76$, so $d=\sqrt{76}\approx8.72$, which rounds to $8.7$ km.
 
-::sa
+::sa VD
 Two points $A$ and $B$ are $100$ m apart on the same bank of a river; $C$ is a tree on the other bank. The measured angles are $\angle CAB=50^\circ$ and $\angle CBA=60^\circ$. Find the distance $AC$ in metres (rounded to the nearest whole number).
 ::key 92
 $\angle ACB=180^\circ-50^\circ-60^\circ=70^\circ$. By the sine rule, $AC=\dfrac{AB\sin B}{\sin C}=\dfrac{100\sin60^\circ}{\sin70^\circ}\approx92.2$, which rounds to $92$ m.

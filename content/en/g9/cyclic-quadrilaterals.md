@@ -348,7 +348,7 @@ So $ABCD$ is an isosceles trapezium with area $289$ cm².
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The quadrilateral $ABCD$ is cyclic with $\angle A=65^\circ$. The angle $\angle C$ is
 A. $65^\circ$.
 B. $115^\circ$.
@@ -357,7 +357,7 @@ D. $295^\circ$.
 ::key B
 $\angle A+\angle C=180^\circ$. A assumes opposite angles are equal, C takes the complement (to $90^\circ$), and D takes $360^\circ-65^\circ$.
 
-::mc
+::mc TH
 Which of the following quadrilaterals is always cyclic?
 A. A rhombus.
 B. A parallelogram.
@@ -366,7 +366,7 @@ D. A trapezium.
 ::key C
 A rectangle has opposite angles both equal to $90^\circ$. A rhombus or a parallelogram is cyclic only when it is a square or a rectangle; a trapezium must be isosceles.
 
-::mc
+::mc VD
 A rectangle with sides $5$ cm and $12$ cm is inscribed in a circle of radius
 A. $13$ cm.
 B. $8.5$ cm.
@@ -375,7 +375,7 @@ D. $6.5$ cm.
 ::key D
 The diagonal is $13$ cm and the radius is half of it. A takes the whole diagonal, B takes half the sum of the sides, and C divides the diagonal by $4$.
 
-::mc
+::mc TH
 The quadrilateral $ABCD$ is cyclic with $\angle B=2\angle D$. The angle $\angle D$ is
 A. $60^\circ$.
 B. $120^\circ$.
@@ -384,7 +384,7 @@ D. $30^\circ$.
 ::key A
 $3\angle D=180^\circ$, so $\angle D=60^\circ$. B is $\angle B$, C assumes $\angle B=\angle D$, and D takes the sum of opposite angles to be $90^\circ$.
 
-::tf
+::tf TH TH TH VD
 The triangle $ABC$ is acute, and its altitudes $BE$, $CF$ meet at $H$. Decide whether each statement is true or false.
 a) The quadrilateral $AEHF$ is cyclic.
 b) The quadrilateral $BCEF$ is cyclic.
@@ -393,12 +393,12 @@ d) $\angle AEF+\angle ABC=180^\circ$.
 ::key T T T F
 a) True: two opposite right angles. b), c) True: $E$ and $F$ see $BC$ at right angles. d) False: since $BCEF$ is cyclic, $\angle AEF=\angle ABC$ (both supplementary to $\angle FEC$), so the sum is $2\angle ABC<180^\circ$ (the triangle is acute).
 
-::sa
+::sa VD
 Find the radius (in cm) of the circle through the vertices of a square with side $6$ cm (give your answer to 2 decimal places).
 ::key 4.24
 The diagonal is $6\sqrt2$ cm, so $R=3\sqrt2\approx4.24$ cm.
 
-::sa
+::sa TH
 The quadrilateral $ABCD$ is cyclic with $\angle A=3\angle C$. Find $\angle A$ (in degrees).
 ::key 135
 $4\angle C=180^\circ$, so $\angle C=45^\circ$ and $\angle A=135^\circ$.

@@ -548,7 +548,7 @@ Vậy thành phố $A$ có nhiệt độ dao động trong ngày lớn hơn, g�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Biểu đồ đoạn thẳng thích hợp nhất để biểu diễn dữ liệu nào sau đây?
 A. Nhiệt độ ngoài trời đo mỗi giờ trong một ngày.
 B. Màu sắc yêu thích của các bạn trong tổ.
@@ -557,7 +557,7 @@ D. Số học sinh của từng lớp trong khối 7.
 ::key A
 Chỉ nhiệt độ theo từng giờ là dữ liệu có thứ tự thời gian. A, B, C là các đối tượng riêng rẽ nên dùng biểu đồ cột.
 
-::mc
+::mc NB
 Doanh thu của một cửa hàng trong bốn tháng liên tiếp là $12$; $15$; $15$; $11$ (triệu đồng). Doanh thu giảm trong khoảng nào?
 A. Từ tháng 1 đến tháng 2.
 B. Từ tháng 3 đến tháng 4.
@@ -566,7 +566,7 @@ D. Cả ba khoảng.
 ::key B
 $15\to11$ là giảm $4$ triệu đồng. B là tăng $3$ triệu đồng, C không đổi (đoạn nằm ngang).
 
-::mc
+::mc TH
 Nhiệt độ lúc 6 giờ, 9 giờ, 12 giờ, 15 giờ lần lượt là $22$ °C, $26$ °C, $30$ °C, $28$ °C. Từ 6 giờ đến 12 giờ nhiệt độ tăng bao nhiêu độ?
 A. $4$ °C.
 B. $30$ °C.
@@ -575,7 +575,7 @@ D. $2$ °C.
 ::key C
 $30-22=8$. A chỉ tính khoảng 6 giờ đến 9 giờ; C nhầm với nhiệt độ lúc 12 giờ; D là mức giảm từ 12 giờ đến 15 giờ.
 
-::mc
+::mc NB
 Khi vẽ biểu đồ đoạn thẳng, điều nào sau đây đúng?
 A. Có thể nối các điểm theo thứ tự bất kì.
 B. Các vạch trên trục đứng không cần ứng với cùng một lượng.
@@ -584,7 +584,7 @@ D. Các điểm được nối lần lượt theo thứ tự thời gian bằng 
 ::key D
 Đó là định nghĩa của biểu đồ đoạn thẳng. A, C là lỗi nối nhầm điểm; B là lỗi chia trục không đều.
 
-::tf
+::tf NB TH NB TH
 Số người vào một công viên lúc 7 giờ, 8 giờ, 9 giờ, 10 giờ lần lượt là $50$; $80$; $120$; $100$ (người). Xét tính đúng sai của các mệnh đề sau:
 a) Lúc 8 giờ có $120$ người vào công viên.
 b) Từ 7 giờ đến 9 giờ, số người tăng thêm $70$ người.
@@ -593,12 +593,12 @@ d) Số người nhiều nhất vào lúc 10 giờ.
 ::key S Đ Đ S
 a) Sai: lúc 8 giờ có $80$ người, $120$ là số người lúc 9 giờ. b) Đúng: $120-50=70$. c) Đúng: từ $120$ xuống $100$. d) Sai: nhiều nhất lúc 9 giờ.
 
-::sa
+::sa VD
 Số cuốn sách thư viện cho mượn trong năm ngày liên tiếp là $24$; $30$; $27$; $36$; $33$. Mức tăng lớn nhất giữa hai ngày liên tiếp là bao nhiêu cuốn?
 ::key 9
 Mức thay đổi là $+6$; $-3$; $+9$; $-3$. Mức tăng lớn nhất là $9$ cuốn (từ ngày thứ ba sang ngày thứ tư).
 
-::sa
+::sa VD
 Chiều cao của một cây vào đầu các tuần 0, 1, 2, 3 là $4$ cm, $7$ cm, $11$ cm, $14$ cm. Trung bình mỗi tuần cây cao thêm bao nhiêu xăng-ti-mét? (Làm tròn đến hàng phần mười.)
 ::key 3,3
 Sau $3$ tuần cây cao thêm $14-4=10$ (cm), nên trung bình mỗi tuần cao thêm $10:3\approx3{,}3$ (cm).

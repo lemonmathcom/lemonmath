@@ -355,7 +355,7 @@ Tích $\dfrac{a}{q}\cdot a\cdot aq=a^3=64$ nên $a=4$. Tổng $\dfrac4q+4+4q=14$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho cấp số nhân có $u_1=3$ và $q=-2$. Số hạng $u_5$ bằng
 A. $-96$.
 B. $96$.
@@ -364,7 +364,7 @@ D. $48$.
 ::key D
 $u_5=3\cdot(-2)^4=48$. Phương án A dùng $q^5$ thay vì $q^4$, phương án C sai dấu.
 
-::mc
+::mc TH
 Ba số $4$, $x$, $9$ với $x>0$ theo thứ tự lập thành cấp số nhân khi $x$ bằng
 A. $6$.
 B. $36$.
@@ -373,7 +373,7 @@ D. $6{,}5$.
 ::key A
 $x^2=4\cdot9=36$ và $x>0$ nên $x=6$. Phương án D là trung bình cộng, phương án B là tích.
 
-::mc
+::mc TH
 Cấp số nhân có $u_1=1$ và $q=3$. Tổng $6$ số hạng đầu bằng
 A. $1093$.
 B. $364$.
@@ -382,7 +382,7 @@ D. $728$.
 ::key B
 $S_6=\dfrac{3^6-1}{3-1}=\dfrac{728}{2}=364$. Phương án A là $S_7$, phương án C là $u_7$, phương án D quên chia $2$.
 
-::mc
+::mc VD
 Gửi $50$ triệu đồng với lãi suất $8\%$ một năm, lãi kép. Sau $3$ năm số tiền xấp xỉ
 A. $62{,}00$ triệu đồng.
 B. $54{,}00$ triệu đồng.
@@ -391,7 +391,7 @@ D. $58{,}32$ triệu đồng.
 ::key C
 $50\cdot1{,}08^3\approx62{,}99$. Phương án A là lãi đơn ($50+3\cdot4$), phương án B là số tiền sau một năm, phương án D là số tiền sau hai năm ($50\cdot1{,}08^2$).
 
-::tf
+::tf TH TH TH VD
 Một quần thể vi khuẩn lúc đầu có $500$ con và cứ mỗi giờ tăng gấp đôi số lượng. Xét tính đúng sai của các mệnh đề sau:
 a) Sau $3$ giờ có $1500$ con.
 b) Sau $5$ giờ có $16\,000$ con.
@@ -400,12 +400,12 @@ d) Sau ít nhất $8$ giờ thì số vi khuẩn vượt $100\,000$ con.
 ::key S Đ S Đ
 Số vi khuẩn sau $n$ giờ là $500\cdot2^n$. a) Sai: $500\cdot8=4000$. b) Đúng: $500\cdot32=16\,000$. c) Sai: $500\cdot1024=512\,000$. d) Đúng: sau $7$ giờ có $64\,000$ con, sau $8$ giờ có $128\,000$ con.
 
-::sa
+::sa TH
 Cho cấp số nhân có $u_1=2$ và $q=3$. Tính tổng $5$ số hạng đầu.
 ::key 242
 $S_5=\dfrac{2\left(3^5-1\right)}{3-1}=3^5-1=242$.
 
-::sa
+::sa VD
 Trong cấp số nhân $1, 2, 4, 8, \dots$, số hạng đầu tiên lớn hơn $1000$ là số hạng thứ mấy?
 ::key 11
 $u_n=2^{n-1}$; $2^9=512<1000<1024=2^{10}$, nên $n-1=10$ và $n=11$.

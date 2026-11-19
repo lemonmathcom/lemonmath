@@ -345,7 +345,7 @@ $\dfrac{\sqrt{1+x}-\sqrt{1-x}}{x}=\dfrac{(1+x)-(1-x)}{x\left(\sqrt{1+x}+\sqrt{1-
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 $\lim\limits_{x\to2}\dfrac{x^2+1}{x-1}$ bằng
 A. $3$.
 B. $5$.
@@ -354,7 +354,7 @@ D. $1$.
 ::key B
 Mẫu tại $x=2$ khác $0$ nên thay $x=2$: $\dfrac{4+1}{2-1}=5$.
 
-::mc
+::mc TH
 $\lim\limits_{x\to3}\dfrac{x^2-9}{x-3}$ bằng
 A. $0$.
 B. $3$.
@@ -363,7 +363,7 @@ D. không tồn tại.
 ::key C
 $\dfrac{x^2-9}{x-3}=x+3\to6$. Phương án A coi dạng $\dfrac00$ bằng $0$.
 
-::mc
+::mc TH
 $\lim\limits_{x\to+\infty}\dfrac{2x+1}{x-3}$ bằng
 A. $1$.
 B. $+\infty$.
@@ -372,7 +372,7 @@ D. $2$.
 ::key D
 Chia tử và mẫu cho $x$: $\dfrac{2+\frac1x}{1-\frac3x}\to2$.
 
-::mc
+::mc NB
 $\lim\limits_{x\to0^+}\dfrac1x$ bằng
 A. $+\infty$.
 B. $-\infty$.
@@ -381,7 +381,7 @@ D. $1$.
 ::key A
 Với $x>0$ nhỏ dần, $\dfrac1x$ dương và lớn không giới hạn. Phương án B là giới hạn khi $x\to0^-$.
 
-::tf
+::tf NB NB TH TH
 Cho hàm số $g(x)=x+2$ nếu $x<1$ và $g(x)=4-x$ nếu $x\ge1$. Xét tính đúng sai của các mệnh đề sau:
 a) $\lim\limits_{x\to1^-}g(x)=3$.
 b) $\lim\limits_{x\to1^+}g(x)=4$.
@@ -390,12 +390,12 @@ d) $g(1)=4$.
 ::key Đ S Đ S
 a) Đúng: $x+2\to3$. b) Sai: $4-x\to3$. c) Đúng: hai giới hạn một phía cùng bằng $3$. d) Sai: $g(1)=4-1=3$.
 
-::sa
+::sa VD
 Tính $\lim\limits_{x\to1}\dfrac{x^2-1}{x-1}$.
 ::key 2
 $\dfrac{x^2-1}{x-1}=x+1\to2$.
 
-::sa
+::sa TH
 Tính $\lim\limits_{x\to+\infty}\dfrac{5x^2+1}{x^2-2}$.
 ::key 5
 Chia cho $x^2$: $\dfrac{5+\frac1{x^2}}{1-\frac2{x^2}}\to5$.

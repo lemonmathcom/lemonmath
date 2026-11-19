@@ -347,7 +347,7 @@ Vì $37{,}68:18{,}84=2$ và $113{,}04:28{,}26=4$ nên chu vi gấp $2$ lần, di
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Chu vi hình tròn có đường kính $12$ cm là
 A. $75{,}36$ cm.
 B. $18{,}84$ cm.
@@ -356,7 +356,7 @@ D. $37{,}68$ cm.
 ::key D
 $C=12\times3{,}14=37{,}68$ cm. Phương án A lấy đường kính nhân $2$ rồi nhân $3{,}14$; B quên nhân $2$ khi dùng bán kính $6$; C là diện tích tính sai bằng đường kính.
 
-::mc
+::mc TH
 Diện tích hình tròn có bán kính $5$ cm là
 A. $78{,}5\ \text{cm}^2$.
 B. $31{,}4\ \text{cm}^2$.
@@ -365,7 +365,7 @@ D. $314\ \text{cm}^2$.
 ::key A
 $S=5\times5\times3{,}14=78{,}5\ \text{cm}^2$. Phương án B là chu vi; C là $5\times3{,}14$; D dùng đường kính $10$ thay cho bán kính.
 
-::mc
+::mc TH
 Hình tròn có chu vi $62{,}8$ cm thì đường kính là
 A. $10$ cm.
 B. $20$ cm.
@@ -374,7 +374,7 @@ D. $31{,}4$ cm.
 ::key B
 $d=62{,}8:3{,}14=20$ cm. Phương án A là bán kính; B nhân thay vì chia; D chia chu vi cho $2$.
 
-::mc
+::mc VD
 Giả sử bánh xe đạp có đường kính $0{,}65$ m. Bánh xe lăn $10$ vòng thì xe đi được
 A. $2{,}041$ m.
 B. $204{,}1$ m.
@@ -383,7 +383,7 @@ D. $6{,}5$ m.
 ::key C
 Chu vi bánh xe là $0{,}65\times3{,}14=2{,}041$ m, sau $10$ vòng xe đi được $20{,}41$ m. Phương án A chỉ là một vòng; C nhân với $100$; D nhân đường kính với $10$.
 
-::tf
+::tf NB TH TH TH
 Em xét hình tròn có bán kính $4$ dm.
 a) Đường kính hình tròn là $4$ dm.
 b) Chu vi hình tròn là $4\times2\times3{,}14=25{,}12$ dm.
@@ -392,12 +392,12 @@ d) Nếu bán kính gấp đôi thì chu vi cũng gấp đôi.
 ::key S Đ Đ Đ
 a) Sai: đường kính là $4\times2=8$ dm. b) Đúng. c) Đúng. d) Đúng: chu vi là $r\times2\times3{,}14$ nên tăng gấp đôi khi $r$ gấp đôi.
 
-::sa
+::sa TH
 Hình tròn có đường kính $20$ cm. Chu vi hình tròn là bao nhiêu xăng-ti-mét?
 ::key 62,8
 $C=20\times3{,}14=62{,}8$ cm.
 
-::sa
+::sa TH
 Hình tròn có bán kính $10$ cm. Diện tích hình tròn là bao nhiêu xăng-ti-mét vuông?
 ::key 314
 $S=10\times10\times3{,}14=314\ \text{cm}^2$.

@@ -259,7 +259,7 @@ Xanh: $\dfrac{3}{8}$; đỏ: $\dfrac{2}{8}$; trắng: $8-3-2=3$ phần nên $\df
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Mẫu số của phân số $\dfrac{3}{5}$ là
 A. $5$.
 B. $3$.
@@ -268,7 +268,7 @@ D. $15$.
 ::key A
 Mẫu số là số ở dưới, $5$. Phương án B là tử số, C là tổng hai số.
 
-::mc
+::mc TH
 Chiếc bánh cắt thành $6$ phần bằng nhau, ăn $1$ phần. Phân số chỉ phần đã ăn là
 A. $\dfrac{6}{1}$.
 B. $\dfrac{1}{6}$.
@@ -277,7 +277,7 @@ D. $\dfrac{5}{6}$.
 ::key B
 Cả chiếc bánh có $6$ phần, ăn $1$ phần nên $\dfrac{1}{6}$. Phương án A viết ngược, D là phần chưa ăn.
 
-::mc
+::mc NB
 Phân số "bảy phần mười" viết là
 A. $\dfrac{10}{7}$.
 B. $7+10$.
@@ -286,7 +286,7 @@ D. $17$.
 ::key C
 Tử số $7$, mẫu số $10$. Phương án A viết ngược tử số và mẫu số.
 
-::mc
+::mc TH
 Một hình được chia thành $8$ phần bằng nhau, tô màu $5$ phần. Phân số chỉ phần không tô màu là
 A. $\dfrac{5}{8}$.
 B. $\dfrac{3}{5}$.
@@ -295,7 +295,7 @@ D. $\dfrac{3}{8}$.
 ::key D
 Phần không tô là $8-5=3$ phần nên $\dfrac{3}{8}$. Phương án A là phần đã tô.
 
-::tf
+::tf NB NB NB TH
 Em xét phân số $\dfrac{5}{9}$.
 a) Tử số là $5$.
 b) Mẫu số là $9$.
@@ -304,12 +304,12 @@ d) Có thể là $5$ phần trong một hình chia thành $9$ phần bằng nhau
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng. c) Sai: đọc là "năm phần chín". d) Đúng.
 
-::sa
+::sa TH
 Chiếc bánh chia thành $12$ phần bằng nhau, Mai ăn $5$ phần. Còn lại bao nhiêu phần?
 ::key 7
 $12-5=7$ phần.
 
-::sa
+::sa NB
 Phân số $\dfrac{3}{8}$ có mẫu số là bao nhiêu?
 ::key 8
 Mẫu số là số ở dưới, $8$.

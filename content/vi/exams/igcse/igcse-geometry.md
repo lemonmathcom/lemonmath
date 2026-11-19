@@ -275,7 +275,7 @@ Vậy dây cung cách tâm $6$ cm.
 :::
 
 :::quiz
-::mc
+::mc NB
 Tổng các góc ngoài của một đa giác bất kì bằng
 A. $180^\circ$
 B. $360^\circ$
@@ -284,7 +284,7 @@ D. $(n-2)\times180^\circ$
 ::key B
 Đi một vòng quanh đa giác là quay đúng một vòng.
 
-::mc
+::mc NB
 Góc nội tiếp chắn nửa đường tròn bằng
 A. $90^\circ$
 B. $180^\circ$
@@ -293,7 +293,7 @@ D. $60^\circ$
 ::key A
 Góc chắn đường kính là góc vuông.
 
-::mc
+::mc TH
 Hai khối đồng dạng có độ dài tỉ lệ $1:3$. Thể tích của chúng tỉ lệ
 A. $1:3$
 B. $1:6$
@@ -302,7 +302,7 @@ D. $1:9$
 ::key C
 $3^3=27$.
 
-::mc
+::mc NB
 Tiếp tuyến và bán kính tại tiếp điểm tạo thành góc
 A. $45^\circ$
 B. $60^\circ$
@@ -311,7 +311,7 @@ D. $90^\circ$
 ::key D
 Tiếp tuyến vuông góc với bán kính.
 
-::tf
+::tf TH TH NB TH
 $ABCD$ là tứ giác nội tiếp với góc $A=110^\circ$ và góc $B=75^\circ$. Mỗi khẳng định sau đúng hay sai?
 a) Góc $C=70^\circ$.
 b) Góc $D=105^\circ$.
@@ -320,12 +320,12 @@ d) Góc $A$ và góc $B$ phải có tổng $180^\circ$.
 ::key T T T F
 Chỉ hai góc đối nhau mới có tổng $180^\circ$.
 
-::sa
+::sa TH
 Tính số đo mỗi góc trong của ngũ giác đều (độ).
 ::key 108
 $\dfrac{540}{5}=108$.
 
-::sa
+::sa TH
 Góc nội tiếp bằng $40^\circ$. Tính góc ở tâm cùng chắn cung đó (độ).
 ::key 80
 Gấp đôi góc nội tiếp.

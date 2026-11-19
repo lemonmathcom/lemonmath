@@ -325,7 +325,7 @@ The longer side is $(18+4)\div2=11$ (cm). The shorter side is $11-4=7$ (cm).
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A parallelogram is a quadrilateral with
 A. two pairs of parallel opposite sides.
 B. four right angles.
@@ -334,7 +334,7 @@ D. one pair of perpendicular sides.
 ::key A
 This is the definition of a parallelogram. Option C describes a rhombus and option B a rectangle.
 
-::mc
+::mc TH
 The parallelogram $ABCD$ has $AB=7$ cm and $BC=4$ cm. Its perimeter is
 A. $11$ cm.
 B. $22$ cm.
@@ -343,7 +343,7 @@ D. $14$ cm.
 ::key B
 $(7+4)\times2=22$ (cm). Option A forgets to multiply by $2$; option C is $7\times4$; option D is $7\times2$.
 
-::mc
+::mc TH
 A rhombus has side $12$ cm. Its perimeter is
 A. $24$ cm.
 B. $36$ cm.
@@ -352,7 +352,7 @@ D. $144$ cm.
 ::key C
 $12\times4=48$ (cm). Option A is $12\times2$, option B is $12\times3$ and option D is $12\times12$.
 
-::mc
+::mc TH
 Which statement is true?
 A. A parallelogram has four equal sides.
 B. The opposite sides of a rhombus are not parallel.
@@ -361,7 +361,7 @@ D. A rhombus is a parallelogram.
 ::key D
 The opposite sides of a rhombus are parallel, so a rhombus is a parallelogram. The other statements are not true for every parallelogram or rhombus.
 
-::tf
+::tf TH NB TH NB
 Look at the rhombus $ABCD$ with side $8$ cm.
 a) $BC=5$ cm.
 b) $AB\parallel DC$.
@@ -370,12 +370,12 @@ d) $AD\parallel BC$.
 ::key F T T T
 a) False: a rhombus has four equal sides, so $BC=8$ cm. b) True: they are opposite sides, which are parallel. c) True: $8\times4=32$ (cm). d) True: $AD$ and $BC$ are opposite sides.
 
-::sa
+::sa VD
 A rhombus has perimeter $52$ cm. How long is each side in centimetres?
 ::key 13
 $52\div4=13$ (cm).
 
-::sa
+::sa VD
 A parallelogram has perimeter $38$ cm and one side $11$ cm long. How long is the adjacent side in centimetres?
 ::key 8
 Half the perimeter is $38\div2=19$ (cm). The adjacent side is $19-11=8$ (cm).

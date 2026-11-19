@@ -369,7 +369,7 @@ Vậy đẳng thức được chứng minh.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $\dfrac{2x+3}{x-1}+\dfrac{x-4}{x-1}$ là
 A. $\dfrac{3x-1}{2x-2}$.
 B. $\dfrac{3x-1}{x-1}$.
@@ -378,7 +378,7 @@ D. $\dfrac{3x-1}{x^2-1}$.
 ::key B
 Cùng mẫu thì cộng tử: $2x+3+x-4=3x-1$. A cộng cả mẫu, C sai dấu của $-4$, D đổi mẫu.
 
-::mc
+::mc TH
 Kết quả của $\dfrac{5x+2}{x}-\dfrac{2x-1}{x}$ là
 A. $\dfrac{3x+1}{x}$.
 B. $\dfrac{7x+1}{x}$.
@@ -387,7 +387,7 @@ D. $3$.
 ::key C
 $5x+2-(2x-1)=3x+3$. A quên đổi dấu của $-1$, B cộng thay vì trừ, D rút gọn sai.
 
-::mc
+::mc TH
 Kết quả của $\dfrac1x+\dfrac1{x+1}$ là
 A. $\dfrac{2}{2x+1}$.
 B. $\dfrac{1}{x(x+1)}$.
@@ -396,7 +396,7 @@ D. $\dfrac{2x+1}{x(x+1)}$.
 ::key D
 $\dfrac{x+1}{x(x+1)}+\dfrac{x}{x(x+1)}=\dfrac{2x+1}{x(x+1)}$. A cộng tử với tử, mẫu với mẫu; B quên nhân tử; C nhầm tử.
 
-::mc
+::mc TH
 Mẫu thức chung của $\dfrac{1}{x-2}$ và $\dfrac{3}{x^2-4}$ là
 A. $x^2-4$.
 B. $(x-2)(x^2-4)$.
@@ -405,7 +405,7 @@ D. $x+2$.
 ::key A
 $x^2-4=(x-2)(x+2)$ đã chứa nhân tử $x-2$, nên MTC là $x^2-4$. B nhân thừa nhân tử $x-2$.
 
-::tf
+::tf TH TH VD TH
 Cho $P=\dfrac{1}{x-2}-\dfrac{4}{x^2-4}$ ($x\neq\pm2$). Xét tính đúng sai của các mệnh đề sau:
 a) Mẫu thức chung của hai phân thức là $(x-2)(x+2)$.
 b) $P=\dfrac{x-3}{x^2-4}$.
@@ -414,12 +414,12 @@ d) Giá trị của $P$ tại $x=3$ bằng $\dfrac15$.
 ::key Đ S Đ Đ
 a) Đúng: $x^2-4=(x-2)(x+2)$. b) Sai: tử là $(x+2)-4=x-2$, không phải $x-3$. c) Đúng: $\dfrac{x-2}{(x-2)(x+2)}=\dfrac1{x+2}$. d) Đúng: $\dfrac{1}{3+2}=\dfrac15$.
 
-::sa
+::sa VD
 Hai vòi nước chảy đầy bể sau $6$ giờ và $9$ giờ. Mỗi giờ cả hai vòi chảy được bao nhiêu phần bể? (làm tròn đến hàng phần trăm)
 ::key 0,28
 $\dfrac16+\dfrac19=\dfrac{5}{18}\approx0{,}28$.
 
-::sa
+::sa VD
 Một xe đi $60$ km với vận tốc $40$ km/h rồi về $60$ km với vận tốc $50$ km/h. Tổng thời gian đi và về là bao nhiêu giờ?
 ::key 2,7
 $\dfrac{60}{40}+\dfrac{60}{50}=1{,}5+1{,}2=2{,}7$.

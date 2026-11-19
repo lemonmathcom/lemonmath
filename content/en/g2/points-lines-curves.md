@@ -268,7 +268,7 @@ The line segments are $AB$, $AC$, $AD$, $BC$, $BD$, $CD$. That is $3+2+1=6$ line
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which shape is a straight line with two ends and a length we can measure?
 A. A line segment.
 B. A straight line.
@@ -277,7 +277,7 @@ D. A point.
 ::key A
 A line segment has two ends, so we can measure its length. A straight line goes on for ever, a curve is not straight, and a point is only a dot.
 
-::mc
+::mc NB
 Three points in a line are three points that
 A. lie on the same straight line.
 B. are joined by a curve.
@@ -286,7 +286,7 @@ D. do not lie on any straight line.
 ::key A
 Three points on the same straight line are in a line; they do not have to be the same distance apart.
 
-::mc
+::mc TH
 Three points $A$, $B$, $C$ are on one straight line. We join every pair of points. How many line segments are there?
 A. $2$.
 B. $3$.
@@ -295,7 +295,7 @@ D. $6$.
 ::key B
 There are $AB$, $BC$, $AC$, so $3$ line segments. Option A forgets $AC$, and D counts each segment twice ($AB$ and $BA$).
 
-::mc
+::mc TH
 Which object suggests a curve?
 A. The edge of a ruler.
 B. The rim of a round cup.
@@ -304,7 +304,7 @@ D. A tightly stretched string.
 ::key B
 The rim of a round cup goes round, so it is a curve. The other three objects are straight.
 
-::tf
+::tf TH NB NB TH
 Three points $A$, $B$, $C$ are in a line.
 a) We can draw one straight line through all three points.
 b) Line segment $AB$ has two endpoints, $A$ and $B$.
@@ -313,12 +313,12 @@ d) Joining every pair of points gives three line segments $AB$, $BC$, $AC$.
 ::key T T F T
 a) True: three points in a line lie on one straight line. b) True. c) False: a line segment is straight. d) True: there are $3$ pairs of points.
 
-::sa
+::sa VD
 Line segment $AB$ is $36$ cm long and line segment $CD$ is $7$ cm long. How many centimetres longer is $AB$ than $CD$?
 ::key 29
 $16-7=9$ and $3-1=2$, so $36-7=29$ (cm).
 
-::sa
+::sa VD
 A straight piece of string is $63$ cm long. You cut off $8$ cm. How many centimetres of string are left?
 ::key 55
 $13-8=5$ and $6-1=5$, so $63-8=55$ (cm).

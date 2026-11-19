@@ -353,7 +353,7 @@ $2x-3=-x+6\Rightarrow3x=9\Rightarrow x=3$. Khi đó $y=2\cdot3-3=3$. Kiểm tra:
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hàm số nào sau đây là hàm số bậc nhất?
 A. $y=x^2-2$.
 B. $y=5$.
@@ -362,7 +362,7 @@ D. $y=\dfrac3x$.
 ::key C
 A có dạng $y=ax+b$ với $a=4\ne0$. B có $a=0$, còn C và D không có dạng bậc nhất.
 
-::mc
+::mc TH
 Điểm nào thuộc đồ thị $y=-2x+4$?
 A. $(0; -4)$.
 B. $(-1; 2)$.
@@ -371,7 +371,7 @@ D. $(1; 2)$.
 ::key D
 Với $x=1$, ta có $y=-2+4=2$. Các phương án khác xuất phát từ sai dấu hoặc không thay hoành độ vào công thức.
 
-::mc
+::mc TH
 Cặp điểm nào thuận tiện để vẽ đồ thị $y=3x+6$ bằng hai giao điểm với các trục?
 A. $(0; 6)$ và $(-2; 0)$.
 B. $(0; 6)$ và $(2; 0)$.
@@ -380,7 +380,7 @@ D. $(6; 0)$ và $(0; -2)$.
 ::key A
 Cho $x=0$ được $(0; 6)$; cho $y=0$ được $3x+6=0\Rightarrow x=-2$. A và B mắc lỗi về dấu.
 
-::mc
+::mc TH
 Đồ thị $y=-x+3$ cắt trục hoành tại điểm nào?
 A. $(0; 3)$.
 B. $(3; 0)$.
@@ -389,7 +389,7 @@ D. $(0; -3)$.
 ::key B
 Trên trục hoành, $y=0$, nên $-x+3=0\Rightarrow x=3$. A là giao điểm với trục tung.
 
-::tf
+::tf NB TH TH TH
 Cho hàm số $y=2x-4$.
 a) Đây là hàm số bậc nhất với $a=2$, $b=-4$.
 b) Đồ thị đi qua gốc toạ độ $O$.
@@ -398,12 +398,12 @@ d) Đồ thị cắt trục tung tại $(0; 4)$.
 ::key Đ S Đ S
 a) Đúng theo định nghĩa. b) Sai vì khi $x=0$ thì $y=-4$. c) Đúng vì $2\cdot2-4=0$. d) Sai: giao điểm với trục tung là $(0; -4)$.
 
-::sa
+::sa TH
 Cho $y=-3x+7$. Tính $y$ khi $x=2$.
 ::key 1
 Thay $x=2$: $y=-3\cdot2+7=1$.
 
-::sa
+::sa VD
 Một chuyến giao hàng có chi phí $C=8x+12$ nghìn đồng, trong đó $x$ là số ki-lô-mét. Chi phí là $60$ nghìn đồng thì quãng đường bằng bao nhiêu ki-lô-mét?
 ::key 6
 Giải $8x+12=60$ được $8x=48$, nên $x=6$ km.

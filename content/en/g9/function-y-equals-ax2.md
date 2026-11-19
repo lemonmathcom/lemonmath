@@ -410,7 +410,7 @@ So the lorry can get through the arch.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of the following functions has the form $y=ax^2$ with $a\neq0$?
 A. $y=3x$.
 B. $y=-\dfrac12x^2$.
@@ -419,7 +419,7 @@ D. $y=0x^2$.
 ::key B
 $a=-\dfrac12\neq0$. A is a linear function, C has an extra term $2$, and D has $a=0$.
 
-::mc
+::mc TH
 Consider the function $y=-2x^2$. The value of $y$ when $x=-3$ is
 A. $18$.
 B. $-18$.
@@ -428,7 +428,7 @@ D. $6$.
 ::key B
 $y=-2\cdot9=-18$. A has the wrong sign, C squares the $-2$ as well, and D forgets to square.
 
-::mc
+::mc TH
 The graph of $y=ax^2$ passes through the point $(-2, 8)$. The value of $a$ is
 A. $2$.
 B. $-2$.
@@ -437,7 +437,7 @@ D. $-4$.
 ::key A
 $4a=8$, so $a=2$. B takes $(-2)^2=-4$, C takes $8\div2$, and D takes $8\div(-2)$.
 
-::mc
+::mc TH
 Which of the following points does not lie on the graph of $y=-x^2$?
 A. $(1, -1)$.
 B. $(-2, -4)$.
@@ -446,7 +446,7 @@ D. $(0, 0)$.
 ::key C
 At $x=3$, $y=-9\neq9$.
 
-::tf
+::tf TH NB TH VD
 The function $y=\dfrac13x^2$ has graph $(P)$. Decide whether each statement is true or false.
 a) $O(0, 0)$ is the lowest point of $(P)$.
 b) $(P)$ passes through the point $(3, 3)$.
@@ -455,12 +455,12 @@ d) The points of $(P)$ with $y$-coordinate $12$ have $x$-coordinates $6$ and $-6
 ::key T T F T
 a) True: $a>0$. b) True: $\dfrac13\cdot9=3$. c) False: at $x=-3$, $y=3$. d) True: $x^2=36$.
 
-::sa
+::sa VD
 An object falls from a height of $80$ m, and the distance fallen after $t$ seconds is $s=5t^2$ (m). After how many seconds does it reach the ground?
 ::key 4
 $5t^2=80\Leftrightarrow t^2=16$, and $t>0$, so $t=4$.
 
-::sa
+::sa TH
 The graph of $y=ax^2$ passes through the point $A(4, 4)$. Find $a$ (give your answer as a decimal).
 ::key 0.25
 $16a=4$, so $a=0.25$.

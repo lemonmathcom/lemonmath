@@ -382,7 +382,7 @@ So the window has the largest area when it is $10\sqrt2$ dm wide and $5\sqrt2$ d
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 An object moves along a straight line and has travelled $s(t)=2t^3-3t^2+t$ (metres) after $t$ seconds. Its velocity at $t=2$ seconds is
 A. $6$ m/s.
 B. $13$ m/s.
@@ -391,7 +391,7 @@ D. $37$ m/s.
 ::key B
 We have $v(t)=s'(t)=6t^2-6t+1$, so $v(2)=24-12+1=13$. Option A is the distance $s(2)$, option C is the acceleration $a(2)=s''(2)$, and option D gets the sign of the term $-6t$ wrong.
 
-::mc
+::mc VD
 A particle moves along a straight line with distance $s(t)=-t^3+6t^2$ (metres), $0\le t\le 5$ (seconds). Its velocity reaches its greatest value at
 A. $t=5$.
 B. $t=4$.
@@ -400,7 +400,7 @@ D. $t=2$.
 ::key D
 We have $v(t)=-3t^2+12t$ and $v'(t)=a(t)=-6t+12=0\iff t=2$. We have $v(0)=0$, $v(2)=12$, $v(5)=-15$. Option B is when $v(t)=0$, that is, when the particle stops.
 
-::mc
+::mc TH
 The cost of making $x$ products is $C(x)=0.01x^2+20x+500$ (thousand đồng). The instantaneous rate of change of the cost with respect to the number of products at $x=100$ is
 A. $21$ thousand đồng per product.
 B. $2600$ thousand đồng per product.
@@ -409,7 +409,7 @@ D. $26$ thousand đồng per product.
 ::key C
 We have $C'(x)=0.02x+20$, so $C'(100)=22$. Option B is $C(100)$, option A forgets the factor $2$ when differentiating $x^2$, and option D is the average cost $\dfrac{C(100)}{100}$.
 
-::mc
+::mc TH
 $40$ m of fencing is used to go all the way round a rectangular garden of width $x$ (m). The area of the garden in terms of $x$ is
 A. $S(x)=x(20-x)$.
 B. $S(x)=x(40-x)$.
@@ -418,7 +418,7 @@ D. $S(x)=2x+2(20-x)$.
 ::key A
 Since the perimeter is $2x+2y=40$, the length is $y=20-x$ and $S=x(20-x)$ with $0<x<20$. Option C is the case with fencing on only three sides, and option D is the perimeter, not the area.
 
-::tf
+::tf TH TH VD VD
 A ball is thrown straight up; its height after $t$ seconds is $h(t)=2+20t-5t^2$ (metres). Decide whether each statement is true or false.
 a) The velocity of the ball is $v(t)=20-10t$ (m/s).
 b) The ball reaches its greatest height at $t=2$ seconds.
@@ -427,12 +427,12 @@ d) The speed of the ball when it hits the ground is more than $20$ m/s.
 ::key T T F T
 a) True: we have $v=h'(t)$. b) True: we have $v(t)=0\iff t=2$, and $v$ changes sign from $+$ to $-$ there. c) False: the greatest height is $h(2)=2+40-20=22$ m. d) True: $h(t)=0$ when $t=2+\dfrac{\sqrt{110}}{5}$, and then $v=-2\sqrt{110}\approx-20.98$, hence the speed is about $20.98$ m/s.
 
-::sa
+::sa VDC
 A piece of wire $2$ m long is cut into two parts: the first is bent into a square and the second into an equilateral triangle. To make the total area of the two shapes as small as possible, how long (in metres) should the part for the square be (give your answer to 2 decimal places)?
 ::key 0.87
 Let $x$ (m) be the length of the part for the square. The total area is $S(x)=\dfrac{x^2}{16}+\dfrac{\sqrt3}{36}(2-x)^2$, $0\le x\le2$. We have $S'(x)=0\iff x=\dfrac{8\sqrt3}{4\sqrt3+9}\approx0.87$; the value there ($\approx0.109$) is less than $S(0)\approx0.192$ and $S(2)=0.25$. So the part for the square should be about $0.87$ m long.
 
-::sa
+::sa VD
 A beam with a rectangular cross-section of width $b$ and height $h$ (cm) is cut from a cylindrical log of diameter $40$ cm, with the rectangle inscribed in the circle. The strength of the beam is proportional to $bh^2$. For the strongest beam, what is the width $b$ in centimetres (give your answer to 1 decimal place)?
 ::key 23.1
 Since the diagonal of the cross-section is a diameter, $h^2=1600-b^2$. We need the maximum value of $f(b)=b(1600-b^2)$ on $(0, 40)$. We have $f'(b)=1600-3b^2=0\iff b=\dfrac{40}{\sqrt3}\approx23.09$, and $f'$ changes sign from $+$ to $-$ there. So $b\approx23.1$ cm.

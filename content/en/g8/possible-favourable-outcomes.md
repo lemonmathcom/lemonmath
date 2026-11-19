@@ -378,7 +378,7 @@ b) The numbers whose digits add up to $9$ are $18$, $27$, $36$, $45$, $54$, $63$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A fair die is rolled. The probability that the face shows more than $4$ dots is
 A. $\dfrac16$.
 B. $\dfrac23$.
@@ -387,7 +387,7 @@ D. $\dfrac13$.
 ::key D
 The favourable outcomes are $5$ and $6$, so $P=\dfrac26=\dfrac13$. A counts only one outcome; C and B count the favourable outcomes wrongly.
 
-::mc
+::mc TH
 A box holds $3$ red, $5$ blue and $2$ yellow marbles. One marble is taken. The probability that it is not red is
 A. $\dfrac{7}{10}$.
 B. $\dfrac37$.
@@ -396,7 +396,7 @@ D. $\dfrac{3}{10}$.
 ::key A
 There are $5+2=7$ non-red marbles out of $10$, so $P=\dfrac7{10}$. A is the probability of red, B uses $3$ out of $7$, C is the probability of blue.
 
-::mc
+::mc VD
 A fair coin is tossed twice. The probability that the two faces are the same is
 A. $\dfrac13$.
 B. $\dfrac12$.
@@ -405,7 +405,7 @@ D. $\dfrac34$.
 ::key B
 The favourable outcomes are $TT$ and $HH$, out of $4$ outcomes, so $P=\dfrac24=\dfrac12$. B thinks there are only $3$ outcomes, C counts only one outcome, D is the probability of at least one head.
 
-::mc
+::mc TH
 A card is drawn from $20$ cards numbered $1$ to $20$. The probability that the number is divisible by $5$ is
 A. $\dfrac14$.
 B. $\dfrac45$.
@@ -414,7 +414,7 @@ D. $\dfrac1{20}$.
 ::key C
 There are $4$ such numbers ($5$, $10$, $15$, $20$), so $P=\dfrac{4}{20}=\dfrac15$. A uses $\dfrac{5}{20}$, B takes $\dfrac{4}{5}$, D counts only one outcome.
 
-::tf
+::tf NB TH TH TH
 A fair die is rolled. Decide whether each statement is true or false.
 a) The experiment has $5$ possible outcomes.
 b) The probability of an even number of dots is $\dfrac12$.
@@ -423,12 +423,12 @@ d) The probability of a prime number of dots is $\dfrac13$.
 ::key F T T F
 a) False: there are $6$ outcomes. b) True: $\dfrac36=\dfrac12$. c) True: it is an impossible event. d) False: the primes are $2$, $3$, $5$, so the probability is $\dfrac36=\dfrac12$.
 
-::sa
+::sa TH
 A box holds $20$ slips, of which $4$ win a prize. One slip is drawn. What is the probability of winning, as a percentage?
 ::key 20
 $\dfrac4{20}=\dfrac15=20\%$.
 
-::sa
+::sa TH
 Two fair dice are rolled at the same time. How many possible outcomes are there?
 ::key 36
 $6\cdot6=36$.

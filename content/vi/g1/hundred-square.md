@@ -309,7 +309,7 @@ Cứ như vậy, mỗi lần thêm 11.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số liền sau của 59 là
 A. $60$.
 B. $69$.
@@ -318,7 +318,7 @@ D. $50$.
 ::key A
 Số liền sau hơn 59 một đơn vị: $59+1=60$. Phương án C là số liền trước, phương án B hơn 59 mười đơn vị.
 
-::mc
+::mc TH
 Số nhiều hơn 37 là 10 đơn vị là
 A. $38$.
 B. $47$.
@@ -327,7 +327,7 @@ D. $57$.
 ::key B
 $37+10=47$. Phương án A chỉ thêm 1, phương án C là số ít hơn 10 đơn vị.
 
-::mc
+::mc TH
 Trong bảng các số từ 1 đến 100, số ở ngay dưới số 25 là
 A. $26$.
 B. $15$.
@@ -336,7 +336,7 @@ D. $24$.
 ::key C
 Đi xuống 1 hàng thì thêm 10: $25+10=35$. Phương án A là ô bên phải, phương án B là ô ngay trên.
 
-::mc
+::mc TH
 Lan đứng ở ô số 72 trong bảng các số. Mai đứng ở ô ngay phía trên ô của Lan. Mai đứng ở ô số
 A. $82$.
 B. $73$.
@@ -345,7 +345,7 @@ D. $62$.
 ::key D
 Đi lên 1 hàng thì bớt 10: $72-10=62$. Phương án A là ô ngay dưới, phương án C và B là hai ô bên cạnh.
 
-::tf
+::tf TH TH NB NB
 Em nhìn bảng các số từ 1 đến 100.
 a) Từ một số, đi xuống ô ngay dưới thì số đó tăng thêm 1.
 b) Các số 6, 16, 26, 36 nằm trong cùng một cột.
@@ -354,12 +354,12 @@ d) Số 100 nằm ở hàng đầu tiên của bảng.
 ::key S Đ Đ S
 a) Sai: đi xuống 1 hàng thì thêm 10, không phải thêm 1. b) Đúng: bốn số này đều có chữ số cuối là 6. c) Đúng: $70-1=69$. d) Sai: số 100 nằm ở hàng cuối cùng.
 
-::sa
+::sa NB
 Số liền sau của 99 là số nào?
 ::key 100
 Số liền sau hơn 99 một đơn vị: $99+1=100$.
 
-::sa
+::sa VD
 Nam cầm thẻ số 85. Lan cầm thẻ có số ít hơn số của Nam 10 đơn vị. Hỏi Lan cầm thẻ số mấy?
 ::key 75
 $85-10=75$.

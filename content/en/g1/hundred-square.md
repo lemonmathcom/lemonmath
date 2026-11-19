@@ -309,7 +309,7 @@ It is the same every time: each step adds 11.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The number after 59 is
 A. $60$.
 B. $69$.
@@ -318,7 +318,7 @@ D. $50$.
 ::key A
 The number after is 1 more than 59: $59+1=60$. Option C is the number before, and option B is 10 more than 59.
 
-::mc
+::mc TH
 The number that is 10 more than 37 is
 A. $38$.
 B. $47$.
@@ -327,7 +327,7 @@ D. $57$.
 ::key B
 $37+10=47$. Option A only adds 1, and option C is 10 less.
 
-::mc
+::mc TH
 In the hundred square, the number just below 25 is
 A. $26$.
 B. $15$.
@@ -336,7 +336,7 @@ D. $24$.
 ::key C
 Moving down 1 row adds 10: $25+10=35$. Option A is the square to the right, and option B is the square just above.
 
-::mc
+::mc TH
 Lan stands on square 72 of the hundred square. Mai stands on the square just above Lan's. Mai stands on square
 A. $82$.
 B. $73$.
@@ -345,7 +345,7 @@ D. $62$.
 ::key D
 Moving up 1 row subtracts 10: $72-10=62$. Option A is the square just below, and options C and B are the squares on either side.
 
-::tf
+::tf TH TH NB NB
 Look at the hundred square.
 a) Moving to the square just below a number adds 1 to it.
 b) The numbers 6, 16, 26 and 36 are in the same column.
@@ -354,12 +354,12 @@ d) The number 100 is in the first row of the square.
 ::key F T T F
 a) False: moving down 1 row adds 10, not 1. b) True: all four numbers end in 6. c) True: $70-1=69$. d) False: 100 is in the last row.
 
-::sa
+::sa NB
 What is the number after 99?
 ::key 100
 The number after is 1 more than 99: $99+1=100$.
 
-::sa
+::sa VD
 Nam holds card 85. Lan holds the card whose number is 10 less than Nam's. Which card does Lan hold?
 ::key 75
 $85-10=75$.

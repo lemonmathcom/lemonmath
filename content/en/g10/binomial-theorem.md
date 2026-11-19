@@ -362,7 +362,7 @@ The first three terms already give $1+0.5+0.1=1.6$, and the other terms are all 
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The expansion of $(x-1)^4$ is
 A. $x^4-4x^3+6x^2-4x+1$.
 B. $x^4+4x^3+6x^2+4x+1$.
@@ -371,7 +371,7 @@ D. $x^4-4x^3-6x^2-4x-1$.
 ::key A
 Use the row $1, 4, 6, 4, 1$ with $b=-1$: odd powers of $-1$ are negative and even powers positive, so the signs alternate. Option C is the mistake $(a+b)^n=a^n+b^n$.
 
-::mc
+::mc TH
 The coefficient of $x^3$ in the expansion of $(2x+1)^4$ is
 A. $4$.
 B. $8$.
@@ -380,7 +380,7 @@ D. $32$.
 ::key D
 The term containing $x^3$ is $\binom{4}{3}(2x)^3\cdot1=4\cdot8x^3=32x^3$. Option A forgets to raise the $2$ to the power; B forgets $\binom{4}{3}$; C is the coefficient of $x^2$.
 
-::mc
+::mc VD
 The term independent of $x$ in the expansion of $\left(x-\dfrac2x\right)^4$ (with $x\ne0$) is
 A. $-24$.
 B. $6$.
@@ -389,7 +389,7 @@ D. $24$.
 ::key D
 The general term is $\binom{4}{k}x^{4-k}\left(-\dfrac2x\right)^k=\binom{4}{k}(-2)^kx^{4-2k}$. We need $4-2k=0$, so $k=2$: $6\cdot(-2)^2=24$ (an even power, so positive).
 
-::mc
+::mc TH
 The sum of the coefficients in the expansion of $(2x-3)^5$ is
 A. $-1$.
 B. $1$.
@@ -398,7 +398,7 @@ D. $-243$.
 ::key A
 Put $x=1$: $(2-3)^5=(-1)^5=-1$. Option D comes from putting $x=0$ (that gives the constant term), and C is $(2+3)^5$ with the minus sign lost.
 
-::tf
+::tf TH TH TH TH
 Let $(1+3x)^4=a_0+a_1x+a_2x^2+a_3x^3+a_4x^4$.
 a) $a_1=12$.
 b) $a_2=18$.
@@ -407,12 +407,12 @@ d) The third term of the expansion is $54x^2$.
 ::key T F T T
 a) True: $\binom{4}{1}\cdot3=12$. b) False: $a_2=\binom{4}{2}\cdot3^2=54$ (the value $18$ comes from forgetting to square the $3$). c) True: putting $x=1$ gives $4^4=256$. d) True: the third term has $k=2$, and it is $54x^2$.
 
-::sa
+::sa VD
 Find the coefficient of $x^2$ in the expansion of $(x-2)^5$.
 ::key -80
 The term containing $x^2$ is $\binom{5}{3}x^2(-2)^3=10\cdot(-8)x^2=-80x^2$.
 
-::sa
+::sa VD
 Find the coefficient of $x^3$ in the expansion of $(x+2)(x-1)^4$.
 ::key -2
 $(x-1)^4=x^4-4x^3+6x^2-4x+1$. The $x^3$ term of the product comes from $x\cdot6x^2$ and $2\cdot(-4x^3)$, so the coefficient is $6-8=-2$.

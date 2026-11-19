@@ -348,7 +348,7 @@ Với mục tiêu $8{,}0$, tổng cần là $4\cdot8{,}0=32$, đề thứ tư c�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc VD
 Một đề thi có thời gian làm bài $90$ phút, thang điểm $10$. Dành $10$ phút để đọc đề và kiểm tra lại, phần còn lại chia theo điểm. Thời gian cho một bài $3$ điểm là
 A. $30$ phút.
 B. $27$ phút.
@@ -357,7 +357,7 @@ D. $8$ phút.
 ::key C
 $(90-10):10=8$ phút mỗi điểm, nên bài $3$ điểm được $3\cdot8=24$ phút. Đáp án B không trừ thời gian dự trữ, A tính $10$ phút mỗi điểm, D chỉ là thời gian cho một điểm.
 
-::mc
+::mc TH
 Quỹ $36$ giờ được chia cho ba nhóm chuyên đề theo tỉ lệ $1:2:3$. Nhóm nhiều giờ nhất được
 A. $12$ giờ.
 B. $6$ giờ.
@@ -366,7 +366,7 @@ D. $18$ giờ.
 ::key D
 Tổng các phần là $6$, một phần là $36:6=6$ giờ, nhóm lớn nhất là $3\cdot6=18$ giờ. Đáp án A là nhóm giữa, B là nhóm nhỏ nhất, C là $36:4$.
 
-::mc
+::mc TH
 Trong $6{,}0$ điểm bị mất, có $1{,}5$ điểm do tính nhầm. Tỉ lệ phần trăm điểm mất do tính nhầm là
 A. $25\%$.
 B. $1{,}5\%$.
@@ -375,7 +375,7 @@ D. $75\%$.
 ::key A
 $\dfrac{1{,}5}{6{,}0}=0{,}25=25\%$. Đáp án C chia cho $10$ thay vì $6$, B nhầm dấu phẩy, D là tỉ lệ điểm mất do các lỗi còn lại.
 
-::mc
+::mc VD
 Bốn đề thi thử đầu của một bạn được $7{,}5$; $8{,}0$; $8{,}5$; $7{,}0$ điểm. Để điểm trung bình năm đề đạt ít nhất $8{,}0$ thì đề thứ năm cần ít nhất
 A. $8{,}0$ điểm.
 B. $9{,}0$ điểm.
@@ -384,7 +384,7 @@ D. $10$ điểm.
 ::key B
 Tổng cần có là $5\cdot8{,}0=40$, tổng bốn đề là $31$, nên đề thứ năm cần $40-31=9{,}0$. Đáp án A chỉ lấy mục tiêu, C là điểm của một đề, D nhầm là phải đạt tối đa.
 
-::tf
+::tf TH VD TH TH
 Một đề giả định có thời gian $120$ phút, dành $20$ phút đọc đề và kiểm tra lại. Các bài có điểm lần lượt là $2$; $2$; $2$; $3$; $1$. Các nhận định sau đúng hay sai?
 a) Ba bài đầu chiếm $70\%$ tổng điểm.
 b) Bài $4$ nên dành $30$ phút.
@@ -393,12 +393,12 @@ d) Tổng thời gian dành cho giải năm bài là $100$ phút.
 ::key S Đ S Đ
 a) Sai: $6$ điểm trên $10$ là $60\%$. b) Đúng: mỗi điểm $10$ phút, bài $4$ có $3$ điểm. c) Sai: bài $5$ có $1$ điểm nên là $10$ phút. d) Đúng: $120-20=100$.
 
-::sa
+::sa TH
 Một bạn cần thêm $2{,}0$ điểm để đạt mục tiêu. Cứ $0{,}5$ điểm cần thêm khoảng $6$ giờ ôn tập. Cần bao nhiêu giờ ôn tập?
 ::key 24
 $2{,}0$ gồm $4$ lần $0{,}5$ điểm, nên cần $4\cdot6=24$ giờ.
 
-::sa
+::sa VD
 Đề thi có thời gian làm bài $90$ phút, thang điểm $10$, dành $15$ phút đọc đề và kiểm tra lại. Bài $3$ điểm nên dành bao nhiêu phút?
 ::key 22,5
 Thời gian giải bài là $75$ phút, mỗi điểm $7{,}5$ phút, nên bài $3$ điểm là $3\cdot7{,}5=22{,}5$ phút.

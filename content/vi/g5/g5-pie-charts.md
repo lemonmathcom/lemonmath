@@ -332,7 +332,7 @@ Tỉ số lần lấy được bi đỏ là $10:40=0{,}25=25\%$. Ta ước lư�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Biểu đồ hình quạt tròn cho biết $25\%$ trong $40$ học sinh chọn cầu lông. Số học sinh chọn cầu lông là
 A. $25$.
 B. $1000$.
@@ -341,7 +341,7 @@ D. $10$.
 ::key D
 $40:100\times25=10$. Phương án A coi $25\%$ là $25$ bạn, C là $40\%$ của $40$, B quên chia cho $100$.
 
-::mc
+::mc TH
 Tỉ số phần trăm của $8$ so với $32$ là
 A. $25\%$.
 B. $32\%$.
@@ -350,7 +350,7 @@ D. $8\%$.
 ::key A
 $8:32=0{,}25=25\%$. Phương án D viết số lần là phần trăm, B lấy tổng, C là $32:8=4$.
 
-::mc
+::mc TH
 Tung một đồng xu $20$ lần, được $13$ lần mặt sấp. Tỉ số phần trăm số lần xuất hiện mặt sấp là
 A. $13\%$.
 B. $65\%$.
@@ -359,7 +359,7 @@ D. $\dfrac{20}{13}$.
 ::key B
 $13:20=0{,}65=65\%$. Phương án A viết số lần thành phần trăm, C là tỉ số của mặt ngửa, D đảo thứ tự của tỉ số.
 
-::mc
+::mc TH
 Một biểu đồ hình quạt tròn có ba phần chiếm $40\%$, $35\%$ và $15\%$. Phần còn lại chiếm
 A. $90\%$.
 B. $5\%$.
@@ -368,7 +368,7 @@ D. $100\%$.
 ::key C
 $40+35+15=90$ nên phần còn lại là $100-90=10\ (\%)$. Phương án A là tổng ba phần, D là cả hình tròn.
 
-::tf
+::tf TH TH VD TH
 Biểu đồ khảo sát $40$ học sinh: bóng đá $50\%$, cầu lông $25\%$, bơi $15\%$, các môn khác $10\%$.
 a) Có $20$ bạn chọn bóng đá.
 b) Có $6$ bạn chọn bơi.
@@ -377,12 +377,12 @@ d) Hai môn cầu lông và bơi cộng lại chiếm $30\%$ số bạn.
 ::key Đ Đ S S
 a) Đúng: $40:100\times50=20$. b) Đúng: $40:100\times15=6$. c) Sai: $20:10=2$, gấp $2$ lần. d) Sai: $25\%+15\%=40\%$.
 
-::sa
+::sa TH
 Tìm tỉ số phần trăm của $6$ so với $25$ (không ghi dấu $\%$).
 ::key 24
 $6:25=0{,}24=24\%$.
 
-::sa
+::sa TH
 Tung một con xúc xắc $50$ lần, được $8$ lần mặt $6$ chấm. Tỉ số phần trăm số lần xuất hiện mặt $6$ chấm là bao nhiêu (không ghi dấu $\%$)?
 ::key 16
 $8:50=0{,}16=16\%$.

@@ -357,7 +357,7 @@ Các số tròn triệu từ $1\,000\,000$ đến $99\,000\,000$ là $1$ triệu
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Số "năm trăm linh ba triệu bốn trăm nghìn" viết là
 A. $53\,400\,000$.
 B. $503\,004\,000$.
@@ -366,7 +366,7 @@ D. $530\,400\,000$.
 ::key C
 "Năm trăm linh ba triệu" là $503\,000\,000$ và "bốn trăm nghìn" là $400\,000$, nên số cần viết là $503\,400\,000$. Phương án A thiếu chữ số $0$, phương án B đặt $4$ ở hàng nghìn, phương án D bỏ qua chữ "linh".
 
-::mc
+::mc TH
 Chữ số $8$ trong số $38\,645\,012$ thuộc
 A. hàng nghìn, lớp nghìn.
 B. hàng chục triệu, lớp triệu.
@@ -375,7 +375,7 @@ D. hàng triệu, lớp triệu.
 ::key D
 Số $38\,645\,012$ có chữ số $3$ ở hàng chục triệu và chữ số $8$ ở hàng triệu, thuộc lớp triệu. Phương án B nhầm với chữ số $3$, phương án C nhầm với chữ số $6$, phương án A nhầm với chữ số $5$.
 
-::mc
+::mc TH
 Trong các số sau, số lớn nhất là
 A. $100\,000\,000$.
 B. $98\,765\,432$.
@@ -384,7 +384,7 @@ D. $99\,000\,000$.
 ::key A
 Số $100\,000\,000$ có chín chữ số, các số còn lại có tám chữ số. Số có nhiều chữ số hơn thì lớn hơn.
 
-::mc
+::mc TH
 Thứ tự từ bé đến lớn của $60\,500\,000$, $6\,500\,000$ và $65\,000\,000$ là
 A. $60\,500\,000$; $6\,500\,000$; $65\,000\,000$.
 B. $6\,500\,000$; $60\,500\,000$; $65\,000\,000$.
@@ -393,7 +393,7 @@ D. $65\,000\,000$; $60\,500\,000$; $6\,500\,000$.
 ::key B
 Số $6\,500\,000$ có bảy chữ số nên bé nhất. Hai số còn lại có tám chữ số: hàng triệu $0<5$ nên $60\,500\,000<65\,000\,000$. Phương án D xếp từ lớn đến bé, phương án A và C đặt sai thứ tự.
 
-::tf
+::tf NB NB TH TH
 Em xét số $305\,000\,042$.
 a) Số này có tám chữ số.
 b) Chữ số $5$ ở hàng nghìn.
@@ -402,12 +402,12 @@ d) Số này bé hơn $305\,000\,000$.
 ::key S S Đ S
 a) Sai: số này có chín chữ số. b) Sai: chữ số $5$ ở hàng triệu. c) Đúng: lớp nghìn là $000$. d) Sai: $305\,000\,042>305\,000\,000$.
 
-::sa
+::sa TH
 Số "một trăm triệu" có bao nhiêu chữ số?
 ::key 9
 Số $100\,000\,000$ gồm chữ số $1$ và tám chữ số $0$, tất cả là chín chữ số.
 
-::sa
+::sa TH
 Từ $96\,000\,000$ đến $99\,000\,000$ (kể cả hai số này) có bao nhiêu số tròn triệu?
 ::key 4
 Đó là $96\,000\,000$; $97\,000\,000$; $98\,000\,000$; $99\,000\,000$, tất cả $4$ số.

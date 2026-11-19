@@ -285,7 +285,7 @@ Ta có $\dfrac1a+\dfrac1b=\dfrac{a+b}{ab}=\dfrac2{ab}$. Vì $0<ab\leq1$ nên $\d
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Với $x=9$, giá trị của $B=\dfrac{\sqrt x-1}{\sqrt x+1}$ là
 A. $2$.
 B. $\dfrac14$.
@@ -294,7 +294,7 @@ D. $\dfrac12$.
 ::key D
 $B=\dfrac{3-1}{3+1}=\dfrac12$. Đáp án A là $\dfrac{3-1}{1}$, B là $\dfrac1{3+1}$, C là $\dfrac{1-3}{3+1}$ (đảo thứ tự phép trừ).
 
-::mc
+::mc TH
 Nghiệm của hệ phương trình $\begin{cases}2x-y=5\\3x+2y=4\end{cases}$ là
 A. $(2;-1)$.
 B. $(2;1)$.
@@ -303,7 +303,7 @@ D. $(1;-3)$.
 ::key A
 Thế $y=2x-5$ vào phương trình thứ hai ta có $7x=14$, $x=2$ và $y=-1$. Đáp án C đổi chỗ hai ẩn, B sai dấu của $y$, D không thoả mãn phương trình thứ hai.
 
-::mc
+::mc TH
 Cho tam giác $ABC$ vuông tại $A$, đường cao $AM$, $AB=10$ và $BM=8$. Độ dài $BC$ là
 A. $6{,}4$.
 B. $12{,}5$.
@@ -312,7 +312,7 @@ D. $12$.
 ::key B
 $AB^2=BM\cdot BC$ nên $BC=\dfrac{100}8=12{,}5$. Đáp án A là $\dfrac{BM^2}{AB}$, C là $BM$, D là $AB+2$.
 
-::mc
+::mc NB
 Xưởng may dự định làm $1200$ chiếc áo, mỗi ngày $80$ chiếc. Số ngày dự định là
 A. $80$.
 B. $12$.
@@ -321,7 +321,7 @@ D. $10$.
 ::key C
 $1200:80=15$ ngày. Đáp án B là số ngày thực tế ($1200:100$), A là số áo mỗi ngày, D là $1200:120$.
 
-::tf
+::tf VD TH TH VDC
 Cho parabol $(P)\colon y=-x^2$ và đường thẳng $(d)\colon y=x-2$. Các nhận định sau đúng hay sai?
 a) $(d)$ tiếp xúc với $(P)$.
 b) Điểm $(1;1)$ là giao điểm của $(P)$ và $(d)$.
@@ -330,12 +330,12 @@ d) Diện tích tam giác $OAB$ bằng $6$ ($A$, $B$ là các giao điểm).
 ::key S S Đ S
 a) Sai: $\Delta=1+8=9>0$ nên $(d)$ cắt $(P)$ tại hai điểm. b) Sai: giao điểm là $(1;-1)$. c) Đúng: $-(-2)^2=-4$ và $-2-2=-4$. d) Sai: diện tích bằng $3$.
 
-::sa
+::sa VD
 Tìm $x$ để $B=\dfrac{\sqrt x-1}{\sqrt x+1}=\dfrac13$.
 ::key 4
 $3(\sqrt x-1)=\sqrt x+1$ cho $\sqrt x=2$, nên $x=4$.
 
-::sa
+::sa VDC
 Parabol $y=-x^2$ và đường thẳng $y=x-2$ cắt nhau tại $A$, $B$. Tính diện tích tam giác $OAB$.
 ::key 3
 $A(1;-1)$, $B(-2;-4)$, $C(0;-2)$ nên $S=\dfrac12\cdot2\cdot(1+2)=3$.

@@ -262,7 +262,7 @@ Thử $\square=7$: $475$ không lớn hơn $475$. Thử $\square=8$: $485$ lớn
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Dấu thích hợp điền vào $365\;\square\;358$ là
 A. $>$.
 B. $<$.
@@ -271,7 +271,7 @@ D. Không so sánh được.
 ::key A
 Hàng trăm bằng nhau, hàng chục $6>5$ nên $365>358$. Phương án B là lỗi chỉ nhìn hàng đơn vị.
 
-::mc
+::mc TH
 Số nào lớn nhất trong các số $504, 540, 450, 405$?
 A. $504$.
 B. $540$.
@@ -280,7 +280,7 @@ D. $405$.
 ::key B
 Hàng trăm lớn nhất là $5$, ở $504$ và $540$; hàng chục $4>0$ nên $540$ lớn nhất.
 
-::mc
+::mc TH
 Số nào bé nhất trong các số $318, 381, 183, 138$?
 A. $318$.
 B. $381$.
@@ -289,7 +289,7 @@ D. $138$.
 ::key D
 Hàng trăm bé nhất là $1$, ở $183$ và $138$; hàng chục $3<8$ nên $138$ bé nhất.
 
-::mc
+::mc TH
 Số nào lớn hơn $628$ và bé hơn $640$?
 A. $620$.
 B. $635$.
@@ -298,7 +298,7 @@ D. $628$.
 ::key B
 $635>628$ (hàng chục $3>2$) và $635<640$ (hàng chục $3<4$). Phương án C lớn hơn $640$.
 
-::tf
+::tf TH TH TH TH
 Em so sánh các số.
 a) $700>699$.
 b) $456<465$.
@@ -307,12 +307,12 @@ d) $510=501$.
 ::key Đ Đ S S
 a) Đúng: hàng trăm $7>6$. b) Đúng: hàng chục $5<6$. c) Sai: hàng chục $4<5$ nên $349<351$. d) Sai: hàng chục $1>0$ nên $510>501$.
 
-::sa
+::sa TH
 Số lớn nhất trong các số $276, 267, 726$ là số nào?
 ::key 726
 Hàng trăm $7$ là lớn nhất.
 
-::sa
+::sa TH
 Số bé nhất trong các số $482, 428, 842$ là số nào?
 ::key 428
 Hàng trăm bé nhất là $4$ ở $482$ và $428$; hàng chục $2<8$.

@@ -383,7 +383,7 @@ $$10+\frac{\frac{20+x}{4}-4}{x}\cdot10=13{,}75\iff\frac{x+4}{4x}\cdot10=3{,}75\i
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Thời gian chờ xe buýt (phút) của $40$ hành khách được cho trong bảng sau. Khoảng biến thiên của mẫu số liệu ghép nhóm này là
 
 | Thời gian (phút) | $[0; 5)$ | $[5; 10)$ | $[10; 15)$ | $[15; 20)$ | $[20; 25)$ |
@@ -397,7 +397,7 @@ D. $10$ phút.
 ::key C
 $R=u_{k+1}-u_1=25-0=25$. Phương án B lấy đầu trái của nhóm cuối, phương án A là độ rộng một nhóm, phương án D là hiệu hai tần số $14-4$.
 
-::mc
+::mc TH
 Với mẫu số liệu ở Câu 1, nhóm chứa tứ phân vị thứ ba $Q_3$ là
 A. $[5; 10)$.
 B. $[10; 15)$.
@@ -406,7 +406,7 @@ D. $[20; 25)$.
 ::key B
 Các tần số tích luỹ là $6$, $20$, $32$, $36$, $40$ và $\frac{3n}{4}=30$ nằm giữa $20$ và $32$, nên $Q_3$ thuộc nhóm $[10; 15)$ (cụ thể $Q_3=10+\dfrac{30-20}{12}\cdot5\approx14{,}17$). Phương án A là nhóm có tần số lớn nhất; phương án C và D là các nhóm nằm sau giá trị thứ $30$.
 
-::mc
+::mc TH
 Với mẫu số liệu ở Câu 1, giá trị gần đúng nhất của tứ phân vị thứ nhất $Q_1$ là
 A. $8{,}33$.
 B. $5{,}29$.
@@ -415,7 +415,7 @@ D. $6{,}43$.
 ::key D
 $\frac n4=10$ nằm trong nhóm $[5; 10)$ với $C=6$, $n_m=14$: $Q_1=5+\dfrac{10-6}{14}\cdot5\approx6{,}43$. Phương án B quên nhân với độ rộng $5$, phương án C tính $C$ gồm cả nhóm chứa $Q_1$, phương án A dùng nhầm nhóm $[0; 5)$.
 
-::mc
+::mc NB
 Theo quy tắc dùng khoảng tứ phân vị, một giá trị $x$ của mẫu số liệu được coi là giá trị bất thường nếu
 A. $x<Q_1-1{,}5\,\Delta_Q$ hoặc $x>Q_3+1{,}5\,\Delta_Q$.
 B. $x<Q_1$ hoặc $x>Q_3$.
@@ -424,7 +424,7 @@ D. $Q_1-1{,}5\,\Delta_Q<x<Q_3+1{,}5\,\Delta_Q$.
 ::key A
 Giá trị bất thường nằm xa phần giữa của mẫu số liệu hơn $1{,}5$ lần khoảng tứ phân vị. Phương án B coi cả một nửa số liệu là bất thường; phương án D mô tả các giá trị bình thường.
 
-::tf
+::tf NB TH TH VD
 Thời gian chạy $100$ m (giây) của $32$ học sinh được cho trong bảng sau.
 
 | Thời gian (giây) | $[12; 14)$ | $[14; 16)$ | $[16; 18)$ | $[18; 20)$ | $[20; 22)$ |
@@ -438,7 +438,7 @@ d) Theo quy tắc $1{,}5\,\Delta_Q$, thời gian $24$ giây là giá trị bất
 ::key Đ Đ S Đ
 a) Đúng: $22-12=10$. b) Đúng: tần số tích luỹ $4$, $12$, $22$, $30$, $32$; $Q_1=14+\dfrac{8-4}{8}\cdot2=15$. c) Sai: $\frac{3n}{4}=24$ nằm giữa $22$ và $30$, nên $Q_3$ thuộc nhóm $[18; 20)$: $Q_3=18+\dfrac{24-22}{8}\cdot2=18{,}5$. d) Đúng: $\Delta_Q=18{,}5-15=3{,}5$ và $Q_3+1{,}5\cdot3{,}5=23{,}75<24$.
 
-::sa
+::sa VD
 Lượng điện tiêu thụ trong một tháng (kWh) của $80$ hộ gia đình được cho trong bảng sau. Tính khoảng tứ phân vị của mẫu số liệu (làm tròn kết quả đến hàng phần mười).
 
 | Điện tiêu thụ (kWh) | $[50; 100)$ | $[100; 150)$ | $[150; 200)$ | $[200; 250)$ | $[250; 300)$ |
@@ -448,7 +448,7 @@ Lượng điện tiêu thụ trong một tháng (kWh) của $80$ hộ gia đình
 ::key 82,5
 Tần số tích luỹ $8$, $28$, $56$, $72$, $80$. $Q_1=100+\dfrac{20-8}{20}\cdot50=130$, $Q_3=200+\dfrac{60-56}{16}\cdot50=212{,}5$, nên $\Delta_Q=82{,}5$ kWh.
 
-::sa
+::sa VD
 Với mẫu số liệu ở câu trước, theo quy tắc $1{,}5\,\Delta_Q$, một hộ dùng nhiều hơn bao nhiêu kWh điện trong tháng thì được coi là bất thường (làm tròn kết quả đến hàng đơn vị)?
 ::key 336
 Ngưỡng trên là $Q_3+1{,}5\,\Delta_Q=212{,}5+1{,}5\cdot82{,}5=336{,}25$, làm tròn được $336$ kWh.

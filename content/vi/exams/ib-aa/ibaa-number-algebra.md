@@ -232,7 +232,7 @@ Chuỗi $1+2x+4x^2+8x^3+\dots$ là chuỗi cấp số nhân.
 :::
 
 :::quiz
-::mc
+::mc TH
 Giá trị của $\log_232+\log_3\dfrac19$ bằng
 A. $7$
 B. $3$
@@ -241,7 +241,7 @@ D. $-3$
 ::key B
 $\log_232=5$ và $\log_3\dfrac19=-2$.
 
-::mc
+::mc TH
 Một cấp số nhân bắt đầu bằng $3, -6, 12, \dots$ Số hạng $u_6$ bằng
 A. $96$
 B. $-192$
@@ -250,7 +250,7 @@ D. $-96$
 ::key D
 $u_6=3(-2)^5=-96$.
 
-::mc
+::mc TH
 Hệ số của $x^3$ trong khai triển $(1+x)^7$ bằng
 A. $35$
 B. $21$
@@ -259,7 +259,7 @@ D. $343$
 ::key A
 $\dbinom73=35$.
 
-::mc
+::mc TH
 Tổng vô hạn của $18+12+8+\dots$ bằng
 A. $38$
 B. $27$
@@ -268,7 +268,7 @@ D. $36$
 ::key C
 $r=\dfrac23$, nên $S_\infty=\dfrac{18}{1/3}=54$.
 
-::tf
+::tf TH NB TH VD
 Một dãy số được cho bởi $u_n=5+3n$ với $n\ge1$.
 a) Dãy là cấp số cộng.
 b) $u_1=8$.
@@ -277,12 +277,12 @@ d) $S_{10}=215$.
 ::key T T F T
 a) Đúng: hiệu hai số hạng liên tiếp không đổi. b) Đúng. c) Sai: công sai bằng $3$. d) Đúng: $u_{10}=35$ và $S_{10}=\dfrac{10}{2}(8+35)=215$.
 
-::sa
+::sa TH
 Giải $3^x=81$.
 ::key 4
 $81=3^4$.
 
-::sa
+::sa VD
 Tính tổng $2+5+8+\dots+29$.
 ::key 155
 Có mười số hạng ($29=2+3(n-1)$ cho $n=10$): $\dfrac{10}{2}(2+29)=155$.

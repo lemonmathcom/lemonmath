@@ -289,7 +289,7 @@ $5\times(x+12)=120+30=150$, so $x+12=150\div5=30$ and $x=30-12=18$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The value of $18+6\times4$ is
 A. $96$.
 B. $24$.
@@ -298,7 +298,7 @@ D. $42$.
 ::key D
 Multiply first: $18+24=42$. Option A is the mistake of adding first: $(18+6)\times4=96$.
 
-::mc
+::mc TH
 $7\,000-2\,345$ equals
 A. $4\,655$.
 B. $5\,765$.
@@ -307,7 +307,7 @@ D. $9\,345$.
 ::key A
 $4\,655+2\,345=7\,000$. Option C subtracts the smaller digit from the larger in each column; option D adds instead of subtracting.
 
-::mc
+::mc TH
 The value of $12\times35+12\times65$ is
 A. $485$.
 B. $1\,200$.
@@ -316,7 +316,7 @@ D. $112$.
 ::key B
 $12\times(35+65)=12\times100=1\,200$. Option A multiplies only $35$ by $12$; option C forgets to multiply by $12$.
 
-::mc
+::mc VD
 A box holds $12$ pens. A teacher buys $9$ boxes and gives away $25$ pens. How many pens does she have left?
 A. $123$.
 B. $133$.
@@ -325,7 +325,7 @@ D. $183$.
 ::key C
 $9\times12=108$, then $108-25=83$. Option B is $108+25$, adding by mistake.
 
-::tf
+::tf NB TH TH TH
 Look at the expression $A=60-12\times3+24\div4$.
 a) The multiplication $12\times3$ and the division $24\div4$ are done before the subtraction and the addition.
 b) $A=48\times3+6$.
@@ -334,12 +334,12 @@ d) $A$ is greater than $35$.
 ::key T F T F
 a) True: with no brackets, multiply and divide first. b) False: $48\times3+6=150$, because $60-12$ was done first. c) True: $60-36+6=30$. d) False: $30<35$.
 
-::sa
+::sa VD
 Work out the value of $(36+14)\times8-250$.
 ::key 150
 $50\times8=400$, then $400-250=150$.
 
-::sa
+::sa VD
 A store has $12$ sacks of rice, each of mass $45$ kg. $8$ sacks are sold. How many kilograms of rice are left in the store?
 ::key 180
 $12-8=4$ sacks are left, so $4\times45=180$ kg.

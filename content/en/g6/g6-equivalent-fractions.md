@@ -494,7 +494,7 @@ So the required fractions are $\dfrac{-3}{4}$; $\dfrac{-6}{8}$; $\dfrac{-9}{12}$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of the following is not a fraction?
 A. $\dfrac{-3}{5}$.
 B. $\dfrac{0}{7}$.
@@ -503,7 +503,7 @@ D. $\dfrac{6}{-1}$.
 ::key C
 The denominator of a fraction must not be $0$. A numerator of $0$ (B) and a negative denominator (D) are both allowed.
 
-::mc
+::mc TH
 Which of these fractions is equal to $\dfrac{-2}{3}$?
 A. $\dfrac{2}{3}$.
 B. $\dfrac{-4}{9}$.
@@ -512,7 +512,7 @@ D. $\dfrac{4}{-6}$.
 ::key D
 $(-2)\cdot(-6)=12=3\cdot4$. A and C are positive; B multiplies the numerator by $2$ but the denominator by $3$.
 
-::mc
+::mc TH
 Written in its simplest form, the fraction $\dfrac{-36}{48}$ is
 A. $\dfrac{-3}{4}$.
 B. $\dfrac{-6}{8}$.
@@ -521,7 +521,7 @@ D. $\dfrac{-9}{12}$.
 ::key A
 HCF$(36, 48)=12$, so $\dfrac{-36}{48}=\dfrac{-3}{4}$. B and D are not fully simplified; C loses the sign.
 
-::mc
+::mc TH
 Given that $\dfrac{x}{8}=\dfrac{-3}{4}$, the value of $x$ is
 A. $6$.
 B. $-6$.
@@ -530,7 +530,7 @@ D. $-24$.
 ::key B
 $4x=8\cdot(-3)=-24$, so $x=-6$. A has the wrong sign; D forgets to divide by $4$; C divides by $2$ by mistake.
 
-::tf
+::tf NB TH TH TH
 Decide whether each statement is true or false.
 a) Every integer can be written as a fraction.
 b) $\dfrac{-5}{-9}=\dfrac{5}{9}$.
@@ -539,12 +539,12 @@ d) $\dfrac{-7}{21}$ is in its simplest form.
 ::key T T F F
 a) True: $a=\dfrac{a}{1}$. b) True: multiply the numerator and the denominator by $-1$. c) False: the denominator would be $0$, so it is no longer a fraction. d) False: $7$ and $21$ have the common factor $7$; $\dfrac{-7}{21}=\dfrac{-1}{3}$.
 
-::sa
+::sa VD
 Find the integer $x$, given that $\dfrac{-4}{5}=\dfrac{x}{-35}$.
 ::key 28
 $5x=(-4)\cdot(-35)=140$, so $x=28$.
 
-::sa
+::sa VD
 Given that $36$ minutes is $\dfrac{a}{5}$ of an hour, find the natural number $a$.
 ::key 3
 $36$ minutes $=\dfrac{36}{60}$ hour $=\dfrac{3}{5}$ hour (dividing the numerator and the denominator by $12$), so $a=3$.

@@ -262,7 +262,7 @@ Try $\square=7$: $475$ is not greater than $475$. Try $\square=8$: $485$ is grea
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Which sign goes in $365\;\square\;358$?
 A. $>$.
 B. $<$.
@@ -271,7 +271,7 @@ D. They cannot be compared.
 ::key A
 The hundreds are equal and the tens $6>5$, so $365>358$. Option B comes from looking only at the ones.
 
-::mc
+::mc TH
 Which is the greatest of $504, 540, 450, 405$?
 A. $504$.
 B. $540$.
@@ -280,7 +280,7 @@ D. $405$.
 ::key B
 The most hundreds is $5$, in $504$ and $540$; the tens $4>0$, so $540$ is the greatest.
 
-::mc
+::mc TH
 Which is the smallest of $318, 381, 183, 138$?
 A. $318$.
 B. $381$.
@@ -289,7 +289,7 @@ D. $138$.
 ::key D
 The fewest hundreds is $1$, in $183$ and $138$; the tens $3<8$, so $138$ is the smallest.
 
-::mc
+::mc TH
 Which number is greater than $628$ and less than $640$?
 A. $620$.
 B. $635$.
@@ -298,7 +298,7 @@ D. $628$.
 ::key B
 $635>628$ (tens $3>2$) and $635<640$ (tens $3<4$). Option C is greater than $640$.
 
-::tf
+::tf TH TH TH TH
 Compare the numbers.
 a) $700>699$.
 b) $456<465$.
@@ -307,12 +307,12 @@ d) $510=501$.
 ::key T T F F
 a) True: hundreds $7>6$. b) True: tens $5<6$. c) False: tens $4<5$, so $349<351$. d) False: tens $1>0$, so $510>501$.
 
-::sa
+::sa TH
 Which is the greatest of $276, 267, 726$?
 ::key 726
 The hundreds digit $7$ is the greatest.
 
-::sa
+::sa TH
 Which is the smallest of $482, 428, 842$?
 ::key 428
 The fewest hundreds is $4$, in $482$ and $428$; the tens $2<8$.

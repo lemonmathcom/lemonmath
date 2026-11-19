@@ -463,7 +463,7 @@ So $n^3-n$ is divisible by $6$ for every integer $n$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Factorising $6x^2-9x$ gives
 A. $3(2x^2-3x)$.
 B. $3x(2x-3)$.
@@ -472,7 +472,7 @@ D. $3x(2x+3)$.
 ::key B
 The common factor is $3x$: $6x^2-9x=3x(2x-3)$. A does not take out the whole common factor, D has the wrong sign, C divides the second term wrongly.
 
-::mc
+::mc TH
 Factorising $4x^2-9$ gives
 A. $(2x-3)^2$.
 B. $(4x-3)(x+3)$.
@@ -481,7 +481,7 @@ D. $(2x+3)^2$.
 ::key C
 $4x^2-9=(2x)^2-3^2=(2x-3)(2x+3)$. A and D are the square of a difference or a sum (they have a term $\pm12x$), B is wrong when multiplied back.
 
-::mc
+::mc TH
 Factorising $x^3-8$ gives
 A. $(x-2)(x^2+4)$.
 B. $(x-2)^3$.
@@ -490,7 +490,7 @@ D. $(x-2)(x^2+2x+4)$.
 ::key D
 $x^3-8=x^3-2^3=(x-2)(x^2+2x+4)$. B has four terms when expanded, C has the wrong sign on the middle term, A lacks the term $2x$.
 
-::mc
+::mc VD
 Factorising $xy+2x+3y+6$ gives
 A. $(x+3)(y+2)$.
 B. $(x+2)(y+6)$.
@@ -499,7 +499,7 @@ D. $x(y+2)+6$.
 ::key A
 $xy+2x+3y+6=x(y+2)+3(y+2)=(x+3)(y+2)$. A and C give wrong terms when multiplied back, D is not yet a product.
 
-::tf
+::tf NB TH TH TH
 Consider the polynomial $2x^2-8$.
 a) $2x^2-8=2(x^2-4)$.
 b) $2x^2-8=2(x-2)^2$.
@@ -508,12 +508,12 @@ d) The value of $2x^2-8$ at $x=3$ is $10$.
 ::key T F T T
 a) True: take out the common factor $2$. b) False: $2(x-2)^2=2x^2-8x+8$. c) True: $x^2-4=(x-2)(x+2)$. d) True: $18-8=10$ and $2\cdot1\cdot5=10$.
 
-::sa
+::sa VD
 Calculate $65^2-35^2$ quickly.
 ::key 3000
 $65^2-35^2=(65-35)(65+35)=30\cdot100=3000$.
 
-::sa
+::sa TH
 Given $x+y=5$ and $x-y=3$, find $x^2-y^2$.
 ::key 15
 $x^2-y^2=(x-y)(x+y)=3\cdot5=15$.

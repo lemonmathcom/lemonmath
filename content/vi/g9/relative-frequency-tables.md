@@ -376,7 +376,7 @@ Vậy nhóm A có $64$ người, nhóm B có $32$ người, nhóm C có $24$ ng�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Một giá trị có tần số $9$ trong mẫu dữ liệu cỡ $36$. Tần số tương đối của giá trị đó là
 A. $9\%$.
 B. $25\%$.
@@ -385,7 +385,7 @@ D. $75\%$.
 ::key B
 $\dfrac{9}{36}\cdot100\%=25\%$. A lấy tần số làm phần trăm, C tính $36:9$, D là phần còn lại $100\%-25\%$.
 
-::mc
+::mc TH
 Trong mẫu dữ liệu cỡ $50$, một giá trị có tần số tương đối $30\%$. Tần số của giá trị đó là
 A. $30$.
 B. $20$.
@@ -394,7 +394,7 @@ D. $15$.
 ::key D
 $m=50\cdot30\%=15$. A lấy phần trăm làm tần số, B tính $50-30$, C là tần số của phần còn lại $50-15$.
 
-::mc
+::mc TH
 Trong biểu đồ hình quạt tròn, hình quạt ứng với tần số tương đối $15\%$ có góc ở tâm là
 A. $54^\circ$.
 B. $15^\circ$.
@@ -403,7 +403,7 @@ D. $5{,}4^\circ$.
 ::key A
 $15\%\cdot360^\circ=54^\circ$. B lấy phần trăm làm số đo góc, C nhân với $180^\circ$ thay vì $360^\circ$, D đổi nhầm $15\%$ thành $0{,}015$.
 
-::mc
+::mc TH
 Để thấy rõ mỗi nhóm chiếm bao nhiêu phần của tổng thể, nên dùng
 A. biểu đồ đoạn thẳng.
 B. bảng tần số.
@@ -412,7 +412,7 @@ D. danh sách dữ liệu ban đầu.
 ::key C
 Cả hình tròn ứng với $100\%$, mỗi hình quạt cho thấy ngay phần của từng nhóm. Biểu đồ đoạn thẳng (A) cho thấy xu hướng; bảng tần số (B) và danh sách dữ liệu (D) cho con số, không cho hình ảnh "phần của toàn thể".
 
-::tf
+::tf TH TH TH VD
 Một mẫu dữ liệu cỡ $80$ có bốn nhóm với tần số tương đối $35\%$, $25\%$, $x\%$, $15\%$. Xét tính đúng sai của các mệnh đề sau:
 a) $x=25$.
 b) Tần số của nhóm thứ nhất là $35$.
@@ -421,12 +421,12 @@ d) Nhóm thứ ba và nhóm thứ tư có tổng tần số là $30$.
 ::key Đ S Đ S
 a) Đúng: $100-35-25-15=25$. b) Sai: $80\cdot35\%=28$. c) Đúng: $15\%\cdot360^\circ=54^\circ$. d) Sai: $80\cdot40\%=32$.
 
-::sa
+::sa VD
 Một giá trị có tần số $18$ và tần số tương đối $12\%$. Tính cỡ mẫu.
 ::key 150
 $n=18:0{,}12=150$.
 
-::sa
+::sa TH
 Một hình quạt trong biểu đồ hình quạt tròn có góc ở tâm $126^\circ$. Tần số tương đối của nhóm đó bằng bao nhiêu phần trăm?
 ::key 35
 $\dfrac{126}{360}=0{,}35=35\%$.

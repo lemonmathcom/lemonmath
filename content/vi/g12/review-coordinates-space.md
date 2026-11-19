@@ -457,7 +457,7 @@ Vậy $a+b+c=-1$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Trong không gian $Oxyz$, cho $A(1; 2; 3)$ và $B(3; 0; 4)$. Độ dài đoạn thẳng $AB$ bằng
 A. $9$.
 B. $3$.
@@ -466,7 +466,7 @@ D. $5$.
 ::key B
 $\overrightarrow{AB}=(2; -2; 1)$, $AB=\sqrt{4+4+1}=3$. Phương án A quên lấy căn, phương án C bỏ toạ độ $z$, phương án D cộng các trị tuyệt đối.
 
-::mc
+::mc NB
 Mặt phẳng $(P)\colon 2x-3z+1=0$ có một vectơ pháp tuyến là
 A. $(2; -3; 1)$.
 B. $(2; 0; -3)$.
@@ -475,7 +475,7 @@ D. $(0; 2; -3)$.
 ::key B
 Hệ số của $x$, $y$, $z$ lần lượt là $2$, $0$, $-3$. Các phương án khác bỏ qua việc thiếu $y$ hoặc lấy nhầm hệ số tự do.
 
-::mc
+::mc NB
 Đường thẳng đi qua $A(1; -1; 2)$ và có vectơ chỉ phương $\vec u=(2; 1; -1)$ có phương trình tham số là
 A. $x=1+2t$, $y=-1+t$, $z=2-t$.
 B. $x=2+t$, $y=1-t$, $z=-1+2t$.
@@ -484,7 +484,7 @@ D. $x=-1+2t$, $y=1+t$, $z=-2-t$.
 ::key A
 Toạ độ điểm đứng riêng, toạ độ vectơ chỉ phương đi cùng $t$. Phương án B đổi vai trò điểm và vectơ; C và D sai dấu toạ độ của $A$.
 
-::mc
+::mc TH
 Góc giữa hai mặt phẳng $(P)\colon x-z=0$ và $(Q)\colon y-z=0$ bằng
 A. $30^\circ$.
 B. $45^\circ$.
@@ -493,7 +493,7 @@ D. $90^\circ$.
 ::key C
 $\vec n_P=(1; 0; -1)$, $\vec n_Q=(0; 1; -1)$, $\cos\varphi=\dfrac{|1|}{\sqrt2\cdot\sqrt2}=\dfrac12$, nên $\varphi=60^\circ$.
 
-::tf
+::tf NB TH TH VD
 Cho mặt cầu $(S)\colon(x-1)^2+(y+2)^2+z^2=9$ và mặt phẳng $(P)\colon 2x+y-2z+3=0$.
 a) $(S)$ có tâm $I(1; -2; 0)$.
 b) $(S)$ có bán kính bằng $9$.
@@ -502,12 +502,12 @@ d) $(P)$ cắt $(S)$ theo một đường tròn có bán kính $2\sqrt2$.
 ::key Đ S Đ Đ
 a) Đúng. b) Sai: $R=\sqrt9=3$. c) Đúng: $\dfrac{|2-2-0+3|}{3}=1$. d) Đúng: $r=\sqrt{9-1}=2\sqrt2$.
 
-::sa
+::sa VD
 Tính khoảng cách giữa hai mặt phẳng song song $(P)\colon 2x-y+2z+1=0$ và $(Q)\colon 2x-y+2z-8=0$.
 ::key 3
 Lấy $M(0; 1; 0)\in(P)$; $d(M, (Q))=\dfrac{|0-1+0-8|}{3}=3$.
 
-::sa
+::sa TH
 Trong một căn phòng, chọn hệ trục $Oxyz$ (đơn vị: m) có gốc $O$ ở một góc sàn. Một bóng đèn treo tại điểm $L(2; 3; 4)$. Tính khoảng cách từ bóng đèn đến góc phòng $O$ (đơn vị: m, làm tròn kết quả đến hàng phần trăm).
 ::key 5,39
 $OL=\sqrt{4+9+16}=\sqrt{29}\approx5{,}385$, làm tròn được $5{,}39$.

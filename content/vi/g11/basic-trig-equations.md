@@ -363,7 +363,7 @@ Ta có $\sin3x=\sin\left(\dfrac{\pi}{2}-2x\right)$. Do đó $3x=\dfrac{\pi}{2}-2
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Nghiệm của phương trình $\cos x=-1$ là
 A. $x=\dfrac{\pi}{2}+k\pi$.
 B. $x=k2\pi$.
@@ -372,7 +372,7 @@ D. $x=\pi+k\pi$.
 ::key C
 $\cos x=-1$ chỉ ứng với điểm $(-1; 0)$ trên đường tròn lượng giác, nên $x=\pi+k2\pi$. Phương án D thêm cả các góc có $\cos x=1$.
 
-::mc
+::mc TH
 Nghiệm của phương trình $\tan x=-\sqrt3$ là
 A. $x=\dfrac{\pi}{3}+k\pi$.
 B. $x=-\dfrac{\pi}{3}+k2\pi$.
@@ -381,7 +381,7 @@ D. $x=-\dfrac{\pi}{3}+k\pi$.
 ::key D
 $\tan\left(-\dfrac{\pi}{3}\right)=-\sqrt3$ và $\tan$ có chu kì $\pi$. Phương án A sai dấu, B dùng chu kì $2\pi$, C thêm nghiệm của $\tan x=\sqrt3$.
 
-::mc
+::mc TH
 Phương trình nào sau đây vô nghiệm?
 A. $\sin x=\dfrac{\pi}{3}$.
 B. $\cos x=-0{,}9$.
@@ -390,7 +390,7 @@ D. $\tan x=100$.
 ::key A
 $\dfrac{\pi}{3}\approx1{,}047>1$ nên $\sin x=\dfrac{\pi}{3}$ vô nghiệm. Phương trình $\tan x=m$ có nghiệm với mọi $m$, còn $|-0{,}9|<1$ và $\left|\dfrac{\sqrt3}{2}\right|<1$.
 
-::mc
+::mc VD
 Nghiệm của phương trình $\sin\left(x-\dfrac{\pi}{6}\right)=\dfrac12$ là
 A. $x=\dfrac{\pi}{6}+k2\pi$ hoặc $x=\dfrac{5\pi}{6}+k2\pi$.
 B. $x=\dfrac{\pi}{3}+k2\pi$ hoặc $x=\pi+k2\pi$.
@@ -399,7 +399,7 @@ D. $x=-\dfrac{\pi}{3}+k2\pi$ hoặc $x=\pi+k2\pi$.
 ::key B
 $x-\dfrac{\pi}{6}=\dfrac{\pi}{6}+k2\pi$ cho $x=\dfrac{\pi}{3}+k2\pi$; $x-\dfrac{\pi}{6}=\dfrac{5\pi}{6}+k2\pi$ cho $x=\pi+k2\pi$. Phương án A quên cộng $\dfrac{\pi}{6}$.
 
-::tf
+::tf TH TH TH VD
 Cho phương trình $2\cos2x=\sqrt3$. Xét tính đúng sai của các mệnh đề sau:
 a) $x=\dfrac{\pi}{6}$ là một nghiệm của phương trình.
 b) $x=\dfrac{\pi}{12}$ là một nghiệm của phương trình.
@@ -408,12 +408,12 @@ d) Trong đoạn $[0; \pi]$, phương trình có đúng ba nghiệm.
 ::key S Đ Đ S
 Phương trình tương đương $\cos2x=\dfrac{\sqrt3}{2}$, nên $2x=\pm\dfrac{\pi}{6}+k2\pi$, tức $x=\pm\dfrac{\pi}{12}+k\pi$. a) Sai: $\cos\dfrac{\pi}{3}=\dfrac12\ne\dfrac{\sqrt3}{2}$. b) Đúng. c) Đúng. d) Sai: trong $[0; \pi]$ chỉ có $\dfrac{\pi}{12}$ và $\dfrac{11\pi}{12}$.
 
-::sa
+::sa VD
 Có bao nhiêu nghiệm của phương trình $\tan x=1$ thuộc đoạn $[0; 3\pi]$?
 ::key 3
 $x=\dfrac{\pi}{4}+k\pi$ cho các nghiệm $\dfrac{\pi}{4}$, $\dfrac{5\pi}{4}$, $\dfrac{9\pi}{4}$; nghiệm kế tiếp $\dfrac{13\pi}{4}>3\pi$.
 
-::sa
+::sa TH
 Nghiệm dương nhỏ nhất của phương trình $\sin x=0{,}3$ bằng bao nhiêu độ? (làm tròn kết quả đến hàng phần mười)
 ::key 17,5
 Máy tính cho $x=\arcsin0{,}3\approx17{,}5^\circ$, và nghiệm còn lại $162{,}5^\circ$ lớn hơn.

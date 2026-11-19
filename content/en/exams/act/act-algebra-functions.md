@@ -305,7 +305,7 @@ So the system has infinitely many solutions when $k=1$.
 :::
 
 :::quiz
-::mc
+::mc TH
 What is the slope of the line through $(1,2)$ and $(4,11)$?
 A. $\dfrac13$
 B. $3$
@@ -314,7 +314,7 @@ D. $-3$
 ::key B
 $\dfrac{11-2}{4-1}=\dfrac93=3$.
 
-::mc
+::mc NB
 If $f(x)=3x^2-x$, what is $f(-2)$?
 A. $10$
 B. $-14$
@@ -323,7 +323,7 @@ D. $38$
 ::key C
 $3(4)-(-2)=12+2=14$.
 
-::mc
+::mc TH
 What is the solution of $3(x-2)=2x+5$?
 A. $11$
 B. $3$
@@ -332,7 +332,7 @@ D. $-1$
 ::key A
 $3x-6=2x+5$, so $x=11$.
 
-::mc
+::mc NB
 Which expression is equivalent to $(x+3)(x-3)$?
 A. $x^2+9$
 B. $x^2-6x-9$
@@ -341,7 +341,7 @@ D. $x^2-9$
 ::key D
 A difference of two squares.
 
-::tf
+::tf TH TH NB TH
 Let $f(x)=x^2-4x+3$. Decide whether each statement is true or false.
 a) The roots of $f$ are $1$ and $3$.
 b) The vertex of the graph is $(2,-1)$.
@@ -350,12 +350,12 @@ d) The minimum value of $f$ is $-2$.
 ::key T T T F
 $f(x)=(x-1)(x-3)$; the vertex is at $x=2$ with $f(2)=-1$, so the minimum value is $-1$.
 
-::sa
+::sa TH
 Solve $2^{x+1}=16$.
 ::key 3
 $16=2^4$, so $x+1=4$.
 
-::sa
+::sa VD
 Find the larger solution of $|x-4|=6$.
 ::key 10
 $x-4=6$ or $x-4=-6$, so $x=10$ or $x=-2$.

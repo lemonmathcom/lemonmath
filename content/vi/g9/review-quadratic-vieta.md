@@ -347,7 +347,7 @@ Từ $25-2P=13$ ta có $P=6$. Hai số là nghiệm của $X^2-5X+6=0$, có $\De
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tập nghiệm của phương trình $3x^2-7x+2=0$ là
 A. $\left\{-2;-\dfrac13\right\}$.
 B. $\{2;3\}$.
@@ -356,7 +356,7 @@ D. $\left\{2;\dfrac13\right\}$.
 ::key D
 $\Delta=49-24=25$ nên $x=\dfrac{7\pm5}{6}$, tức là $2$ và $\dfrac13$. Đáp án A nhầm dấu của $-b$, B lấy cả $a=3$ làm nghiệm, C nhầm với nghiệm nhẩm khi $a+b+c=0$.
 
-::mc
+::mc VD
 Phương trình $x^2-4x+1=0$ có hai nghiệm $x_1$, $x_2$. Giá trị của $x_1^2+x_2^2$ là
 A. $14$.
 B. $18$.
@@ -365,7 +365,7 @@ D. $16$.
 ::key A
 $S=4$, $P=1$ nên $x_1^2+x_2^2=16-2=14$. Đáp án D là $S^2$, B là $S^2+2P$, C là $S^2-4P$.
 
-::mc
+::mc NB
 Phương trình $2x^2-5x-3=0$ có hai nghiệm. Tổng hai nghiệm bằng
 A. $-\dfrac52$.
 B. $\dfrac52$.
@@ -374,7 +374,7 @@ D. $-\dfrac32$.
 ::key B
 $x_1+x_2=-\dfrac ba=\dfrac52$. Đáp án A nhầm dấu, C và D lấy tích $\dfrac ca=-\dfrac32$ (hoặc số đối của nó) thay cho tổng.
 
-::mc
+::mc TH
 Phương trình $5x^2-8x+3=0$ có hai nghiệm là
 A. $1$ và $-\dfrac35$.
 B. $-1$ và $\dfrac35$.
@@ -383,7 +383,7 @@ D. $-1$ và $-\dfrac35$.
 ::key C
 $a+b+c=5-8+3=0$ nên $x_1=1$ và $x_2=\dfrac ca=\dfrac35$. Các đáp án khác nhầm dấu của một hoặc cả hai nghiệm.
 
-::tf
+::tf TH NB VD VD
 Cho phương trình $x^2-6x+4=0$ có hai nghiệm $x_1$, $x_2$. Các nhận định sau đúng hay sai?
 a) Phương trình có hai nghiệm phân biệt.
 b) $x_1+x_2=6$.
@@ -392,12 +392,12 @@ d) $(x_1-x_2)^2=16$.
 ::key Đ Đ S S
 a) Đúng: $\Delta'=9-4=5>0$. b) Đúng: $x_1+x_2=-\dfrac{-6}{1}=6$. c) Sai: $x_1^2+x_2^2=36-8=28$. d) Sai: $(x_1-x_2)^2=36-16=20$.
 
-::sa
+::sa VD
 Cho $x^2-3x-5=0$ có hai nghiệm $x_1$, $x_2$. Tính $x_1^2+x_2^2$.
 ::key 19
 $S=3$, $P=-5$ nên $x_1^2+x_2^2=9-2\cdot(-5)=19$.
 
-::sa
+::sa VD
 Một tấm bảng hình chữ nhật có chu vi $36$ dm và diện tích $80$ dm². Tính độ dài cạnh ngắn hơn (đơn vị dm).
 ::key 8
 Hai cạnh là nghiệm của $X^2-18X+80=0$, tức là $10$ và $8$. Cạnh ngắn hơn là $8$.

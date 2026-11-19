@@ -450,7 +450,7 @@ The sum is $2-1+2=3$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Let $f(x)=x^3-3x^2+2x$. The value of $f'(2)$ is
 A. $0$.
 B. $4$.
@@ -459,7 +459,7 @@ D. $6$.
 ::key C
 $f'(x)=3x^2-6x+2$, so $f'(2)=12-12+2=2$. Option A drops the term $2$, and B and D come from calculation slips.
 
-::mc
+::mc TH
 The derivative of $y=xe^x$ is
 A. $(x+e)e^x$.
 B. $e^x$.
@@ -468,7 +468,7 @@ D. $(x+1)e^x$.
 ::key D
 $y'=1\cdot e^x+x\cdot e^x=(x+1)e^x$. Option B forgets the term $xe^x$, C forgets the term $e^x$, and A mistakes $1$ for $e$.
 
-::mc
+::mc TH
 The derivative of $y=\dfrac{2x+1}{x+3}$ is
 A. $\dfrac{5}{(x+3)^2}$.
 B. $2$.
@@ -477,7 +477,7 @@ D. $\dfrac{4x+7}{(x+3)^2}$.
 ::key A
 $y'=\dfrac{2(x+3)-(2x+1)}{(x+3)^2}=\dfrac5{(x+3)^2}$. Option B divides the derivatives, C reverses the sign of the numerator, and D adds instead of subtracting.
 
-::mc
+::mc VD
 The derivative of $y=\ln(x^2+1)$ at $x=1$ is
 A. $0$.
 B. $1$.
@@ -486,7 +486,7 @@ D. $2$.
 ::key B
 $y'=\dfrac{2x}{x^2+1}$, so $y'(1)=\dfrac22=1$. Option D forgets the denominator, C divides by $4$, and A confuses it with $\ln1$.
 
-::tf
+::tf NB TH TH TH
 Let $f(x)=x^3-3x+1$. Decide whether each statement is true or false:
 a) $f'(x)=3x^2-3$.
 b) The gradient of the tangent at $x=0$ is $3$.
@@ -495,12 +495,12 @@ d) The equation $f'(x)=0$ has two solutions, $x=\pm1$.
 ::key T F T T
 a) True. b) False: $f'(0)=-3$. c) True: $f'(1)=0$. d) True: $3x^2-3=0\Leftrightarrow x=\pm1$.
 
-::sa
+::sa VD
 Suppose the number of bacteria after $t$ hours is $N(t)=1000e^{0.3t}$. Find the rate of growth at $t=2$ (to the nearest whole number, in bacteria per hour).
 ::key 547
 $N'(t)=300e^{0.3t}$, so $N'(2)=300e^{0.6}\approx300\cdot1.8221\approx547$.
 
-::sa
+::sa VD
 Find the gradient of the tangent to the graph of $y=\dfrac{x^2+1}{x}$ at the point with $x$-coordinate $2$.
 ::key 0.75
 $y'=\dfrac{2x\cdot x-(x^2+1)}{x^2}=\dfrac{x^2-1}{x^2}$, so $y'(2)=\dfrac34=0.75$.

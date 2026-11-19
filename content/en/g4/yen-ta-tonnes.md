@@ -374,7 +374,7 @@ One sack of rice weighs $1$ tạ $5$ yến $=150$ kg. The mass of $28$ sacks of 
 ## Mini test
 
 :::quiz
-::mc
+::mc VD
 How many kilograms is $3$ tạ $5$ yến?
 A. $3\,050$ kg.
 B. $305$ kg.
@@ -383,7 +383,7 @@ D. $35$ kg.
 ::key C
 $3$ tạ $=300$ kg and $5$ yến $=50$ kg, so $3$ tạ $5$ yến $=350$ kg. Option B treats $5$ yến as $5$ kg, option A has an extra $0$, and option D is missing a $0$.
 
-::mc
+::mc VD
 $2$ tonnes $4$ tạ $+1$ tonne $9$ tạ equals
 A. $3$ tonnes $3$ tạ.
 B. $4$ tonnes $13$ tạ.
@@ -392,7 +392,7 @@ D. $4$ tonnes $3$ tạ.
 ::key D
 $24+19=43$ tạ $=4$ tonnes $3$ tạ. Option A forgets to change $13$ tạ to $1$ tonne $3$ tạ, option B does not change them and is written wrongly, and option C has a wrong number of tạ.
 
-::mc
+::mc TH
 $195$ seconds equals
 A. $3$ minutes $15$ seconds.
 B. $1$ minute $35$ seconds.
@@ -401,7 +401,7 @@ D. $1$ minute $95$ seconds.
 ::key A
 $195\div60=3$ (remainder $15$), so $195$ seconds $=3$ minutes $15$ seconds. Option D has not changed all the seconds, and options B and C are wrong.
 
-::mc
+::mc TH
 Which century is the year $2000$ in?
 A. The XXI century.
 B. The XX century.
@@ -410,7 +410,7 @@ D. The XXII century.
 ::key B
 $2000\div100=20$ (remainder $0$), so the year $2000$ is in the $20$th century, which is XX. Option A is the century of the year $2001$.
 
-::tf
+::tf NB NB NB TH
 Look at these statements.
 a) $1$ tạ $=100$ yến.
 b) $1$ tonne $=100$ kg.
@@ -419,12 +419,12 @@ d) The year $1945$ is in the XX century.
 ::key F F F T
 a) False: $1$ tạ $=10$ yến. b) False: $1$ tonne $=1\,000$ kg. c) False: $1$ minute $=60$ seconds. d) True: $1945\div100=19$ (remainder $45$), so the $20$th century.
 
-::sa
+::sa VD
 A lorry carries $2$ tonnes of goods and $7$ tạ have been unloaded. How many tạ of goods are left on the lorry?
 ::key 13
 $2$ tonnes $=20$ tạ, so $20-7=13$ tạ are left.
 
-::sa
+::sa TH
 How many seconds is $4$ minutes $5$ seconds?
 ::key 245
 $4$ minutes $=240$ seconds, so $4$ minutes $5$ seconds $=240+5=245$ seconds.

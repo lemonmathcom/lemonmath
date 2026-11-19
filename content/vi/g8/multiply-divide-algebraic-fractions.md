@@ -375,7 +375,7 @@ Vậy biểu thức bằng $x$, và bằng $7$ khi $x=7$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $\dfrac{4x^2}{9y}\cdot\dfrac{3y^2}{8x}$ là
 A. $\dfrac{xy}{6}$.
 B. $\dfrac{x}{6y}$.
@@ -384,7 +384,7 @@ D. $\dfrac{x^2y}{6}$.
 ::key A
 $\dfrac{12x^2y^2}{72xy}=\dfrac{xy}{6}$. A không rút gọn hết $x$, B và C nhầm lũy thừa của $y$ và vị trí tử, mẫu.
 
-::mc
+::mc NB
 Phân thức nghịch đảo của $\dfrac{x+1}{x-3}$ ($x\neq-1$) là
 A. $-\dfrac{x+1}{x-3}$.
 B. $\dfrac{x-3}{x+1}$.
@@ -393,7 +393,7 @@ D. $\dfrac{x-3}{x-1}$.
 ::key B
 Nghịch đảo là đổi chỗ tử và mẫu. B là phân thức đối, C đổi dấu mẫu mà không đảo, D sai tử.
 
-::mc
+::mc VD
 Kết quả của $\dfrac{x}{x+1}:\dfrac{x^2}{x^2-1}$ là
 A. $\dfrac{x^3}{(x+1)(x^2-1)}$.
 B. $\dfrac{x}{x-1}$.
@@ -402,7 +402,7 @@ D. $\dfrac{x+1}{x}$.
 ::key C
 $\dfrac{x}{x+1}\cdot\dfrac{(x-1)(x+1)}{x^2}=\dfrac{x-1}{x}$. A nhân mà không lật ngược số chia, B và D nhầm nhân tử.
 
-::mc
+::mc TH
 Với $x>2$, tích $\dfrac{x^2-4}{x}\cdot\dfrac{x}{x+2}$ bằng
 A. $x+2$.
 B. $x^2-4$.
@@ -411,7 +411,7 @@ D. $x-2$.
 ::key D
 $\dfrac{(x-2)(x+2)x}{x(x+2)}=x-2$. A và C rút gọn sai, B không rút gọn.
 
-::tf
+::tf TH TH TH TH
 Cho $P=\dfrac{x^2-1}{x}\cdot\dfrac{x}{x+1}$ với $x\neq0$ và $x\neq-1$. Xét tính đúng sai của các mệnh đề sau:
 a) $P=x-1$.
 b) Giá trị của $P$ tại $x=3$ bằng $4$.
@@ -420,12 +420,12 @@ d) $P$ xác định với mọi $x$.
 ::key Đ S Đ S
 a) Đúng: $\dfrac{(x-1)(x+1)x}{x(x+1)}=x-1$. b) Sai: $P=3-1=2$. c) Đúng: $(x-1):(x-1)=1$. d) Sai: $P$ không xác định tại $x=0$ và $x=-1$.
 
-::sa
+::sa VD
 Tính giá trị của $\dfrac{x^2-4}{x}\cdot\dfrac{x}{x+2}$ tại $x=5$.
 ::key 3
 Tích bằng $x-2=5-2=3$.
 
-::sa
+::sa VD
 Xe A đi $120$ km hết $x$ giờ, xe B đi $120$ km hết $x+2$ giờ. Khi $x=4$, xe A nhanh gấp bao nhiêu lần xe B?
 ::key 1,5
 $\dfrac{x+2}{x}=\dfrac64=1{,}5$.

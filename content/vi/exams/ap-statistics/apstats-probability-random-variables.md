@@ -283,7 +283,7 @@ Vậy xác suất đoán đúng ít nhất $5$ câu xấp xỉ $0{,}0781$.
 :::
 
 :::quiz
-::mc
+::mc NB
 Nếu $P(A)=0{,}35$ thì $P(A^C)$ bằng
 A. $0{,}35$
 B. $0{,}65$
@@ -292,7 +292,7 @@ D. $0{,}1225$
 ::key B
 $1-0{,}35=0{,}65$.
 
-::mc
+::mc TH
 $A$ và $B$ độc lập với $P(A)=0{,}3$ và $P(B)=0{,}4$. Khi đó $P(A\text{ và }B)$ bằng
 A. $0{,}7$
 B. $0{,}1$
@@ -301,7 +301,7 @@ D. $0{,}58$
 ::key C
 $0{,}3\times0{,}4=0{,}12$.
 
-::mc
+::mc TH
 Kì vọng của phân phối nhị thức với $n=20$ và $p=0{,}3$ là
 A. $6$
 B. $4{,}2$
@@ -310,7 +310,7 @@ D. $0{,}3$
 ::key A
 $np=20\times0{,}3=6$.
 
-::mc
+::mc TH
 Tình huống nào KHÔNG phải tình huống nhị thức?
 A. Đếm số lần ra mặt ngửa trong $12$ lần tung đồng xu
 B. Đếm số câu đoán đúng trong $8$ câu đúng sai
@@ -319,7 +319,7 @@ D. Đếm số lần gieo xúc xắc cần thiết để ra mặt sáu lần đ�
 ::key D
 Số lần thử không cố định.
 
-::tf
+::tf NB TH VD TH
 Biến ngẫu nhiên $X$ nhận các giá trị $0$, $1$, $2$ với xác suất $0{,}5$; $0{,}3$ và $0{,}2$. Xét tính đúng sai của các mệnh đề sau:
 a) Tổng các xác suất bằng $1$.
 b) $P(X\ge1)=0{,}5$.
@@ -328,12 +328,12 @@ d) $\mu_X$ phải là một giá trị của $X$.
 ::key T T T F
 Kì vọng $0{,}7$ không phải giá trị có thể có.
 
-::sa
+::sa VD
 Với biến ngẫu nhiên ở câu trên, tính $P(X=2\mid X\ge1)$.
 ::key 0,4
 $\dfrac{0{,}2}{0{,}5}=0{,}4$.
 
-::sa
+::sa TH
 Nếu $P(A\text{ và }B)=0{,}12$ và $P(B)=0{,}4$, tính $P(A\mid B)$.
 ::key 0,3
 $\dfrac{0{,}12}{0{,}4}=0{,}3$.

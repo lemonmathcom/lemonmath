@@ -245,7 +245,7 @@ Hình cầu có thể tích $\dfrac43\pi\cdot8=\dfrac{32\pi}{3}$. Tỉ số là 
 :::
 
 :::quiz
-::mc
+::mc TH
 Hai góc trên một đường thẳng có số đo $x^\circ$ và $3x^\circ$. Giá trị của $x$ là
 A. $30$
 B. $45$
@@ -254,7 +254,7 @@ D. $90$
 ::key B
 $x+3x=180$, nên $x=45$.
 
-::mc
+::mc NB
 Thể tích của hình lập phương cạnh 5 là
 A. $25$
 B. $75$
@@ -263,7 +263,7 @@ D. $125$
 ::key D
 $5^3=125$. Phương án A là diện tích một mặt; phương án C là diện tích toàn phần.
 
-::mc
+::mc TH
 Diện tích hình tròn có đường kính 10 là
 A. $10\pi$
 B. $100\pi$
@@ -272,7 +272,7 @@ D. $5\pi$
 ::key C
 Bán kính là $5$, nên diện tích là $25\pi$. Phương án B dùng đường kính làm bán kính; phương án A là chu vi.
 
-::mc
+::mc NB
 Tổng các góc trong của ngũ giác là
 A. $540^\circ$
 B. $360^\circ$
@@ -281,7 +281,7 @@ D. $900^\circ$
 ::key A
 $(5-2)\cdot180^\circ=540^\circ$.
 
-::tf
+::tf NB TH TH TH
 Một hình hộp chữ nhật có các cạnh 3, 4 và 12 xăng-ti-mét.
 a) Thể tích của nó là 144 xăng-ti-mét khối.
 b) Diện tích toàn phần của nó là 192 xăng-ti-mét vuông.
@@ -290,12 +290,12 @@ d) Nếu gấp đôi mọi cạnh thì thể tích gấp đôi.
 ::key Đ Đ Đ S
 a) Đúng: $3\cdot4\cdot12$. b) Đúng: $2(12+36+48)=192$. c) Đúng: $\sqrt{9+16+144}=13$. d) Sai: thể tích được nhân với $2^3=8$.
 
-::sa
+::sa TH
 Một hình trụ có bán kính đáy 2 và chiều cao 5. Thể tích của nó là $k\pi$. Giá trị của $k$ bằng bao nhiêu?
 ::key 20
 $\pi\cdot2^2\cdot5=20\pi$.
 
-::sa
+::sa TH
 Hai tam giác đồng dạng có tỉ số đồng dạng 3. Tam giác nhỏ có diện tích 6. Diện tích tam giác lớn là bao nhiêu?
 ::key 54
 Diện tích được nhân với $3^2=9$: $6\cdot9=54$.

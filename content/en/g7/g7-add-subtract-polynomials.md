@@ -415,7 +415,7 @@ So $11\cdot91=1001$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The result of $(2x^2+3x)-(x^2-5x)$ is
 A. $x^2-2x$.
 B. $3x^2-2x$.
@@ -424,7 +424,7 @@ D. $3x^2+8x$.
 ::key C
 $2x^2+3x-x^2+5x=x^2+8x$. A forgets to change the sign of $-5x$; B and D are results of adding (with sign errors).
 
-::mc
+::mc TH
 The product $(-2x^3)\cdot(4x^2)$ equals
 A. $8x^5$.
 B. $-8x^6$.
@@ -433,7 +433,7 @@ D. $-8x^5$.
 ::key D
 Multiply the coefficients $-2\cdot4=-8$ and add the exponents $3+2=5$. A has the wrong sign, B multiplies the exponents ($3\cdot2$) and then adds to get $6$, and C adds the two coefficients.
 
-::mc
+::mc TH
 Expanding $(x+2)(x-3)$ gives
 A. $x^2-x-6$.
 B. $x^2-6$.
@@ -442,7 +442,7 @@ D. $x^2-5x-6$.
 ::key A
 $x^2-3x+2x-6=x^2-x-6$. A leaves out the cross products, C has the wrong sign for the $x$ term and D adds $-3x-2x$ by mistake.
 
-::mc
+::mc VD
 The polynomial $M$ that satisfies $M+(x^2-3x)=2x^2+x-4$ is
 A. $x^2-2x-4$.
 B. $x^2+4x-4$.
@@ -451,7 +451,7 @@ D. $x^2+4x+4$.
 ::key B
 $M=(2x^2+x-4)-(x^2-3x)=x^2+4x-4$. B forgets to change the sign of $-3x$, C adds instead of subtracting and D has the wrong sign for the constant term.
 
-::tf
+::tf TH TH TH VD
 Let $A=x^2+2x-3$ and $B=x^2-x-2$. Decide whether each statement is true or false.
 a) $A-B=3x+1$.
 b) $A+B=2x^2+x-5$.
@@ -460,12 +460,12 @@ d) $x=\dfrac13$ is a root of the polynomial $A-B$.
 ::key F T T T
 a) False: $A-B=x^2+2x-3-x^2+x+2=3x-1$. b) True: $2x^2+x-5$. c) True: $3x-1$ has degree $1$. d) True: $3\cdot\dfrac13-1=0$.
 
-::sa
+::sa VD
 Find the value of the expression $(x+3)(x-2)-x^2$ when $x=4$.
 ::key -2
 The expression equals $x^2+x-6-x^2=x-6$; at $x=4$ it is $-2$.
 
-::sa
+::sa VD
 Find the coefficient of $x^2$ in the product $(x+2)(3x^2-x+1)$.
 ::key 5
 $(x+2)(3x^2-x+1)=3x^3+5x^2-x+2$, where $5x^2$ comes from $-x^2+6x^2$.

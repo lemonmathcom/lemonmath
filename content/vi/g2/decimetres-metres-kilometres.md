@@ -274,7 +274,7 @@ $3$ m $=30$ dm. Số đoạn dây là $30:5=6$ (đoạn).
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 $1$ m bằng
 A. $1$ dm.
 B. $10$ dm.
@@ -283,7 +283,7 @@ D. $1000$ dm.
 ::key B
 $1$ m $=10$ dm. Phương án C là lỗi nhầm với $100$ cm.
 
-::mc
+::mc TH
 Đơn vị nào thích hợp nhất để đo khoảng cách giữa hai thành phố?
 A. cm.
 B. dm.
@@ -292,7 +292,7 @@ D. km.
 ::key D
 Hai thành phố cách nhau rất xa nên dùng km.
 
-::mc
+::mc TH
 $4$ m bằng
 A. $4$ dm.
 B. $14$ dm.
@@ -301,7 +301,7 @@ D. $400$ dm.
 ::key C
 $4\times10=40$ dm. Phương án A quên đổi đơn vị.
 
-::mc
+::mc TH
 $20$ dm bằng
 A. $2$ m.
 B. $20$ m.
@@ -310,7 +310,7 @@ D. $2$ km.
 ::key A
 $20$ dm có $2$ nhóm $10$ dm nên là $2$ m.
 
-::tf
+::tf NB NB NB TH
 Em xét các đơn vị đo độ dài.
 a) $1$ km $=1000$ m.
 b) $1$ dm $=10$ cm.
@@ -319,12 +319,12 @@ d) Đo chiều dài chiếc bút bằng km.
 ::key Đ Đ S S
 a) Đúng. b) Đúng. c) Sai: $1$ m $=10$ dm. d) Sai: chiếc bút ngắn nên dùng cm.
 
-::sa
+::sa TH
 $5$ m bằng bao nhiêu đề-xi-mét?
 ::key 50
 $5\times10=50$ (dm).
 
-::sa
+::sa TH
 $60$ dm bằng bao nhiêu mét?
 ::key 6
 $60$ dm có $6$ nhóm $10$ dm, tức $6$ m.

@@ -378,7 +378,7 @@ So $\angle BHC=180^\circ-\angle A$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 In triangle $ABC$, the perpendicular bisectors of $AB$ and $AC$ meet at $O$ and $OA=5$ cm. The distance $OB$ is
 A. $5$ cm.
 B. $2.5$ cm.
@@ -387,7 +387,7 @@ D. $10$ cm.
 ::key A
 $O$ is equidistant from the three vertices, so $OB=OA=5$ cm. A doubles and B halves $OA$ for no reason.
 
-::mc
+::mc TH
 The orthocentre of triangle $ABC$, right-angled at $A$, is
 A. the midpoint of $BC$.
 B. the point $A$.
@@ -396,7 +396,7 @@ D. a point on $AB$ equidistant from $B$ and $C$.
 ::key B
 The altitudes from $B$ and $C$ are $BA$ and $CA$, which meet at $A$. B confuses it with the circumcentre of a right-angled triangle.
 
-::mc
+::mc NB
 The point equidistant from the three vertices of a triangle is the intersection of
 A. the three altitudes.
 B. the three medians.
@@ -405,7 +405,7 @@ D. two altitudes and one perpendicular bisector.
 ::key C
 The intersection of the three perpendicular bisectors is equidistant from the vertices. The intersection of the altitudes is the orthocentre, which does not have this property.
 
-::mc
+::mc TH
 Triangle $ABC$ is isosceles at $A$ and $M$ is the midpoint of $BC$. Which line is the perpendicular bisector of $BC$?
 A. The line $BC$.
 B. The line through $A$ parallel to $BC$.
@@ -414,7 +414,7 @@ D. The line $AM$.
 ::key D
 $A$ and $M$ are both equidistant from $B$ and $C$, so $AM$ is the perpendicular bisector of $BC$. D is perpendicular to $AM$, not to $BC$.
 
-::tf
+::tf NB TH VD VD
 In acute triangle $ABC$, the altitudes $BD$ and $CE$ meet at $H$. Decide whether each statement is true or false.
 a) The point $H$ is equidistant from the three vertices $A$, $B$, $C$.
 b) $AH\perp BC$.
@@ -423,12 +423,12 @@ d) If $\angle A=50^\circ$, then $\angle BHC=40^\circ$.
 ::key F T T F
 a) False: $H$ is the orthocentre, not the circumcentre. b) True: $AH$ is the third altitude. c) True: by the challenge exercise. d) False: $180^\circ-50^\circ=130^\circ$.
 
-::sa
+::sa VD
 Acute triangle $ABC$ has $\angle A=64^\circ$. The altitudes $BD$ and $CE$ meet at $H$. Find $\angle BHC$ (in degrees).
 ::key 116
 $\angle BHC=180^\circ-\angle A=180^\circ-64^\circ=116^\circ$.
 
-::sa
+::sa VDC
 Triangle $ABC$ is isosceles at $A$ with $AB=AC=5$ cm and $BC=6$ cm. How far is the circumcentre $O$ from each vertex, in centimetres (give your answer to 1 decimal place)?
 ::key 3.1
 $AM=\sqrt{25-9}=4$. Let $OA=R$, $OM=4-R$, so $R^2=(4-R)^2+9$, which gives $8R=25$ and $R=3.125\approx3.1$ (cm).

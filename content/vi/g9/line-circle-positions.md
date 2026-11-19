@@ -329,7 +329,7 @@ Vậy chu vi tam giác $MDE$ bằng $20$ cm.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho đường tròn $(O; 7\text{ cm})$ và đường thẳng $a$ cách $O$ một khoảng $7$ cm. Khẳng định nào sau đây đúng?
 A. $a$ cắt $(O)$ tại hai điểm.
 B. $a$ tiếp xúc với $(O)$.
@@ -338,7 +338,7 @@ D. $a$ đi qua $O$.
 ::key B
 $d=R=7$ cm nên $a$ tiếp xúc với $(O)$.
 
-::mc
+::mc VD
 Đường thẳng cách tâm của đường tròn $(O; 5\text{ cm})$ một khoảng $3$ cm cắt đường tròn theo một dây dài
 A. $8$ cm.
 B. $4$ cm.
@@ -347,7 +347,7 @@ D. $2$ cm.
 ::key A
 $2\sqrt{25-9}=8$ cm. B quên nhân đôi, C cộng dưới dấu căn.
 
-::mc
+::mc VD
 Từ điểm $M$ với $OM=13$ cm, kẻ tiếp tuyến $MA$ của đường tròn $(O; 5\text{ cm})$. Độ dài $MA$ là
 A. $\sqrt{194}$ cm.
 B. $18$ cm.
@@ -356,7 +356,7 @@ D. $12$ cm.
 ::key D
 $MA=\sqrt{169-25}=12$ cm. A coi $OM$ là cạnh góc vuông, C lấy hiệu $13-5$, B lấy tổng $13+5$.
 
-::mc
+::mc TH
 Hai tiếp tuyến tại $A$, $B$ của đường tròn $(O)$ cắt nhau tại $M$ và $\widehat{AMB}=50^\circ$. Số đo góc $\widehat{AOB}$ là
 A. $50^\circ$.
 B. $40^\circ$.
@@ -365,7 +365,7 @@ D. $25^\circ$.
 ::key C
 Tứ giác $OAMB$ có hai góc vuông nên $\widehat{AOB}=360^\circ-180^\circ-50^\circ=130^\circ$. D là $\widehat{AMO}$.
 
-::tf
+::tf TH VD VD NB
 Từ điểm $M$ với $OM=12$ cm, kẻ hai tiếp tuyến $MA$, $MB$ của đường tròn $(O; 6\text{ cm})$. Xét tính đúng sai của các mệnh đề sau:
 a) $MA=6\sqrt3$ cm.
 b) $\widehat{AMO}=30^\circ$.
@@ -374,12 +374,12 @@ d) $MA=MB$.
 ::key Đ Đ S Đ
 a) Đúng: $MA=\sqrt{108}=6\sqrt3$. b) Đúng: $\sin\widehat{AMO}=\dfrac12$. c) Sai: $\widehat{AMB}=60^\circ$. d) Đúng: tính chất hai tiếp tuyến cắt nhau.
 
-::sa
+::sa VD
 Một đường thẳng cách tâm $O$ một khoảng $4$ cm và cắt đường tròn $(O)$ theo một dây dài $6$ cm. Tính bán kính (đơn vị: cm) của đường tròn.
 ::key 5
 Nửa dây dài $3$ cm, nên $R=\sqrt{4^2+3^2}=5$ cm.
 
-::sa
+::sa VD
 Hai tiếp tuyến $MA$, $MB$ của đường tròn $(O)$ có $MA=7{,}5$ cm. Tiếp tuyến tại một điểm $C$ trên cung nhỏ $AB$ cắt $MA$, $MB$ tại $D$, $E$. Tính chu vi (đơn vị: cm) của tam giác $MDE$.
 ::key 15
 $DC=DA$ và $EC=EB$, nên chu vi bằng $MA+MB=15$ cm.

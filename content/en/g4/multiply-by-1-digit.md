@@ -383,7 +383,7 @@ We must add $7-6=1$ to $1\,000$ to get a number divisible by $7$: $1\,001=7\time
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $2\,306\times4$ equals
 A. $9\,204$.
 B. $2\,310$.
@@ -392,7 +392,7 @@ D. $8\,224$.
 ::key C
 $6\times4=24$, write $4$ and carry $2$; $0\times4+2=2$; $3\times4=12$, write $2$ and carry $1$; $2\times4+1=9$. Option A forgets to carry $2$, option D forgets to carry $1$, and option B is an addition.
 
-::mc
+::mc TH
 $7\,245\div5$ equals
 A. $1\,409$.
 B. $1\,450$.
@@ -401,7 +401,7 @@ D. $1\,449$.
 ::key D
 $7\div5=1$ (remainder $2$); $22\div5=4$ (remainder $2$); $24\div5=4$ (remainder $4$); $45\div5=9$. Check: $1\,449\times5=7\,245$.
 
-::mc
+::mc TH
 $6\,123\div6$ equals
 A. $1\,020$ (remainder $3$).
 B. $1\,020$ (remainder $9$).
@@ -410,7 +410,7 @@ D. $1\,002$ (remainder $3$).
 ::key A
 $6\div6=1$; $1\div6=0$ (remainder $1$); $12\div6=2$; $3\div6=0$ (remainder $3$). Option C is missing a digit, option B has a remainder greater than the divisor, and option D puts the digit $0$ in the wrong place.
 
-::mc
+::mc NB
 In a division by $8$, the largest possible remainder is
 A. $8$.
 B. $7$.
@@ -419,7 +419,7 @@ D. $1$.
 ::key B
 The remainder is always less than the divisor, and the divisor is $8$, so the largest remainder is $7$.
 
-::tf
+::tf NB TH TH TH
 Look at the division $4\,078\div5$.
 a) The remainder of this division is $8$.
 b) The quotient of this division is $815$.
@@ -428,12 +428,12 @@ d) $815\times5+3=4\,078$.
 ::key F T F T
 a) False: the remainder must be less than the divisor $5$; it is $3$. b) True: $5\times815=4\,075$. c) False: the remainder is $3$, not $0$. d) True: $4\,075+3=4\,078$.
 
-::sa
+::sa TH
 Work out $1\,125\times4$.
 ::key 4500
 $4\times5=20$, write $0$ and carry $2$; $4\times2+2=10$, write $0$ and carry $1$; $4\times1+1=5$; $4\times1=4$. So $1\,125\times4=4\,500$.
 
-::sa
+::sa VD
 A store has $3\,045$ kg of maize, packed equally into $7$ sacks. How many kilograms of maize are in each sack?
 ::key 435
 $3\,045\div7=435$ (kg), because $435\times7=3\,045$.

@@ -256,7 +256,7 @@ a) The dividend is $4$, so $?=4$. b) The denominator is $5$, so the divisor $?=5
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The quotient of $5\div8$ written as a fraction is
 A. $\dfrac{8}{5}$.
 B. $5+8$.
@@ -265,7 +265,7 @@ D. $13$.
 ::key C
 The dividend $5$ is the numerator and the divisor $8$ is the denominator. Option A is the mistake of writing it the wrong way round.
 
-::mc
+::mc TH
 Share $3$ m of string equally among $4$ children. Each child gets
 A. $\dfrac{4}{3}$ m.
 B. $3$ m.
@@ -274,7 +274,7 @@ D. $\dfrac{3}{4}$ m.
 ::key D
 $3\div4=\dfrac{3}{4}$. Option A is the wrong way round.
 
-::mc
+::mc NB
 The number $7$ written as a fraction is
 A. $\dfrac{7}{1}$.
 B. $\dfrac{1}{7}$.
@@ -283,7 +283,7 @@ D. $\dfrac{0}{7}$.
 ::key A
 $7\div1=7$, so $7=\dfrac{7}{1}$. Option C equals $1$, not $7$.
 
-::mc
+::mc NB
 The fraction $\dfrac{9}{4}$ is the quotient of the division
 A. $4\div9$.
 B. $9\div4$.
@@ -292,7 +292,7 @@ D. $9-4$.
 ::key B
 The numerator is the dividend and the denominator is the divisor, so $\dfrac{9}{4}=9\div4$.
 
-::tf
+::tf NB TH TH TH
 Look at these divisions and fractions.
 a) $3\div5=\dfrac{3}{5}$.
 b) $5\div3=\dfrac{3}{5}$.
@@ -301,12 +301,12 @@ d) We can write $5\div0$ as the fraction $\dfrac{5}{0}$.
 ::key T F T F
 a) True. b) False: $5\div3=\dfrac{5}{3}$. c) True: $8\div8=1$. d) False: we never divide by $0$.
 
-::sa
+::sa TH
 We know $12\div?=\dfrac{12}{5}$. What number goes in place of $?$?
 ::key 5
 The divisor is the denominator, so $?=5$.
 
-::sa
+::sa NB
 Which number is equal to the fraction $\dfrac{10}{10}$?
 ::key 1
 $10\div10=1$.

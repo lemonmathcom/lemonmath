@@ -333,7 +333,7 @@ The correct result is $412\times23=412\times3+412\times20=1\,236+8\,240=9\,476$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $56\times23$ equals
 A. $280$.
 B. $1\,278$.
@@ -342,7 +342,7 @@ D. $1\,288$.
 ::key D
 $56\times3=168$ and $56\times20=1\,120$, so $168+1\,120=1\,288$. Option B forgets to carry, option C is only the second partial product, and option A does not shift the second partial product ($168+112$).
 
-::mc
+::mc TH
 $214\times30$ equals
 A. $6\,420$.
 B. $64\,200$.
@@ -351,7 +351,7 @@ D. $642$.
 ::key A
 $214\times30=(214\times3)\times10=642\times10=6\,420$. Option D forgets to multiply by $10$ and option B adds two zeros.
 
-::mc
+::mc NB
 In the multiplication $235\times24$, the value of $235\times20$ is
 A. $470$.
 B. $4\,700$.
@@ -360,7 +360,7 @@ D. $47\,000$.
 ::key B
 $235\times2=470$, so $235\times20=4\,700$. Option C is $235\times4$.
 
-::mc
+::mc VD
 Each box holds $36$ pens. $25$ such boxes hold
 A. $61$ pens.
 B. $180$ pens.
@@ -369,7 +369,7 @@ D. $9\,000$ pens.
 ::key C
 $36\times25=180+720=900$ (pens). Option A is an addition and option B is $36\times5$.
 
-::tf
+::tf NB TH TH TH
 Look at the multiplication $42\times35$.
 a) The first partial product is $42\times5=210$.
 b) $42\times30=1\,260$.
@@ -378,12 +378,12 @@ d) $42\times35$ is greater than $1\,500$.
 ::key T T F F
 a) True: $42\times5=210$. b) True: $42\times3=126$, so $42\times30=1\,260$. c) False: the second partial product must be $1\,260$; $42\times35=210+1\,260=1\,470$. d) False: $1\,470<1\,500$.
 
-::sa
+::sa TH
 Work out $25\times16$.
 ::key 400
 $25\times6=150$ and $25\times10=250$. So $25\times16=150+250=400$.
 
-::sa
+::sa VD
 A rectangular yard is $45$ m long and $22$ m wide. What is the area of the yard in square metres?
 ::key 990
 $45\times22=90+900=990$ ($\text{m}^2$).

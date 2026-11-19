@@ -467,7 +467,7 @@ $\tan\alpha=0$ only when $y_0=0$, that is, $\alpha=0^\circ$ or $180^\circ$; ther
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The value of $\cos150^\circ$ is
 A. $\dfrac{\sqrt3}{2}$.
 B. $-\dfrac{\sqrt3}{2}$.
@@ -476,7 +476,7 @@ D. $-\dfrac12$.
 ::key B
 $\cos150^\circ=\cos(180^\circ-30^\circ)=-\cos30^\circ=-\dfrac{\sqrt3}{2}$. Option A forgets to change the sign; an obtuse angle always has a negative cosine.
 
-::mc
+::mc NB
 Which value is **undefined**?
 A. $\tan0^\circ$.
 B. $\cot90^\circ$.
@@ -485,7 +485,7 @@ D. $\cos180^\circ$.
 ::key C
 At $90^\circ$ the point $M(0, 1)$ has $x_0=0$, so $\tan90^\circ=\dfrac{y_0}{x_0}$ is undefined. The other values are $0$, $0$ and $-1$.
 
-::mc
+::mc TH
 Given $\sin\alpha=\dfrac45$ with $90^\circ<\alpha<180^\circ$, the value of $\cos\alpha$ is
 A. $\dfrac35$.
 B. $-\dfrac35$.
@@ -494,7 +494,7 @@ D. $-\dfrac15$.
 ::key B
 $\cos^2\alpha=1-\dfrac{16}{25}=\dfrac{9}{25}$, and the angle is obtuse, so we take the negative value: $\cos\alpha=-\dfrac35$. Option C uses $1-\sin\alpha$ instead of $1-\sin^2\alpha$.
 
-::mc
+::mc VD
 The value of $\sin120^\circ\cos30^\circ+\cos120^\circ\sin30^\circ$ is
 A. $\dfrac12$.
 B. $1$.
@@ -503,7 +503,7 @@ D. $-\dfrac12$.
 ::key A
 $\dfrac{\sqrt3}{2}\cdot\dfrac{\sqrt3}{2}+\left(-\dfrac12\right)\cdot\dfrac12=\dfrac34-\dfrac14=\dfrac12$. Taking $\cos120^\circ=\dfrac12$ by mistake gives $1$ (option B).
 
-::tf
+::tf TH NB TH NB
 An angle $\alpha$ has $90^\circ<\alpha<180^\circ$ and $\cos\alpha=-\dfrac{\sqrt5}{3}$.
 a) $\sin\alpha=\dfrac23$.
 b) $\sin(180^\circ-\alpha)=-\dfrac23$.
@@ -512,12 +512,12 @@ d) $\cos(180^\circ-\alpha)=\dfrac{\sqrt5}{3}$.
 ::key T F T T
 a) True: $\sin^2\alpha=1-\dfrac59=\dfrac49$ and $\sin\alpha\ge 0$. b) False: $\sin(180^\circ-\alpha)=\sin\alpha=\dfrac23$. c) True: $\tan\alpha=\dfrac{2/3}{-\sqrt5/3}=-\dfrac{2}{\sqrt5}=-\dfrac{2\sqrt5}{5}$. d) True: $\cos(180^\circ-\alpha)=-\cos\alpha$.
 
-::sa
+::sa VD
 Compute $P=\sin^2 25^\circ+\sin^2 65^\circ+\cos100^\circ+\cos80^\circ$.
 ::key 1
 $\sin65^\circ=\cos25^\circ$ (complementary angles), so $\sin^2 25^\circ+\sin^2 65^\circ=1$. Also $\cos100^\circ=-\cos80^\circ$ (supplementary angles), so the last two terms add up to $0$. Hence $P=1$.
 
-::sa
+::sa VD
 In the coordinate plane, the point $M$ lies on the semicircle with centre $O$ and radius $4$ (above the $x$-axis), with $\angle xOM=140^\circ$. Find the $x$-coordinate of $M$ (rounded to one decimal place).
 ::key -3.1
 Scale the unit semicircle by $4$: the $x$-coordinate of $M$ is $4\cos140^\circ\approx4\cdot(-0.766)\approx-3.06$, which rounds to $-3.1$. It is negative because the obtuse angle puts $M$ to the left of the $y$-axis.

@@ -464,7 +464,7 @@ So $P=\dfrac{1}{10}$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The value of $\dfrac{-2}{3}\cdot\dfrac{3}{4}$ is
 A. $\dfrac{-1}{2}$.
 B. $\dfrac{1}{2}$.
@@ -473,7 +473,7 @@ D. $\dfrac{1}{12}$.
 ::key A
 $\dfrac{(-2)\cdot3}{3\cdot4}=\dfrac{-6}{12}=\dfrac{-1}{2}$. B has the wrong sign; C multiplies numerators by the other denominators; D is the sum $\dfrac{-2}{3}+\dfrac34$.
 
-::mc
+::mc NB
 The reciprocal of $\dfrac{-5}{8}$ is
 A. $\dfrac{5}{8}$.
 B. $\dfrac{8}{5}$.
@@ -482,7 +482,7 @@ D. $\dfrac{-5}{8}$.
 ::key C
 $\dfrac{-5}{8}\cdot\dfrac{-8}{5}=1$. A is the opposite; B has the wrong sign; D is the number itself.
 
-::mc
+::mc TH
 The value of $\dfrac{4}{5}:\dfrac{2}{15}$ is
 A. $\dfrac{8}{75}$.
 B. $6$.
@@ -491,7 +491,7 @@ D. $\dfrac{8}{15}$.
 ::key B
 $\dfrac45\cdot\dfrac{15}{2}=\dfrac{60}{10}=6$. A multiplies without turning over; C turns over the wrong fraction; D multiplies the numerators and keeps the denominator $15$.
 
-::mc
+::mc VD
 A car travels at $40$ km/h for $\dfrac34$ of an hour. The distance it travels is
 A. $\dfrac{160}{3}$ km.
 B. $10$ km.
@@ -500,7 +500,7 @@ D. $30$ km.
 ::key D
 $40\cdot\dfrac34=30$ km. A divides instead of multiplying; B multiplies only by $\dfrac14$; C adds $40+3$.
 
-::tf
+::tf TH TH TH VD
 Consider the fractions $\dfrac{-2}{3}$ and $\dfrac{3}{2}$. Decide whether each statement is true or false.
 a) The two fractions are reciprocals of each other.
 b) The product of the two fractions is $-1$.
@@ -509,12 +509,12 @@ d) $\dfrac{3}{2}\cdot\dfrac{-2}{3}\cdot(-1)=1$.
 ::key F T T T
 a) False: their product is $-1$, not $1$. b) True: $\dfrac{-6}{6}=-1$. c) True: $\dfrac{-2}{3}\cdot\dfrac23=\dfrac{-4}{9}$. d) True: $(-1)\cdot(-1)=1$.
 
-::sa
+::sa TH
 Work out $\dfrac{5}{6}:\dfrac{5}{12}$.
 ::key 2
 $\dfrac56\cdot\dfrac{12}{5}=\dfrac{12}{6}=2$.
 
-::sa
+::sa VD
 A plank $\dfrac{9}{2}$ m long is cut into pieces $\dfrac{3}{4}$ m long. How many pieces are there?
 ::key 6
 $\dfrac92:\dfrac34=\dfrac92\cdot\dfrac43=\dfrac{36}{6}=6$ (pieces).

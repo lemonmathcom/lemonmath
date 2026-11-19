@@ -503,7 +503,7 @@ Hai góc này là hai góc đồng vị đối với hai đường thẳng $Am$,
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Trong định lí "Nếu hai góc đối đỉnh thì chúng bằng nhau", kết luận là
 A. hai góc đối đỉnh.
 B. hai góc kề bù.
@@ -512,7 +512,7 @@ D. hai góc bằng $90^\circ$.
 ::key C
 Kết luận là phần đứng sau "thì": hai góc ấy bằng nhau. Phần "hai góc đối đỉnh" là giả thiết.
 
-::mc
+::mc NB
 Để chứng tỏ một mệnh đề là sai, ta cần
 A. chứng minh nó đúng trong mọi trường hợp.
 B. vẽ một hình rồi đo.
@@ -521,7 +521,7 @@ D. chỉ ra một phản ví dụ.
 ::key D
 Một phản ví dụ thoả giả thiết mà không thoả kết luận là đủ để bác bỏ mệnh đề.
 
-::mc
+::mc TH
 Mệnh đề nào sau đây **sai**?
 A. Hai góc bằng nhau thì đối đỉnh.
 B. Hai góc đối đỉnh thì bằng nhau.
@@ -530,7 +530,7 @@ D. Hai đường thẳng cùng song song với đường thẳng thứ ba thì s
 ::key A
 Hai góc bằng nhau chưa chắc đối đỉnh: hai góc $50^\circ$ ở hai đỉnh khác nhau là phản ví dụ.
 
-::mc
+::mc TH
 Trong chứng minh, lập luận "vì $\widehat{A}_3=\widehat{B}_5$ (so le trong) nên $a\parallel b$" dựa vào
 A. tính chất của hai đường thẳng song song.
 B. dấu hiệu nhận biết hai đường thẳng song song.
@@ -539,7 +539,7 @@ D. định lí hai góc đối đỉnh.
 ::key B
 Từ hai góc so le trong bằng nhau suy ra song song là dấu hiệu nhận biết. Tính chất đi theo chiều ngược lại.
 
-::tf
+::tf TH NB NB NB
 Xét tính đúng sai của các mệnh đề sau:
 a) Mọi mệnh đề đúng trong vài trường hợp thử đều là định lí.
 b) Giả thiết là điều đã cho, kết luận là điều cần chứng minh.
@@ -548,12 +548,12 @@ d) Trong chứng minh, mỗi bước cần có căn cứ.
 ::key S Đ Đ Đ
 a) Sai: đúng vài trường hợp chưa chắc đúng mọi trường hợp. b), c), d) Đúng.
 
-::sa
+::sa VD
 Hai góc đối đỉnh có số đo $(3x-5)^\circ$ và $(x+25)^\circ$. Tìm $x$.
 ::key 15
 Hai góc đối đỉnh bằng nhau nên $3x-5=x+25$, suy ra $2x=30$, $x=15$.
 
-::sa
+::sa TH
 Hai tia phân giác của hai góc kề bù tạo thành một góc bao nhiêu độ?
 ::key 90
 Theo định lí đã chứng minh ở Ví dụ 3, góc đó bằng $90^\circ$.

@@ -455,7 +455,7 @@ Vậy có $15$ bạn chọn Toán và $13$ bạn chọn môn khác ($26\%$).
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Dữ liệu nào sau đây là dữ liệu định lượng?
 A. Màu áo yêu thích.
 B. Số anh chị em của mỗi bạn.
@@ -464,7 +464,7 @@ D. Số điện thoại của mỗi bạn.
 ::key B
 Số anh chị em là số đếm được. A và C là tên gọi, D là số chỉ để gọi tên nên là dữ liệu định tính.
 
-::mc
+::mc TH
 Để theo dõi sự thay đổi nhiệt độ ngoài trời theo từng giờ trong ngày, nên dùng
 A. bảng chỉ có tổng số.
 B. biểu đồ hình quạt tròn.
@@ -473,7 +473,7 @@ D. biểu đồ tranh.
 ::key C
 Biểu đồ đoạn thẳng cho thấy xu hướng theo thời gian. Biểu đồ hình quạt tròn chỉ cho thấy tỉ lệ các phần của một tổng.
 
-::mc
+::mc TH
 Điểm kiểm tra (thang $10$) của năm bạn là $8$; $7{,}5$; $9$; $11$; $6$. Giá trị không hợp lí là
 A. $7{,}5$.
 B. $9$.
@@ -482,7 +482,7 @@ D. $11$.
 ::key D
 Điểm tối đa là $10$ nên $11$ không hợp lí; các giá trị còn lại nằm trong khoảng từ $0$ đến $10$.
 
-::mc
+::mc TH
 Trong biểu đồ hình quạt tròn, một nhóm chiếm $25\%$. Số đo cung ứng với nhóm đó là
 A. $90^\circ$.
 B. $25^\circ$.
@@ -491,7 +491,7 @@ D. $250^\circ$.
 ::key A
 $25\%\cdot360^\circ=90^\circ$. A nhầm phần trăm với độ, D nhân với $10$.
 
-::tf
+::tf TH TH TH NB
 Khảo sát $40$ bạn về môn thể thao yêu thích: Bóng đá $14$, Cầu lông $10$, Bóng rổ $6$, Bơi $6$, Khác $4$. Xét tính đúng sai của các mệnh đề sau:
 a) Môn thể thao yêu thích là dữ liệu định lượng.
 b) Tần số tương đối của Bóng đá là $35\%$.
@@ -500,12 +500,12 @@ d) Tổng các tần số tương đối bằng $100\%$.
 ::key S Đ Đ Đ
 a) Sai: tên môn thể thao là dữ liệu định tính. b) Đúng: $\dfrac{14}{40}=35\%$. c) Đúng: $\dfrac{10}{40}\cdot360^\circ=90^\circ$. d) Đúng: các nhóm đủ và không trùng nhau.
 
-::sa
+::sa VD
 Khảo sát $40$ bạn, có $14$ bạn chọn Bóng đá. Trong biểu đồ hình quạt tròn, cung của Bóng đá có số đo bao nhiêu độ?
 ::key 126
 $\dfrac{14}{40}\cdot360^\circ=126^\circ$.
 
-::sa
+::sa TH
 Một gia đình chi $15\%$ của $15$ triệu đồng cho học tập. Số tiền đó là bao nhiêu triệu đồng?
 ::key 2,25
 $15\cdot0{,}15=2{,}25$ (triệu đồng).

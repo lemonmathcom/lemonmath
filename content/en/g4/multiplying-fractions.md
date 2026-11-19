@@ -365,7 +365,7 @@ $$\dfrac{3}{5}\div\dfrac{1}{2}=\dfrac{3}{5}\times2=\dfrac{6}{5}\ \text{(m)}.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $\dfrac{2}{3}\times\dfrac{3}{5}$ equals
 A. $\dfrac{6}{8}$.
 B. $\dfrac{5}{8}$.
@@ -374,7 +374,7 @@ D. $\dfrac{9}{10}$.
 ::key C
 $\dfrac{2}{3}\times\dfrac{3}{5}=\dfrac{6}{15}=\dfrac{2}{5}$. Options B and A add instead of multiplying.
 
-::mc
+::mc TH
 $\dfrac{3}{8}\times4$ equals
 A. $\dfrac{3}{32}$.
 B. $\dfrac{7}{8}$.
@@ -383,7 +383,7 @@ D. $\dfrac{3}{2}$.
 ::key D
 $\dfrac{3}{8}\times4=\dfrac{12}{8}=\dfrac{3}{2}$. Options A and C multiply the denominator by $4$ as well.
 
-::mc
+::mc TH
 $\dfrac{3}{4}\div\dfrac{1}{8}$ equals
 A. $6$.
 B. $\dfrac{1}{6}$.
@@ -392,7 +392,7 @@ D. $\dfrac{3}{32}$.
 ::key A
 $\dfrac{3}{4}\div\dfrac{1}{8}=\dfrac{3}{4}\times8=6$. Option B comes from inverting the wrong fraction.
 
-::mc
+::mc NB
 The reciprocal of $\dfrac{2}{7}$ is
 A. $\dfrac{2}{7}$.
 B. $\dfrac{7}{2}$.
@@ -401,7 +401,7 @@ D. $\dfrac{1}{7}$.
 ::key B
 Swapping the numerator and the denominator of $\dfrac{2}{7}$ gives $\dfrac{7}{2}$.
 
-::tf
+::tf NB TH TH TH
 Look at the multiplication $\dfrac{2}{3}\times\dfrac{1}{2}$.
 a) $\dfrac{2}{3}\times\dfrac{1}{2}=\dfrac{2}{6}$.
 b) $\dfrac{2}{3}\times\dfrac{1}{2}=\dfrac{1}{3}$.
@@ -410,12 +410,12 @@ d) This product is less than $1$.
 ::key T T F T
 a) True: $\dfrac{2\times1}{3\times2}$. b) True: $\dfrac{2}{6}=\dfrac{1}{3}$. c) False: $\dfrac{1}{3}<\dfrac{2}{3}$. d) True: $\dfrac{1}{3}<1$.
 
-::sa
+::sa VD
 Work out $4\div\dfrac{2}{3}$.
 ::key 6
 $4\div\dfrac{2}{3}=4\times\dfrac{3}{2}=\dfrac{12}{2}=6$.
 
-::sa
+::sa VD
 Each bow needs $\dfrac{2}{5}$ m of ribbon. How many bows can be made, at most, from $4$ m of ribbon?
 ::key 10
 $4\div\dfrac{2}{5}=4\times\dfrac{5}{2}=\dfrac{20}{2}=10$ (bows).

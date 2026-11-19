@@ -270,7 +270,7 @@ a) Số $10$ ở cột thước. b) Số $0$ ở cột tẩy.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Có tám viên bi. Em viết số nào?
 A. $7$.
 B. $8$.
@@ -279,7 +279,7 @@ D. $6$.
 ::key B
 Tám viết là $8$. Phương án A là lỗi đếm sót một viên.
 
-::mc
+::mc NB
 Số liền sau của $9$ là
 A. $8$.
 B. $9$.
@@ -288,7 +288,7 @@ D. $0$.
 ::key C
 Đếm thêm một sau chín là mười. Phương án A là số liền trước.
 
-::mc
+::mc NB
 Điền số vào dãy $6, 7, \square, 9, 10$.
 A. $7$.
 B. $8$.
@@ -297,7 +297,7 @@ D. $10$.
 ::key B
 Sau $7$ là $8$, rồi đến $9$. Phương án A lặp lại số $7$.
 
-::mc
+::mc NB
 Số mười viết bằng các chữ số nào (theo thứ tự)?
 A. $1$ và $0$.
 B. $0$ và $1$.
@@ -306,7 +306,7 @@ D. $0$ và $0$.
 ::key A
 Số $10$ có chữ số $1$ đứng trước, chữ số $0$ đứng sau. Phương án B là lỗi viết ngược.
 
-::tf
+::tf NB NB TH TH
 Em xét các số $6, 7, 8, 9, 10$.
 a) Số $6$ đọc là "sáu".
 b) Số liền sau của $7$ là $8$.
@@ -315,12 +315,12 @@ d) Dãy $6, 7, 8, 9, 10$ có năm số.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng. c) Sai: khi đếm, $9$ đứng trước $10$. d) Đúng: sáu, bảy, tám, chín, mười là năm số.
 
-::sa
+::sa TH
 Đếm ngược: $10, 9, 8, \square, 6$. Số cần điền là số nào?
 ::key 7
 Sau $8$ là $7$, rồi đến $6$.
 
-::sa
+::sa NB
 Số liền sau của $8$ là số nào?
 ::key 9
 Đếm: tám, chín. Số liền sau của $8$ là $9$.

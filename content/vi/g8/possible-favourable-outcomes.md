@@ -378,7 +378,7 @@ b) Các số có tổng chữ số bằng $9$ là $18$, $27$, $36$, $45$, $54$, 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Gieo một con xúc xắc cân đối. Xác suất để mặt xuất hiện có số chấm lớn hơn $4$ là
 A. $\dfrac16$.
 B. $\dfrac23$.
@@ -387,7 +387,7 @@ D. $\dfrac13$.
 ::key D
 Các kết quả thuận lợi là $5$ và $6$ nên $P=\dfrac26=\dfrac13$. A chỉ đếm một kết quả, C và B đếm sai số kết quả thuận lợi.
 
-::mc
+::mc TH
 Một hộp có $3$ bi đỏ, $5$ bi xanh, $2$ bi vàng. Lấy một bi. Xác suất để bi lấy được không phải màu đỏ là
 A. $\dfrac{7}{10}$.
 B. $\dfrac37$.
@@ -396,7 +396,7 @@ D. $\dfrac{3}{10}$.
 ::key A
 Có $5+2=7$ bi không đỏ trong $10$ bi nên $P=\dfrac7{10}$. A là xác suất lấy bi đỏ, B lấy $3$ trên $7$, C là xác suất lấy bi xanh.
 
-::mc
+::mc VD
 Tung một đồng xu cân đối hai lần. Xác suất để hai mặt giống nhau là
 A. $\dfrac13$.
 B. $\dfrac12$.
@@ -405,7 +405,7 @@ D. $\dfrac34$.
 ::key B
 Các kết quả thuận lợi là $SS$ và $NN$, trong $4$ kết quả nên $P=\dfrac24=\dfrac12$. B coi chỉ có $3$ kết quả, C chỉ đếm một kết quả, D là xác suất có ít nhất một mặt ngửa.
 
-::mc
+::mc TH
 Rút một thẻ từ $20$ thẻ đánh số từ $1$ đến $20$. Xác suất để số trên thẻ chia hết cho $5$ là
 A. $\dfrac14$.
 B. $\dfrac45$.
@@ -414,7 +414,7 @@ D. $\dfrac1{20}$.
 ::key C
 Có $4$ số ($5$, $10$, $15$, $20$) nên $P=\dfrac{4}{20}=\dfrac15$. A tính $\dfrac{5}{20}$, B lấy $\dfrac{4}{5}$, D chỉ đếm một kết quả.
 
-::tf
+::tf NB TH TH TH
 Gieo một con xúc xắc cân đối. Xét tính đúng sai của các mệnh đề sau:
 a) Phép thử có $5$ kết quả có thể.
 b) Xác suất xuất hiện mặt có số chấm chẵn bằng $\dfrac12$.
@@ -423,12 +423,12 @@ d) Xác suất xuất hiện mặt có số chấm là số nguyên tố bằng 
 ::key S Đ Đ S
 a) Sai: có $6$ kết quả. b) Đúng: $\dfrac36=\dfrac12$. c) Đúng: đó là biến cố không thể. d) Sai: các số nguyên tố là $2$, $3$, $5$ nên xác suất là $\dfrac36=\dfrac12$.
 
-::sa
+::sa TH
 Hộp có $20$ phiếu, trong đó $4$ phiếu trúng quà. Bốc một phiếu. Xác suất trúng quà bằng bao nhiêu phần trăm?
 ::key 20
 $\dfrac4{20}=\dfrac15=20\%$.
 
-::sa
+::sa TH
 Gieo cùng lúc hai con xúc xắc cân đối. Có bao nhiêu kết quả có thể?
 ::key 36
 $6\cdot6=36$.

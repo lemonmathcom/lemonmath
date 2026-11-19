@@ -310,7 +310,7 @@ From one of these subtractions to the next, the minuend goes up by 1 and the num
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $14-6$ equals
 A. $7$.
 B. $8$.
@@ -319,7 +319,7 @@ D. $10$.
 ::key B
 $14-6=14-4-2=10-2=8$. Option D takes away 4 but forgets to take away the other 2.
 
-::mc
+::mc TH
 $13-5$ equals
 A. $7$.
 B. $9$.
@@ -328,7 +328,7 @@ D. $18$.
 ::key C
 $13-5=13-3-2=10-2=8$. Option D is an addition by mistake.
 
-::mc
+::mc TH
 To work out $15-7$, you split $7=5+2$. The correct working is
 A. $15-5-3$.
 B. $15-5+2$.
@@ -337,7 +337,7 @@ D. $15-5-2$.
 ::key D
 Taking away 7 is the same as taking away 5 and then 2, so $15-5-2=10-2=8$. Option A takes away 1 too many, and option B adds 2 instead.
 
-::mc
+::mc TH
 You know that $8+6=14$. A correct subtraction is
 A. $14-8=6$.
 B. $14-8=22$.
@@ -346,7 +346,7 @@ D. $14-6=6$.
 ::key A
 Take the addend 8 away from the sum 14 and you get the other addend, 6. Option D is wrong because $14-6=8$.
 
-::tf
+::tf NB TH TH TH
 Look at the subtraction $16-9$.
 a) $16-9=7$.
 b) $16-7=9$.
@@ -355,12 +355,12 @@ d) From $9+7=16$ we get the two subtractions $16-9=7$ and $16-7=9$.
 ::key T T F T
 a) True: $16-9=16-6-3=7$. b) True: $7+9=16$. c) False: the difference is 7, which is less than 8. d) True: take each addend away from the sum in turn.
 
-::sa
+::sa VD
 Work out $17-8$.
 ::key 9
 $17-8=17-7-1=10-1=9$.
 
-::sa
+::sa VD
 There are 15 marbles in a box and 7 are taken out. How many marbles are left in the box?
 ::key 8
 $15-7=15-5-2=8$ (marbles).

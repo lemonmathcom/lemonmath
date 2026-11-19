@@ -296,7 +296,7 @@ Check: $68\div7=9$ (remainder $5$), because $7\times 9=63$ and $68-63=5$. Correc
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $23\div5$ equals
 A. $3$ remainder $8$.
 B. $4$ remainder $3$.
@@ -305,7 +305,7 @@ D. $18$.
 ::key B
 $5\times 4=20$ and $23-20=3$, so $23\div5=4$ (remainder $3$). B has a remainder greater than the divisor, C rounds up, D is $23-5$.
 
-::mc
+::mc TH
 $84\div4$ equals
 A. $2$.
 B. $20$.
@@ -314,7 +314,7 @@ D. $12$.
 ::key C
 $8$ tens divided by $4$ is $2$ tens; bringing down $4$, dividing by $4$ gives $1$, so $84\div4=21$. A forgets to bring down, B forgets to divide the $4$ ones, D swaps the digits.
 
-::mc
+::mc TH
 $59\div4$ equals
 A. $14$ remainder $4$.
 B. $13$ remainder $7$.
@@ -323,7 +323,7 @@ D. $14$ remainder $3$.
 ::key D
 $59\div4=14$ (remainder $3$), because $14\times 4=56$ and $59-56=3$. A and B have remainders that are not less than the divisor, C ignores the remainder.
 
-::mc
+::mc VD
 A class of $47$ pupils stands in rows of $6$. What is the least number of rows needed?
 A. $8$ rows.
 B. $7$ rows.
@@ -332,7 +332,7 @@ D. $9$ rows.
 ::key A
 $47\div6=7$ (remainder $5$), and the $5$ pupils left need $1$ more row, so we need $8$ rows. A ignores the remainder, C is the remainder, D is one row too many.
 
-::tf
+::tf TH TH TH NB
 Look at the division $38\div5$.
 a) $38\div5=7$ (remainder $3$).
 b) Check: $7\times 5+3=38$.
@@ -341,12 +341,12 @@ d) When dividing by $5$, the remainder can be $5$.
 ::key T T F F
 a) True: $5\times 7=35$ and $38-35=3$. b) True: $35+3=38$. c) False: the remainder $8$ is greater than the divisor $5$. d) False: the remainder must be less than $5$.
 
-::sa
+::sa TH
 Work out $78\div6$.
 ::key 13
 $7$ tens divided by $6$ is $1$ ten, with $1$ ten left over; bring down $8$ to make $18$, and $18\div6=3$. So $78\div6=13$.
 
-::sa
+::sa TH
 Find the remainder of $53\div8$.
 ::key 5
 $8\times 6=48$ and $53-48=5$, so $53\div8=6$ (remainder $5$).

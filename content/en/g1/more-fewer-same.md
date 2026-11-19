@@ -247,7 +247,7 @@ When the $6$ circles of A are used up, $3$ circles of B are left over. Draw $3$ 
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 There are $5$ cups and $6$ spoons. Which group has more?
 A. Cups.
 B. The same.
@@ -256,7 +256,7 @@ D. Cannot tell.
 ::key C
 Matching $5$ cups with $5$ spoons leaves $1$ spoon, so there are more spoons. Option A picks the group that ran out first.
 
-::mc
+::mc NB
 There are $4$ hats and $4$ children, one hat each. What can you say about the two groups?
 A. More hats.
 B. More children.
@@ -265,7 +265,7 @@ D. The same.
 ::key D
 Nothing is left over after matching, so the two groups are the same.
 
-::mc
+::mc TH
 Matching $7$ flowers with $5$ vases leaves $2$ flowers. Which group has fewer?
 A. Vases.
 B. Flowers.
@@ -274,7 +274,7 @@ D. Cannot tell.
 ::key A
 The vases ran out first, so there are fewer vases. Option B picks the group left over.
 
-::mc
+::mc TH
 The small box has $7$ marbles and the big box has $4$ marbles. Which box has more marbles?
 A. The big box.
 B. The small box.
@@ -283,7 +283,7 @@ D. Cannot tell.
 ::key B
 $7$ marbles are more than $4$ marbles. Option A confuses big with many.
 
-::tf
+::tf TH TH TH NB
 There are $3$ hens and $5$ ducks. Each hen is matched with one duck.
 a) There are more ducks than hens.
 b) There are more hens than ducks.
@@ -292,12 +292,12 @@ d) The hens and ducks are the same.
 ::key T F T F
 a) True. b) False: the hens ran out first. c) True: after matching $3$ hens, $2$ ducks are left. d) False.
 
-::sa
+::sa TH
 There are $8$ oranges and $5$ plates, one orange on each plate. How many oranges are left over?
 ::key 3
 Matching $5$ plates with $5$ oranges leaves $3$ oranges.
 
-::sa
+::sa TH
 There are $7$ birds and $6$ nests, one bird in each nest. How many birds are left over?
 ::key 1
 Matching $6$ nests with $6$ birds leaves $1$ bird.

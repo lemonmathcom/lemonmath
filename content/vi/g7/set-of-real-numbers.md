@@ -500,7 +500,7 @@ Vậy có thể chọn $1{,}415$ và $1{,}41010010001\ldots$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số nào sau đây là số vô tỉ?
 A. $\sqrt7$.
 B. $0{,}25$.
@@ -509,7 +509,7 @@ D. $0{,}(5)$.
 ::key A
 $\sqrt7$ là số thập phân vô hạn không tuần hoàn. A là số thập phân hữu hạn, C bằng $4$, D là số thập phân vô hạn tuần hoàn; cả ba đều là số hữu tỉ.
 
-::mc
+::mc TH
 Khẳng định nào sau đây **sai**?
 A. $\mathbb{N}\subset\mathbb{Z}$.
 B. $\mathbb{R}\subset\mathbb{Q}$.
@@ -518,7 +518,7 @@ D. $\mathbb{Q}\subset\mathbb{R}$.
 ::key B
 $\mathbb{R}$ chứa cả số vô tỉ như $\sqrt2$, mà $\sqrt2\notin\mathbb{Q}$, nên $\mathbb{R}$ không là tập con của $\mathbb{Q}$.
 
-::mc
+::mc TH
 Khi so sánh $\sqrt{10}$ với $3{,}2$, ta có
 A. $\sqrt{10}=3{,}2$.
 B. $\sqrt{10}>3{,}2$.
@@ -527,7 +527,7 @@ D. không so sánh được vì $\sqrt{10}$ là số vô tỉ.
 ::key C
 $3{,}2^2=10{,}24>10$ nên $\sqrt{10}<3{,}2$. B so $10$ với $3{,}2$ thay cho so bình phương, A làm tròn $\sqrt{10}\approx3{,}2$ rồi coi là bằng, D sai vì hai số thực nào cũng so sánh được.
 
-::mc
+::mc VD
 Số nhỏ nhất trong các số $0$; $-\sqrt6$; $-2{,}4$; $-2{,}5$ là
 A. $0$.
 B. $-\sqrt6$.
@@ -536,7 +536,7 @@ D. $-2{,}5$.
 ::key D
 $2{,}4^2=5{,}76<6<6{,}25=2{,}5^2$ nên $2{,}4<\sqrt6<2{,}5$, suy ra $-2{,}5<-\sqrt6<-2{,}4<0$. B, C nhầm chiều khi đổi dấu.
 
-::tf
+::tf TH TH NB TH
 Xét tính đúng sai của các mệnh đề sau:
 a) Mọi số thập phân vô hạn đều là số vô tỉ.
 b) $\sqrt9$ là số hữu tỉ.
@@ -545,12 +545,12 @@ d) Số đối của $\pi$ là một số hữu tỉ.
 ::key S Đ Đ S
 a) Sai: số thập phân vô hạn tuần hoàn như $0{,}(3)$ là số hữu tỉ. b) Đúng: $\sqrt9=3$. c) Đúng: mỗi điểm trên trục số biểu diễn một số thực. d) Sai: $-\pi$ là số vô tỉ.
 
-::sa
+::sa TH
 Trong các số $\sqrt2$; $0{,}(3)$; $\sqrt{25}$; $\pi$; $-\sqrt7$; $1{,}5$ có bao nhiêu số vô tỉ?
 ::key 3
 Các số vô tỉ là $\sqrt2$, $\pi$, $-\sqrt7$. Còn lại $0{,}(3)$, $\sqrt{25}=5$ và $1{,}5$ là số hữu tỉ.
 
-::sa
+::sa VD
 Hai số nguyên liên tiếp mà $\sqrt{30}$ nằm giữa có tổng bằng bao nhiêu?
 ::key 11
 Vì $25<30<36$ nên $5<\sqrt{30}<6$; tổng $5+6=11$.

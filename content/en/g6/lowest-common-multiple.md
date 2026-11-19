@@ -416,7 +416,7 @@ So the number is $73$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $\text{LCM}(12,20)$ equals
 A. $4$.
 B. $240$.
@@ -425,7 +425,7 @@ D. $120$.
 ::key C
 $12=2^2\cdot3$ and $20=2^2\cdot5$, so the LCM is $2^2\cdot3\cdot5=60$. A is the HCF; B is the product $12\cdot20$; D is a common multiple but not the lowest.
 
-::mc
+::mc TH
 Given $\text{LCM}(a,b)=15$, the common multiples of $a$ and $b$ less than $50$ are
 A. $1$; $3$; $5$; $15$.
 B. $0$; $15$; $30$; $45$.
@@ -434,7 +434,7 @@ D. $0$; $15$.
 ::key B
 The common multiples are the multiples of $15$. A lists the factors of $15$; C has $60>50$ and misses $0$; D misses $30$ and $45$.
 
-::mc
+::mc TH
 The smallest common denominator for $\dfrac{1}{6}$ and $\dfrac{3}{10}$ is
 A. $60$.
 B. $16$.
@@ -443,7 +443,7 @@ D. $30$.
 ::key D
 The smallest common denominator is $\text{LCM}(6,10)=30$. A is the product $6\cdot10$; B is the sum; C is the HCF.
 
-::mc
+::mc VD
 Two gear wheels mesh. The small one has $12$ teeth and the large one has $18$ teeth. Two marked teeth are touching. At least how many turns must the small wheel make before those two teeth touch again?
 A. $3$ turns.
 B. $2$ turns.
@@ -452,7 +452,7 @@ D. $6$ turns.
 ::key A
 The smallest number of teeth that must pass the contact point is $\text{LCM}(12,18)=36$, so the small wheel turns $36\div12=3$ times. B is the number of turns of the large wheel; C mixes up teeth and turns; D is the HCF.
 
-::tf
+::tf TH TH TH TH
 Decide whether each statement is true or false.
 a) $\text{LCM}(5,7)=35$.
 b) $\text{LCM}(16,4)=64$.
@@ -461,12 +461,12 @@ d) If $\text{HCF}(a,b)=1$, then $\text{LCM}(a,b)=a\cdot b$.
 ::key T F T T
 a) True: $5$ and $7$ are coprime. b) False: $16$ is divisible by $4$, so the LCM is $16$. c) True: $0$ is divisible by every non-zero number. d) True: the numbers share no prime, so the LCM is the product.
 
-::sa
+::sa TH
 Find $\text{LCM}(18,24)$.
 ::key 72
 $18=2\cdot3^2$ and $24=2^3\cdot3$, so the LCM is $2^3\cdot3^2=72$.
 
-::sa
+::sa VD
 A number is divisible by $4$, $5$ and $6$. What is the smallest such non-zero number?
 ::key 60
 It is $\text{LCM}(4,5,6)=2^2\cdot3\cdot5=60$.

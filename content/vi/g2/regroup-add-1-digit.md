@@ -260,7 +260,7 @@ Hàng đơn vị của tổng là $1$, nên $\square+7=11$, suy ra $\square=4$. 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $47+6$ là
 A. $53$.
 B. $43$.
@@ -269,7 +269,7 @@ D. $413$.
 ::key A
 $7+6=13$, viết $3$ nhớ $1$; $4+1=5$, nên $47+6=53$. Phương án B quên chục nhớ, D viết cả $13$ vào hàng đơn vị.
 
-::mc
+::mc TH
 Khi tính $68+5$, em viết $3$ ở hàng đơn vị. Số chục nhớ cần cộng thêm vào hàng chục là
 A. $0$.
 B. $1$.
@@ -278,7 +278,7 @@ D. $3$.
 ::key B
 $8+5=13$ là $1$ chục và $3$ đơn vị, nên nhớ $1$ chục. Hàng chục: $6+1=7$, kết quả $73$.
 
-::mc
+::mc TH
 Phép tính nào có kết quả bằng $52$?
 A. $47+4$.
 B. $45+8$.
@@ -287,7 +287,7 @@ D. $49+4$.
 ::key C
 $46+6=52$. Các phép tính khác lần lượt bằng $53$, $51$, $53$.
 
-::mc
+::mc VD
 Lan có $36$ cái nhãn vở, bạn cho thêm $8$ cái. Lan có tất cả bao nhiêu cái nhãn vở?
 A. $34$ cái.
 B. $28$ cái.
@@ -296,7 +296,7 @@ D. $44$ cái.
 ::key D
 "Cho thêm" là gộp lại: $36+8=44$. Phương án A quên chục nhớ, B là $36-8$, nhầm sang phép trừ.
 
-::tf
+::tf NB TH VD TH
 Em xét phép cộng $59+7$.
 a) Hàng đơn vị: $9+7=16$.
 b) $16$ đơn vị đổi được $1$ chục và $6$ đơn vị.
@@ -305,12 +305,12 @@ d) $59+7$ lớn hơn $60$.
 ::key Đ Đ S Đ
 a) Đúng: $9+7=16$. b) Đúng: $16=10+6$. c) Sai: hàng chục là $5+1=6$ nên kết quả là $66$. d) Đúng: $66>60$.
 
-::sa
+::sa VD
 Tính $75+8$.
 ::key 83
 $5+8=13$, viết $3$ nhớ $1$; $7+1=8$. Vậy $75+8=83$.
 
-::sa
+::sa VD
 Bể có $49$ con cá, người ta thả thêm $5$ con cá. Bể có tất cả bao nhiêu con cá?
 ::key 54
 $9+5=14$, viết $4$ nhớ $1$; $4+1=5$. Vậy $49+5=54$ (con cá).

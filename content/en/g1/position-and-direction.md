@@ -276,7 +276,7 @@ The order from the start: Ha, Lan, Mai, Nam.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Three shapes are in a row from left to right: a square, a circle, a triangle. The shape in the middle is the
 A. square.
 B. circle.
@@ -285,7 +285,7 @@ D. none.
 ::key B
 The circle has the square on its left and the triangle on its right. Option A is the first shape.
 
-::mc
+::mc NB
 Three shapes are in a column from top to bottom: a triangle, a square, a circle. The shape at the bottom is the
 A. triangle.
 B. square.
@@ -294,7 +294,7 @@ D. none.
 ::key C
 Reading from the top, the last shape is the circle.
 
-::mc
+::mc TH
 Lan is in front of Mai, and Mai is in front of Nam. Who is in the middle?
 A. Lan.
 B. Mai.
@@ -303,7 +303,7 @@ D. Nobody.
 ::key B
 The order is Lan, Mai, Nam. Mai is in the middle.
 
-::mc
+::mc NB
 A book sits on a table. What is below the book?
 A. The book.
 B. The bag.
@@ -312,7 +312,7 @@ D. The pen.
 ::key C
 The book sits on the table, so the table is below the book.
 
-::tf
+::tf NB NB TH TH
 Three shapes are in a row from left to right: a square, a circle, a triangle.
 a) The square is on the left of the circle.
 b) The triangle is on the left of the circle.
@@ -321,12 +321,12 @@ d) The square is on the right of the triangle.
 ::key T F T F
 a) True. b) False: the triangle is on the right. c) True. d) False: the square is on the left.
 
-::sa
+::sa VD
 There are $5$ children in a line. Mai is third from the start. How many children are behind Mai?
 ::key 2
 The order is first, second, third (Mai), fourth, fifth. Two children are behind Mai.
 
-::sa
+::sa TH
 There are $6$ children in a line. Nam is fourth from the start. How many children are in front of Nam?
 ::key 3
 Nam is fourth, so there are three children in front of him.

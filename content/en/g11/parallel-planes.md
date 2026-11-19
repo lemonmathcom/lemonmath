@@ -298,7 +298,7 @@ The plane $(SAB)$ cuts the parallel planes $(\alpha)$ and $(ABC)$ along $A_1B_1$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Two distinct planes are parallel when
 A. they have exactly one common point.
 B. they have a common line.
@@ -307,7 +307,7 @@ D. they have no common point.
 ::key D
 This is the definition. Option B describes two planes that meet.
 
-::mc
+::mc NB
 How many planes parallel to $(P)$ pass through a point not on $(P)$?
 A. Exactly one.
 B. Two.
@@ -316,7 +316,7 @@ D. None.
 ::key A
 This is the first property of parallel planes.
 
-::mc
+::mc TH
 Three parallel planes cut off the segments $AB=3$, $BC=6$ on a transversal $d$ and $A'B'=4$ on a transversal $d'$. Then $B'C'$ equals
 A. $2$.
 B. $8$.
@@ -325,7 +325,7 @@ D. $4.5$.
 ::key B
 $\dfrac{AB}{BC}=\dfrac{A'B'}{B'C'}$, so $B'C'=\dfrac{4\cdot6}{3}=8$. Option A writes the ratio the wrong way round.
 
-::mc
+::mc TH
 How many faces does a prism with a pentagonal base have?
 A. $5$.
 B. $10$.
@@ -334,7 +334,7 @@ D. $15$.
 ::key C
 A prism with an $n$-sided base has $n+2=7$ faces. Option B is the number of vertices and option D is the number of edges.
 
-::tf
+::tf NB TH NB TH
 Take a cuboid $ABCD.A'B'C'D'$. Decide whether each statement is true or false.
 a) $(ABCD)\parallel(A'B'C'D')$.
 b) Each face of the cuboid meets exactly $4$ other faces.
@@ -343,12 +343,12 @@ d) $AA'\parallel(CDD'C')$.
 ::key T T F T
 a) True. b) True: each face is parallel to one face and meets the other $4$. c) False: a cuboid has $12$ edges. d) True: $AA'\parallel DD'\subset(CDD'C')$.
 
-::sa
+::sa TH
 How many edges does a prism whose base has $8$ sides have?
 ::key 24
 A prism with an $n$-sided base has $3n$ edges; for $n=8$ that is $24$.
 
-::sa
+::sa TH
 Three parallel planes cut off $AB=4$, $AC=10$ on a transversal $d$ and $A'B'=6$ on a transversal $d'$. Find $A'C'$.
 ::key 15
 $\dfrac{AB}{AC}=\dfrac{A'B'}{A'C'}$, so $A'C'=\dfrac{6\cdot10}{4}=15$.

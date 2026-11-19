@@ -440,7 +440,7 @@ Vậy $A=2$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $\sqrt{0{,}4\cdot90}$ bằng
 A. $6$.
 B. $36$.
@@ -449,7 +449,7 @@ D. $60$.
 ::key A
 Ta có $\sqrt{0{,}4\cdot90}=\sqrt{36}=6$. Phương án B quên khai căn; C và D đặt sai dấu phẩy.
 
-::mc
+::mc TH
 $\sqrt{12}\cdot\sqrt3$ bằng
 A. $6$.
 B. $\sqrt{15}$.
@@ -458,7 +458,7 @@ D. $4$.
 ::key A
 Ta có $\sqrt{12}\cdot\sqrt3=\sqrt{12\cdot3}=\sqrt{36}=6$. Phương án B cộng các số dưới dấu căn, C quên khai căn, D chia thay vì nhân.
 
-::mc
+::mc NB
 Đẳng thức $\sqrt{\dfrac ab}=\dfrac{\sqrt a}{\sqrt b}$ đúng khi
 A. $a\ge0$, $b\ge0$.
 B. $a\ge0$, $b>0$.
@@ -467,7 +467,7 @@ D. với mọi $a$, $b$.
 ::key B
 Cần $a\ge0$ để $\sqrt a$ xác định và $b>0$ vì $\sqrt b$ nằm ở mẫu. Phương án A cho phép $b=0$, khi đó phép chia vô nghĩa.
 
-::mc
+::mc TH
 Với $x<0$, $\sqrt{16x^2}$ bằng
 A. $4x$.
 B. $-4x$.
@@ -476,7 +476,7 @@ D. $-16x$.
 ::key B
 Ta có $\sqrt{16x^2}=4|x|=-4x$ (vì $x<0$). Phương án A quên giá trị tuyệt đối, C và D quên khai căn $16$.
 
-::tf
+::tf TH TH TH VD
 Cho $A=\sqrt{50}\cdot\sqrt2$ và $B=\dfrac{\sqrt{98}}{\sqrt2}$. Xét tính đúng sai của các mệnh đề sau:
 a) $A=10$.
 b) $B=49$.
@@ -485,12 +485,12 @@ d) $A-B=\sqrt{51}$.
 ::key Đ S Đ S
 a) Đúng. Ta có $A=\sqrt{100}=10$. b) Sai. Ta có $B=\sqrt{49}=7$. c) Đúng. $A\cdot B=10\cdot7=70$. d) Sai. $A-B=3$, còn $\sqrt{51}\approx7{,}1$ (không trừ được dưới dấu căn).
 
-::sa
+::sa TH
 Tính $\sqrt{1{,}21\cdot0{,}25}$.
 ::key 0,55
 Ta có $\sqrt{1{,}21\cdot0{,}25}=\sqrt{1{,}21}\cdot\sqrt{0{,}25}=1{,}1\cdot0{,}5=0{,}55$.
 
-::sa
+::sa VD
 Ở vùng nước nông, tốc độ $v$ (m/s) của sóng biển xấp xỉ $v=\sqrt{10d}$, với $d$ (m) là độ sâu của nước. Tính tốc độ của sóng (theo m/s) ở nơi nước sâu $8{,}1$ m.
 ::key 9
 Thay $d=8{,}1$ vào công thức, ta được $v=\sqrt{10\cdot8{,}1}=\sqrt{81}=9$ (m/s).

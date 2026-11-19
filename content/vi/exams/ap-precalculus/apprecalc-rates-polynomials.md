@@ -306,7 +306,7 @@ Vậy tập nghiệm là $-2<x<1$ hoặc $x>3$.
 :::
 
 :::quiz
-::mc
+::mc TH
 Tốc độ thay đổi trung bình của $f(x)=x^3$ trên $[0,2]$ là
 A. $8$
 B. $2$
@@ -315,7 +315,7 @@ D. $4$
 ::key D
 $\dfrac{8-0}{2-0}=4$.
 
-::mc
+::mc TH
 Dáng điệu ở vô cực của $f(x)=-x^4+5x$ là
 A. Cả hai đầu tiến tới $-\infty$
 B. Cả hai đầu tiến tới $\infty$
@@ -324,7 +324,7 @@ D. Đầu trái $-\infty$, đầu phải $\infty$
 ::key A
 Số hạng bậc cao nhất $-x^4$ có bậc chẵn và hệ số âm.
 
-::mc
+::mc NB
 Tại một nghiệm bội chẵn, đồ thị của đa thức
 A. cắt trục $x$
 B. tiếp xúc với trục $x$ rồi quay lại
@@ -333,7 +333,7 @@ D. không xác định
 ::key B
 Bội chẵn: dấu không đổi, nên đồ thị tiếp xúc với trục.
 
-::mc
+::mc NB
 Số điểm đổi chiều nhiều nhất có thể của một đa thức bậc $5$ là
 A. $5$
 B. $6$
@@ -342,7 +342,7 @@ D. $3$
 ::key C
 Đa thức bậc $n$ có nhiều nhất $n-1$ điểm đổi chiều.
 
-::tf
+::tf NB TH TH TH
 Cho $p(x)=x(x-3)^2$. Xét tính đúng sai của các mệnh đề sau:
 a) Các nghiệm của $p$ là $0$ và $3$.
 b) $p$ có bậc $3$.
@@ -351,12 +351,12 @@ d) $p(x)\to\infty$ khi $x\to\infty$.
 ::key T T F T
 $3$ là nghiệm bội $2$ nên đồ thị chỉ tiếp xúc với trục tại đó; số hạng bậc cao nhất là $x^3$.
 
-::sa
+::sa TH
 Tính tốc độ thay đổi trung bình của $f(x)=2x^2+1$ trên $[1,3]$.
 ::key 8
 $\dfrac{19-3}{2}=8$.
 
-::sa
+::sa VD
 Hàm số $f(x)=x^3-x$ có bao nhiêu nghiệm thực?
 ::key 3
 $x(x-1)(x+1)$ có các nghiệm $-1$, $0$, $1$.

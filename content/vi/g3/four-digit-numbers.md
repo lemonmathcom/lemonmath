@@ -311,7 +311,7 @@ Số bé nhất: hàng nghìn không thể là $0$, nên chọn $3$; rồi xếp
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số bảy nghìn không trăm hai mươi lăm viết là
 A. $7250$.
 B. $725$.
@@ -320,7 +320,7 @@ D. $70\,025$.
 ::key C
 $7$ nghìn, $0$ trăm, $2$ chục, $5$ đơn vị là $7025$. A đặt sai hàng của chữ số $0$, B bỏ hàng nghìn, D thêm một chữ số.
 
-::mc
+::mc TH
 Số $5070$ bằng
 A. $5000+700$.
 B. $500+70$.
@@ -329,7 +329,7 @@ D. $5000+70$.
 ::key D
 $5070$ có $5$ nghìn, $0$ trăm, $7$ chục, $0$ đơn vị. A coi $7$ là hàng trăm, B bỏ hàng nghìn, C coi $7$ là hàng đơn vị.
 
-::mc
+::mc NB
 Số liền sau của $9999$ là
 A. $10\,000$.
 B. $9998$.
@@ -338,7 +338,7 @@ D. $10\,001$.
 ::key A
 $9999+1=10\,000$. B là số liền trước, C thêm chữ số $0$, D cộng thêm $2$.
 
-::mc
+::mc TH
 Trong các số $5432$, $5342$, $5423$, $5243$, số lớn nhất là
 A. $5342$.
 B. $5432$.
@@ -347,7 +347,7 @@ D. $5243$.
 ::key B
 Cả bốn số đều có hàng nghìn là $5$. Số có hàng trăm lớn nhất là $4$, gồm $5432$ và $5423$; ở hàng chục $3>2$, nên $5432$ lớn nhất.
 
-::tf
+::tf NB NB TH TH
 Em xét số $4205$.
 a) Số này có năm chữ số.
 b) Chữ số $2$ ở hàng trăm.
@@ -356,12 +356,12 @@ d) $4205<4250$.
 ::key S Đ S Đ
 a) Sai: $4205$ có bốn chữ số. b) Đúng: $4205$ có $2$ trăm. c) Sai: $4205=4000+200+5$. d) Đúng: hàng chục $0<5$.
 
-::sa
+::sa TH
 Số gồm $6$ nghìn, $2$ trăm, $0$ chục, $9$ đơn vị viết là gì?
 ::key 6209
 $6$ nghìn, $2$ trăm, $0$ chục, $9$ đơn vị là $6209$.
 
-::sa
+::sa TH
 Số liền trước của $10\,000$ là số nào?
 ::key 9999
 $10\,000-1=9999$.

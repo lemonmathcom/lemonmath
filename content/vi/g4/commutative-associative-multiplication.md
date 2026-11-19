@@ -353,7 +353,7 @@ $$\begin{aligned} 25\times36 &= 25\times(4\times9) \\ &= (25\times4)\times9 \\ &
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Biết $a\times7=7\times9$. Giá trị của $a$ là
 A. $16$.
 B. $7$.
@@ -362,7 +362,7 @@ D. $9$.
 ::key D
 Theo tính chất giao hoán, $7\times9=9\times7$ nên $a=9$. Phương án C là tích $7\times9$, phương án A là tổng $7+9$.
 
-::mc
+::mc TH
 Giá trị của $4\times63\times25$ là
 A. $6\,300$.
 B. $1\,575$.
@@ -371,7 +371,7 @@ D. $25\,200$.
 ::key A
 $4\times63\times25=(4\times25)\times63=100\times63=6\,300$. Phương án C thiếu một chữ số $0$, phương án B là $63\times25$, phương án D là $252\times100$.
 
-::mc
+::mc TH
 Giá trị của $7\times(20+3)$ là
 A. $143$.
 B. $161$.
@@ -380,7 +380,7 @@ D. $140$.
 ::key B
 $7\times(20+3)=7\times20+7\times3=140+21=161$. Phương án A chỉ nhân $7$ với số hạng đầu rồi cộng $3$, phương án D quên nhân số hạng thứ hai.
 
-::mc
+::mc TH
 Biểu thức nào dưới đây bằng $9\times4+9\times6$?
 A. $9\times(4\times6)$.
 B. $9+(4+6)$.
@@ -389,7 +389,7 @@ D. $(9+4)\times6$.
 ::key C
 Đặt thừa số chung $9$ ra ngoài: $9\times4+9\times6=9\times(4+6)$.
 
-::tf
+::tf NB TH TH TH
 Em xét các đẳng thức sau.
 a) $(3\times4)\times5=3\times(4\times5)$.
 b) $5\times(2+3)=5\times2+3$.
@@ -398,12 +398,12 @@ d) $6\times(4\times5)=6\times4+6\times5$.
 ::key Đ S Đ S
 a) Đúng: tính chất kết hợp, cả hai vế bằng $60$. b) Sai: $5\times(2+3)=25$, còn $5\times2+3=13$. c) Đúng: $25\times4=100$. d) Sai: $6\times(4\times5)=120$, còn $6\times4+6\times5=54$.
 
-::sa
+::sa TH
 Tính $25\times8\times4$.
 ::key 800
 $25\times8\times4=(25\times4)\times8=100\times8=800$.
 
-::sa
+::sa VD
 Tính nhanh $54\times7+54\times3$.
 ::key 540
 $54\times7+54\times3=54\times(7+3)=54\times10=540$.

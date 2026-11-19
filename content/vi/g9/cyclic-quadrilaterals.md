@@ -350,7 +350,7 @@ Vậy $ABCD$ là hình thang cân có diện tích $289$ cm².
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Tứ giác $ABCD$ nội tiếp đường tròn có $\widehat{A}=65^\circ$. Số đo $\widehat{C}$ là
 A. $65^\circ$.
 B. $115^\circ$.
@@ -359,7 +359,7 @@ D. $295^\circ$.
 ::key B
 $\widehat{A}+\widehat{C}=180^\circ$. A cho rằng hai góc đối bằng nhau, C lấy phần bù $90^\circ$, D lấy $360^\circ-65^\circ$.
 
-::mc
+::mc TH
 Tứ giác nào sau đây luôn nội tiếp được đường tròn?
 A. Hình thoi.
 B. Hình bình hành.
@@ -368,7 +368,7 @@ D. Hình thang.
 ::key C
 Hình chữ nhật có hai góc đối cùng bằng $90^\circ$. Hình thoi, hình bình hành chỉ nội tiếp được khi là hình vuông, hình chữ nhật; hình thang phải cân.
 
-::mc
+::mc VD
 Hình chữ nhật có hai cạnh $5$ cm và $12$ cm nội tiếp đường tròn có bán kính là
 A. $13$ cm.
 B. $8{,}5$ cm.
@@ -377,7 +377,7 @@ D. $6{,}5$ cm.
 ::key D
 Đường chéo $13$ cm, bán kính bằng nửa đường chéo. A lấy cả đường chéo, B lấy nửa tổng hai cạnh, C chia đường chéo cho $4$.
 
-::mc
+::mc TH
 Tứ giác $ABCD$ nội tiếp đường tròn có $\widehat{B}=2\widehat{D}$. Số đo $\widehat{D}$ là
 A. $60^\circ$.
 B. $120^\circ$.
@@ -386,7 +386,7 @@ D. $30^\circ$.
 ::key A
 $3\widehat{D}=180^\circ$ nên $\widehat{D}=60^\circ$. B là $\widehat{B}$, C coi $\widehat{B}=\widehat{D}$, D nhầm tổng hai góc đối là $90^\circ$.
 
-::tf
+::tf TH TH TH VD
 Cho tam giác $ABC$ có ba góc nhọn, hai đường cao $BE$, $CF$ cắt nhau tại $H$. Xét tính đúng sai của các mệnh đề sau:
 a) Tứ giác $AEHF$ nội tiếp.
 b) Tứ giác $BCEF$ nội tiếp.
@@ -395,12 +395,12 @@ d) $\widehat{AEF}+\widehat{ABC}=180^\circ$.
 ::key Đ Đ Đ S
 a) Đúng: hai góc đối vuông. b), c) Đúng: $E$, $F$ nhìn $BC$ dưới góc vuông. d) Sai: vì $BCEF$ nội tiếp nên $\widehat{AEF}=\widehat{ABC}$ (cùng bù với $\widehat{FEC}$), do đó tổng bằng $2\widehat{ABC}<180^\circ$ (tam giác nhọn).
 
-::sa
+::sa VD
 Tính bán kính (đơn vị: cm) đường tròn ngoại tiếp hình vuông cạnh $6$ cm (làm tròn kết quả đến hàng phần trăm).
 ::key 4,24
 Đường chéo $6\sqrt2$ cm, nên $R=3\sqrt2\approx4{,}24$ cm.
 
-::sa
+::sa TH
 Tứ giác $ABCD$ nội tiếp đường tròn có $\widehat{A}=3\widehat{C}$. Tính số đo (đơn vị: độ) của $\widehat{A}$.
 ::key 135
 $4\widehat{C}=180^\circ$ nên $\widehat{C}=45^\circ$, $\widehat{A}=135^\circ$.

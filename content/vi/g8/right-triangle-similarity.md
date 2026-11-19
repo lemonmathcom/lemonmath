@@ -369,7 +369,7 @@ Ta có $\triangle HBA\backsim\triangle ABC$ nên $\dfrac{HA}{AC}=\dfrac{BA}{BC}$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Cho tam giác $ABC$ vuông tại $A$ có $\widehat{B}=40^\circ$ và tam giác $DEF$ vuông tại $D$ có $\widehat{E}=50^\circ$. Khẳng định nào sau đây đúng?
 A. $\triangle ABC\backsim\triangle DEF$.
 B. $\triangle ABC\backsim\triangle EDF$.
@@ -378,7 +378,7 @@ D. Hai tam giác không đồng dạng.
 ::key C
 $\widehat{C}=50^\circ=\widehat{E}$ và $\widehat{B}=40^\circ=\widehat{F}$, nên $A\leftrightarrow D$, $B\leftrightarrow F$, $C\leftrightarrow E$. Phương án A ghép sai $B$ với $E$; phương án D cho rằng phải trùng tên góc.
 
-::mc
+::mc VD
 Cho tam giác $ABC$ vuông tại $A$ có $AB=6$, $BC=10$ và tam giác $MNP$ vuông tại $M$ có $MN=9$, $NP=15$. Độ dài $MP$ bằng
 A. $8$.
 B. $13$.
@@ -387,7 +387,7 @@ D. $12$.
 ::key D
 $AC=8$ và tỉ số đồng dạng là $\dfrac{15}{10}=\dfrac32$, nên $MP=\dfrac32\cdot8=12$. Phương án A giữ nguyên $AC$, B cộng thêm hiệu $15-10=5$, C nhân đôi $9$.
 
-::mc
+::mc VD
 Cho tam giác $ABC$ vuông tại $A$ có $AB=3$, $BC=5$ và tam giác $DEF$ vuông tại $D$ có $DE=12$, $EF=20$. Độ dài $DF$ bằng
 A. $16$.
 B. $4$.
@@ -396,7 +396,7 @@ D. $\sqrt{544}$.
 ::key A
 Tỉ số là $\dfrac{20}{5}=\dfrac{12}{3}=4$ và $AC=4$, nên $DF=4\cdot4=16$. Phương án B giữ nguyên $AC$, C lấy $EF-DE$, D cộng bình phương hai cạnh thay vì trừ.
 
-::mc
+::mc VD
 Cho tam giác $ABC$ vuông tại $A$ có $AB=6$, $AC=8$ và đường cao $AH$. Độ dài $BH$ bằng
 A. $4{,}8$.
 B. $3{,}6$.
@@ -405,7 +405,7 @@ D. $5$.
 ::key B
 $BC=10$ và $\triangle HBA\backsim\triangle ABC$ cho $BH=\dfrac{AB^2}{BC}=\dfrac{36}{10}=3{,}6$. Phương án A là $AH$, C là $CH$.
 
-::tf
+::tf TH VD VD VD
 Cho tam giác $ABC$ vuông tại $A$ có $AB=9$, $AC=12$ và đường cao $AH$. Xét tính đúng sai của các mệnh đề sau:
 a) $\triangle HBA\backsim\triangle ACB$.
 b) $BH=5{,}4$.
@@ -414,12 +414,12 @@ d) $CH=8{,}4$.
 ::key S Đ Đ S
 a) Sai: đúng phải là $\triangle HBA\backsim\triangle ABC$ (ghép $H\leftrightarrow A$, $B\leftrightarrow B$, $A\leftrightarrow C$). b) Đúng: $BC=15$, $BH=\dfrac{81}{15}=5{,}4$. c) Đúng: $AH=\dfrac{9\cdot12}{15}=7{,}2$. d) Sai: $CH=15-5{,}4=9{,}6$.
 
-::sa
+::sa VD
 Cho tam giác $ABC$ vuông tại $A$ có $AB=8$, $BC=17$ và tam giác $DEF$ vuông tại $D$ có $DE=24$, $EF=51$. Tính chu vi tam giác $DEF$.
 ::key 120
 $AC=\sqrt{17^2-8^2}=15$, tỉ số đồng dạng là $\dfrac{51}{17}=3$ nên $DF=45$. Chu vi là $24+51+45=120$.
 
-::sa
+::sa VD
 Nam đứng cách chân một cột cờ $12$ m, mắt cách mặt đất $1{,}5$ m và nhìn thấy đỉnh cột dưới góc $45^\circ$ so với phương nằm ngang. Tính chiều cao của cột cờ (đơn vị: mét).
 ::key 13,5
 Tam giác vuông có góc nhọn $45^\circ$ là tam giác vuông cân nên phần cột phía trên tầm mắt cao $12$ m. Chiều cao cột là $12+1{,}5=13{,}5$.

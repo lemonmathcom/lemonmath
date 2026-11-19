@@ -319,7 +319,7 @@ Line $k$: $m_k=\dfrac{8-2}{3-0}=2$, so $y=2x+2$. Line $m$: $y=-\dfrac12x+b$ with
 :::
 
 :::quiz
-::mc
+::mc TH
 What is the slope of the line through the points $(-1, 2)$ and $(3, 10)$?
 A. $\dfrac12$
 B. $2$
@@ -328,7 +328,7 @@ D. $8$
 ::key B
 $\dfrac{10-2}{3-(-1)}=\dfrac84=2$. Option A is the reciprocal; option D is only the change in $y$.
 
-::mc
+::mc TH
 A line is perpendicular to the line $y=-4x+9$. What is its slope?
 A. $-4$
 B. $4$
@@ -337,7 +337,7 @@ D. $-\dfrac14$
 ::key C
 The negative reciprocal of $-4$ is $\dfrac14$, since $-4\cdot\dfrac14=-1$.
 
-::mc
+::mc TH
 Which of the following describes all solutions of $-2x\ge8$?
 A. $x\le-4$
 B. $x\ge-4$
@@ -346,7 +346,7 @@ D. $x\ge-16$
 ::key A
 Dividing by $-2$ reverses the sign: $x\le-4$.
 
-::mc
+::mc TH
 The cost, in dollars, of renting a bike for $d$ days is $F=30+8d$. By how many dollars does the cost increase for each additional day?
 A. $30$
 B. $38$
@@ -355,7 +355,7 @@ D. $8$
 ::key D
 The rate of change is the number multiplied by $d$, which is $8$. Option A is the fixed fee; option B is the cost of one day.
 
-::tf
+::tf NB TH TH NB
 The function $f$ is defined by $f(x)=-2x+6$.
 a) The graph of $f$ crosses the $y$-axis at $(0, 6)$.
 b) The $x$-intercept of the graph is $3$.
@@ -364,12 +364,12 @@ d) $f(5)=-4$.
 ::key T T F T
 a) True: $b=6$. b) True: $-2x+6=0$ gives $x=3$. c) False: the slope is negative. d) True: $-10+6=-4$.
 
-::sa
+::sa VD
 The function $f$ is linear, with $f(0)=5$ and $f(3)=17$. What is the value of $f(6)$?
 ::key 29
 The slope is $\dfrac{17-5}{3}=4$, so $f(6)=17+3\cdot4=29$.
 
-::sa
+::sa TH
 What is the least integer $x$ that satisfies $4x-7>21$?
 ::key 8
 $4x>28\iff x>7$, and the least integer greater than $7$ is $8$.

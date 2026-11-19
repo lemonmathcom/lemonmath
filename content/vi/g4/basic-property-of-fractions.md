@@ -251,7 +251,7 @@ $\dfrac{3}{4}=\dfrac{3\times5}{4\times5}=\dfrac{15}{20}$ nên $a=15$. $\dfrac{3}
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tìm số thích hợp: $\dfrac{2}{3}=\dfrac{?}{12}$.
 A. $4$.
 B. $8$.
@@ -260,7 +260,7 @@ D. $14$.
 ::key B
 $3\times4=12$ nên $2\times4=8$. Phương án C là lỗi cộng thêm $3$ vào $2$.
 
-::mc
+::mc TH
 Tìm số thích hợp: $\dfrac{6}{9}=\dfrac{?}{3}$.
 A. $2$.
 B. $3$.
@@ -269,7 +269,7 @@ D. $1$.
 ::key A
 $9:3=3$ nên $6:3=2$. Phương án C là lỗi giữ nguyên tử số.
 
-::mc
+::mc TH
 Phân số nào bằng $\dfrac{1}{2}$?
 A. $\dfrac{2}{3}$.
 B. $\dfrac{3}{6}$.
@@ -278,7 +278,7 @@ D. $\dfrac{1}{4}$.
 ::key B
 $\dfrac{3}{6}=\dfrac{3:3}{6:3}=\dfrac{1}{2}$. Phương án A có tử số gấp đôi nhưng mẫu số không gấp đôi.
 
-::mc
+::mc TH
 Tìm số thích hợp: $\dfrac{3}{5}=\dfrac{9}{?}$.
 A. $8$.
 B. $12$.
@@ -287,7 +287,7 @@ D. $14$.
 ::key C
 $3\times3=9$ nên $5\times3=15$. Phương án A là lỗi cộng thêm $3$ vào $5$.
 
-::tf
+::tf TH TH TH TH
 Em xét các phân số.
 a) $\dfrac{1}{2}=\dfrac{2}{4}$.
 b) $\dfrac{1}{3}=\dfrac{2}{6}$.
@@ -296,12 +296,12 @@ d) $\dfrac{4}{8}=\dfrac{1}{2}$.
 ::key Đ Đ S Đ
 a) Đúng: nhân với $2$. b) Đúng: nhân với $2$. c) Sai: tử số nhân $1{,}5$ mà mẫu số không nhân với số tự nhiên đó. d) Đúng: chia cho $4$.
 
-::sa
+::sa TH
 Tìm số thích hợp: $\dfrac{4}{5}=\dfrac{?}{20}$.
 ::key 16
 $5\times4=20$ nên $4\times4=16$.
 
-::sa
+::sa TH
 Tìm số thích hợp: $\dfrac{15}{20}=\dfrac{?}{4}$.
 ::key 3
 $20:5=4$ nên $15:5=3$.

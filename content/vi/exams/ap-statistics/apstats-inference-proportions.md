@@ -282,7 +282,7 @@ Vậy có thể đã mắc sai lầm loại II, và tăng $n$ hoặc tăng $\alp
 :::
 
 :::quiz
-::mc
+::mc NB
 Giá trị tới hạn nào dùng cho khoảng tin cậy $95\%$ của một tỉ lệ?
 A. $1{,}645$
 B. $2{,}576$
@@ -291,7 +291,7 @@ D. $0{,}95$
 ::key C
 $95\%$ diện tích của phân phối chuẩn tắc nằm giữa $-1{,}96$ và $1{,}96$.
 
-::mc
+::mc TH
 Giả thuyết không nào viết đúng?
 A. $H_0:p=0{,}4$
 B. $H_0:\hat p=0{,}4$
@@ -300,7 +300,7 @@ D. $H_0:\hat p>0{,}4$
 ::key A
 Giả thuyết nói về tham số, và $H_0$ là đẳng thức.
 
-::mc
+::mc NB
 Sai lầm loại I xảy ra khi ta
 A. không bác bỏ một $H_0$ sai
 B. bác bỏ một $H_0$ đúng
@@ -309,7 +309,7 @@ D. dùng sai cỡ mẫu
 ::key B
 Xác suất của nó là $\alpha$.
 
-::mc
+::mc TH
 Giá trị P bằng $0{,}002$ nghĩa là
 A. có $0{,}2\%$ khả năng $H_0$ đúng
 B. $H_a$ đúng với xác suất $0{,}998$
@@ -318,7 +318,7 @@ D. nếu $H_0$ đúng, kết quả cực đoan như vậy chỉ xảy ra khoản
 ::key D
 Giá trị P được tính khi giả sử $H_0$ đúng.
 
-::tf
+::tf TH TH TH TH
 Một khoảng tin cậy $95\%$ cho $p$ là $(0{,}42;\ 0{,}50)$. Xét tính đúng sai của các mệnh đề sau:
 a) Tỉ lệ mẫu là $0{,}46$.
 b) Sai số biên là $0{,}04$.
@@ -327,12 +327,12 @@ d) Khoảng tin cậy $99\%$ từ cùng dữ liệu sẽ rộng hơn.
 ::key T T F T
 $0{,}55$ nằm ngoài khoảng.
 
-::sa
+::sa TH
 Một khoảng tin cậy $95\%$ cho $p$ là $(0{,}31;\ 0{,}39)$. Tìm sai số biên.
 ::key 0,04
 Một nửa độ rộng: $\dfrac{0{,}39-0{,}31}{2}$.
 
-::sa
+::sa TH
 Phải tăng $n$ lên bao nhiêu lần để sai số biên giảm một nửa?
 ::key 4
 Sai số biên tỉ lệ với $\dfrac{1}{\sqrt n}$.

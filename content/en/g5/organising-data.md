@@ -269,7 +269,7 @@ Badminton and swimming together: $30-11-4=15$ (children). Swimming: $(15-3)\div2
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which list is in ascending order?
 A. $48, 40, 84, 80$.
 B. $84, 80, 48, 40$.
@@ -278,7 +278,7 @@ D. $40, 48, 80, 84$.
 ::key D
 Ascending means smallest to largest: $40<48<80<84$. Option B is descending order.
 
-::mc
+::mc NB
 Which number does the tally ///// /// show?
 A. $8$.
 B. $5$.
@@ -287,7 +287,7 @@ D. $3$.
 ::key A
 One full group of $5$ strokes and $3$ more strokes: $5+3=8$. Option B forgets the group of $3$, and option D forgets the group of $5$.
 
-::mc
+::mc TH
 The teacher asks $20$ children which lesson they like best: Maths $6$ children, English $5$, Science $4$, and the rest like PE. How many children like PE?
 A. $15$.
 B. $5$.
@@ -296,7 +296,7 @@ D. $4$.
 ::key B
 The first three lessons have $6+5+4=15$ children, so PE has $20-15=5$. Option A is the number for the first three lessons, not yet taken away from $20$.
 
-::mc
+::mc TH
 Which list is in descending order?
 A. $0.9,\ 0.8,\ 0.85,\ 0.75$.
 B. $0.75,\ 0.8,\ 0.85,\ 0.9$.
@@ -305,7 +305,7 @@ D. $0.85,\ 0.9,\ 0.8,\ 0.75$.
 ::key C
 We have $0.9>0.85>0.8>0.75$. Option B is ascending; option A puts $0.8$ before $0.85$, which is wrong.
 
-::tf
+::tf NB TH NB TH
 The number of books four children read in a month: Lan $8$, Mai $12$, Nam $5$, Hung $12$.
 a) Mai and Hung read the most books.
 b) The four children read $36$ books altogether.
@@ -314,12 +314,12 @@ d) Nam read $4$ fewer books than Lan.
 ::key T F T F
 a) True: the largest number is $12$. b) False: $8+12+5+12=37$. c) True: $5<8<12=12$. d) False: $8-5=3$.
 
-::sa
+::sa TH
 A shop sold $45$ cakes on the first day, $38$ on the second day and $52$ on the third day. How many cakes did it sell altogether?
 ::key 135
 $45+38+52=135$ (cakes).
 
-::sa
+::sa TH
 The test scores of $5$ children are $36, 29, 41, 33, 38$. In ascending order, which number is in second place?
 ::key 33
 In ascending order: $29, 33, 36, 38, 41$. The second number is $33$.

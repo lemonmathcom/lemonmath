@@ -403,7 +403,7 @@ So the equation has infinitely many solutions: every real number is a solution.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of these is a linear equation in one unknown?
 A. $x^2-4=0$.
 B. $0x+5=0$.
@@ -412,7 +412,7 @@ D. $\dfrac1x=2$.
 ::key C
 $2x-3=0$ has the form $ax+b=0$ with $a=2\neq0$. A has a squared unknown, B has $a=0$, D has the unknown in a denominator.
 
-::mc
+::mc TH
 The solution of $3x-9=0$ is
 A. $-3$.
 B. $9$.
@@ -421,7 +421,7 @@ D. $3$.
 ::key D
 $3x=9$, so $x=3$. A has the wrong sign, B forgets to divide by $3$, C uses $\dfrac{1}{3}$ instead of $\dfrac{9}{3}$.
 
-::mc
+::mc TH
 The solution of $5x-2=3x+6$ is
 A. $4$.
 B. $2$.
@@ -430,7 +430,7 @@ D. $-4$.
 ::key A
 $5x-3x=6+2$, so $2x=8$ and $x=4$. B and C forget to divide by $2$ or divide wrongly, D has the wrong sign.
 
-::mc
+::mc VD
 The solution of $\dfrac{x+1}{2}=\dfrac{x-1}{3}$ is
 A. $5$.
 B. $-5$.
@@ -439,7 +439,7 @@ D. $-\dfrac15$.
 ::key B
 Multiply both sides by $6$: $3(x+1)=2(x-1)$, that is $3x+3=2x-2$, so $x=-5$. A has the wrong sign; B and D divide incorrectly.
 
-::tf
+::tf NB TH TH TH
 Consider the equation $2(x+1)=2x+5$. Decide whether each statement is true or false.
 a) After removing brackets we get $2x+2=2x+5$.
 b) The equation has exactly one solution.
@@ -448,12 +448,12 @@ d) The equation $3(x-1)=3x-3$ has infinitely many solutions.
 ::key T F T T
 a) True. b) False: collecting terms gives $0x=3$, so there is no solution. c) True: $0x=3$ has no solution. d) True: collecting terms gives $0x=0$, true for every $x$.
 
-::sa
+::sa TH
 What is the solution of $4x-1=1$?
 ::key 0.5
 $4x=2$, so $x=0.5$.
 
-::sa
+::sa VD
 A taxi charges a starting fee of $12\,000$ dong plus $14\,000$ dong per kilometre. A passenger pays $96\,000$ dong. How many kilometres did the passenger travel?
 ::key 6
 $14\,000x+12\,000=96\,000$, so $x=6$.

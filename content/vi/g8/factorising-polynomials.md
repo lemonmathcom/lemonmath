@@ -463,7 +463,7 @@ Vậy $n^3-n$ chia hết cho $6$ với mọi số nguyên $n$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Phân tích $6x^2-9x$ thành nhân tử được
 A. $3(2x^2-3x)$.
 B. $3x(2x-3)$.
@@ -472,7 +472,7 @@ D. $3x(2x+3)$.
 ::key B
 Nhân tử chung là $3x$: $6x^2-9x=3x(2x-3)$. A đặt nhân tử chung chưa đầy đủ, D sai dấu, C chia sai hạng tử thứ hai.
 
-::mc
+::mc TH
 Phân tích $4x^2-9$ thành nhân tử được
 A. $(2x-3)^2$.
 B. $(4x-3)(x+3)$.
@@ -481,7 +481,7 @@ D. $(2x+3)^2$.
 ::key C
 $4x^2-9=(2x)^2-3^2=(2x-3)(2x+3)$. A và D là bình phương của một hiệu hoặc một tổng (có hạng tử $\pm12x$), B không đúng khi nhân lại.
 
-::mc
+::mc TH
 Phân tích $x^3-8$ thành nhân tử được
 A. $(x-2)(x^2+4)$.
 B. $(x-2)^3$.
@@ -490,7 +490,7 @@ D. $(x-2)(x^2+2x+4)$.
 ::key D
 $x^3-8=x^3-2^3=(x-2)(x^2+2x+4)$. B có bốn hạng tử khi khai triển, C sai dấu hạng tử giữa, A thiếu hạng tử $2x$.
 
-::mc
+::mc VD
 Phân tích $xy+2x+3y+6$ thành nhân tử được
 A. $(x+3)(y+2)$.
 B. $(x+2)(y+6)$.
@@ -499,7 +499,7 @@ D. $x(y+2)+6$.
 ::key A
 $xy+2x+3y+6=x(y+2)+3(y+2)=(x+3)(y+2)$. A và C cho hạng tử sai khi nhân lại, D chưa phải là tích.
 
-::tf
+::tf NB TH TH TH
 Xét đa thức $2x^2-8$.
 a) $2x^2-8=2(x^2-4)$.
 b) $2x^2-8=2(x-2)^2$.
@@ -508,12 +508,12 @@ d) Giá trị của $2x^2-8$ tại $x=3$ bằng $10$.
 ::key Đ S Đ Đ
 a) Đúng: đặt nhân tử chung $2$. b) Sai: $2(x-2)^2=2x^2-8x+8$. c) Đúng: $x^2-4=(x-2)(x+2)$. d) Đúng: $18-8=10$ và $2\cdot1\cdot5=10$.
 
-::sa
+::sa VD
 Tính nhanh $65^2-35^2$.
 ::key 3000
 $65^2-35^2=(65-35)(65+35)=30\cdot100=3000$.
 
-::sa
+::sa TH
 Cho $x+y=5$ và $x-y=3$. Tính $x^2-y^2$.
 ::key 15
 $x^2-y^2=(x-y)(x+y)=3\cdot5=15$.

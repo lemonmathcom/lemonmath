@@ -390,7 +390,7 @@ So $a^2+b^2+2\ge2(a+b)$ for all numbers $a$, $b$; equality holds when $a=b=1$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 "$x$ does not exceed $5$" is written
 A. $x<5$.
 B. $x\le5$.
@@ -399,7 +399,7 @@ D. $x>5$.
 ::key B
 "Does not exceed" allows $x=5$. A leaves out the case of equality; C and D point the wrong way.
 
-::mc
+::mc TH
 Suppose $a<b$. Which statement is true?
 A. $-2a<-2b$.
 B. $a-3>b-3$.
@@ -408,7 +408,7 @@ D. $-a<-b$.
 ::key C
 Multiplying by $3>0$ keeps the direction. A and D forget to reverse when multiplying by a negative number; B reverses wrongly when subtracting.
 
-::mc
+::mc TH
 Suppose $a>b$. Compare $1-4a$ and $1-4b$.
 A. $1-4a<1-4b$.
 B. $1-4a>1-4b$.
@@ -417,7 +417,7 @@ D. They cannot be compared.
 ::key A
 $-4a<-4b$ (reversed), and adding $1$ gives $1-4a<1-4b$. B forgets to reverse.
 
-::mc
+::mc TH
 Which statement is true for **all** numbers $a$, $b$?
 A. If $a<b$, then $a^2<b^2$.
 B. If $a<b$, then $-a<-b$.
@@ -426,7 +426,7 @@ D. $a^2+1>0$.
 ::key D
 $a^2\ge0$, so $a^2+1\ge1>0$. A fails for $a=-3$, $b=1$; C fails for $a=-1$; B forgets to reverse.
 
-::tf
+::tf NB TH TH TH
 Suppose $a>b$.
 a) $a+2>b+2$.
 b) $-5a>-5b$.
@@ -435,12 +435,12 @@ d) $a^2>b^2$.
 ::key T F T F
 a) True: adding keeps the direction. b) False: multiplying by $-5$ reverses the sign. c) True: add $-b$ to both sides. d) False: for example $1>-3$ but $1<9$.
 
-::sa
+::sa TH
 How many integers $x$ satisfy $-3<x\le2$?
 ::key 5
 They are $-2$, $-1$, $0$, $1$, $2$ ($-3$ is excluded, $2$ is included).
 
-::sa
+::sa VD
 Find the least value of the expression $(x-3)^2+4$.
 ::key 4
 $(x-3)^2\ge0$, so the expression is $\ge4$, and it equals $4$ when $x=3$.

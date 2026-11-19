@@ -388,7 +388,7 @@ $96\,000$ out of $100\,000$ as a percentage is $96\,000\div100\,000=0.96=96\%$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The ratio of $50$ cm to $2$ m is
 A. $50:2$.
 B. $1:40$.
@@ -397,7 +397,7 @@ D. $1:4$.
 ::key D
 $2$ m $=200$ cm, so the ratio is $50:200=1:4$. Option A does not change units; C inverts the ratio; D simplifies wrongly.
 
-::mc
+::mc TH
 $24$ as a percentage of $40$ is
 A. $60\%$.
 B. $6\%$.
@@ -406,7 +406,7 @@ D. $166.7\%$.
 ::key A
 $24\div40=0.6=60\%$. Option C forgets to multiply by $100$; B multiplies only by $10$; D is $40$ as a percentage of $24$.
 
-::mc
+::mc TH
 $20\%$ of $80$ is
 A. $1600$.
 B. $16$.
@@ -415,7 +415,7 @@ D. $100$.
 ::key B
 $80\times20\div100=16$. Option A forgets to divide by $100$; C is $80\div20$; D is $80+20$.
 
-::mc
+::mc TH
 On a map with scale $1:1\,000\,000$, a road $7$ cm long on the map stands for a real road
 A. $7$ km long.
 B. $700$ km long.
@@ -424,7 +424,7 @@ D. $7000$ km long.
 ::key C
 $7\times1\,000\,000=7\,000\,000$ cm $=70$ km. Options A, B and D change the units from centimetres to kilometres wrongly.
 
-::tf
+::tf TH TH TH VD
 A map has scale $1:500\,000$.
 a) $1$ cm on the map stands for $500\,000$ km in real life.
 b) $1$ cm on the map stands for $5$ km in real life.
@@ -433,12 +433,12 @@ d) A real road of $10$ km is drawn $20$ cm long on the map.
 ::key F T T F
 a) False: $500\,000$ cm $=5$ km. b) True. c) True: $4\times5=20$ km. d) False: $10$ km $=1\,000\,000$ cm, and dividing by $500\,000$ gives $2$ cm.
 
-::sa
+::sa TH
 $9$ is what percentage of $12$?
 ::key 75
 $9\div12=0.75=75\%$.
 
-::sa
+::sa VD
 Find the number such that $40\%$ of it is $18$.
 ::key 45
 $18\div40\times100=45$.

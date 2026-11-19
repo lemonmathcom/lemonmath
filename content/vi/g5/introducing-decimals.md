@@ -362,7 +362,7 @@ Các số cần tìm có dạng $0{,}3a$ với hàng phần mười là $3$. Vì
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Số thập phân gồm $7$ đơn vị, $0$ phần mười và $6$ phần trăm viết là
 A. $7{,}6$.
 B. $70{,}6$.
@@ -371,7 +371,7 @@ D. $7{,}006$.
 ::key C
 Hàng phần mười là $0$, hàng phần trăm là $6$ nên số đó là $7{,}06$. Phương án A bỏ chữ số $0$; C coi $7$ ở hàng chục; D đặt $6$ ở hàng phần nghìn.
 
-::mc
+::mc NB
 Giá trị của chữ số $8$ trong số $25{,}184$ là
 A. $8$.
 B. $0{,}8$.
@@ -380,7 +380,7 @@ D. $0{,}08$.
 ::key D
 Trong $25{,}184$, chữ số $1$ ở hàng phần mười, chữ số $8$ ở hàng phần trăm, nên giá trị là $0{,}08$. Phương án B coi $8$ ở hàng phần mười; C coi $8$ ở hàng phần nghìn.
 
-::mc
+::mc TH
 Số lớn nhất trong các số $4{,}9$; $4{,}19$; $4{,}09$; $3{,}99$ là
 A. $4{,}9$.
 B. $4{,}19$.
@@ -389,7 +389,7 @@ D. $3{,}99$.
 ::key A
 Số $3{,}99$ có phần nguyên bé nhất. Với ba số còn lại, hàng phần mười là $9$, $1$, $0$, nên $4{,}9$ lớn nhất. Phương án B cho rằng $19>9$; C chỉ nhìn chữ số $9$ ở cuối; D chỉ nhìn phần thập phân.
 
-::mc
+::mc TH
 Bốn bạn chạy $100$ m với thời gian: Hà $12{,}8$ giây, Lan $12{,}75$ giây, Mai $12{,}08$ giây, Ngọc $12{,}5$ giây. Bạn chạy nhanh nhất là
 A. Hà.
 B. Mai.
@@ -398,7 +398,7 @@ D. Ngọc.
 ::key B
 Thời gian ít nhất là $12{,}08$ giây, nên Mai nhanh nhất. Phương án A chọn bạn chậm nhất; B chọn số có nhiều chữ số hơn hoặc nhìn nhầm; D so sánh phần thập phân như số tự nhiên ($5<8<75$).
 
-::tf
+::tf NB NB TH TH
 Em xét số thập phân $40{,}605$.
 a) Chữ số $6$ ở hàng phần mười.
 b) Chữ số $5$ có giá trị $0{,}5$.
@@ -407,12 +407,12 @@ d) $40{,}605<40{,}65$.
 ::key Đ S S Đ
 a) Đúng: sau dấu phẩy, chữ số $6$ ở hàng phần mười. b) Sai: chữ số $5$ ở hàng phần nghìn, giá trị $0{,}005$. c) Sai: không được bỏ chữ số $0$ ở giữa; $40{,}65=40{,}650$. d) Đúng: $40{,}605<40{,}650$ vì ở hàng phần trăm $0<5$.
 
-::sa
+::sa VD
 Có bao nhiêu số thập phân có một chữ số ở phần thập phân, lớn hơn $2{,}3$ và bé hơn $2{,}8$?
 ::key 4
 Đó là các số $2{,}4$; $2{,}5$; $2{,}6$; $2{,}7$.
 
-::sa
+::sa TH
 Số?  $\dfrac{3}{4}=\dfrac{?}{100}$.
 ::key 75
 $\dfrac{3\times25}{4\times25}=\dfrac{75}{100}$.

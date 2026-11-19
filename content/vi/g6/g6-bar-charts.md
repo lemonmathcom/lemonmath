@@ -618,7 +618,7 @@ Vậy trung bình mỗi câu lạc bộ có khoảng $16$ học sinh; câu lạc
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Theo biểu đồ "Số học sinh tham gia các câu lạc bộ của trường", câu lạc bộ có nhiều học sinh nhất là
 A. Tiếng Anh.
 B. Toán.
@@ -627,7 +627,7 @@ D. Âm nhạc.
 ::key C
 Cột Bóng đá cao nhất, $24$ học sinh.
 
-::mc
+::mc NB
 Theo biểu đồ trên, câu lạc bộ Mĩ thuật có bao nhiêu học sinh?
 A. $9$.
 B. $3$.
@@ -636,7 +636,7 @@ D. $15$.
 ::key A
 Số liệu trên đầu cột Mĩ thuật là $9$. B đọc chiều cao cột theo ô vẽ mà quên khoảng chia; C và D là số liệu của cột bên cạnh.
 
-::mc
+::mc TH
 Theo biểu đồ "Môn thể thao yêu thích của học sinh hai lớp 6A và 6B", môn mà lớp 6B có nhiều bạn yêu thích hơn lớp 6A là
 A. Bóng đá.
 B. Cầu lông.
@@ -645,7 +645,7 @@ D. Không có môn nào.
 ::key B
 Cầu lông: 6B có $14$, 6A có $10$. Ở bóng đá và bóng rổ, 6A nhiều hơn.
 
-::mc
+::mc NB
 Biểu đồ cột kép thường được dùng để
 A. biểu diễn một bộ dữ liệu duy nhất.
 B. thay cho biểu đồ tranh khi số liệu nhỏ.
@@ -654,7 +654,7 @@ D. so sánh hai bộ dữ liệu về cùng các đối tượng.
 ::key D
 Mỗi đối tượng có hai cột cạnh nhau để so sánh hai bộ dữ liệu.
 
-::tf
+::tf NB TH TH TH
 Theo biểu đồ "Môn thể thao yêu thích của học sinh hai lớp 6A và 6B". Xét tính đúng sai của các mệnh đề sau:
 a) Lớp 6B có $15$ bạn thích bóng đá.
 b) Lớp 6B có nhiều bạn thích bơi hơn lớp 6A.
@@ -663,12 +663,12 @@ d) Ở môn bóng rổ, lớp 6A nhiều hơn lớp 6B $4$ bạn.
 ::key S Đ S Đ
 a) Sai: 6B có $12$ bạn, $15$ là của 6A. b) Đúng: $8>5$. c) Sai: $10+14=24$. d) Đúng: $10-6=4$.
 
-::sa
+::sa TH
 Theo biểu đồ "Số học sinh tham gia các câu lạc bộ của trường", có tất cả bao nhiêu lượt học sinh tham gia năm câu lạc bộ?
 ::key 78
 $12+18+24+9+15=78$.
 
-::sa
+::sa TH
 Theo biểu đồ "Môn thể thao yêu thích của học sinh hai lớp 6A và 6B", có tất cả bao nhiêu bạn của hai lớp thích bóng đá?
 ::key 27
 $15+12=27$.

@@ -297,7 +297,7 @@ Vậy xác suất có ít nhất một lần ra mặt $6$ là $\dfrac{671}{1296}
 :::
 
 :::quiz
-::mc
+::mc NB
 Mốt của $2, 3, 3, 5, 7, 7, 7$ là
 A. $3$
 B. $5$
@@ -306,7 +306,7 @@ D. $4$
 ::key C
 $7$ xuất hiện ba lần, nhiều hơn mọi giá trị khác.
 
-::mc
+::mc NB
 Một vòng quay có $8$ ô bằng nhau, trong đó $3$ ô màu xanh. Xác suất kim dừng ở ô xanh là
 A. $\dfrac38$
 B. $\dfrac35$
@@ -315,7 +315,7 @@ D. $\dfrac13$
 ::key A
 Có $3$ ô thuận lợi trong $8$ ô.
 
-::mc
+::mc NB
 Có bao nhiêu cách xếp $5$ quyển sách khác nhau lên một giá?
 A. $25$
 B. $60$
@@ -324,7 +324,7 @@ D. $120$
 ::key D
 $5!=120$.
 
-::mc
+::mc NB
 Số trung bình của $2, 4, 6, 8, 10$ là
 A. $5$
 B. $6$
@@ -333,7 +333,7 @@ D. $7$
 ::key B
 $\dfrac{30}{5}=6$.
 
-::tf
+::tf NB NB NB TH
 Xét dữ liệu $1, 2, 2, 3, 10$. Xét tính đúng sai của các mệnh đề sau:
 a) Số trung bình bằng $3{,}6$.
 b) Trung vị bằng $2$.
@@ -342,12 +342,12 @@ d) Bỏ giá trị $10$ đi thì số trung bình tăng.
 ::key T T T F
 Số trung bình là $\dfrac{18}{5}=3{,}6$; bỏ giá trị $10$ thì số trung bình còn $2$.
 
-::sa
+::sa TH
 Có bao nhiêu cách chọn $2$ đồ vật từ $5$ đồ vật?
 ::key 10
 $\dbinom52=10$.
 
-::sa
+::sa TH
 Tung một đồng xu cân đối hai lần. Tính xác suất được hai lần mặt sấp.
 ::key 0,25
 $\dfrac12\times\dfrac12=0{,}25$.

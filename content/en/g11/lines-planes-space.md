@@ -374,7 +374,7 @@ Since $I\in a=(P)\cap(Q)$, we have $I\in(P)$ and $I\in(Q)$. Since $I\in b=(Q)\ca
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 How many planes pass through three given non-collinear points?
 A. Infinitely many.
 B. Two.
@@ -383,7 +383,7 @@ D. None.
 ::key C
 This is the second accepted property. Option A is true for three collinear points.
 
-::mc
+::mc TH
 How many faces does a pyramid whose base is a hexagon have?
 A. $6$.
 B. $12$.
@@ -392,7 +392,7 @@ D. $7$.
 ::key D
 A pyramid with a hexagonal base has $6$ lateral faces and $1$ base, so $7$ faces. Option A omits the base, and option B is the number of edges.
 
-::mc
+::mc NB
 Two distinct planes have a common point. Which statement is true?
 A. The two planes have exactly one common line through that point.
 B. The two planes have no other common point.
@@ -401,7 +401,7 @@ D. The two planes have exactly three common points.
 ::key A
 By the fifth accepted property, two distinct planes with a common point meet along a line (the line of intersection).
 
-::mc
+::mc TH
 Which of the following does not always determine exactly one plane?
 A. Three non-collinear points.
 B. Any three points.
@@ -410,7 +410,7 @@ D. Two intersecting lines.
 ::key B
 Three collinear points lie in infinitely many planes, so any three points need not determine a unique plane. Options A, C and D are the three ways to determine a plane.
 
-::tf
+::tf TH NB VD TH
 Take a pyramid $S.ABCD$ whose base is a convex quadrilateral $ABCD$ with diagonals $AC$ and $BD$ meeting at $O$. Decide whether each statement is true or false.
 a) The point $O$ lies in the plane $(SAB)$.
 b) The point $O$ lies in the plane $(SBD)$.
@@ -419,12 +419,12 @@ d) The line $BD$ meets the plane $(SAC)$ at $O$.
 ::key F T F T
 a) False: $O$ lies inside the quadrilateral, not on the line $AB$, so it is not in $(SAB)$. b) True: $O\in BD\subset(SBD)$. c) False: the line of intersection is $SO$. d) True: $O\in AC\subset(SAC)$ and $O\in BD$.
 
-::sa
+::sa TH
 A regular tetrahedron has edges of length $6$ cm. What is the total length of all its edges, in centimetres?
 ::key 36
 A tetrahedron has $6$ edges, each $6$ cm long, so the total is $6\cdot6=36$ cm.
 
-::sa
+::sa VD
 Take seven points in space, with no three collinear and no four coplanar. How many planes pass through three of the seven points?
 ::key 35
 The number of ways to choose three points from seven is $\dbinom{7}{3}=35$, and these planes are all different.

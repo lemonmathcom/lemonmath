@@ -388,7 +388,7 @@ So $r=4$ cm.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The circumcentre of a triangle is the point where the three lines of which kind meet?
 A. Perpendicular bisectors.
 B. Angle bisectors.
@@ -397,7 +397,7 @@ D. Altitudes.
 ::key A
 The centre is equidistant from the three vertices, so it lies on the perpendicular bisectors. B gives the incentre, C the centroid and D the orthocentre; in general none of these is equidistant from the vertices.
 
-::mc
+::mc NB
 A right-angled triangle has hypotenuse $10$ cm. The radius of its circumcircle is
 A. $10$ cm.
 B. $5$ cm.
@@ -406,7 +406,7 @@ D. $20$ cm.
 ::key B
 The radius is half the hypotenuse. A takes the whole hypotenuse, C halves twice, and D doubles instead of halving.
 
-::mc
+::mc TH
 The radius of the incircle of an equilateral triangle with side $6$ cm is
 A. $2\sqrt3$ cm.
 B. $3\sqrt3$ cm.
@@ -415,7 +415,7 @@ D. $\sqrt3$ cm.
 ::key D
 $r=\dfrac{6\sqrt3}{6}=\sqrt3$. A is $R$, B is the altitude, and C is half the side.
 
-::mc
+::mc VD
 A right-angled triangle has shorter sides $5$ cm and $12$ cm. The radius of its incircle is
 A. $4$ cm.
 B. $6.5$ cm.
@@ -424,7 +424,7 @@ D. $8.5$ cm.
 ::key C
 The hypotenuse is $13$ cm, so $r=\dfrac{5+12-13}{2}=2$. A forgets to halve, B is $R$, and D forgets to subtract the hypotenuse.
 
-::tf
+::tf TH TH TH NB
 The triangle $ABC$ is equilateral with side $12$ cm. Decide whether each statement is true or false.
 a) The radius of the circumcircle is $4\sqrt3$ cm.
 b) The radius of the incircle is $2\sqrt3$ cm.
@@ -433,12 +433,12 @@ d) The circumcentre and the incentre are two different points.
 ::key T T T F
 a) True: $\dfrac{12\sqrt3}{3}$. b) True: $\dfrac{12\sqrt3}{6}$. c) True: $R=2r$. d) False: both centres are at the centroid.
 
-::sa
+::sa VD
 A right-angled triangle has shorter sides $8$ cm and $15$ cm. Find the radius (in cm) of its circumcircle (as a decimal).
 ::key 8.5
 The hypotenuse is $\sqrt{64+225}=17$ cm, so $R=8.5$ cm.
 
-::sa
+::sa VD
 A triangle has area $24$ cm² and perimeter $24$ cm. Find the radius (in cm) of its incircle.
 ::key 2
 Area $=\dfrac12r\cdot(\text{perimeter})$, so $r=\dfrac{2\cdot24}{24}=2$ cm.

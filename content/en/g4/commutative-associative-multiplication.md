@@ -353,7 +353,7 @@ $$\begin{aligned} 25\times36 &= 25\times(4\times9) \\ &= (25\times4)\times9 \\ &
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Given that $a\times7=7\times9$, the value of $a$ is
 A. $16$.
 B. $7$.
@@ -362,7 +362,7 @@ D. $9$.
 ::key D
 By the commutative property, $7\times9=9\times7$, so $a=9$. Option C is the product $7\times9$ and option A is the sum $7+9$.
 
-::mc
+::mc TH
 The value of $4\times63\times25$ is
 A. $6\,300$.
 B. $1\,575$.
@@ -371,7 +371,7 @@ D. $25\,200$.
 ::key A
 $4\times63\times25=(4\times25)\times63=100\times63=6\,300$. Option C is missing a $0$, option B is $63\times25$ and option D is $252\times100$.
 
-::mc
+::mc TH
 The value of $7\times(20+3)$ is
 A. $143$.
 B. $161$.
@@ -380,7 +380,7 @@ D. $140$.
 ::key B
 $7\times(20+3)=7\times20+7\times3=140+21=161$. Option A multiplies $7$ by only the first addend and then adds $3$; option D forgets to multiply the second addend.
 
-::mc
+::mc TH
 Which expression is equal to $9\times4+9\times6$?
 A. $9\times(4\times6)$.
 B. $9+(4+6)$.
@@ -389,7 +389,7 @@ D. $(9+4)\times6$.
 ::key C
 Take the common factor $9$ outside: $9\times4+9\times6=9\times(4+6)$.
 
-::tf
+::tf NB TH TH TH
 Look at the following equalities.
 a) $(3\times4)\times5=3\times(4\times5)$.
 b) $5\times(2+3)=5\times2+3$.
@@ -398,12 +398,12 @@ d) $6\times(4\times5)=6\times4+6\times5$.
 ::key T F T F
 a) True: the associative property; both sides equal $60$. b) False: $5\times(2+3)=25$ but $5\times2+3=13$. c) True: $25\times4=100$. d) False: $6\times(4\times5)=120$ but $6\times4+6\times5=54$.
 
-::sa
+::sa TH
 Work out $25\times8\times4$.
 ::key 800
 $25\times8\times4=(25\times4)\times8=100\times8=800$.
 
-::sa
+::sa VD
 Calculate quickly $54\times7+54\times3$.
 ::key 540
 $54\times7+54\times3=54\times(7+3)=54\times10=540$.

@@ -8,7 +8,7 @@ type: exam
 Đề gồm $22$ câu, làm trong $90$ phút, chia thành ba phần: Phần I có $12$ câu nhiều phương án lựa chọn ($0{,}25$ điểm mỗi câu), Phần II có $4$ câu đúng sai (tối đa $1$ điểm mỗi câu), Phần III có $6$ câu trả lời ngắn ($0{,}5$ điểm mỗi câu). Đây là đề khó nhất của bộ đề luyện: nhiều ý ở Phần II và Phần III cần kiểm tra cẩn thận điều kiện và làm tròn. Bạn hãy làm trên phiếu in trước, bấm giờ nghiêm túc, rồi nhập đáp án vào bên dưới để được chấm theo thang điểm $10$.
 
 :::quiz exam
-::mc
+::mc VD
 Cho hàm số $y=\ln(x^2+1)-x$. Khẳng định nào sau đây đúng?
 A. Hàm số đạt cực đại tại $x=1$.
 B. Hàm số có hai điểm cực trị.
@@ -23,7 +23,7 @@ $y'=0$ chỉ tại $x=1$ và $y'$ không đổi dấu qua điểm này, nên hà
 
 Ôn lại: [Ôn tập: đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
 
-::mc
+::mc VD
 Tổng số đường tiệm cận đứng và tiệm cận ngang của đồ thị hàm số $y=\dfrac{x+1}{\sqrt{x^2-4}}$ là
 A. $1$.
 B. $2$.
@@ -38,7 +38,7 @@ Ngoài ra $\displaystyle\lim_{x\to2^+}y=+\infty$ và $\displaystyle\lim_{x\to-2^
 
 Ôn lại: [Ôn tập: đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
 
-::mc
+::mc TH
 Cho hàm số $y=f(x)$ liên tục trên $\mathbb{R}$ và có bảng xét dấu đạo hàm như sau.
 
 | $x$ | $-\infty$ | | $-2$ | | $1$ | | $3$ | | $+\infty$ |
@@ -55,7 +55,7 @@ Trên $(-2; 3)$ ta có $f'(x)<0$, chỉ bằng $0$ tại một điểm $x=1$, n�
 
 Ôn lại: [Ôn tập: đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
 
-::mc
+::mc TH
 Biết $F(x)$ là một nguyên hàm của hàm số $f(x)=2x+\sin x$ và $F(0)=3$. Khi đó $F(x)$ là
 A. $x^2-\cos x+3$.
 B. $x^2+\cos x+2$.
@@ -70,7 +70,7 @@ Vậy $F(x)=x^2-\cos x+4$. Phương án A quên $\cos0=1$; phương án B nhầm
 
 Ôn lại: [Ôn tập: nguyên hàm và tích phân](lesson:review-integrals).
 
-::mc
+::mc VD
 Giá trị của tích phân $\displaystyle\int_0^{\ln2}\big(e^x+1\big)^2\,dx$ bằng
 A. $5+\ln2$.
 B. $\dfrac{19}{3}$.
@@ -85,7 +85,7 @@ Phương án A quên hệ số $\dfrac12$ trong nguyên hàm của $e^{2x}$; ph�
 
 Ôn lại: [Ôn tập: nguyên hàm và tích phân](lesson:review-integrals).
 
-::mc
+::mc VD
 Trong không gian $Oxyz$, hình chiếu vuông góc của điểm $M(3; 3; -1)$ lên mặt phẳng $(P)\colon x+2y-2z-2=0$ là điểm
 A. $H(2; 1; 1)$.
 B. $H(1; -1; 3)$.
@@ -100,7 +100,7 @@ Vậy $H(2; 1; 1)$. Phương án C lấy nhầm $t=1$; phương án B là điể
 
 Ôn lại: [Ôn tập: phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
-::mc
+::mc TH
 Trong không gian $Oxyz$, góc giữa đường thẳng $d\colon\begin{cases}x=1+t\\ y=2\\ z=-t\end{cases}$ và mặt phẳng $(P)\colon x+y-3=0$ bằng
 A. $60^\circ$.
 B. $30^\circ$.
@@ -115,7 +115,7 @@ Phương án A dùng công thức côsin như góc giữa hai đường thẳng.
 
 Ôn lại: [Ôn tập: phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
-::mc
+::mc VD
 Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA$ vuông góc với mặt phẳng đáy và $SA=\dfrac{a\sqrt6}{2}$. Số đo của góc nhị diện $[S, BD, A]$ bằng
 A. $30^\circ$.
 B. $60^\circ$.
@@ -130,7 +130,7 @@ Phương án A lấy nhầm $\dfrac{AO}{SA}$; phương án C dùng $\widehat{SBA
 
 Ôn lại: [Ôn tập: hình học không gian](lesson:review-space-geometry).
 
-::mc
+::mc VD
 Cho hình lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác vuông cân tại $A$, $BC=2a$, góc giữa đường thẳng $A'B$ và mặt phẳng đáy bằng $60^\circ$. Thể tích của khối lăng trụ bằng
 A. $a^3\sqrt6$.
 B. $\dfrac{a^3\sqrt6}{3}$.
@@ -145,7 +145,7 @@ Phương án B dùng công thức thể tích khối chóp; phương án C quên
 
 Ôn lại: [Ôn tập: hình học không gian](lesson:review-space-geometry).
 
-::mc
+::mc TH
 Tuổi của $40$ người tham gia một câu lạc bộ dưỡng sinh được cho trong bảng sau.
 
 | Tuổi | $[40; 50)$ | $[50; 60)$ | $[60; 70)$ | $[70; 80)$ | $[80; 90)$ |
@@ -166,7 +166,7 @@ Phương án C là giá trị đại diện của nhóm; phương án B chia nh�
 
 Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
 
-::mc
+::mc TH
 Hộp I có $3$ bi trắng và $2$ bi đen; hộp II có $2$ bi trắng và $4$ bi đen. Tung một đồng xu cân đối: nếu được mặt sấp thì lấy ngẫu nhiên một viên bi từ hộp I, nếu được mặt ngửa thì lấy từ hộp II. Xác suất lấy được bi trắng là
 A. $\dfrac{5}{11}$.
 B. $\dfrac{7}{15}$.
@@ -181,7 +181,7 @@ Phương án A gộp hai hộp thành một ($5$ bi trắng trên $11$ bi); phư
 
 Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
 
-::mc
+::mc VD
 Độ cao mực nước (mét) tại một cảng biển sau $t$ giờ kể từ lúc $0$ giờ được mô tả bởi $h(t)=3+2\sin\dfrac{\pi t}{6}$, $0\le t\le24$. Trong một ngày, tổng thời gian mực nước không thấp hơn $4$ m là
 A. $4$ giờ.
 B. $12$ giờ.
@@ -196,7 +196,7 @@ Với $0\le t\le24$ ta được $t\in[1; 5]\cup[13; 17]$, tổng cộng $8$ gi�
 
 Ôn lại: [Ôn tập: lượng giác, mũ – lôgarit, cấp số](lesson:review-trig-exp-log-sequences).
 
-::tf
+::tf TH TH VD VDC
 Cho hàm số $f(x)=(x^2-3)e^x$.
 a) $f'(x)=(x^2+2x-3)e^x$ với mọi $x\in\mathbb{R}$.
 b) Hàm số đạt cực đại tại $x=1$.
@@ -213,7 +213,7 @@ d) Sai: khi $x\to-\infty$ thì $f(x)\to0$ và $f(x)>0$ với $x<-\sqrt3$; $f$ đ
 
 Ôn lại: [Ôn tập: đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
 
-::tf
+::tf TH VD VDC VD
 Trên một đường thẳng, xe A chạy đều với vận tốc $16$ m/s. Tại thời điểm $t=0$, xe A đi ngang qua xe B đang đứng yên và xe B bắt đầu chạy cùng chiều với vận tốc $v_B(t)=2t$ (m/s) trong $12$ giây đầu, sau đó giữ nguyên vận tốc $24$ m/s.
 a) Trong $8$ giây đầu, xe B đi được $64$ m.
 b) Trước khi xe B đuổi kịp xe A, khoảng cách lớn nhất giữa hai xe là $64$ m.
@@ -230,7 +230,7 @@ d) Đúng: $16\cdot18=288$ m và $144+24\cdot6=288$ m.
 
 Ôn lại: [Ôn tập: nguyên hàm và tích phân](lesson:review-integrals).
 
-::tf
+::tf NB TH VD VD
 Trong không gian $Oxyz$ (đơn vị: mét), mặt sàn của một nhà kho là mặt phẳng $(Oxy)$. Một thiết bị phát sóng đặt tại $I(1; -2; 3)$ có vùng phủ sóng là khối cầu tâm $I$, bán kính $5$ m.
 a) Mặt cầu giới hạn vùng phủ sóng có phương trình $(x-1)^2+(y+2)^2+(z-3)^2=25$.
 b) Điểm $A(4; 2; 3)$ nằm ngoài vùng phủ sóng.
@@ -247,7 +247,7 @@ d) Đúng: trên trục $Ox$ có $y=0$, $z=0$: $(x-1)^2+4+9\le25\iff(x-1)^2\le12
 
 Ôn lại: [Ôn tập: phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
-::tf
+::tf TH VD VD VDC
 Trong hộp thư của một công ty, $30\%$ số thư là thư rác. Bộ lọc tự động đánh dấu $92\%$ số thư rác và đánh dấu nhầm $4\%$ số thư thường. Chọn ngẫu nhiên một thư.
 a) Xác suất thư được chọn bị đánh dấu là $0{,}276$.
 b) Biết thư bị đánh dấu, xác suất đó là thư rác lớn hơn $0{,}9$.
@@ -266,7 +266,7 @@ d) Đúng: xác suất bị đánh dấu cả hai lần là $0{,}3\cdot0{,}92^2=
 
 Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
 
-::sa
+::sa VD
 Một khung cửa sổ gồm một hình chữ nhật và một nửa hình tròn ghép phía trên, đường kính nửa hình tròn bằng chiều rộng hình chữ nhật. Chu vi của cả khung (gồm đáy, hai cạnh bên và cung tròn) bằng $6$ m. Diện tích lớn nhất của cửa sổ là bao nhiêu mét vuông (làm tròn kết quả đến hàng phần trăm)?
 ::key 2,52
 Gọi bán kính nửa hình tròn là $r$, chiều cao phần chữ nhật là $h$. Từ chu vi:
@@ -279,7 +279,7 @@ $S$ là hàm bậc hai có hệ số $r^2$ âm, nên đạt lớn nhất tại �
 
 Ôn lại: [Ôn tập: bài toán tối ưu và thực tế](lesson:review-optimisation-real-life).
 
-::sa
+::sa VD
 Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $4$ và chiều cao bằng $3$. Tính khoảng cách từ $A$ đến mặt phẳng $(SCD)$ (làm tròn kết quả đến hàng phần trăm).
 ::key 3,33
 Gọi $O$ là tâm đáy, $M$ là trung điểm $CD$. Đường thẳng $AO$ cắt $(SCD)$ tại $C$ và $AC=2OC$, nên $d\big(A,(SCD)\big)=2\,d\big(O,(SCD)\big)$. Trong tam giác $SOM$ vuông tại $O$, khoảng cách từ $O$ là đường cao:
@@ -290,7 +290,7 @@ Vậy $d\big(A,(SCD)\big)=\dfrac{12}{\sqrt{13}}\approx3{,}33$.
 
 Ôn lại: [Ôn tập: hình học không gian](lesson:review-space-geometry).
 
-::sa
+::sa VD
 Trong không gian $Oxyz$ (đơn vị: mét), hai drone bay thẳng đều cùng lúc. Sau $t$ giây, drone thứ nhất ở điểm $P(2t; t; 10)$ và drone thứ hai ở điểm $Q(20-t; 2t; 4+t)$. Khoảng cách nhỏ nhất giữa hai drone là bao nhiêu mét (làm tròn kết quả đến hàng phần trăm)?
 ::key 6,32
 Bình phương khoảng cách là một tam thức bậc hai theo $t$:
@@ -301,7 +301,7 @@ $PQ^2$ nhỏ nhất bằng $40$ khi $t=6$, nên khoảng cách nhỏ nhất là 
 
 Ôn lại: [Ôn tập: phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
-::sa
+::sa VD
 Gieo hai con xúc xắc cân đối. Biết tổng số chấm xuất hiện không nhỏ hơn $9$, tính xác suất có ít nhất một con xúc xắc xuất hiện mặt $6$ chấm.
 ::key 0,7
 Biến cố "tổng không nhỏ hơn $9$" gồm $10$ kết quả:
@@ -312,7 +312,7 @@ Trong đó có $7$ kết quả có mặt $6$ chấm (chỉ trừ $(4; 5)$, $(5; 
 
 Ôn lại: [Ôn tập: thống kê và xác suất](lesson:review-statistics-probability).
 
-::sa
+::sa VD
 Một chi tiết máy có dạng khối tròn xoay, tạo thành khi quay hình phẳng giới hạn bởi các đường $y=1+\sqrt x$, $y=0$, $x=0$, $x=4$ quanh trục $Ox$ (đơn vị trên mỗi trục là decimét). Tính thể tích của chi tiết máy (đơn vị: $\text{dm}^3$, làm tròn kết quả đến hàng phần mười).
 ::key 71,2
 Khai triển bình phương để dùng bảng nguyên hàm:
@@ -323,7 +323,7 @@ Vậy $V\approx71{,}2\ \text{dm}^3$.
 
 Ôn lại: [Ôn tập: nguyên hàm và tích phân](lesson:review-integrals).
 
-::sa
+::sa VDC
 Đầu mỗi tháng, chị Lan gửi vào tài khoản tiết kiệm $5$ triệu đồng. Lãi suất $0{,}5\%$ mỗi tháng, tiền lãi cuối mỗi tháng được nhập vào gốc. Hỏi sau ít nhất bao nhiêu tháng (tính cả lãi của tháng cuối) thì số tiền trong tài khoản đạt từ $100$ triệu đồng trở lên?
 ::key 20
 Sau $n$ tháng, số tiền là tổng của một cấp số nhân với công bội $q=1{,}005$:

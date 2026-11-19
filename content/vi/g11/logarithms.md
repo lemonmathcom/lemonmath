@@ -491,7 +491,7 @@ Vậy $\log_23$ là số vô tỉ.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Giá trị của $\log_{1/2}8$ bằng
 A. $-\dfrac13$.
 B. $3$.
@@ -500,7 +500,7 @@ D. $\dfrac13$.
 ::key C
 Vì $\left(\dfrac12\right)^{-3}=8$ nên $\log_{1/2}8=-3$. Phương án B bỏ qua cơ số nhỏ hơn $1$, A và D lấy nghịch đảo của kết quả.
 
-::mc
+::mc TH
 Tập xác định của hàm số $y=\lg(x^2-1)$ là
 A. $(1; +\infty)$.
 B. $(-1; 1)$.
@@ -509,7 +509,7 @@ D. $(-\infty; -1)\cup(1; +\infty)$.
 ::key D
 Cần $x^2-1>0$, tức $x<-1$ hoặc $x>1$. Phương án A quên nửa âm, B nhầm dấu, C coi điều kiện như điều kiện mẫu khác $0$.
 
-::mc
+::mc TH
 Giá trị của $\log_62+\log_618$ bằng
 A. $2$.
 B. $\log_620$.
@@ -518,7 +518,7 @@ D. $6$.
 ::key A
 Ta có $\log_62+\log_618=\log_6(2\cdot18)=\log_636=2$. Phương án B cộng các đối số, C chia thay vì nhân, D dừng ở $36$ mà không lấy lôgarit.
 
-::mc
+::mc VD
 Cho $a=\log_23$. Khi đó $\log_618$ bằng
 A. $\dfrac{2+a}{1+a}$.
 B. $\dfrac{1+2a}{1+a}$.
@@ -527,7 +527,7 @@ D. $\dfrac{2a}{1+a}$.
 ::key B
 $\log_618=\dfrac{\log_218}{\log_26}=\dfrac{1+2\log_23}{1+\log_23}=\dfrac{1+2a}{1+a}$. Phương án A là $\log_612$, C đảo tử và mẫu, D chỉ tính $\log_29$ ở tử.
 
-::tf
+::tf NB NB TH TH
 Độ pH của dung dịch được tính bằng $\mathrm{pH}=-\lg[\mathrm{H}^+]$. Dung dịch A có $[\mathrm{H}^+]=10^{-3}$ mol/lít và dung dịch B có $[\mathrm{H}^+]=10^{-5}$ mol/lít. Xét tính đúng sai của các mệnh đề sau:
 a) Độ pH của dung dịch A bằng $-3$.
 b) Độ pH của dung dịch B bằng $5$.
@@ -536,12 +536,12 @@ d) Độ pH của dung dịch B lớn hơn độ pH của dung dịch A.
 ::key S Đ Đ Đ
 a) Sai: $\mathrm{pH}=-\lg10^{-3}=3$, dấu trừ trong công thức triệt tiêu số mũ âm. b) Đúng: $-\lg10^{-5}=5$. c) Đúng: $\dfrac{10^{-3}}{10^{-5}}=100$. d) Đúng: $5>3$.
 
-::sa
+::sa VD
 Giả sử lãi suất là $6\%$ một năm, lãi kép. Sau bao nhiêu năm số tiền gửi tăng gấp ba (làm tròn kết quả đến hàng phần mười)?
 ::key 18,9
 Cần $1{,}06^t=3$, nên $t=\dfrac{\ln3}{\ln1{,}06}\approx\dfrac{1{,}0986}{0{,}0583}\approx18{,}9$ (năm).
 
-::sa
+::sa TH
 Mức cường độ âm là $L=10\lg\dfrac{I}{I_0}$ (dB) với $I_0=10^{-12}$ W/m². Một âm có $I=3\cdot10^{-6}$ W/m². Tính $L$ (làm tròn kết quả đến hàng phần mười).
 ::key 64,8
 $\dfrac{I}{I_0}=3\cdot10^6$ nên $L=10(\lg3+6)\approx10\cdot6{,}4771\approx64{,}8$ (dB).

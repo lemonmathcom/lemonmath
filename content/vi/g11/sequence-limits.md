@@ -344,7 +344,7 @@ $\sqrt{n^2+n}-n=\dfrac{(n^2+n)-n^2}{\sqrt{n^2+n}+n}=\dfrac{n}{\sqrt{n^2+n}+n}=\d
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $\lim\dfrac{3n+2}{n+1}$ bằng
 A. $2$.
 B. $1$.
@@ -353,7 +353,7 @@ D. $+\infty$.
 ::key C
 Chia tử và mẫu cho $n$: $\dfrac{3+\frac2n}{1+\frac1n}\to3$. Phương án A chỉ lấy tỉ số $\dfrac21$ của các hằng số.
 
-::mc
+::mc TH
 $\lim\dfrac{2^n}{3^n}$ bằng
 A. $1$.
 B. $+\infty$.
@@ -362,7 +362,7 @@ D. $0$.
 ::key D
 $\dfrac{2^n}{3^n}=\left(\dfrac23\right)^n$ với $|q|=\dfrac23<1$ nên giới hạn bằng $0$.
 
-::mc
+::mc TH
 $\lim(n^2-n)$ bằng
 A. $+\infty$.
 B. $-\infty$.
@@ -371,7 +371,7 @@ D. $1$.
 ::key A
 $n^2-n=n^2\left(1-\dfrac1n\right)$ với $n^2\to+\infty$ và $1-\dfrac1n\to1>0$. Phương án C coi hiệu $\infty-\infty$ bằng $0$.
 
-::mc
+::mc TH
 Tổng $1+\dfrac13+\dfrac19+\dfrac1{27}+\dots$ bằng
 A. $2$.
 B. $\dfrac32$.
@@ -380,7 +380,7 @@ D. $3$.
 ::key B
 Cấp số nhân lùi vô hạn có $u_1=1$, $q=\dfrac13$ nên $S=\dfrac{1}{1-\frac13}=\dfrac32$.
 
-::tf
+::tf TH TH VD VD
 Cho dãy số $u_n=\dfrac{2n-3}{n+1}$. Xét tính đúng sai của các mệnh đề sau:
 a) $\lim u_n=-3$.
 b) $\lim u_n=2$.
@@ -389,12 +389,12 @@ d) $u_n<2$ với mọi $n$.
 ::key S Đ S Đ
 a) Sai: $u_n=\dfrac{2-\frac3n}{1+\frac1n}\to2$. b) Đúng. c) Sai: $u_n=2-\dfrac{5}{n+1}<2$. d) Đúng.
 
-::sa
+::sa TH
 Tính $\lim\dfrac{4n^2+1}{2n^2+n}$.
 ::key 2
 Chia cho $n^2$: $\dfrac{4+\frac1{n^2}}{2+\frac1n}\to\dfrac42=2$.
 
-::sa
+::sa TH
 Tính tổng $6+3+\dfrac32+\dfrac34+\dots$.
 ::key 12
 Cấp số nhân lùi vô hạn có $u_1=6$, $q=\dfrac12$ nên $S=\dfrac{6}{1-\frac12}=12$.

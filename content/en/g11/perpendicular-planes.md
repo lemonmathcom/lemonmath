@@ -456,7 +456,7 @@ The planes $(SAB)$ and $(SAC)$ meet along $SA$ and are both perpendicular to $(A
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Two intersecting planes form a dihedral angle with plane angle $120^\circ$. The angle between the planes is
 A. $120^\circ$.
 B. $30^\circ$.
@@ -465,7 +465,7 @@ D. $90^\circ$.
 ::key C
 The angle between two planes is at most $90^\circ$, so we take $180^\circ-120^\circ=60^\circ$. Option A forgets to change the obtuse angle.
 
-::mc
+::mc TH
 In the cube $ABCD.A'B'C'D'$, which plane is **not** perpendicular to $(ABCD)$?
 A. $(ABB'A')$.
 B. $(BCC'B')$.
@@ -474,7 +474,7 @@ D. $(A'BCD')$.
 ::key D
 The planes in A, B and C each contain a lateral edge perpendicular to $(ABCD)$. The plane $(A'BCD')$ makes an angle of $45^\circ$ with $(ABCD)$.
 
-::mc
+::mc TH
 The pyramid $S.ABCD$ has a square base and $SA\perp(ABCD)$. Which plane is perpendicular to $(SAC)$?
 A. $(SBD)$.
 B. $(SAD)$.
@@ -483,7 +483,7 @@ D. $(SBC)$.
 ::key A
 $BD\perp AC$ and $BD\perp SA$, so $BD\perp(SAC)$ and therefore $(SBD)\perp(SAC)$. The other planes pass through $SA$ and are not perpendicular to $(SAC)$.
 
-::mc
+::mc VD
 A regular square pyramid has base side $6$ and height $4$. The tangent of the angle between a lateral face and the base is
 A. $\dfrac34$.
 B. $\dfrac43$.
@@ -492,7 +492,7 @@ D. $\dfrac23$.
 ::key B
 The plane angle is $\angle SMO$ with $OM=3$ and $SO=4$, so $\tan=\dfrac{SO}{OM}=\dfrac43$. Option A inverts the ratio, C uses $OB=3\sqrt2$ instead of $OM$, and D uses the whole side $6$.
 
-::tf
+::tf TH TH VD VD
 The regular square pyramid $S.ABCD$ has base side $4$ and height $SO=2\sqrt3$ ($O$ is the centre of the base and $M$ is the midpoint of $BC$).
 a) $(SAC)\perp(ABCD)$.
 b) $(SAC)\perp(SBD)$.
@@ -501,12 +501,12 @@ d) $SM=4$.
 ::key T T F T
 a) True: $(SAC)$ contains $SO\perp(ABCD)$. b) True: $BD\perp AC$ and $BD\perp SO$, so $BD\perp(SAC)$. c) False: $\tan\angle SMO=\dfrac{2\sqrt3}{2}=\sqrt3$, so the angle is $60^\circ$. d) True: $SM=\sqrt{12+4}=4$.
 
-::sa
+::sa VD
 In the cube $ABCD.A'B'C'D'$, find the angle (in degrees) between $(A'BD)$ and $(ABCD)$, rounded to the nearest tenth.
 ::key 54.7
 Let $O$ be the centre of $ABCD$. The plane angle is $\angle A'OA$ with $\tan=\dfrac{AA'}{AO}=\dfrac{a}{a\sqrt2/2}=\sqrt2$, so the angle is about $54.7^\circ$.
 
-::sa
+::sa VD
 The pyramid $S.ABCD$ has a rectangular base with $AB=4$ and $BC=3$, triangle $SAB$ is equilateral and $(SAB)\perp(ABCD)$. Find the length $SC$.
 ::key 5
 Let $H$ be the midpoint of $AB$. Then $SH\perp(ABCD)$, $SH=2\sqrt3$ and $HC=\sqrt{4+9}=\sqrt{13}$. So $SC=\sqrt{12+13}=5$.

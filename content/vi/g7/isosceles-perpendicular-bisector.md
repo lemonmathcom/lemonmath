@@ -539,7 +539,7 @@ Vậy giếng $O$ cách đều ba làng, mỗi làng $120$ m.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tam giác $ABC$ cân tại $A$ có $\widehat A=50^\circ$. Số đo góc $B$ là
 A. $65^\circ$.
 B. $50^\circ$.
@@ -548,7 +548,7 @@ D. $80^\circ$.
 ::key A
 $\widehat B=\widehat C=(180^\circ-50^\circ):2=65^\circ$. B là góc ở đỉnh, C là tổng hai góc đáy, D là kết quả của phép tính sai.
 
-::mc
+::mc NB
 Điểm $M$ cách đều hai điểm $A$ và $B$. Khẳng định nào sau đây đúng?
 A. $M$ là trung điểm của $AB$.
 B. $M$ thuộc đường trung trực của $AB$.
@@ -557,7 +557,7 @@ D. $MA\perp MB$.
 ::key B
 Đây là định lí đảo: điểm cách đều hai đầu mút thì nằm trên đường trung trực. A và C chỉ là những trường hợp đặc biệt hoặc sai; D không đúng nói chung.
 
-::mc
+::mc TH
 Tam giác $ABC$ có $\widehat B=\widehat C$. Khi đó
 A. $AB=BC$.
 B. $AC=BC$.
@@ -566,7 +566,7 @@ D. tam giác $ABC$ đều.
 ::key C
 Hai cạnh đối diện hai góc bằng nhau là $AC$ (đối diện $\widehat B$) và $AB$ (đối diện $\widehat C$), nên $AB=AC$.
 
-::mc
+::mc NB
 Đường trung trực của đoạn thẳng $AB$ là đường thẳng
 A. đi qua $A$.
 B. vuông góc với $AB$.
@@ -575,7 +575,7 @@ D. vuông góc với $AB$ tại trung điểm của $AB$.
 ::key D
 Cần cả hai điều kiện: vuông góc với $AB$ và đi qua trung điểm của $AB$. B hoặc C chỉ có một điều kiện.
 
-::tf
+::tf NB TH TH TH
 Cho tam giác $ABC$ cân tại $A$ và $M$ là trung điểm của $BC$. Xét tính đúng sai của các mệnh đề sau:
 a) $\widehat B=\widehat C$.
 b) $AM\perp BC$.
@@ -584,12 +584,12 @@ d) $M$ cách đều $A$ và $B$.
 ::key Đ Đ Đ S
 a) Đúng: hai góc ở đáy. b) Đúng: $\triangle ABM=\triangle ACM$ nên $\widehat{AMB}=\widehat{AMC}=90^\circ$. c) Đúng: $AB=AC$. d) Sai: $MB=\dfrac{BC}{2}$ còn $MA$ là đường cao, nói chung hai độ dài này không bằng nhau.
 
-::sa
+::sa TH
 Tam giác $ABC$ cân tại $A$ có $\widehat B=72^\circ$. Tính $\widehat A$ (đơn vị: độ).
 ::key 36
 $\widehat C=\widehat B=72^\circ$ nên $\widehat A=180^\circ-72^\circ-72^\circ=36^\circ$.
 
-::sa
+::sa NB
 Điểm $M$ nằm trên đường trung trực của đoạn $AB$ và $MA=6{,}5$ cm. Tính $MB$ (đơn vị: cm).
 ::key 6,5
 Điểm trên đường trung trực cách đều hai đầu mút nên $MB=MA=6{,}5$ cm.

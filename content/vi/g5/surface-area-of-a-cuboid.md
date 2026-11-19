@@ -270,7 +270,7 @@ Hai đáy có diện tích $80\ \text{cm}^2$, nên diện tích xung quanh là $
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Một hình hộp dài $6$ cm, rộng $4$ cm, cao $5$ cm. Diện tích xung quanh, theo $\text{cm}^2$, là
 A. $100$.
 B. $48$.
@@ -279,7 +279,7 @@ D. $120$.
 ::key A
 Ta có $(6+4)\times2\times5=100\ \text{cm}^2$.
 
-::mc
+::mc VD
 Một hình hộp dài $8$ cm, rộng $3$ cm, cao $2$ cm. Diện tích toàn phần, theo $\text{cm}^2$, là
 A. $44$.
 B. $92$.
@@ -288,7 +288,7 @@ D. $88$.
 ::key B
 Ta có $44+48=92\ \text{cm}^2$.
 
-::mc
+::mc TH
 Một hình hộp có chu vi đáy $30$ cm và cao $7$ cm. Diện tích xung quanh, theo $\text{cm}^2$, là
 A. $37$.
 B. $105$.
@@ -297,7 +297,7 @@ D. $420$.
 ::key C
 Ta có $30\times7=210\ \text{cm}^2$.
 
-::mc
+::mc TH
 Nhãn phủ bốn mặt bên của hộp dài $9$ cm, rộng $5$ cm, cao $12$ cm. Diện tích nhãn, theo $\text{cm}^2$, là
 A. $108$.
 B. $168$.
@@ -306,7 +306,7 @@ D. $336$.
 ::key D
 Ta có $(9+5)\times2\times12=336\ \text{cm}^2$.
 
-::tf
+::tf TH NB TH VD
 Cho hình hộp chữ nhật dài $10$ cm, rộng $6$ cm và cao $4$ cm.
 a) Chu vi mặt đáy là $32$ cm.
 b) Diện tích một mặt đáy là $60\ \text{cm}^2$.
@@ -315,12 +315,12 @@ d) Diện tích toàn phần là $188\ \text{cm}^2$.
 ::key Đ Đ Đ S
 a) Đúng vì $(10+6)\times2=32$. b) Đúng vì $10\times6=60$. c) Đúng vì $32\times4=128$. d) Sai vì kết quả đúng là $248\ \text{cm}^2$.
 
-::sa
+::sa VD
 Một hình hộp chữ nhật dài $7$ cm, rộng $3$ cm và có diện tích xung quanh $120\ \text{cm}^2$. Chiều cao là bao nhiêu xăng-ti-mét?
 ::key 6
 Chu vi đáy là $(7+3)\times2=20$ cm, nên chiều cao là $120:20=6$ cm.
 
-::sa
+::sa VD
 Một hình hộp chữ nhật dài $5$ cm, rộng $4$ cm và cao $3$ cm. Diện tích toàn phần là bao nhiêu xăng-ti-mét vuông?
 ::key 94
 Diện tích xung quanh là $(5+4)\times2\times3=54\ \text{cm}^2$; hai đáy là $40\ \text{cm}^2$, nên kết quả là $94\ \text{cm}^2$.

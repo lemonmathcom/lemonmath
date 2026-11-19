@@ -353,7 +353,7 @@ $$999\,999-100\,000+1=900\,000.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The number "four hundred and six thousand, two hundred" is written
 A. $46\,200$.
 B. $406\,200$.
@@ -362,7 +362,7 @@ D. $406\,020$.
 ::key B
 "Four hundred and six thousand" is $406\,000$ and "two hundred" is $200$, so the number is $406\,200$. Option A is missing a $0$, option D puts the $2$ in the tens place, and option C reads "and six" as "sixty".
 
-::mc
+::mc NB
 The digit $7$ in the number $827\,405$ belongs to
 A. the hundreds place, in the units period.
 B. the ten-thousands place, in the thousands period.
@@ -371,7 +371,7 @@ D. the ones place, in the units period.
 ::key C
 From left to right, the digits $8$, $2$, $7$ are in the hundred-thousands, ten-thousands and thousands places. So the digit $7$ is in the thousands place, in the thousands period.
 
-::mc
+::mc TH
 The number after $999\,999$ is
 A. $9\,999\,999$.
 B. $999\,998$.
@@ -380,7 +380,7 @@ D. $1\,000\,000$.
 ::key D
 $999\,999+1=1\,000\,000$. Option B is the number before, option C is missing a $0$, and option A has an extra $9$.
 
-::mc
+::mc TH
 The number $702\,836$ is broken down as
 A. $700\,000+2\,000+800+30+6$.
 B. $700\,000+20\,000+800+36$.
@@ -389,7 +389,7 @@ D. $700\,000+200+80+36$.
 ::key A
 The number $702\,836$ has $7$ hundred-thousands, $0$ ten-thousands, $2$ thousands, $8$ hundreds, $3$ tens and $6$ ones. Options B, C and D all give the wrong value for one or more digits.
 
-::tf
+::tf NB TH NB TH
 Look at the number $1\,000\,000$.
 a) It has seven digits.
 b) It is the number after $99\,999$.
@@ -398,12 +398,12 @@ d) It equals $10$ hundred-thousands.
 ::key T F T T
 a) True: one digit $1$ and six digits $0$. b) False: the number after $99\,999$ is $100\,000$. c) True: $1\,000\,000$ is read "one million". d) True: $10$ hundred-thousands make $1$ million.
 
-::sa
+::sa TH
 How many digits does the number $999\,999+1$ have?
 ::key 7
 $999\,999+1=1\,000\,000$, which has seven digits.
 
-::sa
+::sa NB
 Which digit is in the hundred-thousands place of the number $483\,047$?
 ::key 4
 The number $483\,047$ has the digit $4$ in the hundred-thousands place.

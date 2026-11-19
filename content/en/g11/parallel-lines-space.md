@@ -357,7 +357,7 @@ Let $M$, $N$, $P$, $Q$ be the midpoints of $AB$, $BC$, $CD$, $DA$. $MNPQ$ is a p
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Two lines $a$, $b$ in space have no common point. Which statement is true?
 A. $a$ and $b$ are parallel.
 B. $a$ and $b$ are skew.
@@ -366,7 +366,7 @@ D. $a$ and $b$ are parallel or skew.
 ::key D
 Two lines with no common point are parallel if they are coplanar and skew if they are not coplanar. Options A and B are true in only one of the two cases.
 
-::mc
+::mc TH
 In the cube $ABCD.A'B'C'D'$, which pair of lines is skew?
 A. $AB$ and $CC'$.
 B. $AB$ and $AD$.
@@ -375,7 +375,7 @@ D. $AB$ and $A'B'$.
 ::key A
 $AB$ and $CC'$ are not coplanar and have no common point. Options C and D are parallel, and option B meets at $A$.
 
-::mc
+::mc NB
 Three distinct planes meet in pairs along three distinct lines. Which statement is true?
 A. The three lines are always concurrent.
 B. The three lines are concurrent or pairwise parallel.
@@ -384,7 +384,7 @@ D. The three lines are always skew.
 ::key B
 This is the theorem on three lines of intersection.
 
-::mc
+::mc TH
 Take a tetrahedron $ABCD$; $M$, $N$ are the midpoints of $AB$, $AC$. The line $MN$ is parallel to which of the following lines?
 A. $BD$.
 B. $CD$.
@@ -393,7 +393,7 @@ D. $AD$.
 ::key C
 $MN$ is a midsegment of triangle $ABC$, so $MN\parallel BC$.
 
-::tf
+::tf TH VD TH TH
 Take a pyramid $S.ABCD$ whose base is a parallelogram $ABCD$. Decide whether each statement is true or false.
 a) The line of intersection of $(SAB)$ and $(SCD)$ is parallel to $AB$.
 b) The line of intersection of $(SAD)$ and $(SBC)$ meets the line $AD$ at a point.
@@ -402,12 +402,12 @@ d) $SB$ and $AD$ are skew.
 ::key T F T T
 a) True: $AB\parallel CD$, so the line of intersection passes through $S$ and is parallel to $AB$. b) False: the line of intersection is parallel to $AD$, so it does not meet $AD$. c) True: $AB$ and $SC$ are not coplanar. d) True: $SB$ and $AD$ are not coplanar and have no common point.
 
-::sa
+::sa VD
 In a cuboid, how many other edges is each edge skew to?
 ::key 4
 Each edge is skew to $4$ edges (for example $AB$ is skew to $CC'$, $DD'$, $B'C'$, $A'D'$).
 
-::sa
+::sa TH
 How many pairs of skew edges does the tetrahedron $ABCD$ have?
 ::key 3
 The pairs of opposite edges are skew: $(AB, CD)$, $(AC, BD)$, $(AD, BC)$, so there are $3$ pairs.

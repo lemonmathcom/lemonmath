@@ -387,7 +387,7 @@ Vậy B tăng nhiều tiền hơn, A tăng nhanh hơn.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Doanh thu tăng từ $40$ lên $46$ triệu đồng. Phần trăm tăng là
 A. $15\%$.
 B. $13\%$.
@@ -396,7 +396,7 @@ D. $6\%$.
 ::key A
 $\dfrac{46-40}{40}\cdot100\%=15\%$. A lấy hiệu $6$ làm phần trăm, B chia cho giá trị mới ($\dfrac{6}{46}\approx13\%$), C là tỉ số $\dfrac{46}{40}$.
 
-::mc
+::mc TH
 Biểu đồ hình quạt tròn cho thấy $35\%$ trong $200$ học sinh chọn môn bơi. Số học sinh chọn bơi là
 A. $35$.
 B. $70$.
@@ -405,7 +405,7 @@ D. $165$.
 ::key B
 $200\cdot0{,}35=70$. A nhầm phần trăm với số bạn, C chia $200$ cho $35$ thay vì nhân, D là số bạn không chọn bơi.
 
-::mc
+::mc TH
 Biểu đồ cột có trục đứng bắt đầu từ một giá trị lớn hơn $0$ có thể gây hiểu lầm vì
 A. không đọc được giá trị trên cột.
 B. các cột trở nên bằng nhau.
@@ -414,7 +414,7 @@ D. tổng các giá trị bị thay đổi.
 ::key C
 Chiều cao cột tính từ gốc của trục, nên hiệu nhỏ trông như chênh lệch lớn. Giá trị và tổng không đổi.
 
-::mc
+::mc VD
 Lớp A có $9$ học sinh giỏi trong $30$ bạn, lớp B có $12$ học sinh giỏi trong $48$ bạn. Khẳng định nào đúng?
 A. Không thể so sánh.
 B. Lớp B có tỉ lệ học sinh giỏi cao hơn, vì $12>9$.
@@ -423,7 +423,7 @@ D. Lớp A có tỉ lệ học sinh giỏi cao hơn, vì $30\%>25\%$.
 ::key D
 $\dfrac{9}{30}=30\%$ và $\dfrac{12}{48}=25\%$. B so sánh số bạn khi sĩ số khác nhau.
 
-::tf
+::tf NB NB TH TH
 Số ly bán được (nghìn ly) trong $5$ tháng của quán A là $20$; $24$; $28$; $32$; $36$ và của quán B là $30$; $31$; $29$; $32$; $30$. Xét tính đúng sai của các mệnh đề sau:
 a) Ở tháng $3$, quán A bán nhiều hơn quán B.
 b) Ở tháng $4$, hai quán bán bằng nhau.
@@ -432,12 +432,12 @@ d) Ở tháng $5$, quán A bán nhiều hơn quán B $6$ nghìn ly.
 ::key S Đ S Đ
 a) Sai: $28<29$. b) Đúng: cùng $32$. c) Sai: tháng $3$ giảm từ $31$ xuống $29$. d) Đúng: $36-30=6$.
 
-::sa
+::sa VD
 Lượng mưa tăng từ $100$ mm lên $250$ mm. Phần trăm tăng là bao nhiêu?
 ::key 150
 $\dfrac{250-100}{100}\cdot100\%=150\%$.
 
-::sa
+::sa VD
 Lượng điện giảm từ $290$ kWh xuống $230$ kWh. Phần trăm giảm là bao nhiêu (làm tròn đến hàng phần mười, bỏ dấu âm)?
 ::key 20,7
 $\dfrac{290-230}{290}\cdot100\%\approx20{,}7\%$.

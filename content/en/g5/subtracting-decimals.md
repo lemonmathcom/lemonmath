@@ -255,7 +255,7 @@ We have $x=10.2-3.75=10.20-3.75=6.45$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $10-4.6$ equals
 A. $6.6$.
 B. $14.6$.
@@ -264,7 +264,7 @@ D. $54$.
 ::key C
 $10.0-4.6=5.4$. Option A is the mistake of doing $10-4=6$ and copying the $6$; option D is the mistake of forgetting the decimal point.
 
-::mc
+::mc NB
 To work out $12.4-5.78$, you write $12.4$ with two decimal places as
 A. $12.04$.
 B. $12.44$.
@@ -273,7 +273,7 @@ D. $12.40$.
 ::key D
 Adding a zero at the end of the decimal part does not change the value: $12.4=12.40$. Options A and C change the value of the number.
 
-::mc
+::mc TH
 Which subtraction equals $2.5$?
 A. $7.9-5.4$.
 B. $6.2-3.8$.
@@ -282,7 +282,7 @@ D. $5.5-2.5$.
 ::key A
 $7.9-5.4=2.5$. The other subtractions equal $2.4$, $2.6$ and $3$.
 
-::mc
+::mc VD
 A can holds $5$ litres of oil and $1.75$ litres have been used. How many litres of oil are left in the can?
 A. $4.75$ litres.
 B. $3.25$ litres.
@@ -291,7 +291,7 @@ D. $6.75$ litres.
 ::key B
 "Used" means taken away: $5.00-1.75=3.25$. Option D is an addition by mistake; option C forgets the decimal point.
 
-::tf
+::tf NB TH TH TH
 Look at the subtraction $8.3-2.45$.
 a) Writing $8.3$ as $8.30$ does not change its value.
 b) $8.3-2.45=6.15$.
@@ -300,12 +300,12 @@ d) $5.85+2.45=7.3$.
 ::key T F T F
 a) True: adding a zero at the end of the decimal part does not change the value. b) False: $8.30-2.45=5.85$. c) True: $5.85<6$. d) False: $5.85+2.45=8.30$.
 
-::sa
+::sa TH
 Work out $12.5-4.75$.
 ::key 7.75
 $12.50-4.75=7.75$.
 
-::sa
+::sa VD
 A rope is $20$ m long and $3.6$ m are cut off. How many metres of rope are left?
 ::key 16.4
 $20.0-3.6=16.4$ (m).

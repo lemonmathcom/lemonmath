@@ -380,7 +380,7 @@ Diện tích ước lượng $\bar S=32{,}5\cdot18{,}4=598$ m². Nhỏ nhất $3
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Chiều dài của một chiếc bút là $a=12{,}5\pm0{,}3$ (cm). Khẳng định nào sau đây đúng?
 A. $12{,}2\le a\le12{,}8$.
 B. $12{,}47\le a\le12{,}53$.
@@ -389,7 +389,7 @@ D. $12{,}2\le a\le12{,}5$.
 ::key A
 $a=\bar a\pm d$ nghĩa là $\bar a-d\le a\le\bar a+d$, tức là $12{,}5-0{,}3\le a\le12{,}5+0{,}3$. Phải trừ và cộng cả hai phía, không chỉ một phía.
 
-::mc
+::mc NB
 Quy tròn số $52\,846$ đến hàng trăm, ta được
 A. $52\,800$.
 B. $52\,900$.
@@ -398,7 +398,7 @@ D. $53\,000$.
 ::key A
 Chữ số hàng chục là $4<5$ nên giữ nguyên hàng trăm: $52\,800$. Phương án B là lỗi quy tròn "nối tiếp" $52\,846\to52\,850\to52\,900$.
 
-::mc
+::mc TH
 Số gần đúng $\bar a=40$ có độ chính xác $d=0{,}2$. Sai số tương đối của $\bar a$ không vượt quá
 A. $0{,}2\%$.
 B. $0{,}5\%$.
@@ -407,7 +407,7 @@ D. $200\%$.
 ::key B
 $\delta_{\bar a}\le\dfrac{d}{|\bar a|}=\dfrac{0{,}2}{40}=0{,}005=0{,}5\%$. Phương án A lấy nhầm $d$ làm sai số tương đối; D lấy $\dfrac{40}{0{,}2}$.
 
-::mc
+::mc TH
 Số quy tròn của số gần đúng $\bar a=1\,734\,562$ với độ chính xác $d=300$ là
 A. $1\,734\,600$.
 B. $1\,735\,000$.
@@ -416,7 +416,7 @@ D. $1\,730\,000$.
 ::key B
 Hàng trăm có đơn vị $100<300$, hàng nghìn có đơn vị $1000>300$, nên quy tròn đến hàng nghìn. Chữ số hàng trăm là $5\ge5$ nên được $1\,735\,000$ (C là lỗi bỏ bớt chữ số mà không quy tròn).
 
-::tf
+::tf TH TH TH NB
 Biết $\sqrt5=2{,}2360679\ldots$ Lấy $\bar a=2{,}24$ làm số gần đúng của $\sqrt5$.
 a) Sai số tuyệt đối của $\bar a$ nhỏ hơn $0{,}004$.
 b) Có thể viết $\sqrt5=2{,}24\pm0{,}003$.
@@ -425,12 +425,12 @@ d) Quy tròn $\sqrt5$ đến hàng phần nghìn ta được $2{,}237$.
 ::key Đ S Đ S
 a) Đúng: $2{,}24-2{,}2360679\ldots=0{,}0039\ldots<0{,}004$. b) Sai: sai số thật $0{,}0039\ldots$ lớn hơn $0{,}003$. c) Đúng: $\dfrac{0{,}004}{2{,}24}\approx0{,}18\%$. d) Sai: quy tròn đến hàng phần nghìn, chữ số sau là $0<5$, nên được $2{,}236$.
 
-::sa
+::sa TH
 Một bao gạo cân được $49{,}6$ kg với độ chính xác $0{,}2$ kg. Khối lượng thật của bao gạo lớn nhất có thể là bao nhiêu ki-lô-gam?
 ::key 49,8
 Khối lượng thật $a$ thoả mãn $49{,}6-0{,}2\le a\le49{,}6+0{,}2$, nên lớn nhất là $49{,}8$ kg.
 
-::sa
+::sa VD
 Đo chiều dài một chiếc lá nhiều lần, mọi kết quả đều nằm giữa $7{,}42$ cm và $7{,}58$ cm. Lấy $\bar a$ là trung điểm của đoạn này. Sai số tương đối của $\bar a$ không vượt quá bao nhiêu phần trăm? (Làm tròn đến hàng phần trăm.)
 ::key 1,07
 $\bar a=\dfrac{7{,}42+7{,}58}{2}=7{,}5$ và $d=\dfrac{7{,}58-7{,}42}{2}=0{,}08$, nên $\delta\le\dfrac{0{,}08}{7{,}5}\approx1{,}07\%$.

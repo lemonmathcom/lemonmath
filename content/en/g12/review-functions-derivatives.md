@@ -410,7 +410,7 @@ $y'=3ax^2+2bx+c$. From $y(0)=2$ and $y'(0)=0$: $d=2$, $c=0$. From $y'(2)=0$: $12
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The function $y=f(x)$ has derivative $f'(x)=(x-1)(x+3)$. On which interval is it increasing?
 A. $(-3, 1)$.
 B. $(1, +\infty)$.
@@ -419,7 +419,7 @@ D. $(-3, +\infty)$.
 ::key B
 $f'(x)>0\iff x<-3$ or $x>1$. Option A is where the function decreases; C and D contain part of $(-3, 1)$, where $f'<0$.
 
-::mc
+::mc TH
 How many vertical asymptotes does the graph of $y=\dfrac{x+2}{x^2-4}$ have?
 A. $2$.
 B. $3$.
@@ -428,7 +428,7 @@ D. $1$.
 ::key D
 For $x\ne-2$, $y=\dfrac{1}{x-2}$; as $x\to-2$, $y\to-\dfrac14$, so $x=-2$ is not a vertical asymptote. Only $x=2$ remains. Option A forgets to cancel.
 
-::mc
+::mc VD
 The maximum value of $y=-x^3+3x+1$ on $[0, 2]$ is
 A. $3$.
 B. $1$.
@@ -437,7 +437,7 @@ D. $2$.
 ::key A
 $y'=-3x^2+3=0\iff x=1$ (reject $-1$). $y(0)=1$, $y(1)=3$, $y(2)=-1$. Option B is $y(0)$; option C is the minimum value.
 
-::mc
+::mc NB
 The function $y=f(x)$ has this table of variations:
 
 | $x$ | $-\infty$ | | $-1$ | | $1$ | | $+\infty$ |
@@ -453,7 +453,7 @@ D. $4$.
 ::key C
 $f'$ changes from $-$ to $+$ at $x=1$, so the local minimum value is $f(1)=0$. Option B is the local minimum point, D the local maximum value, A the local maximum point.
 
-::tf
+::tf NB TH TH VD
 Let $f(x)=x^4-2x^2+3$.
 a) $f'(x)=4x^3-4x$.
 b) The function has three turning points.
@@ -462,12 +462,12 @@ d) The minimum value of the function on $\mathbb{R}$ is $2$.
 ::key T T F T
 a) True. b) True: $f'=4x(x-1)(x+1)$ changes sign at all three roots. c) False: the local maximum is at $x=0$ with value $3$; $2$ is the local minimum value. d) True: $f(\pm1)=2$ and $f(x)-2=(x^2-1)^2\ge0$.
 
-::sa
+::sa TH
 The two asymptotes of the graph of $y=\dfrac{2x+1}{x-3}$ meet at $I(a, b)$. Find $a+b$.
 ::key 5
 The vertical asymptote is $x=3$ and the horizontal asymptote is $y=2$, so $I(3, 2)$ and $a+b=5$.
 
-::sa
+::sa VD
 Let $M$, $m$ be the maximum and minimum values of $y=x+\dfrac1x$ on $\left[\dfrac12, 3\right]$. Find $M+m$, to 1 decimal place.
 ::key 5.3
 $y'=1-\dfrac{1}{x^2}=0\iff x=1$. $y\left(\dfrac12\right)=2.5$, $y(1)=2$, $y(3)=\dfrac{10}{3}$. So $M+m=\dfrac{10}{3}+2=\dfrac{16}{3}\approx5.3$.

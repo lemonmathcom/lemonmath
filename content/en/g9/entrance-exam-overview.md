@@ -348,7 +348,7 @@ For a mean of $8.0$ the total must be $4\cdot8.0=32$, so the fourth paper would 
 ## Mini test
 
 :::quiz
-::mc
+::mc VD
 An exam allows $90$ minutes and is marked out of $10$. A student spends $10$ minutes reading and checking, and shares the rest by marks. The time for a $3$-mark question is
 A. $30$ minutes.
 B. $27$ minutes.
@@ -357,7 +357,7 @@ D. $8$ minutes.
 ::key C
 $(90-10)\div10=8$ minutes per mark, so a $3$-mark question gets $3\cdot8=24$ minutes. Option B does not subtract the reserve time, A uses $10$ minutes per mark, and D is only the time for one mark.
 
-::mc
+::mc TH
 A budget of $36$ hours is shared between three topic groups in the ratio $1:2:3$. The group with the most hours gets
 A. $12$ hours.
 B. $6$ hours.
@@ -366,7 +366,7 @@ D. $18$ hours.
 ::key D
 The parts add up to $6$, one part is $36\div6=6$ hours, and the largest group gets $3\cdot6=18$ hours. Option A is the middle group, B is the smallest group, and C is $36\div4$.
 
-::mc
+::mc TH
 Out of $6.0$ marks lost, $1.5$ marks were lost through arithmetic slips. The percentage lost through arithmetic slips is
 A. $25\%$.
 B. $1.5\%$.
@@ -375,7 +375,7 @@ D. $75\%$.
 ::key A
 $\dfrac{1.5}{6.0}=0.25=25\%$. Option C divides by $10$ instead of $6$, B misplaces the decimal point, and D is the percentage lost through the other mistakes.
 
-::mc
+::mc VD
 A student's first four mock papers score $7.5$, $8.0$, $8.5$ and $7.0$. For the mean of five papers to be at least $8.0$, the fifth paper needs at least
 A. $8.0$ marks.
 B. $9.0$ marks.
@@ -384,7 +384,7 @@ D. $10$ marks.
 ::key B
 The total needed is $5\cdot8.0=40$ and the total of four papers is $31$, so the fifth needs $40-31=9.0$. Option A just repeats the target, C is the score of one paper, and D wrongly assumes full marks.
 
-::tf
+::tf TH VD TH TH
 A made-up paper allows $120$ minutes, with $20$ minutes kept for reading and checking. The questions are worth $2$, $2$, $2$, $3$ and $1$ marks. Decide whether each statement is true or false.
 a) The first three questions make up $70\%$ of the marks.
 b) Question $4$ should get $30$ minutes.
@@ -393,12 +393,12 @@ d) The total time for solving the five questions is $100$ minutes.
 ::key F T F T
 a) False: $6$ out of $10$ marks is $60\%$. b) True: each mark gets $10$ minutes and question $4$ has $3$ marks. c) False: question $5$ has $1$ mark, so it gets $10$ minutes. d) True: $120-20=100$.
 
-::sa
+::sa TH
 A student needs $2.0$ more marks to reach a target. Every $0.5$ marks takes about $6$ hours of revision. How many hours of revision are needed?
 ::key 24
 $2.0$ is $4$ lots of $0.5$ marks, so $4\cdot6=24$ hours are needed.
 
-::sa
+::sa VD
 An exam allows $90$ minutes and is marked out of $10$, with $15$ minutes kept for reading and checking. How many minutes should a $3$-mark question get?
 ::key 22.5
 The time for solving is $75$ minutes, each mark gets $7.5$ minutes, so a $3$-mark question gets $3\cdot7.5=22.5$ minutes.

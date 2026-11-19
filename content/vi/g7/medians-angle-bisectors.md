@@ -420,7 +420,7 @@ c) Không, vì $3<4$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Cho tam giác $ABC$ có trọng tâm $G$ và trung tuyến $AM=21$ cm. Độ dài $AG$ là
 A. $7$ cm.
 B. $10{,}5$ cm.
@@ -429,7 +429,7 @@ D. $42$ cm.
 ::key C
 $AG=\dfrac23\cdot21=14$ cm. Phương án A là $\dfrac13AM$, B là $\dfrac12AM$.
 
-::mc
+::mc TH
 Cho tam giác $ABC$ có trọng tâm $G$ và trung tuyến $BN$. Biết $GN=6$ cm. Độ dài $BN$ là
 A. $12$ cm.
 B. $18$ cm.
@@ -438,7 +438,7 @@ D. $24$ cm.
 ::key B
 $BG=2GN=12$ cm, nên $BN=12+6=18$ cm. Phương án A mới là $BG$, chưa cộng $GN$.
 
-::mc
+::mc NB
 Ba đường phân giác của tam giác $ABC$ cắt nhau tại $I$. Khẳng định nào sau đây đúng?
 A. $I$ luôn là trung điểm của mỗi đường phân giác.
 B. $I$ cách đều ba cạnh của tam giác.
@@ -447,7 +447,7 @@ D. $I$ có thể nằm ngoài tam giác.
 ::key B
 Điểm $I$ nằm trong tam giác và cách đều ba cạnh. Phương án C là tính chất của trọng tâm, không phải của giao ba phân giác.
 
-::mc
+::mc VD
 Tam giác $ABC$ có $\widehat A=80^\circ$. Hai đường phân giác của góc $B$ và góc $C$ cắt nhau tại $I$. Số đo $\widehat{BIC}$ là
 A. $50^\circ$.
 B. $100^\circ$.
@@ -456,7 +456,7 @@ D. $140^\circ$.
 ::key C
 $\widehat B+\widehat C=100^\circ$, nên $\widehat{IBC}+\widehat{ICB}=50^\circ$ và $\widehat{BIC}=180^\circ-50^\circ=130^\circ$. Phương án A quên lấy $180^\circ$ trừ đi.
 
-::tf
+::tf NB TH TH NB
 Cho tam giác $ABC$ có trọng tâm $G$ và trung tuyến $AM=9$ cm.
 a) Điểm $G$ nằm trong tam giác $ABC$.
 b) $AG=6$ cm.
@@ -465,12 +465,12 @@ d) $AG=2GM$.
 ::key Đ Đ S Đ
 a) Đúng: ba trung tuyến cắt nhau trong tam giác. b) Đúng: $\dfrac23\cdot9=6$. c) Sai: $GM=\dfrac13\cdot9=3$ cm. d) Đúng: $6=2\cdot3$.
 
-::sa
+::sa TH
 Tam giác $ABC$ có trọng tâm $G$ và trung tuyến $CP=24$ cm. Tính $CG$ (đơn vị: cm).
 ::key 16
 $CG=\dfrac23\cdot24=16$ cm.
 
-::sa
+::sa VD
 Tam giác $ABC$ có $\widehat B=70^\circ$ và $\widehat C=40^\circ$. Hai đường phân giác của góc $B$ và góc $C$ cắt nhau tại $I$. Tính số đo $\widehat{BIC}$ (đơn vị: độ).
 ::key 125
 $\widehat{IBC}=35^\circ$, $\widehat{ICB}=20^\circ$, nên $\widehat{BIC}=180^\circ-35^\circ-20^\circ=125^\circ$.

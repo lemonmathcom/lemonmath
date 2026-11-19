@@ -355,7 +355,7 @@ Since $AB$ and $AC$ are two tangents meeting at $A$, $AB=AC$. Triangle $ABC$ is 
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Triangle $ABC$ is inscribed in a circle $(O)$ and the angle at the centre $\angle BOC=80^\circ$ (standing on the same arc $BC$ as $\angle BAC$). The measure of $\angle BAC$ is
 A. $80^\circ$.
 B. $160^\circ$.
@@ -364,7 +364,7 @@ D. $100^\circ$.
 ::key C
 An inscribed angle is half the angle at the centre on the same arc: $\angle BAC=80^\circ\div2=40^\circ$. Option A confuses the two angles as equal, B doubles instead of halving, and D is $180^\circ-80^\circ$.
 
-::mc
+::mc NB
 The quadrilateral $ABCD$ is inscribed in a circle with $\angle A=70^\circ$. The measure of $\angle C$ is
 A. $290^\circ$.
 B. $70^\circ$.
@@ -373,7 +373,7 @@ D. $110^\circ$.
 ::key D
 Opposite angles are supplementary, so $\angle C=180^\circ-70^\circ=110^\circ$. Option B takes opposite angles as equal, C is $90^\circ-70^\circ$, and A is $360^\circ-70^\circ$.
 
-::mc
+::mc TH
 Given a circle $(O;3\text{ cm})$ and a point $A$ with $OA=5$ cm. $AB$ is the tangent to the circle at $B$. The length of $AB$ is
 A. $4$ cm.
 B. $2$ cm.
@@ -382,7 +382,7 @@ D. $8$ cm.
 ::key A
 Triangle $ABO$ is right-angled at $B$, so $AB=\sqrt{25-9}=4$. Option D is $5+3$, B is $5-3$, and C is $\sqrt{25+9}$ (adding instead of subtracting).
 
-::mc
+::mc TH
 The length of a $90^\circ$ arc of a circle of radius $4$ cm is
 A. $\pi$ cm.
 B. $2\pi$ cm.
@@ -391,7 +391,7 @@ D. $8\pi$ cm.
 ::key B
 $l=\dfrac{\pi\cdot4\cdot90}{180}=2\pi$. Option A halves it again, C uses $\dfrac{\pi R n}{90}$, and D is the circumference of the whole circle.
 
-::tf
+::tf NB VD TH TH
 Triangle $ABC$ is inscribed in a circle $(O;5\text{ cm})$ with $\angle BAC=30^\circ$. Decide whether each statement is true or false.
 a) $\angle BOC=60^\circ$.
 b) $BC=5$ cm.
@@ -400,12 +400,12 @@ d) Triangle $OBC$ is equilateral.
 ::key T T F T
 a) True: the angle at the centre is twice the inscribed angle. b) True: triangle $OBC$ is isosceles with apex angle $60^\circ$, so it is equilateral and $BC=OB=5$. c) False: $\angle OBC=60^\circ$. d) True: as in b).
 
-::sa
+::sa VD
 Given a circle $(O;6\text{ cm})$ and a point $A$ with $OA=10$ cm. $AB$ is the tangent at $B$. Find $AB$ (in cm).
 ::key 8
 $AB=\sqrt{10^2-6^2}=8$.
 
-::sa
+::sa TH
 Find the area of a sector of a circle of radius $6$ cm with an angle at the centre of $60^\circ$ (in cm², round to 1 decimal place).
 ::key 18.8
 $S=\dfrac{\pi\cdot36\cdot60}{360}=6\pi\approx18.8$.

@@ -266,7 +266,7 @@ Các chục từ $10$ đến $99$ là $10$–$19$, $20$–$29$, …, $90$–$99$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số nào sau đây là số chẵn?
 A. $8\,260$.
 B. $5\,713$.
@@ -275,7 +275,7 @@ D. $3\,001$.
 ::key A
 $8\,260$ tận cùng $0$. Các số còn lại tận cùng $3$, $5$, $1$ nên là số lẻ.
 
-::mc
+::mc TH
 Số lẻ nhỏ nhất có bốn chữ số là
 A. $1\,000$.
 B. $1\,001$.
@@ -284,7 +284,7 @@ D. $1\,111$.
 ::key B
 $1\,000$ là số chẵn nên số lẻ liền sau là $1\,001$. Phương án D lớn hơn.
 
-::mc
+::mc TH
 Ba số chẵn liên tiếp là
 A. $10$, $11$, $12$.
 B. $10$, $13$, $16$.
@@ -293,7 +293,7 @@ D. $11$, $13$, $15$.
 ::key C
 Hai số chẵn liên tiếp hơn kém $2$. Phương án A là ba số liên tiếp (cả chẵn lẻ), phương án D là ba số lẻ.
 
-::mc
+::mc TH
 Số $47$ chia cho $2$ dư
 A. $0$.
 B. $23$.
@@ -302,7 +302,7 @@ D. $1$.
 ::key D
 $47:2=23$ dư $1$ nên $47$ là số lẻ. Phương án B là thương, không phải số dư.
 
-::tf
+::tf NB NB TH TH
 Cho số $6\,508$.
 a) $6\,508$ là số chẵn.
 b) $6\,508$ chia cho $2$ dư $0$.
@@ -311,12 +311,12 @@ d) Số liền trước của $6\,508$ là số chẵn.
 ::key Đ Đ Đ S
 a) Đúng: tận cùng $8$. b) Đúng. c) Đúng: $6\,509$ là số lẻ. d) Sai: $6\,507$ là số lẻ.
 
-::sa
+::sa TH
 Số chẵn lớn nhất có ba chữ số là số nào?
 ::key 998
 $999$ là số lẻ nên số chẵn lớn nhất là $998$.
 
-::sa
+::sa TH
 Có bao nhiêu số lẻ có một chữ số?
 ::key 5
 Các số lẻ có một chữ số: $1$, $3$, $5$, $7$, $9$.

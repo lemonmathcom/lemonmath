@@ -403,7 +403,7 @@ Vậy phương trình đã cho có ba nghiệm $x=-2$, $x=1$ và $x=-1$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tập nghiệm của phương trình $(x-2)(3x+9)=0$ là
 A. $S=\{2; -3\}$.
 B. $S=\{-2; 3\}$.
@@ -412,7 +412,7 @@ D. $S=\{2; -9\}$.
 ::key A
 $x-2=0\iff x=2$; $3x+9=0\iff x=-3$. B sai dấu cả hai; D quên chia cho $3$.
 
-::mc
+::mc TH
 Điều kiện xác định của phương trình $\dfrac{x}{x+1}+\dfrac{3}{x-4}=2$ là
 A. $x\neq-1$ và $x\neq4$.
 B. $x\neq1$ và $x\neq-4$.
@@ -421,7 +421,7 @@ D. $x\neq4$.
 ::key A
 Cả hai mẫu $x+1$ và $x-4$ phải khác $0$. B sai dấu; C, D chỉ xét một mẫu.
 
-::mc
+::mc TH
 Phương trình $x^2=5x$ có tập nghiệm là
 A. $S=\{5\}$.
 B. $S=\{0; 5\}$.
@@ -430,7 +430,7 @@ D. $S=\{0; -5\}$.
 ::key B
 $x(x-5)=0$. Phương án A là kết quả khi chia hai vế cho $x$ và mất nghiệm $0$.
 
-::mc
+::mc VD
 Phương trình $\dfrac{x+1}{x-2}=\dfrac{3}{x-2}$
 A. có nghiệm $x=2$.
 B. có nghiệm $x=-2$.
@@ -439,7 +439,7 @@ D. có nghiệm $x=4$.
 ::key C
 Khử mẫu được $x+1=3$, $x=2$, nhưng $x=2$ làm mẫu bằng $0$ nên bị loại. Phương án A quên đối chiếu điều kiện; D chuyển $1$ sang vế phải mà không đổi dấu ($x=3+1$).
 
-::tf
+::tf TH TH VD TH
 Cho phương trình $\dfrac{4}{x+1}=\dfrac{3}{x-2}$.
 a) Điều kiện xác định là $x\neq-1$ và $x\neq2$.
 b) Khử mẫu được $4(x-2)=3(x+1)$.
@@ -448,12 +448,12 @@ d) Phương trình có hai nghiệm.
 ::key Đ Đ S S
 a) Đúng. b) Đúng. c) Sai: $4x-8=3x+3\iff x=11$. d) Sai: chỉ có một nghiệm $x=11$.
 
-::sa
+::sa TH
 Tính tổng các nghiệm của phương trình $(2x-8)(x+7)=0$.
 ::key -3
 Hai nghiệm là $4$ và $-7$, tổng bằng $-3$.
 
-::sa
+::sa VD
 Giải phương trình $\dfrac{5}{x+2}=\dfrac{3}{x-2}$.
 ::key 8
 Điều kiện $x\neq\pm2$. $5(x-2)=3(x+2)\iff 2x=16\iff x=8$ (thoả mãn).

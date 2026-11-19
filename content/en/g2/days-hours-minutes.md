@@ -312,7 +312,7 @@ b) December has 31 days, so the 31st is the last day of the year. Tomorrow is 1 
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A day has
 A. 60 hours.
 B. 12 hours.
@@ -321,7 +321,7 @@ D. 30 hours.
 ::key C
 A day has 24 hours, and the hour hand goes round twice. Option B is only one round of the hour hand.
 
-::mc
+::mc TH
 The long hand pointing to 6 means that
 A. 6 minutes have passed.
 B. 60 minutes have passed.
@@ -330,7 +330,7 @@ D. 30 minutes have passed.
 ::key D
 Each number is 5 minutes after the one before, and counting 6 numbers gives 30 minutes. Option A reads the number as the number of minutes.
 
-::mc
+::mc NB
 Which of these months has 30 days?
 A. September.
 B. March.
@@ -339,7 +339,7 @@ D. January.
 ::key A
 September is one of the four months with 30 days, together with April, June and November. January, March and July have 31 days.
 
-::mc
+::mc NB
 An hour has
 A. 100 minutes.
 B. 60 minutes.
@@ -348,7 +348,7 @@ D. 24 minutes.
 ::key B
 The minute hand going round once is 1 hour, which is 60 minutes. Option D is the number of hours in a day.
 
-::tf
+::tf NB TH NB TH
 Look at the calendar for November 2026 above.
 a) 1 November is a Sunday.
 b) 8 November is a Monday.
@@ -357,12 +357,12 @@ d) 11 November is a Tuesday.
 ::key T F F F
 a) True: the 1st is in the Sunday column. b) False: the 8th is a Sunday. c) False: November has 30 days. d) False: the 11th is a Wednesday.
 
-::sa
+::sa TH
 How many hours are there from 7 o'clock to 11 o'clock?
 ::key 4
 $11-7=4$ (hours).
 
-::sa
+::sa VD
 Today is 5 March and Lan's birthday is on 17 March. How many more days until Lan's birthday?
 ::key 12
 $17-5=12$ (days).

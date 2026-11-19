@@ -449,7 +449,7 @@ Vậy hàm số đạt cực tiểu tại $x=-\sqrt2$ và đạt cực đại t�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hàm số $y=x^3-3x^2+2$ nghịch biến trên khoảng nào dưới đây?
 A. $(-\infty; 0)$.
 B. $(2; +\infty)$.
@@ -458,7 +458,7 @@ D. $(-2; 0)$.
 ::key C
 Ta có $y'=3x^2-6x=3x(x-2)$. Vì $a=3>0$ nên $y'<0$ giữa hai nghiệm $0$ và $2$. Phương án D sai do giải nhầm $y'=0$ thành $x=0$, $x=-2$.
 
-::mc
+::mc TH
 Điểm cực đại của hàm số $y=-x^3+3x+1$ là
 A. $x=-1$.
 B. $x=1$.
@@ -467,7 +467,7 @@ D. $x=0$.
 ::key B
 Ta có $y'=-3(x-1)(x+1)$ đổi dấu từ $+$ sang $-$ khi $x$ đi qua $x=1$ nên $x=1$ là điểm cực đại. Phương án C là giá trị cực đại $y(1)=3$, không phải điểm cực đại; $x=0$ là nghiệm của $y''$.
 
-::mc
+::mc TH
 Cho hàm số $y=f(x)$ có đạo hàm cấp hai trên $\mathbb{R}$, thoả mãn $f'(2)=0$ và $f''(2)=-3$. Khẳng định nào dưới đây đúng?
 A. Hàm số đạt cực tiểu tại $x=2$.
 B. Hàm số đạt cực đại tại $x=-3$.
@@ -476,7 +476,7 @@ D. Hàm số đạt cực đại tại $x=2$.
 ::key D
 Vì $f'(2)=0$ và $f''(2)<0$ nên $x=2$ là điểm cực đại (dấu hiệu dùng đạo hàm cấp hai). Số $-3$ là giá trị của $f''(2)$, không phải một điểm.
 
-::mc
+::mc TH
 Hàm số nào dưới đây đồng biến trên $\mathbb{R}$?
 A. $y=x^3+3x-1$.
 B. $y=x^3-3x$.
@@ -485,7 +485,7 @@ D. $y=x^4+2x^2$.
 ::key A
 Hàm số A có $y'=3x^2+3>0$ với mọi $x$ nên đồng biến trên $\mathbb{R}$. Hàm số C không xác định tại $x=-3$ nên chỉ đồng biến trên từng khoảng $(-\infty; -3)$ và $(-3; +\infty)$; hàm số D có $y'=4x(x^2+1)$ âm khi $x<0$.
 
-::tf
+::tf NB TH VD VD
 Cho hàm số $f(x)=2x^3-3x^2-12x+1$. Xét tính đúng sai của các mệnh đề sau:
 a) $f'(x)=6x^2-6x-12$.
 b) Hàm số đồng biến trên khoảng $(-1; 2)$.
@@ -494,12 +494,12 @@ d) Đường thẳng đi qua hai điểm cực trị của đồ thị hàm số
 ::key Đ S Đ S
 a) Đúng: đạo hàm từng hạng tử, ta được kết quả trên. b) Sai: ta có $f'(x)=6(x+1)(x-2)<0$ trên $(-1; 2)$ nên hàm số nghịch biến trên khoảng này. c) Đúng: vì $f'$ đổi dấu từ $+$ sang $-$ tại $x=-1$ nên giá trị cực đại là $f(-1)=8$. d) Sai: hai điểm cực trị là $(-1; 8)$ và $(2; -19)$, do đó hệ số góc là $\dfrac{-19-8}{2-(-1)}=-9$.
 
-::sa
+::sa VD
 Tính tổng giá trị cực đại và giá trị cực tiểu của hàm số $y=-x^4+8x^2-3$.
 ::key 10
 Ta có $y'=-4x(x-2)(x+2)$. Hàm số đạt cực đại tại $x=\pm2$ với $y_{\text{CĐ}}=13$ và đạt cực tiểu tại $x=0$ với $y_{\text{CT}}=-3$. Vậy tổng cần tìm là $13+(-3)=10$ (giá trị cực đại chỉ tính một lần).
 
-::sa
+::sa VD
 Mực nước trong một hồ chứa sau $t$ giờ được mô hình bởi $h(t)=t^3-15t^2+60t+100$ (cm), $0\le t\le 12$. Hỏi mực nước giảm trong khoảng thời gian dài bao nhiêu giờ (làm tròn kết quả đến hàng phần mười)?
 ::key 4,5
 Ta có $h'(t)=3(t^2-10t+20)<0$ khi $5-\sqrt5<t<5+\sqrt5$, và khoảng này nằm trong $[0; 12]$. Do đó mực nước giảm trong khoảng thời gian dài $2\sqrt5\approx 4{,}47$ giờ. Vậy kết quả làm tròn là $4{,}5$ giờ.

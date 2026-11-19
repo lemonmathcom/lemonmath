@@ -311,7 +311,7 @@ Smallest number: the thousands digit cannot be $0$, so pick $3$; then put $0$, $
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The number seven thousand and twenty-five is written
 A. $7250$.
 B. $725$.
@@ -320,7 +320,7 @@ D. $70\,025$.
 ::key C
 $7$ thousands, $0$ hundreds, $2$ tens, $5$ ones is $7025$. A puts the digit $0$ in the wrong place, B leaves out the thousands, D adds a digit.
 
-::mc
+::mc TH
 The number $5070$ equals
 A. $5000+700$.
 B. $500+70$.
@@ -329,7 +329,7 @@ D. $5000+70$.
 ::key D
 $5070$ has $5$ thousands, $0$ hundreds, $7$ tens, $0$ ones. A treats $7$ as hundreds, B leaves out the thousands, C treats $7$ as ones.
 
-::mc
+::mc NB
 The number after $9999$ is
 A. $10\,000$.
 B. $9998$.
@@ -338,7 +338,7 @@ D. $10\,001$.
 ::key A
 $9999+1=10\,000$. B is the number before, C adds a digit $0$, D adds $2$.
 
-::mc
+::mc TH
 Of the numbers $5432$, $5342$, $5423$, $5243$, the largest is
 A. $5342$.
 B. $5432$.
@@ -347,7 +347,7 @@ D. $5243$.
 ::key B
 All four numbers have $5$ in the thousands. The greatest hundreds digit is $4$, in $5432$ and $5423$; in the tens $3>2$, so $5432$ is the largest.
 
-::tf
+::tf NB NB TH TH
 Look at the number $4205$.
 a) This number has five digits.
 b) The digit $2$ is in the hundreds place.
@@ -356,12 +356,12 @@ d) $4205<4250$.
 ::key F T F T
 a) False: $4205$ has four digits. b) True: $4205$ has $2$ hundreds. c) False: $4205=4000+200+5$. d) True: in the tens $0<5$.
 
-::sa
+::sa TH
 What number has $6$ thousands, $2$ hundreds, $0$ tens and $9$ ones?
 ::key 6209
 $6$ thousands, $2$ hundreds, $0$ tens, $9$ ones is $6209$.
 
-::sa
+::sa TH
 What is the number before $10\,000$?
 ::key 9999
 $10\,000-1=9999$.

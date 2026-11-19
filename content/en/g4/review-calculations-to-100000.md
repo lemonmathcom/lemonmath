@@ -291,7 +291,7 @@ Already carried: $12\,500\times4=50\,000$ (bricks). Still needed: $90\,000-50\,0
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $34\,205+28\,798$ equals
 A. $62\,993$.
 B. $63\,003$.
@@ -300,7 +300,7 @@ D. $62\,003$.
 ::key B
 $5+8=13$ write $3$ regroup $1$; $0+9+1=10$; $2+7+1=10$; $4+8+1=13$; $3+2+1=6$. The result is $63\,003$. Option D forgets to regroup in one place.
 
-::mc
+::mc TH
 $90\,000-45\,678$ equals
 A. $44\,322$.
 B. $45\,322$.
@@ -309,7 +309,7 @@ D. $55\,678$.
 ::key A
 Check: $44\,322+45\,678=90\,000$. Option D comes from a wrong regrouping.
 
-::mc
+::mc TH
 $16\,207\times4$ equals
 A. $64\,288$.
 B. $64\,828$.
@@ -318,7 +318,7 @@ D. $64\,818$.
 ::key B
 $7\times4=28$ write $8$ regroup $2$; $0\times4+2=2$; $2\times4=8$; $6\times4=24$ write $4$ regroup $2$; $1\times4+2=6$. The result is $64\,828$.
 
-::mc
+::mc TH
 $56\,840\div7$ equals
 A. $812$.
 B. $8\,102$.
@@ -327,7 +327,7 @@ D. $8\,210$.
 ::key C
 $56\div7=8$; bring down $8$: $8\div7=1$ remainder $1$; bring down $4$: $14\div7=2$; bring down $0$: $0\div7=0$. The result is $8\,120$. Option A misses the final zero.
 
-::tf
+::tf TH NB NB TH
 Look at the division $24\,050\div5=4\,810$.
 a) $4\,810\times5=24\,050$.
 b) The quotient is $481$.
@@ -336,12 +336,12 @@ d) This division has a remainder.
 ::key T F T F
 a) True: $4\,810\times5=24\,050$. b) False: the quotient is $4\,810$. c) True. d) False: the multiplication check matches, so there is no remainder.
 
-::sa
+::sa TH
 One lorry carries $1\,250$ kg of rice. How many kilograms of rice do three such lorries carry altogether?
 ::key 3750
 $1\,250\times3=3\,750$ (kg).
 
-::sa
+::sa TH
 $8\,000$ exercise books are shared equally between $5$ schools. How many books does each school get?
 ::key 1600
 $8\,000\div5=1\,600$ (books).

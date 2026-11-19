@@ -267,7 +267,7 @@ Sau $30$ là $40, 50, 60$, rồi đến $70$ (không được lấy $70$).
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Dấu thích hợp điền vào $40\;\square\;70$ là
 A. $>$.
 B. $=$.
@@ -276,7 +276,7 @@ D. Không so sánh được.
 ::key C
 $4$ chục bé hơn $7$ chục nên $40<70$. Phương án A là lỗi quay sai đầu nhọn.
 
-::mc
+::mc TH
 Số nào lớn nhất trong các số $300, 700, 500, 100$?
 A. $300$.
 B. $100$.
@@ -285,7 +285,7 @@ D. $700$.
 ::key D
 $7$ trăm là số trăm lớn nhất.
 
-::mc
+::mc TH
 Thứ tự từ bé đến lớn của $30, 10, 50$ là
 A. $10, 30, 50$.
 B. $50, 30, 10$.
@@ -294,7 +294,7 @@ D. $10, 50, 30$.
 ::key A
 Số chục là $3, 1, 5$; từ bé đến lớn là $1, 3, 5$. Phương án B là thứ tự từ lớn đến bé.
 
-::mc
+::mc TH
 Dấu thích hợp điền vào $90\;\square\;100$ là
 A. $>$.
 B. $<$.
@@ -303,7 +303,7 @@ D. Không so sánh được.
 ::key B
 $100$ là $10$ chục, nhiều hơn $9$ chục. Phương án A là lỗi chỉ nhìn chữ số đầu.
 
-::tf
+::tf TH TH TH TH
 Em so sánh các số.
 a) $50<80$.
 b) $600>400$.
@@ -312,12 +312,12 @@ d) $100<90$.
 ::key Đ Đ S S
 a) Đúng. b) Đúng. c) Sai: $70$ là $7$ chục, $700$ là $7$ trăm nên $70<700$. d) Sai: $100>90$.
 
-::sa
+::sa TH
 Số lớn nhất trong các số $20, 80, 50$ là số nào?
 ::key 80
 $8$ chục là số chục lớn nhất.
 
-::sa
+::sa TH
 Số bé nhất trong các số $400, 900, 300$ là số nào?
 ::key 300
 $3$ trăm là số trăm bé nhất.

@@ -354,7 +354,7 @@ Vì $10\times k=50$ nên $k=5$. Phân số cần tìm là $\dfrac{3\times5}{7\ti
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Rút gọn $\dfrac{18}{24}$ đến phân số tối giản được
 A. $\dfrac{3}{4}$.
 B. $\dfrac{6}{8}$.
@@ -363,7 +363,7 @@ D. $\dfrac{2}{3}$.
 ::key A
 $\dfrac{18}{24}=\dfrac{18:6}{24:6}=\dfrac{3}{4}$. Phương án C và B còn rút gọn được; phương án D không bằng $\dfrac{18}{24}$.
 
-::mc
+::mc NB
 Phân số nào sau đây là phân số tối giản?
 A. $\dfrac{6}{9}$.
 B. $\dfrac{7}{15}$.
@@ -372,7 +372,7 @@ D. $\dfrac{10}{15}$.
 ::key B
 $7$ và $15$ không có số chung lớn hơn $1$. Ba phân số còn lại đều rút gọn được (cho $3$, $5$ và $6$).
 
-::mc
+::mc TH
 Quy đồng mẫu số hai phân số $\dfrac{2}{3}$ và $\dfrac{3}{5}$ được
 A. $\dfrac{2}{15}$ và $\dfrac{3}{15}$.
 B. $\dfrac{6}{15}$ và $\dfrac{15}{15}$.
@@ -381,7 +381,7 @@ D. $\dfrac{10}{8}$ và $\dfrac{9}{8}$.
 ::key C
 $\dfrac{2}{3}=\dfrac{2\times5}{3\times5}=\dfrac{10}{15}$ và $\dfrac{3}{5}=\dfrac{3\times3}{5\times3}=\dfrac{9}{15}$. Phương án A chỉ nhân mẫu số.
 
-::mc
+::mc TH
 Phân số nào bằng $\dfrac{3}{5}$?
 A. $\dfrac{5}{3}$.
 B. $\dfrac{4}{6}$.
@@ -390,7 +390,7 @@ D. $\dfrac{12}{20}$.
 ::key D
 $\dfrac{3}{5}=\dfrac{3\times4}{5\times4}=\dfrac{12}{20}$. Phương án B cộng $1$ vào cả tử số và mẫu số nên sai.
 
-::tf
+::tf TH TH TH NB
 Em xét phân số $\dfrac{4}{6}$.
 a) $\dfrac{4}{6}=\dfrac{2}{3}$.
 b) $\dfrac{4}{6}$ là phân số tối giản.
@@ -399,12 +399,12 @@ d) Chia cả tử số và mẫu số của $\dfrac{4}{6}$ cho $2$ được $\df
 ::key Đ S Đ Đ
 a) Đúng: chia cả hai cho $2$. b) Sai: $4$ và $6$ cùng chia hết cho $2$. c) Đúng: nhân cả hai với $2$. d) Đúng: $4:2=2$ và $6:2=3$.
 
-::sa
+::sa TH
 Tìm $x$ biết $\dfrac{3}{5}=\dfrac{x}{20}$.
 ::key 12
 Vì $20=5\times4$ nên $x=3\times4=12$.
 
-::sa
+::sa VD
 Rút gọn $\dfrac{24}{36}$ đến phân số tối giản, rồi tính tổng của tử số và mẫu số của phân số đó.
 ::key 5
 $\dfrac{24}{36}=\dfrac{2}{3}$ và $2+3=5$.

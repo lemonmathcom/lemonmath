@@ -296,7 +296,7 @@ $$6-3=3\ \text{(l)}.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Túi gạo đặt trên cân, kim cân chỉ đúng vạch ghi số 4. Túi gạo nặng
 A. $4$ l.
 B. $5$ kg.
@@ -305,7 +305,7 @@ D. $4$ kg.
 ::key D
 Kim chỉ vạch 4 nên túi gạo nặng 4 kg. Phương án A dùng sai đơn vị, phương án B và C đọc nhầm số.
 
-::mc
+::mc TH
 Kết quả của $8\ \text{kg}+7\ \text{kg}$ là
 A. $15$ kg.
 B. $1$ kg.
@@ -314,7 +314,7 @@ D. $14$ kg.
 ::key A
 $8+7=15$ và đơn vị là kg. Phương án B là phép trừ, phương án C sai đơn vị.
 
-::mc
+::mc TH
 Trong thùng có 18 lít nước, mẹ lấy ra 9 lít. Trong thùng còn lại
 A. $27$ l nước.
 B. $9$ l nước.
@@ -323,7 +323,7 @@ D. $8$ l nước.
 ::key B
 "Lấy ra" nghĩa là bớt đi: $18-9=9$ (l). Phương án A là phép cộng nhầm, phương án C sai đơn vị.
 
-::mc
+::mc NB
 Đơn vị dùng để đong lượng nước trong chai là
 A. ki-lô-gam.
 B. xăng-ti-mét.
@@ -332,7 +332,7 @@ D. giờ.
 ::key C
 Lượng chất lỏng đong bằng lít, viết tắt là l. Ki-lô-gam đo khối lượng, xăng-ti-mét đo độ dài.
 
-::tf
+::tf TH TH TH NB
 Trên cân đĩa, đĩa bên trái hạ thấp hơn đĩa bên phải.
 a) Vật ở đĩa bên trái nhẹ hơn.
 b) Vật ở đĩa bên phải nhẹ hơn.
@@ -341,12 +341,12 @@ d) Đĩa nhẹ hơn thì hạ thấp xuống.
 ::key S Đ S S
 a) Sai: đĩa hạ thấp hơn chứa vật nặng hơn. b) Đúng: vật ở đĩa bên phải nhẹ hơn. c) Sai: nếu nặng bằng nhau thì hai đĩa ngang bằng nhau. d) Sai: đĩa nặng hơn mới hạ thấp xuống.
 
-::sa
+::sa TH
 Tính $6\ \text{kg}+9\ \text{kg}$ (viết số, không viết đơn vị).
 ::key 15
 $6+9=15$ (kg).
 
-::sa
+::sa VD
 Trong thùng có 16 lít nước, đổ ra 7 lít. Trong thùng còn lại bao nhiêu lít nước?
 ::key 9
 $16-7=9$ (l).

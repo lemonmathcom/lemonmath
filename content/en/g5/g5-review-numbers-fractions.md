@@ -300,7 +300,7 @@ The fraction has the form $\dfrac{3\times k}{8\times k}$, so the difference of t
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The number "fifty thousand and seven" is written
 A. $5007$.
 B. $50\,070$.
@@ -309,7 +309,7 @@ D. $50\,007$.
 ::key D
 The number is $50$ thousand and $7$ ones, so it is $50\,007$. Option A is missing a digit, B puts the $7$ in the tens place and C has one digit too many.
 
-::mc
+::mc TH
 The value of $6+4\times5-2$ is
 A. $24$.
 B. $48$.
@@ -318,7 +318,7 @@ D. $28$.
 ::key A
 We multiply first: $6+20-2=24$. Option B works out $(6+4)\times5-2$, C works out $6+4\times(5-2)$ and D adds $2$ instead of subtracting.
 
-::mc
+::mc TH
 $\dfrac12+\dfrac13$ equals
 A. $\dfrac25$.
 B. $\dfrac56$.
@@ -327,7 +327,7 @@ D. $\dfrac26$.
 ::key B
 $\dfrac12+\dfrac13=\dfrac36+\dfrac26=\dfrac56$. Option A adds numerators and denominators, D adds the numerators but keeps the denominator $6$ and C is the difference $\dfrac12-\dfrac13$.
 
-::mc
+::mc TH
 $\dfrac23\div\dfrac45$ equals
 A. $\dfrac8{15}$.
 B. $\dfrac65$.
@@ -336,7 +336,7 @@ D. $\dfrac{22}{15}$.
 ::key C
 $\dfrac23\div\dfrac45=\dfrac23\times\dfrac54=\dfrac{10}{12}=\dfrac56$. Option A forgets to turn the fraction upside down, B turns the first fraction upside down by mistake and D is the addition.
 
-::tf
+::tf NB TH TH TH
 Consider the fractions $\dfrac7{12}$ and $\dfrac58$.
 a) Over the common denominator $24$ they become $\dfrac{14}{24}$ and $\dfrac{15}{24}$.
 b) $\dfrac7{12}>\dfrac58$.
@@ -345,12 +345,12 @@ d) $\dfrac7{12}+\dfrac58=\dfrac{29}{24}$.
 ::key T F F T
 a) True: $\dfrac7{12}=\dfrac{14}{24}$ and $\dfrac58=\dfrac{15}{24}$. b) False: $14<15$, so $\dfrac7{12}<\dfrac58$. c) False: $\dfrac{15}{24}-\dfrac{14}{24}=\dfrac1{24}$; the denominators are not subtracted. d) True: $\dfrac{14+15}{24}=\dfrac{29}{24}$.
 
-::sa
+::sa TH
 Find $\dfrac38$ of $240$.
 ::key 90
 $240\times\dfrac38=90$.
 
-::sa
+::sa TH
 Write the fraction $\dfrac7{20}$ as a decimal.
 ::key 0.35
 $7\div20=0.35$.

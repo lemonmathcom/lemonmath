@@ -447,7 +447,7 @@ Vậy lúc đầu bể chứa $300$ lít nước.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $\dfrac{3}{5}$ của $40$ là
 A. $24$.
 B. $\dfrac{200}{3}$.
@@ -456,7 +456,7 @@ D. $8$.
 ::key A
 $40\cdot\dfrac35=24$. B chia thay vì nhân; C chỉ nhân với $3$; D chỉ chia cho $5$.
 
-::mc
+::mc TH
 Biết $\dfrac{2}{3}$ của một số bằng $12$. Số đó là
 A. $8$.
 B. $18$.
@@ -465,7 +465,7 @@ D. $24$.
 ::key B
 $12:\dfrac23=12\cdot\dfrac32=18$. A nhân thay vì chia; C chỉ nhân với $3$; D chỉ nhân với $2$.
 
-::mc
+::mc VD
 Một lớp có $32$ học sinh, trong đó số học sinh nữ chiếm $\dfrac38$. Số học sinh nam của lớp là
 A. $12$.
 B. $8$.
@@ -474,7 +474,7 @@ D. $24$.
 ::key C
 Số nữ là $32\cdot\dfrac38=12$, số nam là $32-12=20$. A là số nữ; B chỉ là $\dfrac14$ của $32$; D lấy $\dfrac34$ của $32$.
 
-::mc
+::mc VD
 Sau khi giảm $\dfrac15$ giá niêm yết, một món hàng có giá $400$ nghìn đồng. Giá niêm yết của món hàng là
 A. $480$ nghìn đồng.
 B. $320$ nghìn đồng.
@@ -483,7 +483,7 @@ D. $500$ nghìn đồng.
 ::key D
 $400$ là $\dfrac45$ giá niêm yết, nên giá niêm yết là $400:\dfrac45=500$. A lấy $400+80$; B nhân với $\dfrac45$; C chia cho $\dfrac15$.
 
-::tf
+::tf TH VD VD VD
 Một cuốn sách có $150$ trang. Ngày thứ nhất, An đọc $\dfrac25$ cuốn sách. Ngày thứ hai, An đọc $\dfrac13$ số trang còn lại. Xét tính đúng sai của các mệnh đề sau:
 a) Ngày thứ nhất An đọc $60$ trang.
 b) Ngày thứ hai An đọc $50$ trang.
@@ -492,12 +492,12 @@ d) Số trang An đọc ngày thứ hai bằng $\dfrac13$ số trang của cả 
 ::key Đ S S S
 a) Đúng: $150\cdot\dfrac25=60$. b) Sai: còn lại $90$ trang, ngày thứ hai đọc $90\cdot\dfrac13=30$ trang. c) Sai: còn $150-60-30=60$ trang. d) Sai: $30$ trang chỉ bằng $\dfrac15$ cuốn sách.
 
-::sa
+::sa TH
 Tính $\dfrac{5}{6}$ của $48$.
 ::key 40
 $48\cdot\dfrac56=8\cdot5=40$.
 
-::sa
+::sa TH
 Biết $\dfrac{3}{4}$ một quãng đường dài $60$ km. Cả quãng đường dài bao nhiêu ki-lô-mét?
 ::key 80
 $60:\dfrac34=60\cdot\dfrac43=80$ (km).

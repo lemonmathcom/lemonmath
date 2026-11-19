@@ -352,7 +352,7 @@ Since $\dfrac{1}{100}>\dfrac{1}{101}$ (same numerator, and $100<101$), $\dfrac{1
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Compare $\dfrac{5}{9}$ and $\dfrac{7}{9}$.
 A. $\dfrac{5}{9}>\dfrac{7}{9}$.
 B. $\dfrac{5}{9}<\dfrac{7}{9}$.
@@ -361,7 +361,7 @@ D. They cannot be compared.
 ::key B
 The fractions have the same denominator $9$ and $5<7$, so $\dfrac{5}{9}<\dfrac{7}{9}$.
 
-::mc
+::mc NB
 Among $\dfrac{3}{4}$, $\dfrac{3}{7}$, $\dfrac{3}{10}$, the greatest fraction is
 A. $\dfrac{3}{10}$.
 B. $\dfrac{3}{7}$.
@@ -370,7 +370,7 @@ D. The three fractions are equal.
 ::key C
 The fractions have the same numerator $3$, and the smallest denominator is $4$, so $\dfrac{3}{4}$ is the greatest.
 
-::mc
+::mc TH
 Compare $\dfrac{2}{3}$ and $\dfrac{3}{5}$.
 A. $\dfrac{2}{3}<\dfrac{3}{5}$.
 B. $\dfrac{2}{3}=\dfrac{3}{5}$.
@@ -379,7 +379,7 @@ D. $\dfrac{2}{3}>\dfrac{3}{5}$.
 ::key D
 $\dfrac{2}{3}=\dfrac{10}{15}$ and $\dfrac{3}{5}=\dfrac{9}{15}$, and $10>9$. Option A is the mistake of comparing $2<3$ directly.
 
-::mc
+::mc VD
 Putting $\dfrac{1}{2}$, $\dfrac{3}{4}$, $\dfrac{5}{8}$ in order from least to greatest gives
 A. $\dfrac{1}{2}$, $\dfrac{5}{8}$, $\dfrac{3}{4}$.
 B. $\dfrac{5}{8}$, $\dfrac{1}{2}$, $\dfrac{3}{4}$.
@@ -388,7 +388,7 @@ D. $\dfrac{1}{2}$, $\dfrac{3}{4}$, $\dfrac{5}{8}$.
 ::key A
 $\dfrac{1}{2}=\dfrac{4}{8}$, $\dfrac{3}{4}=\dfrac{6}{8}$ and $4<5<6$.
 
-::tf
+::tf TH TH TH TH
 Look at the fractions $\dfrac{7}{6}$ and $\dfrac{4}{9}$.
 a) $\dfrac{7}{6}>1$.
 b) $\dfrac{4}{9}<1$.
@@ -397,12 +397,12 @@ d) $\dfrac{7}{6}<1$.
 ::key T T T F
 a) True: $7>6$. b) True: $4<9$. c) True: $\dfrac{7}{6}>1>\dfrac{4}{9}$. d) False: $\dfrac{7}{6}$ is greater than $1$.
 
-::sa
+::sa TH
 Find the greatest natural number $x$ such that $\dfrac{x}{7}<\dfrac{5}{7}$.
 ::key 4
 The denominators are the same ($7$), so $x<5$. The greatest natural number less than $5$ is $4$.
 
-::sa
+::sa TH
 Write $\dfrac{3}{4}$ and $\dfrac{4}{5}$ over the common denominator $20$. What is the numerator of the greater fraction?
 ::key 16
 $\dfrac{3}{4}=\dfrac{15}{20}$ and $\dfrac{4}{5}=\dfrac{16}{20}$, and $15<16$. The greater fraction has numerator $16$.

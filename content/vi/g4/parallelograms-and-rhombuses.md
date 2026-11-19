@@ -325,7 +325,7 @@ Cạnh dài là $(18+4):2=11$ (cm). Cạnh ngắn là $11-4=7$ (cm).
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hình bình hành là tứ giác có
 A. hai cặp cạnh đối diện song song.
 B. bốn góc vuông.
@@ -334,7 +334,7 @@ D. một cặp cạnh vuông góc.
 ::key A
 Đây là định nghĩa hình bình hành. Phương án C là hình thoi, phương án B là hình chữ nhật.
 
-::mc
+::mc TH
 Hình bình hành $ABCD$ có $AB=7$ cm, $BC=4$ cm. Chu vi của hình bình hành là
 A. $11$ cm.
 B. $22$ cm.
@@ -343,7 +343,7 @@ D. $14$ cm.
 ::key B
 $(7+4)\times2=22$ (cm). Phương án A quên nhân $2$; phương án C là $7\times4$; phương án D là $7\times2$.
 
-::mc
+::mc TH
 Hình thoi có cạnh $12$ cm. Chu vi của hình thoi là
 A. $24$ cm.
 B. $36$ cm.
@@ -352,7 +352,7 @@ D. $144$ cm.
 ::key C
 $12\times4=48$ (cm). Phương án A là $12\times2$, phương án B là $12\times3$, phương án D là $12\times12$.
 
-::mc
+::mc TH
 Khẳng định nào sau đây đúng?
 A. Hình bình hành có bốn cạnh bằng nhau.
 B. Hình thoi có các cạnh đối diện không song song.
@@ -361,7 +361,7 @@ D. Hình thoi là hình bình hành.
 ::key D
 Hình thoi có hai cặp cạnh đối diện song song nên là hình bình hành. Các phương án A, C, B không đúng với mọi hình bình hành hoặc hình thoi.
 
-::tf
+::tf TH NB TH NB
 Em xét hình thoi $ABCD$ có cạnh $8$ cm.
 a) $BC=5$ cm.
 b) $AB\parallel DC$.
@@ -370,12 +370,12 @@ d) $AD\parallel BC$.
 ::key S Đ Đ Đ
 a) Sai: hình thoi có bốn cạnh bằng nhau nên $BC=8$ cm. b) Đúng: hai cạnh đối diện song song. c) Đúng: $8\times4=32$ (cm). d) Đúng: $AD$ và $BC$ là hai cạnh đối diện.
 
-::sa
+::sa VD
 Hình thoi có chu vi $52$ cm. Mỗi cạnh của hình thoi dài bao nhiêu xăng-ti-mét?
 ::key 13
 $52:4=13$ (cm).
 
-::sa
+::sa VD
 Hình bình hành có chu vi $38$ cm và một cạnh dài $11$ cm. Cạnh kề với nó dài bao nhiêu xăng-ti-mét?
 ::key 8
 Nửa chu vi là $38:2=19$ (cm). Cạnh kề dài $19-11=8$ (cm).

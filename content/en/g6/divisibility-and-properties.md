@@ -306,7 +306,7 @@ The number has the form $\overline{ab0}$ with $a+b$ divisible by $3$. a) Try $10
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The set of divisors of $12$ is
 A. $\{0,12,24,36\}$.
 B. $\{1,2,3,4,6\}$.
@@ -315,7 +315,7 @@ D. $\{2,3,4,6,12\}$.
 ::key C
 $12=1\times12=2\times6=3\times4$, so there are $6$ divisors. Option B leaves out $12$, A lists multiples of $12$, D leaves out $1$.
 
-::mc
+::mc NB
 Which of these numbers is divisible by both $2$ and $5$?
 A. $4125$.
 B. $3128$.
@@ -324,7 +324,7 @@ D. $3460$.
 ::key D
 $3460$ ends in $0$, so it is divisible by both $2$ and $5$. Option A is divisible by $5$ only, B by $2$ only, C by neither.
  
-::mc
+::mc TH
 The number $1011$ is divisible by which of these numbers?
 A. $3$.
 B. $2$.
@@ -333,7 +333,7 @@ D. $9$.
 ::key A
 The digit sum is $1+0+1+1=3$, divisible by $3$ but not by $9$. It ends in $1$, so it is not divisible by $2$ or $5$.
 
-::mc
+::mc TH
 Which digit replaces $*$ to make $\overline{34*}$ divisible by $9$?
 A. $0$.
 B. $2$.
@@ -342,7 +342,7 @@ D. $7$.
 ::key B
 $3+4+*=7+*$ must be divisible by $9$, so $*=2$ (the number $342=9\times38$). Options A, C, D do not make the sum divisible by $9$.
 
-::tf
+::tf NB TH TH TH
 About divisibility.
 a) $0$ is a multiple of $7$.
 b) $1011\vdots3$.
@@ -351,12 +351,12 @@ d) Since $7+5=12$ is divisible by $6$, $7$ is divisible by $6$.
 ::key T T F F
 a) True: $0=7\times0$. b) True: the digit sum is $3$. c) False: the digit sum $3$ is not divisible by $9$. d) False: $7=6\times1+1$.
 
-::sa
+::sa TH
 How many divisors does $20$ have?
 ::key 6
 $\text{D}(20)=\{1,2,4,5,10,20\}$.
 
-::sa
+::sa TH
 Which digit replaces $*$ so that $\overline{47*}$ is divisible by $9$?
 ::key 7
 $4+7+*=11+*$ is divisible by $9$, so $*=7$.

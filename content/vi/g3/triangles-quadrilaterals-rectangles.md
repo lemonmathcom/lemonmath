@@ -284,7 +284,7 @@ Cạnh dài gồm hai cạnh hình vuông ghép lại: $3+3=6$ (cm). Cạnh ng�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hình nào có $4$ góc vuông và $4$ cạnh bằng nhau?
 A. Hình tam giác.
 B. Hình chữ nhật có chiều dài khác chiều rộng.
@@ -293,7 +293,7 @@ D. Hình có $3$ đỉnh.
 ::key C
 Chỉ hình vuông có đủ $4$ góc vuông và $4$ cạnh bằng nhau. Phương án B có cạnh không bằng nhau.
 
-::mc
+::mc TH
 Hình chữ nhật $ABCD$ có $AB=8$ cm, $BC=5$ cm. Độ dài $CD$ là
 A. $5$ cm.
 B. $8$ cm.
@@ -302,7 +302,7 @@ D. $3$ cm.
 ::key B
 $CD$ đối diện $AB$ nên $CD=8$ cm. Phương án A là độ dài $BC$, phương án C là lỗi cộng hai cạnh.
 
-::mc
+::mc NB
 Hình tứ giác có bao nhiêu đỉnh?
 A. $3$.
 B. $4$.
@@ -311,7 +311,7 @@ D. $2$.
 ::key B
 Hình tứ giác có $4$ đỉnh và $4$ cạnh. Phương án A là số đỉnh của hình tam giác.
 
-::mc
+::mc TH
 Nam ghép $4$ que, mỗi que dài $6$ cm, thành một hình vuông. Tổng độ dài các que là
 A. $10$ cm.
 B. $12$ cm.
@@ -320,7 +320,7 @@ D. $6$ cm.
 ::key C
 $6\times4=24$ (cm). Phương án B là $6\times2$, thiếu hai que.
 
-::tf
+::tf NB NB TH TH
 Hình vuông $MNPQ$ có cạnh $4$ cm.
 a) Hình có $4$ góc vuông.
 b) $NP=4$ cm.
@@ -329,12 +329,12 @@ d) Tổng độ dài bốn cạnh là $16$ cm.
 ::key Đ Đ S Đ
 a) Đúng: hình vuông có $4$ góc vuông. b) Đúng: $4$ cạnh bằng nhau. c) Sai: $NP=MN=4$ cm. d) Đúng: $4\times4=16$ (cm).
 
-::sa
+::sa TH
 Hình chữ nhật $EFGH$ có $EF=9$ cm, $FG=4$ cm. Độ dài $HG$ bằng bao nhiêu xăng-ti-mét?
 ::key 9
 $HG$ đối diện $EF$ nên $HG=EF=9$ cm.
 
-::sa
+::sa TH
 Một tấm bìa hình vuông có cạnh $7$ cm. Tổng độ dài bốn cạnh là bao nhiêu xăng-ti-mét?
 ::key 28
 $7\times4=28$ (cm).

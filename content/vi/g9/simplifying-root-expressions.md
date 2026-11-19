@@ -444,7 +444,7 @@ Vậy $C=2\sqrt3$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $\sqrt{72}$ bằng
 A. $6\sqrt2$.
 B. $36\sqrt2$.
@@ -453,7 +453,7 @@ D. $3\sqrt2$.
 ::key A
 Ta có $\sqrt{72}=\sqrt{36\cdot2}=6\sqrt2$. Phương án B quên khai căn $36$, C đảo vị trí hai số, D chỉ tách $9$ rồi bỏ quên thừa số $4$.
 
-::mc
+::mc TH
 Trục căn thức ở mẫu của $\dfrac{6}{\sqrt2}$ ta được
 A. $\sqrt3$.
 B. $6\sqrt2$.
@@ -462,7 +462,7 @@ D. $3$.
 ::key C
 Ta có $\dfrac{6}{\sqrt2}=\dfrac{6\sqrt2}{2}=3\sqrt2$. Phương án B quên chia cho $2$, A lấy $6$ chia $2$ dưới dấu căn, D làm mất căn ở tử.
 
-::mc
+::mc TH
 $\dfrac{1}{\sqrt5-2}$ bằng
 A. $-\sqrt5-2$.
 B. $\sqrt5-2$.
@@ -471,7 +471,7 @@ D. $\sqrt5+2$.
 ::key D
 Ta có $\dfrac{1}{\sqrt5-2}=\dfrac{\sqrt5+2}{5-4}=\sqrt5+2$. Phương án C tính mẫu là $5-2$ (quên bình phương $2$), A tính mẫu là $4-5$.
 
-::mc
+::mc TH
 Với $a<0$, $a\sqrt3$ bằng
 A. $\sqrt{3a^2}$.
 B. $-\sqrt{3a^2}$.
@@ -480,7 +480,7 @@ D. $-\sqrt{3a}$.
 ::key B
 Vì $a<0$ nên $a\sqrt3<0$, do đó $a\sqrt3=-\sqrt{3a^2}$. Phương án A quên dấu; C, D không bình phương $a$ (và $\sqrt{3a}$ không xác định khi $a<0$).
 
-::tf
+::tf TH TH VD VD
 Cho $A=\sqrt{50}-\sqrt{18}+\sqrt8$. Xét tính đúng sai của các mệnh đề sau:
 a) $\sqrt{50}=5\sqrt2$.
 b) $A=\sqrt{40}$.
@@ -489,12 +489,12 @@ d) $\dfrac1A=\dfrac{\sqrt2}{8}$.
 ::key Đ S Đ Đ
 a) Đúng. Ta có $\sqrt{50}=\sqrt{25\cdot2}=5\sqrt2$. b) Sai. Ta có $A=5\sqrt2-3\sqrt2+2\sqrt2=4\sqrt2=\sqrt{32}$ (không được cộng, trừ dưới dấu căn). c) Đúng. $A\cdot\sqrt2=4\sqrt2\cdot\sqrt2=8$. d) Đúng. $\dfrac1A=\dfrac{1}{4\sqrt2}=\dfrac{\sqrt2}{8}$.
 
-::sa
+::sa VD
 Tính $\dfrac{\sqrt{75}-\sqrt{12}}{\sqrt3}$.
 ::key 3
 Ta có $\sqrt{75}-\sqrt{12}=5\sqrt3-2\sqrt3=3\sqrt3$. Do đó $\dfrac{\sqrt{75}-\sqrt{12}}{\sqrt3}=\dfrac{3\sqrt3}{\sqrt3}=3$.
 
-::sa
+::sa VD
 Một mảnh đất hình chữ nhật có chiều dài $\sqrt{98}$ m và chiều rộng $\sqrt{32}$ m. Tính chu vi của mảnh đất theo mét (làm tròn kết quả đến hàng phần mười).
 ::key 31,1
 Chu vi mảnh đất là $2\left(\sqrt{98}+\sqrt{32}\right)=2\left(7\sqrt2+4\sqrt2\right)=22\sqrt2\approx31{,}1$ (m).

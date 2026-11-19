@@ -400,7 +400,7 @@ Từ $x^2=16-y^2$: $\dfrac{16-y^2}{25}+\dfrac{y^2}{9}=1\iff 9(16-y^2)+25y^2=225\
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Elip $\dfrac{x^2}{36}+\dfrac{y^2}{20}=1$ có các tiêu điểm là
 A. $(\pm4; 0)$.
 B. $(\pm2\sqrt{14}; 0)$.
@@ -409,7 +409,7 @@ D. $(\pm16; 0)$.
 ::key A
 Với elip, $c^2=a^2-b^2=36-20=16$ nên $c=4$. Phương án B dùng nhầm $c^2=a^2+b^2$ (công thức của hypebol), C là các đỉnh, D quên lấy căn.
 
-::mc
+::mc NB
 Hypebol $\dfrac{x^2}{16}-\dfrac{y^2}{9}=1$ có hai đường tiệm cận là
 A. $y=\pm\dfrac43x$.
 B. $y=\pm\dfrac34x$.
@@ -418,7 +418,7 @@ D. $y=\pm\dfrac54x$.
 ::key B
 $a=4$, $b=3$, nên hai tiệm cận là $y=\pm\dfrac bax=\pm\dfrac34x$. Phương án A đảo ngược $\dfrac ab$, C dùng $\dfrac{b^2}{a^2}$.
 
-::mc
+::mc TH
 Parabol $y^2=6x$ có tiêu điểm là
 A. $(3; 0)$.
 B. $(6; 0)$.
@@ -427,7 +427,7 @@ D. $\left(-\dfrac32; 0\right)$.
 ::key C
 $2p=6$ nên $p=3$, tiêu điểm là $\left(\dfrac p2; 0\right)=\left(\dfrac32; 0\right)$. Phương án A nhầm $p$ với $\dfrac p2$; D nằm trên đường chuẩn $x=-\dfrac32$.
 
-::mc
+::mc VD
 Elip có độ dài trục lớn bằng $10$ và khoảng cách giữa hai tiêu điểm bằng $6$ (các tiêu điểm nằm trên $Ox$) có phương trình chính tắc là
 A. $\dfrac{x^2}{25}+\dfrac{y^2}{34}=1$.
 B. $\dfrac{x^2}{100}+\dfrac{y^2}{64}=1$.
@@ -436,7 +436,7 @@ D. $\dfrac{x^2}{25}+\dfrac{y^2}{9}=1$.
 ::key C
 $2a=10$, $2c=6$ nên $a=5$, $c=3$, $b^2=a^2-c^2=16$. Phương án B lấy luôn hai độ dài $10$ và $6$ làm $a$, $c$; A cộng thay vì trừ.
 
-::tf
+::tf TH TH TH TH
 Cho elip $(E): 4x^2+25y^2=100$ với hai tiêu điểm $F_1$, $F_2$.
 a) Độ dài trục lớn của $(E)$ bằng $10$.
 b) $(E)$ có các tiêu điểm là $(\pm\sqrt{21}; 0)$.
@@ -445,12 +445,12 @@ d) Khoảng cách giữa hai tiêu điểm của $(E)$ bằng $\sqrt{21}$.
 ::key Đ Đ S S
 Chia hai vế cho $100$: $\dfrac{x^2}{25}+\dfrac{y^2}{4}=1$, nên $a=5$, $b=2$, $c^2=21$. a) Đúng: $2a=10$. b) Đúng: $c=\sqrt{21}$. c) Sai: $MF_1+MF_2=2a=10$. d) Sai: $F_1F_2=2c=2\sqrt{21}$.
 
-::sa
+::sa VD
 Cho hypebol $\dfrac{x^2}{9}-\dfrac{y^2}{16}=1$ với các tiêu điểm $F_1(-5; 0)$, $F_2(5; 0)$. Điểm $M$ nằm trên nhánh bên phải của hypebol và $MF_1=10$. Tính $MF_2$.
 ::key 4
 Theo định nghĩa, $|MF_1-MF_2|=2a=6$. Trên nhánh bên phải, $M$ gần $F_2$ hơn nên $MF_1-MF_2=6$, suy ra $MF_2=10-6=4$.
 
-::sa
+::sa VDC
 Một cổng có dạng nửa elip, rộng $10$ m ở chân và cao $4$ m ở đỉnh. Một xe tải cao $3{,}2$ m muốn đi qua cổng. Thùng xe được rộng nhiều nhất bao nhiêu mét?
 ::key 6
 Đặt gốc toạ độ ở giữa chân cổng: $\dfrac{x^2}{25}+\dfrac{y^2}{16}=1$. Với $y=3{,}2$: $x^2=25(1-0{,}64)=9$, $x=\pm3$. Vậy thùng xe rộng nhiều nhất $6$ m.

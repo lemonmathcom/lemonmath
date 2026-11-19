@@ -254,7 +254,7 @@ The tens digit is $8$, so the tens part is $80$. We have $400+80+8=488$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The number $345$ written as a sum is
 A. $300+40+5$.
 B. $3+4+5$.
@@ -263,7 +263,7 @@ D. $3+40+500$.
 ::key A
 $3$ hundreds is $300$, $4$ tens is $40$ and $5$ ones is $5$. Option B is the mistake of adding the digits.
 
-::mc
+::mc TH
 $600+20+8$ equals
 A. $682$.
 B. $628$.
@@ -272,7 +272,7 @@ D. $862$.
 ::key B
 $6$ hundreds, $2$ tens and $8$ ones make $628$. Option A swaps the tens and ones places.
 
-::mc
+::mc TH
 The number $807$ written as a sum is
 A. $80+7$.
 B. $800+70$.
@@ -281,7 +281,7 @@ D. $8+0+7$.
 ::key C
 $807$ has $8$ hundreds, $0$ tens and $7$ ones. Option B is $870$.
 
-::mc
+::mc TH
 The number $510$ written as a sum is
 A. $5+1+0$.
 B. $50+10$.
@@ -290,7 +290,7 @@ D. $500+10$.
 ::key D
 $5$ in the hundreds place is $500$ and $1$ in the tens place is $10$. Option C is $501$.
 
-::tf
+::tf TH TH TH TH
 Look at the number $726$.
 a) $726=700+20+6$.
 b) $726=7+2+6$.
@@ -299,12 +299,12 @@ d) $726=70+20+6$.
 ::key T F T F
 a) True. b) False: $7+2+6=15$. c) True: $20+6=26$. d) False: $70+20+6=96$.
 
-::sa
+::sa TH
 Work out $400+90+3$.
 ::key 493
 $4$ hundreds, $9$ tens and $3$ ones make $493$.
 
-::sa
+::sa TH
 Which number goes in the box: $200+\square+9=259$?
 ::key 50
 $259$ has $5$ in the tens place, value $50$.

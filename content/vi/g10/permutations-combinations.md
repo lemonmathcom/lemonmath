@@ -349,7 +349,7 @@ Tận cùng $0$: $A_5^3=60$. Tận cùng $5$: chữ số đầu $4$ cách, hai c
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Có bao nhiêu cách chọn $2$ bạn trong $7$ bạn để trực nhật?
 A. $21$.
 B. $42$.
@@ -358,7 +358,7 @@ D. $49$.
 ::key A
 Hai bạn trực nhật không phân biệt vai trò nên dùng tổ hợp: $C_7^2=\dfrac{7\cdot6}{2}=21$. Phương án B là $A_7^2$ (tính cả thứ tự), mỗi nhóm bị đếm hai lần.
 
-::mc
+::mc TH
 Có $8$ vận động viên thi chạy. Có bao nhiêu kết quả có thể cho ba vị trí nhất, nhì, ba (không có hai người về đích cùng lúc)?
 A. $56$.
 B. $336$.
@@ -367,7 +367,7 @@ D. $6$.
 ::key B
 Ba giải khác nhau nên thứ tự quan trọng: $A_8^3=8\cdot7\cdot6=336$. Phương án A là $C_8^3$ (bỏ qua thứ tự); phương án C là $8^3$ (cho phép một người đạt nhiều giải).
 
-::mc
+::mc NB
 Số nào sau đây bằng $C_{10}^3$?
 A. $A_{10}^7$.
 B. $C_7^3$.
@@ -376,7 +376,7 @@ D. $\dfrac{10!}{3!}$.
 ::key C
 Tính chất đối xứng $C_n^k=C_n^{n-k}$: chọn $3$ người đi cũng là chọn $7$ người ở lại. Phương án D quên chia cho $7!$.
 
-::mc
+::mc VD
 Một đa giác lồi có $10$ đỉnh. Số đường chéo của đa giác đó là
 A. $45$.
 B. $35$.
@@ -385,7 +385,7 @@ D. $80$.
 ::key B
 Mỗi đoạn nối hai đỉnh ứng với một tổ hợp chập $2$ của $10$: $C_{10}^2=45$, trong đó có $10$ cạnh. Số đường chéo là $45-10=35$. Phương án A quên trừ các cạnh.
 
-::tf
+::tf NB TH VD VD
 Một nhóm có $4$ bạn nam và $3$ bạn nữ.
 a) Có $5040$ cách xếp cả $7$ bạn thành một hàng ngang.
 b) Có $12$ cách chọn $3$ bạn trong đó có đúng một bạn nữ.
@@ -394,12 +394,12 @@ d) Có $15$ cách chọn $2$ bạn trong đó có ít nhất một bạn nữ.
 ::key Đ S S Đ
 a) Đúng: $P_7=7!=5040$. b) Sai: chọn $1$ nữ và $2$ nam: $C_3^1\cdot C_4^2=3\cdot6=18$. c) Sai: buộc $3$ bạn nữ thành một khối, có $5!$ cách xếp $5$ "vật" và $3!$ cách xếp trong khối: $720$. d) Đúng: $C_7^2-C_4^2=21-6=15$.
 
-::sa
+::sa VD
 Tìm số tự nhiên $n\ge 2$ thoả mãn $C_n^2=45$.
 ::key 10
 $C_n^2=\dfrac{n(n-1)}{2}=45\iff n^2-n-90=0\iff(n-10)(n+9)=0$. Vì $n\ge2$ nên $n=10$.
 
-::sa
+::sa VDC
 Từ các chữ số $0, 1, 2, 3, 4, 5$ lập được bao nhiêu số chẵn có ba chữ số đôi một khác nhau?
 ::key 52
 Tận cùng là $0$: hai chữ số đầu là một chỉnh hợp chập $2$ của $5$ chữ số còn lại, $A_5^2=20$ số. Tận cùng là $2$ hoặc $4$: chữ số đầu có $4$ cách (khác $0$ và khác chữ số cuối), chữ số giữa có $4$ cách, được $2\cdot4\cdot4=32$ số. Tổng cộng $20+32=52$.

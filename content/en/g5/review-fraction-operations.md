@@ -325,7 +325,7 @@ Adding: $1-\dfrac{1}{2}+\dfrac{1}{2}-\dfrac{1}{3}+\dfrac{1}{3}-\dfrac{1}{4}+\dfr
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $\dfrac{2}{3}+\dfrac{3}{4}$ equals
 A. $\dfrac{17}{12}$.
 B. $\dfrac{5}{7}$.
@@ -334,7 +334,7 @@ D. $\dfrac{5}{12}$.
 ::key A
 $\dfrac{2}{3}+\dfrac{3}{4}=\dfrac{8}{12}+\dfrac{9}{12}=\dfrac{17}{12}$. Option B adds both the numerators and the denominators.
 
-::mc
+::mc TH
 $\dfrac{5}{6}-\dfrac{3}{8}$ equals
 A. $\dfrac{2}{24}$.
 B. $\dfrac{11}{24}$.
@@ -343,7 +343,7 @@ D. $\dfrac{8}{14}$.
 ::key B
 $\dfrac{5}{6}-\dfrac{3}{8}=\dfrac{20}{24}-\dfrac{9}{24}=\dfrac{11}{24}$.
 
-::mc
+::mc TH
 $\dfrac{5}{6}\div\dfrac{5}{12}$ equals
 A. $\dfrac{25}{72}$.
 B. $\dfrac{1}{2}$.
@@ -352,7 +352,7 @@ D. $1$.
 ::key C
 $\dfrac{5}{6}\div\dfrac{5}{12}=\dfrac{5}{6}\times\dfrac{12}{5}=2$. Option A is the multiplication of the two fractions.
 
-::mc
+::mc VD
 The value of the expression $\dfrac{1}{2}+\dfrac{1}{3}\times\dfrac{3}{4}$ is
 A. $\dfrac{5}{8}$.
 B. $\dfrac{5}{6}$.
@@ -361,7 +361,7 @@ D. $\dfrac{3}{4}$.
 ::key D
 Multiply first: $\dfrac{1}{3}\times\dfrac{3}{4}=\dfrac{1}{4}$, then $\dfrac{1}{2}+\dfrac{1}{4}=\dfrac{3}{4}$. Option A is the result of adding first.
 
-::tf
+::tf NB TH TH TH
 Look at the problem: find $x$ if $x+\dfrac{2}{5}=\dfrac{7}{10}$.
 a) $x=\dfrac{7}{10}-\dfrac{2}{5}$.
 b) $x=\dfrac{3}{10}$.
@@ -370,12 +370,12 @@ d) $x$ is greater than $\dfrac{7}{10}$.
 ::key T T F F
 a) True: an unknown addend is the sum minus the known addend. b) True: $\dfrac{7}{10}-\dfrac{4}{10}=\dfrac{3}{10}$. c) False: $\dfrac{11}{10}$ is $\dfrac{7}{10}+\dfrac{2}{5}$. d) False: $x$ is less than the sum $\dfrac{7}{10}$.
 
-::sa
+::sa VD
 Each scarf needs $\dfrac{1}{12}$ m of cloth. How many scarves can be made, at most, from $\dfrac{5}{6}$ m of cloth?
 ::key 10
 $\dfrac{5}{6}\div\dfrac{1}{12}=\dfrac{5}{6}\times12=10$ (scarves).
 
-::sa
+::sa VD
 A roll of string is $\dfrac{3}{4}$ m long and $\dfrac{1}{3}$ m is cut off. Written with denominator $12$, what is the numerator of the length of string left?
 ::key 5
 $\dfrac{3}{4}-\dfrac{1}{3}=\dfrac{9}{12}-\dfrac{4}{12}=\dfrac{5}{12}$.

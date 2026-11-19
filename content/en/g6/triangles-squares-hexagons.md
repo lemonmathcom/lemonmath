@@ -611,7 +611,7 @@ So one desk top needs $300$ cm of strip; the big table top is a regular hexagon,
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Each angle of an equilateral triangle measures
 A. $45^\circ$.
 B. $60^\circ$.
@@ -620,7 +620,7 @@ D. $120^\circ$.
 ::key B
 An equilateral triangle has three equal angles of $60^\circ$. C is the angle of a square; D is the angle of a regular hexagon.
 
-::mc
+::mc TH
 How many main diagonals does a regular hexagon have?
 A. $3$.
 B. $6$.
@@ -629,7 +629,7 @@ D. $9$.
 ::key A
 Each main diagonal joins two opposite vertices, and the six vertices make $3$ pairs. B is the number of sides; C is the number of diagonals of a quadrilateral; D is the total number of diagonals of a hexagon.
 
-::mc
+::mc NB
 Which of these shapes always has perpendicular diagonals?
 A. A rectangle.
 B. A parallelogram.
@@ -638,7 +638,7 @@ D. A rhombus.
 ::key D
 A rhombus has perpendicular diagonals. A rectangle and an isosceles trapezium have equal diagonals, which are not necessarily perpendicular; a parallelogram has neither property.
 
-::mc
+::mc NB
 A parallelogram $ABCD$ has $AB=7$ cm and $BC=4$ cm. The length of the side $CD$ is
 A. $4$ cm.
 B. $11$ cm.
@@ -647,7 +647,7 @@ D. $3$ cm.
 ::key C
 $CD$ is opposite $AB$, so $CD=AB=7$ cm. A confuses it with the adjacent side $BC$; B adds the two sides; D subtracts them.
 
-::tf
+::tf NB NB NB TH
 Decide whether each statement is true or false.
 a) A rhombus always has four right angles.
 b) A rectangle has two equal diagonals.
@@ -656,12 +656,12 @@ d) Each angle of a regular hexagon is $120^\circ$.
 ::key F T T T
 a) False: a rhombus has four equal sides, but its angles are not necessarily right angles. b) True. c) True. d) True: each angle is made of two $60^\circ$ angles of two equilateral triangles.
 
-::sa
+::sa TH
 A regular hexagon has sides $7$ cm long. How many centimetres long is its main diagonal?
 ::key 14
 A main diagonal is twice as long as a side: $7\cdot2=14$ (cm).
 
-::sa
+::sa TH
 A piece of wire $60$ cm long is bent exactly into a rhombus. How many centimetres long is each side of the rhombus?
 ::key 15
 A rhombus has four equal sides, so each side is $60:4=15$ (cm).

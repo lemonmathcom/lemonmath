@@ -354,7 +354,7 @@ Có $1\,000\,000$ khối nhỏ $1\ \text{cm}^3$. Hàng dài $1\,000\,000$ cm $=1
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số đo $5\ \text{dm}^3$ đổi ra xăng-ti-mét khối là
 A. $50\ \text{cm}^3$.
 B. $5000\ \text{cm}^3$.
@@ -363,7 +363,7 @@ D. $50\,000\ \text{cm}^3$.
 ::key B
 $5\ \text{dm}^3=5\times1000=5000\ \text{cm}^3$. Phương án A coi $1\ \text{dm}^3=10\ \text{cm}^3$; B coi $1\ \text{dm}^3=100\ \text{cm}^3$; D coi $1\ \text{dm}^3=10\,000\ \text{cm}^3$.
 
-::mc
+::mc NB
 Số đo $7\,000\,000\ \text{cm}^3$ đổi ra mét khối là
 A. $700\ \text{m}^3$.
 B. $70\ \text{m}^3$.
@@ -372,7 +372,7 @@ D. $7000\ \text{m}^3$.
 ::key C
 $1\ \text{m}^3=1\,000\,000\ \text{cm}^3$ nên $7\,000\,000\ \text{cm}^3=7\ \text{m}^3$. Phương án B, A, D đổi sai số lần giữa hai đơn vị.
 
-::mc
+::mc TH
 Số đo $3\ \text{m}^3\ 250\ \text{dm}^3$ đổi ra đề-xi-mét khối là
 A. $325\ \text{dm}^3$.
 B. $3025\ \text{dm}^3$.
@@ -381,7 +381,7 @@ D. $3250\ \text{dm}^3$.
 ::key D
 $3\ \text{m}^3=3000\ \text{dm}^3$ nên $3000+250=3250\ \text{dm}^3$. Phương án A coi $1\ \text{m}^3=100\ \text{dm}^3$; B quên chữ số $2$ của $250$; C coi $1\ \text{m}^3=10\,000\ \text{dm}^3$.
 
-::mc
+::mc NB
 Một chiếc bể chứa được $1800\ \text{dm}^3$ nước. Bể chứa được bao nhiêu lít nước?
 A. $1800$ lít.
 B. $18$ lít.
@@ -390,7 +390,7 @@ D. $18\,000$ lít.
 ::key A
 $1\ \text{dm}^3=1$ lít nên $1800\ \text{dm}^3=1800$ lít. Các phương án B, C, D nhân hoặc chia sai.
 
-::tf
+::tf NB NB TH NB
 Em xét khối lập phương cạnh $1$ dm.
 a) Thể tích khối đó là $1\ \text{dm}^2$.
 b) $1\ \text{dm}^3=1000\ \text{cm}^3$.
@@ -399,12 +399,12 @@ d) $1\ \text{dm}^3=1$ lít.
 ::key S Đ S Đ
 a) Sai: thể tích đo bằng $\text{dm}^3$, không phải $\text{dm}^2$. b) Đúng: $10\times10\times10=1000$. c) Sai: cần $1000$ khối. d) Đúng: $1$ lít là dung tích của khối $1\ \text{dm}^3$.
 
-::sa
+::sa TH
 Số?  $4\ \text{m}^3=?\ \text{dm}^3$.
 ::key 4000
 $4\ \text{m}^3=4\times1000=4000\ \text{dm}^3$.
 
-::sa
+::sa TH
 Số?  $2\ \text{dm}^3\ 50\ \text{cm}^3=?\ \text{cm}^3$.
 ::key 2050
 $2\ \text{dm}^3=2000\ \text{cm}^3$ nên $2000+50=2050\ \text{cm}^3$.

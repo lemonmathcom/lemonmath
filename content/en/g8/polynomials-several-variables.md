@@ -392,7 +392,7 @@ So $E=7$ for all $x$, $y$, and the value of $E$ does not depend on $x$ or $y$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The degree of the monomial $-3x^2y^3z$ is
 A. $5$.
 B. $-3$.
@@ -401,7 +401,7 @@ D. $3$.
 ::key C
 The degree is the sum of the exponents: $2+3+1=6$. A forgets the variable $z$, B is the coefficient, D is the number of variables.
 
-::mc
+::mc TH
 Simplifying $5x^2y-2xy^2+x^2y+3xy^2$ gives
 A. $6x^2y+5xy^2$.
 B. $5x^2y+xy^2$.
@@ -410,7 +410,7 @@ D. $6x^2y+xy^2$.
 ::key D
 $(5+1)x^2y+(-2+3)xy^2=6x^2y+xy^2$. A drops the sign of $-2$, B forgets the term $x^2y$, C adds both groups although they are not like terms.
 
-::mc
+::mc TH
 The sum $(2x^2-3x+1)+(x^2+5x-4)$ equals
 A. $3x^2+2x-3$.
 B. $3x^2+8x-3$.
@@ -419,7 +419,7 @@ D. $3x^2+2x+5$.
 ::key A
 $(2+1)x^2+(-3+5)x+(1-4)=3x^2+2x-3$. B gets the sign of $-3x$ wrong, C is the difference instead of the sum, D gets the constant term wrong.
 
-::mc
+::mc TH
 The difference $(x^2-3xy)-(2x^2-xy+y^2)$ equals
 A. $3x^2-4xy+y^2$.
 B. $-x^2-2xy-y^2$.
@@ -428,7 +428,7 @@ D. $x^2-2xy-y^2$.
 ::key B
 $x^2-3xy-2x^2+xy-y^2=-x^2-2xy-y^2$. A is an addition, C forgets to change the sign of $-xy$, D forgets to change the sign of $2x^2$.
 
-::tf
+::tf TH TH TH TH
 Let $P=4x^2y-3xy^2+2x^2y+xy^2-5$.
 a) The degree of $P$ is $5$.
 b) After simplifying, $P$ has $4$ terms.
@@ -437,12 +437,12 @@ d) After simplifying, the coefficient of the term containing $xy^2$ is $-2$.
 ::key F F T T
 After simplifying, $P=6x^2y-2xy^2-5$. a) False: the degree is $3$. b) False: there are $3$ terms. c) True: $6-2-5=-1$. d) True: $-3+1=-2$.
 
-::sa
+::sa VD
 Let $A=2x^2-3xy+y^2$ and $B=x^2+xy-2y^2$. Find the value of $A-B$ at $x=2$, $y=1$.
 ::key -1
 $A-B=x^2-4xy+3y^2$. At $x=2$, $y=1$: $4-8+3=-1$.
 
-::sa
+::sa VD
 Find the value of $(x^2y+3xy-2)+(2x^2y-xy+5)$ at $x=1$, $y=2$.
 ::key 13
 The expression equals $3x^2y+2xy+3$. At $x=1$, $y=2$: $6+4+3=13$.

@@ -304,7 +304,7 @@ $$2000-1300=700\ \text{(ml)}.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $3\ \text{l}\ 200\ \text{ml}$ bằng
 A. $500\ \text{ml}$.
 B. $3200\ \text{ml}$.
@@ -313,7 +313,7 @@ D. $32\ \text{ml}$.
 ::key B
 $3\ \text{l}=3000\ \text{ml}$, nên $3000+200=3200\ \text{ml}$. A coi $1$ l là $100$ ml, C và D ghép sai các chữ số.
 
-::mc
+::mc TH
 $1500\ \text{ml}$ bằng
 A. $15\ \text{l}$.
 B. $1\ \text{l}\ 50\ \text{ml}$.
@@ -322,7 +322,7 @@ D. $1\ \text{l}\ 5\ \text{ml}$.
 ::key C
 $1500\ \text{ml}=1000\ \text{ml}+500\ \text{ml}=1\ \text{l}\ 500\ \text{ml}$. A đổi sai đơn vị, B và D thiếu chữ số $0$.
 
-::mc
+::mc VD
 Bình thứ nhất chứa $600$ ml, bình thứ hai chứa $800$ ml. Hai bình chứa tất cả
 A. $200\ \text{ml}$.
 B. $14\ \text{l}$.
@@ -331,7 +331,7 @@ D. $1\ \text{l}\ 400\ \text{ml}$.
 ::key D
 "Tất cả" là phép cộng: $600+800=1400\ \text{ml}=1\ \text{l}\ 400\ \text{ml}$. A là phép trừ, B sai đơn vị, C thiếu một chữ số $0$.
 
-::mc
+::mc TH
 Nhiệt kế A chỉ $30\ ^\circ\text{C}$, nhiệt kế B chỉ $5\ ^\circ\text{C}$. Nhận xét nào đúng?
 A. Nơi đặt nhiệt kế A nóng hơn nơi đặt nhiệt kế B.
 B. Nơi đặt nhiệt kế B nóng hơn nơi đặt nhiệt kế A.
@@ -340,7 +340,7 @@ D. Nơi đặt nhiệt kế A lạnh hơn nơi đặt nhiệt kế B.
 ::key A
 Vì $30>5$ nên nơi đặt nhiệt kế A nóng hơn. B và D nghĩ số nhỏ hơn là nóng hơn, C là không so sánh hai số.
 
-::tf
+::tf NB NB NB TH
 Em xét các nhận định sau.
 a) $1\ \text{l}=1000\ \text{ml}$.
 b) $20\ ^\circ\text{C}$ nóng hơn $8\ ^\circ\text{C}$.
@@ -349,12 +349,12 @@ d) $2\ \text{l}\ 50\ \text{ml}=250\ \text{ml}$.
 ::key Đ Đ S S
 a) Đúng: $1$ lít bằng $1000$ mi-li-lít. b) Đúng: $20>8$. c) Sai: nước sôi ở $100\ ^\circ\text{C}$, còn $0\ ^\circ\text{C}$ là nước bắt đầu đóng băng. d) Sai: $2\ \text{l}\ 50\ \text{ml}=2050\ \text{ml}$.
 
-::sa
+::sa TH
 Đổi $4\ \text{l}$ ra mi-li-lít.
 ::key 4000
 $4\times 1000=4000$ (ml).
 
-::sa
+::sa TH
 Buổi sáng nhiệt độ là $18\ ^\circ\text{C}$, buổi trưa tăng thêm $11\ ^\circ\text{C}$. Buổi trưa nhiệt độ là bao nhiêu độ C?
 ::key 29
 $18+11=29$ ($^\circ\text{C}$).

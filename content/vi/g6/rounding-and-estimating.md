@@ -427,7 +427,7 @@ Vậy có $10$ số; số nhỏ nhất là $2{,}35$ và số lớn nhất là $2
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Làm tròn số $5{,}276$ đến hàng phần trăm, ta được
 A. $5{,}27$.
 B. $5{,}28$.
@@ -436,7 +436,7 @@ D. $5{,}2$.
 ::key B
 Chữ số ngay bên phải hàng phần trăm là $6\ge5$, nên $5{,}276\approx5{,}28$. A bỏ đi mà không tăng; C làm tròn đến hàng phần mười; D chỉ cắt bớt.
 
-::mc
+::mc TH
 Làm tròn số $-3{,}46$ đến hàng phần mười, ta được
 A. $-3{,}4$.
 B. $-3$.
@@ -445,7 +445,7 @@ D. $-4$.
 ::key C
 Làm tròn $3{,}46\approx3{,}5$ rồi đặt dấu "$-$". A làm tròn sai hướng; B và D làm tròn đến hàng đơn vị.
 
-::mc
+::mc NB
 Làm tròn số $8\,652$ đến hàng trăm, ta được
 A. $8\,600$.
 B. $8\,650$.
@@ -454,7 +454,7 @@ D. $8\,700$.
 ::key D
 Chữ số ngay bên phải hàng trăm là $5\ge5$, nên $8\,652\approx8\,700$. A giữ nguyên sai; B làm tròn đến hàng chục; C làm tròn đến hàng nghìn.
 
-::mc
+::mc TH
 Giá trị gần nhất với kết quả của phép tính $49{,}7\cdot2{,}03$ là
 A. $100$.
 B. $10$.
@@ -463,7 +463,7 @@ D. $50$.
 ::key A
 $49{,}7\cdot2{,}03\approx50\cdot2=100$. B và C lệch đi $10$ lần (sai dấu phẩy); D quên nhân với $2$.
 
-::tf
+::tf NB NB TH TH
 Cho số $a=17{,}0451$. Xét tính đúng sai của các mệnh đề sau:
 a) Làm tròn $a$ đến hàng đơn vị, ta được $17$.
 b) Làm tròn $a$ đến hàng phần mười, ta được $17{,}1$.
@@ -472,12 +472,12 @@ d) Làm tròn $a$ đến hàng chục, ta được $10$.
 ::key Đ S Đ S
 a) Đúng: chữ số sau hàng đơn vị là $0$. b) Sai: chữ số sau hàng phần mười là $4<5$, nên $a\approx17{,}0$. c) Đúng: chữ số sau hàng phần trăm là $5$, nên tăng $4$ thành $5$. d) Sai: chữ số sau hàng chục là $7\ge5$, nên $a\approx20$.
 
-::sa
+::sa NB
 Làm tròn số $2{,}718$ đến hàng phần trăm.
 ::key 2,72
 Chữ số ngay bên phải hàng phần trăm là $8\ge5$, nên $2{,}718\approx2{,}72$.
 
-::sa
+::sa VD
 Làm tròn $198{,}6$ đến hàng chục và $4{,}97$ đến hàng đơn vị, rồi ước lượng thương $198{,}6:4{,}97$.
 ::key 40
 $198{,}6\approx200$ và $4{,}97\approx5$, nên $198{,}6:4{,}97\approx200:5=40$.

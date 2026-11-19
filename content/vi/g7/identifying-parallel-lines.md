@@ -536,7 +536,7 @@ Hai góc $\widehat{mAB}$ và $\widehat{ABn}$ nằm ở vị trí so le trong đ�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho $a\parallel b$ và đường thẳng $c$ cắt $a$, $b$. Hai góc so le trong
 A. bù nhau.
 B. bằng nhau.
@@ -545,7 +545,7 @@ D. không có quan hệ gì.
 ::key B
 Theo tính chất của hai đường thẳng song song, hai góc so le trong bằng nhau. A là quan hệ của hai góc trong cùng phía.
 
-::mc
+::mc NB
 Cho $a\parallel b$ và đường thẳng $c$ cắt $a$, $b$. Một góc đồng vị bằng $110^\circ$ thì góc đồng vị với nó bằng
 A. $70^\circ$.
 B. $180^\circ$.
@@ -554,7 +554,7 @@ D. $250^\circ$.
 ::key C
 Hai góc đồng vị bằng nhau khi hai đường thẳng song song. A là góc kề bù, D là $360^\circ-110^\circ$.
 
-::mc
+::mc NB
 Qua một điểm nằm ngoài đường thẳng $d$, số đường thẳng song song với $d$ là
 A. vô số.
 B. đúng hai.
@@ -563,7 +563,7 @@ D. đúng một.
 ::key D
 Đó là nội dung của tiên đề Euclid.
 
-::mc
+::mc TH
 Hai đường thẳng $a$ và $b$ cùng vuông góc với đường thẳng $c$. Khi đó
 A. $a\parallel b$.
 B. $a$ trùng $b$ chắc chắn.
@@ -572,7 +572,7 @@ D. $a$ cắt $b$.
 ::key A
 Hai góc đồng vị cùng bằng $90^\circ$ nên $a\parallel b$. C sai vì $a\perp b$ chỉ khi chúng cắt nhau.
 
-::tf
+::tf TH TH TH TH
 Cho $a\parallel b$; $c$ cắt $a$ tại $A$, cắt $b$ tại $B$; $M\in a$ và $N\in b$ nằm về hai phía của $c$; $P\in b$ nằm cùng phía với $M$ đối với $c$; $\widehat{MAB}=70^\circ$. Xét tính đúng sai của các mệnh đề sau:
 a) $\widehat{ABN}=70^\circ$.
 b) $\widehat{ABP}=70^\circ$.
@@ -581,12 +581,12 @@ d) Qua $B$ có hai đường thẳng khác $b$ cùng song song với $a$.
 ::key Đ S Đ S
 a) Đúng: so le trong. b) Sai: $\widehat{ABP}=180^\circ-70^\circ=110^\circ$. c) Đúng: trong cùng phía bù nhau. d) Sai: theo tiên đề Euclid chỉ có một đường qua $B$ song song với $a$, đó là $b$.
 
-::sa
+::sa VD
 Cho $a\parallel b$, hai góc so le trong là $(2x+10)^\circ$ và $(x+40)^\circ$. Tìm $x$.
 ::key 30
 $2x+10=x+40$ nên $x=30$.
 
-::sa
+::sa TH
 Cho $a\parallel b$, một góc trong cùng phía bằng $115^\circ$. Góc trong cùng phía còn lại bằng bao nhiêu độ?
 ::key 65
 $180-115=65$.

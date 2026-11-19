@@ -288,7 +288,7 @@ Vậy ta mở rộng được mối liên hệ ra tổng thể, nhưng không k�
 :::
 
 :::quiz
-::mc
+::mc NB
 Phương pháp nào bảo vệ tốt nhất trước độ chệch do chọn mẫu?
 A. Chọn một mẫu ngẫu nhiên
 B. Chọn một mẫu thuận tiện rất lớn
@@ -297,7 +297,7 @@ D. Khảo sát bạn bè của nhà nghiên cứu
 ::key A
 Chọn ngẫu nhiên cho mỗi cá thể một khả năng được chọn xác định.
 
-::mc
+::mc TH
 Mục đích chính của giả dược là gì?
 A. Tăng cỡ mẫu
 B. Làm nghiệm thức mạnh hơn
@@ -306,7 +306,7 @@ D. Làm trải nghiệm của nhóm đối chứng giống nhất có thể, tr�
 ::key D
 Khi đó hiệu ứng giả dược tác động lên cả hai nhóm.
 
-::mc
+::mc NB
 Hai biến gây nhiễu nhau khi
 A. hệ số tương quan của chúng bằng $0$
 B. không tách được ảnh hưởng của chúng lên biến phản hồi
@@ -315,7 +315,7 @@ D. một biến là biến phản hồi
 ::key B
 Gây nhiễu là lí do nghiên cứu quan sát không chứng minh được nhân quả.
 
-::mc
+::mc TH
 Trường hợp nào là thí nghiệm?
 A. Ghi lại thời gian dùng màn hình của $200$ thiếu niên
 B. So sánh chiều cao của nam và nữ trong một lớp
@@ -324,7 +324,7 @@ D. Khảo sát cử tri về một ứng cử viên
 ::key C
 Chỉ C áp đặt một nghiệm thức.
 
-::tf
+::tf NB TH TH NB
 Trong một thí nghiệm, $50$ tình nguyện viên được phân ngẫu nhiên theo chế độ ăn mới hoặc chế độ ăn thường ngày. Xét tính đúng sai của các mệnh đề sau:
 a) Đây là một thí nghiệm.
 b) Phân nhóm ngẫu nhiên cho phép kết luận nhân quả.
@@ -333,12 +333,12 @@ d) Nhóm ăn như thường ngày đóng vai trò nhóm đối chứng.
 ::key T T F T
 Đối tượng là tình nguyện viên, không phải mẫu ngẫu nhiên.
 
-::sa
+::sa TH
 Một trường $1200$ học sinh có $300$ học sinh khối 12. Trong một mẫu phân tầng theo tỉ lệ gồm $80$ học sinh, có bao nhiêu học sinh khối 12?
 ::key 20
 $\dfrac{300}{1200}\times80=20$.
 
-::sa
+::sa TH
 Một thí nghiệm có yếu tố A với $3$ mức và yếu tố B với $2$ mức. Có bao nhiêu nghiệm thức?
 ::key 6
 $3\times2=6$ tổ hợp.

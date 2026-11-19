@@ -397,7 +397,7 @@ Ta có $x^2-x\ge0$ trên $[-1; 0]$ và $[1; 2]$, $x^2-x\le0$ trên $[0; 1]$. M�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tích phân $\displaystyle\int_1^2(2x+1)\,dx$ bằng
 A. $6$.
 B. $-4$.
@@ -406,7 +406,7 @@ D. $2$.
 ::key C
 Ta có $\displaystyle\int_1^2(2x+1)\,dx=\Big[x^2+x\Big]_1^2=6-2=4$. Phương án A quên trừ giá trị tại cận dưới, B trừ ngược, D tính $f(2)-f(1)$ thay vì dùng nguyên hàm.
 
-::mc
+::mc TH
 Nếu $\displaystyle\int_0^5 f(x)\,dx=7$ và $\displaystyle\int_0^2 f(x)\,dx=3$ thì $\displaystyle\int_2^5 f(x)\,dx$ bằng
 A. $10$.
 B. $4$.
@@ -415,7 +415,7 @@ D. $-10$.
 ::key B
 Vì $\displaystyle\int_0^5=\int_0^2+\int_2^5$ nên $\displaystyle\int_2^5 f(x)\,dx=7-3=4$. Phương án A cộng thay vì trừ, C và D sai dấu.
 
-::mc
+::mc TH
 Tích phân $\displaystyle\int_0^{\pi}\sin x\,dx$ bằng
 A. $-2$.
 B. $1$.
@@ -424,7 +424,7 @@ D. $0$.
 ::key C
 Ta có $\displaystyle\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=-(-1)-(-1)=2$. Phương án A dùng nhầm nguyên hàm $\cos x$, B coi giá trị tại cận dưới bằng $0$, D là kết quả của $\cos x$ trên $[0; \pi]$.
 
-::mc
+::mc TH
 Tích phân $\displaystyle\int_0^1 e^{2x}\,dx$ bằng
 A. $e^2-1$.
 B. $\dfrac{e^2-1}{2}$.
@@ -433,7 +433,7 @@ D. $\dfrac{e^2}{2}$.
 ::key B
 Một nguyên hàm của $e^{2x}$ là $\dfrac{e^{2x}}{2}$ nên tích phân bằng $\dfrac{e^2-e^0}{2}=\dfrac{e^2-1}{2}$. Phương án A quên thừa số $\dfrac12$, C nhân thay vì chia, D coi $e^0=0$.
 
-::tf
+::tf TH TH TH VD
 Cho hàm số $f(x)=x^2-4x+3$. Xét tính đúng sai của các mệnh đề sau:
 a) $\displaystyle\int_0^3 f(x)\,dx=0$.
 b) $f(x)\le0$ với mọi $x\in[1; 3]$.
@@ -442,12 +442,12 @@ d) $\displaystyle\int_0^3\lvert f(x)\rvert\,dx=\dfrac83$.
 ::key Đ Đ S Đ
 a) Đúng: ta có $\Big[\dfrac{x^3}{3}-2x^2+3x\Big]_0^3=9-18+9=0$. b) Đúng: vì $f$ có hai nghiệm $1$, $3$ và hệ số $a>0$ nên $f(x)\le0$ giữa hai nghiệm. c) Sai: tích phân của hàm không âm, không đồng nhất bằng $0$, thì dương. d) Đúng: ta có $\displaystyle\int_0^1 f=\frac43$ và $\displaystyle\int_1^3(-f)=\frac43$, do đó tổng bằng $\dfrac83$.
 
-::sa
+::sa VD
 Một máy bơm khởi động dần; sau $t$ giờ, lưu lượng nước nó bơm được là $q(t)=t^3+3t^2$ (m³/giờ), $0\le t\le2$. Tính lượng nước (m³) máy bơm được trong $2$ giờ đầu.
 ::key 12
 Lượng nước bằng $\displaystyle\int_0^2(t^3+3t^2)\,dt=\Big[\dfrac{t^4}{4}+t^3\Big]_0^2=4+8=12$. Vậy máy bơm được $12$ m³ nước.
 
-::sa
+::sa VD
 Tính $\displaystyle\int_1^e\left(2x+\frac1x\right)dx$ (làm tròn kết quả đến hàng phần mười).
 ::key 7,4
 Ta có $\displaystyle\int_1^e\left(2x+\frac1x\right)dx=\Big[x^2+\ln x\Big]_1^e=(e^2+1)-(1+0)=e^2\approx7{,}389$. Vậy kết quả làm tròn là $7{,}4$.

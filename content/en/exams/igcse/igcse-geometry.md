@@ -275,7 +275,7 @@ So the chord is $6$ cm from the centre.
 :::
 
 :::quiz
-::mc
+::mc NB
 The exterior angles of any polygon add up to
 A. $180^\circ$
 B. $360^\circ$
@@ -284,7 +284,7 @@ D. $(n-2)\times180^\circ$
 ::key B
 One full turn around the polygon.
 
-::mc
+::mc NB
 The angle in a semicircle is
 A. $90^\circ$
 B. $180^\circ$
@@ -293,7 +293,7 @@ D. $60^\circ$
 ::key A
 The angle subtended by a diameter.
 
-::mc
+::mc TH
 Two similar solids have lengths in the ratio $1:3$. Their volumes are in the ratio
 A. $1:3$
 B. $1:6$
@@ -302,7 +302,7 @@ D. $1:9$
 ::key C
 $3^3=27$.
 
-::mc
+::mc NB
 A tangent meets the radius at the point of contact at
 A. $45^\circ$
 B. $60^\circ$
@@ -311,7 +311,7 @@ D. $90^\circ$
 ::key D
 Tangent $\perp$ radius.
 
-::tf
+::tf TH TH NB TH
 $ABCD$ is a cyclic quadrilateral with angle $A=110^\circ$ and angle $B=75^\circ$. Decide whether each statement is true or false.
 a) Angle $C=70^\circ$.
 b) Angle $D=105^\circ$.
@@ -320,12 +320,12 @@ d) Angle $A$ and angle $B$ must add up to $180^\circ$.
 ::key T T T F
 Only opposite angles add up to $180^\circ$.
 
-::sa
+::sa TH
 Find each interior angle of a regular pentagon, in degrees.
 ::key 108
 $\dfrac{540}{5}=108$.
 
-::sa
+::sa TH
 The angle at the circumference is $40^\circ$. Find the angle at the centre on the same arc, in degrees.
 ::key 80
 Twice the angle at the circumference.

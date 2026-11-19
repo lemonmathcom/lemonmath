@@ -357,7 +357,7 @@ b) Each square has perimeter $3\times4=12$ cm, so the two squares have $12+12=24
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The perimeter of a triangle with sides $4$ cm, $5$ cm and $7$ cm is
 A. $9$ cm.
 B. $11$ cm.
@@ -366,7 +366,7 @@ D. $16$ cm.
 ::key D
 $4+5+7=16$. Options A, B and C add only two sides ($4+5$, $4+7$, $5+7$), so a side is missing.
 
-::mc
+::mc TH
 A rectangle has length $9$ cm and width $6$ cm. Its perimeter is
 A. $15$ cm.
 B. $30$ cm.
@@ -375,7 +375,7 @@ D. $54$ cm.
 ::key B
 $(9+6)\times2=15\times2=30$. Option A forgets to multiply by $2$; option C is $9+6+9$, with a side missing; option D multiplies the two measurements together.
 
-::mc
+::mc TH
 The perimeter of a square with side $8$ cm is
 A. $16$ cm.
 B. $24$ cm.
@@ -384,7 +384,7 @@ D. $64$ cm.
 ::key C
 $8\times4=32$. Option A multiplies by $2$, option B multiplies by $3$, and option D is $8\times8$.
 
-::mc
+::mc VD
 A plot of land is a rectangle $12$ m long and $7$ m wide. Mr Tu stretches wire once round the plot. The wire is
 A. $19$ m long.
 B. $38$ m long.
@@ -393,7 +393,7 @@ D. $84$ m long.
 ::key B
 Once round is the perimeter: $(12+7)\times2=19\times2=38$ m. Option A forgets to multiply by $2$; option C is $12+7+12$, with a side missing.
 
-::tf
+::tf NB NB TH TH
 Rectangle $ABCD$ has $AB=10$ cm and $BC=4$ cm.
 a) $CD=10$ cm.
 b) $AD=4$ cm.
@@ -402,12 +402,12 @@ d) The perimeter is $28$ cm.
 ::key T T F T
 a) True: opposite sides are equal. b) True: $AD$ and $BC$ are opposite sides. c) False: $14$ is only $10+4$, not yet multiplied by $2$. d) True: $(10+4)\times2=28$.
 
-::sa
+::sa TH
 A square has side $6$ cm. What is its perimeter in centimetres?
 ::key 24
 $6\times4=24$ (cm).
 
-::sa
+::sa TH
 A rectangle is $13$ m long and $8$ m wide. What is its perimeter in metres?
 ::key 42
 $(13+8)\times2=21\times2=42$ (m).

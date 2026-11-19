@@ -266,7 +266,7 @@ The groups of ten from $10$ to $99$ are $10$–$19$, $20$–$29$, …, $90$–$9
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of these numbers is even?
 A. $8\,260$.
 B. $5\,713$.
@@ -275,7 +275,7 @@ D. $3\,001$.
 ::key A
 $8\,260$ ends in $0$. The other numbers end in $3$, $5$, $1$, so they are odd.
 
-::mc
+::mc TH
 The least four-digit odd number is
 A. $1\,000$.
 B. $1\,001$.
@@ -284,7 +284,7 @@ D. $1\,111$.
 ::key B
 $1\,000$ is even, so the odd number just after it is $1\,001$. Option D is bigger.
 
-::mc
+::mc TH
 Three consecutive even numbers are
 A. $10$, $11$, $12$.
 B. $10$, $13$, $16$.
@@ -293,7 +293,7 @@ D. $11$, $13$, $15$.
 ::key C
 Consecutive even numbers differ by $2$. Option A is three consecutive numbers (even and odd), option D is three odd numbers.
 
-::mc
+::mc TH
 When $47$ is divided by $2$, the remainder is
 A. $0$.
 B. $23$.
@@ -302,7 +302,7 @@ D. $1$.
 ::key D
 $47\div2=23$ remainder $1$, so $47$ is odd. Option B is the quotient, not the remainder.
 
-::tf
+::tf NB NB TH TH
 Look at the number $6\,508$.
 a) $6\,508$ is even.
 b) $6\,508$ divided by $2$ leaves a remainder of $0$.
@@ -311,12 +311,12 @@ d) The number just before $6\,508$ is even.
 ::key T T T F
 a) True: it ends in $8$. b) True. c) True: $6\,509$ is odd. d) False: $6\,507$ is odd.
 
-::sa
+::sa TH
 What is the greatest three-digit even number?
 ::key 998
 $999$ is odd, so the greatest even number is $998$.
 
-::sa
+::sa TH
 How many one-digit odd numbers are there?
 ::key 5
 The one-digit odd numbers are $1$, $3$, $5$, $7$, $9$.

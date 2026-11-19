@@ -338,7 +338,7 @@ Vậy diện tích hình viên phân khoảng $3{,}26$ cm².
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Độ dài cung $40^\circ$ của đường tròn bán kính $9$ cm là
 A. $4\pi$ cm.
 B. $2\pi$ cm.
@@ -347,7 +347,7 @@ D. $\pi$ cm.
 ::key B
 $l=\dfrac{\pi\cdot9\cdot40}{180}=2\pi$. A dùng $2\pi R$ thay cho $\pi R$, C dùng công thức diện tích hình quạt, D chia cho $360$ thay vì $180$.
 
-::mc
+::mc TH
 Diện tích hình quạt tròn bán kính $4$ cm, cung $90^\circ$ là
 A. $2\pi$ cm².
 B. $16\pi$ cm².
@@ -356,7 +356,7 @@ D. $4\pi$ cm².
 ::key D
 $S=\dfrac{\pi\cdot16\cdot90}{360}=4\pi$. A là độ dài cung, B là diện tích cả hình tròn, C chia cho $180$ thay vì $360$.
 
-::mc
+::mc TH
 Diện tích hình vành khuyên giới hạn bởi hai đường tròn đồng tâm bán kính $7$ cm và $4$ cm là
 A. $33\pi$ cm².
 B. $9\pi$ cm².
@@ -365,7 +365,7 @@ D. $6\pi$ cm².
 ::key A
 $S=\pi\left(49-16\right)=33\pi$. B tính $\pi(R-r)^2$, C cộng hai bình phương.
 
-::mc
+::mc NB
 Một bánh xe có đường kính $60$ cm. Độ dài đường tròn của bánh xe là
 A. $30\pi$ cm.
 B. $60\pi$ cm.
@@ -374,7 +374,7 @@ D. $900\pi$ cm.
 ::key B
 $C=\pi d=60\pi$ cm. C lấy $60$ làm bán kính, D tính diện tích.
 
-::tf
+::tf TH TH TH VD
 Cho hình quạt tròn bán kính $6$ cm, cung $120^\circ$. Xét tính đúng sai của các mệnh đề sau:
 a) Cung của hình quạt dài $4\pi$ cm.
 b) Diện tích hình quạt bằng $12\pi$ cm².
@@ -383,12 +383,12 @@ d) Chu vi hình quạt bằng $(4\pi+12)$ cm.
 ::key Đ Đ S Đ
 a) Đúng: $l=\dfrac{\pi\cdot6\cdot120}{180}=4\pi$. b) Đúng: $S=\dfrac{\pi\cdot36\cdot120}{360}=12\pi$. c) Sai: $S=\dfrac{lR}{2}$. d) Đúng: chu vi gồm cung và hai bán kính.
 
-::sa
+::sa TH
 Tính độ dài (đơn vị: cm) của cung $36^\circ$ trên đường tròn bán kính $10$ cm (làm tròn kết quả đến hàng phần trăm).
 ::key 6,28
 $l=\dfrac{\pi\cdot10\cdot36}{180}=2\pi\approx6{,}28$ cm.
 
-::sa
+::sa TH
 Tính diện tích (đơn vị: cm²) của hình vành khuyên giới hạn bởi hai đường tròn đồng tâm bán kính $6$ cm và $4$ cm (làm tròn kết quả đến hàng đơn vị).
 ::key 63
 $S=\pi\left(36-16\right)=20\pi\approx62{,}83\approx63$ cm².

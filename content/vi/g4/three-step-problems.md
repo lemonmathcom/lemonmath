@@ -389,7 +389,7 @@ $$480-275=205\ \text{(chiếc)}.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc VD
 Mẹ mua $3$ hộp sữa, mỗi hộp $25\,000$ đồng, và $1$ hộp bánh giá $18\,000$ đồng. Mẹ đưa $200\,000$ đồng. Mẹ được trả lại
 A. $125\,000$ đồng.
 B. $107\,000$ đồng.
@@ -398,7 +398,7 @@ D. $293\,000$ đồng.
 ::key B
 Tiền sữa là $3\times25\,000=75\,000$ đồng; tiền phải trả là $75\,000+18\,000=93\,000$ đồng; tiền trả lại là $200\,000-93\,000=107\,000$ đồng. Phương án A quên tiền bánh, phương án C là số tiền phải trả, phương án D là phép cộng.
 
-::mc
+::mc VD
 Một cửa hàng nhập $3$ thùng bút, mỗi thùng $12$ hộp, mỗi hộp $10$ chiếc. Cửa hàng bán $250$ chiếc. Cửa hàng còn lại
 A. $360$ chiếc.
 B. $610$ chiếc.
@@ -407,7 +407,7 @@ D. $11$ chiếc.
 ::key C
 Số hộp là $3\times12=36$; số bút là $36\times10=360$; số bút còn lại là $360-250=110$. Phương án A chưa trừ số bút đã bán, phương án B cộng thay vì trừ, phương án D lấy $36-25$ nên nhầm hộp với chiếc.
 
-::mc
+::mc VD
 Mua $5$ gói kẹo hết $30\,000$ đồng. Mua $8$ gói kẹo như vậy và $1$ hộp bánh giá $25\,000$ đồng thì hết
 A. $48\,000$ đồng.
 B. $55\,000$ đồng.
@@ -416,7 +416,7 @@ D. $73\,000$ đồng.
 ::key D
 Giá một gói là $30\,000:5=6\,000$ đồng; tiền $8$ gói là $6\,000\times8=48\,000$ đồng; tổng là $48\,000+25\,000=73\,000$ đồng. Phương án A quên tiền bánh, phương án C nhân $30\,000$ với $8$, phương án B cộng $30\,000+25\,000$.
 
-::mc
+::mc VD
 Một mảnh đất hình chữ nhật có chiều rộng $20$ m, chiều dài gấp đôi chiều rộng. Rào xung quanh, mỗi mét giá $10\,000$ đồng. Tiền rào là
 A. $1\,200\,000$ đồng.
 B. $600\,000$ đồng.
@@ -425,7 +425,7 @@ D. $400\,000$ đồng.
 ::key A
 Chiều dài là $20\times2=40$ m; chu vi là $(40+20)\times2=120$ m; tiền rào là $120\times10\,000=1\,200\,000$ đồng. Phương án B quên nhân với $2$ khi tính chu vi, phương án C chỉ tính hai cạnh dài, phương án D chỉ tính một cạnh dài.
 
-::tf
+::tf TH TH VD TH
 Em xét bài toán: "Cửa hàng có $600$ kg gạo, buổi sáng bán $125$ kg, buổi chiều bán gấp đôi buổi sáng."
 a) Buổi chiều bán $250$ kg gạo.
 b) Cả ngày bán $375$ kg gạo.
@@ -434,12 +434,12 @@ d) Bài toán cần ba bước tính.
 ::key Đ Đ S Đ
 a) Đúng: $125\times2=250$. b) Đúng: $125+250=375$. c) Sai: $600-375=225$ kg; $275$ là kết quả sai. d) Đúng: tìm số gạo buổi chiều, số gạo cả ngày, rồi số gạo còn lại.
 
-::sa
+::sa VD
 Một tấm vải dài $48$ m, cắt $5$ bộ quần áo, mỗi bộ $3$ m, phần còn lại cắt khăn mỗi chiếc $2$ m. Cắt được nhiều nhất bao nhiêu chiếc khăn?
 ::key 16
 $3\times5=15$ m; $48-15=33$ m; $33:2=16$ (dư $1$). Vậy cắt được $16$ chiếc khăn.
 
-::sa
+::sa VD
 Một cửa hàng nhập $3$ thùng bút, mỗi thùng $15$ hộp, mỗi hộp $10$ chiếc, và bán $300$ chiếc. Cửa hàng còn lại bao nhiêu chiếc bút?
 ::key 150
 $3\times15=45$ hộp; $45\times10=450$ chiếc; $450-300=150$ chiếc.

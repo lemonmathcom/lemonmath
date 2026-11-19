@@ -324,7 +324,7 @@ $$20\div2=10.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $14\div2$ equals
 A. $12$.
 B. $7$.
@@ -333,7 +333,7 @@ D. $28$.
 ::key B
 $2\times7=14$, so $14\div2=7$. Option A is a subtraction, option C is an addition and option D is a multiplication.
 
-::mc
+::mc NB
 $35\div5$ equals
 A. $30$.
 B. $40$.
@@ -342,7 +342,7 @@ D. $6$.
 ::key C
 $5\times7=35$, so $35\div5=7$. Option D uses $5\times6=30$ by mistake.
 
-::mc
+::mc TH
 18 children are split into teams of 2. The number of teams is
 A. $16$ teams.
 B. $20$ teams.
@@ -351,7 +351,7 @@ D. $9$ teams.
 ::key D
 $2\times9=18$, so $18\div2=9$. Option A is a subtraction, option B is an addition and option C is a multiplication.
 
-::mc
+::mc TH
 The long hand of a clock has passed 20 minutes. The long hand points to
 A. $4$.
 B. $5$.
@@ -360,7 +360,7 @@ D. $20$.
 ::key A
 $20\div5=4$, so the long hand points to 4. Option D copies the number of minutes.
 
-::tf
+::tf NB NB NB NB
 Look at the division facts for 2 and 5.
 a) $8\div2=3$.
 b) $30\div5=5$.
@@ -369,12 +369,12 @@ d) $45\div5=8$.
 ::key F F T F
 a) False: $8\div2=4$. b) False: $30\div5=6$. c) True: $2\times10=20$. d) False: $45\div5=9$.
 
-::sa
+::sa NB
 Work out $18\div2$.
 ::key 9
 $2\times9=18$, so $18\div2=9$.
 
-::sa
+::sa VD
 30 exercise books are shared equally between 5 children. How many exercise books does each child get?
 ::key 6
 $5\times6=30$, so $30\div5=6$ (books).

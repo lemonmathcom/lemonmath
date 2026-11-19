@@ -662,7 +662,7 @@ Vậy có vô số số hữu tỉ nằm giữa $\dfrac13$ và $\dfrac12$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Phát biểu nào sau đây đúng?
 A. Mọi số hữu tỉ đều là số nguyên.
 B. Số $0$ không là số hữu tỉ.
@@ -671,7 +671,7 @@ D. Phân số có mẫu âm không là số hữu tỉ.
 ::key C
 Số nguyên $n=\dfrac n1$ nên là số hữu tỉ. A đảo ngược quan hệ $\mathbb{Z}\subset\mathbb{Q}$, B quên $0=\dfrac01$, D quên rằng $\dfrac{3}{-4}=\dfrac{-3}{4}$.
 
-::mc
+::mc TH
 Số lớn nhất trong các số $-\dfrac35$; $-\dfrac23$; $-\dfrac58$; $-\dfrac12$ là
 A. $-\dfrac35$.
 B. $-\dfrac23$.
@@ -680,7 +680,7 @@ D. $-\dfrac12$.
 ::key D
 Mẫu chung $120$: $\dfrac{-72}{120}$, $\dfrac{-80}{120}$, $\dfrac{-75}{120}$, $\dfrac{-60}{120}$. Số lớn nhất là $-\dfrac{60}{120}=-\dfrac12$. B là số nhỏ nhất, người làm nhầm tưởng mẫu nhỏ thì số lớn.
 
-::mc
+::mc TH
 Số đối của $\dfrac{-4}{-9}$ là
 A. $-\dfrac49$.
 B. $\dfrac49$.
@@ -689,7 +689,7 @@ D. $-\dfrac94$.
 ::key A
 Ta có $\dfrac{-4}{-9}=\dfrac49$ nên số đối là $-\dfrac49$. B là chính số đó, C và D nhầm với việc đảo tử và mẫu.
 
-::mc
+::mc TH
 Biết $|x|=\dfrac56$. Khi đó $x$ bằng
 A. $\dfrac56$.
 B. $\dfrac56$ hoặc $-\dfrac56$.
@@ -698,7 +698,7 @@ D. $\dfrac65$ hoặc $-\dfrac65$.
 ::key B
 Điểm $x$ cách $O$ một khoảng $\dfrac56$ nên có hai giá trị $\pm\dfrac56$. A và C bỏ sót một giá trị, D đảo tử và mẫu.
 
-::tf
+::tf TH TH TH TH
 Cho hai số hữu tỉ $x=-\dfrac34$ và $y=-0{,}8$. Xét tính đúng sai của các mệnh đề sau:
 a) $x<y$.
 b) $|x|<|y|$.
@@ -707,12 +707,12 @@ d) Có đúng một số hữu tỉ nằm giữa $x$ và $y$.
 ::key S Đ Đ S
 a) Sai: $x=-0{,}75>-0{,}8=y$. b) Đúng: $|x|=0{,}75<0{,}8=|y|$. c) Đúng: $-y=0{,}8=\dfrac45$. d) Sai: giữa hai số hữu tỉ khác nhau có vô số số hữu tỉ.
 
-::sa
+::sa VD
 Có bao nhiêu số nguyên $x$ thoả mãn $|x|<\dfrac72$?
 ::key 7
 Ta có $|x|<3{,}5$ nên $-3{,}5<x<3{,}5$, tức $x\in\{-3; -2; -1; 0; 1; 2; 3\}$, có $7$ số.
 
-::sa
+::sa TH
 Số đối của $-\dfrac7{20}$ viết dưới dạng số thập phân là bao nhiêu?
 ::key 0,35
 Số đối của $-\dfrac7{20}$ là $\dfrac7{20}=\dfrac{35}{100}=0{,}35$.

@@ -312,7 +312,7 @@ Multiply the numerator and denominator by $2$: $\dfrac{3}{5}=\dfrac{18}{30}$ and
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The quotient of $3\div4$ written as a fraction is
 A. $\dfrac{4}{3}$.
 B. $\dfrac{3}{4}$.
@@ -321,7 +321,7 @@ D. $\dfrac{1}{12}$.
 ::key B
 The dividend $3$ is the numerator and the divisor $4$ is the denominator: $3\div4=\dfrac{3}{4}$. Option A is written upside down.
 
-::mc
+::mc TH
 Which fraction is equal to $\dfrac{3}{5}$?
 A. $\dfrac{6}{15}$.
 B. $\dfrac{9}{20}$.
@@ -330,7 +330,7 @@ D. $\dfrac{3}{10}$.
 ::key C
 $\dfrac{3}{5}=\dfrac{3\times4}{5\times4}=\dfrac{12}{20}$. Option A equals $\dfrac{2}{5}$.
 
-::mc
+::mc TH
 Simplifying $\dfrac{42}{63}$ gives the fraction in its simplest form
 A. $\dfrac{21}{32}$.
 B. $\dfrac{6}{9}$.
@@ -339,7 +339,7 @@ D. $\dfrac{2}{3}$.
 ::key D
 $\dfrac{42}{63}=\dfrac{42\div21}{63\div21}=\dfrac{2}{3}$. Options B and C can still be simplified.
 
-::mc
+::mc TH
 Putting $\dfrac{3}{4}$, $\dfrac{2}{3}$, $\dfrac{5}{6}$ in order from least to greatest gives
 A. $\dfrac{2}{3}$, $\dfrac{3}{4}$, $\dfrac{5}{6}$.
 B. $\dfrac{3}{4}$, $\dfrac{2}{3}$, $\dfrac{5}{6}$.
@@ -348,7 +348,7 @@ D. $\dfrac{5}{6}$, $\dfrac{3}{4}$, $\dfrac{2}{3}$.
 ::key A
 Over the denominator $12$: $\dfrac{8}{12}<\dfrac{9}{12}<\dfrac{10}{12}$.
 
-::tf
+::tf NB TH TH TH
 Look at the fractions $\dfrac{5}{6}$ and $\dfrac{7}{9}$.
 a) The number $18$ is a common denominator of the two fractions.
 b) $\dfrac{5}{6}=\dfrac{10}{18}$.
@@ -357,12 +357,12 @@ d) $\dfrac{5}{6}>\dfrac{7}{9}$.
 ::key T F F T
 a) True: $18$ is divisible by $6$ and $9$. b) False: $\dfrac{5}{6}=\dfrac{15}{18}$. c) False: $\dfrac{7}{9}=\dfrac{14}{18}$. d) True: $15>14$.
 
-::sa
+::sa VD
 Find $x$ if $\dfrac{7}{9}=\dfrac{28}{x}$.
 ::key 36
 Since $28=7\times4$, $x=9\times4=36$.
 
-::sa
+::sa VD
 Ha shares $9$ cakes equally among $12$ friends. Each friend gets a fraction of a cake; when it is simplified to its simplest form, what is the denominator?
 ::key 4
 $9\div12=\dfrac{9}{12}=\dfrac{3}{4}$, so the denominator is $4$.

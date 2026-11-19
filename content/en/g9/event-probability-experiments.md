@@ -341,7 +341,7 @@ So the required probability is $\dfrac29$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A fair dice is rolled. The probability of getting an odd number is
 A. $\dfrac13$.
 B. $\dfrac16$.
@@ -350,7 +350,7 @@ D. $\dfrac12$.
 ::key D
 There are $3$ favourable outcomes $1, 3, 5$ out of $6$. A forgets that $1$ is odd, B is the probability of one face, C is the number of favourable outcomes, not a probability.
 
-::mc
+::mc TH
 Two fair coins are tossed. The probability that both coins show heads is
 A. $\dfrac13$.
 B. $\dfrac14$.
@@ -359,7 +359,7 @@ D. $\dfrac34$.
 ::key B
 Only $(H, H)$ out of $4$ outcomes. A wrongly uses three outcomes that are not equally likely, C is the probability that one coin shows heads, D is the probability of at least one head.
 
-::mc
+::mc VD
 Two fair dice are rolled. The probability that the total is $4$ is
 A. $\dfrac{1}{12}$.
 B. $\dfrac{1}{18}$.
@@ -368,7 +368,7 @@ D. $\dfrac{1}{9}$.
 ::key A
 $(1, 3), (2, 2), (3, 1)$: $\dfrac{3}{36}=\dfrac{1}{12}$. B ignores the order, C treats the $11$ totals from $2$ to $12$ as equally likely, D counts $(2, 2)$ twice.
 
-::mc
+::mc TH
 A box has $3$ red marbles and $2$ blue marbles. One marble is taken at random. The probability of getting a blue marble is
 A. $\dfrac23$.
 B. $\dfrac35$.
@@ -377,7 +377,7 @@ D. $\dfrac12$.
 ::key C
 $k=2$, $n=5$. A divides the number of blue marbles by the number of red ones, B is the probability of a red marble, D treats the two colours as two equally likely outcomes.
 
-::tf
+::tf TH TH VD TH
 A box contains four cards showing $1$, $2$, $3$, $4$. Two cards are drawn at random at the same time. Decide whether each statement is true or false.
 a) The sample space has $6$ elements.
 b) The probability that the sum of the two numbers is even is $\dfrac13$.
@@ -386,12 +386,12 @@ d) The probability that the sum of the two numbers is $5$ is $\dfrac12$.
 ::key T T T F
 a) True: $12, 13, 14, 23, 24, 34$. b) True: $\{1, 3\}$, $\{2, 4\}$. c) True: only $\{1, 3\}$ has an odd product. d) False: $\{1, 4\}$, $\{2, 3\}$ give $\dfrac26=\dfrac13$.
 
-::sa
+::sa VD
 Roll two fair dice. Find the probability that both dice show the same score (give your answer to 2 decimal places).
 ::key 0.17
 There are $6$ outcomes $(i, i)$ out of $36$: $\dfrac16\approx0.17$.
 
-::sa
+::sa VD
 Two students are chosen at random at the same time from a group of $2$ boys and $3$ girls. Find the probability of choosing $1$ boy and $1$ girl (as a decimal).
 ::key 0.6
 There are $2\cdot3=6$ boy–girl pairs out of $10$ pairs: $\dfrac{6}{10}=0.6$.

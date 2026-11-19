@@ -258,7 +258,7 @@ $(10+\square)-8=5$ nên $10+\square=13$, suy ra $\square=3$. Thử lại: $73-28
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $73-38$ là
 A. $45$.
 B. $35$.
@@ -267,7 +267,7 @@ D. $25$.
 ::key B
 $13-8=5$ và $7-1-3=3$, nên $73-38=35$. Phương án A quên bớt $1$ chục đã mượn, C là $73+38$.
 
-::mc
+::mc TH
 Khi tính $61-25$, ở hàng chục em tính
 A. $6-1-2$.
 B. $6-2$.
@@ -276,7 +276,7 @@ D. $6-1+2$.
 ::key A
 Hàng đơn vị đã mượn $1$ chục nên hàng chục phải bớt $1$ rồi bớt $2$: $6-1-2=3$. Kết quả $61-25=36$.
 
-::mc
+::mc TH
 Phép tính nào có kết quả bằng $45$?
 A. $82-37$.
 B. $83-37$.
@@ -285,7 +285,7 @@ D. $82-36$.
 ::key A
 $82-37=45$. Các phép tính khác lần lượt bằng $46$, $44$, $46$.
 
-::mc
+::mc VD
 Cửa hàng có $62$ chiếc bút, bán đi $38$ chiếc. Cửa hàng còn lại bao nhiêu chiếc bút?
 A. $36$ chiếc.
 B. $34$ chiếc.
@@ -294,7 +294,7 @@ D. $24$ chiếc.
 ::key D
 "Bán đi", "còn lại" là bớt đi: $62-38=24$. Phương án A lấy số lớn trừ số nhỏ ở hàng đơn vị, B quên bớt $1$ chục đã mượn, C là $62+38$.
 
-::tf
+::tf NB TH TH VD
 Em xét phép trừ $64-28$.
 a) Hàng đơn vị: $4$ không trừ được $8$.
 b) Mượn $1$ chục thì hàng đơn vị có $14$.
@@ -303,12 +303,12 @@ d) $64-28=46$.
 ::key Đ Đ Đ S
 a) Đúng: $4<8$. b) Đúng: $10+4=14$. c) Đúng: $6-1-2=3$. d) Sai: $14-8=6$ và $3$ chục, được $36$.
 
-::sa
+::sa VD
 Tính $81-46$.
 ::key 35
 $11-6=5$, hàng chục $8-1-4=3$. Vậy $81-46=35$.
 
-::sa
+::sa VD
 Bể có $73$ con cá, người ta vớt ra $29$ con cá. Bể còn lại bao nhiêu con cá?
 ::key 44
 $13-9=4$, hàng chục $7-1-2=4$. Vậy $73-29=44$ (con cá).

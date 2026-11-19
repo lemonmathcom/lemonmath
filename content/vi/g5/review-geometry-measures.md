@@ -319,7 +319,7 @@ Diện tích lớn nhất là $36\ \text{cm}^2$, khi hình chữ nhật là hìn
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $3\ \text{m}^2\ 5\ \text{dm}^2$ khi đổi ra đề-xi-mét vuông là
 A. $305\ \text{dm}^2$.
 B. $3005\ \text{dm}^2$.
@@ -328,7 +328,7 @@ D. $35\ \text{dm}^2$.
 ::key A
 $3\ \text{m}^2=300\ \text{dm}^2$ nên tổng là $305\ \text{dm}^2$. Phương án D coi $1\ \text{m}^2=10\ \text{dm}^2$; B và C nhầm số đề-xi-mét vuông trong $1\ \text{m}^2$.
 
-::mc
+::mc NB
 Một hình chữ nhật dài $9$ cm, rộng $4$ cm. Chu vi của hình chữ nhật là
 A. $36$ cm.
 B. $26$ cm.
@@ -337,7 +337,7 @@ D. $52$ cm.
 ::key B
 $(9+4)\times2=26$ cm. Phương án A là diện tích; C quên nhân $2$; D nhân với $4$ như chu vi hình vuông.
 
-::mc
+::mc VD
 Một hình vuông có chu vi $20$ cm. Diện tích của hình vuông là
 A. $20\ \text{cm}^2$.
 B. $100\ \text{cm}^2$.
@@ -346,7 +346,7 @@ D. $400\ \text{cm}^2$.
 ::key C
 Cạnh là $20:4=5$ cm nên diện tích là $5\times5=25\ \text{cm}^2$. Phương án B nhân chu vi với cạnh; C nhân cạnh với $4$; D lấy chu vi nhân chu vi.
 
-::mc
+::mc VD
 Nền một căn phòng hình chữ nhật dài $5$ m, rộng $4$ m được lát bằng gạch vuông cạnh $50$ cm. Số viên gạch cần dùng là
 A. $20$ viên.
 B. $40$ viên.
@@ -355,7 +355,7 @@ D. $80$ viên.
 ::key D
 Dọc chiều dài xếp $500:50=10$ viên, dọc chiều rộng xếp $400:50=8$ viên, nên cần $10\times8=80$ viên. Phương án A quên đổi đơn vị; B lấy $50$ làm diện tích một viên gạch; D coi $1\ \text{m}^2=10\ \text{dm}^2$.
 
-::tf
+::tf NB TH TH VD
 Một hình chữ nhật có chiều dài $8$ m và chiều rộng $5$ m.
 a) Diện tích hình chữ nhật là $40\ \text{m}^2$.
 b) Chu vi hình chữ nhật là $8\times5=40$ m.
@@ -364,12 +364,12 @@ d) Nếu tăng chiều dài thêm $2$ m thì chu vi tăng thêm $2$ m.
 ::key Đ S Đ S
 a) Đúng: $8\times5=40$. b) Sai: $8\times5$ là diện tích; chu vi là $(8+5)\times2=26$ m. c) Đúng: $40\times10\,000=400\,000$. d) Sai: chiều dài tăng $2$ m thì $(a+b)$ tăng $2$ m, nên chu vi tăng $4$ m.
 
-::sa
+::sa TH
 Số?  $6\ \text{m}^2\ 40\ \text{dm}^2=?\ \text{dm}^2$.
 ::key 640
 $6\ \text{m}^2=600\ \text{dm}^2$, nên $600+40=640\ \text{dm}^2$.
 
-::sa
+::sa VD
 Một sân hình chữ nhật dài $15$ m, rộng $8$ m. Em đi bộ quanh sân đúng hai vòng. Hỏi em đi được bao nhiêu mét?
 ::key 92
 Một vòng dài $(15+8)\times2=46$ m, hai vòng dài $46\times2=92$ m.

@@ -288,7 +288,7 @@ $$\left(1-\dfrac{1}{2}\right)+\left(\dfrac{1}{2}-\dfrac{1}{3}\right)+\left(\dfra
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $\dfrac{2}{3}+\dfrac{1}{5}$ là
 A. $\dfrac{3}{8}$.
 B. $\dfrac{11}{15}$.
@@ -297,7 +297,7 @@ D. $\dfrac{13}{15}$.
 ::key D
 $\dfrac{2}{3}=\dfrac{10}{15}$ và $\dfrac{1}{5}=\dfrac{3}{15}$ nên tổng là $\dfrac{13}{15}$. Phương án A cộng tử với tử, mẫu với mẫu; C và B quên đổi tử số.
 
-::mc
+::mc TH
 Kết quả của $\dfrac{7}{8}-\dfrac{1}{4}$ là
 A. $\dfrac{5}{8}$.
 B. $\dfrac{3}{4}$.
@@ -306,7 +306,7 @@ D. $\dfrac{6}{4}$.
 ::key A
 $\dfrac{7}{8}-\dfrac{2}{8}=\dfrac{5}{8}$. Phương án D trừ tử với tử, mẫu với mẫu; B quên đổi tử số của $\dfrac{1}{4}$; C trừ tử và cộng mẫu.
 
-::mc
+::mc TH
 Kết quả của $\dfrac{1}{4}+\dfrac{1}{12}$, viết dưới dạng phân số tối giản, là
 A. $\dfrac{1}{8}$.
 B. $\dfrac{1}{3}$.
@@ -315,7 +315,7 @@ D. $\dfrac{1}{6}$.
 ::key B
 $\dfrac{3}{12}+\dfrac{1}{12}=\dfrac{4}{12}=\dfrac{1}{3}$. Phương án A cộng tử với tử, mẫu với mẫu; C chưa rút gọn; D quên đổi tử số của $\dfrac{1}{4}$.
 
-::mc
+::mc VD
 Một thùng sơn, buổi sáng dùng $\dfrac{1}{3}$ thùng, buổi chiều dùng $\dfrac{1}{5}$ thùng. Số phần thùng sơn còn lại là
 A. $\dfrac{8}{15}$.
 B. $\dfrac{3}{4}$.
@@ -324,7 +324,7 @@ D. $\dfrac{3}{5}$.
 ::key C
 Đã dùng $\dfrac{5}{15}+\dfrac{3}{15}=\dfrac{8}{15}$ thùng, còn lại $1-\dfrac{8}{15}=\dfrac{7}{15}$. Phương án A quên lấy $1$ trừ đi; B cộng tử với tử, mẫu với mẫu rồi lấy $1$ trừ đi; D quên đổi tử số của $\dfrac{1}{5}$.
 
-::tf
+::tf TH NB TH TH
 Em xét hiệu $\dfrac{3}{4}-\dfrac{1}{6}$.
 a) Mẫu số chung nhỏ nhất của hai phân số là $24$.
 b) $\dfrac{3}{4}-\dfrac{1}{6}=\dfrac{9}{12}-\dfrac{2}{12}$.
@@ -333,12 +333,12 @@ d) Hiệu này lớn hơn $\dfrac{1}{2}$.
 ::key S Đ Đ Đ
 a) Sai: $12$ chia hết cho cả $4$ và $6$ nên mẫu số chung nhỏ nhất là $12$. b) Đúng: $\dfrac{3}{4}=\dfrac{9}{12}$ và $\dfrac{1}{6}=\dfrac{2}{12}$. c) Đúng: $9-2=7$. d) Đúng: $\dfrac{7}{12}>\dfrac{6}{12}=\dfrac{1}{2}$.
 
-::sa
+::sa TH
 Số?  $\dfrac{3}{4}-\dfrac{2}{5}=\dfrac{?}{20}$.
 ::key 7
 $\dfrac{15}{20}-\dfrac{8}{20}=\dfrac{7}{20}$.
 
-::sa
+::sa VD
 Mỗi giờ vòi thứ nhất chảy được $\dfrac{1}{4}$ bể, vòi thứ hai chảy được $\dfrac{1}{6}$ bể. Trong $1$ giờ cả hai vòi chảy được $\dfrac{a}{12}$ bể. Tìm $a$.
 ::key 5
 $\dfrac{3}{12}+\dfrac{2}{12}=\dfrac{5}{12}$, nên $a=5$.

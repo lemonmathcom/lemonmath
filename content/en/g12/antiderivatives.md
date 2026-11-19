@@ -404,7 +404,7 @@ We have $\sin^2\dfrac x2=\dfrac{1-\cos x}{2}$ (the half-angle formula). Hence $\
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The family of antiderivatives of the function $f(x)=3x^2-\sin x$ is
 A. $x^3+\cos x+C$.
 B. $x^3-\cos x+C$.
@@ -413,7 +413,7 @@ D. $3x^3+\cos x+C$.
 ::key A
 We have $\displaystyle\int 3x^2dx=x^3$ and $\displaystyle\int(-\sin x)\,dx=\cos x$ (plus a constant). Option B has the wrong sign, C differentiates $3x^2$ instead of integrating it, and D forgets to divide by $3$.
 
-::mc
+::mc NB
 The family of antiderivatives of the function $f(x)=2^x$ is
 A. $2^x\ln 2+C$.
 B. $\dfrac{2^x}{\ln 2}+C$.
@@ -422,7 +422,7 @@ D. $x\cdot 2^{x-1}+C$.
 ::key B
 Since $\left(\dfrac{2^x}{\ln2}\right)'=\dfrac{2^x\ln2}{\ln2}=2^x$, the answer is B. Option A is the derivative of $2^x$; C and D wrongly use the $x^\alpha$ formula for an exponential.
 
-::mc
+::mc VD
 Let $F(x)$ be the antiderivative of the function $f(x)=2x+1$ that satisfies $F(1)=5$. The value of $F(2)$ is
 A. $6$.
 B. $11$.
@@ -431,7 +431,7 @@ D. $5$.
 ::key C
 We have $F(x)=x^2+x+C$. Since $F(1)=2+C=5$, $C=3$, so $F(2)=4+2+3=9$. Option A forgets to find $C$, B takes $C=5$, and D is $f(2)$.
 
-::mc
+::mc VD
 A car brakes with velocity $v(t)=15-3t$ (m/s) until it stops. The distance it travels from braking until it stops is
 A. $75$ m.
 B. $37.5$ m.
@@ -440,7 +440,7 @@ D. $0$ m.
 ::key B
 The car stops when $v(t)=0\iff t=5$. We have $s(t)=15t-\dfrac{3t^2}{2}$, so $s(5)=75-37.5=37.5$. Option A treats the velocity as constant, C has the wrong sign on the second term, and D forgets to divide $t^2$ by $2$.
 
-::tf
+::tf TH TH VD VD
 Consider the function $f(x)=e^x-2x$. Decide whether each statement is true or false.
 a) $F(x)=e^x-x^2$ is an antiderivative of $f(x)$.
 b) $\displaystyle\int f(x)\,dx=e^x-2+C$.
@@ -449,12 +449,12 @@ d) For $F(x)$ in c), $F(1)=e+1$.
 ::key T F T T
 a) True: we have $(e^x-x^2)'=e^x-2x$. b) False: $e^x-2$ is the derivative of $f$, not an antiderivative. c) True: since $F(0)=1+C=3$, $C=2$. d) True: substituting $x=1$, we get $F(1)=e-1+2=e+1$.
 
-::sa
+::sa VD
 Let $F(x)$ be the antiderivative of the function $f(x)=6x^2-4x+3$ that satisfies $F(0)=-2$. Find $F(2)$.
 ::key 12
 We have $F(x)=2x^3-2x^2+3x+C$ and $F(0)=C=-2$. So $F(2)=16-8+6-2=12$.
 
-::sa
+::sa VD
 Let $F(x)$ be the antiderivative of the function $f(x)=e^x+\dfrac1x$ on $(0, +\infty)$ that satisfies $F(1)=e$. Find $F(2)$ (give your answer to 1 decimal place).
 ::key 8.1
 We have $F(x)=e^x+\ln x+C$. Since $F(1)=e+C=e$, $C=0$. So $F(2)=e^2+\ln2\approx7.389+0.693\approx8.1$.

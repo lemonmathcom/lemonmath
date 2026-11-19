@@ -484,7 +484,7 @@ So $OM'$ bisects $\angle BOD$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The sum of two adjacent supplementary angles is
 A. $180^\circ$.
 B. $100^\circ$.
@@ -493,7 +493,7 @@ D. $360^\circ$.
 ::key A
 Two adjacent supplementary angles make a straight angle, so the sum is $180^\circ$. $90^\circ$ is the sum of complementary angles and $360^\circ$ is a full turn.
 
-::mc
+::mc NB
 The lines $AB$ and $CD$ meet at $O$ and $\angle AOC=70^\circ$. Then $\angle BOD$ equals
 A. $110^\circ$.
 B. $70^\circ$.
@@ -502,7 +502,7 @@ D. $290^\circ$.
 ::key B
 $\angle BOD$ and $\angle AOC$ are vertically opposite, so they are equal. B is the adjacent supplementary angle, C is $90^\circ-70^\circ$, D is $360^\circ-70^\circ$.
 
-::mc
+::mc TH
 The ray $Oz$ bisects $\angle xOy=84^\circ$. Then $\angle xOz$ equals
 A. $168^\circ$.
 B. $84^\circ$.
@@ -511,7 +511,7 @@ D. $96^\circ$.
 ::key C
 $\angle xOz=\dfrac{84^\circ}2=42^\circ$. A doubles instead of halving, B keeps the whole angle, D is $180^\circ-84^\circ$.
 
-::mc
+::mc VD
 Two adjacent supplementary angles, one of which is $3$ times the other. The larger angle equals
 A. $90^\circ$.
 B. $45^\circ$.
@@ -520,7 +520,7 @@ D. $135^\circ$.
 ::key D
 Let the smaller angle be $y$; then $y+3y=180^\circ$, so $y=45^\circ$ and the larger angle is $135^\circ$. D is the smaller angle.
 
-::tf
+::tf NB TH TH TH
 The lines $xx'$ and $yy'$ meet at $O$ and $\angle xOy=55^\circ$. Decide whether each statement is true or false.
 a) $\angle x'Oy'=55^\circ$.
 b) $\angle xOy'=125^\circ$.
@@ -529,12 +529,12 @@ d) The bisector of $\angle xOy$ splits it into two angles of $55^\circ$.
 ::key T T T F
 a) True: vertically opposite. b) True: adjacent supplementary to $\angle xOy$, $180^\circ-55^\circ=125^\circ$. c) True: they share the arm $Oy$ and the other arms are opposite rays. d) False: the two angles are $\dfrac{55^\circ}2=27.5^\circ$.
 
-::sa
+::sa TH
 Two adjacent supplementary angles, one of which is $38^\circ$. What is the other angle, in degrees?
 ::key 142
 $180-38=142$.
 
-::sa
+::sa TH
 The ray $Oz$ bisects $\angle xOy=130^\circ$. Find $\angle xOz$ (in degrees).
 ::key 65
 $130\div2=65$.

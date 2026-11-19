@@ -349,7 +349,7 @@ c) After Mum's gift, Hung has $31\,000+20\,000=51\,000$ (dong). Since $51\,000>4
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 One $10\,000$ dong note and two $5\,000$ dong notes make
 A. $15\,000$ dong.
 B. $20\,000$ dong.
@@ -358,7 +358,7 @@ D. $25\,000$ dong.
 ::key B
 $10\,000+5\,000+5\,000=20\,000$ dong. Option A leaves out one $5\,000$ note; option D adds one $5\,000$ note too many.
 
-::mc
+::mc TH
 Mum hands over $50\,000$ dong for shopping that costs $32\,000$ dong. The seller gives her change of
 A. $82\,000$ dong.
 B. $22\,000$ dong.
@@ -367,7 +367,7 @@ D. $28\,000$ dong.
 ::key C
 $50\,000-32\,000=18\,000$. Option A adds instead of subtracting; option B is a subtraction slip ($50-32$ is not $22$).
 
-::mc
+::mc TH
 An buys three items costing $9\,000$ dong, $6\,000$ dong and $4\,000$ dong. The total cost is
 A. $10\,000$ dong.
 B. $13\,000$ dong.
@@ -376,7 +376,7 @@ D. $19\,000$ dong.
 ::key D
 $9\,000+6\,000+4\,000=19\,000$. Options B, C and A add only two of the items ($9+4$, $9+6$, $6+4$).
 
-::mc
+::mc VD
 Lan has $40\,000$ dong and wants to buy two items costing $25\,000$ dong and $18\,000$ dong. Which statement is true?
 A. Lan does not have enough money; she is $3\,000$ dong short.
 B. Lan has enough money with $15\,000$ dong left over.
@@ -385,7 +385,7 @@ D. Lan does not have enough money; she is $43\,000$ dong short.
 ::key A
 The total cost is $25\,000+18\,000=43\,000$. Since $43\,000>40\,000$, Lan is $43\,000-40\,000=3\,000$ dong short. Option B only counts one item; option D takes the total cost as the amount short.
 
-::tf
+::tf TH TH VD VD
 Nam has one $20\,000$ dong note, one $10\,000$ dong note and one $5\,000$ dong note.
 a) Nam has $35\,000$ dong.
 b) Nam can buy something that costs $40\,000$ dong.
@@ -394,12 +394,12 @@ d) If Nam hands over all three notes for something costing $30\,000$ dong, he ge
 ::key T F T F
 a) True: $20+10+5=35$ thousand. b) False: $35\,000<40\,000$, so he does not have enough. c) True: $35\,000-28\,000=7\,000$. d) False: $35\,000-30\,000=5\,000$, not $15\,000$.
 
-::sa
+::sa TH
 Mai has two $5\,000$ dong notes and one $2\,000$ dong note. How many thousand dong does Mai have altogether?
 ::key 12
 $5+5+2=12$ (thousand dong).
 
-::sa
+::sa TH
 Dad hands over $50\,000$ dong for shopping that costs $36\,000$ dong. How many thousand dong change does he get?
 ::key 14
 $50-36=14$ (thousand dong).

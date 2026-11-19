@@ -270,7 +270,7 @@ a) $600$. b) $P=300$. c) Lõm lên: $P(0)=100<300$, nên $\dfrac{dP}{dt}$ vẫn 
 :::
 
 :::quiz
-::mc
+::mc TH
 Hàm số nào là nghiệm của $\dfrac{dy}{dx}=-2y$?
 A. $y=e^{-2x}+1$
 B. $y=-2e^{x}$
@@ -279,7 +279,7 @@ D. $y=e^{2x}$
 ::key C
 $y'=-10e^{-2x}=-2\left(5e^{-2x}\right)$.
 
-::mc
+::mc NB
 Hệ số góc của đường cong nghiệm của $\dfrac{dy}{dx}=x^2-y$ tại điểm $(2,1)$ bằng
 A. $1$
 B. $3$
@@ -288,7 +288,7 @@ D. $4$
 ::key B
 $2^2-1=3$.
 
-::mc
+::mc VD
 Nếu $\dfrac{dy}{dt}=ky$, $y(0)=40$ và $y(2)=10$ thì $k$ bằng
 A. $\ln2$
 B. $-\dfrac12$
@@ -297,7 +297,7 @@ D. $-\ln2$
 ::key D
 $10=40e^{2k}$, nên $e^{2k}=\dfrac14$ và $k=\dfrac{\ln(1/4)}{2}=-\ln2$.
 
-::mc
+::mc VD
 Nghiệm của $\dfrac{dy}{dx}=y\cos x$ thoả mãn $y(0)=2$ là
 A. $y=2e^{\sin x}$
 B. $y=2+\sin x$
@@ -306,7 +306,7 @@ D. $y=2e^{\cos x}$
 ::key A
 $\ln|y|=\sin x+C$; tại $(0,2)$, $C=\ln2$.
 
-::tf
+::tf TH TH TH VD
 (BC) Một quần thể thoả mãn $\dfrac{dP}{dt}=0{,}5P\left(1-\dfrac{P}{200}\right)$ với $P(0)=50$.
 a) $\displaystyle\lim_{t\to\infty}P(t)=200$.
 b) $P$ đồng biến với mọi $t\ge0$.
@@ -315,12 +315,12 @@ d) Đồ thị của $P$ lõm xuống khi $P=50$.
 ::key T T T F
 a) Đúng: sức chứa. b) Đúng: $0<P<200$ cho $\dfrac{dP}{dt}>0$. c) Đúng: một nửa sức chứa. d) Sai: dưới $100$ thì $\dfrac{dP}{dt}$ vẫn đang tăng, nên đồ thị lõm lên.
 
-::sa
+::sa VD
 Nếu $\dfrac{dy}{dx}=6x^2$ và $y(1)=5$ thì $y(2)$ bằng bao nhiêu?
 ::key 19
 $y=2x^3+C$, $C=3$, nên $y(2)=16+3=19$.
 
-::sa
+::sa TH
 Một quần thể có $200$ cá thể, nhân đôi sau mỗi $5$ giờ. Sau $15$ giờ quần thể có bao nhiêu cá thể?
 ::key 1600
 Nhân đôi ba lần: $200\cdot2^3=1600$.

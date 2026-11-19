@@ -266,7 +266,7 @@ a) Between $6$ and $8$ is $7$. b) Between $2$ and $5$ are $3$ and $4$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which sign goes in $7 \;\square\; 4$?
 A. $<$.
 B. $>$.
@@ -275,7 +275,7 @@ D. cannot tell.
 ::key B
 $7$ is greater than $4$, so $7>4$. Option A opens the sign the wrong way.
 
-::mc
+::mc NB
 Which sign goes in $3 \;\square\; 3$?
 A. $<$.
 B. $>$.
@@ -284,7 +284,7 @@ D. cannot tell.
 ::key C
 Two numbers that are the same are equal.
 
-::mc
+::mc TH
 The greatest number in $5, 9, 2, 7$ is
 A. $5$.
 B. $9$.
@@ -293,7 +293,7 @@ D. $7$.
 ::key B
 $9$ is counted last. Option C is the least number.
 
-::mc
+::mc TH
 Putting $6, 2, 8$ in order from least to greatest gives
 A. $2, 6, 8$.
 B. $8, 6, 2$.
@@ -302,7 +302,7 @@ D. $2, 8, 6$.
 ::key A
 $2<6<8$. Option B is from greatest to least.
 
-::tf
+::tf NB NB TH TH
 Look at the two numbers $5$ and $8$.
 a) $5<8$.
 b) $8>5$.
@@ -311,12 +311,12 @@ d) $5=8$.
 ::key T T F F
 a) True. b) True. c) False: $5$ is less than $8$. d) False: the numbers are different.
 
-::sa
+::sa TH
 What is the greatest number in $3, 10, 7$?
 ::key 10
 Counting: ..., seven, ..., ten. The number $10$ comes last.
 
-::sa
+::sa TH
 What is the least number in $4, 0, 6$?
 ::key 0
 $0$ is at the start of the number row, so it is the least.

@@ -281,7 +281,7 @@ Số túi lúc đầu là $27:3=9$ (túi). Số túi còn lại là $9-4=5$ (tú
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $3\times 6$ là
 A. $9$.
 B. $18$.
@@ -290,7 +290,7 @@ D. $21$.
 ::key B
 $3\times 6=3\times 5+3=15+3=18$. Phương án A là lỗi cộng $3+6$ thay vì nhân.
 
-::mc
+::mc NB
 Kết quả của $27:3$ là
 A. $9$.
 B. $24$.
@@ -299,7 +299,7 @@ D. $30$.
 ::key A
 Vì $3\times 9=27$ nên $27:3=9$. Phương án B là lỗi lấy $27-3$, phương án D là lỗi lấy $27+3$.
 
-::mc
+::mc NB
 Phép tính nào dưới đây đúng?
 A. $3\times 4=7$.
 B. $3\times 7=24$.
@@ -308,7 +308,7 @@ D. $3\times 9=27$.
 ::key D
 $3\times 9=3\times 8+3=24+3=27$. Các phép tính khác lần lượt thành $12$, $21$, $15$.
 
-::mc
+::mc TH
 Có $18$ chiếc bánh xếp đều vào các hộp, mỗi hộp $3$ chiếc. Xếp được bao nhiêu hộp?
 A. $15$ hộp.
 B. $6$ hộp.
@@ -317,7 +317,7 @@ D. $54$ hộp.
 ::key B
 Em chia thành các nhóm $3$: $18:3=6$ (hộp). Phương án A là lấy $18-3$, C là lấy $18+3$, D là lấy $18\times 3$.
 
-::tf
+::tf NB TH TH NB
 Biết $3\times 8=24$. Em xét các phép tính sau.
 a) $24:3=8$.
 b) $3\times 9=24+6$.
@@ -326,12 +326,12 @@ d) $24:3=21$.
 ::key Đ S Đ S
 a) Đúng: từ $3\times 8=24$ ta có $24:3=8$. b) Sai: $3\times 9=27=24+3$. c) Đúng: $3\times 7=21=24-3$. d) Sai: $24:3=8$, còn $21$ là kết quả của $24-3$.
 
-::sa
+::sa TH
 Hà cắm hoa vào bình, mỗi bình $3$ bông. Hà cắm $9$ bình. Hà có tất cả bao nhiêu bông hoa?
 ::key 27
 $3\times 9=27$ (bông hoa).
 
-::sa
+::sa TH
 Cô chia đều $30$ cái kẹo cho $3$ bạn. Mỗi bạn được bao nhiêu cái kẹo?
 ::key 10
 $30:3=10$, vì $3\times 10=30$ (cái kẹo).

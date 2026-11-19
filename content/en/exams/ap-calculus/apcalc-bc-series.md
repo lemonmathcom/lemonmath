@@ -237,7 +237,7 @@ $\displaystyle\sum_{n=1}^\infty nx^n=\frac{x}{(1-x)^2}$. At $x=\dfrac12$: $\dfra
 :::
 
 :::quiz
-::mc
+::mc TH
 What is $\displaystyle\sum_{n=0}^\infty\left(\frac34\right)^n$?
 A. $\dfrac34$
 B. $3$
@@ -246,7 +246,7 @@ D. $4$
 ::key D
 $\dfrac{1}{1-3/4}=4$.
 
-::mc
+::mc TH
 Which series converges conditionally?
 A. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n}$
 B. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n^2}$
@@ -255,7 +255,7 @@ D. $\displaystyle\sum_{n=1}^\infty(-1)^n$
 ::key A
 A converges by the alternating series test, but its absolute values form the harmonic series. B converges absolutely; C and D diverge.
 
-::mc
+::mc VD
 What is the coefficient of $x^3$ in the Maclaurin series for $\sin(2x)$?
 A. $-\dfrac16$
 B. $-\dfrac43$
@@ -264,7 +264,7 @@ D. $-8$
 ::key B
 $-\dfrac{(2x)^3}{3!}=-\dfrac{8}{6}x^3=-\dfrac43x^3$.
 
-::mc
+::mc TH
 What is the radius of convergence of $\displaystyle\sum_{n=0}^\infty\frac{x^n}{2^n}$?
 A. $\dfrac12$
 B. $1$
@@ -273,7 +273,7 @@ D. $\infty$
 ::key C
 Geometric with ratio $\dfrac x2$: it converges when $|x|<2$.
 
-::tf
+::tf TH TH TH VD
 Consider $\displaystyle\sum_{n=1}^\infty\frac{(-1)^{n+1}}{\sqrt n}$.
 a) The series converges.
 b) The series converges absolutely.
@@ -282,12 +282,12 @@ d) The partial sum $S_1=1$ differs from the sum of the series by at most $\dfrac
 ::key T F T T
 a) True: alternating series test. b) False: $\displaystyle\sum\frac{1}{\sqrt n}$ is a $p$-series with $p=\dfrac12$. c) True. d) True: alternating series error bound, first omitted term $\dfrac{1}{\sqrt2}$.
 
-::sa
+::sa VD
 Find $\displaystyle\sum_{n=1}^\infty\frac{3}{2^n}$.
 ::key 3
 Geometric with first term $\dfrac32$ and ratio $\dfrac12$: $\dfrac{3/2}{1/2}=3$.
 
-::sa
+::sa TH
 Evaluate the second-degree Maclaurin polynomial of $e^x$ at $x=1$.
 ::key 2.5
 $1+1+\dfrac12=2.5$.

@@ -281,7 +281,7 @@ The pairs (tens; ones) with sum $2$ are $(0;2)$, $(1;1)$, $(2;0)$. This gives th
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Let $A=\{2,4,6,8\}$. Which statement is true?
 A. $2\notin A$.
 B. $5\in A$.
@@ -290,7 +290,7 @@ D. $8\notin A$.
 ::key C
 $6$ is an element of $A$. The others are false: $2$ and $8$ are in $A$, but $5$ is not.
 
-::mc
+::mc TH
 The set of natural numbers less than $4$ is
 A. $\{1,2,3,4\}$.
 B. $\{1,2,3\}$.
@@ -299,7 +299,7 @@ D. $\{0,1,2,3\}$.
 ::key D
 $0$ is a natural number and $4$ is not less than $4$. Option B forgets $0$, C includes $4$, A forgets $0$ and includes $4$.
 
-::mc
+::mc TH
 How many elements does the set of digits of $4554$ have?
 A. $2$.
 B. $1$.
@@ -308,7 +308,7 @@ D. $4$.
 ::key A
 The different digits are $4$ and $5$, so there are $2$ elements. Option D counts the repeated digits.
 
-::mc
+::mc TH
 How many elements does the set of calendar months with exactly $30$ days have?
 A. $5$.
 B. $4$.
@@ -317,7 +317,7 @@ D. $12$.
 ::key B
 They are months $4$, $6$, $9$, $11$. Option A adds month $2$, C is the number of months with $31$ days, D is the whole year.
 
-::tf
+::tf NB NB TH TH
 Let $B=\{12,14,16,18\}$ be the set of even natural numbers greater than $10$ and less than $20$.
 a) $10\in B$.
 b) $16\in B$.
@@ -326,12 +326,12 @@ d) $B$ has $5$ elements.
 ::key F T T F
 a) False: $10$ is not greater than $10$. b) True. c) True: $12$, $14$, $16$, $18$. d) False: there are only $4$ elements.
 
-::sa
+::sa TH
 How many elements does the set of odd natural numbers less than $12$ have?
 ::key 6
 They are $1$, $3$, $5$, $7$, $9$, $11$.
 
-::sa
+::sa TH
 How many elements does the set of calendar months with exactly $31$ days have?
 ::key 7
 They are months $1$, $3$, $5$, $7$, $8$, $10$, $12$.

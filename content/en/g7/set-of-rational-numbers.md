@@ -662,7 +662,7 @@ So there are infinitely many rational numbers between $\dfrac13$ and $\dfrac12$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Which statement is correct?
 A. Every rational number is an integer.
 B. The number $0$ is not a rational number.
@@ -671,7 +671,7 @@ D. A fraction with a negative denominator is not a rational number.
 ::key C
 An integer $n=\dfrac n1$ is rational. A reverses the relation $\mathbb{Z}\subset\mathbb{Q}$, B forgets $0=\dfrac01$, D forgets that $\dfrac{3}{-4}=\dfrac{-3}{4}$.
 
-::mc
+::mc TH
 The greatest of the numbers $-\dfrac35$; $-\dfrac23$; $-\dfrac58$; $-\dfrac12$ is
 A. $-\dfrac35$.
 B. $-\dfrac23$.
@@ -680,7 +680,7 @@ D. $-\dfrac12$.
 ::key D
 Over the common denominator $120$: $\dfrac{-72}{120}$, $\dfrac{-80}{120}$, $\dfrac{-75}{120}$, $\dfrac{-60}{120}$. The greatest is $-\dfrac{60}{120}=-\dfrac12$. B is the smallest; it is chosen by those who think a smaller denominator means a greater number.
 
-::mc
+::mc TH
 The opposite of $\dfrac{-4}{-9}$ is
 A. $-\dfrac49$.
 B. $\dfrac49$.
@@ -689,7 +689,7 @@ D. $-\dfrac94$.
 ::key A
 We have $\dfrac{-4}{-9}=\dfrac49$, so its opposite is $-\dfrac49$. B is the number itself; C and D confuse the opposite with swapping numerator and denominator.
 
-::mc
+::mc TH
 Given $|x|=\dfrac56$, $x$ equals
 A. $\dfrac56$.
 B. $\dfrac56$ or $-\dfrac56$.
@@ -698,7 +698,7 @@ D. $\dfrac65$ or $-\dfrac65$.
 ::key B
 The point $x$ is at distance $\dfrac56$ from $O$, so $x=\pm\dfrac56$. A and C miss one value; D swaps numerator and denominator.
 
-::tf
+::tf TH TH TH TH
 Let $x=-\dfrac34$ and $y=-0.8$ be two rational numbers. Decide whether each statement is true or false.
 a) $x<y$.
 b) $|x|<|y|$.
@@ -707,12 +707,12 @@ d) Exactly one rational number lies between $x$ and $y$.
 ::key F T T F
 a) False: $x=-0.75>-0.8=y$. b) True: $|x|=0.75<0.8=|y|$. c) True: $-y=0.8=\dfrac45$. d) False: between two different rational numbers there are infinitely many.
 
-::sa
+::sa VD
 How many integers $x$ satisfy $|x|<\dfrac72$?
 ::key 7
 We have $|x|<3.5$, so $-3.5<x<3.5$, that is $x\in\{-3, -2, -1, 0, 1, 2, 3\}$: $7$ integers.
 
-::sa
+::sa TH
 Write the opposite of $-\dfrac7{20}$ as a decimal.
 ::key 0.35
 The opposite of $-\dfrac7{20}$ is $\dfrac7{20}=\dfrac{35}{100}=0.35$.

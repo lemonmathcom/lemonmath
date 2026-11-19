@@ -388,7 +388,7 @@ Vậy $r=4$ cm.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Tâm đường tròn ngoại tiếp một tam giác là giao điểm của ba đường
 A. trung trực.
 B. phân giác.
@@ -397,7 +397,7 @@ D. cao.
 ::key A
 Tâm cách đều ba đỉnh nên nằm trên các đường trung trực. B cho tâm nội tiếp, C cho trọng tâm, D cho trực tâm; ba điểm này nói chung không cách đều ba đỉnh.
 
-::mc
+::mc NB
 Tam giác vuông có cạnh huyền $10$ cm. Bán kính đường tròn ngoại tiếp là
 A. $10$ cm.
 B. $5$ cm.
@@ -406,7 +406,7 @@ D. $20$ cm.
 ::key B
 Bán kính bằng nửa cạnh huyền. A lấy cả cạnh huyền, C chia đôi hai lần, D nhân đôi thay vì chia đôi.
 
-::mc
+::mc TH
 Bán kính đường tròn nội tiếp tam giác đều cạnh $6$ cm là
 A. $2\sqrt3$ cm.
 B. $3\sqrt3$ cm.
@@ -415,7 +415,7 @@ D. $\sqrt3$ cm.
 ::key D
 $r=\dfrac{6\sqrt3}{6}=\sqrt3$. A là $R$, B là đường cao, C là nửa cạnh.
 
-::mc
+::mc VD
 Tam giác vuông có hai cạnh góc vuông $5$ cm và $12$ cm. Bán kính đường tròn nội tiếp là
 A. $4$ cm.
 B. $6{,}5$ cm.
@@ -424,7 +424,7 @@ D. $8{,}5$ cm.
 ::key C
 Cạnh huyền $13$ cm, $r=\dfrac{5+12-13}{2}=2$. A quên chia $2$, B là $R$, D quên trừ cạnh huyền.
 
-::tf
+::tf TH TH TH NB
 Cho tam giác đều $ABC$ cạnh $12$ cm. Xét tính đúng sai của các mệnh đề sau:
 a) Bán kính đường tròn ngoại tiếp là $4\sqrt3$ cm.
 b) Bán kính đường tròn nội tiếp là $2\sqrt3$ cm.
@@ -433,12 +433,12 @@ d) Tâm đường tròn ngoại tiếp và tâm đường tròn nội tiếp là
 ::key Đ Đ Đ S
 a) Đúng: $\dfrac{12\sqrt3}{3}$. b) Đúng: $\dfrac{12\sqrt3}{6}$. c) Đúng: $R=2r$. d) Sai: hai tâm trùng nhau tại trọng tâm.
 
-::sa
+::sa VD
 Tam giác vuông có hai cạnh góc vuông $8$ cm và $15$ cm. Tính bán kính (đơn vị: cm) đường tròn ngoại tiếp (viết dưới dạng số thập phân).
 ::key 8,5
 Cạnh huyền $\sqrt{64+225}=17$ cm, nên $R=8{,}5$ cm.
 
-::sa
+::sa VD
 Một tam giác có diện tích $24$ cm² và chu vi $24$ cm. Tính bán kính (đơn vị: cm) đường tròn nội tiếp.
 ::key 2
 $S=\dfrac12r\cdot(\text{chu vi})$, nên $r=\dfrac{2\cdot24}{24}=2$ cm.

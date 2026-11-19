@@ -334,7 +334,7 @@ b) $36\div9=4$, $45\div9=5$, $72\div9=8$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $9\times4$ equals
 A. $36$.
 B. $13$.
@@ -343,7 +343,7 @@ D. $32$.
 ::key A
 $9\times4=40-4=36$. Option B is the mistake of adding $9+4$, and option D is $8\times4$.
 
-::mc
+::mc NB
 $9\times7$ equals
 A. $54$.
 B. $63$.
@@ -352,7 +352,7 @@ D. $16$.
 ::key B
 $9\times7=70-7=63$. Option A is $9\times6$, missing one group of $9$.
 
-::mc
+::mc NB
 $54\div9$ equals
 A. $5$.
 B. $7$.
@@ -361,7 +361,7 @@ D. $45$.
 ::key C
 Since $9\times6=54$, we have $54\div9=6$. Option A comes from remembering $9\times5=45$ by mistake.
 
-::mc
+::mc TH
 Each row has $9$ chairs. How many chairs are in $5$ such rows?
 A. $14$ chairs.
 B. $36$ chairs.
@@ -370,7 +370,7 @@ D. $45$ chairs.
 ::key D
 $5$ groups of $9$: $9\times5=45$. Option A is the mistake of adding $9+5$.
 
-::tf
+::tf TH NB TH NB
 Look at the multiplication $9\times6=54$.
 a) $9\times6=60-6$.
 b) $54\div9=6$.
@@ -379,12 +379,12 @@ d) $54\div6=8$.
 ::key T T T F
 a) True: $60-6=54$. b) True: $9\times6=54$. c) True: $5+4=9$. d) False: $54\div6=9$.
 
-::sa
+::sa NB
 Work out $9\times9$.
 ::key 81
 $9\times9=90-9=81$.
 
-::sa
+::sa TH
 $63$ cakes are put on plates, $9$ cakes on each plate. How many plates are filled?
 ::key 7
 $63\div9=7$ (plates), because $9\times7=63$.

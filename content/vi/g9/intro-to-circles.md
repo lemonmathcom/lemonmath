@@ -294,7 +294,7 @@ Vậy $MA$ lớn nhất bằng $8$ cm ($A$ trùng $A_2$), nhỏ nhất bằng $2
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho đường tròn $(O; 6\text{ cm})$ và điểm $M$ với $OM=5$ cm. Khẳng định nào sau đây đúng?
 A. $M$ nằm ngoài đường tròn.
 B. $M$ nằm trên đường tròn.
@@ -303,7 +303,7 @@ D. $M$ là tâm của đường tròn.
 ::key C
 $OM=5<6=R$. Phương án A so sánh ngược chiều.
 
-::mc
+::mc NB
 Đường kính của đường tròn bán kính $3{,}5$ cm là
 A. $3{,}5$ cm.
 B. $7$ cm.
@@ -312,7 +312,7 @@ D. $12{,}25$ cm.
 ::key B
 $d=2R=7$ cm. C chia đôi thay vì nhân đôi, D lấy bình phương.
 
-::mc
+::mc NB
 Đường tròn có bao nhiêu trục đối xứng?
 A. $1$.
 B. $2$.
@@ -321,7 +321,7 @@ D. Vô số.
 ::key D
 Mỗi đường thẳng đi qua tâm là một trục đối xứng.
 
-::mc
+::mc VD
 Bán kính của đường tròn đi qua bốn đỉnh của hình chữ nhật có hai cạnh $5$ cm và $12$ cm là
 A. $13$ cm.
 B. $6$ cm.
@@ -330,7 +330,7 @@ D. $6{,}5$ cm.
 ::key D
 Bán kính bằng nửa đường chéo $\sqrt{5^2+12^2}=13$. A quên chia đôi, C lấy nửa tổng hai cạnh.
 
-::tf
+::tf NB NB TH TH
 Cho đường tròn $(O; 5\text{ cm})$, điểm $A$ với $OA=5$ cm, điểm $B$ với $OB=4$ cm và điểm $C$ đối xứng với $A$ qua $O$. Xét tính đúng sai của các mệnh đề sau:
 a) Điểm $A$ nằm trên đường tròn.
 b) Điểm $B$ nằm ngoài đường tròn.
@@ -339,12 +339,12 @@ d) Điểm $C$ nằm trên đường tròn.
 ::key Đ S Đ Đ
 a) Đúng: $OA=R$. b) Sai: $OB<5$. c) Đúng: $AC=2R$. d) Đúng: $OC=OA$.
 
-::sa
+::sa VD
 Tính bán kính (đơn vị: cm) của đường tròn đi qua bốn đỉnh của hình vuông cạnh $6$ cm (làm tròn kết quả đến hàng phần mười).
 ::key 4,2
 Bán kính bằng nửa đường chéo: $\dfrac{6\sqrt2}{2}=3\sqrt2\approx4{,}2$ cm.
 
-::sa
+::sa VD
 Cho đường tròn $(O; 10\text{ cm})$ và điểm $M$ với $OM=6$ cm. Đường thẳng qua $M$ vuông góc với $OM$ cắt đường tròn tại $A$ và $B$. Tính $AB$ (đơn vị: cm).
 ::key 16
 $MA=\sqrt{10^2-6^2}=8$ cm và $MB=MA$ (đối xứng qua $OM$), nên $AB=16$ cm.

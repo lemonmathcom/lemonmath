@@ -8,7 +8,7 @@ type: exam
 This paper has the three parts of the Vietnamese upper-secondary graduation exam: 12 multiple-choice questions, 4 true-or-false questions and 6 short-answer questions, to be done in 90 minutes. Part I gives 0.25 points per question; Part II gives up to 1 point per question, depending on how many statements you judge correctly; Part III gives 0.5 points per question. Print the sheet and work on paper first, then enter your answers below to get a mark out of 10. This paper has more application questions than paper 1, so allow about 40 minutes for Part III.
 
 :::quiz exam
-::mc
+::mc TH
 The function $y=f(x)$ has derivative $f'(x)=(x+1)(x-2)^2(x-4)$ for all $x\in\mathbb{R}$. The function has a local minimum at
 A. $x=2$.
 B. $x=-1$.
@@ -25,7 +25,7 @@ $f'$ changes sign from $-$ to $+$ only at $x=4$, so the function has a local min
 
 Revise: [derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::mc
+::mc TH
 The oblique asymptote of the graph of $y=\dfrac{2x^2+3x-1}{x+2}$ is the line
 A. $y=2x-1$.
 B. $y=2x+3$.
@@ -40,7 +40,7 @@ Since $\dfrac1{x+2}\to0$ as $x\to\pm\infty$, the oblique asymptote is $y=2x-1$. 
 
 Revise: [derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::mc
+::mc TH
 Which of the following functions is increasing on $\mathbb{R}$?
 A. $y=x^4+2x^2$.
 B. $y=\dfrac{x+1}{x-3}$.
@@ -51,7 +51,7 @@ $y=x^3+x-5$ has $y'=3x^2+1>0$ for every $x$, so it is increasing on $\mathbb{R}$
 
 Revise: [derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::mc
+::mc NB
 On the interval $(0, +\infty)$, the indefinite integral of $f(x)=3^x+\dfrac1x$ is
 A. $3^x\ln3+\ln x+C$.
 B. $\dfrac{3^x}{\ln3}+\ln x+C$.
@@ -62,7 +62,7 @@ We use $\int a^x\,dx=\dfrac{a^x}{\ln a}+C$ and $\int\dfrac1x\,dx=\ln|x|+C$ (for 
 
 Revise: [antiderivatives and integrals](lesson:review-integrals).
 
-::mc
+::mc TH
 The value of $\displaystyle\int_0^3|x-2|\,dx$ is
 A. $-\dfrac32$.
 B. $\dfrac32$.
@@ -77,7 +77,7 @@ Option A ignores the modulus, option B subtracts the two parts instead of adding
 
 Revise: [antiderivatives and integrals](lesson:review-integrals).
 
-::mc
+::mc NB
 A geometric sequence $(u_n)$ has $u_1=2$ and $u_4=-54$. Its common ratio is
 A. $-3$.
 B. $3$.
@@ -88,7 +88,7 @@ We have $u_4=u_1q^3$, so $q^3=\dfrac{-54}{2}=-27$ and $q=-3$. Option B loses the
 
 Revise: [trigonometry, exponentials, logarithms and sequences](lesson:review-trig-exp-log-sequences).
 
-::mc
+::mc TH
 In the $Oxyz$ coordinate system, the plane through $A(1, -1, 2)$ perpendicular to the line $d\colon\dfrac{x-1}{2}=\dfrac{y}{-1}=\dfrac{z+3}{3}$ has equation
 A. $2x-y+3z+9=0$.
 B. $2x+y+3z-7=0$.
@@ -103,7 +103,7 @@ Option A has the wrong sign of the constant, option B has the wrong sign of the 
 
 Revise: [coordinates in space](lesson:review-coordinates-space).
 
-::mc
+::mc TH
 In the $Oxyz$ coordinate system, the sphere with centre $I(2, -1, 1)$ passing through $A(0, 1, 2)$ has equation
 A. $(x-2)^2+(y+1)^2+(z-1)^2=3$.
 B. $(x-2)^2+(y+1)^2+(z-1)^2=9$.
@@ -118,7 +118,7 @@ So the sphere is $(x-2)^2+(y+1)^2+(z-1)^2=9$. Option A writes $R$ instead of $R^
 
 Revise: [coordinates in space](lesson:review-coordinates-space).
 
-::mc
+::mc VD
 $ABCD.A'B'C'D'$ is a cube. The angle between the lines $AB'$ and $BC'$ is
 A. $45^\circ$.
 B. $90^\circ$.
@@ -129,7 +129,7 @@ $ABC'D'$ is a rectangle, so $BC'\parallel AD'$ and the required angle equals the
 
 Revise: [geometry in space](lesson:review-space-geometry).
 
-::mc
+::mc VD
 The pyramid $S.ABCD$ has a rectangular base with $AB=3$, $AD=4$, $SA\perp(ABCD)$, and the angle between the line $SC$ and the base is $45^\circ$. The volume of the pyramid $S.ABCD$ is
 A. $20$.
 B. $60$.
@@ -144,7 +144,7 @@ Option B forgets the factor $\dfrac13$, option C takes $SA=AD=4$ by mistake, and
 
 Revise: [geometry in space](lesson:review-space-geometry).
 
-::mc
+::mc TH
 The masses (kg) of $40$ boys in year 12 are shown in the table:
 
 | Mass (kg) | $[40, 50)$ | $[50, 60)$ | $[60, 70)$ | $[70, 80)$ | $[80, 90)$ |
@@ -165,7 +165,7 @@ Option A is the midpoint of the modal class, option B swaps the two differences 
 
 Revise: [statistics and probability](lesson:review-statistics-probability).
 
-::mc
+::mc TH
 An and Binh each throw one ball at a basket, independently of each other. An scores with probability $0.7$ and Binh with probability $0.6$. The probability that exactly one of them scores is
 A. $0.42$.
 B. $0.46$.
@@ -180,7 +180,7 @@ Option A is the probability that both score, option C the probability that at le
 
 Revise: [statistics and probability](lesson:review-statistics-probability).
 
-::tf
+::tf NB TH TH VD
 Let $(C)$ be the graph of $y=\dfrac{x+3}{x-1}$.
 a) The line $x=1$ is a vertical asymptote of $(C)$.
 b) The function is increasing on the interval $(1, +\infty)$.
@@ -197,7 +197,7 @@ d) True: write $y=1+\dfrac{4}{x-1}$. For integer $x$, $y$ is an integer exactly 
 
 Revise: [derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::tf
+::tf TH NB TH VD
 A train starts from rest at a station. During the first $20$ seconds its acceleration is $a(t)=2-0.1t$ (m/s²), where $t$ is the number of seconds since it started. Let $v(t)$ be the velocity (m/s) of the train.
 a) $v(t)=2t-0.05t^2$ for $0\le t\le20$.
 b) The velocity of the train at $t=20$ seconds is $40$ m/s.
@@ -214,7 +214,7 @@ d) True: in the first $20$ seconds the train travels $\displaystyle\int_0^{20}\l
 
 Revise: [antiderivatives and integrals](lesson:review-integrals).
 
-::tf
+::tf NB NB TH VD
 Choose axes $Oxyz$ (unit: metre) with the plane $(Oxy)$ as the ground. A vertical aerial mast has its foot at the origin $O$ and its top at $A(0, 0, 12)$. A cable is stretched straight from the top $A$ to an anchor point $B(4, 6, 0)$ on the ground.
 a) $\overrightarrow{AB}=(4, 6, -12)$.
 b) The cable is $14$ m long.
@@ -235,7 +235,7 @@ The plane passes through $O$ with normal vector $\vec n=(3, -2, 0)$, so its equa
 
 Revise: [coordinates in space](lesson:review-coordinates-space).
 
-::tf
+::tf NB TH TH VD
 Box I contains $4$ red and $2$ blue marbles; box II contains $3$ red and $5$ blue marbles. One marble is taken at random from box I and put into box II, and then one marble is taken at random from box II.
 a) The probability that the marble moved from box I is red is $\dfrac23$.
 b) Given that the marble moved is red, the probability of taking a red marble from box II is $\dfrac12$.
@@ -254,7 +254,7 @@ d) False: by Bayes' theorem, $P(D\mid E)=\dfrac{8/27}{11/27}=\dfrac{8}{11}\appro
 
 Revise: [statistics and probability](lesson:review-statistics-probability).
 
-::sa
+::sa VD
 A hotel has $50$ rooms. At a price of $400$ thousand dong per room per day every room is taken; each increase of $20$ thousand dong leaves one more room empty. Each occupied room costs $40$ thousand dong per day to service. To make the daily profit as large as possible, what price per room (in thousand dong) should the hotel charge?
 ::key 720
 Let $x$ be the number of price increases ($0\le x\le50$). Then the price is $400+20x$, $50-x$ rooms are taken, and the daily profit (thousand dong) is
@@ -265,7 +265,7 @@ $L'(x)=20(50-x)-(360+20x)=640-40x=0\iff x=16$. Compare $L(0)=18\,000$, $L(16)=68
 
 Revise: [optimisation and real-life problems](lesson:review-optimisation-real-life).
 
-::sa
+::sa VDC
 The regular square pyramid $S.ABCD$ has base edge $6$ and height $4$. Find the distance from $A$ to the plane $(SCD)$.
 ::key 4.8
 Let $O$ be the centre of the base and $M$ the midpoint of $CD$. Since $AC$ meets $(SCD)$ at $C$ and $AC=2OC$, we have $d(A, (SCD))=2\,d(O, (SCD))$. Draw $OH\perp SM$ at $H$. Since $CD\perp OM$ and $CD\perp SO$, we have $CD\perp(SOM)$, so $CD\perp OH$; hence $OH\perp(SCD)$. In the right-angled triangle $SOM$ with $OM=3$ and $SO=4$:
@@ -276,7 +276,7 @@ So $d(A, (SCD))=2\cdot2.4=4.8$.
 
 Revise: [geometry in space](lesson:review-space-geometry).
 
-::sa
+::sa VD
 Choose axes $Oxyz$ (unit: metre). After $t$ seconds, the first drone is at $M(3t, 4t, 20)$ and the second drone is at $N(40-2t, 10+t, 30-t)$. Find the smallest distance between the two drones (to 1 decimal place).
 ::key 12.4
 We have $\overrightarrow{MN}=(40-5t, 10-3t, 10-t)$, so
@@ -287,7 +287,7 @@ $f'(t)=70t-480=0\iff t=\dfrac{48}{7}$, and $f'$ changes sign from $-$ to $+$ the
 
 Revise: [coordinates in space](lesson:review-coordinates-space).
 
-::sa
+::sa VD
 In a multiple-choice test, each question has $4$ options and exactly one is correct. For each question, the probability that Lan knows the answer is $0.6$; if she does not know it, she picks an option at random. Given that Lan answers a question correctly, find the probability that she really knew the answer (to 2 decimal places).
 ::key 0.86
 Let $K$ be the event "Lan knows the answer" and $C$ the event "Lan answers correctly". Then $P(C\mid K)=1$ and $P(C\mid\overline K)=0.25$. By the law of total probability and Bayes' theorem:
@@ -298,7 +298,7 @@ To 2 decimal places this is $0.86$.
 
 Revise: [statistics and probability](lesson:review-statistics-probability).
 
-::sa
+::sa VD
 A glass paperweight is a solid of revolution, formed by rotating the region bounded by the curve $y=4-x^2$, the $x$-axis and the $y$-axis (with $0\le x\le2$) about the $x$-axis (unit on the axes: cm). Find the volume of the paperweight in cm³ (to 1 decimal place).
 ::key 53.6
 The volume of the solid of revolution is
@@ -309,7 +309,7 @@ To 1 decimal place this is $53.6$ cm³.
 
 Revise: [antiderivatives and integrals](lesson:review-integrals).
 
-::sa
+::sa VD
 The number of bacteria in a culture after $t$ hours is $N(t)=N_0\cdot a^t$, where $N_0$ and $a>0$ are constants. After $2$ hours there are $300$ bacteria, and after $5$ hours there are $2400$. How many hours after the start does the culture contain $10\,000$ bacteria (to 1 decimal place)?
 ::key 7.1
 Dividing $N_0a^5=2400$ by $N_0a^2=300$ gives $a^3=8$, so $a=2$ and $N_0=\dfrac{300}{4}=75$. Solve $N(t)=10\,000$:

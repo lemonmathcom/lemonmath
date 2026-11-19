@@ -392,7 +392,7 @@ Vậy $E=-15$ với mọi $x$, nên giá trị của $E$ không phụ thuộc v�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của phép nhân $(x+3)(x-2)$ là
 A. $x^2+x-6$.
 B. $x^2+5x-6$.
@@ -401,7 +401,7 @@ D. $x^2-x-6$.
 ::key A
 $(x+3)(x-2)=x^2-2x+3x-6=x^2+x-6$. A bỏ sót các tích chéo, B cộng sai $-2x+3x$, D sai dấu của hạng tử $x$.
 
-::mc
+::mc TH
 Kết quả của phép nhân $-2x^2y(3x-y+4)$ là
 A. $-6x^3y-2x^2y^2-8x^2y$.
 B. $-6x^3y+2x^2y^2-8x^2y$.
@@ -410,7 +410,7 @@ D. $-6x^3y+2x^2y^2+8x^2y$.
 ::key B
 Nhân $-2x^2y$ lần lượt với $3x$, $-y$, $4$ được $-6x^3y$, $+2x^2y^2$, $-8x^2y$. B sai dấu hạng tử thứ hai, C quên nhân hạng tử $4$, D sai dấu hạng tử thứ ba.
 
-::mc
+::mc TH
 Thương của phép chia $(6x^3y^2-4x^2y):(2xy)$ là
 A. $3x^2y-2xy$.
 B. $3x^2y-2$.
@@ -419,7 +419,7 @@ D. $3x^2y+2x$.
 ::key C
 $6x^3y^2:(2xy)=3x^2y$ và $4x^2y:(2xy)=2x$, nên thương là $3x^2y-2x$. A giữ lại $y$ ở hạng tử sau, B chia sai lũy thừa của $x$, D sai dấu.
 
-::mc
+::mc VD
 Kết quả của phép nhân $(x-1)(x^2+x+1)$ là
 A. $x^3+1$.
 B. $x^3+x^2-1$.
@@ -428,7 +428,7 @@ D. $x^3-1$.
 ::key D
 $(x-1)(x^2+x+1)=x^3+x^2+x-x^2-x-1=x^3-1$. A sai dấu hạng tử tự do, C và B giữ lại hạng tử $\pm x^2$ không triệt tiêu.
 
-::tf
+::tf TH TH VD TH
 Cho biểu thức $E=(x+2)(x-5)-x(x-3)$.
 a) $(x+2)(x-5)=x^2-3x-10$.
 b) $x(x-3)=x^2-3$.
@@ -437,12 +437,12 @@ d) Giá trị của $E$ tại $x=0$ bằng $0$.
 ::key Đ S Đ S
 a) Đúng: $x^2-5x+2x-10$. b) Sai: $x(x-3)=x^2-3x$. c) Đúng: $x^2-3x-10-x^2+3x=-10$. d) Sai: $E=-10$ với mọi $x$, kể cả $x=0$.
 
-::sa
+::sa NB
 Tính giá trị của $(x-1)(x+4)$ tại $x=3$.
 ::key 14
 $(3-1)(3+4)=2\cdot7=14$.
 
-::sa
+::sa VD
 Thực hiện phép chia $(12x^3y^2-6x^2y):(3xy)$ rồi tính giá trị của thương tại $x=2$, $y=1$.
 ::key 12
 Thương là $4x^2y-2x$. Tại $x=2$, $y=1$: $16-4=12$.

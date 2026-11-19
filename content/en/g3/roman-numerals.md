@@ -289,7 +289,7 @@ The number $4$ written in Roman numerals is IV.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The Roman numeral XIV is read as
 A. $16$.
 B. $4$.
@@ -298,7 +298,7 @@ D. $6$.
 ::key C
 XIV is made of X and IV, which is $10+4=14$. A reads IV as $6$, B leaves out X, D leaves out X and reads IV as $6$.
 
-::mc
+::mc NB
 The number $9$ written in Roman numerals is
 A. IIX.
 B. XI.
@@ -307,7 +307,7 @@ D. IX.
 ::key D
 $9=10-1$, so it is written IX. B is $11$, C and A break the rules for writing Roman numerals.
 
-::mc
+::mc TH
 The number $16$ written in Roman numerals is
 A. XVI.
 B. XIIII.
@@ -316,7 +316,7 @@ D. XIV.
 ::key A
 $16=10+5+1$, so it is written XVI. A is $14$, B writes a symbol four times, C has the wrong order.
 
-::mc
+::mc TH
 Which statement below is correct?
 A. IV $>$ VI.
 B. XI $>$ IX.
@@ -325,7 +325,7 @@ D. V $=$ X.
 ::key B
 XI $=11$ and IX $=9$, and $11>9$. A is wrong because IV $=4<6$, C is wrong because $19>14$, D is wrong because $5\neq 10$.
 
-::tf
+::tf NB NB NB TH
 Look at these Roman numerals.
 a) IX $=9$.
 b) XI $>$ X.
@@ -334,12 +334,12 @@ d) VI $<$ IV.
 ::key T T F F
 a) True: $10-1=9$. b) True: $11>10$. c) False: $4$ is written IV. d) False: VI $=6$ is greater than IV $=4$.
 
-::sa
+::sa TH
 What ordinary number is the Roman numeral XVIII?
 ::key 18
 XVIII $=10+5+3=18$.
 
-::sa
+::sa TH
 What number does the Roman numeral XIV stand for?
 ::key 14
 XIV is X, which is $10$, followed by IV, which is $4$, so XIV stands for $10+4=14$.

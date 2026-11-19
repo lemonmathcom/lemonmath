@@ -440,7 +440,7 @@ Chia hai vế cho $5^x>0$: $\left(\dfrac25\right)^x+\left(\dfrac35\right)^x=1$. 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tập nghiệm của phương trình $2^{x^2-1}=8$ là
 A. $\{2\}$.
 B. $\{-\sqrt2; \sqrt2\}$.
@@ -449,7 +449,7 @@ D. $\{4\}$.
 ::key C
 $8=2^3$ nên $x^2-1=3$, suy ra $x^2=4$ và $x=\pm2$. Phương án A bỏ nghiệm âm, B giải $x^2=2$, D nhầm $x^2=4$ thành $x=4$.
 
-::mc
+::mc TH
 Tập nghiệm của bất phương trình $\left(\dfrac12\right)^x>8$ là
 A. $(-3; +\infty)$.
 B. $(3; +\infty)$.
@@ -458,7 +458,7 @@ D. $(-\infty; -3)$.
 ::key D
 $8=\left(\dfrac12\right)^{-3}$, cơ số $\dfrac12<1$ nên đảo chiều: $x<-3$. Phương án A quên đảo chiều, B và C nhầm dấu của số mũ $-3$.
 
-::mc
+::mc VD
 Nghiệm của phương trình $\log_2x+\log_2(x-3)=2$ là
 A. $x=4$.
 B. $x=-1$ hoặc $x=4$.
@@ -467,7 +467,7 @@ D. phương trình vô nghiệm.
 ::key A
 Điều kiện $x>3$. Ta có $x(x-3)=4$ nên $x^2-3x-4=0$ và $x=-1$ hoặc $x=4$. Chỉ $x=4$ thoả $x>3$. Phương án B quên loại nghiệm ngoại lai $x=-1$.
 
-::mc
+::mc TH
 Tập nghiệm của bất phương trình $\log_3(2x-1)\le2$ là
 A. $\left[\dfrac12; 5\right]$.
 B. $\left(\dfrac12; 5\right]$.
@@ -476,7 +476,7 @@ D. $(5; +\infty)$.
 ::key B
 Cần $0<2x-1\le9$, tức $\dfrac12<x\le5$. Phương án A lấy cả đầu mút $\dfrac12$, C quên điều kiện $2x-1>0$, D đảo chiều.
 
-::tf
+::tf TH TH VD TH
 Xét phương trình $4^x-3\cdot2^x-4=0$. Xét tính đúng sai của các mệnh đề sau:
 a) Đặt $t=2^x$ thì phương trình trở thành $t^2-3t-4=0$.
 b) Giá trị $t=-1$ cho một nghiệm của phương trình.
@@ -485,12 +485,12 @@ d) Nghiệm của phương trình là $x=4$.
 ::key Đ S Đ S
 a) Đúng: $4^x=\left(2^x\right)^2$. b) Sai: $t=2^x>0$ nên $t=-1$ bị loại. c) Đúng: chỉ $t=4$, tức $x=2$. d) Sai: $2^x=4$ cho $x=2$, không phải $x=4$.
 
-::sa
+::sa VD
 Giả sử số tiền gửi tăng $8\%$ mỗi năm, lãi kép. Sau ít nhất bao nhiêu năm nguyên thì số tiền gấp ba số ban đầu?
 ::key 15
 Cần $1{,}08^t\ge3$, tức $t\ge\dfrac{\ln3}{\ln1{,}08}\approx14{,}3$ nên $t=15$. Thử lại: $1{,}08^{14}\approx2{,}94<3$ và $1{,}08^{15}\approx3{,}17\ge3$.
 
-::sa
+::sa VD
 Nghiệm của phương trình $5^{2x-1}=40$ là bao nhiêu (làm tròn đến hàng phần mười)?
 ::key 1,6
 $2x-1=\log_540\approx2{,}292$, suy ra $x\approx\dfrac{3{,}292}{2}\approx1{,}6$.

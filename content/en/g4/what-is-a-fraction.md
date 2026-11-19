@@ -259,7 +259,7 @@ Blue: $\dfrac{3}{8}$; red: $\dfrac{2}{8}$; white: $8-3-2=3$ parts, so $\dfrac{3}
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The denominator of the fraction $\dfrac{3}{5}$ is
 A. $5$.
 B. $3$.
@@ -268,7 +268,7 @@ D. $15$.
 ::key A
 The denominator is the number underneath, $5$. Option B is the numerator, and C is the sum of the two numbers.
 
-::mc
+::mc TH
 A cake is cut into $6$ equal pieces and $1$ piece is eaten. The fraction for the part eaten is
 A. $\dfrac{6}{1}$.
 B. $\dfrac{1}{6}$.
@@ -277,7 +277,7 @@ D. $\dfrac{5}{6}$.
 ::key B
 The whole cake has $6$ pieces and $1$ is eaten, so $\dfrac{1}{6}$. Option A is the wrong way round, and D is the part not eaten.
 
-::mc
+::mc NB
 The fraction "seven tenths" is written
 A. $\dfrac{10}{7}$.
 B. $7+10$.
@@ -286,7 +286,7 @@ D. $17$.
 ::key C
 Numerator $7$, denominator $10$. Option A swaps the numerator and denominator.
 
-::mc
+::mc TH
 A shape is cut into $8$ equal parts and $5$ parts are coloured. The fraction for the part not coloured is
 A. $\dfrac{5}{8}$.
 B. $\dfrac{3}{5}$.
@@ -295,7 +295,7 @@ D. $\dfrac{3}{8}$.
 ::key D
 The part not coloured is $8-5=3$ parts, so $\dfrac{3}{8}$. Option A is the coloured part.
 
-::tf
+::tf NB NB NB TH
 Look at the fraction $\dfrac{5}{9}$.
 a) The numerator is $5$.
 b) The denominator is $9$.
@@ -304,12 +304,12 @@ d) It can show $5$ parts of a shape cut into $9$ equal parts.
 ::key T T F T
 a) True. b) True. c) False: it is read "five ninths". d) True.
 
-::sa
+::sa TH
 A cake is cut into $12$ equal pieces and Mai eats $5$ pieces. How many pieces are left?
 ::key 7
 $12-5=7$ pieces.
 
-::sa
+::sa NB
 What is the denominator of the fraction $\dfrac{3}{8}$?
 ::key 8
 The denominator is the number underneath, $8$.

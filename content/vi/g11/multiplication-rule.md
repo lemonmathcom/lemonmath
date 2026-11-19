@@ -372,7 +372,7 @@ Vì $0\le p\le1$ nên $1-p\ge0$. Do đó $1-p=0{,}4$, suy ra $p=0{,}6$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho hai biến cố độc lập $A$, $B$ với $P(A)=0{,}7$ và $P(B)=0{,}4$. Giá trị $P(A\cap B)$ là
 A. $0{,}28$.
 B. $0{,}42$.
@@ -381,7 +381,7 @@ D. $1{,}1$.
 ::key A
 Do $A$, $B$ độc lập, $P(A\cap B)=0{,}7\cdot0{,}4=0{,}28$. Phương án B dùng xác suất của $\overline B$, còn D cộng hai xác suất.
 
-::mc
+::mc TH
 Hai cảm biến hoạt động độc lập với xác suất hoạt động tốt lần lượt là $0{,}98$ và $0{,}95$. Xác suất cả hai cùng hoạt động tốt là
 A. $0{,}069$.
 B. $0{,}931$.
@@ -390,7 +390,7 @@ D. $0{,}965$.
 ::key B
 Xác suất cả hai cùng tốt là $0{,}98\cdot0{,}95=0{,}931$. Phương án A là xác suất có ít nhất một cảm biến lỗi, còn C là xác suất cả hai cùng lỗi.
 
-::mc
+::mc NB
 Biết $P(A)=0{,}5$ và $P(B)=0{,}6$. Nếu $A$, $B$ độc lập thì $P(A\cap B)$ bằng
 A. $0{,}1$.
 B. $0{,}5$.
@@ -399,7 +399,7 @@ D. $0{,}6$.
 ::key C
 Tiêu chí độc lập cho $P(A\cap B)=P(A)P(C)=0{,}5\cdot0{,}6=0{,}3$.
 
-::mc
+::mc VD
 Hai lần thử độc lập có xác suất thành công lần lượt là $0{,}8$ và $0{,}6$. Xác suất có ít nhất một lần thành công là
 A. $0{,}48$.
 B. $0{,}44$.
@@ -408,7 +408,7 @@ D. $0{,}92$.
 ::key D
 Xác suất cả hai lần đều thất bại là $0{,}2\cdot0{,}4=0{,}08$, nên xác suất cần tìm là $1-0{,}08=0{,}92$. Phương án A là xác suất cả hai cùng thành công, B là xác suất đúng một lần thành công.
 
-::tf
+::tf TH TH VD TH
 Cho hai biến cố độc lập $A$, $B$ với $P(A)=0{,}6$ và $P(B)=0{,}25$.
 a) $P(A\cap B)=0{,}15$.
 b) $P(\overline A\cap B)=0{,}4$.
@@ -417,12 +417,12 @@ d) $A$ và $B$ xung khắc.
 ::key Đ S Đ S
 a) Đúng vì $0{,}6\cdot0{,}25=0{,}15$. b) Sai vì $P(\overline A\cap B)=0{,}4\cdot0{,}25=0{,}1$. c) Đúng vì $0{,}6+0{,}25-0{,}15=0{,}7$. d) Sai vì $P(A\cap B)>0$.
 
-::sa
+::sa TH
 Hai máy hoạt động độc lập. Xác suất máy thứ nhất không hỏng là $0{,}98$, máy thứ hai không hỏng là $0{,}97$. Xác suất cả hai máy không hỏng là bao nhiêu phần trăm? Làm tròn đến hàng phần mười.
 ::key 95,1
 Xác suất cả hai máy không hỏng là $0{,}98\cdot0{,}97=0{,}9506=95{,}06\%$, làm tròn được $95{,}1\%$.
 
-::sa
+::sa VD
 Hai lần thử độc lập có cùng xác suất thành công là $p$. Biết xác suất cả hai lần đều thất bại là $0{,}09$. Tìm $p$.
 ::key 0,7
 Ta có $(1-p)^2=0{,}09$ và $1-p\ge0$, nên $1-p=0{,}3$ và $p=0{,}7$.

@@ -411,7 +411,7 @@ So the building is $10\left(\sqrt3+1\right)$ m tall, about $27.32$ m.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Triangle $ABC$ has a right angle at $A$, $BC=a$ and $CA=b$. Then
 A. $b=a\sin C$.
 B. $b=a\cos B$.
@@ -420,7 +420,7 @@ D. $b=a\sin B$.
 ::key D
 Since the leg $b$ is opposite angle $B$, $b=a\sin B$ (or $b=a\cos C$). Options B and A mix up the opposite and adjacent angles, and C uses the tangent with the hypotenuse.
 
-::mc
+::mc TH
 Triangle $ABC$ has a right angle at $A$ and $AB=c$. Then $AC$ equals
 A. $c\cot B$.
 B. $c\sin B$.
@@ -429,7 +429,7 @@ D. $c\cos B$.
 ::key C
 We have $\tan B=\dfrac{AC}{AB}$, so $AC=c\tan B$. Option A uses the cotangent of the opposite angle; B and D use sine and cosine with a leg instead of the hypotenuse.
 
-::mc
+::mc TH
 Triangle $ABC$ has a right angle at $A$, $BC=10$ and $\angle B=30^\circ$. Then $AC$ equals
 A. $5$.
 B. $5\sqrt3$.
@@ -438,7 +438,7 @@ D. $20$.
 ::key A
 We have $AC=BC\sin B=10\sin30^\circ=5$. Option B is $10\cos30^\circ$ (the side $AB$), and D divides by $\sin30^\circ$ instead of multiplying.
 
-::mc
+::mc VD
 An $8$ m electricity pole casts a shadow $8\sqrt3$ m long on the ground. The angle between the sun's rays and the ground is
 A. about $0.58^\circ$.
 B. $30^\circ$.
@@ -447,7 +447,7 @@ D. $60^\circ$.
 ::key B
 Let $\alpha$ be the angle. We have $\tan\alpha=\dfrac{8}{8\sqrt3}=\dfrac{\sqrt3}3$, so $\alpha=30^\circ$. Option D turns the ratio upside down (shadow over pole), and A writes the ratio $0.58$ as if it were the angle.
 
-::tf
+::tf TH VD TH TH
 Triangle $ABC$ has a right angle at $A$, $AB=6$ cm and $\angle C=30^\circ$. Decide whether each statement is true or false.
 a) $BC=12$ cm.
 b) $AC=6\sqrt3$ cm.
@@ -456,12 +456,12 @@ d) $AC=BC\sin C$.
 ::key T T F F
 a) True. Since $AB=BC\sin C$, $BC=\dfrac{AB}{\sin C}=\dfrac{6}{1/2}=12$ (cm). b) True. $AC=AB\cot C=6\sqrt3$ (cm). c) False. $\angle B=90^\circ-30^\circ=60^\circ$. d) False. $BC\sin C=6=AB$; the correct relation is $AC=BC\cos C$.
 
-::sa
+::sa VD
 A $4$ m ladder leans against a wall and makes an angle of $60^\circ$ with the ground. How many metres above the ground is its top? (Give your answer to 1 decimal place.)
 ::key 3.5
 The height of the top of the ladder is $4\sin60^\circ=2\sqrt3\approx3.5$ (m).
 
-::sa
+::sa VD
 A building casts a shadow $25$ m long on the ground when the sun's rays make an angle of $40^\circ$ with the ground. How tall is the building in metres? (Give your answer to the nearest whole number.)
 ::key 21
 The height of the building is $25\tan40^\circ\approx21$ (m).

@@ -371,7 +371,7 @@ Từ hai bất đẳng thức trên suy ra $MB+MC<AB+AC$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Bộ ba độ dài nào sau đây là ba cạnh của một tam giác?
 A. $3$ cm; $4$ cm; $8$ cm.
 B. $2$ cm; $7$ cm; $9$ cm.
@@ -380,7 +380,7 @@ D. $4$ cm; $4$ cm; $8$ cm.
 ::key C
 Ở B: $5+6=11>10$. A có $3+4=7<8$, B có $2+7=9$ (bằng, không nhỏ hơn), D có $4+4=8$ (bằng).
 
-::mc
+::mc VD
 Một tam giác cân có hai cạnh dài $4$ cm và $9$ cm. Chu vi của tam giác là
 A. $17$ cm.
 B. $13$ cm.
@@ -389,7 +389,7 @@ D. $22$ cm.
 ::key D
 Cạnh thứ ba phải bằng $9$ cm vì $4+4=8<9$, nên chu vi là $9+9+4=22$ cm. A ứng với $4+4+9$ (không có tam giác), B là $4+9$, C là $9+9$.
 
-::mc
+::mc TH
 Tam giác có hai cạnh dài $6$ cm và $10$ cm. Độ dài cạnh thứ ba có thể là
 A. $9$ cm.
 B. $16$ cm.
@@ -398,7 +398,7 @@ D. $4$ cm.
 ::key A
 Cạnh thứ ba $x$ thoả mãn $4<x<16$. A và B là hai giá trị biên (bị loại vì dấu bằng), C lớn hơn $16$.
 
-::mc
+::mc VDC
 Một sợi dây dài $30$ cm được uốn thành tam giác có ba cạnh nguyên cm. Cạnh dài nhất có thể dài nhiều nhất là
 A. $15$ cm.
 B. $14$ cm.
@@ -407,7 +407,7 @@ D. $13$ cm.
 ::key B
 Cạnh lớn nhất $c$ thoả mãn $c<30-c$, tức $c<15$, nên $c\le 14$. B bằng nửa chu vi (dấu bằng), C lớn hơn nửa chu vi, D nhỏ hơn mức tối đa.
 
-::tf
+::tf TH TH NB VD
 Cho tam giác $ABC$ có $AB=5$ cm và $AC=9$ cm.
 a) $BC$ có thể bằng $4$ cm.
 b) $BC$ có thể bằng $13$ cm.
@@ -416,12 +416,12 @@ d) $BC$ có đúng $9$ giá trị nguyên.
 ::key S Đ Đ Đ
 a) Sai: $4<BC<14$, nên $BC=4$ bị loại vì $5+4=9$ (dấu bằng). b) Đúng: $4<13<14$. c) Đúng: $5+9+10=24$. d) Đúng: $BC\in\{5;6;\dots;13\}$ gồm $9$ số.
 
-::sa
+::sa VD
 Cho tam giác $ABC$ có $AB=7$ cm và $AC=12$ cm. Có bao nhiêu giá trị nguyên (cm) của $BC$?
 ::key 13
 Ta có $5<BC<19$, nên $BC\in\{6;7;\dots;18\}$, gồm $18-6+1=13$ giá trị.
 
-::sa
+::sa VD
 Một tam giác cân có hai cạnh dài $8$ cm và $17$ cm. Tính chu vi của tam giác (đơn vị: cm).
 ::key 42
 Cạnh thứ ba phải bằng $17$ cm vì $8+8=16<17$. Chu vi là $17+17+8=42$ (cm).

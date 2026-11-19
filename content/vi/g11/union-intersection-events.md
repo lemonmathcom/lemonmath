@@ -312,7 +312,7 @@ Ta có $P(A\overline B)=P(A)-P(AB)=P(A)-P(A)P(B)=P(A)\,(1-P(B))=P(A)\,P(\overlin
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Biến cố $A\cup B$ xảy ra khi
 A. ít nhất một trong hai biến cố $A$, $B$ xảy ra.
 B. $A$ xảy ra mà $B$ không xảy ra.
@@ -321,7 +321,7 @@ D. không biến cố nào xảy ra.
 ::key A
 Đó là định nghĩa biến cố hợp. Phương án C là biến cố giao, B và D là các biến cố khác.
 
-::mc
+::mc TH
 Gieo một con xúc xắc cân đối. Gọi $A$: "số chấm chẵn" và $B$: "số chấm không nhỏ hơn $4$". Xác suất $P(A\cap B)$ bằng
 A. $\dfrac12$.
 B. $\dfrac13$.
@@ -330,7 +330,7 @@ D. $\dfrac23$.
 ::key B
 $A\cap B=\{4,6\}$ nên $P=\dfrac26=\dfrac13$. Phương án D là $P(A\cup B)$, A là $P(A)$, C chỉ đếm một kết quả.
 
-::mc
+::mc TH
 Rút một lá từ bộ bài tây $52$ lá. Gọi $A$: "lá cơ" và $B$: "lá K". Xác suất $P(A\cup B)$ bằng
 A. $\dfrac1{52}$.
 B. $\dfrac{17}{52}$.
@@ -339,7 +339,7 @@ D. $\dfrac1{13}$.
 ::key C
 $n(A\cup B)=13+4-1=16$ nên $P=\dfrac{16}{52}=\dfrac4{13}$. Phương án B quên trừ phần chung, A là $P(AB)$, D là $P(B)$.
 
-::mc
+::mc NB
 Hai biến cố $A$, $B$ độc lập khi và chỉ khi
 A. $A\cap B=\varnothing$.
 B. $P(AB)=0$.
@@ -348,7 +348,7 @@ D. $P(AB)=P(A)\,P(B)$.
 ::key D
 Đó là điều kiện độc lập. Phương án A và B nói về biến cố xung khắc, C chỉ đúng khi xung khắc.
 
-::tf
+::tf NB TH TH TH
 Xét tính đúng sai của các mệnh đề sau:
 a) Biến cố giao $A\cap B$ xảy ra khi cả $A$ và $B$ cùng xảy ra.
 b) $A$ và biến cố đối $\overline A$ luôn xung khắc.
@@ -357,12 +357,12 @@ d) Nếu $A$ và $B$ độc lập thì $A$ và $\overline B$ cũng độc lập.
 ::key Đ Đ S Đ
 a) Đúng theo định nghĩa. b) Đúng vì $A$ và $\overline A$ không thể cùng xảy ra. c) Sai: khi đó $P(AB)=0\neq P(A)P(B)$. d) Đúng theo tính chất.
 
-::sa
+::sa TH
 Hai biến cố độc lập $A$, $B$ có $P(A)=0{,}6$ và $P(B)=0{,}5$. Tính $P(AB)$.
 ::key 0,3
 $P(AB)=0{,}6\cdot0{,}5=0{,}3$.
 
-::sa
+::sa VD
 Giả sử trong một khảo sát $50$ người, có $30$ người dùng ứng dụng X, $24$ người dùng ứng dụng Y và $14$ người dùng cả hai. Chọn ngẫu nhiên một người. Tính xác suất người đó dùng ít nhất một ứng dụng.
 ::key 0,8
 $30+24-14=40$ người, xác suất $\dfrac{40}{50}=0{,}8$.

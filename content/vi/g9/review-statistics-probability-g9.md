@@ -383,7 +383,7 @@ Tổng số bi là $x+6$ nên $\dfrac6{x+6}=\dfrac25$. Suy ra $2(x+6)=30$, tức
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Trong $20$ bạn làm bài kiểm tra, có $6$ bạn được $8$ điểm. Tần số tương đối của điểm $8$ là
 A. $30\%$.
 B. $3{,}3\%$.
@@ -392,7 +392,7 @@ D. $70\%$.
 ::key A
 $\dfrac6{20}=30\%$. Đáp án C lấy tần số làm phần trăm, B là $\dfrac{20}6$ (chia ngược), D là tần số tương đối của các điểm còn lại.
 
-::mc
+::mc TH
 Gieo một con xúc xắc cân đối. Xác suất để số chấm lớn hơn $4$ là
 A. $\dfrac16$.
 B. $\dfrac13$.
@@ -401,7 +401,7 @@ D. $\dfrac23$.
 ::key B
 Các kết quả thuận lợi là $5$ và $6$ nên $P=\dfrac26=\dfrac13$. Đáp án A chỉ đếm mặt $6$, C là xác suất của "lớn hơn hoặc bằng $4$", D là xác suất của "nhỏ hơn hoặc bằng $4$".
 
-::mc
+::mc TH
 Một hộp có $5$ bi đỏ, $3$ bi xanh, $2$ bi vàng. Lấy ngẫu nhiên một bi. Xác suất để bi lấy ra không phải bi vàng là
 A. $\dfrac15$.
 B. $\dfrac12$.
@@ -410,7 +410,7 @@ D. $\dfrac3{10}$.
 ::key C
 $P=1-\dfrac2{10}=\dfrac8{10}=\dfrac45$. Đáp án A là xác suất lấy được bi vàng, B là xác suất lấy bi đỏ, D là xác suất lấy bi xanh.
 
-::mc
+::mc TH
 Một biểu đồ tròn có một nhóm chiếm $15\%$. Góc ở tâm của hình quạt tương ứng là
 A. $150^\circ$.
 B. $15^\circ$.
@@ -419,7 +419,7 @@ D. $54^\circ$.
 ::key D
 $0{,}15\cdot360^\circ=54^\circ$. Đáp án B lấy phần trăm làm số đo độ, C là $\dfrac{54}{2}$, A nhân nhầm với $10$.
 
-::tf
+::tf NB NB TH TH
 Điểm kiểm tra của $40$ học sinh có bảng tần số: điểm $5$: $4$; điểm $6$: $8$; điểm $7$: $12$; điểm $8$: $10$; điểm $9$: $6$. Các nhận định sau đúng hay sai?
 a) Tần số tương đối của điểm $7$ là $30\%$.
 b) Điểm xuất hiện nhiều nhất là $8$.
@@ -428,12 +428,12 @@ d) Tổng các tần số tương đối bằng $100\%$.
 ::key Đ S Đ Đ
 a) Đúng: $\dfrac{12}{40}=30\%$. b) Sai: điểm $7$ có tần số lớn nhất ($12$). c) Đúng: $\dfrac{10+6}{40}=40\%$. d) Đúng: tổng các tần số tương đối luôn bằng $100\%$.
 
-::sa
+::sa TH
 Một hộp có $5$ bi đỏ, $3$ bi xanh, $2$ bi vàng. Lấy ngẫu nhiên một bi. Xác suất lấy được bi xanh bằng bao nhiêu phần trăm?
 ::key 30
 $P=\dfrac3{10}=30\%$.
 
-::sa
+::sa VD
 Gieo hai con xúc xắc cân đối. Có bao nhiêu kết quả để tổng số chấm bằng $8$?
 ::key 5
 Các cặp là $(2;6)$, $(3;5)$, $(4;4)$, $(5;3)$, $(6;2)$.

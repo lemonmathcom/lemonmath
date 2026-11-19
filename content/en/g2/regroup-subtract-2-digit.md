@@ -258,7 +258,7 @@ $(10+\square)-8=5$, so $10+\square=13$, which gives $\square=3$. Check: $73-28=4
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $73-38$ equals
 A. $45$.
 B. $35$.
@@ -267,7 +267,7 @@ D. $25$.
 ::key B
 $13-8=5$ and $7-1-3=3$, so $73-38=35$. Option A forgets to take away the borrowed ten, and C is $73+38$.
 
-::mc
+::mc TH
 When you work out $61-25$, in the tens place you work out
 A. $6-1-2$.
 B. $6-2$.
@@ -276,7 +276,7 @@ D. $6-1+2$.
 ::key A
 You borrowed $1$ ten in the ones place, so in the tens you take away $1$ and then $2$: $6-1-2=3$. The answer is $61-25=36$.
 
-::mc
+::mc TH
 Which subtraction equals $45$?
 A. $82-37$.
 B. $83-37$.
@@ -285,7 +285,7 @@ D. $82-36$.
 ::key A
 $82-37=45$. The other answers are $46$, $44$ and $46$.
 
-::mc
+::mc VD
 A shop has $62$ pens and sells $38$ of them. How many pens does the shop have left?
 A. $36$ pens.
 B. $34$ pens.
@@ -294,7 +294,7 @@ D. $24$ pens.
 ::key D
 "Sells" and "left" mean taking away: $62-38=24$. Option A takes the smaller digit from the bigger in the ones, B forgets to take away the borrowed ten, and C is $62+38$.
 
-::tf
+::tf NB TH TH VD
 Look at the subtraction $64-28$.
 a) In the ones: $4$ is too small to take away $8$.
 b) After borrowing $1$ ten, the ones are $14$.
@@ -303,12 +303,12 @@ d) $64-28=46$.
 ::key T T T F
 a) True: $4<8$. b) True: $10+4=14$. c) True: $6-1-2=3$. d) False: $14-8=6$ and $3$ tens, which is $36$.
 
-::sa
+::sa VD
 Work out $81-46$.
 ::key 35
 $11-6=5$, tens $8-1-4=3$. So $81-46=35$.
 
-::sa
+::sa VD
 A tank has $73$ fish and $29$ fish are taken out. How many fish are left in the tank?
 ::key 44
 $13-9=4$, tens $7-1-2=4$. So $73-29=44$ (fish).

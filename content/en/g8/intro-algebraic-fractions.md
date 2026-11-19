@@ -425,7 +425,7 @@ So $P=\dfrac xy$, and $P=\dfrac32$ when $x=6$, $y=4$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The fraction $\dfrac{x+1}{x^2-9}$ is defined when
 A. $x\neq3$.
 B. $x\neq3$ and $x\neq-3$.
@@ -434,7 +434,7 @@ D. $x\neq-3$.
 ::key B
 $x^2-9=(x-3)(x+3)\neq0$, so $x\neq3$ and $x\neq-3$. A and D exclude only one value, C confuses $x^2=9$ with $x=9$.
 
-::mc
+::mc TH
 Which fraction is equal to $\dfrac{x+2}{x-1}$?
 A. $\dfrac{x+2+x}{x-1+x}$.
 B. $\dfrac{x^2+2}{x^2-1}$.
@@ -443,7 +443,7 @@ D. $\dfrac{x+2}{1-x}$.
 ::key C
 Multiplying numerator and denominator by $x$ gives $\dfrac{x^2+2x}{x^2-x}$. A adds $x$ to numerator and denominator, B squares each term, D changes the sign of the denominator only.
 
-::mc
+::mc TH
 Simplifying $\dfrac{6x^2y}{9xy^2}$ gives
 A. $\dfrac23$.
 B. $\dfrac{2y}{3x}$.
@@ -452,7 +452,7 @@ D. $\dfrac{2x}{3y}$.
 ::key D
 Dividing numerator and denominator by $3xy$ gives $\dfrac{2x}{3y}$. B swaps the letters; C and A divide by the wrong factor.
 
-::mc
+::mc TH
 For $x\neq3$, the value of $\dfrac{x-3}{3-x}$ is
 A. $-1$.
 B. $x$.
@@ -461,7 +461,7 @@ D. $1$.
 ::key A
 $3-x=-(x-3)$, so the fraction equals $-1$. A forgets the sign change, C thinks the numerator is $0$.
 
-::tf
+::tf NB TH TH TH
 Let $P=\dfrac{x^2-4}{x+2}$. Decide whether each statement is true or false.
 a) $P$ is defined when $x\neq-2$.
 b) $P=x-2$ for every $x\neq-2$.
@@ -470,12 +470,12 @@ d) $P$ and $x-2$ are equal algebraic fractions.
 ::key T T F T
 a) True: $x+2\neq0$. b) True: $\dfrac{(x-2)(x+2)}{x+2}=x-2$. c) False: $\dfrac{9-4}{3+2}=1$, not $5$. d) True: $(x^2-4)\cdot1=(x+2)(x-2)$.
 
-::sa
+::sa TH
 Find the value of $\dfrac{3x-1}{x-2}$ at $x=4$ (as a decimal).
 ::key 5.5
 $\dfrac{3\cdot4-1}{4-2}=\dfrac{11}{2}=5.5$.
 
-::sa
+::sa VD
 The cost of printing $x$ leaflets is $200\,000+5\,000x$ dong. What is the average cost per leaflet, in dong, when $400$ leaflets are printed?
 ::key 5500
 $\dfrac{200\,000+5\,000\cdot400}{400}=\dfrac{2\,200\,000}{400}=5\,500$.

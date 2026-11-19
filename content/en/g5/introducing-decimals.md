@@ -362,7 +362,7 @@ The numbers we want have the form $0.3a$ with tenths digit $3$. Since the number
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The decimal with $7$ ones, $0$ tenths and $6$ hundredths is written
 A. $7.6$.
 B. $70.6$.
@@ -371,7 +371,7 @@ D. $7.006$.
 ::key C
 The tenths digit is $0$ and the hundredths digit is $6$, so the number is $7.06$. Option A drops the digit $0$; C puts the $7$ in the tens place; D puts the $6$ in the thousandths place.
 
-::mc
+::mc NB
 The value of the digit $8$ in $25.184$ is
 A. $8$.
 B. $0.8$.
@@ -380,7 +380,7 @@ D. $0.08$.
 ::key D
 In $25.184$ the digit $1$ is in the tenths place and the digit $8$ is in the hundredths place, so its value is $0.08$. Option B puts the $8$ in the tenths place; C puts the $8$ in the thousandths place.
 
-::mc
+::mc TH
 The greatest of $4.9$; $4.19$; $4.09$; $3.99$ is
 A. $4.9$.
 B. $4.19$.
@@ -389,7 +389,7 @@ D. $3.99$.
 ::key A
 The number $3.99$ has the smallest whole-number part. For the other three, the tenths digits are $9$, $1$, $0$, so $4.9$ is the greatest. Option B assumes $19>9$; C looks only at the digit $9$ at the end; D looks only at the decimal part.
 
-::mc
+::mc TH
 Four friends run $100$ m in these times: Ha $12.8$ seconds, Lan $12.75$ seconds, Mai $12.08$ seconds, Ngoc $12.5$ seconds. The fastest is
 A. Ha.
 B. Mai.
@@ -398,7 +398,7 @@ D. Ngoc.
 ::key B
 The least time is $12.08$ seconds, so Mai is the fastest. Option A picks the slowest runner; B picks the number with more digits or misreads it; D compares the decimal parts as whole numbers ($5<8<75$).
 
-::tf
+::tf NB NB TH TH
 Look at the decimal $40.605$.
 a) The digit $6$ is in the tenths place.
 b) The digit $5$ has value $0.5$.
@@ -407,12 +407,12 @@ d) $40.605<40.65$.
 ::key T F F T
 a) True: after the decimal point, the digit $6$ is in the tenths place. b) False: the digit $5$ is in the thousandths place, with value $0.005$. c) False: the digit $0$ in the middle must not be removed; $40.65=40.650$. d) True: $40.605<40.650$ because in the hundredths place $0<5$.
 
-::sa
+::sa VD
 How many decimals with one digit in the decimal part are greater than $2.3$ and less than $2.8$?
 ::key 4
 They are $2.4$; $2.5$; $2.6$; $2.7$.
 
-::sa
+::sa TH
 Find the missing number: $\dfrac{3}{4}=\dfrac{?}{100}$.
 ::key 75
 $\dfrac{3\times25}{4\times25}=\dfrac{75}{100}$.

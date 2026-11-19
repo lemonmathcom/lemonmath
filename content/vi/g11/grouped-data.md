@@ -394,7 +394,7 @@ Từ $\dfrac{18}{n}=0{,}36$ ta có $n=50$. Tần số tích luỹ của nhóm $[
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Một mẫu số liệu ghép nhóm cỡ $50$ có một nhóm với tần số $12$. Tần số tương đối của nhóm đó là
 A. $12\%$.
 B. $62\%$.
@@ -403,7 +403,7 @@ D. $24\%$.
 ::key D
 $\dfrac{12}{50}\cdot100\%=24\%$. Phương án A coi tần số là phần trăm, phương án C là $\dfrac{50}{12}$.
 
-::mc
+::mc NB
 Giá trị đại diện của nhóm $[160; 170)$ là
 A. $165$.
 B. $160$.
@@ -412,7 +412,7 @@ D. $330$.
 ::key A
 $\dfrac{160+170}{2}=165$. Phương án C là độ rộng của nhóm, phương án D là tổng hai đầu mút chưa chia $2$.
 
-::mc
+::mc TH
 Một mẫu có bốn nhóm với các tần số lần lượt là $4, 9, 12, 5$. Tần số tích luỹ của nhóm thứ ba là
 A. $12$.
 B. $25$.
@@ -421,7 +421,7 @@ D. $21$.
 ::key B
 $4+9+12=25$. Phương án A là tần số của chính nhóm thứ ba, phương án C là $4+9$, phương án D là $9+12$.
 
-::mc
+::mc TH
 Cách ghép nhóm nào sau đây hợp lệ cho các số liệu nhận giá trị từ $3$ đến $28$?
 A. $[0; 10)$, $[15; 25)$, $[25; 35)$.
 B. $[0; 10]$, $[10; 20]$, $[20; 30]$.
@@ -430,7 +430,7 @@ D. $[5; 15)$, $[15; 25)$.
 ::key C
 Các nhóm $[0; 10)$, $[10; 20)$, $[20; 30)$ liên tiếp, không chồng lấn và bao phủ mọi giá trị từ $3$ đến $28$. Phương án B chồng lấn tại $10$ và $20$, phương án A bỏ trống $[10; 15)$, phương án D không chứa các số $3$ và $28$.
 
-::tf
+::tf NB TH TH TH
 Thời gian chờ xe buýt của $25$ hành khách được ghép nhóm: $[0; 5)$ có $7$, $[5; 10)$ có $10$, $[10; 15)$ có $6$, $[15; 20)$ có $2$ hành khách. Xét tính đúng sai của các mệnh đề sau:
 a) Tần số tương đối của nhóm $[0; 5)$ là $7\%$.
 b) Có $15$ hành khách chờ dưới $10$ phút.
@@ -439,12 +439,12 @@ d) Có $5$ hành khách chờ ít nhất $15$ phút.
 ::key S S Đ S
 a) Sai: $\dfrac{7}{25}\cdot100\%=28\%$. b) Sai: $7+10=17$ hành khách. c) Đúng: $7+10+6=23$. d) Sai: nhóm $[15; 20)$ chỉ có $2$ hành khách.
 
-::sa
+::sa NB
 Một mẫu số liệu ghép nhóm cỡ $80$ có nhóm $[20; 30)$ với tần số $28$. Tần số tương đối của nhóm đó là bao nhiêu phần trăm?
 ::key 35
 $\dfrac{28}{80}\cdot100\%=35\%$.
 
-::sa
+::sa NB
 Giá trị đại diện của nhóm $[12{,}5; 17{,}5)$ bằng bao nhiêu?
 ::key 15
 $\dfrac{12{,}5+17{,}5}{2}=15$.

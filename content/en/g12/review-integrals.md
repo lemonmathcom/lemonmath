@@ -374,7 +374,7 @@ $$S=\int_{-4}^4\left(4-\frac{x^2}{4}\right)dx=\Big[4x-\frac{x^3}{12}\Big]_{-4}^4
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The family of antiderivatives of $f(x)=2^x$ is
 A. $x\cdot2^{x-1}+C$.
 B. $2^x\ln2+C$.
@@ -383,7 +383,7 @@ D. $\dfrac{2^x}{\ln2}+C$.
 ::key D
 $\left(\dfrac{2^x}{\ln2}\right)'=\dfrac{2^x\ln2}{\ln2}=2^x$. Option B is the derivative of $2^x$; C and A wrongly use the rule for powers $x^\alpha$.
 
-::mc
+::mc TH
 $\displaystyle\int_1^2\frac1x\,dx$ equals
 A. $\dfrac34$.
 B. $\ln2$.
@@ -392,7 +392,7 @@ D. $\dfrac12$.
 ::key B
 $\Big[\ln x\Big]_1^2=\ln2-0=\ln2$. Option A uses $-\dfrac{1}{x^2}$ as the "antiderivative" (it is in fact the derivative); C adds the limits.
 
-::mc
+::mc NB
 The functions $f$, $g$ are continuous on $[a, b]$. The area of the region bounded by $y=f(x)$, $y=g(x)$, $x=a$, $x=b$ is
 A. $\pi\displaystyle\int_a^b\left[f(x)-g(x)\right]^2dx$.
 B. $\displaystyle\int_a^b\left[f(x)-g(x)\right]dx$.
@@ -401,7 +401,7 @@ D. $\left\lvert\displaystyle\int_a^b\left[f(x)-g(x)\right]dx\right\rvert$.
 ::key C
 An area needs the modulus inside the integral. B can be negative; D is wrong when $f-g$ changes sign on $[a, b]$; A looks like a volume formula.
 
-::mc
+::mc TH
 Given $\displaystyle\int_0^2 f(x)\,dx=3$, the value of $\displaystyle\int_0^2\left[2f(x)+x\right]dx$ is
 A. $8$.
 B. $7$.
@@ -410,7 +410,7 @@ D. $10$.
 ::key A
 $2\cdot3+\Big[\dfrac{x^2}{2}\Big]_0^2=6+2=8$. Option B takes $\displaystyle\int_0^2x\,dx=1$; C leaves out the term $x$.
 
-::tf
+::tf NB TH TH VD
 The region $H$ is bounded by $y=x^2$, the $x$-axis and the lines $x=0$, $x=3$.
 a) The area of $H$ is $S=\displaystyle\int_0^3x^2\,dx$.
 b) $S=9$.
@@ -419,12 +419,12 @@ d) $V=\dfrac{243\pi}{5}$.
 ::key T T F T
 a) True: $x^2\ge0$. b) True: $\dfrac{27}{3}=9$. c) False: the function must be squared, $V=\pi\displaystyle\int_0^3x^4\,dx$. d) True: $\pi\Big[\dfrac{x^5}{5}\Big]_0^3=\dfrac{243\pi}{5}$.
 
-::sa
+::sa VD
 An object moves with velocity $v(t)=3t^2+2t$ (m/s). Find the distance it travels from $t=0$ to $t=4$ seconds, in metres.
 ::key 80
 $v(t)\ge0$ on $[0, 4]$, so $s=\Big[t^3+t^2\Big]_0^4=64+16=80$.
 
-::sa
+::sa TH
 Evaluate $\displaystyle\int_0^1\left(e^x+1\right)dx$. Give your answer to 2 decimal places.
 ::key 2.72
 $\Big[e^x+x\Big]_0^1=(e+1)-1=e\approx2.718$, which rounds to $2.72$.

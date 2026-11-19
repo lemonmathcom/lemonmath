@@ -366,7 +366,7 @@ So there are $12$ outcomes.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A dice is rolled. The number of elements in the sample space is
 A. $1$.
 B. $2$.
@@ -375,7 +375,7 @@ D. $36$.
 ::key C
 $\Omega=\{1, 2, 3, 4, 5, 6\}$. A thinks "only one face comes up each time", B confuses this with tossing one coin, D is the number of outcomes for two dice.
 
-::mc
+::mc TH
 Two coins are tossed. The sample space is
 A. $\{(T, T), (T, H), (H, H)\}$.
 B. $\{T, H\}$.
@@ -384,7 +384,7 @@ D. $\{(T, T), (T, H), (H, T), (H, H)\}$.
 ::key D
 A wrongly merges $(T, H)$ with $(H, T)$, B is the sample space for one coin, C contains only the outcomes with different faces.
 
-::mc
+::mc NB
 Two dice are rolled. The number of elements in the sample space is
 A. $12$.
 B. $36$.
@@ -393,7 +393,7 @@ D. $6$.
 ::key B
 $6\cdot6=36$. A adds $6+6$, C counts unordered pairs, D is for one dice.
 
-::mc
+::mc TH
 A box has $4$ marbles of different colours. Two marbles are taken out one after the other, without replacement. The number of elements in the sample space is
 A. $12$.
 B. $16$.
@@ -402,7 +402,7 @@ D. $8$.
 ::key A
 $4\cdot3=12$. B is with replacement, C is taking both at once (unordered), D adds $4+4$.
 
-::tf
+::tf TH NB TH TH
 A box contains three cards showing $1$, $2$, $3$. Two cards are drawn at random one after the other, with replacement. Decide whether each statement is true or false.
 a) The sample space has $9$ elements.
 b) $(1, 1)$ is an element of the sample space.
@@ -411,12 +411,12 @@ d) There are $3$ outcomes in which both cards show the same number.
 ::key T T F T
 a) True: $3\cdot3=9$. b) True, because of replacement. c) False: the order of drawing differs. d) True: $(1, 1), (2, 2), (3, 3)$.
 
-::sa
+::sa TH
 Roll two dice. How many outcomes have a total score of $9$?
 ::key 4
 $(3, 6), (4, 5), (5, 4), (6, 3)$.
 
-::sa
+::sa VD
 Two of five students are chosen at random at the same time. How many elements does the sample space have?
 ::key 10
 Pair each student with those after them: $4+3+2+1=10$.

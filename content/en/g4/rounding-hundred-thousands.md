@@ -358,7 +358,7 @@ Smallest number: it starts with $4$ and the ten-thousands digit must be $5$ or m
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $2\,467\,891$ rounded to the nearest hundred thousand is
 A. $2\,400\,000$.
 B. $2\,470\,000$.
@@ -367,7 +367,7 @@ D. $2\,500\,000$.
 ::key D
 The ten-thousands digit is $6\geq5$, so increase the hundred-thousands digit $4$ to $5$: $2\,500\,000$. Option A looks at the wrong digit, option B rounds to the nearest ten thousand, and option C rounds to the nearest million.
 
-::mc
+::mc TH
 $468\,395$ rounded to the nearest ten thousand is
 A. $470\,000$.
 B. $468\,000$.
@@ -376,7 +376,7 @@ D. $500\,000$.
 ::key A
 The thousands digit is $8\geq5$, so increase the ten-thousands digit $6$ to $7$: $470\,000$. Option B rounds to the nearest thousand, option C rounds down wrongly, and option D rounds to the nearest hundred thousand.
 
-::mc
+::mc NB
 The number before $100\,000$ is
 A. $100\,001$.
 B. $99\,999$.
@@ -385,7 +385,7 @@ D. $90\,000$.
 ::key B
 The number before is $1$ less: $100\,000-1=99\,999$. Option A is the number after, and options C and D have the wrong values.
 
-::mc
+::mc TH
 Which statement is correct?
 A. The largest natural number is $999\,999$.
 B. The number $0$ is not a natural number.
@@ -394,7 +394,7 @@ D. The smallest natural number is $1$.
 ::key C
 Adding $1$ to any natural number gives a larger natural number, so there is no largest natural number. The number $0$ is the smallest natural number.
 
-::tf
+::tf TH TH TH TH
 Look at the number $3\,548\,200$.
 a) Rounded to the nearest hundred thousand it is $3\,500\,000$.
 b) Rounded to the nearest ten thousand it is $3\,540\,000$.
@@ -403,12 +403,12 @@ d) Rounded to the nearest thousand it is $3\,549\,000$.
 ::key T F F F
 a) True: the ten-thousands digit is $4<5$. b) False: the thousands digit is $8\geq5$, so it is $3\,550\,000$. c) False: the hundred-thousands digit is $5\geq5$, so it is $4\,000\,000$. d) False: the hundreds digit is $2<5$, so it is $3\,548\,000$.
 
-::sa
+::sa TH
 Round $749\,999$ to the nearest hundred thousand. What is the hundred-thousands digit of the result?
 ::key 7
 The ten-thousands digit is $4<5$, so keep the digit $7$, giving $700\,000$.
 
-::sa
+::sa TH
 How many digits $0$ does the number after $4\,999\,999$ have?
 ::key 6
 The number after is $5\,000\,000$, which has six digits $0$.

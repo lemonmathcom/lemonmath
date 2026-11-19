@@ -274,7 +274,7 @@ $200(0.8)^6\approx52.4$ milligrams, still above 50; $200(0.8)^7\approx41.9$ mill
 :::
 
 :::quiz
-::mc
+::mc NB
 The function $f$ is defined by $f(x)=3\cdot2^x$. What is the value of $f(4)$?
 A. $24$
 B. $48$
@@ -283,7 +283,7 @@ D. $11$
 ::key B
 $3\cdot2^4=3\cdot16=48$. Option A computes $3\cdot2\cdot4$; option C is $3\cdot2^5$, one doubling too many.
 
-::mc
+::mc TH
 A quantity is modeled by $y=50(0.7)^t$. Which statement is true?
 A. It increases by 70% per unit of time.
 B. It decreases by 70% per unit of time.
@@ -292,7 +292,7 @@ D. It decreases by 30% per unit of time.
 ::key D
 $0.7=1-0.3$, a decrease of $30\%$ per unit of time.
 
-::mc
+::mc TH
 A quantity starts at 4 and triples every day. What is its value after 3 days?
 A. $12$
 B. $36$
@@ -301,7 +301,7 @@ D. $324$
 ::key C
 $4\cdot3^3=108$. Option A is $4\cdot3$, the linear mistake.
 
-::mc
+::mc TH
 Which expression gives the value of 500 dollars after $t$ years if it grows by 2% each year?
 A. $500(1.02)^t$
 B. $500(0.02)^t$
@@ -310,7 +310,7 @@ D. $500(1.2)^t$
 ::key A
 The factor is $1+0.02=1.02$. Option D uses $20\%$.
 
-::tf
+::tf NB TH TH TH
 The value, in dollars, of a machine $t$ years after it was bought is $V(t)=8{,}000(0.9)^t$.
 a) The machine cost 8,000 dollars when it was bought.
 b) The value decreases by 10% each year.
@@ -319,12 +319,12 @@ d) The machine loses 800 dollars of value every year.
 ::key T T T F
 a) True: $V(0)=8{,}000$. b) True: $0.9=1-0.1$. c) True: $8{,}000\cdot0.81=6{,}480$. d) False: it loses 800 dollars only in the first year, then less each year.
 
-::sa
+::sa TH
 If $3\cdot2^x=96$, what is the value of $x$?
 ::key 5
 $2^x=32=2^5$, so $x=5$.
 
-::sa
+::sa VD
 A sample of 64 grams has a half-life of 5 days. How many grams remain after 15 days?
 ::key 8
 $15$ days is $3$ half-lives: $64\left(\dfrac12\right)^3=8$.

@@ -381,7 +381,7 @@ The first number has $3$ parts and the second number has $4$ parts of the same s
 ## Mini test
 
 :::quiz
-::mc
+::mc VD
 The sum of two numbers is $48$. The smaller number is $\dfrac{1}{5}$ of the larger number. The two numbers are
 A. $9.6$ and $38.4$.
 B. $12$ and $36$.
@@ -390,7 +390,7 @@ D. $24$ and $24$.
 ::key C
 The smaller number has $1$ part and the larger number has $5$ parts, which is $6$ parts in total; one part is $48\div6=8$, so the numbers are $8$ and $40$. Option A divides the sum by $5$; C matches the ratio $\dfrac{1}{3}$; D halves the sum.
 
-::mc
+::mc VD
 The difference of two numbers is $24$. The ratio of the larger number to the smaller number is $\dfrac{5}{3}$. The larger number is
 A. $36$.
 B. $15$.
@@ -399,7 +399,7 @@ D. $60$.
 ::key D
 The difference in parts is $5-3=2$, one part is $24\div2=12$, and the larger number is $12\times5=60$. Option B divides the difference by the total number of parts; C multiplies the difference by the number of parts; D is the smaller number.
 
-::mc
+::mc VD
 A class has $36$ students. The number of boys is $\dfrac{4}{5}$ of the number of girls. The number of girls is
 A. $20$.
 B. $18$.
@@ -408,7 +408,7 @@ D. $45$.
 ::key A
 The total number of parts is $4+5=9$, one part is $36\div9=4$, and the number of girls is $4\times5=20$. Option C is the number of boys; B halves $36$; D works out $36\div4\times5$.
 
-::mc
+::mc VD
 Suppose a father is $30$ years older than his child and the father's age is $6$ times the child's age. The father's age is
 A. $6$ years.
 B. $36$ years.
@@ -417,7 +417,7 @@ D. $30$ years.
 ::key B
 The difference in parts is $6-1=5$, one part is $30\div5=6$, and the father's age is $6\times6=36$. Option A is the child's age; B is the difference; C multiplies the difference by $6$.
 
-::tf
+::tf TH VD VD TH
 Two numbers have sum $24$, and the ratio of the smaller number to the larger number is $\dfrac{1}{3}$.
 a) The total number of equal parts is $4$.
 b) The smaller number is $8$.
@@ -426,12 +426,12 @@ d) The larger number is $3$ times the smaller number.
 ::key T F T T
 a) True: $1+3=4$. b) False: one part is $24\div4=6$, so the smaller number is $6$. c) True: $6\times3=18$. d) True: $18=3\times6$.
 
-::sa
+::sa VD
 The sum of two numbers is $45$. The ratio of the two numbers is $\dfrac{2}{7}$. What is the smaller number?
 ::key 10
 The total number of parts is $2+7=9$, one part is $45\div9=5$, and the smaller number is $5\times2=10$.
 
-::sa
+::sa VD
 The difference of two numbers is $18$. The ratio of the smaller number to the larger number is $\dfrac{4}{7}$. What is the larger number?
 ::key 42
 The difference in parts is $7-4=3$, one part is $18\div3=6$, and the larger number is $6\times7=42$.

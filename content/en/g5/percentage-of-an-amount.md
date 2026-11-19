@@ -260,7 +260,7 @@ $$960\div4=240\ (\text{m}^2).$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $20\%$ of $150$ is
 A. $3\,000$.
 B. $7.5$.
@@ -269,7 +269,7 @@ D. $750$.
 ::key C
 $150\times20\div100=3\,000\div100=30$. Option A is the mistake of forgetting to divide by $100$; option B is $150\div20$.
 
-::mc
+::mc TH
 To find $12\%$ of $350$, you work out
 A. $350\div12$.
 B. $350\times100\div12$.
@@ -278,7 +278,7 @@ D. $350\times12\div100$.
 ::key D
 $12\%$ of $350$ is $12$ parts out of $100$ parts of $350$, that is $350\times12\div100$. The other options divide by $12$, which is wrong.
 
-::mc
+::mc VD
 A shirt costs $300\,000$ dong and has a $10\%$ discount. The amount to pay is
 A. $270\,000$ dong.
 B. $330\,000$ dong.
@@ -287,7 +287,7 @@ D. $30\,000$ dong.
 ::key A
 The discount is $300\,000\times10\div100=30\,000$ dong, so you pay $300\,000-30\,000=270\,000$ dong. Option D forgets to subtract.
 
-::mc
+::mc TH
 A class has $30$ pupils, and $40\%$ of them walk to school. The number of pupils who walk is
 A. $1\,200$ pupils.
 B. $12$ pupils.
@@ -296,7 +296,7 @@ D. $70$ pupils.
 ::key B
 $30\times40\div100=1\,200\div100=12$ (pupils). Option A forgets to divide by $100$; option C is $30\div40\times100$, which finds a percentage, not a percentage of an amount.
 
-::tf
+::tf TH TH TH VD
 Look at $60\%$ of $90$.
 a) It can be worked out as $90\div100\times60$.
 b) The result is $54$.
@@ -305,12 +305,12 @@ d) The result equals $40\%$ of $140$.
 ::key T T F F
 a) True: divide by $100$, then multiply by $60$. b) True: $0.9\times60=54$. c) False: $5\,400$ is $90\times60$, not yet divided by $100$. d) False: $140\times40\div100=56$, not $54$.
 
-::sa
+::sa TH
 Work out $35\%$ of $80$.
 ::key 28
 $80\times35\div100=2\,800\div100=28$.
 
-::sa
+::sa VD
 A shop has $450$ kg of rice and sells $60\%$ of it. How many kilograms of rice are left?
 ::key 180
 The rice sold is $450\times60\div100=270$ (kg), so $450-270=180$ (kg) are left.

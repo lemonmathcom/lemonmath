@@ -333,7 +333,7 @@ Cầu lông: $15-5=10$ (bạn). Bóng đá và cầu lông: $15+10=25$ (bạn). 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Dãy: cam, táo, cam, cam, táo, chuối. Có mấy quả cam?
 A. $2$.
 B. $6$.
@@ -342,7 +342,7 @@ D. $3$.
 ::key D
 Cam xuất hiện ở vị trí $1$, $3$, $4$ nên có $3$ quả. Phương án B là đếm cả dãy.
 
-::mc
+::mc NB
 Bảng: bóng đá $8$ bạn, cờ vua $5$ bạn, bơi $7$ bạn. Môn nào có ít bạn chọn nhất?
 A. Cờ vua.
 B. Bóng đá.
@@ -351,7 +351,7 @@ D. Cả ba môn bằng nhau.
 ::key A
 Số nhỏ nhất trong $8$, $5$, $7$ là $5$, ứng với cờ vua. Phương án B là chọn số lớn nhất.
 
-::mc
+::mc TH
 Với bảng ở câu trên, có tất cả bao nhiêu bạn?
 A. $13$.
 B. $20$.
@@ -360,7 +360,7 @@ D. $21$.
 ::key B
 $8+5+7=20$. Phương án A chỉ cộng hai số đầu, phương án C chỉ cộng bóng đá và bơi.
 
-::mc
+::mc TH
 Tổ Một trồng $16$ cây, tổ Hai trồng $13$ cây. Tổ Một trồng nhiều hơn tổ Hai bao nhiêu cây?
 A. $29$ cây.
 B. $2$ cây.
@@ -369,7 +369,7 @@ D. $4$ cây.
 ::key C
 "Nhiều hơn bao nhiêu" là phép trừ: $16-13=3$. Phương án A là phép cộng.
 
-::tf
+::tf NB TH NB TH
 Lớp có $25$ bạn chọn hoa: hồng $10$ bạn, cúc $7$ bạn, lan $8$ bạn.
 a) Hoa hồng được nhiều bạn chọn nhất.
 b) Tổng số bạn trong bảng là $25$.
@@ -378,12 +378,12 @@ d) Hoa hồng được nhiều hơn hoa cúc $3$ bạn.
 ::key Đ Đ S Đ
 a) Đúng: $10$ là số lớn nhất. b) Đúng: $10+7+8=25$. c) Sai: $7<8$. d) Đúng: $10-7=3$.
 
-::sa
+::sa TH
 Ba tổ gấp được số con hạc: tổ Một $14$ con, tổ Hai $11$ con, tổ Ba $12$ con. Cả ba tổ gấp được bao nhiêu con hạc?
 ::key 37
 $14+11+12=37$ (con hạc).
 
-::sa
+::sa VD
 Lớp có $32$ bạn, mỗi bạn chọn một trò chơi: kéo co $14$ bạn, nhảy dây $10$ bạn, còn lại chơi cờ. Có bao nhiêu bạn chơi cờ?
 ::key 8
 $32-14-10=8$ (bạn).

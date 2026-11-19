@@ -283,7 +283,7 @@ So the probability of at least $5$ correct by pure guessing is about $0.0781$.
 :::
 
 :::quiz
-::mc
+::mc NB
 If $P(A)=0.35$, then $P(A^C)$ is
 A. $0.35$
 B. $0.65$
@@ -292,7 +292,7 @@ D. $0.1225$
 ::key B
 $1-0.35=0.65$.
 
-::mc
+::mc TH
 $A$ and $B$ are independent with $P(A)=0.3$ and $P(B)=0.4$. Then $P(A\text{ and }B)$ is
 A. $0.7$
 B. $0.1$
@@ -301,7 +301,7 @@ D. $0.58$
 ::key C
 $0.3\times0.4=0.12$.
 
-::mc
+::mc TH
 The mean of a binomial distribution with $n=20$ and $p=0.3$ is
 A. $6$
 B. $4.2$
@@ -310,7 +310,7 @@ D. $0.3$
 ::key A
 $np=20\times0.3=6$.
 
-::mc
+::mc TH
 Which situation is NOT a binomial setting?
 A. Counting heads in $12$ coin tosses
 B. Counting correct guesses on $8$ true-false questions
@@ -319,7 +319,7 @@ D. Counting the rolls of a die needed to get the first six
 ::key D
 The number of trials is not fixed.
 
-::tf
+::tf NB TH VD TH
 A random variable $X$ takes values $0$, $1$, $2$ with probabilities $0.5$, $0.3$ and $0.2$. Decide whether each statement is true or false.
 a) The probabilities sum to $1$.
 b) $P(X\ge1)=0.5$.
@@ -328,12 +328,12 @@ d) $\mu_X$ must be one of the values of $X$.
 ::key T T T F
 The mean $0.7$ is not a possible value.
 
-::sa
+::sa VD
 For the random variable in the previous question, find $P(X=2\mid X\ge1)$.
 ::key 0.4
 $\dfrac{0.2}{0.5}=0.4$.
 
-::sa
+::sa TH
 If $P(A\text{ and }B)=0.12$ and $P(B)=0.4$, find $P(A\mid B)$.
 ::key 0.3
 $\dfrac{0.12}{0.4}=0.3$.

@@ -401,7 +401,7 @@ $I(3; 2)$ và $|\overrightarrow{MA}+\overrightarrow{MB}|=2MI$. Với $M(t; 0)$: 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho $A(2; -1)$ và $B(-1; 3)$. Toạ độ của $\overrightarrow{AB}$ là
 A. $(-3; 4)$.
 B. $(3; -4)$.
@@ -410,7 +410,7 @@ D. $(-3; 2)$.
 ::key A
 Điểm cuối trừ điểm đầu: $\overrightarrow{AB}=(-1-2;\ 3-(-1))=(-3; 4)$. Phương án B là $\overrightarrow{BA}$ (trừ ngược thứ tự); phương án C cộng toạ độ.
 
-::mc
+::mc NB
 Độ dài của vectơ $\vec{a}=(-5; 12)$ là
 A. $7$.
 B. $13$.
@@ -419,7 +419,7 @@ D. $\sqrt{119}$.
 ::key B
 $|\vec{a}|=\sqrt{(-5)^2+12^2}=\sqrt{169}=13$. Phương án A, C cộng thẳng hai toạ độ; phương án D lấy $144-25$.
 
-::mc
+::mc NB
 Trọng tâm của tam giác có các đỉnh $A(1; 4)$, $B(3; -2)$, $C(5; 7)$ là
 A. $G(4{,}5; 4{,}5)$.
 B. $G(9; 9)$.
@@ -428,7 +428,7 @@ D. $G(2; 1)$.
 ::key C
 $G\left(\dfrac{1+3+5}{3};\ \dfrac{4-2+7}{3}\right)=G(3; 3)$. Phương án B quên chia, A chia cho $2$ thay vì $3$, D là trung điểm của $AB$.
 
-::mc
+::mc TH
 Vectơ nào sau đây cùng phương với $\vec{u}=(2; -3)$?
 A. $(3; -2)$.
 B. $(4; 6)$.
@@ -437,7 +437,7 @@ D. $(-4; 6)$.
 ::key D
 $(-4; 6)=-2(2; -3)$; kiểm tra: $2\cdot6-(-4)\cdot(-3)=12-12=0$. Phương án A đổi chỗ hai toạ độ; B và C sai dấu một toạ độ.
 
-::tf
+::tf NB TH NB VD
 Cho $A(0; 2)$, $B(4; 0)$, $C(6; 4)$.
 a) $\overrightarrow{AB}=(4; -2)$.
 b) $AC=2\sqrt5$.
@@ -446,12 +446,12 @@ d) Nếu $ABCD$ là hình bình hành thì $D(10; 2)$.
 ::key Đ S Đ S
 a) Đúng: $(4-0;\ 0-2)$. b) Sai: $\overrightarrow{AC}=(6; 2)$ nên $AC=\sqrt{40}=2\sqrt{10}$ ($2\sqrt5$ là $AB$). c) Đúng: $\left(\dfrac{0+6}{2};\ \dfrac{2+4}{2}\right)$. d) Sai: từ $\overrightarrow{AB}=\overrightarrow{DC}$ ta được $D(2; 6)$; điểm $(10; 2)$ cho hình bình hành $ABDC$.
 
-::sa
+::sa TH
 Tính khoảng cách giữa hai điểm $A(-1; 2)$ và $B(5; -6)$.
 ::key 10
 $\overrightarrow{AB}=(6; -8)$, nên $AB=\sqrt{36+64}=\sqrt{100}=10$.
 
-::sa
+::sa VD
 Cho $A(2; 1)$ và $B(6; 4)$. Đường thẳng $AB$ cắt trục $Oy$ tại điểm $M$. Tìm tung độ của $M$.
 ::key -0,5
 $M(0; t)$. Cần $\overrightarrow{AM}=(-2;\ t-1)$ cùng phương với $\overrightarrow{AB}=(4; 3)$: $(-2)\cdot3-4(t-1)=0\iff 4t=-2\iff t=-0{,}5$.

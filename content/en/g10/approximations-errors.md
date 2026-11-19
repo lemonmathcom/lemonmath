@@ -380,7 +380,7 @@ Estimated area $\bar S=32.5\cdot18.4=598$ m². Smallest $32.4\cdot18.3=592.92$, 
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The length of a pen is $a=12.5\pm0.3$ cm. Which statement is true?
 A. $12.2\le a\le12.8$.
 B. $12.47\le a\le12.53$.
@@ -389,7 +389,7 @@ D. $12.2\le a\le12.5$.
 ::key A
 $a=\bar a\pm d$ means $\bar a-d\le a\le\bar a+d$, that is $12.5-0.3\le a\le12.5+0.3$. We must subtract and add, not go in one direction only.
 
-::mc
+::mc NB
 Rounding $52\,846$ to the nearest hundred gives
 A. $52\,800$.
 B. $52\,900$.
@@ -398,7 +398,7 @@ D. $53\,000$.
 ::key A
 The tens digit is $4<5$, so the hundreds digit stays: $52\,800$. Option B is the "chain rounding" mistake $52\,846\to52\,850\to52\,900$.
 
-::mc
+::mc TH
 The approximate value $\bar a=40$ has error bound $d=0.2$. Its relative error is at most
 A. $0.2\%$.
 B. $0.5\%$.
@@ -407,7 +407,7 @@ D. $200\%$.
 ::key B
 $\delta_{\bar a}\le\dfrac{d}{|\bar a|}=\dfrac{0.2}{40}=0.005=0.5\%$. Option A mistakes $d$ for the relative error; D uses $\dfrac{40}{0.2}$.
 
-::mc
+::mc TH
 The rounded form of the approximate value $\bar a=1\,734\,562$ with error bound $d=300$ is
 A. $1\,734\,600$.
 B. $1\,735\,000$.
@@ -416,7 +416,7 @@ D. $1\,730\,000$.
 ::key B
 One hundred is $100<300$ and one thousand is $1000>300$, so we round to the nearest thousand. The hundreds digit is $5\ge5$, giving $1\,735\,000$ (C drops digits without rounding).
 
-::tf
+::tf TH TH TH NB
 Given $\sqrt5=2.2360679\ldots$, take $\bar a=2.24$ as an approximation of $\sqrt5$.
 a) The absolute error of $\bar a$ is less than $0.004$.
 b) We may write $\sqrt5=2.24\pm0.003$.
@@ -425,12 +425,12 @@ d) Rounding $\sqrt5$ to three decimal places gives $2.237$.
 ::key T F T F
 a) True: $2.24-2.2360679\ldots=0.0039\ldots<0.004$. b) False: the real error $0.0039\ldots$ is larger than $0.003$. c) True: $\dfrac{0.004}{2.24}\approx0.18\%$. d) False: round to three decimal places; the next digit is $0<5$, so we get $2.236$.
 
-::sa
+::sa TH
 A bag of rice is weighed as $49.6$ kg with error bound $0.2$ kg. What is the largest possible true mass of the bag, in kilograms?
 ::key 49.8
 The true mass $a$ satisfies $49.6-0.2\le a\le49.6+0.2$, so the largest possible value is $49.8$ kg.
 
-::sa
+::sa VD
 A leaf is measured several times and every result lies between $7.42$ cm and $7.58$ cm. Take $\bar a$ as the midpoint of this range. At most what percentage is the relative error of $\bar a$? (Round to two decimal places.)
 ::key 1.07
 $\bar a=\dfrac{7.42+7.58}{2}=7.5$ and $d=\dfrac{7.58-7.42}{2}=0.08$, so $\delta\le\dfrac{0.08}{7.5}\approx1.07\%$.

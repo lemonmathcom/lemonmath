@@ -288,7 +288,7 @@ So $a=4$, $b=\dfrac\pi4$ and $k=3$, giving $f(x)=4\sin\dfrac{\pi x}{4}+3$.
 :::
 
 :::quiz
-::mc
+::mc NB
 The period of $y=\sin4x$ is
 A. $4\pi$
 B. $\dfrac\pi4$
@@ -297,7 +297,7 @@ D. $8\pi$
 ::key C
 $\dfrac{2\pi}{4}=\dfrac\pi2$.
 
-::mc
+::mc NB
 The amplitude of $y=-5\cos x+1$ is
 A. $-5$
 B. $1$
@@ -306,7 +306,7 @@ D. $5$
 ::key D
 The amplitude is $\lvert-5\rvert=5$.
 
-::mc
+::mc NB
 The exact value of $\sin\dfrac\pi3$ is
 A. $\dfrac{\sqrt3}{2}$
 B. $\dfrac12$
@@ -315,7 +315,7 @@ D. $\sqrt3$
 ::key A
 From the unit circle.
 
-::mc
+::mc NB
 The midline of $y=2\sin x+7$ is
 A. $y=2$
 B. $y=7$
@@ -324,7 +324,7 @@ D. $y=5$
 ::key B
 The vertical shift $k=7$ gives the midline.
 
-::tf
+::tf NB NB TH TH
 Consider $y=3\sin2x$. Decide whether each statement is true or false.
 a) The amplitude is $3$.
 b) The period is $\pi$.
@@ -333,12 +333,12 @@ d) The maximum value is $6$.
 ::key T T T F
 The maximum is $3$.
 
-::sa
+::sa TH
 Find the period of $y=\sin\dfrac{\pi x}{6}$.
 ::key 12
 $\dfrac{2\pi}{\pi/6}=12$.
 
-::sa
+::sa TH
 Find the maximum value of $y=2\cos x+3$.
 ::key 5
 $3+2=5$.

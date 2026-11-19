@@ -245,7 +245,7 @@ The numbers greater than $47$ with $4$ tens are $48$ and $49$. Both are less tha
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Which sign goes in $62 \;\square\; 59$?
 A. $<$.
 B. $>$.
@@ -254,7 +254,7 @@ D. cannot tell.
 ::key B
 Tens digits: $6>5$, so $62>59$. Option A is the mistake of comparing the ones first.
 
-::mc
+::mc NB
 Which sign goes in $47 \;\square\; 47$?
 A. $<$.
 B. $>$.
@@ -263,7 +263,7 @@ D. cannot tell.
 ::key C
 The tens and the ones are both equal.
 
-::mc
+::mc TH
 The greatest number in $38, 83, 29, 80$ is
 A. $38$.
 B. $83$.
@@ -272,7 +272,7 @@ D. $80$.
 ::key B
 The greatest tens digit is $8$, in $83$ and $80$; the ones digit $3>0$, so $83$ is the greatest.
 
-::mc
+::mc TH
 Putting $25, 52, 22$ in order from least to greatest gives
 A. $22, 25, 52$.
 B. $52, 25, 22$.
@@ -281,7 +281,7 @@ D. $22, 52, 25$.
 ::key A
 Tens digits: $2, 5, 2$. The numbers $22$ and $25$ both have $2$ tens, and $2<5$ in the ones. Option B is from greatest to least.
 
-::tf
+::tf TH TH TH NB
 Look at the two numbers $73$ and $37$.
 a) $73>37$.
 b) $37>73$.
@@ -290,12 +290,12 @@ d) $73=37$.
 ::key T F T F
 a) True: the tens digit $7>3$. b) False. c) True. d) False.
 
-::sa
+::sa TH
 What is the greatest number in $45, 54, 49$?
 ::key 54
 The tens digit $5$ is the greatest, and only $54$ has it.
 
-::sa
+::sa TH
 What is the least number in $61, 16, 66$?
 ::key 16
 The tens digit $1$ is the least, and only $16$ has it.

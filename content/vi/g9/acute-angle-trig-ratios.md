@@ -431,7 +431,7 @@ Vậy $AH=2\sqrt3$ cm và $AB=4\sqrt3$ cm.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho tam giác $ABC$ vuông tại $A$. Khi đó $\sin B$ bằng
 A. $\dfrac{AC}{AB}$.
 B. $\dfrac{AB}{BC}$.
@@ -440,7 +440,7 @@ D. $\dfrac{AB}{AC}$.
 ::key C
 Cạnh đối của góc $B$ là $AC$, cạnh huyền là $BC$, nên $\sin B=\dfrac{AC}{BC}$. Phương án B là $\cos B$, A là $\tan B$, D là $\cot B$.
 
-::mc
+::mc NB
 $\tan60^\circ$ bằng
 A. $\dfrac{\sqrt3}3$.
 B. $\dfrac12$.
@@ -449,7 +449,7 @@ D. $\sqrt3$.
 ::key D
 Ta có $\tan60^\circ=\sqrt3$ (trong nửa tam giác đều cạnh $2$, cạnh đối của góc $60^\circ$ là $\sqrt3$, cạnh kề là $1$). Phương án A là $\tan30^\circ$, C là $\sin60^\circ$.
 
-::mc
+::mc TH
 $\cos52^\circ$ bằng
 A. $\sin52^\circ$.
 B. $\cos38^\circ$.
@@ -458,7 +458,7 @@ D. $\sin38^\circ$.
 ::key D
 Vì $52^\circ+38^\circ=90^\circ$ (hai góc phụ nhau) nên $\cos52^\circ=\sin38^\circ$. Phương án B giữ nguyên cos khi đổi sang góc phụ.
 
-::mc
+::mc NB
 Tam giác $ABC$ vuông tại $A$ có $AB=12$, $BC=13$. Khi đó $\cos B$ bằng
 A. $\dfrac{12}{13}$.
 B. $\dfrac{5}{13}$.
@@ -467,7 +467,7 @@ D. $\dfrac{13}{12}$.
 ::key A
 Ta có $\cos B=\dfrac{AB}{BC}=\dfrac{12}{13}$. Phương án B là $\sin B$ (vì $AC=5$), D đặt cạnh huyền ở tử nên lớn hơn $1$.
 
-::tf
+::tf TH TH TH VD
 Cho tam giác $ABC$ vuông tại $A$ có $AB=\sqrt3$, $AC=1$. Xét tính đúng sai của các mệnh đề sau:
 a) $BC=2$.
 b) $\sin B=\dfrac12$.
@@ -476,12 +476,12 @@ d) $\widehat{C}=60^\circ$.
 ::key Đ Đ S Đ
 a) Đúng. $BC=\sqrt{AB^2+AC^2}=\sqrt{3+1}=2$ (định lí Pythagore). b) Đúng. $\sin B=\dfrac{AC}{BC}=\dfrac12$. c) Sai. $\tan B=\dfrac{AC}{AB}=\dfrac{1}{\sqrt3}=\dfrac{\sqrt3}3$. d) Đúng. Vì $\sin B=\dfrac12$ nên $\widehat B=30^\circ$, do đó $\widehat C=90^\circ-30^\circ=60^\circ$.
 
-::sa
+::sa TH
 Tính $2\sin30^\circ+3\tan45^\circ-\cot45^\circ$.
 ::key 3
 Ta có $2\sin30^\circ+3\tan45^\circ-\cot45^\circ=2\cdot\dfrac12+3\cdot1-1=3$.
 
-::sa
+::sa VD
 Một con đường có biển báo dốc $8\%$. Tính góc nghiêng của con đường so với phương nằm ngang theo độ (làm tròn kết quả đến hàng phần mười).
 ::key 4,6
 Gọi $\alpha$ là góc nghiêng. Ta có $\tan\alpha=\dfrac{8}{100}=0{,}08$, suy ra $\alpha\approx4{,}6^\circ$.

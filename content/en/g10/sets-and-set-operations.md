@@ -440,7 +440,7 @@ $X$ always contains $1$ and $2$; each of $3$, $4$, $5$ may be in or out. That gi
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Let $A=\{x\in\mathbb{Z}\mid -2\le x<3\}$. The number of elements of $A$ is
 A. $4$.
 B. $5$.
@@ -449,7 +449,7 @@ D. $3$.
 ::key B
 $A=\{-2, -1, 0, 1, 2\}$ has $5$ elements. Counting $3$ as well (the sign "$<$" excludes $3$) gives $6$; leaving out $-2$ gives $4$.
 
-::mc
+::mc TH
 Let $A=(-1, 4]$ and $B=[2, 6)$. The set $A\cap B$ is
 A. $[2, 4]$.
 B. $(2, 4)$.
@@ -458,7 +458,7 @@ D. $[2, 4)$.
 ::key A
 We need $-1<x\le 4$ and $2\le x<6$, that is $2\le x\le 4$. Both $2$ and $4$ belong to both sets, so they are included; $(-1, 6)$ is the union, not the intersection.
 
-::mc
+::mc NB
 The complement of $[1, +\infty)$ in $\mathbb{R}$ is
 A. $(-\infty, 1]$.
 B. $(-\infty, 1)$.
@@ -467,7 +467,7 @@ D. $(-\infty, -1)$.
 ::key B
 The complement consists of the real numbers not in $[1, +\infty)$, that is $x<1$. The point $1$ belongs to the given set, so it is not in the complement.
 
-::mc
+::mc TH
 Let $A=\{1, 2, 3, 4, 5\}$ and let $B$ be the set of natural-number divisors of $6$. The set $A\setminus B$ is
 A. $\{4, 5\}$.
 B. $\{6\}$.
@@ -476,7 +476,7 @@ D. $\{4, 5, 6\}$.
 ::key A
 $B=\{1, 2, 3, 6\}$. $A\setminus B$ consists of the elements of $A$ that are not in $B$: $4$ and $5$. Option B is $B\setminus A$ and option C is $A\cap B$.
 
-::tf
+::tf TH TH TH VD
 Let $A=[-2, 3)$ and $B=(0, 5]$.
 a) $A\cup B=[-2, 5]$.
 b) $A\cap B=[0, 3)$.
@@ -485,12 +485,12 @@ d) $B\setminus A$ contains exactly $3$ integers.
 ::key T F T T
 a) True: the two intervals join up from $-2$ (included) to $5$ (included). b) False: $0\notin B$, so $A\cap B=(0, 3)$. c) True: $0\notin B$, so $0$ stays in $A\setminus B$. d) True: $B\setminus A=[3, 5]$ contains $3, 4, 5$.
 
-::sa
+::sa VD
 How many sets $X$ are subsets of $\{1, 2, 3, 4, 5, 6\}$ that contain the element $1$ but do not contain the element $6$?
 ::key 16
 The element $1$ must be in and the element $6$ must be out. Each of $2, 3, 4, 5$ has $2$ choices (in or out), so there are $2^4=16$ sets.
 
-::sa
+::sa VD
 Class 10B has $40$ students: $25$ like maths, $18$ like literature and $7$ like both subjects. How many students like **exactly one** of the two subjects?
 ::key 29
 Maths only: $25-7=18$; literature only: $18-7=11$. Exactly one subject: $18+11=29$ students (the sum $25+18-7=36$ is the number who like at least one subject).

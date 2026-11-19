@@ -260,7 +260,7 @@ Ones: $4+1=5$. The number is $34$, so the missing digit is $4$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $23+34$ equals
 A. $7$.
 B. $75$.
@@ -269,7 +269,7 @@ D. $57$.
 ::key D
 $3+4=7$ and $2+3=5$, so $23+34=57$. Option B swaps the tens and the ones, C adds only the $4$, and A forgets the tens.
 
-::mc
+::mc TH
 $40+25$ equals
 A. $65$.
 B. $45$.
@@ -278,7 +278,7 @@ D. $15$.
 ::key A
 $0+5=5$ and $4+2=6$, so $40+25=65$. Option B forgets the $2$ tens of $25$.
 
-::mc
+::mc TH
 Which sum equals $79$?
 A. $44+34$.
 B. $45+34$.
@@ -287,7 +287,7 @@ D. $45+43$.
 ::key B
 $45+34=79$. The other sums are $78$, $80$ and $88$.
 
-::mc
+::mc TH
 Mai has $32$ red beads and $45$ blue beads. How many beads does Mai have altogether?
 A. $67$ beads.
 B. $13$ beads.
@@ -296,7 +296,7 @@ D. $7$ beads.
 ::key C
 "Altogether" means putting together: $32+45=77$. Option B is $45-32$, a subtraction by mistake.
 
-::tf
+::tf TH TH TH TH
 Look at the sum $51+27$.
 a) Tens: $5+2=7$.
 b) Ones: $1+7=8$.
@@ -305,12 +305,12 @@ d) $51+27$ is greater than $80$.
 ::key T T F F
 a) True: $5+2=7$. b) True: $1+7=8$. c) False: $7$ tens and $8$ ones make $78$. d) False: $78<80$.
 
-::sa
+::sa TH
 Work out $34+25$.
 ::key 59
 $4+5=9$ and $3+2=5$, so $34+25=59$.
 
-::sa
+::sa VD
 A box has $43$ pens and Dad buys $36$ more. How many pens are in the box altogether?
 ::key 79
 $43+36=79$ (pens).

@@ -321,7 +321,7 @@ $24=3\cdot8$, so the second equation must be $3$ times the first: $6x+15y=24$. H
 :::
 
 :::quiz
-::mc
+::mc TH
 If $7x-5=3x+19$, what is the value of $x$?
 A. $4$
 B. $6$
@@ -330,7 +330,7 @@ D. $14$
 ::key B
 $4x=24$, so $x=6$. Option D is $24-10$, from moving terms with the wrong signs.
 
-::mc
+::mc TH
 Which equation has no solution?
 A. $2x+3=2x+3$
 B. $2x+3=3x+2$
@@ -339,7 +339,7 @@ D. $2x=0$
 ::key C
 $2(x+1)=2x+2$, and $2x+2=2x+5$ would require $2=5$. A has infinitely many solutions; B has $x=1$; D has $x=0$.
 
-::mc
+::mc TH
 If $x+y=10$ and $x-y=4$, what is the value of $x$?
 A. $3$
 B. $6$
@@ -348,7 +348,7 @@ D. $7$
 ::key D
 Adding the equations gives $2x=14$, so $x=7$. Option A is $y$; option C is $2x$.
 
-::mc
+::mc VD
 A bakery sold muffins for 3 dollars each and cookies for 2 dollars each. It sold 15 items for a total of 36 dollars. How many muffins were sold?
 A. $6$
 B. $9$
@@ -357,7 +357,7 @@ D. $15$
 ::key A
 With $m$ muffins: $3m+2(15-m)=36\iff m+30=36\iff m=6$. Option B is the number of cookies.
 
-::tf
+::tf TH TH NB VD
 Consider the system $2x+y=7$ and $4x+2y=k$, where $k$ is a constant.
 a) If $k=14$, the system has infinitely many solutions.
 b) If $k=10$, the system has no solution.
@@ -366,12 +366,12 @@ d) There is a value of $k$ for which the system has exactly one solution.
 ::key T T F F
 a) True: the second equation is twice the first. b) True: the left sides are proportional but $10\ne14$. c) False: $2\cdot2+4=8\ne7$. d) False: the lines are parallel or identical for every $k$.
 
-::sa
+::sa TH
 If $3(x+4)=2x+20$, what is the value of $x$?
 ::key 8
 $3x+12=2x+20\iff x=8$.
 
-::sa
+::sa VD
 If $5x+2y=24$ and $2x+5y=18$, what is the value of $x+y$?
 ::key 6
 Adding gives $7x+7y=42$, so $x+y=6$. (Here $x=4$, $y=2$.)

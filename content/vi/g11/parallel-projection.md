@@ -296,7 +296,7 @@ Vì $AB\parallel DM$ nên tam giác $NBA$ đồng dạng với tam giác $NDM$, 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Phép chiếu song song biến ba điểm thẳng hàng thành
 A. ba điểm trùng nhau.
 B. ba điểm không thẳng hàng.
@@ -305,7 +305,7 @@ D. hai điểm.
 ::key C
 Tính thẳng hàng và thứ tự của các điểm được bảo toàn (tính chất 3).
 
-::mc
+::mc TH
 Cho tam giác $ABC$ có trọng tâm $G$. Hình chiếu song song của $G$ là
 A. tâm đường tròn ngoại tiếp tam giác $A'B'C'$.
 B. trực tâm của tam giác $A'B'C'$.
@@ -314,7 +314,7 @@ D. trọng tâm của tam giác $A'B'C'$.
 ::key D
 Phép chiếu song song giữ trung điểm và tỉ số, nên giữ trọng tâm. Tâm đường tròn ngoại tiếp và trực tâm không được bảo toàn vì cần góc vuông và độ dài.
 
-::mc
+::mc TH
 Ba điểm $A$, $B$, $C$ thẳng hàng với $AB=2BC$. Hình chiếu song song có $A'B'=8$. Khi đó $B'C'$ bằng
 A. $4$.
 B. $16$.
@@ -323,7 +323,7 @@ D. $6$.
 ::key A
 $\dfrac{A'B'}{B'C'}=\dfrac{AB}{BC}=2$ nên $B'C'=4$. Phương án B viết ngược tỉ số.
 
-::mc
+::mc TH
 Hình nào sau đây không thể là hình biểu diễn của một hình vuông?
 A. Hình bình hành.
 B. Hình thang không phải hình bình hành.
@@ -332,7 +332,7 @@ D. Hình chữ nhật.
 ::key B
 Hình vuông có hai cặp cạnh đối song song, hình biểu diễn cũng phải có hai cặp cạnh đối song song, tức là hình bình hành (kể cả hình chữ nhật, hình thoi, hình vuông).
 
-::tf
+::tf VD VD TH TH
 Cùng một thời điểm, một cột thẳng đứng cao $6$ m có bóng dài $4{,}5$ m. Xét tính đúng sai của các mệnh đề sau:
 a) Một người đứng thẳng cao $1{,}6$ m có bóng dài $1{,}5$ m.
 b) Một cây thẳng đứng có bóng dài $9$ m thì cao $12$ m.
@@ -341,12 +341,12 @@ d) Vật thẳng đứng cao gấp đôi thì có bóng dài gấp đôi.
 ::key S Đ S Đ
 Tỉ số chiều cao trên bóng là $\dfrac{6}{4{,}5}=\dfrac43$. a) Sai: người cao $1{,}6$ m có bóng $\dfrac{1{,}6\cdot4{,}5}{6}=1{,}2$ m. b) Đúng: $9\cdot\dfrac43=12$. c) Sai: tỉ số như nhau với mọi vật thẳng đứng. d) Đúng.
 
-::sa
+::sa VD
 Cùng một thời điểm, cọc cao $2$ m có bóng dài $1{,}5$ m. Một cây thẳng đứng có bóng dài $9$ m. Cây cao bao nhiêu mét?
 ::key 12
 $h=\dfrac{9\cdot2}{1{,}5}=12$ m.
 
-::sa
+::sa TH
 Ba điểm $A$, $B$, $C$ thẳng hàng với $AB=3BC$. Hình chiếu song song có $A'B'=9$. Tính $B'C'$.
 ::key 3
 $\dfrac{A'B'}{B'C'}=3$ nên $B'C'=\dfrac93=3$.

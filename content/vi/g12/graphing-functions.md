@@ -446,7 +446,7 @@ Vậy có hai tiếp tuyến thoả mãn đề bài.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tâm đối xứng của đồ thị hàm số $y=x^3-3x^2+2$ là điểm
 A. $I(2; -2)$.
 B. $I(0; 2)$.
@@ -455,7 +455,7 @@ D. $I(-1; -2)$.
 ::key C
 Ta có $y''=6x-6=0\iff x=1$ và $y(1)=0$. Phương án B là giao điểm với trục tung, phương án A là điểm cực tiểu của đồ thị.
 
-::mc
+::mc TH
 Đồ thị của hàm số nào dưới đây có tiệm cận đứng $x=2$ và tiệm cận ngang $y=-1$?
 A. $y=\dfrac{-x+1}{x-2}$.
 B. $y=\dfrac{x+1}{x-2}$.
@@ -464,7 +464,7 @@ D. $y=\dfrac{2x+1}{-x+1}$.
 ::key A
 Đồ thị hàm số $y=\dfrac{ax+b}{cx+d}$ có tiệm cận đứng $x=-\dfrac dc$ và tiệm cận ngang $y=\dfrac ac$; với hàm số A, ta được $x=2$ và $y=-1$. Phương án C nhầm dấu của $-\dfrac dc$, phương án D đổi vai trò hai hệ số.
 
-::mc
+::mc TH
 Cho hàm số $y=f(x)$ liên tục trên $\mathbb{R}$, đồng biến trên các khoảng $(-\infty; -1)$ và $(3; +\infty)$, nghịch biến trên khoảng $(-1; 3)$, có $f(-1)=4$, $f(3)=-2$, $\lim\limits_{x\to-\infty}f(x)=-\infty$ và $\lim\limits_{x\to+\infty}f(x)=+\infty$. Phương trình $f(x)+2=0$ có bao nhiêu nghiệm?
 A. $1$.
 B. $2$.
@@ -473,7 +473,7 @@ D. $0$.
 ::key B
 Ta có $f(x)+2=0\iff f(x)=-2$. Đường thẳng $y=-2$ cắt nhánh bên trái một lần và chỉ chạm đồ thị tại điểm cực tiểu $(3; -2)$ nên phương trình có $2$ nghiệm. Phương án C đếm như khi $-2$ nằm giữa hai giá trị cực trị.
 
-::mc
+::mc VD
 Hệ số góc của tiếp tuyến của đồ thị hàm số $y=\dfrac{2x-1}{x+1}$ tại điểm có hoành độ $x_0=0$ bằng
 A. $1$.
 B. $-1$.
@@ -482,7 +482,7 @@ D. $3$.
 ::key D
 Ta có $y'=\dfrac{2\cdot1-(-1)\cdot1}{(x+1)^2}=\dfrac{3}{(x+1)^2}$ nên $y'(0)=3$. Phương án B là tung độ $y(0)$, phương án C tính nhầm $bc-ad$.
 
-::tf
+::tf TH VDC VD TH
 Giả sử mực nước (so với vạch mốc) của một kênh tưới sau $x$ giờ kể từ lúc mở cống được mô hình hoá bởi $f(x)=-x^3+6x^2-9x+3$ (dm), $0\le x\le 4$. Xét tính đúng sai của các mệnh đề sau:
 a) Mực nước đạt cực tiểu tại thời điểm $x=1$.
 b) Trong khoảng thời gian từ $x=1$ đến $x=3$, mực nước dâng nhanh nhất tại thời điểm $x=2$.
@@ -491,12 +491,12 @@ d) Tại thời điểm $x=2$, mực nước dâng với tốc độ $3$ dm/gi�
 ::key Đ Đ S Đ
 a) Đúng: ta có $f'(x)=-3(x-1)(x-3)$ đổi dấu từ $-$ sang $+$ tại $x=1$. b) Đúng: tốc độ dâng là $f'(x)$, với $f'(x)>0$ trên $(1; 3)$ và $f''(x)=-6x+12$ đổi dấu từ $+$ sang $-$ tại $x=2$ nên $f'$ lớn nhất tại $x=2$. c) Sai: $f(3)=3$ là giá trị cực đại và $f(x)=3\iff -x(x-3)^2=0$, phương trình chỉ có $2$ nghiệm $x=0$, $x=3$ trên đoạn $[0; 4]$. d) Đúng: ta có $f'(2)=-3\cdot1\cdot(-1)=3$.
 
-::sa
+::sa VD
 Gọi $A$, $B$ là hai điểm cực trị của đồ thị hàm số $y=x^3-3x^2-9x+1$ và $O$ là gốc toạ độ. Tính diện tích tam giác $OAB$.
 ::key 4
 Ta có $y'=3(x+1)(x-3)$ nên $A(-1; 6)$, $B(3; -26)$. Vậy diện tích tam giác $OAB$ là $\dfrac12\left|(-1)\cdot(-26)-3\cdot6\right|=\dfrac12\cdot8=4$.
 
-::sa
+::sa VD
 Tiếp tuyến của đồ thị hàm số $y=\dfrac{x+2}{x-1}$ tại điểm có hoành độ $x_0=3$ cắt trục hoành tại điểm có hoành độ bằng bao nhiêu (làm tròn kết quả đến hàng phần mười)?
 ::key 6,3
 Ta có $y(3)=\dfrac52$ và $y'=\dfrac{-3}{(x-1)^2}$ nên $y'(3)=-\dfrac34$. Tiếp tuyến là $y=-\dfrac34(x-3)+\dfrac52$. Cho $y=0$, ta được $x=\dfrac{19}{3}\approx6{,}33$. Vậy hoành độ cần tìm làm tròn là $6{,}3$.

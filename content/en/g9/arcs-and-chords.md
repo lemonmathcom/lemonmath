@@ -328,7 +328,7 @@ So the distance between the chords is $2$ cm or $14$ cm.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 An angle at the centre has $\angle AOB=50^\circ$. The major arc $AB$ measures
 A. $310^\circ$.
 B. $130^\circ$.
@@ -337,7 +337,7 @@ D. $260^\circ$.
 ::key A
 $360^\circ-50^\circ=310^\circ$. B uses $180^\circ-50^\circ$; C is the minor arc; D uses $360^\circ-2\cdot50^\circ$.
 
-::mc
+::mc NB
 The longest chord of the circle $(O, 6\text{ cm})$ has length
 A. $6$ cm.
 B. $3$ cm.
@@ -346,7 +346,7 @@ D. $12$ cm.
 ::key D
 The longest chord is a diameter, of length $2R=12$ cm. A confuses it with the radius, and C takes $R^2$.
 
-::mc
+::mc VD
 A chord $AB$ of the circle $(O, 10\text{ cm})$ is $8$ cm from the centre. The length $AB$ is
 A. $4$ cm.
 B. $6$ cm.
@@ -355,7 +355,7 @@ D. $4\sqrt{41}$ cm.
 ::key C
 $AB=2\sqrt{10^2-8^2}=12$ cm. B forgets to double, A takes $2(10-8)$, and D adds instead of subtracting under the root.
 
-::mc
+::mc TH
 In $25$ minutes, the minute hand of a clock turns through
 A. $125^\circ$.
 B. $150^\circ$.
@@ -364,7 +364,7 @@ D. $300^\circ$.
 ::key B
 The minute hand turns $6^\circ$ per minute, so $25\cdot6^\circ=150^\circ$. A uses $5^\circ$ per minute.
 
-::tf
+::tf TH TH VD TH
 Consider the circle $(O, 5\text{ cm})$ and a chord $AB=8$ cm, with $H$ the midpoint of $AB$. Decide whether each statement is true or false.
 a) $OH\perp AB$.
 b) $OH=3$ cm.
@@ -373,12 +373,12 @@ d) The circle has a chord of length $11$ cm.
 ::key T T F F
 a) True: the triangle $OAB$ is isosceles. b) True: $OH=\sqrt{25-16}=3$. c) False: $AB^2=64\neq OA^2+OB^2=50$, so $\angle AOB\neq90^\circ$. d) False: no chord is longer than $2R=10$ cm.
 
-::sa
+::sa VD
 A chord $AB=30$ cm of the circle $(O, 17\text{ cm})$ is how many centimetres from the centre $O$?
 ::key 8
 $OH=\sqrt{17^2-15^2}=\sqrt{64}=8$ (cm).
 
-::sa
+::sa VD
 Three points split a circle into three arcs whose measures are in the ratio $2:3:4$. Find the measure (in degrees) of the smallest arc.
 ::key 80
 The arcs add up to $360^\circ$; one part is $\dfrac{360^\circ}{9}=40^\circ$, so the smallest arc is $80^\circ$.

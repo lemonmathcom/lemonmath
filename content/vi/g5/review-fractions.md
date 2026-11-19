@@ -312,7 +312,7 @@ Nhân cả tử số và mẫu số với $2$: $\dfrac{3}{5}=\dfrac{18}{30}$ và
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Thương của phép chia $3:4$ viết dưới dạng phân số là
 A. $\dfrac{4}{3}$.
 B. $\dfrac{3}{4}$.
@@ -321,7 +321,7 @@ D. $\dfrac{1}{12}$.
 ::key B
 Số bị chia $3$ là tử số, số chia $4$ là mẫu số: $3:4=\dfrac{3}{4}$. Phương án A viết ngược.
 
-::mc
+::mc TH
 Phân số nào bằng $\dfrac{3}{5}$?
 A. $\dfrac{6}{15}$.
 B. $\dfrac{9}{20}$.
@@ -330,7 +330,7 @@ D. $\dfrac{3}{10}$.
 ::key C
 $\dfrac{3}{5}=\dfrac{3\times4}{5\times4}=\dfrac{12}{20}$. Phương án A bằng $\dfrac{2}{5}$.
 
-::mc
+::mc TH
 Rút gọn $\dfrac{42}{63}$ được phân số tối giản là
 A. $\dfrac{21}{32}$.
 B. $\dfrac{6}{9}$.
@@ -339,7 +339,7 @@ D. $\dfrac{2}{3}$.
 ::key D
 $\dfrac{42}{63}=\dfrac{42:21}{63:21}=\dfrac{2}{3}$. Phương án B và C còn rút gọn được.
 
-::mc
+::mc TH
 Sắp xếp $\dfrac{3}{4}$, $\dfrac{2}{3}$, $\dfrac{5}{6}$ từ bé đến lớn được
 A. $\dfrac{2}{3}$, $\dfrac{3}{4}$, $\dfrac{5}{6}$.
 B. $\dfrac{3}{4}$, $\dfrac{2}{3}$, $\dfrac{5}{6}$.
@@ -348,7 +348,7 @@ D. $\dfrac{5}{6}$, $\dfrac{3}{4}$, $\dfrac{2}{3}$.
 ::key A
 Quy đồng về mẫu số $12$: $\dfrac{8}{12}<\dfrac{9}{12}<\dfrac{10}{12}$.
 
-::tf
+::tf NB TH TH TH
 Em xét hai phân số $\dfrac{5}{6}$ và $\dfrac{7}{9}$.
 a) Số $18$ là một mẫu số chung của hai phân số.
 b) $\dfrac{5}{6}=\dfrac{10}{18}$.
@@ -357,12 +357,12 @@ d) $\dfrac{5}{6}>\dfrac{7}{9}$.
 ::key Đ S S Đ
 a) Đúng: $18$ chia hết cho $6$ và $9$. b) Sai: $\dfrac{5}{6}=\dfrac{15}{18}$. c) Sai: $\dfrac{7}{9}=\dfrac{14}{18}$. d) Đúng: $15>14$.
 
-::sa
+::sa VD
 Tìm $x$ biết $\dfrac{7}{9}=\dfrac{28}{x}$.
 ::key 36
 Vì $28=7\times4$ nên $x=9\times4=36$.
 
-::sa
+::sa VD
 Hà chia đều $9$ chiếc bánh cho $12$ bạn. Mỗi bạn được một phân số chiếc bánh; khi rút gọn đến phân số tối giản thì mẫu số là bao nhiêu?
 ::key 4
 $9:12=\dfrac{9}{12}=\dfrac{3}{4}$, nên mẫu số là $4$.

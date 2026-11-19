@@ -226,7 +226,7 @@ $L=\displaystyle\int_0^{\pi/4}\sqrt{1+\tan^2x}\,dx=\int_0^{\pi/4}\sec x\,dx=\ln\
 :::
 
 :::quiz
-::mc
+::mc TH
 What is the average value of $f(x)=2x+1$ on $[0,4]$?
 A. $9$
 B. $20$
@@ -235,7 +235,7 @@ D. $4$
 ::key C
 $\dfrac14\displaystyle\int_0^4(2x+1)\,dx=\dfrac14\cdot20=5$.
 
-::mc
+::mc VD
 What is the area of the region between $y=x$ and $y=x^3$ for $0\le x\le1$?
 A. $\dfrac14$
 B. $\dfrac12$
@@ -244,7 +244,7 @@ D. $\dfrac{1}{12}$
 ::key A
 $\displaystyle\int_0^1\left(x-x^3\right)dx=\frac12-\frac14=\frac14$.
 
-::mc
+::mc VD
 The region under $y=x^2$ for $0\le x\le1$ is revolved around the $x$-axis. What is the volume?
 A. $\dfrac{\pi}{3}$
 B. $\dfrac{\pi}{2}$
@@ -253,7 +253,7 @@ D. $\dfrac{\pi}{5}$
 ::key D
 $\pi\displaystyle\int_0^1x^4\,dx=\dfrac{\pi}{5}$. Option C forgets $\pi$.
 
-::mc
+::mc VD
 The base of a solid is the region under $y=2-x$ for $0\le x\le2$. Cross sections perpendicular to the $x$-axis are squares. What is the volume?
 A. $2$
 B. $\dfrac83$
@@ -262,7 +262,7 @@ D. $\dfrac43$
 ::key B
 $\displaystyle\int_0^2(2-x)^2\,dx=\frac83$.
 
-::tf
+::tf VD VD TH VD
 Let $R$ be the region between $y=\sqrt x$ and $y=x$ for $0\le x\le1$.
 a) The area of $R$ is $\dfrac16$.
 b) Revolving $R$ around the $x$-axis gives a solid of volume $\dfrac{\pi}{6}$.
@@ -271,12 +271,12 @@ d) The average value of $\sqrt x$ on $[0,1]$ is $\dfrac12$.
 ::key T T F F
 a) True: $\dfrac23-\dfrac12$. b) True: $\pi\displaystyle\int_0^1\left(x-x^2\right)dx=\dfrac{\pi}{6}$. c) False: washers use $R^2-r^2$, not $(R-r)^2$. d) False: it is $\dfrac23$.
 
-::sa
+::sa VD
 Find the area of the region bounded by $y=9-x^2$ and the $x$-axis.
 ::key 36
 $\displaystyle\int_{-3}^3\left(9-x^2\right)dx=54-18=36$.
 
-::sa
+::sa TH
 Find the average value of $f(x)=3x^2$ on $[0,2]$.
 ::key 4
 $\dfrac12\displaystyle\int_0^23x^2\,dx=\dfrac12\cdot8=4$.

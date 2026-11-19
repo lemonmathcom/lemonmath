@@ -276,7 +276,7 @@ Em cắt một tờ giấy hình vuông theo một đường thẳng nối hai g
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Bánh xe đạp có dạng hình
 A. vuông.
 B. tròn.
@@ -285,7 +285,7 @@ D. chữ nhật.
 ::key B
 Viền bánh xe cong đều và không có cạnh. Phương án A nhầm với hình có cạnh.
 
-::mc
+::mc NB
 Hình có $3$ cạnh là hình
 A. vuông.
 B. tròn.
@@ -294,7 +294,7 @@ D. chữ nhật.
 ::key C
 Chỉ hình tam giác có $3$ cạnh.
 
-::mc
+::mc TH
 Hình có $4$ cạnh, hai cạnh dài bằng nhau và hai cạnh ngắn bằng nhau (các cạnh không bằng nhau hết) là hình
 A. vuông.
 B. tròn.
@@ -303,7 +303,7 @@ D. chữ nhật.
 ::key D
 Đó là hình chữ nhật. Phương án A nhầm vì hình vuông có cả $4$ cạnh bằng nhau.
 
-::mc
+::mc NB
 Hình nào không có cạnh?
 A. Hình vuông.
 B. Hình tròn.
@@ -312,7 +312,7 @@ D. Hình chữ nhật.
 ::key B
 Viền hình tròn cong, không có cạnh.
 
-::tf
+::tf NB NB TH NB
 Em xét các hình.
 a) Hình vuông có $4$ cạnh dài bằng nhau.
 b) Hình tam giác có $4$ cạnh.
@@ -321,12 +321,12 @@ d) Hình chữ nhật có $3$ cạnh.
 ::key Đ S Đ S
 a) Đúng. b) Sai: tam giác có $3$ cạnh. c) Đúng. d) Sai: hình chữ nhật có $4$ cạnh.
 
-::sa
+::sa NB
 Hình chữ nhật có mấy cạnh?
 ::key 4
 Hình chữ nhật có hai cạnh dài và hai cạnh ngắn, tất cả $4$ cạnh.
 
-::sa
+::sa NB
 Hình tam giác có mấy góc?
 ::key 3
 Hình tam giác có $3$ cạnh và $3$ góc.

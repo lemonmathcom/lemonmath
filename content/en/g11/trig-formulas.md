@@ -386,7 +386,7 @@ Since $\sin\dfrac{\pi}{7}\ne0$, we get $P=\dfrac18$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The value of $\sin20^\circ\cos25^\circ+\cos20^\circ\sin25^\circ$ is
 A. $\dfrac12$.
 B. $\dfrac{\sqrt2}{2}$.
@@ -395,7 +395,7 @@ D. $\sin5^\circ$.
 ::key B
 This is $\sin(20^\circ+25^\circ)=\sin45^\circ=\dfrac{\sqrt2}{2}$. Option D is $\sin(25^\circ-20^\circ)$, which uses the difference formula by mistake.
 
-::mc
+::mc NB
 Given $\cos x=-\dfrac13$, the value of $\cos2x$ is
 A. $-\dfrac23$.
 B. $\dfrac79$.
@@ -404,7 +404,7 @@ D. $\dfrac29$.
 ::key C
 $\cos2x=2\cos^2x-1=\dfrac29-1=-\dfrac79$. Option A is $2\cos x$, and option D forgets to subtract $1$.
 
-::mc
+::mc TH
 Given $\tan a=2$ and $\tan b=-3$, the value of $\tan(a-b)$ is
 A. $1$.
 B. $\dfrac57$.
@@ -413,7 +413,7 @@ D. $-1$.
 ::key D
 $\tan(a-b)=\dfrac{2-(-3)}{1+2\cdot(-3)}=\dfrac{5}{-5}=-1$. Option B uses $1-\tan a\tan b$ in the denominator, and option C uses the formula for $\tan(a+b)$.
 
-::mc
+::mc NB
 For all $x$, the expression $\sin7x-\sin x$ equals
 A. $2\cos4x\sin3x$.
 B. $-2\cos4x\sin3x$.
@@ -422,7 +422,7 @@ D. $2\sin3x\sin4x$.
 ::key A
 $\sin u-\sin v=2\cos\dfrac{u+v}{2}\sin\dfrac{u-v}{2}=2\cos4x\sin3x$. Option C is the formula for $\sin u+\sin v$, and option B has an extra minus sign.
 
-::tf
+::tf NB TH TH TH
 A player kicks a ball with initial speed $14$ m/s at an angle $\alpha=30^\circ$ to the ground. Ignoring air resistance, the range is $R=\dfrac{v^2\sin2\alpha}{g}$ with $g=9.8$ m/s$^2$. Decide whether each statement is true or false.
 a) $\sin2\alpha=2\sin\alpha=1$.
 b) The range of the ball is $10\sqrt3$ m.
@@ -431,12 +431,12 @@ d) For a given initial speed, the range is greatest when $\alpha=45^\circ$.
 ::key F T T T
 a) False: $\sin2\alpha=\sin60^\circ=\dfrac{\sqrt3}{2}$, not $2\sin\alpha$. b) True: $R=\dfrac{196\cdot\frac{\sqrt3}{2}}{9.8}=10\sqrt3$. c) True: $\sin120^\circ=\sin60^\circ$. d) True: $\sin2\alpha=1$ when $\alpha=45^\circ$.
 
-::sa
+::sa TH
 Find the value of $2\cos^222.5^\circ-1$ (give your answer to 2 decimal places).
 ::key 0.71
 $2\cos^222.5^\circ-1=\cos45^\circ=\dfrac{\sqrt2}{2}\approx0.71$.
 
-::sa
+::sa VDC
 Two tuning forks sound pure tones of frequencies $440$ Hz and $448$ Hz at the same time. How many times per second does the sound get louder and softer?
 ::key 8
 $\sin(2\pi\cdot440t)+\sin(2\pi\cdot448t)=2\cos(8\pi t)\sin(2\pi\cdot444t)$, and $|\cos(8\pi t)|$ has period $\dfrac18$ second. So the answer is $8$ times per second, the difference $448-440$.

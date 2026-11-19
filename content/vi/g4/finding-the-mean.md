@@ -249,7 +249,7 @@ Tổng bốn số là $15\times4=60$. Ba số đã biết có tổng $12+18+20=5
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Số trung bình cộng của $6$, $8$ và $10$ là
 A. $24$.
 B. $12$.
@@ -258,7 +258,7 @@ D. $6$.
 ::key C
 $(6+8+10):3=24:3=8$. Phương án A là quên chia, B là chia cho $2$.
 
-::mc
+::mc NB
 Cách đúng để tìm số trung bình cộng của $5$, $7$, $9$ và $11$ là
 A. $(5+7+9+11):3$.
 B. $(5+7+9+11):4$.
@@ -267,7 +267,7 @@ D. $(5+11):4$.
 ::key B
 Có $4$ số nên chia tổng cho $4$. Phương án A chia sai số lần, C quên chia.
 
-::mc
+::mc TH
 Trung bình cộng của ba số là $9$. Tổng ba số đó là
 A. $3$.
 B. $12$.
@@ -276,7 +276,7 @@ D. $9$.
 ::key C
 Tổng bằng $9\times3=27$. Phương án B là lấy $9+3$ nhầm với phép nhân.
 
-::mc
+::mc VD
 Ba ngày cửa hàng bán $18$, $24$, $21$ hộp bánh. Trung bình mỗi ngày bán bao nhiêu hộp?
 A. $63$ hộp.
 B. $21$ hộp.
@@ -285,7 +285,7 @@ D. $24$ hộp.
 ::key B
 $(18+24+21):3=63:3=21$. Phương án A là quên chia, C là chia thêm một lần nữa.
 
-::tf
+::tf NB TH NB TH
 Em xét ba số $4$, $6$, $8$.
 a) Tổng ba số là $18$.
 b) Số trung bình cộng là $6$.
@@ -294,12 +294,12 @@ d) Ba số $6$, $6$, $6$ có cùng số trung bình cộng với ba số trên.
 ::key Đ Đ S Đ
 a) Đúng: $4+6+8=18$. b) Đúng: $18:3=6$. c) Sai: phải chia cho $3$. d) Đúng: $(6+6+6):3=6$.
 
-::sa
+::sa TH
 Tìm số trung bình cộng của $12$, $14$, $16$ và $18$.
 ::key 15
 $(12+14+16+18):4=60:4=15$.
 
-::sa
+::sa TH
 Trung bình cộng của $5$ số là $8$. Tổng của $5$ số đó là bao nhiêu?
 ::key 40
 Tổng bằng $8\times5=40$.

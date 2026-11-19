@@ -384,7 +384,7 @@ $$5+4+3+2+1=15.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A box holds $6$ blue pens and $4$ red pens, all different. In how many ways can you take one pen from the box?
 A. $10$.
 B. $24$.
@@ -393,7 +393,7 @@ D. $6$.
 ::key A
 You take a blue pen **or** a red pen, and the two groups have no pen in common, so we use the addition rule: $6+4=10$. Option B multiplies by mistake (that counts one blue pen **and** one red pen).
 
-::mc
+::mc TH
 A combination lock has $3$ wheels, each showing the digits $0$ to $9$. How many different codes are there?
 A. $30$.
 B. $720$.
@@ -402,7 +402,7 @@ D. $1000$.
 ::key D
 Choose a digit for each wheel in turn, $10$ ways each (repeats allowed, and a code may start with $0$): $10\cdot10\cdot10=1000$. Option B requires different digits, and C wrongly leaves out codes starting with $0$.
 
-::mc
+::mc VD
 How many odd three-digit numbers with distinct digits can be made from the digits $1, 2, 3, 4, 5, 6$?
 A. $60$.
 B. $120$.
@@ -411,7 +411,7 @@ D. $216$.
 ::key A
 Choose the units digit first ($1$, $3$ or $5$): $3$ ways; then the hundreds digit $5$ ways and the tens digit $4$ ways: $3\cdot5\cdot4=60$. Option B forgets that the number must be odd, and C allows repeated digits.
 
-::mc
+::mc TH
 There are $3$ roads from town $A$ to town $B$, $4$ roads from $B$ to town $C$, and $2$ roads going directly from $A$ to $C$. The number of ways to travel from $A$ to $C$ is
 A. $9$.
 B. $24$.
@@ -420,7 +420,7 @@ D. $14$.
 ::key D
 Going via $B$ takes two successive steps: $3\cdot4=12$ ways; going directly: $2$ ways. The two options share no route, so we add: $12+2=14$. Option C forgets the direct roads.
 
-::tf
+::tf NB TH TH VD
 A team has $7$ boys and $5$ girls.
 a) There are $12$ ways to choose one team leader.
 b) There are $12$ ways to choose one boy and one girl to sing a duet.
@@ -429,12 +429,12 @@ d) There are $90$ ways to choose a leader and a deputy so that at least one of t
 ::key T F F T
 a) True: $7+5=12$. b) False: choose a boy **then** a girl, $7\cdot5=35$. c) False: the leader has $12$ choices and the deputy $11$: $132$. d) True: subtract the choices where both are boys, $132-7\cdot6=90$.
 
-::sa
+::sa VD
 How many three-digit numbers with distinct digits can be made from the digits $0, 1, 2, 3, 4$?
 ::key 48
 The hundreds digit is not $0$: $4$ ways; the tens digit: $4$ ways; the units digit: $3$ ways. So there are $4\cdot4\cdot3=48$ numbers.
 
-::sa
+::sa VDC
 How many four-digit numbers contain at least one digit $0$?
 ::key 2439
 There are $9\cdot10^3=9000$ four-digit numbers in all, and $9^4=6561$ of them contain no $0$. So $9000-6561=2439$ numbers contain at least one $0$.

@@ -295,7 +295,7 @@ Vậy mô hình là $y=5\cdot2^x$. Kiểm tra: $5\cdot2^4=80$.
 :::
 
 :::quiz
-::mc
+::mc NB
 Giá trị của $\log_2 32$ là
 A. $16$
 B. $5$
@@ -304,7 +304,7 @@ D. $64$
 ::key B
 $2^5=32$.
 
-::mc
+::mc TH
 Biểu thức nào bằng $\log M+\log N-\log P$?
 A. $\log(M+N-P)$
 B. $\dfrac{\log MN}{\log P}$
@@ -313,7 +313,7 @@ D. $\log(MNP)$
 ::key C
 Dùng quy tắc tích, rồi quy tắc thương.
 
-::mc
+::mc TH
 Đồ thị $y=\log_3(x+2)$ có tiệm cận đứng là
 A. $x=2$
 B. $x=-2$
@@ -322,7 +322,7 @@ D. $x=0$
 ::key B
 Biểu thức $x+2$ bằng $0$ tại $x=-2$.
 
-::mc
+::mc NB
 Nếu $f(x)=e^x$ thì $f^{-1}(x)$ là
 A. $\ln x$
 B. $\dfrac{1}{e^x}$
@@ -331,7 +331,7 @@ D. $\log x$
 ::key A
 Logarit tự nhiên là hàm ngược của $e^x$.
 
-::tf
+::tf NB NB TH NB
 Cho $g(x)=\ln x$. Xét tính đúng sai của các mệnh đề sau:
 a) Tập xác định của $g$ là $x>0$.
 b) $g(1)=0$.
@@ -340,12 +340,12 @@ d) $g(e^3)=3$.
 ::key T T F T
 $\ln x$ đồng biến nhưng đồ thị lõm xuống.
 
-::sa
+::sa NB
 Tính $\log_3 81$.
 ::key 4
 $3^4=81$.
 
-::sa
+::sa NB
 Giải phương trình $2^x=64$.
 ::key 6
 $2^6=64$.

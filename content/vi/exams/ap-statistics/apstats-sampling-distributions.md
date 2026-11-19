@@ -271,7 +271,7 @@ Vậy cần mẫu có ít nhất $625$ cá thể.
 :::
 
 :::quiz
-::mc
+::mc NB
 Trong phân phối chuẩn, khoảng $99{,}7\%$ giá trị nằm trong phạm vi bao nhiêu độ lệch chuẩn quanh trung bình?
 A. $1$
 B. $2$
@@ -280,7 +280,7 @@ D. $3$
 ::key D
 Quy tắc 68-95-99,7.
 
-::mc
+::mc TH
 Một tổng thể có $\sigma=10$. Với các mẫu ngẫu nhiên cỡ $25$, độ lệch chuẩn của $\bar x$ là
 A. $2$
 B. $10$
@@ -289,7 +289,7 @@ D. $50$
 ::key A
 $\dfrac{10}{\sqrt{25}}=2$.
 
-::mc
+::mc NB
 Để phân phối mẫu của $\hat p$ xấp xỉ chuẩn, ta kiểm tra
 A. $n\ge30$
 B. $np\ge10$ và $n(1-p)\ge10$
@@ -298,7 +298,7 @@ D. $p=0{,}5$
 ::key B
 Điều kiện số đếm đủ lớn.
 
-::mc
+::mc TH
 Tăng cỡ mẫu sẽ
 A. giảm độ chệch của thống kê
 B. làm tổng thể có phân phối chuẩn
@@ -307,7 +307,7 @@ D. thay đổi tham số
 ::key C
 Độ phân tán giảm khi $n$ tăng.
 
-::tf
+::tf NB TH TH TH
 Một tổng thể có trung bình $40$ và độ lệch chuẩn $9$. Lấy các mẫu ngẫu nhiên cỡ $81$. Xét tính đúng sai của các mệnh đề sau:
 a) Trung bình của $\bar x$ là $40$.
 b) Độ lệch chuẩn của $\bar x$ là $1$.
@@ -316,12 +316,12 @@ d) Các giá trị riêng lẻ phải có phân phối chuẩn.
 ::key T T T F
 Định lí giới hạn trung tâm áp dụng cho $\bar x$, không cho từng cá thể.
 
-::sa
+::sa TH
 Một bài kiểm tra có trung bình $100$ và độ lệch chuẩn $15$. Tìm điểm z của $130$.
 ::key 2
 $\dfrac{130-100}{15}=2$.
 
-::sa
+::sa NB
 Khoảng bao nhiêu phần trăm giá trị của phân phối chuẩn nằm trong phạm vi một độ lệch chuẩn quanh trung bình?
 ::key 68
 Quy tắc 68-95-99,7.

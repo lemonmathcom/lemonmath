@@ -265,7 +265,7 @@ c) The money left is $53-21.2=31.8$ (million dong).
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The value of $3.6\times2.5$ is
 A. $90$.
 B. $6.1$.
@@ -274,7 +274,7 @@ D. $9$.
 ::key D
 $36\times25=900$ and the product has two decimal places, so $3.6\times2.5=9$. Option A forgets the decimal point, C misplaces it, B adds instead.
 
-::mc
+::mc NB
 The volume of a cube with edge $5$ dm is
 A. $125\ \text{dm}^3$.
 B. $25\ \text{dm}^3$.
@@ -283,7 +283,7 @@ D. $15\ \text{dm}^3$.
 ::key A
 $5\times5\times5=125\ (\text{dm}^3)$. Option D is $5\times3$, B is $5\times5$, C has the wrong unit.
 
-::mc
+::mc VD
 A motorbike travels at $54$ km/h for $2$ hours $20$ minutes. The distance travelled is
 A. $124.2$ km.
 B. $126$ km.
@@ -292,7 +292,7 @@ D. $118.8$ km.
 ::key B
 $2$ h $20$ min $=\dfrac73$ h, so $s=54\times\dfrac73=126$ km. Option A treats $20$ minutes as $0.3$ h, C ignores the $20$ minutes, D treats $2$ h $20$ min as $2.2$ h.
 
-::mc
+::mc TH
 $25\%$ of $80$ is
 A. $25$.
 B. $320$.
@@ -301,7 +301,7 @@ D. $2000$.
 ::key C
 $80\div100\times25=20$. Option A takes the percentage itself, B is $80\div0.25$, D multiplies $80\times25$ without dividing by $100$.
 
-::tf
+::tf TH TH VD VD
 A coin is tossed $80$ times and lands tails $36$ times.
 a) The percentage of tails is $45\%$.
 b) Heads came up $44$ times.
@@ -310,12 +310,12 @@ d) The percentage of tails is greater than the percentage of heads.
 ::key T T T F
 a) True: $36\div80=0.45$. b) True: $80-36=44$. c) True: $44\div80=0.55$. d) False: $45\%<55\%$.
 
-::sa
+::sa TH
 A trapezium has parallel sides $24$ m and $16$ m and height $8$ m. What is its area in square metres?
 ::key 160
 $(24+16)\times8\div2=160$.
 
-::sa
+::sa TH
 $6$ identical exercise books cost $72\,000$ dong. What is the price of one book, in thousands of dong?
 ::key 12
 $72\,000\div6=12\,000$ dong $=12$ thousand dong.

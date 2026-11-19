@@ -327,7 +327,7 @@ b) The bags still to fill: $10-6=4$ (bags). The marbles already bagged: $8\times
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $8\times5$ equals
 A. $13$.
 B. $40$.
@@ -336,7 +336,7 @@ D. $35$.
 ::key B
 $8\times5=8\times4+8=32+8=40$. Option A is the mistake of adding $8+5$.
 
-::mc
+::mc NB
 $8\times7$ equals
 A. $54$.
 B. $48$.
@@ -345,7 +345,7 @@ D. $15$.
 ::key C
 $8\times7=48+8=56$. Option B is $8\times6$, missing one group of $8$.
 
-::mc
+::mc NB
 $72\div8$ equals
 A. $8$.
 B. $9$.
@@ -354,7 +354,7 @@ D. $64$.
 ::key B
 Since $8\times9=72$, we have $72\div8=9$. Option A comes from remembering $8\times8=64$ by mistake.
 
-::mc
+::mc TH
 Each box holds $8$ coloured pencils. How many pencils are in $6$ such boxes?
 A. $14$ pencils.
 B. $42$ pencils.
@@ -363,7 +363,7 @@ D. $56$ pencils.
 ::key C
 $6$ groups of $8$: $8\times6=48$. Option A is the mistake of adding $8+6$.
 
-::tf
+::tf TH NB TH NB
 Look at the multiplication $8\times8=64$.
 a) $8\times8=8\times7+8$.
 b) $64\div8=8$.
@@ -372,12 +372,12 @@ d) $8\times8$ is less than $60$.
 ::key T T F F
 a) True: $56+8=64$. b) True: $8\times8=64$. c) False: $64\div4=16$. d) False: $64>60$.
 
-::sa
+::sa NB
 Work out $8\times9$.
 ::key 72
 $8\times9=8\times10-8=80-8=72$.
 
-::sa
+::sa TH
 $48$ cakes are put into boxes, $8$ cakes in each box. How many boxes are filled?
 ::key 6
 $48\div8=6$ (boxes), because $8\times6=48$.

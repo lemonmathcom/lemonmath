@@ -373,7 +373,7 @@ From day $1$ of month $3$ to day $1$ of month $4$ there are $31$ days. We have $
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The short hand of a clock is between $2$ and $3$, and the long hand points at $8$. The clock shows
 A. $8$ minutes past $2$.
 B. $40$ minutes past $3$.
@@ -382,7 +382,7 @@ D. $40$ minutes past $2$.
 ::key D
 The short hand has passed $2$, so the hour is $2$. The long hand points at $8$, and $8\times5=40$ minutes. Option A reads the $8$ as $8$ minutes, option B gets the hour wrong, and option C swaps the two hands.
 
-::mc
+::mc TH
 $10$ minutes to $8$ is
 A. $50$ minutes past $7$.
 B. $10$ minutes past $7$.
@@ -391,7 +391,7 @@ D. $10$ minutes past $8$.
 ::key A
 There are $10$ minutes still to go until $8$ o'clock, so it is $50$ minutes past $7$. Options D and C move on to the hour after $8$, and option B uses $10$ minutes instead of $60-10=50$ minutes.
 
-::mc
+::mc NB
 Which of these months has exactly $30$ days?
 A. Month $8$.
 B. Month $9$.
@@ -400,7 +400,7 @@ D. Month $12$.
 ::key B
 Month $9$ has $30$ days. Months $8$, $10$ and $12$ all have $31$ days.
 
-::mc
+::mc VD
 A film is shown from $40$ minutes past $7$ to $15$ minutes past $9$. The film is
 A. $2$ hours $25$ minutes long.
 B. $1$ hour $25$ minutes long.
@@ -409,7 +409,7 @@ D. $2$ hours $55$ minutes long.
 ::key C
 From $40$ minutes past $7$ to $40$ minutes past $8$ is $1$ hour, and to $15$ minutes past $9$ is $35$ more minutes. Option A takes $40-15$ and $9-7$, option B subtracts the minutes wrongly, and option D adds $40+15$.
 
-::tf
+::tf NB NB TH NB
 Look at these statements.
 a) $1$ hour $=60$ minutes.
 b) Month $2$ always has $29$ days.
@@ -418,12 +418,12 @@ d) Month $4$ has $31$ days.
 ::key T F T F
 a) True: $1$ hour $=60$ minutes. b) False: month $2$ has $28$ days, and only a leap year has $29$. c) True: there are $60-45=15$ minutes until $8$ o'clock. d) False: month $4$ has $30$ days.
 
-::sa
+::sa VD
 How many days are there in the first three months (month $1$, month $2$, month $3$) of a year that is not a leap year?
 ::key 90
 Month $1$ has $31$ days, month $2$ has $28$ days, month $3$ has $31$ days. We have $31+28+31=90$ (days).
 
-::sa
+::sa TH
 How many minutes are in $1$ hour $20$ minutes?
 ::key 80
 $1$ hour $=60$ minutes, so $1$ hour $20$ minutes $=60+20=80$ minutes.

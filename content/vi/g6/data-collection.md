@@ -494,7 +494,7 @@ Vậy a) bóng đá $27$ bạn, cầu lông $12$ bạn; b) vẽ ●●◐.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Dữ liệu nào sau đây không phải là số?
 A. Màu sắc yêu thích.
 B. Chiều cao.
@@ -503,7 +503,7 @@ D. Nhiệt độ.
 ::key A
 Màu sắc được ghi bằng chữ. B, C, D đều được ghi bằng số.
 
-::mc
+::mc TH
 Để biết nhiệt độ ngoài trời lúc $7$ giờ sáng mỗi ngày trong một tuần, cách thu thập dữ liệu phù hợp nhất là
 A. lập phiếu hỏi các bạn trong lớp.
 B. đo trực tiếp bằng nhiệt kế mỗi ngày.
@@ -512,7 +512,7 @@ D. ước lượng bằng cảm giác.
 ::key B
 Nhiệt độ cần đo chính xác bằng dụng cụ. A và C cho câu trả lời theo cảm nhận; D không chính xác.
 
-::mc
+::mc TH
 Trong một biểu đồ tranh, mỗi ● ứng với $5$ bạn. Một hàng có $4$ biểu tượng ●. Số bạn của hàng đó là
 A. $4$.
 B. $9$.
@@ -521,7 +521,7 @@ D. $45$.
 ::key C
 $4\cdot5=20$. A quên chú thích; B cộng $4+5$; D đọc ghép thành $45$.
 
-::mc
+::mc TH
 Bảng thống kê cỡ giày của một nhóm: cỡ $35$: $4$ bạn; cỡ $36$: $7$ bạn; cỡ $37$: $3$ bạn; cỡ $38$: $1$ bạn. Nhóm có bao nhiêu bạn?
 A. $4$.
 B. $7$.
@@ -530,7 +530,7 @@ D. $15$.
 ::key D
 $4+7+3+1=15$. B là số bạn nhiều nhất; C cộng nhầm các cỡ giày; A là số giá trị.
 
-::tf
+::tf TH TH TH VD
 Dựa vào biểu đồ tranh "Môn thể thao yêu thích của học sinh lớp 6A" (mỗi hình tròn ứng với $5$ bạn). Xét tính đúng sai của các mệnh đề sau:
 a) Có $15$ bạn thích bóng đá.
 b) Số bạn thích cầu lông bằng số bạn thích bóng rổ.
@@ -539,12 +539,12 @@ d) Số bạn thích bóng đá gấp $3$ lần số bạn thích bơi.
 ::key Đ Đ S Đ
 a) Đúng: $3\cdot5=15$. b) Đúng: cùng $2$ hình tròn, tức $10$ bạn. c) Sai: $8$ hình tròn ứng với $40$ học sinh. d) Đúng: $15=3\cdot5$.
 
-::sa
+::sa TH
 Trong một biểu đồ tranh, mỗi ● ứng với $4$ bạn. Một hàng có $6$ biểu tượng ●. Hàng đó biểu diễn bao nhiêu bạn?
 ::key 24
 $6\cdot4=24$ (bạn).
 
-::sa
+::sa VD
 Với bảng thống kê cỡ giày ở câu trên, có bao nhiêu bạn đi giày cỡ từ $36$ trở lên?
 ::key 11
 $7+3+1=11$ (bạn).

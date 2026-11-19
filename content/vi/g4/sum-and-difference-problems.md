@@ -377,7 +377,7 @@ Ta có $70-15=55$, là số lẻ nên không chia hết cho $2$. Vậy không c�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tổng của hai số là $84$, hiệu là $12$. Số lớn là
 A. $96$.
 B. $36$.
@@ -386,7 +386,7 @@ D. $48$.
 ::key D
 Số lớn là $(84+12):2=96:2=48$. Phương án B là số bé, phương án C là $84-12$, phương án A là $84+12$.
 
-::mc
+::mc TH
 Tổng của hai số là $125$, hiệu là $35$. Số bé là
 A. $45$.
 B. $90$.
@@ -395,7 +395,7 @@ D. $160$.
 ::key A
 Số bé là $(125-35):2=90:2=45$. Phương án C là số lớn, phương án B quên chia cho $2$, phương án D là $125+35$.
 
-::mc
+::mc VD
 Hai kho chứa tất cả $480$ tấn gạo. Kho A chứa nhiều hơn kho B $60$ tấn. Kho B chứa
 A. $270$ tấn.
 B. $210$ tấn.
@@ -404,7 +404,7 @@ D. $420$ tấn.
 ::key B
 Số gạo ở kho B là $(480-60):2=210$ tấn. Phương án A là kho A, phương án D quên chia cho $2$, phương án C là $480+60$.
 
-::mc
+::mc VD
 Một hình chữ nhật có chu vi $56$ m, chiều dài hơn chiều rộng $8$ m. Chiều rộng là
 A. $18$ m.
 B. $28$ m.
@@ -413,7 +413,7 @@ D. $20$ m.
 ::key C
 Nửa chu vi là $56:2=28$ m. Chiều rộng là $(28-8):2=10$ m. Phương án A là chiều dài, phương án B là nửa chu vi, phương án D là $28-8$.
 
-::tf
+::tf TH TH NB TH
 Em xét bài toán: tổng hai số là $96$, hiệu hai số là $18$.
 a) Số bé là $39$.
 b) Số lớn là $57$.
@@ -422,12 +422,12 @@ d) Tổng của hai số tìm được bằng $96$.
 ::key Đ Đ S Đ
 a) Đúng: $(96-18):2=39$. b) Đúng: $39+18=57$. c) Sai: số lớn bằng số bé cộng $18$. d) Đúng: $39+57=96$.
 
-::sa
+::sa VD
 Tổng của hai số là $70$, hiệu là $10$. Số lớn là bao nhiêu?
 ::key 40
 $(70+10):2=40$.
 
-::sa
+::sa VD
 Tổng của hai số là $100$, hiệu là $36$. Số bé là bao nhiêu?
 ::key 32
 $(100-36):2=64:2=32$.

@@ -22,7 +22,7 @@ Làm trọn một đề trong điều kiện như thi thật là cách tập dư
 ## Section I: trắc nghiệm
 
 :::quiz test
-::mc
+::mc TH
 Thu nhập năm ở một thị trấn lệch phải mạnh. Số đo nào mô tả tốt nhất thu nhập điển hình?
 A. Trung bình
 B. Trung vị
@@ -31,7 +31,7 @@ D. Độ lệch chuẩn
 ::key B
 Trung vị bền vững trước vài thu nhập rất lớn vốn kéo trung bình lên.
 
-::mc
+::mc VD
 Khoảng tứ phân vị của dữ liệu $4,\ 7,\ 8,\ 10,\ 11,\ 13,\ 30$ là
 A. $26$
 B. $9$
@@ -40,7 +40,7 @@ D. $6$
 ::key D
 Trung vị là $10$; $Q_1=7$ (trung vị của $4,7,8$) và $Q_3=13$ (trung vị của $11,13,30$), nên $\text{IQR}=6$.
 
-::mc
+::mc VD
 Một bộ dữ liệu có $Q_1=20$ và $Q_3=32$. Theo quy tắc $1{,}5\times\text{IQR}$, giá trị nào là ngoại lai?
 A. $52$
 B. $45$
@@ -49,7 +49,7 @@ D. $14$
 ::key A
 $\text{IQR}=12$, nên hai ngưỡng là $20-18=2$ và $32+18=50$; chỉ có $52$ vượt ngưỡng.
 
-::mc
+::mc TH
 Một bài kiểm tra có trung bình $80$ và độ lệch chuẩn $4$. Điểm z của điểm số $74$ là
 A. $1{,}5$
 B. $-6$
@@ -58,7 +58,7 @@ D. $-0{,}67$
 ::key C
 $z=\dfrac{74-80}{4}=-1{,}5$.
 
-::mc
+::mc TH
 Hai lớp có cùng điểm trung bình $70$, nhưng lớp A có độ lệch chuẩn $5$ còn lớp B có độ lệch chuẩn $12$. Khẳng định nào đúng?
 A. Điểm lớp B phân tán hơn lớp A.
 B. Điểm lớp A cao hơn lớp B.
@@ -67,7 +67,7 @@ D. Điểm lớp A phân tán hơn lớp B.
 ::key A
 Độ lệch chuẩn đo độ phân tán; trung tâm của hai lớp như nhau.
 
-::mc
+::mc TH
 Giá trị lớn nhất của một bộ dữ liệu là ngoại lai rất xa và bị loại bỏ. Trung bình và trung vị thay đổi thế nào?
 A. Cả hai giảm cùng một lượng.
 B. Trung vị giảm rõ rệt; trung bình thay đổi ít.
@@ -76,7 +76,7 @@ D. Trung bình giảm rõ rệt; trung vị thay đổi ít.
 ::key D
 Trung bình bị kéo bởi giá trị cực đoan; trung vị thì bền vững.
 
-::mc
+::mc TH
 Một trường chọn ngẫu nhiên $10$ trong $50$ lớp chủ nhiệm và khảo sát mọi học sinh trong các lớp đó. Đây là
 A. mẫu ngẫu nhiên phân tầng
 B. mẫu cụm
@@ -85,7 +85,7 @@ D. mẫu hệ thống
 ::key B
 Chọn ngẫu nhiên trọn một số nhóm và đo mọi cá thể trong đó.
 
-::mc
+::mc TH
 Một chương trình phát thanh mời thính giả gọi điện cho biết họ có ủng hộ một loại thuế mới không. Độ chệch nào có khả năng nhất?
 A. Chệch do không trả lời
 B. Chệch do cách hỏi
@@ -94,7 +94,7 @@ D. Không chệch vì mẫu lớn
 ::key C
 Thính giả tự chọn mình; người có ý kiến mạnh dễ gọi hơn.
 
-::mc
+::mc NB
 Thiết kế nghiên cứu nào cho phép kết luận về quan hệ nhân quả?
 A. Thí nghiệm so sánh có phân nhóm ngẫu nhiên
 B. Nghiên cứu quan sát quy mô lớn
@@ -103,7 +103,7 @@ D. Tổng điều tra
 ::key A
 Phân nhóm ngẫu nhiên các nghiệm thức làm các nhóm tương đương.
 
-::mc
+::mc TH
 Trong thí nghiệm về phân bón, các thửa ruộng được gom theo loại đất rồi phân bón được phân ngẫu nhiên trong từng nhóm. Mục đích chính của việc gom nhóm là
 A. tăng số nghiệm thức
 B. mở rộng kết quả cho mọi nông trại
@@ -112,7 +112,7 @@ D. giảm biến động của biến phản hồi do loại đất
 ::key D
 Lập khối theo loại đất loại bỏ ảnh hưởng của nó khỏi phép so sánh các nghiệm thức.
 
-::mc
+::mc TH
 Câu nào là một câu hỏi khảo sát thống kê?
 A. Hôm nay Minh mất bao nhiêu phút để đến trường?
 B. Học sinh trường ta thường mất bao nhiêu phút để đến trường?
@@ -121,7 +121,7 @@ D. Tiết học đầu tiên bắt đầu lúc mấy giờ?
 ::key B
 Câu hỏi nói về một nhóm và được trả lời bằng dữ liệu có biến động.
 
-::mc
+::mc VD
 Hai biến cố $A$ và $B$ độc lập với $P(A)=0{,}5$ và $P(B)=0{,}3$. Giá trị $P(A\text{ hoặc }B)$ là
 A. $0{,}80$
 B. $0{,}15$
@@ -130,7 +130,7 @@ D. $0{,}50$
 ::key C
 $P(A\text{ và }B)=0{,}15$, nên $0{,}5+0{,}3-0{,}15=0{,}65$.
 
-::mc
+::mc VD
 Trong $100$ người dưới $30$ tuổi có $40$ người thích trà; trong $200$ người từ $30$ tuổi trở lên có $80$ người thích trà. Chọn ngẫu nhiên một người trong $300$ người này thì người đó thích trà. Xác suất để người đó dưới $30$ tuổi là
 A. $0{,}333$
 B. $0{,}400$
@@ -139,7 +139,7 @@ D. $0{,}500$
 ::key A
 Trong $120$ người thích trà có $40$ người dưới $30$ tuổi: $\dfrac{40}{120}\approx0{,}333$.
 
-::mc
+::mc TH
 Câu 14–16 dùng chung dữ kiện sau. Một máy sản xuất linh kiện, $10\%$ trong số đó bị lỗi, độc lập với nhau. Gọi $X$ là số linh kiện lỗi trong một mẫu ngẫu nhiên $8$ linh kiện. Giá trị $P(X=0)$ là
 A. $0{,}900$
 B. $0{,}570$
@@ -148,7 +148,7 @@ D. $0{,}100$
 ::key C
 $P(X=0)=(0{,}9)^8\approx0{,}430$.
 
-::mc
+::mc TH
 Câu 14–16 dùng chung dữ kiện sau. Một máy sản xuất linh kiện, $10\%$ trong số đó bị lỗi, độc lập với nhau. Gọi $X$ là số linh kiện lỗi trong một mẫu ngẫu nhiên $8$ linh kiện. Kì vọng của $X$ là
 A. $0{,}1$
 B. $0{,}8$
@@ -157,7 +157,7 @@ D. $0{,}72$
 ::key B
 $\mu_X=np=8(0{,}1)=0{,}8$. Giá trị $0{,}72$ là phương sai $np(1-p)$.
 
-::mc
+::mc VD
 Câu 14–16 dùng chung dữ kiện sau. Một máy sản xuất linh kiện, $10\%$ trong số đó bị lỗi, độc lập với nhau. Gọi $X$ là số linh kiện lỗi trong một mẫu ngẫu nhiên $8$ linh kiện. Xác suất để có ít nhất một linh kiện lỗi là
 A. $0{,}430$
 B. $0{,}800$
@@ -166,7 +166,7 @@ D. $0{,}570$
 ::key D
 $P(X\ge1)=1-P(X=0)\approx1-0{,}430=0{,}570$.
 
-::mc
+::mc TH
 Một biến ngẫu nhiên nhận các giá trị $0,1,2,3$ với xác suất $0{,}1;\ 0{,}3;\ 0{,}4;\ 0{,}2$. Kì vọng của nó là
 A. $1{,}7$
 B. $1{,}5$
@@ -175,7 +175,7 @@ D. $0{,}25$
 ::key A
 $0(0{,}1)+1(0{,}3)+2(0{,}4)+3(0{,}2)=1{,}7$.
 
-::mc
+::mc VD
 Một biến có phân phối chuẩn với trung bình $50$ và độ lệch chuẩn $8$. Tỉ lệ giá trị nhỏ hơn $62$ là
 A. $0{,}0668$
 B. $0{,}9332$
@@ -184,7 +184,7 @@ D. $0{,}9772$
 ::key B
 $z=\dfrac{62-50}{8}=1{,}5$ và $P(Z<1{,}5)\approx0{,}9332$.
 
-::mc
+::mc TH
 Một tổng thể có độ lệch chuẩn $20$. Độ lệch chuẩn của $\bar x$ với các mẫu ngẫu nhiên cỡ $100$ là
 A. $20$
 B. $0{,}2$
@@ -193,7 +193,7 @@ D. $5$
 ::key C
 $\dfrac{20}{\sqrt{100}}=2$.
 
-::mc
+::mc VD
 Trong một tổng thể, $p=0{,}04$. Cỡ mẫu nhỏ nhất trong các cỡ sau mà điều kiện số đếm đủ lớn cho $\hat p$ được thoả mãn là
 A. $100$
 B. $150$
@@ -202,7 +202,7 @@ D. $250$
 ::key D
 Cần $np\ge10$: $250(0{,}04)=10$, còn $200(0{,}04)=8$.
 
-::mc
+::mc VD
 Trong một mẫu ngẫu nhiên $400$ cử tri, $45\%$ ủng hộ một đề xuất. Khoảng nào là khoảng tin cậy $95\%$ cho tỉ lệ toàn bộ cử tri ủng hộ?
 A. $0{,}45\pm0{,}025$
 B. $0{,}45\pm0{,}098$
@@ -211,7 +211,7 @@ D. $0{,}45\pm0{,}041$
 ::key C
 $1{,}96\sqrt{\dfrac{0{,}45(0{,}55)}{400}}\approx1{,}96(0{,}0249)\approx0{,}049$. Giá trị $0{,}025$ thiếu $z^*$, còn $0{,}041$ dùng $z^*=1{,}645$.
 
-::mc
+::mc TH
 "Độ tin cậy $95\%$" của một khoảng tin cậy nghĩa là gì?
 A. Khoảng $95\%$ số khoảng lập theo cách này từ nhiều mẫu chứa tham số thật.
 B. Xác suất để thống kê mẫu nằm trong khoảng là $95\%$.
@@ -220,7 +220,7 @@ D. Tham số thay đổi $5\%$ số lần.
 ::key A
 Độ tin cậy mô tả tỉ lệ thành công trong dài hạn của phương pháp.
 
-::mc
+::mc TH
 Một công ty khẳng định hơn $30\%$ khách hàng của họ dưới $25$ tuổi. Cặp giả thuyết nào kiểm định lời khẳng định đó?
 A. $H_0:p>0{,}3$, $H_a:p=0{,}3$
 B. $H_0:p=0{,}3$, $H_a:p>0{,}3$
@@ -229,7 +229,7 @@ D. $H_0:p=0{,}3$, $H_a:p\ne0{,}3$
 ::key B
 Lời khẳng định cần bằng chứng đặt ở $H_a$, và giả thuyết nói về $p$.
 
-::mc
+::mc TH
 Trong kiểm định $H_0:p=0{,}5$ với $n=100$, tỉ lệ mẫu là $0{,}55$. Thống kê kiểm định là
 A. $z=0{,}10$
 B. $z=2{,}00$
@@ -238,7 +238,7 @@ D. $z=1{,}00$
 ::key D
 $z=\dfrac{0{,}55-0{,}5}{\sqrt{0{,}5(0{,}5)/100}}=\dfrac{0{,}05}{0{,}05}=1{,}00$.
 
-::mc
+::mc TH
 Một kiểm định cho giá trị P bằng $0{,}08$ với $\alpha=0{,}05$. Kết luận đúng là
 A. không bác bỏ $H_0$; không có bằng chứng thuyết phục cho $H_a$
 B. bác bỏ $H_0$; có bằng chứng thuyết phục cho $H_a$
@@ -247,7 +247,7 @@ D. bác bỏ $H_a$; $H_0$ đúng
 ::key A
 $0{,}08>0{,}05$ nên ta không bác bỏ $H_0$; điều này không chứng minh $H_0$ đúng.
 
-::mc
+::mc TH
 Một nhà máy kiểm định $H_0$: tỉ lệ lỗi là $2\%$, với $H_a$: tỉ lệ lỗi cao hơn $2\%$. Đâu là sai lầm loại II?
 A. Kết luận tỉ lệ cao hơn trong khi thực tế là $2\%$
 B. Kết luận tỉ lệ là $2\%$ trong khi thực tế là $2\%$
@@ -256,7 +256,7 @@ D. Kết luận tỉ lệ cao hơn trong khi thực tế cao hơn
 ::key C
 Sai lầm loại II là không bác bỏ một $H_0$ sai.
 
-::mc
+::mc VD
 Cỡ mẫu nhỏ nhất để khoảng tin cậy $95\%$ cho $p$ có sai số biên không quá $0{,}05$, khi chưa có ước lượng trước, là
 A. $384$
 B. $385$
@@ -265,7 +265,7 @@ D. $196$
 ::key B
 $n\ge\left(\dfrac{1{,}96}{0{,}05}\right)^2(0{,}25)=384{,}16$; làm tròn lên thành $385$.
 
-::mc
+::mc TH
 Một khoảng tin cậy $95\%$ cho $p_1-p_2$ là $(-0{,}03;\ 0{,}08)$. Kết luận nào đúng?
 A. $p_1$ lớn hơn $p_2$.
 B. $p_1$ nhỏ hơn $p_2$.
@@ -274,7 +274,7 @@ D. Không có bằng chứng thuyết phục rằng hai tỉ lệ khác nhau.
 ::key D
 Khoảng chứa $0$ nên "không khác biệt" là hợp lí; điều này không chứng minh hai tỉ lệ bằng nhau.
 
-::mc
+::mc TH
 Dùng phương pháp $t$ ghép cặp với $12$ cặp. Số bậc tự do là
 A. $11$
 B. $12$
@@ -283,7 +283,7 @@ D. $24$
 ::key A
 Dữ liệu ghép cặp được phân tích như một mẫu $12$ hiệu: df $=11$.
 
-::mc
+::mc TH
 Vì sao khoảng tin cậy $t$ cho trung bình rộng hơn khoảng $z$ có cùng sai số chuẩn?
 A. Trung bình mẫu bị chệch.
 B. Phân phối $t$ bị lệch.
@@ -292,7 +292,7 @@ D. Cỡ mẫu luôn nhỏ hơn.
 ::key C
 Phân phối $t$ có đuôi dày hơn phân phối chuẩn.
 
-::mc
+::mc TH
 Nghiên cứu nào nên phân tích bằng phương pháp $t$ ghép cặp?
 A. So sánh thời gian của $20$ vận động viên đi giày cũ với $20$ người khác đi giày mới.
 B. Mỗi người trong $20$ vận động viên được bấm giờ khi đi giày cũ và khi đi giày mới.
@@ -301,7 +301,7 @@ D. Ghi lại chiều cao của $50$ vận động viên.
 ::key B
 Cùng các vận động viên được đo hai lần.
 
-::mc
+::mc VD
 Một mẫu ngẫu nhiên $36$ giá trị có $\bar x=40$ và $s=9$. Với $t^*\approx2{,}030$, khoảng tin cậy $95\%$ cho $\mu$ là
 A. $(39{,}49;\ 40{,}51)$
 B. $(21{,}73;\ 58{,}27)$
@@ -310,7 +310,7 @@ D. $(36{,}95;\ 43{,}05)$
 ::key D
 Sai số chuẩn là $\dfrac{9}{6}=1{,}5$, nên $40\pm2{,}030(1{,}5)=40\pm3{,}045$.
 
-::mc
+::mc TH
 Trong kiểm định $H_0:\mu=100$, một mẫu $25$ giá trị có $\bar x=103$ và $s=10$. Thống kê kiểm định là
 A. $t=1{,}5$
 B. $t=0{,}3$
@@ -319,7 +319,7 @@ D. $t=3{,}0$
 ::key A
 $t=\dfrac{103-100}{10/\sqrt{25}}=\dfrac{3}{2}=1{,}5$.
 
-::mc
+::mc TH
 Một mẫu ngẫu nhiên $15$ thời gian đi làm lệch phải mạnh với hai giá trị ngoại lai. Khoảng tin cậy $t$ một mẫu có phù hợp không?
 A. Có, vì mẫu ngẫu nhiên.
 B. Có, vì $15<30$.
@@ -328,7 +328,7 @@ D. Không, vì khoảng $t$ cần $n\ge100$.
 ::key C
 Với $n<30$, điều kiện chuẩn / mẫu lớn đòi hỏi không lệch mạnh, không có ngoại lai.
 
-::mc
+::mc TH
 Các nhà nghiên cứu so sánh thời gian ngủ trung bình của một mẫu ngẫu nhiên $40$ bạn nam và một mẫu ngẫu nhiên độc lập $40$ bạn nữ. Phương pháp phù hợp là
 A. phương pháp $t$ hai mẫu
 B. phương pháp $t$ ghép cặp
@@ -337,7 +337,7 @@ D. kiểm định $z$ hai tỉ lệ
 ::key A
 Hai mẫu độc lập và một biến định lượng.
 
-::mc
+::mc TH
 Câu 36–38 dùng chung dữ kiện sau. Với một nhóm học sinh, đường bình phương nhỏ nhất liên hệ thời gian luyện tập mỗi tuần $x$ (giờ) với điểm bài kiểm tra ngắn $y$ (điểm) là $\hat y=3{,}2+0{,}85x$, với $r=0{,}78$. Cách diễn giải đúng của $0{,}85$ là
 A. Điểm của mỗi học sinh tăng đúng $0{,}85$ điểm mỗi giờ.
 B. $85\%$ sự biến động của điểm được giải thích bởi việc luyện tập.
@@ -346,7 +346,7 @@ D. Mỗi giờ luyện tập thêm, điểm dự đoán tăng $0{,}85$ điểm.
 ::key D
 Hệ số góc cho mức thay đổi của giá trị dự đoán khi $x$ tăng một đơn vị.
 
-::mc
+::mc VD
 Câu 36–38 dùng chung dữ kiện sau. Với một nhóm học sinh, đường bình phương nhỏ nhất liên hệ thời gian luyện tập mỗi tuần $x$ (giờ) với điểm bài kiểm tra ngắn $y$ (điểm) là $\hat y=3{,}2+0{,}85x$, với $r=0{,}78$. Một học sinh luyện tập $20$ giờ đạt $22$ điểm. Phần dư là
 A. $-1{,}8$
 B. $1{,}8$
@@ -355,7 +355,7 @@ D. $2{,}2$
 ::key B
 $\hat y=3{,}2+0{,}85(20)=20{,}2$, nên phần dư là $22-20{,}2=1{,}8$.
 
-::mc
+::mc TH
 Câu 36–38 dùng chung dữ kiện sau. Với một nhóm học sinh, đường bình phương nhỏ nhất liên hệ thời gian luyện tập mỗi tuần $x$ (giờ) với điểm bài kiểm tra ngắn $y$ (điểm) là $\hat y=3{,}2+0{,}85x$, với $r=0{,}78$. Khoảng bao nhiêu phần trăm sự biến động của điểm được giải thích bởi mô hình tuyến tính theo thời gian luyện tập?
 A. $78\%$
 B. $85\%$
@@ -364,7 +364,7 @@ D. $39\%$
 ::key C
 $r^2=0{,}78^2\approx0{,}608$.
 
-::mc
+::mc VD
 Một bộ dữ liệu có $\bar x=10$, $s_x=2$, $\bar y=50$, $s_y=8$ và $r=0{,}5$. Đường bình phương nhỏ nhất là
 A. $\hat y=50+2x$
 B. $\hat y=30+2x$
@@ -373,7 +373,7 @@ D. $\hat y=10+4x$
 ::key B
 $b=0{,}5\cdot\dfrac82=2$ và $a=50-2(10)=30$.
 
-::mc
+::mc TH
 Chiều cao được đổi từ xăng-ti-mét sang inch. Hệ số tương quan giữa chiều cao và cân nặng thay đổi thế nào?
 A. Bị chia cho $2{,}54$.
 B. Bị nhân với $2{,}54$.
@@ -382,7 +382,7 @@ D. Không thay đổi.
 ::key D
 Hệ số tương quan không có đơn vị và không bị ảnh hưởng khi đổi đơn vị.
 
-::mc
+::mc NB
 Một đường thẳng liên hệ tuổi với chiều cao được lập từ trẻ $3$ đến $12$ tuổi. Dùng nó để dự đoán chiều cao của người $30$ tuổi là một ví dụ về
 A. phần dư
 B. biến ẩn
@@ -391,7 +391,7 @@ D. cặp ghép
 ::key C
 $x=30$ nằm xa ngoài khoảng dữ liệu.
 
-::mc
+::mc TH
 Biểu đồ phần dư của một đường bình phương nhỏ nhất cho thấy một quy luật cong rõ rệt. Điều này gợi ý gì?
 A. Mô hình tuyến tính không phù hợp với dữ liệu này.
 B. Hệ số tương quan bằng $0$.

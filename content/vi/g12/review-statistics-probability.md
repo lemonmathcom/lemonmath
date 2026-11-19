@@ -412,7 +412,7 @@ $P(\text{lỗi})=0{,}5\cdot0{,}01+0{,}3\cdot0{,}02+0{,}2\cdot0{,}03=0{,}005+0{,}
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Một mẫu số liệu ghép nhóm có nhóm $[10; 20)$ với tần số $2$, nhóm $[20; 30)$ với tần số $5$, nhóm $[30; 40)$ với tần số $3$. Số trung bình của mẫu là
 A. $25$.
 B. $26$.
@@ -421,7 +421,7 @@ D. $21$.
 ::key B
 $\bar x=\dfrac{2\cdot15+5\cdot25+3\cdot35}{10}=26$. Phương án A là giá trị đại diện của nhóm giữa, phương án C chia cho $3$, phương án D dùng đầu mút trái.
 
-::mc
+::mc TH
 Với mẫu số liệu ở câu trên, nhóm chứa tứ phân vị thứ ba $Q_3$ là
 A. $[10; 20)$.
 B. $[20; 30)$.
@@ -430,7 +430,7 @@ D. Không xác định được.
 ::key C
 Tần số tích luỹ là $2$, $7$, $10$ và $\dfrac{3n}{4}=7{,}5$; nhóm đầu tiên có tần số tích luỹ $\ge7{,}5$ là $[30; 40)$. Phương án B là nhóm có tần số lớn nhất.
 
-::mc
+::mc NB
 Cho hai biến cố $A$, $B$ với $P(B)>0$. Xác suất của $A$ khi biết $B$ đã xảy ra là
 A. $P(A\mid B)=\dfrac{P(A\cap B)}{P(A)}$.
 B. $P(A\mid B)=P(A)\cdot P(B)$.
@@ -439,7 +439,7 @@ D. $P(A\mid B)=\dfrac{P(A)}{P(B)}$.
 ::key C
 Ta thu hẹp không gian mẫu về $B$, nên chia cho $P(B)$. Phương án A là $P(B\mid A)$; phương án B chỉ đúng với $P(A\cap B)$ khi $A$, $B$ độc lập.
 
-::mc
+::mc NB
 Cho $P(A)=0{,}3$ và $P(B\mid A)=0{,}5$. Khi đó $P(A\cap B)$ bằng
 A. $0{,}15$.
 B. $0{,}8$.
@@ -448,7 +448,7 @@ D. $0{,}2$.
 ::key A
 $P(A\cap B)=P(A)\cdot P(B\mid A)=0{,}3\cdot0{,}5=0{,}15$. Phương án B cộng hai số, phương án C chia $0{,}3$ cho $0{,}5$.
 
-::tf
+::tf NB TH TH VD
 Một túi có $5$ bi đỏ và $3$ bi trắng. Lấy lần lượt hai bi, không hoàn lại.
 a) Xác suất bi thứ nhất màu đỏ là $\dfrac58$.
 b) Xác suất bi thứ hai màu đỏ, biết bi thứ nhất màu đỏ, là $\dfrac47$.
@@ -457,12 +457,12 @@ d) Xác suất bi thứ hai màu đỏ là $\dfrac47$.
 ::key Đ Đ Đ S
 a) Đúng. b) Đúng: còn $4$ bi đỏ trong $7$ bi. c) Đúng: $\dfrac58\cdot\dfrac47=\dfrac{20}{56}=\dfrac5{14}$. d) Sai: theo công thức xác suất toàn phần, $\dfrac58\cdot\dfrac47+\dfrac38\cdot\dfrac57=\dfrac{35}{56}=\dfrac58$.
 
-::sa
+::sa VD
 Mẫu số liệu ghép nhóm có nhóm $[0; 2)$ tần số $3$, nhóm $[2; 4)$ tần số $4$, nhóm $[4; 6)$ tần số $3$. Tính độ lệch chuẩn của mẫu (làm tròn kết quả đến hàng phần trăm).
 ::key 1,55
 Giá trị đại diện $1$, $3$, $5$ và $\bar x=3$. $s^2=\dfrac{3\cdot4+4\cdot0+3\cdot4}{10}=2{,}4$, nên $s=\sqrt{2{,}4}\approx1{,}549$, làm tròn được $1{,}55$.
 
-::sa
+::sa VD
 Cho $P(B)=0{,}4$, $P(A\mid B)=0{,}5$ và $P(A\mid\overline B)=0{,}25$. Tính $P(B\mid A)$ (làm tròn kết quả đến hàng phần trăm).
 ::key 0,57
 $P(A)=0{,}4\cdot0{,}5+0{,}6\cdot0{,}25=0{,}35$, nên $P(B\mid A)=\dfrac{0{,}2}{0{,}35}\approx0{,}571$, làm tròn được $0{,}57$.

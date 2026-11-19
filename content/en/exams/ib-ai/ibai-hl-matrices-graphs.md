@@ -261,7 +261,7 @@ So after two years X has $42.5\%$ and Y $57.5\%$ of the market, and in the long 
 :::
 
 :::quiz
-::mc
+::mc TH
 If $\det A=0$, then
 A. $A^{-1}$ exists
 B. $A$ is the identity matrix
@@ -270,7 +270,7 @@ D. $A=0$
 ::key C
 The inverse formula divides by $\det A$.
 
-::mc
+::mc NB
 In a transition matrix as used here, each column adds to
 A. $1$
 B. $0$
@@ -279,7 +279,7 @@ D. $100$
 ::key A
 Each column lists all the places one state can go next.
 
-::mc
+::mc NB
 A graph has an Eulerian circuit when
 A. it has exactly two vertices of odd degree
 B. every vertex has even degree
@@ -288,7 +288,7 @@ D. every vertex has degree $1$
 ::key B
 Each visit to a vertex uses one edge in and one out.
 
-::mc
+::mc TH
 The nearest neighbour algorithm for the travelling salesman problem gives
 A. the exact best route
 B. a lower bound
@@ -297,7 +297,7 @@ D. an upper bound
 ::key D
 It gives a real route, which may not be the shortest.
 
-::tf
+::tf NB NB TH TH
 A graph has $6$ vertices and is a tree. Decide whether each statement is true or false.
 a) It is connected.
 b) It has no cycles.
@@ -306,12 +306,12 @@ d) It must have an Eulerian circuit.
 ::key T T T F
 A tree has vertices of degree $1$, so it has no Eulerian circuit.
 
-::sa
+::sa TH
 Find $\det\begin{pmatrix}5&2\\3&4\end{pmatrix}$.
 ::key 14
 $20-6=14$.
 
-::sa
+::sa TH
 A graph has degrees $4,\ 3,\ 3,\ 2$. How many edges does it have?
 ::key 6
 $\dfrac{12}{2}=6$.

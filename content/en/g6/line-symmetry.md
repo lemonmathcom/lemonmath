@@ -509,7 +509,7 @@ So the two pieces have equal areas, $16\ \text{cm}^2$ each.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of these shapes has no line of symmetry?
 A. An isosceles trapezium.
 B. A parallelogram.
@@ -518,7 +518,7 @@ D. An equilateral triangle.
 ::key B
 A parallelogram has only a centre of symmetry and no line of symmetry. An isosceles trapezium has $1$ line, a rhombus has $2$ and an equilateral triangle has $3$.
 
-::mc
+::mc NB
 How many lines of symmetry does a square have?
 A. $1$.
 B. $2$.
@@ -527,7 +527,7 @@ D. $8$.
 ::key C
 The two diagonals and the two lines joining midpoints of opposite sides, $4$ lines in all. B counts only one kind; D counts each line twice.
 
-::mc
+::mc NB
 Which of these shapes has a centre of symmetry?
 A. An equilateral triangle.
 B. An isosceles trapezium.
@@ -536,7 +536,7 @@ D. A parallelogram.
 ::key D
 A parallelogram has a centre of symmetry where its diagonals meet. The other three shapes come out upside down after half a turn.
 
-::mc
+::mc NB
 The centre of symmetry of a rectangle is
 A. the point where the two diagonals meet.
 B. a vertex of the rectangle.
@@ -545,7 +545,7 @@ D. any point on a diagonal.
 ::key A
 After half a turn about the point where the diagonals meet, the rectangle lands on itself. Turning about the points in B, C, D moves the shape off its old position.
 
-::tf
+::tf NB TH TH TH
 Decide whether each statement is true or false.
 a) A circle has infinitely many lines of symmetry.
 b) Every shape with a line of symmetry also has a centre of symmetry.
@@ -554,12 +554,12 @@ d) A regular hexagon has both lines of symmetry and a centre of symmetry.
 ::key T F F T
 a) True: every line through the centre is a line of symmetry. b) False: an equilateral triangle has $3$ lines of symmetry but no centre of symmetry. c) False: a rhombus has only $2$ lines, its diagonals. d) True: it has $6$ lines, and its centre of symmetry is where the three main diagonals meet.
 
-::sa
+::sa TH
 How many lines of symmetry does a regular hexagon have?
 ::key 6
 The three main diagonals and the three lines joining midpoints of opposite sides: $3+3=6$.
 
-::sa
+::sa TH
 A parallelogram $ABCD$ has centre of symmetry $O$ and $AC=18$ cm. How many centimetres long is $OA$?
 ::key 9
 $O$ is the midpoint of $AC$, so $OA=18:2=9$ (cm).

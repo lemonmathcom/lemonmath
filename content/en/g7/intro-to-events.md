@@ -440,7 +440,7 @@ So the box has $2$ blue cards.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A fair dice is rolled. Which of the following events is impossible?
 A. The number of dots is $1$.
 B. The number of dots is even.
@@ -449,7 +449,7 @@ D. The number of dots is $7$.
 ::key D
 A dice shows only $1$ to $6$ dots, so $7$ dots never happens. A and B are random events and C is a certain event.
 
-::mc
+::mc TH
 One card is drawn from a box of $10$ cards numbered $1$ to $10$. The probability of drawing a multiple of $5$ is
 A. $\dfrac15$.
 B. $2$.
@@ -458,7 +458,7 @@ D. $\dfrac{1}{10}$.
 ::key A
 The favourable cards are $5$ and $10$, so the probability is $\dfrac{2}{10}=\dfrac15$. B is the number of favourable outcomes, C is the probability of an even card, and D counts only the card $5$.
 
-::mc
+::mc TH
 A spinner has $12$ equal sections: $5$ blue, $4$ yellow, $3$ red. Which event is the most likely?
 A. The arrow stops on red.
 B. The arrow stops on yellow or red.
@@ -467,7 +467,7 @@ D. The arrow stops on yellow.
 ::key B
 Event D has $4+3=7$ favourable sections, more than the $5$ blue ones. The probabilities are $\dfrac{3}{12}$, $\dfrac{4}{12}$, $\dfrac{5}{12}$ and $\dfrac{7}{12}$ respectively.
 
-::mc
+::mc NB
 Which statement about the probability $P(A)$ of an event $A$ is correct?
 A. $P(A)$ can equal $2$.
 B. A certain event has probability $0$.
@@ -476,7 +476,7 @@ D. An impossible event has probability $1$.
 ::key C
 Probability always lies between $0$ and $1$. A certain event has probability $1$ and an impossible event has probability $0$, so C and D are wrong; A is wrong because $P(A)$ never exceeds $1$.
 
-::tf
+::tf NB TH TH TH
 A bag has $20$ identical balls: $8$ red, $7$ blue, $5$ yellow. One ball is taken at random. Decide whether each statement is true or false.
 a) There are $20$ equally likely outcomes.
 b) The probability of taking a red ball is $\dfrac13$ because there are $3$ colours.
@@ -485,12 +485,12 @@ d) "Taking a red, blue or yellow ball" is a random event.
 ::key T F T F
 a) True: each ball is one outcome. b) False: the probability is $\dfrac{8}{20}=\dfrac25$; the colours are not equally likely. c) True: $7>5$. d) False: the bag has only those three colours, so the event always happens and is certain.
 
-::sa
+::sa TH
 A box has $25$ cards numbered $1$ to $25$. How many favourable outcomes are there for the event "the card drawn is a multiple of $5$"?
 ::key 5
 The favourable cards are $5$, $10$, $15$, $20$, $25$, which is $5$ outcomes.
 
-::sa
+::sa TH
 A bag has $20$ balls, of which $5$ are red and the rest are blue. One ball is taken at random. What is the probability of taking a red ball, written as a decimal?
 ::key 0.25
 $\dfrac{5}{20}=\dfrac14=0.25$.

@@ -408,7 +408,7 @@ So $AC=8$ cm or $AC=2$ cm.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Four collinear points are given. The number of segments with two of them as endpoints is
 A. $4$.
 B. $3$.
@@ -417,7 +417,7 @@ D. $12$.
 ::key C
 There are $3+2+1=6$ pairs of points. A counts the points; B counts only neighbouring segments; D counts each segment twice.
 
-::mc
+::mc TH
 Point $M$ lies between points $A$ and $B$, with $AM=2$ cm and $AB=7$ cm. The length $MB$ is
 A. $9$ cm.
 B. $5$ cm.
@@ -426,7 +426,7 @@ D. $2$ cm.
 ::key B
 $MB=AB-AM=7-2=5$ cm. A adds instead of subtracting; C treats $M$ as the midpoint; D confuses it with $AM$.
 
-::mc
+::mc TH
 $M$ is the midpoint of segment $AB$, with $AB=9$ cm. The length $MA$ is
 A. $4.5$ cm.
 B. $18$ cm.
@@ -435,7 +435,7 @@ D. $3$ cm.
 ::key A
 $MA=\dfrac{AB}{2}=4.5$ cm. B doubles; C confuses it with $AB$; D divides by $3$.
 
-::mc
+::mc NB
 Point $M$ is the midpoint of segment $AB$ when
 A. $MA=MB$.
 B. $M$ lies between $A$ and $B$.
@@ -444,7 +444,7 @@ D. $MA+MB=AB$.
 ::key C
 A midpoint must satisfy both conditions. A lacks the "between" condition; B and D lack the condition $MA=MB$.
 
-::tf
+::tf TH VD VD TH
 On ray $Ox$, take two points $A$ and $B$ such that $OA=2$ cm and $OB=4$ cm. Decide whether each statement is true or false.
 a) Point $A$ lies between points $O$ and $B$.
 b) $AB=6$ cm.
@@ -453,12 +453,12 @@ d) $B$ is the midpoint of segment $OA$.
 ::key T F T F
 a) True: $OA<OB$. b) False: $AB=OB-OA=2$ cm. c) True: $A$ lies between $O$, $B$ and $OA=AB=2$ cm. d) False: $B$ does not lie between $O$ and $A$.
 
-::sa
+::sa VD
 Segment $AB=10$ cm, $M$ is the midpoint of $AB$ and $N$ is the midpoint of $MB$. Find the length $AN$ in cm.
 ::key 7.5
 $AM=MB=5$ cm, $MN=2.5$ cm, $AN=AM+MN=7.5$ cm.
 
-::sa
+::sa TH
 On ray $Ox$, take two points $A$, $B$ such that $OA=2.5$ cm and $OB=6$ cm. Find the length $AB$ in cm.
 ::key 3.5
 $OA<OB$, so $A$ lies between $O$ and $B$; $AB=6-2.5=3.5$ cm.

@@ -291,7 +291,7 @@ So the largest area is $625$ m², when the field is a square of side $25$ m.
 :::
 
 :::quiz
-::mc
+::mc NB
 If $y=3x+2$, what is $y$ when $x=5$?
 A. $15$
 B. $17$
@@ -300,7 +300,7 @@ D. $25$
 ::key B
 $3(5)+2=17$.
 
-::mc
+::mc TH
 A price increases by $10\%$ and then by another $10\%$. By what number is the original price multiplied?
 A. $1.2$
 B. $1.02$
@@ -309,7 +309,7 @@ D. $2.1$
 ::key C
 $1.1\times1.1=1.21$.
 
-::mc
+::mc NB
 How many minutes are there in $2.5$ hours?
 A. $250$
 B. $130$
@@ -318,7 +318,7 @@ D. $150$
 ::key D
 $2.5\times60=150$.
 
-::mc
+::mc NB
 Data that increase by the same percentage each year are best modeled by which kind of function?
 A. Exponential
 B. Linear
@@ -327,7 +327,7 @@ D. Constant
 ::key A
 A constant ratio between consecutive values means an exponential model.
 
-::tf
+::tf NB NB NB TH
 The cost of a taxi ride of $m$ minutes is $C=20+0.5m$ thousand đồng. Decide whether each statement is true or false.
 a) The fixed charge is $20$ thousand đồng.
 b) Each minute costs $0.5$ thousand đồng.
@@ -336,12 +336,12 @@ d) Doubling the number of minutes doubles the cost.
 ::key T T T F
 $C(100)=20+50=70$; because of the fixed charge, the cost is not proportional to $m$.
 
-::sa
+::sa TH
 A tank holds $3000$ liters and fills at $50$ liters per minute. How many minutes does it take to fill?
 ::key 60
 $\dfrac{3000}{50}=60$.
 
-::sa
+::sa VD
 A business has fixed costs of $500$ dollars, a cost of $4$ dollars per item, and a price of $9$ dollars per item. How many items must it sell to break even?
 ::key 100
 $\dfrac{500}{9-4}=100$.

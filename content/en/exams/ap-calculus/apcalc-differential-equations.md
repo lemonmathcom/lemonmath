@@ -270,7 +270,7 @@ a) $600$. b) $P=300$. c) Concave up: $P(0)=100<300$, so $\dfrac{dP}{dt}$ is stil
 :::
 
 :::quiz
-::mc
+::mc TH
 Which function is a solution of $\dfrac{dy}{dx}=-2y$?
 A. $y=e^{-2x}+1$
 B. $y=-2e^{x}$
@@ -279,7 +279,7 @@ D. $y=e^{2x}$
 ::key C
 $y'=-10e^{-2x}=-2\left(5e^{-2x}\right)$.
 
-::mc
+::mc NB
 What is the slope of the solution curve of $\dfrac{dy}{dx}=x^2-y$ at the point $(2,1)$?
 A. $1$
 B. $3$
@@ -288,7 +288,7 @@ D. $4$
 ::key B
 $2^2-1=3$.
 
-::mc
+::mc VD
 If $\dfrac{dy}{dt}=ky$, $y(0)=40$ and $y(2)=10$, then $k$ equals
 A. $\ln2$
 B. $-\dfrac12$
@@ -297,7 +297,7 @@ D. $-\ln2$
 ::key D
 $10=40e^{2k}$, so $e^{2k}=\dfrac14$ and $k=\dfrac{\ln(1/4)}{2}=-\ln2$.
 
-::mc
+::mc VD
 What is the solution of $\dfrac{dy}{dx}=y\cos x$ with $y(0)=2$?
 A. $y=2e^{\sin x}$
 B. $y=2+\sin x$
@@ -306,7 +306,7 @@ D. $y=2e^{\cos x}$
 ::key A
 $\ln|y|=\sin x+C$; at $(0,2)$, $C=\ln2$.
 
-::tf
+::tf TH TH TH VD
 (BC) A population satisfies $\dfrac{dP}{dt}=0.5P\left(1-\dfrac{P}{200}\right)$ with $P(0)=50$.
 a) $\displaystyle\lim_{t\to\infty}P(t)=200$.
 b) $P$ is increasing for all $t\ge0$.
@@ -315,12 +315,12 @@ d) The graph of $P$ is concave down when $P=50$.
 ::key T T T F
 a) True: carrying capacity. b) True: $0<P<200$ makes $\dfrac{dP}{dt}>0$. c) True: half the carrying capacity. d) False: below $100$, $\dfrac{dP}{dt}$ is still increasing, so the graph is concave up.
 
-::sa
+::sa VD
 If $\dfrac{dy}{dx}=6x^2$ and $y(1)=5$, find $y(2)$.
 ::key 19
 $y=2x^3+C$, $C=3$, so $y(2)=16+3=19$.
 
-::sa
+::sa TH
 A population of $200$ doubles every $5$ hours. What is the population after $15$ hours?
 ::key 1600
 Three doublings: $200\cdot2^3=1600$.

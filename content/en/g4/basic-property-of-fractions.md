@@ -251,7 +251,7 @@ $\dfrac{3}{4}=\dfrac{3\times5}{4\times5}=\dfrac{15}{20}$, so $a=15$. $\dfrac{3}{
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Find the missing number: $\dfrac{2}{3}=\dfrac{?}{12}$.
 A. $4$.
 B. $8$.
@@ -260,7 +260,7 @@ D. $14$.
 ::key B
 $3\times4=12$, so $2\times4=8$. Option C is the mistake of adding $3$ to $2$.
 
-::mc
+::mc TH
 Find the missing number: $\dfrac{6}{9}=\dfrac{?}{3}$.
 A. $2$.
 B. $3$.
@@ -269,7 +269,7 @@ D. $1$.
 ::key A
 $9\div3=3$, so $6\div3=2$. Option C is the mistake of keeping the numerator.
 
-::mc
+::mc TH
 Which fraction is equal to $\dfrac{1}{2}$?
 A. $\dfrac{2}{3}$.
 B. $\dfrac{3}{6}$.
@@ -278,7 +278,7 @@ D. $\dfrac{1}{4}$.
 ::key B
 $\dfrac{3}{6}=\dfrac{3\div3}{6\div3}=\dfrac{1}{2}$. Option A doubles the numerator but not the denominator.
 
-::mc
+::mc TH
 Find the missing number: $\dfrac{3}{5}=\dfrac{9}{?}$.
 A. $8$.
 B. $12$.
@@ -287,7 +287,7 @@ D. $14$.
 ::key C
 $3\times3=9$, so $5\times3=15$. Option A is the mistake of adding $3$ to $5$.
 
-::tf
+::tf TH TH TH TH
 Look at these fractions.
 a) $\dfrac{1}{2}=\dfrac{2}{4}$.
 b) $\dfrac{1}{3}=\dfrac{2}{6}$.
@@ -296,12 +296,12 @@ d) $\dfrac{4}{8}=\dfrac{1}{2}$.
 ::key T T F T
 a) True: multiply by $2$. b) True: multiply by $2$. c) False: the numerator is not multiplied by a whole number that also takes $5$ to $6$. d) True: divide by $4$.
 
-::sa
+::sa TH
 Find the missing number: $\dfrac{4}{5}=\dfrac{?}{20}$.
 ::key 16
 $5\times4=20$, so $4\times4=16$.
 
-::sa
+::sa TH
 Find the missing number: $\dfrac{15}{20}=\dfrac{?}{4}$.
 ::key 3
 $20\div5=4$, so $15\div5=3$.

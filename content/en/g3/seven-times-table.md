@@ -329,7 +329,7 @@ b) The shelves still to fill: $10-4=6$ (shelves). The books already shelved: $7\
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $7\times4$ equals
 A. $11$.
 B. $28$.
@@ -338,7 +338,7 @@ D. $35$.
 ::key B
 $7\times4=7\times3+7=21+7=28$. Option A is the mistake of adding $7+4$.
 
-::mc
+::mc NB
 $7\times8$ equals
 A. $49$.
 B. $54$.
@@ -347,7 +347,7 @@ D. $15$.
 ::key C
 $7\times8=49+7=56$. Option B comes from remembering the product wrongly.
 
-::mc
+::mc NB
 $63\div7$ equals
 A. $8$.
 B. $9$.
@@ -356,7 +356,7 @@ D. $56$.
 ::key B
 Since $7\times9=63$, we have $63\div7=9$. Option A comes from remembering $7\times8=56$ by mistake.
 
-::mc
+::mc TH
 A week has $7$ days. How many days are there in $9$ weeks?
 A. $16$ days.
 B. $56$ days.
@@ -365,7 +365,7 @@ D. $70$ days.
 ::key C
 $9$ groups of $7$ days: $7\times9=63$. Option A is the mistake of adding $7+9$.
 
-::tf
+::tf TH NB NB NB
 Look at the multiplication $7\times7=49$.
 a) $7\times7=7\times6+7$.
 b) $49\div7=7$.
@@ -374,12 +374,12 @@ d) $7\times7$ is greater than $50$.
 ::key T T F F
 a) True: $42+7=49$. b) True: $7\times7=49$. c) False: $7\times8=56$, not $49$. d) False: $49<50$.
 
-::sa
+::sa NB
 Work out $7\times9$.
 ::key 63
 $7\times9=7\times10-7=70-7=63$.
 
-::sa
+::sa TH
 A trip lasts $56$ days. How many weeks is that?
 ::key 8
 $56\div7=8$ (weeks), because $7\times8=56$.

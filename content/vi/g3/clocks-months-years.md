@@ -373,7 +373,7 @@ Từ ngày $1$ tháng $3$ đến ngày $1$ tháng $4$ có $31$ ngày. Ta có $31
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kim ngắn của một đồng hồ ở giữa số $2$ và số $3$, kim dài chỉ số $8$. Đồng hồ chỉ
 A. $2$ giờ $8$ phút.
 B. $3$ giờ $40$ phút.
@@ -382,7 +382,7 @@ D. $2$ giờ $40$ phút.
 ::key D
 Kim ngắn đã qua số $2$ nên là $2$ giờ. Kim dài chỉ số $8$, ta có $8\times5=40$ phút. Phương án A đọc số $8$ thành $8$ phút, phương án B nhầm giờ, phương án C đổi vai hai kim.
 
-::mc
+::mc TH
 $8$ giờ kém $10$ phút là
 A. $7$ giờ $50$ phút.
 B. $7$ giờ $10$ phút.
@@ -391,7 +391,7 @@ D. $8$ giờ $10$ phút.
 ::key A
 Còn $10$ phút nữa mới tới $8$ giờ nên là $7$ giờ $50$ phút. Phương án D và C nhầm sang giờ sau $8$ giờ, phương án B lấy $10$ phút thay vì $60-10=50$ phút.
 
-::mc
+::mc NB
 Tháng nào sau đây có đúng $30$ ngày?
 A. Tháng $8$.
 B. Tháng $9$.
@@ -400,7 +400,7 @@ D. Tháng $12$.
 ::key B
 Tháng $9$ có $30$ ngày. Các tháng $8$, $10$ và $12$ đều có $31$ ngày.
 
-::mc
+::mc VD
 Một bộ phim chiếu từ $7$ giờ $40$ phút đến $9$ giờ $15$ phút. Bộ phim dài
 A. $2$ giờ $25$ phút.
 B. $1$ giờ $25$ phút.
@@ -409,7 +409,7 @@ D. $2$ giờ $55$ phút.
 ::key C
 Từ $7$ giờ $40$ phút đến $8$ giờ $40$ phút là $1$ giờ, đến $9$ giờ $15$ phút thêm $35$ phút. Phương án A trừ $40-15$ rồi lấy $9-7$, phương án B trừ sai số phút, phương án D cộng $40+15$.
 
-::tf
+::tf NB NB TH NB
 Em xét các câu sau.
 a) $1$ giờ $=60$ phút.
 b) Tháng $2$ luôn có $29$ ngày.
@@ -418,12 +418,12 @@ d) Tháng $4$ có $31$ ngày.
 ::key Đ S Đ S
 a) Đúng: $1$ giờ $=60$ phút. b) Sai: tháng $2$ có $28$ ngày, chỉ năm nhuận mới có $29$ ngày. c) Đúng: còn $60-45=15$ phút nữa tới $8$ giờ. d) Sai: tháng $4$ có $30$ ngày.
 
-::sa
+::sa VD
 Một năm không nhuận có bao nhiêu ngày trong ba tháng đầu (tháng $1$, tháng $2$, tháng $3$)?
 ::key 90
 Tháng $1$ có $31$ ngày, tháng $2$ có $28$ ngày, tháng $3$ có $31$ ngày. Ta có $31+28+31=90$ (ngày).
 
-::sa
+::sa TH
 $1$ giờ $20$ phút bằng bao nhiêu phút?
 ::key 80
 $1$ giờ $=60$ phút nên $1$ giờ $20$ phút $=60+20=80$ phút.

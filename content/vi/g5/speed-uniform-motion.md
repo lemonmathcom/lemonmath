@@ -312,7 +312,7 @@ Trong $1$ giờ $=3600$ giây, bạn chạy được $5\times3600=18\,000$ (m) $
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Một ô tô đi $160$ km hết $4$ giờ. Vận tốc của ô tô là
 A. $40$ km/giờ.
 B. $0{,}025$ km/giờ.
@@ -321,7 +321,7 @@ D. $164$ km/giờ.
 ::key A
 $v=160:4=40$ km/giờ. Phương án C nhân thay vì chia, B chia ngược ($4:160$), D cộng hai số.
 
-::mc
+::mc TH
 Một xe đi với vận tốc $45$ km/giờ trong $2$ giờ $30$ phút. Quãng đường xe đi được là
 A. $103{,}5$ km.
 B. $112{,}5$ km.
@@ -330,7 +330,7 @@ D. $18$ km.
 ::key B
 $2$ giờ $30$ phút $=2{,}5$ giờ nên $s=45\times2{,}5=112{,}5$ km. Phương án A coi $30$ phút là $0{,}3$ giờ, C bỏ $30$ phút, D là $45:2{,}5$.
 
-::mc
+::mc NB
 Quãng đường dài $36$ km, người đi xe đạp có vận tốc $12$ km/giờ. Thời gian đi là
 A. $432$ giờ.
 B. $48$ giờ.
@@ -339,7 +339,7 @@ D. $24$ giờ.
 ::key C
 $t=36:12=3$ giờ. Phương án A nhân, B cộng, D trừ hai số đã cho.
 
-::mc
+::mc VD
 Quãng đường AB dài $90$ km. Một xe khởi hành từ A lúc $7$ giờ $15$ phút với vận tốc $45$ km/giờ. Xe đến B lúc
 A. $7$ giờ $45$ phút.
 B. $7$ giờ $17$ phút.
@@ -348,7 +348,7 @@ D. $9$ giờ $15$ phút.
 ::key D
 $t=90:45=2$ giờ nên xe đến lúc $9$ giờ $15$ phút. Phương án A chia ngược ($45:90=0{,}5$ giờ), C coi $90$ km là $90$ phút, B cộng $2$ phút thay vì $2$ giờ.
 
-::tf
+::tf TH TH VD VD
 Một xe máy đi $90$ km hết $2$ giờ $30$ phút.
 a) Vận tốc của xe là $45$ km/giờ.
 b) Vận tốc của xe là $36$ km/giờ.
@@ -357,12 +357,12 @@ d) Với vận tốc đó, xe đi quãng đường $144$ km hết $4$ giờ.
 ::key S Đ Đ Đ
 a) Sai: $2$ giờ $30$ phút không phải $2$ giờ; $90:2=45$ là cách tính sai. b) Đúng: $90:2{,}5=36$. c) Đúng: $36\times1{,}5=54$. d) Đúng: $144:36=4$.
 
-::sa
+::sa TH
 Một ô tô đi $2{,}5$ giờ với vận tốc $48$ km/giờ. Quãng đường ô tô đi được là bao nhiêu ki-lô-mét?
 ::key 120
 $s=48\times2{,}5=120$ (km).
 
-::sa
+::sa TH
 Quãng đường dài $18$ km, người đi bộ có vận tốc $4$ km/giờ. Hỏi người đó đi hết bao nhiêu giờ?
 ::key 4,5
 $t=18:4=4{,}5$ (giờ).

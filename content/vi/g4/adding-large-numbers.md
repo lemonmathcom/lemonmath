@@ -343,7 +343,7 @@ $$987\,654-102\,345=885\,309.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $468\,957+376\,849$ là
 A. $734\,796$.
 B. $845\,806$.
@@ -352,7 +352,7 @@ D. $92\,108$.
 ::key B
 $7+9=16$, viết $6$ nhớ $1$; $5+4+1=10$, viết $0$ nhớ $1$; $9+8+1=18$, viết $8$ nhớ $1$; $8+6+1=15$, viết $5$ nhớ $1$; $6+7+1=14$, viết $4$ nhớ $1$; $4+3+1=8$. Phương án A quên nhớ ở mọi hàng, phương án C quên một lần nhớ, phương án D là phép trừ.
 
-::mc
+::mc TH
 Kết quả của $500\,000-237\,469$ là
 A. $337\,469$.
 B. $362\,531$.
@@ -361,7 +361,7 @@ D. $737\,469$.
 ::key C
 $10-9=1$ nhớ $1$; $10-7=3$ nhớ $1$; $10-5=5$ nhớ $1$; $10-8=2$ nhớ $1$; $10-4=6$ nhớ $1$; $5-3=2$. Phương án A lấy số lớn trừ số bé ở mỗi hàng, phương án B quên một lần nhớ, phương án D là phép cộng.
 
-::mc
+::mc TH
 Hai thành phố (số liệu giả định) có $645\,280$ người và $498\,760$ người. Cả hai thành phố có
 A. $1\,143\,040$ người.
 B. $144\,040$ người.
@@ -370,7 +370,7 @@ D. $1\,144\,040$ người.
 ::key D
 "Cả hai" là phép cộng: $645\,280+498\,760=1\,144\,040$. Phương án B quên nhớ ở hàng cuối cùng, phương án C là phép trừ, phương án A quên một lần nhớ.
 
-::mc
+::mc TH
 Số $x$ thỏa mãn $x+245\,780=1\,000\,000$ là
 A. $754\,220$.
 B. $754\,320$.
@@ -379,7 +379,7 @@ D. $245\,780$.
 ::key A
 $x=1\,000\,000-245\,780=754\,220$. Phương án C là phép cộng, phương án B quên một lần nhớ, phương án D là số đã cho.
 
-::tf
+::tf TH TH TH TH
 Em xét phép cộng $468\,957+376\,849$.
 a) Kết quả có bảy chữ số.
 b) $468\,957+376\,849=845\,806$.
@@ -388,12 +388,12 @@ d) Tổng này lớn hơn $900\,000$.
 ::key S Đ S S
 a) Sai: kết quả $845\,806$ có sáu chữ số. b) Đúng: kết quả tính ở ví dụ. c) Sai: $734\,796$ là kết quả khi quên nhớ. d) Sai: $845\,806<900\,000$.
 
-::sa
+::sa VD
 Chữ số hàng nghìn của hiệu $500\,000-237\,469$ là chữ số nào?
 ::key 2
 $500\,000-237\,469=262\,531$. Chữ số hàng nghìn của $262\,531$ là $2$.
 
-::sa
+::sa VD
 Chữ số hàng trăm nghìn của tổng $468\,957+376\,849$ là chữ số nào?
 ::key 8
 $468\,957+376\,849=845\,806$. Chữ số hàng trăm nghìn của $845\,806$ là $8$.

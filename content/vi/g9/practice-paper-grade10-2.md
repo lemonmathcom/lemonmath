@@ -287,7 +287,7 @@ Với $x>1$, tìm giá trị nhỏ nhất của $B=x+\dfrac4{x-1}$.
 ## Bài kiểm tra nhanh
 
 :::quiz
-::mc
+::mc NB
 Với $x=16$, giá trị của $P=\dfrac{\sqrt x}{\sqrt x+2}$ là
 A. $\dfrac43$.
 B. $\dfrac23$.
@@ -296,7 +296,7 @@ D. $\dfrac45$.
 ::key B
 $P=\dfrac4{4+2}=\dfrac23$. Đáp án A là $\dfrac{4}{4-1}$, C là $\dfrac{2}{4}$, D là $\dfrac{4}{4+1}$.
 
-::mc
+::mc VD
 Mảnh vườn hình chữ nhật có chu vi $70$ m và diện tích $300$ m$^2$. Chiều rộng là
 A. $10$ m.
 B. $12$ m.
@@ -305,7 +305,7 @@ D. $20$ m.
 ::key C
 Hai kích thước là nghiệm của $t^2-35t+300=0$, tức $15$ và $20$; chiều rộng là số nhỏ hơn. Đáp án D là chiều dài.
 
-::mc
+::mc TH
 Từ điểm $A$ cách tâm $O$ của đường tròn bán kính $3$ cm một khoảng $OA=5$ cm kẻ tiếp tuyến $AB$. Độ dài $AB$ là
 A. $3$ cm.
 B. $8$ cm.
@@ -314,7 +314,7 @@ D. $4$ cm.
 ::key D
 $AB=\sqrt{OA^2-OB^2}=\sqrt{25-9}=4$. Đáp án C là $\sqrt{25+9}$, B là $5+3$.
 
-::mc
+::mc TH
 Phương trình $x^2-6x+4=0$ có hai nghiệm $x_1$, $x_2$. Giá trị của $\dfrac1{x_1}+\dfrac1{x_2}$ là
 A. $\dfrac32$.
 B. $6$.
@@ -323,7 +323,7 @@ D. $\dfrac23$.
 ::key A
 $\dfrac1{x_1}+\dfrac1{x_2}=\dfrac{x_1+x_2}{x_1x_2}=\dfrac64=\dfrac32$. Đáp án D là nghịch đảo của kết quả đúng.
 
-::tf
+::tf TH VD TH TH
 Cho đường tròn $(O;3\text{ cm})$, $OA=5$ cm, $AB$, $AC$ là hai tiếp tuyến ($B$, $C$ là tiếp điểm), $H$ là giao điểm của $OA$ và $BC$. Các khẳng định sau đúng hay sai?
 a) $AB=5$ cm.
 b) $BC=2{,}4$ cm.
@@ -332,12 +332,12 @@ d) $AH\cdot AO=AB^2$.
 ::key S S S Đ
 a) Sai: $AB=4$ cm. b) Sai: $BH=2{,}4$ nên $BC=4{,}8$ cm. c) Sai: $OH=\dfrac95=1{,}8$ cm. d) Đúng: $AH=3{,}2$ và $AH\cdot AO=3{,}2\cdot5=16=4^2$.
 
-::sa
+::sa VD
 Tìm $x$ để $P=\dfrac{\sqrt x}{\sqrt x+2}=\dfrac13$.
 ::key 1
 $3\sqrt x=\sqrt x+2$ nên $\sqrt x=1$, $x=1$.
 
-::sa
+::sa VD
 Cho phương trình $x^2-6x+4=0$ có hai nghiệm $x_1$, $x_2$. Tính $x_1^2+x_2^2$.
 ::key 28
 $x_1^2+x_2^2=6^2-2\cdot4=28$.

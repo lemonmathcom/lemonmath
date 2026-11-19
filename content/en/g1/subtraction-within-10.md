@@ -262,7 +262,7 @@ a) $4$ is less than $6$, so take away: $6-2=4$. b) $8$ is more than $6$, so add:
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $8-3$ equals
 A. $4$.
 B. $6$.
@@ -271,7 +271,7 @@ D. $11$.
 ::key C
 Count back $3$ numbers from $8$: seven, six, five. Option D is $8+3$, an addition by mistake.
 
-::mc
+::mc NB
 $9-0$ equals
 A. $0$.
 B. $10$.
@@ -280,7 +280,7 @@ D. $9$.
 ::key D
 Taking away $0$ does not change the number.
 
-::mc
+::mc TH
 Which subtraction equals $4$?
 A. $6-2$.
 B. $7-2$.
@@ -289,7 +289,7 @@ D. $8-3$.
 ::key A
 $6-2=4$. The others equal $5$, $3$ and $5$.
 
-::mc
+::mc TH
 There are $10$ birds and $3$ fly away. How many are left?
 A. $13$ birds.
 B. $7$ birds.
@@ -298,7 +298,7 @@ D. $3$ birds.
 ::key B
 "Fly away" means take away: $10-3=7$. Option A is $10+3$.
 
-::tf
+::tf NB TH TH TH
 Look at the subtraction $6-4$.
 a) $6-4=2$.
 b) $4-6=2$.
@@ -307,12 +307,12 @@ d) $2+4=6$.
 ::key T F F T
 a) True. b) False: you cannot take $6$ away from $4$. c) False: $10$ is $6+4$. d) True: it checks that $6-4=2$.
 
-::sa
+::sa TH
 Work out $7-4$.
 ::key 3
 Count back $4$ numbers from $7$: six, five, four, three.
 
-::sa
+::sa TH
 Work out $10-10$.
 ::key 0
 Take away the whole group and nothing is left.

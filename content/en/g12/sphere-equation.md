@@ -387,7 +387,7 @@ $$r=\sqrt{40.96-5.12^2}=\sqrt{14.7456}=3.84.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 In the system $Oxyz$, the sphere $(x+1)^2+(y-2)^2+z^2=4$ has centre and radius
 A. $I(1, -2, 0)$, $R=2$.
 B. $I(-1, 2, 0)$, $R=2$.
@@ -396,7 +396,7 @@ D. $I(1, -2, 0)$, $R=4$.
 ::key B
 $x+1=x-(-1)$, so $a=-1$; $R^2=4$, so $R=2$. Option A has the wrong signs for the centre, and C and D take $R$ to be $R^2$.
 
-::mc
+::mc TH
 The radius of the sphere $x^2+y^2+z^2-2x+4y-6z+5=0$ is
 A. $9$.
 B. $\sqrt{19}$.
@@ -405,7 +405,7 @@ D. $\sqrt{14}$.
 ::key C
 $a=1$, $b=-2$, $c=3$, $d=5$: $R^2=1+4+9-5=9$, $R=3$. Option A forgets the square root, B adds $d$ instead of subtracting it, and D forgets $d$.
 
-::mc
+::mc TH
 Which of these is the equation of a sphere?
 A. $x^2+y^2+z^2-2x+4y+6=0$.
 B. $x^2+y^2+z^2-4x+2z+1=0$.
@@ -414,7 +414,7 @@ D. $x^2+y^2-z^2+2x=0$.
 ::key B
 B has $a^2+b^2+c^2-d=4+0+1-1=4>0$. A has $1+4-6<0$; in C and D the coefficients of $x^2$, $y^2$, $z^2$ are not equal.
 
-::mc
+::mc VD
 The sphere with centre $I(1, 0, -2)$ that touches the plane $(P): 2x-y+2z+8=0$ has equation
 A. $(x-1)^2+y^2+(z+2)^2=4$.
 B. $(x-1)^2+y^2+(z+2)^2=2$.
@@ -423,7 +423,7 @@ D. $(x-1)^2+y^2+(z+2)^2=36$.
 ::key A
 $R=d(I, (P))=\dfrac{|2-0-4+8|}{3}=2$, so $R^2=4$. Option B forgets to square, C has the wrong signs for the centre, and D forgets to divide by $3$.
 
-::tf
+::tf TH TH TH VD
 Let $(S): x^2+y^2+z^2-2x-4y+4z=0$.
 a) $(S)$ has centre $I(1, 2, -2)$.
 b) $(S)$ has radius $9$.
@@ -432,12 +432,12 @@ d) The plane $(P): x+2y-2z-18=0$ touches $(S)$.
 ::key T F T T
 a) True: $a=1$, $b=2$, $c=-2$. b) False: $R^2=1+4+4-0=9$, $R=3$. c) True: $d=0$, so $O$ satisfies the equation. d) True: $d(I, (P))=\dfrac{|1+4+4-18|}{3}=3=R$.
 
-::sa
+::sa TH
 What is the radius of the sphere with diameter $AB$, where $A(1, 2, 3)$ and $B(3, -2, -1)$?
 ::key 3
 $AB=\sqrt{4+16+16}=6$, so $R=3$. A common slip is to take $R=AB=6$.
 
-::sa
+::sa VD
 The plane $z=1$ cuts the sphere $(x-1)^2+(y+2)^2+(z-4)^2=25$ in a circle. Find the area of the disc bounded by that circle (to 1 decimal place).
 ::key 50.3
 $h=|1-4|=3$, $r=\sqrt{25-9}=4$, and the area is $16\pi\approx50.27$, which rounds to $50.3$.

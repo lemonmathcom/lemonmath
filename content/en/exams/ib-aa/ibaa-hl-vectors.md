@@ -182,7 +182,7 @@ $\begin{pmatrix}1-t\\2-t\\3-t\end{pmatrix}\cdot\begin{pmatrix}1\\1\\1\end{pmatri
 :::
 
 :::quiz
-::mc
+::mc TH
 What is the magnitude of $\begin{pmatrix}2\\-1\\2\end{pmatrix}$?
 A. $\sqrt5$
 B. $9$
@@ -191,7 +191,7 @@ D. $5$
 ::key C
 $\sqrt{4+1+4}=3$.
 
-::mc
+::mc TH
 What is $\begin{pmatrix}1\\2\\3\end{pmatrix}\cdot\begin{pmatrix}4\\-1\\0\end{pmatrix}$?
 A. $2$
 B. $6$
@@ -200,7 +200,7 @@ D. $4$
 ::key A
 $4-2+0=2$.
 
-::mc
+::mc TH
 Which is a direction vector of the line through $(1,1,1)$ and $(3,0,5)$?
 A. $\begin{pmatrix}4\\1\\6\end{pmatrix}$
 B. $\begin{pmatrix}3\\0\\5\end{pmatrix}$
@@ -209,7 +209,7 @@ D. $\begin{pmatrix}2\\-1\\4\end{pmatrix}$
 ::key D
 Subtract the position vectors.
 
-::mc
+::mc NB
 What is a normal vector of the plane $3x-2y+z=7$?
 A. $\begin{pmatrix}3\\-2\\7\end{pmatrix}$
 B. $\begin{pmatrix}3\\-2\\1\end{pmatrix}$
@@ -218,7 +218,7 @@ D. $\begin{pmatrix}7\\0\\0\end{pmatrix}$
 ::key B
 The coefficients of $x$, $y$, $z$.
 
-::tf
+::tf TH TH TH TH
 Let $\boldsymbol a=\begin{pmatrix}1\\0\\0\end{pmatrix}$ and $\boldsymbol b=\begin{pmatrix}0\\1\\0\end{pmatrix}$.
 a) $\boldsymbol a\cdot\boldsymbol b=0$.
 b) $\boldsymbol a\times\boldsymbol b=\begin{pmatrix}0\\0\\1\end{pmatrix}$.
@@ -227,12 +227,12 @@ d) $\boldsymbol b\times\boldsymbol a=\begin{pmatrix}0\\0\\1\end{pmatrix}$.
 ::key T T T F
 a) True. b) True. c) True. d) False: $\boldsymbol b\times\boldsymbol a=-\boldsymbol a\times\boldsymbol b$.
 
-::sa
+::sa TH
 Find the area of the parallelogram spanned by $\begin{pmatrix}3\\0\\0\end{pmatrix}$ and $\begin{pmatrix}0\\4\\0\end{pmatrix}$.
 ::key 12
 The vectors are perpendicular, so the area is $3\cdot4$.
 
-::sa
+::sa TH
 Find $k$ such that $\begin{pmatrix}2\\k\\1\end{pmatrix}$ is perpendicular to $\begin{pmatrix}1\\1\\-4\end{pmatrix}$.
 ::key 2
 $2+k-4=0$.

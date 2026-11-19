@@ -393,7 +393,7 @@ b) The angle $\angle BAC$ is obtuse, so the angle between the lines is $180^\cir
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The relative position of the lines $x-2y+1=0$ and $-2x+4y-2=0$ is
 A. they intersect.
 B. they are parallel.
@@ -402,7 +402,7 @@ D. they are perpendicular.
 ::key C
 $\dfrac{1}{-2}=\dfrac{-2}{4}=\dfrac{1}{-2}$: all three ratios are equal, so the equations are proportional and the lines coincide. Choosing B means forgetting to compare the constant terms.
 
-::mc
+::mc TH
 The distance from the point $M(1, -2)$ to the line $3x-4y+4=0$ is
 A. $3$.
 B. $15$.
@@ -411,7 +411,7 @@ D. $\dfrac{11}{5}$.
 ::key A
 $d=\dfrac{|3\cdot1-4\cdot(-2)+4|}{\sqrt{3^2+4^2}}=\dfrac{15}{5}=3$. Option B forgets to divide by $5$; C substitutes $y=2$ by mistake; D leaves out the constant term $4$.
 
-::mc
+::mc TH
 The angle between the lines $x-2=0$ and $-x+y+3=0$ is
 A. $135^\circ$.
 B. $45^\circ$.
@@ -420,7 +420,7 @@ D. $30^\circ$.
 ::key B
 $\vec{n}_1=(1, 0)$, $\vec{n}_2=(-1, 1)$: $\cos\varphi=\dfrac{|-1|}{1\cdot\sqrt2}=\dfrac{1}{\sqrt2}$, so $\varphi=45^\circ$. Dropping the absolute value gives $135^\circ$, but the angle between two lines is never more than $90^\circ$.
 
-::mc
+::mc TH
 Which line is perpendicular to the line $2x+3y-1=0$?
 A. $2x+3y+5=0$.
 B. $3x+2y=0$.
@@ -429,7 +429,7 @@ D. $3x-2y+5=0$.
 ::key D
 Two lines are perpendicular when $a_1a_2+b_1b_2=0$: $2\cdot3+3\cdot(-2)=0$. Option A is parallel; B swaps the coefficients but forgets to change a sign ($6+6\ne0$).
 
-::tf
+::tf TH VD TH TH
 Consider the lines $d_1: x+2y-4=0$, $d_2: 2x-y-3=0$ and the point $A(3, 4)$.
 a) $d_1$ is perpendicular to $d_2$.
 b) $d_1$ and $d_2$ meet at the point $(1, 2)$.
@@ -438,12 +438,12 @@ d) The distance from $A$ to $d_2$ is $\dfrac{\sqrt5}{5}$.
 ::key T F F T
 a) True: $1\cdot2+2\cdot(-1)=0$. b) False: $1+4-4=1\ne0$, so $(1, 2)$ is not on $d_1$ (the intersection point is $(2, 1)$). c) False: $d=\dfrac{|3+8-4|}{\sqrt5}=\dfrac{7}{\sqrt5}$; $7$ is what you get if you forget to divide by $\sqrt5$. d) True: $d=\dfrac{|6-4-3|}{\sqrt5}=\dfrac{1}{\sqrt5}=\dfrac{\sqrt5}{5}$.
 
-::sa
+::sa VD
 Find the distance between the parallel lines $3x+4y-5=0$ and $6x+8y+15=0$.
 ::key 2.5
 Divide the second equation by $2$: $3x+4y+7.5=0$. Then $d=\dfrac{|-5-7.5|}{\sqrt{3^2+4^2}}=\dfrac{12.5}{5}=2.5$.
 
-::sa
+::sa VD
 Triangle $ABC$ has $A(1, 2)$, $B(4, -2)$, $C(5, 3)$. Find the area of triangle $ABC$.
 ::key 9.5
 $\overrightarrow{AB}=(3, -4)$, so $AB=5$ and the line $AB$ has normal vector $(4, 3)$: $4x+3y-10=0$. The distance from $C$ to $AB$ is $\dfrac{|20+9-10|}{5}=\dfrac{19}{5}$, so $S=\dfrac12\cdot5\cdot\dfrac{19}{5}=9.5$.

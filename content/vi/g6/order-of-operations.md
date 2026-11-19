@@ -273,7 +273,7 @@ a) $(4\times4+4):4=(16+4):4=20:4=5$. b) $4+4-4:4=8-1=7$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Giá trị của $12+3\times7$ là
 A. $105$.
 B. $36$.
@@ -282,7 +282,7 @@ D. $33$.
 ::key D
 Nhân trước: $3\times7=21$, rồi $12+21=33$. Phương án A cộng trước, C cộng $12+3+7$, B lấy $12\times3$.
 
-::mc
+::mc TH
 Giá trị của $48-12+8$ là
 A. $44$.
 B. $28$.
@@ -291,7 +291,7 @@ D. $68$.
 ::key A
 Tính từ trái sang phải: $36+8=44$. Phương án B cộng $12+8$ trước, C là $48+12-8$, D là $48+12+8$.
 
-::mc
+::mc TH
 Giá trị của $2\times3^2$ là
 A. $36$.
 B. $18$.
@@ -300,7 +300,7 @@ D. $11$.
 ::key B
 Luỹ thừa trước: $3^2=9$, rồi $2\times9=18$. Phương án A tính $(2\times3)^2$, C là $2\times3\times2$, D là $2+9$.
 
-::mc
+::mc VD
 Giá trị của $36:(2+4)\times3$ là
 A. $2$.
 B. $30$.
@@ -309,7 +309,7 @@ D. $6$.
 ::key C
 Ngoặc trước: $36:6\times3=6\times3=18$. Phương án A là $36:(6\times3)$, B bỏ qua ngoặc, D quên nhân $3$.
 
-::tf
+::tf TH TH TH TH
 Về thứ tự thực hiện các phép tính.
 a) $12+3\times7=33$.
 b) $2\times3^2=36$.
@@ -318,12 +318,12 @@ d) $48-12+8=28$.
 ::key Đ S Đ S
 a) Đúng. b) Sai: $2\times9=18$. c) Đúng: $20-10=10$. d) Sai: từ trái sang phải được $44$.
 
-::sa
+::sa VD
 Tính $3\times2^3+5^2$.
 ::key 49
 $3\times8+25=24+25=49$.
 
-::sa
+::sa VD
 Tính $2\times[30-(4+6)]$.
 ::key 40
 $2\times[30-10]=2\times20=40$.

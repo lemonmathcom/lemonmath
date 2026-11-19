@@ -264,7 +264,7 @@ $1$ nghìn có $10$ trăm. Mỗi trăm có $10$ chục. Vậy $10$ trăm có $10
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 $10$ đơn vị bằng
 A. $1$ chục.
 B. $10$ chục.
@@ -273,7 +273,7 @@ D. $100$ chục.
 ::key A
 $10$ đơn vị gói lại được $1$ chục. Phương án C nhầm với $10$ chục.
 
-::mc
+::mc NB
 $1$ trăm có bao nhiêu chục?
 A. $1$ chục.
 B. $10$ chục.
@@ -282,7 +282,7 @@ D. $1000$ chục.
 ::key B
 $1$ trăm gồm $10$ chục. Phương án C nhầm $1$ trăm với $100$ đơn vị chục.
 
-::mc
+::mc NB
 $10$ trăm bằng
 A. $1$ nghìn.
 B. $100$ trăm.
@@ -291,7 +291,7 @@ D. $10$ chục.
 ::key A
 Mười nhóm trăm gộp lại thành $1$ nghìn. Phương án D là lỗi nhầm trăm với chục.
 
-::mc
+::mc TH
 Mỗi hộp có $10$ chiếc bút. Có $10$ hộp như vậy. Có tất cả bao nhiêu chiếc bút?
 A. $10$ chiếc.
 B. $20$ chiếc.
@@ -300,7 +300,7 @@ D. $1000$ chiếc.
 ::key C
 $10$ hộp, mỗi hộp $1$ chục bút, là $10$ chục bút, tức $1$ trăm bút. Phương án B là lấy $10+10$.
 
-::tf
+::tf NB NB NB NB
 Em xét các phép đổi.
 a) $1$ chục có $10$ đơn vị.
 b) $1$ trăm có $10$ chục.
@@ -309,12 +309,12 @@ d) $1$ nghìn có $10$ trăm.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng. c) Sai: $10$ trăm là $1$ nghìn. d) Đúng.
 
-::sa
+::sa TH
 $2$ chục bằng bao nhiêu đơn vị?
 ::key 20
 $10+10=20$ (đơn vị).
 
-::sa
+::sa NB
 $1$ nghìn bằng bao nhiêu trăm?
 ::key 10
 $1$ nghìn gồm $10$ trăm.

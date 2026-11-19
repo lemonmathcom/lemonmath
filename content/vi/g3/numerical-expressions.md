@@ -248,7 +248,7 @@ $$30-(10+5)=30-15=15.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Giá trị của biểu thức $20+3\times 4$ là
 A. $32$.
 B. $92$.
@@ -257,7 +257,7 @@ D. $23$.
 ::key A
 Nhân trước: $3\times 4=12$, rồi $20+12=32$. A cộng trước rồi nhân, C chỉ tính $3\times 4$, D chỉ tính $20+3$.
 
-::mc
+::mc TH
 Giá trị của biểu thức $72:8\times 3$ là
 A. $3$.
 B. $27$.
@@ -266,7 +266,7 @@ D. $216$.
 ::key B
 Tính từ trái sang phải: $72:8=9$, rồi $9\times 3=27$. B nhân trước, C dừng ở phép chia, D lấy $72\times 3$.
 
-::mc
+::mc TH
 Giá trị của biểu thức $(50-18)\times 2$ là
 A. $14$.
 B. $32$.
@@ -275,7 +275,7 @@ D. $68$.
 ::key C
 Tính trong ngoặc trước: $50-18=32$, rồi $32\times 2=64$. A nhân trước, B dừng ở ngoặc, D tính nhầm.
 
-::mc
+::mc TH
 Lan có $20$ viên bi và mua thêm $3$ túi bi, mỗi túi $4$ viên. Biểu thức nào cho số bi Lan có tất cả?
 A. $(20+3)\times 4$.
 B. $20+3+4$.
@@ -284,7 +284,7 @@ D. $20+3\times 4$.
 ::key D
 Số bi mua thêm là $3\times 4$, rồi cộng với $20$. A cộng $20$ với số túi, B và C không đúng với đề.
 
-::tf
+::tf NB NB TH TH
 Em xét biểu thức $30+6\times 5$.
 a) Phải tính $30+6$ trước.
 b) Phải tính $6\times 5$ trước.
@@ -293,12 +293,12 @@ d) Biểu thức $(30+6)\times 5$ có giá trị là $180$.
 ::key S Đ Đ Đ
 a) Sai: phép nhân tính trước. b) Đúng: $6\times 5=30$. c) Đúng: $30+30=60$. d) Đúng: $36\times 5=180$.
 
-::sa
+::sa TH
 Tính giá trị của biểu thức $15+4\times 6$.
 ::key 39
 $4\times 6=24$, rồi $15+24=39$.
 
-::sa
+::sa TH
 Tính giá trị của biểu thức $(24+36):6$.
 ::key 10
 $24+36=60$, rồi $60:6=10$.

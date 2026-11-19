@@ -277,7 +277,7 @@ $S'(r)=0$ cho $r^3=\dfrac{250}{\pi}$, nên $r\approx4{,}30$ xăng-ti-mét. $S''(
 :::
 
 :::quiz
-::mc
+::mc TH
 Nếu $f'(x)=x(x-4)$ thì $f$ nghịch biến khi
 A. $x<0$ hoặc $x>4$
 B. $x>4$
@@ -286,7 +286,7 @@ D. $x<0$
 ::key C
 $f'<0$ giữa hai nghiệm $0$ và $4$.
 
-::mc
+::mc TH
 Với $f(x)=\sqrt x$ trên $[0,4]$, giá trị $c$ mà định lí giá trị trung bình bảo đảm là
 A. $1$
 B. $2$
@@ -295,7 +295,7 @@ D. $4$
 ::key A
 Tốc độ trung bình là $\dfrac{2-0}{4}=\dfrac12$, và $\dfrac{1}{2\sqrt c}=\dfrac12$ cho $c=1$.
 
-::mc
+::mc TH
 Nếu $f''(x)=(x+1)(x-3)^2$ thì đồ thị của $f$ có điểm uốn tại
 A. chỉ $x=3$
 B. $x=-1$ và $x=3$
@@ -304,7 +304,7 @@ D. chỉ $x=-1$
 ::key D
 $f''$ chỉ đổi dấu tại $x=-1$; thừa số bình phương giữ nguyên dấu tại $x=3$.
 
-::mc
+::mc VD
 Giá trị lớn nhất của $f(x)=x^2-2x$ trên $[0,3]$ là
 A. $0$
 B. $3$
@@ -313,7 +313,7 @@ D. $9$
 ::key B
 Các ứng viên: $f(0)=0$, $f(1)=-1$, $f(3)=3$.
 
-::tf
+::tf TH TH TH VD
 Cho $f(x)=x^3-3x$.
 a) Các điểm tới hạn của $f$ là $x=-1$ và $x=1$.
 b) $f$ đạt cực đại tại $x=1$.
@@ -322,12 +322,12 @@ d) Giá trị lớn nhất của $f$ trên $[0,2]$ là $2$.
 ::key Đ S Đ Đ
 a) Đúng: $f'=3x^2-3$. b) Sai: $f''(1)=6>0$, là cực tiểu. c) Đúng: $f''=6x<0$. d) Đúng: $f(0)=0$, $f(1)=-2$, $f(2)=2$.
 
-::sa
+::sa VD
 Hai số dương có tổng bằng $20$. Tích của chúng lớn nhất bằng bao nhiêu?
 ::key 100
 $P=x(20-x)$ lớn nhất khi $x=10$: $P=100$.
 
-::sa
+::sa VD
 Hàm số $f(x)=x^3-6x^2+9x+1$ đạt cực tiểu tại $x$ bằng bao nhiêu?
 ::key 3
 $f'=3(x-1)(x-3)$ đổi dấu từ âm sang dương tại $x=3$.

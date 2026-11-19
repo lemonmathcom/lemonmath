@@ -491,7 +491,7 @@ So $\log_23$ is irrational.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The value of $\log_{1/2}8$ is
 A. $-\dfrac13$.
 B. $3$.
@@ -500,7 +500,7 @@ D. $\dfrac13$.
 ::key C
 Since $\left(\dfrac12\right)^{-3}=8$, $\log_{1/2}8=-3$. Option B ignores that the base is less than $1$; C and D take the reciprocal of the result.
 
-::mc
+::mc TH
 The domain of the function $y=\log(x^2-1)$ is
 A. $(1, +\infty)$.
 B. $(-1, 1)$.
@@ -509,7 +509,7 @@ D. $(-\infty, -1)\cup(1, +\infty)$.
 ::key D
 We need $x^2-1>0$, that is $x<-1$ or $x>1$. Option A forgets the negative half, B has the inequality reversed, and C treats the condition like a denominator being non-zero.
 
-::mc
+::mc TH
 The value of $\log_62+\log_618$ is
 A. $2$.
 B. $\log_620$.
@@ -518,7 +518,7 @@ D. $6$.
 ::key A
 We have $\log_62+\log_618=\log_6(2\cdot18)=\log_636=2$. Option B adds the arguments, C divides instead of multiplying, and D stops at $36$ without taking the logarithm.
 
-::mc
+::mc VD
 Let $a=\log_23$. Then $\log_618$ equals
 A. $\dfrac{2+a}{1+a}$.
 B. $\dfrac{1+2a}{1+a}$.
@@ -527,7 +527,7 @@ D. $\dfrac{2a}{1+a}$.
 ::key B
 $\log_618=\dfrac{\log_218}{\log_26}=\dfrac{1+2\log_23}{1+\log_23}=\dfrac{1+2a}{1+a}$. Option A is $\log_612$, C swaps numerator and denominator, and D only computes $\log_29$ in the numerator.
 
-::tf
+::tf NB NB TH TH
 The pH of a solution is given by $\mathrm{pH}=-\log[\mathrm{H}^+]$. Solution A has $[\mathrm{H}^+]=10^{-3}$ mol/litre and solution B has $[\mathrm{H}^+]=10^{-5}$ mol/litre. Decide whether each statement is true or false:
 a) The pH of solution A is $-3$.
 b) The pH of solution B is $5$.
@@ -536,12 +536,12 @@ d) The pH of solution B is greater than the pH of solution A.
 ::key F T T T
 a) False: $\mathrm{pH}=-\log10^{-3}=3$; the minus sign in the formula cancels the negative exponent. b) True: $-\log10^{-5}=5$. c) True: $\dfrac{10^{-3}}{10^{-5}}=100$. d) True: $5>3$.
 
-::sa
+::sa VD
 Suppose the interest rate is $6\%$ a year, compounded annually. After how many years does the amount invested triple (give the answer to one decimal place)?
 ::key 18.9
 We need $1.06^t=3$, so $t=\dfrac{\ln3}{\ln1.06}\approx\dfrac{1.0986}{0.0583}\approx18.9$ (years).
 
-::sa
+::sa TH
 The sound level is $L=10\log\dfrac{I}{I_0}$ (dB) with $I_0=10^{-12}$ W/m². A sound has $I=3\cdot10^{-6}$ W/m². Find $L$ (give the answer to one decimal place).
 ::key 64.8
 $\dfrac{I}{I_0}=3\cdot10^6$, so $L=10(\log3+6)\approx10\cdot6.4771\approx64.8$ (dB).

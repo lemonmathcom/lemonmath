@@ -286,7 +286,7 @@ $$14-6=8.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Ha has 15 marbles and Nam has 9 marbles. Ha has
 A. $24$ more marbles.
 B. $7$ more marbles.
@@ -295,7 +295,7 @@ D. $5$ more marbles.
 ::key C
 $15-9=6$. Option A is an addition, and options B and D are mistakes in subtracting through 10.
 
-::mc
+::mc TH
 The number 17 is
 A. $26$ more than 9.
 B. $7$ more than 9.
@@ -304,7 +304,7 @@ D. $8$ more than 9.
 ::key D
 $17-9=8$. Option A is an addition, and option C copies the smaller number.
 
-::mc
+::mc TH
 The playground has 12 flame trees and 7 banyan trees. There are
 A. $5$ fewer banyan trees.
 B. $19$ fewer banyan trees.
@@ -313,7 +313,7 @@ D. $6$ fewer banyan trees.
 ::key A
 $12-7=5$. Option B is an addition, and option C copies the number of banyan trees.
 
-::mc
+::mc TH
 On a number line, the marks labelled 6 and 14 are
 A. $20$ marks apart.
 B. $8$ marks apart.
@@ -322,7 +322,7 @@ D. $6$ marks apart.
 ::key B
 $14-6=8$. Option A is an addition, and option D copies the smaller number.
 
-::tf
+::tf NB TH TH TH
 Lan has 14 flowers and Mai has 8 flowers.
 a) Mai has more flowers than Lan.
 b) Lan has 6 more flowers than Mai.
@@ -331,12 +331,12 @@ d) If Mai gets 6 more flowers, she will have the same number as Lan.
 ::key F T T T
 a) False: $14>8$, so Lan has more flowers. b) True: $14-8=6$. c) True: Mai has 6 fewer too. d) True: $8+6=14$.
 
-::sa
+::sa VD
 On the first day a shop sells 48 cakes and on the second day it sells 35 cakes. How many more cakes does it sell on the first day than on the second day?
 ::key 13
 $48-35=13$ (cakes).
 
-::sa
+::sa TH
 On a number line, how many marks apart are the marks labelled 8 and 19?
 ::key 11
 $19-8=11$.

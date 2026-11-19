@@ -319,7 +319,7 @@ Check: $262+138=400$. Correct.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $463-281$ equals
 A. $282$.
 B. $182$.
@@ -328,7 +328,7 @@ D. $744$.
 ::key B
 Tens: $6$ cannot take away $8$, exchange $1$ hundred to get $16-8=8$ and $3$ hundreds are left; $3-2=1$, so the difference is $182$. A forgets to take $1$ from the hundreds, C subtracts the smaller digit from the larger in each column, D is an addition.
 
-::mc
+::mc TH
 $534-278$ equals
 A. $344$.
 B. $266$.
@@ -337,7 +337,7 @@ D. $356$.
 ::key C
 $14-8=6$ and $2$ tens are left; $12-7=5$ and $4$ hundreds are left; $4-2=2$, so the difference is $256$. A subtracts the smaller digit from the larger in each column, B forgets to take $1$ from the tens, D forgets to take $1$ from the hundreds.
 
-::mc
+::mc VD
 A farm had $372$ chickens and sold $145$. How many chickens are left?
 A. $237$ chickens.
 B. $233$ chickens.
@@ -346,7 +346,7 @@ D. $227$ chickens.
 ::key D
 "Are left" means taking away: $372-145=227$. B subtracts the smaller digit from the larger in each column, C is an addition, A forgets to take $1$ from the tens.
 
-::mc
+::mc TH
 Which of these subtractions needs regrouping?
 A. $543-218$.
 B. $696-432$.
@@ -355,7 +355,7 @@ D. $879-456$.
 ::key A
 In $543-218$ the ones column has $3<8$, so we must exchange. In the other three, every digit of the top number is at least the digit under it.
 
-::tf
+::tf NB VD TH TH
 Look at the subtraction $623-358$.
 a) The minuend is $623$.
 b) The difference is $275$.
@@ -364,12 +364,12 @@ d) The difference is greater than the minuend.
 ::key T F T F
 a) True: the minuend is the number written before the minus sign. b) False: $13-8=5$, $11-5=6$, $5-3=2$, so the difference is $265$. c) True: the difference plus the subtrahend equals the minuend. d) False: the difference $265$ is less than $623$.
 
-::sa
+::sa VD
 Work out $812-567$.
 ::key 245
 $12-7=5$ and $0$ tens are left; $10-6=4$ and $7$ hundreds are left; $7-5=2$. So $812-567=245$.
 
-::sa
+::sa VD
 A shop has $540$ cartons of milk and has sold $285$ cartons. How many cartons of milk are left?
 ::key 255
 $540-285=255$ (cartons): $10-5=5$ and $3$ tens are left; $13-8=5$ and $4$ hundreds are left; $4-2=2$.

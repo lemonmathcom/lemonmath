@@ -278,7 +278,7 @@ Thử lại: $9\times 4=36$, rồi $36:2=18$. Đúng.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Gấp $8$ lên $6$ lần được
 A. $48$.
 B. $2$.
@@ -287,7 +287,7 @@ D. $86$.
 ::key A
 $8\times 6=48$. A cộng $8+6$, B trừ $8-6$, D ghép hai chữ số.
 
-::mc
+::mc NB
 Giảm $56$ đi $7$ lần được
 A. $63$.
 B. $8$.
@@ -296,7 +296,7 @@ D. $49$.
 ::key B
 $56:7=8$. A cộng, D trừ, C nhân.
 
-::mc
+::mc TH
 Một trại nuôi $7$ con vịt. Số gà gấp $5$ lần số vịt. Trại có bao nhiêu con gà?
 A. $2$ con gà.
 B. $12$ con gà.
@@ -305,7 +305,7 @@ D. $75$ con gà.
 ::key C
 "Gấp $5$ lần" là nhân: $7\times 5=35$. B cộng, A trừ, D ghép hai chữ số.
 
-::mc
+::mc TH
 Một tấm vải dài $42$ m. Tấm vải thứ hai có độ dài bằng tấm thứ nhất giảm đi $6$ lần. Tấm thứ hai dài
 A. $36$ m.
 B. $252$ m.
@@ -314,7 +314,7 @@ D. $7$ m.
 ::key D
 "Giảm đi $6$ lần" là chia: $42:6=7$ (m). A trừ, C cộng, B nhân.
 
-::tf
+::tf TH TH NB TH
 Em xét các phép tính với số $9$ và số $36$.
 a) Gấp $9$ lên $4$ lần được $13$.
 b) Giảm $36$ đi $4$ lần được $9$.
@@ -323,12 +323,12 @@ d) Gấp $9$ lên $4$ lần rồi giảm đi $4$ lần lại được $9$.
 ::key S Đ S Đ
 a) Sai: gấp lên là nhân, $9\times 4=36$. b) Đúng: $36:4=9$. c) Sai: giảm đi thì chia cho $4$. d) Đúng: $9\times 4=36$, rồi $36:4=9$.
 
-::sa
+::sa TH
 Gấp $13$ lên $5$ lần được bao nhiêu?
 ::key 65
 $13\times 5=65$.
 
-::sa
+::sa TH
 Chị Mai có $72$ bông hoa. Số hoa của Lan bằng số hoa của chị Mai giảm đi $9$ lần. Lan có bao nhiêu bông hoa?
 ::key 8
 $72:9=8$ (bông hoa).

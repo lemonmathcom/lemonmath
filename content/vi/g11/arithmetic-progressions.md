@@ -351,7 +351,7 @@ Ta có $\dfrac{1}{c+a}-\dfrac{1}{b+c}=\dfrac{b-a}{(c+a)(b+c)}$ và $\dfrac{1}{a+
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho cấp số cộng có $u_1=-3$ và $d=4$. Số hạng $u_6$ bằng
 A. $21$.
 B. $13$.
@@ -360,7 +360,7 @@ D. $17$.
 ::key D
 $u_6=-3+5\cdot4=17$. Phương án A dùng $6d$ thay vì $5d$, phương án B là $u_5$.
 
-::mc
+::mc TH
 Ba số $3$, $x$, $15$ theo thứ tự lập thành cấp số cộng khi $x$ bằng
 A. $9$.
 B. $7$.
@@ -369,7 +369,7 @@ D. $6$.
 ::key A
 $x=\dfrac{3+15}{2}=9$. Phương án C lấy tích $3\cdot15$.
 
-::mc
+::mc TH
 Cho cấp số cộng có $u_1=2$ và $d=3$. Tổng $20$ số hạng đầu bằng
 A. $1220$.
 B. $610$.
@@ -378,7 +378,7 @@ D. $590$.
 ::key B
 $u_{20}=2+19\cdot3=59$ và $S_{20}=\dfrac{20\cdot(2+59)}{2}=610$. Phương án A quên chia $2$, phương án C chỉ là $u_{20}$.
 
-::mc
+::mc TH
 Cấp số cộng $5, 8, 11, \dots, 98$ có bao nhiêu số hạng?
 A. $31$.
 B. $33$.
@@ -387,7 +387,7 @@ D. $93$.
 ::key C
 $\dfrac{98-5}{3}+1=32$. Phương án A quên cộng $1$ và đếm thiếu một số hạng, phương án D là $98-5$.
 
-::tf
+::tf TH TH VD TH
 Một khán đài có $12$ hàng ghế: hàng thứ nhất $30$ ghế, mỗi hàng sau nhiều hơn hàng trước $3$ ghế. Xét tính đúng sai của các mệnh đề sau:
 a) Số ghế các hàng lập thành một cấp số cộng có công sai $3$.
 b) Hàng thứ $12$ có $66$ ghế.
@@ -396,12 +396,12 @@ d) Hàng thứ $8$ có $51$ ghế.
 ::key Đ S S Đ
 a) Đúng. b) Sai: $u_{12}=30+11\cdot3=63$. c) Sai: $S_{12}=\dfrac{12\cdot(30+63)}{2}=558$. d) Đúng: $u_8=30+7\cdot3=51$.
 
-::sa
+::sa VD
 Tính tổng các số tự nhiên là bội của $5$ từ $1$ đến $100$.
 ::key 1050
 Các số $5, 10, \dots, 100$ có $20$ số hạng nên tổng là $\dfrac{20\cdot(5+100)}{2}=1050$.
 
-::sa
+::sa VD
 Cho cấp số cộng có $u_3=2$ và $u_7=14$. Tính $u_{10}$.
 ::key 23
 $4d=14-2=12$ nên $d=3$, và $u_{10}=u_7+3d=14+9=23$.

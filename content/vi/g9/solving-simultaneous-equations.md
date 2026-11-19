@@ -406,7 +406,7 @@ Vậy hệ phương trình đã cho có nghiệm duy nhất $(x; y)=(3; 2)$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Nghiệm của hệ $\begin{cases} x+y=5\\ x-y=3 \end{cases}$ là
 A. $(4; 1)$.
 B. $(1; 4)$.
@@ -415,7 +415,7 @@ D. $(8; -3)$.
 ::key A
 Cộng hai phương trình: $2x=8$, $x=4$, $y=1$. B đảo thứ tự; C chỉ thoả mãn phương trình đầu; D quên chia $2x=8$ cho $2$ (được $x=8$, rồi $y=5-8=-3$).
 
-::mc
+::mc TH
 Để khử ẩn $y$ trong hệ $\begin{cases} 2x+3y=7\\ 5x-2y=8 \end{cases}$, ta nên
 A. nhân phương trình thứ nhất với $2$, thứ hai với $3$, rồi trừ.
 B. nhân phương trình thứ nhất với $3$, thứ hai với $2$, rồi cộng.
@@ -424,7 +424,7 @@ D. nhân phương trình thứ nhất với $5$, thứ hai với $2$, rồi tr�
 ::key C
 Được $6y$ và $-6y$, đối nhau nên cộng: $19x=38$. A trừ nên $y$ không mất; D khử $x$ chứ không khử $y$.
 
-::mc
+::mc VD
 Hệ $\begin{cases} x-2y=3\\ -2x+4y=1 \end{cases}$
 A. có đúng một nghiệm.
 B. vô nghiệm.
@@ -433,7 +433,7 @@ D. có nghiệm $(3; 0)$.
 ::key B
 Thế $x=3+2y$: $-6-4y+4y=1\iff 0y=7$, vô nghiệm. $(3; 0)$ chỉ thoả mãn phương trình thứ nhất.
 
-::mc
+::mc VD
 Mua $2$ ổ bánh mì và $1$ hộp sữa hết $31$ nghìn đồng; mua $1$ ổ bánh mì và $2$ hộp sữa hết $26$ nghìn đồng. Giá một ổ bánh mì là
 A. $5$ nghìn đồng.
 B. $7$ nghìn đồng.
@@ -442,7 +442,7 @@ D. $12$ nghìn đồng.
 ::key D
 Cộng: $3(x+y)=57$, $x+y=19$; trừ: $x-y=5$; nên $x=12$, $y=7$. B là giá sữa, C là tổng, A là hiệu.
 
-::tf
+::tf TH TH TH VD
 Cho hệ $\begin{cases} 3x+y=7\\ x-y=1 \end{cases}$
 a) Cộng từng vế hai phương trình ta được $4x=8$.
 b) Hệ có nghiệm $(2; 1)$.
@@ -451,12 +451,12 @@ d) Nghiệm của hệ thoả mãn $x+y=3$.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng: $6+1=7$, $2-1=1$. c) Sai: $y=x-1$. d) Đúng: $2+1=3$.
 
-::sa
+::sa VD
 Giải hệ $\begin{cases} 2x+y=1\\ 3x-y=9 \end{cases}$ rồi tính $x+y$.
 ::key -1
 Cộng: $5x=10$, $x=2$, $y=1-4=-3$, nên $x+y=-1$.
 
-::sa
+::sa VD
 Đồ thị hàm số $y=ax+b$ đi qua $(1; 4)$ và $(3; 0)$. Tìm $b$.
 ::key 6
 $a+b=4$, $3a+b=0$; trừ: $2a=-4$, $a=-2$, $b=6$.

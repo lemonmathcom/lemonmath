@@ -334,7 +334,7 @@ Số lớn nhất: chữ số hàng chục nghìn là $5$, các chữ số còn 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số "ba mươi nghìn hai trăm" viết là
 A. $3\,200$.
 B. $30\,020$.
@@ -343,7 +343,7 @@ D. $30\,200$.
 ::key D
 "Ba mươi nghìn" là $30\,000$, "hai trăm" là $200$, nên số cần viết là $30\,200$. Phương án A thiếu một chữ số $0$, phương án B để $2$ ở hàng chục, phương án C để $2$ ở hàng nghìn.
 
-::mc
+::mc TH
 Số liền sau của $79\,999$ là
 A. $80\,000$.
 B. $79\,998$.
@@ -352,7 +352,7 @@ D. $100\,000$.
 ::key A
 $79\,999+1=80\,000$. Phương án B là số liền trước, phương án C quên đổi hàng nghìn, phương án D là số liền sau của $99\,999$.
 
-::mc
+::mc TH
 Trong các số sau, số lớn nhất là
 A. $56\,209$.
 B. $56\,290$.
@@ -361,7 +361,7 @@ D. $56\,092$.
 ::key B
 Bốn số đều bắt đầu bằng $56$. Hàng trăm: $2$, $2$, $0$, $0$, nên số lớn nhất là $56\,290$ hoặc $56\,209$. Hàng chục: $9>0$ nên $56\,290>56\,209$.
 
-::mc
+::mc TH
 Năm tờ $20\,000$ đồng có tất cả
 A. $10\,000$ đồng.
 B. $25\,000$ đồng.
@@ -370,7 +370,7 @@ D. $50\,000$ đồng.
 ::key C
 $5\times20\,000=100\,000$ (đồng). Phương án A lấy $5\times2$ và viết thiếu số $0$, phương án B cộng $5+20$ thay vì nhân, phương án D nhân với $10\,000$ thay vì $20\,000$.
 
-::tf
+::tf NB NB TH TH
 Em xét số $70\,508$.
 a) Chữ số $5$ ở hàng nghìn.
 b) Chữ số $7$ có giá trị là $70\,000$.
@@ -379,12 +379,12 @@ d) $70\,508$ lớn hơn $70\,058$.
 ::key S Đ S Đ
 a) Sai: chữ số $5$ ở hàng trăm. b) Đúng: chữ số $7$ ở hàng chục nghìn. c) Sai: $70\,000+5\,000+8=75\,008$; đúng là $70\,000+500+8$. d) Đúng: hai số cùng bốn chữ số đầu $70$ và hàng trăm $5>0$.
 
-::sa
+::sa NB
 Số $100\,000$ có bao nhiêu chữ số $0$?
 ::key 5
 $100\,000$ gồm chữ số $1$ và năm chữ số $0$.
 
-::sa
+::sa VD
 Tính tổng các chữ số của số liền trước của $40\,000$.
 ::key 39
 Số liền trước của $40\,000$ là $39\,999$. Tổng các chữ số là $3+9+9+9+9=39$.

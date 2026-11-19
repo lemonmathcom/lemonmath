@@ -367,7 +367,7 @@ So the formula always gives a Pythagorean triple.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A right-angled triangle has hypotenuse $13$ and one leg $5$. The other leg is
 A. $8$.
 B. $12$.
@@ -376,7 +376,7 @@ D. $\sqrt{194}$.
 ::key B
 $13^2-5^2=169-25=144$, so the other leg is $12$. A takes $13-5$, C takes $13+5$, D adds the squares instead of subtracting.
 
-::mc
+::mc TH
 Which set of three sides forms a right-angled triangle?
 A. $4$, $5$, $6$.
 B. $5$, $6$, $7$.
@@ -385,7 +385,7 @@ D. $6$, $7$, $8$.
 ::key C
 $6^2+8^2=100=10^2$. Sets A, B and D do not satisfy $a^2+b^2=c^2$.
 
-::mc
+::mc TH
 The diagonal of a rectangle with sides $12$ and $5$ is
 A. $60$.
 B. $17$.
@@ -394,7 +394,7 @@ D. $13$.
 ::key D
 $\sqrt{12^2+5^2}=\sqrt{169}=13$. B adds the two sides, C subtracts them, A multiplies them.
 
-::mc
+::mc TH
 The diagonal of a square with side $4$ is
 A. $4\sqrt2$.
 B. $4$.
@@ -403,7 +403,7 @@ D. $2\sqrt2$.
 ::key A
 $\sqrt{4^2+4^2}=\sqrt{32}=4\sqrt2$. A is the sum of two sides, B is the side itself, D halves the result.
 
-::tf
+::tf TH TH VD VD
 Triangle $ABC$ has $AB=9$, $AC=12$, $BC=15$. Decide whether each statement is true or false.
 a) Triangle $ABC$ is not right-angled.
 b) Triangle $ABC$ is right-angled at $A$.
@@ -412,12 +412,12 @@ d) The altitude from $A$ to $BC$ is $6$.
 ::key F T T F
 a) False: $9^2+12^2=225=15^2$, so it is right-angled. b) True: the right angle is opposite the longest side $BC$. c) True: $\dfrac12\cdot9\cdot12=54$. d) False: $AH=\dfrac{2\cdot54}{15}=7.2$.
 
-::sa
+::sa TH
 A right-angled triangle has legs $7$ and $24$. What is the hypotenuse?
 ::key 25
 $\sqrt{49+576}=\sqrt{625}=25$.
 
-::sa
+::sa VD
 A ladder $5$ m long leans against a wall, with its foot $3$ m from the wall. How many metres high does the top reach?
 ::key 4
 $\sqrt{25-9}=4$.

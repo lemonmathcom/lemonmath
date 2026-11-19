@@ -340,7 +340,7 @@ Part I: $12\cdot2=24$ minutes; Part III: $6\cdot5=30$ minutes. That leaves $90-5
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The greatest possible mark for Part II is
 A. $3$.
 B. $1$.
@@ -349,7 +349,7 @@ D. $2$.
 ::key C
 Part II has $4$ questions worth up to $1$ mark each. Option B is the maximum for one question; option A is the total for Part I or Part III.
 
-::mc
+::mc VD
 The minimum value of $y=x^2-4x+5$ on $[0, 3]$ is
 A. $1$.
 B. $2$.
@@ -358,7 +358,7 @@ D. $0$.
 ::key A
 $y'=2x-4=0\iff x=2\in(0, 3)$. Compare $y(0)=5$, $y(2)=1$, $y(3)=2$. Option B is $y(3)$, from comparing only the endpoints.
 
-::mc
+::mc TH
 The result of a short-answer question is $\dfrac73$, to be given to 1 decimal place. You write
 A. $2.33$.
 B. $2.4$.
@@ -367,7 +367,7 @@ D. $2.3$.
 ::key D
 $\dfrac73\approx2.333$; the second decimal digit is $3<5$, so we round down to $2.3$. A rounds to the wrong place, C to the nearest whole number.
 
-::mc
+::mc TH
 The integral $\displaystyle\int_0^1 3x^2\,dx$ equals
 A. $-1$.
 B. $1$.
@@ -376,7 +376,7 @@ D. $3$.
 ::key B
 $\Big[x^3\Big]_0^1=1$. Option C is the derivative $6x$ at $x=1$; option A computes $F(0)-F(1)$.
 
-::tf
+::tf NB NB NB TH
 In Part II, a student judges $4$, $3$, $1$, $0$ statements correctly in the four questions.
 a) The student gets $1$ mark for the first question.
 b) The student gets $0.75$ for the second question.
@@ -385,12 +385,12 @@ d) The student's total for Part II is $1.6$.
 ::key T F T T
 a) True: $4$ correct statements give $1$ mark. b) False: $3$ correct statements give $0.5$. c) True. d) True: $1+0.5+0.1+0=1.6$.
 
-::sa
+::sa VD
 A student gets $11$ questions right in Part I, exactly $3$ statements right in every Part II question, and $3$ questions right in Part III. What is the student's mark?
 ::key 6.25
 Part I: $11\cdot0.25=2.75$; Part II: $4\cdot0.5=2$; Part III: $3\cdot0.5=1.5$. Total $6.25$.
 
-::sa
+::sa TH
 Find $\displaystyle\int_0^1 e^x\,dx$. Give your answer to 2 decimal places.
 ::key 1.72
 $\Big[e^x\Big]_0^1=e-1\approx1.718$, which rounds to $1.72$.

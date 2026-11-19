@@ -320,7 +320,7 @@ Ba hình tròn bằng nhau, mỗi hình có bán kính $4$ cm, được xếp th
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hình tròn có bán kính $7$ cm. Đường kính của hình tròn là
 A. $14$ cm.
 B. $7$ cm.
@@ -329,7 +329,7 @@ D. $49$ cm.
 ::key A
 Đường kính gấp đôi bán kính: $7\times2=14$ cm. Phương án B là lỗi nhầm bán kính với đường kính.
 
-::mc
+::mc TH
 Hình tròn có đường kính $18$ cm. Bán kính của hình tròn là
 A. $36$ cm.
 B. $9$ cm.
@@ -338,7 +338,7 @@ D. $8$ cm.
 ::key B
 Bán kính bằng một nửa đường kính: $18:2=9$ cm. Phương án A là lỗi nhân đôi.
 
-::mc
+::mc NB
 Trong hình tròn tâm $O$, các điểm $A$, $B$, $C$ nằm trên đường tròn và $O$ nằm trên đoạn $AB$. Đoạn nào là đường kính?
 A. $OA$.
 B. $OC$.
@@ -347,7 +347,7 @@ D. $AC$.
 ::key C
 Chỉ $AB$ đi qua tâm và có hai đầu trên đường tròn. $OA$ và $OC$ là bán kính, còn $AC$ không đi qua tâm.
 
-::mc
+::mc TH
 Muốn vẽ hình tròn bán kính $6$ cm, em mở com-pa
 A. $3$ cm.
 B. $6$ cm.
@@ -356,7 +356,7 @@ D. $36$ cm.
 ::key B
 Độ mở com-pa bằng bán kính, tức $6$ cm. Phương án C là lỗi lấy đường kính.
 
-::tf
+::tf TH NB TH NB
 Hình tròn tâm $O$ có đường kính $AB=20$ cm.
 a) Bán kính của hình tròn là $10$ cm.
 b) $OA=OB$.
@@ -365,12 +365,12 @@ d) Bán kính dài hơn đường kính.
 ::key Đ Đ Đ S
 a) Đúng: $20:2=10$. b) Đúng: hai bán kính bằng nhau. c) Đúng: $O$ nằm giữa $A$, $B$ và $OA=OB$. d) Sai: bán kính chỉ bằng một nửa đường kính.
 
-::sa
+::sa TH
 Hình tròn có bán kính $15$ cm. Tính đường kính (đơn vị: cm).
 ::key 30
 $15\times2=30$ (cm).
 
-::sa
+::sa TH
 Hình tròn có đường kính $26$ cm. Tính bán kính (đơn vị: cm).
 ::key 13
 $26:2=13$ (cm).

@@ -281,7 +281,7 @@ The time out is $60\div30=2$ (hours) and the time back is $60\div20=3$ (hours). 
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A car travels $150$ km in $2.5$ hours. Its speed is
 A. $375$ km/h.
 B. $6$ km/h.
@@ -290,7 +290,7 @@ D. $152.5$ km/h.
 ::key C
 $v=150\div2.5=60$ km/h. Option A multiplies the two numbers, B loses the decimal point in $2.5$ and D adds the two numbers.
 
-::mc
+::mc TH
 A vehicle travels at $45$ km/h for $20$ minutes. The distance it travels is
 A. $900$ km.
 B. $2.25$ km.
@@ -299,7 +299,7 @@ D. $15$ km.
 ::key D
 $20$ min $=\dfrac13$ h, so $s=45\times\dfrac13=15$ km. Option A works out $45\times20$ (without changing minutes to hours), B divides $45\div20$ and C adds the two numbers.
 
-::mc
+::mc VD
 $4$ identical pens cost $48\,000$ dong. $7$ such pens cost
 A. $84\,000$ dong.
 B. $192\,000$ dong.
@@ -308,7 +308,7 @@ D. $55\,000$ dong.
 ::key A
 One pen costs $12\,000$ dong, so $7$ pens cost $84\,000$ dong. Option B works out $48\,000\times4$, C is the price of one pen and D adds $48\,000+7000$.
 
-::mc
+::mc VD
 A school bag costs $250\,000$ dong and has a $20\%$ discount. The price after the discount is
 A. $50\,000$ dong.
 B. $200\,000$ dong.
@@ -317,7 +317,7 @@ D. $249\,980$ dong.
 ::key B
 The discount is $50\,000$ dong, so the new price is $200\,000$ dong. Option A is the discount, C treats $20\%$ as $20\,000$ dong and D subtracts $20$ dong.
 
-::tf
+::tf TH TH VD VDC
 A car travels from A to B, $120$ km, at $40$ km/h, then returns to A at $60$ km/h.
 a) The time from A to B is $3$ hours.
 b) The time from B to A is $2$ hours.
@@ -326,12 +326,12 @@ d) The average speed for the round trip is $48$ km/h.
 ::key T T F T
 a) True: $120\div40=3$. b) True: $120\div60=2$. c) False: $50$ is the mean of the two speeds, not the average speed. d) True: $240\div5=48$.
 
-::sa
+::sa TH
 A vehicle travels $90$ km at $45$ km/h. How many minutes does it take?
 ::key 120
 $90\div45=2$ hours $=120$ minutes.
 
-::sa
+::sa VD
 For the same job, $6$ workers take $8$ days. How many days do $12$ workers (working at the same rate) take?
 ::key 4
 $6\times8=48$ days of work, $48\div12=4$ (days).

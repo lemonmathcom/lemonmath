@@ -369,7 +369,7 @@ We have $\triangle HBA\backsim\triangle ABC$, so $\dfrac{HA}{AC}=\dfrac{BA}{BC}$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Triangle $ABC$ is right-angled at $A$ with $\angle B=40^\circ$, and triangle $DEF$ is right-angled at $D$ with $\angle E=50^\circ$. Which statement is correct?
 A. $\triangle ABC\backsim\triangle DEF$.
 B. $\triangle ABC\backsim\triangle EDF$.
@@ -378,7 +378,7 @@ D. The triangles are not similar.
 ::key C
 $\angle C=50^\circ=\angle E$ and $\angle B=40^\circ=\angle F$, so $A\leftrightarrow D$, $B\leftrightarrow F$, $C\leftrightarrow E$. Option A wrongly pairs $B$ with $E$, and option D assumes the equal angles must have the same letters.
 
-::mc
+::mc VD
 Triangle $ABC$ is right-angled at $A$ with $AB=6$, $BC=10$, and triangle $MNP$ is right-angled at $M$ with $MN=9$, $NP=15$. The length $MP$ is
 A. $8$.
 B. $13$.
@@ -387,7 +387,7 @@ D. $12$.
 ::key D
 $AC=8$ and the similarity ratio is $\dfrac{15}{10}=\dfrac32$, so $MP=\dfrac32\cdot8=12$. Option A keeps $AC$, option B adds the difference $15-10=5$, and option C doubles $9$.
 
-::mc
+::mc VD
 Triangle $ABC$ is right-angled at $A$ with $AB=3$, $BC=5$, and triangle $DEF$ is right-angled at $D$ with $DE=12$, $EF=20$. The length $DF$ is
 A. $16$.
 B. $4$.
@@ -396,7 +396,7 @@ D. $\sqrt{544}$.
 ::key A
 The ratio is $\dfrac{20}{5}=\dfrac{12}{3}=4$ and $AC=4$, so $DF=4\cdot4=16$. Option B keeps $AC$, option C takes $EF-DE$, and option D adds the squares instead of subtracting.
 
-::mc
+::mc VD
 Triangle $ABC$ is right-angled at $A$ with $AB=6$, $AC=8$ and altitude $AH$. The length $BH$ is
 A. $4.8$.
 B. $3.6$.
@@ -405,7 +405,7 @@ D. $5$.
 ::key B
 $BC=10$ and $\triangle HBA\backsim\triangle ABC$ gives $BH=\dfrac{AB^2}{BC}=\dfrac{36}{10}=3.6$. Option A is $AH$ and option C is $CH$.
 
-::tf
+::tf TH VD VD VD
 Triangle $ABC$ is right-angled at $A$ with $AB=9$, $AC=12$ and altitude $AH$. Decide whether each statement is true or false.
 a) $\triangle HBA\backsim\triangle ACB$.
 b) $BH=5.4$.
@@ -414,12 +414,12 @@ d) $CH=8.4$.
 ::key F T T F
 a) False: it should be $\triangle HBA\backsim\triangle ABC$ (matching $H\leftrightarrow A$, $B\leftrightarrow B$, $A\leftrightarrow C$). b) True: $BC=15$, $BH=\dfrac{81}{15}=5.4$. c) True: $AH=\dfrac{9\cdot12}{15}=7.2$. d) False: $CH=15-5.4=9.6$.
 
-::sa
+::sa VD
 Triangle $ABC$ is right-angled at $A$ with $AB=8$, $BC=17$, and triangle $DEF$ is right-angled at $D$ with $DE=24$, $EF=51$. Find the perimeter of triangle $DEF$.
 ::key 120
 $AC=\sqrt{17^2-8^2}=15$ and the similarity ratio is $\dfrac{51}{17}=3$, so $DF=45$. The perimeter is $24+51+45=120$.
 
-::sa
+::sa VD
 Nam stands $12$ m from the foot of a flagpole. His eyes are $1.5$ m above the ground and he sees the top of the pole at an angle of $45^\circ$ above the horizontal. Find the height of the flagpole (in metres).
 ::key 13.5
 A right-angled triangle with an acute angle of $45^\circ$ is isosceles, so the part of the pole above eye level is $12$ m. The height of the pole is $12+1.5=13.5$.

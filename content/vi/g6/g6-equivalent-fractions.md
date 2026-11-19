@@ -494,7 +494,7 @@ Vậy các phân số cần tìm là $\dfrac{-3}{4}$; $\dfrac{-6}{8}$; $\dfrac{-
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cách viết nào sau đây không cho ta một phân số?
 A. $\dfrac{-3}{5}$.
 B. $\dfrac{0}{7}$.
@@ -503,7 +503,7 @@ D. $\dfrac{6}{-1}$.
 ::key C
 Mẫu của phân số phải khác $0$. Tử bằng $0$ (B) hay mẫu âm (D) đều được.
 
-::mc
+::mc TH
 Phân số nào sau đây bằng phân số $\dfrac{-2}{3}$?
 A. $\dfrac{2}{3}$.
 B. $\dfrac{-4}{9}$.
@@ -512,7 +512,7 @@ D. $\dfrac{4}{-6}$.
 ::key D
 $(-2)\cdot(-6)=12=3\cdot4$. A và C là số dương; B chỉ nhân tử với $2$ còn mẫu nhân với $3$.
 
-::mc
+::mc TH
 Rút gọn phân số $\dfrac{-36}{48}$ về dạng tối giản, ta được
 A. $\dfrac{-3}{4}$.
 B. $\dfrac{-6}{8}$.
@@ -521,7 +521,7 @@ D. $\dfrac{-9}{12}$.
 ::key A
 ƯCLN$(36, 48)=12$ nên $\dfrac{-36}{48}=\dfrac{-3}{4}$. B và D rút gọn chưa hết; C làm mất dấu.
 
-::mc
+::mc TH
 Biết $\dfrac{x}{8}=\dfrac{-3}{4}$. Giá trị của $x$ là
 A. $6$.
 B. $-6$.
@@ -530,7 +530,7 @@ D. $-24$.
 ::key B
 $4x=8\cdot(-3)=-24$ nên $x=-6$. A sai dấu; D quên chia cho $4$; C chia nhầm cho $2$.
 
-::tf
+::tf NB TH TH TH
 Xét tính đúng sai của các mệnh đề sau:
 a) Mọi số nguyên đều viết được dưới dạng phân số.
 b) $\dfrac{-5}{-9}=\dfrac{5}{9}$.
@@ -539,12 +539,12 @@ d) $\dfrac{-7}{21}$ là phân số tối giản.
 ::key Đ Đ S S
 a) Đúng: $a=\dfrac{a}{1}$. b) Đúng: nhân cả tử và mẫu với $-1$. c) Sai: khi đó mẫu bằng $0$, không còn là phân số. d) Sai: $7$ và $21$ có ước chung là $7$; $\dfrac{-7}{21}=\dfrac{-1}{3}$.
 
-::sa
+::sa VD
 Tìm số nguyên $x$, biết $\dfrac{-4}{5}=\dfrac{x}{-35}$.
 ::key 28
 $5x=(-4)\cdot(-35)=140$ nên $x=28$.
 
-::sa
+::sa VD
 Biết $36$ phút bằng $\dfrac{a}{5}$ giờ. Tìm số tự nhiên $a$.
 ::key 3
 $36$ phút $=\dfrac{36}{60}$ giờ $=\dfrac{3}{5}$ giờ (chia cả tử và mẫu cho $12$), nên $a=3$.

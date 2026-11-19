@@ -277,7 +277,7 @@ $10\cdot\dfrac{0+8}{2}+10\cdot\dfrac{8+14}{2}+10\cdot\dfrac{14+18}{2}+10\cdot\df
 :::
 
 :::quiz
-::mc
+::mc TH
 Tích phân $\displaystyle\int_1^4\frac{1}{\sqrt x}\,dx$ bằng
 A. $1$
 B. $2$
@@ -286,7 +286,7 @@ D. $\dfrac32$
 ::key B
 Một nguyên hàm là $2\sqrt x$: $2(2)-2(1)=2$.
 
-::mc
+::mc TH
 $\dfrac{d}{dx}\displaystyle\int_0^{3x}e^{t^2}\,dt$ bằng
 A. $e^{9x^2}$
 B. $3e^{3x^2}$
@@ -295,7 +295,7 @@ D. $6xe^{9x^2}$
 ::key C
 Phần 1 của định lí cơ bản kết hợp quy tắc chuỗi: $e^{(3x)^2}\cdot3$.
 
-::mc
+::mc TH
 Nếu $f$ nghịch biến trên $[a,b]$ thì tổng Riemann phải của $\displaystyle\int_a^bf(x)\,dx$
 A. bằng tích phân
 B. lớn hơn tích phân
@@ -304,7 +304,7 @@ D. nhỏ hơn tích phân
 ::key D
 Với hàm nghịch biến, đầu mút phải cho chiều cao nhỏ nhất trên mỗi khoảng.
 
-::mc
+::mc TH
 Tích phân $\displaystyle\int_{-2}^{2}\left(x^3+1\right)dx$ bằng
 A. $4$
 B. $0$
@@ -313,7 +313,7 @@ D. $2$
 ::key A
 $x^3$ là hàm lẻ nên tích phân trên $[-2,2]$ bằng $0$; tích phân của $1$ bằng $4$.
 
-::tf
+::tf NB TH TH VD
 Cho $g(x)=\displaystyle\int_1^x(t-2)\,dt$.
 a) $g(1)=0$.
 b) $g'(3)=1$.
@@ -322,12 +322,12 @@ d) $g(3)=2$.
 ::key T T T F
 a) Đúng: khoảng có độ rộng bằng không. b) Đúng: $g'(x)=x-2$. c) Đúng: $g'$ đổi dấu từ âm sang dương tại $x=2$. d) Sai: $g(3)=\left[\dfrac{t^2}{2}-2t\right]_1^3=-1{,}5-(-1{,}5)=0$.
 
-::sa
+::sa TH
 Tính $\displaystyle\int_0^2\left(3x^2+1\right)dx$.
 ::key 10
 $\left[x^3+x\right]_0^2=8+2=10$.
 
-::sa
+::sa TH
 Hàm số $f$ có $f(0)=1$, $f(1)=3$ và $f(2)=7$. Tính tổng hình thang của $\displaystyle\int_0^2f(x)\,dx$ với hai khoảng.
 ::key 7
 $1\cdot\dfrac{1+3}{2}+1\cdot\dfrac{3+7}{2}=2+5=7$.

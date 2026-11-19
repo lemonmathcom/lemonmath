@@ -243,7 +243,7 @@ Từ $8$ lên $10$ cần $2$, từ $10$ lên $15$ cần $5$, nên số cần đi
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $9+5$ là
 A. $13$.
 B. $14$.
@@ -252,7 +252,7 @@ D. $10$.
 ::key B
 $9+5=9+1+4=10+4=14$. Phương án D là lỗi quên phần còn lại $4$.
 
-::mc
+::mc TH
 Để tính $8+7$ bằng mẹo gộp cho đủ $10$, em tách $7$ thành
 A. $1$ và $6$.
 B. $3$ và $4$.
@@ -261,7 +261,7 @@ D. $2$ và $4$.
 ::key C
 $8$ cần thêm $2$ để được $10$, nên tách $7=2+5$. Phương án D sai vì $2+4=6$, không bằng $7$.
 
-::mc
+::mc TH
 Phép tính nào có kết quả bằng $13$?
 A. $6+7$.
 B. $6+8$.
@@ -270,7 +270,7 @@ D. $9+5$.
 ::key A
 $6+7=7+6=7+3+3=13$. Các phép tính khác lần lượt bằng $14$, $12$, $14$.
 
-::mc
+::mc TH
 Mai có $8$ bông hoa, Hà có $6$ bông hoa. Cả hai bạn có bao nhiêu bông hoa?
 A. $2$ bông.
 B. $13$ bông.
@@ -279,7 +279,7 @@ D. $15$ bông.
 ::key C
 "Cả hai bạn" là gộp lại: $8+6=14$. Phương án A là lấy $8-6$, nhầm sang phép trừ.
 
-::tf
+::tf NB TH TH TH
 Em xét phép cộng $7+8$.
 a) Có thể đổi thành $8+7$ mà kết quả không đổi.
 b) $7+8=7+3+5$.
@@ -288,12 +288,12 @@ d) $7+8$ lớn hơn $14$.
 ::key Đ Đ S Đ
 a) Đúng: đổi chỗ các số hạng thì tổng không đổi. b) Đúng: $8=3+5$. c) Sai: $7+3+5=10+5=15$. d) Đúng: $15>14$.
 
-::sa
+::sa TH
 Tính $9+9$.
 ::key 18
 $9+9=9+1+8=10+8=18$.
 
-::sa
+::sa TH
 Trên cành có $7$ con chim, thêm $4$ con nữa bay đến. Trên cành có tất cả bao nhiêu con chim?
 ::key 11
 $7+4=7+3+1=10+1=11$ (con chim).

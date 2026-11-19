@@ -313,7 +313,7 @@ b) Số nhỏ nhất: hàng trăm là $5$, các hàng còn lại là $0$, đư�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Làm tròn số $6\,284$ đến hàng nghìn được
 A. $6\,000$.
 B. $7\,000$.
@@ -322,7 +322,7 @@ D. $6\,280$.
 ::key A
 Chữ số hàng trăm là $2$, bé hơn $5$, nên giữ nguyên $6$ nghìn: $6\,000$. Phương án B là lỗi luôn làm tròn lên; phương án C, D là làm tròn đến hàng trăm và hàng chục.
 
-::mc
+::mc TH
 Làm tròn số $38\,700$ đến hàng chục nghìn được
 A. $30\,000$.
 B. $39\,000$.
@@ -331,7 +331,7 @@ D. $38\,000$.
 ::key C
 Chữ số hàng nghìn là $8$, từ $5$ trở lên, nên tăng $3$ chục nghìn lên $4$ chục nghìn: $40\,000$. Phương án A là lỗi luôn làm tròn xuống; phương án B là làm tròn đến hàng nghìn, phương án D là bỏ phần lẻ mà không làm tròn.
 
-::mc
+::mc TH
 Số nào làm tròn đến hàng nghìn được $9\,000$?
 A. $8\,490$.
 B. $9\,500$.
@@ -340,7 +340,7 @@ D. $9\,400$.
 ::key D
 $9\,400$ có hàng trăm là $4$, nên làm tròn xuống $9\,000$. $8\,490\approx8\,000$, còn $9\,500$ và $9\,600$ làm tròn lên $10\,000$.
 
-::mc
+::mc TH
 Một thị trấn có $7\,960$ người. Làm tròn đến hàng nghìn, thị trấn có khoảng
 A. $7\,000$ người.
 B. $8\,000$ người.
@@ -349,7 +349,7 @@ D. $10\,000$ người.
 ::key B
 Chữ số hàng trăm là $9$, từ $5$ trở lên, nên $7\,960\approx8\,000$. Phương án D là làm tròn đến hàng chục nghìn, không phải hàng nghìn.
 
-::tf
+::tf TH TH TH NB
 Em xét số $24\,673$.
 a) Làm tròn đến hàng nghìn được $25\,000$.
 b) Làm tròn đến hàng chục nghìn được $20\,000$.
@@ -358,12 +358,12 @@ d) Khi làm tròn đến hàng nghìn, em nhìn chữ số hàng trăm.
 ::key Đ Đ S Đ
 a) Đúng: hàng trăm là $6$, làm tròn lên. b) Đúng: hàng nghìn là $4$, bé hơn $5$, nên $24\,673\approx20\,000$. c) Sai: vì hàng nghìn là $4$, không làm tròn lên. d) Đúng: nhìn hàng ngay bên phải hàng nghìn.
 
-::sa
+::sa TH
 Làm tròn số $5\,600$ đến hàng nghìn. Viết kết quả (không có dấu cách).
 ::key 6000
 Chữ số hàng trăm là $6$, từ $5$ trở lên, nên $5\,600\approx6\,000$.
 
-::sa
+::sa TH
 Sân vận động có $15\,280$ chỗ ngồi. Làm tròn đến hàng nghìn, sân có khoảng bao nhiêu nghìn chỗ?
 ::key 15
 Chữ số hàng trăm là $2$, bé hơn $5$, nên $15\,280\approx15\,000$, tức khoảng $15$ nghìn chỗ.

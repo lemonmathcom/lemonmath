@@ -287,7 +287,7 @@ Let $t=x-1$; since $x>1$, $t>0$. Then $B=t+\dfrac4t+1\geq2\sqrt{t\cdot\dfrac4t}+
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 For $x=16$, the value of $P=\dfrac{\sqrt x}{\sqrt x+2}$ is
 A. $\dfrac43$.
 B. $\dfrac23$.
@@ -296,7 +296,7 @@ D. $\dfrac45$.
 ::key B
 $P=\dfrac4{4+2}=\dfrac23$. Option A is $\dfrac{4}{4-1}$, C is $\dfrac{2}{4}$, and D is $\dfrac{4}{4+1}$.
 
-::mc
+::mc VD
 A rectangular garden has a perimeter of $70$ m and an area of $300$ m$^2$. The width is
 A. $10$ m.
 B. $12$ m.
@@ -305,7 +305,7 @@ D. $20$ m.
 ::key C
 The two dimensions are the roots of $t^2-35t+300=0$, that is $15$ and $20$; the width is the smaller one. Option D is the length.
 
-::mc
+::mc TH
 From a point $A$ at distance $OA=5$ cm from the centre $O$ of a circle of radius $3$ cm, a tangent $AB$ is drawn. The length $AB$ is
 A. $3$ cm.
 B. $8$ cm.
@@ -314,7 +314,7 @@ D. $4$ cm.
 ::key D
 $AB=\sqrt{OA^2-OB^2}=\sqrt{25-9}=4$. Option C is $\sqrt{25+9}$, and B is $5+3$.
 
-::mc
+::mc TH
 The equation $x^2-6x+4=0$ has roots $x_1$ and $x_2$. The value of $\dfrac1{x_1}+\dfrac1{x_2}$ is
 A. $\dfrac32$.
 B. $6$.
@@ -323,7 +323,7 @@ D. $\dfrac23$.
 ::key A
 $\dfrac1{x_1}+\dfrac1{x_2}=\dfrac{x_1+x_2}{x_1x_2}=\dfrac64=\dfrac32$. Option D is the reciprocal of the correct value.
 
-::tf
+::tf TH VD TH TH
 Given a circle $(O;3\text{ cm})$, $OA=5$ cm, tangents $AB$ and $AC$ ($B$ and $C$ are the points of contact), and $H$ the intersection of $OA$ and $BC$. Decide whether each statement is true or false.
 a) $AB=5$ cm.
 b) $BC=2.4$ cm.
@@ -332,12 +332,12 @@ d) $AH\cdot AO=AB^2$.
 ::key F F F T
 a) False: $AB=4$ cm. b) False: $BH=2.4$ so $BC=4.8$ cm. c) False: $OH=\dfrac95=1.8$ cm. d) True: $AH=3.2$ and $AH\cdot AO=3.2\cdot5=16=4^2$.
 
-::sa
+::sa VD
 Find $x$ such that $P=\dfrac{\sqrt x}{\sqrt x+2}=\dfrac13$.
 ::key 1
 $3\sqrt x=\sqrt x+2$, so $\sqrt x=1$ and $x=1$.
 
-::sa
+::sa VD
 The equation $x^2-6x+4=0$ has roots $x_1$ and $x_2$. Find $x_1^2+x_2^2$.
 ::key 28
 $x_1^2+x_2^2=6^2-2\cdot4=28$.

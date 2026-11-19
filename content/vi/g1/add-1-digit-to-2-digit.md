@@ -252,7 +252,7 @@ Hàng đơn vị: $2+5=7$. Hàng chục là $6$, nên số cần điền là $62
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $34+5$ là
 A. $29$.
 B. $84$.
@@ -261,7 +261,7 @@ D. $9$.
 ::key C
 $4+5=9$ và hàng chục là $3$, nên $34+5=39$. Phương án B là lỗi cộng $5$ vào hàng chục, D là lỗi quên hàng chục.
 
-::mc
+::mc TH
 Kết quả của $60+7$ là
 A. $7$.
 B. $13$.
@@ -270,7 +270,7 @@ D. $67$.
 ::key D
 $0+7=7$ và hàng chục là $6$, nên $60+7=67$. Phương án B là lấy $6+7$, nhầm hàng chục với hàng đơn vị.
 
-::mc
+::mc TH
 Phép tính nào có kết quả bằng $48$?
 A. $40+8$.
 B. $43+4$.
@@ -279,7 +279,7 @@ D. $45+2$.
 ::key A
 $40+8=48$. Các phép tính khác lần lượt bằng $47$, $49$, $47$.
 
-::mc
+::mc TH
 Hoa có $25$ cái nhãn dán, mẹ cho thêm $3$ cái. Hỏi Hoa có tất cả bao nhiêu cái nhãn dán?
 A. $22$ cái.
 B. $28$ cái.
@@ -288,7 +288,7 @@ D. $8$ cái.
 ::key B
 "Cho thêm" là gộp lại: $25+3=28$. Phương án A là lấy $25-3$, nhầm sang phép trừ.
 
-::tf
+::tf NB TH TH TH
 Em xét phép cộng $52+6$.
 a) Số $52$ có $5$ chục.
 b) Hàng đơn vị là $2+6=8$.
@@ -297,12 +297,12 @@ d) $52+6$ nhỏ hơn $60$.
 ::key Đ Đ S Đ
 a) Đúng: $52$ có $5$ chục và $2$ đơn vị. b) Đúng: $2+6=8$. c) Sai: hàng chục giữ nguyên là $5$, nên $52+6=58$. d) Đúng: $58<60$.
 
-::sa
+::sa TH
 Tính $41+7$.
 ::key 48
 $1+7=8$ và hàng chục là $4$, nên $41+7=48$.
 
-::sa
+::sa TH
 Trong giỏ có $36$ quả cam, thêm $3$ quả nữa. Trong giỏ có tất cả bao nhiêu quả cam?
 ::key 39
 $36+3=39$ (quả cam).

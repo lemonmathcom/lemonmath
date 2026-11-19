@@ -440,7 +440,7 @@ Divide both sides by $5^x>0$: $\left(\dfrac25\right)^x+\left(\dfrac35\right)^x=1
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The solution set of the equation $2^{x^2-1}=8$ is
 A. $\{2\}$.
 B. $\{-\sqrt2, \sqrt2\}$.
@@ -449,7 +449,7 @@ D. $\{4\}$.
 ::key C
 $8=2^3$, so $x^2-1=3$, giving $x^2=4$ and $x=\pm2$. Option A drops the negative solution, B solves $x^2=2$, and D mistakes $x^2=4$ for $x=4$.
 
-::mc
+::mc TH
 The solution set of the inequality $\left(\dfrac12\right)^x>8$ is
 A. $(-3, +\infty)$.
 B. $(3, +\infty)$.
@@ -458,7 +458,7 @@ D. $(-\infty, -3)$.
 ::key D
 $8=\left(\dfrac12\right)^{-3}$ and the base $\dfrac12<1$, so we reverse: $x<-3$. Option A forgets to reverse, and B and C get the sign of the exponent $-3$ wrong.
 
-::mc
+::mc VD
 The solution of the equation $\log_2x+\log_2(x-3)=2$ is
 A. $x=4$.
 B. $x=-1$ or $x=4$.
@@ -467,7 +467,7 @@ D. the equation has no solution.
 ::key A
 The condition is $x>3$. We have $x(x-3)=4$, so $x^2-3x-4=0$ and $x=-1$ or $x=4$. Only $x=4$ satisfies $x>3$. Option B forgets to reject the extraneous solution $x=-1$.
 
-::mc
+::mc TH
 The solution set of the inequality $\log_3(2x-1)\le2$ is
 A. $\left[\dfrac12, 5\right]$.
 B. $\left(\dfrac12, 5\right]$.
@@ -476,7 +476,7 @@ D. $(5, +\infty)$.
 ::key B
 We need $0<2x-1\le9$, that is $\dfrac12<x\le5$. Option A includes the endpoint $\dfrac12$, C forgets the condition $2x-1>0$, and D reverses the inequality.
 
-::tf
+::tf TH TH VD TH
 Consider the equation $4^x-3\cdot2^x-4=0$. Decide whether each statement is true or false:
 a) Putting $t=2^x$, the equation becomes $t^2-3t-4=0$.
 b) The value $t=-1$ gives a solution of the equation.
@@ -485,12 +485,12 @@ d) The solution of the equation is $x=4$.
 ::key T F T F
 a) True: $4^x=\left(2^x\right)^2$. b) False: $t=2^x>0$, so $t=-1$ is rejected. c) True: only $t=4$, that is $x=2$. d) False: $2^x=4$ gives $x=2$, not $x=4$.
 
-::sa
+::sa VD
 Suppose an amount grows by $8\%$ each year, compounded annually. After at least how many whole years is it three times the original amount?
 ::key 15
 We need $1.08^t\ge3$, that is $t\ge\dfrac{\ln3}{\ln1.08}\approx14.3$, so $t=15$. Check: $1.08^{14}\approx2.94<3$ and $1.08^{15}\approx3.17\ge3$.
 
-::sa
+::sa VD
 What is the solution of the equation $5^{2x-1}=40$ (to one decimal place)?
 ::key 1.6
 $2x-1=\log_540\approx2.292$, so $x\approx\dfrac{3.292}{2}\approx1.6$.

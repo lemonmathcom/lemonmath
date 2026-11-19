@@ -398,7 +398,7 @@ So $a=2$, $b=1$ and $f(10)=21$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A quantity $y$ is a function of $x$ when
 A. each value of $y$ gives exactly one value of $x$.
 B. each value of $x$ gives exactly one value of $y$.
@@ -407,7 +407,7 @@ D. $y$ is always greater than $x$.
 ::key B
 This is the definition of a function. B and C are extra conditions (a function can still give the same $y$ for two different $x$), D is unrelated.
 
-::mc
+::mc NB
 Let $f(x)=2x-3$. The value $f(4)$ is
 A. $11$.
 B. $1$.
@@ -416,7 +416,7 @@ D. $-5$.
 ::key C
 $f(4)=2\cdot4-3=5$. A uses $2\cdot4+3$, B uses $4-3$, D has the wrong sign.
 
-::mc
+::mc TH
 The domain of the function $y=\dfrac{5}{x-1}$ is
 A. $x\neq0$.
 B. $x\neq-1$.
@@ -425,7 +425,7 @@ D. $x\neq1$.
 ::key D
 The denominator must not be $0$: $x-1\neq0$, so $x\neq1$. A and B exclude the wrong value, C ignores the denominator.
 
-::mc
+::mc TH
 Which of the following points lies on the graph of $y=2x-1$?
 A. $(2, 3)$.
 B. $(1, 2)$.
@@ -434,7 +434,7 @@ D. $(3, 4)$.
 ::key A
 $2\cdot2-1=3$, so $(2, 3)$ lies on the graph. For B: $2\cdot1-1=1\neq2$; C: $-1\neq1$; D: $5\neq4$.
 
-::tf
+::tf NB NB TH TH
 Let $y=-x+4$. Decide whether each statement is true or false.
 a) The value of the function at $x=0$ is $4$.
 b) The value of the function at $x=2$ is $2$.
@@ -443,12 +443,12 @@ d) The point $(1, 5)$ lies on the graph of the function.
 ::key T T T F
 a) True: $-0+4=4$. b) True: $-2+4=2$. c) True: $-4+4=0$. d) False: $-1+4=3\neq5$.
 
-::sa
+::sa TH
 Let $f(x)=3x-4$. Find $f(5)$.
 ::key 11
 $f(5)=3\cdot5-4=11$.
 
-::sa
+::sa VD
 A cyclist rides at $12$ km/h. After how many hours has the cyclist gone $30$ km?
 ::key 2.5
 $12t=30$, so $t=2.5$.

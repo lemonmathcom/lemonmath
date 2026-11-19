@@ -281,7 +281,7 @@ So about $2.28\%$ of full boxes weigh more than $1150$ g.
 :::
 
 :::quiz
-::mc
+::mc TH
 Independent $X$ and $Y$ have standard deviations $6$ and $8$. The standard deviation of $X+Y$ is
 A. $14$
 B. $100$
@@ -290,7 +290,7 @@ D. $2$
 ::key C
 $\sqrt{36+64}=10$.
 
-::mc
+::mc NB
 For $X\sim\text{Po}(4)$, $\operatorname{Var}(X)$ is
 A. $4$
 B. $2$
@@ -299,7 +299,7 @@ D. $0.25$
 ::key A
 For a Poisson distribution the variance equals the mean.
 
-::mc
+::mc TH
 The solution of $\dfrac{dy}{dt}=0.3y$ with $y(0)=5$ is
 A. $y=0.3e^{5t}$
 B. $y=5+0.3t$
@@ -308,7 +308,7 @@ D. $y=5e^{0.3t}$
 ::key D
 Growth proportional to size is exponential.
 
-::mc
+::mc NB
 Euler's method with step $h$ uses
 A. the gradient at the end of each step
 B. the gradient at the start of each step
@@ -317,7 +317,7 @@ D. the area under the curve
 ::key B
 $y_{n+1}=y_n+h\times\text{gradient at }(x_n,y_n)$.
 
-::tf
+::tf NB TH TH TH
 Calls arrive as $\text{Po}(2)$ per minute. Decide whether each statement is true or false.
 a) The mean number per minute is $2$.
 b) The number in $3$ minutes is $\text{Po}(6)$.
@@ -326,12 +326,12 @@ d) The variance per minute is $4$.
 ::key T T T F
 The variance equals the mean, $2$.
 
-::sa
+::sa TH
 Find $\operatorname{Var}(3X)$ if $\operatorname{Var}(X)=2$.
 ::key 18
 $3^2\times2=18$.
 
-::sa
+::sa VD
 Using Euler's method on $\dfrac{dy}{dx}=2$ with $y(0)=1$ and $h=0.5$, find $y$ at $x=1$.
 ::key 3
 Two steps of $0.5\times2=1$.

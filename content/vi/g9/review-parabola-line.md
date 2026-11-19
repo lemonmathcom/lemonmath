@@ -359,7 +359,7 @@ Phương trình hoành độ giao điểm: $x^2-x-2=0$ có nghiệm $x=2$ và $x
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Điểm nào sau đây thuộc đồ thị hàm số $y=-3x^2$?
 A. $(1;3)$.
 B. $(2;6)$.
@@ -368,7 +368,7 @@ D. $(-2;12)$.
 ::key C
 $y(-1)=-3\cdot1=-3$. Đáp án A bỏ dấu của $a$, B lấy $3\cdot2$, D bỏ dấu của $a$ và tính $3\cdot4$.
 
-::mc
+::mc TH
 Parabol $y=ax^2$ đi qua điểm $(-3;-18)$. Giá trị của $a$ là
 A. $2$.
 B. $-6$.
@@ -377,7 +377,7 @@ D. $-2$.
 ::key D
 $-18=a\cdot9$ nên $a=-2$. Đáp án A bỏ dấu, B và C lấy $\dfrac{-18}{\pm3}$ thay vì chia cho $x^2=9$.
 
-::mc
+::mc VD
 Số giao điểm của parabol $y=x^2$ và đường thẳng $y=2x-1$ là
 A. $1$.
 B. $2$.
@@ -386,7 +386,7 @@ D. $3$.
 ::key A
 $x^2-2x+1=0\iff(x-1)^2=0$ có nghiệm kép $x=1$, nên tiếp xúc, chỉ có một điểm chung. Đáp án C nhầm với $\Delta<0$, B nhầm với $\Delta>0$, D không thể có (phương trình bậc hai có tối đa hai nghiệm).
 
-::mc
+::mc VD
 Hoành độ các giao điểm của parabol $y=x^2$ và đường thẳng $y=x+6$ là
 A. $x=-3$ và $x=2$.
 B. $x=3$ và $x=-2$.
@@ -395,7 +395,7 @@ D. $x=-3$ và $x=-2$.
 ::key B
 $x^2-x-6=0\iff(x-3)(x+2)=0$. Đáp án A đổi dấu cả hai nghiệm, C và D lấy sai nghiệm.
 
-::tf
+::tf TH NB VD TH
 Cho parabol $(P)\colon y=-x^2$ và đường thẳng $(d)\colon y=-2x-3$. Các nhận định sau đúng hay sai?
 a) Parabol $(P)$ nằm phía dưới trục hoành, trừ điểm $O$.
 b) Điểm $(-1;-1)$ thuộc $(P)$.
@@ -404,12 +404,12 @@ d) Một giao điểm của $(P)$ và $(d)$ là $(3;9)$.
 ::key Đ Đ Đ S
 a) Đúng: $a=-1<0$ nên $y\leq0$. b) Đúng: $y(-1)=-1$. c) Đúng: $-x^2=-2x-3\iff x^2-2x-3=0$ có nghiệm $x=3$, $x=-1$. d) Sai: giao điểm là $(3;-9)$ và $(-1;-1)$.
 
-::sa
+::sa VD
 Parabol $y=x^2$ và đường thẳng $y=x+2$ cắt nhau tại hai điểm. Tính tổng hai hoành độ giao điểm.
 ::key 1
 $x^2-x-2=0$ nên theo hệ thức Viète, $x_1+x_2=1$ (hai nghiệm là $-1$ và $2$).
 
-::sa
+::sa VD
 Mặt cắt của một chảo là parabol $y=\dfrac{x^2}8$ (đơn vị: dm). Đường kính miệng chảo là $12$ dm. Tính độ sâu của chảo (đơn vị dm).
 ::key 4,5
 Mép chảo có $x=6$ nên $y=\dfrac{36}8=4{,}5$.

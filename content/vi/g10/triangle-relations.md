@@ -389,7 +389,7 @@ $$a^2=25+16-2\cdot5\cdot4\cdot\left(-\frac35\right)=41+24=65.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tam giác $ABC$ có $b=3$, $c=5$ và $A=120^\circ$. Độ dài cạnh $a$ là
 A. $7$.
 B. $\sqrt{19}$.
@@ -398,7 +398,7 @@ D. $\sqrt{\dfrac{83}{2}}$.
 ::key A
 $a^2=9+25-2\cdot3\cdot5\cdot\cos120^\circ=34+15=49$, nên $a=7$. Lấy $\cos120^\circ=\dfrac12$ thì ra $\sqrt{19}$; quên hệ số $2$ thì ra $\sqrt{83/2}$.
 
-::mc
+::mc TH
 Tam giác $ABC$ có $a=6$ và $A=30^\circ$. Bán kính đường tròn ngoại tiếp $R$ bằng
 A. $12$.
 B. $3$.
@@ -407,7 +407,7 @@ D. $\dfrac32$.
 ::key C
 Theo định lí sin, $2R=\dfrac{a}{\sin A}=\dfrac{6}{1/2}=12$, nên $R=6$. Phương án A quên chia đôi.
 
-::mc
+::mc TH
 Tam giác $ABC$ có $a=4$, $b=5$ và $C=150^\circ$. Diện tích tam giác là
 A. $10$.
 B. $5$.
@@ -416,7 +416,7 @@ D. $10\sqrt3$.
 ::key B
 $S=\dfrac12ab\sin C=\dfrac12\cdot4\cdot5\cdot\dfrac12=5$. Phương án A quên hệ số $\dfrac12$; phương án C dùng nhầm $|\cos150^\circ|$ thay cho $\sin150^\circ$.
 
-::mc
+::mc TH
 Diện tích tam giác có ba cạnh $5$, $5$, $6$ là
 A. $12$.
 B. $15$.
@@ -425,7 +425,7 @@ D. $30$.
 ::key A
 $p=8$, theo công thức Heron $S=\sqrt{8\cdot3\cdot3\cdot2}=\sqrt{144}=12$. Phương án C là tích đáy $6$ với chiều cao $4$ mà quên chia $2$.
 
-::tf
+::tf TH VD VD TH
 Cho tam giác $ABC$ có $a=7$, $b=3$, $c=8$.
 a) $A=60^\circ$.
 b) Diện tích tam giác là $6\sqrt3$.
@@ -434,12 +434,12 @@ d) Góc $C$ là góc tù.
 ::key Đ Đ S Đ
 a) Đúng: $\cos A=\dfrac{9+64-49}{2\cdot3\cdot8}=\dfrac12$. b) Đúng: $S=\dfrac12\cdot3\cdot8\cdot\dfrac{\sqrt3}{2}=6\sqrt3$. c) Sai: $2R=\dfrac{7}{\sin60^\circ}=\dfrac{14}{\sqrt3}$ nên $R=\dfrac{7\sqrt3}{3}$. d) Đúng: $\cos C=\dfrac{49+9-64}{2\cdot7\cdot3}=-\dfrac17<0$.
 
-::sa
+::sa VD
 Từ một ngã ba, hai con đường thẳng tạo với nhau góc $60^\circ$. Nhà An ở trên đường thứ nhất, cách ngã ba $10$ km; nhà Bình ở trên đường thứ hai, cách ngã ba $6$ km. Khoảng cách theo đường chim bay giữa hai nhà là bao nhiêu kilômét (làm tròn đến hàng phần mười)?
 ::key 8,7
 Theo định lí côsin, $d^2=10^2+6^2-2\cdot10\cdot6\cos60^\circ=136-60=76$, nên $d=\sqrt{76}\approx8{,}72$, làm tròn được $8{,}7$ km.
 
-::sa
+::sa VD
 Hai điểm $A$, $B$ cách nhau $100$ m trên cùng một bờ sông; $C$ là một cái cây ở bờ bên kia. Người ta đo được $\widehat{CAB}=50^\circ$ và $\widehat{CBA}=60^\circ$. Tính khoảng cách $AC$ theo mét (làm tròn đến hàng đơn vị).
 ::key 92
 $\widehat{ACB}=180^\circ-50^\circ-60^\circ=70^\circ$. Theo định lí sin, $AC=\dfrac{AB\sin B}{\sin C}=\dfrac{100\sin60^\circ}{\sin70^\circ}\approx92{,}2$, làm tròn được $92$ m.

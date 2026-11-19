@@ -448,7 +448,7 @@ Hiệu hai vế bằng $\vec{0}$ nên hai vế bằng nhau.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Với ba điểm bất kì $A$, $B$, $C$, vectơ $\overrightarrow{AB}+\overrightarrow{CA}$ bằng
 A. $\vec{0}$.
 B. $\overrightarrow{BC}$.
@@ -457,7 +457,7 @@ D. $\overrightarrow{CB}$.
 ::key D
 Đổi chỗ để điểm cuối vectơ trước là điểm đầu vectơ sau: $\overrightarrow{CA}+\overrightarrow{AB}=\overrightarrow{CB}$. Phương án B viết ngược hướng.
 
-::mc
+::mc NB
 Với hai điểm $A$, $B$ và điểm $M$ bất kì, $\overrightarrow{MA}-\overrightarrow{MB}$ bằng
 A. $\overrightarrow{BA}$.
 B. $\overrightarrow{AB}$.
@@ -466,7 +466,7 @@ D. $2\overrightarrow{MA}$.
 ::key A
 Hiệu của hai vectơ chung điểm đầu là vectơ nối hai điểm cuối, hướng về điểm cuối của vectơ thứ nhất: $\overrightarrow{MA}-\overrightarrow{MB}=\overrightarrow{BA}$. Phương án B là lỗi đổi thứ tự.
 
-::mc
+::mc TH
 Hình vuông $ABCD$ có cạnh $3$. Độ dài của $\overrightarrow{AB}+\overrightarrow{AD}$ là
 A. $6$.
 B. $3$.
@@ -475,7 +475,7 @@ D. $0$.
 ::key C
 Theo quy tắc hình bình hành, $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$, và $AC=\sqrt{3^2+3^2}=3\sqrt2$. Phương án A cộng thẳng hai độ dài.
 
-::mc
+::mc TH
 Cho $M$ là trung điểm của đoạn thẳng $AB$. Khẳng định nào sau đây đúng?
 A. $\overrightarrow{MA}=\overrightarrow{MB}$.
 B. $\overrightarrow{MA}+\overrightarrow{MB}=\vec{0}$.
@@ -484,7 +484,7 @@ D. $\overrightarrow{MA}-\overrightarrow{MB}=\vec{0}$.
 ::key B
 $\overrightarrow{MA}$ và $\overrightarrow{MB}$ cùng độ dài, ngược hướng nên là hai vectơ đối, tổng bằng $\vec{0}$. Phương án A và D coi hai vectơ đối là bằng nhau; ở C thực ra $\overrightarrow{AM}+\overrightarrow{BM}=\vec{0}$.
 
-::tf
+::tf NB TH TH TH
 Cho hình chữ nhật $ABCD$ có $AB=3$, $AD=4$ và tâm $O$.
 a) $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$.
 b) $|\overrightarrow{AB}-\overrightarrow{AD}|=1$.
@@ -493,12 +493,12 @@ d) $|\overrightarrow{AB}+\overrightarrow{CD}|=6$.
 ::key Đ S Đ S
 a) Đúng: quy tắc hình bình hành. b) Sai: $\overrightarrow{AB}-\overrightarrow{AD}=\overrightarrow{DB}$ có độ dài $5$, không phải $4-3$. c) Đúng: $O$ là trung điểm của $AC$ và của $BD$. d) Sai: $\overrightarrow{CD}=-\overrightarrow{AB}$ nên tổng bằng $\vec{0}$, độ dài $0$.
 
-::sa
+::sa VD
 Hình vuông $ABCD$ có cạnh $6$. Tính $|\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AC}|$ (làm tròn đến hàng đơn vị).
 ::key 17
 $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$, nên tổng bằng $\overrightarrow{AC}+\overrightarrow{AC}$, một vectơ cùng hướng với $\overrightarrow{AC}$ và dài gấp đôi: $2\cdot6\sqrt2=12\sqrt2\approx16{,}97$, làm tròn được $17$.
 
-::sa
+::sa VD
 Hai lực có độ lớn $30$ N và $40$ N cùng tác động vào một điểm và tạo với nhau góc $60^\circ$. Tính độ lớn của hợp lực theo niutơn (làm tròn đến hàng đơn vị).
 ::key 61
 Hợp lực là đường chéo của hình bình hành dựng trên hai lực; trong tam giác tạo bởi hai cạnh $30$, $40$ và đường chéo, góc xen giữa là $180^\circ-60^\circ=120^\circ$. Theo định lí côsin, $F^2=900+1600-2\cdot30\cdot40\cos120^\circ=3700$, nên $F\approx60{,}8$, làm tròn được $61$ N.

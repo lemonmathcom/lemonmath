@@ -367,7 +367,7 @@ Take the old number as $1$ part. Then the new number is $10$ parts, so it is $10
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $3.57\times100$ equals
 A. $35.7$.
 B. $3570$.
@@ -376,7 +376,7 @@ D. $0.0357$.
 ::key C
 Move the decimal point right by two places: $3.57\times100=357$. Option A moves it only one place; B writes an extra digit $0$; C moves the decimal point left.
 
-::mc
+::mc NB
 $45.6\div100$ equals
 A. $4.56$.
 B. $456$.
@@ -385,7 +385,7 @@ D. $0.456$.
 ::key D
 Move the decimal point left by two places: $45.6\div100=0.456$. Option A moves it only one place; C and B move the decimal point right.
 
-::mc
+::mc TH
 $56\times0.01$ equals
 A. $0.56$.
 B. $5.6$.
@@ -394,7 +394,7 @@ D. $0.056$.
 ::key A
 Multiplying by $0.01$ is dividing by $100$: $56\div100=0.56$. Option B multiplies by $0.1$; C multiplies by $100$; D moves the decimal point three places.
 
-::mc
+::mc TH
 $0.35$ kg changed into grams is
 A. $3.5$ g.
 B. $350$ g.
@@ -403,7 +403,7 @@ D. $3500$ g.
 ::key B
 $1$ kg $=1000$ g, so $0.35\times1000=350$ g. Options A and C move the decimal point too few places; D moves it too many.
 
-::tf
+::tf NB NB TH TH
 Look at the number $4.5$.
 a) $4.5\times100=450$.
 b) $4.5\div10=0.45$.
@@ -412,12 +412,12 @@ d) $4.5\div0.1=45$.
 ::key T T F T
 a) True: the decimal point moves right by two places. b) True: the decimal point moves left by one place. c) False: multiplying by $0.1$ is dividing by $10$, giving $0.45$. d) True: dividing by $0.1$ is multiplying by $10$.
 
-::sa
+::sa TH
 Work out $0.082\times1000$.
 ::key 82
 Move the decimal point right by three places: $0.082\times1000=82$.
 
-::sa
+::sa TH
 Work out $3.6\div0.01$.
 ::key 360
 Dividing by $0.01$ is multiplying by $100$: $3.6\times100=360$.

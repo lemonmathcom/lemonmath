@@ -304,7 +304,7 @@ $$2000-1300=700\ \text{(ml)}.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $3\ \text{l}\ 200\ \text{ml}$ equals
 A. $500\ \text{ml}$.
 B. $3200\ \text{ml}$.
@@ -313,7 +313,7 @@ D. $32\ \text{ml}$.
 ::key B
 $3\ \text{l}=3000\ \text{ml}$, so $3000+200=3200\ \text{ml}$. A treats $1$ l as $100$ ml, C and D join the digits wrongly.
 
-::mc
+::mc TH
 $1500\ \text{ml}$ equals
 A. $15\ \text{l}$.
 B. $1\ \text{l}\ 50\ \text{ml}$.
@@ -322,7 +322,7 @@ D. $1\ \text{l}\ 5\ \text{ml}$.
 ::key C
 $1500\ \text{ml}=1000\ \text{ml}+500\ \text{ml}=1\ \text{l}\ 500\ \text{ml}$. A converts the unit wrongly, B and D are missing digits $0$.
 
-::mc
+::mc VD
 The first jug holds $600$ ml and the second jug holds $800$ ml. Together they hold
 A. $200\ \text{ml}$.
 B. $14\ \text{l}$.
@@ -331,7 +331,7 @@ D. $1\ \text{l}\ 400\ \text{ml}$.
 ::key D
 "Together" is an addition: $600+800=1400\ \text{ml}=1\ \text{l}\ 400\ \text{ml}$. A is a subtraction, B has the wrong unit, C is missing a digit $0$.
 
-::mc
+::mc TH
 Thermometer A shows $30\ ^\circ\text{C}$ and thermometer B shows $5\ ^\circ\text{C}$. Which statement is correct?
 A. The place with thermometer A is warmer than the place with thermometer B.
 B. The place with thermometer B is warmer than the place with thermometer A.
@@ -340,7 +340,7 @@ D. The place with thermometer A is colder than the place with thermometer B.
 ::key A
 Since $30>5$, the place with thermometer A is warmer. B and D think the smaller number is warmer, C does not compare the two numbers.
 
-::tf
+::tf NB NB NB TH
 Look at these statements.
 a) $1\ \text{l}=1000\ \text{ml}$.
 b) $20\ ^\circ\text{C}$ is warmer than $8\ ^\circ\text{C}$.
@@ -349,12 +349,12 @@ d) $2\ \text{l}\ 50\ \text{ml}=250\ \text{ml}$.
 ::key T T F F
 a) True: $1$ litre is $1000$ millilitres. b) True: $20>8$. c) False: water boils at $100\ ^\circ\text{C}$, and $0\ ^\circ\text{C}$ is where water starts to freeze. d) False: $2\ \text{l}\ 50\ \text{ml}=2050\ \text{ml}$.
 
-::sa
+::sa TH
 Convert $4\ \text{l}$ to millilitres.
 ::key 4000
 $4\times 1000=4000$ (ml).
 
-::sa
+::sa TH
 In the morning the temperature is $18\ ^\circ\text{C}$ and at noon it rises by $11\ ^\circ\text{C}$. What is the temperature at noon, in degrees Celsius?
 ::key 29
 $18+11=29$ ($^\circ\text{C}$).

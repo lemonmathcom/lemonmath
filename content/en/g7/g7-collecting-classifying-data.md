@@ -597,7 +597,7 @@ So a) the total is $170\%$, so no pie chart; b) about $35.3\%$ and $127^\circ$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of the following is qualitative data?
 A. The heights of the pupils in a class.
 B. Each pupil's favourite fruit.
@@ -606,7 +606,7 @@ D. The weekly pocket money of each pupil.
 ::key B
 A fruit is a name, so it is qualitative; the other three are measurements or counts, so they are quantitative.
 
-::mc
+::mc TH
 Out of $40$ pupils, $14$ come by bus. The percentage who come by bus is
 A. $14\%$.
 B. $28\%$.
@@ -615,7 +615,7 @@ D. $65\%$.
 ::key C
 $\dfrac{14}{40}\cdot100\%=35\%$. A uses the number of pupils as a percentage; D is the percentage who do not come by bus.
 
-::mc
+::mc TH
 A sector of a pie chart makes up $25\%$. The angle at the centre of that sector is
 A. $100^\circ$.
 B. $25^\circ$.
@@ -624,7 +624,7 @@ D. $90^\circ$.
 ::key D
 $25\cdot3.6^\circ=90^\circ$, a quarter of $360^\circ$. B confuses the percentage with degrees.
 
-::mc
+::mc TH
 A sector has an angle at the centre of $72^\circ$. What percentage of the whole circle is it?
 A. $20\%$.
 B. $36\%$.
@@ -633,7 +633,7 @@ D. $72\%$.
 ::key A
 $72^\circ\div3.6=20$, so the sector is $20\%$ (because $\dfrac{72}{360}=\dfrac15$). C comes from dividing the wrong way round, $360\div72$.
 
-::tf
+::tf TH TH NB VD
 Use the pie chart "How the $40$ pupils of Class 7A get to school" (on foot $10\%$, bicycle $30\%$, bus $20\%$, motorbike $40\%$). Decide whether each statement is true or false.
 a) The motorbike sector has an angle at the centre of $40^\circ$.
 b) $12$ pupils come by bicycle.
@@ -642,12 +642,12 @@ d) The number of pupils on motorbikes equals the number of pupils on bicycles an
 ::key F T T F
 a) False: the angle is $40\cdot3.6^\circ=144^\circ$. b) True: $40\cdot30\%=12$. c) True: $10\%+20\%=30\%$. d) False: motorbike is $16$ pupils, while bicycle and bus together are $12+8=20$ pupils.
 
-::sa
+::sa VD
 In a pie chart of $40$ pupils, the "Bus" sector has an angle at the centre of $72^\circ$. How many pupils come by bus?
 ::key 8
 $\dfrac{72}{360}\cdot40=8$ (pupils).
 
-::sa
+::sa VD
 A class has $25$ pupils, of whom $7$ like basketball. What is the angle at the centre of the "Basketball" sector, in degrees? (Give your answer to the nearest whole number.)
 ::key 101
 $\dfrac{7}{25}\cdot360^\circ=100.8^\circ\approx101^\circ$.

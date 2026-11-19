@@ -420,7 +420,7 @@ So the total surface area is $324\ \text{cm}^2$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The volume of a cuboid with dimensions $5$ cm, $4$ cm, $3$ cm is
 A. $12\ \text{cm}^3$.
 B. $60\ \text{cm}^3$.
@@ -429,7 +429,7 @@ D. $94\ \text{cm}^3$.
 ::key B
 $V=5\cdot4\cdot3=60\ \text{cm}^3$. A is the sum of the dimensions, C is $ab+bc+ca$, and D is the total surface area $2\cdot47$.
 
-::mc
+::mc VD
 A cube has total surface area $54\ \text{cm}^2$. Its volume is
 A. $18\ \text{cm}^3$.
 B. $9\ \text{cm}^3$.
@@ -438,7 +438,7 @@ D. $54\ \text{cm}^3$.
 ::key C
 $6a^2=54$ gives $a=3$ and $V=27\ \text{cm}^3$. B is $a^2$, A is $54\div3$, and D is $S_{tot}$ itself.
 
-::mc
+::mc TH
 A right prism has a right-angled triangle with sides $3$ cm, $4$ cm, $5$ cm as base, and its height is $8$ cm. Its volume is
 A. $96\ \text{cm}^3$.
 B. $60\ \text{cm}^3$.
@@ -447,7 +447,7 @@ D. $48\ \text{cm}^3$.
 ::key D
 $V=\dfrac12\cdot3\cdot4\cdot8=48\ \text{cm}^3$. A forgets $\dfrac12$, B multiplies all three base sides $3\cdot4\cdot5$, and C is the base perimeter.
 
-::mc
+::mc NB
 A right quadrilateral prism has base perimeter $22$ cm and height $7$ cm. Its lateral surface area is
 A. $154\ \text{cm}^2$.
 B. $22\ \text{cm}^2$.
@@ -456,7 +456,7 @@ D. $308\ \text{cm}^2$.
 ::key A
 $S_{lat}=22\cdot7=154\ \text{cm}^2$. A is the base perimeter, C is $22+7$, and D wrongly doubles the answer.
 
-::tf
+::tf NB TH TH VD
 A cuboid has length $6$ cm, width $4$ cm and height $3$ cm. Decide whether each statement is true or false.
 a) The volume of the cuboid is $72\ \text{cm}^3$.
 b) The lateral surface area is $60\ \text{cm}^2$.
@@ -465,12 +465,12 @@ d) If all three dimensions are doubled, the volume doubles.
 ::key T T F F
 a) True: $6\cdot4\cdot3=72$. b) True: $2(6+4)\cdot3=60$. c) False: $60+2\cdot24=108$. d) False: the volume becomes $2^3=8$ times as large.
 
-::sa
+::sa VD
 A cuboid-shaped tank measures $120$ cm, $50$ cm and $80$ cm. How many litres of water does it hold when full?
 ::key 480
 $V=120\cdot50\cdot80=480\,000\ \text{cm}^3=480$ litres.
 
-::sa
+::sa VD
 A right prism has a right-angled triangle as base, with legs $5$ cm and $12$ cm (hypotenuse $13$ cm), and its height is $4$ cm. Find the total surface area (in $\text{cm}^2$).
 ::key 180
 $B=\dfrac12\cdot5\cdot12=30$ and $P=5+12+13=30$. $S_{tot}=30\cdot4+2\cdot30=180\ (\text{cm}^2)$.

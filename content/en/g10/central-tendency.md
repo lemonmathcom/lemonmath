@@ -386,7 +386,7 @@ For $(8, 9)$: $17\ge17$, true. For $(10, 6)$: $16\ge17$, false.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The mean of the data set $2, 5, 6, 9, 13$ is
 A. $6$.
 B. $7$.
@@ -395,7 +395,7 @@ D. $35$.
 ::key B
 The total is $35$ and there are $5$ values, so $\bar x=\dfrac{35}{5}=7$. Option A is the median, C divides by $4$ by mistake, and D is the total before dividing.
 
-::mc
+::mc NB
 The median of the data set $9, 2, 13, 4, 6, 15$ is
 A. $6$.
 B. $8.5$.
@@ -404,7 +404,7 @@ D. $9$.
 ::key C
 Sorted: $2, 4, 6, 9, 13, 15$. There are $6$ values, so $M=\dfrac{6+9}{2}=7.5$. Option B takes the two middle numbers before sorting ($13$ and $4$).
 
-::mc
+::mc NB
 In one month a shop sells $5$ pairs of shoes in size $36$, $9$ pairs in size $37$, $14$ pairs in size $38$, $8$ pairs in size $39$ and $3$ pairs in size $40$. The mode of the shoe-size data is
 A. $14$.
 B. $37$.
@@ -413,7 +413,7 @@ D. $38$.
 ::key D
 The mode is the value with the largest frequency: size $38$ ($14$ pairs). Option A confuses the mode with its frequency.
 
-::mc
+::mc TH
 The first quartile $Q_1$ of the data set $1, 3, 4, 6, 7, 8, 9, 11, 12$ is
 A. $3.5$.
 B. $4$.
@@ -422,7 +422,7 @@ D. $10$.
 ::key A
 $n=9$ is odd and $M=7$. Leaving $7$ out, the lower half is $1, 3, 4, 6$, so $Q_1=\dfrac{3+4}{2}=3.5$. Option B puts $7$ into the lower half; D is $Q_3$.
 
-::tf
+::tf NB NB TH VD
 Consider the data set $3, 5, 5, 6, 8, 9, 20$.
 a) The mean is $8$.
 b) The median is $6$.
@@ -431,12 +431,12 @@ d) If the value $20$ is removed, the mean falls by less than $1$.
 ::key T T F F
 a) True: $\bar x=\dfrac{56}{7}=8$. b) True: the $4$th value is $6$. c) False: the upper half (without $6$) is $8, 9, 20$, so $Q_3=9$. d) False: the remaining mean is $\dfrac{36}{6}=6$, a fall of $2$.
 
-::sa
+::sa VD
 In a group of $20$ students, $4$ score $6$, $6$ score $7$, $7$ score $8$ and $3$ score $9$. Find the mean mark of the group.
 ::key 7.45
 $\bar x=\dfrac{4\cdot6+6\cdot7+7\cdot8+3\cdot9}{20}=\dfrac{149}{20}=7.45$.
 
-::sa
+::sa VD
 The mean age of a group of $12$ friends is $15$. When their teacher joins the group, the mean age of all $13$ people is $17$. How old is the teacher?
 ::key 41
 The $12$ friends' ages add up to $12\cdot15=180$, and the $13$ people's to $13\cdot17=221$. So the teacher is $221-180=41$.

@@ -265,7 +265,7 @@ So the point is $(3,\ 4)$, the centre of the circle through all three points.
 :::
 
 :::quiz
-::mc
+::mc NB
 The gradient of $y=-3x+2$ is
 A. $2$
 B. $-3$
@@ -274,7 +274,7 @@ D. $-\dfrac13$
 ::key B
 In $y=mx+c$, $m$ is the gradient.
 
-::mc
+::mc TH
 A line has gradient $\dfrac23$. A perpendicular line has gradient
 A. $-\dfrac32$
 B. $\dfrac32$
@@ -283,7 +283,7 @@ D. $\dfrac23$
 ::key A
 The negative reciprocal.
 
-::mc
+::mc TH
 The midpoint of $(2,\ 8)$ and $(6,\ 0)$ is
 A. $(8,\ 8)$
 B. $(2,\ 4)$
@@ -292,7 +292,7 @@ D. $(4,\ 8)$
 ::key C
 $\left(\dfrac{2+6}{2},\ \dfrac{8+0}{2}\right)$.
 
-::mc
+::mc TH
 The $y$-intercept of $2x+y=5$ is
 A. $2$
 B. $-2$
@@ -301,7 +301,7 @@ D. $5$
 ::key D
 $y=-2x+5$.
 
-::tf
+::tf NB TH NB TH
 Consider the line $y=2x-4$. Decide whether each statement is true or false.
 a) Its gradient is $2$.
 b) It passes through $(2,\ 0)$.
@@ -310,12 +310,12 @@ d) It is parallel to $y=-2x$.
 ::key T T T F
 Parallel lines need equal gradients.
 
-::sa
+::sa TH
 Find the distance from $(0,\ 0)$ to $(6,\ 8)$.
 ::key 10
 $\sqrt{36+64}=10$.
 
-::sa
+::sa TH
 Find the gradient of the line through $(1,\ 3)$ and $(3,\ 11)$.
 ::key 4
 $\dfrac{11-3}{3-1}=4$.

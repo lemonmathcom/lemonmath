@@ -311,7 +311,7 @@ b) $3\times3=9$, nên $63:\square=9$ và $\square=63:9=7$. Thử lại: $63:7=9$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tìm $\square$, biết $\square\times7=42$.
 A. $49$.
 B. $6$.
@@ -320,7 +320,7 @@ D. $7$.
 ::key B
 $\square=42:7=6$. Phương án A là $42+7$, phương án C là $42-7$.
 
-::mc
+::mc TH
 Tìm $\square$, biết $\square:6=8$.
 A. $14$.
 B. $48$.
@@ -329,7 +329,7 @@ D. $8$.
 ::key B
 $\square$ là số bị chia nên $\square=8\times6=48$. Phương án A là lỗi cộng $8+6$.
 
-::mc
+::mc TH
 Tìm $\square$, biết $40:\square=5$.
 A. $200$.
 B. $35$.
@@ -338,7 +338,7 @@ D. $45$.
 ::key C
 $\square$ là số chia nên $\square=40:5=8$. Phương án A là lỗi nhân $40\times5$.
 
-::mc
+::mc TH
 Có $54$ viên bi chia đều vào các túi, mỗi túi $9$ viên. Hỏi có bao nhiêu túi?
 A. $63$ túi.
 B. $45$ túi.
@@ -347,7 +347,7 @@ D. $486$ túi.
 ::key C
 Ta có $9\times\square=54$ nên $\square=54:9=6$. Phương án D là lỗi nhân $54\times9$.
 
-::tf
+::tf NB TH TH TH
 Em xét phép tính $\square\times8=56$.
 a) $\square=56:8$.
 b) $\square=7$.
@@ -356,12 +356,12 @@ d) Thử lại: $7\times8=56$.
 ::key Đ Đ S Đ
 a) Đúng: thừa số chưa biết bằng tích chia thừa số đã biết. b) Đúng: $56:8=7$. c) Sai: $64$ là $56+8$, và $64\times8=512$. d) Đúng: $7\times8=56$.
 
-::sa
+::sa TH
 Tìm $\square$, biết $72:\square=9$.
 ::key 8
 $\square$ là số chia nên $\square=72:9=8$.
 
-::sa
+::sa VD
 Một số quyển vở chia đều cho $7$ bạn, mỗi bạn $9$ quyển. Hỏi có tất cả bao nhiêu quyển vở?
 ::key 63
 Ta có $\square:7=9$ nên $\square=9\times7=63$ (quyển).

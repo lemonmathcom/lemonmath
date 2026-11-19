@@ -398,7 +398,7 @@ There are $4$ choices for the initial point and $3$ for the terminal point: $4\c
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Given three distinct points $A$, $B$, $C$, how many non-zero vectors have their initial and terminal points among these three points?
 A. $3$.
 B. $6$.
@@ -407,7 +407,7 @@ D. $12$.
 ::key B
 There are $3$ choices for the initial point and $2$ for a different terminal point: $3\cdot2=6$ vectors. Option A counts only segments (forgetting that $\overrightarrow{AB}\ne\overrightarrow{BA}$); option C also counts $\overrightarrow{AA}$, $\overrightarrow{BB}$, $\overrightarrow{CC}$.
 
-::mc
+::mc TH
 $ABCD$ is a parallelogram. Which equality is true?
 A. $\overrightarrow{AB}=\overrightarrow{CD}$.
 B. $\overrightarrow{AB}=\overrightarrow{DC}$.
@@ -416,7 +416,7 @@ D. $\overrightarrow{AC}=\overrightarrow{BD}$.
 ::key B
 $\overrightarrow{AB}$ and $\overrightarrow{DC}$ have the same direction and the same length. Options A and C put the letters in the wrong order and give opposite vectors; the two diagonals in D are not collinear.
 
-::mc
+::mc TH
 Triangle $ABC$ is equilateral with side $2$, and $M$ is the midpoint of $BC$. The magnitude of $\overrightarrow{AM}$ is
 A. $\sqrt3$.
 B. $2$.
@@ -425,7 +425,7 @@ D. $\sqrt5$.
 ::key A
 $AM$ is an altitude: $AM=\sqrt{AB^2-BM^2}=\sqrt{4-1}=\sqrt3$. Option C is $|\overrightarrow{BM}|$; option D adds $4+1$ in Pythagoras' theorem by mistake.
 
-::mc
+::mc NB
 Which claim is true?
 A. Two vectors with equal lengths are equal.
 B. Two collinear vectors have the same direction.
@@ -434,7 +434,7 @@ D. If $\overrightarrow{AB}$ and $\overrightarrow{CD}$ are collinear, then the fo
 ::key C
 This is the convention. A is false because the same direction is also needed; B is false because collinear vectors may have opposite directions; D is false because the two lines of action may be parallel rather than the same line.
 
-::tf
+::tf TH TH TH TH
 $ABCDEF$ is a regular hexagon with centre $O$.
 a) $\overrightarrow{OA}=\overrightarrow{DO}$.
 b) $\overrightarrow{FE}=\overrightarrow{OB}$.
@@ -443,12 +443,12 @@ d) $|\overrightarrow{AD}|=2|\overrightarrow{AB}|$.
 ::key T F T T
 a) True: $D$, $O$, $A$ lie on one line in this order and $DO=OA$. b) False: $FE\parallel AD$ while $OB$ lies on the line $BE$, so the vectors are not collinear. c) True: $O$ is the midpoint of $BE$. d) True: $AD=2\cdot OA=2\cdot AB$.
 
-::sa
+::sa VD
 $ABCD$ is a parallelogram, and $M$, $N$ are the midpoints of $AB$ and $CD$. How many vectors with endpoints in the set $\{A, B, C, D, M, N\}$ are equal to $\overrightarrow{AM}$ (counting $\overrightarrow{AM}$ itself)?
 ::key 4
 The segments parallel to $AB$ with length $\dfrac{AB}{2}$ are $AM$, $MB$, $DN$, $NC$. Taking each one in the direction of $\overrightarrow{AB}$ gives $\overrightarrow{AM}$, $\overrightarrow{MB}$, $\overrightarrow{DN}$, $\overrightarrow{NC}$: $4$ vectors.
 
-::sa
+::sa VD
 Rhombus $ABCD$ has side $5$ and $\angle BAD=60^\circ$. Find $|\overrightarrow{AC}|$ (rounded to one decimal place).
 ::key 8.7
 The diagonal $AC$ bisects the angle $A$ and is perpendicular to $BD$, so $AC=2\cdot5\cos30^\circ=5\sqrt3\approx8.66$, which rounds to $8.7$.

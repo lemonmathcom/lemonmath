@@ -290,7 +290,7 @@ $$1000-650=350\ \text{(mm)}.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $4\ \text{cm}\ 5\ \text{mm}$ bằng
 A. $9\ \text{mm}$.
 B. $405\ \text{mm}$.
@@ -299,7 +299,7 @@ D. $450\ \text{mm}$.
 ::key C
 $4\ \text{cm}=40\ \text{mm}$, nên $40+5=45\ \text{mm}$. A cộng $4+5$, B coi $1$ cm bằng $100$ mm, D đọc thành $45$ cm.
 
-::mc
+::mc TH
 $86\ \text{mm}$ bằng
 A. $8\ \text{cm}\ 60\ \text{mm}$.
 B. $6\ \text{cm}\ 8\ \text{mm}$.
@@ -308,7 +308,7 @@ D. $8\ \text{cm}\ 6\ \text{mm}$.
 ::key D
 $86\ \text{mm}=80\ \text{mm}+6\ \text{mm}=8\ \text{cm}\ 6\ \text{mm}$. B đảo hai chữ số, C sai đơn vị, A chưa đổi hết.
 
-::mc
+::mc TH
 $2\ \text{kg}\ 50\ \text{g}$ bằng
 A. $2050\ \text{g}$.
 B. $2500\ \text{g}$.
@@ -317,7 +317,7 @@ D. $52\ \text{g}$.
 ::key A
 $2\ \text{kg}=2000\ \text{g}$, nên $2000+50=2050\ \text{g}$. A và B ghép sai các chữ số, D cộng $2+50$.
 
-::mc
+::mc TH
 Mẹ mua $800$ g thịt và $700$ g cá. Mẹ mua tất cả
 A. $150$ g.
 B. $1500$ g.
@@ -326,7 +326,7 @@ D. $15$ kg.
 ::key B
 "Tất cả" là phép cộng: $800+700=1500$ g. A thiếu một chữ số $0$, C là phép trừ, D sai đơn vị.
 
-::tf
+::tf NB NB TH NB
 Em xét các số đo.
 a) $1\ \text{kg}=100\ \text{g}$.
 b) $1\ \text{cm}=10\ \text{mm}$.
@@ -335,12 +335,12 @@ d) $1\ \text{m}=100\ \text{mm}$.
 ::key S Đ Đ S
 a) Sai: $1\ \text{kg}=1000\ \text{g}$. b) Đúng: mỗi xăng-ti-mét có $10$ mi-li-mét. c) Đúng: $3000+200=3200$. d) Sai: $1\ \text{m}=1000\ \text{mm}$.
 
-::sa
+::sa TH
 $5\ \text{cm}\ 3\ \text{mm}$ bằng bao nhiêu mi-li-mét?
 ::key 53
 $5\ \text{cm}=50\ \text{mm}$, nên $50+3=53\ \text{mm}$.
 
-::sa
+::sa VD
 Mẹ mua $1$ kg đường và dùng hết $450$ g. Còn lại bao nhiêu gam đường?
 ::key 550
 $1\ \text{kg}=1000\ \text{g}$, nên $1000-450=550$ (g).

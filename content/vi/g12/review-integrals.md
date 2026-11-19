@@ -374,7 +374,7 @@ $$S=\int_{-4}^4\left(4-\frac{x^2}{4}\right)dx=\Big[4x-\frac{x^3}{12}\Big]_{-4}^4
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Họ nguyên hàm của hàm số $f(x)=2^x$ là
 A. $x\cdot2^{x-1}+C$.
 B. $2^x\ln2+C$.
@@ -383,7 +383,7 @@ D. $\dfrac{2^x}{\ln2}+C$.
 ::key D
 $\left(\dfrac{2^x}{\ln2}\right)'=\dfrac{2^x\ln2}{\ln2}=2^x$. Phương án B là đạo hàm của $2^x$; C và A dùng nhầm công thức cho luỹ thừa $x^\alpha$.
 
-::mc
+::mc TH
 $\displaystyle\int_1^2\frac1x\,dx$ bằng
 A. $\dfrac34$.
 B. $\ln2$.
@@ -392,7 +392,7 @@ D. $\dfrac12$.
 ::key B
 $\Big[\ln x\Big]_1^2=\ln2-0=\ln2$. Phương án A dùng nhầm "nguyên hàm" $-\dfrac{1}{x^2}$ (thực ra là đạo hàm); C cộng hai cận.
 
-::mc
+::mc NB
 Hàm số $f$, $g$ liên tục trên $[a; b]$. Diện tích hình phẳng giới hạn bởi $y=f(x)$, $y=g(x)$, $x=a$, $x=b$ là
 A. $\pi\displaystyle\int_a^b\left[f(x)-g(x)\right]^2dx$.
 B. $\displaystyle\int_a^b\left[f(x)-g(x)\right]dx$.
@@ -401,7 +401,7 @@ D. $\left\lvert\displaystyle\int_a^b\left[f(x)-g(x)\right]dx\right\rvert$.
 ::key C
 Diện tích cần giá trị tuyệt đối bên trong tích phân. B có thể âm; D sai khi $f-g$ đổi dấu trên $[a; b]$; A là dạng công thức thể tích.
 
-::mc
+::mc TH
 Biết $\displaystyle\int_0^2 f(x)\,dx=3$. Giá trị của $\displaystyle\int_0^2\left[2f(x)+x\right]dx$ là
 A. $8$.
 B. $7$.
@@ -410,7 +410,7 @@ D. $10$.
 ::key A
 $2\cdot3+\Big[\dfrac{x^2}{2}\Big]_0^2=6+2=8$. Phương án B lấy $\displaystyle\int_0^2x\,dx=1$; C quên số hạng $x$.
 
-::tf
+::tf NB TH TH VD
 Cho hình phẳng $H$ giới hạn bởi $y=x^2$, trục $Ox$ và các đường thẳng $x=0$, $x=3$.
 a) Diện tích của $H$ là $S=\displaystyle\int_0^3x^2\,dx$.
 b) $S=9$.
@@ -419,12 +419,12 @@ d) $V=\dfrac{243\pi}{5}$.
 ::key Đ Đ S Đ
 a) Đúng: $x^2\ge0$. b) Đúng: $\dfrac{27}{3}=9$. c) Sai: phải bình phương hàm số, $V=\pi\displaystyle\int_0^3x^4\,dx$. d) Đúng: $\pi\Big[\dfrac{x^5}{5}\Big]_0^3=\dfrac{243\pi}{5}$.
 
-::sa
+::sa VD
 Một vật chuyển động với vận tốc $v(t)=3t^2+2t$ (m/s). Tính quãng đường vật đi được từ $t=0$ đến $t=4$ giây (đơn vị: mét).
 ::key 80
 $v(t)\ge0$ trên $[0; 4]$, $s=\Big[t^3+t^2\Big]_0^4=64+16=80$.
 
-::sa
+::sa TH
 Tính $\displaystyle\int_0^1\left(e^x+1\right)dx$ (làm tròn kết quả đến hàng phần trăm).
 ::key 2,72
 $\Big[e^x+x\Big]_0^1=(e+1)-1=e\approx2{,}718$, làm tròn được $2{,}72$.

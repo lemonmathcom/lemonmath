@@ -303,7 +303,7 @@ b) $47+16=63$, so $90-\square=63$ and $\square=90-63=27$. Check: $90-27=63$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Find $\square$ when $\square+7=19$.
 A. $26$.
 B. $22$.
@@ -312,7 +312,7 @@ D. $19$.
 ::key C
 $\square=19-7=12$. Option A is the mistake of adding $19+7$ instead of subtracting.
 
-::mc
+::mc TH
 Find $\square$ when $15-\square=6$.
 A. $21$.
 B. $8$.
@@ -321,7 +321,7 @@ D. $9$.
 ::key D
 $\square$ is the subtrahend, so $\square=15-6=9$. Option A is the mistake of adding $15+6$.
 
-::mc
+::mc TH
 Find $\square$ when $\square-14=25$.
 A. $39$.
 B. $11$.
@@ -330,7 +330,7 @@ D. $29$.
 ::key A
 $\square$ is the minuend, so $\square=25+14=39$. Option B is the mistake of subtracting $25-14$.
 
-::mc
+::mc VD
 Ha has some exercise-book labels. She buys $16$ more and now has $50$. How many labels did Ha have at the start?
 A. $66$.
 B. $34$.
@@ -339,7 +339,7 @@ D. $36$.
 ::key B
 We have $\square+16=50$, so $\square=50-16=34$. Option A is the mistake of adding $50+16$.
 
-::tf
+::tf NB TH TH TH
 Look at the sum $\square+24=70$.
 a) The missing number equals $70-24$.
 b) The missing number equals $46$.
@@ -348,12 +348,12 @@ d) Check: $46+24=70$.
 ::key T T F T
 a) True: the missing addend is the sum minus the known addend. b) True: $70-24=46$. c) False: $94$ is $70+24$, and $94+24=118$. d) True: $46+24=70$.
 
-::sa
+::sa TH
 Find $\square$ when $63-\square=29$.
 ::key 34
 $\square$ is the subtrahend, so $\square=63-29=34$.
 
-::sa
+::sa VD
 A basket holds some oranges. Mum takes out $18$ and $27$ are left. How many oranges were in the basket at the start?
 ::key 45
 We have $\square-18=27$, so $\square=27+18=45$ (oranges).

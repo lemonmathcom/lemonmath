@@ -331,7 +331,7 @@ b) The boxes still to fill: $10-6=4$ (boxes). The balls already packed: $4\times
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $4\times6$ equals
 A. $10$.
 B. $28$.
@@ -340,7 +340,7 @@ D. $24$.
 ::key D
 $4\times6=4\times5+4=20+4=24$. Option A is the mistake of adding $4+6$.
 
-::mc
+::mc NB
 $4\times7$ equals
 A. $28$.
 B. $32$.
@@ -349,7 +349,7 @@ D. $11$.
 ::key A
 $4\times7=24+4=28$. Option C is $4\times6$, missing one group of $4$.
 
-::mc
+::mc NB
 $32\div4$ equals
 A. $9$.
 B. $8$.
@@ -358,7 +358,7 @@ D. $28$.
 ::key B
 Since $4\times8=32$, we have $32\div4=8$. Option C is $28\div4$.
 
-::mc
+::mc TH
 Each hutch has $4$ rabbits. How many rabbits are in $9$ such hutches?
 A. $13$ rabbits.
 B. $32$ rabbits.
@@ -367,7 +367,7 @@ D. $40$ rabbits.
 ::key C
 $9$ groups of $4$: $4\times9=36$. Option A is the mistake of adding $4+9$.
 
-::tf
+::tf TH NB TH NB
 Look at the multiplication $4\times8=32$.
 a) $4\times8=4\times7+4$.
 b) $32\div4=8$.
@@ -376,12 +376,12 @@ d) $4\times8$ is greater than $36$.
 ::key T T T F
 a) True: $28+4=32$. b) True: $4\times8=32$. c) True: $8\times4=32$. d) False: $32<36$.
 
-::sa
+::sa NB
 Work out $4\times9$.
 ::key 36
 $4\times9=4\times8+4=32+4=36$.
 
-::sa
+::sa TH
 There are $40$ pens to put into boxes, $4$ pens in each box. How many boxes are filled?
 ::key 10
 $40\div4=10$ (boxes), because $4\times10=40$.

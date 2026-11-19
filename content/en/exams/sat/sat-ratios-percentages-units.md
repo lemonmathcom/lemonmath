@@ -241,7 +241,7 @@ $12=0.2(40+w)\iff 60=40+w\iff w=20$. Add 20 liters of water: the new solution ha
 :::
 
 :::quiz
-::mc
+::mc TH
 Two numbers are in the ratio $2:3$ and their sum is 45. What is the larger number?
 A. $18$
 B. $27$
@@ -250,7 +250,7 @@ D. $15$
 ::key B
 $45\div5=9$ per part, so the larger number is $3\cdot9=27$. Option A is the smaller number.
 
-::mc
+::mc NB
 What is 40% of 65?
 A. $26$
 B. $16$
@@ -259,7 +259,7 @@ D. $2.6$
 ::key A
 $0.4\cdot65=26$. Option C is 60% of 65.
 
-::mc
+::mc TH
 A quantity increases from 50 to 65. What is the percent increase?
 A. $15\%$
 B. $23\%$
@@ -268,7 +268,7 @@ D. $130\%$
 ::key C
 $\dfrac{15}{50}=0.3$. Option B divides by $65$; option D is the ratio $\dfrac{65}{50}$.
 
-::mc
+::mc TH
 A cyclist rides at 15 meters per second. What is this speed in kilometers per hour?
 A. $4.2$
 B. $25$
@@ -277,7 +277,7 @@ D. $54$
 ::key D
 $15\cdot\dfrac{3{,}600}{1{,}000}=15\cdot3.6=54$. Option A divides by $3.6$ instead.
 
-::tf
+::tf TH TH VD NB
 A pair of shoes costs 120 dollars and is offered at a 25% discount.
 a) The sale price is 90 dollars.
 b) The discount is 25 dollars.
@@ -286,12 +286,12 @@ d) The sale price is 75% of the original price.
 ::key T F F T
 a) True: $120\cdot0.75=90$. b) False: the discount is $30$ dollars. c) False: $90\cdot1.25=112.5$. d) True: $1-0.25=0.75$.
 
-::sa
+::sa TH
 12 is what percent of 48?
 ::key 25
 $\dfrac{12}{48}=0.25=25\%$.
 
-::sa
+::sa TH
 On a map, 1 centimeter represents 4 kilometers. Two lakes are 6.5 centimeters apart on the map. How many kilometers apart are they?
 ::key 26
 $6.5\cdot4=26$ kilometers.

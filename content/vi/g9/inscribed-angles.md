@@ -355,7 +355,7 @@ Vậy $IC=3$ cm và $ID=8$ cm.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Góc nội tiếp chắn cung có số đo $100^\circ$ có số đo là
 A. $100^\circ$.
 B. $50^\circ$.
@@ -364,7 +364,7 @@ D. $130^\circ$.
 ::key B
 Góc nội tiếp bằng nửa cung bị chắn: $50^\circ$. A nhầm với góc ở tâm, C nhân đôi thay vì chia đôi, D lấy nửa cung lớn.
 
-::mc
+::mc TH
 Cho đường tròn $(O)$ đường kính $AB$ và điểm $C$ thuộc đường tròn với $\widehat{CAB}=35^\circ$. Số đo $\widehat{CBA}$ là
 A. $35^\circ$.
 B. $90^\circ$.
@@ -373,7 +373,7 @@ D. $55^\circ$.
 ::key D
 $\widehat{ACB}=90^\circ$ (chắn nửa đường tròn), nên $\widehat{CBA}=90^\circ-35^\circ=55^\circ$. A coi tam giác cân tại $C$, B nhầm với $\widehat{ACB}$, C quên góc vuông tại $C$ (lấy $180^\circ-35^\circ$).
 
-::mc
+::mc TH
 Cho $A$, $B$, $M$ thuộc đường tròn $(O)$, $\widehat{AOB}=140^\circ$ và $M$ thuộc cung lớn $AB$. Số đo $\widehat{AMB}$ là
 A. $70^\circ$.
 B. $140^\circ$.
@@ -382,7 +382,7 @@ D. $280^\circ$.
 ::key A
 $\widehat{AMB}$ chắn cung nhỏ $140^\circ$, nên bằng $70^\circ$. B là góc ở tâm, C ứng với $M$ thuộc cung nhỏ, D nhân đôi thay vì chia đôi.
 
-::mc
+::mc TH
 Cho bốn điểm $A$, $B$, $C$, $D$ thuộc một đường tròn, $C$ và $D$ cùng thuộc cung lớn $AB$, $\widehat{ACB}=40^\circ$. Số đo $\widehat{ADB}$ là
 A. $80^\circ$.
 B. $140^\circ$.
@@ -391,7 +391,7 @@ D. $20^\circ$.
 ::key C
 Hai góc nội tiếp cùng chắn cung nhỏ $AB$ nên bằng nhau: $\widehat{ADB}=40^\circ$. A nhân đôi như góc ở tâm, B coi $D$ ở cung kia ($180^\circ-40^\circ$), D chia đôi thêm một lần.
 
-::tf
+::tf NB TH TH VD
 Cho đường tròn $(O; 8{,}5\text{ cm})$ có đường kính $AB$ và điểm $C$ thuộc đường tròn với $AC=8$ cm. Xét tính đúng sai của các mệnh đề sau:
 a) $\widehat{ACB}=90^\circ$.
 b) $BC=15$ cm.
@@ -400,12 +400,12 @@ d) Diện tích tam giác $ABC$ bằng $120$ cm².
 ::key Đ Đ Đ S
 a) Đúng: chắn nửa đường tròn. b) Đúng: $\sqrt{17^2-8^2}=15$. c) Đúng: góc ở tâm và góc nội tiếp cùng chắn cung nhỏ $AC$. d) Sai: $\dfrac12\cdot8\cdot15=60$ cm².
 
-::sa
+::sa TH
 Một góc nội tiếp có số đo $27^\circ$. Tính số đo (đơn vị: độ) của cung bị chắn.
 ::key 54
 Cung bị chắn bằng hai lần góc nội tiếp: $2\cdot27^\circ=54^\circ$.
 
-::sa
+::sa TH
 Cho tam giác nhọn $ABC$ nội tiếp đường tròn $(O)$ có $\widehat{ABC}=62^\circ$. Tính số đo (đơn vị: độ) của góc $\widehat{AOC}$.
 ::key 124
 Góc nội tiếp $\widehat{ABC}$ và góc ở tâm $\widehat{AOC}$ cùng chắn cung nhỏ $AC$, nên $\widehat{AOC}=2\cdot62^\circ=124^\circ$.

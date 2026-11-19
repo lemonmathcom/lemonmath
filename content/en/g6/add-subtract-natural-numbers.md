@@ -312,7 +312,7 @@ Since the remainder is less than $8$, $r$ can only be $0$, $1$, ..., $7$. a) The
 ## Mini test
 
 :::quiz
-::mc
+::mc VD
 The value of $125+38+75+62$ is
 A. $300$.
 B. $238$.
@@ -321,7 +321,7 @@ D. $400$.
 ::key A
 $(125+75)+(38+62)=200+100=300$. Option C forgets the pair $38+62$, B only adds $125+38+75$, D wrongly adds the two groups as $200+200$.
 
-::mc
+::mc TH
 The value of $1976-999$ is
 A. $1977$.
 B. $977$.
@@ -330,7 +330,7 @@ D. $877$.
 ::key B
 $1976-999=1977-1000=977$. Option A forgets to subtract $1000$; C and D are subtraction slips.
 
-::mc
+::mc VD
 The value of $47\times99$ is
 A. $4700$.
 B. $4606$.
@@ -339,7 +339,7 @@ D. $4747$.
 ::key C
 $47\times99=47\times(100-1)=4700-47=4653$. Option A skips the subtraction, B is $47\times98$, D is $47\times101$.
 
-::mc
+::mc TH
 Which is the correct way to write $100$ divided by $7$?
 A. $100=7\times13+9$.
 B. $100=7\times12+16$.
@@ -348,7 +348,7 @@ D. $100=7\times14+2$.
 ::key D
 The remainder must be non-negative and less than the divisor: $2<7$. Options A and B have a remainder bigger than $7$; C has a negative remainder.
 
-::tf
+::tf NB TH TH NB
 About division of natural numbers.
 a) $0\div5=0$.
 b) $5\div0=0$.
@@ -357,12 +357,12 @@ d) $6\times(10+4)=6\times10+6\times4$.
 ::key T F F T
 a) True: $5\times0=0$. b) False: division by $0$ does not exist. c) False: the remainder is less than $6$. d) True: the distributive property.
 
-::sa
+::sa TH
 Find the remainder when $250$ is divided by $12$.
 ::key 10
 $250=12\times20+10$.
 
-::sa
+::sa VD
 $200$ students board coaches with $45$ seats each. What is the least number of coaches needed?
 ::key 5
 $200=45\times4+20$, and the $20$ left over need one more coach: $4+1=5$.

@@ -416,7 +416,7 @@ Vậy số cần tìm là $73$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $\text{BCNN}(12,20)$ bằng
 A. $4$.
 B. $240$.
@@ -425,7 +425,7 @@ D. $120$.
 ::key C
 $12=2^2\cdot3$, $20=2^2\cdot5$, nên BCNN là $2^2\cdot3\cdot5=60$. A là ƯCLN; B là tích $12\cdot20$; D là một bội chung nhưng chưa nhỏ nhất.
 
-::mc
+::mc TH
 Biết $\text{BCNN}(a,b)=15$. Các bội chung của $a$ và $b$ nhỏ hơn $50$ là
 A. $1$; $3$; $5$; $15$.
 B. $0$; $15$; $30$; $45$.
@@ -434,7 +434,7 @@ D. $0$; $15$.
 ::key B
 Các bội chung là các bội của $15$. A là các ước của $15$; C có $60>50$ và thiếu $0$; D thiếu $30$, $45$.
 
-::mc
+::mc TH
 Mẫu chung nhỏ nhất khi quy đồng $\dfrac{1}{6}$ và $\dfrac{3}{10}$ là
 A. $60$.
 B. $16$.
@@ -443,7 +443,7 @@ D. $30$.
 ::key D
 Mẫu chung nhỏ nhất là $\text{BCNN}(6,10)=30$. A là tích $6\cdot10$; B là tổng; C là ƯCLN.
 
-::mc
+::mc VD
 Hai bánh răng ăn khớp nhau, bánh nhỏ có $12$ răng, bánh lớn có $18$ răng. Hai răng đánh dấu đang chạm nhau. Bánh nhỏ phải quay ít nhất bao nhiêu vòng để hai răng ấy lại chạm nhau?
 A. $3$ vòng.
 B. $2$ vòng.
@@ -452,7 +452,7 @@ D. $6$ vòng.
 ::key A
 Số răng đi qua chỗ tiếp xúc ít nhất là $\text{BCNN}(12,18)=36$, nên bánh nhỏ quay $36:12=3$ vòng. B là số vòng của bánh lớn; C nhầm số răng với số vòng; D là ƯCLN.
 
-::tf
+::tf TH TH TH TH
 Xét tính đúng sai của các mệnh đề sau:
 a) $\text{BCNN}(5,7)=35$.
 b) $\text{BCNN}(16,4)=64$.
@@ -461,12 +461,12 @@ d) Nếu $\text{ƯCLN}(a,b)=1$ thì $\text{BCNN}(a,b)=a\cdot b$.
 ::key Đ S Đ Đ
 a) Đúng: $5$ và $7$ nguyên tố cùng nhau. b) Sai: $16$ chia hết cho $4$ nên $\text{BCNN}=16$. c) Đúng: $0$ chia hết cho mọi số khác $0$. d) Đúng: hai số không có thừa số chung nên BCNN là tích.
 
-::sa
+::sa TH
 Tìm $\text{BCNN}(18,24)$.
 ::key 72
 $18=2\cdot3^2$, $24=2^3\cdot3$, nên BCNN là $2^3\cdot3^2=72$.
 
-::sa
+::sa VD
 Một số chia hết cho $4$, $5$ và $6$. Số nhỏ nhất khác $0$ như vậy là bao nhiêu?
 ::key 60
 Đó là $\text{BCNN}(4,5,6)=2^2\cdot3\cdot5=60$.

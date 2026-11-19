@@ -392,7 +392,7 @@ $$(\vec{a}+\vec{b})\cdot(\vec{a}-\vec{b})=|\vec{a}|^2-\vec{a}\cdot\vec{b}+\vec{b
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Let $|\vec a|=4$, $|\vec b|=5$ and $(\vec a, \vec b)=120^\circ$. The scalar product $\vec a\cdot\vec b$ is
 A. $10$.
 B. $-10$.
@@ -401,7 +401,7 @@ D. $-10\sqrt3$.
 ::key B
 $\vec a\cdot\vec b=4\cdot5\cdot\cos120^\circ=20\cdot\left(-\dfrac12\right)=-10$. Option A loses the minus sign of $\cos120^\circ$; C forgets to multiply by the cosine.
 
-::mc
+::mc NB
 Let $\vec a=(2, -3)$ and $\vec b=(4, 1)$. Then $\vec a\cdot\vec b$ equals
 A. $5$.
 B. $(8, -3)$.
@@ -410,7 +410,7 @@ D. $-5$.
 ::key A
 $\vec a\cdot\vec b=2\cdot4+(-3)\cdot1=8-3=5$. The scalar product is a number, not a vector (option B).
 
-::mc
+::mc TH
 Which vector is perpendicular to $\vec a=(3, -2)$?
 A. $(2, 3)$.
 B. $(3, 2)$.
@@ -419,7 +419,7 @@ D. $(2, -3)$.
 ::key A
 $3\cdot2+(-2)\cdot3=0$. For B, C and D the scalar products are $5$, $-13$ and $12$, none of them $0$; the vector in C points the opposite way to $\vec a$.
 
-::mc
+::mc TH
 Triangle $ABC$ is equilateral with side $2$. The scalar product $\overrightarrow{AB}\cdot\overrightarrow{BC}$ is
 A. $2$.
 B. $-2$.
@@ -428,7 +428,7 @@ D. $2\sqrt3$.
 ::key B
 The vectors do not share a tail; moving $\overrightarrow{AB}$ to the tail $B$ gives an angle of $180^\circ-60^\circ=120^\circ$. So the product is $2\cdot2\cdot\cos120^\circ=-2$. Option A wrongly uses the angle $\angle ABC=60^\circ$.
 
-::tf
+::tf NB TH VD TH
 In the coordinate plane, let $A(1, 1)$, $B(4, 2)$ and $C(2, 4)$.
 a) $\overrightarrow{AB}\cdot\overrightarrow{AC}=6$.
 b) Triangle $ABC$ is isosceles with apex $A$.
@@ -437,12 +437,12 @@ d) The angle $\angle ABC$ is obtuse.
 ::key T T F F
 $\overrightarrow{AB}=(3, 1)$ and $\overrightarrow{AC}=(1, 3)$. a) True: $3+3=6$. b) True: $AB=AC=\sqrt{10}$. c) False: $\cos A=\dfrac{6}{10}=0.6\ne\dfrac12$ (the angle is about $53.1^\circ$). d) False: $\overrightarrow{BA}\cdot\overrightarrow{BC}=(-3)(-2)+(-1)\cdot2=4>0$, so angle $B$ is acute.
 
-::sa
+::sa VD
 Let $|\vec a|=3$, $|\vec b|=4$ and $(\vec a, \vec b)=60^\circ$. Find $|\vec a+\vec b|$ (rounded to two decimal places).
 ::key 6.08
 $\vec a\cdot\vec b=3\cdot4\cdot\dfrac12=6$, so $|\vec a+\vec b|^2=9+2\cdot6+16=37$ and $|\vec a+\vec b|=\sqrt{37}\approx6.08$.
 
-::sa
+::sa TH
 A worker drags a crate across the floor with a rope, using a force of $50$ N; the rope makes an angle of $40^\circ$ with the direction of motion. The crate moves $10$ m. Find the work done by the pull, in joules, rounded to the nearest whole number.
 ::key 383
 $W=\vec F\cdot\vec d=50\cdot10\cdot\cos40^\circ\approx383$ J.

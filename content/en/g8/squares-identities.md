@@ -447,7 +447,7 @@ Since $8k$ is a multiple of $8$, the difference of the squares of two consecutiv
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Expanding $(x+5)^2$ gives
 A. $x^2+10x+25$.
 B. $x^2+25$.
@@ -456,7 +456,7 @@ D. $x^2-10x+25$.
 ::key A
 $(x+5)^2=x^2+2\cdot x\cdot5+5^2=x^2+10x+25$. A forgets the middle term, C gets $2ab$ wrong, D has the wrong sign on the middle term.
 
-::mc
+::mc TH
 Expanding $(3x-2)^2$ gives
 A. $9x^2-4$.
 B. $9x^2-12x+4$.
@@ -465,7 +465,7 @@ D. $9x^2-6x+4$.
 ::key B
 $(3x-2)^2=(3x)^2-2\cdot3x\cdot2+2^2=9x^2-12x+4$. A is a difference of two squares, D gets $2ab$ wrong, C has the wrong sign on the middle term.
 
-::mc
+::mc TH
 Expanding $(7x-y)(7x+y)$ gives
 A. $49x^2-14xy+y^2$.
 B. $7x^2-y^2$.
@@ -474,7 +474,7 @@ D. $49x^2+y^2$.
 ::key C
 $(7x-y)(7x+y)=(7x)^2-y^2=49x^2-y^2$. B forgets to square the coefficient $7$, A is a square of a difference, D has the wrong sign.
 
-::mc
+::mc TH
 The expression $x^2-12x+36$ equals
 A. $(x+6)^2$.
 B. $(x-6)(x+6)$.
@@ -483,7 +483,7 @@ D. $(x-6)^2$.
 ::key D
 $x^2-12x+36=x^2-2\cdot x\cdot6+6^2=(x-6)^2$. A has the wrong sign, B equals $x^2-36$, C has middle term $-24x$.
 
-::tf
+::tf NB NB TH TH
 Consider the expression $(x-3)^2$.
 a) $(x-3)^2=x^2-9$.
 b) $(x-3)^2=x^2-6x+9$.
@@ -492,12 +492,12 @@ d) $(x-3)^2=(x-3)(x+3)$.
 ::key F T T F
 a) False: the term $-6x$ is missing. b) True: $x^2-2\cdot x\cdot3+3^2$. c) True: $(3-x)^2=9-6x+x^2$. d) False: $(x-3)(x+3)=x^2-9$.
 
-::sa
+::sa VD
 Calculate $51\cdot49$ mentally.
 ::key 2499
 $51\cdot49=(50+1)(50-1)=50^2-1=2499$.
 
-::sa
+::sa VD
 Given $a+b=7$ and $ab=12$, find $a^2+b^2$.
 ::key 25
 $a^2+b^2=(a+b)^2-2ab=49-24=25$.

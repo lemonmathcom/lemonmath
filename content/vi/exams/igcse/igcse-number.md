@@ -278,7 +278,7 @@ Vậy $x=3$.
 :::
 
 :::quiz
-::mc
+::mc NB
 Giá trị của $5^{-2}$ là
 A. $-25$
 B. $-10$
@@ -287,7 +287,7 @@ D. $\dfrac{1}{25}$
 ::key D
 $5^{-2}=\dfrac{1}{5^2}$.
 
-::mc
+::mc TH
 $0{,}00406$ ở dạng chuẩn là
 A. $4{,}06\times10^{-3}$
 B. $4{,}06\times10^{3}$
@@ -296,7 +296,7 @@ D. $4{,}06\times10^{-2}$
 ::key A
 Dời dấu phẩy sang phải $3$ chữ số.
 
-::mc
+::mc TH
 Một độ dài là $7{,}3$ m, làm tròn đến $1$ chữ số thập phân. Cận trên của nó là
 A. $7{,}4$ m
 B. $7{,}35$ m
@@ -305,7 +305,7 @@ D. $7{,}349$ m
 ::key B
 Một nửa của $0{,}1$ là $0{,}05$.
 
-::mc
+::mc TH
 $\sqrt{12}$ rút gọn được thành
 A. $3\sqrt2$
 B. $4\sqrt3$
@@ -314,7 +314,7 @@ D. $6\sqrt2$
 ::key C
 $\sqrt{4\times3}=2\sqrt3$.
 
-::tf
+::tf NB TH NB NB
 Xét tính đúng sai của các mệnh đề sau:
 a) $16^{\frac12}=4$.
 b) $16^{\frac34}=8$.
@@ -323,12 +323,12 @@ d) $16^{-1}=\dfrac{1}{16}$.
 ::key T T F T
 Mọi số khác $0$ mũ $0$ đều bằng $1$.
 
-::sa
+::sa TH
 Tăng $40$ thêm $15\%$.
 ::key 46
 $40\times1{,}15=46$.
 
-::sa
+::sa TH
 Tính $8^{\frac23}$.
 ::key 4
 $\sqrt[3]8=2$ và $2^2=4$.

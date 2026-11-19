@@ -273,7 +273,7 @@ a) $(4\times4+4)\div4=(16+4)\div4=20\div4=5$. b) $4+4-4\div4=8-1=7$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The value of $12+3\times7$ is
 A. $105$.
 B. $36$.
@@ -282,7 +282,7 @@ D. $33$.
 ::key D
 Multiply first: $3\times7=21$, then $12+21=33$. Option A adds first, C adds $12+3+7$, B takes $12\times3$.
 
-::mc
+::mc TH
 The value of $48-12+8$ is
 A. $44$.
 B. $28$.
@@ -291,7 +291,7 @@ D. $68$.
 ::key A
 Going from left to right: $36+8=44$. Option B adds $12+8$ first, C is $48+12-8$, D is $48+12+8$.
 
-::mc
+::mc TH
 The value of $2\times3^2$ is
 A. $36$.
 B. $18$.
@@ -300,7 +300,7 @@ D. $11$.
 ::key B
 Power first: $3^2=9$, then $2\times9=18$. Option A works out $(2\times3)^2$, C is $2\times3\times2$, D is $2+9$.
 
-::mc
+::mc VD
 The value of $36\div(2+4)\times3$ is
 A. $2$.
 B. $30$.
@@ -309,7 +309,7 @@ D. $6$.
 ::key C
 Brackets first: $36\div6\times3=6\times3=18$. Option A is $36\div(6\times3)$, B ignores the brackets, D forgets to multiply by $3$.
 
-::tf
+::tf TH TH TH TH
 About the order of operations.
 a) $12+3\times7=33$.
 b) $2\times3^2=36$.
@@ -318,12 +318,12 @@ d) $48-12+8=28$.
 ::key T F T F
 a) True. b) False: $2\times9=18$. c) True: $20-10=10$. d) False: left to right gives $44$.
 
-::sa
+::sa VD
 Calculate $3\times2^3+5^2$.
 ::key 49
 $3\times8+25=24+25=49$.
 
-::sa
+::sa VD
 Calculate $2\times[30-(4+6)]$.
 ::key 40
 $2\times[30-10]=2\times20=40$.

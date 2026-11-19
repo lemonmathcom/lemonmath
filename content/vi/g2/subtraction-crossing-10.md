@@ -310,7 +310,7 @@ Từ phép trừ này sang phép trừ kế tiếp, số bị trừ tăng 1 và 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $14-6$ là
 A. $7$.
 B. $8$.
@@ -319,7 +319,7 @@ D. $10$.
 ::key B
 $14-6=14-4-2=10-2=8$. Phương án D mới trừ 4 mà quên trừ nốt 2.
 
-::mc
+::mc TH
 Kết quả của $13-5$ là
 A. $7$.
 B. $9$.
@@ -328,7 +328,7 @@ D. $18$.
 ::key C
 $13-5=13-3-2=10-2=8$. Phương án D là phép cộng nhầm.
 
-::mc
+::mc TH
 Để tính $15-7$, em tách $7=5+2$. Cách làm đúng là
 A. $15-5-3$.
 B. $15-5+2$.
@@ -337,7 +337,7 @@ D. $15-5-2$.
 ::key D
 Trừ 7 cũng như trừ 5 rồi trừ 2, nên $15-5-2=10-2=8$. Phương án A trừ thừa 1, phương án B lại cộng thêm.
 
-::mc
+::mc TH
 Biết $8+6=14$. Phép trừ đúng là
 A. $14-8=6$.
 B. $14-8=22$.
@@ -346,7 +346,7 @@ D. $14-6=6$.
 ::key A
 Lấy tổng 14 trừ số hạng 8 được số hạng còn lại là 6. Phương án D sai vì $14-6=8$.
 
-::tf
+::tf NB TH TH TH
 Cho phép trừ $16-9$.
 a) $16-9=7$.
 b) $16-7=9$.
@@ -355,12 +355,12 @@ d) Từ $9+7=16$ suy ra hai phép trừ $16-9=7$ và $16-7=9$.
 ::key Đ Đ S Đ
 a) Đúng: $16-9=16-6-3=7$. b) Đúng: $7+9=16$. c) Sai: hiệu bằng 7, bé hơn 8. d) Đúng: lấy tổng trừ lần lượt từng số hạng.
 
-::sa
+::sa VD
 Tính $17-8$.
 ::key 9
 $17-8=17-7-1=10-1=9$.
 
-::sa
+::sa VD
 Trong hộp có 15 viên bi, lấy ra 7 viên. Hộp còn lại bao nhiêu viên bi?
 ::key 8
 $15-7=15-5-2=8$ (viên).

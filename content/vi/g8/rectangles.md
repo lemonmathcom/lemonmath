@@ -403,7 +403,7 @@ Vậy tam giác $ABC$ vuông tại $A$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hình chữ nhật có hai cạnh $6$ cm và $8$ cm. Đường chéo dài
 A. $10$ cm.
 B. $14$ cm.
@@ -412,7 +412,7 @@ D. $100$ cm.
 ::key A
 $d=\sqrt{6^2+8^2}=\sqrt{100}=10$ cm. A cộng hai cạnh, C lấy sai, D quên lấy căn bậc hai.
 
-::mc
+::mc TH
 Tứ giác nào sau đây chắc chắn là hình chữ nhật?
 A. Tứ giác có hai góc vuông.
 B. Tứ giác có ba góc vuông.
@@ -421,7 +421,7 @@ D. Tứ giác có hai đường chéo bằng nhau.
 ::key B
 Tứ giác có ba góc vuông thì góc thứ tư cũng vuông nên là hình chữ nhật. A đúng với hình thang vuông, D đúng với hình thang cân, C đúng với hình thoi.
 
-::mc
+::mc TH
 Tam giác $ABC$ vuông tại $A$ có $BC=20$ cm, $M$ là trung điểm của $BC$. Độ dài $AM$ bằng
 A. $40$ cm.
 B. $20$ cm.
@@ -430,7 +430,7 @@ D. $5$ cm.
 ::key C
 Trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền: $AM=20:2=10$ cm. B là cạnh huyền, A gấp đôi cạnh huyền, D chia nhầm cho $4$.
 
-::mc
+::mc NB
 Khẳng định nào sau đây đúng với mọi hình chữ nhật?
 A. Hai đường chéo vuông góc với nhau.
 B. Hai đường chéo không bằng nhau.
@@ -439,7 +439,7 @@ D. Hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗ
 ::key D
 Hai đường chéo của hình chữ nhật bằng nhau và cắt nhau tại trung điểm của mỗi đường. A và C chỉ đúng với hình vuông, B trái với tính chất đường chéo.
 
-::tf
+::tf TH TH TH NB
 Hình chữ nhật $ABCD$ có $AB=12$ cm, $BC=5$ cm, hai đường chéo cắt nhau tại $O$.
 a) $AC=BD=13$ cm.
 b) $OA=6$ cm.
@@ -448,12 +448,12 @@ d) Chu vi bằng $34$ cm.
 ::key Đ S S Đ
 a) Đúng: $\sqrt{144+25}=13$. b) Sai: $OA=13:2=6{,}5$ cm. c) Sai: hai đường chéo không vuông góc vì hai cạnh kề khác nhau. d) Đúng: $2(12+5)=34$.
 
-::sa
+::sa TH
 Hình chữ nhật có hai cạnh $9$ cm và $12$ cm. Tính độ dài đường chéo (cm).
 ::key 15
 $d=\sqrt{81+144}=\sqrt{225}=15$ cm.
 
-::sa
+::sa TH
 Tam giác vuông có cạnh huyền $14$ cm. Tính độ dài trung tuyến ứng với cạnh huyền (cm).
 ::key 7
 Trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền: $14:2=7$ cm.

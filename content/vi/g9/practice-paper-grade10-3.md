@@ -290,7 +290,7 @@ Khai triển: $(x+y+z)\left(\dfrac1x+\dfrac1y+\dfrac1z\right)=3+\left(\dfrac xy+
 ## Bài kiểm tra nhanh
 
 :::quiz
-::mc
+::mc VD
 Giá trị của $A=\sqrt{7-4\sqrt3}+\sqrt{12}$ là
 A. $2+\sqrt3$.
 B. $2-\sqrt3$.
@@ -299,7 +299,7 @@ D. $\sqrt3$.
 ::key A
 $\sqrt{7-4\sqrt3}=2-\sqrt3$ và $\sqrt{12}=2\sqrt3$ nên $A=2+\sqrt3$. Đáp án B quên cộng $\sqrt{12}$.
 
-::mc
+::mc TH
 Một hộp có $12$ viên bi gồm $5$ xanh, $4$ đỏ, $3$ vàng. Lấy ngẫu nhiên $1$ viên. Xác suất để viên bi không phải màu đỏ là
 A. $\dfrac13$.
 B. $\dfrac23$.
@@ -308,7 +308,7 @@ D. $\dfrac5{12}$.
 ::key B
 Có $8$ viên không đỏ trên $12$ viên, nên xác suất là $\dfrac8{12}=\dfrac23$. Đáp án A là xác suất lấy được bi đỏ.
 
-::mc
+::mc VD
 Ô tô và xe máy cùng đi quãng đường $90$ km; ô tô nhanh hơn xe máy $15$ km/h và đến sớm hơn $1$ giờ. Vận tốc của ô tô là
 A. $30$ km/h.
 B. $15$ km/h.
@@ -317,7 +317,7 @@ D. $60$ km/h.
 ::key C
 Xe máy $30$ km/h, ô tô $30+15=45$ km/h. Đáp án A là vận tốc xe máy.
 
-::mc
+::mc VD
 Parabol $y=x^2$ cắt đường thẳng $y=2x+3$ tại $A(-1;1)$ và $B(3;9)$. Diện tích tam giác $OAB$ là
 A. $3$.
 B. $12$.
@@ -326,7 +326,7 @@ D. $6$.
 ::key D
 $S=\dfrac12\cdot3\cdot(1+3)=6$. Đáp án B là $\dfrac12\cdot 3\cdot(1+3)\cdot2$, tức là gấp đôi.
 
-::tf
+::tf NB TH TH TH
 Bảng điểm của $20$ học sinh: điểm $5$ có $2$ em, điểm $6$ có $4$ em, điểm $7$ có $6$ em, điểm $8$ có $5$ em, điểm $9$ có $3$ em. Các khẳng định sau đúng hay sai?
 a) Tần số tương đối của điểm $7$ là $25\%$.
 b) Có $40\%$ số học sinh đạt từ $8$ điểm trở lên.
@@ -335,12 +335,12 @@ d) Xác suất chọn ngẫu nhiên một học sinh có điểm dưới $6$ là
 ::key S Đ S S
 a) Sai: $\dfrac6{20}=30\%$. b) Đúng: $\dfrac{5+3}{20}=40\%$. c) Sai: $\dfrac3{20}$. d) Sai: có $2$ em điểm $5$, xác suất là $\dfrac2{20}=0{,}1$.
 
-::sa
+::sa VD
 Tìm giá trị lớn nhất của $x$ thoả mãn $\dfrac{x-1}2\geq\dfrac{2x+1}3-1$.
 ::key 1
 Bất phương trình tương đương $x\leq1$, nên giá trị lớn nhất của $x$ là $1$.
 
-::sa
+::sa VDC
 Cho tam giác nhọn $ABC$ có hai đường cao $BE$, $CF$ cắt nhau tại $H$ và $AH$ cắt $BC$ tại $D$. Biết $AH=4$ cm, $AD=6$ cm. Tính $AF\cdot AB$ (đơn vị cm$^2$).
 ::key 24
 $AF\cdot AB=AH\cdot AD=4\cdot6=24$.

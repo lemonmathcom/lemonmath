@@ -261,7 +261,7 @@ Largest: hundreds $8$, tens $5$, ones $2$, which is $852$. Smallest: hundreds $2
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The tens digit of $527$ is
 A. $5$.
 B. $2$.
@@ -270,7 +270,7 @@ D. $527$.
 ::key B
 From left to right: $5$ in the hundreds place, $2$ in the tens place, $7$ in the ones place. Option A is the hundreds digit.
 
-::mc
+::mc TH
 The number made of $4$ hundreds, $0$ tens and $6$ ones is
 A. $46$.
 B. $460$.
@@ -279,7 +279,7 @@ D. $640$.
 ::key C
 The tens place is empty, so we write $0$: $406$. Option A leaves out the $0$.
 
-::mc
+::mc NB
 Which of these is a three-digit number?
 A. $99$.
 B. $9$.
@@ -288,7 +288,7 @@ D. $100$.
 ::key D
 $100$ has the three digits $1$, $0$, $0$. The others have fewer digits.
 
-::mc
+::mc NB
 The number $318$ is made of
 A. $3$ hundreds $1$ ten $8$ ones.
 B. $8$ hundreds $1$ ten $3$ ones.
@@ -297,7 +297,7 @@ D. $31$ hundreds $8$ ones.
 ::key A
 From left to right: $3$ hundreds, $1$ ten, $8$ ones. Option B reads the order backwards.
 
-::tf
+::tf NB NB NB NB
 Look at the number $645$.
 a) The hundreds digit is $6$.
 b) The tens digit is $5$.
@@ -306,12 +306,12 @@ d) $645$ is a three-digit number.
 ::key T F T T
 a) True. b) False: the tens digit is $4$. c) True. d) True.
 
-::sa
+::sa NB
 Which digit is the tens digit of $982$?
 ::key 8
 The number $982$ has $9$ hundreds, $8$ tens and $2$ ones.
 
-::sa
+::sa TH
 Write the number made of $5$ hundreds, $0$ tens and $9$ ones.
 ::key 509
 Digits: $5$, $0$, $9$.

@@ -298,7 +298,7 @@ Vậy đường tròn có tâm $(3,-2)$ và bán kính $5$.
 :::
 
 :::quiz
-::mc
+::mc NB
 Tổng các góc trong của một lục giác là
 A. $540^\circ$
 B. $360^\circ$
@@ -307,7 +307,7 @@ D. $720^\circ$
 ::key D
 $(6-2)\times180^\circ=720^\circ$.
 
-::mc
+::mc NB
 Một tam giác có đáy $10$ và chiều cao $6$. Diện tích của nó là
 A. $30$
 B. $60$
@@ -316,7 +316,7 @@ D. $15$
 ::key A
 $\dfrac12\times10\times6=30$.
 
-::mc
+::mc NB
 Giá trị của $\tan45^\circ$ là
 A. $\dfrac{\sqrt2}{2}$
 B. $1$
@@ -325,7 +325,7 @@ D. $\dfrac{\sqrt3}{3}$
 ::key B
 Trong tam giác vuông cân, cạnh đối và cạnh kề bằng nhau.
 
-::mc
+::mc NB
 Thể tích của hình lập phương cạnh $4$ là
 A. $16$
 B. $48$
@@ -334,7 +334,7 @@ D. $96$
 ::key C
 $4^3=64$. Phương án D là diện tích toàn phần.
 
-::tf
+::tf NB TH TH TH
 Xét đường tròn $(x-1)^2+(y+2)^2=9$. Xét tính đúng sai của các mệnh đề sau:
 a) Tâm là $(1,-2)$.
 b) Bán kính bằng $9$.
@@ -343,12 +343,12 @@ d) Diện tích hình tròn bằng $9\pi$.
 ::key T F T T
 Bán kính là $\sqrt9=3$; điểm $(4,-2)$ cách tâm $3$ đơn vị; diện tích là $\pi(3)^2=9\pi$.
 
-::sa
+::sa TH
 Một tam giác vuông có hai cạnh góc vuông $6$ và $8$. Tính cạnh huyền.
 ::key 10
 $\sqrt{36+64}=10$.
 
-::sa
+::sa TH
 Tìm hệ số góc của đường thẳng đi qua $(0,1)$ và $(2,7)$.
 ::key 3
 $\dfrac{7-1}{2-0}=3$.

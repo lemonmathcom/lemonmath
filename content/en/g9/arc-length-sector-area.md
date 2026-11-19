@@ -338,7 +338,7 @@ So the area of the segment is about $3.26$ cm².
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The length of an arc of $40^\circ$ on a circle of radius $9$ cm is
 A. $4\pi$ cm.
 B. $2\pi$ cm.
@@ -347,7 +347,7 @@ D. $\pi$ cm.
 ::key B
 $l=\dfrac{\pi\cdot9\cdot40}{180}=2\pi$. A uses $2\pi R$ instead of $\pi R$, C uses the sector-area formula, and D divides by $360$ instead of $180$.
 
-::mc
+::mc TH
 The area of a sector of radius $4$ cm with an arc of $90^\circ$ is
 A. $2\pi$ cm².
 B. $16\pi$ cm².
@@ -356,7 +356,7 @@ D. $4\pi$ cm².
 ::key D
 $S=\dfrac{\pi\cdot16\cdot90}{360}=4\pi$. A is the arc length, B is the whole disc, and C divides by $180$ instead of $360$.
 
-::mc
+::mc TH
 The area of the annulus between two concentric circles of radii $7$ cm and $4$ cm is
 A. $33\pi$ cm².
 B. $9\pi$ cm².
@@ -365,7 +365,7 @@ D. $6\pi$ cm².
 ::key A
 $S=\pi\left(49-16\right)=33\pi$. B computes $\pi(R-r)^2$, and C adds the two squares.
 
-::mc
+::mc NB
 A wheel has diameter $60$ cm. The circumference of the wheel is
 A. $30\pi$ cm.
 B. $60\pi$ cm.
@@ -374,7 +374,7 @@ D. $900\pi$ cm.
 ::key B
 $C=\pi d=60\pi$ cm. C takes $60$ as the radius, and D computes the area.
 
-::tf
+::tf TH TH TH VD
 Consider a sector of radius $6$ cm with an arc of $120^\circ$. Decide whether each statement is true or false.
 a) The arc of the sector has length $4\pi$ cm.
 b) The area of the sector is $12\pi$ cm².
@@ -383,12 +383,12 @@ d) The perimeter of the sector is $(4\pi+12)$ cm.
 ::key T T F T
 a) True: $l=\dfrac{\pi\cdot6\cdot120}{180}=4\pi$. b) True: $S=\dfrac{\pi\cdot36\cdot120}{360}=12\pi$. c) False: $S=\dfrac{lR}{2}$. d) True: the perimeter is the arc plus two radii.
 
-::sa
+::sa TH
 Find the length (in cm) of an arc of $36^\circ$ on a circle of radius $10$ cm (give your answer to 2 decimal places).
 ::key 6.28
 $l=\dfrac{\pi\cdot10\cdot36}{180}=2\pi\approx6.28$ cm.
 
-::sa
+::sa TH
 Find the area (in cm²) of the annulus between two concentric circles of radii $6$ cm and $4$ cm (give your answer to the nearest whole number).
 ::key 63
 $S=\pi\left(36-16\right)=20\pi\approx62.83\approx63$ cm².

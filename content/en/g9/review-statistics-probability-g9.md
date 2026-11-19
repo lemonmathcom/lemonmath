@@ -383,7 +383,7 @@ The total number of balls is $x+6$, so $\dfrac6{x+6}=\dfrac25$. So $2(x+6)=30$, 
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Among $20$ students taking a test, $6$ students got $8$. The relative frequency of the mark $8$ is
 A. $30\%$.
 B. $3.3\%$.
@@ -392,7 +392,7 @@ D. $70\%$.
 ::key A
 $\dfrac6{20}=30\%$. Option C takes the frequency as a percentage, B is $\dfrac{20}6$ (dividing the wrong way round), and D is the relative frequency of the other marks.
 
-::mc
+::mc TH
 A fair die is rolled. The probability that the number of dots is greater than $4$ is
 A. $\dfrac16$.
 B. $\dfrac13$.
@@ -401,7 +401,7 @@ D. $\dfrac23$.
 ::key B
 The favourable outcomes are $5$ and $6$, so $P=\dfrac26=\dfrac13$. Option A counts only the face $6$, C is the probability of "at least $4$", and D is the probability of "at most $4$".
 
-::mc
+::mc TH
 A box has $5$ red balls, $3$ blue balls and $2$ yellow balls. One ball is drawn at random. The probability that the ball is not yellow is
 A. $\dfrac15$.
 B. $\dfrac12$.
@@ -410,7 +410,7 @@ D. $\dfrac3{10}$.
 ::key C
 $P=1-\dfrac2{10}=\dfrac8{10}=\dfrac45$. Option A is the probability of drawing a yellow ball, B is the probability of drawing a red ball, and D is the probability of drawing a blue ball.
 
-::mc
+::mc TH
 In a pie chart, one group makes up $15\%$. The angle at the centre of the matching sector is
 A. $150^\circ$.
 B. $15^\circ$.
@@ -419,7 +419,7 @@ D. $54^\circ$.
 ::key D
 $0.15\cdot360^\circ=54^\circ$. Option B takes the percentage as the number of degrees, C is $\dfrac{54}{2}$, and A multiplies by $10$ by mistake.
 
-::tf
+::tf NB NB TH TH
 The marks of $40$ students have this frequency table: mark $5$: $4$; mark $6$: $8$; mark $7$: $12$; mark $8$: $10$; mark $9$: $6$. Decide whether each statement is true or false.
 a) The relative frequency of the mark $7$ is $30\%$.
 b) The mark that occurs most often is $8$.
@@ -428,12 +428,12 @@ d) The relative frequencies add up to $100\%$.
 ::key T F T T
 a) True: $\dfrac{12}{40}=30\%$. b) False: the mark $7$ has the greatest frequency ($12$). c) True: $\dfrac{10+6}{40}=40\%$. d) True: the relative frequencies always add up to $100\%$.
 
-::sa
+::sa TH
 A box has $5$ red balls, $3$ blue balls and $2$ yellow balls. One ball is drawn at random. What percentage is the probability of drawing a blue ball?
 ::key 30
 $P=\dfrac3{10}=30\%$.
 
-::sa
+::sa VD
 Two fair dice are rolled. How many outcomes give a sum of $8$?
 ::key 5
 The pairs are $(2, 6)$, $(3, 5)$, $(4, 4)$, $(5, 3)$, $(6, 2)$.

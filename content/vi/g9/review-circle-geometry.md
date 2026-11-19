@@ -356,7 +356,7 @@ Vì $AB$, $AC$ là hai tiếp tuyến cắt nhau nên $AB=AC$. Tam giác $ABC$ c
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Tam giác $ABC$ nội tiếp đường tròn $(O)$ có góc ở tâm $\widehat{BOC}=80^\circ$ (cùng chắn cung $BC$ với $\widehat{BAC}$). Số đo $\widehat{BAC}$ là
 A. $80^\circ$.
 B. $160^\circ$.
@@ -365,7 +365,7 @@ D. $100^\circ$.
 ::key C
 Góc nội tiếp bằng một nửa góc ở tâm cùng chắn một cung: $\widehat{BAC}=80^\circ:2=40^\circ$. Đáp án A nhầm hai góc bằng nhau, B nhân đôi thay vì chia đôi, D là $180^\circ-80^\circ$.
 
-::mc
+::mc NB
 Tứ giác $ABCD$ nội tiếp đường tròn có $\widehat A=70^\circ$. Số đo $\widehat C$ là
 A. $290^\circ$.
 B. $70^\circ$.
@@ -374,7 +374,7 @@ D. $110^\circ$.
 ::key D
 Hai góc đối bù nhau nên $\widehat C=180^\circ-70^\circ=110^\circ$. Đáp án B cho hai góc đối bằng nhau, C là $90^\circ-70^\circ$, A là $360^\circ-70^\circ$.
 
-::mc
+::mc TH
 Cho đường tròn $(O;3\text{ cm})$ và điểm $A$ với $OA=5$ cm. $AB$ là tiếp tuyến của đường tròn tại $B$. Độ dài $AB$ là
 A. $4$ cm.
 B. $2$ cm.
@@ -383,7 +383,7 @@ D. $8$ cm.
 ::key A
 Tam giác $ABO$ vuông tại $B$ nên $AB=\sqrt{25-9}=4$. Đáp án D là $5+3$, B là $5-3$, C là $\sqrt{25+9}$ (cộng thay vì trừ).
 
-::mc
+::mc TH
 Độ dài cung $90^\circ$ của đường tròn bán kính $4$ cm là
 A. $\pi$ cm.
 B. $2\pi$ cm.
@@ -392,7 +392,7 @@ D. $8\pi$ cm.
 ::key B
 $l=\dfrac{\pi\cdot4\cdot90}{180}=2\pi$. Đáp án A chia thêm cho $2$, C là $\dfrac{\pi R n}{90}$, D là chu vi cả đường tròn.
 
-::tf
+::tf NB VD TH TH
 Tam giác $ABC$ nội tiếp đường tròn $(O;5\text{ cm})$ có $\widehat{BAC}=30^\circ$. Các nhận định sau đúng hay sai?
 a) $\widehat{BOC}=60^\circ$.
 b) $BC=5$ cm.
@@ -401,12 +401,12 @@ d) Tam giác $OBC$ đều.
 ::key Đ Đ S Đ
 a) Đúng: góc ở tâm gấp đôi góc nội tiếp. b) Đúng: tam giác $OBC$ cân có góc ở đỉnh $60^\circ$ nên đều, $BC=OB=5$. c) Sai: $\widehat{OBC}=60^\circ$. d) Đúng: như ở b).
 
-::sa
+::sa VD
 Cho đường tròn $(O;6\text{ cm})$ và điểm $A$ sao cho $OA=10$ cm. $AB$ là tiếp tuyến tại $B$. Tính $AB$ (đơn vị cm).
 ::key 8
 $AB=\sqrt{10^2-6^2}=8$.
 
-::sa
+::sa TH
 Tính diện tích hình quạt tròn bán kính $6$ cm, góc ở tâm $60^\circ$ (đơn vị cm², làm tròn đến một chữ số thập phân).
 ::key 18,8
 $S=\dfrac{\pi\cdot36\cdot60}{360}=6\pi\approx18{,}8$.

@@ -260,7 +260,7 @@ Hàng đơn vị: $5-4=1$. Số cần tìm là $75$, và chữ số cần điề
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $57-23$ là
 A. $80$.
 B. $43$.
@@ -269,7 +269,7 @@ D. $4$.
 ::key C
 $7-3=4$ và $5-2=3$, nên $57-23=34$. Phương án B là lỗi đảo chục và đơn vị, A là lỗi cộng thay vì trừ, D là lỗi quên hàng chục.
 
-::mc
+::mc TH
 Kết quả của $86-41$ là
 A. $5$.
 B. $54$.
@@ -278,7 +278,7 @@ D. $45$.
 ::key D
 $6-1=5$ và $8-4=4$, nên $86-41=45$. Phương án B là lỗi đảo chục và đơn vị, C là lỗi cộng thay vì trừ.
 
-::mc
+::mc TH
 Phép tính nào có kết quả bằng $42$?
 A. $68-26$.
 B. $69-26$.
@@ -287,7 +287,7 @@ D. $68-25$.
 ::key A
 $68-26=42$. Các phép tính khác lần lượt bằng $43$, $41$, $43$.
 
-::mc
+::mc TH
 Cửa hàng có $78$ cái bút, đã bán $35$ cái. Hỏi cửa hàng còn lại bao nhiêu cái bút?
 A. $113$ cái.
 B. $43$ cái.
@@ -296,7 +296,7 @@ D. $3$ cái.
 ::key B
 "Đã bán", "còn lại" là bớt đi: $78-35=43$. Phương án A là lấy $78+35$, nhầm sang phép cộng.
 
-::tf
+::tf TH TH TH TH
 Em xét phép trừ $95-54$.
 a) Hàng chục: $9-5=4$.
 b) Hàng đơn vị: $5-4=1$.
@@ -305,12 +305,12 @@ d) Thử lại: $41+54=95$.
 ::key Đ Đ S Đ
 a) Đúng: $9-5=4$. b) Đúng: $5-4=1$. c) Sai: $4$ chục và $1$ đơn vị là $41$. d) Đúng: $41+54=95$.
 
-::sa
+::sa TH
 Tính $78-32$.
 ::key 46
 $8-2=6$ và $7-3=4$, nên $78-32=46$.
 
-::sa
+::sa VD
 Có $89$ cái bánh, đã bán $45$ cái. Còn lại bao nhiêu cái bánh?
 ::key 44
 $89-45=44$ (cái bánh).

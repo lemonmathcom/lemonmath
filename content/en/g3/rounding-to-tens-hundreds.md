@@ -287,7 +287,7 @@ The largest number: $549$, because its tens digit is $4$ so it rounds down to $5
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $47$ rounded to the nearest ten is
 A. $40$.
 B. $50$.
@@ -296,7 +296,7 @@ D. $5$.
 ::key B
 The ones digit is $7$, round up: $47\approx 50$. B rounds down by mistake, C does not round, D writes only the new tens digit.
 
-::mc
+::mc TH
 $365$ rounded to the nearest ten is
 A. $360$.
 B. $37$.
@@ -305,7 +305,7 @@ D. $400$.
 ::key C
 The ones digit is $5$, round up: $365\approx 370$. A rounds down by mistake, B forgets the digit $0$, D rounds to the nearest hundred.
 
-::mc
+::mc TH
 $438$ rounded to the nearest hundred is
 A. $500$.
 B. $430$.
@@ -314,7 +314,7 @@ D. $400$.
 ::key D
 The tens digit is $3$, round down: $438\approx 400$. A looks at the ones digit, C and B round to the nearest ten.
 
-::mc
+::mc VD
 Lan has $48$ marbles and Nam has $63$. Rounding each number to the nearest ten and adding, the estimated total is
 A. $110$.
 B. $120$.
@@ -323,7 +323,7 @@ D. $100$.
 ::key A
 $48\approx 50$ and $63\approx 60$, so $50+60=110$. A rounds $48$ down to $40$, B rounds $63$ up to $70$, C is the exact total.
 
-::tf
+::tf NB NB TH TH
 Look at these roundings.
 a) $35\approx 40$ when rounded to the nearest ten.
 b) $82\approx 80$ when rounded to the nearest ten.
@@ -332,12 +332,12 @@ d) $750\approx 800$ when rounded to the nearest hundred.
 ::key T T F T
 a) True: the digit $5$ rounds up. b) True: the digit $2$ rounds down. c) False: the tens digit is $3$, so $438\approx 400$. d) True: the tens digit is $5$, so it rounds up.
 
-::sa
+::sa TH
 Round $276$ to the nearest ten.
 ::key 280
 The ones digit is $6$, round up: $276\approx 280$.
 
-::sa
+::sa TH
 Round $649$ to the nearest hundred.
 ::key 600
 The tens digit is $4$, round down: $649\approx 600$.

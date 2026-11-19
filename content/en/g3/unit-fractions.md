@@ -321,7 +321,7 @@ The pupils at swimming club: $36\div4=9$. The pupils at art club: $36\div9=4$. T
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A cake is shared equally among $6$ friends. What fraction of the cake does each friend get?
 A. $\dfrac{1}{5}$.
 B. $\dfrac{1}{6}$.
@@ -330,7 +330,7 @@ D. $\dfrac{1}{7}$.
 ::key B
 The cake is split into $6$ equal parts, so each part is $\dfrac{1}{6}$. Option C is the mistake of writing the number of parts instead of a fraction.
 
-::mc
+::mc TH
 $\dfrac{1}{3}$ of $18$ equals
 A. $54$.
 B. $15$.
@@ -339,7 +339,7 @@ D. $3$.
 ::key C
 We divide: $18\div3=6$. Option A is the mistake of multiplying $18\times3$, and option B is subtracting $18-3$.
 
-::mc
+::mc TH
 $\dfrac{1}{8}$ of $40$ equals
 A. $5$.
 B. $32$.
@@ -348,7 +348,7 @@ D. $8$.
 ::key A
 $40\div8=5$. Option B is the mistake of subtracting $40-8$, and option C is adding $40+8$.
 
-::mc
+::mc TH
 Which of $\dfrac{1}{2}$, $\dfrac{1}{3}$, $\dfrac{1}{5}$, $\dfrac{1}{9}$ is the biggest?
 A. $\dfrac{1}{2}$.
 B. $\dfrac{1}{3}$.
@@ -357,7 +357,7 @@ D. $\dfrac{1}{9}$.
 ::key A
 The fewer equal parts, the bigger each part, so $\dfrac{1}{2}$ is the biggest. Option D is the mistake of thinking that a bigger bottom number means a bigger part.
 
-::tf
+::tf NB TH TH NB
 A rectangle is split into $4$ equal parts.
 a) Each part is $\dfrac{1}{4}$ of the rectangle.
 b) $\dfrac{1}{4}$ of $20$ is $5$.
@@ -366,12 +366,12 @@ d) Each part is $\dfrac{1}{5}$ of the rectangle.
 ::key T T F F
 a) True: $4$ equal parts. b) True: $20\div4=5$. c) False: $80$ is $20\times4$. d) False: there are $4$ parts, not $5$.
 
-::sa
+::sa TH
 Find $\dfrac{1}{7}$ of $56$.
 ::key 8
 $56\div7=8$.
 
-::sa
+::sa TH
 A box has $45$ marbles. Binh takes $\dfrac{1}{9}$ of them. How many marbles does Binh take?
 ::key 5
 $45\div9=5$ (marbles).

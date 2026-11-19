@@ -353,7 +353,7 @@ $n(\Omega)=5!=120$, $n(A)=2\cdot4!=48$, nên $P=\dfrac{48}{120}=\dfrac25$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Gieo một con xúc xắc cân đối. Xác suất để số chấm xuất hiện là số nguyên tố bằng
 A. $\dfrac23$.
 B. $\dfrac13$.
@@ -362,7 +362,7 @@ D. $\dfrac56$.
 ::key C
 Các số nguyên tố trong $1, \dots, 6$ là $2, 3, 5$, nên $P=\dfrac36=\dfrac12$. Coi nhầm $1$ là số nguyên tố thì ra $\dfrac46=\dfrac23$.
 
-::mc
+::mc VD
 Một hộp có $4$ quả bóng đỏ và $6$ quả bóng xanh. Lấy ngẫu nhiên đồng thời $2$ quả. Xác suất để cả hai quả đều xanh là
 A. $\dfrac35$.
 B. $\dfrac13$.
@@ -371,7 +371,7 @@ D. $\dfrac23$.
 ::key B
 $P=\dfrac{C_6^2}{C_{10}^2}=\dfrac{15}{45}=\dfrac13$. Phương án A chỉ tính cho một quả; phương án C coi như lấy có hoàn lại.
 
-::mc
+::mc TH
 Gieo hai con xúc xắc cân đối. Xác suất để tổng số chấm bằng $4$ là
 A. $\dfrac{1}{12}$.
 B. $\dfrac{1}{18}$.
@@ -380,7 +380,7 @@ D. $\dfrac19$.
 ::key A
 $n(\Omega)=36$ cặp có thứ tự; tổng bằng $4$ có $(1; 3)$, $(2; 2)$, $(3; 1)$, nên $P=\dfrac{3}{36}=\dfrac{1}{12}$. Phương án B gộp $(1; 3)$ với $(3; 1)$; phương án C dùng $21$ kết quả không đồng khả năng.
 
-::mc
+::mc VD
 Một nhóm có $5$ nam và $3$ nữ. Chọn ngẫu nhiên $3$ người. Xác suất để có ít nhất một nữ là
 A. $\dfrac{5}{28}$.
 B. $\dfrac38$.
@@ -389,7 +389,7 @@ D. $\dfrac{23}{28}$.
 ::key D
 Biến cố đối là "cả ba đều nam", có $C_5^3=10$ kết quả trong $C_8^3=56$. Vậy $P=1-\dfrac{10}{56}=\dfrac{23}{28}$. Phương án A là xác suất của biến cố đối.
 
-::tf
+::tf NB VD TH VD
 Một hộp có $5$ tấm thẻ đánh số $1, 2, 3, 4, 5$. Rút ngẫu nhiên đồng thời $2$ thẻ.
 a) Không gian mẫu có $10$ phần tử.
 b) Xác suất để tổng hai số là số chẵn bằng $\dfrac25$.
@@ -398,12 +398,12 @@ d) Xác suất để có ít nhất một thẻ mang số lớn hơn $3$ bằng 
 ::key Đ Đ S S
 a) Đúng: $C_5^2=10$. b) Đúng: hai số cùng lẻ ($C_3^2=3$ cách) hoặc cùng chẵn ($1$ cách), $P=\dfrac{4}{10}$. c) Sai: cần cả hai số lẻ, $P=\dfrac{3}{10}$. d) Sai: biến cố đối "cả hai thẻ đều $\le 3$" có $3$ kết quả, nên $P=1-\dfrac{3}{10}=\dfrac{7}{10}$.
 
-::sa
+::sa VD
 Gieo hai con xúc xắc cân đối. Tính xác suất để tổng số chấm không nhỏ hơn $10$ (làm tròn đến hàng phần trăm).
 ::key 0,17
 Các cặp có tổng $10$, $11$, $12$: $(4; 6)$, $(5; 5)$, $(6; 4)$, $(5; 6)$, $(6; 5)$, $(6; 6)$, tức $6$ cặp trong $36$. $P=\dfrac16\approx0{,}17$.
 
-::sa
+::sa VD
 Một lô hàng có $10$ sản phẩm, trong đó có $3$ phế phẩm. Lấy ngẫu nhiên $2$ sản phẩm. Tính xác suất để có ít nhất một phế phẩm (làm tròn đến hàng phần trăm).
 ::key 0,53
 Biến cố đối là "cả hai sản phẩm đều tốt": $C_7^2=21$ trong $C_{10}^2=45$ kết quả. $P=1-\dfrac{21}{45}=\dfrac{8}{15}\approx0{,}53$.

@@ -371,7 +371,7 @@ Cần $x^2-3x-4=(x-4)(x+1)\ge 0$. Vì $a=1>0$ nên điều này đúng khi $x$ �
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tam thức $f(x)=x^2-6x+8$ nhận giá trị âm khi và chỉ khi
 A. $x<2$ hoặc $x>4$.
 B. $2<x<4$.
@@ -380,7 +380,7 @@ D. $-4<x<-2$.
 ::key B
 Hai nghiệm là $2$ và $4$, hệ số $a=1>0$ nên $f(x)<0$ khi $x$ nằm giữa hai nghiệm.
 
-::mc
+::mc TH
 Tập nghiệm của bất phương trình $x^2+2x+3\le 0$ là
 A. $\mathbb{R}$.
 B. $\varnothing$.
@@ -389,7 +389,7 @@ D. $[-3; 1]$.
 ::key B
 $\Delta'=1-3=-2<0$ và $a=1>0$, nên tam thức luôn dương; không có $x$ nào làm nó $\le 0$.
 
-::mc
+::mc TH
 Tam thức nào sau đây luôn âm với mọi số thực $x$?
 A. $x^2-x-1$.
 B. $-x^2+4x-4$.
@@ -398,7 +398,7 @@ D. $-2x^2+3x+1$.
 ::key C
 Với C: $a=-1<0$, $\Delta=1-4=-3<0$ nên luôn âm. Phương án B bằng $-(x-2)^2$, bằng $0$ tại $x=2$ nên không "luôn âm".
 
-::mc
+::mc TH
 Tập nghiệm của bất phương trình $\dfrac{x-3}{x+1}\ge 0$ là
 A. $(-1; 3]$.
 B. $[-1; 3]$.
@@ -407,7 +407,7 @@ D. $(-\infty; -1]\cup[3; +\infty)$.
 ::key C
 Thương không âm khi tử và mẫu cùng dấu, hoặc tử bằng $0$. Giá trị $x=-1$ làm mẫu bằng $0$ nên bị loại; $x=3$ được lấy.
 
-::tf
+::tf NB TH TH VD
 Cho tam thức $f(x)=-x^2+2x+3$.
 a) $f(x)$ có hai nghiệm là $x=-1$ và $x=3$.
 b) $f(x)>0$ với mọi $x\in(-1; 3)$.
@@ -416,12 +416,12 @@ d) Bất phương trình $f(x)\ge 3$ có tập nghiệm là $[0; 2]$.
 ::key Đ Đ S Đ
 a) Đúng: $f(-1)=f(3)=0$. b) Đúng: $a<0$ nên tam thức dương giữa hai nghiệm. c) Sai: $f(4)=-5$. d) Đúng: $f(x)\ge 3\iff -x^2+2x\ge 0\iff 0\le x\le 2$.
 
-::sa
+::sa VD
 Có bao nhiêu số nguyên $x$ thoả mãn $x^2-5x-6<0$?
 ::key 6
 Hai nghiệm là $-1$ và $6$, nên $-1<x<6$. Các số nguyên là $0, 1, 2, 3, 4, 5$: có $6$ số.
 
-::sa
+::sa VD
 Độ cao của một quả bóng sau $t$ giây là $h(t)=-5t^2+30t$ (mét). Bóng ở độ cao trên $40$ m trong bao nhiêu giây?
 ::key 2
 $-5t^2+30t>40\iff t^2-6t+8<0\iff 2<t<4$. Khoảng thời gian dài $2$ giây.

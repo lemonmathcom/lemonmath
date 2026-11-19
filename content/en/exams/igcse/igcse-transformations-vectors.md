@@ -272,7 +272,7 @@ So $\overrightarrow{CM}=\tfrac32\overrightarrow{CN}$: the two vectors are parall
 :::
 
 :::quiz
-::mc
+::mc TH
 The translation that moves $(1,\ 2)$ to $(4,\ 0)$ has vector
 A. $\begin{pmatrix}3\\2\end{pmatrix}$
 B. $\begin{pmatrix}3\\-2\end{pmatrix}$
@@ -281,7 +281,7 @@ D. $\begin{pmatrix}5\\2\end{pmatrix}$
 ::key B
 Image minus original: $4-1=3$, $0-2=-2$.
 
-::mc
+::mc TH
 A shape is enlarged with scale factor $3$. Its area is multiplied by
 A. $3$
 B. $6$
@@ -290,7 +290,7 @@ D. $9$
 ::key D
 $3^2=9$.
 
-::mc
+::mc NB
 The image of $(2,\ 5)$ after reflection in the $x$-axis is
 A. $(2,\ -5)$
 B. $(-2,\ 5)$
@@ -299,7 +299,7 @@ D. $(-2,\ -5)$
 ::key A
 The $y$-coordinate changes sign.
 
-::mc
+::mc TH
 The magnitude of $\begin{pmatrix}5\\12\end{pmatrix}$ is
 A. $17$
 B. $7$
@@ -308,7 +308,7 @@ D. $169$
 ::key C
 $\sqrt{25+144}=13$.
 
-::tf
+::tf TH TH TH TH
 Let $\mathbf{a}=\begin{pmatrix}2\\1\end{pmatrix}$ and $\mathbf{b}=\begin{pmatrix}4\\2\end{pmatrix}$. Decide whether each statement is true or false.
 a) $\mathbf{b}=2\mathbf{a}$.
 b) $\mathbf{a}$ and $\mathbf{b}$ are parallel.
@@ -317,12 +317,12 @@ d) $\mathbf{a}+\mathbf{b}=\begin{pmatrix}6\\4\end{pmatrix}$.
 ::key T T T F
 $\mathbf{a}+\mathbf{b}=\begin{pmatrix}6\\3\end{pmatrix}$.
 
-::sa
+::sa TH
 A shape is enlarged with scale factor $-2$. By what number is its area multiplied?
 ::key 4
 $(-2)^2=4$.
 
-::sa
+::sa TH
 Find the magnitude of $\begin{pmatrix}-8\\6\end{pmatrix}$.
 ::key 10
 $\sqrt{64+36}=10$.

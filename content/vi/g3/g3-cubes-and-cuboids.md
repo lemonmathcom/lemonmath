@@ -266,7 +266,7 @@ $6$ mặt chia thành $3$ cặp mặt đối diện. Mỗi cặp có $7$ chấm 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Khối lập phương có bao nhiêu mặt?
 A. $4$.
 B. $6$.
@@ -275,7 +275,7 @@ D. $12$.
 ::key B
 Khối lập phương có $6$ mặt. Phương án C là số đỉnh, phương án D là số cạnh.
 
-::mc
+::mc NB
 Mỗi mặt của khối lập phương là hình gì?
 A. Hình tam giác.
 B. Hình chữ nhật có hai cạnh khác nhau.
@@ -284,7 +284,7 @@ D. Hình tròn.
 ::key C
 Các mặt của khối lập phương đều là hình vuông bằng nhau. Phương án B là mặt của khối hộp chữ nhật.
 
-::mc
+::mc TH
 Khối hộp chữ nhật có mặt đáy là hình chữ nhật dài $9$ cm, rộng $4$ cm. Mặt nắp đối diện có kích thước là
 A. dài $9$ cm, rộng $4$ cm.
 B. dài $9$ cm, rộng $9$ cm.
@@ -293,7 +293,7 @@ D. dài $13$ cm, rộng $4$ cm.
 ::key A
 Hai mặt đối diện bằng nhau nên mặt nắp cũng dài $9$ cm, rộng $4$ cm. Phương án D là lỗi cộng hai số.
 
-::mc
+::mc TH
 Xếp các khối nhỏ thành $3$ lớp, mỗi lớp $5$ khối. Có tất cả bao nhiêu khối?
 A. $8$.
 B. $15$.
@@ -302,7 +302,7 @@ D. $10$.
 ::key B
 $5\times3=15$ (khối). Phương án A là lỗi cộng $5+3$.
 
-::tf
+::tf NB NB NB NB
 Em xét khối lập phương.
 a) Có $6$ mặt.
 b) Mỗi mặt là hình vuông.
@@ -311,12 +311,12 @@ d) Có $12$ cạnh.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng: các mặt đều là hình vuông. c) Sai: có $8$ đỉnh. d) Đúng: có $12$ cạnh.
 
-::sa
+::sa NB
 Khối lập phương có bao nhiêu đỉnh?
 ::key 8
 Khối lập phương có $8$ đỉnh.
 
-::sa
+::sa TH
 Xếp các khối lập phương nhỏ thành $3$ lớp, mỗi lớp $9$ khối. Có tất cả bao nhiêu khối?
 ::key 27
 $9\times3=27$ (khối).

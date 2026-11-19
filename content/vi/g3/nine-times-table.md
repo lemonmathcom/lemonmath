@@ -334,7 +334,7 @@ b) $36:9=4$, $45:9=5$, $72:9=8$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $9\times4$ là
 A. $36$.
 B. $13$.
@@ -343,7 +343,7 @@ D. $32$.
 ::key A
 $9\times4=40-4=36$. Phương án B là lỗi cộng $9+4$, phương án D là $8\times4$.
 
-::mc
+::mc NB
 Kết quả của $9\times7$ là
 A. $54$.
 B. $63$.
@@ -352,7 +352,7 @@ D. $16$.
 ::key B
 $9\times7=70-7=63$. Phương án A là $9\times6$, thiếu một nhóm $9$.
 
-::mc
+::mc NB
 Kết quả của $54:9$ là
 A. $5$.
 B. $7$.
@@ -361,7 +361,7 @@ D. $45$.
 ::key C
 Vì $9\times6=54$ nên $54:9=6$. Phương án A là lỗi nhớ nhầm $9\times5=45$.
 
-::mc
+::mc TH
 Mỗi hàng có $9$ cái ghế. Hỏi $5$ hàng như vậy có bao nhiêu cái ghế?
 A. $14$ cái.
 B. $36$ cái.
@@ -370,7 +370,7 @@ D. $45$ cái.
 ::key D
 $5$ nhóm, mỗi nhóm $9$ cái: $9\times5=45$. Phương án A là lỗi cộng $9+5$.
 
-::tf
+::tf TH NB TH NB
 Em xét phép nhân $9\times6=54$.
 a) $9\times6=60-6$.
 b) $54:9=6$.
@@ -379,12 +379,12 @@ d) $54:6=8$.
 ::key Đ Đ Đ S
 a) Đúng: $60-6=54$. b) Đúng: $9\times6=54$. c) Đúng: $5+4=9$. d) Sai: $54:6=9$.
 
-::sa
+::sa NB
 Tính $9\times9$.
 ::key 81
 $9\times9=90-9=81$.
 
-::sa
+::sa TH
 Có $63$ cái bánh xếp vào các đĩa, mỗi đĩa $9$ cái. Hỏi xếp được bao nhiêu đĩa?
 ::key 7
 $63:9=7$ (đĩa), vì $9\times7=63$.

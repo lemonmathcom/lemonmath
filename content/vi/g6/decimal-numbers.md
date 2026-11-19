@@ -478,7 +478,7 @@ Vậy giá trị của biểu thức là $5$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số đối của $-3{,}07$ là
 A. $3{,}07$.
 B. $-3{,}07$.
@@ -487,7 +487,7 @@ D. $-0{,}307$.
 ::key A
 Số đối của $-3{,}07$ là $3{,}07$. B là chính số đó; C bỏ mất chữ số $0$; D dời sai dấu phẩy.
 
-::mc
+::mc TH
 Kết quả của phép tính $(-1{,}8)+(-2{,}4)$ là
 A. $0{,}6$.
 B. $-0{,}6$.
@@ -496,7 +496,7 @@ D. $4{,}2$.
 ::key C
 Hai số cùng âm: $-(1{,}8+2{,}4)=-4{,}2$. A và B lấy hiệu thay vì tổng; D quên dấu "$-$".
 
-::mc
+::mc TH
 Khẳng định nào sau đây đúng?
 A. $-2{,}5>-2{,}45$.
 B. $-0{,}1<-0{,}01$.
@@ -505,7 +505,7 @@ D. $-1{,}5<-1{,}55$.
 ::key B
 $0{,}1>0{,}01$ nên $-0{,}1<-0{,}01$. A và D so sánh số âm như số dương; C cho số âm lớn hơn $0$.
 
-::mc
+::mc TH
 Kết quả của phép tính $(-0{,}6)\cdot(-0{,}5)$ là
 A. $-0{,}3$.
 B. $3$.
@@ -514,7 +514,7 @@ D. $0{,}3$.
 ::key D
 Hai số cùng dấu nên tích dương: $0{,}6\cdot0{,}5=0{,}3$. A sai dấu; B và C đặt sai dấu phẩy.
 
-::tf
+::tf NB TH TH TH
 Xét tính đúng sai của các mệnh đề sau:
 a) Mọi số thập phân âm đều nhỏ hơn mọi số thập phân dương.
 b) $-7{,}25>-7{,}2$.
@@ -523,12 +523,12 @@ d) $-0{,}5=\dfrac{-1}{2}$.
 ::key Đ S Đ Đ
 a) Đúng: số âm nhỏ hơn $0$, số dương lớn hơn $0$. b) Sai: $7{,}25>7{,}2$ nên $-7{,}25<-7{,}2$. c) Đúng: cùng dấu, $2{,}5\cdot4=10$. d) Đúng: $-0{,}5=\dfrac{-5}{10}=\dfrac{-1}{2}$.
 
-::sa
+::sa VD
 Tính giá trị của biểu thức $(-2{,}5)\cdot4+12{,}5$.
 ::key 2,5
 $(-2{,}5)\cdot4=-10$; $-10+12{,}5=2{,}5$.
 
-::sa
+::sa VD
 Lúc $6$ giờ sáng nhiệt độ là $-1{,}8^\circ\text{C}$, lúc $12$ giờ trưa nhiệt độ là $4{,}5^\circ\text{C}$. Nhiệt độ đã tăng bao nhiêu độ C?
 ::key 6,3
 Mức tăng là $4{,}5-(-1{,}8)=4{,}5+1{,}8=6{,}3$ (độ C).

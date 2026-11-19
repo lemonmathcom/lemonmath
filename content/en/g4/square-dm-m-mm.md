@@ -309,7 +309,7 @@ There are $100$ small squares, because $1\ \text{m}^2=100\ \text{dm}^2$. Each is
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $1\ \text{dm}^2$ equals
 A. $10\ \text{cm}^2$.
 B. $1\,000\ \text{cm}^2$.
@@ -318,7 +318,7 @@ D. $100\ \text{mm}^2$.
 ::key C
 The side $1\ \text{dm}=10\ \text{cm}$, so the area is $10\times10=100\ \text{cm}^2$. Option A mixes up $10$ and $100$.
 
-::mc
+::mc TH
 How many $\text{dm}^2$ is $7\ \text{m}^2$?
 A. $70\ \text{dm}^2$.
 B. $7\ \text{dm}^2$.
@@ -327,7 +327,7 @@ D. $700\ \text{dm}^2$.
 ::key D
 To change to a smaller unit, multiply by $100$: $7\times100=700$. Option A multiplies by $10$.
 
-::mc
+::mc TH
 How many $\text{cm}^2$ is $3\ \text{dm}^2\ 8\ \text{cm}^2$?
 A. $308\ \text{cm}^2$.
 B. $38\ \text{cm}^2$.
@@ -336,7 +336,7 @@ D. $3\,008\ \text{cm}^2$.
 ::key A
 $3\ \text{dm}^2=300\ \text{cm}^2$, then $300+8=308$. Option B forgets the $0$ in the middle.
 
-::mc
+::mc VD
 A board is a rectangle $4\ \text{m}$ long and $3\ \text{m}$ wide. How many $\text{dm}^2$ is its area?
 A. $12\ \text{dm}^2$.
 B. $1\,200\ \text{dm}^2$.
@@ -345,7 +345,7 @@ D. $14\ \text{dm}^2$.
 ::key B
 $4\times3=12\ \text{m}^2$, then $12\times100=1\,200\ \text{dm}^2$. Option A forgets to change the unit, and option C multiplies by $10$.
 
-::tf
+::tf NB TH NB TH
 Look at $1\ \text{m}^2$.
 a) $1\ \text{m}^2=100\ \text{dm}^2$.
 b) $1\ \text{m}^2=10\,000\ \text{cm}^2$.
@@ -354,12 +354,12 @@ d) $1\ \text{m}^2$ is greater than $9\,000\ \text{cm}^2$.
 ::key T T F T
 a) True. b) True: $100\times100=10\,000$. c) False: the right value is $100\ \text{dm}^2$. d) True because $10\,000>9\,000$.
 
-::sa
+::sa TH
 Convert $9\ \text{dm}^2$ into $\text{cm}^2$.
 ::key 900
 $9\times100=900$.
 
-::sa
+::sa TH
 Convert $2\,400\ \text{cm}^2$ into $\text{dm}^2$.
 ::key 24
 $2\,400\div100=24$.

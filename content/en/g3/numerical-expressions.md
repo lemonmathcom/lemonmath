@@ -248,7 +248,7 @@ $$30-(10+5)=30-15=15.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The value of the expression $20+3\times 4$ is
 A. $32$.
 B. $92$.
@@ -257,7 +257,7 @@ D. $23$.
 ::key A
 Multiply first: $3\times 4=12$, then $20+12=32$. A adds first and then multiplies, C only works out $3\times 4$, D only works out $20+3$.
 
-::mc
+::mc TH
 The value of the expression $72\div8\times 3$ is
 A. $3$.
 B. $27$.
@@ -266,7 +266,7 @@ D. $216$.
 ::key B
 Work from left to right: $72\div8=9$, then $9\times 3=27$. B multiplies first, C stops at the division, D works out $72\times 3$.
 
-::mc
+::mc TH
 The value of the expression $(50-18)\times 2$ is
 A. $14$.
 B. $32$.
@@ -275,7 +275,7 @@ D. $68$.
 ::key C
 Work inside the brackets first: $50-18=32$, then $32\times 2=64$. A multiplies first, B stops at the brackets, D is a slip in the calculation.
 
-::mc
+::mc TH
 Lan has $20$ marbles and buys $3$ more bags of marbles, $4$ marbles in each bag. Which expression gives the number of marbles Lan has altogether?
 A. $(20+3)\times 4$.
 B. $20+3+4$.
@@ -284,7 +284,7 @@ D. $20+3\times 4$.
 ::key D
 The extra marbles are $3\times 4$, which are added to $20$. A adds $20$ to the number of bags, B and C do not match the problem.
 
-::tf
+::tf NB NB TH TH
 Look at the expression $30+6\times 5$.
 a) You must work out $30+6$ first.
 b) You must work out $6\times 5$ first.
@@ -293,12 +293,12 @@ d) The expression $(30+6)\times 5$ has the value $180$.
 ::key F T T T
 a) False: multiplication comes first. b) True: $6\times 5=30$. c) True: $30+30=60$. d) True: $36\times 5=180$.
 
-::sa
+::sa TH
 Find the value of the expression $15+4\times 6$.
 ::key 39
 $4\times 6=24$, then $15+24=39$.
 
-::sa
+::sa TH
 Find the value of the expression $(24+36)\div6$.
 ::key 10
 $24+36=60$, then $60\div6=10$.

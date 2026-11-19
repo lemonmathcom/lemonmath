@@ -414,7 +414,7 @@ We have $\sin^2(x+\pi)=(-\sin x)^2=\sin^2x$, so $\pi$ is a period. Suppose $0<T<
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The domain of the function $y=\cot2x$ is
 A. $\mathbb{R}\setminus\{k\pi\mid k\in\mathbb{Z}\}$.
 B. $\mathbb{R}\setminus\left\{\dfrac{\pi}{2}+k\pi\mid k\in\mathbb{Z}\right\}$.
@@ -423,7 +423,7 @@ D. $\mathbb{R}\setminus\left\{\dfrac{k\pi}{4}\mid k\in\mathbb{Z}\right\}$.
 ::key C
 The function is defined when $\sin2x\ne0$, that is $2x\ne k\pi$, or $x\ne\dfrac{k\pi}{2}$. Option A forgets the factor $2$, and option B is the domain of $\tan$.
 
-::mc
+::mc TH
 The greatest value of $y=4-3\sin2x$ is
 A. $1$.
 B. $4$.
@@ -432,7 +432,7 @@ D. $7$.
 ::key D
 Since $-1\le\sin2x\le1$, we have $y\le4+3=7$, reached when $\sin2x=-1$. Option A is the least value, and option C assumes $\sin2x$ can equal $-2$.
 
-::mc
+::mc NB
 The period of $y=\sin\dfrac{\pi x}{3}$ is
 A. $6$.
 B. $3$.
@@ -441,7 +441,7 @@ D. $\dfrac{\pi}{3}$.
 ::key A
 The period is $\dfrac{2\pi}{\pi/3}=6$. Option C ignores the coefficient of $x$, and option B uses $\dfrac{\pi}{\pi/3}$ (the period of $\tan$).
 
-::mc
+::mc TH
 Which of the following statements is true?
 A. $\cos\dfrac{\pi}{5}<\cos\dfrac{2\pi}{5}$.
 B. $\tan\dfrac{\pi}{5}<\tan\dfrac{2\pi}{5}$.
@@ -450,7 +450,7 @@ D. $\tan\dfrac{3\pi}{5}>\tan\dfrac{2\pi}{5}$.
 ::key B
 $\tan$ is increasing on $\left(0, \dfrac{\pi}{2}\right)$, so A is true. B is false because $\cos$ is decreasing on $(0, \pi)$; C is false because $\sin\dfrac{\pi}{2}=1$ is the greatest value; D is false because $\tan\dfrac{3\pi}{5}<0<\tan\dfrac{2\pi}{5}$.
 
-::tf
+::tf TH TH TH NB
 Consider the function $y=3-2\cos x$. Decide whether each statement is true or false.
 a) The range of the function is $[1, 5]$.
 b) The function is odd.
@@ -459,12 +459,12 @@ d) The function is periodic with period $2\pi$.
 ::key T F T T
 a) True: $-1\le\cos x\le1$ gives $1\le y\le5$. b) False: $y(-x)=3-2\cos(-x)=y(x)$, so the function is even. c) True: $\cos x$ is decreasing on $(0, \pi)$, so $-2\cos x$ is increasing. d) True: $\cos x$ has period $2\pi$.
 
-::sa
+::sa VD
 How many values of $x\in[0, 3\pi]$ satisfy $\sin x=\dfrac12$?
 ::key 4
 The solutions are $\dfrac{\pi}{6}$, $\dfrac{5\pi}{6}$, $\dfrac{13\pi}{6}$ and $\dfrac{17\pi}{6}$, all in $[0, 3\pi]$; the next solution $\dfrac{25\pi}{6}$ is greater than $3\pi$.
 
-::sa
+::sa TH
 The height (in m) of a Ferris wheel cabin above the ground after $t$ minutes is $h(t)=22-20\cos\dfrac{\pi t}{4}$. Find the height of the cabin after $3$ minutes, to 1 decimal place.
 ::key 36.1
 $h(3)=22-20\cos\dfrac{3\pi}{4}=22+20\cdot\dfrac{\sqrt2}{2}=22+10\sqrt2\approx36.1$ (m).

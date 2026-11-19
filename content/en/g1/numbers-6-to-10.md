@@ -270,7 +270,7 @@ Counting backwards: $10, 9, 8, 7, 6, 5$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 There are eight marbles. Which number do you write?
 A. $7$.
 B. $8$.
@@ -279,7 +279,7 @@ D. $6$.
 ::key B
 Eight is written $8$. Option A is the mistake of missing one marble.
 
-::mc
+::mc NB
 The number after $9$ is
 A. $8$.
 B. $9$.
@@ -288,7 +288,7 @@ D. $0$.
 ::key C
 Count on one after nine and you get ten. Option A is the number before.
 
-::mc
+::mc NB
 Fill in the row $6, 7, \square, 9, 10$.
 A. $7$.
 B. $8$.
@@ -297,7 +297,7 @@ D. $10$.
 ::key B
 After $7$ comes $8$, then $9$. Option A repeats the number $7$.
 
-::mc
+::mc NB
 Which digits (in order) write the number ten?
 A. $1$ and $0$.
 B. $0$ and $1$.
@@ -306,7 +306,7 @@ D. $0$ and $0$.
 ::key A
 The number $10$ has the digit $1$ first, then the digit $0$. Option B is the backwards mistake.
 
-::tf
+::tf NB NB TH TH
 Look at the numbers $6, 7, 8, 9, 10$.
 a) The number $6$ is read "six".
 b) The number after $7$ is $8$.
@@ -315,12 +315,12 @@ d) The row $6, 7, 8, 9, 10$ has five numbers.
 ::key T T F T
 a) True. b) True. c) False: when you count, $9$ comes before $10$. d) True: six, seven, eight, nine, ten make five numbers.
 
-::sa
+::sa TH
 Count backwards: $10, 9, 8, \square, 6$. Which number goes in the box?
 ::key 7
 After $8$ comes $7$, then $6$.
 
-::sa
+::sa NB
 What is the number after $8$?
 ::key 9
 Count: eight, nine. The number after $8$ is $9$.

@@ -30,36 +30,36 @@ Bảng theo dõi nhanh (một dòng mỗi tài khoản, tích ô khi xong): `BAN
 
 | Tài khoản | File giao | File nộp về | Nội dung | Cỡ | Xong |
 |---|---|---|---|---|---|
-| Kinangtoan | Kinangtoan-MD-1.txt | Kinangtoan-MD-1-ketqua.txt | MD-01: 168 câu, Lớp 1 → Lớp 2 | 44 KB | ☐ |
-| Kinangtoan | Kinangtoan-MD-2.txt | Kinangtoan-MD-2-ketqua.txt | MD-16: 105 câu, Lớp 9 → Lớp 9 | 43 KB | ☐ |
-| Alexnguyen122222 | Alexnguyen122222-MD-1.txt | Alexnguyen122222-MD-1-ketqua.txt | MD-02: 161 câu, Lớp 2 → Lớp 2 | 44 KB | ☐ |
-| Alexnguyen122222 | Alexnguyen122222-MD-2.txt | Alexnguyen122222-MD-2-ketqua.txt | MD-17: 98 câu, Lớp 9 → Lớp 10 | 44 KB | ☐ |
-| thichgiaitoan | thichgiaitoan-MD-1.txt | thichgiaitoan-MD-1-ketqua.txt | MD-03: 147 câu, Lớp 2 → Lớp 3 | 44 KB | ☐ |
-| thichgiaitoan | thichgiaitoan-MD-2.txt | thichgiaitoan-MD-2-ketqua.txt | MD-18: 91 câu, Lớp 10 → Lớp 10 | 41 KB | ☐ |
-| Lemonmath.com | Lemonmath.com-MD-1.txt | Lemonmath.com-MD-1-ketqua.txt | MD-04: 126 câu, Lớp 3 → Lớp 3 | 43 KB | ☐ |
-| Lemonmath.com | Lemonmath.com-MD-2.txt | Lemonmath.com-MD-2-ketqua.txt | MD-19: 105 câu, Lớp 10 → Lớp 11 | 45 KB | ☐ |
-| Vinax.vn | Vinax.vn-MD-1.txt | Vinax.vn-MD-1-ketqua.txt | MD-05: 119 câu, Lớp 3 → Lớp 4 | 43 KB | ☐ |
-| Vinax.vn | Vinax.vn-MD-2.txt | Vinax.vn-MD-2-ketqua.txt | MD-20: 105 câu, Lớp 11 → Lớp 11 | 42 KB | ☐ |
-| Nguyenchanh2358 | Nguyenchanh2358-MD-1.txt | Nguyenchanh2358-MD-1-ketqua.txt | MD-06: 133 câu, Lớp 4 → Lớp 4 | 42 KB | ☐ |
-| Nguyenchanh2358 | Nguyenchanh2358-MD-2.txt | Nguyenchanh2358-MD-2-ketqua.txt | MD-21: 91 câu, Lớp 11 → Lớp 12 | 42 KB | ☐ |
-| Vinax258 | Vinax258-MD-1.txt | Vinax258-MD-1-ketqua.txt | MD-07: 119 câu, Lớp 4 → Lớp 5 | 42 KB | ☐ |
-| Vinax258 | Vinax258-MD-2.txt | Vinax258-MD-2-ketqua.txt | MD-22: 77 câu, Lớp 12 → Lớp 12 | 43 KB | ☐ |
-| Vimus2358 | Vimus2358-MD-1.txt | Vimus2358-MD-1-ketqua.txt | MD-08: 112 câu, Lớp 5 → Lớp 5 | 43 KB | ☐ |
-| Vimus2358 | Vimus2358-MD-2.txt | Vimus2358-MD-2-ketqua.txt | MD-23: 91 câu, Lớp 12 → Lớp 12 | 41 KB | ☐ |
-| Lemonmath112 | Lemonmath112-MD-1.txt | Lemonmath112-MD-1-ketqua.txt | MD-09: 133 câu, Lớp 5 → Lớp 6 | 44 KB | ☐ |
-| Lemonmath112 | Lemonmath112-MD-2.txt | Lemonmath112-MD-2-ketqua.txt | MD-24: 44 câu, Lớp 12 → Lớp 12 | 40 KB | ☐ |
-| hanibi108 | hanibi108-MD-1.txt | hanibi108-MD-1-ketqua.txt | MD-12: 119 câu, Lớp 7 → Lớp 8 | 45 KB | ☐ |
-| hanibi108 | hanibi108-MD-2.txt | hanibi108-MD-2-ketqua.txt | MD-27: 164 câu, Ôn thi ACT → Ôn thi AP PRECALCULUS | 45 KB | ☐ |
-| Xedap102 | Xedap102-MD-1.txt | Xedap102-MD-1-ketqua.txt | MD-10: 119 câu, Lớp 6 → Lớp 6 | 43 KB | ☐ |
-| Xedap102 | Xedap102-MD-2.txt | Xedap102-MD-2-ketqua.txt | MD-25: 44 câu, Lớp 12 → Lớp 12 | 44 KB | ☐ |
-| chanh106 | chanh106-MD-1.txt | chanh106-MD-1-ketqua.txt | MD-11: 105 câu, Lớp 6 → Lớp 7 | 42 KB | ☐ |
-| chanh106 | chanh106-MD-2.txt | chanh106-MD-2-ketqua.txt | MD-26: 151 câu, Ôn thi SAT → Ôn thi SAT | 44 KB | ☐ |
-| thaodebao1 | thaodebao1-MD-1.txt | thaodebao1-MD-1-ketqua.txt | MD-13: 119 câu, Lớp 8 → Lớp 8 | 43 KB | ☐ |
-| thaodebao1 | thaodebao1-MD-2.txt | thaodebao1-MD-2-ketqua.txt | MD-28: 119 câu, Ôn thi AP CALCULUS → Ôn thi AP CALCULUS | 38 KB | ☐ |
-| nguoibuonthinh | nguoibuonthinh-MD-1.txt | nguoibuonthinh-MD-1-ketqua.txt | MD-14: 112 câu, Lớp 8 → Lớp 9 | 43 KB | ☐ |
-| nguoibuonthinh | nguoibuonthinh-MD-2.txt | nguoibuonthinh-MD-2-ketqua.txt | MD-29: 133 câu, Ôn thi AP CALCULUS → Ôn thi AP STATISTICS | 47 KB | ☐ |
-| huongamuong1 | huongamuong1-MD-1.txt | huongamuong1-MD-1-ketqua.txt | MD-15: 119 câu, Lớp 9 → Lớp 9 | 43 KB | ☐ |
-| huongamuong1 | huongamuong1-MD-2.txt | huongamuong1-MD-2-ketqua.txt | MD-30: 161 câu, Ôn thi IB AA → Ôn thi IGCSE | 41 KB | ☐ |
+| Kinangtoan | Kinangtoan-MD-1.txt | Kinangtoan-MD-1-ketqua.txt | MD-01: 168 câu, Lớp 1 → Lớp 2 | 44 KB | ☑ |
+| Kinangtoan | Kinangtoan-MD-2.txt | Kinangtoan-MD-2-ketqua.txt | MD-16: 105 câu, Lớp 9 → Lớp 9 | 43 KB | ☑ |
+| Alexnguyen122222 | Alexnguyen122222-MD-1.txt | Alexnguyen122222-MD-1-ketqua.txt | MD-02: 161 câu, Lớp 2 → Lớp 2 | 44 KB | ☑ |
+| Alexnguyen122222 | Alexnguyen122222-MD-2.txt | Alexnguyen122222-MD-2-ketqua.txt | MD-17: 98 câu, Lớp 9 → Lớp 10 | 44 KB | ☑ |
+| thichgiaitoan | thichgiaitoan-MD-1.txt | thichgiaitoan-MD-1-ketqua.txt | MD-03: 147 câu, Lớp 2 → Lớp 3 | 44 KB | ☑ |
+| thichgiaitoan | thichgiaitoan-MD-2.txt | thichgiaitoan-MD-2-ketqua.txt | MD-18: 91 câu, Lớp 10 → Lớp 10 | 41 KB | ☑ |
+| Lemonmath.com | Lemonmath.com-MD-1.txt | Lemonmath.com-MD-1-ketqua.txt | MD-04: 126 câu, Lớp 3 → Lớp 3 | 43 KB | ☑ |
+| Lemonmath.com | Lemonmath.com-MD-2.txt | Lemonmath.com-MD-2-ketqua.txt | MD-19: 105 câu, Lớp 10 → Lớp 11 | 45 KB | ☑ |
+| Vinax.vn | Vinax.vn-MD-1.txt | Vinax.vn-MD-1-ketqua.txt | MD-05: 119 câu, Lớp 3 → Lớp 4 | 43 KB | ☑ |
+| Vinax.vn | Vinax.vn-MD-2.txt | Vinax.vn-MD-2-ketqua.txt | MD-20: 105 câu, Lớp 11 → Lớp 11 | 42 KB | ☑ |
+| Nguyenchanh2358 | Nguyenchanh2358-MD-1.txt | Nguyenchanh2358-MD-1-ketqua.txt | MD-06: 133 câu, Lớp 4 → Lớp 4 | 42 KB | ☑ |
+| Nguyenchanh2358 | Nguyenchanh2358-MD-2.txt | Nguyenchanh2358-MD-2-ketqua.txt | MD-21: 91 câu, Lớp 11 → Lớp 12 | 42 KB | ☑ |
+| Vinax258 | Vinax258-MD-1.txt | Vinax258-MD-1-ketqua.txt | MD-07: 119 câu, Lớp 4 → Lớp 5 | 42 KB | ☑ |
+| Vinax258 | Vinax258-MD-2.txt | Vinax258-MD-2-ketqua.txt | MD-22: 77 câu, Lớp 12 → Lớp 12 | 43 KB | ☑ |
+| Vimus2358 | Vimus2358-MD-1.txt | Vimus2358-MD-1-ketqua.txt | MD-08: 112 câu, Lớp 5 → Lớp 5 | 43 KB | ☑ |
+| Vimus2358 | Vimus2358-MD-2.txt | Vimus2358-MD-2-ketqua.txt | MD-23: 91 câu, Lớp 12 → Lớp 12 | 41 KB | ☑ |
+| Lemonmath112 | Lemonmath112-MD-1.txt | Lemonmath112-MD-1-ketqua.txt | MD-09: 133 câu, Lớp 5 → Lớp 6 | 44 KB | ☑ |
+| Lemonmath112 | Lemonmath112-MD-2.txt | Lemonmath112-MD-2-ketqua.txt | MD-24: 44 câu, Lớp 12 → Lớp 12 | 40 KB | ☑ |
+| hanibi108 | hanibi108-MD-1.txt | hanibi108-MD-1-ketqua.txt | MD-12: 119 câu, Lớp 7 → Lớp 8 | 45 KB | ☑ |
+| hanibi108 | hanibi108-MD-2.txt | hanibi108-MD-2-ketqua.txt | MD-27: 164 câu, Ôn thi ACT → Ôn thi AP PRECALCULUS | 45 KB | dở |
+| Xedap102 | Xedap102-MD-1.txt | Xedap102-MD-1-ketqua.txt | MD-10: 119 câu, Lớp 6 → Lớp 6 | 43 KB | ☑ |
+| Xedap102 | Xedap102-MD-2.txt | Xedap102-MD-2-ketqua.txt | MD-25: 44 câu, Lớp 12 → Lớp 12 | 44 KB | ☑ |
+| chanh106 | chanh106-MD-1.txt | chanh106-MD-1-ketqua.txt | MD-11: 105 câu, Lớp 6 → Lớp 7 | 42 KB | ☑ |
+| chanh106 | chanh106-MD-2.txt | chanh106-MD-2-ketqua.txt | MD-26: 151 câu, Ôn thi SAT → Ôn thi SAT | 44 KB | ☑ |
+| thaodebao1 | thaodebao1-MD-1.txt | thaodebao1-MD-1-ketqua.txt | MD-13: 119 câu, Lớp 8 → Lớp 8 | 43 KB | ☑ |
+| thaodebao1 | thaodebao1-MD-2.txt | thaodebao1-MD-2-ketqua.txt | MD-28: 119 câu, Ôn thi AP CALCULUS → Ôn thi AP CALCULUS | 38 KB | ☑ |
+| nguoibuonthinh | nguoibuonthinh-MD-1.txt | nguoibuonthinh-MD-1-ketqua.txt | MD-14: 112 câu, Lớp 8 → Lớp 9 | 43 KB | ☑ |
+| nguoibuonthinh | nguoibuonthinh-MD-2.txt | nguoibuonthinh-MD-2-ketqua.txt | MD-29: 133 câu, Ôn thi AP CALCULUS → Ôn thi AP STATISTICS | 47 KB | ☑ |
+| huongamuong1 | huongamuong1-MD-1.txt | huongamuong1-MD-1-ketqua.txt | MD-15: 119 câu, Lớp 9 → Lớp 9 | 43 KB | ☑ |
+| huongamuong1 | huongamuong1-MD-2.txt | huongamuong1-MD-2-ketqua.txt | MD-30: 161 câu, Ôn thi IB AA → Ôn thi IGCSE | 41 KB | ☑ |
 
 ## Giai đoạn 2: Viết lại lời giải bài tập (chuẩn 2e) (thư mục `2-LOI-GIAI`)
 

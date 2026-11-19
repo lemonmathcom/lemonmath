@@ -207,7 +207,7 @@ Giả sử $\log_23=\dfrac pq$, $p,q\in\mathbb{Z}^+$. Khi đó $2^{p/q}=3$, nên
 :::
 
 :::quiz
-::mc
+::mc TH
 $i^{23}$ bằng
 A. $1$
 B. $i$
@@ -216,7 +216,7 @@ D. $-i$
 ::key D
 $23=4\cdot5+3$, nên $i^{23}=i^3=-i$.
 
-::mc
+::mc TH
 $\arg(-1+i)$ bằng
 A. $\dfrac{3\pi}{4}$
 B. $\dfrac{\pi}{4}$
@@ -225,7 +225,7 @@ D. $\dfrac{5\pi}{4}$
 ::key A
 Điểm $(-1,1)$ nằm ở góc phần tư thứ hai. Phương án D nằm ngoài $-\pi<\theta\le\pi$.
 
-::mc
+::mc TH
 Các nghiệm của $z^2-4z+13=0$ là
 A. $4\pm3i$
 B. $-2\pm3i$
@@ -234,7 +234,7 @@ D. $2\pm9i$
 ::key C
 $z=\dfrac{4\pm\sqrt{16-52}}{2}=\dfrac{4\pm6i}{2}$.
 
-::mc
+::mc TH
 Bước nào không thuộc chứng minh quy nạp?
 A. Chứng tỏ mệnh đề đúng với $n=1$
 B. Kiểm tra mệnh đề với $n=1$ đến $n=10$ rồi kết luận
@@ -243,7 +243,7 @@ D. Chứng minh mệnh đề đúng với $n=k+1$
 ::key B
 Thử các trường hợp không phải là chứng minh; ba phương án còn lại là cấu trúc của quy nạp.
 
-::tf
+::tf NB TH TH TH
 Cho $z=2e^{i\pi/4}$.
 a) $|z|=2$.
 b) $z^2=4i$.
@@ -252,12 +252,12 @@ d) $z^4=16$.
 ::key T T F F
 a) Đúng. b) Đúng: $4e^{i\pi/2}=4i$. c) Sai: $\operatorname{Re}z=2\cos\dfrac\pi4=\sqrt2$. d) Sai: $z^4=16e^{i\pi}=-16$.
 
-::sa
+::sa TH
 Tính $\left|(1+i)^6\right|$.
 ::key 8
 $|1+i|^6=\left(\sqrt2\right)^6=8$.
 
-::sa
+::sa NB
 Phương trình $z^5=1$ có bao nhiêu nghiệm phân biệt?
 ::key 5
 Phương trình $z^n=w$ với $w\ne0$ có $n$ nghiệm phân biệt.

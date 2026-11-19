@@ -301,7 +301,7 @@ $$18-12=6\ \text{(cm)}.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Đường gấp khúc ABCD gồm các đoạn thẳng
 A. AB, BC.
 B. AB, BC, CD.
@@ -310,7 +310,7 @@ D. AB, BC, CD, DA.
 ::key B
 Các điểm A, D, C, B được nối lần lượt thành ba đoạn thẳng AB, BC, CD. Phương án D có thêm đoạn DA, đó là hình tứ giác.
 
-::mc
+::mc TH
 Đường gấp khúc ABC có $AB=6$ cm và $BC=7$ cm. Độ dài đường gấp khúc ABC là
 A. $1$ cm.
 B. $14$ cm.
@@ -319,7 +319,7 @@ D. $67$ cm.
 ::key C
 $6+7=13$ (cm). Phương án A là phép trừ, phương án D viết hai số liền nhau.
 
-::mc
+::mc NB
 Hình tứ giác có
 A. 5 cạnh và 5 đỉnh.
 B. 3 cạnh và 3 đỉnh.
@@ -328,7 +328,7 @@ D. 4 cạnh và 4 đỉnh.
 ::key D
 Hình tứ giác có 4 cạnh và 4 đỉnh. Phương án B là hình tam giác.
 
-::mc
+::mc NB
 Hình nào sau đây là hình tứ giác?
 A. Hình chữ nhật.
 B. Đoạn thẳng AB.
@@ -337,7 +337,7 @@ D. Một điểm.
 ::key A
 Hình chữ nhật có 4 cạnh và 4 đỉnh nên là hình tứ giác. Đoạn thẳng, điểm và đường gấp khúc ABC không khép kín bằng 4 cạnh.
 
-::tf
+::tf NB TH TH TH
 Đường gấp khúc ABCD có $AB=3$ cm, $BC=4$ cm, $CD=5$ cm.
 a) Đường gấp khúc ABCD gồm 3 đoạn thẳng.
 b) Độ dài đường gấp khúc ABCD là 12 cm.
@@ -346,12 +346,12 @@ d) Độ dài đường gấp khúc ABCD bằng độ dài đoạn thẳng CD.
 ::key Đ Đ Đ S
 a) Đúng: có AB, BC, CD. b) Đúng: $3+4+5=12$. c) Đúng: $12>10$. d) Sai: độ dài đường gấp khúc là tổng ba đoạn thẳng, bằng 12 cm, không bằng 5 cm.
 
-::sa
+::sa VD
 Đường gấp khúc ABC có $AB=9$ cm và $BC=8$ cm. Độ dài đường gấp khúc ABC là bao nhiêu xăng-ti-mét?
 ::key 17
 $9+8=17$ (cm).
 
-::sa
+::sa VD
 Một con kiến bò theo đường gấp khúc gồm ba đoạn thẳng dài 4 cm, 6 cm và 5 cm. Con kiến bò tất cả bao nhiêu xăng-ti-mét?
 ::key 15
 $4+6+5=15$ (cm).

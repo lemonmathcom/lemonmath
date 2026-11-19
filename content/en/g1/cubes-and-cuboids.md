@@ -276,7 +276,7 @@ The long face is two squares joined, which is a rectangle. The new block has rec
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A dice is the shape of a
 A. cuboid.
 B. cube.
@@ -285,7 +285,7 @@ D. cannot tell.
 ::key B
 The faces of a dice are equal squares.
 
-::mc
+::mc NB
 A long pencil case has rectangle faces. It is the shape of a
 A. cube.
 B. not a solid shape.
@@ -294,7 +294,7 @@ D. cannot tell.
 ::key C
 A solid shape with rectangle faces is a cuboid. Option A is the mistake of mixing it up with a dice.
 
-::mc
+::mc NB
 Each face of a cube is a
 A. circle.
 B. triangle.
@@ -303,7 +303,7 @@ D. square.
 ::key D
 The faces of a cube are squares. Option C mixes it up with a cuboid.
 
-::mc
+::mc TH
 Which thing is the shape of a cuboid?
 A. A ball.
 B. A biscuit box.
@@ -312,7 +312,7 @@ D. A clock face.
 ::key B
 A biscuit box has rectangle faces. A dice is a cube.
 
-::tf
+::tf NB NB TH NB
 Look at these solid shapes.
 a) A dice is a cube.
 b) The faces of a cube are circles.
@@ -321,12 +321,12 @@ d) A cuboid has $4$ faces.
 ::key T F T F
 a) True. b) False: the faces are squares. c) True. d) False: a cuboid has $6$ faces.
 
-::sa
+::sa NB
 How many faces does a cube have?
 ::key 6
 Count: the top, the bottom and four faces around, $6$ faces in all.
 
-::sa
+::sa TH
 You have $3$ cubes and $4$ cuboids. How many solid shapes do you have altogether?
 ::key 7
 Put together: $3+4=7$.

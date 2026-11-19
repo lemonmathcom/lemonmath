@@ -271,7 +271,7 @@ Số lớn nhất: $97\,530$. Số bé nhất: chữ số đầu là chữ số 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Số "ba mươi nghìn hai trăm linh năm" viết là
 A. $30\,250$.
 B. $30\,205$.
@@ -280,7 +280,7 @@ D. $30\,025$.
 ::key B
 $30\,000+200+5=30\,205$. Phương án A là $30\,250$ (hàng chục là $5$), phương án D là $30\,025$.
 
-::mc
+::mc NB
 Chữ số $6$ trong số $46\,280$ có giá trị là
 A. $6$.
 B. $60$.
@@ -289,7 +289,7 @@ D. $60\,000$.
 ::key C
 Chữ số $6$ ở hàng nghìn nên có giá trị $6\,000$.
 
-::mc
+::mc TH
 Số nào lớn nhất trong các số sau?
 A. $39\,999$.
 B. $40\,001$.
@@ -298,7 +298,7 @@ D. $40\,000$.
 ::key B
 Số $9\,999$ có $4$ chữ số nên bé nhất. Ba số còn lại có $5$ chữ số; hàng chục nghìn của $39\,999$ là $3$ nên bé hơn. Với $40\,001$ và $40\,000$, hàng đơn vị $1>0$.
 
-::mc
+::mc NB
 Số liền sau của $79\,999$ là
 A. $80\,000$.
 B. $79\,998$.
@@ -307,7 +307,7 @@ D. $89\,999$.
 ::key A
 $79\,999+1=80\,000$. Phương án B là số liền trước.
 
-::tf
+::tf NB NB TH TH
 Cho số $52\,019$.
 a) Đọc là "năm mươi hai nghìn không trăm mười chín".
 b) Chữ số $0$ ở hàng trăm.
@@ -316,12 +316,12 @@ d) $52\,019<52\,109$.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng: hàng trăm là $0$. c) Sai: tổng đúng là $50\,000+2\,000+10+9$. d) Đúng: hàng trăm $0<1$.
 
-::sa
+::sa NB
 Chữ số hàng nghìn của số $73\,456$ là chữ số nào?
 ::key 3
 Các hàng: chục nghìn $7$, nghìn $3$, trăm $4$, chục $5$, đơn vị $6$.
 
-::sa
+::sa TH
 Số lớn nhất có $4$ chữ số khác nhau là số nào?
 ::key 9876
 Xếp các chữ số khác nhau từ lớn đến bé: $9$, $8$, $7$, $6$.

@@ -318,7 +318,7 @@ For example $\dfrac{1}{8}=\dfrac{125}{1\,000}$, $\dfrac{1}{4}=\dfrac{250}{1\,000
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of these fractions is a decimal fraction?
 A. $\dfrac{17}{100}$.
 B. $\dfrac{3}{8}$.
@@ -327,7 +327,7 @@ D. $\dfrac{7}{20}$.
 ::key A
 Only $\dfrac{17}{100}$ has denominator $100$. The other fractions have denominators $20$, $8$ and $25$.
 
-::mc
+::mc TH
 Writing $\dfrac{3}{5}$ as a decimal fraction with denominator $10$ gives
 A. $\dfrac{3}{10}$.
 B. $\dfrac{6}{10}$.
@@ -336,7 +336,7 @@ D. $\dfrac{30}{10}$.
 ::key B
 Multiply the numerator and denominator by $2$: $\dfrac{3\times2}{5\times2}=\dfrac{6}{10}$. Option A changes only the denominator.
 
-::mc
+::mc TH
 Writing $\dfrac{7}{8}$ as a decimal fraction with denominator $1\,000$ gives
 A. $\dfrac{78}{1\,000}$.
 B. $\dfrac{700}{1\,000}$.
@@ -345,7 +345,7 @@ D. $\dfrac{7}{1\,000}$.
 ::key C
 Multiply the numerator and denominator by $125$: $\dfrac{7\times125}{8\times125}=\dfrac{875}{1\,000}$.
 
-::mc
+::mc NB
 Writing $125$ g as a fraction of a kilogram gives
 A. $\dfrac{125}{100}$ kg.
 B. $\dfrac{1}{125}$ kg.
@@ -354,7 +354,7 @@ D. $\dfrac{125}{1\,000}$ kg.
 ::key D
 $1$ kg $=1\,000$ g, so $125$ g $=\dfrac{125}{1\,000}$ kg.
 
-::tf
+::tf NB TH TH TH
 Look at the fraction $\dfrac{7}{20}$ and the measurement $35$ cm.
 a) $\dfrac{7}{20}$ is a decimal fraction.
 b) $\dfrac{7}{20}=\dfrac{35}{100}$.
@@ -363,12 +363,12 @@ d) $\dfrac{35}{100}=\dfrac{7}{10}$.
 ::key F T T F
 a) False: the denominator $20$ is not $10$, $100$, ... b) True: multiply both by $5$. c) True: $1$ cm $=\dfrac{1}{100}$ m. d) False: $\dfrac{35}{100}=\dfrac{7}{20}$.
 
-::sa
+::sa TH
 Write $\dfrac{3}{4}$ as a decimal fraction with denominator $100$. What is the numerator of that fraction?
 ::key 75
 $\dfrac{3}{4}=\dfrac{3\times25}{4\times25}=\dfrac{75}{100}$.
 
-::sa
+::sa VD
 Binh has $\dfrac{9}{10}$ of a litre of milk and drinks $\dfrac{37}{100}$ of a litre. The milk left is a fraction with denominator $100$; what is the numerator of that fraction?
 ::key 53
 $\dfrac{9}{10}=\dfrac{90}{100}$ and $\dfrac{90}{100}-\dfrac{37}{100}=\dfrac{53}{100}$.

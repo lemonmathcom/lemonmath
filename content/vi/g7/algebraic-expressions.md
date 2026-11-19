@@ -445,7 +445,7 @@ Vậy a) đa thức $x^2+4$ không có nghiệm; b) hai nghiệm là $x=1$ và $
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Bậc của đa thức $5x^3-2x^5+x$ là
 A. $5$.
 B. $3$.
@@ -454,7 +454,7 @@ D. $1$.
 ::key A
 Số mũ lớn nhất của biến là $5$. A là số mũ của hạng tử đầu, C là hệ số cao nhất, D là số mũ của hạng tử cuối.
 
-::mc
+::mc TH
 Giá trị của biểu thức $2x^2-x$ tại $x=-3$ là
 A. $15$.
 B. $21$.
@@ -463,7 +463,7 @@ D. $-15$.
 ::key B
 $2\cdot(-3)^2-(-3)=18+3=21$. B tính $(-3)^2$ thành $-9$, A bỏ qua dấu trừ trước $x$, C sai cả hai chỗ.
 
-::mc
+::mc TH
 Hệ số cao nhất của đa thức $4-3x^2+x$ là
 A. $1$.
 B. $4$.
@@ -472,7 +472,7 @@ D. $3$.
 ::key C
 Sắp xếp được $-3x^2+x+4$, hạng tử bậc cao nhất là $-3x^2$. B là hạng tử đứng đầu khi chưa sắp xếp, A là hệ số của $x$, D mất dấu trừ.
 
-::mc
+::mc TH
 Số nào sau đây là nghiệm của đa thức $x^2-x-6$?
 A. $2$.
 B. $-3$.
@@ -481,7 +481,7 @@ D. $3$.
 ::key D
 $3^2-3-6=0$. Với $2$ được $-4$, với $-3$ được $6$, với $6$ được $24$.
 
-::tf
+::tf NB TH TH TH
 Cho đa thức $P(x)=x^3-4x$. Xét tính đúng sai của các mệnh đề sau:
 a) Hệ số cao nhất của $P(x)$ là $-4$.
 b) $P(2)=0$.
@@ -490,12 +490,12 @@ d) $P(-2)=0$.
 ::key S Đ S Đ
 a) Sai: hệ số cao nhất là $1$ (của $x^3$). b) Đúng: $8-8=0$. c) Sai: $P(1)=1-4=-3$. d) Đúng: $-8+8=0$.
 
-::sa
+::sa TH
 Tính giá trị của đa thức $3x^2-2x+1$ tại $x=-2$.
 ::key 17
 $3\cdot4+4+1=17$.
 
-::sa
+::sa VD
 Tìm nghiệm của đa thức $5x+3$ (viết dưới dạng số thập phân).
 ::key -0,6
 $5x+3=0$ nên $x=-\dfrac35=-0{,}6$.

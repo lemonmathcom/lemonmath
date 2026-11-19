@@ -296,7 +296,7 @@ Since $AB\parallel DM$, triangle $NBA$ is similar to triangle $NDM$, so $\dfrac{
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Parallel projection maps three collinear points to
 A. three coincident points.
 B. three non-collinear points.
@@ -305,7 +305,7 @@ D. two points.
 ::key C
 Collinearity and the order of points are preserved (property 3).
 
-::mc
+::mc TH
 Take a triangle $ABC$ with centroid $G$. The parallel projection of $G$ is
 A. the circumcentre of triangle $A'B'C'$.
 B. the orthocentre of triangle $A'B'C'$.
@@ -314,7 +314,7 @@ D. the centroid of triangle $A'B'C'$.
 ::key D
 Parallel projection preserves midpoints and ratios, so it preserves the centroid. The circumcentre and orthocentre are not preserved because they depend on right angles and lengths.
 
-::mc
+::mc TH
 Three collinear points $A$, $B$, $C$ satisfy $AB=2BC$. Their parallel projection has $A'B'=8$. Then $B'C'$ equals
 A. $4$.
 B. $16$.
@@ -323,7 +323,7 @@ D. $6$.
 ::key A
 $\dfrac{A'B'}{B'C'}=\dfrac{AB}{BC}=2$, so $B'C'=4$. Option B writes the ratio the wrong way round.
 
-::mc
+::mc TH
 Which of the following cannot be the drawing of a square?
 A. A parallelogram.
 B. A trapezium that is not a parallelogram.
@@ -332,7 +332,7 @@ D. A rectangle.
 ::key B
 A square has two pairs of parallel opposite sides, so its drawing also has two pairs of parallel opposite sides, that is a parallelogram (including rectangles, rhombuses and squares).
 
-::tf
+::tf VD VD TH TH
 At the same moment, a vertical pole $6$ m tall casts a shadow $4.5$ m long. Decide whether each statement is true or false.
 a) A person $1.6$ m tall standing upright casts a shadow $1.5$ m long.
 b) A vertical tree with a shadow $9$ m long is $12$ m tall.
@@ -341,12 +341,12 @@ d) A vertical object twice as tall has a shadow twice as long.
 ::key F T F T
 The ratio of height to shadow is $\dfrac{6}{4.5}=\dfrac43$. a) False: a person $1.6$ m tall has a shadow $\dfrac{1.6\cdot4.5}{6}=1.2$ m long. b) True: $9\cdot\dfrac43=12$. c) False: the ratio is the same for every vertical object. d) True.
 
-::sa
+::sa VD
 At the same moment, a stake $2$ m tall casts a shadow $1.5$ m long. A vertical tree casts a shadow $9$ m long. How tall is the tree, in metres?
 ::key 12
 $h=\dfrac{9\cdot2}{1.5}=12$ m.
 
-::sa
+::sa TH
 Three collinear points $A$, $B$, $C$ satisfy $AB=3BC$. Their parallel projection has $A'B'=9$. Find $B'C'$.
 ::key 3
 $\dfrac{A'B'}{B'C'}=3$, so $B'C'=\dfrac93=3$.

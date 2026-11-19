@@ -275,7 +275,7 @@ Vậy có $5$ người không uống thứ nào, và xác suất là $\dfrac49$.
 :::
 
 :::quiz
-::mc
+::mc NB
 Trong biểu đồ tần số có độ rộng nhóm khác nhau, chiều cao mỗi cột là
 A. tần số
 B. mật độ tần số
@@ -284,7 +284,7 @@ D. tần số tích luỹ
 ::key B
 Tần số chia cho độ rộng nhóm.
 
-::mc
+::mc NB
 $P(A)=0{,}35$. Khi đó $P(\text{không }A)$ bằng
 A. $0{,}65$
 B. $0{,}35$
@@ -293,7 +293,7 @@ D. $1{,}35$
 ::key A
 $1-0{,}35$.
 
-::mc
+::mc NB
 Để ước lượng số trung bình của mẫu ghép nhóm, mỗi nhóm được đại diện bởi
 A. đầu mút dưới
 B. tần số
@@ -302,7 +302,7 @@ D. đầu mút trên
 ::key C
 Trung điểm thay mặt cho mọi giá trị trong nhóm.
 
-::mc
+::mc NB
 Số đặc trưng nào mô tả độ phân tán của nửa giữa số liệu?
 A. số trung bình
 B. mốt
@@ -311,7 +311,7 @@ D. khoảng tứ phân vị
 ::key D
 Tứ phân vị trên trừ tứ phân vị dưới.
 
-::tf
+::tf NB TH TH TH
 Tung hai đồng xu cân đối. Mỗi khẳng định sau đúng hay sai?
 a) Có $4$ kết quả đồng khả năng.
 b) $P(\text{hai mặt ngửa})=\dfrac14$.
@@ -320,12 +320,12 @@ d) $P(\text{một ngửa, một sấp})=\dfrac14$.
 ::key T T T F
 NS và SN cho $\dfrac24=\dfrac12$.
 
-::sa
+::sa TH
 Tính số trung bình của $2$, $4$, $6$, $8$, $10$.
 ::key 6
 $\dfrac{30}{5}$.
 
-::sa
+::sa TH
 Tung một đồng xu cân đối hai lần. Tính xác suất được hai mặt sấp, viết dạng số thập phân.
 ::key 0,25
 $0{,}5\times0{,}5$.

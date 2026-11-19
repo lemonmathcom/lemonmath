@@ -374,7 +374,7 @@ Since $0\le p\le1$, we have $1-p\ge0$. Thus $1-p=0.4$, giving $p=0.6$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Let $A$ and $B$ be independent events with $P(A)=0.7$ and $P(B)=0.4$. The value of $P(A\cap B)$ is
 A. $0.28$.
 B. $0.42$.
@@ -383,7 +383,7 @@ D. $1.1$.
 ::key A
 Because $A$ and $B$ are independent, $P(A\cap B)=0.7\cdot0.4=0.28$. Option B uses the probability of $\overline B$, while D adds the probabilities.
 
-::mc
+::mc TH
 Two sensors operate independently with probabilities $0.98$ and $0.95$ of working properly. The probability that both work properly is
 A. $0.069$.
 B. $0.931$.
@@ -392,7 +392,7 @@ D. $0.965$.
 ::key B
 The probability that both work properly is $0.98\cdot0.95=0.931$. Option A is the probability that at least one is faulty, while C is the probability that both are faulty.
 
-::mc
+::mc NB
 Suppose $P(A)=0.5$ and $P(B)=0.6$. If $A$ and $B$ are independent, then $P(A\cap B)$ is
 A. $0.1$.
 B. $0.5$.
@@ -401,7 +401,7 @@ D. $0.6$.
 ::key C
 The independence test gives $P(A\cap B)=P(A)P(C)=0.5\cdot0.6=0.3$.
 
-::mc
+::mc VD
 Two independent trials have success probabilities $0.8$ and $0.6$. The probability of at least one success is
 A. $0.48$.
 B. $0.44$.
@@ -410,7 +410,7 @@ D. $0.92$.
 ::key D
 The probability that both trials fail is $0.2\cdot0.4=0.08$, so the required probability is $1-0.08=0.92$. Option A is the probability of two successes, and B is the probability of exactly one success.
 
-::tf
+::tf TH TH VD TH
 Let $A$ and $B$ be independent events with $P(A)=0.6$ and $P(B)=0.25$.
 a) $P(A\cap B)=0.15$.
 b) $P(\overline A\cap B)=0.4$.
@@ -419,12 +419,12 @@ d) $A$ and $B$ are mutually exclusive.
 ::key T F T F
 a) True because $0.6\cdot0.25=0.15$. b) False because $P(\overline A\cap B)=0.4\cdot0.25=0.1$. c) True because $0.6+0.25-0.15=0.7$. d) False because $P(A\cap B)>0$.
 
-::sa
+::sa TH
 Two machines operate independently. The probabilities that the first and second machines do not fail are $0.98$ and $0.97$. What is the probability, as a percentage, that neither machine fails? Round to one decimal place.
 ::key 95.1
 The probability that neither machine fails is $0.98\cdot0.97=0.9506=95.06\%$, which rounds to $95.1\%$.
 
-::sa
+::sa VD
 Two independent trials have the same success probability $p$. The probability that both trials fail is $0.09$. Find $p$.
 ::key 0.7
 We have $(1-p)^2=0.09$ and $1-p\ge0$, so $1-p=0.3$ and $p=0.7$.

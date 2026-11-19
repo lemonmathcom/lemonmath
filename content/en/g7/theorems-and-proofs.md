@@ -503,7 +503,7 @@ These two angles are corresponding angles for the lines $Am$, $Bn$ and the trans
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 In the theorem "If two angles are vertically opposite then they are equal", the conclusion is
 A. two angles are vertically opposite.
 B. two angles are adjacent supplementary.
@@ -512,7 +512,7 @@ D. two angles equal $90^\circ$.
 ::key C
 The conclusion is the part after "then": the angles are equal. "Two angles are vertically opposite" is the hypothesis.
 
-::mc
+::mc NB
 To show that a statement is false, we need
 A. to prove it true in every case.
 B. to draw a figure and measure.
@@ -521,7 +521,7 @@ D. to give a counterexample.
 ::key D
 One counterexample that satisfies the hypothesis but not the conclusion is enough to refute the statement.
 
-::mc
+::mc TH
 Which statement is **false**?
 A. Equal angles are vertically opposite.
 B. Vertically opposite angles are equal.
@@ -530,7 +530,7 @@ D. Two lines parallel to a third line are parallel to each other.
 ::key A
 Equal angles need not be vertically opposite: two $50^\circ$ angles at different vertices form a counterexample.
 
-::mc
+::mc TH
 In a proof, the step "since $\angle A_3=\angle B_5$ (alternate) so $a\parallel b$" relies on
 A. the property of parallel lines.
 B. the test for parallel lines.
@@ -539,7 +539,7 @@ D. the theorem on vertically opposite angles.
 ::key B
 Going from equal alternate angles to parallel lines is the test. The property goes the other way.
 
-::tf
+::tf TH NB NB NB
 Decide whether each statement is true or false.
 a) Every statement that is true in a few test cases is a theorem.
 b) The hypothesis is what is given and the conclusion is what must be proved.
@@ -548,12 +548,12 @@ d) In a proof, every step needs a reason.
 ::key F T T T
 a) False: true in a few cases does not mean true in every case. b), c), d) True.
 
-::sa
+::sa VD
 Two vertically opposite angles measure $(3x-5)^\circ$ and $(x+25)^\circ$. Find $x$.
 ::key 15
 Vertically opposite angles are equal, so $3x-5=x+25$, giving $2x=30$ and $x=15$.
 
-::sa
+::sa TH
 The bisectors of two adjacent supplementary angles make an angle of how many degrees?
 ::key 90
 By the theorem proved in Example 3, that angle is $90^\circ$.

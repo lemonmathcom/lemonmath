@@ -558,7 +558,7 @@ So $AB<BD<BC$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Triangle $ABC$ has $\angle A=50^\circ$, $\angle B=70^\circ$, $\angle C=60^\circ$. The longest side of the triangle is
 A. All three sides are equal.
 B. $BC$.
@@ -567,7 +567,7 @@ D. $AC$.
 ::key D
 The largest angle is $\angle B=70^\circ$, and the side opposite it is $AC$. $BC$ is opposite the smallest angle $\angle A$, and $AB$ is opposite $\angle C$.
 
-::mc
+::mc TH
 Triangle $DEF$ has $DE=4$ cm, $EF=6$ cm, $DF=5$ cm. The smallest angle of the triangle is
 A. $\angle F$.
 B. $\angle E$.
@@ -576,7 +576,7 @@ D. All three angles are equal.
 ::key A
 The shortest side is $DE=4$ cm, opposite $\angle F$. $\angle D$ is opposite the longest side $EF$, and $\angle E$ is opposite $DF$.
 
-::mc
+::mc TH
 From a point $A$ outside a line $d$, draw $AH\perp d$ and the oblique lines $AB$, $AC$ with $B$, $C$ on $d$, on the same side of $H$, $HB=3$ cm, $HC=5$ cm. The correct statement is
 A. $AH>AC$.
 B. $AH<AB<AC$.
@@ -585,7 +585,7 @@ D. $AB>AC$.
 ::key B
 $AH$ is the perpendicular so it is the shortest, and $HB<HC$ gives $AB<AC$. A and D point the wrong way, and C is wrong because the projections differ.
 
-::mc
+::mc NB
 Triangle $ABC$ is right-angled at $A$. Which statement is correct?
 A. $AB$ is the longest side.
 B. $AC$ is the longest side.
@@ -594,7 +594,7 @@ D. All three sides are equal.
 ::key C
 The hypotenuse $BC$ is opposite the right angle, the largest angle, so $BC$ is the longest side. A and B are the two shorter sides.
 
-::tf
+::tf TH TH NB TH
 Triangle $MNP$ has $\angle M=100^\circ$, $\angle N=50^\circ$, $\angle P=30^\circ$. Decide whether each statement is true or false.
 a) $NP$ is the longest side.
 b) $MP<MN$.
@@ -603,12 +603,12 @@ d) $MN$ is the shortest side.
 ::key T F F T
 a) True: $NP$ is opposite the largest angle $\angle M=100^\circ$. b) False: $MP$ is opposite $\angle N=50^\circ$, larger than $\angle P=30^\circ$ opposite $MN$, so $MP>MN$. c) False: $\angle P=30^\circ$ is the smallest angle. d) True: $MN$ is opposite the smallest angle.
 
-::sa
+::sa TH
 Triangle $ABC$ has $\angle B=65^\circ$, $\angle C=40^\circ$. What is the size, in degrees, of the largest angle of the triangle?
 ::key 75
 $\angle A=180^\circ-65^\circ-40^\circ=75^\circ$, which is larger than $65^\circ$ and $40^\circ$.
 
-::sa
+::sa TH
 A house at $A$ is $15$ m from a straight canal $d$ (the distance from $A$ to $d$). How many metres long is the shortest pipe joining $A$ to the canal?
 ::key 15
 The shortest pipe is the perpendicular from $A$ to $d$, whose length is the distance, $15$ m.

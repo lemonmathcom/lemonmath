@@ -441,7 +441,7 @@ nên $n^2$ chia $3$ dư $1$. Vậy nếu $n^2$ chia hết cho $3$ thì $n$ phả
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Câu nào sau đây là một mệnh đề?
 A. $x+2>5$.
 B. Hôm nay trời đẹp quá!
@@ -450,7 +450,7 @@ D. Bạn đã làm bài tập chưa?
 ::key C
 Câu C khẳng định một điều sai nên là mệnh đề (mệnh đề sai). Câu A còn phụ thuộc $x$ nên mới là mệnh đề chứa biến; B là câu cảm thán, D là câu hỏi.
 
-::mc
+::mc TH
 Mệnh đề phủ định của mệnh đề "$\exists x\in\mathbb{R},\ x^2<2x$" là
 A. "$\forall x\in\mathbb{R},\ x^2>2x$".
 B. "$\forall x\in\mathbb{R},\ x^2\ge 2x$".
@@ -459,7 +459,7 @@ D. "$\exists x\in\mathbb{R},\ x^2>2x$".
 ::key B
 Ta đổi $\exists$ thành $\forall$ và phủ định tính chất: phủ định của "$<$" là "$\ge$" (không phải "$>$"). Phương án C quên đổi lượng từ.
 
-::mc
+::mc TH
 Mệnh đề kéo theo nào sau đây **sai**?
 A. Nếu $3>2$ thì $9>4$.
 B. Nếu $2>3$ thì $5$ là số chẵn.
@@ -468,7 +468,7 @@ D. Nếu $4$ là số chẵn thì $4$ là số nguyên tố.
 ::key D
 $P\Rightarrow Q$ chỉ sai khi $P$ đúng và $Q$ sai: ở D, "$4$ là số chẵn" đúng còn "$4$ là số nguyên tố" sai. Phương án B có $P$ sai nên mệnh đề kéo theo vẫn đúng.
 
-::mc
+::mc TH
 Với số thực $x$, "$x=2$" là điều kiện gì để có "$x^2=4$"?
 A. Điều kiện cần nhưng không đủ.
 B. Điều kiện đủ nhưng không cần.
@@ -477,7 +477,7 @@ D. Không là điều kiện cần, cũng không là điều kiện đủ.
 ::key B
 $x=2\Rightarrow x^2=4$ đúng nên "$x=2$" là điều kiện đủ. Chiều ngược sai vì $x=-2$ cũng có $x^2=4$, nên nó không phải điều kiện cần.
 
-::tf
+::tf NB TH TH TH
 Cho mệnh đề chứa biến $P(x)$: "$x^2-3x+2=0$" với $x\in\mathbb{R}$.
 a) $P(1)$ là mệnh đề đúng.
 b) Mệnh đề "$\forall x\in\mathbb{R},\ P(x)$" đúng.
@@ -486,12 +486,12 @@ d) "$x=2$" là điều kiện cần để $P(x)$ đúng.
 ::key Đ S Đ S
 a) Đúng: $1-3+2=0$. b) Sai: với $x=0$ ta có $2\ne 0$ (một phản ví dụ là đủ). c) Đúng: đổi $\exists$ thành $\forall$ và "$=$" thành "$\ne$". d) Sai: $P(1)$ đúng mà $1\ne 2$, nên $P(x)\Rightarrow x=2$ sai.
 
-::sa
+::sa VDC
 Có bao nhiêu số tự nhiên $n$ với $1\le n\le 30$ làm cho mệnh đề "$n^2+1$ chia hết cho $5$" đúng?
 ::key 12
 $n^2+1$ chia hết cho $5$ khi $n$ chia $5$ dư $2$ hoặc dư $3$ (khi đó $n^2$ chia $5$ dư $4$). Mỗi nhóm $5$ số liên tiếp có $2$ số như vậy, nên từ $1$ đến $30$ có $6\cdot 2=12$ số.
 
-::sa
+::sa VDC
 Xét khẳng định "Với mọi số tự nhiên $n$, số $n^2+n+41$ là số nguyên tố". Tìm số tự nhiên $n$ nhỏ nhất là phản ví dụ của khẳng định này.
 ::key 40
 Với $n=40$: $40^2+40+41=40\cdot41+41=41^2=1681$, không phải số nguyên tố. Kiểm tra bằng máy với $n=0, 1, \dots, 39$ đều cho số nguyên tố, nên $40$ là phản ví dụ nhỏ nhất.

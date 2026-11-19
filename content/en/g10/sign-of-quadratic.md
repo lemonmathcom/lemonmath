@@ -371,7 +371,7 @@ We need $x^2-3x-4=(x-4)(x+1)\ge 0$. Since $a=1>0$, this holds outside the roots 
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The quadratic $f(x)=x^2-6x+8$ is negative exactly when
 A. $x<2$ or $x>4$.
 B. $2<x<4$.
@@ -380,7 +380,7 @@ D. $-4<x<-2$.
 ::key B
 The roots are $2$ and $4$ and $a=1>0$, so $f(x)<0$ between the roots.
 
-::mc
+::mc TH
 The solution set of $x^2+2x+3\le 0$ is
 A. $\mathbb{R}$.
 B. $\varnothing$.
@@ -389,7 +389,7 @@ D. $[-3, 1]$.
 ::key B
 Here $b=2b'$ with $b'=1$, so the reduced discriminant is $\Delta'=b'^2-ac=1-3=-2<0$; with $a=1>0$, the quadratic is always positive; no $x$ makes it $\le 0$.
 
-::mc
+::mc TH
 Which quadratic is negative for every real $x$?
 A. $x^2-x-1$.
 B. $-x^2+4x-4$.
@@ -398,7 +398,7 @@ D. $-2x^2+3x+1$.
 ::key C
 For C: $a=-1<0$ and $\Delta=1-4=-3<0$, so it is always negative. Option B equals $-(x-2)^2$, which is $0$ at $x=2$, so it is not "always negative".
 
-::mc
+::mc TH
 The solution set of $\dfrac{x-3}{x+1}\ge 0$ is
 A. $(-1, 3]$.
 B. $[-1, 3]$.
@@ -407,7 +407,7 @@ D. $(-\infty, -1]\cup[3, +\infty)$.
 ::key C
 The quotient is non-negative when the numerator and denominator have the same sign, or the numerator is $0$. The value $x=-1$ makes the denominator $0$, so it is excluded; $x=3$ is included.
 
-::tf
+::tf NB TH TH VD
 Let $f(x)=-x^2+2x+3$.
 a) $f(x)$ has roots $x=-1$ and $x=3$.
 b) $f(x)>0$ for every $x\in(-1, 3)$.
@@ -416,12 +416,12 @@ d) The inequality $f(x)\ge 3$ has solution set $[0, 2]$.
 ::key T T F T
 a) True: $f(-1)=f(3)=0$. b) True: $a<0$, so the quadratic is positive between the roots. c) False: $f(4)=-5$. d) True: $f(x)\ge 3\iff -x^2+2x\ge 0\iff 0\le x\le 2$.
 
-::sa
+::sa VD
 How many integers $x$ satisfy $x^2-5x-6<0$?
 ::key 6
 The roots are $-1$ and $6$, so $-1<x<6$. The integers are $0, 1, 2, 3, 4, 5$: there are $6$.
 
-::sa
+::sa VD
 The height of a ball after $t$ seconds is $h(t)=-5t^2+30t$ metres. For how many seconds is the ball higher than $40$ m?
 ::key 2
 $-5t^2+30t>40\iff t^2-6t+8<0\iff 2<t<4$. That is $2$ seconds.

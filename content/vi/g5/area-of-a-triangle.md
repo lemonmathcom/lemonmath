@@ -436,7 +436,7 @@ Tổng hai đáy là $54\times2:6=18$ cm. Coi đáy bé là $1$ phần thì đá
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tam giác có ba góc $30^\circ$, $40^\circ$, $110^\circ$ là
 A. tam giác nhọn.
 B. tam giác tù.
@@ -445,7 +445,7 @@ D. tam giác có ba góc bằng nhau.
 ::key B
 Có góc $110^\circ>90^\circ$ nên là tam giác tù. Phương án A cần ba góc nhọn; B cần một góc $90^\circ$; D sai vì ba góc khác nhau.
 
-::mc
+::mc TH
 Diện tích hình tam giác có đáy $14$ cm và chiều cao $6$ cm là
 A. $84\ \text{cm}^2$.
 B. $20\ \text{cm}^2$.
@@ -454,7 +454,7 @@ D. $168\ \text{cm}^2$.
 ::key C
 $14\times6:2=42\ \text{cm}^2$. Phương án A quên chia $2$; C cộng thay vì nhân; D nhân thêm $2$.
 
-::mc
+::mc TH
 Diện tích hình thang có hai đáy $8$ cm và $12$ cm, chiều cao $5$ cm là
 A. $25\ \text{cm}^2$.
 B. $100\ \text{cm}^2$.
@@ -463,7 +463,7 @@ D. $50\ \text{cm}^2$.
 ::key D
 $(8+12)\times5:2=50\ \text{cm}^2$. Phương án B quên chia $2$; C tính sai thứ tự phép tính; D chia $2$ hai lần.
 
-::mc
+::mc VD
 Mảnh vườn hình tam giác có đáy $18$ m, chiều cao $12$ m. Dành $\dfrac{1}{3}$ diện tích để trồng rau thì diện tích trồng rau là
 A. $36\ \text{m}^2$.
 B. $108\ \text{m}^2$.
@@ -472,7 +472,7 @@ D. $216\ \text{m}^2$.
 ::key A
 Diện tích mảnh vườn là $18\times12:2=108\ \text{m}^2$, một phần ba là $108:3=36\ \text{m}^2$. Phương án D quên chia $2$; B là diện tích cả mảnh vườn; C là phần còn lại, bằng $\dfrac{2}{3}$ diện tích.
 
-::tf
+::tf TH TH NB TH
 Tam giác $ABC$ có đáy $BC=10$ cm, cạnh bên $AB=6$ cm và đường cao $AH=5$ cm ($AH\perp BC$).
 a) Diện tích tam giác là $10\times5:2=25\ \text{cm}^2$.
 b) Diện tích tam giác là $10\times6:2=30\ \text{cm}^2$.
@@ -481,12 +481,12 @@ d) Diện tích tam giác bằng nửa diện tích hình chữ nhật $10$ cm $
 ::key Đ S Đ Đ
 a) Đúng. b) Sai: $AB$ không vuông góc với đáy nên không phải chiều cao. c) Đúng: $AH$ vuông góc với $BC$. d) Đúng: hình chữ nhật đó có diện tích $50\ \text{cm}^2$, và $25$ là một nửa của $50$.
 
-::sa
+::sa TH
 Một tam giác vuông có hai cạnh góc vuông dài $6$ cm và $5$ cm. Diện tích tam giác là bao nhiêu xăng-ti-mét vuông?
 ::key 15
 Hai cạnh góc vuông là đáy và chiều cao: $6\times5:2=15\ \text{cm}^2$.
 
-::sa
+::sa VD
 Một hình thang có hai đáy $6$ cm và $10$ cm, diện tích $48\ \text{cm}^2$. Chiều cao hình thang là bao nhiêu xăng-ti-mét?
 ::key 6
 $48\times2=96$ và $96:(6+10)=6$ cm.

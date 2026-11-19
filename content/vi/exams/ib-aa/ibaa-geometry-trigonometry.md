@@ -210,7 +210,7 @@ VT $=\dfrac{1-\left(1-2\sin^2x\right)}{2\sin x\cos x}=\dfrac{2\sin^2x}{2\sin x\c
 :::
 
 :::quiz
-::mc
+::mc TH
 Góc $150^\circ$ đổi sang radian bằng
 A. $\dfrac{3\pi}{4}$
 B. $\dfrac{2\pi}{3}$
@@ -219,7 +219,7 @@ D. $\dfrac{5\pi}{3}$
 ::key C
 $150\cdot\dfrac{\pi}{180}=\dfrac{5\pi}{6}$.
 
-::mc
+::mc TH
 Chu kì của $y=3\sin(4x)$ bằng
 A. $\dfrac\pi2$
 B. $4\pi$
@@ -228,7 +228,7 @@ D. $8\pi$
 ::key A
 $\dfrac{2\pi}{4}=\dfrac\pi2$. Số $3$ là biên độ.
 
-::mc
+::mc TH
 Giá trị chính xác của $\cos\dfrac{4\pi}{3}$ là
 A. $\dfrac12$
 B. $-\dfrac{\sqrt3}{2}$
@@ -237,7 +237,7 @@ D. $-\dfrac12$
 ::key D
 $\dfrac{4\pi}{3}$ thuộc góc phần tư thứ ba, góc tham chiếu $\dfrac\pi3$; cosin âm ở đó.
 
-::mc
+::mc TH
 Một tam giác có hai cạnh dài $8$ và $5$, góc xen giữa $30^\circ$. Diện tích tam giác bằng
 A. $20$
 B. $10$
@@ -246,7 +246,7 @@ D. $40$
 ::key B
 $\dfrac12(8)(5)\sin30^\circ=10$.
 
-::tf
+::tf NB TH TH VD
 Xét $y=2\cos x+1$.
 a) Biên độ bằng $2$.
 b) Giá trị nhỏ nhất bằng $1$.
@@ -255,12 +255,12 @@ d) Tập giá trị là $-1\le y\le3$.
 ::key T F F T
 a) Đúng. b) Sai: giá trị nhỏ nhất là $1-2=-1$. c) Sai: chu kì là $2\pi$. d) Đúng.
 
-::sa
+::sa TH
 Một hình quạt có bán kính $4$ và góc $0{,}5$ radian. Tính diện tích của nó.
 ::key 4
 $\dfrac12(16)(0{,}5)=4$.
 
-::sa
+::sa TH
 Cho $\sin\theta=0{,}6$ và $\cos\theta>0$. Tính $\cos\theta$.
 ::key 0,8
 $\sqrt{1-0{,}36}=0{,}8$.

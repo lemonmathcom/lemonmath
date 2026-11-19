@@ -357,7 +357,7 @@ Ta có $k=\dfrac{90}{15}=6$. Gọi $d$ là khoảng cách từ đèn đến tấ
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hai hình chữ nhật nào sau đây đồng dạng?
 A. $4\times6$ và $10\times15$.
 B. $2\times5$ và $6\times10$.
@@ -366,7 +366,7 @@ D. $5\times5$ và $5\times7$.
 ::key A
 $\dfrac{10}4=\dfrac{15}6=2{,}5$. Ở A, $2$ và $1{,}6$ khác nhau; ở B, $3$ và $2$ khác nhau; ở D, hình vuông và hình chữ nhật không vuông có cạnh không tỉ lệ ($1$ và $\frac75$).
 
-::mc
+::mc NB
 Hình $\mathcal{H}'$ đồng dạng phối cảnh với hình $\mathcal{H}$ tâm $O$, tỉ số $k=2$. Điểm $A$ của $\mathcal{H}$ có $OA=3$ cm. Độ dài $OA'$ bằng
 A. $1{,}5$ cm.
 B. $6$ cm.
@@ -375,7 +375,7 @@ D. $9$ cm.
 ::key B
 $OA'=k\cdot OA=2\cdot3=6$ cm. Phương án A chia thay vì nhân, C cộng $2$, D nhân với $3$ hai lần.
 
-::mc
+::mc TH
 Trên bản đồ tỉ lệ $1:50\,000$, đoạn đường dài $4$ cm. Độ dài thực tế của đoạn đường là
 A. $0{,}2$ km.
 B. $20$ km.
@@ -384,7 +384,7 @@ D. $200$ km.
 ::key C
 $4\cdot50\,000=200\,000$ cm $=2$ km. Các phương án khác sai ở việc đổi đơn vị.
 
-::mc
+::mc TH
 Tam giác $A'B'C'$ đồng dạng phối cảnh với tam giác $ABC$ tỉ số $\dfrac32$ và chu vi tam giác $ABC$ bằng $20$ cm. Chu vi tam giác $A'B'C'$ là
 A. $\dfrac{40}3$ cm.
 B. $23$ cm.
@@ -393,7 +393,7 @@ D. $30$ cm.
 ::key D
 Tỉ số chu vi bằng tỉ số đồng dạng nên chu vi là $\dfrac32\cdot20=30$. Phương án A dùng tỉ số ngược, B cộng thêm $3$, C nhân với $3$.
 
-::tf
+::tf VD TH VD VD
 Một tấm ảnh hình chữ nhật $12\ \text{cm}\times18\ \text{cm}$ được phóng to thành tấm ảnh hình chữ nhật mới có chiều rộng $30$ cm và giữ nguyên hình dạng. Xét tính đúng sai của các mệnh đề sau:
 a) Chiều dài mới là $36$ cm.
 b) Tỉ số đồng dạng là $\dfrac52$.
@@ -402,12 +402,12 @@ d) Chiều dài mới là $45$ cm.
 ::key S Đ Đ Đ
 a) Sai: $36$ là kết quả khi cộng thêm $18$ cm như chiều rộng ($18+18$); phải nhân với tỉ số. b) Đúng: $\dfrac{30}{12}=\dfrac52$. c) Đúng: chu vi cũ là $60$ cm, nhân $\dfrac52$ được $150$ cm. d) Đúng: $18\cdot\dfrac52=45$.
 
-::sa
+::sa TH
 Trên bản đồ tỉ lệ $1:20\,000$, một đoạn đường dài $6{,}5$ cm. Tính độ dài thực tế của đoạn đường đó (đơn vị: ki-lô-mét).
 ::key 1,3
 $6{,}5\cdot20\,000=130\,000$ cm $=1{,}3$ km.
 
-::sa
+::sa VD
 Một bóng đèn nhỏ chiếu sáng một tấm bìa hình vuông cạnh $10$ cm đặt song song với bức tường. Tấm bìa cách đèn $40$ cm, bức tường cách đèn $160$ cm. Tính cạnh của bóng tấm bìa trên tường (đơn vị: xăng-ti-mét).
 ::key 40
 Tỉ số đồng dạng phối cảnh là $k=\dfrac{160}{40}=4$ nên cạnh của bóng là $10\cdot4=40$.

@@ -317,7 +317,7 @@ Mỗi tổng đều bằng 12.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Phép cộng $5+5+5$ viết thành phép nhân là
 A. $5\times5$.
 B. $5+3$.
@@ -326,7 +326,7 @@ D. $5\times3$.
 ::key D
 Số 5 được lấy 3 lần nên $5+5+5=5\times3$. Phương án A lấy 5 lần.
 
-::mc
+::mc NB
 Trong phép nhân $2\times6=12$, số $12$ gọi là
 A. tích.
 B. thừa số.
@@ -335,7 +335,7 @@ D. số hạng.
 ::key A
 Kết quả của phép nhân gọi là tích. Phương án B chỉ các số 2 và 6.
 
-::mc
+::mc TH
 Kết quả của phép nhân $4\times2$ là
 A. $6$.
 B. $8$.
@@ -344,7 +344,7 @@ D. $42$.
 ::key B
 $4\times2=4+4=8$. Phương án A là phép cộng $4+2$.
 
-::mc
+::mc TH
 Mỗi chiếc xe đạp có 2 bánh xe. 5 chiếc xe đạp có tất cả
 A. $7$ bánh xe.
 B. $12$ bánh xe.
@@ -353,7 +353,7 @@ D. $25$ bánh xe.
 ::key C
 $2\times5=2+2+2+2+2=10$. Phương án A là phép cộng $2+5$.
 
-::tf
+::tf NB NB NB TH
 Cho phép nhân $3\times4=12$.
 a) $3$ và $4$ là các thừa số.
 b) $12$ là thừa số.
@@ -362,12 +362,12 @@ d) $3\times4=3+3+3+3$.
 ::key Đ S Đ Đ
 a) Đúng: các số nhân với nhau là thừa số. b) Sai: 12 là kết quả nên gọi là tích. c) Đúng: tích của 3 và 4 là 12. d) Đúng: 3 được lấy 4 lần.
 
-::sa
+::sa TH
 Tính $2\times5$.
 ::key 10
 $2\times5=2+2+2+2+2=10$.
 
-::sa
+::sa VD
 Mỗi xe đạp có 2 bánh xe. 7 chiếc xe đạp có tất cả bao nhiêu bánh xe?
 ::key 14
 $2\times7=14$ (bánh xe).

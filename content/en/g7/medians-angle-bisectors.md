@@ -420,7 +420,7 @@ c) No, because $3<4$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Triangle $ABC$ has centroid $G$ and median $AM=21$ cm. The length $AG$ is
 A. $7$ cm.
 B. $10.5$ cm.
@@ -429,7 +429,7 @@ D. $42$ cm.
 ::key C
 $AG=\dfrac23\cdot21=14$ cm. Option A is $\dfrac13AM$, B is $\dfrac12AM$.
 
-::mc
+::mc TH
 Triangle $ABC$ has centroid $G$ and median $BN$. Given $GN=6$ cm, the length $BN$ is
 A. $12$ cm.
 B. $18$ cm.
@@ -438,7 +438,7 @@ D. $24$ cm.
 ::key B
 $BG=2GN=12$ cm, so $BN=12+6=18$ cm. Option A is only $BG$, without adding $GN$.
 
-::mc
+::mc NB
 The three angle bisectors of triangle $ABC$ meet at $I$. Which statement is true?
 A. $I$ is always the midpoint of each angle bisector.
 B. $I$ is equidistant from the three sides of the triangle.
@@ -447,7 +447,7 @@ D. $I$ can lie outside the triangle.
 ::key B
 The point $I$ lies inside the triangle and is equidistant from the three sides. Option C is a property of the centroid, not of the meeting point of the bisectors.
 
-::mc
+::mc VD
 Triangle $ABC$ has $\widehat A=80^\circ$. The bisectors of angles $B$ and $C$ meet at $I$. The size of $\widehat{BIC}$ is
 A. $50^\circ$.
 B. $100^\circ$.
@@ -456,7 +456,7 @@ D. $140^\circ$.
 ::key C
 $\widehat B+\widehat C=100^\circ$, so $\widehat{IBC}+\widehat{ICB}=50^\circ$ and $\widehat{BIC}=180^\circ-50^\circ=130^\circ$. Option A forgets to subtract from $180^\circ$.
 
-::tf
+::tf NB TH TH NB
 Triangle $ABC$ has centroid $G$ and median $AM=9$ cm.
 a) The point $G$ lies inside triangle $ABC$.
 b) $AG=6$ cm.
@@ -465,12 +465,12 @@ d) $AG=2GM$.
 ::key T T F T
 a) True: the three medians meet inside the triangle. b) True: $\dfrac23\cdot9=6$. c) False: $GM=\dfrac13\cdot9=3$ cm. d) True: $6=2\cdot3$.
 
-::sa
+::sa TH
 Triangle $ABC$ has centroid $G$ and median $CP=24$ cm. Find $CG$ (in cm).
 ::key 16
 $CG=\dfrac23\cdot24=16$ cm.
 
-::sa
+::sa VD
 Triangle $ABC$ has $\widehat B=70^\circ$ and $\widehat C=40^\circ$. The bisectors of angles $B$ and $C$ meet at $I$. Find the size of $\widehat{BIC}$ (in degrees).
 ::key 125
 $\widehat{IBC}=35^\circ$, $\widehat{ICB}=20^\circ$, so $\widehat{BIC}=180^\circ-35^\circ-20^\circ=125^\circ$.

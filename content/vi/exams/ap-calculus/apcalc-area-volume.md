@@ -226,7 +226,7 @@ $L=\displaystyle\int_0^{\pi/4}\sqrt{1+\tan^2x}\,dx=\int_0^{\pi/4}\sec x\,dx=\ln\
 :::
 
 :::quiz
-::mc
+::mc TH
 Giá trị trung bình của $f(x)=2x+1$ trên $[0,4]$ bằng
 A. $9$
 B. $20$
@@ -235,7 +235,7 @@ D. $4$
 ::key C
 $\dfrac14\displaystyle\int_0^4(2x+1)\,dx=\dfrac14\cdot20=5$.
 
-::mc
+::mc VD
 Diện tích miền giữa $y=x$ và $y=x^3$ với $0\le x\le1$ bằng
 A. $\dfrac14$
 B. $\dfrac12$
@@ -244,7 +244,7 @@ D. $\dfrac{1}{12}$
 ::key A
 $\displaystyle\int_0^1\left(x-x^3\right)dx=\frac12-\frac14=\frac14$.
 
-::mc
+::mc VD
 Miền dưới $y=x^2$ với $0\le x\le1$ quay quanh trục $x$. Thể tích khối tạo thành bằng
 A. $\dfrac{\pi}{3}$
 B. $\dfrac{\pi}{2}$
@@ -253,7 +253,7 @@ D. $\dfrac{\pi}{5}$
 ::key D
 $\pi\displaystyle\int_0^1x^4\,dx=\dfrac{\pi}{5}$. Phương án C quên $\pi$.
 
-::mc
+::mc VD
 Đáy của một khối là miền dưới $y=2-x$ với $0\le x\le2$. Các thiết diện vuông góc với trục $x$ là hình vuông. Thể tích khối bằng
 A. $2$
 B. $\dfrac83$
@@ -262,7 +262,7 @@ D. $\dfrac43$
 ::key B
 $\displaystyle\int_0^2(2-x)^2\,dx=\frac83$.
 
-::tf
+::tf VD VD TH VD
 Gọi $R$ là miền giữa $y=\sqrt x$ và $y=x$ với $0\le x\le1$.
 a) Diện tích của $R$ bằng $\dfrac16$.
 b) Quay $R$ quanh trục $x$ được khối có thể tích $\dfrac{\pi}{6}$.
@@ -271,12 +271,12 @@ d) Giá trị trung bình của $\sqrt x$ trên $[0,1]$ bằng $\dfrac12$.
 ::key T T F F
 a) Đúng: $\dfrac23-\dfrac12$. b) Đúng: $\pi\displaystyle\int_0^1\left(x-x^2\right)dx=\dfrac{\pi}{6}$. c) Sai: vành khuyên dùng $R^2-r^2$, không phải $(R-r)^2$. d) Sai: giá trị đó bằng $\dfrac23$.
 
-::sa
+::sa VD
 Tính diện tích miền giới hạn bởi $y=9-x^2$ và trục hoành.
 ::key 36
 $\displaystyle\int_{-3}^3\left(9-x^2\right)dx=54-18=36$.
 
-::sa
+::sa TH
 Tìm giá trị trung bình của $f(x)=3x^2$ trên $[0,2]$.
 ::key 4
 $\dfrac12\displaystyle\int_0^23x^2\,dx=\dfrac12\cdot8=4$.

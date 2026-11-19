@@ -264,7 +264,7 @@ Vậy cần gộp các nhóm (hoặc thu thêm dữ liệu) trước khi kiểm 
 :::
 
 :::quiz
-::mc
+::mc TH
 Hệ số Pearson $r=0{,}05$ cho hai biến. Điều này nghĩa là
 A. có liên hệ tuyến tính dương mạnh
 B. hầu như không có liên hệ tuyến tính
@@ -273,7 +273,7 @@ D. $x$ gây ra $y$
 ::key B
 $r$ gần $0$ nghĩa là liên hệ tuyến tính yếu hoặc không có.
 
-::mc
+::mc TH
 Kiểm định $\chi^2$ về tính độc lập trên bảng $2\times3$ có bao nhiêu bậc tự do?
 A. $6$
 B. $5$
@@ -282,7 +282,7 @@ D. $2$
 ::key D
 $(2-1)(3-1)=2$.
 
-::mc
+::mc TH
 Tổng hàng là $60$, tổng cột là $40$ và tổng chung là $120$. Tần số kì vọng là
 A. $20$
 B. $40$
@@ -291,7 +291,7 @@ D. $100$
 ::key A
 $\dfrac{60\times40}{120}=20$.
 
-::mc
+::mc TH
 Một kiểm định ở mức $5\%$ cho giá trị p bằng $0{,}012$. Kết luận là
 A. không bác bỏ $H_0$
 B. chấp nhận $H_0$
@@ -300,7 +300,7 @@ D. kiểm định không hợp lệ
 ::key C
 $0{,}012<0{,}05$.
 
-::tf
+::tf TH TH NB NB
 Thứ hạng của hai giám khảo cho $r_s=-0{,}9$. Xét tính đúng sai của các mệnh đề sau:
 a) Thứ hạng của hai giám khảo có xu hướng ngược nhau.
 b) Mức độ liên hệ là mạnh.
@@ -309,12 +309,12 @@ d) Hệ số Spearman dùng các hạng.
 ::key T T F T
 $-1\le r_s\le1$.
 
-::sa
+::sa TH
 Tìm tần số kì vọng khi tổng hàng là $60$, tổng cột là $30$ và tổng chung là $120$.
 ::key 15
 $\dfrac{60\times30}{120}=15$.
 
-::sa
+::sa NB
 Kiểm định độ phù hợp với $5$ nhóm có bao nhiêu bậc tự do?
 ::key 4
 $5-1=4$.

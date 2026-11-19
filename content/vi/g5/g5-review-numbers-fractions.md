@@ -300,7 +300,7 @@ Phân số có dạng $\dfrac{3\times k}{8\times k}$ nên hiệu mẫu số và 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số "năm mươi nghìn không trăm linh bảy" viết là
 A. $5007$.
 B. $50\,070$.
@@ -309,7 +309,7 @@ D. $50\,007$.
 ::key D
 Số đó gồm $50$ nghìn và $7$ đơn vị nên là $50\,007$. Phương án A thiếu một chữ số, B đặt $7$ vào hàng chục, C thừa một chữ số.
 
-::mc
+::mc TH
 Giá trị của biểu thức $6+4\times5-2$ là
 A. $24$.
 B. $48$.
@@ -318,7 +318,7 @@ D. $28$.
 ::key A
 Ta nhân trước: $6+20-2=24$. Phương án B làm $(6+4)\times5-2$, C làm $6+4\times(5-2)$, D cộng $2$ thay vì trừ.
 
-::mc
+::mc TH
 $\dfrac12+\dfrac13$ bằng
 A. $\dfrac25$.
 B. $\dfrac56$.
@@ -327,7 +327,7 @@ D. $\dfrac26$.
 ::key B
 $\dfrac12+\dfrac13=\dfrac36+\dfrac26=\dfrac56$. Phương án A cộng tử với tử và mẫu với mẫu, D cộng tử nhưng giữ mẫu $6$, C là hiệu $\dfrac12-\dfrac13$.
 
-::mc
+::mc TH
 $\dfrac23:\dfrac45$ bằng
 A. $\dfrac8{15}$.
 B. $\dfrac65$.
@@ -336,7 +336,7 @@ D. $\dfrac{22}{15}$.
 ::key C
 $\dfrac23:\dfrac45=\dfrac23\times\dfrac54=\dfrac{10}{12}=\dfrac56$. Phương án A quên đảo ngược, B đảo nhầm phân số thứ nhất, D là phép cộng.
 
-::tf
+::tf NB TH TH TH
 Xét hai phân số $\dfrac7{12}$ và $\dfrac58$.
 a) Quy đồng mẫu số với mẫu số chung $24$ ta được $\dfrac{14}{24}$ và $\dfrac{15}{24}$.
 b) $\dfrac7{12}>\dfrac58$.
@@ -345,12 +345,12 @@ d) $\dfrac7{12}+\dfrac58=\dfrac{29}{24}$.
 ::key Đ S S Đ
 a) Đúng: $\dfrac7{12}=\dfrac{14}{24}$ và $\dfrac58=\dfrac{15}{24}$. b) Sai: $14<15$ nên $\dfrac7{12}<\dfrac58$. c) Sai: $\dfrac{15}{24}-\dfrac{14}{24}=\dfrac1{24}$, không trừ cả mẫu số. d) Đúng: $\dfrac{14+15}{24}=\dfrac{29}{24}$.
 
-::sa
+::sa TH
 Tìm $\dfrac38$ của $240$.
 ::key 90
 $240\times\dfrac38=90$.
 
-::sa
+::sa TH
 Viết phân số $\dfrac7{20}$ dưới dạng số thập phân.
 ::key 0,35
 $7:20=0{,}35$.

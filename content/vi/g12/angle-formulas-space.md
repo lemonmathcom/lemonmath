@@ -374,7 +374,7 @@ $$\sin\varphi=\frac{|-1+1+1|}{\sqrt3\cdot\sqrt3}=\frac13,\qquad\varphi\approx19{
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Góc giữa hai đường thẳng có vectơ chỉ phương $\vec{u}_1=(1; 0; 1)$ và $\vec{u}_2=(0; -1; -1)$ bằng
 A. $60^\circ$.
 B. $120^\circ$.
@@ -383,7 +383,7 @@ D. $45^\circ$.
 ::key A
 $\cos\varphi=\dfrac{|-1|}{\sqrt2\cdot\sqrt2}=\dfrac12$, nên $\varphi=60^\circ$. Phương án B quên dấu giá trị tuyệt đối, phương án C dùng nhầm sin.
 
-::mc
+::mc TH
 Góc giữa đường thẳng có vectơ chỉ phương $\vec{u}=(1; 1; 0)$ và mặt phẳng có vectơ pháp tuyến $\vec{n}=(0; 1; 1)$ bằng
 A. $60^\circ$.
 B. $45^\circ$.
@@ -392,7 +392,7 @@ D. $90^\circ$.
 ::key C
 $\sin\varphi=\dfrac{1}{\sqrt2\cdot\sqrt2}=\dfrac12$, nên $\varphi=30^\circ$. Phương án A dùng côsin thay cho sin.
 
-::mc
+::mc TH
 Gọi $\varphi$ là góc giữa mặt phẳng $(P): x-2y+2z=0$ và mặt phẳng $(Oxy)$. Khi đó
 A. $\sin\varphi=\dfrac23$.
 B. $\cos\varphi=\dfrac23$.
@@ -401,7 +401,7 @@ D. $\cos\varphi=-\dfrac23$.
 ::key B
 $\cos\varphi=\dfrac{|2|}{3\cdot1}=\dfrac23$. Phương án A dùng công thức của đường thẳng với mặt phẳng, C quên căn ở mẫu, D quên giá trị tuyệt đối.
 
-::mc
+::mc VD
 Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai đường thẳng $A'C'$ và $B'C$ bằng
 A. $45^\circ$.
 B. $90^\circ$.
@@ -410,7 +410,7 @@ D. $120^\circ$.
 ::key C
 Với cạnh $1$ và hệ trục như trong bài: $\overrightarrow{A'C'}=(1; 1; 0)$, $\overrightarrow{B'C}=(0; 1; -1)$, $\cos\varphi=\dfrac{1}{2}$. (Hình học: $B'C\parallel A'D$, và tam giác $A'C'D$ đều vì ba cạnh đều là đường chéo của các mặt.) Phương án D là góc giữa hai vectơ ngược hướng.
 
-::tf
+::tf TH TH TH TH
 Cho mặt phẳng $(P): 2x+y-2z+1=0$ và đường thẳng $d: x=1+t$, $y=-2t$, $z=3$.
 a) Góc giữa $d$ và $(P)$ bằng $0^\circ$.
 b) $(P)$ vuông góc với mặt phẳng $(Q): x+z-4=0$.
@@ -419,12 +419,12 @@ d) $d$ vuông góc với mặt phẳng $(Oxy)$.
 ::key Đ Đ S S
 a) Đúng: $\vec{u}\cdot\vec{n}=2-2+0=0$, nên $\sin\varphi=0$. b) Đúng: $2+0-2=0$. c) Sai: $\cos\varphi=\dfrac23$, góc khoảng $48{,}2^\circ$; $41{,}8^\circ$ là kết quả khi dùng nhầm sin. d) Sai: $\vec{u}=(1; -2; 0)$ không cùng phương với $(0; 0; 1)$; thực ra $d$ song song với $(Oxy)$.
 
-::sa
+::sa VD
 Tính góc giữa hai mặt phẳng $(P): x+2y+2z-1=0$ và $(Q): 2x+y-z+5=0$, theo độ (làm tròn đến hàng phần mười).
 ::key 74,2
 $\cos\varphi=\dfrac{|2+2-2|}{3\sqrt6}=\dfrac{2}{3\sqrt6}\approx0{,}272$, nên $\varphi\approx74{,}2^\circ$.
 
-::sa
+::sa VD
 Một drone quay phim ở $D(0; 0; 40)$ hướng camera về mục tiêu $T(30; 40; 0)$ trên mặt đất (đơn vị: mét). Tính góc giữa đường ngắm $DT$ và mặt đất, theo độ (làm tròn đến hàng phần mười).
 ::key 38,7
 $\overrightarrow{DT}=(30; 40; -40)$, $|\overrightarrow{DT}|=\sqrt{4100}$. $\sin\varphi=\dfrac{40}{\sqrt{4100}}\approx0{,}625$, nên $\varphi\approx38{,}7^\circ$.

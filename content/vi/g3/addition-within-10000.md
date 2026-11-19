@@ -338,7 +338,7 @@ $$7\,531-1\,357=6\,174.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $3\,457+2\,168$ là
 A. $5\,515$.
 B. $5\,635$.
@@ -347,7 +347,7 @@ D. $1\,289$.
 ::key C
 $7+8=15$, viết $5$ nhớ $1$; $5+6+1=12$, viết $2$ nhớ $1$; $4+1+1=6$; $3+2=5$. Phương án A quên nhớ, phương án B nhớ thừa, phương án D là phép trừ.
 
-::mc
+::mc TH
 Kết quả của $6\,000-2\,475$ là
 A. $4\,475$.
 B. $3\,625$.
@@ -356,7 +356,7 @@ D. $3\,525$.
 ::key D
 $10-5=5$ nhớ $1$; $10-8=2$ nhớ $1$; $10-5=5$ nhớ $1$; $6-3=3$. Phương án A lấy số lớn trừ số bé ở mỗi hàng, phương án B và C quên một lần nhớ.
 
-::mc
+::mc TH
 Một cửa hàng có $4\,800$ kg gạo, đã bán $1\,950$ kg. Cửa hàng còn lại
 A. $2\,850$ kg.
 B. $3\,150$ kg.
@@ -365,7 +365,7 @@ D. $2\,950$ kg.
 ::key A
 "Còn lại" là phép trừ: $4\,800-1\,950=2\,850$. Phương án C là phép cộng, phương án B lấy số lớn trừ số bé ở mỗi hàng, phương án D quên một lần nhớ.
 
-::mc
+::mc TH
 Tổng của $2\,036$ và $3\,987$ là
 A. $5\,913$.
 B. $6\,023$.
@@ -374,7 +374,7 @@ D. $5\,023$.
 ::key B
 $6+7=13$, viết $3$ nhớ $1$; $3+8+1=12$, viết $2$ nhớ $1$; $0+9+1=10$, viết $0$ nhớ $1$; $2+3+1=6$. Phương án A quên nhớ, phương án C là phép trừ, phương án D quên nhớ ở hàng nghìn.
 
-::tf
+::tf TH TH TH TH
 Em xét phép tính $6\,205-2\,847$.
 a) Ở hàng đơn vị, ta lấy $7-5=2$.
 b) $6\,205-2\,847=3\,358$.
@@ -383,12 +383,12 @@ d) Hiệu lớn hơn $4\,000$.
 ::key S Đ Đ S
 a) Sai: $5$ không trừ được $7$, phải lấy $15-7=8$. b) Đúng: $15-7=8$; $0$ không trừ được $5$, lấy $10-5=5$; $2$ không trừ được $9$, lấy $12-9=3$; $6-3=3$. c) Đúng: phép cộng thử lại cho $6\,205$. d) Sai: $3\,358<4\,000$.
 
-::sa
+::sa TH
 Tính $2\,718+1\,982$.
 ::key 4700
 $8+2=10$, viết $0$ nhớ $1$; $1+8+1=10$, viết $0$ nhớ $1$; $7+9+1=17$, viết $7$ nhớ $1$; $2+1+1=4$. Vậy tổng là $4\,700$.
 
-::sa
+::sa TH
 Một kho có $8\,000$ viên gạch, đã dùng $3\,650$ viên. Hỏi kho còn lại bao nhiêu viên gạch?
 ::key 4350
 $8\,000-3\,650=4\,350$ (viên).

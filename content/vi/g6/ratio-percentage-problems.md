@@ -435,7 +435,7 @@ Vậy giá cuối cùng thấp hơn giá ban đầu $1\%$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tỉ số của $60$ cm và $2$ m là
 A. $30$.
 B. $\dfrac{3}{10}$.
@@ -444,7 +444,7 @@ D. $\dfrac{3}{100}$.
 ::key B
 Đổi $2$ m $=200$ cm, tỉ số là $\dfrac{60}{200}=\dfrac{3}{10}$. A không đổi đơn vị; C đảo thứ tự; D đổi sai $2$ m thành $2000$ cm.
 
-::mc
+::mc TH
 Tỉ số phần trăm của $9$ và $12$ là
 A. $75\%$.
 B. $0{,}75\%$.
@@ -453,7 +453,7 @@ D. $25\%$.
 ::key A
 $\dfrac{9}{12}\cdot100\%=75\%$. B quên nhân với $100\%$; C đảo thứ tự hai số; D là phần còn thiếu.
 
-::mc
+::mc TH
 $20\%$ của $150$ là
 A. $75$.
 B. $750$.
@@ -462,7 +462,7 @@ D. $30$.
 ::key D
 $150\cdot\dfrac{20}{100}=30$. A lấy một nửa của $150$; B chia cho $\dfrac{20}{100}$ thay vì nhân; C chia cho $1000$ thay vì $100$.
 
-::mc
+::mc TH
 Biết $25\%$ của một số bằng $40$. Số đó là
 A. $10$.
 B. $160$.
@@ -471,7 +471,7 @@ D. $1000$.
 ::key B
 $40:\dfrac{25}{100}=160$. A nhân thay vì chia; C cộng $40+25$; D nhân $40\cdot25$.
 
-::tf
+::tf TH TH TH VD
 Một chiếc áo giá $300$ nghìn đồng được giảm giá $20\%$. Xét tính đúng sai của các mệnh đề sau:
 a) Số tiền được giảm là $60$ nghìn đồng.
 b) Giá sau khi giảm là $240$ nghìn đồng.
@@ -480,12 +480,12 @@ d) Nếu sau đó cửa hàng tăng giá $20\%$ thì giá trở lại $300$ ngh�
 ::key Đ Đ Đ S
 a) Đúng: $300\cdot\dfrac{20}{100}=60$. b) Đúng: $300-60=240$. c) Đúng: $\dfrac{240}{300}\cdot100\%=80\%$. d) Sai: $240\cdot1{,}2=288$ nghìn đồng.
 
-::sa
+::sa TH
 Tính $1{,}5\%$ của $600$.
 ::key 9
 $600\cdot\dfrac{1{,}5}{100}=6\cdot1{,}5=9$.
 
-::sa
+::sa TH
 Lớp có $24$ học sinh, trong đó $18$ học sinh đi xe đạp đến trường. Số học sinh đi xe đạp chiếm bao nhiêu phần trăm số học sinh cả lớp? (Chỉ ghi số, không ghi dấu $\%$.)
 ::key 75
 $\dfrac{18}{24}\cdot100\%=75\%$.

@@ -379,7 +379,7 @@ Số đo góc lúc $1$, $2$, $3$, $4$, $5$, $6$ giờ lần lượt là $30^\cir
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số đo nào sau đây là số đo của một góc tù?
 A. $45^\circ$.
 B. $90^\circ$.
@@ -388,7 +388,7 @@ D. $180^\circ$.
 ::key C
 Góc tù lớn hơn $90^\circ$ và bé hơn $180^\circ$, nên chỉ có $135^\circ$ thỏa mãn. $90^\circ$ là góc vuông, $45^\circ$ là góc nhọn, $180^\circ$ là góc bẹt.
 
-::mc
+::mc TH
 Lúc $5$ giờ, hai kim đồng hồ tạo thành góc
 A. $120^\circ$.
 B. $90^\circ$.
@@ -397,7 +397,7 @@ D. $150^\circ$.
 ::key D
 Mỗi giờ ứng với $30^\circ$ nên lúc $5$ giờ góc là $5\times30^\circ=150^\circ$. Phương án A là lúc $4$ giờ, phương án C là lúc $2$ giờ, phương án B là lúc $3$ giờ.
 
-::mc
+::mc VD
 Cánh cửa được mở một góc $45^\circ$, rồi mở thêm $50^\circ$ nữa. Góc mở của cánh cửa bây giờ là
 A. $95^\circ$, góc tù.
 B. $90^\circ$.
@@ -406,7 +406,7 @@ D. $5^\circ$.
 ::key A
 $45^\circ+50^\circ=95^\circ$. Vì $95^\circ>90^\circ$ nên đó là góc tù. Phương án D là phép trừ, phương án B tính sai, phương án C gọi sai loại góc.
 
-::mc
+::mc TH
 Một góc bẹt được chia thành hai góc, một góc có số đo $75^\circ$. Góc còn lại có số đo
 A. $15^\circ$.
 B. $105^\circ$.
@@ -415,7 +415,7 @@ D. $115^\circ$.
 ::key B
 $180^\circ-75^\circ=105^\circ$. Phương án A lấy $90^\circ-75^\circ$, phương án C lấy $180^\circ+75^\circ$, phương án D trừ sai.
 
-::tf
+::tf NB TH NB NB
 Em xét các câu sau.
 a) Góc $90^\circ$ là góc tù.
 b) Góc $120^\circ$ lớn hơn góc vuông.
@@ -424,12 +424,12 @@ d) Góc $50^\circ$ là góc nhọn.
 ::key S Đ Đ Đ
 a) Sai: $90^\circ$ là góc vuông. b) Đúng: $120^\circ>90^\circ$. c) Đúng: góc bẹt bằng $180^\circ$. d) Đúng: $50^\circ<90^\circ$.
 
-::sa
+::sa TH
 Một góc bẹt được chia thành hai góc, một góc có số đo $72^\circ$. Góc còn lại có số đo bao nhiêu độ?
 ::key 108
 $180^\circ-72^\circ=108^\circ$.
 
-::sa
+::sa TH
 Cánh cửa được mở một góc $40^\circ$, rồi mở thêm $55^\circ$ và thêm $30^\circ$ nữa. Hỏi cánh cửa mở một góc bao nhiêu độ?
 ::key 125
 $40^\circ+55^\circ+30^\circ=125^\circ$.

@@ -374,7 +374,7 @@ Một bao gạo nặng $1$ tạ $5$ yến $=150$ kg. Khối lượng $28$ bao g�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc VD
 $3$ tạ $5$ yến bằng bao nhiêu ki-lô-gam?
 A. $3\,050$ kg.
 B. $305$ kg.
@@ -383,7 +383,7 @@ D. $35$ kg.
 ::key C
 $3$ tạ $=300$ kg và $5$ yến $=50$ kg, nên $3$ tạ $5$ yến $=350$ kg. Phương án B coi $5$ yến là $5$ kg, phương án A thừa một chữ số $0$, phương án D thiếu một chữ số $0$.
 
-::mc
+::mc VD
 $2$ tấn $4$ tạ $+1$ tấn $9$ tạ bằng
 A. $3$ tấn $3$ tạ.
 B. $4$ tấn $13$ tạ.
@@ -392,7 +392,7 @@ D. $4$ tấn $3$ tạ.
 ::key D
 $24+19=43$ tạ $=4$ tấn $3$ tạ. Phương án A quên đổi $13$ tạ ra $1$ tấn $3$ tạ, phương án B không đổi mà viết sai, phương án C tính sai số tạ.
 
-::mc
+::mc TH
 $195$ giây bằng
 A. $3$ phút $15$ giây.
 B. $1$ phút $35$ giây.
@@ -401,7 +401,7 @@ D. $1$ phút $95$ giây.
 ::key A
 $195:60=3$ (dư $15$), nên $195$ giây $=3$ phút $15$ giây. Phương án D chưa đổi hết số giây, phương án B và C tính sai.
 
-::mc
+::mc TH
 Năm $2000$ thuộc thế kỉ nào?
 A. Thế kỉ XXI.
 B. Thế kỉ XX.
@@ -410,7 +410,7 @@ D. Thế kỉ XXII.
 ::key B
 $2000:100=20$ (dư $0$), nên năm $2000$ thuộc thế kỉ $20$, tức thế kỉ XX. Phương án A là thế kỉ của năm $2001$.
 
-::tf
+::tf NB NB NB TH
 Em xét các câu sau.
 a) $1$ tạ $=100$ yến.
 b) $1$ tấn $=100$ kg.
@@ -419,12 +419,12 @@ d) Năm $1945$ thuộc thế kỉ XX.
 ::key S S S Đ
 a) Sai: $1$ tạ $=10$ yến. b) Sai: $1$ tấn $=1\,000$ kg. c) Sai: $1$ phút $=60$ giây. d) Đúng: $1945:100=19$ (dư $45$) nên thế kỉ $20$.
 
-::sa
+::sa VD
 Một xe chở $2$ tấn hàng, đã dỡ $7$ tạ. Trên xe còn lại bao nhiêu tạ hàng?
 ::key 13
 $2$ tấn $=20$ tạ nên còn lại $20-7=13$ tạ.
 
-::sa
+::sa TH
 $4$ phút $5$ giây bằng bao nhiêu giây?
 ::key 245
 $4$ phút $=240$ giây nên $4$ phút $5$ giây $=240+5=245$ giây.

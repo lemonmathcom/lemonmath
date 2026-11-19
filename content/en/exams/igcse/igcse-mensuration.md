@@ -286,7 +286,7 @@ So the cone has volume about $302\text{ cm}^3$.
 :::
 
 :::quiz
-::mc
+::mc NB
 The volume of a cone with radius $r$ and height $h$ is
 A. $\pi r^2h$
 B. $\tfrac13\pi r^2h$
@@ -295,7 +295,7 @@ D. $\tfrac43\pi r^3$
 ::key B
 One third of the cylinder.
 
-::mc
+::mc TH
 How many litres are in $1\text{ m}^3$?
 A. $1000$
 B. $100$
@@ -304,7 +304,7 @@ D. $1{,}000{,}000$
 ::key A
 $1\text{ m}^3=1{,}000{,}000\text{ cm}^3$ and $1$ litre $=1000\text{ cm}^3$.
 
-::mc
+::mc NB
 The surface area of a sphere of radius $r$ is
 A. $2\pi r^2$
 B. $\tfrac43\pi r^3$
@@ -313,7 +313,7 @@ D. $\pi r^2$
 ::key C
 Four times the area of a great circle.
 
-::mc
+::mc TH
 A sector has angle $90^\circ$ and radius $4$ cm. Its area is
 A. $16\pi$
 B. $8\pi$
@@ -322,7 +322,7 @@ D. $4\pi$
 ::key D
 A quarter of $16\pi$.
 
-::tf
+::tf TH TH VD TH
 A cylinder has radius $2$ cm and height $5$ cm. Decide whether each statement is true or false.
 a) Its volume is $20\pi\text{ cm}^3$.
 b) Its curved surface area is $20\pi\text{ cm}^2$.
@@ -331,12 +331,12 @@ d) Doubling the radius doubles the volume.
 ::key T T T F
 The volume depends on $r^2$, so it is multiplied by $4$.
 
-::sa
+::sa NB
 Find the volume of a cube with side $3$ cm, in $\text{cm}^3$.
 ::key 27
 $3^3=27$.
 
-::sa
+::sa TH
 How many litres are in $2\text{ m}^3$?
 ::key 2000
 $2\times1000$.

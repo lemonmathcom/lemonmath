@@ -454,7 +454,7 @@ So the probability that An and Binh stand next to each other is $\dfrac25$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A coin is tossed twice ($H$: heads, $T$: tails). The complementary event of "at least one head" is
 A. $\{TT\}$.
 B. $\{HH\}$.
@@ -463,7 +463,7 @@ D. $\{HT, TH, TT\}$.
 ::key A
 The complement happens exactly when there is "no head at all", which is the single outcome $TT$. Option D is "at least one tail", which can happen at the same time as the given event.
 
-::mc
+::mc TH
 A fair die is rolled. The probability that the number shown is a factor of $6$ is
 A. $\dfrac12$.
 B. $\dfrac23$.
@@ -472,7 +472,7 @@ D. $\dfrac16$.
 ::key B
 The factors of $6$ in $\Omega$ are $1, 2, 3, 6$, so $P=\dfrac46=\dfrac23$. Option A forgets the factor $1$; C is the probability of the complementary event.
 
-::mc
+::mc TH
 Two fair dice are rolled. The probability that the total is $9$ is
 A. $\dfrac{1}{11}$.
 B. $\dfrac{1}{18}$.
@@ -481,7 +481,7 @@ D. $\dfrac{4}{21}$.
 ::key C
 There are $36$ ordered pairs; a total of $9$ comes from $(3, 6)$, $(4, 5)$, $(5, 4)$, $(6, 3)$, so $P=\dfrac{4}{36}=\dfrac19$. Option A treats the $11$ possible totals as equally likely; B counts only $2$ unordered pairs.
 
-::mc
+::mc VD
 A box holds $6$ red marbles and $4$ blue marbles. Three marbles are drawn at random at the same time. The probability that all three are red is
 A. $\dfrac{27}{125}$.
 B. $\dfrac{1}{36}$.
@@ -490,7 +490,7 @@ D. $\dfrac16$.
 ::key D
 $n(\Omega)=\binom{10}{3}=120$ and $n(A)=\binom{6}{3}=20$, so $P=\dfrac{20}{120}=\dfrac16$. Option B uses arrangements $P(10, 3)=720$ for $\Omega$ but combinations for $A$; A treats the draw as if each marble were put back.
 
-::tf
+::tf NB TH TH VD
 A box holds $20$ cards numbered $1$ to $20$. One card is drawn at random.
 a) The sample space has $20$ elements.
 b) The probability that the number is divisible by $5$ is $\dfrac15$.
@@ -499,12 +499,12 @@ d) The probability that the number is not divisible by $3$ is $\dfrac23$.
 ::key T T F F
 a) True. b) True: $5, 10, 15, 20$, so $P=\dfrac{4}{20}=\dfrac15$. c) False: there are $8$ primes ($2, 3, 5, 7, 11, 13, 17, 19$; the number $1$ is not prime), so $P=\dfrac25$. d) False: $6$ numbers are divisible by $3$, so $P=1-\dfrac{6}{20}=\dfrac{7}{10}$.
 
-::sa
+::sa VD
 A fair coin is tossed $4$ times. Find the probability of at least one tail (rounded to two decimal places).
 ::key 0.94
 $n(\Omega)=2^4=16$. The complement "no tail at all" is the single outcome $HHHH$, so $P=1-\dfrac{1}{16}=\dfrac{15}{16}\approx0.94$.
 
-::sa
+::sa VD
 A tour group of $12$ people includes $5$ people from Hanoi. Three people are chosen at random. Find the probability that at least one of them is from Hanoi (rounded to two decimal places).
 ::key 0.84
 $n(\Omega)=\binom{12}{3}=220$. The complement "nobody from Hanoi" has $\binom{7}{3}=35$ outcomes. So $P=1-\dfrac{35}{220}=\dfrac{37}{44}\approx0.84$.

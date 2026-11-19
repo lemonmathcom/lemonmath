@@ -232,7 +232,7 @@ $E(\text{winnings})=\dfrac{1+2+3+4+5+6}{6}=3.5$, so $k=3.5$.
 :::
 
 :::quiz
-::mc
+::mc TH
 $A$ and $B$ are mutually exclusive, with $P(A)=0.4$ and $P(B)=0.5$. What is $P(A\cup B)$?
 A. $0.2$
 B. $0.7$
@@ -241,7 +241,7 @@ D. $1$
 ::key C
 For mutually exclusive events, $P(A\cup B)=P(A)+P(B)$.
 
-::mc
+::mc NB
 $X\sim B(5, 0.2)$. What is $E(X)$?
 A. $1$
 B. $0.2$
@@ -250,7 +250,7 @@ D. $5$
 ::key A
 $np=5(0.2)=1$.
 
-::mc
+::mc TH
 $X\sim N\left(\mu,\sigma^2\right)$. What is $P(X<\mu)$?
 A. $0.68$
 B. $0.95$
@@ -259,7 +259,7 @@ D. $0.5$
 ::key D
 The normal distribution is symmetric about its mean.
 
-::mc
+::mc TH
 A random variable takes the values $1$, $2$, $3$ with probabilities $0.2$, $k$, $0.5$. What is $k$?
 A. $0.5$
 B. $0.3$
@@ -268,7 +268,7 @@ D. $0.2$
 ::key B
 $0.2+k+0.5=1$.
 
-::tf
+::tf TH TH VD TH
 $X\sim N\left(100, 15^2\right)$.
 a) $P(X<100)=0.5$.
 b) $P(X>115)=P(X<85)$.
@@ -277,12 +277,12 @@ d) The variance of $X$ is $15$.
 ::key T T F F
 a) True: symmetry. b) True: symmetry. c) False: $P(X>130)\approx0.0228$. d) False: the variance is $225$.
 
-::sa
+::sa VD
 A fair six-sided die is rolled. Find the expected score.
 ::key 3.5
 $\dfrac{21}{6}=3.5$.
 
-::sa
+::sa TH
 A fair coin is tossed twice. Find the probability of two heads.
 ::key 0.25
 $0.5^2=0.25$.

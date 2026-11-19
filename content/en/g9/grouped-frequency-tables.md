@@ -376,7 +376,7 @@ So $24+21=45$ data values lie in $[20, 40)$ (the two middle classes).
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 With the classes $[145, 150)$, $[150, 155)$, $[155, 160)$, the value $155$ belongs to
 A. $[150, 155)$.
 B. both $[150, 155)$ and $[155, 160)$.
@@ -385,7 +385,7 @@ D. $[155, 160)$.
 ::key D
 We have $155\leq155<160$. The class $[150, 155)$ does not contain its upper boundary $155$ (A is wrong), so $155$ belongs to exactly one class (B and C are wrong).
 
-::mc
+::mc TH
 The midpoint of the class $[40, 50)$ is
 A. $10$.
 B. $40$.
@@ -394,7 +394,7 @@ D. $50$.
 ::key C
 $\dfrac{40+50}{2}=45$. A is the class width, B is the lower boundary, D is the upper boundary.
 
-::mc
+::mc TH
 A data set of size $30$ has four classes with frequencies $5$, $12$, $8$, $5$. The relative frequency of the second class is
 A. $40\%$.
 B. $12\%$.
@@ -403,7 +403,7 @@ D. $2.5\%$.
 ::key A
 $\dfrac{12}{30}\cdot100\%=40\%$. B uses the frequency as a percentage, C is the remaining part, D works out $30\div12$.
 
-::mc
+::mc NB
 In a histogram, the bars
 A. are equally spaced, each standing on a class midpoint.
 B. touch each other, each standing on a whole class.
@@ -412,7 +412,7 @@ D. have heights equal to the class midpoints.
 ::key B
 The data run continuously across the classes, so the bars touch. A describes a bar chart of ungrouped data; the width of a bar is the class width (C is wrong) and its height is the frequency (D is wrong).
 
-::tf
+::tf NB TH TH TH
 Suppose the waiting times (in minutes) of 50 customers are: $[0, 5)$: $12$, $[5, 10)$: $20$, $[10, 15)$: $10$, $[15, 20)$: $8$. Decide whether each statement is true or false.
 a) Each class has a width of $5$ minutes.
 b) The relative frequency of the class $[5, 10)$ is $40\%$.
@@ -421,12 +421,12 @@ d) From the table, we know that exactly $6$ customers wait less than 2 minutes.
 ::key T T T F
 a) True. b) True: $\dfrac{20}{50}=40\%$. c) True: $10+8=18$. d) False: the table does not show the data inside the class $[0, 5)$.
 
-::sa
+::sa VD
 For the table in the previous question, what percentage of the customers wait 10 minutes or more?
 ::key 36
 $\dfrac{18}{50}=36\%$.
 
-::sa
+::sa TH
 Find the midpoint of the class $[12.5, 17.5)$.
 ::key 15
 $\dfrac{12.5+17.5}{2}=15$.

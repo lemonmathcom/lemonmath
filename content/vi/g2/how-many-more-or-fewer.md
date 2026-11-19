@@ -286,7 +286,7 @@ $$14-6=8.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hà có 15 viên bi, Nam có 9 viên bi. Hà nhiều hơn Nam
 A. $24$ viên bi.
 B. $7$ viên bi.
@@ -295,7 +295,7 @@ D. $5$ viên bi.
 ::key C
 $15-9=6$. Phương án A là phép cộng, phương án B và D trừ sai khi trừ qua 10.
 
-::mc
+::mc TH
 Số 17 hơn số 9 là
 A. $26$ đơn vị.
 B. $7$ đơn vị.
@@ -304,7 +304,7 @@ D. $8$ đơn vị.
 ::key D
 $17-9=8$. Phương án A là phép cộng, phương án C chép lại số bé.
 
-::mc
+::mc TH
 Sân trường có 12 cây phượng và 7 cây bàng. Cây bàng ít hơn cây phượng
 A. $5$ cây.
 B. $19$ cây.
@@ -313,7 +313,7 @@ D. $6$ cây.
 ::key A
 $12-7=5$. Phương án B là phép cộng, phương án C chép lại số cây bàng.
 
-::mc
+::mc TH
 Trên tia số, hai vạch ghi 6 và 14 cách nhau
 A. $20$ vạch.
 B. $8$ vạch.
@@ -322,7 +322,7 @@ D. $6$ vạch.
 ::key B
 $14-6=8$. Phương án A là phép cộng, phương án D chép lại số bé.
 
-::tf
+::tf NB TH TH TH
 Lan có 14 bông hoa, Mai có 8 bông hoa.
 a) Mai có nhiều hoa hơn Lan.
 b) Lan nhiều hơn Mai 6 bông hoa.
@@ -331,12 +331,12 @@ d) Nếu Mai có thêm 6 bông hoa thì Mai có số hoa bằng Lan.
 ::key S Đ Đ Đ
 a) Sai: $14>8$ nên Lan có nhiều hoa hơn. b) Đúng: $14-8=6$. c) Đúng: Mai ít hơn Lan cũng 6 bông. d) Đúng: $8+6=14$.
 
-::sa
+::sa VD
 Ngày thứ nhất cửa hàng bán 48 chiếc bánh, ngày thứ hai bán 35 chiếc bánh. Ngày thứ nhất bán nhiều hơn ngày thứ hai bao nhiêu chiếc bánh?
 ::key 13
 $48-35=13$ (chiếc).
 
-::sa
+::sa TH
 Trên tia số, hai vạch ghi 8 và 19 cách nhau mấy vạch?
 ::key 11
 $19-8=11$.

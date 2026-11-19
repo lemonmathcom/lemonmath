@@ -243,7 +243,7 @@ Ones: $7-5=2$. The tens are $3$, so the missing number is $37$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $47-5$ equals
 A. $42$.
 B. $52$.
@@ -252,7 +252,7 @@ D. $43$.
 ::key A
 $7-5=2$ and the tens are $4$, so $47-5=42$. Option B is the mistake of adding instead of subtracting, and C forgets the tens.
 
-::mc
+::mc TH
 $68-8$ equals
 A. $6$.
 B. $60$.
@@ -261,7 +261,7 @@ D. $70$.
 ::key B
 $8-8=0$ and the tens are $6$, so $68-8=60$. Option A forgets the tens, and C adds instead of subtracting.
 
-::mc
+::mc TH
 Which difference equals $52$?
 A. $57-6$.
 B. $59-6$.
@@ -270,7 +270,7 @@ D. $58-5$.
 ::key C
 $58-6=52$. The other differences are $53$, $51$ and $53$.
 
-::mc
+::mc TH
 Linh has $29$ stamps and gives $5$ to a friend. How many stamps does Linh have left?
 A. $14$ stamps.
 B. $34$ stamps.
@@ -279,7 +279,7 @@ D. $24$ stamps.
 ::key D
 "Gives" and "left" mean taking away: $29-5=24$. Option B is $29+5$, an addition by mistake.
 
-::tf
+::tf NB TH TH TH
 Look at the subtraction $76-4$.
 a) The number $76$ has $7$ tens.
 b) The ones: $6-4=2$.
@@ -288,12 +288,12 @@ d) $76-4$ is less than $75$.
 ::key T T F T
 a) True: $76$ has $7$ tens and $6$ ones. b) True: $6-4=2$. c) False: the tens stay $7$, so $76-4=72$. d) True: $72<75$.
 
-::sa
+::sa TH
 Work out $89-7$.
 ::key 82
 $9-7=2$ and the tens are $8$, so $89-7=82$.
 
-::sa
+::sa TH
 A tree has $58$ fruits and $6$ fruits are picked. How many fruits are left on the tree?
 ::key 52
 $58-6=52$ (fruits).

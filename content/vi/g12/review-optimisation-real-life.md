@@ -371,7 +371,7 @@ Trên $\left(0; \dfrac{\pi}{2}\right]$, $\cos\theta+1>0$, nên $A'=0\iff\cos\the
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc VD
 Hai số dương có tổng bằng $12$. Tích của chúng lớn nhất bằng
 A. $36$.
 B. $6$.
@@ -380,7 +380,7 @@ D. $72$.
 ::key A
 Tích $P(x)=x(12-x)$, $P'(x)=12-2x=0\iff x=6$, $P(6)=36$. Phương án B là giá trị của mỗi số, C là $12^2$.
 
-::mc
+::mc TH
 Một vật chuyển động với $s(t)=t^3-3t^2+4t$ (m). Gia tốc của vật tại $t=2$ giây là
 A. $8$ m/s².
 B. $4$ m/s².
@@ -389,7 +389,7 @@ D. $0$ m/s².
 ::key C
 $v(t)=3t^2-6t+4$, $a(t)=6t-6$, $a(2)=6$. Phương án B là vận tốc $v(2)$; D là gia tốc tại $t=1$.
 
-::mc
+::mc VD
 Tổng chi phí sản xuất $x$ sản phẩm là $C(x)=2x^2+50x+800$ (nghìn đồng). Để chi phí trung bình mỗi sản phẩm nhỏ nhất, cần sản xuất bao nhiêu sản phẩm?
 A. $10$.
 B. $20$.
@@ -398,7 +398,7 @@ D. $40$.
 ::key B
 $\overline C(x)=2x+50+\dfrac{800}{x}$, $\overline C'(x)=2-\dfrac{800}{x^2}=0\iff x^2=400\iff x=20$. Phương án C là $x^2$.
 
-::mc
+::mc TH
 $N(t)$ là số người dùng một ứng dụng (nghìn người) sau $t$ tháng, và $N'(5)=12$. Khẳng định nào đúng?
 A. Sau $5$ tháng, số người dùng đã tăng thêm tổng cộng $12$ nghìn người.
 B. Tại thời điểm $5$ tháng, số người dùng đang tăng với tốc độ khoảng $12$ nghìn người mỗi tháng.
@@ -407,7 +407,7 @@ D. Sau $5$ tháng có $12$ nghìn người dùng.
 ::key B
 Đạo hàm là tốc độ thay đổi tức thời tại một thời điểm. D nhầm với $N(5)$, C nhầm với tốc độ trung bình, A nhầm với lượng thay đổi.
 
-::tf
+::tf TH TH VD TH
 Bác Ba dùng $120$ m lưới rào ba cạnh của một mảnh đất hình chữ nhật, cạnh thứ tư là bờ sông không cần rào. Gọi $x$ (m) là độ dài mỗi cạnh vuông góc với bờ sông.
 a) Điều kiện của $x$ là $0<x<60$.
 b) Diện tích mảnh đất là $S(x)=x(120-2x)$.
@@ -416,12 +416,12 @@ d) Diện tích lớn nhất là $3600$ m².
 ::key Đ Đ Đ S
 a) Đúng: cạnh song song bờ sông là $120-2x>0$. b) Đúng. c) Đúng: $S'(x)=120-4x=0\iff x=30$, $S'$ đổi dấu từ $+$ sang $-$. d) Sai: $S(30)=30\cdot60=1800$ m².
 
-::sa
+::sa TH
 Một quả bóng được ném lên với độ cao $h(t)=2+14{,}7t-4{,}9t^2$ (m) sau $t$ giây. Sau bao nhiêu giây quả bóng đạt độ cao lớn nhất?
 ::key 1,5
 $h'(t)=14{,}7-9{,}8t=0\iff t=1{,}5$, $h'$ đổi dấu từ $+$ sang $-$.
 
-::sa
+::sa VD
 Từ một tấm bìa hình vuông cạnh $12$ cm, cắt bốn hình vuông cạnh $x$ cm ở bốn góc rồi gấp thành hộp không nắp. Thể tích lớn nhất của hộp là bao nhiêu cm³?
 ::key 128
 $V(x)=x(12-2x)^2$, $0<x<6$; $V'(x)=(12-2x)(12-6x)=0\iff x=2$. $V(2)=2\cdot8^2=128$.

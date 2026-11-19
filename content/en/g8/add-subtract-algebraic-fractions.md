@@ -369,7 +369,7 @@ So the identity is proved.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The result of $\dfrac{2x+3}{x-1}+\dfrac{x-4}{x-1}$ is
 A. $\dfrac{3x-1}{2x-2}$.
 B. $\dfrac{3x-1}{x-1}$.
@@ -378,7 +378,7 @@ D. $\dfrac{3x-1}{x^2-1}$.
 ::key B
 With the same denominator we add numerators: $2x+3+x-4=3x-1$. A adds the denominators too, C gets the sign of $-4$ wrong, D changes the denominator.
 
-::mc
+::mc TH
 The result of $\dfrac{5x+2}{x}-\dfrac{2x-1}{x}$ is
 A. $\dfrac{3x+1}{x}$.
 B. $\dfrac{7x+1}{x}$.
@@ -387,7 +387,7 @@ D. $3$.
 ::key C
 $5x+2-(2x-1)=3x+3$. A forgets to change the sign of $-1$, B adds instead of subtracting, D simplifies wrongly.
 
-::mc
+::mc TH
 The result of $\dfrac1x+\dfrac1{x+1}$ is
 A. $\dfrac{2}{2x+1}$.
 B. $\dfrac{1}{x(x+1)}$.
@@ -396,7 +396,7 @@ D. $\dfrac{2x+1}{x(x+1)}$.
 ::key D
 $\dfrac{x+1}{x(x+1)}+\dfrac{x}{x(x+1)}=\dfrac{2x+1}{x(x+1)}$. A adds numerators and denominators; B forgets the multiplying factors; C gets the numerator wrong.
 
-::mc
+::mc TH
 The common denominator of $\dfrac{1}{x-2}$ and $\dfrac{3}{x^2-4}$ is
 A. $x^2-4$.
 B. $(x-2)(x^2-4)$.
@@ -405,7 +405,7 @@ D. $x+2$.
 ::key A
 $x^2-4=(x-2)(x+2)$ already contains the factor $x-2$, so the common denominator is $x^2-4$. B repeats the factor $x-2$ unnecessarily.
 
-::tf
+::tf TH TH VD TH
 Let $P=\dfrac{1}{x-2}-\dfrac{4}{x^2-4}$ ($x\neq\pm2$). Decide whether each statement is true or false.
 a) A common denominator of the two fractions is $(x-2)(x+2)$.
 b) $P=\dfrac{x-3}{x^2-4}$.
@@ -414,12 +414,12 @@ d) The value of $P$ at $x=3$ is $\dfrac15$.
 ::key T F T T
 a) True: $x^2-4=(x-2)(x+2)$. b) False: the numerator is $(x+2)-4=x-2$, not $x-3$. c) True: $\dfrac{x-2}{(x-2)(x+2)}=\dfrac1{x+2}$. d) True: $\dfrac{1}{3+2}=\dfrac15$.
 
-::sa
+::sa VD
 Two taps fill a tank in $6$ hours and in $9$ hours. What part of the tank do both taps fill together in one hour? (to 2 decimal places)
 ::key 0.28
 $\dfrac16+\dfrac19=\dfrac{5}{18}\approx0.28$.
 
-::sa
+::sa VD
 A car travels $60$ km at $40$ km/h, then returns $60$ km at $50$ km/h. What is the total travelling time in hours?
 ::key 2.7
 $\dfrac{60}{40}+\dfrac{60}{50}=1.5+1.2=2.7$.

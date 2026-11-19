@@ -413,7 +413,7 @@ So triangle $ADE$ is isosceles at $D$ and $EC=3$ cm.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The parallelogram $ABCD$ has $AB=7$ cm and $AD=4$ cm. Its perimeter equals
 A. $11$ cm.
 B. $28$ cm.
@@ -422,7 +422,7 @@ D. $14$ cm.
 ::key C
 The perimeter is $2(7+4)=22$ cm. A adds only two adjacent sides, B multiplies wrongly, D is $2\cdot7$.
 
-::mc
+::mc NB
 Which property holds for every parallelogram?
 A. The two diagonals are equal.
 B. The two diagonals are perpendicular.
@@ -431,7 +431,7 @@ D. The two diagonals bisect each other.
 ::key D
 The diagonals of a parallelogram bisect each other. A holds for a rectangle, B holds for a rhombus, C is false because adjacent angles add up to $180^\circ$.
 
-::mc
+::mc NB
 The parallelogram $ABCD$ has $\angle A=70^\circ$. The angle $\angle C$ equals
 A. $70^\circ$.
 B. $110^\circ$.
@@ -440,7 +440,7 @@ D. $140^\circ$.
 ::key A
 Opposite angles are equal, so $\angle C=\angle A=70^\circ$. B is the angle $\angle B$, C takes $90^\circ-70^\circ$, D takes $2\cdot70^\circ$.
 
-::mc
+::mc TH
 Which quadrilateral is certainly a parallelogram?
 A. A quadrilateral with two equal opposite sides.
 B. A quadrilateral with two opposite sides that are parallel and equal.
@@ -449,7 +449,7 @@ D. A quadrilateral with equal diagonals.
 ::key B
 Two opposite sides that are both parallel and equal is a test for a parallelogram. A and D also hold for an isosceles trapezium, C holds for every convex quadrilateral.
 
-::tf
+::tf NB NB TH TH
 The parallelogram $ABCD$ has diagonals meeting at $O$, with $AC=10$ cm and $BD=6$ cm.
 a) $OA=5$ cm.
 b) $OB=3$ cm.
@@ -458,12 +458,12 @@ d) $AB=BC$.
 ::key T T T F
 a) True: $OA=AC\div2=5$. b) True: $OB=BD\div2=3$. c) True: adjacent angles add up to $180^\circ$. d) False: adjacent sides of a parallelogram are not necessarily equal.
 
-::sa
+::sa TH
 A parallelogram has adjacent sides $12$ cm and $9$ cm. Find the perimeter (cm).
 ::key 42
 The perimeter is $2(12+9)=42$ cm.
 
-::sa
+::sa TH
 The parallelogram $ABCD$ has $AC=14$ cm and $BD=10$ cm, and its diagonals meet at $O$. Find $OA+OB$ (cm).
 ::key 12
 $OA=7$ cm and $OB=5$ cm, so $OA+OB=12$ cm.

@@ -212,7 +212,7 @@ Một hạt có vận tốc $v(t)=e^{0{,}5t}\cos t$ m s⁻¹, $0\le t\le4$. Tín
 :::
 
 :::quiz
-::mc
+::mc TH
 Hệ số góc của $y=e^{2x}$ tại $x=0$ bằng
 A. $1$
 B. $e^2$
@@ -221,7 +221,7 @@ D. $0$
 ::key C
 $\dfrac{dy}{dx}=2e^{2x}$, bằng $2$ tại $x=0$.
 
-::mc
+::mc TH
 Tích phân $\displaystyle\int_0^13x^2\,dx$ bằng
 A. $1$
 B. $3$
@@ -230,7 +230,7 @@ D. $\dfrac13$
 ::key A
 $\left[x^3\right]_0^1=1$.
 
-::mc
+::mc VD
 Hệ số góc của pháp tuyến với $y=x^2$ tại $x=1$ bằng
 A. $2$
 B. $-2$
@@ -239,7 +239,7 @@ D. $-\dfrac12$
 ::key D
 Tiếp tuyến có hệ số góc $2$, nên pháp tuyến có hệ số góc $-\dfrac12$.
 
-::mc
+::mc TH
 Nếu $f'(x)=2x-4$ thì $f$ nghịch biến trên khoảng nào?
 A. $x>2$
 B. $x<2$
@@ -248,7 +248,7 @@ D. $x>4$
 ::key B
 $f'(x)<0$ khi $x<2$.
 
-::tf
+::tf TH VD TH TH
 Cho $f(x)=x^3-3x$.
 a) $f'(1)=0$.
 b) $f$ đạt cực tiểu tại $x=1$.
@@ -257,12 +257,12 @@ d) $f$ đồng biến trên $-1<x<1$.
 ::key T T T F
 a) Đúng: $f'(x)=3x^2-3$. b) Đúng: $f''(1)=6>0$. c) Đúng. d) Sai: ở đó $f'(x)<0$.
 
-::sa
+::sa TH
 Tính $\displaystyle\int_1^32x\,dx$.
 ::key 8
 $\left[x^2\right]_1^3=9-1$.
 
-::sa
+::sa VD
 Tìm giá trị lớn nhất của $f(x)=6x-x^2$.
 ::key 9
 $f'(x)=6-2x=0$ tại $x=3$, và $f(3)=9$.

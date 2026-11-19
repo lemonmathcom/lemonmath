@@ -262,7 +262,7 @@ a) $4$ bé hơn $6$ nên bớt: $6-2=4$. b) $8$ lớn hơn $6$ nên cộng: $6+2
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $8-3$ là
 A. $4$.
 B. $6$.
@@ -271,7 +271,7 @@ D. $11$.
 ::key C
 Từ $8$ đếm lùi $3$ số: bảy, sáu, năm. Phương án D là lấy $8+3$, nhầm sang phép cộng.
 
-::mc
+::mc NB
 Kết quả của $9-0$ là
 A. $0$.
 B. $10$.
@@ -280,7 +280,7 @@ D. $9$.
 ::key D
 Trừ đi $0$ thì số không đổi.
 
-::mc
+::mc TH
 Phép tính nào có kết quả bằng $4$?
 A. $6-2$.
 B. $7-2$.
@@ -289,7 +289,7 @@ D. $8-3$.
 ::key A
 $6-2=4$. Các phép tính khác lần lượt bằng $5$, $3$, $5$.
 
-::mc
+::mc TH
 Có $10$ con chim, bay đi $3$ con. Còn lại mấy con?
 A. $13$ con.
 B. $7$ con.
@@ -298,7 +298,7 @@ D. $3$ con.
 ::key B
 "Bay đi" là bớt: $10-3=7$. Phương án A là lấy $10+3$.
 
-::tf
+::tf NB TH TH TH
 Em xét phép trừ $6-4$.
 a) $6-4=2$.
 b) $4-6=2$.
@@ -307,12 +307,12 @@ d) $2+4=6$.
 ::key Đ S S Đ
 a) Đúng. b) Sai: không bớt được $6$ từ $4$. c) Sai: $10$ là $6+4$. d) Đúng: dùng để kiểm tra $6-4=2$.
 
-::sa
+::sa TH
 Tính $7-4$.
 ::key 3
 Từ $7$ đếm lùi $4$ số: sáu, năm, bốn, ba.
 
-::sa
+::sa TH
 Tính $10-10$.
 ::key 0
 Bớt hết cả nhóm thì không còn gì.

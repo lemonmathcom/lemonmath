@@ -212,7 +212,7 @@ Displacement $\approx-6.81$ m; distance $\approx9.51$ m. The particle changes di
 :::
 
 :::quiz
-::mc
+::mc TH
 What is the gradient of $y=e^{2x}$ at $x=0$?
 A. $1$
 B. $e^2$
@@ -221,7 +221,7 @@ D. $0$
 ::key C
 $\dfrac{dy}{dx}=2e^{2x}$, which is $2$ at $x=0$.
 
-::mc
+::mc TH
 What is $\displaystyle\int_0^13x^2\,dx$?
 A. $1$
 B. $3$
@@ -230,7 +230,7 @@ D. $\dfrac13$
 ::key A
 $\left[x^3\right]_0^1=1$.
 
-::mc
+::mc VD
 What is the gradient of the normal to $y=x^2$ at $x=1$?
 A. $2$
 B. $-2$
@@ -239,7 +239,7 @@ D. $-\dfrac12$
 ::key D
 The tangent has gradient $2$, so the normal has gradient $-\dfrac12$.
 
-::mc
+::mc TH
 If $f'(x)=2x-4$, on which interval is $f$ decreasing?
 A. $x>2$
 B. $x<2$
@@ -248,7 +248,7 @@ D. $x>4$
 ::key B
 $f'(x)<0$ when $x<2$.
 
-::tf
+::tf TH VD TH TH
 Let $f(x)=x^3-3x$.
 a) $f'(1)=0$.
 b) $f$ has a local minimum at $x=1$.
@@ -257,12 +257,12 @@ d) $f$ is increasing on $-1<x<1$.
 ::key T T T F
 a) True: $f'(x)=3x^2-3$. b) True: $f''(1)=6>0$. c) True. d) False: $f'(x)<0$ there.
 
-::sa
+::sa TH
 Evaluate $\displaystyle\int_1^32x\,dx$.
 ::key 8
 $\left[x^2\right]_1^3=9-1$.
 
-::sa
+::sa VD
 Find the maximum value of $f(x)=6x-x^2$.
 ::key 9
 $f'(x)=6-2x=0$ at $x=3$, and $f(3)=9$.

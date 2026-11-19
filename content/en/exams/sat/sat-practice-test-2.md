@@ -25,7 +25,7 @@ On the real test, Module 2 adapts to your performance on Module 1. Here both mod
 ## Module 1
 
 :::quiz test
-::mc
+::mc TH
 If $7-2x=15$, what is the value of $x$?
 A. $-4$
 B. $4$
@@ -34,7 +34,7 @@ D. $11$
 ::key A
 $-2x=8$, so $x=-4$.
 
-::mc
+::mc TH
 A recipe uses 3 cups of flour to make 24 cookies. How many cups of flour are needed to make 60 cookies at the same rate?
 A. $6$
 B. $7.5$
@@ -43,7 +43,7 @@ D. $20$
 ::key B
 $\dfrac{3}{24}=\dfrac{c}{60}$, so $c=7.5$.
 
-::mc
+::mc NB
 Which expression is equivalent to $(2x-3)^2$?
 A. $4x^2-9$
 B. $4x^2+9$
@@ -52,12 +52,12 @@ D. $4x^2-12x+9$
 ::key D
 $(2x)^2-2\cdot2x\cdot3+9=4x^2-12x+9$.
 
-::sa
+::sa TH
 The function $f$ is defined by $f(x)=3x+b$, where $b$ is a constant. If $f(2)=11$, what is the value of $b$?
 ::key 5
 $6+b=11$, so $b=5$.
 
-::mc
+::mc TH
 A rectangle is 9 units wide and 12 units long. What is the length of its diagonal?
 A. $15$
 B. $21$
@@ -66,7 +66,7 @@ D. $42$
 ::key A
 $\sqrt{81+144}=15$.
 
-::mc
+::mc TH
 18 is 30% of what number?
 A. $5.4$
 B. $54$
@@ -75,7 +75,7 @@ D. $600$
 ::key C
 $0.3N=18$, so $N=60$. Option A is 30% of 18.
 
-::mc
+::mc TH
 A phone plan costs $30+0.1m$ dollars per month, where $m$ is the number of minutes of international calls. What does $30$ represent?
 A. The cost per minute
 B. The fixed monthly cost
@@ -84,12 +84,12 @@ D. The total cost for 30 minutes
 ::key B
 $30$ does not depend on $m$: it is the fixed monthly cost.
 
-::sa
+::sa VD
 What is the positive solution of $x^2=3x+10$?
 ::key 5
 $x^2-3x-10=0\iff(x-5)(x+2)=0$.
 
-::mc
+::mc VD
 Which equation defines the line through $(-1, 2)$ and $(3, 10)$?
 A. $y=x+3$
 B. $y=2x+4$
@@ -98,12 +98,12 @@ D. $y=2x+2$
 ::key B
 The slope is $\dfrac{8}{4}=2$, and $2=-2+b$ gives $b=4$.
 
-::sa
+::sa TH
 Two supplementary angles measure $x^\circ$ and $(2x+30)^\circ$. What is the value of $x$?
 ::key 50
 $3x+30=180$, so $x=50$.
 
-::mc
+::mc NB
 The function $g$ is defined by $g(x)=4\left(\dfrac12\right)^x$. What is the value of $g(3)$?
 A. $0.5$
 B. $1$
@@ -112,7 +112,7 @@ D. $6$
 ::key A
 $4\cdot\dfrac18=0.5$.
 
-::mc
+::mc TH
 What is the median of the data set 8, 3, 10, 6, 7?
 A. $6$
 B. $6.8$
@@ -121,7 +121,7 @@ D. $8$
 ::key C
 Ordered: 3, 6, 7, 8, 10. Option B is the mean.
 
-::mc
+::mc TH
 Which point $(x, y)$ is a solution of the inequality $y<2x+1$?
 A. $(0, 2)$
 B. $(1, 4)$
@@ -130,7 +130,7 @@ D. $(2, 4)$
 ::key D
 $4<5$ is true. The others give $2<1$, $4<3$ and $0<-1$, all false.
 
-::mc
+::mc TH
 For $x>0$, which expression is equivalent to $\sqrt x\cdot x^2$?
 A. $x^{\frac52}$
 B. $x^3$
@@ -139,12 +139,12 @@ D. $x$
 ::key A
 $x^{\frac12}\cdot x^2=x^{\frac52}$.
 
-::sa
+::sa TH
 If $2x+y=9$ and $x+2y=9$, what is the value of $x+y$?
 ::key 6
 Adding gives $3x+3y=18$, so $x+y=6$.
 
-::mc
+::mc TH
 A train travels at 72 kilometers per hour. What is its speed in meters per second?
 A. $2$
 B. $259.2$
@@ -153,7 +153,7 @@ D. $20$
 ::key D
 $72\cdot\dfrac{1{,}000}{3{,}600}=20$.
 
-::mc
+::mc NB
 The function $f$ is defined by $f(x)=(x-4)(x+1)$. What is the value of $f(0)$?
 A. $4$
 B. $-4$
@@ -162,7 +162,7 @@ D. $-3$
 ::key B
 $(-4)(1)=-4$.
 
-::mc
+::mc NB
 A cylinder has radius 3 and height 4. What is its volume?
 A. $12\pi$
 B. $24\pi$
@@ -171,12 +171,12 @@ D. $48\pi$
 ::key C
 $\pi\cdot9\cdot4=36\pi$.
 
-::sa
+::sa TH
 If $2^{x+1}=32$, what is the value of $x$?
 ::key 4
 $32=2^5$, so $x+1=5$.
 
-::mc
+::mc TH
 $$ax+3y=6$$
 $$2x+6y=12$$
 In the system, $a$ is a constant. The system has infinitely many solutions. What is the value of $a$?
@@ -187,12 +187,12 @@ D. $1$
 ::key D
 The second equation is twice the first, so $2a=2$ and $a=1$.
 
-::sa
+::sa TH
 Of 200 adults surveyed, 120 own a car. Of the car owners, 30 also cycle to work. If a car owner is chosen at random, what is the probability that the person cycles to work? Give your answer as a decimal.
 ::key 0.25
 $\dfrac{30}{120}=0.25$.
 
-::mc
+::mc VD
 The function $f(x)=a(x-2)^2+5$, where $a$ is a constant, satisfies $f(4)=13$. What is the value of $f(0)$?
 A. $5$
 B. $9$
@@ -205,7 +205,7 @@ $4a+5=13$ gives $a=2$, and $f(0)=2\cdot4+5=13$. The graph is symmetric about $x=
 ## Module 2
 
 :::quiz test
-::mc
+::mc TH
 If $3(x-2)+4=2x+7$, what is the value of $x$?
 A. $9$
 B. $5$
@@ -214,7 +214,7 @@ D. $13$
 ::key A
 $3x-2=2x+7$, so $x=9$.
 
-::mc
+::mc VD
 After a 25% discount, a pair of headphones costs 45 dollars. What was the price before the discount, in dollars?
 A. $56.25$
 B. $60$
@@ -223,12 +223,12 @@ D. $33.75$
 ::key B
 $0.75P=45$, so $P=60$. Option A adds 25% of 45.
 
-::sa
+::sa VD
 For all $x\ne4$, $\dfrac{x^2-16}{x-4}=ax+b$, where $a$ and $b$ are constants. What is the value of $a+b$?
 ::key 5
 $\dfrac{(x-4)(x+4)}{x-4}=x+4$, so $a=1$, $b=4$.
 
-::mc
+::mc TH
 What is the measure of each interior angle of a regular pentagon?
 A. $72^\circ$
 B. $120^\circ$
@@ -237,7 +237,7 @@ D. $540^\circ$
 ::key C
 $\dfrac{3\cdot180^\circ}{5}=108^\circ$. Option A is the exterior angle.
 
-::mc
+::mc VD
 What is the slope of a line perpendicular to $2x+5y=10$?
 A. $-\dfrac25$
 B. $\dfrac25$
@@ -246,7 +246,7 @@ D. $\dfrac52$
 ::key D
 $2x+5y=10$ has slope $-\dfrac25$; the negative reciprocal is $\dfrac52$.
 
-::mc
+::mc VD
 For $x\ne1$ and $x\ne-1$, which expression is equivalent to $\dfrac{1}{x+1}+\dfrac{1}{x-1}$?
 A. $\dfrac{2}{x^2-1}$
 B. $\dfrac{2x}{x^2-1}$
@@ -255,12 +255,12 @@ D. $\dfrac{x}{x^2-1}$
 ::key B
 $\dfrac{(x-1)+(x+1)}{x^2-1}=\dfrac{2x}{x^2-1}$.
 
-::sa
+::sa VD
 A rug is 3 feet long and 2 feet wide. What is its area in square inches? (1 foot = 12 inches)
 ::key 864
 $36\cdot24=864$, or $6\cdot144$: one square foot is $144$ square inches.
 
-::mc
+::mc TH
 How many real solutions does $2x^2-3x+5=0$ have?
 A. $0$
 B. $1$
@@ -269,12 +269,12 @@ D. Infinitely many
 ::key A
 $D=9-40=-31<0$.
 
-::sa
+::sa VD
 The function $f$ is linear, with $f(1)=5$ and $f(4)=17$. What is the value of $f(10)$?
 ::key 41
 The slope is $4$, so $f(10)=17+6\cdot4=41$.
 
-::mc
+::mc VD
 The amount, in dollars, in an account $t$ years from now is $A(t)=1{,}200(1.5)^{\frac t4}$. Which statement is true?
 A. The amount increases by 50% each year.
 B. The amount increases by 150% every 4 years.
@@ -283,7 +283,7 @@ D. The amount increases by 4% each year.
 ::key C
 The factor $1.5$ is applied once every 4 years: an increase of 50%.
 
-::mc
+::mc VD
 In a right triangle, $\cos A=0.6$ for an acute angle $A$. What is $\tan A$?
 A. $\dfrac34$
 B. $\dfrac43$
@@ -292,7 +292,7 @@ D. $\dfrac53$
 ::key B
 Take sides 3, 4, 5 with adjacent side 3: $\tan A=\dfrac43$.
 
-::mc
+::mc VD
 A random sample of 400 voters in a state found that 52% support a proposal, with a margin of error of 3%. Which conclusion is best supported?
 A. It is certain that more than half of the voters in the state support the proposal.
 B. Exactly 52% of the voters in the state support the proposal.
@@ -301,12 +301,12 @@ D. About 52% of voters in every state support the proposal.
 ::key C
 $52\pm3$ gives 49% to 55%, which includes values below 50%, so A is not certain.
 
-::sa
+::sa VD
 If $(x-3)^2=49$ and $x<0$, what is the value of $x$?
 ::key -4
 $x-3=\pm7$, so $x=10$ or $x=-4$.
 
-::mc
+::mc VD
 Ana earns 15 dollars per hour tutoring ($t$ hours) and 12 dollars per hour at a café ($c$ hours). She wants to earn at least 360 dollars and to work at most 28 hours. Which system describes her goals?
 A. $15t+12c\le360$, $t+c\ge28$
 B. $15t+12c\ge360$, $t+c\ge28$
@@ -315,7 +315,7 @@ D. $15t+12c\ge360$, $t+c\le28$
 ::key D
 "At least 360" is $\ge360$ for the earnings; "at most 28" is $\le28$ for the hours.
 
-::mc
+::mc VD
 The graphs of $y=x^2+2x-8$ and $y=2x+1$ intersect at two points. What is the product of the $x$-coordinates of these points?
 A. $-9$
 B. $9$
@@ -324,12 +324,12 @@ D. $-3$
 ::key A
 $x^2+2x-8=2x+1\iff x^2=9$, so $x=3$ or $x=-3$, with product $-9$.
 
-::sa
+::sa TH
 In a circle of radius 12, a central angle of $150^\circ$ cuts off an arc of length $k\pi$. What is the value of $k$?
 ::key 10
 $\dfrac{150}{360}\cdot24\pi=10\pi$.
 
-::mc
+::mc VD
 Which of the following is a factor of $x^4-16$?
 A. $x-4$
 B. $x+4$
@@ -338,7 +338,7 @@ D. $x^2+16$
 ::key C
 $x^4-16=(x^2-4)(x^2+4)=(x-2)(x+2)(x^2+4)$.
 
-::mc
+::mc VD
 The mean of 10 numbers is 15. Two of the numbers, whose sum is 50, are removed. What is the mean of the remaining 8 numbers?
 A. $12.5$
 B. $15$
@@ -347,12 +347,12 @@ D. $13$
 ::key A
 $\dfrac{150-50}{8}=12.5$.
 
-::sa
+::sa VD
 What is the minimum value of $f(x)=(x-1)(x-7)$?
 ::key -9
 The vertex is halfway between the zeros, at $x=4$: $f(4)=3\cdot(-3)=-9$.
 
-::mc
+::mc VD
 A sphere has surface area $100\pi$. What is its volume?
 A. $\dfrac{100\pi}{3}$
 B. $125\pi$
@@ -361,12 +361,12 @@ D. $\dfrac{500\pi}{3}$
 ::key D
 $4\pi r^2=100\pi$ gives $r=5$, and $\dfrac43\pi\cdot125=\dfrac{500\pi}{3}$.
 
-::sa
+::sa VD
 A café sells 22 drinks: some cost 0.40 dollars and the rest cost 0.25 dollars. The total is 7 dollars. How many 0.40-dollar drinks were sold?
 ::key 10
 $0.4x+0.25(22-x)=7\iff0.15x=1.5\iff x=10$.
 
-::mc
+::mc VD
 For what positive value of $k$ does the line $y=kx$ intersect the parabola $y=x^2+4$ at exactly one point?
 A. $2$
 B. $4$

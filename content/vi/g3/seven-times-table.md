@@ -329,7 +329,7 @@ b) Số kệ chưa xếp là $10-4=6$ (kệ). Số truyện đã xếp là $7\ti
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $7\times4$ là
 A. $11$.
 B. $28$.
@@ -338,7 +338,7 @@ D. $35$.
 ::key B
 $7\times4=7\times3+7=21+7=28$. Phương án A là lỗi cộng $7+4$.
 
-::mc
+::mc NB
 Kết quả của $7\times8$ là
 A. $49$.
 B. $54$.
@@ -347,7 +347,7 @@ D. $15$.
 ::key C
 $7\times8=49+7=56$. Phương án B là lỗi nhớ nhầm tích.
 
-::mc
+::mc NB
 Kết quả của $63:7$ là
 A. $8$.
 B. $9$.
@@ -356,7 +356,7 @@ D. $56$.
 ::key B
 Vì $7\times9=63$ nên $63:7=9$. Phương án A là lỗi nhớ nhầm $7\times8=56$.
 
-::mc
+::mc TH
 Mỗi tuần lễ có $7$ ngày. Hỏi $9$ tuần lễ có bao nhiêu ngày?
 A. $16$ ngày.
 B. $56$ ngày.
@@ -365,7 +365,7 @@ D. $70$ ngày.
 ::key C
 $9$ nhóm, mỗi nhóm $7$ ngày: $7\times9=63$. Phương án A là lỗi cộng $7+9$.
 
-::tf
+::tf TH NB NB NB
 Em xét phép nhân $7\times7=49$.
 a) $7\times7=7\times6+7$.
 b) $49:7=7$.
@@ -374,12 +374,12 @@ d) $7\times7$ lớn hơn $50$.
 ::key Đ Đ S S
 a) Đúng: $42+7=49$. b) Đúng: $7\times7=49$. c) Sai: $7\times8=56$, không phải $49$. d) Sai: $49<50$.
 
-::sa
+::sa NB
 Tính $7\times9$.
 ::key 63
 $7\times9=7\times10-7=70-7=63$.
 
-::sa
+::sa TH
 Một chuyến đi dài $56$ ngày. Hỏi chuyến đi dài bao nhiêu tuần lễ?
 ::key 8
 $56:7=8$ (tuần), vì $7\times8=56$.

@@ -282,7 +282,7 @@ Vậy hai tàu cách nhau $25$ km, tam giác có diện tích $150\text{ km}^2$.
 :::
 
 :::quiz
-::mc
+::mc TH
 $B$ nằm theo phương vị $060^\circ$ từ $A$. Phương vị của $A$ từ $B$ là
 A. $120^\circ$
 B. $300^\circ$
@@ -291,7 +291,7 @@ D. $060^\circ$
 ::key C
 Cộng thêm $180^\circ$.
 
-::mc
+::mc TH
 Biết hai cạnh và góc xen giữa. Để tìm cạnh thứ ba, ta dùng
 A. định lí sin
 B. định lí côsin
@@ -300,7 +300,7 @@ D. $\tfrac12ab\sin C$
 ::key B
 Hai cạnh và góc xen giữa: định lí côsin.
 
-::mc
+::mc TH
 Giá trị của $\sin150^\circ$ là
 A. $0{,}5$
 B. $-0{,}5$
@@ -309,7 +309,7 @@ D. $-0{,}866$
 ::key A
 $\sin150^\circ=\sin30^\circ$.
 
-::mc
+::mc NB
 Công thức nào tính diện tích tam giác bất kì?
 A. $\tfrac12ab\cos C$
 B. $ab\sin C$
@@ -318,7 +318,7 @@ D. $\tfrac12ab\sin C$
 ::key D
 Nửa tích hai cạnh nhân sin góc xen giữa.
 
-::tf
+::tf TH TH TH TH
 Tam giác $ABC$ vuông tại $C$, với $BC=3$, $AC=4$ và $AB=5$. Mỗi khẳng định sau đúng hay sai?
 a) $\sin A=0{,}6$.
 b) $\cos A=0{,}8$.
@@ -327,12 +327,12 @@ d) Góc $A=45^\circ$.
 ::key T T T F
 $A=\tan^{-1}0{,}75\approx36{,}9^\circ$.
 
-::sa
+::sa TH
 Tính diện tích tam giác có hai cạnh $9$ cm, $12$ cm và góc xen giữa $30^\circ$ (đơn vị $\text{cm}^2$).
 ::key 27
 $\tfrac12\times9\times12\times0{,}5$.
 
-::sa
+::sa TH
 Giải $\sin x=1$ với $0^\circ\le x\le360^\circ$ (đơn vị độ).
 ::key 90
 Đồ thị sin chỉ chạm $1$ một lần trong khoảng này.

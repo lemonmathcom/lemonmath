@@ -509,7 +509,7 @@ Vậy hai mảnh có diện tích bằng nhau, mỗi mảnh $16\ \text{cm}^2$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hình nào sau đây không có trục đối xứng?
 A. Hình thang cân.
 B. Hình bình hành.
@@ -518,7 +518,7 @@ D. Tam giác đều.
 ::key B
 Hình bình hành chỉ có tâm đối xứng, không có trục đối xứng. Hình thang cân có $1$ trục, hình thoi có $2$ trục, tam giác đều có $3$ trục.
 
-::mc
+::mc NB
 Hình vuông có bao nhiêu trục đối xứng?
 A. $1$.
 B. $2$.
@@ -527,7 +527,7 @@ D. $8$.
 ::key C
 Hai đường chéo và hai đường nối trung điểm các cặp cạnh đối, tất cả $4$ trục. B chỉ đếm một loại; D đếm mỗi trục hai lần.
 
-::mc
+::mc NB
 Hình nào sau đây có tâm đối xứng?
 A. Tam giác đều.
 B. Hình thang cân.
@@ -536,7 +536,7 @@ D. Hình bình hành.
 ::key D
 Hình bình hành có tâm đối xứng là giao điểm hai đường chéo. Ba hình còn lại quay nửa vòng thì bị lộn ngược.
 
-::mc
+::mc NB
 Tâm đối xứng của hình chữ nhật là
 A. giao điểm của hai đường chéo.
 B. một đỉnh của hình chữ nhật.
@@ -545,7 +545,7 @@ D. một điểm bất kì nằm trên đường chéo.
 ::key A
 Quay nửa vòng quanh giao điểm hai đường chéo, hình chữ nhật trùng với chính nó. Quay quanh các điểm ở B, C, D thì hình bị lệch khỏi vị trí cũ.
 
-::tf
+::tf NB TH TH TH
 Xét tính đúng sai của các mệnh đề sau:
 a) Hình tròn có vô số trục đối xứng.
 b) Hình nào có trục đối xứng thì cũng có tâm đối xứng.
@@ -554,12 +554,12 @@ d) Lục giác đều vừa có trục đối xứng, vừa có tâm đối xứ
 ::key Đ S S Đ
 a) Đúng: mọi đường thẳng đi qua tâm đều là trục đối xứng. b) Sai: tam giác đều có $3$ trục nhưng không có tâm đối xứng. c) Sai: hình thoi chỉ có $2$ trục là hai đường chéo. d) Đúng: nó có $6$ trục và tâm đối xứng là giao điểm ba đường chéo chính.
 
-::sa
+::sa TH
 Lục giác đều có bao nhiêu trục đối xứng?
 ::key 6
 Ba đường chéo chính và ba đường nối trung điểm các cặp cạnh đối: $3+3=6$.
 
-::sa
+::sa TH
 Hình bình hành $ABCD$ có tâm đối xứng $O$ và $AC=18$ cm. Độ dài đoạn $OA$ là bao nhiêu xăng-ti-mét?
 ::key 9
 $O$ là trung điểm của $AC$ nên $OA=18:2=9$ (cm).

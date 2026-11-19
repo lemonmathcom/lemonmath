@@ -303,7 +303,7 @@ $3$ h $40$ min $=220$ min, and $220\div4=55$ (min).
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $2$ h $20$ min $\times3$ equals
 A. $6$ h $20$ min.
 B. $6$ h $60$ min.
@@ -312,7 +312,7 @@ D. $7$ h $20$ min.
 ::key C
 $2$ h $20$ min $\times3=6$ h $60$ min $=7$ h. Option B does not regroup $60$ minutes, A forgets to multiply the minutes and D regroups $60$ minutes but keeps the $20$ minutes.
 
-::mc
+::mc TH
 $5$ h $30$ min $\div2$ equals
 A. $2$ h $15$ min.
 B. $2$ h $30$ min.
@@ -321,7 +321,7 @@ D. $2$ h $45$ min.
 ::key D
 $5\div2=2$ (remainder $1$ h), $60+30=90$ min, $90\div2=45$ min. Option A drops the spare hour, B forgets to divide the minutes and C rounds $5\div2$ up to $3$.
 
-::mc
+::mc TH
 $3$ min $25$ s $\times4$ equals
 A. $13$ min $40$ s.
 B. $12$ min $25$ s.
@@ -330,7 +330,7 @@ D. $12$ min $100$ s.
 ::key A
 $3$ min $25$ s $\times4=12$ min $100$ s $=13$ min $40$ s. Option D does not regroup, B forgets to multiply the seconds and C changes $100$ s to $40$ s but forgets to add $1$ minute.
 
-::mc
+::mc VD
 Each of Ha's runs lasts $25$ minutes. She runs $5$ times a week. In total she runs for
 A. $30$ minutes.
 B. $2$ hours $5$ minutes.
@@ -339,7 +339,7 @@ D. $125$ hours.
 ::key B
 $25\times5=125$ min $=2$ h $5$ min. Option A is an addition, C treats $1$ hour as $100$ minutes and D has the wrong unit.
 
-::tf
+::tf TH TH VD TH
 Consider the multiplication $1$ h $40$ min $\times3$.
 a) The result is $5$ h.
 b) The result is $4$ h $20$ min.
@@ -348,12 +348,12 @@ d) The result is $4.2$ h.
 ::key T F T F
 a) True: $3$ h $120$ min $=5$ h. b) False: the result is $5$ h. c) True: $5$ h $=300$ min, $300\div3=100$ min $=1$ h $40$ min. d) False: $1$ h $40$ min is not $1.4$ h, so $4.2$ h is wrong.
 
-::sa
+::sa VD
 Work out $1$ h $15$ min $\times6$ and give the answer in minutes.
 ::key 450
 $75\times6=450$ (min).
 
-::sa
+::sa TH
 Share $2$ h $30$ min equally into $5$ parts. How many minutes is each part?
 ::key 30
 $2$ h $30$ min $=150$ min, $150\div5=30$ (min).

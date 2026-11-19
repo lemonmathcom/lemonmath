@@ -348,7 +348,7 @@ Let $O$ be the midpoint of $AC$; $O$ lies on $BD$, so it lies in $(BDC')$. Since
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The distance from a point $M$ to a plane $(P)$ equals
 A. the length $MN$ for any point $N$ of $(P)$.
 B. the greatest length of a segment joining $M$ to a point of $(P)$.
@@ -357,7 +357,7 @@ D. the length of a segment joining $M$ to a point of $(P)$ in the same plane.
 ::key C
 This is the definition, and $MH$ is the shortest length. Options A and D depend on the point chosen, and B is wrong because there is no greatest length.
 
-::mc
+::mc VD
 The pyramid $S.ABCD$ has a square base of side $a$, $SA\perp(ABCD)$ and $SA=a$. The distance from $A$ to $(SBC)$ is
 A. $a$.
 B. $\dfrac{a\sqrt3}{3}$.
@@ -366,7 +366,7 @@ D. $\dfrac{a\sqrt2}{2}$.
 ::key D
 $AH=\dfrac{SA\cdot AB}{SB}=\dfrac{a^2}{a\sqrt2}=\dfrac{a\sqrt2}{2}$. Option A is $SA$, B is the distance for a different right tetrahedron, and C is the diagonal of the base.
 
-::mc
+::mc VD
 In the cube $ABCD.A'B'C'D'$ of edge $a$, the distance between $AA'$ and the plane $(BDD'B')$ is
 A. $\dfrac{a\sqrt2}{2}$.
 B. $a$.
@@ -375,7 +375,7 @@ D. $a\sqrt2$.
 ::key A
 $d(AA',(BDD'B'))=d(A,(BDD'B'))=AO=\dfrac{a\sqrt2}{2}$. Option B is the edge, C is half the edge, and D is the diagonal of a face.
 
-::mc
+::mc VD
 The tetrahedron $OABC$ has $OA$, $OB$, $OC$ mutually perpendicular and equal to $a$. The distance from $O$ to $(ABC)$ is
 A. $\dfrac{a\sqrt2}{2}$.
 B. $\dfrac{a\sqrt3}{3}$.
@@ -384,7 +384,7 @@ D. $a$.
 ::key B
 $\dfrac1{OH^2}=\dfrac3{a^2}$, so $OH=\dfrac{a}{\sqrt3}=\dfrac{a\sqrt3}{3}$. Option A is $OM$, and C and D do not satisfy the relation.
 
-::tf
+::tf NB TH TH NB
 Decide whether each statement is true or false:
 a) The distance from a point $M$ to a line $\Delta$ is the length of the perpendicular segment from $M$ to $\Delta$.
 b) If $(P)\parallel(Q)$, every point of $(P)$ is at the same distance from $(Q)$.
@@ -393,12 +393,12 @@ d) The distance between skew lines $a$, $b$ is the distance between $a$ and the 
 ::key T T F T
 a) True by definition. b) True by the theorem. c) False: $\Delta$ has no common point with $(P)$, so the distance is greater than $0$. d) True by definition.
 
-::sa
+::sa VDC
 Suppose a room is a cuboid with a floor $8$ m $\times6$ m and a height of $3$ m. A pipe runs vertically along one corner and a cable is stretched along the floor diagonal that does not pass through that corner. Find the shortest distance between the pipe and the cable, in metres.
 ::key 4.8
 The distance is the altitude to the hypotenuse of the right triangle with legs $8$ and $6$: $\dfrac{8\cdot6}{10}=4.8$.
 
-::sa
+::sa VD
 The tetrahedron $OABC$ has $OA$, $OB$, $OC$ mutually perpendicular and all equal to $6$. Find the distance from $O$ to $(ABC)$, to the nearest tenth.
 ::key 3.5
 $d=\dfrac{6}{\sqrt3}=2\sqrt3\approx3.5$.

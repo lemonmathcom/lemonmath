@@ -260,7 +260,7 @@ Two additions: $3+6=9$ and $6+3=9$. Two subtractions: $9-3=6$ and $9-6=3$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 From $2+5=7$, which subtraction is right?
 A. $5-7=2$.
 B. $7-2=9$.
@@ -269,7 +269,7 @@ D. $7-2=5$.
 ::key D
 Take $2$ from $7$ and $5$ is left. Options C and A take the bigger number from the smaller.
 
-::mc
+::mc NB
 $7-3$ equals
 A. $4$.
 B. $3$.
@@ -278,7 +278,7 @@ D. $10$.
 ::key A
 $3+4=7$, so $7-3=4$. Option D is $7+3$.
 
-::mc
+::mc TH
 From the three numbers $4$, $5$, $9$, which sum is right?
 A. $9-4=4$.
 B. $9-4=5$.
@@ -287,7 +287,7 @@ D. $5-9=4$.
 ::key B
 $4+5=9$, so $9-4=5$.
 
-::mc
+::mc TH
 Which number goes in the box in $6-\square=2$?
 A. $3$.
 B. $8$.
@@ -296,7 +296,7 @@ D. $2$.
 ::key C
 $2+4=6$, so taking $4$ from $6$ leaves $2$. Option B is $6+2$.
 
-::tf
+::tf NB TH TH TH
 Look at the three numbers $3$, $5$, $8$.
 a) $3+5=8$.
 b) $8-3=5$.
@@ -305,12 +305,12 @@ d) $5-8=3$.
 ::key T T F F
 a) True. b) True. c) False: $8-5=3$. d) False: you cannot take $8$ away from $5$.
 
-::sa
+::sa TH
 Work out $9-6$.
 ::key 3
 $6+3=9$, so $9-6=3$.
 
-::sa
+::sa TH
 Which number goes in the box in $\square-4=5$?
 ::key 9
 $4+5=9$, so $9-4=5$.

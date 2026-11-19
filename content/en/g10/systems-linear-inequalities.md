@@ -414,7 +414,7 @@ $$\begin{aligned} A&:\ 2\le 4,\ 0\ge 0 &&\Rightarrow A\in D_1\cap D_2,\\ B&:\ 3\
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of these is a system of linear inequalities in two variables?
 A. $\begin{cases} x+y\ge 1\\ x^2-y<2 \end{cases}$
 B. $\begin{cases} 2x-y\le 3\\ x+5y>0 \end{cases}$
@@ -423,7 +423,7 @@ D. $\begin{cases} x+y=2\\ x-y>1 \end{cases}$
 ::key B
 Both inequalities in B have the form $ax+by<c$ (or $\le$, $>$, $\ge$). Option A contains $x^2$, C contains the product $xy$, and D contains an equation, not an inequality.
 
-::mc
+::mc TH
 Which pair is a solution of the system $\begin{cases} x+y\le 3\\ 2x-y>0 \end{cases}$?
 A. $(1, 1)$.
 B. $(0, 0)$.
@@ -432,7 +432,7 @@ D. $(1, 2)$.
 ::key A
 $(1, 1)$: $2\le 3$ and $1>0$, both true. $(0, 0)$ and $(1, 2)$ give $2x-y=0$, which fails the strict sign "$>$"; $(2, 2)$ gives $x+y=4>3$.
 
-::mc
+::mc VD
 The solution region of the system $x\ge 0$, $y\ge 0$, $x+y\le 5$, $x\le 3$ is a quadrilateral. Which point is **not** a vertex of it?
 A. $(3, 2)$.
 B. $(0, 5)$.
@@ -441,7 +441,7 @@ D. $(3, 0)$.
 ::key C
 $(5, 0)$ is where $x+y=5$ meets the $x$-axis, but $5\le 3$ is false, so this point lies outside the region. The vertices are $(0, 0)$, $(3, 0)$, $(3, 2)$, $(0, 5)$.
 
-::mc
+::mc TH
 The solution region of the system $x\ge 0$, $y\ge 0$, $2x+y\le 8$, $x+3y\le 9$ is the quadrilateral with vertices $(0, 0)$, $(4, 0)$, $(3, 2)$, $(0, 3)$. The maximum of $F=x+2y$ over this region is
 A. $6$.
 B. $7$.
@@ -450,7 +450,7 @@ D. $4$.
 ::key B
 At the four vertices $F$ equals $0$, $4$, $7$, $6$; the largest is $7$, at $(3, 2)$. The value $16$ is $F(0, 8)$, but $(0, 8)$, where $2x+y=8$ meets the $y$-axis, does not satisfy $x+3y\le 9$.
 
-::tf
+::tf TH TH VD VD
 Let $D$ be the solution region of the system $\begin{cases} x\ge 0,\ y\ge 0\\ x+y\le 4\\ y\le x+2 \end{cases}$
 a) The pair $(2, 1)$ is a solution of the system.
 b) The point $(1, 3)$ is a vertex of $D$.
@@ -459,12 +459,12 @@ d) The minimum of $y-x$ over $D$ is $-4$.
 ::key T T F T
 The vertices of $D$ are $(0, 0)$, $(4, 0)$, $(1, 3)$, $(0, 2)$. a) True: $3\le 4$ and $1\le 4$. b) True: solving $x+y=4$, $y=x+2$ gives $x=1$, $y=3$. c) False: $x+2y$ at the vertices is $0, 4, 7, 4$, so the maximum is $7$. d) True: $y-x$ at the vertices is $0, -4, 2, 2$.
 
-::sa
+::sa VD
 How many pairs of integers $(x, y)$ satisfy the system $x\ge 0$, $y\ge 0$, $x+y\le 3$?
 ::key 10
 For $x=0, 1, 2, 3$ the number of possible values of $y$ is $4, 3, 2, 1$. In total $4+3+2+1=10$ pairs.
 
-::sa
+::sa VDC
 A bakery makes $x$ batches of bread and $y$ batches of cake a day. A batch of bread needs $3$ kg of flour and $1$ hour of oven time; a batch of cake needs $2$ kg of flour and $2$ hours of oven time. Each day the bakery has $18$ kg of flour and $10$ hours of oven time. Each batch of bread makes a profit of $500$ thousand dong and each batch of cake $400$ thousand dong. What is the largest profit in one day, in thousand dong?
 ::key 3200
 The system is $3x+2y\le 18$, $x+2y\le 10$, $x, y\ge 0$, with vertices $(0, 0)$, $(6, 0)$, $(4, 3)$, $(0, 5)$. The profit $F=500x+400y$ at the vertices is $0$, $3000$, $3200$, $2000$; the largest is $3200$ thousand dong ($4$ batches of bread and $3$ of cake).

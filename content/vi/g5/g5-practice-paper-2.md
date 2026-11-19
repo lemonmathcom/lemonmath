@@ -265,7 +265,7 @@ c) Số tiền còn lại là $53-21{,}2=31{,}8$ (triệu đồng).
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $3{,}6\times2{,}5$ là
 A. $90$.
 B. $6{,}1$.
@@ -274,7 +274,7 @@ D. $9$.
 ::key D
 $36\times25=900$ và tích có hai chữ số thập phân, nên $3{,}6\times2{,}5=9$. Phương án A quên dấu phẩy, C đặt dấu phẩy sai, B là phép cộng.
 
-::mc
+::mc NB
 Thể tích hình lập phương có cạnh $5$ dm là
 A. $125\ \text{dm}^3$.
 B. $25\ \text{dm}^3$.
@@ -283,7 +283,7 @@ D. $15\ \text{dm}^3$.
 ::key A
 $5\times5\times5=125\ (\text{dm}^3)$. Phương án D là $5\times3$, B là $5\times5$, C ghi sai đơn vị.
 
-::mc
+::mc VD
 Một xe máy đi với vận tốc $54$ km/giờ trong $2$ giờ $20$ phút. Quãng đường xe đi được là
 A. $124{,}2$ km.
 B. $126$ km.
@@ -292,7 +292,7 @@ D. $118{,}8$ km.
 ::key B
 $2$ giờ $20$ phút $=\dfrac73$ giờ nên $s=54\times\dfrac73=126$ km. Phương án A coi $20$ phút là $0{,}3$ giờ, C bỏ $20$ phút, D coi $2$ giờ $20$ phút là $2{,}2$ giờ.
 
-::mc
+::mc TH
 $25\%$ của $80$ là
 A. $25$.
 B. $320$.
@@ -301,7 +301,7 @@ D. $2000$.
 ::key C
 $80:100\times25=20$. Phương án A lấy số phần trăm, B là $80:0{,}25$, D nhân $80\times25$ mà không chia $100$.
 
-::tf
+::tf TH TH VD VD
 Tung một đồng xu $80$ lần, được $36$ lần mặt sấp.
 a) Tỉ số phần trăm số lần xuất hiện mặt sấp là $45\%$.
 b) Mặt ngửa xuất hiện $44$ lần.
@@ -310,12 +310,12 @@ d) Tỉ số của mặt sấp lớn hơn tỉ số của mặt ngửa.
 ::key Đ Đ Đ S
 a) Đúng: $36:80=0{,}45$. b) Đúng: $80-36=44$. c) Đúng: $44:80=0{,}55$. d) Sai: $45\%<55\%$.
 
-::sa
+::sa TH
 Hình thang có hai đáy $24$ m và $16$ m, chiều cao $8$ m. Diện tích hình thang là bao nhiêu mét vuông?
 ::key 160
 $(24+16)\times8:2=160$.
 
-::sa
+::sa TH
 Mua $6$ quyển vở giống nhau hết $72\,000$ đồng. Giá một quyển vở là bao nhiêu nghìn đồng?
 ::key 12
 $72\,000:6=12\,000$ đồng $=12$ nghìn đồng.

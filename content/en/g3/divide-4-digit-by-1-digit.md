@@ -340,7 +340,7 @@ $$4\,344+5=4\,349.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $7\,248\div6$ equals
 A. $128$.
 B. $1\,280$.
@@ -349,7 +349,7 @@ D. $1\,208$.
 ::key D
 $7\div6=1$ (remainder $1$); $12\div6=2$; $4\div6=0$ (remainder $4$), write $0$; $48\div6=8$. Option A leaves out the $0$, option B puts the $0$ in the wrong place, and option C is the multiplication.
 
-::mc
+::mc TH
 $5\,000\div8$ equals
 A. $625$.
 B. $600$ (remainder $200$).
@@ -358,7 +358,7 @@ D. $62$.
 ::key A
 $50\div8=6$ (remainder $2$); $20\div8=2$ (remainder $4$); $40\div8=5$. Option B has a remainder larger than the divisor, option C has an extra $0$, and option D is missing a digit.
 
-::mc
+::mc TH
 $3\,150$ eggs are shared equally into $9$ trays. Each tray gets
 A. $35$ eggs.
 B. $350$ eggs.
@@ -367,7 +367,7 @@ D. $305$ eggs.
 ::key B
 $31\div9=3$ (remainder $4$); $45\div9=5$; $0\div9=0$. So each tray gets $350$ eggs. Option A leaves out the last $0$, option D puts the $0$ in the wrong place, and option C is the multiplication.
 
-::mc
+::mc VD
 $9\,407\div5$ equals
 A. $1\,880$ (remainder $7$).
 B. $1\,881$.
@@ -376,7 +376,7 @@ D. $1\,882$.
 ::key C
 $9\,407\div5=1\,881$ (remainder $2$), because $1\,881\times5=9\,405$ and $9\,405+2=9\,407$. Option A has a remainder larger than the divisor, option B leaves out the remainder, and option D rounds up.
 
-::tf
+::tf TH TH TH TH
 Look at the division $7\,305\div5$.
 a) The quotient has four digits.
 b) $7\,305\div5=1\,416$.
@@ -385,12 +385,12 @@ d) $1\,461\times5=7\,305$.
 ::key T F F T
 a) True: $7\,305\div5=1\,461$, which has four digits. b) False: $1\,416\times5=7\,080$, which is not $7\,305$. c) False: the final remainder is $0$, so the division is exact. d) True: $1\,461\times5=7\,305$.
 
-::sa
+::sa TH
 Work out $8\,096\div8$.
 ::key 1012
 $8\div8=1$; $0\div8=0$, write $0$; $9\div8=1$ (remainder $1$); $16\div8=2$. So $8\,096\div8=1\,012$.
 
-::sa
+::sa VD
 Find the remainder of the division $6\,500\div7$.
 ::key 4
 $6\,500\div7=928$ (remainder $4$), because $928\times7=6\,496$ and $6\,500-6\,496=4$.

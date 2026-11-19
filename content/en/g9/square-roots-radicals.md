@@ -460,7 +460,7 @@ So $x=3$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The principal square root of $49$ is
 A. $24.5$.
 B. $-7$.
@@ -469,7 +469,7 @@ D. $7$.
 ::key D
 We have $7\ge0$ and $7^2=49$, so the principal square root of $49$ is $7$. Option C lists the square roots of $49$, and A divides $49$ by $2$.
 
-::mc
+::mc TH
 $\sqrt{(-8)^2}$ equals
 A. $-8$.
 B. $8$.
@@ -478,7 +478,7 @@ D. $\pm8$.
 ::key B
 We have $\sqrt{(-8)^2}=|-8|=8$. Option A forgets the absolute value, and C forgets to take the root.
 
-::mc
+::mc TH
 The expression $\sqrt{6-3x}$ is defined when
 A. $x\le2$.
 B. $x\ge-2$.
@@ -487,7 +487,7 @@ D. $x\le-2$.
 ::key A
 The expression is defined when $6-3x\ge0\iff -3x\ge-6\iff x\le2$ (dividing both sides by $-3$ reverses the sign). Option C forgets to reverse it.
 
-::mc
+::mc TH
 $\sqrt{\left(\sqrt5-3\right)^2}$ equals
 A. $\sqrt5-3$.
 B. $14-6\sqrt5$.
@@ -496,7 +496,7 @@ D. $3+\sqrt5$.
 ::key C
 Since $\sqrt5<\sqrt9=3$, $\sqrt5-3<0$. Hence $\sqrt{\left(\sqrt5-3\right)^2}=\left|\sqrt5-3\right|=3-\sqrt5$. Option A ignores the sign, and B squares instead of taking the root.
 
-::tf
+::tf TH NB TH TH
 Consider the expression $A=\sqrt{2x+10}$. Decide whether each statement is true or false.
 a) $A$ is defined when $x\ge-5$.
 b) When $x=3$, $A=4$.
@@ -505,12 +505,12 @@ d) $A=0$ when $x=5$.
 ::key T T F F
 a) True. $A$ is defined when $2x+10\ge0\iff x\ge-5$. b) True. When $x=3$, $A=\sqrt{16}=4$. c) False. When $x=-3$, $A=\sqrt4=2$ (a principal square root is non-negative). d) False. We have $A=0\iff 2x+10=0\iff x=-5$.
 
-::sa
+::sa TH
 Evaluate $\sqrt{0.81}+\sqrt{(-1.2)^2}$.
 ::key 2.1
 We have $\sqrt{0.81}=0.9$ and $\sqrt{(-1.2)^2}=|-1.2|=1.2$. Hence the sum is $0.9+1.2=2.1$.
 
-::sa
+::sa TH
 The time $t$ (seconds) for an object falling freely from a height of $h$ metres to hit the ground is given by $t=\sqrt{\dfrac{h}{5}}$. An object falls freely from a height of $61.25$ m. After how many seconds does it hit the ground?
 ::key 3.5
 Substituting $h=61.25$ into the formula, we get $t=\sqrt{\dfrac{61.25}{5}}=\sqrt{12.25}=3.5$ (seconds).

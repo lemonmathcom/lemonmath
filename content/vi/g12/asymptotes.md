@@ -412,7 +412,7 @@ Vậy đồ thị có hai tiệm cận xiên.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tiệm cận đứng của đồ thị hàm số $y=\dfrac{3x-1}{x-2}$ là đường thẳng
 A. $x=-2$.
 B. $x=2$.
@@ -421,7 +421,7 @@ D. $x=\dfrac13$.
 ::key B
 Mẫu bằng $0$ tại $x=2$, tử tại đó bằng $5\neq0$ nên $\lim\limits_{x\to2^+}y=+\infty$. Do đó tiệm cận đứng là $x=2$. Phương án C là tiệm cận ngang, phương án D là nghiệm của tử.
 
-::mc
+::mc TH
 Tiệm cận ngang của đồ thị hàm số $y=\dfrac{1+6x}{3-2x}$ là đường thẳng
 A. $x=\dfrac32$.
 B. $y=3$.
@@ -430,7 +430,7 @@ D. $y=-3$.
 ::key D
 Ta có $\lim\limits_{x\to\pm\infty}\dfrac{6x+1}{-2x+3}=\dfrac{6}{-2}=-3$. Phương án B quên dấu của hệ số $-2$, phương án C lấy tỉ số hai hệ số tự do.
 
-::mc
+::mc TH
 Tiệm cận xiên của đồ thị hàm số $y=\dfrac{x^2+3x-2}{x+1}$ là đường thẳng
 A. $y=x+2$.
 B. $y=x+3$.
@@ -439,7 +439,7 @@ D. $y=x$.
 ::key A
 Ta có $x^2+3x-2=(x+1)(x+2)-4$ nên $y=x+2-\dfrac{4}{x+1}$ và $y-(x+2)\to0$ khi $x\to\pm\infty$.
 
-::mc
+::mc TH
 Cho hàm số $y=f(x)$ có $\lim\limits_{x\to+\infty}f(x)=2$ và $\lim\limits_{x\to-\infty}f(x)=-2$. Khẳng định nào dưới đây đúng?
 A. Đồ thị hàm số có đúng một tiệm cận ngang.
 B. Đồ thị hàm số có hai tiệm cận đứng là $x=2$ và $x=-2$.
@@ -448,7 +448,7 @@ D. Đồ thị hàm số không có tiệm cận ngang.
 ::key C
 Mỗi giới hạn hữu hạn tại $+\infty$ hoặc $-\infty$ cho một tiệm cận ngang. Vì hai giới hạn khác nhau nên đồ thị có hai tiệm cận ngang. Tiệm cận đứng có dạng $x=x_0$ và cần giới hạn vô cực, nên B sai.
 
-::tf
+::tf TH TH TH VD
 Cho hàm số $y=\dfrac{2x^2-3x+1}{x-2}$. Xét tính đúng sai của các mệnh đề sau:
 a) Đường thẳng $x=2$ là tiệm cận đứng của đồ thị hàm số.
 b) Đường thẳng $y=2$ là tiệm cận ngang của đồ thị hàm số.
@@ -457,12 +457,12 @@ d) Tiệm cận xiên của đồ thị cắt hai trục toạ độ tạo thàn
 ::key Đ S Đ Đ
 a) Đúng: mẫu bằng $0$ và tử bằng $3\neq0$ tại $x=2$. b) Sai: vì $y\to\pm\infty$ khi $x\to\pm\infty$ nên đồ thị không có tiệm cận ngang. c) Đúng: ta có $2x^2-3x+1=(x-2)(2x+1)+3$. d) Đúng: đường thẳng $y=2x+1$ cắt hai trục tại $\left(-\dfrac12; 0\right)$ và $(0; 1)$, do đó diện tích tam giác là $\dfrac12\cdot\dfrac12\cdot1=\dfrac14$.
 
-::sa
+::sa VDC
 Đồ thị hàm số $y=\dfrac{\sqrt{x+3}-2}{x^2-1}$ có tất cả bao nhiêu đường tiệm cận đứng và tiệm cận ngang?
 ::key 2
 Tại $x=1$ tử cũng bằng $0$ và $y=\dfrac{1}{(x+1)(\sqrt{x+3}+2)}\to\dfrac18$ (hữu hạn) nên $x=1$ không phải tiệm cận. Đồ thị có tiệm cận đứng $x=-1$ và tiệm cận ngang $y=0$ (vì $\lim\limits_{x\to+\infty}y=0$). Vậy có $2$ đường.
 
-::sa
+::sa TH
 Nồng độ một chất trong bể nước sau $t$ phút là $C(t)=\dfrac{25t}{3t+8}$ (mg/l). Đồ thị của $C(t)$ có tiệm cận ngang $C=c$. Tìm $c$ (làm tròn kết quả đến hàng phần mười).
 ::key 8,3
 Ta có $\lim\limits_{t\to+\infty}\dfrac{25t}{3t+8}=\dfrac{25}{3}\approx8{,}33$. Vậy $c\approx8{,}3$: theo thời gian, nồng độ tiến gần $8{,}3$ mg/l.

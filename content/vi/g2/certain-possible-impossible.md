@@ -276,7 +276,7 @@ $$1+1=2\ \text{(viên)}.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hộp có $3$ viên bi đỏ và $2$ viên bi xanh. Em lấy ra $1$ viên bi. Câu nào dưới đây đúng?
 A. Có thể lấy được bi đỏ.
 B. Không thể lấy được bi xanh.
@@ -285,7 +285,7 @@ D. Chắc chắn lấy được bi đỏ.
 ::key A
 Hộp có bi đỏ nhưng cũng có bi xanh, nên lấy được bi đỏ là có thể.
 
-::mc
+::mc NB
 Hộp có $6$ viên bi vàng. Em lấy ra $1$ viên bi. Câu nào dưới đây đúng?
 A. Có thể lấy được bi đỏ.
 B. Chắc chắn lấy được bi vàng.
@@ -294,7 +294,7 @@ D. Có thể lấy được bi xanh.
 ::key B
 Hộp chỉ có bi vàng nên lần nào cũng lấy được bi vàng.
 
-::mc
+::mc NB
 Hộp có $4$ viên bi đỏ và $2$ viên bi xanh. Em lấy ra $1$ viên bi. Sự kiện nào dưới đây là không thể?
 A. Lấy được bi xanh.
 B. Lấy được bi đỏ.
@@ -303,7 +303,7 @@ D. Lấy được bi đỏ hoặc bi xanh.
 ::key C
 Hộp không có bi vàng nên không bao giờ lấy được bi vàng.
 
-::mc
+::mc TH
 Hộp có $4$ viên bi đỏ và $2$ viên bi xanh. Em lấy ra $1$ viên bi. Sự kiện nào dưới đây là chắc chắn?
 A. Lấy được bi đỏ.
 B. Lấy được bi xanh.
@@ -312,7 +312,7 @@ D. Lấy được bi đỏ hoặc bi xanh.
 ::key D
 Mọi viên bi đều là đỏ hoặc xanh nên sự kiện C lần nào cũng xảy ra.
 
-::tf
+::tf TH NB NB TH
 Một vòng quay chia thành $6$ phần bằng nhau: $4$ phần đỏ và $2$ phần xanh. Em quay và kim dừng lại ở một phần.
 a) Kim dừng ở màu đỏ là chắc chắn.
 b) Kim dừng ở màu xanh là có thể.
@@ -321,12 +321,12 @@ d) Kim dừng ở màu đỏ dễ xảy ra hơn ở màu xanh.
 ::key S Đ Đ Đ
 a) Sai: vòng quay còn có phần xanh, nên chỉ là có thể. b) Đúng: có $2$ phần xanh. c) Đúng: không có phần vàng. d) Đúng: $4>2$.
 
-::sa
+::sa TH
 Hộp có $7$ viên bi đỏ và $5$ viên bi xanh. Hộp có tất cả bao nhiêu viên bi?
 ::key 12
 $7+5=12$ (viên).
 
-::sa
+::sa TH
 Hộp có $9$ viên bi đỏ và $4$ viên bi xanh. Số bi đỏ nhiều hơn số bi xanh bao nhiêu viên?
 ::key 5
 $9-4=5$ (viên).

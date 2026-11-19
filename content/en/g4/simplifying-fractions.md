@@ -354,7 +354,7 @@ Since $10\times k=50$, $k=5$. The fraction is $\dfrac{3\times5}{7\times5}=\dfrac
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Simplifying $\dfrac{18}{24}$ to its simplest form gives
 A. $\dfrac{3}{4}$.
 B. $\dfrac{6}{8}$.
@@ -363,7 +363,7 @@ D. $\dfrac{2}{3}$.
 ::key A
 $\dfrac{18}{24}=\dfrac{18\div6}{24\div6}=\dfrac{3}{4}$. Options C and B can still be simplified; option D is not equal to $\dfrac{18}{24}$.
 
-::mc
+::mc NB
 Which of these fractions is in its simplest form?
 A. $\dfrac{6}{9}$.
 B. $\dfrac{7}{15}$.
@@ -372,7 +372,7 @@ D. $\dfrac{10}{15}$.
 ::key B
 $7$ and $15$ have no common divisor greater than $1$. The other three can all be simplified (by $3$, $5$ and $6$).
 
-::mc
+::mc TH
 Writing $\dfrac{2}{3}$ and $\dfrac{3}{5}$ over a common denominator gives
 A. $\dfrac{2}{15}$ and $\dfrac{3}{15}$.
 B. $\dfrac{6}{15}$ and $\dfrac{15}{15}$.
@@ -381,7 +381,7 @@ D. $\dfrac{10}{8}$ and $\dfrac{9}{8}$.
 ::key C
 $\dfrac{2}{3}=\dfrac{2\times5}{3\times5}=\dfrac{10}{15}$ and $\dfrac{3}{5}=\dfrac{3\times3}{5\times3}=\dfrac{9}{15}$. Option A multiplies only the denominators.
 
-::mc
+::mc TH
 Which fraction is equal to $\dfrac{3}{5}$?
 A. $\dfrac{5}{3}$.
 B. $\dfrac{4}{6}$.
@@ -390,7 +390,7 @@ D. $\dfrac{12}{20}$.
 ::key D
 $\dfrac{3}{5}=\dfrac{3\times4}{5\times4}=\dfrac{12}{20}$. Option B adds $1$ to both the numerator and denominator, which is wrong.
 
-::tf
+::tf TH TH TH NB
 Look at the fraction $\dfrac{4}{6}$.
 a) $\dfrac{4}{6}=\dfrac{2}{3}$.
 b) $\dfrac{4}{6}$ is in its simplest form.
@@ -399,12 +399,12 @@ d) Dividing the numerator and denominator of $\dfrac{4}{6}$ by $2$ gives $\dfrac
 ::key T F T T
 a) True: divide both by $2$. b) False: $4$ and $6$ are both divisible by $2$. c) True: multiply both by $2$. d) True: $4\div2=2$ and $6\div2=3$.
 
-::sa
+::sa TH
 Find $x$ if $\dfrac{3}{5}=\dfrac{x}{20}$.
 ::key 12
 Since $20=5\times4$, $x=3\times4=12$.
 
-::sa
+::sa VD
 Simplify $\dfrac{24}{36}$ to its simplest form, then work out the sum of the numerator and denominator of that fraction.
 ::key 5
 $\dfrac{24}{36}=\dfrac{2}{3}$ and $2+3=5$.

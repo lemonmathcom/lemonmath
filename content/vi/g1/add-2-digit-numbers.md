@@ -260,7 +260,7 @@ Hàng đơn vị: $4+1=5$. Số cần tìm là $34$, và chữ số cần điề
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $23+34$ là
 A. $7$.
 B. $75$.
@@ -269,7 +269,7 @@ D. $57$.
 ::key D
 $3+4=7$ và $2+3=5$, nên $23+34=57$. Phương án B là lỗi đảo chục và đơn vị, C là lỗi chỉ cộng $4$, A là lỗi quên hàng chục.
 
-::mc
+::mc TH
 Kết quả của $40+25$ là
 A. $65$.
 B. $45$.
@@ -278,7 +278,7 @@ D. $15$.
 ::key A
 $0+5=5$ và $4+2=6$, nên $40+25=65$. Phương án B là lỗi quên $2$ chục của $25$.
 
-::mc
+::mc TH
 Phép tính nào có kết quả bằng $79$?
 A. $44+34$.
 B. $45+34$.
@@ -287,7 +287,7 @@ D. $45+43$.
 ::key B
 $45+34=79$. Các phép tính khác lần lượt bằng $78$, $80$, $88$.
 
-::mc
+::mc TH
 Mai có $32$ hạt cườm đỏ và $45$ hạt cườm xanh. Hỏi Mai có tất cả bao nhiêu hạt cườm?
 A. $67$ hạt.
 B. $13$ hạt.
@@ -296,7 +296,7 @@ D. $7$ hạt.
 ::key C
 "Tất cả" là gộp lại: $32+45=77$. Phương án B là lấy $45-32$, nhầm sang phép trừ.
 
-::tf
+::tf TH TH TH TH
 Em xét phép cộng $51+27$.
 a) Hàng chục: $5+2=7$.
 b) Hàng đơn vị: $1+7=8$.
@@ -305,12 +305,12 @@ d) $51+27$ lớn hơn $80$.
 ::key Đ Đ S S
 a) Đúng: $5+2=7$. b) Đúng: $1+7=8$. c) Sai: $7$ chục và $8$ đơn vị là $78$. d) Sai: $78<80$.
 
-::sa
+::sa TH
 Tính $34+25$.
 ::key 59
 $4+5=9$ và $3+2=5$, nên $34+25=59$.
 
-::sa
+::sa VD
 Hộp có $43$ cái bút, bố mua thêm $36$ cái bút. Hộp có tất cả bao nhiêu cái bút?
 ::key 79
 $43+36=79$ (cái bút).

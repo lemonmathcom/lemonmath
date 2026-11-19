@@ -324,7 +324,7 @@ $$20:2=10.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $14:2$ là
 A. $12$.
 B. $7$.
@@ -333,7 +333,7 @@ D. $28$.
 ::key B
 $2\times7=14$ nên $14:2=7$. Phương án A là phép trừ, phương án C là phép cộng, phương án D là phép nhân.
 
-::mc
+::mc NB
 Kết quả của $35:5$ là
 A. $30$.
 B. $40$.
@@ -342,7 +342,7 @@ D. $6$.
 ::key C
 $5\times7=35$ nên $35:5=7$. Phương án D lấy nhầm $5\times6=30$.
 
-::mc
+::mc TH
 Có 18 bạn chia thành các đội, mỗi đội 2 bạn. Số đội là
 A. $16$ đội.
 B. $20$ đội.
@@ -351,7 +351,7 @@ D. $9$ đội.
 ::key D
 $2\times9=18$ nên $18:2=9$. Phương án A là phép trừ, phương án B là phép cộng, phương án C là phép nhân.
 
-::mc
+::mc TH
 Kim dài của đồng hồ đã qua 20 phút. Kim dài chỉ số
 A. $4$.
 B. $5$.
@@ -360,7 +360,7 @@ D. $20$.
 ::key A
 $20:5=4$ nên kim dài chỉ số 4. Phương án D chép lại số phút.
 
-::tf
+::tf NB NB NB NB
 Em xét bảng chia 2 và bảng chia 5.
 a) $8:2=3$.
 b) $30:5=5$.
@@ -369,12 +369,12 @@ d) $45:5=8$.
 ::key S S Đ S
 a) Sai: $8:2=4$. b) Sai: $30:5=6$. c) Đúng: $2\times10=20$. d) Sai: $45:5=9$.
 
-::sa
+::sa NB
 Tính $18:2$.
 ::key 9
 $2\times9=18$ nên $18:2=9$.
 
-::sa
+::sa VD
 Có 30 quyển vở chia đều cho 5 bạn. Mỗi bạn được bao nhiêu quyển vở?
 ::key 6
 $5\times6=30$ nên $30:5=6$ (quyển).

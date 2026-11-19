@@ -393,7 +393,7 @@ So $x=16$, $y=24$, $z=30$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of the following equations is a proportion?
 A. $\dfrac25=\dfrac49$.
 B. $\dfrac12=\dfrac35$.
@@ -402,7 +402,7 @@ D. $\dfrac56=\dfrac{10}{13}$.
 ::key C
 $3\cdot12=36=4\cdot9$, so B is correct. In A, B and D the cross-products are not equal ($18\neq20$; $5\neq6$; $65\neq60$).
 
-::mc
+::mc TH
 Find $x$, given that $\dfrac6x=\dfrac9{15}$.
 A. $3.6$.
 B. $22.5$.
@@ -411,7 +411,7 @@ D. $10$.
 ::key D
 $9x=6\cdot15=90$, so $x=10$. A comes from cross-multiplying the wrong terms ($6\cdot9\div15$), B is $15\cdot9\div6$, and C takes the wrong numerator.
 
-::mc
+::mc VD
 Given $\dfrac x3=\dfrac y7$ and $x+y=40$, the value of $x$ is
 A. $12$.
 B. $28$.
@@ -420,7 +420,7 @@ D. $10$.
 ::key A
 $\dfrac x3=\dfrac y7=\dfrac{40}{10}=4$, so $x=12$. B is the value of $y$, C is the common ratio $4$, and D is the sum $3+7$.
 
-::mc
+::mc VD
 Given $\dfrac a2=\dfrac b3=\dfrac c4$ and $a+b+c=36$, the value of $c$ is
 A. $8$.
 B. $16$.
@@ -429,7 +429,7 @@ D. $4$.
 ::key B
 $\dfrac a2=\dfrac b3=\dfrac c4=\dfrac{36}9=4$, so $c=16$. A and C are the values of $a$ and $b$; D is the common ratio $4$.
 
-::tf
+::tf TH TH VD VD
 Given $\dfrac x4=\dfrac y9$ and $y-x=15$. Decide whether each statement is true or false.
 a) We have $\dfrac x4=\dfrac y9=\dfrac{y-x}{4-9}$.
 b) We have $\dfrac x4=\dfrac y9=\dfrac{y-x}{9-4}=3$.
@@ -438,12 +438,12 @@ d) $y=24$.
 ::key F T T F
 a) False: if the numerator is $y-x$ then the denominator must be $9-4$. b) True: $\dfrac{15}5=3$. c) True: $x=4\cdot3=12$. d) False: $y=9\cdot3=27$.
 
-::sa
+::sa VD
 Given $\dfrac x5=\dfrac y3$ and $x+y=24$, find $x$.
 ::key 15
 $\dfrac x5=\dfrac y3=\dfrac{24}8=3$, so $x=5\cdot3=15$.
 
-::sa
+::sa VD
 Find $x$, given that $\dfrac{0.6}x=\dfrac{1.2}5$ (give your answer as a decimal).
 ::key 2.5
 $1.2x=0.6\cdot5=3$, so $x=3\div1.2=2.5$.

@@ -264,7 +264,7 @@ Số $0$ đứng cạnh thước kẻ, nên hộp không có thước kẻ.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Có bốn quả bóng. Em viết số nào?
 A. $3$.
 B. $4$.
@@ -273,7 +273,7 @@ D. $0$.
 ::key B
 Bốn viết là $4$. Phương án A là lỗi đếm sót một quả.
 
-::mc
+::mc NB
 Trong lọ không có bông hoa nào. Số bông hoa là
 A. $0$.
 B. $1$.
@@ -282,7 +282,7 @@ D. $4$.
 ::key A
 Không có gì thì viết $0$. Phương án B nhầm với một bông hoa.
 
-::mc
+::mc NB
 Điền số vào dãy $0, 1, 2, \square, 4, 5$.
 A. $1$.
 B. $2$.
@@ -291,7 +291,7 @@ D. $5$.
 ::key C
 Sau $2$ là $3$, rồi đến $4$. Phương án B lặp lại số $2$.
 
-::mc
+::mc NB
 Khi đếm, số nào đứng ngay sau số $4$?
 A. $3$.
 B. $4$.
@@ -300,7 +300,7 @@ D. $0$.
 ::key C
 Đếm thêm một sau bốn là năm, viết $5$. Phương án A là số đứng trước.
 
-::tf
+::tf NB NB TH TH
 Em xét các số $0, 1, 2, 3, 4, 5$.
 a) Số $3$ đọc là "ba".
 b) Cành không có con chim nào thì số chim là $0$.
@@ -309,12 +309,12 @@ d) Dãy $0, 1, 2, 3, 4, 5$ có sáu số.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng: không có gì thì viết $0$. c) Sai: khi đếm thì $4$ đứng trước $5$. d) Đúng: không, một, hai, ba, bốn, năm là sáu số.
 
-::sa
+::sa TH
 Đếm ngược: $5, 4, 3, \square, 1$. Số cần điền là số nào?
 ::key 2
 Sau $3$ là $2$, rồi đến $1$.
 
-::sa
+::sa NB
 Số đứng ngay sau số $3$ là số nào?
 ::key 4
 Đếm: ba, bốn. Số đứng ngay sau $3$ là $4$.

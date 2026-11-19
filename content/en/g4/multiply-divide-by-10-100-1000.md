@@ -331,7 +331,7 @@ The number multiplied by $100$ gives $35\,000$, so the number is $35\,000\div100
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $207\times100$ equals
 A. $2\,070$.
 B. $207\,100$.
@@ -340,7 +340,7 @@ D. $2\,700$.
 ::key C
 Multiplying by $100$ adds two zeros: $207\times100=20\,700$. Option A adds only one zero.
 
-::mc
+::mc NB
 $12\,000\div100$ equals
 A. $12$.
 B. $1\,200$.
@@ -349,7 +349,7 @@ D. $120$.
 ::key D
 Dividing by $100$ removes two zeros: $12\,000\div100=120$. Option A removes three zeros and option B removes only one.
 
-::mc
+::mc NB
 The number that completes $3$ tonnes $=\ldots$ kg is
 A. $3\,000$.
 B. $300$.
@@ -358,7 +358,7 @@ D. $30\,000$.
 ::key A
 $1$ tonne $=1\,000$ kg, so $3$ tonnes $=3\times1\,000=3\,000$ kg.
 
-::mc
+::mc TH
 $45\times30$ equals
 A. $135$.
 B. $1\,350$.
@@ -367,7 +367,7 @@ D. $13\,500$.
 ::key B
 $45\times30=(45\times3)\times10=135\times10=1\,350$. Option A forgets to multiply by $10$ and option C is an addition.
 
-::tf
+::tf NB TH NB TH
 Look at these calculations.
 a) $8\times1\,000=8\,000$.
 b) $4\,000\div100=4$.
@@ -376,12 +376,12 @@ d) $7\,200\div400=18$.
 ::key T F F T
 a) True: add three zeros. b) False: removing two zeros gives $40$. c) False: $2$ tonnes $=2\,000$ kg. d) True: $72\div4=18$.
 
-::sa
+::sa TH
 Work out $6\,500\div100$.
 ::key 65
 Remove two zeros from the dividend: $6\,500\div100=65$.
 
-::sa
+::sa VD
 A rope $8$ m long is cut into pieces, each $10$ cm long. How many pieces can be cut?
 ::key 80
 $8$ m $=800$ cm and $800\div10=80$ (pieces).

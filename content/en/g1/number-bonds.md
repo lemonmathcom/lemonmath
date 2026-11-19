@@ -245,7 +245,7 @@ First part $1$: counting from $1$ to $4$ gives $3$. First part $2$: gives $2$. F
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $5$ is made of $2$ and
 A. $2$.
 B. $7$.
@@ -254,7 +254,7 @@ D. $3$.
 ::key D
 Count from $2$ to $5$: "three, four, five", which is $3$ numbers. Option B joins the two numbers instead of finding the missing part.
 
-::mc
+::mc NB
 $6$ is made of $4$ and
 A. $2$.
 B. $1$.
@@ -263,7 +263,7 @@ D. $10$.
 ::key A
 From $4$ to $6$ is $2$ numbers. Option B misses one number.
 
-::mc
+::mc TH
 Which split is right for the number $7$?
 A. $5$ and $3$.
 B. $3$ and $4$.
@@ -272,7 +272,7 @@ D. $4$ and $4$.
 ::key B
 Only $3$ and $4$ make $7$. Options A, C and D all make $8$.
 
-::mc
+::mc NB
 $8$ is made of $5$ and
 A. $2$.
 B. $4$.
@@ -281,7 +281,7 @@ D. $13$.
 ::key C
 From $5$ to $8$ is $3$ numbers. Option A misses one number.
 
-::tf
+::tf NB NB TH TH
 Look at the number $6$.
 a) $6$ is made of $1$ and $5$.
 b) $6$ is made of $2$ and $4$.
@@ -290,12 +290,12 @@ d) $6$ is made of $5$ and $1$.
 ::key T T F T
 a) True. b) True. c) False: $3$ and $4$ make seven. d) True: it is $1$ and $5$ swapped.
 
-::sa
+::sa TH
 $9$ is made of $4$ and what?
 ::key 5
 From $4$ to $9$: "five, six, seven, eight, nine", which is $5$ numbers.
 
-::sa
+::sa TH
 $10$ is made of $7$ and what?
 ::key 3
 From $7$ to $10$: "eight, nine, ten", which is $3$ numbers.

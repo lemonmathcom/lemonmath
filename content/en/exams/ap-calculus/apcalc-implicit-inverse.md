@@ -249,7 +249,7 @@ $h'(2)=3\cdot4=12$. Then $\dfrac{d}{dx}h(x)^2=2h(x)h'(x)$, which at $x=2$ equals
 :::
 
 :::quiz
-::mc
+::mc NB
 What is $\dfrac{d}{dx}\sin(5x)$?
 A. $\cos(5x)$
 B. $5\cos(5x)$
@@ -258,7 +258,7 @@ D. $5\sin(5x)$
 ::key B
 The chain rule: the inside derivative is $5$.
 
-::mc
+::mc TH
 What is $\dfrac{d}{dx}e^{x^2}$?
 A. $2xe^{x^2}$
 B. $e^{x^2}$
@@ -267,7 +267,7 @@ D. $e^{2x}$
 ::key A
 Outside $e^u$, inside $x^2$ with derivative $2x$.
 
-::mc
+::mc VD
 What is the slope of the curve $x^2+y^2=13$ at $(2, 3)$?
 A. $\dfrac23$
 B. $-\dfrac32$
@@ -276,7 +276,7 @@ D. $-\dfrac23$
 ::key D
 $\dfrac{dy}{dx}=-\dfrac xy=-\dfrac23$.
 
-::mc
+::mc NB
 What is $\dfrac{d}{dx}\arctan x$?
 A. $\dfrac{1}{\sqrt{1-x^2}}$
 B. $\sec^2x$
@@ -285,7 +285,7 @@ D. $-\dfrac{1}{1+x^2}$
 ::key C
 Option B is the derivative of $\tan x$; option A is that of $\arcsin x$.
 
-::tf
+::tf TH TH TH VD
 The functions $f$ and $g$ are differentiable with $g(2)=1$, $g'(2)=4$, $f(1)=3$ and $f'(1)=-2$. Let $h(x)=f\big(g(x)\big)$.
 a) $h(2)=3$.
 b) $h'(2)=-8$.
@@ -294,12 +294,12 @@ d) The tangent line to $h$ at $x=2$ is $y=3-8(x-2)$.
 ::key T T F T
 a) True: $f(g(2))=f(1)=3$. b) True: $f'(1)\cdot g'(2)=-8$. c) False: that is not the chain rule. d) True.
 
-::sa
+::sa VD
 Let $f(x)=x^3+2x$. Find $\left(f^{-1}\right)'(3)$. Give your answer as a decimal.
 ::key 0.2
 $f(1)=3$ and $f'(1)=3+2=5$, so the answer is $\dfrac15=0.2$.
 
-::sa
+::sa TH
 Find the derivative of $(2x+1)^3$ at $x=0$.
 ::key 6
 $3(2x+1)^2\cdot2=6$ at $x=0$.

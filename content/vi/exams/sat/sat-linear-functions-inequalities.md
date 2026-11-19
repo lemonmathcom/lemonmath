@@ -319,7 +319,7 @@ $(2, 3)$: $3>3$ sai. $(0, 6)$: $6\le5$ sai. $(3, 1)$: $1>5$ sai. $(1, 3)$: $3>1$
 :::
 
 :::quiz
-::mc
+::mc TH
 Hệ số góc của đường thẳng đi qua các điểm $(-1, 2)$ và $(3, 10)$ là
 A. $\dfrac12$
 B. $2$
@@ -328,7 +328,7 @@ D. $8$
 ::key B
 $\dfrac{10-2}{3-(-1)}=\dfrac84=2$. Phương án A là nghịch đảo; phương án D chỉ là độ thay đổi của $y$.
 
-::mc
+::mc TH
 Một đường thẳng vuông góc với đường thẳng $y=-4x+9$. Hệ số góc của nó là
 A. $-4$
 B. $4$
@@ -337,7 +337,7 @@ D. $-\dfrac14$
 ::key C
 Nghịch đảo đối của $-4$ là $\dfrac14$, vì $-4\cdot\dfrac14=-1$.
 
-::mc
+::mc TH
 Mệnh đề nào sau đây mô tả tất cả các nghiệm của $-2x\ge8$?
 A. $x\le-4$
 B. $x\ge-4$
@@ -346,7 +346,7 @@ D. $x\ge-16$
 ::key A
 Chia cho $-2$ thì đổi chiều: $x\le-4$.
 
-::mc
+::mc TH
 Chi phí, tính bằng đô la, để thuê một chiếc xe đạp trong $d$ ngày là $F=30+8d$. Mỗi ngày thuê thêm, chi phí tăng bao nhiêu đô la?
 A. $30$
 B. $38$
@@ -355,7 +355,7 @@ D. $8$
 ::key D
 Tốc độ thay đổi là số nhân với $d$, tức là $8$. Phương án A là phí cố định; phương án B là chi phí của một ngày.
 
-::tf
+::tf NB TH TH NB
 Hàm số $f$ được cho bởi $f(x)=-2x+6$.
 a) Đồ thị của $f$ cắt trục $y$ tại $(0, 6)$.
 b) Hoành độ giao điểm của đồ thị với trục $x$ là $3$.
@@ -364,12 +364,12 @@ d) $f(5)=-4$.
 ::key Đ Đ S Đ
 a) Đúng: $b=6$. b) Đúng: $-2x+6=0$ cho $x=3$. c) Sai: hệ số góc âm. d) Đúng: $-10+6=-4$.
 
-::sa
+::sa VD
 Hàm số $f$ là hàm bậc nhất, với $f(0)=5$ và $f(3)=17$. Giá trị của $f(6)$ bằng bao nhiêu?
 ::key 29
 Hệ số góc là $\dfrac{17-5}{3}=4$, nên $f(6)=17+3\cdot4=29$.
 
-::sa
+::sa TH
 Số nguyên $x$ nhỏ nhất thoả mãn $4x-7>21$ là số nào?
 ::key 8
 $4x>28\iff x>7$, và số nguyên nhỏ nhất lớn hơn $7$ là $8$.

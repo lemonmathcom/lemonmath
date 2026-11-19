@@ -446,7 +446,7 @@ So the equation $\cos x=x$ has a root in the interval $(0, 1)$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Which of the following functions is continuous on $\mathbb{R}$?
 A. $y=\dfrac{1}{x-1}$.
 B. $y=\dfrac{x}{x^2-4}$.
@@ -455,7 +455,7 @@ D. $y=x^3-2x+5$.
 ::key D
 A polynomial is continuous on $\mathbb{R}$. The functions in A and B are undefined at some points, and the function in D is defined only for $x\ge0$.
 
-::mc
+::mc VD
 Let $f(x)=\begin{cases}\dfrac{x^2-x-2}{x-2}&\text{if }x\neq2,\\3&\text{if }x=2.\end{cases}$ Which statement is correct?
 A. The function is continuous at $x=2$.
 B. The function is not continuous at $x=2$ because it is not defined at $2$.
@@ -464,7 +464,7 @@ D. The function is not continuous at $x=2$ because $\lim_{x\to2}f(x)$ does not e
 ::key A
 For $x\neq2$, $f(x)=\dfrac{(x-2)(x+1)}{x-2}=x+1$, so $\lim_{x\to2}f(x)=3=f(2)$. Option B forgets that $f(2)=3$, C works out the limit wrongly, and D confuses the form $\dfrac{0}{0}$ with a limit that does not exist.
 
-::mc
+::mc VD
 Which of the following equations has a root in the interval $(1, 2)$?
 A. $x^3+x-1=0$.
 B. $x^3-3x-1=0$.
@@ -473,7 +473,7 @@ D. $2x^2-5x+4=0$.
 ::key B
 For $f(x)=x^3-3x-1$ we have $f(1)=-3$ and $f(2)=1$, so $f(1)f(2)<0$. In A, D and C the values $f(1)$ and $f(2)$ have the same sign, and these equations have no root in $(1, 2)$.
 
-::mc
+::mc TH
 Let $f(x)=\begin{cases}x^2+1&\text{if }x<1,\\3&\text{if }x=1,\\2x&\text{if }x>1.\end{cases}$ Which statement is correct?
 A. The function is continuous at $x=1$ because the one-sided limits exist.
 B. The function is not continuous at $x=1$ because the left-hand limit differs from the right-hand limit.
@@ -482,7 +482,7 @@ D. The function is continuous at $x=1$ because $f(1)$ is defined.
 ::key C
 The left-hand and right-hand limits are both $2$, so $\lim_{x\to1}f(x)=2\neq f(1)=3$. Option B is wrong because the one-sided limits are equal; A and D leave out the condition $\lim f=f(x_0)$.
 
-::tf
+::tf VD TH NB NB
 Suppose a mobile phone plan charges (in thousand dong) according to the amount of data $x$ (GB) used: $C(x)=50$ if $0\le x\le5$ and $C(x)=50+20(x-5)$ if $x>5$. Decide whether each statement is true or false.
 a) The function $C$ is not continuous at $x=5$ because it is given by two formulas.
 b) $\lim_{x\to5^+}C(x)=50$.
@@ -491,12 +491,12 @@ d) $C(7)=100$.
 ::key F T T F
 a) False: $C(5)=50$, $\lim_{x\to5^-}C(x)=50$ and $\lim_{x\to5^+}C(x)=50$, so $C$ is continuous at $5$ even though it has two formulas. b) True: $50+20\cdot0=50$. c) True: $50+20\cdot3=110$. d) False: $C(7)=50+20\cdot2=90$.
 
-::sa
+::sa VD
 The equation $x^3+x-1=0$ has a root in the interval $(0, 1)$. Find this root (give your answer to 2 decimal places).
 ::key 0.68
 For $f(x)=x^3+x-1$ we have $f(0)=-1<0$ and $f(1)=1>0$, so there is a root in $(0, 1)$. Narrowing down the interval with a calculator, we get the approximate root $0.682\ldots\approx0.68$.
 
-::sa
+::sa TH
 For the tiered electricity tariff in this lesson, the bill (in thousand dong) for $x>100$ kWh is $T(x)=3x-75$. Work out the bill (in thousand dong) for $120$ kWh.
 ::key 285
 $T(120)=3\cdot120-75=285$ (thousand dong).

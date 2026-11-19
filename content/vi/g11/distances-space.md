@@ -348,7 +348,7 @@ Gọi $O$ là trung điểm $AC$, $O$ nằm trên $BD$ nên thuộc $(BDC')$. V�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Khoảng cách từ điểm $M$ đến mặt phẳng $(P)$ bằng
 A. độ dài $MN$ với $N$ là điểm bất kì của $(P)$.
 B. độ dài lớn nhất của đoạn nối $M$ với một điểm của $(P)$.
@@ -357,7 +357,7 @@ D. độ dài đoạn nối $M$ với một điểm của $(P)$ trong cùng mộ
 ::key C
 Đó là định nghĩa, và $MH$ là độ dài ngắn nhất. Phương án A và D phụ thuộc vào điểm chọn, B sai vì không có độ dài lớn nhất.
 
-::mc
+::mc VD
 Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA\perp(ABCD)$ và $SA=a$. Khoảng cách từ $A$ đến $(SBC)$ bằng
 A. $a$.
 B. $\dfrac{a\sqrt3}{3}$.
@@ -366,7 +366,7 @@ D. $\dfrac{a\sqrt2}{2}$.
 ::key D
 $AH=\dfrac{SA\cdot AB}{SB}=\dfrac{a^2}{a\sqrt2}=\dfrac{a\sqrt2}{2}$. Phương án A là $SA$, B là khoảng cách của một tứ diện vuông khác, C là đường chéo đáy.
 
-::mc
+::mc VD
 Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Khoảng cách giữa $AA'$ và mặt phẳng $(BDD'B')$ bằng
 A. $\dfrac{a\sqrt2}{2}$.
 B. $a$.
@@ -375,7 +375,7 @@ D. $a\sqrt2$.
 ::key A
 $d(AA',(BDD'B'))=d(A,(BDD'B'))=AO=\dfrac{a\sqrt2}{2}$. Phương án B là cạnh, C là nửa cạnh, D là đường chéo mặt.
 
-::mc
+::mc VD
 Cho tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc và bằng $a$. Khoảng cách từ $O$ đến $(ABC)$ bằng
 A. $\dfrac{a\sqrt2}{2}$.
 B. $\dfrac{a\sqrt3}{3}$.
@@ -384,7 +384,7 @@ D. $a$.
 ::key B
 $\dfrac1{OH^2}=\dfrac3{a^2}$ nên $OH=\dfrac{a}{\sqrt3}=\dfrac{a\sqrt3}{3}$. Phương án A là $OM$, C và D không thoả hệ thức.
 
-::tf
+::tf NB TH TH NB
 Xét tính đúng sai của các mệnh đề sau:
 a) Khoảng cách từ điểm $M$ đến đường thẳng $\Delta$ là độ dài đoạn vuông góc hạ từ $M$ xuống $\Delta$.
 b) Nếu $(P)\parallel(Q)$ thì mọi điểm của $(P)$ cách $(Q)$ một khoảng như nhau.
@@ -393,12 +393,12 @@ d) Khoảng cách giữa hai đường chéo nhau $a$, $b$ là khoảng cách gi
 ::key Đ Đ S Đ
 a) Đúng theo định nghĩa. b) Đúng theo định lí. c) Sai: $\Delta$ không có điểm chung với $(P)$ nên khoảng cách lớn hơn $0$. d) Đúng theo định nghĩa.
 
-::sa
+::sa VDC
 Giả sử một căn phòng hình hộp chữ nhật có sàn $8$ m $\times6$ m và cao $3$ m. Một ống chạy thẳng đứng dọc một góc phòng và một sợi cáp căng theo đường chéo của sàn không đi qua góc đó. Tính khoảng cách ngắn nhất giữa ống và cáp theo mét.
 ::key 4,8
 Khoảng cách bằng đường cao ứng với cạnh huyền của tam giác vuông có hai cạnh góc vuông $8$ và $6$: $\dfrac{8\cdot6}{10}=4{,}8$.
 
-::sa
+::sa VD
 Cho tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc và đều bằng $6$. Tính khoảng cách từ $O$ đến $(ABC)$, làm tròn đến hàng phần mười.
 ::key 3,5
 $d=\dfrac{6}{\sqrt3}=2\sqrt3\approx3{,}5$.

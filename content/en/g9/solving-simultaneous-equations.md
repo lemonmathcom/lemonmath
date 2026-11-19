@@ -406,7 +406,7 @@ So the system has the unique solution $(x, y)=(3, 2)$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The solution of $\begin{cases} x+y=5\\ x-y=3 \end{cases}$ is
 A. $(4, 1)$.
 B. $(1, 4)$.
@@ -415,7 +415,7 @@ D. $(8, -3)$.
 ::key A
 Adding: $2x=8$, $x=4$, $y=1$. B swaps the order; C fits only the first equation; D forgets to divide $2x=8$ by $2$ (giving $x=8$, then $y=5-8=-3$).
 
-::mc
+::mc TH
 To eliminate $y$ from $\begin{cases} 2x+3y=7\\ 5x-2y=8 \end{cases}$, you should
 A. multiply the first equation by $2$ and the second by $3$, then subtract.
 B. multiply the first equation by $3$ and the second by $2$, then add.
@@ -424,7 +424,7 @@ D. multiply the first equation by $5$ and the second by $2$, then subtract.
 ::key C
 This gives $6y$ and $-6y$, which are opposite, so add: $19x=38$. A subtracts, so $y$ remains; D eliminates $x$, not $y$.
 
-::mc
+::mc VD
 The simultaneous equations $\begin{cases} x-2y=3\\ -2x+4y=1 \end{cases}$
 A. have exactly one solution.
 B. have no solution.
@@ -433,7 +433,7 @@ D. have the solution $(3, 0)$.
 ::key B
 Substitute $x=3+2y$: $-6-4y+4y=1\iff 0y=7$, no solution. $(3, 0)$ fits only the first equation.
 
-::mc
+::mc VD
 $2$ bánh mì (Vietnamese baguettes) and $1$ carton of milk cost $31$ thousand đồng; $1$ bánh mì and $2$ cartons of milk cost $26$ thousand đồng. The price of one bánh mì is
 A. $5$ thousand đồng.
 B. $7$ thousand đồng.
@@ -442,7 +442,7 @@ D. $12$ thousand đồng.
 ::key D
 Adding: $3(x+y)=57$, $x+y=19$; subtracting: $x-y=5$; so $x=12$, $y=7$. B is the price of milk, C the sum, A the difference.
 
-::tf
+::tf TH TH TH VD
 Consider $\begin{cases} 3x+y=7\\ x-y=1 \end{cases}$
 a) Adding the two equations gives $4x=8$.
 b) The solution is $(2, 1)$.
@@ -451,12 +451,12 @@ d) The solution satisfies $x+y=3$.
 ::key T T F T
 a) True. b) True: $6+1=7$, $2-1=1$. c) False: $y=x-1$. d) True: $2+1=3$.
 
-::sa
+::sa VD
 Solve $\begin{cases} 2x+y=1\\ 3x-y=9 \end{cases}$ and find $x+y$.
 ::key -1
 Adding: $5x=10$, $x=2$, $y=1-4=-3$, so $x+y=-1$.
 
-::sa
+::sa VD
 The graph of $y=ax+b$ passes through $(1, 4)$ and $(3, 0)$. Find $b$.
 ::key 6
 $a+b=4$, $3a+b=0$; subtracting: $2a=-4$, $a=-2$, $b=6$.

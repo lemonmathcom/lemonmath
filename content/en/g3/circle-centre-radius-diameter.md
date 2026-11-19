@@ -320,7 +320,7 @@ The diameter of each circle is $4\times2=8$ (cm). The row is $8\times3=24$ (cm) 
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A circle has radius $7$ cm. The diameter of the circle is
 A. $14$ cm.
 B. $7$ cm.
@@ -329,7 +329,7 @@ D. $49$ cm.
 ::key A
 The diameter is double the radius: $7\times2=14$ cm. Option B is the mistake of mixing up radius and diameter.
 
-::mc
+::mc TH
 A circle has diameter $18$ cm. The radius of the circle is
 A. $36$ cm.
 B. $9$ cm.
@@ -338,7 +338,7 @@ D. $8$ cm.
 ::key B
 The radius is half the diameter: $18\div2=9$ cm. Option A is the mistake of doubling.
 
-::mc
+::mc NB
 In a circle with centre $O$, the points $A$, $B$, $C$ are on the circle and $O$ is on the segment $AB$. Which segment is a diameter?
 A. $OA$.
 B. $OC$.
@@ -347,7 +347,7 @@ D. $AC$.
 ::key C
 Only $AB$ passes through the centre with both ends on the circle. $OA$ and $OC$ are radii, and $AC$ does not pass through the centre.
 
-::mc
+::mc TH
 To draw a circle of radius $6$ cm, you open the compasses to
 A. $3$ cm.
 B. $6$ cm.
@@ -356,7 +356,7 @@ D. $36$ cm.
 ::key B
 The opening of the compasses is the radius, that is $6$ cm. Option C is the mistake of using the diameter.
 
-::tf
+::tf TH NB TH NB
 A circle with centre $O$ has diameter $AB=20$ cm.
 a) The radius of the circle is $10$ cm.
 b) $OA=OB$.
@@ -365,12 +365,12 @@ d) The radius is longer than the diameter.
 ::key T T T F
 a) True: $20\div2=10$. b) True: two radii are equal. c) True: $O$ is between $A$ and $B$ and $OA=OB$. d) False: the radius is only half of the diameter.
 
-::sa
+::sa TH
 A circle has radius $15$ cm. Find the diameter (unit: cm).
 ::key 30
 $15\times2=30$ (cm).
 
-::sa
+::sa TH
 A circle has diameter $26$ cm. Find the radius (unit: cm).
 ::key 13
 $26\div2=13$ (cm).

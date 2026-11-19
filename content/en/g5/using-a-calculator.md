@@ -313,7 +313,7 @@ Since $20=3\times6+2$, the $20$th digit is the second digit of the group, which 
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $12.5\times3.6$ equals
 A. $4.5$.
 B. $450$.
@@ -322,7 +322,7 @@ D. $4500$.
 ::key C
 The estimate $12\times4=48$ is close to $45$, and the calculator gives $45$. Options A, B and D put the decimal point in the wrong place, so they are too small or too large compared with the estimate.
 
-::mc
+::mc TH
 $17\div6$, rounded to two decimal places, equals
 A. $2.8$.
 B. $2.84$.
@@ -331,7 +331,7 @@ D. $2.83$.
 ::key D
 The display shows $2.8333333$; the thousandths digit is $3<5$, so the result is $2.83$. Option A rounds to one decimal place; B rounds up wrongly; C rounds to the nearest whole number.
 
-::mc
+::mc TH
 Suppose Mum buys $4.75$ kg of meat at $135\,000$ dong per kilogram. The amount she pays is
 A. $641\,250$ dong.
 B. $64\,125\,000$ dong.
@@ -340,7 +340,7 @@ D. $6\,412\,500$ dong.
 ::key A
 $4.75\times135\,000=641\,250$ dong. Option B enters $4.75$ as $475$; C is the division $135\,000\div4.75$; D puts the decimal point in the wrong place.
 
-::mc
+::mc TH
 A library has $1250$ books, of which $325$ are comics. The comics make up
 A. $385\%$.
 B. $26\%$.
@@ -349,7 +349,7 @@ D. $260\%$.
 ::key B
 $325\div1250=0.26$ and $0.26\times100=26$, so they make up $26\%$. Option A divides in the wrong order; B forgets to multiply by $100$; D multiplies by $1000$.
 
-::tf
+::tf NB TH TH TH
 You use a calculator to work out $36\div0.4$.
 a) The result is $90$.
 b) Dividing by a number less than $1$ gives a result less than $36$.
@@ -358,12 +358,12 @@ d) If the display shows $9$, you trust the result because a calculator is never 
 ::key T F T F
 a) True: $36\div0.4=360\div4=90$. b) False: dividing by a number less than $1$ gives a result greater than $36$. c) True: $0.4<0.5$, so the quotient is greater than $72$. d) False: a calculator only does what you press, so you must estimate to check.
 
-::sa
+::sa TH
 Use a calculator to work out $78.4\div1.6$.
 ::key 49
 $78.4\div1.6=784\div16=49$.
 
-::sa
+::sa TH
 Round $100\div3$ to one decimal place.
 ::key 33.3
 $100\div3=33.333\ldots$; the hundredths digit is $3<5$, so the result is $33.3$.

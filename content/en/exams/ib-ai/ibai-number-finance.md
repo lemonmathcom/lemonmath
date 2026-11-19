@@ -271,7 +271,7 @@ So bank B gives about $3.41$ dollars more: the more frequent compounding slightl
 :::
 
 :::quiz
-::mc
+::mc TH
 What is $0.0034567$ rounded to three significant figures?
 A. $0.003$
 B. $0.0035$
@@ -280,7 +280,7 @@ D. $0.00346$
 ::key D
 The fourth significant figure, $6$, rounds the $5$ up.
 
-::mc
+::mc TH
 A length of $8$ cm is measured as $7.6$ cm. What is the percentage error?
 A. $5\%$
 B. $0.4\%$
@@ -289,7 +289,7 @@ D. $95\%$
 ::key A
 $\dfrac{0.4}{8}\times100\%=5\%$.
 
-::mc
+::mc TH
 Which expression gives the value of $1000$ dollars after $3$ years at $4\%$ per year compounded monthly?
 A. $1000(1.04)^{36}$
 B. $1000\left(1+\dfrac{0.04}{12}\right)^{36}$
@@ -298,7 +298,7 @@ D. $1000(1+0.04\times3)$
 ::key B
 $12$ periods per year for $3$ years, at $\dfrac{4}{12}\%$ each.
 
-::mc
+::mc TH
 A machine worth $8000$ dollars depreciates by $10\%$ per year. Its value after $2$ years is
 A. $6400$ dollars
 B. $7200$ dollars
@@ -307,7 +307,7 @@ D. $6560$ dollars
 ::key C
 $8000(0.9)^2=6480$.
 
-::tf
+::tf NB TH VD TH
 An arithmetic sequence has $u_1=5$ and $d=3$. Decide whether each statement is true or false.
 a) $u_2=8$.
 b) $u_{10}=32$.
@@ -316,12 +316,12 @@ d) The sequence is geometric.
 ::key T T T F
 $S_{10}=5(5+32)=185$; the terms increase by a constant difference, not a constant ratio.
 
-::sa
+::sa TH
 Find $u_{10}$ for the arithmetic sequence $3,\ 7,\ 11,\ \dots$
 ::key 39
 $3+9(4)=39$.
 
-::sa
+::sa NB
 An annual rate of $6\%$ is compounded monthly. What is the rate per month, in percent?
 ::key 0.5
 $\dfrac{6}{12}=0.5$.

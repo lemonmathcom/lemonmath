@@ -494,7 +494,7 @@ So a) football $27$ students, badminton $12$ students; b) draw ●●◐.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of these data is not numerical?
 A. Favourite colour.
 B. Height.
@@ -503,7 +503,7 @@ D. Temperature.
 ::key A
 A colour is written in words. B, C and D are all written as numbers.
 
-::mc
+::mc TH
 To find the outdoor temperature at $7$ a.m. every day for a week, the most suitable way to collect the data is
 A. giving a questionnaire to classmates.
 B. measuring it directly with a thermometer every day.
@@ -512,7 +512,7 @@ D. estimating it by how it feels.
 ::key B
 Temperature must be measured accurately with an instrument. A and C give answers based on feelings; D is not accurate.
 
-::mc
+::mc TH
 In a pictogram, each ● stands for $5$ students. A row has $4$ symbols ●. The number of students in that row is
 A. $4$.
 B. $9$.
@@ -521,7 +521,7 @@ D. $45$.
 ::key C
 $4\cdot5=20$. A forgets the key; B adds $4+5$; D reads the digits together as $45$.
 
-::mc
+::mc TH
 A statistical table of shoe sizes in a group: size $35$: $4$ students; size $36$: $7$; size $37$: $3$; size $38$: $1$. How many students are in the group?
 A. $4$.
 B. $7$.
@@ -530,7 +530,7 @@ D. $15$.
 ::key D
 $4+7+3+1=15$. B is the largest count; C adds the shoe sizes by mistake; A is the number of values.
 
-::tf
+::tf TH TH TH VD
 Use the pictogram "Favourite sports of the students in class 6A" (each circle stands for $5$ students). Decide whether each statement is true or false.
 a) $15$ students like football.
 b) The number of students who like badminton equals the number who like basketball.
@@ -539,12 +539,12 @@ d) The number of students who like football is $3$ times the number who like swi
 ::key T T F T
 a) True: $3\cdot5=15$. b) True: both have $2$ circles, that is, $10$ students. c) False: $8$ circles stand for $40$ students. d) True: $15=3\cdot5$.
 
-::sa
+::sa TH
 In a pictogram, each ● stands for $4$ students. A row has $6$ symbols ●. How many students does that row show?
 ::key 24
 $6\cdot4=24$ (students).
 
-::sa
+::sa VD
 Using the shoe-size table in the question above, how many students wear size $36$ or larger?
 ::key 11
 $7+3+1=11$ (students).

@@ -393,7 +393,7 @@ Vậy $x=16$, $y=24$, $z=30$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Đẳng thức nào sau đây là một tỉ lệ thức?
 A. $\dfrac25=\dfrac49$.
 B. $\dfrac12=\dfrac35$.
@@ -402,7 +402,7 @@ D. $\dfrac56=\dfrac{10}{13}$.
 ::key C
 $3\cdot12=36=4\cdot9$ nên B đúng. Ở A, B, D tích chéo không bằng nhau ($18\neq20$; $5\neq6$; $65\neq60$).
 
-::mc
+::mc TH
 Tìm $x$, biết $\dfrac6x=\dfrac9{15}$.
 A. $3{,}6$.
 B. $22{,}5$.
@@ -411,7 +411,7 @@ D. $10$.
 ::key D
 $9x=6\cdot15=90$ nên $x=10$. A là kết quả khi nhân chéo nhầm ($6\cdot9:15$), B là $15\cdot9:6$, C là lấy nhầm tử số.
 
-::mc
+::mc VD
 Cho $\dfrac x3=\dfrac y7$ và $x+y=40$. Giá trị của $x$ là
 A. $12$.
 B. $28$.
@@ -420,7 +420,7 @@ D. $10$.
 ::key A
 $\dfrac x3=\dfrac y7=\dfrac{40}{10}=4$ nên $x=12$. B là giá trị của $y$, C là hệ số $4$, D là tổng $3+7$.
 
-::mc
+::mc VD
 Cho $\dfrac a2=\dfrac b3=\dfrac c4$ và $a+b+c=36$. Giá trị của $c$ là
 A. $8$.
 B. $16$.
@@ -429,7 +429,7 @@ D. $4$.
 ::key B
 $\dfrac a2=\dfrac b3=\dfrac c4=\dfrac{36}9=4$ nên $c=16$. A, C là giá trị của $a$, $b$; D là hệ số $4$.
 
-::tf
+::tf TH TH VD VD
 Cho $\dfrac x4=\dfrac y9$ và $y-x=15$. Xét tính đúng sai của các mệnh đề sau:
 a) Ta có $\dfrac x4=\dfrac y9=\dfrac{y-x}{4-9}$.
 b) Ta có $\dfrac x4=\dfrac y9=\dfrac{y-x}{9-4}=3$.
@@ -438,12 +438,12 @@ d) $y=24$.
 ::key S Đ Đ S
 a) Sai: tử là $y-x$ thì mẫu phải là $9-4$. b) Đúng: $\dfrac{15}5=3$. c) Đúng: $x=4\cdot3=12$. d) Sai: $y=9\cdot3=27$.
 
-::sa
+::sa VD
 Cho $\dfrac x5=\dfrac y3$ và $x+y=24$. Tính $x$.
 ::key 15
 $\dfrac x5=\dfrac y3=\dfrac{24}8=3$, nên $x=5\cdot3=15$.
 
-::sa
+::sa VD
 Tìm $x$, biết $\dfrac{0{,}6}x=\dfrac{1{,}2}5$ (viết dưới dạng số thập phân).
 ::key 2,5
 $1{,}2x=0{,}6\cdot5=3$, nên $x=3:1{,}2=2{,}5$.

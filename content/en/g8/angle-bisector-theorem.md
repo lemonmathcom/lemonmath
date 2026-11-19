@@ -328,7 +328,7 @@ So $AE=7.5$.
 ## Mini test
 
 :::quiz
-::mc
+::mc VD
 In triangle $ABC$, $AB=6$, $AC=10$ and $BC=12$. The bisector $AD$ meets $BC$ at $D$. The length $DB$ is
 A. $7.5$.
 B. $7.2$.
@@ -337,7 +337,7 @@ D. $4.5$.
 ::key D
 $DB=12\cdot\dfrac{6}{16}=4.5$. A is $DC$, C is half of $BC$ (assuming $D$ is the midpoint), B is $BC\cdot\dfrac{AB}{AC}$ (forgetting to add in the denominator).
 
-::mc
+::mc TH
 In triangle $ABC$, $AB=9$. The bisector $AD$ meets $BC$ at $D$ with $DB=3$ and $DC=5$. The length $AC$ is
 A. $15$.
 B. $12$.
@@ -346,7 +346,7 @@ D. $5.4$.
 ::key A
 $\dfrac{AB}{AC}=\dfrac{DB}{DC}$, so $AC=9\cdot\dfrac53=15$. A has the ratio upside down; B and C add instead of multiplying.
 
-::mc
+::mc TH
 In triangle $ABC$, $AB=AC$. The bisector $AD$ meets $BC$ at $D$. Which statement is true?
 A. $DB=AB$.
 B. $D$ is the midpoint of $BC$.
@@ -355,7 +355,7 @@ D. $DB<DC$.
 ::key B
 $\dfrac{DB}{DC}=\dfrac{AB}{AC}=1$, so $DB=DC$. Statements B, C and D do not follow from the angle bisector theorem.
 
-::mc
+::mc VD
 In triangle $ABC$, $AB=4$ and $AC=6$. The bisector $AD$ meets $BC$ at $D$, and $S_{ABD}=12$. The area $S_{ACD}$ is
 A. $8$.
 B. $16$.
@@ -364,7 +364,7 @@ D. $24$.
 ::key C
 $\dfrac{S_{ABD}}{S_{ACD}}=\dfrac{AB}{AC}=\dfrac23$, so $S_{ACD}=12\cdot\dfrac32=18$. A has the ratio upside down, B adds $12+4$, D doubles $12$.
 
-::tf
+::tf TH NB VD TH
 In triangle $ABC$, $AB=9$, $AC=12$ and $BC=14$. The bisector $AD$ meets $BC$ at $D$. Decide whether each statement is true or false.
 a) $D$ is the midpoint of $BC$.
 b) $\dfrac{DB}{DC}=\dfrac34$.
@@ -373,12 +373,12 @@ d) $DC=6$.
 ::key F T T F
 a) False: $AB\neq AC$, so $DB\neq DC$. b) True: $\dfrac{DB}{DC}=\dfrac{9}{12}=\dfrac34$. c) True: $DB=14\cdot\dfrac{9}{21}=6$. d) False: $DC=14-6=8$.
 
-::sa
+::sa VD
 In triangle $ABC$, $AB=14$ cm, $AC=21$ cm and $BC=25$ cm. The bisector $AD$ meets $BC$ at $D$. Find $DB$ (in cm).
 ::key 10
 $DB=25\cdot\dfrac{14}{35}=10$.
 
-::sa
+::sa VD
 In triangle $ABC$, $AB=6$ cm, $AC=8$ cm and $BC=9$ cm. The bisector $AD$ meets $BC$ at $D$. Find $DC$ (in cm, to 1 decimal place).
 ::key 5.1
 $DC=9\cdot\dfrac{8}{14}=\dfrac{36}{7}\approx5.14$, which is $5.1$ to 1 decimal place.

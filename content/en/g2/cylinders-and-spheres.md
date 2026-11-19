@@ -272,7 +272,7 @@ Three cylinders have $3\times2=6$ flat faces. Two spheres have $2\times0=0$ flat
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which object has the shape of a sphere?
 A. A tin of milk.
 B. A drum.
@@ -281,7 +281,7 @@ D. A round cake tin.
 ::key C
 A football has no flat face, so it is a sphere. The other objects have two flat bases, so they are cylinders.
 
-::mc
+::mc NB
 How many flat faces does a cylinder have?
 A. $0$.
 B. $1$.
@@ -290,7 +290,7 @@ D. $3$.
 ::key C
 A cylinder has two flat bases. Option B is the number of curved surfaces, so do not mix them up.
 
-::mc
+::mc TH
 Why can tins of milk be stacked?
 A. Because a tin has flat bases.
 B. Because a tin has no curved surface.
@@ -299,7 +299,7 @@ D. Because a tin is very light.
 ::key A
 The flat bases of a tin sit on each other without sliding. A tin is a cylinder, not a sphere, and it still has a curved surface.
 
-::mc
+::mc NB
 Which solid has no flat faces?
 A. A cylinder.
 B. A sphere.
@@ -308,7 +308,7 @@ D. Neither solid.
 ::key B
 A sphere has only a curved surface. A cylinder has $2$ flat faces.
 
-::tf
+::tf NB NB TH NB
 Look at cylinders and spheres.
 a) A cylinder has $2$ flat faces.
 b) A cylinder has $3$ curved surfaces.
@@ -317,12 +317,12 @@ d) A ball is a cylinder.
 ::key T F T F
 a) True: it has two flat bases. b) False: a cylinder has only $1$ curved surface. c) True: thanks to its flat bases. d) False: a ball is a sphere.
 
-::sa
+::sa VD
 There are $4$ tins of milk. How many flat faces do all the tins have?
 ::key 8
 Each tin is a cylinder with $2$ flat faces. So $4\times2=8$ (flat faces).
 
-::sa
+::sa VD
 There are $15$ tins of milk, stacked with $5$ tins in each stack. How many stacks are there?
 ::key 3
 $15\div5=3$ (stacks), because $3\times5=15$.

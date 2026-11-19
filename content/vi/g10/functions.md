@@ -388,7 +388,7 @@ Gộp lại được $4<x<10$. **Kiểm tra.** Tại $x=4$: $A=B=90$; tại $x=1
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tập xác định của hàm số $f(x)=\dfrac{\sqrt{x+1}}{x-3}$ là
 A. $[-1; +\infty)$.
 B. $[-1; 3)\cup(3; +\infty)$.
@@ -397,7 +397,7 @@ D. $\mathbb{R}\setminus\{3\}$.
 ::key B
 Cần $x+1\ge0$ và $x-3\ne0$, tức $x\ge-1$ và $x\ne3$. Phương án A quên điều kiện mẫu khác $0$; C bỏ nhầm $x=-1$ (tại đó $\sqrt0=0$ vẫn xác định); D quên điều kiện của căn.
 
-::mc
+::mc TH
 Bảng nào sau đây cho $y$ là hàm số của $x$?
 A. $(1; 2)$, $(2; 3)$, $(1; 4)$.
 B. $(1; 5)$, $(2; 5)$, $(3; 5)$.
@@ -406,7 +406,7 @@ D. $(2; 1)$, $(3; 2)$, $(2; 2)$.
 ::key B
 Ở B, mỗi giá trị của $x$ ứng với đúng một giá trị của $y$; nhiều $x$ cùng cho $y=5$ vẫn được phép. Ở A, C, D có một giá trị $x$ ứng với hai giá trị $y$ khác nhau.
 
-::mc
+::mc TH
 Cho hàm số $f(x)=\begin{cases}2x-1 & \text{nếu } x<1,\\ x^2+1 & \text{nếu } x\ge1.\end{cases}$ Giá trị của $f(1)+f(-2)$ là
 A. $-3$.
 B. $-4$.
@@ -415,7 +415,7 @@ D. $6$.
 ::key A
 $1\ge1$ nên $f(1)=1^2+1=2$; $-2<1$ nên $f(-2)=2\cdot(-2)-1=-5$. Tổng bằng $-3$. Phương án B tính nhầm $f(1)$ bằng dòng thứ nhất; C tính nhầm $f(-2)$ bằng dòng thứ hai.
 
-::mc
+::mc TH
 Hàm số $f(x)=-x^2+4x$ đồng biến trên khoảng nào sau đây?
 A. $(-\infty; 2)$.
 B. $(2; +\infty)$.
@@ -424,7 +424,7 @@ D. $(-\infty; 4)$.
 ::key A
 $f(x)=4-(x-2)^2$: đồ thị là parabol quay bề lõm xuống, đỉnh $(2; 4)$, nên đi lên khi $x<2$ và đi xuống khi $x>2$. Phương án C là khoảng giữa hai không điểm $0$ và $4$, trên đó hàm số vừa tăng vừa giảm.
 
-::tf
+::tf NB TH TH VD
 Cho hàm số $f(x)=x^2-4x+3$.
 a) $f(0)=3$.
 b) Các không điểm của $f$ là $x=1$ và $x=3$.
@@ -433,12 +433,12 @@ d) $f$ nghịch biến trên khoảng $(1; 3)$.
 ::key Đ Đ Đ S
 a) Đúng. b) Đúng: $f(1)=f(3)=0$. c) Đúng: $f(x)=(x-2)^2-1\ge-1$ và nhận mọi giá trị từ $-1$ trở lên. d) Sai: $f$ chỉ nghịch biến trên $(-\infty; 2)$; trên $(2; 3)$ nó đồng biến, ví dụ $f(2)=-1<f(2{,}5)=-0{,}75$.
 
-::sa
+::sa VD
 Có bao nhiêu số nguyên dương thuộc tập xác định của hàm số $f(x)=\sqrt{12-3x}$?
 ::key 4
 Cần $12-3x\ge0\iff x\le4$. Các số nguyên dương thoả mãn là $1, 2, 3, 4$: có $4$ số.
 
-::sa
+::sa VD
 Một công ty nước tính giá $8$ nghìn đồng mỗi m³ cho $10$ m³ đầu tiên và $12$ nghìn đồng mỗi m³ cho phần vượt quá $10$ m³. Tháng này một gia đình trả $176$ nghìn đồng. Gia đình đó đã dùng bao nhiêu m³ nước?
 ::key 18
 $10$ m³ đầu tiên giá $80$ nghìn đồng $<176$, nên lượng nước $x>10$ và $80+12(x-10)=176\iff 12(x-10)=96\iff x=18$.

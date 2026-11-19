@@ -436,7 +436,7 @@ The sum of the bases is $54\times2\div6=18$ cm. Take the shorter base as $1$ par
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A triangle with angles $30^\circ$, $40^\circ$, $110^\circ$ is
 A. an acute triangle.
 B. an obtuse triangle.
@@ -445,7 +445,7 @@ D. a triangle with three equal angles.
 ::key B
 There is an angle $110^\circ>90^\circ$, so it is an obtuse triangle. Option A needs three acute angles; B needs one angle of $90^\circ$; D is wrong because the three angles are different.
 
-::mc
+::mc TH
 The area of a triangle with base $14$ cm and height $6$ cm is
 A. $84\ \text{cm}^2$.
 B. $20\ \text{cm}^2$.
@@ -454,7 +454,7 @@ D. $168\ \text{cm}^2$.
 ::key C
 $14\times6\div2=42\ \text{cm}^2$. Option A forgets to divide by $2$; C adds instead of multiplying; D multiplies by an extra $2$.
 
-::mc
+::mc TH
 The area of a trapezium with bases $8$ cm and $12$ cm and height $5$ cm is
 A. $25\ \text{cm}^2$.
 B. $100\ \text{cm}^2$.
@@ -463,7 +463,7 @@ D. $50\ \text{cm}^2$.
 ::key D
 $(8+12)\times5\div2=50\ \text{cm}^2$. Option B forgets to divide by $2$; C does the operations in the wrong order; D divides by $2$ twice.
 
-::mc
+::mc VD
 A triangular garden has base $18$ m and height $12$ m. $\dfrac{1}{3}$ of its area is used for vegetables, so the area for vegetables is
 A. $36\ \text{m}^2$.
 B. $108\ \text{m}^2$.
@@ -472,7 +472,7 @@ D. $216\ \text{m}^2$.
 ::key A
 The area of the garden is $18\times12\div2=108\ \text{m}^2$, and one third of it is $108\div3=36\ \text{m}^2$. Option D forgets to divide by $2$; B is the area of the whole garden; C is the rest of the garden, which is $\dfrac{2}{3}$ of the area.
 
-::tf
+::tf TH TH NB TH
 Triangle $ABC$ has base $BC=10$ cm, sloping side $AB=6$ cm and perpendicular height $AH=5$ cm ($AH\perp BC$).
 a) The area of the triangle is $10\times5\div2=25\ \text{cm}^2$.
 b) The area of the triangle is $10\times6\div2=30\ \text{cm}^2$.
@@ -481,12 +481,12 @@ d) The area of the triangle is half the area of the rectangle $10$ cm $\times$ $
 ::key T F T T
 a) True. b) False: $AB$ is not perpendicular to the base, so it is not the height. c) True: $AH$ is perpendicular to $BC$. d) True: that rectangle has area $50\ \text{cm}^2$, and $25$ is half of $50$.
 
-::sa
+::sa TH
 A right-angled triangle has its two shorter sides $6$ cm and $5$ cm long. What is the area of the triangle in square centimetres?
 ::key 15
 The two sides next to the right angle are the base and the height: $6\times5\div2=15\ \text{cm}^2$.
 
-::sa
+::sa VD
 A trapezium has bases $6$ cm and $10$ cm and area $48\ \text{cm}^2$. What is the height of the trapezium in centimetres?
 ::key 6
 $48\times2=96$ and $96\div(6+10)=6$ cm.

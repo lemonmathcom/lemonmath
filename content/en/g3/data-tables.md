@@ -333,7 +333,7 @@ Badminton: $15-5=10$ (children). Football and badminton together: $15+10=25$ (ch
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The list is: orange, apple, orange, orange, apple, banana. How many oranges are there?
 A. $2$.
 B. $6$.
@@ -342,7 +342,7 @@ D. $3$.
 ::key D
 Orange appears in places $1$, $3$ and $4$, so there are $3$ oranges. Option B counts the whole list.
 
-::mc
+::mc NB
 A table shows: football $8$ children, chess $5$ children, swimming $7$ children. Which sport did the fewest children choose?
 A. Chess.
 B. Football.
@@ -351,7 +351,7 @@ D. All three are equal.
 ::key A
 The smallest of $8$, $5$, $7$ is $5$, which is chess. Option B picks the biggest number.
 
-::mc
+::mc TH
 With the table in the last question, how many children are there in all?
 A. $13$.
 B. $20$.
@@ -360,7 +360,7 @@ D. $21$.
 ::key B
 $8+5+7=20$. Option A adds only the first two numbers, and option C adds only football and swimming.
 
-::mc
+::mc TH
 Group One plants $16$ trees and Group Two plants $13$ trees. How many more trees does Group One plant than Group Two?
 A. $29$ trees.
 B. $2$ trees.
@@ -369,7 +369,7 @@ D. $4$ trees.
 ::key C
 "How many more" means subtract: $16-13=3$. Option A adds by mistake.
 
-::tf
+::tf NB TH NB TH
 A class of $25$ children chose flowers: rose $10$ children, daisy $7$ children, orchid $8$ children.
 a) Roses were chosen by the most children.
 b) The total number of children in the table is $25$.
@@ -378,12 +378,12 @@ d) $3$ more children chose roses than daisies.
 ::key T T F T
 a) True: $10$ is the biggest number. b) True: $10+7+8=25$. c) False: $7<8$. d) True: $10-7=3$.
 
-::sa
+::sa TH
 Three groups fold paper cranes: Group One $14$, Group Two $11$, Group Three $12$. How many cranes do the three groups fold in all?
 ::key 37
 $14+11+12=37$ (cranes).
 
-::sa
+::sa VD
 A class has $32$ children and each chooses one game: tug of war $14$ children, skipping $10$ children, and the rest play chess. How many children play chess?
 ::key 8
 $32-14-10=8$ (children).

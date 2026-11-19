@@ -351,7 +351,7 @@ Check: $8+6+6=20$. Correct.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 In a tally table, the colour red is recorded as $\cancel{\mid\mid\mid\mid}\ \mid\mid\mid$. The number of pupils who chose red is
 A. $8$.
 B. $5$.
@@ -360,7 +360,7 @@ D. $3$.
 ::key A
 The crossed group is $5$ pupils, plus $3$ single marks: $5+3=8$. Option C counts the crossed group as $4$, option B counts only the crossed group, option D counts only the single marks.
 
-::mc
+::mc TH
 In a pictogram each ● is $2$ pupils. The "Football" row has ●●●●●. The number of pupils who like football is
 A. $5$.
 B. $10$.
@@ -369,7 +369,7 @@ D. $2$.
 ::key B
 There are $5$ symbols ●, each ● is $2$ pupils, so $5\times 2=10$ pupils. Option A forgets to read the key, option C adds $5+2$.
  
-::mc
+::mc TH
 Table of data: Orange $9$ pupils, Banana $7$ pupils, Apple $4$ pupils. How many more pupils like oranges than apples?
 A. $13$.
 B. $2$.
@@ -378,7 +378,7 @@ D. $3$.
 ::key C
 "How many more" is a subtraction: $9-4=5$. Option A is an addition, option B is $9-7$ and option D is $7-4$: those subtractions use the wrong two fruits.
 
-::mc
+::mc VD
 In a pictogram each ● is $2$ books: Monday ●●●, Tuesday ●●●●. How many books were borrowed on the two days altogether?
 A. $7$ books.
 B. $12$ books.
@@ -387,7 +387,7 @@ D. $14$ books.
 ::key D
 Monday: $3\times 2=6$ books; Tuesday: $4\times 2=8$ books; $6+8=14$. Option A only adds the number of symbols ●, option C joins the digits $3$ and $4$.
 
-::tf
+::tf NB TH TH TH
 The table of data shows how many pupils like each game: Tug of war $8$ pupils, Skipping $11$ pupils, Chess $6$ pupils.
 a) Skipping is liked by the most pupils.
 b) More pupils like Tug of war than Chess.
@@ -396,12 +396,12 @@ d) Skipping has $5$ more pupils than Chess.
 ::key T T F T
 a) True: $11>8>6$. b) True: $8>6$. c) False: $8+11+6=25$, not $24$. d) True: $11-6=5$.
 
-::sa
+::sa TH
 In a pictogram each ● is $2$ pupils. The "Swimming" row has $7$ symbols ●. How many pupils like swimming?
 ::key 14
 $7\times 2=14$ pupils.
 
-::sa
+::sa VD
 Group One collected $16$ bags of litter, Group Two collected $9$ bags and Group Three collected $14$ bags. How many bags of litter did the three groups collect altogether?
 ::key 39
 $16+9+14=39$ (bags): $16+9=25$, then $25+14=39$.

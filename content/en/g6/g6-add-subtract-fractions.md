@@ -472,7 +472,7 @@ So $S=\dfrac{9}{10}$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The value of $\dfrac{-3}{8}+\dfrac{5}{8}$ is
 A. $\dfrac{2}{16}$.
 B. $\dfrac{-1}{4}$.
@@ -481,7 +481,7 @@ D. $-1$.
 ::key C
 $\dfrac{-3+5}{8}=\dfrac{2}{8}=\dfrac14$. A adds the denominators too; B has the wrong sign; D works out $-3-5$.
 
-::mc
+::mc TH
 The value of $\dfrac{1}{2}+\dfrac{1}{3}$ is
 A. $\dfrac{2}{5}$.
 B. $\dfrac{5}{6}$.
@@ -490,7 +490,7 @@ D. $\dfrac{2}{6}$.
 ::key B
 $\dfrac36+\dfrac26=\dfrac56$. A adds numerators and denominators; C is the difference; D changes only one fraction.
 
-::mc
+::mc NB
 The opposite of $\dfrac{-4}{9}$ is
 A. $\dfrac{4}{9}$.
 B. $\dfrac{-4}{9}$.
@@ -499,7 +499,7 @@ D. $\dfrac{-9}{4}$.
 ::key A
 $\dfrac{-4}{9}+\dfrac49=0$. B is the number itself; C and D swap numerator and denominator (that is the reciprocal, in the next lesson).
 
-::mc
+::mc TH
 The value of $\dfrac{2}{3}-\dfrac{3}{4}$ is
 A. $\dfrac{1}{12}$.
 B. $\dfrac{17}{12}$.
@@ -508,7 +508,7 @@ D. $\dfrac{-1}{12}$.
 ::key D
 $\dfrac{8}{12}-\dfrac{9}{12}=\dfrac{-1}{12}$. A has the wrong sign; B adds instead of subtracting; C subtracts numerators and denominators.
 
-::tf
+::tf TH TH NB TH
 Decide whether each statement is true or false.
 a) The difference of two positive fractions is always a positive fraction.
 b) The sum of two negative fractions is a negative fraction.
@@ -517,12 +517,12 @@ d) $\dfrac{1}{2}+\dfrac{1}{3}=\dfrac{2}{5}$.
 ::key F T T F
 a) False: for example, $\dfrac12-\dfrac34=\dfrac{-1}{4}$. b) True: adding two negative numerators (with the same positive denominator) gives a negative numerator. c) True: they are opposites. d) False: $\dfrac12+\dfrac13=\dfrac56$.
 
-::sa
+::sa VD
 Work out the value of $\dfrac{3}{4}+\dfrac{1}{4}-\left(\dfrac{-1}{2}\right)$ (give your answer as a decimal).
 ::key 1.5
 $\dfrac34+\dfrac14=1$; $1+\dfrac12=\dfrac32=1.5$.
 
-::sa
+::sa VD
 Find $x$, given that $x-\dfrac{1}{3}=\dfrac{1}{6}$ (give your answer as a decimal).
 ::key 0.5
 $x=\dfrac16+\dfrac13=\dfrac16+\dfrac26=\dfrac36=\dfrac12=0.5$.

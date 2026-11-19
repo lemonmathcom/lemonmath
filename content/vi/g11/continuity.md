@@ -446,7 +446,7 @@ Vậy phương trình $\cos x=x$ có nghiệm trong khoảng $(0; 1)$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hàm số nào dưới đây liên tục trên $\mathbb{R}$?
 A. $y=\dfrac{1}{x-1}$.
 B. $y=\dfrac{x}{x^2-4}$.
@@ -455,7 +455,7 @@ D. $y=x^3-2x+5$.
 ::key D
 Đa thức liên tục trên $\mathbb{R}$. Hàm số ở A và B không xác định tại một số điểm, còn hàm số ở D chỉ xác định khi $x\ge0$.
 
-::mc
+::mc VD
 Cho hàm số $f(x)=\begin{cases}\dfrac{x^2-x-2}{x-2}&\text{nếu }x\neq2,\\3&\text{nếu }x=2.\end{cases}$ Phát biểu nào sau đây đúng?
 A. Hàm số liên tục tại $x=2$.
 B. Hàm số không liên tục tại $x=2$ vì không xác định tại $2$.
@@ -464,7 +464,7 @@ D. Hàm số không liên tục tại $x=2$ vì không tồn tại $\lim_{x\to2}
 ::key A
 Với $x\neq2$, $f(x)=\dfrac{(x-2)(x+1)}{x-2}=x+1$ nên $\lim_{x\to2}f(x)=3=f(2)$. Phương án B quên rằng $f(2)=3$, C tính sai giới hạn, D nhầm dạng $\dfrac{0}{0}$ với giới hạn không tồn tại.
 
-::mc
+::mc VD
 Phương trình nào sau đây có nghiệm trong khoảng $(1; 2)$?
 A. $x^3+x-1=0$.
 B. $x^3-3x-1=0$.
@@ -473,7 +473,7 @@ D. $2x^2-5x+4=0$.
 ::key B
 Với $f(x)=x^3-3x-1$ ta có $f(1)=-3$, $f(2)=1$ nên $f(1)f(2)<0$. Ở A, D, C hai giá trị $f(1)$, $f(2)$ cùng dấu và các phương trình không có nghiệm trong $(1; 2)$.
 
-::mc
+::mc TH
 Cho hàm số $f(x)=\begin{cases}x^2+1&\text{nếu }x<1,\\3&\text{nếu }x=1,\\2x&\text{nếu }x>1.\end{cases}$ Phát biểu nào sau đây đúng?
 A. Hàm số liên tục tại $x=1$ vì tồn tại các giới hạn một bên.
 B. Hàm số không liên tục tại $x=1$ vì giới hạn trái khác giới hạn phải.
@@ -482,7 +482,7 @@ D. Hàm số liên tục tại $x=1$ vì $f(1)$ xác định.
 ::key C
 Giới hạn trái và giới hạn phải đều bằng $2$ nên $\lim_{x\to1}f(x)=2\neq f(1)=3$. Phương án B sai vì hai giới hạn một bên bằng nhau; A và D thiếu điều kiện $\lim f=f(x_0)$.
 
-::tf
+::tf VD TH NB NB
 Giả sử một gói cước điện thoại tính tiền (nghìn đồng) theo dung lượng dữ liệu $x$ (GB) như sau: $C(x)=50$ nếu $0\le x\le5$ và $C(x)=50+20(x-5)$ nếu $x>5$. Xét tính đúng sai của các mệnh đề sau:
 a) Hàm số $C$ không liên tục tại $x=5$ vì được cho bởi hai công thức.
 b) $\lim_{x\to5^+}C(x)=50$.
@@ -491,12 +491,12 @@ d) $C(7)=100$.
 ::key S Đ Đ S
 a) Sai: $C(5)=50$, $\lim_{x\to5^-}C(x)=50$ và $\lim_{x\to5^+}C(x)=50$ nên $C$ liên tục tại $5$, dù có hai công thức. b) Đúng: $50+20\cdot0=50$. c) Đúng: $50+20\cdot3=110$. d) Sai: $C(7)=50+20\cdot2=90$.
 
-::sa
+::sa VD
 Phương trình $x^3+x-1=0$ có một nghiệm trong khoảng $(0; 1)$. Tìm nghiệm này (làm tròn kết quả đến hàng phần trăm).
 ::key 0,68
 Với $f(x)=x^3+x-1$ ta có $f(0)=-1<0$ và $f(1)=1>0$ nên có nghiệm trong $(0; 1)$. Thu hẹp khoảng chứa nghiệm bằng máy tính, ta được nghiệm gần đúng $0{,}682\ldots\approx0{,}68$.
 
-::sa
+::sa TH
 Với biểu giá điện bậc thang trong bài, tiền điện (nghìn đồng) khi dùng $x>100$ kWh là $T(x)=3x-75$. Tính số tiền (nghìn đồng) phải trả khi dùng $120$ kWh.
 ::key 285
 $T(120)=3\cdot120-75=285$ (nghìn đồng).

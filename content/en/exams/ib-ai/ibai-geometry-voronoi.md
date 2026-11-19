@@ -270,7 +270,7 @@ So the vertex $(4, 3)$ is the point inside the region that is furthest from its 
 :::
 
 :::quiz
-::mc
+::mc TH
 Two sides of a triangle and the angle between them are known. Which rule finds the third side?
 A. The sine rule
 B. Pythagoras' theorem
@@ -279,7 +279,7 @@ D. $\tfrac12ab\sin C$
 ::key C
 Two sides and the included angle: cosine rule.
 
-::mc
+::mc NB
 An edge of a Voronoi diagram between two sites lies on
 A. the perpendicular bisector of the two sites
 B. the line through the two sites
@@ -288,7 +288,7 @@ D. the $x$-axis
 ::key A
 Every point on it is equidistant from the two sites.
 
-::mc
+::mc TH
 A cylinder has radius $2$ m and height $5$ m. Its volume is
 A. $10\pi\text{ m}^3$
 B. $20\pi\text{ m}^3$
@@ -297,7 +297,7 @@ D. $100\pi\text{ m}^3$
 ::key B
 $\pi(2)^2(5)=20\pi$.
 
-::mc
+::mc TH
 Nearest-neighbour interpolation estimates a value at a point by
 A. averaging all sites
 B. using the site furthest away
@@ -306,7 +306,7 @@ D. using the value at the site whose cell contains the point
 ::key D
 The cell's site is the nearest site.
 
-::tf
+::tf TH TH TH TH
 For sites $(0, 0)$ and $(4, 0)$, decide whether each statement is true or false.
 a) The edge between their cells is $x=2$.
 b) The point $(1, 5)$ is in the cell of $(0, 0)$.
@@ -315,12 +315,12 @@ d) The point $(3, -2)$ is in the cell of $(0, 0)$.
 ::key T T T F
 $(3, -2)$ has $x>2$, so it is closer to $(4, 0)$.
 
-::sa
+::sa TH
 Find the area of a triangle with sides $6$ and $8$ and an included angle of $90^\circ$.
 ::key 24
 $\tfrac12(6)(8)\sin90^\circ=24$.
 
-::sa
+::sa TH
 Find the distance from $(0, 0)$ to $(4, 3)$.
 ::key 5
 $\sqrt{16+9}=5$.

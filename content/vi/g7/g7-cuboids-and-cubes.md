@@ -420,7 +420,7 @@ Vậy diện tích toàn phần là $324\ \text{cm}^2$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Thể tích của hình hộp chữ nhật có ba kích thước $5$ cm, $4$ cm, $3$ cm là
 A. $12\ \text{cm}^3$.
 B. $60\ \text{cm}^3$.
@@ -429,7 +429,7 @@ D. $94\ \text{cm}^3$.
 ::key B
 $V=5\cdot4\cdot3=60\ \text{cm}^3$. A là tổng ba kích thước, C là $ab+bc+ca$, D là diện tích toàn phần $2\cdot47$.
 
-::mc
+::mc VD
 Hình lập phương có diện tích toàn phần $54\ \text{cm}^2$. Thể tích của nó là
 A. $18\ \text{cm}^3$.
 B. $9\ \text{cm}^3$.
@@ -438,7 +438,7 @@ D. $54\ \text{cm}^3$.
 ::key C
 $6a^2=54$ nên $a=3$ và $V=27\ \text{cm}^3$. B là $a^2$, A là $54:3$, D là chính $S_{tp}$.
 
-::mc
+::mc TH
 Hình lăng trụ đứng có đáy là tam giác vuông với các cạnh $3$ cm, $4$ cm, $5$ cm và chiều cao $8$ cm. Thể tích của nó là
 A. $96\ \text{cm}^3$.
 B. $60\ \text{cm}^3$.
@@ -447,7 +447,7 @@ D. $48\ \text{cm}^3$.
 ::key D
 $V=\dfrac12\cdot3\cdot4\cdot8=48\ \text{cm}^3$. A quên $\dfrac12$, B nhân cả ba cạnh đáy $3\cdot4\cdot5$, C là chu vi đáy.
 
-::mc
+::mc NB
 Một hình lăng trụ đứng tứ giác có chu vi đáy $22$ cm và chiều cao $7$ cm. Diện tích xung quanh là
 A. $154\ \text{cm}^2$.
 B. $22\ \text{cm}^2$.
@@ -456,7 +456,7 @@ D. $308\ \text{cm}^2$.
 ::key A
 $S_{xq}=22\cdot7=154\ \text{cm}^2$. A là chu vi đáy, C là $22+7$, D nhân đôi sai.
 
-::tf
+::tf NB TH TH VD
 Một hình hộp chữ nhật có chiều dài $6$ cm, chiều rộng $4$ cm, chiều cao $3$ cm.
 a) Thể tích của hình hộp là $72\ \text{cm}^3$.
 b) Diện tích xung quanh là $60\ \text{cm}^2$.
@@ -465,12 +465,12 @@ d) Nếu cả ba kích thước tăng gấp đôi thì thể tích tăng gấp �
 ::key Đ Đ S S
 a) Đúng: $6\cdot4\cdot3=72$. b) Đúng: $2(6+4)\cdot3=60$. c) Sai: $60+2\cdot24=108$. d) Sai: thể tích tăng gấp $2^3=8$ lần.
 
-::sa
+::sa VD
 Một bể hình hộp chữ nhật có kích thước $120$ cm, $50$ cm và $80$ cm. Bể chứa đầy được bao nhiêu lít nước?
 ::key 480
 $V=120\cdot50\cdot80=480\,000\ \text{cm}^3=480$ lít.
 
-::sa
+::sa VD
 Một hình lăng trụ đứng có đáy là tam giác vuông với hai cạnh góc vuông $5$ cm, $12$ cm (cạnh huyền $13$ cm) và chiều cao $4$ cm. Tính diện tích toàn phần (đơn vị: $\text{cm}^2$).
 ::key 180
 $S_{\text{đ}}=\dfrac12\cdot5\cdot12=30$, $C_{\text{đ}}=5+12+13=30$. $S_{tp}=30\cdot4+2\cdot30=180\ (\text{cm}^2)$.

@@ -351,7 +351,7 @@ Let $h$ (m) be the height of the tower. We have $AH=h\sqrt3$ and $BH=h$. Since $
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Triangle $ABC$ is right-angled at $A$ with $AB=3$ and $AC=4$. The value of $\sin C$ is
 A. $\dfrac45$.
 B. $\dfrac53$.
@@ -360,7 +360,7 @@ D. $\dfrac35$.
 ::key D
 $BC=5$ and the side opposite the angle $C$ is $AB=3$, so $\sin C=\dfrac35$. Option A is $\cos C$, C is $\tan C$, and B is $\dfrac{BC}{AB}$.
 
-::mc
+::mc TH
 Triangle $ABC$ is right-angled at $A$ with $BC=10$ cm and $\angle B=30^\circ$. The length of $AC$ is
 A. $5$ cm.
 B. $5\sqrt3$ cm.
@@ -369,7 +369,7 @@ D. $20$ cm.
 ::key A
 $AC=BC\sin30^\circ=10\cdot\dfrac12=5$. Option B uses $\cos30^\circ$ instead of $\sin30^\circ$, C is $\dfrac{BC}{\sqrt3}$, and D is $2BC$.
 
-::mc
+::mc TH
 An acute angle $\alpha$ has $\tan\alpha=1.5$. The measure of $\alpha$ (rounded to 1 decimal place) is
 A. $33.7^\circ$.
 B. $56.3^\circ$.
@@ -378,7 +378,7 @@ D. $1.5^\circ$.
 ::key B
 $\alpha=\arctan1.5\approx56.3^\circ$. Option A is the complementary angle $90^\circ-56.3^\circ$ (which corresponds to $\tan\alpha=\dfrac23$), C is $\arccos\dfrac23$, and D takes the value of $\tan\alpha$ as the measure of the angle.
 
-::mc
+::mc TH
 A person stands $20$ m from the foot of a tower and sees the top at an angle of elevation of $40^\circ$ (ignore the height of the eyes). The height of the tower (rounded to 1 decimal place) is
 A. $15.3$ m.
 B. $12.9$ m.
@@ -387,7 +387,7 @@ D. $23.8$ m.
 ::key C
 $h=20\tan40^\circ\approx16.8$. Option A is $20\cos40^\circ$, B is $20\sin40^\circ$, and D is $\dfrac{20}{\tan40^\circ}$.
 
-::tf
+::tf NB TH TH NB
 Triangle $ABC$ is right-angled at $A$ with altitude $AH$, $AB=6$ cm and $AC=8$ cm. Decide whether each statement is true or false.
 a) $BC=10$ cm.
 b) $AH=5$ cm.
@@ -396,12 +396,12 @@ d) $\tan B=\dfrac34$.
 ::key T F F F
 a) True: $\sqrt{36+64}=10$. b) False: $AH=\dfrac{6\cdot8}{10}=4.8$ cm. c) False: $BH=\dfrac{36}{10}=3.6$ cm ($6.4$ is $CH$). d) False: $\tan B=\dfrac{AC}{AB}=\dfrac43$.
 
-::sa
+::sa VD
 A ladder $4$ m long leans against a wall and makes an angle of $60^\circ$ with the ground. How many metres above the ground is the top of the ladder (round to 1 decimal place)?
 ::key 3.5
 $4\sin60^\circ=2\sqrt3\approx3.5$.
 
-::sa
+::sa VD
 A person whose eyes are $1.6$ m above the ground stands $12$ m from the foot of a pole and sees the top of the pole at an angle of elevation of $45^\circ$. How many metres tall is the pole?
 ::key 13.6
 $12\tan45^\circ=12$, and adding the height of the eyes $1.6$ gives $13.6$ m.

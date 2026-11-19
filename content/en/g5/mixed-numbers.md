@@ -288,7 +288,7 @@ $$1\dfrac{1}{2}+2\dfrac{1}{2}+3\dfrac{1}{2}+4\dfrac{1}{2}=10+2=12.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The mixed number $3\dfrac{4}{7}$ changed into a fraction is
 A. $\dfrac{25}{7}$.
 B. $\dfrac{34}{7}$.
@@ -297,7 +297,7 @@ D. $\dfrac{25}{4}$.
 ::key A
 $3\times7+4=25$, so $3\dfrac{4}{7}=\dfrac{25}{7}$. Option C multiplies the whole-number part by the numerator; B writes the digits side by side; D uses the wrong denominator.
 
-::mc
+::mc TH
 The fraction $\dfrac{31}{9}$ changed into a mixed number is
 A. $4\dfrac{3}{9}$.
 B. $3\dfrac{4}{9}$.
@@ -306,7 +306,7 @@ D. $4\dfrac{4}{9}$.
 ::key B
 $31\div9=3$ remainder $4$, so $\dfrac{31}{9}=3\dfrac{4}{9}$. Option A swaps the quotient and the remainder; C gets the remainder wrong; D rounds the quotient up.
 
-::mc
+::mc TH
 The largest of these numbers is
 A. $2\dfrac{9}{10}$.
 B. $3\dfrac{2}{5}$.
@@ -315,7 +315,7 @@ D. $2\dfrac{3}{4}$.
 ::key C
 The two numbers with whole-number part $3$ are greater than the two with whole-number part $2$. Between $3\dfrac{1}{2}$ and $3\dfrac{2}{5}$: $\dfrac{1}{2}=\dfrac{5}{10}>\dfrac{4}{10}=\dfrac{2}{5}$. Option A looks only at the largest fractional part; B assumes that a bigger denominator means a bigger fraction.
 
-::mc
+::mc VD
 $2\dfrac{3}{4}+1\dfrac{2}{3}$ equals
 A. $3\dfrac{5}{7}$.
 B. $3\dfrac{5}{12}$.
@@ -324,7 +324,7 @@ D. $4\dfrac{5}{12}$.
 ::key D
 $\dfrac{3}{4}+\dfrac{2}{3}=\dfrac{17}{12}=1\dfrac{5}{12}$ and $2+1=3$, so the sum is $4\dfrac{5}{12}$. Option A adds numerators and adds denominators; C leaves a fractional part greater than $1$; D forgets to carry $1$.
 
-::tf
+::tf NB NB TH TH
 Look at the mixed number $3\dfrac{2}{5}$.
 a) $3\dfrac{2}{5}=3\times\dfrac{2}{5}$.
 b) $3\dfrac{2}{5}=\dfrac{17}{5}$.
@@ -333,12 +333,12 @@ d) $3\dfrac{2}{5}$ is greater than $3$ but less than $4$.
 ::key F T F T
 a) False: $3\dfrac{2}{5}$ means $3+\dfrac{2}{5}$, not $3\times\dfrac{2}{5}$. b) True: $3\times5+2=17$. c) False: $\dfrac{2}{5}=\dfrac{4}{10}<\dfrac{5}{10}=\dfrac{1}{2}$. d) True: the fractional part $\dfrac{2}{5}$ is less than $1$.
 
-::sa
+::sa NB
 Find the missing number: $4\dfrac{3}{8}=\dfrac{?}{8}$.
 ::key 35
 $4\times8+3=35$.
 
-::sa
+::sa VD
 Two bags of sugar have masses $2\dfrac{3}{4}$ kg and $1\dfrac{1}{2}$ kg. Together they weigh $\dfrac{a}{4}$ kg. Find $a$.
 ::key 17
 $\dfrac{11}{4}+\dfrac{6}{4}=\dfrac{17}{4}$, so $a=17$.

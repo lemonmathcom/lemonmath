@@ -363,7 +363,7 @@ We have $u_{n+1}-u_n=1+\dfrac{1}{n+1}-\dfrac1n=1-\dfrac{1}{n(n+1)}$. Since $n(n+
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Let $(u_n)$ be the sequence with $u_n=n^2-2n$. The term $u_5$ is
 A. $23$.
 B. $35$.
@@ -372,7 +372,7 @@ D. $15$.
 ::key D
 $u_5=25-10=15$. Option A drops the term $-2n$ and subtracts $2$, option B changes the sign to $n^2+2n$, and option C computes $n(n-1)$.
 
-::mc
+::mc TH
 Let $(u_n)$ be the sequence with $u_1=1$ and $u_{n+1}=2u_n+3$. The term $u_4$ is
 A. $29$.
 B. $13$.
@@ -381,7 +381,7 @@ D. $16$.
 ::key A
 $u_2=5$, $u_3=13$, $u_4=2\cdot13+3=29$. Option B is $u_3$, option C forgets to add $3$, and option D forgets to multiply by $2$.
 
-::mc
+::mc TH
 Which of the following sequences is increasing?
 A. $u_n=(-1)^n$.
 B. $u_n=n^2-n$.
@@ -390,7 +390,7 @@ D. $u_n=5-2n$.
 ::key B
 $u_{n+1}-u_n=2n>0$. Sequence B goes up and down, and sequences C and D are decreasing.
 
-::mc
+::mc TH
 Which of the following sequences is bounded?
 A. $u_n=n^2$.
 B. $u_n=2^n$.
@@ -399,7 +399,7 @@ D. $u_n=n+\dfrac1n$.
 ::key C
 $u_n=1-\dfrac{1}{n+1}$, so $\dfrac12\le u_n<1$. Sequences A, B and D all exceed any given number once $n$ is large enough, so they are not bounded above.
 
-::tf
+::tf TH TH VD TH
 Let $(u_n)$ be the sequence with $u_1=2$ and $u_{n+1}=u_n+3$. Decide whether each statement is true or false.
 a) $u_3=9$.
 b) The sequence $(u_n)$ is decreasing.
@@ -408,12 +408,12 @@ d) The sequence $(u_n)$ is bounded below by $2$.
 ::key F F T T
 The terms are $2, 5, 8, 11, \dots$ and $u_n=2+3(n-1)=3n-1$. a) False: $u_3=8$. b) False: $u_{n+1}-u_n=3>0$, so the sequence is increasing. c) True. d) True: the sequence is increasing, so $u_n\ge u_1=2$.
 
-::sa
+::sa VD
 Find the least value of the terms of the sequence $(u_n)$ with $u_n=n^2-7n$.
 ::key -12
 $u_n=\left(n-\dfrac72\right)^2-\dfrac{49}{4}$ is least when $n$ is closest to $\dfrac72$, that is $n=3$ or $n=4$: $u_3=u_4=-12$.
 
-::sa
+::sa VD
 A shop stacks cans in a triangle: the top row has $1$ can and each row below has $1$ more can than the row above. How many cans are needed for $10$ rows?
 ::key 55
 $T_{n+1}=T_n+(n+1)$ gives $1, 3, 6, 10, 15, 21, 28, 36, 45, 55$. So $T_{10}=55$.

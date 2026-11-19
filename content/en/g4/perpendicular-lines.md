@@ -378,7 +378,7 @@ $$(4.5+5)\times2=19\ \text{(cm)}.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Two lines cross and make a right angle. The two lines are
 A. parallel.
 B. without a common point.
@@ -387,7 +387,7 @@ D. perpendicular.
 ::key D
 One right angle means the other three are right angles too, so the lines are perpendicular. Options A and B are wrong because the lines already cross.
 
-::mc
+::mc NB
 Parallel lines are two lines that
 A. never cross, however far they are extended in both directions.
 B. cross and make a right angle.
@@ -396,7 +396,7 @@ D. cross and make an acute angle.
 ::key A
 This is the definition of parallel lines. Option B describes perpendicular lines.
 
-::mc
+::mc NB
 In the rectangle $ABCD$, the side $AB$ is parallel to the side
 A. $BC$.
 B. $CD$.
@@ -405,7 +405,7 @@ D. $AC$.
 ::key B
 The side opposite to $AB$ is $CD$, so $AB\parallel CD$. The sides $BC$ and $DA$ are perpendicular to $AB$; $AC$ is not a side of the rectangle.
 
-::mc
+::mc TH
 Two different lines $a$ and $b$ are both perpendicular to a line $c$. Then
 A. $a$ is perpendicular to $b$.
 B. $a$ meets $b$ at a point.
@@ -414,7 +414,7 @@ D. $a$ and $b$ make an acute angle.
 ::key C
 Two lines perpendicular to the same line are parallel. Option A confuses "both perpendicular to $c$" with "perpendicular to each other".
 
-::tf
+::tf TH NB NB TH
 Look at the rectangle $MNPQ$.
 a) The side $MN$ is parallel to the side $NP$.
 b) The side $MN$ is perpendicular to the side $NP$.
@@ -423,12 +423,12 @@ d) The side $PQ$ is perpendicular to the side $MN$.
 ::key F T T F
 a) False: $MN$ and $NP$ are adjacent sides, so they are perpendicular. b) True: the angle at $N$ is a right angle. c) True: $MQ$ and $NP$ are opposite sides. d) False: $PQ$ and $MN$ are opposite sides, so they are parallel.
 
-::sa
+::sa TH
 How many pairs of perpendicular sides does a rectangle have?
 ::key 4
 A rectangle has four right angles, so it has four pairs of perpendicular sides.
 
-::sa
+::sa VD
 A plot of land is a rectangle $ABCD$ with $AB=16$ m and $AD=7$ m. The point $M$ lies on side $AB$ and the point $N$ on side $DC$ so that $AMND$ is a rectangle with $AM=5$ m. What is the perimeter of the rectangle $AMND$ in metres?
 ::key 24
 $MN=AD=7$ m, so the perimeter is $(5+7)\times2=24$ (m).

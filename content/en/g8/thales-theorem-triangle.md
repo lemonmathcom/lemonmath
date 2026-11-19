@@ -369,7 +369,7 @@ So $\dfrac{AE}{AC}+\dfrac{BF}{BC}=1$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Let $AB=3$ dm and $CD=15$ cm. The ratio $\dfrac{AB}{CD}$ is
 A. $\dfrac12$.
 B. $5$.
@@ -378,7 +378,7 @@ D. $\dfrac15$.
 ::key C
 Converting, $AB=3$ dm $=30$ cm, so $\dfrac{AB}{CD}=\dfrac{30}{15}=2$. A is the reciprocal, and B and D come from a wrong unit.
 
-::mc
+::mc TH
 In triangle $ABC$, $D\in AB$, $E\in AC$, $DE\parallel BC$, $AD=3$ cm, $DB=6$ cm and $AE=2$ cm. The length $EC$ is
 A. $1$ cm.
 B. $3$ cm.
@@ -387,7 +387,7 @@ D. $4$ cm.
 ::key D
 By the intercept theorem, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, so $EC=\dfrac{2\cdot6}{3}=4$ cm. A is $AE:2$, B is $AD$ and C is $DB$.
 
-::mc
+::mc NB
 In triangle $ABC$, $D\in AB$, $E\in AC$ and $DE\parallel BC$. Which equality is correct?
 A. $\dfrac{AD}{AB}=\dfrac{AE}{AC}$.
 B. $\dfrac{AD}{DB}=\dfrac{AE}{AC}$.
@@ -396,7 +396,7 @@ D. $\dfrac{AB}{DB}=\dfrac{AE}{EC}$.
 ::key A
 The intercept theorem gives $\dfrac{AD}{AB}=\dfrac{AE}{AC}$. In B, C and D the segments on the two sides do not correspond.
 
-::mc
+::mc TH
 In triangle $ABC$, $D\in AB$ and $E\in AC$. In which case is $DE\parallel BC$ certain?
 A. $AD=2$, $AB=6$, $AE=2$, $AC=9$.
 B. $AD=2$, $AB=6$, $AE=3$, $AC=9$.
@@ -405,7 +405,7 @@ D. $AD=2$, $DB=4$, $AE=2$, $EC=6$.
 ::key B
 In C, $\dfrac{AD}{AB}=\dfrac26=\dfrac13$ and $\dfrac{AE}{AC}=\dfrac39=\dfrac13$, so the lines are parallel by the converse of the intercept theorem. In A, $\dfrac13\ne\dfrac29$; in B, $\dfrac12\ne\dfrac23$; in D, $\dfrac12\ne\dfrac13$.
 
-::tf
+::tf NB NB TH TH
 Triangle $ABC$ has $AB=12$ cm and $AC=15$ cm; $D\in AB$ with $AD=4$ cm and $E\in AC$ with $AE=6$ cm.
 a) $\dfrac{AD}{AB}=\dfrac13$.
 b) $\dfrac{AE}{AC}=\dfrac25$.
@@ -414,12 +414,12 @@ d) $\dfrac{AD}{DB}=\dfrac{AE}{EC}$.
 ::key T T F F
 a) True: $\dfrac4{12}=\dfrac13$. b) True: $\dfrac6{15}=\dfrac25$. c) False: $\dfrac13\ne\dfrac25$, so the lines are not parallel. d) False: $\dfrac{AD}{DB}=\dfrac48=\dfrac12$ but $\dfrac{AE}{EC}=\dfrac69=\dfrac23$.
 
-::sa
+::sa TH
 In triangle $ABC$, $DE\parallel BC$ ($D\in AB$, $E\in AC$), $AD=4$ cm, $AB=10$ cm and $AC=15$ cm. Find $AE$ (cm).
 ::key 6
 $\dfrac{AE}{15}=\dfrac4{10}$, so $AE=6$ cm.
 
-::sa
+::sa VD
 In triangle $ABC$, $DE\parallel BC$ ($D\in AB$, $E\in AC$), $AD=2$ cm, $DB=3$ cm and $AC=10$ cm. Find $AE$ (cm).
 ::key 4
 $\dfrac{AD}{AB}=\dfrac25$, so $AE=\dfrac25\cdot10=4$ cm.

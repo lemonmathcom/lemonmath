@@ -446,7 +446,7 @@ So there are two tangents satisfying the condition.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The centre of symmetry of the graph of $y=x^3-3x^2+2$ is the point
 A. $I(2, -2)$.
 B. $I(0, 2)$.
@@ -455,7 +455,7 @@ D. $I(-1, -2)$.
 ::key C
 We have $y''=6x-6=0\iff x=1$ and $y(1)=0$. Option B is where the graph meets the y-axis, and option A is the local minimum point of the graph.
 
-::mc
+::mc TH
 The graph of which of the following functions has the vertical asymptote $x=2$ and the horizontal asymptote $y=-1$?
 A. $y=\dfrac{-x+1}{x-2}$.
 B. $y=\dfrac{x+1}{x-2}$.
@@ -464,7 +464,7 @@ D. $y=\dfrac{2x+1}{-x+1}$.
 ::key A
 The graph of $y=\dfrac{ax+b}{cx+d}$ has the vertical asymptote $x=-\dfrac dc$ and the horizontal asymptote $y=\dfrac ac$; for function A, we get $x=2$ and $y=-1$. Option C gets the sign of $-\dfrac dc$ wrong, and option D swaps the roles of the coefficients.
 
-::mc
+::mc TH
 The function $y=f(x)$ is continuous on $\mathbb{R}$, increasing on $(-\infty, -1)$ and $(3, +\infty)$, decreasing on $(-1, 3)$, with $f(-1)=4$, $f(3)=-2$, $\lim\limits_{x\to-\infty}f(x)=-\infty$ and $\lim\limits_{x\to+\infty}f(x)=+\infty$. How many solutions does $f(x)+2=0$ have?
 A. $1$.
 B. $2$.
@@ -473,7 +473,7 @@ D. $0$.
 ::key B
 We have $f(x)+2=0\iff f(x)=-2$. The line $y=-2$ cuts the left-hand part once and only touches the graph at the local minimum point $(3, -2)$, so the equation has $2$ solutions. Option C counts as if $-2$ were between the two extreme values.
 
-::mc
+::mc VD
 The gradient of the tangent to the graph of $y=\dfrac{2x-1}{x+1}$ at the point with x-coordinate $x_0=0$ is
 A. $1$.
 B. $-1$.
@@ -482,7 +482,7 @@ D. $3$.
 ::key D
 We have $y'=\dfrac{2\cdot1-(-1)\cdot1}{(x+1)^2}=\dfrac{3}{(x+1)^2}$, so $y'(0)=3$. Option B is the y-coordinate $y(0)$, and option C computes $bc-ad$ by mistake.
 
-::tf
+::tf TH VDC VD TH
 Suppose the water level (relative to a marker) in an irrigation channel $x$ hours after the sluice gate is opened is modelled by $f(x)=-x^3+6x^2-9x+3$ (dm), $0\le x\le 4$. Decide whether each statement is true or false.
 a) The water level has a local minimum at time $x=1$.
 b) Between $x=1$ and $x=3$, the water level rises fastest at time $x=2$.
@@ -491,12 +491,12 @@ d) At time $x=2$, the water level is rising at $3$ dm per hour.
 ::key T T F T
 a) True: we have $f'(x)=-3(x-1)(x-3)$, which changes sign from $-$ to $+$ at $x=1$. b) True: the rate of rise is $f'(x)$, with $f'(x)>0$ on $(1, 3)$, and $f''(x)=-6x+12$ changes sign from $+$ to $-$ at $x=2$, so $f'$ is greatest at $x=2$. c) False: $f(3)=3$ is the local maximum value, and $f(x)=3\iff -x(x-3)^2=0$, which has only the $2$ solutions $x=0$, $x=3$ in $[0, 4]$. d) True: we have $f'(2)=-3\cdot1\cdot(-1)=3$.
 
-::sa
+::sa VD
 Let $A$ and $B$ be the two turning points of the graph of $y=x^3-3x^2-9x+1$, and $O$ the origin. Find the area of triangle $OAB$.
 ::key 4
 We have $y'=3(x+1)(x-3)$, so $A(-1, 6)$ and $B(3, -26)$. So the area of triangle $OAB$ is $\dfrac12\left|(-1)\cdot(-26)-3\cdot6\right|=\dfrac12\cdot8=4$.
 
-::sa
+::sa VD
 The tangent to the graph of $y=\dfrac{x+2}{x-1}$ at the point with x-coordinate $x_0=3$ meets the x-axis at a point. Find the x-coordinate of that point (give your answer to 1 decimal place).
 ::key 6.3
 We have $y(3)=\dfrac52$ and $y'=\dfrac{-3}{(x-1)^2}$, so $y'(3)=-\dfrac34$. The tangent is $y=-\dfrac34(x-3)+\dfrac52$. Setting $y=0$, we get $x=\dfrac{19}{3}\approx6.33$. So the required x-coordinate, rounded, is $6.3$.

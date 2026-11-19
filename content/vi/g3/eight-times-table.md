@@ -327,7 +327,7 @@ b) Số túi chưa đóng là $10-6=4$ (túi). Số bi đã đóng là $8\times6
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $8\times5$ là
 A. $13$.
 B. $40$.
@@ -336,7 +336,7 @@ D. $35$.
 ::key B
 $8\times5=8\times4+8=32+8=40$. Phương án A là lỗi cộng $8+5$.
 
-::mc
+::mc NB
 Kết quả của $8\times7$ là
 A. $54$.
 B. $48$.
@@ -345,7 +345,7 @@ D. $15$.
 ::key C
 $8\times7=48+8=56$. Phương án B là $8\times6$, thiếu một nhóm $8$.
 
-::mc
+::mc NB
 Kết quả của $72:8$ là
 A. $8$.
 B. $9$.
@@ -354,7 +354,7 @@ D. $64$.
 ::key B
 Vì $8\times9=72$ nên $72:8=9$. Phương án A là lỗi nhớ nhầm $8\times8=64$.
 
-::mc
+::mc TH
 Mỗi hộp có $8$ cây bút chì. Hỏi $6$ hộp như vậy có bao nhiêu cây bút chì?
 A. $14$ cây.
 B. $42$ cây.
@@ -363,7 +363,7 @@ D. $56$ cây.
 ::key C
 $6$ nhóm, mỗi nhóm $8$ cây: $8\times6=48$. Phương án A là lỗi cộng $8+6$.
 
-::tf
+::tf TH NB TH NB
 Em xét phép nhân $8\times8=64$.
 a) $8\times8=8\times7+8$.
 b) $64:8=8$.
@@ -372,12 +372,12 @@ d) $8\times8$ bé hơn $60$.
 ::key Đ Đ S S
 a) Đúng: $56+8=64$. b) Đúng: $8\times8=64$. c) Sai: $64:4=16$. d) Sai: $64>60$.
 
-::sa
+::sa NB
 Tính $8\times9$.
 ::key 72
 $8\times9=8\times10-8=80-8=72$.
 
-::sa
+::sa TH
 Có $48$ cái bánh chia vào các hộp, mỗi hộp $8$ cái. Hỏi chia được bao nhiêu hộp?
 ::key 6
 $48:8=6$ (hộp), vì $8\times6=48$.

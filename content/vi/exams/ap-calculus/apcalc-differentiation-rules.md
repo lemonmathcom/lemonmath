@@ -264,7 +264,7 @@ Thay $b=2a$ vào $a=b-2$ được $a=2a-2$, nên $a=2$ và $b=4$. Kiểm tra: c�
 :::
 
 :::quiz
-::mc
+::mc NB
 $\dfrac{d}{dx}\left(x^5\right)$ bằng
 A. $5x^4$
 B. $x^4$
@@ -273,7 +273,7 @@ D. $\dfrac{x^6}{6}$
 ::key A
 Quy tắc luỹ thừa. Phương án D là một nguyên hàm.
 
-::mc
+::mc NB
 $\dfrac{d}{dx}\left(\cos x\right)$ bằng
 A. $\sin x$
 B. $-\cos x$
@@ -282,7 +282,7 @@ D. $\sec^2x$
 ::key C
 Đạo hàm của côsin là trừ sin.
 
-::mc
+::mc TH
 Với $f(x)=x^2\ln x$, $f'(1)$ bằng
 A. $0$
 B. $1$
@@ -291,7 +291,7 @@ D. $e$
 ::key B
 $f'(x)=2x\ln x+x$, nên $f'(1)=0+1=1$.
 
-::mc
+::mc TH
 Hệ số góc của tiếp tuyến với $y=\sqrt x$ tại $x=4$ là
 A. $2$
 B. $\dfrac12$
@@ -300,7 +300,7 @@ D. $\dfrac14$
 ::key D
 $y'=\dfrac{1}{2\sqrt x}=\dfrac14$ tại $x=4$.
 
-::tf
+::tf NB TH TH TH
 Cho $g(x)=x^3-3x$.
 a) $g'(x)=3x^2-3$.
 b) $g'(1)=0$.
@@ -309,12 +309,12 @@ d) $g$ không có đạo hàm tại $x=0$.
 ::key Đ Đ Đ S
 a) Đúng. b) Đúng. c) Đúng: $12-3=9$. d) Sai: đa thức có đạo hàm tại mọi điểm.
 
-::sa
+::sa TH
 Tính $\displaystyle\lim_{h\to0}\frac{(3+h)^2-9}{h}$.
 ::key 6
 Đây là $f'(3)$ với $f(x)=x^2$: $2\cdot3=6$.
 
-::sa
+::sa VD
 Với $f(x)=\dfrac{x}{x+1}$, tính $f'(1)$. Viết đáp số dưới dạng số thập phân.
 ::key 0,25
 $f'(x)=\dfrac{(x+1)-x}{(x+1)^2}=\dfrac{1}{(x+1)^2}$, nên $f'(1)=\dfrac14=0{,}25$.

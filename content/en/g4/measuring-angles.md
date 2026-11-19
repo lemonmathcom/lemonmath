@@ -379,7 +379,7 @@ The sizes of the angle at $1$, $2$, $3$, $4$, $5$, $6$ o'clock are $30^\circ$, $
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of these sizes is the size of an obtuse angle?
 A. $45^\circ$.
 B. $90^\circ$.
@@ -388,7 +388,7 @@ D. $180^\circ$.
 ::key C
 An obtuse angle is more than $90^\circ$ and less than $180^\circ$, so only $135^\circ$ fits. $90^\circ$ is a right angle, $45^\circ$ is an acute angle and $180^\circ$ is a straight angle.
 
-::mc
+::mc TH
 At $5$ o'clock, the two hands of a clock make an angle of
 A. $120^\circ$.
 B. $90^\circ$.
@@ -397,7 +397,7 @@ D. $150^\circ$.
 ::key D
 Each hour is $30^\circ$, so at $5$ o'clock the angle is $5\times30^\circ=150^\circ$. Option A is $4$ o'clock, option C is $2$ o'clock and option B is $3$ o'clock.
 
-::mc
+::mc VD
 A door is opened through an angle of $45^\circ$, then opened a further $50^\circ$. The angle through which the door is now open is
 A. $95^\circ$, an obtuse angle.
 B. $90^\circ$.
@@ -406,7 +406,7 @@ D. $5^\circ$.
 ::key A
 $45^\circ+50^\circ=95^\circ$. Since $95^\circ>90^\circ$, it is an obtuse angle. Option D is the subtraction, option B is a wrong calculation, and option C names the wrong kind of angle.
 
-::mc
+::mc TH
 A straight angle is split into two angles, and one of them measures $75^\circ$. The other angle measures
 A. $15^\circ$.
 B. $105^\circ$.
@@ -415,7 +415,7 @@ D. $115^\circ$.
 ::key B
 $180^\circ-75^\circ=105^\circ$. Option A takes $90^\circ-75^\circ$, option C takes $180^\circ+75^\circ$, and option D is a wrong subtraction.
 
-::tf
+::tf NB TH NB NB
 Look at these statements.
 a) An angle of $90^\circ$ is an obtuse angle.
 b) An angle of $120^\circ$ is greater than a right angle.
@@ -424,12 +424,12 @@ d) An angle of $50^\circ$ is an acute angle.
 ::key F T T T
 a) False: $90^\circ$ is a right angle. b) True: $120^\circ>90^\circ$. c) True: a straight angle is $180^\circ$. d) True: $50^\circ<90^\circ$.
 
-::sa
+::sa TH
 A straight angle is split into two angles, and one angle measures $72^\circ$. How many degrees is the other angle?
 ::key 108
 $180^\circ-72^\circ=108^\circ$.
 
-::sa
+::sa TH
 A door is opened through an angle of $40^\circ$, then opened a further $55^\circ$ and a further $30^\circ$. Through how many degrees is the door open?
 ::key 125
 $40^\circ+55^\circ+30^\circ=125^\circ$.

@@ -324,7 +324,7 @@ At the start there are $4$ right angles. Cutting off one corner removes $1$ righ
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which tool is used to test for a right angle?
 A. A ruler.
 B. A set square.
@@ -333,7 +333,7 @@ D. A pair of scales.
 ::key B
 A set square has a right angle to compare with the angle being tested. Option A is the mistake of using a ruler, which measures length.
 
-::mc
+::mc NB
 An angle has vertex $O$ and sides $OA$ and $OB$. The vertex of the angle is
 A. $A$.
 B. $B$.
@@ -342,7 +342,7 @@ D. $AB$.
 ::key C
 The vertex is the point shared by the sides $OA$ and $OB$, that is $O$.
 
-::mc
+::mc TH
 Which of these has a right angle?
 A. The two clock hands at $1$ o'clock.
 B. A roof shaped like the letter A.
@@ -351,7 +351,7 @@ D. The letter $V$.
 ::key C
 The corner of a book fits the set square. The other options are closer together than a right angle.
 
-::mc
+::mc TH
 Which statement is true?
 A. An angle with longer sides is bigger.
 B. Two right angles are always equal, even if their sides have different lengths.
@@ -360,7 +360,7 @@ D. Every angle is a right angle.
 ::key B
 The length of the sides does not change whether an angle is a right angle. Option A is a mistake people often make by eye.
 
-::tf
+::tf NB NB TH TH
 You use a set square to test the angle with vertex $O$.
 a) If both sides of the angle line up with both sides of the set square, it is a right angle.
 b) If a side of the set square leaves a gap, the angle is not a right angle.
@@ -369,12 +369,12 @@ d) The lengths of the two sides decide whether the angle is a right angle.
 ::key T T F F
 a) True: fitting the set square means a right angle. b) True: a gap means it is not a right angle. c) False: the eye is easily fooled. d) False: the length of the sides does not decide.
 
-::sa
+::sa TH
 How many right angles does a neatly written letter $L$ have?
 ::key 1
 The two strokes of the letter $L$ meet at one right angle.
 
-::sa
+::sa VD
 A rectangular sheet of paper has $4$ right angles. One corner is cut off with a single straight cut. How many right angles are left?
 ::key 3
 Cutting off one right angle leaves $4-1=3$ right angles.

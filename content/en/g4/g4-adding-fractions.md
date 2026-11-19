@@ -350,7 +350,7 @@ It is short of $1$ by $1-\dfrac{15}{16}=\dfrac{16}{16}-\dfrac{15}{16}=\dfrac{1}{
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $\dfrac{2}{7}+\dfrac{3}{7}$ equals
 A. $\dfrac{5}{14}$.
 B. $\dfrac{5}{7}$.
@@ -359,7 +359,7 @@ D. $\dfrac{6}{7}$.
 ::key B
 With the same denominator, add the numerators and keep the denominator: $\dfrac{2+3}{7}=\dfrac{5}{7}$. Option A adds the two denominators.
 
-::mc
+::mc TH
 $\dfrac{1}{2}+\dfrac{1}{3}$ equals
 A. $\dfrac{1}{6}$.
 B. $\dfrac{2}{5}$.
@@ -368,7 +368,7 @@ D. $\dfrac{2}{6}$.
 ::key C
 $\dfrac{1}{2}+\dfrac{1}{3}=\dfrac{3}{6}+\dfrac{2}{6}=\dfrac{5}{6}$. Option B is the mistake of adding both numerators and denominators.
 
-::mc
+::mc TH
 $\dfrac{5}{6}-\dfrac{1}{4}$ equals
 A. $\dfrac{4}{10}$.
 B. $\dfrac{4}{2}$.
@@ -377,7 +377,7 @@ D. $\dfrac{7}{12}$.
 ::key D
 $\dfrac{5}{6}-\dfrac{1}{4}=\dfrac{10}{12}-\dfrac{3}{12}=\dfrac{7}{12}$. Option C is the addition, and option B subtracts both the numerators and the denominators.
 
-::mc
+::mc TH
 $1-\dfrac{3}{8}$ equals
 A. $\dfrac{5}{8}$.
 B. $\dfrac{4}{8}$.
@@ -386,7 +386,7 @@ D. $\dfrac{3}{8}$.
 ::key A
 $1=\dfrac{8}{8}$, so $1-\dfrac{3}{8}=\dfrac{8}{8}-\dfrac{3}{8}=\dfrac{5}{8}$.
 
-::tf
+::tf TH TH TH TH
 Look at the sum $\dfrac{3}{8}+\dfrac{1}{8}$.
 a) $\dfrac{3}{8}+\dfrac{1}{8}=\dfrac{4}{16}$.
 b) $\dfrac{3}{8}+\dfrac{1}{8}=\dfrac{4}{8}$.
@@ -395,12 +395,12 @@ d) This sum is greater than $1$.
 ::key F T T F
 a) False: keep the denominator; do not add the denominators. b) True: $\dfrac{3+1}{8}$. c) True: $\dfrac{4}{8}=\dfrac{1}{2}$. d) False: $\dfrac{1}{2}<1$.
 
-::sa
+::sa NB
 Work out $\dfrac{3}{4}+\dfrac{1}{4}$.
 ::key 1
 $\dfrac{3}{4}+\dfrac{1}{4}=\dfrac{4}{4}=1$.
 
-::sa
+::sa VD
 In a garden, $\dfrac{1}{2}$ of the area grows vegetables and $\dfrac{1}{5}$ grows flowers. Written with denominator $10$, what is the numerator of the fraction of the area that is left?
 ::key 3
 $\dfrac{1}{2}+\dfrac{1}{5}=\dfrac{5}{10}+\dfrac{2}{10}=\dfrac{7}{10}$, so the part left is $1-\dfrac{7}{10}=\dfrac{3}{10}$.

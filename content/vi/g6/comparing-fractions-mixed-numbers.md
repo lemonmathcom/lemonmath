@@ -493,7 +493,7 @@ Vậy $x\in\{-5;-4\}$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Mẫu chung nhỏ nhất khi quy đồng mẫu hai phân số $\dfrac{5}{6}$ và $\dfrac{3}{8}$ là
 A. $48$.
 B. $24$.
@@ -502,7 +502,7 @@ D. $2$.
 ::key B
 $\text{BCNN}(6, 8)=24$. A là tích hai mẫu (là mẫu chung nhưng chưa nhỏ nhất); C là tổng hai mẫu; D là ƯCLN.
 
-::mc
+::mc TH
 Khẳng định nào sau đây đúng?
 A. $\dfrac{-3}{5}>\dfrac{-2}{5}$.
 B. $\dfrac{-1}{2}>\dfrac{1}{3}$.
@@ -511,7 +511,7 @@ D. $0<\dfrac{-1}{9}$.
 ::key C
 Cùng mẫu dương $7$ và $-5<-3$. A so sánh tử âm như số tự nhiên; B và D cho phân số âm lớn hơn số không âm.
 
-::mc
+::mc TH
 Phân số $\dfrac{19}{4}$ viết dưới dạng hỗn số là
 A. $4\dfrac{3}{4}$.
 B. $4\dfrac{1}{4}$.
@@ -520,7 +520,7 @@ D. $5\dfrac{1}{4}$.
 ::key A
 $19:4=4$ dư $3$ nên $\dfrac{19}{4}=4\dfrac34$. B sai số dư; C sai phần nguyên; D lấy thừa phần nguyên.
 
-::mc
+::mc VD
 Trong các phân số $\dfrac{2}{3}$; $\dfrac{5}{8}$; $\dfrac{7}{12}$; $\dfrac{3}{4}$, phân số lớn nhất là
 A. $\dfrac{2}{3}$.
 B. $\dfrac{5}{8}$.
@@ -529,7 +529,7 @@ D. $\dfrac{3}{4}$.
 ::key D
 Quy đồng mẫu $24$: $\dfrac{16}{24}$; $\dfrac{15}{24}$; $\dfrac{14}{24}$; $\dfrac{18}{24}$. Tử lớn nhất là $18$, ứng với $\dfrac34$.
 
-::tf
+::tf TH VD TH TH
 Xét tính đúng sai của các mệnh đề sau:
 a) Trong hai phân số dương có cùng tử, phân số nào có mẫu lớn hơn thì lớn hơn.
 b) $\dfrac{-7}{8}>\dfrac{-5}{6}$.
@@ -538,12 +538,12 @@ d) $2\dfrac{1}{5}=\dfrac{11}{5}$.
 ::key S S Đ Đ
 a) Sai: ví dụ $\dfrac13<\dfrac12$ dù $3>2$; chia làm nhiều phần hơn thì mỗi phần nhỏ hơn. b) Sai: $\dfrac{-21}{24}<\dfrac{-20}{24}$. c) Đúng: số âm nhỏ hơn $0$, số dương lớn hơn $0$. d) Đúng: $\dfrac{2\cdot5+1}{5}=\dfrac{11}{5}$.
 
-::sa
+::sa TH
 Biết $5\dfrac{2}{3}=\dfrac{x}{3}$. Tìm số tự nhiên $x$.
 ::key 17
 $5\dfrac23=\dfrac{5\cdot3+2}{3}=\dfrac{17}{3}$ nên $x=17$.
 
-::sa
+::sa VD
 Có bao nhiêu số nguyên $x$ thoả mãn $\dfrac{1}{3}<\dfrac{x}{6}<\dfrac{3}{2}$?
 ::key 6
 Quy đồng mẫu $6$: $\dfrac26<\dfrac{x}{6}<\dfrac96$ nên $2<x<9$. Các số đó là $3$; $4$; $5$; $6$; $7$; $8$, gồm $6$ số.

@@ -456,7 +456,7 @@ Hai mặt phẳng $(SAB)$, $(SAC)$ cắt nhau theo $SA$ và cùng vuông góc v�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hai mặt phẳng cắt nhau có một góc nhị diện với góc phẳng $120^\circ$. Góc giữa hai mặt phẳng đó bằng
 A. $120^\circ$.
 B. $30^\circ$.
@@ -465,7 +465,7 @@ D. $90^\circ$.
 ::key C
 Góc giữa hai mặt phẳng không vượt quá $90^\circ$ nên lấy $180^\circ-120^\circ=60^\circ$. Phương án A quên đổi góc tù.
 
-::mc
+::mc TH
 Cho hình lập phương $ABCD.A'B'C'D'$. Mặt phẳng nào sau đây **không** vuông góc với $(ABCD)$?
 A. $(ABB'A')$.
 B. $(BCC'B')$.
@@ -474,7 +474,7 @@ D. $(A'BCD')$.
 ::key D
 Các mặt phẳng ở A, B, C đều chứa một cạnh bên vuông góc với $(ABCD)$. Mặt phẳng $(A'BCD')$ tạo với $(ABCD)$ góc $45^\circ$.
 
-::mc
+::mc TH
 Cho hình chóp $S.ABCD$ có đáy là hình vuông và $SA\perp(ABCD)$. Mặt phẳng nào sau đây vuông góc với $(SAC)$?
 A. $(SBD)$.
 B. $(SAD)$.
@@ -483,7 +483,7 @@ D. $(SBC)$.
 ::key A
 $BD\perp AC$ và $BD\perp SA$ nên $BD\perp(SAC)$, suy ra $(SBD)\perp(SAC)$. Các mặt phẳng còn lại đều đi qua $SA$ và không vuông góc với $(SAC)$.
 
-::mc
+::mc VD
 Hình chóp tứ giác đều có cạnh đáy $6$ và chiều cao $4$. Tang của góc giữa mặt bên và mặt đáy bằng
 A. $\dfrac34$.
 B. $\dfrac43$.
@@ -492,7 +492,7 @@ D. $\dfrac23$.
 ::key B
 Góc phẳng là $\widehat{SMO}$ với $OM=3$, $SO=4$ nên $\tan=\dfrac{SO}{OM}=\dfrac43$. Phương án A đảo tỉ số, C dùng $OB=3\sqrt2$ thay cho $OM$, D dùng cả cạnh đáy $6$.
 
-::tf
+::tf TH TH VD VD
 Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $4$ và chiều cao $SO=2\sqrt3$ ($O$ là tâm đáy, $M$ là trung điểm $BC$).
 a) $(SAC)\perp(ABCD)$.
 b) $(SAC)\perp(SBD)$.
@@ -501,12 +501,12 @@ d) $SM=4$.
 ::key Đ Đ S Đ
 a) Đúng: $(SAC)$ chứa $SO\perp(ABCD)$. b) Đúng: $BD\perp AC$ và $BD\perp SO$ nên $BD\perp(SAC)$. c) Sai: $\tan\widehat{SMO}=\dfrac{2\sqrt3}{2}=\sqrt3$ nên góc là $60^\circ$. d) Đúng: $SM=\sqrt{12+4}=4$.
 
-::sa
+::sa VD
 Cho hình lập phương $ABCD.A'B'C'D'$. Tính số đo (độ) của góc giữa $(A'BD)$ và $(ABCD)$, làm tròn đến hàng phần mười.
 ::key 54,7
 Gọi $O$ là tâm $ABCD$, góc phẳng là $\widehat{A'OA}$ với $\tan=\dfrac{AA'}{AO}=\dfrac{a}{a\sqrt2/2}=\sqrt2$, nên góc xấp xỉ $54{,}7^\circ$.
 
-::sa
+::sa VD
 Hình chóp $S.ABCD$ có đáy là hình chữ nhật $AB=4$, $BC=3$, tam giác $SAB$ đều và $(SAB)\perp(ABCD)$. Tính độ dài $SC$.
 ::key 5
 Gọi $H$ là trung điểm $AB$ thì $SH\perp(ABCD)$ và $SH=2\sqrt3$, $HC=\sqrt{4+9}=\sqrt{13}$. Vậy $SC=\sqrt{12+13}=5$.

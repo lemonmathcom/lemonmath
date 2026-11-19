@@ -306,7 +306,7 @@ Ta có $9+5=14$, $9+6=15$, $9+7=16$, $9+8=17$, $9+9=18$. Các tổng lớn hơn 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $9+7$ là
 A. $16$.
 B. $17$.
@@ -315,7 +315,7 @@ D. $15$.
 ::key A
 $9+7=9+1+6=10+6=16$. Phương án D tách sai (thiếu 1), phương án B và C cộng thừa.
 
-::mc
+::mc TH
 Kết quả của $8+5$ là
 A. $12$.
 B. $13$.
@@ -324,7 +324,7 @@ D. $10$.
 ::key B
 $8+5=8+2+3=10+3=13$. Phương án D quên cộng phần còn lại.
 
-::mc
+::mc TH
 Để tính $7+6$, em tách $6=3+3$. Cách làm đúng là
 A. $7+3+4$.
 B. $7+6+3$.
@@ -333,7 +333,7 @@ D. $7+3+6$.
 ::key C
 Sau khi lấy 3 để được 10, em còn lại $6-3=3$, nên viết $7+3+3=10+3=13$. Phương án A, B, D cộng thừa hoặc thiếu.
 
-::mc
+::mc TH
 Giả sử hộp có 8 chiếc bút đỏ và 9 chiếc bút xanh. Hộp có tất cả
 A. $16$ chiếc bút.
 B. $1$ chiếc bút.
@@ -342,7 +342,7 @@ D. $17$ chiếc bút.
 ::key D
 "Tất cả" là gộp lại: $8+9=17$. Phương án B là phép trừ nhầm.
 
-::tf
+::tf TH TH NB TH
 Cho phép tính $8+6$.
 a) Có thể tách $6=2+4$ để tính $8+6=8+2+4$.
 b) $8+6=15$.
@@ -351,12 +351,12 @@ d) Tổng $8+6$ bé hơn 14.
 ::key Đ S Đ S
 a) Đúng: $8+2=10$, rồi cộng 4. b) Sai: $8+6=14$, không phải 15. c) Đúng: đổi chỗ hai số hạng thì tổng không đổi. d) Sai: tổng bằng 14, không bé hơn 14.
 
-::sa
+::sa TH
 Tính $9+8$.
 ::key 17
 $9+8=9+1+7=10+7=17$.
 
-::sa
+::sa TH
 Buổi sáng Lan gấp 7 chiếc thuyền giấy, buổi chiều gấp 6 chiếc. Cả hai buổi Lan gấp được bao nhiêu chiếc thuyền?
 ::key 13
 $7+6=7+3+3=13$ (chiếc).

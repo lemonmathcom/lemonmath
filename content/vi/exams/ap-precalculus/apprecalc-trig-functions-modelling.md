@@ -288,7 +288,7 @@ Vậy $a=4$, $b=\dfrac\pi4$ và $k=3$, tức $f(x)=4\sin\dfrac{\pi x}{4}+3$.
 :::
 
 :::quiz
-::mc
+::mc NB
 Chu kì của $y=\sin4x$ là
 A. $4\pi$
 B. $\dfrac\pi4$
@@ -297,7 +297,7 @@ D. $8\pi$
 ::key C
 $\dfrac{2\pi}{4}=\dfrac\pi2$.
 
-::mc
+::mc NB
 Biên độ của $y=-5\cos x+1$ là
 A. $-5$
 B. $1$
@@ -306,7 +306,7 @@ D. $5$
 ::key D
 Biên độ là $\lvert-5\rvert=5$.
 
-::mc
+::mc NB
 Giá trị đúng của $\sin\dfrac\pi3$ là
 A. $\dfrac{\sqrt3}{2}$
 B. $\dfrac12$
@@ -315,7 +315,7 @@ D. $\sqrt3$
 ::key A
 Theo đường tròn lượng giác.
 
-::mc
+::mc NB
 Đường trung bình của $y=2\sin x+7$ là
 A. $y=2$
 B. $y=7$
@@ -324,7 +324,7 @@ D. $y=5$
 ::key B
 Độ dịch dọc $k=7$ cho đường trung bình.
 
-::tf
+::tf NB NB TH TH
 Cho $y=3\sin2x$. Xét tính đúng sai của các mệnh đề sau:
 a) Biên độ là $3$.
 b) Chu kì là $\pi$.
@@ -333,12 +333,12 @@ d) Giá trị lớn nhất là $6$.
 ::key T T T F
 Giá trị lớn nhất là $3$.
 
-::sa
+::sa TH
 Tìm chu kì của $y=\sin\dfrac{\pi x}{6}$.
 ::key 12
 $\dfrac{2\pi}{\pi/6}=12$.
 
-::sa
+::sa TH
 Tìm giá trị lớn nhất của $y=2\cos x+3$.
 ::key 5
 $3+2=5$.

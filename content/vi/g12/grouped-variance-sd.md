@@ -366,7 +366,7 @@ $$s^2_{\text{mới}}=3600\cdot1{,}1275=4059,\qquad s_{\text{mới}}=60\cdot\sqrt
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Trong mẫu số liệu ghép nhóm, giá trị đại diện của nhóm $[20; 30)$ là
 A. $20$.
 B. $25$.
@@ -375,7 +375,7 @@ D. $10$.
 ::key B
 Giá trị đại diện là trung điểm của nhóm: $\dfrac{20+30}{2}=25$. Phương án A và C là hai đầu mút, phương án D là độ rộng nhóm.
 
-::mc
+::mc NB
 Một mẫu số liệu ghép nhóm có phương sai $s^2=2{,}25$. Độ lệch chuẩn của mẫu số liệu là
 A. $1{,}125$.
 B. $5{,}0625$.
@@ -384,7 +384,7 @@ D. $1{,}5$.
 ::key D
 $s=\sqrt{s^2}=\sqrt{2{,}25}=1{,}5$. Phương án B bình phương thay vì khai căn, phương án A chia đôi thay vì khai căn.
 
-::mc
+::mc VD
 Cho mẫu số liệu ghép nhóm sau. Phương sai của mẫu số liệu là
 
 | Nhóm | $[0; 2)$ | $[2; 4)$ | $[4; 6)$ | $[6; 8)$ |
@@ -398,7 +398,7 @@ D. $0$.
 ::key A
 Giá trị đại diện $1$, $3$, $5$, $7$ và $\bar{x}=4$; độ lệch $-3$, $-1$, $1$, $3$. $s^2=\dfrac{2\cdot9+3\cdot1+3\cdot1+2\cdot9}{10}=4{,}2$. Phương án B quên nhân với tần số, phương án C là độ lệch chuẩn, phương án D cộng các độ lệch mà không bình phương.
 
-::mc
+::mc TH
 Hai mẫu số liệu ghép nhóm $A$ và $B$ có cùng số trung bình, với độ lệch chuẩn $s_A=2{,}1$ và $s_B=3{,}4$. Khẳng định nào sau đây đúng?
 A. Mẫu $A$ chắc chắn có khoảng biến thiên nhỏ hơn mẫu $B$.
 B. Số liệu của mẫu $B$ đồng đều hơn số liệu của mẫu $A$.
@@ -407,7 +407,7 @@ D. Hai mẫu có độ phân tán như nhau.
 ::key C
 Cùng số trung bình, độ lệch chuẩn nhỏ hơn nghĩa là số liệu ít phân tán hơn. Độ lệch chuẩn không cho biết chắc chắn về khoảng biến thiên, nên A sai.
 
-::tf
+::tf NB TH VD TH
 Quãng đường chạy mỗi tuần (km) của $20$ người được cho trong bảng sau.
 
 | Quãng đường (km) | $[10; 20)$ | $[20; 30)$ | $[30; 40)$ | $[40; 50)$ |
@@ -421,7 +421,7 @@ d) Nếu đổi mọi số liệu sang đơn vị khác bằng cách nhân với
 ::key Đ Đ Đ S
 a) Đúng: $\dfrac{30+40}{2}=35$. b) Đúng: $\bar{x}=\dfrac{60+150+280+90}{20}=29$. c) Đúng: $\dfrac{\sum n_ix_i^2}{n}=\dfrac{18500}{20}=925$, $s^2=925-29^2=84$. d) Sai: mọi độ lệch nhân với $2$ nên phương sai nhân với $4$, bằng $336$.
 
-::sa
+::sa VD
 Thời gian tự học mỗi tuần (giờ) của $30$ học sinh được cho trong bảng sau. Tính độ lệch chuẩn của mẫu số liệu (làm tròn kết quả đến hàng phần trăm).
 
 | Thời gian (giờ) | $[0; 3)$ | $[3; 6)$ | $[6; 9)$ | $[9; 12)$ |
@@ -431,7 +431,7 @@ Thời gian tự học mỗi tuần (giờ) của $30$ học sinh được cho t
 ::key 2,65
 Giá trị đại diện $1{,}5$; $4{,}5$; $7{,}5$; $10{,}5$. $\bar{x}=\dfrac{183}{30}=6{,}1$, $\dfrac{\sum n_ix_i^2}{n}=\dfrac{1327{,}5}{30}=44{,}25$, nên $s^2=44{,}25-6{,}1^2=7{,}04$ và $s\approx2{,}653$, làm tròn được $2{,}65$.
 
-::sa
+::sa VD
 Chiều dài (mm) của $40$ chi tiết máy được cho trong bảng sau. Tính phương sai của mẫu số liệu (làm tròn kết quả đến hàng phần trăm).
 
 | Chiều dài (mm) | $[48; 49)$ | $[49; 50)$ | $[50; 51)$ | $[51; 52)$ |

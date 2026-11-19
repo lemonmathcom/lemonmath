@@ -427,7 +427,7 @@ $$\begin{cases} x + y = 5\\ 2x - y = 1\end{cases}\iff\begin{cases} x = 2\\ y = 3
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Suppose $|\vec{a}|=4$. The length of the vector $-3\vec{a}$ is
 A. $12$.
 B. $-12$.
@@ -436,7 +436,7 @@ D. $1$.
 ::key A
 $|-3\vec{a}|=|-3|\cdot|\vec{a}|=3\cdot4=12$. A length is never negative, so option B (forgetting the absolute value) is wrong.
 
-::mc
+::mc TH
 Simplifying $2(\vec{a}+\vec{b})-3(\vec{a}-\vec{b})$ gives
 A. $-\vec{a}-\vec{b}$.
 B. $-\vec{a}+5\vec{b}$.
@@ -445,7 +445,7 @@ D. $-\vec{a}+\vec{b}$.
 ::key B
 $2\vec{a}+2\vec{b}-3\vec{a}+3\vec{b}=-\vec{a}+5\vec{b}$. Option A forgets to change the sign: $-3\cdot(-\vec{b})=+3\vec{b}$.
 
-::mc
+::mc TH
 Let $\vec{a}$, $\vec{b}$ be non-collinear. Which vector is collinear with $\vec{u}=2\vec{a}-3\vec{b}$?
 A. $4\vec{a}+6\vec{b}$.
 B. $2\vec{a}+3\vec{b}$.
@@ -454,7 +454,7 @@ D. $-2\vec{a}-6\vec{b}$.
 ::key C
 $-4\vec{a}+6\vec{b}=-2(2\vec{a}-3\vec{b})=-2\vec{u}$. The other options cannot be written as $k\vec{u}$: their coefficients are not in the same ratio (A and B get one sign wrong, D multiplies the two coefficients by different numbers).
 
-::mc
+::mc NB
 In triangle $ABC$, $M$ is the midpoint of $BC$. Which claim is true?
 A. $\overrightarrow{AM}=\overrightarrow{AB}+\overrightarrow{AC}$.
 B. $\overrightarrow{AM}=\dfrac12(\overrightarrow{AB}-\overrightarrow{AC})$.
@@ -463,7 +463,7 @@ D. $\overrightarrow{AM}=\dfrac12(\overrightarrow{AB}+\overrightarrow{AC})$.
 ::key D
 The midpoint formula with $O=A$: $\overrightarrow{AB}+\overrightarrow{AC}=2\overrightarrow{AM}$. Option A forgets to divide by $2$; option C actually equals $\dfrac12\overrightarrow{BC}$.
 
-::tf
+::tf TH VD NB NB
 In triangle $ABC$, the point $D$ lies on side $BC$ with $\overrightarrow{BD}=3\overrightarrow{DC}$.
 a) $\overrightarrow{BD}=\dfrac34\overrightarrow{BC}$.
 b) $\overrightarrow{AD}=\dfrac34\overrightarrow{AB}+\dfrac14\overrightarrow{AC}$.
@@ -472,12 +472,12 @@ d) $BD=3DC$.
 ::key T F T T
 a) True: $BC=BD+DC=4DC$, so $BD=\dfrac34BC$, in the same direction. b) False: $\overrightarrow{AD}=\overrightarrow{AB}+\dfrac34(\overrightarrow{AC}-\overrightarrow{AB})=\dfrac14\overrightarrow{AB}+\dfrac34\overrightarrow{AC}$ (the two coefficients are swapped). c) True: $\overrightarrow{DB}=-\overrightarrow{BD}=-3\overrightarrow{DC}$. d) True: take the lengths of both sides.
 
-::sa
+::sa VD
 Let $\vec{a}$, $\vec{b}$ be non-collinear, $\vec{u}=3\vec{a}-2\vec{b}$ and $\vec{v}=k\vec{a}+4\vec{b}$. Find the number $k$ for which $\vec{u}$ and $\vec{v}$ are collinear.
 ::key -6
 We need $\vec{v}=t\vec{u}$: comparing the coefficients of $\vec{b}$ gives $-2t=4$, so $t=-2$. Then $k=3t=-6$.
 
-::sa
+::sa VD
 Triangle $ABC$ has $AB=4$, $AC=6$, $\angle BAC=60^\circ$ and centroid $G$. Find $AG$ (rounded to one decimal place).
 ::key 2.9
 With $M$ the midpoint of $BC$: $\overrightarrow{AG}=\dfrac23\overrightarrow{AM}=\dfrac13(\overrightarrow{AB}+\overrightarrow{AC})$. Completing the parallelogram $ABDC$ gives $AD^2=4^2+6^2-2\cdot4\cdot6\cos120^\circ=76$, so $AG=\dfrac{AD}{3}=\dfrac{\sqrt{76}}{3}\approx2.91$, which rounds to $2.9$.

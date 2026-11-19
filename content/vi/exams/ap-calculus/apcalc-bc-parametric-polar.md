@@ -245,7 +245,7 @@ $\cos\theta=\dfrac12$, nên $\theta=\dfrac\pi3$ (nghiệm $\cos\theta=-1$ cho $\
 :::
 
 :::quiz
-::mc
+::mc TH
 Với $x=t^3$, $y=t^2+1$, giá trị của $\dfrac{dy}{dx}$ tại $t=1$ bằng
 A. $\dfrac32$
 B. $\dfrac23$
@@ -254,7 +254,7 @@ D. $3$
 ::key B
 $\dfrac{2t}{3t^2}=\dfrac23$ tại $t=1$.
 
-::mc
+::mc TH
 Một hạt có vị trí $\left\langle t^2,3t\right\rangle$. Tốc độ của hạt tại $t=2$ bằng
 A. $7$
 B. $\sqrt7$
@@ -263,7 +263,7 @@ D. $25$
 ::key C
 $v(2)=\langle4,3\rangle$, tốc độ $5$.
 
-::mc
+::mc TH
 Với $x=\cos t$, $y=\sin t$, giá trị của $\dfrac{dy}{dx}$ tại $t=\dfrac\pi4$ bằng
 A. $-1$
 B. $1$
@@ -272,7 +272,7 @@ D. $\sqrt2$
 ::key A
 $\dfrac{\cos t}{-\sin t}=-1$ tại $t=\dfrac\pi4$.
 
-::mc
+::mc NB
 Tích phân nào cho diện tích miền giới hạn bởi $r=f(\theta)$ với $\alpha\le\theta\le\beta$?
 A. $\displaystyle\int_\alpha^\beta f(\theta)\,d\theta$
 B. $\pi\displaystyle\int_\alpha^\beta f(\theta)^2\,d\theta$
@@ -281,7 +281,7 @@ D. $\dfrac12\displaystyle\int_\alpha^\beta f(\theta)^2\,d\theta$
 ::key D
 Công thức diện tích cực có hệ số $\dfrac12$ và $r^2$.
 
-::tf
+::tf TH TH VD TH
 Một hạt có vận tốc $v(t)=\left\langle2t,3t^2\right\rangle$ và ở gốc toạ độ lúc $t=0$.
 a) Tốc độ của hạt tại $t=1$ bằng $\sqrt{13}$.
 b) Gia tốc của hạt tại $t=1$ là $\langle2,6\rangle$.
@@ -290,12 +290,12 @@ d) Quãng đường hạt đi được từ $t=0$ đến $t=1$ là $\displaystyl
 ::key T T F T
 a) Đúng: $\sqrt{4+9}$. b) Đúng: $a(t)=\langle2,6t\rangle$. c) Sai: vị trí là $\left\langle t^2,t^3\right\rangle$, nên bằng $\langle4,8\rangle$. d) Đúng: tích phân của tốc độ.
 
-::sa
+::sa VD
 Tính độ dài quỹ đạo $x=3t$, $y=4t$ với $0\le t\le2$.
 ::key 10
 Tốc độ $\sqrt{9+16}=5$, nên độ dài bằng $5\cdot2=10$.
 
-::sa
+::sa TH
 Với $x=t^2$, $y=t^3$, tính $\dfrac{dy}{dx}$ tại $t=4$.
 ::key 6
 $\dfrac{3t^2}{2t}=\dfrac{3t}{2}=6$.

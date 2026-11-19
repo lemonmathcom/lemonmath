@@ -207,7 +207,7 @@ Assume $\log_23=\dfrac pq$, $p,q\in\mathbb{Z}^+$. Then $2^{p/q}=3$, so $2^p=3^q$
 :::
 
 :::quiz
-::mc
+::mc TH
 What is $i^{23}$?
 A. $1$
 B. $i$
@@ -216,7 +216,7 @@ D. $-i$
 ::key D
 $23=4\cdot5+3$, so $i^{23}=i^3=-i$.
 
-::mc
+::mc TH
 What is $\arg(-1+i)$?
 A. $\dfrac{3\pi}{4}$
 B. $\dfrac{\pi}{4}$
@@ -225,7 +225,7 @@ D. $\dfrac{5\pi}{4}$
 ::key A
 The point $(-1,1)$ is in the second quadrant. Option D is outside $-\pi<\theta\le\pi$.
 
-::mc
+::mc TH
 What are the roots of $z^2-4z+13=0$?
 A. $4\pm3i$
 B. $-2\pm3i$
@@ -234,7 +234,7 @@ D. $2\pm9i$
 ::key C
 $z=\dfrac{4\pm\sqrt{16-52}}{2}=\dfrac{4\pm6i}{2}$.
 
-::mc
+::mc TH
 Which step is not part of a proof by induction?
 A. Showing the statement is true for $n=1$
 B. Checking the statement for $n=1$ to $n=10$ and concluding
@@ -243,7 +243,7 @@ D. Proving the statement for $n=k+1$
 ::key B
 Checking cases is not a proof; the other three are the structure of induction.
 
-::tf
+::tf NB TH TH TH
 Let $z=2e^{i\pi/4}$.
 a) $|z|=2$.
 b) $z^2=4i$.
@@ -252,12 +252,12 @@ d) $z^4=16$.
 ::key T T F F
 a) True. b) True: $4e^{i\pi/2}=4i$. c) False: $\operatorname{Re}z=2\cos\dfrac\pi4=\sqrt2$. d) False: $z^4=16e^{i\pi}=-16$.
 
-::sa
+::sa TH
 Find $\left|(1+i)^6\right|$.
 ::key 8
 $|1+i|^6=\left(\sqrt2\right)^6=8$.
 
-::sa
+::sa NB
 How many distinct roots does $z^5=1$ have?
 ::key 5
 An equation $z^n=w$ with $w\ne0$ has $n$ distinct roots.

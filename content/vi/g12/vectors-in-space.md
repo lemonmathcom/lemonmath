@@ -434,7 +434,7 @@ Vậy $AD\perp BC$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Cho hình hộp $ABCD.A'B'C'D'$. Vectơ $\overrightarrow{AB}+\overrightarrow{AD}-\overrightarrow{CC'}$ bằng
 A. $\overrightarrow{AC}$.
 B. $\overrightarrow{AC'}$.
@@ -443,7 +443,7 @@ D. $\overrightarrow{A'C}$.
 ::key D
 Ta có $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$ và $\overrightarrow{CC'}=\overrightarrow{AA'}$ nên biểu thức bằng $\overrightarrow{AC}-\overrightarrow{AA'}=\overrightarrow{A'C}$. Phương án B coi dấu trừ là dấu cộng, phương án C viết ngược chiều hiệu.
 
-::mc
+::mc TH
 Cho tứ diện $ABCD$; $M$, $N$ lần lượt là trung điểm của $AB$ và $CD$. Khi đó $\overrightarrow{AC}+\overrightarrow{BD}$ bằng
 A. $2\overrightarrow{MN}$.
 B. $\dfrac12\overrightarrow{MN}$.
@@ -452,7 +452,7 @@ D. $-2\overrightarrow{MN}$.
 ::key A
 Ta có $\overrightarrow{MN}=\overrightarrow{MA}+\overrightarrow{AC}+\overrightarrow{CN}$ và $\overrightarrow{MN}=\overrightarrow{MB}+\overrightarrow{BD}+\overrightarrow{DN}$. Cộng lại, các vectơ đối nhau triệt tiêu nên $2\overrightarrow{MN}=\overrightarrow{AC}+\overrightarrow{BD}$. Phương án B nhầm chiều của hệ thức $\overrightarrow{MN}=\dfrac12\left(\overrightarrow{AC}+\overrightarrow{BD}\right)$.
 
-::mc
+::mc TH
 Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai vectơ $\overrightarrow{AB}$ và $\overrightarrow{C'A'}$ bằng
 A. $45^\circ$.
 B. $135^\circ$.
@@ -461,7 +461,7 @@ D. $60^\circ$.
 ::key B
 Ta có $\overrightarrow{C'A'}=\overrightarrow{CA}=-\overrightarrow{AC}$, mà $(\overrightarrow{AB}, \overrightarrow{AC})=45^\circ$, nên góc cần tìm là $180^\circ-45^\circ=135^\circ$. Phương án A quên rằng hai vectơ phải chung điểm đầu.
 
-::mc
+::mc TH
 Cho tứ diện đều $ABCD$ cạnh $a$. Tích vô hướng $\overrightarrow{AB}\cdot\overrightarrow{BC}$ bằng
 A. $\dfrac{a^2\sqrt3}{2}$.
 B. $\dfrac{a^2}{2}$.
@@ -470,7 +470,7 @@ D. $0$.
 ::key C
 Đưa hai vectơ về chung điểm đầu $B$, ta có $\overrightarrow{AB}\cdot\overrightarrow{BC}=-\overrightarrow{BA}\cdot\overrightarrow{BC}=-a\cdot a\cos60^\circ=-\dfrac{a^2}{2}$. Phương án B lấy góc $60^\circ$ mà không đổi chiều $\overrightarrow{AB}$, phương án A dùng $\sin$ thay cho $\cos$.
 
-::tf
+::tf NB TH VD VD
 Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=2$, $AD=3$, $AA'=6$. Xét tính đúng sai của các mệnh đề sau:
 a) $\overrightarrow{AB}\cdot\overrightarrow{AA'}=0$.
 b) $AC'=7$.
@@ -479,12 +479,12 @@ d) Góc giữa hai vectơ $\overrightarrow{AC'}$ và $\overrightarrow{AA'}$ lớ
 ::key Đ Đ S S
 a) Đúng: vì $AB\perp AA'$. b) Đúng: ta có $AC'^2=4+9+36=49$. c) Sai: ta có $\overrightarrow{AC'}\cdot\overrightarrow{AB}=\left(\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}\right)\cdot\overrightarrow{AB}=AB^2=4$. d) Sai: ta có $\overrightarrow{AC'}\cdot\overrightarrow{AA'}=AA'^2=36$ nên $\cos=\dfrac{36}{7\cdot6}=\dfrac67$, do đó góc khoảng $31^\circ$.
 
-::sa
+::sa VD
 Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $2$. Tính $\overrightarrow{AC'}\cdot\overrightarrow{BD'}$.
 ::key 4
 Đặt $\vec{b}=\overrightarrow{AB}$, $\vec{d}=\overrightarrow{AD}$, $\vec{c}=\overrightarrow{AA'}$. Ta có $\overrightarrow{AC'}=\vec{b}+\vec{d}+\vec{c}$, $\overrightarrow{BD'}=-\vec{b}+\vec{d}+\vec{c}$. Vì tích vô hướng của hai cạnh khác nhau bằng $0$ nên $\overrightarrow{AC'}\cdot\overrightarrow{BD'}=-4+4+4=4$.
 
-::sa
+::sa VD
 Một flycam cất cánh từ điểm $A$, bay $30$ m về phía đông, rồi $40$ m về phía bắc, rồi bay thẳng lên $20$ m. Hỏi khoảng cách từ vị trí cuối cùng của flycam đến $A$ là bao nhiêu mét (làm tròn kết quả đến hàng phần mười)?
 ::key 53,9
 Vì ba vectơ dịch chuyển đôi một vuông góc nên bình phương độ dài của vectơ tổng là $30^2+40^2+20^2=2900$. Vậy khoảng cách là $\sqrt{2900}\approx53{,}85$, làm tròn được $53{,}9$ m.

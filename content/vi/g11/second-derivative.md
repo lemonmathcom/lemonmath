@@ -419,7 +419,7 @@ $y'=Ae^x-Be^{-x}$ và $y''=Ae^x+Be^{-x}=y$, nên $y''=y$ với mọi $A$, $B$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Cho $y=x^4-2x^2$. Giá trị $y''(1)$ bằng
 A. $10$.
 B. $12$.
@@ -428,7 +428,7 @@ D. $8$.
 ::key D
 $y'=4x^3-4x$ và $y''=12x^2-4$ nên $y''(1)=8$. Phương án B bỏ số hạng $-4$, còn C và A tính sai hệ số.
 
-::mc
+::mc TH
 Đạo hàm cấp hai của hàm số $y=e^{3x}$ là
 A. $9e^{3x}$.
 B. $3e^{3x}$.
@@ -437,7 +437,7 @@ D. $e^{3x}$.
 ::key A
 $y'=3e^{3x}$ và $y''=9e^{3x}$. Phương án B là $y'$, C cộng $3+3$ thay vì nhân, D quên hệ số.
 
-::mc
+::mc VD
 Một chất điểm có $s(t)=t^3-6t^2+2t$ mét sau $t$ giây. Gia tốc tại $t=3$ bằng
 A. $-7$ m/s$^2$.
 B. $6$ m/s$^2$.
@@ -446,7 +446,7 @@ D. $18$ m/s$^2$.
 ::key B
 $v=3t^2-12t+2$ và $a=6t-12$ nên $a(3)=6$. Phương án A là $v(3)=-7$, D là $6t$ ở $t=3$ quên $-12$, C tính sai.
 
-::mc
+::mc TH
 Cho $y=x^3-3x^2$. Tập các $x$ để $y''>0$ là
 A. $x<1$.
 B. $x>0$.
@@ -455,7 +455,7 @@ D. $x>2$.
 ::key C
 $y''=6x-6>0\Leftrightarrow x>1$. Phương án A đảo chiều, B và D dùng nghiệm của $y'$ hoặc $y$.
 
-::tf
+::tf NB TH VD VD
 Một quả bóng ném thẳng đứng có độ cao $s(t)=20t-5t^2$ mét sau $t$ giây. Xét tính đúng sai của các mệnh đề sau:
 a) Vận tốc là $v(t)=20-10t$.
 b) Gia tốc của bóng bằng $-10$ m/s$^2$ tại mọi thời điểm.
@@ -464,12 +464,12 @@ d) Độ cao lớn nhất của bóng là $20$ mét.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng: $a=v'=-10$. c) Sai: $v=0$ khi $t=2$. d) Đúng: $s(2)=40-20=20$.
 
-::sa
+::sa VD
 Giả sử $s(t)=2t^3-9t^2+12t$ mét sau $t$ giây. Tính vận tốc (m/s) tại thời điểm gia tốc bằng $0$.
 ::key -1,5
 $v=6t^2-18t+12$, $a=12t-18=0$ khi $t=1{,}5$. Khi đó $v=13{,}5-27+12=-1{,}5$.
 
-::sa
+::sa TH
 Tính $y''(2)$ với $y=\dfrac1x$.
 ::key 0,25
 $y'=-\dfrac1{x^2}$ và $y''=\dfrac{2}{x^3}$ nên $y''(2)=\dfrac28=0{,}25$.

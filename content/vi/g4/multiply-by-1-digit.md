@@ -383,7 +383,7 @@ Cần thêm $7-6=1$ vào $1\,000$ để được số chia hết cho $7$: $1\,00
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $2\,306\times4$ là
 A. $9\,204$.
 B. $2\,310$.
@@ -392,7 +392,7 @@ D. $8\,224$.
 ::key C
 $6\times4=24$, viết $4$ nhớ $2$; $0\times4+2=2$; $3\times4=12$, viết $2$ nhớ $1$; $2\times4+1=9$. Phương án A quên nhớ $2$, phương án D quên nhớ $1$, phương án B là phép cộng.
 
-::mc
+::mc TH
 Kết quả của $7\,245:5$ là
 A. $1\,409$.
 B. $1\,450$.
@@ -401,7 +401,7 @@ D. $1\,449$.
 ::key D
 $7:5=1$ (dư $2$); $22:5=4$ (dư $2$); $24:5=4$ (dư $4$); $45:5=9$. Thử lại: $1\,449\times5=7\,245$.
 
-::mc
+::mc TH
 Kết quả của $6\,123:6$ là
 A. $1\,020$ (dư $3$).
 B. $1\,020$ (dư $9$).
@@ -410,7 +410,7 @@ D. $1\,002$ (dư $3$).
 ::key A
 $6:6=1$; $1:6=0$ (dư $1$); $12:6=2$; $3:6=0$ (dư $3$). Phương án C thiếu một chữ số, phương án B có số dư lớn hơn số chia, phương án D đặt chữ số $0$ sai chỗ.
 
-::mc
+::mc NB
 Trong phép chia cho $8$, số dư lớn nhất có thể là
 A. $8$.
 B. $7$.
@@ -419,7 +419,7 @@ D. $1$.
 ::key B
 Số dư luôn bé hơn số chia, mà số chia là $8$ nên số dư lớn nhất là $7$.
 
-::tf
+::tf NB TH TH TH
 Em xét phép chia $4\,078:5$.
 a) Số dư của phép chia này bằng $8$.
 b) Thương của phép chia này bằng $815$.
@@ -428,12 +428,12 @@ d) $815\times5+3=4\,078$.
 ::key S Đ S Đ
 a) Sai: số dư phải bé hơn số chia $5$; số dư là $3$. b) Đúng: $5\times815=4\,075$. c) Sai: số dư là $3$, khác $0$. d) Đúng: $4\,075+3=4\,078$.
 
-::sa
+::sa TH
 Tính $1\,125\times4$.
 ::key 4500
 $4\times5=20$, viết $0$ nhớ $2$; $4\times2+2=10$, viết $0$ nhớ $1$; $4\times1+1=5$; $4\times1=4$. Vậy $1\,125\times4=4\,500$.
 
-::sa
+::sa VD
 Một kho có $3\,045$ kg ngô, đóng đều vào $7$ bao. Mỗi bao đựng bao nhiêu ki-lô-gam ngô?
 ::key 435
 $3\,045:7=435$ (kg), vì $435\times7=3\,045$.

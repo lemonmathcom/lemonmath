@@ -584,7 +584,7 @@ Vậy có $4$ phân số như vậy.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Phân số nào sau đây viết được thành số thập phân hữu hạn?
 A. $\dfrac56$.
 B. $\dfrac7{20}$.
@@ -593,7 +593,7 @@ D. $\dfrac2{15}$.
 ::key B
 $\dfrac7{20}$ tối giản và $20=2^2\cdot5$. Các mẫu $6=2\cdot3$, $9=3^2$, $15=3\cdot5$ đều có ước nguyên tố $3$ nên A, C, D là số thập phân vô hạn tuần hoàn.
 
-::mc
+::mc TH
 Phân số $\dfrac5{12}$ viết thành số thập phân là
 A. $0{,}4(16)$.
 B. $0{,}(41)$.
@@ -602,7 +602,7 @@ D. $0{,}416$.
 ::key C
 $5:12=0{,}41666\ldots$; chỉ chữ số $6$ lặp lại. B và A xác định sai chu kì, D bỏ qua các chữ số $6$ còn lại.
 
-::mc
+::mc NB
 Số nào sau đây là số vô tỉ?
 A. $0{,}(3)$.
 B. $\dfrac7{11}$.
@@ -611,7 +611,7 @@ D. $0{,}1010010001\ldots$ (sau mỗi chữ số $1$, số chữ số $0$ tăng t
 ::key D
 Chỉ D là số thập phân vô hạn không tuần hoàn. A là số thập phân vô hạn tuần hoàn, B là phân số, C là số thập phân hữu hạn; cả ba đều là số hữu tỉ.
 
-::mc
+::mc TH
 Căn bậc hai số học của $0{,}36$ là
 A. $0{,}6$.
 B. $0{,}18$.
@@ -620,7 +620,7 @@ D. $0{,}06$.
 ::key A
 $0{,}6\geq0$ và $0{,}6^2=0{,}36$. A chia $0{,}36$ cho $2$, C quên rằng căn bậc hai số học không âm, D nhầm vị trí dấu phẩy.
 
-::tf
+::tf TH NB TH NB
 Xét tính đúng sai của các mệnh đề sau:
 a) $\dfrac9{15}$ viết được thành số thập phân hữu hạn.
 b) $\sqrt{16}=\pm4$.
@@ -629,12 +629,12 @@ d) $\sqrt{25}=5$.
 ::key Đ S S Đ
 a) Đúng: $\dfrac9{15}=\dfrac35=0{,}6$. b) Sai: $\sqrt{16}=4$. c) Sai: $0{,}(3)$ vô hạn nhưng là số hữu tỉ. d) Đúng vì $5\geq0$ và $5^2=25$.
 
-::sa
+::sa VD
 Tìm chữ số thập phân thứ $50$ của $\dfrac37$.
 ::key 2
 $\dfrac37=0{,}(428571)$ có chu kì $6$ chữ số; $50=6\cdot8+2$ nên chữ số thứ $50$ là chữ số thứ hai của chu kì, tức là $2$.
 
-::sa
+::sa VD
 Tính $\sqrt{0{,}64}+\sqrt{1{,}21}$ và viết kết quả dưới dạng số thập phân.
 ::key 1,9
 $\sqrt{0{,}64}=0{,}8$ và $\sqrt{1{,}21}=1{,}1$, nên tổng là $1{,}9$.

@@ -371,7 +371,7 @@ Vậy cạnh bát giác đều là $10\sqrt2-10\approx4{,}14$ cm.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số đo mỗi góc của lục giác đều là
 A. $120^\circ$.
 B. $60^\circ$.
@@ -380,7 +380,7 @@ D. $108^\circ$.
 ::key A
 $\dfrac{4\cdot180^\circ}{6}=120^\circ$. B là góc ở tâm, C là tổng các góc, D là góc của ngũ giác đều.
 
-::mc
+::mc TH
 Lục giác đều nội tiếp đường tròn bán kính $5$ cm có cạnh bằng
 A. $10$ cm.
 B. $5\sqrt3$ cm.
@@ -389,7 +389,7 @@ D. $2{,}5$ cm.
 ::key C
 Các tam giác $OAB$ đều nên cạnh bằng $R$. A là khoảng cách giữa hai đỉnh đối diện ($2R$), B là khoảng cách giữa hai cạnh đối diện ($2r$), D là $\dfrac R2$.
 
-::mc
+::mc TH
 Góc quay dương nhỏ nhất của phép quay tâm $O$ biến ngũ giác đều tâm $O$ thành chính nó là
 A. $108^\circ$.
 B. $36^\circ$.
@@ -398,7 +398,7 @@ D. $72^\circ$.
 ::key D
 $\dfrac{360^\circ}{5}=72^\circ$. A là góc của ngũ giác đều, B là nửa góc ở tâm, C là góc quay của lục giác đều.
 
-::mc
+::mc TH
 Một đa giác đều có mỗi góc bằng $150^\circ$. Số cạnh của đa giác là
 A. $6$.
 B. $12$.
@@ -407,7 +407,7 @@ D. $24$.
 ::key B
 $180n-360=150n$ nên $n=12$. A lấy $180^\circ:30^\circ$ thay vì $360^\circ:30^\circ$, C lấy $150^\circ:30^\circ$, D lấy $360^\circ:15^\circ$ (chia đôi nhầm góc $30^\circ$).
 
-::tf
+::tf TH NB TH TH
 Cho hình vuông $ABCD$ nội tiếp đường tròn $(O; 4\text{ cm})$. Xét tính đúng sai của các mệnh đề sau:
 a) $AB=4\sqrt2$ cm.
 b) $\widehat{AOB}=90^\circ$.
@@ -416,12 +416,12 @@ d) Phép quay tâm $O$ góc $45^\circ$ biến hình vuông thành chính nó.
 ::key Đ Đ Đ S
 a) Đúng: $\dfrac{a\sqrt2}{2}=4$. b) Đúng: $\dfrac{360^\circ}{4}$. c) Đúng: $r=\dfrac a2=2\sqrt2$. d) Sai: góc quay phải là bội của $90^\circ$.
 
-::sa
+::sa TH
 Tính tổng số đo (đơn vị: độ) các góc của một bát giác đều.
 ::key 1080
 $(8-2)\cdot180^\circ=1080^\circ$.
 
-::sa
+::sa VD
 Tính diện tích (đơn vị: cm²) của lục giác đều cạnh $2$ cm (làm tròn kết quả đến hàng phần mười).
 ::key 10,4
 Lục giác gồm $6$ tam giác đều cạnh $2$ cm, diện tích $6\cdot\dfrac{4\sqrt3}{4}=6\sqrt3\approx10{,}4$ cm².

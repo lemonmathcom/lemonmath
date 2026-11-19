@@ -356,7 +356,7 @@ Gọi $O$ là tâm của tam giác đều $ABC$. Ta có $OA=\dfrac{6\sqrt3}3=2\s
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc VD
 Hình chóp tứ giác đều $S.ABCD$ có cạnh đáy $16$ và chiều cao $6$. Trung đoạn của hình chóp bằng
 A. $14$.
 B. $2\sqrt{41}$.
@@ -365,7 +365,7 @@ D. $10$.
 ::key D
 $OM=8$ nên $d=\sqrt{6^2+8^2}=10$. Phương án A cộng $h$ với $OM$, B dùng $OB=8\sqrt2$ thay cho $OM$, C dùng cả cạnh đáy $16$.
 
-::mc
+::mc TH
 Hình chóp tam giác đều có cạnh đáy $6$ cm và trung đoạn $5$ cm. Diện tích xung quanh bằng
 A. $45$ cm².
 B. $90$ cm².
@@ -374,7 +374,7 @@ D. $30$ cm².
 ::key A
 $p=9$ nên $S_{xq}=9\cdot5=45$. Phương án B quên $\dfrac12$ (dùng chu vi), C là diện tích một mặt bên, D là $6\cdot5$.
 
-::mc
+::mc TH
 Hình chóp tứ giác đều có cạnh đáy $6$ cm và chiều cao $5$ cm. Thể tích bằng
 A. $180$ cm³.
 B. $60$ cm³.
@@ -383,7 +383,7 @@ D. $40$ cm³.
 ::key B
 $V=\dfrac13\cdot36\cdot5=60$. Phương án A quên $\dfrac13$, C dùng $\dfrac12$, D dùng chu vi đáy $24$ thay cho diện tích đáy.
 
-::mc
+::mc TH
 Hình chóp tam giác đều có cạnh đáy $6$ và chiều cao $1$. Khoảng cách $OM$ từ tâm đáy đến một cạnh đáy bằng
 A. $3$.
 B. $2\sqrt3$.
@@ -392,7 +392,7 @@ D. $3\sqrt3$.
 ::key C
 $OM=\dfrac{a\sqrt3}6=\sqrt3$. Phương án A là $\dfrac a2$, B là $OA$, D là trung tuyến $AM$.
 
-::tf
+::tf TH VD VD TH
 Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $12$ và chiều cao bằng $8$ ($O$ là tâm đáy, $M$ là trung điểm $BC$). Xét tính đúng sai của các mệnh đề sau:
 a) $SM=10$.
 b) Diện tích xung quanh bằng $480$.
@@ -401,12 +401,12 @@ d) Thể tích bằng $384$.
 ::key Đ S S Đ
 a) Đúng: $SM=\sqrt{8^2+6^2}=10$. b) Sai: $S_{xq}=24\cdot10=240$; $480$ là kết quả khi quên $\dfrac12$. c) Sai: $SB=\sqrt{8^2+(6\sqrt2)^2}=\sqrt{136}$, còn $8$ là chiều cao. d) Đúng: $V=\dfrac13\cdot144\cdot8=384$.
 
-::sa
+::sa VD
 Hình chóp tam giác đều có cạnh đáy $6$ cm và chiều cao $2$ cm. Tính thể tích của hình chóp (đơn vị: cm³, làm tròn đến hàng phần mười).
 ::key 10,4
 $S_{\text{đáy}}=9\sqrt3$ nên $V=\dfrac13\cdot9\sqrt3\cdot2=6\sqrt3\approx10{,}4$.
 
-::sa
+::sa VD
 Hình chóp tứ giác đều có cạnh đáy $6$ dm và trung đoạn $7$ dm. Tính diện tích toàn phần (đơn vị: dm²).
 ::key 120
 $S_{xq}=12\cdot7=84$ và $S_{\text{đáy}}=36$ nên $S_{tp}=84+36=120$.

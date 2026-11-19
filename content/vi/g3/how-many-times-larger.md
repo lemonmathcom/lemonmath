@@ -258,7 +258,7 @@ $$32:8=4\ \text{(lần)}.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $48$ gấp mấy lần $6$?
 A. $8$ lần.
 B. $42$ lần.
@@ -267,7 +267,7 @@ D. $288$ lần.
 ::key A
 $48:6=8$. B làm phép trừ, C phép cộng, D phép nhân.
 
-::mc
+::mc TH
 Hà có $7$ quyển truyện, Lan có $21$ quyển truyện. Số truyện của Lan gấp mấy lần số truyện của Hà?
 A. $14$ lần.
 B. $3$ lần.
@@ -276,7 +276,7 @@ D. $28$ lần.
 ::key B
 $21:7=3$. A làm phép trừ, D phép cộng, C phép nhân.
 
-::mc
+::mc TH
 Dây xanh dài $5$ m, dây đỏ dài $20$ m. Câu nào đúng?
 A. Dây đỏ dài hơn dây xanh $4$ m.
 B. Dây đỏ dài gấp $15$ lần dây xanh.
@@ -285,7 +285,7 @@ D. Dây xanh dài gấp $4$ lần dây đỏ.
 ::key C
 $20:5=4$ nên dây đỏ gấp $4$ lần dây xanh. A nhầm "gấp" với "hơn", B dùng $20-5$, D đảo hai sợi dây.
 
-::mc
+::mc VD
 Hà có $4$ quyển vở. Lan có nhiều hơn Hà $8$ quyển. Số vở của Lan gấp mấy lần số vở của Hà?
 A. $2$ lần.
 B. $12$ lần.
@@ -294,7 +294,7 @@ D. $3$ lần.
 ::key D
 Lan có $4+8=12$ quyển, rồi $12:4=3$ lần. A chỉ chia $8:4$, B là số vở của Lan, C là số vở của Hà.
 
-::tf
+::tf TH TH TH NB
 Em xét số $24$ và số $6$.
 a) $24$ gấp $4$ lần $6$.
 b) $24$ hơn $6$ là $4$ đơn vị.
@@ -303,12 +303,12 @@ d) $24:6=4$.
 ::key Đ S S Đ
 a) Đúng: $6\times 4=24$. b) Sai: $24-6=18$. c) Sai: số lớn gấp số bé, không phải ngược lại. d) Đúng: $6\times 4=24$.
 
-::sa
+::sa TH
 $63$ gấp mấy lần $9$?
 ::key 7
 $63:9=7$ (lần).
 
-::sa
+::sa TH
 Cây thước dài $30$ cm, cây bút chì dài $6$ cm. Cây thước dài gấp mấy lần cây bút chì?
 ::key 5
 $30:6=5$ (lần).

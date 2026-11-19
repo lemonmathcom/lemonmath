@@ -368,7 +368,7 @@ Vậy bán kính hình cầu là $5$ cm.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Diện tích mặt cầu bán kính $2$ cm là
 A. $8\pi$ cm².
 B. $16\pi$ cm².
@@ -377,7 +377,7 @@ D. $4\pi$ cm².
 ::key B
 $S=4\pi\cdot2^2=16\pi$. A dùng $4\pi R$ (quên bình phương), C là thể tích, D là diện tích một hình tròn lớn.
 
-::mc
+::mc NB
 Thể tích hình cầu bán kính $3$ cm là
 A. $108\pi$ cm³.
 B. $12\pi$ cm³.
@@ -386,7 +386,7 @@ D. $27\pi$ cm³.
 ::key C
 $V=\dfrac43\pi\cdot27=36\pi$. A quên $\dfrac13$, B dùng $R^2$ thay cho $R^3$, D quên hệ số $\dfrac43$.
 
-::mc
+::mc TH
 Một mặt phẳng cách tâm hình cầu bán kính $5$ cm một khoảng $3$ cm. Mặt cắt là hình tròn bán kính
 A. $4$ cm.
 B. $2$ cm.
@@ -395,7 +395,7 @@ D. $\sqrt{34}$ cm.
 ::key A
 $\sqrt{25-9}=4$. B lấy hiệu $5-3$, C lấy tổng $5+3$, D cộng dưới dấu căn.
 
-::mc
+::mc TH
 Nếu bán kính hình cầu tăng gấp đôi thì thể tích tăng
 A. $2$ lần.
 B. $4$ lần.
@@ -404,7 +404,7 @@ D. $8$ lần.
 ::key D
 $V$ tỉ lệ với $R^3$, $2^3=8$. A coi $V$ tỉ lệ thuận với $R$, B là tỉ số diện tích, C nhân $2\cdot3$ thay vì tính $2^3$.
 
-::tf
+::tf NB NB TH VD
 Cho hình cầu bán kính $6$ cm. Xét tính đúng sai của các mệnh đề sau:
 a) Diện tích mặt cầu là $144\pi$ cm².
 b) Thể tích hình cầu là $288\pi$ cm³.
@@ -413,12 +413,12 @@ d) Hình trụ ngoại tiếp hình cầu có thể tích gấp đôi thể tíc
 ::key Đ Đ Đ S
 a) Đúng: $4\pi\cdot36$. b) Đúng: $\dfrac43\pi\cdot216$. c) Đúng: $2\pi\cdot6$. d) Sai: hình trụ có thể tích $\pi\cdot36\cdot12=432\pi$, gấp $1{,}5$ lần.
 
-::sa
+::sa VD
 Hình cầu có số đo diện tích mặt cầu (cm²) bằng số đo thể tích (cm³). Tính bán kính (đơn vị: cm) của hình cầu.
 ::key 3
 $4\pi R^2=\dfrac43\pi R^3$ nên $R=3$.
 
-::sa
+::sa VD
 Một quả cầu kim loại bán kính $4$ cm được nấu chảy và đúc thành các viên bi bán kính $1$ cm. Bỏ qua hao hụt, đúc được bao nhiêu viên bi?
 ::key 64
 Tỉ số thể tích là $\left(\dfrac41\right)^3=64$.

@@ -439,7 +439,7 @@ With $D=1$, $(P)$ coincides with $(Q)$ rather than being parallel to it, so we r
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 In the system $Oxyz$, a normal vector of the plane $(P): 3x-z+2=0$ is
 A. $(3, -1, 2)$.
 B. $(3, 0, -1)$.
@@ -448,7 +448,7 @@ D. $(0, 3, -1)$.
 ::key B
 The coefficients of $x$, $y$, $z$ are $3$, $0$, $-1$. Option A includes the constant term, and options C and D put the zero coordinate in the wrong place.
 
-::mc
+::mc TH
 The plane through $M(1, 2, -1)$ with normal vector $\vec{n}=(2, -1, 3)$ has equation
 A. $2x-y+3z-3=0$.
 B. $2x-y+3z=0$.
@@ -457,7 +457,7 @@ D. $x+2y-z+3=0$.
 ::key C
 $2(x-1)-(y-2)+3(z+1)=0\iff 2x-y+3z+3=0$. Option A gets the signs wrong when substituting $M$, option B forgets the constant term, and option D swaps the roles of the point and the vector.
 
-::mc
+::mc TH
 The distance from $A(1, -2, 3)$ to the plane $(P): 2x-y+2z+1=0$ is
 A. $\dfrac{10}{3}$.
 B. $\dfrac{11}{3}$.
@@ -466,7 +466,7 @@ D. $11$.
 ::key B
 $\dfrac{|2+2+6+1|}{\sqrt{9}}=\dfrac{11}{3}$. Option A forgets the constant term, C divides by $A^2+B^2+C^2$ without the square root, and D forgets to divide.
 
-::mc
+::mc TH
 Which plane is parallel to $(P): x-2y+2z-1=0$?
 A. $2x-4y+4z-2=0$.
 B. $2x+y=0$.
@@ -475,7 +475,7 @@ D. $x+2y+2z-1=0$.
 ::key C
 $(-1, 2, -2)=-1\cdot(1, -2, 2)$ and $3\neq(-1)\cdot(-1)$. Option A coincides with $(P)$, option B is perpendicular to $(P)$ because $2-2+0=0$, and option D has a wrong sign in one coefficient.
 
-::tf
+::tf TH TH VD VD
 In the system $Oxyz$, let $A(2, 0, 0)$, $B(0, 1, 0)$, $C(0, 0, 2)$.
 a) The plane $(ABC)$ has equation $x+2y+z-2=0$.
 b) The point $M(1, 0, 1)$ lies in the plane $(ABC)$.
@@ -484,12 +484,12 @@ d) The plane $(ABC)$ is perpendicular to the plane $(Q): x-y+z+5=0$.
 ::key T T F T
 a) True: $\dfrac{x}{2}+\dfrac{y}{1}+\dfrac{z}{2}=1\iff x+2y+z-2=0$. b) True: $1+0+1-2=0$. c) False: $d=\dfrac{2}{\sqrt6}\approx0.82$; $\dfrac13$ is what you get if you forget the square root. d) True: $1-2+1=0$.
 
-::sa
+::sa TH
 The plane through $A(1, 2, -1)$ parallel to $(Q): 2x+y-2z+7=0$ has equation $2x+y-2z+d=0$. Find $d$.
 ::key -6
 Substituting $A$: $2+2+2+d=0$, so $d=-6$ (which differs from $7$, so the planes do not coincide).
 
-::sa
+::sa VD
 Find the distance between the parallel planes $(P): x+2y-2z+1=0$ and $(Q): 2x+4y-4z-7=0$ (to 1 decimal place).
 ::key 1.5
 Divide the equation of $(Q)$ by $2$: $x+2y-2z-3.5=0$. The distance is $\dfrac{|1-(-3.5)|}{3}=1.5$.

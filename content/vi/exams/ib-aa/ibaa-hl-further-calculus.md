@@ -195,7 +195,7 @@ $f(0)=0$, $f'(0)=1$, $f''(0)=0$, $f'''(0)=2$. Vậy $\tan x=x+\dfrac{2}{3!}x^3+\
 :::
 
 :::quiz
-::mc
+::mc TH
 Hệ số của $x^2$ trong chuỗi Maclaurin của $e^{3x}$ bằng
 A. $3$
 B. $\dfrac92$
@@ -204,7 +204,7 @@ D. $\dfrac32$
 ::key B
 $\dfrac{(3x)^2}{2!}=\dfrac92x^2$.
 
-::mc
+::mc TH
 Thừa số tích phân của $\dfrac{dy}{dx}+3y=x$ là
 A. $e^{3x}$
 B. $e^{x}$
@@ -213,7 +213,7 @@ D. $e^{-3x}$
 ::key A
 $e^{\int3\,dx}=e^{3x}$.
 
-::mc
+::mc TH
 $\displaystyle\lim_{x\to0}\frac{e^{2x}-1}{x}$ bằng
 A. $1$
 B. $0$
@@ -222,7 +222,7 @@ D. $2$
 ::key D
 L'Hôpital: $\displaystyle\lim_{x\to0}2e^{2x}=2$.
 
-::mc
+::mc TH
 Với $\dfrac{dy}{dx}=2x$ và $y(0)=1$, một bước Euler với $h=0{,}5$ cho giá trị ước lượng nào của $y(0{,}5)$?
 A. $1{,}25$
 B. $2$
@@ -231,7 +231,7 @@ D. $1{,}5$
 ::key C
 Hệ số góc tại $x=0$ bằng $0$, nên $y(0{,}5)\approx1+0{,}5\cdot0=1$. (Giá trị đúng là $1{,}25$.)
 
-::tf
+::tf TH VD VD VD
 Xét $\dfrac{dy}{dx}=\dfrac yx$, $x>0$.
 a) Phương trình là tách biến.
 b) Nghiệm tổng quát là $y=Cx$.
@@ -240,12 +240,12 @@ d) Nghiệm thoả mãn $y(1)=3$ đi qua $(2,5)$.
 ::key T T T F
 a) Đúng. b) Đúng: $\ln|y|=\ln x+c$. c) Đúng. d) Sai: $y=3x$ cho giá trị $6$ tại $x=2$.
 
-::sa
+::sa VD
 Tìm hệ số của $x^2$ trong chuỗi Maclaurin của $\ln(1+x)$.
 ::key -0,5
 $\ln(1+x)=x-\dfrac{x^2}{2}+\dots$
 
-::sa
+::sa VD
 Với $\dfrac{dy}{dx}=x+y$ và $y(0)=1$, phương pháp Euler với $h=0{,}1$ cho $y(0{,}2)\approx$ ?
 ::key 1,22
 $1\to1{,}1\to1{,}22$, như trong ví dụ ở trên.

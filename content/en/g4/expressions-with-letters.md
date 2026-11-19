@@ -334,7 +334,7 @@ We have $(a+b)\times2=56$, so $a+b=56\div2=28$ (cm). The width is $b=28-18=10$ (
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The value of the expression $7\times m+5$ when $m=6$ is
 A. $77$.
 B. $13$.
@@ -343,7 +343,7 @@ D. $42$.
 ::key C
 $7\times6+5=42+5=47$. Option A adds before multiplying, option B adds $7+6$, and option D forgets to add $5$.
 
-::mc
+::mc TH
 The perimeter of a square with side $12$ m is
 A. $24$ m.
 B. $144$ m.
@@ -352,7 +352,7 @@ D. $48$ m.
 ::key D
 $P=a\times4=12\times4=48$ (m). Option A multiplies by $2$, option B works out $12\times12$, and option C adds $12+4$.
 
-::mc
+::mc TH
 The value of the expression $(a+b)\times2$ when $a=9$ and $b=6$ is
 A. $30$.
 B. $21$.
@@ -361,7 +361,7 @@ D. $108$.
 ::key A
 $(9+6)\times2=15\times2=30$. Option B multiplies before adding, option C forgets to multiply by $2$, and option D multiplies all three numbers.
 
-::mc
+::mc TH
 You buy $m$ cakes at $4\,500$ dong each and a bottle of water for $6\,000$ dong. The money to pay is
 A. $4\,500+m\times6\,000$ dong.
 B. $4\,500\times m+6\,000$ dong.
@@ -370,7 +370,7 @@ D. $(4\,500+6\,000)\times m$ dong.
 ::key B
 The cost of the cakes is $4\,500\times m$, and we add $6\,000$ dong for the bottle of water. Option A multiplies $m$ by the price of the water, option D multiplies both prices by $m$, and option C subtracts instead of adding.
 
-::tf
+::tf NB TH TH TH
 Look at the expression $a\times5-b$.
 a) The expression has only one letter.
 b) When $a=8$ and $b=15$, the value of the expression is $55$.
@@ -379,12 +379,12 @@ d) When $a=8$ and $b=40$, the value of the expression is $0$.
 ::key F F T T
 a) False: the expression has two letters, $a$ and $b$. b) False: $8\times5-15=40-15=25$. c) True: $10\times5-20=50-20=30$. d) True: $8\times5-40=40-40=0$.
 
-::sa
+::sa TH
 Find the value of the expression $9\times m-20$ when $m=5$.
 ::key 25
 $9\times5-20=45-20=25$.
 
-::sa
+::sa TH
 Find the perimeter (in cm) of a rectangle with length $17$ cm and width $13$ cm.
 ::key 60
 $P=(17+13)\times2=30\times2=60$ (cm).

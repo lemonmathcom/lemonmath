@@ -446,7 +446,7 @@ Hence $a^3+b^3+3ab=1-3ab+3ab=1$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Expanding $(x+2)^3$ gives
 A. $x^3+8$.
 B. $x^3+2x^2+4x+8$.
@@ -455,7 +455,7 @@ D. $x^3-6x^2+12x-8$.
 ::key C
 $(x+2)^3=x^3+3\cdot x^2\cdot2+3\cdot x\cdot4+8=x^3+6x^2+12x+8$. A drops the two middle terms, B forgets the coefficients $3$, D has the wrong signs.
 
-::mc
+::mc TH
 Expanding $(2x-1)^3$ gives
 A. $8x^3-12x^2-6x-1$.
 B. $8x^3-1$.
@@ -464,7 +464,7 @@ D. $8x^3-12x^2+6x-1$.
 ::key D
 $(2x-1)^3=8x^3-3\cdot4x^2+3\cdot2x-1=8x^3-12x^2+6x-1$. B is a difference of two cubes, C forgets to square the coefficient $2$ in the second term, A does not alternate the signs.
 
-::mc
+::mc TH
 The expression $x^3+27$ equals
 A. $(x+3)(x^2-3x+9)$.
 B. $(x+3)^3$.
@@ -473,7 +473,7 @@ D. $(x+3)(x^2+3x+9)$.
 ::key A
 $x^3+27=x^3+3^3=(x+3)(x^2-3x+9)$. A has the wrong sign on the middle term, B has four terms, C gets the middle term wrong.
 
-::mc
+::mc TH
 The expression $8x^3-y^3$ equals
 A. $(2x-y)^3$.
 B. $(2x-y)(4x^2+2xy+y^2)$.
@@ -482,7 +482,7 @@ D. $(2x-y)(2x^2+2xy+y^2)$.
 ::key B
 $8x^3-y^3=(2x)^3-y^3=(2x-y)(4x^2+2xy+y^2)$. A is the cube of a difference, C is a sum of two cubes, D forgets to square the coefficient $2$.
 
-::tf
+::tf NB NB VD TH
 Consider $(x+1)^3$ and $(x-1)^3$.
 a) $(x+1)^3=x^3+1$.
 b) $(x-1)^3=x^3-3x^2+3x-1$.
@@ -491,12 +491,12 @@ d) At $x=1$, $(x+1)^3-(x-1)^3$ equals $8$.
 ::key F T F T
 a) False: $3x^2+3x$ is missing. b) True: the signs alternate. c) False: the difference is $6x^2+2$. d) True: $2^3-0^3=8$ and $6+2=8$.
 
-::sa
+::sa VD
 Calculate $11^3$ mentally.
 ::key 1331
 $11^3=(10+1)^3=1000+300+30+1=1331$.
 
-::sa
+::sa VD
 Given $a-b=1$ and $ab=6$, find $a^3-b^3$.
 ::key 19
 $a^3-b^3=(a-b)^3+3ab(a-b)=1+18=19$.

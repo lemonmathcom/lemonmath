@@ -357,7 +357,7 @@ Vậy $EF\le\dfrac{AD+BC}{2}$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Tam giác $ABC$ có $D$, $E$ là trung điểm của $AB$, $AC$ và $BC=20$ cm. Độ dài $DE$ bằng
 A. $5$ cm.
 B. $40$ cm.
@@ -366,7 +366,7 @@ D. $20$ cm.
 ::key C
 $DE$ là đường trung bình nên $DE=\dfrac12BC=10$ cm. A là một phần tư của $BC$, B là $2BC$ và D là chính $BC$.
 
-::mc
+::mc NB
 Tam giác $ABC$ có $D$, $E$ là trung điểm của $AB$, $AC$ và $DE=6$ cm. Độ dài $BC$ bằng
 A. $3$ cm.
 B. $18$ cm.
@@ -375,7 +375,7 @@ D. $12$ cm.
 ::key D
 $BC=2DE=12$ cm. A là một nửa của $DE$, C là chính $DE$ và B là $3DE$.
 
-::mc
+::mc NB
 Tam giác $ABC$ có $D$, $E$ là trung điểm của $AB$, $AC$. Khẳng định nào sau đây đúng?
 A. $DE\parallel BC$ và $DE=\dfrac12BC$.
 B. $DE\parallel BC$ và $DE=BC$.
@@ -384,7 +384,7 @@ D. $DE\parallel AB$ và $DE=\dfrac12AB$.
 ::key A
 Đường trung bình $DE$ song song với cạnh thứ ba $BC$ và bằng nửa $BC$. A, C nhầm cạnh song song và B thiếu một nửa.
 
-::mc
+::mc TH
 Tam giác $ABC$ có chu vi $24$ cm. Tam giác tạo bởi ba trung điểm của ba cạnh có chu vi bằng
 A. $6$ cm.
 B. $12$ cm.
@@ -393,7 +393,7 @@ D. $48$ cm.
 ::key B
 Mỗi cạnh của tam giác trung điểm bằng nửa cạnh tương ứng nên chu vi bằng $24:2=12$ cm. B là $24:4$, C là chu vi ban đầu và D là $2\cdot24$.
 
-::tf
+::tf NB TH NB TH
 Tam giác $ABC$ có $BC=16$ cm; $M$, $N$ là trung điểm của $AB$, $AC$.
 a) $MN\parallel BC$.
 b) $MN=16$ cm.
@@ -402,12 +402,12 @@ d) $MN\parallel AB$.
 ::key Đ S Đ S
 a) Đúng: $MN$ là đường trung bình ứng với $BC$. b) Sai: $MN=\dfrac12BC=8$ cm. c) Đúng: $M$ là trung điểm của $AB$. d) Sai: $MN$ cắt $AB$ tại $M$ nên không song song với $AB$.
 
-::sa
+::sa VD
 Tam giác $ABC$ có $AB=10$ cm, $AC=14$ cm và $BC=16$ cm. Gọi $D$, $E$, $F$ là trung điểm của $AB$, $AC$, $BC$. Tính chu vi tam giác $DEF$ (cm).
 ::key 20
 Chu vi tam giác $ABC$ là $10+14+16=40$ cm, nên chu vi tam giác $DEF$ là $40:2=20$ cm.
 
-::sa
+::sa TH
 Tam giác $ABC$ có $D$, $E$ là trung điểm của $AB$, $AC$ và $DE=4{,}5$ cm. Tính $BC$ (cm).
 ::key 9
 $BC=2DE=2\cdot4{,}5=9$ cm.

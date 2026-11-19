@@ -23,7 +23,7 @@ This is a full multiple-choice section in the format of the AP Calculus BC exam 
 ## Part A: no calculator
 
 :::quiz test
-::mc
+::mc TH
 What is $\displaystyle\lim_{x\to0}\frac{1-\cos x}{x^2}$?
 A. $0$
 B. $\dfrac12$
@@ -32,7 +32,7 @@ D. nonexistent
 ::key B
 L'Hôpital twice: $\dfrac{\sin x}{2x}\to\dfrac12$. Or use $\cos x=1-\dfrac{x^2}{2}+\dots$
 
-::mc
+::mc TH
 What is $\displaystyle\lim_{x\to\infty}xe^{-x}$?
 A. $0$
 B. $1$
@@ -41,7 +41,7 @@ D. $\infty$
 ::key A
 $\dfrac{x}{e^x}$ is $\dfrac\infty\infty$; L'Hôpital gives $\dfrac{1}{e^x}\to0$.
 
-::mc
+::mc TH
 $\dfrac{d}{dx}\sin^2(3x)=$
 A. $2\sin(3x)$
 B. $3\sin(6x)$
@@ -50,7 +50,7 @@ D. $2\sin(3x)\cos(3x)$
 ::key B
 $2\sin(3x)\cdot\cos(3x)\cdot3=3\sin(6x)$. Option D forgets the factor $3$ from the inner function.
 
-::mc
+::mc VD
 If $e^y+xy=e$, what is $\dfrac{dy}{dx}$ at the point $(0,1)$?
 A. $-e$
 B. $\dfrac1e$
@@ -59,7 +59,7 @@ D. $-\dfrac1e$
 ::key D
 $e^yy'+y+xy'=0$. At $(0,1)$: $ey'+1=0$.
 
-::mc
+::mc VD
 If $f(x)=x^x$ for $x>0$, what is $f'(1)$?
 A. $0$
 B. $e$
@@ -68,7 +68,7 @@ D. $\ln2$
 ::key C
 $\ln f=x\ln x$, so $f'=x^x(\ln x+1)$ and $f'(1)=1$.
 
-::mc
+::mc VD
 For $\dfrac{dy}{dx}=x-y$ with $y(0)=1$, Euler's method with two steps of size $0.5$ gives which approximation of $y(1)$?
 A. $0.5$
 B. $0$
@@ -77,7 +77,7 @@ D. $1$
 ::key A
 $y(0.5)\approx1+0.5(0-1)=0.5$; $y(1)\approx0.5+0.5(0.5-0.5)=0.5$.
 
-::mc
+::mc TH
 A population satisfies $\dfrac{dP}{dt}=0.4P\left(1-\dfrac{P}{800}\right)$. For what value of $P$ is the population growing fastest?
 A. $800$
 B. $320$
@@ -86,7 +86,7 @@ D. $400$
 ::key D
 Logistic growth is fastest at half the carrying capacity.
 
-::mc
+::mc VD
 $\displaystyle\int xe^{2x}\,dx=$
 A. $\dfrac{x^2}{2}e^{2x}+C$
 B. $\left(\dfrac x2-\dfrac14\right)e^{2x}+C$
@@ -95,7 +95,7 @@ D. $(2x-1)e^{2x}+C$
 ::key B
 Parts with $u=x$, $dv=e^{2x}dx$: $\dfrac x2e^{2x}-\displaystyle\int\frac12e^{2x}\,dx$.
 
-::mc
+::mc VD
 What is $\displaystyle\int_2^3\frac{dx}{x^2-1}$?
 A. $\dfrac12\ln\dfrac32$
 B. $\ln\dfrac32$
@@ -104,7 +104,7 @@ D. $\ln2$
 ::key A
 $\dfrac{1}{x^2-1}=\dfrac12\left(\dfrac{1}{x-1}-\dfrac{1}{x+1}\right)$, so the integral is $\dfrac12\left[\ln\dfrac{x-1}{x+1}\right]_2^3=\dfrac12\left(\ln\dfrac12-\ln\dfrac13\right)$.
 
-::mc
+::mc TH
 What is $\displaystyle\int_0^\infty e^{-2x}\,dx$?
 A. $\dfrac12$
 B. $2$
@@ -113,7 +113,7 @@ D. divergent
 ::key A
 $\displaystyle\lim_{b\to\infty}\left[-\frac12e^{-2x}\right]_0^b=\frac12$.
 
-::mc
+::mc TH
 Which improper integral converges?
 A. $\displaystyle\int_1^\infty\frac{dx}{\sqrt x}$
 B. $\displaystyle\int_1^\infty\frac{dx}{x}$
@@ -122,7 +122,7 @@ D. $\displaystyle\int_0^1\frac{dx}{\sqrt x}$
 ::key D
 $\displaystyle\int_0^1x^{-1/2}\,dx=\lim_{a\to0^+}\left[2\sqrt x\right]_a^1=2$. The others diverge.
 
-::mc
+::mc TH
 For $x=t^2+1$, $y=2t^3$, what is $\dfrac{dy}{dx}$ at $t=1$?
 A. $6$
 B. $2$
@@ -131,7 +131,7 @@ D. $\dfrac13$
 ::key C
 $\dfrac{6t^2}{2t}=3t=3$.
 
-::mc
+::mc VD
 For $x=e^t$, $y=t^2$, what is $\dfrac{d^2y}{dx^2}$ at $t=0$?
 A. $0$
 B. $1$
@@ -140,7 +140,7 @@ D. $2$
 ::key D
 $\dfrac{dy}{dx}=2te^{-t}$; $\dfrac{d}{dt}\left(2te^{-t}\right)=(2-2t)e^{-t}$; divide by $e^t$: $(2-2t)e^{-2t}=2$ at $t=0$.
 
-::mc
+::mc VD
 What is the area of the region enclosed by one petal of $r=\sin(2\theta)$, $0\le\theta\le\dfrac\pi2$?
 A. $\dfrac\pi4$
 B. $\dfrac\pi8$
@@ -149,7 +149,7 @@ D. $\dfrac\pi2$
 ::key B
 $\dfrac12\displaystyle\int_0^{\pi/2}\sin^2(2\theta)\,d\theta=\dfrac12\cdot\dfrac\pi4$. Option A forgets the $\dfrac12$.
 
-::mc
+::mc TH
 A particle has position $\left\langle t^3,t^2\right\rangle$. What is its speed at $t=1$?
 A. $5$
 B. $\sqrt{13}$
@@ -158,7 +158,7 @@ D. $\sqrt5$
 ::key B
 $v(1)=\langle3,2\rangle$, speed $\sqrt{9+4}$. Option C uses the position.
 
-::mc
+::mc TH
 What is $\displaystyle\sum_{n=1}^\infty\left(\frac23\right)^n$?
 A. $3$
 B. $\dfrac23$
@@ -167,7 +167,7 @@ D. $\dfrac32$
 ::key C
 First term $\dfrac23$, ratio $\dfrac23$: $\dfrac{2/3}{1/3}=2$. Option A starts at $n=0$.
 
-::mc
+::mc VD
 Which series converges conditionally?
 A. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{\sqrt n}$
 B. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^nn}{n+1}$
@@ -176,7 +176,7 @@ D. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n^3}$
 ::key A
 A converges by the alternating series test, but $\displaystyle\sum\frac{1}{\sqrt n}$ diverges. B diverges ($n$th term); C and D converge absolutely.
 
-::mc
+::mc VD
 What is the radius of convergence of $\displaystyle\sum_{n=1}^\infty\frac{nx^n}{3^n}$?
 A. $1$
 B. $\dfrac13$
@@ -185,7 +185,7 @@ D. $3$
 ::key D
 Ratio test: $\dfrac{n+1}{n}\cdot\dfrac{|x|}{3}\to\dfrac{|x|}{3}<1$.
 
-::mc
+::mc VD
 What is the interval of convergence of $\displaystyle\sum_{n=1}^\infty\frac{(x-1)^n}{n}$?
 A. $(0,2)$
 B. $[0,2]$
@@ -194,7 +194,7 @@ D. $(0,2]$
 ::key C
 Radius $1$. At $x=0$: alternating harmonic, converges. At $x=2$: harmonic, diverges.
 
-::mc
+::mc TH
 What is the coefficient of $x^3$ in the Maclaurin series for $e^{2x}$?
 A. $\dfrac43$
 B. $\dfrac16$
@@ -203,7 +203,7 @@ D. $\dfrac23$
 ::key A
 $\dfrac{(2x)^3}{3!}=\dfrac86x^3$. Option C forgets the factorial.
 
-::mc
+::mc TH
 A function $f$ has $f(2)=1$, $f'(2)=-3$ and $f''(2)=4$. What is the second-degree Taylor polynomial for $f$ about $x=2$?
 A. $1-3x+2x^2$
 B. $1-3(x-2)+4(x-2)^2$
@@ -212,7 +212,7 @@ D. $1+3(x-2)+2(x-2)^2$
 ::key C
 The coefficient of $(x-2)^2$ is $\dfrac{f''(2)}{2!}=2$. Option B forgets the factorial; option A is centered at $0$.
 
-::mc
+::mc VD
 What is the coefficient of $x^6$ in the Maclaurin series for $x^2\cos x$?
 A. $-\dfrac12$
 B. $\dfrac{1}{24}$
@@ -221,7 +221,7 @@ D. $\dfrac{1}{720}$
 ::key B
 $x^2\left(1-\dfrac{x^2}{2}+\dfrac{x^4}{24}-\dots\right)$: the $x^6$ term comes from $\dfrac{x^4}{24}$.
 
-::mc
+::mc TH
 The sum of $\displaystyle\sum_{n=1}^\infty\frac{(-1)^{n+1}}{n^2}$ is approximated by its first three terms. What is the best bound for the error given by the alternating series error bound?
 A. $\dfrac19$
 B. $\dfrac14$
@@ -230,7 +230,7 @@ D. $\dfrac{1}{16}$
 ::key D
 The first omitted term is the fourth: $\dfrac{1}{4^2}$. Option A is the last term used.
 
-::mc
+::mc VD
 What is $\displaystyle\lim_{x\to0}\frac{\sin x-x}{x^3}$?
 A. $0$
 B. $-\dfrac16$
@@ -239,7 +239,7 @@ D. $-\infty$
 ::key B
 $\sin x-x=-\dfrac{x^3}{6}+\dfrac{x^5}{120}-\dots$, so the quotient tends to $-\dfrac16$.
 
-::mc
+::mc NB
 What is $\displaystyle\int_0^{\pi/4}\sec^2x\,dx$?
 A. $2$
 B. $\dfrac\pi4$
@@ -248,7 +248,7 @@ D. $1$
 ::key D
 $\left[\tan x\right]_0^{\pi/4}=1$.
 
-::mc
+::mc VD
 Let $F(x)=\displaystyle\int_0^x\left(t^2-4\right)dt$. At what value of $x$ does $F$ have a relative maximum?
 A. $2$
 B. $0$
@@ -257,7 +257,7 @@ D. $4$
 ::key C
 $F'(x)=x^2-4$ changes from positive to negative at $x=-2$. At $x=2$ it changes from negative to positive: a minimum.
 
-::mc
+::mc VD
 What is the area of the region in the first quadrant bounded by $y=x$ and $y=x^3$?
 A. $\dfrac14$
 B. $\dfrac12$
@@ -266,7 +266,7 @@ D. $\dfrac{1}{12}$
 ::key A
 $\displaystyle\int_0^1\left(x-x^3\right)dx=\frac12-\frac14$.
 
-::mc
+::mc VD
 A function $f$ has $f(0)=2$, $f(1)=4$ and $f(3)=8$. What is the trapezoidal sum for $\displaystyle\int_0^3f(x)\,dx$ with the subintervals $[0,1]$ and $[1,3]$?
 A. $14$
 B. $18$
@@ -275,7 +275,7 @@ D. $9$
 ::key C
 $1\cdot\dfrac{2+4}{2}+2\cdot\dfrac{4+8}{2}=3+12=15$. Option D assumes both widths are $1$.
 
-::mc
+::mc TH
 What is the average value of $e^x$ on $[0,\ln3]$?
 A. $2$
 B. $\dfrac{3}{\ln3}$
@@ -288,7 +288,7 @@ $\dfrac{1}{\ln3}\displaystyle\int_0^{\ln3}e^x\,dx=\dfrac{3-1}{\ln3}$. Option A f
 ## Part B: graphing calculator
 
 :::quiz test
-::mc
+::mc VD
 What is the area of the region enclosed by the polar curve $r=2+\sin(3\theta)$?
 A. $12.566$
 B. $28.274$
@@ -297,7 +297,7 @@ D. $7.069$
 ::key C
 $\dfrac12\displaystyle\int_0^{2\pi}\left(2+\sin3\theta\right)^2d\theta\approx14.137$. Option B forgets the $\dfrac12$.
 
-::mc
+::mc VD
 What is the length of the path $x=t+\cos t$, $y=\sin t$ for $0\le t\le\pi$?
 A. $2.343$
 B. $5.657$
@@ -306,7 +306,7 @@ D. $4.000$
 ::key A
 Speed $\sqrt{(1-\sin t)^2+\cos^2t}=\sqrt{2-2\sin t}$; $\displaystyle\int_0^\pi\sqrt{2-2\sin t}\,dt\approx2.343$. Option B uses $1+\sin t$.
 
-::mc
+::mc VD
 A particle has velocity $v(t)=\left\langle e^{0.2t},\cos t\right\rangle$ and is at $(1,0)$ at $t=0$. What is the $x$-coordinate of its position at $t=3$?
 A. $4.111$
 B. $5.111$
@@ -315,7 +315,7 @@ D. $2.822$
 ::key B
 $x(3)=1+\displaystyle\int_0^3e^{0.2t}\,dt\approx1+4.111$. Option A forgets the starting position; option C is $e^{0.6}$.
 
-::mc
+::mc VD
 For $\dfrac{dy}{dx}=\sin(xy)$ with $y(0)=1$, Euler's method with two steps of size $0.5$ gives which approximation of $y(1)$?
 A. $1.000$
 B. $1.479$
@@ -324,7 +324,7 @@ D. $1.240$
 ::key D
 First step: slope $\sin0=0$, so $y(0.5)\approx1$. Second step: slope $\sin0.5\approx0.479$, so $y(1)\approx1+0.5(0.479)\approx1.240$.
 
-::mc
+::mc VD
 The region under $y=\sqrt x\,e^{-x}$ for $0\le x\le2$ is revolved around the $x$-axis. What is the volume?
 A. $0.713$
 B. $0.227$
@@ -333,7 +333,7 @@ D. $1.427$
 ::key A
 $\pi\displaystyle\int_0^2xe^{-2x}\,dx\approx0.713$. Option B forgets $\pi$; option C does not square the radius.
 
-::mc
+::mc TH
 What is $\displaystyle\int_0^1e^{-x^2}\,dx$?
 A. $0.632$
 B. $0.368$
@@ -342,7 +342,7 @@ D. $0.843$
 ::key C
 Numerical integration gives $0.747$. Option A is $\displaystyle\int_0^1e^{-x}\,dx$.
 
-::mc
+::mc VD
 What is the slope of the polar curve $r=1+2\sin\theta$ at $\theta=\dfrac\pi6$?
 A. $1.732$
 B. $0.577$
@@ -351,7 +351,7 @@ D. $5.196$
 ::key D
 $r=2$, $r'=2\cos\dfrac\pi6\approx1.732$; $\dfrac{r'\sin\theta+r\cos\theta}{r'\cos\theta-r\sin\theta}\approx5.196$. Option A is $\dfrac{dr}{d\theta}$.
 
-::mc
+::mc VD
 A particle moves with $\dfrac{dx}{dt}=\cos\left(t^2\right)$ and $\dfrac{dy}{dt}=t$ for $0<t<2$. At what time is the particle moving vertically?
 A. $1.571$
 B. $1.253$
@@ -360,7 +360,7 @@ D. $1.000$
 ::key B
 $\cos\left(t^2\right)=0$ when $t^2=\dfrac\pi2$, so $t\approx1.253$, where $\dfrac{dy}{dt}\ne0$. Option A is $t^2$.
 
-::mc
+::mc TH
 A quantity satisfies $\dfrac{dy}{dt}=0.3y$ with $y(0)=50$. At what time does $y$ reach $200$?
 A. $4.621$
 B. $2.310$
@@ -369,7 +369,7 @@ D. $13.333$
 ::key A
 $50e^{0.3t}=200$, so $t=\dfrac{\ln4}{0.3}\approx4.621$. Option B uses $\ln2$.
 
-::mc
+::mc VD
 What is the average value of $f(x)=x\sin x$ on $[0,\pi]$?
 A. $3.142$
 B. $0.500$
@@ -378,7 +378,7 @@ D. $1.000$
 ::key D
 $\dfrac1\pi\displaystyle\int_0^\pi x\sin x\,dx=\dfrac\pi\pi=1$. Option A is the integral.
 
-::mc
+::mc VDC
 What is the area of the region inside $r=3\sin\theta$ and outside $r=1+\sin\theta$?
 A. $6.283$
 B. $3.142$
@@ -387,7 +387,7 @@ D. $4.712$
 ::key B
 The curves meet where $\sin\theta=\dfrac12$: $\dfrac12\displaystyle\int_{\pi/6}^{5\pi/6}\left(9\sin^2\theta-(1+\sin\theta)^2\right)d\theta\approx3.142$.
 
-::mc
+::mc VD
 A function $f$ has $f(0)=2$ and $f'(x)=\dfrac{e^x}{1+x^2}$. What is $f(1)$?
 A. $1.271$
 B. $3.359$
@@ -396,7 +396,7 @@ D. $2.000$
 ::key C
 $f(1)=2+\displaystyle\int_0^1\frac{e^x}{1+x^2}\,dx\approx2+1.271$. Option A forgets $f(0)$.
 
-::mc
+::mc TH
 The partial sum $S_{10}=\displaystyle\sum_{n=1}^{10}\frac{1}{n^2}$ is used to approximate $\displaystyle\sum_{n=1}^\infty\frac{1}{n^2}$. What is $S_{10}$?
 A. $1.645$
 B. $2.929$

@@ -276,7 +276,7 @@ The cut splits the square into $2$ parts. Each part has $3$ sides.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A bicycle wheel is the shape of a
 A. square.
 B. circle.
@@ -285,7 +285,7 @@ D. rectangle.
 ::key B
 The edge of the wheel is round, with no sides. Option A is a shape with sides.
 
-::mc
+::mc NB
 A shape with $3$ sides is a
 A. square.
 B. circle.
@@ -294,7 +294,7 @@ D. rectangle.
 ::key C
 Only a triangle has $3$ sides.
 
-::mc
+::mc TH
 A shape has $4$ sides, two long and the same, two short and the same (the sides are not all the same). It is a
 A. square.
 B. circle.
@@ -303,7 +303,7 @@ D. rectangle.
 ::key D
 That is a rectangle. Option A is wrong because a square has all $4$ sides the same.
 
-::mc
+::mc NB
 Which shape has no sides?
 A. Square.
 B. Circle.
@@ -312,7 +312,7 @@ D. Rectangle.
 ::key B
 The edge of a circle is curved, with no sides.
 
-::tf
+::tf NB NB TH NB
 Look at the shapes.
 a) A square has $4$ sides of the same length.
 b) A triangle has $4$ sides.
@@ -321,12 +321,12 @@ d) A rectangle has $3$ sides.
 ::key T F T F
 a) True. b) False: a triangle has $3$ sides. c) True. d) False: a rectangle has $4$ sides.
 
-::sa
+::sa NB
 How many sides does a rectangle have?
 ::key 4
 A rectangle has two long sides and two short sides, $4$ in all.
 
-::sa
+::sa NB
 How many corners does a triangle have?
 ::key 3
 A triangle has $3$ sides and $3$ corners.

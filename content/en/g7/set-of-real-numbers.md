@@ -500,7 +500,7 @@ So we can choose $1.415$ and $1.41010010001\ldots$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of these numbers is irrational?
 A. $\sqrt7$.
 B. $0.25$.
@@ -509,7 +509,7 @@ D. $0.\dot5$.
 ::key A
 $\sqrt7$ is an infinite non-recurring decimal. A is a terminating decimal, C equals $4$, D is a recurring decimal; all three are rational.
 
-::mc
+::mc TH
 Which of the following statements is **false**?
 A. $\mathbb{N}\subset\mathbb{Z}$.
 B. $\mathbb{R}\subset\mathbb{Q}$.
@@ -518,7 +518,7 @@ D. $\mathbb{Q}\subset\mathbb{R}$.
 ::key B
 $\mathbb{R}$ contains irrational numbers such as $\sqrt2$, and $\sqrt2\notin\mathbb{Q}$, so $\mathbb{R}$ is not a subset of $\mathbb{Q}$.
 
-::mc
+::mc TH
 Comparing $\sqrt{10}$ with $3.2$, we have
 A. $\sqrt{10}=3.2$.
 B. $\sqrt{10}>3.2$.
@@ -527,7 +527,7 @@ D. they cannot be compared because $\sqrt{10}$ is irrational.
 ::key C
 $3.2^2=10.24>10$, so $\sqrt{10}<3.2$. B compares $10$ with $3.2$ instead of comparing squares, A rounds $\sqrt{10}\approx3.2$ and then treats it as equal, D is wrong because any two real numbers can be compared.
 
-::mc
+::mc VD
 The smallest of the numbers $0$, $-\sqrt6$, $-2.4$, $-2.5$ is
 A. $0$.
 B. $-\sqrt6$.
@@ -536,7 +536,7 @@ D. $-2.5$.
 ::key D
 $2.4^2=5.76<6<6.25=2.5^2$, so $2.4<\sqrt6<2.5$, hence $-2.5<-\sqrt6<-2.4<0$. B and C come from reversing the order the wrong way when changing signs.
 
-::tf
+::tf TH TH NB TH
 Decide whether each statement is true or false.
 a) Every infinite decimal is an irrational number.
 b) $\sqrt9$ is a rational number.
@@ -545,12 +545,12 @@ d) The opposite of $\pi$ is a rational number.
 ::key F T T F
 a) False: a recurring decimal such as $0.\dot3$ is rational. b) True: $\sqrt9=3$. c) True: each point on the number line represents a real number. d) False: $-\pi$ is irrational.
 
-::sa
+::sa TH
 How many of the numbers $\sqrt2$, $0.\dot3$, $\sqrt{25}$, $\pi$, $-\sqrt7$, $1.5$ are irrational?
 ::key 3
 The irrational ones are $\sqrt2$, $\pi$, $-\sqrt7$. The others, $0.\dot3$, $\sqrt{25}=5$ and $1.5$, are rational.
 
-::sa
+::sa VD
 What is the sum of the two consecutive integers between which $\sqrt{30}$ lies?
 ::key 11
 Since $25<30<36$, we have $5<\sqrt{30}<6$; the sum is $5+6=11$.

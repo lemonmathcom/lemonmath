@@ -427,7 +427,7 @@ $$\begin{cases} x + y = 5\\ 2x - y = 1\end{cases}\iff\begin{cases} x = 2\\ y = 3
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho $|\vec{a}|=4$. Độ dài của vectơ $-3\vec{a}$ là
 A. $12$.
 B. $-12$.
@@ -436,7 +436,7 @@ D. $1$.
 ::key A
 $|-3\vec{a}|=|-3|\cdot|\vec{a}|=3\cdot4=12$. Độ dài không bao giờ âm, nên phương án B (quên giá trị tuyệt đối) sai.
 
-::mc
+::mc TH
 Rút gọn $2(\vec{a}+\vec{b})-3(\vec{a}-\vec{b})$ ta được
 A. $-\vec{a}-\vec{b}$.
 B. $-\vec{a}+5\vec{b}$.
@@ -445,7 +445,7 @@ D. $-\vec{a}+\vec{b}$.
 ::key B
 $2\vec{a}+2\vec{b}-3\vec{a}+3\vec{b}=-\vec{a}+5\vec{b}$. Phương án A quên đổi dấu: $-3\cdot(-\vec{b})=+3\vec{b}$.
 
-::mc
+::mc TH
 Cho $\vec{a}$, $\vec{b}$ không cùng phương. Vectơ nào sau đây cùng phương với $\vec{u}=2\vec{a}-3\vec{b}$?
 A. $4\vec{a}+6\vec{b}$.
 B. $2\vec{a}+3\vec{b}$.
@@ -454,7 +454,7 @@ D. $-2\vec{a}-6\vec{b}$.
 ::key C
 $-4\vec{a}+6\vec{b}=-2(2\vec{a}-3\vec{b})=-2\vec{u}$. Các phương án khác không viết được dạng $k\vec{u}$: hai hệ số không cùng tỉ lệ (A, B sai dấu một hệ số, D nhân hai hệ số với hai số khác nhau).
 
-::mc
+::mc NB
 Cho tam giác $ABC$ và $M$ là trung điểm của $BC$. Khẳng định nào sau đây đúng?
 A. $\overrightarrow{AM}=\overrightarrow{AB}+\overrightarrow{AC}$.
 B. $\overrightarrow{AM}=\dfrac12(\overrightarrow{AB}-\overrightarrow{AC})$.
@@ -463,7 +463,7 @@ D. $\overrightarrow{AM}=\dfrac12(\overrightarrow{AB}+\overrightarrow{AC})$.
 ::key D
 Công thức trung điểm với điểm $O=A$: $\overrightarrow{AB}+\overrightarrow{AC}=2\overrightarrow{AM}$. Phương án A quên chia $2$; phương án C thực ra bằng $\dfrac12\overrightarrow{BC}$.
 
-::tf
+::tf TH VD NB NB
 Cho tam giác $ABC$ và điểm $D$ thuộc cạnh $BC$ sao cho $\overrightarrow{BD}=3\overrightarrow{DC}$.
 a) $\overrightarrow{BD}=\dfrac34\overrightarrow{BC}$.
 b) $\overrightarrow{AD}=\dfrac34\overrightarrow{AB}+\dfrac14\overrightarrow{AC}$.
@@ -472,12 +472,12 @@ d) $BD=3DC$.
 ::key Đ S Đ Đ
 a) Đúng: $BC=BD+DC=4DC$ nên $BD=\dfrac34BC$, cùng hướng. b) Sai: $\overrightarrow{AD}=\overrightarrow{AB}+\dfrac34(\overrightarrow{AC}-\overrightarrow{AB})=\dfrac14\overrightarrow{AB}+\dfrac34\overrightarrow{AC}$ (hai hệ số bị đổi chỗ). c) Đúng: $\overrightarrow{DB}=-\overrightarrow{BD}=-3\overrightarrow{DC}$. d) Đúng: lấy độ dài hai vế.
 
-::sa
+::sa VD
 Cho $\vec{a}$, $\vec{b}$ không cùng phương, $\vec{u}=3\vec{a}-2\vec{b}$ và $\vec{v}=k\vec{a}+4\vec{b}$. Tìm số $k$ để $\vec{u}$ và $\vec{v}$ cùng phương.
 ::key -6
 Ta cần $\vec{v}=t\vec{u}$: so sánh hệ số của $\vec{b}$ được $-2t=4$, tức $t=-2$. Khi đó $k=3t=-6$.
 
-::sa
+::sa VD
 Tam giác $ABC$ có $AB=4$, $AC=6$, $\widehat{BAC}=60^\circ$ và trọng tâm $G$. Tính $AG$ (làm tròn đến hàng phần mười).
 ::key 2,9
 Với $M$ là trung điểm của $BC$: $\overrightarrow{AG}=\dfrac23\overrightarrow{AM}=\dfrac13(\overrightarrow{AB}+\overrightarrow{AC})$. Dựng hình bình hành $ABDC$ thì $AD^2=4^2+6^2-2\cdot4\cdot6\cos120^\circ=76$, nên $AG=\dfrac{AD}{3}=\dfrac{\sqrt{76}}{3}\approx2{,}91$, làm tròn được $2{,}9$.

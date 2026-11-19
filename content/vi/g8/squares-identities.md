@@ -447,7 +447,7 @@ Vì $8k$ là bội của $8$ nên hiệu các bình phương của hai số lẻ
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Khai triển $(x+5)^2$ được
 A. $x^2+10x+25$.
 B. $x^2+25$.
@@ -456,7 +456,7 @@ D. $x^2-10x+25$.
 ::key A
 $(x+5)^2=x^2+2\cdot x\cdot5+5^2=x^2+10x+25$. A quên hạng tử giữa, C tính $2ab$ sai, D sai dấu hạng tử giữa.
 
-::mc
+::mc TH
 Khai triển $(3x-2)^2$ được
 A. $9x^2-4$.
 B. $9x^2-12x+4$.
@@ -465,7 +465,7 @@ D. $9x^2-6x+4$.
 ::key B
 $(3x-2)^2=(3x)^2-2\cdot3x\cdot2+2^2=9x^2-12x+4$. A là hiệu hai bình phương, D tính $2ab$ sai, C sai dấu hạng tử giữa.
 
-::mc
+::mc TH
 Khai triển $(7x-y)(7x+y)$ được
 A. $49x^2-14xy+y^2$.
 B. $7x^2-y^2$.
@@ -474,7 +474,7 @@ D. $49x^2+y^2$.
 ::key C
 $(7x-y)(7x+y)=(7x)^2-y^2=49x^2-y^2$. B quên bình phương hệ số $7$, A là bình phương của một hiệu, D sai dấu.
 
-::mc
+::mc TH
 Biểu thức $x^2-12x+36$ bằng
 A. $(x+6)^2$.
 B. $(x-6)(x+6)$.
@@ -483,7 +483,7 @@ D. $(x-6)^2$.
 ::key D
 $x^2-12x+36=x^2-2\cdot x\cdot6+6^2=(x-6)^2$. A sai dấu, B là $x^2-36$, C có hạng tử giữa là $-24x$.
 
-::tf
+::tf NB NB TH TH
 Cho biểu thức $(x-3)^2$.
 a) $(x-3)^2=x^2-9$.
 b) $(x-3)^2=x^2-6x+9$.
@@ -492,12 +492,12 @@ d) $(x-3)^2=(x-3)(x+3)$.
 ::key S Đ Đ S
 a) Sai: thiếu hạng tử $-6x$. b) Đúng: $x^2-2\cdot x\cdot3+3^2$. c) Đúng: $(3-x)^2=9-6x+x^2$. d) Sai: $(x-3)(x+3)=x^2-9$.
 
-::sa
+::sa VD
 Tính nhẩm $51\cdot49$.
 ::key 2499
 $51\cdot49=(50+1)(50-1)=50^2-1=2499$.
 
-::sa
+::sa VD
 Cho $a+b=7$ và $ab=12$. Tính $a^2+b^2$.
 ::key 25
 $a^2+b^2=(a+b)^2-2ab=49-24=25$.

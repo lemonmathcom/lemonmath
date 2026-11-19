@@ -261,7 +261,7 @@ Nếu $?<4$ thì số nhỏ nhất không còn là $4$. Nếu $?>9$ thì số l�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Dãy số liệu $4, 9, 6, 9, 3$ có bao nhiêu số?
 A. $4$.
 B. $5$.
@@ -270,7 +270,7 @@ D. $9$.
 ::key B
 Có $5$ số, mỗi số đếm một lần kể cả số lặp lại. Phương án A là lỗi chỉ đếm số $9$ một lần.
 
-::mc
+::mc NB
 Số lớn nhất trong dãy $12, 8, 15, 9$ là
 A. $8$.
 B. $12$.
@@ -279,7 +279,7 @@ D. $9$.
 ::key C
 So sánh các số thì $15$ lớn nhất. Phương án B là lỗi chọn số đầu tiên.
 
-::mc
+::mc NB
 Sắp xếp dãy $7, 3, 9, 3$ từ bé đến lớn được
 A. $3, 3, 7, 9$.
 B. $9, 7, 3, 3$.
@@ -288,7 +288,7 @@ D. $3, 7, 9$.
 ::key A
 Phải viết đủ hai số $3$. Phương án D bỏ một số $3$, B là sắp từ lớn đến bé.
 
-::mc
+::mc TH
 Nhiệt độ năm ngày là $24, 27, 22, 27, 25$ (độ). Nhiệt độ cao nhất hơn nhiệt độ thấp nhất bao nhiêu độ?
 A. $5$ độ.
 B. $3$ độ.
@@ -297,7 +297,7 @@ D. $2$ độ.
 ::key A
 $27-22=5$. Phương án B lấy $27-24$ vì quên tìm số nhỏ nhất, C là số lớn nhất.
 
-::tf
+::tf NB NB NB TH
 Cho dãy số liệu $6, 2, 8, 2, 5, 2$.
 a) Dãy có $6$ số.
 b) Số lớn nhất là $8$.
@@ -306,12 +306,12 @@ d) Sắp xếp từ bé đến lớn được $2, 2, 2, 5, 6, 8$.
 ::key Đ Đ S Đ
 a) Đúng: đếm đủ sáu số. b) Đúng: $8$ lớn nhất. c) Sai: số $2$ xuất hiện $3$ lần. d) Đúng: đủ ba số $2$.
 
-::sa
+::sa TH
 Cho dãy $15, 9, 12, 20, 9$. Số lớn nhất hơn số nhỏ nhất bao nhiêu?
 ::key 11
 $20-9=11$.
 
-::sa
+::sa NB
 Số $7$ xuất hiện bao nhiêu lần trong dãy $7, 3, 7, 5, 7, 4$?
 ::key 3
 Số $7$ ở vị trí thứ nhất, thứ ba và thứ năm, tức $3$ lần.

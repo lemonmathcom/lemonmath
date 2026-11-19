@@ -401,7 +401,7 @@ The beam travels a distance $A'B=\sqrt{16+16+9}=\sqrt{41}\approx6.40$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 In the system $Oxyz$, a direction vector of the line $d: \begin{cases}x=1-2t\\ y=3\\ z=-1+t\end{cases}$ is
 A. $(1, 3, -1)$.
 B. $(-2, 3, 1)$.
@@ -410,7 +410,7 @@ D. $(2, 0, 1)$.
 ::key C
 The direction vector is made of the coefficients of $t$: $-2$, $0$, $1$. Option A is a point, B takes the $3$ that has no $t$, and D has a wrong sign.
 
-::mc
+::mc TH
 Which point lies on the line $\dfrac{x-1}{2}=\dfrac{y+2}{-1}=\dfrac{z-3}{3}$?
 A. $(-1, 2, -3)$.
 B. $(2, -1, 3)$.
@@ -419,7 +419,7 @@ D. $(1, -2, 3)$.
 ::key D
 With $(1, -2, 3)$ all three fractions are $0$. Option A changes the signs of the point, B takes the direction vector by mistake, and C fails the second fraction: $\dfrac{-1+2}{-1}=-1\neq1$.
 
-::mc
+::mc TH
 The line through $A(1, 0, 2)$ perpendicular to $(P): 2x-y+z-3=0$ has equations
 A. $x=1+2t$, $y=-t$, $z=2+t$.
 B. $x=2+t$, $y=-1$, $z=1+2t$.
@@ -428,7 +428,7 @@ D. $x=1+2t$, $y=-t$, $z=2-3t$.
 ::key A
 The direction vector is $\vec{n}_P=(2, -1, 1)$. Option B swaps the point and the vector, C has the wrong sign in the second coordinate, and D takes the constant term $-3$ by mistake.
 
-::mc
+::mc VD
 Let $d_1: x=1+t$, $y=2t$, $z=3-t$ and $d_2: x=s$, $y=1+s$, $z=2s$. The lines $d_1$ and $d_2$ are
 A. parallel.
 B. intersecting.
@@ -437,7 +437,7 @@ D. coincident.
 ::key C
 $(1, 2, -1)$ and $(1, 1, 2)$ are not parallel, which rules out A and D. The first two equations give $s=1+t$ and $2t=1+s=2+t$, so $t=2$, $s=3$; the third needs $3-2=2\cdot3$, which is impossible. So the lines are skew; choosing "parallel" forgets that lines in space can be skew.
 
-::tf
+::tf NB TH VD TH
 Let $d: x=1+t$, $y=2-t$, $z=-1+2t$ and $(P): x+y+z-4=0$.
 a) $\vec{u}=(1, -1, 2)$ is a direction vector of $d$.
 b) $d$ is parallel to $(P)$.
@@ -446,12 +446,12 @@ d) $d$ is perpendicular to the plane $(Q): x-y+2z+7=0$.
 ::key T F T T
 a) True. b) False: $\vec{u}\cdot\vec{n}_P=1-1+2=2\neq0$. c) True: substituting gives $2t-2=0$, $t=1$, the point $(2, 1, 1)$. d) True: $\vec{n}_Q=(1, -1, 2)=\vec{u}$.
 
-::sa
+::sa VD
 The line $d: x=2+t$, $y=-1+2t$, $z=3-t$ meets the plane $(P): x+y+z-10=0$ at $M(a, b, c)$. Find $a+b+c$.
 ::key 10
 Substituting: $2t-6=0$, $t=3$, so $M(5, 5, 0)$ and $a+b+c=10$. Another way: $M$ lies in $(P)$, so $a+b+c-10=0$.
 
-::sa
+::sa VD
 Find the distance from $M(2, 3, 1)$ to the line $d: x=1+2t$, $y=-1+t$, $z=1+2t$ (to 2 decimal places).
 ::key 3.61
 $\overrightarrow{MH}=(2t-1, t-4, 2t)$ for $H\in d$; $\overrightarrow{MH}\cdot(2, 1, 2)=9t-6=0$, $t=\dfrac23$. Then $\overrightarrow{MH}=\left(\dfrac13, -\dfrac{10}{3}, \dfrac43\right)$ and $MH=\sqrt{13}\approx3.61$.

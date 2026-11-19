@@ -471,7 +471,7 @@ Vậy có tất cả $43$ đường thẳng.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Qua hai điểm phân biệt có bao nhiêu đường thẳng?
 A. $0$.
 B. $1$.
@@ -480,7 +480,7 @@ D. Vô số.
 ::key B
 Có một và chỉ một đường thẳng đi qua hai điểm phân biệt. D là số đường thẳng đi qua một điểm.
 
-::mc
+::mc TH
 Cho ba điểm $A$, $B$, $C$ thẳng hàng, $B$ nằm giữa $A$ và $C$. Hai tia đối nhau là
 A. $BA$ và $BC$.
 B. $AB$ và $AC$.
@@ -489,7 +489,7 @@ D. $AB$ và $BA$.
 ::key A
 $BA$, $BC$ chung gốc $B$ và tạo thành một đường thẳng. B và C là hai tia trùng nhau; D không chung gốc.
 
-::mc
+::mc VD
 Cho năm điểm, không có ba điểm nào thẳng hàng. Số đường thẳng đi qua hai trong năm điểm đó là
 A. $5$.
 B. $20$.
@@ -498,7 +498,7 @@ D. $10$.
 ::key D
 $\dfrac{5\cdot4}{2}=10$. B quên chia $2$; C lấy $5\cdot5$; A chỉ đếm số điểm.
 
-::mc
+::mc NB
 Hai đường thẳng song song có bao nhiêu điểm chung?
 A. $1$.
 B. $2$.
@@ -507,7 +507,7 @@ D. Vô số.
 ::key C
 Hai đường thẳng song song không có điểm chung nào. A là trường hợp cắt nhau; D là trường hợp trùng nhau.
 
-::tf
+::tf NB NB TH NB
 Cho đường thẳng $xy$ và điểm $O$ thuộc $xy$. Xét tính đúng sai của các mệnh đề sau:
 a) $Ox$ và $Oy$ là hai tia đối nhau.
 b) Tia $Ox$ có gốc là $x$.
@@ -516,12 +516,12 @@ d) Hai tia $Ox$ và $Oy$ tạo thành đường thẳng $xy$.
 ::key Đ S Đ Đ
 a) Đúng: chung gốc $O$ và tạo thành đường thẳng $xy$. b) Sai: gốc của tia $Ox$ là $O$. c) Đúng: gốc thuộc tia. d) Đúng: theo định nghĩa hai tia đối nhau.
 
-::sa
+::sa VD
 Cho bảy điểm, không có ba điểm nào thẳng hàng. Có bao nhiêu đường thẳng đi qua hai trong bảy điểm đó?
 ::key 21
 $\dfrac{7\cdot6}{2}=21$.
 
-::sa
+::sa TH
 Trên một đường thẳng lấy bốn điểm phân biệt. Có bao nhiêu tia có gốc là một trong bốn điểm đó?
 ::key 8
 Mỗi điểm là gốc của hai tia đối nhau: $4\cdot2=8$ tia.

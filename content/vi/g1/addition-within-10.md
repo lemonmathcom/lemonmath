@@ -258,7 +258,7 @@ Từ $4$ lên $10$: "năm, sáu, bảy, tám, chín, mười", có $6$ số.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $4+3$ là
 A. $6$.
 B. $7$.
@@ -267,7 +267,7 @@ D. $1$.
 ::key B
 Từ $4$ đếm thêm $3$ số: năm, sáu, bảy. Phương án D là lấy $4-3$, nhầm sang phép trừ.
 
-::mc
+::mc NB
 Kết quả của $5+0$ là
 A. $0$.
 B. $6$.
@@ -276,7 +276,7 @@ D. $4$.
 ::key C
 Cộng với $0$ thì số không đổi. Phương án A là lỗi nghĩ kết quả bằng $0$.
 
-::mc
+::mc TH
 Phép tính nào có kết quả bằng $8$?
 A. $5+2$.
 B. $7+2$.
@@ -285,7 +285,7 @@ D. $6+2$.
 ::key D
 $6+2=8$. Các phép tính khác lần lượt bằng $7$, $7$, $9$.
 
-::mc
+::mc TH
 Có $3$ con mèo và $6$ con chó. Có tất cả bao nhiêu con?
 A. $9$ con.
 B. $3$ con.
@@ -294,7 +294,7 @@ D. $8$ con.
 ::key A
 "Tất cả" là gộp lại: $3+6=9$. Phương án B chỉ lấy một nhóm.
 
-::tf
+::tf NB TH NB NB
 Em xét phép cộng $2+6$.
 a) $2+6=8$.
 b) $6+2=8$.
@@ -303,12 +303,12 @@ d) $2+6=9$.
 ::key Đ Đ S S
 a) Đúng: đếm từ $6$ thêm hai số được $8$. b) Đúng: đổi chỗ hai số. c) Sai. d) Sai.
 
-::sa
+::sa TH
 Tính $5+4$.
 ::key 9
 Từ $5$ đếm thêm $4$ số: sáu, bảy, tám, chín.
 
-::sa
+::sa TH
 Tính $7+3$.
 ::key 10
 Từ $7$ đếm thêm $3$ số: tám, chín, mười.

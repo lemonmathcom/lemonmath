@@ -330,7 +330,7 @@ Chu vi đáy là $31{,}4$ cm, nên $2\times3{,}14\times r=31{,}4$, tức là $6{
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hình khai triển của hình lập phương gồm
 A. $4$ hình vuông.
 B. $6$ hình vuông bằng nhau.
@@ -339,7 +339,7 @@ D. $5$ hình vuông.
 ::key B
 Hình lập phương có $6$ mặt, mỗi mặt là một hình vuông bằng nhau. Phương án A và D thiếu mặt; C sai vì các mặt là hình vuông bằng nhau.
 
-::mc
+::mc VD
 Hình hộp chữ nhật dài $5$ cm, rộng $3$ cm, cao $2$ cm có tổng diện tích $6$ mặt là
 A. $31\ \text{cm}^2$.
 B. $30\ \text{cm}^2$.
@@ -348,7 +348,7 @@ D. $124\ \text{cm}^2$.
 ::key C
 Ba mặt khác nhau có diện tích $15$, $10$, $6$ ($\text{cm}^2$), tổng $31$; nhân $2$ được $62\ \text{cm}^2$. Phương án A chỉ cộng ba mặt; C chỉ tính hai mặt $5\times3$; D nhân với $4$ thay vì $2$.
 
-::mc
+::mc TH
 Hình trụ có bán kính đáy $5$ cm và chiều cao $10$ cm. Hình chữ nhật trong hình khai triển của nó có chiều dài là
 A. $78{,}5$ cm.
 B. $15{,}7$ cm.
@@ -357,7 +357,7 @@ D. $31{,}4$ cm.
 ::key D
 Chiều dài bằng chu vi đáy: $2\times3{,}14\times5=31{,}4$ cm. Phương án B là nửa chu vi; C là chiều cao; D là diện tích một đáy.
 
-::mc
+::mc VD
 Giả sử một lon nước hình trụ có đường kính đáy $6$ cm và chiều cao $12$ cm. Tờ nhãn dán kín mặt xung quanh có diện tích là
 A. $226{,}08\ \text{cm}^2$.
 B. $452{,}16\ \text{cm}^2$.
@@ -366,7 +366,7 @@ D. $18{,}84\ \text{cm}^2$.
 ::key A
 Chu vi đáy là $6\times3{,}14=18{,}84$ cm nên diện tích là $18{,}84\times12=226{,}08\ \text{cm}^2$. Phương án C tính $3{,}14\times6\times6$; B gấp đôi kết quả đúng; D là chu vi đáy.
 
-::tf
+::tf NB TH TH VD
 Em xét hình trụ có bán kính đáy $5$ cm và chiều cao $10$ cm.
 a) Hình khai triển gồm $2$ hình tròn và $1$ hình chữ nhật.
 b) Chiều dài hình chữ nhật là $10$ cm.
@@ -375,12 +375,12 @@ d) Diện tích hình chữ nhật là $314\ \text{cm}^2$.
 ::key Đ S S Đ
 a) Đúng. b) Sai: chiều dài là chu vi đáy $31{,}4$ cm, còn $10$ cm là chiều rộng. c) Sai: diện tích mỗi đáy là $3{,}14\times5\times5=78{,}5\ \text{cm}^2$; $31{,}4$ là chu vi đáy. d) Đúng: $31{,}4\times10=314$.
 
-::sa
+::sa TH
 Hình lập phương có cạnh $5$ cm. Tổng diện tích $6$ mặt của nó là bao nhiêu xăng-ti-mét vuông?
 ::key 150
 Mỗi mặt là $5\times5=25\ \text{cm}^2$ và có $6$ mặt, nên $25\times6=150\ \text{cm}^2$.
 
-::sa
+::sa VD
 Hình hộp chữ nhật dài $6$ cm, rộng $4$ cm, cao $3$ cm. Tổng diện tích $6$ mặt là bao nhiêu xăng-ti-mét vuông?
 ::key 108
 Ba mặt khác nhau có diện tích $24$, $18$, $12$ ($\text{cm}^2$), tổng $54$; nhân $2$ được $108\ \text{cm}^2$.

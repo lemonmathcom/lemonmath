@@ -288,7 +288,7 @@ Ta có $2\times8=16$ nên số chia là 2.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $10:5$ là
 A. $5$.
 B. $15$.
@@ -297,7 +297,7 @@ D. $50$.
 ::key C
 $5\times2=10$ nên $10:5=2$. Phương án B là phép cộng, phương án D là phép nhân.
 
-::mc
+::mc NB
 Trong phép chia $12:2=6$, số $12$ gọi là
 A. thương.
 B. tích.
@@ -306,7 +306,7 @@ D. số bị chia.
 ::key D
 Số đứng đầu trong phép chia là số bị chia. Phương án A là số 6.
 
-::mc
+::mc TH
 Mẹ chia đều 8 quả cam cho 2 người. Mỗi người được
 A. $4$ quả cam.
 B. $6$ quả cam.
@@ -315,7 +315,7 @@ D. $16$ quả cam.
 ::key A
 $2\times4=8$ nên $8:2=4$. Phương án C là phép cộng, phương án D là phép nhân.
 
-::mc
+::mc TH
 Từ phép nhân $5\times2=10$ ta có phép chia đúng là
 A. $10:5=5$.
 B. $10:5=2$.
@@ -324,7 +324,7 @@ D. $5:10=2$.
 ::key B
 Lấy tích 10 chia cho thừa số 5 được thương 2. Phương án C sai vì $10:2=5$.
 
-::tf
+::tf NB NB NB TH
 Cho phép chia $15:5=3$.
 a) $15$ là số chia.
 b) $5$ là thương.
@@ -333,12 +333,12 @@ d) Từ $5\times3=15$ suy ra $15:5=3$ và $15:3=5$.
 ::key S S S Đ
 a) Sai: 15 là số bị chia. b) Sai: 5 là số chia. c) Sai: 3 là thương. d) Đúng: lấy tích chia cho từng thừa số.
 
-::sa
+::sa TH
 Tính $12:2$.
 ::key 6
 $2\times6=12$ nên $12:2=6$.
 
-::sa
+::sa VD
 Có 20 quyển vở chia đều cho 5 bạn. Mỗi bạn được bao nhiêu quyển vở?
 ::key 4
 $5\times4=20$ nên $20:5=4$ (quyển).

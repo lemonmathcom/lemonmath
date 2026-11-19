@@ -368,7 +368,7 @@ So the radius of the sphere is $5$ cm.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The surface area of a sphere with radius $2$ cm is
 A. $8\pi$ cm².
 B. $16\pi$ cm².
@@ -377,7 +377,7 @@ D. $4\pi$ cm².
 ::key B
 $S=4\pi\cdot2^2=16\pi$. A uses $4\pi R$ (forgets to square), C is the volume, and D is the area of one great-circle disc.
 
-::mc
+::mc NB
 The volume of a sphere with radius $3$ cm is
 A. $108\pi$ cm³.
 B. $12\pi$ cm³.
@@ -386,7 +386,7 @@ D. $27\pi$ cm³.
 ::key C
 $V=\dfrac43\pi\cdot27=36\pi$. A forgets the $\dfrac13$, B uses $R^2$ instead of $R^3$, and D forgets the factor $\dfrac43$.
 
-::mc
+::mc TH
 A plane is $3$ cm from the centre of a sphere with radius $5$ cm. The cross-section is a disc of radius
 A. $4$ cm.
 B. $2$ cm.
@@ -395,7 +395,7 @@ D. $\sqrt{34}$ cm.
 ::key A
 $\sqrt{25-9}=4$. B takes $5-3$, C takes $5+3$, and D adds under the root.
 
-::mc
+::mc TH
 If the radius of a sphere is doubled, its volume is multiplied by
 A. $2$.
 B. $4$.
@@ -404,7 +404,7 @@ D. $8$.
 ::key D
 $V$ is proportional to $R^3$, and $2^3=8$. A treats $V$ as proportional to $R$, B is the ratio of the areas, and C works out $2\cdot3$ instead of $2^3$.
 
-::tf
+::tf NB NB TH VD
 A sphere has radius $6$ cm. Decide whether each statement is true or false.
 a) The surface area is $144\pi$ cm².
 b) The volume is $288\pi$ cm³.
@@ -413,12 +413,12 @@ d) The circumscribed cylinder has twice the volume of the sphere.
 ::key T T T F
 a) True: $4\pi\cdot36$. b) True: $\dfrac43\pi\cdot216$. c) True: $2\pi\cdot6$. d) False: the cylinder has volume $\pi\cdot36\cdot12=432\pi$, which is $1.5$ times as much.
 
-::sa
+::sa VD
 The surface area of a sphere (in cm²) and its volume (in cm³) are the same number. Find the radius (in cm) of the sphere.
 ::key 3
 $4\pi R^2=\dfrac43\pi R^3$, so $R=3$.
 
-::sa
+::sa VD
 A metal ball with radius $4$ cm is melted down and cast into ball bearings with radius $1$ cm. Ignoring any loss, how many ball bearings can be made?
 ::key 64
 The ratio of the volumes is $\left(\dfrac41\right)^3=64$.

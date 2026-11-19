@@ -381,7 +381,7 @@ Số thứ nhất có $3$ phần và số thứ hai có $4$ phần như thế. T
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc VD
 Tổng của hai số là $48$. Số bé bằng $\dfrac{1}{5}$ số lớn. Hai số đó là
 A. $9{,}6$ và $38{,}4$.
 B. $12$ và $36$.
@@ -390,7 +390,7 @@ D. $24$ và $24$.
 ::key C
 Số bé có $1$ phần, số lớn có $5$ phần, tổng $6$ phần, một phần là $48:6=8$, nên hai số là $8$ và $40$. Phương án A chia tổng cho $5$; C ứng với tỉ số $\dfrac{1}{3}$; D chia đôi tổng.
 
-::mc
+::mc VD
 Hiệu của hai số là $24$. Tỉ số của số lớn và số bé là $\dfrac{5}{3}$. Số lớn là
 A. $36$.
 B. $15$.
@@ -399,7 +399,7 @@ D. $60$.
 ::key D
 Hiệu số phần là $5-3=2$, một phần là $24:2=12$, số lớn là $12\times5=60$. Phương án B chia hiệu cho tổng số phần; C nhân hiệu với số phần; D là số bé.
 
-::mc
+::mc VD
 Một lớp có $36$ học sinh. Số học sinh nam bằng $\dfrac{4}{5}$ số học sinh nữ. Số học sinh nữ là
 A. $20$.
 B. $18$.
@@ -408,7 +408,7 @@ D. $45$.
 ::key A
 Tổng số phần là $4+5=9$, một phần là $36:9=4$, số học sinh nữ là $4\times5=20$. Phương án C là số học sinh nam; B chia đôi $36$; D lấy $36:4\times5$.
 
-::mc
+::mc VD
 Giả sử bố hơn con $30$ tuổi và tuổi bố gấp $6$ lần tuổi con. Tuổi bố là
 A. $6$ tuổi.
 B. $36$ tuổi.
@@ -417,7 +417,7 @@ D. $30$ tuổi.
 ::key B
 Hiệu số phần là $6-1=5$, một phần là $30:5=6$, tuổi bố là $6\times6=36$. Phương án A là tuổi con; B là hiệu; C nhân hiệu với $6$.
 
-::tf
+::tf TH VD VD TH
 Hai số có tổng là $24$ và tỉ số của số bé và số lớn là $\dfrac{1}{3}$.
 a) Tổng số phần bằng nhau là $4$.
 b) Số bé là $8$.
@@ -426,12 +426,12 @@ d) Số lớn gấp $3$ lần số bé.
 ::key Đ S Đ Đ
 a) Đúng: $1+3=4$. b) Sai: một phần là $24:4=6$, nên số bé là $6$. c) Đúng: $6\times3=18$. d) Đúng: $18=3\times6$.
 
-::sa
+::sa VD
 Tổng của hai số là $45$. Tỉ số của hai số là $\dfrac{2}{7}$. Số bé là bao nhiêu?
 ::key 10
 Tổng số phần là $2+7=9$, một phần là $45:9=5$, số bé là $5\times2=10$.
 
-::sa
+::sa VD
 Hiệu của hai số là $18$. Tỉ số của số bé và số lớn là $\dfrac{4}{7}$. Số lớn là bao nhiêu?
 ::key 42
 Hiệu số phần là $7-4=3$, một phần là $18:3=6$, số lớn là $6\times7=42$.

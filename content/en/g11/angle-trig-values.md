@@ -442,7 +442,7 @@ Let $a=\sin^2\alpha$, $b=\cos^2\alpha$, so $a+b=1$. We have $\sin^6\alpha+\cos^6
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The angle $135^\circ$ in radians is
 A. $\dfrac{3\pi}4$.
 B. $\dfrac{5\pi}6$.
@@ -451,7 +451,7 @@ D. $\dfrac{2\pi}3$.
 ::key A
 $135\cdot\dfrac\pi{180}=\dfrac{3\pi}4$. Option D is $120^\circ$, B is $150^\circ$, and C is $270^\circ$.
 
-::mc
+::mc TH
 The value of $\cos\dfrac{2\pi}3$ is
 A. $\dfrac12$.
 B. $-\dfrac12$.
@@ -460,7 +460,7 @@ D. $-\dfrac{\sqrt3}2$.
 ::key B
 $\cos\dfrac{2\pi}3=\cos\left(\pi-\dfrac\pi3\right)=-\cos\dfrac\pi3=-\dfrac12$. Option A forgets the sign change; C and D confuse it with $\cos\dfrac\pi6$.
 
-::mc
+::mc VD
 Given $\tan\alpha=2$, the value of $\dfrac{\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alpha}$ is
 A. $-3$.
 B. $\dfrac13$.
@@ -469,7 +469,7 @@ D. $1$.
 ::key C
 Dividing the numerator and the denominator by $\cos\alpha$: $\dfrac{\tan\alpha+1}{\tan\alpha-1}=\dfrac{3}{1}=3$. Option B inverts the fraction.
 
-::mc
+::mc TH
 On a circle of radius $5$ cm, the arc that stands on a central angle $\dfrac{2\pi}5$ (radians) has length
 A. $\dfrac{2\pi}{25}$ cm.
 B. $360$ cm.
@@ -478,7 +478,7 @@ D. $2\pi$ cm.
 ::key D
 $l=R\alpha=5\cdot\dfrac{2\pi}5=2\pi$. Option A divides $\alpha$ by $R$, and B uses degrees instead of radians.
 
-::tf
+::tf TH TH NB TH
 Given an angle $\alpha$ with $\dfrac\pi2<\alpha<\pi$ and $\sin\alpha=\dfrac35$. Decide whether each statement is true or false.
 a) $\cos\alpha=\dfrac45$.
 b) $\tan\alpha=\dfrac34$.
@@ -487,12 +487,12 @@ d) $\cos(-\alpha)=\dfrac45$.
 ::key F F F F
 Since $\alpha$ is in the second quadrant, $\cos\alpha=-\dfrac45$. a) False: $\cos\alpha=-\dfrac45$. b) False: $\tan\alpha=-\dfrac34$. c) False: $\sin(\pi-\alpha)=\sin\alpha=\dfrac35$. d) False: $\cos(-\alpha)=\cos\alpha=-\dfrac45$.
 
-::sa
+::sa TH
 A Ferris wheel has radius $10$ m and its centre is $12$ m above the ground. The height of a cabin above the ground is $h=12-10\cos\theta$ (m), where $\theta$ is the angle turned from the lowest point. Find the height of the cabin when $\theta=\dfrac{4\pi}3$ (in metres).
 ::key 17
 $\cos\dfrac{4\pi}3=-\dfrac12$, so $h=12+5=17$.
 
-::sa
+::sa VD
 Given $\tan\alpha=2$, find $\dfrac{3\sin\alpha-\cos\alpha}{\sin\alpha+2\cos\alpha}$ (to 2 decimal places if necessary).
 ::key 1.25
 Dividing the numerator and the denominator by $\cos\alpha$: $\dfrac{3\tan\alpha-1}{\tan\alpha+2}=\dfrac54=1.25$.

@@ -378,7 +378,7 @@ Vậy $\widehat{BHC}=180^\circ-\widehat{A}$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho tam giác $ABC$. Hai đường trung trực của $AB$ và $AC$ cắt nhau tại $O$ và $OA=5$ cm. Khoảng cách $OB$ bằng
 A. $5$ cm.
 B. $2{,}5$ cm.
@@ -387,7 +387,7 @@ D. $10$ cm.
 ::key A
 $O$ cách đều ba đỉnh nên $OB=OA=5$ cm. A nhân đôi và B chia đôi $OA$ một cách vô căn cứ.
 
-::mc
+::mc TH
 Trực tâm của tam giác $ABC$ vuông tại $A$ là
 A. trung điểm của $BC$.
 B. điểm $A$.
@@ -396,7 +396,7 @@ D. điểm cách đều $B$ và $C$ trên $AB$.
 ::key B
 Hai đường cao kẻ từ $B$ và $C$ là $BA$ và $CA$, cắt nhau tại $A$. B nhầm với tâm đường tròn ngoại tiếp tam giác vuông.
 
-::mc
+::mc NB
 Điểm cách đều ba đỉnh của một tam giác là giao điểm của
 A. ba đường cao.
 B. ba đường trung tuyến.
@@ -405,7 +405,7 @@ D. hai đường cao và một đường trung trực.
 ::key C
 Giao của ba đường trung trực là điểm cách đều ba đỉnh. Giao của ba đường cao là trực tâm, không có tính chất này.
 
-::mc
+::mc TH
 Tam giác $ABC$ cân tại $A$, $M$ là trung điểm của $BC$. Đường thẳng nào sau đây là đường trung trực của $BC$?
 A. Đường thẳng $BC$.
 B. Đường thẳng qua $A$ song song với $BC$.
@@ -414,7 +414,7 @@ D. Đường thẳng $AM$.
 ::key D
 $A$ và $M$ đều cách đều $B$, $C$ nên $AM$ là đường trung trực của $BC$. D vuông góc với $AM$, không với $BC$.
 
-::tf
+::tf NB TH VD VD
 Cho tam giác $ABC$ nhọn, các đường cao $BD$ và $CE$ cắt nhau tại $H$.
 a) Điểm $H$ cách đều ba đỉnh $A$, $B$, $C$.
 b) $AH\perp BC$.
@@ -423,12 +423,12 @@ d) Nếu $\widehat{A}=50^\circ$ thì $\widehat{BHC}=40^\circ$.
 ::key S Đ Đ S
 a) Sai: $H$ là trực tâm, không phải tâm đường tròn ngoại tiếp. b) Đúng: $AH$ là đường cao thứ ba. c) Đúng: theo chứng minh ở bài tập thử thách. d) Sai: $180^\circ-50^\circ=130^\circ$.
 
-::sa
+::sa VD
 Tam giác $ABC$ nhọn có $\widehat{A}=64^\circ$. Hai đường cao $BD$ và $CE$ cắt nhau tại $H$. Tính số đo $\widehat{BHC}$ (đơn vị: độ).
 ::key 116
 $\widehat{BHC}=180^\circ-\widehat{A}=180^\circ-64^\circ=116^\circ$.
 
-::sa
+::sa VDC
 Tam giác $ABC$ cân tại $A$ có $AB=AC=5$ cm và $BC=6$ cm. Tâm $O$ của đường tròn ngoại tiếp cách mỗi đỉnh bao nhiêu xăng-ti-mét (làm tròn đến hàng phần mười)?
 ::key 3,1
 $AM=\sqrt{25-9}=4$. Đặt $OA=R$, $OM=4-R$, $R^2=(4-R)^2+9$ nên $8R=25$ và $R=3{,}125\approx3{,}1$ (cm).

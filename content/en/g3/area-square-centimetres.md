@@ -314,7 +314,7 @@ $$6\times 6=36\ (\text{cm}^2).$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The area of a rectangle $6$ cm long and $4$ cm wide is
 A. $10\ \text{cm}^2$.
 B. $20\ \text{cm}^2$.
@@ -323,7 +323,7 @@ D. $24\ \text{cm}^2$.
 ::key D
 $6\times 4=24$, and the unit is $\text{cm}^2$. A adds the two numbers, B is the perimeter, C has the wrong unit.
 
-::mc
+::mc TH
 The area of a square with sides of $7$ cm is
 A. $49\ \text{cm}^2$.
 B. $14\ \text{cm}^2$.
@@ -332,7 +332,7 @@ D. $77\ \text{cm}^2$.
 ::key A
 $7\times 7=49$. A adds $7+7$, C is the perimeter, D joins the digits.
 
-::mc
+::mc TH
 A rectangular card $12$ cm long and $8$ cm wide has an area of
 A. $20\ \text{cm}^2$.
 B. $96\ \text{cm}^2$.
@@ -341,7 +341,7 @@ D. $4\ \text{cm}^2$.
 ::key B
 $12\times 8=96$. A adds the two numbers, C is the perimeter, D is the difference of the two numbers.
 
-::mc
+::mc VD
 A rectangle $1$ dm long and $5$ cm wide has an area of
 A. $6\ \text{cm}^2$.
 B. $5\ \text{cm}^2$.
@@ -350,7 +350,7 @@ D. $15\ \text{cm}^2$.
 ::key C
 $1$ dm $=10$ cm, so $10\times 5=50\ \text{cm}^2$. B does not convert the unit, A and D use the wrong operation.
 
-::tf
+::tf TH TH VD NB
 Look at a square with sides of $5$ cm and a rectangle $8$ cm long and $3$ cm wide.
 a) The area of the square is $25\ \text{cm}^2$.
 b) The area of the rectangle is $11\ \text{cm}^2$.
@@ -359,12 +359,12 @@ d) Area is measured in centimetres.
 ::key T F T F
 a) True: $5\times 5=25$. b) False: $8\times 3=24$, and $11$ is $8+3$. c) True: $25>24$. d) False: area is measured in square centimetres.
 
-::sa
+::sa TH
 Find the area of a rectangle $9$ cm long and $4$ cm wide (in $\text{cm}^2$).
 ::key 36
 $9\times 4=36\ (\text{cm}^2)$.
 
-::sa
+::sa TH
 Find the area of a square with sides of $8$ cm (in $\text{cm}^2$).
 ::key 64
 $8\times 8=64\ (\text{cm}^2)$.

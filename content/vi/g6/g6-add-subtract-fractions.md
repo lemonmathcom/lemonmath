@@ -472,7 +472,7 @@ Vậy $S=\dfrac{9}{10}$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của phép tính $\dfrac{-3}{8}+\dfrac{5}{8}$ là
 A. $\dfrac{2}{16}$.
 B. $\dfrac{-1}{4}$.
@@ -481,7 +481,7 @@ D. $-1$.
 ::key C
 $\dfrac{-3+5}{8}=\dfrac{2}{8}=\dfrac14$. A cộng cả hai mẫu; B sai dấu; D lấy $-3-5$.
 
-::mc
+::mc TH
 Kết quả của phép tính $\dfrac{1}{2}+\dfrac{1}{3}$ là
 A. $\dfrac{2}{5}$.
 B. $\dfrac{5}{6}$.
@@ -490,7 +490,7 @@ D. $\dfrac{2}{6}$.
 ::key B
 $\dfrac36+\dfrac26=\dfrac56$. A cộng tử với tử, mẫu với mẫu; C là hiệu; D chỉ quy đồng một phân số.
 
-::mc
+::mc NB
 Số đối của $\dfrac{-4}{9}$ là
 A. $\dfrac{4}{9}$.
 B. $\dfrac{-4}{9}$.
@@ -499,7 +499,7 @@ D. $\dfrac{-9}{4}$.
 ::key A
 $\dfrac{-4}{9}+\dfrac49=0$. B là chính số đó; C và D đảo tử với mẫu (đó là phép nghịch đảo, sẽ học ở bài sau).
 
-::mc
+::mc TH
 Kết quả của phép tính $\dfrac{2}{3}-\dfrac{3}{4}$ là
 A. $\dfrac{1}{12}$.
 B. $\dfrac{17}{12}$.
@@ -508,7 +508,7 @@ D. $\dfrac{-1}{12}$.
 ::key D
 $\dfrac{8}{12}-\dfrac{9}{12}=\dfrac{-1}{12}$. A sai dấu; B cộng thay vì trừ; C trừ tử với tử, mẫu với mẫu.
 
-::tf
+::tf TH TH NB TH
 Xét tính đúng sai của các mệnh đề sau:
 a) Hiệu của hai phân số dương luôn là một phân số dương.
 b) Tổng của hai phân số âm là một phân số âm.
@@ -517,12 +517,12 @@ d) $\dfrac{1}{2}+\dfrac{1}{3}=\dfrac{2}{5}$.
 ::key S Đ Đ S
 a) Sai: ví dụ $\dfrac12-\dfrac34=\dfrac{-1}{4}$. b) Đúng: cộng hai tử âm (cùng mẫu dương) được tử âm. c) Đúng: hai số đối nhau. d) Sai: $\dfrac12+\dfrac13=\dfrac56$.
 
-::sa
+::sa VD
 Tính giá trị của biểu thức $\dfrac{3}{4}+\dfrac{1}{4}-\left(\dfrac{-1}{2}\right)$ (viết kết quả dưới dạng số thập phân).
 ::key 1,5
 $\dfrac34+\dfrac14=1$; $1+\dfrac12=\dfrac32=1{,}5$.
 
-::sa
+::sa VD
 Tìm $x$, biết $x-\dfrac{1}{3}=\dfrac{1}{6}$ (viết kết quả dưới dạng số thập phân).
 ::key 0,5
 $x=\dfrac16+\dfrac13=\dfrac16+\dfrac26=\dfrac36=\dfrac12=0{,}5$.

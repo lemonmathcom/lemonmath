@@ -330,7 +330,7 @@ Nhận xét: $72$ lần thử còn ít nên xác suất thực nghiệm chưa đ
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Tung một đồng xu $40$ lần, được $18$ lần ngửa. Xác suất thực nghiệm của mặt ngửa là
 A. $\dfrac{18}{22}$.
 B. $\dfrac{9}{20}$.
@@ -339,7 +339,7 @@ D. $\dfrac{22}{40}$.
 ::key B
 $\dfrac{18}{40}=\dfrac{9}{20}=0{,}45$. A chia cho số lần sấp, C là xác suất lí thuyết, D là xác suất thực nghiệm của mặt sấp.
 
-::mc
+::mc TH
 Khi số lần thử tăng lên rất nhiều thì xác suất thực nghiệm
 A. xa xác suất lí thuyết hơn.
 B. luôn bằng đúng xác suất lí thuyết.
@@ -348,7 +348,7 @@ D. luôn lớn hơn xác suất lí thuyết.
 ::key C
 Số lần thử càng lớn, tỉ lệ càng ổn định quanh xác suất lí thuyết, nhưng không nhất thiết bằng đúng.
 
-::mc
+::mc VD
 Nhà máy kiểm tra $400$ sản phẩm có $8$ sản phẩm lỗi. Dự đoán lô $15\,000$ sản phẩm có khoảng bao nhiêu sản phẩm lỗi?
 A. $8$.
 B. $150$.
@@ -357,7 +357,7 @@ D. $300$.
 ::key D
 Xác suất thực nghiệm $\dfrac{8}{400}=0{,}02$ nên $15\,000\cdot0{,}02=300$. B và C tính sai tỉ lệ.
 
-::mc
+::mc VD
 Hộp có $50$ bi đỏ và trắng. Lấy ngẫu nhiên một bi, trả lại, lặp $100$ lần; có $24$ lần lấy được bi đỏ. Ước lượng số bi đỏ là
 A. $12$.
 B. $24$.
@@ -366,7 +366,7 @@ D. $6$.
 ::key A
 $50\cdot\dfrac{24}{100}=12$. A lấy luôn số lần xuất hiện bi đỏ (quên nhân với tỉ lệ), C và D không theo cách tính nào hợp lí.
 
-::tf
+::tf NB NB TH TH
 Tung một đồng xu cân đối $10$ lần được $7$ lần ngửa. Xét tính đúng sai của các mệnh đề sau:
 a) Xác suất thực nghiệm của mặt ngửa là $0{,}7$.
 b) Xác suất lí thuyết của mặt ngửa là $0{,}7$.
@@ -375,12 +375,12 @@ d) Ở lần tung thứ $11$, xác suất ra mặt ngửa vẫn là $\dfrac12$.
 ::key Đ S S Đ
 a) Đúng: $\dfrac7{10}$. b) Sai: xác suất lí thuyết là $\dfrac12$. c) Sai: $10$ lần thử quá ít để kết luận. d) Đúng: các lần tung độc lập.
 
-::sa
+::sa TH
 Tung một đồng xu $50$ lần, được $27$ lần ngửa. Xác suất thực nghiệm của mặt ngửa là bao nhiêu phần trăm?
 ::key 54
 $\dfrac{27}{50}=54\%$.
 
-::sa
+::sa TH
 Xác suất một bóng đèn bị hỏng ước lượng là $2\%$. Dự đoán trong lô $20\,000$ bóng có khoảng bao nhiêu bóng hỏng?
 ::key 400
 $20\,000\cdot0{,}02=400$.

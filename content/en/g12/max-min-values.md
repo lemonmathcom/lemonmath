@@ -402,7 +402,7 @@ So the maximum value is $\dfrac{\pi}{4}+1$ and the minimum value is $\sqrt2$.
 ## Mini test
 
 :::quiz
-::mc
+::mc VD
 The maximum value of the function $f(x)=x^3-12x+1$ on $[-1, 3]$ is
 A. $17$.
 B. $-15$.
@@ -411,7 +411,7 @@ D. $12$.
 ::key D
 We have $f'(x)=3x^2-12=0\iff x=\pm2$, and only $x=2$ lies in $(-1, 3)$. We have $f(-1)=12$, $f(2)=-15$, $f(3)=-8$, so the maximum value is $12$. Option A is $f(-2)=17$, the value at a root outside the interval.
 
-::mc
+::mc TH
 The minimum value of $y=\dfrac{2x-1}{x+1}$ on $[0, 2]$ is
 A. $-1$.
 B. $1$.
@@ -420,7 +420,7 @@ D. $0$.
 ::key A
 We have $y'=\dfrac{3}{(x+1)^2}>0$, so the function is increasing on $[0, 2]$. Hence the minimum value is $y(0)=-1$. Option B is the maximum value $y(2)$; the number $2$ is only the limit as $x\to+\infty$.
 
-::mc
+::mc VD
 The minimum value of $y=x+\dfrac{4}{x-1}$ on $(1, +\infty)$ is
 A. $4$.
 B. $3$.
@@ -429,7 +429,7 @@ D. $-3$.
 ::key C
 We have $y'=1-\dfrac{4}{(x-1)^2}=0\iff x=3$ (reject $x=-1$). Since $y'$ changes sign from $-$ to $+$ at $x=3$, the minimum value is $y(3)=5$. Option B is the point $x=3$, option A forgets the $+1$ in $y=(x-1)+\dfrac{4}{x-1}+1$, and option D is $y(-1)$.
 
-::mc
+::mc TH
 The function $y=f(x)$ is continuous on $[-2, 4]$ and $f'(x)>0$ for every $x\in(-2, 4)$. Which of the following statements is correct?
 A. $\max\limits_{[-2, 4]} f(x)=f(-2)$.
 B. $\max\limits_{[-2, 4]} f(x)=f(4)$.
@@ -438,7 +438,7 @@ D. $f$ has no maximum value on $[-2, 4]$.
 ::key B
 Since the function is increasing on $[-2, 4]$, the maximum is at the right endpoint $x=4$. Option D is wrong because a function continuous on a closed interval always has a maximum value.
 
-::tf
+::tf TH NB VD VD
 Consider the function $f(x)=x^4-8x^2+3$ on $[-1, 3]$. Decide whether each statement is true or false.
 a) The equation $f'(x)=0$ has three roots in $[-1, 3]$.
 b) $f(2)=-13$.
@@ -447,12 +447,12 @@ d) The sum of the maximum and minimum values of $f(x)$ on $[-1, 3]$ is $-1$.
 ::key F T F T
 a) False: we have $f'(x)=4x(x^2-4)$, with roots $0$, $2$, $-2$, but $-2\notin[-1, 3]$. b) True: substituting, we get $16-32+3=-13$. c) False: we have $f(-1)=-4$, $f(0)=3$, $f(2)=-13$, $f(3)=12$, so the maximum value is $12$ (at an endpoint). d) True: the required sum is $12+(-13)=-1$.
 
-::sa
+::sa VD
 A workshop produces $x$ tonnes of goods a month ($0\le x\le 20$) and makes a profit of $P(x)=-x^3+18x^2+135x$ (million đồng). What is the workshop's greatest monthly profit, in million đồng?
 ::key 2700
 We have $P'(x)=-3(x-15)(x+3)=0\iff x=15$ (reject $x=-3$). We have $P(0)=0$, $P(15)=2700$, $P(20)=1900$. So the greatest profit is $2700$ million đồng.
 
-::sa
+::sa VD
 Find the maximum value of the function $y=\sqrt{x}\,(6-x)$ on $[0, 6]$ (give your answer to 1 decimal place).
 ::key 5.7
 We have $y=6\sqrt x-x\sqrt x$, so $y'=\dfrac{3}{\sqrt x}-\dfrac32\sqrt x=0\iff x=2$. We have $y(0)=y(6)=0$ and $y(2)=4\sqrt2\approx5.66$. So the maximum value, to 1 decimal place, is $5.7$.

@@ -330,7 +330,7 @@ The circumference of the base is $31.4$ cm, so $2\times3.14\times r=31.4$, that 
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The net of a cube is made of
 A. $4$ squares.
 B. $6$ equal squares.
@@ -339,7 +339,7 @@ D. $5$ squares.
 ::key B
 A cube has $6$ faces, and each face is an equal square. Options A and D have too few faces; C is wrong because the faces are equal squares.
 
-::mc
+::mc VD
 A cuboid with length $5$ cm, width $3$ cm and height $2$ cm has total area of its $6$ faces equal to
 A. $31\ \text{cm}^2$.
 B. $30\ \text{cm}^2$.
@@ -348,7 +348,7 @@ D. $124\ \text{cm}^2$.
 ::key C
 The three different faces have areas $15$, $10$, $6$ ($\text{cm}^2$), which total $31$; multiplying by $2$ gives $62\ \text{cm}^2$. Option A only adds three faces; C only counts the two $5\times3$ faces; D multiplies by $4$ instead of $2$.
 
-::mc
+::mc TH
 A cylinder has base radius $5$ cm and height $10$ cm. The length of the rectangle in its net is
 A. $78.5$ cm.
 B. $15.7$ cm.
@@ -357,7 +357,7 @@ D. $31.4$ cm.
 ::key D
 The length is the circumference of the base: $2\times3.14\times5=31.4$ cm. Option B is half the circumference; C is the height; D is the area of one base.
 
-::mc
+::mc VD
 Suppose a drink can is a cylinder with base diameter $6$ cm and height $12$ cm. A label covering the curved surface has area
 A. $226.08\ \text{cm}^2$.
 B. $452.16\ \text{cm}^2$.
@@ -366,7 +366,7 @@ D. $18.84\ \text{cm}^2$.
 ::key A
 The circumference of the base is $6\times3.14=18.84$ cm, so the area is $18.84\times12=226.08\ \text{cm}^2$. Option C works out $3.14\times6\times6$; B doubles the correct result; D is the circumference of the base.
 
-::tf
+::tf NB TH TH VD
 Look at the cylinder with base radius $5$ cm and height $10$ cm.
 a) Its net is made of $2$ circles and $1$ rectangle.
 b) The length of the rectangle is $10$ cm.
@@ -375,12 +375,12 @@ d) The area of the rectangle is $314\ \text{cm}^2$.
 ::key T F F T
 a) True. b) False: the length is the circumference of the base, $31.4$ cm, and $10$ cm is the width. c) False: the area of each base is $3.14\times5\times5=78.5\ \text{cm}^2$; $31.4$ is the circumference of the base. d) True: $31.4\times10=314$.
 
-::sa
+::sa TH
 A cube has side $5$ cm. What is the total area of its $6$ faces, in square centimetres?
 ::key 150
 Each face is $5\times5=25\ \text{cm}^2$ and there are $6$ faces, so $25\times6=150\ \text{cm}^2$.
 
-::sa
+::sa VD
 A cuboid has length $6$ cm, width $4$ cm and height $3$ cm. What is the total area of its $6$ faces, in square centimetres?
 ::key 108
 The three different faces have areas $24$, $18$, $12$ ($\text{cm}^2$), which total $54$; multiplying by $2$ gives $108\ \text{cm}^2$.

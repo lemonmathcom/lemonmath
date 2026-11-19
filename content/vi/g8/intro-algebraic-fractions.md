@@ -425,7 +425,7 @@ Vậy $P=\dfrac xy$ và $P=\dfrac32$ khi $x=6$, $y=4$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Điều kiện xác định của phân thức $\dfrac{x+1}{x^2-9}$ là
 A. $x\neq3$.
 B. $x\neq3$ và $x\neq-3$.
@@ -434,7 +434,7 @@ D. $x\neq-3$.
 ::key B
 $x^2-9=(x-3)(x+3)\neq0$ nên $x\neq3$ và $x\neq-3$. A và D chỉ loại một giá trị, C nhầm $x^2=9$ với $x=9$.
 
-::mc
+::mc TH
 Phân thức nào sau đây bằng phân thức $\dfrac{x+2}{x-1}$?
 A. $\dfrac{x+2+x}{x-1+x}$.
 B. $\dfrac{x^2+2}{x^2-1}$.
@@ -443,7 +443,7 @@ D. $\dfrac{x+2}{1-x}$.
 ::key C
 Nhân cả tử và mẫu với $x$ được $\dfrac{x^2+2x}{x^2-x}$. A cộng $x$ vào tử và mẫu, B bình phương từng số hạng, D đổi dấu mẫu mà không đổi dấu tử.
 
-::mc
+::mc TH
 Rút gọn $\dfrac{6x^2y}{9xy^2}$ ta được
 A. $\dfrac23$.
 B. $\dfrac{2y}{3x}$.
@@ -452,7 +452,7 @@ D. $\dfrac{2x}{3y}$.
 ::key D
 Chia tử và mẫu cho $3xy$ được $\dfrac{2x}{3y}$. B nhầm vị trí, C và A chia sai nhân tử.
 
-::mc
+::mc TH
 Với $x\neq3$, giá trị của $\dfrac{x-3}{3-x}$ bằng
 A. $-1$.
 B. $x$.
@@ -461,7 +461,7 @@ D. $1$.
 ::key A
 $3-x=-(x-3)$ nên phân thức bằng $-1$. A quên đổi dấu, C nhầm tử bằng $0$.
 
-::tf
+::tf NB TH TH TH
 Cho phân thức $P=\dfrac{x^2-4}{x+2}$. Xét tính đúng sai của các mệnh đề sau:
 a) Điều kiện xác định của $P$ là $x\neq-2$.
 b) $P=x-2$ với mọi $x\neq-2$.
@@ -470,12 +470,12 @@ d) $P$ và $x-2$ là hai phân thức bằng nhau.
 ::key Đ Đ S Đ
 a) Đúng: $x+2\neq0$. b) Đúng: $\dfrac{(x-2)(x+2)}{x+2}=x-2$. c) Sai: $\dfrac{9-4}{3+2}=1$, không phải $5$. d) Đúng: $(x^2-4)\cdot1=(x+2)(x-2)$.
 
-::sa
+::sa TH
 Tính giá trị của phân thức $\dfrac{3x-1}{x-2}$ tại $x=4$ (viết dưới dạng số thập phân).
 ::key 5,5
 $\dfrac{3\cdot4-1}{4-2}=\dfrac{11}{2}=5{,}5$.
 
-::sa
+::sa VD
 Chi phí in $x$ tờ rơi là $200\,000+5\,000x$ đồng. Chi phí trung bình mỗi tờ khi in $400$ tờ là bao nhiêu đồng?
 ::key 5500
 $\dfrac{200\,000+5\,000\cdot400}{400}=\dfrac{2\,200\,000}{400}=5\,500$.

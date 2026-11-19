@@ -281,7 +281,7 @@ Vậy khoảng $2{,}28\%$ số hộp đầy nặng hơn $1150$ g.
 :::
 
 :::quiz
-::mc
+::mc TH
 Hai biến độc lập $X$ và $Y$ có độ lệch chuẩn $6$ và $8$. Độ lệch chuẩn của $X+Y$ là
 A. $14$
 B. $100$
@@ -290,7 +290,7 @@ D. $2$
 ::key C
 $\sqrt{36+64}=10$.
 
-::mc
+::mc NB
 Với $X\sim\text{Po}(4)$, $\operatorname{Var}(X)$ bằng
 A. $4$
 B. $2$
@@ -299,7 +299,7 @@ D. $0{,}25$
 ::key A
 Với phân phối Poisson, phương sai bằng kì vọng.
 
-::mc
+::mc TH
 Nghiệm của $\dfrac{dy}{dt}=0{,}3y$ với $y(0)=5$ là
 A. $y=0{,}3e^{5t}$
 B. $y=5+0{,}3t$
@@ -308,7 +308,7 @@ D. $y=5e^{0{,}3t}$
 ::key D
 Tăng tỉ lệ với kích thước là tăng theo hàm mũ.
 
-::mc
+::mc NB
 Phương pháp Euler với bước $h$ dùng
 A. hệ số góc ở cuối mỗi bước
 B. hệ số góc ở đầu mỗi bước
@@ -317,7 +317,7 @@ D. diện tích dưới đường cong
 ::key B
 $y_{n+1}=y_n+h\times\text{hệ số góc tại }(x_n,y_n)$.
 
-::tf
+::tf NB TH TH TH
 Cuộc gọi đến theo $\text{Po}(2)$ mỗi phút. Xét tính đúng sai của các mệnh đề sau:
 a) Số cuộc gọi trung bình mỗi phút là $2$.
 b) Số cuộc gọi trong $3$ phút là $\text{Po}(6)$.
@@ -326,12 +326,12 @@ d) Phương sai mỗi phút là $4$.
 ::key T T T F
 Phương sai bằng kì vọng, là $2$.
 
-::sa
+::sa TH
 Tính $\operatorname{Var}(3X)$ nếu $\operatorname{Var}(X)=2$.
 ::key 18
 $3^2\times2=18$.
 
-::sa
+::sa VD
 Dùng phương pháp Euler cho $\dfrac{dy}{dx}=2$ với $y(0)=1$ và $h=0{,}5$, tìm $y$ tại $x=1$.
 ::key 3
 Hai bước, mỗi bước cộng $0{,}5\times2=1$.

@@ -329,7 +329,7 @@ So the perimeter of the triangle $MDE$ is $20$ cm.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Consider the circle $(O, 7\text{ cm})$ and a line $a$ at distance $7$ cm from $O$. Which of the following statements is true?
 A. $a$ cuts $(O)$ at two points.
 B. $a$ touches $(O)$.
@@ -338,7 +338,7 @@ D. $a$ passes through $O$.
 ::key B
 $d=R=7$ cm, so $a$ touches $(O)$.
 
-::mc
+::mc VD
 A line at distance $3$ cm from the centre of the circle $(O, 5\text{ cm})$ cuts the circle in a chord of length
 A. $8$ cm.
 B. $4$ cm.
@@ -347,7 +347,7 @@ D. $2$ cm.
 ::key A
 $2\sqrt{25-9}=8$ cm. B forgets to double, and C adds under the root.
 
-::mc
+::mc VD
 From a point $M$ with $OM=13$ cm, draw the tangent $MA$ to the circle $(O, 5\text{ cm})$. The length $MA$ is
 A. $\sqrt{194}$ cm.
 B. $18$ cm.
@@ -356,7 +356,7 @@ D. $12$ cm.
 ::key D
 $MA=\sqrt{169-25}=12$ cm. A treats $OM$ as a shorter side, C takes $13-5$, and B takes $13+5$.
 
-::mc
+::mc TH
 The tangents at $A$ and $B$ to the circle $(O)$ meet at $M$, and $\angle AMB=50^\circ$. The angle $\angle AOB$ is
 A. $50^\circ$.
 B. $40^\circ$.
@@ -365,7 +365,7 @@ D. $25^\circ$.
 ::key C
 The quadrilateral $OAMB$ has two right angles, so $\angle AOB=360^\circ-180^\circ-50^\circ=130^\circ$. D is $\angle AMO$.
 
-::tf
+::tf TH VD VD NB
 From a point $M$ with $OM=12$ cm, draw the two tangents $MA$, $MB$ to the circle $(O, 6\text{ cm})$. Decide whether each statement is true or false.
 a) $MA=6\sqrt3$ cm.
 b) $\angle AMO=30^\circ$.
@@ -374,12 +374,12 @@ d) $MA=MB$.
 ::key T T F T
 a) True: $MA=\sqrt{108}=6\sqrt3$. b) True: $\sin\angle AMO=\dfrac12$. c) False: $\angle AMB=60^\circ$. d) True: two tangents from a point.
 
-::sa
+::sa VD
 A line at distance $4$ cm from the centre $O$ cuts the circle $(O)$ in a chord of length $6$ cm. Find the radius (in cm) of the circle.
 ::key 5
 Half the chord is $3$ cm, so $R=\sqrt{4^2+3^2}=5$ cm.
 
-::sa
+::sa VD
 The two tangents $MA$, $MB$ to the circle $(O)$ have $MA=7.5$ cm. The tangent at a point $C$ on the minor arc $AB$ meets $MA$ and $MB$ at $D$ and $E$. Find the perimeter (in cm) of the triangle $MDE$.
 ::key 15
 $DC=DA$ and $EC=EB$, so the perimeter is $MA+MB=15$ cm.

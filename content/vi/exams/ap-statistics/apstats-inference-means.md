@@ -273,7 +273,7 @@ Vậy cỡ mẫu nhỏ nhất là $97$.
 :::
 
 :::quiz
-::mc
+::mc NB
 Với phương pháp $t$ một mẫu và $n=20$, số bậc tự do là
 A. $20$
 B. $19$
@@ -282,7 +282,7 @@ D. $21$
 ::key B
 df $=n-1$.
 
-::mc
+::mc NB
 So với phân phối chuẩn tắc, phân phối $t$ có
 A. đuôi dày hơn
 B. kì vọng lớn hơn
@@ -291,7 +291,7 @@ D. hình dạng lệch
 ::key A
 Ước lượng $\sigma$ làm tăng độ bất định.
 
-::mc
+::mc TH
 Một nghiên cứu đo huyết áp của mỗi bệnh nhân trước và sau khi dùng thuốc. Phương pháp đúng là
 A. kiểm định $t$ hai mẫu
 B. kiểm định $z$ cho một tỉ lệ
@@ -300,7 +300,7 @@ D. kiểm định $t$ ghép cặp trên các hiệu
 ::key D
 Cùng bệnh nhân được đo hai lần.
 
-::mc
+::mc TH
 Với mẫu nhỏ, điều kiện chuẩn / mẫu lớn được kiểm tra bằng cách
 A. tính $np$
 B. đảm bảo $n\ge10$
@@ -309,7 +309,7 @@ D. kiểm tra $\bar x$ có gần $\mu_0$ không
 ::key C
 Hình dạng của mẫu cho bằng chứng về hình dạng của tổng thể.
 
-::tf
+::tf TH NB TH TH
 Một mẫu ngẫu nhiên $36$ giá trị có $\bar x=50$ và $s=12$. Xét tính đúng sai của các mệnh đề sau:
 a) Sai số chuẩn của trung bình là $2$.
 b) Số bậc tự do là $35$.
@@ -318,12 +318,12 @@ d) Điều kiện chuẩn / mẫu lớn thoả mãn vì $n\ge30$.
 ::key T T F T
 Với df $=35$, $t^*\approx2{,}03$.
 
-::sa
+::sa TH
 Tìm sai số chuẩn của trung bình khi $s=8$ và $n=16$.
 ::key 2
 $\dfrac{8}{\sqrt{16}}=2$.
 
-::sa
+::sa TH
 Trong một kiểm định, $\bar x=52$, $\mu_0=50$ và sai số chuẩn là $0{,}8$. Tìm $t$.
 ::key 2,5
 $\dfrac{52-50}{0{,}8}=2{,}5$.

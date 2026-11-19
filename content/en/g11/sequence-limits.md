@@ -344,7 +344,7 @@ $\sqrt{n^2+n}-n=\dfrac{(n^2+n)-n^2}{\sqrt{n^2+n}+n}=\dfrac{n}{\sqrt{n^2+n}+n}=\d
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $\lim\dfrac{3n+2}{n+1}$ equals
 A. $2$.
 B. $1$.
@@ -353,7 +353,7 @@ D. $+\infty$.
 ::key C
 Divide the numerator and the denominator by $n$: $\dfrac{3+\frac2n}{1+\frac1n}\to3$. Option A takes only the ratio $\dfrac21$ of the constants.
 
-::mc
+::mc TH
 $\lim\dfrac{2^n}{3^n}$ equals
 A. $1$.
 B. $+\infty$.
@@ -362,7 +362,7 @@ D. $0$.
 ::key D
 $\dfrac{2^n}{3^n}=\left(\dfrac23\right)^n$ with $|q|=\dfrac23<1$, so the limit is $0$.
 
-::mc
+::mc TH
 $\lim(n^2-n)$ equals
 A. $+\infty$.
 B. $-\infty$.
@@ -371,7 +371,7 @@ D. $1$.
 ::key A
 $n^2-n=n^2\left(1-\dfrac1n\right)$ with $n^2\to+\infty$ and $1-\dfrac1n\to1>0$. Option C treats the difference $\infty-\infty$ as $0$.
 
-::mc
+::mc TH
 The sum $1+\dfrac13+\dfrac19+\dfrac1{27}+\dots$ equals
 A. $2$.
 B. $\dfrac32$.
@@ -380,7 +380,7 @@ D. $3$.
 ::key B
 An infinite geometric series with $u_1=1$, $q=\dfrac13$ has $S=\dfrac{1}{1-\frac13}=\dfrac32$.
 
-::tf
+::tf TH TH VD VD
 Take the sequence $u_n=\dfrac{2n-3}{n+1}$. Decide whether each statement is true or false.
 a) $\lim u_n=-3$.
 b) $\lim u_n=2$.
@@ -389,12 +389,12 @@ d) $u_n<2$ for all $n$.
 ::key F T F T
 a) False: $u_n=\dfrac{2-\frac3n}{1+\frac1n}\to2$. b) True. c) False: $u_n=2-\dfrac{5}{n+1}<2$. d) True.
 
-::sa
+::sa TH
 Find $\lim\dfrac{4n^2+1}{2n^2+n}$.
 ::key 2
 Divide by $n^2$: $\dfrac{4+\frac1{n^2}}{2+\frac1n}\to\dfrac42=2$.
 
-::sa
+::sa TH
 Find the sum $6+3+\dfrac32+\dfrac34+\dots$.
 ::key 12
 An infinite geometric series with $u_1=6$, $q=\dfrac12$ has $S=\dfrac{6}{1-\frac12}=12$.

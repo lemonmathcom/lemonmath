@@ -367,7 +367,7 @@ Vậy công thức luôn cho một bộ ba Pythagore.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Tam giác vuông có cạnh huyền $13$ và một cạnh góc vuông $5$. Cạnh góc vuông còn lại là
 A. $8$.
 B. $12$.
@@ -376,7 +376,7 @@ D. $\sqrt{194}$.
 ::key B
 $13^2-5^2=169-25=144$ nên cạnh còn lại là $12$. A lấy $13-5$, C lấy $13+5$, D cộng các bình phương thay vì trừ.
 
-::mc
+::mc TH
 Tam giác có ba cạnh nào sau đây là tam giác vuông?
 A. $4$, $5$, $6$.
 B. $5$, $6$, $7$.
@@ -385,7 +385,7 @@ D. $6$, $7$, $8$.
 ::key C
 $6^2+8^2=100=10^2$. Các bộ A, B, D không thoả $a^2+b^2=c^2$.
 
-::mc
+::mc TH
 Đường chéo của hình chữ nhật có hai cạnh $12$ và $5$ bằng
 A. $60$.
 B. $17$.
@@ -394,7 +394,7 @@ D. $13$.
 ::key D
 $\sqrt{12^2+5^2}=\sqrt{169}=13$. B cộng hai cạnh, C lấy hiệu, A nhân hai cạnh.
 
-::mc
+::mc TH
 Đường chéo của hình vuông cạnh $4$ bằng
 A. $4\sqrt2$.
 B. $4$.
@@ -403,7 +403,7 @@ D. $2\sqrt2$.
 ::key A
 $\sqrt{4^2+4^2}=\sqrt{32}=4\sqrt2$. A là tổng hai cạnh, B là chính cạnh, D chia đôi.
 
-::tf
+::tf TH TH VD VD
 Tam giác $ABC$ có $AB=9$, $AC=12$, $BC=15$. Xét tính đúng sai của các mệnh đề sau:
 a) Tam giác $ABC$ không phải tam giác vuông.
 b) Tam giác $ABC$ vuông tại $A$.
@@ -412,12 +412,12 @@ d) Đường cao kẻ từ $A$ xuống $BC$ bằng $6$.
 ::key S Đ Đ S
 a) Sai: $9^2+12^2=225=15^2$ nên tam giác vuông. b) Đúng: góc vuông đối diện cạnh lớn nhất $BC$. c) Đúng: $\dfrac12\cdot9\cdot12=54$. d) Sai: $AH=\dfrac{2\cdot54}{15}=7{,}2$.
 
-::sa
+::sa TH
 Tam giác vuông có hai cạnh góc vuông $7$ và $24$. Cạnh huyền bằng bao nhiêu?
 ::key 25
 $\sqrt{49+576}=\sqrt{625}=25$.
 
-::sa
+::sa VD
 Thang dài $5$ m dựa vào tường, chân thang cách tường $3$ m. Đầu thang cao bao nhiêu mét?
 ::key 4
 $\sqrt{25-9}=4$.

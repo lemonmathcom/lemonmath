@@ -440,7 +440,7 @@ So $A=2$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $\sqrt{0.4\cdot90}$ equals
 A. $6$.
 B. $36$.
@@ -449,7 +449,7 @@ D. $60$.
 ::key A
 We have $\sqrt{0.4\cdot90}=\sqrt{36}=6$. Option B forgets to take the root; C and D put the decimal point in the wrong place.
 
-::mc
+::mc TH
 $\sqrt{12}\cdot\sqrt3$ equals
 A. $6$.
 B. $\sqrt{15}$.
@@ -458,7 +458,7 @@ D. $4$.
 ::key A
 We have $\sqrt{12}\cdot\sqrt3=\sqrt{12\cdot3}=\sqrt{36}=6$. Option B adds the numbers under the roots, C forgets the root, and D divides instead of multiplying.
 
-::mc
+::mc NB
 The identity $\sqrt{\dfrac ab}=\dfrac{\sqrt a}{\sqrt b}$ holds when
 A. $a\ge0$, $b\ge0$.
 B. $a\ge0$, $b>0$.
@@ -467,7 +467,7 @@ D. for all $a$, $b$.
 ::key B
 We need $a\ge0$ for $\sqrt a$ to be defined and $b>0$ because $\sqrt b$ is in the denominator. Option A allows $b=0$, where the division makes no sense.
 
-::mc
+::mc TH
 For $x<0$, $\sqrt{16x^2}$ equals
 A. $4x$.
 B. $-4x$.
@@ -476,7 +476,7 @@ D. $-16x$.
 ::key B
 We have $\sqrt{16x^2}=4|x|=-4x$ (since $x<0$). Option A forgets the absolute value; C and D forget to take the root of $16$.
 
-::tf
+::tf TH TH TH VD
 Let $A=\sqrt{50}\cdot\sqrt2$ and $B=\dfrac{\sqrt{98}}{\sqrt2}$. Decide whether each statement is true or false.
 a) $A=10$.
 b) $B=49$.
@@ -485,12 +485,12 @@ d) $A-B=\sqrt{51}$.
 ::key T F T F
 a) True. We have $A=\sqrt{100}=10$. b) False. We have $B=\sqrt{49}=7$. c) True. $A\cdot B=10\cdot7=70$. d) False. $A-B=3$, while $\sqrt{51}\approx7.1$ (we cannot subtract under the root sign).
 
-::sa
+::sa TH
 Evaluate $\sqrt{1.21\cdot0.25}$.
 ::key 0.55
 We have $\sqrt{1.21\cdot0.25}=\sqrt{1.21}\cdot\sqrt{0.25}=1.1\cdot0.5=0.55$.
 
-::sa
+::sa VD
 In shallow water, the speed $v$ (m/s) of a sea wave is about $v=\sqrt{10d}$, where $d$ (m) is the depth of the water. Find the speed of the wave (in m/s) where the water is $8.1$ m deep.
 ::key 9
 Substituting $d=8.1$ into the formula, we get $v=\sqrt{10\cdot8.1}=\sqrt{81}=9$ (m/s).

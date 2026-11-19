@@ -8,7 +8,7 @@ type: exam
 The paper has $22$ questions to be done in $90$ minutes, in three parts: Part I has $12$ multiple-choice questions ($0.25$ points each), Part II has $4$ true/false questions (up to $1$ point each) and Part III has $6$ short-answer questions ($0.5$ points each). This paper is harder than papers 1 and 2, and many questions need two or three steps of reasoning. Work on the printed sheet first under timed conditions, then enter your answers below to be marked out of $10$.
 
 :::quiz exam
-::mc
+::mc TH
 The function $y=f(x)$ has derivative $f'(x)=x^2(x-1)(x+2)^3$ for all $x\in\mathbb{R}$. How many turning points does the function have?
 A. $1$.
 B. $2$.
@@ -23,7 +23,7 @@ So the function has $2$ turning points. Option C also counts the double root $x=
 
 Revise: [Revision: derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::mc
+::mc VD
 What is the total number of vertical and horizontal asymptotes of the graph of $y=\dfrac{2x^2-3x+1}{x^2-1}$?
 A. $1$.
 B. $2$.
@@ -38,7 +38,7 @@ As $x\to1$, $y\to\dfrac12$ (finite), so $x=1$ is not a vertical asymptote. The g
 
 Revise: [Revision: derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::mc
+::mc TH
 The function $y=f(x)$ has the following table of variations.
 
 | $x$ | $-\infty$ | | $-1$ | | $3$ | | $+\infty$ |
@@ -60,7 +60,7 @@ Since $-4<-\dfrac52<2$, the line $y=-\dfrac52$ meets the graph exactly once on e
 
 Revise: [Revision: derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::mc
+::mc TH
 The family of antiderivatives of $f(x)=e^{2x}-\dfrac1x$ on the interval $(0, +\infty)$ is
 A. $2e^{2x}-\ln x+C$.
 B. $\dfrac12e^{2x}+\dfrac{1}{x^2}+C$.
@@ -75,7 +75,7 @@ Option A differentiates $e^{2x}$ instead of integrating it; option B differentia
 
 Revise: [Revision: antiderivatives and integrals](lesson:review-integrals).
 
-::mc
+::mc TH
 Given $\displaystyle\int_0^2 f(x)\,dx=3$ and $\displaystyle\int_0^5 f(x)\,dx=7$, the value of $\displaystyle\int_2^5\big[2f(x)-1\big]\,dx$ is
 A. $8$.
 B. $5$.
@@ -90,7 +90,7 @@ Option A forgets the term $-1$; option C takes $\displaystyle\int_2^5 1\,dx=1$; 
 
 Revise: [Revision: antiderivatives and integrals](lesson:review-integrals).
 
-::mc
+::mc VD
 In the $Oxyz$ coordinate system, let $A(1, 2, -1)$ and $B(3, 0, 3)$. The perpendicular bisector plane of the segment $AB$ has equation
 A. $x-y+2z+3=0$.
 B. $x-y+2z-9=0$.
@@ -107,7 +107,7 @@ Option A passes through $A$ and option B through $B$ instead of the midpoint; op
 
 Revise: [Revision: coordinates in space](lesson:review-coordinates-space).
 
-::mc
+::mc VD
 In the $Oxyz$ coordinate system, consider the sphere $(S)\colon x^2+y^2+z^2-4x+2y-6z-2=0$ and the plane $(P)\colon 2x-y+2z+1=0$. Which statement is true?
 A. $(P)$ is tangent to $(S)$.
 B. $(P)$ cuts $(S)$ in a circle.
@@ -124,7 +124,7 @@ So $(P)$ is tangent to $(S)$. Option C comes from forgetting the $+2$ in $R$ (gi
 
 Revise: [Revision: coordinates in space](lesson:review-coordinates-space).
 
-::mc
+::mc VD
 The pyramid $S.ABCD$ has a square base of side $a$, $SA$ is perpendicular to the base and $SA=a\sqrt2$. The angle between the line $SC$ and the plane $(SAB)$ is
 A. $45^\circ$.
 B. $60^\circ$.
@@ -139,7 +139,7 @@ So the angle is $30^\circ$. Option A is the angle between $SC$ and the base ($\t
 
 Revise: [Revision: geometry in space](lesson:review-space-geometry).
 
-::mc
+::mc TH
 The daily self-study time of $40$ students is shown in the table.
 
 | Time (minutes) | $[0, 10)$ | $[10, 20)$ | $[20, 30)$ | $[30, 40)$ | $[40, 50)$ |
@@ -160,7 +160,7 @@ Option B is the midpoint of the class; option C puts $15-6$ in the numerator by 
 
 Revise: [Revision: statistics and probability](lesson:review-statistics-probability).
 
-::mc
+::mc TH
 The lengths (cm) of $10$ leaves are shown in the table.
 
 | Length (cm) | $[4, 6)$ | $[6, 8)$ | $[8, 10)$ |
@@ -181,7 +181,7 @@ So $s=\sqrt{1.96}=1.4$. Option A is the variance (no square root); option B is t
 
 Revise: [Revision: statistics and probability](lesson:review-statistics-probability).
 
-::mc
+::mc NB
 Events $A$ and $B$ satisfy $P(A)=0.5$, $P(B)=0.4$ and $P(A\cap B)=0.12$. The value of $P(A\mid B)$ is
 A. $0.24$.
 B. $0.2$.
@@ -196,7 +196,7 @@ Option A divides by $P(A)$, which gives $P(B\mid A)$; option B is the product $P
 
 Revise: [Revision: statistics and probability](lesson:review-statistics-probability).
 
-::mc
+::mc TH
 The solution set of the inequality $\log_{\frac12}(x-1)\ge-2$ is
 A. $(1, 5]$.
 B. $[5, +\infty)$.
@@ -211,7 +211,7 @@ Together with the condition, $S=(1, 5]$. Option B forgets to reverse the inequal
 
 Revise: [Revision: trigonometry, exponentials, logarithms and sequences](lesson:review-trig-exp-log-sequences).
 
-::tf
+::tf TH VD TH VD
 Consider the function $f(x)=\dfrac{x^2-3x+6}{x-1}$.
 a) The derivative is $f'(x)=\dfrac{x^2-2x-3}{(x-1)^2}$ for all $x\neq1$.
 b) The function is decreasing on the interval $(-1, 3)$.
@@ -228,7 +228,7 @@ d) True: the turning points are $(-1, -5)$ and $(3, 3)$, at distance $\sqrt{4^2+
 
 Revise: [Revision: derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::tf
+::tf NB TH VD VD
 A tank holds $200$ litres of water. From time $t=0$ a tap fills it at the rate $v(t)=16+6t-t^2$ (litres per minute), $0\le t\le8$, with $t$ in minutes.
 a) At time $t=2$ the water flows in at $24$ litres per minute.
 b) The rate of flow increases over the whole interval $[0, 8]$.
@@ -245,7 +245,7 @@ d) False: $W(4)=200+64+48-\dfrac{64}{3}\approx290.7<300$; since $v(t)>0$, $W$ is
 
 Revise: [Revision: antiderivatives and integrals](lesson:review-integrals).
 
-::tf
+::tf TH NB VD VD
 In the $Oxyz$ coordinate system (units in metres), a drone flies in a straight line at constant speed $3$ m/s from the point $M(1, 2, 3)$ in the direction of $\vec u=(2, -1, 2)$. The plane $(Oxy)$ is the ground. The control station is at $K(7, 2, 6)$.
 a) After $t$ seconds the drone is at the point $(1+2t, 2-t, 3+2t)$.
 b) After $2$ seconds the drone is at $(5, 0, 7)$.
@@ -262,7 +262,7 @@ d) True: with $P(t)=(1+2t, 2-t, 3+2t)$, $\overrightarrow{KP}=(2t-6, -t, 2t-3)$ a
 
 Revise: [Revision: coordinates in space](lesson:review-coordinates-space).
 
-::tf
+::tf TH VD VD VD
 A factory has two production lines. Line I makes $60\%$ of the products with a defect rate of $3\%$; line II makes $40\%$ of the products with a defect rate of $5\%$. A product of the factory is chosen at random.
 a) The probability that the chosen product is defective is $0.038$.
 b) Given that the product is defective, the probability that it came from line I is greater than $0.5$.
@@ -281,7 +281,7 @@ d) True: using the complement, $1-0.962^2\approx0.0746<0.08$.
 
 Revise: [Revision: statistics and probability](lesson:review-statistics-probability).
 
-::sa
+::sa VD
 A workshop makes closed cylindrical cans with volume $1000\ \text{cm}^3$. The material for the top and bottom costs twice as much per $\text{cm}^2$ as the material for the curved surface. What base radius, in centimetres, makes the cost of material as small as possible (give your answer to one decimal place)?
 ::key 4.3
 Let the base radius be $r$; the height is $h=\dfrac{1000}{\pi r^2}$. Taking the curved surface material as $1$ unit per $\text{cm}^2$, the cost is proportional to
@@ -294,7 +294,7 @@ $C'(r)$ changes from negative to positive there, so the cost is least when $r\ap
 
 Revise: [Revision: optimisation and real-life problems](lesson:review-optimisation-real-life).
 
-::sa
+::sa VDC
 The pyramid $S.ABCD$ has a square base of side $2$, $SA$ is perpendicular to the base and $SA=2$. Find the distance between the skew lines $BD$ and $SC$ (give your answer to two decimal places).
 ::key 0.82
 Construct the common perpendicular. Let $O$ be the centre of the square. Since $BD\perp AC$ and $BD\perp SA$, $BD\perp(SAC)$. In $(SAC)$ draw $OH\perp SC$ at $H$; then $OH\perp BD$, so $OH$ is the common perpendicular and $d(BD, SC)=OH$.
@@ -309,7 +309,7 @@ So the distance is about $0.82$.
 
 Revise: [Revision: geometry in space](lesson:review-space-geometry).
 
-::sa
+::sa VD
 In the $Oxyz$ coordinate system (units in metres), the ground is the plane $(Oxy)$. A zip line is a taut straight cable from the point $A(0, 0, 20)$ on a tower to the point $B(40, 30, 5)$ on a lower post. Find the angle between the cable and the ground (in degrees, to one decimal place).
 ::key 16.7
 The angle $\varphi$ between the line $AB$ and the plane $(Oxy)$, whose normal vector is $\vec k=(0, 0, 1)$:
@@ -320,7 +320,7 @@ $$\sin\varphi=\dfrac{|-15|}{5\sqrt{109}}\approx0.2873\ \Rightarrow\ \varphi\appr
 
 Revise: [Revision: coordinates in space](lesson:review-coordinates-space).
 
-::sa
+::sa VD
 A box contains $5$ red balls and $4$ blue balls. Two balls are taken out at random at the same time. Given that at least one of them is red, find the probability that both are red (give your answer to two decimal places).
 ::key 0.33
 Let $A$ be "both balls are red" and $B$ "at least one ball is red"; since $A\subset B$, $A\cap B=A$:
@@ -331,7 +331,7 @@ $$P(A\mid B)=\dfrac{10}{30}=\dfrac13\approx0.33.$$
 
 Revise: [Revision: statistics and probability](lesson:review-statistics-probability).
 
-::sa
+::sa VD
 In a coordinate plane (units in metres), a flower bed is the region bounded by the parabola $y=\dfrac{x^2}{2}$ and the line $y=x+4$. Planting costs $250\,000$ đồng per square metre. Find the cost of planting the whole bed (in millions of đồng).
 ::key 4.5
 The $x$-coordinates of the intersections satisfy $\dfrac{x^2}{2}=x+4\iff x^2-2x-8=0\iff x=-2$ or $x=4$. On $[-2, 4]$ the line lies above the parabola, so the area is
@@ -342,7 +342,7 @@ The cost is $18\cdot250\,000=4\,500\,000$ đồng, that is $4.5$ million đồng
 
 Revise: [Revision: antiderivatives and integrals](lesson:review-integrals).
 
-::sa
+::sa VD
 A cup of hot water is left in a room at $25^\circ\text{C}$. The temperature of the water after $t$ minutes is $T(t)=25+70e^{-kt}$ ($^\circ$C), where $k>0$ is a constant. After $10$ minutes the water is at $60^\circ\text{C}$. How many minutes after the start does the water reach $35^\circ\text{C}$ (give your answer to one decimal place)?
 ::key 28.1
 Use $T(10)=60$ to find $k$:

@@ -368,7 +368,7 @@ $A\cap B=\{\text{HHT}, \text{HTH}, \text{HHH}\}$ has $3$ elements. $P(A\mid B)=\
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Given $P(A)=0.6$, $P(B)=0.5$ and $P(A\cap B)=0.2$, the value of $P(A\mid B)$ is
 A. $0.3$.
 B. $0.4$.
@@ -377,7 +377,7 @@ D. $0.1$.
 ::key B
 $P(A\mid B)=\dfrac{0.2}{0.5}=0.4$. A is $P(A)P(B)$, C divides by $P(A)$ (that is $P(B\mid A)$), and D multiplies $P(A\cap B)$ by $P(B)$.
 
-::mc
+::mc TH
 A fair die is rolled. Given that the result is even, the probability that it is a $6$ is
 A. $\dfrac16$.
 B. $\dfrac12$.
@@ -386,7 +386,7 @@ D. $\dfrac1{12}$.
 ::key C
 The shrunken sample space is $\{2, 4, 6\}$, so the probability is $\dfrac13$. A ignores the condition, B is the probability of an even number, and D multiplies $\dfrac16\cdot\dfrac12$.
 
-::mc
+::mc TH
 A box holds $3$ red and $2$ blue balls. Two balls are drawn one after the other without replacement. The probability that both are red is
 A. $\dfrac{9}{25}$.
 B. $\dfrac{3}{10}$.
@@ -395,7 +395,7 @@ D. $\dfrac12$.
 ::key B
 $\dfrac35\cdot\dfrac24=\dfrac3{10}$. A treats the draws as with replacement, C is only the probability that the first is red, and D is only $P(\text{red second}\mid\text{red first})$.
 
-::mc
+::mc TH
 Of $100$ people asked, $40$ use app X and $30$ of those are satisfied; $60$ do not use X and $30$ of those are satisfied. A satisfied person is chosen at random. The probability that this person uses app X is
 A. $\dfrac34$.
 B. $\dfrac{3}{10}$.
@@ -404,7 +404,7 @@ D. $\dfrac35$.
 ::key C
 There are $60$ satisfied people, $30$ of whom use X: $\dfrac{30}{60}=\dfrac12$. A is $P(\text{satisfied}\mid\text{uses X})$, B divides by all $100$ people, and D is the probability of being satisfied.
 
-::tf
+::tf NB TH TH TH
 $A$ and $B$ are independent events with $P(A)=0.4$ and $P(B)=0.5$.
 a) $P(A\cap B)=0.2$.
 b) $P(A\mid B)=0.4$.
@@ -413,12 +413,12 @@ d) $P(A\cup B)=0.7$.
 ::key T T F T
 a) True: $0.4\cdot0.5$. b) True: independence gives $P(A\mid B)=P(A)$. c) False: $P(\overline{A}\mid B)=1-0.4=0.6$. d) True: $0.4+0.5-0.2=0.7$.
 
-::sa
+::sa VD
 Two fair dice are rolled. Given that the total is $7$, find the probability that one die shows a $1$. Give your answer to 2 decimal places.
 ::key 0.33
 A total of $7$ has $6$ outcomes, of which $(1, 6)$ and $(6, 1)$ contain a $1$: $\dfrac26=\dfrac13\approx0.33$.
 
-::sa
+::sa VD
 Of $500$ people tested, $20$ have a disease and $18$ of them test positive; $480$ do not have it and $24$ of them test positive. A person who tests positive is chosen at random. Find the probability that this person has the disease. Give your answer to 2 decimal places.
 ::key 0.43
 There are $18+24=42$ positive results, $18$ of them from people with the disease: $\dfrac{18}{42}=\dfrac37\approx0.43$.

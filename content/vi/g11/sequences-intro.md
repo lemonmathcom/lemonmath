@@ -363,7 +363,7 @@ Ta có $u_{n+1}-u_n=1+\dfrac{1}{n+1}-\dfrac1n=1-\dfrac{1}{n(n+1)}$. Vì $n(n+1)\
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho dãy số $(u_n)$ với $u_n=n^2-2n$. Số hạng $u_5$ bằng
 A. $23$.
 B. $35$.
@@ -372,7 +372,7 @@ D. $15$.
 ::key D
 $u_5=25-10=15$. Phương án A quên số hạng $-2n$ và trừ $2$, phương án B đổi dấu thành $n^2+2n$, phương án C tính $n(n-1)$.
 
-::mc
+::mc TH
 Cho dãy số $(u_n)$ với $u_1=1$ và $u_{n+1}=2u_n+3$. Số hạng $u_4$ bằng
 A. $29$.
 B. $13$.
@@ -381,7 +381,7 @@ D. $16$.
 ::key A
 $u_2=5$, $u_3=13$, $u_4=2\cdot13+3=29$. Phương án B là $u_3$, phương án C quên cộng $3$, phương án D quên nhân $2$.
 
-::mc
+::mc TH
 Dãy số nào sau đây là dãy số tăng?
 A. $u_n=(-1)^n$.
 B. $u_n=n^2-n$.
@@ -390,7 +390,7 @@ D. $u_n=5-2n$.
 ::key B
 $u_{n+1}-u_n=2n>0$. Dãy B lúc tăng lúc giảm, dãy C và dãy D là dãy giảm.
 
-::mc
+::mc TH
 Dãy số nào sau đây là dãy số bị chặn?
 A. $u_n=n^2$.
 B. $u_n=2^n$.
@@ -399,7 +399,7 @@ D. $u_n=n+\dfrac1n$.
 ::key C
 $u_n=1-\dfrac{1}{n+1}$ nên $\dfrac12\le u_n<1$. Các dãy A, B và D đều lớn hơn mọi số cho trước khi $n$ đủ lớn nên không bị chặn trên.
 
-::tf
+::tf TH TH VD TH
 Cho dãy số $(u_n)$ với $u_1=2$ và $u_{n+1}=u_n+3$. Xét tính đúng sai của các mệnh đề sau:
 a) $u_3=9$.
 b) Dãy số $(u_n)$ là dãy số giảm.
@@ -408,12 +408,12 @@ d) Dãy số $(u_n)$ bị chặn dưới bởi $2$.
 ::key S S Đ Đ
 Các số hạng là $2, 5, 8, 11, \dots$ và $u_n=2+3(n-1)=3n-1$. a) Sai: $u_3=8$. b) Sai: $u_{n+1}-u_n=3>0$ nên dãy tăng. c) Đúng. d) Đúng: dãy tăng nên $u_n\ge u_1=2$.
 
-::sa
+::sa VD
 Tìm giá trị nhỏ nhất của các số hạng của dãy số $(u_n)$ với $u_n=n^2-7n$.
 ::key -12
 $u_n=\left(n-\dfrac72\right)^2-\dfrac{49}{4}$ nhỏ nhất khi $n$ gần $\dfrac72$ nhất, tức $n=3$ hoặc $n=4$: $u_3=u_4=-12$.
 
-::sa
+::sa VD
 Một cửa hàng xếp lon thành hình tam giác: hàng trên cùng $1$ lon, mỗi hàng dưới nhiều hơn hàng trên $1$ lon. Cần bao nhiêu lon để xếp $10$ hàng?
 ::key 55
 $T_{n+1}=T_n+(n+1)$ cho $1, 3, 6, 10, 15, 21, 28, 36, 45, 55$. Vậy $T_{10}=55$.

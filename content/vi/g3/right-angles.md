@@ -324,7 +324,7 @@ Ban đầu có $4$ góc vuông. Cắt bỏ một góc thì mất $1$ góc vuông
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Dụng cụ nào dùng để kiểm tra góc vuông?
 A. Thước kẻ.
 B. Ê-ke.
@@ -333,7 +333,7 @@ D. Cái cân.
 ::key B
 Ê-ke có một góc vuông để so với góc cần kiểm tra. Phương án A là lỗi dùng thước kẻ để đo độ dài.
 
-::mc
+::mc NB
 Góc đỉnh $O$, cạnh $OA$ và $OB$. Đỉnh của góc là
 A. $A$.
 B. $B$.
@@ -342,7 +342,7 @@ D. $AB$.
 ::key C
 Đỉnh là điểm chung của hai cạnh $OA$ và $OB$, tức là $O$.
 
-::mc
+::mc TH
 Đồ vật nào sau đây có góc vuông?
 A. Hai kim đồng hồ lúc $1$ giờ.
 B. Mái nhà hình chữ A.
@@ -351,7 +351,7 @@ D. Chữ cái $V$.
 ::key C
 Góc quyển vở khớp ê-ke. Các phương án còn lại chụm hẹp hơn góc vuông.
 
-::mc
+::mc TH
 Phát biểu nào đúng?
 A. Góc có cạnh dài hơn thì lớn hơn.
 B. Hai góc vuông luôn bằng nhau dù độ dài cạnh khác nhau.
@@ -360,7 +360,7 @@ D. Mọi góc đều là góc vuông.
 ::key B
 Độ dài cạnh không làm đổi việc góc có vuông hay không. Phương án A là lỗi hay gặp khi nhìn bằng mắt.
 
-::tf
+::tf NB NB TH TH
 Em dùng ê-ke để kiểm tra góc đỉnh $O$.
 a) Nếu hai cạnh của góc trùng hai cạnh của ê-ke thì đó là góc vuông.
 b) Nếu cạnh ê-ke hở ra khỏi góc thì đó là góc không vuông.
@@ -369,12 +369,12 @@ d) Độ dài hai cạnh của góc quyết định góc có vuông hay không.
 ::key Đ Đ S S
 a) Đúng: khớp ê-ke là góc vuông. b) Đúng: hở ra là góc không vuông. c) Sai: mắt dễ nhầm. d) Sai: độ dài cạnh không quyết định.
 
-::sa
+::sa TH
 Chữ cái $L$ viết đẹp có mấy góc vuông?
 ::key 1
 Hai nét của chữ $L$ gặp nhau ở một góc vuông.
 
-::sa
+::sa VD
 Một tờ giấy hình chữ nhật có $4$ góc vuông. Cắt bỏ một góc bằng một nhát cắt thẳng. Tờ giấy còn lại mấy góc vuông?
 ::key 3
 Cắt bỏ một góc vuông thì còn $4-1=3$ góc vuông.

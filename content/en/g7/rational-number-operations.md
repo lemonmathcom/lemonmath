@@ -524,7 +524,7 @@ So $S=\dfrac56$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The value of $-\dfrac56+\dfrac34$ is
 A. $-\dfrac1{12}$.
 B. $-\dfrac15$.
@@ -533,7 +533,7 @@ D. $-\dfrac{19}{12}$.
 ::key A
 The common denominator is $12$: $-\dfrac{10}{12}+\dfrac9{12}=-\dfrac1{12}$. A adds numerators and denominators separately; C has the wrong sign; D subtracts instead of adding.
 
-::mc
+::mc TH
 The value of $\left(-\dfrac3{10}\right)\div\dfrac65$ is
 A. $\dfrac14$.
 B. $-\dfrac14$.
@@ -542,7 +542,7 @@ D. $-4$.
 ::key B
 $\left(-\dfrac3{10}\right)\cdot\dfrac56=-\dfrac{15}{60}=-\dfrac14$. A has the wrong sign; B inverts the first number; C forgets to invert the divisor.
 
-::mc
+::mc TH
 The value of $\dfrac23-\left(-\dfrac14\right)$ is
 A. $\dfrac37$.
 B. $\dfrac5{12}$.
@@ -551,7 +551,7 @@ D. $\dfrac{11}{24}$.
 ::key C
 Subtracting a negative is adding the opposite: $\dfrac8{12}+\dfrac3{12}=\dfrac{11}{12}$. B ignores the negative sign; C adds numerators and denominators separately; D adds the two denominators after finding the common denominator.
 
-::mc
+::mc VD
 The value of $\left(-\dfrac38\right)\cdot\dfrac57+\left(-\dfrac38\right)\cdot\dfrac27$ is
 A. $-\dfrac{15}{56}$.
 B. $\dfrac38$.
@@ -560,7 +560,7 @@ D. $-\dfrac38$.
 ::key D
 Take out $-\dfrac38$: $-\dfrac38\cdot\left(\dfrac57+\dfrac27\right)=-\dfrac38\cdot1$. A only works out the first term; B has the wrong sign; D forgets the denominator $7$ when adding.
 
-::tf
+::tf TH TH TH TH
 Let $x=-\dfrac34$ and $y=\dfrac56$. Decide whether each statement is true or false.
 a) $x+y=-\dfrac1{12}$.
 b) $x-y=-\dfrac{19}{12}$.
@@ -569,12 +569,12 @@ d) $x\div y=-\dfrac{10}9$.
 ::key F T T F
 a) False: $-\dfrac9{12}+\dfrac{10}{12}=\dfrac1{12}$. b) True: $-\dfrac9{12}-\dfrac{10}{12}=-\dfrac{19}{12}$. c) True: $-\dfrac{15}{24}=-\dfrac58$. d) False: $x\div y=-\dfrac34\cdot\dfrac65=-\dfrac9{10}$; $-\dfrac{10}9$ is $y\div x$.
 
-::sa
+::sa VD
 Calculate $\left(\dfrac34-\dfrac56\right)\div\left(-\dfrac1{24}\right)$.
 ::key 2
 $\dfrac34-\dfrac56=-\dfrac1{12}$, then $\left(-\dfrac1{12}\right)\cdot(-24)=2$.
 
-::sa
+::sa VD
 A stall makes a loss of $\dfrac34$ million đồng each day for $3$ days in a row, then a profit of $\dfrac{11}4$ million đồng on the fourth day. After four days, what is the stall's profit in million đồng? (give the answer as a decimal)
 ::key 0.5
 $3\cdot\left(-\dfrac34\right)+\dfrac{11}4=-\dfrac94+\dfrac{11}4=\dfrac24=0.5$.

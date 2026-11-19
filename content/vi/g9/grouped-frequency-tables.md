@@ -376,7 +376,7 @@ Vậy có $24+21=45$ số liệu thuộc $[20; 40)$ (hai nhóm giữa).
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Với các nhóm $[145; 150)$, $[150; 155)$, $[155; 160)$, số liệu $155$ thuộc nhóm
 A. $[150; 155)$.
 B. cả hai nhóm $[150; 155)$ và $[155; 160)$.
@@ -385,7 +385,7 @@ D. $[155; 160)$.
 ::key D
 Ta có $155\leq155<160$. Nhóm $[150; 155)$ không chứa đầu mút phải $155$ (A sai), nên $155$ thuộc đúng một nhóm (B, C sai).
 
-::mc
+::mc TH
 Giá trị đại diện của nhóm $[40; 50)$ là
 A. $10$.
 B. $40$.
@@ -394,7 +394,7 @@ D. $50$.
 ::key C
 $\dfrac{40+50}{2}=45$. A là độ dài nhóm, B là đầu mút trái, D là đầu mút phải.
 
-::mc
+::mc TH
 Một mẫu số liệu cỡ $30$ có bốn nhóm với tần số $5$, $12$, $8$, $5$. Tần số tương đối của nhóm thứ hai là
 A. $40\%$.
 B. $12\%$.
@@ -403,7 +403,7 @@ D. $2{,}5\%$.
 ::key A
 $\dfrac{12}{30}\cdot100\%=40\%$. B lấy tần số làm phần trăm, C là phần còn lại, D tính $30:12$.
 
-::mc
+::mc NB
 Trong biểu đồ tần số ghép nhóm dạng cột, các cột
 A. cách đều nhau, đáy mỗi cột là giá trị đại diện của nhóm.
 B. nằm liền nhau, đáy mỗi cột là một nhóm.
@@ -412,7 +412,7 @@ D. có chiều cao bằng giá trị đại diện của nhóm.
 ::key B
 Số liệu chạy liên tục qua các nhóm nên các cột liền nhau. A là cách vẽ với số liệu không ghép nhóm; chiều rộng cột là độ dài nhóm (C sai), chiều cao cột là tần số (D sai).
 
-::tf
+::tf NB TH TH TH
 Giả sử thời gian chờ (phút) của 50 khách hàng có bảng: $[0; 5)$: $12$, $[5; 10)$: $20$, $[10; 15)$: $10$, $[15; 20)$: $8$. Xét tính đúng sai của các mệnh đề sau:
 a) Độ dài mỗi nhóm là $5$ phút.
 b) Tần số tương đối của nhóm $[5; 10)$ là $40\%$.
@@ -421,12 +421,12 @@ d) Từ bảng, ta biết có đúng $6$ khách chờ dưới 2 phút.
 ::key Đ Đ Đ S
 a) Đúng. b) Đúng: $\dfrac{20}{50}=40\%$. c) Đúng: $10+8=18$. d) Sai: bảng không cho biết số liệu bên trong nhóm $[0; 5)$.
 
-::sa
+::sa VD
 Với bảng ở câu trên, bao nhiêu phần trăm khách hàng chờ từ 10 phút trở lên?
 ::key 36
 $\dfrac{18}{50}=36\%$.
 
-::sa
+::sa TH
 Tìm giá trị đại diện của nhóm $[12{,}5; 17{,}5)$.
 ::key 15
 $\dfrac{12{,}5+17{,}5}{2}=15$.

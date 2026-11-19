@@ -294,7 +294,7 @@ $D=m^2-4=0$ gives $m=\pm2$, and since $m>0$, $m=2$. The line $y=2x-1$ touches th
 :::
 
 :::quiz
-::mc
+::mc NB
 What is the vertex of the graph of $y=(x-4)^2+3$?
 A. $(-4, 3)$
 B. $(4, -3)$
@@ -303,7 +303,7 @@ D. $(3, 4)$
 ::key C
 In $a(x-h)^2+k$ the vertex is $(h, k)=(4, 3)$. Option A is the common sign mistake.
 
-::mc
+::mc TH
 How many real solutions does $x^2-4x+5=0$ have?
 A. $0$
 B. $1$
@@ -312,7 +312,7 @@ D. Infinitely many
 ::key A
 $D=16-20=-4<0$, so there is no real solution.
 
-::mc
+::mc TH
 What are the solutions of $x^2-x-12=0$?
 A. $-4$ and $3$
 B. $4$ and $-3$
@@ -321,7 +321,7 @@ D. $12$ and $-1$
 ::key B
 $(x-4)(x+3)=0$. Option A has the right numbers with the wrong signs.
 
-::mc
+::mc VD
 What is the maximum value of $f(x)=-2x^2+8x-3$?
 A. $2$
 B. $3$
@@ -330,7 +330,7 @@ D. $5$
 ::key D
 The vertex is at $x=-\dfrac{8}{2\cdot(-2)}=2$, and $f(2)=-8+16-3=5$. Option A is where the maximum happens, not its value.
 
-::tf
+::tf TH TH TH NB
 The function $f$ is defined by $f(x)=x^2-6x+8$.
 a) The zeros of $f$ are $2$ and $4$.
 b) The vertex of the graph of $y=f(x)$ is $(3, -1)$.
@@ -339,12 +339,12 @@ d) The graph of $y=f(x)$ crosses the $y$-axis at $(0, 8)$.
 ::key T T F T
 a) True: $(x-2)(x-4)$. b) True: $f(3)=9-18+8=-1$. c) False: $(x-3)^2-1$. d) True: $f(0)=8$.
 
-::sa
+::sa TH
 What is the positive solution of $x^2+2x-15=0$?
 ::key 3
 $(x+5)(x-3)=0$, so $x=3$ or $x=-5$.
 
-::sa
+::sa VD
 What is the solution of $\sqrt{x+12}=x$?
 ::key 4
 $x^2-x-12=0$ gives $x=4$ or $x=-3$; $x=-3$ is extraneous because $\sqrt9=3\ne-3$.

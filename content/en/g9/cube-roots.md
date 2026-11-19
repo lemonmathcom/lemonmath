@@ -440,7 +440,7 @@ So $34$ integers $x$ satisfy the condition.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $\sqrt[3]{-27}$ equals
 A. $-3$.
 B. $3$.
@@ -449,7 +449,7 @@ D. not defined.
 ::key A
 Since $(-3)^3=-27$, $\sqrt[3]{-27}=-3$. Option D confuses it with a square root, and C divides $-27$ by $3$.
 
-::mc
+::mc TH
 Which expression is defined for every real number $x$?
 A. $\sqrt{x-1}$.
 B. $\sqrt[3]{x-1}$.
@@ -458,7 +458,7 @@ D. $\sqrt{x}$.
 ::key B
 A cube root is defined for every expression under the root sign. The square roots in A, C and D need a non-negative expression under the root.
 
-::mc
+::mc NB
 $\sqrt[3]{(-5)^3}$ equals
 A. $5$.
 B. $-5$.
@@ -467,7 +467,7 @@ D. $\pm5$.
 ::key B
 We have $\sqrt[3]{(-5)^3}=-5$ (since $\sqrt[3]{a^3}=a$). Option A wrongly uses the absolute value, as for a square root.
 
-::mc
+::mc TH
 A cube-shaped crate has a volume of $0.216$ m³. Its edge is
 A. $0.6$ m.
 B. $0.072$ m.
@@ -476,7 +476,7 @@ D. $6$ m.
 ::key A
 The edge is $\sqrt[3]{0.216}=0.6$ (m) (since $0.6^3=0.216$). Option B divides the volume by $3$; C and D put the decimal point in the wrong place.
 
-::tf
+::tf TH NB TH TH
 Consider the expression $A=\sqrt[3]{x-7}$. Decide whether each statement is true or false.
 a) $A$ is defined if and only if $x\ge7$.
 b) When $x=-1$, $A=-2$.
@@ -485,12 +485,12 @@ d) $A<0$ when $x<7$.
 ::key F T T T
 a) False. A cube root is defined for every $x$. b) True. When $x=-1$, $A=\sqrt[3]{-8}=-2$. c) True. When $x=34$, $A=\sqrt[3]{27}=3$. d) True. When $x<7$, $x-7<0$, hence $A=\sqrt[3]{x-7}<0$.
 
-::sa
+::sa TH
 Evaluate $\sqrt[3]{125}-\sqrt[3]{-8}+\sqrt[3]{0.001}$.
 ::key 7.1
 We have $\sqrt[3]{125}-\sqrt[3]{-8}+\sqrt[3]{0.001}=5-(-2)+0.1=7.1$.
 
-::sa
+::sa VD
 A cube-shaped gift box has a volume of $3$ litres. Find the length of its edge in centimetres (give your answer to 1 decimal place).
 ::key 14.4
 We have $3$ litres $=3000$ cm³. Hence the edge is $\sqrt[3]{3000}\approx14.4$ (cm).

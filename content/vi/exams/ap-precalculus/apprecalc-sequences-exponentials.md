@@ -271,7 +271,7 @@ Vậy $f(0)=a=3$.
 :::
 
 :::quiz
-::mc
+::mc NB
 Số hạng tiếp theo của dãy $2, 6, 18, \dots$ là
 A. $24$
 B. $36$
@@ -280,7 +280,7 @@ D. $30$
 ::key C
 Công bội là $3$, nên số hạng tiếp theo là $18\times3=54$.
 
-::mc
+::mc TH
 Công thức nào cho cấp số cộng $4, 9, 14, \dots$?
 A. $a_n=5n-1$
 B. $a_n=4n+5$
@@ -289,7 +289,7 @@ D. $a_n=5n+4$
 ::key A
 $a_1=4$ và $d=5$: $4+5(n-1)=5n-1$.
 
-::mc
+::mc TH
 Một đại lượng được mô hình hoá bởi $Q(t)=80(1{,}07)^t$. Số $1{,}07$ cho biết điều gì?
 A. Đại lượng tăng $1{,}07$ đơn vị mỗi chu kì.
 B. Đại lượng giảm $7\%$ mỗi chu kì.
@@ -298,7 +298,7 @@ D. Đại lượng tăng $7\%$ mỗi chu kì.
 ::key D
 Hệ số tăng trưởng $1{,}07$ nghĩa là tăng $7\%$ mỗi chu kì.
 
-::mc
+::mc NB
 Hàm số nào thể hiện sự suy giảm theo hàm mũ?
 A. $f(x)=0{,}9x+3$
 B. $f(x)=3(0{,}9)^x$
@@ -307,7 +307,7 @@ D. $f(x)=-3(1{,}9)^{-x}$
 ::key B
 Với $a>0$, cơ số nằm giữa $0$ và $1$ cho sự suy giảm.
 
-::tf
+::tf NB TH NB NB
 Cho $f(x)=200(0{,}5)^{x/3}$. Xét tính đúng sai của các mệnh đề sau:
 a) $f(0)=200$.
 b) Giá trị giảm một nửa sau mỗi $3$ đơn vị của $x$.
@@ -316,12 +316,12 @@ d) Đồ thị có tiệm cận ngang $y=0$.
 ::key T T F T
 Cơ số $0{,}5$ nhỏ hơn $1$, nên $f$ nghịch biến và tiến về $0$.
 
-::sa
+::sa TH
 Một cấp số nhân có $g_1=3$ và $r=2$. Tính $g_5$.
 ::key 48
 $3\cdot2^4=48$.
 
-::sa
+::sa TH
 Một hàm mũ có $f(0)=10$ và $f(1)=15$. Tính $f(2)$.
 ::key 22,5
 Hệ số là $1{,}5$, nên $f(2)=15\times1{,}5=22{,}5$.

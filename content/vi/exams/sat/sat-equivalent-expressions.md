@@ -282,7 +282,7 @@ Hai số đó là $-6$ và $1$: $3x^2-6x+x-2=3x(x-2)+(x-2)=(3x+1)(x-2)$. Vậy b
 :::
 
 :::quiz
-::mc
+::mc TH
 Biểu thức nào tương đương với $(x^2)^3\cdot x^4$?
 A. $x^9$
 B. $x^{10}$
@@ -291,7 +291,7 @@ D. $x^{14}$
 ::key B
 $(x^2)^3=x^6$ và $x^6\cdot x^4=x^{10}$. Phương án C nhân cả ba số mũ.
 
-::mc
+::mc TH
 Biểu thức nào tương đương với $4x^2-25$?
 A. $(4x-5)(x+5)$
 B. $(2x-5)^2$
@@ -300,7 +300,7 @@ D. $(2x-5)(2x+5)$
 ::key D
 $4x^2-25=(2x)^2-5^2=(2x-5)(2x+5)$.
 
-::mc
+::mc NB
 Biểu thức nào tương đương với $(x+3)^2$?
 A. $x^2+9$
 B. $x^2+3x+9$
@@ -309,7 +309,7 @@ D. $x^2+6x+6$
 ::key C
 $(x+3)^2=x^2+2\cdot3\cdot x+9$. Phương án A là lỗi quen thuộc: bình phương từng số hạng.
 
-::mc
+::mc TH
 Với $x>0$, biểu thức nào tương đương với $x^{\frac12}\cdot x^{\frac13}$?
 A. $\sqrt[6]{x^5}$
 B. $\sqrt[6]{x}$
@@ -318,7 +318,7 @@ D. $x^{\frac16}$
 ::key A
 $\dfrac12+\dfrac13=\dfrac56$ và $x^{\frac56}=\sqrt[6]{x^5}$. Phương án B và D nhân các số mũ.
 
-::tf
+::tf TH TH NB TH
 Xét biểu thức $(x-1)(x+5)$.
 a) Biểu thức tương đương với $x^2+4x-5$.
 b) $x+1$ là một nhân tử của biểu thức.
@@ -327,12 +327,12 @@ d) Biểu thức tương đương với $(x+2)^2-9$.
 ::key Đ S Đ Đ
 a) Đúng: $x^2+5x-x-5$. b) Sai: các nhân tử là $x-1$ và $x+5$. c) Đúng: $0\cdot6=0$. d) Đúng: $x^2+4x+4-9=x^2+4x-5$.
 
-::sa
+::sa TH
 Trong đẳng thức $(3x+2)(x+5)=3x^2+bx+10$, $b$ là hằng số và đẳng thức đúng với mọi $x$. Giá trị của $b$ bằng bao nhiêu?
 ::key 17
 $(3x+2)(x+5)=3x^2+15x+2x+10=3x^2+17x+10$.
 
-::sa
+::sa TH
 Nếu $a+b=7$ và $a-b=3$ thì giá trị của $a^2-b^2$ bằng bao nhiêu?
 ::key 21
 $a^2-b^2=(a+b)(a-b)=7\cdot3=21$.

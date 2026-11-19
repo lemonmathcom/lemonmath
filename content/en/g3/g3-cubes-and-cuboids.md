@@ -266,7 +266,7 @@ The $6$ faces split into $3$ pairs of opposite faces. Each pair has $7$ dots, so
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 How many faces does a cube have?
 A. $4$.
 B. $6$.
@@ -275,7 +275,7 @@ D. $12$.
 ::key B
 A cube has $6$ faces. Option C is the number of vertices and option D is the number of edges.
 
-::mc
+::mc NB
 What shape is each face of a cube?
 A. A triangle.
 B. A rectangle with two different sides.
@@ -284,7 +284,7 @@ D. A circle.
 ::key C
 All the faces of a cube are equal squares. Option B is the face of a cuboid.
 
-::mc
+::mc TH
 A cuboid has a base that is a rectangle $9$ cm long and $4$ cm wide. The opposite face is
 A. $9$ cm long and $4$ cm wide.
 B. $9$ cm long and $9$ cm wide.
@@ -293,7 +293,7 @@ D. $13$ cm long and $4$ cm wide.
 ::key A
 Opposite faces are equal, so the top is also $9$ cm long and $4$ cm wide. Option D adds the two numbers by mistake.
 
-::mc
+::mc TH
 Small blocks are stacked in $3$ layers with $5$ blocks in each layer. How many blocks are there altogether?
 A. $8$.
 B. $15$.
@@ -302,7 +302,7 @@ D. $10$.
 ::key B
 $5\times3=15$ (blocks). Option A adds $5+3$ by mistake.
 
-::tf
+::tf NB NB NB NB
 Look at a cube.
 a) It has $6$ faces.
 b) Each face is a square.
@@ -311,12 +311,12 @@ d) It has $12$ edges.
 ::key T T F T
 a) True. b) True: all the faces are squares. c) False: it has $8$ vertices. d) True: it has $12$ edges.
 
-::sa
+::sa NB
 How many vertices does a cube have?
 ::key 8
 A cube has $8$ vertices.
 
-::sa
+::sa TH
 Small cubes are stacked in $3$ layers with $9$ cubes in each layer. How many cubes are there altogether?
 ::key 27
 $9\times3=27$ (cubes).

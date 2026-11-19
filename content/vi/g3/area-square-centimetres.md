@@ -314,7 +314,7 @@ $$6\times 6=36\ (\text{cm}^2).$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Diện tích hình chữ nhật có chiều dài $6$ cm, chiều rộng $4$ cm là
 A. $10\ \text{cm}^2$.
 B. $20\ \text{cm}^2$.
@@ -323,7 +323,7 @@ D. $24\ \text{cm}^2$.
 ::key D
 $6\times 4=24$, đơn vị là $\text{cm}^2$. A cộng hai số, B là chu vi, C sai đơn vị.
 
-::mc
+::mc TH
 Diện tích hình vuông có cạnh $7$ cm là
 A. $49\ \text{cm}^2$.
 B. $14\ \text{cm}^2$.
@@ -332,7 +332,7 @@ D. $77\ \text{cm}^2$.
 ::key A
 $7\times 7=49$. A cộng $7+7$, C là chu vi, D ghép hai chữ số.
 
-::mc
+::mc TH
 Tấm thiệp hình chữ nhật dài $12$ cm, rộng $8$ cm có diện tích
 A. $20\ \text{cm}^2$.
 B. $96\ \text{cm}^2$.
@@ -341,7 +341,7 @@ D. $4\ \text{cm}^2$.
 ::key B
 $12\times 8=96$. A cộng hai số, C là chu vi, D là hiệu hai số.
 
-::mc
+::mc VD
 Hình chữ nhật dài $1$ dm, rộng $5$ cm có diện tích
 A. $6\ \text{cm}^2$.
 B. $5\ \text{cm}^2$.
@@ -350,7 +350,7 @@ D. $15\ \text{cm}^2$.
 ::key C
 $1$ dm $=10$ cm, nên $10\times 5=50\ \text{cm}^2$. B không đổi đơn vị, A và D làm phép tính sai.
 
-::tf
+::tf TH TH VD NB
 Em xét hình vuông có cạnh $5$ cm và hình chữ nhật dài $8$ cm, rộng $3$ cm.
 a) Diện tích hình vuông là $25\ \text{cm}^2$.
 b) Diện tích hình chữ nhật là $11\ \text{cm}^2$.
@@ -359,12 +359,12 @@ d) Diện tích được đo bằng xăng-ti-mét.
 ::key Đ S Đ S
 a) Đúng: $5\times 5=25$. b) Sai: $8\times 3=24$, còn $11$ là $8+3$. c) Đúng: $25>24$. d) Sai: diện tích đo bằng xăng-ti-mét vuông.
 
-::sa
+::sa TH
 Tính diện tích hình chữ nhật dài $9$ cm, rộng $4$ cm (đơn vị $\text{cm}^2$).
 ::key 36
 $9\times 4=36\ (\text{cm}^2)$.
 
-::sa
+::sa TH
 Tính diện tích hình vuông cạnh $8$ cm (đơn vị $\text{cm}^2$).
 ::key 64
 $8\times 8=64\ (\text{cm}^2)$.

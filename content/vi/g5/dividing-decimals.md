@@ -335,7 +335,7 @@ $$12{,}5:0{,}25:4=12{,}5:(0{,}25\times4)=12{,}5:1=12{,}5.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $15{,}6:4$ là
 A. $39$.
 B. $0{,}39$.
@@ -344,7 +344,7 @@ D. $3{,}9$.
 ::key D
 $15:4=3$ (dư $3$), viết dấu phẩy, hạ $6$ được $36$ và $36:4=9$, nên thương là $3{,}9$. Phương án A quên dấu phẩy; B đặt dấu phẩy sai chỗ; D thêm chữ số $0$ thừa.
 
-::mc
+::mc TH
 Kết quả của $0{,}36:6$ là
 A. $0{,}06$.
 B. $0{,}6$.
@@ -353,7 +353,7 @@ D. $6$.
 ::key A
 $3<6$ nên chữ số hàng phần mười của thương là $0$, rồi $36:6=6$, nên thương là $0{,}06$. Phương án B bỏ chữ số $0$; C thêm chữ số $0$ thừa; D quên dấu phẩy.
 
-::mc
+::mc TH
 Kết quả của $7{,}35:1{,}5$ là
 A. $49$.
 B. $4{,}9$.
@@ -362,7 +362,7 @@ D. $0{,}49$.
 ::key B
 $7{,}35:1{,}5=73{,}5:15=4{,}9$. Phương án A chỉ chuyển dấu phẩy ở số bị chia ($73{,}5:1{,}5$); B chỉ chuyển dấu phẩy ở số chia ($7{,}35:15$); C chuyển sai số chữ số.
 
-::mc
+::mc VD
 Giả sử mua $2{,}5$ kg thịt hết $187\,500$ đồng. Giá $1$ kg thịt là
 A. $7500$ đồng.
 B. $750\,000$ đồng.
@@ -371,7 +371,7 @@ D. $468\,750$ đồng.
 ::key C
 $187\,500:2{,}5=75\,000$ đồng. Phương án A và B đặt sai số chữ số $0$; D là phép nhân $187\,500\times2{,}5$.
 
-::tf
+::tf TH NB TH TH
 Em xét phép chia $9:4$.
 a) $9:4=2{,}5$.
 b) $9$ chia hết cho $4$ nên thương là số tự nhiên.
@@ -380,12 +380,12 @@ d) Thương của phép chia này bé hơn $9$.
 ::key S S Đ Đ
 a) Sai: $9:4=2$ (dư $1$), $10:4=2$ (dư $2$), $20:4=5$, nên thương là $2{,}25$. b) Sai: $9$ không chia hết cho $4$. c) Đúng. d) Đúng: $2{,}25<9$ vì chia cho số lớn hơn $1$.
 
-::sa
+::sa VD
 Tính $12:0{,}25$.
 ::key 48
 $12:0{,}25=1200:25=48$.
 
-::sa
+::sa TH
 Tính $6:8$.
 ::key 0,75
 $6:8=0$ (dư $6$), $60:8=7$ (dư $4$), $40:8=5$, nên thương là $0{,}75$.

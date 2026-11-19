@@ -435,7 +435,7 @@ Vậy lúc $3$ giờ $30$ phút, góc giữa hai kim là $75^\circ$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Góc có số đo $120^\circ$ là
 A. góc nhọn.
 B. góc vuông.
@@ -444,7 +444,7 @@ D. góc bẹt.
 ::key C
 $90^\circ<120^\circ<180^\circ$ nên đó là góc tù.
 
-::mc
+::mc NB
 Góc bẹt có số đo bằng
 A. $90^\circ$.
 B. $180^\circ$.
@@ -453,7 +453,7 @@ D. $0^\circ$.
 ::key B
 Góc bẹt có hai cạnh là hai tia đối nhau, số đo $180^\circ$. A là góc vuông; C là một vòng tròn.
 
-::mc
+::mc TH
 Vẽ ba tia phân biệt chung gốc $O$. Số góc có đỉnh $O$ và hai cạnh là hai trong ba tia đó là
 A. $3$.
 B. $2$.
@@ -462,7 +462,7 @@ D. $1$.
 ::key A
 Có ba cặp tia nên có $3$ góc. C đếm mỗi góc hai lần.
 
-::mc
+::mc TH
 Lúc $2$ giờ đúng, góc tạo bởi kim giờ và kim phút bằng
 A. $30^\circ$.
 B. $120^\circ$.
@@ -471,7 +471,7 @@ D. $60^\circ$.
 ::key D
 Giữa hai kim có $2$ khoảng: $2\cdot30^\circ=60^\circ$. A chỉ tính một khoảng; B là lúc $4$ giờ; C là lúc $3$ giờ.
 
-::tf
+::tf NB NB NB TH
 Cho $\widehat{xOy}=90^\circ$. Xét tính đúng sai của các mệnh đề sau:
 a) $\widehat{xOy}$ là góc vuông.
 b) Đỉnh của góc là $x$.
@@ -480,12 +480,12 @@ d) $\widehat{xOy}$ lớn hơn mọi góc nhọn.
 ::key Đ S Đ Đ
 a) Đúng: số đo bằng $90^\circ$. b) Sai: chữ ở giữa là đỉnh, đỉnh là $O$. c) Đúng. d) Đúng: mọi góc nhọn đều nhỏ hơn $90^\circ$.
 
-::sa
+::sa VD
 Vẽ bốn tia phân biệt chung gốc $O$. Có bao nhiêu góc có đỉnh $O$ và hai cạnh là hai trong bốn tia đó?
 ::key 6
 Có $3+2+1=6$ cặp tia, nên có $6$ góc.
 
-::sa
+::sa TH
 Kim phút quay được một góc bao nhiêu độ trong $25$ phút?
 ::key 150
 Mỗi phút kim phút quay $6^\circ$, nên trong $25$ phút quay $25\cdot6^\circ=150^\circ$.

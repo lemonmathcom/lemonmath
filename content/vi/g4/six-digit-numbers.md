@@ -353,7 +353,7 @@ $$999\,999-100\,000+1=900\,000.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Số "bốn trăm linh sáu nghìn hai trăm" viết là
 A. $46\,200$.
 B. $406\,200$.
@@ -362,7 +362,7 @@ D. $406\,020$.
 ::key B
 "Bốn trăm linh sáu nghìn" là $406\,000$ và "hai trăm" là $200$, nên số cần viết là $406\,200$. Phương án A thiếu một chữ số $0$, phương án D để chữ số $2$ ở hàng chục, phương án C đọc "linh sáu" thành "sáu mươi".
 
-::mc
+::mc NB
 Chữ số $7$ trong số $827\,405$ thuộc
 A. hàng trăm, lớp đơn vị.
 B. hàng chục nghìn, lớp nghìn.
@@ -371,7 +371,7 @@ D. hàng đơn vị, lớp đơn vị.
 ::key C
 Từ trái sang phải, các chữ số $8$, $2$, $7$ ở hàng trăm nghìn, chục nghìn, nghìn. Vậy chữ số $7$ ở hàng nghìn, thuộc lớp nghìn.
 
-::mc
+::mc TH
 Số liền sau của $999\,999$ là
 A. $9\,999\,999$.
 B. $999\,998$.
@@ -380,7 +380,7 @@ D. $1\,000\,000$.
 ::key D
 $999\,999+1=1\,000\,000$. Phương án B là số liền trước, phương án C thiếu một chữ số $0$, phương án A thừa một chữ số $9$.
 
-::mc
+::mc TH
 Số $702\,836$ được phân tích là
 A. $700\,000+2\,000+800+30+6$.
 B. $700\,000+20\,000+800+36$.
@@ -389,7 +389,7 @@ D. $700\,000+200+80+36$.
 ::key A
 Số $702\,836$ có $7$ trăm nghìn, $0$ chục nghìn, $2$ nghìn, $8$ trăm, $3$ chục, $6$ đơn vị. Phương án B, C và D đều viết sai giá trị của một hoặc nhiều chữ số.
 
-::tf
+::tf NB TH NB TH
 Em xét số $1\,000\,000$.
 a) Số này có bảy chữ số.
 b) Số này là số liền sau của $99\,999$.
@@ -398,12 +398,12 @@ d) Số này bằng $10$ trăm nghìn.
 ::key Đ S Đ Đ
 a) Đúng: một chữ số $1$ và sáu chữ số $0$. b) Sai: số liền sau của $99\,999$ là $100\,000$. c) Đúng: $1\,000\,000$ đọc là một triệu. d) Đúng: $10$ trăm nghìn là $1$ triệu.
 
-::sa
+::sa TH
 Số $999\,999+1$ có bao nhiêu chữ số?
 ::key 7
 $999\,999+1=1\,000\,000$ có bảy chữ số.
 
-::sa
+::sa NB
 Chữ số hàng trăm nghìn của số $483\,047$ là chữ số nào?
 ::key 4
 Số $483\,047$ có chữ số $4$ ở hàng trăm nghìn.

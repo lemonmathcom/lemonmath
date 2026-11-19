@@ -351,7 +351,7 @@ Gọi $h$ (m) là chiều cao tháp. Ta có $AH=h\sqrt3$ và $BH=h$. Vì $AH-BH=
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tam giác $ABC$ vuông tại $A$ có $AB=3$ và $AC=4$. Giá trị của $\sin C$ là
 A. $\dfrac45$.
 B. $\dfrac53$.
@@ -360,7 +360,7 @@ D. $\dfrac35$.
 ::key D
 $BC=5$ và cạnh đối của góc $C$ là $AB=3$ nên $\sin C=\dfrac35$. Đáp án A là $\cos C$, C là $\tan C$, B là $\dfrac{BC}{AB}$.
 
-::mc
+::mc TH
 Tam giác $ABC$ vuông tại $A$ có $BC=10$ cm và $\widehat B=30^\circ$. Độ dài $AC$ là
 A. $5$ cm.
 B. $5\sqrt3$ cm.
@@ -369,7 +369,7 @@ D. $20$ cm.
 ::key A
 $AC=BC\sin30^\circ=10\cdot\dfrac12=5$. Đáp án B dùng $\cos30^\circ$ thay vì $\sin30^\circ$, C là $\dfrac{BC}{\sqrt3}$, D là $2BC$.
 
-::mc
+::mc TH
 Góc nhọn $\alpha$ có $\tan\alpha=1{,}5$. Số đo $\alpha$ (làm tròn đến một chữ số thập phân) là
 A. $33{,}7^\circ$.
 B. $56{,}3^\circ$.
@@ -378,7 +378,7 @@ D. $1{,}5^\circ$.
 ::key B
 $\alpha=\arctan1{,}5\approx56{,}3^\circ$. Đáp án A là góc phụ $90^\circ-56{,}3^\circ$ (ứng với $\tan\alpha=\dfrac23$), C là $\arccos\dfrac23$, D lấy luôn giá trị $\tan\alpha$ làm số đo góc.
 
-::mc
+::mc TH
 Một người đứng cách chân tháp $20$ m, nhìn đỉnh tháp dưới góc nâng $40^\circ$ (bỏ qua chiều cao mắt). Chiều cao tháp (làm tròn đến một chữ số thập phân) là
 A. $15{,}3$ m.
 B. $12{,}9$ m.
@@ -387,7 +387,7 @@ D. $23{,}8$ m.
 ::key C
 $h=20\tan40^\circ\approx16{,}8$. Đáp án A là $20\cos40^\circ$, B là $20\sin40^\circ$, D là $\dfrac{20}{\tan40^\circ}$.
 
-::tf
+::tf NB TH TH NB
 Tam giác $ABC$ vuông tại $A$ có đường cao $AH$, $AB=6$ cm và $AC=8$ cm. Các nhận định sau đúng hay sai?
 a) $BC=10$ cm.
 b) $AH=5$ cm.
@@ -396,12 +396,12 @@ d) $\tan B=\dfrac34$.
 ::key Đ S S S
 a) Đúng: $\sqrt{36+64}=10$. b) Sai: $AH=\dfrac{6\cdot8}{10}=4{,}8$ cm. c) Sai: $BH=\dfrac{36}{10}=3{,}6$ cm ($6{,}4$ là $CH$). d) Sai: $\tan B=\dfrac{AC}{AB}=\dfrac43$.
 
-::sa
+::sa VD
 Một chiếc thang dài $4$ m dựa vào tường, tạo với mặt đất góc $60^\circ$. Đầu thang cao bao nhiêu mét so với mặt đất (làm tròn đến một chữ số thập phân)?
 ::key 3,5
 $4\sin60^\circ=2\sqrt3\approx3{,}5$.
 
-::sa
+::sa VD
 Một người cao đến mắt $1{,}6$ m đứng cách chân một cột $12$ m, nhìn thấy đỉnh cột dưới góc nâng $45^\circ$. Cột cao bao nhiêu mét?
 ::key 13,6
 $12\tan45^\circ=12$, cộng chiều cao mắt $1{,}6$ được $13{,}6$ m.

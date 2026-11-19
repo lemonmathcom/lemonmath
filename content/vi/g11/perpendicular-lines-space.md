@@ -344,7 +344,7 @@ Nếu $b\ge a$ thì $\widehat{AOB}$ nhọn và $\cos\varphi=\dfrac{b^2-a^2}{a^2+
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai đường thẳng $AC$ và $A'D'$ bằng
 A. $90^\circ$.
 B. $45^\circ$.
@@ -353,7 +353,7 @@ D. $30^\circ$.
 ::key B
 $A'D'\parallel AD$ nên góc cần tìm là $\widehat{CAD}=45^\circ$ (đường chéo hình vuông). Phương án A lấy góc giữa $AB$ và $AD$, C nhầm với tam giác đều.
 
-::mc
+::mc TH
 Mệnh đề nào sau đây đúng?
 A. Hai đường thẳng vuông góc thì phải cắt nhau.
 B. Hai đường thẳng cùng vuông góc với đường thẳng thứ ba thì song song.
@@ -362,7 +362,7 @@ D. Góc giữa hai đường thẳng có thể bằng $120^\circ$.
 ::key C
 Đây là tính chất vuông góc và song song. B và A sai trong không gian (ví dụ $AB$, $AD$ và $AB$, $B'C'$); D sai vì góc giữa hai đường thẳng không vượt quá $90^\circ$.
 
-::mc
+::mc NB
 Cho tứ diện đều $ABCD$ cạnh $a$. Góc giữa hai đường thẳng $AB$ và $CD$ bằng
 A. $30^\circ$.
 B. $45^\circ$.
@@ -371,7 +371,7 @@ D. $90^\circ$.
 ::key D
 Hai cạnh đối của tứ diện đều vuông góc với nhau (như ví dụ trên). Phương án C nhầm với góc của tam giác đều.
 
-::mc
+::mc VD
 Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, $SA\perp AB$, $SA\perp AD$ và $SA=a$. Góc giữa $SB$ và $CD$ bằng
 A. $45^\circ$.
 B. $60^\circ$.
@@ -380,7 +380,7 @@ D. $30^\circ$.
 ::key A
 $CD\parallel AB$ nên góc cần tìm là $\widehat{SBA}$ với $\tan\widehat{SBA}=\dfrac{SA}{AB}=1$, suy ra $45^\circ$. Phương án C là góc giữa $SA$ và $CD$.
 
-::tf
+::tf TH TH VD TH
 Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=3$, $AD=4$, $AA'=5$. Xét tính đúng sai của các mệnh đề sau:
 a) Góc giữa $AB$ và $A'D'$ bằng $0^\circ$.
 b) $AA'\perp BC$.
@@ -389,12 +389,12 @@ d) Góc giữa $AC$ và $A'C'$ bằng $90^\circ$.
 ::key S Đ S S
 a) Sai: $A'D'\parallel AD$ nên góc giữa $AB$ và $A'D'$ là $90^\circ$. b) Đúng: $BC\parallel AD$ và $AA'\perp AD$. c) Sai: $\cos\widehat{(AC, BD)}=\dfrac{7}{25}$ nên hai đường không vuông góc (hình chữ nhật không phải hình vuông). d) Sai: $A'C'\parallel AC$ nên góc bằng $0^\circ$.
 
-::sa
+::sa VD
 Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=3$, $AD=4$, $AA'=5$. Tính góc giữa $AC$ và $B'D'$ (đơn vị độ, làm tròn đến hàng phần mười).
 ::key 73,7
 $B'D'\parallel BD$ và $OA=OB=2{,}5$ nên $\cos\widehat{AOB}=\dfrac{2\cdot6{,}25-9}{2\cdot6{,}25}=0{,}28$, suy ra $\widehat{AOB}\approx73{,}7^\circ$ (góc nhọn).
 
-::sa
+::sa VD
 Cho tứ diện đều $ABCD$ cạnh $a$, $M$ là trung điểm $BC$. Tính côsin của góc giữa $AB$ và $DM$ (làm tròn kết quả đến hàng phần trăm).
 ::key 0,29
 Gọi $N$ là trung điểm $AC$ thì $MN\parallel AB$ và $MN=\dfrac a2$, còn $DM=DN=\dfrac{a\sqrt3}{2}$. Trong tam giác $DMN$ cân tại $D$: $\cos\widehat{DMN}=\dfrac{MN}{2DM}=\dfrac{\sqrt3}{6}\approx0{,}29$.

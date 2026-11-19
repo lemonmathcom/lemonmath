@@ -292,7 +292,7 @@ Bán kính nửa hình tròn là $12:2=6$ (m). Diện tích hình chữ nhật l
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tam giác có đáy $10$ cm và chiều cao $6$ cm có diện tích là
 A. $30\ \text{cm}^2$.
 B. $16\ \text{cm}^2$.
@@ -301,7 +301,7 @@ D. $60\ \text{cm}^2$.
 ::key A
 $S=10\times6:2=30\ (\text{cm}^2)$. Phương án D quên chia $2$, B là tổng hai số, C nhân thêm $2$.
 
-::mc
+::mc TH
 Hình tròn có bán kính $3$ cm có chu vi là
 A. $28{,}26$ cm.
 B. $18{,}84$ cm.
@@ -310,7 +310,7 @@ D. $37{,}68$ cm.
 ::key B
 $C=3\times2\times3{,}14=18{,}84$ cm. Phương án A là diện tích ($3\times3\times3{,}14$), C coi $3$ cm là đường kính, D dùng bán kính $6$ cm.
 
-::mc
+::mc TH
 Bể hình hộp chữ nhật dài $8$ dm, rộng $5$ dm, cao $6$ dm chứa đầy được
 A. $2400$ lít.
 B. $19$ lít.
@@ -319,7 +319,7 @@ D. $120$ lít.
 ::key C
 $8\times5\times6=240\ (\text{dm}^3)=240$ lít. Phương án B cộng ba số, A nhân thêm $10$, D chia $2$ như tính diện tích tam giác.
 
-::mc
+::mc NB
 $3{,}5$ ha bằng
 A. $350\ \text{m}^2$.
 B. $350\,000\ \text{m}^2$.
@@ -328,7 +328,7 @@ D. $35\,000\ \text{m}^2$.
 ::key D
 $1$ ha $=10\,000\ \text{m}^2$ nên $3{,}5\times10\,000=35\,000$. Các phương án còn lại nhân với $100$, $1000$ hoặc $100\,000$.
 
-::tf
+::tf TH TH VD VD
 Một hình thang có đáy lớn $14$ m, đáy bé $8$ m và chiều cao $6$ m.
 a) Diện tích hình thang là $132\ \text{m}^2$.
 b) Diện tích hình thang là $66\ \text{m}^2$.
@@ -337,12 +337,12 @@ d) Nếu chiều cao tăng gấp đôi (hai đáy giữ nguyên) thì diện tí
 ::key S Đ S Đ
 a) Sai: $(14+8)\times6=132$ chưa chia $2$. b) Đúng: $132:2=66$. c) Sai: tam giác đó có diện tích $14\times6:2=42\ \text{m}^2$. d) Đúng: $(14+8)\times12:2=132$.
 
-::sa
+::sa TH
 Tính diện tích hình tròn có bán kính $10$ cm, lấy $3{,}14$ (đơn vị: $\text{cm}^2$).
 ::key 314
 $S=10\times10\times3{,}14=314$.
 
-::sa
+::sa NB
 Đổi $0{,}5\ \text{m}^3$ ra $\text{dm}^3$.
 ::key 500
 $0{,}5\times1000=500$.

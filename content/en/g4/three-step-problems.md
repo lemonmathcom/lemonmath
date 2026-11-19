@@ -389,7 +389,7 @@ $$480-275=205\ \text{(pens)}.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc VD
 A mother buys $3$ boxes of milk at $25\,000$ dong each and $1$ box of cake for $18\,000$ dong. She pays with $200\,000$ dong. Her change is
 A. $125\,000$ dong.
 B. $107\,000$ dong.
@@ -398,7 +398,7 @@ D. $293\,000$ dong.
 ::key B
 The milk costs $3\times25\,000=75\,000$ dong; the money to pay is $75\,000+18\,000=93\,000$ dong; the change is $200\,000-93\,000=107\,000$ dong. Option A forgets the cake, option C is the money to pay, and option D is an addition.
 
-::mc
+::mc VD
 A shop receives $3$ cartons of pens with $12$ boxes in each carton and $10$ pens in each box. The shop sells $250$ pens. The shop has left
 A. $360$ pens.
 B. $610$ pens.
@@ -407,7 +407,7 @@ D. $11$ pens.
 ::key C
 The number of boxes is $3\times12=36$; the number of pens is $36\times10=360$; the number of pens left is $360-250=110$. Option A has not subtracted the pens sold, option B adds instead of subtracting, and option D works out $36-25$, mixing up boxes and pens.
 
-::mc
+::mc VD
 $5$ packets of sweets cost $30\,000$ dong. $8$ of these packets of sweets and $1$ box of cake at $25\,000$ dong cost
 A. $48\,000$ dong.
 B. $55\,000$ dong.
@@ -416,7 +416,7 @@ D. $73\,000$ dong.
 ::key D
 The price of one packet is $30\,000\div5=6\,000$ dong; $8$ packets cost $6\,000\times8=48\,000$ dong; the total is $48\,000+25\,000=73\,000$ dong. Option A forgets the cake, option C multiplies $30\,000$ by $8$, and option B adds $30\,000+25\,000$.
 
-::mc
+::mc VD
 A plot of land is a rectangle with width $20$ m, and its length is twice its width. A fence is built all round it at $10\,000$ dong a metre. The cost of the fence is
 A. $1\,200\,000$ dong.
 B. $600\,000$ dong.
@@ -425,7 +425,7 @@ D. $400\,000$ dong.
 ::key A
 The length is $20\times2=40$ m; the perimeter is $(40+20)\times2=120$ m; the cost is $120\times10\,000=1\,200\,000$ dong. Option B forgets to multiply by $2$ for the perimeter, option C counts only the two long sides, and option D counts only one long side.
 
-::tf
+::tf TH TH VD TH
 Look at the problem: "A shop has $600$ kg of rice. In the morning it sells $125$ kg, and in the afternoon it sells twice as much as in the morning."
 a) The shop sells $250$ kg of rice in the afternoon.
 b) The shop sells $375$ kg of rice in the whole day.
@@ -434,12 +434,12 @@ d) The problem needs three steps.
 ::key T T F T
 a) True: $125\times2=250$. b) True: $125+250=375$. c) False: $600-375=225$ kg; $275$ is a wrong result. d) True: find the rice sold in the afternoon, the rice sold in the whole day, then the rice left.
 
-::sa
+::sa VD
 A piece of cloth is $48$ m long. $5$ outfits of $3$ m each are cut from it, and the rest is cut into scarves of $2$ m each. What is the greatest number of scarves?
 ::key 16
 $3\times5=15$ m; $48-15=33$ m; $33\div2=16$ (remainder $1$). So $16$ scarves can be cut.
 
-::sa
+::sa VD
 A shop receives $3$ cartons of pens with $15$ boxes in each carton and $10$ pens in each box, and sells $300$ pens. How many pens does the shop have left?
 ::key 150
 $3\times15=45$ boxes; $45\times10=450$ pens; $450-300=150$ pens.

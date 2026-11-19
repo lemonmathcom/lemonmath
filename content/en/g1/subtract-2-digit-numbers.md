@@ -260,7 +260,7 @@ Ones: $5-4=1$. The number is $75$, so the missing digit is $5$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The answer to $57-23$ is
 A. $80$.
 B. $43$.
@@ -269,7 +269,7 @@ D. $4$.
 ::key C
 $7-3=4$ and $5-2=3$, so $57-23=34$. Option B swaps the tens and ones, A adds instead of subtracting, D forgets the tens.
 
-::mc
+::mc TH
 The answer to $86-41$ is
 A. $5$.
 B. $54$.
@@ -278,7 +278,7 @@ D. $45$.
 ::key D
 $6-1=5$ and $8-4=4$, so $86-41=45$. Option B swaps the tens and ones, C adds instead of subtracting.
 
-::mc
+::mc TH
 Which subtraction has the answer $42$?
 A. $68-26$.
 B. $69-26$.
@@ -287,7 +287,7 @@ D. $68-25$.
 ::key A
 $68-26=42$. The other subtractions give $43$, $41$ and $43$.
 
-::mc
+::mc TH
 A shop has $78$ pens and has sold $35$ of them. How many pens are left?
 A. $113$ pens.
 B. $43$ pens.
@@ -296,7 +296,7 @@ D. $3$ pens.
 ::key B
 "Sold" and "left" mean taking away: $78-35=43$. Option A works out $78+35$, an addition by mistake.
 
-::tf
+::tf TH TH TH TH
 Look at the subtraction $95-54$.
 a) Tens: $9-5=4$.
 b) Ones: $5-4=1$.
@@ -305,12 +305,12 @@ d) Check: $41+54=95$.
 ::key T T F T
 a) True: $9-5=4$. b) True: $5-4=1$. c) False: $4$ tens and $1$ one make $41$. d) True: $41+54=95$.
 
-::sa
+::sa TH
 Work out $78-32$.
 ::key 46
 $8-2=6$ and $7-3=4$, so $78-32=46$.
 
-::sa
+::sa VD
 There are $89$ cakes and $45$ have been sold. How many cakes are left?
 ::key 44
 $89-45=44$ (cakes).

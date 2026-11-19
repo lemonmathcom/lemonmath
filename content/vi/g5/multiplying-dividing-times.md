@@ -303,7 +303,7 @@ $3$ giờ $40$ phút $=220$ phút, và $220:4=55$ (phút).
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $2$ giờ $20$ phút $\times3$ bằng
 A. $6$ giờ $20$ phút.
 B. $6$ giờ $60$ phút.
@@ -312,7 +312,7 @@ D. $7$ giờ $20$ phút.
 ::key C
 $2$ giờ $20$ phút $\times3=6$ giờ $60$ phút $=7$ giờ. Phương án B chưa đổi $60$ phút, A quên nhân số phút, D đổi $60$ phút nhưng vẫn giữ $20$ phút.
 
-::mc
+::mc TH
 $5$ giờ $30$ phút $:2$ bằng
 A. $2$ giờ $15$ phút.
 B. $2$ giờ $30$ phút.
@@ -321,7 +321,7 @@ D. $2$ giờ $45$ phút.
 ::key D
 $5:2=2$ (dư $1$ giờ), $60+30=90$ phút, $90:2=45$ phút. Phương án A bỏ giờ dư, B quên chia số phút, C làm tròn $5:2$ lên $3$.
 
-::mc
+::mc TH
 $3$ phút $25$ giây $\times4$ bằng
 A. $13$ phút $40$ giây.
 B. $12$ phút $25$ giây.
@@ -330,7 +330,7 @@ D. $12$ phút $100$ giây.
 ::key A
 $3$ phút $25$ giây $\times4=12$ phút $100$ giây $=13$ phút $40$ giây. Phương án D chưa đổi, B quên nhân số giây, C đổi $100$ giây thành $40$ giây nhưng quên cộng $1$ phút.
 
-::mc
+::mc VD
 Mỗi buổi chạy bộ của Hà kéo dài $25$ phút. Một tuần Hà chạy $5$ buổi. Hà chạy tất cả
 A. $30$ phút.
 B. $2$ giờ $5$ phút.
@@ -339,7 +339,7 @@ D. $125$ giờ.
 ::key B
 $25\times5=125$ phút $=2$ giờ $5$ phút. Phương án A là phép cộng, C coi $1$ giờ là $100$ phút, D ghi sai đơn vị.
 
-::tf
+::tf TH TH VD TH
 Em xét phép nhân $1$ giờ $40$ phút $\times3$.
 a) Kết quả bằng $5$ giờ.
 b) Kết quả bằng $4$ giờ $20$ phút.
@@ -348,12 +348,12 @@ d) Kết quả bằng $4{,}2$ giờ.
 ::key Đ S Đ S
 a) Đúng: $3$ giờ $120$ phút $=5$ giờ. b) Sai: kết quả là $5$ giờ. c) Đúng: $5$ giờ $=300$ phút, $300:3=100$ phút $=1$ giờ $40$ phút. d) Sai: $1$ giờ $40$ phút không phải $1{,}4$ giờ nên $4{,}2$ giờ là sai.
 
-::sa
+::sa VD
 Tính $1$ giờ $15$ phút $\times6$ rồi đổi kết quả ra phút.
 ::key 450
 $75\times6=450$ (phút).
 
-::sa
+::sa TH
 Chia đều $2$ giờ $30$ phút thành $5$ phần bằng nhau. Mỗi phần dài bao nhiêu phút?
 ::key 30
 $2$ giờ $30$ phút $=150$ phút, $150:5=30$ (phút).

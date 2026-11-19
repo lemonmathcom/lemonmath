@@ -312,7 +312,7 @@ Vì số dư nhỏ hơn $8$ nên $r$ chỉ có thể là $0$, $1$, ..., $7$. a) 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc VD
 Giá trị của $125+38+75+62$ là
 A. $300$.
 B. $238$.
@@ -321,7 +321,7 @@ D. $400$.
 ::key A
 $(125+75)+(38+62)=200+100=300$. Phương án C quên cặp $38+62$, B chỉ cộng $125+38+75$, D cộng nhầm hai nhóm thành $200+200$.
 
-::mc
+::mc TH
 Giá trị của $1976-999$ là
 A. $1977$.
 B. $977$.
@@ -330,7 +330,7 @@ D. $877$.
 ::key B
 $1976-999=1977-1000=977$. Phương án A quên trừ $1000$, C và D tính sai khi trừ.
 
-::mc
+::mc VD
 Giá trị của $47\times99$ là
 A. $4700$.
 B. $4606$.
@@ -339,7 +339,7 @@ D. $4747$.
 ::key C
 $47\times99=47\times(100-1)=4700-47=4653$. Phương án A bỏ qua phép trừ, B là $47\times98$, D là $47\times101$.
 
-::mc
+::mc TH
 Cách viết nào đúng cho phép chia $100$ cho $7$?
 A. $100=7\times13+9$.
 B. $100=7\times12+16$.
@@ -348,7 +348,7 @@ D. $100=7\times14+2$.
 ::key D
 Số dư phải nhỏ hơn số chia và không âm: $2<7$. Phương án A và B có số dư lớn hơn $7$, C có số dư âm.
 
-::tf
+::tf NB TH TH NB
 Về phép chia các số tự nhiên.
 a) $0:5=0$.
 b) $5:0=0$.
@@ -357,12 +357,12 @@ d) $6\times(10+4)=6\times10+6\times4$.
 ::key Đ S S Đ
 a) Đúng: $5\times0=0$. b) Sai: không có phép chia cho $0$. c) Sai: số dư nhỏ hơn $6$. d) Đúng: tính chất phân phối.
 
-::sa
+::sa TH
 Tìm số dư của phép chia $250$ cho $12$.
 ::key 10
 $250=12\times20+10$.
 
-::sa
+::sa VD
 $200$ học sinh lên các xe $45$ chỗ. Cần ít nhất bao nhiêu xe?
 ::key 5
 $200=45\times4+20$, còn $20$ học sinh nên cần thêm $1$ xe: $4+1=5$.

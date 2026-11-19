@@ -388,7 +388,7 @@ Vậy hai số cần tìm là $2$ và $29$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Số nào sau đây là số nguyên tố?
 A. $1$.
 B. $51$.
@@ -397,7 +397,7 @@ D. $47$.
 ::key D
 $47$ chỉ có hai ước là $1$ và $47$. A: $1$ chỉ có một ước; B: $51=3\cdot17$; C: $91=7\cdot13$.
 
-::mc
+::mc TH
 Dạng phân tích ra thừa số nguyên tố của $72$ là
 A. $2^3\cdot3^2$.
 B. $8\cdot9$.
@@ -406,7 +406,7 @@ D. $2\cdot36$.
 ::key A
 $72=2\cdot2\cdot2\cdot3\cdot3=2^3\cdot3^2$. B và D còn hợp số; C đảo số mũ ($2^2\cdot3^3=108$).
 
-::mc
+::mc TH
 Có bao nhiêu số nguyên tố nhỏ hơn $20$?
 A. $7$.
 B. $8$.
@@ -415,7 +415,7 @@ D. $10$.
 ::key B
 Đó là $2$; $3$; $5$; $7$; $11$; $13$; $17$; $19$. A quên số $2$; C tính thêm số $1$.
 
-::mc
+::mc TH
 Biết $n=2^2\cdot7$. Số nào sau đây **không** là ước của $n$?
 A. $4$.
 B. $14$.
@@ -424,7 +424,7 @@ D. $28$.
 ::key C
 $n=28$ có các ước $1$; $2$; $4$; $7$; $14$; $28$. Số $8=2^3$ cần ba thừa số $2$, mà $n$ chỉ có hai.
 
-::tf
+::tf TH TH VD TH
 Xét tính đúng sai của các mệnh đề sau:
 a) Mọi số nguyên tố đều là số lẻ.
 b) Số $57$ là hợp số.
@@ -433,12 +433,12 @@ d) $120=2^3\cdot3\cdot5$.
 ::key S Đ Đ Đ
 a) Sai: $2$ là số nguyên tố chẵn. b) Đúng: $57=3\cdot19$. c) Đúng: $31$ là số nguyên tố. d) Đúng: $2^3\cdot3\cdot5=8\cdot15=120$.
 
-::sa
+::sa NB
 Số $2^3\cdot5$ bằng bao nhiêu?
 ::key 40
 $2^3\cdot5=8\cdot5=40$.
 
-::sa
+::sa TH
 Số $210$ có bao nhiêu thừa số nguyên tố khác nhau?
 ::key 4
 $210=2\cdot3\cdot5\cdot7$, có $4$ thừa số nguyên tố khác nhau.

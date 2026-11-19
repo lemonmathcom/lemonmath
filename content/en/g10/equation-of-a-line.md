@@ -406,7 +406,7 @@ c) $BC$ has direction vector $(3, -1)$ and normal vector $(1, 3)$: $(x-5)+3(y-4)
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A normal vector of the line $2x-5y+3=0$ is
 A. $(2, 5)$.
 B. $(5, 2)$.
@@ -415,7 +415,7 @@ D. $(-5, 3)$.
 ::key C
 In $Ax+By+C=0$ the pair of coefficients $(A, B)=(2, -5)$ is a normal vector. Option B is a direction vector; A has the wrong sign.
 
-::mc
+::mc NB
 Parametric equations of the line through $A(1, -2)$ with direction vector $\vec u=(3, 1)$ are
 A. $\begin{cases}x=3+t\\ y=1-2t\end{cases}$.
 B. $\begin{cases}x=1+t\\ y=-2+3t\end{cases}$.
@@ -424,7 +424,7 @@ D. $\begin{cases}x=1+3t\\ y=-2+t\end{cases}$.
 ::key D
 $x=x_0+at$, $y=y_0+bt$ with $(x_0, y_0)=(1, -2)$ and $(a, b)=(3, 1)$. Option A swaps the roles of the point and the vector, B swaps the two coordinates of $\vec u$, and C has the wrong sign of $y_0$.
 
-::mc
+::mc TH
 The gradient of the line $3x+4y-8=0$ is
 A. $\dfrac34$.
 B. $-\dfrac34$.
@@ -433,7 +433,7 @@ D. $2$.
 ::key B
 Solving for $y$: $y=-\dfrac34x+2$, so $k=-\dfrac AB=-\dfrac34$. Option A loses the minus sign; D is the $y$-intercept.
 
-::mc
+::mc VD
 The line through $M(1, 2)$ perpendicular to the line $x-3y+5=0$ is
 A. $x-3y+5=0$.
 B. $3x+y+5=0$.
@@ -442,7 +442,7 @@ D. $3x-y-1=0$.
 ::key C
 The perpendicular line has normal vector $(3, 1)$: $3(x-1)+(y-2)=0\iff 3x+y-5=0$. Option A is parallel to (in fact the same as) the given line; D passes through $M$ but has normal vector $(3, -1)$, so it is not perpendicular.
 
-::tf
+::tf NB TH VD TH
 Consider the line $d: \begin{cases}x=2+t\\ y=-1+2t\end{cases}$.
 a) $d$ passes through the point $A(2, -1)$.
 b) $\vec n=(2, 1)$ is a normal vector of $d$.
@@ -451,12 +451,12 @@ d) $d$ meets the $y$-axis at the point with $y$-coordinate $5$.
 ::key T F T F
 a) True: take $t=0$. b) False: $\vec u=(1, 2)$ and $\vec u\cdot\vec n=4\ne0$; a normal vector is $(2, -1)$. c) True: $2(x-2)-(y+1)=0\iff 2x-y-5=0$. d) False: $x=0$ gives $y=-5$.
 
-::sa
+::sa VD
 The line through $A(-1, 3)$ and $B(2, 9)$ meets the $y$-axis at a point. What is the $y$-coordinate of that point?
 ::key 5
 $\overrightarrow{AB}=(3, 6)=3(1, 2)$, so $\vec n=(2, -1)$: $2(x+1)-(y-3)=0\iff y=2x+5$. Putting $x=0$ gives $y=5$.
 
-::sa
+::sa VD
 On a sea chart (units: km), a ship leaves the point $A(1, 2)$ and every hour covers a displacement given by the vector $\vec v=(3, -1)$. The coastline is the line $x+y-15=0$. After how many hours does the ship reach the coast?
 ::key 6
 After $t$ hours the ship is at $(1+3t, 2-t)$. Substituting into the equation of the coast: $1+3t+2-t-15=0\iff 2t=12\iff t=6$.

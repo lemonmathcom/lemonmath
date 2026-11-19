@@ -264,7 +264,7 @@ So the categories should be combined (or more data collected) before carrying ou
 :::
 
 :::quiz
-::mc
+::mc TH
 Pearson's $r=0.05$ for two variables. This means
 A. a strong positive linear relationship
 B. very little linear relationship
@@ -273,7 +273,7 @@ D. that $x$ causes $y$
 ::key B
 $r$ near $0$ means a weak or no linear relationship.
 
-::mc
+::mc TH
 How many degrees of freedom does a $\chi^2$ test for independence on a $2\times3$ table have?
 A. $6$
 B. $5$
@@ -282,7 +282,7 @@ D. $2$
 ::key D
 $(2-1)(3-1)=2$.
 
-::mc
+::mc TH
 A row total is $60$, a column total is $40$ and the grand total is $120$. The expected frequency is
 A. $20$
 B. $40$
@@ -291,7 +291,7 @@ D. $100$
 ::key A
 $\dfrac{60\times40}{120}=20$.
 
-::mc
+::mc TH
 A test at the $5\%$ level gives a p-value of $0.012$. The conclusion is
 A. do not reject $H_0$
 B. accept $H_0$
@@ -300,7 +300,7 @@ D. the test is invalid
 ::key C
 $0.012<0.05$.
 
-::tf
+::tf TH TH NB NB
 Two judges' rankings give $r_s=-0.9$. Decide whether each statement is true or false.
 a) The judges' rankings tend to be opposite.
 b) The association is strong.
@@ -309,12 +309,12 @@ d) Spearman's coefficient uses ranks.
 ::key T T F T
 $-1\le r_s\le1$.
 
-::sa
+::sa TH
 Find the expected frequency for a row total $60$, column total $30$ and grand total $120$.
 ::key 15
 $\dfrac{60\times30}{120}=15$.
 
-::sa
+::sa NB
 How many degrees of freedom does a goodness-of-fit test with $5$ categories have?
 ::key 4
 $5-1=4$.

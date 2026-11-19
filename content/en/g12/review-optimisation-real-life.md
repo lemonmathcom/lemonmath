@@ -371,7 +371,7 @@ On $\left(0, \dfrac{\pi}{2}\right]$, $\cos\theta+1>0$, so $A'=0\iff\cos\theta=\d
 ## Mini test
 
 :::quiz
-::mc
+::mc VD
 Two positive numbers add up to $12$. The greatest possible product is
 A. $36$.
 B. $6$.
@@ -380,7 +380,7 @@ D. $72$.
 ::key A
 The product is $P(x)=x(12-x)$, $P'(x)=12-2x=0\iff x=6$, $P(6)=36$. Option B is the value of each number, C is $12^2$.
 
-::mc
+::mc TH
 An object moves with $s(t)=t^3-3t^2+4t$ (m). Its acceleration at $t=2$ seconds is
 A. $8$ m/s².
 B. $4$ m/s².
@@ -389,7 +389,7 @@ D. $0$ m/s².
 ::key C
 $v(t)=3t^2-6t+4$, $a(t)=6t-6$, $a(2)=6$. Option B is the velocity $v(2)$; D is the acceleration at $t=1$.
 
-::mc
+::mc VD
 The total cost of making $x$ items is $C(x)=2x^2+50x+800$ (thousand đồng). How many items should be made to minimise the average cost per item?
 A. $10$.
 B. $20$.
@@ -398,7 +398,7 @@ D. $40$.
 ::key B
 $\overline C(x)=2x+50+\dfrac{800}{x}$, $\overline C'(x)=2-\dfrac{800}{x^2}=0\iff x^2=400\iff x=20$. Option C is $x^2$.
 
-::mc
+::mc TH
 $N(t)$ is the number of users of an app (thousands) after $t$ months, and $N'(5)=12$. Which statement is correct?
 A. After $5$ months, the number of users has increased by $12$ thousand in total.
 B. At $5$ months, the number of users is increasing at about $12$ thousand per month.
@@ -407,7 +407,7 @@ D. After $5$ months there are $12$ thousand users.
 ::key B
 The derivative is the instantaneous rate of change at one moment. D confuses it with $N(5)$, C with the average rate, A with the total change.
 
-::tf
+::tf TH TH VD TH
 Mr Ba uses $120$ m of fencing for three sides of a rectangular plot; the fourth side is a river bank and needs no fence. Let $x$ (m) be the length of each side perpendicular to the river.
 a) The constraint on $x$ is $0<x<60$.
 b) The area of the plot is $S(x)=x(120-2x)$.
@@ -416,12 +416,12 @@ d) The greatest area is $3600$ m².
 ::key T T T F
 a) True: the side parallel to the river is $120-2x>0$. b) True. c) True: $S'(x)=120-4x=0\iff x=30$, and $S'$ changes from $+$ to $-$. d) False: $S(30)=30\cdot60=1800$ m².
 
-::sa
+::sa TH
 A ball is thrown upwards with height $h(t)=2+14.7t-4.9t^2$ (m) after $t$ seconds. After how many seconds does the ball reach its greatest height?
 ::key 1.5
 $h'(t)=14.7-9.8t=0\iff t=1.5$, and $h'$ changes from $+$ to $-$.
 
-::sa
+::sa VD
 Four squares of side $x$ cm are cut from the corners of a square sheet of side $12$ cm, which is then folded into an open box. What is the greatest volume of the box, in cm³?
 ::key 128
 $V(x)=x(12-2x)^2$, $0<x<6$; $V'(x)=(12-2x)(12-6x)=0\iff x=2$. $V(2)=2\cdot8^2=128$.

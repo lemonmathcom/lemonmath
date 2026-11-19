@@ -255,7 +255,7 @@ Ta có $x=10{,}2-3{,}75=10{,}20-3{,}75=6{,}45$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $10-4{,}6$ là
 A. $6{,}6$.
 B. $14{,}6$.
@@ -264,7 +264,7 @@ D. $54$.
 ::key C
 $10{,}0-4{,}6=5{,}4$. Phương án A là lỗi lấy $10-4=6$ rồi chép lại $6$; phương án D là lỗi quên dấu phẩy.
 
-::mc
+::mc NB
 Để tính $12{,}4-5{,}78$, em viết $12{,}4$ thành số có hai chữ số thập phân là
 A. $12{,}04$.
 B. $12{,}44$.
@@ -273,7 +273,7 @@ D. $12{,}40$.
 ::key D
 Thêm chữ số $0$ vào bên phải thì giá trị không đổi: $12{,}4=12{,}40$. Phương án A và C làm đổi giá trị của số.
 
-::mc
+::mc TH
 Phép tính nào có kết quả bằng $2{,}5$?
 A. $7{,}9-5{,}4$.
 B. $6{,}2-3{,}8$.
@@ -282,7 +282,7 @@ D. $5{,}5-2{,}5$.
 ::key A
 $7{,}9-5{,}4=2{,}5$. Các phép tính khác lần lượt bằng $2{,}4$; $2{,}6$; $3$.
 
-::mc
+::mc VD
 Trong can có $5$ lít dầu, đã dùng $1{,}75$ lít. Trong can còn lại bao nhiêu lít dầu?
 A. $4{,}75$ lít.
 B. $3{,}25$ lít.
@@ -291,7 +291,7 @@ D. $6{,}75$ lít.
 ::key B
 "Đã dùng" là bớt đi: $5{,}00-1{,}75=3{,}25$. Phương án D là cộng nhầm; phương án C là quên dấu phẩy.
 
-::tf
+::tf NB TH TH TH
 Em xét phép trừ $8{,}3-2{,}45$.
 a) Viết $8{,}3$ thành $8{,}30$ thì giá trị không đổi.
 b) $8{,}3-2{,}45=6{,}15$.
@@ -300,12 +300,12 @@ d) $5{,}85+2{,}45=7{,}3$.
 ::key Đ S Đ S
 a) Đúng: thêm chữ số $0$ ở cuối phần thập phân không đổi giá trị. b) Sai: $8{,}30-2{,}45=5{,}85$. c) Đúng: $5{,}85<6$. d) Sai: $5{,}85+2{,}45=8{,}30$.
 
-::sa
+::sa TH
 Tính $12{,}5-4{,}75$.
 ::key 7,75
 $12{,}50-4{,}75=7{,}75$.
 
-::sa
+::sa VD
 Sợi dây dài $20$ m, cắt đi $3{,}6$ m. Sợi dây còn lại dài bao nhiêu mét?
 ::key 16,4
 $20{,}0-3{,}6=16{,}4$ (m).

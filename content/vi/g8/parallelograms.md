@@ -413,7 +413,7 @@ Vậy tam giác $ADE$ cân tại $D$ và $EC=3$ cm.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hình bình hành $ABCD$ có $AB=7$ cm và $AD=4$ cm. Chu vi bằng
 A. $11$ cm.
 B. $28$ cm.
@@ -422,7 +422,7 @@ D. $14$ cm.
 ::key C
 Chu vi là $2(7+4)=22$ cm. A chỉ cộng hai cạnh kề, B nhân sai, D là $2\cdot7$.
 
-::mc
+::mc NB
 Tính chất nào sau đây đúng với mọi hình bình hành?
 A. Hai đường chéo bằng nhau.
 B. Hai đường chéo vuông góc với nhau.
@@ -431,7 +431,7 @@ D. Hai đường chéo cắt nhau tại trung điểm của mỗi đường.
 ::key D
 Hai đường chéo của hình bình hành cắt nhau tại trung điểm của mỗi đường. A đúng với hình chữ nhật, B đúng với hình thoi, C sai vì hai góc kề bù nhau.
 
-::mc
+::mc NB
 Hình bình hành $ABCD$ có $\widehat{A}=70^\circ$. Góc $\widehat{C}$ bằng
 A. $70^\circ$.
 B. $110^\circ$.
@@ -440,7 +440,7 @@ D. $140^\circ$.
 ::key A
 Hai góc đối bằng nhau nên $\widehat{C}=\widehat{A}=70^\circ$. B là góc $\widehat{B}$, C lấy $90^\circ-70^\circ$, D lấy $2\cdot70^\circ$.
 
-::mc
+::mc TH
 Tứ giác nào sau đây chắc chắn là hình bình hành?
 A. Tứ giác có hai cạnh đối bằng nhau.
 B. Tứ giác có hai cạnh đối song song và bằng nhau.
@@ -449,7 +449,7 @@ D. Tứ giác có hai đường chéo bằng nhau.
 ::key B
 Hai cạnh đối vừa song song vừa bằng nhau là một dấu hiệu nhận biết hình bình hành. A đúng với hình thang cân, D đúng với hình thang cân, C đúng với mọi tứ giác lồi.
 
-::tf
+::tf NB NB TH TH
 Hình bình hành $ABCD$ có hai đường chéo cắt nhau tại $O$, $AC=10$ cm, $BD=6$ cm.
 a) $OA=5$ cm.
 b) $OB=3$ cm.
@@ -458,12 +458,12 @@ d) $AB=BC$.
 ::key Đ Đ Đ S
 a) Đúng: $OA=AC:2=5$. b) Đúng: $OB=BD:2=3$. c) Đúng: hai góc kề nhau bù nhau. d) Sai: hai cạnh kề của hình bình hành không nhất thiết bằng nhau.
 
-::sa
+::sa TH
 Hình bình hành có hai cạnh kề $12$ cm và $9$ cm. Tính chu vi (cm).
 ::key 42
 Chu vi là $2(12+9)=42$ cm.
 
-::sa
+::sa TH
 Hình bình hành $ABCD$ có $AC=14$ cm và $BD=10$ cm, hai đường chéo cắt nhau tại $O$. Tính $OA+OB$ (cm).
 ::key 12
 $OA=7$ cm và $OB=5$ cm nên $OA+OB=12$ cm.

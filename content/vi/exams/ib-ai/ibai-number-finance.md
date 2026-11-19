@@ -271,7 +271,7 @@ Vậy ngân hàng B cho nhiều hơn khoảng $3{,}41$ đô la: việc ghép lã
 :::
 
 :::quiz
-::mc
+::mc TH
 Làm tròn $0{,}0034567$ đến ba chữ số có nghĩa được
 A. $0{,}003$
 B. $0{,}0035$
@@ -280,7 +280,7 @@ D. $0{,}00346$
 ::key D
 Chữ số có nghĩa thứ tư là $6$, làm tròn $5$ lên.
 
-::mc
+::mc TH
 Một độ dài $8$ cm được đo thành $7{,}6$ cm. Sai số phần trăm là
 A. $5\%$
 B. $0{,}4\%$
@@ -289,7 +289,7 @@ D. $95\%$
 ::key A
 $\dfrac{0{,}4}{8}\times100\%=5\%$.
 
-::mc
+::mc TH
 Biểu thức nào cho giá trị của $1000$ đô la sau $3$ năm với lãi suất $4\%$ một năm ghép lãi hằng tháng?
 A. $1000(1{,}04)^{36}$
 B. $1000\left(1+\dfrac{0{,}04}{12}\right)^{36}$
@@ -298,7 +298,7 @@ D. $1000(1+0{,}04\times3)$
 ::key B
 $12$ kì mỗi năm trong $3$ năm, mỗi kì $\dfrac{4}{12}\%$.
 
-::mc
+::mc TH
 Một máy trị giá $8000$ đô la, mỗi năm khấu hao $10\%$. Giá trị sau $2$ năm là
 A. $6400$ đô la
 B. $7200$ đô la
@@ -307,7 +307,7 @@ D. $6560$ đô la
 ::key C
 $8000(0{,}9)^2=6480$.
 
-::tf
+::tf NB TH VD TH
 Một cấp số cộng có $u_1=5$ và $d=3$. Xét tính đúng sai của các mệnh đề sau:
 a) $u_2=8$.
 b) $u_{10}=32$.
@@ -316,12 +316,12 @@ d) Dãy số là cấp số nhân.
 ::key T T T F
 $S_{10}=5(5+32)=185$; các số hạng tăng theo hiệu không đổi, không phải tỉ số không đổi.
 
-::sa
+::sa TH
 Tìm $u_{10}$ của cấp số cộng $3,\ 7,\ 11,\ \dots$
 ::key 39
 $3+9(4)=39$.
 
-::sa
+::sa NB
 Lãi suất năm $6\%$ ghép lãi hằng tháng. Lãi suất mỗi tháng là bao nhiêu phần trăm?
 ::key 0,5
 $\dfrac{6}{12}=0{,}5$.

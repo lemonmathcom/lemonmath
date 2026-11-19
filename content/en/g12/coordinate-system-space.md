@@ -420,7 +420,7 @@ So $M(0, 0, 3)$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 In the system $Oxyz$, the point $M$ satisfies $\overrightarrow{OM}=3\vec{i}-\vec{k}$. The coordinates of $M$ are
 A. $(0, 3, -1)$.
 B. $(3, -1, 0)$.
@@ -429,7 +429,7 @@ D. $(3, 0, 1)$.
 ::key C
 Since the coefficients of $\vec{i}$, $\vec{j}$, $\vec{k}$ are $3$, $0$, $-1$, $M(3, 0, -1)$. Option B forgets that a missing $\vec{j}$ means the y-coordinate is $0$.
 
-::mc
+::mc TH
 The orthogonal projection of the point $A(2, -5, 4)$ onto the plane $(Oyz)$ is
 A. $(2, 0, 0)$.
 B. $(0, -5, 4)$.
@@ -438,7 +438,7 @@ D. $(2, 0, 4)$.
 ::key B
 Since the plane $(Oyz)$ has equation $x=0$, the projection keeps $y$, $z$ and has $x=0$. Option A is the projection onto the axis $Ox$, and option C is the projection onto $(Oxy)$.
 
-::mc
+::mc NB
 Let $A(1, -2, 3)$ and $B(3, 0, -1)$. The midpoint $I$ of the segment $AB$ is
 A. $I(2, 2, -4)$.
 B. $I(1, 1, -2)$.
@@ -447,7 +447,7 @@ D. $I(2, -1, 1)$.
 ::key D
 By the midpoint formula, we have $I\left(\dfrac{1+3}{2}, \dfrac{-2+0}{2}, \dfrac{3-1}{2}\right)$. Option B is $\dfrac12\overrightarrow{AB}$, option C forgets to divide by $2$, and option A is $\overrightarrow{AB}$.
 
-::mc
+::mc TH
 The distance from the point $M(3, -4, 6)$ to the axis $Oz$ is
 A. $5$.
 B. $6$.
@@ -456,7 +456,7 @@ D. $\sqrt{52}$.
 ::key A
 The projection of $M$ onto $Oz$ is $H(0, 0, 6)$, so $MH=\sqrt{3^2+4^2}=5$. Option B is the distance to $(Oxy)$, option C is $OM$, and option D is the distance to the axis $Ox$.
 
-::tf
+::tf NB TH TH VD
 In the system $Oxyz$, let $A(1, 2, -1)$, $B(3, -2, 3)$, $C(-1, 3, 1)$. Decide whether each statement is true or false.
 a) $\overrightarrow{AB}=(2, -4, 4)$.
 b) $AB=6$.
@@ -465,12 +465,12 @@ d) The point $D$ that makes $ABCD$ a parallelogram is $D(-3, 7, -3)$.
 ::key T T F T
 a) True: subtracting the coordinates of the start point from those of the end point gives this result. b) True: we have $AB=\sqrt{4+16+16}=6$. c) False: the centroid is $G(1, 1, 1)$; $(3, 3, 3)$ is the sum of the coordinates before dividing by $3$. d) True: since $ABCD$ is a parallelogram if and only if $\overrightarrow{AB}=\overrightarrow{DC}$, $D=(-1-2, 3+4, 1-4)=(-3, 7, -3)$.
 
-::sa
+::sa VD
 In the system $Oxyz$, let $A(1, 0, 0)$, $B(0, 2, 0)$, $C(0, 0, 2)$. Find the perimeter of triangle $ABC$ (give your answer to 1 decimal place).
 ::key 7.3
 We have $AB=\sqrt{1+4}=\sqrt5$, $AC=\sqrt{1+4}=\sqrt5$, $BC=\sqrt{4+4}=2\sqrt2$. So the perimeter is $2\sqrt5+2\sqrt2\approx7.30$, which rounds to $7.3$.
 
-::sa
+::sa TH
 In a system $Oxyz$ attached to a training ground (unit: metre), two drones are at the points $P(10, 20, 15)$ and $Q(40, -20, 45)$. How far apart are the drones, in metres (give your answer to 1 decimal place)?
 ::key 58.3
 We have $\overrightarrow{PQ}=(30, -40, 30)$, so $PQ=\sqrt{900+1600+900}=\sqrt{3400}\approx58.31$, which rounds to $58.3$ m.

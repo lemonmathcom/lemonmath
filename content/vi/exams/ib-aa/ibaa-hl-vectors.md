@@ -182,7 +182,7 @@ $\begin{pmatrix}1-t\\2-t\\3-t\end{pmatrix}\cdot\begin{pmatrix}1\\1\\1\end{pmatri
 :::
 
 :::quiz
-::mc
+::mc TH
 Độ dài của $\begin{pmatrix}2\\-1\\2\end{pmatrix}$ bằng
 A. $\sqrt5$
 B. $9$
@@ -191,7 +191,7 @@ D. $5$
 ::key C
 $\sqrt{4+1+4}=3$.
 
-::mc
+::mc TH
 $\begin{pmatrix}1\\2\\3\end{pmatrix}\cdot\begin{pmatrix}4\\-1\\0\end{pmatrix}$ bằng
 A. $2$
 B. $6$
@@ -200,7 +200,7 @@ D. $4$
 ::key A
 $4-2+0=2$.
 
-::mc
+::mc TH
 Véc-tơ nào là véc-tơ chỉ phương của đường thẳng qua $(1,1,1)$ và $(3,0,5)$?
 A. $\begin{pmatrix}4\\1\\6\end{pmatrix}$
 B. $\begin{pmatrix}3\\0\\5\end{pmatrix}$
@@ -209,7 +209,7 @@ D. $\begin{pmatrix}2\\-1\\4\end{pmatrix}$
 ::key D
 Lấy hiệu hai véc-tơ vị trí.
 
-::mc
+::mc NB
 Véc-tơ pháp tuyến của mặt phẳng $3x-2y+z=7$ là
 A. $\begin{pmatrix}3\\-2\\7\end{pmatrix}$
 B. $\begin{pmatrix}3\\-2\\1\end{pmatrix}$
@@ -218,7 +218,7 @@ D. $\begin{pmatrix}7\\0\\0\end{pmatrix}$
 ::key B
 Các hệ số của $x$, $y$, $z$.
 
-::tf
+::tf TH TH TH TH
 Cho $\boldsymbol a=\begin{pmatrix}1\\0\\0\end{pmatrix}$ và $\boldsymbol b=\begin{pmatrix}0\\1\\0\end{pmatrix}$.
 a) $\boldsymbol a\cdot\boldsymbol b=0$.
 b) $\boldsymbol a\times\boldsymbol b=\begin{pmatrix}0\\0\\1\end{pmatrix}$.
@@ -227,12 +227,12 @@ d) $\boldsymbol b\times\boldsymbol a=\begin{pmatrix}0\\0\\1\end{pmatrix}$.
 ::key T T T F
 a) Đúng. b) Đúng. c) Đúng. d) Sai: $\boldsymbol b\times\boldsymbol a=-\boldsymbol a\times\boldsymbol b$.
 
-::sa
+::sa TH
 Tính diện tích hình bình hành tạo bởi $\begin{pmatrix}3\\0\\0\end{pmatrix}$ và $\begin{pmatrix}0\\4\\0\end{pmatrix}$.
 ::key 12
 Hai véc-tơ vuông góc, nên diện tích bằng $3\cdot4$.
 
-::sa
+::sa TH
 Tìm $k$ để $\begin{pmatrix}2\\k\\1\end{pmatrix}$ vuông góc với $\begin{pmatrix}1\\1\\-4\end{pmatrix}$.
 ::key 2
 $2+k-4=0$.

@@ -387,7 +387,7 @@ $$r=\sqrt{40{,}96-5{,}12^2}=\sqrt{14{,}7456}=3{,}84.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Trong không gian $Oxyz$, mặt cầu $(x+1)^2+(y-2)^2+z^2=4$ có tâm và bán kính là
 A. $I(1; -2; 0)$, $R=2$.
 B. $I(-1; 2; 0)$, $R=2$.
@@ -396,7 +396,7 @@ D. $I(1; -2; 0)$, $R=4$.
 ::key B
 $x+1=x-(-1)$ nên $a=-1$; $R^2=4$ nên $R=2$. Phương án A sai dấu toạ độ tâm, C và D lấy $R$ bằng $R^2$.
 
-::mc
+::mc TH
 Bán kính của mặt cầu $x^2+y^2+z^2-2x+4y-6z+5=0$ bằng
 A. $9$.
 B. $\sqrt{19}$.
@@ -405,7 +405,7 @@ D. $\sqrt{14}$.
 ::key C
 $a=1$, $b=-2$, $c=3$, $d=5$: $R^2=1+4+9-5=9$, $R=3$. Phương án A quên lấy căn, B cộng $d$ thay vì trừ, D quên $d$.
 
-::mc
+::mc TH
 Phương trình nào sau đây là phương trình của một mặt cầu?
 A. $x^2+y^2+z^2-2x+4y+6=0$.
 B. $x^2+y^2+z^2-4x+2z+1=0$.
@@ -414,7 +414,7 @@ D. $x^2+y^2-z^2+2x=0$.
 ::key B
 B có $a^2+b^2+c^2-d=4+0+1-1=4>0$. A có $1+4-6<0$; C và D có hệ số của $x^2$, $y^2$, $z^2$ không bằng nhau.
 
-::mc
+::mc VD
 Mặt cầu tâm $I(1; 0; -2)$ tiếp xúc với mặt phẳng $(P): 2x-y+2z+8=0$ có phương trình là
 A. $(x-1)^2+y^2+(z+2)^2=4$.
 B. $(x-1)^2+y^2+(z+2)^2=2$.
@@ -423,7 +423,7 @@ D. $(x-1)^2+y^2+(z+2)^2=36$.
 ::key A
 $R=d(I, (P))=\dfrac{|2-0-4+8|}{3}=2$, nên $R^2=4$. Phương án B quên bình phương, C sai dấu tâm, D quên chia cho $3$.
 
-::tf
+::tf TH TH TH VD
 Cho mặt cầu $(S): x^2+y^2+z^2-2x-4y+4z=0$.
 a) $(S)$ có tâm $I(1; 2; -2)$.
 b) $(S)$ có bán kính bằng $9$.
@@ -432,12 +432,12 @@ d) Mặt phẳng $(P): x+2y-2z-18=0$ tiếp xúc với $(S)$.
 ::key Đ S Đ Đ
 a) Đúng: $a=1$, $b=2$, $c=-2$. b) Sai: $R^2=1+4+4-0=9$, $R=3$. c) Đúng: $d=0$ nên $O$ thoả mãn phương trình. d) Đúng: $d(I, (P))=\dfrac{|1+4+4-18|}{3}=3=R$.
 
-::sa
+::sa TH
 Mặt cầu có đường kính $AB$ với $A(1; 2; 3)$, $B(3; -2; -1)$ có bán kính bằng bao nhiêu?
 ::key 3
 $AB=\sqrt{4+16+16}=6$, nên $R=3$. Nhầm lẫn thường gặp là lấy $R=AB=6$.
 
-::sa
+::sa VD
 Mặt phẳng $z=1$ cắt mặt cầu $(x-1)^2+(y+2)^2+(z-4)^2=25$ theo một đường tròn. Tính diện tích hình tròn đó (làm tròn đến hàng phần mười).
 ::key 50,3
 $h=|1-4|=3$, $r=\sqrt{25-9}=4$, diện tích $16\pi\approx50{,}27$, làm tròn được $50{,}3$.

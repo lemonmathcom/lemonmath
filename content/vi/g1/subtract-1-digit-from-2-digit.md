@@ -243,7 +243,7 @@ Hàng đơn vị: $7-5=2$. Hàng chục là $3$, nên số cần điền là $37
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $47-5$ là
 A. $42$.
 B. $52$.
@@ -252,7 +252,7 @@ D. $43$.
 ::key A
 $7-5=2$ và hàng chục là $4$, nên $47-5=42$. Phương án B là lỗi cộng thay vì trừ, C là lỗi quên hàng chục.
 
-::mc
+::mc TH
 Kết quả của $68-8$ là
 A. $6$.
 B. $60$.
@@ -261,7 +261,7 @@ D. $70$.
 ::key B
 $8-8=0$ và hàng chục là $6$, nên $68-8=60$. Phương án A là lỗi quên hàng chục, C là lỗi cộng thay vì trừ.
 
-::mc
+::mc TH
 Phép tính nào có kết quả bằng $52$?
 A. $57-6$.
 B. $59-6$.
@@ -270,7 +270,7 @@ D. $58-5$.
 ::key C
 $58-6=52$. Các phép tính khác lần lượt bằng $53$, $51$, $53$.
 
-::mc
+::mc TH
 Linh có $29$ con tem, Linh tặng bạn $5$ con. Hỏi Linh còn lại bao nhiêu con tem?
 A. $14$ con.
 B. $34$ con.
@@ -279,7 +279,7 @@ D. $24$ con.
 ::key D
 "Tặng bạn", "còn lại" là bớt đi: $29-5=24$. Phương án B là lấy $29+5$, nhầm sang phép cộng.
 
-::tf
+::tf NB TH TH TH
 Em xét phép trừ $76-4$.
 a) Số $76$ có $7$ chục.
 b) Hàng đơn vị: $6-4=2$.
@@ -288,12 +288,12 @@ d) $76-4$ nhỏ hơn $75$.
 ::key Đ Đ S Đ
 a) Đúng: $76$ có $7$ chục và $6$ đơn vị. b) Đúng: $6-4=2$. c) Sai: hàng chục giữ nguyên là $7$, nên $76-4=72$. d) Đúng: $72<75$.
 
-::sa
+::sa TH
 Tính $89-7$.
 ::key 82
 $9-7=2$ và hàng chục là $8$, nên $89-7=82$.
 
-::sa
+::sa TH
 Cây có $58$ quả, hái đi $6$ quả. Trên cây còn lại bao nhiêu quả?
 ::key 52
 $58-6=52$ (quả).

@@ -455,7 +455,7 @@ So $15$ students chose Maths and $13$ students ($26\%$) chose other subjects.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Which of the following is quantitative data?
 A. Favourite colour of shirt.
 B. Number of brothers and sisters of each student.
@@ -464,7 +464,7 @@ D. Telephone number of each student.
 ::key B
 The number of siblings is a count. A and C are names, and D is a number used only as a label, so it is qualitative data.
 
-::mc
+::mc TH
 To follow how the outdoor temperature changes hour by hour during a day, we should use
 A. a table with only the total.
 B. a pie chart.
@@ -473,7 +473,7 @@ D. a pictogram.
 ::key C
 A line graph shows a trend over time. A pie chart shows only the proportions of a whole.
 
-::mc
+::mc TH
 The test marks (out of $10$) of five students are $8$; $7.5$; $9$; $11$; $6$. The value that is not reasonable is
 A. $7.5$.
 B. $9$.
@@ -482,7 +482,7 @@ D. $11$.
 ::key D
 The highest mark is $10$, so $11$ is not reasonable; the other values lie between $0$ and $10$.
 
-::mc
+::mc TH
 In a pie chart, one group makes up $25\%$. The angle of its sector is
 A. $90^\circ$.
 B. $25^\circ$.
@@ -491,7 +491,7 @@ D. $250^\circ$.
 ::key A
 $25\%\cdot360^\circ=90^\circ$. A confuses percentages with degrees, D multiplies by $10$.
 
-::tf
+::tf TH TH TH NB
 A survey of $40$ students about their favourite sport gives: Football $14$, Badminton $10$, Basketball $6$, Swimming $6$, Other $4$. Decide whether each statement is true or false.
 a) Favourite sport is quantitative data.
 b) The relative frequency of Football is $35\%$.
@@ -500,12 +500,12 @@ d) The relative frequencies add up to $100\%$.
 ::key F T T T
 a) False: the names of sports are qualitative data. b) True: $\dfrac{14}{40}=35\%$. c) True: $\dfrac{10}{40}\cdot360^\circ=90^\circ$. d) True: the groups cover everything without overlap.
 
-::sa
+::sa VD
 In a survey of $40$ students, $14$ chose Football. In a pie chart, what is the angle of the Football sector in degrees?
 ::key 126
 $\dfrac{14}{40}\cdot360^\circ=126^\circ$.
 
-::sa
+::sa TH
 A family spends $15\%$ of $15$ million dong on education. How many million dong is that?
 ::key 2.25
 $15\cdot0.15=2.25$ (million dong).

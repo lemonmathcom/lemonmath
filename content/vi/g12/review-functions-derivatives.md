@@ -410,7 +410,7 @@ $y'=3ax^2+2bx+c$. Từ $y(0)=2$ và $y'(0)=0$: $d=2$, $c=0$. Từ $y'(2)=0$: $12
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hàm số $y=f(x)$ có đạo hàm $f'(x)=(x-1)(x+3)$. Hàm số đồng biến trên khoảng nào dưới đây?
 A. $(-3; 1)$.
 B. $(1; +\infty)$.
@@ -419,7 +419,7 @@ D. $(-3; +\infty)$.
 ::key B
 $f'(x)>0\iff x<-3$ hoặc $x>1$. Phương án A là khoảng hàm số nghịch biến; C và D chứa một phần của $(-3; 1)$, nơi $f'<0$.
 
-::mc
+::mc TH
 Đồ thị hàm số $y=\dfrac{x+2}{x^2-4}$ có bao nhiêu tiệm cận đứng?
 A. $2$.
 B. $3$.
@@ -428,7 +428,7 @@ D. $1$.
 ::key D
 Với $x\ne-2$, $y=\dfrac{1}{x-2}$; khi $x\to-2$, $y\to-\dfrac14$ nên $x=-2$ không phải tiệm cận đứng. Chỉ còn $x=2$. Phương án A quên rút gọn.
 
-::mc
+::mc VD
 Giá trị lớn nhất của hàm số $y=-x^3+3x+1$ trên đoạn $[0; 2]$ bằng
 A. $3$.
 B. $1$.
@@ -437,7 +437,7 @@ D. $2$.
 ::key A
 $y'=-3x^2+3=0\iff x=1$ (loại $-1$). $y(0)=1$, $y(1)=3$, $y(2)=-1$. Phương án B là $y(0)$, phương án C là giá trị nhỏ nhất.
 
-::mc
+::mc NB
 Hàm số $y=f(x)$ có bảng biến thiên:
 
 | $x$ | $-\infty$ | | $-1$ | | $1$ | | $+\infty$ |
@@ -453,7 +453,7 @@ D. $4$.
 ::key C
 $f'$ đổi dấu từ $-$ sang $+$ tại $x=1$, giá trị cực tiểu là $f(1)=0$. Phương án B là điểm cực tiểu, D là giá trị cực đại, A là điểm cực đại.
 
-::tf
+::tf NB TH TH VD
 Cho hàm số $f(x)=x^4-2x^2+3$.
 a) $f'(x)=4x^3-4x$.
 b) Hàm số có ba điểm cực trị.
@@ -462,12 +462,12 @@ d) Giá trị nhỏ nhất của hàm số trên $\mathbb{R}$ bằng $2$.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng: $f'=4x(x-1)(x+1)$ đổi dấu qua ba nghiệm. c) Sai: cực đại tại $x=0$, giá trị $3$; số $2$ là giá trị cực tiểu. d) Đúng: $f(\pm1)=2$ và $f(x)-2=(x^2-1)^2\ge0$.
 
-::sa
+::sa TH
 Hai đường tiệm cận của đồ thị hàm số $y=\dfrac{2x+1}{x-3}$ cắt nhau tại điểm $I(a; b)$. Tính $a+b$.
 ::key 5
 Tiệm cận đứng $x=3$, tiệm cận ngang $y=2$, nên $I(3; 2)$ và $a+b=5$.
 
-::sa
+::sa VD
 Gọi $M$, $m$ là giá trị lớn nhất và nhỏ nhất của $y=x+\dfrac1x$ trên đoạn $\left[\dfrac12; 3\right]$. Tính $M+m$ (làm tròn kết quả đến hàng phần mười).
 ::key 5,3
 $y'=1-\dfrac{1}{x^2}=0\iff x=1$. $y\left(\dfrac12\right)=2{,}5$, $y(1)=2$, $y(3)=\dfrac{10}{3}$. Vậy $M+m=\dfrac{10}{3}+2=\dfrac{16}{3}\approx5{,}3$.

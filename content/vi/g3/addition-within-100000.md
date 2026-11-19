@@ -342,7 +342,7 @@ $$98\,765-10\,234=88\,531.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $34\,567+28\,785$ là
 A. $63\,352$.
 B. $52\,242$.
@@ -351,7 +351,7 @@ D. $5\,782$.
 ::key A
 $7+5=12$, viết $2$ nhớ $1$; $6+8+1=15$, viết $5$ nhớ $1$; $5+7+1=13$, viết $3$ nhớ $1$; $4+8+1=13$, viết $3$ nhớ $1$; $3+2+1=6$. Phương án B quên nhớ ở mọi hàng, phương án C quên một lần nhớ, phương án D là phép trừ.
 
-::mc
+::mc TH
 Kết quả của $90\,000-36\,275$ là
 A. $66\,275$.
 B. $53\,725$.
@@ -360,7 +360,7 @@ D. $126\,275$.
 ::key B
 $10-5=5$ nhớ $1$; $10-8=2$ nhớ $1$; $10-3=7$ nhớ $1$; $10-7=3$ nhớ $1$; $9-4=5$. Phương án A lấy số lớn trừ số bé ở mỗi hàng, phương án C quên một lần nhớ, phương án D là phép cộng.
 
-::mc
+::mc TH
 Một cửa hàng có $82\,500$ chiếc bút, đã bán $47\,800$ chiếc. Cửa hàng còn lại
 A. $130\,300$ chiếc.
 B. $35\,700$ chiếc.
@@ -369,7 +369,7 @@ D. $45\,300$ chiếc.
 ::key C
 "Còn lại" là phép trừ: $82\,500-47\,800=34\,700$. Phương án A là phép cộng, phương án B quên một lần nhớ, phương án D lấy số lớn trừ số bé ở mỗi hàng.
 
-::mc
+::mc TH
 Tổng của $45\,906$ và $38\,094$ là
 A. $74\,000$.
 B. $73\,990$.
@@ -378,7 +378,7 @@ D. $84\,000$.
 ::key D
 $6+4=10$, viết $0$ nhớ $1$; $0+9+1=10$, viết $0$ nhớ $1$; $9+0+1=10$, viết $0$ nhớ $1$; $5+8+1=14$, viết $4$ nhớ $1$; $4+3+1=8$. Phương án A quên nhớ ở hàng chục nghìn, phương án B quên nhớ ở mọi hàng, phương án C là phép trừ.
 
-::tf
+::tf TH TH TH TH
 Em xét phép trừ $52\,304-18\,765$.
 a) Ở hàng đơn vị, ta lấy $14-5=9$, viết $9$ nhớ $1$.
 b) $52\,304-18\,765=33\,539$.
@@ -387,12 +387,12 @@ d) Hiệu nhỏ hơn $30\,000$.
 ::key Đ Đ S S
 a) Đúng: $4$ không trừ được $5$ nên lấy $14-5=9$. b) Đúng: kết quả tính ở ví dụ. c) Sai: $33\,539+18\,765=52\,304$. d) Sai: $33\,539>30\,000$.
 
-::sa
+::sa VD
 Tính tổng các chữ số của kết quả phép cộng $25\,000+37\,500$.
 ::key 13
 $25\,000+37\,500=62\,500$. Tổng các chữ số là $6+2+5+0+0=13$.
 
-::sa
+::sa TH
 Tính $80\,000-76\,500$.
 ::key 3500
 $80\,000-76\,500=3\,500$.

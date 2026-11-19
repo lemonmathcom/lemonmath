@@ -493,7 +493,7 @@ So $x\in\{-5;-4\}$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The lowest common denominator for the fractions $\dfrac{5}{6}$ and $\dfrac{3}{8}$ is
 A. $48$.
 B. $24$.
@@ -502,7 +502,7 @@ D. $2$.
 ::key B
 $\text{LCM}(6, 8)=24$. A is the product of the denominators (a common denominator, but not the lowest); C is their sum; D is their HCF.
 
-::mc
+::mc TH
 Which of these statements is true?
 A. $\dfrac{-3}{5}>\dfrac{-2}{5}$.
 B. $\dfrac{-1}{2}>\dfrac{1}{3}$.
@@ -511,7 +511,7 @@ D. $0<\dfrac{-1}{9}$.
 ::key C
 Same positive denominator $7$, and $-5<-3$. A compares negative numerators like natural numbers; B and D make a negative fraction larger than a non-negative number.
 
-::mc
+::mc TH
 Written as a mixed number, the fraction $\dfrac{19}{4}$ is
 A. $4\dfrac{3}{4}$.
 B. $4\dfrac{1}{4}$.
@@ -520,7 +520,7 @@ D. $5\dfrac{1}{4}$.
 ::key A
 $19:4=4$ remainder $3$, so $\dfrac{19}{4}=4\dfrac34$. B has the wrong remainder; C has the wrong whole-number part; D takes one whole too many.
 
-::mc
+::mc VD
 Of the fractions $\dfrac{2}{3}$; $\dfrac{5}{8}$; $\dfrac{7}{12}$; $\dfrac{3}{4}$, the largest is
 A. $\dfrac{2}{3}$.
 B. $\dfrac{5}{8}$.
@@ -529,7 +529,7 @@ D. $\dfrac{3}{4}$.
 ::key D
 With denominator $24$: $\dfrac{16}{24}$; $\dfrac{15}{24}$; $\dfrac{14}{24}$; $\dfrac{18}{24}$. The largest numerator is $18$, which belongs to $\dfrac34$.
 
-::tf
+::tf TH VD TH TH
 Decide whether each statement is true or false.
 a) Of two positive fractions with the same numerator, the one with the larger denominator is larger.
 b) $\dfrac{-7}{8}>\dfrac{-5}{6}$.
@@ -538,12 +538,12 @@ d) $2\dfrac{1}{5}=\dfrac{11}{5}$.
 ::key F F T T
 a) False: for example, $\dfrac13<\dfrac12$ although $3>2$; splitting into more parts makes each part smaller. b) False: $\dfrac{-21}{24}<\dfrac{-20}{24}$. c) True: negative numbers are less than $0$ and positive numbers are greater than $0$. d) True: $\dfrac{2\cdot5+1}{5}=\dfrac{11}{5}$.
 
-::sa
+::sa TH
 Given that $5\dfrac{2}{3}=\dfrac{x}{3}$, find the natural number $x$.
 ::key 17
 $5\dfrac23=\dfrac{5\cdot3+2}{3}=\dfrac{17}{3}$, so $x=17$.
 
-::sa
+::sa VD
 How many integers $x$ satisfy $\dfrac{1}{3}<\dfrac{x}{6}<\dfrac{3}{2}$?
 ::key 6
 With denominator $6$: $\dfrac26<\dfrac{x}{6}<\dfrac96$, so $2<x<9$. The integers are $3$; $4$; $5$; $6$; $7$; $8$, six in all.

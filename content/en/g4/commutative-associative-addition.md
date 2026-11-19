@@ -331,7 +331,7 @@ $$(1+9)+(2+8)+(3+7)+(4+6)+5=10+10+10+10+5=45.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The right number to write in $245+138=138+\ \ldots$ is
 A. $138$.
 B. $383$.
@@ -340,7 +340,7 @@ D. $245$.
 ::key D
 By the commutative property, $245+138=138+245$. Option A repeats an addend that is already there, option B is the sum $245+138$, and option C is the difference $245-138$.
 
-::mc
+::mc TH
 The value of $38+47+62$ is
 A. $147$.
 B. $100$.
@@ -349,7 +349,7 @@ D. $157$.
 ::key A
 $38+62=100$ and then $100+47=147$. Option B forgets the addend $47$, and options C and D make a mistake in the last step.
 
-::mc
+::mc VD
 Work out in a convenient way: $25+38+75+62$.
 A. $100$.
 B. $200$.
@@ -358,7 +358,7 @@ D. $300$.
 ::key B
 $25+75=100$ and $38+62=100$, so the sum is $100+100=200$. Option A adds only one pair, and options C and D are wrong calculations.
 
-::mc
+::mc TH
 Which of these statements is false?
 A. $a+b=b+a$.
 B. $(a+b)+c=a+(b+c)$.
@@ -367,7 +367,7 @@ D. $a+0=a$.
 ::key C
 Subtraction is not commutative; for example $8-3=5$, but $3-8$ cannot be worked out. Statements A, B and D are all true.
 
-::tf
+::tf TH TH NB NB
 Look at the sum $125+267+75$.
 a) $125+267+75=(125+75)+267$.
 b) $125+267+75=457$.
@@ -376,12 +376,12 @@ d) $(125+267)+75=125+(267+75)$.
 ::key T F T T
 a) True: swap and group the addends. b) False: $125+267+75=467$. c) True: the commutative property. d) True: the associative property.
 
-::sa
+::sa TH
 Calculate quickly: $125+267+75$.
 ::key 467
 $(125+75)+267=200+267=467$.
 
-::sa
+::sa VD
 Calculate quickly: $19+48+81+52$.
 ::key 200
 $19+81=100$ and $48+52=100$, so the sum is $100+100=200$.

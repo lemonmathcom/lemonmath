@@ -22,7 +22,7 @@ Taking a full exam under exam conditions is the best rehearsal there is. You fin
 ## Section I: multiple choice
 
 :::quiz test
-::mc
+::mc TH
 The annual incomes in a town are strongly skewed right. Which measure best describes a typical income?
 A. The mean
 B. The median
@@ -31,7 +31,7 @@ D. The standard deviation
 ::key B
 The median is resistant to the few very large incomes that pull the mean up.
 
-::mc
+::mc VD
 What is the interquartile range of the data $4,\ 7,\ 8,\ 10,\ 11,\ 13,\ 30$?
 A. $26$
 B. $9$
@@ -40,7 +40,7 @@ D. $6$
 ::key D
 The median is $10$; $Q_1=7$ (median of $4,7,8$) and $Q_3=13$ (median of $11,13,30$), so $\text{IQR}=6$.
 
-::mc
+::mc VD
 A data set has $Q_1=20$ and $Q_3=32$. By the $1.5\times\text{IQR}$ rule, which value is an outlier?
 A. $52$
 B. $45$
@@ -49,7 +49,7 @@ D. $14$
 ::key A
 $\text{IQR}=12$, so the fences are $20-18=2$ and $32+18=50$; only $52$ is beyond a fence.
 
-::mc
+::mc TH
 A test has mean $80$ and standard deviation $4$. What is the z-score of a score of $74$?
 A. $1.5$
 B. $-6$
@@ -58,7 +58,7 @@ D. $-0.67$
 ::key C
 $z=\dfrac{74-80}{4}=-1.5$.
 
-::mc
+::mc TH
 Two classes have the same mean score, $70$, but class A has standard deviation $5$ and class B has standard deviation $12$. Which statement is correct?
 A. Scores in class B are more variable than in class A.
 B. Scores in class A are higher than in class B.
@@ -67,7 +67,7 @@ D. Scores in class A are more variable than in class B.
 ::key A
 The standard deviation measures variability; the centres are equal.
 
-::mc
+::mc TH
 The largest value of a data set is an extreme outlier and is removed. What happens to the mean and the median?
 A. Both decrease by the same amount.
 B. The median decreases noticeably; the mean changes little.
@@ -76,7 +76,7 @@ D. The mean decreases noticeably; the median changes little.
 ::key D
 The mean is pulled by extreme values; the median is resistant.
 
-::mc
+::mc TH
 A school randomly selects $10$ of its $50$ homerooms and surveys every student in them. This is
 A. a stratified random sample
 B. a cluster sample
@@ -85,7 +85,7 @@ D. a systematic sample
 ::key B
 Whole groups are chosen at random and everyone in them is measured.
 
-::mc
+::mc TH
 A radio show asks listeners to call in and say whether they support a new tax. Which bias is most likely?
 A. Nonresponse bias
 B. Response bias from wording
@@ -94,7 +94,7 @@ D. No bias, since the sample is large
 ::key C
 Listeners choose themselves; people with strong opinions are more likely to call.
 
-::mc
+::mc NB
 Which study design allows a conclusion about cause and effect?
 A. A randomized comparative experiment
 B. A large observational study
@@ -103,7 +103,7 @@ D. A census
 ::key A
 Random assignment of treatments makes the groups comparable.
 
-::mc
+::mc TH
 In an experiment on fertilizers, plots are first grouped by soil type and the fertilizers are then randomly assigned within each group. The main purpose of grouping is to
 A. increase the number of treatments
 B. allow generalization to all farms
@@ -112,7 +112,7 @@ D. reduce variability in the response caused by soil type
 ::key D
 Blocking by soil type removes its effect from the comparison of treatments.
 
-::mc
+::mc TH
 Which is a statistical investigative question?
 A. How many minutes did Minh spend travelling to school today?
 B. How many minutes do students at our school typically spend travelling to school?
@@ -121,7 +121,7 @@ D. At what time does the first lesson start?
 ::key B
 It asks about a group and is answered with data that vary.
 
-::mc
+::mc VD
 Events $A$ and $B$ are independent with $P(A)=0.5$ and $P(B)=0.3$. What is $P(A\text{ or }B)$?
 A. $0.80$
 B. $0.15$
@@ -130,7 +130,7 @@ D. $0.50$
 ::key C
 $P(A\text{ and }B)=0.15$, so $0.5+0.3-0.15=0.65$.
 
-::mc
+::mc VD
 Of $100$ adults under $30$, $40$ prefer tea; of $200$ adults aged $30$ or over, $80$ prefer tea. A randomly chosen adult from these $300$ prefers tea. What is the probability that the adult is under $30$?
 A. $0.333$
 B. $0.400$
@@ -139,7 +139,7 @@ D. $0.500$
 ::key A
 Among the $120$ tea drinkers, $40$ are under $30$: $\dfrac{40}{120}\approx0.333$.
 
-::mc
+::mc TH
 Questions 14–16 refer to the following. A machine produces parts, $10\%$ of which are defective, independently of each other. Let $X$ be the number of defective parts in a random sample of $8$ parts. What is $P(X=0)$?
 A. $0.900$
 B. $0.570$
@@ -148,7 +148,7 @@ D. $0.100$
 ::key C
 $P(X=0)=(0.9)^8\approx0.430$.
 
-::mc
+::mc TH
 Questions 14–16 refer to the following. A machine produces parts, $10\%$ of which are defective, independently of each other. Let $X$ be the number of defective parts in a random sample of $8$ parts. What is the mean of $X$?
 A. $0.1$
 B. $0.8$
@@ -157,7 +157,7 @@ D. $0.72$
 ::key B
 $\mu_X=np=8(0.1)=0.8$. The value $0.72$ is the variance $np(1-p)$.
 
-::mc
+::mc VD
 Questions 14–16 refer to the following. A machine produces parts, $10\%$ of which are defective, independently of each other. Let $X$ be the number of defective parts in a random sample of $8$ parts. What is the probability that at least one part is defective?
 A. $0.430$
 B. $0.800$
@@ -166,7 +166,7 @@ D. $0.570$
 ::key D
 $P(X\ge1)=1-P(X=0)\approx1-0.430=0.570$.
 
-::mc
+::mc TH
 A random variable takes the values $0,1,2,3$ with probabilities $0.1,\ 0.3,\ 0.4,\ 0.2$. What is its mean?
 A. $1.7$
 B. $1.5$
@@ -175,7 +175,7 @@ D. $0.25$
 ::key A
 $0(0.1)+1(0.3)+2(0.4)+3(0.2)=1.7$.
 
-::mc
+::mc VD
 A variable is normally distributed with mean $50$ and standard deviation $8$. What proportion of values are less than $62$?
 A. $0.0668$
 B. $0.9332$
@@ -184,7 +184,7 @@ D. $0.9772$
 ::key B
 $z=\dfrac{62-50}{8}=1.5$ and $P(Z<1.5)\approx0.9332$.
 
-::mc
+::mc TH
 A population has standard deviation $20$. What is the standard deviation of $\bar x$ for random samples of size $100$?
 A. $20$
 B. $0.2$
@@ -193,7 +193,7 @@ D. $5$
 ::key C
 $\dfrac{20}{\sqrt{100}}=2$.
 
-::mc
+::mc VD
 In a population, $p=0.04$. What is the smallest of these sample sizes for which the large counts condition holds for $\hat p$?
 A. $100$
 B. $150$
@@ -202,7 +202,7 @@ D. $250$
 ::key D
 We need $np\ge10$: $250(0.04)=10$, while $200(0.04)=8$.
 
-::mc
+::mc VD
 In a random sample of $400$ voters, $45\%$ support a proposal. Which is a $95\%$ confidence interval for the proportion of all voters who support it?
 A. $0.45\pm0.025$
 B. $0.45\pm0.098$
@@ -211,7 +211,7 @@ D. $0.45\pm0.041$
 ::key C
 $1.96\sqrt{\dfrac{0.45(0.55)}{400}}\approx1.96(0.0249)\approx0.049$. The value $0.025$ omits $z^*$, and $0.041$ uses $z^*=1.645$.
 
-::mc
+::mc TH
 What does "$95\%$ confidence" mean for a confidence interval?
 A. About $95\%$ of intervals built this way from many samples capture the true parameter.
 B. There is a $95\%$ probability that the sample statistic is in the interval.
@@ -220,7 +220,7 @@ D. The parameter changes $5\%$ of the time.
 ::key A
 The confidence level describes the long-run success rate of the method.
 
-::mc
+::mc TH
 A company claims that more than $30\%$ of its customers are under $25$. Which hypotheses test the claim?
 A. $H_0:p>0.3$, $H_a:p=0.3$
 B. $H_0:p=0.3$, $H_a:p>0.3$
@@ -229,7 +229,7 @@ D. $H_0:p=0.3$, $H_a:p\ne0.3$
 ::key B
 The claim needing evidence goes in $H_a$, and hypotheses are about $p$.
 
-::mc
+::mc TH
 In a test of $H_0:p=0.5$ with $n=100$, the sample proportion is $0.55$. What is the test statistic?
 A. $z=0.10$
 B. $z=2.00$
@@ -238,7 +238,7 @@ D. $z=1.00$
 ::key D
 $z=\dfrac{0.55-0.5}{\sqrt{0.5(0.5)/100}}=\dfrac{0.05}{0.05}=1.00$.
 
-::mc
+::mc TH
 A test gives a P-value of $0.08$ with $\alpha=0.05$. The correct conclusion is
 A. fail to reject $H_0$; there is not convincing evidence for $H_a$
 B. reject $H_0$; there is convincing evidence for $H_a$
@@ -247,7 +247,7 @@ D. reject $H_a$; $H_0$ is true
 ::key A
 $0.08>0.05$, so we fail to reject $H_0$; this does not prove $H_0$.
 
-::mc
+::mc TH
 A factory tests $H_0$: the defect rate is $2\%$, against $H_a$: the rate is higher than $2\%$. Which describes a Type II error?
 A. Concluding the rate is higher when it really is $2\%$
 B. Concluding the rate is $2\%$ when it really is $2\%$
@@ -256,7 +256,7 @@ D. Concluding the rate is higher when it really is higher
 ::key C
 A Type II error is failing to reject a false $H_0$.
 
-::mc
+::mc VD
 What is the smallest sample size for a $95\%$ confidence interval for $p$ with margin of error at most $0.05$, with no prior estimate?
 A. $384$
 B. $385$
@@ -265,7 +265,7 @@ D. $196$
 ::key B
 $n\ge\left(\dfrac{1.96}{0.05}\right)^2(0.25)=384.16$; round up to $385$.
 
-::mc
+::mc TH
 A $95\%$ confidence interval for $p_1-p_2$ is $(-0.03,\ 0.08)$. Which conclusion is correct?
 A. $p_1$ is greater than $p_2$.
 B. $p_1$ is less than $p_2$.
@@ -274,7 +274,7 @@ D. There is not convincing evidence that the two proportions differ.
 ::key D
 The interval contains $0$, so no difference is plausible; this does not prove they are equal.
 
-::mc
+::mc TH
 A paired $t$ procedure is used with $12$ pairs. How many degrees of freedom are there?
 A. $11$
 B. $12$
@@ -283,7 +283,7 @@ D. $24$
 ::key A
 Paired data are analysed as one sample of $12$ differences: df $=11$.
 
-::mc
+::mc TH
 Why is a $t$ interval for a mean wider than a $z$ interval with the same standard error?
 A. The sample mean is biased.
 B. The $t$ distribution is skewed.
@@ -292,7 +292,7 @@ D. The sample size is always smaller.
 ::key C
 The $t$ distribution has heavier tails than the normal.
 
-::mc
+::mc TH
 Which study should be analysed with a paired $t$ procedure?
 A. Times of $20$ runners with old shoes are compared with $20$ other runners with new shoes.
 B. Each of $20$ runners is timed with old shoes and with new shoes.
@@ -301,7 +301,7 @@ D. The heights of $50$ runners are recorded.
 ::key B
 The same runners are measured twice.
 
-::mc
+::mc VD
 A random sample of $36$ values has $\bar x=40$ and $s=9$. With $t^*\approx2.030$, the $95\%$ confidence interval for $\mu$ is
 A. $(39.49,\ 40.51)$
 B. $(21.73,\ 58.27)$
@@ -310,7 +310,7 @@ D. $(36.95,\ 43.05)$
 ::key D
 The standard error is $\dfrac{9}{6}=1.5$, so $40\pm2.030(1.5)=40\pm3.045$.
 
-::mc
+::mc TH
 In a test of $H_0:\mu=100$, a sample of $25$ has $\bar x=103$ and $s=10$. What is the test statistic?
 A. $t=1.5$
 B. $t=0.3$
@@ -319,7 +319,7 @@ D. $t=3.0$
 ::key A
 $t=\dfrac{103-100}{10/\sqrt{25}}=\dfrac{3}{2}=1.5$.
 
-::mc
+::mc TH
 A random sample of $15$ commute times is strongly skewed right with two outliers. Is a one-sample $t$ interval appropriate?
 A. Yes, because the sample is random.
 B. Yes, because $15<30$.
@@ -328,7 +328,7 @@ D. No, because $t$ intervals need $n\ge100$.
 ::key C
 With $n<30$, the normal/large sample condition needs no strong skew or outliers.
 
-::mc
+::mc TH
 Researchers compare the mean sleep time of a random sample of $40$ boys and an independent random sample of $40$ girls. The appropriate procedure is
 A. a two-sample $t$ procedure
 B. a paired $t$ procedure
@@ -337,7 +337,7 @@ D. a two-sample $z$ test for proportions
 ::key A
 Two independent samples and a quantitative variable.
 
-::mc
+::mc TH
 Questions 36–38 refer to the following. For a group of students, the least-squares line relating weekly practice time $x$ (hours) to quiz score $y$ (points) is $\hat y=3.2+0.85x$, with $r=0.78$. Which is the correct interpretation of $0.85$?
 A. Each student's score increases by exactly $0.85$ points per hour.
 B. $85\%$ of the variation in scores is explained by practice.
@@ -346,7 +346,7 @@ D. For each additional hour of practice, the predicted score increases by $0.85$
 ::key D
 The slope gives the change in the predicted response per unit of $x$.
 
-::mc
+::mc VD
 Questions 36–38 refer to the following. For a group of students, the least-squares line relating weekly practice time $x$ (hours) to quiz score $y$ (points) is $\hat y=3.2+0.85x$, with $r=0.78$. A student who practised $20$ hours scored $22$ points. What is the residual?
 A. $-1.8$
 B. $1.8$
@@ -355,7 +355,7 @@ D. $2.2$
 ::key B
 $\hat y=3.2+0.85(20)=20.2$, so the residual is $22-20.2=1.8$.
 
-::mc
+::mc TH
 Questions 36–38 refer to the following. For a group of students, the least-squares line relating weekly practice time $x$ (hours) to quiz score $y$ (points) is $\hat y=3.2+0.85x$, with $r=0.78$. About what percent of the variation in scores is accounted for by the linear model with practice time?
 A. $78\%$
 B. $85\%$
@@ -364,7 +364,7 @@ D. $39\%$
 ::key C
 $r^2=0.78^2\approx0.608$.
 
-::mc
+::mc VD
 For a data set, $\bar x=10$, $s_x=2$, $\bar y=50$, $s_y=8$ and $r=0.5$. The least-squares line is
 A. $\hat y=50+2x$
 B. $\hat y=30+2x$
@@ -373,7 +373,7 @@ D. $\hat y=10+4x$
 ::key B
 $b=0.5\cdot\dfrac82=2$ and $a=50-2(10)=30$.
 
-::mc
+::mc TH
 Heights are converted from centimetres to inches. What happens to the correlation between height and weight?
 A. It is divided by $2.54$.
 B. It is multiplied by $2.54$.
@@ -382,7 +382,7 @@ D. It does not change.
 ::key D
 Correlation has no units and is not affected by changing units.
 
-::mc
+::mc NB
 A line relating age to height was fitted to children aged $3$ to $12$. Using it to predict the height of a $30$-year-old is an example of
 A. a residual
 B. a lurking variable
@@ -391,7 +391,7 @@ D. a matched pair
 ::key C
 $x=30$ is far outside the range of the data.
 
-::mc
+::mc TH
 A residual plot for a least-squares line shows a clear curved pattern. What does this suggest?
 A. A linear model is not appropriate for these data.
 B. The correlation is $0$.

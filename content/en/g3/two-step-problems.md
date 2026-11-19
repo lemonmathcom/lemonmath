@@ -290,7 +290,7 @@ $$18\div3=6\ \text{(sweets)}.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc VD
 Mum buys $3$ bags of rice with $5$ kg in each bag, and $8$ kg of sticky rice. She buys altogether
 A. $23$ kg.
 B. $16$ kg.
@@ -299,7 +299,7 @@ D. $120$ kg.
 ::key A
 The rice in $3$ bags is $5\times 3=15$ (kg), then $15+8=23$ (kg). A adds $3+5+8$, C forgets there are $3$ bags, D multiplies all the numbers.
 
-::mc
+::mc VD
 A teacher has $48$ exercise books to share equally among $6$ children. Each child has used $3$ books. Each child has left
 A. $45$ books.
 B. $5$ books.
@@ -308,7 +308,7 @@ D. $8$ books.
 ::key B
 Each child gets $48\div6=8$ books, then $8-3=5$ books. A does not divide first, D stops after the first step, C adds instead of subtracting.
 
-::mc
+::mc VD
 A shop has $5$ crates with $12$ bottles of water in each, and has sold $37$ bottles. How many are left?
 A. $97$ bottles.
 B. $60$ bottles.
@@ -317,7 +317,7 @@ D. $49$ bottles.
 ::key C
 The total is $12\times 5=60$, then $60-37=23$. B stops after the first step, A adds instead of subtracting, D works out $12+37$.
 
-::mc
+::mc VD
 Lan's family keeps $8$ hens. They keep $3$ times as many ducks as hens. They keep altogether
 A. $24$ birds.
 B. $11$ birds.
@@ -326,7 +326,7 @@ D. $32$ birds.
 ::key D
 The ducks number $8\times 3=24$, then $8+24=32$. A counts only the ducks, B works out $8+3$, C takes the hens from the ducks.
 
-::tf
+::tf NB TH TH VD
 Look at this problem: $36$ oranges are shared equally onto $4$ plates, then each plate gets $2$ more oranges. How many oranges are on each plate now?
 a) Step one is $36\div4=9$.
 b) Step two is $9-2=7$.
@@ -335,12 +335,12 @@ d) The answer is $11$ oranges.
 ::key T F F T
 a) True: each plate first has $9$ oranges. b) False: oranges are added, so $9+2=11$. c) False: $38$ comes from wrongly adding $36+2$. d) True: $9+2=11$ oranges.
 
-::sa
+::sa VD
 A shop has $5$ crates of milk with $12$ cartons in each, and has sold $25$ cartons. How many cartons of milk are left?
 ::key 35
 $12\times 5=60$ (cartons), then $60-25=35$ (cartons).
 
-::sa
+::sa VD
 Lan has $6$ bags of sweets with $4$ sweets in each, and gives a friend $9$ sweets. How many sweets does Lan have left?
 ::key 15
 $4\times 6=24$ (sweets), then $24-9=15$ (sweets).

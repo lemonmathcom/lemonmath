@@ -257,7 +257,7 @@ Mặt $4$: $12-5-3=4$ (lần). Mặt lẻ: $20-12=8$ (lần).
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tung đồng xu $10$ lần, mặt ngửa xuất hiện $6$ lần. Mặt sấp xuất hiện
 A. $6$ lần.
 B. $4$ lần.
@@ -266,7 +266,7 @@ D. $10$ lần.
 ::key B
 $10-6=4$. Phương án C là cộng thay vì trừ.
 
-::mc
+::mc NB
 Trong dãy Đ, X, Đ, Đ, X, kí hiệu Đ xuất hiện mấy lần?
 A. $2$ lần.
 B. $3$ lần.
@@ -275,7 +275,7 @@ D. $4$ lần.
 ::key B
 Đ ở lần $1$, $3$, $4$, tức $3$ lần. Phương án C là số lần thử.
 
-::mc
+::mc TH
 Tổng số lần xuất hiện của mọi sự kiện luôn bằng
 A. số lần thử.
 B. số lần lớn nhất.
@@ -284,7 +284,7 @@ D. $0$.
 ::key A
 Mỗi lần thử cho đúng một kết quả. Phương án B là nhầm với số lớn nhất.
 
-::mc
+::mc TH
 Trước cổng trường có $12$ xe đạp, $9$ xe máy và $5$ ô tô đi qua. Có tất cả bao nhiêu xe?
 A. $26$ xe.
 B. $14$ xe.
@@ -293,7 +293,7 @@ D. $12$ xe.
 ::key A
 $12+9+5=26$. Phương án B bỏ sót xe đạp, C bỏ sót xe máy.
 
-::tf
+::tf NB NB TH TH
 Gieo xúc xắc $20$ lần được số lần các mặt $1$ đến $6$ lần lượt là $3, 4, 2, 5, 3, 3$.
 a) Mặt $4$ xuất hiện $5$ lần.
 b) Mặt $3$ xuất hiện ít nhất.
@@ -302,12 +302,12 @@ d) Các mặt chẵn xuất hiện tất cả $10$ lần.
 ::key Đ Đ Đ S
 a) Đúng. b) Đúng: $2$ lần là ít nhất. c) Đúng: $3+4+2+5+3+3=20$. d) Sai: $4+5+3=12$ lần.
 
-::sa
+::sa TH
 Tung đồng xu $15$ lần, ngửa xuất hiện $9$ lần. Sấp xuất hiện mấy lần?
 ::key 6
 $15-9=6$.
 
-::sa
+::sa TH
 Gieo xúc xắc $20$ lần với số lần các mặt $1$ đến $6$ là $3, 4, 2, 5, 3, 3$. Các mặt chẵn xuất hiện tất cả mấy lần?
 ::key 12
 Mặt $2$, $4$, $6$: $4+5+3=12$.

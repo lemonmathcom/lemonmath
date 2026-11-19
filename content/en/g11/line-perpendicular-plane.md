@@ -352,7 +352,7 @@ Let $M$ be the midpoint of $BC$. Triangle $ABC$ is isosceles at $A$, so $AM\perp
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A line $d$ is perpendicular to a plane $(P)$ when
 A. $d$ is perpendicular to one line lying in $(P)$.
 B. $d$ is perpendicular to two intersecting lines lying in $(P)$.
@@ -361,7 +361,7 @@ D. $d$ meets $(P)$ at one point.
 ::key B
 This is the condition for perpendicularity to a plane. Options A and C give too few directions, and D says only that the line meets the plane.
 
-::mc
+::mc TH
 In the cube $ABCD.A'B'C'D'$, the line $BD$ is perpendicular to which plane?
 A. $(A'B'C'D')$.
 B. $(ABB'A')$.
@@ -370,7 +370,7 @@ D. $(BCC'B')$.
 ::key C
 $BD\perp AC$ and $BD\perp AA'$. Options B and D contain $BD$ or are not perpendicular, and A is parallel to $(ABCD)$ so $BD$ is not perpendicular to it.
 
-::mc
+::mc VD
 The tetrahedron $OABC$ has $OA$, $OB$, $OC$ mutually perpendicular and $OA=OB=OC=a$. Let $M$ be the midpoint of $BC$. The length $AM$ is
 A. $\dfrac{a\sqrt2}{2}$.
 B. $\dfrac{a\sqrt3}{2}$.
@@ -379,7 +379,7 @@ D. $\dfrac{a\sqrt6}{2}$.
 ::key D
 $OA\perp(OBC)$, so $AM^2=OA^2+OM^2=a^2+\dfrac{a^2}{2}=\dfrac{3a^2}{2}$. Option A is $OM$, B confuses this with an equilateral triangle, and C ignores $OM$.
 
-::mc
+::mc TH
 The pyramid $S.ABCD$ has a rectangular base $ABCD$ and $SA\perp(ABCD)$. Which line is perpendicular to $(SAB)$?
 A. $BC$.
 B. $CD$.
@@ -388,7 +388,7 @@ D. $AC$.
 ::key A
 $BC\perp AB$ and $BC\perp SA$. Option B is parallel to $AB$, and C and D are not perpendicular to $AB$ or $SA$.
 
-::tf
+::tf TH TH VD TH
 The pyramid $S.ABCD$ has a square base $ABCD$ and $SA\perp(ABCD)$. Decide whether each statement is true or false:
 a) $AC\perp(SBD)$.
 b) $BD\perp(SAC)$.
@@ -397,12 +397,12 @@ d) $BC\perp(SAB)$.
 ::key F T F T
 a) False: $AC\perp BD$ but $AC$ is not perpendicular to $SD$. b) True: $BD\perp AC$ and $BD\perp SA$. c) False: $AD$ is not perpendicular to $SD$. d) True: $BC\perp AB$ and $BC\perp SA$.
 
-::sa
+::sa VD
 Suppose a roof is a pyramid $S.ABCD$ whose base is a square of side $8$ m and whose lateral edges are all $7$ m. Find the height of the roof (to the nearest tenth of a metre).
 ::key 4.1
 The foot of the height is the centre $O$ of the base, so $OA^2=32$, $SO^2=49-32=17$ and $SO\approx4.1$.
 
-::sa
+::sa TH
 Suppose a room is a cuboid with a floor $5$ m $\times4$ m and a height of $2.5$ m. Find the distance from a ceiling corner to the opposite floor corner along the space diagonal (to the nearest tenth of a metre).
 ::key 6.9
 The diagonal is $\sqrt{25+16+6.25}=\sqrt{47.25}\approx6.9$.

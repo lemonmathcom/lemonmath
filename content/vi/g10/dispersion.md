@@ -403,7 +403,7 @@ $$\bar{x}=\frac{20}{4}=5,\qquad s^2=\frac{120}{4}-5^2=30-25=5.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Khoảng biến thiên của mẫu số liệu $12, 7, 15, 9, 20, 11$ là
 A. $13$.
 B. $20$.
@@ -412,7 +412,7 @@ D. $27$.
 ::key A
 $R=x_{\max}-x_{\min}=20-7=13$. Phương án C lấy hiệu của giá trị lớn nhất với giá trị cuối cùng ($20-11$) thay vì giá trị nhỏ nhất.
 
-::mc
+::mc TH
 Phương sai của mẫu số liệu $2, 4, 6$ là
 A. $4$.
 B. $\dfrac83$.
@@ -421,7 +421,7 @@ D. $0$.
 ::key B
 $\bar x=4$, các độ lệch là $-2, 0, 2$, nên $s^2=\dfrac{4+0+4}{3}=\dfrac83$. Phương án A chia cho $n-1=2$; C là độ lệch chuẩn; D là trung bình của các độ lệch (chưa bình phương).
 
-::mc
+::mc TH
 Khoảng tứ phân vị của mẫu số liệu $1, 2, 4, 5, 7, 8, 10, 12$ là
 A. $11$.
 B. $6$.
@@ -430,7 +430,7 @@ D. $3$.
 ::key B
 Nửa dưới $1, 2, 4, 5$ cho $Q_1=3$; nửa trên $7, 8, 10, 12$ cho $Q_3=9$. Vậy $\Delta_Q=9-3=6$. Phương án A là khoảng biến thiên; C và D chỉ là $Q_3$ và $Q_1$.
 
-::mc
+::mc TH
 Một mẫu số liệu có $Q_1=10$ và $Q_3=14$. Giá trị nào sau đây là giá trị ngoại lệ?
 A. $5$.
 B. $19$.
@@ -439,7 +439,7 @@ D. $15$.
 ::key C
 $\Delta_Q=4$, $1{,}5\,\Delta_Q=6$, nên hai ngưỡng là $10-6=4$ và $14+6=20$. Chỉ có $21>20$. Phương án A và B là ngoại lệ nếu dùng nhầm ngưỡng $Q_1-\Delta_Q$ và $Q_3+\Delta_Q$.
 
-::tf
+::tf NB TH TH VD
 Cho mẫu số liệu $5, 7, 8, 9, 11$.
 a) Số trung bình cộng bằng $8$.
 b) Phương sai bằng $5$.
@@ -448,12 +448,12 @@ d) Nếu nhân mỗi giá trị với $3$ thì phương sai của mẫu mới b�
 ::key Đ S Đ Đ
 a) Đúng: $\dfrac{40}{5}=8$. b) Sai: bình phương các độ lệch là $9, 1, 0, 1, 9$, tổng $20$, nên $s^2=\dfrac{20}{5}=4$ (giá trị $5$ là do chia cho $4$). c) Đúng: $s=\sqrt4=2$. d) Đúng: mọi độ lệch gấp $3$ lần nên phương sai gấp $9$ lần: $36$.
 
-::sa
+::sa VD
 Trong $10$ ngày, có $2$ ngày cửa hàng bán được $1$ chiếc tủ lạnh, $5$ ngày bán được $2$ chiếc và $3$ ngày bán được $3$ chiếc. Tính phương sai của số tủ lạnh bán được mỗi ngày.
 ::key 0,49
 $\bar x=\dfrac{2\cdot1+5\cdot2+3\cdot3}{10}=2{,}1$; trung bình các bình phương là $\dfrac{2\cdot1+5\cdot4+3\cdot9}{10}=4{,}9$. Vậy $s^2=4{,}9-2{,}1^2=0{,}49$.
 
-::sa
+::sa TH
 Tính độ lệch chuẩn của mẫu số liệu $10, 12, 14, 16, 18$ (làm tròn đến hàng phần trăm).
 ::key 2,83
 $\bar x=14$, các độ lệch là $-4, -2, 0, 2, 4$, nên $s^2=\dfrac{16+4+0+4+16}{5}=8$ và $s=\sqrt8\approx2{,}83$.

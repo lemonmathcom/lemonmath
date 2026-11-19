@@ -344,7 +344,7 @@ If $b\ge a$ then $\angle AOB$ is acute and $\cos\varphi=\dfrac{b^2-a^2}{a^2+b^2}
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Let $ABCD.A'B'C'D'$ be a cube. The angle between the lines $AC$ and $A'D'$ is
 A. $90^\circ$.
 B. $45^\circ$.
@@ -353,7 +353,7 @@ D. $30^\circ$.
 ::key B
 $A'D'\parallel AD$, so the required angle is $\angle CAD=45^\circ$ (the diagonal of a square). Option A takes the angle between $AB$ and $AD$, and C confuses it with an equilateral triangle.
 
-::mc
+::mc TH
 Which statement is true?
 A. Perpendicular lines must meet.
 B. Two lines perpendicular to a third line are parallel.
@@ -362,7 +362,7 @@ D. The angle between two lines can be $120^\circ$.
 ::key C
 This is the property of perpendicular and parallel lines. B and A are false in space (for example $AB$, $AD$ and $AB$, $B'C'$); D is false because the angle between two lines never exceeds $90^\circ$.
 
-::mc
+::mc NB
 Let $ABCD$ be a regular tetrahedron of edge $a$. The angle between the lines $AB$ and $CD$ is
 A. $30^\circ$.
 B. $45^\circ$.
@@ -371,7 +371,7 @@ D. $90^\circ$.
 ::key D
 Opposite edges of a regular tetrahedron are perpendicular (as in the example above). Option C confuses it with the angle of an equilateral triangle.
 
-::mc
+::mc VD
 The pyramid $S.ABCD$ has a square base $ABCD$ of side $a$, $SA\perp AB$, $SA\perp AD$ and $SA=a$. The angle between $SB$ and $CD$ is
 A. $45^\circ$.
 B. $60^\circ$.
@@ -380,7 +380,7 @@ D. $30^\circ$.
 ::key A
 $CD\parallel AB$, so the required angle is $\angle SBA$ with $\tan\angle SBA=\dfrac{SA}{AB}=1$, giving $45^\circ$. Option C is the angle between $SA$ and $CD$.
 
-::tf
+::tf TH TH VD TH
 The cuboid $ABCD.A'B'C'D'$ has $AB=3$, $AD=4$, $AA'=5$. Decide whether each statement is true or false:
 a) The angle between $AB$ and $A'D'$ is $0^\circ$.
 b) $AA'\perp BC$.
@@ -389,12 +389,12 @@ d) The angle between $AC$ and $A'C'$ is $90^\circ$.
 ::key F T F F
 a) False: $A'D'\parallel AD$, so the angle between $AB$ and $A'D'$ is $90^\circ$. b) True: $BC\parallel AD$ and $AA'\perp AD$. c) False: $\cos\angle(AC, BD)=\dfrac{7}{25}$, so the lines are not perpendicular (the rectangle is not a square). d) False: $A'C'\parallel AC$, so the angle is $0^\circ$.
 
-::sa
+::sa VD
 The cuboid $ABCD.A'B'C'D'$ has $AB=3$, $AD=4$, $AA'=5$. Find the angle between $AC$ and $B'D'$ (in degrees, to one decimal place).
 ::key 73.7
 $B'D'\parallel BD$ and $OA=OB=2.5$, so $\cos\angle AOB=\dfrac{2\cdot6.25-9}{2\cdot6.25}=0.28$, giving $\angle AOB\approx73.7^\circ$ (acute).
 
-::sa
+::sa VD
 Let $ABCD$ be a regular tetrahedron of edge $a$ and $M$ the midpoint of $BC$. Find the cosine of the angle between $AB$ and $DM$ (to two decimal places).
 ::key 0.29
 Let $N$ be the midpoint of $AC$; then $MN\parallel AB$ and $MN=\dfrac a2$, while $DM=DN=\dfrac{a\sqrt3}{2}$. In triangle $DMN$, isosceles at $D$: $\cos\angle DMN=\dfrac{MN}{2DM}=\dfrac{\sqrt3}{6}\approx0.29$.

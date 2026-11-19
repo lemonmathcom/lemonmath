@@ -439,7 +439,7 @@ Với $D=1$, $(P)$ trùng $(Q)$, không phải song song, nên loại. Còn lạ
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Trong không gian $Oxyz$, một vectơ pháp tuyến của mặt phẳng $(P): 3x-z+2=0$ là
 A. $(3; -1; 2)$.
 B. $(3; 0; -1)$.
@@ -448,7 +448,7 @@ D. $(0; 3; -1)$.
 ::key B
 Hệ số của $x$, $y$, $z$ là $3$, $0$, $-1$. Phương án A lấy cả hệ số tự do, phương án C và D đặt sai vị trí của toạ độ bằng $0$.
 
-::mc
+::mc TH
 Mặt phẳng đi qua $M(1; 2; -1)$ và có vectơ pháp tuyến $\vec{n}=(2; -1; 3)$ có phương trình là
 A. $2x-y+3z-3=0$.
 B. $2x-y+3z=0$.
@@ -457,7 +457,7 @@ D. $x+2y-z+3=0$.
 ::key C
 $2(x-1)-(y-2)+3(z+1)=0\iff 2x-y+3z+3=0$. Phương án A sai dấu khi thay toạ độ $M$, phương án B quên hệ số tự do, phương án D đổi vai trò điểm và vectơ.
 
-::mc
+::mc TH
 Khoảng cách từ $A(1; -2; 3)$ đến mặt phẳng $(P): 2x-y+2z+1=0$ bằng
 A. $\dfrac{10}{3}$.
 B. $\dfrac{11}{3}$.
@@ -466,7 +466,7 @@ D. $11$.
 ::key B
 $\dfrac{|2+2+6+1|}{\sqrt{9}}=\dfrac{11}{3}$. Phương án A quên hệ số tự do, C chia cho $A^2+B^2+C^2$ mà không lấy căn, D quên chia.
 
-::mc
+::mc TH
 Mặt phẳng nào sau đây song song với $(P): x-2y+2z-1=0$?
 A. $2x-4y+4z-2=0$.
 B. $2x+y=0$.
@@ -475,7 +475,7 @@ D. $x+2y+2z-1=0$.
 ::key C
 $(-1; 2; -2)=-1\cdot(1; -2; 2)$ và $3\neq(-1)\cdot(-1)$. Phương án A trùng $(P)$, phương án B vuông góc với $(P)$ vì $2-2+0=0$, phương án D sai dấu một hệ số.
 
-::tf
+::tf TH TH VD VD
 Trong không gian $Oxyz$, cho $A(2; 0; 0)$, $B(0; 1; 0)$, $C(0; 0; 2)$.
 a) Mặt phẳng $(ABC)$ có phương trình $x+2y+z-2=0$.
 b) Điểm $M(1; 0; 1)$ thuộc mặt phẳng $(ABC)$.
@@ -484,12 +484,12 @@ d) Mặt phẳng $(ABC)$ vuông góc với mặt phẳng $(Q): x-y+z+5=0$.
 ::key Đ Đ S Đ
 a) Đúng: $\dfrac{x}{2}+\dfrac{y}{1}+\dfrac{z}{2}=1\iff x+2y+z-2=0$. b) Đúng: $1+0+1-2=0$. c) Sai: $d=\dfrac{2}{\sqrt6}\approx0{,}82$; $\dfrac13$ là kết quả khi quên căn. d) Đúng: $1-2+1=0$.
 
-::sa
+::sa TH
 Mặt phẳng đi qua $A(1; 2; -1)$ và song song với $(Q): 2x+y-2z+7=0$ có phương trình $2x+y-2z+d=0$. Tìm $d$.
 ::key -6
 Thay $A$: $2+2+2+d=0$, nên $d=-6$ (khác $7$, nên hai mặt phẳng không trùng nhau).
 
-::sa
+::sa VD
 Tính khoảng cách giữa hai mặt phẳng song song $(P): x+2y-2z+1=0$ và $(Q): 2x+4y-4z-7=0$ (làm tròn đến hàng phần mười).
 ::key 1,5
 Chia phương trình $(Q)$ cho $2$: $x+2y-2z-3{,}5=0$. Khoảng cách là $\dfrac{|1-(-3{,}5)|}{3}=1{,}5$.

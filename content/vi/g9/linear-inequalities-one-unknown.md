@@ -432,7 +432,7 @@ Vậy phải gọi ít nhất $23$ phút trong một tháng thì gói B rẻ hơ
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Bất phương trình nào là bất phương trình bậc nhất một ẩn?
 A. $0x+3>0$.
 B. $x^2-1<0$.
@@ -441,7 +441,7 @@ D. $\dfrac1x+2>0$.
 ::key C
 C có dạng $ax+b\le0$ với $a=2\neq0$. A có $a=0$; B có $x^2$; D có ẩn ở mẫu.
 
-::mc
+::mc TH
 Nghiệm của bất phương trình $-2x+6>0$ là
 A. $x>3$.
 B. $x<3$.
@@ -450,7 +450,7 @@ D. $x<-3$.
 ::key B
 $-2x>-6\iff x<3$ (chia cho $-2$ nên đổi chiều). A quên đổi chiều; C, D sai dấu khi chuyển vế.
 
-::mc
+::mc VD
 Nghiệm của bất phương trình $3(x-2)\le x+4$ là
 A. $x\le5$.
 B. $x\ge5$.
@@ -459,7 +459,7 @@ D. $x\le-1$.
 ::key A
 $3x-6\le x+4\iff 2x\le10\iff x\le5$. C phá ngoặc thành $3x-2$; D chuyển $-6$ sang vế phải mà không đổi dấu.
 
-::mc
+::mc TH
 Số nguyên lớn nhất thoả mãn $5x-12<0$ là
 A. $2$.
 B. $3$.
@@ -468,7 +468,7 @@ D. $-2$.
 ::key A
 $x<2{,}4$, nên số nguyên lớn nhất là $2$. B là kết quả khi làm tròn lên.
 
-::tf
+::tf TH TH VD VD
 Cho bất phương trình $4-2x\ge x-5$.
 a) $x=3$ là một nghiệm.
 b) Chuyển vế ta được $-3x\ge-9$.
@@ -477,12 +477,12 @@ d) Có đúng $4$ số tự nhiên thoả mãn bất phương trình.
 ::key Đ Đ S Đ
 a) Đúng: $-2\ge-2$. b) Đúng. c) Sai: chia cho $-3$ phải đổi chiều, $x\le3$. d) Đúng: $0$, $1$, $2$, $3$.
 
-::sa
+::sa VD
 Tìm số nguyên nhỏ nhất thoả mãn $2(x+1)>9-x$.
 ::key 3
 $2x+2>9-x\iff 3x>7\iff x>\dfrac73\approx2{,}33$, nên số nguyên nhỏ nhất là $3$.
 
-::sa
+::sa VD
 Một hãng taxi tính phí mở cửa $12$ nghìn đồng và $15$ nghìn đồng cho mỗi ki-lô-mét. Với $200$ nghìn đồng, bạn đi được tối đa bao nhiêu ki-lô-mét (số nguyên)?
 ::key 12
 $12+15x\le200\iff x\le\dfrac{188}{15}\approx12{,}5$, nên tối đa $12$ km.

@@ -274,7 +274,7 @@ $3$ m $=30$ dm. The number of pieces is $30\div5=6$ (pieces).
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $1$ m equals
 A. $1$ dm.
 B. $10$ dm.
@@ -283,7 +283,7 @@ D. $1000$ dm.
 ::key B
 $1$ m $=10$ dm. Option C mixes it up with $100$ cm.
 
-::mc
+::mc TH
 Which unit is best for the distance between two cities?
 A. cm.
 B. dm.
@@ -292,7 +292,7 @@ D. km.
 ::key D
 Two cities are very far apart, so we use km.
 
-::mc
+::mc TH
 $4$ m equals
 A. $4$ dm.
 B. $14$ dm.
@@ -301,7 +301,7 @@ D. $400$ dm.
 ::key C
 $4\times10=40$ dm. Option A forgets to change the unit.
 
-::mc
+::mc TH
 $20$ dm equals
 A. $2$ m.
 B. $20$ m.
@@ -310,7 +310,7 @@ D. $2$ km.
 ::key A
 $20$ dm has $2$ groups of $10$ dm, so it is $2$ m.
 
-::tf
+::tf NB NB NB TH
 Look at units of length.
 a) $1$ km $=1000$ m.
 b) $1$ dm $=10$ cm.
@@ -319,12 +319,12 @@ d) We measure the length of a pen in km.
 ::key T T F F
 a) True. b) True. c) False: $1$ m $=10$ dm. d) False: a pen is short, so we use cm.
 
-::sa
+::sa TH
 How many decimetres are in $5$ m?
 ::key 50
 $5\times10=50$ (dm).
 
-::sa
+::sa TH
 How many metres are $60$ dm?
 ::key 6
 $60$ dm has $6$ groups of $10$ dm, which is $6$ m.

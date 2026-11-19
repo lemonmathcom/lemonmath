@@ -457,7 +457,7 @@ Vậy $A=7$ và $B=18$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Giá trị của biểu thức $\sqrt[3]{-27}+\sqrt[4]{16}$ bằng
 A. $-1$.
 B. $5$.
@@ -466,7 +466,7 @@ D. $1$.
 ::key A
 Ta có $\sqrt[3]{-27}=-3$ và $\sqrt[4]{16}=2$ nên tổng bằng $-1$. Phương án B bỏ dấu của căn bậc ba, C lấy cả hai căn âm, D đổi dấu kết quả.
 
-::mc
+::mc TH
 Giá trị của $8^{-2/3}$ bằng
 A. $\dfrac{1}{64}$.
 B. $\dfrac14$.
@@ -475,7 +475,7 @@ D. $-4$.
 ::key B
 $8^{-2/3}=\left(2^3\right)^{-2/3}=2^{-2}=\dfrac14$. Phương án A tính $8^{-2}$, C bỏ dấu của số mũ, D coi số mũ âm cho giá trị âm.
 
-::mc
+::mc TH
 Với $a>0$, biểu thức $\left(a^{\sqrt3+1}\right)^{\sqrt3-1}$ bằng
 A. $a^{2\sqrt3}$.
 B. $a^{4}$.
@@ -484,7 +484,7 @@ D. $a^{3}$.
 ::key C
 Ta nhân hai số mũ: $(\sqrt3+1)(\sqrt3-1)=3-1=2$. Phương án A cộng hai số mũ, B dùng $3+1$ thay cho $3-1$, D quên trừ $1^2$.
 
-::mc
+::mc TH
 Mệnh đề nào sau đây đúng?
 A. $\left(\dfrac13\right)^{2{,}5}<\left(\dfrac13\right)^{3}$.
 B. $2^{\sqrt3}<2^{1{,}7}$.
@@ -493,7 +493,7 @@ D. $\left(\dfrac12\right)^{\sqrt3}<\left(\dfrac12\right)^{1{,}7}$.
 ::key D
 Cơ số $\dfrac12<1$ và $\sqrt3>1{,}7$ nên $\left(\dfrac12\right)^{\sqrt3}<\left(\dfrac12\right)^{1{,}7}$. Phương án B quên $\sqrt3>1{,}7$, C sai vì $-\sqrt2<-1{,}4$, A quên đảo chiều với cơ số nhỏ hơn $1$.
 
-::tf
+::tf NB TH TH TH
 Cho $a>0$, $b>0$. Xét tính đúng sai của các mệnh đề sau:
 a) $(a+b)^{1/2}=a^{1/2}+b^{1/2}$.
 b) $a^{1/2}\cdot a^{1/3}=a^{1/6}$.
@@ -502,12 +502,12 @@ d) $\dfrac{a^{5/3}}{a^{2/3}}=a$.
 ::key S S Đ Đ
 a) Sai: ví dụ $a=4$, $b=9$ cho $\sqrt{13}\neq5$. b) Sai: cộng số mũ được $\dfrac12+\dfrac13=\dfrac56$, tức $a^{5/6}$. c) Đúng: $a^{3/2}=a^{1+1/2}=a\cdot a^{1/2}$. d) Đúng: $a^{5/3-2/3}=a^1$.
 
-::sa
+::sa TH
 Giả sử số vi khuẩn trong một mẻ nuôi cấy là $N(t)=200\cdot2^{t/2}$ con, với $t$ là số giờ. Tính số vi khuẩn sau $5$ giờ (làm tròn đến hàng đơn vị).
 ::key 1131
 $N(5)=200\cdot2^{2{,}5}\approx200\cdot5{,}657\approx1131$ (con).
 
-::sa
+::sa VD
 Tính giá trị của $81^{3/4}\cdot16^{-1/2}$ (viết dưới dạng số thập phân).
 ::key 6,75
 $81^{3/4}=\left(3^4\right)^{3/4}=27$ và $16^{-1/2}=\dfrac14$, nên tích bằng $\dfrac{27}{4}=6{,}75$.

@@ -276,7 +276,7 @@ Thứ tự từ đầu hàng: Hà, Lan, Mai, Nam.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Ba hình xếp hàng ngang từ trái sang phải: hình vuông, hình tròn, hình tam giác. Hình ở giữa là
 A. hình vuông.
 B. hình tròn.
@@ -285,7 +285,7 @@ D. không có.
 ::key B
 Hình tròn có hình vuông bên trái và hình tam giác bên phải. Phương án A là hình đứng đầu.
 
-::mc
+::mc NB
 Ba hình xếp hàng dọc từ trên xuống dưới: hình tam giác, hình vuông, hình tròn. Hình ở dưới cùng là
 A. hình tam giác.
 B. hình vuông.
@@ -294,7 +294,7 @@ D. không có.
 ::key C
 Đọc từ trên xuống, hình cuối cùng là hình tròn.
 
-::mc
+::mc TH
 Lan đứng trước Mai, Mai đứng trước Nam. Ai đứng ở giữa?
 A. Lan.
 B. Mai.
@@ -303,7 +303,7 @@ D. Không ai.
 ::key B
 Thứ tự: Lan, Mai, Nam. Mai ở giữa.
 
-::mc
+::mc NB
 Quyển sách đặt trên bàn. Vật ở dưới quyển sách là
 A. quyển sách.
 B. cái cặp.
@@ -312,7 +312,7 @@ D. cái bút.
 ::key C
 Quyển sách đặt trên bàn, nên bàn ở dưới quyển sách.
 
-::tf
+::tf NB NB TH TH
 Ba hình xếp hàng ngang từ trái sang phải: hình vuông, hình tròn, hình tam giác.
 a) Hình vuông ở bên trái hình tròn.
 b) Hình tam giác ở bên trái hình tròn.
@@ -321,12 +321,12 @@ d) Hình vuông ở bên phải hình tam giác.
 ::key Đ S Đ S
 a) Đúng. b) Sai: tam giác ở bên phải. c) Đúng. d) Sai: hình vuông ở bên trái.
 
-::sa
+::sa VD
 Hàng có $5$ bạn. Mai đứng thứ ba từ đầu hàng. Có mấy bạn đứng sau Mai?
 ::key 2
 Thứ tự các bạn: thứ nhất, thứ hai, thứ ba (Mai), thứ tư, thứ năm. Sau Mai có hai bạn.
 
-::sa
+::sa TH
 Hàng có $6$ bạn. Nam đứng thứ tư từ đầu hàng. Có mấy bạn đứng trước Nam?
 ::key 3
 Nam là thứ tư, nên trước Nam có ba bạn.

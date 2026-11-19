@@ -415,7 +415,7 @@ Put $y=1$: $2x+1\le 7\iff x\le 3$. For $x=4$: $2\cdot 4+1=9>7$, so $(4, 1)$ is n
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of these is a linear inequality in two variables?
 A. $2x-3y\le5$.
 B. $x^2+y>1$.
@@ -424,7 +424,7 @@ D. $\dfrac1x+y\le2$.
 ::key A
 A linear inequality in two variables has the form $ax+by\le c$ (or $<, \ge, >$): each unknown appears only to the first power. B contains $x^2$, C the product $xy$, and D has $x$ in a denominator.
 
-::mc
+::mc TH
 Which pair is a solution of $3x-2y>4$?
 A. $(2, 1)$.
 B. $(0, -3)$.
@@ -433,7 +433,7 @@ D. $(3, 3)$.
 ::key B
 $(0, -3)$: $0+6=6>4$, true. For A we get $6-2=4$, and $4>4$ is false: this point is on the boundary, which $>$ does not include. C and D both give $3$, which is not greater than $4$.
 
-::mc
+::mc TH
 The solution region of $x+3y\ge6$ is
 A. the half-plane with boundary $x+3y=6$ containing the origin $O$, boundary included.
 B. the half-plane with boundary $x+3y=6$ containing the origin $O$, boundary excluded.
@@ -442,7 +442,7 @@ D. the half-plane with boundary $x+3y=6$ not containing the origin $O$, boundary
 ::key C
 Substitute $O(0, 0)$: $0\ge6$ is false, so we take the half-plane not containing $O$. The sign $\ge$ allows equality, so the boundary belongs to the region (drawn as a solid line).
 
-::mc
+::mc VD
 The solution region of an inequality is the half-plane whose boundary is the line through $(2, 0)$ and $(0, 4)$, not containing the origin $O$, boundary included. The inequality is
 A. $2x+y\le4$.
 B. $2x+y\ge4$.
@@ -451,7 +451,7 @@ D. $2x+y>4$.
 ::key B
 The line through $(2, 0)$ and $(0, 4)$ is $\dfrac x2+\dfrac y4=1\iff 2x+y=4$. At $O$ we get $0<4$, so the side without $O$ is $2x+y\ge4$ ($\ge$ because the boundary is included). Option C swaps the two intercepts; D excludes the boundary.
 
-::tf
+::tf TH TH TH VD
 A bakery makes $x$ cakes of type I (costing $20$ thousand dong each) and $y$ cakes of type II (costing $30$ thousand dong each), with a total cost of at most $600$ thousand dong.
 a) The cost condition is $20x+30y\ge600$.
 b) The bakery can make $15$ cakes of type I and $10$ of type II.
@@ -460,12 +460,12 @@ d) If the bakery makes $12$ cakes of type II, it can make at most $12$ cakes of 
 ::key F T F T
 The correct condition is $20x+30y\le600\iff 2x+3y\le60$. a) False: "at most" means $\le$. b) True: $30+30=60\le60$. c) False: $40+24=64>60$. d) True: $2x+36\le60\iff x\le12$.
 
-::sa
+::sa TH
 The point $M(a, 2)$ lies in the solution region of $3x-y\le7$. Find the largest possible value of $a$.
 ::key 3
 Substitute $x=a$, $y=2$: $3a-2\le7\iff a\le3$. So the largest value of $a$ is $3$.
 
-::sa
+::sa VD
 A student cinema ticket costs $25$ thousand dong and an adult ticket $40$ thousand dong. A group includes $4$ adults and has at most $300$ thousand dong. At most how many student tickets can the group buy?
 ::key 5
 Let $y$ be the number of student tickets: $25y+40\cdot4\le300\iff 25y\le140\iff y\le5.6$. The number of tickets is a whole number, so it is at most $5$.

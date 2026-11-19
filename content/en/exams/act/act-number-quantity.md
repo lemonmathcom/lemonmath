@@ -308,7 +308,7 @@ So $2A-I=\begin{pmatrix}1&4\\6&7\end{pmatrix}$.
 :::
 
 :::quiz
-::mc
+::mc NB
 What is $15\%$ of $240$?
 A. $24$
 B. $16$
@@ -317,7 +317,7 @@ D. $3.6$
 ::key C
 $0.15\times240=36$.
 
-::mc
+::mc TH
 Which of the following is equal to $\sqrt{72}$?
 A. $6\sqrt2$
 B. $8\sqrt3$
@@ -326,7 +326,7 @@ D. $12\sqrt2$
 ::key A
 $\sqrt{72}=\sqrt{36\cdot2}=6\sqrt2$. Option C is $\sqrt{54}$ and option D is $\sqrt{288}$.
 
-::mc
+::mc NB
 What is $(2-i)+(3+4i)$?
 A. $5+5i$
 B. $5+3i$
@@ -335,7 +335,7 @@ D. $-1+3i$
 ::key B
 Add the real parts and the imaginary parts: $(2+3)+(-1+4)i$.
 
-::mc
+::mc TH
 What is $\left(5\times10^3\right)\left(4\times10^{-5}\right)$ in scientific notation?
 A. $20\times10^{-2}$
 B. $2\times10^{-2}$
@@ -344,7 +344,7 @@ D. $2\times10^{-1}$
 ::key D
 $20\times10^{-2}=2\times10^{-1}$. Option A is the same value, but not in scientific notation.
 
-::tf
+::tf TH TH TH VD
 A price rises by $50\%$ and then falls by $50\%$. Decide whether each statement is true or false.
 a) The final price is $75\%$ of the original price.
 b) The overall change is a decrease of $25\%$.
@@ -353,12 +353,12 @@ d) The final price would be the same if the fall came first.
 ::key T T F T
 $1.5\times0.5=0.75$. Multiplication is commutative, so the order of the changes does not matter.
 
-::sa
+::sa NB
 Find $25\%$ of $64$.
 ::key 16
 $0.25\times64=16$.
 
-::sa
+::sa TH
 Convert $90$ km/h to meters per second.
 ::key 25
 $\dfrac{90\times1000}{3600}=25$.

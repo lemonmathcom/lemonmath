@@ -461,7 +461,7 @@ Vậy bóng đi được tổng cộng $70$ m.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Chu kì của hàm số $y=\sin2x$ là
 A. $2\pi$.
 B. $\pi$.
@@ -470,7 +470,7 @@ D. $4\pi$.
 ::key B
 Chu kì là $\dfrac{2\pi}{2}=\pi$. Phương án D nhân thay vì chia cho $2$; phương án A là chu kì của $\sin x$.
 
-::mc
+::mc TH
 Nghiệm của phương trình $\log_3(2x-1)=2$ là
 A. $x=\dfrac92$.
 B. $x=\dfrac72$.
@@ -479,7 +479,7 @@ D. $x=\dfrac32$.
 ::key C
 $2x-1=3^2=9\iff x=5$ (thoả mãn $2x-1>0$). Phương án A quên số $-1$, phương án B tính nhầm $3^2=6$, phương án D lấy $2x-1=2$.
 
-::mc
+::mc NB
 Cho cấp số cộng $(u_n)$ có $u_1=2$ và công sai $d=3$. Số hạng $u_{10}$ bằng
 A. $32$.
 B. $26$.
@@ -488,7 +488,7 @@ D. $29$.
 ::key D
 $u_{10}=2+9\cdot3=29$. Phương án A dùng nhầm $u_1+10d$, phương án B dùng $u_1+8d$.
 
-::mc
+::mc TH
 Giá trị của $\lim\dfrac{3n-1}{n+2}$ là
 A. $3$.
 B. $-\dfrac12$.
@@ -497,7 +497,7 @@ D. $+\infty$.
 ::key A
 Chia tử và mẫu cho $n$: $\dfrac{3-\frac1n}{1+\frac2n}\to3$. Phương án B là tỉ số của hai hệ số tự do.
 
-::tf
+::tf NB TH TH TH
 Cho hàm số $y=\log_2x$.
 a) Tập xác định của hàm số là $(0; +\infty)$.
 b) Hàm số đồng biến trên tập xác định.
@@ -506,12 +506,12 @@ d) $\log_2x<3\iff x<8$.
 ::key Đ Đ S S
 a) Đúng: cần $x>0$. b) Đúng: cơ số $2>1$. c) Sai: đồ thị đi qua $(1; 0)$; điểm $(0; 1)$ thuộc đồ thị $y=2^x$. d) Sai: phải có thêm điều kiện, $\log_2x<3\iff0<x<8$.
 
-::sa
+::sa TH
 Tính tổng $S=6+2+\dfrac23+\dfrac29+\cdots$ (cấp số nhân lùi vô hạn).
 ::key 9
 $u_1=6$, $q=\dfrac13$, nên $S=\dfrac{6}{1-\frac13}=9$.
 
-::sa
+::sa VD
 Phương trình $\sin x=\dfrac12$ có bao nhiêu nghiệm thuộc đoạn $[0; 3\pi]$?
 ::key 4
 Các nghiệm là $x=\dfrac{\pi}{6}+k2\pi$ và $x=\dfrac{5\pi}{6}+k2\pi$. Trên $[0; 3\pi]$ có $\dfrac{\pi}{6}$, $\dfrac{5\pi}{6}$, $\dfrac{13\pi}{6}$, $\dfrac{17\pi}{6}$, tức $4$ nghiệm.

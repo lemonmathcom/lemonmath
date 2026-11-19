@@ -457,7 +457,7 @@ So $A=7$ and $B=18$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The value of $\sqrt[3]{-27}+\sqrt[4]{16}$ is
 A. $-1$.
 B. $5$.
@@ -466,7 +466,7 @@ D. $1$.
 ::key A
 We have $\sqrt[3]{-27}=-3$ and $\sqrt[4]{16}=2$, so the sum is $-1$. Option B drops the sign of the cube root, C takes both roots as negative, and D changes the sign of the result.
 
-::mc
+::mc TH
 The value of $8^{-2/3}$ is
 A. $\dfrac{1}{64}$.
 B. $\dfrac14$.
@@ -475,7 +475,7 @@ D. $-4$.
 ::key B
 $8^{-2/3}=\left(2^3\right)^{-2/3}=2^{-2}=\dfrac14$. Option A works out $8^{-2}$, C ignores the sign of the exponent, and D thinks a negative exponent gives a negative value.
 
-::mc
+::mc TH
 For $a>0$, the expression $\left(a^{\sqrt3+1}\right)^{\sqrt3-1}$ equals
 A. $a^{2\sqrt3}$.
 B. $a^{4}$.
@@ -484,7 +484,7 @@ D. $a^{3}$.
 ::key C
 We multiply the exponents: $(\sqrt3+1)(\sqrt3-1)=3-1=2$. Option A adds the exponents, B uses $3+1$ instead of $3-1$, and D forgets to subtract $1^2$.
 
-::mc
+::mc TH
 Which statement is correct?
 A. $\left(\dfrac13\right)^{2.5}<\left(\dfrac13\right)^{3}$.
 B. $2^{\sqrt3}<2^{1.7}$.
@@ -493,7 +493,7 @@ D. $\left(\dfrac12\right)^{\sqrt3}<\left(\dfrac12\right)^{1.7}$.
 ::key D
 The base $\dfrac12<1$ and $\sqrt3>1.7$, so $\left(\dfrac12\right)^{\sqrt3}<\left(\dfrac12\right)^{1.7}$. Option B forgets that $\sqrt3>1.7$, C is wrong because $-\sqrt2<-1.4$, and A forgets to reverse the inequality for a base less than $1$.
 
-::tf
+::tf NB TH TH TH
 Let $a>0$, $b>0$. Decide whether each statement is true or false.
 a) $(a+b)^{1/2}=a^{1/2}+b^{1/2}$.
 b) $a^{1/2}\cdot a^{1/3}=a^{1/6}$.
@@ -502,12 +502,12 @@ d) $\dfrac{a^{5/3}}{a^{2/3}}=a$.
 ::key F F T T
 a) False: for example $a=4$, $b=9$ gives $\sqrt{13}\neq5$. b) False: adding the exponents gives $\dfrac12+\dfrac13=\dfrac56$, that is $a^{5/6}$. c) True: $a^{3/2}=a^{1+1/2}=a\cdot a^{1/2}$. d) True: $a^{5/3-2/3}=a^1$.
 
-::sa
+::sa TH
 Suppose the number of bacteria in a culture is $N(t)=200\cdot2^{t/2}$, where $t$ is the number of hours. Work out the number of bacteria after $5$ hours (round to the nearest whole number).
 ::key 1131
 $N(5)=200\cdot2^{2.5}\approx200\cdot5.657\approx1131$.
 
-::sa
+::sa VD
 Work out the value of $81^{3/4}\cdot16^{-1/2}$ (give your answer as a decimal).
 ::key 6.75
 $81^{3/4}=\left(3^4\right)^{3/4}=27$ and $16^{-1/2}=\dfrac14$, so the product is $\dfrac{27}{4}=6.75$.

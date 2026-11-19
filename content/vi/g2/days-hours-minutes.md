@@ -316,7 +316,7 @@ b) Tháng 12 có 31 ngày nên ngày 31 là ngày cuối năm. Ngày mai là ng�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Một ngày có
 A. 60 giờ.
 B. 12 giờ.
@@ -325,7 +325,7 @@ D. 30 giờ.
 ::key C
 Một ngày có 24 giờ, kim ngắn quay 2 vòng. Phương án B chỉ là một vòng của kim ngắn.
 
-::mc
+::mc TH
 Kim dài chỉ số 6 nghĩa là đã qua
 A. 6 phút.
 B. 60 phút.
@@ -334,7 +334,7 @@ D. 30 phút.
 ::key D
 Mỗi số cách nhau 5 phút, đếm qua 6 số được 30 phút. Phương án A đọc nhầm số thành số phút.
 
-::mc
+::mc NB
 Tháng nào sau đây có 30 ngày?
 A. Tháng 9.
 B. Tháng 3.
@@ -343,7 +343,7 @@ D. Tháng 1.
 ::key A
 Tháng 9 là một trong các tháng 4, 6, 9, 11 có 30 ngày. Các tháng 1, 3, 7 có 31 ngày.
 
-::mc
+::mc NB
 Một giờ có
 A. 100 phút.
 B. 60 phút.
@@ -352,7 +352,7 @@ D. 24 phút.
 ::key B
 Kim dài quay một vòng là 1 giờ, tức là 60 phút. Phương án D là số giờ của một ngày.
 
-::tf
+::tf NB TH NB TH
 Em xem lịch tháng 11 năm 2026 ở trên.
 a) Ngày 1 tháng 11 là chủ nhật.
 b) Ngày 8 tháng 11 là thứ hai.
@@ -361,12 +361,12 @@ d) Ngày 11 tháng 11 là thứ ba.
 ::key Đ S S S
 a) Đúng: ngày 1 nằm ở cột Chủ nhật. b) Sai: ngày 8 là chủ nhật. c) Sai: tháng 11 có 30 ngày. d) Sai: ngày 11 là thứ tư.
 
-::sa
+::sa TH
 Từ 7 giờ đến 11 giờ là mấy giờ?
 ::key 4
 $11-7=4$ (giờ).
 
-::sa
+::sa VD
 Hôm nay là ngày 5 tháng 3, sinh nhật Lan là ngày 17 tháng 3. Còn bao nhiêu ngày nữa đến sinh nhật Lan?
 ::key 12
 $17-5=12$ (ngày).

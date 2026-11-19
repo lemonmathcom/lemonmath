@@ -307,7 +307,7 @@ Check: $84\times 6=504$. Correct.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $126\times 4$ equals
 A. $484$.
 B. $404$.
@@ -316,7 +316,7 @@ D. $504$.
 ::key D
 $6\times 4=24$, write $4$ and regroup $2$; $2\times 4=8$, add $2$ to make $10$, write $0$ and regroup $1$; $1\times 4=4$, add $1$ to make $5$. A forgets to regroup in the ones, B forgets to regroup in the tens, C is an addition.
 
-::mc
+::mc TH
 $207\times 4$ equals
 A. $828$.
 B. $808$.
@@ -325,7 +325,7 @@ D. $211$.
 ::key A
 $7\times 4=28$, write $8$ and regroup $2$; $0\times 4=0$, add $2$ to make $2$; $2\times 4=8$. B forgets to add the regrouped number, C leaves out the hundreds, D is an addition.
 
-::mc
+::mc TH
 $584\div4$ equals
 A. $46$.
 B. $146$.
@@ -334,7 +334,7 @@ D. $154$.
 ::key B
 $5$ hundreds divided by $4$ is $1$ hundred, remainder $1$; $18$ divided by $4$ is $4$, remainder $2$; $24$ divided by $4$ is $6$. A leaves out the hundreds, C swaps digits, D is a slip in the calculation.
 
-::mc
+::mc TH
 Each crate holds $125$ books. $5$ crates like this hold altogether
 A. $130$ books.
 B. $505$ books.
@@ -343,7 +343,7 @@ D. $120$ books.
 ::key C
 "Equal crates" means multiply: $125\times 5=625$. A adds, B forgets the regrouped numbers, D is a subtraction.
 
-::tf
+::tf NB TH TH TH
 Look at the division $487\div5$.
 a) $487\div5=96$ (remainder $7$).
 b) The quotient has three digits.
@@ -352,12 +352,12 @@ d) Check: $97\times 5+2=487$.
 ::key F F T T
 a) False: the remainder $7$ is greater than the divisor $5$. b) False: $4<5$, so the quotient has only two digits, $97$. c) True: $5\times 97=485$ and $487-485=2$. d) True: $485+2=487$.
 
-::sa
+::sa TH
 Work out $213\times 4$.
 ::key 852
 $3\times 4=12$, write $2$ and regroup $1$; $1\times 4=4$, add $1$ to make $5$; $2\times 4=8$. So $213\times 4=852$.
 
-::sa
+::sa TH
 Work out $936\div3$.
 ::key 312
 $9\div3=3$, $3\div3=1$, $6\div3=2$. So $936\div3=312$.

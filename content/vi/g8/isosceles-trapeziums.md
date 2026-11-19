@@ -397,7 +397,7 @@ Vậy $OC=OD$ và $OA=OB$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hình thang cân $ABCD$ ($AB\parallel CD$) có $\widehat{D}=65^\circ$. Góc $\widehat{A}$ bằng
 A. $65^\circ$.
 B. $25^\circ$.
@@ -406,7 +406,7 @@ D. $130^\circ$.
 ::key C
 $\widehat{A}$ và $\widehat{D}$ ở trong cùng phía nên $\widehat{A}=180^\circ-65^\circ=115^\circ$. A nhầm $\widehat{A}=\widehat{D}$, B lấy $90^\circ-65^\circ$, D lấy $2\cdot65^\circ$.
 
-::mc
+::mc NB
 Khẳng định nào sau đây đúng với mọi hình thang cân?
 A. Hai đáy bằng nhau.
 B. Hai cạnh bên song song.
@@ -415,7 +415,7 @@ D. Hai đường chéo bằng nhau.
 ::key D
 Trong hình thang cân, hai đường chéo bằng nhau. A sai vì hai đáy không bằng nhau, B sai vì hai cạnh bên không song song với nhau, C chỉ đúng với hình chữ nhật.
 
-::mc
+::mc VD
 Hình thang cân có hai đáy $4$ cm và $10$ cm, cạnh bên $5$ cm. Chiều cao bằng
 A. $4$ cm.
 B. $3$ cm.
@@ -424,7 +424,7 @@ D. $6$ cm.
 ::key A
 Mỗi bên nhô ra $\dfrac{10-4}{2}=3$ cm, nên chiều cao là $\sqrt{5^2-3^2}=4$ cm. B là phần nhô ra, C là cạnh bên.
 
-::mc
+::mc TH
 Hình thang cân có hai đáy $6$ cm và $12$ cm, cạnh bên $5$ cm. Chu vi bằng
 A. $23$ cm.
 B. $28$ cm.
@@ -433,7 +433,7 @@ D. $34$ cm.
 ::key B
 Chu vi là $6+12+5+5=28$ cm. A quên một cạnh bên, C và D cộng sai.
 
-::tf
+::tf TH TH TH NB
 Hình thang $ABCD$ ($AB\parallel CD$) có $\widehat{A}=110^\circ$ và $\widehat{C}=80^\circ$.
 a) $\widehat{D}=70^\circ$.
 b) $\widehat{B}=80^\circ$.
@@ -442,12 +442,12 @@ d) $\widehat{A}+\widehat{B}+\widehat{C}+\widehat{D}=360^\circ$.
 ::key Đ S S Đ
 a) Đúng: $180-110=70$. b) Sai: $\widehat{B}=180^\circ-80^\circ=100^\circ$. c) Sai: $\widehat{C}=80^\circ\ne\widehat{D}=70^\circ$. d) Đúng: tổng các góc của tứ giác.
 
-::sa
+::sa TH
 Hình thang cân có hai đáy $7$ cm và $13$ cm, cạnh bên $5$ cm. Tính chu vi (cm).
 ::key 30
 Chu vi là $7+13+5+5=30$ cm.
 
-::sa
+::sa VD
 Hình thang cân có hai đáy $6$ cm và $14$ cm, cạnh bên $5$ cm. Tính chiều cao (cm).
 ::key 3
 Mỗi bên nhô ra $\dfrac{14-6}{2}=4$ cm, nên chiều cao là $\sqrt{25-16}=3$ cm.

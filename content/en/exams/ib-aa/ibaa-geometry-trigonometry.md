@@ -210,7 +210,7 @@ LHS $=\dfrac{1-\left(1-2\sin^2x\right)}{2\sin x\cos x}=\dfrac{2\sin^2x}{2\sin x\
 :::
 
 :::quiz
-::mc
+::mc TH
 What is $150^\circ$ in radians?
 A. $\dfrac{3\pi}{4}$
 B. $\dfrac{2\pi}{3}$
@@ -219,7 +219,7 @@ D. $\dfrac{5\pi}{3}$
 ::key C
 $150\cdot\dfrac{\pi}{180}=\dfrac{5\pi}{6}$.
 
-::mc
+::mc TH
 What is the period of $y=3\sin(4x)$?
 A. $\dfrac\pi2$
 B. $4\pi$
@@ -228,7 +228,7 @@ D. $8\pi$
 ::key A
 $\dfrac{2\pi}{4}=\dfrac\pi2$. The $3$ is the amplitude.
 
-::mc
+::mc TH
 What is the exact value of $\cos\dfrac{4\pi}{3}$?
 A. $\dfrac12$
 B. $-\dfrac{\sqrt3}{2}$
@@ -237,7 +237,7 @@ D. $-\dfrac12$
 ::key D
 $\dfrac{4\pi}{3}$ is in the third quadrant, with reference angle $\dfrac\pi3$; cosine is negative there.
 
-::mc
+::mc TH
 A triangle has two sides of lengths $8$ and $5$ with an included angle of $30^\circ$. What is its area?
 A. $20$
 B. $10$
@@ -246,7 +246,7 @@ D. $40$
 ::key B
 $\dfrac12(8)(5)\sin30^\circ=10$.
 
-::tf
+::tf NB TH TH VD
 Consider $y=2\cos x+1$.
 a) The amplitude is $2$.
 b) The minimum value is $1$.
@@ -255,12 +255,12 @@ d) The range is $-1\le y\le3$.
 ::key T F F T
 a) True. b) False: it is $1-2=-1$. c) False: it is $2\pi$. d) True.
 
-::sa
+::sa TH
 A sector has radius $4$ and angle $0.5$ radians. Find its area.
 ::key 4
 $\dfrac12(16)(0.5)=4$.
 
-::sa
+::sa TH
 Given $\sin\theta=0.6$ and $\cos\theta>0$, find $\cos\theta$.
 ::key 0.8
 $\sqrt{1-0.36}=0.8$.

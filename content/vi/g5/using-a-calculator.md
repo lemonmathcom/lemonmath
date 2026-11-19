@@ -313,7 +313,7 @@ Vì $20=3\times6+2$ nên chữ số thứ $20$ là chữ số thứ hai của nh
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $12{,}5\times3{,}6$ là
 A. $4{,}5$.
 B. $450$.
@@ -322,7 +322,7 @@ D. $4500$.
 ::key C
 Ước lượng $12\times4=48$, gần $45$, và máy tính cho $45$. Các phương án A, B, D đặt dấu phẩy sai chỗ nên quá bé hoặc quá lớn so với ước lượng.
 
-::mc
+::mc TH
 Kết quả của $17:6$, làm tròn đến hàng phần trăm, là
 A. $2{,}8$.
 B. $2{,}84$.
@@ -331,7 +331,7 @@ D. $2{,}83$.
 ::key D
 Màn hình hiện $2{,}8333333$; chữ số hàng phần nghìn là $3<5$ nên được $2{,}83$. Phương án A làm tròn đến hàng phần mười; B làm tròn lên sai; C làm tròn đến số tự nhiên.
 
-::mc
+::mc TH
 Giả sử mẹ mua $4{,}75$ kg thịt, giá $135\,000$ đồng một ki-lô-gam. Số tiền phải trả là
 A. $641\,250$ đồng.
 B. $64\,125\,000$ đồng.
@@ -340,7 +340,7 @@ D. $6\,412\,500$ đồng.
 ::key A
 $4{,}75\times135\,000=641\,250$ đồng. Phương án B nhập $4{,}75$ thành $475$; C là phép chia $135\,000:4{,}75$; D đặt sai dấu phẩy.
 
-::mc
+::mc TH
 Một thư viện có $1250$ quyển sách, trong đó có $325$ quyển truyện tranh. Truyện tranh chiếm
 A. $385\%$.
 B. $26\%$.
@@ -349,7 +349,7 @@ D. $260\%$.
 ::key B
 $325:1250=0{,}26$ và $0{,}26\times100=26$, nên chiếm $26\%$. Phương án A chia ngược thứ tự; B quên nhân với $100$; D nhân với $1000$.
 
-::tf
+::tf NB TH TH TH
 Em dùng máy tính để tính $36:0{,}4$.
 a) Kết quả là $90$.
 b) Chia cho số bé hơn $1$ thì kết quả bé hơn $36$.
@@ -358,12 +358,12 @@ d) Nếu máy hiển thị $9$ thì em tin kết quả vì máy không bao giờ
 ::key Đ S Đ S
 a) Đúng: $36:0{,}4=360:4=90$. b) Sai: chia cho số bé hơn $1$ thì kết quả lớn hơn $36$. c) Đúng: $0{,}4<0{,}5$ nên thương lớn hơn $72$. d) Sai: máy chỉ làm đúng điều em bấm, nên em phải ước lượng để kiểm tra.
 
-::sa
+::sa TH
 Dùng máy tính tính $78{,}4:1{,}6$.
 ::key 49
 $78{,}4:1{,}6=784:16=49$.
 
-::sa
+::sa TH
 Làm tròn $100:3$ đến hàng phần mười.
 ::key 33,3
 $100:3=33{,}333\ldots$; chữ số hàng phần trăm là $3<5$ nên được $33{,}3$.

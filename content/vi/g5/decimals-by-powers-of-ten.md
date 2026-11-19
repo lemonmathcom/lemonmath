@@ -367,7 +367,7 @@ Coi số cũ là $1$ phần thì số mới là $10$ phần, nên số mới hơ
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $3{,}57\times100$ là
 A. $35{,}7$.
 B. $3570$.
@@ -376,7 +376,7 @@ D. $0{,}0357$.
 ::key C
 Chuyển dấu phẩy sang phải hai chữ số: $3{,}57\times100=357$. Phương án A chỉ chuyển một chữ số; B thêm chữ số $0$ thừa; C chuyển dấu phẩy sang trái.
 
-::mc
+::mc NB
 Kết quả của $45{,}6:100$ là
 A. $4{,}56$.
 B. $456$.
@@ -385,7 +385,7 @@ D. $0{,}456$.
 ::key D
 Chuyển dấu phẩy sang trái hai chữ số: $45{,}6:100=0{,}456$. Phương án A chỉ chuyển một chữ số; C và B chuyển dấu phẩy sang phải.
 
-::mc
+::mc TH
 Kết quả của $56\times0{,}01$ là
 A. $0{,}56$.
 B. $5{,}6$.
@@ -394,7 +394,7 @@ D. $0{,}056$.
 ::key A
 Nhân với $0{,}01$ là chia cho $100$: $56:100=0{,}56$. Phương án B nhân với $0{,}1$; C nhân với $100$; D chuyển dấu phẩy ba chữ số.
 
-::mc
+::mc TH
 Số đo $0{,}35$ kg đổi ra gam là
 A. $3{,}5$ g.
 B. $350$ g.
@@ -403,7 +403,7 @@ D. $3500$ g.
 ::key B
 $1$ kg $=1000$ g nên $0{,}35\times1000=350$ g. Phương án A và C chuyển dấu phẩy thiếu chữ số; D chuyển thừa chữ số.
 
-::tf
+::tf NB NB TH TH
 Em xét số $4{,}5$.
 a) $4{,}5\times100=450$.
 b) $4{,}5:10=0{,}45$.
@@ -412,12 +412,12 @@ d) $4{,}5:0{,}1=45$.
 ::key Đ Đ S Đ
 a) Đúng: chuyển dấu phẩy sang phải hai chữ số. b) Đúng: chuyển dấu phẩy sang trái một chữ số. c) Sai: nhân với $0{,}1$ là chia cho $10$, kết quả là $0{,}45$. d) Đúng: chia cho $0{,}1$ là nhân với $10$.
 
-::sa
+::sa TH
 Tính $0{,}082\times1000$.
 ::key 82
 Chuyển dấu phẩy sang phải ba chữ số: $0{,}082\times1000=82$.
 
-::sa
+::sa TH
 Tính $3{,}6:0{,}01$.
 ::key 360
 Chia cho $0{,}01$ là nhân với $100$: $3{,}6\times100=360$.

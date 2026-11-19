@@ -335,7 +335,7 @@ $AC=\sqrt{9+16}=5$. Since $\angle SCA=45^\circ$, triangle $SAC$ is right isoscel
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The volume of a prism with base area $B$ and height $h$ is
 A. $\dfrac13Bh$.
 B. $Bh$.
@@ -344,7 +344,7 @@ D. $B+h$.
 ::key B
 This is the prism formula. Option A is the pyramid, and C and D are not volume formulas.
 
-::mc
+::mc NB
 A cuboid has dimensions $7$, $3$, $2$. Its volume is
 A. $12$.
 B. $21$.
@@ -353,7 +353,7 @@ D. $84$.
 ::key C
 $V=7\cdot3\cdot2=42$. Option A is the sum, B omits one dimension, and D is a doubled product.
 
-::mc
+::mc NB
 A pyramid has base area $12$ and height $5$. Its volume is
 A. $60$.
 B. $30$.
@@ -362,7 +362,7 @@ D. $20$.
 ::key D
 $V=\dfrac13\cdot12\cdot5=20$. Option A omits the factor $\dfrac13$, B is half the product, and C is the sum.
 
-::mc
+::mc TH
 A right prism has a base that is an equilateral triangle of side $4$ and has height $5$. Its volume is
 A. $20\sqrt3$.
 B. $10\sqrt3$.
@@ -371,7 +371,7 @@ D. $40\sqrt3$.
 ::key A
 $B=\dfrac{\sqrt3}{4}\cdot16=4\sqrt3$ and $V=4\sqrt3\cdot5=20\sqrt3$. Option C ignores the base area, and B and D have the wrong factor.
 
-::tf
+::tf NB NB TH TH
 Decide whether each statement is true or false:
 a) The volume of a cube of edge $a$ is $a^3$.
 b) The volume of a pyramid is $Bh$.
@@ -380,12 +380,12 @@ d) $1$ m$^3$ equals $100$ litres.
 ::key T F T F
 a) True. b) False: the factor $\dfrac13$ is needed. c) True. d) False: $1$ m$^3=1000$ litres.
 
-::sa
+::sa TH
 A cube has edge $2.5$. Find its volume, to the nearest tenth.
 ::key 15.6
 $V=2.5^3=15.625\approx15.6$.
 
-::sa
+::sa VD
 Suppose a container is a frustum of a regular pyramid with a bottom that is a square of side $2$ m, a top that is a square of side $1$ m, and a height of $0.9$ m. Find its volume in cubic metres.
 ::key 2.1
 $V=\dfrac13\cdot0.9\cdot(4+2+1)=0.3\cdot7=2.1$.

@@ -407,7 +407,7 @@ So $A$, $B$, $C$ are collinear (all lie on the line $y=2x+1$).
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The gradient of the line $y=4-2x$ is
 A. $4$.
 B. $2$.
@@ -416,7 +416,7 @@ D. $-2$.
 ::key D
 Writing $y=-2x+4$ gives $a=-2$. A takes the constant term, B drops the sign, C gets both sign and value wrong.
 
-::mc
+::mc TH
 The line through $A(1, 2)$ and $B(3, 8)$ has gradient
 A. $3$.
 B. $6$.
@@ -425,7 +425,7 @@ D. $2$.
 ::key A
 $a=\dfrac{8-2}{3-1}=3$. B forgets to divide, C inverts the ratio, D confuses it with $3-1$.
 
-::mc
+::mc TH
 Which pair of lines is parallel?
 A. $y=2x+1$ and $y=-2x+1$.
 B. $y=2x+1$ and $y=2x-4$.
@@ -434,7 +434,7 @@ D. $y=2x+1$ and $y=2x+1$.
 ::key B
 Both lines have $a=2$ and different $b$. A and C intersect (different gradients), D coincide.
 
-::mc
+::mc TH
 The line with gradient $-2$ passing through $(0, 3)$ has equation
 A. $y=3x-2$.
 B. $y=-2x-3$.
@@ -443,7 +443,7 @@ D. $y=2x+3$.
 ::key C
 The gradient is $a=-2$ and the $y$-coordinate where it meets the $y$-axis is $b=3$. A swaps the two coefficients, B gets the sign of $b$ wrong, D gets the sign of $a$ wrong.
 
-::tf
+::tf NB TH TH TH
 Let $d: y=-3x+6$. Decide whether each statement is true or false.
 a) The gradient of $d$ is $-3$.
 b) $d$ rises from left to right.
@@ -452,12 +452,12 @@ d) $d$ is parallel to the line $y=-3x+2$.
 ::key T F T T
 a) True. b) False: $a=-3<0$, so $d$ falls. c) True: $x=0$ gives $y=6$. d) True: same $a=-3$ and $6\neq2$.
 
-::sa
+::sa TH
 What is the gradient of the line through $A(2, 1)$ and $B(6, 9)$?
 ::key 2
 $a=\dfrac{9-1}{6-2}=2$.
 
-::sa
+::sa VD
 A road climbs $2$ m while moving $25$ m horizontally. What is its gradient (steepness) as a decimal?
 ::key 0.08
 $\dfrac{2}{25}=0.08$.

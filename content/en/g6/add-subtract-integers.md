@@ -532,7 +532,7 @@ So the sum of all the integers $x$ such that $-7<x\le5$ is $-6$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The value of $(-25)+(-15)$ is
 A. $-10$.
 B. $40$.
@@ -541,7 +541,7 @@ D. $10$.
 ::key C
 $(-25)+(-15)=-(25+15)=-40$. A takes the difference instead of the sum; B forgets the "$-$" sign; D takes the difference and gets the sign wrong.
 
-::mc
+::mc TH
 The value of $(-18)+11$ is
 A. $-7$.
 B. $7$.
@@ -550,7 +550,7 @@ D. $29$.
 ::key A
 The signs are different and $18>11$, so the sum is $-(18-11)=-7$. B has the wrong sign; C adds the number parts as if the signs were the same; D adds the number parts and drops the sign.
 
-::mc
+::mc TH
 The value of $5-(-8)$ is
 A. $-3$.
 B. $3$.
@@ -559,7 +559,7 @@ D. $13$.
 ::key D
 $5-(-8)=5+8=13$. A works out $5-8$, forgetting to change the sign; B works out $8-5$; C changes the signs of both numbers wrongly.
 
-::mc
+::mc TH
 For integers $a$, $b$, $c$, the expression $a-(b-c)$ equals
 A. $a-b-c$.
 B. $a-b+c$.
@@ -568,7 +568,7 @@ D. $a+b+c$.
 ::key B
 There is a "$-$" sign in front of the brackets, so both terms change sign: $a-(b-c)=a-b+c$. A changes only the first term; C changes the signs the wrong way round; D gets both wrong.
 
-::tf
+::tf TH TH VD NB
 Decide whether each statement is true or false.
 a) The sum of a positive integer and a negative integer is always a positive integer.
 b) The sum of two negative integers is a negative integer.
@@ -577,12 +577,12 @@ d) Two opposite integers add up to $0$.
 ::key F T F T
 a) False: for example, $3+(-5)=-2$ is negative. b) True: $(-a)+(-b)=-(a+b)$. c) False: for example, $(-2)-(-5)=3$ is positive. d) True: $a+(-a)=0$.
 
-::sa
+::sa VD
 Work out the value of $(-120)+75-(-45)$.
 ::key 0
 $(-120)+75-(-45)=(-120)+75+45=(-120)+120=0$.
 
-::sa
+::sa VD
 At $5$ a.m. the temperature is $-6^\circ\text{C}$, and at midday it is $4^\circ\text{C}$. By how many degrees Celsius did the temperature rise from $5$ a.m. to midday?
 ::key 10
 The rise equals the later temperature minus the earlier one: $4-(-6)=4+6=10$ (degrees Celsius).

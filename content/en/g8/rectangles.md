@@ -403,7 +403,7 @@ So triangle $ABC$ has a right angle at $A$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A rectangle has sides $6$ cm and $8$ cm. Its diagonal is
 A. $10$ cm.
 B. $14$ cm.
@@ -412,7 +412,7 @@ D. $100$ cm.
 ::key A
 $d=\sqrt{6^2+8^2}=\sqrt{100}=10$ cm. A adds the two sides, C is a wrong value, D forgets to take the square root.
 
-::mc
+::mc TH
 Which quadrilateral is certainly a rectangle?
 A. A quadrilateral with two right angles.
 B. A quadrilateral with three right angles.
@@ -421,7 +421,7 @@ D. A quadrilateral with equal diagonals.
 ::key B
 A quadrilateral with three right angles has a fourth right angle, so it is a rectangle. A holds for a right trapezium, D holds for an isosceles trapezium, C holds for a rhombus.
 
-::mc
+::mc TH
 The triangle $ABC$ has a right angle at $A$ and $BC=20$ cm; $M$ is the midpoint of $BC$. The length $AM$ equals
 A. $40$ cm.
 B. $20$ cm.
@@ -430,7 +430,7 @@ D. $5$ cm.
 ::key C
 The median to the hypotenuse is half the hypotenuse: $AM=20\div2=10$ cm. B is the hypotenuse, A is twice the hypotenuse, D divides by $4$ by mistake.
 
-::mc
+::mc NB
 Which statement is true for every rectangle?
 A. The diagonals are perpendicular.
 B. The diagonals are not equal.
@@ -439,7 +439,7 @@ D. The diagonals are equal and bisect each other.
 ::key D
 The diagonals of a rectangle are equal and bisect each other. A and C hold only for a square, and B contradicts the property of the diagonals.
 
-::tf
+::tf TH TH TH NB
 The rectangle $ABCD$ has $AB=12$ cm and $BC=5$ cm, with diagonals meeting at $O$.
 a) $AC=BD=13$ cm.
 b) $OA=6$ cm.
@@ -448,12 +448,12 @@ d) The perimeter is $34$ cm.
 ::key T F F T
 a) True: $\sqrt{144+25}=13$. b) False: $OA=13\div2=6.5$ cm. c) False: the diagonals are not perpendicular because the adjacent sides are different. d) True: $2(12+5)=34$.
 
-::sa
+::sa TH
 A rectangle has sides $9$ cm and $12$ cm. Find the length of the diagonal (cm).
 ::key 15
 $d=\sqrt{81+144}=\sqrt{225}=15$ cm.
 
-::sa
+::sa TH
 A right triangle has a hypotenuse of $14$ cm. Find the length of the median to the hypotenuse (cm).
 ::key 7
 The median to the hypotenuse is half the hypotenuse: $14\div2=7$ cm.

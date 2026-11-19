@@ -440,7 +440,7 @@ $X$ luôn chứa $1$ và $2$; mỗi phần tử $3$, $4$, $5$ có thể lấy ho
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Cho $A=\{x\in\mathbb{Z}\mid -2\le x<3\}$. Số phần tử của $A$ là
 A. $4$.
 B. $5$.
@@ -449,7 +449,7 @@ D. $3$.
 ::key B
 $A=\{-2, -1, 0, 1, 2\}$ có $5$ phần tử. Đếm cả $3$ (dấu "$<$" không lấy $3$) thì ra $6$; bỏ $-2$ thì ra $4$.
 
-::mc
+::mc TH
 Cho $A=(-1; 4]$ và $B=[2; 6)$. Tập $A\cap B$ là
 A. $[2; 4]$.
 B. $(2; 4)$.
@@ -458,7 +458,7 @@ D. $[2; 4)$.
 ::key A
 Ta cần $-1<x\le 4$ và $2\le x<6$, tức $2\le x\le 4$. Cả $2$ và $4$ đều thuộc hai tập nên được lấy; $(-1; 6)$ là hợp chứ không phải giao.
 
-::mc
+::mc NB
 Phần bù của $[1; +\infty)$ trong $\mathbb{R}$ là
 A. $(-\infty; 1]$.
 B. $(-\infty; 1)$.
@@ -467,7 +467,7 @@ D. $(-\infty; -1)$.
 ::key B
 Phần bù gồm các số thực không thuộc $[1; +\infty)$, tức $x<1$. Điểm $1$ thuộc tập đã cho nên không thuộc phần bù.
 
-::mc
+::mc TH
 Cho $A=\{1, 2, 3, 4, 5\}$ và $B$ là tập các ước tự nhiên của $6$. Tập $A\setminus B$ là
 A. $\{4, 5\}$.
 B. $\{6\}$.
@@ -476,7 +476,7 @@ D. $\{4, 5, 6\}$.
 ::key A
 $B=\{1, 2, 3, 6\}$. $A\setminus B$ gồm các phần tử thuộc $A$ mà không thuộc $B$: $4$ và $5$. Phương án B là $B\setminus A$, phương án C là $A\cap B$.
 
-::tf
+::tf TH TH TH VD
 Cho $A=[-2; 3)$ và $B=(0; 5]$.
 a) $A\cup B=[-2; 5]$.
 b) $A\cap B=[0; 3)$.
@@ -485,12 +485,12 @@ d) $B\setminus A$ chứa đúng $3$ số nguyên.
 ::key Đ S Đ Đ
 a) Đúng: hai đoạn nối liền từ $-2$ (lấy) đến $5$ (lấy). b) Sai: $0\notin B$ nên $A\cap B=(0; 3)$. c) Đúng: $0\notin B$ nên $0$ vẫn ở lại trong $A\setminus B$. d) Đúng: $B\setminus A=[3; 5]$ chứa $3, 4, 5$.
 
-::sa
+::sa VD
 Có bao nhiêu tập hợp $X$ là tập con của $\{1, 2, 3, 4, 5, 6\}$, chứa phần tử $1$ nhưng không chứa phần tử $6$?
 ::key 16
 Phần tử $1$ bắt buộc có, phần tử $6$ bắt buộc không có. Mỗi phần tử $2, 3, 4, 5$ có $2$ cách (lấy hoặc không), nên có $2^4=16$ tập.
 
-::sa
+::sa VD
 Lớp 10B có $40$ học sinh, trong đó $25$ bạn thích môn Toán, $18$ bạn thích môn Văn và $7$ bạn thích cả hai môn. Có bao nhiêu bạn thích **đúng một** trong hai môn?
 ::key 29
 Chỉ thích Toán: $25-7=18$; chỉ thích Văn: $18-7=11$. Thích đúng một môn: $18+11=29$ bạn (cộng $25+18-7=36$ là số bạn thích ít nhất một môn).

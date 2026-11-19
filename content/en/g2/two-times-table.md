@@ -337,7 +337,7 @@ $$5\times9=45.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $2\times6$ equals
 A. $8$.
 B. $10$.
@@ -346,7 +346,7 @@ D. $14$.
 ::key C
 $2\times6=2\times5+2=10+2=12$. Option B is $2\times5$.
 
-::mc
+::mc NB
 $5\times4$ equals
 A. $9$.
 B. $25$.
@@ -355,7 +355,7 @@ D. $20$.
 ::key D
 $5\times4=5+5+5+5=20$. Option B is $5\times5$ and option C is $5\times3$.
 
-::mc
+::mc TH
 Each pair of shoes has 2 shoes. 7 pairs of shoes have
 A. $14$ shoes.
 B. $9$ shoes.
@@ -364,7 +364,7 @@ D. $12$ shoes.
 ::key A
 $2\times7=14$. Option B is the addition $2+7$.
 
-::mc
+::mc TH
 The long hand of a clock points to 6. The number of minutes that have passed is
 A. $6$ minutes.
 B. $30$ minutes.
@@ -373,7 +373,7 @@ D. $25$ minutes.
 ::key B
 $5\times6=30$ (minutes). Option A reads the number as the number of minutes.
 
-::tf
+::tf NB NB NB NB
 Look at the 2 times table and the 5 times table.
 a) $2\times7=16$.
 b) $5\times5=20$.
@@ -382,12 +382,12 @@ d) $5\times10=45$.
 ::key F F T F
 a) False: $2\times7=14$. b) False: $5\times5=25$. c) True: $2\times8=16$. d) False: $5\times10=50$.
 
-::sa
+::sa NB
 Work out $5\times6$.
 ::key 30
 $5\times6=30$.
 
-::sa
+::sa VD
 Each pair of shoes has 2 shoes. How many shoes do 8 pairs have altogether?
 ::key 16
 $2\times8=16$ (shoes).

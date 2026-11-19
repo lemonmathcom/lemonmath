@@ -328,7 +328,7 @@ b) The rows still to make: $10-7=3$ (rows). The pupils already placed: $6\times7
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $6\times5$ equals
 A. $11$.
 B. $30$.
@@ -337,7 +337,7 @@ D. $25$.
 ::key B
 $6\times5=6\times4+6=24+6=30$. Option A is the mistake of adding $6+5$.
 
-::mc
+::mc NB
 $6\times8$ equals
 A. $42$.
 B. $54$.
@@ -346,7 +346,7 @@ D. $14$.
 ::key C
 $6\times8=42+6=48$. Option A is $6\times7$, missing one group of $6$.
 
-::mc
+::mc NB
 $54\div6$ equals
 A. $8$.
 B. $9$.
@@ -355,7 +355,7 @@ D. $48$.
 ::key B
 Since $6\times9=54$, we have $54\div6=9$. Option A comes from remembering $6\times8=48$ by mistake.
 
-::mc
+::mc TH
 Each box holds $6$ cakes. How many cakes are in $7$ such boxes?
 A. $13$ cakes.
 B. $36$ cakes.
@@ -364,7 +364,7 @@ D. $48$ cakes.
 ::key C
 $7$ groups of $6$: $6\times7=42$. Option A is the mistake of adding $6+7$.
 
-::tf
+::tf TH NB TH NB
 Look at the multiplication $6\times6=36$.
 a) $6\times6=6\times5+6$.
 b) $36\div6=6$.
@@ -373,12 +373,12 @@ d) $6\times6$ is less than $30$.
 ::key T T F F
 a) True: $30+6=36$. b) True: $6\times6=36$. c) False: $36\div9=4$. d) False: $36>30$.
 
-::sa
+::sa NB
 Work out $6\times9$.
 ::key 54
 $6\times9=6\times10-6=60-6=54$.
 
-::sa
+::sa TH
 $48$ eggs are put into trays of $6$. How many trays are filled?
 ::key 8
 $48\div6=8$ (trays), because $6\times8=48$.

@@ -376,7 +376,7 @@ There are $5+3=8$ red and blue marbles. They make $2$ of $3$ equal shares, so on
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Roll a fair die. The probability that the score is divisible by $3$ is
 A. $\dfrac13$.
 B. $\dfrac16$.
@@ -385,7 +385,7 @@ D. $2$.
 ::key A
 The scores $3, 6$ are favourable, so $P=\dfrac26=\dfrac13$. Option B forgets the $6$, and option D only counts the favourable outcomes without dividing by $6$.
 
-::mc
+::mc TH
 A box holds $8$ red and $12$ blue marbles. One marble is taken at random. The probability of a red marble is
 A. $\dfrac23$.
 B. $\dfrac25$.
@@ -394,7 +394,7 @@ D. $\dfrac12$.
 ::key B
 $n=8+12=20$, so $P=\dfrac{8}{20}=\dfrac25$. Option A works out $\dfrac{8}{12}$ (dividing by the number of blue marbles), C is the probability of a blue marble, and D treats the two colours as equally likely.
 
-::mc
+::mc NB
 Which of these values cannot be the probability of an event?
 A. $0$.
 B. $\dfrac34$.
@@ -403,7 +403,7 @@ D. $1$.
 ::key C
 A probability always lies between $0$ and $1$, but $\dfrac54>1$. Such a value appears when the ratio is written upside down as $\dfrac{n}{k}$.
 
-::mc
+::mc TH
 One card is drawn at random from $30$ cards numbered from $1$ to $30$. The probability that the card shows a number divisible by $5$ is
 A. $\dfrac16$.
 B. $\dfrac13$.
@@ -412,7 +412,7 @@ D. $\dfrac15$.
 ::key D
 The numbers $5, 10, 15, 20, 25, 30$ are favourable: $k=6$, so $P=\dfrac{6}{30}=\dfrac15$. Option C counts only one outcome; D is the probability of a number divisible by $3$ ($k=10$).
 
-::tf
+::tf TH TH NB TH
 A box holds $3$ white, $5$ black and $2$ yellow marbles. One marble is taken at random.
 a) The probability of a black marble is $\dfrac12$.
 b) The probability of a white marble is $\dfrac37$.
@@ -421,12 +421,12 @@ d) The probability of a yellow marble is greater than the probability of a white
 ::key T F T F
 a) True: $\dfrac{5}{10}=\dfrac12$. b) False: there are $10$ marbles in total, so $P=\dfrac{3}{10}$. c) True: the box has no green marbles. d) False: $\dfrac{2}{10}<\dfrac{3}{10}$.
 
-::sa
+::sa TH
 A box holds $25$ marbles, $10$ of them red. One marble is taken at random. What is the probability of a red marble? (Write it as a decimal.)
 ::key 0.4
 $P=\dfrac{10}{25}=\dfrac25=0.4$.
 
-::sa
+::sa VD
 A class has $36$ students. The probability of choosing a girl at random is $\dfrac59$. How many girls are in the class?
 ::key 20
 The number of girls is $k=36\times\dfrac59=20$. Check: $\dfrac{20}{36}=\dfrac59$.

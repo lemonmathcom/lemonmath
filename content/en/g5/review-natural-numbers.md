@@ -328,7 +328,7 @@ The digit sum is $4+a+5=9+a$. For this to be divisible by $9$, $a$ must be $0$ o
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The number "two million three hundred and five thousand four hundred" is written
 A. $2\,350\,400$.
 B. $2\,035\,400$.
@@ -337,7 +337,7 @@ D. $2\,305\,040$.
 ::key C
 Two million is $2$, three hundred and five thousand is $305$ thousand, four hundred is $400$: $2\,305\,400$.
 
-::mc
+::mc TH
 $3\,467\,000$ rounded to the nearest hundred thousand is
 A. $3\,400\,000$.
 B. $3\,460\,000$.
@@ -346,7 +346,7 @@ D. $3\,500\,000$.
 ::key D
 The ten thousands digit is $6\geq5$, so increase the hundred thousands digit $4$ by $1$ to make $5$: $3\,500\,000$.
 
-::mc
+::mc TH
 The value of the expression $20-18\div3+4\times2$ is
 A. $22$.
 B. $30$.
@@ -355,7 +355,7 @@ D. $14$.
 ::key A
 $18\div3=6$ and $4\times2=8$, so $20-6+8=22$. Do multiplication and division first, then addition and subtraction from left to right.
 
-::mc
+::mc TH
 Which of these numbers is divisible by both $2$ and $9$?
 A. $4\,325$.
 B. $4\,320$.
@@ -364,7 +364,7 @@ D. $4\,322$.
 ::key B
 $4\,320$ ends in $0$ and its digit sum is $9$. Option A is odd, option C is odd and has digit sum $12$, and option D has digit sum $11$.
 
-::tf
+::tf NB TH NB TH
 Look at the number $4\,320$.
 a) The digit sum of $4\,320$ is $10$.
 b) $4\,320$ is divisible by $9$.
@@ -373,12 +373,12 @@ d) $4\,320$ rounded to the nearest thousand is $5\,000$.
 ::key F T T F
 a) False: $4+3+2+0=9$. b) True: the digit sum is $9$. c) True: it ends in $0$. d) False: the hundreds digit is $3<5$, so we get $4\,000$.
 
-::sa
+::sa VD
 Work out $125\times8-360\div6$.
 ::key 940
 $125\times8=1\,000$ and $360\div6=60$, so $1\,000-60=940$.
 
-::sa
+::sa VD
 A store room has $5\,000$ kg of rice. A shop sells rice $3$ times, $1\,250$ kg each time. How many kilograms of rice are left in the store room?
 ::key 1250
 The rice sold is $1\,250\times3=3\,750$ (kg). The rice left is $5\,000-3\,750=1\,250$ (kg).

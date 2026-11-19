@@ -319,7 +319,7 @@ So $BC=12$ cm.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Consider the circles $(O, 8\text{ cm})$ and $(O', 3\text{ cm})$ with $OO'=5$ cm. The relative position of the two circles is that they
 A. intersect.
 B. touch externally.
@@ -328,7 +328,7 @@ D. lie one inside the other.
 ::key C
 $OO'=8-3=R-r$, so the circles touch internally. B confuses it with $R+r=11$.
 
-::mc
+::mc TH
 Consider the circles $(O, 6\text{ cm})$ and $(O', 2\text{ cm})$ with $OO'=3$ cm. The relative position of the two circles is that they
 A. intersect.
 B. touch internally.
@@ -337,7 +337,7 @@ D. lie one inside the other.
 ::key D
 $OO'=3<R-r=4$, so $(O')$ lies inside $(O)$. A only compares with $R+r$.
 
-::mc
+::mc VD
 The circles $(O, 5\text{ cm})$ and $(O', 5\text{ cm})$ intersect at $A$ and $B$, with $OO'=6$ cm. The length of the common chord $AB$ is
 A. $4$ cm.
 B. $8$ cm.
@@ -346,7 +346,7 @@ D. $2\sqrt{34}$ cm.
 ::key B
 $OH=3$ cm, so $AH=\sqrt{25-9}=4$ cm and $AB=8$ cm. A forgets to double, and D adds under the root.
 
-::mc
+::mc NB
 The circles $(O, 7\text{ cm})$ and $(O', 2\text{ cm})$ touch externally. The distance $OO'$ is
 A. $5$ cm.
 B. $9$ cm.
@@ -355,7 +355,7 @@ D. $4.5$ cm.
 ::key B
 Touching externally gives $OO'=R+r=9$ cm. A is the case of touching internally.
 
-::tf
+::tf TH NB TH VD
 Consider the circles $(O, 5\text{ cm})$ and $(O', 3\text{ cm})$ with $OO'=4$ cm. Decide whether each statement is true or false.
 a) The two circles intersect.
 b) The line of centres $OO'$ is perpendicular to the common chord.
@@ -364,12 +364,12 @@ d) The common chord has length $6$ cm.
 ::key T T F T
 a) True: $2<4<8$. b) True: $OO'$ is the perpendicular bisector of the common chord. c) False: $4\neq R-r$. d) True: $25-x^2=9-(4-x)^2$ gives $x=4$, so $H$ is $O'$ and $AH=3$.
 
-::sa
+::sa TH
 The circle $(O, 10\text{ cm})$ touches the circle $(O', r)$ internally, with $r<10$ cm and $OO'=3.5$ cm. Find $r$ (in cm).
 ::key 6.5
 Touching internally gives $10-r=3.5$, so $r=6.5$ cm.
 
-::sa
+::sa VDC
 The circles $(O, 8\text{ cm})$ and $(O', 2\text{ cm})$ touch externally. A common tangent touches the two circles at $B$ and $C$ and does not pass through the point where the circles touch. Find $BC$ (in cm).
 ::key 8
 $OO'=10$ cm and $OK=8-2=6$ cm, so $BC=\sqrt{10^2-6^2}=8$ cm.

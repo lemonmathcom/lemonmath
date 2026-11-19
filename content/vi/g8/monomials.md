@@ -401,7 +401,7 @@ Với $x=2$, $y=-1$: $M=-2\cdot4\cdot1=-8$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Biểu thức nào sau đây là đơn thức?
 A. $x+3$.
 B. $\dfrac{2}{x}$.
@@ -410,7 +410,7 @@ D. $x^2-y$.
 ::key C
 $-4xy^2$ là tích của số $-4$ và các biến. A và D có phép cộng, trừ; B có biến ở mẫu.
 
-::mc
+::mc NB
 Bậc của đơn thức $-3x^2y^4$ là
 A. $8$.
 B. $6$.
@@ -419,7 +419,7 @@ D. $-3$.
 ::key B
 Bậc là tổng các số mũ: $2+4=6$. Phương án A là nhân các số mũ, C chỉ lấy số mũ lớn nhất, D lấy hệ số.
 
-::mc
+::mc TH
 Kết quả của $5x^2y+3x^2y-x^2y$ là
 A. $8x^2y$.
 B. $9x^2y$.
@@ -428,7 +428,7 @@ D. $7x^4y^2$.
 ::key C
 Cộng các hệ số: $5+3-1=7$, giữ nguyên phần biến. Phương án A bỏ sót dấu trừ, B coi $-x^2y$ là $+x^2y$, D cộng cả số mũ.
 
-::mc
+::mc TH
 Kết quả của $(-2x^2y)\cdot(4xy^3)$ là
 A. $-8x^3y^4$.
 B. $-8x^2y^3$.
@@ -437,7 +437,7 @@ D. $-8x^3y^3$.
 ::key A
 Hệ số: $-2\cdot4=-8$. Số mũ: $x$ có $2+1=3$, $y$ có $1+3=4$. Phương án C cộng các hệ số, B và D cộng sai số mũ.
 
-::tf
+::tf NB NB NB TH
 Cho đơn thức $A=-\dfrac32x^2y^3$.
 a) Hệ số của $A$ là $-\dfrac32$.
 b) Phần biến của $A$ là $x^2y^3$.
@@ -446,12 +446,12 @@ d) $A$ đồng dạng với đơn thức $4y^3x^2$.
 ::key Đ Đ S Đ
 a) Đúng: số đứng đầu là $-\dfrac32$. b) Đúng. c) Sai: bậc là $2+3=5$. d) Đúng: $4y^3x^2=4x^2y^3$ cùng phần biến với $A$.
 
-::sa
+::sa TH
 Thu gọn $2x^3y\cdot(-5xy^2)$. Bậc của đơn thức nhận được là bao nhiêu?
 ::key 7
 $2x^3y\cdot(-5xy^2)=-10x^4y^3$, bậc là $4+3=7$.
 
-::sa
+::sa TH
 Tính giá trị của đơn thức $-2x^2y$ tại $x=3$, $y=-1$.
 ::key 18
 $-2\cdot3^2\cdot(-1)=-2\cdot9\cdot(-1)=18$.

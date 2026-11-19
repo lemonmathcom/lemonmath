@@ -8,7 +8,7 @@ type: exam
 The paper has $22$ questions to be done in $90$ minutes, in three parts: Part I has $12$ multiple-choice questions ($0.25$ points each), Part II has $4$ true/false questions (up to $1$ point each) and Part III has $6$ short-answer questions ($0.5$ points each). This is the hardest paper of the series: many statements in Part II and Part III need a careful check of conditions and rounding. Work on the printed sheet first under timed conditions, then enter your answers below to be marked out of $10$.
 
 :::quiz exam
-::mc
+::mc VD
 Consider the function $y=\ln(x^2+1)-x$. Which statement is true?
 A. The function has a local maximum at $x=1$.
 B. The function has two turning points.
@@ -23,7 +23,7 @@ $y'=0$ only at $x=1$ and $y'$ does not change sign there, so the function is dec
 
 Revise: [Revision: derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::mc
+::mc VD
 What is the total number of vertical and horizontal asymptotes of the graph of $y=\dfrac{x+1}{\sqrt{x^2-4}}$?
 A. $1$.
 B. $2$.
@@ -38,7 +38,7 @@ Also $\displaystyle\lim_{x\to2^+}y=+\infty$ and $\displaystyle\lim_{x\to-2^-}y=-
 
 Revise: [Revision: derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::mc
+::mc TH
 The function $y=f(x)$ is continuous on $\mathbb{R}$ and its derivative has the following sign table.
 
 | $x$ | $-\infty$ | | $-2$ | | $1$ | | $3$ | | $+\infty$ |
@@ -55,7 +55,7 @@ On $(-2, 3)$ we have $f'(x)<0$, equal to $0$ only at the single point $x=1$, so 
 
 Revise: [Revision: derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::mc
+::mc TH
 $F(x)$ is an antiderivative of $f(x)=2x+\sin x$ with $F(0)=3$. Then $F(x)$ is
 A. $x^2-\cos x+3$.
 B. $x^2+\cos x+2$.
@@ -70,7 +70,7 @@ So $F(x)=x^2-\cos x+4$. Option A forgets that $\cos0=1$; option B takes the anti
 
 Revise: [Revision: antiderivatives and integrals](lesson:review-integrals).
 
-::mc
+::mc VD
 The value of $\displaystyle\int_0^{\ln2}\big(e^x+1\big)^2\,dx$ is
 A. $5+\ln2$.
 B. $\dfrac{19}{3}$.
@@ -85,7 +85,7 @@ Option A forgets the factor $\dfrac12$ in the antiderivative of $e^{2x}$; option
 
 Revise: [Revision: antiderivatives and integrals](lesson:review-integrals).
 
-::mc
+::mc VD
 In the $Oxyz$ coordinate system, the orthogonal projection of the point $M(3, 3, -1)$ onto the plane $(P)\colon x+2y-2z-2=0$ is the point
 A. $H(2, 1, 1)$.
 B. $H(1, -1, 3)$.
@@ -100,7 +100,7 @@ So $H(2, 1, 1)$. Option C takes $t=1$ by mistake; option B is the reflection of 
 
 Revise: [Revision: coordinates in space](lesson:review-coordinates-space).
 
-::mc
+::mc TH
 In the $Oxyz$ coordinate system, the angle between the line $d\colon\begin{cases}x=1+t\\ y=2\\ z=-t\end{cases}$ and the plane $(P)\colon x+y-3=0$ is
 A. $60^\circ$.
 B. $30^\circ$.
@@ -115,7 +115,7 @@ Option A uses the cosine formula, as for the angle between two lines.
 
 Revise: [Revision: coordinates in space](lesson:review-coordinates-space).
 
-::mc
+::mc VD
 The pyramid $S.ABCD$ has a square base of side $a$, $SA$ is perpendicular to the base and $SA=\dfrac{a\sqrt6}{2}$. The dihedral angle $[S, BD, A]$ measures
 A. $30^\circ$.
 B. $60^\circ$.
@@ -130,7 +130,7 @@ Option A uses $\dfrac{AO}{SA}$ by mistake; option C uses $\angle SBA$ (the dihed
 
 Revise: [Revision: geometry in space](lesson:review-space-geometry).
 
-::mc
+::mc VD
 The right prism $ABC.A'B'C'$ has a base that is a right-angled isosceles triangle with the right angle at $A$, $BC=2a$, and the angle between the line $A'B$ and the base is $60^\circ$. The volume of the prism is
 A. $a^3\sqrt6$.
 B. $\dfrac{a^3\sqrt6}{3}$.
@@ -145,7 +145,7 @@ Option B uses the formula for the volume of a pyramid; option C forgets the fact
 
 Revise: [Revision: geometry in space](lesson:review-space-geometry).
 
-::mc
+::mc TH
 The ages of $40$ members of a tai chi club are shown in the table.
 
 | Age | $[40, 50)$ | $[50, 60)$ | $[60, 70)$ | $[70, 80)$ | $[80, 90)$ |
@@ -166,7 +166,7 @@ Option C is the midpoint of the class; option B divides by the frequency $10$ of
 
 Revise: [Revision: statistics and probability](lesson:review-statistics-probability).
 
-::mc
+::mc TH
 Box I contains $3$ white and $2$ black balls; box II contains $2$ white and $4$ black balls. A fair coin is tossed: on heads a ball is drawn at random from box I, on tails from box II. The probability of drawing a white ball is
 A. $\dfrac{5}{11}$.
 B. $\dfrac{7}{15}$.
@@ -181,7 +181,7 @@ Option A merges the two boxes into one ($5$ white balls out of $11$); option C m
 
 Revise: [Revision: statistics and probability](lesson:review-statistics-probability).
 
-::mc
+::mc VD
 The water level (metres) in a harbour $t$ hours after midnight is modelled by $h(t)=3+2\sin\dfrac{\pi t}{6}$, $0\le t\le24$. In one day, the total time for which the water level is at least $4$ m is
 A. $4$ hours.
 B. $12$ hours.
@@ -196,7 +196,7 @@ For $0\le t\le24$ this gives $t\in[1, 5]\cup[13, 17]$, $8$ hours in total. Optio
 
 Revise: [Revision: trigonometry, exponentials, logarithms and sequences](lesson:review-trig-exp-log-sequences).
 
-::tf
+::tf TH TH VD VDC
 Consider the function $f(x)=(x^2-3)e^x$.
 a) $f'(x)=(x^2+2x-3)e^x$ for all $x\in\mathbb{R}$.
 b) The function has a local maximum at $x=1$.
@@ -213,7 +213,7 @@ d) False: as $x\to-\infty$, $f(x)\to0$, and $f(x)>0$ for $x<-\sqrt3$; $f$ increa
 
 Revise: [Revision: derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::tf
+::tf TH VD VDC VD
 On a straight road, car A travels at a constant $16$ m/s. At time $t=0$ car A passes car B, which is at rest, and car B starts in the same direction with velocity $v_B(t)=2t$ (m/s) for the first $12$ seconds, then keeps a constant $24$ m/s.
 a) In the first $8$ seconds, car B travels $64$ m.
 b) Before car B catches up with car A, the greatest distance between them is $64$ m.
@@ -230,7 +230,7 @@ d) True: $16\cdot18=288$ m and $144+24\cdot6=288$ m.
 
 Revise: [Revision: antiderivatives and integrals](lesson:review-integrals).
 
-::tf
+::tf NB TH VD VD
 In the $Oxyz$ coordinate system (units in metres), the floor of a warehouse is the plane $(Oxy)$. A wireless transmitter at $I(1, -2, 3)$ covers the solid ball with centre $I$ and radius $5$ m.
 a) The sphere bounding the coverage has equation $(x-1)^2+(y+2)^2+(z-3)^2=25$.
 b) The point $A(4, 2, 3)$ is outside the coverage.
@@ -247,7 +247,7 @@ d) True: on the $x$-axis $y=0$ and $z=0$: $(x-1)^2+4+9\le25\iff(x-1)^2\le12$, so
 
 Revise: [Revision: coordinates in space](lesson:review-coordinates-space).
 
-::tf
+::tf TH VD VD VDC
 In a company's mailbox, $30\%$ of emails are spam. An automatic filter flags $92\%$ of spam emails and wrongly flags $4\%$ of ordinary emails. An email is chosen at random.
 a) The probability that the chosen email is flagged is $0.276$.
 b) Given that the email is flagged, the probability that it is spam is greater than $0.9$.
@@ -266,7 +266,7 @@ d) True: the probability of being flagged twice is $0.3\cdot0.92^2=0.25392$ for 
 
 Revise: [Revision: statistics and probability](lesson:review-statistics-probability).
 
-::sa
+::sa VD
 A window frame is a rectangle with a semicircle on top, the diameter of the semicircle being the width of the rectangle. The perimeter of the whole frame (the bottom, the two sides and the arc) is $6$ m. What is the greatest possible area of the window, in square metres (give your answer to two decimal places)?
 ::key 2.52
 Let the radius of the semicircle be $r$ and the height of the rectangle $h$. From the perimeter:
@@ -279,7 +279,7 @@ $S$ is a quadratic with negative $r^2$ coefficient, so it is greatest there (and
 
 Revise: [Revision: optimisation and real-life problems](lesson:review-optimisation-real-life).
 
-::sa
+::sa VD
 The regular square pyramid $S.ABCD$ has base edge $4$ and height $3$. Find the distance from $A$ to the plane $(SCD)$ (give your answer to two decimal places).
 ::key 3.33
 Let $O$ be the centre of the base and $M$ the midpoint of $CD$. The line $AO$ meets $(SCD)$ at $C$ and $AC=2OC$, so $d\big(A,(SCD)\big)=2\,d\big(O,(SCD)\big)$. In the triangle $SOM$, right-angled at $O$, the distance from $O$ is the altitude:
@@ -290,7 +290,7 @@ So $d\big(A,(SCD)\big)=\dfrac{12}{\sqrt{13}}\approx3.33$.
 
 Revise: [Revision: geometry in space](lesson:review-space-geometry).
 
-::sa
+::sa VD
 In the $Oxyz$ coordinate system (units in metres), two drones fly in straight lines at constant speeds at the same time. After $t$ seconds the first drone is at $P(2t, t, 10)$ and the second at $Q(20-t, 2t, 4+t)$. What is the least distance between the two drones, in metres (give your answer to two decimal places)?
 ::key 6.32
 The square of the distance is a quadratic in $t$:
@@ -301,7 +301,7 @@ $PQ^2$ is least, equal to $40$, when $t=6$, so the least distance is $\sqrt{40}=
 
 Revise: [Revision: coordinates in space](lesson:review-coordinates-space).
 
-::sa
+::sa VD
 Two fair dice are rolled. Given that the total score is at least $9$, find the probability that at least one die shows a $6$.
 ::key 0.7
 The event "the total is at least $9$" has $10$ outcomes:
@@ -312,7 +312,7 @@ Of these, $7$ contain a $6$ (all except $(4, 5)$, $(5, 4)$, $(5, 5)$). So the re
 
 Revise: [Revision: statistics and probability](lesson:review-statistics-probability).
 
-::sa
+::sa VD
 A machine part is the solid of revolution formed by rotating the region bounded by $y=1+\sqrt x$, $y=0$, $x=0$, $x=4$ about the $x$-axis (units on each axis in decimetres). Find the volume of the part (in $\text{dm}^3$, to one decimal place).
 ::key 71.2
 Expand the square so that the standard results apply:
@@ -323,7 +323,7 @@ So $V\approx71.2\ \text{dm}^3$.
 
 Revise: [Revision: antiderivatives and integrals](lesson:review-integrals).
 
-::sa
+::sa VDC
 At the start of every month, Lan pays $5$ million đồng into a savings account. The interest rate is $0.5\%$ per month, and the interest at the end of each month is added to the balance. After at least how many months (including the interest for the last month) does the balance reach $100$ million đồng or more?
 ::key 20
 After $n$ months the balance is the sum of a geometric sequence with common ratio $q=1.005$:

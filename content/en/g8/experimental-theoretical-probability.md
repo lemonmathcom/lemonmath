@@ -330,7 +330,7 @@ Comment: $72$ trials are still few, so the experimental probability is not yet r
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A coin is tossed $40$ times and lands heads $18$ times. The experimental probability of heads is
 A. $\dfrac{18}{22}$.
 B. $\dfrac{9}{20}$.
@@ -339,7 +339,7 @@ D. $\dfrac{22}{40}$.
 ::key B
 $\dfrac{18}{40}=\dfrac{9}{20}=0.45$. A divides by the number of tails, C is the theoretical probability, D is the experimental probability of tails.
 
-::mc
+::mc TH
 When the number of trials becomes very large, the experimental probability
 A. gets further from the theoretical probability.
 B. always equals the theoretical probability exactly.
@@ -348,7 +348,7 @@ D. is always larger than the theoretical probability.
 ::key C
 The more trials, the more the proportion settles around the theoretical probability, but it need not equal it exactly.
 
-::mc
+::mc VD
 A factory checks $400$ products and finds $8$ defective. About how many defective products would you predict in a batch of $15\,000$?
 A. $8$.
 B. $150$.
@@ -357,7 +357,7 @@ D. $300$.
 ::key D
 The experimental probability is $\dfrac{8}{400}=0.02$, so $15\,000\cdot0.02=300$. B and C use the wrong proportion.
 
-::mc
+::mc VD
 A box holds $50$ red and white marbles. A marble is taken at random and put back, $100$ times; red comes out $24$ times. The estimated number of red marbles is
 A. $12$.
 B. $24$.
@@ -366,7 +366,7 @@ D. $6$.
 ::key A
 $50\cdot\dfrac{24}{100}=12$. A just takes the number of red draws (forgetting to scale), C and D do not follow any sensible method.
 
-::tf
+::tf NB NB TH TH
 A fair coin is tossed $10$ times and lands heads $7$ times. Decide whether each statement is true or false.
 a) The experimental probability of heads is $0.7$.
 b) The theoretical probability of heads is $0.7$.
@@ -375,12 +375,12 @@ d) On the $11$th toss, the probability of heads is still $\dfrac12$.
 ::key T F F T
 a) True: $\dfrac7{10}$. b) False: the theoretical probability is $\dfrac12$. c) False: $10$ trials are too few to conclude. d) True: the tosses are independent.
 
-::sa
+::sa TH
 A coin is tossed $50$ times and lands heads $27$ times. What is the experimental probability of heads, as a percentage?
 ::key 54
 $\dfrac{27}{50}=54\%$.
 
-::sa
+::sa TH
 The probability that a bulb is faulty is estimated as $2\%$. About how many faulty bulbs are predicted in a batch of $20\,000$?
 ::key 400
 $20\,000\cdot0.02=400$.

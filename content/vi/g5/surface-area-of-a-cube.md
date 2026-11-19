@@ -326,7 +326,7 @@ Ta có $216:54=4$. Cạnh gấp đôi nhưng diện tích gấp $4$ lần, vì d
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hình lập phương có cạnh $6$ cm. Diện tích xung quanh của nó là
 A. $144\ \text{cm}^2$.
 B. $36\ \text{cm}^2$.
@@ -335,7 +335,7 @@ D. $216\ \text{cm}^2$.
 ::key A
 $S_{\text{xq}}=6\times6\times4=144\ (\text{cm}^2)$. Phương án C là lỗi quên nhân hai lần cạnh ($6\times4$); phương án D là diện tích toàn phần.
 
-::mc
+::mc TH
 Hình lập phương có cạnh $8$ cm. Diện tích toàn phần của nó là
 A. $48\ \text{cm}^2$.
 B. $384\ \text{cm}^2$.
@@ -344,7 +344,7 @@ D. $64\ \text{cm}^2$.
 ::key B
 $S_{\text{tp}}=8\times8\times6=384\ (\text{cm}^2)$. Phương án C là diện tích xung quanh; phương án D chỉ là diện tích một mặt.
 
-::mc
+::mc VD
 Một cái hộp hình lập phương không có nắp, cạnh $5$ dm. Diện tích tôn để làm hộp (không tính mép) là
 A. $100\ \text{dm}^2$.
 B. $150\ \text{dm}^2$.
@@ -353,7 +353,7 @@ D. $25\ \text{dm}^2$.
 ::key C
 Hộp có $5$ mặt, mỗi mặt $5\times5=25\ (\text{dm}^2)$, nên cần $25\times5=125\ (\text{dm}^2)$. Phương án A quên mặt đáy, phương án B tính thêm cả nắp.
 
-::mc
+::mc VD
 Diện tích toàn phần của một hình lập phương là $24\ \text{dm}^2$. Cạnh của hình lập phương dài
 A. $144$ dm.
 B. $4$ dm.
@@ -362,7 +362,7 @@ D. $2$ dm.
 ::key D
 Một mặt có diện tích $24:6=4\ (\text{dm}^2)$, và $2\times2=4$ nên cạnh dài $2$ dm. Phương án B dừng ở diện tích một mặt; phương án C chia cho $4$ thay vì $6$.
 
-::tf
+::tf NB TH TH VD
 Hình lập phương có cạnh $3$ cm.
 a) Mỗi mặt có diện tích $9\ \text{cm}^2$.
 b) Diện tích xung quanh bằng $12\ \text{cm}^2$.
@@ -371,12 +371,12 @@ d) Diện tích toàn phần lớn hơn diện tích xung quanh $18\ \text{cm}^2
 ::key Đ S Đ Đ
 a) Đúng: $3\times3=9$. b) Sai: $S_{\text{xq}}=3\times3\times4=36$, không phải $3\times4=12$. c) Đúng: $9\times6=54$. d) Đúng: $54-36=18$, bằng diện tích hai mặt đáy $9\times2$.
 
-::sa
+::sa TH
 Hình lập phương có cạnh $2{,}5$ dm. Tính diện tích toàn phần (đơn vị $\text{dm}^2$, viết dưới dạng số thập phân).
 ::key 37,5
 Một mặt: $2{,}5\times2{,}5=6{,}25$. Vậy $S_{\text{tp}}=6{,}25\times6=37{,}5\ (\text{dm}^2)$.
 
-::sa
+::sa VD
 Diện tích xung quanh của một hình lập phương là $196\ \text{cm}^2$. Cạnh của nó dài bao nhiêu xăng-ti-mét?
 ::key 7
 Một mặt: $196:4=49\ (\text{cm}^2)$. Vì $7\times7=49$ nên cạnh dài $7$ cm.

@@ -331,7 +331,7 @@ $BC\perp AB$ và $BC\perp SA$ nên $BC\perp(SAB)$; hình chiếu của $SC$ lên
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hình chiếu vuông góc của điểm $M$ lên mặt phẳng $(P)$ là
 A. điểm bất kì của $(P)$.
 B. giao điểm của $(P)$ với đường thẳng qua $M$ song song với $(P)$.
@@ -340,7 +340,7 @@ D. trung điểm của một đoạn thẳng trong $(P)$.
 ::key C
 Đó là định nghĩa hình chiếu vuông góc. Các phương án còn lại không xác định một điểm duy nhất theo định nghĩa.
 
-::mc
+::mc TH
 Cho hình chóp $S.ABCD$ có $SA\perp(ABCD)$. Góc giữa $SD$ và $(ABCD)$ là
 A. $\widehat{ASD}$.
 B. $\widehat{SAD}$.
@@ -349,7 +349,7 @@ D. $\widehat{SDA}$.
 ::key D
 Hình chiếu của $SD$ lên đáy là $AD$ nên góc cần tìm là $\widehat{SDA}$. Phương án B là góc vuông, C và A không là góc với hình chiếu.
 
-::mc
+::mc VD
 Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa $BD'$ và $(ABCD)$ có $\tan$ bằng
 A. $\dfrac1{\sqrt2}$.
 B. $\sqrt2$.
@@ -358,7 +358,7 @@ D. $\dfrac{1}{\sqrt3}$.
 ::key A
 Hình chiếu của $BD'$ là $BD=a\sqrt2$ và $DD'=a$, nên $\tan=\dfrac{a}{a\sqrt2}=\dfrac1{\sqrt2}$. Phương án C tương ứng góc $45^\circ$, B là nghịch đảo, D là giá trị khác.
 
-::mc
+::mc TH
 Một dây neo dài $10$ m nối đỉnh cột thẳng đứng cao $6$ m với điểm trên mặt đất phẳng. Góc giữa dây và mặt đất có $\sin$ bằng
 A. $0{,}8$.
 B. $0{,}6$.
@@ -367,7 +367,7 @@ D. $1{,}67$.
 ::key B
 $\sin=\dfrac{\text{chiều cao}}{\text{dây}}=\dfrac6{10}=0{,}6$. Phương án A là $\cos$, C là $\tan$, D là tỉ số lớn hơn $1$ nên không phải $\sin$.
 
-::tf
+::tf NB TH TH TH
 Cho đường thẳng $d$ và mặt phẳng $(P)$. Xét tính đúng sai của các mệnh đề sau:
 a) Nếu $d\perp(P)$ thì góc giữa $d$ và $(P)$ bằng $90^\circ$.
 b) Nếu $d\parallel(P)$ thì góc giữa $d$ và $(P)$ bằng $90^\circ$.
@@ -376,12 +376,12 @@ d) Góc giữa $d$ và $(P)$ là góc giữa $d$ và một đường thẳng b�
 ::key Đ S Đ S
 a) Đúng theo định nghĩa. b) Sai: góc bằng $0^\circ$. c) Đúng: góc thuộc đoạn từ $0^\circ$ đến $90^\circ$. d) Sai: phải dùng hình chiếu của $d$ lên $(P)$.
 
-::sa
+::sa TH
 Giả sử một chiếc thang dài $6$ m dựa vào tường thẳng đứng, chân thang cách tường $3$ m. Tính góc giữa thang và mặt đất theo đơn vị độ.
 ::key 60
 $\cos\varphi=\dfrac36=0{,}5$ nên $\varphi=60^\circ$.
 
-::sa
+::sa VD
 Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $4$, $SA\perp(ABCD)$ và $SA=4$. Tính $\tan$ của góc giữa $SC$ và $(ABCD)$, làm tròn đến hàng phần trăm.
 ::key 0,71
 $AC=4\sqrt2$ nên $\tan=\dfrac4{4\sqrt2}=\dfrac1{\sqrt2}\approx0{,}71$.

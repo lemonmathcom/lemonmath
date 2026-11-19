@@ -359,7 +359,7 @@ The equation for the $x$-coordinates, $x^2-x-2=0$, has roots $x=2$ and $x=-1$, s
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of the following points lies on the graph of $y=-3x^2$?
 A. $(1, 3)$.
 B. $(2, 6)$.
@@ -368,7 +368,7 @@ D. $(-2, 12)$.
 ::key C
 $y(-1)=-3\cdot1=-3$. Option A drops the sign of $a$, B uses $3\cdot2$, and D drops the sign of $a$ and uses $3\cdot4$.
 
-::mc
+::mc TH
 The parabola $y=ax^2$ passes through the point $(-3, -18)$. The value of $a$ is
 A. $2$.
 B. $-6$.
@@ -377,7 +377,7 @@ D. $-2$.
 ::key D
 $-18=a\cdot9$, so $a=-2$. Option A drops the sign, and B and C divide $-18$ by $\pm3$ instead of by $x^2=9$.
 
-::mc
+::mc VD
 The number of intersection points of the parabola $y=x^2$ and the line $y=2x-1$ is
 A. $1$.
 B. $2$.
@@ -386,7 +386,7 @@ D. $3$.
 ::key A
 $x^2-2x+1=0\iff(x-1)^2=0$ has the repeated root $x=1$, so the line is tangent and there is only one common point. Option C confuses this with $\Delta<0$, B with $\Delta>0$, and D is impossible (a quadratic equation has at most two roots).
 
-::mc
+::mc VD
 The $x$-coordinates of the intersection points of the parabola $y=x^2$ and the line $y=x+6$ are
 A. $x=-3$ and $x=2$.
 B. $x=3$ and $x=-2$.
@@ -395,7 +395,7 @@ D. $x=-3$ and $x=-2$.
 ::key B
 $x^2-x-6=0\iff(x-3)(x+2)=0$. Option A changes the sign of both roots, and C and D use wrong roots.
 
-::tf
+::tf TH NB VD TH
 Given the parabola $(P)\colon y=-x^2$ and the line $(d)\colon y=-2x-3$. Decide whether each statement is true or false.
 a) The parabola $(P)$ lies below the $x$-axis, except for the point $O$.
 b) The point $(-1, -1)$ lies on $(P)$.
@@ -404,12 +404,12 @@ d) One intersection point of $(P)$ and $(d)$ is $(3, 9)$.
 ::key T T T F
 a) True: $a=-1<0$, so $y\leq0$. b) True: $y(-1)=-1$. c) True: $-x^2=-2x-3\iff x^2-2x-3=0$ has roots $x=3$ and $x=-1$. d) False: the intersection points are $(3, -9)$ and $(-1, -1)$.
 
-::sa
+::sa VD
 The parabola $y=x^2$ and the line $y=x+2$ meet at two points. Find the sum of the two $x$-coordinates of the intersection points.
 ::key 1
 $x^2-x-2=0$, so by Viète's formulas $x_1+x_2=1$ (the roots are $-1$ and $2$).
 
-::sa
+::sa VD
 The cross-section of a dish is the parabola $y=\dfrac{x^2}8$ (units: dm). The diameter of the opening is $12$ dm. Find the depth of the dish (in dm).
 ::key 4.5
 The edge has $x=6$, so $y=\dfrac{36}8=4.5$.

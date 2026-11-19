@@ -266,7 +266,7 @@ $$100\div80=1.25;\qquad 1.25\times100=125.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $5$ as a percentage of $20$ is
 A. $0.25\%$.
 B. $15\%$.
@@ -275,7 +275,7 @@ D. $400\%$.
 ::key C
 $5\div20=0.25$, and $0.25\times100=25$. Option A forgets to multiply by $100$, option B uses the difference $20-5$, and option D divides the wrong way round ($20\div5$).
 
-::mc
+::mc TH
 Class 5B has $40$ pupils, and $12$ of them belong to the chess club. What percentage of the class belong to the chess club?
 A. $0.3\%$.
 B. $12\%$.
@@ -284,7 +284,7 @@ D. $30\%$.
 ::key D
 $12\div40=0.3$, and $0.3\times100=30$. Option A forgets to multiply by $100$, and option C uses the difference $40-12$.
 
-::mc
+::mc VD
 A piece of cloth is $4$ m long. $80$ cm of it has been used. What percentage of the cloth has been used?
 A. $20\%$.
 B. $2000\%$.
@@ -293,7 +293,7 @@ D. $0.2\%$.
 ::key A
 Convert $4\ \text{m}=400\ \text{cm}$; then $80\div400=0.2$, which is $20\%$. Option B forgets to convert units ($80\div4=20$, then $\times100$), and option C is the cloth that is left.
 
-::mc
+::mc TH
 $3$ as a percentage of $8$ is
 A. $375\%$.
 B. $37.5\%$.
@@ -302,7 +302,7 @@ D. $5\%$.
 ::key B
 $3\div8=0.375$, and $0.375\times100=37.5$. Option A multiplies by $1000$, option C forgets to multiply by $100$, and option D uses the difference $8-3$.
 
-::tf
+::tf TH VD TH TH
 Class 5C has $25$ pupils, and $10$ of them are boys. Look at these statements.
 a) The boys make up $40\%$ of the class.
 b) The girls make up $60\%$ of the class.
@@ -311,12 +311,12 @@ d) The boys and the girls together make up $100\%$ of the class.
 ::key T T F T
 a) True: $10\div25=0.4=40\%$. b) True: there are $25-10=15$ girls and $15\div25=0.6=60\%$. c) False: $10\%$ mixes up the number $10$ with a percentage; the correct value is $40\%$. d) True: $40\%+60\%=100\%$.
 
-::sa
+::sa TH
 Express $21$ as a percentage of $40$. Give the number only, without the $\%$ sign.
 ::key 52.5
 $21\div40=0.525$, and $0.525\times100=52.5$.
 
-::sa
+::sa TH
 A sack holds $25$ kg of rice. $4$ kg has been sold. What percentage of the rice has been sold? Give the number only, without the $\%$ sign.
 ::key 16
 $4\div25=0.16$, and $0.16\times100=16$, so $16\%$.

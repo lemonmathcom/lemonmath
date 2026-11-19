@@ -284,7 +284,7 @@ Vậy $x=2$: đồ thị của $f$ và $f^{-1}$ gặp nhau trên đường thẳ
 :::
 
 :::quiz
-::mc
+::mc TH
 $(x+3)(x-5)$ khai triển thành
 A. $x^2-15$
 B. $x^2+2x-15$
@@ -293,7 +293,7 @@ D. $x^2-2x-15$
 ::key D
 $x^2-5x+3x-15$.
 
-::mc
+::mc NB
 $x^2-49$ phân tích thành
 A. $(x-7)(x+7)$
 B. $(x-7)^2$
@@ -302,7 +302,7 @@ D. $x(x-49)$
 ::key A
 Hiệu hai bình phương.
 
-::mc
+::mc VD
 Số hạng thứ $n$ của dãy $5,\ 8,\ 11,\ 14,\ \dots$ là
 A. $5n$
 B. $3n+5$
@@ -311,7 +311,7 @@ D. $n+3$
 ::key C
 Công sai $3$, và $3(1)+2=5$.
 
-::mc
+::mc TH
 Nếu $f(x)=x+4$ và $g(x)=3x$ thì $gf(1)$ bằng
 A. $7$
 B. $15$
@@ -320,7 +320,7 @@ D. $13$
 ::key B
 $f(1)=5$, rồi $g(5)=15$.
 
-::tf
+::tf TH TH NB TH
 Cho $y=x^2-6x+11=(x-3)^2+2$. Xét tính đúng sai của các mệnh đề sau:
 a) Dạng hoàn thành bình phương là đúng.
 b) Giá trị nhỏ nhất của $y$ là $2$.
@@ -329,12 +329,12 @@ d) Phương trình $x^2-6x+11=0$ có hai nghiệm thực.
 ::key T T T F
 Vì $y\ge2$ nên đồ thị không bao giờ cắt trục hoành.
 
-::sa
+::sa NB
 Với $f(x)=2x-3$, tính $f(5)$.
 ::key 7
 $2(5)-3=7$.
 
-::sa
+::sa VD
 Tìm nghiệm dương của $x^2=x+6$.
 ::key 3
 $(x-3)(x+2)=0$.

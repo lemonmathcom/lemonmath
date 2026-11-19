@@ -304,7 +304,7 @@ Tổng $\ge10$ có $6$ kết quả: $(4,6),(5,5),(6,4),(5,6),(6,5),(6,6)$. Tổn
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Với hai biến cố $A$, $B$ bất kì, $P(A\cup B)$ bằng
 A. $P(A)+P(B)-P(AB)$.
 B. $P(A)+P(B)$.
@@ -313,7 +313,7 @@ D. $P(A)-P(B)$.
 ::key A
 Đó là công thức cộng xác suất. Phương án B chỉ đúng khi xung khắc, C chỉ liên quan đến độc lập.
 
-::mc
+::mc TH
 Gieo một con xúc xắc cân đối. Xác suất số chấm là số nguyên tố hoặc là số chẵn bằng
 A. $\dfrac12$.
 B. $\dfrac56$.
@@ -322,7 +322,7 @@ D. $1$.
 ::key B
 Hợp là $\{2,3,4,5,6\}$ nên $P=\dfrac56$. Phương án A là xác suất số chẵn, C và D không khớp với phép đếm.
 
-::mc
+::mc VD
 Gieo một con xúc xắc cân đối hai lần. Xác suất ít nhất một lần ra $6$ chấm bằng
 A. $\dfrac13$.
 B. $\dfrac{25}{36}$.
@@ -331,7 +331,7 @@ D. $\dfrac16$.
 ::key C
 $1-\left(\dfrac56\right)^2=\dfrac{11}{36}$. Phương án A là tổng sai, B là xác suất không ra $6$ lần nào, D là một lần.
 
-::mc
+::mc VD
 Giả sử hai xạ thủ bắn độc lập với xác suất trúng lần lượt là $0{,}6$ và $0{,}5$. Xác suất có ít nhất một người bắn trúng bằng
 A. $1{,}1$.
 B. $0{,}3$.
@@ -340,7 +340,7 @@ D. $0{,}8$.
 ::key D
 $1-0{,}4\cdot0{,}5=0{,}8$. Phương án A là tổng vượt $1$, B là xác suất cả hai trúng, C là xác suất cả hai trượt.
 
-::tf
+::tf TH VD NB TH
 Xét tính đúng sai của các mệnh đề sau:
 a) $P(A\cup B)=P(A)+P(B)$ với mọi biến cố $A$, $B$.
 b) Nếu $A$, $B$ độc lập thì $P(A\cup B)=P(A)\,P(B)$.
@@ -349,12 +349,12 @@ d) $P(A\cup B)\ge P(B)$.
 ::key S S Đ Đ
 a) Sai: phải trừ $P(AB)$. b) Sai: khi độc lập $P(AB)=P(A)P(B)$ nhưng $P(A\cup B)=P(A)+P(B)-P(A)P(B)$. c) Đúng. d) Đúng vì $B\subset A\cup B$.
 
-::sa
+::sa NB
 Cho $P(A)=0{,}3$, $P(B)=0{,}45$ và $P(AB)=0{,}1$. Tính $P(A\cup B)$.
 ::key 0,65
 $0{,}3+0{,}45-0{,}1=0{,}65$.
 
-::sa
+::sa VD
 Tung một đồng xu cân đối bốn lần. Tính xác suất có ít nhất một lần ngửa, làm tròn đến hàng phần trăm.
 ::key 0,94
 $1-\left(\dfrac12\right)^4=\dfrac{15}{16}=0{,}9375\approx0{,}94$.

@@ -361,7 +361,7 @@ Vậy có hai cách mua: $5$ tờ loại $3$ nghìn đồng và $5$ tờ loại 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Phương trình nào sau đây là phương trình bậc nhất hai ẩn?
 A. $x^2-y=1$.
 B. $0x+0y=2$.
@@ -370,7 +370,7 @@ D. $xy=3$.
 ::key C
 Hệ số của $x$ khác $0$. B có cả hai hệ số bằng $0$; A, D có số hạng bậc hai.
 
-::mc
+::mc NB
 Cặp số nào là nghiệm của phương trình $x-3y=2$?
 A. $(5; 1)$.
 B. $(1; 5)$.
@@ -379,7 +379,7 @@ D. $(-1; 1)$.
 ::key A
 $5-3\cdot1=2$. Phương án B đảo thứ tự $x$, $y$; D cho $-1-3=-4$ (nếu tính sai dấu sẽ ra $-1+3=2$).
 
-::mc
+::mc TH
 Đường thẳng biểu diễn tập nghiệm của phương trình $0x+2y=-4$ là
 A. đường thẳng $x=-2$.
 B. đường thẳng $y=-2$.
@@ -388,7 +388,7 @@ D. đường thẳng $y=-4$.
 ::key B
 $2y=-4\iff y=-2$. Phương án A nhầm $x$ với $y$; D quên chia cho $2$.
 
-::mc
+::mc TH
 Cặp số nào là nghiệm của hệ $\begin{cases} x+y=5\\ 2x-y=1 \end{cases}$?
 A. $(1; 1)$.
 B. $(3; 2)$.
@@ -397,7 +397,7 @@ D. $(2; 3)$.
 ::key D
 $2+3=5$ và $4-3=1$. Các phương án B, C chỉ thoả mãn phương trình thứ nhất, A chỉ thoả mãn phương trình thứ hai.
 
-::tf
+::tf NB TH TH TH
 Cho phương trình $2x+y=7$.
 a) $(3; 1)$ là một nghiệm của phương trình.
 b) Phương trình có đúng một nghiệm.
@@ -406,12 +406,12 @@ d) $(3; 1)$ cũng là nghiệm của hệ $\begin{cases} 2x+y=7\\ x-y=1 \end{cas
 ::key Đ S Đ S
 a) Đúng: $6+1=7$. b) Sai: phương trình bậc nhất hai ẩn có vô số nghiệm. c) Đúng: $0+7=7$. d) Sai: $3-1=2\neq1$.
 
-::sa
+::sa TH
 Cho phương trình $3x-2y=12$. Tìm $y$ để $(2; y)$ là nghiệm của phương trình.
 ::key -3
 $6-2y=12\iff -2y=6\iff y=-3$.
 
-::sa
+::sa VD
 Phương trình $x+2y=9$ có bao nhiêu nghiệm $(x; y)$ mà $x$ và $y$ đều là số nguyên dương?
 ::key 4
 $x=9-2y>0$ nên $y\in\{1; 2; 3; 4\}$, cho các nghiệm $(7; 1)$, $(5; 2)$, $(3; 3)$, $(1; 4)$.

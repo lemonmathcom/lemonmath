@@ -378,7 +378,7 @@ $$(4{,}5+5)\times2=19\ \text{(cm)}.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hai đường thẳng cắt nhau tạo thành một góc vuông. Hai đường thẳng đó
 A. song song với nhau.
 B. không có điểm chung.
@@ -387,7 +387,7 @@ D. vuông góc với nhau.
 ::key D
 Có một góc vuông thì ba góc còn lại cũng vuông, nên hai đường thẳng vuông góc. Phương án A và B sai vì hai đường thẳng đã cắt nhau.
 
-::mc
+::mc NB
 Hai đường thẳng song song là hai đường thẳng
 A. không bao giờ cắt nhau, dù kéo dài mãi về hai phía.
 B. cắt nhau tạo thành góc vuông.
@@ -396,7 +396,7 @@ D. cắt nhau tạo thành góc nhọn.
 ::key A
 Đây là định nghĩa hai đường thẳng song song. Phương án B là hai đường thẳng vuông góc.
 
-::mc
+::mc NB
 Trong hình chữ nhật $ABCD$, cạnh $AB$ song song với cạnh
 A. $BC$.
 B. $CD$.
@@ -405,7 +405,7 @@ D. $AC$.
 ::key B
 Cạnh đối diện của $AB$ là $CD$ nên $AB\parallel CD$. Các cạnh $BC$ và $DA$ vuông góc với $AB$; $AC$ không phải là cạnh của hình chữ nhật.
 
-::mc
+::mc TH
 Hai đường thẳng phân biệt $a$ và $b$ cùng vuông góc với đường thẳng $c$. Khi đó
 A. $a$ vuông góc với $b$.
 B. $a$ cắt $b$ tại một điểm.
@@ -414,7 +414,7 @@ D. $a$ và $b$ tạo thành góc nhọn.
 ::key C
 Hai đường thẳng cùng vuông góc với một đường thẳng thứ ba thì song song với nhau. Phương án A là nhầm "cùng vuông góc với $c$" với "vuông góc với nhau".
 
-::tf
+::tf TH NB NB TH
 Em xét hình chữ nhật $MNPQ$.
 a) Cạnh $MN$ song song với cạnh $NP$.
 b) Cạnh $MN$ vuông góc với cạnh $NP$.
@@ -423,12 +423,12 @@ d) Cạnh $PQ$ vuông góc với cạnh $MN$.
 ::key S Đ Đ S
 a) Sai: $MN$ và $NP$ là hai cạnh kề, chúng vuông góc. b) Đúng: góc $N$ là góc vuông. c) Đúng: $MQ$ và $NP$ là hai cạnh đối diện. d) Sai: $PQ$ và $MN$ là hai cạnh đối diện nên song song.
 
-::sa
+::sa TH
 Hình chữ nhật có bao nhiêu cặp cạnh vuông góc với nhau?
 ::key 4
 Hình chữ nhật có bốn góc vuông nên có bốn cặp cạnh vuông góc.
 
-::sa
+::sa VD
 Mảnh đất hình chữ nhật $ABCD$ có $AB=16$ m, $AD=7$ m. Điểm $M$ thuộc cạnh $AB$, điểm $N$ thuộc cạnh $DC$ sao cho $AMND$ là hình chữ nhật với $AM=5$ m. Chu vi hình chữ nhật $AMND$ là bao nhiêu mét?
 ::key 24
 $MN=AD=7$ m, nên chu vi là $(5+7)\times2=24$ (m).

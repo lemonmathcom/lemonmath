@@ -266,7 +266,7 @@ $$100:80=1{,}25;\qquad 1{,}25\times100=125.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tỉ số phần trăm của $5$ và $20$ là
 A. $0{,}25\%$.
 B. $15\%$.
@@ -275,7 +275,7 @@ D. $400\%$.
 ::key C
 $5:20=0{,}25$, nhân với $100$ được $25$. Phương án A quên nhân với $100$, phương án B lấy hiệu $20-5$, phương án D chia ngược $20:5$.
 
-::mc
+::mc TH
 Lớp 5B có $40$ học sinh, trong đó $12$ em tham gia câu lạc bộ cờ vua. Số em tham gia câu lạc bộ chiếm bao nhiêu phần trăm số học sinh cả lớp?
 A. $0{,}3\%$.
 B. $12\%$.
@@ -284,7 +284,7 @@ D. $30\%$.
 ::key D
 $12:40=0{,}3$, nhân với $100$ được $30$. Phương án A quên nhân với $100$, phương án C lấy hiệu $40-12$.
 
-::mc
+::mc VD
 Một mảnh vải dài $4$ m. Người ta đã dùng hết $80$ cm. Số vải đã dùng chiếm bao nhiêu phần trăm mảnh vải?
 A. $20\%$.
 B. $2000\%$.
@@ -293,7 +293,7 @@ D. $0{,}2\%$.
 ::key A
 Đổi $4\ \text{m}=400\ \text{cm}$, rồi $80:400=0{,}2$, tức $20\%$. Phương án B quên đổi đơn vị ($80:4=20$, rồi nhân $100$), phương án C là phần vải còn lại.
 
-::mc
+::mc TH
 Tỉ số phần trăm của $3$ và $8$ là
 A. $375\%$.
 B. $37{,}5\%$.
@@ -302,7 +302,7 @@ D. $5\%$.
 ::key B
 $3:8=0{,}375$, nhân với $100$ được $37{,}5$. Phương án A nhân với $1000$, phương án C quên nhân với $100$, phương án D lấy hiệu $8-3$.
 
-::tf
+::tf TH VD TH TH
 Lớp 5C có $25$ học sinh, trong đó $10$ em là nam. Em xét các nhận xét sau.
 a) Số em nam chiếm $40\%$ số học sinh cả lớp.
 b) Số em nữ chiếm $60\%$ số học sinh cả lớp.
@@ -311,12 +311,12 @@ d) Số em nam và số em nữ cộng lại chiếm $100\%$ số học sinh c�
 ::key Đ Đ S Đ
 a) Đúng: $10:25=0{,}4=40\%$. b) Đúng: có $25-10=15$ em nữ và $15:25=0{,}6=60\%$. c) Sai: $10\%$ là nhầm số $10$ với số phần trăm, đúng phải là $40\%$. d) Đúng: $40\%+60\%=100\%$.
 
-::sa
+::sa TH
 Tìm tỉ số phần trăm của $21$ và $40$. Viết kết quả là một số, không ghi dấu $\%$.
 ::key 52,5
 $21:40=0{,}525$, nhân với $100$ được $52{,}5$.
 
-::sa
+::sa TH
 Một bao gạo nặng $25$ kg. Người ta đã bán $4$ kg. Số gạo đã bán chiếm bao nhiêu phần trăm bao gạo? Viết kết quả là một số, không ghi dấu $\%$.
 ::key 16
 $4:25=0{,}16$, nhân với $100$ được $16$, tức $16\%$.

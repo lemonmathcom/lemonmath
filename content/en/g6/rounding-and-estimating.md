@@ -427,7 +427,7 @@ So there are $10$ numbers; the smallest is $2.35$ and the largest is $2.44$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $5.276$ rounded to 2 decimal places is
 A. $5.27$.
 B. $5.28$.
@@ -436,7 +436,7 @@ D. $5.2$.
 ::key B
 The digit to the right of the hundredths place is $6\ge5$, so $5.276\approx5.28$. A drops digits without rounding up; C rounds to 1 decimal place; D just cuts off.
 
-::mc
+::mc TH
 $-3.46$ rounded to 1 decimal place is
 A. $-3.4$.
 B. $-3$.
@@ -445,7 +445,7 @@ D. $-4$.
 ::key C
 Round $3.46\approx3.5$, then put the "$-$" sign back. A rounds the wrong way; B and D round to the nearest whole number.
 
-::mc
+::mc NB
 $8\,652$ rounded to the nearest hundred is
 A. $8\,600$.
 B. $8\,650$.
@@ -454,7 +454,7 @@ D. $8\,700$.
 ::key D
 The digit to the right of the hundreds place is $5\ge5$, so $8\,652\approx8\,700$. A wrongly keeps the digit; B rounds to the nearest ten; C rounds to the nearest thousand.
 
-::mc
+::mc TH
 The value closest to $49.7\cdot2.03$ is
 A. $100$.
 B. $10$.
@@ -463,7 +463,7 @@ D. $50$.
 ::key A
 $49.7\cdot2.03\approx50\cdot2=100$. B and C are $10$ times off (a misplaced decimal point); D forgets to multiply by $2$.
 
-::tf
+::tf NB NB TH TH
 Let $a=17.0451$. Decide whether each statement is true or false.
 a) $a$ rounded to the nearest whole number is $17$.
 b) $a$ rounded to 1 decimal place is $17.1$.
@@ -472,12 +472,12 @@ d) $a$ rounded to the nearest ten is $10$.
 ::key T F T F
 a) True: the digit after the units place is $0$. b) False: the digit after the tenths place is $4<5$, so $a\approx17.0$. c) True: the digit after the hundredths place is $5$, so $4$ becomes $5$. d) False: the digit after the tens place is $7\ge5$, so $a\approx20$.
 
-::sa
+::sa NB
 Round $2.718$ to 2 decimal places.
 ::key 2.72
 The digit to the right of the hundredths place is $8\ge5$, so $2.718\approx2.72$.
 
-::sa
+::sa VD
 Round $198.6$ to the nearest ten and $4.97$ to the nearest whole number, then estimate $198.6:4.97$.
 ::key 40
 $198.6\approx200$ and $4.97\approx5$, so $198.6:4.97\approx200:5=40$.

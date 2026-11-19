@@ -296,7 +296,7 @@ Hôm nay là thứ ba. Lớp em hẹn đi dã ngoại sau 5 ngày nữa. Ngày d
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Đồng hồ có kim dài chỉ số 12 và kim ngắn chỉ số 6. Đồng hồ chỉ
 A. 12 giờ.
 B. 5 giờ.
@@ -305,7 +305,7 @@ D. 7 giờ.
 ::key C
 Kim ngắn chỉ giờ và chỉ số 6, nên đồng hồ chỉ 6 giờ. Phương án A đọc nhầm kim dài.
 
-::mc
+::mc TH
 Đồng hồ đang chỉ 11 giờ. Sau 1 giờ nữa, kim ngắn chỉ số
 A. 10.
 B. 11.
@@ -314,7 +314,7 @@ D. 12.
 ::key D
 Sau 1 giờ, kim ngắn sang số kế tiếp: $11+1=12$. Phương án A là 1 giờ trước, phương án B là không thay đổi.
 
-::mc
+::mc NB
 Hôm nay là thứ tư. Ngày mai là
 A. thứ năm.
 B. thứ ba.
@@ -323,7 +323,7 @@ D. thứ bảy.
 ::key A
 Ngày mai là ngày ngay sau thứ tư, tức là thứ năm. Phương án B là hôm qua.
 
-::mc
+::mc NB
 Hôm nay là thứ bảy. Hôm qua là
 A. chủ nhật.
 B. thứ sáu.
@@ -332,7 +332,7 @@ D. thứ năm.
 ::key B
 Hôm qua là ngày ngay trước thứ bảy, tức là thứ sáu. Phương án A là ngày mai, phương án D là hai ngày trước.
 
-::tf
+::tf NB TH NB TH
 Mai thức dậy lúc 6 giờ và đến trường lúc 7 giờ.
 a) Lúc 7 giờ, kim dài chỉ số 7.
 b) Mai thức dậy sau giờ đến trường.
@@ -341,12 +341,12 @@ d) Từ lúc thức dậy đến lúc đến trường là 1 giờ.
 ::key S S Đ Đ
 a) Sai: giờ đúng thì kim dài chỉ số 12. b) Sai: 6 giờ sớm hơn 7 giờ. c) Đúng: giờ đúng nên kim dài chỉ số 12, kim ngắn chỉ số 6. d) Đúng: $7-6=1$.
 
-::sa
+::sa TH
 Hôm nay là thứ hai. Còn bao nhiêu ngày nữa đến thứ sáu?
 ::key 4
 Các ngày sau thứ hai là thứ ba, thứ tư, thứ năm, thứ sáu, tức là 4 ngày.
 
-::sa
+::sa TH
 Lan học bài từ 3 giờ đến 5 giờ. Lan học bài trong bao nhiêu giờ?
 ::key 2
 $5-3=2$ (giờ).

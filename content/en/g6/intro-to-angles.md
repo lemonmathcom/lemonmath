@@ -435,7 +435,7 @@ So at half past $3$ the angle between the hands is $75^\circ$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 An angle of $120^\circ$ is
 A. an acute angle.
 B. a right angle.
@@ -444,7 +444,7 @@ D. a straight angle.
 ::key C
 $90^\circ<120^\circ<180^\circ$, so it is an obtuse angle.
 
-::mc
+::mc NB
 A straight angle measures
 A. $90^\circ$.
 B. $180^\circ$.
@@ -453,7 +453,7 @@ D. $0^\circ$.
 ::key B
 A straight angle has opposite rays as arms and measures $180^\circ$. A is a right angle; C is a full turn.
 
-::mc
+::mc TH
 Three different rays are drawn with the same endpoint $O$. The number of angles with vertex $O$ and two of these rays as arms is
 A. $3$.
 B. $2$.
@@ -462,7 +462,7 @@ D. $1$.
 ::key A
 There are three pairs of rays, so $3$ angles. C counts each angle twice.
 
-::mc
+::mc TH
 At exactly $2$ o'clock, the angle between the hour hand and the minute hand is
 A. $30^\circ$.
 B. $120^\circ$.
@@ -471,7 +471,7 @@ D. $60^\circ$.
 ::key D
 There are $2$ gaps between the hands: $2\cdot30^\circ=60^\circ$. A counts only one gap; B is $4$ o'clock; C is $3$ o'clock.
 
-::tf
+::tf NB NB NB TH
 $\widehat{xOy}=90^\circ$. Decide whether each statement is true or false.
 a) $\widehat{xOy}$ is a right angle.
 b) The vertex of the angle is $x$.
@@ -480,12 +480,12 @@ d) $\widehat{xOy}$ is larger than every acute angle.
 ::key T F T T
 a) True: it measures $90^\circ$. b) False: the middle letter is the vertex, so the vertex is $O$. c) True. d) True: every acute angle is less than $90^\circ$.
 
-::sa
+::sa VD
 Four different rays are drawn with the same endpoint $O$. How many angles have vertex $O$ and two of these rays as arms?
 ::key 6
 There are $3+2+1=6$ pairs of rays, so $6$ angles.
 
-::sa
+::sa TH
 Through how many degrees does the minute hand turn in $25$ minutes?
 ::key 150
 Each minute the minute hand turns $6^\circ$, so in $25$ minutes it turns $25\cdot6^\circ=150^\circ$.

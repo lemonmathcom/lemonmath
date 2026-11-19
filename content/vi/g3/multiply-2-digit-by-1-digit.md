@@ -247,7 +247,7 @@ Số cần tìm là $52:4=13$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $32\times3$ là
 A. $96$.
 B. $36$.
@@ -256,7 +256,7 @@ D. $35$.
 ::key A
 $2\times3=6$ và $3\times3=9$ nên $32\times3=96$. Phương án B là lỗi quên nhân hàng chục.
 
-::mc
+::mc TH
 Kết quả của $24\times4$ là
 A. $86$.
 B. $96$.
@@ -265,7 +265,7 @@ D. $106$.
 ::key B
 $4\times4=16$, viết $6$ nhớ $1$; $2\times4=8$, thêm $1$ được $9$. Phương án A là lỗi quên số nhớ.
 
-::mc
+::mc VD
 Mỗi hộp có $15$ cái kẹo. Có $6$ hộp thì có tất cả bao nhiêu cái kẹo?
 A. $60$.
 B. $80$.
@@ -274,7 +274,7 @@ D. $21$.
 ::key C
 $5\times6=30$, viết $0$ nhớ $3$; $1\times6=6$, thêm $3$ được $9$. Vậy $90$ cái kẹo. Phương án A là lỗi quên số nhớ.
 
-::mc
+::mc TH
 Phép tính nào có kết quả bằng $68$?
 A. $17\times3$.
 B. $18\times4$.
@@ -283,7 +283,7 @@ D. $17\times4$.
 ::key D
 $17\times4=68$. Các phép tính còn lại lần lượt bằng $51$, $64$, $72$.
 
-::tf
+::tf NB NB TH TH
 Em xét phép nhân $26\times3$.
 a) $6\times3=18$, viết $8$ nhớ $1$.
 b) $2\times3=6$, thêm $1$ nhớ được $7$.
@@ -292,12 +292,12 @@ d) $26\times3=78$.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng. c) Sai: kết quả là $78$, không phải $68$. d) Đúng: viết $7$ ở hàng chục và $8$ ở hàng đơn vị.
 
-::sa
+::sa TH
 Tính $17\times5$.
 ::key 85
 $7\times5=35$, viết $5$ nhớ $3$; $1\times5=5$, thêm $3$ được $8$. Vậy $85$.
 
-::sa
+::sa VD
 Phòng học có $8$ hàng ghế, mỗi hàng có $12$ ghế. Phòng có tất cả bao nhiêu ghế?
 ::key 96
 $12\times8$: $2\times8=16$, viết $6$ nhớ $1$; $1\times8=8$, thêm $1$ được $9$. Vậy $96$ (ghế).

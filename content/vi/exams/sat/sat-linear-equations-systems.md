@@ -321,7 +321,7 @@ $24=3\cdot8$, nên phương trình thứ hai phải gấp $3$ lần phương tr�
 :::
 
 :::quiz
-::mc
+::mc TH
 Nếu $7x-5=3x+19$ thì giá trị của $x$ là
 A. $4$
 B. $6$
@@ -330,7 +330,7 @@ D. $14$
 ::key B
 $4x=24$, nên $x=6$. Phương án D là $24-10$, do chuyển vế sai dấu.
 
-::mc
+::mc TH
 Phương trình nào sau đây vô nghiệm?
 A. $2x+3=2x+3$
 B. $2x+3=3x+2$
@@ -339,7 +339,7 @@ D. $2x=0$
 ::key C
 $2(x+1)=2x+2$, và $2x+2=2x+5$ đòi hỏi $2=5$. A có vô số nghiệm; B có $x=1$; D có $x=0$.
 
-::mc
+::mc TH
 Nếu $x+y=10$ và $x-y=4$ thì giá trị của $x$ là
 A. $3$
 B. $6$
@@ -348,7 +348,7 @@ D. $7$
 ::key D
 Cộng hai phương trình được $2x=14$, nên $x=7$. Phương án A là $y$; phương án C là $2x$.
 
-::mc
+::mc VD
 Một tiệm bánh bán bánh muffin giá 3 đô la một chiếc và bánh quy giá 2 đô la một chiếc. Tiệm bán được 15 chiếc với tổng số tiền 36 đô la. Có bao nhiêu chiếc muffin đã được bán?
 A. $6$
 B. $9$
@@ -357,7 +357,7 @@ D. $15$
 ::key A
 Với $m$ chiếc muffin: $3m+2(15-m)=36\iff m+30=36\iff m=6$. Phương án B là số bánh quy.
 
-::tf
+::tf TH TH NB VD
 Xét hệ $2x+y=7$ và $4x+2y=k$, trong đó $k$ là hằng số.
 a) Nếu $k=14$ thì hệ có vô số nghiệm.
 b) Nếu $k=10$ thì hệ vô nghiệm.
@@ -366,12 +366,12 @@ d) Có một giá trị của $k$ để hệ có đúng một nghiệm.
 ::key Đ Đ S S
 a) Đúng: phương trình thứ hai gấp đôi phương trình thứ nhất. b) Đúng: hai vế trái tỉ lệ nhưng $10\ne14$. c) Sai: $2\cdot2+4=8\ne7$. d) Sai: với mọi $k$, hai đường thẳng song song hoặc trùng nhau.
 
-::sa
+::sa TH
 Nếu $3(x+4)=2x+20$ thì giá trị của $x$ bằng bao nhiêu?
 ::key 8
 $3x+12=2x+20\iff x=8$.
 
-::sa
+::sa VD
 Nếu $5x+2y=24$ và $2x+5y=18$ thì giá trị của $x+y$ bằng bao nhiêu?
 ::key 6
 Cộng lại được $7x+7y=42$, nên $x+y=6$. (Ở đây $x=4$, $y=2$.)

@@ -476,7 +476,7 @@ Vậy $\sqrt{x_1}+\sqrt{x_2}=\sqrt{10}$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Tổng hai nghiệm của phương trình $2x^2-6x-5=0$ là
 A. $-3$.
 B. $3$.
@@ -485,7 +485,7 @@ D. $6$.
 ::key B
 $a$, $c$ trái dấu nên có hai nghiệm; $S=-\dfrac{-6}{2}=3$. A sai dấu, C là tích, D quên chia cho $a$.
 
-::mc
+::mc NB
 Tích hai nghiệm của phương trình $3x^2+7x-6=0$ là
 A. $2$.
 B. $-6$.
@@ -494,7 +494,7 @@ D. $-2$.
 ::key D
 $P=\dfrac ca=\dfrac{-6}{3}=-2$. A sai dấu, C là tổng, B quên chia cho $a$.
 
-::mc
+::mc TH
 Phương trình $4x^2-9x+5=0$ có hai nghiệm là
 A. $1$ và $-\dfrac54$.
 B. $-1$ và $-\dfrac54$.
@@ -503,7 +503,7 @@ D. $1$ và $5$.
 ::key C
 $a+b+c=4-9+5=0$ nên $x_1=1$, $x_2=\dfrac ca=\dfrac54$. B dùng nhầm trường hợp $a-b+c=0$, A sai dấu của $\dfrac ca$, D quên chia cho $a$.
 
-::mc
+::mc TH
 Hai số có tổng bằng $9$ và tích bằng $20$ là hai nghiệm của phương trình
 A. $x^2-9x+20=0$.
 B. $x^2+9x+20=0$.
@@ -512,7 +512,7 @@ D. $x^2+9x-20=0$.
 ::key A
 Phương trình $x^2-Sx+P=0$ với $S=9$, $P=20$. B sai dấu của $S$, C đổi chỗ $S$ và $P$, D sai dấu cả $S$ lẫn $P$.
 
-::tf
+::tf TH NB NB VD
 Cho phương trình $x^2-3x-10=0$ có hai nghiệm $x_1$, $x_2$. Xét tính đúng sai của các mệnh đề sau:
 a) Phương trình có hai nghiệm trái dấu.
 b) $x_1+x_2=-3$.
@@ -521,12 +521,12 @@ d) $x_1^2+x_2^2=29$.
 ::key Đ S Đ Đ
 a) Đúng: $P=-10<0$. b) Sai: $S=3$. c) Đúng. d) Đúng: $9+20=29$.
 
-::sa
+::sa VD
 Gọi $x_1$, $x_2$ là hai nghiệm của phương trình $x^2-7x+2=0$. Tính $x_1^2+x_2^2$.
 ::key 45
 $\Delta=41>0$, $S=7$, $P=2$, nên $x_1^2+x_2^2=49-4=45$.
 
-::sa
+::sa TH
 Tính nhẩm nghiệm lớn hơn của phương trình $2x^2-11x+9=0$ (viết dưới dạng số thập phân).
 ::key 4,5
 $a+b+c=2-11+9=0$ nên hai nghiệm là $1$ và $\dfrac92=4{,}5$.

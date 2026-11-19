@@ -313,7 +313,7 @@ $$\begin{aligned} 0{,}125\times0{,}25\times32 &= (0{,}125\times8)\times(0{,}25\t
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $0{,}28\times7$ là
 A. $1{,}96$.
 B. $19{,}6$.
@@ -322,7 +322,7 @@ D. $0{,}196$.
 ::key A
 $28\times7=196$ và $0{,}28$ có hai chữ số thập phân nên tích là $1{,}96$. Phương án B chỉ lấy một chữ số thập phân; C quên dấu phẩy; D lấy ba chữ số thập phân.
 
-::mc
+::mc TH
 Kết quả của $4{,}2\times1{,}3$ là
 A. $4{,}6$.
 B. $5{,}46$.
@@ -331,7 +331,7 @@ D. $54{,}6$.
 ::key B
 $42\times13=546$ và hai thừa số có $1+1=2$ chữ số thập phân nên tích là $5{,}46$. Phương án A nhân từng phần riêng; B chỉ lấy một chữ số thập phân; C lấy ba chữ số thập phân.
 
-::mc
+::mc TH
 Kết quả của $0{,}6\times0{,}05$ là
 A. $0{,}3$.
 B. $0{,}003$.
@@ -340,7 +340,7 @@ D. $30$.
 ::key C
 $6\times5=30$, hai thừa số có $1+2=3$ chữ số thập phân nên tích là $0{,}030=0{,}03$. Phương án A chỉ lấy hai chữ số thập phân; B lấy bốn chữ số thập phân; D bỏ quên dấu phẩy.
 
-::mc
+::mc VD
 Giả sử $1$ m vải giá $45\,000$ đồng. Mua $2{,}5$ m vải như thế hết
 A. $90\,000$ đồng.
 B. $11\,250$ đồng.
@@ -349,7 +349,7 @@ D. $112\,500$ đồng.
 ::key D
 $45\,000\times2{,}5=112\,500$ đồng. Phương án B và C đặt dấu phẩy sai chỗ; D chỉ tính $2$ m vải ($45\,000\times2$).
 
-::tf
+::tf TH TH TH NB
 Em xét tích $1{,}2\times0{,}5$.
 a) $1{,}2\times0{,}5=6$.
 b) $1{,}2\times0{,}5=0{,}6$.
@@ -358,12 +358,12 @@ d) $1{,}2\times0{,}5=0{,}5\times1{,}2$.
 ::key S Đ S Đ
 a) Sai: $12\times5=60$ và tích có hai chữ số thập phân nên bằng $0{,}60=0{,}6$. b) Đúng. c) Sai: $0{,}5<1$ nên tích bé hơn $1{,}2$. d) Đúng: đổi chỗ các thừa số thì tích không đổi.
 
-::sa
+::sa VD
 Tính $2{,}5\times1{,}6$.
 ::key 4
 $25\times16=400$, tổng hai chữ số thập phân nên tích là $4{,}00=4$.
 
-::sa
+::sa VD
 Một hình vuông có cạnh $0{,}3$ m. Diện tích hình vuông là bao nhiêu mét vuông?
 ::key 0,09
 $0{,}3\times0{,}3$: $3\times3=9$ và tổng hai chữ số thập phân nên tích là $0{,}09$ ($\text{m}^2$).

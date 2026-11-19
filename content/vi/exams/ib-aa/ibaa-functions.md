@@ -240,7 +240,7 @@ $x^2-kx+1=0$ có $\Delta=k^2-4=0$, nên $k=\pm2$.
 :::
 
 :::quiz
-::mc
+::mc TH
 Cho $f(x)=3x+1$. Giá trị $f^{-1}(7)$ bằng
 A. $22$
 B. $\dfrac83$
@@ -249,7 +249,7 @@ D. $\dfrac{1}{22}$
 ::key C
 $3x+1=7$ cho $x=2$. Phương án A là $f(7)$; phương án D là $\dfrac{1}{f(7)}$.
 
-::mc
+::mc TH
 Tập giá trị của $f(x)=x^2+2$, $x\in\mathbb{R}$, là
 A. $f(x)\ge2$
 B. $f(x)\ge0$
@@ -258,7 +258,7 @@ D. $f(x)\in\mathbb{R}$
 ::key A
 $x^2\ge0$, nên $x^2+2\ge2$, và giá trị $2$ đạt được tại $x=0$.
 
-::mc
+::mc TH
 Tiệm cận ngang của $y=\dfrac{4x-1}{2x+5}$ là
 A. $y=-\dfrac15$
 B. $x=-\dfrac52$
@@ -267,7 +267,7 @@ D. $y=2$
 ::key D
 $\dfrac ac=\dfrac42=2$. Phương án B là tiệm cận đứng.
 
-::mc
+::mc TH
 Cho $f(x)=x^2$ và $g(x)=2x-3$. Giá trị $(f\circ g)(1)$ bằng
 A. $-1$
 B. $1$
@@ -276,7 +276,7 @@ D. $4$
 ::key B
 $g(1)=-1$ và $f(-1)=1$. Phương án A là $(g\circ f)(1)$.
 
-::tf
+::tf NB TH TH VD
 Cho $f(x)=2(x-1)^2+3$.
 a) Đỉnh của đồ thị là $(1,3)$.
 b) Đồ thị quay bề lõm xuống dưới.
@@ -285,12 +285,12 @@ d) Phương trình $f(x)=0$ vô nghiệm thực.
 ::key T F F T
 a) Đúng. b) Sai: $a=2>0$. c) Sai: trục đối xứng là $x=1$. d) Đúng: giá trị nhỏ nhất là $3>0$.
 
-::sa
+::sa TH
 Cho $f(x)=\sqrt{x+1}$. Tính $f^{-1}(3)$.
 ::key 8
 $\sqrt{x+1}=3$ cho $x=8$.
 
-::sa
+::sa TH
 Tìm $c$ để $x^2-6x+c=0$ có nghiệm kép.
 ::key 9
 $36-4c=0$.

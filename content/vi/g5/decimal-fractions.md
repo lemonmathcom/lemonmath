@@ -318,7 +318,7 @@ Ví dụ $\dfrac{1}{8}=\dfrac{125}{1\,000}$, $\dfrac{1}{4}=\dfrac{250}{1\,000}$,
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Phân số nào sau đây là phân số thập phân?
 A. $\dfrac{17}{100}$.
 B. $\dfrac{3}{8}$.
@@ -327,7 +327,7 @@ D. $\dfrac{7}{20}$.
 ::key A
 Chỉ $\dfrac{17}{100}$ có mẫu số là $100$. Các phân số còn lại có mẫu số $20$, $8$ và $25$.
 
-::mc
+::mc TH
 Viết $\dfrac{3}{5}$ thành phân số thập phân có mẫu số $10$ được
 A. $\dfrac{3}{10}$.
 B. $\dfrac{6}{10}$.
@@ -336,7 +336,7 @@ D. $\dfrac{30}{10}$.
 ::key B
 Nhân cả tử số và mẫu số với $2$: $\dfrac{3\times2}{5\times2}=\dfrac{6}{10}$. Phương án A chỉ đổi mẫu số.
 
-::mc
+::mc TH
 Viết $\dfrac{7}{8}$ thành phân số thập phân có mẫu số $1\,000$ được
 A. $\dfrac{78}{1\,000}$.
 B. $\dfrac{700}{1\,000}$.
@@ -345,7 +345,7 @@ D. $\dfrac{7}{1\,000}$.
 ::key C
 Nhân cả tử số và mẫu số với $125$: $\dfrac{7\times125}{8\times125}=\dfrac{875}{1\,000}$.
 
-::mc
+::mc NB
 Viết $125$ g dưới dạng phân số của ki-lô-gam được
 A. $\dfrac{125}{100}$ kg.
 B. $\dfrac{1}{125}$ kg.
@@ -354,7 +354,7 @@ D. $\dfrac{125}{1\,000}$ kg.
 ::key D
 $1$ kg $=1\,000$ g nên $125$ g $=\dfrac{125}{1\,000}$ kg.
 
-::tf
+::tf NB TH TH TH
 Em xét phân số $\dfrac{7}{20}$ và số đo $35$ cm.
 a) $\dfrac{7}{20}$ là phân số thập phân.
 b) $\dfrac{7}{20}=\dfrac{35}{100}$.
@@ -363,12 +363,12 @@ d) $\dfrac{35}{100}=\dfrac{7}{10}$.
 ::key S Đ Đ S
 a) Sai: mẫu số $20$ không phải $10$, $100$, ... b) Đúng: nhân cả hai với $5$. c) Đúng: $1$ cm $=\dfrac{1}{100}$ m. d) Sai: $\dfrac{35}{100}=\dfrac{7}{20}$.
 
-::sa
+::sa TH
 Viết $\dfrac{3}{4}$ thành phân số thập phân có mẫu số $100$. Tử số của phân số đó là bao nhiêu?
 ::key 75
 $\dfrac{3}{4}=\dfrac{3\times25}{4\times25}=\dfrac{75}{100}$.
 
-::sa
+::sa VD
 Bình có $\dfrac{9}{10}$ lít sữa và uống hết $\dfrac{37}{100}$ lít. Số sữa còn lại là một phân số có mẫu số $100$; tử số của phân số đó là bao nhiêu?
 ::key 53
 $\dfrac{9}{10}=\dfrac{90}{100}$ và $\dfrac{90}{100}-\dfrac{37}{100}=\dfrac{53}{100}$.

@@ -394,7 +394,7 @@ So the largest $a$ is $14$, and there are $3$ such numbers.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $\text{HCF}(24,36)$ equals
 A. $6$.
 B. $12$.
@@ -403,7 +403,7 @@ D. $4$.
 ::key B
 $24=2^3\cdot3$ and $36=2^2\cdot3^2$, so the HCF is $2^2\cdot3=12$. A is a common factor but not the highest; C is the lowest common multiple; D misses the factor $3$.
 
-::mc
+::mc TH
 Given $\text{HCF}(a,b)=10$, the set $\text{CF}(a,b)$ is
 A. $\{1;2;5;10\}$.
 B. $\{10;20;30;\dots\}$.
@@ -412,7 +412,7 @@ D. $\{1;10\}$.
 ::key A
 The common factors are the factors of $10$. B lists multiples of $10$; C and D miss some factors.
 
-::mc
+::mc TH
 Which fraction is in its simplest form?
 A. $\dfrac{14}{21}$.
 B. $\dfrac{15}{25}$.
@@ -421,7 +421,7 @@ D. $\dfrac{12}{18}$.
 ::key C
 $\text{HCF}(9,16)=1$. The others simplify: $\dfrac{14}{21}=\dfrac{2}{3}$, $\dfrac{15}{25}=\dfrac{3}{5}$, $\dfrac{12}{18}=\dfrac{2}{3}$.
 
-::mc
+::mc VD
 $30$ oranges and $45$ tangerines are shared equally among plates, each plate with the same number of oranges and the same number of tangerines. The greatest number of plates is
 A. $5$.
 B. $3$.
@@ -430,7 +430,7 @@ D. $15$.
 ::key D
 The greatest number of plates is $\text{HCF}(30,45)=15$. A and B are common factors but not the highest; C is the LCM.
 
-::tf
+::tf TH TH TH TH
 Decide whether each statement is true or false.
 a) $\text{HCF}(18,30)=6$.
 b) Two composite numbers can never be coprime.
@@ -439,12 +439,12 @@ d) $\text{HCF}(15,1)=15$.
 ::key T F T F
 a) True: $18=2\cdot3^2$ and $30=2\cdot3\cdot5$, so the HCF is $2\cdot3=6$. b) False: $8$ and $9$ are both composite but $\text{HCF}(8,9)=1$. c) True: $b$ is a factor of both $a$ and $b$, and no factor of $b$ is larger than $b$. d) False: $\text{HCF}(15,1)=1$.
 
-::sa
+::sa TH
 Find $\text{HCF}(42,70)$.
 ::key 14
 $42=2\cdot3\cdot7$ and $70=2\cdot5\cdot7$, so the HCF is $2\cdot7=14$.
 
-::sa
+::sa VD
 How many common factors do $54$ and $90$ have?
 ::key 6
 $\text{HCF}(54,90)=2\cdot3^2=18$, and $18$ has $6$ factors: $1$; $2$; $3$; $6$; $9$; $18$.

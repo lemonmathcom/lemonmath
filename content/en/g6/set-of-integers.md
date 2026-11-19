@@ -416,7 +416,7 @@ So the point $B$ shows $3$ or $-7$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of these is a negative integer?
 A. $0$.
 B. $-(-5)$.
@@ -425,7 +425,7 @@ D. $7$.
 ::key C
 $-9$ is a negative integer. A: $0$ is not negative; B: $-(-5)=5$ is positive; D is positive.
 
-::mc
+::mc NB
 The opposite of $-15$ is
 A. $15$.
 B. $-15$.
@@ -434,7 +434,7 @@ D. $\dfrac{1}{15}$.
 ::key A
 The opposite of $-15$ is $15$. B is the number itself; C is unrelated; D is the reciprocal (later topic), not the opposite.
 
-::mc
+::mc TH
 Which statement is true?
 A. $-6>-2$.
 B. $-1<-10$.
@@ -443,7 +443,7 @@ D. $-7<-4$.
 ::key D
 Since $7>4$, $-7<-4$. A and B compare negative numbers like natural numbers; C is false because negative numbers are less than $0$.
 
-::mc
+::mc TH
 How many integers $x$ satisfy $-3\le x\le2$?
 A. $4$.
 B. $5$.
@@ -452,7 +452,7 @@ D. $7$.
 ::key C
 They are $-3$; $-2$; $-1$; $0$; $1$; $2$, which is $6$ numbers. A leaves out both ends; B forgets $0$; D counts one too many.
 
-::tf
+::tf NB NB TH TH
 Decide whether each statement is true or false.
 a) Every natural number is an integer.
 b) The number $0$ is the smallest positive integer.
@@ -461,12 +461,12 @@ d) Of two negative integers, the one with the smaller number part is smaller.
 ::key T F T F
 a) True: $\mathbb{N}\subset\mathbb{Z}$. b) False: $0$ is not positive; the smallest positive integer is $1$. c) True: for example, the opposite of $-4$ is $4$. d) False: for example, $3<8$ but $-3>-8$.
 
-::sa
+::sa TH
 What is the largest negative integer?
 ::key -1
 The negative integers are $-1$; $-2$; $-3$; …, and $-1$ is closest to $0$, so it is the largest.
 
-::sa
+::sa TH
 At $6$ a.m. the temperature is $-3^\circ\text{C}$; by noon it has risen by $8^\circ\text{C}$. What is the temperature at noon, in degrees Celsius?
 ::key 5
 On a thermometer, going up $8$ marks from $-3$: the first $3$ marks reach $0$, and $5$ more reach $5$. The noon temperature is $5^\circ\text{C}$.

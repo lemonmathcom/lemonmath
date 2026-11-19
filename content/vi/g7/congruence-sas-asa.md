@@ -524,7 +524,7 @@ Vậy $BE=CD$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho hai tam giác $ABC$ và $DEF$ có $AB=DE$ và $BC=EF$. Để hai tam giác bằng nhau theo trường hợp c.g.c, cần thêm điều kiện
 A. $\widehat B=\widehat E$.
 B. $\widehat A=\widehat D$.
@@ -533,7 +533,7 @@ D. $AC=DF$.
 ::key A
 Góc xen giữa $AB$, $BC$ là $\widehat B$, nên cần $\widehat B=\widehat E$. A và C là góc không xen giữa; D dẫn đến c.c.c.
 
-::mc
+::mc NB
 Cho hai tam giác $ABC$ và $MNP$ có $\widehat A=\widehat M$ và $\widehat B=\widehat N$. Để hai tam giác bằng nhau theo trường hợp g.c.g, cần thêm điều kiện
 A. $AC=MP$.
 B. $AB=MN$.
@@ -542,7 +542,7 @@ D. $\widehat C=\widehat P$.
 ::key B
 Cạnh kề cả hai góc $\widehat A$, $\widehat B$ là $AB$, nên cần $AB=MN$. A và C là cạnh không nằm giữa hai góc; D chỉ thêm một góc nữa.
 
-::mc
+::mc TH
 Hai đoạn thẳng $AB$ và $CD$ cắt nhau tại $O$ với $OA=OB$ và $OC=OD$. Tam giác nào dưới đây bằng tam giác $OAC$?
 A. $\triangle OBC$.
 B. $\triangle ODB$.
@@ -551,7 +551,7 @@ D. $\triangle OAD$.
 ::key C
 $OA=OB$, $\widehat{AOC}=\widehat{BOD}$ (đối đỉnh), $OC=OD$ nên $\triangle OAC=\triangle OBD$ (c.g.c). B ghép sai thứ tự đỉnh; C và D không có đủ điều kiện.
 
-::mc
+::mc TH
 Tam giác $ABC$ và $DEF$ có $AB=DE$, $AC=DF$ và $\widehat B=\widehat E$. Khẳng định nào sau đây đúng?
 A. Hai tam giác bằng nhau theo c.g.c.
 B. Hai tam giác bằng nhau theo g.c.g.
@@ -560,7 +560,7 @@ D. Chưa đủ điều kiện để kết luận hai tam giác bằng nhau.
 ::key D
 Góc $B$ không nằm giữa $AB$ và $AC$, nên không dùng được c.g.c. Hai trường hợp còn lại cũng không có đủ dữ kiện.
 
-::tf
+::tf TH NB TH VD
 Cho tam giác $ABC$, $M$ là trung điểm của $BC$. Trên tia đối của tia $MA$ lấy điểm $D$ sao cho $MD=MA$. Xét tính đúng sai của các mệnh đề sau:
 a) Hai tam giác $MAB$ và $MDC$ bằng nhau theo trường hợp c.c.c.
 b) $\widehat{AMB}=\widehat{DMC}$.
@@ -569,12 +569,12 @@ d) $AB\parallel CD$.
 ::key S Đ Đ Đ
 a) Sai: lúc đầu chưa biết $AB=CD$; hai tam giác bằng nhau theo c.g.c. b) Đúng: hai góc đối đỉnh. c) Đúng: hai cạnh tương ứng. d) Đúng: $\widehat{MAB}=\widehat{MDC}$ ở vị trí so le trong.
 
-::sa
+::sa VD
 Ở bài đo bề rộng sông, đổi số đo: $AB=BC=15$ m và $CD=28$ m. Tính bề rộng $AT$ của sông (đơn vị: mét).
 ::key 28
 $\triangle ABT=\triangle CBD$ (g.c.g) nên $AT=CD=28$ m.
 
-::sa
+::sa VD
 Cho tứ giác $ABCD$ có $AB\parallel CD$, $AB=CD=5$ cm và $BC=7$ cm, trong đó $B$, $D$ khác phía đối với $AC$. Tính $AD$ (đơn vị: cm).
 ::key 7
 $\triangle ABC=\triangle CDA$ (c.g.c) nên $AD=BC=7$ cm.

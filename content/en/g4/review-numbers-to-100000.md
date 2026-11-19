@@ -271,7 +271,7 @@ Greatest: $97\,530$. Least: the first digit is the smallest digit that is not $0
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The number "thirty thousand, two hundred and five" is written
 A. $30\,250$.
 B. $30\,205$.
@@ -280,7 +280,7 @@ D. $30\,025$.
 ::key B
 $30\,000+200+5=30\,205$. Option A is $30\,250$ (the tens digit is $5$), and option D is $30\,025$.
 
-::mc
+::mc NB
 The digit $6$ in the number $46\,280$ has the value
 A. $6$.
 B. $60$.
@@ -289,7 +289,7 @@ D. $60\,000$.
 ::key C
 The digit $6$ is in the thousands place, so its value is $6\,000$.
 
-::mc
+::mc TH
 Which is the greatest of these numbers?
 A. $39\,999$.
 B. $40\,001$.
@@ -298,7 +298,7 @@ D. $40\,000$.
 ::key B
 $9\,999$ has $4$ digits, so it is the least. The other three have $5$ digits; the ten thousands digit of $39\,999$ is $3$, so it is smaller. For $40\,001$ and $40\,000$, the ones digit $1>0$.
 
-::mc
+::mc NB
 The number after $79\,999$ is
 A. $80\,000$.
 B. $79\,998$.
@@ -307,7 +307,7 @@ D. $89\,999$.
 ::key A
 $79\,999+1=80\,000$. Option B is the number before.
 
-::tf
+::tf NB NB TH TH
 Look at the number $52\,019$.
 a) It is read "fifty-two thousand and nineteen".
 b) The digit $0$ is in the hundreds place.
@@ -316,12 +316,12 @@ d) $52\,019<52\,109$.
 ::key T T F T
 a) True. b) True: the hundreds digit is $0$. c) False: the correct sum is $50\,000+2\,000+10+9$. d) True: in the hundreds place $0<1$.
 
-::sa
+::sa NB
 Which digit is in the thousands place of $73\,456$?
 ::key 3
 The places: ten thousands $7$, thousands $3$, hundreds $4$, tens $5$, ones $6$.
 
-::sa
+::sa TH
 What is the greatest $4$-digit number with all digits different?
 ::key 9876
 Arrange different digits from biggest to smallest: $9$, $8$, $7$, $6$.

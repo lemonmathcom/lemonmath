@@ -407,7 +407,7 @@ Vậy $A$, $B$, $C$ thẳng hàng (cùng nằm trên đường thẳng $y=2x+1$)
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hệ số góc của đường thẳng $y=4-2x$ là
 A. $4$.
 B. $2$.
@@ -416,7 +416,7 @@ D. $-2$.
 ::key D
 Viết $y=-2x+4$ nên $a=-2$. A lấy hệ số tự do, B bỏ dấu, C nhầm cả dấu và giá trị.
 
-::mc
+::mc TH
 Đường thẳng đi qua $A(1; 2)$ và $B(3; 8)$ có hệ số góc là
 A. $3$.
 B. $6$.
@@ -425,7 +425,7 @@ D. $2$.
 ::key A
 $a=\dfrac{8-2}{3-1}=3$. B quên chia, C đảo tỉ số, D nhầm với $3-1$.
 
-::mc
+::mc TH
 Cặp đường thẳng nào song song?
 A. $y=2x+1$ và $y=-2x+1$.
 B. $y=2x+1$ và $y=2x-4$.
@@ -434,7 +434,7 @@ D. $y=2x+1$ và $y=2x+1$.
 ::key B
 Hai đường có cùng $a=2$ và $b$ khác nhau. A và C cắt nhau (khác hệ số góc), D trùng nhau.
 
-::mc
+::mc TH
 Đường thẳng có hệ số góc $-2$ và đi qua $(0; 3)$ có phương trình
 A. $y=3x-2$.
 B. $y=-2x-3$.
@@ -443,7 +443,7 @@ D. $y=2x+3$.
 ::key C
 Hệ số góc $a=-2$ và tung độ giao điểm với trục tung $b=3$. A đảo hai hệ số, B sai dấu của $b$, D sai dấu của $a$.
 
-::tf
+::tf NB TH TH TH
 Cho đường thẳng $d: y=-3x+6$. Xét tính đúng sai của các mệnh đề sau:
 a) Hệ số góc của $d$ là $-3$.
 b) $d$ đi lên từ trái sang phải.
@@ -452,12 +452,12 @@ d) $d$ song song với đường thẳng $y=-3x+2$.
 ::key Đ S Đ Đ
 a) Đúng. b) Sai: $a=-3<0$ nên $d$ đi xuống. c) Đúng: $x=0$ cho $y=6$. d) Đúng: cùng $a=-3$ và $6\neq2$.
 
-::sa
+::sa TH
 Đường thẳng đi qua $A(2; 1)$ và $B(6; 9)$ có hệ số góc bằng bao nhiêu?
 ::key 2
 $a=\dfrac{9-1}{6-2}=2$.
 
-::sa
+::sa VD
 Đường dốc lên cao $2$ m khi đi ngang $25$ m. Hệ số góc (độ dốc) bằng bao nhiêu?
 ::key 0,08
 $\dfrac{2}{25}=0{,}08$.

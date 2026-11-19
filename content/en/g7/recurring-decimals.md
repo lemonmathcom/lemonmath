@@ -584,7 +584,7 @@ So there are $4$ such fractions.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Which of these fractions is a terminating decimal?
 A. $\dfrac56$.
 B. $\dfrac7{20}$.
@@ -593,7 +593,7 @@ D. $\dfrac2{15}$.
 ::key B
 $\dfrac7{20}$ is in its simplest form and $20=2^2\cdot5$. The denominators $6=2\cdot3$, $9=3^2$ and $15=3\cdot5$ all have the prime factor $3$, so A, C and D are recurring decimals.
 
-::mc
+::mc TH
 The fraction $\dfrac5{12}$ written as a decimal is
 A. $0.4\overline{16}$.
 B. $0.\overline{41}$.
@@ -602,7 +602,7 @@ D. $0.416$.
 ::key C
 $5\div12=0.41666\ldots$; only the digit $6$ repeats. B and A choose the wrong block, and D ignores the remaining $6$s.
 
-::mc
+::mc NB
 Which of these numbers is irrational?
 A. $0.\overline{3}$.
 B. $\dfrac7{11}$.
@@ -611,7 +611,7 @@ D. $0.1010010001\ldots$ (after each digit $1$, the number of $0$s goes up by one
 ::key D
 Only D is a non-terminating, non-recurring decimal. A is a recurring decimal, B is a fraction and C is a terminating decimal; all three are rational.
 
-::mc
+::mc TH
 The principal square root of $0.36$ is
 A. $0.6$.
 B. $0.18$.
@@ -620,7 +620,7 @@ D. $0.06$.
 ::key A
 $0.6\geq0$ and $0.6^2=0.36$. A halves $0.36$, C forgets that the principal square root is non-negative, and D misplaces the decimal point.
 
-::tf
+::tf TH NB TH NB
 Decide whether each statement is true or false.
 a) $\dfrac9{15}$ is a terminating decimal.
 b) $\sqrt{16}=\pm4$.
@@ -629,12 +629,12 @@ d) $\sqrt{25}=5$.
 ::key T F F T
 a) True: $\dfrac9{15}=\dfrac35=0.6$. b) False: $\sqrt{16}=4$. c) False: $0.\overline{3}$ is non-terminating but rational. d) True, since $5\geq0$ and $5^2=25$.
 
-::sa
+::sa VD
 Find the $50$th digit after the decimal point of $\dfrac37$.
 ::key 2
 $\dfrac37=0.\overline{428571}$ has a block of $6$ digits; $50=6\cdot8+2$, so the $50$th digit is the second digit of the block, that is, $2$.
 
-::sa
+::sa VD
 Calculate $\sqrt{0.64}+\sqrt{1.21}$ and give the answer as a decimal.
 ::key 1.9
 $\sqrt{0.64}=0.8$ and $\sqrt{1.21}=1.1$, so the sum is $1.9$.

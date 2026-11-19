@@ -349,7 +349,7 @@ Ending in $0$: $P(5, 3)=60$. Ending in $5$: first digit $4$ ways, the two middle
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 In how many ways can $2$ of $7$ students be chosen for cleaning duty?
 A. $21$.
 B. $42$.
@@ -358,7 +358,7 @@ D. $49$.
 ::key A
 The two students on cleaning duty have the same role, so we use combinations: $\binom{7}{2}=\dfrac{7\cdot6}{2}=21$. Option B is $P(7, 2)$ (counting order), which counts each pair twice.
 
-::mc
+::mc TH
 $8$ runners take part in a race. How many results are possible for first, second and third place (no two runners finish together)?
 A. $56$.
 B. $336$.
@@ -367,7 +367,7 @@ D. $6$.
 ::key B
 The three prizes are different, so order matters: $P(8, 3)=8\cdot7\cdot6=336$. Option A is $\binom{8}{3}$ (ignoring order); option C is $8^3$ (allowing one runner to win several places).
 
-::mc
+::mc NB
 Which number equals $\binom{10}{3}$?
 A. $P(10, 7)$.
 B. $\binom{7}{3}$.
@@ -376,7 +376,7 @@ D. $\dfrac{10!}{3!}$.
 ::key C
 The symmetry property $\binom{n}{k}=\binom{n}{n-k}$: choosing $3$ people to go is the same as choosing $7$ people to stay. Option D forgets to divide by $7!$.
 
-::mc
+::mc VD
 A convex polygon has $10$ vertices. The number of its diagonals is
 A. $45$.
 B. $35$.
@@ -385,7 +385,7 @@ D. $80$.
 ::key B
 Each segment joining two vertices is a combination of $2$ of the $10$ vertices: $\binom{10}{2}=45$, and $10$ of them are sides. So there are $45-10=35$ diagonals. Option A forgets to subtract the sides.
 
-::tf
+::tf NB TH VD VD
 A group has $4$ boys and $3$ girls.
 a) There are $5040$ ways to line up all $7$ of them in a row.
 b) There are $12$ ways to choose $3$ of them with exactly one girl.
@@ -394,12 +394,12 @@ d) There are $15$ ways to choose $2$ of them with at least one girl.
 ::key T F F T
 a) True: $7!=5040$. b) False: choose $1$ girl and $2$ boys: $\binom{3}{1}\cdot\binom{4}{2}=3\cdot6=18$. c) False: tie the $3$ girls into one block; there are $5!$ ways to arrange the $5$ "objects" and $3!$ orders inside the block: $720$. d) True: $\binom{7}{2}-\binom{4}{2}=21-6=15$.
 
-::sa
+::sa VD
 Find the natural number $n\ge 2$ such that $\binom{n}{2}=45$.
 ::key 10
 $\binom{n}{2}=\dfrac{n(n-1)}{2}=45\iff n^2-n-90=0\iff(n-10)(n+9)=0$. Since $n\ge2$, $n=10$.
 
-::sa
+::sa VDC
 Using the digits $0, 1, 2, 3, 4, 5$, how many even three-digit numbers with distinct digits can be made?
 ::key 52
 Ending in $0$: the first two digits are an arrangement of $2$ of the other $5$ digits, $P(5, 2)=20$ numbers. Ending in $2$ or $4$: the first digit has $4$ choices (not $0$ and not the last digit) and the middle digit has $4$ choices, giving $2\cdot4\cdot4=32$ numbers. In total $20+32=52$.

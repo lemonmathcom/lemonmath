@@ -401,7 +401,7 @@ $I(3, 2)$ and $|\overrightarrow{MA}+\overrightarrow{MB}|=2MI$. With $M(t, 0)$: $
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Let $A(2, -1)$ and $B(-1, 3)$. The coordinates of $\overrightarrow{AB}$ are
 A. $(-3, 4)$.
 B. $(3, -4)$.
@@ -410,7 +410,7 @@ D. $(-3, 2)$.
 ::key A
 End minus start: $\overrightarrow{AB}=(-1-2,\ 3-(-1))=(-3, 4)$. Option B is $\overrightarrow{BA}$ (subtracting in the wrong order); option C adds the coordinates.
 
-::mc
+::mc NB
 The length of the vector $\vec{a}=(-5, 12)$ is
 A. $7$.
 B. $13$.
@@ -419,7 +419,7 @@ D. $\sqrt{119}$.
 ::key B
 $|\vec{a}|=\sqrt{(-5)^2+12^2}=\sqrt{169}=13$. Options A and C simply add the coordinates; option D uses $144-25$.
 
-::mc
+::mc NB
 The centroid of the triangle with vertices $A(1, 4)$, $B(3, -2)$, $C(5, 7)$ is
 A. $G(4.5, 4.5)$.
 B. $G(9, 9)$.
@@ -428,7 +428,7 @@ D. $G(2, 1)$.
 ::key C
 $G\left(\dfrac{1+3+5}{3},\ \dfrac{4-2+7}{3}\right)=G(3, 3)$. Option B forgets to divide, A divides by $2$ instead of $3$, and D is the midpoint of $AB$.
 
-::mc
+::mc TH
 Which vector is collinear with $\vec{u}=(2, -3)$?
 A. $(3, -2)$.
 B. $(4, 6)$.
@@ -437,7 +437,7 @@ D. $(-4, 6)$.
 ::key D
 $(-4, 6)=-2(2, -3)$; check: $2\cdot6-(-4)\cdot(-3)=12-12=0$. Option A swaps the two coordinates; B and C get the sign of one coordinate wrong.
 
-::tf
+::tf NB TH NB VD
 Let $A(0, 2)$, $B(4, 0)$, $C(6, 4)$.
 a) $\overrightarrow{AB}=(4, -2)$.
 b) $AC=2\sqrt5$.
@@ -446,12 +446,12 @@ d) If $ABCD$ is a parallelogram, then $D(10, 2)$.
 ::key T F T F
 a) True: $(4-0,\ 0-2)$. b) False: $\overrightarrow{AC}=(6, 2)$, so $AC=\sqrt{40}=2\sqrt{10}$ ($2\sqrt5$ is $AB$). c) True: $\left(\dfrac{0+6}{2},\ \dfrac{2+4}{2}\right)$. d) False: $\overrightarrow{AB}=\overrightarrow{DC}$ gives $D(2, 6)$; the point $(10, 2)$ gives the parallelogram $ABDC$.
 
-::sa
+::sa TH
 Find the distance between the points $A(-1, 2)$ and $B(5, -6)$.
 ::key 10
 $\overrightarrow{AB}=(6, -8)$, so $AB=\sqrt{36+64}=\sqrt{100}=10$.
 
-::sa
+::sa VD
 Let $A(2, 1)$ and $B(6, 4)$. The line $AB$ meets the $y$-axis at the point $M$. Find the $y$-coordinate of $M$.
 ::key -0.5
 $M(0, t)$. We need $\overrightarrow{AM}=(-2,\ t-1)$ to be collinear with $\overrightarrow{AB}=(4, 3)$: $(-2)\cdot3-4(t-1)=0\iff 4t=-2\iff t=-0.5$.

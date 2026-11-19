@@ -357,7 +357,7 @@ So $EF\le\dfrac{AD+BC}{2}$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 In triangle $ABC$, $D$ and $E$ are the midpoints of $AB$ and $AC$, and $BC=20$ cm. The length $DE$ is
 A. $5$ cm.
 B. $40$ cm.
@@ -366,7 +366,7 @@ D. $20$ cm.
 ::key C
 $DE$ is a midsegment, so $DE=\dfrac12BC=10$ cm. A is a quarter of $BC$, B is $2BC$ and D is $BC$ itself.
 
-::mc
+::mc NB
 In triangle $ABC$, $D$ and $E$ are the midpoints of $AB$ and $AC$, and $DE=6$ cm. The length $BC$ is
 A. $3$ cm.
 B. $18$ cm.
@@ -375,7 +375,7 @@ D. $12$ cm.
 ::key D
 $BC=2DE=12$ cm. A is half of $DE$, C is $DE$ itself and B is $3DE$.
 
-::mc
+::mc NB
 In triangle $ABC$, $D$ and $E$ are the midpoints of $AB$ and $AC$. Which statement is correct?
 A. $DE\parallel BC$ and $DE=\dfrac12BC$.
 B. $DE\parallel BC$ and $DE=BC$.
@@ -384,7 +384,7 @@ D. $DE\parallel AB$ and $DE=\dfrac12AB$.
 ::key A
 The midsegment $DE$ is parallel to the third side $BC$ and half as long. A and C name the wrong parallel side, and B leaves out the half.
 
-::mc
+::mc TH
 Triangle $ABC$ has perimeter $24$ cm. The triangle formed by the midpoints of the three sides has perimeter
 A. $6$ cm.
 B. $12$ cm.
@@ -393,7 +393,7 @@ D. $48$ cm.
 ::key B
 Each side of the midpoint triangle is half the corresponding side, so its perimeter is $24:2=12$ cm. B is $24:4$, C is the original perimeter and D is $2\cdot24$.
 
-::tf
+::tf NB TH NB TH
 Triangle $ABC$ has $BC=16$ cm; $M$ and $N$ are the midpoints of $AB$ and $AC$.
 a) $MN\parallel BC$.
 b) $MN=16$ cm.
@@ -402,12 +402,12 @@ d) $MN\parallel AB$.
 ::key T F T F
 a) True: $MN$ is the midsegment corresponding to $BC$. b) False: $MN=\dfrac12BC=8$ cm. c) True: $M$ is the midpoint of $AB$. d) False: $MN$ meets $AB$ at $M$, so it is not parallel to $AB$.
 
-::sa
+::sa VD
 Triangle $ABC$ has $AB=10$ cm, $AC=14$ cm and $BC=16$ cm. Let $D$, $E$, $F$ be the midpoints of $AB$, $AC$, $BC$. Find the perimeter of triangle $DEF$ (cm).
 ::key 20
 The perimeter of triangle $ABC$ is $10+14+16=40$ cm, so the perimeter of triangle $DEF$ is $40:2=20$ cm.
 
-::sa
+::sa TH
 In triangle $ABC$, $D$ and $E$ are the midpoints of $AB$ and $AC$, and $DE=4.5$ cm. Find $BC$ (cm).
 ::key 9
 $BC=2DE=2\cdot4.5=9$ cm.

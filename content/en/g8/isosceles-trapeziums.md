@@ -397,7 +397,7 @@ So $OC=OD$ and $OA=OB$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The isosceles trapezium $ABCD$ ($AB\parallel CD$) has $\angle D=65^\circ$. The angle $\angle A$ equals
 A. $65^\circ$.
 B. $25^\circ$.
@@ -406,7 +406,7 @@ D. $130^\circ$.
 ::key C
 $\angle A$ and $\angle D$ are co-interior, so $\angle A=180^\circ-65^\circ=115^\circ$. A assumes $\angle A=\angle D$, B takes $90^\circ-65^\circ$, D takes $2\cdot65^\circ$.
 
-::mc
+::mc NB
 Which statement is true for every isosceles trapezium?
 A. The two bases are equal.
 B. The two legs are parallel.
@@ -415,7 +415,7 @@ D. The two diagonals are equal.
 ::key D
 In an isosceles trapezium the two diagonals are equal. A is false because the bases are not equal, B is false because the legs are not parallel to each other, C is true only for a rectangle.
 
-::mc
+::mc VD
 An isosceles trapezium has bases $4$ cm and $10$ cm and legs $5$ cm. Its height equals
 A. $4$ cm.
 B. $3$ cm.
@@ -424,7 +424,7 @@ D. $6$ cm.
 ::key A
 Each side sticks out $\dfrac{10-4}{2}=3$ cm, so the height is $\sqrt{5^2-3^2}=4$ cm. B is the overhang, C is the leg.
 
-::mc
+::mc TH
 An isosceles trapezium has bases $6$ cm and $12$ cm and legs $5$ cm. Its perimeter equals
 A. $23$ cm.
 B. $28$ cm.
@@ -433,7 +433,7 @@ D. $34$ cm.
 ::key B
 The perimeter is $6+12+5+5=28$ cm. A leaves out one leg, C and D add wrongly.
 
-::tf
+::tf TH TH TH NB
 The trapezium $ABCD$ ($AB\parallel CD$) has $\angle A=110^\circ$ and $\angle C=80^\circ$.
 a) $\angle D=70^\circ$.
 b) $\angle B=80^\circ$.
@@ -442,12 +442,12 @@ d) $\angle A+\angle B+\angle C+\angle D=360^\circ$.
 ::key T F F T
 a) True: $180-110=70$. b) False: $\angle B=180^\circ-80^\circ=100^\circ$. c) False: $\angle C=80^\circ\ne\angle D=70^\circ$. d) True: the angle sum of a quadrilateral.
 
-::sa
+::sa TH
 An isosceles trapezium has bases $7$ cm and $13$ cm and legs $5$ cm. Find the perimeter (cm).
 ::key 30
 The perimeter is $7+13+5+5=30$ cm.
 
-::sa
+::sa VD
 An isosceles trapezium has bases $6$ cm and $14$ cm and legs $5$ cm. Find the height (cm).
 ::key 3
 Each side sticks out $\dfrac{14-6}{2}=4$ cm, so the height is $\sqrt{25-16}=3$ cm.

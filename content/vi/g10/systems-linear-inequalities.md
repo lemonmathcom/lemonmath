@@ -414,7 +414,7 @@ $$\begin{aligned} A&:\ 2\le 4,\ 0\ge 0 &&\Rightarrow A\in D_1\cap D_2,\\ B&:\ 3\
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hệ nào sau đây là hệ bất phương trình bậc nhất hai ẩn?
 A. $\begin{cases} x+y\ge 1\\ x^2-y<2 \end{cases}$
 B. $\begin{cases} 2x-y\le 3\\ x+5y>0 \end{cases}$
@@ -423,7 +423,7 @@ D. $\begin{cases} x+y=2\\ x-y>1 \end{cases}$
 ::key B
 Cả hai bất phương trình ở B đều có dạng $ax+by<c$ (hoặc $\le$, $>$, $\ge$). Phương án A có $x^2$, C có tích $xy$, D có một phương trình chứ không phải bất phương trình.
 
-::mc
+::mc TH
 Cặp số nào sau đây là nghiệm của hệ $\begin{cases} x+y\le 3\\ 2x-y>0 \end{cases}$?
 A. $(1; 1)$.
 B. $(0; 0)$.
@@ -432,7 +432,7 @@ D. $(1; 2)$.
 ::key A
 $(1; 1)$: $2\le 3$ và $1>0$, cả hai đúng. $(0; 0)$ và $(1; 2)$ cho $2x-y=0$, không thoả dấu "$>$" chặt; $(2; 2)$ cho $x+y=4>3$.
 
-::mc
+::mc VD
 Miền nghiệm của hệ $x\ge 0$, $y\ge 0$, $x+y\le 5$, $x\le 3$ là một tứ giác. Điểm nào sau đây **không** phải là đỉnh của tứ giác đó?
 A. $(3; 2)$.
 B. $(0; 5)$.
@@ -441,7 +441,7 @@ D. $(3; 0)$.
 ::key C
 $(5; 0)$ là giao điểm của $x+y=5$ với trục $Ox$, nhưng $5\le 3$ sai nên điểm này nằm ngoài miền nghiệm. Các đỉnh là $(0; 0)$, $(3; 0)$, $(3; 2)$, $(0; 5)$.
 
-::mc
+::mc TH
 Miền nghiệm của hệ $x\ge 0$, $y\ge 0$, $2x+y\le 8$, $x+3y\le 9$ là tứ giác có các đỉnh $(0; 0)$, $(4; 0)$, $(3; 2)$, $(0; 3)$. Giá trị lớn nhất của $F=x+2y$ trên miền đó là
 A. $6$.
 B. $7$.
@@ -450,7 +450,7 @@ D. $4$.
 ::key B
 Tại bốn đỉnh, $F$ bằng $0$, $4$, $7$, $6$; lớn nhất là $7$ tại $(3; 2)$. Số $16$ là $F(0; 8)$, nhưng $(0; 8)$ là giao của $2x+y=8$ với trục $Oy$ và không thoả $x+3y\le 9$.
 
-::tf
+::tf TH TH VD VD
 Cho miền nghiệm $D$ của hệ $\begin{cases} x\ge 0,\ y\ge 0\\ x+y\le 4\\ y\le x+2 \end{cases}$
 a) Cặp $(2; 1)$ là một nghiệm của hệ.
 b) Điểm $(1; 3)$ là một đỉnh của $D$.
@@ -459,12 +459,12 @@ d) Giá trị nhỏ nhất của $y-x$ trên $D$ là $-4$.
 ::key Đ Đ S Đ
 Các đỉnh của $D$ là $(0; 0)$, $(4; 0)$, $(1; 3)$, $(0; 2)$. a) Đúng: $3\le 4$ và $1\le 4$. b) Đúng: giải $x+y=4$, $y=x+2$ được $x=1$, $y=3$. c) Sai: $x+2y$ tại các đỉnh là $0, 4, 7, 4$, lớn nhất là $7$. d) Đúng: $y-x$ tại các đỉnh là $0, -4, 2, 2$.
 
-::sa
+::sa VD
 Có bao nhiêu cặp số nguyên $(x; y)$ thoả mãn hệ $x\ge 0$, $y\ge 0$, $x+y\le 3$?
 ::key 10
 Với $x=0, 1, 2, 3$, số giá trị của $y$ lần lượt là $4, 3, 2, 1$. Tổng cộng $4+3+2+1=10$ cặp.
 
-::sa
+::sa VDC
 Một tiệm bánh làm $x$ mẻ bánh mì và $y$ mẻ bánh ngọt mỗi ngày. Mỗi mẻ bánh mì cần $3$ kg bột và $1$ giờ lò; mỗi mẻ bánh ngọt cần $2$ kg bột và $2$ giờ lò. Mỗi ngày tiệm có $18$ kg bột và $10$ giờ lò. Mỗi mẻ bánh mì lãi $500$ nghìn đồng, mỗi mẻ bánh ngọt lãi $400$ nghìn đồng. Tiền lãi lớn nhất trong một ngày là bao nhiêu nghìn đồng?
 ::key 3200
 Hệ: $3x+2y\le 18$, $x+2y\le 10$, $x, y\ge 0$, với các đỉnh $(0; 0)$, $(6; 0)$, $(4; 3)$, $(0; 5)$. Lãi $F=500x+400y$ tại các đỉnh là $0$, $3000$, $3200$, $2000$; lớn nhất là $3200$ nghìn đồng (làm $4$ mẻ bánh mì, $3$ mẻ bánh ngọt).

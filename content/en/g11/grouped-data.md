@@ -394,7 +394,7 @@ From $\dfrac{18}{n}=0.36$ we get $n=50$. The cumulative frequency of $[10, 20)$ 
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A grouped data set of size $50$ has a class with frequency $12$. The relative frequency of that class is
 A. $12\%$.
 B. $62\%$.
@@ -403,7 +403,7 @@ D. $24\%$.
 ::key D
 $\dfrac{12}{50}\cdot100\%=24\%$. Option A treats the frequency as a percentage, and option C is $\dfrac{50}{12}$.
 
-::mc
+::mc NB
 The representative value of the class $[160, 170)$ is
 A. $165$.
 B. $160$.
@@ -412,7 +412,7 @@ D. $330$.
 ::key A
 $\dfrac{160+170}{2}=165$. Option C is the class width, and option D is the sum of the boundaries without dividing by $2$.
 
-::mc
+::mc TH
 A sample has four classes with frequencies $4, 9, 12, 5$. The cumulative frequency of the third class is
 A. $12$.
 B. $25$.
@@ -421,7 +421,7 @@ D. $21$.
 ::key B
 $4+9+12=25$. Option A is the frequency of the third class alone, option C is $4+9$, and option D is $9+12$.
 
-::mc
+::mc TH
 Which of the following groupings is valid for data taking values from $3$ to $28$?
 A. $[0, 10)$, $[15, 25)$, $[25, 35)$.
 B. $[0, 10]$, $[10, 20]$, $[20, 30]$.
@@ -430,7 +430,7 @@ D. $[5, 15)$, $[15, 25)$.
 ::key C
 The classes $[0, 10)$, $[10, 20)$, $[20, 30)$ are consecutive, do not overlap, and cover every value from $3$ to $28$. Option B overlaps at $10$ and $20$, option A leaves $[10, 15)$ uncovered, and option D does not contain the values $3$ and $28$.
 
-::tf
+::tf NB TH TH TH
 The waiting times for a bus of $25$ passengers are grouped: $[0, 5)$ has $7$, $[5, 10)$ has $10$, $[10, 15)$ has $6$, $[15, 20)$ has $2$ passengers. Decide whether each statement is true or false.
 a) The relative frequency of the class $[0, 5)$ is $7\%$.
 b) $15$ passengers wait less than $10$ minutes.
@@ -439,12 +439,12 @@ d) $5$ passengers wait at least $15$ minutes.
 ::key F F T F
 a) False: $\dfrac{7}{25}\cdot100\%=28\%$. b) False: $7+10=17$ passengers. c) True: $7+10+6=23$. d) False: the class $[15, 20)$ has only $2$ passengers.
 
-::sa
+::sa NB
 A grouped data set of size $80$ has the class $[20, 30)$ with frequency $28$. What is the relative frequency of that class, as a percentage?
 ::key 35
 $\dfrac{28}{80}\cdot100\%=35\%$.
 
-::sa
+::sa NB
 What is the representative value of the class $[12.5, 17.5)$?
 ::key 15
 $\dfrac{12.5+17.5}{2}=15$.

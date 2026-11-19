@@ -435,7 +435,7 @@ So the final price is $1\%$ lower than the original price.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The ratio of $60$ cm to $2$ m is
 A. $30$.
 B. $\dfrac{3}{10}$.
@@ -444,7 +444,7 @@ D. $\dfrac{3}{100}$.
 ::key B
 $2$ m $=200$ cm, so the ratio is $\dfrac{60}{200}=\dfrac{3}{10}$. A does not change the unit; C reverses the order; D wrongly changes $2$ m into $2000$ cm.
 
-::mc
+::mc TH
 $9$ as a percentage of $12$ is
 A. $75\%$.
 B. $0.75\%$.
@@ -453,7 +453,7 @@ D. $25\%$.
 ::key A
 $\dfrac{9}{12}\cdot100\%=75\%$. B forgets to multiply by $100\%$; C reverses the two numbers; D is the missing part.
 
-::mc
+::mc TH
 $20\%$ of $150$ is
 A. $75$.
 B. $750$.
@@ -462,7 +462,7 @@ D. $30$.
 ::key D
 $150\cdot\dfrac{20}{100}=30$. A takes half of $150$; B divides by $\dfrac{20}{100}$ instead of multiplying; C divides by $1000$ instead of $100$.
 
-::mc
+::mc TH
 $25\%$ of a number is $40$. The number is
 A. $10$.
 B. $160$.
@@ -471,7 +471,7 @@ D. $1000$.
 ::key B
 $40:\dfrac{25}{100}=160$. A multiplies instead of dividing; C adds $40+25$; D multiplies $40\cdot25$.
 
-::tf
+::tf TH TH TH VD
 A shirt costing $300$ thousand dong is sold at $20\%$ off. Decide whether each statement is true or false.
 a) The discount is $60$ thousand dong.
 b) The price after the discount is $240$ thousand dong.
@@ -480,12 +480,12 @@ d) If the shop then raises the price by $20\%$, the price goes back to $300$ tho
 ::key T T T F
 a) True: $300\cdot\dfrac{20}{100}=60$. b) True: $300-60=240$. c) True: $\dfrac{240}{300}\cdot100\%=80\%$. d) False: $240\cdot1.2=288$ thousand dong.
 
-::sa
+::sa TH
 Work out $1.5\%$ of $600$.
 ::key 9
 $600\cdot\dfrac{1.5}{100}=6\cdot1.5=9$.
 
-::sa
+::sa TH
 A class has $24$ students, and $18$ of them cycle to school. What percentage of the class cycles to school? (Write the number only, without the $\%$ sign.)
 ::key 75
 $\dfrac{18}{24}\cdot100\%=75\%$.

@@ -449,7 +449,7 @@ So the function has a local minimum at $x=-\sqrt2$ and a local maximum at $x=\sq
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 On which of the following intervals is the function $y=x^3-3x^2+2$ decreasing?
 A. $(-\infty, 0)$.
 B. $(2, +\infty)$.
@@ -458,7 +458,7 @@ D. $(-2, 0)$.
 ::key C
 We have $y'=3x^2-6x=3x(x-2)$. Since $a=3>0$, $y'<0$ between the roots $0$ and $2$. Option D comes from solving $y'=0$ wrongly as $x=0$, $x=-2$.
 
-::mc
+::mc TH
 The function $y=-x^3+3x+1$ has a local maximum at
 A. $x=-1$.
 B. $x=1$.
@@ -467,7 +467,7 @@ D. $x=0$.
 ::key B
 We have $y'=-3(x-1)(x+1)$, which changes sign from $+$ to $-$ as $x$ passes through $x=1$, so $x=1$ is a local maximum point. Option C is the local maximum value $y(1)=3$, not where it occurs; $x=0$ is the root of $y''$.
 
-::mc
+::mc TH
 The function $y=f(x)$ has a second derivative on $\mathbb{R}$ and satisfies $f'(2)=0$ and $f''(2)=-3$. Which of the following statements is correct?
 A. $f$ has a local minimum at $x=2$.
 B. $f$ has a local maximum at $x=-3$.
@@ -476,7 +476,7 @@ D. $f$ has a local maximum at $x=2$.
 ::key D
 Since $f'(2)=0$ and $f''(2)<0$, $f$ has a local maximum at $x=2$ (second-derivative test). The number $-3$ is the value of $f''(2)$, not a point.
 
-::mc
+::mc TH
 Which of the following functions is increasing on $\mathbb{R}$?
 A. $y=x^3+3x-1$.
 B. $y=x^3-3x$.
@@ -485,7 +485,7 @@ D. $y=x^4+2x^2$.
 ::key A
 Function A has $y'=3x^2+3>0$ for every $x$, so it is increasing on $\mathbb{R}$. Function C is undefined at $x=-3$, so it is increasing only on each interval $(-\infty, -3)$ and $(-3, +\infty)$; function D has $y'=4x(x^2+1)$, which is negative for $x<0$.
 
-::tf
+::tf NB TH VD VD
 Consider the function $f(x)=2x^3-3x^2-12x+1$. Decide whether each statement is true or false.
 a) $f'(x)=6x^2-6x-12$.
 b) $f$ is increasing on the interval $(-1, 2)$.
@@ -494,12 +494,12 @@ d) The line through the two turning points of the graph has gradient $9$.
 ::key T F T F
 a) True: differentiating term by term gives this result. b) False: we have $f'(x)=6(x+1)(x-2)<0$ on $(-1, 2)$, so $f$ is decreasing on this interval. c) True: since $f'$ changes sign from $+$ to $-$ at $x=-1$, the local maximum value is $f(-1)=8$. d) False: the turning points are $(-1, 8)$ and $(2, -19)$, hence the gradient is $\dfrac{-19-8}{2-(-1)}=-9$.
 
-::sa
+::sa VD
 Find the sum of the local maximum value and the local minimum value of $y=-x^4+8x^2-3$.
 ::key 10
 We have $y'=-4x(x-2)(x+2)$. The function has a local maximum at $x=\pm2$ with $y_{\text{max}}=13$ and a local minimum at $x=0$ with $y_{\text{min}}=-3$. So the required sum is $13+(-3)=10$ (the local maximum value is counted once).
 
-::sa
+::sa VD
 The water level in a reservoir after $t$ hours is modelled by $h(t)=t^3-15t^2+60t+100$ (cm), $0\le t\le 12$. For how many hours does the water level fall (give your answer to 1 decimal place)?
 ::key 4.5
 We have $h'(t)=3(t^2-10t+20)<0$ when $5-\sqrt5<t<5+\sqrt5$, and this interval lies in $[0, 12]$. Hence the water level falls for $2\sqrt5\approx 4.47$ hours. So the answer, rounded, is $4.5$ hours.

@@ -243,7 +243,7 @@ From $8$ up to $10$ is $2$, and from $10$ up to $15$ is $5$, so the missing numb
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $9+5$ equals
 A. $13$.
 B. $14$.
@@ -252,7 +252,7 @@ D. $10$.
 ::key B
 $9+5=9+1+4=10+4=14$. Option D is the mistake of forgetting the $4$ that is left.
 
-::mc
+::mc TH
 To work out $8+7$ with the make-10 trick, you split $7$ into
 A. $1$ and $6$.
 B. $3$ and $4$.
@@ -261,7 +261,7 @@ D. $2$ and $4$.
 ::key C
 $8$ needs $2$ more to make $10$, so split $7=2+5$. Option D is wrong because $2+4=6$, not $7$.
 
-::mc
+::mc TH
 Which sum equals $13$?
 A. $6+7$.
 B. $6+8$.
@@ -270,7 +270,7 @@ D. $9+5$.
 ::key A
 $6+7=7+6=7+3+3=13$. The other sums are $14$, $12$ and $14$.
 
-::mc
+::mc TH
 Mai has $8$ flowers and Ha has $6$ flowers. How many flowers do the two girls have altogether?
 A. $2$ flowers.
 B. $13$ flowers.
@@ -279,7 +279,7 @@ D. $15$ flowers.
 ::key C
 "Altogether" means putting together: $8+6=14$. Option A is $8-6$, a subtraction by mistake.
 
-::tf
+::tf NB TH TH TH
 Look at the sum $7+8$.
 a) It can be written as $8+7$ without changing the answer.
 b) $7+8=7+3+5$.
@@ -288,12 +288,12 @@ d) $7+8$ is greater than $14$.
 ::key T T F T
 a) True: swapping the addends does not change the sum. b) True: $8=3+5$. c) False: $7+3+5=10+5=15$. d) True: $15>14$.
 
-::sa
+::sa TH
 Work out $9+9$.
 ::key 18
 $9+9=9+1+8=10+8=18$.
 
-::sa
+::sa TH
 There are $7$ birds on a branch and $4$ more fly in. How many birds are on the branch altogether?
 ::key 11
 $7+4=7+3+1=10+1=11$ (birds).

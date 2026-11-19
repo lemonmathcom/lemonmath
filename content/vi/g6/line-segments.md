@@ -408,7 +408,7 @@ Vậy $AC=8$ cm hoặc $AC=2$ cm.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Cho bốn điểm thẳng hàng. Số đoạn thẳng có hai mút là hai trong bốn điểm đó là
 A. $4$.
 B. $3$.
@@ -417,7 +417,7 @@ D. $12$.
 ::key C
 Có $3+2+1=6$ cặp điểm. A đếm số điểm; B chỉ đếm các đoạn liền kề; D đếm mỗi đoạn hai lần.
 
-::mc
+::mc TH
 Điểm $M$ nằm giữa hai điểm $A$ và $B$, biết $AM=2$ cm và $AB=7$ cm. Độ dài $MB$ là
 A. $9$ cm.
 B. $5$ cm.
@@ -426,7 +426,7 @@ D. $2$ cm.
 ::key B
 $MB=AB-AM=7-2=5$ cm. A cộng thay vì trừ; C coi $M$ là trung điểm; D nhầm với $AM$.
 
-::mc
+::mc TH
 Cho $M$ là trung điểm của đoạn thẳng $AB$ với $AB=9$ cm. Độ dài $MA$ là
 A. $4{,}5$ cm.
 B. $18$ cm.
@@ -435,7 +435,7 @@ D. $3$ cm.
 ::key A
 $MA=\dfrac{AB}{2}=4{,}5$ cm. B nhân đôi; C nhầm với $AB$; D chia cho $3$.
 
-::mc
+::mc NB
 Điểm $M$ là trung điểm của đoạn thẳng $AB$ khi
 A. $MA=MB$.
 B. $M$ nằm giữa $A$ và $B$.
@@ -444,7 +444,7 @@ D. $MA+MB=AB$.
 ::key C
 Trung điểm phải thoả mãn cả hai điều kiện. A thiếu điều kiện nằm giữa; B và D thiếu điều kiện $MA=MB$.
 
-::tf
+::tf TH VD VD TH
 Trên tia $Ox$, lấy hai điểm $A$ và $B$ sao cho $OA=2$ cm, $OB=4$ cm. Xét tính đúng sai của các mệnh đề sau:
 a) Điểm $A$ nằm giữa hai điểm $O$ và $B$.
 b) $AB=6$ cm.
@@ -453,12 +453,12 @@ d) $B$ là trung điểm của đoạn thẳng $OA$.
 ::key Đ S Đ S
 a) Đúng: $OA<OB$. b) Sai: $AB=OB-OA=2$ cm. c) Đúng: $A$ nằm giữa $O$, $B$ và $OA=AB=2$ cm. d) Sai: $B$ không nằm giữa $O$ và $A$.
 
-::sa
+::sa VD
 Cho đoạn thẳng $AB=10$ cm, $M$ là trung điểm của $AB$, $N$ là trung điểm của $MB$. Tính độ dài $AN$ (đơn vị cm).
 ::key 7,5
 $AM=MB=5$ cm, $MN=2{,}5$ cm, $AN=AM+MN=7{,}5$ cm.
 
-::sa
+::sa TH
 Trên tia $Ox$, lấy hai điểm $A$, $B$ sao cho $OA=2{,}5$ cm và $OB=6$ cm. Tính độ dài $AB$ (đơn vị cm).
 ::key 3,5
 $OA<OB$ nên $A$ nằm giữa $O$ và $B$; $AB=6-2{,}5=3{,}5$ cm.

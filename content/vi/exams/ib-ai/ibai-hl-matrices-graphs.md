@@ -261,7 +261,7 @@ Vậy sau hai năm X chiếm $42{,}5\%$ và Y chiếm $57{,}5\%$ thị trường
 :::
 
 :::quiz
-::mc
+::mc TH
 Nếu $\det A=0$ thì
 A. $A^{-1}$ tồn tại
 B. $A$ là ma trận đơn vị
@@ -270,7 +270,7 @@ D. $A=0$
 ::key C
 Công thức ma trận nghịch đảo chia cho $\det A$.
 
-::mc
+::mc NB
 Trong ma trận chuyển như dùng ở đây, mỗi cột có tổng bằng
 A. $1$
 B. $0$
@@ -279,7 +279,7 @@ D. $100$
 ::key A
 Mỗi cột liệt kê mọi nơi một trạng thái có thể chuyển tới.
 
-::mc
+::mc NB
 Đồ thị có chu trình Euler khi
 A. có đúng hai đỉnh bậc lẻ
 B. mọi đỉnh có bậc chẵn
@@ -288,7 +288,7 @@ D. mọi đỉnh có bậc $1$
 ::key B
 Mỗi lần đi qua một đỉnh dùng một cạnh vào và một cạnh ra.
 
-::mc
+::mc TH
 Thuật toán láng giềng gần nhất cho bài toán người bán hàng cho ra
 A. đường đi tốt nhất chính xác
 B. một cận dưới
@@ -297,7 +297,7 @@ D. một cận trên
 ::key D
 Nó cho một hành trình thật, có thể chưa ngắn nhất.
 
-::tf
+::tf NB NB TH TH
 Một đồ thị có $6$ đỉnh và là một cây. Xét tính đúng sai của các mệnh đề sau:
 a) Đồ thị liên thông.
 b) Đồ thị không có chu trình.
@@ -306,12 +306,12 @@ d) Đồ thị chắc chắn có chu trình Euler.
 ::key T T T F
 Cây có đỉnh bậc $1$, nên không có chu trình Euler.
 
-::sa
+::sa TH
 Tính $\det\begin{pmatrix}5&2\\3&4\end{pmatrix}$.
 ::key 14
 $20-6=14$.
 
-::sa
+::sa TH
 Một đồ thị có các bậc $4,\ 3,\ 3,\ 2$. Đồ thị có bao nhiêu cạnh?
 ::key 6
 $\dfrac{12}{2}=6$.

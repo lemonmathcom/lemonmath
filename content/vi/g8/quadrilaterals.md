@@ -419,7 +419,7 @@ Vậy $AC+BD>\dfrac{AB+BC+CD+DA}{2}$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Tổng bốn góc của một tứ giác bằng
 A. $180^\circ$.
 B. $360^\circ$.
@@ -428,7 +428,7 @@ D. $540^\circ$.
 ::key B
 Tứ giác chia thành hai tam giác bằng một đường chéo, nên tổng góc là $2\cdot180^\circ=360^\circ$. A là tổng góc của tam giác, D là tổng góc của ngũ giác.
 
-::mc
+::mc TH
 Tứ giác $ABCD$ có $\widehat{A}=80^\circ$, $\widehat{B}=100^\circ$, $\widehat{C}=120^\circ$. Góc $\widehat{D}$ bằng
 A. $40^\circ$.
 B. $50^\circ$.
@@ -437,7 +437,7 @@ D. $80^\circ$.
 ::key C
 $\widehat{D}=360^\circ-(80^\circ+100^\circ+120^\circ)=360^\circ-300^\circ=60^\circ$. A, B, D đều không thỏa mãn tổng $360^\circ$.
 
-::mc
+::mc VD
 Bốn góc của một tứ giác tỉ lệ với $1:2:4:5$. Góc lớn nhất bằng
 A. $180^\circ$.
 B. $120^\circ$.
@@ -446,7 +446,7 @@ D. $150^\circ$.
 ::key D
 Tổng các phần là $12$ nên mỗi phần là $360^\circ:12=30^\circ$ và góc lớn nhất là $5\cdot30^\circ=150^\circ$. B là góc thứ ba, C chia nhầm cho $4$.
 
-::mc
+::mc NB
 Hai đường chéo của tứ giác $ABCD$ là
 A. $AC$ và $BD$.
 B. $BC$ và $DA$.
@@ -455,7 +455,7 @@ D. $AB$ và $BC$.
 ::key A
 Đường chéo nối hai đỉnh đối nhau, là $AC$ và $BD$. A và B là các cặp cạnh đối, D là hai cạnh kề.
 
-::tf
+::tf TH TH NB NB
 Tứ giác $ABCD$ có $\widehat{A}=90^\circ$, $\widehat{B}=100^\circ$, $\widehat{C}=70^\circ$.
 a) $\widehat{D}=100^\circ$.
 b) $\widehat{B}+\widehat{D}=200^\circ$.
@@ -464,12 +464,12 @@ d) $AC$ là một cạnh của tứ giác.
 ::key Đ Đ S S
 a) Đúng: $360-(90+100+70)=100$. b) Đúng: $100+100=200$. c) Sai: $90+70=160$. d) Sai: $AC$ là đường chéo, vì $A$ và $C$ là hai đỉnh đối nhau.
 
-::sa
+::sa TH
 Tứ giác $ABCD$ có $\widehat{A}=85^\circ$, $\widehat{B}=95^\circ$, $\widehat{C}=100^\circ$. Tính $\widehat{D}$ (độ).
 ::key 80
 $\widehat{D}=360^\circ-(85^\circ+95^\circ+100^\circ)=360^\circ-280^\circ=80^\circ$.
 
-::sa
+::sa VD
 Bốn góc của một tứ giác tỉ lệ với $1:3:4:4$. Tính góc nhỏ nhất (độ).
 ::key 30
 Tổng các phần là $12$ nên mỗi phần là $30^\circ$, và góc nhỏ nhất là $1\cdot30^\circ=30^\circ$.

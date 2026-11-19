@@ -245,7 +245,7 @@ Các số lớn hơn $47$ có hàng chục $4$ là $48$ và $49$. Cả hai đề
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Dấu thích hợp để điền vào $62 \;\square\; 59$ là
 A. $<$.
 B. $>$.
@@ -254,7 +254,7 @@ D. không điền được.
 ::key B
 Hàng chục: $6>5$ nên $62>59$. Phương án A là lỗi so hàng đơn vị trước.
 
-::mc
+::mc NB
 Dấu thích hợp để điền vào $47 \;\square\; 47$ là
 A. $<$.
 B. $>$.
@@ -263,7 +263,7 @@ D. không điền được.
 ::key C
 Hàng chục và hàng đơn vị đều bằng nhau.
 
-::mc
+::mc TH
 Số lớn nhất trong các số $38, 83, 29, 80$ là
 A. $38$.
 B. $83$.
@@ -272,7 +272,7 @@ D. $80$.
 ::key B
 Hàng chục lớn nhất là $8$, ở $83$ và $80$; hàng đơn vị $3>0$ nên $83$ lớn nhất.
 
-::mc
+::mc TH
 Sắp xếp $25, 52, 22$ từ bé đến lớn được
 A. $22, 25, 52$.
 B. $52, 25, 22$.
@@ -281,7 +281,7 @@ D. $22, 52, 25$.
 ::key A
 Hàng chục: $2, 5, 2$. Hai số $22$ và $25$ có hàng chục $2$, hàng đơn vị $2<5$. Phương án B xếp từ lớn đến bé.
 
-::tf
+::tf TH TH TH NB
 Em xét hai số $73$ và $37$.
 a) $73>37$.
 b) $37>73$.
@@ -290,12 +290,12 @@ d) $73=37$.
 ::key Đ S Đ S
 a) Đúng: hàng chục $7>3$. b) Sai. c) Đúng. d) Sai.
 
-::sa
+::sa TH
 Số lớn nhất trong các số $45, 54, 49$ là số nào?
 ::key 54
 Hàng chục $5$ lớn nhất, chỉ có $54$.
 
-::sa
+::sa TH
 Số bé nhất trong các số $61, 16, 66$ là số nào?
 ::key 16
 Hàng chục $1$ bé nhất, chỉ có $16$.

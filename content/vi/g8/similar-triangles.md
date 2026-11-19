@@ -355,7 +355,7 @@ Vậy $MN\parallel BC$ và $MN=\dfrac12BC$ (đoạn $MN$ gọi là đường tru
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Cho $\triangle ABC\sim\triangle MNP$ với $AB=6$ và $MN=4$. Tỉ số đồng dạng của $\triangle MNP$ so với $\triangle ABC$ là
 A. $\dfrac32$.
 B. $\dfrac23$.
@@ -364,7 +364,7 @@ D. $\dfrac12$.
 ::key B
 $k=\dfrac{MN}{AB}=\dfrac46=\dfrac23$. A lấy ngược tỉ số, C và D không xuất phát từ các cạnh tương ứng.
 
-::mc
+::mc NB
 Hai tam giác đồng dạng theo tỉ số $3$ thì tỉ số hai chu vi bằng
 A. $9$.
 B. $\dfrac13$.
@@ -373,7 +373,7 @@ D. $6$.
 ::key C
 Chu vi cũng theo tỉ số đồng dạng $k=3$. A bình phương $k$ (đó là tỉ số diện tích), B lấy ngược, D cộng $3+3$.
 
-::mc
+::mc VD
 Cho $\triangle ABC$ có $AB=10$, $BC=20$; $M\in AB$ với $AM=4$ và $MN\parallel BC$ ($N\in AC$). Độ dài $MN$ là
 A. $2$.
 B. $5$.
@@ -382,7 +382,7 @@ D. $8$.
 ::key D
 $k=\dfrac{4}{10}=\dfrac25$ nên $MN=\dfrac25\cdot20=8$. B, C và A không dùng tỉ số $\dfrac25$ của hai tam giác.
 
-::mc
+::mc NB
 Cho $\triangle ABC\sim\triangle DEF$. Cặp góc bằng nhau là
 A. $\widehat C=\widehat F$.
 B. $\widehat B=\widehat D$.
@@ -391,7 +391,7 @@ D. $\widehat A=\widehat F$.
 ::key A
 Thứ tự đỉnh cho $A\leftrightarrow D$, $B\leftrightarrow E$, $C\leftrightarrow F$, nên $\widehat C=\widehat F$. Các phương án còn lại ghép nhầm đỉnh.
 
-::tf
+::tf TH TH VD TH
 Cho $\triangle ABC$ có $AB=3$, $BC=4$, $CA=5$ và $\triangle A'B'C'\sim\triangle ABC$ với $A'B'=6$, $B'C'=8$. Xét tính đúng sai của các mệnh đề sau:
 a) Tỉ số đồng dạng của $\triangle A'B'C'$ so với $\triangle ABC$ bằng $2$.
 b) $C'A'=12$.
@@ -400,12 +400,12 @@ d) $\triangle ABC\sim\triangle A'B'C'$ theo tỉ số $2$.
 ::key Đ S Đ S
 a) Đúng: $\dfrac63=2$. b) Sai: $C'A'=2\cdot5=10$. c) Đúng: $6+8+10=24$. d) Sai: theo chiều ngược lại tỉ số là $\dfrac12$.
 
-::sa
+::sa VD
 Cho $\triangle ABC\sim\triangle MNP$ với $AB=6$, $BC=9$, $MN=4$. Tính $NP$.
 ::key 6
 $k=\dfrac46=\dfrac23$ nên $NP=\dfrac23\cdot9=6$.
 
-::sa
+::sa VD
 Bạn cao $1{,}6$ m có bóng dài $2$ m; cây có bóng dài $7{,}5$ m. Cây cao bao nhiêu mét?
 ::key 6
 $\dfrac{1{,}6}{h}=\dfrac{2}{7{,}5}$ nên $h=6$.

@@ -272,7 +272,7 @@ Vậy diện tích bề mặt nhỏ nhất là $S\approx348{,}7\approx349\text{ 
 :::
 
 :::quiz
-::mc
+::mc TH
 Đạo hàm của $5x^2$ là
 A. $5x$
 B. $10x^2$
@@ -281,7 +281,7 @@ D. $\dfrac53x^3$
 ::key C
 $5\times2x^{1}=10x$.
 
-::mc
+::mc NB
 Tại một điểm dừng của $f$,
 A. $f'(x)=0$
 B. $f(x)=0$
@@ -290,7 +290,7 @@ D. hàm số không xác định
 ::key A
 Hệ số góc bằng không.
 
-::mc
+::mc NB
 Cách nào ước lượng diện tích từ các giá trị dữ liệu cách đều?
 A. Định lí côsin
 B. Quy tắc hình thang
@@ -299,7 +299,7 @@ D. Hệ số hạng Spearman
 ::key B
 Các hình thang xấp xỉ diện tích.
 
-::mc
+::mc TH
 $\displaystyle\int3x^2\,dx$ bằng
 A. $6x+C$
 B. $3x^3+C$
@@ -308,7 +308,7 @@ D. $x^3+C$
 ::key D
 $\dfrac{3}{3}x^3=x^3$.
 
-::tf
+::tf TH TH VD TH
 Cho $f(x)=x^2-4x$. Xét tính đúng sai của các mệnh đề sau:
 a) $f'(x)=2x-4$.
 b) Có một điểm dừng tại $x=2$.
@@ -317,12 +317,12 @@ d) $f$ đồng biến khi $x<2$.
 ::key T T T F
 $f'(x)<0$ khi $x<2$, nên $f$ nghịch biến ở đó.
 
-::sa
+::sa TH
 Với $f(x)=x^3$, tính $f'(3)$.
 ::key 27
 $3(3)^2=27$.
 
-::sa
+::sa TH
 Tính $\displaystyle\int_0^23x^2\,dx$.
 ::key 8
 $2^3-0=8$.

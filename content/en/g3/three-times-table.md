@@ -281,7 +281,7 @@ At first there were $27\div 3=9$ (bags). After giving away $4$ bags, $9-4=5$ (ba
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $3\times 6$ equals
 A. $9$.
 B. $18$.
@@ -290,7 +290,7 @@ D. $21$.
 ::key B
 $3\times 6=3\times 5+3=15+3=18$. Option A is the mistake of adding $3+6$ instead of multiplying.
 
-::mc
+::mc NB
 $27\div 3$ equals
 A. $9$.
 B. $24$.
@@ -299,7 +299,7 @@ D. $30$.
 ::key A
 Since $3\times 9=27$, we get $27\div 3=9$. Option B is the mistake of taking $27-3$, and option D is $27+3$.
 
-::mc
+::mc NB
 Which of these is correct?
 A. $3\times 4=7$.
 B. $3\times 7=24$.
@@ -308,7 +308,7 @@ D. $3\times 9=27$.
 ::key D
 $3\times 9=3\times 8+3=24+3=27$. The others should be $12$, $21$ and $15$.
 
-::mc
+::mc TH
 $18$ cakes are put into boxes with $3$ cakes in each box. How many boxes are there?
 A. $15$ boxes.
 B. $6$ boxes.
@@ -317,7 +317,7 @@ D. $54$ boxes.
 ::key B
 We make groups of $3$: $18\div 3=6$ (boxes). Option A is $18-3$, option C is $18+3$ and option D is $18\times 3$.
 
-::tf
+::tf NB TH TH NB
 We know that $3\times 8=24$. Look at these calculations.
 a) $24\div 3=8$.
 b) $3\times 9=24+6$.
@@ -326,12 +326,12 @@ d) $24\div 3=21$.
 ::key T F T F
 a) True: from $3\times 8=24$ we get $24\div 3=8$. b) False: $3\times 9=27=24+3$. c) True: $3\times 7=21=24-3$. d) False: $24\div 3=8$, and $21$ is the answer to $24-3$.
 
-::sa
+::sa TH
 Ha puts flowers in vases, $3$ in each vase. She fills $9$ vases. How many flowers does Ha have altogether?
 ::key 27
 $3\times 9=27$ (flowers).
 
-::sa
+::sa TH
 A teacher shares $30$ sweets equally between $3$ children. How many sweets does each child get?
 ::key 10
 $30\div 3=10$, because $3\times 10=30$ (sweets).

@@ -257,7 +257,7 @@ a) Số bị chia là $4$ nên $?=4$. b) Mẫu số là $5$ nên số chia $?=5$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Thương của phép chia $5:8$ viết thành phân số là
 A. $\dfrac{8}{5}$.
 B. $5+8$.
@@ -266,7 +266,7 @@ D. $13$.
 ::key C
 Số bị chia $5$ là tử số, số chia $8$ là mẫu số. Phương án A là lỗi viết ngược.
 
-::mc
+::mc TH
 Chia đều $3$ m dây cho $4$ bạn. Mỗi bạn được
 A. $\dfrac{4}{3}$ m.
 B. $3$ m.
@@ -275,7 +275,7 @@ D. $\dfrac{3}{4}$ m.
 ::key D
 $3:4=\dfrac{3}{4}$. Phương án A viết ngược.
 
-::mc
+::mc NB
 Số $7$ viết dưới dạng phân số là
 A. $\dfrac{7}{1}$.
 B. $\dfrac{1}{7}$.
@@ -284,7 +284,7 @@ D. $\dfrac{0}{7}$.
 ::key A
 $7:1=7$ nên $7=\dfrac{7}{1}$. Phương án C bằng $1$, không phải $7$.
 
-::mc
+::mc NB
 Phân số $\dfrac{9}{4}$ là thương của phép chia
 A. $4:9$.
 B. $9:4$.
@@ -293,7 +293,7 @@ D. $9-4$.
 ::key B
 Tử số là số bị chia, mẫu số là số chia, nên $\dfrac{9}{4}=9:4$.
 
-::tf
+::tf NB TH TH TH
 Em xét các phép chia và phân số.
 a) $3:5=\dfrac{3}{5}$.
 b) $5:3=\dfrac{3}{5}$.
@@ -302,12 +302,12 @@ d) Có thể viết $5:0$ thành phân số $\dfrac{5}{0}$.
 ::key Đ S Đ S
 a) Đúng. b) Sai: $5:3=\dfrac{5}{3}$. c) Đúng: $8:8=1$. d) Sai: không chia cho $0$.
 
-::sa
+::sa TH
 Biết $12:?=\dfrac{12}{5}$. Số cần điền vào $?$ là bao nhiêu?
 ::key 5
 Số chia là mẫu số, nên $?=5$.
 
-::sa
+::sa NB
 Phân số $\dfrac{10}{10}$ bằng số nào?
 ::key 1
 $10:10=1$.

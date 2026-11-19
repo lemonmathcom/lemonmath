@@ -386,7 +386,7 @@ Với $(8; 9)$: $17\ge17$, đúng. Với $(10; 6)$: $16\ge17$, sai.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số trung bình cộng của mẫu số liệu $2, 5, 6, 9, 13$ là
 A. $6$.
 B. $7$.
@@ -395,7 +395,7 @@ D. $35$.
 ::key B
 Tổng bằng $35$, có $5$ giá trị nên $\bar x=\dfrac{35}{5}=7$. Phương án A là trung vị, C là chia nhầm cho $4$, D là tổng chưa chia.
 
-::mc
+::mc NB
 Trung vị của mẫu số liệu $9, 2, 13, 4, 6, 15$ là
 A. $6$.
 B. $8{,}5$.
@@ -404,7 +404,7 @@ D. $9$.
 ::key C
 Sắp xếp: $2, 4, 6, 9, 13, 15$. Có $6$ giá trị nên $M_e=\dfrac{6+9}{2}=7{,}5$. Phương án B lấy hai số ở giữa khi chưa sắp xếp ($13$ và $4$).
 
-::mc
+::mc NB
 Trong một tháng, một cửa hàng bán được $5$ đôi giày cỡ $36$, $9$ đôi cỡ $37$, $14$ đôi cỡ $38$, $8$ đôi cỡ $39$ và $3$ đôi cỡ $40$. Mốt của mẫu số liệu cỡ giày là
 A. $14$.
 B. $37$.
@@ -413,7 +413,7 @@ D. $38$.
 ::key D
 Mốt là giá trị có tần số lớn nhất: cỡ $38$ (bán $14$ đôi). Phương án A nhầm mốt với tần số.
 
-::mc
+::mc TH
 Tứ phân vị thứ nhất $Q_1$ của mẫu số liệu $1, 3, 4, 6, 7, 8, 9, 11, 12$ là
 A. $3{,}5$.
 B. $4$.
@@ -422,7 +422,7 @@ D. $10$.
 ::key A
 $n=9$ lẻ, $M_e=7$. Bỏ $7$ ra, nửa dưới là $1, 3, 4, 6$ nên $Q_1=\dfrac{3+4}{2}=3{,}5$. Phương án B tính cả $7$ vào nửa dưới; D là $Q_3$.
 
-::tf
+::tf NB NB TH VD
 Cho mẫu số liệu $3, 5, 5, 6, 8, 9, 20$.
 a) Số trung bình cộng bằng $8$.
 b) Trung vị bằng $6$.
@@ -431,12 +431,12 @@ d) Nếu bỏ giá trị $20$ thì số trung bình cộng giảm ít hơn $1$.
 ::key Đ Đ S S
 a) Đúng: $\bar x=\dfrac{56}{7}=8$. b) Đúng: giá trị thứ $4$ là $6$. c) Sai: nửa trên (không tính $6$) là $8, 9, 20$ nên $Q_3=9$. d) Sai: còn lại $\bar x=\dfrac{36}{6}=6$, giảm $2$.
 
-::sa
+::sa VD
 Trong một nhóm $20$ học sinh, có $4$ bạn được $6$ điểm, $6$ bạn được $7$ điểm, $7$ bạn được $8$ điểm và $3$ bạn được $9$ điểm. Tính điểm trung bình của nhóm.
 ::key 7,45
 $\bar x=\dfrac{4\cdot6+6\cdot7+7\cdot8+3\cdot9}{20}=\dfrac{149}{20}=7{,}45$.
 
-::sa
+::sa VD
 Một nhóm $12$ bạn có tuổi trung bình là $15$. Khi cô giáo vào nhóm, tuổi trung bình của cả $13$ người là $17$. Cô giáo bao nhiêu tuổi?
 ::key 41
 Tổng tuổi của $12$ bạn là $12\cdot15=180$, của $13$ người là $13\cdot17=221$. Vậy cô giáo $221-180=41$ tuổi.

@@ -297,7 +297,7 @@ So the probability of at least one $6$ is $\dfrac{671}{1296}$, slightly more tha
 :::
 
 :::quiz
-::mc
+::mc NB
 What is the mode of $2, 3, 3, 5, 7, 7, 7$?
 A. $3$
 B. $5$
@@ -306,7 +306,7 @@ D. $4$
 ::key C
 $7$ appears three times, more than any other value.
 
-::mc
+::mc NB
 A spinner has $8$ equal sections, $3$ of which are blue. What is the probability of landing on blue?
 A. $\dfrac38$
 B. $\dfrac35$
@@ -315,7 +315,7 @@ D. $\dfrac13$
 ::key A
 $3$ favorable sections out of $8$.
 
-::mc
+::mc NB
 In how many ways can $5$ different books be arranged on a shelf?
 A. $25$
 B. $60$
@@ -324,7 +324,7 @@ D. $120$
 ::key D
 $5!=120$.
 
-::mc
+::mc NB
 What is the mean of $2, 4, 6, 8, 10$?
 A. $5$
 B. $6$
@@ -333,7 +333,7 @@ D. $7$
 ::key B
 $\dfrac{30}{5}=6$.
 
-::tf
+::tf NB NB NB TH
 Consider the data $1, 2, 2, 3, 10$. Decide whether each statement is true or false.
 a) The mean is $3.6$.
 b) The median is $2$.
@@ -342,12 +342,12 @@ d) Removing the value $10$ increases the mean.
 ::key T T T F
 The mean is $\dfrac{18}{5}=3.6$; removing $10$ gives a mean of $2$.
 
-::sa
+::sa TH
 How many ways are there to choose $2$ items from $5$?
 ::key 10
 $\dbinom52=10$.
 
-::sa
+::sa TH
 A fair coin is tossed twice. Find the probability of two tails.
 ::key 0.25
 $\dfrac12\times\dfrac12=0.25$.

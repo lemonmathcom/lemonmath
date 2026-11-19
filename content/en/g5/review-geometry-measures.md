@@ -319,7 +319,7 @@ The greatest area is $36\ \text{cm}^2$, when the rectangle is a square of side $
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $3\ \text{m}^2\ 5\ \text{dm}^2$ changed into square decimetres is
 A. $305\ \text{dm}^2$.
 B. $3005\ \text{dm}^2$.
@@ -328,7 +328,7 @@ D. $35\ \text{dm}^2$.
 ::key A
 $3\ \text{m}^2=300\ \text{dm}^2$, so the total is $305\ \text{dm}^2$. Option D uses $1\ \text{m}^2=10\ \text{dm}^2$; B and C get the number of square decimetres in $1\ \text{m}^2$ wrong.
 
-::mc
+::mc NB
 A rectangle is $9$ cm long and $4$ cm wide. Its perimeter is
 A. $36$ cm.
 B. $26$ cm.
@@ -337,7 +337,7 @@ D. $52$ cm.
 ::key B
 $(9+4)\times2=26$ cm. Option A is the area; C forgets to multiply by $2$; D multiplies by $4$ as for the perimeter of a square.
 
-::mc
+::mc VD
 A square has perimeter $20$ cm. Its area is
 A. $20\ \text{cm}^2$.
 B. $100\ \text{cm}^2$.
@@ -346,7 +346,7 @@ D. $400\ \text{cm}^2$.
 ::key C
 The side is $20\div4=5$ cm, so the area is $5\times5=25\ \text{cm}^2$. Option B multiplies the perimeter by the side; C multiplies the side by $4$; D multiplies the perimeter by itself.
 
-::mc
+::mc VD
 The floor of a rectangular room $5$ m long and $4$ m wide is covered with square tiles of side $50$ cm. The number of tiles needed is
 A. $20$ tiles.
 B. $40$ tiles.
@@ -355,7 +355,7 @@ D. $80$ tiles.
 ::key D
 Along the length $500\div50=10$ tiles fit, along the width $400\div50=8$ tiles fit, so $10\times8=80$ tiles are needed. Option A forgets to change units; B takes $50$ as the area of one tile; D uses $1\ \text{m}^2=10\ \text{dm}^2$.
 
-::tf
+::tf NB TH TH VD
 A rectangle has length $8$ m and width $5$ m.
 a) The area of the rectangle is $40\ \text{m}^2$.
 b) The perimeter of the rectangle is $8\times5=40$ m.
@@ -364,12 +364,12 @@ d) If the length is increased by $2$ m, the perimeter increases by $2$ m.
 ::key T F T F
 a) True: $8\times5=40$. b) False: $8\times5$ is the area; the perimeter is $(8+5)\times2=26$ m. c) True: $40\times10\,000=400\,000$. d) False: if the length increases by $2$ m then $(a+b)$ increases by $2$ m, so the perimeter increases by $4$ m.
 
-::sa
+::sa TH
 Find the missing number: $6\ \text{m}^2\ 40\ \text{dm}^2=?\ \text{dm}^2$.
 ::key 640
 $6\ \text{m}^2=600\ \text{dm}^2$, so $600+40=640\ \text{dm}^2$.
 
-::sa
+::sa VD
 A rectangular playground is $15$ m long and $8$ m wide. You walk exactly twice round it. How many metres do you walk?
 ::key 92
 One lap is $(15+8)\times2=46$ m, and two laps are $46\times2=92$ m.

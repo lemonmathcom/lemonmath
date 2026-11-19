@@ -325,7 +325,7 @@ Cộng lại: $1-\dfrac{1}{2}+\dfrac{1}{2}-\dfrac{1}{3}+\dfrac{1}{3}-\dfrac{1}{4
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $\dfrac{2}{3}+\dfrac{3}{4}$ là
 A. $\dfrac{17}{12}$.
 B. $\dfrac{5}{7}$.
@@ -334,7 +334,7 @@ D. $\dfrac{5}{12}$.
 ::key A
 $\dfrac{2}{3}+\dfrac{3}{4}=\dfrac{8}{12}+\dfrac{9}{12}=\dfrac{17}{12}$. Phương án B cộng cả tử số và mẫu số.
 
-::mc
+::mc TH
 Kết quả của $\dfrac{5}{6}-\dfrac{3}{8}$ là
 A. $\dfrac{2}{24}$.
 B. $\dfrac{11}{24}$.
@@ -343,7 +343,7 @@ D. $\dfrac{8}{14}$.
 ::key B
 $\dfrac{5}{6}-\dfrac{3}{8}=\dfrac{20}{24}-\dfrac{9}{24}=\dfrac{11}{24}$.
 
-::mc
+::mc TH
 Kết quả của $\dfrac{5}{6}:\dfrac{5}{12}$ là
 A. $\dfrac{25}{72}$.
 B. $\dfrac{1}{2}$.
@@ -352,7 +352,7 @@ D. $1$.
 ::key C
 $\dfrac{5}{6}:\dfrac{5}{12}=\dfrac{5}{6}\times\dfrac{12}{5}=2$. Phương án A là phép nhân hai phân số.
 
-::mc
+::mc VD
 Giá trị của biểu thức $\dfrac{1}{2}+\dfrac{1}{3}\times\dfrac{3}{4}$ là
 A. $\dfrac{5}{8}$.
 B. $\dfrac{5}{6}$.
@@ -361,7 +361,7 @@ D. $\dfrac{3}{4}$.
 ::key D
 Nhân trước: $\dfrac{1}{3}\times\dfrac{3}{4}=\dfrac{1}{4}$, rồi $\dfrac{1}{2}+\dfrac{1}{4}=\dfrac{3}{4}$. Phương án A là kết quả khi cộng trước.
 
-::tf
+::tf NB TH TH TH
 Em xét bài tìm $x$ biết $x+\dfrac{2}{5}=\dfrac{7}{10}$.
 a) $x=\dfrac{7}{10}-\dfrac{2}{5}$.
 b) $x=\dfrac{3}{10}$.
@@ -370,12 +370,12 @@ d) $x$ lớn hơn $\dfrac{7}{10}$.
 ::key Đ Đ S S
 a) Đúng: số hạng chưa biết bằng tổng trừ số hạng đã biết. b) Đúng: $\dfrac{7}{10}-\dfrac{4}{10}=\dfrac{3}{10}$. c) Sai: $\dfrac{11}{10}$ là $\dfrac{7}{10}+\dfrac{2}{5}$. d) Sai: $x$ bé hơn tổng $\dfrac{7}{10}$.
 
-::sa
+::sa VD
 Mỗi chiếc khăn cần $\dfrac{1}{12}$ m vải. Có $\dfrac{5}{6}$ m vải thì may được nhiều nhất bao nhiêu chiếc khăn?
 ::key 10
 $\dfrac{5}{6}:\dfrac{1}{12}=\dfrac{5}{6}\times12=10$ (chiếc).
 
-::sa
+::sa VD
 Cuộn dây dài $\dfrac{3}{4}$ m, cắt đi $\dfrac{1}{3}$ m. Phần dây còn lại viết với mẫu số $12$ thì tử số là bao nhiêu?
 ::key 5
 $\dfrac{3}{4}-\dfrac{1}{3}=\dfrac{9}{12}-\dfrac{4}{12}=\dfrac{5}{12}$.

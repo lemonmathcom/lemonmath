@@ -275,7 +275,7 @@ So $5$ people drink neither, and the probability is $\dfrac49$.
 :::
 
 :::quiz
-::mc
+::mc NB
 In a histogram with unequal class widths, the height of each bar is
 A. the frequency
 B. the frequency density
@@ -284,7 +284,7 @@ D. the cumulative frequency
 ::key B
 Frequency divided by class width.
 
-::mc
+::mc NB
 $P(A)=0.35$. Then $P(\text{not }A)$ is
 A. $0.65$
 B. $0.35$
@@ -293,7 +293,7 @@ D. $1.35$
 ::key A
 $1-0.35$.
 
-::mc
+::mc NB
 To estimate the mean of grouped data, each class is represented by its
 A. lower bound
 B. frequency
@@ -302,7 +302,7 @@ D. upper bound
 ::key C
 The midpoint stands for every value in the class.
 
-::mc
+::mc NB
 Which measure describes the spread of the middle half of the data?
 A. the mean
 B. the mode
@@ -311,7 +311,7 @@ D. the interquartile range
 ::key D
 Upper quartile minus lower quartile.
 
-::tf
+::tf NB TH TH TH
 Two fair coins are tossed. Decide whether each statement is true or false.
 a) There are $4$ equally likely outcomes.
 b) $P(\text{two heads})=\dfrac14$.
@@ -320,12 +320,12 @@ d) $P(\text{one head and one tail})=\dfrac14$.
 ::key T T T F
 HT and TH give $\dfrac24=\dfrac12$.
 
-::sa
+::sa TH
 Find the mean of $2$, $4$, $6$, $8$, $10$.
 ::key 6
 $\dfrac{30}{5}$.
 
-::sa
+::sa TH
 A fair coin is tossed twice. Find the probability of two tails, as a decimal.
 ::key 0.25
 $0.5\times0.5$.

@@ -495,7 +495,7 @@ So the square has an area $4\ \text{cm}^2$ larger than the rectangle.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The area of a square of side $6$ cm is
 A. $24\ \text{cm}^2$.
 B. $36\ \text{cm}^2$.
@@ -504,7 +504,7 @@ D. $18\ \text{cm}^2$.
 ::key B
 $S=6\cdot6=36\ \text{cm}^2$. A is the perimeter value ($4\cdot6$); C works out $6\cdot2$; D halves without reason.
 
-::mc
+::mc NB
 A parallelogram has a side of $9$ cm, and the height corresponding to that side is $4$ cm. The area of the parallelogram is
 A. $36\ \text{cm}^2$.
 B. $26\ \text{cm}^2$.
@@ -513,7 +513,7 @@ D. $13\ \text{cm}^2$.
 ::key A
 $S=9\cdot4=36\ \text{cm}^2$. B works out $2\cdot(9+4)$ as for a perimeter; C divides by $2$ as for a rhombus; D adds the two numbers.
 
-::mc
+::mc TH
 A rhombus has diagonals of $10$ cm and $6$ cm. The area of the rhombus is
 A. $60\ \text{cm}^2$.
 B. $16\ \text{cm}^2$.
@@ -522,7 +522,7 @@ D. $30\ \text{cm}^2$.
 ::key D
 $S=\dfrac{10\cdot6}{2}=30\ \text{cm}^2$. A forgets to divide by $2$; B adds the diagonals; C works out $2\cdot(10+6)$.
 
-::mc
+::mc TH
 A trapezium has bases of $4$ m and $8$ m and a height of $5$ m. The area of the trapezium is
 A. $60\ \text{m}^2$.
 B. $160\ \text{m}^2$.
@@ -531,7 +531,7 @@ D. $17\ \text{m}^2$.
 ::key C
 $S=\dfrac{(4+8)\cdot5}{2}=30\ \text{m}^2$. A forgets to divide by $2$; B multiplies all three numbers; D adds all three numbers.
 
-::tf
+::tf NB NB VD TH
 A rectangle is $10$ m long and $6$ m wide. Decide whether each statement is true or false.
 a) The perimeter of the rectangle is $32$ m.
 b) The area of the rectangle is $60\ \text{m}^2$.
@@ -540,12 +540,12 @@ d) If both the length and the width are doubled, the perimeter doubles.
 ::key T T F T
 a) True: $2\cdot(10+6)=32$. b) True: $10\cdot6=60$. c) False: the new area is $20\cdot12=240$, which is $4$ times as large. d) True: the new perimeter is $2\cdot(20+12)=64$, which is twice as large.
 
-::sa
+::sa TH
 A rectangle has an area of $72\ \text{cm}^2$ and a length of $9$ cm. How many centimetres is the width of the rectangle?
 ::key 8
 The width equals the area divided by the length: $72:9=8$ (cm).
 
-::sa
+::sa VD
 A square garden has a perimeter of $48$ m. How many square metres is the area of the garden?
 ::key 144
 The side of the garden is $48:4=12$ (m), so the area is $12\cdot12=144\ (\text{m}^2)$.

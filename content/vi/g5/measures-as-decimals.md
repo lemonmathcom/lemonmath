@@ -403,7 +403,7 @@ Kiểm tra: $4{,}45\approx4{,}5$ (vì chữ số hàng phần trăm là $5$) và
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Số đo $5$ m $8$ cm viết dưới dạng số thập phân có đơn vị mét là
 A. $5{,}8$ m.
 B. $508$ m.
@@ -412,7 +412,7 @@ D. $5{,}08$ m.
 ::key D
 $8$ cm $=\dfrac{8}{100}$ m $=0{,}08$ m nên $5$ m $8$ cm $=5{,}08$ m. Phương án A coi $8$ cm là $0{,}8$ m; C coi $1$ m $=1000$ cm; D viết liền các chữ số.
 
-::mc
+::mc TH
 Số đo $2$ kg $75$ g viết dưới dạng số thập phân có đơn vị ki-lô-gam là
 A. $2{,}075$ kg.
 B. $2{,}0075$ kg.
@@ -421,7 +421,7 @@ D. $207{,}5$ kg.
 ::key A
 $75$ g $=\dfrac{75}{1000}$ kg $=0{,}075$ kg nên số đo là $2{,}075$ kg. Phương án C coi $75$ g là $0{,}75$ kg; B nhầm $1$ kg $=10\,000$ g; D đặt sai dấu phẩy.
 
-::mc
+::mc TH
 Làm tròn số $6{,}748$ đến hàng phần trăm được
 A. $6{,}74$.
 B. $6{,}75$.
@@ -430,7 +430,7 @@ D. $6{,}8$.
 ::key B
 Chữ số hàng phần nghìn là $8\ge5$ nên tăng chữ số hàng phần trăm thêm $1$: $6{,}75$. Phương án A bỏ chữ số $8$; C làm tròn đến hàng phần mười; D làm tròn hai lần.
 
-::mc
+::mc TH
 Cân điện tử hiển thị $4{,}963$ kg. Làm tròn đến hàng phần mười, khối lượng là
 A. $4{,}9$ kg.
 B. $4{,}96$ kg.
@@ -439,7 +439,7 @@ D. $4{,}97$ kg.
 ::key C
 Chữ số hàng phần trăm là $6\ge5$ nên tăng $4{,}9$ thêm $0{,}1$, được $5{,}0$ kg. Phương án A chỉ bỏ các chữ số bên phải; B bỏ chữ số $3$; C làm tròn đến hàng phần trăm.
 
-::tf
+::tf NB TH TH TH
 Em xét số đo $3$ m $4$ cm.
 a) $3$ m $4$ cm $=3{,}4$ m.
 b) $3$ m $4$ cm $=3{,}04$ m.
@@ -448,12 +448,12 @@ d) Làm tròn $3{,}04$ m đến hàng phần mười được $3{,}1$ m.
 ::key S Đ Đ S
 a) Sai: $4$ cm $=0{,}04$ m, không phải $0{,}4$ m. b) Đúng: $4$ cm $=\dfrac{4}{100}$ m. c) Đúng: $3$ m $=300$ cm và $0{,}04$ m $=4$ cm. d) Sai: chữ số hàng phần trăm là $4<5$ nên $3{,}04\approx3{,}0$.
 
-::sa
+::sa TH
 Số?  $3$ kg $40$ g $=?$ kg.
 ::key 3,04
 $40$ g $=\dfrac{40}{1000}$ kg $=0{,}04$ kg, nên $3$ kg $40$ g $=3{,}04$ kg.
 
-::sa
+::sa TH
 Chiếc cân điện tử hiển thị $38{,}52$ kg. Làm tròn khối lượng đó đến số tự nhiên.
 ::key 39
 Chữ số hàng phần mười là $5\ge5$ nên làm tròn thành $39$.

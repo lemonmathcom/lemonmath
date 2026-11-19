@@ -321,7 +321,7 @@ Số học sinh học bơi là $36:4=9$ (em). Số học sinh học vẽ là $36
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Chia đều một chiếc bánh cho $6$ bạn. Mỗi bạn được mấy phần chiếc bánh?
 A. $\dfrac{1}{5}$.
 B. $\dfrac{1}{6}$.
@@ -330,7 +330,7 @@ D. $\dfrac{1}{7}$.
 ::key B
 Chiếc bánh chia thành $6$ phần bằng nhau, mỗi phần là $\dfrac{1}{6}$. Phương án C là lỗi viết số phần thay cho phân số.
 
-::mc
+::mc TH
 Kết quả của $\dfrac{1}{3}$ của $18$ là
 A. $54$.
 B. $15$.
@@ -339,7 +339,7 @@ D. $3$.
 ::key C
 Ta chia: $18:3=6$. Phương án A là lỗi nhân $18\times3$, phương án B là lỗi trừ $18-3$.
 
-::mc
+::mc TH
 Kết quả của $\dfrac{1}{8}$ của $40$ là
 A. $5$.
 B. $32$.
@@ -348,7 +348,7 @@ D. $8$.
 ::key A
 $40:8=5$. Phương án B là lỗi trừ $40-8$, phương án C là lỗi cộng $40+8$.
 
-::mc
+::mc TH
 Trong các phân số $\dfrac{1}{2}$, $\dfrac{1}{3}$, $\dfrac{1}{5}$, $\dfrac{1}{9}$, phân số nào lớn nhất?
 A. $\dfrac{1}{2}$.
 B. $\dfrac{1}{3}$.
@@ -357,7 +357,7 @@ D. $\dfrac{1}{9}$.
 ::key A
 Chia thành càng ít phần bằng nhau thì mỗi phần càng lớn, nên $\dfrac{1}{2}$ lớn nhất. Phương án D là lỗi cho rằng số $9$ lớn hơn thì phần lớn hơn.
 
-::tf
+::tf NB TH TH NB
 Một hình chữ nhật được chia thành $4$ phần bằng nhau.
 a) Mỗi phần là $\dfrac{1}{4}$ hình.
 b) $\dfrac{1}{4}$ của $20$ là $5$.
@@ -366,12 +366,12 @@ d) Mỗi phần là $\dfrac{1}{5}$ hình.
 ::key Đ Đ S S
 a) Đúng: $4$ phần bằng nhau. b) Đúng: $20:4=5$. c) Sai: $80$ là $20\times4$. d) Sai: có $4$ phần chứ không phải $5$.
 
-::sa
+::sa TH
 Tìm $\dfrac{1}{7}$ của $56$.
 ::key 8
 $56:7=8$.
 
-::sa
+::sa TH
 Hộp có $45$ viên bi. Bình lấy $\dfrac{1}{9}$ số bi. Hỏi Bình lấy bao nhiêu viên bi?
 ::key 5
 $45:9=5$ (viên bi).

@@ -374,7 +374,7 @@ $$\sin\varphi=\frac{|-1+1+1|}{\sqrt3\cdot\sqrt3}=\frac13,\qquad\varphi\approx19.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The angle between two lines with direction vectors $\vec{u}_1=(1, 0, 1)$ and $\vec{u}_2=(0, -1, -1)$ is
 A. $60^\circ$.
 B. $120^\circ$.
@@ -383,7 +383,7 @@ D. $45^\circ$.
 ::key A
 $\cos\varphi=\dfrac{|-1|}{\sqrt2\cdot\sqrt2}=\dfrac12$, so $\varphi=60^\circ$. Option B forgets the absolute value, and option C uses sine by mistake.
 
-::mc
+::mc TH
 The angle between a line with direction vector $\vec{u}=(1, 1, 0)$ and a plane with normal vector $\vec{n}=(0, 1, 1)$ is
 A. $60^\circ$.
 B. $45^\circ$.
@@ -392,7 +392,7 @@ D. $90^\circ$.
 ::key C
 $\sin\varphi=\dfrac{1}{\sqrt2\cdot\sqrt2}=\dfrac12$, so $\varphi=30^\circ$. Option A uses cosine instead of sine.
 
-::mc
+::mc TH
 Let $\varphi$ be the angle between the plane $(P): x-2y+2z=0$ and the plane $(Oxy)$. Then
 A. $\sin\varphi=\dfrac23$.
 B. $\cos\varphi=\dfrac23$.
@@ -401,7 +401,7 @@ D. $\cos\varphi=-\dfrac23$.
 ::key B
 $\cos\varphi=\dfrac{|2|}{3\cdot1}=\dfrac23$. Option A uses the line-and-plane formula, C forgets the square root in the denominator, and D forgets the absolute value.
 
-::mc
+::mc VD
 In the cube $ABCD.A'B'C'D'$, the angle between the lines $A'C'$ and $B'C$ is
 A. $45^\circ$.
 B. $90^\circ$.
@@ -410,7 +410,7 @@ D. $120^\circ$.
 ::key C
 With edge $1$ and the axes used in the lesson: $\overrightarrow{A'C'}=(1, 1, 0)$, $\overrightarrow{B'C}=(0, 1, -1)$, $\cos\varphi=\dfrac{1}{2}$. (Geometrically: $B'C\parallel A'D$, and triangle $A'C'D$ is equilateral because its three sides are face diagonals.) Option D is the angle between two vectors pointing the wrong way.
 
-::tf
+::tf TH TH TH TH
 Let $(P): 2x+y-2z+1=0$ and the line $d: x=1+t$, $y=-2t$, $z=3$.
 a) The angle between $d$ and $(P)$ is $0^\circ$.
 b) $(P)$ is perpendicular to the plane $(Q): x+z-4=0$.
@@ -419,12 +419,12 @@ d) $d$ is perpendicular to the plane $(Oxy)$.
 ::key T T F F
 a) True: $\vec{u}\cdot\vec{n}=2-2+0=0$, so $\sin\varphi=0$. b) True: $2+0-2=0$. c) False: $\cos\varphi=\dfrac23$, so the angle is about $48.2^\circ$; $41.8^\circ$ comes from using sine by mistake. d) False: $\vec{u}=(1, -2, 0)$ is not parallel to $(0, 0, 1)$; in fact $d$ is parallel to $(Oxy)$.
 
-::sa
+::sa VD
 Find the angle between the planes $(P): x+2y+2z-1=0$ and $(Q): 2x+y-z+5=0$, in degrees, to 1 decimal place.
 ::key 74.2
 $\cos\varphi=\dfrac{|2+2-2|}{3\sqrt6}=\dfrac{2}{3\sqrt6}\approx0.272$, so $\varphi\approx74.2^\circ$.
 
-::sa
+::sa VD
 A filming drone at $D(0, 0, 40)$ points its camera at a target $T(30, 40, 0)$ on the ground (unit: metre). Find the angle between the line of sight $DT$ and the ground, in degrees, to 1 decimal place.
 ::key 38.7
 $\overrightarrow{DT}=(30, 40, -40)$ and $|\overrightarrow{DT}|=\sqrt{4100}$. $\sin\varphi=\dfrac{40}{\sqrt{4100}}\approx0.625$, so $\varphi\approx38.7^\circ$.

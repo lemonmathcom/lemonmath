@@ -307,7 +307,7 @@ Thử lại: $84\times 6=504$. Đúng.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $126\times 4$ là
 A. $484$.
 B. $404$.
@@ -316,7 +316,7 @@ D. $504$.
 ::key D
 $6\times 4=24$, viết $4$ nhớ $2$; $2\times 4=8$, thêm $2$ được $10$, viết $0$ nhớ $1$; $1\times 4=4$, thêm $1$ được $5$. A quên nhớ ở hàng đơn vị, B quên nhớ ở hàng chục, C là phép cộng.
 
-::mc
+::mc TH
 Kết quả của $207\times 4$ là
 A. $828$.
 B. $808$.
@@ -325,7 +325,7 @@ D. $211$.
 ::key A
 $7\times 4=28$, viết $8$ nhớ $2$; $0\times 4=0$, thêm $2$ được $2$; $2\times 4=8$. B quên cộng số nhớ, C bỏ quên hàng trăm, D là phép cộng.
 
-::mc
+::mc TH
 Kết quả của $584:4$ là
 A. $46$.
 B. $146$.
@@ -334,7 +334,7 @@ D. $154$.
 ::key B
 $5$ trăm chia $4$ được $1$ trăm dư $1$; $18$ chia $4$ được $4$ dư $2$; $24$ chia $4$ được $6$. A bỏ quên hàng trăm, C đảo chữ số, D tính nhầm.
 
-::mc
+::mc TH
 Mỗi thùng có $125$ quyển. $5$ thùng như vậy có tất cả
 A. $130$ quyển.
 B. $505$ quyển.
@@ -343,7 +343,7 @@ D. $120$ quyển.
 ::key C
 "Mỗi thùng bằng nhau" nên nhân: $125\times 5=625$. A cộng, B quên số nhớ, D là phép trừ.
 
-::tf
+::tf NB TH TH TH
 Em xét phép chia $487:5$.
 a) $487:5=96$ (dư $7$).
 b) Thương có ba chữ số.
@@ -352,12 +352,12 @@ d) Thử lại: $97\times 5+2=487$.
 ::key S S Đ Đ
 a) Sai: số dư $7$ lớn hơn số chia $5$. b) Sai: $4<5$ nên thương chỉ có hai chữ số, là $97$. c) Đúng: $5\times 97=485$ và $487-485=2$. d) Đúng: $485+2=487$.
 
-::sa
+::sa TH
 Tính $213\times 4$.
 ::key 852
 $3\times 4=12$, viết $2$ nhớ $1$; $1\times 4=4$, thêm $1$ được $5$; $2\times 4=8$. Vậy $213\times 4=852$.
 
-::sa
+::sa TH
 Tính $936:3$.
 ::key 312
 $9:3=3$, $3:3=1$, $6:3=2$. Vậy $936:3=312$.

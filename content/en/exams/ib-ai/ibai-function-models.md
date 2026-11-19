@@ -268,7 +268,7 @@ So less than $50$ mg remains after $9$ hours.
 :::
 
 :::quiz
-::mc
+::mc TH
 A quantity is multiplied by $1.08$ every year. Which model fits?
 A. Linear
 B. Quadratic
@@ -277,7 +277,7 @@ D. Exponential
 ::key D
 A constant factor each step is exponential growth.
 
-::mc
+::mc TH
 In the model $C=0.15m+12$ for a phone bill, where $m$ is minutes used, $12$ represents
 A. the fixed charge
 B. the cost per minute
@@ -286,7 +286,7 @@ D. the maximum bill
 ::key A
 It is the cost when $m=0$.
 
-::mc
+::mc TH
 The function $y=-(x-3)^2+7$ has
 A. a minimum $7$ at $x=3$
 B. a maximum $3$ at $x=7$
@@ -295,7 +295,7 @@ D. a minimum $-7$ at $x=-3$
 ::key C
 The vertex is $(3,\ 7)$ and the parabola opens downwards.
 
-::mc
+::mc TH
 The model $T=20+60(0.9)^t$ has horizontal asymptote
 A. $T=60$
 B. $T=20$
@@ -304,7 +304,7 @@ D. $T=0.9$
 ::key B
 $60(0.9)^t\to0$, so $T\to20$.
 
-::tf
+::tf NB TH TH TH
 Consider $y=3\cos(30x)+5$, with $x$ in degrees. Decide whether each statement is true or false.
 a) The amplitude is $3$.
 b) The period is $12$.
@@ -313,12 +313,12 @@ d) The maximum value is $9$.
 ::key T T T F
 The maximum is $5+3=8$.
 
-::sa
+::sa NB
 For $y=2.5x+4$, find $y$ when $x=6$.
 ::key 19
 $2.5(6)+4=19$.
 
-::sa
+::sa TH
 A sinusoidal model has maximum $18$ and minimum $6$. Find its amplitude.
 ::key 6
 $\dfrac{18-6}{2}=6$.

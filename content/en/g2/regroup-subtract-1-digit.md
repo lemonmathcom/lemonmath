@@ -265,7 +265,7 @@ $(10+\square)-8=5$, so $10+\square=13$, which gives $\square=3$. Check: $73-8=65
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $51-6$ equals
 A. $45$.
 B. $55$.
@@ -274,7 +274,7 @@ D. $46$.
 ::key A
 $11-6=5$ and $5-1=4$, so $51-6=45$. Option B is the mistake of working out $6-1=5$ and keeping the tens, and C is $51+6$.
 
-::mc
+::mc TH
 When you work out $62-8$, you cannot take $8$ from $2$ in the ones place. You borrow $1$ ten and then work out
 A. $8-2$.
 B. $12-8$.
@@ -283,7 +283,7 @@ D. $10-8$.
 ::key B
 Borrowing $1$ ten gives $12$ ones: $12-8=4$; tens $6-1=5$; the answer is $54$. Option A takes the smaller from the bigger, and D forgets the $2$ ones you already had.
 
-::mc
+::mc TH
 Which subtraction equals $36$?
 A. $41-6$.
 B. $43-6$.
@@ -292,7 +292,7 @@ D. $44-6$.
 ::key C
 $42-6=36$. The other answers are $37$, $35$ and $38$.
 
-::mc
+::mc VD
 A box has $71$ marbles and Nam takes away $9$. How many marbles are left in the box?
 A. $80$ marbles.
 B. $78$ marbles.
@@ -301,7 +301,7 @@ D. $62$ marbles.
 ::key D
 "Takes away" and "left" mean subtraction: $71-9=62$. Option A is $71+9$, B works out $9-1=8$ and keeps the tens, and C forgets to take away the borrowed ten.
 
-::tf
+::tf NB TH TH VD
 Look at the subtraction $83-5$.
 a) In the ones: $3$ is too small to take away $5$.
 b) After borrowing $1$ ten, the ones are $13$.
@@ -310,12 +310,12 @@ d) $83-5=78$.
 ::key T T F T
 a) True: $3<5$. b) True: $10+3=13$. c) False: the tens are $8-1=7$. d) True: $13-5=8$ and $7$ tens, which is $78$.
 
-::sa
+::sa VD
 Work out $92-7$.
 ::key 85
 $12-7=5$, tens $9-1=8$. So $92-7=85$.
 
-::sa
+::sa VD
 A tank has $54$ fish and $8$ fish are taken out. How many fish are left in the tank?
 ::key 46
 $14-8=6$, tens $5-1=4$. So $54-8=46$ (fish).

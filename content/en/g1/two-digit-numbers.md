@@ -248,7 +248,7 @@ The ones digit is $0$ or $1$, so the two numbers are $40$ and $41$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The number $25$ is
 A. $5$ tens and $2$ ones.
 B. $2$ tens and $5$ ones.
@@ -257,7 +257,7 @@ D. $7$ tens.
 ::key B
 The digit on the left, $2$, is in the tens place and the digit on the right, $5$, is in the ones place. Option A swaps the digits.
 
-::mc
+::mc NB
 The number made of $4$ tens and $7$ ones is
 A. $74$.
 B. $47$.
@@ -266,7 +266,7 @@ D. $4$.
 ::key B
 Write $4$ first, then $7$. Option A is written backwards.
 
-::mc
+::mc NB
 The number $50$ is
 A. $5$ tens and $0$ ones.
 B. $0$ tens and $5$ ones.
@@ -275,7 +275,7 @@ D. $10$ tens.
 ::key A
 The tens digit is $5$ and the ones digit is $0$. Option B swaps the digits.
 
-::mc
+::mc NB
 The tens digit of the number $68$ is
 A. $6$.
 B. $8$.
@@ -284,7 +284,7 @@ D. $14$.
 ::key A
 The digit on the left, $6$, is the tens digit. Option B is the ones digit.
 
-::tf
+::tf NB NB TH TH
 Look at the number $36$.
 a) The tens digit is $3$.
 b) The ones digit is $6$.
@@ -293,12 +293,12 @@ d) $36$ and $63$ are the same number.
 ::key T T F F
 a) True. b) True. c) False: $36$ is $3$ tens and $6$ ones. d) False: they are different numbers.
 
-::sa
+::sa TH
 There are $2$ bundles of sticks with $10$ sticks in each, and $6$ loose sticks. How many sticks are there altogether?
 ::key 26
 $2$ tens and $6$ ones make $26$.
 
-::sa
+::sa NB
 Which number is $9$ tens and $0$ ones?
 ::key 90
 Write $9$ then $0$.

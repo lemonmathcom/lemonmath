@@ -437,7 +437,7 @@ So $r=10$ cm, $h=10\sqrt3\approx17.32$ cm and $V\approx1814$ cm³.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The curved surface area of a cylinder with base radius $2$ cm and height $5$ cm is
 A. $10\pi$ cm².
 B. $28\pi$ cm².
@@ -446,7 +446,7 @@ D. $40\pi$ cm².
 ::key C
 $2\pi\cdot2\cdot5=20\pi$. A forgets the factor $2$, B is the total surface area, and D uses the diameter instead of the radius.
 
-::mc
+::mc NB
 The volume of a cylinder with base radius $3$ cm and height $4$ cm is
 A. $36\pi$ cm³.
 B. $12\pi$ cm³.
@@ -455,7 +455,7 @@ D. $48\pi$ cm³.
 ::key A
 $\pi\cdot9\cdot4=36\pi$. B is the volume of the cone, C is the curved surface area, and D swaps $r$ and $h$ ($\pi\cdot4^2\cdot3$).
 
-::mc
+::mc TH
 A cone with base radius $3$ cm and height $4$ cm has slant height
 A. $7$ cm.
 B. $\sqrt7$ cm.
@@ -464,7 +464,7 @@ D. $5$ cm.
 ::key D
 $l=\sqrt{9+16}=5$. A adds the two lengths, B subtracts under the root, and C forgets the square root.
 
-::mc
+::mc NB
 The curved surface area of a cone with base radius $3$ cm and slant height $5$ cm is
 A. $12\pi$ cm².
 B. $15\pi$ cm².
@@ -473,7 +473,7 @@ D. $24\pi$ cm².
 ::key B
 $\pi\cdot3\cdot5=15\pi$. A uses the height $4$ instead of the slant height, C uses $2\pi rl$ as for a cylinder, and D is the total surface area.
 
-::tf
+::tf TH VD TH TH
 A cone has base radius $6$ cm and height $8$ cm. Decide whether each statement is true or false.
 a) The slant height of the cone is $10$ cm.
 b) The curved surface area is $60\pi$ cm².
@@ -482,12 +482,12 @@ d) If the radius stays the same and the height is doubled, the volume doubles.
 ::key T T F T
 a) True: $\sqrt{36+64}=10$. b) True: $\pi\cdot6\cdot10$. c) False: $V=\dfrac13\pi\cdot36\cdot8=96\pi$. d) True: $V$ is proportional to $h$.
 
-::sa
+::sa TH
 Find the volume (in cm³) of a cylinder with base radius $1$ cm and height $2$ cm (give your answer to 2 decimal places).
 ::key 6.28
 $V=\pi\cdot1\cdot2=2\pi\approx6.28$ cm³.
 
-::sa
+::sa TH
 A cone and a cylinder have the same base radius and the same height. The volume of the cylinder is $27$ dm³. Find the volume (in dm³) of the cone.
 ::key 9
 $V_{\text{cone}}=\dfrac13V_{\text{cylinder}}=9$ dm³.

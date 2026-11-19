@@ -288,7 +288,7 @@ Vậy $y$ dự đoán lớn hơn $\bar y$ là $4{,}8$ đơn vị, tức $0{,}8$ 
 :::
 
 :::quiz
-::mc
+::mc TH
 Một đường bình phương nhỏ nhất có hệ số góc $-2{,}3$. Hệ số tương quan $r$
 A. dương
 B. bằng $-2{,}3$
@@ -297,7 +297,7 @@ D. bằng $0$
 ::key C
 Hệ số tương quan cùng dấu với hệ số góc.
 
-::mc
+::mc NB
 Phần dư được tính bằng
 A. $y$ thực tế trừ $y$ dự đoán
 B. $y$ dự đoán trừ $y$ thực tế
@@ -306,7 +306,7 @@ D. $y$ trừ $\bar y$
 ::key A
 Phần dư $=y-\hat y$.
 
-::mc
+::mc NB
 Giá trị $r$ nào cho thấy liên hệ tuyến tính mạnh nhất?
 A. $0{,}75$
 B. $0{,}10$
@@ -315,7 +315,7 @@ D. $-0{,}92$
 ::key D
 Độ mạnh phụ thuộc vào độ lớn của $|r|$.
 
-::mc
+::mc NB
 Dự đoán $y$ tại một giá trị $x$ nằm xa ngoài dữ liệu được gọi là
 A. nội suy
 B. ngoại suy
@@ -324,7 +324,7 @@ D. phần dư
 ::key B
 Ngoại suy không đáng tin.
 
-::tf
+::tf NB TH TH TH
 Một đường bình phương nhỏ nhất là $\hat y=5+2x$ và $r=0{,}9$. Xét tính đúng sai của các mệnh đề sau:
 a) Đường thẳng đi qua $(\bar x,\bar y)$.
 b) $y$ dự đoán khi $x=3$ là $11$.
@@ -333,12 +333,12 @@ d) Mối liên hệ chắc chắn là nhân quả.
 ::key T T T F
 Tương quan không cho thấy quan hệ nhân quả.
 
-::sa
+::sa TH
 Với $\hat y=5+2x$, tìm giá trị dự đoán khi $x=7$.
 ::key 19
 $5+2(7)=19$.
 
-::sa
+::sa TH
 Nếu $r=0{,}9$, tính $r^2$.
 ::key 0,81
 $0{,}9^2=0{,}81$.

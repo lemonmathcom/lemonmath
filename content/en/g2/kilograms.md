@@ -296,7 +296,7 @@ $$6-3=3\ \text{(l)}.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A bag of rice is placed on a set of scales and the pointer is exactly at the mark labelled 4. The bag of rice has a mass of
 A. $4$ l.
 B. $5$ kg.
@@ -305,7 +305,7 @@ D. $4$ kg.
 ::key D
 The pointer is at mark 4, so the bag has a mass of 4 kg. Option A uses the wrong unit, and options B and C misread the number.
 
-::mc
+::mc TH
 $8\ \text{kg}+7\ \text{kg}$ equals
 A. $15$ kg.
 B. $1$ kg.
@@ -314,7 +314,7 @@ D. $14$ kg.
 ::key A
 $8+7=15$ and the unit is kg. Option B is a subtraction, and option C has the wrong unit.
 
-::mc
+::mc TH
 A tank holds 18 litres of water and Mum takes out 9 litres. The tank now holds
 A. $27$ l of water.
 B. $9$ l of water.
@@ -323,7 +323,7 @@ D. $8$ l of water.
 ::key B
 "Takes out" means taking away: $18-9=9$ (l). Option A is an addition by mistake, and option C has the wrong unit.
 
-::mc
+::mc NB
 The unit used to measure out the amount of water in a bottle is the
 A. kilogram.
 B. centimetre.
@@ -332,7 +332,7 @@ D. hour.
 ::key C
 The amount of a liquid is measured out in litres, written l. The kilogram measures mass and the centimetre measures length.
 
-::tf
+::tf TH TH TH NB
 On balance scales, the left pan is lower than the right pan.
 a) The object on the left pan is lighter.
 b) The object on the right pan is lighter.
@@ -341,12 +341,12 @@ d) The lighter pan goes lower.
 ::key F T F F
 a) False: the lower pan holds the heavier object. b) True: the object on the right pan is lighter. c) False: if the masses were equal, the two pans would stay level. d) False: the heavier pan is the one that goes lower.
 
-::sa
+::sa TH
 Work out $6\ \text{kg}+9\ \text{kg}$ (write the number only, without the unit).
 ::key 15
 $6+9=15$ (kg).
 
-::sa
+::sa VD
 A tank holds 16 litres of water and 7 litres are poured out. How many litres of water are left in the tank?
 ::key 9
 $16-7=9$ (l).

@@ -279,7 +279,7 @@ a) $S=1+2+4+8+16+32=63$. b) $S+1=64=2^6$. Nhận xét: $S=2^6-1$. Thật vậy, 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Giá trị của $2^5$ là
 A. $10$.
 B. $7$.
@@ -288,7 +288,7 @@ D. $25$.
 ::key C
 $2^5=2\times2\times2\times2\times2=32$. Phương án A là $2\times5$, B là $2+5$, D là $5^2$.
 
-::mc
+::mc TH
 Kết quả của $3^4\times3^3$ viết dưới dạng một luỹ thừa là
 A. $3^1$.
 B. $3^{12}$.
@@ -297,7 +297,7 @@ D. $3^7$.
 ::key D
 Cơ số giữ nguyên, cộng số mũ: $3^{4+3}=3^7$. Phương án B nhân số mũ, C nhân cả cơ số, A trừ số mũ.
 
-::mc
+::mc TH
 Kết quả của $5^8:5^5$ là
 A. $5^3$.
 B. $5^{13}$.
@@ -306,7 +306,7 @@ D. $5^{40}$.
 ::key A
 Cơ số giữ nguyên, trừ số mũ: $5^{8-5}=5^3$. Phương án B cộng số mũ, C chia cả cơ số, D nhân số mũ.
 
-::mc
+::mc NB
 Giá trị của $7^0$ là
 A. $0$.
 B. $1$.
@@ -315,7 +315,7 @@ D. không có nghĩa.
 ::key B
 Quy ước $a^0=1$ với $a\ne0$, vì $7^0=7^3:7^3=1$. Phương án A và C là các nhầm lẫn thường gặp.
 
-::tf
+::tf TH TH TH TH
 Về số $64$.
 a) $64=2^8$.
 b) $64=2^6$.
@@ -324,12 +324,12 @@ d) $64=8^2$.
 ::key S Đ Đ Đ
 a) Sai: $2^8=256$. b) Đúng: $2^6=64$. c) Đúng: $4\times4\times4=64$. d) Đúng: $8\times8=64$.
 
-::sa
+::sa TH
 Giá trị của $3^4$ là bao nhiêu?
 ::key 81
 $3\times3\times3\times3=81$.
 
-::sa
+::sa TH
 Giá trị của $5^8:5^6$ là bao nhiêu?
 ::key 25
 $5^8:5^6=5^2=25$.

@@ -272,7 +272,7 @@ Vậy $\overrightarrow{CM}=\tfrac32\overrightarrow{CN}$: hai véc-tơ cùng phư
 :::
 
 :::quiz
-::mc
+::mc TH
 Phép tịnh tiến biến $(1;\ 2)$ thành $(4;\ 0)$ có véc-tơ
 A. $\begin{pmatrix}3\\2\end{pmatrix}$
 B. $\begin{pmatrix}3\\-2\end{pmatrix}$
@@ -281,7 +281,7 @@ D. $\begin{pmatrix}5\\2\end{pmatrix}$
 ::key B
 Ảnh trừ điểm ban đầu: $4-1=3$, $0-2=-2$.
 
-::mc
+::mc TH
 Một hình được vị tự với tỉ số $3$. Diện tích được nhân với
 A. $3$
 B. $6$
@@ -290,7 +290,7 @@ D. $9$
 ::key D
 $3^2=9$.
 
-::mc
+::mc NB
 Ảnh của $(2;\ 5)$ qua phép đối xứng trục $Ox$ là
 A. $(2;\ -5)$
 B. $(-2;\ 5)$
@@ -299,7 +299,7 @@ D. $(-2;\ -5)$
 ::key A
 Tung độ đổi dấu.
 
-::mc
+::mc TH
 Độ dài của $\begin{pmatrix}5\\12\end{pmatrix}$ là
 A. $17$
 B. $7$
@@ -308,7 +308,7 @@ D. $169$
 ::key C
 $\sqrt{25+144}=13$.
 
-::tf
+::tf TH TH TH TH
 Cho $\mathbf{a}=\begin{pmatrix}2\\1\end{pmatrix}$ và $\mathbf{b}=\begin{pmatrix}4\\2\end{pmatrix}$. Mỗi khẳng định sau đúng hay sai?
 a) $\mathbf{b}=2\mathbf{a}$.
 b) $\mathbf{a}$ và $\mathbf{b}$ cùng phương.
@@ -317,12 +317,12 @@ d) $\mathbf{a}+\mathbf{b}=\begin{pmatrix}6\\4\end{pmatrix}$.
 ::key T T T F
 $\mathbf{a}+\mathbf{b}=\begin{pmatrix}6\\3\end{pmatrix}$.
 
-::sa
+::sa TH
 Một hình được vị tự với tỉ số $-2$. Diện tích được nhân với số nào?
 ::key 4
 $(-2)^2=4$.
 
-::sa
+::sa TH
 Tính độ dài của $\begin{pmatrix}-8\\6\end{pmatrix}$.
 ::key 10
 $\sqrt{64+36}=10$.

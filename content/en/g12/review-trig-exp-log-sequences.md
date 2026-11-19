@@ -461,7 +461,7 @@ So the ball travels $70$ m in total.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The period of the function $y=\sin2x$ is
 A. $2\pi$.
 B. $\pi$.
@@ -470,7 +470,7 @@ D. $4\pi$.
 ::key B
 The period is $\dfrac{2\pi}{2}=\pi$. Option D multiplies by $2$ instead of dividing; option A is the period of $\sin x$.
 
-::mc
+::mc TH
 The solution of the equation $\log_3(2x-1)=2$ is
 A. $x=\dfrac92$.
 B. $x=\dfrac72$.
@@ -479,7 +479,7 @@ D. $x=\dfrac32$.
 ::key C
 $2x-1=3^2=9\iff x=5$ (and $2x-1>0$ holds). Option A forgets the $-1$, option B computes $3^2=6$, and option D takes $2x-1=2$.
 
-::mc
+::mc NB
 The arithmetic sequence $(u_n)$ has $u_1=2$ and common difference $d=3$. The term $u_{10}$ is
 A. $32$.
 B. $26$.
@@ -488,7 +488,7 @@ D. $29$.
 ::key D
 $u_{10}=2+9\cdot3=29$. Option A uses $u_1+10d$ by mistake and option B uses $u_1+8d$.
 
-::mc
+::mc TH
 The value of $\lim\dfrac{3n-1}{n+2}$ is
 A. $3$.
 B. $-\dfrac12$.
@@ -497,7 +497,7 @@ D. $+\infty$.
 ::key A
 Divide the numerator and denominator by $n$: $\dfrac{3-\frac1n}{1+\frac2n}\to3$. Option B is the ratio of the two constant terms.
 
-::tf
+::tf NB TH TH TH
 Consider the function $y=\log_2x$.
 a) The domain of the function is $(0, +\infty)$.
 b) The function is increasing on its domain.
@@ -506,12 +506,12 @@ d) $\log_2x<3\iff x<8$.
 ::key T T F F
 a) True: we need $x>0$. b) True: the base $2>1$. c) False: the graph passes through $(1, 0)$; the point $(0, 1)$ is on the graph of $y=2^x$. d) False: the condition is missing; $\log_2x<3\iff0<x<8$.
 
-::sa
+::sa TH
 Find the sum to infinity $S=6+2+\dfrac23+\dfrac29+\cdots$.
 ::key 9
 $u_1=6$ and $q=\dfrac13$, so $S=\dfrac{6}{1-\frac13}=9$.
 
-::sa
+::sa VD
 How many solutions does the equation $\sin x=\dfrac12$ have in $[0, 3\pi]$?
 ::key 4
 The solutions are $x=\dfrac{\pi}{6}+k2\pi$ and $x=\dfrac{5\pi}{6}+k2\pi$. In $[0, 3\pi]$ they are $\dfrac{\pi}{6}$, $\dfrac{5\pi}{6}$, $\dfrac{13\pi}{6}$, $\dfrac{17\pi}{6}$, that is $4$ solutions.

@@ -247,7 +247,7 @@ Hết $6$ hình của A thì còn thừa $3$ hình của B. Vẽ thêm $3$ hình
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Có $5$ cái cốc và $6$ cái thìa. Nhóm nào nhiều hơn?
 A. Cốc.
 B. Bằng nhau.
@@ -256,7 +256,7 @@ D. Không biết.
 ::key C
 Ghép $5$ cốc với $5$ thìa thì thừa $1$ thìa, nên thìa nhiều hơn. Phương án A nhầm nhóm hết trước.
 
-::mc
+::mc NB
 Có $4$ chiếc mũ và $4$ bạn, mỗi bạn một mũ. Hai nhóm thế nào?
 A. Mũ nhiều hơn.
 B. Bạn nhiều hơn.
@@ -265,7 +265,7 @@ D. Bằng nhau.
 ::key D
 Ghép xong không thừa gì, nên hai nhóm bằng nhau.
 
-::mc
+::mc TH
 Ghép $7$ bông hoa với $5$ cái lọ thì thừa $2$ bông hoa. Nhóm nào ít hơn?
 A. Lọ.
 B. Hoa.
@@ -274,7 +274,7 @@ D. Không biết.
 ::key A
 Lọ hết trước nên lọ ít hơn. Phương án B nhầm nhóm thừa.
 
-::mc
+::mc TH
 Hộp bé có $7$ viên bi, hộp to có $4$ viên bi. Hộp nào nhiều bi hơn?
 A. Hộp to.
 B. Hộp bé.
@@ -283,7 +283,7 @@ D. Không biết.
 ::key B
 $7$ viên bi nhiều hơn $4$ viên bi. Phương án A nhầm hộp to với nhiều.
 
-::tf
+::tf TH TH TH NB
 Có $3$ con gà và $5$ con vịt. Mỗi con gà ghép với một con vịt.
 a) Vịt nhiều hơn gà.
 b) Gà nhiều hơn vịt.
@@ -292,12 +292,12 @@ d) Gà và vịt bằng nhau.
 ::key Đ S Đ S
 a) Đúng. b) Sai: gà hết trước. c) Đúng: ghép hết $3$ gà thì thừa $2$ vịt. d) Sai.
 
-::sa
+::sa TH
 Có $8$ quả cam và $5$ cái đĩa, mỗi đĩa một quả cam. Thừa mấy quả cam?
 ::key 3
 Ghép $5$ đĩa với $5$ quả cam thì còn $3$ quả cam.
 
-::sa
+::sa TH
 Có $7$ con chim và $6$ cái tổ, mỗi tổ một con chim. Thừa mấy con chim?
 ::key 1
 Ghép $6$ tổ với $6$ con chim thì còn $1$ con chim.

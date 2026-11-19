@@ -379,7 +379,7 @@ We have $x^3-x=3x\iff x^3-4x=0\iff x\in\{-2, 0, 2\}$. We have $\displaystyle\int
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Let $y=f(x)$ be continuous on $[a, b]$. The area of the region bounded by the graph of $y=f(x)$, the $x$-axis and the lines $x=a$, $x=b$ is
 A. $\displaystyle\int_a^b f(x)\,dx$.
 B. $\displaystyle\int_a^b\lvert f(x)\rvert\,dx$.
@@ -388,7 +388,7 @@ D. $\pi\displaystyle\int_a^b\lvert f(x)\rvert\,dx$.
 ::key B
 Since the part of the graph below the $x$-axis gives a negative integral, we need $\lvert f(x)\rvert$. Option A is right only when $f\ge0$; C is the volume of a solid of revolution; D mixes the two formulas.
 
-::mc
+::mc VD
 The area of the region bounded by the graphs of $y=x^2$ and $y=x$ is
 A. $\dfrac56$.
 B. $\dfrac12$.
@@ -397,7 +397,7 @@ D. $-\dfrac16$.
 ::key C
 The graphs meet at $x=0$ and $x=1$, and $x>x^2$ on $(0, 1)$. Hence $S=\displaystyle\int_0^1(x-x^2)\,dx=\frac12-\frac13=\frac16$. A adds instead of subtracting, B only evaluates $\displaystyle\int_0^1x\,dx$, and D subtracts the wrong way round.
 
-::mc
+::mc TH
 The region bounded by $y=\sqrt x$, the $x$-axis, $x=0$ and $x=1$ is rotated about the $x$-axis. The volume of the solid of revolution is
 A. $\dfrac{\pi}{2}$.
 B. $\dfrac{2\pi}{3}$.
@@ -406,7 +406,7 @@ D. $\dfrac{\pi^2}{4}$.
 ::key A
 We have $V=\pi\displaystyle\int_0^1(\sqrt x)^2\,dx=\pi\displaystyle\int_0^1x\,dx=\frac{\pi}{2}$. Option B forgets the square ($\pi\displaystyle\int\sqrt x\,dx$), C forgets the $\pi$, and D squares the whole integral $\left(\pi\displaystyle\int_0^1 x\,dx\right)^2$.
 
-::mc
+::mc TH
 A solid lies between the planes $x=0$ and $x=2$; its cross-section perpendicular to the $x$-axis at $x$ is a square of side $x$. The volume of the solid is
 A. $8$.
 B. $\dfrac83$.
@@ -415,7 +415,7 @@ D. $2$.
 ::key B
 The cross-section has area $S(x)=x^2$, so $V=\displaystyle\int_0^2x^2dx=\frac83$. Option A multiplies the largest cross-section by the length, C adds a $\pi$ as for a solid of revolution, and D uses the side instead of the area.
 
-::tf
+::tf NB TH VD VD
 Let $H$ be the region bounded by the parabola $y=4x-x^2$ and the $x$-axis. Decide whether each statement is true or false.
 a) The parabola meets the $x$-axis at $x=0$ and $x=4$.
 b) The area of $H$ is $\dfrac{32}{3}$.
@@ -424,12 +424,12 @@ d) The line $x=2$ divides $H$ into two parts of equal area.
 ::key T T F T
 a) True: we have $4x-x^2=x(4-x)=0\iff x=0$ or $x=4$. b) True: we have $\displaystyle\int_0^4(4x-x^2)\,dx=32-\frac{64}{3}=\frac{32}{3}$. c) False: the square is missing; the volume is $\pi\displaystyle\int_0^4(4x-x^2)^2dx=\frac{512\pi}{15}$. d) True: we have $\displaystyle\int_0^2(4x-x^2)\,dx=\frac{16}{3}$, half the area (the parabola is symmetric about $x=2$).
 
-::sa
+::sa VD
 Find the area of the region bounded by the graphs of $y=x^3$ and $y=x$.
 ::key 0.5
 We have $x^3=x\iff x\in\{-1, 0, 1\}$. By symmetry, each part has area $\displaystyle\int_0^1(x-x^3)\,dx=\frac12-\frac14=\frac14$. So the area is $\dfrac12=0.5$.
 
-::sa
+::sa VD
 The inside of a funnel (not counting the narrow spout) is the solid of revolution formed by rotating the region bounded by $y=\dfrac1x$, the $x$-axis and the lines $x=1$, $x=3$ about the $x$-axis (units in dm). Find the capacity of this part of the funnel in litres (give your answer to 2 decimal places).
 ::key 2.09
 $V=\pi\displaystyle\int_1^3\frac{1}{x^2}\,dx=\pi\Big[-\frac1x\Big]_1^3=\pi\left(1-\frac13\right)=\frac{2\pi}{3}\approx2.094$ (dm³). Since $1$ dm³ $=1$ litre, the capacity, rounded, is $2.09$ litres.

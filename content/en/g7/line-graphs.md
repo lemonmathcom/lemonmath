@@ -548,7 +548,7 @@ So city $A$ has the larger variation during the day, $2$ times that of city $B$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of the following data is best shown on a line graph?
 A. The outdoor temperature measured every hour during a day.
 B. The favourite colours of the students in a group.
@@ -557,7 +557,7 @@ D. The number of students in each class of Year 7.
 ::key A
 Only the hourly temperature is data in time order. A, B and C are separate items, so a bar chart is better.
 
-::mc
+::mc NB
 A shop's takings over four consecutive months are $12$; $15$; $15$; $11$ (million đồng). In which interval did the takings fall?
 A. From month 1 to month 2.
 B. From month 3 to month 4.
@@ -566,7 +566,7 @@ D. In all three intervals.
 ::key B
 $15\to11$ is a fall of $4$ million đồng. B is a rise of $3$ million đồng, and C is no change (a horizontal segment).
 
-::mc
+::mc TH
 The temperatures at 6, 9, 12 and 15 o'clock are $22$ °C, $26$ °C, $30$ °C and $28$ °C. By how many degrees did the temperature rise from 6 to 12 o'clock?
 A. $4$ °C.
 B. $30$ °C.
@@ -575,7 +575,7 @@ D. $2$ °C.
 ::key C
 $30-22=8$. A only counts the interval from 6 to 9 o'clock; C confuses the change with the temperature at 12 o'clock; D is the fall from 12 to 15 o'clock.
 
-::mc
+::mc NB
 Which statement about drawing a line graph is correct?
 A. The points can be joined in any order.
 B. The marks on the vertical axis need not stand for equal amounts.
@@ -584,7 +584,7 @@ D. The points are joined one after another in time order by line segments.
 ::key D
 This is the definition of a line graph. A and C are the mistake of joining the wrong points; B is the mistake of an uneven scale.
 
-::tf
+::tf NB TH NB TH
 The numbers of people entering a park at 7, 8, 9 and 10 o'clock are $50$; $80$; $120$; $100$. Decide whether each statement is true or false.
 a) At 8 o'clock, $120$ people entered the park.
 b) From 7 to 9 o'clock, the number of people rose by $70$.
@@ -593,12 +593,12 @@ d) The most people entered at 10 o'clock.
 ::key F T T F
 a) False: at 8 o'clock there were $80$ people; $120$ is the number at 9 o'clock. b) True: $120-50=70$. c) True: from $120$ down to $100$. d) False: the most were at 9 o'clock.
 
-::sa
+::sa VD
 The numbers of books a library lent on five consecutive days are $24$; $30$; $27$; $36$; $33$. What is the greatest rise between two consecutive days, in books?
 ::key 9
 The changes are $+6$; $-3$; $+9$; $-3$. The greatest rise is $9$ books (from the third day to the fourth).
 
-::sa
+::sa VD
 The height of a plant at the start of weeks 0, 1, 2, 3 is $4$ cm, $7$ cm, $11$ cm and $14$ cm. On average, by how many centimetres does the plant grow each week? (Give your answer to 1 decimal place.)
 ::key 3.3
 After $3$ weeks the plant has grown $14-4=10$ (cm), so on average it grows $10\div3\approx3.3$ (cm) per week.

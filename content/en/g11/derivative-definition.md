@@ -410,7 +410,7 @@ Hence $2f'(0)=0$, that is $f'(0)=0$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Let $f(x)=x^2+2x$. The value of $f'(1)$ is
 A. $4$.
 B. $2$.
@@ -419,7 +419,7 @@ D. $5$.
 ::key A
 $\dfrac{x^2+2x-3}{x-1}=\dfrac{(x-1)(x+3)}{x-1}=x+3\to4$. Option C is $f(1)$, B uses only the coefficient of $2x$, and D is an addition slip.
 
-::mc
+::mc VD
 The tangent to the graph of $y=x^3$ at the point with $x$-coordinate $1$ has equation
 A. $y=3x+2$.
 B. $y=3x-2$.
@@ -428,7 +428,7 @@ D. $y=-3x+4$.
 ::key B
 $f(1)=1$ and $f'(1)=3$, so $y=3(x-1)+1=3x-2$. Option A has the wrong sign on the constant, C uses gradient $1$, and D uses gradient $-3$.
 
-::mc
+::mc TH
 Which property does $f(x)=|x|$ have?
 A. Differentiable at $0$ with $f'(0)=1$.
 B. Differentiable at $0$ with $f'(0)=0$.
@@ -437,7 +437,7 @@ D. Not continuous at $0$.
 ::key C
 $|x|$ is continuous at $0$, but the two one-sided limits of the difference quotient are $1$ and $-1$, so it is not differentiable. Options B and A get the value wrong, and D gets the continuity wrong.
 
-::mc
+::mc TH
 A particle has distance $s(t)=t^2+4t$ (metres) after $t$ seconds. The instantaneous velocity at $t=2$ is
 A. $4$ m/s.
 B. $6$ m/s.
@@ -446,7 +446,7 @@ D. $8$ m/s.
 ::key D
 $\dfrac{t^2+4t-12}{t-2}=\dfrac{(t-2)(t+6)}{t-2}=t+6\to8$. Option A takes only the coefficient $4$ of $4t$, while B and C come from simplifying the quotient wrongly.
 
-::tf
+::tf TH TH TH TH
 Let $h(x)=\begin{cases}x^2&\text{if }x\le0\\x&\text{if }x>0.\end{cases}$ Decide whether each statement is true or false:
 a) $h$ is continuous at $x=0$.
 b) The limit of $\dfrac{h(x)-h(0)}{x}$ as $x\to0^+$ is $1$.
@@ -455,12 +455,12 @@ d) $h$ is differentiable at $x=0$.
 ::key T T F F
 a) True: $h(0)=0$ and both one-sided limits equal $0$. b) True: $\dfrac{x-0}{x}=1$. c) False: $\dfrac{x^2}{x}=x\to0$. d) False: the two one-sided limits differ ($1$ and $0$).
 
-::sa
+::sa VD
 An object has distance $s(t)=3t^2+t$ metres after $t$ seconds (hypothetical figures). Find the instantaneous velocity at $t=5$ (in m/s).
 ::key 31
 $\dfrac{3t^2+t-80}{t-5}=\dfrac{(t-5)(3t+16)}{t-5}=3t+16\to31$.
 
-::sa
+::sa VD
 Find the gradient of the tangent to the graph of $y=\dfrac1x$ at the point with $x$-coordinate $\dfrac14$.
 ::key -16
 $\dfrac{\frac1x-4}{x-\frac14}=\dfrac{\frac{1-4x}{x}}{x-\frac14}=\dfrac{-4\left(x-\frac14\right)}{x\left(x-\frac14\right)}=-\dfrac4x\to-16$.

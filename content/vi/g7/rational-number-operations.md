@@ -524,7 +524,7 @@ Vậy $S=\dfrac56$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của phép tính $-\dfrac56+\dfrac34$ là
 A. $-\dfrac1{12}$.
 B. $-\dfrac15$.
@@ -533,7 +533,7 @@ D. $-\dfrac{19}{12}$.
 ::key A
 Mẫu số chung là $12$: $-\dfrac{10}{12}+\dfrac9{12}=-\dfrac1{12}$. A là cộng tử với tử, mẫu với mẫu; C sai dấu; D trừ thay vì cộng.
 
-::mc
+::mc TH
 Kết quả của phép tính $\left(-\dfrac3{10}\right):\dfrac65$ là
 A. $\dfrac14$.
 B. $-\dfrac14$.
@@ -542,7 +542,7 @@ D. $-4$.
 ::key B
 $\left(-\dfrac3{10}\right)\cdot\dfrac56=-\dfrac{15}{60}=-\dfrac14$. A sai dấu; B đảo nhầm số bị chia; C quên đảo số chia.
 
-::mc
+::mc TH
 Kết quả của phép tính $\dfrac23-\left(-\dfrac14\right)$ là
 A. $\dfrac37$.
 B. $\dfrac5{12}$.
@@ -551,7 +551,7 @@ D. $\dfrac{11}{24}$.
 ::key C
 Trừ một số âm là cộng số đối: $\dfrac8{12}+\dfrac3{12}=\dfrac{11}{12}$. B bỏ qua dấu âm; C cộng tử với tử, mẫu với mẫu; D cộng cả hai mẫu số sau khi quy đồng.
 
-::mc
+::mc VD
 Giá trị của $\left(-\dfrac38\right)\cdot\dfrac57+\left(-\dfrac38\right)\cdot\dfrac27$ là
 A. $-\dfrac{15}{56}$.
 B. $\dfrac38$.
@@ -560,7 +560,7 @@ D. $-\dfrac38$.
 ::key D
 Đặt $-\dfrac38$ ra ngoài: $-\dfrac38\cdot\left(\dfrac57+\dfrac27\right)=-\dfrac38\cdot1$. A chỉ tính số hạng đầu; B sai dấu; D quên mẫu $7$ khi cộng.
 
-::tf
+::tf TH TH TH TH
 Cho $x=-\dfrac34$ và $y=\dfrac56$. Xét tính đúng sai của các mệnh đề sau:
 a) $x+y=-\dfrac1{12}$.
 b) $x-y=-\dfrac{19}{12}$.
@@ -569,12 +569,12 @@ d) $x:y=-\dfrac{10}9$.
 ::key S Đ Đ S
 a) Sai: $-\dfrac9{12}+\dfrac{10}{12}=\dfrac1{12}$. b) Đúng: $-\dfrac9{12}-\dfrac{10}{12}=-\dfrac{19}{12}$. c) Đúng: $-\dfrac{15}{24}=-\dfrac58$. d) Sai: $x:y=-\dfrac34\cdot\dfrac65=-\dfrac9{10}$; $-\dfrac{10}9$ là $y:x$.
 
-::sa
+::sa VD
 Tính $\left(\dfrac34-\dfrac56\right):\left(-\dfrac1{24}\right)$.
 ::key 2
 $\dfrac34-\dfrac56=-\dfrac1{12}$, rồi $\left(-\dfrac1{12}\right)\cdot(-24)=2$.
 
-::sa
+::sa VD
 Một quầy hàng lỗ $\dfrac34$ triệu đồng mỗi ngày trong $3$ ngày liên tiếp, rồi ngày thứ tư lãi $\dfrac{11}4$ triệu đồng. Hỏi sau bốn ngày quầy lãi bao nhiêu triệu đồng? (viết kết quả dưới dạng số thập phân)
 ::key 0,5
 $3\cdot\left(-\dfrac34\right)+\dfrac{11}4=-\dfrac94+\dfrac{11}4=\dfrac24=0{,}5$.

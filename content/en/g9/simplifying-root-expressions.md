@@ -444,7 +444,7 @@ So $C=2\sqrt3$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $\sqrt{72}$ equals
 A. $6\sqrt2$.
 B. $36\sqrt2$.
@@ -453,7 +453,7 @@ D. $3\sqrt2$.
 ::key A
 We have $\sqrt{72}=\sqrt{36\cdot2}=6\sqrt2$. Option B forgets to take the root of $36$, C swaps the two numbers, and D splits off only $9$ and loses the factor $4$.
 
-::mc
+::mc TH
 Rationalising the denominator of $\dfrac{6}{\sqrt2}$ gives
 A. $\sqrt3$.
 B. $6\sqrt2$.
@@ -462,7 +462,7 @@ D. $3$.
 ::key C
 We have $\dfrac{6}{\sqrt2}=\dfrac{6\sqrt2}{2}=3\sqrt2$. Option B forgets to divide by $2$, A divides $6$ by $2$ under the root sign, and D loses the root in the numerator.
 
-::mc
+::mc TH
 $\dfrac{1}{\sqrt5-2}$ equals
 A. $-\sqrt5-2$.
 B. $\sqrt5-2$.
@@ -471,7 +471,7 @@ D. $\sqrt5+2$.
 ::key D
 We have $\dfrac{1}{\sqrt5-2}=\dfrac{\sqrt5+2}{5-4}=\sqrt5+2$. Option C works out the denominator as $5-2$ (forgetting to square $2$), and A as $4-5$.
 
-::mc
+::mc TH
 For $a<0$, $a\sqrt3$ equals
 A. $\sqrt{3a^2}$.
 B. $-\sqrt{3a^2}$.
@@ -480,7 +480,7 @@ D. $-\sqrt{3a}$.
 ::key B
 Since $a<0$, $a\sqrt3<0$, hence $a\sqrt3=-\sqrt{3a^2}$. Option A loses the sign; C and D do not square $a$ (and $\sqrt{3a}$ is not defined when $a<0$).
 
-::tf
+::tf TH TH VD VD
 Let $A=\sqrt{50}-\sqrt{18}+\sqrt8$. Decide whether each statement is true or false.
 a) $\sqrt{50}=5\sqrt2$.
 b) $A=\sqrt{40}$.
@@ -489,12 +489,12 @@ d) $\dfrac1A=\dfrac{\sqrt2}{8}$.
 ::key T F T T
 a) True. We have $\sqrt{50}=\sqrt{25\cdot2}=5\sqrt2$. b) False. We have $A=5\sqrt2-3\sqrt2+2\sqrt2=4\sqrt2=\sqrt{32}$ (we cannot add and subtract under the root sign). c) True. $A\cdot\sqrt2=4\sqrt2\cdot\sqrt2=8$. d) True. $\dfrac1A=\dfrac{1}{4\sqrt2}=\dfrac{\sqrt2}{8}$.
 
-::sa
+::sa VD
 Evaluate $\dfrac{\sqrt{75}-\sqrt{12}}{\sqrt3}$.
 ::key 3
 We have $\sqrt{75}-\sqrt{12}=5\sqrt3-2\sqrt3=3\sqrt3$. Hence $\dfrac{\sqrt{75}-\sqrt{12}}{\sqrt3}=\dfrac{3\sqrt3}{\sqrt3}=3$.
 
-::sa
+::sa VD
 A rectangular plot is $\sqrt{98}$ m long and $\sqrt{32}$ m wide. Find its perimeter in metres (give your answer to 1 decimal place).
 ::key 31.1
 The perimeter is $2\left(\sqrt{98}+\sqrt{32}\right)=2\left(7\sqrt2+4\sqrt2\right)=22\sqrt2\approx31.1$ (m).

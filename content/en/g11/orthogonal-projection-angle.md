@@ -331,7 +331,7 @@ $BC\perp AB$ and $BC\perp SA$, so $BC\perp(SAB)$; the projection of $SC$ onto $(
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The orthogonal projection of a point $M$ onto a plane $(P)$ is
 A. any point of $(P)$.
 B. the intersection of $(P)$ with the line through $M$ parallel to $(P)$.
@@ -340,7 +340,7 @@ D. the midpoint of a segment in $(P)$.
 ::key C
 This is the definition of orthogonal projection. The other options do not give a single point by the definition.
 
-::mc
+::mc TH
 The pyramid $S.ABCD$ has $SA\perp(ABCD)$. The angle between $SD$ and $(ABCD)$ is
 A. $\angle ASD$.
 B. $\angle SAD$.
@@ -349,7 +349,7 @@ D. $\angle SDA$.
 ::key D
 The projection of $SD$ onto the base is $AD$, so the required angle is $\angle SDA$. Option B is a right angle, and C and A are not angles with the projection.
 
-::mc
+::mc VD
 In the cube $ABCD.A'B'C'D'$, the angle between $BD'$ and $(ABCD)$ has a tangent equal to
 A. $\dfrac1{\sqrt2}$.
 B. $\sqrt2$.
@@ -358,7 +358,7 @@ D. $\dfrac{1}{\sqrt3}$.
 ::key A
 The projection of $BD'$ is $BD=a\sqrt2$ and $DD'=a$, so $\tan=\dfrac{a}{a\sqrt2}=\dfrac1{\sqrt2}$. Option C matches $45^\circ$, B is the reciprocal, and D is a different value.
 
-::mc
+::mc TH
 A $10$ m anchor cable joins the top of a vertical $6$ m pole to a point on flat ground. The angle between the cable and the ground has a sine equal to
 A. $0.8$.
 B. $0.6$.
@@ -367,7 +367,7 @@ D. $1.67$.
 ::key B
 $\sin=\dfrac{\text{height}}{\text{cable}}=\dfrac6{10}=0.6$. Option A is the cosine, C is the tangent, and D exceeds $1$ so it cannot be a sine.
 
-::tf
+::tf NB TH TH TH
 Let $d$ be a line and $(P)$ a plane. Decide whether each statement is true or false:
 a) If $d\perp(P)$, the angle between $d$ and $(P)$ is $90^\circ$.
 b) If $d\parallel(P)$, the angle between $d$ and $(P)$ is $90^\circ$.
@@ -376,12 +376,12 @@ d) The angle between $d$ and $(P)$ is the angle between $d$ and any line of $(P)
 ::key T F T F
 a) True by definition. b) False: the angle is $0^\circ$. c) True: the angle lies between $0^\circ$ and $90^\circ$. d) False: we must use the projection of $d$ onto $(P)$.
 
-::sa
+::sa TH
 Suppose a $6$ m ladder leans against a vertical wall with its foot $3$ m from the wall. Find the angle between the ladder and the ground, in degrees.
 ::key 60
 $\cos\varphi=\dfrac36=0.5$, so $\varphi=60^\circ$.
 
-::sa
+::sa VD
 The pyramid $S.ABCD$ has a square base of side $4$, $SA\perp(ABCD)$ and $SA=4$. Find the tangent of the angle between $SC$ and $(ABCD)$, to two decimal places.
 ::key 0.71
 $AC=4\sqrt2$, so $\tan=\dfrac4{4\sqrt2}=\dfrac1{\sqrt2}\approx0.71$.

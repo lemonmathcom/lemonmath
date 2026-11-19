@@ -310,7 +310,7 @@ Each gap is 1 cm long, so the pencil is 7 cm long.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Two pencils are placed with their left ends lined up. The right end of the blue pencil sticks out further than the right end of the red pencil. Which statement is correct?
 A. The blue pencil is shorter than the red pencil.
 B. They cannot be compared.
@@ -319,7 +319,7 @@ D. The blue pencil is longer than the red pencil.
 ::key D
 The pencils line up at one end, so the one whose other end sticks out further is longer. Option A says the opposite.
 
-::mc
+::mc NB
 A piece of string has one end at the 0 mark of a ruler and the other end at the 8 mark. The string is
 A. $8$ cm long.
 B. $7$ cm long.
@@ -328,7 +328,7 @@ D. $9$ cm long.
 ::key A
 From the 0 mark to the 8 mark there are 8 gaps, each 1 cm. Options D and B miscount the gaps, and option C uses the wrong unit.
 
-::mc
+::mc TH
 $7\ \text{cm}+5\ \text{cm}$ equals
 A. $2$ cm.
 B. $12$ cm.
@@ -337,7 +337,7 @@ D. $75$ cm.
 ::key B
 $7+5=12$, and the unit is cm. Option A is a subtraction, and option D writes the two numbers side by side.
 
-::mc
+::mc TH
 A red ribbon is 14 cm long and a blue ribbon is 9 cm long. The red ribbon is longer than the blue ribbon by
 A. $23$ cm.
 B. $6$ cm.
@@ -346,7 +346,7 @@ D. $4$ cm.
 ::key C
 We work out $14-9=5$, which is 5 cm. Option A is an addition, and options B and D are mistakes in subtracting through 10.
 
-::tf
+::tf NB TH TH TH
 The red string is 11 cm long and the blue string is 6 cm long.
 a) The blue string is shorter than the red string.
 b) The red string is 5 cm longer than the blue string.
@@ -355,12 +355,12 @@ d) The blue string is longer than 10 cm.
 ::key T T F F
 a) True: $6<11$. b) True: $11-6=5$. c) False: $11+6=17$, not 16. d) False: the blue string is 6 cm long, which is shorter than 10 cm.
 
-::sa
+::sa TH
 Line segment AB is 8 cm long and line segment BC is 7 cm long. How many centimetres long is the line when the two segments are joined?
 ::key 15
 $8+7=15$ (cm).
 
-::sa
+::sa VD
 A flower is 17 cm tall and a blade of grass is 9 cm tall. How many centimetres taller is the flower than the grass?
 ::key 8
 $17-9=8$ (cm).

@@ -342,7 +342,7 @@ $$98\,765-10\,234=88\,531.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $34\,567+28\,785$ equals
 A. $63\,352$.
 B. $52\,242$.
@@ -351,7 +351,7 @@ D. $5\,782$.
 ::key A
 $7+5=12$, write $2$ and regroup $1$; $6+8+1=15$, write $5$ and regroup $1$; $5+7+1=13$, write $3$ and regroup $1$; $4+8+1=13$, write $3$ and regroup $1$; $3+2+1=6$. Option B forgets to regroup in every column, option C forgets one regrouping, and option D is the subtraction.
 
-::mc
+::mc TH
 $90\,000-36\,275$ equals
 A. $66\,275$.
 B. $53\,725$.
@@ -360,7 +360,7 @@ D. $126\,275$.
 ::key B
 $10-5=5$ regroup $1$; $10-8=2$ regroup $1$; $10-3=7$ regroup $1$; $10-7=3$ regroup $1$; $9-4=5$. Option A takes the larger digit from the smaller in every column, option C forgets one regrouping, and option D is the addition.
 
-::mc
+::mc TH
 A shop has $82\,500$ pens and has sold $47\,800$ of them. The shop has left
 A. $130\,300$ pens.
 B. $35\,700$ pens.
@@ -369,7 +369,7 @@ D. $45\,300$ pens.
 ::key C
 "Left" means subtract: $82\,500-47\,800=34\,700$. Option A is the addition, option B forgets one regrouping, and option D takes the larger digit from the smaller in every column.
 
-::mc
+::mc TH
 The sum of $45\,906$ and $38\,094$ is
 A. $74\,000$.
 B. $73\,990$.
@@ -378,7 +378,7 @@ D. $84\,000$.
 ::key D
 $6+4=10$, write $0$ and regroup $1$; $0+9+1=10$, write $0$ and regroup $1$; $9+0+1=10$, write $0$ and regroup $1$; $5+8+1=14$, write $4$ and regroup $1$; $4+3+1=8$. Option A forgets the regrouping into the ten-thousands, option B forgets to regroup in every column, and option C is the subtraction.
 
-::tf
+::tf TH TH TH TH
 Look at the subtraction $52\,304-18\,765$.
 a) In the ones column, we take $14-5=9$, write $9$ and regroup $1$.
 b) $52\,304-18\,765=33\,539$.
@@ -387,12 +387,12 @@ d) The difference is less than $30\,000$.
 ::key T T F F
 a) True: $4$ is less than $5$, so we take $14-5=9$. b) True: this is the result worked out in the example. c) False: $33\,539+18\,765=52\,304$. d) False: $33\,539>30\,000$.
 
-::sa
+::sa VD
 Work out the sum of the digits of the result of $25\,000+37\,500$.
 ::key 13
 $25\,000+37\,500=62\,500$. The sum of the digits is $6+2+5+0+0=13$.
 
-::sa
+::sa TH
 Work out $80\,000-76\,500$.
 ::key 3500
 $80\,000-76\,500=3\,500$.

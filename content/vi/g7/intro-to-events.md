@@ -440,7 +440,7 @@ Vậy hộp có $2$ thẻ xanh.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Gieo một con xúc xắc cân đối. Biến cố nào sau đây là biến cố không thể?
 A. Số chấm là $1$.
 B. Số chấm là số chẵn.
@@ -449,7 +449,7 @@ D. Số chấm là $7$.
 ::key D
 Xúc xắc chỉ có $1$ đến $6$ chấm nên $7$ chấm không bao giờ xảy ra. A và B là biến cố ngẫu nhiên, C là biến cố chắc chắn.
 
-::mc
+::mc TH
 Rút một thẻ từ hộp $10$ thẻ đánh số $1$ đến $10$. Xác suất rút được thẻ số chia hết cho $5$ là
 A. $\dfrac15$.
 B. $2$.
@@ -458,7 +458,7 @@ D. $\dfrac{1}{10}$.
 ::key A
 Các thẻ thuận lợi là $5$ và $10$, nên xác suất là $\dfrac{2}{10}=\dfrac15$. B là số kết quả thuận lợi, C là xác suất thẻ chẵn, D chỉ tính thẻ $5$.
 
-::mc
+::mc TH
 Vòng quay có $12$ ô bằng nhau: $5$ ô xanh, $4$ ô vàng, $3$ ô đỏ. Biến cố nào có khả năng xảy ra cao nhất?
 A. Mũi tên dừng ở ô đỏ.
 B. Mũi tên dừng ở ô vàng hoặc ô đỏ.
@@ -467,7 +467,7 @@ D. Mũi tên dừng ở ô vàng.
 ::key B
 Biến cố D có $4+3=7$ ô thuận lợi, nhiều hơn $5$ ô xanh. Xác suất lần lượt là $\dfrac{3}{12}$, $\dfrac{4}{12}$, $\dfrac{5}{12}$ và $\dfrac{7}{12}$.
 
-::mc
+::mc NB
 Phát biểu nào sau đây đúng về xác suất $P(A)$ của một biến cố $A$?
 A. $P(A)$ có thể bằng $2$.
 B. Biến cố chắc chắn có xác suất $0$.
@@ -476,7 +476,7 @@ D. Biến cố không thể có xác suất $1$.
 ::key C
 Xác suất luôn nằm từ $0$ đến $1$. Biến cố chắc chắn có xác suất $1$ và biến cố không thể có xác suất $0$, nên C, D sai; A sai vì $P(A)$ không vượt quá $1$.
 
-::tf
+::tf NB TH TH TH
 Một túi có $20$ viên bi giống hệt nhau gồm $8$ viên đỏ, $7$ viên xanh, $5$ viên vàng. Lấy ngẫu nhiên một viên. Xét tính đúng sai của các mệnh đề sau:
 a) Có $20$ kết quả đồng khả năng.
 b) Xác suất lấy được bi đỏ là $\dfrac13$ vì có $3$ màu.
@@ -485,12 +485,12 @@ d) "Lấy được bi đỏ, xanh hoặc vàng" là biến cố ngẫu nhiên.
 ::key Đ S Đ S
 a) Đúng: mỗi viên bi là một kết quả. b) Sai: xác suất là $\dfrac{8}{20}=\dfrac25$; các màu không đồng khả năng. c) Đúng: $7>5$. d) Sai: túi chỉ có ba màu đó nên biến cố luôn xảy ra, là biến cố chắc chắn.
 
-::sa
+::sa TH
 Một hộp có $25$ thẻ đánh số từ $1$ đến $25$. Có bao nhiêu kết quả thuận lợi cho biến cố "rút được thẻ số chia hết cho $5$"?
 ::key 5
 Các thẻ thuận lợi là $5$, $10$, $15$, $20$, $25$, tức là $5$ kết quả.
 
-::sa
+::sa TH
 Một túi có $20$ viên bi, trong đó $5$ viên đỏ, còn lại là bi xanh. Lấy ngẫu nhiên một viên. Xác suất lấy được bi đỏ viết dưới dạng số thập phân là bao nhiêu?
 ::key 0,25
 $\dfrac{5}{20}=\dfrac14=0{,}25$.

@@ -249,7 +249,7 @@ $h'(2)=3\cdot4=12$. Khi đó $\dfrac{d}{dx}h(x)^2=2h(x)h'(x)$, tại $x=2$ bằn
 :::
 
 :::quiz
-::mc
+::mc NB
 $\dfrac{d}{dx}\sin(5x)$ bằng
 A. $\cos(5x)$
 B. $5\cos(5x)$
@@ -258,7 +258,7 @@ D. $5\sin(5x)$
 ::key B
 Quy tắc chuỗi: đạo hàm hàm trong là $5$.
 
-::mc
+::mc TH
 $\dfrac{d}{dx}e^{x^2}$ bằng
 A. $2xe^{x^2}$
 B. $e^{x^2}$
@@ -267,7 +267,7 @@ D. $e^{2x}$
 ::key A
 Hàm ngoài $e^u$, hàm trong $x^2$ có đạo hàm $2x$.
 
-::mc
+::mc VD
 Hệ số góc của đường cong $x^2+y^2=13$ tại $(2, 3)$ là
 A. $\dfrac23$
 B. $-\dfrac32$
@@ -276,7 +276,7 @@ D. $-\dfrac23$
 ::key D
 $\dfrac{dy}{dx}=-\dfrac xy=-\dfrac23$.
 
-::mc
+::mc NB
 $\dfrac{d}{dx}\arctan x$ bằng
 A. $\dfrac{1}{\sqrt{1-x^2}}$
 B. $\sec^2x$
@@ -285,7 +285,7 @@ D. $-\dfrac{1}{1+x^2}$
 ::key C
 Phương án B là đạo hàm của $\tan x$; phương án A là đạo hàm của $\arcsin x$.
 
-::tf
+::tf TH TH TH VD
 Các hàm số $f$ và $g$ có đạo hàm, với $g(2)=1$, $g'(2)=4$, $f(1)=3$ và $f'(1)=-2$. Đặt $h(x)=f\big(g(x)\big)$.
 a) $h(2)=3$.
 b) $h'(2)=-8$.
@@ -294,12 +294,12 @@ d) Tiếp tuyến của $h$ tại $x=2$ là $y=3-8(x-2)$.
 ::key Đ Đ S Đ
 a) Đúng: $f(g(2))=f(1)=3$. b) Đúng: $f'(1)\cdot g'(2)=-8$. c) Sai: đó không phải quy tắc chuỗi. d) Đúng.
 
-::sa
+::sa VD
 Cho $f(x)=x^3+2x$. Tính $\left(f^{-1}\right)'(3)$. Viết đáp số dưới dạng số thập phân.
 ::key 0,2
 $f(1)=3$ và $f'(1)=3+2=5$, nên đáp số là $\dfrac15=0{,}2$.
 
-::sa
+::sa TH
 Tính đạo hàm của $(2x+1)^3$ tại $x=0$.
 ::key 6
 $3(2x+1)^2\cdot2=6$ tại $x=0$.

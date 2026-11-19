@@ -286,7 +286,7 @@ Gọi nửa quãng đường là $s$ (km), $s>0$. Thời gian đi nửa đầu l
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Một ca nô có vận tốc xuôi dòng là $24$ km/h và vận tốc ngược dòng là $16$ km/h. Vận tốc của dòng nước là
 A. $4$ km/h.
 B. $20$ km/h.
@@ -295,7 +295,7 @@ D. $8$ km/h.
 ::key A
 $x+y=24$ và $x-y=16$ nên $y=\dfrac{24-16}{2}=4$. Đáp án D là hiệu $24-16$ (quên chia $2$), B là vận tốc riêng của ca nô, C là tổng hai vận tốc.
 
-::mc
+::mc VD
 Một vòi chảy một mình đầy bể trong $12$ giờ; mở cả hai vòi thì sau $4$ giờ đầy bể. Vòi thứ hai chảy một mình đầy bể sau
 A. $8$ giờ.
 B. $6$ giờ.
@@ -304,7 +304,7 @@ D. $16$ giờ.
 ::key B
 $\dfrac1x=\dfrac14-\dfrac1{12}=\dfrac16$ nên $x=6$. Đáp án A là $12-4$, C là $\dfrac{12}{4}$, D là $12+4$.
 
-::mc
+::mc TH
 Giá một món hàng tăng $20\%$ rồi giảm $20\%$ (tính trên giá mới). So với giá ban đầu, giá cuối bằng
 A. $100\%$.
 B. $104\%$.
@@ -313,7 +313,7 @@ D. $80\%$.
 ::key C
 $1{,}2\cdot0{,}8=0{,}96$. Đáp án A là sai lầm quen thuộc (cho rằng tăng rồi giảm cùng phần trăm thì về lại như cũ), B và D lấy sai hệ số.
 
-::mc
+::mc VD
 Tích của hai số tự nhiên liên tiếp bằng $156$. Số lớn là
 A. $12$.
 B. $14$.
@@ -322,7 +322,7 @@ D. $13$.
 ::key D
 $x(x+1)=156$ nên $x=12$ và số lớn là $13$. Đáp án A là số bé, B và C là các số không thoả mãn ($14\cdot15=210$, $11\cdot12=132$).
 
-::tf
+::tf NB TH VD VD
 Một ô tô đi quãng đường $60$ km. Lúc về tăng vận tốc thêm $10$ km/h nên thời gian về ít hơn thời gian đi $18$ phút. Gọi vận tốc lúc đi là $x$ (km/h). Các nhận định sau đúng hay sai?
 a) Thời gian đi là $\dfrac x{60}$ giờ.
 b) $18$ phút bằng $0{,}18$ giờ.
@@ -331,12 +331,12 @@ d) Phương trình của bài toán là $\dfrac{60}x-\dfrac{60}{x+10}=0{,}3$.
 ::key S S Đ Đ
 a) Sai: thời gian đi là $\dfrac{60}x$ giờ. b) Sai: $18$ phút $=0{,}3$ giờ. c) Đúng: $40\cdot50=2000$ và $60:40-60:50=0{,}3$. d) Đúng: chênh lệch thời gian bằng $0{,}3$ giờ.
 
-::sa
+::sa TH
 Hai số có tổng bằng $40$ và hiệu bằng $12$. Tìm số lớn.
 ::key 26
 $\dfrac{40+12}2=26$.
 
-::sa
+::sa VD
 Hai đội cùng làm một việc thì sau $6$ ngày xong. Làm riêng, đội I xong sớm hơn đội II $5$ ngày. Hỏi đội I làm một mình xong trong bao nhiêu ngày?
 ::key 10
 Gọi $x$ là số ngày của đội I: $\dfrac1x+\dfrac1{x+5}=\dfrac16$ cho $x^2-7x-30=0$, nên $x=10$.

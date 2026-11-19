@@ -334,7 +334,7 @@ Ta có $(a+b)\times2=56$, nên $a+b=56:2=28$ (cm). Chiều rộng là $b=28-18=1
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Giá trị của biểu thức $7\times m+5$ khi $m=6$ là
 A. $77$.
 B. $13$.
@@ -343,7 +343,7 @@ D. $42$.
 ::key C
 $7\times6+5=42+5=47$. Phương án A cộng trước nhân sau, phương án B cộng $7+6$, phương án D quên cộng $5$.
 
-::mc
+::mc TH
 Chu vi hình vuông có cạnh $12$ m là
 A. $24$ m.
 B. $144$ m.
@@ -352,7 +352,7 @@ D. $48$ m.
 ::key D
 $P=a\times4=12\times4=48$ (m). Phương án A nhân với $2$, phương án B nhân $12\times12$, phương án C cộng $12+4$.
 
-::mc
+::mc TH
 Giá trị của biểu thức $(a+b)\times2$ khi $a=9$ và $b=6$ là
 A. $30$.
 B. $21$.
@@ -361,7 +361,7 @@ D. $108$.
 ::key A
 $(9+6)\times2=15\times2=30$. Phương án B nhân trước cộng sau, phương án C quên nhân với $2$, phương án D nhân cả ba số.
 
-::mc
+::mc TH
 Mua $m$ chiếc bánh, mỗi chiếc giá $4\,500$ đồng, và một chai nước giá $6\,000$ đồng. Số tiền phải trả là
 A. $4\,500+m\times6\,000$ đồng.
 B. $4\,500\times m+6\,000$ đồng.
@@ -370,7 +370,7 @@ D. $(4\,500+6\,000)\times m$ đồng.
 ::key B
 Tiền bánh là $4\,500\times m$, cộng với tiền chai nước $6\,000$ đồng. Phương án A nhân $m$ với giá chai nước, phương án D nhân cả hai giá với $m$, phương án C lấy trừ thay vì cộng.
 
-::tf
+::tf NB TH TH TH
 Em xét biểu thức $a\times5-b$.
 a) Biểu thức chỉ chứa một chữ.
 b) Khi $a=8$ và $b=15$, giá trị của biểu thức là $55$.
@@ -379,12 +379,12 @@ d) Khi $a=8$ và $b=40$, giá trị của biểu thức là $0$.
 ::key S S Đ Đ
 a) Sai: biểu thức chứa hai chữ $a$ và $b$. b) Sai: $8\times5-15=40-15=25$. c) Đúng: $10\times5-20=50-20=30$. d) Đúng: $8\times5-40=40-40=0$.
 
-::sa
+::sa TH
 Tính giá trị của biểu thức $9\times m-20$ khi $m=5$.
 ::key 25
 $9\times5-20=45-20=25$.
 
-::sa
+::sa TH
 Tính chu vi (cm) của hình chữ nhật có chiều dài $17$ cm và chiều rộng $13$ cm.
 ::key 60
 $P=(17+13)\times2=30\times2=60$ (cm).

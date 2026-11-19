@@ -8,7 +8,7 @@ type: exam
 Đề gồm ba phần như đề thi tốt nghiệp THPT: 12 câu trắc nghiệm nhiều phương án, 4 câu đúng sai và 6 câu trả lời ngắn, làm trong 90 phút. Phần I mỗi câu 0,25 điểm; Phần II mỗi câu tối đa 1 điểm, tính theo số ý đúng; Phần III mỗi câu 0,5 điểm. Bạn hãy in phiếu và làm trên giấy trước, rồi nhập đáp án vào các ô dưới đây để được chấm trên thang điểm 10. Mỗi lời giải đều chỉ ra bài ôn tập cần xem lại nếu bạn làm sai.
 
 :::quiz exam
-::mc
+::mc NB
 Cho hàm số $y=f(x)$ có bảng biến thiên như sau:
 
 | $x$ | $-\infty$ | | $0$ | | $2$ | | $+\infty$ |
@@ -26,7 +26,7 @@ $f'(x)$ đổi dấu từ $+$ sang $-$ khi đi qua $x=2$, nên hàm số đạt 
 
 Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
 
-::mc
+::mc NB
 Tiệm cận ngang của đồ thị hàm số $y=\dfrac{4x+1}{2x-6}$ là đường thẳng
 A. $y=4$.
 B. $x=3$.
@@ -41,7 +41,7 @@ Vậy tiệm cận ngang là $y=2$. Phương án A chỉ lấy hệ số của t
 
 Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
 
-::mc
+::mc TH
 Hàm số $y=x^3-3x^2+2$ nghịch biến trên khoảng nào dưới đây?
 A. $(0; 2)$.
 B. $(-\infty; 0)$.
@@ -56,7 +56,7 @@ Vậy hàm số nghịch biến trên $(0; 2)$. Phương án B và C là các kh
 
 Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
 
-::mc
+::mc NB
 Họ nguyên hàm của hàm số $f(x)=2\cos x-3x^2$ là
 A. $-2\sin x-x^3+C$.
 B. $2\sin x-6x+C$.
@@ -71,7 +71,7 @@ Phương án A nhầm dấu nguyên hàm của $\cos x$, phương án B lấy đ
 
 Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
 
-::mc
+::mc TH
 Cho $\displaystyle\int_1^3 f(x)\,dx=4$ và $\displaystyle\int_1^3 g(x)\,dx=-1$. Giá trị của $\displaystyle\int_1^3\left[2f(x)-3g(x)\right]dx$ bằng
 A. $5$.
 B. $11$.
@@ -86,7 +86,7 @@ Phương án A bỏ dấu âm của $-1$ ($8-3$), phương án C quên hệ số
 
 Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
 
-::mc
+::mc NB
 Trong không gian $Oxyz$, cho hai điểm $A(2; -1; 3)$ và $B(4; 3; -1)$. Trung điểm của đoạn thẳng $AB$ có toạ độ là
 A. $(1; 2; -2)$.
 B. $(6; 2; 2)$.
@@ -101,7 +101,7 @@ Phương án A là nửa hiệu toạ độ, phương án B là tổng toạ đ�
 
 Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
-::mc
+::mc TH
 Trong không gian $Oxyz$, mặt phẳng đi qua ba điểm $M(2; 0; 0)$, $N(0; -3; 0)$, $P(0; 0; 6)$ có phương trình là
 A. $3x-2y+z-6=0$.
 B. $3x+2y+z-6=0$.
@@ -116,7 +116,7 @@ Phương án B bỏ dấu âm của $-3$, phương án C lấy nhầm các giao 
 
 Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
-::mc
+::mc NB
 Trong không gian $Oxyz$, mặt cầu $(S)\colon(x-1)^2+(y+2)^2+(z-3)^2=16$ có tâm $I$ và bán kính $R$ là
 A. $I(-1; 2; -3)$, $R=4$.
 B. $I(1; -2; 3)$, $R=16$.
@@ -127,7 +127,7 @@ Mặt cầu $(x-a)^2+(y-b)^2+(z-c)^2=R^2$ có tâm $I(a; b; c)$ và bán kính $
 
 Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
-::mc
+::mc TH
 Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA\perp(ABCD)$ và $SA=a\sqrt6$. Góc giữa đường thẳng $SC$ và mặt phẳng $(ABCD)$ bằng
 A. $30^\circ$.
 B. $45^\circ$.
@@ -142,7 +142,7 @@ Phương án A đến từ tỉ số đảo ngược $\dfrac{AC}{SA}$; phương 
 
 Ôn lại: [hình học không gian](lesson:review-space-geometry).
 
-::mc
+::mc TH
 Thời gian tự học ở nhà mỗi ngày (phút) của $40$ học sinh được cho trong bảng sau:
 
 | Thời gian (phút) | $[0; 20)$ | $[20; 40)$ | $[40; 60)$ | $[60; 80)$ | $[80; 100)$ |
@@ -163,7 +163,7 @@ Phương án A dùng đầu mút trái của các nhóm, phương án B là giá
 
 Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
 
-::mc
+::mc NB
 Cho hai biến cố $A$, $B$ với $P(A)=0{,}6$, $P(B)=0{,}5$ và $P(A\cap B)=0{,}3$. Xác suất $P(A\mid B)$ bằng
 A. $0{,}5$.
 B. $0{,}15$.
@@ -178,7 +178,7 @@ Phương án A là $P(B\mid A)=\dfrac{0{,}3}{0{,}6}$ (chia nhầm cho $P(A)$), p
 
 Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
 
-::mc
+::mc TH
 Tập nghiệm của bất phương trình $3^{2x-1}\le27$ là
 A. $(-\infty; 2)$.
 B. $(-\infty; 2]$.
@@ -193,7 +193,7 @@ Phương án A bỏ mất dấu bằng, phương án C đổi chiều bất đ�
 
 Ôn lại: [lượng giác, mũ – lôgarit, cấp số](lesson:review-trig-exp-log-sequences).
 
-::tf
+::tf NB TH VD VD
 Cho hàm số $f(x)=x^3-6x^2+9x+1$.
 a) $f'(x)=3x^2-12x+9$.
 b) Hàm số đồng biến trên khoảng $(1; 3)$.
@@ -210,7 +210,7 @@ d) Sai: so sánh $f(0)=1$, $f(1)=5$, $f(3)=1$, $f(4)=64-96+36+1=5$. Giá trị l
 
 Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
 
-::tf
+::tf NB TH TH VD
 Một tên lửa mô hình được phóng thẳng đứng từ mặt đất. Trong $4$ giây đầu, vận tốc của nó là $v(t)=12t-3t^2$ (m/s), với $t$ là số giây kể từ lúc phóng. Gọi $h(t)$ là độ cao (m) của tên lửa tại thời điểm $t$, $0\le t\le4$.
 a) Vận tốc của tên lửa tại thời điểm $t=1$ giây là $9$ m/s.
 b) Vận tốc của tên lửa tăng liên tục trong suốt $4$ giây đầu.
@@ -227,7 +227,7 @@ d) Đúng: $v(t)=3t(4-t)\ge0$ trên $[0; 4]$ nên độ cao tăng, lớn nhất 
 
 Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
 
-::tf
+::tf NB TH VD VD
 Trong không gian $Oxyz$, cho hai điểm $A(1; 0; 2)$, $B(3; 2; 0)$ và mặt phẳng $(P)\colon 2x+y-z-4=0$.
 a) $\overrightarrow{AB}=(2; 2; -2)$.
 b) Trung điểm $I$ của đoạn thẳng $AB$ thuộc mặt phẳng $(P)$.
@@ -246,7 +246,7 @@ $$\sin\varphi=\frac{|2+1+1|}{\sqrt3\cdot\sqrt6}=\frac{4}{3\sqrt2}\approx0{,}943\
 
 Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
-::tf
+::tf NB TH TH VD
 Một nhà máy có hai dây chuyền. Dây chuyền I làm ra $60\%$ số sản phẩm, dây chuyền II làm ra $40\%$. Tỉ lệ sản phẩm lỗi của dây chuyền I là $3\%$, của dây chuyền II là $5\%$. Chọn ngẫu nhiên một sản phẩm của nhà máy.
 a) Xác suất sản phẩm bị lỗi, biết nó do dây chuyền I làm ra, bằng $0{,}03$.
 b) Xác suất sản phẩm bị lỗi bằng $0{,}04$.
@@ -265,7 +265,7 @@ d) Đúng: theo công thức Bayes, $P(\overline A\mid L)=\dfrac{0{,}02}{0{,}038
 
 Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
 
-::sa
+::sa VD
 Một tấm áp phích hình chữ nhật có phần in chữ là một hình chữ nhật diện tích $384$ cm². Lề trên và lề dưới mỗi lề rộng $3$ cm, lề trái và lề phải mỗi lề rộng $2$ cm. Diện tích nhỏ nhất của tấm áp phích là bao nhiêu cm²?
 ::key 600
 Gọi chiều rộng phần in là $x$ cm ($x>0$), chiều cao phần in là $\dfrac{384}{x}$ cm. Diện tích tấm áp phích là
@@ -276,7 +276,7 @@ $S'(x)=6-\dfrac{1536}{x^2}=0\iff x^2=256\iff x=16$, và $S'$ đổi dấu từ $
 
 Ôn lại: [bài toán tối ưu và thực tế](lesson:review-optimisation-real-life).
 
-::sa
+::sa VDC
 Cho hình hộp chữ nhật $ABCD.A'B'C'D'$ có $AB=3$, $AD=4$, $AA'=12$. Tính khoảng cách từ điểm $A$ đến mặt phẳng $(A'BD)$ (làm tròn kết quả đến hàng phần trăm).
 ::key 2,35
 Ta chọn hệ trục toạ độ có gốc tại $A$ và các trục theo $AB$, $AD$, $AA'$: $B(3; 0; 0)$, $D(0; 4; 0)$, $A'(0; 0; 12)$. Vectơ pháp tuyến $\vec n=(a; b; c)$ của $(A'BD)$ vuông góc với $\overrightarrow{BD}=(-3; 4; 0)$ và $\overrightarrow{BA'}=(-3; 0; 12)$:
@@ -291,7 +291,7 @@ Làm tròn đến hàng phần trăm, khoảng cách bằng $2{,}35$. Chú ý: v
 
 Ôn lại: [hình học không gian](lesson:review-space-geometry).
 
-::sa
+::sa VD
 Chọn hệ trục $Oxyz$ (đơn vị: mét) với mặt phẳng $(Oxy)$ là mặt đất. Một đường dây trượt (zipline) được căng thẳng từ điểm $A(0; 0; 20)$ trên một đài cao đến điểm $B(30; 40; 5)$. Tính góc giữa đường dây và mặt đất (đơn vị: độ, làm tròn kết quả đến hàng đơn vị).
 ::key 17
 Đường dây có vectơ chỉ phương $\overrightarrow{AB}=(30; 40; -15)$, mặt đất có vectơ pháp tuyến $\vec k=(0; 0; 1)$. Ta có
@@ -302,7 +302,7 @@ Làm tròn đến hàng đơn vị, góc giữa đường dây và mặt đất 
 
 Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
-::sa
+::sa VD
 Một hệ thống báo cháy có ba cảm biến hoạt động độc lập. Khi có cháy, xác suất phát hiện của từng cảm biến lần lượt là $0{,}9$; $0{,}8$ và $0{,}5$. Khi có cháy, tính xác suất có đúng hai cảm biến phát hiện được.
 ::key 0,49
 "Đúng hai cảm biến phát hiện" là hợp của ba biến cố xung khắc (một cảm biến bỏ sót, hai cảm biến còn lại phát hiện). Các cảm biến độc lập nên ta nhân xác suất trong từng trường hợp rồi cộng lại:
@@ -311,7 +311,7 @@ $$P=0{,}9\cdot0{,}8\cdot0{,}5+0{,}9\cdot0{,}2\cdot0{,}5+0{,}1\cdot0{,}8\cdot0{,}
 
 Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
 
-::sa
+::sa VD
 Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2-2x$ và đường thẳng $y=x$.
 ::key 4,5
 Hoành độ giao điểm: $x^2-2x=x\iff x^2-3x=0\iff x=0$ hoặc $x=3$. Trên $[0; 3]$ đường thẳng nằm trên parabol (thử $x=1$: $1>-1$), nên
@@ -320,7 +320,7 @@ $$S=\int_0^3\left(x-x^2+2x\right)dx=\int_0^3\left(3x-x^2\right)dx=\left[\frac{3x
 
 Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
 
-::sa
+::sa VD
 Một cốc trà vừa pha có nhiệt độ $95^\circ$C, đặt trong phòng có nhiệt độ $25^\circ$C. Nhiệt độ của trà sau $t$ phút là $T(t)=25+70\cdot e^{-kt}$ ($^\circ$C), với $k$ là hằng số dương. Sau $5$ phút, trà còn $60^\circ$C. Sau bao nhiêu phút kể từ lúc pha, trà còn $30^\circ$C (làm tròn kết quả đến hàng đơn vị)?
 ::key 19
 Từ $T(5)=60$ ta có $70e^{-5k}=35$, tức là $e^{-5k}=\dfrac12$, nên $k=\dfrac{\ln2}{5}$. Giải $T(t)=30$:

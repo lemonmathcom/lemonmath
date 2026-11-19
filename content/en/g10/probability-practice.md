@@ -353,7 +353,7 @@ $n(\Omega)=5!=120$, $n(A)=2\cdot4!=48$, so $P=\dfrac{48}{120}=\dfrac25$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A fair die is rolled. The probability that the number shown is prime is
 A. $\dfrac23$.
 B. $\dfrac13$.
@@ -362,7 +362,7 @@ D. $\dfrac56$.
 ::key C
 The primes among $1, \dots, 6$ are $2, 3, 5$, so $P=\dfrac36=\dfrac12$. Counting $1$ as a prime by mistake gives $\dfrac46=\dfrac23$.
 
-::mc
+::mc VD
 A box holds $4$ red balls and $6$ blue balls. Two balls are drawn at random at the same time. The probability that both are blue is
 A. $\dfrac35$.
 B. $\dfrac13$.
@@ -371,7 +371,7 @@ D. $\dfrac23$.
 ::key B
 $P=\dfrac{\binom{6}{2}}{\binom{10}{2}}=\dfrac{15}{45}=\dfrac13$. Option A only counts one ball; option C treats the draw as if the first ball were put back.
 
-::mc
+::mc TH
 Two fair dice are rolled. The probability that the sum is $4$ is
 A. $\dfrac{1}{12}$.
 B. $\dfrac{1}{18}$.
@@ -380,7 +380,7 @@ D. $\dfrac19$.
 ::key A
 $n(\Omega)=36$ ordered pairs; the sum $4$ comes from $(1, 3)$, $(2, 2)$, $(3, 1)$, so $P=\dfrac{3}{36}=\dfrac{1}{12}$. Option B merges $(1, 3)$ and $(3, 1)$; option C uses $21$ outcomes that are not equally likely.
 
-::mc
+::mc VD
 A group has $5$ boys and $3$ girls. Three people are chosen at random. The probability that at least one girl is chosen is
 A. $\dfrac{5}{28}$.
 B. $\dfrac38$.
@@ -389,7 +389,7 @@ D. $\dfrac{23}{28}$.
 ::key D
 The complementary event is "all three are boys", with $\binom{5}{3}=10$ of the $\binom{8}{3}=56$ outcomes. So $P=1-\dfrac{10}{56}=\dfrac{23}{28}$. Option A is the probability of the complementary event.
 
-::tf
+::tf NB VD TH VD
 A box holds $5$ cards numbered $1, 2, 3, 4, 5$. Two cards are drawn at random at the same time.
 a) The sample space has $10$ outcomes.
 b) The probability that the sum of the two numbers is even is $\dfrac25$.
@@ -398,12 +398,12 @@ d) The probability that at least one card shows a number greater than $3$ is $\d
 ::key T T F F
 a) True: $\binom{5}{2}=10$. b) True: both numbers odd ($\binom{3}{2}=3$ ways) or both even ($1$ way), $P=\dfrac{4}{10}$. c) False: both numbers must be odd, $P=\dfrac{3}{10}$. d) False: the complementary event "both cards are $\le 3$" has $3$ outcomes, so $P=1-\dfrac{3}{10}=\dfrac{7}{10}$.
 
-::sa
+::sa VD
 Two fair dice are rolled. Find the probability that the sum is at least $10$ (rounded to two decimal places).
 ::key 0.17
 The pairs with sum $10$, $11$ or $12$ are $(4, 6)$, $(5, 5)$, $(6, 4)$, $(5, 6)$, $(6, 5)$, $(6, 6)$: $6$ of the $36$ pairs. $P=\dfrac16\approx0.17$.
 
-::sa
+::sa VD
 A batch of $10$ items contains $3$ faulty ones. Two items are chosen at random. Find the probability that at least one is faulty (rounded to two decimal places).
 ::key 0.53
 The complementary event is "both items are good": $\binom{7}{2}=21$ of the $\binom{10}{2}=45$ outcomes. $P=1-\dfrac{21}{45}=\dfrac{8}{15}\approx0.53$.

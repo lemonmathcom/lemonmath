@@ -355,7 +355,7 @@ So $MN\parallel BC$ and $MN=\dfrac12BC$ (the segment $MN$ is called the midsegme
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Let $\triangle ABC\sim\triangle MNP$ with $AB=6$ and $MN=4$. The scale factor of $\triangle MNP$ to $\triangle ABC$ is
 A. $\dfrac32$.
 B. $\dfrac23$.
@@ -364,7 +364,7 @@ D. $\dfrac12$.
 ::key B
 $k=\dfrac{MN}{AB}=\dfrac46=\dfrac23$. A inverts the ratio; C and D do not come from the corresponding sides.
 
-::mc
+::mc NB
 Two similar triangles with scale factor $3$ have a ratio of perimeters equal to
 A. $9$.
 B. $\dfrac13$.
@@ -373,7 +373,7 @@ D. $6$.
 ::key C
 The perimeters are also in the scale factor $k=3$. A squares $k$ (that is the ratio of areas), B inverts it, D adds $3+3$.
 
-::mc
+::mc VD
 In $\triangle ABC$, $AB=10$ and $BC=20$; $M\in AB$ with $AM=4$ and $MN\parallel BC$ ($N\in AC$). The length $MN$ is
 A. $2$.
 B. $5$.
@@ -382,7 +382,7 @@ D. $8$.
 ::key D
 $k=\dfrac{4}{10}=\dfrac25$, so $MN=\dfrac25\cdot20=8$. B, C and A do not use the ratio $\dfrac25$ of the two triangles.
 
-::mc
+::mc NB
 Let $\triangle ABC\sim\triangle DEF$. A pair of equal angles is
 A. $\angle C=\angle F$.
 B. $\angle B=\angle D$.
@@ -391,7 +391,7 @@ D. $\angle A=\angle F$.
 ::key A
 The order of vertices gives $A\leftrightarrow D$, $B\leftrightarrow E$, $C\leftrightarrow F$, so $\angle C=\angle F$. The other options match the wrong vertices.
 
-::tf
+::tf TH TH VD TH
 Let $\triangle ABC$ have $AB=3$, $BC=4$, $CA=5$ and let $\triangle A'B'C'\sim\triangle ABC$ with $A'B'=6$, $B'C'=8$. Decide whether each statement is true or false.
 a) The scale factor of $\triangle A'B'C'$ to $\triangle ABC$ is $2$.
 b) $C'A'=12$.
@@ -400,12 +400,12 @@ d) $\triangle ABC\sim\triangle A'B'C'$ with scale factor $2$.
 ::key T F T F
 a) True: $\dfrac63=2$. b) False: $C'A'=2\cdot5=10$. c) True: $6+8+10=24$. d) False: in the opposite direction the scale factor is $\dfrac12$.
 
-::sa
+::sa VD
 Let $\triangle ABC\sim\triangle MNP$ with $AB=6$, $BC=9$, $MN=4$. Find $NP$.
 ::key 6
 $k=\dfrac46=\dfrac23$, so $NP=\dfrac23\cdot9=6$.
 
-::sa
+::sa VD
 You are $1.6$ m tall and your shadow is $2$ m long; a tree's shadow is $7.5$ m long. How many metres tall is the tree?
 ::key 6
 $\dfrac{1.6}{h}=\dfrac{2}{7.5}$, so $h=6$.

@@ -258,7 +258,7 @@ $$32\div8=4\ \text{(times)}.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $48$ is how many times as large as $6$?
 A. $8$ times.
 B. $42$ times.
@@ -267,7 +267,7 @@ D. $288$ times.
 ::key A
 $48\div6=8$. B is a subtraction, C an addition, D a multiplication.
 
-::mc
+::mc TH
 Ha has $7$ storybooks and Lan has $21$ storybooks. How many times as many storybooks as Ha does Lan have?
 A. $14$ times.
 B. $3$ times.
@@ -276,7 +276,7 @@ D. $28$ times.
 ::key B
 $21\div7=3$. A is a subtraction, D an addition, C a multiplication.
 
-::mc
+::mc TH
 The blue string is $5$ m long and the red string is $20$ m long. Which statement is correct?
 A. The red string is $4$ m longer than the blue string.
 B. The red string is $15$ times as long as the blue string.
@@ -285,7 +285,7 @@ D. The blue string is $4$ times as long as the red string.
 ::key C
 $20\div5=4$, so the red string is $4$ times as long as the blue string. A mixes up "times as long" and "longer", B uses $20-5$, D swaps the two strings.
 
-::mc
+::mc VD
 Ha has $4$ exercise books. Lan has $8$ more than Ha. How many times as many books as Ha does Lan have?
 A. $2$ times.
 B. $12$ times.
@@ -294,7 +294,7 @@ D. $3$ times.
 ::key D
 Lan has $4+8=12$ books, then $12\div4=3$ times. A only works out $8\div4$, B is Lan's number of books, C is Ha's number of books.
 
-::tf
+::tf TH TH TH NB
 Look at the numbers $24$ and $6$.
 a) $24$ is $4$ times as large as $6$.
 b) $24$ is $4$ more than $6$.
@@ -303,12 +303,12 @@ d) $24\div6=4$.
 ::key T F F T
 a) True: $6\times 4=24$. b) False: $24-6=18$. c) False: the larger number is the multiple of the smaller, not the other way round. d) True: $6\times 4=24$.
 
-::sa
+::sa TH
 $63$ is how many times as large as $9$?
 ::key 7
 $63\div9=7$ (times).
 
-::sa
+::sa TH
 A ruler is $30$ cm long and a pencil is $6$ cm long. How many times as long as the pencil is the ruler?
 ::key 5
 $30\div6=5$ (times).

@@ -392,7 +392,7 @@ So $E=-15$ for every $x$, and the value of $E$ does not depend on $x$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The product $(x+3)(x-2)$ equals
 A. $x^2+x-6$.
 B. $x^2+5x-6$.
@@ -401,7 +401,7 @@ D. $x^2-x-6$.
 ::key A
 $(x+3)(x-2)=x^2-2x+3x-6=x^2+x-6$. A misses the cross products, B adds $-2x+3x$ wrongly, D has the wrong sign on the $x$ term.
 
-::mc
+::mc TH
 The product $-2x^2y(3x-y+4)$ equals
 A. $-6x^3y-2x^2y^2-8x^2y$.
 B. $-6x^3y+2x^2y^2-8x^2y$.
@@ -410,7 +410,7 @@ D. $-6x^3y+2x^2y^2+8x^2y$.
 ::key B
 Multiplying $-2x^2y$ by $3x$, $-y$, $4$ gives $-6x^3y$, $+2x^2y^2$, $-8x^2y$. B has the wrong sign on the second term, C forgets to multiply the term $4$, D has the wrong sign on the third term.
 
-::mc
+::mc TH
 The quotient $(6x^3y^2-4x^2y)\div(2xy)$ equals
 A. $3x^2y-2xy$.
 B. $3x^2y-2$.
@@ -419,7 +419,7 @@ D. $3x^2y+2x$.
 ::key C
 $6x^3y^2\div(2xy)=3x^2y$ and $4x^2y\div(2xy)=2x$, so the quotient is $3x^2y-2x$. A keeps an extra $y$ in the second term, B divides the power of $x$ wrongly, D has the wrong sign.
 
-::mc
+::mc VD
 The product $(x-1)(x^2+x+1)$ equals
 A. $x^3+1$.
 B. $x^3+x^2-1$.
@@ -428,7 +428,7 @@ D. $x^3-1$.
 ::key D
 $(x-1)(x^2+x+1)=x^3+x^2+x-x^2-x-1=x^3-1$. A has the wrong sign on the constant term; C and B keep a term $\pm x^2$ that should cancel.
 
-::tf
+::tf TH TH VD TH
 Let $E=(x+2)(x-5)-x(x-3)$.
 a) $(x+2)(x-5)=x^2-3x-10$.
 b) $x(x-3)=x^2-3$.
@@ -437,12 +437,12 @@ d) The value of $E$ at $x=0$ is $0$.
 ::key T F T F
 a) True: $x^2-5x+2x-10$. b) False: $x(x-3)=x^2-3x$. c) True: $x^2-3x-10-x^2+3x=-10$. d) False: $E=-10$ for every $x$, including $x=0$.
 
-::sa
+::sa NB
 Find the value of $(x-1)(x+4)$ at $x=3$.
 ::key 14
 $(3-1)(3+4)=2\cdot7=14$.
 
-::sa
+::sa VD
 Find $(12x^3y^2-6x^2y)\div(3xy)$, then find the value of the quotient at $x=2$, $y=1$.
 ::key 12
 The quotient is $4x^2y-2x$. At $x=2$, $y=1$: $16-4=12$.

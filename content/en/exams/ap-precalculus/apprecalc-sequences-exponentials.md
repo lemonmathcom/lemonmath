@@ -271,7 +271,7 @@ So $f(0)=a=3$.
 :::
 
 :::quiz
-::mc
+::mc NB
 What is the next term of the sequence $2, 6, 18, \dots$?
 A. $24$
 B. $36$
@@ -280,7 +280,7 @@ D. $30$
 ::key C
 The ratio is $3$, so the next term is $18\times3=54$.
 
-::mc
+::mc TH
 Which formula gives the arithmetic sequence $4, 9, 14, \dots$?
 A. $a_n=5n-1$
 B. $a_n=4n+5$
@@ -289,7 +289,7 @@ D. $a_n=5n+4$
 ::key A
 $a_1=4$ and $d=5$: $4+5(n-1)=5n-1$.
 
-::mc
+::mc TH
 A quantity is modeled by $Q(t)=80(1.07)^t$. What does $1.07$ tell us?
 A. It increases by $1.07$ units each period.
 B. It decreases by $7\%$ each period.
@@ -298,7 +298,7 @@ D. It increases by $7\%$ each period.
 ::key D
 A growth factor of $1.07$ means an increase of $7\%$ per period.
 
-::mc
+::mc NB
 Which function shows exponential decay?
 A. $f(x)=0.9x+3$
 B. $f(x)=3(0.9)^x$
@@ -307,7 +307,7 @@ D. $f(x)=-3(1.9)^{-x}$
 ::key B
 For $a>0$, a base between $0$ and $1$ gives decay.
 
-::tf
+::tf NB TH NB NB
 Let $f(x)=200(0.5)^{x/3}$. Decide whether each statement is true or false.
 a) $f(0)=200$.
 b) The value is halved every $3$ units of $x$.
@@ -316,12 +316,12 @@ d) The graph has the horizontal asymptote $y=0$.
 ::key T T F T
 The base $0.5$ is less than $1$, so $f$ is decreasing towards $0$.
 
-::sa
+::sa TH
 A geometric sequence has $g_1=3$ and $r=2$. Find $g_5$.
 ::key 48
 $3\cdot2^4=48$.
 
-::sa
+::sa TH
 An exponential function has $f(0)=10$ and $f(1)=15$. Find $f(2)$.
 ::key 22.5
 The factor is $1.5$, so $f(2)=15\times1.5=22.5$.

@@ -349,7 +349,7 @@ So the distance AB is $24$ km.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The sum of two numbers is $40$ and their difference is $6$. The larger number is
 A. $23$.
 B. $20$.
@@ -358,7 +358,7 @@ D. $34$.
 ::key A
 Let the smaller number be $x$: $x+(x+6)=40$, so $x=17$ and the larger is $23$. A is the smaller number, B is half the sum, D is $40-6$.
 
-::mc
+::mc VD
 A rectangle has perimeter $50$ m, and its length is $5$ m more than its width. The width is
 A. $15$ m.
 B. $10$ m.
@@ -367,7 +367,7 @@ D. $12.5$ m.
 ::key B
 $2(x+x+5)=50$, so $x=10$. B is the length; C and D come from dividing the perimeter by $2$ or $4$ without using the difference.
 
-::mc
+::mc VD
 The price of a shirt after a $20\%$ discount is $360\,000$ dong. The original price is
 A. $288\,000$ dong.
 B. $432\,000$ dong.
@@ -376,7 +376,7 @@ D. $380\,000$ dong.
 ::key C
 $0.8x=360\,000$, so $x=450\,000$. A takes $360\,000\cdot0.8$, B adds $20\%$ of the reduced price.
 
-::mc
+::mc VD
 A motorbike travels at $40$ km/h and starts $1$ hour earlier than a car travelling the same way at $60$ km/h. How many hours after the car leaves does it catch up with the motorbike?
 A. $1$ hour.
 B. $4$ hours.
@@ -385,7 +385,7 @@ D. $2$ hours.
 ::key D
 $40(x+1)=60x$, so $x=2$. C is the motorbike's travelling time; A and B do not satisfy the equation.
 
-::tf
+::tf TH TH VD VD
 A rectangle has perimeter $60$ m, and its length is $6$ m more than its width. Decide whether each statement is true or false.
 a) If the width is $x$, then the length is $x-6$.
 b) The equation for the problem is $2x+6=60$.
@@ -394,12 +394,12 @@ d) The area is $216$ m².
 ::key F F T T
 a) False: the length is greater, so it is $x+6$. b) False: the equation is $2(x+x+6)=60$. c) True: $4x+12=60$, so $x=12$. d) True: $12\cdot18=216$.
 
-::sa
+::sa VD
 The sum of two numbers is $65$ and their difference is $11$. What is the larger number?
 ::key 38
 $x+(x+11)=65$, so $x=27$ and the larger number is $38$.
 
-::sa
+::sa VD
 This year a mother is $38$ and her child is $8$. After how many years will the mother be $3$ times as old as the child?
 ::key 7
 $38+x=3(8+x)$, so $x=7$.

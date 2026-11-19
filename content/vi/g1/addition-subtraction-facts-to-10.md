@@ -260,7 +260,7 @@ Hai phép cộng: $3+6=9$ và $6+3=9$. Hai phép trừ: $9-3=6$ và $9-6=3$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Từ $2+5=7$, phép trừ nào đúng?
 A. $5-7=2$.
 B. $7-2=9$.
@@ -269,7 +269,7 @@ D. $7-2=5$.
 ::key D
 Bớt $2$ khỏi $7$ còn $5$. Các phương án C, A bớt số lớn khỏi số bé.
 
-::mc
+::mc NB
 Kết quả của $7-3$ là
 A. $4$.
 B. $3$.
@@ -278,7 +278,7 @@ D. $10$.
 ::key A
 $3+4=7$ nên $7-3=4$. Phương án D là lấy $7+3$.
 
-::mc
+::mc TH
 Từ ba số $4$, $5$, $9$, phép tính nào đúng?
 A. $9-4=4$.
 B. $9-4=5$.
@@ -287,7 +287,7 @@ D. $5-9=4$.
 ::key B
 $4+5=9$ nên $9-4=5$.
 
-::mc
+::mc TH
 Số cần điền vào $6-\square=2$ là
 A. $3$.
 B. $8$.
@@ -296,7 +296,7 @@ D. $2$.
 ::key C
 $2+4=6$ nên bớt $4$ khỏi $6$ còn $2$. Phương án B là lấy $6+2$.
 
-::tf
+::tf NB TH TH TH
 Em xét ba số $3$, $5$, $8$.
 a) $3+5=8$.
 b) $8-3=5$.
@@ -305,12 +305,12 @@ d) $5-8=3$.
 ::key Đ Đ S S
 a) Đúng. b) Đúng. c) Sai: $8-5=3$. d) Sai: không bớt $8$ khỏi $5$.
 
-::sa
+::sa TH
 Tính $9-6$.
 ::key 3
 $6+3=9$ nên $9-6=3$.
 
-::sa
+::sa TH
 Số thích hợp để điền vào $\square-4=5$ là số nào?
 ::key 9
 $4+5=9$ nên $9-4=5$.

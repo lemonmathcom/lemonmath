@@ -298,7 +298,7 @@ It is lower than the original price by $500\,000-495\,000=5\,000$ dong, and $5\,
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The largest of the numbers $4.62$, $4.6$, $4.602$ and $4.26$ is
 A. $4.26$.
 B. $4.6$.
@@ -307,7 +307,7 @@ D. $4.62$.
 ::key D
 Write them with three decimal places: $4.620$, $4.600$, $4.602$, $4.260$. Option C is the mistake of treating $602$ as bigger than $62$, as with whole numbers.
 
-::mc
+::mc TH
 $25\%$ of $360$ is
 A. $90$.
 B. $14.4$.
@@ -316,7 +316,7 @@ D. $1\,440$.
 ::key A
 $360\times25\div100=90$. Option B is $360\div25$, option C forgets to divide by $100$, and option D treats $360$ as $25\%$ of a number.
 
-::mc
+::mc TH
 $6.4\div0.08$ equals
 A. $0.8$.
 B. $80$.
@@ -325,7 +325,7 @@ D. $800$.
 ::key B
 Multiply both numbers by $100$: $6.4\div0.08=640\div8=80$. The other options come from moving the decimal points by different amounts in the two numbers.
 
-::mc
+::mc VD
 $30\%$ of a number is $45$. The number is
 A. $13.5$.
 B. $1\,350$.
@@ -334,7 +334,7 @@ D. $75$.
 ::key C
 $45\div30\times100=150$. Option A is the mistake of finding $30\%$ of $45$, option B is $45\times30$, and option D is $45+30$.
 
-::tf
+::tf TH VD VD TH
 Class 5A has $40$ pupils, and $18$ of them are girls.
 a) Girls make up $45\%$ of the class.
 b) Boys make up $22\%$ of the class.
@@ -343,12 +343,12 @@ d) The number of girls equals $0.45$ of the number of boys.
 ::key T F T F
 a) True: $18\div40=0.45=45\%$. b) False: there are $40-18=22$ boys and $22\div40=0.55=55\%$. c) True: $22-18=4$ and $10\%\times40=4$. d) False: $0.45$ compares with the whole class; compared with the number of boys we need $18\div22$.
 
-::sa
+::sa TH
 Write $\dfrac{3}{8}$ as a percentage. Fill in the box: $\square\%$.
 ::key 37.5
 $\dfrac{3}{8}=3\div8=0.375=37.5\%$.
 
-::sa
+::sa VD
 A shirt costs $250$ thousand dong and has a $12\%$ discount. How many thousand dong does it cost after the discount?
 ::key 220
 The discount is $250\times12\div100=30$ (thousand dong), so the new price is $250-30=220$ (thousand dong).

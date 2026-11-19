@@ -225,7 +225,7 @@ Cả hai tích phân đều bằng $\dfrac12\displaystyle\int_0^4f(u)\,du=\dfrac
 :::
 
 :::quiz
-::mc
+::mc TH
 Nguyên hàm $\displaystyle\int\cos(5x)\,dx$ bằng
 A. $5\sin(5x)+C$
 B. $-\dfrac{\sin(5x)}{5}+C$
@@ -234,7 +234,7 @@ D. $\sin(5x)+C$
 ::key C
 Với $u=5x$: $\dfrac15\sin u+C$.
 
-::mc
+::mc VD
 Tích phân $\displaystyle\int_0^1 2xe^{x^2}\,dx$ bằng
 A. $e$
 B. $e-1$
@@ -243,7 +243,7 @@ D. $\dfrac{e-1}{2}$
 ::key B
 $u=x^2$, cận $0$ và $1$: $\Big[e^u\Big]_0^1=e-1$.
 
-::mc
+::mc TH
 Phép đổi biến nào đưa $\displaystyle\int x^2\sqrt{x^3+1}\,dx$ về một tích phân cơ bản?
 A. $u=x^2$
 B. $u=\sqrt x$
@@ -252,7 +252,7 @@ D. $u=x^3+1$
 ::key D
 Khi đó $du=3x^2\,dx$, tích phân trở thành $\dfrac13\displaystyle\int\sqrt u\,du$.
 
-::mc
+::mc TH
 Nguyên hàm $\displaystyle\int\frac{dx}{x^2+9}$ bằng
 A. $\dfrac13\arctan\dfrac x3+C$
 B. $\arctan\dfrac x3+C$
@@ -261,7 +261,7 @@ D. $\dfrac19\arctan x+C$
 ::key A
 Dùng $\displaystyle\int\frac{du}{u^2+a^2}=\frac1a\arctan\frac ua+C$ với $a=3$.
 
-::tf
+::tf TH TH VD TH
 Mỗi khẳng định sau đúng hay sai?
 a) $\displaystyle\int\frac{2x}{x^2+1}\,dx=\ln\left(x^2+1\right)+C$.
 b) Với $u=x^2+1$, $\displaystyle\int_0^2x\left(x^2+1\right)^2dx=\dfrac12\displaystyle\int_0^2u^2\,du$.
@@ -270,12 +270,12 @@ d) (BC) $\displaystyle\int_1^\infty\frac{dx}{\sqrt x}$ hội tụ.
 ::key T F T F
 a) Đúng: $u=x^2+1$. b) Sai: cận phải đổi thành $1$ và $5$. c) Đúng: $\displaystyle\lim_{b\to\infty}\left[-\frac{1}{2x^2}\right]_1^b=\frac12$. d) Sai: $p=\dfrac12\le1$.
 
-::sa
+::sa VD
 Tính $\displaystyle\int_0^2 2x\left(x^2+1\right)dx$.
 ::key 12
 $u=x^2+1$, cận $1$ và $5$: $\Big[\dfrac{u^2}{2}\Big]_1^5=\dfrac{25-1}{2}=12$.
 
-::sa
+::sa VD
 Tính $\displaystyle\int_0^1 6x\left(x^2+1\right)^2dx$.
 ::key 7
 $u=x^2+1$, $6x\,dx=3\,du$: $3\Big[\dfrac{u^3}{3}\Big]_1^2=8-1=7$.

@@ -265,7 +265,7 @@ $(10+\square)-8=5$ nên $10+\square=13$, suy ra $\square=3$. Thử lại: $73-8=
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $51-6$ là
 A. $45$.
 B. $55$.
@@ -274,7 +274,7 @@ D. $46$.
 ::key A
 $11-6=5$ và $5-1=4$, nên $51-6=45$. Phương án B là lỗi lấy $6-1=5$ rồi giữ nguyên hàng chục, C là $51+6$.
 
-::mc
+::mc TH
 Khi tính $62-8$, ở hàng đơn vị em không trừ được $2-8$. Em mượn $1$ chục rồi tính
 A. $8-2$.
 B. $12-8$.
@@ -283,7 +283,7 @@ D. $10-8$.
 ::key B
 Mượn $1$ chục được $12$ đơn vị: $12-8=4$; hàng chục $6-1=5$; kết quả $54$. Phương án A lấy số lớn trừ số nhỏ, D quên $2$ đơn vị có sẵn.
 
-::mc
+::mc TH
 Phép tính nào có kết quả bằng $36$?
 A. $41-6$.
 B. $43-6$.
@@ -292,7 +292,7 @@ D. $44-6$.
 ::key C
 $42-6=36$. Các phép tính khác lần lượt bằng $37$, $35$, $38$.
 
-::mc
+::mc VD
 Hộp có $71$ viên bi, Nam lấy đi $9$ viên. Trong hộp còn lại bao nhiêu viên bi?
 A. $80$ viên.
 B. $78$ viên.
@@ -301,7 +301,7 @@ D. $62$ viên.
 ::key D
 "Lấy đi", "còn lại" là bớt đi: $71-9=62$. Phương án A là $71+9$, B lấy $9-1=8$ rồi giữ hàng chục, C quên bớt $1$ chục đã mượn.
 
-::tf
+::tf NB TH TH VD
 Em xét phép trừ $83-5$.
 a) Hàng đơn vị: $3$ không trừ được $5$.
 b) Mượn $1$ chục thì hàng đơn vị có $13$.
@@ -310,12 +310,12 @@ d) $83-5=78$.
 ::key Đ Đ S Đ
 a) Đúng: $3<5$. b) Đúng: $10+3=13$. c) Sai: hàng chục $8-1=7$. d) Đúng: $13-5=8$ và $7$, được $78$.
 
-::sa
+::sa VD
 Tính $92-7$.
 ::key 85
 $12-7=5$, hàng chục $9-1=8$. Vậy $92-7=85$.
 
-::sa
+::sa VD
 Bể có $54$ con cá, người ta vớt ra $8$ con cá. Bể còn lại bao nhiêu con cá?
 ::key 46
 $14-8=6$, hàng chục $5-1=4$. Vậy $54-8=46$ (con cá).

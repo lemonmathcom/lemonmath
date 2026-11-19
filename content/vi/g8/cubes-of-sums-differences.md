@@ -446,7 +446,7 @@ Do đó $a^3+b^3+3ab=1-3ab+3ab=1$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Khai triển $(x+2)^3$ được
 A. $x^3+8$.
 B. $x^3+2x^2+4x+8$.
@@ -455,7 +455,7 @@ D. $x^3-6x^2+12x-8$.
 ::key C
 $(x+2)^3=x^3+3\cdot x^2\cdot2+3\cdot x\cdot4+8=x^3+6x^2+12x+8$. A bỏ hai hạng tử giữa, B quên các hệ số $3$, D sai dấu.
 
-::mc
+::mc TH
 Khai triển $(2x-1)^3$ được
 A. $8x^3-12x^2-6x-1$.
 B. $8x^3-1$.
@@ -464,7 +464,7 @@ D. $8x^3-12x^2+6x-1$.
 ::key D
 $(2x-1)^3=8x^3-3\cdot4x^2+3\cdot2x-1=8x^3-12x^2+6x-1$. B là hiệu hai lập phương, C quên bình phương hệ số $2$ ở hạng tử thứ hai, A không xen kẽ dấu.
 
-::mc
+::mc TH
 Biểu thức $x^3+27$ bằng
 A. $(x+3)(x^2-3x+9)$.
 B. $(x+3)^3$.
@@ -473,7 +473,7 @@ D. $(x+3)(x^2+3x+9)$.
 ::key A
 $x^3+27=x^3+3^3=(x+3)(x^2-3x+9)$. A sai dấu hạng tử giữa, B có bốn hạng tử, C tính hạng tử giữa sai.
 
-::mc
+::mc TH
 Biểu thức $8x^3-y^3$ bằng
 A. $(2x-y)^3$.
 B. $(2x-y)(4x^2+2xy+y^2)$.
@@ -482,7 +482,7 @@ D. $(2x-y)(2x^2+2xy+y^2)$.
 ::key B
 $8x^3-y^3=(2x)^3-y^3=(2x-y)(4x^2+2xy+y^2)$. A là lập phương của một hiệu, C là tổng hai lập phương, D quên bình phương hệ số $2$.
 
-::tf
+::tf NB NB VD TH
 Cho $(x+1)^3$ và $(x-1)^3$.
 a) $(x+1)^3=x^3+1$.
 b) $(x-1)^3=x^3-3x^2+3x-1$.
@@ -491,12 +491,12 @@ d) Tại $x=1$, $(x+1)^3-(x-1)^3$ bằng $8$.
 ::key S Đ S Đ
 a) Sai: thiếu $3x^2+3x$. b) Đúng: dấu xen kẽ. c) Sai: hiệu bằng $6x^2+2$. d) Đúng: $2^3-0^3=8$ và $6+2=8$.
 
-::sa
+::sa VD
 Tính nhẩm $11^3$.
 ::key 1331
 $11^3=(10+1)^3=1000+300+30+1=1331$.
 
-::sa
+::sa VD
 Cho $a-b=1$ và $ab=6$. Tính $a^3-b^3$.
 ::key 19
 $a^3-b^3=(a-b)^3+3ab(a-b)=1+18=19$.

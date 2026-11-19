@@ -376,7 +376,7 @@ Số bi đỏ và xanh là $5+3=8$. Chúng chiếm $2$ phần trong $3$ phần, 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Gieo một con xúc xắc cân đối. Xác suất để số chấm chia hết cho $3$ là
 A. $\dfrac13$.
 B. $\dfrac16$.
@@ -385,7 +385,7 @@ D. $2$.
 ::key A
 Các số $3, 6$ thuận lợi nên $P=\dfrac26=\dfrac13$. Phương án B quên số $6$, phương án D chỉ đếm số kết quả thuận lợi mà chưa chia cho $6$.
 
-::mc
+::mc TH
 Một hộp có $8$ bi đỏ và $12$ bi xanh. Lấy ngẫu nhiên một viên. Xác suất lấy được bi đỏ là
 A. $\dfrac23$.
 B. $\dfrac25$.
@@ -394,7 +394,7 @@ D. $\dfrac12$.
 ::key B
 $n=8+12=20$ nên $P=\dfrac{8}{20}=\dfrac25$. Phương án A lấy $\dfrac{8}{12}$ (chia cho số bi xanh), C là xác suất lấy bi xanh, D coi hai màu như nhau.
 
-::mc
+::mc NB
 Giá trị nào sau đây không thể là xác suất của một biến cố?
 A. $0$.
 B. $\dfrac34$.
@@ -403,7 +403,7 @@ D. $1$.
 ::key C
 Xác suất luôn nằm từ $0$ đến $1$, mà $\dfrac54>1$. Giá trị như vậy xuất hiện khi viết ngược tỉ số $\dfrac{n}{k}$.
 
-::mc
+::mc TH
 Rút ngẫu nhiên một thẻ trong $30$ thẻ ghi các số từ $1$ đến $30$. Xác suất thẻ ghi số chia hết cho $5$ là
 A. $\dfrac16$.
 B. $\dfrac13$.
@@ -412,7 +412,7 @@ D. $\dfrac15$.
 ::key D
 Các số $5, 10, 15, 20, 25, 30$ thuận lợi: $k=6$, nên $P=\dfrac{6}{30}=\dfrac15$. Phương án C chỉ tính một kết quả; D là xác suất số chia hết cho $3$ ($k=10$).
 
-::tf
+::tf TH TH NB TH
 Một hộp có $3$ bi trắng, $5$ bi đen và $2$ bi vàng. Lấy ngẫu nhiên một viên bi.
 a) Xác suất lấy được bi đen bằng $\dfrac12$.
 b) Xác suất lấy được bi trắng bằng $\dfrac37$.
@@ -421,12 +421,12 @@ d) Xác suất lấy được bi vàng lớn hơn xác suất lấy được bi 
 ::key Đ S Đ S
 a) Đúng: $\dfrac{5}{10}=\dfrac12$. b) Sai: tổng số bi là $10$ nên $P=\dfrac{3}{10}$. c) Đúng: hộp không có bi xanh. d) Sai: $\dfrac{2}{10}<\dfrac{3}{10}$.
 
-::sa
+::sa TH
 Một hộp có $25$ viên bi, trong đó có $10$ viên bi đỏ. Lấy ngẫu nhiên một viên. Xác suất lấy được bi đỏ bằng bao nhiêu? (Viết dưới dạng số thập phân.)
 ::key 0,4
 $P=\dfrac{10}{25}=\dfrac25=0{,}4$.
 
-::sa
+::sa VD
 Lớp có $36$ học sinh. Xác suất chọn ngẫu nhiên một bạn nữ là $\dfrac59$. Lớp có bao nhiêu bạn nữ?
 ::key 20
 Số bạn nữ là $k=36\times\dfrac59=20$. Kiểm tra: $\dfrac{20}{36}=\dfrac59$.

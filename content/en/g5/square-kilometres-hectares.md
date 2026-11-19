@@ -393,7 +393,7 @@ The width is $50$ m and the length is $50\times4=200$ m. The perimeter is $(50+2
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $4\ \text{km}^2$ changed into square metres is
 A. $4\,000\,000\ \text{m}^2$.
 B. $400\,000\ \text{m}^2$.
@@ -402,7 +402,7 @@ D. $40\,000\ \text{m}^2$.
 ::key A
 $4\ \text{km}^2=4\times1\,000\,000=4\,000\,000\ \text{m}^2$. Option C uses $1\ \text{km}^2=1000\ \text{m}^2$; B and D get the number of square metres in $1\ \text{km}^2$ wrong.
 
-::mc
+::mc TH
 $3.5$ ha changed into square metres is
 A. $3500\ \text{m}^2$.
 B. $35\,000\ \text{m}^2$.
@@ -411,7 +411,7 @@ D. $30\,500\ \text{m}^2$.
 ::key B
 $3.5$ ha $=3$ ha $+0.5$ ha $=30\,000+5000=35\,000\ \text{m}^2$. Option A uses $1$ ha $=1000\ \text{m}^2$; C uses $1$ ha $=100\,000\ \text{m}^2$; D takes $0.5$ ha as $500\ \text{m}^2$.
 
-::mc
+::mc TH
 $5\ \text{km}^2$ changed into hectares is
 A. $5000$ ha.
 B. $50$ ha.
@@ -420,7 +420,7 @@ D. $5$ ha.
 ::key C
 $1\ \text{km}^2=100$ ha, so $5\ \text{km}^2=500$ ha. Option A uses $1\ \text{km}^2=1000$ ha; B uses $1\ \text{km}^2=10$ ha; C does not change the unit.
 
-::mc
+::mc VD
 A field is a rectangle $300$ m long and $200$ m wide. The area of the field is
 A. $60$ ha.
 B. $0.6$ ha.
@@ -429,7 +429,7 @@ D. $6$ ha.
 ::key D
 The area is $300\times200=60\,000\ \text{m}^2=6$ ha. Option A uses $1$ ha $=1000\ \text{m}^2$; C uses $1$ ha $=100\ \text{m}^2$; D uses $1$ ha $=100\,000\ \text{m}^2$.
 
-::tf
+::tf NB TH TH VD
 Look at a square with side $100$ m.
 a) The area of the square is $10\,000\ \text{m}^2$.
 b) The area of the square is $1$ ha.
@@ -438,12 +438,12 @@ d) One square kilometre is made of $10$ squares like this.
 ::key T T F F
 a) True: $100\times100=10\,000$. b) True: $1$ ha $=10\,000\ \text{m}^2$. c) False: $10\,000\ \text{m}^2=\dfrac{1}{100}\ \text{km}^2=0.01\ \text{km}^2$. d) False: $1\ \text{km}^2=100$ ha, so it is made of $100$ squares like this.
 
-::sa
+::sa TH
 Find the missing number: $0.5\ \text{km}^2=?$ ha.
 ::key 50
 $0.5\ \text{km}^2=\dfrac{5}{10}\times100=50$ ha.
 
-::sa
+::sa VD
 A field is a rectangle $500$ m long and $400$ m wide. How many hectares is the field?
 ::key 20
 $500\times400=200\,000\ \text{m}^2$ and $200\,000\div10\,000=20$ ha.

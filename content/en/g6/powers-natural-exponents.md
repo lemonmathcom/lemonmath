@@ -279,7 +279,7 @@ a) $S=1+2+4+8+16+32=63$. b) $S+1=64=2^6$. Comment: $S=2^6-1$. Indeed, each later
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The value of $2^5$ is
 A. $10$.
 B. $7$.
@@ -288,7 +288,7 @@ D. $25$.
 ::key C
 $2^5=2\times2\times2\times2\times2=32$. Option A is $2\times5$, B is $2+5$, D is $5^2$.
 
-::mc
+::mc TH
 The result of $3^4\times3^3$ written as a single power is
 A. $3^1$.
 B. $3^{12}$.
@@ -297,7 +297,7 @@ D. $3^7$.
 ::key D
 Keep the base and add the exponents: $3^{4+3}=3^7$. Option B multiplies the exponents, C multiplies the bases, A subtracts the exponents.
 
-::mc
+::mc TH
 The result of $5^8\div5^5$ is
 A. $5^3$.
 B. $5^{13}$.
@@ -306,7 +306,7 @@ D. $5^{40}$.
 ::key A
 Keep the base and subtract the exponents: $5^{8-5}=5^3$. Option B adds the exponents, C divides the bases, D multiplies the exponents.
 
-::mc
+::mc NB
 The value of $7^0$ is
 A. $0$.
 B. $1$.
@@ -315,7 +315,7 @@ D. meaningless.
 ::key B
 By convention $a^0=1$ for $a\ne0$, because $7^0=7^3\div7^3=1$. Options A and C are common mix-ups.
 
-::tf
+::tf TH TH TH TH
 About the number $64$.
 a) $64=2^8$.
 b) $64=2^6$.
@@ -324,12 +324,12 @@ d) $64=8^2$.
 ::key F T T T
 a) False: $2^8=256$. b) True: $2^6=64$. c) True: $4\times4\times4=64$. d) True: $8\times8=64$.
 
-::sa
+::sa TH
 What is the value of $3^4$?
 ::key 81
 $3\times3\times3\times3=81$.
 
-::sa
+::sa TH
 What is the value of $5^8\div5^6$?
 ::key 25
 $5^8\div5^6=5^2=25$.

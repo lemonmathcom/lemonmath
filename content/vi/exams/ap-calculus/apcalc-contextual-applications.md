@@ -258,7 +258,7 @@ $f(1{,}2)\approx3{,}4$. Vì $f''>0$ nên đồ thị lõm lên và nằm phía t
 :::
 
 :::quiz
-::mc
+::mc TH
 Một hạt có vị trí $s(t)=t^2-6t$. Vận tốc của hạt tại $t=4$ là
 A. $2$
 B. $-8$
@@ -267,7 +267,7 @@ D. $-2$
 ::key A
 $v(t)=2t-6$, nên $v(4)=2$. Phương án B là vị trí $s(4)$.
 
-::mc
+::mc TH
 Tại $t=2$, một hạt có $v(2)=-3$ và $a(2)=-1$. Tại thời điểm này hạt
 A. đi sang phải và nhanh dần
 B. đi sang trái và chậm dần
@@ -276,7 +276,7 @@ D. đi sang phải và chậm dần
 ::key C
 $v<0$ nghĩa là đi sang trái; $v$ và $a$ cùng dấu nên hạt nhanh dần.
 
-::mc
+::mc TH
 $\displaystyle\lim_{x\to0}\frac{\tan 2x}{x}$ bằng
 A. $0$
 B. $\dfrac12$
@@ -285,7 +285,7 @@ D. $2$
 ::key D
 L'Hôpital: $\dfrac{2\sec^2 2x}{1}\to2$.
 
-::mc
+::mc VD
 Dùng tiếp tuyến của $y=\sqrt[3]{x}$ tại $x=8$, giá trị ước lượng của $\sqrt[3]{8{,}3}$ là
 A. $2{,}1$
 B. $2{,}025$
@@ -294,7 +294,7 @@ D. $2{,}25$
 ::key B
 $y'=\dfrac{1}{3x^{2/3}}=\dfrac1{12}$ tại $x=8$, nên $\sqrt[3]{8{,}3}\approx2+\dfrac{0{,}3}{12}=2{,}025$.
 
-::tf
+::tf VD TH TH TH
 Cạnh của một hình vuông tăng $3$ xăng-ti-mét mỗi giây.
 a) Khi cạnh bằng $5$ xăng-ti-mét, diện tích tăng $30$ xăng-ti-mét vuông mỗi giây.
 b) Chu vi tăng $3$ xăng-ti-mét mỗi giây.
@@ -303,12 +303,12 @@ d) Khi cạnh tăng gấp đôi, tốc độ tăng của diện tích cũng tăn
 ::key Đ S S Đ
 a) Đúng: $\dfrac{dA}{dt}=2s\dfrac{ds}{dt}=30$. b) Sai: $P=4s$, nên là $12$ xăng-ti-mét mỗi giây. c) Sai: $\dfrac{dA}{dt}=6s$ phụ thuộc $s$. d) Đúng.
 
-::sa
+::sa VD
 Bán kính của một hình cầu tăng $0{,}5$ xăng-ti-mét mỗi giây. Thể tích tăng nhanh đến mức nào khi bán kính bằng $3$ xăng-ti-mét? Làm tròn đến một chữ số thập phân.
 ::key 56,5
 $\dfrac{dV}{dt}=4\pi r^2\dfrac{dr}{dt}=4\pi(9)(0{,}5)=18\pi\approx56{,}5$ xăng-ti-mét khối mỗi giây.
 
-::sa
+::sa VD
 Một hạt có vị trí $x(t)=t^2-4t$, $0\le t\le5$. Tính tổng quãng đường hạt đi được.
 ::key 13
 Hạt đổi chiều tại $t=2$: $x(0)=0$, $x(2)=-4$, $x(5)=5$. Quãng đường $=4+9=13$.

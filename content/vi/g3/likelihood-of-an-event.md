@@ -317,7 +317,7 @@ b) Phải lấy hết $3$ viên bi đỏ, khi đó hộp chỉ còn $5$ bi xanh.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Một hộp có $6$ viên bi vàng. Nhắm mắt lấy ra một viên. Lấy được bi vàng là
 A. không thể.
 B. có thể.
@@ -326,7 +326,7 @@ D. không biết.
 ::key C
 Trong hộp chỉ có bi vàng nên viên nào lấy ra cũng là bi vàng. Phương án B quên rằng hộp không có màu nào khác.
 
-::mc
+::mc TH
 Một hộp có $3$ bi đỏ và $2$ bi xanh. Lấy ra một viên. Lấy được bi xanh là
 A. chắc chắn.
 B. không thể.
@@ -335,7 +335,7 @@ D. có thể.
 ::key D
 Hộp có cả bi đỏ và bi xanh nên có thể lấy được bi xanh. Phương án A nhầm "có thể" với "chắc chắn".
 
-::mc
+::mc TH
 Một hộp có $3$ tấm thẻ ghi số $1$, $2$, $3$. Lấy ra một tấm. Lấy được thẻ ghi số $7$ là
 A. có thể.
 B. không thể.
@@ -344,7 +344,7 @@ D. không biết.
 ::key B
 Trong hộp không có thẻ số $7$. Phương án A là không nhìn vào hộp.
 
-::mc
+::mc TH
 Sự kiện nào sau đây là chắc chắn?
 A. Ngày mai trời mưa.
 B. Sau thứ Hai là thứ Ba.
@@ -353,7 +353,7 @@ D. Em thắng ván cờ chiều nay.
 ::key B
 Sau thứ Hai luôn là thứ Ba. A và D là có thể, C là không thể.
 
-::tf
+::tf NB TH NB TH
 Một hộp có $4$ bi xanh và $1$ bi đỏ. Lấy ra một viên.
 a) Có thể lấy được bi đỏ.
 b) Chắc chắn lấy được bi xanh.
@@ -362,12 +362,12 @@ d) Chắc chắn lấy được bi đỏ hoặc bi xanh.
 ::key Đ S Đ Đ
 a) Đúng: bi đỏ có trong hộp. b) Sai: bi đỏ vẫn có thể được lấy ra. c) Đúng: không có bi vàng. d) Đúng: mọi viên trong hộp đều là đỏ hoặc xanh.
 
-::sa
+::sa TH
 Một hộp có $5$ bi đỏ và $3$ bi xanh. Lấy ra một viên. Có thể lấy được mấy màu bi khác nhau?
 ::key 2
 Hộp có bi đỏ và bi xanh nên có thể lấy được $2$ màu.
 
-::sa
+::sa VDC
 Một hộp có $5$ bi đỏ và $3$ bi xanh. Phải lấy ra bao nhiêu viên bi xanh để chắc chắn lấy được bi đỏ?
 ::key 3
 Phải lấy hết $3$ viên bi xanh để trong hộp chỉ còn bi đỏ.

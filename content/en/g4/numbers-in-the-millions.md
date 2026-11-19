@@ -357,7 +357,7 @@ The whole numbers of millions from $1\,000\,000$ to $99\,000\,000$ are $1$ milli
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The number "five hundred and three million, four hundred thousand" is written
 A. $53\,400\,000$.
 B. $503\,004\,000$.
@@ -366,7 +366,7 @@ D. $530\,400\,000$.
 ::key C
 "Five hundred and three million" is $503\,000\,000$ and "four hundred thousand" is $400\,000$, so the number is $503\,400\,000$. Option A is missing a $0$, option B puts the $4$ in the thousands place, and option D reads "and three" as "thirty".
 
-::mc
+::mc TH
 The digit $8$ in the number $38\,645\,012$ belongs to
 A. the thousands place, in the thousands period.
 B. the ten-millions place, in the millions period.
@@ -375,7 +375,7 @@ D. the millions place, in the millions period.
 ::key D
 The number $38\,645\,012$ has the digit $3$ in the ten-millions place and the digit $8$ in the millions place, in the millions period. Option B mixes it up with the digit $3$, option C with the digit $6$, and option A with the digit $5$.
 
-::mc
+::mc TH
 Which of these numbers is the greatest?
 A. $100\,000\,000$.
 B. $98\,765\,432$.
@@ -384,7 +384,7 @@ D. $99\,000\,000$.
 ::key A
 The number $100\,000\,000$ has nine digits, and the others have eight digits. The number with more digits is greater.
 
-::mc
+::mc TH
 The order from smallest to largest of $60\,500\,000$, $6\,500\,000$ and $65\,000\,000$ is
 A. $60\,500\,000$; $6\,500\,000$; $65\,000\,000$.
 B. $6\,500\,000$; $60\,500\,000$; $65\,000\,000$.
@@ -393,7 +393,7 @@ D. $65\,000\,000$; $60\,500\,000$; $6\,500\,000$.
 ::key B
 The number $6\,500\,000$ has seven digits, so it is the smallest. The other two have eight digits: the millions digit $0<5$, so $60\,500\,000<65\,000\,000$. Option D is in order from largest to smallest, and options A and C have the wrong order.
 
-::tf
+::tf NB NB TH TH
 Look at the number $305\,000\,042$.
 a) The number has eight digits.
 b) The digit $5$ is in the thousands place.
@@ -402,12 +402,12 @@ d) The number is less than $305\,000\,000$.
 ::key F F T F
 a) False: the number has nine digits. b) False: the digit $5$ is in the millions place. c) True: the thousands period is $000$. d) False: $305\,000\,042>305\,000\,000$.
 
-::sa
+::sa TH
 How many digits does the number "one hundred million" have?
 ::key 9
 The number $100\,000\,000$ is made of the digit $1$ and eight digits $0$, so it has nine digits.
 
-::sa
+::sa TH
 How many whole numbers of millions are there from $96\,000\,000$ to $99\,000\,000$ (including both of these)?
 ::key 4
 They are $96\,000\,000$; $97\,000\,000$; $98\,000\,000$; $99\,000\,000$, which is $4$ numbers.

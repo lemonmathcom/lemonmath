@@ -343,7 +343,7 @@ $$987\,654-102\,345=885\,309.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $468\,957+376\,849$ equals
 A. $734\,796$.
 B. $845\,806$.
@@ -352,7 +352,7 @@ D. $92\,108$.
 ::key B
 $7+9=16$, write $6$ and regroup $1$; $5+4+1=10$, write $0$ and regroup $1$; $9+8+1=18$, write $8$ and regroup $1$; $8+6+1=15$, write $5$ and regroup $1$; $6+7+1=14$, write $4$ and regroup $1$; $4+3+1=8$. Option A forgets to regroup in every column, option C forgets one regrouping, and option D is the subtraction.
 
-::mc
+::mc TH
 $500\,000-237\,469$ equals
 A. $337\,469$.
 B. $362\,531$.
@@ -361,7 +361,7 @@ D. $737\,469$.
 ::key C
 $10-9=1$ regroup $1$; $10-7=3$ regroup $1$; $10-5=5$ regroup $1$; $10-8=2$ regroup $1$; $10-4=6$ regroup $1$; $5-3=2$. Option A takes the larger digit from the smaller in every column, option B forgets one regrouping, and option D is the addition.
 
-::mc
+::mc TH
 Two cities (made-up numbers) have $645\,280$ people and $498\,760$ people. The two cities together have
 A. $1\,143\,040$ people.
 B. $144\,040$ people.
@@ -370,7 +370,7 @@ D. $1\,144\,040$ people.
 ::key D
 "Together" means add: $645\,280+498\,760=1\,144\,040$. Option B forgets the regrouping in the last column, option C is the subtraction, and option A forgets one regrouping.
 
-::mc
+::mc TH
 The number $x$ with $x+245\,780=1\,000\,000$ is
 A. $754\,220$.
 B. $754\,320$.
@@ -379,7 +379,7 @@ D. $245\,780$.
 ::key A
 $x=1\,000\,000-245\,780=754\,220$. Option C is the addition, option B forgets one regrouping, and option D is the given number.
 
-::tf
+::tf TH TH TH TH
 Look at the addition $468\,957+376\,849$.
 a) The result has seven digits.
 b) $468\,957+376\,849=845\,806$.
@@ -388,12 +388,12 @@ d) This sum is greater than $900\,000$.
 ::key F T F F
 a) False: the result $845\,806$ has six digits. b) True: this is the result worked out in the example. c) False: $734\,796$ is the result when regrouping is forgotten. d) False: $845\,806<900\,000$.
 
-::sa
+::sa VD
 What is the thousands digit of the difference $500\,000-237\,469$?
 ::key 2
 $500\,000-237\,469=262\,531$. The thousands digit of $262\,531$ is $2$.
 
-::sa
+::sa VD
 What is the hundred-thousands digit of the sum $468\,957+376\,849$?
 ::key 8
 $468\,957+376\,849=845\,806$. The hundred-thousands digit of $845\,806$ is $8$.

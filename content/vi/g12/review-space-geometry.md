@@ -374,7 +374,7 @@ $d(M, (ABC))=\dfrac12 d(C', (ABC))=\dfrac h2$, nên $V_{M.ABC}=\dfrac13\cdot B\c
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Một khối chóp có diện tích đáy bằng $12$ và chiều cao bằng $5$. Thể tích của khối chóp là
 A. $60$.
 B. $20$.
@@ -383,7 +383,7 @@ D. $10$.
 ::key B
 $V=\dfrac13\cdot12\cdot5=20$. Phương án A là công thức của khối lăng trụ; phương án C lấy nhầm hệ số $\dfrac12$.
 
-::mc
+::mc TH
 Cho hình chóp $S.ABCD$ có $SA\perp(ABCD)$. Góc giữa đường thẳng $SB$ và mặt phẳng $(ABCD)$ là
 A. $\widehat{SBA}$.
 B. $\widehat{BSA}$.
@@ -392,7 +392,7 @@ D. $\widehat{SAB}$.
 ::key A
 Hình chiếu của $SB$ trên đáy là $AB$, nên góc là $\widehat{SBA}$. Phương án B là góc giữa $SB$ và $SA$; phương án D là góc vuông.
 
-::mc
+::mc VD
 Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $2$. Khoảng cách giữa hai đường thẳng $AA'$ và $BD$ bằng
 A. $2$.
 B. $2\sqrt2$.
@@ -401,7 +401,7 @@ D. $\sqrt3$.
 ::key C
 Với $O$ là tâm đáy, $AO\perp BD$ và $AO\perp AA'$, nên khoảng cách là $AO=\dfrac{2\sqrt2}{2}=\sqrt2$. Phương án B là cả đường chéo $AC$; phương án A là cạnh $AB$.
 
-::mc
+::mc TH
 Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật và $SA\perp(ABCD)$. Mặt phẳng nào sau đây vuông góc với mặt phẳng $(SAB)$?
 A. $(SCD)$.
 B. $(SBD)$.
@@ -410,7 +410,7 @@ D. $(SBC)$.
 ::key D
 $BC\perp AB$ và $BC\perp SA$ nên $BC\perp(SAB)$; mặt phẳng $(SBC)$ chứa $BC$ nên vuông góc với $(SAB)$.
 
-::tf
+::tf NB TH VD TH
 Cho hình chóp tứ giác đều $S.ABCD$ có tất cả các cạnh bằng $2$, $O$ là tâm của đáy.
 a) $SO\perp(ABCD)$.
 b) $SO=\sqrt2$.
@@ -419,12 +419,12 @@ d) Thể tích khối chóp bằng $\dfrac{4\sqrt2}{3}$.
 ::key Đ Đ S Đ
 a) Đúng: chân đường cao của hình chóp đều là tâm đáy. b) Đúng: $AO=\sqrt2$, $SO=\sqrt{4-2}=\sqrt2$. c) Sai: $\tan\widehat{SAO}=\dfrac{\sqrt2}{\sqrt2}=1$, góc bằng $45^\circ$. d) Đúng: $V=\dfrac13\cdot4\cdot\sqrt2$.
 
-::sa
+::sa TH
 Khối lăng trụ đứng có đáy là tam giác đều cạnh $2$ và cạnh bên bằng $3$. Tính thể tích khối lăng trụ (làm tròn kết quả đến hàng phần mười).
 ::key 5,2
 $B=\dfrac{2^2\sqrt3}{4}=\sqrt3$, $V=3\sqrt3\approx5{,}196$, làm tròn được $5{,}2$.
 
-::sa
+::sa VD
 Cho hình chóp $S.ABC$ có $SA\perp(ABC)$, tam giác $ABC$ vuông tại $B$, $SA=AB=2$. Tính khoảng cách từ $A$ đến mặt phẳng $(SBC)$ (làm tròn kết quả đến hàng phần trăm).
 ::key 1,41
 $BC\perp(SAB)$ nên khoảng cách là đường cao $AH$ của tam giác vuông cân $SAB$: $AH=\dfrac{SB}{2}=\dfrac{2\sqrt2}{2}=\sqrt2\approx1{,}41$.

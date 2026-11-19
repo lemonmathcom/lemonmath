@@ -482,7 +482,7 @@ Vậy sau hai lần dương tính, xác suất người đó mắc bệnh khoả
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Cho $P(B)=0{,}4$, $P(A\mid B)=0{,}5$ và $P(A\mid\overline B)=0{,}25$. Giá trị $P(A)$ bằng
 A. $0{,}2$.
 B. $0{,}75$.
@@ -491,7 +491,7 @@ D. $0{,}35$.
 ::key D
 $P(A)=0{,}4\cdot0{,}5+0{,}6\cdot0{,}25=0{,}2+0{,}15=0{,}35$. A thiếu nhánh $\overline B$, B cộng hai xác suất có điều kiện, C dùng nhầm $P(\overline B)=0{,}4$.
 
-::mc
+::mc VD
 Máy I làm $70\%$ sản phẩm với tỉ lệ lỗi $1\%$, máy II làm $30\%$ với tỉ lệ lỗi $4\%$. Một sản phẩm bị lỗi; xác suất nó do máy II làm gần nhất với
 A. $0{,}04$.
 B. $0{,}3$.
@@ -500,7 +500,7 @@ D. $0{,}012$.
 ::key C
 $P(\text{lỗi})=0{,}007+0{,}012=0{,}019$, nên $P(\text{II}\mid\text{lỗi})=\dfrac{0{,}012}{0{,}019}=\dfrac{12}{19}\approx0{,}63$. A là $P(\text{lỗi}\mid\text{II})$, B là xác suất ban đầu, D là tử số chưa chia.
 
-::mc
+::mc TH
 Hộp I có $2$ bi đỏ, $3$ bi trắng; hộp II có $4$ bi đỏ, $1$ bi trắng. Chọn ngẫu nhiên một hộp rồi lấy một viên bi. Xác suất lấy được bi đỏ là
 A. $\dfrac{8}{25}$.
 B. $\dfrac35$.
@@ -509,7 +509,7 @@ D. $\dfrac65$.
 ::key B
 $\dfrac12\cdot\dfrac25+\dfrac12\cdot\dfrac45=\dfrac35$. A nhân hai xác suất có điều kiện, C chỉ tính nhánh hộp I, D quên nhân với $\dfrac12$ (một xác suất không thể lớn hơn $1$).
 
-::mc
+::mc VD
 Một bệnh có ở $0{,}5\%$ dân số; xét nghiệm dương tính với $99\%$ người bệnh và dương tính nhầm với $2\%$ người không bệnh. Một người dương tính; xác suất người đó mắc bệnh gần nhất với
 A. $99\%$.
 B. $98\%$.
@@ -518,7 +518,7 @@ D. $0{,}5\%$.
 ::key C
 $\dfrac{0{,}005\cdot0{,}99}{0{,}005\cdot0{,}99+0{,}995\cdot0{,}02}=\dfrac{0{,}00495}{0{,}02485}\approx0{,}199$. A nhầm $P(\text{dương}\mid\text{bệnh})$ với $P(\text{bệnh}\mid\text{dương})$, B là $1-0{,}02$, D là xác suất ban đầu.
 
-::tf
+::tf TH NB VD VD
 Phân xưởng I làm $60\%$ sản phẩm, tỉ lệ phế phẩm $3\%$; phân xưởng II làm $40\%$, tỉ lệ phế phẩm $6\%$. Chọn ngẫu nhiên một sản phẩm.
 a) Xác suất sản phẩm là phế phẩm bằng $0{,}042$.
 b) Xác suất sản phẩm là phế phẩm, biết nó của phân xưởng II, bằng $0{,}024$.
@@ -527,12 +527,12 @@ d) Biết sản phẩm không phải phế phẩm, xác suất nó của phân x
 ::key Đ S S Đ
 a) Đúng: $0{,}018+0{,}024$. b) Sai: đề cho xác suất đó là $0{,}06$; $0{,}024$ là xác suất "của II và là phế phẩm". c) Sai: $\dfrac{0{,}024}{0{,}042}=\dfrac47\approx0{,}571$. d) Đúng: $\dfrac{0{,}6\cdot0{,}97}{0{,}958}\approx0{,}608$.
 
-::sa
+::sa VD
 Có $40\%$ người dùng điện thoại hệ điều hành iOS và $60\%$ dùng Android. Tỉ lệ dùng ứng dụng X ở hai nhóm lần lượt là $30\%$ và $25\%$. Chọn ngẫu nhiên một người dùng điện thoại; tính xác suất người đó dùng ứng dụng X.
 ::key 0,27
 $0{,}4\cdot0{,}3+0{,}6\cdot0{,}25=0{,}12+0{,}15=0{,}27$.
 
-::sa
+::sa VD
 Hộp I có $3$ bi đỏ, $7$ bi xanh; hộp II có $6$ bi đỏ, $4$ bi xanh. Gieo một con xúc xắc: được mặt $6$ chấm thì chọn hộp I, ngược lại chọn hộp II; rồi lấy một viên bi và được bi đỏ. Tính xác suất bi đó lấy từ hộp I (làm tròn đến hàng phần trăm).
 ::key 0,09
 $P(\text{đỏ})=\dfrac16\cdot0{,}3+\dfrac56\cdot0{,}6=0{,}05+0{,}5=0{,}55$, nên $P(\text{I}\mid\text{đỏ})=\dfrac{0{,}05}{0{,}55}=\dfrac1{11}\approx0{,}09$.

@@ -261,7 +261,7 @@ Số lớn nhất: hàng trăm $8$, hàng chục $5$, hàng đơn vị $2$, đư
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Chữ số hàng chục của số $527$ là
 A. $5$.
 B. $2$.
@@ -270,7 +270,7 @@ D. $527$.
 ::key B
 Từ trái sang phải: $5$ hàng trăm, $2$ hàng chục, $7$ hàng đơn vị. Phương án A là chữ số hàng trăm.
 
-::mc
+::mc TH
 Số gồm $4$ trăm, $0$ chục và $6$ đơn vị là
 A. $46$.
 B. $460$.
@@ -279,7 +279,7 @@ D. $640$.
 ::key C
 Hàng chục không có gì nên viết $0$: $406$. Phương án A bỏ mất chữ số $0$.
 
-::mc
+::mc NB
 Số nào sau đây là số có ba chữ số?
 A. $99$.
 B. $9$.
@@ -288,7 +288,7 @@ D. $100$.
 ::key D
 $100$ có ba chữ số $1$, $0$, $0$. Các số còn lại có ít chữ số hơn.
 
-::mc
+::mc NB
 Số $318$ gồm
 A. $3$ trăm $1$ chục $8$ đơn vị.
 B. $8$ trăm $1$ chục $3$ đơn vị.
@@ -297,7 +297,7 @@ D. $31$ trăm $8$ đơn vị.
 ::key A
 Từ trái sang phải: $3$ trăm, $1$ chục, $8$ đơn vị. Phương án B đọc ngược thứ tự.
 
-::tf
+::tf NB NB NB NB
 Em xét số $645$.
 a) Chữ số hàng trăm là $6$.
 b) Chữ số hàng chục là $5$.
@@ -306,12 +306,12 @@ d) $645$ là số có ba chữ số.
 ::key Đ S Đ Đ
 a) Đúng. b) Sai: chữ số hàng chục là $4$. c) Đúng. d) Đúng.
 
-::sa
+::sa NB
 Chữ số hàng chục của số $982$ là chữ số nào?
 ::key 8
 Số $982$ có $9$ trăm, $8$ chục, $2$ đơn vị.
 
-::sa
+::sa TH
 Viết số gồm $5$ trăm, $0$ chục và $9$ đơn vị.
 ::key 509
 Chữ số: $5$, $0$, $9$.

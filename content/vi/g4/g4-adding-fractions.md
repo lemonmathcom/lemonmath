@@ -350,7 +350,7 @@ Còn thiếu $1-\dfrac{15}{16}=\dfrac{16}{16}-\dfrac{15}{16}=\dfrac{1}{16}$ đ�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $\dfrac{2}{7}+\dfrac{3}{7}$ là
 A. $\dfrac{5}{14}$.
 B. $\dfrac{5}{7}$.
@@ -359,7 +359,7 @@ D. $\dfrac{6}{7}$.
 ::key B
 Cùng mẫu số thì cộng tử số, giữ nguyên mẫu số: $\dfrac{2+3}{7}=\dfrac{5}{7}$. Phương án A cộng cả hai mẫu số.
 
-::mc
+::mc TH
 Kết quả của $\dfrac{1}{2}+\dfrac{1}{3}$ là
 A. $\dfrac{1}{6}$.
 B. $\dfrac{2}{5}$.
@@ -368,7 +368,7 @@ D. $\dfrac{2}{6}$.
 ::key C
 $\dfrac{1}{2}+\dfrac{1}{3}=\dfrac{3}{6}+\dfrac{2}{6}=\dfrac{5}{6}$. Phương án B là lỗi cộng cả tử số và mẫu số.
 
-::mc
+::mc TH
 Kết quả của $\dfrac{5}{6}-\dfrac{1}{4}$ là
 A. $\dfrac{4}{10}$.
 B. $\dfrac{4}{2}$.
@@ -377,7 +377,7 @@ D. $\dfrac{7}{12}$.
 ::key D
 $\dfrac{5}{6}-\dfrac{1}{4}=\dfrac{10}{12}-\dfrac{3}{12}=\dfrac{7}{12}$. Phương án C là phép cộng, phương án B trừ cả tử số lẫn mẫu số.
 
-::mc
+::mc TH
 Kết quả của $1-\dfrac{3}{8}$ là
 A. $\dfrac{5}{8}$.
 B. $\dfrac{4}{8}$.
@@ -386,7 +386,7 @@ D. $\dfrac{3}{8}$.
 ::key A
 $1=\dfrac{8}{8}$ nên $1-\dfrac{3}{8}=\dfrac{8}{8}-\dfrac{3}{8}=\dfrac{5}{8}$.
 
-::tf
+::tf TH TH TH TH
 Em xét tổng $\dfrac{3}{8}+\dfrac{1}{8}$.
 a) $\dfrac{3}{8}+\dfrac{1}{8}=\dfrac{4}{16}$.
 b) $\dfrac{3}{8}+\dfrac{1}{8}=\dfrac{4}{8}$.
@@ -395,12 +395,12 @@ d) Tổng này lớn hơn $1$.
 ::key S Đ Đ S
 a) Sai: giữ nguyên mẫu số, không cộng mẫu số. b) Đúng: $\dfrac{3+1}{8}$. c) Đúng: $\dfrac{4}{8}=\dfrac{1}{2}$. d) Sai: $\dfrac{1}{2}<1$.
 
-::sa
+::sa NB
 Tính $\dfrac{3}{4}+\dfrac{1}{4}$.
 ::key 1
 $\dfrac{3}{4}+\dfrac{1}{4}=\dfrac{4}{4}=1$.
 
-::sa
+::sa VD
 Một mảnh vườn có $\dfrac{1}{2}$ diện tích trồng rau và $\dfrac{1}{5}$ diện tích trồng hoa. Phần diện tích còn lại viết với mẫu số $10$ thì tử số là bao nhiêu?
 ::key 3
 $\dfrac{1}{2}+\dfrac{1}{5}=\dfrac{5}{10}+\dfrac{2}{10}=\dfrac{7}{10}$, nên phần còn lại là $1-\dfrac{7}{10}=\dfrac{3}{10}$.

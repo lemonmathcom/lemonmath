@@ -341,7 +341,7 @@ Vậy xác suất cần tìm là $\dfrac29$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Gieo một con xúc xắc cân đối. Xác suất để xuất hiện mặt có số chấm lẻ là
 A. $\dfrac13$.
 B. $\dfrac16$.
@@ -350,7 +350,7 @@ D. $\dfrac12$.
 ::key D
 Có $3$ kết quả thuận lợi $1, 3, 5$ trên $6$ kết quả. A quên số $1$ là số lẻ, B là xác suất của một mặt, C là số kết quả thuận lợi, không phải xác suất.
 
-::mc
+::mc TH
 Tung hai đồng xu cân đối. Xác suất để cả hai đồng xu đều xuất hiện mặt ngửa là
 A. $\dfrac13$.
 B. $\dfrac14$.
@@ -359,7 +359,7 @@ D. $\dfrac34$.
 ::key B
 Chỉ có $(N; N)$ trong $4$ kết quả. A dùng nhầm ba kết quả không đồng khả năng, C là xác suất một đồng xu ngửa, D là xác suất có ít nhất một mặt ngửa.
 
-::mc
+::mc VD
 Gieo hai con xúc xắc cân đối. Xác suất để tổng số chấm bằng $4$ là
 A. $\dfrac{1}{12}$.
 B. $\dfrac{1}{18}$.
@@ -368,7 +368,7 @@ D. $\dfrac{1}{9}$.
 ::key A
 $(1; 3), (2; 2), (3; 1)$: $\dfrac{3}{36}=\dfrac{1}{12}$. B quên thứ tự, C coi $11$ tổng từ $2$ đến $12$ là đồng khả năng, D đếm $(2; 2)$ hai lần.
 
-::mc
+::mc TH
 Một hộp có $3$ bi đỏ và $2$ bi xanh. Lấy ngẫu nhiên $1$ bi. Xác suất lấy được bi xanh là
 A. $\dfrac23$.
 B. $\dfrac35$.
@@ -377,7 +377,7 @@ D. $\dfrac12$.
 ::key C
 $k=2$, $n=5$. A lấy số bi xanh chia số bi đỏ, B là xác suất lấy được bi đỏ, D coi hai màu là hai kết quả đồng khả năng.
 
-::tf
+::tf TH TH VD TH
 Một hộp có bốn thẻ ghi số $1$, $2$, $3$, $4$. Rút ngẫu nhiên đồng thời hai thẻ. Xét tính đúng sai của các mệnh đề sau:
 a) Không gian mẫu có $6$ phần tử.
 b) Xác suất để tổng hai số là số chẵn bằng $\dfrac13$.
@@ -386,12 +386,12 @@ d) Xác suất để tổng hai số bằng $5$ bằng $\dfrac12$.
 ::key Đ Đ Đ S
 a) Đúng: $12, 13, 14, 23, 24, 34$. b) Đúng: $\{1; 3\}$, $\{2; 4\}$. c) Đúng: chỉ $\{1; 3\}$ có tích lẻ. d) Sai: $\{1; 4\}$, $\{2; 3\}$ cho $\dfrac26=\dfrac13$.
 
-::sa
+::sa VD
 Gieo hai con xúc xắc cân đối. Tính xác suất để hai con xúc xắc xuất hiện cùng số chấm (làm tròn kết quả đến hàng phần trăm).
 ::key 0,17
 Có $6$ kết quả $(i; i)$ trên $36$: $\dfrac16\approx0{,}17$.
 
-::sa
+::sa VD
 Chọn ngẫu nhiên đồng thời $2$ học sinh từ một nhóm gồm $2$ nam và $3$ nữ. Tính xác suất để chọn được $1$ nam và $1$ nữ (viết dưới dạng số thập phân).
 ::key 0,6
 Có $2\cdot3=6$ cặp nam–nữ trên $10$ cặp: $\dfrac{6}{10}=0{,}6$.

@@ -274,7 +274,7 @@ $\dfrac{50+x}{5}=x\iff50+x=5x\iff x=12{,}5$. Giá trị này nằm giữa $8$ v�
 :::
 
 :::quiz
-::mc
+::mc TH
 Trung vị của tập dữ liệu 3, 9, 4, 7, 12, 5 là
 A. $5$
 B. $6$
@@ -283,7 +283,7 @@ D. $6{,}7$
 ::key B
 Sắp xếp: 3, 4, 5, 7, 9, 12. Trung vị là $\dfrac{5+7}{2}=6$. Phương án D là số trung bình, khoảng $6{,}7$.
 
-::mc
+::mc NB
 Số trung bình của 4, 8, 10 và 14 là
 A. $8$
 B. $10$
@@ -292,7 +292,7 @@ D. $36$
 ::key C
 $\dfrac{36}{4}=9$. Phương án D là tổng.
 
-::mc
+::mc NB
 Một hộp có 3 quả bóng đỏ, 5 quả bóng trắng và 2 quả bóng đen. Chọn ngẫu nhiên một quả. Xác suất để quả bóng đó màu trắng là
 A. $\dfrac12$
 B. $\dfrac15$
@@ -301,7 +301,7 @@ D. $\dfrac{1}{10}$
 ::key A
 $\dfrac{5}{10}=\dfrac12$.
 
-::mc
+::mc TH
 Một mẫu ngẫu nhiên gồm 300 người trưởng thành ở một thành phố được hỏi có dùng phương tiện công cộng không. Trong số đó, 45% trả lời có. Kết luận nào được ủng hộ tốt nhất?
 A. Đúng 45% người trưởng thành trong cả nước dùng phương tiện công cộng.
 B. Phương tiện công cộng làm 45% người trưởng thành đi lại ít hơn.
@@ -310,7 +310,7 @@ D. Khoảng 45% người trưởng thành trong thành phố dùng phương ti�
 ::key D
 Mẫu ngẫu nhiên cho phép ước lượng tổng thể mà mẫu được chọn ra, tức người trưởng thành ở thành phố đó, và chỉ ở mức gần đúng.
 
-::tf
+::tf NB TH TH TH
 Dùng bảng hai chiều về câu lạc bộ trong bài.
 a) Có tổng cộng 80 học sinh.
 b) Xác suất để một học sinh chọn ngẫu nhiên thuộc CLB Toán là $\dfrac12$.
@@ -319,12 +319,12 @@ d) Xác suất để một thành viên CLB Toán chọn ngẫu nhiên học l�
 ::key Đ Đ Đ S
 a) Đúng. b) Đúng: $\dfrac{40}{80}$. c) Đúng: $\dfrac{12}{30}=0{,}4$. d) Sai: $\dfrac{18}{40}=0{,}45$.
 
-::sa
+::sa VD
 Số trung bình của 7 số là 10. Khi bỏ đi một số trong đó là 22, số trung bình của các số còn lại là bao nhiêu?
 ::key 8
 $\dfrac{70-22}{6}=\dfrac{48}{6}=8$.
 
-::sa
+::sa TH
 Dùng bảng hai chiều về câu lạc bộ. Chọn ngẫu nhiên một thành viên CLB Toán. Xác suất để học sinh đó học lớp 11 là bao nhiêu? Viết đáp số dưới dạng số thập phân.
 ::key 0,55
 $\dfrac{22}{40}=0{,}55$.

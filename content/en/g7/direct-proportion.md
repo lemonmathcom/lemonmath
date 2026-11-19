@@ -455,7 +455,7 @@ So the remaining $6$ workers need $40$ more days to finish the job.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Given that $y$ is in direct proportion to $x$ with constant $3$. When $x=5$, $y$ equals
 A. $8$.
 B. $\dfrac53$.
@@ -464,7 +464,7 @@ D. $2$.
 ::key C
 $y=3x$, so when $x=5$, $y=15$. A is $x+3$, B is $\dfrac x3$, and D is $x-3$.
 
-::mc
+::mc TH
 Two quantities $x$, $y$ are in inverse proportion. When $x=4$, $y=15$. The constant of proportionality is
 A. $\dfrac4{15}$.
 B. $19$.
@@ -473,7 +473,7 @@ D. $60$.
 ::key D
 $a=xy=4\cdot15=60$. B is the sum $4+15$, C is $\dfrac yx$ (used for direct proportion), and A is $\dfrac xy$.
 
-::mc
+::mc TH
 A quantity $y$ is in inverse proportion to $x$ with constant $24$. When $x=8$, $y$ equals
 A. $3$.
 B. $16$.
@@ -482,7 +482,7 @@ D. $192$.
 ::key A
 $y=\dfrac{24}8=3$. A is $24\cdot8$, B is $24-8$, and C is $\dfrac8{24}$.
 
-::mc
+::mc VD
 A team of $5$ people finishes a job in $12$ days. If the team had $10$ people (working at the same rate), the job would be finished in
 A. $24$ days.
 B. $6$ days.
@@ -491,7 +491,7 @@ D. $60$ days.
 ::key B
 The number of people and the number of days are in inverse proportion: $5\cdot12=10\cdot x$, so $x=6$. A is the result of using direct proportion, C is $12-5$, and D is $5\cdot12$.
 
-::tf
+::tf TH TH VD VD
 Here is a table of values of two quantities $x$ and $y$:
 
 | $x$ | $2$ | $4$ | $6$ |
@@ -506,12 +506,12 @@ d) When $y=2$, $x=10$.
 ::key T F T F
 a) True: $2\cdot12=4\cdot6=6\cdot4=24$. b) False: $y$ decreases as $x$ increases and the product is constant, so $y$ is in inverse proportion to $x$. c) True: $y=\dfrac{24}8=3$. d) False: $x=\dfrac{24}2=12$.
 
-::sa
+::sa VD
 Given that $y$ is in direct proportion to $x$ and $y=15$ when $x=6$, find $y$ when $x=10$.
 ::key 25
 $k=\dfrac{15}6=2.5$, so $y=2.5\cdot10=25$.
 
-::sa
+::sa VD
 Suppose $5$ pumps of equal power empty a pond in $6$ hours. How many hours would $4$ such pumps take to empty the pond? (give your answer as a decimal)
 ::key 7.5
 The number of pumps and the number of hours are in inverse proportion: $5\cdot6=4\cdot x$, so $x=\dfrac{30}4=7.5$.

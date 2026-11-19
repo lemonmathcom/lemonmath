@@ -268,7 +268,7 @@ Các đoạn thẳng: $AB$, $AC$, $AD$, $BC$, $BD$, $CD$. Có $3+2+1=6$ đoạn 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hình nào là nét thẳng có hai đầu và đo được độ dài?
 A. Đoạn thẳng.
 B. Đường thẳng.
@@ -277,7 +277,7 @@ D. Điểm.
 ::key A
 Đoạn thẳng có hai đầu nên đo được độ dài. Đường thẳng kéo dài mãi nên không có hai đầu, đường cong không thẳng, điểm chỉ là một chấm.
 
-::mc
+::mc NB
 Ba điểm thẳng hàng là ba điểm
 A. cùng nằm trên một đường thẳng.
 B. nối với nhau bằng đường cong.
@@ -286,7 +286,7 @@ D. không nằm trên đường thẳng nào.
 ::key A
 Ba điểm cùng nằm trên một đường thẳng là ba điểm thẳng hàng, không cần cách đều nhau.
 
-::mc
+::mc TH
 Trên một đường thẳng có ba điểm $A$, $B$, $C$. Nối từng cặp điểm, có bao nhiêu đoạn thẳng?
 A. $2$.
 B. $3$.
@@ -295,7 +295,7 @@ D. $6$.
 ::key B
 Có $AB$, $BC$, $AC$ nên có $3$ đoạn thẳng. Phương án A quên $AC$, D đếm mỗi đoạn hai lần ($AB$ và $BA$).
 
-::mc
+::mc TH
 Vật nào gợi ra đường cong?
 A. Mép thước kẻ.
 B. Vành miệng cốc tròn.
@@ -304,7 +304,7 @@ D. Sợi dây căng thẳng.
 ::key B
 Vành miệng cốc tròn uốn quanh nên là đường cong. Ba vật còn lại thẳng.
 
-::tf
+::tf TH NB NB TH
 Cho ba điểm $A$, $B$, $C$ thẳng hàng.
 a) Có thể vẽ một đường thẳng đi qua cả ba điểm.
 b) Đoạn thẳng $AB$ có hai đầu là $A$ và $B$.
@@ -313,12 +313,12 @@ d) Nối từng cặp điểm được ba đoạn thẳng $AB$, $BC$, $AC$.
 ::key Đ Đ S Đ
 a) Đúng: ba điểm thẳng hàng cùng nằm trên một đường thẳng. b) Đúng. c) Sai: đoạn thẳng thì thẳng. d) Đúng: có $3$ cặp điểm.
 
-::sa
+::sa VD
 Đoạn thẳng $AB$ dài $36$ cm, đoạn thẳng $CD$ dài $7$ cm. Đoạn $AB$ dài hơn đoạn $CD$ bao nhiêu xăng-ti-mét?
 ::key 29
 $16-7=9$ và $3-1=2$, nên $36-7=29$ (cm).
 
-::sa
+::sa VD
 Sợi dây thẳng dài $63$ cm, em cắt đi $8$ cm. Sợi dây còn lại dài bao nhiêu xăng-ti-mét?
 ::key 55
 $13-8=5$ và $6-1=5$, nên $63-8=55$ (cm).

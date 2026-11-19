@@ -460,7 +460,7 @@ Vậy $x=3$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Căn bậc hai số học của $49$ là
 A. $24{,}5$.
 B. $-7$.
@@ -469,7 +469,7 @@ D. $7$.
 ::key D
 Ta có $7\ge0$ và $7^2=49$ nên căn bậc hai số học của $49$ là $7$. Phương án C là các căn bậc hai của $49$, còn A lấy $49$ chia $2$.
 
-::mc
+::mc TH
 $\sqrt{(-8)^2}$ bằng
 A. $-8$.
 B. $8$.
@@ -478,7 +478,7 @@ D. $\pm8$.
 ::key B
 Ta có $\sqrt{(-8)^2}=|-8|=8$. Phương án A quên giá trị tuyệt đối, C quên khai căn.
 
-::mc
+::mc TH
 Căn thức $\sqrt{6-3x}$ xác định khi
 A. $x\le2$.
 B. $x\ge-2$.
@@ -487,7 +487,7 @@ D. $x\le-2$.
 ::key A
 Căn thức xác định khi $6-3x\ge0\iff -3x\ge-6\iff x\le2$ (chia hai vế cho $-3$ thì đổi chiều). Phương án C quên đổi chiều.
 
-::mc
+::mc TH
 $\sqrt{\left(\sqrt5-3\right)^2}$ bằng
 A. $\sqrt5-3$.
 B. $14-6\sqrt5$.
@@ -496,7 +496,7 @@ D. $3+\sqrt5$.
 ::key C
 Vì $\sqrt5<\sqrt9=3$ nên $\sqrt5-3<0$. Do đó $\sqrt{\left(\sqrt5-3\right)^2}=\left|\sqrt5-3\right|=3-\sqrt5$. Phương án A quên xét dấu, B bình phương thay vì khai căn.
 
-::tf
+::tf TH NB TH TH
 Cho biểu thức $A=\sqrt{2x+10}$. Xét tính đúng sai của các mệnh đề sau:
 a) $A$ xác định khi $x\ge-5$.
 b) Khi $x=3$ thì $A=4$.
@@ -505,12 +505,12 @@ d) $A=0$ khi $x=5$.
 ::key Đ Đ S S
 a) Đúng. $A$ xác định khi $2x+10\ge0\iff x\ge-5$. b) Đúng. Khi $x=3$ ta có $A=\sqrt{16}=4$. c) Sai. Khi $x=-3$ ta có $A=\sqrt4=2$ (căn bậc hai số học không âm). d) Sai. Ta có $A=0\iff 2x+10=0\iff x=-5$.
 
-::sa
+::sa TH
 Tính $\sqrt{0{,}81}+\sqrt{(-1{,}2)^2}$.
 ::key 2,1
 Ta có $\sqrt{0{,}81}=0{,}9$ và $\sqrt{(-1{,}2)^2}=|-1{,}2|=1{,}2$. Do đó tổng bằng $0{,}9+1{,}2=2{,}1$.
 
-::sa
+::sa TH
 Thời gian $t$ (giây) để một vật rơi tự do từ độ cao $h$ mét chạm đất được tính bởi công thức $t=\sqrt{\dfrac{h}{5}}$. Một vật rơi tự do từ độ cao $61{,}25$ m. Hỏi sau bao nhiêu giây vật chạm đất?
 ::key 3,5
 Thay $h=61{,}25$ vào công thức, ta được $t=\sqrt{\dfrac{61{,}25}{5}}=\sqrt{12{,}25}=3{,}5$ (giây).

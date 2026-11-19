@@ -313,7 +313,7 @@ We have $10+5=15$, so Mai can pay exactly $15\,000$ dong with the $10\,000$ dong
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The $20\,000$ dong banknote is said
 A. two thousand dong.
 B. two hundred dong.
@@ -322,7 +322,7 @@ D. twenty thousand dong.
 ::key D
 $20\,000$ is 20 thousand, so it is said twenty thousand dong. Option A leaves out a zero.
 
-::mc
+::mc TH
 $2\,000$ dong $+\ 5\,000$ dong equals
 A. $7\,000$ dong.
 B. $7$ dong.
@@ -331,7 +331,7 @@ D. $3\,000$ dong.
 ::key A
 $2+5=7$ thousand dong, which is $7\,000$ dong. Option D is a subtraction.
 
-::mc
+::mc VD
 Mai buys an exercise book that costs $6\,000$ dong and gives a $10\,000$ dong note. The shopkeeper gives back
 A. $16\,000$ dong.
 B. $4\,000$ dong.
@@ -340,7 +340,7 @@ D. $6\,000$ dong.
 ::key B
 $10-6=4$ thousand dong, which is $4\,000$ dong. Option A is an addition by mistake.
 
-::mc
+::mc TH
 How many $5\,000$ dong notes can you change one $10\,000$ dong note for?
 A. 10 notes.
 B. 5 notes.
@@ -349,7 +349,7 @@ D. 15 notes.
 ::key C
 $5\,000+5\,000=10\,000$, so you get 2 notes. Option B is the number of $2\,000$ dong notes.
 
-::tf
+::tf TH TH NB TH
 Nam has two $5\,000$ dong notes and one $2\,000$ dong note.
 a) Nam has $12\,000$ dong.
 b) One $10\,000$ dong note can be changed for 3 notes of $5\,000$ dong.
@@ -358,12 +358,12 @@ d) Nam can pay exactly $7\,000$ dong with one $5\,000$ dong note and one $2\,000
 ::key T F T T
 a) True: $5+5+2=12$ thousand. b) False: $10\,000$ can be changed for 2 notes of $5\,000$ dong. c) True: $5+5=10$. d) True: $5+2=7$ thousand.
 
-::sa
+::sa VD
 Nam has 8 thousand dong and his mum gives him 5 thousand dong more. How many thousand dong does Nam have altogether?
 ::key 13
 $8+5=13$ (thousand dong).
 
-::sa
+::sa VD
 How many $5\,000$ dong notes can you change one $20\,000$ dong note for?
 ::key 4
 $5+5+5+5=20$, so you get 4 notes.

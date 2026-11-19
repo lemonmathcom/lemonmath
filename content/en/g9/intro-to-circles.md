@@ -294,7 +294,7 @@ So the greatest value of $MA$ is $8$ cm ($A$ at $A_2$) and the least is $2$ cm (
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Consider the circle $(O, 6\text{ cm})$ and a point $M$ with $OM=5$ cm. Which of the following statements is true?
 A. $M$ lies outside the circle.
 B. $M$ lies on the circle.
@@ -303,7 +303,7 @@ D. $M$ is the centre of the circle.
 ::key C
 $OM=5<6=R$. Option A compares the wrong way round.
 
-::mc
+::mc NB
 The diameter of a circle with radius $3.5$ cm is
 A. $3.5$ cm.
 B. $7$ cm.
@@ -312,7 +312,7 @@ D. $12.25$ cm.
 ::key B
 $d=2R=7$ cm. C halves instead of doubling, and D squares the radius.
 
-::mc
+::mc NB
 How many lines of symmetry does a circle have?
 A. $1$.
 B. $2$.
@@ -321,7 +321,7 @@ D. Infinitely many.
 ::key D
 Every line through the centre is a line of symmetry.
 
-::mc
+::mc VD
 The radius of the circle through the four vertices of a rectangle with sides $5$ cm and $12$ cm is
 A. $13$ cm.
 B. $6$ cm.
@@ -330,7 +330,7 @@ D. $6.5$ cm.
 ::key D
 The radius is half the diagonal $\sqrt{5^2+12^2}=13$. A forgets to halve, and C takes half the sum of the sides.
 
-::tf
+::tf NB NB TH TH
 Consider the circle $(O, 5\text{ cm})$, a point $A$ with $OA=5$ cm, a point $B$ with $OB=4$ cm and the point $C$, the reflection of $A$ in $O$. Decide whether each statement is true or false.
 a) The point $A$ lies on the circle.
 b) The point $B$ lies outside the circle.
@@ -339,12 +339,12 @@ d) The point $C$ lies on the circle.
 ::key T F T T
 a) True: $OA=R$. b) False: $OB<5$. c) True: $AC=2R$. d) True: $OC=OA$.
 
-::sa
+::sa VD
 Find the radius (in cm) of the circle through the four vertices of a square with side $6$ cm (give your answer to 1 decimal place).
 ::key 4.2
 The radius is half the diagonal: $\dfrac{6\sqrt2}{2}=3\sqrt2\approx4.2$ cm.
 
-::sa
+::sa VD
 Consider the circle $(O, 10\text{ cm})$ and a point $M$ with $OM=6$ cm. The line through $M$ perpendicular to $OM$ cuts the circle at $A$ and $B$. Find $AB$ (in cm).
 ::key 16
 $MA=\sqrt{10^2-6^2}=8$ cm and $MB=MA$ (symmetry in $OM$), so $AB=16$ cm.

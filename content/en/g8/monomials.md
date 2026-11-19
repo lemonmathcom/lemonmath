@@ -401,7 +401,7 @@ When $x=2$, $y=-1$: $M=-2\cdot4\cdot1=-8$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of these expressions is a monomial?
 A. $x+3$.
 B. $\dfrac{2}{x}$.
@@ -410,7 +410,7 @@ D. $x^2-y$.
 ::key C
 $-4xy^2$ is a product of the number $-4$ and variables. A and D contain an addition or a subtraction; B has a variable in the denominator.
 
-::mc
+::mc NB
 The degree of the monomial $-3x^2y^4$ is
 A. $8$.
 B. $6$.
@@ -419,7 +419,7 @@ D. $-3$.
 ::key B
 The degree is the sum of the exponents: $2+4=6$. Option A multiplies the exponents, C takes only the greatest exponent, D takes the coefficient.
 
-::mc
+::mc TH
 The result of $5x^2y+3x^2y-x^2y$ is
 A. $8x^2y$.
 B. $9x^2y$.
@@ -428,7 +428,7 @@ D. $7x^4y^2$.
 ::key C
 Add the coefficients: $5+3-1=7$, and keep the variable part. Option A leaves out the subtraction, B treats $-x^2y$ as $+x^2y$, D adds the exponents too.
 
-::mc
+::mc TH
 The result of $(-2x^2y)\cdot(4xy^3)$ is
 A. $-8x^3y^4$.
 B. $-8x^2y^3$.
@@ -437,7 +437,7 @@ D. $-8x^3y^3$.
 ::key A
 Coefficient: $-2\cdot4=-8$. Exponents: $x$ has $2+1=3$, $y$ has $1+3=4$. Option C adds the coefficients, B and D get the exponents wrong.
 
-::tf
+::tf NB NB NB TH
 Let $A=-\dfrac32x^2y^3$.
 a) The coefficient of $A$ is $-\dfrac32$.
 b) The variable part of $A$ is $x^2y^3$.
@@ -446,12 +446,12 @@ d) $A$ is like the monomial $4y^3x^2$.
 ::key T T F T
 a) True: the number in front is $-\dfrac32$. b) True. c) False: the degree is $2+3=5$. d) True: $4y^3x^2=4x^2y^3$ has the same variable part as $A$.
 
-::sa
+::sa TH
 Simplify $2x^3y\cdot(-5xy^2)$. What is the degree of the resulting monomial?
 ::key 7
 $2x^3y\cdot(-5xy^2)=-10x^4y^3$, of degree $4+3=7$.
 
-::sa
+::sa TH
 Find the value of the monomial $-2x^2y$ when $x=3$, $y=-1$.
 ::key 18
 $-2\cdot3^2\cdot(-1)=-2\cdot9\cdot(-1)=18$.

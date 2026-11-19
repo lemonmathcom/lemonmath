@@ -357,7 +357,7 @@ b) Squaring: $x^2-3x=2x-4\iff x^2-5x+4=0\iff x=1$ or $x=4$. Only $x=4$ satisfies
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The solution set of $\sqrt{3x-2}=\sqrt{x+4}$ is
 A. $S=\{3\}$.
 B. $S=\{-3\}$.
@@ -366,7 +366,7 @@ D. $S=\varnothing$.
 ::key A
 Squaring: $3x-2=x+4\iff 2x=6\iff x=3$. Check: $x+4=7\ge0$ and both sides equal $\sqrt7$. Option B comes from a sign error when moving terms.
 
-::mc
+::mc VD
 The solution set of $\sqrt{x+1}=x-1$ is
 A. $S=\{0, 3\}$.
 B. $S=\{3\}$.
@@ -375,7 +375,7 @@ D. $S=\{2\}$.
 ::key B
 We need $x\ge1$. Squaring: $x+1=x^2-2x+1\iff x^2-3x=0\iff x=0$ or $x=3$; only $x=3$ meets the condition. Option A forgets to check; D comes from writing $(x-1)^2=x^2-1$.
 
-::mc
+::mc TH
 When $\sqrt{2x+3}=x$ is solved by squaring both sides, which value is an extraneous solution?
 A. $x=3$.
 B. $x=-1$.
@@ -384,7 +384,7 @@ D. $x=1$.
 ::key B
 Squaring: $x^2-2x-3=0\iff x=3$ or $x=-1$. For $x=-1$ the left side is $\sqrt1=1$ and the right side is $-1$, so $x=-1$ is extraneous.
 
-::mc
+::mc VD
 The sum of the solutions of $\sqrt{x^2+2x+4}=\sqrt{2x+13}$ is
 A. $0$.
 B. $3$.
@@ -393,7 +393,7 @@ D. $6$.
 ::key A
 Squaring: $x^2+2x+4=2x+13\iff x^2=9\iff x=\pm3$. Both satisfy $2x+13\ge0$ (giving $19$ and $7$), so the sum is $0$. Option B wrongly rejects $x=-3$ just because it is negative.
 
-::tf
+::tf NB TH TH VD
 Consider the equation $\sqrt{x+10}=x-2$.
 a) The condition for the right-hand side to be non-negative is $x\ge2$.
 b) Squaring both sides gives $x^2-3x-6=0$.
@@ -402,12 +402,12 @@ d) The equation has exactly one solution, and it is greater than $5$.
 ::key T F F T
 a) True. b) False: $x+10=x^2-4x+4\iff x^2-5x-6=0$. c) False: for $x=-1$ the left side is $3$ and the right side is $-3$. d) True: $x^2-5x-6=0$ gives $x=6$ or $x=-1$, and only $x=6$ is kept.
 
-::sa
+::sa VD
 Solve $\sqrt{2x+7}=x+2$.
 ::key 1
 We need $x\ge-2$. Squaring: $2x+7=x^2+4x+4\iff x^2+2x-3=0\iff x=1$ or $x=-3$. Only $x=1$ meets the condition; check: $\sqrt9=3=1+2$.
 
-::sa
+::sa VD
 A boat is pulled towards the bank by a rope tied to a point $5$ m above the water. When the boat is $x$ m from the foot of the bank, the rope from the boat to that point is exactly $1$ m longer than $x$. Find $x$.
 ::key 12
 The rope is the hypotenuse: $\sqrt{x^2+25}=x+1$ with $x>0$. Squaring: $x^2+25=x^2+2x+1\iff 2x=24\iff x=12$. Check: $\sqrt{169}=13=12+1$.

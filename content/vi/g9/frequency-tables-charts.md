@@ -374,7 +374,7 @@ Vậy các giá trị $1, 2, 3$ có tần số lần lượt là $4, 3, 8$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho mẫu dữ liệu $3, 5, 4, 5, 2, 5, 4, 3, 5, 1$. Tần số của giá trị $5$ là
 A. $5$.
 B. $10$.
@@ -383,7 +383,7 @@ D. $2$.
 ::key C
 Giá trị $5$ xuất hiện $4$ lần. A nhầm giá trị với tần số, B là cỡ mẫu, D là tần số của giá trị $3$ (hoặc $4$).
 
-::mc
+::mc TH
 Một mẫu dữ liệu có bảng tần số: giá trị $1, 2, 3, 4$ với tần số lần lượt $6, 9, 4, 1$. Cỡ mẫu là
 A. $20$.
 B. $10$.
@@ -392,7 +392,7 @@ D. $9$.
 ::key A
 $n=6+9+4+1=20$. B cộng các giá trị, C là số giá trị khác nhau, D là tần số lớn nhất.
 
-::mc
+::mc NB
 Trong biểu đồ tần số dạng cột, chiều cao mỗi cột biểu diễn
 A. giá trị của dữ liệu.
 B. cỡ mẫu.
@@ -401,7 +401,7 @@ D. tần số của giá trị ứng với cột.
 ::key D
 Chiều cao cột bằng tần số của giá trị ứng với cột. Giá trị được ghi ở chân cột (A), cỡ mẫu là tổng chiều cao các cột (B), số giá trị khác nhau là số cột (C).
 
-::mc
+::mc TH
 Số bàn thắng trong các trận đấu có bảng tần số: giá trị $0, 1, 2, 3$ với tần số lần lượt $4, 7, 6, 3$. Số trận có ít nhất 2 bàn thắng là
 A. $6$.
 B. $9$.
@@ -410,7 +410,7 @@ D. $3$.
 ::key B
 $6+3=9$. A chỉ đếm các trận đúng 2 bàn, D chỉ đếm các trận 3 bàn, C đếm các trận có ít nhất 1 bàn.
 
-::tf
+::tf TH TH TH VD
 Số giờ tự học mỗi ngày của một nhóm học sinh có các giá trị $1, 2, 3, 4$ với tần số lần lượt $5, 8, 4, 3$. Xét tính đúng sai của các mệnh đề sau:
 a) Cỡ mẫu là $20$.
 b) Giá trị có tần số lớn nhất là $8$.
@@ -419,12 +419,12 @@ d) Tổng số giờ tự học của cả nhóm là $45$ giờ.
 ::key Đ S Đ Đ
 a) Đúng. b) Sai: $8$ là tần số, giá trị là $2$. c) Đúng: $4+3=7$. d) Đúng: $5+16+12+12=45$.
 
-::sa
+::sa TH
 Một mẫu dữ liệu cỡ $20$ có bảng tần số: giá trị $5, 6, 7, 8$ với tần số lần lượt $3, x, 7, 4$. Tìm $x$.
 ::key 6
 $x=20-(3+7+4)=6$.
 
-::sa
+::sa VD
 Số bàn thắng trong các trận đấu có bảng tần số: giá trị $0, 1, 2, 3$ với tần số lần lượt $4, 7, 6, 3$. Tính tổng số bàn thắng của tất cả các trận.
 ::key 28
 $0\cdot4+1\cdot7+2\cdot6+3\cdot3=0+7+12+9=28$.

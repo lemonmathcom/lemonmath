@@ -455,7 +455,7 @@ $$f(-x)=\log_2\frac{1}{x+\sqrt{x^2+1}}=-\log_2\left(x+\sqrt{x^2+1}\right)=-f(x).
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The domain of the function $y=\log_{1/2}(2x-4)$ is
 A. $[2, +\infty)$.
 B. $(-\infty, 2)$.
@@ -464,7 +464,7 @@ D. $(2, +\infty)$.
 ::key D
 We need $2x-4>0$, that is $x>2$. Option A includes the endpoint $2$, B reverses the inequality, and C forgets the shift caused by $2x-4$.
 
-::mc
+::mc TH
 Which of the following functions is decreasing on $\mathbb{R}$?
 A. $y=\left(\dfrac{\sqrt2}{2}\right)^x$.
 B. $y=\left(\dfrac{\pi}{3}\right)^x$.
@@ -473,7 +473,7 @@ D. $y=e^x$.
 ::key A
 The base $\dfrac{\sqrt2}{2}\approx0.71<1$, so the function is decreasing on $\mathbb{R}$. Option B has base $\dfrac\pi3>1$, D has base $e>1$, and C is defined only on $(0, +\infty)$.
 
-::mc
+::mc TH
 Which statement is true?
 A. $2^{\sqrt3}<2^{1.7}$.
 B. $\log_{1/2}3>\log_{1/2}5$.
@@ -482,7 +482,7 @@ D. $0.9^{0.5}>0.9^{0.4}$.
 ::key B
 The base $\dfrac12<1$, so the function is decreasing, and $3<5$ gives $\log_{1/2}3>\log_{1/2}5$. B is false because $\sqrt3\approx1.73>1.7$; C is false because $2<3$; D is false because the base $0.9<1$ and $0.5>0.4$.
 
-::mc
+::mc TH
 The horizontal asymptote of the graph of $y=3^x-5$ is
 A. $y=5$.
 B. $x=-5$.
@@ -491,7 +491,7 @@ D. $x=0$.
 ::key C
 $3^x>0$ and gets close to $0$ when $x$ is very negative, so $y$ gets close to $-5$ from above. Option A has the wrong sign, and B and D are vertical lines.
 
-::tf
+::tf TH NB NB TH
 Let $f(x)=\log_2(x-1)$. Decide whether each statement is true or false:
 a) The domain of $f$ is $(0, +\infty)$.
 b) $f(3)=1$.
@@ -500,12 +500,12 @@ d) The graph of $f$ has the vertical asymptote $x=1$.
 ::key F T F T
 a) False: we need $x-1>0$, that is $x>1$. b) True: $\log_22=1$. c) False: the base $2>1$, so the function is increasing. d) True: $x-1=0$ when $x=1$, so the graph gets close to the line $x=1$.
 
-::sa
+::sa VD
 Suppose the mass of a radioactive substance after $t$ days is $m(t)=80\cdot\left(\dfrac12\right)^{t/6}$ grams. After how many days will $10$ g remain?
 ::key 18
 We need $\left(\dfrac12\right)^{t/6}=\dfrac18=\left(\dfrac12\right)^3$, so $\dfrac t6=3$ and $t=18$ (days).
 
-::sa
+::sa VD
 Suppose the value of a machine falls by $10\%$ each year. After at least how many whole years is its value below $10\%$ of the original?
 ::key 22
 We need $0.9^n<0.1$, that is $n>\dfrac{\ln0.1}{\ln0.9}\approx21.9$, so $n=22$. Check: $0.9^{21}\approx0.109>0.1$ and $0.9^{22}\approx0.098<0.1$.

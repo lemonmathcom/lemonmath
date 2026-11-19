@@ -305,7 +305,7 @@ Vậy hệ có vô số nghiệm khi $k=1$.
 :::
 
 :::quiz
-::mc
+::mc TH
 Hệ số góc của đường thẳng đi qua $(1,2)$ và $(4,11)$ là
 A. $\dfrac13$
 B. $3$
@@ -314,7 +314,7 @@ D. $-3$
 ::key B
 $\dfrac{11-2}{4-1}=\dfrac93=3$.
 
-::mc
+::mc NB
 Nếu $f(x)=3x^2-x$ thì $f(-2)$ bằng
 A. $10$
 B. $-14$
@@ -323,7 +323,7 @@ D. $38$
 ::key C
 $3(4)-(-2)=12+2=14$.
 
-::mc
+::mc TH
 Nghiệm của phương trình $3(x-2)=2x+5$ là
 A. $11$
 B. $3$
@@ -332,7 +332,7 @@ D. $-1$
 ::key A
 $3x-6=2x+5$, nên $x=11$.
 
-::mc
+::mc NB
 Biểu thức nào tương đương với $(x+3)(x-3)$?
 A. $x^2+9$
 B. $x^2-6x-9$
@@ -341,7 +341,7 @@ D. $x^2-9$
 ::key D
 Hằng đẳng thức hiệu hai bình phương.
 
-::tf
+::tf TH TH NB TH
 Cho $f(x)=x^2-4x+3$. Xét tính đúng sai của các mệnh đề sau:
 a) Các nghiệm của $f$ là $1$ và $3$.
 b) Đỉnh của đồ thị là $(2,-1)$.
@@ -350,12 +350,12 @@ d) Giá trị nhỏ nhất của $f$ là $-2$.
 ::key T T T F
 $f(x)=(x-1)(x-3)$; đỉnh nằm tại $x=2$ với $f(2)=-1$, nên giá trị nhỏ nhất là $-1$.
 
-::sa
+::sa TH
 Giải phương trình $2^{x+1}=16$.
 ::key 3
 $16=2^4$, nên $x+1=4$.
 
-::sa
+::sa VD
 Tìm nghiệm lớn hơn của phương trình $|x-4|=6$.
 ::key 10
 $x-4=6$ hoặc $x-4=-6$, nên $x=10$ hoặc $x=-2$.

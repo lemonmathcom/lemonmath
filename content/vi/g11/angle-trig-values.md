@@ -442,7 +442,7 @@ Chứng minh rằng $\sin^6\alpha+\cos^6\alpha+3\sin^2\alpha\cos^2\alpha=1$ vớ
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số đo $135^\circ$ đổi sang radian bằng
 A. $\dfrac{3\pi}4$.
 B. $\dfrac{5\pi}6$.
@@ -451,7 +451,7 @@ D. $\dfrac{2\pi}3$.
 ::key A
 $135\cdot\dfrac\pi{180}=\dfrac{3\pi}4$. Phương án D ứng với $120^\circ$, B ứng với $150^\circ$, C ứng với $270^\circ$.
 
-::mc
+::mc TH
 Giá trị của $\cos\dfrac{2\pi}3$ bằng
 A. $\dfrac12$.
 B. $-\dfrac12$.
@@ -460,7 +460,7 @@ D. $-\dfrac{\sqrt3}2$.
 ::key B
 $\cos\dfrac{2\pi}3=\cos\left(\pi-\dfrac\pi3\right)=-\cos\dfrac\pi3=-\dfrac12$. Phương án A quên đổi dấu, C và D nhầm với $\cos\dfrac\pi6$.
 
-::mc
+::mc VD
 Cho $\tan\alpha=2$. Giá trị của $\dfrac{\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alpha}$ bằng
 A. $-3$.
 B. $\dfrac13$.
@@ -469,7 +469,7 @@ D. $1$.
 ::key C
 Chia tử và mẫu cho $\cos\alpha$: $\dfrac{\tan\alpha+1}{\tan\alpha-1}=\dfrac{3}{1}=3$. Phương án B là đảo ngược tử và mẫu.
 
-::mc
+::mc TH
 Trên đường tròn bán kính $5$ cm, cung chắn góc ở tâm $\dfrac{2\pi}5$ (radian) có độ dài bằng
 A. $\dfrac{2\pi}{25}$ cm.
 B. $360$ cm.
@@ -478,7 +478,7 @@ D. $2\pi$ cm.
 ::key D
 $l=R\alpha=5\cdot\dfrac{2\pi}5=2\pi$. Phương án A chia $\alpha$ cho $R$, B dùng độ thay cho radian.
 
-::tf
+::tf TH TH NB TH
 Cho góc $\alpha$ thoả mãn $\dfrac\pi2<\alpha<\pi$ và $\sin\alpha=\dfrac35$. Xét tính đúng sai của các mệnh đề sau:
 a) $\cos\alpha=\dfrac45$.
 b) $\tan\alpha=\dfrac34$.
@@ -487,12 +487,12 @@ d) $\cos(-\alpha)=\dfrac45$.
 ::key S S S S
 Vì $\alpha$ ở góc phần tư thứ II nên $\cos\alpha=-\dfrac45$. a) Sai: $\cos\alpha=-\dfrac45$. b) Sai: $\tan\alpha=-\dfrac34$. c) Sai: $\sin(\pi-\alpha)=\sin\alpha=\dfrac35$. d) Sai: $\cos(-\alpha)=\cos\alpha=-\dfrac45$.
 
-::sa
+::sa TH
 Một vòng đu quay có bán kính $10$ m, tâm cách mặt đất $12$ m. Độ cao của cabin so với mặt đất là $h=12-10\cos\theta$ (m), $\theta$ là góc quay từ điểm thấp nhất. Tính độ cao của cabin khi $\theta=\dfrac{4\pi}3$ (đơn vị mét).
 ::key 17
 $\cos\dfrac{4\pi}3=-\dfrac12$ nên $h=12+5=17$.
 
-::sa
+::sa VD
 Cho $\tan\alpha=2$. Tính $\dfrac{3\sin\alpha-\cos\alpha}{\sin\alpha+2\cos\alpha}$ (làm tròn đến hàng phần trăm nếu cần).
 ::key 1,25
 Chia tử và mẫu cho $\cos\alpha$: $\dfrac{3\tan\alpha-1}{\tan\alpha+2}=\dfrac54=1{,}25$.

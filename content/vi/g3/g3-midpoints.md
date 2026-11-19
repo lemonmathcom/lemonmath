@@ -313,7 +313,7 @@ $AM=16:2=8$ (cm). $N$ là trung điểm của $AM$ nên $AN=NM=8:2=4$ (cm). $M$ 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $M$ là trung điểm của đoạn thẳng $AB=14$ cm. Độ dài $AM$ là
 A. $28$ cm.
 B. $7$ cm.
@@ -322,7 +322,7 @@ D. $12$ cm.
 ::key B
 $AM=14:2=7$ cm. Phương án A là lỗi nhân $14\times2$, phương án C là lỗi quên chia đôi.
 
-::mc
+::mc TH
 $M$ là trung điểm của đoạn thẳng $CD$ và $MC=6$ cm. Độ dài $CD$ là
 A. $3$ cm.
 B. $6$ cm.
@@ -331,7 +331,7 @@ D. $36$ cm.
 ::key C
 $CD=6\times2=12$ cm. Phương án A là lỗi chia đôi thay vì nhân đôi.
 
-::mc
+::mc NB
 Trên một đường thẳng có bốn điểm $E$, $F$, $G$, $H$ theo thứ tự từ trái sang phải. Những điểm nào nằm giữa $E$ và $H$?
 A. Chỉ $F$.
 B. $F$ và $G$.
@@ -340,7 +340,7 @@ D. Không có điểm nào.
 ::key B
 Đi từ $E$ đến $H$ ta qua $F$ rồi $G$. Phương án A bỏ sót $G$.
 
-::mc
+::mc NB
 Điểm $M$ là trung điểm của đoạn thẳng $AB$ khi
 A. $M$ nằm giữa $A$ và $B$.
 B. $MA=MB$.
@@ -349,7 +349,7 @@ D. $AB=2$ cm.
 ::key C
 Cần cả hai điều kiện: nằm giữa và cách đều hai đầu. Phương án A và B mỗi cái chỉ có một điều kiện.
 
-::tf
+::tf NB TH TH TH
 $M$ là trung điểm của đoạn thẳng $AB=18$ cm.
 a) $AM=MB$.
 b) $AM=9$ cm.
@@ -358,12 +358,12 @@ d) $MB=18$ cm.
 ::key Đ Đ Đ S
 a) Đúng: $M$ là trung điểm. b) Đúng: $18:2=9$. c) Đúng: $2\times9=18$. d) Sai: $MB=9$ cm.
 
-::sa
+::sa TH
 $M$ là trung điểm của đoạn thẳng $AB=26$ cm. Tính $AM$ (đơn vị: cm).
 ::key 13
 $AM=26:2=13$ (cm).
 
-::sa
+::sa TH
 Trường học là trung điểm của đoạn đường từ nhà An đến nhà Bình, dài $18$ km. Hỏi từ nhà An đến trường dài bao nhiêu ki-lô-mét?
 ::key 9
 $18:2=9$ (km).

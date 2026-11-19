@@ -278,7 +278,7 @@ Since $12>9$, the order is preserved. So $x=12$.
 :::
 
 :::quiz
-::mc
+::mc NB
 Which variable is categorical?
 A. Height in centimetres
 B. Favourite sport
@@ -287,7 +287,7 @@ D. Time to run $100$ m
 ::key B
 A favourite sport places each person in a group.
 
-::mc
+::mc NB
 Which pair of measures is resistant to outliers?
 A. Mean and standard deviation
 B. Mean and IQR
@@ -296,7 +296,7 @@ D. Median and IQR
 ::key D
 Both are based on the middle of the ordered data.
 
-::mc
+::mc TH
 For a distribution that is strongly skewed left, typically
 A. the mean is less than the median
 B. the mean equals the median
@@ -305,7 +305,7 @@ D. the median is $0$
 ::key A
 The long left tail pulls the mean down.
 
-::mc
+::mc TH
 A value has z-score $-1$. This means the value is
 A. $1$ unit below the mean
 B. at the $1$st percentile
@@ -314,7 +314,7 @@ D. less than the minimum
 ::key C
 The z-score counts standard deviations from the mean.
 
-::tf
+::tf TH NB TH VD
 Consider the data $2,\ 4,\ 6,\ 8,\ 10$. Decide whether each statement is true or false.
 a) The mean is $6$.
 b) The median is $6$.
@@ -323,12 +323,12 @@ d) The IQR is $4$.
 ::key T T T F
 $Q_1=3$ and $Q_3=9$, so the IQR is $6$.
 
-::sa
+::sa TH
 Find the median of $3,\ 9,\ 4,\ 7,\ 10$.
 ::key 7
 In order: $3,4,7,9,10$.
 
-::sa
+::sa TH
 A test has mean $50$ and standard deviation $6$. Find the z-score of a score of $65$.
 ::key 2.5
 $\dfrac{65-50}{6}=2.5$.

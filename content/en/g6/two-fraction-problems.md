@@ -447,7 +447,7 @@ So the tank held $300$ litres at the start.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $\dfrac{3}{5}$ of $40$ is
 A. $24$.
 B. $\dfrac{200}{3}$.
@@ -456,7 +456,7 @@ D. $8$.
 ::key A
 $40\cdot\dfrac35=24$. B divides instead of multiplying; C only multiplies by $3$; D only divides by $5$.
 
-::mc
+::mc TH
 $\dfrac{2}{3}$ of a number is $12$. The number is
 A. $8$.
 B. $18$.
@@ -465,7 +465,7 @@ D. $24$.
 ::key B
 $12:\dfrac23=12\cdot\dfrac32=18$. A multiplies instead of dividing; C only multiplies by $3$; D only multiplies by $2$.
 
-::mc
+::mc VD
 A class has $32$ students, and girls make up $\dfrac38$ of the class. The number of boys is
 A. $12$.
 B. $8$.
@@ -474,7 +474,7 @@ D. $24$.
 ::key C
 There are $32\cdot\dfrac38=12$ girls, so $32-12=20$ boys. A is the number of girls; B is only $\dfrac14$ of $32$; D takes $\dfrac34$ of $32$.
 
-::mc
+::mc VD
 After $\dfrac15$ is taken off the marked price, an item costs $400$ thousand dong. The marked price of the item is
 A. $480$ thousand dong.
 B. $320$ thousand dong.
@@ -483,7 +483,7 @@ D. $500$ thousand dong.
 ::key D
 $400$ is $\dfrac45$ of the marked price, so the marked price is $400:\dfrac45=500$. A works out $400+80$; B multiplies by $\dfrac45$; C divides by $\dfrac15$.
 
-::tf
+::tf TH VD VD VD
 A book has $150$ pages. On the first day, An reads $\dfrac25$ of the book. On the second day, An reads $\dfrac13$ of the remaining pages. Decide whether each statement is true or false.
 a) On the first day An reads $60$ pages.
 b) On the second day An reads $50$ pages.
@@ -492,12 +492,12 @@ d) The pages An reads on the second day make up $\dfrac13$ of the whole book.
 ::key T F F F
 a) True: $150\cdot\dfrac25=60$. b) False: $90$ pages are left, so on the second day An reads $90\cdot\dfrac13=30$ pages. c) False: $150-60-30=60$ pages are left. d) False: $30$ pages are only $\dfrac15$ of the book.
 
-::sa
+::sa TH
 Work out $\dfrac{5}{6}$ of $48$.
 ::key 40
 $48\cdot\dfrac56=8\cdot5=40$.
 
-::sa
+::sa TH
 $\dfrac{3}{4}$ of a journey is $60$ km. How many kilometres long is the whole journey?
 ::key 80
 $60:\dfrac34=60\cdot\dfrac43=80$ (km).

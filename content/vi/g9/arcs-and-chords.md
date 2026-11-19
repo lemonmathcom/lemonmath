@@ -328,7 +328,7 @@ Vậy khoảng cách giữa hai dây là $2$ cm hoặc $14$ cm.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Góc ở tâm $\widehat{AOB}=50^\circ$. Số đo cung lớn $AB$ là
 A. $310^\circ$.
 B. $130^\circ$.
@@ -337,7 +337,7 @@ D. $260^\circ$.
 ::key A
 Cung lớn có số đo $360^\circ-50^\circ=310^\circ$. B lấy $180^\circ-50^\circ$, C là số đo cung nhỏ, D lấy $360^\circ-2\cdot50^\circ$.
 
-::mc
+::mc NB
 Dây dài nhất của đường tròn $(O; 6\text{ cm})$ dài
 A. $6$ cm.
 B. $3$ cm.
@@ -346,7 +346,7 @@ D. $12$ cm.
 ::key D
 Dây lớn nhất là đường kính, dài $2R=12$ cm. A nhầm với bán kính, C lấy $R^2$.
 
-::mc
+::mc VD
 Dây $AB$ của đường tròn $(O; 10\text{ cm})$ cách tâm $8$ cm. Độ dài $AB$ là
 A. $4$ cm.
 B. $6$ cm.
@@ -355,7 +355,7 @@ D. $4\sqrt{41}$ cm.
 ::key C
 $AB=2\sqrt{10^2-8^2}=12$ cm. B quên nhân đôi, A lấy $2(10-8)$, D cộng thay vì trừ dưới dấu căn.
 
-::mc
+::mc TH
 Trong $25$ phút, kim phút của đồng hồ quay được một góc
 A. $125^\circ$.
 B. $150^\circ$.
@@ -364,7 +364,7 @@ D. $300^\circ$.
 ::key B
 Mỗi phút kim phút quay $6^\circ$, nên $25\cdot6^\circ=150^\circ$. A nhầm mỗi phút $5^\circ$.
 
-::tf
+::tf TH TH VD TH
 Cho đường tròn $(O; 5\text{ cm})$ và dây $AB=8$ cm, $H$ là trung điểm của $AB$. Xét tính đúng sai của các mệnh đề sau:
 a) $OH\perp AB$.
 b) $OH=3$ cm.
@@ -373,12 +373,12 @@ d) Đường tròn có một dây dài $11$ cm.
 ::key Đ Đ S S
 a) Đúng: tam giác $OAB$ cân tại $O$. b) Đúng: $OH=\sqrt{25-16}=3$. c) Sai: $AB^2=64\neq OA^2+OB^2=50$, nên $\widehat{AOB}\neq90^\circ$. d) Sai: mọi dây dài không quá $2R=10$ cm.
 
-::sa
+::sa VD
 Dây $AB=30$ cm của đường tròn $(O; 17\text{ cm})$ cách tâm $O$ bao nhiêu xăng-ti-mét?
 ::key 8
 $OH=\sqrt{17^2-15^2}=\sqrt{64}=8$ (cm).
 
-::sa
+::sa VD
 Ba điểm chia một đường tròn thành ba cung có số đo tỉ lệ với $2$, $3$, $4$. Tính số đo (đơn vị: độ) của cung nhỏ nhất.
 ::key 80
 Tổng ba cung là $360^\circ$, mỗi phần bằng $\dfrac{360^\circ}{9}=40^\circ$, nên cung nhỏ nhất là $2\cdot40^\circ=80^\circ$.

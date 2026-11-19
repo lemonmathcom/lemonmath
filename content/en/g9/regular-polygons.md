@@ -371,7 +371,7 @@ So the side of the regular octagon is $10\sqrt2-10\approx4.14$ cm.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Each angle of a regular hexagon is
 A. $120^\circ$.
 B. $60^\circ$.
@@ -380,7 +380,7 @@ D. $108^\circ$.
 ::key A
 $\dfrac{4\cdot180^\circ}{6}=120^\circ$. B is the angle at the centre, C is the sum of the angles, and D is the angle of a regular pentagon.
 
-::mc
+::mc TH
 A regular hexagon inscribed in a circle of radius $5$ cm has side
 A. $10$ cm.
 B. $5\sqrt3$ cm.
@@ -389,7 +389,7 @@ D. $2.5$ cm.
 ::key C
 The triangles $OAB$ are equilateral, so the side equals $R$. A is the distance between opposite vertices ($2R$), B the distance between opposite sides ($2r$), and D is $\dfrac R2$.
 
-::mc
+::mc TH
 The smallest positive angle of a rotation about $O$ that maps a regular pentagon with centre $O$ onto itself is
 A. $108^\circ$.
 B. $36^\circ$.
@@ -398,7 +398,7 @@ D. $72^\circ$.
 ::key D
 $\dfrac{360^\circ}{5}=72^\circ$. A is the angle of a regular pentagon, B is half the angle at the centre, and C is the angle for a regular hexagon.
 
-::mc
+::mc TH
 Each angle of a regular polygon is $150^\circ$. The number of sides is
 A. $6$.
 B. $12$.
@@ -407,7 +407,7 @@ D. $24$.
 ::key B
 $180n-360=150n$, so $n=12$. A takes $180^\circ\div30^\circ$ instead of $360^\circ\div30^\circ$, C takes $150^\circ\div30^\circ$, and D takes $360^\circ\div15^\circ$ (halving the $30^\circ$ by mistake).
 
-::tf
+::tf TH NB TH TH
 The square $ABCD$ is inscribed in the circle $(O, 4\text{ cm})$. Decide whether each statement is true or false.
 a) $AB=4\sqrt2$ cm.
 b) $\angle AOB=90^\circ$.
@@ -416,12 +416,12 @@ d) The rotation about $O$ through $45^\circ$ maps the square onto itself.
 ::key T T T F
 a) True: $\dfrac{a\sqrt2}{2}=4$. b) True: $\dfrac{360^\circ}{4}$. c) True: $r=\dfrac a2=2\sqrt2$. d) False: the angle must be a multiple of $90^\circ$.
 
-::sa
+::sa TH
 Find the sum (in degrees) of the angles of a regular octagon.
 ::key 1080
 $(8-2)\cdot180^\circ=1080^\circ$.
 
-::sa
+::sa VD
 Find the area (in cm²) of a regular hexagon with side $2$ cm (give your answer to 1 decimal place).
 ::key 10.4
 The hexagon consists of $6$ equilateral triangles with side $2$ cm, with area $6\cdot\dfrac{4\sqrt3}{4}=6\sqrt3\approx10.4$ cm².

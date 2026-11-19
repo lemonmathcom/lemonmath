@@ -369,7 +369,7 @@ Vậy $\dfrac{AE}{AC}+\dfrac{BF}{BC}=1$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Cho $AB=3$ dm và $CD=15$ cm. Tỉ số $\dfrac{AB}{CD}$ bằng
 A. $\dfrac12$.
 B. $5$.
@@ -378,7 +378,7 @@ D. $\dfrac15$.
 ::key C
 Đổi $AB=3$ dm $=30$ cm nên $\dfrac{AB}{CD}=\dfrac{30}{15}=2$. A là tỉ số nghịch đảo, B và D là kết quả khi tính sai đơn vị.
 
-::mc
+::mc TH
 Tam giác $ABC$ có $D\in AB$, $E\in AC$, $DE\parallel BC$, $AD=3$ cm, $DB=6$ cm, $AE=2$ cm. Độ dài $EC$ bằng
 A. $1$ cm.
 B. $3$ cm.
@@ -387,7 +387,7 @@ D. $4$ cm.
 ::key D
 Theo định lí Thalès, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$ nên $EC=\dfrac{2\cdot6}{3}=4$ cm. A là $AE:2$, B là $AD$ và C là $DB$.
 
-::mc
+::mc NB
 Tam giác $ABC$ có $D\in AB$, $E\in AC$ và $DE\parallel BC$. Đẳng thức nào sau đây đúng?
 A. $\dfrac{AD}{AB}=\dfrac{AE}{AC}$.
 B. $\dfrac{AD}{DB}=\dfrac{AE}{AC}$.
@@ -396,7 +396,7 @@ D. $\dfrac{AB}{DB}=\dfrac{AE}{EC}$.
 ::key A
 Định lí Thalès cho $\dfrac{AD}{AB}=\dfrac{AE}{AC}$. Ở B, C, D các đoạn thẳng ở hai vế không tương ứng.
 
-::mc
+::mc TH
 Tam giác $ABC$ có $D\in AB$, $E\in AC$. Trường hợp nào sau đây chắc chắn có $DE\parallel BC$?
 A. $AD=2$, $AB=6$, $AE=2$, $AC=9$.
 B. $AD=2$, $AB=6$, $AE=3$, $AC=9$.
@@ -405,7 +405,7 @@ D. $AD=2$, $DB=4$, $AE=2$, $EC=6$.
 ::key B
 Ở C: $\dfrac{AD}{AB}=\dfrac26=\dfrac13$ và $\dfrac{AE}{AC}=\dfrac39=\dfrac13$ nên song song theo định lí Thalès đảo. Ở A: $\dfrac13\ne\dfrac29$; ở B: $\dfrac12\ne\dfrac23$; ở D: $\dfrac12\ne\dfrac13$.
 
-::tf
+::tf NB NB TH TH
 Tam giác $ABC$ có $AB=12$ cm, $AC=15$ cm; $D\in AB$ với $AD=4$ cm và $E\in AC$ với $AE=6$ cm.
 a) $\dfrac{AD}{AB}=\dfrac13$.
 b) $\dfrac{AE}{AC}=\dfrac25$.
@@ -414,12 +414,12 @@ d) $\dfrac{AD}{DB}=\dfrac{AE}{EC}$.
 ::key Đ Đ S S
 a) Đúng: $\dfrac4{12}=\dfrac13$. b) Đúng: $\dfrac6{15}=\dfrac25$. c) Sai: $\dfrac13\ne\dfrac25$ nên không song song. d) Sai: $\dfrac{AD}{DB}=\dfrac48=\dfrac12$ còn $\dfrac{AE}{EC}=\dfrac69=\dfrac23$.
 
-::sa
+::sa TH
 Tam giác $ABC$ có $DE\parallel BC$ ($D\in AB$, $E\in AC$), $AD=4$ cm, $AB=10$ cm và $AC=15$ cm. Tính $AE$ (cm).
 ::key 6
 $\dfrac{AE}{15}=\dfrac4{10}$ nên $AE=6$ cm.
 
-::sa
+::sa VD
 Tam giác $ABC$ có $DE\parallel BC$ ($D\in AB$, $E\in AC$), $AD=2$ cm, $DB=3$ cm và $AC=10$ cm. Tính $AE$ (cm).
 ::key 4
 $\dfrac{AD}{AB}=\dfrac25$ nên $AE=\dfrac25\cdot10=4$ cm.

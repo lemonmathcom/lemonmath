@@ -272,7 +272,7 @@ So the minimum surface area is $S\approx348.7\approx349\text{ cm}^2$. Notice tha
 :::
 
 :::quiz
-::mc
+::mc TH
 The derivative of $5x^2$ is
 A. $5x$
 B. $10x^2$
@@ -281,7 +281,7 @@ D. $\dfrac53x^3$
 ::key C
 $5\times2x^{1}=10x$.
 
-::mc
+::mc NB
 At a stationary point of $f$,
 A. $f'(x)=0$
 B. $f(x)=0$
@@ -290,7 +290,7 @@ D. the function is undefined
 ::key A
 The gradient is zero.
 
-::mc
+::mc NB
 Which estimates an area from data values at equal intervals?
 A. The cosine rule
 B. The trapezoidal rule
@@ -299,7 +299,7 @@ D. Spearman's rank coefficient
 ::key B
 Trapezia approximate the area.
 
-::mc
+::mc TH
 $\displaystyle\int3x^2\,dx$ equals
 A. $6x+C$
 B. $3x^3+C$
@@ -308,7 +308,7 @@ D. $x^3+C$
 ::key D
 $\dfrac{3}{3}x^3=x^3$.
 
-::tf
+::tf TH TH VD TH
 Consider $f(x)=x^2-4x$. Decide whether each statement is true or false.
 a) $f'(x)=2x-4$.
 b) There is a stationary point at $x=2$.
@@ -317,12 +317,12 @@ d) $f$ is increasing for $x<2$.
 ::key T T T F
 $f'(x)<0$ for $x<2$, so $f$ is decreasing there.
 
-::sa
+::sa TH
 For $f(x)=x^3$, find $f'(3)$.
 ::key 27
 $3(3)^2=27$.
 
-::sa
+::sa TH
 Evaluate $\displaystyle\int_0^23x^2\,dx$.
 ::key 8
 $2^3-0=8$.

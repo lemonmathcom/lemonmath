@@ -264,7 +264,7 @@ Counting backwards: $5, 4, 3, 2, 1, 0$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 There are four balloons. Which number do you write?
 A. $3$.
 B. $4$.
@@ -273,7 +273,7 @@ D. $0$.
 ::key B
 Four is written $4$. Option A is the mistake of missing one balloon.
 
-::mc
+::mc NB
 There are no flowers in the vase. The number of flowers is
 A. $0$.
 B. $1$.
@@ -282,7 +282,7 @@ D. $4$.
 ::key A
 Nothing is written $0$. Option B mixes it up with one flower.
 
-::mc
+::mc NB
 Fill in the row $0, 1, 2, \square, 4, 5$.
 A. $1$.
 B. $2$.
@@ -291,7 +291,7 @@ D. $5$.
 ::key C
 After $2$ comes $3$, then $4$. Option B repeats the number $2$.
 
-::mc
+::mc NB
 When you count, which number comes just after $4$?
 A. $3$.
 B. $4$.
@@ -300,7 +300,7 @@ D. $0$.
 ::key C
 Count on one after four and you get five, written $5$. Option A is the number before.
 
-::tf
+::tf NB NB TH TH
 Look at the numbers $0, 1, 2, 3, 4, 5$.
 a) The number $3$ is read "three".
 b) If there is no bird on the branch, the number of birds is $0$.
@@ -309,12 +309,12 @@ d) The row $0, 1, 2, 3, 4, 5$ has six numbers.
 ::key T T F T
 a) True. b) True: nothing is written $0$. c) False: when you count, $4$ comes before $5$. d) True: zero, one, two, three, four, five make six numbers.
 
-::sa
+::sa TH
 Count backwards: $5, 4, 3, \square, 1$. Which number goes in the box?
 ::key 2
 After $3$ comes $2$, then $1$.
 
-::sa
+::sa NB
 Which number comes just after $3$?
 ::key 4
 Count: three, four. The number just after $3$ is $4$.

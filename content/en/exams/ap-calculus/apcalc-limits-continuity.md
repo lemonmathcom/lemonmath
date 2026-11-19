@@ -276,7 +276,7 @@ Subtracting: $2a=8$, so $a=4$ and $b=-3$. Check: at $x=1$ both sides give $1$; a
 :::
 
 :::quiz
-::mc
+::mc NB
 What is $\displaystyle\lim_{x\to2}\left(x^2+3x\right)$?
 A. $4$
 B. $6$
@@ -285,7 +285,7 @@ D. $12$
 ::key C
 The function is continuous, so substitute: $4+6=10$.
 
-::mc
+::mc TH
 What is $\displaystyle\lim_{x\to0}\frac{\sin x}{4x}$?
 A. $\dfrac14$
 B. $1$
@@ -294,7 +294,7 @@ D. $0$
 ::key A
 $\dfrac14\cdot\dfrac{\sin x}{x}\to\dfrac14$.
 
-::mc
+::mc TH
 What is the horizontal asymptote of the graph of $y=\dfrac{5x-1}{x+2}$?
 A. $y=-\dfrac12$
 B. $y=5$
@@ -303,7 +303,7 @@ D. $y=0$
 ::key B
 Equal degrees: $\dfrac51=5$. Option C is the vertical asymptote $x=-2$ written as $y$.
 
-::mc
+::mc TH
 At $x=1$, the function $f(x)=\dfrac{x^2-1}{x-1}$ has
 A. a vertical asymptote.
 B. a jump discontinuity.
@@ -312,7 +312,7 @@ D. a removable discontinuity.
 ::key D
 $f(1)$ is undefined, but $\displaystyle\lim_{x\to1}f(x)=2$ exists: a hole.
 
-::tf
+::tf TH NB TH TH
 Let $f(x)=\dfrac{x^2-x-6}{x-3}$.
 a) $\displaystyle\lim_{x\to3}f(x)=5$.
 b) $f(3)$ is defined.
@@ -321,12 +321,12 @@ d) The line $x=3$ is a vertical asymptote of the graph.
 ::key T F T F
 a) True: $f(x)=x+2$ for $x\ne3$. b) False: the denominator is $0$. c) True. d) False: the limit is finite, so there is a hole, not an asymptote.
 
-::sa
+::sa VD
 Evaluate $\displaystyle\lim_{x\to-1}\frac{x^3+1}{x+1}$.
 ::key 3
 $x^3+1=(x+1)(x^2-x+1)$, so the limit is $1+1+1=3$.
 
-::sa
+::sa VD
 $f(x)=kx^2$ for $x\le2$ and $f(x)=x+6$ for $x>2$. For what value of $k$ is $f$ continuous at $x=2$?
 ::key 2
 $4k=8$, so $k=2$.

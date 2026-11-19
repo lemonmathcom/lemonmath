@@ -8,7 +8,7 @@ type: exam
 This paper has the three parts of the Vietnamese upper-secondary graduation exam: 12 multiple-choice questions, 4 true-or-false questions and 6 short-answer questions, to be done in 90 minutes. Part I gives 0.25 points per question; Part II gives up to 1 point per question, depending on how many statements you judge correctly; Part III gives 0.5 points per question. Print the sheet and work on paper first, then enter your answers below to get a mark out of 10. Every solution names the revision lesson to go back to if you got it wrong.
 
 :::quiz exam
-::mc
+::mc NB
 The function $y=f(x)$ has the following table of variations:
 
 | $x$ | $-\infty$ | | $0$ | | $2$ | | $+\infty$ |
@@ -26,7 +26,7 @@ $f'(x)$ changes sign from $+$ to $-$ at $x=2$, so the function has a local maxim
 
 Revise: [derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::mc
+::mc NB
 The horizontal asymptote of the graph of $y=\dfrac{4x+1}{2x-6}$ is the line
 A. $y=4$.
 B. $x=3$.
@@ -41,7 +41,7 @@ So the horizontal asymptote is $y=2$. Option A uses only the coefficient in the 
 
 Revise: [derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::mc
+::mc TH
 On which interval is the function $y=x^3-3x^2+2$ decreasing?
 A. $(0, 2)$.
 B. $(-\infty, 0)$.
@@ -56,7 +56,7 @@ So the function is decreasing on $(0, 2)$. Options B and C are the intervals whe
 
 Revise: [derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::mc
+::mc NB
 The indefinite integral of $f(x)=2\cos x-3x^2$ is
 A. $-2\sin x-x^3+C$.
 B. $2\sin x-6x+C$.
@@ -71,7 +71,7 @@ Option A has the wrong sign for the antiderivative of $\cos x$, option B differe
 
 Revise: [antiderivatives and integrals](lesson:review-integrals).
 
-::mc
+::mc TH
 Given $\displaystyle\int_1^3 f(x)\,dx=4$ and $\displaystyle\int_1^3 g(x)\,dx=-1$, the value of $\displaystyle\int_1^3\left[2f(x)-3g(x)\right]dx$ is
 A. $5$.
 B. $11$.
@@ -86,7 +86,7 @@ Option A drops the minus sign of $-1$ ($8-3$), option C forgets the factor $2$ a
 
 Revise: [antiderivatives and integrals](lesson:review-integrals).
 
-::mc
+::mc NB
 In the $Oxyz$ coordinate system, let $A(2, -1, 3)$ and $B(4, 3, -1)$. The midpoint of the line segment $AB$ is
 A. $(1, 2, -2)$.
 B. $(6, 2, 2)$.
@@ -101,7 +101,7 @@ Option A is half the difference, option B is the sum (forgetting to divide by $2
 
 Revise: [coordinates in space](lesson:review-coordinates-space).
 
-::mc
+::mc TH
 In the $Oxyz$ coordinate system, the plane through the three points $M(2, 0, 0)$, $N(0, -3, 0)$, $P(0, 0, 6)$ has equation
 A. $3x-2y+z-6=0$.
 B. $3x+2y+z-6=0$.
@@ -116,7 +116,7 @@ Option B drops the minus sign of $-3$, option C uses the intercepts as coefficie
 
 Revise: [coordinates in space](lesson:review-coordinates-space).
 
-::mc
+::mc NB
 In the $Oxyz$ coordinate system, the sphere $(S)\colon(x-1)^2+(y+2)^2+(z-3)^2=16$ has centre $I$ and radius $R$ given by
 A. $I(-1, 2, -3)$, $R=4$.
 B. $I(1, -2, 3)$, $R=16$.
@@ -127,7 +127,7 @@ The sphere $(x-a)^2+(y-b)^2+(z-c)^2=R^2$ has centre $I(a, b, c)$ and radius $R$.
 
 Revise: [coordinates in space](lesson:review-coordinates-space).
 
-::mc
+::mc TH
 The pyramid $S.ABCD$ has a square base of side $a$, $SA\perp(ABCD)$ and $SA=a\sqrt6$. The angle between the line $SC$ and the plane $(ABCD)$ is
 A. $30^\circ$.
 B. $45^\circ$.
@@ -142,7 +142,7 @@ Option A comes from the upside-down ratio $\dfrac{AC}{SA}$; option D wrongly tak
 
 Revise: [geometry in space](lesson:review-space-geometry).
 
-::mc
+::mc TH
 The daily home study time (minutes) of $40$ students is shown in the table:
 
 | Time (minutes) | $[0, 20)$ | $[20, 40)$ | $[40, 60)$ | $[60, 80)$ | $[80, 100)$ |
@@ -163,7 +163,7 @@ Option A uses the lower class boundaries, option B is the midpoint of the middle
 
 Revise: [statistics and probability](lesson:review-statistics-probability).
 
-::mc
+::mc NB
 Events $A$ and $B$ satisfy $P(A)=0.6$, $P(B)=0.5$ and $P(A\cap B)=0.3$. Then $P(A\mid B)$ equals
 A. $0.5$.
 B. $0.15$.
@@ -178,7 +178,7 @@ Option A is $P(B\mid A)=\dfrac{0.3}{0.6}$ (dividing by $P(A)$ by mistake), optio
 
 Revise: [statistics and probability](lesson:review-statistics-probability).
 
-::mc
+::mc TH
 The solution set of the inequality $3^{2x-1}\le27$ is
 A. $(-\infty, 2)$.
 B. $(-\infty, 2]$.
@@ -193,7 +193,7 @@ Option A loses the equals sign, option C reverses the inequality (that only happ
 
 Revise: [trigonometry, exponentials, logarithms and sequences](lesson:review-trig-exp-log-sequences).
 
-::tf
+::tf NB TH VD VD
 Let $f(x)=x^3-6x^2+9x+1$.
 a) $f'(x)=3x^2-12x+9$.
 b) The function is increasing on the interval $(1, 3)$.
@@ -210,7 +210,7 @@ d) False: compare $f(0)=1$, $f(1)=5$, $f(3)=1$, $f(4)=64-96+36+1=5$. The maximum
 
 Revise: [derivatives and graphs of functions](lesson:review-functions-derivatives).
 
-::tf
+::tf NB TH TH VD
 A model rocket is launched vertically from the ground. During the first $4$ seconds its velocity is $v(t)=12t-3t^2$ (m/s), where $t$ is the number of seconds since launch. Let $h(t)$ be the height (m) of the rocket at time $t$, $0\le t\le4$.
 a) The velocity of the rocket at $t=1$ second is $9$ m/s.
 b) The velocity of the rocket keeps increasing throughout the first $4$ seconds.
@@ -227,7 +227,7 @@ d) True: $v(t)=3t(4-t)\ge0$ on $[0, 4]$, so the height increases and is greatest
 
 Revise: [antiderivatives and integrals](lesson:review-integrals).
 
-::tf
+::tf NB TH VD VD
 In the $Oxyz$ coordinate system, let $A(1, 0, 2)$, $B(3, 2, 0)$ and the plane $(P)\colon 2x+y-z-4=0$.
 a) $\overrightarrow{AB}=(2, 2, -2)$.
 b) The midpoint $I$ of the line segment $AB$ lies in the plane $(P)$.
@@ -246,7 +246,7 @@ $$\sin\varphi=\frac{|2+1+1|}{\sqrt3\cdot\sqrt6}=\frac{4}{3\sqrt2}\approx0.943\ \
 
 Revise: [coordinates in space](lesson:review-coordinates-space).
 
-::tf
+::tf NB TH TH VD
 A factory has two production lines. Line I makes $60\%$ of the products and line II makes $40\%$. The defect rate is $3\%$ on line I and $5\%$ on line II. One product of the factory is chosen at random.
 a) The probability that the product is defective, given that it was made on line I, is $0.03$.
 b) The probability that the product is defective is $0.04$.
@@ -265,7 +265,7 @@ d) True: by Bayes' theorem, $P(\overline A\mid L)=\dfrac{0.02}{0.038}=\dfrac{10}
 
 Revise: [statistics and probability](lesson:review-statistics-probability).
 
-::sa
+::sa VD
 A rectangular poster has a printed area that is a rectangle of area $384$ cm². The top and bottom margins are $3$ cm each and the left and right margins are $2$ cm each. What is the smallest possible area of the poster, in cm²?
 ::key 600
 Let the printed width be $x$ cm ($x>0$); the printed height is $\dfrac{384}{x}$ cm. The area of the poster is
@@ -276,7 +276,7 @@ $S'(x)=6-\dfrac{1536}{x^2}=0\iff x^2=256\iff x=16$, and $S'$ changes sign from $
 
 Revise: [optimisation and real-life problems](lesson:review-optimisation-real-life).
 
-::sa
+::sa VDC
 The cuboid $ABCD.A'B'C'D'$ has $AB=3$, $AD=4$, $AA'=12$. Find the distance from $A$ to the plane $(A'BD)$ (give your answer to 2 decimal places).
 ::key 2.35
 We set up coordinates with $A$ at the origin and the axes along $AB$, $AD$, $AA'$: $B(3, 0, 0)$, $D(0, 4, 0)$, $A'(0, 0, 12)$. A normal vector $\vec n=(a, b, c)$ of $(A'BD)$ is perpendicular to $\overrightarrow{BD}=(-3, 4, 0)$ and $\overrightarrow{BA'}=(-3, 0, 12)$:
@@ -291,7 +291,7 @@ To 2 decimal places the distance is $2.35$. Note: because $AB$, $AD$, $AA'$ are 
 
 Revise: [geometry in space](lesson:review-space-geometry).
 
-::sa
+::sa VD
 Choose axes $Oxyz$ (unit: metre) with the plane $(Oxy)$ as the ground. A zip line is stretched straight from the point $A(0, 0, 20)$ on a high platform to the point $B(30, 40, 5)$. Find the angle between the zip line and the ground (in degrees, to the nearest degree).
 ::key 17
 The line has direction vector $\overrightarrow{AB}=(30, 40, -15)$ and the ground has normal vector $\vec k=(0, 0, 1)$. Then
@@ -302,7 +302,7 @@ To the nearest degree, the angle between the zip line and the ground is about $1
 
 Revise: [coordinates in space](lesson:review-coordinates-space).
 
-::sa
+::sa VD
 A fire alarm system has three sensors that work independently. When there is a fire, the sensors detect it with probabilities $0.9$, $0.8$ and $0.5$ respectively. When there is a fire, find the probability that exactly two sensors detect it.
 ::key 0.49
 "Exactly two sensors detect it" is the union of three mutually exclusive events (one sensor misses, the other two detect). The sensors are independent, so we multiply the probabilities in each case and add:
@@ -311,7 +311,7 @@ $$P=0.9\cdot0.8\cdot0.5+0.9\cdot0.2\cdot0.5+0.1\cdot0.8\cdot0.5=0.36+0.09+0.04=0
 
 Revise: [statistics and probability](lesson:review-statistics-probability).
 
-::sa
+::sa VD
 Find the area of the region enclosed by the parabola $y=x^2-2x$ and the line $y=x$.
 ::key 4.5
 The intersections: $x^2-2x=x\iff x^2-3x=0\iff x=0$ or $x=3$. On $[0, 3]$ the line lies above the parabola (test $x=1$: $1>-1$), so
@@ -320,7 +320,7 @@ $$S=\int_0^3\left(x-x^2+2x\right)dx=\int_0^3\left(3x-x^2\right)dx=\left[\frac{3x
 
 Revise: [antiderivatives and integrals](lesson:review-integrals).
 
-::sa
+::sa VD
 A freshly made cup of tea is at $95^\circ$C in a room at $25^\circ$C. Its temperature after $t$ minutes is $T(t)=25+70\cdot e^{-kt}$ ($^\circ$C), where $k$ is a positive constant. After $5$ minutes the tea is at $60^\circ$C. How many minutes after it was made is the tea at $30^\circ$C (to the nearest minute)?
 ::key 19
 From $T(5)=60$ we get $70e^{-5k}=35$, so $e^{-5k}=\dfrac12$ and $k=\dfrac{\ln2}{5}$. Solve $T(t)=30$:

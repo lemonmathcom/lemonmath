@@ -268,7 +268,7 @@ Vậy sau $9$ giờ lượng thuốc còn lại dưới $50$ mg.
 :::
 
 :::quiz
-::mc
+::mc TH
 Một đại lượng được nhân với $1{,}08$ mỗi năm. Mô hình nào phù hợp?
 A. Bậc nhất
 B. Bậc hai
@@ -277,7 +277,7 @@ D. Hàm mũ
 ::key D
 Nhân với cùng một hệ số sau mỗi bước là tăng trưởng hàm mũ.
 
-::mc
+::mc TH
 Trong mô hình $C=0{,}15m+12$ cho hoá đơn điện thoại, với $m$ là số phút gọi, số $12$ biểu thị
 A. phí cố định
 B. giá mỗi phút
@@ -286,7 +286,7 @@ D. hoá đơn cao nhất
 ::key A
 Đó là chi phí khi $m=0$.
 
-::mc
+::mc TH
 Hàm số $y=-(x-3)^2+7$ có
 A. giá trị nhỏ nhất $7$ tại $x=3$
 B. giá trị lớn nhất $3$ tại $x=7$
@@ -295,7 +295,7 @@ D. giá trị nhỏ nhất $-7$ tại $x=-3$
 ::key C
 Đỉnh là $(3;\ 7)$ và parabol hướng xuống.
 
-::mc
+::mc TH
 Mô hình $T=20+60(0{,}9)^t$ có tiệm cận ngang
 A. $T=60$
 B. $T=20$
@@ -304,7 +304,7 @@ D. $T=0{,}9$
 ::key B
 $60(0{,}9)^t\to0$, nên $T\to20$.
 
-::tf
+::tf NB TH TH TH
 Cho $y=3\cos(30x)+5$, $x$ tính bằng độ. Xét tính đúng sai của các mệnh đề sau:
 a) Biên độ là $3$.
 b) Chu kì là $12$.
@@ -313,12 +313,12 @@ d) Giá trị lớn nhất là $9$.
 ::key T T T F
 Giá trị lớn nhất là $5+3=8$.
 
-::sa
+::sa NB
 Với $y=2{,}5x+4$, tìm $y$ khi $x=6$.
 ::key 19
 $2{,}5(6)+4=19$.
 
-::sa
+::sa TH
 Một mô hình dạng sin có giá trị lớn nhất $18$ và nhỏ nhất $6$. Tìm biên độ.
 ::key 6
 $\dfrac{18-6}{2}=6$.

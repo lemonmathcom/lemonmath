@@ -272,7 +272,7 @@ Ba khối trụ có $3\times2=6$ mặt phẳng. Hai khối cầu có $2\times0=0
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Đồ vật nào có dạng khối cầu?
 A. Lon sữa.
 B. Cái trống.
@@ -281,7 +281,7 @@ D. Hộp bánh tròn.
 ::key C
 Quả bóng đá không có mặt phẳng nào nên là khối cầu. Các vật còn lại đều có hai đáy phẳng, là khối trụ.
 
-::mc
+::mc NB
 Khối trụ có bao nhiêu mặt phẳng?
 A. $0$.
 B. $1$.
@@ -290,7 +290,7 @@ D. $3$.
 ::key C
 Khối trụ có hai đáy phẳng. Phương án B là số mặt cong, em đừng nhầm.
 
-::mc
+::mc TH
 Vì sao xếp chồng được các lon sữa?
 A. Vì lon sữa có đáy phẳng.
 B. Vì lon sữa không có mặt cong.
@@ -299,7 +299,7 @@ D. Vì lon sữa rất nhẹ.
 ::key A
 Hai đáy phẳng của lon sữa đặt lên nhau không bị trượt. Lon sữa là khối trụ chứ không phải khối cầu, và vẫn có mặt cong.
 
-::mc
+::mc NB
 Khối nào không có mặt phẳng nào?
 A. Khối trụ.
 B. Khối cầu.
@@ -308,7 +308,7 @@ D. Không khối nào.
 ::key B
 Khối cầu chỉ có mặt cong. Khối trụ có $2$ mặt phẳng.
 
-::tf
+::tf NB NB TH NB
 Em xét các khối trụ và khối cầu.
 a) Khối trụ có $2$ mặt phẳng.
 b) Khối trụ có $3$ mặt cong.
@@ -317,12 +317,12 @@ d) Quả bóng là khối trụ.
 ::key Đ S Đ S
 a) Đúng: có hai đáy phẳng. b) Sai: khối trụ chỉ có $1$ mặt cong. c) Đúng: nhờ đáy phẳng. d) Sai: quả bóng là khối cầu.
 
-::sa
+::sa VD
 Có $4$ lon sữa. Tất cả các lon có bao nhiêu mặt phẳng?
 ::key 8
 Mỗi lon sữa là khối trụ, có $2$ mặt phẳng. Vậy $4\times2=8$ (mặt phẳng).
 
-::sa
+::sa VD
 Có $15$ lon sữa, xếp thành các chồng, mỗi chồng $5$ lon. Có bao nhiêu chồng?
 ::key 3
 $15:5=3$ (chồng), vì $3\times5=15$.

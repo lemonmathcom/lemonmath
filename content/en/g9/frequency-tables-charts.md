@@ -374,7 +374,7 @@ So the values $1, 2, 3$ have frequencies $4, 3, 8$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Consider the data set $3, 5, 4, 5, 2, 5, 4, 3, 5, 1$. The frequency of the value $5$ is
 A. $5$.
 B. $10$.
@@ -383,7 +383,7 @@ D. $2$.
 ::key C
 The value $5$ appears $4$ times. A confuses the value with its frequency, B is the sample size, D is the frequency of the value $3$ (or $4$).
 
-::mc
+::mc TH
 A data set has the frequency table: values $1, 2, 3, 4$ with frequencies $6, 9, 4, 1$. The sample size is
 A. $20$.
 B. $10$.
@@ -392,7 +392,7 @@ D. $9$.
 ::key A
 $n=6+9+4+1=20$. B adds the values, C is the number of different values, D is the largest frequency.
 
-::mc
+::mc NB
 In a frequency bar chart, the height of each bar represents
 A. a data value.
 B. the sample size.
@@ -401,7 +401,7 @@ D. the frequency of the value of that bar.
 ::key D
 The height of a bar equals the frequency of its value. The value is written under the bar (A), the sample size is the total height of all the bars (B), and the number of different values is the number of bars (C).
 
-::mc
+::mc TH
 The numbers of goals in some matches have the frequency table: values $0, 1, 2, 3$ with frequencies $4, 7, 6, 3$. The number of matches with at least 2 goals is
 A. $6$.
 B. $9$.
@@ -410,7 +410,7 @@ D. $3$.
 ::key B
 $6+3=9$. A counts only the matches with exactly 2 goals, D only those with 3 goals, C counts the matches with at least 1 goal.
 
-::tf
+::tf TH TH TH VD
 The daily hours of private study of a group of students take the values $1, 2, 3, 4$ with frequencies $5, 8, 4, 3$. Decide whether each statement is true or false.
 a) The sample size is $20$.
 b) The value with the largest frequency is $8$.
@@ -419,12 +419,12 @@ d) The total study time of the group is $45$ hours.
 ::key T F T T
 a) True. b) False: $8$ is the frequency; the value is $2$. c) True: $4+3=7$. d) True: $5+16+12+12=45$.
 
-::sa
+::sa TH
 A data set of size $20$ has the frequency table: values $5, 6, 7, 8$ with frequencies $3, x, 7, 4$. Find $x$.
 ::key 6
 $x=20-(3+7+4)=6$.
 
-::sa
+::sa VD
 The numbers of goals in some matches have the frequency table: values $0, 1, 2, 3$ with frequencies $4, 7, 6, 3$. Find the total number of goals in all the matches.
 ::key 28
 $0\cdot4+1\cdot7+2\cdot6+3\cdot3=0+7+12+9=28$.

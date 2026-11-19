@@ -284,7 +284,7 @@ A long side is made of two square sides: $3+3=6$ (cm). A short side is one squar
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which shape has $4$ right angles and $4$ equal sides?
 A. A triangle.
 B. A rectangle whose length is different from its width.
@@ -293,7 +293,7 @@ D. A shape with $3$ vertices.
 ::key C
 Only a square has $4$ right angles and $4$ equal sides. Option B has sides that are not equal.
 
-::mc
+::mc TH
 Rectangle $ABCD$ has $AB=8$ cm and $BC=5$ cm. The length of $CD$ is
 A. $5$ cm.
 B. $8$ cm.
@@ -302,7 +302,7 @@ D. $3$ cm.
 ::key B
 $CD$ is opposite $AB$, so $CD=8$ cm. Option A is the length of $BC$, and option C adds two sides by mistake.
 
-::mc
+::mc NB
 How many vertices does a quadrilateral have?
 A. $3$.
 B. $4$.
@@ -311,7 +311,7 @@ D. $2$.
 ::key B
 A quadrilateral has $4$ vertices and $4$ sides. Option A is the number of vertices of a triangle.
 
-::mc
+::mc TH
 Nam makes a square from $4$ sticks, each $6$ cm long. The total length of the sticks is
 A. $10$ cm.
 B. $12$ cm.
@@ -320,7 +320,7 @@ D. $6$ cm.
 ::key C
 $6\times4=24$ (cm). Option B is $6\times2$, which leaves out two sticks.
 
-::tf
+::tf NB NB TH TH
 Square $MNPQ$ has a side of $4$ cm.
 a) It has $4$ right angles.
 b) $NP=4$ cm.
@@ -329,12 +329,12 @@ d) The total length of the four sides is $16$ cm.
 ::key T T F T
 a) True: a square has $4$ right angles. b) True: all $4$ sides are equal. c) False: $NP=MN=4$ cm. d) True: $4\times4=16$ (cm).
 
-::sa
+::sa TH
 Rectangle $EFGH$ has $EF=9$ cm and $FG=4$ cm. How long is $HG$, in centimetres?
 ::key 9
 $HG$ is opposite $EF$, so $HG=EF=9$ cm.
 
-::sa
+::sa TH
 A square piece of card has a side of $7$ cm. What is the total length of its four sides, in centimetres?
 ::key 28
 $7\times4=28$ (cm).

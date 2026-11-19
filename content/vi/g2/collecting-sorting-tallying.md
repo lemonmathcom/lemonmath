@@ -351,7 +351,7 @@ Thử lại: $8+6+6=20$. Đúng.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Trong bảng kiểm đếm, màu đỏ được ghi là $\cancel{\mid\mid\mid\mid}\ \mid\mid\mid$. Số bạn chọn màu đỏ là
 A. $8$.
 B. $5$.
@@ -360,7 +360,7 @@ D. $3$.
 ::key A
 Nhóm gạch chéo là $5$ bạn, cộng thêm $3$ vạch lẻ: $5+3=8$. Phương án C coi nhóm gạch chéo là $4$, phương án B chỉ đếm nhóm gạch chéo, phương án D chỉ đếm các vạch lẻ.
 
-::mc
+::mc TH
 Biểu đồ tranh, mỗi ● là $2$ bạn. Hàng "Bóng đá" có ●●●●●. Số bạn thích bóng đá là
 A. $5$.
 B. $10$.
@@ -369,7 +369,7 @@ D. $2$.
 ::key B
 Có $5$ hình ●, mỗi ● là $2$ bạn, nên có $5\times 2=10$ bạn. Phương án A quên đọc chú thích, phương án C cộng $5+2$.
 
-::mc
+::mc TH
 Bảng số liệu: Cam $9$ bạn, Chuối $7$ bạn, Táo $4$ bạn. Số bạn thích cam nhiều hơn số bạn thích táo là
 A. $13$.
 B. $2$.
@@ -378,7 +378,7 @@ D. $3$.
 ::key C
 "Nhiều hơn" là phép trừ: $9-4=5$. Phương án A là phép cộng, phương án B là $9-7$, phương án D là $7-4$: các phép trừ đó dùng sai hai loại quả.
 
-::mc
+::mc VD
 Biểu đồ tranh, mỗi ● là $2$ quyển: Thứ Hai ●●●, Thứ Ba ●●●●. Cả hai ngày mượn được
 A. $7$ quyển.
 B. $12$ quyển.
@@ -387,7 +387,7 @@ D. $14$ quyển.
 ::key D
 Thứ Hai: $3\times 2=6$ quyển; Thứ Ba: $4\times 2=8$ quyển; $6+8=14$. Phương án A chỉ cộng số hình ●, phương án C ghép hai chữ số $3$ và $4$.
 
-::tf
+::tf NB TH TH TH
 Bảng số liệu cho biết số bạn thích mỗi trò chơi: Kéo co $8$ bạn, Nhảy dây $11$ bạn, Cờ vua $6$ bạn.
 a) Nhảy dây được nhiều bạn thích nhất.
 b) Kéo co có nhiều bạn thích hơn Cờ vua.
@@ -396,12 +396,12 @@ d) Nhảy dây nhiều hơn Cờ vua $5$ bạn.
 ::key Đ Đ S Đ
 a) Đúng: $11>8>6$. b) Đúng: $8>6$. c) Sai: $8+11+6=25$, không phải $24$. d) Đúng: $11-6=5$.
 
-::sa
+::sa TH
 Biểu đồ tranh, mỗi ● là $2$ bạn. Hàng "Bơi" có $7$ hình ●. Có bao nhiêu bạn thích bơi?
 ::key 14
 $7\times 2=14$ bạn.
 
-::sa
+::sa VD
 Tổ Một nhặt $16$ túi rác, Tổ Hai nhặt $9$ túi, Tổ Ba nhặt $14$ túi. Cả ba tổ nhặt được bao nhiêu túi rác?
 ::key 39
 $16+9+14=39$ (túi): $16+9=25$, rồi $25+14=39$.

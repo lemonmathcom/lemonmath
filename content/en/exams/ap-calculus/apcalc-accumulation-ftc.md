@@ -277,7 +277,7 @@ $10\cdot\dfrac{0+8}{2}+10\cdot\dfrac{8+14}{2}+10\cdot\dfrac{14+18}{2}+10\cdot\df
 :::
 
 :::quiz
-::mc
+::mc TH
 What is $\displaystyle\int_1^4\frac{1}{\sqrt x}\,dx$?
 A. $1$
 B. $2$
@@ -286,7 +286,7 @@ D. $\dfrac32$
 ::key B
 An antiderivative is $2\sqrt x$: $2(2)-2(1)=2$.
 
-::mc
+::mc TH
 What is $\dfrac{d}{dx}\displaystyle\int_0^{3x}e^{t^2}\,dt$?
 A. $e^{9x^2}$
 B. $3e^{3x^2}$
@@ -295,7 +295,7 @@ D. $6xe^{9x^2}$
 ::key C
 FTC Part 1 with the chain rule: $e^{(3x)^2}\cdot3$.
 
-::mc
+::mc TH
 If $f$ is decreasing on $[a,b]$, a right Riemann sum for $\displaystyle\int_a^bf(x)\,dx$
 A. equals the integral
 B. overestimates the integral
@@ -304,7 +304,7 @@ D. underestimates the integral
 ::key D
 For a decreasing function, the right endpoint gives the smallest height on each subinterval.
 
-::mc
+::mc TH
 What is $\displaystyle\int_{-2}^{2}\left(x^3+1\right)dx$?
 A. $4$
 B. $0$
@@ -313,7 +313,7 @@ D. $2$
 ::key A
 $x^3$ is odd, so its integral over $[-2,2]$ is $0$; the integral of $1$ is $4$.
 
-::tf
+::tf NB TH TH VD
 Let $g(x)=\displaystyle\int_1^x(t-2)\,dt$.
 a) $g(1)=0$.
 b) $g'(3)=1$.
@@ -322,12 +322,12 @@ d) $g(3)=2$.
 ::key T T T F
 a) True: zero width. b) True: $g'(x)=x-2$. c) True: $g'$ changes from negative to positive at $x=2$. d) False: $g(3)=\left[\dfrac{t^2}{2}-2t\right]_1^3=-1.5-(-1.5)=0$.
 
-::sa
+::sa TH
 Evaluate $\displaystyle\int_0^2\left(3x^2+1\right)dx$.
 ::key 10
 $\left[x^3+x\right]_0^2=8+2=10$.
 
-::sa
+::sa TH
 A function has $f(0)=1$, $f(1)=3$ and $f(2)=7$. Find the trapezoidal sum for $\displaystyle\int_0^2f(x)\,dx$ with two subintervals.
 ::key 7
 $1\cdot\dfrac{1+3}{2}+1\cdot\dfrac{3+7}{2}=2+5=7$.

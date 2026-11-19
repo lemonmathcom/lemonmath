@@ -388,7 +388,7 @@ Together: $4<x<10$. **Check.** At $x=4$: $A=B=90$; at $x=10$: $A=B=150$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The domain of $f(x)=\dfrac{\sqrt{x+1}}{x-3}$ is
 A. $[-1, +\infty)$.
 B. $[-1, 3)\cup(3, +\infty)$.
@@ -397,7 +397,7 @@ D. $\mathbb{R}\setminus\{3\}$.
 ::key B
 We need $x+1\ge0$ and $x-3\ne0$, that is $x\ge-1$ and $x\ne3$. Option A forgets that the denominator must not be $0$; C wrongly removes $x=-1$ (where $\sqrt0=0$ is defined); D forgets the condition for the square root.
 
-::mc
+::mc TH
 Which table defines $y$ as a function of $x$?
 A. $(1, 2)$, $(2, 3)$, $(1, 4)$.
 B. $(1, 5)$, $(2, 5)$, $(3, 5)$.
@@ -406,7 +406,7 @@ D. $(2, 1)$, $(3, 2)$, $(2, 2)$.
 ::key B
 In B each value of $x$ gives exactly one value of $y$; several values of $x$ sharing $y=5$ is allowed. In A, C and D one value of $x$ has two different values of $y$.
 
-::mc
+::mc TH
 Let $f(x)=\begin{cases}2x-1 & \text{if } x<1,\\ x^2+1 & \text{if } x\ge1.\end{cases}$ The value of $f(1)+f(-2)$ is
 A. $-3$.
 B. $-4$.
@@ -415,7 +415,7 @@ D. $6$.
 ::key A
 $1\ge1$, so $f(1)=1^2+1=2$; $-2<1$, so $f(-2)=2\cdot(-2)-1=-5$. The sum is $-3$. Option B uses the first line for $f(1)$ by mistake; C uses the second line for $f(-2)$.
 
-::mc
+::mc TH
 On which interval is $f(x)=-x^2+4x$ increasing?
 A. $(-\infty, 2)$.
 B. $(2, +\infty)$.
@@ -424,7 +424,7 @@ D. $(-\infty, 4)$.
 ::key A
 $f(x)=4-(x-2)^2$: the graph is a parabola opening downwards with vertex $(2, 4)$, so it rises for $x<2$ and falls for $x>2$. Option C is the interval between the zeros $0$ and $4$, where the function both rises and falls.
 
-::tf
+::tf NB TH TH VD
 Let $f(x)=x^2-4x+3$.
 a) $f(0)=3$.
 b) The zeros of $f$ are $x=1$ and $x=3$.
@@ -433,12 +433,12 @@ d) $f$ is decreasing on the interval $(1, 3)$.
 ::key T T T F
 a) True. b) True: $f(1)=f(3)=0$. c) True: $f(x)=(x-2)^2-1\ge-1$, and it takes every value from $-1$ upwards. d) False: $f$ is decreasing only on $(-\infty, 2)$; on $(2, 3)$ it is increasing, for example $f(2)=-1<f(2.5)=-0.75$.
 
-::sa
+::sa VD
 How many positive integers belong to the domain of $f(x)=\sqrt{12-3x}$?
 ::key 4
 We need $12-3x\ge0\iff x\le4$. The positive integers that qualify are $1, 2, 3, 4$: there are $4$.
 
-::sa
+::sa VD
 A water company charges $8$ thousand dong per m³ for the first $10$ m³ and $12$ thousand dong per m³ for every m³ above $10$. This month a household pays $176$ thousand dong. How many m³ of water did it use?
 ::key 18
 The first $10$ m³ cost $80$ thousand dong $<176$, so the amount used is $x>10$ and $80+12(x-10)=176\iff 12(x-10)=96\iff x=18$.

@@ -320,7 +320,7 @@ The edge is doubled in all three dimensions, so the volume is multiplied by $2\t
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The volume of a cube with edge $4\ \text{cm}$ is
 A. $12\ \text{cm}^3$.
 B. $16\ \text{cm}^3$.
@@ -329,7 +329,7 @@ D. $64\ \text{cm}^3$.
 ::key D
 $4\times4\times4=64$, and the unit is $\text{cm}^3$. Option A is $4\times3$, B is $4\times4$ (only two factors) and C has the wrong unit.
 
-::mc
+::mc TH
 The volume of a cube with edge $2\ \text{dm}$ is
 A. $8\ \text{dm}^3$.
 B. $6\ \text{dm}^3$.
@@ -338,7 +338,7 @@ D. $8\ \text{dm}^2$.
 ::key A
 $2\times2\times2=8\ (\text{dm}^3)$. Option B is $2\times3$, C is $2\times2$ and D has the wrong unit.
 
-::mc
+::mc VD
 A cube has an edge of $20\ \text{cm}$. Its volume in $\text{dm}^3$ is
 A. $8000\ \text{dm}^3$.
 B. $8\ \text{dm}^3$.
@@ -347,7 +347,7 @@ D. $80\ \text{dm}^3$.
 ::key B
 $20\ \text{cm}=2\ \text{dm}$, so $V=2\times2\times2=8\ (\text{dm}^3)$. Option A forgets to change the unit, D is $20\times4$ and C is $20\times2$.
 
-::mc
+::mc VD
 A cube-shaped tank has an edge of $3\ \text{dm}$. When full, it holds
 A. $9$ litres.
 B. $81$ litres.
@@ -356,7 +356,7 @@ D. $18$ litres.
 ::key C
 $3\times3\times3=27\ (\text{dm}^3)=27$ litres. Option A is the area of the base and D is $3\times6$.
 
-::tf
+::tf NB TH TH VD
 Consider a cube with edge $5\ \text{cm}$.
 a) Its volume is $5\times3=15\ \text{cm}^3$.
 b) Its volume is $125\ \text{cm}^3$.
@@ -365,12 +365,12 @@ d) If the edge is doubled, the volume is only doubled too.
 ::key F T T F
 a) False: the edge must be multiplied three times, $5\times5\times5=125$. b) True: $5\times5\times5=125$. c) True: $10\times10\times10=1000$. d) False: the volume becomes $8$ times greater ($1000\div125=8$).
 
-::sa
+::sa TH
 Find the volume of a cube with edge $9\ \text{cm}$ (in $\text{cm}^3$).
 ::key 729
 $9\times9\times9=81\times9=729$.
 
-::sa
+::sa VD
 A cube has a volume of $512\ \text{cm}^3$. How many centimetres long is its edge?
 ::key 8
 $8\times8\times8=512$, so the edge is $8\ \text{cm}$.

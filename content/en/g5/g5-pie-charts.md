@@ -332,7 +332,7 @@ This is only an estimate; the true number of red marbles may be a little differe
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A pie chart shows that $25\%$ of $40$ pupils chose badminton. The number of pupils who chose badminton is
 A. $25$.
 B. $1000$.
@@ -341,7 +341,7 @@ D. $10$.
 ::key D
 $40\div100\times25=10$. Option A treats $25\%$ as $25$ pupils, C is $40\%$ of $40$ and B forgets to divide by $100$.
 
-::mc
+::mc TH
 The percentage that $8$ is of $32$ is
 A. $25\%$.
 B. $32\%$.
@@ -350,7 +350,7 @@ D. $8\%$.
 ::key A
 $8:32=0.25=25\%$. Option D writes the number as a percentage, B takes the total and C is $32:8=4$.
 
-::mc
+::mc TH
 A coin is tossed $20$ times and lands heads $13$ times. The percentage of tosses that gave heads is
 A. $13\%$.
 B. $65\%$.
@@ -359,7 +359,7 @@ D. $\dfrac{20}{13}$.
 ::key B
 $13:20=0.65=65\%$. Option A writes the number of times as a percentage, C is the ratio for tails and D reverses the ratio.
 
-::mc
+::mc TH
 Three sectors of a pie chart take $40\%$, $35\%$ and $15\%$. The remaining sector takes
 A. $90\%$.
 B. $5\%$.
@@ -368,7 +368,7 @@ D. $100\%$.
 ::key C
 $40+35+15=90$, so the rest is $100-90=10\ (\%)$. Option A is the total of the three sectors and D is the whole circle.
 
-::tf
+::tf TH TH VD TH
 A survey of $40$ pupils gives: football $50\%$, badminton $25\%$, swimming $15\%$, other sports $10\%$.
 a) $20$ pupils chose football.
 b) $6$ pupils chose swimming.
@@ -377,12 +377,12 @@ d) Badminton and swimming together make $30\%$ of the pupils.
 ::key T T F F
 a) True: $40\div100\times50=20$. b) True: $40\div100\times15=6$. c) False: $20\div10=2$, so it is $2$ times. d) False: $25\%+15\%=40\%$.
 
-::sa
+::sa TH
 Find the percentage that $6$ is of $25$ (do not write the $\%$ sign).
 ::key 24
 $6:25=0.24=24\%$.
 
-::sa
+::sa TH
 A die is rolled $50$ times and the face with $6$ dots comes up $8$ times. What is the percentage of rolls that gave $6$ dots (do not write the $\%$ sign)?
 ::key 16
 $8:50=0.16=16\%$.

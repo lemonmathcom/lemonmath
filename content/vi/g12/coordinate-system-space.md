@@ -420,7 +420,7 @@ Vậy $M(0; 0; 3)$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Trong không gian $Oxyz$, cho điểm $M$ thoả mãn $\overrightarrow{OM}=3\vec{i}-\vec{k}$. Toạ độ của điểm $M$ là
 A. $(0; 3; -1)$.
 B. $(3; -1; 0)$.
@@ -429,7 +429,7 @@ D. $(3; 0; 1)$.
 ::key C
 Vì hệ số của $\vec{i}$, $\vec{j}$, $\vec{k}$ lần lượt là $3$, $0$, $-1$ nên $M(3; 0; -1)$. Phương án B quên rằng $\vec{j}$ vắng mặt nghĩa là tung độ bằng $0$.
 
-::mc
+::mc TH
 Hình chiếu vuông góc của điểm $A(2; -5; 4)$ lên mặt phẳng $(Oyz)$ là điểm
 A. $(2; 0; 0)$.
 B. $(0; -5; 4)$.
@@ -438,7 +438,7 @@ D. $(2; 0; 4)$.
 ::key B
 Vì mặt phẳng $(Oyz)$ có phương trình $x=0$ nên hình chiếu giữ nguyên $y$, $z$ và có $x=0$. Phương án A là hình chiếu lên trục $Ox$, phương án C là hình chiếu lên $(Oxy)$.
 
-::mc
+::mc NB
 Cho hai điểm $A(1; -2; 3)$ và $B(3; 0; -1)$. Trung điểm $I$ của đoạn thẳng $AB$ là
 A. $I(2; 2; -4)$.
 B. $I(1; 1; -2)$.
@@ -447,7 +447,7 @@ D. $I(2; -1; 1)$.
 ::key D
 Theo công thức toạ độ trung điểm, ta có $I\left(\dfrac{1+3}{2}; \dfrac{-2+0}{2}; \dfrac{3-1}{2}\right)$. Phương án B là $\dfrac12\overrightarrow{AB}$, phương án C quên chia cho $2$, phương án A là $\overrightarrow{AB}$.
 
-::mc
+::mc TH
 Khoảng cách từ điểm $M(3; -4; 6)$ đến trục $Oz$ bằng
 A. $5$.
 B. $6$.
@@ -456,7 +456,7 @@ D. $\sqrt{52}$.
 ::key A
 Hình chiếu của $M$ lên $Oz$ là $H(0; 0; 6)$ nên $MH=\sqrt{3^2+4^2}=5$. Phương án B là khoảng cách đến $(Oxy)$, phương án C là $OM$, phương án D là khoảng cách đến trục $Ox$.
 
-::tf
+::tf NB TH TH VD
 Trong không gian $Oxyz$, cho $A(1; 2; -1)$, $B(3; -2; 3)$, $C(-1; 3; 1)$. Xét tính đúng sai của các mệnh đề sau:
 a) $\overrightarrow{AB}=(2; -4; 4)$.
 b) $AB=6$.
@@ -465,12 +465,12 @@ d) Điểm $D$ để $ABCD$ là hình bình hành là $D(-3; 7; -3)$.
 ::key Đ Đ S Đ
 a) Đúng: lấy toạ độ điểm cuối trừ toạ độ điểm đầu, ta được kết quả trên. b) Đúng: ta có $AB=\sqrt{4+16+16}=6$. c) Sai: trọng tâm là $G(1; 1; 1)$; $(3; 3; 3)$ là tổng các toạ độ, chưa chia cho $3$. d) Đúng: vì $ABCD$ là hình bình hành khi và chỉ khi $\overrightarrow{AB}=\overrightarrow{DC}$ nên $D=(-1-2; 3+4; 1-4)=(-3; 7; -3)$.
 
-::sa
+::sa VD
 Trong không gian $Oxyz$, cho ba điểm $A(1; 0; 0)$, $B(0; 2; 0)$, $C(0; 0; 2)$. Tính chu vi tam giác $ABC$ (làm tròn kết quả đến hàng phần mười).
 ::key 7,3
 Ta có $AB=\sqrt{1+4}=\sqrt5$, $AC=\sqrt{1+4}=\sqrt5$, $BC=\sqrt{4+4}=2\sqrt2$. Vậy chu vi là $2\sqrt5+2\sqrt2\approx7{,}30$, làm tròn được $7{,}3$.
 
-::sa
+::sa TH
 Trong hệ trục $Oxyz$ gắn với một sân tập (đơn vị: mét), hai flycam đang ở các điểm $P(10; 20; 15)$ và $Q(40; -20; 45)$. Hỏi hai flycam cách nhau bao nhiêu mét (làm tròn kết quả đến hàng phần mười)?
 ::key 58,3
 Ta có $\overrightarrow{PQ}=(30; -40; 30)$ nên $PQ=\sqrt{900+1600+900}=\sqrt{3400}\approx58{,}31$, làm tròn được $58{,}3$ m.

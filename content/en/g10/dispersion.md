@@ -403,7 +403,7 @@ $$\bar{x}=\frac{20}{4}=5,\qquad s^2=\frac{120}{4}-5^2=30-25=5.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The range of the data set $12, 7, 15, 9, 20, 11$ is
 A. $13$.
 B. $20$.
@@ -412,7 +412,7 @@ D. $27$.
 ::key A
 $R=x_{\max}-x_{\min}=20-7=13$. Option C subtracts the last value ($20-11$) instead of the smallest value.
 
-::mc
+::mc TH
 The variance of the data set $2, 4, 6$ is
 A. $4$.
 B. $\dfrac83$.
@@ -421,7 +421,7 @@ D. $0$.
 ::key B
 $\bar x=4$ and the deviations are $-2, 0, 2$, so $s^2=\dfrac{4+0+4}{3}=\dfrac83$. Option A divides by $n-1=2$; C is the standard deviation; D is the mean of the deviations (not squared).
 
-::mc
+::mc TH
 The interquartile range of the data set $1, 2, 4, 5, 7, 8, 10, 12$ is
 A. $11$.
 B. $6$.
@@ -430,7 +430,7 @@ D. $3$.
 ::key B
 The lower half $1, 2, 4, 5$ gives $Q_1=3$ and the upper half $7, 8, 10, 12$ gives $Q_3=9$. So $\Delta_Q=9-3=6$. Option A is the range; C and D are just $Q_3$ and $Q_1$.
 
-::mc
+::mc TH
 A data set has $Q_1=10$ and $Q_3=14$. Which of these values is an outlier?
 A. $5$.
 B. $19$.
@@ -439,7 +439,7 @@ D. $15$.
 ::key C
 $\Delta_Q=4$ and $1.5\,\Delta_Q=6$, so the limits are $10-6=4$ and $14+6=20$. Only $21>20$. Options A and B would be outliers with the wrong limits $Q_1-\Delta_Q$ and $Q_3+\Delta_Q$.
 
-::tf
+::tf NB TH TH VD
 Consider the data set $5, 7, 8, 9, 11$.
 a) The mean is $8$.
 b) The variance is $5$.
@@ -448,12 +448,12 @@ d) If every value is multiplied by $3$, the variance of the new data set is $36$
 ::key T F T T
 a) True: $\dfrac{40}{5}=8$. b) False: the squared deviations are $9, 1, 0, 1, 9$, with total $20$, so $s^2=\dfrac{20}{5}=4$ (the value $5$ comes from dividing by $4$). c) True: $s=\sqrt4=2$. d) True: every deviation is $3$ times as large, so the variance is $9$ times as large: $36$.
 
-::sa
+::sa VD
 Over $10$ days, a shop sold $1$ fridge on $2$ days, $2$ fridges on $5$ days and $3$ fridges on $3$ days. Find the variance of the number of fridges sold per day.
 ::key 0.49
 $\bar x=\dfrac{2\cdot1+5\cdot2+3\cdot3}{10}=2.1$; the mean of the squares is $\dfrac{2\cdot1+5\cdot4+3\cdot9}{10}=4.9$. So $s^2=4.9-2.1^2=0.49$.
 
-::sa
+::sa TH
 Find the standard deviation of the data set $10, 12, 14, 16, 18$ (rounded to two decimal places).
 ::key 2.83
 $\bar x=14$ and the deviations are $-4, -2, 0, 2, 4$, so $s^2=\dfrac{16+4+0+4+16}{5}=8$ and $s=\sqrt8\approx2.83$.

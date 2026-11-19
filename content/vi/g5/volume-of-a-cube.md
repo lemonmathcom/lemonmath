@@ -320,7 +320,7 @@ Em thấy: cạnh nhân $2$ ở cả ba kích thước nên thể tích nhân $2
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Thể tích hình lập phương có cạnh $4\ \text{cm}$ là
 A. $12\ \text{cm}^3$.
 B. $16\ \text{cm}^3$.
@@ -329,7 +329,7 @@ D. $64\ \text{cm}^3$.
 ::key D
 $4\times4\times4=64$, đơn vị là $\text{cm}^3$. Phương án A là $4\times3$, B là $4\times4$ (chỉ nhân hai lần), C ghi sai đơn vị.
 
-::mc
+::mc TH
 Thể tích hình lập phương có cạnh $2\ \text{dm}$ là
 A. $8\ \text{dm}^3$.
 B. $6\ \text{dm}^3$.
@@ -338,7 +338,7 @@ D. $8\ \text{dm}^2$.
 ::key A
 $2\times2\times2=8\ (\text{dm}^3)$. Phương án B là $2\times3$, C là $2\times2$, D ghi sai đơn vị.
 
-::mc
+::mc VD
 Hình lập phương có cạnh $20\ \text{cm}$. Thể tích của nó theo $\text{dm}^3$ là
 A. $8000\ \text{dm}^3$.
 B. $8\ \text{dm}^3$.
@@ -347,7 +347,7 @@ D. $80\ \text{dm}^3$.
 ::key B
 $20\ \text{cm}=2\ \text{dm}$ nên $V=2\times2\times2=8\ (\text{dm}^3)$. Phương án A quên đổi đơn vị, D là $20\times4$, C là $20\times2$.
 
-::mc
+::mc VD
 Một bể hình lập phương có cạnh $3\ \text{dm}$. Bể chứa đầy nước được
 A. $9$ lít.
 B. $81$ lít.
@@ -356,7 +356,7 @@ D. $18$ lít.
 ::key C
 $3\times3\times3=27\ (\text{dm}^3)=27$ lít. Phương án A là diện tích đáy, D là $3\times6$.
 
-::tf
+::tf NB TH TH VD
 Em xét hình lập phương có cạnh $5\ \text{cm}$.
 a) Thể tích của hình đó bằng $5\times3=15\ \text{cm}^3$.
 b) Thể tích của hình đó bằng $125\ \text{cm}^3$.
@@ -365,12 +365,12 @@ d) Nếu cạnh tăng gấp đôi thì thể tích cũng chỉ tăng gấp đôi
 ::key S Đ Đ S
 a) Sai: phải nhân ba lần cạnh, $5\times5\times5=125$. b) Đúng: $5\times5\times5=125$. c) Đúng: $10\times10\times10=1000$. d) Sai: thể tích tăng gấp $8$ lần ($1000:125=8$).
 
-::sa
+::sa TH
 Tính thể tích hình lập phương có cạnh $9\ \text{cm}$ (đơn vị: $\text{cm}^3$).
 ::key 729
 $9\times9\times9=81\times9=729$.
 
-::sa
+::sa VD
 Một hình lập phương có thể tích $512\ \text{cm}^3$. Cạnh của nó dài bao nhiêu xăng-ti-mét?
 ::key 8
 $8\times8\times8=512$ nên cạnh dài $8\ \text{cm}$.

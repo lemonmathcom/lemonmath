@@ -403,7 +403,7 @@ Vậy phương trình có vô số nghiệm: mọi số thực đều là nghi�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Phương trình nào sau đây là phương trình bậc nhất một ẩn?
 A. $x^2-4=0$.
 B. $0x+5=0$.
@@ -412,7 +412,7 @@ D. $\dfrac1x=2$.
 ::key C
 $2x-3=0$ có dạng $ax+b=0$ với $a=2\neq0$. A có ẩn bậc hai, B có $a=0$, D có ẩn ở mẫu.
 
-::mc
+::mc TH
 Nghiệm của phương trình $3x-9=0$ là
 A. $-3$.
 B. $9$.
@@ -421,7 +421,7 @@ D. $3$.
 ::key D
 $3x=9$ nên $x=3$. A sai dấu, B quên chia cho $3$, C lấy $\dfrac{1}{3}$ thay vì $\dfrac{9}{3}$.
 
-::mc
+::mc TH
 Nghiệm của phương trình $5x-2=3x+6$ là
 A. $4$.
 B. $2$.
@@ -430,7 +430,7 @@ D. $-4$.
 ::key A
 $5x-3x=6+2$ nên $2x=8$ và $x=4$. B quên chia cho $2$, C quên chia, D sai dấu.
 
-::mc
+::mc VD
 Nghiệm của phương trình $\dfrac{x+1}{2}=\dfrac{x-1}{3}$ là
 A. $5$.
 B. $-5$.
@@ -439,7 +439,7 @@ D. $-\dfrac15$.
 ::key B
 Nhân hai vế với $6$: $3(x+1)=2(x-1)$, tức $3x+3=2x-2$, suy ra $x=-5$. A sai dấu, C và D chia nhầm.
 
-::tf
+::tf NB TH TH TH
 Cho phương trình $2(x+1)=2x+5$. Xét tính đúng sai của các mệnh đề sau:
 a) Sau khi bỏ ngoặc ta được $2x+2=2x+5$.
 b) Phương trình có đúng một nghiệm.
@@ -448,12 +448,12 @@ d) Phương trình $3(x-1)=3x-3$ có vô số nghiệm.
 ::key Đ S Đ Đ
 a) Đúng. b) Sai: thu gọn được $0x=3$ nên không có nghiệm nào. c) Đúng: $0x=3$ không có nghiệm. d) Đúng: thu gọn được $0x=0$, đúng với mọi $x$.
 
-::sa
+::sa TH
 Nghiệm của phương trình $4x-1=1$ là bao nhiêu?
 ::key 0,5
 $4x=2$ nên $x=0{,}5$.
 
-::sa
+::sa VD
 Cước taxi: mở cửa $12\,000$ đồng và $14\,000$ đồng mỗi ki-lô-mét. Hành khách trả $96\,000$ đồng thì đã đi bao nhiêu ki-lô-mét?
 ::key 6
 $14\,000x+12\,000=96\,000$ nên $x=6$.

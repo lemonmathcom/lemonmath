@@ -357,7 +357,7 @@ b) Bình phương: $x^2-3x=2x-4\iff x^2-5x+4=0\iff x=1$ hoặc $x=4$. Chỉ $x=4
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tập nghiệm của phương trình $\sqrt{3x-2}=\sqrt{x+4}$ là
 A. $S=\{3\}$.
 B. $S=\{-3\}$.
@@ -366,7 +366,7 @@ D. $S=\varnothing$.
 ::key A
 Bình phương: $3x-2=x+4\iff 2x=6\iff x=3$. Thử lại: $x+4=7\ge0$ và hai vế cùng bằng $\sqrt7$. Phương án B là lỗi chuyển vế sai dấu.
 
-::mc
+::mc VD
 Tập nghiệm của phương trình $\sqrt{x+1}=x-1$ là
 A. $S=\{0; 3\}$.
 B. $S=\{3\}$.
@@ -375,7 +375,7 @@ D. $S=\{2\}$.
 ::key B
 Cần $x\ge1$. Bình phương: $x+1=x^2-2x+1\iff x^2-3x=0\iff x=0$ hoặc $x=3$; chỉ $x=3$ thoả mãn. Phương án A quên thử lại; D là lỗi viết $(x-1)^2=x^2-1$.
 
-::mc
+::mc TH
 Khi giải phương trình $\sqrt{2x+3}=x$ bằng cách bình phương hai vế, giá trị nào là nghiệm ngoại lai?
 A. $x=3$.
 B. $x=-1$.
@@ -384,7 +384,7 @@ D. $x=1$.
 ::key B
 Bình phương: $x^2-2x-3=0\iff x=3$ hoặc $x=-1$. Với $x=-1$: vế trái $\sqrt1=1$, vế phải $-1$, nên $x=-1$ là nghiệm ngoại lai.
 
-::mc
+::mc VD
 Tổng các nghiệm của phương trình $\sqrt{x^2+2x+4}=\sqrt{2x+13}$ là
 A. $0$.
 B. $3$.
@@ -393,7 +393,7 @@ D. $6$.
 ::key A
 Bình phương: $x^2+2x+4=2x+13\iff x^2=9\iff x=\pm3$. Cả hai đều thoả mãn $2x+13\ge0$ ($19$ và $7$), nên tổng là $0$. Phương án B loại nhầm $x=-3$ chỉ vì nó âm.
 
-::tf
+::tf NB TH TH VD
 Cho phương trình $\sqrt{x+10}=x-2$.
 a) Điều kiện để vế phải không âm là $x\ge2$.
 b) Bình phương hai vế ta được $x^2-3x-6=0$.
@@ -402,12 +402,12 @@ d) Phương trình có đúng một nghiệm và nghiệm đó lớn hơn $5$.
 ::key Đ S S Đ
 a) Đúng. b) Sai: $x+10=x^2-4x+4\iff x^2-5x-6=0$. c) Sai: với $x=-1$, vế trái là $3$, vế phải là $-3$. d) Đúng: $x^2-5x-6=0$ cho $x=6$ hoặc $x=-1$, chỉ giữ $x=6$.
 
-::sa
+::sa VD
 Giải phương trình $\sqrt{2x+7}=x+2$.
 ::key 1
 Cần $x\ge-2$. Bình phương: $2x+7=x^2+4x+4\iff x^2+2x-3=0\iff x=1$ hoặc $x=-3$. Chỉ $x=1$ thoả mãn; thử lại $\sqrt9=3=1+2$.
 
-::sa
+::sa VD
 Một con thuyền được kéo vào bờ bằng một sợi dây buộc vào một điểm cao $5$ m so với mặt nước. Khi thuyền cách chân bờ $x$ m thì đoạn dây từ thuyền đến điểm buộc dài hơn $x$ đúng $1$ m. Tìm $x$.
 ::key 12
 Đoạn dây là cạnh huyền: $\sqrt{x^2+25}=x+1$ với $x>0$. Bình phương: $x^2+25=x^2+2x+1\iff 2x=24\iff x=12$. Thử lại: $\sqrt{169}=13=12+1$.

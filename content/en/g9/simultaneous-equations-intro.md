@@ -361,7 +361,7 @@ So there are two ways to buy: $5$ stickers at $3$ thousand đồng and $5$ at $5
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of these is a linear equation in two unknowns?
 A. $x^2-y=1$.
 B. $0x+0y=2$.
@@ -370,7 +370,7 @@ D. $xy=3$.
 ::key C
 The coefficient of $x$ is not $0$. B has both coefficients equal to $0$; A and D contain terms of degree two.
 
-::mc
+::mc NB
 Which pair is a solution of the equation $x-3y=2$?
 A. $(5, 1)$.
 B. $(1, 5)$.
@@ -379,7 +379,7 @@ D. $(-1, 1)$.
 ::key A
 $5-3\cdot1=2$. Option B swaps $x$ and $y$; D gives $-1-3=-4$ (a sign slip would give $-1+3=2$).
 
-::mc
+::mc TH
 The line showing the solution set of the equation $0x+2y=-4$ is
 A. the line $x=-2$.
 B. the line $y=-2$.
@@ -388,7 +388,7 @@ D. the line $y=-4$.
 ::key B
 $2y=-4\iff y=-2$. Option A mixes up $x$ and $y$; D forgets to divide by $2$.
 
-::mc
+::mc TH
 Which pair is a solution of the simultaneous equations $\begin{cases} x+y=5\\ 2x-y=1 \end{cases}$?
 A. $(1, 1)$.
 B. $(3, 2)$.
@@ -397,7 +397,7 @@ D. $(2, 3)$.
 ::key D
 $2+3=5$ and $4-3=1$. Options B and C satisfy only the first equation, and A only the second.
 
-::tf
+::tf NB TH TH TH
 Consider the equation $2x+y=7$.
 a) $(3, 1)$ is a solution of the equation.
 b) The equation has exactly one solution.
@@ -406,12 +406,12 @@ d) $(3, 1)$ is also a solution of the simultaneous equations $\begin{cases} 2x+y
 ::key T F T F
 a) True: $6+1=7$. b) False: a linear equation in two unknowns has infinitely many solutions. c) True: $0+7=7$. d) False: $3-1=2\neq1$.
 
-::sa
+::sa TH
 Consider the equation $3x-2y=12$. Find $y$ so that $(2, y)$ is a solution.
 ::key -3
 $6-2y=12\iff -2y=6\iff y=-3$.
 
-::sa
+::sa VD
 How many solutions $(x, y)$ of the equation $x+2y=9$ have both $x$ and $y$ positive whole numbers?
 ::key 4
 $x=9-2y>0$, so $y\in\{1, 2, 3, 4\}$, giving the solutions $(7, 1)$, $(5, 2)$, $(3, 3)$, $(1, 4)$.

@@ -532,7 +532,7 @@ Vậy tổng tất cả các số nguyên $x$ thoả mãn $-7<x\le5$ bằng $-6$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của phép tính $(-25)+(-15)$ là
 A. $-10$.
 B. $40$.
@@ -541,7 +541,7 @@ D. $10$.
 ::key C
 $(-25)+(-15)=-(25+15)=-40$. A lấy hiệu thay vì tổng; B quên dấu "$-$"; D vừa lấy hiệu vừa sai dấu.
 
-::mc
+::mc TH
 Kết quả của phép tính $(-18)+11$ là
 A. $-7$.
 B. $7$.
@@ -550,7 +550,7 @@ D. $29$.
 ::key A
 Hai số khác dấu, $18>11$ nên tổng là $-(18-11)=-7$. B sai dấu; C cộng hai phần số như cùng dấu; D cộng hai phần số và quên dấu.
 
-::mc
+::mc TH
 Kết quả của phép tính $5-(-8)$ là
 A. $-3$.
 B. $3$.
@@ -559,7 +559,7 @@ D. $13$.
 ::key D
 $5-(-8)=5+8=13$. A tính $5-8$, quên đổi dấu; B tính $8-5$; C đổi sai dấu cả hai số.
 
-::mc
+::mc TH
 Với $a$, $b$, $c$ là các số nguyên, biểu thức $a-(b-c)$ bằng
 A. $a-b-c$.
 B. $a-b+c$.
@@ -568,7 +568,7 @@ D. $a+b+c$.
 ::key B
 Trước ngoặc có dấu "$-$" nên đổi dấu cả hai số hạng: $a-(b-c)=a-b+c$. A chỉ đổi dấu số hạng đầu; C đổi dấu ngược; D sai cả hai.
 
-::tf
+::tf TH TH VD NB
 Xét tính đúng sai của các mệnh đề sau:
 a) Tổng của một số nguyên dương và một số nguyên âm luôn là một số nguyên dương.
 b) Tổng của hai số nguyên âm là một số nguyên âm.
@@ -577,12 +577,12 @@ d) Hai số nguyên đối nhau có tổng bằng $0$.
 ::key S Đ S Đ
 a) Sai: ví dụ $3+(-5)=-2$ là số âm. b) Đúng: $(-a)+(-b)=-(a+b)$. c) Sai: ví dụ $(-2)-(-5)=3$ là số dương. d) Đúng: $a+(-a)=0$.
 
-::sa
+::sa VD
 Tính giá trị của biểu thức $(-120)+75-(-45)$.
 ::key 0
 $(-120)+75-(-45)=(-120)+75+45=(-120)+120=0$.
 
-::sa
+::sa VD
 Lúc $5$ giờ sáng nhiệt độ là $-6^\circ\text{C}$, đến trưa nhiệt độ là $4^\circ\text{C}$. Từ $5$ giờ sáng đến trưa, nhiệt độ đã tăng bao nhiêu độ C?
 ::key 10
 Mức tăng bằng nhiệt độ lúc sau trừ nhiệt độ lúc đầu: $4-(-6)=4+6=10$ (độ C).

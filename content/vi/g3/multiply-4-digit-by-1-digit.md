@@ -330,7 +330,7 @@ b) Tổng: $4\,980+3\,735=8\,715$ hạt. Gộp lại có $4+3=7$ túi, mỗi tú
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $2\,456\times3$ là
 A. $6\,258$.
 B. $7\,358$.
@@ -339,7 +339,7 @@ D. $2\,459$.
 ::key C
 $6\times3=18$ viết $8$ nhớ $1$; $5\times3=15$, thêm $1$ được $16$ viết $6$ nhớ $1$; $4\times3=12$, thêm $1$ được $13$ viết $3$ nhớ $1$; $2\times3=6$, thêm $1$ được $7$. Phương án A bỏ hết số nhớ, B quên số nhớ từ hàng đơn vị, D là phép cộng $2\,456+3$.
 
-::mc
+::mc NB
 Khi tính $1\,524\times3$, em bắt đầu nhân từ hàng nào?
 A. Hàng nghìn.
 B. Hàng trăm.
@@ -348,7 +348,7 @@ D. Hàng đơn vị.
 ::key D
 Em nhân từ phải sang trái, bắt đầu từ hàng đơn vị, để số nhớ đi sang hàng bên trái.
 
-::mc
+::mc TH
 Mỗi thùng có $1\,400$ quyển sách. $5$ thùng như thế có bao nhiêu quyển sách?
 A. $5\,000$ quyển.
 B. $7\,000$ quyển.
@@ -357,7 +357,7 @@ D. $1\,405$ quyển.
 ::key B
 $1\,400\times5=7\,000$: $4\times5=20$ viết $0$ nhớ $2$, $1\times5=5$ thêm $2$ được $7$. Phương án A quên số nhớ, C thiếu một chữ số $0$, D là phép cộng $1\,400+5$.
 
-::mc
+::mc TH
 Mai mua $4$ gói bánh, mỗi gói giá $2\,150$ đồng. Mai phải trả bao nhiêu tiền?
 A. $2\,154$ đồng.
 B. $8\,400$ đồng.
@@ -366,7 +366,7 @@ D. $8\,000$ đồng.
 ::key C
 $2\,150\times4=8\,600$: $5\times4=20$ viết $0$ nhớ $2$, $1\times4=4$ thêm $2$ được $6$, $2\times4=8$. Phương án B quên số nhớ $2$, D chỉ nhân chữ số hàng nghìn.
 
-::tf
+::tf NB TH TH TH
 Em xét phép nhân $1\,325\times3$.
 a) Chữ số hàng đơn vị của tích là $5$.
 b) Ở hàng chục, phải cộng thêm số nhớ $1$.
@@ -375,12 +375,12 @@ d) Tích lớn hơn $3\,900$.
 ::key Đ Đ S Đ
 a) Đúng: $5\times3=15$, viết $5$. b) Đúng: nhớ $1$ từ $15$. c) Sai: $1\,325\times3=3\,975$. d) Đúng: $3\,975>3\,900$.
 
-::sa
+::sa TH
 Tính $1\,203\times3$.
 ::key 3609
 $3\times3=9$, $0\times3=0$, $2\times3=6$, $1\times3=3$, nên tích là $3\,609$.
 
-::sa
+::sa TH
 Một xe chở $4$ chuyến, mỗi chuyến $1\,800$ viên gạch. Xe chở tất cả bao nhiêu viên gạch?
 ::key 7200
 $1\,800\times4=7\,200$ (viên gạch).

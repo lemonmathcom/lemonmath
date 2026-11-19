@@ -276,7 +276,7 @@ $$1+1=2\ \text{(marbles)}.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A box holds $3$ red marbles and $2$ blue marbles. You take out $1$ marble. Which statement below is correct?
 A. Picking a red marble is possible.
 B. Picking a blue marble is impossible.
@@ -285,7 +285,7 @@ D. You are certain to pick a red marble.
 ::key A
 The box holds red marbles but also blue ones, so picking a red marble is possible.
 
-::mc
+::mc NB
 A box holds $6$ yellow marbles. You take out $1$ marble. Which statement below is correct?
 A. Picking a red marble is possible.
 B. You are certain to pick a yellow marble.
@@ -294,7 +294,7 @@ D. Picking a blue marble is possible.
 ::key B
 The box holds only yellow marbles, so you pick yellow every time.
 
-::mc
+::mc NB
 A box holds $4$ red marbles and $2$ blue marbles. You take out $1$ marble. Which event below is impossible?
 A. You pick a blue marble.
 B. You pick a red marble.
@@ -303,7 +303,7 @@ D. You pick a red or a blue marble.
 ::key C
 There is no yellow marble in the box, so you can never pick one.
 
-::mc
+::mc TH
 A box holds $4$ red marbles and $2$ blue marbles. You take out $1$ marble. Which event below is certain?
 A. You pick a red marble.
 B. You pick a blue marble.
@@ -312,7 +312,7 @@ D. You pick a red or a blue marble.
 ::key D
 Every marble is red or blue, so event C happens every time.
 
-::tf
+::tf TH NB NB TH
 A spinner is divided into $6$ equal sections: $4$ red and $2$ blue. You spin it and the pointer stops on one section.
 a) The pointer stopping on red is certain.
 b) The pointer stopping on blue is possible.
@@ -321,12 +321,12 @@ d) The pointer is more likely to stop on red than on blue.
 ::key F T T T
 a) False: the spinner also has blue sections, so it is only possible. b) True: there are $2$ blue sections. c) True: there is no yellow section. d) True: $4>2$.
 
-::sa
+::sa TH
 A box holds $7$ red marbles and $5$ blue marbles. How many marbles are in the box altogether?
 ::key 12
 $7+5=12$ (marbles).
 
-::sa
+::sa TH
 A box holds $9$ red marbles and $4$ blue marbles. How many more red marbles than blue marbles are there?
 ::key 5
 $9-4=5$ (marbles).

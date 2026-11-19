@@ -296,7 +296,7 @@ Count the days after Tuesday: Wednesday (1), Thursday (2), Friday (3), Saturday 
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 On a clock the long hand points to 12 and the short hand points to 6. The clock shows
 A. 12 o'clock.
 B. 5 o'clock.
@@ -305,7 +305,7 @@ D. 7 o'clock.
 ::key C
 The short hand shows the hour and points to 6, so the clock shows 6 o'clock. Option A reads the long hand by mistake.
 
-::mc
+::mc TH
 A clock shows 11 o'clock. After another 1 hour, the short hand points to
 A. 10.
 B. 11.
@@ -314,7 +314,7 @@ D. 12.
 ::key D
 After 1 hour the short hand moves to the next number: $11+1=12$. Option A is 1 hour before, and option B is no change.
 
-::mc
+::mc NB
 Today is Wednesday. Tomorrow is
 A. Thursday.
 B. Tuesday.
@@ -323,7 +323,7 @@ D. Saturday.
 ::key A
 Tomorrow is the day just after Wednesday, which is Thursday. Option B is yesterday.
 
-::mc
+::mc NB
 Today is Saturday. Yesterday was
 A. Sunday.
 B. Friday.
@@ -332,7 +332,7 @@ D. Thursday.
 ::key B
 Yesterday is the day just before Saturday, which is Friday. Option A is tomorrow, and option D is two days ago.
 
-::tf
+::tf NB TH NB TH
 Mai wakes up at 6 o'clock and gets to school at 7 o'clock.
 a) At 7 o'clock, the long hand points to 7.
 b) Mai wakes up after she gets to school.
@@ -341,12 +341,12 @@ d) From waking up to getting to school is 1 hour.
 ::key F F T T
 a) False: on the hour, the long hand points to 12. b) False: 6 o'clock is earlier than 7 o'clock. c) True: on the hour the long hand points to 12, and the short hand points to 6. d) True: $7-6=1$.
 
-::sa
+::sa TH
 Today is Monday. How many more days until Friday?
 ::key 4
 The days after Monday are Tuesday, Wednesday, Thursday and Friday, which is 4 days.
 
-::sa
+::sa TH
 Lan studies from 3 o'clock to 5 o'clock. For how many hours does Lan study?
 ::key 2
 $5-3=2$ (hours).

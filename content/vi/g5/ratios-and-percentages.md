@@ -388,7 +388,7 @@ Tỉ số phần trăm của $96\,000$ và $100\,000$ là $96\,000:100\,000=0{,}
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tỉ số của $50$ cm và $2$ m là
 A. $50:2$.
 B. $1:40$.
@@ -397,7 +397,7 @@ D. $1:4$.
 ::key D
 $2$ m $=200$ cm nên tỉ số là $50:200=1:4$. Phương án A không đổi đơn vị; C đảo ngược tỉ số; D chia sai.
 
-::mc
+::mc TH
 Tỉ số phần trăm của $24$ và $40$ là
 A. $60\%$.
 B. $6\%$.
@@ -406,7 +406,7 @@ D. $166{,}7\%$.
 ::key A
 $24:40=0{,}6=60\%$. Phương án C quên nhân với $100$; B chỉ nhân với $10$; D là tỉ số phần trăm của $40$ và $24$.
 
-::mc
+::mc TH
 $20\%$ của $80$ là
 A. $1600$.
 B. $16$.
@@ -415,7 +415,7 @@ D. $100$.
 ::key B
 $80\times20:100=16$. Phương án A quên chia cho $100$; C là $80:20$; D là $80+20$.
 
-::mc
+::mc TH
 Trên bản đồ tỉ lệ $1:1\,000\,000$, đoạn đường dài $7$ cm ứng với quãng đường thật dài
 A. $7$ km.
 B. $700$ km.
@@ -424,7 +424,7 @@ D. $7000$ km.
 ::key C
 $7\times1\,000\,000=7\,000\,000$ cm $=70$ km. Phương án A, B, D đổi sai đơn vị từ xăng-ti-mét sang ki-lô-mét.
 
-::tf
+::tf TH TH TH VD
 Bản đồ có tỉ lệ $1:500\,000$.
 a) $1$ cm trên bản đồ ứng với $500\,000$ km ngoài thực tế.
 b) $1$ cm trên bản đồ ứng với $5$ km ngoài thực tế.
@@ -433,12 +433,12 @@ d) Đoạn đường $10$ km thật được vẽ dài $20$ cm trên bản đồ
 ::key S Đ Đ S
 a) Sai: $500\,000$ cm $=5$ km. b) Đúng. c) Đúng: $4\times5=20$ km. d) Sai: $10$ km $=1\,000\,000$ cm, chia cho $500\,000$ được $2$ cm.
 
-::sa
+::sa TH
 $9$ là bao nhiêu phần trăm của $12$?
 ::key 75
 $9:12=0{,}75=75\%$.
 
-::sa
+::sa VD
 Tìm số biết $40\%$ của nó là $18$.
 ::key 45
 $18:40\times100=45$.

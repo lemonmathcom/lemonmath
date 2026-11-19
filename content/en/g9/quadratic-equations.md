@@ -493,7 +493,7 @@ So the side of each square is $3$ cm and the box holds $1008$ cm³.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of the following is a quadratic equation in one unknown?
 A. $2x+3=0$.
 B. $x^3-x=0$.
@@ -502,7 +502,7 @@ D. $0x^2+3x-1=0$.
 ::key C
 $a=-1\neq0$, $b=0$, $c=5$. A and D (with $a=0$) are linear equations, and B is a cubic equation.
 
-::mc
+::mc NB
 The discriminant $\Delta$ of the equation $2x^2-3x-2=0$ is
 A. $25$.
 B. $-7$.
@@ -511,7 +511,7 @@ D. $7$.
 ::key A
 $\Delta=9-4\cdot2\cdot(-2)=9+16=25$. B has the wrong sign of $c$, C uses $2ac$ instead of $4ac$, and D writes $b^2=-9$.
 
-::mc
+::mc TH
 The equation $x^2-6x+9=0$
 A. has two distinct roots $3$ and $-3$.
 B. has a repeated root $x=3$.
@@ -520,7 +520,7 @@ D. has no solutions.
 ::key B
 $\Delta'=9-9=0$, repeated root $x=-\dfrac{b'}{a}=3$. A confuses it with $x^2=9$, C has the wrong sign of $b'$, and D works out $\Delta'=-9-9<0$ by mistake.
 
-::mc
+::mc NB
 The reduced discriminant $\Delta'$ of the equation $3x^2-4x-1=0$ is
 A. $7$.
 B. $1$.
@@ -529,7 +529,7 @@ D. $19$.
 ::key A
 $b'=-2$, $\Delta'=4-3\cdot(-1)=7$. B has the wrong sign of $c$, C is $\Delta$, and D uses $b^2$ instead of $b'^2$.
 
-::tf
+::tf NB TH VD TH
 Consider the equation $x^2-2x-8=0$. Decide whether each statement is true or false.
 a) The coefficients are $a=1$, $b=-2$, $c=-8$.
 b) $\Delta'=9$.
@@ -538,12 +538,12 @@ d) The equation has a repeated root.
 ::key T T F F
 a) True. b) True: $\Delta'=1+8=9$. c) False: $x=1\pm3$, that is $x=4$, $x=-2$. d) False: $\Delta'>0$.
 
-::sa
+::sa VD
 Find the positive root of the equation $x^2+x-12=0$.
 ::key 3
 $\Delta=1+48=49$, $x=\dfrac{-1\pm7}{2}$, that is $x=3$ or $x=-4$.
 
-::sa
+::sa VD
 Find the smaller root of the equation $2x^2-5x-3=0$ (give your answer as a decimal).
 ::key -0.5
 $\Delta=25+24=49$, $x=\dfrac{5\pm7}{4}$, that is $x=3$ or $x=-0.5$.

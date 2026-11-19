@@ -310,7 +310,7 @@ Mỗi khoảng dài 1 cm, nên bút chì dài 7 cm.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hai cây bút được đặt cùng một đầu bên trái. Đầu bên phải của bút xanh ra xa hơn đầu bên phải của bút đỏ. Câu nào sau đây đúng?
 A. Bút xanh ngắn hơn bút đỏ.
 B. Không so sánh được.
@@ -319,7 +319,7 @@ D. Bút xanh dài hơn bút đỏ.
 ::key D
 Hai bút thẳng hàng một đầu, bút nào có đầu kia ra xa hơn thì dài hơn. Phương án A nói ngược lại.
 
-::mc
+::mc NB
 Một sợi dây có một đầu ở vạch số 0 của thước, đầu kia ở vạch số 8. Sợi dây dài
 A. $8$ cm.
 B. $7$ cm.
@@ -328,7 +328,7 @@ D. $9$ cm.
 ::key A
 Từ vạch 0 đến vạch 8 có 8 khoảng, mỗi khoảng 1 cm. Phương án D, B đếm nhầm số khoảng, phương án C dùng sai đơn vị.
 
-::mc
+::mc TH
 Kết quả của $7\ \text{cm}+5\ \text{cm}$ là
 A. $2$ cm.
 B. $12$ cm.
@@ -337,7 +337,7 @@ D. $75$ cm.
 ::key B
 $7+5=12$, đơn vị là cm. Phương án A là phép trừ, phương án D viết hai số liền nhau.
 
-::mc
+::mc TH
 Dải ruy băng đỏ dài 14 cm, dải ruy băng xanh dài 9 cm. Dải đỏ dài hơn dải xanh
 A. $23$ cm.
 B. $6$ cm.
@@ -346,7 +346,7 @@ D. $4$ cm.
 ::key C
 Ta lấy $14-9=5$, tức là 5 cm. Phương án A là phép cộng, phương án B và D trừ sai khi trừ qua 10.
 
-::tf
+::tf NB TH TH TH
 Dây đỏ dài 11 cm, dây xanh dài 6 cm.
 a) Dây xanh ngắn hơn dây đỏ.
 b) Dây đỏ dài hơn dây xanh 5 cm.
@@ -355,12 +355,12 @@ d) Dây xanh dài hơn 10 cm.
 ::key Đ Đ S S
 a) Đúng: $6<11$. b) Đúng: $11-6=5$. c) Sai: $11+6=17$, không phải 16. d) Sai: dây xanh dài 6 cm, ngắn hơn 10 cm.
 
-::sa
+::sa TH
 Đoạn thẳng AB dài 8 cm, đoạn thẳng BC dài 7 cm. Nối hai đoạn lại thì dài bao nhiêu xăng-ti-mét?
 ::key 15
 $8+7=15$ (cm).
 
-::sa
+::sa VD
 Cây hoa cao 17 cm, cây cỏ cao 9 cm. Cây hoa cao hơn cây cỏ bao nhiêu xăng-ti-mét?
 ::key 8
 $17-9=8$ (cm).

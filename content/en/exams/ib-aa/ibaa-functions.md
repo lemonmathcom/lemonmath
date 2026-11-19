@@ -240,7 +240,7 @@ $x^2-kx+1=0$ has $\Delta=k^2-4=0$, so $k=\pm2$.
 :::
 
 :::quiz
-::mc
+::mc TH
 Let $f(x)=3x+1$. What is $f^{-1}(7)$?
 A. $22$
 B. $\dfrac83$
@@ -249,7 +249,7 @@ D. $\dfrac{1}{22}$
 ::key C
 $3x+1=7$ gives $x=2$. Option A is $f(7)$; option D is $\dfrac{1}{f(7)}$.
 
-::mc
+::mc TH
 What is the range of $f(x)=x^2+2$, $x\in\mathbb{R}$?
 A. $f(x)\ge2$
 B. $f(x)\ge0$
@@ -258,7 +258,7 @@ D. $f(x)\in\mathbb{R}$
 ::key A
 $x^2\ge0$, so $x^2+2\ge2$, and the value $2$ is reached at $x=0$.
 
-::mc
+::mc TH
 What is the horizontal asymptote of $y=\dfrac{4x-1}{2x+5}$?
 A. $y=-\dfrac15$
 B. $x=-\dfrac52$
@@ -267,7 +267,7 @@ D. $y=2$
 ::key D
 $\dfrac ac=\dfrac42=2$. Option B is the vertical asymptote.
 
-::mc
+::mc TH
 Let $f(x)=x^2$ and $g(x)=2x-3$. What is $(f\circ g)(1)$?
 A. $-1$
 B. $1$
@@ -276,7 +276,7 @@ D. $4$
 ::key B
 $g(1)=-1$ and $f(-1)=1$. Option A is $(g\circ f)(1)$.
 
-::tf
+::tf NB TH TH VD
 Let $f(x)=2(x-1)^2+3$.
 a) The vertex of the graph is $(1,3)$.
 b) The graph opens downward.
@@ -285,12 +285,12 @@ d) The equation $f(x)=0$ has no real solutions.
 ::key T F F T
 a) True. b) False: $a=2>0$. c) False: it is $x=1$. d) True: the minimum value is $3>0$.
 
-::sa
+::sa TH
 Let $f(x)=\sqrt{x+1}$. Find $f^{-1}(3)$.
 ::key 8
 $\sqrt{x+1}=3$ gives $x=8$.
 
-::sa
+::sa TH
 Find $c$ so that $x^2-6x+c=0$ has two equal roots.
 ::key 9
 $36-4c=0$.

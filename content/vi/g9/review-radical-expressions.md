@@ -367,7 +367,7 @@ $$B=(\sqrt2-1)+(\sqrt3-\sqrt2)+\dots+(3-\sqrt8)=3-1=2.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Giá trị rút gọn của $\sqrt{48}-\sqrt{12}$ là
 A. $6$.
 B. $2\sqrt3$.
@@ -376,7 +376,7 @@ D. $3\sqrt3$.
 ::key B
 $\sqrt{48}-\sqrt{12}=4\sqrt3-2\sqrt3=2\sqrt3$. Đáp án A là $\sqrt{48-12}$ (căn của hiệu), C là $\sqrt{48}:\sqrt{12}$, D là $4\sqrt3-\sqrt3$.
 
-::mc
+::mc TH
 Trục căn thức ở mẫu của $\dfrac{6}{\sqrt5-\sqrt2}$ ta được
 A. $2\sqrt5-2\sqrt2$.
 B. $6(\sqrt5+\sqrt2)$.
@@ -385,7 +385,7 @@ D. $\dfrac{\sqrt5+\sqrt2}{2}$.
 ::key C
 $\dfrac{6(\sqrt5+\sqrt2)}{5-2}=2(\sqrt5+\sqrt2)$. Đáp án A nhầm dấu của liên hợp, B quên chia cho $5-2=3$, D chia nhầm cho $12$.
 
-::mc
+::mc TH
 Giá trị của $\sqrt{(\sqrt5-3)^2}$ là
 A. $\sqrt5-3$.
 B. $3+\sqrt5$.
@@ -394,7 +394,7 @@ D. $3-\sqrt5$.
 ::key D
 $\sqrt{(\sqrt5-3)^2}=|\sqrt5-3|=3-\sqrt5$ vì $\sqrt5<3$. Đáp án A quên giá trị tuyệt đối, B và C là các biểu thức khác (phép cộng thay phép trừ).
 
-::mc
+::mc TH
 Điều kiện xác định của biểu thức $\dfrac{1}{\sqrt{x-3}}$ là
 A. $x>3$.
 B. $x\geq3$.
@@ -403,7 +403,7 @@ D. $x>0$.
 ::key A
 Biểu thức dưới căn phải không âm và mẫu khác $0$, nên $x-3>0$. Đáp án B bỏ sót việc mẫu khác $0$, C bỏ sót điều kiện của căn, D lấy điều kiện của $\sqrt x$.
 
-::tf
+::tf TH NB TH TH
 Cho $P=\dfrac{2\sqrt x}{\sqrt x+2}$ với $x\geq0$. Các nhận định sau đúng hay sai?
 a) $P$ xác định với mọi $x\geq0$.
 b) $P=2$ khi $x=0$.
@@ -412,12 +412,12 @@ d) $P=\dfrac12$ khi $x=1$.
 ::key Đ S Đ S
 a) Đúng: $\sqrt x+2>0$ với mọi $x\geq0$. b) Sai: tại $x=0$ thì $P=0$. c) Đúng: $P=\dfrac{4}{4}=1$. d) Sai: tại $x=1$ thì $P=\dfrac23$.
 
-::sa
+::sa TH
 Cho $P=\dfrac{x-1}{\sqrt x}$ với $x>0$. Tính giá trị của $P$ khi $x=4$.
 ::key 1,5
 $P=\dfrac{4-1}{2}=\dfrac32=1{,}5$.
 
-::sa
+::sa VD
 Một tấm kính hình vuông có diện tích $72$ dm². Tính độ dài đường chéo của tấm kính (đơn vị dm).
 ::key 12
 Cạnh là $6\sqrt2$ nên đường chéo là $6\sqrt2\cdot\sqrt2=12$.

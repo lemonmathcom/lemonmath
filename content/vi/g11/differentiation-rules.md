@@ -450,7 +450,7 @@ Tổng bằng $2-1+2=3$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Cho $f(x)=x^3-3x^2+2x$. Giá trị $f'(2)$ bằng
 A. $0$.
 B. $4$.
@@ -459,7 +459,7 @@ D. $6$.
 ::key C
 $f'(x)=3x^2-6x+2$ nên $f'(2)=12-12+2=2$. Phương án A bỏ số hạng $2$, B và D do tính sai.
 
-::mc
+::mc TH
 Đạo hàm của hàm số $y=xe^x$ là
 A. $(x+e)e^x$.
 B. $e^x$.
@@ -468,7 +468,7 @@ D. $(x+1)e^x$.
 ::key D
 $y'=1\cdot e^x+x\cdot e^x=(x+1)e^x$. Phương án B quên số hạng $xe^x$, C quên số hạng $e^x$, A nhầm $1$ thành $e$.
 
-::mc
+::mc TH
 Đạo hàm của hàm số $y=\dfrac{2x+1}{x+3}$ là
 A. $\dfrac{5}{(x+3)^2}$.
 B. $2$.
@@ -477,7 +477,7 @@ D. $\dfrac{4x+7}{(x+3)^2}$.
 ::key A
 $y'=\dfrac{2(x+3)-(2x+1)}{(x+3)^2}=\dfrac5{(x+3)^2}$. Phương án B chia các đạo hàm, C đảo dấu tử, D cộng thay vì trừ.
 
-::mc
+::mc VD
 Đạo hàm của $y=\ln(x^2+1)$ tại $x=1$ bằng
 A. $0$.
 B. $1$.
@@ -486,7 +486,7 @@ D. $2$.
 ::key B
 $y'=\dfrac{2x}{x^2+1}$ nên $y'(1)=\dfrac22=1$. Phương án D quên mẫu, C chia cho $4$, A nhầm với $\ln1$.
 
-::tf
+::tf NB TH TH TH
 Cho hàm số $f(x)=x^3-3x+1$. Xét tính đúng sai của các mệnh đề sau:
 a) $f'(x)=3x^2-3$.
 b) Hệ số góc của tiếp tuyến tại $x=0$ bằng $3$.
@@ -495,12 +495,12 @@ d) Phương trình $f'(x)=0$ có hai nghiệm là $x=\pm1$.
 ::key Đ S Đ Đ
 a) Đúng. b) Sai: $f'(0)=-3$. c) Đúng: $f'(1)=0$. d) Đúng: $3x^2-3=0\Leftrightarrow x=\pm1$.
 
-::sa
+::sa VD
 Giả sử số vi khuẩn sau $t$ giờ là $N(t)=1000e^{0{,}3t}$. Tính tốc độ tăng tại $t=2$ (làm tròn đến hàng đơn vị, đơn vị con/giờ).
 ::key 547
 $N'(t)=300e^{0{,}3t}$ nên $N'(2)=300e^{0{,}6}\approx300\cdot1{,}8221\approx547$.
 
-::sa
+::sa VD
 Tính hệ số góc của tiếp tuyến của đồ thị $y=\dfrac{x^2+1}{x}$ tại điểm có hoành độ $2$.
 ::key 0,75
 $y'=\dfrac{2x\cdot x-(x^2+1)}{x^2}=\dfrac{x^2-1}{x^2}$ nên $y'(2)=\dfrac34=0{,}75$.

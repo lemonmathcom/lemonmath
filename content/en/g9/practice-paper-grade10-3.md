@@ -290,7 +290,7 @@ Expanding: $(x+y+z)\left(\dfrac1x+\dfrac1y+\dfrac1z\right)=3+\left(\dfrac xy+\df
 ## Mini test
 
 :::quiz
-::mc
+::mc VD
 The value of $A=\sqrt{7-4\sqrt3}+\sqrt{12}$ is
 A. $2+\sqrt3$.
 B. $2-\sqrt3$.
@@ -299,7 +299,7 @@ D. $\sqrt3$.
 ::key A
 $\sqrt{7-4\sqrt3}=2-\sqrt3$ and $\sqrt{12}=2\sqrt3$, so $A=2+\sqrt3$. Option B forgets to add $\sqrt{12}$.
 
-::mc
+::mc TH
 A box contains $12$ balls: $5$ green, $4$ red, $3$ yellow. One ball is chosen at random. The probability that it is not red is
 A. $\dfrac13$.
 B. $\dfrac23$.
@@ -308,7 +308,7 @@ D. $\dfrac5{12}$.
 ::key B
 There are $8$ balls that are not red out of $12$, so the probability is $\dfrac8{12}=\dfrac23$. Option A is the probability of choosing a red ball.
 
-::mc
+::mc VD
 A car and a motorbike travel $90$ km; the car is $15$ km/h faster and arrives $1$ hour earlier. The speed of the car is
 A. $30$ km/h.
 B. $15$ km/h.
@@ -317,7 +317,7 @@ D. $60$ km/h.
 ::key C
 The motorbike goes at $30$ km/h and the car at $30+15=45$ km/h. Option A is the speed of the motorbike.
 
-::mc
+::mc VD
 The parabola $y=x^2$ meets the line $y=2x+3$ at $A(-1,1)$ and $B(3,9)$. The area of triangle $OAB$ is
 A. $3$.
 B. $12$.
@@ -326,7 +326,7 @@ D. $6$.
 ::key D
 $S=\dfrac12\cdot3\cdot(1+3)=6$. Option B is twice the correct area.
 
-::tf
+::tf NB TH TH TH
 The scores of $20$ students: $2$ students scored $5$, $4$ scored $6$, $6$ scored $7$, $5$ scored $8$ and $3$ scored $9$. Decide whether each statement is true or false.
 a) The relative frequency of the score $7$ is $25\%$.
 b) $40\%$ of the students scored $8$ or more.
@@ -335,12 +335,12 @@ d) The probability that a student chosen at random scored below $6$ is $0.2$.
 ::key F T F F
 a) False: $\dfrac6{20}=30\%$. b) True: $\dfrac{5+3}{20}=40\%$. c) False: $\dfrac3{20}$. d) False: $2$ students scored $5$, so the probability is $\dfrac2{20}=0.1$.
 
-::sa
+::sa VD
 Find the greatest value of $x$ satisfying $\dfrac{x-1}2\geq\dfrac{2x+1}3-1$.
 ::key 1
 The inequality is equivalent to $x\leq1$, so the greatest value of $x$ is $1$.
 
-::sa
+::sa VDC
 In an acute triangle $ABC$ the altitudes $BE$ and $CF$ meet at $H$, and $AH$ meets $BC$ at $D$. Given $AH=4$ cm and $AD=6$ cm, find $AF\cdot AB$ (in cm$^2$).
 ::key 24
 $AF\cdot AB=AH\cdot AD=4\cdot6=24$.

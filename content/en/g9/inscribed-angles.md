@@ -355,7 +355,7 @@ So $IC=3$ cm and $ID=8$ cm.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 An inscribed angle subtending an arc of $100^\circ$ measures
 A. $100^\circ$.
 B. $50^\circ$.
@@ -364,7 +364,7 @@ D. $130^\circ$.
 ::key B
 An inscribed angle is half the arc it subtends: $50^\circ$. A confuses it with the angle at the centre, C doubles instead of halving, and D halves the major arc.
 
-::mc
+::mc TH
 The circle $(O)$ has diameter $AB$, and $C$ is a point on the circle with $\angle CAB=35^\circ$. The angle $\angle CBA$ is
 A. $35^\circ$.
 B. $90^\circ$.
@@ -373,7 +373,7 @@ D. $55^\circ$.
 ::key D
 $\angle ACB=90^\circ$ (angle in a semicircle), so $\angle CBA=90^\circ-35^\circ=55^\circ$. A treats the triangle as isosceles at $C$, B confuses it with $\angle ACB$, and C forgets the right angle at $C$ (it takes $180^\circ-35^\circ$).
 
-::mc
+::mc TH
 The points $A$, $B$, $M$ lie on the circle $(O)$, $\angle AOB=140^\circ$, and $M$ is on the major arc $AB$. The angle $\angle AMB$ is
 A. $70^\circ$.
 B. $140^\circ$.
@@ -382,7 +382,7 @@ D. $280^\circ$.
 ::key A
 $\angle AMB$ subtends the minor arc of $140^\circ$, so it is $70^\circ$. B is the angle at the centre, C corresponds to $M$ on the minor arc, and D doubles instead of halving.
 
-::mc
+::mc TH
 The four points $A$, $B$, $C$, $D$ lie on a circle, $C$ and $D$ are both on the major arc $AB$, and $\angle ACB=40^\circ$. The angle $\angle ADB$ is
 A. $80^\circ$.
 B. $140^\circ$.
@@ -391,7 +391,7 @@ D. $20^\circ$.
 ::key C
 Both inscribed angles subtend the minor arc $AB$, so they are equal: $\angle ADB=40^\circ$. A doubles as for an angle at the centre, B puts $D$ on the other arc ($180^\circ-40^\circ$), and D halves once more.
 
-::tf
+::tf NB TH TH VD
 The circle $(O, 8.5\text{ cm})$ has diameter $AB$, and $C$ is a point on the circle with $AC=8$ cm. Decide whether each statement is true or false.
 a) $\angle ACB=90^\circ$.
 b) $BC=15$ cm.
@@ -400,12 +400,12 @@ d) The area of the triangle $ABC$ is $120$ cm².
 ::key T T T F
 a) True: angle in a semicircle. b) True: $\sqrt{17^2-8^2}=15$. c) True: the angle at the centre and the inscribed angle subtend the same minor arc $AC$. d) False: $\dfrac12\cdot8\cdot15=60$ cm².
 
-::sa
+::sa TH
 An inscribed angle measures $27^\circ$. Find the measure (in degrees) of the arc it subtends.
 ::key 54
 The arc subtended is twice the inscribed angle: $2\cdot27^\circ=54^\circ$.
 
-::sa
+::sa TH
 The acute triangle $ABC$ is inscribed in the circle $(O)$ with $\angle ABC=62^\circ$. Find the angle $\angle AOC$ (in degrees).
 ::key 124
 The inscribed angle $\angle ABC$ and the angle at the centre $\angle AOC$ subtend the same minor arc $AC$, so $\angle AOC=2\cdot62^\circ=124^\circ$.

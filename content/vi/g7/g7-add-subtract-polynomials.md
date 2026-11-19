@@ -415,7 +415,7 @@ Vậy $11\cdot91=1001$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của phép trừ $(2x^2+3x)-(x^2-5x)$ là
 A. $x^2-2x$.
 B. $3x^2-2x$.
@@ -424,7 +424,7 @@ D. $3x^2+8x$.
 ::key C
 $2x^2+3x-x^2+5x=x^2+8x$. A quên đổi dấu của $-5x$, B và D là kết quả của phép cộng (và sai dấu).
 
-::mc
+::mc TH
 Tích $(-2x^3)\cdot(4x^2)$ bằng
 A. $8x^5$.
 B. $-8x^6$.
@@ -433,7 +433,7 @@ D. $-8x^5$.
 ::key D
 Nhân hệ số $-2\cdot4=-8$ và cộng số mũ $3+2=5$. A sai dấu, B nhân số mũ ($3\cdot2$) rồi cộng thành $6$, C cộng hai hệ số.
 
-::mc
+::mc TH
 Khai triển $(x+2)(x-3)$ ta được
 A. $x^2-x-6$.
 B. $x^2-6$.
@@ -442,7 +442,7 @@ D. $x^2-5x-6$.
 ::key A
 $x^2-3x+2x-6=x^2-x-6$. A bỏ qua các tích chéo, C nhầm dấu của hạng tử $x$, D cộng nhầm $-3x-2x$.
 
-::mc
+::mc VD
 Đa thức $M$ thoả mãn $M+(x^2-3x)=2x^2+x-4$ là
 A. $x^2-2x-4$.
 B. $x^2+4x-4$.
@@ -451,7 +451,7 @@ D. $x^2+4x+4$.
 ::key B
 $M=(2x^2+x-4)-(x^2-3x)=x^2+4x-4$. B quên đổi dấu của $-3x$, C cộng thay vì trừ, D sai dấu hạng tử tự do.
 
-::tf
+::tf TH TH TH VD
 Cho $A=x^2+2x-3$ và $B=x^2-x-2$. Xét tính đúng sai của các mệnh đề sau:
 a) $A-B=3x+1$.
 b) $A+B=2x^2+x-5$.
@@ -460,12 +460,12 @@ d) $x=\dfrac13$ là nghiệm của đa thức $A-B$.
 ::key S Đ Đ Đ
 a) Sai: $A-B=x^2+2x-3-x^2+x+2=3x-1$. b) Đúng: $2x^2+x-5$. c) Đúng: $3x-1$ có bậc $1$. d) Đúng: $3\cdot\dfrac13-1=0$.
 
-::sa
+::sa VD
 Tính giá trị của biểu thức $(x+3)(x-2)-x^2$ tại $x=4$.
 ::key -2
 Biểu thức bằng $x^2+x-6-x^2=x-6$; tại $x=4$ bằng $-2$.
 
-::sa
+::sa VD
 Tìm hệ số của $x^2$ trong tích $(x+2)(3x^2-x+1)$.
 ::key 5
 $(x+2)(3x^2-x+1)=3x^3+5x^2-x+2$, trong đó $5x^2$ đến từ $-x^2+6x^2$.

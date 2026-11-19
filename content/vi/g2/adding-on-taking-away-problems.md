@@ -310,7 +310,7 @@ $$11-2=9\ \text{(viên)}.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Trong giỏ có 9 quả cam, mẹ cho thêm 4 quả. Trong giỏ có tất cả
 A. $13$ quả cam.
 B. $5$ quả cam.
@@ -319,7 +319,7 @@ D. $14$ quả cam.
 ::key A
 "Cho thêm" thì cộng: $9+4=13$. Phương án B là phép trừ nhầm.
 
-::mc
+::mc TH
 Nam có 17 quyển vở, Nam cho bạn 5 quyển. Nam còn lại
 A. $22$ quyển vở.
 B. $12$ quyển vở.
@@ -328,7 +328,7 @@ D. $13$ quyển vở.
 ::key B
 "Cho bạn" thì số vở giảm: $17-5=12$. Phương án A là phép cộng nhầm.
 
-::mc
+::mc TH
 Hà có 7 viên bi. Nam có nhiều hơn Hà 4 viên bi. Nam có
 A. $3$ viên bi.
 B. $10$ viên bi.
@@ -337,7 +337,7 @@ D. $12$ viên bi.
 ::key C
 "Nhiều hơn" thì cộng: $7+4=11$. Phương án A là phép trừ nhầm.
 
-::mc
+::mc TH
 Lan có 8 bông hoa. Mai có ít hơn Lan 3 bông hoa. Mai có
 A. $11$ bông hoa.
 B. $4$ bông hoa.
@@ -346,7 +346,7 @@ D. $5$ bông hoa.
 ::key D
 "Ít hơn" thì trừ: $8-3=5$. Phương án A là phép cộng nhầm.
 
-::tf
+::tf TH TH NB TH
 Hà có 9 viên kẹo. Mai có ít hơn Hà 4 viên kẹo.
 a) Mai có $9-4=5$ viên kẹo.
 b) Mai có 13 viên kẹo.
@@ -355,12 +355,12 @@ d) Nếu Mai có nhiều hơn Hà 4 viên kẹo thì Mai có 13 viên kẹo.
 ::key Đ S S Đ
 a) Đúng: "ít hơn" thì trừ. b) Sai: 13 là kết quả phép cộng $9+4$. c) Sai: Mai ít hơn Hà, không phải nhiều hơn. d) Đúng: $9+4=13$.
 
-::sa
+::sa VD
 Trong giỏ có 8 quả táo, mẹ cho thêm 6 quả. Trong giỏ có tất cả bao nhiêu quả táo?
 ::key 14
 $8+6=14$ (quả).
 
-::sa
+::sa VD
 Mai có 13 bông hoa giấy. Lan có ít hơn Mai 2 bông. Lan có bao nhiêu bông hoa giấy?
 ::key 11
 $13-2=11$ (bông).

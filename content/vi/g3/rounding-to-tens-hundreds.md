@@ -287,7 +287,7 @@ Số lớn nhất: $549$, vì hàng chục là $4$ nên làm tròn xuống thàn
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Làm tròn $47$ đến hàng chục được
 A. $40$.
 B. $50$.
@@ -296,7 +296,7 @@ D. $5$.
 ::key B
 Chữ số hàng đơn vị là $7$, làm tròn lên: $47\approx 50$. B làm tròn xuống nhầm, C không làm tròn, D chỉ ghi chữ số hàng chục mới.
 
-::mc
+::mc TH
 Làm tròn $365$ đến hàng chục được
 A. $360$.
 B. $37$.
@@ -305,7 +305,7 @@ D. $400$.
 ::key C
 Chữ số hàng đơn vị là $5$, làm tròn lên: $365\approx 370$. A làm tròn xuống nhầm, B quên chữ số $0$, D làm tròn đến hàng trăm.
 
-::mc
+::mc TH
 Làm tròn $438$ đến hàng trăm được
 A. $500$.
 B. $430$.
@@ -314,7 +314,7 @@ D. $400$.
 ::key D
 Chữ số hàng chục là $3$, làm tròn xuống: $438\approx 400$. A nhìn chữ số hàng đơn vị, C và B làm tròn đến hàng chục.
 
-::mc
+::mc VD
 Lan có $48$ viên bi, Nam có $63$ viên bi. Làm tròn mỗi số đến hàng chục rồi cộng, ta được tổng ước lượng là
 A. $110$.
 B. $120$.
@@ -323,7 +323,7 @@ D. $100$.
 ::key A
 $48\approx 50$ và $63\approx 60$, nên $50+60=110$. A làm tròn $48$ xuống $40$, B làm tròn $63$ lên $70$, C là tổng đúng.
 
-::tf
+::tf NB NB TH TH
 Em xét việc làm tròn số.
 a) $35\approx 40$ khi làm tròn đến hàng chục.
 b) $82\approx 80$ khi làm tròn đến hàng chục.
@@ -332,12 +332,12 @@ d) $750\approx 800$ khi làm tròn đến hàng trăm.
 ::key Đ Đ S Đ
 a) Đúng: chữ số $5$ làm tròn lên. b) Đúng: chữ số $2$ làm tròn xuống. c) Sai: chữ số hàng chục là $3$ nên $438\approx 400$. d) Đúng: chữ số hàng chục là $5$ nên làm tròn lên.
 
-::sa
+::sa TH
 Làm tròn $276$ đến hàng chục.
 ::key 280
 Chữ số hàng đơn vị là $6$, làm tròn lên: $276\approx 280$.
 
-::sa
+::sa TH
 Làm tròn $649$ đến hàng trăm.
 ::key 600
 Chữ số hàng chục là $4$, làm tròn xuống: $649\approx 600$.

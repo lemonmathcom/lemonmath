@@ -23,7 +23,7 @@ type: test
 ## Part A: không dùng máy tính
 
 :::quiz test
-::mc
+::mc TH
 Giới hạn $\displaystyle\lim_{x\to3}\frac{x^2-9}{x-3}$ bằng
 A. $0$
 B. $3$
@@ -32,7 +32,7 @@ D. không tồn tại
 ::key C
 $\dfrac{(x-3)(x+3)}{x-3}=x+3\to6$. Phương án D coi $\dfrac00$ là không tồn tại thay vì rút gọn.
 
-::mc
+::mc TH
 Giới hạn $\displaystyle\lim_{x\to\infty}\frac{3x^2-x}{5-2x^2}$ bằng
 A. $\dfrac35$
 B. $-\dfrac32$
@@ -41,7 +41,7 @@ D. $\dfrac32$
 ::key B
 Bậc tử và mẫu bằng nhau: tỉ số các hệ số cao nhất là $\dfrac{3}{-2}$.
 
-::mc
+::mc TH
 Cho $f(x)=x^2+1$ khi $x<2$ và $f(x)=kx-1$ khi $x\ge2$. Với giá trị nào của $k$ thì $f$ liên tục tại $x=2$?
 A. $2$
 B. $\dfrac52$
@@ -50,7 +50,7 @@ D. $3$
 ::key D
 Giới hạn trái bằng $5$, nên $2k-1=5$ và $k=3$. Phương án B giải $2k=5$.
 
-::mc
+::mc TH
 Giới hạn $\displaystyle\lim_{h\to0}\frac{\sin\left(\frac\pi3+h\right)-\sin\frac\pi3}{h}$ bằng
 A. $\dfrac12$
 B. $\dfrac{\sqrt3}{2}$
@@ -59,7 +59,7 @@ D. $-\dfrac12$
 ::key A
 Đây là đạo hàm của $\sin x$ tại $\dfrac\pi3$: $\cos\dfrac\pi3=\dfrac12$.
 
-::mc
+::mc TH
 Nếu $f(x)=x^3e^{2x}$ thì $f'(x)$ bằng
 A. $6x^2e^{2x}$
 B. $3x^2e^{2x}$
@@ -68,7 +68,7 @@ D. $x^2e^{2x}(3+x)$
 ::key C
 Quy tắc tích: $3x^2e^{2x}+x^3\cdot2e^{2x}=x^2e^{2x}(3+2x)$. Phương án A nhân hai đạo hàm với nhau.
 
-::mc
+::mc TH
 Nếu $f(x)=\ln\left(x^2+1\right)$ thì $f'(1)$ bằng
 A. $\dfrac12$
 B. $1$
@@ -77,7 +77,7 @@ D. $\ln2$
 ::key B
 $f'(x)=\dfrac{2x}{x^2+1}$, nên $f'(1)=1$.
 
-::mc
+::mc TH
 Nếu $y=\tan(3x)$ thì $\dfrac{dy}{dx}$ tại $x=0$ bằng
 A. $0$
 B. $1$
@@ -86,7 +86,7 @@ D. $3$
 ::key D
 $\dfrac{dy}{dx}=3\sec^2(3x)$, bằng $3$ tại $x=0$.
 
-::mc
+::mc TH
 Các hàm $f$ và $g$ thoả mãn $g(2)=5$, $g'(2)=4$, $f'(2)=-1$ và $f'(5)=2$. Nếu $h(x)=f(g(x))$ thì $h'(2)$ bằng
 A. $8$
 B. $-4$
@@ -95,7 +95,7 @@ D. $2$
 ::key A
 $h'(2)=f'(g(2))\cdot g'(2)=f'(5)\cdot4=8$. Phương án B dùng $f'(2)$ thay cho $f'(5)$.
 
-::mc
+::mc VD
 Hệ số góc của đường cong $x^2+xy+y^2=7$ tại điểm $(1,2)$ bằng
 A. $-\dfrac54$
 B. $-\dfrac45$
@@ -104,7 +104,7 @@ D. $-4$
 ::key B
 $2x+y+xy'+2yy'=0$. Tại $(1,2)$: $4+5y'=0$, nên $y'=-\dfrac45$.
 
-::mc
+::mc VD
 Cho $f(x)=x^3+x$ và gọi $g$ là hàm ngược của $f$. Giá trị $g'(2)$ bằng
 A. $\dfrac{1}{13}$
 B. $4$
@@ -113,7 +113,7 @@ D. $\dfrac12$
 ::key C
 $f(1)=2$ và $f'(1)=4$, nên $g'(2)=\dfrac{1}{f'(1)}=\dfrac14$. Phương án A dùng $f'(2)=13$.
 
-::mc
+::mc TH
 $\dfrac{d}{dx}\arctan(2x)$ bằng
 A. $\dfrac{1}{1+4x^2}$
 B. $\dfrac{2}{1+2x^2}$
@@ -122,7 +122,7 @@ D. $\dfrac{2}{1+4x^2}$
 ::key D
 $\dfrac{1}{1+(2x)^2}\cdot2$. Phương án A quên quy tắc chuỗi; phương án C là đạo hàm của $\arcsin(2x)$.
 
-::mc
+::mc TH
 Một hạt chuyển động trên trục $x$ với vị trí $x(t)=t^3-6t^2+9t$. Hạt đứng yên tại những thời điểm nào?
 A. chỉ $t=1$
 B. chỉ $t=2$
@@ -131,7 +131,7 @@ D. $t=0$ và $t=3$
 ::key C
 $v(t)=3t^2-12t+9=3(t-1)(t-3)=0$. Phương án B là lúc gia tốc bằng $0$; phương án D là lúc vị trí bằng $0$.
 
-::mc
+::mc VD
 Bán kính một hình tròn tăng với tốc độ $2$ xăng-ti-mét mỗi giây. Khi bán kính bằng $5$ xăng-ti-mét, diện tích tăng với tốc độ bao nhiêu xăng-ti-mét vuông mỗi giây?
 A. $20\pi$
 B. $10\pi$
@@ -140,7 +140,7 @@ D. $4\pi$
 ::key A
 $\dfrac{dA}{dt}=2\pi r\dfrac{dr}{dt}=2\pi(5)(2)=20\pi$.
 
-::mc
+::mc VD
 Dùng tiếp tuyến của $y=\sqrt x$ tại $x=9$, giá trị gần đúng của $\sqrt{9{,}3}$ là
 A. $3{,}1$
 B. $3{,}03$
@@ -149,7 +149,7 @@ D. $3{,}05$
 ::key D
 $3+\dfrac{1}{6}(0{,}3)=3{,}05$.
 
-::mc
+::mc TH
 Giới hạn $\displaystyle\lim_{x\to0}\frac{e^{3x}-1}{x}$ bằng
 A. $1$
 B. $3$
@@ -158,7 +158,7 @@ D. $e^3$
 ::key B
 Dạng $\dfrac00$; quy tắc L'Hôpital cho $\displaystyle\lim_{x\to0}3e^{3x}=3$.
 
-::mc
+::mc VD
 Với $f(x)=x^2$ trên $[1,3]$, giá trị $c$ nào thoả mãn kết luận của định lí giá trị trung bình?
 A. $2$
 B. $\sqrt5$
@@ -167,7 +167,7 @@ D. $\sqrt3$
 ::key A
 $\dfrac{9-1}{3-1}=4=2c$, nên $c=2$. Phương án C là hệ số góc, không phải $c$.
 
-::mc
+::mc TH
 Đạo hàm của $f$ là $f'(x)=(x-2)^2(x+1)$. Hàm $f$ đạt cực tiểu tại những giá trị nào của $x$?
 A. chỉ $x=2$
 B. $x=-1$ và $x=2$
@@ -176,7 +176,7 @@ D. chỉ $x=-1$
 ::key D
 $f'$ đổi dấu từ âm sang dương tại $x=-1$; tại $x=2$ nó không đổi dấu.
 
-::mc
+::mc TH
 Đồ thị $f(x)=x^3-6x^2+5$ có điểm uốn tại $x$ bằng
 A. $0$
 B. $4$
@@ -185,7 +185,7 @@ D. $-2$
 ::key C
 $f''(x)=6x-12$ đổi dấu tại $x=2$. Phương án B là một điểm tới hạn.
 
-::mc
+::mc VD
 Giá trị lớn nhất của $f(x)=x^3-3x$ trên $[0,2]$ là
 A. $0$
 B. $2$
@@ -194,7 +194,7 @@ D. $1$
 ::key B
 Các ứng viên: $f(0)=0$, $f(1)=-2$, $f(2)=2$.
 
-::mc
+::mc TH
 Hàm $f$ có đạo hàm cấp hai, $f'(3)=0$ và $f''(3)=-2$. Khẳng định nào chắc chắn đúng?
 A. $f$ đạt cực đại tại $x=3$.
 B. $f$ đạt cực tiểu tại $x=3$.
@@ -203,7 +203,7 @@ D. $f$ nghịch biến tại $x=3$.
 ::key A
 Dấu hiệu đạo hàm cấp hai: $f'(3)=0$ và $f''(3)<0$.
 
-::mc
+::mc TH
 Tích phân $\displaystyle\int_0^2\left(3x^2-4x\right)dx$ bằng
 A. $4$
 B. $-4$
@@ -212,7 +212,7 @@ D. $0$
 ::key D
 $\left[x^3-2x^2\right]_0^2=8-8=0$.
 
-::mc
+::mc VD
 Tích phân $\displaystyle\int_0^{\sqrt5}x\sqrt{x^2+4}\,dx$ bằng
 A. $\dfrac{38}{3}$
 B. $\dfrac{19}{3}$
@@ -221,7 +221,7 @@ D. $\dfrac{26}{3}$
 ::key B
 $u=x^2+4$ từ $4$ đến $9$: $\dfrac12\cdot\dfrac23\left(27-8\right)=\dfrac{19}{3}$. Phương án A quên $\dfrac12$.
 
-::mc
+::mc TH
 $\dfrac{d}{dx}\displaystyle\int_1^{x^3}\cos t\,dt$ bằng
 A. $\cos\left(x^3\right)$
 B. $3x^2\cos\left(x^3\right)-\cos1$
@@ -230,7 +230,7 @@ D. $\sin\left(x^3\right)-\sin1$
 ::key C
 Định lí cơ bản kết hợp quy tắc chuỗi: $\cos\left(x^3\right)\cdot3x^2$. Cận dưới là hằng số nên không đóng góp gì.
 
-::mc
+::mc VD
 Hàm $f$ có $f(0)=4$, $f(2)=1$, $f(5)=3$ và $f(6)=2$. Tổng Riemann trái của $\displaystyle\int_0^6f(x)\,dx$ với ba khoảng $[0,2]$, $[2,5]$, $[5,6]$ bằng
 A. $13$
 B. $13{,}5$
@@ -239,7 +239,7 @@ D. $14$
 ::key D
 $2\cdot4+3\cdot1+1\cdot3=14$. Phương án A là tổng phải, phương án B là tổng hình thang, phương án C coi các khoảng bằng nhau.
 
-::mc
+::mc VD
 Tích phân $\displaystyle\int_1^e\frac{\ln x}{x}\,dx$ bằng
 A. $\dfrac12$
 B. $1$
@@ -248,7 +248,7 @@ D. $\dfrac{e^2}{2}$
 ::key A
 $u=\ln x$ từ $0$ đến $1$: $\left[\dfrac{u^2}{2}\right]_0^1=\dfrac12$.
 
-::mc
+::mc TH
 Nếu $\dfrac{dy}{dx}=3y$ và $y(0)=2$ thì $y(1)$ bằng
 A. $2e^3$
 B. $e^6$
@@ -257,7 +257,7 @@ D. $2+e^3$
 ::key A
 $y=2e^{3x}$, nên $y(1)=2e^3$.
 
-::mc
+::mc VD
 Hàm nào là nghiệm của $\dfrac{dy}{dx}=\dfrac xy$ thoả mãn $y(0)=3$?
 A. $y=\sqrt{x^2+3}$
 B. $y=x+3$
@@ -266,7 +266,7 @@ D. $y=3e^{x^2/2}$
 ::key C
 $y\,dy=x\,dx$ cho $y^2=x^2+C$; $C=9$ và $y>0$. Phương án A quên bình phương số $3$.
 
-::mc
+::mc VD
 Diện tích miền giới hạn bởi $y=x^2$ và $y=4$ bằng
 A. $\dfrac{16}{3}$
 B. $\dfrac{32}{3}$
@@ -275,7 +275,7 @@ D. $\dfrac83$
 ::key B
 $\displaystyle\int_{-2}^2\left(4-x^2\right)dx=16-\frac{16}{3}=\frac{32}{3}$. Phương án A chỉ lấy $0\le x\le2$.
 
-::mc
+::mc TH
 Giá trị trung bình của $\cos x$ trên $\left[0,\dfrac\pi2\right]$ bằng
 A. $1$
 B. $\dfrac1\pi$
@@ -288,7 +288,7 @@ $\dfrac{1}{\pi/2}\displaystyle\int_0^{\pi/2}\cos x\,dx=\dfrac2\pi\cdot1$. Phươ
 ## Part B: dùng máy tính vẽ đồ thị
 
 :::quiz test
-::mc
+::mc VD
 Nước chảy vào một bể với tốc độ $R(t)=10+5\sin\left(\dfrac t2\right)$ lít mỗi phút. Từ $t=0$ đến $t=10$ có bao nhiêu lít nước chảy vào?
 A. $97{,}603$
 B. $107{,}163$
@@ -297,7 +297,7 @@ D. $5{,}205$
 ::key B
 $\displaystyle\int_0^{10}R(t)\,dt\approx107{,}163$. Phương án D là $R(10)$, một tốc độ chứ không phải lượng nước.
 
-::mc
+::mc TH
 Đồ thị $f(x)=x^3-2x-5$ cắt trục hoành tại $x$ bằng
 A. $2{,}095$
 B. $1{,}710$
@@ -306,7 +306,7 @@ D. $2{,}000$
 ::key A
 Giải $f(x)=0$ bằng máy tính: $x\approx2{,}095$, nghiệm thực duy nhất.
 
-::mc
+::mc VD
 Một hạt chuyển động thẳng với vận tốc $v(t)=\cos\left(t^2\right)$, $0\le t\le2$. Tổng quãng đường hạt đi được là
 A. $0{,}461$
 B. $1{,}253$
@@ -315,7 +315,7 @@ D. $0{,}977$
 ::key C
 $\displaystyle\int_0^2\left|\cos\left(t^2\right)\right|dt\approx1{,}493$. Phương án A là độ dời $\displaystyle\int_0^2v(t)\,dt$.
 
-::mc
+::mc VD
 Hàm $f$ có $f(0)=1$ và $f'(x)=\sqrt{1+x^3}$. Giá trị $f(2)$ là
 A. $3{,}000$
 B. $3{,}241$
@@ -324,7 +324,7 @@ D. $4{,}241$
 ::key D
 $f(2)=1+\displaystyle\int_0^2\sqrt{1+x^3}\,dx\approx1+3{,}241$. Phương án B quên $f(0)$.
 
-::mc
+::mc TH
 Cho $g(x)=\ln\left(1+x^2\right)\cos x$. Giá trị $g'(2)$ là
 A. $-1{,}796$
 B. $-0{,}670$
@@ -333,7 +333,7 @@ D. $-0{,}333$
 ::key A
 Đạo hàm số tại $x=2$: $g'(2)\approx-1{,}796$. Phương án B là $g(2)$.
 
-::mc
+::mc VD
 Miền dưới $y=e^{-x}$ với $0\le x\le2$ quay quanh trục $x$. Thể tích khối tạo thành là
 A. $0{,}865$
 B. $2{,}716$
@@ -342,7 +342,7 @@ D. $0{,}491$
 ::key C
 $\pi\displaystyle\int_0^2e^{-2x}\,dx\approx1{,}542$. Phương án B dùng $\pi\displaystyle\int_0^2e^{-x}\,dx$ (không bình phương bán kính).
 
-::mc
+::mc VD
 Diện tích miền giới hạn bởi $y=\cos x$ và $y=x^2$ là
 A. $0{,}824$
 B. $1{,}095$
@@ -351,7 +351,7 @@ D. $1{,}648$
 ::key B
 Hai đường cắt nhau tại $x=\pm0{,}824$; $\displaystyle\int_{-0{,}824}^{0{,}824}\left(\cos x-x^2\right)dx\approx1{,}095$. Phương án C là một nửa miền.
 
-::mc
+::mc TH
 Giá trị trung bình của $f(x)=\ln(x+1)$ trên $[0,3]$ là
 A. $2{,}545$
 B. $1{,}386$
@@ -360,7 +360,7 @@ D. $0{,}848$
 ::key D
 $\dfrac13\displaystyle\int_0^3\ln(x+1)\,dx\approx0{,}848$. Phương án A là tích phân; phương án C là tốc độ thay đổi trung bình.
 
-::mc
+::mc VD
 Cho $f(x)=\arctan x+x^2$. Dùng tiếp tuyến của đồ thị $f$ tại $x=1$, giá trị gần đúng của $f(1{,}1)$ là
 A. $2{,}035$
 B. $2{,}043$
@@ -369,7 +369,7 @@ D. $2{,}500$
 ::key A
 $f(1)\approx1{,}785$ và $f'(1)=\dfrac12+2=2{,}5$, nên $f(1{,}1)\approx1{,}785+0{,}25=2{,}035$. Phương án B là giá trị đúng.
 
-::mc
+::mc VD
 Với $f(x)=\sqrt x$ trên $[1,4]$, giá trị $c$ nào thoả mãn kết luận của định lí giá trị trung bình?
 A. $2{,}5$
 B. $2{,}25$
@@ -378,7 +378,7 @@ D. $1{,}5$
 ::key B
 $\dfrac{2-1}{4-1}=\dfrac13=\dfrac{1}{2\sqrt c}$, nên $\sqrt c=1{,}5$ và $c=2{,}25$. Phương án D là $\sqrt c$.
 
-::mc
+::mc VD
 Dân số một thị trấn thay đổi với tốc độ $P'(t)=50-4te^{0{,}1t}$ người mỗi năm, $0\le t\le10$. Dân số lớn nhất vào thời điểm nào?
 A. $t=0$
 B. $t=10$
@@ -387,7 +387,7 @@ D. $t=6{,}515$
 ::key D
 $P'$ chỉ đổi dấu từ dương sang âm tại $t\approx6{,}515$, nên dân số lớn nhất tại đó.
 
-::mc
+::mc VD
 Một hạt chuyển động thẳng với vận tốc $v(t)=2\sin t+\cos(2t)$. Tổng quãng đường hạt đi được từ $t=0$ đến $t=4$ là
 A. $3{,}802$
 B. $1{,}659$
@@ -396,7 +396,7 @@ D. $3{,}516$
 ::key C
 $v$ đổi dấu tại $t\approx3{,}516$; $\displaystyle\int_0^4|v(t)|\,dt\approx4{,}602$. Phương án A là độ dời.
 
-::mc
+::mc VD
 Một hạt có vận tốc $v(t)=\ln\left(t^2+1\right)-1$. Tại $t=1{,}5$, khẳng định nào đúng?
 A. Hạt đi sang trái và chậm dần.
 B. Hạt đi sang phải và chậm dần.

@@ -400,7 +400,7 @@ From $x^2=16-y^2$: $\dfrac{16-y^2}{25}+\dfrac{y^2}{9}=1\iff 9(16-y^2)+25y^2=225\
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The foci of the ellipse $\dfrac{x^2}{36}+\dfrac{y^2}{20}=1$ are
 A. $(\pm4, 0)$.
 B. $(\pm2\sqrt{14}, 0)$.
@@ -409,7 +409,7 @@ D. $(\pm16, 0)$.
 ::key A
 For an ellipse $c^2=a^2-b^2=36-20=16$, so $c=4$. Option B uses $c^2=a^2+b^2$ (the hyperbola formula), C gives the vertices, and D forgets the square root.
 
-::mc
+::mc NB
 The asymptotes of the hyperbola $\dfrac{x^2}{16}-\dfrac{y^2}{9}=1$ are
 A. $y=\pm\dfrac43x$.
 B. $y=\pm\dfrac34x$.
@@ -418,7 +418,7 @@ D. $y=\pm\dfrac54x$.
 ::key B
 $a=4$ and $b=3$, so the asymptotes are $y=\pm\dfrac bax=\pm\dfrac34x$. Option A turns the fraction upside down, and C uses $\dfrac{b^2}{a^2}$.
 
-::mc
+::mc TH
 The focus of the parabola $y^2=6x$ is
 A. $(3, 0)$.
 B. $(6, 0)$.
@@ -427,7 +427,7 @@ D. $\left(-\dfrac32, 0\right)$.
 ::key C
 $2p=6$, so $p=3$ and the focus is $\left(\dfrac p2, 0\right)=\left(\dfrac32, 0\right)$. Option A confuses $p$ with $\dfrac p2$; D lies on the directrix $x=-\dfrac32$.
 
-::mc
+::mc VD
 An ellipse has a major axis of length $10$ and its foci are $6$ apart (on $Ox$). Its standard equation is
 A. $\dfrac{x^2}{25}+\dfrac{y^2}{34}=1$.
 B. $\dfrac{x^2}{100}+\dfrac{y^2}{64}=1$.
@@ -436,7 +436,7 @@ D. $\dfrac{x^2}{25}+\dfrac{y^2}{9}=1$.
 ::key C
 $2a=10$ and $2c=6$, so $a=5$, $c=3$ and $b^2=a^2-c^2=16$. Option B uses the lengths $10$ and $6$ as $a$ and $c$; A adds instead of subtracting.
 
-::tf
+::tf TH TH TH TH
 Consider the ellipse $(E): 4x^2+25y^2=100$ with foci $F_1$, $F_2$.
 a) The major axis of $(E)$ has length $10$.
 b) The foci of $(E)$ are $(\pm\sqrt{21}, 0)$.
@@ -445,12 +445,12 @@ d) The distance between the foci of $(E)$ is $\sqrt{21}$.
 ::key T T F F
 Dividing both sides by $100$: $\dfrac{x^2}{25}+\dfrac{y^2}{4}=1$, so $a=5$, $b=2$, $c^2=21$. a) True: $2a=10$. b) True: $c=\sqrt{21}$. c) False: $MF_1+MF_2=2a=10$. d) False: $F_1F_2=2c=2\sqrt{21}$.
 
-::sa
+::sa VD
 Consider the hyperbola $\dfrac{x^2}{9}-\dfrac{y^2}{16}=1$ with foci $F_1(-5, 0)$ and $F_2(5, 0)$. A point $M$ lies on the right-hand branch and $MF_1=10$. Find $MF_2$.
 ::key 4
 By definition $|MF_1-MF_2|=2a=6$. On the right-hand branch $M$ is closer to $F_2$, so $MF_1-MF_2=6$ and $MF_2=10-6=4$.
 
-::sa
+::sa VDC
 A gateway is half an ellipse, $10$ m wide at the base and $4$ m high at the top. A lorry $3.2$ m high wants to drive through. At most how many metres wide can its body be?
 ::key 6
 Put the origin at the middle of the base: $\dfrac{x^2}{25}+\dfrac{y^2}{16}=1$. For $y=3.2$: $x^2=25(1-0.64)=9$, so $x=\pm3$. The lorry can be at most $6$ m wide.

@@ -298,7 +298,7 @@ Cột B: $5+3=8$. Cột A: $8+4=12$. Tổng: $12+8+5=25$.
 Các câu dưới đây dùng biểu đồ số quyển sách mượn trong bài (T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$).
 
 :::quiz
-::mc
+::mc NB
 Cột cao nhất của biểu đồ cột ứng với
 A. số liệu nhỏ nhất.
 B. số liệu lớn nhất.
@@ -307,7 +307,7 @@ D. tổng các số liệu.
 ::key B
 Cột càng cao thì số liệu càng lớn. Phương án C là lỗi chọn cột bên trái nhất.
 
-::mc
+::mc NB
 Thứ Tư các bạn mượn bao nhiêu quyển sách?
 A. $6$ quyển.
 B. $10$ quyển.
@@ -316,7 +316,7 @@ D. $12$ quyển.
 ::key C
 Cột Thứ Tư ghi $8$. Phương án B là số của ngày Thứ Ba bên cạnh.
 
-::mc
+::mc TH
 Thứ Năm mượn nhiều hơn Thứ Hai bao nhiêu quyển?
 A. $18$ quyển.
 B. $8$ quyển.
@@ -325,7 +325,7 @@ D. $6$ quyển.
 ::key D
 $12-6=6$. Phương án A là lấy $12+6$, nhầm sang phép cộng.
 
-::mc
+::mc TH
 Cả tuần các bạn mượn tất cả bao nhiêu quyển?
 A. $40$ quyển.
 B. $8$ quyển.
@@ -334,7 +334,7 @@ D. $36$ quyển.
 ::key A
 $6+10+8+12+4=40$. Phương án D bỏ sót cột Thứ Sáu, B là trung bình mỗi ngày.
 
-::tf
+::tf NB NB TH TH
 Em xét biểu đồ số quyển sách mượn.
 a) Thứ Ba mượn $10$ quyển.
 b) Thứ Sáu là ngày mượn ít nhất.
@@ -343,12 +343,12 @@ d) Bốn ngày từ Thứ Hai đến Thứ Năm mượn tất cả $36$ quyển.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng: cột Thứ Sáu thấp nhất. c) Sai: chỉ Thứ Ba ($10$) và Thứ Năm ($12$) nhiều hơn $8$, tức $2$ ngày. d) Đúng: $6+10+8+12=36$.
 
-::sa
+::sa TH
 Thứ Ba mượn nhiều hơn Thứ Sáu bao nhiêu quyển?
 ::key 6
 $10-4=6$.
 
-::sa
+::sa VD
 Trung bình mỗi ngày trong tuần các bạn mượn bao nhiêu quyển?
 ::key 8
 $(6+10+8+12+4):5=40:5=8$.

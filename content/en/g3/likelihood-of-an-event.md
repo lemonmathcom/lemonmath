@@ -317,7 +317,7 @@ b) You must take out all $3$ red marbles, and then only $5$ blue marbles are lef
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A box has $6$ yellow marbles. Shut your eyes and take out one. Getting a yellow marble is
 A. impossible.
 B. possible.
@@ -326,7 +326,7 @@ D. not known.
 ::key C
 There are only yellow marbles, so every marble you take out is yellow. Option B forgets that there is no other colour in the box.
 
-::mc
+::mc TH
 A box has $3$ red marbles and $2$ blue marbles. Take out one. Getting a blue marble is
 A. certain.
 B. impossible.
@@ -335,7 +335,7 @@ D. possible.
 ::key D
 The box has both red and blue marbles, so getting blue is possible. Option A mixes up "possible" and "certain".
 
-::mc
+::mc TH
 A box has $3$ cards with the numbers $1$, $2$, $3$. Take out one. Getting the card with $7$ is
 A. possible.
 B. impossible.
@@ -344,7 +344,7 @@ D. not known.
 ::key B
 There is no card with $7$ in the box. Option A comes from not looking in the box.
 
-::mc
+::mc TH
 Which event is certain?
 A. It rains tomorrow.
 B. Tuesday comes after Monday.
@@ -353,7 +353,7 @@ D. You win the chess game this afternoon.
 ::key B
 Tuesday always comes after Monday. A and D are possible, and C is impossible.
 
-::tf
+::tf NB TH NB TH
 A box has $4$ blue marbles and $1$ red marble. Take out one.
 a) It is possible to get a red marble.
 b) You are certain to get a blue marble.
@@ -362,12 +362,12 @@ d) You are certain to get a red or a blue marble.
 ::key T F T T
 a) True: the red marble is in the box. b) False: the red marble might still be taken out. c) True: there is no yellow marble. d) True: every marble in the box is red or blue.
 
-::sa
+::sa TH
 A box has $5$ red marbles and $3$ blue marbles. Take out one. How many different colours might you get?
 ::key 2
 The box has red and blue marbles, so you might get $2$ colours.
 
-::sa
+::sa VDC
 A box has $5$ red marbles and $3$ blue marbles. How many blue marbles must you take out so that you are certain to get a red marble?
 ::key 3
 You must take out all $3$ blue marbles so that only red marbles are left.

@@ -331,7 +331,7 @@ Số cần tìm nhân với $100$ được $35\,000$ nên số đó là $35\,000
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $207\times100$ là
 A. $2\,070$.
 B. $207\,100$.
@@ -340,7 +340,7 @@ D. $2\,700$.
 ::key C
 Nhân với $100$ thì thêm hai chữ số 0: $207\times100=20\,700$. Phương án A chỉ thêm một chữ số 0.
 
-::mc
+::mc NB
 Kết quả của $12\,000:100$ là
 A. $12$.
 B. $1\,200$.
@@ -349,7 +349,7 @@ D. $120$.
 ::key D
 Chia cho $100$ thì bỏ hai chữ số 0: $12\,000:100=120$. Phương án A bỏ ba chữ số 0, phương án B chỉ bỏ một chữ số 0.
 
-::mc
+::mc NB
 Số thích hợp điền vào chỗ chấm: $3$ tấn $=\ldots$ kg là
 A. $3\,000$.
 B. $300$.
@@ -358,7 +358,7 @@ D. $30\,000$.
 ::key A
 $1$ tấn $=1\,000$ kg nên $3$ tấn $=3\times1\,000=3\,000$ kg.
 
-::mc
+::mc TH
 Kết quả của $45\times30$ là
 A. $135$.
 B. $1\,350$.
@@ -367,7 +367,7 @@ D. $13\,500$.
 ::key B
 $45\times30=(45\times3)\times10=135\times10=1\,350$. Phương án A quên nhân với $10$, phương án C là phép cộng.
 
-::tf
+::tf NB TH NB TH
 Em xét các phép tính sau.
 a) $8\times1\,000=8\,000$.
 b) $4\,000:100=4$.
@@ -376,12 +376,12 @@ d) $7\,200:400=18$.
 ::key Đ S S Đ
 a) Đúng: thêm ba chữ số 0. b) Sai: bỏ hai chữ số 0 được $40$. c) Sai: $2$ tấn $=2\,000$ kg. d) Đúng: $72:4=18$.
 
-::sa
+::sa TH
 Tính $6\,500:100$.
 ::key 65
 Bỏ hai chữ số 0 ở số bị chia: $6\,500:100=65$.
 
-::sa
+::sa VD
 Một cuộn dây dài $8$ m được cắt thành các đoạn, mỗi đoạn dài $10$ cm. Cắt được bao nhiêu đoạn?
 ::key 80
 $8$ m $=800$ cm và $800:10=80$ (đoạn).

@@ -330,7 +330,7 @@ b) Total: $4\,980+3\,735=8\,715$ seeds. Together there are $4+3=7$ bags of $1\,2
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The answer to $2\,456\times3$ is
 A. $6\,258$.
 B. $7\,358$.
@@ -339,7 +339,7 @@ D. $2\,459$.
 ::key C
 $6\times3=18$ write $8$ carry $1$; $5\times3=15$, add $1$ to get $16$ write $6$ carry $1$; $4\times3=12$, add $1$ to get $13$ write $3$ carry $1$; $2\times3=6$, add $1$ to get $7$. Option A drops every carry, B forgets the carry from the ones, D is the addition $2\,456+3$.
 
-::mc
+::mc NB
 When you work out $1\,524\times3$, which place do you multiply first?
 A. The thousands.
 B. The hundreds.
@@ -348,7 +348,7 @@ D. The ones.
 ::key D
 You multiply from right to left, starting with the ones, so that each carry moves to the place on the left.
 
-::mc
+::mc TH
 Each box holds $1\,400$ books. How many books are there in $5$ such boxes?
 A. $5\,000$ books.
 B. $7\,000$ books.
@@ -357,7 +357,7 @@ D. $1\,405$ books.
 ::key B
 $1\,400\times5=7\,000$: $4\times5=20$ write $0$ carry $2$, $1\times5=5$ add $2$ to get $7$. Option A forgets the carry, C is missing a $0$, D is the addition $1\,400+5$.
 
-::mc
+::mc TH
 Mai buys $4$ packets of biscuits at $2\,150$ dong each. How much does Mai pay?
 A. $2\,154$ dong.
 B. $8\,400$ dong.
@@ -366,7 +366,7 @@ D. $8\,000$ dong.
 ::key C
 $2\,150\times4=8\,600$: $5\times4=20$ write $0$ carry $2$, $1\times4=4$ add $2$ to get $6$, $2\times4=8$. Option B forgets the carried $2$, D only multiplies the thousands digit.
 
-::tf
+::tf NB TH TH TH
 Look at the multiplication $1\,325\times3$.
 a) The ones digit of the product is $5$.
 b) In the tens, you must add a carried $1$.
@@ -375,12 +375,12 @@ d) The product is greater than $3\,900$.
 ::key T T F T
 a) True: $5\times3=15$, write $5$. b) True: carry $1$ from $15$. c) False: $1\,325\times3=3\,975$. d) True: $3\,975>3\,900$.
 
-::sa
+::sa TH
 Work out $1\,203\times3$.
 ::key 3609
 $3\times3=9$, $0\times3=0$, $2\times3=6$, $1\times3=3$, so the product is $3\,609$.
 
-::sa
+::sa TH
 A lorry makes $4$ trips and carries $1\,800$ bricks on each trip. How many bricks does it carry altogether?
 ::key 7200
 $1\,800\times4=7\,200$ (bricks).

@@ -352,7 +352,7 @@ So the new ticket price is $40$ thousand dong.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The product of two consecutive natural numbers is $110$. If the smaller number is $x$, which equation is correct?
 A. $x+(x+1)=110$.
 B. $x(x+1)=110$.
@@ -361,7 +361,7 @@ D. $2x+1=110$.
 ::key B
 The next number is $x+1$ and their product is $x(x+1)$. A and D use the sum, and C confuses $x(x+1)$ with $x^2+1$.
 
-::mc
+::mc VD
 A car travels $90$ km at a speed of $x$ (km/h). If it went $15$ km/h faster, it would arrive $1$ hour earlier. Which equation is correct?
 A. $\dfrac{90}{x}-\dfrac{90}{x+15}=1$.
 B. $\dfrac{90}{x+15}-\dfrac{90}{x}=1$.
@@ -370,7 +370,7 @@ D. $90x-90(x+15)=1$.
 ::key A
 The original time is longer, so $\dfrac{90}{x}-\dfrac{90}{x+15}=1$. B subtracts the wrong way round, C adds instead of subtracting, and D multiplies instead of dividing.
 
-::mc
+::mc TH
 In a problem where the unknown $x$ is a width (m), we get the equation $x^2+3x-70=0$ with roots $7$ and $-10$. The width is
 A. $7$ m or $10$ m.
 B. $-10$ m.
@@ -379,7 +379,7 @@ D. $7$ m.
 ::key D
 The condition $x>0$ rejects $-10$; A and C wrongly drop the minus sign.
 
-::mc
+::mc VD
 The price of a product rises from $200$ thousand dong to $242$ thousand dong after two increases, each by $r\%$ of the previous price. The value of $r$ is
 A. $11$.
 B. $21$.
@@ -388,7 +388,7 @@ D. $10$.
 ::key D
 $\left(1+\dfrac{r}{100}\right)^2=\dfrac{242}{200}=1.21$, so $1+\dfrac{r}{100}=1.1$, that is $r=10$. B is the total increase, C divides $21\%$ by $2$, and A takes $\sqrt{121}=11$ by mistake.
 
-::tf
+::tf TH TH VD VD
 A rectangular garden is $4$ m longer than it is wide and has area $96$ m². Let the width be $x$ (m), $x>0$. Decide whether each statement is true or false.
 a) The length of the garden is $x+4$ (m).
 b) We have the equation $x^2+4x-96=0$.
@@ -397,12 +397,12 @@ d) The perimeter of the garden is $40$ m.
 ::key T T F T
 a) True. b) True: $x(x+4)=96$. c) False: $\Delta'=100$, $x=-2+10=8$. d) True: $2(8+12)=40$.
 
-::sa
+::sa VD
 The product of two consecutive even natural numbers is $288$. Find the larger number.
 ::key 18
 $x(x+2)=288\Leftrightarrow x^2+2x-288=0$, $\Delta'=289$, $x=16$; the larger number is $18$.
 
-::sa
+::sa VD
 Suppose the population of a ward grows from $20\,000$ to $20\,808$ people in $2$ years, at the same rate of $r\%$ each year. Find $r$.
 ::key 2
 $\left(1+\dfrac{r}{100}\right)^2=1.0404$, so $1+\dfrac{r}{100}=1.02$, that is $r=2$.

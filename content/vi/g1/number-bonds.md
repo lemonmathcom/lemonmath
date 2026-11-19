@@ -245,7 +245,7 @@ Phần đầu $1$: đếm từ $1$ lên $4$ được $3$. Phần đầu $2$: đ�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 $5$ gồm $2$ và
 A. $2$.
 B. $7$.
@@ -254,7 +254,7 @@ D. $3$.
 ::key D
 Đếm từ $2$ lên $5$: "ba, bốn, năm", có $3$ số. Phương án B là lấy hai số ghép lại thay cho tìm phần thiếu.
 
-::mc
+::mc NB
 $6$ gồm $4$ và
 A. $2$.
 B. $1$.
@@ -263,7 +263,7 @@ D. $10$.
 ::key A
 Từ $4$ lên $6$ có $2$ số. Phương án B thiếu một số.
 
-::mc
+::mc TH
 Cách tách nào đúng với số $7$?
 A. $5$ và $3$.
 B. $3$ và $4$.
@@ -272,7 +272,7 @@ D. $4$ và $4$.
 ::key B
 Chỉ $3$ và $4$ ghép lại đủ $7$. Các phương án A, C, D đều ghép thành $8$.
 
-::mc
+::mc NB
 $8$ gồm $5$ và
 A. $2$.
 B. $4$.
@@ -281,7 +281,7 @@ D. $13$.
 ::key C
 Từ $5$ lên $8$ có $3$ số. Phương án A thiếu một số.
 
-::tf
+::tf NB NB TH TH
 Em xét số $6$.
 a) $6$ gồm $1$ và $5$.
 b) $6$ gồm $2$ và $4$.
@@ -290,12 +290,12 @@ d) $6$ gồm $5$ và $1$.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng. c) Sai: $3$ và $4$ ghép thành bảy. d) Đúng: đổi chỗ hai phần của $1$ và $5$.
 
-::sa
+::sa TH
 $9$ gồm $4$ và mấy?
 ::key 5
 Từ $4$ lên $9$: "năm, sáu, bảy, tám, chín", có $5$ số.
 
-::sa
+::sa TH
 $10$ gồm $7$ và mấy?
 ::key 3
 Từ $7$ lên $10$: "tám, chín, mười", có $3$ số.

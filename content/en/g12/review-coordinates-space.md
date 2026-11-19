@@ -457,7 +457,7 @@ So $a+b+c=-1$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 In $Oxyz$, let $A(1, 2, 3)$ and $B(3, 0, 4)$. The length of $AB$ is
 A. $9$.
 B. $3$.
@@ -466,7 +466,7 @@ D. $5$.
 ::key B
 $\overrightarrow{AB}=(2, -2, 1)$ and $AB=\sqrt{4+4+1}=3$. Option A forgets the square root, option C drops the $z$-coordinate, and option D adds the absolute values.
 
-::mc
+::mc NB
 A normal vector of the plane $(P)\colon 2x-3z+1=0$ is
 A. $(2, -3, 1)$.
 B. $(2, 0, -3)$.
@@ -475,7 +475,7 @@ D. $(0, 2, -3)$.
 ::key B
 The coefficients of $x$, $y$, $z$ are $2$, $0$, $-3$. The other options ignore the missing $y$ or use the constant term by mistake.
 
-::mc
+::mc NB
 The line through $A(1, -1, 2)$ with direction vector $\vec u=(2, 1, -1)$ has parametric equations
 A. $x=1+2t$, $y=-1+t$, $z=2-t$.
 B. $x=2+t$, $y=1-t$, $z=-1+2t$.
@@ -484,7 +484,7 @@ D. $x=-1+2t$, $y=1+t$, $z=-2-t$.
 ::key A
 The coordinates of the point stand alone and the components of the direction vector go with $t$. Option B swaps the point and the vector; C and D have wrong signs for the coordinates of $A$.
 
-::mc
+::mc TH
 The angle between the planes $(P)\colon x-z=0$ and $(Q)\colon y-z=0$ is
 A. $30^\circ$.
 B. $45^\circ$.
@@ -493,7 +493,7 @@ D. $90^\circ$.
 ::key C
 $\vec n_P=(1, 0, -1)$, $\vec n_Q=(0, 1, -1)$ and $\cos\varphi=\dfrac{|1|}{\sqrt2\cdot\sqrt2}=\dfrac12$, so $\varphi=60^\circ$.
 
-::tf
+::tf NB TH TH VD
 Consider the sphere $(S)\colon(x-1)^2+(y+2)^2+z^2=9$ and the plane $(P)\colon 2x+y-2z+3=0$.
 a) $(S)$ has centre $I(1, -2, 0)$.
 b) $(S)$ has radius $9$.
@@ -502,12 +502,12 @@ d) $(P)$ cuts $(S)$ in a circle of radius $2\sqrt2$.
 ::key T F T T
 a) True. b) False: $R=\sqrt9=3$. c) True: $\dfrac{|2-2-0+3|}{3}=1$. d) True: $r=\sqrt{9-1}=2\sqrt2$.
 
-::sa
+::sa VD
 Find the distance between the parallel planes $(P)\colon 2x-y+2z+1=0$ and $(Q)\colon 2x-y+2z-8=0$.
 ::key 3
 Take $M(0, 1, 0)\in(P)$; $d(M, (Q))=\dfrac{|0-1+0-8|}{3}=3$.
 
-::sa
+::sa TH
 In a room, choose axes $Oxyz$ (unit: m) with the origin $O$ at a corner of the floor. A light bulb hangs at the point $L(2, 3, 4)$. Find the distance from the bulb to the corner $O$ (in m, to 2 decimal places).
 ::key 5.39
 $OL=\sqrt{4+9+16}=\sqrt{29}\approx5.385$, which rounds to $5.39$.

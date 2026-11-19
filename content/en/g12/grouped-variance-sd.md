@@ -366,7 +366,7 @@ $$s^2_{\text{new}}=3600\cdot1.1275=4059,\qquad s_{\text{new}}=60\cdot\sqrt{1.127
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 In grouped data, the class midpoint of the class $[20, 30)$ is
 A. $20$.
 B. $25$.
@@ -375,7 +375,7 @@ D. $10$.
 ::key B
 The class midpoint is the middle of the class: $\dfrac{20+30}{2}=25$. Options A and C are the class ends, and option D is the class width.
 
-::mc
+::mc NB
 A set of grouped data has variance $s^2=2.25$. Its standard deviation is
 A. $1.125$.
 B. $5.0625$.
@@ -384,7 +384,7 @@ D. $1.5$.
 ::key D
 $s=\sqrt{s^2}=\sqrt{2.25}=1.5$. Option B squares instead of taking the square root, and option A halves instead of taking the square root.
 
-::mc
+::mc VD
 The variance of the following grouped data is
 
 | Class | $[0, 2)$ | $[2, 4)$ | $[4, 6)$ | $[6, 8)$ |
@@ -398,7 +398,7 @@ D. $0$.
 ::key A
 The class midpoints are $1$, $3$, $5$, $7$ and $\bar{x}=4$; the deviations are $-3$, $-1$, $1$, $3$. $s^2=\dfrac{2\cdot9+3\cdot1+3\cdot1+2\cdot9}{10}=4.2$. Option B forgets the frequencies, option C is the standard deviation, and option D adds the deviations without squaring them.
 
-::mc
+::mc TH
 Two sets of grouped data $A$ and $B$ have the same mean, with standard deviations $s_A=2.1$ and $s_B=3.4$. Which statement is correct?
 A. $A$ certainly has a smaller range than $B$.
 B. The data in $B$ are more even than the data in $A$.
@@ -407,7 +407,7 @@ D. The two data sets have the same spread.
 ::key C
 With the same mean, a smaller standard deviation means the data are less spread out. The standard deviation does not decide the range for certain, so A is wrong.
 
-::tf
+::tf NB TH VD TH
 The weekly running distances (km) of $20$ people are given in the table.
 
 | Distance (km) | $[10, 20)$ | $[20, 30)$ | $[30, 40)$ | $[40, 50)$ |
@@ -421,7 +421,7 @@ d) If every value is converted to a different unit by multiplying by $2$, the ne
 ::key T T T F
 a) True: $\dfrac{30+40}{2}=35$. b) True: $\bar{x}=\dfrac{60+150+280+90}{20}=29$. c) True: $\dfrac{\sum n_ix_i^2}{n}=\dfrac{18500}{20}=925$ and $s^2=925-29^2=84$. d) False: every deviation is multiplied by $2$, so the variance is multiplied by $4$ and becomes $336$.
 
-::sa
+::sa VD
 The weekly private study times (hours) of $30$ students are given in the table. Find the standard deviation of the data, giving your answer to 2 decimal places.
 
 | Time (hours) | $[0, 3)$ | $[3, 6)$ | $[6, 9)$ | $[9, 12)$ |
@@ -431,7 +431,7 @@ The weekly private study times (hours) of $30$ students are given in the table. 
 ::key 2.65
 The class midpoints are $1.5$, $4.5$, $7.5$, $10.5$. $\bar{x}=\dfrac{183}{30}=6.1$ and $\dfrac{\sum n_ix_i^2}{n}=\dfrac{1327.5}{30}=44.25$, so $s^2=44.25-6.1^2=7.04$ and $s\approx2.653$, which rounds to $2.65$.
 
-::sa
+::sa VD
 The lengths (mm) of $40$ machine parts are given in the table. Find the variance of the data, giving your answer to 2 decimal places.
 
 | Length (mm) | $[48, 49)$ | $[49, 50)$ | $[50, 51)$ | $[51, 52)$ |

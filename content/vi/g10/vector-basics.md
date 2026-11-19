@@ -398,7 +398,7 @@ Có $4$ cách chọn điểm đầu và $3$ cách chọn điểm cuối: $4\cdot
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Cho ba điểm phân biệt $A$, $B$, $C$. Có bao nhiêu vectơ khác vectơ-không có điểm đầu và điểm cuối là hai trong ba điểm đó?
 A. $3$.
 B. $6$.
@@ -407,7 +407,7 @@ D. $12$.
 ::key B
 Có $3$ cách chọn điểm đầu và $2$ cách chọn điểm cuối khác nó: $3\cdot2=6$ vectơ. Phương án A chỉ đếm đoạn thẳng (quên rằng $\overrightarrow{AB}\ne\overrightarrow{BA}$); phương án C đếm cả $\overrightarrow{AA}$, $\overrightarrow{BB}$, $\overrightarrow{CC}$.
 
-::mc
+::mc TH
 Cho hình bình hành $ABCD$. Đẳng thức nào sau đây đúng?
 A. $\overrightarrow{AB}=\overrightarrow{CD}$.
 B. $\overrightarrow{AB}=\overrightarrow{DC}$.
@@ -416,7 +416,7 @@ D. $\overrightarrow{AC}=\overrightarrow{BD}$.
 ::key B
 $\overrightarrow{AB}$ và $\overrightarrow{DC}$ cùng hướng và cùng độ dài. Phương án A và C viết sai thứ tự chữ nên được hai vectơ đối nhau; hai đường chéo ở D không cùng phương.
 
-::mc
+::mc TH
 Tam giác đều $ABC$ có cạnh $2$, $M$ là trung điểm của $BC$. Độ dài của $\overrightarrow{AM}$ là
 A. $\sqrt3$.
 B. $2$.
@@ -425,7 +425,7 @@ D. $\sqrt5$.
 ::key A
 $AM$ là đường cao: $AM=\sqrt{AB^2-BM^2}=\sqrt{4-1}=\sqrt3$. Phương án C là $|\overrightarrow{BM}|$; phương án D cộng nhầm $4+1$ trong định lí Pythagore.
 
-::mc
+::mc NB
 Khẳng định nào sau đây đúng?
 A. Hai vectơ có độ dài bằng nhau thì bằng nhau.
 B. Hai vectơ cùng phương thì cùng hướng.
@@ -434,7 +434,7 @@ D. Nếu $\overrightarrow{AB}$ và $\overrightarrow{CD}$ cùng phương thì b�
 ::key C
 Đây là quy ước. A sai vì còn cần cùng hướng; B sai vì hai vectơ cùng phương có thể ngược hướng; D sai vì hai giá có thể song song chứ không trùng nhau.
 
-::tf
+::tf TH TH TH TH
 Cho lục giác đều $ABCDEF$ có tâm $O$.
 a) $\overrightarrow{OA}=\overrightarrow{DO}$.
 b) $\overrightarrow{FE}=\overrightarrow{OB}$.
@@ -443,12 +443,12 @@ d) $|\overrightarrow{AD}|=2|\overrightarrow{AB}|$.
 ::key Đ S Đ Đ
 a) Đúng: $D$, $O$, $A$ thẳng hàng theo thứ tự đó và $DO=OA$. b) Sai: $FE\parallel AD$ còn $OB$ nằm trên đường thẳng $BE$, hai vectơ không cùng phương. c) Đúng: $O$ là trung điểm của $BE$. d) Đúng: $AD=2\cdot OA=2\cdot AB$.
 
-::sa
+::sa VD
 Cho hình bình hành $ABCD$; $M$, $N$ lần lượt là trung điểm của $AB$, $CD$. Có bao nhiêu vectơ có điểm đầu và điểm cuối thuộc tập $\{A, B, C, D, M, N\}$ và bằng $\overrightarrow{AM}$ (kể cả $\overrightarrow{AM}$)?
 ::key 4
 Các đoạn song song với $AB$ và dài bằng $\dfrac{AB}{2}$ là $AM$, $MB$, $DN$, $NC$. Lấy mỗi đoạn theo chiều cùng hướng với $\overrightarrow{AB}$, ta được $\overrightarrow{AM}$, $\overrightarrow{MB}$, $\overrightarrow{DN}$, $\overrightarrow{NC}$: có $4$ vectơ.
 
-::sa
+::sa VD
 Hình thoi $ABCD$ có cạnh $5$ và $\widehat{BAD}=60^\circ$. Tính $|\overrightarrow{AC}|$ (làm tròn đến hàng phần mười).
 ::key 8,7
 Đường chéo $AC$ là phân giác góc $A$ và vuông góc với $BD$, nên $AC=2\cdot5\cos30^\circ=5\sqrt3\approx8{,}66$, làm tròn được $8{,}7$.

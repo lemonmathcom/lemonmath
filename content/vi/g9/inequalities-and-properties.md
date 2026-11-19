@@ -390,7 +390,7 @@ Vậy $a^2+b^2+2\ge2(a+b)$ với mọi số $a$, $b$; dấu bằng xảy ra khi 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 "$x$ không vượt quá $5$" được viết là
 A. $x<5$.
 B. $x\le5$.
@@ -399,7 +399,7 @@ D. $x>5$.
 ::key B
 "Không vượt quá" cho phép bằng $5$. A bỏ mất trường hợp bằng; C, D sai chiều.
 
-::mc
+::mc TH
 Cho $a<b$. Khẳng định nào đúng?
 A. $-2a<-2b$.
 B. $a-3>b-3$.
@@ -408,7 +408,7 @@ D. $-a<-b$.
 ::key C
 Nhân với $3>0$ giữ chiều. A, D quên đổi chiều khi nhân với số âm; B đổi chiều sai khi trừ.
 
-::mc
+::mc TH
 Cho $a>b$. So sánh $1-4a$ và $1-4b$.
 A. $1-4a<1-4b$.
 B. $1-4a>1-4b$.
@@ -417,7 +417,7 @@ D. Không so sánh được.
 ::key A
 $-4a<-4b$ (đổi chiều), cộng $1$ được $1-4a<1-4b$. B quên đổi chiều.
 
-::mc
+::mc TH
 Khẳng định nào đúng với **mọi** số $a$, $b$?
 A. Nếu $a<b$ thì $a^2<b^2$.
 B. Nếu $a<b$ thì $-a<-b$.
@@ -426,7 +426,7 @@ D. $a^2+1>0$.
 ::key D
 $a^2\ge0$ nên $a^2+1\ge1>0$. A sai với $a=-3$, $b=1$; C sai với $a=-1$; B quên đổi chiều.
 
-::tf
+::tf NB TH TH TH
 Cho $a>b$.
 a) $a+2>b+2$.
 b) $-5a>-5b$.
@@ -435,12 +435,12 @@ d) $a^2>b^2$.
 ::key Đ S Đ S
 a) Đúng: cộng giữ chiều. b) Sai: nhân với $-5$ phải đổi chiều. c) Đúng: cộng $-b$ vào hai vế. d) Sai: chẳng hạn $1>-3$ nhưng $1<9$.
 
-::sa
+::sa TH
 Có bao nhiêu số nguyên $x$ thoả mãn $-3<x\le2$?
 ::key 5
 Đó là $-2$, $-1$, $0$, $1$, $2$ (không lấy $-3$, có lấy $2$).
 
-::sa
+::sa VD
 Tìm giá trị nhỏ nhất của biểu thức $(x-3)^2+4$.
 ::key 4
 $(x-3)^2\ge0$ nên biểu thức $\ge4$, và bằng $4$ khi $x=3$.

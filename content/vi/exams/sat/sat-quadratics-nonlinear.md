@@ -294,7 +294,7 @@ $D=m^2-4=0$ cho $m=\pm2$, và vì $m>0$ nên $m=2$. Đường thẳng $y=2x-1$ t
 :::
 
 :::quiz
-::mc
+::mc NB
 Đỉnh của đồ thị $y=(x-4)^2+3$ là
 A. $(-4, 3)$
 B. $(4, -3)$
@@ -303,7 +303,7 @@ D. $(3, 4)$
 ::key C
 Trong $a(x-h)^2+k$, đỉnh là $(h, k)=(4, 3)$. Phương án A là lỗi dấu quen thuộc.
 
-::mc
+::mc TH
 Phương trình $x^2-4x+5=0$ có bao nhiêu nghiệm thực?
 A. $0$
 B. $1$
@@ -312,7 +312,7 @@ D. Vô số
 ::key A
 $D=16-20=-4<0$, nên phương trình không có nghiệm thực.
 
-::mc
+::mc TH
 Nghiệm của $x^2-x-12=0$ là
 A. $-4$ và $3$
 B. $4$ và $-3$
@@ -321,7 +321,7 @@ D. $12$ và $-1$
 ::key B
 $(x-4)(x+3)=0$. Phương án A đúng số nhưng sai dấu.
 
-::mc
+::mc VD
 Giá trị lớn nhất của $f(x)=-2x^2+8x-3$ là
 A. $2$
 B. $3$
@@ -330,7 +330,7 @@ D. $5$
 ::key D
 Đỉnh tại $x=-\dfrac{8}{2\cdot(-2)}=2$, và $f(2)=-8+16-3=5$. Phương án A là chỗ đạt giá trị lớn nhất, không phải giá trị đó.
 
-::tf
+::tf TH TH TH NB
 Hàm số $f$ được cho bởi $f(x)=x^2-6x+8$.
 a) Các nghiệm của $f$ là $2$ và $4$.
 b) Đỉnh của đồ thị $y=f(x)$ là $(3, -1)$.
@@ -339,12 +339,12 @@ d) Đồ thị $y=f(x)$ cắt trục $y$ tại $(0, 8)$.
 ::key Đ Đ S Đ
 a) Đúng: $(x-2)(x-4)$. b) Đúng: $f(3)=9-18+8=-1$. c) Sai: $(x-3)^2-1$. d) Đúng: $f(0)=8$.
 
-::sa
+::sa TH
 Nghiệm dương của $x^2+2x-15=0$ là bao nhiêu?
 ::key 3
 $(x+5)(x-3)=0$, nên $x=3$ hoặc $x=-5$.
 
-::sa
+::sa VD
 Nghiệm của $\sqrt{x+12}=x$ là bao nhiêu?
 ::key 4
 $x^2-x-12=0$ cho $x=4$ hoặc $x=-3$; $x=-3$ là nghiệm ngoại lai vì $\sqrt9=3\ne-3$.

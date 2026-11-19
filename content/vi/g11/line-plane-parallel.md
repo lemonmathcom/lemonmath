@@ -299,7 +299,7 @@ Vì $AC\parallel(\alpha)$, mặt phẳng $(ABC)$ chứa $AC$ cắt $(\alpha)$ th
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Số điểm chung của một đường thẳng và một mặt phẳng không thể là
 A. $2$.
 B. $0$.
@@ -308,7 +308,7 @@ D. vô số.
 ::key A
 Nếu đường thẳng có hai điểm chung với mặt phẳng thì nó nằm trong mặt phẳng, nên có vô số điểm chung. Vậy số điểm chung là $0$, $1$ hoặc vô số, không thể là $2$.
 
-::mc
+::mc NB
 Cho hai đường thẳng $a\parallel b$ với $b\subset(P)$ và $a\not\subset(P)$. Khi đó
 A. $a$ cắt $(P)$.
 B. $a\parallel(P)$.
@@ -317,7 +317,7 @@ D. $a$ chéo nhau với $(P)$.
 ::key B
 Đây là điều kiện để đường thẳng song song với mặt phẳng. Phương án C trái với giả thiết $a\not\subset(P)$.
 
-::mc
+::mc TH
 Cho tứ diện $ABCD$; $M$, $N$ là trung điểm của $AB$, $AC$. Đường thẳng $MN$ song song với mặt phẳng nào sau đây?
 A. $(ABC)$.
 B. $(ABD)$.
@@ -326,7 +326,7 @@ D. $(ACD)$.
 ::key C
 $MN\parallel BC\subset(BCD)$ và $MN\not\subset(BCD)$. Phương án A chứa $MN$, các phương án B và D cắt $MN$ lần lượt tại $M$ và $N$.
 
-::mc
+::mc NB
 Cho $d\parallel(P)$, mặt phẳng $(Q)$ chứa $d$ và cắt $(P)$ theo giao tuyến $a$. Khẳng định nào sau đây đúng?
 A. $a$ cắt $d$.
 B. $a$ và $d$ chéo nhau.
@@ -335,7 +335,7 @@ D. $a\parallel d$.
 ::key D
 Đây là tính chất 1: $a$ và $d$ cùng nằm trong $(Q)$ và không có điểm chung nên song song.
 
-::tf
+::tf TH NB TH TH
 Cho hình chóp $S.ABCD$ có đáy là hình bình hành $ABCD$. Xét tính đúng sai của các mệnh đề sau:
 a) $AD\parallel(SBC)$.
 b) $SA\parallel(ABCD)$.
@@ -344,12 +344,12 @@ d) $AB\parallel(SAD)$.
 ::key Đ S Đ S
 a) Đúng: $AD\parallel BC\subset(SBC)$. b) Sai: $SA$ cắt $(ABCD)$ tại $A$. c) Đúng: $BC\parallel AD\subset(SAD)$. d) Sai: $AB$ cắt $(SAD)$ tại $A$.
 
-::sa
+::sa VD
 Mỗi cạnh của hình lập phương song song với bao nhiêu mặt của nó?
 ::key 2
 Cạnh $AB$ song song với hai mặt $(CDD'C')$ và $(A'B'C'D')$; nó nằm trong hai mặt và cắt hai mặt còn lại.
 
-::sa
+::sa TH
 Hình hộp $ABCD.A'B'C'D'$ có bao nhiêu cạnh song song với mặt phẳng $(ABCD)$?
 ::key 4
 Đó là bốn cạnh của mặt trên $A'B'C'D'$; bốn cạnh đáy nằm trong $(ABCD)$ và bốn cạnh bên cắt $(ABCD)$.

@@ -286,7 +286,7 @@ Vậy hình nón có thể tích khoảng $302\text{ cm}^3$.
 :::
 
 :::quiz
-::mc
+::mc NB
 Thể tích hình nón bán kính $r$, chiều cao $h$ là
 A. $\pi r^2h$
 B. $\tfrac13\pi r^2h$
@@ -295,7 +295,7 @@ D. $\tfrac43\pi r^3$
 ::key B
 Một phần ba hình trụ.
 
-::mc
+::mc TH
 $1\text{ m}^3$ bằng bao nhiêu lít?
 A. $1000$
 B. $100$
@@ -304,7 +304,7 @@ D. $1.000.000$
 ::key A
 $1\text{ m}^3=1.000.000\text{ cm}^3$ và $1$ lít $=1000\text{ cm}^3$.
 
-::mc
+::mc NB
 Diện tích mặt cầu bán kính $r$ là
 A. $2\pi r^2$
 B. $\tfrac43\pi r^3$
@@ -313,7 +313,7 @@ D. $\pi r^2$
 ::key C
 Bốn lần diện tích hình tròn lớn.
 
-::mc
+::mc TH
 Hình quạt có góc $90^\circ$, bán kính $4$ cm. Diện tích của nó là
 A. $16\pi$
 B. $8\pi$
@@ -322,7 +322,7 @@ D. $4\pi$
 ::key D
 Một phần tư của $16\pi$.
 
-::tf
+::tf TH TH VD TH
 Một hình trụ có bán kính $2$ cm, chiều cao $5$ cm. Mỗi khẳng định sau đúng hay sai?
 a) Thể tích là $20\pi\text{ cm}^3$.
 b) Diện tích xung quanh là $20\pi\text{ cm}^2$.
@@ -331,12 +331,12 @@ d) Gấp đôi bán kính thì thể tích gấp đôi.
 ::key T T T F
 Thể tích phụ thuộc $r^2$, nên được nhân với $4$.
 
-::sa
+::sa NB
 Tính thể tích hình lập phương cạnh $3$ cm (đơn vị $\text{cm}^3$).
 ::key 27
 $3^3=27$.
 
-::sa
+::sa TH
 $2\text{ m}^3$ bằng bao nhiêu lít?
 ::key 2000
 $2\times1000$.

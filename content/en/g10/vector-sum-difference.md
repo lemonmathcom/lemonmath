@@ -448,7 +448,7 @@ The difference of the two sides is $\vec{0}$, so the two sides are equal.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 For any three points $A$, $B$, $C$, the vector $\overrightarrow{AB}+\overrightarrow{CA}$ equals
 A. $\vec{0}$.
 B. $\overrightarrow{BC}$.
@@ -457,7 +457,7 @@ D. $\overrightarrow{CB}$.
 ::key D
 Reorder so that the head of the first vector is the tail of the second: $\overrightarrow{CA}+\overrightarrow{AB}=\overrightarrow{CB}$. Option B has the opposite direction.
 
-::mc
+::mc NB
 For two points $A$, $B$ and any point $M$, $\overrightarrow{MA}-\overrightarrow{MB}$ equals
 A. $\overrightarrow{BA}$.
 B. $\overrightarrow{AB}$.
@@ -466,7 +466,7 @@ D. $2\overrightarrow{MA}$.
 ::key A
 The difference of two vectors with the same tail is the vector joining their heads, pointing to the head of the first one: $\overrightarrow{MA}-\overrightarrow{MB}=\overrightarrow{BA}$. Option B swaps the order.
 
-::mc
+::mc TH
 $ABCD$ is a square of side $3$. The magnitude of $\overrightarrow{AB}+\overrightarrow{AD}$ is
 A. $6$.
 B. $3$.
@@ -475,7 +475,7 @@ D. $0$.
 ::key C
 By the parallelogram rule, $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$, and $AC=\sqrt{3^2+3^2}=3\sqrt2$. Option A simply adds the two lengths.
 
-::mc
+::mc TH
 $M$ is the midpoint of the segment $AB$. Which claim is true?
 A. $\overrightarrow{MA}=\overrightarrow{MB}$.
 B. $\overrightarrow{MA}+\overrightarrow{MB}=\vec{0}$.
@@ -484,7 +484,7 @@ D. $\overrightarrow{MA}-\overrightarrow{MB}=\vec{0}$.
 ::key B
 $\overrightarrow{MA}$ and $\overrightarrow{MB}$ have the same length and opposite directions, so they are opposite vectors and their sum is $\vec{0}$. Options A and D treat opposite vectors as equal; in C, in fact $\overrightarrow{AM}+\overrightarrow{BM}=\vec{0}$.
 
-::tf
+::tf NB TH TH TH
 $ABCD$ is a rectangle with $AB=3$, $AD=4$ and centre $O$.
 a) $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$.
 b) $|\overrightarrow{AB}-\overrightarrow{AD}|=1$.
@@ -493,12 +493,12 @@ d) $|\overrightarrow{AB}+\overrightarrow{CD}|=6$.
 ::key T F T F
 a) True: the parallelogram rule. b) False: $\overrightarrow{AB}-\overrightarrow{AD}=\overrightarrow{DB}$, which has length $5$, not $4-3$. c) True: $O$ is the midpoint of $AC$ and of $BD$. d) False: $\overrightarrow{CD}=-\overrightarrow{AB}$, so the sum is $\vec{0}$, of length $0$.
 
-::sa
+::sa VD
 $ABCD$ is a square of side $6$. Find $|\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AC}|$ (rounded to the nearest whole number).
 ::key 17
 $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$, so the sum is $\overrightarrow{AC}+\overrightarrow{AC}$, a vector in the direction of $\overrightarrow{AC}$ and twice as long: $2\cdot6\sqrt2=12\sqrt2\approx16.97$, which rounds to $17$.
 
-::sa
+::sa VD
 Two forces of magnitudes $30$ N and $40$ N act on the same point at an angle of $60^\circ$ to each other. Find the magnitude of the resultant in newtons (rounded to the nearest whole number).
 ::key 61
 The resultant is the diagonal of the parallelogram on the two forces; in the triangle formed by the sides $30$, $40$ and this diagonal, the included angle is $180^\circ-60^\circ=120^\circ$. By the cosine rule, $F^2=900+1600-2\cdot30\cdot40\cos120^\circ=3700$, so $F\approx60.8$, which rounds to $61$ N.

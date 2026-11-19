@@ -288,7 +288,7 @@ $$\left(1-\dfrac{1}{2}\right)+\left(\dfrac{1}{2}-\dfrac{1}{3}\right)+\left(\dfra
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $\dfrac{2}{3}+\dfrac{1}{5}$ equals
 A. $\dfrac{3}{8}$.
 B. $\dfrac{11}{15}$.
@@ -297,7 +297,7 @@ D. $\dfrac{13}{15}$.
 ::key D
 $\dfrac{2}{3}=\dfrac{10}{15}$ and $\dfrac{1}{5}=\dfrac{3}{15}$, so the sum is $\dfrac{13}{15}$. Option A adds numerators and adds denominators; C and B forget to change the numerators.
 
-::mc
+::mc TH
 $\dfrac{7}{8}-\dfrac{1}{4}$ equals
 A. $\dfrac{5}{8}$.
 B. $\dfrac{3}{4}$.
@@ -306,7 +306,7 @@ D. $\dfrac{6}{4}$.
 ::key A
 $\dfrac{7}{8}-\dfrac{2}{8}=\dfrac{5}{8}$. Option D subtracts numerators and subtracts denominators; B forgets to change the numerator of $\dfrac{1}{4}$; C subtracts the numerators and adds the denominators.
 
-::mc
+::mc TH
 $\dfrac{1}{4}+\dfrac{1}{12}$, written in its simplest form, equals
 A. $\dfrac{1}{8}$.
 B. $\dfrac{1}{3}$.
@@ -315,7 +315,7 @@ D. $\dfrac{1}{6}$.
 ::key B
 $\dfrac{3}{12}+\dfrac{1}{12}=\dfrac{4}{12}=\dfrac{1}{3}$. Option A adds numerators and adds denominators; C is not simplified; D forgets to change the numerator of $\dfrac{1}{4}$.
 
-::mc
+::mc VD
 A tin of paint: in the morning $\dfrac{1}{3}$ of the tin is used, and in the afternoon $\dfrac{1}{5}$ of the tin is used. The fraction of the tin left is
 A. $\dfrac{8}{15}$.
 B. $\dfrac{3}{4}$.
@@ -324,7 +324,7 @@ D. $\dfrac{3}{5}$.
 ::key C
 The part used is $\dfrac{5}{15}+\dfrac{3}{15}=\dfrac{8}{15}$, so the part left is $1-\dfrac{8}{15}=\dfrac{7}{15}$. Option A forgets to subtract from $1$; B adds numerators and adds denominators, then subtracts from $1$; D forgets to change the numerator of $\dfrac{1}{5}$.
 
-::tf
+::tf TH NB TH TH
 Look at the difference $\dfrac{3}{4}-\dfrac{1}{6}$.
 a) The smallest common denominator of the two fractions is $24$.
 b) $\dfrac{3}{4}-\dfrac{1}{6}=\dfrac{9}{12}-\dfrac{2}{12}$.
@@ -333,12 +333,12 @@ d) The difference is greater than $\dfrac{1}{2}$.
 ::key F T T T
 a) False: $12$ is divisible by both $4$ and $6$, so the smallest common denominator is $12$. b) True: $\dfrac{3}{4}=\dfrac{9}{12}$ and $\dfrac{1}{6}=\dfrac{2}{12}$. c) True: $9-2=7$. d) True: $\dfrac{7}{12}>\dfrac{6}{12}=\dfrac{1}{2}$.
 
-::sa
+::sa TH
 Find the missing number: $\dfrac{3}{4}-\dfrac{2}{5}=\dfrac{?}{20}$.
 ::key 7
 $\dfrac{15}{20}-\dfrac{8}{20}=\dfrac{7}{20}$.
 
-::sa
+::sa VD
 Each hour the first tap fills $\dfrac{1}{4}$ of a tank and the second tap fills $\dfrac{1}{6}$ of the tank. In $1$ hour both taps together fill $\dfrac{a}{12}$ of the tank. Find $a$.
 ::key 5
 $\dfrac{3}{12}+\dfrac{2}{12}=\dfrac{5}{12}$, so $a=5$.

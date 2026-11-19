@@ -452,7 +452,7 @@ So $M=\dfrac17$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The value of $\dfrac12+\dfrac13\cdot\dfrac32$ is
 A. $1$.
 B. $\dfrac54$.
@@ -461,7 +461,7 @@ D. $\dfrac76$.
 ::key A
 Multiply first: $\dfrac13\cdot\dfrac32=\dfrac12$, then $\dfrac12+\dfrac12=1$. B is the result of adding first; C and D come from other slips.
 
-::mc
+::mc TH
 The value of $\dfrac34-\left(\dfrac12-\dfrac13\right)$ is
 A. $-\dfrac1{12}$.
 B. $\dfrac7{12}$.
@@ -470,7 +470,7 @@ D. $\dfrac1{12}$.
 ::key B
 Bracket: $\dfrac12-\dfrac13=\dfrac16$, so $\dfrac34-\dfrac16=\dfrac7{12}$. A removes the brackets without changing signs, and C adds instead of subtracting.
 
-::mc
+::mc TH
 The number $x$ that satisfies $x+\dfrac34=\dfrac16$ is
 A. $\dfrac{11}{12}$.
 B. $\dfrac7{12}$.
@@ -479,7 +479,7 @@ D. $-\dfrac{11}{12}$.
 ::key C
 Moving terms: $x=\dfrac16-\dfrac34=\dfrac2{12}-\dfrac9{12}=-\dfrac7{12}$. A forgets to change the sign when moving the term.
 
-::mc
+::mc TH
 The number $x$ that satisfies $\dfrac56-x=\dfrac13$ is
 A. $-\dfrac12$.
 B. $\dfrac76$.
@@ -488,7 +488,7 @@ D. $\dfrac12$.
 ::key D
 Moving terms: $-x=\dfrac13-\dfrac56=-\dfrac12$, so $x=\dfrac12$. B adds $\dfrac56$ and $\dfrac13$, and A forgets to change the sign of both sides at the end.
 
-::tf
+::tf NB TH TH TH
 Consider the following steps. Decide whether each statement is true or false.
 a) $x-\dfrac12=3\Rightarrow x=3+\dfrac12$.
 b) $x+\dfrac34=\dfrac16\Rightarrow x=\dfrac16+\dfrac34$.
@@ -497,12 +497,12 @@ d) $\dfrac34-\left(\dfrac12-\dfrac14\right)=\dfrac34-\dfrac12+\dfrac14$.
 ::key T F F T
 a) True: moving $-\dfrac12$ to the right-hand side gives $+\dfrac12$. b) False: it should be $\dfrac16-\dfrac34$. c) False: changing the sign of both sides gives $x=-\dfrac35$. d) True: removing brackets with a $-$ in front changes the sign of every term inside.
 
-::sa
+::sa VD
 Find $x$ such that $x\div\dfrac34+\dfrac12=\dfrac52$, and give the answer as a decimal.
 ::key 1.5
 Moving terms: $x\div\dfrac34=2$, so $x=2\cdot\dfrac34=\dfrac32=1.5$.
 
-::sa
+::sa VD
 Calculate $\left(\dfrac23-\dfrac12\right)\cdot12-\dfrac32$ and give the answer as a decimal.
 ::key 0.5
 Bracket: $\dfrac23-\dfrac12=\dfrac16$. Multiply: $\dfrac16\cdot12=2$. Subtract: $2-\dfrac32=\dfrac12=0.5$.

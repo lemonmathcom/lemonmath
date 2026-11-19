@@ -274,7 +274,7 @@ $$(0.1+0.9)+(0.2+0.8)+(0.3+0.7)+(0.4+0.6)+0.5=1+1+1+1+0.5=4.5.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $4.7+3.5$ equals
 A. $7.12$.
 B. $7.2$.
@@ -283,7 +283,7 @@ D. $8.2$.
 ::key D
 $7+5=12$ tenths, write $2$ and regroup $1$; $4+3+1=8$, so the sum is $8.2$. Option B forgets to regroup, and option C forgets the decimal point.
 
-::mc
+::mc TH
 $6.3+2.45$ equals
 A. $8.75$.
 B. $8.48$.
@@ -292,7 +292,7 @@ D. $3.08$.
 ::key A
 $6.3=6.30$, so $6.30+2.45=8.75$. Option B treats $0.3$ as $3$ hundredths ($3+45=48$); option D does not line up the decimal points ($63+245=308$).
 
-::mc
+::mc TH
 $15+2.36$ equals
 A. $2.51$.
 B. $17.36$.
@@ -301,7 +301,7 @@ D. $15.36$.
 ::key B
 $15=15.00$, so $15.00+2.36=17.36$. Option C treats $15$ as $1.5$; option D forgets to add the whole number $2$.
 
-::mc
+::mc VD
 This morning Nam cycled $3.8$ km, and this afternoon he cycled $2.45$ km more. How far did he cycle altogether?
 A. $5.25$ km.
 B. $2.83$ km.
@@ -310,7 +310,7 @@ D. $1.35$ km.
 ::key C
 "Altogether" means putting together: $3.80+2.45=6.25$. Option A forgets to regroup $1$, and option D is the subtraction $3.8-2.45$.
 
-::tf
+::tf NB TH NB TH
 Look at the sum $2.8+1.95$.
 a) $2.8$ can be written as $2.80$ without changing its value.
 b) $2.8+1.95=3.75$.
@@ -319,12 +319,12 @@ d) The sum is less than $4.5$.
 ::key T F T F
 a) True: adding a $0$ at the end of the decimal part does not change the value. b) False: $2.80+1.95=4.75$; $3.75$ is what you get if you forget to regroup $1$. c) True: swapping the addends does not change the sum. d) False: $4.75>4.5$.
 
-::sa
+::sa NB
 Work out $7.6+5.9$.
 ::key 13.5
 $6+9=15$ tenths, write $5$ and regroup $1$; $7+5+1=13$. So $7.6+5.9=13.5$.
 
-::sa
+::sa TH
 Lan buys $1.5$ m of red ribbon and $2.75$ m of blue ribbon. How many metres of ribbon does she buy altogether?
 ::key 4.25
 $1.50+2.75=4.25$ (m).

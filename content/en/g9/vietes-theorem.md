@@ -476,7 +476,7 @@ So $\sqrt{x_1}+\sqrt{x_2}=\sqrt{10}$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The sum of the roots of the equation $2x^2-6x-5=0$ is
 A. $-3$.
 B. $3$.
@@ -485,7 +485,7 @@ D. $6$.
 ::key B
 $a$ and $c$ have opposite signs, so there are two roots; $S=-\dfrac{-6}{2}=3$. A has the wrong sign, C is the product, and D forgets to divide by $a$.
 
-::mc
+::mc NB
 The product of the roots of the equation $3x^2+7x-6=0$ is
 A. $2$.
 B. $-6$.
@@ -494,7 +494,7 @@ D. $-2$.
 ::key D
 $P=\dfrac ca=\dfrac{-6}{3}=-2$. A has the wrong sign, C is the sum, and B forgets to divide by $a$.
 
-::mc
+::mc TH
 The roots of the equation $4x^2-9x+5=0$ are
 A. $1$ and $-\dfrac54$.
 B. $-1$ and $-\dfrac54$.
@@ -503,7 +503,7 @@ D. $1$ and $5$.
 ::key C
 $a+b+c=4-9+5=0$, so $x_1=1$ and $x_2=\dfrac ca=\dfrac54$. B uses the rule for $a-b+c=0$ by mistake, A has the wrong sign of $\dfrac ca$, and D forgets to divide by $a$.
 
-::mc
+::mc TH
 Two numbers with sum $9$ and product $20$ are the roots of the equation
 A. $x^2-9x+20=0$.
 B. $x^2+9x+20=0$.
@@ -512,7 +512,7 @@ D. $x^2+9x-20=0$.
 ::key A
 The equation is $x^2-Sx+P=0$ with $S=9$, $P=20$. B has the wrong sign of $S$, C swaps $S$ and $P$, and D has the wrong signs of both $S$ and $P$.
 
-::tf
+::tf TH NB NB VD
 The equation $x^2-3x-10=0$ has two roots $x_1$, $x_2$. Decide whether each statement is true or false.
 a) The equation has two roots of opposite signs.
 b) $x_1+x_2=-3$.
@@ -521,12 +521,12 @@ d) $x_1^2+x_2^2=29$.
 ::key T F T T
 a) True: $P=-10<0$. b) False: $S=3$. c) True. d) True: $9+20=29$.
 
-::sa
+::sa VD
 Let $x_1$, $x_2$ be the roots of the equation $x^2-7x+2=0$. Find $x_1^2+x_2^2$.
 ::key 45
 $\Delta=41>0$, $S=7$, $P=2$, so $x_1^2+x_2^2=49-4=45$.
 
-::sa
+::sa TH
 Find mentally the larger root of the equation $2x^2-11x+9=0$ (give your answer as a decimal).
 ::key 4.5
 $a+b+c=2-11+9=0$, so the roots are $1$ and $\dfrac92=4.5$.

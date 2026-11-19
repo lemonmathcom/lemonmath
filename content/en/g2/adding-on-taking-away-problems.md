@@ -310,7 +310,7 @@ $$11-2=9\ \text{(marbles)}.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 There are 9 oranges in a basket and Mum puts in 4 more. There are altogether
 A. $13$ oranges.
 B. $5$ oranges.
@@ -319,7 +319,7 @@ D. $14$ oranges.
 ::key A
 "Puts in more" means add: $9+4=13$. Option B is a subtraction by mistake.
 
-::mc
+::mc TH
 Nam has 17 exercise books and gives 5 to a friend. Nam has left
 A. $22$ exercise books.
 B. $12$ exercise books.
@@ -328,7 +328,7 @@ D. $13$ exercise books.
 ::key B
 Giving away makes the number go down: $17-5=12$. Option A is an addition by mistake.
 
-::mc
+::mc TH
 Ha has 7 marbles. Nam has 4 more marbles than Ha. Nam has
 A. $3$ marbles.
 B. $10$ marbles.
@@ -337,7 +337,7 @@ D. $12$ marbles.
 ::key C
 "More than" means add: $7+4=11$. Option A is a subtraction by mistake.
 
-::mc
+::mc TH
 Lan has 8 flowers. Mai has 3 fewer flowers than Lan. Mai has
 A. $11$ flowers.
 B. $4$ flowers.
@@ -346,7 +346,7 @@ D. $5$ flowers.
 ::key D
 "Fewer than" means subtract: $8-3=5$. Option A is an addition by mistake.
 
-::tf
+::tf TH TH NB TH
 Ha has 9 sweets. Mai has 4 fewer sweets than Ha.
 a) Mai has $9-4=5$ sweets.
 b) Mai has 13 sweets.
@@ -355,12 +355,12 @@ d) If Mai had 4 more sweets than Ha, Mai would have 13 sweets.
 ::key T F F T
 a) True: "fewer than" means subtract. b) False: 13 is the result of the addition $9+4$. c) False: Mai has fewer than Ha, not more. d) True: $9+4=13$.
 
-::sa
+::sa VD
 There are 8 apples in a basket and Mum puts in 6 more. How many apples are in the basket altogether?
 ::key 14
 $8+6=14$ (apples).
 
-::sa
+::sa VD
 Mai has 13 paper flowers. Lan has 2 fewer than Mai. How many paper flowers does Lan have?
 ::key 11
 $13-2=11$ (flowers).

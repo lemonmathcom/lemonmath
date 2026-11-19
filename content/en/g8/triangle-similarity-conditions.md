@@ -332,7 +332,7 @@ So we have proved Pythagoras' theorem, and $BH=3.6$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Triangle $ABC$ has sides $4$, $6$, $8$ and triangle $DEF$ has sides $6$, $9$, $12$. The scale factor of $\triangle DEF$ to $\triangle ABC$ is
 A. $\dfrac23$.
 B. $\dfrac32$.
@@ -341,7 +341,7 @@ D. $3$.
 ::key B
 $\dfrac64=\dfrac96=\dfrac{12}{8}=\dfrac32$. A inverts the ratio; B and D are not ratios of corresponding sides.
 
-::mc
+::mc NB
 Two triangles with two pairs of equal angles
 A. are not similar.
 B. are congruent.
@@ -350,7 +350,7 @@ D. are both isosceles.
 ::key C
 This is the AA condition. They need not be congruent (they may differ in size) and need not be isosceles.
 
-::mc
+::mc NB
 In the SAS condition for similar triangles, the equal angle must be the angle
 A. opposite the longest side.
 B. of any kind.
@@ -359,7 +359,7 @@ D. included between the two pairs of proportional sides.
 ::key D
 The angle must lie between the two pairs of proportional sides. The other options do not guarantee similar triangles.
 
-::mc
+::mc VD
 In $\triangle ABC$, $D\in AC$ with $\angle ABD=\angle ACB$, $AB=10$ and $AD=5$. The length $AC$ is
 A. $20$.
 B. $2.5$.
@@ -368,7 +368,7 @@ D. $5$.
 ::key A
 $AB^2=AD\cdot AC$, so $AC=\dfrac{100}{5}=20$. C is $DC$; A and D do not satisfy the relation.
 
-::tf
+::tf TH TH TH VD
 In $\triangle ABC$, $AB=6$, $AC=9$, $\angle A=50^\circ$; in $\triangle MNP$, $MN=4$, $MP=6$, $\angle M=50^\circ$. Decide whether each statement is true or false.
 a) $\triangle MNP\sim\triangle ABC$ by the SAS condition.
 b) The scale factor of $\triangle MNP$ to $\triangle ABC$ is $\dfrac32$.
@@ -377,12 +377,12 @@ d) If $BC=12$ then $NP=8$.
 ::key T F F T
 a) True: $\dfrac46=\dfrac69=\dfrac23$ and the included angles are equal. b) False: the scale factor is $\dfrac23$. c) False: $\angle N=\angle B$. d) True: $NP=\dfrac23\cdot12=8$.
 
-::sa
+::sa VD
 In $\triangle ABC$, $AB=6$, $AC=9$, $BC=12$; in $\triangle MNP$, $MN=4$, $MP=6$, $\angle M=\angle A$. Find $NP$.
 ::key 8
 $\triangle MNP\sim\triangle ABC$ (SAS) with scale factor $\dfrac23$, so $NP=\dfrac23\cdot12=8$.
 
-::sa
+::sa VD
 In $\triangle ABC$, $D\in AC$ with $\angle ABD=\angle ACB$, $AB=10$, $AD=5$. Find $AC$.
 ::key 20
 $AB^2=AD\cdot AC$, so $AC=\dfrac{100}{5}=20$.

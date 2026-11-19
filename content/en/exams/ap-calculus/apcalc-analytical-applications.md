@@ -277,7 +277,7 @@ $S'(r)=0$ gives $r^3=\dfrac{250}{\pi}$, so $r\approx4.30$ centimeters. $S''(r)=4
 :::
 
 :::quiz
-::mc
+::mc TH
 If $f'(x)=x(x-4)$, then $f$ is decreasing on
 A. $x<0$ or $x>4$
 B. $x>4$
@@ -286,7 +286,7 @@ D. $x<0$
 ::key C
 $f'<0$ between the roots $0$ and $4$.
 
-::mc
+::mc TH
 For $f(x)=\sqrt x$ on $[0,4]$, the value of $c$ guaranteed by the Mean Value Theorem is
 A. $1$
 B. $2$
@@ -295,7 +295,7 @@ D. $4$
 ::key A
 The average rate is $\dfrac{2-0}{4}=\dfrac12$, and $\dfrac{1}{2\sqrt c}=\dfrac12$ gives $c=1$.
 
-::mc
+::mc TH
 If $f''(x)=(x+1)(x-3)^2$, the graph of $f$ has a point of inflection at
 A. $x=3$ only
 B. $x=-1$ and $x=3$
@@ -304,7 +304,7 @@ D. $x=-1$ only
 ::key D
 $f''$ changes sign only at $x=-1$; the squared factor keeps the sign at $x=3$.
 
-::mc
+::mc VD
 The absolute maximum of $f(x)=x^2-2x$ on $[0,3]$ is
 A. $0$
 B. $3$
@@ -313,7 +313,7 @@ D. $9$
 ::key B
 Candidates: $f(0)=0$, $f(1)=-1$, $f(3)=3$.
 
-::tf
+::tf TH TH TH VD
 Let $f(x)=x^3-3x$.
 a) The critical points of $f$ are $x=-1$ and $x=1$.
 b) $f$ has a relative maximum at $x=1$.
@@ -322,12 +322,12 @@ d) The absolute maximum of $f$ on $[0,2]$ is $2$.
 ::key T F T T
 a) True: $f'=3x^2-3$. b) False: $f''(1)=6>0$, a relative minimum. c) True: $f''=6x<0$. d) True: $f(0)=0$, $f(1)=-2$, $f(2)=2$.
 
-::sa
+::sa VD
 Two positive numbers have sum $20$. What is the largest possible value of their product?
 ::key 100
 $P=x(20-x)$ is largest at $x=10$: $P=100$.
 
-::sa
+::sa VD
 At which value of $x$ does $f(x)=x^3-6x^2+9x+1$ have a relative minimum?
 ::key 3
 $f'=3(x-1)(x-3)$ changes from negative to positive at $x=3$.

@@ -419,7 +419,7 @@ The condition $y(0)=2$ gives $A+B=2$; the condition $y'(0)=0$ gives $A-B=0$. Hen
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Let $y=x^4-2x^2$. The value of $y''(1)$ is
 A. $10$.
 B. $12$.
@@ -428,7 +428,7 @@ D. $8$.
 ::key D
 $y'=4x^3-4x$ and $y''=12x^2-4$, so $y''(1)=8$. Option B drops the term $-4$, and C and A get the coefficients wrong.
 
-::mc
+::mc TH
 The second derivative of $y=e^{3x}$ is
 A. $9e^{3x}$.
 B. $3e^{3x}$.
@@ -437,7 +437,7 @@ D. $e^{3x}$.
 ::key A
 $y'=3e^{3x}$ and $y''=9e^{3x}$. Option B is $y'$, C adds $3+3$ instead of multiplying, and D forgets the coefficient.
 
-::mc
+::mc VD
 A particle has $s(t)=t^3-6t^2+2t$ metres after $t$ seconds. The acceleration at $t=3$ is
 A. $-7$ m/s$^2$.
 B. $6$ m/s$^2$.
@@ -446,7 +446,7 @@ D. $18$ m/s$^2$.
 ::key B
 $v=3t^2-12t+2$ and $a=6t-12$, so $a(3)=6$. Option A is $v(3)=-7$, D is $6t$ at $t=3$ with $-12$ forgotten, and C is a calculation slip.
 
-::mc
+::mc TH
 Let $y=x^3-3x^2$. The set of $x$ for which $y''>0$ is
 A. $x<1$.
 B. $x>0$.
@@ -455,7 +455,7 @@ D. $x>2$.
 ::key C
 $y''=6x-6>0\Leftrightarrow x>1$. Option A reverses the inequality, and B and D use the roots of $y'$ or $y$.
 
-::tf
+::tf NB TH VD VD
 A ball thrown vertically has height $s(t)=20t-5t^2$ metres after $t$ seconds. Decide whether each statement is true or false:
 a) The velocity is $v(t)=20-10t$.
 b) The acceleration of the ball is $-10$ m/s$^2$ at every moment.
@@ -464,12 +464,12 @@ d) The greatest height of the ball is $20$ metres.
 ::key T T F T
 a) True. b) True: $a=v'=-10$. c) False: $v=0$ when $t=2$. d) True: $s(2)=40-20=20$.
 
-::sa
+::sa VD
 Suppose $s(t)=2t^3-9t^2+12t$ metres after $t$ seconds. Find the velocity (in m/s) at the moment when the acceleration is $0$.
 ::key -1.5
 $v=6t^2-18t+12$, and $a=12t-18=0$ when $t=1.5$. Then $v=13.5-27+12=-1.5$.
 
-::sa
+::sa TH
 Find $y''(2)$ for $y=\dfrac1x$.
 ::key 0.25
 $y'=-\dfrac1{x^2}$ and $y''=\dfrac{2}{x^3}$, so $y''(2)=\dfrac28=0.25$.

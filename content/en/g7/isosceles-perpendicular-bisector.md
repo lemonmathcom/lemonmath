@@ -539,7 +539,7 @@ So the well $O$ is equidistant from the three villages, $120$ m from each.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Triangle $ABC$ is isosceles with apex $A$ and $\angle A=50^\circ$. The angle $B$ is
 A. $65^\circ$.
 B. $50^\circ$.
@@ -548,7 +548,7 @@ D. $80^\circ$.
 ::key A
 $\angle B=\angle C=(180^\circ-50^\circ)\div2=65^\circ$. B is the apex angle, C is the sum of the two base angles, and D comes from a wrong calculation.
 
-::mc
+::mc NB
 The point $M$ is equidistant from the points $A$ and $B$. Which statement is correct?
 A. $M$ is the midpoint of $AB$.
 B. $M$ lies on the perpendicular bisector of $AB$.
@@ -557,7 +557,7 @@ D. $MA\perp MB$.
 ::key B
 This is the converse: a point equidistant from the ends lies on the perpendicular bisector. A and C describe special cases or are wrong; D is not true in general.
 
-::mc
+::mc TH
 Triangle $ABC$ has $\angle B=\angle C$. Then
 A. $AB=BC$.
 B. $AC=BC$.
@@ -566,7 +566,7 @@ D. triangle $ABC$ is equilateral.
 ::key C
 The sides opposite the equal angles are $AC$ (opposite $\angle B$) and $AB$ (opposite $\angle C$), so $AB=AC$.
 
-::mc
+::mc NB
 The perpendicular bisector of a segment $AB$ is the line that
 A. passes through $A$.
 B. is perpendicular to $AB$.
@@ -575,7 +575,7 @@ D. is perpendicular to $AB$ at the midpoint of $AB$.
 ::key D
 Both conditions are needed: perpendicular to $AB$ and through the midpoint of $AB$. B and C each give only one of them.
 
-::tf
+::tf NB TH TH TH
 Triangle $ABC$ is isosceles with apex $A$, and $M$ is the midpoint of $BC$. Decide whether each statement is true or false.
 a) $\angle B=\angle C$.
 b) $AM\perp BC$.
@@ -584,12 +584,12 @@ d) $M$ is equidistant from $A$ and $B$.
 ::key T T T F
 a) True: base angles. b) True: $\triangle ABM\equiv\triangle ACM$ gives $\angle AMB=\angle AMC=90^\circ$. c) True: $AB=AC$. d) False: $MB=\dfrac{BC}{2}$ while $MA$ is the height, and in general these lengths are not equal.
 
-::sa
+::sa TH
 Triangle $ABC$ is isosceles with apex $A$ and $\angle B=72^\circ$. Find $\angle A$ (in degrees).
 ::key 36
 $\angle C=\angle B=72^\circ$, so $\angle A=180^\circ-72^\circ-72^\circ=36^\circ$.
 
-::sa
+::sa NB
 The point $M$ lies on the perpendicular bisector of the segment $AB$ and $MA=6.5$ cm. Find $MB$ (in cm).
 ::key 6.5
 A point on the perpendicular bisector is equidistant from the ends, so $MB=MA=6.5$ cm.

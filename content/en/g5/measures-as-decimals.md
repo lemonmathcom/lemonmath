@@ -403,7 +403,7 @@ Check: $4.45\approx4.5$ (the hundredths digit is $5$) and $4.54\approx4.5$ (the 
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The measurement $5$ m $8$ cm written as a decimal in metres is
 A. $5.8$ m.
 B. $508$ m.
@@ -412,7 +412,7 @@ D. $5.08$ m.
 ::key D
 $8$ cm $=\dfrac{8}{100}$ m $=0.08$ m, so $5$ m $8$ cm $=5.08$ m. Option A takes $8$ cm as $0.8$ m; C takes $1$ m $=1000$ cm; D writes the digits side by side.
 
-::mc
+::mc TH
 The measurement $2$ kg $75$ g written as a decimal in kilograms is
 A. $2.075$ kg.
 B. $2.0075$ kg.
@@ -421,7 +421,7 @@ D. $207.5$ kg.
 ::key A
 $75$ g $=\dfrac{75}{1000}$ kg $=0.075$ kg, so the measurement is $2.075$ kg. Option C takes $75$ g as $0.75$ kg; B uses $1$ kg $=10\,000$ g; D puts the decimal point in the wrong place.
 
-::mc
+::mc TH
 Rounding $6.748$ to two decimal places gives
 A. $6.74$.
 B. $6.75$.
@@ -430,7 +430,7 @@ D. $6.8$.
 ::key B
 The thousandths digit is $8\ge5$, so add $1$ to the hundredths digit: $6.75$. Option A drops the digit $8$; C rounds to one decimal place; D rounds twice.
 
-::mc
+::mc TH
 A digital scale shows $4.963$ kg. Rounded to one decimal place, the mass is
 A. $4.9$ kg.
 B. $4.96$ kg.
@@ -439,7 +439,7 @@ D. $4.97$ kg.
 ::key C
 The hundredths digit is $6\ge5$, so add $0.1$ to $4.9$ to get $5.0$ kg. Option A just drops the digits on the right; B drops the digit $3$; C rounds to two decimal places.
 
-::tf
+::tf NB TH TH TH
 Look at the measurement $3$ m $4$ cm.
 a) $3$ m $4$ cm $=3.4$ m.
 b) $3$ m $4$ cm $=3.04$ m.
@@ -448,12 +448,12 @@ d) Rounding $3.04$ m to one decimal place gives $3.1$ m.
 ::key F T T F
 a) False: $4$ cm $=0.04$ m, not $0.4$ m. b) True: $4$ cm $=\dfrac{4}{100}$ m. c) True: $3$ m $=300$ cm and $0.04$ m $=4$ cm. d) False: the hundredths digit is $4<5$, so $3.04\approx3.0$.
 
-::sa
+::sa TH
 Find the missing number: $3$ kg $40$ g $=?$ kg.
 ::key 3.04
 $40$ g $=\dfrac{40}{1000}$ kg $=0.04$ kg, so $3$ kg $40$ g $=3.04$ kg.
 
-::sa
+::sa TH
 A digital scale shows $38.52$ kg. Round this mass to the nearest whole number.
 ::key 39
 The tenths digit is $5\ge5$, so it rounds to $39$.

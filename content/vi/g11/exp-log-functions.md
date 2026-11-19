@@ -455,7 +455,7 @@ $$f(-x)=\log_2\frac{1}{x+\sqrt{x^2+1}}=-\log_2\left(x+\sqrt{x^2+1}\right)=-f(x).
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tập xác định của hàm số $y=\log_{1/2}(2x-4)$ là
 A. $[2; +\infty)$.
 B. $(-\infty; 2)$.
@@ -464,7 +464,7 @@ D. $(2; +\infty)$.
 ::key D
 Cần $2x-4>0$, tức $x>2$. Phương án A lấy cả đầu mút $2$, B đảo chiều, C quên dịch chuyển do $2x-4$.
 
-::mc
+::mc TH
 Hàm số nào sau đây nghịch biến trên $\mathbb{R}$?
 A. $y=\left(\dfrac{\sqrt2}{2}\right)^x$.
 B. $y=\left(\dfrac{\pi}{3}\right)^x$.
@@ -473,7 +473,7 @@ D. $y=e^x$.
 ::key A
 Cơ số $\dfrac{\sqrt2}{2}\approx0{,}71<1$ nên hàm nghịch biến trên $\mathbb{R}$. Phương án B có cơ số $\dfrac\pi3>1$, D có cơ số $e>1$, còn C chỉ xác định trên $(0; +\infty)$.
 
-::mc
+::mc TH
 Khẳng định nào sau đây đúng?
 A. $2^{\sqrt3}<2^{1{,}7}$.
 B. $\log_{1/2}3>\log_{1/2}5$.
@@ -482,7 +482,7 @@ D. $0{,}9^{0{,}5}>0{,}9^{0{,}4}$.
 ::key B
 Cơ số $\dfrac12<1$ nên hàm nghịch biến, $3<5$ cho $\log_{1/2}3>\log_{1/2}5$. B sai vì $\sqrt3\approx1{,}73>1{,}7$; C sai vì $2<3$; D sai vì cơ số $0{,}9<1$ và $0{,}5>0{,}4$.
 
-::mc
+::mc TH
 Đường tiệm cận ngang của đồ thị hàm số $y=3^x-5$ là
 A. $y=5$.
 B. $x=-5$.
@@ -491,7 +491,7 @@ D. $x=0$.
 ::key C
 $3^x>0$ và tiến sát $0$ khi $x$ rất âm nên $y$ tiến sát $-5$ từ phía trên. Phương án A sai dấu, B và D là đường thẳng đứng.
 
-::tf
+::tf TH NB NB TH
 Cho hàm số $f(x)=\log_2(x-1)$. Xét tính đúng sai của các mệnh đề sau:
 a) Tập xác định của $f$ là $(0; +\infty)$.
 b) $f(3)=1$.
@@ -500,12 +500,12 @@ d) Đồ thị của $f$ có tiệm cận đứng $x=1$.
 ::key S Đ S Đ
 a) Sai: cần $x-1>0$, tức $x>1$. b) Đúng: $\log_22=1$. c) Sai: cơ số $2>1$ nên hàm đồng biến. d) Đúng: $x-1=0$ khi $x=1$, nên đồ thị tiến sát đường thẳng $x=1$.
 
-::sa
+::sa VD
 Giả sử khối lượng một chất phóng xạ sau $t$ ngày là $m(t)=80\cdot\left(\dfrac12\right)^{t/6}$ gam. Sau bao nhiêu ngày thì còn lại $10$ g?
 ::key 18
 Cần $\left(\dfrac12\right)^{t/6}=\dfrac18=\left(\dfrac12\right)^3$ nên $\dfrac t6=3$ và $t=18$ (ngày).
 
-::sa
+::sa VD
 Giả sử giá trị một chiếc máy giảm $10\%$ mỗi năm. Sau ít nhất bao nhiêu năm nguyên thì giá trị còn dưới $10\%$ giá ban đầu?
 ::key 22
 Cần $0{,}9^n<0{,}1$, tức $n>\dfrac{\ln0{,}1}{\ln0{,}9}\approx21{,}9$ nên $n=22$. Thử lại: $0{,}9^{21}\approx0{,}109>0{,}1$ và $0{,}9^{22}\approx0{,}098<0{,}1$.

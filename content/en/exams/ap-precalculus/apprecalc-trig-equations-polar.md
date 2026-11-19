@@ -358,7 +358,7 @@ So the solutions are $x=\dfrac\pi3$, $\pi$ and $\dfrac{5\pi}{3}$.
 :::
 
 :::quiz
-::mc
+::mc NB
 The value of $\arcsin\dfrac12$ is
 A. $\dfrac\pi3$
 B. $\dfrac{5\pi}{6}$
@@ -367,7 +367,7 @@ D. $\dfrac\pi4$
 ::key C
 $\sin\dfrac\pi6=\dfrac12$ and $\dfrac\pi6$ is in the range of $\arcsin$.
 
-::mc
+::mc TH
 How many solutions does $\sin x=0.3$ have on $[0,2\pi)$?
 A. $2$
 B. $1$
@@ -376,7 +376,7 @@ D. $4$
 ::key A
 One in quadrant I and one in quadrant II.
 
-::mc
+::mc TH
 The value of $\sec\dfrac\pi3$ is
 A. $\dfrac12$
 B. $\dfrac{2}{\sqrt3}$
@@ -385,7 +385,7 @@ D. $2$
 ::key D
 $\sec\dfrac\pi3=\dfrac{1}{\cos(\pi/3)}=2$.
 
-::mc
+::mc TH
 The polar point $(2,\pi)$ has rectangular coordinates
 A. $(2,0)$
 B. $(-2,0)$
@@ -394,7 +394,7 @@ D. $(0,-2)$
 ::key B
 $x=2\cos\pi=-2$ and $y=2\sin\pi=0$.
 
-::tf
+::tf NB NB TH TH
 Consider the polar function $r=2\cos\theta$. Decide whether each statement is true or false.
 a) $r=2$ when $\theta=0$.
 b) $r=0$ when $\theta=\dfrac\pi2$.
@@ -403,12 +403,12 @@ d) The graph passes through the origin.
 ::key T T F T
 On $\left(0,\dfrac\pi2\right)$, $\cos\theta$ decreases, so $r$ decreases.
 
-::sa
+::sa TH
 How many solutions does $2\cos x=1$ have on $[0,2\pi)$?
 ::key 2
 $x=\dfrac\pi3$ and $x=\dfrac{5\pi}3$.
 
-::sa
+::sa TH
 Find $r>0$ for the rectangular point $(3,4)$.
 ::key 5
 $r=\sqrt{9+16}=5$.

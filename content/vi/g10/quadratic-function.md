@@ -408,7 +408,7 @@ $b=-4a$. Đỉnh thuộc đồ thị: $4a+2b+2=-2$, tức $4a-8a=-4$, nên $a=1$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Đỉnh của parabol $y=2x^2-8x+5$ là
 A. $(2; -3)$.
 B. $(-2; 29)$.
@@ -417,7 +417,7 @@ D. $(2; 3)$.
 ::key A
 $x_I=-\dfrac{b}{2a}=\dfrac{8}{4}=2$ và $y_I=8-16+5=-3$. Quên dấu trừ trong $-\dfrac{b}{2a}$ thì ra $x=-2$ (phương án B).
 
-::mc
+::mc TH
 Hàm số $y=-x^2+6x-1$ đồng biến trên khoảng nào?
 A. $(3; +\infty)$.
 B. $(-\infty; 3)$.
@@ -426,7 +426,7 @@ D. $(-3; +\infty)$.
 ::key B
 $a=-1<0$ và $x_I=3$, nên hàm số đồng biến bên trái đỉnh, tức trên $(-\infty; 3)$. Phương án A là khoảng nghịch biến, đúng cho trường hợp $a>0$.
 
-::mc
+::mc NB
 Parabol nào sau đây có đỉnh $(-1; 4)$?
 A. $y=2(x-1)^2+4$.
 B. $y=2(x+1)^2+4$.
@@ -435,7 +435,7 @@ D. $y=2(x-4)^2-1$.
 ::key B
 $y=a(x-p)^2+q$ có đỉnh $(p; q)$. Với $p=-1$, $q=4$ ta được $y=2(x+1)^2+4$; phương án A đọc nhầm dấu của $p$.
 
-::mc
+::mc TH
 Giá trị lớn nhất của hàm số $y=-2x^2+4x+3$ là
 A. $5$.
 B. $3$.
@@ -444,7 +444,7 @@ D. $-5$.
 ::key A
 $a<0$ nên giá trị lớn nhất đạt tại đỉnh $x=1$: $y(1)=-2+4+3=5$. Phương án C là hoành độ đỉnh, phương án D sai dấu khi tính $-\dfrac{\Delta}{4a}$.
 
-::tf
+::tf NB NB TH TH
 Cho hàm số $y=x^2-2x-3$.
 a) Parabol có bề lõm hướng lên.
 b) Trục đối xứng của parabol là đường thẳng $x=-1$.
@@ -453,12 +453,12 @@ d) Giá trị nhỏ nhất của hàm số là $-4$, đạt tại $x=1$.
 ::key Đ S S Đ
 a) Đúng: $a=1>0$. b) Sai: $x=-\dfrac{b}{2a}=1$. c) Sai: $x=0$ cho $y=-3$, nên giao điểm là $(0; -3)$. d) Đúng: $y(1)=1-2-3=-4$.
 
-::sa
+::sa VD
 Parabol $y=x^2+bx+c$ có đỉnh $I(3; -2)$. Tìm $c$.
 ::key 7
 Từ $-\dfrac{b}{2}=3$ ta có $b=-6$. Đỉnh nằm trên đồ thị: $9-18+c=-2$, nên $c=7$.
 
-::sa
+::sa VD
 Một quán bán nước với giá $p$ nghìn đồng một cốc ($10\le p\le 50$) thì mỗi ngày bán được $120-2p$ cốc. Doanh thu lớn nhất trong một ngày là bao nhiêu nghìn đồng?
 ::key 1800
 Doanh thu $R(p)=p(120-2p)=-2p^2+120p$ có $a<0$, lớn nhất tại $p=\dfrac{120}{4}=30$ (thuộc $[10; 50]$). Khi đó $R(30)=30\cdot60=1800$ nghìn đồng.

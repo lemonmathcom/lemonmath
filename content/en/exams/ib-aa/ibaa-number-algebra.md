@@ -232,7 +232,7 @@ The series $1+2x+4x^2+8x^3+\dots$ is geometric.
 :::
 
 :::quiz
-::mc
+::mc TH
 What is the value of $\log_232+\log_3\dfrac19$?
 A. $7$
 B. $3$
@@ -241,7 +241,7 @@ D. $-3$
 ::key B
 $\log_232=5$ and $\log_3\dfrac19=-2$.
 
-::mc
+::mc TH
 A geometric sequence begins $3, -6, 12, \dots$ What is $u_6$?
 A. $96$
 B. $-192$
@@ -250,7 +250,7 @@ D. $-96$
 ::key D
 $u_6=3(-2)^5=-96$.
 
-::mc
+::mc TH
 What is the coefficient of $x^3$ in the expansion of $(1+x)^7$?
 A. $35$
 B. $21$
@@ -259,7 +259,7 @@ D. $343$
 ::key A
 $\dbinom73=35$.
 
-::mc
+::mc TH
 What is the sum to infinity of $18+12+8+\dots$?
 A. $38$
 B. $27$
@@ -268,7 +268,7 @@ D. $36$
 ::key C
 $r=\dfrac23$, so $S_\infty=\dfrac{18}{1/3}=54$.
 
-::tf
+::tf TH NB TH VD
 A sequence is defined by $u_n=5+3n$ for $n\ge1$.
 a) The sequence is arithmetic.
 b) $u_1=8$.
@@ -277,12 +277,12 @@ d) $S_{10}=215$.
 ::key T T F T
 a) True: the difference between consecutive terms is constant. b) True. c) False: it is $3$. d) True: $u_{10}=35$ and $S_{10}=\dfrac{10}{2}(8+35)=215$.
 
-::sa
+::sa TH
 Solve $3^x=81$.
 ::key 4
 $81=3^4$.
 
-::sa
+::sa VD
 Find the sum $2+5+8+\dots+29$.
 ::key 155
 Ten terms ($29=2+3(n-1)$ gives $n=10$): $\dfrac{10}{2}(2+29)=155$.

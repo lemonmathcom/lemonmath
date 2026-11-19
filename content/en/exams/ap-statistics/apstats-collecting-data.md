@@ -288,7 +288,7 @@ So we can generalize the association to the population, but not conclude causati
 :::
 
 :::quiz
-::mc
+::mc NB
 Which method protects best against selection bias?
 A. Choosing a random sample
 B. Choosing a very large convenience sample
@@ -297,7 +297,7 @@ D. Surveying friends of the researcher
 ::key A
 Random selection gives every individual a known chance.
 
-::mc
+::mc TH
 What is the main purpose of a placebo?
 A. To increase the sample size
 B. To make the treatment stronger
@@ -306,7 +306,7 @@ D. To make the control group's experience as similar as possible, except for the
 ::key D
 The placebo effect then affects both groups.
 
-::mc
+::mc NB
 Two variables are confounded when
 A. they have correlation $0$
 B. their effects on the response cannot be separated
@@ -315,7 +315,7 @@ D. one is the response variable
 ::key B
 Confounding is the reason observational studies cannot show causation.
 
-::mc
+::mc TH
 Which is an experiment?
 A. Recording the screen time of $200$ teenagers
 B. Comparing the heights of boys and girls in a class
@@ -324,7 +324,7 @@ D. Surveying voters about a candidate
 ::key C
 Only C imposes a treatment.
 
-::tf
+::tf NB TH TH NB
 In an experiment, $50$ volunteers are randomly assigned to a new diet or their usual diet. Decide whether each statement is true or false.
 a) This is an experiment.
 b) Random assignment allows a cause-and-effect conclusion.
@@ -333,12 +333,12 @@ d) The usual-diet group acts as a control group.
 ::key T T F T
 The subjects are volunteers, not a random sample.
 
-::sa
+::sa TH
 A school of $1200$ students has $300$ in grade 12. In a proportional stratified sample of $80$, how many grade 12 students are chosen?
 ::key 20
 $\dfrac{300}{1200}\times80=20$.
 
-::sa
+::sa TH
 An experiment has factor A with $3$ levels and factor B with $2$ levels. How many treatments are there?
 ::key 6
 $3\times2=6$ combinations.

@@ -301,7 +301,7 @@ $$18-12=6\ \text{(cm)}.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The broken line ABCD is made of the line segments
 A. AB, BC.
 B. AB, BC, CD.
@@ -310,7 +310,7 @@ D. AB, BC, CD, DA.
 ::key B
 The points A, D, C and B are joined in order to make three line segments AB, BC and CD. Option D has the extra segment DA, which makes a quadrilateral.
 
-::mc
+::mc TH
 The broken line ABC has $AB=6$ cm and $BC=7$ cm. The length of the broken line ABC is
 A. $1$ cm.
 B. $14$ cm.
@@ -319,7 +319,7 @@ D. $67$ cm.
 ::key C
 $6+7=13$ (cm). Option A is a subtraction, and option D writes the two numbers side by side.
 
-::mc
+::mc NB
 A quadrilateral has
 A. 5 sides and 5 vertices.
 B. 3 sides and 3 vertices.
@@ -328,7 +328,7 @@ D. 4 sides and 4 vertices.
 ::key D
 A quadrilateral has 4 sides and 4 vertices. Option B is a triangle.
 
-::mc
+::mc NB
 Which of these is a quadrilateral?
 A. A rectangle.
 B. The line segment AB.
@@ -337,7 +337,7 @@ D. A point.
 ::key A
 A rectangle has 4 sides and 4 vertices, so it is a quadrilateral. A line segment, a point and the broken line ABC do not close up with 4 sides.
 
-::tf
+::tf NB TH TH TH
 The broken line ABCD has $AB=3$ cm, $BC=4$ cm and $CD=5$ cm.
 a) The broken line ABCD is made of 3 line segments.
 b) The length of the broken line ABCD is 12 cm.
@@ -346,12 +346,12 @@ d) The length of the broken line ABCD is equal to the length of the line segment
 ::key T T T F
 a) True: there are AB, BC and CD. b) True: $3+4+5=12$. c) True: $12>10$. d) False: the length of a broken line is the sum of the three segments, which is 12 cm and not 5 cm.
 
-::sa
+::sa VD
 The broken line ABC has $AB=9$ cm and $BC=8$ cm. How many centimetres long is the broken line ABC?
 ::key 17
 $9+8=17$ (cm).
 
-::sa
+::sa VD
 An ant crawls along a broken line made of three line segments that are 4 cm, 6 cm and 5 cm long. How many centimetres does the ant crawl altogether?
 ::key 15
 $4+6+5=15$ (cm).

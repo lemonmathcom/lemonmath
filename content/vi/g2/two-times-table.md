@@ -337,7 +337,7 @@ $$5\times9=45.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $2\times6$ là
 A. $8$.
 B. $10$.
@@ -346,7 +346,7 @@ D. $14$.
 ::key C
 $2\times6=2\times5+2=10+2=12$. Phương án B là $2\times5$.
 
-::mc
+::mc NB
 Kết quả của $5\times4$ là
 A. $9$.
 B. $25$.
@@ -355,7 +355,7 @@ D. $20$.
 ::key D
 $5\times4=5+5+5+5=20$. Phương án B là $5\times5$, phương án C là $5\times3$.
 
-::mc
+::mc TH
 Mỗi đôi giày có 2 chiếc giày. 7 đôi giày có
 A. $14$ chiếc giày.
 B. $9$ chiếc giày.
@@ -364,7 +364,7 @@ D. $12$ chiếc giày.
 ::key A
 $2\times7=14$. Phương án B là phép cộng $2+7$.
 
-::mc
+::mc TH
 Kim dài của đồng hồ chỉ số 6. Số phút đã qua là
 A. $6$ phút.
 B. $30$ phút.
@@ -373,7 +373,7 @@ D. $25$ phút.
 ::key B
 $5\times6=30$ (phút). Phương án A đọc nhầm số thành số phút.
 
-::tf
+::tf NB NB NB NB
 Em xét bảng nhân 2 và bảng nhân 5.
 a) $2\times7=16$.
 b) $5\times5=20$.
@@ -382,12 +382,12 @@ d) $5\times10=45$.
 ::key S S Đ S
 a) Sai: $2\times7=14$. b) Sai: $5\times5=25$. c) Đúng: $2\times8=16$. d) Sai: $5\times10=50$.
 
-::sa
+::sa NB
 Tính $5\times6$.
 ::key 30
 $5\times6=30$.
 
-::sa
+::sa VD
 Mỗi đôi giày có 2 chiếc giày. 8 đôi giày có tất cả bao nhiêu chiếc giày?
 ::key 16
 $2\times8=16$ (chiếc).

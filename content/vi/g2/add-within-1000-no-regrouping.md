@@ -326,7 +326,7 @@ Ta có $347+265=612$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $145+238$ là
 A. $383$.
 B. $93$.
@@ -335,7 +335,7 @@ D. $473$.
 ::key A
 $5+8=13$, viết $3$ nhớ $1$; $4+3+1=8$; $1+2=3$, nên tổng là $383$. A quên nhớ sang hàng chục, D nhớ nhầm sang hàng trăm, B là phép trừ $238-145$.
 
-::mc
+::mc TH
 Tính nhẩm $270+360$ được
 A. $530$.
 B. $630$.
@@ -344,7 +344,7 @@ D. $130$.
 ::key B
 $27$ chục cộng $36$ chục bằng $63$ chục, tức là $630$. B quên nhớ, C quên chữ số $0$, D chỉ cộng $7+6$.
 
-::mc
+::mc VD
 Buổi sáng một cửa hàng bán $248$ cái bút, buổi chiều bán $175$ cái bút. Cả hai buổi cửa hàng bán được
 A. $73$ cái bút.
 B. $413$ cái bút.
@@ -353,7 +353,7 @@ D. $323$ cái bút.
 ::key C
 "Cả hai buổi" là gộp lại: $248+175=423$. B quên nhớ ở hàng đơn vị, D quên nhớ ở hàng chục, A là phép trừ $248-175$.
 
-::mc
+::mc TH
 Phép cộng nào dưới đây có nhớ?
 A. $312+245$.
 B. $230+405$.
@@ -362,7 +362,7 @@ D. $156+138$.
 ::key D
 Ở $156+138$, hàng đơn vị có $6+8=14$, lớn hơn $10$ nên phải nhớ. Ở ba phép còn lại, tổng mỗi hàng đều nhỏ hơn $10$.
 
-::tf
+::tf NB NB VD TH
 Em xét phép cộng $358+267$.
 a) Khi đặt tính, chữ số $6$ của $267$ thẳng cột với chữ số $8$ của $358$.
 b) Ở hàng đơn vị, $8+7=15$, viết $5$ nhớ $1$.
@@ -371,12 +371,12 @@ d) Tổng nhỏ hơn $600$.
 ::key S Đ Đ S
 a) Sai: chữ số $6$ ở hàng chục, thẳng cột với chữ số $5$ của $358$; chữ số $7$ mới thẳng cột với $8$. b) Đúng: $8+7=15$. c) Đúng: $5+6+1=12$, viết $2$ nhớ $1$; $3+2+1=6$, nên tổng là $625$. d) Sai: $625>600$.
 
-::sa
+::sa VD
 Tính $468+275$.
 ::key 743
 $8+5=13$, viết $3$ nhớ $1$; $6+7+1=14$, viết $4$ nhớ $1$; $4+2+1=7$. Vậy $468+275=743$.
 
-::sa
+::sa VD
 Buổi sáng một bác nông dân thu hoạch được $325$ kg dưa, buổi chiều thu hoạch được $289$ kg dưa. Cả ngày bác thu hoạch được bao nhiêu ki-lô-gam dưa?
 ::key 614
 $325+289=614$ (kg): $5+9=14$, viết $4$ nhớ $1$; $2+8+1=11$, viết $1$ nhớ $1$; $3+2+1=6$.

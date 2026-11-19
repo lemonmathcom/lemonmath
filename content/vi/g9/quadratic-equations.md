@@ -493,7 +493,7 @@ Vậy cạnh hình vuông là $3$ cm và hộp chứa được $1008$ cm³.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Phương trình nào sau đây là phương trình bậc hai một ẩn?
 A. $2x+3=0$.
 B. $x^3-x=0$.
@@ -502,7 +502,7 @@ D. $0x^2+3x-1=0$.
 ::key C
 $a=-1\neq0$, $b=0$, $c=5$. A và D (có $a=0$) là phương trình bậc nhất, B là phương trình bậc ba.
 
-::mc
+::mc NB
 Biệt thức $\Delta$ của phương trình $2x^2-3x-2=0$ là
 A. $25$.
 B. $-7$.
@@ -511,7 +511,7 @@ D. $7$.
 ::key A
 $\Delta=9-4\cdot2\cdot(-2)=9+16=25$. B sai dấu của $c$, C dùng $2ac$ thay cho $4ac$, D viết $b^2=-9$.
 
-::mc
+::mc TH
 Phương trình $x^2-6x+9=0$
 A. có hai nghiệm phân biệt $3$ và $-3$.
 B. có nghiệm kép $x=3$.
@@ -520,7 +520,7 @@ D. vô nghiệm.
 ::key B
 $\Delta'=9-9=0$, nghiệm kép $x=-\dfrac{b'}{a}=3$. A nhầm với phương trình $x^2=9$, C sai dấu của $b'$, D tính nhầm $\Delta'=-9-9<0$.
 
-::mc
+::mc NB
 Phương trình $3x^2-4x-1=0$ có biệt thức thu gọn $\Delta'$ bằng
 A. $7$.
 B. $1$.
@@ -529,7 +529,7 @@ D. $19$.
 ::key A
 $b'=-2$, $\Delta'=4-3\cdot(-1)=7$. B sai dấu của $c$, C là $\Delta$, D dùng $b^2$ thay cho $b'^2$.
 
-::tf
+::tf NB TH VD TH
 Cho phương trình $x^2-2x-8=0$. Xét tính đúng sai của các mệnh đề sau:
 a) Các hệ số là $a=1$, $b=-2$, $c=-8$.
 b) $\Delta'=9$.
@@ -538,12 +538,12 @@ d) Phương trình có nghiệm kép.
 ::key Đ Đ S S
 a) Đúng. b) Đúng: $\Delta'=1+8=9$. c) Sai: $x=1\pm3$, tức $x=4$, $x=-2$. d) Sai: $\Delta'>0$.
 
-::sa
+::sa VD
 Tìm nghiệm dương của phương trình $x^2+x-12=0$.
 ::key 3
 $\Delta=1+48=49$, $x=\dfrac{-1\pm7}{2}$, tức $x=3$ hoặc $x=-4$.
 
-::sa
+::sa VD
 Tìm nghiệm nhỏ hơn của phương trình $2x^2-5x-3=0$ (viết dưới dạng số thập phân).
 ::key -0,5
 $\Delta=25+24=49$, $x=\dfrac{5\pm7}{4}$, tức $x=3$ hoặc $x=-0{,}5$.

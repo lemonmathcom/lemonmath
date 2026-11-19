@@ -349,7 +349,7 @@ Vậy quãng đường AB dài $24$ km.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tổng của hai số bằng $40$, hiệu của chúng bằng $6$. Số lớn là
 A. $23$.
 B. $20$.
@@ -358,7 +358,7 @@ D. $34$.
 ::key A
 Gọi số bé $x$: $x+(x+6)=40$ nên $x=17$ và số lớn là $23$. A là số bé, B là một nửa tổng, D là $40-6$.
 
-::mc
+::mc VD
 Hình chữ nhật có chu vi $50$ m, chiều dài hơn chiều rộng $5$ m. Chiều rộng là
 A. $15$ m.
 B. $10$ m.
@@ -367,7 +367,7 @@ D. $12{,}5$ m.
 ::key B
 $2(x+x+5)=50$ nên $x=10$. B là chiều dài, C và D nhầm với chu vi chia $2$ hoặc chia $4$.
 
-::mc
+::mc VD
 Giá một chiếc áo sau khi giảm $20\%$ là $360\,000$ đồng. Giá ban đầu là
 A. $288\,000$ đồng.
 B. $432\,000$ đồng.
@@ -376,7 +376,7 @@ D. $380\,000$ đồng.
 ::key C
 $0{,}8x=360\,000$ nên $x=450\,000$. A lấy $360\,000\cdot0{,}8$, B tính $20\%$ của giá sau giảm rồi cộng vào.
 
-::mc
+::mc VD
 Xe máy đi trước $1$ giờ với vận tốc $40$ km/h; ô tô đi sau với vận tốc $60$ km/h cùng chiều. Ô tô đuổi kịp xe máy sau bao nhiêu giờ kể từ lúc ô tô khởi hành?
 A. $1$ giờ.
 B. $4$ giờ.
@@ -385,7 +385,7 @@ D. $2$ giờ.
 ::key D
 $40(x+1)=60x$ nên $x=2$. C là thời gian xe máy đã đi, A và B không thoả phương trình.
 
-::tf
+::tf TH TH VD VD
 Hình chữ nhật có chu vi $60$ m, chiều dài hơn chiều rộng $6$ m. Xét tính đúng sai của các mệnh đề sau:
 a) Nếu gọi chiều rộng là $x$ thì chiều dài là $x-6$.
 b) Phương trình của bài toán là $2x+6=60$.
@@ -394,12 +394,12 @@ d) Diện tích là $216$ m².
 ::key S S Đ Đ
 a) Sai: chiều dài hơn nên là $x+6$. b) Sai: phương trình là $2(x+x+6)=60$. c) Đúng: $4x+12=60$ nên $x=12$. d) Đúng: $12\cdot18=216$.
 
-::sa
+::sa VD
 Tổng của hai số bằng $65$, hiệu của chúng bằng $11$. Số lớn bằng bao nhiêu?
 ::key 38
 $x+(x+11)=65$ nên $x=27$ và số lớn là $38$.
 
-::sa
+::sa VD
 Năm nay mẹ $38$ tuổi, con $8$ tuổi. Sau bao nhiêu năm nữa thì tuổi mẹ gấp $3$ lần tuổi con?
 ::key 7
 $38+x=3(8+x)$ nên $x=7$.

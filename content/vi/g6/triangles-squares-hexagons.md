@@ -611,7 +611,7 @@ Vậy cần $300$ cm nẹp cho một mặt bàn; mặt bàn lớn có dạng l�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Mỗi góc của một tam giác đều có số đo bằng
 A. $45^\circ$.
 B. $60^\circ$.
@@ -620,7 +620,7 @@ D. $120^\circ$.
 ::key B
 Tam giác đều có ba góc bằng nhau, mỗi góc $60^\circ$. C là góc của hình vuông; D là góc của lục giác đều.
 
-::mc
+::mc TH
 Một lục giác đều có bao nhiêu đường chéo chính?
 A. $3$.
 B. $6$.
@@ -629,7 +629,7 @@ D. $9$.
 ::key A
 Mỗi đường chéo chính nối hai đỉnh đối diện, sáu đỉnh tạo thành $3$ cặp. B là số cạnh; C là số đường chéo của tứ giác; D là tổng số đường chéo của lục giác.
 
-::mc
+::mc NB
 Trong các hình sau, hình nào luôn có hai đường chéo vuông góc với nhau?
 A. Hình chữ nhật.
 B. Hình bình hành.
@@ -638,7 +638,7 @@ D. Hình thoi.
 ::key D
 Hình thoi có hai đường chéo vuông góc. Hình chữ nhật và hình thang cân có hai đường chéo bằng nhau chứ không nhất thiết vuông góc; hình bình hành không có cả hai tính chất đó.
 
-::mc
+::mc NB
 Hình bình hành $ABCD$ có $AB=7$ cm, $BC=4$ cm. Độ dài cạnh $CD$ là
 A. $4$ cm.
 B. $11$ cm.
@@ -647,7 +647,7 @@ D. $3$ cm.
 ::key C
 $CD$ là cạnh đối của $AB$ nên $CD=AB=7$ cm. A nhầm với cạnh kề $BC$; B cộng hai cạnh; D trừ hai cạnh.
 
-::tf
+::tf NB NB NB TH
 Xét tính đúng sai của các mệnh đề sau:
 a) Hình thoi luôn có bốn góc vuông.
 b) Hình chữ nhật có hai đường chéo bằng nhau.
@@ -656,12 +656,12 @@ d) Mỗi góc của lục giác đều bằng $120^\circ$.
 ::key S Đ Đ Đ
 a) Sai: hình thoi có bốn cạnh bằng nhau nhưng các góc không nhất thiết vuông. b) Đúng. c) Đúng. d) Đúng: mỗi góc gồm hai góc $60^\circ$ của hai tam giác đều ghép lại.
 
-::sa
+::sa TH
 Một lục giác đều có cạnh dài $7$ cm. Đường chéo chính của nó dài bao nhiêu xăng-ti-mét?
 ::key 14
 Đường chéo chính dài gấp đôi cạnh: $7\cdot2=14$ (cm).
 
-::sa
+::sa TH
 Một đoạn dây dài $60$ cm được uốn vừa đủ thành một hình thoi. Mỗi cạnh của hình thoi dài bao nhiêu xăng-ti-mét?
 ::key 15
 Hình thoi có bốn cạnh bằng nhau nên mỗi cạnh dài $60:4=15$ (cm).

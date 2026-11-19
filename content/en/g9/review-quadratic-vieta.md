@@ -347,7 +347,7 @@ From $25-2P=13$ we get $P=6$. The two numbers are the roots of $X^2-5X+6=0$, wit
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The solution set of $3x^2-7x+2=0$ is
 A. $\left\{-2,-\dfrac13\right\}$.
 B. $\{2,3\}$.
@@ -356,7 +356,7 @@ D. $\left\{2,\dfrac13\right\}$.
 ::key D
 $\Delta=49-24=25$, so $x=\dfrac{7\pm5}{6}$, that is $2$ and $\dfrac13$. Option A has the wrong sign for $-b$, B takes $a=3$ as a root, and C confuses this with the roots found by inspection when $a+b+c=0$.
 
-::mc
+::mc VD
 The equation $x^2-4x+1=0$ has two roots $x_1$ and $x_2$. The value of $x_1^2+x_2^2$ is
 A. $14$.
 B. $18$.
@@ -365,7 +365,7 @@ D. $16$.
 ::key A
 $S=4$, $P=1$, so $x_1^2+x_2^2=16-2=14$. Option D is $S^2$, B is $S^2+2P$, and C is $S^2-4P$.
 
-::mc
+::mc NB
 The equation $2x^2-5x-3=0$ has two roots. The sum of the roots is
 A. $-\dfrac52$.
 B. $\dfrac52$.
@@ -374,7 +374,7 @@ D. $-\dfrac32$.
 ::key B
 $x_1+x_2=-\dfrac ba=\dfrac52$. Option A has the wrong sign, and C and D use the product $\dfrac ca=-\dfrac32$ (or its opposite) instead of the sum.
 
-::mc
+::mc TH
 The roots of $5x^2-8x+3=0$ are
 A. $1$ and $-\dfrac35$.
 B. $-1$ and $\dfrac35$.
@@ -383,7 +383,7 @@ D. $-1$ and $-\dfrac35$.
 ::key C
 $a+b+c=5-8+3=0$, so $x_1=1$ and $x_2=\dfrac ca=\dfrac35$. The other options have the wrong sign for one or both roots.
 
-::tf
+::tf TH NB VD VD
 The equation $x^2-6x+4=0$ has two roots $x_1$ and $x_2$. Decide whether each statement is true or false.
 a) The equation has two distinct roots.
 b) $x_1+x_2=6$.
@@ -392,12 +392,12 @@ d) $(x_1-x_2)^2=16$.
 ::key T T F F
 a) True: $\Delta'=9-4=5>0$. b) True: $x_1+x_2=-\dfrac{-6}{1}=6$. c) False: $x_1^2+x_2^2=36-8=28$. d) False: $(x_1-x_2)^2=36-16=20$.
 
-::sa
+::sa VD
 The equation $x^2-3x-5=0$ has two roots $x_1$ and $x_2$. Find $x_1^2+x_2^2$.
 ::key 19
 $S=3$, $P=-5$, so $x_1^2+x_2^2=9-2\cdot(-5)=19$.
 
-::sa
+::sa VD
 A rectangular board has perimeter $36$ dm and area $80$ dm². Find the length of the shorter side (in dm).
 ::key 8
 The two sides are the roots of $X^2-18X+80=0$, that is $10$ and $8$. The shorter side is $8$.

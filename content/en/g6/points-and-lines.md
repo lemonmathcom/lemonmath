@@ -471,7 +471,7 @@ So there are $43$ lines in all.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 How many lines pass through two distinct points?
 A. $0$.
 B. $1$.
@@ -480,7 +480,7 @@ D. Infinitely many.
 ::key B
 There is one and only one line through two distinct points. D is the number of lines through a single point.
 
-::mc
+::mc TH
 Three points $A$, $B$, $C$ are collinear, with $B$ between $A$ and $C$. Two opposite rays are
 A. $BA$ and $BC$.
 B. $AB$ and $AC$.
@@ -489,7 +489,7 @@ D. $AB$ and $BA$.
 ::key A
 $BA$ and $BC$ share the endpoint $B$ and together make a line. B and C are pairs of coinciding rays; D do not share an endpoint.
 
-::mc
+::mc VD
 Five points are given, no three of which are collinear. The number of lines through any two of them is
 A. $5$.
 B. $20$.
@@ -498,7 +498,7 @@ D. $10$.
 ::key D
 $\dfrac{5\cdot4}{2}=10$. B forgets to divide by $2$; C works out $5\cdot5$; A just counts the points.
 
-::mc
+::mc NB
 How many points do two parallel lines have in common?
 A. $1$.
 B. $2$.
@@ -507,7 +507,7 @@ D. Infinitely many.
 ::key C
 Two parallel lines have no point in common. A is the case of intersecting lines; D is the case of coinciding lines.
 
-::tf
+::tf NB NB TH NB
 Line $xy$ is given, and point $O$ lies on $xy$. Decide whether each statement is true or false.
 a) $Ox$ and $Oy$ are opposite rays.
 b) The endpoint of ray $Ox$ is $x$.
@@ -516,12 +516,12 @@ d) Rays $Ox$ and $Oy$ together make line $xy$.
 ::key T F T T
 a) True: they share the endpoint $O$ and together make line $xy$. b) False: the endpoint of ray $Ox$ is $O$. c) True: the endpoint lies on the ray. d) True: by the definition of opposite rays.
 
-::sa
+::sa VD
 Seven points are given, no three of which are collinear. How many lines pass through any two of them?
 ::key 21
 $\dfrac{7\cdot6}{2}=21$.
 
-::sa
+::sa TH
 Four different points are marked on a line. How many rays have one of these points as their endpoint?
 ::key 8
 Each point is the endpoint of two opposite rays: $4\cdot2=8$ rays.

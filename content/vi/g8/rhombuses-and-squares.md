@@ -418,7 +418,7 @@ Vậy $AE=BF$ và $AE\perp BF$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hình thoi có cạnh $6$ cm. Chu vi bằng
 A. $12$ cm.
 B. $24$ cm.
@@ -427,7 +427,7 @@ D. $18$ cm.
 ::key B
 Hình thoi có bốn cạnh bằng nhau nên chu vi là $4\cdot6=24$ cm. A là $2\cdot6$, C là $6^2$, D là $3\cdot6$.
 
-::mc
+::mc TH
 Hình thoi có hai đường chéo $6$ cm và $8$ cm. Cạnh của hình thoi bằng
 A. $10$ cm.
 B. $7$ cm.
@@ -436,7 +436,7 @@ D. $14$ cm.
 ::key C
 Nửa hai đường chéo là $3$ cm và $4$ cm, nên cạnh là $\sqrt{3^2+4^2}=5$ cm. B cộng hai đường chéo rồi chia, A bằng chiều dài một đường chéo, D cộng hai đường chéo.
 
-::mc
+::mc TH
 Tứ giác nào sau đây chắc chắn là hình thoi?
 A. Tứ giác có hai đường chéo vuông góc.
 B. Tứ giác có hai cạnh kề bằng nhau.
@@ -445,7 +445,7 @@ D. Hình bình hành có hai đường chéo vuông góc.
 ::key D
 Hình bình hành có hai đường chéo vuông góc là hình thoi. A và B đúng với hình cánh diều, C là dấu hiệu của hình chữ nhật.
 
-::mc
+::mc NB
 Mỗi đường chéo của hình vuông tạo với các cạnh một góc bằng
 A. $45^\circ$.
 B. $60^\circ$.
@@ -454,7 +454,7 @@ D. $90^\circ$.
 ::key A
 Đường chéo là phân giác của góc vuông nên mỗi góc bằng $90^\circ:2=45^\circ$. D là góc ở mỗi đỉnh của hình vuông.
 
-::tf
+::tf TH NB TH NB
 Hình thoi $ABCD$ có cạnh $6$ cm và $\widehat{A}=60^\circ$.
 a) $BD=6$ cm.
 b) $\widehat{B}=120^\circ$.
@@ -463,12 +463,12 @@ d) $AC\perp BD$.
 ::key Đ Đ S Đ
 a) Đúng: tam giác $ABD$ đều. b) Đúng: $180^\circ-60^\circ=120^\circ$. c) Sai: $AC=6\sqrt3\ne6$. d) Đúng: hai đường chéo của hình thoi vuông góc.
 
-::sa
+::sa VD
 Hình thoi có hai đường chéo $24$ cm và $10$ cm. Tính cạnh của hình thoi (cm).
 ::key 13
 Nửa hai đường chéo là $12$ cm và $5$ cm, nên cạnh là $\sqrt{144+25}=13$ cm.
 
-::sa
+::sa TH
 Hình vuông có chu vi $36$ cm. Tính cạnh của hình vuông (cm).
 ::key 9
 Cạnh hình vuông là $36:4=9$ cm.

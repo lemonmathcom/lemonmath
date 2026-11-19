@@ -270,7 +270,7 @@ The two bases have area $80\ \text{cm}^2$, so the lateral area is $248-80=168\ \
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A cuboid is $6$ cm long, $4$ cm wide and $5$ cm high. Its lateral surface area, in $\text{cm}^2$, is
 A. $100$.
 B. $48$.
@@ -279,7 +279,7 @@ D. $120$.
 ::key A
 We have $(6+4)\times2\times5=100\ \text{cm}^2$.
 
-::mc
+::mc VD
 A cuboid is $8$ cm long, $3$ cm wide and $2$ cm high. Its total surface area, in $\text{cm}^2$, is
 A. $44$.
 B. $92$.
@@ -288,7 +288,7 @@ D. $88$.
 ::key B
 We have $44+48=92\ \text{cm}^2$.
 
-::mc
+::mc TH
 A cuboid has a base perimeter of $30$ cm and a height of $7$ cm. Its lateral surface area, in $\text{cm}^2$, is
 A. $37$.
 B. $105$.
@@ -297,7 +297,7 @@ D. $420$.
 ::key C
 We have $30\times7=210\ \text{cm}^2$.
 
-::mc
+::mc TH
 A label covers the four side faces of a box $9$ cm long, $5$ cm wide and $12$ cm high. Its area, in $\text{cm}^2$, is
 A. $108$.
 B. $168$.
@@ -306,7 +306,7 @@ D. $336$.
 ::key D
 We have $(9+5)\times2\times12=336\ \text{cm}^2$.
 
-::tf
+::tf TH NB TH VD
 A cuboid is $10$ cm long, $6$ cm wide and $4$ cm high.
 a) The perimeter of its base is $32$ cm.
 b) The area of one base is $60\ \text{cm}^2$.
@@ -315,12 +315,12 @@ d) Its total surface area is $188\ \text{cm}^2$.
 ::key T T T F
 a) True since $(10+6)\times2=32$. b) True since $10\times6=60$. c) True since $32\times4=128$. d) False: the correct total is $248\ \text{cm}^2$.
 
-::sa
+::sa VD
 A cuboid is $7$ cm long and $3$ cm wide. Its lateral surface area is $120\ \text{cm}^2$. What is its height in centimetres?
 ::key 6
 The base perimeter is $(7+3)\times2=20$ cm, so the height is $120\div20=6$ cm.
 
-::sa
+::sa VD
 A cuboid is $5$ cm long, $4$ cm wide and $3$ cm high. What is its total surface area in square centimetres?
 ::key 94
 The lateral area is $(5+4)\times2\times3=54\ \text{cm}^2$ and the two bases have area $40\ \text{cm}^2$, giving $94\ \text{cm}^2$.

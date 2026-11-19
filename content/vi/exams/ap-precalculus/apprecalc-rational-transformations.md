@@ -294,7 +294,7 @@ Vậy $r(x)=\dfrac{3(x-1)}{x-2}$ là một hàm số thoả mãn.
 :::
 
 :::quiz
-::mc
+::mc TH
 Đồ thị của $f(x)=\dfrac{x+1}{x^2-1}$ có tiệm cận đứng ở đâu?
 A. $x=1$ và $x=-1$
 B. Chỉ $x=1$
@@ -303,7 +303,7 @@ D. Không có
 ::key B
 $\dfrac{x+1}{(x-1)(x+1)}$: nhân tử $x+1$ rút gọn được (điểm khuyết tại $x=-1$).
 
-::mc
+::mc TH
 Tiệm cận ngang của $\dfrac{4x^2}{2x^2+1}$ là
 A. $y=4$
 B. $y=0$
@@ -312,7 +312,7 @@ D. $y=2$
 ::key D
 Cùng bậc: $\dfrac42=2$.
 
-::mc
+::mc NB
 Đồ thị $y=f(x+3)$ có quan hệ thế nào với đồ thị $y=f(x)$?
 A. Dời sang trái $3$ đơn vị
 B. Dời sang phải $3$ đơn vị
@@ -321,7 +321,7 @@ D. Dời xuống dưới $3$ đơn vị
 ::key A
 Cộng thêm bên trong ngoặc thì đồ thị dời sang trái.
 
-::mc
+::mc TH
 Đường thẳng nào là tiệm cận xiên của $\dfrac{x^3}{x^2+1}$?
 A. $y=x^2$
 B. $y=1$
@@ -330,7 +330,7 @@ D. $y=0$
 ::key C
 $\dfrac{x^3}{x^2+1}=x-\dfrac{x}{x^2+1}$, và số hạng cuối tiến tới $0$.
 
-::tf
+::tf NB TH TH NB
 Cho $r(x)=\dfrac{x-2}{x+1}$. Xét tính đúng sai của các mệnh đề sau:
 a) $r$ có nghiệm tại $x=2$.
 b) Đồ thị có tiệm cận đứng $x=-1$.
@@ -339,12 +339,12 @@ d) $r(0)=2$.
 ::key T T T F
 $r(0)=\dfrac{-2}{1}=-2$.
 
-::sa
+::sa TH
 Đồ thị của $f(x)=\dfrac{x^2-1}{x-1}$ có điểm khuyết tại $x=1$. Tìm tung độ của điểm khuyết.
 ::key 2
 Với $x\ne1$, $f(x)=x+1$, bằng $2$ tại $x=1$.
 
-::sa
+::sa TH
 Tìm tiệm cận ngang $y=c$ của $\dfrac{6x+1}{3x-2}$. Cho biết $c$.
 ::key 2
 $\dfrac63=2$.

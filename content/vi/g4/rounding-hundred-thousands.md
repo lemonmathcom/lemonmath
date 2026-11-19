@@ -358,7 +358,7 @@ Số bé nhất: bắt đầu bằng $4$ và chữ số hàng chục nghìn ph�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Làm tròn $2\,467\,891$ đến hàng trăm nghìn được
 A. $2\,400\,000$.
 B. $2\,470\,000$.
@@ -367,7 +367,7 @@ D. $2\,500\,000$.
 ::key D
 Chữ số hàng chục nghìn là $6\geq5$ nên tăng chữ số hàng trăm nghìn $4$ lên $5$: $2\,500\,000$. Phương án A nhìn sai chữ số, phương án B làm tròn đến hàng chục nghìn, phương án C làm tròn đến hàng triệu.
 
-::mc
+::mc TH
 Làm tròn $468\,395$ đến hàng chục nghìn được
 A. $470\,000$.
 B. $468\,000$.
@@ -376,7 +376,7 @@ D. $500\,000$.
 ::key A
 Chữ số hàng nghìn là $8\geq5$ nên tăng chữ số hàng chục nghìn $6$ lên $7$: $470\,000$. Phương án B làm tròn đến hàng nghìn, phương án C làm tròn xuống sai, phương án D làm tròn đến hàng trăm nghìn.
 
-::mc
+::mc NB
 Số liền trước của $100\,000$ là
 A. $100\,001$.
 B. $99\,999$.
@@ -385,7 +385,7 @@ D. $90\,000$.
 ::key B
 Số liền trước kém số đó $1$ đơn vị: $100\,000-1=99\,999$. Phương án A là số liền sau, phương án C và D sai giá trị.
 
-::mc
+::mc TH
 Phát biểu nào sau đây đúng?
 A. Số tự nhiên lớn nhất là $999\,999$.
 B. Số $0$ không phải là số tự nhiên.
@@ -394,7 +394,7 @@ D. Số tự nhiên bé nhất là $1$.
 ::key C
 Thêm $1$ vào bất kì số tự nhiên nào cũng được số tự nhiên lớn hơn, nên không có số tự nhiên lớn nhất. Số $0$ là số tự nhiên bé nhất.
 
-::tf
+::tf TH TH TH TH
 Em xét số $3\,548\,200$.
 a) Làm tròn đến hàng trăm nghìn được $3\,500\,000$.
 b) Làm tròn đến hàng chục nghìn được $3\,540\,000$.
@@ -403,12 +403,12 @@ d) Làm tròn đến hàng nghìn được $3\,549\,000$.
 ::key Đ S S S
 a) Đúng: chữ số hàng chục nghìn là $4<5$. b) Sai: chữ số hàng nghìn là $8\geq5$ nên được $3\,550\,000$. c) Sai: chữ số hàng trăm nghìn là $5\geq5$ nên được $4\,000\,000$. d) Sai: chữ số hàng trăm là $2<5$ nên được $3\,548\,000$.
 
-::sa
+::sa TH
 Làm tròn $749\,999$ đến hàng trăm nghìn được số có chữ số hàng trăm nghìn là mấy?
 ::key 7
 Chữ số hàng chục nghìn là $4<5$ nên giữ nguyên chữ số $7$, được $700\,000$.
 
-::sa
+::sa TH
 Số liền sau của $4\,999\,999$ có bao nhiêu chữ số $0$?
 ::key 6
 Số liền sau là $5\,000\,000$, có sáu chữ số $0$.

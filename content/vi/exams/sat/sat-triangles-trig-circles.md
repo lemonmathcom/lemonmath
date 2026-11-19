@@ -265,7 +265,7 @@ $(k-1)^2=16$, nên $k-1=4$ hoặc $k-1=-4$, cho $k=5$ hoặc $k=-3$. Vì $k>0$ n
 :::
 
 :::quiz
-::mc
+::mc NB
 Một tam giác vuông có hai cạnh góc vuông là 6 và 8. Cạnh huyền dài
 A. $10$
 B. $14$
@@ -274,7 +274,7 @@ D. $7$
 ::key A
 $\sqrt{36+64}=10$. Phương án B cộng hai cạnh góc vuông.
 
-::mc
+::mc NB
 $90^\circ$ bằng bao nhiêu radian?
 A. $\pi$
 B. $2\pi$
@@ -283,7 +283,7 @@ D. $\dfrac{\pi}{4}$
 ::key C
 $90^\circ=\dfrac{90}{180}\pi=\dfrac{\pi}{2}$.
 
-::mc
+::mc NB
 Giá trị của $\sin30^\circ$ là
 A. $\dfrac{\sqrt3}{2}$
 B. $1$
@@ -292,7 +292,7 @@ D. $\dfrac12$
 ::key D
 Trong tam giác $30^\circ$–$60^\circ$–$90^\circ$, cạnh đối diện $30^\circ$ bằng nửa cạnh huyền.
 
-::mc
+::mc NB
 Tâm và bán kính của đường tròn $(x+1)^2+(y-4)^2=49$ là
 A. Tâm $(1, -4)$, bán kính $7$
 B. Tâm $(-1, 4)$, bán kính $7$
@@ -301,7 +301,7 @@ D. Tâm $(1, 4)$, bán kính $7$
 ::key B
 $x+1=x-(-1)$, nên $h=-1$; $k=4$; $r=\sqrt{49}=7$.
 
-::tf
+::tf NB NB TH TH
 Trong tam giác $ABC$ vuông tại $C$, $BC=5$, $AC=12$ và $AB=13$.
 a) $\sin A=\dfrac{5}{13}$.
 b) $\cos A=\dfrac{12}{13}$.
@@ -310,12 +310,12 @@ d) $\sin A=\cos B$.
 ::key Đ Đ S Đ
 a) Đúng: cạnh đối diện $A$ là $BC=5$. b) Đúng. c) Sai: $\tan A=\dfrac{5}{12}$. d) Đúng: $A$ và $B$ phụ nhau.
 
-::sa
+::sa TH
 Một đường tròn có bán kính 9. Cung bị chắn bởi góc ở tâm $40^\circ$ có độ dài $k\pi$. Giá trị của $k$ bằng bao nhiêu?
 ::key 2
 $\dfrac{40}{360}\cdot2\pi\cdot9=2\pi$.
 
-::sa
+::sa TH
 Với góc $0<x<90$, $\sin x^\circ=\cos25^\circ$. Giá trị của $x$ bằng bao nhiêu?
 ::key 65
 $90-x=25$, nên $x=65$.

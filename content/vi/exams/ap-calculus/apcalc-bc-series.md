@@ -237,7 +237,7 @@ $\displaystyle\sum_{n=1}^\infty nx^n=\frac{x}{(1-x)^2}$. Tại $x=\dfrac12$: $\d
 :::
 
 :::quiz
-::mc
+::mc TH
 Tổng $\displaystyle\sum_{n=0}^\infty\left(\frac34\right)^n$ bằng
 A. $\dfrac34$
 B. $3$
@@ -246,7 +246,7 @@ D. $4$
 ::key D
 $\dfrac{1}{1-3/4}=4$.
 
-::mc
+::mc TH
 Chuỗi nào hội tụ có điều kiện?
 A. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n}$
 B. $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n^2}$
@@ -255,7 +255,7 @@ D. $\displaystyle\sum_{n=1}^\infty(-1)^n$
 ::key A
 A hội tụ theo tiêu chuẩn chuỗi đan dấu, nhưng các giá trị tuyệt đối tạo thành chuỗi điều hoà. B hội tụ tuyệt đối; C và D phân kì.
 
-::mc
+::mc VD
 Hệ số của $x^3$ trong chuỗi Maclaurin của $\sin(2x)$ bằng
 A. $-\dfrac16$
 B. $-\dfrac43$
@@ -264,7 +264,7 @@ D. $-8$
 ::key B
 $-\dfrac{(2x)^3}{3!}=-\dfrac{8}{6}x^3=-\dfrac43x^3$.
 
-::mc
+::mc TH
 Bán kính hội tụ của $\displaystyle\sum_{n=0}^\infty\frac{x^n}{2^n}$ bằng
 A. $\dfrac12$
 B. $1$
@@ -273,7 +273,7 @@ D. $\infty$
 ::key C
 Chuỗi hình học có công bội $\dfrac x2$: hội tụ khi $|x|<2$.
 
-::tf
+::tf TH TH TH VD
 Xét chuỗi $\displaystyle\sum_{n=1}^\infty\frac{(-1)^{n+1}}{\sqrt n}$.
 a) Chuỗi hội tụ.
 b) Chuỗi hội tụ tuyệt đối.
@@ -282,12 +282,12 @@ d) Tổng riêng $S_1=1$ sai khác tổng của chuỗi không quá $\dfrac{1}{\
 ::key T F T T
 a) Đúng: tiêu chuẩn chuỗi đan dấu. b) Sai: $\displaystyle\sum\frac{1}{\sqrt n}$ là chuỗi $p$ với $p=\dfrac12$. c) Đúng. d) Đúng: cận sai số của chuỗi đan dấu, số hạng đầu tiên bị bỏ là $\dfrac{1}{\sqrt2}$.
 
-::sa
+::sa VD
 Tính $\displaystyle\sum_{n=1}^\infty\frac{3}{2^n}$.
 ::key 3
 Chuỗi hình học có số hạng đầu $\dfrac32$ và công bội $\dfrac12$: $\dfrac{3/2}{1/2}=3$.
 
-::sa
+::sa TH
 Tính giá trị của đa thức Maclaurin bậc hai của $e^x$ tại $x=1$.
 ::key 2,5
 $1+1+\dfrac12=2{,}5$.

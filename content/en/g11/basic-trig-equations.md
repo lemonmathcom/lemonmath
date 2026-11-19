@@ -363,7 +363,7 @@ We have $\sin3x=\sin\left(\dfrac{\pi}{2}-2x\right)$. Hence $3x=\dfrac{\pi}{2}-2x
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The solutions of $\cos x=-1$ are
 A. $x=\dfrac{\pi}{2}+k\pi$.
 B. $x=k2\pi$.
@@ -372,7 +372,7 @@ D. $x=\pi+k\pi$.
 ::key C
 $\cos x=-1$ corresponds only to the point $(-1, 0)$ on the unit circle, so $x=\pi+k2\pi$. Option D also includes the angles with $\cos x=1$.
 
-::mc
+::mc TH
 The solutions of $\tan x=-\sqrt3$ are
 A. $x=\dfrac{\pi}{3}+k\pi$.
 B. $x=-\dfrac{\pi}{3}+k2\pi$.
@@ -381,7 +381,7 @@ D. $x=-\dfrac{\pi}{3}+k\pi$.
 ::key D
 $\tan\left(-\dfrac{\pi}{3}\right)=-\sqrt3$ and $\tan$ has period $\pi$. Option A has the wrong sign, B uses period $2\pi$, and C adds the solutions of $\tan x=\sqrt3$.
 
-::mc
+::mc TH
 Which of the following equations has no solution?
 A. $\sin x=\dfrac{\pi}{3}$.
 B. $\cos x=-0.9$.
@@ -390,7 +390,7 @@ D. $\tan x=100$.
 ::key A
 $\dfrac{\pi}{3}\approx1.047>1$, so $\sin x=\dfrac{\pi}{3}$ has no solution. The equation $\tan x=m$ has solutions for every $m$, and $|-0.9|<1$ and $\left|\dfrac{\sqrt3}{2}\right|<1$.
 
-::mc
+::mc VD
 The solutions of $\sin\left(x-\dfrac{\pi}{6}\right)=\dfrac12$ are
 A. $x=\dfrac{\pi}{6}+k2\pi$ or $x=\dfrac{5\pi}{6}+k2\pi$.
 B. $x=\dfrac{\pi}{3}+k2\pi$ or $x=\pi+k2\pi$.
@@ -399,7 +399,7 @@ D. $x=-\dfrac{\pi}{3}+k2\pi$ or $x=\pi+k2\pi$.
 ::key B
 $x-\dfrac{\pi}{6}=\dfrac{\pi}{6}+k2\pi$ gives $x=\dfrac{\pi}{3}+k2\pi$; $x-\dfrac{\pi}{6}=\dfrac{5\pi}{6}+k2\pi$ gives $x=\pi+k2\pi$. Option A forgets to add $\dfrac{\pi}{6}$.
 
-::tf
+::tf TH TH TH VD
 Consider the equation $2\cos2x=\sqrt3$. Decide whether each statement is true or false.
 a) $x=\dfrac{\pi}{6}$ is a solution of the equation.
 b) $x=\dfrac{\pi}{12}$ is a solution of the equation.
@@ -408,12 +408,12 @@ d) In the interval $[0, \pi]$ the equation has exactly three solutions.
 ::key F T T F
 The equation is equivalent to $\cos2x=\dfrac{\sqrt3}{2}$, so $2x=\pm\dfrac{\pi}{6}+k2\pi$, that is $x=\pm\dfrac{\pi}{12}+k\pi$. a) False: $\cos\dfrac{\pi}{3}=\dfrac12\ne\dfrac{\sqrt3}{2}$. b) True. c) True. d) False: in $[0, \pi]$ there are only $\dfrac{\pi}{12}$ and $\dfrac{11\pi}{12}$.
 
-::sa
+::sa VD
 How many solutions of $\tan x=1$ lie in the interval $[0, 3\pi]$?
 ::key 3
 $x=\dfrac{\pi}{4}+k\pi$ gives the solutions $\dfrac{\pi}{4}$, $\dfrac{5\pi}{4}$ and $\dfrac{9\pi}{4}$; the next one, $\dfrac{13\pi}{4}$, is greater than $3\pi$.
 
-::sa
+::sa TH
 What is the smallest positive solution, in degrees, of $\sin x=0.3$? (give your answer to 1 decimal place)
 ::key 17.5
 The calculator gives $x=\arcsin0.3\approx17.5^\circ$, and the other solution $162.5^\circ$ is larger.

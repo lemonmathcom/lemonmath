@@ -335,7 +335,7 @@ Pages $1$ to $9$: $9$ pages, $1$ digit each, giving $9$ digits. Pages $10$ to $9
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Using the digits $0$, $3$, $7$, each exactly once, the smallest three-digit number is
 A. $037$.
 B. $307$.
@@ -344,7 +344,7 @@ D. $703$.
 ::key B
 The hundreds digit cannot be $0$, so choose $3$ and arrange $0$, $7$ from smallest to largest: $307$. Option A has only two digits; C and D are larger than $307$.
 
-::mc
+::mc NB
 The number $14$ written as a Roman numeral is
 A. $\text{XIIII}$.
 B. $\text{IVX}$.
@@ -353,7 +353,7 @@ D. $\text{VIX}$.
 ::key C
 $14=10+4$ so $\text{XIV}$. Option A writes $4$ as $\text{IIII}$ (against the rules); B and D put the symbols in the wrong order.
 
-::mc
+::mc NB
 The number before $1000$ is
 A. $990$.
 B. $1001$.
@@ -362,7 +362,7 @@ D. $999$.
 ::key D
 $1000-1=999$. Option B is the number after $1000$; C and A come from subtraction errors.
 
-::mc
+::mc TH
 Which list puts $3045$; $3504$; $345$; $3450$ in increasing order?
 A. $345$; $3045$; $3450$; $3504$.
 B. $3045$; $345$; $3450$; $3504$.
@@ -371,7 +371,7 @@ D. $3504$; $3450$; $3045$; $345$.
 ::key A
 $345$ has the fewest digits; among the three four-digit numbers, the hundreds digits satisfy $0<4<5$. Option D is decreasing order; A and B are mis-ordered.
 
-::tf
+::tf NB NB TH TH
 About the set $\mathbb{N}$ of natural numbers and the set $\mathbb{N}^*$ of natural numbers other than $0$.
 a) $0\in\mathbb{N}$.
 b) $5\in\mathbb{N}^*$.
@@ -380,12 +380,12 @@ d) The number $0$ has no number before it in $\mathbb{N}$.
 ::key T T F T
 a) True: $0$ is a natural number. b) True: $5\ne0$. c) False: every number has a larger number after it. d) True: $0$ is the smallest number.
 
-::sa
+::sa NB
 Which natural number does the Roman numeral $\text{XXIV}$ stand for?
 ::key 24
 $\text{XXIV}=10+10+4=24$.
 
-::sa
+::sa TH
 How many two-digit natural numbers are there?
 ::key 90
 From $10$ to $99$ there are $99-10+1=90$ numbers.

@@ -335,7 +335,7 @@ $$12.5\div0.25\div4=12.5\div(0.25\times4)=12.5\div1=12.5.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $15.6\div4$ equals
 A. $39$.
 B. $0.39$.
@@ -344,7 +344,7 @@ D. $3.9$.
 ::key D
 $15\div4=3$ (remainder $3$), write the decimal point, bring down $6$ to make $36$ and $36\div4=9$, so the quotient is $3.9$. Option A forgets the decimal point; B puts the decimal point in the wrong place; D adds an extra digit $0$.
 
-::mc
+::mc TH
 $0.36\div6$ equals
 A. $0.06$.
 B. $0.6$.
@@ -353,7 +353,7 @@ D. $6$.
 ::key A
 $3<6$, so the tenths digit of the quotient is $0$, then $36\div6=6$, so the quotient is $0.06$. Option B leaves out the digit $0$; C adds an extra digit $0$; D forgets the decimal point.
 
-::mc
+::mc TH
 $7.35\div1.5$ equals
 A. $49$.
 B. $4.9$.
@@ -362,7 +362,7 @@ D. $0.49$.
 ::key B
 $7.35\div1.5=73.5\div15=4.9$. Option A moves the decimal point only in the dividend ($73.5\div1.5$); B moves it only in the divisor ($7.35\div15$); C moves it the wrong number of places.
 
-::mc
+::mc VD
 Suppose $2.5$ kg of meat costs $187\,500$ dong. The price of $1$ kg of meat is
 A. $7500$ dong.
 B. $750\,000$ dong.
@@ -371,7 +371,7 @@ D. $468\,750$ dong.
 ::key C
 $187\,500\div2.5=75\,000$ dong. Options A and B have the wrong number of digits $0$; D is the multiplication $187\,500\times2.5$.
 
-::tf
+::tf TH NB TH TH
 Look at the division $9\div4$.
 a) $9\div4=2.5$.
 b) $9$ is divisible by $4$, so the quotient is a whole number.
@@ -380,12 +380,12 @@ d) The quotient of this division is less than $9$.
 ::key F F T T
 a) False: $9\div4=2$ (remainder $1$), $10\div4=2$ (remainder $2$), $20\div4=5$, so the quotient is $2.25$. b) False: $9$ is not divisible by $4$. c) True. d) True: $2.25<9$ because we divide by a number greater than $1$.
 
-::sa
+::sa VD
 Work out $12\div0.25$.
 ::key 48
 $12\div0.25=1200\div25=48$.
 
-::sa
+::sa TH
 Work out $6\div8$.
 ::key 0.75
 $6\div8=0$ (remainder $6$), $60\div8=7$ (remainder $4$), $40\div8=5$, so the quotient is $0.75$.

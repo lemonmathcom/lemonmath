@@ -365,7 +365,7 @@ $$\dfrac{3}{5}:\dfrac{1}{2}=\dfrac{3}{5}\times2=\dfrac{6}{5}\ \text{(m)}.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $\dfrac{2}{3}\times\dfrac{3}{5}$ là
 A. $\dfrac{6}{8}$.
 B. $\dfrac{5}{8}$.
@@ -374,7 +374,7 @@ D. $\dfrac{9}{10}$.
 ::key C
 $\dfrac{2}{3}\times\dfrac{3}{5}=\dfrac{6}{15}=\dfrac{2}{5}$. Phương án B và A cộng thay vì nhân.
 
-::mc
+::mc TH
 Kết quả của $\dfrac{3}{8}\times4$ là
 A. $\dfrac{3}{32}$.
 B. $\dfrac{7}{8}$.
@@ -383,7 +383,7 @@ D. $\dfrac{3}{2}$.
 ::key D
 $\dfrac{3}{8}\times4=\dfrac{12}{8}=\dfrac{3}{2}$. Phương án A và C nhân cả mẫu số với $4$.
 
-::mc
+::mc TH
 Kết quả của $\dfrac{3}{4}:\dfrac{1}{8}$ là
 A. $6$.
 B. $\dfrac{1}{6}$.
@@ -392,7 +392,7 @@ D. $\dfrac{3}{32}$.
 ::key A
 $\dfrac{3}{4}:\dfrac{1}{8}=\dfrac{3}{4}\times8=6$. Phương án B là do đảo ngược sai phân số.
 
-::mc
+::mc NB
 Phân số đảo ngược của $\dfrac{2}{7}$ là
 A. $\dfrac{2}{7}$.
 B. $\dfrac{7}{2}$.
@@ -401,7 +401,7 @@ D. $\dfrac{1}{7}$.
 ::key B
 Đổi chỗ tử số và mẫu số của $\dfrac{2}{7}$ được $\dfrac{7}{2}$.
 
-::tf
+::tf NB TH TH TH
 Em xét phép nhân $\dfrac{2}{3}\times\dfrac{1}{2}$.
 a) $\dfrac{2}{3}\times\dfrac{1}{2}=\dfrac{2}{6}$.
 b) $\dfrac{2}{3}\times\dfrac{1}{2}=\dfrac{1}{3}$.
@@ -410,12 +410,12 @@ d) Tích này bé hơn $1$.
 ::key Đ Đ S Đ
 a) Đúng: $\dfrac{2\times1}{3\times2}$. b) Đúng: $\dfrac{2}{6}=\dfrac{1}{3}$. c) Sai: $\dfrac{1}{3}<\dfrac{2}{3}$. d) Đúng: $\dfrac{1}{3}<1$.
 
-::sa
+::sa VD
 Tính $4:\dfrac{2}{3}$.
 ::key 6
 $4:\dfrac{2}{3}=4\times\dfrac{3}{2}=\dfrac{12}{2}=6$.
 
-::sa
+::sa VD
 Mỗi chiếc nơ cần $\dfrac{2}{5}$ m ruy-băng. Có $4$ m ruy-băng thì làm được nhiều nhất bao nhiêu chiếc nơ?
 ::key 10
 $4:\dfrac{2}{5}=4\times\dfrac{5}{2}=\dfrac{20}{2}=10$ (chiếc).

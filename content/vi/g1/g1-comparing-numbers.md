@@ -266,7 +266,7 @@ a) Giữa $6$ và $8$ là $7$. b) Giữa $2$ và $5$ là $3$ và $4$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Dấu thích hợp để điền vào $7 \;\square\; 4$ là
 A. $<$.
 B. $>$.
@@ -275,7 +275,7 @@ D. không điền được.
 ::key B
 $7$ lớn hơn $4$ nên $7>4$. Phương án A mở miệng dấu sai phía.
 
-::mc
+::mc NB
 Dấu thích hợp để điền vào $3 \;\square\; 3$ là
 A. $<$.
 B. $>$.
@@ -284,7 +284,7 @@ D. không điền được.
 ::key C
 Hai số giống nhau thì bằng nhau.
 
-::mc
+::mc TH
 Số lớn nhất trong các số $5, 9, 2, 7$ là
 A. $5$.
 B. $9$.
@@ -293,7 +293,7 @@ D. $7$.
 ::key B
 $9$ đếm sau cùng. Phương án C là số bé nhất.
 
-::mc
+::mc TH
 Sắp xếp $6, 2, 8$ từ bé đến lớn được
 A. $2, 6, 8$.
 B. $8, 6, 2$.
@@ -302,7 +302,7 @@ D. $2, 8, 6$.
 ::key A
 $2<6<8$. Phương án B là xếp từ lớn đến bé.
 
-::tf
+::tf NB NB TH TH
 Em xét hai số $5$ và $8$.
 a) $5<8$.
 b) $8>5$.
@@ -311,12 +311,12 @@ d) $5=8$.
 ::key Đ Đ S S
 a) Đúng. b) Đúng. c) Sai: $5$ bé hơn $8$. d) Sai: hai số khác nhau.
 
-::sa
+::sa TH
 Số lớn nhất trong các số $3, 10, 7$ là số nào?
 ::key 10
 Đếm: ..., bảy, ..., mười. Số $10$ đếm sau cùng.
 
-::sa
+::sa TH
 Số bé nhất trong các số $4, 0, 6$ là số nào?
 ::key 0
 $0$ đứng đầu hàng số nên bé nhất.

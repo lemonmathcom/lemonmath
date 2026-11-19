@@ -403,7 +403,7 @@ So the equation has three solutions, $x=-2$, $x=1$ and $x=-1$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The solution set of the equation $(x-2)(3x+9)=0$ is
 A. $S=\{2, -3\}$.
 B. $S=\{-2, 3\}$.
@@ -412,7 +412,7 @@ D. $S=\{2, -9\}$.
 ::key A
 $x-2=0\iff x=2$; $3x+9=0\iff x=-3$. B has both signs wrong; D forgets to divide by $3$.
 
-::mc
+::mc TH
 The equation $\dfrac{x}{x+1}+\dfrac{3}{x-4}=2$ is defined when
 A. $x\neq-1$ and $x\neq4$.
 B. $x\neq1$ and $x\neq-4$.
@@ -421,7 +421,7 @@ D. $x\neq4$.
 ::key A
 Both denominators $x+1$ and $x-4$ must be non-zero. B has the wrong signs; C and D look at only one denominator.
 
-::mc
+::mc TH
 The solution set of the equation $x^2=5x$ is
 A. $S=\{5\}$.
 B. $S=\{0, 5\}$.
@@ -430,7 +430,7 @@ D. $S=\{0, -5\}$.
 ::key B
 $x(x-5)=0$. Option A is what you get by dividing both sides by $x$ and losing the solution $0$.
 
-::mc
+::mc VD
 The equation $\dfrac{x+1}{x-2}=\dfrac{3}{x-2}$
 A. has the solution $x=2$.
 B. has the solution $x=-2$.
@@ -439,7 +439,7 @@ D. has the solution $x=4$.
 ::key C
 Clearing fractions gives $x+1=3$, $x=2$, but $x=2$ makes the denominator $0$, so it is rejected. Option A forgets to reject the excluded value; D moves the $1$ across without changing its sign ($x=3+1$).
 
-::tf
+::tf TH TH VD TH
 Consider the equation $\dfrac{4}{x+1}=\dfrac{3}{x-2}$.
 a) The equation is defined for $x\neq-1$ and $x\neq2$.
 b) Clearing fractions gives $4(x-2)=3(x+1)$.
@@ -448,12 +448,12 @@ d) The equation has two solutions.
 ::key T T F F
 a) True. b) True. c) False: $4x-8=3x+3\iff x=11$. d) False: there is only one solution, $x=11$.
 
-::sa
+::sa TH
 Find the sum of the solutions of the equation $(2x-8)(x+7)=0$.
 ::key -3
 The two solutions are $4$ and $-7$, and their sum is $-3$.
 
-::sa
+::sa VD
 Solve the equation $\dfrac{5}{x+2}=\dfrac{3}{x-2}$.
 ::key 8
 Defined for $x\neq\pm2$. $5(x-2)=3(x+2)\iff 2x=16\iff x=8$ (not an excluded value).

@@ -276,7 +276,7 @@ Thể tích thùng là $40\times30\times20=24\,000$ (cm³). Thể tích một h�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Thể tích hình hộp chữ nhật dài $5$ cm, rộng $4$ cm, cao $3$ cm là
 A. $60$ cm³.
 B. $12$ cm³.
@@ -285,7 +285,7 @@ D. $60$ cm².
 ::key A
 $5\times4\times3=60$ (cm³). Phương án D sai đơn vị, B là lỗi cộng ba số, C là lỗi quên chiều cao.
 
-::mc
+::mc VD
 Một hộp hình hộp chữ nhật dài $3$ dm, rộng $20$ cm, cao $10$ cm. Thể tích hộp là
 A. $33$ cm³.
 B. $6000$ cm³.
@@ -294,7 +294,7 @@ D. $6$ cm³.
 ::key B
 Đổi $3$ dm $=30$ cm, ta có $30\times20\times10=6000$ (cm³). Phương án C là lỗi không đổi đơn vị.
 
-::mc
+::mc VD
 Một hình hộp chữ nhật có thể tích $96$ cm³, chiều dài $8$ cm, chiều rộng $4$ cm. Chiều cao là
 A. $24$ cm.
 B. $12$ cm.
@@ -303,7 +303,7 @@ D. $84$ cm.
 ::key C
 Diện tích đáy là $8\times4=32$ (cm²), nên chiều cao là $96:32=3$ (cm). Phương án B, A là lỗi chỉ chia cho một kích thước, D là lỗi trừ.
 
-::mc
+::mc VD
 Hình hộp chữ nhật nào có thể tích lớn nhất?
 A. Dài $6$ cm, rộng $3$ cm, cao $2$ cm.
 B. Dài $12$ cm, rộng $1$ cm, cao $1$ cm.
@@ -312,7 +312,7 @@ D. Dài $4$ cm, rộng $4$ cm, cao $3$ cm.
 ::key D
 Thể tích lần lượt là $36$, $48$, $32$, $12$ (cm³). Phương án B có tổng ba kích thước lớn nhất, nhưng thể tích lại nhỏ nhất.
 
-::tf
+::tf TH NB TH NB
 Một hộp hình hộp chữ nhật dài $6$ cm, rộng $5$ cm, cao $4$ cm.
 a) Thể tích hộp là $120$ cm³.
 b) Thể tích hộp là $6+5+4=15$ cm³.
@@ -321,12 +321,12 @@ d) Có thể nói thể tích hộp là $120$ cm².
 ::key Đ S Đ S
 a) Đúng: $6\times5\times4=120$. b) Sai: phải nhân, không cộng. c) Đúng: $6\times5\times8=240$. d) Sai: đơn vị thể tích là cm³, không phải cm².
 
-::sa
+::sa TH
 Tính thể tích hình hộp chữ nhật dài $9$ cm, rộng $5$ cm, cao $4$ cm (theo cm³).
 ::key 180
 $9\times5\times4=45\times4=180$ (cm³).
 
-::sa
+::sa TH
 Xếp các khối lập phương cạnh $1$ cm vào đầy một hộp dài $5$ cm, rộng $3$ cm, cao $2$ cm. Cần bao nhiêu khối?
 ::key 30
 Số khối bằng thể tích hộp: $5\times3\times2=30$ (khối).

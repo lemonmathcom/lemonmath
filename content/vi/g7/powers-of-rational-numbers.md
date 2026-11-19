@@ -507,7 +507,7 @@ b) Ta có $7^6+7^5-7^4=7^4\cdot\left(7^2+7-1\right)=7^4\cdot(49+7-1)=7^4\cdot55$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Giá trị của $\left(-\dfrac23\right)^3$ là
 A. $\dfrac{8}{27}$.
 B. $-\dfrac{8}{27}$.
@@ -516,7 +516,7 @@ D. $-\dfrac{6}{27}$.
 ::key B
 Cơ số âm, số mũ lẻ nên kết quả âm; cả tử và mẫu đều được nâng lên lũy thừa: $\dfrac{(-2)^3}{3^3}=-\dfrac8{27}$. A quên dấu, C chỉ nâng tử, D lấy tích $2\cdot3$.
 
-::mc
+::mc NB
 Viết $\left(\dfrac12\right)^3\cdot\left(\dfrac12\right)^4$ dưới dạng một lũy thừa, ta được
 A. $\left(\dfrac14\right)^7$.
 B. $\left(\dfrac12\right)^{12}$.
@@ -525,7 +525,7 @@ D. $\left(\dfrac12\right)^1$.
 ::key C
 Cùng cơ số nên giữ cơ số và cộng số mũ: $3+4=7$. B nhân số mũ, A nhân cơ số, D trừ số mũ.
 
-::mc
+::mc NB
 Giá trị của $\left(\dfrac35\right)^2$ là
 A. $\dfrac95$.
 B. $\dfrac65$.
@@ -534,7 +534,7 @@ D. $\dfrac9{25}$.
 ::key D
 Cả tử và mẫu cùng được bình phương: $\dfrac{3^2}{5^2}=\dfrac9{25}$. A chỉ bình phương tử, B nhân tử với $2$, C lấy $3^2$ chia cho $5\cdot2$.
 
-::mc
+::mc NB
 Số nào sau đây bằng $\left(2^3\right)^4$?
 A. $2^{12}$.
 B. $2^7$.
@@ -543,7 +543,7 @@ D. $8^7$.
 ::key A
 Lũy thừa của lũy thừa thì nhân số mũ: $3\cdot4=12$. A cộng số mũ, C lấy $3^4$ làm số mũ, D cộng số mũ khi đã đổi cơ số.
 
-::tf
+::tf TH NB NB NB
 Xét tính đúng sai của các mệnh đề sau:
 a) $-2^2=4$.
 b) $\left(\dfrac23\right)^3=\dfrac8{27}$.
@@ -552,12 +552,12 @@ d) $\left(3^2\right)^3=3^5$.
 ::key S Đ Đ S
 a) Sai: $-2^2=-4$, còn $(-2)^2=4$. b) Đúng: $\dfrac{2^3}{3^3}=\dfrac8{27}$. c) Đúng: trừ số mũ, $6-2=4$. d) Sai: nhân số mũ, $\left(3^2\right)^3=3^6$.
 
-::sa
+::sa VD
 Tính $(0{,}5)^3\cdot8^3$.
 ::key 64
 Ta có $(0{,}5)^3\cdot8^3=(0{,}5\cdot8)^3=4^3=64$.
 
-::sa
+::sa VD
 Một hộp hình lập phương có cạnh $0{,}3$ m. Hộp chứa tối đa bao nhiêu lít nước? ($1$ m³ $=1000$ lít)
 ::key 27
 Thể tích là $(0{,}3)^3=0{,}027$ m³, đổi ra lít là $0{,}027\cdot1000=27$ lít.

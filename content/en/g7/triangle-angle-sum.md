@@ -477,7 +477,7 @@ In general: $\angle IBC+\angle ICB=\dfrac12(180^\circ-\angle A)=90^\circ-\dfrac1
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The angles of a triangle add up to
 A. $90^\circ$.
 B. $180^\circ$.
@@ -486,7 +486,7 @@ D. $360^\circ$.
 ::key B
 That is the angle sum theorem. $90^\circ$ is the sum of the two acute angles of a right-angled triangle and $360^\circ$ is a full turn.
 
-::mc
+::mc TH
 Triangle $ABC$ has $\angle A=50^\circ$, $\angle B=60^\circ$. Then $\angle C$ equals
 A. $60^\circ$.
 B. $110^\circ$.
@@ -495,7 +495,7 @@ D. $130^\circ$.
 ::key C
 $\angle C=180^\circ-(50^\circ+60^\circ)=70^\circ$. C is $180^\circ-70^\circ$, D is $180^\circ-50^\circ$.
 
-::mc
+::mc TH
 Triangle $ABC$ is right-angled at $A$ and $\angle B=28^\circ$. Then $\angle C$ equals
 A. $118^\circ$.
 B. $152^\circ$.
@@ -504,7 +504,7 @@ D. $62^\circ$.
 ::key D
 The acute angles are complementary: $\angle C=90^\circ-28^\circ=62^\circ$. B is $180^\circ-28^\circ$.
 
-::mc
+::mc TH
 Triangle $ABC$ has $\angle B=40^\circ$, $\angle C=65^\circ$. The exterior angle at the vertex $A$ equals
 A. $105^\circ$.
 B. $115^\circ$.
@@ -513,7 +513,7 @@ D. $140^\circ$.
 ::key A
 The exterior angle at $A$ equals $\angle B+\angle C=105^\circ$. A is the interior angle $\angle A$.
 
-::tf
+::tf VD TH TH VD
 Triangle $ABC$ has $\angle A=40^\circ$ and $\angle B=\angle C$. Decide whether each statement is true or false.
 a) $\angle B=80^\circ$.
 b) $\angle B+\angle C=40^\circ$.
@@ -522,12 +522,12 @@ d) Triangle $ABC$ has three acute angles.
 ::key F F T T
 We have $\angle B+\angle C=140^\circ$, so $\angle B=\angle C=70^\circ$. a) False. b) False: the sum is $140^\circ$. c) True: $180^\circ-40^\circ=140^\circ$. d) True: $40^\circ$, $70^\circ$, $70^\circ$ are all acute.
 
-::sa
+::sa TH
 Triangle $ABC$ has $\angle A=75^\circ$, $\angle B=45^\circ$. Find $\angle C$ (in degrees).
 ::key 60
 $180-(75+45)=60$.
 
-::sa
+::sa VD
 The angles of a triangle are in the ratio $1:2:3$. How many degrees is the largest angle?
 ::key 90
 $k+2k+3k=180$ so $k=30$, and the largest angle is $3k=90$.

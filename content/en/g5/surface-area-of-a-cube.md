@@ -326,7 +326,7 @@ We have $216\div54=4$. The edge is doubled but the area is $4$ times as large, b
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A cube has an edge of $6$ cm. Its lateral surface area is
 A. $144\ \text{cm}^2$.
 B. $36\ \text{cm}^2$.
@@ -335,7 +335,7 @@ D. $216\ \text{cm}^2$.
 ::key A
 $S_{\text{lat}}=6\times6\times4=144\ (\text{cm}^2)$. Option C is the mistake of not multiplying the edge by itself ($6\times4$); option D is the total surface area.
 
-::mc
+::mc TH
 A cube has an edge of $8$ cm. Its total surface area is
 A. $48\ \text{cm}^2$.
 B. $384\ \text{cm}^2$.
@@ -344,7 +344,7 @@ D. $64\ \text{cm}^2$.
 ::key B
 $S_{\text{total}}=8\times8\times6=384\ (\text{cm}^2)$. Option C is the lateral surface area; option D is only the area of one face.
 
-::mc
+::mc VD
 A cube-shaped box has no lid and an edge of $5$ dm. The area of metal needed to make it (ignoring joins) is
 A. $100\ \text{dm}^2$.
 B. $150\ \text{dm}^2$.
@@ -353,7 +353,7 @@ D. $25\ \text{dm}^2$.
 ::key C
 The box has $5$ faces, each $5\times5=25\ (\text{dm}^2)$, so we need $25\times5=125\ (\text{dm}^2)$. Option A forgets the base; option B counts the lid as well.
 
-::mc
+::mc VD
 The total surface area of a cube is $24\ \text{dm}^2$. The edge of the cube is
 A. $144$ dm.
 B. $4$ dm.
@@ -362,7 +362,7 @@ D. $2$ dm.
 ::key D
 One face has area $24\div6=4\ (\text{dm}^2)$, and $2\times2=4$, so the edge is $2$ dm. Option B stops at the area of one face; option C divides by $4$ instead of $6$.
 
-::tf
+::tf NB TH TH VD
 A cube has an edge of $3$ cm.
 a) Each face has area $9\ \text{cm}^2$.
 b) The lateral surface area is $12\ \text{cm}^2$.
@@ -371,12 +371,12 @@ d) The total surface area is $18\ \text{cm}^2$ more than the lateral surface are
 ::key T F T T
 a) True: $3\times3=9$. b) False: $S_{\text{lat}}=3\times3\times4=36$, not $3\times4=12$. c) True: $9\times6=54$. d) True: $54-36=18$, which is the area of the two bases, $9\times2$.
 
-::sa
+::sa TH
 A cube has an edge of $2.5$ dm. Find its total surface area (in $\text{dm}^2$, as a decimal).
 ::key 37.5
 One face: $2.5\times2.5=6.25$. So $S_{\text{total}}=6.25\times6=37.5\ (\text{dm}^2)$.
 
-::sa
+::sa VD
 The lateral surface area of a cube is $196\ \text{cm}^2$. How many centimetres long is its edge?
 ::key 7
 One face: $196\div4=49\ (\text{cm}^2)$. Since $7\times7=49$, the edge is $7$ cm.

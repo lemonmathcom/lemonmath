@@ -412,7 +412,7 @@ So the graph has two oblique asymptotes.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The vertical asymptote of the graph of $y=\dfrac{3x-1}{x-2}$ is the line
 A. $x=-2$.
 B. $x=2$.
@@ -421,7 +421,7 @@ D. $x=\dfrac13$.
 ::key B
 The denominator is $0$ at $x=2$ and the numerator there is $5\neq0$, so $\lim\limits_{x\to2^+}y=+\infty$. Hence the vertical asymptote is $x=2$. Option C is the horizontal asymptote and option D is the root of the numerator.
 
-::mc
+::mc TH
 The horizontal asymptote of the graph of $y=\dfrac{1+6x}{3-2x}$ is the line
 A. $x=\dfrac32$.
 B. $y=3$.
@@ -430,7 +430,7 @@ D. $y=-3$.
 ::key D
 We have $\lim\limits_{x\to\pm\infty}\dfrac{6x+1}{-2x+3}=\dfrac{6}{-2}=-3$. Option B forgets the sign of the coefficient $-2$, and option C divides the two constant terms.
 
-::mc
+::mc TH
 The oblique asymptote of the graph of $y=\dfrac{x^2+3x-2}{x+1}$ is the line
 A. $y=x+2$.
 B. $y=x+3$.
@@ -439,7 +439,7 @@ D. $y=x$.
 ::key A
 We have $x^2+3x-2=(x+1)(x+2)-4$, so $y=x+2-\dfrac{4}{x+1}$ and $y-(x+2)\to0$ as $x\to\pm\infty$.
 
-::mc
+::mc TH
 The function $y=f(x)$ satisfies $\lim\limits_{x\to+\infty}f(x)=2$ and $\lim\limits_{x\to-\infty}f(x)=-2$. Which of the following statements is correct?
 A. The graph has exactly one horizontal asymptote.
 B. The graph has two vertical asymptotes, $x=2$ and $x=-2$.
@@ -448,7 +448,7 @@ D. The graph has no horizontal asymptote.
 ::key C
 Each finite limit at $+\infty$ or at $-\infty$ gives a horizontal asymptote. Since the two limits are different, the graph has two horizontal asymptotes. A vertical asymptote has the form $x=x_0$ and needs an infinite limit, so B is wrong.
 
-::tf
+::tf TH TH TH VD
 Consider the function $y=\dfrac{2x^2-3x+1}{x-2}$. Decide whether each statement is true or false.
 a) The line $x=2$ is a vertical asymptote of the graph.
 b) The line $y=2$ is a horizontal asymptote of the graph.
@@ -457,12 +457,12 @@ d) The oblique asymptote and the two coordinate axes form a triangle of area $\d
 ::key T F T T
 a) True: the denominator is $0$ and the numerator is $3\neq0$ at $x=2$. b) False: since $y\to\pm\infty$ as $x\to\pm\infty$, the graph has no horizontal asymptote. c) True: we have $2x^2-3x+1=(x-2)(2x+1)+3$. d) True: the line $y=2x+1$ meets the axes at $\left(-\dfrac12, 0\right)$ and $(0, 1)$, hence the area of the triangle is $\dfrac12\cdot\dfrac12\cdot1=\dfrac14$.
 
-::sa
+::sa VDC
 How many vertical and horizontal asymptotes does the graph of $y=\dfrac{\sqrt{x+3}-2}{x^2-1}$ have in total?
 ::key 2
 At $x=1$ the numerator is also $0$ and $y=\dfrac{1}{(x+1)(\sqrt{x+3}+2)}\to\dfrac18$ (finite), so $x=1$ is not an asymptote. The graph has the vertical asymptote $x=-1$ and the horizontal asymptote $y=0$ (since $\lim\limits_{x\to+\infty}y=0$). So there are $2$ lines.
 
-::sa
+::sa TH
 The concentration of a substance in a water tank after $t$ minutes is $C(t)=\dfrac{25t}{3t+8}$ (mg/l). The graph of $C(t)$ has the horizontal asymptote $C=c$. Find $c$ (give your answer to 1 decimal place).
 ::key 8.3
 We have $\lim\limits_{t\to+\infty}\dfrac{25t}{3t+8}=\dfrac{25}{3}\approx8.33$. So $c\approx8.3$: over time, the concentration gets close to $8.3$ mg/l.

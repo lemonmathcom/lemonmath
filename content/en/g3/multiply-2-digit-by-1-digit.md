@@ -247,7 +247,7 @@ The missing number is $52\div4=13$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $32\times3$ equals
 A. $96$.
 B. $36$.
@@ -256,7 +256,7 @@ D. $35$.
 ::key A
 $2\times3=6$ and $3\times3=9$, so $32\times3=96$. Option B is the mistake of not multiplying the tens.
 
-::mc
+::mc TH
 $24\times4$ equals
 A. $86$.
 B. $96$.
@@ -265,7 +265,7 @@ D. $106$.
 ::key B
 $4\times4=16$, write $6$ and carry $1$; $2\times4=8$, and adding $1$ gives $9$. Option A is the mistake of forgetting the carry.
 
-::mc
+::mc VD
 Each box has $15$ sweets. How many sweets are in $6$ boxes?
 A. $60$.
 B. $80$.
@@ -274,7 +274,7 @@ D. $21$.
 ::key C
 $5\times6=30$, write $0$ and carry $3$; $1\times6=6$, and adding $3$ gives $9$. So there are $90$ sweets. Option A is the mistake of forgetting the carry.
 
-::mc
+::mc TH
 Which multiplication gives $68$?
 A. $17\times3$.
 B. $18\times4$.
@@ -283,7 +283,7 @@ D. $17\times4$.
 ::key D
 $17\times4=68$. The others give $51$, $64$ and $72$.
 
-::tf
+::tf NB NB TH TH
 Look at the multiplication $26\times3$.
 a) $6\times3=18$, write $8$ and carry $1$.
 b) $2\times3=6$, and adding the carried $1$ gives $7$.
@@ -292,12 +292,12 @@ d) $26\times3=78$.
 ::key T T F T
 a) True. b) True. c) False: the result is $78$, not $68$. d) True: write $7$ in the tens place and $8$ in the ones place.
 
-::sa
+::sa TH
 Work out $17\times5$.
 ::key 85
 $7\times5=35$, write $5$ and carry $3$; $1\times5=5$, and adding $3$ gives $8$. So $85$.
 
-::sa
+::sa VD
 A classroom has $8$ rows of chairs with $12$ chairs in each row. How many chairs are there altogether?
 ::key 96
 $12\times8$: $2\times8=16$, write $6$ and carry $1$; $1\times8=8$, and adding $1$ gives $9$. So $96$ (chairs).

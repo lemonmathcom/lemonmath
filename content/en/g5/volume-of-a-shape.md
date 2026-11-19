@@ -354,7 +354,7 @@ There are $1\,000\,000$ small cubes of $1\ \text{cm}^3$. The line is $1\,000\,00
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $5\ \text{dm}^3$ changed into cubic centimetres is
 A. $50\ \text{cm}^3$.
 B. $5000\ \text{cm}^3$.
@@ -363,7 +363,7 @@ D. $50\,000\ \text{cm}^3$.
 ::key B
 $5\ \text{dm}^3=5\times1000=5000\ \text{cm}^3$. Option A uses $1\ \text{dm}^3=10\ \text{cm}^3$; B uses $1\ \text{dm}^3=100\ \text{cm}^3$; D uses $1\ \text{dm}^3=10\,000\ \text{cm}^3$.
 
-::mc
+::mc NB
 $7\,000\,000\ \text{cm}^3$ changed into cubic metres is
 A. $700\ \text{m}^3$.
 B. $70\ \text{m}^3$.
@@ -372,7 +372,7 @@ D. $7000\ \text{m}^3$.
 ::key C
 $1\ \text{m}^3=1\,000\,000\ \text{cm}^3$, so $7\,000\,000\ \text{cm}^3=7\ \text{m}^3$. Options B, A and D use the wrong number of times between the two units.
 
-::mc
+::mc TH
 $3\ \text{m}^3\ 250\ \text{dm}^3$ changed into cubic decimetres is
 A. $325\ \text{dm}^3$.
 B. $3025\ \text{dm}^3$.
@@ -381,7 +381,7 @@ D. $3250\ \text{dm}^3$.
 ::key D
 $3\ \text{m}^3=3000\ \text{dm}^3$, so $3000+250=3250\ \text{dm}^3$. Option A uses $1\ \text{m}^3=100\ \text{dm}^3$; B drops the digit $2$ of $250$; C uses $1\ \text{m}^3=10\,000\ \text{dm}^3$.
 
-::mc
+::mc NB
 A tank holds $1800\ \text{dm}^3$ of water. How many litres of water does the tank hold?
 A. $1800$ litres.
 B. $18$ litres.
@@ -390,7 +390,7 @@ D. $18\,000$ litres.
 ::key A
 $1\ \text{dm}^3=1$ litre, so $1800\ \text{dm}^3=1800$ litres. Options B, C and D multiply or divide wrongly.
 
-::tf
+::tf NB NB TH NB
 Look at a cube with side $1$ dm.
 a) The volume of the cube is $1\ \text{dm}^2$.
 b) $1\ \text{dm}^3=1000\ \text{cm}^3$.
@@ -399,12 +399,12 @@ d) $1\ \text{dm}^3=1$ litre.
 ::key F T F T
 a) False: volume is measured in $\text{dm}^3$, not $\text{dm}^2$. b) True: $10\times10\times10=1000$. c) False: it takes $1000$ cubes. d) True: $1$ litre is the capacity of a cube of volume $1\ \text{dm}^3$.
 
-::sa
+::sa TH
 Find the missing number: $4\ \text{m}^3=?\ \text{dm}^3$.
 ::key 4000
 $4\ \text{m}^3=4\times1000=4000\ \text{dm}^3$.
 
-::sa
+::sa TH
 Find the missing number: $2\ \text{dm}^3\ 50\ \text{cm}^3=?\ \text{cm}^3$.
 ::key 2050
 $2\ \text{dm}^3=2000\ \text{cm}^3$, so $2000+50=2050\ \text{cm}^3$.

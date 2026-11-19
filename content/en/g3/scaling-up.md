@@ -278,7 +278,7 @@ Check: $9\times 4=36$, then $36\div2=18$. Correct.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $8$ made $6$ times larger is
 A. $48$.
 B. $2$.
@@ -287,7 +287,7 @@ D. $86$.
 ::key A
 $8\times 6=48$. A adds $8+6$, B subtracts $8-6$, D joins the digits.
 
-::mc
+::mc NB
 $56$ made $7$ times smaller is
 A. $63$.
 B. $8$.
@@ -296,7 +296,7 @@ D. $49$.
 ::key B
 $56\div7=8$. A adds, D subtracts, C multiplies.
 
-::mc
+::mc TH
 A farm has $7$ ducks. It has $5$ times as many hens as ducks. How many hens does the farm have?
 A. $2$ hens.
 B. $12$ hens.
@@ -305,7 +305,7 @@ D. $75$ hens.
 ::key C
 "$5$ times as many" means multiply: $7\times 5=35$. B adds, A subtracts, D joins the digits.
 
-::mc
+::mc TH
 A piece of cloth is $42$ m long. A second piece has the first piece's length made $6$ times smaller. The second piece is
 A. $36$ m.
 B. $252$ m.
@@ -314,7 +314,7 @@ D. $7$ m.
 ::key D
 "Made $6$ times smaller" means divide: $42\div6=7$ (m). A subtracts, C adds, B multiplies.
 
-::tf
+::tf TH TH NB TH
 Look at these calculations with the numbers $9$ and $36$.
 a) $9$ made $4$ times larger is $13$.
 b) $36$ made $4$ times smaller is $9$.
@@ -323,12 +323,12 @@ d) $9$ made $4$ times larger and then $4$ times smaller is $9$ again.
 ::key F T F T
 a) False: making larger is multiplying, $9\times 4=36$. b) True: $36\div4=9$. c) False: making smaller means dividing by $4$. d) True: $9\times 4=36$, then $36\div4=9$.
 
-::sa
+::sa TH
 What is $13$ made $5$ times larger?
 ::key 65
 $13\times 5=65$.
 
-::sa
+::sa TH
 Mai has $72$ flowers. Lan has Mai's number of flowers made $9$ times smaller. How many flowers does Lan have?
 ::key 8
 $72\div9=8$ (flowers).

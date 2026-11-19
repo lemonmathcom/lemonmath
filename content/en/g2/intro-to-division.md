@@ -288,7 +288,7 @@ We have $2\times8=16$, so the divisor is 2.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $10\div5$ equals
 A. $5$.
 B. $15$.
@@ -297,7 +297,7 @@ D. $50$.
 ::key C
 $5\times2=10$, so $10\div5=2$. Option B is an addition, and option D is a multiplication.
 
-::mc
+::mc NB
 In the division $12\div2=6$, the number $12$ is called the
 A. quotient.
 B. product.
@@ -306,7 +306,7 @@ D. dividend.
 ::key D
 The number at the start of a division is the dividend. Option A is the number 6.
 
-::mc
+::mc TH
 Mum shares 8 oranges equally between 2 people. Each person gets
 A. $4$ oranges.
 B. $6$ oranges.
@@ -315,7 +315,7 @@ D. $16$ oranges.
 ::key A
 $2\times4=8$, so $8\div2=4$. Option C is an addition, and option D is a multiplication.
 
-::mc
+::mc TH
 From the multiplication $5\times2=10$ we get the correct division
 A. $10\div5=5$.
 B. $10\div5=2$.
@@ -324,7 +324,7 @@ D. $5\div10=2$.
 ::key B
 Divide the product 10 by the factor 5 and you get the quotient 2. Option C is wrong because $10\div2=5$.
 
-::tf
+::tf NB NB NB TH
 Look at the division $15\div5=3$.
 a) $15$ is the divisor.
 b) $5$ is the quotient.
@@ -333,12 +333,12 @@ d) From $5\times3=15$ we get $15\div5=3$ and $15\div3=5$.
 ::key F F F T
 a) False: 15 is the dividend. b) False: 5 is the divisor. c) False: 3 is the quotient. d) True: divide the product by each factor in turn.
 
-::sa
+::sa TH
 Work out $12\div2$.
 ::key 6
 $2\times6=12$, so $12\div2=6$.
 
-::sa
+::sa VD
 20 exercise books are shared equally between 5 children. How many exercise books does each child get?
 ::key 4
 $5\times4=20$, so $20\div5=4$ (books).

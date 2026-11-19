@@ -366,7 +366,7 @@ Vậy có $12$ kết quả.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Gieo một con xúc xắc. Số phần tử của không gian mẫu là
 A. $1$.
 B. $2$.
@@ -375,7 +375,7 @@ D. $36$.
 ::key C
 $\Omega=\{1; 2; 3; 4; 5; 6\}$. A nhầm "mỗi lần chỉ ra một mặt", B nhầm với tung một đồng xu, D là số kết quả khi gieo hai xúc xắc.
 
-::mc
+::mc TH
 Tung hai đồng xu. Không gian mẫu là
 A. $\{(S; S); (S; N); (N; N)\}$.
 B. $\{S; N\}$.
@@ -384,7 +384,7 @@ D. $\{(S; S); (S; N); (N; S); (N; N)\}$.
 ::key D
 A gộp nhầm $(S; N)$ với $(N; S)$, B là không gian mẫu khi tung một đồng xu, C chỉ gồm các kết quả khác mặt.
 
-::mc
+::mc NB
 Gieo hai con xúc xắc. Số phần tử của không gian mẫu là
 A. $12$.
 B. $36$.
@@ -393,7 +393,7 @@ D. $6$.
 ::key B
 $6\cdot6=36$. A cộng $6+6$, C đếm các cặp không phân biệt thứ tự, D là của một xúc xắc.
 
-::mc
+::mc TH
 Một hộp có $4$ viên bi khác màu. Lấy ngẫu nhiên lần lượt $2$ viên, không hoàn lại. Số phần tử của không gian mẫu là
 A. $12$.
 B. $16$.
@@ -402,7 +402,7 @@ D. $8$.
 ::key A
 $4\cdot3=12$. B là lấy có hoàn lại, C là lấy đồng thời (không thứ tự), D cộng $4+4$.
 
-::tf
+::tf TH NB TH TH
 Một hộp có ba thẻ ghi số $1$, $2$, $3$. Rút ngẫu nhiên lần lượt hai thẻ, có hoàn lại. Xét tính đúng sai của các mệnh đề sau:
 a) Không gian mẫu có $9$ phần tử.
 b) $(1; 1)$ là một phần tử của không gian mẫu.
@@ -411,12 +411,12 @@ d) Có $3$ kết quả mà hai thẻ ghi cùng một số.
 ::key Đ Đ S Đ
 a) Đúng: $3\cdot3=9$. b) Đúng vì có hoàn lại. c) Sai: thứ tự rút khác nhau. d) Đúng: $(1; 1), (2; 2), (3; 3)$.
 
-::sa
+::sa TH
 Gieo hai con xúc xắc. Có bao nhiêu kết quả mà tổng số chấm bằng $9$?
 ::key 4
 $(3; 6), (4; 5), (5; 4), (6; 3)$.
 
-::sa
+::sa VD
 Chọn ngẫu nhiên đồng thời hai bạn trong năm bạn. Không gian mẫu có bao nhiêu phần tử?
 ::key 10
 Ghép từng bạn với các bạn sau: $4+3+2+1=10$.

@@ -335,7 +335,7 @@ $AC=\sqrt{9+16}=5$. Vì $\widehat{SCA}=45^\circ$ nên tam giác $SAC$ vuông câ
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Thể tích của khối lăng trụ có diện tích đáy $B$ và chiều cao $h$ là
 A. $\dfrac13Bh$.
 B. $Bh$.
@@ -344,7 +344,7 @@ D. $B+h$.
 ::key B
 Đó là công thức khối lăng trụ. Phương án A là khối chóp, C và D không phải công thức thể tích.
 
-::mc
+::mc NB
 Một khối hộp chữ nhật có ba kích thước $7$, $3$, $2$. Thể tích của nó là
 A. $12$.
 B. $21$.
@@ -353,7 +353,7 @@ D. $84$.
 ::key C
 $V=7\cdot3\cdot2=42$. Phương án A là tổng, B bỏ một kích thước, D nhân thừa.
 
-::mc
+::mc NB
 Một khối chóp có diện tích đáy bằng $12$ và chiều cao bằng $5$. Thể tích của nó là
 A. $60$.
 B. $30$.
@@ -362,7 +362,7 @@ D. $20$.
 ::key D
 $V=\dfrac13\cdot12\cdot5=20$. Phương án A thiếu hệ số $\dfrac13$, B là một nửa, C là tổng.
 
-::mc
+::mc TH
 Một khối lăng trụ đứng có đáy là tam giác đều cạnh $4$ và chiều cao $5$. Thể tích của nó là
 A. $20\sqrt3$.
 B. $10\sqrt3$.
@@ -371,7 +371,7 @@ D. $40\sqrt3$.
 ::key A
 $B=\dfrac{\sqrt3}{4}\cdot16=4\sqrt3$ và $V=4\sqrt3\cdot5=20\sqrt3$. Phương án C bỏ qua diện tích đáy, B và D sai hệ số.
 
-::tf
+::tf NB NB TH TH
 Xét tính đúng sai của các mệnh đề sau:
 a) Thể tích khối lập phương cạnh $a$ là $a^3$.
 b) Thể tích khối chóp là $Bh$.
@@ -380,12 +380,12 @@ d) $1$ m$^3$ bằng $100$ lít.
 ::key Đ S Đ S
 a) Đúng. b) Sai: phải có hệ số $\dfrac13$. c) Đúng. d) Sai: $1$ m$^3=1000$ lít.
 
-::sa
+::sa TH
 Một khối lập phương có cạnh $2{,}5$. Tính thể tích, làm tròn đến hàng phần mười.
 ::key 15,6
 $V=2{,}5^3=15{,}625\approx15{,}6$.
 
-::sa
+::sa VD
 Giả sử một thùng chứa có dạng khối chóp cụt đều, đáy dưới là hình vuông cạnh $2$ m, đáy trên là hình vuông cạnh $1$ m và cao $0{,}9$ m. Tính thể tích theo mét khối.
 ::key 2,1
 $V=\dfrac13\cdot0{,}9\cdot(4+2+1)=0{,}3\cdot7=2{,}1$.

@@ -478,7 +478,7 @@ So the value of the expression is $5$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The opposite of $-3.07$ is
 A. $3.07$.
 B. $-3.07$.
@@ -487,7 +487,7 @@ D. $-0.307$.
 ::key A
 The opposite of $-3.07$ is $3.07$. B is the number itself; C drops the zero; D moves the decimal point.
 
-::mc
+::mc TH
 The value of $(-1.8)+(-2.4)$ is
 A. $0.6$.
 B. $-0.6$.
@@ -496,7 +496,7 @@ D. $4.2$.
 ::key C
 Both numbers are negative: $-(1.8+2.4)=-4.2$. A and B take the difference instead of the sum; D forgets the "$-$" sign.
 
-::mc
+::mc TH
 Which of these statements is true?
 A. $-2.5>-2.45$.
 B. $-0.1<-0.01$.
@@ -505,7 +505,7 @@ D. $-1.5<-1.55$.
 ::key B
 $0.1>0.01$, so $-0.1<-0.01$. A and D compare negative numbers like positive ones; C makes a negative number greater than $0$.
 
-::mc
+::mc TH
 The value of $(-0.6)\cdot(-0.5)$ is
 A. $-0.3$.
 B. $3$.
@@ -514,7 +514,7 @@ D. $0.3$.
 ::key D
 The signs are the same, so the product is positive: $0.6\cdot0.5=0.3$. A has the wrong sign; B and C put the decimal point in the wrong place.
 
-::tf
+::tf NB TH TH TH
 Decide whether each statement is true or false.
 a) Every negative decimal is less than every positive decimal.
 b) $-7.25>-7.2$.
@@ -523,12 +523,12 @@ d) $-0.5=\dfrac{-1}{2}$.
 ::key T F T T
 a) True: negative numbers are less than $0$ and positive numbers are greater than $0$. b) False: $7.25>7.2$, so $-7.25<-7.2$. c) True: same signs, and $2.5\cdot4=10$. d) True: $-0.5=\dfrac{-5}{10}=\dfrac{-1}{2}$.
 
-::sa
+::sa VD
 Work out the value of $(-2.5)\cdot4+12.5$.
 ::key 2.5
 $(-2.5)\cdot4=-10$; $-10+12.5=2.5$.
 
-::sa
+::sa VD
 At $6$ a.m. the temperature is $-1.8^\circ\text{C}$, and at midday it is $4.5^\circ\text{C}$. By how many degrees Celsius has the temperature risen?
 ::key 6.3
 The rise is $4.5-(-1.8)=4.5+1.8=6.3$ (degrees Celsius).

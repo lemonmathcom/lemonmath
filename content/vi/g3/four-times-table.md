@@ -331,7 +331,7 @@ b) Số hộp chưa xếp là $10-6=4$ (hộp). Số bóng đã xếp là $4\tim
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $4\times6$ là
 A. $10$.
 B. $28$.
@@ -340,7 +340,7 @@ D. $24$.
 ::key D
 $4\times6=4\times5+4=20+4=24$. Phương án A là lỗi cộng $4+6$.
 
-::mc
+::mc NB
 Kết quả của $4\times7$ là
 A. $28$.
 B. $32$.
@@ -349,7 +349,7 @@ D. $11$.
 ::key A
 $4\times7=24+4=28$. Phương án C là $4\times6$, thiếu một nhóm $4$.
 
-::mc
+::mc NB
 Kết quả của $32:4$ là
 A. $9$.
 B. $8$.
@@ -358,7 +358,7 @@ D. $28$.
 ::key B
 Vì $4\times8=32$ nên $32:4=8$. Phương án C là $28:4$.
 
-::mc
+::mc TH
 Mỗi chuồng có $4$ con thỏ. Hỏi $9$ chuồng như vậy có bao nhiêu con thỏ?
 A. $13$ con.
 B. $32$ con.
@@ -367,7 +367,7 @@ D. $40$ con.
 ::key C
 $9$ nhóm, mỗi nhóm $4$ con: $4\times9=36$. Phương án A là lỗi cộng $4+9$.
 
-::tf
+::tf TH NB TH NB
 Em xét phép nhân $4\times8=32$.
 a) $4\times8=4\times7+4$.
 b) $32:4=8$.
@@ -376,12 +376,12 @@ d) $4\times8$ lớn hơn $36$.
 ::key Đ Đ Đ S
 a) Đúng: $28+4=32$. b) Đúng: $4\times8=32$. c) Đúng: $8\times4=32$. d) Sai: $32<36$.
 
-::sa
+::sa NB
 Tính $4\times9$.
 ::key 36
 $4\times9=4\times8+4=32+4=36$.
 
-::sa
+::sa TH
 Có $40$ cái bút, xếp vào các hộp, mỗi hộp $4$ cái bút. Hỏi xếp được bao nhiêu hộp?
 ::key 10
 $40:4=10$ (hộp), vì $4\times10=40$.

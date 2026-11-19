@@ -332,7 +332,7 @@ Vậy đã chứng minh định lí Pythagore và $BH=3{,}6$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $\triangle ABC$ có các cạnh $4$, $6$, $8$ và $\triangle DEF$ có các cạnh $6$, $9$, $12$. Tỉ số đồng dạng của $\triangle DEF$ so với $\triangle ABC$ là
 A. $\dfrac23$.
 B. $\dfrac32$.
@@ -341,7 +341,7 @@ D. $3$.
 ::key B
 $\dfrac64=\dfrac96=\dfrac{12}{8}=\dfrac32$. A lấy ngược tỉ số, C và D không phải tỉ số của các cạnh tương ứng.
 
-::mc
+::mc NB
 Hai tam giác có hai góc lần lượt bằng nhau thì
 A. không đồng dạng.
 B. bằng nhau.
@@ -350,7 +350,7 @@ D. đều là tam giác cân.
 ::key C
 Đó là trường hợp g.g. Chúng chưa chắc bằng nhau (có thể to nhỏ khác nhau) và không nhất thiết cân.
 
-::mc
+::mc NB
 Trong trường hợp c.g.c của hai tam giác đồng dạng, góc bằng nhau phải là góc
 A. đối diện cạnh lớn nhất.
 B. bất kì.
@@ -359,7 +359,7 @@ D. xen giữa hai cặp cạnh tỉ lệ.
 ::key D
 Góc phải nằm giữa hai cặp cạnh tỉ lệ. Các phương án còn lại không đảm bảo hai tam giác đồng dạng.
 
-::mc
+::mc VD
 Cho $\triangle ABC$, $D\in AC$ sao cho $\widehat{ABD}=\widehat{ACB}$, với $AB=10$ và $AD=5$. Độ dài $AC$ là
 A. $20$.
 B. $2{,}5$.
@@ -368,7 +368,7 @@ D. $5$.
 ::key A
 $AB^2=AD\cdot AC$ nên $AC=\dfrac{100}{5}=20$. C là $DC$, B và D không thoả hệ thức.
 
-::tf
+::tf TH TH TH VD
 Cho $\triangle ABC$ có $AB=6$, $AC=9$, $\widehat A=50^\circ$ và $\triangle MNP$ có $MN=4$, $MP=6$, $\widehat M=50^\circ$. Xét tính đúng sai của các mệnh đề sau:
 a) $\triangle MNP\sim\triangle ABC$ theo trường hợp c.g.c.
 b) Tỉ số đồng dạng của $\triangle MNP$ so với $\triangle ABC$ bằng $\dfrac32$.
@@ -377,12 +377,12 @@ d) Nếu $BC=12$ thì $NP=8$.
 ::key Đ S S Đ
 a) Đúng: $\dfrac46=\dfrac69=\dfrac23$ và góc xen giữa bằng nhau. b) Sai: tỉ số là $\dfrac23$. c) Sai: $\widehat N=\widehat B$. d) Đúng: $NP=\dfrac23\cdot12=8$.
 
-::sa
+::sa VD
 Cho $\triangle ABC$ có $AB=6$, $AC=9$, $BC=12$ và $\triangle MNP$ có $MN=4$, $MP=6$, $\widehat M=\widehat A$. Tính $NP$.
 ::key 8
 $\triangle MNP\sim\triangle ABC$ (c.g.c) với tỉ số $\dfrac23$ nên $NP=\dfrac23\cdot12=8$.
 
-::sa
+::sa VD
 Cho $\triangle ABC$, $D\in AC$ với $\widehat{ABD}=\widehat{ACB}$, $AB=10$, $AD=5$. Tính $AC$.
 ::key 20
 $AB^2=AD\cdot AC$ nên $AC=\dfrac{100}{5}=20$.

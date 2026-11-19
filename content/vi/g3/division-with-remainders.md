@@ -296,7 +296,7 @@ Thử lại: $68:7=9$ (dư $5$), vì $7\times 9=63$ và $68-63=5$. Đúng.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $23:5$ là
 A. $3$ dư $8$.
 B. $4$ dư $3$.
@@ -305,7 +305,7 @@ D. $18$.
 ::key B
 $5\times 4=20$ và $23-20=3$, nên $23:5=4$ (dư $3$). B có số dư lớn hơn số chia, C làm tròn lên, D là $23-5$.
 
-::mc
+::mc TH
 Kết quả của $84:4$ là
 A. $2$.
 B. $20$.
@@ -314,7 +314,7 @@ D. $12$.
 ::key C
 $8$ chục chia $4$ được $2$ chục, hạ $4$ chia $4$ được $1$, nên $84:4=21$. A quên hạ chữ số, B quên chia $4$ đơn vị, D đảo chữ số.
 
-::mc
+::mc TH
 Kết quả của $59:4$ là
 A. $14$ dư $4$.
 B. $13$ dư $7$.
@@ -323,7 +323,7 @@ D. $14$ dư $3$.
 ::key D
 $59:4=14$ (dư $3$), vì $14\times 4=56$ và $59-56=3$. A và B có số dư không bé hơn số chia, C bỏ quên số dư.
 
-::mc
+::mc VD
 Lớp có $47$ bạn xếp thành các hàng, mỗi hàng $6$ bạn. Cần ít nhất bao nhiêu hàng?
 A. $8$ hàng.
 B. $7$ hàng.
@@ -332,7 +332,7 @@ D. $9$ hàng.
 ::key A
 $47:6=7$ (dư $5$), còn $5$ bạn cần thêm $1$ hàng nữa nên cần $8$ hàng. A bỏ quên số dư, C là số dư, D thừa một hàng.
 
-::tf
+::tf TH TH TH NB
 Em xét phép chia $38:5$.
 a) $38:5=7$ (dư $3$).
 b) Thử lại: $7\times 5+3=38$.
@@ -341,12 +341,12 @@ d) Khi chia cho $5$, số dư có thể bằng $5$.
 ::key Đ Đ S S
 a) Đúng: $5\times 7=35$ và $38-35=3$. b) Đúng: $35+3=38$. c) Sai: số dư $8$ lớn hơn số chia $5$. d) Sai: số dư phải bé hơn $5$.
 
-::sa
+::sa TH
 Tính $78:6$.
 ::key 13
 $7$ chục chia $6$ được $1$ chục, dư $1$ chục; hạ $8$ được $18$, $18:6=3$. Vậy $78:6=13$.
 
-::sa
+::sa TH
 Tìm số dư của phép chia $53:8$.
 ::key 5
 $8\times 6=48$ và $53-48=5$, nên $53:8=6$ (dư $5$).

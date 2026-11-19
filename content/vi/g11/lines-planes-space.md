@@ -374,7 +374,7 @@ Vì $I\in a=(P)\cap(Q)$ nên $I\in(P)$ và $I\in(Q)$. Vì $I\in b=(Q)\cap(R)$ n�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Có bao nhiêu mặt phẳng đi qua ba điểm không thẳng hàng cho trước?
 A. Vô số.
 B. Hai.
@@ -383,7 +383,7 @@ D. Không có mặt phẳng nào.
 ::key C
 Đây là tính chất thừa nhận thứ hai. Phương án A đúng với ba điểm thẳng hàng.
 
-::mc
+::mc TH
 Hình chóp có đáy là lục giác có bao nhiêu mặt?
 A. $6$.
 B. $12$.
@@ -392,7 +392,7 @@ D. $7$.
 ::key D
 Hình chóp đáy lục giác có $6$ mặt bên và $1$ mặt đáy, tức $7$ mặt. Phương án A bỏ sót mặt đáy, phương án B là số cạnh.
 
-::mc
+::mc NB
 Hai mặt phẳng phân biệt có một điểm chung. Khẳng định nào sau đây đúng?
 A. Hai mặt phẳng có một đường thẳng chung duy nhất đi qua điểm đó.
 B. Hai mặt phẳng không còn điểm chung nào khác.
@@ -401,7 +401,7 @@ D. Hai mặt phẳng có đúng ba điểm chung.
 ::key A
 Theo tính chất thừa nhận thứ năm, hai mặt phẳng phân biệt có điểm chung thì cắt nhau theo một đường thẳng (giao tuyến).
 
-::mc
+::mc TH
 Cách nào sau đây không luôn xác định duy nhất một mặt phẳng?
 A. Ba điểm không thẳng hàng.
 B. Ba điểm bất kì.
@@ -410,7 +410,7 @@ D. Hai đường thẳng cắt nhau.
 ::key B
 Ba điểm thẳng hàng nằm trên vô số mặt phẳng, nên ba điểm bất kì chưa chắc xác định một mặt phẳng duy nhất. Các phương án A, C, D là ba cách xác định mặt phẳng.
 
-::tf
+::tf TH NB VD TH
 Cho hình chóp $S.ABCD$ có đáy là tứ giác lồi $ABCD$, hai đường chéo $AC$ và $BD$ cắt nhau tại $O$. Xét tính đúng sai của các mệnh đề sau:
 a) Điểm $O$ thuộc mặt phẳng $(SAB)$.
 b) Điểm $O$ thuộc mặt phẳng $(SBD)$.
@@ -419,12 +419,12 @@ d) Đường thẳng $BD$ cắt mặt phẳng $(SAC)$ tại $O$.
 ::key S Đ S Đ
 a) Sai: $O$ nằm trong tứ giác, không thuộc đường thẳng $AB$ nên không thuộc $(SAB)$. b) Đúng: $O\in BD\subset(SBD)$. c) Sai: giao tuyến là $SO$. d) Đúng: $O\in AC\subset(SAC)$ và $O\in BD$.
 
-::sa
+::sa TH
 Một tứ diện đều có cạnh $6$ cm. Tổng độ dài tất cả các cạnh của nó là bao nhiêu xentimét?
 ::key 36
 Tứ diện có $6$ cạnh, mỗi cạnh dài $6$ cm nên tổng là $6\cdot6=36$ cm.
 
-::sa
+::sa VD
 Cho bảy điểm trong không gian, không có ba điểm nào thẳng hàng và không có bốn điểm nào đồng phẳng. Có bao nhiêu mặt phẳng đi qua ba trong bảy điểm đó?
 ::key 35
 Số cách chọn ba điểm trong bảy điểm là $\dbinom{7}{3}=35$, và các mặt phẳng này đôi một khác nhau.

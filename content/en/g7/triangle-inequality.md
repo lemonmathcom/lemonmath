@@ -371,7 +371,7 @@ From the two inequalities, $MB+MC<AB+AC$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Which of the following sets of lengths gives the sides of a triangle?
 A. $3$ cm; $4$ cm; $8$ cm.
 B. $2$ cm; $7$ cm; $9$ cm.
@@ -380,7 +380,7 @@ D. $4$ cm; $4$ cm; $8$ cm.
 ::key C
 In B: $5+6=11>10$. A has $3+4=7<8$, B has $2+7=9$ (equal, not less), and D has $4+4=8$ (equal).
 
-::mc
+::mc VD
 An isosceles triangle has two sides of length $4$ cm and $9$ cm. Its perimeter is
 A. $17$ cm.
 B. $13$ cm.
@@ -389,7 +389,7 @@ D. $22$ cm.
 ::key D
 The third side must be $9$ cm because $4+4=8<9$, so the perimeter is $9+9+4=22$ cm. A is $4+4+9$ (no triangle), B is $4+9$, and C is $9+9$.
 
-::mc
+::mc TH
 A triangle has two sides of length $6$ cm and $10$ cm. The third side could be
 A. $9$ cm.
 B. $16$ cm.
@@ -398,7 +398,7 @@ D. $4$ cm.
 ::key A
 The third side $x$ satisfies $4<x<16$. A and B are the two boundary values (excluded because of equality), and C is greater than $16$.
 
-::mc
+::mc VDC
 A piece of wire $30$ cm long is bent into a triangle with whole-number sides in cm. The greatest possible length of the longest side is
 A. $15$ cm.
 B. $14$ cm.
@@ -407,7 +407,7 @@ D. $13$ cm.
 ::key B
 The longest side $c$ satisfies $c<30-c$, that is $c<15$, so $c\le 14$. B equals half the perimeter (equality), C is more than half, and D is below the maximum.
 
-::tf
+::tf TH TH NB VD
 In triangle $ABC$, $AB=5$ cm and $AC=9$ cm. Decide whether each statement is true or false.
 a) $BC$ could be $4$ cm.
 b) $BC$ could be $13$ cm.
@@ -416,12 +416,12 @@ d) $BC$ has exactly $9$ possible whole-number values.
 ::key F T T T
 a) False: $4<BC<14$, so $BC=4$ is excluded because $5+4=9$ (equality). b) True: $4<13<14$. c) True: $5+9+10=24$. d) True: $BC\in\{5,6,\dots,13\}$, which is $9$ numbers.
 
-::sa
+::sa VD
 In triangle $ABC$, $AB=7$ cm and $AC=12$ cm. How many whole-number values (in cm) can $BC$ take?
 ::key 13
 We have $5<BC<19$, so $BC\in\{6,7,\dots,18\}$, which is $18-6+1=13$ values.
 
-::sa
+::sa VD
 An isosceles triangle has two sides of length $8$ cm and $17$ cm. Find its perimeter (in cm).
 ::key 42
 The third side must be $17$ cm because $8+8=16<17$. The perimeter is $17+17+8=42$ (cm).

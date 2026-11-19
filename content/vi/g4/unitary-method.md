@@ -248,7 +248,7 @@ Giá một hộp: $90\,000:6=15\,000$ (đồng). $15\,000\times8=120\,000$ (đ�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Mua $5$ quyển vở hết $30\,000$ đồng. Giá một quyển vở là
 A. $6\,000$ đồng.
 B. $150\,000$ đồng.
@@ -257,7 +257,7 @@ D. $6$ đồng.
 ::key A
 $30\,000:5=6\,000$. Phương án B là nhân thay vì chia, C là trừ.
 
-::mc
+::mc TH
 Biết $4$ cái bút giá $12\,000$ đồng. Để tính giá $8$ cái bút, bước đầu tiên là
 A. $12\,000\times4$.
 B. $12\,000:4$.
@@ -266,7 +266,7 @@ D. $12\,000+8$.
 ::key B
 Phải tìm giá một cái bút trước: $12\,000:4=3\,000$. Phương án C nhân luôn với $8$ là lỗi hay gặp.
 
-::mc
+::mc VD
 Một xe đi đều $3$ giờ được $90$ km. Hỏi $5$ giờ xe đi được bao nhiêu ki-lô-mét?
 A. $30$ km.
 B. $450$ km.
@@ -275,7 +275,7 @@ D. $95$ km.
 ::key C
 $90:3=30$ km một giờ, $30\times5=150$ km. Phương án A mới là quãng đường $1$ giờ, B nhân mà quên chia.
 
-::mc
+::mc VD
 $6$ gói bánh có $48$ cái bánh. Hỏi $4$ gói như thế có bao nhiêu cái bánh?
 A. $8$ cái.
 B. $288$ cái.
@@ -284,7 +284,7 @@ D. $32$ cái.
 ::key D
 $48:6=8$ cái một gói, $8\times4=32$ cái. Phương án A là số bánh một gói, B là nhân $48\times6$.
 
-::tf
+::tf TH VD TH VD
 $4$ chai nước giá $20\,000$ đồng.
 a) Một chai nước giá $5\,000$ đồng.
 b) $6$ chai nước giá $30\,000$ đồng.
@@ -293,12 +293,12 @@ d) Có $10\,000$ đồng thì mua được $2$ chai.
 ::key Đ Đ S Đ
 a) Đúng: $20\,000:4=5\,000$. b) Đúng: $5\,000\times6=30\,000$. c) Sai: $20\,000$ là giá $4$ chai. d) Đúng: $10\,000:5\,000=2$.
 
-::sa
+::sa VD
 $5$ hộp có $40$ cái bút. Hỏi $9$ hộp như thế có bao nhiêu cái bút?
 ::key 72
 $40:5=8$ cái một hộp, $8\times9=72$ cái.
 
-::sa
+::sa VD
 $4$ quyển vở giá $24\,000$ đồng. Với $42\,000$ đồng mua được bao nhiêu quyển vở như thế?
 ::key 7
 Giá một quyển: $24\,000:4=6\,000$ đồng. $42\,000:6\,000=7$ quyển.

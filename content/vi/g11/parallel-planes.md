@@ -298,7 +298,7 @@ Mặt phẳng $(SAB)$ cắt $(\alpha)$ và $(ABC)$ song song theo $A_1B_1$ và $
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hai mặt phẳng phân biệt song song với nhau khi
 A. chúng có đúng một điểm chung.
 B. chúng có một đường thẳng chung.
@@ -307,7 +307,7 @@ D. chúng không có điểm chung.
 ::key D
 Đây là định nghĩa. Phương án B là hai mặt phẳng cắt nhau.
 
-::mc
+::mc NB
 Qua một điểm nằm ngoài mặt phẳng $(P)$ có bao nhiêu mặt phẳng song song với $(P)$?
 A. Đúng một.
 B. Hai.
@@ -316,7 +316,7 @@ D. Không có.
 ::key A
 Đây là tính chất thứ nhất của hai mặt phẳng song song.
 
-::mc
+::mc TH
 Ba mặt phẳng song song chắn trên cát tuyến $d$ các đoạn $AB=3$, $BC=6$ và chắn trên cát tuyến $d'$ đoạn $A'B'=4$. Khi đó $B'C'$ bằng
 A. $2$.
 B. $8$.
@@ -325,7 +325,7 @@ D. $4{,}5$.
 ::key B
 $\dfrac{AB}{BC}=\dfrac{A'B'}{B'C'}$ nên $B'C'=\dfrac{4\cdot6}{3}=8$. Phương án A viết ngược tỉ số.
 
-::mc
+::mc TH
 Hình lăng trụ có đáy là ngũ giác có bao nhiêu mặt?
 A. $5$.
 B. $10$.
@@ -334,7 +334,7 @@ D. $15$.
 ::key C
 Lăng trụ đáy $n$-giác có $n+2=7$ mặt. Phương án B là số đỉnh, phương án D là số cạnh.
 
-::tf
+::tf NB TH NB TH
 Cho hình hộp chữ nhật $ABCD.A'B'C'D'$. Xét tính đúng sai của các mệnh đề sau:
 a) $(ABCD)\parallel(A'B'C'D')$.
 b) Mỗi mặt của hình hộp cắt đúng $4$ mặt khác.
@@ -343,12 +343,12 @@ d) $AA'\parallel(CDD'C')$.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng: mỗi mặt song song với một mặt và cắt $4$ mặt còn lại. c) Sai: hình hộp có $12$ cạnh. d) Đúng: $AA'\parallel DD'\subset(CDD'C')$.
 
-::sa
+::sa TH
 Hình lăng trụ có đáy $8$ cạnh có bao nhiêu cạnh?
 ::key 24
 Lăng trụ đáy $n$-giác có $3n$ cạnh, với $n=8$ là $24$.
 
-::sa
+::sa TH
 Ba mặt phẳng song song chắn trên cát tuyến $d$ các đoạn $AB=4$, $AC=10$ và trên cát tuyến $d'$ đoạn $A'B'=6$. Tính $A'C'$.
 ::key 15
 $\dfrac{AB}{AC}=\dfrac{A'B'}{A'C'}$ nên $A'C'=\dfrac{6\cdot10}{4}=15$.

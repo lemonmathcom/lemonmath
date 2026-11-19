@@ -308,7 +308,7 @@ Vậy $2A-I=\begin{pmatrix}1&4\\6&7\end{pmatrix}$.
 :::
 
 :::quiz
-::mc
+::mc NB
 $15\%$ của $240$ bằng
 A. $24$
 B. $16$
@@ -317,7 +317,7 @@ D. $3{,}6$
 ::key C
 $0{,}15\times240=36$.
 
-::mc
+::mc TH
 Số nào sau đây bằng $\sqrt{72}$?
 A. $6\sqrt2$
 B. $8\sqrt3$
@@ -326,7 +326,7 @@ D. $12\sqrt2$
 ::key A
 $\sqrt{72}=\sqrt{36\cdot2}=6\sqrt2$. Phương án C là $\sqrt{54}$ và phương án D là $\sqrt{288}$.
 
-::mc
+::mc NB
 $(2-i)+(3+4i)$ bằng
 A. $5+5i$
 B. $5+3i$
@@ -335,7 +335,7 @@ D. $-1+3i$
 ::key B
 Cộng phần thực với nhau và phần ảo với nhau: $(2+3)+(-1+4)i$.
 
-::mc
+::mc TH
 Kết quả của $\left(5\times10^3\right)\left(4\times10^{-5}\right)$ viết dưới dạng kí hiệu khoa học là
 A. $20\times10^{-2}$
 B. $2\times10^{-2}$
@@ -344,7 +344,7 @@ D. $2\times10^{-1}$
 ::key D
 $20\times10^{-2}=2\times10^{-1}$. Phương án A có cùng giá trị nhưng chưa ở dạng kí hiệu khoa học.
 
-::tf
+::tf TH TH TH VD
 Một giá tăng $50\%$ rồi giảm $50\%$. Xét tính đúng sai của các mệnh đề sau:
 a) Giá cuối cùng bằng $75\%$ giá ban đầu.
 b) Thay đổi chung là giảm $25\%$.
@@ -353,12 +353,12 @@ d) Nếu giảm trước rồi mới tăng thì giá cuối cùng vẫn như v�
 ::key T T F T
 $1{,}5\times0{,}5=0{,}75$. Phép nhân có tính giao hoán, nên thứ tự các lần thay đổi không ảnh hưởng.
 
-::sa
+::sa NB
 Tính $25\%$ của $64$.
 ::key 16
 $0{,}25\times64=16$.
 
-::sa
+::sa TH
 Đổi $90$ km/h sang mét mỗi giây.
 ::key 25
 $\dfrac{90\times1000}{3600}=25$.

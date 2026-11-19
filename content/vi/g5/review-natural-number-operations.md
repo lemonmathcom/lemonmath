@@ -289,7 +289,7 @@ $5\times(x+12)=120+30=150$, nên $x+12=150:5=30$ và $x=30-12=18$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Giá trị của biểu thức $18+6\times4$ là
 A. $96$.
 B. $24$.
@@ -298,7 +298,7 @@ D. $42$.
 ::key D
 Nhân trước: $18+24=42$. Phương án A là lỗi cộng trước: $(18+6)\times4=96$.
 
-::mc
+::mc TH
 Kết quả của $7\,000-2\,345$ là
 A. $4\,655$.
 B. $5\,765$.
@@ -307,7 +307,7 @@ D. $9\,345$.
 ::key A
 $4\,655+2\,345=7\,000$. Phương án C là lấy số lớn trừ số bé ở từng hàng; phương án D là cộng thay vì trừ.
 
-::mc
+::mc TH
 Giá trị của $12\times35+12\times65$ là
 A. $485$.
 B. $1\,200$.
@@ -316,7 +316,7 @@ D. $112$.
 ::key B
 $12\times(35+65)=12\times100=1\,200$. Phương án A chỉ nhân $12$ với $35$; phương án C quên nhân với $12$.
 
-::mc
+::mc VD
 Mỗi hộp có $12$ cái bút. Cô mua $9$ hộp rồi tặng đi $25$ cái. Cô còn lại bao nhiêu cái bút?
 A. $123$.
 B. $133$.
@@ -325,7 +325,7 @@ D. $183$.
 ::key C
 $9\times12=108$, rồi $108-25=83$. Phương án B là lấy $108+25$, nhầm sang phép cộng.
 
-::tf
+::tf NB TH TH TH
 Em xét biểu thức $A=60-12\times3+24:4$.
 a) Phép nhân $12\times3$ và phép chia $24:4$ được làm trước phép trừ và phép cộng.
 b) $A=48\times3+6$.
@@ -334,12 +334,12 @@ d) $A$ lớn hơn $35$.
 ::key Đ S Đ S
 a) Đúng: không có ngoặc thì nhân, chia làm trước. b) Sai: $48\times3+6=150$, vì đã trừ $60-12$ trước. c) Đúng: $60-36+6=30$. d) Sai: $30<35$.
 
-::sa
+::sa VD
 Tính giá trị của biểu thức $(36+14)\times8-250$.
 ::key 150
 $50\times8=400$, rồi $400-250=150$.
 
-::sa
+::sa VD
 Kho có $12$ thùng gạo, mỗi thùng $45$ kg. Người ta bán $8$ thùng. Trong kho còn lại bao nhiêu ki-lô-gam gạo?
 ::key 180
 Còn $12-8=4$ thùng, nên có $4\times45=180$ (kg).

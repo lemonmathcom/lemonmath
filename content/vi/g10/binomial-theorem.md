@@ -362,7 +362,7 @@ Ngay ba số hạng đầu đã cho $1+0{,}5+0{,}1=1{,}6$, và các số hạng 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Khai triển $(x-1)^4$ là
 A. $x^4-4x^3+6x^2-4x+1$.
 B. $x^4+4x^3+6x^2+4x+1$.
@@ -371,7 +371,7 @@ D. $x^4-4x^3-6x^2-4x-1$.
 ::key A
 Dùng hàng $1, 4, 6, 4, 1$ với $b=-1$: luỹ thừa lẻ của $-1$ âm, luỹ thừa chẵn dương, nên dấu đan xen. Phương án C là lỗi viết $(a+b)^n=a^n+b^n$.
 
-::mc
+::mc TH
 Hệ số của $x^3$ trong khai triển $(2x+1)^4$ là
 A. $4$.
 B. $8$.
@@ -380,7 +380,7 @@ D. $32$.
 ::key D
 Số hạng chứa $x^3$ là $C_4^3(2x)^3\cdot1=4\cdot8x^3=32x^3$. Phương án A quên luỹ thừa hệ số $2$; B quên $C_4^3$; C là hệ số của $x^2$.
 
-::mc
+::mc VD
 Số hạng không chứa $x$ trong khai triển $\left(x-\dfrac2x\right)^4$ (với $x\ne0$) là
 A. $-24$.
 B. $6$.
@@ -389,7 +389,7 @@ D. $24$.
 ::key D
 Số hạng tổng quát $C_4^k\,x^{4-k}\left(-\dfrac2x\right)^k=C_4^k(-2)^kx^{4-2k}$. Cần $4-2k=0$, tức $k=2$: $6\cdot(-2)^2=24$ (luỹ thừa chẵn nên dương).
 
-::mc
+::mc TH
 Tổng các hệ số trong khai triển $(2x-3)^5$ là
 A. $-1$.
 B. $1$.
@@ -398,7 +398,7 @@ D. $-243$.
 ::key A
 Thay $x=1$: $(2-3)^5=(-1)^5=-1$. Phương án D là kết quả khi thay $x=0$ (số hạng không chứa $x$), C là $(2+3)^5$ do bỏ dấu trừ.
 
-::tf
+::tf TH TH TH TH
 Cho khai triển $(1+3x)^4=a_0+a_1x+a_2x^2+a_3x^3+a_4x^4$.
 a) $a_1=12$.
 b) $a_2=18$.
@@ -407,12 +407,12 @@ d) Số hạng thứ ba của khai triển là $54x^2$.
 ::key Đ S Đ Đ
 a) Đúng: $C_4^1\cdot3=12$. b) Sai: $a_2=C_4^2\cdot3^2=54$ (giá trị $18$ là do quên bình phương $3$). c) Đúng: thay $x=1$ được $4^4=256$. d) Đúng: số hạng thứ ba ứng với $k=2$, là $54x^2$.
 
-::sa
+::sa VD
 Tìm hệ số của $x^2$ trong khai triển $(x-2)^5$.
 ::key -80
 Số hạng chứa $x^2$ là $C_5^3x^2(-2)^3=10\cdot(-8)x^2=-80x^2$.
 
-::sa
+::sa VD
 Tìm hệ số của $x^3$ trong khai triển $(x+2)(x-1)^4$.
 ::key -2
 $(x-1)^4=x^4-4x^3+6x^2-4x+1$. Số hạng $x^3$ của tích đến từ $x\cdot6x^2$ và $2\cdot(-4x^3)$, nên hệ số là $6-8=-2$.

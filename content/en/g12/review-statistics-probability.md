@@ -412,7 +412,7 @@ $P(\text{faulty})=0.5\cdot0.01+0.3\cdot0.02+0.2\cdot0.03=0.005+0.006+0.006=0.017
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A set of grouped data has the class $[10, 20)$ with frequency $2$, $[20, 30)$ with frequency $5$ and $[30, 40)$ with frequency $3$. The mean of the data is
 A. $25$.
 B. $26$.
@@ -421,7 +421,7 @@ D. $21$.
 ::key B
 $\bar x=\dfrac{2\cdot15+5\cdot25+3\cdot35}{10}=26$. Option A is the midpoint of the middle class, option C divides by $3$, and option D uses the left endpoints.
 
-::mc
+::mc TH
 For the data in the previous question, the class containing the upper quartile $Q_3$ is
 A. $[10, 20)$.
 B. $[20, 30)$.
@@ -430,7 +430,7 @@ D. It cannot be determined.
 ::key C
 The cumulative frequencies are $2$, $7$, $10$ and $\dfrac{3n}{4}=7.5$; the first class with cumulative frequency $\ge7.5$ is $[30, 40)$. Option B is the class with the highest frequency.
 
-::mc
+::mc NB
 Let $A$, $B$ be events with $P(B)>0$. The probability of $A$ given that $B$ has happened is
 A. $P(A\mid B)=\dfrac{P(A\cap B)}{P(A)}$.
 B. $P(A\mid B)=P(A)\cdot P(B)$.
@@ -439,7 +439,7 @@ D. $P(A\mid B)=\dfrac{P(A)}{P(B)}$.
 ::key C
 We restrict the sample space to $B$, so we divide by $P(B)$. Option A is $P(B\mid A)$; option B is only $P(A\cap B)$ when $A$ and $B$ are independent.
 
-::mc
+::mc NB
 Given $P(A)=0.3$ and $P(B\mid A)=0.5$, the value of $P(A\cap B)$ is
 A. $0.15$.
 B. $0.8$.
@@ -448,7 +448,7 @@ D. $0.2$.
 ::key A
 $P(A\cap B)=P(A)\cdot P(B\mid A)=0.3\cdot0.5=0.15$. Option B adds the two numbers and option C divides $0.3$ by $0.5$.
 
-::tf
+::tf NB TH TH VD
 A bag holds $5$ red and $3$ white marbles. Two marbles are taken one after the other, without replacement.
 a) The probability that the first marble is red is $\dfrac58$.
 b) The probability that the second marble is red, given that the first is red, is $\dfrac47$.
@@ -457,12 +457,12 @@ d) The probability that the second marble is red is $\dfrac47$.
 ::key T T T F
 a) True. b) True: $4$ red marbles remain out of $7$. c) True: $\dfrac58\cdot\dfrac47=\dfrac{20}{56}=\dfrac5{14}$. d) False: by the law of total probability, $\dfrac58\cdot\dfrac47+\dfrac38\cdot\dfrac57=\dfrac{35}{56}=\dfrac58$.
 
-::sa
+::sa VD
 A set of grouped data has the class $[0, 2)$ with frequency $3$, $[2, 4)$ with frequency $4$ and $[4, 6)$ with frequency $3$. Find its standard deviation (to 2 decimal places).
 ::key 1.55
 The midpoints are $1$, $3$, $5$ and $\bar x=3$. $s^2=\dfrac{3\cdot4+4\cdot0+3\cdot4}{10}=2.4$, so $s=\sqrt{2.4}\approx1.549$, which rounds to $1.55$.
 
-::sa
+::sa VD
 Given $P(B)=0.4$, $P(A\mid B)=0.5$ and $P(A\mid\overline B)=0.25$, find $P(B\mid A)$ (to 2 decimal places).
 ::key 0.57
 $P(A)=0.4\cdot0.5+0.6\cdot0.25=0.35$, so $P(B\mid A)=\dfrac{0.2}{0.35}\approx0.571$, which rounds to $0.57$.

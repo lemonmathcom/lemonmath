@@ -195,7 +195,7 @@ $f(0)=0$, $f'(0)=1$, $f''(0)=0$, $f'''(0)=2$. So $\tan x=x+\dfrac{2}{3!}x^3+\dot
 :::
 
 :::quiz
-::mc
+::mc TH
 What is the coefficient of $x^2$ in the Maclaurin series of $e^{3x}$?
 A. $3$
 B. $\dfrac92$
@@ -204,7 +204,7 @@ D. $\dfrac32$
 ::key B
 $\dfrac{(3x)^2}{2!}=\dfrac92x^2$.
 
-::mc
+::mc TH
 What is the integrating factor for $\dfrac{dy}{dx}+3y=x$?
 A. $e^{3x}$
 B. $e^{x}$
@@ -213,7 +213,7 @@ D. $e^{-3x}$
 ::key A
 $e^{\int3\,dx}=e^{3x}$.
 
-::mc
+::mc TH
 What is $\displaystyle\lim_{x\to0}\frac{e^{2x}-1}{x}$?
 A. $1$
 B. $0$
@@ -222,7 +222,7 @@ D. $2$
 ::key D
 L'Hôpital: $\displaystyle\lim_{x\to0}2e^{2x}=2$.
 
-::mc
+::mc TH
 For $\dfrac{dy}{dx}=2x$ with $y(0)=1$, one Euler step with $h=0.5$ gives which estimate of $y(0.5)$?
 A. $1.25$
 B. $2$
@@ -231,7 +231,7 @@ D. $1.5$
 ::key C
 The slope at $x=0$ is $0$, so $y(0.5)\approx1+0.5\cdot0=1$. (The exact value is $1.25$.)
 
-::tf
+::tf TH VD VD VD
 Consider $\dfrac{dy}{dx}=\dfrac yx$, $x>0$.
 a) The equation is separable.
 b) The general solution is $y=Cx$.
@@ -240,12 +240,12 @@ d) The solution with $y(1)=3$ passes through $(2,5)$.
 ::key T T T F
 a) True. b) True: $\ln|y|=\ln x+c$. c) True. d) False: $y=3x$ gives $6$ at $x=2$.
 
-::sa
+::sa VD
 Find the coefficient of $x^2$ in the Maclaurin series of $\ln(1+x)$.
 ::key -0.5
 $\ln(1+x)=x-\dfrac{x^2}{2}+\dots$
 
-::sa
+::sa VD
 For $\dfrac{dy}{dx}=x+y$ with $y(0)=1$, Euler's method with $h=0.1$ gives $y(0.2)\approx$ ?
 ::key 1.22
 $1\to1.1\to1.22$, as in the example above.

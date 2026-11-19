@@ -245,7 +245,7 @@ $\cos\theta=\dfrac12$, so $\theta=\dfrac\pi3$ (the root $\cos\theta=-1$ gives $\
 :::
 
 :::quiz
-::mc
+::mc TH
 For $x=t^3$, $y=t^2+1$, what is $\dfrac{dy}{dx}$ at $t=1$?
 A. $\dfrac32$
 B. $\dfrac23$
@@ -254,7 +254,7 @@ D. $3$
 ::key B
 $\dfrac{2t}{3t^2}=\dfrac23$ at $t=1$.
 
-::mc
+::mc TH
 A particle has position $\left\langle t^2,3t\right\rangle$. What is its speed at $t=2$?
 A. $7$
 B. $\sqrt7$
@@ -263,7 +263,7 @@ D. $25$
 ::key C
 $v(2)=\langle4,3\rangle$, speed $5$.
 
-::mc
+::mc TH
 For $x=\cos t$, $y=\sin t$, what is $\dfrac{dy}{dx}$ at $t=\dfrac\pi4$?
 A. $-1$
 B. $1$
@@ -272,7 +272,7 @@ D. $\sqrt2$
 ::key A
 $\dfrac{\cos t}{-\sin t}=-1$ at $t=\dfrac\pi4$.
 
-::mc
+::mc NB
 Which integral gives the area bounded by $r=f(\theta)$ for $\alpha\le\theta\le\beta$?
 A. $\displaystyle\int_\alpha^\beta f(\theta)\,d\theta$
 B. $\pi\displaystyle\int_\alpha^\beta f(\theta)^2\,d\theta$
@@ -281,7 +281,7 @@ D. $\dfrac12\displaystyle\int_\alpha^\beta f(\theta)^2\,d\theta$
 ::key D
 The polar area formula has the factor $\dfrac12$ and $r^2$.
 
-::tf
+::tf TH TH VD TH
 A particle has velocity $v(t)=\left\langle2t,3t^2\right\rangle$ and is at the origin at $t=0$.
 a) Its speed at $t=1$ is $\sqrt{13}$.
 b) Its acceleration at $t=1$ is $\langle2,6\rangle$.
@@ -290,12 +290,12 @@ d) The distance traveled from $t=0$ to $t=1$ is $\displaystyle\int_0^1\sqrt{4t^2
 ::key T T F T
 a) True: $\sqrt{4+9}$. b) True: $a(t)=\langle2,6t\rangle$. c) False: the position is $\left\langle t^2,t^3\right\rangle$, so $\langle4,8\rangle$. d) True: the integral of the speed.
 
-::sa
+::sa VD
 Find the length of the path $x=3t$, $y=4t$ for $0\le t\le2$.
 ::key 10
 Speed $\sqrt{9+16}=5$, so the length is $5\cdot2=10$.
 
-::sa
+::sa TH
 For $x=t^2$, $y=t^3$, find $\dfrac{dy}{dx}$ at $t=4$.
 ::key 6
 $\dfrac{3t^2}{2t}=\dfrac{3t}{2}=6$.

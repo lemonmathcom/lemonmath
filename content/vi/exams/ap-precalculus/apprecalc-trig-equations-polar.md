@@ -358,7 +358,7 @@ Vậy phương trình có các nghiệm $x=\dfrac\pi3$, $\pi$ và $\dfrac{5\pi}{
 :::
 
 :::quiz
-::mc
+::mc NB
 Giá trị của $\arcsin\dfrac12$ là
 A. $\dfrac\pi3$
 B. $\dfrac{5\pi}{6}$
@@ -367,7 +367,7 @@ D. $\dfrac\pi4$
 ::key C
 $\sin\dfrac\pi6=\dfrac12$ và $\dfrac\pi6$ thuộc tập giá trị của $\arcsin$.
 
-::mc
+::mc TH
 Phương trình $\sin x=0{,}3$ có bao nhiêu nghiệm trên $[0;2\pi)$?
 A. $2$
 B. $1$
@@ -376,7 +376,7 @@ D. $4$
 ::key A
 Một nghiệm ở góc phần tư I và một nghiệm ở góc phần tư II.
 
-::mc
+::mc TH
 Giá trị của $\sec\dfrac\pi3$ là
 A. $\dfrac12$
 B. $\dfrac{2}{\sqrt3}$
@@ -385,7 +385,7 @@ D. $2$
 ::key D
 $\sec\dfrac\pi3=\dfrac{1}{\cos(\pi/3)}=2$.
 
-::mc
+::mc TH
 Điểm có toạ độ cực $(2,\pi)$ có toạ độ vuông góc là
 A. $(2,0)$
 B. $(-2,0)$
@@ -394,7 +394,7 @@ D. $(0,-2)$
 ::key B
 $x=2\cos\pi=-2$ và $y=2\sin\pi=0$.
 
-::tf
+::tf NB NB TH TH
 Cho hàm cực $r=2\cos\theta$. Xét tính đúng sai của các mệnh đề sau:
 a) $r=2$ khi $\theta=0$.
 b) $r=0$ khi $\theta=\dfrac\pi2$.
@@ -403,12 +403,12 @@ d) Đồ thị đi qua gốc toạ độ.
 ::key T T F T
 Trên $\left(0;\dfrac\pi2\right)$, $\cos\theta$ giảm, nên $r$ giảm.
 
-::sa
+::sa TH
 Phương trình $2\cos x=1$ có bao nhiêu nghiệm trên $[0;2\pi)$?
 ::key 2
 $x=\dfrac\pi3$ và $x=\dfrac{5\pi}3$.
 
-::sa
+::sa TH
 Tìm $r>0$ cho điểm có toạ độ vuông góc $(3,4)$.
 ::key 5
 $r=\sqrt{9+16}=5$.

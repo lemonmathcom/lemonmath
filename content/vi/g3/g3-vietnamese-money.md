@@ -349,7 +349,7 @@ c) Sau khi mẹ cho thêm, Hùng có $31\,000+20\,000=51\,000$ (đồng). Vì $5
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Số tiền của một tờ $10\,000$ đồng và hai tờ $5\,000$ đồng là
 A. $15\,000$ đồng.
 B. $20\,000$ đồng.
@@ -358,7 +358,7 @@ D. $25\,000$ đồng.
 ::key B
 $10\,000+5\,000+5\,000=20\,000$ đồng. Phương án A bỏ sót một tờ $5\,000$; phương án D cộng thừa một tờ $5\,000$.
 
-::mc
+::mc TH
 Mẹ đưa $50\,000$ đồng để mua đồ hết $32\,000$ đồng. Người bán trả lại mẹ
 A. $82\,000$ đồng.
 B. $22\,000$ đồng.
@@ -367,7 +367,7 @@ D. $28\,000$ đồng.
 ::key C
 $50\,000-32\,000=18\,000$. Phương án A là cộng thay vì trừ; phương án B là trừ nhầm ($50-32$ không phải $22$).
 
-::mc
+::mc TH
 An mua ba món có giá $9\,000$ đồng, $6\,000$ đồng và $4\,000$ đồng. Tiền hàng là
 A. $10\,000$ đồng.
 B. $13\,000$ đồng.
@@ -376,7 +376,7 @@ D. $19\,000$ đồng.
 ::key D
 $9\,000+6\,000+4\,000=19\,000$. Các phương án B, C, A chỉ cộng hai món ($9+4$, $9+6$, $6+4$).
 
-::mc
+::mc VD
 Lan có $40\,000$ đồng và muốn mua hai món giá $25\,000$ đồng và $18\,000$ đồng. Câu nào đúng?
 A. Lan không đủ tiền, thiếu $3\,000$ đồng.
 B. Lan đủ tiền và còn thừa $15\,000$ đồng.
@@ -385,7 +385,7 @@ D. Lan không đủ tiền, thiếu $43\,000$ đồng.
 ::key A
 Tiền hàng là $25\,000+18\,000=43\,000$. Vì $43\,000>40\,000$ nên Lan thiếu $43\,000-40\,000=3\,000$ đồng. Phương án B chỉ tính một món; phương án D lấy tổng tiền hàng làm số tiền thiếu.
 
-::tf
+::tf TH TH VD VD
 Nam có một tờ $20\,000$ đồng, một tờ $10\,000$ đồng và một tờ $5\,000$ đồng.
 a) Nam có $35\,000$ đồng.
 b) Nam mua được món giá $40\,000$ đồng.
@@ -394,12 +394,12 @@ d) Nam đưa cả ba tờ mua món giá $30\,000$ đồng thì được trả l�
 ::key Đ S Đ S
 a) Đúng: $20+10+5=35$ nghìn. b) Sai: $35\,000<40\,000$ nên không đủ tiền. c) Đúng: $35\,000-28\,000=7\,000$. d) Sai: $35\,000-30\,000=5\,000$, không phải $15\,000$.
 
-::sa
+::sa TH
 Mai có hai tờ $5\,000$ đồng và một tờ $2\,000$ đồng. Mai có tất cả bao nhiêu nghìn đồng?
 ::key 12
 $5+5+2=12$ (nghìn đồng).
 
-::sa
+::sa TH
 Bố đưa $50\,000$ đồng để mua đồ hết $36\,000$ đồng. Bố được trả lại bao nhiêu nghìn đồng?
 ::key 14
 $50-36=14$ (nghìn đồng).

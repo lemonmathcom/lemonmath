@@ -252,7 +252,7 @@ Ones: $2+5=7$. The tens are $6$, so the missing number is $62$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $34+5$ equals
 A. $29$.
 B. $84$.
@@ -261,7 +261,7 @@ D. $9$.
 ::key C
 $4+5=9$ and the tens are $3$, so $34+5=39$. Option B is the mistake of adding $5$ to the tens, and D forgets the tens.
 
-::mc
+::mc TH
 $60+7$ equals
 A. $7$.
 B. $13$.
@@ -270,7 +270,7 @@ D. $67$.
 ::key D
 $0+7=7$ and the tens are $6$, so $60+7=67$. Option B is $6+7$, mixing up the tens and the ones.
 
-::mc
+::mc TH
 Which sum equals $48$?
 A. $40+8$.
 B. $43+4$.
@@ -279,7 +279,7 @@ D. $45+2$.
 ::key A
 $40+8=48$. The other sums are $47$, $49$ and $47$.
 
-::mc
+::mc TH
 Hoa has $25$ stickers and her mum gives her $3$ more. How many stickers does Hoa have altogether?
 A. $22$ stickers.
 B. $28$ stickers.
@@ -288,7 +288,7 @@ D. $8$ stickers.
 ::key B
 "Gives her more" means putting together: $25+3=28$. Option A is $25-3$, a subtraction by mistake.
 
-::tf
+::tf NB TH TH TH
 Look at the sum $52+6$.
 a) The number $52$ has $5$ tens.
 b) The ones are added: $2+6=8$.
@@ -297,12 +297,12 @@ d) $52+6$ is less than $60$.
 ::key T T F T
 a) True: $52$ has $5$ tens and $2$ ones. b) True: $2+6=8$. c) False: the tens stay $5$, so $52+6=58$. d) True: $58<60$.
 
-::sa
+::sa TH
 Work out $41+7$.
 ::key 48
 $1+7=8$ and the tens are $4$, so $41+7=48$.
 
-::sa
+::sa TH
 A basket has $36$ oranges and $3$ more are added. How many oranges are in the basket altogether?
 ::key 39
 $36+3=39$ (oranges).

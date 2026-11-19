@@ -524,7 +524,7 @@ So $BE=CD$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Triangles $ABC$ and $DEF$ have $AB=DE$ and $BC=EF$. To make them congruent by SAS, we also need
 A. $\angle B=\angle E$.
 B. $\angle A=\angle D$.
@@ -533,7 +533,7 @@ D. $AC=DF$.
 ::key A
 The angle between $AB$ and $BC$ is $\angle B$, so we need $\angle B=\angle E$. A and C are angles that are not included; D would give SSS.
 
-::mc
+::mc NB
 Triangles $ABC$ and $MNP$ have $\angle A=\angle M$ and $\angle B=\angle N$. To make them congruent by ASA, we also need
 A. $AC=MP$.
 B. $AB=MN$.
@@ -542,7 +542,7 @@ D. $\angle C=\angle P$.
 ::key B
 The side adjacent to both $\angle A$ and $\angle B$ is $AB$, so we need $AB=MN$. A and C are sides that are not between the two angles; D adds only another angle.
 
-::mc
+::mc TH
 The segments $AB$ and $CD$ meet at $O$ with $OA=OB$ and $OC=OD$. Which triangle is congruent to triangle $OAC$?
 A. $\triangle OBC$.
 B. $\triangle ODB$.
@@ -551,7 +551,7 @@ D. $\triangle OAD$.
 ::key C
 $OA=OB$, $\angle AOC=\angle BOD$ (vertically opposite) and $OC=OD$, so $\triangle OAC\equiv\triangle OBD$ (SAS). B lists the vertices in the wrong order; C and D lack the conditions.
 
-::mc
+::mc TH
 Triangles $ABC$ and $DEF$ have $AB=DE$, $AC=DF$ and $\angle B=\angle E$. Which statement is correct?
 A. The triangles are congruent by SAS.
 B. The triangles are congruent by ASA.
@@ -560,7 +560,7 @@ D. There is not enough information to conclude that the triangles are congruent.
 ::key D
 The angle $B$ is not between $AB$ and $AC$, so SAS cannot be used, and the other two conditions lack data.
 
-::tf
+::tf TH NB TH VD
 In triangle $ABC$, $M$ is the midpoint of $BC$. On the extension of $MA$ beyond $M$, take $D$ with $MD=MA$. Decide whether each statement is true or false.
 a) Triangles $MAB$ and $MDC$ are congruent by SSS.
 b) $\angle AMB=\angle DMC$.
@@ -569,12 +569,12 @@ d) $AB\parallel CD$.
 ::key F T T T
 a) False: at the start we do not know that $AB=CD$; the triangles are congruent by SAS. b) True: vertically opposite angles. c) True: corresponding sides. d) True: $\angle MAB=\angle MDC$ are alternate angles.
 
-::sa
+::sa VD
 In the river problem, change the measurements to $AB=BC=15$ m and $CD=28$ m. Find the width $AT$ of the river (in metres).
 ::key 28
 $\triangle ABT\equiv\triangle CBD$ (ASA), so $AT=CD=28$ m.
 
-::sa
+::sa VD
 In quadrilateral $ABCD$ we have $AB\parallel CD$, $AB=CD=5$ cm and $BC=7$ cm, with $B$ and $D$ on opposite sides of $AC$. Find $AD$ (in cm).
 ::key 7
 $\triangle ABC\equiv\triangle CDA$ (SAS), so $AD=BC=7$ cm.

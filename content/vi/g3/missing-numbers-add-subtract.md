@@ -303,7 +303,7 @@ b) $47+16=63$, nên $90-\square=63$ và $\square=90-63=27$. Thử lại: $90-27=
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tìm $\square$, biết $\square+7=19$.
 A. $26$.
 B. $22$.
@@ -312,7 +312,7 @@ D. $19$.
 ::key C
 $\square=19-7=12$. Phương án A là lỗi cộng $19+7$ thay vì trừ.
 
-::mc
+::mc TH
 Tìm $\square$, biết $15-\square=6$.
 A. $21$.
 B. $8$.
@@ -321,7 +321,7 @@ D. $9$.
 ::key D
 $\square$ là số trừ nên $\square=15-6=9$. Phương án A là lỗi cộng $15+6$.
 
-::mc
+::mc TH
 Tìm $\square$, biết $\square-14=25$.
 A. $39$.
 B. $11$.
@@ -330,7 +330,7 @@ D. $29$.
 ::key A
 $\square$ là số bị trừ nên $\square=25+14=39$. Phương án B là lỗi trừ $25-14$.
 
-::mc
+::mc VD
 Hà có một số nhãn vở. Hà mua thêm $16$ cái thì có $50$ cái. Lúc đầu Hà có bao nhiêu nhãn vở?
 A. $66$ cái.
 B. $34$ cái.
@@ -339,7 +339,7 @@ D. $36$ cái.
 ::key B
 Ta có $\square+16=50$ nên $\square=50-16=34$. Phương án A là lỗi cộng $50+16$.
 
-::tf
+::tf NB TH TH TH
 Em xét phép tính $\square+24=70$.
 a) Số cần tìm bằng $70-24$.
 b) Số cần tìm bằng $46$.
@@ -348,12 +348,12 @@ d) Thử lại: $46+24=70$.
 ::key Đ Đ S Đ
 a) Đúng: số hạng chưa biết bằng tổng trừ số hạng đã biết. b) Đúng: $70-24=46$. c) Sai: $94$ là $70+24$, và $94+24=118$. d) Đúng: $46+24=70$.
 
-::sa
+::sa TH
 Tìm $\square$, biết $63-\square=29$.
 ::key 34
 $\square$ là số trừ nên $\square=63-29=34$.
 
-::sa
+::sa VD
 Trong sọt có một số quả cam. Mẹ lấy ra $18$ quả thì còn $27$ quả. Lúc đầu trong sọt có bao nhiêu quả cam?
 ::key 45
 Ta có $\square-18=27$ nên $\square=27+18=45$ (quả).

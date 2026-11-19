@@ -346,7 +346,7 @@ Vì mỗi nhóm có tần số $m$ nên $n=km$ và $\bar{x}=\dfrac{m(c_1+\dots+c
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Mẫu số liệu ghép nhóm có các nhóm $[0; 10)$, $[10; 20)$, $[20; 30)$ với tần số $2$, $3$, $5$. Số trung bình ước lượng bằng
 A. $15$.
 B. $20$.
@@ -355,7 +355,7 @@ D. $18$.
 ::key D
 $\bar{x}=\dfrac{2\cdot5+3\cdot15+5\cdot25}{10}=\dfrac{180}{10}=18$. Phương án A là trung bình cộng của ba giá trị đại diện (quên tần số), phương án C quên chia cho $n$.
 
-::mc
+::mc TH
 Một mẫu số liệu ghép nhóm cỡ $40$ có năm nhóm với tần số $15, 3, 3, 3, 16$. Nhóm chứa trung vị là nhóm thứ
 A. ba.
 B. một.
@@ -364,7 +364,7 @@ D. hai.
 ::key A
 Tần số tích luỹ là $15, 18, 21, 24, 40$ và $\dfrac n2=20$, nên nhóm đầu tiên có $C_p\ge20$ là nhóm thứ ba. Phương án C là nhóm có tần số lớn nhất.
 
-::mc
+::mc TH
 Bảng $[0; 10)$: $4$; $[10; 20)$: $10$; $[20; 30)$: $6$ có mốt ước lượng bằng
 A. $15$.
 B. $16$.
@@ -373,7 +373,7 @@ D. $20$.
 ::key B
 $M_o=10+\dfrac{10-4}{(10-4)+(10-6)}\cdot10=16$. Phương án A là giá trị đại diện, phương án C đổi vai hai nhóm kề, phương án D là đầu mút phải.
 
-::mc
+::mc VD
 Bảng cỡ $40$: $[0; 10)$: $5$; $[10; 20)$: $10$; $[20; 30)$: $15$; $[30; 40)$: $10$. Tứ phân vị thứ nhất $Q_1$ bằng
 A. $5$.
 B. $10$.
@@ -382,7 +382,7 @@ D. $20$.
 ::key C
 $\dfrac n4=10$, nhóm $[10; 20)$ ($C_1=5$, $m_2=10$): $Q_1=10+\dfrac{10-5}{10}\cdot10=15$. Phương án A là $C_1$, phương án B là $\dfrac n4$, phương án D là đầu mút phải của nhóm.
 
-::tf
+::tf TH TH VD VD
 Mẫu số liệu ghép nhóm cỡ $60$: $[0; 20)$ có $10$, $[20; 40)$ có $30$, $[40; 60)$ có $20$. Xét tính đúng sai của các mệnh đề sau:
 a) Số trung bình ước lượng bằng $30$.
 b) Nhóm chứa $Q_3$ là $[40; 60)$.
@@ -391,12 +391,12 @@ d) $Q_1=20$.
 ::key S Đ Đ S
 Tần số tích luỹ là $10, 40, 60$. a) Sai: $\bar{x}=\dfrac{10\cdot10+30\cdot30+20\cdot50}{60}\approx33{,}3$; $30$ là trung bình cộng các giá trị đại diện. b) Đúng: $\dfrac{3n}{4}=45>40$. c) Đúng: $M_e=20+\dfrac{30-10}{30}\cdot20\approx33{,}3$. d) Sai: $Q_1=20+\dfrac{15-10}{30}\cdot20\approx23{,}3$.
 
-::sa
+::sa VD
 Mẫu số liệu ghép nhóm cỡ $10$ có các nhóm $[0; 5)$ và $[5; 10)$ với tần số $3$ và $7$. Số trung bình ước lượng bằng bao nhiêu?
 ::key 6
 $\bar{x}=\dfrac{3\cdot2{,}5+7\cdot7{,}5}{10}=\dfrac{60}{10}=6$.
 
-::sa
+::sa VD
 Bảng cỡ $40$: $[0; 10)$: $5$; $[10; 20)$: $10$; $[20; 30)$: $15$; $[30; 40)$: $10$. Tứ phân vị thứ ba $Q_3$ bằng bao nhiêu?
 ::key 30
 $\dfrac{3n}{4}=30$; tần số tích luỹ là $5, 15, 30, 40$ nên nhóm $[20; 30)$ ($C_2=15$, $m_3=15$): $Q_3=20+\dfrac{30-15}{15}\cdot10=30$.

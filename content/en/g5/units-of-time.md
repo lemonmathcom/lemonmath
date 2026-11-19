@@ -366,7 +366,7 @@ $$3600\times24=86\,400\text{ (s)}.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $2$ h $15$ min changed to minutes is
 A. $215$ min.
 B. $120$ min.
@@ -375,7 +375,7 @@ D. $75$ min.
 ::key C
 $2\times60+15=135$. Option A treats $1$ hour as $100$ minutes, B forgets the extra $15$ minutes and D is $60+15$ (not multiplied by $2$).
 
-::mc
+::mc TH
 $4$ h $50$ min $+$ $2$ h $25$ min equals
 A. $6$ h $75$ min.
 B. $6$ h $15$ min.
@@ -384,7 +384,7 @@ D. $7$ h $15$ min.
 ::key D
 $4$ h $50$ min $+$ $2$ h $25$ min $=6$ h $75$ min $=7$ h $15$ min. Option A does not regroup $75$ minutes, B forgets to add $1$ hour and C is the subtraction $4$ h $50$ min $-$ $2$ h $25$ min.
 
-::mc
+::mc TH
 $6$ h $10$ min $-$ $2$ h $40$ min equals
 A. $3$ h $30$ min.
 B. $3$ h $70$ min.
@@ -393,7 +393,7 @@ D. $8$ h $50$ min.
 ::key A
 $6$ h $10$ min $=5$ h $70$ min, so $5$ h $70$ min $-$ $2$ h $40$ min $=3$ h $30$ min. Option C works out $40-10$, B changes $1$ hour to $100$ minutes and D is the addition.
 
-::mc
+::mc TH
 Which of these years is a leap year (February has $29$ days)?
 A. $2026$.
 B. $2028$.
@@ -402,7 +402,7 @@ D. $2029$.
 ::key B
 $2024$ was a leap year and $2028-2024=4$. The years $2026$ and $2027$ are only $2$ and $3$ years after $2024$, and $2029$ is $5$ years after, so none of these gaps is a multiple of $4$ years.
 
-::tf
+::tf TH TH TH VD
 Consider the time $1$ hour $45$ minutes.
 a) $1$ h $45$ min $=145$ min.
 b) $1$ h $45$ min $=1.45$ h.
@@ -411,12 +411,12 @@ d) $5$ h $20$ min $-$ $1$ h $45$ min $=3$ h $35$ min.
 ::key F F T T
 a) False: $60+45=105$ min. b) False: $45$ min $=0.75$ h, so it equals $1.75$ h. c) True: $3$ h $75$ min $=4$ h $15$ min. d) True: $4$ h $80$ min $-$ $1$ h $45$ min $=3$ h $35$ min.
 
-::sa
+::sa TH
 Change $2$ h $45$ min to minutes (the answer is a whole number).
 ::key 165
 $2\times60+45=165$.
 
-::sa
+::sa VD
 How many minutes are there from $8{:}50$ to $10{:}20$?
 ::key 90
 $10$ h $20$ min $=9$ h $80$ min, and $9$ h $80$ min $-$ $8$ h $50$ min $=1$ h $30$ min $=90$ min.

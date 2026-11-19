@@ -338,7 +338,7 @@ $$7\,531-1\,357=6\,174.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $3\,457+2\,168$ equals
 A. $5\,515$.
 B. $5\,635$.
@@ -347,7 +347,7 @@ D. $1\,289$.
 ::key C
 $7+8=15$, write $5$ and regroup $1$; $5+6+1=12$, write $2$ and regroup $1$; $4+1+1=6$; $3+2=5$. Option A forgets to regroup, option B regroups too much, and option D is the subtraction.
 
-::mc
+::mc TH
 $6\,000-2\,475$ equals
 A. $4\,475$.
 B. $3\,625$.
@@ -356,7 +356,7 @@ D. $3\,525$.
 ::key D
 $10-5=5$ regroup $1$; $10-8=2$ regroup $1$; $10-5=5$ regroup $1$; $6-3=3$. Option A takes the larger digit from the smaller in every column, and options B and C each forget one regrouping.
 
-::mc
+::mc TH
 A shop has $4\,800$ kg of rice and has sold $1\,950$ kg. The shop has left
 A. $2\,850$ kg.
 B. $3\,150$ kg.
@@ -365,7 +365,7 @@ D. $2\,950$ kg.
 ::key A
 "Left" means subtract: $4\,800-1\,950=2\,850$. Option C is the addition, option B takes the larger digit from the smaller in every column, and option D forgets one regrouping.
 
-::mc
+::mc TH
 The sum of $2\,036$ and $3\,987$ is
 A. $5\,913$.
 B. $6\,023$.
@@ -374,7 +374,7 @@ D. $5\,023$.
 ::key B
 $6+7=13$, write $3$ and regroup $1$; $3+8+1=12$, write $2$ and regroup $1$; $0+9+1=10$, write $0$ and regroup $1$; $2+3+1=6$. Option A forgets to regroup, option C is the subtraction, and option D forgets the regrouping into the thousands.
 
-::tf
+::tf TH TH TH TH
 Look at the subtraction $6\,205-2\,847$.
 a) In the ones column, we take $7-5=2$.
 b) $6\,205-2\,847=3\,358$.
@@ -383,12 +383,12 @@ d) The difference is greater than $4\,000$.
 ::key F T T F
 a) False: $5$ is less than $7$, so we take $15-7=8$. b) True: $15-7=8$; $0$ is less than $5$, so $10-5=5$; $2$ is less than $9$, so $12-9=3$; $6-3=3$. c) True: the addition check gives $6\,205$. d) False: $3\,358<4\,000$.
 
-::sa
+::sa TH
 Work out $2\,718+1\,982$.
 ::key 4700
 $8+2=10$, write $0$ and regroup $1$; $1+8+1=10$, write $0$ and regroup $1$; $7+9+1=17$, write $7$ and regroup $1$; $2+1+1=4$. So the sum is $4\,700$.
 
-::sa
+::sa TH
 A store has $8\,000$ bricks and has used $3\,650$ bricks. How many bricks are left?
 ::key 4350
 $8\,000-3\,650=4\,350$ (bricks).

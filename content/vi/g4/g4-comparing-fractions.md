@@ -352,7 +352,7 @@ Vì $\dfrac{1}{100}>\dfrac{1}{101}$ (cùng tử số, mẫu số $100<101$) nên
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 So sánh $\dfrac{5}{9}$ và $\dfrac{7}{9}$.
 A. $\dfrac{5}{9}>\dfrac{7}{9}$.
 B. $\dfrac{5}{9}<\dfrac{7}{9}$.
@@ -361,7 +361,7 @@ D. Không so sánh được.
 ::key B
 Hai phân số cùng mẫu số $9$ và $5<7$ nên $\dfrac{5}{9}<\dfrac{7}{9}$.
 
-::mc
+::mc NB
 Trong ba phân số $\dfrac{3}{4}$, $\dfrac{3}{7}$, $\dfrac{3}{10}$, phân số lớn nhất là
 A. $\dfrac{3}{10}$.
 B. $\dfrac{3}{7}$.
@@ -370,7 +370,7 @@ D. Ba phân số bằng nhau.
 ::key C
 Các phân số cùng tử số $3$, mẫu số bé nhất là $4$ nên $\dfrac{3}{4}$ lớn nhất.
 
-::mc
+::mc TH
 So sánh $\dfrac{2}{3}$ và $\dfrac{3}{5}$.
 A. $\dfrac{2}{3}<\dfrac{3}{5}$.
 B. $\dfrac{2}{3}=\dfrac{3}{5}$.
@@ -379,7 +379,7 @@ D. $\dfrac{2}{3}>\dfrac{3}{5}$.
 ::key D
 $\dfrac{2}{3}=\dfrac{10}{15}$ và $\dfrac{3}{5}=\dfrac{9}{15}$, mà $10>9$. Phương án A là lỗi so sánh trực tiếp $2<3$.
 
-::mc
+::mc VD
 Sắp xếp $\dfrac{1}{2}$, $\dfrac{3}{4}$, $\dfrac{5}{8}$ từ bé đến lớn được
 A. $\dfrac{1}{2}$, $\dfrac{5}{8}$, $\dfrac{3}{4}$.
 B. $\dfrac{5}{8}$, $\dfrac{1}{2}$, $\dfrac{3}{4}$.
@@ -388,7 +388,7 @@ D. $\dfrac{1}{2}$, $\dfrac{3}{4}$, $\dfrac{5}{8}$.
 ::key A
 $\dfrac{1}{2}=\dfrac{4}{8}$, $\dfrac{3}{4}=\dfrac{6}{8}$ và $4<5<6$.
 
-::tf
+::tf TH TH TH TH
 Em xét hai phân số $\dfrac{7}{6}$ và $\dfrac{4}{9}$.
 a) $\dfrac{7}{6}>1$.
 b) $\dfrac{4}{9}<1$.
@@ -397,12 +397,12 @@ d) $\dfrac{7}{6}<1$.
 ::key Đ Đ Đ S
 a) Đúng: $7>6$. b) Đúng: $4<9$. c) Đúng: $\dfrac{7}{6}>1>\dfrac{4}{9}$. d) Sai: $\dfrac{7}{6}$ lớn hơn $1$.
 
-::sa
+::sa TH
 Tìm số tự nhiên $x$ lớn nhất sao cho $\dfrac{x}{7}<\dfrac{5}{7}$.
 ::key 4
 Cùng mẫu số $7$ nên $x<5$. Số tự nhiên lớn nhất bé hơn $5$ là $4$.
 
-::sa
+::sa TH
 Quy đồng mẫu số $\dfrac{3}{4}$ và $\dfrac{4}{5}$ với mẫu số chung $20$. Tử số của phân số lớn hơn là bao nhiêu?
 ::key 16
 $\dfrac{3}{4}=\dfrac{15}{20}$ và $\dfrac{4}{5}=\dfrac{16}{20}$, mà $15<16$. Phân số lớn hơn có tử số $16$.

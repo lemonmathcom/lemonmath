@@ -312,7 +312,7 @@ We have $P(A\overline B)=P(A)-P(AB)=P(A)-P(A)P(B)=P(A)\,(1-P(B))=P(A)\,P(\overli
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The event $A\cup B$ occurs when
 A. at least one of $A$, $B$ occurs.
 B. $A$ occurs and $B$ does not.
@@ -321,7 +321,7 @@ D. neither event occurs.
 ::key A
 This is the definition of the union. Option C is the intersection, and B and D are other events.
 
-::mc
+::mc TH
 Roll a fair die. Let $A$ be "the number is even" and $B$ be "the number is at least $4$". The probability $P(A\cap B)$ is
 A. $\dfrac12$.
 B. $\dfrac13$.
@@ -330,7 +330,7 @@ D. $\dfrac23$.
 ::key B
 $A\cap B=\{4,6\}$, so $P=\dfrac26=\dfrac13$. Option D is $P(A\cup B)$, A is $P(A)$, and C counts only one outcome.
 
-::mc
+::mc TH
 A card is drawn from a standard deck of $52$ cards. Let $A$ be "a heart" and $B$ be "a king". The probability $P(A\cup B)$ is
 A. $\dfrac1{52}$.
 B. $\dfrac{17}{52}$.
@@ -339,7 +339,7 @@ D. $\dfrac1{13}$.
 ::key C
 $n(A\cup B)=13+4-1=16$, so $P=\dfrac{16}{52}=\dfrac4{13}$. Option B forgets to subtract the common card, A is $P(AB)$, and D is $P(B)$.
 
-::mc
+::mc NB
 Two events $A$, $B$ are independent if and only if
 A. $A\cap B=\varnothing$.
 B. $P(AB)=0$.
@@ -348,7 +348,7 @@ D. $P(AB)=P(A)\,P(B)$.
 ::key D
 This is the condition for independence. Options A and B describe mutually exclusive events, and C holds only for mutually exclusive events.
 
-::tf
+::tf NB TH TH TH
 Decide whether each statement is true or false:
 a) The intersection $A\cap B$ occurs when both $A$ and $B$ occur.
 b) $A$ and its complement $\overline A$ are always mutually exclusive.
@@ -357,12 +357,12 @@ d) If $A$ and $B$ are independent then $A$ and $\overline B$ are also independen
 ::key T T F T
 a) True by definition. b) True, since $A$ and $\overline A$ cannot occur together. c) False: then $P(AB)=0\neq P(A)P(B)$. d) True by the property.
 
-::sa
+::sa TH
 Independent events $A$, $B$ have $P(A)=0.6$ and $P(B)=0.5$. Find $P(AB)$.
 ::key 0.3
 $P(AB)=0.6\cdot0.5=0.3$.
 
-::sa
+::sa VD
 Suppose that in a survey of $50$ people, $30$ use app X, $24$ use app Y and $14$ use both. One person is chosen at random. Find the probability that the person uses at least one app.
 ::key 0.8
 $30+24-14=40$ people, so the probability is $\dfrac{40}{50}=0.8$.

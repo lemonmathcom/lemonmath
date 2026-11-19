@@ -258,7 +258,7 @@ $f(1.2)\approx3.4$. Because $f''>0$, the graph is concave up and lies above its 
 :::
 
 :::quiz
-::mc
+::mc TH
 A particle has position $s(t)=t^2-6t$. What is its velocity at $t=4$?
 A. $2$
 B. $-8$
@@ -267,7 +267,7 @@ D. $-2$
 ::key A
 $v(t)=2t-6$, so $v(4)=2$. Option B is the position $s(4)$.
 
-::mc
+::mc TH
 At $t=2$, a particle has $v(2)=-3$ and $a(2)=-1$. At this moment the particle is
 A. moving right and speeding up
 B. moving left and slowing down
@@ -276,7 +276,7 @@ D. moving right and slowing down
 ::key C
 $v<0$ means moving left; $v$ and $a$ have the same sign, so it is speeding up.
 
-::mc
+::mc TH
 What is $\displaystyle\lim_{x\to0}\frac{\tan 2x}{x}$?
 A. $0$
 B. $\dfrac12$
@@ -285,7 +285,7 @@ D. $2$
 ::key D
 L'Hôpital: $\dfrac{2\sec^2 2x}{1}\to2$.
 
-::mc
+::mc VD
 Using the tangent line to $y=\sqrt[3]{x}$ at $x=8$, the estimate of $\sqrt[3]{8.3}$ is
 A. $2.1$
 B. $2.025$
@@ -294,7 +294,7 @@ D. $2.25$
 ::key B
 $y'=\dfrac{1}{3x^{2/3}}=\dfrac1{12}$ at $x=8$, so $\sqrt[3]{8.3}\approx2+\dfrac{0.3}{12}=2.025$.
 
-::tf
+::tf VD TH TH TH
 The side of a square increases at $3$ centimeters per second.
 a) When the side is $5$ centimeters, the area increases at $30$ square centimeters per second.
 b) The perimeter increases at $3$ centimeters per second.
@@ -303,12 +303,12 @@ d) When the side doubles, the rate of increase of the area doubles.
 ::key T F F T
 a) True: $\dfrac{dA}{dt}=2s\dfrac{ds}{dt}=30$. b) False: $P=4s$, so $12$ centimeters per second. c) False: $\dfrac{dA}{dt}=6s$ depends on $s$. d) True.
 
-::sa
+::sa VD
 The radius of a sphere grows at $0.5$ centimeters per second. How fast is its volume growing when the radius is $3$ centimeters? Round to one decimal place.
 ::key 56.5
 $\dfrac{dV}{dt}=4\pi r^2\dfrac{dr}{dt}=4\pi(9)(0.5)=18\pi\approx56.5$ cubic centimeters per second.
 
-::sa
+::sa VD
 A particle has position $x(t)=t^2-4t$ for $0\le t\le5$. Find the total distance traveled.
 ::key 13
 It turns at $t=2$: $x(0)=0$, $x(2)=-4$, $x(5)=5$. Distance $=4+9=13$.

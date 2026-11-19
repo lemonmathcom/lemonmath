@@ -384,7 +384,7 @@ $$5+4+3+2+1=15.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Một hộp có $6$ chiếc bút xanh và $4$ chiếc bút đỏ, các chiếc bút đều khác nhau. Số cách lấy ra một chiếc bút từ hộp là
 A. $10$.
 B. $24$.
@@ -393,7 +393,7 @@ D. $6$.
 ::key A
 Lấy một chiếc bút xanh **hoặc** một chiếc bút đỏ, hai nhóm không có chiếc chung, nên dùng quy tắc cộng: $6+4=10$. Phương án B nhân nhầm (đó là số cách lấy một bút xanh **và** một bút đỏ).
 
-::mc
+::mc TH
 Một chiếc khoá số có $3$ vòng, mỗi vòng có các chữ số từ $0$ đến $9$. Có bao nhiêu mã mở khoá khác nhau?
 A. $30$.
 B. $720$.
@@ -402,7 +402,7 @@ D. $1000$.
 ::key D
 Chọn lần lượt chữ số cho từng vòng, mỗi vòng $10$ cách (được lặp lại, được bắt đầu bằng $0$): $10\cdot10\cdot10=1000$. Phương án B đòi các chữ số khác nhau, C bỏ nhầm các mã bắt đầu bằng $0$.
 
-::mc
+::mc VD
 Từ các chữ số $1, 2, 3, 4, 5, 6$ lập được bao nhiêu số lẻ có ba chữ số khác nhau?
 A. $60$.
 B. $120$.
@@ -411,7 +411,7 @@ D. $216$.
 ::key A
 Chọn chữ số hàng đơn vị trước (là $1$, $3$ hoặc $5$): $3$ cách; hàng trăm $5$ cách; hàng chục $4$ cách: $3\cdot5\cdot4=60$. Phương án B quên điều kiện lẻ, C cho phép các chữ số lặp lại.
 
-::mc
+::mc TH
 Từ thành phố $A$ đến $B$ có $3$ con đường, từ $B$ đến $C$ có $4$ con đường, và có $2$ con đường đi thẳng từ $A$ đến $C$. Số cách đi từ $A$ đến $C$ là
 A. $9$.
 B. $24$.
@@ -420,7 +420,7 @@ D. $14$.
 ::key D
 Đi qua $B$ gồm hai bước liên tiếp: $3\cdot4=12$ cách; đi thẳng: $2$ cách. Hai phương án không trùng nhau nên cộng lại: $12+2=14$. Phương án C quên các đường đi thẳng.
 
-::tf
+::tf NB TH TH VD
 Một tổ có $7$ bạn nam và $5$ bạn nữ.
 a) Có $12$ cách chọn một bạn làm tổ trưởng.
 b) Có $12$ cách chọn một bạn nam và một bạn nữ để song ca.
@@ -429,12 +429,12 @@ d) Có $90$ cách chọn một tổ trưởng và một tổ phó sao cho có í
 ::key Đ S S Đ
 a) Đúng: $7+5=12$. b) Sai: chọn nam **rồi** chọn nữ, $7\cdot5=35$. c) Sai: tổ trưởng $12$ cách, tổ phó còn $11$ cách: $132$. d) Đúng: trừ đi các cách mà cả hai đều là nam, $132-7\cdot6=90$.
 
-::sa
+::sa VD
 Từ các chữ số $0, 1, 2, 3, 4$ lập được bao nhiêu số có ba chữ số khác nhau?
 ::key 48
 Hàng trăm khác $0$: $4$ cách; hàng chục: $4$ cách; hàng đơn vị: $3$ cách. Vậy có $4\cdot4\cdot3=48$ số.
 
-::sa
+::sa VDC
 Có bao nhiêu số có bốn chữ số mà trong đó có ít nhất một chữ số $0$?
 ::key 2439
 Có tất cả $9\cdot10^3=9000$ số có bốn chữ số. Số không có chữ số $0$ nào là $9^4=6561$. Vậy có $9000-6561=2439$ số.

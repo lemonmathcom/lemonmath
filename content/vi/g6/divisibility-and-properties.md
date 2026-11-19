@@ -306,7 +306,7 @@ Số có dạng $\overline{ab0}$ với $a+b$ chia hết cho $3$. a) Thử $100$ 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tập hợp các ước của $12$ là
 A. $\{0;12;24;36\}$.
 B. $\{1;2;3;4;6\}$.
@@ -315,7 +315,7 @@ D. $\{2;3;4;6;12\}$.
 ::key C
 $12=1\times12=2\times6=3\times4$, nên có $6$ ước. Phương án B thiếu $12$, A là các bội của $12$, D thiếu $1$.
 
-::mc
+::mc NB
 Số nào sau đây chia hết cho cả $2$ và $5$?
 A. $4125$.
 B. $3128$.
@@ -324,7 +324,7 @@ D. $3460$.
 ::key D
 $3460$ tận cùng $0$ nên chia hết cho cả $2$ và $5$. Phương án A chỉ chia hết cho $5$, B chỉ chia hết cho $2$, C không chia hết cho cả hai.
 
-::mc
+::mc TH
 Số $1011$ chia hết cho số nào trong các số sau?
 A. $3$.
 B. $2$.
@@ -333,7 +333,7 @@ D. $9$.
 ::key A
 Tổng các chữ số là $1+0+1+1=3$ chia hết cho $3$ nhưng không chia hết cho $9$. Tận cùng $1$ nên không chia hết cho $2$ và $5$.
 
-::mc
+::mc TH
 Thay $*$ bởi chữ số nào thì số $\overline{34*}$ chia hết cho $9$?
 A. $0$.
 B. $2$.
@@ -342,7 +342,7 @@ D. $7$.
 ::key B
 $3+4+*=7+*$ phải chia hết cho $9$ nên $*=2$ (số $342=9\times38$). Phương án A, C, D không làm tổng chia hết cho $9$.
 
-::tf
+::tf NB TH TH TH
 Về quan hệ chia hết.
 a) $0$ là bội của $7$.
 b) $1011\vdots3$.
@@ -351,12 +351,12 @@ d) Vì $7+5=12$ chia hết cho $6$ nên $7$ chia hết cho $6$.
 ::key Đ Đ S S
 a) Đúng: $0=7\times0$. b) Đúng: tổng chữ số bằng $3$. c) Sai: tổng chữ số $3$ không chia hết cho $9$. d) Sai: $7=6\times1+1$.
 
-::sa
+::sa TH
 Số $20$ có bao nhiêu ước?
 ::key 6
 $\text{Ư}(20)=\{1;2;4;5;10;20\}$.
 
-::sa
+::sa TH
 Thay $*$ bởi chữ số nào để $\overline{47*}$ chia hết cho $9$?
 ::key 7
 $4+7+*=11+*$ chia hết cho $9$ nên $*=7$.

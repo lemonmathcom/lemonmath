@@ -328,7 +328,7 @@ Tổng các chữ số là $4+a+5=9+a$. Để chia hết cho $9$ thì $a$ phải
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số "hai triệu ba trăm linh năm nghìn bốn trăm" viết là
 A. $2\,350\,400$.
 B. $2\,035\,400$.
@@ -337,7 +337,7 @@ D. $2\,305\,040$.
 ::key C
 Hai triệu là $2$, ba trăm linh năm nghìn là $305$ nghìn, bốn trăm là $400$: $2\,305\,400$.
 
-::mc
+::mc TH
 Làm tròn số $3\,467\,000$ đến hàng trăm nghìn được
 A. $3\,400\,000$.
 B. $3\,460\,000$.
@@ -346,7 +346,7 @@ D. $3\,500\,000$.
 ::key D
 Chữ số hàng chục nghìn là $6\geq5$ nên tăng chữ số hàng trăm nghìn $4$ thêm $1$ thành $5$: $3\,500\,000$.
 
-::mc
+::mc TH
 Giá trị của biểu thức $20-18:3+4\times2$ là
 A. $22$.
 B. $30$.
@@ -355,7 +355,7 @@ D. $14$.
 ::key A
 $18:3=6$ và $4\times2=8$, nên $20-6+8=22$. Phải nhân, chia trước rồi mới cộng, trừ từ trái sang phải.
 
-::mc
+::mc TH
 Số nào sau đây chia hết cho cả $2$ và $9$?
 A. $4\,325$.
 B. $4\,320$.
@@ -364,7 +364,7 @@ D. $4\,322$.
 ::key B
 $4\,320$ tận cùng bằng $0$ và có tổng các chữ số bằng $9$. Phương án A là số lẻ, phương án C lẻ và có tổng chữ số $12$, phương án D có tổng chữ số $11$.
 
-::tf
+::tf NB TH NB TH
 Em xét số $4\,320$.
 a) Tổng các chữ số của $4\,320$ bằng $10$.
 b) $4\,320$ chia hết cho $9$.
@@ -373,12 +373,12 @@ d) Làm tròn $4\,320$ đến hàng nghìn được $5\,000$.
 ::key S Đ Đ S
 a) Sai: $4+3+2+0=9$. b) Đúng: tổng chữ số bằng $9$. c) Đúng: tận cùng là $0$. d) Sai: chữ số hàng trăm là $3<5$ nên được $4\,000$.
 
-::sa
+::sa VD
 Tính $125\times8-360:6$.
 ::key 940
 $125\times8=1\,000$ và $360:6=60$, nên $1\,000-60=940$.
 
-::sa
+::sa VD
 Một kho có $5\,000$ kg gạo. Cửa hàng bán $3$ lần, mỗi lần $1\,250$ kg gạo. Trong kho còn lại bao nhiêu ki-lô-gam gạo?
 ::key 1250
 Số gạo đã bán là $1\,250\times3=3\,750$ (kg). Số gạo còn lại là $5\,000-3\,750=1\,250$ (kg).

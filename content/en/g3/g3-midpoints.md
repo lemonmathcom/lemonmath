@@ -313,7 +313,7 @@ $AM=16\div2=8$ (cm). $N$ is the midpoint of $AM$, so $AN=NM=8\div2=4$ (cm). $M$ 
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $M$ is the midpoint of the line segment $AB=14$ cm. The length of $AM$ is
 A. $28$ cm.
 B. $7$ cm.
@@ -322,7 +322,7 @@ D. $12$ cm.
 ::key B
 $AM=14\div2=7$ cm. Option A is the mistake of multiplying $14\times2$, and option C forgets to halve.
 
-::mc
+::mc TH
 $M$ is the midpoint of the line segment $CD$ and $MC=6$ cm. The length of $CD$ is
 A. $3$ cm.
 B. $6$ cm.
@@ -331,7 +331,7 @@ D. $36$ cm.
 ::key C
 $CD=6\times2=12$ cm. Option A is the mistake of halving instead of doubling.
 
-::mc
+::mc NB
 On a straight line there are four points $E$, $F$, $G$, $H$ in this order from left to right. Which points are between $E$ and $H$?
 A. Only $F$.
 B. $F$ and $G$.
@@ -340,7 +340,7 @@ D. No point.
 ::key B
 Going from $E$ to $H$ we pass $F$ and then $G$. Option A misses $G$.
 
-::mc
+::mc NB
 Point $M$ is the midpoint of the line segment $AB$ when
 A. $M$ is between $A$ and $B$.
 B. $MA=MB$.
@@ -349,7 +349,7 @@ D. $AB=2$ cm.
 ::key C
 We need both conditions: between, and the same distance from both ends. Options A and B each give only one condition.
 
-::tf
+::tf NB TH TH TH
 $M$ is the midpoint of the line segment $AB=18$ cm.
 a) $AM=MB$.
 b) $AM=9$ cm.
@@ -358,12 +358,12 @@ d) $MB=18$ cm.
 ::key T T T F
 a) True: $M$ is the midpoint. b) True: $18\div2=9$. c) True: $2\times9=18$. d) False: $MB=9$ cm.
 
-::sa
+::sa TH
 $M$ is the midpoint of the line segment $AB=26$ cm. Find $AM$ (unit: cm).
 ::key 13
 $AM=26\div2=13$ (cm).
 
-::sa
+::sa TH
 The school is the midpoint of the road from An's house to Binh's house, which is $18$ km long. How many kilometres is it from An's house to the school?
 ::key 9
 $18\div2=9$ (km).

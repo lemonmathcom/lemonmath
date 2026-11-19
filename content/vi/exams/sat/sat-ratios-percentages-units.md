@@ -241,7 +241,7 @@ $12=0{,}2(40+w)\iff 60=40+w\iff w=20$. Thêm 20 lít nước: dung dịch mới 
 :::
 
 :::quiz
-::mc
+::mc TH
 Hai số có tỉ số $2:3$ và tổng bằng 45. Số lớn hơn là
 A. $18$
 B. $27$
@@ -250,7 +250,7 @@ D. $15$
 ::key B
 Mỗi phần là $45:5=9$, nên số lớn hơn là $3\cdot9=27$. Phương án A là số nhỏ hơn.
 
-::mc
+::mc NB
 40% của 65 bằng
 A. $26$
 B. $16$
@@ -259,7 +259,7 @@ D. $2{,}6$
 ::key A
 $0{,}4\cdot65=26$. Phương án C là 60% của 65.
 
-::mc
+::mc TH
 Một đại lượng tăng từ 50 lên 65. Phần trăm tăng là
 A. $15\%$
 B. $23\%$
@@ -268,7 +268,7 @@ D. $130\%$
 ::key C
 $\dfrac{15}{50}=0{,}3$. Phương án B chia cho $65$; phương án D là tỉ số $\dfrac{65}{50}$.
 
-::mc
+::mc TH
 Một người đi xe đạp với tốc độ 15 mét mỗi giây. Tốc độ đó bằng bao nhiêu ki-lô-mét mỗi giờ?
 A. $4{,}2$
 B. $25$
@@ -277,7 +277,7 @@ D. $54$
 ::key D
 $15\cdot\dfrac{3.600}{1.000}=15\cdot3{,}6=54$. Phương án A lại chia cho $3{,}6$.
 
-::tf
+::tf TH TH VD NB
 Một đôi giày giá 120 đô la đang được giảm giá 25%.
 a) Giá sau khi giảm là 90 đô la.
 b) Số tiền được giảm là 25 đô la.
@@ -286,12 +286,12 @@ d) Giá sau giảm bằng 75% giá ban đầu.
 ::key Đ S S Đ
 a) Đúng: $120\cdot0{,}75=90$. b) Sai: số tiền được giảm là $30$ đô la. c) Sai: $90\cdot1{,}25=112{,}5$. d) Đúng: $1-0{,}25=0{,}75$.
 
-::sa
+::sa TH
 12 bằng bao nhiêu phần trăm của 48?
 ::key 25
 $\dfrac{12}{48}=0{,}25=25\%$.
 
-::sa
+::sa TH
 Trên bản đồ, 1 xăng-ti-mét ứng với 4 ki-lô-mét. Hai hồ nước cách nhau 6,5 xăng-ti-mét trên bản đồ. Khoảng cách thực giữa chúng là bao nhiêu ki-lô-mét?
 ::key 26
 $6{,}5\cdot4=26$ ki-lô-mét.

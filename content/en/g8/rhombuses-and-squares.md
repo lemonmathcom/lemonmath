@@ -418,7 +418,7 @@ So $AE=BF$ and $AE\perp BF$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A rhombus has side $6$ cm. Its perimeter is
 A. $12$ cm.
 B. $24$ cm.
@@ -427,7 +427,7 @@ D. $18$ cm.
 ::key B
 A rhombus has four equal sides, so the perimeter is $4\cdot6=24$ cm. A is $2\cdot6$, C is $6^2$ and D is $3\cdot6$.
 
-::mc
+::mc TH
 A rhombus has diagonals of $6$ cm and $8$ cm. Its side is
 A. $10$ cm.
 B. $7$ cm.
@@ -436,7 +436,7 @@ D. $14$ cm.
 ::key C
 Half of the diagonals are $3$ cm and $4$ cm, so the side is $\sqrt{3^2+4^2}=5$ cm. B adds the diagonals and halves the sum, A is the length of one diagonal plus $2$, and D adds the diagonals.
 
-::mc
+::mc TH
 Which quadrilateral is certainly a rhombus?
 A. A quadrilateral with perpendicular diagonals.
 B. A quadrilateral with two equal adjacent sides.
@@ -445,7 +445,7 @@ D. A parallelogram with perpendicular diagonals.
 ::key D
 A parallelogram with perpendicular diagonals is a rhombus. A and B can be true of a kite, and C is the test for a rectangle.
 
-::mc
+::mc NB
 Each diagonal of a square makes an angle with the sides equal to
 A. $45^\circ$.
 B. $60^\circ$.
@@ -454,7 +454,7 @@ D. $90^\circ$.
 ::key A
 A diagonal bisects a right angle, so each angle is $90^\circ:2=45^\circ$. D is the angle at each vertex of the square.
 
-::tf
+::tf TH NB TH NB
 Rhombus $ABCD$ has side $6$ cm and $\angle A=60^\circ$.
 a) $BD=6$ cm.
 b) $\angle B=120^\circ$.
@@ -463,12 +463,12 @@ d) $AC\perp BD$.
 ::key T T F T
 a) True: triangle $ABD$ is equilateral. b) True: $180^\circ-60^\circ=120^\circ$. c) False: $AC=6\sqrt3\ne6$. d) True: the diagonals of a rhombus are perpendicular.
 
-::sa
+::sa VD
 A rhombus has diagonals of $24$ cm and $10$ cm. Find its side (cm).
 ::key 13
 Half of the diagonals are $12$ cm and $5$ cm, so the side is $\sqrt{144+25}=13$ cm.
 
-::sa
+::sa TH
 A square has perimeter $36$ cm. Find its side (cm).
 ::key 9
 The side of the square is $36:4=9$ cm.

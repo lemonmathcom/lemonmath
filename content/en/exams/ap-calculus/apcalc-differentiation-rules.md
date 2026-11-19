@@ -264,7 +264,7 @@ Substituting $b=2a$ into $a=b-2$ gives $a=2a-2$, so $a=2$ and $b=4$. Check: both
 :::
 
 :::quiz
-::mc
+::mc NB
 What is $\dfrac{d}{dx}\left(x^5\right)$?
 A. $5x^4$
 B. $x^4$
@@ -273,7 +273,7 @@ D. $\dfrac{x^6}{6}$
 ::key A
 The power rule. Option D is an antiderivative.
 
-::mc
+::mc NB
 What is $\dfrac{d}{dx}\left(\cos x\right)$?
 A. $\sin x$
 B. $-\cos x$
@@ -282,7 +282,7 @@ D. $\sec^2x$
 ::key C
 The derivative of cosine is negative sine.
 
-::mc
+::mc TH
 For $f(x)=x^2\ln x$, what is $f'(1)$?
 A. $0$
 B. $1$
@@ -291,7 +291,7 @@ D. $e$
 ::key B
 $f'(x)=2x\ln x+x$, so $f'(1)=0+1=1$.
 
-::mc
+::mc TH
 What is the slope of the tangent line to $y=\sqrt x$ at $x=4$?
 A. $2$
 B. $\dfrac12$
@@ -300,7 +300,7 @@ D. $\dfrac14$
 ::key D
 $y'=\dfrac{1}{2\sqrt x}=\dfrac14$ at $x=4$.
 
-::tf
+::tf NB TH TH TH
 Let $g(x)=x^3-3x$.
 a) $g'(x)=3x^2-3$.
 b) $g'(1)=0$.
@@ -309,12 +309,12 @@ d) $g$ is not differentiable at $x=0$.
 ::key T T T F
 a) True. b) True. c) True: $12-3=9$. d) False: a polynomial is differentiable everywhere.
 
-::sa
+::sa TH
 Evaluate $\displaystyle\lim_{h\to0}\frac{(3+h)^2-9}{h}$.
 ::key 6
 This is $f'(3)$ for $f(x)=x^2$: $2\cdot3=6$.
 
-::sa
+::sa VD
 For $f(x)=\dfrac{x}{x+1}$, find $f'(1)$. Give your answer as a decimal.
 ::key 0.25
 $f'(x)=\dfrac{(x+1)-x}{(x+1)^2}=\dfrac{1}{(x+1)^2}$, so $f'(1)=\dfrac14=0.25$.

@@ -368,7 +368,7 @@ $A\cap B=\{\text{NNS}; \text{NSN}; \text{NNN}\}$ có $3$ phần tử. $P(A\mid B
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho $P(A)=0{,}6$, $P(B)=0{,}5$ và $P(A\cap B)=0{,}2$. Giá trị $P(A\mid B)$ bằng
 A. $0{,}3$.
 B. $0{,}4$.
@@ -377,7 +377,7 @@ D. $0{,}1$.
 ::key B
 $P(A\mid B)=\dfrac{0{,}2}{0{,}5}=0{,}4$. A là $P(A)P(B)$, C chia cho $P(A)$ (đó là $P(B\mid A)$), D nhân $P(A\cap B)$ với $P(B)$.
 
-::mc
+::mc TH
 Gieo một con xúc xắc cân đối. Biết xuất hiện mặt chẵn, xác suất xuất hiện mặt $6$ chấm là
 A. $\dfrac16$.
 B. $\dfrac12$.
@@ -386,7 +386,7 @@ D. $\dfrac1{12}$.
 ::key C
 Không gian mẫu thu hẹp còn $\{2; 4; 6\}$, nên xác suất là $\dfrac13$. A bỏ qua điều kiện, B là xác suất của mặt chẵn, D nhân $\dfrac16\cdot\dfrac12$.
 
-::mc
+::mc TH
 Một hộp có $3$ bi đỏ và $2$ bi xanh. Lấy lần lượt hai viên không hoàn lại. Xác suất cả hai viên đều đỏ là
 A. $\dfrac{9}{25}$.
 B. $\dfrac{3}{10}$.
@@ -395,7 +395,7 @@ D. $\dfrac12$.
 ::key B
 $\dfrac35\cdot\dfrac24=\dfrac3{10}$. A tính như có hoàn lại, C chỉ là xác suất viên đầu đỏ, D chỉ là $P(\text{đỏ lần 2}\mid\text{đỏ lần 1})$.
 
-::mc
+::mc TH
 Trong $100$ người được hỏi, $40$ người dùng ứng dụng X và $30$ người trong số đó hài lòng; $60$ người không dùng X và $30$ người trong số đó hài lòng. Chọn ngẫu nhiên một người hài lòng, xác suất người đó dùng ứng dụng X là
 A. $\dfrac34$.
 B. $\dfrac{3}{10}$.
@@ -404,7 +404,7 @@ D. $\dfrac35$.
 ::key C
 Có $60$ người hài lòng, trong đó $30$ người dùng X: $\dfrac{30}{60}=\dfrac12$. A là $P(\text{hài lòng}\mid\text{dùng X})$, B chia cho cả $100$ người, D là xác suất hài lòng.
 
-::tf
+::tf NB TH TH TH
 Cho hai biến cố độc lập $A$, $B$ với $P(A)=0{,}4$ và $P(B)=0{,}5$.
 a) $P(A\cap B)=0{,}2$.
 b) $P(A\mid B)=0{,}4$.
@@ -413,12 +413,12 @@ d) $P(A\cup B)=0{,}7$.
 ::key Đ Đ S Đ
 a) Đúng: $0{,}4\cdot0{,}5$. b) Đúng: độc lập nên $P(A\mid B)=P(A)$. c) Sai: $P(\overline{A}\mid B)=1-0{,}4=0{,}6$. d) Đúng: $0{,}4+0{,}5-0{,}2=0{,}7$.
 
-::sa
+::sa VD
 Gieo hai con xúc xắc cân đối. Biết tổng số chấm bằng $7$, tính xác suất có một con xuất hiện mặt $1$ chấm (làm tròn đến hàng phần trăm).
 ::key 0,33
 Tổng bằng $7$ có $6$ kết quả, trong đó $(1; 6)$ và $(6; 1)$ có mặt $1$: $\dfrac26=\dfrac13\approx0{,}33$.
 
-::sa
+::sa VD
 Xét nghiệm $500$ người: $20$ người mắc bệnh, trong đó $18$ người dương tính; $480$ người không mắc bệnh, trong đó $24$ người dương tính. Chọn ngẫu nhiên một người dương tính, tính xác suất người đó mắc bệnh (làm tròn đến hàng phần trăm).
 ::key 0,43
 Có $18+24=42$ người dương tính, $18$ người mắc bệnh: $\dfrac{18}{42}=\dfrac37\approx0{,}43$.

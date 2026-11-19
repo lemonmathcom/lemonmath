@@ -487,7 +487,7 @@ So a), b) and c) are proved.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Two right-angled triangles are congruent if they have
 A. two corresponding acute angles equal.
 B. equal hypotenuses.
@@ -496,7 +496,7 @@ D. equal perimeters.
 ::key C
 This is the HL condition. A gives similar shape only; B and D do not give enough information.
 
-::mc
+::mc TH
 Triangle $ABC$ is right-angled at $A$ and triangle $DEF$ is right-angled at $D$, with $AB=DE$ and $AC=DF$. The triangles are congruent by
 A. LL (two legs).
 B. HA (hypotenuse–acute angle).
@@ -505,7 +505,7 @@ D. nothing: there is not enough information.
 ::key A
 $AB$, $AC$ and $DE$, $DF$ are all legs, and the right angle between them is equal (SAS).
 
-::mc
+::mc TH
 Triangle $ABC$ is right-angled at $A$ and triangle $MNP$ is right-angled at $M$, with $BC=NP$ and $\angle C=\angle P$. Which statement is correct?
 A. $\triangle ABC\equiv\triangle MPN$.
 B. $\triangle ABC\equiv\triangle NMP$.
@@ -514,7 +514,7 @@ D. $\triangle ABC\equiv\triangle MNP$.
 ::key D
 Since $\angle C=\angle P$, $C$ corresponds to $P$, so $B$ corresponds to $N$ and $A$ to $M$; the triangles are congruent by HA.
 
-::mc
+::mc TH
 Triangle $ABC$ is right-angled at $A$ and triangle $DEF$ is right-angled at $D$, with $\angle B=\angle E$ and $\angle C=\angle F$. Which statement is correct?
 A. $\triangle ABC\equiv\triangle DEF$ (LA).
 B. There is not enough information to conclude that the triangles are congruent.
@@ -523,7 +523,7 @@ D. $AB=DE$.
 ::key B
 Two pairs of equal acute angles only tell us the triangles have the same shape; we still need one pair of equal sides.
 
-::tf
+::tf TH VD TH TH
 Triangle $ABC$ is right-angled at $A$ with $AB=6$ cm and $BC=10$ cm. Triangle $MNP$ is right-angled at $M$ with $MN=6$ cm and $NP=10$ cm. Also $AC=8$ cm. Decide whether each statement is true or false.
 a) The triangles are congruent by the HL condition.
 b) $MP=6$ cm.
@@ -532,12 +532,12 @@ d) $\angle C=90^\circ$.
 ::key T F T F
 a) True: $BC=NP$ (hypotenuses) and $AB=MN$ (legs). b) False: $MP=AC=8$ cm. c) True: corresponding angles. d) False: the right angle is at $A$, so $\angle C$ is acute.
 
-::sa
+::sa VD
 In the aerial problem, change the measurement to $OA=2.4$ m. Find $OB$ (in metres).
 ::key 2.4
 $\triangle OAT\equiv\triangle OBT$ (HL), so $OB=OA=2.4$ m.
 
-::sa
+::sa VD
 Triangle $ABC$ is right-angled at $A$ and triangle $DEF$ is right-angled at $D$, with $BC=EF=10$ cm and $\angle B=\angle E$. Given that $AC=6$ cm, find $DF$ (in cm).
 ::key 6
 $\triangle ABC\equiv\triangle DEF$ (HA), so $DF=AC=6$ cm.

@@ -383,7 +383,7 @@ $$10+\frac{\frac{20+x}{4}-4}{x}\cdot10=13.75\iff\frac{x+4}{4x}\cdot10=3.75\iff 1
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The times (minutes) that $40$ passengers waited for a bus are given in the table. The range of these grouped data is
 
 | Time (minutes) | $[0, 5)$ | $[5, 10)$ | $[10, 15)$ | $[15, 20)$ | $[20, 25)$ |
@@ -397,7 +397,7 @@ D. $10$ minutes.
 ::key C
 $R=u_{k+1}-u_1=25-0=25$. Option B uses the left end of the last class, option A is the width of one class, and option D is the difference of two frequencies, $14-4$.
 
-::mc
+::mc TH
 For the data in Question 1, the class containing the third quartile $Q_3$ is
 A. $[5, 10)$.
 B. $[10, 15)$.
@@ -406,7 +406,7 @@ D. $[20, 25)$.
 ::key B
 The cumulative frequencies are $6$, $20$, $32$, $36$, $40$, and $\frac{3n}{4}=30$ lies between $20$ and $32$, so $Q_3$ is in the class $[10, 15)$ (in fact $Q_3=10+\dfrac{30-20}{12}\cdot5\approx14.17$). Option A is the class with the largest frequency; options C and D are classes that come after the 30th value.
 
-::mc
+::mc TH
 For the data in Question 1, the best approximation to the first quartile $Q_1$ is
 A. $8.33$.
 B. $5.29$.
@@ -415,7 +415,7 @@ D. $6.43$.
 ::key D
 $\frac n4=10$ lies in the class $[5, 10)$ with $C=6$, $n_m=14$: $Q_1=5+\dfrac{10-6}{14}\cdot5\approx6.43$. Option B forgets to multiply by the width $5$, option C includes the quartile's own class in $C$, and option A uses the class $[0, 5)$ by mistake.
 
-::mc
+::mc NB
 By the interquartile range rule, a value $x$ of a data set is regarded as an outlier if
 A. $x<Q_1-1.5\,\Delta_Q$ or $x>Q_3+1.5\,\Delta_Q$.
 B. $x<Q_1$ or $x>Q_3$.
@@ -424,7 +424,7 @@ D. $Q_1-1.5\,\Delta_Q<x<Q_3+1.5\,\Delta_Q$.
 ::key A
 An outlier lies further from the middle of the data than $1.5$ times the interquartile range. Option B would make half of the data outliers; option D describes the values that are not outliers.
 
-::tf
+::tf NB TH TH VD
 The $100$ m running times (seconds) of $32$ students are given in the table.
 
 | Time (seconds) | $[12, 14)$ | $[14, 16)$ | $[16, 18)$ | $[18, 20)$ | $[20, 22)$ |
@@ -438,7 +438,7 @@ d) By the $1.5\,\Delta_Q$ rule, a time of $24$ seconds is an outlier.
 ::key T T F T
 a) True: $22-12=10$. b) True: the cumulative frequencies are $4$, $12$, $22$, $30$, $32$, and $Q_1=14+\dfrac{8-4}{8}\cdot2=15$. c) False: $\frac{3n}{4}=24$ lies between $22$ and $30$, so $Q_3$ is in the class $[18, 20)$: $Q_3=18+\dfrac{24-22}{8}\cdot2=18.5$. d) True: $\Delta_Q=18.5-15=3.5$ and $Q_3+1.5\cdot3.5=23.75<24$.
 
-::sa
+::sa VD
 The monthly electricity use (kWh) of $80$ households is given in the table. Find the interquartile range of the data, giving your answer to 1 decimal place.
 
 | Electricity use (kWh) | $[50, 100)$ | $[100, 150)$ | $[150, 200)$ | $[200, 250)$ | $[250, 300)$ |
@@ -448,7 +448,7 @@ The monthly electricity use (kWh) of $80$ households is given in the table. Find
 ::key 82.5
 The cumulative frequencies are $8$, $28$, $56$, $72$, $80$. $Q_1=100+\dfrac{20-8}{20}\cdot50=130$ and $Q_3=200+\dfrac{60-56}{16}\cdot50=212.5$, so $\Delta_Q=82.5$ kWh.
 
-::sa
+::sa VD
 For the data in the previous question, by the $1.5\,\Delta_Q$ rule, above how many kWh a month is a household's electricity use regarded as an outlier? Give your answer to the nearest whole number.
 ::key 336
 The upper limit is $Q_3+1.5\,\Delta_Q=212.5+1.5\cdot82.5=336.25$, which rounds to $336$ kWh.

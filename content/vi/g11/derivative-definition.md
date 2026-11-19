@@ -410,7 +410,7 @@ Suy ra $2f'(0)=0$, tức $f'(0)=0$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Cho $f(x)=x^2+2x$. Giá trị $f'(1)$ bằng
 A. $4$.
 B. $2$.
@@ -419,7 +419,7 @@ D. $5$.
 ::key A
 $\dfrac{x^2+2x-3}{x-1}=\dfrac{(x-1)(x+3)}{x-1}=x+3\to4$. Phương án C là $f(1)$, B chỉ lấy hệ số của $2x$, D cộng nhầm.
 
-::mc
+::mc VD
 Tiếp tuyến của đồ thị $y=x^3$ tại điểm có hoành độ $1$ có phương trình
 A. $y=3x+2$.
 B. $y=3x-2$.
@@ -428,7 +428,7 @@ D. $y=-3x+4$.
 ::key B
 $f(1)=1$ và $f'(1)=3$ nên $y=3(x-1)+1=3x-2$. Phương án A sai dấu hệ số tự do, C dùng hệ số góc $1$, D dùng hệ số góc $-3$.
 
-::mc
+::mc TH
 Hàm số $f(x)=|x|$ có tính chất nào sau đây?
 A. Có đạo hàm tại $0$ và $f'(0)=1$.
 B. Có đạo hàm tại $0$ và $f'(0)=0$.
@@ -437,7 +437,7 @@ D. Không liên tục tại $0$.
 ::key C
 $|x|$ liên tục tại $0$, nhưng hai giới hạn một bên của tỉ số số gia là $1$ và $-1$ nên không có đạo hàm. Phương án B, A nhầm về giá trị, D nhầm về tính liên tục.
 
-::mc
+::mc TH
 Một chất điểm có quãng đường $s(t)=t^2+4t$ (mét) sau $t$ giây. Vận tốc tức thời tại $t=2$ bằng
 A. $4$ m/s.
 B. $6$ m/s.
@@ -446,7 +446,7 @@ D. $8$ m/s.
 ::key D
 $\dfrac{t^2+4t-12}{t-2}=\dfrac{(t-2)(t+6)}{t-2}=t+6\to8$. Phương án A chỉ lấy hệ số $4$ của $4t$, còn B và C do rút gọn tỉ số sai.
 
-::tf
+::tf TH TH TH TH
 Cho hàm số $h(x)=\begin{cases}x^2&\text{nếu }x\le0\\x&\text{nếu }x>0.\end{cases}$ Xét tính đúng sai của các mệnh đề sau:
 a) $h$ liên tục tại $x=0$.
 b) Giới hạn của $\dfrac{h(x)-h(0)}{x}$ khi $x\to0^+$ bằng $1$.
@@ -455,12 +455,12 @@ d) $h$ có đạo hàm tại $x=0$.
 ::key Đ Đ S S
 a) Đúng: $h(0)=0$, giới hạn hai bên đều bằng $0$. b) Đúng: $\dfrac{x-0}{x}=1$. c) Sai: $\dfrac{x^2}{x}=x\to0$. d) Sai: hai giới hạn một bên khác nhau ($1$ và $0$).
 
-::sa
+::sa VD
 Một vật có quãng đường $s(t)=3t^2+t$ mét sau $t$ giây (số liệu giả định). Tính vận tốc tức thời tại $t=5$ (đơn vị m/s).
 ::key 31
 $\dfrac{3t^2+t-80}{t-5}=\dfrac{(t-5)(3t+16)}{t-5}=3t+16\to31$.
 
-::sa
+::sa VD
 Tính hệ số góc của tiếp tuyến của đồ thị $y=\dfrac1x$ tại điểm có hoành độ $\dfrac14$.
 ::key -16
 $\dfrac{\frac1x-4}{x-\frac14}=\dfrac{\frac{1-4x}{x}}{x-\frac14}=\dfrac{-4\left(x-\frac14\right)}{x\left(x-\frac14\right)}=-\dfrac4x\to-16$.

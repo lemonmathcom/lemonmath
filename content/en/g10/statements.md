@@ -441,7 +441,7 @@ so $n^2$ leaves remainder $1$. Hence if $n^2$ is divisible by $3$, $n$ must be d
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of these is a statement?
 A. $x+2>5$.
 B. What a lovely day!
@@ -450,7 +450,7 @@ D. Have you done your homework?
 ::key C
 C claims something false, so it is a statement (a false one). A still depends on $x$, so it is only a statement with a variable; B is an exclamation and D is a question.
 
-::mc
+::mc TH
 The negation of "$\exists x\in\mathbb{R},\ x^2<2x$" is
 A. "$\forall x\in\mathbb{R},\ x^2>2x$".
 B. "$\forall x\in\mathbb{R},\ x^2\ge 2x$".
@@ -459,7 +459,7 @@ D. "$\exists x\in\mathbb{R},\ x^2>2x$".
 ::key B
 We change $\exists$ into $\forall$ and negate the property: the negation of "$<$" is "$\ge$" (not "$>$"). Option C forgets to change the quantifier.
 
-::mc
+::mc TH
 Which implication is **false**?
 A. If $3>2$ then $9>4$.
 B. If $2>3$ then $5$ is even.
@@ -468,7 +468,7 @@ D. If $4$ is even then $4$ is prime.
 ::key D
 $P\Rightarrow Q$ is false only when $P$ is true and $Q$ is false: in D, "$4$ is even" is true but "$4$ is prime" is false. In option B, $P$ is false, so the implication is still true.
 
-::mc
+::mc TH
 For a real number $x$, what kind of condition is "$x=2$" for "$x^2=4$"?
 A. Necessary but not sufficient.
 B. Sufficient but not necessary.
@@ -477,7 +477,7 @@ D. Neither necessary nor sufficient.
 ::key B
 $x=2\Rightarrow x^2=4$ is true, so "$x=2$" is sufficient. The other direction is false because $x=-2$ also gives $x^2=4$, so it is not necessary.
 
-::tf
+::tf NB TH TH TH
 Consider the statement with a variable $P(x)$: "$x^2-3x+2=0$", where $x\in\mathbb{R}$.
 a) $P(1)$ is a true statement.
 b) The statement "$\forall x\in\mathbb{R},\ P(x)$" is true.
@@ -486,12 +486,12 @@ d) "$x=2$" is a necessary condition for $P(x)$ to be true.
 ::key T F T F
 a) True: $1-3+2=0$. b) False: for $x=0$ we get $2\ne 0$ (one counter-example is enough). c) True: change $\exists$ into $\forall$ and "$=$" into "$\ne$". d) False: $P(1)$ is true but $1\ne 2$, so $P(x)\Rightarrow x=2$ is false.
 
-::sa
+::sa VDC
 How many natural numbers $n$ with $1\le n\le 30$ make the statement "$n^2+1$ is divisible by $5$" true?
 ::key 12
 $n^2+1$ is divisible by $5$ when $n$ leaves remainder $2$ or $3$ on division by $5$ (then $n^2$ leaves remainder $4$). Each block of $5$ consecutive numbers contains $2$ such numbers, so from $1$ to $30$ there are $6\cdot 2=12$.
 
-::sa
+::sa VDC
 Consider the claim "For every natural number $n$, the number $n^2+n+41$ is prime". Find the smallest natural number $n$ that is a counter-example to this claim.
 ::key 40
 For $n=40$: $40^2+40+41=40\cdot41+41=41^2=1681$, which is not prime. A computer check of $n=0, 1, \dots, 39$ gives primes every time, so $40$ is the smallest counter-example.

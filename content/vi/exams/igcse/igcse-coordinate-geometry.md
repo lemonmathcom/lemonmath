@@ -265,7 +265,7 @@ Vậy điểm cần tìm là $(3;\ 4)$, tâm đường tròn đi qua cả ba đi
 :::
 
 :::quiz
-::mc
+::mc NB
 Hệ số góc của $y=-3x+2$ là
 A. $2$
 B. $-3$
@@ -274,7 +274,7 @@ D. $-\dfrac13$
 ::key B
 Trong $y=mx+c$, $m$ là hệ số góc.
 
-::mc
+::mc TH
 Một đường thẳng có hệ số góc $\dfrac23$. Đường thẳng vuông góc với nó có hệ số góc
 A. $-\dfrac32$
 B. $\dfrac32$
@@ -283,7 +283,7 @@ D. $\dfrac23$
 ::key A
 Nghịch đảo đổi dấu.
 
-::mc
+::mc TH
 Trung điểm của $(2;\ 8)$ và $(6;\ 0)$ là
 A. $(8;\ 8)$
 B. $(2;\ 4)$
@@ -292,7 +292,7 @@ D. $(4;\ 8)$
 ::key C
 $\left(\dfrac{2+6}{2};\ \dfrac{8+0}{2}\right)$.
 
-::mc
+::mc TH
 Tung độ gốc của $2x+y=5$ là
 A. $2$
 B. $-2$
@@ -301,7 +301,7 @@ D. $5$
 ::key D
 $y=-2x+5$.
 
-::tf
+::tf NB TH NB TH
 Cho đường thẳng $y=2x-4$. Xét tính đúng sai của các mệnh đề sau:
 a) Hệ số góc là $2$.
 b) Đường thẳng đi qua $(2;\ 0)$.
@@ -310,12 +310,12 @@ d) Đường thẳng song song với $y=-2x$.
 ::key T T T F
 Hai đường song song cần hệ số góc bằng nhau.
 
-::sa
+::sa TH
 Tính khoảng cách từ $(0;\ 0)$ đến $(6;\ 8)$.
 ::key 10
 $\sqrt{36+64}=10$.
 
-::sa
+::sa TH
 Tìm hệ số góc của đường thẳng qua $(1;\ 3)$ và $(3;\ 11)$.
 ::key 4
 $\dfrac{11-3}{3-1}=4$.

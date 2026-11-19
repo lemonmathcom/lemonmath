@@ -375,7 +375,7 @@ So the expression equals $x$, and equals $7$ when $x=7$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The result of $\dfrac{4x^2}{9y}\cdot\dfrac{3y^2}{8x}$ is
 A. $\dfrac{xy}{6}$.
 B. $\dfrac{x}{6y}$.
@@ -384,7 +384,7 @@ D. $\dfrac{x^2y}{6}$.
 ::key A
 $\dfrac{12x^2y^2}{72xy}=\dfrac{xy}{6}$. A does not cancel all of $x$; B and C get the power of $y$ or the position of numerator and denominator wrong.
 
-::mc
+::mc NB
 The reciprocal of $\dfrac{x+1}{x-3}$ ($x\neq-1$) is
 A. $-\dfrac{x+1}{x-3}$.
 B. $\dfrac{x-3}{x+1}$.
@@ -393,7 +393,7 @@ D. $\dfrac{x-3}{x-1}$.
 ::key B
 The reciprocal swaps numerator and denominator. B is the opposite fraction, C changes the sign of the denominator without swapping, D has the wrong numerator.
 
-::mc
+::mc VD
 The result of $\dfrac{x}{x+1}\div\dfrac{x^2}{x^2-1}$ is
 A. $\dfrac{x^3}{(x+1)(x^2-1)}$.
 B. $\dfrac{x}{x-1}$.
@@ -402,7 +402,7 @@ D. $\dfrac{x+1}{x}$.
 ::key C
 $\dfrac{x}{x+1}\cdot\dfrac{(x-1)(x+1)}{x^2}=\dfrac{x-1}{x}$. A multiplies without turning the divisor upside down; B and D mix up the factors.
 
-::mc
+::mc TH
 For $x>2$, the product $\dfrac{x^2-4}{x}\cdot\dfrac{x}{x+2}$ equals
 A. $x+2$.
 B. $x^2-4$.
@@ -411,7 +411,7 @@ D. $x-2$.
 ::key D
 $\dfrac{(x-2)(x+2)x}{x(x+2)}=x-2$. A and C simplify wrongly, B is not simplified.
 
-::tf
+::tf TH TH TH TH
 Let $P=\dfrac{x^2-1}{x}\cdot\dfrac{x}{x+1}$ with $x\neq0$ and $x\neq-1$. Decide whether each statement is true or false.
 a) $P=x-1$.
 b) The value of $P$ at $x=3$ is $4$.
@@ -420,12 +420,12 @@ d) $P$ is defined for every $x$.
 ::key T F T F
 a) True: $\dfrac{(x-1)(x+1)x}{x(x+1)}=x-1$. b) False: $P=3-1=2$. c) True: $(x-1)\div(x-1)=1$. d) False: $P$ is not defined at $x=0$ and $x=-1$.
 
-::sa
+::sa VD
 Find the value of $\dfrac{x^2-4}{x}\cdot\dfrac{x}{x+2}$ at $x=5$.
 ::key 3
 The product equals $x-2=5-2=3$.
 
-::sa
+::sa VD
 Car A travels $120$ km in $x$ hours and car B travels $120$ km in $x+2$ hours. When $x=4$, how many times as fast as car B is car A?
 ::key 1.5
 $\dfrac{x+2}{x}=\dfrac64=1.5$.

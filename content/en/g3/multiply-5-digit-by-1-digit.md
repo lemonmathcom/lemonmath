@@ -370,7 +370,7 @@ $$98\,760+7=98\,767.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $46\,275\times2$ equals
 A. $82\,550$.
 B. $92\,540$.
@@ -379,7 +379,7 @@ D. $23\,137$.
 ::key C
 $5\times2=10$, write $0$ and regroup $1$; $7\times2=14$, add $1$ to make $15$, write $5$ and regroup $1$; $2\times2=4$, add $1$ to make $5$; $6\times2=12$, write $2$ and regroup $1$; $4\times2=8$, add $1$ to make $9$. Option A forgets the regrouping into the ten-thousands, option B forgets the regrouping from the ones, and option D is the division.
 
-::mc
+::mc TH
 $84\,000\div7$ equals
 A. $12$.
 B. $1\,200$.
@@ -388,7 +388,7 @@ D. $12\,000$.
 ::key D
 $84\div7=12$, then bring down three $0$s: $0\div7=0$ three times. So the quotient is $12\,000$. Option B is missing a $0$, option C has an extra $0$, and option A is missing three $0$s.
 
-::mc
+::mc TH
 A shop sells $13\,250$ exercise books every day. In $7$ days the shop sells
 A. $92\,750$ books.
 B. $72\,750$ books.
@@ -397,7 +397,7 @@ D. $13\,257$ books.
 ::key A
 "In $7$ days" means multiply: $13\,250\times7=92\,750$. Option B forgets the regrouping into the ten-thousands, option C is the division, and option D is the addition.
 
-::mc
+::mc TH
 $36\,054\div6$ equals
 A. $609$.
 B. $6\,009$.
@@ -406,7 +406,7 @@ D. $60\,009$.
 ::key B
 $36\div6=6$; $0\div6=0$, write $0$; $5\div6=0$ (remainder $5$), write $0$; $54\div6=9$. So the quotient is $6\,009$. Option A leaves out a $0$, option C puts the $0$ in the wrong place, and option D has an extra digit.
 
-::tf
+::tf NB TH TH NB
 Look at the division $71\,250\div7=10\,178$ (remainder $4$).
 a) The quotient has five digits.
 b) The remainder $4$ is smaller than the divisor $7$.
@@ -415,12 +415,12 @@ d) This is an exact division.
 ::key T T T F
 a) True: $10\,178$ has five digits. b) True: $4<7$. c) True: $10\,178\times7=71\,246$ and $71\,246+4=71\,250$. d) False: the remainder is $4$, not $0$.
 
-::sa
+::sa TH
 Find the remainder of the division $25\,000\div6$.
 ::key 4
 $25\,000\div6=4\,166$ (remainder $4$), because $4\,166\times6=24\,996$ and $25\,000-24\,996=4$.
 
-::sa
+::sa VD
 Find the thousands digit of the product $21\,304\times3$.
 ::key 3
 $21\,304\times3=63\,912$. The thousands digit of $63\,912$ is $3$.

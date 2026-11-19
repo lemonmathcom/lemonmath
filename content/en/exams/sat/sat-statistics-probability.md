@@ -274,7 +274,7 @@ $\dfrac{50+x}{5}=x\iff50+x=5x\iff x=12.5$. This lies between $8$ and $15$, so th
 :::
 
 :::quiz
-::mc
+::mc TH
 What is the median of the data set 3, 9, 4, 7, 12, 5?
 A. $5$
 B. $6$
@@ -283,7 +283,7 @@ D. $6.7$
 ::key B
 Ordered: 3, 4, 5, 7, 9, 12. The median is $\dfrac{5+7}{2}=6$. Option D is the mean, about $6.7$.
 
-::mc
+::mc NB
 What is the mean of 4, 8, 10 and 14?
 A. $8$
 B. $10$
@@ -292,7 +292,7 @@ D. $36$
 ::key C
 $\dfrac{36}{4}=9$. Option D is the sum.
 
-::mc
+::mc NB
 A box contains 3 red, 5 white and 2 black balls. One ball is chosen at random. What is the probability that it is white?
 A. $\dfrac12$
 B. $\dfrac15$
@@ -301,7 +301,7 @@ D. $\dfrac{1}{10}$
 ::key A
 $\dfrac{5}{10}=\dfrac12$.
 
-::mc
+::mc TH
 A random sample of 300 adults in a city was asked whether they use public transport. Of those, 45% said yes. Which conclusion is best supported?
 A. Exactly 45% of adults in the country use public transport.
 B. Public transport causes 45% of adults to travel less.
@@ -310,7 +310,7 @@ D. About 45% of adults in the city use public transport.
 ::key D
 A random sample supports an estimate for the population it came from, the adults in that city, and only approximately.
 
-::tf
+::tf NB TH TH TH
 Use the two-way table of club choices in this lesson.
 a) There are 80 students in total.
 b) The probability that a randomly chosen student is in the math club is $\dfrac12$.
@@ -319,12 +319,12 @@ d) The probability that a math club member chosen at random is in grade 10 is $0
 ::key T T T F
 a) True. b) True: $\dfrac{40}{80}$. c) True: $\dfrac{12}{30}=0.4$. d) False: $\dfrac{18}{40}=0.45$.
 
-::sa
+::sa VD
 The mean of 7 numbers is 10. When one of the numbers, 22, is removed, what is the mean of the remaining numbers?
 ::key 8
 $\dfrac{70-22}{6}=\dfrac{48}{6}=8$.
 
-::sa
+::sa TH
 Use the two-way table of club choices. A math club member is chosen at random. What is the probability that the student is in grade 11? Give your answer as a decimal.
 ::key 0.55
 $\dfrac{22}{40}=0.55$.

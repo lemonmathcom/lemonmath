@@ -257,7 +257,7 @@ Face $4$: $12-5-3=4$ (times). Odd faces: $20-12=8$ (times).
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A coin is tossed $10$ times and heads comes up $6$ times. Tails comes up
 A. $6$ times.
 B. $4$ times.
@@ -266,7 +266,7 @@ D. $10$ times.
 ::key B
 $10-6=4$. Option C adds instead of subtracting.
 
-::mc
+::mc NB
 In the list R, B, R, R, B, how many times does R appear?
 A. $2$ times.
 B. $3$ times.
@@ -275,7 +275,7 @@ D. $4$ times.
 ::key B
 R is in tosses $1$, $3$ and $4$, so $3$ times. Option C is the number of trials.
 
-::mc
+::mc TH
 The times for all events always add up to
 A. the number of trials.
 B. the greatest count.
@@ -284,7 +284,7 @@ D. $0$.
 ::key A
 Each trial gives exactly one result. Option B mixes this up with the greatest value.
 
-::mc
+::mc TH
 Outside a school gate, $12$ bicycles, $9$ motorbikes and $5$ cars went past. How many vehicles went past in all?
 A. $26$.
 B. $14$.
@@ -293,7 +293,7 @@ D. $12$.
 ::key A
 $12+9+5=26$. Option B leaves out the bicycles, and C leaves out the motorbikes.
 
-::tf
+::tf NB NB TH TH
 A dice is rolled $20$ times. Faces $1$ to $6$ come up $3, 4, 2, 5, 3, 3$ times.
 a) Face $4$ came up $5$ times.
 b) Face $3$ came up the fewest times.
@@ -302,12 +302,12 @@ d) The even faces came up $10$ times altogether.
 ::key T T T F
 a) True. b) True: $2$ is the fewest. c) True: $3+4+2+5+3+3=20$. d) False: $4+5+3=12$ times.
 
-::sa
+::sa TH
 A coin is tossed $15$ times and heads comes up $9$ times. How many times does tails come up?
 ::key 6
 $15-9=6$.
 
-::sa
+::sa TH
 A dice is rolled $20$ times. Faces $1$ to $6$ come up $3, 4, 2, 5, 3, 3$ times. How many times did the even faces come up altogether?
 ::key 12
 Faces $2$, $4$, $6$: $4+5+3=12$.

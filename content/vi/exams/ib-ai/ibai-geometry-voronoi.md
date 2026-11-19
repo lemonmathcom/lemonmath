@@ -272,7 +272,7 @@ Vậy đỉnh $(4;3)$ là điểm trong vùng xa cột gần nó nhất, cách $
 :::
 
 :::quiz
-::mc
+::mc TH
 Biết hai cạnh của một tam giác và góc xen giữa. Dùng công thức nào để tìm cạnh thứ ba?
 A. Định lí sin
 B. Định lí Pythagore
@@ -281,7 +281,7 @@ D. $\tfrac12ab\sin C$
 ::key C
 Hai cạnh và góc xen giữa: định lí côsin.
 
-::mc
+::mc NB
 Cạnh của sơ đồ Voronoi giữa hai điểm gốc nằm trên
 A. đường trung trực của hai điểm gốc
 B. đường thẳng đi qua hai điểm gốc
@@ -290,7 +290,7 @@ D. trục hoành
 ::key A
 Mọi điểm trên đó cách đều hai điểm gốc.
 
-::mc
+::mc TH
 Một hình trụ có bán kính $2$ m và chiều cao $5$ m. Thể tích của nó là
 A. $10\pi\text{ m}^3$
 B. $20\pi\text{ m}^3$
@@ -299,7 +299,7 @@ D. $100\pi\text{ m}^3$
 ::key B
 $\pi(2)^2(5)=20\pi$.
 
-::mc
+::mc TH
 Nội suy láng giềng gần nhất ước lượng giá trị tại một điểm bằng cách
 A. lấy trung bình mọi điểm gốc
 B. dùng điểm gốc xa nhất
@@ -308,7 +308,7 @@ D. dùng giá trị tại điểm gốc của ô chứa điểm đó
 ::key D
 Điểm gốc của ô là điểm gốc gần nhất.
 
-::tf
+::tf TH TH TH TH
 Với hai điểm gốc $(0;0)$ và $(4;0)$, xét tính đúng sai của các mệnh đề sau:
 a) Cạnh giữa hai ô là $x=2$.
 b) Điểm $(1;5)$ thuộc ô của $(0;0)$.
@@ -317,12 +317,12 @@ d) Điểm $(3;-2)$ thuộc ô của $(0;0)$.
 ::key T T T F
 $(3;-2)$ có $x>2$, nên gần $(4;0)$ hơn.
 
-::sa
+::sa TH
 Tính diện tích tam giác có hai cạnh $6$ và $8$, góc xen giữa $90^\circ$.
 ::key 24
 $\tfrac12(6)(8)\sin90^\circ=24$.
 
-::sa
+::sa TH
 Tính khoảng cách từ $(0;0)$ đến $(4;3)$.
 ::key 5
 $\sqrt{16+9}=5$.

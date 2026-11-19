@@ -402,7 +402,7 @@ Vậy giá trị lớn nhất là $\dfrac{\pi}{4}+1$, giá trị nhỏ nhất l�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc VD
 Giá trị lớn nhất của hàm số $f(x)=x^3-12x+1$ trên đoạn $[-1; 3]$ bằng
 A. $17$.
 B. $-15$.
@@ -411,7 +411,7 @@ D. $12$.
 ::key D
 Ta có $f'(x)=3x^2-12=0\iff x=\pm2$, trong đó chỉ có $x=2\in(-1; 3)$. Ta có $f(-1)=12$, $f(2)=-15$, $f(3)=-8$ nên giá trị lớn nhất là $12$. Phương án A là $f(-2)=17$, giá trị tại nghiệm nằm ngoài đoạn.
 
-::mc
+::mc TH
 Giá trị nhỏ nhất của hàm số $y=\dfrac{2x-1}{x+1}$ trên đoạn $[0; 2]$ bằng
 A. $-1$.
 B. $1$.
@@ -420,7 +420,7 @@ D. $0$.
 ::key A
 Ta có $y'=\dfrac{3}{(x+1)^2}>0$ nên hàm số đồng biến trên $[0; 2]$. Do đó giá trị nhỏ nhất là $y(0)=-1$. Phương án B là giá trị lớn nhất $y(2)$; số $2$ chỉ là giới hạn khi $x\to+\infty$.
 
-::mc
+::mc VD
 Giá trị nhỏ nhất của hàm số $y=x+\dfrac{4}{x-1}$ trên khoảng $(1; +\infty)$ bằng
 A. $4$.
 B. $3$.
@@ -429,7 +429,7 @@ D. $-3$.
 ::key C
 Ta có $y'=1-\dfrac{4}{(x-1)^2}=0\iff x=3$ (loại $x=-1$). Vì $y'$ đổi dấu từ $-$ sang $+$ tại $x=3$ nên giá trị nhỏ nhất là $y(3)=5$. Phương án B là điểm $x=3$, phương án A quên số hạng $+1$ khi viết $y=(x-1)+\dfrac{4}{x-1}+1$, phương án D là $y(-1)$.
 
-::mc
+::mc TH
 Cho hàm số $y=f(x)$ liên tục trên đoạn $[-2; 4]$ và có $f'(x)>0$ với mọi $x\in(-2; 4)$. Khẳng định nào dưới đây đúng?
 A. $\max\limits_{[-2; 4]} f(x)=f(-2)$.
 B. $\max\limits_{[-2; 4]} f(x)=f(4)$.
@@ -438,7 +438,7 @@ D. Hàm số không có giá trị lớn nhất trên $[-2; 4]$.
 ::key B
 Vì hàm số đồng biến trên $[-2; 4]$ nên giá trị lớn nhất đạt tại đầu mút phải $x=4$. Phương án D sai vì hàm số liên tục trên một đoạn luôn có giá trị lớn nhất.
 
-::tf
+::tf TH NB VD VD
 Cho hàm số $f(x)=x^4-8x^2+3$ trên đoạn $[-1; 3]$. Xét tính đúng sai của các mệnh đề sau:
 a) Phương trình $f'(x)=0$ có ba nghiệm thuộc đoạn $[-1; 3]$.
 b) $f(2)=-13$.
@@ -447,12 +447,12 @@ d) Tổng giá trị lớn nhất và giá trị nhỏ nhất của $f(x)$ trên
 ::key S Đ S Đ
 a) Sai: ta có $f'(x)=4x(x^2-4)$ có các nghiệm $0$, $2$, $-2$ nhưng $-2\notin[-1; 3]$. b) Đúng: thay vào, ta được $16-32+3=-13$. c) Sai: ta có $f(-1)=-4$, $f(0)=3$, $f(2)=-13$, $f(3)=12$ nên giá trị lớn nhất là $12$ (tại đầu mút). d) Đúng: tổng cần tìm là $12+(-13)=-1$.
 
-::sa
+::sa VD
 Một xưởng sản xuất $x$ tấn hàng mỗi tháng ($0\le x\le 20$) với lợi nhuận $P(x)=-x^3+18x^2+135x$ (triệu đồng). Hỏi lợi nhuận lớn nhất mỗi tháng của xưởng bằng bao nhiêu triệu đồng?
 ::key 2700
 Ta có $P'(x)=-3(x-15)(x+3)=0\iff x=15$ (loại $x=-3$). Ta có $P(0)=0$, $P(15)=2700$, $P(20)=1900$. Vậy lợi nhuận lớn nhất là $2700$ triệu đồng.
 
-::sa
+::sa VD
 Tìm giá trị lớn nhất của hàm số $y=\sqrt{x}\,(6-x)$ trên đoạn $[0; 6]$ (làm tròn kết quả đến hàng phần mười).
 ::key 5,7
 Ta có $y=6\sqrt x-x\sqrt x$, suy ra $y'=\dfrac{3}{\sqrt x}-\dfrac32\sqrt x=0\iff x=2$. Ta có $y(0)=y(6)=0$ và $y(2)=4\sqrt2\approx5{,}66$. Vậy giá trị lớn nhất làm tròn đến hàng phần mười là $5{,}7$.

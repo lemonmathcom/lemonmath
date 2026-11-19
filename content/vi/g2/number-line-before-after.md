@@ -320,7 +320,7 @@ Số liền trước kém số đó 1 còn số liền sau hơn 1, nên tổng h
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số liền sau của 49 là
 A. $50$.
 B. $40$.
@@ -329,7 +329,7 @@ D. $59$.
 ::key A
 Số liền sau hơn 49 một đơn vị: $49+1=50$. Phương án C là số liền trước, phương án D hơn 49 mười đơn vị.
 
-::mc
+::mc NB
 Số liền trước của 100 là
 A. $101$.
 B. $99$.
@@ -338,7 +338,7 @@ D. $98$.
 ::key B
 $100-1=99$. Phương án A là số liền sau, phương án C bớt 10, phương án D bớt 2.
 
-::mc
+::mc NB
 Trong phép tính $83-41=42$, số $41$ là
 A. số bị trừ.
 B. hiệu.
@@ -347,7 +347,7 @@ D. tổng.
 ::key C
 Số $83$ là số bị trừ, số $41$ là số trừ và số $42$ là hiệu. Phương án B chọn nhầm kết quả của phép trừ.
 
-::mc
+::mc TH
 Từ vạch 12 trên tia số, nhảy sang trái 5 vạch thì đến vạch
 A. $17$.
 B. $5$.
@@ -356,7 +356,7 @@ D. $7$.
 ::key D
 Nhảy sang trái là trừ: $12-5=7$. Phương án A nhảy nhầm sang phải.
 
-::tf
+::tf NB NB TH NB
 Cho phép tính $56+23=79$.
 a) Số 56 là tổng của hai số hạng.
 b) Số 79 là tổng.
@@ -365,12 +365,12 @@ d) Số liền sau của 79 là 80.
 ::key S Đ S Đ
 a) Sai: 56 là một số hạng. b) Đúng: 79 là kết quả của phép cộng. c) Sai: nhảy sang trái là trừ, phải nhảy sang phải để cộng. d) Đúng: $79+1=80$.
 
-::sa
+::sa TH
 Tìm tổng của 46 và 32.
 ::key 78
 $46+32=78$.
 
-::sa
+::sa TH
 Tìm hiệu của 86 và 54.
 ::key 32
 $86-54=32$.

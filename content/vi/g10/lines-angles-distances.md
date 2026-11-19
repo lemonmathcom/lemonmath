@@ -393,7 +393,7 @@ b) Góc $\widehat{BAC}$ tù, nên góc giữa hai đường thẳng là $180^\ci
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Vị trí tương đối của hai đường thẳng $x-2y+1=0$ và $-2x+4y-2=0$ là
 A. cắt nhau.
 B. song song.
@@ -402,7 +402,7 @@ D. vuông góc.
 ::key C
 $\dfrac{1}{-2}=\dfrac{-2}{4}=\dfrac{1}{-2}$: cả ba tỉ số bằng nhau nên hai phương trình tỉ lệ, hai đường thẳng trùng nhau. Chọn B là quên so sánh hệ số tự do.
 
-::mc
+::mc TH
 Khoảng cách từ điểm $M(1; -2)$ đến đường thẳng $3x-4y+4=0$ là
 A. $3$.
 B. $15$.
@@ -411,7 +411,7 @@ D. $\dfrac{11}{5}$.
 ::key A
 $d=\dfrac{|3\cdot1-4\cdot(-2)+4|}{\sqrt{3^2+4^2}}=\dfrac{15}{5}=3$. Phương án B quên chia cho $5$; C thay nhầm $y=2$; D quên hệ số tự do $4$.
 
-::mc
+::mc TH
 Góc giữa hai đường thẳng $x-2=0$ và $-x+y+3=0$ là
 A. $135^\circ$.
 B. $45^\circ$.
@@ -420,7 +420,7 @@ D. $30^\circ$.
 ::key B
 $\vec{n}_1=(1; 0)$, $\vec{n}_2=(-1; 1)$: $\cos\varphi=\dfrac{|-1|}{1\cdot\sqrt2}=\dfrac{1}{\sqrt2}$, nên $\varphi=45^\circ$. Bỏ dấu giá trị tuyệt đối thì ra $135^\circ$, nhưng góc giữa hai đường thẳng không vượt quá $90^\circ$.
 
-::mc
+::mc TH
 Đường thẳng nào sau đây vuông góc với đường thẳng $2x+3y-1=0$?
 A. $2x+3y+5=0$.
 B. $3x+2y=0$.
@@ -429,7 +429,7 @@ D. $3x-2y+5=0$.
 ::key D
 Hai đường thẳng vuông góc khi $a_1a_2+b_1b_2=0$: $2\cdot3+3\cdot(-2)=0$. Phương án A song song; B đổi chỗ hệ số mà quên đổi dấu ($6+6\ne0$).
 
-::tf
+::tf TH VD TH TH
 Cho hai đường thẳng $d_1: x+2y-4=0$, $d_2: 2x-y-3=0$ và điểm $A(3; 4)$.
 a) $d_1$ vuông góc với $d_2$.
 b) $d_1$ và $d_2$ cắt nhau tại điểm $(1; 2)$.
@@ -438,12 +438,12 @@ d) Khoảng cách từ $A$ đến $d_2$ bằng $\dfrac{\sqrt5}{5}$.
 ::key Đ S S Đ
 a) Đúng: $1\cdot2+2\cdot(-1)=0$. b) Sai: $1+4-4=1\ne0$, nên $(1; 2)$ không thuộc $d_1$ (giao điểm là $(2; 1)$). c) Sai: $d=\dfrac{|3+8-4|}{\sqrt5}=\dfrac{7}{\sqrt5}$; $7$ là kết quả khi quên chia cho $\sqrt5$. d) Đúng: $d=\dfrac{|6-4-3|}{\sqrt5}=\dfrac{1}{\sqrt5}=\dfrac{\sqrt5}{5}$.
 
-::sa
+::sa VD
 Tính khoảng cách giữa hai đường thẳng song song $3x+4y-5=0$ và $6x+8y+15=0$.
 ::key 2,5
 Chia phương trình thứ hai cho $2$: $3x+4y+7{,}5=0$. Khi đó $d=\dfrac{|-5-7{,}5|}{\sqrt{3^2+4^2}}=\dfrac{12{,}5}{5}=2{,}5$.
 
-::sa
+::sa VD
 Tam giác $ABC$ có $A(1; 2)$, $B(4; -2)$, $C(5; 3)$. Tính diện tích tam giác $ABC$.
 ::key 9,5
 $\overrightarrow{AB}=(3; -4)$ nên $AB=5$ và đường thẳng $AB$ có vectơ pháp tuyến $(4; 3)$: $4x+3y-10=0$. Khoảng cách từ $C$ đến $AB$ là $\dfrac{|20+9-10|}{5}=\dfrac{19}{5}$, nên $S=\dfrac12\cdot5\cdot\dfrac{19}{5}=9{,}5$.

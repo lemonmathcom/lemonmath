@@ -355,7 +355,7 @@ The product $\dfrac{a}{q}\cdot a\cdot aq=a^3=64$, so $a=4$. The sum $\dfrac4q+4+
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A geometric progression has $u_1=3$ and $q=-2$. The term $u_5$ is
 A. $-96$.
 B. $96$.
@@ -364,7 +364,7 @@ D. $48$.
 ::key D
 $u_5=3\cdot(-2)^4=48$. Option A uses $q^5$ instead of $q^4$, and option C has the wrong sign.
 
-::mc
+::mc TH
 The numbers $4$, $x$, $9$ with $x>0$, in that order, form a geometric progression when $x$ equals
 A. $6$.
 B. $36$.
@@ -373,7 +373,7 @@ D. $6.5$.
 ::key A
 $x^2=4\cdot9=36$ and $x>0$, so $x=6$. Option D is the arithmetic mean, and option B is the product.
 
-::mc
+::mc TH
 A geometric progression has $u_1=1$ and $q=3$. The sum of the first $6$ terms is
 A. $1093$.
 B. $364$.
@@ -382,7 +382,7 @@ D. $728$.
 ::key B
 $S_6=\dfrac{3^6-1}{3-1}=\dfrac{728}{2}=364$. Option A is $S_7$, option C is $u_7$, and option D forgets to divide by $2$.
 
-::mc
+::mc VD
 A deposit of $50$ million dong earns $8\%$ a year, compounded annually. After $3$ years the amount is about
 A. $62.00$ million dong.
 B. $54.00$ million dong.
@@ -391,7 +391,7 @@ D. $58.32$ million dong.
 ::key C
 $50\cdot1.08^3\approx62.99$. Option A is simple interest ($50+3\cdot4$), option B is the amount after one year, and option D is the amount after two years ($50\cdot1.08^2$).
 
-::tf
+::tf TH TH TH VD
 A colony of bacteria starts with $500$ cells and doubles in number every hour. Decide whether each statement is true or false.
 a) After $3$ hours there are $1500$ cells.
 b) After $5$ hours there are $16\,000$ cells.
@@ -400,12 +400,12 @@ d) After at least $8$ hours the number of bacteria exceeds $100\,000$.
 ::key F T F T
 The number after $n$ hours is $500\cdot2^n$. a) False: $500\cdot8=4000$. b) True: $500\cdot32=16\,000$. c) False: $500\cdot1024=512\,000$. d) True: after $7$ hours there are $64\,000$ cells and after $8$ hours there are $128\,000$.
 
-::sa
+::sa TH
 A geometric progression has $u_1=2$ and $q=3$. Find the sum of the first $5$ terms.
 ::key 242
 $S_5=\dfrac{2\left(3^5-1\right)}{3-1}=3^5-1=242$.
 
-::sa
+::sa VD
 In the geometric progression $1, 2, 4, 8, \dots$, which term is the first to be greater than $1000$?
 ::key 11
 $u_n=2^{n-1}$; $2^9=512<1000<1024=2^{10}$, so $n-1=10$ and $n=11$.

@@ -351,7 +351,7 @@ We have $\dfrac{1}{c+a}-\dfrac{1}{b+c}=\dfrac{b-a}{(c+a)(b+c)}$ and $\dfrac{1}{a
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 An arithmetic progression has $u_1=-3$ and $d=4$. The term $u_6$ is
 A. $21$.
 B. $13$.
@@ -360,7 +360,7 @@ D. $17$.
 ::key D
 $u_6=-3+5\cdot4=17$. Option A uses $6d$ instead of $5d$, and option B is $u_5$.
 
-::mc
+::mc TH
 The numbers $3$, $x$, $15$, in that order, form an arithmetic progression when $x$ equals
 A. $9$.
 B. $7$.
@@ -369,7 +369,7 @@ D. $6$.
 ::key A
 $x=\dfrac{3+15}{2}=9$. Option C takes the product $3\cdot15$.
 
-::mc
+::mc TH
 An arithmetic progression has $u_1=2$ and $d=3$. The sum of the first $20$ terms is
 A. $1220$.
 B. $610$.
@@ -378,7 +378,7 @@ D. $590$.
 ::key B
 $u_{20}=2+19\cdot3=59$ and $S_{20}=\dfrac{20\cdot(2+59)}{2}=610$. Option A forgets to divide by $2$, and option C is just $u_{20}$.
 
-::mc
+::mc TH
 How many terms does the arithmetic progression $5, 8, 11, \dots, 98$ have?
 A. $31$.
 B. $33$.
@@ -387,7 +387,7 @@ D. $93$.
 ::key C
 $\dfrac{98-5}{3}+1=32$. Option A forgets to add $1$ and miscounts by one term, and option D is $98-5$.
 
-::tf
+::tf TH TH VD TH
 A grandstand has $12$ rows of seats: $30$ seats in the first row and each later row has $3$ more seats than the row before. Decide whether each statement is true or false.
 a) The numbers of seats in the rows form an arithmetic progression with common difference $3$.
 b) Row $12$ has $66$ seats.
@@ -396,12 +396,12 @@ d) Row $8$ has $51$ seats.
 ::key T F F T
 a) True. b) False: $u_{12}=30+11\cdot3=63$. c) False: $S_{12}=\dfrac{12\cdot(30+63)}{2}=558$. d) True: $u_8=30+7\cdot3=51$.
 
-::sa
+::sa VD
 Find the sum of the multiples of $5$ from $1$ to $100$.
 ::key 1050
 The numbers $5, 10, \dots, 100$ have $20$ terms, so the sum is $\dfrac{20\cdot(5+100)}{2}=1050$.
 
-::sa
+::sa VD
 An arithmetic progression has $u_3=2$ and $u_7=14$. Find $u_{10}$.
 ::key 23
 $4d=14-2=12$, so $d=3$, and $u_{10}=u_7+3d=14+9=23$.

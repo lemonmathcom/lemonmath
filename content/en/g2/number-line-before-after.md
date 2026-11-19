@@ -320,7 +320,7 @@ The number before is 1 less and the number after is 1 more, so together they mak
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The number after 49 is
 A. $50$.
 B. $40$.
@@ -329,7 +329,7 @@ D. $59$.
 ::key A
 The number after is 1 more than 49: $49+1=50$. Option C is the number before, and option D is 10 more than 49.
 
-::mc
+::mc NB
 The number before 100 is
 A. $101$.
 B. $99$.
@@ -338,7 +338,7 @@ D. $98$.
 ::key B
 $100-1=99$. Option A is the number after, option C subtracts 10 and option D subtracts 2.
 
-::mc
+::mc NB
 In the calculation $83-41=42$, the number $41$ is the
 A. minuend.
 B. difference.
@@ -347,7 +347,7 @@ D. sum.
 ::key C
 The number $83$ is the minuend, $41$ is the subtrahend and $42$ is the difference. Option B picks the result of the subtraction by mistake.
 
-::mc
+::mc TH
 From mark 12 on a number line, jump 5 marks to the left and you land on mark
 A. $17$.
 B. $5$.
@@ -356,7 +356,7 @@ D. $7$.
 ::key D
 Jumping left is subtracting: $12-5=7$. Option A jumps to the right by mistake.
 
-::tf
+::tf NB NB TH NB
 Look at the calculation $56+23=79$.
 a) The number 56 is the sum of the two addends.
 b) The number 79 is the sum.
@@ -365,12 +365,12 @@ d) The number after 79 is 80.
 ::key F T F T
 a) False: 56 is one of the addends. b) True: 79 is the result of the addition. c) False: jumping left is subtracting, and to add you jump to the right. d) True: $79+1=80$.
 
-::sa
+::sa TH
 Find the sum of 46 and 32.
 ::key 78
 $46+32=78$.
 
-::sa
+::sa TH
 Find the difference between 86 and 54.
 ::key 32
 $86-54=32$.

@@ -288,7 +288,7 @@ So the predicted $y$ is $4.8$ units, that is $0.8$ standard deviations, above $\
 :::
 
 :::quiz
-::mc
+::mc TH
 A least-squares line has slope $-2.3$. The correlation $r$ is
 A. positive
 B. equal to $-2.3$
@@ -297,7 +297,7 @@ D. equal to $0$
 ::key C
 The correlation has the same sign as the slope.
 
-::mc
+::mc NB
 A residual is computed as
 A. actual $y$ minus predicted $y$
 B. predicted $y$ minus actual $y$
@@ -306,7 +306,7 @@ D. $y$ minus $\bar y$
 ::key A
 Residual $=y-\hat y$.
 
-::mc
+::mc NB
 Which value of $r$ shows the strongest linear relationship?
 A. $0.75$
 B. $0.10$
@@ -315,7 +315,7 @@ D. $-0.92$
 ::key D
 Strength depends on the size of $|r|$.
 
-::mc
+::mc NB
 Predicting $y$ for an $x$-value far outside the data is called
 A. interpolation
 B. extrapolation
@@ -324,7 +324,7 @@ D. a residual
 ::key B
 Extrapolation is unreliable.
 
-::tf
+::tf NB TH TH TH
 A least-squares line is $\hat y=5+2x$ and $r=0.9$. Decide whether each statement is true or false.
 a) The line passes through $(\bar x,\bar y)$.
 b) The predicted $y$ when $x=3$ is $11$.
@@ -333,12 +333,12 @@ d) The relationship must be causal.
 ::key T T T F
 Correlation does not show causation.
 
-::sa
+::sa TH
 For $\hat y=5+2x$, find the predicted value when $x=7$.
 ::key 19
 $5+2(7)=19$.
 
-::sa
+::sa TH
 If $r=0.9$, find $r^2$.
 ::key 0.81
 $0.9^2=0.81$.

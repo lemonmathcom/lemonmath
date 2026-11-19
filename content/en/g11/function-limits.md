@@ -345,7 +345,7 @@ $\dfrac{\sqrt{1+x}-\sqrt{1-x}}{x}=\dfrac{(1+x)-(1-x)}{x\left(\sqrt{1+x}+\sqrt{1-
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $\lim\limits_{x\to2}\dfrac{x^2+1}{x-1}$ equals
 A. $3$.
 B. $5$.
@@ -354,7 +354,7 @@ D. $1$.
 ::key B
 The denominator at $x=2$ is non-zero, so substitute $x=2$: $\dfrac{4+1}{2-1}=5$.
 
-::mc
+::mc TH
 $\lim\limits_{x\to3}\dfrac{x^2-9}{x-3}$ equals
 A. $0$.
 B. $3$.
@@ -363,7 +363,7 @@ D. does not exist.
 ::key C
 $\dfrac{x^2-9}{x-3}=x+3\to6$. Option A treats the form $\dfrac00$ as $0$.
 
-::mc
+::mc TH
 $\lim\limits_{x\to+\infty}\dfrac{2x+1}{x-3}$ equals
 A. $1$.
 B. $+\infty$.
@@ -372,7 +372,7 @@ D. $2$.
 ::key D
 Divide the numerator and the denominator by $x$: $\dfrac{2+\frac1x}{1-\frac3x}\to2$.
 
-::mc
+::mc NB
 $\lim\limits_{x\to0^+}\dfrac1x$ equals
 A. $+\infty$.
 B. $-\infty$.
@@ -381,7 +381,7 @@ D. $1$.
 ::key A
 For $x>0$ getting smaller, $\dfrac1x$ is positive and grows without bound. Option B is the limit as $x\to0^-$.
 
-::tf
+::tf NB NB TH TH
 Take the function $g(x)=x+2$ if $x<1$ and $g(x)=4-x$ if $x\ge1$. Decide whether each statement is true or false.
 a) $\lim\limits_{x\to1^-}g(x)=3$.
 b) $\lim\limits_{x\to1^+}g(x)=4$.
@@ -390,12 +390,12 @@ d) $g(1)=4$.
 ::key T F T F
 a) True: $x+2\to3$. b) False: $4-x\to3$. c) True: both one-sided limits equal $3$. d) False: $g(1)=4-1=3$.
 
-::sa
+::sa VD
 Find $\lim\limits_{x\to1}\dfrac{x^2-1}{x-1}$.
 ::key 2
 $\dfrac{x^2-1}{x-1}=x+1\to2$.
 
-::sa
+::sa TH
 Find $\lim\limits_{x\to+\infty}\dfrac{5x^2+1}{x^2-2}$.
 ::key 5
 Divide by $x^2$: $\dfrac{5+\frac1{x^2}}{1-\frac2{x^2}}\to5$.

@@ -379,7 +379,7 @@ Ta có $x^3-x=3x\iff x^3-4x=0\iff x\in\{-2; 0; 2\}$. Ta có $\displaystyle\int_{
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho hàm số $y=f(x)$ liên tục trên $[a; b]$. Diện tích hình phẳng giới hạn bởi đồ thị $y=f(x)$, trục hoành và hai đường thẳng $x=a$, $x=b$ là
 A. $\displaystyle\int_a^b f(x)\,dx$.
 B. $\displaystyle\int_a^b\lvert f(x)\rvert\,dx$.
@@ -388,7 +388,7 @@ D. $\pi\displaystyle\int_a^b\lvert f(x)\rvert\,dx$.
 ::key B
 Vì phần đồ thị nằm dưới trục hoành cho tích phân âm nên phải lấy $\lvert f(x)\rvert$. Phương án A chỉ đúng khi $f\ge0$; C là thể tích khối tròn xoay; D trộn hai công thức.
 
-::mc
+::mc VD
 Diện tích hình phẳng giới hạn bởi hai đồ thị $y=x^2$ và $y=x$ bằng
 A. $\dfrac56$.
 B. $\dfrac12$.
@@ -397,7 +397,7 @@ D. $-\dfrac16$.
 ::key C
 Hai đồ thị cắt nhau tại $x=0$, $x=1$ và trên $(0; 1)$ thì $x>x^2$. Do đó $S=\displaystyle\int_0^1(x-x^2)\,dx=\frac12-\frac13=\frac16$. A cộng thay vì trừ, B chỉ tính $\displaystyle\int_0^1x\,dx$, D trừ ngược.
 
-::mc
+::mc TH
 Quay hình phẳng giới hạn bởi $y=\sqrt x$, trục hoành, $x=0$, $x=1$ quanh trục $Ox$. Thể tích khối tròn xoay là
 A. $\dfrac{\pi}{2}$.
 B. $\dfrac{2\pi}{3}$.
@@ -406,7 +406,7 @@ D. $\dfrac{\pi^2}{4}$.
 ::key A
 Ta có $V=\pi\displaystyle\int_0^1(\sqrt x)^2\,dx=\pi\displaystyle\int_0^1x\,dx=\frac{\pi}{2}$. Phương án B quên bình phương ($\pi\displaystyle\int\sqrt x\,dx$), C quên $\pi$, D bình phương cả tích phân $\left(\pi\displaystyle\int_0^1 x\,dx\right)^2$.
 
-::mc
+::mc TH
 Cho vật thể nằm giữa hai mặt phẳng $x=0$ và $x=2$; thiết diện vuông góc với $Ox$ tại $x$ là hình vuông cạnh $x$. Thể tích vật thể là
 A. $8$.
 B. $\dfrac83$.
@@ -415,7 +415,7 @@ D. $2$.
 ::key B
 Diện tích thiết diện là $S(x)=x^2$ nên $V=\displaystyle\int_0^2x^2dx=\frac83$. Phương án A lấy diện tích thiết diện lớn nhất nhân chiều dài, C thêm $\pi$ như khối tròn xoay, D dùng cạnh thay cho diện tích.
 
-::tf
+::tf NB TH VD VD
 Cho hình phẳng $H$ giới hạn bởi parabol $y=4x-x^2$ và trục hoành. Xét tính đúng sai của các mệnh đề sau:
 a) Parabol cắt trục hoành tại $x=0$ và $x=4$.
 b) Diện tích của $H$ bằng $\dfrac{32}{3}$.
@@ -424,12 +424,12 @@ d) Đường thẳng $x=2$ chia $H$ thành hai phần có diện tích bằng nh
 ::key Đ Đ S Đ
 a) Đúng: ta có $4x-x^2=x(4-x)=0\iff x=0$ hoặc $x=4$. b) Đúng: ta có $\displaystyle\int_0^4(4x-x^2)\,dx=32-\frac{64}{3}=\frac{32}{3}$. c) Sai: thiếu bình phương; đúng là $\pi\displaystyle\int_0^4(4x-x^2)^2dx=\frac{512\pi}{15}$. d) Đúng: ta có $\displaystyle\int_0^2(4x-x^2)\,dx=\frac{16}{3}$, bằng nửa diện tích (parabol đối xứng qua $x=2$).
 
-::sa
+::sa VD
 Tính diện tích hình phẳng giới hạn bởi hai đồ thị $y=x^3$ và $y=x$.
 ::key 0,5
 Ta có $x^3=x\iff x\in\{-1; 0; 1\}$. Do tính đối xứng, mỗi phần có diện tích $\displaystyle\int_0^1(x-x^3)\,dx=\frac12-\frac14=\frac14$. Vậy diện tích bằng $\dfrac12=0{,}5$.
 
-::sa
+::sa VD
 Lòng một chiếc phễu (không kể phần ống nhỏ) có dạng khối tròn xoay sinh ra khi quay hình phẳng giới hạn bởi $y=\dfrac1x$, trục hoành và hai đường thẳng $x=1$, $x=3$ quanh trục $Ox$ (đơn vị dm). Tính dung tích của phần phễu đó theo lít (làm tròn kết quả đến hàng phần trăm).
 ::key 2,09
 $V=\pi\displaystyle\int_1^3\frac{1}{x^2}\,dx=\pi\Big[-\frac1x\Big]_1^3=\pi\left(1-\frac13\right)=\frac{2\pi}{3}\approx2{,}094$ (dm³). Vì $1$ dm³ $=1$ lít nên dung tích làm tròn là $2{,}09$ lít.

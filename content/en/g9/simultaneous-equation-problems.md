@@ -399,7 +399,7 @@ So the distance from home to school is $9$ km and Hà needs $0.7$ hour, that is 
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Two numbers have sum $50$ and difference $14$. The smaller number is
 A. $36$.
 B. $32$.
@@ -408,7 +408,7 @@ D. $25$.
 ::key C
 $x+y=50$, $x-y=14$ give $x=32$, $y=18$. B is the larger number; A is $50-14$ without halving.
 
-::mc
+::mc TH
 A rectangular garden has perimeter $40$ m, and its length is $4$ m more than its width. Let the length be $x$ and the width $y$ (m). The correct equations are
 A. $\begin{cases} x+y=40\\ x-y=4 \end{cases}$
 B. $\begin{cases} x+y=20\\ x-y=4 \end{cases}$
@@ -417,7 +417,7 @@ D. $\begin{cases} x+y=20\\ y-x=4 \end{cases}$
 ::key B
 The perimeter is $2(x+y)=40$, so $x+y=20$. A forgets to divide by $2$; D has the difference the wrong way round.
 
-::mc
+::mc VD
 A motor boat goes at $30$ km/h downstream and $22$ km/h upstream. The speed of the current is
 A. $26$ km/h.
 B. $8$ km/h.
@@ -426,7 +426,7 @@ D. $4$ km/h.
 ::key D
 $x+y=30$, $x-y=22$, so $2y=8$, $y=4$. B forgets to divide by $2$; A is the speed of the boat in still water.
 
-::mc
+::mc TH
 Two items have list prices of $x$ and $y$ thousand đồng. The first is reduced by $10\%$ and the second by $20\%$, and the total to pay is $170$ thousand đồng. The correct equation is
 A. $0.9x+0.8y=170$.
 B. $0.1x+0.2y=170$.
@@ -435,7 +435,7 @@ D. $0.9x+0.2y=170$.
 ::key A
 After a $10\%$ reduction you pay $90\%$ of the price, after a $20\%$ reduction $80\%$. B is the amount saved; C treats the percentages as thousands of đồng.
 
-::tf
+::tf TH TH VD VD
 There are $30$ chickens and rabbits with $84$ legs altogether. Let $x$ be the number of chickens and $y$ the number of rabbits.
 a) $x+y=30$.
 b) $4x+2y=84$.
@@ -444,12 +444,12 @@ d) There are $6$ more chickens than rabbits.
 ::key T F T T
 a) True. b) False: chickens have $2$ legs and rabbits $4$, so $2x+4y=84$. c) True: subtracting $x+y=30$ from $x+2y=42$ gives $y=12$. d) True: $x=18$, $18-12=6$.
 
-::sa
+::sa VD
 A two-digit number has digits that add up to $9$. Swapping the digits gives a number $45$ more than the original. Find the number.
 ::key 27
 $a+b=9$, $9(b-a)=45$, so $b-a=5$, $b=7$, $a=2$. Check: $72-27=45$.
 
-::sa
+::sa VD
 A $10\%$ salt solution is mixed with a $25\%$ salt solution to make $300$ g of a $20\%$ solution. How many grams of the $10\%$ solution are needed?
 ::key 100
 $x+y=300$, $0.1x+0.25y=60$, that is $2x+5y=1200$. Substituting $x=300-y$: $600+3y=1200$, $y=200$, $x=100$.

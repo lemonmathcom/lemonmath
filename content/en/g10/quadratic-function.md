@@ -408,7 +408,7 @@ $b=-4a$. The vertex lies on the graph: $4a+2b+2=-2$, that is $4a-8a=-4$, so $a=1
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The vertex of the parabola $y=2x^2-8x+5$ is
 A. $(2, -3)$.
 B. $(-2, 29)$.
@@ -417,7 +417,7 @@ D. $(2, 3)$.
 ::key A
 $x_I=-\dfrac{b}{2a}=\dfrac{8}{4}=2$ and $y_I=8-16+5=-3$. Forgetting the minus sign in $-\dfrac{b}{2a}$ gives $x=-2$ (option B).
 
-::mc
+::mc TH
 On which interval is the function $y=-x^2+6x-1$ increasing?
 A. $(3, +\infty)$.
 B. $(-\infty, 3)$.
@@ -426,7 +426,7 @@ D. $(-3, +\infty)$.
 ::key B
 $a=-1<0$ and $x_I=3$, so the function increases to the left of the vertex, that is on $(-\infty, 3)$. Option A is where it decreases; it would be correct for $a>0$.
 
-::mc
+::mc NB
 Which parabola has vertex $(-1, 4)$?
 A. $y=2(x-1)^2+4$.
 B. $y=2(x+1)^2+4$.
@@ -435,7 +435,7 @@ D. $y=2(x-4)^2-1$.
 ::key B
 $y=a(x-p)^2+q$ has vertex $(p, q)$. With $p=-1$, $q=4$ we get $y=2(x+1)^2+4$; option A reads the sign of $p$ the wrong way.
 
-::mc
+::mc TH
 The maximum value of the function $y=-2x^2+4x+3$ is
 A. $5$.
 B. $3$.
@@ -444,7 +444,7 @@ D. $-5$.
 ::key A
 $a<0$, so the maximum is at the vertex $x=1$: $y(1)=-2+4+3=5$. Option C is the $x$-coordinate of the vertex, and option D gets the sign wrong in $-\dfrac{\Delta}{4a}$.
 
-::tf
+::tf NB NB TH TH
 Consider the function $y=x^2-2x-3$.
 a) The parabola opens upwards.
 b) The axis of symmetry of the parabola is the line $x=-1$.
@@ -453,12 +453,12 @@ d) The minimum value of the function is $-4$, at $x=1$.
 ::key T F F T
 a) True: $a=1>0$. b) False: $x=-\dfrac{b}{2a}=1$. c) False: $x=0$ gives $y=-3$, so the point is $(0, -3)$. d) True: $y(1)=1-2-3=-4$.
 
-::sa
+::sa VD
 The parabola $y=x^2+bx+c$ has vertex $I(3, -2)$. Find $c$.
 ::key 7
 From $-\dfrac{b}{2}=3$ we get $b=-6$. The vertex lies on the graph: $9-18+c=-2$, so $c=7$.
 
-::sa
+::sa VD
 A café that sells drinks at $p$ thousand dong a cup ($10\le p\le 50$) sells $120-2p$ cups a day. What is the largest daily revenue, in thousand dong?
 ::key 1800
 The revenue $R(p)=p(120-2p)=-2p^2+120p$ has $a<0$, so it is largest at $p=\dfrac{120}{4}=30$ (which lies in $[10, 50]$). Then $R(30)=30\cdot60=1800$ thousand dong.

@@ -482,7 +482,7 @@ So after two positive tests, the probability that the person has the disease is 
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Given $P(B)=0.4$, $P(A\mid B)=0.5$ and $P(A\mid\overline B)=0.25$, the value of $P(A)$ is
 A. $0.2$.
 B. $0.75$.
@@ -491,7 +491,7 @@ D. $0.35$.
 ::key D
 $P(A)=0.4\cdot0.5+0.6\cdot0.25=0.2+0.15=0.35$. A misses the $\overline B$ branch, B adds the two conditional probabilities, and C wrongly uses $P(\overline B)=0.4$.
 
-::mc
+::mc VD
 Machine I makes $70\%$ of the items with a defect rate of $1\%$; machine II makes $30\%$ with a defect rate of $4\%$. An item is defective; the probability that machine II made it is closest to
 A. $0.04$.
 B. $0.3$.
@@ -500,7 +500,7 @@ D. $0.012$.
 ::key C
 $P(\text{defective})=0.007+0.012=0.019$, so $P(\text{II}\mid\text{defective})=\dfrac{0.012}{0.019}=\dfrac{12}{19}\approx0.63$. A is $P(\text{defective}\mid\text{II})$, B is the starting probability, and D is the numerator before dividing.
 
-::mc
+::mc TH
 Box I holds $2$ red and $3$ white balls; box II holds $4$ red and $1$ white ball. A box is chosen at random and one ball is drawn. The probability of a red ball is
 A. $\dfrac{8}{25}$.
 B. $\dfrac35$.
@@ -509,7 +509,7 @@ D. $\dfrac65$.
 ::key B
 $\dfrac12\cdot\dfrac25+\dfrac12\cdot\dfrac45=\dfrac35$. A multiplies the two conditional probabilities, C uses only the box I branch, and D forgets to multiply by $\dfrac12$ (a probability cannot exceed $1$).
 
-::mc
+::mc VD
 A disease affects $0.5\%$ of the population; a test is positive for $99\%$ of people with it and gives a false positive for $2\%$ of people without it. A person tests positive; the probability that the person has the disease is closest to
 A. $99\%$.
 B. $98\%$.
@@ -518,7 +518,7 @@ D. $0.5\%$.
 ::key C
 $\dfrac{0.005\cdot0.99}{0.005\cdot0.99+0.995\cdot0.02}=\dfrac{0.00495}{0.02485}\approx0.199$. A confuses $P(\text{positive}\mid\text{disease})$ with $P(\text{disease}\mid\text{positive})$, B is $1-0.02$, and D is the starting probability.
 
-::tf
+::tf TH NB VD VD
 Workshop I makes $60\%$ of the items with a defect rate of $3\%$; workshop II makes $40\%$ with a defect rate of $6\%$. An item is chosen at random.
 a) The probability that the item is defective is $0.042$.
 b) The probability that the item is defective, given that it is from workshop II, is $0.024$.
@@ -527,12 +527,12 @@ d) Given that the item is not defective, the probability that it is from worksho
 ::key T F F T
 a) True: $0.018+0.024$. b) False: that probability is given as $0.06$; $0.024$ is the probability of "from II and defective". c) False: $\dfrac{0.024}{0.042}=\dfrac47\approx0.571$. d) True: $\dfrac{0.6\cdot0.97}{0.958}\approx0.608$.
 
-::sa
+::sa VD
 $40\%$ of phone users use iOS and $60\%$ use Android. The proportions using app X in the two groups are $30\%$ and $25\%$. A phone user is chosen at random; find the probability that the user uses app X.
 ::key 0.27
 $0.4\cdot0.3+0.6\cdot0.25=0.12+0.15=0.27$.
 
-::sa
+::sa VD
 Box I holds $3$ red and $7$ blue balls; box II holds $6$ red and $4$ blue balls. A die is rolled: a $6$ chooses box I, anything else chooses box II; then one ball is drawn and it is red. Find the probability that it came from box I. Give your answer to 2 decimal places.
 ::key 0.09
 $P(\text{red})=\dfrac16\cdot0.3+\dfrac56\cdot0.6=0.05+0.5=0.55$, so $P(\text{I}\mid\text{red})=\dfrac{0.05}{0.55}=\dfrac1{11}\approx0.09$.

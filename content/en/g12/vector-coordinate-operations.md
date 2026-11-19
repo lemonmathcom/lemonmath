@@ -383,7 +383,7 @@ $$(2-t)(4-t)-1+1=0\iff(2-t)(4-t)=0\iff t=2\ \text{or}\ t=4.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 In the system $Oxyz$, let $\vec{a}=(2, -1, 3)$ and $\vec{b}=(1, 0, -2)$. The coordinates of $\vec{a}-2\vec{b}$ are
 A. $(0, -1, -1)$.
 B. $(0, -1, 7)$.
@@ -392,7 +392,7 @@ D. $(1, -1, 5)$.
 ::key B
 $2\vec{b}=(2, 0, -4)$, so $\vec{a}-2\vec{b}=(0, -1, 3+4)=(0, -1, 7)$. Option A gets the sign wrong when subtracting $-4$, option C is $\vec{a}+2\vec{b}$, and option D forgets to multiply $\vec{b}$ by $2$.
 
-::mc
+::mc NB
 Let $\vec{u}=(3, -2, 1)$ and $\vec{v}=(1, 4, -2)$. The scalar product $\vec{u}\cdot\vec{v}$ is
 A. $7$.
 B. $(3, -8, -2)$.
@@ -401,7 +401,7 @@ D. $-3$.
 ::key C
 $\vec{u}\cdot\vec{v}=3\cdot1+(-2)\cdot4+1\cdot(-2)=3-8-2=-7$. Option B writes the scalar product as a vector, and option D gets the sign of $1\cdot(-2)$ wrong.
 
-::mc
+::mc TH
 Which vector is perpendicular to $\vec{a}=(1, 2, -2)$?
 A. $(1, 2, 2)$.
 B. $(2, -1, 2)$.
@@ -410,7 +410,7 @@ D. $(2, 1, 2)$.
 ::key D
 $(1, 2, -2)\cdot(2, 1, 2)=2+2-4=0$. Option C equals $-2\vec{a}$, which is parallel to $\vec{a}$, not perpendicular; A and B give scalar products $1$ and $-4$.
 
-::mc
+::mc TH
 The angle between the vectors $\vec{a}=(1, 0, 1)$ and $\vec{b}=(-1, 1, 0)$ is
 A. $120^\circ$.
 B. $60^\circ$.
@@ -419,7 +419,7 @@ D. $150^\circ$.
 ::key A
 $\cos(\vec{a}, \vec{b})=\dfrac{-1+0+0}{\sqrt2\cdot\sqrt2}=-\dfrac12$, so the angle is $120^\circ$. Option B ignores the minus sign of the scalar product.
 
-::tf
+::tf NB TH VD VD
 In the system $Oxyz$, let $A(1, 0, 2)$, $B(3, 1, 0)$, $C(0, 2, 2)$.
 a) $\overrightarrow{AB}=(2, 1, -2)$.
 b) Triangle $ABC$ has a right angle at $A$.
@@ -428,12 +428,12 @@ d) The angle $\angle ABC$ is greater than $30^\circ$.
 ::key T T F T
 a) True. b) True: $\overrightarrow{AC}=(-1, 2, 0)$ and $\overrightarrow{AB}\cdot\overrightarrow{AC}=-2+2+0=0$. c) False: $AB=3$ and $AC=\sqrt5$, so the area is $\dfrac12\cdot3\sqrt5=\dfrac{3\sqrt5}{2}$. d) True: $\overrightarrow{BA}=(-2, -1, 2)$, $\overrightarrow{BC}=(-3, 1, 2)$, $\cos\angle ABC=\dfrac{9}{3\sqrt{14}}\approx0.80$, so the angle is about $36.7^\circ$.
 
-::sa
+::sa VD
 Let $A(1, 2, -1)$, $B(3, 0, 1)$ and $C(x, y, 5)$. Given that $A$, $B$, $C$ are collinear, find $x+y$.
 ::key 3
 $\overrightarrow{AB}=(2, -2, 2)$ and $\overrightarrow{AC}=(x-1, y-2, 6)=k\overrightarrow{AB}$. The z-coordinates give $6=2k$, $k=3$, so $x=7$, $y=-4$ and $x+y=3$.
 
-::sa
+::sa VD
 A force $\vec{F}=(4, -2, 3)$ (unit: N) moves an object from $M(1, 0, 0)$ to $N(5, 3, 2)$ (unit: m). Find the angle between the force $\vec{F}$ and the direction of motion $\overrightarrow{MN}$, in degrees, to 1 decimal place.
 ::key 56.5
 $\overrightarrow{MN}=(4, 3, 2)$, $\vec{F}\cdot\overrightarrow{MN}=16-6+6=16$, and $|\vec{F}|=|\overrightarrow{MN}|=\sqrt{29}$. So $\cos=\dfrac{16}{29}$ and the angle is about $56.51^\circ$, which rounds to $56.5$.

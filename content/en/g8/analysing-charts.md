@@ -387,7 +387,7 @@ So B rose more in money, while A grew faster.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Sales rise from $40$ to $46$ million dong. The percentage increase is
 A. $15\%$.
 B. $13\%$.
@@ -396,7 +396,7 @@ D. $6\%$.
 ::key A
 $\dfrac{46-40}{40}\cdot100\%=15\%$. A takes the difference $6$ as a percentage, B divides by the new value ($\dfrac{6}{46}\approx13\%$), C is the ratio $\dfrac{46}{40}$.
 
-::mc
+::mc TH
 A pie chart shows that $35\%$ of $200$ students chose swimming. The number who chose swimming is
 A. $35$.
 B. $70$.
@@ -405,7 +405,7 @@ D. $165$.
 ::key B
 $200\cdot0.35=70$. A confuses the percentage with a number of students, C divides $200$ by $35$ instead of multiplying, D is the number who did not choose swimming.
 
-::mc
+::mc TH
 A bar chart whose vertical axis starts at a value greater than $0$ can mislead because
 A. the values on the bars cannot be read.
 B. the bars become equal.
@@ -414,7 +414,7 @@ D. the total of the values changes.
 ::key C
 Bar heights are measured from the start of the axis, so small differences look like large ones. The values and the total do not change.
 
-::mc
+::mc VD
 Class A has $9$ excellent students out of $30$, and class B has $12$ excellent students out of $48$. Which statement is true?
 A. They cannot be compared.
 B. Class B has the higher proportion of excellent students, because $12>9$.
@@ -423,7 +423,7 @@ D. Class A has the higher proportion of excellent students, because $30\%>25\%$.
 ::key D
 $\dfrac{9}{30}=30\%$ and $\dfrac{12}{48}=25\%$. B compares counts although the class sizes differ.
 
-::tf
+::tf NB NB TH TH
 The drinks sold (in thousands) over $5$ months are $20$; $24$; $28$; $32$; $36$ for shop A and $30$; $31$; $29$; $32$; $30$ for shop B. Decide whether each statement is true or false.
 a) In month $3$, shop A sold more than shop B.
 b) In month $4$, the two shops sold the same amount.
@@ -432,12 +432,12 @@ d) In month $5$, shop A sold $6$ thousand more than shop B.
 ::key F T F T
 a) False: $28<29$. b) True: both $32$. c) False: in month $3$ it fell from $31$ to $29$. d) True: $36-30=6$.
 
-::sa
+::sa VD
 The rainfall rose from $100$ mm to $250$ mm. By what percentage did it rise?
 ::key 150
 $\dfrac{250-100}{100}\cdot100\%=150\%$.
 
-::sa
+::sa VD
 The electricity use fell from $290$ kWh to $230$ kWh. What is the percentage decrease (to 1 decimal place, ignoring the minus sign)?
 ::key 20.7
 $\dfrac{290-230}{290}\cdot100\%\approx20.7\%$.

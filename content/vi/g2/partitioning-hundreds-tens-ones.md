@@ -254,7 +254,7 @@ Chữ số hàng chục là $8$, nên phần chục là $80$. Ta có $400+80+8=4
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Số $345$ viết thành tổng là
 A. $300+40+5$.
 B. $3+4+5$.
@@ -263,7 +263,7 @@ D. $3+40+500$.
 ::key A
 $3$ trăm là $300$, $4$ chục là $40$, $5$ đơn vị là $5$. Phương án B là lỗi cộng các chữ số.
 
-::mc
+::mc TH
 $600+20+8$ bằng
 A. $682$.
 B. $628$.
@@ -272,7 +272,7 @@ D. $862$.
 ::key B
 $6$ trăm, $2$ chục, $8$ đơn vị là $628$. Phương án A đổi chỗ hàng chục và hàng đơn vị.
 
-::mc
+::mc TH
 Số $807$ viết thành tổng là
 A. $80+7$.
 B. $800+70$.
@@ -281,7 +281,7 @@ D. $8+0+7$.
 ::key C
 $807$ có $8$ trăm, $0$ chục, $7$ đơn vị. Phương án B là $870$.
 
-::mc
+::mc TH
 Số $510$ viết thành tổng là
 A. $5+1+0$.
 B. $50+10$.
@@ -290,7 +290,7 @@ D. $500+10$.
 ::key D
 $5$ ở hàng trăm là $500$, $1$ ở hàng chục là $10$. Phương án C là $501$.
 
-::tf
+::tf TH TH TH TH
 Em xét số $726$.
 a) $726=700+20+6$.
 b) $726=7+2+6$.
@@ -299,12 +299,12 @@ d) $726=70+20+6$.
 ::key Đ S Đ S
 a) Đúng. b) Sai: $7+2+6=15$. c) Đúng: $20+6=26$. d) Sai: $70+20+6=96$.
 
-::sa
+::sa TH
 Tính $400+90+3$.
 ::key 493
 $4$ trăm, $9$ chục, $3$ đơn vị là $493$.
 
-::sa
+::sa TH
 Số nào điền vào chỗ trống: $200+\square+9=259$?
 ::key 50
 $259$ có $5$ ở hàng chục, giá trị $50$.

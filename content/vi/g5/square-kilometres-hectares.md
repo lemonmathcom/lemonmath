@@ -393,7 +393,7 @@ Chiều rộng là $50$ m, chiều dài là $50\times4=200$ m. Chu vi là $(50+2
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số đo $4\ \text{km}^2$ đổi ra mét vuông là
 A. $4\,000\,000\ \text{m}^2$.
 B. $400\,000\ \text{m}^2$.
@@ -402,7 +402,7 @@ D. $40\,000\ \text{m}^2$.
 ::key A
 $4\ \text{km}^2=4\times1\,000\,000=4\,000\,000\ \text{m}^2$. Phương án C coi $1\ \text{km}^2=1000\ \text{m}^2$; B và D nhầm số mét vuông trong $1\ \text{km}^2$.
 
-::mc
+::mc TH
 Số đo $3{,}5$ ha đổi ra mét vuông là
 A. $3500\ \text{m}^2$.
 B. $35\,000\ \text{m}^2$.
@@ -411,7 +411,7 @@ D. $30\,500\ \text{m}^2$.
 ::key B
 $3{,}5$ ha $=3$ ha $+0{,}5$ ha $=30\,000+5000=35\,000\ \text{m}^2$. Phương án A coi $1$ ha $=1000\ \text{m}^2$; C coi $1$ ha $=100\,000\ \text{m}^2$; D coi $0{,}5$ ha là $500\ \text{m}^2$.
 
-::mc
+::mc TH
 Số đo $5\ \text{km}^2$ đổi ra héc-ta là
 A. $5000$ ha.
 B. $50$ ha.
@@ -420,7 +420,7 @@ D. $5$ ha.
 ::key C
 $1\ \text{km}^2=100$ ha nên $5\ \text{km}^2=500$ ha. Phương án A coi $1\ \text{km}^2=1000$ ha; B coi $1\ \text{km}^2=10$ ha; C không đổi đơn vị.
 
-::mc
+::mc VD
 Một thửa ruộng hình chữ nhật dài $300$ m, rộng $200$ m. Diện tích thửa ruộng là
 A. $60$ ha.
 B. $0{,}6$ ha.
@@ -429,7 +429,7 @@ D. $6$ ha.
 ::key D
 Diện tích là $300\times200=60\,000\ \text{m}^2=6$ ha. Phương án A coi $1$ ha $=1000\ \text{m}^2$; C coi $1$ ha $=100\ \text{m}^2$; D coi $1$ ha $=100\,000\ \text{m}^2$.
 
-::tf
+::tf NB TH TH VD
 Em xét hình vuông có cạnh $100$ m.
 a) Diện tích hình vuông là $10\,000\ \text{m}^2$.
 b) Diện tích hình vuông là $1$ ha.
@@ -438,12 +438,12 @@ d) Một ki-lô-mét vuông gồm $10$ hình vuông như thế.
 ::key Đ Đ S S
 a) Đúng: $100\times100=10\,000$. b) Đúng: $1$ ha $=10\,000\ \text{m}^2$. c) Sai: $10\,000\ \text{m}^2=\dfrac{1}{100}\ \text{km}^2=0{,}01\ \text{km}^2$. d) Sai: $1\ \text{km}^2=100$ ha nên gồm $100$ hình vuông như thế.
 
-::sa
+::sa TH
 Số?  $0{,}5\ \text{km}^2=?$ ha.
 ::key 50
 $0{,}5\ \text{km}^2=\dfrac{5}{10}\times100=50$ ha.
 
-::sa
+::sa VD
 Một thửa ruộng hình chữ nhật dài $500$ m, rộng $400$ m. Diện tích thửa ruộng là bao nhiêu héc-ta?
 ::key 20
 $500\times400=200\,000\ \text{m}^2$ và $200\,000:10\,000=20$ ha.

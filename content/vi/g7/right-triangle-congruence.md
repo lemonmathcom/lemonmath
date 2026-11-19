@@ -485,7 +485,7 @@ Vậy a), b), c) đã được chứng minh.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hai tam giác vuông bằng nhau nếu chúng có
 A. hai góc nhọn tương ứng bằng nhau.
 B. hai cạnh huyền bằng nhau.
@@ -494,7 +494,7 @@ D. cạnh huyền và một cạnh góc vuông tương ứng bằng nhau.
 ::key D
 Đó là trường hợp cạnh huyền – cạnh góc vuông. A chỉ cho hai tam giác cùng hình dạng; B và C thiếu dữ kiện.
 
-::mc
+::mc TH
 Tam giác $ABC$ vuông tại $A$ và tam giác $DEF$ vuông tại $D$ có $AB=DE$ và $AC=DF$. Hai tam giác bằng nhau theo trường hợp
 A. hai cạnh góc vuông.
 B. cạnh huyền – góc nhọn.
@@ -503,7 +503,7 @@ D. chưa đủ để kết luận.
 ::key A
 $AB$, $AC$ và $DE$, $DF$ đều là các cạnh góc vuông, và góc vuông xen giữa chúng bằng nhau (c.g.c).
 
-::mc
+::mc TH
 Tam giác $ABC$ vuông tại $A$ và tam giác $MNP$ vuông tại $M$ có $BC=NP$ và $\widehat C=\widehat P$. Khẳng định nào sau đây đúng?
 A. $\triangle ABC=\triangle MPN$.
 B. $\triangle ABC=\triangle MNP$.
@@ -512,7 +512,7 @@ D. $\triangle ABC=\triangle NMP$.
 ::key B
 $\widehat C=\widehat P$ nên $C$ ứng với $P$, suy ra $B$ ứng với $N$ và $A$ ứng với $M$; hai tam giác bằng nhau theo cạnh huyền – góc nhọn.
 
-::mc
+::mc TH
 Tam giác $ABC$ vuông tại $A$ và tam giác $DEF$ vuông tại $D$ có $\widehat B=\widehat E$ và $\widehat C=\widehat F$. Khẳng định nào sau đây đúng?
 A. $\triangle ABC=\triangle DEF$ (g.c.g).
 B. $\triangle ABC=\triangle DEF$ (cạnh huyền – góc nhọn).
@@ -521,7 +521,7 @@ D. $AB=DE$.
 ::key C
 Hai tam giác vuông có hai góc nhọn tương ứng bằng nhau chỉ cho ta biết chúng cùng hình dạng; còn thiếu một cặp cạnh bằng nhau.
 
-::tf
+::tf TH VD TH TH
 Cho tam giác $ABC$ vuông tại $A$ có $AB=6$ cm, $BC=10$ cm; tam giác $MNP$ vuông tại $M$ có $MN=6$ cm, $NP=10$ cm; biết $AC=8$ cm. Xét tính đúng sai của các mệnh đề sau:
 a) Hai tam giác bằng nhau theo trường hợp cạnh huyền – cạnh góc vuông.
 b) $MP=6$ cm.
@@ -530,12 +530,12 @@ d) $\widehat C=90^\circ$.
 ::key Đ S Đ S
 a) Đúng: $BC=NP$ (cạnh huyền) và $AB=MN$ (cạnh góc vuông). b) Sai: $MP=AC=8$ cm. c) Đúng: hai góc tương ứng. d) Sai: góc vuông ở $A$, nên $\widehat C$ nhọn.
 
-::sa
+::sa VD
 Trong bài cột ăng-ten, thay số đo: $OA=2{,}4$ m. Tính $OB$ (đơn vị: mét).
 ::key 2,4
 $\triangle OAT=\triangle OBT$ (cạnh huyền – cạnh góc vuông) nên $OB=OA=2{,}4$ m.
 
-::sa
+::sa VD
 Tam giác $ABC$ vuông tại $A$ và tam giác $DEF$ vuông tại $D$ có $BC=EF=10$ cm và $\widehat B=\widehat E$. Biết $AC=6$ cm. Tính $DF$ (đơn vị: cm).
 ::key 6
 $\triangle ABC=\triangle DEF$ (cạnh huyền – góc nhọn) nên $DF=AC=6$ cm.

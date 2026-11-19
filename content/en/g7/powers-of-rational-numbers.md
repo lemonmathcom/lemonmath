@@ -507,7 +507,7 @@ b) We have $7^6+7^5-7^4=7^4\cdot\left(7^2+7-1\right)=7^4\cdot(49+7-1)=7^4\cdot55
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The value of $\left(-\dfrac23\right)^3$ is
 A. $\dfrac{8}{27}$.
 B. $-\dfrac{8}{27}$.
@@ -516,7 +516,7 @@ D. $-\dfrac{6}{27}$.
 ::key B
 The base is negative and the exponent is odd, so the result is negative; both numerator and denominator are raised to the power: $\dfrac{(-2)^3}{3^3}=-\dfrac8{27}$. A forgets the sign, C raises only the numerator, D uses the product $2\cdot3$.
 
-::mc
+::mc NB
 Written as a single power, $\left(\dfrac12\right)^3\cdot\left(\dfrac12\right)^4$ is
 A. $\left(\dfrac14\right)^7$.
 B. $\left(\dfrac12\right)^{12}$.
@@ -525,7 +525,7 @@ D. $\left(\dfrac12\right)^1$.
 ::key C
 The bases are the same, so we keep the base and add the exponents: $3+4=7$. B multiplies the exponents, A multiplies the bases, D subtracts the exponents.
 
-::mc
+::mc NB
 The value of $\left(\dfrac35\right)^2$ is
 A. $\dfrac95$.
 B. $\dfrac65$.
@@ -534,7 +534,7 @@ D. $\dfrac9{25}$.
 ::key D
 Both numerator and denominator are squared: $\dfrac{3^2}{5^2}=\dfrac9{25}$. A squares only the numerator, B multiplies the numerator by $2$, C divides $3^2$ by $5\cdot2$.
 
-::mc
+::mc NB
 Which of the following equals $\left(2^3\right)^4$?
 A. $2^{12}$.
 B. $2^7$.
@@ -543,7 +543,7 @@ D. $8^7$.
 ::key A
 A power of a power multiplies the exponents: $3\cdot4=12$. A adds the exponents, C uses $3^4$ as the exponent, D adds exponents after changing the base.
 
-::tf
+::tf TH NB NB NB
 Decide whether each statement is true or false.
 a) $-2^2=4$.
 b) $\left(\dfrac23\right)^3=\dfrac8{27}$.
@@ -552,12 +552,12 @@ d) $\left(3^2\right)^3=3^5$.
 ::key F T T F
 a) False: $-2^2=-4$, whereas $(-2)^2=4$. b) True: $\dfrac{2^3}{3^3}=\dfrac8{27}$. c) True: subtract the exponents, $6-2=4$. d) False: multiply the exponents, $\left(3^2\right)^3=3^6$.
 
-::sa
+::sa VD
 Calculate $(0.5)^3\cdot8^3$.
 ::key 64
 We have $(0.5)^3\cdot8^3=(0.5\cdot8)^3=4^3=64$.
 
-::sa
+::sa VD
 A box is a cube with edge $0.3$ m. How many litres of water can it hold at most? ($1$ m³ $=1000$ litres)
 ::key 27
 The volume is $(0.3)^3=0.027$ m³, which is $0.027\cdot1000=27$ litres.

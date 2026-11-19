@@ -452,7 +452,7 @@ Vậy $M=\dfrac17$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Giá trị của biểu thức $\dfrac12+\dfrac13\cdot\dfrac32$ là
 A. $1$.
 B. $\dfrac54$.
@@ -461,7 +461,7 @@ D. $\dfrac76$.
 ::key A
 Nhân trước: $\dfrac13\cdot\dfrac32=\dfrac12$, rồi $\dfrac12+\dfrac12=1$. B là kết quả khi cộng trước, C và D là các phép tính sai khác.
 
-::mc
+::mc TH
 Giá trị của $\dfrac34-\left(\dfrac12-\dfrac13\right)$ là
 A. $-\dfrac1{12}$.
 B. $\dfrac7{12}$.
@@ -470,7 +470,7 @@ D. $\dfrac1{12}$.
 ::key B
 Ngoặc: $\dfrac12-\dfrac13=\dfrac16$, nên $\dfrac34-\dfrac16=\dfrac7{12}$. A bỏ ngoặc mà không đổi dấu, C cộng thay vì trừ.
 
-::mc
+::mc TH
 Số $x$ thoả mãn $x+\dfrac34=\dfrac16$ là
 A. $\dfrac{11}{12}$.
 B. $\dfrac7{12}$.
@@ -479,7 +479,7 @@ D. $-\dfrac{11}{12}$.
 ::key C
 Chuyển vế: $x=\dfrac16-\dfrac34=\dfrac2{12}-\dfrac9{12}=-\dfrac7{12}$. A quên đổi dấu khi chuyển vế.
 
-::mc
+::mc TH
 Số $x$ thoả mãn $\dfrac56-x=\dfrac13$ là
 A. $-\dfrac12$.
 B. $\dfrac76$.
@@ -488,7 +488,7 @@ D. $\dfrac12$.
 ::key D
 Chuyển vế: $-x=\dfrac13-\dfrac56=-\dfrac12$ nên $x=\dfrac12$. B cộng $\dfrac56$ với $\dfrac13$, A quên đổi dấu hai vế cuối cùng.
 
-::tf
+::tf NB TH TH TH
 Xét các biến đổi sau. Xét tính đúng sai của các mệnh đề:
 a) $x-\dfrac12=3\Rightarrow x=3+\dfrac12$.
 b) $x+\dfrac34=\dfrac16\Rightarrow x=\dfrac16+\dfrac34$.
@@ -497,12 +497,12 @@ d) $\dfrac34-\left(\dfrac12-\dfrac14\right)=\dfrac34-\dfrac12+\dfrac14$.
 ::key Đ S S Đ
 a) Đúng: chuyển $-\dfrac12$ sang vế phải thành $+\dfrac12$. b) Sai: phải là $\dfrac16-\dfrac34$. c) Sai: đổi dấu hai vế thì $x=-\dfrac35$. d) Đúng: bỏ ngoặc có dấu $-$ đằng trước, đổi dấu mọi số hạng trong ngoặc.
 
-::sa
+::sa VD
 Tìm $x$ biết $x:\dfrac34+\dfrac12=\dfrac52$, và viết kết quả dưới dạng số thập phân.
 ::key 1,5
 Chuyển vế: $x:\dfrac34=2$, nên $x=2\cdot\dfrac34=\dfrac32=1{,}5$.
 
-::sa
+::sa VD
 Tính $\left(\dfrac23-\dfrac12\right)\cdot12-\dfrac32$ và viết kết quả dưới dạng số thập phân.
 ::key 0,5
 Ngoặc: $\dfrac23-\dfrac12=\dfrac16$. Nhân: $\dfrac16\cdot12=2$. Trừ: $2-\dfrac32=\dfrac12=0{,}5$.

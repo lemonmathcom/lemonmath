@@ -276,7 +276,7 @@ Trừ hai phương trình: $2a=8$, nên $a=4$ và $b=-3$. Kiểm tra: tại $x=1
 :::
 
 :::quiz
-::mc
+::mc NB
 $\displaystyle\lim_{x\to2}\left(x^2+3x\right)$ bằng
 A. $4$
 B. $6$
@@ -285,7 +285,7 @@ D. $12$
 ::key C
 Hàm số liên tục, nên thay trực tiếp: $4+6=10$.
 
-::mc
+::mc TH
 $\displaystyle\lim_{x\to0}\frac{\sin x}{4x}$ bằng
 A. $\dfrac14$
 B. $1$
@@ -294,7 +294,7 @@ D. $0$
 ::key A
 $\dfrac14\cdot\dfrac{\sin x}{x}\to\dfrac14$.
 
-::mc
+::mc TH
 Tiệm cận ngang của đồ thị $y=\dfrac{5x-1}{x+2}$ là
 A. $y=-\dfrac12$
 B. $y=5$
@@ -303,7 +303,7 @@ D. $y=0$
 ::key B
 Bậc bằng nhau: $\dfrac51=5$. Phương án C là tiệm cận đứng $x=-2$ bị viết thành $y$.
 
-::mc
+::mc TH
 Tại $x=1$, hàm số $f(x)=\dfrac{x^2-1}{x-1}$ có
 A. một tiệm cận đứng.
 B. một điểm gián đoạn bước nhảy.
@@ -312,7 +312,7 @@ D. một điểm gián đoạn khử được.
 ::key D
 $f(1)$ không xác định, nhưng $\displaystyle\lim_{x\to1}f(x)=2$ tồn tại: đồ thị bị khuyết.
 
-::tf
+::tf TH NB TH TH
 Cho $f(x)=\dfrac{x^2-x-6}{x-3}$.
 a) $\displaystyle\lim_{x\to3}f(x)=5$.
 b) $f(3)$ xác định.
@@ -321,12 +321,12 @@ d) Đường thẳng $x=3$ là tiệm cận đứng của đồ thị.
 ::key Đ S Đ S
 a) Đúng: $f(x)=x+2$ khi $x\ne3$. b) Sai: mẫu bằng $0$. c) Đúng. d) Sai: giới hạn hữu hạn, nên đồ thị bị khuyết chứ không có tiệm cận.
 
-::sa
+::sa VD
 Tính $\displaystyle\lim_{x\to-1}\frac{x^3+1}{x+1}$.
 ::key 3
 $x^3+1=(x+1)(x^2-x+1)$, nên giới hạn bằng $1+1+1=3$.
 
-::sa
+::sa VD
 $f(x)=kx^2$ khi $x\le2$ và $f(x)=x+6$ khi $x>2$. Với giá trị nào của $k$ thì $f$ liên tục tại $x=2$?
 ::key 2
 $4k=8$, nên $k=2$.

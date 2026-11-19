@@ -319,7 +319,7 @@ Thử lại: $262+138=400$. Đúng.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $463-281$ là
 A. $282$.
 B. $182$.
@@ -328,7 +328,7 @@ D. $744$.
 ::key B
 Hàng chục: $6$ không trừ được $8$, đổi $1$ trăm được $16-8=8$, hàng trăm còn $3$; $3-2=1$, nên hiệu là $182$. A quên bớt $1$ ở hàng trăm, C lấy số bé trừ số lớn ở mỗi hàng, D là phép cộng.
 
-::mc
+::mc TH
 Kết quả của $534-278$ là
 A. $344$.
 B. $266$.
@@ -337,7 +337,7 @@ D. $356$.
 ::key C
 $14-8=6$, hàng chục còn $2$; $12-7=5$, hàng trăm còn $4$; $4-2=2$, nên hiệu là $256$. A lấy số bé trừ số lớn ở mỗi hàng, B quên bớt $1$ ở hàng chục, D quên bớt $1$ ở hàng trăm.
 
-::mc
+::mc VD
 Một trại có $372$ con gà, đã bán $145$ con. Trại còn lại
 A. $237$ con gà.
 B. $233$ con gà.
@@ -346,7 +346,7 @@ D. $227$ con gà.
 ::key D
 "Còn lại" là bớt đi: $372-145=227$. B lấy số bé trừ số lớn ở mỗi hàng, C là phép cộng, A quên bớt $1$ ở hàng chục.
 
-::mc
+::mc TH
 Phép trừ nào dưới đây phải đổi (có nhớ)?
 A. $543-218$.
 B. $696-432$.
@@ -355,7 +355,7 @@ D. $879-456$.
 ::key A
 Ở $543-218$, hàng đơn vị có $3<8$ nên phải đổi. Ở ba phép còn lại, chữ số của số bị trừ ở mọi hàng đều không nhỏ hơn chữ số của số trừ.
 
-::tf
+::tf NB VD TH TH
 Em xét phép trừ $623-358$.
 a) Số bị trừ là $623$.
 b) Hiệu bằng $275$.
@@ -364,12 +364,12 @@ d) Hiệu lớn hơn số bị trừ.
 ::key Đ S Đ S
 a) Đúng: số bị trừ là số đứng trước dấu trừ. b) Sai: $13-8=5$, $11-5=6$, $5-3=2$, nên hiệu là $265$. c) Đúng: hiệu cộng số trừ bằng số bị trừ. d) Sai: hiệu $265$ nhỏ hơn $623$.
 
-::sa
+::sa VD
 Tính $812-567$.
 ::key 245
 $12-7=5$, hàng chục còn $0$; $10-6=4$, hàng trăm còn $7$; $7-5=2$. Vậy $812-567=245$.
 
-::sa
+::sa VD
 Một cửa hàng có $540$ hộp sữa, đã bán $285$ hộp. Hỏi cửa hàng còn lại bao nhiêu hộp sữa?
 ::key 255
 $540-285=255$ (hộp): $10-5=5$, hàng chục còn $3$; $13-8=5$, hàng trăm còn $4$; $4-2=2$.

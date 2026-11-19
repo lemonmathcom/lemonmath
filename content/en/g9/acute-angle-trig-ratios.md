@@ -431,7 +431,7 @@ So $AH=2\sqrt3$ cm and $AB=4\sqrt3$ cm.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Triangle $ABC$ has a right angle at $A$. Then $\sin B$ equals
 A. $\dfrac{AC}{AB}$.
 B. $\dfrac{AB}{BC}$.
@@ -440,7 +440,7 @@ D. $\dfrac{AB}{AC}$.
 ::key C
 The side opposite $B$ is $AC$ and the hypotenuse is $BC$, so $\sin B=\dfrac{AC}{BC}$. Option B is $\cos B$, A is $\tan B$ and D is $\cot B$.
 
-::mc
+::mc NB
 $\tan60^\circ$ equals
 A. $\dfrac{\sqrt3}3$.
 B. $\dfrac12$.
@@ -449,7 +449,7 @@ D. $\sqrt3$.
 ::key D
 We have $\tan60^\circ=\sqrt3$ (in half an equilateral triangle with side $2$, the side opposite $60^\circ$ is $\sqrt3$ and the adjacent side is $1$). Option A is $\tan30^\circ$, and C is $\sin60^\circ$.
 
-::mc
+::mc TH
 $\cos52^\circ$ equals
 A. $\sin52^\circ$.
 B. $\cos38^\circ$.
@@ -458,7 +458,7 @@ D. $\sin38^\circ$.
 ::key D
 Since $52^\circ+38^\circ=90^\circ$ (complementary angles), $\cos52^\circ=\sin38^\circ$. Option B keeps cos when changing to the complementary angle.
 
-::mc
+::mc NB
 Triangle $ABC$ has a right angle at $A$, $AB=12$ and $BC=13$. Then $\cos B$ equals
 A. $\dfrac{12}{13}$.
 B. $\dfrac{5}{13}$.
@@ -467,7 +467,7 @@ D. $\dfrac{13}{12}$.
 ::key A
 We have $\cos B=\dfrac{AB}{BC}=\dfrac{12}{13}$. Option B is $\sin B$ (since $AC=5$), and D puts the hypotenuse on top, giving a value greater than $1$.
 
-::tf
+::tf TH TH TH VD
 Triangle $ABC$ has a right angle at $A$, $AB=\sqrt3$ and $AC=1$. Decide whether each statement is true or false.
 a) $BC=2$.
 b) $\sin B=\dfrac12$.
@@ -476,12 +476,12 @@ d) $\angle C=60^\circ$.
 ::key T T F T
 a) True. $BC=\sqrt{AB^2+AC^2}=\sqrt{3+1}=2$ (Pythagoras' theorem). b) True. $\sin B=\dfrac{AC}{BC}=\dfrac12$. c) False. $\tan B=\dfrac{AC}{AB}=\dfrac{1}{\sqrt3}=\dfrac{\sqrt3}3$. d) True. Since $\sin B=\dfrac12$, $\angle B=30^\circ$, hence $\angle C=90^\circ-30^\circ=60^\circ$.
 
-::sa
+::sa TH
 Evaluate $2\sin30^\circ+3\tan45^\circ-\cot45^\circ$.
 ::key 3
 We have $2\sin30^\circ+3\tan45^\circ-\cot45^\circ=2\cdot\dfrac12+3\cdot1-1=3$.
 
-::sa
+::sa VD
 A road has an "$8\%$ gradient" sign. Find the angle the road makes with the horizontal, in degrees (give your answer to 1 decimal place).
 ::key 4.6
 Let $\alpha$ be the angle of the road. We have $\tan\alpha=\dfrac{8}{100}=0.08$, so $\alpha\approx4.6^\circ$.

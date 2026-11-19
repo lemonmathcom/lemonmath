@@ -313,7 +313,7 @@ b) Least number: hundreds digit $5$ and the other places $0$, giving $4\,500$. G
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $6\,284$ rounded to the nearest thousand is
 A. $6\,000$.
 B. $7\,000$.
@@ -322,7 +322,7 @@ D. $6\,280$.
 ::key A
 The hundreds digit is $2$, less than $5$, so keep $6$ thousands: $6\,000$. Option B always rounds up; options C and D round to the nearest hundred and the nearest ten.
 
-::mc
+::mc TH
 $38\,700$ rounded to the nearest ten thousand is
 A. $30\,000$.
 B. $39\,000$.
@@ -331,7 +331,7 @@ D. $38\,000$.
 ::key C
 The thousands digit is $8$, which is $5$ or more, so the $3$ ten thousands go up to $4$ ten thousands: $40\,000$. Option A always rounds down; option B rounds to the nearest thousand, and option D drops the end of the number without rounding.
 
-::mc
+::mc TH
 Which number rounds to $9\,000$ to the nearest thousand?
 A. $8\,490$.
 B. $9\,500$.
@@ -340,7 +340,7 @@ D. $9\,400$.
 ::key D
 $9\,400$ has hundreds digit $4$, so it rounds down to $9\,000$. $8\,490\approx8\,000$, while $9\,500$ and $9\,600$ round up to $10\,000$.
 
-::mc
+::mc TH
 A town has $7\,960$ people. Rounded to the nearest thousand, the town has about
 A. $7\,000$ people.
 B. $8\,000$ people.
@@ -349,7 +349,7 @@ D. $10\,000$ people.
 ::key B
 The hundreds digit is $9$, which is $5$ or more, so $7\,960\approx8\,000$. Option D rounds to the nearest ten thousand, not the nearest thousand.
 
-::tf
+::tf TH TH TH NB
 Look at the number $24\,673$.
 a) Rounded to the nearest thousand, it is $25\,000$.
 b) Rounded to the nearest ten thousand, it is $20\,000$.
@@ -358,12 +358,12 @@ d) To round to the nearest thousand, you look at the hundreds digit.
 ::key T T F T
 a) True: the hundreds digit is $6$, so round up. b) True: the thousands digit is $4$, less than $5$, so $24\,673\approx20\,000$. c) False: the thousands digit is $4$, so you do not round up. d) True: look at the place just to the right of the thousands.
 
-::sa
+::sa TH
 Round $5\,600$ to the nearest thousand. Write the answer (without spaces).
 ::key 6000
 The hundreds digit is $6$, which is $5$ or more, so $5\,600\approx6\,000$.
 
-::sa
+::sa TH
 A stadium has $15\,280$ seats. Rounded to the nearest thousand, about how many thousand seats does it have?
 ::key 15
 The hundreds digit is $2$, less than $5$, so $15\,280\approx15\,000$, which is about $15$ thousand seats.

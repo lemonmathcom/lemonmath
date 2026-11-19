@@ -276,7 +276,7 @@ The volume of the crate is $40\times30\times20=24\,000$ (cm³). The volume of on
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The volume of a cuboid $5$ cm long, $4$ cm wide and $3$ cm high is
 A. $60$ cm³.
 B. $12$ cm³.
@@ -285,7 +285,7 @@ D. $60$ cm².
 ::key A
 $5\times4\times3=60$ (cm³). Option D has the wrong unit, B adds the three numbers, and C forgets the height.
 
-::mc
+::mc VD
 A cuboid-shaped box is $3$ dm long, $20$ cm wide and $10$ cm high. Its volume is
 A. $33$ cm³.
 B. $6000$ cm³.
@@ -294,7 +294,7 @@ D. $6$ cm³.
 ::key B
 Change $3$ dm $=30$ cm, so $30\times20\times10=6000$ (cm³). Option C is the mistake of not changing the unit.
 
-::mc
+::mc VD
 A cuboid has volume $96$ cm³, length $8$ cm and width $4$ cm. Its height is
 A. $24$ cm.
 B. $12$ cm.
@@ -303,7 +303,7 @@ D. $84$ cm.
 ::key C
 The base area is $8\times4=32$ (cm²), so the height is $96\div32=3$ (cm). Options B and A divide by only one measurement, and D subtracts.
 
-::mc
+::mc VD
 Which cuboid has the greatest volume?
 A. Length $6$ cm, width $3$ cm, height $2$ cm.
 B. Length $12$ cm, width $1$ cm, height $1$ cm.
@@ -312,7 +312,7 @@ D. Length $4$ cm, width $4$ cm, height $3$ cm.
 ::key D
 The volumes are $36$, $48$, $32$ and $12$ (cm³). Option B has the greatest sum of measurements, but the smallest volume.
 
-::tf
+::tf TH NB TH NB
 A box is a cuboid $6$ cm long, $5$ cm wide and $4$ cm high.
 a) The volume of the box is $120$ cm³.
 b) The volume of the box is $6+5+4=15$ cm³.
@@ -321,12 +321,12 @@ d) You can say the volume of the box is $120$ cm².
 ::key T F T F
 a) True: $6\times5\times4=120$. b) False: you must multiply, not add. c) True: $6\times5\times8=240$. d) False: the unit of volume is cm³, not cm².
 
-::sa
+::sa TH
 Find the volume of a cuboid $9$ cm long, $5$ cm wide and $4$ cm high (in cm³).
 ::key 180
 $9\times5\times4=45\times4=180$ (cm³).
 
-::sa
+::sa TH
 Small cubes with edges of $1$ cm fill a box $5$ cm long, $3$ cm wide and $2$ cm high. How many cubes are needed?
 ::key 30
 The number of cubes equals the volume of the box: $5\times3\times2=30$ (cubes).

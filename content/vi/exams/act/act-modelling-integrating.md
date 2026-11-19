@@ -291,7 +291,7 @@ Vậy diện tích lớn nhất là $625$ m², khi khu đất là hình vuông c
 :::
 
 :::quiz
-::mc
+::mc NB
 Nếu $y=3x+2$ thì khi $x=5$, $y$ bằng
 A. $15$
 B. $17$
@@ -300,7 +300,7 @@ D. $25$
 ::key B
 $3(5)+2=17$.
 
-::mc
+::mc TH
 Một giá tăng $10\%$ rồi lại tăng thêm $10\%$. Giá ban đầu được nhân với số nào?
 A. $1{,}2$
 B. $1{,}02$
@@ -309,7 +309,7 @@ D. $2{,}1$
 ::key C
 $1{,}1\times1{,}1=1{,}21$.
 
-::mc
+::mc NB
 $2{,}5$ giờ bằng bao nhiêu phút?
 A. $250$
 B. $130$
@@ -318,7 +318,7 @@ D. $150$
 ::key D
 $2{,}5\times60=150$.
 
-::mc
+::mc NB
 Dữ liệu tăng cùng một tỉ lệ phần trăm mỗi năm phù hợp nhất với loại hàm số nào?
 A. Hàm mũ
 B. Hàm bậc nhất
@@ -327,7 +327,7 @@ D. Hàm hằng
 ::key A
 Tỉ số giữa các giá trị liên tiếp không đổi nghĩa là mô hình hàm mũ.
 
-::tf
+::tf NB NB NB TH
 Giá một chuyến taxi dài $m$ phút là $C=20+0{,}5m$ nghìn đồng. Xét tính đúng sai của các mệnh đề sau:
 a) Phí cố định là $20$ nghìn đồng.
 b) Mỗi phút tốn $0{,}5$ nghìn đồng.
@@ -336,12 +336,12 @@ d) Số phút tăng gấp đôi thì giá cũng tăng gấp đôi.
 ::key T T T F
 $C(100)=20+50=70$; vì có phí cố định nên giá không tỉ lệ thuận với $m$.
 
-::sa
+::sa TH
 Một bể chứa $3000$ lít và được bơm đầy với tốc độ $50$ lít mỗi phút. Cần bao nhiêu phút để bể đầy?
 ::key 60
 $\dfrac{3000}{50}=60$.
 
-::sa
+::sa VD
 Một cơ sở có chi phí cố định $500$ đô la, chi phí $4$ đô la mỗi sản phẩm, và giá bán $9$ đô la mỗi sản phẩm. Cần bán bao nhiêu sản phẩm để hoà vốn?
 ::key 100
 $\dfrac{500}{9-4}=100$.

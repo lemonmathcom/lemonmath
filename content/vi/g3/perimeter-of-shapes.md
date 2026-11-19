@@ -357,7 +357,7 @@ b) Mỗi hình vuông có chu vi $3\times4=12$ cm, hai hình là $12+12=24$ cm. 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Chu vi hình tam giác có ba cạnh $4$ cm, $5$ cm, $7$ cm là
 A. $9$ cm.
 B. $11$ cm.
@@ -366,7 +366,7 @@ D. $16$ cm.
 ::key D
 $4+5+7=16$. Các phương án A, B, C chỉ cộng hai cạnh ($4+5$, $4+7$, $5+7$) nên bỏ sót một cạnh.
 
-::mc
+::mc TH
 Một hình chữ nhật có chiều dài $9$ cm, chiều rộng $6$ cm. Chu vi hình đó là
 A. $15$ cm.
 B. $30$ cm.
@@ -375,7 +375,7 @@ D. $54$ cm.
 ::key B
 $(9+6)\times2=15\times2=30$. Phương án A là chưa nhân $2$; phương án C là $9+6+9$, thiếu một cạnh; phương án D là nhân hai số đo với nhau.
 
-::mc
+::mc TH
 Chu vi hình vuông có cạnh $8$ cm là
 A. $16$ cm.
 B. $24$ cm.
@@ -384,7 +384,7 @@ D. $64$ cm.
 ::key C
 $8\times4=32$. Phương án A nhân với $2$, phương án B nhân với $3$, phương án D là $8\times8$.
 
-::mc
+::mc VD
 Mảnh đất hình chữ nhật dài $12$ m, rộng $7$ m. Bác Tư căng dây thép quanh mảnh đất đúng một vòng. Sợi dây dài
 A. $19$ m.
 B. $38$ m.
@@ -393,7 +393,7 @@ D. $84$ m.
 ::key B
 Một vòng là chu vi: $(12+7)\times2=19\times2=38$ m. Phương án A chưa nhân $2$; phương án C là $12+7+12$, thiếu một cạnh.
 
-::tf
+::tf NB NB TH TH
 Hình chữ nhật $ABCD$ có $AB=10$ cm, $BC=4$ cm.
 a) $CD=10$ cm.
 b) $AD=4$ cm.
@@ -402,12 +402,12 @@ d) Chu vi là $28$ cm.
 ::key Đ Đ S Đ
 a) Đúng: hai cạnh đối bằng nhau. b) Đúng: $AD$ và $BC$ là hai cạnh đối. c) Sai: $14$ mới là $10+4$, chưa nhân $2$. d) Đúng: $(10+4)\times2=28$.
 
-::sa
+::sa TH
 Hình vuông có cạnh $6$ cm. Chu vi hình vuông là bao nhiêu xăng-ti-mét?
 ::key 24
 $6\times4=24$ (cm).
 
-::sa
+::sa TH
 Hình chữ nhật dài $13$ m, rộng $8$ m. Chu vi hình chữ nhật là bao nhiêu mét?
 ::key 42
 $(13+8)\times2=21\times2=42$ (m).

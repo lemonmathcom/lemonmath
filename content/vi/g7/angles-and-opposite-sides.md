@@ -558,7 +558,7 @@ Vậy $AB<BD<BC$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tam giác $ABC$ có $\widehat{A}=50^\circ$, $\widehat{B}=70^\circ$, $\widehat{C}=60^\circ$. Cạnh lớn nhất của tam giác là
 A. Ba cạnh bằng nhau.
 B. $BC$.
@@ -567,7 +567,7 @@ D. $AC$.
 ::key D
 Góc lớn nhất là $\widehat{B}=70^\circ$, cạnh đối diện là $AC$. B là cạnh đối diện với góc nhỏ nhất $\widehat{A}$, C đối diện với $\widehat{C}$.
 
-::mc
+::mc TH
 Tam giác $DEF$ có $DE=4$ cm, $EF=6$ cm, $DF=5$ cm. Góc nhỏ nhất của tam giác là
 A. $\widehat{F}$.
 B. $\widehat{E}$.
@@ -576,7 +576,7 @@ D. Ba góc bằng nhau.
 ::key A
 Cạnh nhỏ nhất là $DE=4$ cm, đối diện với $\widehat{F}$. A là góc đối diện với cạnh lớn nhất $EF$, B đối diện với $DF$.
 
-::mc
+::mc TH
 Từ điểm $A$ ngoài đường thẳng $d$, kẻ $AH\perp d$ và các đường xiên $AB$, $AC$ với $B$, $C$ thuộc $d$, cùng phía với $H$, $HB=3$ cm, $HC=5$ cm. Khẳng định đúng là
 A. $AH>AC$.
 B. $AH<AB<AC$.
@@ -585,7 +585,7 @@ D. $AB>AC$.
 ::key B
 $AH$ là đường vuông góc nên nhỏ nhất, và $HB<HC$ nên $AB<AC$. A, D sai vì ngược chiều, C sai vì hình chiếu khác nhau.
 
-::mc
+::mc NB
 Tam giác $ABC$ vuông tại $A$. Khẳng định nào sau đây đúng?
 A. $AB$ là cạnh lớn nhất.
 B. $AC$ là cạnh lớn nhất.
@@ -594,7 +594,7 @@ D. Ba cạnh bằng nhau.
 ::key C
 Cạnh huyền $BC$ đối diện với góc vuông, là góc lớn nhất, nên $BC$ là cạnh lớn nhất. A và B là hai cạnh góc vuông, nhỏ hơn cạnh huyền.
 
-::tf
+::tf TH TH NB TH
 Tam giác $MNP$ có $\widehat{M}=100^\circ$, $\widehat{N}=50^\circ$, $\widehat{P}=30^\circ$. Xét tính đúng sai của các mệnh đề sau:
 a) $NP$ là cạnh lớn nhất.
 b) $MP<MN$.
@@ -603,12 +603,12 @@ d) $MN$ là cạnh nhỏ nhất.
 ::key Đ S S Đ
 a) Đúng: $NP$ đối diện với $\widehat{M}=100^\circ$ lớn nhất. b) Sai: $MP$ đối diện $\widehat{N}=50^\circ$ lớn hơn $\widehat{P}=30^\circ$ đối diện $MN$, nên $MP>MN$. c) Sai: $\widehat{P}=30^\circ$ là góc nhỏ nhất. d) Đúng: $MN$ đối diện với góc nhỏ nhất.
 
-::sa
+::sa TH
 Tam giác $ABC$ có $\widehat{B}=65^\circ$, $\widehat{C}=40^\circ$. Góc lớn nhất của tam giác có số đo bao nhiêu độ?
 ::key 75
 $\widehat{A}=180^\circ-65^\circ-40^\circ=75^\circ$, lớn hơn $65^\circ$ và $40^\circ$.
 
-::sa
+::sa TH
 Một ngôi nhà ở $A$ cách bờ kênh thẳng $d$ một khoảng $15$ m (khoảng cách từ $A$ đến $d$). Ống nước ngắn nhất nối $A$ với kênh dài bao nhiêu mét?
 ::key 15
 Ống ngắn nhất là đường vuông góc kẻ từ $A$ đến $d$, có độ dài bằng khoảng cách $15$ m.

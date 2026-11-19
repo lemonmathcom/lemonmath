@@ -386,7 +386,7 @@ Vì $\sin\dfrac{\pi}{7}\ne0$ nên $P=\dfrac18$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Giá trị của $\sin20^\circ\cos25^\circ+\cos20^\circ\sin25^\circ$ bằng
 A. $\dfrac12$.
 B. $\dfrac{\sqrt2}{2}$.
@@ -395,7 +395,7 @@ D. $\sin5^\circ$.
 ::key B
 Đây là $\sin(20^\circ+25^\circ)=\sin45^\circ=\dfrac{\sqrt2}{2}$. Phương án D là $\sin(25^\circ-20^\circ)$, dùng nhầm công thức hiệu.
 
-::mc
+::mc NB
 Cho $\cos x=-\dfrac13$. Giá trị của $\cos2x$ bằng
 A. $-\dfrac23$.
 B. $\dfrac79$.
@@ -404,7 +404,7 @@ D. $\dfrac29$.
 ::key C
 $\cos2x=2\cos^2x-1=\dfrac29-1=-\dfrac79$. Phương án A là $2\cos x$, phương án D quên trừ $1$.
 
-::mc
+::mc TH
 Cho $\tan a=2$ và $\tan b=-3$. Giá trị của $\tan(a-b)$ bằng
 A. $1$.
 B. $\dfrac57$.
@@ -413,7 +413,7 @@ D. $-1$.
 ::key D
 $\tan(a-b)=\dfrac{2-(-3)}{1+2\cdot(-3)}=\dfrac{5}{-5}=-1$. Phương án B nhầm mẫu thành $1-\tan a\tan b$, phương án C dùng công thức của $\tan(a+b)$.
 
-::mc
+::mc NB
 Với mọi $x$, biểu thức $\sin7x-\sin x$ bằng
 A. $2\cos4x\sin3x$.
 B. $-2\cos4x\sin3x$.
@@ -422,7 +422,7 @@ D. $2\sin3x\sin4x$.
 ::key A
 $\sin u-\sin v=2\cos\dfrac{u+v}{2}\sin\dfrac{u-v}{2}=2\cos4x\sin3x$. Phương án C là công thức của $\sin u+\sin v$, phương án B thừa dấu trừ.
 
-::tf
+::tf NB TH TH TH
 Một cầu thủ đá quả bóng với vận tốc đầu $14$ m/s, hợp với mặt đất góc $\alpha=30^\circ$. Bỏ qua sức cản của không khí, tầm xa là $R=\dfrac{v^2\sin2\alpha}{g}$ với $g=9{,}8$ m/s$^2$. Xét tính đúng sai của các mệnh đề sau:
 a) $\sin2\alpha=2\sin\alpha=1$.
 b) Tầm xa của quả bóng là $10\sqrt3$ m.
@@ -431,12 +431,12 @@ d) Với cùng vận tốc đầu, tầm xa lớn nhất khi $\alpha=45^\circ$.
 ::key S Đ Đ Đ
 a) Sai: $\sin2\alpha=\sin60^\circ=\dfrac{\sqrt3}{2}$, không phải $2\sin\alpha$. b) Đúng: $R=\dfrac{196\cdot\frac{\sqrt3}{2}}{9{,}8}=10\sqrt3$. c) Đúng: $\sin120^\circ=\sin60^\circ$. d) Đúng: $\sin2\alpha=1$ khi $\alpha=45^\circ$.
 
-::sa
+::sa TH
 Tính giá trị của $2\cos^222{,}5^\circ-1$ (làm tròn kết quả đến hàng phần trăm).
 ::key 0,71
 $2\cos^222{,}5^\circ-1=\cos45^\circ=\dfrac{\sqrt2}{2}\approx0{,}71$.
 
-::sa
+::sa VDC
 Hai âm thoa phát ra âm thuần có tần số $440$ Hz và $448$ Hz cùng lúc. Âm nghe to nhỏ lặp lại bao nhiêu lần mỗi giây?
 ::key 8
 $\sin(2\pi\cdot440t)+\sin(2\pi\cdot448t)=2\cos(8\pi t)\sin(2\pi\cdot444t)$, và $|\cos(8\pi t)|$ có chu kì $\dfrac18$ giây. Vậy $8$ lần mỗi giây, bằng $448-440$.

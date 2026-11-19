@@ -290,7 +290,7 @@ $$18:3=6\ \text{(cái)}.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc VD
 Mẹ mua $3$ túi gạo, mỗi túi $5$ kg, và $8$ kg gạo nếp. Mẹ mua tất cả
 A. $23$ kg.
 B. $16$ kg.
@@ -299,7 +299,7 @@ D. $120$ kg.
 ::key A
 Số gạo trong $3$ túi là $5\times 3=15$ (kg), rồi $15+8=23$ (kg). A cộng cả $3+5+8$, C quên có $3$ túi, D nhân tất cả các số.
 
-::mc
+::mc VD
 Cô có $48$ quyển vở chia đều cho $6$ bạn. Mỗi bạn đã dùng $3$ quyển. Mỗi bạn còn lại
 A. $45$ quyển.
 B. $5$ quyển.
@@ -308,7 +308,7 @@ D. $8$ quyển.
 ::key B
 Mỗi bạn được chia $48:6=8$ quyển, rồi $8-3=5$ quyển. A không chia trước, D dừng ở bước thứ nhất, C cộng thay vì trừ.
 
-::mc
+::mc VD
 Một cửa hàng có $5$ thùng, mỗi thùng $12$ chai nước, và đã bán $37$ chai. Còn lại
 A. $97$ chai.
 B. $60$ chai.
@@ -317,7 +317,7 @@ D. $49$ chai.
 ::key C
 Tổng số chai là $12\times 5=60$, rồi $60-37=23$. B dừng ở bước thứ nhất, A cộng thay vì trừ, D làm $12+37$.
 
-::mc
+::mc VD
 Nhà Lan nuôi $8$ con gà. Số vịt gấp $3$ lần số gà. Nhà Lan nuôi tất cả
 A. $24$ con.
 B. $11$ con.
@@ -326,7 +326,7 @@ D. $32$ con.
 ::key D
 Số vịt là $8\times 3=24$ con, rồi $8+24=32$ con. A chỉ tính số vịt, B làm $8+3$, C lấy số vịt trừ số gà.
 
-::tf
+::tf NB TH TH VD
 Em xét bài: Có $36$ quả cam chia đều vào $4$ đĩa, rồi mỗi đĩa được thêm $2$ quả. Hỏi lúc này mỗi đĩa có bao nhiêu quả?
 a) Bước thứ nhất là $36:4=9$.
 b) Bước thứ hai là $9-2=7$.
@@ -335,12 +335,12 @@ d) Đáp số là $11$ quả.
 ::key Đ S S Đ
 a) Đúng: mỗi đĩa lúc đầu có $9$ quả. b) Sai: được thêm quả nên phải cộng, $9+2=11$. c) Sai: $38$ là kết quả khi cộng lầm $36+2$. d) Đúng: $9+2=11$ quả.
 
-::sa
+::sa VD
 Một cửa hàng có $5$ thùng sữa, mỗi thùng $12$ hộp, và đã bán $25$ hộp. Còn lại bao nhiêu hộp sữa?
 ::key 35
 $12\times 5=60$ (hộp), rồi $60-25=35$ (hộp).
 
-::sa
+::sa VD
 Lan có $6$ túi kẹo, mỗi túi $4$ cái, và cho bạn $9$ cái. Lan còn lại bao nhiêu cái kẹo?
 ::key 15
 $4\times 6=24$ (cái), rồi $24-9=15$ (cái).

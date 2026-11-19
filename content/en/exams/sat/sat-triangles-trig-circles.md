@@ -265,7 +265,7 @@ $(k-1)^2=16$, so $k-1=4$ or $k-1=-4$, giving $k=5$ or $k=-3$. Since $k>0$, $k=5$
 :::
 
 :::quiz
-::mc
+::mc NB
 A right triangle has legs 6 and 8. What is the length of the hypotenuse?
 A. $10$
 B. $14$
@@ -274,7 +274,7 @@ D. $7$
 ::key A
 $\sqrt{36+64}=10$. Option B adds the legs.
 
-::mc
+::mc NB
 What is $90^\circ$ in radians?
 A. $\pi$
 B. $2\pi$
@@ -283,7 +283,7 @@ D. $\dfrac{\pi}{4}$
 ::key C
 $90^\circ=\dfrac{90}{180}\pi=\dfrac{\pi}{2}$.
 
-::mc
+::mc NB
 What is the value of $\sin30^\circ$?
 A. $\dfrac{\sqrt3}{2}$
 B. $1$
@@ -292,7 +292,7 @@ D. $\dfrac12$
 ::key D
 In a $30^\circ$–$60^\circ$–$90^\circ$ triangle, the side opposite $30^\circ$ is half the hypotenuse.
 
-::mc
+::mc NB
 What are the center and the radius of the circle $(x+1)^2+(y-4)^2=49$?
 A. Center $(1, -4)$, radius $7$
 B. Center $(-1, 4)$, radius $7$
@@ -301,7 +301,7 @@ D. Center $(1, 4)$, radius $7$
 ::key B
 $x+1=x-(-1)$, so $h=-1$; $k=4$; $r=\sqrt{49}=7$.
 
-::tf
+::tf NB NB TH TH
 In right triangle $ABC$, the right angle is at $C$, $BC=5$, $AC=12$ and $AB=13$.
 a) $\sin A=\dfrac{5}{13}$.
 b) $\cos A=\dfrac{12}{13}$.
@@ -310,12 +310,12 @@ d) $\sin A=\cos B$.
 ::key T T F T
 a) True: the side opposite $A$ is $BC=5$. b) True. c) False: $\tan A=\dfrac{5}{12}$. d) True: $A$ and $B$ are complementary.
 
-::sa
+::sa TH
 A circle has radius 9. The arc cut off by a central angle of $40^\circ$ has length $k\pi$. What is the value of $k$?
 ::key 2
 $\dfrac{40}{360}\cdot2\pi\cdot9=2\pi$.
 
-::sa
+::sa TH
 For an angle with $0<x<90$, $\sin x^\circ=\cos25^\circ$. What is the value of $x$?
 ::key 65
 $90-x=25$, so $x=65$.

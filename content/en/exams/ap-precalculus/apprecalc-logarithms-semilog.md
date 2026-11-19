@@ -295,7 +295,7 @@ So the model is $y=5\cdot2^x$. Check: $5\cdot2^4=80$.
 :::
 
 :::quiz
-::mc
+::mc NB
 The value of $\log_2 32$ is
 A. $16$
 B. $5$
@@ -304,7 +304,7 @@ D. $64$
 ::key B
 $2^5=32$.
 
-::mc
+::mc TH
 Which expression equals $\log M+\log N-\log P$?
 A. $\log(M+N-P)$
 B. $\dfrac{\log MN}{\log P}$
@@ -313,7 +313,7 @@ D. $\log(MNP)$
 ::key C
 Product rule, then quotient rule.
 
-::mc
+::mc TH
 The graph of $y=\log_3(x+2)$ has vertical asymptote
 A. $x=2$
 B. $x=-2$
@@ -322,7 +322,7 @@ D. $x=0$
 ::key B
 The argument $x+2$ is zero at $x=-2$.
 
-::mc
+::mc NB
 If $f(x)=e^x$, then $f^{-1}(x)$ is
 A. $\ln x$
 B. $\dfrac{1}{e^x}$
@@ -331,7 +331,7 @@ D. $\log x$
 ::key A
 The natural log undoes $e^x$.
 
-::tf
+::tf NB NB TH NB
 Consider $g(x)=\ln x$. Decide whether each statement is true or false.
 a) The domain of $g$ is $x>0$.
 b) $g(1)=0$.
@@ -340,12 +340,12 @@ d) $g(e^3)=3$.
 ::key T T F T
 $\ln x$ increases but is concave down.
 
-::sa
+::sa NB
 Evaluate $\log_3 81$.
 ::key 4
 $3^4=81$.
 
-::sa
+::sa NB
 Solve $2^x=64$.
 ::key 6
 $2^6=64$.

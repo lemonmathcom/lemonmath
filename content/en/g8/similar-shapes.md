@@ -357,7 +357,7 @@ We have $k=\dfrac{90}{15}=6$. Let $d$ cm be the distance from the lamp to the ca
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Which of these pairs of rectangles are similar?
 A. $4\times6$ and $10\times15$.
 B. $2\times5$ and $6\times10$.
@@ -366,7 +366,7 @@ D. $5\times5$ and $5\times7$.
 ::key A
 $\dfrac{10}4=\dfrac{15}6=2.5$. In A the ratios $2$ and $1.6$ differ; in B the ratios $3$ and $2$ differ; in D a square and a non-square rectangle have sides that are not proportional ($1$ and $\frac75$).
 
-::mc
+::mc NB
 A shape $\mathcal{H}'$ is in perspective similarity with a shape $\mathcal{H}$, centre $O$, ratio $k=2$. A point $A$ of $\mathcal{H}$ has $OA=3$ cm. The length $OA'$ is
 A. $1.5$ cm.
 B. $6$ cm.
@@ -375,7 +375,7 @@ D. $9$ cm.
 ::key B
 $OA'=k\cdot OA=2\cdot3=6$ cm. Option A divides instead of multiplying, C adds $2$, and D multiplies by $3$ twice.
 
-::mc
+::mc TH
 On a map with scale $1:50\,000$, a road is $4$ cm long. The real length of the road is
 A. $0.2$ km.
 B. $20$ km.
@@ -384,7 +384,7 @@ D. $200$ km.
 ::key C
 $4\cdot50\,000=200\,000$ cm $=2$ km. The other options come from slips in changing units.
 
-::mc
+::mc TH
 Triangle $A'B'C'$ is in perspective similarity with triangle $ABC$ with ratio $\dfrac32$, and the perimeter of triangle $ABC$ is $20$ cm. The perimeter of triangle $A'B'C'$ is
 A. $\dfrac{40}3$ cm.
 B. $23$ cm.
@@ -393,7 +393,7 @@ D. $30$ cm.
 ::key D
 The ratio of the perimeters equals the similarity ratio, so the perimeter is $\dfrac32\cdot20=30$. Option A uses the ratio upside down, B adds $3$, and C multiplies by $3$.
 
-::tf
+::tf VD TH VD VD
 A rectangular photo $12\ \text{cm}\times18\ \text{cm}$ is enlarged to a new rectangular photo of width $30$ cm, keeping its shape. Decide whether each statement is true or false.
 a) The new length is $36$ cm.
 b) The similarity ratio is $\dfrac52$.
@@ -402,12 +402,12 @@ d) The new length is $45$ cm.
 ::key F T T T
 a) False: $36$ comes from adding $18$ cm to the length as the width grew by $18$ cm; we must multiply by the ratio. b) True: $\dfrac{30}{12}=\dfrac52$. c) True: the old perimeter is $60$ cm and $60\cdot\dfrac52=150$. d) True: $18\cdot\dfrac52=45$.
 
-::sa
+::sa TH
 On a map with scale $1:20\,000$, a road is $6.5$ cm long. Find the real length of the road (in kilometres).
 ::key 1.3
 $6.5\cdot20\,000=130\,000$ cm $=1.3$ km.
 
-::sa
+::sa VD
 A small lamp lights a square card of side $10$ cm placed parallel to a wall. The card is $40$ cm from the lamp and the wall is $160$ cm from the lamp. Find the side of the card's shadow on the wall (in centimetres).
 ::key 40
 The ratio of the perspective similarity is $k=\dfrac{160}{40}=4$, so the side of the shadow is $10\cdot4=40$.

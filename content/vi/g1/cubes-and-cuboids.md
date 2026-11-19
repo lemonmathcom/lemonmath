@@ -276,7 +276,7 @@ Mặt dài gồm hai hình vuông ghép lại, là hình chữ nhật. Khối m�
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Viên xúc xắc có dạng khối
 A. hộp chữ nhật.
 B. lập phương.
@@ -285,7 +285,7 @@ D. không biết.
 ::key B
 Các mặt của xúc xắc là hình vuông bằng nhau.
 
-::mc
+::mc NB
 Hộp bút dài có các mặt là hình chữ nhật. Hộp bút có dạng khối
 A. lập phương.
 B. không phải khối.
@@ -294,7 +294,7 @@ D. không biết.
 ::key C
 Khối có các mặt là hình chữ nhật là khối hộp chữ nhật. Phương án A là lỗi nhầm với xúc xắc.
 
-::mc
+::mc NB
 Mỗi mặt của khối lập phương là hình
 A. tròn.
 B. tam giác.
@@ -303,7 +303,7 @@ D. vuông.
 ::key D
 Các mặt của khối lập phương là hình vuông. Phương án C nhầm với khối hộp chữ nhật.
 
-::mc
+::mc TH
 Đồ vật nào có dạng khối hộp chữ nhật?
 A. Quả bóng.
 B. Hộp bánh.
@@ -312,7 +312,7 @@ D. Mặt đồng hồ.
 ::key B
 Hộp bánh có các mặt là hình chữ nhật. Viên xúc xắc là khối lập phương.
 
-::tf
+::tf NB NB TH NB
 Em xét các hình khối.
 a) Viên xúc xắc là khối lập phương.
 b) Mặt của khối lập phương là hình tròn.
@@ -321,12 +321,12 @@ d) Khối hộp chữ nhật có $4$ mặt.
 ::key Đ S Đ S
 a) Đúng. b) Sai: mặt là hình vuông. c) Đúng. d) Sai: khối hộp chữ nhật có $6$ mặt.
 
-::sa
+::sa NB
 Khối lập phương có mấy mặt?
 ::key 6
 Em đếm: mặt trên, mặt dưới và bốn mặt xung quanh, tất cả $6$ mặt.
 
-::sa
+::sa TH
 Em có $3$ khối lập phương và $4$ khối hộp chữ nhật. Em có tất cả bao nhiêu khối?
 ::key 7
 Gộp lại: $3+4=7$.

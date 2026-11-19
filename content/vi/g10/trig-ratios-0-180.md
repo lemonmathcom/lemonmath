@@ -467,7 +467,7 @@ $\tan\alpha=0$ chỉ khi $y_0=0$, tức $\alpha=0^\circ$ hoặc $180^\circ$; khi
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Giá trị của $\cos150^\circ$ là
 A. $\dfrac{\sqrt3}{2}$.
 B. $-\dfrac{\sqrt3}{2}$.
@@ -476,7 +476,7 @@ D. $-\dfrac12$.
 ::key B
 $\cos150^\circ=\cos(180^\circ-30^\circ)=-\cos30^\circ=-\dfrac{\sqrt3}{2}$. Phương án A quên đổi dấu; góc tù luôn có côsin âm.
 
-::mc
+::mc NB
 Giá trị nào sau đây **không xác định**?
 A. $\tan0^\circ$.
 B. $\cot90^\circ$.
@@ -485,7 +485,7 @@ D. $\cos180^\circ$.
 ::key C
 Tại $90^\circ$, điểm $M(0; 1)$ có hoành độ $x_0=0$ nên $\tan90^\circ=\dfrac{y_0}{x_0}$ không xác định. Các giá trị còn lại là $0$, $0$, $-1$.
 
-::mc
+::mc TH
 Cho $\sin\alpha=\dfrac45$ với $90^\circ<\alpha<180^\circ$. Giá trị của $\cos\alpha$ là
 A. $\dfrac35$.
 B. $-\dfrac35$.
@@ -494,7 +494,7 @@ D. $-\dfrac15$.
 ::key B
 $\cos^2\alpha=1-\dfrac{16}{25}=\dfrac{9}{25}$, góc tù nên lấy giá trị âm: $\cos\alpha=-\dfrac35$. Phương án C lấy $1-\sin\alpha$ thay vì $1-\sin^2\alpha$.
 
-::mc
+::mc VD
 Giá trị của biểu thức $\sin120^\circ\cos30^\circ+\cos120^\circ\sin30^\circ$ là
 A. $\dfrac12$.
 B. $1$.
@@ -503,7 +503,7 @@ D. $-\dfrac12$.
 ::key A
 $\dfrac{\sqrt3}{2}\cdot\dfrac{\sqrt3}{2}+\left(-\dfrac12\right)\cdot\dfrac12=\dfrac34-\dfrac14=\dfrac12$. Lấy nhầm $\cos120^\circ=\dfrac12$ thì ra $1$ (phương án B).
 
-::tf
+::tf TH NB TH NB
 Cho góc $\alpha$ với $90^\circ<\alpha<180^\circ$ và $\cos\alpha=-\dfrac{\sqrt5}{3}$.
 a) $\sin\alpha=\dfrac23$.
 b) $\sin(180^\circ-\alpha)=-\dfrac23$.
@@ -512,12 +512,12 @@ d) $\cos(180^\circ-\alpha)=\dfrac{\sqrt5}{3}$.
 ::key Đ S Đ Đ
 a) Đúng: $\sin^2\alpha=1-\dfrac59=\dfrac49$ và $\sin\alpha\ge 0$. b) Sai: $\sin(180^\circ-\alpha)=\sin\alpha=\dfrac23$. c) Đúng: $\tan\alpha=\dfrac{2/3}{-\sqrt5/3}=-\dfrac{2}{\sqrt5}=-\dfrac{2\sqrt5}{5}$. d) Đúng: $\cos(180^\circ-\alpha)=-\cos\alpha$.
 
-::sa
+::sa VD
 Tính $P=\sin^2 25^\circ+\sin^2 65^\circ+\cos100^\circ+\cos80^\circ$.
 ::key 1
 $\sin65^\circ=\cos25^\circ$ (hai góc phụ nhau) nên $\sin^2 25^\circ+\sin^2 65^\circ=1$. Còn $\cos100^\circ=-\cos80^\circ$ (hai góc bù nhau) nên hai số hạng cuối có tổng $0$. Vậy $P=1$.
 
-::sa
+::sa VD
 Trên mặt phẳng toạ độ, điểm $M$ nằm trên nửa đường tròn tâm $O$ bán kính $4$ (phía trên trục hoành) với $\widehat{xOM}=140^\circ$. Tìm hoành độ của $M$ (làm tròn đến hàng phần mười).
 ::key -3,1
 Phóng to nửa đường tròn đơn vị lên $4$ lần: hoành độ của $M$ là $4\cos140^\circ\approx4\cdot(-0{,}766)\approx-3{,}06$, làm tròn được $-3{,}1$. Hoành độ âm vì góc tù đưa $M$ sang bên trái trục tung.

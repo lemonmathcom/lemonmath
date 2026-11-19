@@ -620,7 +620,7 @@ So the mean is about $16$ students per club, and the Music club is closest to it
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Using the chart "Number of students in the school clubs", the club with the most students is
 A. English.
 B. Maths.
@@ -629,7 +629,7 @@ D. Music.
 ::key C
 The Football bar is the tallest, with $24$ students.
 
-::mc
+::mc NB
 Using the same chart, how many students are in the Art club?
 A. $9$.
 B. $3$.
@@ -638,7 +638,7 @@ D. $15$.
 ::key A
 The value on top of the Art bar is $9$. B reads the bar's height in drawing squares and forgets the scale; C and D are values of nearby bars.
 
-::mc
+::mc TH
 Using the chart "Favourite sports of the students in classes 6A and 6B", the sport liked by more students in 6B than in 6A is
 A. Football.
 B. Badminton.
@@ -647,7 +647,7 @@ D. None of them.
 ::key B
 Badminton: 6B has $14$, 6A has $10$. In football and basketball, 6A has more.
 
-::mc
+::mc NB
 A dual bar chart is usually used to
 A. show a single data set.
 B. replace a pictogram when the values are small.
@@ -656,7 +656,7 @@ D. compare two data sets about the same categories.
 ::key D
 Each category has two bars side by side to compare two data sets.
 
-::tf
+::tf NB TH TH TH
 Using the chart "Favourite sports of the students in classes 6A and 6B", decide whether each statement is true or false.
 a) Class 6B has $15$ students who like football.
 b) More students in 6B than in 6A like swimming.
@@ -665,12 +665,12 @@ d) In basketball, class 6A has $4$ more students than class 6B.
 ::key F T F T
 a) False: 6B has $12$; $15$ is 6A's value. b) True: $8>5$. c) False: $10+14=24$. d) True: $10-6=4$.
 
-::sa
+::sa TH
 Using the chart "Number of students in the school clubs", how many club places are there altogether in the five clubs?
 ::key 78
 $12+18+24+9+15=78$.
 
-::sa
+::sa TH
 Using the chart "Favourite sports of the students in classes 6A and 6B", how many students in the two classes like football altogether?
 ::key 27
 $15+12=27$.

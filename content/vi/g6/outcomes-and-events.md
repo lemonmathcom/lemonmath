@@ -525,7 +525,7 @@ Vậy a) $SS$, $SN$, $NS$, $NN$; b) $SN$ và $NS$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Gieo một con xúc xắc sáu mặt. Số kết quả có thể là
 A. $6$.
 B. $1$.
@@ -534,7 +534,7 @@ D. $12$.
 ::key A
 Có $6$ mặt từ $1$ đến $6$ chấm. C là số kết quả khi tung đồng xu.
 
-::mc
+::mc NB
 Gieo một con xúc xắc. Sự kiện nào sau đây không thể xảy ra?
 A. "Số chấm là số chẵn".
 B. "Số chấm bằng $7$".
@@ -543,7 +543,7 @@ D. "Số chấm là số lẻ".
 ::key B
 Không có mặt nào $7$ chấm. A và D có thể xảy ra; C chắc chắn xảy ra.
 
-::mc
+::mc TH
 Tung một đồng xu $20$ lần, có $8$ lần xuất hiện mặt sấp. Xác suất thực nghiệm của sự kiện "xuất hiện mặt sấp" là
 A. $8$.
 B. $\dfrac{12}{20}$.
@@ -552,7 +552,7 @@ D. $\dfrac{1}{2}$.
 ::key C
 $\dfrac{8}{20}=\dfrac25$. A lấy số lần làm xác suất; B là của mặt ngửa; D là giá trị "lí tưởng", không phải kết quả thí nghiệm này.
 
-::mc
+::mc NB
 Rút ngẫu nhiên một thẻ từ hộp có bốn thẻ ghi các số $2$; $4$; $6$; $8$. Sự kiện chắc chắn xảy ra là
 A. "Rút được thẻ ghi số lẻ".
 B. "Rút được thẻ ghi số lớn hơn $8$".
@@ -561,7 +561,7 @@ D. "Rút được thẻ ghi số chẵn".
 ::key D
 Cả bốn thẻ đều ghi số chẵn. A và C không thể xảy ra; B cũng không thể xảy ra.
 
-::tf
+::tf NB TH TH VD
 Dựa vào biểu đồ "Số lần xuất hiện mỗi mặt trong $50$ lần gieo xúc xắc". Xét tính đúng sai của các mệnh đề sau:
 a) Mặt $4$ xuất hiện $10$ lần.
 b) Xác suất thực nghiệm của sự kiện "xuất hiện mặt $5$" là $6$.
@@ -570,12 +570,12 @@ d) Xác suất thực nghiệm của sự kiện "xuất hiện mặt có số c
 ::key Đ S S Đ
 a) Đúng. b) Sai: phải là $\dfrac{6}{50}=\dfrac{3}{25}$. c) Sai: $7+9=16$. d) Đúng: $\dfrac{29}{50}>\dfrac{25}{50}$.
 
-::sa
+::sa TH
 Tung một đồng xu $40$ lần, có $18$ lần xuất hiện mặt sấp. Tính xác suất thực nghiệm của sự kiện "xuất hiện mặt sấp" (viết dưới dạng số thập phân).
 ::key 0,45
 $\dfrac{18}{40}=0{,}45$.
 
-::sa
+::sa TH
 Gieo một con xúc xắc. Có bao nhiêu kết quả thuận lợi cho sự kiện "số chấm là số nguyên tố"?
 ::key 3
 Các số nguyên tố từ $1$ đến $6$ là $2$; $3$; $5$.

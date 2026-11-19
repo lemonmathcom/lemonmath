@@ -299,7 +299,7 @@ Since $AC\parallel(\alpha)$, the plane $(ABC)$ containing $AC$ meets $(\alpha)$ 
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The number of common points of a line and a plane cannot be
 A. $2$.
 B. $0$.
@@ -308,7 +308,7 @@ D. infinitely many.
 ::key A
 If a line has two common points with a plane, it lies in the plane, so it has infinitely many common points. So the number of common points is $0$, $1$ or infinitely many, never $2$.
 
-::mc
+::mc NB
 Two lines $a\parallel b$ with $b\subset(P)$ and $a\not\subset(P)$. Then
 A. $a$ meets $(P)$.
 B. $a\parallel(P)$.
@@ -317,7 +317,7 @@ D. $a$ is skew to $(P)$.
 ::key B
 This is the condition for a line to be parallel to a plane. Option C contradicts the hypothesis $a\not\subset(P)$.
 
-::mc
+::mc TH
 Take a tetrahedron $ABCD$; $M$, $N$ are the midpoints of $AB$, $AC$. The line $MN$ is parallel to which plane?
 A. $(ABC)$.
 B. $(ABD)$.
@@ -326,7 +326,7 @@ D. $(ACD)$.
 ::key C
 $MN\parallel BC\subset(BCD)$ and $MN\not\subset(BCD)$. Option A contains $MN$, and options B and D meet $MN$ at $M$ and $N$ respectively.
 
-::mc
+::mc NB
 Take $d\parallel(P)$ and a plane $(Q)$ containing $d$ that meets $(P)$ along $a$. Which statement is true?
 A. $a$ meets $d$.
 B. $a$ and $d$ are skew.
@@ -335,7 +335,7 @@ D. $a\parallel d$.
 ::key D
 This is property 1: $a$ and $d$ both lie in $(Q)$ and have no common point, so they are parallel.
 
-::tf
+::tf TH NB TH TH
 Take a pyramid $S.ABCD$ whose base is a parallelogram $ABCD$. Decide whether each statement is true or false.
 a) $AD\parallel(SBC)$.
 b) $SA\parallel(ABCD)$.
@@ -344,12 +344,12 @@ d) $AB\parallel(SAD)$.
 ::key T F T F
 a) True: $AD\parallel BC\subset(SBC)$. b) False: $SA$ meets $(ABCD)$ at $A$. c) True: $BC\parallel AD\subset(SAD)$. d) False: $AB$ meets $(SAD)$ at $A$.
 
-::sa
+::sa VD
 Each edge of a cube is parallel to how many of its faces?
 ::key 2
 The edge $AB$ is parallel to the two faces $(CDD'C')$ and $(A'B'C'D')$; it lies in two faces and meets the other two.
 
-::sa
+::sa TH
 How many edges of the parallelepiped $ABCD.A'B'C'D'$ are parallel to the plane $(ABCD)$?
 ::key 4
 These are the four edges of the top face $A'B'C'D'$; the four base edges lie in $(ABCD)$ and the four lateral edges meet $(ABCD)$.

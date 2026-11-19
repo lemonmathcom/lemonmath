@@ -291,7 +291,7 @@ Một đơn hàng cần $90\,000$ viên gạch. Bốn xe đã chở, mỗi xe $1
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $34\,205+28\,798$ là
 A. $62\,993$.
 B. $63\,003$.
@@ -300,7 +300,7 @@ D. $62\,003$.
 ::key B
 $5+8=13$ viết $3$ nhớ $1$; $0+9+1=10$; $2+7+1=10$; $4+8+1=13$; $3+2+1=6$. Được $63\,003$. Phương án D là quên nhớ ở một hàng.
 
-::mc
+::mc TH
 Kết quả của $90\,000-45\,678$ là
 A. $44\,322$.
 B. $45\,322$.
@@ -309,7 +309,7 @@ D. $55\,678$.
 ::key A
 Thử lại: $44\,322+45\,678=90\,000$. Phương án D là làm tròn sai khi mượn.
 
-::mc
+::mc TH
 Kết quả của $16\,207\times4$ là
 A. $64\,288$.
 B. $64\,828$.
@@ -318,7 +318,7 @@ D. $64\,818$.
 ::key B
 $7\times4=28$ viết $8$ nhớ $2$; $0\times4+2=2$; $2\times4=8$; $6\times4=24$ viết $4$ nhớ $2$; $1\times4+2=6$. Được $64\,828$.
 
-::mc
+::mc TH
 Kết quả của $56\,840:7$ là
 A. $812$.
 B. $8\,102$.
@@ -327,7 +327,7 @@ D. $8\,210$.
 ::key C
 $56:7=8$; hạ $8$: $8:7=1$ dư $1$; hạ $4$: $14:7=2$; hạ $0$: $0:7=0$. Được $8\,120$. Phương án A thiếu chữ số $0$.
 
-::tf
+::tf TH NB NB TH
 Xét phép chia $24\,050:5=4\,810$.
 a) $4\,810\times5=24\,050$.
 b) Thương bằng $481$.
@@ -336,12 +336,12 @@ d) Phép chia này có dư.
 ::key Đ S Đ S
 a) Đúng: $4\,810\times5=24\,050$. b) Sai: thương là $4\,810$. c) Đúng. d) Sai: phép nhân thử lại khớp nên không có dư.
 
-::sa
+::sa TH
 Một xe chở $1\,250$ kg gạo. Ba xe như vậy chở tất cả bao nhiêu ki-lô-gam gạo?
 ::key 3750
 $1\,250\times3=3\,750$ (kg).
 
-::sa
+::sa TH
 Chia đều $8\,000$ quyển vở cho $5$ trường. Mỗi trường được bao nhiêu quyển vở?
 ::key 1600
 $8\,000:5=1\,600$ (quyển).

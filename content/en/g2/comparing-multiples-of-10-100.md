@@ -267,7 +267,7 @@ After $30$ come $40, 50, 60$, and then $70$ (we must not include $70$).
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Which sign goes in $40\;\square\;70$?
 A. $>$.
 B. $=$.
@@ -276,7 +276,7 @@ D. They cannot be compared.
 ::key C
 $4$ tens is less than $7$ tens, so $40<70$. Option A turns the pointed end the wrong way.
 
-::mc
+::mc TH
 Which is the greatest of $300, 700, 500, 100$?
 A. $300$.
 B. $100$.
@@ -285,7 +285,7 @@ D. $700$.
 ::key D
 $7$ hundreds is the greatest number of hundreds.
 
-::mc
+::mc TH
 Which is the order from smallest to largest of $30, 10, 50$?
 A. $10, 30, 50$.
 B. $50, 30, 10$.
@@ -294,7 +294,7 @@ D. $10, 50, 30$.
 ::key A
 The tens are $3, 1, 5$; from smallest they are $1, 3, 5$. Option B is largest first.
 
-::mc
+::mc TH
 Which sign goes in $90\;\square\;100$?
 A. $>$.
 B. $<$.
@@ -303,7 +303,7 @@ D. They cannot be compared.
 ::key B
 $100$ is $10$ tens, which is more than $9$ tens. Option A comes from looking only at the first digit.
 
-::tf
+::tf TH TH TH TH
 Compare the numbers.
 a) $50<80$.
 b) $600>400$.
@@ -312,12 +312,12 @@ d) $100<90$.
 ::key T T F F
 a) True. b) True. c) False: $70$ is $7$ tens and $700$ is $7$ hundreds, so $70<700$. d) False: $100>90$.
 
-::sa
+::sa TH
 Which is the greatest of $20, 80, 50$?
 ::key 80
 $8$ tens is the greatest number of tens.
 
-::sa
+::sa TH
 Which is the smallest of $400, 900, 300$?
 ::key 300
 $3$ hundreds is the smallest number of hundreds.

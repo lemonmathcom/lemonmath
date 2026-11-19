@@ -361,7 +361,7 @@ The numbers that leave remainder $23$ when divided by $24$ have the form $24\tim
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $936\div12$ equals
 A. $78$.
 B. $780$.
@@ -370,7 +370,7 @@ D. $68$.
 ::key A
 $12\times78=936$, so $936\div12=78$. For $68$ we get $12\times68=816$, which is wrong; option B adds an extra zero.
 
-::mc
+::mc TH
 $4\,205\div35$ equals
 A. $12$ (remainder $5$).
 B. $120$ (remainder $5$).
@@ -379,7 +379,7 @@ D. $121$ (remainder $0$).
 ::key B
 $120\times35+5=4\,205$. Option A is missing the zero in the quotient, and option C has a remainder that is not less than the divisor.
 
-::mc
+::mc NB
 In a division by $25$, the largest possible remainder is
 A. $26$.
 B. $25$.
@@ -388,7 +388,7 @@ D. $1$.
 ::key C
 The remainder is always less than the divisor $25$, so the largest remainder is $24$.
 
-::mc
+::mc VD
 $150$ exercise books are packed into boxes, each box holding $12$ books. What is the smallest number of boxes needed to pack all the books?
 A. $12$ boxes.
 B. $6$ boxes.
@@ -397,7 +397,7 @@ D. $13$ boxes.
 ::key D
 $150\div12=12$ (remainder $6$). $12$ boxes hold $144$ books, and the other $6$ books need $1$ more box: $12+1=13$ boxes.
 
-::tf
+::tf TH TH TH TH
 Look at the division $2\,592\div36$.
 a) The quotient of the division is $62$.
 b) The remainder of the division is $12$.
@@ -406,12 +406,12 @@ d) $36\times8=288$ is greater than $259$, so the first digit of the quotient can
 ::key F F T T
 a) False: the quotient is $72$. b) False: the remainder is $0$. c) True: $36\times72=2\,592$. d) True: $288$ cannot be subtracted from $259$.
 
-::sa
+::sa TH
 Find the remainder of $1\,234\div21$.
 ::key 16
 $123\div21=5$ (remainder $18$); bring down $4$ to make $184$, $184\div21=8$ (remainder $16$). So $1\,234\div21=58$ (remainder $16$).
 
-::sa
+::sa VD
 $2\,450$ story books are shared equally among $35$ class libraries. How many books does each class library get?
 ::key 70
 $2\,450\div35=70$ (books), because $35\times70=2\,450$.

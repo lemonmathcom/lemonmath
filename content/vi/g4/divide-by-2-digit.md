@@ -361,7 +361,7 @@ Các số chia cho $24$ dư $23$ có dạng $24\times k+23$:
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $936:12$ là
 A. $78$.
 B. $780$.
@@ -370,7 +370,7 @@ D. $68$.
 ::key A
 $12\times78=936$ nên $936:12=78$. Với $68$ thì $12\times68=816$, không đúng; phương án B thêm một chữ số 0.
 
-::mc
+::mc TH
 Kết quả của $4\,205:35$ là
 A. $12$ (dư $5$).
 B. $120$ (dư $5$).
@@ -379,7 +379,7 @@ D. $121$ (dư $0$).
 ::key B
 $120\times35+5=4\,205$. Phương án A thiếu chữ số 0 ở thương, phương án C có số dư không bé hơn số chia.
 
-::mc
+::mc NB
 Trong phép chia cho $25$, số dư lớn nhất có thể là
 A. $26$.
 B. $25$.
@@ -388,7 +388,7 @@ D. $1$.
 ::key C
 Số dư luôn bé hơn số chia $25$, nên số dư lớn nhất là $24$.
 
-::mc
+::mc VD
 Có $150$ quyển vở xếp vào các hộp, mỗi hộp $12$ quyển. Cần ít nhất bao nhiêu hộp để xếp hết số vở?
 A. $12$ hộp.
 B. $6$ hộp.
@@ -397,7 +397,7 @@ D. $13$ hộp.
 ::key D
 $150:12=12$ (dư $6$). $12$ hộp chứa $144$ quyển, còn $6$ quyển nên cần thêm $1$ hộp: $12+1=13$ hộp.
 
-::tf
+::tf TH TH TH TH
 Em xét phép chia $2\,592:36$.
 a) Thương của phép chia là $62$.
 b) Số dư của phép chia là $12$.
@@ -406,12 +406,12 @@ d) $36\times8=288$ lớn hơn $259$, nên chữ số đầu tiên của thương
 ::key S S Đ Đ
 a) Sai: thương là $72$. b) Sai: số dư là $0$. c) Đúng: $36\times72=2\,592$. d) Đúng: không trừ được $288$ khỏi $259$.
 
-::sa
+::sa TH
 Tìm số dư của phép chia $1\,234:21$.
 ::key 16
 $123:21=5$ (dư $18$); hạ $4$ được $184$, $184:21=8$ (dư $16$). Vậy $1\,234:21=58$ (dư $16$).
 
-::sa
+::sa VD
 Có $2\,450$ quyển truyện chia đều vào $35$ thư viện lớp. Mỗi thư viện lớp được bao nhiêu quyển?
 ::key 70
 $2\,450:35=70$ (quyển), vì $35\times70=2\,450$.

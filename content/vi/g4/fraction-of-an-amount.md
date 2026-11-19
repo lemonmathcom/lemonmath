@@ -331,7 +331,7 @@ Cả khối có $5$ phần, tức là $12\times5=60$ (em).
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $\dfrac{2}{3}$ của $12$ là
 A. $6$.
 B. $18$.
@@ -340,7 +340,7 @@ D. $8$.
 ::key D
 Mỗi phần là $12:3=4$; lấy $2$ phần được $4\times2=8$. Phương án C chỉ là $12:3$.
 
-::mc
+::mc TH
 $\dfrac{3}{5}$ của $45$ kg là
 A. $27$ kg.
 B. $9$ kg.
@@ -349,7 +349,7 @@ D. $15$ kg.
 ::key A
 $45:5\times3=9\times3=27$ (kg). Phương án B quên nhân với $3$, phương án C chia cho tử số rồi nhân với mẫu số.
 
-::mc
+::mc TH
 Nam có $48$ viên bi và cho bạn $\dfrac{1}{6}$ số bi. Nam đã cho bạn
 A. $288$ viên bi.
 B. $8$ viên bi.
@@ -358,7 +358,7 @@ D. $6$ viên bi.
 ::key B
 $48:6=8$ (viên). Phương án A là $48\times6$, kết quả lớn hơn số bi ban đầu.
 
-::mc
+::mc NB
 Phép tính nào tìm $\dfrac{5}{9}$ của $36$?
 A. $36:5\times9$.
 B. $36\times9:5$.
@@ -367,7 +367,7 @@ D. $36+\dfrac{5}{9}$.
 ::key C
 Chia cho mẫu số $9$ rồi nhân với tử số $5$.
 
-::tf
+::tf NB TH TH TH
 Em xét $\dfrac{3}{8}$ của $40$.
 a) $\dfrac{3}{8}$ của $40$ bằng $40:3\times8$.
 b) $\dfrac{3}{8}$ của $40$ bằng $120$.
@@ -376,12 +376,12 @@ d) $\dfrac{3}{8}$ của $40$ lớn hơn $40$.
 ::key S S Đ S
 a) Sai: phải chia cho mẫu số $8$ và nhân với tử số $3$. b) Sai: $120=40\times3$ chưa chia cho $8$. c) Đúng: $40:8\times3=15$. d) Sai: $\dfrac{3}{8}<1$ nên kết quả bé hơn $40$.
 
-::sa
+::sa VD
 Tìm $\dfrac{4}{7}$ của $35$.
 ::key 20
 $35:7\times4=5\times4=20$.
 
-::sa
+::sa VD
 Lớp $4$A có $36$ học sinh, trong đó $\dfrac{5}{9}$ số học sinh chơi ở sân trường. Hỏi có bao nhiêu em không chơi ở sân trường?
 ::key 16
 $36:9\times5=20$ em chơi ở sân; số em không chơi ở sân là $36-20=16$.

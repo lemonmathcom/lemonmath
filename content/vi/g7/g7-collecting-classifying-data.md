@@ -597,7 +597,7 @@ Vậy a) tổng là $170\%$, không vẽ được; b) khoảng $35{,}3\%$ và $1
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Dữ liệu nào sau đây là dữ liệu định tính?
 A. Chiều cao của các bạn trong lớp.
 B. Loại trái cây yêu thích của mỗi bạn.
@@ -606,7 +606,7 @@ D. Số tiền tiêu vặt mỗi tuần của mỗi bạn.
 ::key B
 Loại trái cây là tên gọi nên là dữ liệu định tính; ba dữ liệu còn lại là số đo hoặc số đếm nên là định lượng.
 
-::mc
+::mc TH
 Trong $40$ học sinh có $14$ bạn đi xe buýt. Tỉ lệ phần trăm số bạn đi xe buýt là
 A. $14\%$.
 B. $28\%$.
@@ -615,7 +615,7 @@ D. $65\%$.
 ::key C
 $\dfrac{14}{40}\cdot100\%=35\%$. A lấy số bạn làm phần trăm; D là tỉ lệ của các bạn không đi xe buýt.
 
-::mc
+::mc TH
 Một hình quạt của biểu đồ hình quạt tròn chiếm $25\%$. Góc ở tâm của hình quạt đó là
 A. $100^\circ$.
 B. $25^\circ$.
@@ -624,7 +624,7 @@ D. $90^\circ$.
 ::key D
 $25\cdot3{,}6^\circ=90^\circ$, bằng một phần tư của $360^\circ$. B nhầm phần trăm với độ.
 
-::mc
+::mc TH
 Một hình quạt có góc ở tâm $72^\circ$ chiếm bao nhiêu phần trăm cả hình tròn?
 A. $20\%$.
 B. $36\%$.
@@ -633,7 +633,7 @@ D. $72\%$.
 ::key A
 $72^\circ:3{,}6=20$, nên hình quạt chiếm $20\%$ (vì $\dfrac{72}{360}=\dfrac15$). C là kết quả chia ngược $360:72$.
 
-::tf
+::tf TH TH NB VD
 Theo biểu đồ "Cách đến trường của $40$ học sinh lớp 7A" (đi bộ $10\%$, xe đạp $30\%$, xe buýt $20\%$, xe máy $40\%$). Xét tính đúng sai của các mệnh đề sau:
 a) Hình quạt xe máy có góc ở tâm là $40^\circ$.
 b) Có $12$ bạn đi xe đạp.
@@ -642,12 +642,12 @@ d) Số bạn đi xe máy bằng số bạn đi xe đạp và xe buýt cộng l�
 ::key S Đ Đ S
 a) Sai: góc là $40\cdot3{,}6^\circ=144^\circ$. b) Đúng: $40\cdot30\%=12$. c) Đúng: $10\%+20\%=30\%$. d) Sai: xe máy $16$ bạn, còn xe đạp và xe buýt $12+8=20$ bạn.
 
-::sa
+::sa VD
 Trong biểu đồ hình quạt tròn biểu diễn $40$ học sinh, hình quạt "Xe buýt" có góc ở tâm $72^\circ$. Có bao nhiêu học sinh đi xe buýt?
 ::key 8
 $\dfrac{72}{360}\cdot40=8$ (học sinh).
 
-::sa
+::sa VD
 Một lớp có $25$ bạn, trong đó $7$ bạn thích bóng rổ. Hình quạt "Bóng rổ" có góc ở tâm bao nhiêu độ? (làm tròn kết quả đến hàng đơn vị)
 ::key 101
 $\dfrac{7}{25}\cdot360^\circ=100{,}8^\circ\approx101^\circ$.

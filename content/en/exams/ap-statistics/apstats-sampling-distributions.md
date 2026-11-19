@@ -269,7 +269,7 @@ So a sample of at least $625$ is needed.
 :::
 
 :::quiz
-::mc
+::mc NB
 In a normal distribution, about $99.7\%$ of the values lie within how many standard deviations of the mean?
 A. $1$
 B. $2$
@@ -278,7 +278,7 @@ D. $3$
 ::key D
 The empirical rule: $68$, $95$, $99.7$.
 
-::mc
+::mc TH
 A population has $\sigma=10$. For random samples of size $25$, the standard deviation of $\bar x$ is
 A. $2$
 B. $10$
@@ -287,7 +287,7 @@ D. $50$
 ::key A
 $\dfrac{10}{\sqrt{25}}=2$.
 
-::mc
+::mc NB
 For the sampling distribution of $\hat p$ to be approximately normal, we check that
 A. $n\ge30$
 B. $np\ge10$ and $n(1-p)\ge10$
@@ -296,7 +296,7 @@ D. $p=0.5$
 ::key B
 The large counts condition.
 
-::mc
+::mc TH
 Increasing the sample size
 A. reduces the bias of a statistic
 B. makes the population normal
@@ -305,7 +305,7 @@ D. changes the parameter
 ::key C
 The spread decreases as $n$ increases.
 
-::tf
+::tf NB TH TH TH
 A population has mean $40$ and standard deviation $9$. Random samples of size $81$ are taken. Decide whether each statement is true or false.
 a) The mean of $\bar x$ is $40$.
 b) The standard deviation of $\bar x$ is $1$.
@@ -314,12 +314,12 @@ d) The individual values must be normal.
 ::key T T T F
 The central limit theorem applies to $\bar x$, not to individuals.
 
-::sa
+::sa TH
 A test has mean $100$ and standard deviation $15$. Find the z-score of $130$.
 ::key 2
 $\dfrac{130-100}{15}=2$.
 
-::sa
+::sa NB
 About what percent of a normal distribution lies within one standard deviation of the mean?
 ::key 68
 The empirical rule.

@@ -367,7 +367,7 @@ $$B=(\sqrt2-1)+(\sqrt3-\sqrt2)+\dots+(3-\sqrt8)=3-1=2.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The simplified value of $\sqrt{48}-\sqrt{12}$ is
 A. $6$.
 B. $2\sqrt3$.
@@ -376,7 +376,7 @@ D. $3\sqrt3$.
 ::key B
 $\sqrt{48}-\sqrt{12}=4\sqrt3-2\sqrt3=2\sqrt3$. Option A is $\sqrt{48-12}$ (root of a difference), C is $\sqrt{48}\div\sqrt{12}$, and D is $4\sqrt3-\sqrt3$.
 
-::mc
+::mc TH
 Rationalising the denominator of $\dfrac{6}{\sqrt5-\sqrt2}$ gives
 A. $2\sqrt5-2\sqrt2$.
 B. $6(\sqrt5+\sqrt2)$.
@@ -385,7 +385,7 @@ D. $\dfrac{\sqrt5+\sqrt2}{2}$.
 ::key C
 $\dfrac{6(\sqrt5+\sqrt2)}{5-2}=2(\sqrt5+\sqrt2)$. Option A has the wrong sign in the conjugate, B forgets to divide by $5-2=3$, and D divides by $12$ by mistake.
 
-::mc
+::mc TH
 The value of $\sqrt{(\sqrt5-3)^2}$ is
 A. $\sqrt5-3$.
 B. $3+\sqrt5$.
@@ -394,7 +394,7 @@ D. $3-\sqrt5$.
 ::key D
 $\sqrt{(\sqrt5-3)^2}=|\sqrt5-3|=3-\sqrt5$ because $\sqrt5<3$. Option A forgets the absolute value, and B and C are different expressions (an addition in place of a subtraction).
 
-::mc
+::mc TH
 The condition for $\dfrac{1}{\sqrt{x-3}}$ to be defined is
 A. $x>3$.
 B. $x\geq3$.
@@ -403,7 +403,7 @@ D. $x>0$.
 ::key A
 The expression under the root must be non-negative and the denominator non-zero, so $x-3>0$. Option B misses the condition that the denominator is non-zero, C misses the condition of the root, and D takes the condition of $\sqrt x$.
 
-::tf
+::tf TH NB TH TH
 Given $P=\dfrac{2\sqrt x}{\sqrt x+2}$ with $x\geq0$. Decide whether each statement is true or false.
 a) $P$ is defined for every $x\geq0$.
 b) $P=2$ when $x=0$.
@@ -412,12 +412,12 @@ d) $P=\dfrac12$ when $x=1$.
 ::key T F T F
 a) True: $\sqrt x+2>0$ for every $x\geq0$. b) False: at $x=0$, $P=0$. c) True: $P=\dfrac{4}{4}=1$. d) False: at $x=1$, $P=\dfrac23$.
 
-::sa
+::sa TH
 Given $P=\dfrac{x-1}{\sqrt x}$ with $x>0$. Find the value of $P$ when $x=4$.
 ::key 1.5
 $P=\dfrac{4-1}{2}=\dfrac32=1.5$.
 
-::sa
+::sa VD
 A square pane of glass has area $72$ dm². Find the length of its diagonal (in dm).
 ::key 12
 The side is $6\sqrt2$, so the diagonal is $6\sqrt2\cdot\sqrt2=12$.

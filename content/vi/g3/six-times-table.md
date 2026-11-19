@@ -328,7 +328,7 @@ b) Số hàng chưa xếp là $10-7=3$ (hàng). Số học sinh đã xếp là $
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của $6\times5$ là
 A. $11$.
 B. $30$.
@@ -337,7 +337,7 @@ D. $25$.
 ::key B
 $6\times5=6\times4+6=24+6=30$. Phương án A là lỗi cộng $6+5$.
 
-::mc
+::mc NB
 Kết quả của $6\times8$ là
 A. $42$.
 B. $54$.
@@ -346,7 +346,7 @@ D. $14$.
 ::key C
 $6\times8=42+6=48$. Phương án A là $6\times7$, thiếu một nhóm $6$.
 
-::mc
+::mc NB
 Kết quả của $54:6$ là
 A. $8$.
 B. $9$.
@@ -355,7 +355,7 @@ D. $48$.
 ::key B
 Vì $6\times9=54$ nên $54:6=9$. Phương án A là lỗi nhớ nhầm $6\times8=48$.
 
-::mc
+::mc TH
 Mỗi hộp có $6$ chiếc bánh. Hỏi $7$ hộp như vậy có bao nhiêu chiếc bánh?
 A. $13$ chiếc.
 B. $36$ chiếc.
@@ -364,7 +364,7 @@ D. $48$ chiếc.
 ::key C
 $7$ nhóm, mỗi nhóm $6$ chiếc: $6\times7=42$. Phương án A là lỗi cộng $6+7$.
 
-::tf
+::tf TH NB TH NB
 Em xét phép nhân $6\times6=36$.
 a) $6\times6=6\times5+6$.
 b) $36:6=6$.
@@ -373,12 +373,12 @@ d) $6\times6$ bé hơn $30$.
 ::key Đ Đ S S
 a) Đúng: $30+6=36$. b) Đúng: $6\times6=36$. c) Sai: $36:9=4$. d) Sai: $36>30$.
 
-::sa
+::sa NB
 Tính $6\times9$.
 ::key 54
 $6\times9=6\times10-6=60-6=54$.
 
-::sa
+::sa TH
 Có $48$ quả trứng xếp vào các vỉ, mỗi vỉ $6$ quả. Hỏi xếp được bao nhiêu vỉ?
 ::key 8
 $48:6=8$ (vỉ), vì $6\times8=48$.

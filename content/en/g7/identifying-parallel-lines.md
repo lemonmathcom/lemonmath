@@ -536,7 +536,7 @@ The angles $\angle mAB$ and $\angle ABn$ are alternate angles for the two lines 
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $a\parallel b$ and a line $c$ crosses $a$, $b$. Two alternate angles are
 A. supplementary.
 B. equal.
@@ -545,7 +545,7 @@ D. unrelated.
 ::key B
 By the property of parallel lines, alternate angles are equal. A describes co-interior angles.
 
-::mc
+::mc NB
 $a\parallel b$ and a line $c$ crosses $a$, $b$. One corresponding angle is $110^\circ$, so the corresponding angle matching it is
 A. $70^\circ$.
 B. $180^\circ$.
@@ -554,7 +554,7 @@ D. $250^\circ$.
 ::key C
 Corresponding angles are equal when the lines are parallel. A is the adjacent supplementary angle, D is $360^\circ-110^\circ$.
 
-::mc
+::mc NB
 Through a point not on a line $d$, the number of lines parallel to $d$ is
 A. infinitely many.
 B. exactly two.
@@ -563,7 +563,7 @@ D. exactly one.
 ::key D
 This is Euclid's axiom.
 
-::mc
+::mc TH
 Two lines $a$ and $b$ are both perpendicular to a line $c$. Then
 A. $a\parallel b$.
 B. $a$ is certainly the same line as $b$.
@@ -572,7 +572,7 @@ D. $a$ crosses $b$.
 ::key A
 The corresponding angles are both $90^\circ$, so $a\parallel b$. C is wrong because $a\perp b$ would need them to cross.
 
-::tf
+::tf TH TH TH TH
 $a\parallel b$; $c$ crosses $a$ at $A$ and $b$ at $B$; $M\in a$ and $N\in b$ lie on opposite sides of $c$; $P\in b$ lies on the same side of $c$ as $M$; $\angle MAB=70^\circ$. Decide whether each statement is true or false.
 a) $\angle ABN=70^\circ$.
 b) $\angle ABP=70^\circ$.
@@ -581,12 +581,12 @@ d) Through $B$ there are two lines other than $b$ that are parallel to $a$.
 ::key T F T F
 a) True: alternate angles. b) False: $\angle ABP=180^\circ-70^\circ=110^\circ$. c) True: co-interior angles are supplementary. d) False: by Euclid's axiom there is only one line through $B$ parallel to $a$, namely $b$.
 
-::sa
+::sa VD
 $a\parallel b$ and two alternate angles are $(2x+10)^\circ$ and $(x+40)^\circ$. Find $x$.
 ::key 30
 $2x+10=x+40$, so $x=30$.
 
-::sa
+::sa TH
 $a\parallel b$ and one co-interior angle is $115^\circ$. What is the other co-interior angle, in degrees?
 ::key 65
 $180-115=65$.

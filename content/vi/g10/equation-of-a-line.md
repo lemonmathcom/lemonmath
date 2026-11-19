@@ -406,7 +406,7 @@ c) $BC$ có vectơ chỉ phương $(3; -1)$, vectơ pháp tuyến $(1; 3)$: $(x-
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Một vectơ pháp tuyến của đường thẳng $2x-5y+3=0$ là
 A. $(2; 5)$.
 B. $(5; 2)$.
@@ -415,7 +415,7 @@ D. $(-5; 3)$.
 ::key C
 Trong phương trình $Ax+By+C=0$, cặp hệ số $(A; B)=(2; -5)$ là một vectơ pháp tuyến. Phương án B là một vectơ chỉ phương; A sai dấu.
 
-::mc
+::mc NB
 Phương trình tham số của đường thẳng đi qua $A(1; -2)$ và có vectơ chỉ phương $\vec u=(3; 1)$ là
 A. $\begin{cases}x=3+t\\ y=1-2t\end{cases}$.
 B. $\begin{cases}x=1+t\\ y=-2+3t\end{cases}$.
@@ -424,7 +424,7 @@ D. $\begin{cases}x=1+3t\\ y=-2+t\end{cases}$.
 ::key D
 $x=x_0+at$, $y=y_0+bt$ với $(x_0; y_0)=(1; -2)$ và $(a; b)=(3; 1)$. Phương án A đổi vai trò điểm và vectơ, B đổi chỗ hai toạ độ của $\vec u$, C sai dấu $y_0$.
 
-::mc
+::mc TH
 Hệ số góc của đường thẳng $3x+4y-8=0$ là
 A. $\dfrac34$.
 B. $-\dfrac34$.
@@ -433,7 +433,7 @@ D. $2$.
 ::key B
 Rút $y$: $y=-\dfrac34x+2$, nên $k=-\dfrac AB=-\dfrac34$. Phương án A quên dấu trừ; D là tung độ giao điểm với trục tung.
 
-::mc
+::mc VD
 Đường thẳng đi qua $M(1; 2)$ và vuông góc với đường thẳng $x-3y+5=0$ có phương trình là
 A. $x-3y+5=0$.
 B. $3x+y+5=0$.
@@ -442,7 +442,7 @@ D. $3x-y-1=0$.
 ::key C
 Đường vuông góc nhận $(3; 1)$ làm vectơ pháp tuyến: $3(x-1)+(y-2)=0\iff 3x+y-5=0$. Phương án A song song (thực ra trùng) với đường đã cho; D đi qua $M$ nhưng có vectơ pháp tuyến $(3; -1)$ nên không vuông góc.
 
-::tf
+::tf NB TH VD TH
 Cho đường thẳng $d: \begin{cases}x=2+t\\ y=-1+2t\end{cases}$.
 a) $d$ đi qua điểm $A(2; -1)$.
 b) $\vec n=(2; 1)$ là một vectơ pháp tuyến của $d$.
@@ -451,12 +451,12 @@ d) $d$ cắt trục tung tại điểm có tung độ bằng $5$.
 ::key Đ S Đ S
 a) Đúng: $t=0$. b) Sai: $\vec u=(1; 2)$ và $\vec u\cdot\vec n=4\ne0$; một vectơ pháp tuyến là $(2; -1)$. c) Đúng: $2(x-2)-(y+1)=0\iff 2x-y-5=0$. d) Sai: $x=0$ cho $y=-5$.
 
-::sa
+::sa VD
 Đường thẳng đi qua $A(-1; 3)$ và $B(2; 9)$ cắt trục tung tại điểm có tung độ bằng bao nhiêu?
 ::key 5
 $\overrightarrow{AB}=(3; 6)=3(1; 2)$ nên $\vec n=(2; -1)$: $2(x+1)-(y-3)=0\iff y=2x+5$. Với $x=0$ ta được $y=5$.
 
-::sa
+::sa VD
 Trên hải đồ (đơn vị: km), một con tàu rời điểm $A(1; 2)$ và mỗi giờ đi được một độ dời bằng vectơ $\vec v=(3; -1)$. Bờ biển là đường thẳng $x+y-15=0$. Sau bao nhiêu giờ thì tàu chạm bờ?
 ::key 6
 Sau $t$ giờ tàu ở $(1+3t; 2-t)$. Thay vào phương trình bờ: $1+3t+2-t-15=0\iff 2t=12\iff t=6$.

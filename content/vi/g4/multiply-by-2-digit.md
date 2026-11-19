@@ -333,7 +333,7 @@ Kết quả đúng là $412\times23=412\times3+412\times20=1\,236+8\,240=9\,476$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $56\times23$ là
 A. $280$.
 B. $1\,278$.
@@ -342,7 +342,7 @@ D. $1\,288$.
 ::key D
 $56\times3=168$ và $56\times20=1\,120$, nên $168+1\,120=1\,288$. Phương án B quên số nhớ, phương án C chỉ là tích riêng thứ hai, phương án A không lùi tích riêng thứ hai ($168+112$).
 
-::mc
+::mc TH
 Kết quả của $214\times30$ là
 A. $6\,420$.
 B. $64\,200$.
@@ -351,7 +351,7 @@ D. $642$.
 ::key A
 $214\times30=(214\times3)\times10=642\times10=6\,420$. Phương án D quên nhân với $10$, phương án B thêm hai chữ số 0.
 
-::mc
+::mc NB
 Trong phép nhân $235\times24$, giá trị của $235\times20$ là
 A. $470$.
 B. $4\,700$.
@@ -360,7 +360,7 @@ D. $47\,000$.
 ::key B
 $235\times2=470$ nên $235\times20=4\,700$. Phương án C là $235\times4$.
 
-::mc
+::mc VD
 Mỗi hộp có $36$ chiếc bút. $25$ hộp như vậy có tất cả
 A. $61$ chiếc bút.
 B. $180$ chiếc bút.
@@ -369,7 +369,7 @@ D. $9\,000$ chiếc bút.
 ::key C
 $36\times25=180+720=900$ (chiếc). Phương án A là phép cộng, phương án B là $36\times5$.
 
-::tf
+::tf NB TH TH TH
 Em xét phép nhân $42\times35$.
 a) Tích riêng thứ nhất là $42\times5=210$.
 b) $42\times30=1\,260$.
@@ -378,12 +378,12 @@ d) $42\times35$ lớn hơn $1\,500$.
 ::key Đ Đ S S
 a) Đúng: $42\times5=210$. b) Đúng: $42\times3=126$ nên $42\times30=1\,260$. c) Sai: tích riêng thứ hai phải là $1\,260$; $42\times35=210+1\,260=1\,470$. d) Sai: $1\,470<1\,500$.
 
-::sa
+::sa TH
 Tính $25\times16$.
 ::key 400
 $25\times6=150$ và $25\times10=250$. Vậy $25\times16=150+250=400$.
 
-::sa
+::sa VD
 Một sân hình chữ nhật dài $45$ m, rộng $22$ m. Diện tích sân là bao nhiêu mét vuông?
 ::key 990
 $45\times22=90+900=990$ ($\text{m}^2$).

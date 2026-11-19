@@ -286,7 +286,7 @@ Let half the distance be $s$ (km), $s>0$. The time for the first half is $\dfrac
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A boat has a downstream speed of $24$ km/h and an upstream speed of $16$ km/h. The speed of the current is
 A. $4$ km/h.
 B. $20$ km/h.
@@ -295,7 +295,7 @@ D. $8$ km/h.
 ::key A
 $x+y=24$ and $x-y=16$, so $y=\dfrac{24-16}{2}=4$. Option D is the difference $24-16$ (forgetting to halve it), B is the speed of the boat in still water, and C is the sum of the two speeds.
 
-::mc
+::mc VD
 One tap alone fills a tank in $12$ hours; with both taps open the tank is full after $4$ hours. The second tap alone fills the tank in
 A. $8$ hours.
 B. $6$ hours.
@@ -304,7 +304,7 @@ D. $16$ hours.
 ::key B
 $\dfrac1x=\dfrac14-\dfrac1{12}=\dfrac16$, so $x=6$. Option A is $12-4$, C is $\dfrac{12}{4}$, and D is $12+4$.
 
-::mc
+::mc TH
 The price of an item is increased by $20\%$ and then decreased by $20\%$ (of the new price). Compared with the original price, the final price is
 A. $100\%$.
 B. $104\%$.
@@ -313,7 +313,7 @@ D. $80\%$.
 ::key C
 $1.2\cdot0.8=0.96$. Option A is the familiar mistake (thinking an increase and a decrease of the same percentage cancel), and B and D use the wrong factor.
 
-::mc
+::mc VD
 The product of two consecutive natural numbers is $156$. The larger number is
 A. $12$.
 B. $14$.
@@ -322,7 +322,7 @@ D. $13$.
 ::key D
 $x(x+1)=156$ gives $x=12$, so the larger number is $13$. Option A is the smaller number, and B and C do not fit ($14\cdot15=210$, $11\cdot12=132$).
 
-::tf
+::tf NB TH VD VD
 A car travels $60$ km. On the way back it increases its speed by $10$ km/h, so the return journey takes $18$ minutes less than the outward journey. Let the outward speed be $x$ (km/h). Decide whether each statement is true or false.
 a) The outward time is $\dfrac x{60}$ hours.
 b) $18$ minutes equals $0.18$ hour.
@@ -331,12 +331,12 @@ d) The equation of the problem is $\dfrac{60}x-\dfrac{60}{x+10}=0.3$.
 ::key F F T T
 a) False: the outward time is $\dfrac{60}x$ hours. b) False: $18$ minutes $=0.3$ hour. c) True: $40\cdot50=2000$ and $60\div40-60\div50=0.3$. d) True: the difference in time is $0.3$ hour.
 
-::sa
+::sa TH
 Two numbers have sum $40$ and difference $12$. Find the larger number.
 ::key 26
 $\dfrac{40+12}2=26$.
 
-::sa
+::sa VD
 Two teams working together finish a job in $6$ days. Working alone, team I finishes $5$ days sooner than team II. How many days does team I need alone?
 ::key 10
 Let $x$ be the number of days for team I: $\dfrac1x+\dfrac1{x+5}=\dfrac16$ gives $x^2-7x-30=0$, so $x=10$.

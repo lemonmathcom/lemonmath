@@ -484,7 +484,7 @@ Vậy $OM'$ là tia phân giác của $\widehat{BOD}$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Tổng số đo của hai góc kề bù bằng
 A. $180^\circ$.
 B. $100^\circ$.
@@ -493,7 +493,7 @@ D. $360^\circ$.
 ::key A
 Hai góc kề bù tạo thành một góc bẹt nên tổng là $180^\circ$. $90^\circ$ là tổng của hai góc phụ nhau, $360^\circ$ là một vòng tròn.
 
-::mc
+::mc NB
 Hai đường thẳng $AB$ và $CD$ cắt nhau tại $O$, $\widehat{AOC}=70^\circ$. Khi đó $\widehat{BOD}$ bằng
 A. $110^\circ$.
 B. $70^\circ$.
@@ -502,7 +502,7 @@ D. $290^\circ$.
 ::key B
 $\widehat{BOD}$ và $\widehat{AOC}$ đối đỉnh nên bằng nhau. B là góc kề bù, C là $90^\circ-70^\circ$, D là $360^\circ-70^\circ$.
 
-::mc
+::mc TH
 Tia $Oz$ là tia phân giác của $\widehat{xOy}=84^\circ$. Khi đó $\widehat{xOz}$ bằng
 A. $168^\circ$.
 B. $84^\circ$.
@@ -511,7 +511,7 @@ D. $96^\circ$.
 ::key C
 $\widehat{xOz}=\dfrac{84^\circ}2=42^\circ$. A nhân đôi thay vì chia đôi, B giữ nguyên góc, D là $180^\circ-84^\circ$.
 
-::mc
+::mc VD
 Hai góc kề bù, một góc bằng $3$ lần góc kia. Góc lớn bằng
 A. $90^\circ$.
 B. $45^\circ$.
@@ -520,7 +520,7 @@ D. $135^\circ$.
 ::key D
 Gọi góc nhỏ là $y$, ta có $y+3y=180^\circ$, nên $y=45^\circ$ và góc lớn là $135^\circ$. D là góc nhỏ.
 
-::tf
+::tf NB TH TH TH
 Hai đường thẳng $xx'$ và $yy'$ cắt nhau tại $O$, $\widehat{xOy}=55^\circ$. Xét tính đúng sai của các mệnh đề sau:
 a) $\widehat{x'Oy'}=55^\circ$.
 b) $\widehat{xOy'}=125^\circ$.
@@ -529,12 +529,12 @@ d) Tia phân giác của $\widehat{xOy}$ chia nó thành hai góc bằng $55^\ci
 ::key Đ Đ Đ S
 a) Đúng: đối đỉnh. b) Đúng: kề bù với $\widehat{xOy}$, $180^\circ-55^\circ=125^\circ$. c) Đúng: chung cạnh $Oy$, hai cạnh kia là tia đối. d) Sai: hai góc bằng $\dfrac{55^\circ}2=27{,}5^\circ$.
 
-::sa
+::sa TH
 Hai góc kề bù, một góc bằng $38^\circ$. Góc còn lại bằng bao nhiêu độ?
 ::key 142
 $180-38=142$.
 
-::sa
+::sa TH
 Tia $Oz$ là phân giác của $\widehat{xOy}=130^\circ$. Tính $\widehat{xOz}$ (đơn vị: độ).
 ::key 65
 $130:2=65$.

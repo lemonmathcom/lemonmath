@@ -248,7 +248,7 @@ One box costs $90\,000\div6=15\,000$ (dong). $15\,000\times8=120\,000$ (dong) is
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $5$ exercise books cost $30\,000$ dong. The cost of one book is
 A. $6\,000$ dong.
 B. $150\,000$ dong.
@@ -257,7 +257,7 @@ D. $6$ dong.
 ::key A
 $30\,000\div5=6\,000$. Option B multiplies instead of dividing, and C subtracts.
 
-::mc
+::mc TH
 $4$ pens cost $12\,000$ dong. To find the cost of $8$ pens, the first step is
 A. $12\,000\times4$.
 B. $12\,000\div4$.
@@ -266,7 +266,7 @@ D. $12\,000+8$.
 ::key B
 We must find the cost of one pen first: $12\,000\div4=3\,000$. Option C multiplies straight away by $8$, a common mistake.
 
-::mc
+::mc VD
 A bus travels at a steady speed and goes $90$ km in $3$ hours. How far does it go in $5$ hours?
 A. $30$ km.
 B. $450$ km.
@@ -275,7 +275,7 @@ D. $95$ km.
 ::key C
 $90\div3=30$ km an hour, then $30\times5=150$ km. Option A is only the distance for $1$ hour, and B multiplies without dividing.
 
-::mc
+::mc VD
 $6$ packets of biscuits hold $48$ biscuits. How many biscuits are in $4$ such packets?
 A. $8$ biscuits.
 B. $288$ biscuits.
@@ -284,7 +284,7 @@ D. $32$ biscuits.
 ::key D
 $48\div6=8$ biscuits in one packet, then $8\times4=32$. Option A is the number in one packet, and B is $48\times6$.
 
-::tf
+::tf TH VD TH VD
 $4$ bottles of water cost $20\,000$ dong.
 a) One bottle costs $5\,000$ dong.
 b) $6$ bottles cost $30\,000$ dong.
@@ -293,12 +293,12 @@ d) With $10\,000$ dong we can buy $2$ bottles.
 ::key T T F T
 a) True: $20\,000\div4=5\,000$. b) True: $5\,000\times6=30\,000$. c) False: $20\,000$ is the cost of $4$ bottles. d) True: $10\,000\div5\,000=2$.
 
-::sa
+::sa VD
 $5$ boxes hold $40$ pens. How many pens are in $9$ such boxes?
 ::key 72
 $40\div5=8$ pens in one box, then $8\times9=72$ pens.
 
-::sa
+::sa VD
 $4$ exercise books cost $24\,000$ dong. How many such books can we buy with $42\,000$ dong?
 ::key 7
 One book costs $24\,000\div4=6\,000$ dong. $42\,000\div6\,000=7$ books.

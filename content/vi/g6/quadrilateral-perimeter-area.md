@@ -495,7 +495,7 @@ Vậy hình vuông có diện tích lớn hơn hình chữ nhật $4\ \text{cm}^
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Diện tích của hình vuông có cạnh $6$ cm là
 A. $24\ \text{cm}^2$.
 B. $36\ \text{cm}^2$.
@@ -504,7 +504,7 @@ D. $18\ \text{cm}^2$.
 ::key B
 $S=6\cdot6=36\ \text{cm}^2$. A là số đo chu vi ($4\cdot6$); C lấy $6\cdot2$; D chia đôi không cần thiết.
 
-::mc
+::mc NB
 Một hình bình hành có cạnh dài $9$ cm, chiều cao ứng với cạnh đó là $4$ cm. Diện tích của hình bình hành là
 A. $36\ \text{cm}^2$.
 B. $26\ \text{cm}^2$.
@@ -513,7 +513,7 @@ D. $13\ \text{cm}^2$.
 ::key A
 $S=9\cdot4=36\ \text{cm}^2$. B lấy $2\cdot(9+4)$ như chu vi; C chia $2$ như hình thoi; D cộng hai số.
 
-::mc
+::mc TH
 Một hình thoi có hai đường chéo dài $10$ cm và $6$ cm. Diện tích của hình thoi là
 A. $60\ \text{cm}^2$.
 B. $16\ \text{cm}^2$.
@@ -522,7 +522,7 @@ D. $30\ \text{cm}^2$.
 ::key D
 $S=\dfrac{10\cdot6}{2}=30\ \text{cm}^2$. A quên chia $2$; B cộng hai đường chéo; C lấy $2\cdot(10+6)$.
 
-::mc
+::mc TH
 Một hình thang có hai đáy dài $4$ m và $8$ m, chiều cao $5$ m. Diện tích của hình thang là
 A. $60\ \text{m}^2$.
 B. $160\ \text{m}^2$.
@@ -531,7 +531,7 @@ D. $17\ \text{m}^2$.
 ::key C
 $S=\dfrac{(4+8)\cdot5}{2}=30\ \text{m}^2$. A quên chia $2$; B nhân cả ba số; D cộng cả ba số.
 
-::tf
+::tf NB NB VD TH
 Một hình chữ nhật có chiều dài $10$ m, chiều rộng $6$ m. Xét tính đúng sai của các mệnh đề sau:
 a) Chu vi của hình chữ nhật là $32$ m.
 b) Diện tích của hình chữ nhật là $60\ \text{m}^2$.
@@ -540,12 +540,12 @@ d) Nếu tăng cả chiều dài và chiều rộng lên gấp đôi thì chu vi
 ::key Đ Đ S Đ
 a) Đúng: $2\cdot(10+6)=32$. b) Đúng: $10\cdot6=60$. c) Sai: diện tích mới là $20\cdot12=240$, gấp $4$ lần. d) Đúng: chu vi mới là $2\cdot(20+12)=64$, gấp $2$ lần.
 
-::sa
+::sa TH
 Một hình chữ nhật có diện tích $72\ \text{cm}^2$ và chiều dài $9$ cm. Chiều rộng của hình chữ nhật là bao nhiêu xăng-ti-mét?
 ::key 8
 Chiều rộng bằng diện tích chia chiều dài: $72:9=8$ (cm).
 
-::sa
+::sa VD
 Một mảnh vườn hình vuông có chu vi $48$ m. Diện tích của mảnh vườn là bao nhiêu mét vuông?
 ::key 144
 Cạnh của mảnh vườn là $48:4=12$ (m), nên diện tích là $12\cdot12=144\ (\text{m}^2)$.

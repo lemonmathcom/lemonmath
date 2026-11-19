@@ -419,7 +419,7 @@ So $AC+BD>\dfrac{AB+BC+CD+DA}{2}$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The four angles of a quadrilateral add up to
 A. $180^\circ$.
 B. $360^\circ$.
@@ -428,7 +428,7 @@ D. $540^\circ$.
 ::key B
 A diagonal cuts a quadrilateral into two triangles, so the sum is $2\cdot180^\circ=360^\circ$. A is the angle sum of a triangle, D is the angle sum of a pentagon.
 
-::mc
+::mc TH
 The quadrilateral $ABCD$ has $\angle A=80^\circ$, $\angle B=100^\circ$, $\angle C=120^\circ$. The angle $\angle D$ equals
 A. $40^\circ$.
 B. $50^\circ$.
@@ -437,7 +437,7 @@ D. $80^\circ$.
 ::key C
 $\angle D=360^\circ-(80^\circ+100^\circ+120^\circ)=360^\circ-300^\circ=60^\circ$. A, B and D do not give a total of $360^\circ$.
 
-::mc
+::mc VD
 The four angles of a quadrilateral are in the ratio $1:2:4:5$. The largest angle equals
 A. $180^\circ$.
 B. $120^\circ$.
@@ -446,7 +446,7 @@ D. $150^\circ$.
 ::key D
 The parts add up to $12$, so each part is $360^\circ\div12=30^\circ$ and the largest angle is $5\cdot30^\circ=150^\circ$. B is the third angle, C comes from dividing by $4$ by mistake.
 
-::mc
+::mc NB
 The two diagonals of the quadrilateral $ABCD$ are
 A. $AC$ and $BD$.
 B. $BC$ and $DA$.
@@ -455,7 +455,7 @@ D. $AB$ and $BC$.
 ::key A
 A diagonal joins opposite vertices, so they are $AC$ and $BD$. A and B are pairs of opposite sides, D is a pair of adjacent sides.
 
-::tf
+::tf TH TH NB NB
 The quadrilateral $ABCD$ has $\angle A=90^\circ$, $\angle B=100^\circ$, $\angle C=70^\circ$.
 a) $\angle D=100^\circ$.
 b) $\angle B+\angle D=200^\circ$.
@@ -464,12 +464,12 @@ d) $AC$ is a side of the quadrilateral.
 ::key T T F F
 a) True: $360-(90+100+70)=100$. b) True: $100+100=200$. c) False: $90+70=160$. d) False: $AC$ is a diagonal, because $A$ and $C$ are opposite vertices.
 
-::sa
+::sa TH
 The quadrilateral $ABCD$ has $\angle A=85^\circ$, $\angle B=95^\circ$, $\angle C=100^\circ$. Find $\angle D$ (in degrees).
 ::key 80
 $\angle D=360^\circ-(85^\circ+95^\circ+100^\circ)=360^\circ-280^\circ=80^\circ$.
 
-::sa
+::sa VD
 The four angles of a quadrilateral are in the ratio $1:3:4:4$. Find the smallest angle (in degrees).
 ::key 30
 The parts add up to $12$, so each part is $30^\circ$, and the smallest angle is $1\cdot30^\circ=30^\circ$.

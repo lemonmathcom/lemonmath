@@ -282,7 +282,7 @@ So the ships are $25$ km apart, and the triangle has area $150\text{ km}^2$. It 
 :::
 
 :::quiz
-::mc
+::mc TH
 $B$ is on a bearing of $060^\circ$ from $A$. The bearing of $A$ from $B$ is
 A. $120^\circ$
 B. $300^\circ$
@@ -291,7 +291,7 @@ D. $060^\circ$
 ::key C
 Add $180^\circ$.
 
-::mc
+::mc TH
 You know two sides and the angle between them. To find the third side, use
 A. the sine rule
 B. the cosine rule
@@ -300,7 +300,7 @@ D. $\tfrac12ab\sin C$
 ::key B
 Two sides and the included angle: cosine rule.
 
-::mc
+::mc TH
 The value of $\sin150^\circ$ is
 A. $0.5$
 B. $-0.5$
@@ -309,7 +309,7 @@ D. $-0.866$
 ::key A
 $\sin150^\circ=\sin30^\circ$.
 
-::mc
+::mc NB
 Which formula gives the area of any triangle?
 A. $\tfrac12ab\cos C$
 B. $ab\sin C$
@@ -318,7 +318,7 @@ D. $\tfrac12ab\sin C$
 ::key D
 Half the product of two sides and the sine of the included angle.
 
-::tf
+::tf TH TH TH TH
 Triangle $ABC$ has a right angle at $C$, with $BC=3$, $AC=4$ and $AB=5$. Decide whether each statement is true or false.
 a) $\sin A=0.6$.
 b) $\cos A=0.8$.
@@ -327,12 +327,12 @@ d) Angle $A=45^\circ$.
 ::key T T T F
 $A=\tan^{-1}0.75\approx36.9^\circ$.
 
-::sa
+::sa TH
 Find the area of a triangle with sides $9$ cm and $12$ cm and an included angle of $30^\circ$, in $\text{cm}^2$.
 ::key 27
 $\tfrac12\times9\times12\times0.5$.
 
-::sa
+::sa TH
 Solve $\sin x=1$ for $0^\circ\le x\le360^\circ$ (in degrees).
 ::key 90
 The sine graph reaches $1$ only once in this interval.

@@ -311,7 +311,7 @@ b) $3\times3=9$, so $63\div\square=9$ and $\square=63\div9=7$. Check: $63\div7=9
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Find $\square$ when $\square\times7=42$.
 A. $49$.
 B. $6$.
@@ -320,7 +320,7 @@ D. $7$.
 ::key B
 $\square=42\div7=6$. Option A is $42+7$ and option C is $42-7$.
 
-::mc
+::mc TH
 Find $\square$ when $\square\div6=8$.
 A. $14$.
 B. $48$.
@@ -329,7 +329,7 @@ D. $8$.
 ::key B
 $\square$ is the dividend, so $\square=8\times6=48$. Option A is the mistake of adding $8+6$.
 
-::mc
+::mc TH
 Find $\square$ when $40\div\square=5$.
 A. $200$.
 B. $35$.
@@ -338,7 +338,7 @@ D. $45$.
 ::key C
 $\square$ is the divisor, so $\square=40\div5=8$. Option A is the mistake of multiplying $40\times5$.
 
-::mc
+::mc TH
 $54$ marbles are shared equally into bags of $9$. How many bags are there?
 A. $63$ bags.
 B. $45$ bags.
@@ -347,7 +347,7 @@ D. $486$ bags.
 ::key C
 We have $9\times\square=54$, so $\square=54\div9=6$. Option D is the mistake of multiplying $54\times9$.
 
-::tf
+::tf NB TH TH TH
 Look at the sum $\square\times8=56$.
 a) $\square=56\div8$.
 b) $\square=7$.
@@ -356,12 +356,12 @@ d) Check: $7\times8=56$.
 ::key T T F T
 a) True: the missing factor is the product divided by the known factor. b) True: $56\div8=7$. c) False: $64$ is $56+8$, and $64\times8=512$. d) True: $7\times8=56$.
 
-::sa
+::sa TH
 Find $\square$ when $72\div\square=9$.
 ::key 8
 $\square$ is the divisor, so $\square=72\div9=8$.
 
-::sa
+::sa VD
 Some exercise books are shared equally among $7$ children, $9$ books each. How many books are there altogether?
 ::key 63
 We have $\square\div7=9$, so $\square=9\times7=63$ (books).

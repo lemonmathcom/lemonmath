@@ -464,7 +464,7 @@ Vậy $P=\dfrac{1}{10}$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của phép tính $\dfrac{-2}{3}\cdot\dfrac{3}{4}$ là
 A. $\dfrac{-1}{2}$.
 B. $\dfrac{1}{2}$.
@@ -473,7 +473,7 @@ D. $\dfrac{1}{12}$.
 ::key A
 $\dfrac{(-2)\cdot3}{3\cdot4}=\dfrac{-6}{12}=\dfrac{-1}{2}$. B sai dấu; C nhân chéo tử với mẫu; D là tổng $\dfrac{-2}{3}+\dfrac34$.
 
-::mc
+::mc NB
 Số nghịch đảo của $\dfrac{-5}{8}$ là
 A. $\dfrac{5}{8}$.
 B. $\dfrac{8}{5}$.
@@ -482,7 +482,7 @@ D. $\dfrac{-5}{8}$.
 ::key C
 $\dfrac{-5}{8}\cdot\dfrac{-8}{5}=1$. A là số đối; B sai dấu; D là chính số đó.
 
-::mc
+::mc TH
 Kết quả của phép tính $\dfrac{4}{5}:\dfrac{2}{15}$ là
 A. $\dfrac{8}{75}$.
 B. $6$.
@@ -491,7 +491,7 @@ D. $\dfrac{8}{15}$.
 ::key B
 $\dfrac45\cdot\dfrac{15}{2}=\dfrac{60}{10}=6$. A nhân luôn không đảo; C đảo nhầm số bị chia; D chỉ nhân hai tử, giữ mẫu $15$.
 
-::mc
+::mc VD
 Một xe đi với vận tốc $40$ km/h trong $\dfrac34$ giờ. Quãng đường xe đi được là
 A. $\dfrac{160}{3}$ km.
 B. $10$ km.
@@ -500,7 +500,7 @@ D. $30$ km.
 ::key D
 $40\cdot\dfrac34=30$ km. A chia thay vì nhân; B chỉ nhân với $\dfrac14$; C cộng $40+3$.
 
-::tf
+::tf TH TH TH VD
 Cho hai phân số $\dfrac{-2}{3}$ và $\dfrac{3}{2}$. Xét tính đúng sai của các mệnh đề sau:
 a) Hai phân số này là nghịch đảo của nhau.
 b) Tích của hai phân số này bằng $-1$.
@@ -509,12 +509,12 @@ d) $\dfrac{3}{2}\cdot\dfrac{-2}{3}\cdot(-1)=1$.
 ::key S Đ Đ Đ
 a) Sai: tích của chúng bằng $-1$, không bằng $1$. b) Đúng: $\dfrac{-6}{6}=-1$. c) Đúng: $\dfrac{-2}{3}\cdot\dfrac23=\dfrac{-4}{9}$. d) Đúng: $(-1)\cdot(-1)=1$.
 
-::sa
+::sa TH
 Tính $\dfrac{5}{6}:\dfrac{5}{12}$.
 ::key 2
 $\dfrac56\cdot\dfrac{12}{5}=\dfrac{12}{6}=2$.
 
-::sa
+::sa VD
 Một thanh gỗ dài $\dfrac{9}{2}$ m được cắt thành các đoạn dài $\dfrac{3}{4}$ m. Cắt được bao nhiêu đoạn?
 ::key 6
 $\dfrac92:\dfrac34=\dfrac92\cdot\dfrac43=\dfrac{36}{6}=6$ (đoạn).

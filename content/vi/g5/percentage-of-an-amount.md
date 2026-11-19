@@ -260,7 +260,7 @@ $$960:4=240\ (\text{m}^2).$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $20\%$ của $150$ là
 A. $3\,000$.
 B. $7{,}5$.
@@ -269,7 +269,7 @@ D. $750$.
 ::key C
 $150\times20:100=3\,000:100=30$. Phương án A là lỗi quên chia $100$; phương án B là $150:20$.
 
-::mc
+::mc TH
 Muốn tìm $12\%$ của $350$, em tính
 A. $350:12$.
 B. $350\times100:12$.
@@ -278,7 +278,7 @@ D. $350\times12:100$.
 ::key D
 $12\%$ của $350$ là $12$ phần trong $100$ phần của $350$, tức là $350\times12:100$. Các phương án còn lại chia cho $12$, không đúng.
 
-::mc
+::mc VD
 Một chiếc áo giá $300\,000$ đồng được giảm giá $10\%$. Số tiền phải trả là
 A. $270\,000$ đồng.
 B. $330\,000$ đồng.
@@ -287,7 +287,7 @@ D. $30\,000$ đồng.
 ::key A
 Số tiền được giảm là $300\,000\times10:100=30\,000$ đồng, nên phải trả $300\,000-30\,000=270\,000$ đồng. Phương án D quên trừ.
 
-::mc
+::mc TH
 Lớp có $30$ học sinh, trong đó $40\%$ đi bộ đến trường. Số học sinh đi bộ là
 A. $1\,200$ em.
 B. $12$ em.
@@ -296,7 +296,7 @@ D. $70$ em.
 ::key B
 $30\times40:100=1\,200:100=12$ (em). Phương án A quên chia $100$; phương án C là $30:40\times100$, tìm tỉ số phần trăm chứ không phải giá trị phần trăm.
 
-::tf
+::tf TH TH TH VD
 Em xét $60\%$ của $90$.
 a) Có thể tính bằng $90:100\times60$.
 b) Kết quả là $54$.
@@ -305,12 +305,12 @@ d) Kết quả bằng $40\%$ của $140$.
 ::key Đ Đ S S
 a) Đúng: chia $100$ rồi nhân $60$. b) Đúng: $0{,}9\times60=54$. c) Sai: $5\,400$ là $90\times60$, chưa chia $100$. d) Sai: $140\times40:100=56$, khác $54$.
 
-::sa
+::sa TH
 Tính $35\%$ của $80$.
 ::key 28
 $80\times35:100=2\,800:100=28$.
 
-::sa
+::sa VD
 Cửa hàng có $450$ kg gạo, đã bán $60\%$ số gạo. Hỏi còn lại bao nhiêu ki-lô-gam gạo?
 ::key 180
 Số gạo đã bán là $450\times60:100=270$ (kg), còn lại $450-270=180$ (kg).

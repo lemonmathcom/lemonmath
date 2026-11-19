@@ -394,7 +394,7 @@ Vậy số $a$ lớn nhất là $14$, và có $3$ số $a$ thoả mãn.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $\text{ƯCLN}(24,36)$ bằng
 A. $6$.
 B. $12$.
@@ -403,7 +403,7 @@ D. $4$.
 ::key B
 $24=2^3\cdot3$, $36=2^2\cdot3^2$, nên $\text{ƯCLN}=2^2\cdot3=12$. A là một ước chung nhưng chưa lớn nhất; C là bội chung nhỏ nhất; D thiếu thừa số $3$.
 
-::mc
+::mc TH
 Biết $\text{ƯCLN}(a,b)=10$. Tập hợp $\text{ƯC}(a,b)$ là
 A. $\{1;2;5;10\}$.
 B. $\{10;20;30;\dots\}$.
@@ -412,7 +412,7 @@ D. $\{1;10\}$.
 ::key A
 Các ước chung là các ước của $10$. B là các bội của $10$; C và D thiếu ước.
 
-::mc
+::mc TH
 Phân số nào sau đây là phân số tối giản?
 A. $\dfrac{14}{21}$.
 B. $\dfrac{15}{25}$.
@@ -421,7 +421,7 @@ D. $\dfrac{12}{18}$.
 ::key C
 $\text{ƯCLN}(9,16)=1$. Các phân số còn lại rút gọn được: $\dfrac{14}{21}=\dfrac{2}{3}$, $\dfrac{15}{25}=\dfrac{3}{5}$, $\dfrac{12}{18}=\dfrac{2}{3}$.
 
-::mc
+::mc VD
 Có $30$ quả cam và $45$ quả quýt chia đều vào các đĩa, mỗi đĩa có số cam như nhau và số quýt như nhau. Số đĩa nhiều nhất là
 A. $5$.
 B. $3$.
@@ -430,7 +430,7 @@ D. $15$.
 ::key D
 Số đĩa nhiều nhất là $\text{ƯCLN}(30,45)=15$. A và B là ước chung nhưng chưa lớn nhất; C là BCNN.
 
-::tf
+::tf TH TH TH TH
 Xét tính đúng sai của các mệnh đề sau:
 a) $\text{ƯCLN}(18,30)=6$.
 b) Hai hợp số không bao giờ nguyên tố cùng nhau.
@@ -439,12 +439,12 @@ d) $\text{ƯCLN}(15,1)=15$.
 ::key Đ S Đ S
 a) Đúng: $18=2\cdot3^2$, $30=2\cdot3\cdot5$, ƯCLN là $2\cdot3=6$. b) Sai: $8$ và $9$ đều là hợp số nhưng $\text{ƯCLN}(8,9)=1$. c) Đúng: $b$ là ước của cả $a$ và $b$, và không có ước nào của $b$ lớn hơn $b$. d) Sai: $\text{ƯCLN}(15,1)=1$.
 
-::sa
+::sa TH
 Tìm $\text{ƯCLN}(42,70)$.
 ::key 14
 $42=2\cdot3\cdot7$, $70=2\cdot5\cdot7$, nên $\text{ƯCLN}=2\cdot7=14$.
 
-::sa
+::sa VD
 Hai số $54$ và $90$ có bao nhiêu ước chung?
 ::key 6
 $\text{ƯCLN}(54,90)=2\cdot3^2=18$, và $18$ có $6$ ước: $1$; $2$; $3$; $6$; $9$; $18$.

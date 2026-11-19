@@ -304,7 +304,7 @@ Sums $\ge10$ give $6$ outcomes: $(4,6),(5,5),(6,4),(5,6),(6,5),(6,6)$. Even sums
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 For any two events $A$, $B$, $P(A\cup B)$ equals
 A. $P(A)+P(B)-P(AB)$.
 B. $P(A)+P(B)$.
@@ -313,7 +313,7 @@ D. $P(A)-P(B)$.
 ::key A
 This is the addition rule. Option B holds only for mutually exclusive events, and C concerns independence.
 
-::mc
+::mc TH
 Roll a fair die. The probability that the number is prime or even is
 A. $\dfrac12$.
 B. $\dfrac56$.
@@ -322,7 +322,7 @@ D. $1$.
 ::key B
 The union is $\{2,3,4,5,6\}$, so $P=\dfrac56$. Option A is the probability of an even number, and C and D do not match the count.
 
-::mc
+::mc VD
 Roll a fair die twice. The probability that at least one roll shows $6$ is
 A. $\dfrac13$.
 B. $\dfrac{25}{36}$.
@@ -331,7 +331,7 @@ D. $\dfrac16$.
 ::key C
 $1-\left(\dfrac56\right)^2=\dfrac{11}{36}$. Option A is a wrong sum, B is the probability of no $6$ at all, and D is for one roll.
  
-::mc
+::mc VD
 Suppose two marksmen shoot independently with hit probabilities $0.6$ and $0.5$. The probability that at least one hits is
 A. $1.1$.
 B. $0.3$.
@@ -340,7 +340,7 @@ D. $0.8$.
 ::key D
 $1-0.4\cdot0.5=0.8$. Option A is a sum above $1$, B is the probability that both hit, and C is the probability that both miss.
 
-::tf
+::tf TH VD NB TH
 Decide whether each statement is true or false:
 a) $P(A\cup B)=P(A)+P(B)$ for all events $A$, $B$.
 b) If $A$, $B$ are independent then $P(A\cup B)=P(A)\,P(B)$.
@@ -349,12 +349,12 @@ d) $P(A\cup B)\ge P(B)$.
 ::key F F T T
 a) False: $P(AB)$ must be subtracted. b) False: for independent events $P(AB)=P(A)P(B)$ but $P(A\cup B)=P(A)+P(B)-P(A)P(B)$. c) True. d) True, since $B\subset A\cup B$.
 
-::sa
+::sa NB
 Given $P(A)=0.3$, $P(B)=0.45$ and $P(AB)=0.1$, find $P(A\cup B)$.
 ::key 0.65
 $0.3+0.45-0.1=0.65$.
 
-::sa
+::sa VD
 A fair coin is tossed four times. Find the probability of at least one head, to two decimal places.
 ::key 0.94
 $1-\left(\dfrac12\right)^4=\dfrac{15}{16}=0.9375\approx0.94$.

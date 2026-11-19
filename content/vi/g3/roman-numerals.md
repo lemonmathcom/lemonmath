@@ -289,7 +289,7 @@ Số $4$ viết bằng số La Mã là IV.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Số La Mã XIV đọc là
 A. $16$.
 B. $4$.
@@ -298,7 +298,7 @@ D. $6$.
 ::key C
 XIV gồm X và IV, tức là $10+4=14$. A đọc IV là $6$, B bỏ X, D bỏ X và đọc IV là $6$.
 
-::mc
+::mc NB
 Số $9$ viết bằng số La Mã là
 A. IIX.
 B. XI.
@@ -307,7 +307,7 @@ D. IX.
 ::key D
 $9=10-1$ nên viết là IX. B là $11$, C và A vi phạm quy tắc viết số La Mã.
 
-::mc
+::mc TH
 Số $16$ viết bằng số La Mã là
 A. XVI.
 B. XIIII.
@@ -316,7 +316,7 @@ D. XIV.
 ::key A
 $16=10+5+1$ nên viết là XVI. A là $14$, B viết một kí hiệu bốn lần, C đặt sai thứ tự.
 
-::mc
+::mc TH
 Câu nào dưới đây đúng?
 A. IV $>$ VI.
 B. XI $>$ IX.
@@ -325,7 +325,7 @@ D. V $=$ X.
 ::key B
 XI $=11$ và IX $=9$, mà $11>9$. A sai vì IV $=4<6$, C sai vì $19>14$, D sai vì $5\neq 10$.
 
-::tf
+::tf NB NB NB TH
 Em xét các số La Mã.
 a) IX $=9$.
 b) XI $>$ X.
@@ -334,12 +334,12 @@ d) VI $<$ IV.
 ::key Đ Đ S S
 a) Đúng: $10-1=9$. b) Đúng: $11>10$. c) Sai: $4$ viết là IV. d) Sai: VI $=6$ lớn hơn IV $=4$.
 
-::sa
+::sa TH
 Số La Mã XVIII bằng số thường nào?
 ::key 18
 XVIII $=10+5+3=18$.
 
-::sa
+::sa TH
 Số La Mã XIV có giá trị bằng bao nhiêu?
 ::key 14
 XIV gồm X là $10$ và IV là $4$, nên XIV có giá trị $10+4=14$.

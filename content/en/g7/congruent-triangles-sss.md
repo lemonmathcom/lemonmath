@@ -516,7 +516,7 @@ So parts a), b) and c) are proved and $\angle BCD=70^\circ$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Given $\triangle ABC\equiv\triangle MNP$, which statement is correct?
 A. $BC=NP$.
 B. $AB=MP$.
@@ -525,7 +525,7 @@ D. $\angle A=\angle N$.
 ::key A
 $A$, $B$, $C$ correspond to $M$, $N$, $P$ in that order, so $BC$ corresponds to $NP$. A and C match the wrong sides; D matches the wrong angle ($\angle A=\angle M$).
 
-::mc
+::mc TH
 Given $\triangle ABC\equiv\triangle DEF$ with $AB=3$ cm, $BC=5$ cm and $CA=6$ cm, the perimeter of triangle $DEF$ is
 A. $8$ cm.
 B. $14$ cm.
@@ -534,7 +534,7 @@ D. $11$ cm.
 ::key B
 The perimeter of $DEF$ equals that of $ABC$: $3+5+6=14$ (cm). A and D leave out one side; C is the product of the three numbers.
 
-::mc
+::mc NB
 Triangles $ABC$ and $DEF$ are congruent by the SSS condition when
 A. $\angle A=\angle D$, $\angle B=\angle E$, $\angle C=\angle F$.
 B. $AB=DE$, $BC=EF$ and $\angle A=\angle D$.
@@ -543,7 +543,7 @@ D. $AB=DE$ and the two triangles have the same perimeter.
 ::key C
 SSS needs three pairs of equal sides. B has only two sides and an angle that is not between them, A has only angles, and D is missing two pairs of sides.
 
-::mc
+::mc TH
 Triangles $OAC$ and $OBC$ have $OA=OB$ and $AC=BC$. To prove $\triangle OAC\equiv\triangle OBC$ by SSS, we also need
 A. $\angle OAC=\angle OBC$.
 B. $OC=AB$.
@@ -552,7 +552,7 @@ D. $OC$ is a common side.
 ::key D
 The third pair of sides is $OC=OC$. A and C are angles, which SSS does not use; B compares two segments that do not correspond.
 
-::tf
+::tf TH NB VD TH
 Given $\triangle ABC\equiv\triangle MNP$ with $AB=4$ cm, $\angle A=50^\circ$ and $\angle B=70^\circ$. Decide whether each statement is true or false.
 a) $\angle N=50^\circ$.
 b) $MN=4$ cm.
@@ -561,12 +561,12 @@ d) We may write $\triangle ABC\equiv\triangle NMP$.
 ::key F T T F
 a) False: $N$ corresponds to $B$, so $\angle N=70^\circ$. b) True: $MN=AB$. c) True: $\angle P=\angle C=180^\circ-50^\circ-70^\circ=60^\circ$. d) False: $A$ corresponds to $M$, not $N$.
 
-::sa
+::sa VD
 Given $\triangle ABC\equiv\triangle DEF$ with $\angle A=48^\circ$ and $\angle B=67^\circ$, find the angle $F$ (in degrees).
 ::key 65
 $\angle F=\angle C=180^\circ-48^\circ-67^\circ=65^\circ$.
 
-::sa
+::sa VD
 In quadrilateral $ABCD$ we have $AB=AD$, $CB=CD$ and $\angle BAC=32^\circ$, and the ray $AC$ lies inside the angle $BAD$. Find the angle $BAD$ (in degrees).
 ::key 64
 $\triangle ABC\equiv\triangle ADC$ (SSS), so $\angle DAC=\angle BAC=32^\circ$, hence $\angle BAD=32^\circ+32^\circ=64^\circ$.

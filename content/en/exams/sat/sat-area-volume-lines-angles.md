@@ -245,7 +245,7 @@ The sphere has volume $\dfrac43\pi\cdot8=\dfrac{32\pi}{3}$. The fraction is $\df
 :::
 
 :::quiz
-::mc
+::mc TH
 Two angles on a straight line measure $x^\circ$ and $3x^\circ$. What is the value of $x$?
 A. $30$
 B. $45$
@@ -254,7 +254,7 @@ D. $90$
 ::key B
 $x+3x=180$, so $x=45$.
 
-::mc
+::mc NB
 What is the volume of a cube with edge length 5?
 A. $25$
 B. $75$
@@ -263,7 +263,7 @@ D. $125$
 ::key D
 $5^3=125$. Option A is the area of one face; option C is the surface area.
 
-::mc
+::mc TH
 What is the area of a circle with diameter 10?
 A. $10\pi$
 B. $100\pi$
@@ -272,7 +272,7 @@ D. $5\pi$
 ::key C
 The radius is $5$, so the area is $25\pi$. Option B uses the diameter as the radius; option A is the circumference.
 
-::mc
+::mc NB
 What is the sum of the interior angles of a pentagon?
 A. $540^\circ$
 B. $360^\circ$
@@ -281,7 +281,7 @@ D. $900^\circ$
 ::key A
 $(5-2)\cdot180^\circ=540^\circ$.
 
-::tf
+::tf NB TH TH TH
 A rectangular prism has edges 3, 4 and 12 centimeters.
 a) Its volume is 144 cubic centimeters.
 b) Its surface area is 192 square centimeters.
@@ -290,12 +290,12 @@ d) If all edges are doubled, the volume is doubled.
 ::key T T T F
 a) True: $3\cdot4\cdot12$. b) True: $2(12+36+48)=192$. c) True: $\sqrt{9+16+144}=13$. d) False: the volume is multiplied by $2^3=8$.
 
-::sa
+::sa TH
 A cylinder has radius 2 and height 5. Its volume is $k\pi$. What is the value of $k$?
 ::key 20
 $\pi\cdot2^2\cdot5=20\pi$.
 
-::sa
+::sa TH
 Two similar triangles have a scale factor of 3. The smaller triangle has area 6. What is the area of the larger triangle?
 ::key 54
 The area is multiplied by $3^2=9$: $6\cdot9=54$.

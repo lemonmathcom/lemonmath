@@ -352,7 +352,7 @@ Vậy giá vé mới là $40$ nghìn đồng.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hai số tự nhiên liên tiếp có tích bằng $110$. Gọi số nhỏ là $x$, phương trình nào sau đây đúng?
 A. $x+(x+1)=110$.
 B. $x(x+1)=110$.
@@ -361,7 +361,7 @@ D. $2x+1=110$.
 ::key B
 Số liền sau là $x+1$ và tích của chúng là $x(x+1)$. A và D là tổng, C nhầm $x(x+1)$ với $x^2+1$.
 
-::mc
+::mc VD
 Một ô tô đi quãng đường $90$ km với vận tốc $x$ (km/h). Nếu tăng vận tốc thêm $15$ km/h thì đến sớm hơn $1$ giờ. Phương trình nào sau đây đúng?
 A. $\dfrac{90}{x}-\dfrac{90}{x+15}=1$.
 B. $\dfrac{90}{x+15}-\dfrac{90}{x}=1$.
@@ -370,7 +370,7 @@ D. $90x-90(x+15)=1$.
 ::key A
 Thời gian lúc đầu lớn hơn nên lấy $\dfrac{90}{x}-\dfrac{90}{x+15}=1$. B lấy hiệu ngược, C cộng thay cho trừ, D nhân thay cho chia.
 
-::mc
+::mc TH
 Khi giải một bài toán với ẩn $x$ là chiều rộng (m), ta được phương trình $x^2+3x-70=0$ có hai nghiệm $7$ và $-10$. Chiều rộng là
 A. $7$ m hoặc $10$ m.
 B. $-10$ m.
@@ -379,7 +379,7 @@ D. $7$ m.
 ::key D
 Điều kiện $x>0$ nên loại $-10$; C và A bỏ dấu trừ một cách sai lầm.
 
-::mc
+::mc VD
 Giá một sản phẩm sau hai lần tăng, mỗi lần tăng $r\%$ so với giá trước đó, đã tăng từ $200$ nghìn đồng lên $242$ nghìn đồng. Giá trị của $r$ là
 A. $11$.
 B. $21$.
@@ -388,7 +388,7 @@ D. $10$.
 ::key D
 $\left(1+\dfrac{r}{100}\right)^2=\dfrac{242}{200}=1{,}21$ nên $1+\dfrac{r}{100}=1{,}1$, tức $r=10$. B là mức tăng tổng cộng, C chia $21\%$ cho $2$, A lấy nhầm $\sqrt{121}=11$.
 
-::tf
+::tf TH TH VD VD
 Một mảnh vườn hình chữ nhật có chiều dài hơn chiều rộng $4$ m và diện tích bằng $96$ m². Gọi chiều rộng là $x$ (m), $x>0$. Xét tính đúng sai của các mệnh đề sau:
 a) Chiều dài của mảnh vườn là $x+4$ (m).
 b) Ta có phương trình $x^2+4x-96=0$.
@@ -397,12 +397,12 @@ d) Chu vi của mảnh vườn là $40$ m.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng: $x(x+4)=96$. c) Sai: $\Delta'=100$, $x=-2+10=8$. d) Đúng: $2(8+12)=40$.
 
-::sa
+::sa VD
 Tích của hai số tự nhiên chẵn liên tiếp bằng $288$. Tìm số lớn hơn.
 ::key 18
 $x(x+2)=288\Leftrightarrow x^2+2x-288=0$, $\Delta'=289$, $x=16$; số lớn hơn là $18$.
 
-::sa
+::sa VD
 Giả sử dân số của một phường tăng từ $20\,000$ người lên $20\,808$ người sau $2$ năm, tỉ lệ tăng hằng năm như nhau là $r\%$. Tìm $r$.
 ::key 2
 $\left(1+\dfrac{r}{100}\right)^2=1{,}0404$ nên $1+\dfrac{r}{100}=1{,}02$, tức $r=2$.

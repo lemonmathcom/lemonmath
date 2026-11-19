@@ -434,7 +434,7 @@ So $AD\perp BC$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Let $ABCD.A'B'C'D'$ be a parallelepiped. The vector $\overrightarrow{AB}+\overrightarrow{AD}-\overrightarrow{CC'}$ equals
 A. $\overrightarrow{AC}$.
 B. $\overrightarrow{AC'}$.
@@ -443,7 +443,7 @@ D. $\overrightarrow{A'C}$.
 ::key D
 We have $\overrightarrow{AB}+\overrightarrow{AD}=\overrightarrow{AC}$ and $\overrightarrow{CC'}=\overrightarrow{AA'}$, so the expression equals $\overrightarrow{AC}-\overrightarrow{AA'}=\overrightarrow{A'C}$. Option B treats the minus sign as a plus, and option C writes the difference the wrong way round.
 
-::mc
+::mc TH
 Let $ABCD$ be a tetrahedron, and $M$, $N$ the midpoints of $AB$ and $CD$. Then $\overrightarrow{AC}+\overrightarrow{BD}$ equals
 A. $2\overrightarrow{MN}$.
 B. $\dfrac12\overrightarrow{MN}$.
@@ -452,7 +452,7 @@ D. $-2\overrightarrow{MN}$.
 ::key A
 We have $\overrightarrow{MN}=\overrightarrow{MA}+\overrightarrow{AC}+\overrightarrow{CN}$ and $\overrightarrow{MN}=\overrightarrow{MB}+\overrightarrow{BD}+\overrightarrow{DN}$. Adding them, the opposite vectors cancel, so $2\overrightarrow{MN}=\overrightarrow{AC}+\overrightarrow{BD}$. Option B turns the identity $\overrightarrow{MN}=\dfrac12\left(\overrightarrow{AC}+\overrightarrow{BD}\right)$ the wrong way round.
 
-::mc
+::mc TH
 Let $ABCD.A'B'C'D'$ be a cube. The angle between the vectors $\overrightarrow{AB}$ and $\overrightarrow{C'A'}$ is
 A. $45^\circ$.
 B. $135^\circ$.
@@ -461,7 +461,7 @@ D. $60^\circ$.
 ::key B
 We have $\overrightarrow{C'A'}=\overrightarrow{CA}=-\overrightarrow{AC}$ and $(\overrightarrow{AB}, \overrightarrow{AC})=45^\circ$, so the angle is $180^\circ-45^\circ=135^\circ$. Option A forgets that the two vectors must start at the same point.
 
-::mc
+::mc TH
 Let $ABCD$ be a regular tetrahedron with edge $a$. The scalar product $\overrightarrow{AB}\cdot\overrightarrow{BC}$ is
 A. $\dfrac{a^2\sqrt3}{2}$.
 B. $\dfrac{a^2}{2}$.
@@ -470,7 +470,7 @@ D. $0$.
 ::key C
 Moving the vectors to the common initial point $B$, we have $\overrightarrow{AB}\cdot\overrightarrow{BC}=-\overrightarrow{BA}\cdot\overrightarrow{BC}=-a\cdot a\cos60^\circ=-\dfrac{a^2}{2}$. Option B takes the angle $60^\circ$ without reversing $\overrightarrow{AB}$, and option A uses $\sin$ instead of $\cos$.
 
-::tf
+::tf NB TH VD VD
 The cuboid $ABCD.A'B'C'D'$ has $AB=2$, $AD=3$, $AA'=6$. Decide whether each statement is true or false.
 a) $\overrightarrow{AB}\cdot\overrightarrow{AA'}=0$.
 b) $AC'=7$.
@@ -479,12 +479,12 @@ d) The angle between the vectors $\overrightarrow{AC'}$ and $\overrightarrow{AA'
 ::key T T F F
 a) True: since $AB\perp AA'$. b) True: we have $AC'^2=4+9+36=49$. c) False: we have $\overrightarrow{AC'}\cdot\overrightarrow{AB}=\left(\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}\right)\cdot\overrightarrow{AB}=AB^2=4$. d) False: we have $\overrightarrow{AC'}\cdot\overrightarrow{AA'}=AA'^2=36$, so $\cos=\dfrac{36}{7\cdot6}=\dfrac67$ and the angle is about $31^\circ$.
 
-::sa
+::sa VD
 Let $ABCD.A'B'C'D'$ be a cube with edge $2$. Find $\overrightarrow{AC'}\cdot\overrightarrow{BD'}$.
 ::key 4
 Let $\vec{b}=\overrightarrow{AB}$, $\vec{d}=\overrightarrow{AD}$, $\vec{c}=\overrightarrow{AA'}$. We have $\overrightarrow{AC'}=\vec{b}+\vec{d}+\vec{c}$ and $\overrightarrow{BD'}=-\vec{b}+\vec{d}+\vec{c}$. Since the scalar product of two different edges is $0$, $\overrightarrow{AC'}\cdot\overrightarrow{BD'}=-4+4+4=4$.
 
-::sa
+::sa VD
 A drone takes off from a point $A$, flies $30$ m east, then $40$ m north, then straight up $20$ m. How far is the drone's final position from $A$, in metres (give your answer to 1 decimal place)?
 ::key 53.9
 Since the three displacement vectors are pairwise perpendicular, the square of the length of their sum is $30^2+40^2+20^2=2900$. So the distance is $\sqrt{2900}\approx53.85$, which rounds to $53.9$ m.

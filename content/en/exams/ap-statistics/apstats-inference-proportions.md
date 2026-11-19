@@ -282,7 +282,7 @@ So a Type II error may have occurred, and a larger $n$ or a larger $\alpha$ woul
 :::
 
 :::quiz
-::mc
+::mc NB
 Which critical value is used for a $95\%$ confidence interval for a proportion?
 A. $1.645$
 B. $2.576$
@@ -291,7 +291,7 @@ D. $0.95$
 ::key C
 $95\%$ of the standard normal lies between $-1.96$ and $1.96$.
 
-::mc
+::mc TH
 Which is a correct null hypothesis?
 A. $H_0:p=0.4$
 B. $H_0:\hat p=0.4$
@@ -300,7 +300,7 @@ D. $H_0:\hat p>0.4$
 ::key A
 Hypotheses are about the parameter, and $H_0$ states equality.
 
-::mc
+::mc NB
 A Type I error occurs when we
 A. fail to reject a false $H_0$
 B. reject a true $H_0$
@@ -309,7 +309,7 @@ D. use the wrong sample size
 ::key B
 Its probability is $\alpha$.
 
-::mc
+::mc TH
 A P-value of $0.002$ means that
 A. there is a $0.2\%$ chance that $H_0$ is true
 B. $H_a$ is true with probability $0.998$
@@ -318,7 +318,7 @@ D. if $H_0$ were true, a result this extreme would happen about $0.2\%$ of the t
 ::key D
 The P-value is computed assuming $H_0$ is true.
 
-::tf
+::tf TH TH TH TH
 A $95\%$ confidence interval for $p$ is $(0.42,\ 0.50)$. Decide whether each statement is true or false.
 a) The sample proportion is $0.46$.
 b) The margin of error is $0.04$.
@@ -327,12 +327,12 @@ d) A $99\%$ interval from the same data would be wider.
 ::key T T F T
 $0.55$ lies outside the interval.
 
-::sa
+::sa TH
 A $95\%$ interval for $p$ is $(0.31,\ 0.39)$. Find the margin of error.
 ::key 0.04
 Half the width: $\dfrac{0.39-0.31}{2}$.
 
-::sa
+::sa TH
 How many times larger must $n$ be to halve the margin of error?
 ::key 4
 The margin of error is proportional to $\dfrac{1}{\sqrt n}$.

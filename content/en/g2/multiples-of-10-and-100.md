@@ -276,7 +276,7 @@ The boxes left: $10-4=6$. Each box has $100$ marbles, so $6$ boxes are $6$ hundr
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Which number is $5$ tens?
 A. $5$.
 B. $15$.
@@ -285,7 +285,7 @@ D. $50$.
 ::key D
 $5$ tens is $50$. Option A forgets the $0$, and option C is $5$ hundreds.
 
-::mc
+::mc NB
 Which number is a multiple of 100?
 A. $300$.
 B. $150$.
@@ -294,7 +294,7 @@ D. $30$.
 ::key A
 $300$ is $3$ hundreds. $30$ is a multiple of 10, and $150$ and $330$ are not multiples of 100.
 
-::mc
+::mc TH
 Count on in tens: $70, 80, \square$. The missing number is
 A. $71$.
 B. $90$.
@@ -303,7 +303,7 @@ D. $78$.
 ::key B
 After $80$, add $10$ to get $90$. Option A counts on $1$.
 
-::mc
+::mc TH
 Each box has $10$ marbles. There are $8$ boxes. How many marbles are there altogether?
 A. $8$.
 B. $18$.
@@ -312,7 +312,7 @@ D. $800$.
 ::key C
 $8$ boxes with $1$ ten each make $8$ tens, which is $80$. Option D is $8$ hundreds.
 
-::tf
+::tf NB NB NB TH
 Look at multiples of 10 and 100.
 a) $60$ is a multiple of 10.
 b) $600$ is $6$ hundreds.
@@ -321,12 +321,12 @@ d) $5$ tens is written as $5$.
 ::key T T F F
 a) True. b) True. c) False: the last digit of $45$ is $5$. d) False: $5$ tens is written $50$.
 
-::sa
+::sa TH
 Which number is $7$ tens?
 ::key 70
 $7$ tens is $7$ followed by a $0$.
 
-::sa
+::sa TH
 Which number is $4$ hundreds?
 ::key 400
 $4$ hundreds is $4$ followed by two $0$s.

@@ -276,7 +276,7 @@ Số hộp còn lại là $10-4=6$ hộp. Mỗi hộp $100$ viên, nên $6$ hộ
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 $5$ chục là số nào?
 A. $5$.
 B. $15$.
@@ -285,7 +285,7 @@ D. $50$.
 ::key D
 $5$ chục là $50$. Phương án A quên chữ số $0$, phương án C là $5$ trăm.
 
-::mc
+::mc NB
 Số nào là số tròn trăm?
 A. $300$.
 B. $150$.
@@ -294,7 +294,7 @@ D. $30$.
 ::key A
 $300$ là $3$ trăm. $30$ là số tròn chục, còn $150$ và $330$ không phải số tròn trăm.
 
-::mc
+::mc TH
 Đếm thêm $10$: $70, 80, \square$. Số còn thiếu là
 A. $71$.
 B. $90$.
@@ -303,7 +303,7 @@ D. $78$.
 ::key B
 Sau $80$ cộng thêm $10$ được $90$. Phương án A là đếm thêm $1$.
 
-::mc
+::mc TH
 Mỗi hộp có $10$ viên bi. Có $8$ hộp. Có tất cả bao nhiêu viên bi?
 A. $8$.
 B. $18$.
@@ -312,7 +312,7 @@ D. $800$.
 ::key C
 $8$ hộp, mỗi hộp $1$ chục, là $8$ chục, tức $80$. Phương án D là $8$ trăm.
 
-::tf
+::tf NB NB NB TH
 Em xét các số tròn chục và tròn trăm.
 a) $60$ là số tròn chục.
 b) $600$ là $6$ trăm.
@@ -321,12 +321,12 @@ d) $5$ chục viết là $5$.
 ::key Đ Đ S S
 a) Đúng. b) Đúng. c) Sai: chữ số cuối của $45$ là $5$. d) Sai: $5$ chục viết là $50$.
 
-::sa
+::sa TH
 $7$ chục là số nào?
 ::key 70
 $7$ chục là $7$ rồi thêm chữ số $0$.
 
-::sa
+::sa TH
 $4$ trăm là số nào?
 ::key 400
 $4$ trăm là $4$ rồi thêm hai chữ số $0$.

@@ -285,7 +285,7 @@ We have $\dfrac1a+\dfrac1b=\dfrac{a+b}{ab}=\dfrac2{ab}$. Since $0<ab\leq1$, we h
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 For $x=9$, the value of $B=\dfrac{\sqrt x-1}{\sqrt x+1}$ is
 A. $2$.
 B. $\dfrac14$.
@@ -294,7 +294,7 @@ D. $\dfrac12$.
 ::key D
 $B=\dfrac{3-1}{3+1}=\dfrac12$. Option A is $\dfrac{3-1}{1}$, B is $\dfrac1{3+1}$, and C is $\dfrac{1-3}{3+1}$ (the subtraction in the wrong order).
 
-::mc
+::mc TH
 The solution of the system $\begin{cases}2x-y=5\\3x+2y=4\end{cases}$ is
 A. $(2,-1)$.
 B. $(2,1)$.
@@ -303,7 +303,7 @@ D. $(1,-3)$.
 ::key A
 Substituting $y=2x-5$ into the second equation gives $7x=14$, $x=2$ and $y=-1$. Option C swaps the two unknowns, B has the wrong sign for $y$, and D does not satisfy the second equation.
 
-::mc
+::mc TH
 Triangle $ABC$ is right-angled at $A$ with altitude $AM$, $AB=10$ and $BM=8$. The length of $BC$ is
 A. $6.4$.
 B. $12.5$.
@@ -312,7 +312,7 @@ D. $12$.
 ::key B
 $AB^2=BM\cdot BC$, so $BC=\dfrac{100}8=12.5$. Option A is $\dfrac{BM^2}{AB}$, C is $BM$, and D is $AB+2$.
 
-::mc
+::mc NB
 A workshop plans to make $1200$ shirts at $80$ shirts a day. The planned number of days is
 A. $80$.
 B. $12$.
@@ -321,7 +321,7 @@ D. $10$.
 ::key C
 $1200\div80=15$ days. Option B is the actual number of days ($1200\div100$), A is the number of shirts per day, and D is $1200\div120$.
 
-::tf
+::tf VD TH TH VDC
 Given the parabola $(P)\colon y=-x^2$ and the line $(d)\colon y=x-2$. Decide whether each statement is true or false.
 a) $(d)$ is tangent to $(P)$.
 b) The point $(1,1)$ is an intersection point of $(P)$ and $(d)$.
@@ -330,12 +330,12 @@ d) The area of triangle $OAB$ is $6$ ($A$ and $B$ are the intersection points).
 ::key F F T F
 a) False: $\Delta=1+8=9>0$, so $(d)$ meets $(P)$ at two points. b) False: the intersection point is $(1,-1)$. c) True: $-(-2)^2=-4$ and $-2-2=-4$. d) False: the area is $3$.
 
-::sa
+::sa VD
 Find $x$ such that $B=\dfrac{\sqrt x-1}{\sqrt x+1}=\dfrac13$.
 ::key 4
 $3(\sqrt x-1)=\sqrt x+1$ gives $\sqrt x=2$, so $x=4$.
 
-::sa
+::sa VDC
 The parabola $y=-x^2$ and the line $y=x-2$ meet at $A$ and $B$. Find the area of triangle $OAB$.
 ::key 3
 $A(1,-1)$, $B(-2,-4)$, $C(0,-2)$, so $S=\dfrac12\cdot2\cdot(1+2)=3$.

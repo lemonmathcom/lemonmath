@@ -328,7 +328,7 @@ Vậy $AE=7{,}5$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc VD
 Cho tam giác $ABC$ có $AB=6$, $AC=10$, $BC=12$. Đường phân giác $AD$ ($D\in BC$). Độ dài $DB$ bằng
 A. $7{,}5$.
 B. $7{,}2$.
@@ -337,7 +337,7 @@ D. $4{,}5$.
 ::key D
 $DB=12\cdot\dfrac{6}{16}=4{,}5$. A là $DC$, C là nửa $BC$ (nhầm $D$ là trung điểm), B là $BC\cdot\dfrac{AB}{AC}$ (quên cộng ở mẫu).
 
-::mc
+::mc TH
 Cho tam giác $ABC$ có $AB=9$. Đường phân giác $AD$ ($D\in BC$) có $DB=3$, $DC=5$. Độ dài $AC$ bằng
 A. $15$.
 B. $12$.
@@ -346,7 +346,7 @@ D. $5{,}4$.
 ::key A
 $\dfrac{AB}{AC}=\dfrac{DB}{DC}$ nên $AC=9\cdot\dfrac53=15$. A viết ngược tỉ số, B và C cộng thay vì nhân.
 
-::mc
+::mc TH
 Cho tam giác $ABC$ có $AB=AC$. Đường phân giác $AD$ ($D\in BC$). Khẳng định nào sau đây đúng?
 A. $DB=AB$.
 B. $D$ là trung điểm của $BC$.
@@ -355,7 +355,7 @@ D. $DB<DC$.
 ::key B
 $\dfrac{DB}{DC}=\dfrac{AB}{AC}=1$ nên $DB=DC$. Các phương án A, C, D không suy ra được từ tính chất đường phân giác.
 
-::mc
+::mc VD
 Tam giác $ABC$ có $AB=4$, $AC=6$. Đường phân giác $AD$ ($D\in BC$). Biết $S_{ABD}=12$. Diện tích $S_{ACD}$ bằng
 A. $8$.
 B. $16$.
@@ -364,7 +364,7 @@ D. $24$.
 ::key C
 $\dfrac{S_{ABD}}{S_{ACD}}=\dfrac{AB}{AC}=\dfrac23$ nên $S_{ACD}=12\cdot\dfrac32=18$. A viết ngược tỉ số, B cộng $12+4$, D nhân đôi.
 
-::tf
+::tf TH NB VD TH
 Cho tam giác $ABC$ có $AB=9$, $AC=12$, $BC=14$. Đường phân giác $AD$ ($D\in BC$). Xét tính đúng sai của các mệnh đề sau:
 a) $D$ là trung điểm của $BC$.
 b) $\dfrac{DB}{DC}=\dfrac34$.
@@ -373,12 +373,12 @@ d) $DC=6$.
 ::key S Đ Đ S
 a) Sai: $AB\neq AC$ nên $DB\neq DC$. b) Đúng: $\dfrac{DB}{DC}=\dfrac{9}{12}=\dfrac34$. c) Đúng: $DB=14\cdot\dfrac{9}{21}=6$. d) Sai: $DC=14-6=8$.
 
-::sa
+::sa VD
 Cho tam giác $ABC$ có $AB=14$ cm, $AC=21$ cm, $BC=25$ cm. Đường phân giác $AD$ ($D\in BC$). Tính $DB$ (đơn vị: cm).
 ::key 10
 $DB=25\cdot\dfrac{14}{35}=10$.
 
-::sa
+::sa VD
 Cho tam giác $ABC$ có $AB=6$ cm, $AC=8$ cm, $BC=9$ cm. Đường phân giác $AD$ ($D\in BC$). Tính $DC$ (đơn vị: cm, làm tròn đến hàng phần mười).
 ::key 5,1
 $DC=9\cdot\dfrac{8}{14}=\dfrac{36}{7}\approx5{,}14$, làm tròn là $5{,}1$.

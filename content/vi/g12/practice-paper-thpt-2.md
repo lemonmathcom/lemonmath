@@ -8,7 +8,7 @@ type: exam
 Đề gồm ba phần như đề thi tốt nghiệp THPT: 12 câu trắc nghiệm nhiều phương án, 4 câu đúng sai và 6 câu trả lời ngắn, làm trong 90 phút. Phần I mỗi câu 0,25 điểm; Phần II mỗi câu tối đa 1 điểm, tính theo số ý đúng; Phần III mỗi câu 0,5 điểm. Bạn hãy in phiếu và làm trên giấy trước, rồi nhập đáp án vào các ô dưới đây để được chấm trên thang điểm 10. Đề này có nhiều câu vận dụng hơn đề số 1, nên hãy dành khoảng 40 phút cho Phần III.
 
 :::quiz exam
-::mc
+::mc TH
 Cho hàm số $y=f(x)$ có đạo hàm $f'(x)=(x+1)(x-2)^2(x-4)$ với mọi $x\in\mathbb{R}$. Hàm số đạt cực tiểu tại
 A. $x=2$.
 B. $x=-1$.
@@ -25,7 +25,7 @@ $f'$ đổi dấu từ $-$ sang $+$ chỉ tại $x=4$, nên hàm số đạt c�
 
 Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
 
-::mc
+::mc TH
 Tiệm cận xiên của đồ thị hàm số $y=\dfrac{2x^2+3x-1}{x+2}$ là đường thẳng
 A. $y=2x-1$.
 B. $y=2x+3$.
@@ -40,7 +40,7 @@ Vì $\dfrac1{x+2}\to0$ khi $x\to\pm\infty$, tiệm cận xiên là $y=2x-1$. Ph�
 
 Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
 
-::mc
+::mc TH
 Hàm số nào sau đây đồng biến trên $\mathbb{R}$?
 A. $y=x^4+2x^2$.
 B. $y=\dfrac{x+1}{x-3}$.
@@ -51,7 +51,7 @@ $y=x^3+x-5$ có $y'=3x^2+1>0$ với mọi $x$, nên đồng biến trên $\mathb
 
 Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
 
-::mc
+::mc NB
 Trên khoảng $(0; +\infty)$, họ nguyên hàm của hàm số $f(x)=3^x+\dfrac1x$ là
 A. $3^x\ln3+\ln x+C$.
 B. $\dfrac{3^x}{\ln3}+\ln x+C$.
@@ -62,7 +62,7 @@ Ta dùng $\int a^x\,dx=\dfrac{a^x}{\ln a}+C$ và $\int\dfrac1x\,dx=\ln|x|+C$ (v�
 
 Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
 
-::mc
+::mc TH
 Giá trị của $\displaystyle\int_0^3|x-2|\,dx$ bằng
 A. $-\dfrac32$.
 B. $\dfrac32$.
@@ -77,7 +77,7 @@ Phương án A bỏ dấu giá trị tuyệt đối, phương án B lấy hiệu
 
 Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
 
-::mc
+::mc NB
 Cho cấp số nhân $(u_n)$ có $u_1=2$ và $u_4=-54$. Công bội của cấp số nhân là
 A. $-3$.
 B. $3$.
@@ -88,7 +88,7 @@ Ta có $u_4=u_1q^3$, nên $q^3=\dfrac{-54}{2}=-27$ và $q=-3$. Phương án B l�
 
 Ôn lại: [lượng giác, mũ – lôgarit, cấp số](lesson:review-trig-exp-log-sequences).
 
-::mc
+::mc TH
 Trong không gian $Oxyz$, mặt phẳng đi qua điểm $A(1; -1; 2)$ và vuông góc với đường thẳng $d\colon\dfrac{x-1}{2}=\dfrac{y}{-1}=\dfrac{z+3}{3}$ có phương trình là
 A. $2x-y+3z+9=0$.
 B. $2x+y+3z-7=0$.
@@ -103,7 +103,7 @@ Phương án A sai dấu hằng số, phương án B sai dấu hệ số của $
 
 Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
-::mc
+::mc TH
 Trong không gian $Oxyz$, mặt cầu có tâm $I(2; -1; 1)$ và đi qua điểm $A(0; 1; 2)$ có phương trình là
 A. $(x-2)^2+(y+1)^2+(z-1)^2=3$.
 B. $(x-2)^2+(y+1)^2+(z-1)^2=9$.
@@ -118,7 +118,7 @@ Vậy phương trình mặt cầu là $(x-2)^2+(y+1)^2+(z-1)^2=9$. Phương án 
 
 Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
-::mc
+::mc VD
 Cho hình lập phương $ABCD.A'B'C'D'$. Góc giữa hai đường thẳng $AB'$ và $BC'$ bằng
 A. $45^\circ$.
 B. $90^\circ$.
@@ -129,7 +129,7 @@ Tứ giác $ABC'D'$ là hình chữ nhật nên $BC'\parallel AD'$, do đó góc
 
 Ôn lại: [hình học không gian](lesson:review-space-geometry).
 
-::mc
+::mc VD
 Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật, $AB=3$, $AD=4$, $SA\perp(ABCD)$ và góc giữa đường thẳng $SC$ với mặt phẳng đáy bằng $45^\circ$. Thể tích khối chóp $S.ABCD$ bằng
 A. $20$.
 B. $60$.
@@ -144,7 +144,7 @@ Phương án B quên hệ số $\dfrac13$, phương án C lấy nhầm $SA=AD=4$
 
 Ôn lại: [hình học không gian](lesson:review-space-geometry).
 
-::mc
+::mc TH
 Cân nặng (kg) của $40$ học sinh nam lớp 12 được cho trong bảng sau:
 
 | Cân nặng (kg) | $[40; 50)$ | $[50; 60)$ | $[60; 70)$ | $[70; 80)$ | $[80; 90)$ |
@@ -165,7 +165,7 @@ Phương án A là trung điểm nhóm mốt, phương án B đổi chỗ hai hi
 
 Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
 
-::mc
+::mc TH
 Hai bạn An và Bình độc lập với nhau, mỗi người ném một quả bóng vào rổ. Xác suất ném trúng của An là $0{,}7$, của Bình là $0{,}6$. Xác suất để có đúng một bạn ném trúng là
 A. $0{,}42$.
 B. $0{,}46$.
@@ -180,7 +180,7 @@ Phương án A là xác suất cả hai trúng, phương án C là xác suất c
 
 Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
 
-::tf
+::tf NB TH TH VD
 Cho hàm số $y=\dfrac{x+3}{x-1}$ có đồ thị $(C)$.
 a) Đường thẳng $x=1$ là tiệm cận đứng của $(C)$.
 b) Hàm số đồng biến trên khoảng $(1; +\infty)$.
@@ -197,7 +197,7 @@ d) Đúng: viết $y=1+\dfrac{4}{x-1}$. Với $x$ nguyên, $y$ nguyên khi và c
 
 Ôn lại: [đạo hàm và khảo sát hàm số](lesson:review-functions-derivatives).
 
-::tf
+::tf TH NB TH VD
 Một đoàn tàu bắt đầu rời ga (vận tốc ban đầu bằng $0$). Trong $20$ giây đầu, gia tốc của tàu là $a(t)=2-0{,}1t$ (m/s²), với $t$ là số giây kể từ lúc tàu chuyển bánh. Gọi $v(t)$ là vận tốc (m/s) của tàu.
 a) $v(t)=2t-0{,}05t^2$ với $0\le t\le20$.
 b) Vận tốc của tàu tại thời điểm $t=20$ giây là $40$ m/s.
@@ -214,7 +214,7 @@ d) Đúng: trong $20$ giây đầu tàu đi $\displaystyle\int_0^{20}\left(2t-0{
 
 Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
 
-::tf
+::tf NB NB TH VD
 Chọn hệ trục $Oxyz$ (đơn vị: mét) với mặt phẳng $(Oxy)$ là mặt đất. Một cột ăng-ten thẳng đứng có chân ở gốc $O$ và đỉnh ở $A(0; 0; 12)$. Một sợi dây cáp được căng thẳng từ đỉnh $A$ đến điểm neo $B(4; 6; 0)$ trên mặt đất.
 a) $\overrightarrow{AB}=(4; 6; -12)$.
 b) Sợi dây cáp dài $14$ m.
@@ -235,7 +235,7 @@ Mặt phẳng đi qua $O$, có vectơ pháp tuyến $\vec n=(3; -2; 0)$, nên c�
 
 Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
-::tf
+::tf NB TH TH VD
 Hộp I có $4$ viên bi đỏ và $2$ viên bi xanh; hộp II có $3$ viên bi đỏ và $5$ viên bi xanh. Lấy ngẫu nhiên một viên bi từ hộp I bỏ vào hộp II, rồi lấy ngẫu nhiên một viên bi từ hộp II.
 a) Xác suất viên bi chuyển từ hộp I sang là bi đỏ bằng $\dfrac23$.
 b) Biết viên bi chuyển sang là bi đỏ, xác suất lấy được bi đỏ từ hộp II bằng $\dfrac12$.
@@ -254,7 +254,7 @@ d) Sai: theo công thức Bayes, $P(D\mid E)=\dfrac{8/27}{11/27}=\dfrac{8}{11}\a
 
 Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
 
-::sa
+::sa VD
 Một khách sạn có $50$ phòng. Nếu giá thuê là $400$ nghìn đồng một phòng mỗi ngày thì tất cả các phòng đều có khách; cứ tăng giá thêm $20$ nghìn đồng thì có thêm một phòng bị bỏ trống. Mỗi phòng có khách tốn $40$ nghìn đồng chi phí phục vụ mỗi ngày. Để lợi nhuận mỗi ngày lớn nhất, khách sạn nên cho thuê với giá bao nhiêu nghìn đồng một phòng?
 ::key 720
 Gọi $x$ là số lần tăng giá ($0\le x\le50$). Khi đó giá thuê là $400+20x$, có $50-x$ phòng có khách, và lợi nhuận mỗi ngày (nghìn đồng) là
@@ -265,7 +265,7 @@ $L'(x)=20(50-x)-(360+20x)=640-40x=0\iff x=16$. So sánh $L(0)=18\,000$, $L(16)=6
 
 Ôn lại: [bài toán tối ưu và thực tế](lesson:review-optimisation-real-life).
 
-::sa
+::sa VDC
 Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $6$ và chiều cao bằng $4$. Tính khoảng cách từ điểm $A$ đến mặt phẳng $(SCD)$.
 ::key 4,8
 Gọi $O$ là tâm đáy, $M$ là trung điểm của $CD$. Vì $AC$ cắt $(SCD)$ tại $C$ và $AC=2OC$, nên $d(A, (SCD))=2\,d(O, (SCD))$. Kẻ $OH\perp SM$ tại $H$. Vì $CD\perp OM$ và $CD\perp SO$ nên $CD\perp(SOM)$, suy ra $CD\perp OH$; do đó $OH\perp(SCD)$. Trong tam giác $SOM$ vuông tại $O$ với $OM=3$, $SO=4$:
@@ -276,7 +276,7 @@ Vậy $d(A, (SCD))=2\cdot2{,}4=4{,}8$.
 
 Ôn lại: [hình học không gian](lesson:review-space-geometry).
 
-::sa
+::sa VD
 Chọn hệ trục $Oxyz$ (đơn vị: mét). Sau $t$ giây, máy bay không người lái thứ nhất ở vị trí $M(3t; 4t; 20)$, máy bay thứ hai ở vị trí $N(40-2t; 10+t; 30-t)$. Tính khoảng cách nhỏ nhất giữa hai máy bay (làm tròn kết quả đến hàng phần mười).
 ::key 12,4
 Ta có $\overrightarrow{MN}=(40-5t; 10-3t; 10-t)$, nên
@@ -287,7 +287,7 @@ $f'(t)=70t-480=0\iff t=\dfrac{48}{7}$, và $f'$ đổi dấu từ $-$ sang $+$ t
 
 Ôn lại: [phương pháp toạ độ trong không gian](lesson:review-coordinates-space).
 
-::sa
+::sa VD
 Một bài kiểm tra trắc nghiệm, mỗi câu có $4$ phương án và chỉ có một phương án đúng. Với mỗi câu, xác suất bạn Lan biết đáp án là $0{,}6$; nếu không biết, Lan chọn ngẫu nhiên một phương án. Biết Lan trả lời đúng một câu, tính xác suất Lan thật sự biết đáp án của câu đó (làm tròn kết quả đến hàng phần trăm).
 ::key 0,86
 Gọi $B$ là biến cố "Lan biết đáp án", $D$ là biến cố "Lan trả lời đúng". Ta có $P(D\mid B)=1$ và $P(D\mid\overline B)=0{,}25$. Theo công thức xác suất toàn phần và công thức Bayes:
@@ -298,7 +298,7 @@ Làm tròn đến hàng phần trăm được $0{,}86$.
 
 Ôn lại: [thống kê và xác suất](lesson:review-statistics-probability).
 
-::sa
+::sa VD
 Một chiếc chặn giấy bằng thuỷ tinh có dạng khối tròn xoay, tạo thành khi quay hình phẳng giới hạn bởi đường cong $y=4-x^2$, trục $Ox$ và trục $Oy$ (với $0\le x\le2$) quanh trục $Ox$ (đơn vị trên các trục: cm). Tính thể tích chiếc chặn giấy theo cm³ (làm tròn kết quả đến hàng phần mười).
 ::key 53,6
 Thể tích khối tròn xoay là
@@ -309,7 +309,7 @@ Làm tròn đến hàng phần mười được $53{,}6$ cm³.
 
 Ôn lại: [nguyên hàm và tích phân](lesson:review-integrals).
 
-::sa
+::sa VD
 Số vi khuẩn trong một mẻ nuôi cấy sau $t$ giờ là $N(t)=N_0\cdot a^t$, với $N_0$ và $a>0$ là hằng số. Sau $2$ giờ có $300$ vi khuẩn, sau $5$ giờ có $2400$ vi khuẩn. Sau bao nhiêu giờ kể từ lúc bắt đầu, mẻ nuôi cấy có $10\,000$ vi khuẩn (làm tròn kết quả đến hàng phần mười)?
 ::key 7,1
 Chia hai đẳng thức $N_0a^5=2400$ và $N_0a^2=300$ cho nhau được $a^3=8$, nên $a=2$ và $N_0=\dfrac{300}{4}=75$. Giải $N(t)=10\,000$:

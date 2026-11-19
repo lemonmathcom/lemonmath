@@ -261,7 +261,7 @@ If $?<4$, the least would no longer be $4$. If $?>9$, the greatest would no long
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 How many numbers are in the list $4, 9, 6, 9, 3$?
 A. $4$.
 B. $5$.
@@ -270,7 +270,7 @@ D. $9$.
 ::key B
 There are $5$ numbers, each counted once, repeats included. Option A is the mistake of counting $9$ only once.
 
-::mc
+::mc NB
 The greatest number in the list $12, 8, 15, 9$ is
 A. $8$.
 B. $12$.
@@ -279,7 +279,7 @@ D. $9$.
 ::key C
 Comparing the numbers, $15$ is the greatest. Option B is the mistake of picking the first number.
 
-::mc
+::mc NB
 Putting $7, 3, 9, 3$ in order from smallest to largest gives
 A. $3, 3, 7, 9$.
 B. $9, 7, 3, 3$.
@@ -288,7 +288,7 @@ D. $3, 7, 9$.
 ::key A
 Both $3$s must be written. Option D leaves out one $3$, and B puts them largest first.
 
-::mc
+::mc TH
 The temperatures on five days are $24, 27, 22, 27, 25$ (degrees). How many degrees warmer is the warmest than the coolest?
 A. $5$ degrees.
 B. $3$ degrees.
@@ -297,7 +297,7 @@ D. $2$ degrees.
 ::key A
 $27-22=5$. Option B uses $27-24$ because it misses the least number, and C is only the greatest number.
 
-::tf
+::tf NB NB NB TH
 Look at the list of data $6, 2, 8, 2, 5, 2$.
 a) The list has $6$ numbers.
 b) The greatest number is $8$.
@@ -306,12 +306,12 @@ d) In order from smallest to largest it is $2, 2, 2, 5, 6, 8$.
 ::key T T F T
 a) True: count all six. b) True: $8$ is the greatest. c) False: $2$ appears $3$ times. d) True: all three $2$s are written.
 
-::sa
+::sa TH
 Here is the list $15, 9, 12, 20, 9$. How much greater is the greatest number than the least?
 ::key 11
 $20-9=11$.
 
-::sa
+::sa NB
 How many times does $7$ appear in the list $7, 3, 7, 5, 7, 4$?
 ::key 3
 The number $7$ is in the first, third and fifth places, so $3$ times.

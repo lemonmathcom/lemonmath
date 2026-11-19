@@ -404,7 +404,7 @@ Ta có $\sin^2\dfrac x2=\dfrac{1-\cos x}{2}$ (công thức hạ bậc). Do đó 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Họ nguyên hàm của hàm số $f(x)=3x^2-\sin x$ là
 A. $x^3+\cos x+C$.
 B. $x^3-\cos x+C$.
@@ -413,7 +413,7 @@ D. $3x^3+\cos x+C$.
 ::key A
 Ta có $\displaystyle\int 3x^2dx=x^3$ và $\displaystyle\int(-\sin x)\,dx=\cos x$ (cộng thêm hằng số). Phương án B sai dấu, C lấy đạo hàm của $3x^2$ thay vì nguyên hàm, D quên chia cho $3$.
 
-::mc
+::mc NB
 Họ nguyên hàm của hàm số $f(x)=2^x$ là
 A. $2^x\ln 2+C$.
 B. $\dfrac{2^x}{\ln 2}+C$.
@@ -422,7 +422,7 @@ D. $x\cdot 2^{x-1}+C$.
 ::key B
 Vì $\left(\dfrac{2^x}{\ln2}\right)'=\dfrac{2^x\ln2}{\ln2}=2^x$ nên chọn B. Phương án A là đạo hàm của $2^x$; C và D dùng nhầm công thức của $x^\alpha$ cho hàm mũ.
 
-::mc
+::mc VD
 Cho $F(x)$ là một nguyên hàm của hàm số $f(x)=2x+1$ thoả mãn $F(1)=5$. Giá trị của $F(2)$ bằng
 A. $6$.
 B. $11$.
@@ -431,7 +431,7 @@ D. $5$.
 ::key C
 Ta có $F(x)=x^2+x+C$. Vì $F(1)=2+C=5$ nên $C=3$, suy ra $F(2)=4+2+3=9$. Phương án A quên tìm $C$, B lấy $C=5$, D là $f(2)$.
 
-::mc
+::mc VD
 Một ô tô phanh với vận tốc $v(t)=15-3t$ (m/s) cho đến khi dừng. Quãng đường xe đi được từ lúc phanh đến lúc dừng là
 A. $75$ m.
 B. $37{,}5$ m.
@@ -440,7 +440,7 @@ D. $0$ m.
 ::key B
 Xe dừng khi $v(t)=0\iff t=5$. Ta có $s(t)=15t-\dfrac{3t^2}{2}$ nên $s(5)=75-37{,}5=37{,}5$. Phương án A coi vận tốc không đổi, C sai dấu số hạng thứ hai, D quên chia $t^2$ cho $2$.
 
-::tf
+::tf TH TH VD VD
 Cho hàm số $f(x)=e^x-2x$. Xét tính đúng sai của các mệnh đề sau:
 a) $F(x)=e^x-x^2$ là một nguyên hàm của $f(x)$.
 b) $\displaystyle\int f(x)\,dx=e^x-2+C$.
@@ -449,12 +449,12 @@ d) Với $F(x)$ ở ý c), $F(1)=e+1$.
 ::key Đ S Đ Đ
 a) Đúng: ta có $(e^x-x^2)'=e^x-2x$. b) Sai: $e^x-2$ là đạo hàm của $f$, không phải nguyên hàm. c) Đúng: vì $F(0)=1+C=3$ nên $C=2$. d) Đúng: thay $x=1$, ta được $F(1)=e-1+2=e+1$.
 
-::sa
+::sa VD
 Cho $F(x)$ là một nguyên hàm của hàm số $f(x)=6x^2-4x+3$ thoả mãn $F(0)=-2$. Tính $F(2)$.
 ::key 12
 Ta có $F(x)=2x^3-2x^2+3x+C$ và $F(0)=C=-2$. Vậy $F(2)=16-8+6-2=12$.
 
-::sa
+::sa VD
 Cho $F(x)$ là một nguyên hàm của hàm số $f(x)=e^x+\dfrac1x$ trên $(0; +\infty)$ thoả mãn $F(1)=e$. Tính $F(2)$ (làm tròn kết quả đến hàng phần mười).
 ::key 8,1
 Ta có $F(x)=e^x+\ln x+C$. Vì $F(1)=e+C=e$ nên $C=0$. Vậy $F(2)=e^2+\ln2\approx7{,}389+0{,}693\approx8{,}1$.

@@ -383,7 +383,7 @@ $$(2-t)(4-t)-1+1=0\iff(2-t)(4-t)=0\iff t=2\ \text{hoặc}\ t=4.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Trong không gian $Oxyz$, cho $\vec{a}=(2; -1; 3)$ và $\vec{b}=(1; 0; -2)$. Toạ độ của vectơ $\vec{a}-2\vec{b}$ là
 A. $(0; -1; -1)$.
 B. $(0; -1; 7)$.
@@ -392,7 +392,7 @@ D. $(1; -1; 5)$.
 ::key B
 $2\vec{b}=(2; 0; -4)$ nên $\vec{a}-2\vec{b}=(0; -1; 3+4)=(0; -1; 7)$. Phương án A sai dấu khi trừ $-4$, phương án C là $\vec{a}+2\vec{b}$, phương án D quên nhân $\vec{b}$ với $2$.
 
-::mc
+::mc NB
 Cho $\vec{u}=(3; -2; 1)$ và $\vec{v}=(1; 4; -2)$. Tích vô hướng $\vec{u}\cdot\vec{v}$ bằng
 A. $7$.
 B. $(3; -8; -2)$.
@@ -401,7 +401,7 @@ D. $-3$.
 ::key C
 $\vec{u}\cdot\vec{v}=3\cdot1+(-2)\cdot4+1\cdot(-2)=3-8-2=-7$. Phương án B viết tích vô hướng thành một vectơ, phương án D sai dấu ở tích $1\cdot(-2)$.
 
-::mc
+::mc TH
 Vectơ nào sau đây vuông góc với vectơ $\vec{a}=(1; 2; -2)$?
 A. $(1; 2; 2)$.
 B. $(2; -1; 2)$.
@@ -410,7 +410,7 @@ D. $(2; 1; 2)$.
 ::key D
 $(1; 2; -2)\cdot(2; 1; 2)=2+2-4=0$. Phương án C bằng $-2\vec{a}$, cùng phương với $\vec{a}$ chứ không vuông góc; A và B cho tích vô hướng $1$ và $-4$.
 
-::mc
+::mc TH
 Góc giữa hai vectơ $\vec{a}=(1; 0; 1)$ và $\vec{b}=(-1; 1; 0)$ bằng
 A. $120^\circ$.
 B. $60^\circ$.
@@ -419,7 +419,7 @@ D. $150^\circ$.
 ::key A
 $\cos(\vec{a}, \vec{b})=\dfrac{-1+0+0}{\sqrt2\cdot\sqrt2}=-\dfrac12$, nên góc bằng $120^\circ$. Phương án B bỏ qua dấu trừ của tích vô hướng.
 
-::tf
+::tf NB TH VD VD
 Trong không gian $Oxyz$, cho $A(1; 0; 2)$, $B(3; 1; 0)$, $C(0; 2; 2)$.
 a) $\overrightarrow{AB}=(2; 1; -2)$.
 b) Tam giác $ABC$ vuông tại $A$.
@@ -428,12 +428,12 @@ d) Góc $\widehat{ABC}$ lớn hơn $30^\circ$.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng: $\overrightarrow{AC}=(-1; 2; 0)$ và $\overrightarrow{AB}\cdot\overrightarrow{AC}=-2+2+0=0$. c) Sai: $AB=3$, $AC=\sqrt5$, diện tích là $\dfrac12\cdot3\sqrt5=\dfrac{3\sqrt5}{2}$. d) Đúng: $\overrightarrow{BA}=(-2; -1; 2)$, $\overrightarrow{BC}=(-3; 1; 2)$, $\cos\widehat{ABC}=\dfrac{9}{3\sqrt{14}}\approx0{,}80$, góc khoảng $36{,}7^\circ$.
 
-::sa
+::sa VD
 Cho ba điểm $A(1; 2; -1)$, $B(3; 0; 1)$ và $C(x; y; 5)$. Biết $A$, $B$, $C$ thẳng hàng, tính $x+y$.
 ::key 3
 $\overrightarrow{AB}=(2; -2; 2)$, $\overrightarrow{AC}=(x-1; y-2; 6)=k\overrightarrow{AB}$. Cao độ cho $6=2k$, $k=3$, nên $x=7$, $y=-4$ và $x+y=3$.
 
-::sa
+::sa VD
 Một lực $\vec{F}=(4; -2; 3)$ (đơn vị: N) kéo một vật dịch chuyển từ $M(1; 0; 0)$ đến $N(5; 3; 2)$ (đơn vị: m). Tính góc giữa lực $\vec{F}$ và hướng dịch chuyển $\overrightarrow{MN}$, theo độ (làm tròn kết quả đến hàng phần mười).
 ::key 56,5
 $\overrightarrow{MN}=(4; 3; 2)$, $\vec{F}\cdot\overrightarrow{MN}=16-6+6=16$ và $|\vec{F}|=|\overrightarrow{MN}|=\sqrt{29}$. Vậy $\cos=\dfrac{16}{29}$, góc khoảng $56{,}51^\circ$, làm tròn được $56{,}5$.

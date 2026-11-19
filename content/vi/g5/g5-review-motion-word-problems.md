@@ -281,7 +281,7 @@ Thời gian đi là $60:30=2$ (giờ), thời gian về là $60:20=3$ (giờ). T
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Một ô tô đi $150$ km hết $2{,}5$ giờ. Vận tốc của ô tô là
 A. $375$ km/giờ.
 B. $6$ km/giờ.
@@ -290,7 +290,7 @@ D. $152{,}5$ km/giờ.
 ::key C
 $v=150:2{,}5=60$ km/giờ. Phương án A nhân hai số, B quên dấu phẩy của $2{,}5$, D cộng hai số.
 
-::mc
+::mc TH
 Một xe đi với vận tốc $45$ km/giờ trong $20$ phút. Quãng đường xe đi được là
 A. $900$ km.
 B. $2{,}25$ km.
@@ -299,7 +299,7 @@ D. $15$ km.
 ::key D
 $20$ phút $=\dfrac13$ giờ nên $s=45\times\dfrac13=15$ km. Phương án A nhân $45\times20$ (không đổi phút ra giờ), B chia $45:20$, C cộng hai số.
 
-::mc
+::mc VD
 Mua $4$ chiếc bút giống nhau hết $48\,000$ đồng. Mua $7$ chiếc bút như vậy hết
 A. $84\,000$ đồng.
 B. $192\,000$ đồng.
@@ -308,7 +308,7 @@ D. $55\,000$ đồng.
 ::key A
 Giá một chiếc bút là $12\,000$ đồng nên $7$ chiếc hết $84\,000$ đồng. Phương án B nhân $48\,000\times4$, C là giá một chiếc, D cộng $48\,000+7000$.
 
-::mc
+::mc VD
 Một chiếc cặp giá $250\,000$ đồng được giảm giá $20\%$. Giá sau khi giảm là
 A. $50\,000$ đồng.
 B. $200\,000$ đồng.
@@ -317,7 +317,7 @@ D. $249\,980$ đồng.
 ::key B
 Tiền giảm là $50\,000$ đồng nên giá mới là $200\,000$ đồng. Phương án A là tiền giảm, C coi $20\%$ là $20\,000$ đồng, D trừ đi $20$ đồng.
 
-::tf
+::tf TH TH VD VDC
 Một ô tô đi từ A đến B dài $120$ km với vận tốc $40$ km/giờ, rồi quay về A với vận tốc $60$ km/giờ.
 a) Thời gian đi từ A đến B là $3$ giờ.
 b) Thời gian về từ B đến A là $2$ giờ.
@@ -326,12 +326,12 @@ d) Vận tốc trung bình cả đi lẫn về là $48$ km/giờ.
 ::key Đ Đ S Đ
 a) Đúng: $120:40=3$. b) Đúng: $120:60=2$. c) Sai: $50$ là trung bình cộng hai vận tốc, không phải vận tốc trung bình. d) Đúng: $240:5=48$.
 
-::sa
+::sa TH
 Một xe đi $90$ km với vận tốc $45$ km/giờ. Xe đi hết bao nhiêu phút?
 ::key 120
 $90:45=2$ giờ $=120$ phút.
 
-::sa
+::sa VD
 Cùng một công việc, $6$ công nhân làm xong trong $8$ ngày. Hỏi $12$ công nhân (làm việc như nhau) làm xong trong mấy ngày?
 ::key 4
 $6\times8=48$ ngày công, $48:12=4$ (ngày).

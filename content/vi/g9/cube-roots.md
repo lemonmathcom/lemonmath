@@ -440,7 +440,7 @@ Vậy có $34$ số nguyên $x$ thoả mãn điều kiện đã cho.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 $\sqrt[3]{-27}$ bằng
 A. $-3$.
 B. $3$.
@@ -449,7 +449,7 @@ D. không xác định.
 ::key A
 Vì $(-3)^3=-27$ nên $\sqrt[3]{-27}=-3$. Phương án D nhầm với căn bậc hai, C lấy $-27$ chia $3$.
 
-::mc
+::mc TH
 Căn thức nào sau đây xác định với mọi số thực $x$?
 A. $\sqrt{x-1}$.
 B. $\sqrt[3]{x-1}$.
@@ -458,7 +458,7 @@ D. $\sqrt{x}$.
 ::key B
 Căn bậc ba xác định với mọi biểu thức lấy căn. Các căn bậc hai ở A, C, D cần biểu thức lấy căn không âm.
 
-::mc
+::mc NB
 $\sqrt[3]{(-5)^3}$ bằng
 A. $5$.
 B. $-5$.
@@ -467,7 +467,7 @@ D. $\pm5$.
 ::key B
 Ta có $\sqrt[3]{(-5)^3}=-5$ (vì $\sqrt[3]{a^3}=a$). Phương án A dùng nhầm giá trị tuyệt đối như với căn bậc hai.
 
-::mc
+::mc TH
 Một thùng hình lập phương có thể tích $0{,}216$ m³. Cạnh thùng dài
 A. $0{,}6$ m.
 B. $0{,}072$ m.
@@ -476,7 +476,7 @@ D. $6$ m.
 ::key A
 Cạnh thùng dài $\sqrt[3]{0{,}216}=0{,}6$ (m) (vì $0{,}6^3=0{,}216$). Phương án B chia thể tích cho $3$; C và D đặt sai dấu phẩy.
 
-::tf
+::tf TH NB TH TH
 Cho biểu thức $A=\sqrt[3]{x-7}$. Xét tính đúng sai của các mệnh đề sau:
 a) $A$ xác định khi và chỉ khi $x\ge7$.
 b) Khi $x=-1$ thì $A=-2$.
@@ -485,12 +485,12 @@ d) $A<0$ khi $x<7$.
 ::key S Đ Đ Đ
 a) Sai. Căn bậc ba xác định với mọi $x$. b) Đúng. Khi $x=-1$ ta có $A=\sqrt[3]{-8}=-2$. c) Đúng. Khi $x=34$ ta có $A=\sqrt[3]{27}=3$. d) Đúng. Khi $x<7$ thì $x-7<0$, do đó $A=\sqrt[3]{x-7}<0$.
 
-::sa
+::sa TH
 Tính $\sqrt[3]{125}-\sqrt[3]{-8}+\sqrt[3]{0{,}001}$.
 ::key 7,1
 Ta có $\sqrt[3]{125}-\sqrt[3]{-8}+\sqrt[3]{0{,}001}=5-(-2)+0{,}1=7{,}1$.
 
-::sa
+::sa VD
 Một hộp quà hình lập phương có thể tích $3$ lít. Tính độ dài cạnh hộp theo xăng-ti-mét (làm tròn kết quả đến hàng phần mười).
 ::key 14,4
 Ta có $3$ lít $=3000$ cm³. Do đó cạnh hộp dài $\sqrt[3]{3000}\approx14{,}4$ (cm).

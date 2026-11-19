@@ -525,7 +525,7 @@ So a) $HH$, $HT$, $TH$, $TT$; b) $HT$ and $TH$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A six-sided dice is rolled. The number of possible outcomes is
 A. $6$.
 B. $1$.
@@ -534,7 +534,7 @@ D. $12$.
 ::key A
 There are $6$ faces, from $1$ to $6$ dots. C is the number of outcomes when a coin is tossed.
 
-::mc
+::mc NB
 A dice is rolled. Which event is impossible?
 A. "The number of dots is even".
 B. "The number of dots is $7$".
@@ -543,7 +543,7 @@ D. "The number of dots is odd".
 ::key B
 No face has $7$ dots. A and D are possible; C is certain.
 
-::mc
+::mc TH
 A coin is tossed $20$ times and lands tails $8$ times. The experimental probability of the event "tails" is
 A. $8$.
 B. $\dfrac{12}{20}$.
@@ -552,7 +552,7 @@ D. $\dfrac{1}{2}$.
 ::key C
 $\dfrac{8}{20}=\dfrac25$. A uses the number of times as the probability; B is for heads; D is the "ideal" value, not the result of this experiment.
 
-::mc
+::mc NB
 A card is drawn at random from a box of four cards numbered $2$; $4$; $6$; $8$. The certain event is
 A. "The card shows an odd number".
 B. "The card shows a number greater than $8$".
@@ -561,7 +561,7 @@ D. "The card shows an even number".
 ::key D
 All four cards show even numbers. A and C are impossible; B is impossible too.
 
-::tf
+::tf NB TH TH VD
 Using the chart "Number of times each face came up in $50$ rolls of a dice", decide whether each statement is true or false.
 a) Face $4$ came up $10$ times.
 b) The experimental probability of the event "face $5$ comes up" is $6$.
@@ -570,12 +570,12 @@ d) The experimental probability of the event "a face with an even number of dots
 ::key T F F T
 a) True. b) False: it is $\dfrac{6}{50}=\dfrac{3}{25}$. c) False: $7+9=16$. d) True: $\dfrac{29}{50}>\dfrac{25}{50}$.
 
-::sa
+::sa TH
 A coin is tossed $40$ times and lands tails $18$ times. Find the experimental probability of the event "tails" (as a decimal).
 ::key 0.45
 $\dfrac{18}{40}=0.45$.
 
-::sa
+::sa TH
 A dice is rolled. How many favourable outcomes are there for the event "the number of dots is a prime number"?
 ::key 3
 The prime numbers from $1$ to $6$ are $2$; $3$; $5$.

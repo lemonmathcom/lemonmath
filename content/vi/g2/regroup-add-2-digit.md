@@ -259,7 +259,7 @@ Hàng đơn vị của tổng là $4$, nên $\square+7=14$, suy ra $\square=7$. 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $38+45$ là
 A. $73$.
 B. $82$.
@@ -268,7 +268,7 @@ D. $83$.
 ::key D
 $8+5=13$, viết $3$ nhớ $1$; $3+4+1=8$, nên $38+45=83$. Phương án A quên chục nhớ, C viết cả $13$ vào hàng đơn vị.
 
-::mc
+::mc TH
 Phép tính nào đúng?
 A. $29+36=65$.
 B. $29+36=55$.
@@ -277,7 +277,7 @@ D. $29+36=64$.
 ::key A
 $9+6=15$, viết $5$ nhớ $1$; $2+3+1=6$, nên $29+36=65$. A quên chục nhớ, C viết cả $15$ vào hàng đơn vị.
 
-::mc
+::mc TH
 Phép tính nào có kết quả bằng $71$?
 A. $35+35$.
 B. $35+36$.
@@ -286,7 +286,7 @@ D. $38+34$.
 ::key B
 $35+36=71$. Các phép tính khác lần lượt bằng $70$, $70$, $72$.
 
-::mc
+::mc VD
 Lớp 2A có $29$ bạn, lớp 2B có $34$ bạn. Cả hai lớp có bao nhiêu bạn?
 A. $53$ bạn.
 B. $613$ bạn.
@@ -295,7 +295,7 @@ D. $5$ bạn.
 ::key C
 "Cả hai lớp" là gộp lại: $29+34=63$. Phương án A quên chục nhớ, D là $34-29$, nhầm sang phép trừ.
 
-::tf
+::tf NB TH TH VD
 Em xét phép cộng $48+27$.
 a) Hàng đơn vị: $8+7=15$.
 b) $15$ đơn vị đổi được $1$ chục và $5$ đơn vị.
@@ -304,12 +304,12 @@ d) $48+27=75$.
 ::key Đ Đ S Đ
 a) Đúng: $8+7=15$. b) Đúng: $15=10+5$. c) Sai: hàng chục là $4+2+1=7$. d) Đúng: $48+27=75$.
 
-::sa
+::sa VD
 Tính $56+38$.
 ::key 94
 $6+8=14$, viết $4$ nhớ $1$; $5+3+1=9$. Vậy $56+38=94$.
 
-::sa
+::sa VD
 Thùng có $45$ quả cam và $37$ quả quýt. Thùng có tất cả bao nhiêu quả?
 ::key 82
 $5+7=12$, viết $2$ nhớ $1$; $4+3+1=8$. Vậy $45+37=82$ (quả).

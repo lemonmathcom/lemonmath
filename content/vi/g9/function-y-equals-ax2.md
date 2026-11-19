@@ -410,7 +410,7 @@ Vậy xe tải đi qua cổng được.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hàm số nào sau đây có dạng $y=ax^2$ với $a\neq0$?
 A. $y=3x$.
 B. $y=-\dfrac12x^2$.
@@ -419,7 +419,7 @@ D. $y=0x^2$.
 ::key B
 $a=-\dfrac12\neq0$. A là hàm số bậc nhất, C có thêm số hạng $2$, D có $a=0$.
 
-::mc
+::mc TH
 Cho hàm số $y=-2x^2$. Giá trị của $y$ khi $x=-3$ là
 A. $18$.
 B. $-18$.
@@ -428,7 +428,7 @@ D. $6$.
 ::key B
 $y=-2\cdot9=-18$. A sai dấu, C bình phương cả $-2$, D quên bình phương.
 
-::mc
+::mc TH
 Đồ thị của hàm số $y=ax^2$ đi qua điểm $(-2; 8)$. Giá trị của $a$ là
 A. $2$.
 B. $-2$.
@@ -437,7 +437,7 @@ D. $-4$.
 ::key A
 $4a=8$ nên $a=2$. B coi $(-2)^2=-4$, C lấy $8:2$, D lấy $8:(-2)$.
 
-::mc
+::mc TH
 Điểm nào sau đây không thuộc đồ thị của hàm số $y=-x^2$?
 A. $(1; -1)$.
 B. $(-2; -4)$.
@@ -446,7 +446,7 @@ D. $(0; 0)$.
 ::key C
 Tại $x=3$, $y=-9\neq9$.
 
-::tf
+::tf TH NB TH VD
 Cho hàm số $y=\dfrac13x^2$ có đồ thị $(P)$. Xét tính đúng sai của các mệnh đề sau:
 a) $O(0; 0)$ là điểm thấp nhất của $(P)$.
 b) $(P)$ đi qua điểm $(3; 3)$.
@@ -455,12 +455,12 @@ d) Các điểm thuộc $(P)$ có tung độ bằng $12$ có hoành độ là $6
 ::key Đ Đ S Đ
 a) Đúng: $a>0$. b) Đúng: $\dfrac13\cdot9=3$. c) Sai: tại $x=-3$, $y=3$. d) Đúng: $x^2=36$.
 
-::sa
+::sa VD
 Một vật rơi từ độ cao $80$ m, quãng đường rơi sau $t$ giây là $s=5t^2$ (m). Sau bao nhiêu giây thì vật chạm đất?
 ::key 4
 $5t^2=80\Leftrightarrow t^2=16$, mà $t>0$ nên $t=4$.
 
-::sa
+::sa TH
 Đồ thị của hàm số $y=ax^2$ đi qua điểm $A(4; 4)$. Tính $a$ (viết kết quả dưới dạng số thập phân).
 ::key 0,25
 $16a=4$ nên $a=0{,}25$.

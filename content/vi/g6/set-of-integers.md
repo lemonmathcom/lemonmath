@@ -416,7 +416,7 @@ Vậy điểm $B$ biểu diễn số $3$ hoặc số $-7$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số nào sau đây là số nguyên âm?
 A. $0$.
 B. $-(-5)$.
@@ -425,7 +425,7 @@ D. $7$.
 ::key C
 $-9$ là số nguyên âm. A: $0$ không âm; B: $-(-5)=5$ là số dương; D là số dương.
 
-::mc
+::mc NB
 Số đối của $-15$ là
 A. $15$.
 B. $-15$.
@@ -434,7 +434,7 @@ D. $\dfrac{1}{15}$.
 ::key A
 Số đối của $-15$ là $15$. B là chính số đó; C không liên quan; D là nghịch đảo (học sau), không phải số đối.
 
-::mc
+::mc TH
 Khẳng định nào sau đây đúng?
 A. $-6>-2$.
 B. $-1<-10$.
@@ -443,7 +443,7 @@ D. $-7<-4$.
 ::key D
 Vì $7>4$ nên $-7<-4$. A và B so sánh số âm như số tự nhiên; C sai vì số âm nhỏ hơn $0$.
 
-::mc
+::mc TH
 Có bao nhiêu số nguyên $x$ thoả mãn $-3\le x\le2$?
 A. $4$.
 B. $5$.
@@ -452,7 +452,7 @@ D. $7$.
 ::key C
 Đó là $-3$; $-2$; $-1$; $0$; $1$; $2$, gồm $6$ số. A bỏ cả hai đầu; B quên số $0$; D đếm thừa.
 
-::tf
+::tf NB NB TH TH
 Xét tính đúng sai của các mệnh đề sau:
 a) Mọi số tự nhiên đều là số nguyên.
 b) Số $0$ là số nguyên dương nhỏ nhất.
@@ -461,12 +461,12 @@ d) Trong hai số nguyên âm, số nào có phần số tự nhiên nhỏ hơn 
 ::key Đ S Đ S
 a) Đúng: $\mathbb{N}\subset\mathbb{Z}$. b) Sai: $0$ không là số dương; số nguyên dương nhỏ nhất là $1$. c) Đúng: ví dụ số đối của $-4$ là $4$. d) Sai: ví dụ $3<8$ nhưng $-3>-8$.
 
-::sa
+::sa TH
 Số nguyên âm lớn nhất là số nào?
 ::key -1
 Các số nguyên âm là $-1$; $-2$; $-3$; …, trong đó $-1$ nằm gần $0$ nhất nên lớn nhất.
 
-::sa
+::sa TH
 Lúc $6$ giờ nhiệt độ là $-3^\circ\text{C}$, đến trưa nhiệt độ tăng thêm $8^\circ\text{C}$. Nhiệt độ buổi trưa là bao nhiêu độ C?
 ::key 5
 Trên nhiệt kế, từ $-3$ đi lên $8$ vạch: $3$ vạch đầu đến $0$, còn $5$ vạch nữa đến $5$. Nhiệt độ buổi trưa là $5^\circ\text{C}$.

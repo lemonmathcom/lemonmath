@@ -264,7 +264,7 @@ $1$ thousand has $10$ hundreds. Each hundred has $10$ tens. So $10$ hundreds hav
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 $10$ ones equal
 A. $1$ ten.
 B. $10$ tens.
@@ -273,7 +273,7 @@ D. $100$ tens.
 ::key A
 $10$ ones make $1$ ten. Option C mixes it up with $10$ tens.
 
-::mc
+::mc NB
 How many tens are in $1$ hundred?
 A. $1$ ten.
 B. $10$ tens.
@@ -282,7 +282,7 @@ D. $1000$ tens.
 ::key B
 $1$ hundred is made of $10$ tens. Option C mixes up $1$ hundred with $100$ tens.
 
-::mc
+::mc NB
 $10$ hundreds equal
 A. $1$ thousand.
 B. $100$ hundreds.
@@ -291,7 +291,7 @@ D. $10$ tens.
 ::key A
 Ten hundreds make $1$ thousand. Option D mixes up hundreds with tens.
 
-::mc
+::mc TH
 Each box has $10$ pens. There are $10$ such boxes. How many pens are there altogether?
 A. $10$ pens.
 B. $20$ pens.
@@ -300,7 +300,7 @@ D. $1000$ pens.
 ::key C
 $10$ boxes with $1$ ten of pens each make $10$ tens, which is $1$ hundred pens. Option B comes from adding $10+10$.
 
-::tf
+::tf NB NB NB NB
 Look at these exchanges.
 a) $1$ ten has $10$ ones.
 b) $1$ hundred has $10$ tens.
@@ -309,12 +309,12 @@ d) $1$ thousand has $10$ hundreds.
 ::key T T F T
 a) True. b) True. c) False: $10$ hundreds make $1$ thousand. d) True.
 
-::sa
+::sa TH
 How many ones are $2$ tens?
 ::key 20
 $10+10=20$ (ones).
 
-::sa
+::sa NB
 How many hundreds make $1$ thousand?
 ::key 10
 $1$ thousand is made of $10$ hundreds.

@@ -516,7 +516,7 @@ Vậy a), b), c) đã được chứng minh và $\widehat{BCD}=70^\circ$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho $\triangle ABC=\triangle MNP$. Khẳng định nào sau đây đúng?
 A. $BC=NP$.
 B. $AB=MP$.
@@ -525,7 +525,7 @@ D. $\widehat A=\widehat N$.
 ::key A
 $A$, $B$, $C$ lần lượt ứng với $M$, $N$, $P$, nên $BC$ ứng với $NP$. A, C ghép sai cạnh; D ghép sai góc ($\widehat A=\widehat M$).
 
-::mc
+::mc TH
 Cho $\triangle ABC=\triangle DEF$ có $AB=3$ cm, $BC=5$ cm, $CA=6$ cm. Chu vi tam giác $DEF$ là
 A. $8$ cm.
 B. $14$ cm.
@@ -534,7 +534,7 @@ D. $11$ cm.
 ::key B
 Chu vi $DEF$ bằng chu vi $ABC$: $3+5+6=14$ (cm). A và D thiếu một cạnh, C là tích ba số.
 
-::mc
+::mc NB
 Hai tam giác $ABC$ và $DEF$ bằng nhau theo trường hợp c.c.c khi
 A. $\widehat A=\widehat D$, $\widehat B=\widehat E$, $\widehat C=\widehat F$.
 B. $AB=DE$, $BC=EF$ và $\widehat A=\widehat D$.
@@ -543,7 +543,7 @@ D. $AB=DE$ và hai tam giác có cùng chu vi.
 ::key C
 c.c.c cần ba cặp cạnh bằng nhau. B chỉ có hai cạnh và một góc không xen giữa, A chỉ có góc, D thiếu hai cặp cạnh.
 
-::mc
+::mc TH
 Cho tam giác $OAC$ và $OBC$ có $OA=OB$, $AC=BC$. Để chứng minh $\triangle OAC=\triangle OBC$ theo c.c.c, ta cần thêm
 A. $\widehat{OAC}=\widehat{OBC}$.
 B. $OC=AB$.
@@ -552,7 +552,7 @@ D. $OC$ là cạnh chung.
 ::key D
 Cặp cạnh thứ ba là $OC=OC$. A và C là góc, không dùng được cho c.c.c; B so sánh hai đoạn không tương ứng.
 
-::tf
+::tf TH NB VD TH
 Cho $\triangle ABC=\triangle MNP$, trong đó $AB=4$ cm, $\widehat A=50^\circ$ và $\widehat B=70^\circ$. Xét tính đúng sai của các mệnh đề sau:
 a) $\widehat N=50^\circ$.
 b) $MN=4$ cm.
@@ -561,12 +561,12 @@ d) Có thể viết $\triangle ABC=\triangle NMP$.
 ::key S Đ Đ S
 a) Sai: $N$ ứng với $B$ nên $\widehat N=70^\circ$. b) Đúng: $MN=AB$. c) Đúng: $\widehat P=\widehat C=180^\circ-50^\circ-70^\circ=60^\circ$. d) Sai: $A$ ứng với $M$ chứ không phải $N$.
 
-::sa
+::sa VD
 Cho $\triangle ABC=\triangle DEF$ có $\widehat A=48^\circ$ và $\widehat B=67^\circ$. Tính số đo góc $F$ (đơn vị: độ).
 ::key 65
 $\widehat F=\widehat C=180^\circ-48^\circ-67^\circ=65^\circ$.
 
-::sa
+::sa VD
 Cho tứ giác $ABCD$ có $AB=AD$, $CB=CD$ và $\widehat{BAC}=32^\circ$, tia $AC$ nằm trong góc $BAD$. Tính số đo góc $BAD$ (đơn vị: độ).
 ::key 64
 $\triangle ABC=\triangle ADC$ (c.c.c) nên $\widehat{DAC}=\widehat{BAC}=32^\circ$, do đó $\widehat{BAD}=32^\circ+32^\circ=64^\circ$.

@@ -445,7 +445,7 @@ So a) the polynomial $x^2+4$ has no roots; b) the two roots are $x=1$ and $x=-2$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The degree of the polynomial $5x^3-2x^5+x$ is
 A. $5$.
 B. $3$.
@@ -454,7 +454,7 @@ D. $1$.
 ::key A
 The highest exponent of the variable is $5$. A is the exponent of the first term, C is the leading coefficient and D is the exponent of the last term.
 
-::mc
+::mc TH
 The value of the expression $2x^2-x$ when $x=-3$ is
 A. $15$.
 B. $21$.
@@ -463,7 +463,7 @@ D. $-15$.
 ::key B
 $2\cdot(-3)^2-(-3)=18+3=21$. B works out $(-3)^2$ as $-9$, A ignores the minus sign before $x$ and C makes both mistakes.
 
-::mc
+::mc TH
 The leading coefficient of the polynomial $4-3x^2+x$ is
 A. $1$.
 B. $4$.
@@ -472,7 +472,7 @@ D. $3$.
 ::key C
 Arranged, it is $-3x^2+x+4$, and the term of highest degree is $-3x^2$. B is the term written first before arranging, A is the coefficient of $x$ and D loses the minus sign.
 
-::mc
+::mc TH
 Which of the following numbers is a root of the polynomial $x^2-x-6$?
 A. $2$.
 B. $-3$.
@@ -481,7 +481,7 @@ D. $3$.
 ::key D
 $3^2-3-6=0$. For $2$ we get $-4$, for $-3$ we get $6$, and for $6$ we get $24$.
 
-::tf
+::tf NB TH TH TH
 Let $P(x)=x^3-4x$. Decide whether each statement is true or false.
 a) The leading coefficient of $P(x)$ is $-4$.
 b) $P(2)=0$.
@@ -490,12 +490,12 @@ d) $P(-2)=0$.
 ::key F T F T
 a) False: the leading coefficient is $1$ (of $x^3$). b) True: $8-8=0$. c) False: $P(1)=1-4=-3$. d) True: $-8+8=0$.
 
-::sa
+::sa TH
 Find the value of the polynomial $3x^2-2x+1$ when $x=-2$.
 ::key 17
 $3\cdot4+4+1=17$.
 
-::sa
+::sa VD
 Find the root of the polynomial $5x+3$ (give your answer as a decimal).
 ::key -0.6
 $5x+3=0$ gives $x=-\dfrac35=-0.6$.

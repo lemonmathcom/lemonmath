@@ -388,7 +388,7 @@ So the two numbers are $2$ and $29$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Which of these numbers is prime?
 A. $1$.
 B. $51$.
@@ -397,7 +397,7 @@ D. $47$.
 ::key D
 $47$ has only two factors, $1$ and $47$. A: $1$ has only one factor; B: $51=3\cdot17$; C: $91=7\cdot13$.
 
-::mc
+::mc TH
 The prime factorisation of $72$ is
 A. $2^3\cdot3^2$.
 B. $8\cdot9$.
@@ -406,7 +406,7 @@ D. $2\cdot36$.
 ::key A
 $72=2\cdot2\cdot2\cdot3\cdot3=2^3\cdot3^2$. B and D still contain composite numbers; C swaps the powers ($2^2\cdot3^3=108$).
 
-::mc
+::mc TH
 How many prime numbers are there below $20$?
 A. $7$.
 B. $8$.
@@ -415,7 +415,7 @@ D. $10$.
 ::key B
 They are $2$; $3$; $5$; $7$; $11$; $13$; $17$; $19$. A forgets $2$; C also counts $1$.
 
-::mc
+::mc TH
 Given $n=2^2\cdot7$, which number is **not** a factor of $n$?
 A. $4$.
 B. $14$.
@@ -424,7 +424,7 @@ D. $28$.
 ::key C
 $n=28$ has the factors $1$; $2$; $4$; $7$; $14$; $28$. The number $8=2^3$ needs three factors of $2$, but $n$ has only two.
 
-::tf
+::tf TH TH VD TH
 Decide whether each statement is true or false.
 a) Every prime number is odd.
 b) The number $57$ is composite.
@@ -433,12 +433,12 @@ d) $120=2^3\cdot3\cdot5$.
 ::key F T T T
 a) False: $2$ is an even prime. b) True: $57=3\cdot19$. c) True: $31$ is prime. d) True: $2^3\cdot3\cdot5=8\cdot15=120$.
 
-::sa
+::sa NB
 What is $2^3\cdot5$?
 ::key 40
 $2^3\cdot5=8\cdot5=40$.
 
-::sa
+::sa TH
 How many different prime factors does $210$ have?
 ::key 4
 $210=2\cdot3\cdot5\cdot7$, which has $4$ different prime factors.

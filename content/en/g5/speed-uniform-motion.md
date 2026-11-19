@@ -312,7 +312,7 @@ In $1$ hour $=3600$ seconds she runs $5\times3600=18\,000$ (m) $=18$ (km). So $5
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 A car travels $160$ km in $4$ hours. Its speed is
 A. $40$ km/h.
 B. $0.025$ km/h.
@@ -321,7 +321,7 @@ D. $164$ km/h.
 ::key A
 $v=160\div4=40$ km/h. Option C multiplies instead of dividing, B divides the wrong way round ($4\div160$) and D adds the two numbers.
 
-::mc
+::mc TH
 A vehicle travels at $45$ km/h for $2$ hours $30$ minutes. The distance it travels is
 A. $103.5$ km.
 B. $112.5$ km.
@@ -330,7 +330,7 @@ D. $18$ km.
 ::key B
 $2$ h $30$ min $=2.5$ h, so $s=45\times2.5=112.5$ km. Option A treats $30$ minutes as $0.3$ hour, C ignores the $30$ minutes and D is $45\div2.5$.
 
-::mc
+::mc NB
 A distance is $36$ km and a cyclist's speed is $12$ km/h. The time taken is
 A. $432$ hours.
 B. $48$ hours.
@@ -339,7 +339,7 @@ D. $24$ hours.
 ::key C
 $t=36\div12=3$ hours. Option A multiplies, B adds and D subtracts the two given numbers.
 
-::mc
+::mc VD
 The distance AB is $90$ km. A vehicle leaves A at $7{:}15$ at $45$ km/h. It arrives at B at
 A. $7{:}45$.
 B. $7{:}17$.
@@ -348,7 +348,7 @@ D. $9{:}15$.
 ::key D
 $t=90\div45=2$ hours, so the vehicle arrives at $9{:}15$. Option A divides the wrong way round ($45\div90=0.5$ hour), C treats $90$ km as $90$ minutes and B adds $2$ minutes instead of $2$ hours.
 
-::tf
+::tf TH TH VD VD
 A motorbike travels $90$ km in $2$ hours $30$ minutes.
 a) The speed of the motorbike is $45$ km/h.
 b) The speed of the motorbike is $36$ km/h.
@@ -357,12 +357,12 @@ d) At that speed, the motorbike takes $4$ hours to travel $144$ km.
 ::key F T T T
 a) False: $2$ h $30$ min is not $2$ hours, so $90\div2=45$ is wrong. b) True: $90\div2.5=36$. c) True: $36\times1.5=54$. d) True: $144\div36=4$.
 
-::sa
+::sa TH
 A car travels for $2.5$ hours at $48$ km/h. How many kilometres does it travel?
 ::key 120
 $s=48\times2.5=120$ (km).
 
-::sa
+::sa TH
 A distance is $18$ km and a walker's speed is $4$ km/h. How many hours does the walker take?
 ::key 4.5
 $t=18\div4=4.5$ (hours).

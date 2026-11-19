@@ -346,7 +346,7 @@ Since each class has frequency $m$, $n=km$ and $\bar{x}=\dfrac{m(c_1+\dots+c_k)}
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 Grouped data have the classes $[0, 10)$, $[10, 20)$, $[20, 30)$ with frequencies $2$, $3$, $5$. The estimated mean is
 A. $15$.
 B. $20$.
@@ -355,7 +355,7 @@ D. $18$.
 ::key D
 $\bar{x}=\dfrac{2\cdot5+3\cdot15+5\cdot25}{10}=\dfrac{180}{10}=18$. Option A is the plain mean of the three representative values (forgetting the frequencies), and option C forgets to divide by $n$.
 
-::mc
+::mc TH
 A grouped data set of size $40$ has five classes with frequencies $15, 3, 3, 3, 16$. The class containing the median is class number
 A. three.
 B. one.
@@ -364,7 +364,7 @@ D. two.
 ::key A
 The cumulative frequencies are $15, 18, 21, 24, 40$ and $\dfrac n2=20$, so the first class with $C_p\ge20$ is the third class. Option C is the class with the greatest frequency.
 
-::mc
+::mc TH
 The table $[0, 10)$: $4$; $[10, 20)$: $10$; $[20, 30)$: $6$ has an estimated mode of
 A. $15$.
 B. $16$.
@@ -373,7 +373,7 @@ D. $20$.
 ::key B
 $M_o=10+\dfrac{10-4}{(10-4)+(10-6)}\cdot10=16$. Option A is the representative value, option C swaps the roles of the two neighbouring classes, and option D is the upper boundary.
 
-::mc
+::mc VD
 The table of size $40$: $[0, 10)$: $5$; $[10, 20)$: $10$; $[20, 30)$: $15$; $[30, 40)$: $10$. The lower quartile $Q_1$ is
 A. $5$.
 B. $10$.
@@ -382,7 +382,7 @@ D. $20$.
 ::key C
 $\dfrac n4=10$, class $[10, 20)$ ($C_1=5$, $m_2=10$): $Q_1=10+\dfrac{10-5}{10}\cdot10=15$. Option A is $C_1$, option B is $\dfrac n4$, and option D is the upper boundary of the class.
 
-::tf
+::tf TH TH VD VD
 Grouped data of size $60$: $[0, 20)$ has $10$, $[20, 40)$ has $30$, $[40, 60)$ has $20$. Decide whether each statement is true or false.
 a) The estimated mean is $30$.
 b) The class containing $Q_3$ is $[40, 60)$.
@@ -391,12 +391,12 @@ d) $Q_1=20$.
 ::key F T T F
 The cumulative frequencies are $10, 40, 60$. a) False: $\bar{x}=\dfrac{10\cdot10+30\cdot30+20\cdot50}{60}\approx33.3$; $30$ is the plain mean of the representative values. b) True: $\dfrac{3n}{4}=45>40$. c) True: $M_e=20+\dfrac{30-10}{30}\cdot20\approx33.3$. d) False: $Q_1=20+\dfrac{15-10}{30}\cdot20\approx23.3$.
 
-::sa
+::sa VD
 Grouped data of size $10$ have the classes $[0, 5)$ and $[5, 10)$ with frequencies $3$ and $7$. What is the estimated mean?
 ::key 6
 $\bar{x}=\dfrac{3\cdot2.5+7\cdot7.5}{10}=\dfrac{60}{10}=6$.
 
-::sa
+::sa VD
 The table of size $40$: $[0, 10)$: $5$; $[10, 20)$: $10$; $[20, 30)$: $15$; $[30, 40)$: $10$. What is the upper quartile $Q_3$?
 ::key 30
 $\dfrac{3n}{4}=30$; the cumulative frequencies are $5, 15, 30, 40$, so the class is $[20, 30)$ ($C_2=15$, $m_3=15$): $Q_3=20+\dfrac{30-15}{15}\cdot10=30$.

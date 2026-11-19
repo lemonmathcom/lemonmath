@@ -298,7 +298,7 @@ So the circle has center $(3,-2)$ and radius $5$.
 :::
 
 :::quiz
-::mc
+::mc NB
 What is the sum of the interior angles of a hexagon?
 A. $540^\circ$
 B. $360^\circ$
@@ -307,7 +307,7 @@ D. $720^\circ$
 ::key D
 $(6-2)\times180^\circ=720^\circ$.
 
-::mc
+::mc NB
 A triangle has base $10$ and height $6$. What is its area?
 A. $30$
 B. $60$
@@ -316,7 +316,7 @@ D. $15$
 ::key A
 $\dfrac12\times10\times6=30$.
 
-::mc
+::mc NB
 What is the value of $\tan45^\circ$?
 A. $\dfrac{\sqrt2}{2}$
 B. $1$
@@ -325,7 +325,7 @@ D. $\dfrac{\sqrt3}{3}$
 ::key B
 In a right isosceles triangle, the opposite and adjacent sides are equal.
 
-::mc
+::mc NB
 What is the volume of a cube with edge length $4$?
 A. $16$
 B. $48$
@@ -334,7 +334,7 @@ D. $96$
 ::key C
 $4^3=64$. Option D is the surface area.
 
-::tf
+::tf NB TH TH TH
 Consider the circle $(x-1)^2+(y+2)^2=9$. Decide whether each statement is true or false.
 a) The center is $(1,-2)$.
 b) The radius is $9$.
@@ -343,12 +343,12 @@ d) The area enclosed by the circle is $9\pi$.
 ::key T F T T
 The radius is $\sqrt9=3$; the point $(4,-2)$ is $3$ units from the center; the area is $\pi(3)^2=9\pi$.
 
-::sa
+::sa TH
 A right triangle has legs $6$ and $8$. Find the hypotenuse.
 ::key 10
 $\sqrt{36+64}=10$.
 
-::sa
+::sa TH
 Find the slope of the line through $(0,1)$ and $(2,7)$.
 ::key 3
 $\dfrac{7-1}{2-0}=3$.

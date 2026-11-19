@@ -269,7 +269,7 @@ Cầu lông và bơi cộng lại: $30-11-4=15$ (bạn). Số bạn chọn bơi:
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Dãy nào được xếp theo thứ tự tăng dần?
 A. $48, 40, 84, 80$.
 B. $84, 80, 48, 40$.
@@ -278,7 +278,7 @@ D. $40, 48, 80, 84$.
 ::key D
 Tăng dần là từ bé đến lớn: $40<48<80<84$. Phương án B là thứ tự giảm dần.
 
-::mc
+::mc NB
 Hình kiểm đếm ///// /// ứng với số nào?
 A. $8$.
 B. $5$.
@@ -287,7 +287,7 @@ D. $3$.
 ::key A
 Một nhóm đủ $5$ vạch và thêm $3$ vạch nữa: $5+3=8$. Phương án B quên nhóm $3$ vạch, phương án D quên nhóm $5$ vạch.
 
-::mc
+::mc TH
 Cô hỏi $20$ bạn thích môn nào nhất: Toán $6$ bạn, Tiếng Việt $5$ bạn, Tiếng Anh $4$ bạn, còn lại thích Thể dục. Có bao nhiêu bạn thích Thể dục?
 A. $15$.
 B. $5$.
@@ -296,7 +296,7 @@ D. $4$.
 ::key B
 Ba môn đầu có $6+5+4=15$ bạn, nên Thể dục có $20-15=5$ bạn. Phương án A là số bạn của ba môn đầu, chưa trừ khỏi $20$.
 
-::mc
+::mc TH
 Dãy nào được xếp theo thứ tự giảm dần?
 A. $0{,}9;\ 0{,}8;\ 0{,}85;\ 0{,}75$.
 B. $0{,}75;\ 0{,}8;\ 0{,}85;\ 0{,}9$.
@@ -305,7 +305,7 @@ D. $0{,}85;\ 0{,}9;\ 0{,}8;\ 0{,}75$.
 ::key C
 Ta có $0{,}9>0{,}85>0{,}8>0{,}75$. Phương án B là tăng dần; phương án A đặt $0{,}8$ trước $0{,}85$ nên sai.
 
-::tf
+::tf NB TH NB TH
 Số quyển sách bốn bạn đọc trong tháng: Lan $8$, Mai $12$, Nam $5$, Hùng $12$.
 a) Mai và Hùng đọc nhiều sách nhất.
 b) Cả bốn bạn đọc $36$ quyển.
@@ -314,12 +314,12 @@ d) Nam đọc ít hơn Lan $4$ quyển.
 ::key Đ S Đ S
 a) Đúng: số lớn nhất là $12$. b) Sai: $8+12+5+12=37$. c) Đúng: $5<8<12=12$. d) Sai: $8-5=3$.
 
-::sa
+::sa TH
 Cửa hàng bán $45$ cái bánh ngày thứ nhất, $38$ cái ngày thứ hai và $52$ cái ngày thứ ba. Tổng cộng bán bao nhiêu cái bánh?
 ::key 135
 $45+38+52=135$ (cái).
 
-::sa
+::sa TH
 Điểm kiểm tra của $5$ bạn: $36, 29, 41, 33, 38$. Khi xếp tăng dần, số đứng thứ hai là số nào?
 ::key 33
 Xếp tăng dần: $29, 33, 36, 38, 41$. Số đứng thứ hai là $33$.

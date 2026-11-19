@@ -306,7 +306,7 @@ We have $9+5=14$, $9+6=15$, $9+7=16$, $9+8=17$, $9+9=18$. The sums greater than 
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $9+7$ equals
 A. $16$.
 B. $17$.
@@ -315,7 +315,7 @@ D. $15$.
 ::key A
 $9+7=9+1+6=10+6=16$. Option D splits wrongly (1 is missing), and options B and C add too much.
 
-::mc
+::mc TH
 $8+5$ equals
 A. $12$.
 B. $13$.
@@ -324,7 +324,7 @@ D. $10$.
 ::key B
 $8+5=8+2+3=10+3=13$. Option D forgets to add the remaining part.
 
-::mc
+::mc TH
 To work out $7+6$, you split $6=3+3$. The correct working is
 A. $7+3+4$.
 B. $7+6+3$.
@@ -333,7 +333,7 @@ D. $7+3+6$.
 ::key C
 After taking 3 to make 10, what is left is $6-3=3$, so write $7+3+3=10+3=13$. Options A, B and D add too much or too little.
 
-::mc
+::mc TH
 Suppose a pencil case holds 8 red pens and 9 blue pens. There are altogether
 A. $16$ pens.
 B. $1$ pen.
@@ -342,7 +342,7 @@ D. $17$ pens.
 ::key D
 "Altogether" means putting together: $8+9=17$. Option B is a subtraction by mistake.
 
-::tf
+::tf TH TH NB TH
 Look at the sum $8+6$.
 a) You can split $6=2+4$ and work out $8+6=8+2+4$.
 b) $8+6=15$.
@@ -351,12 +351,12 @@ d) The sum $8+6$ is less than 14.
 ::key T F T F
 a) True: $8+2=10$, then add 4. b) False: $8+6=14$, not 15. c) True: swapping the addends does not change the sum. d) False: the sum is 14, which is not less than 14.
 
-::sa
+::sa TH
 Work out $9+8$.
 ::key 17
 $9+8=9+1+7=10+7=17$.
 
-::sa
+::sa TH
 In the morning Lan folds 7 paper boats and in the afternoon she folds 6. How many paper boats does she fold in the two parts of the day?
 ::key 13
 $7+6=7+3+3=13$ (boats).

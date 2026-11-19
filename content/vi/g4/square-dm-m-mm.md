@@ -309,7 +309,7 @@ Số mảnh là $100$, vì $1\ \text{m}^2=100\ \text{dm}^2$. Mỗi mảnh rộng
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 $1\ \text{dm}^2$ bằng
 A. $10\ \text{cm}^2$.
 B. $1\,000\ \text{cm}^2$.
@@ -318,7 +318,7 @@ D. $100\ \text{mm}^2$.
 ::key C
 Cạnh $1\ \text{dm}=10\ \text{cm}$ nên diện tích là $10\times10=100\ \text{cm}^2$. Phương án A là nhầm $10$ với $100$.
 
-::mc
+::mc TH
 $7\ \text{m}^2$ bằng bao nhiêu $\text{dm}^2$?
 A. $70\ \text{dm}^2$.
 B. $7\ \text{dm}^2$.
@@ -327,7 +327,7 @@ D. $700\ \text{dm}^2$.
 ::key D
 Đổi sang đơn vị bé hơn thì nhân với $100$: $7\times100=700$. Phương án A là nhân với $10$.
 
-::mc
+::mc TH
 $3\ \text{dm}^2\ 8\ \text{cm}^2$ bằng bao nhiêu $\text{cm}^2$?
 A. $308\ \text{cm}^2$.
 B. $38\ \text{cm}^2$.
@@ -336,7 +336,7 @@ D. $3\,008\ \text{cm}^2$.
 ::key A
 $3\ \text{dm}^2=300\ \text{cm}^2$, rồi $300+8=308$. Phương án B là quên số $0$ ở giữa.
 
-::mc
+::mc VD
 Mặt bảng hình chữ nhật dài $4\ \text{m}$, rộng $3\ \text{m}$. Diện tích mặt bảng bằng bao nhiêu $\text{dm}^2$?
 A. $12\ \text{dm}^2$.
 B. $1\,200\ \text{dm}^2$.
@@ -345,7 +345,7 @@ D. $14\ \text{dm}^2$.
 ::key B
 $4\times3=12\ \text{m}^2$, rồi $12\times100=1\,200\ \text{dm}^2$. Phương án A quên đổi đơn vị, phương án C nhân với $10$.
 
-::tf
+::tf NB TH NB TH
 Em xét $1\ \text{m}^2$.
 a) $1\ \text{m}^2=100\ \text{dm}^2$.
 b) $1\ \text{m}^2=10\,000\ \text{cm}^2$.
@@ -354,12 +354,12 @@ d) $1\ \text{m}^2$ lớn hơn $9\,000\ \text{cm}^2$.
 ::key Đ Đ S Đ
 a) Đúng. b) Đúng: $100\times100=10\,000$. c) Sai: đúng là $100\ \text{dm}^2$. d) Đúng vì $10\,000>9\,000$.
 
-::sa
+::sa TH
 Đổi $9\ \text{dm}^2$ ra $\text{cm}^2$.
 ::key 900
 $9\times100=900$.
 
-::sa
+::sa TH
 Đổi $2\,400\ \text{cm}^2$ ra $\text{dm}^2$.
 ::key 24
 $2\,400:100=24$.

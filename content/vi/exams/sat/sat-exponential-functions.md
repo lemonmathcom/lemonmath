@@ -274,7 +274,7 @@ $200(0{,}8)^6\approx52{,}4$ mi-li-gam, vẫn trên 50; $200(0{,}8)^7\approx41{,}
 :::
 
 :::quiz
-::mc
+::mc NB
 Hàm số $f$ được cho bởi $f(x)=3\cdot2^x$. Giá trị của $f(4)$ là
 A. $24$
 B. $48$
@@ -283,7 +283,7 @@ D. $11$
 ::key B
 $3\cdot2^4=3\cdot16=48$. Phương án A tính $3\cdot2\cdot4$; phương án C là $3\cdot2^5$, nhân đôi thừa một lần.
 
-::mc
+::mc TH
 Một đại lượng được mô tả bởi $y=50(0{,}7)^t$. Câu nào đúng?
 A. Đại lượng tăng 70% sau mỗi đơn vị thời gian.
 B. Đại lượng giảm 70% sau mỗi đơn vị thời gian.
@@ -292,7 +292,7 @@ D. Đại lượng giảm 30% sau mỗi đơn vị thời gian.
 ::key D
 $0{,}7=1-0{,}3$, tức là giảm $30\%$ sau mỗi đơn vị thời gian.
 
-::mc
+::mc TH
 Một đại lượng bắt đầu bằng 4 và tăng gấp ba mỗi ngày. Sau 3 ngày giá trị của nó là
 A. $12$
 B. $36$
@@ -301,7 +301,7 @@ D. $324$
 ::key C
 $4\cdot3^3=108$. Phương án A là $4\cdot3$, lỗi nghĩ theo kiểu bậc nhất.
 
-::mc
+::mc TH
 Biểu thức nào cho giá trị của 500 đô la sau $t$ năm nếu số tiền tăng 2% mỗi năm?
 A. $500(1{,}02)^t$
 B. $500(0{,}02)^t$
@@ -310,7 +310,7 @@ D. $500(1{,}2)^t$
 ::key A
 Hệ số là $1+0{,}02=1{,}02$. Phương án D dùng $20\%$.
 
-::tf
+::tf NB TH TH TH
 Giá trị, tính bằng đô la, của một chiếc máy sau $t$ năm kể từ khi mua là $V(t)=8.000\cdot(0{,}9)^t$.
 a) Chiếc máy được mua với giá 8.000 đô la.
 b) Giá trị giảm 10% mỗi năm.
@@ -319,12 +319,12 @@ d) Mỗi năm chiếc máy mất 800 đô la giá trị.
 ::key Đ Đ Đ S
 a) Đúng: $V(0)=8.000$. b) Đúng: $0{,}9=1-0{,}1$. c) Đúng: $8.000\cdot0{,}81=6.480$. d) Sai: chỉ năm đầu mất 800 đô la, các năm sau mất ít hơn.
 
-::sa
+::sa TH
 Nếu $3\cdot2^x=96$ thì giá trị của $x$ bằng bao nhiêu?
 ::key 5
 $2^x=32=2^5$, nên $x=5$.
 
-::sa
+::sa VD
 Một mẫu chất nặng 64 gam có chu kì bán rã 5 ngày. Sau 15 ngày còn lại bao nhiêu gam?
 ::key 8
 $15$ ngày là $3$ chu kì bán rã: $64\left(\dfrac12\right)^3=8$.

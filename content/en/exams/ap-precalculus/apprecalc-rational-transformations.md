@@ -294,7 +294,7 @@ So $r(x)=\dfrac{3(x-1)}{x-2}$ is one such function.
 :::
 
 :::quiz
-::mc
+::mc TH
 Where does the graph of $f(x)=\dfrac{x+1}{x^2-1}$ have a vertical asymptote?
 A. $x=1$ and $x=-1$
 B. $x=1$ only
@@ -303,7 +303,7 @@ D. Nowhere
 ::key B
 $\dfrac{x+1}{(x-1)(x+1)}$: the factor $x+1$ cancels (a hole at $x=-1$).
 
-::mc
+::mc TH
 What is the horizontal asymptote of $\dfrac{4x^2}{2x^2+1}$?
 A. $y=4$
 B. $y=0$
@@ -312,7 +312,7 @@ D. $y=2$
 ::key D
 Equal degrees: $\dfrac42=2$.
 
-::mc
+::mc NB
 How is the graph of $y=f(x+3)$ related to the graph of $y=f(x)$?
 A. Shifted $3$ units left
 B. Shifted $3$ units right
@@ -321,7 +321,7 @@ D. Shifted $3$ units down
 ::key A
 Adding inside the bracket shifts the graph left.
 
-::mc
+::mc TH
 Which line is the slant asymptote of $\dfrac{x^3}{x^2+1}$?
 A. $y=x^2$
 B. $y=1$
@@ -330,7 +330,7 @@ D. $y=0$
 ::key C
 $\dfrac{x^3}{x^2+1}=x-\dfrac{x}{x^2+1}$, and the last term tends to $0$.
 
-::tf
+::tf NB TH TH NB
 Let $r(x)=\dfrac{x-2}{x+1}$. Decide whether each statement is true or false.
 a) $r$ has a zero at $x=2$.
 b) The graph has a vertical asymptote $x=-1$.
@@ -339,12 +339,12 @@ d) $r(0)=2$.
 ::key T T T F
 $r(0)=\dfrac{-2}{1}=-2$.
 
-::sa
+::sa TH
 The graph of $f(x)=\dfrac{x^2-1}{x-1}$ has a hole at $x=1$. Find the $y$-coordinate of the hole.
 ::key 2
 For $x\ne1$, $f(x)=x+1$, which is $2$ at $x=1$.
 
-::sa
+::sa TH
 Find the horizontal asymptote $y=c$ of $\dfrac{6x+1}{3x-2}$. Give $c$.
 ::key 2
 $\dfrac63=2$.

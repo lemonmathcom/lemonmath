@@ -399,7 +399,7 @@ Vậy quãng đường từ nhà đến trường dài $9$ km và Hà cần $0{,
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hai số có tổng bằng $50$ và hiệu bằng $14$. Số nhỏ hơn là
 A. $36$.
 B. $32$.
@@ -408,7 +408,7 @@ D. $25$.
 ::key C
 $x+y=50$, $x-y=14$ cho $x=32$, $y=18$. B là số lớn; A lấy $50-14$ mà quên chia đôi.
 
-::mc
+::mc TH
 Một mảnh vườn hình chữ nhật có chu vi $40$ m, chiều dài hơn chiều rộng $4$ m. Gọi chiều dài là $x$, chiều rộng là $y$ (m). Hệ phương trình đúng là
 A. $\begin{cases} x+y=40\\ x-y=4 \end{cases}$
 B. $\begin{cases} x+y=20\\ x-y=4 \end{cases}$
@@ -417,7 +417,7 @@ D. $\begin{cases} x+y=20\\ y-x=4 \end{cases}$
 ::key B
 Chu vi $2(x+y)=40$ nên $x+y=20$. A quên chia $2$; D viết ngược hiệu.
 
-::mc
+::mc VD
 Một ca nô có vận tốc xuôi dòng $30$ km/h và ngược dòng $22$ km/h. Vận tốc của dòng nước là
 A. $26$ km/h.
 B. $8$ km/h.
@@ -426,7 +426,7 @@ D. $4$ km/h.
 ::key D
 $x+y=30$, $x-y=22$ nên $2y=8$, $y=4$. B quên chia $2$; A là vận tốc ca nô khi nước yên lặng.
 
-::mc
+::mc TH
 Hai món hàng có giá niêm yết $x$ và $y$ nghìn đồng. Món thứ nhất giảm giá $10\%$, món thứ hai giảm giá $20\%$, tổng số tiền phải trả là $170$ nghìn đồng. Phương trình đúng là
 A. $0{,}9x+0{,}8y=170$.
 B. $0{,}1x+0{,}2y=170$.
@@ -435,7 +435,7 @@ D. $0{,}9x+0{,}2y=170$.
 ::key A
 Giảm $10\%$ còn $90\%$ giá, giảm $20\%$ còn $80\%$ giá. B là số tiền được giảm; C hiểu phần trăm thành số nghìn đồng.
 
-::tf
+::tf TH TH VD VD
 Có $30$ con gà và thỏ, tổng cộng $84$ chân. Gọi $x$ là số gà, $y$ là số thỏ.
 a) $x+y=30$.
 b) $4x+2y=84$.
@@ -444,12 +444,12 @@ d) Số gà nhiều hơn số thỏ $6$ con.
 ::key Đ S Đ Đ
 a) Đúng. b) Sai: gà $2$ chân, thỏ $4$ chân nên $2x+4y=84$. c) Đúng: trừ $x+2y=42$ cho $x+y=30$ được $y=12$. d) Đúng: $x=18$, $18-12=6$.
 
-::sa
+::sa VD
 Một số có hai chữ số, tổng hai chữ số bằng $9$. Đổi chỗ hai chữ số thì được số mới lớn hơn số cũ $45$ đơn vị. Tìm số đó.
 ::key 27
 $a+b=9$, $9(b-a)=45$ nên $b-a=5$, $b=7$, $a=2$. Kiểm tra: $72-27=45$.
 
-::sa
+::sa VD
 Trộn dung dịch muối $10\%$ với dung dịch muối $25\%$ để được $300$ g dung dịch $20\%$. Cần bao nhiêu gam dung dịch $10\%$?
 ::key 100
 $x+y=300$, $0{,}1x+0{,}25y=60$, tức $2x+5y=1200$. Thế $x=300-y$: $600+3y=1200$, $y=200$, $x=100$.

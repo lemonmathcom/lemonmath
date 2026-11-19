@@ -352,7 +352,7 @@ Gọi $M$ là trung điểm $BC$. Tam giác $ABC$ cân tại $A$ nên $AM\perp B
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Đường thẳng $d$ vuông góc với mặt phẳng $(P)$ khi
 A. $d$ vuông góc với một đường thẳng nằm trong $(P)$.
 B. $d$ vuông góc với hai đường thẳng cắt nhau nằm trong $(P)$.
@@ -361,7 +361,7 @@ D. $d$ cắt $(P)$ tại một điểm.
 ::key B
 Đó là điều kiện vuông góc với mặt phẳng. Phương án A và C thiếu một phương, D chỉ nói về việc cắt.
 
-::mc
+::mc TH
 Cho hình lập phương $ABCD.A'B'C'D'$. Đường thẳng $BD$ vuông góc với mặt phẳng nào sau đây?
 A. $(A'B'C'D')$.
 B. $(ABB'A')$.
@@ -370,7 +370,7 @@ D. $(BCC'B')$.
 ::key C
 $BD\perp AC$ và $BD\perp AA'$. Phương án B và D chứa $BD$ không vuông góc, A song song với $(ABCD)$ nên $BD$ không vuông góc.
 
-::mc
+::mc VD
 Cho tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc và $OA=OB=OC=a$. Gọi $M$ là trung điểm $BC$. Độ dài $AM$ bằng
 A. $\dfrac{a\sqrt2}{2}$.
 B. $\dfrac{a\sqrt3}{2}$.
@@ -379,7 +379,7 @@ D. $\dfrac{a\sqrt6}{2}$.
 ::key D
 $OA\perp(OBC)$ nên $AM^2=OA^2+OM^2=a^2+\dfrac{a^2}{2}=\dfrac{3a^2}{2}$. Phương án A là $OM$, B nhầm với tam giác đều, C bỏ $OM$.
 
-::mc
+::mc TH
 Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật và $SA\perp(ABCD)$. Đường thẳng nào sau đây vuông góc với $(SAB)$?
 A. $BC$.
 B. $CD$.
@@ -388,7 +388,7 @@ D. $AC$.
 ::key A
 $BC\perp AB$ và $BC\perp SA$. Phương án B song song với $AB$, C và D không vuông góc với $AB$ hoặc $SA$.
 
-::tf
+::tf TH TH VD TH
 Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông và $SA\perp(ABCD)$. Xét tính đúng sai của các mệnh đề sau:
 a) $AC\perp(SBD)$.
 b) $BD\perp(SAC)$.
@@ -397,12 +397,12 @@ d) $BC\perp(SAB)$.
 ::key S Đ S Đ
 a) Sai: $AC\perp BD$ nhưng $AC$ không vuông góc với $SD$. b) Đúng: $BD\perp AC$ và $BD\perp SA$. c) Sai: $AD$ không vuông góc với $SD$. d) Đúng: $BC\perp AB$ và $BC\perp SA$.
 
-::sa
+::sa VD
 Giả sử một mái chóp là hình chóp $S.ABCD$ có đáy là hình vuông cạnh $8$ m và các cạnh bên đều bằng $7$ m. Tính chiều cao của mái (làm tròn đến hàng phần mười của mét).
 ::key 4,1
 Chân đường cao là tâm $O$ của đáy nên $OA^2=32$, $SO^2=49-32=17$ và $SO\approx4{,}1$.
 
-::sa
+::sa TH
 Giả sử một căn phòng hình hộp chữ nhật có sàn $5$ m $\times4$ m và cao $2{,}5$ m. Tính khoảng cách từ góc trần đến góc sàn đối diện qua đường chéo (làm tròn đến hàng phần mười của mét).
 ::key 6,9
 Đường chéo là $\sqrt{25+16+6{,}25}=\sqrt{47{,}25}\approx6{,}9$.

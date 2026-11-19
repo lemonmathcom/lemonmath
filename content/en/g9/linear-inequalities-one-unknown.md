@@ -432,7 +432,7 @@ So you must call for at least $23$ minutes in a month for plan B to be cheaper t
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which is a linear inequality in one unknown?
 A. $0x+3>0$.
 B. $x^2-1<0$.
@@ -441,7 +441,7 @@ D. $\dfrac1x+2>0$.
 ::key C
 C has the form $ax+b\le0$ with $a=2\neq0$. A has $a=0$; B contains $x^2$; D has the unknown in a denominator.
 
-::mc
+::mc TH
 The solution of the inequality $-2x+6>0$ is
 A. $x>3$.
 B. $x<3$.
@@ -450,7 +450,7 @@ D. $x<-3$.
 ::key B
 $-2x>-6\iff x<3$ (dividing by $-2$ reverses the sign). A forgets to reverse; C and D get the sign wrong when moving the $6$.
 
-::mc
+::mc VD
 The solution of the inequality $3(x-2)\le x+4$ is
 A. $x\le5$.
 B. $x\ge5$.
@@ -459,7 +459,7 @@ D. $x\le-1$.
 ::key A
 $3x-6\le x+4\iff 2x\le10\iff x\le5$. C expands the bracket as $3x-2$; D moves $-6$ to the right without changing its sign.
 
-::mc
+::mc TH
 The greatest integer satisfying $5x-12<0$ is
 A. $2$.
 B. $3$.
@@ -468,7 +468,7 @@ D. $-2$.
 ::key A
 $x<2.4$, so the greatest integer is $2$. B comes from rounding up.
 
-::tf
+::tf TH TH VD VD
 Consider the inequality $4-2x\ge x-5$.
 a) $x=3$ is a solution.
 b) Moving terms gives $-3x\ge-9$.
@@ -477,12 +477,12 @@ d) Exactly $4$ non-negative integers satisfy the inequality.
 ::key T T F T
 a) True: $-2\ge-2$. b) True. c) False: dividing by $-3$ reverses the sign, so $x\le3$. d) True: $0$, $1$, $2$, $3$.
 
-::sa
+::sa VD
 Find the least integer satisfying $2(x+1)>9-x$.
 ::key 3
 $2x+2>9-x\iff 3x>7\iff x>\dfrac73\approx2.33$, so the least integer is $3$.
 
-::sa
+::sa VD
 A taxi firm charges a starting fee of $12$ thousand đồng plus $15$ thousand đồng per kilometre. With $200$ thousand đồng, what is the greatest whole number of kilometres you can travel?
 ::key 12
 $12+15x\le200\iff x\le\dfrac{188}{15}\approx12.5$, so at most $12$ km.

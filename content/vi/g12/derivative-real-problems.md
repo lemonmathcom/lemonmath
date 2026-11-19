@@ -382,7 +382,7 @@ Vậy cửa rộng $10\sqrt2$ dm, cao $5\sqrt2$ dm thì có diện tích lớn n
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Một vật chuyển động thẳng có quãng đường $s(t)=2t^3-3t^2+t$ (mét) sau $t$ giây. Vận tốc của vật tại thời điểm $t=2$ giây là
 A. $6$ m/s.
 B. $13$ m/s.
@@ -391,7 +391,7 @@ D. $37$ m/s.
 ::key B
 Ta có $v(t)=s'(t)=6t^2-6t+1$ nên $v(2)=24-12+1=13$. Phương án A là quãng đường $s(2)$, phương án C là gia tốc $a(2)=s''(2)$, phương án D sai dấu ở hạng tử $-6t$.
 
-::mc
+::mc VD
 Một chất điểm chuyển động thẳng với quãng đường $s(t)=-t^3+6t^2$ (mét), $0\le t\le 5$ (giây). Vận tốc của chất điểm đạt giá trị lớn nhất tại thời điểm
 A. $t=5$.
 B. $t=4$.
@@ -400,7 +400,7 @@ D. $t=2$.
 ::key D
 Ta có $v(t)=-3t^2+12t$ và $v'(t)=a(t)=-6t+12=0\iff t=2$. Ta có $v(0)=0$, $v(2)=12$, $v(5)=-15$. Phương án B là lúc $v(t)=0$, tức lúc vật dừng.
 
-::mc
+::mc TH
 Chi phí sản xuất $x$ sản phẩm là $C(x)=0{,}01x^2+20x+500$ (nghìn đồng). Tốc độ thay đổi tức thời của chi phí theo số sản phẩm tại $x=100$ là
 A. $21$ nghìn đồng/sản phẩm.
 B. $2600$ nghìn đồng/sản phẩm.
@@ -409,7 +409,7 @@ D. $26$ nghìn đồng/sản phẩm.
 ::key C
 Ta có $C'(x)=0{,}02x+20$ nên $C'(100)=22$. Phương án B là $C(100)$, phương án A quên hệ số $2$ khi đạo hàm $x^2$, phương án D là chi phí trung bình $\dfrac{C(100)}{100}$.
 
-::mc
+::mc TH
 Người ta dùng $40$ m lưới rào kín cả bốn cạnh một mảnh vườn hình chữ nhật có chiều rộng $x$ (m). Diện tích của mảnh vườn theo $x$ là
 A. $S(x)=x(20-x)$.
 B. $S(x)=x(40-x)$.
@@ -418,7 +418,7 @@ D. $S(x)=2x+2(20-x)$.
 ::key A
 Vì chu vi $2x+2y=40$ nên chiều dài $y=20-x$ và $S=x(20-x)$ với $0<x<20$. Phương án C là trường hợp chỉ rào ba cạnh, phương án D là chu vi chứ không phải diện tích.
 
-::tf
+::tf TH TH VD VD
 Một quả bóng được ném thẳng đứng lên trên; độ cao của nó sau $t$ giây là $h(t)=2+20t-5t^2$ (mét). Xét tính đúng sai của các mệnh đề sau:
 a) Vận tốc của quả bóng là $v(t)=20-10t$ (m/s).
 b) Quả bóng đạt độ cao lớn nhất tại thời điểm $t=2$ giây.
@@ -427,12 +427,12 @@ d) Tốc độ của quả bóng lúc chạm đất lớn hơn $20$ m/s.
 ::key Đ Đ S Đ
 a) Đúng: ta có $v=h'(t)$. b) Đúng: ta có $v(t)=0\iff t=2$ và $v$ đổi dấu từ $+$ sang $-$ tại đó. c) Sai: độ cao lớn nhất là $h(2)=2+40-20=22$ m. d) Đúng: $h(t)=0$ khi $t=2+\dfrac{\sqrt{110}}{5}$, khi đó $v=-2\sqrt{110}\approx-20{,}98$, do đó tốc độ khoảng $20{,}98$ m/s.
 
-::sa
+::sa VDC
 Một sợi dây dài $2$ m được cắt thành hai đoạn: đoạn thứ nhất uốn thành một hình vuông, đoạn thứ hai uốn thành một tam giác đều. Để tổng diện tích hai hình nhỏ nhất, đoạn uốn thành hình vuông dài bao nhiêu mét (làm tròn kết quả đến hàng phần trăm)?
 ::key 0,87
 Gọi $x$ (m) là độ dài đoạn uốn thành hình vuông. Tổng diện tích là $S(x)=\dfrac{x^2}{16}+\dfrac{\sqrt3}{36}(2-x)^2$, $0\le x\le2$. Ta có $S'(x)=0\iff x=\dfrac{8\sqrt3}{4\sqrt3+9}\approx0{,}87$; giá trị tại đó ($\approx0{,}109$) nhỏ hơn $S(0)\approx0{,}192$ và $S(2)=0{,}25$. Vậy đoạn uốn thành hình vuông dài khoảng $0{,}87$ m.
 
-::sa
+::sa VD
 Từ một khúc gỗ hình trụ có đường kính $40$ cm, người ta xẻ một cây dầm có tiết diện là hình chữ nhật nội tiếp đường tròn, chiều rộng $b$ và chiều cao $h$ (cm). Độ bền của dầm tỉ lệ với $bh^2$. Để dầm bền nhất thì chiều rộng $b$ bằng bao nhiêu xentimét (làm tròn kết quả đến hàng phần mười)?
 ::key 23,1
 Vì đường chéo của tiết diện là đường kính nên $h^2=1600-b^2$. Ta cần tìm giá trị lớn nhất của $f(b)=b(1600-b^2)$ trên $(0; 40)$. Ta có $f'(b)=1600-3b^2=0\iff b=\dfrac{40}{\sqrt3}\approx23{,}09$ và $f'$ đổi dấu từ $+$ sang $-$ tại đó. Vậy $b\approx23{,}1$ cm.

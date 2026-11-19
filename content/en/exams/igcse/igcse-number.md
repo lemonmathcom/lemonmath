@@ -278,7 +278,7 @@ So $x=3$.
 :::
 
 :::quiz
-::mc
+::mc NB
 The value of $5^{-2}$ is
 A. $-25$
 B. $-10$
@@ -287,7 +287,7 @@ D. $\dfrac{1}{25}$
 ::key D
 $5^{-2}=\dfrac{1}{5^2}$.
 
-::mc
+::mc TH
 $0.00406$ in standard form is
 A. $4.06\times10^{-3}$
 B. $4.06\times10^{3}$
@@ -296,7 +296,7 @@ D. $4.06\times10^{-2}$
 ::key A
 Move the decimal point $3$ places to the right.
 
-::mc
+::mc TH
 A length is $7.3$ m, correct to $1$ decimal place. Its upper bound is
 A. $7.4$ m
 B. $7.35$ m
@@ -305,7 +305,7 @@ D. $7.349$ m
 ::key B
 Half of $0.1$ is $0.05$.
 
-::mc
+::mc TH
 $\sqrt{12}$ simplifies to
 A. $3\sqrt2$
 B. $4\sqrt3$
@@ -314,7 +314,7 @@ D. $6\sqrt2$
 ::key C
 $\sqrt{4\times3}=2\sqrt3$.
 
-::tf
+::tf NB TH NB NB
 Decide whether each statement is true or false.
 a) $16^{\frac12}=4$.
 b) $16^{\frac34}=8$.
@@ -323,12 +323,12 @@ d) $16^{-1}=\dfrac{1}{16}$.
 ::key T T F T
 Any non-zero number to the power $0$ is $1$.
 
-::sa
+::sa TH
 Increase $40$ by $15\%$.
 ::key 46
 $40\times1.15=46$.
 
-::sa
+::sa TH
 Evaluate $8^{\frac23}$.
 ::key 4
 $\sqrt[3]8=2$ and $2^2=4$.

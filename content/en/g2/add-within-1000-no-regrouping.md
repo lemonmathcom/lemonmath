@@ -326,7 +326,7 @@ We have $347+265=612$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $145+238$ equals
 A. $383$.
 B. $93$.
@@ -335,7 +335,7 @@ D. $473$.
 ::key A
 $5+8=13$, write $3$ and regroup $1$; $4+3+1=8$; $1+2=3$, so the sum is $383$. A forgets to regroup into the tens, D regroups into the hundreds by mistake, B is the subtraction $238-145$.
 
-::mc
+::mc TH
 $270+360$ in your head is
 A. $530$.
 B. $630$.
@@ -344,7 +344,7 @@ D. $130$.
 ::key B
 $27$ tens plus $36$ tens is $63$ tens, which is $630$. B forgets to regroup, C forgets the digit $0$, D only adds $7+6$.
 
-::mc
+::mc VD
 A shop sold $248$ pens in the morning and $175$ pens in the afternoon. How many pens did it sell altogether?
 A. $73$ pens.
 B. $413$ pens.
@@ -353,7 +353,7 @@ D. $323$ pens.
 ::key C
 "Altogether" means putting together: $248+175=423$. B forgets to regroup in the ones, D in the tens, A is the subtraction $248-175$.
 
-::mc
+::mc TH
 Which of these additions needs regrouping?
 A. $312+245$.
 B. $230+405$.
@@ -362,7 +362,7 @@ D. $156+138$.
 ::key D
 In $156+138$ the ones column gives $6+8=14$, which is $10$ or more, so we regroup. In the other three sums every column adds up to less than $10$.
 
-::tf
+::tf NB NB VD TH
 Look at the sum $358+267$.
 a) When set out in columns, the digit $6$ of $267$ is under the digit $8$ of $358$.
 b) In the ones column, $8+7=15$, so we write $5$ and regroup $1$.
@@ -371,12 +371,12 @@ d) The sum is less than $600$.
 ::key F T T F
 a) False: the digit $6$ is in the tens column, under the digit $5$ of $358$; the digit $7$ is the one under $8$. b) True: $8+7=15$. c) True: $5+6+1=12$, write $2$ and regroup $1$; $3+2+1=6$, so the sum is $625$. d) False: $625>600$.
 
-::sa
+::sa VD
 Work out $468+275$.
 ::key 743
 $8+5=13$, write $3$ and regroup $1$; $6+7+1=14$, write $4$ and regroup $1$; $4+2+1=7$. So $468+275=743$.
 
-::sa
+::sa VD
 A farmer picked $325$ kg of watermelons in the morning and $289$ kg in the afternoon. How many kilograms of watermelons did the farmer pick in the whole day?
 ::key 614
 $325+289=614$ (kg): $5+9=14$, write $4$ and regroup $1$; $2+8+1=11$, write $1$ and regroup $1$; $3+2+1=6$.

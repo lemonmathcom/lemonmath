@@ -443,7 +443,7 @@ Vậy a) thương là $2x^2-3x+1$; b) có, $1$ là nghiệm.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Thương của phép chia $12x^6:(4x^2)$ là
 A. $3x^3$.
 B. $3x^4$.
@@ -452,7 +452,7 @@ D. $3x^8$.
 ::key B
 Chia hệ số $12:4=3$ và trừ số mũ $6-2=4$. A lấy $6:2=3$ cho số mũ, C trừ hai hệ số, D cộng hai số mũ.
 
-::mc
+::mc TH
 Kết quả của $(9x^3-6x^2):(3x)$ là
 A. $3x^2-2$.
 B. $6x^2-3x$.
@@ -461,7 +461,7 @@ D. $3x^2+2x$.
 ::key C
 $9x^3:3x=3x^2$ và $-6x^2:3x=-2x$. A bỏ sót $x$ ở hạng tử thứ hai, B trừ các hệ số thay vì chia, D sai dấu.
 
-::mc
+::mc VD
 Thương của $(x^2+x-6):(x-2)$ là
 A. $x+1$.
 B. $x-3$.
@@ -470,7 +470,7 @@ D. $x+3$.
 ::key D
 $(x-2)(x+3)=x^2+x-6$. B nhầm dấu, C và A lấy sai hạng tử thứ hai khi trừ.
 
-::mc
+::mc VD
 Số dư trong phép chia $(x^2+3x+5):(x+1)$ là
 A. $3$.
 B. $5$.
@@ -479,7 +479,7 @@ D. $2$.
 ::key A
 $x^2+3x+5=(x+1)(x+2)+3$. A là hệ số tự do của thương, B là hạng tử tự do của số bị chia, C là hạng tử tự do của số chia.
 
-::tf
+::tf VD VD TH TH
 Cho $A=x^3+3x^2+3x+1$ và $B=x+1$. Xét tính đúng sai của các mệnh đề sau:
 a) Thương của phép chia $A$ cho $B$ là $x^2+2x+1$.
 b) Số dư của phép chia này là $1$.
@@ -488,12 +488,12 @@ d) $x=-1$ là nghiệm của $A$.
 ::key Đ S Đ Đ
 a) Đúng. b) Sai: số dư bằng $0$ vì $(x+1)(x^2+2x+1)=x^3+3x^2+3x+1$. c) Đúng. d) Đúng: $-1+3-3+1=0$.
 
-::sa
+::sa VD
 Chia $x^3-8$ cho $x-2$ rồi tính giá trị của thương tại $x=1$.
 ::key 7
 Thương là $x^2+2x+4$; tại $x=1$ bằng $1+2+4=7$.
 
-::sa
+::sa VD
 Tìm số dư trong phép chia $(x^3-3x^2+3x+5):(x-1)$.
 ::key 6
 $x^3-3x^2+3x+5=(x-1)(x^2-2x+1)+6$.

@@ -331,7 +331,7 @@ $$(1+9)+(2+8)+(3+7)+(4+6)+5=10+10+10+10+5=45.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Số thích hợp để điền vào $245+138=138+\ \ldots$ là
 A. $138$.
 B. $383$.
@@ -340,7 +340,7 @@ D. $245$.
 ::key D
 Theo tính chất giao hoán, $245+138=138+245$. Phương án A lặp lại số hạng đã có, phương án B là tổng $245+138$, phương án C là hiệu $245-138$.
 
-::mc
+::mc TH
 Giá trị của $38+47+62$ là
 A. $147$.
 B. $100$.
@@ -349,7 +349,7 @@ D. $157$.
 ::key A
 $38+62=100$ rồi $100+47=147$. Phương án B quên số hạng $47$, phương án C và D tính sai ở bước cuối.
 
-::mc
+::mc VD
 Tính bằng cách thuận tiện: $25+38+75+62$.
 A. $100$.
 B. $200$.
@@ -358,7 +358,7 @@ D. $300$.
 ::key B
 $25+75=100$ và $38+62=100$, nên tổng là $100+100=200$. Phương án A chỉ cộng một cặp, phương án C và D tính sai.
 
-::mc
+::mc TH
 Phát biểu nào sau đây sai?
 A. $a+b=b+a$.
 B. $(a+b)+c=a+(b+c)$.
@@ -367,7 +367,7 @@ D. $a+0=a$.
 ::key C
 Phép trừ không có tính chất giao hoán, ví dụ $8-3=5$ còn $3-8$ không thực hiện được. Các phát biểu A, B, D đều đúng.
 
-::tf
+::tf TH TH NB NB
 Em xét tổng $125+267+75$.
 a) $125+267+75=(125+75)+267$.
 b) $125+267+75=457$.
@@ -376,12 +376,12 @@ d) $(125+267)+75=125+(267+75)$.
 ::key Đ S Đ Đ
 a) Đúng: đổi chỗ và nhóm các số hạng. b) Sai: $125+267+75=467$. c) Đúng: tính chất giao hoán. d) Đúng: tính chất kết hợp.
 
-::sa
+::sa TH
 Tính nhanh: $125+267+75$.
 ::key 467
 $(125+75)+267=200+267=467$.
 
-::sa
+::sa VD
 Tính nhanh: $19+48+81+52$.
 ::key 200
 $19+81=100$ và $48+52=100$, nên tổng là $100+100=200$.

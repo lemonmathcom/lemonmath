@@ -306,7 +306,7 @@ So the solution is $-2<x<1$ or $x>3$.
 :::
 
 :::quiz
-::mc
+::mc TH
 What is the average rate of change of $f(x)=x^3$ on $[0,2]$?
 A. $8$
 B. $2$
@@ -315,7 +315,7 @@ D. $4$
 ::key D
 $\dfrac{8-0}{2-0}=4$.
 
-::mc
+::mc TH
 What is the end behavior of $f(x)=-x^4+5x$?
 A. Both ends go to $-\infty$
 B. Both ends go to $\infty$
@@ -324,7 +324,7 @@ D. Left end $-\infty$, right end $\infty$
 ::key A
 The leading term $-x^4$ has even degree and a negative coefficient.
 
-::mc
+::mc NB
 At a zero of even multiplicity, the graph of a polynomial
 A. crosses the $x$-axis
 B. touches the $x$-axis and turns back
@@ -333,7 +333,7 @@ D. is undefined
 ::key B
 Even multiplicity: the sign does not change, so the graph touches.
 
-::mc
+::mc NB
 What is the greatest possible number of turning points of a polynomial of degree $5$?
 A. $5$
 B. $6$
@@ -342,7 +342,7 @@ D. $3$
 ::key C
 A polynomial of degree $n$ has at most $n-1$ turning points.
 
-::tf
+::tf NB TH TH TH
 Let $p(x)=x(x-3)^2$. Decide whether each statement is true or false.
 a) The zeros of $p$ are $0$ and $3$.
 b) $p$ has degree $3$.
@@ -351,12 +351,12 @@ d) $p(x)\to\infty$ as $x\to\infty$.
 ::key T T F T
 $3$ is a zero of multiplicity $2$, so the graph only touches there; the leading term is $x^3$.
 
-::sa
+::sa TH
 Find the average rate of change of $f(x)=2x^2+1$ on $[1,3]$.
 ::key 8
 $\dfrac{19-3}{2}=8$.
 
-::sa
+::sa VD
 How many real zeros does $f(x)=x^3-x$ have?
 ::key 3
 $x(x-1)(x+1)$ has zeros $-1$, $0$, $1$.

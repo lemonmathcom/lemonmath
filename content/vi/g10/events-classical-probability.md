@@ -454,7 +454,7 @@ Vậy xác suất để An và Bình đứng cạnh nhau là $\dfrac25$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Tung một đồng xu hai lần ($S$: sấp, $N$: ngửa). Biến cố đối của biến cố "có ít nhất một lần sấp" là
 A. $\{NN\}$.
 B. $\{SS\}$.
@@ -463,7 +463,7 @@ D. $\{SN; NS; NN\}$.
 ::key A
 Biến cố đối xảy ra khi và chỉ khi "không có lần sấp nào", chỉ gồm kết quả $NN$. Phương án D là biến cố "có ít nhất một lần ngửa", có thể xảy ra cùng lúc với biến cố đã cho.
 
-::mc
+::mc TH
 Gieo một con xúc xắc cân đối. Xác suất để số chấm xuất hiện là một ước của $6$ là
 A. $\dfrac12$.
 B. $\dfrac23$.
@@ -472,7 +472,7 @@ D. $\dfrac16$.
 ::key B
 Các ước của $6$ trong $\Omega$ là $1, 2, 3, 6$, nên $P=\dfrac46=\dfrac23$. Phương án A quên ước $1$; C là xác suất của biến cố đối.
 
-::mc
+::mc TH
 Gieo hai con xúc xắc cân đối. Xác suất để tổng số chấm bằng $9$ là
 A. $\dfrac{1}{11}$.
 B. $\dfrac{1}{18}$.
@@ -481,7 +481,7 @@ D. $\dfrac{4}{21}$.
 ::key C
 $n(\Omega)=36$ cặp có thứ tự; tổng $9$ có các cặp $(3; 6)$, $(4; 5)$, $(5; 4)$, $(6; 3)$, nên $P=\dfrac{4}{36}=\dfrac19$. Phương án A coi $11$ giá trị của tổng là đồng khả năng; B chỉ đếm $2$ cặp không thứ tự.
 
-::mc
+::mc VD
 Một hộp có $6$ viên bi đỏ và $4$ viên bi xanh. Lấy ngẫu nhiên đồng thời $3$ viên bi. Xác suất để cả $3$ viên đều đỏ là
 A. $\dfrac{27}{125}$.
 B. $\dfrac{1}{36}$.
@@ -490,7 +490,7 @@ D. $\dfrac16$.
 ::key D
 $n(\Omega)=C_{10}^3=120$, $n(A)=C_6^3=20$, nên $P=\dfrac{20}{120}=\dfrac16$. Phương án B dùng chỉnh hợp $A_{10}^3=720$ cho $\Omega$ nhưng tổ hợp cho $A$; A tính như lấy có hoàn lại.
 
-::tf
+::tf NB TH TH VD
 Một hộp có $20$ tấm thẻ đánh số từ $1$ đến $20$. Rút ngẫu nhiên một thẻ.
 a) Không gian mẫu có $20$ phần tử.
 b) Xác suất rút được thẻ ghi số chia hết cho $5$ là $\dfrac15$.
@@ -499,12 +499,12 @@ d) Xác suất rút được thẻ ghi số không chia hết cho $3$ là $\dfra
 ::key Đ Đ S S
 a) Đúng. b) Đúng: $5, 10, 15, 20$, nên $P=\dfrac{4}{20}=\dfrac15$. c) Sai: có $8$ số nguyên tố ($2, 3, 5, 7, 11, 13, 17, 19$; số $1$ không phải số nguyên tố), $P=\dfrac25$. d) Sai: có $6$ số chia hết cho $3$, nên $P=1-\dfrac{6}{20}=\dfrac{7}{10}$.
 
-::sa
+::sa VD
 Tung một đồng xu cân đối $4$ lần. Tính xác suất để có ít nhất một lần ngửa (làm tròn đến hàng phần trăm).
 ::key 0,94
 $n(\Omega)=2^4=16$. Biến cố đối "không có lần ngửa nào" chỉ gồm $SSSS$, nên $P=1-\dfrac{1}{16}=\dfrac{15}{16}\approx0{,}94$.
 
-::sa
+::sa VD
 Một đoàn $12$ người có $5$ người đến từ Hà Nội. Chọn ngẫu nhiên $3$ người. Tính xác suất để có ít nhất một người đến từ Hà Nội (làm tròn đến hàng phần trăm).
 ::key 0,84
 $n(\Omega)=C_{12}^3=220$. Biến cố đối "không ai đến từ Hà Nội": $C_7^3=35$ cách. Vậy $P=1-\dfrac{35}{220}=\dfrac{37}{44}\approx0{,}84$.

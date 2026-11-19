@@ -298,7 +298,7 @@ Bar B: $5+3=8$. Bar A: $8+4=12$. Total: $12+8+5=25$.
 These questions use the chart of books borrowed in the lesson (Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$).
 
 :::quiz
-::mc
+::mc NB
 The tallest bar in a bar chart shows
 A. the least value.
 B. the greatest value.
@@ -307,7 +307,7 @@ D. the total of the values.
 ::key B
 The taller the bar, the greater the value. Option C is the mistake of choosing the left-most bar.
 
-::mc
+::mc NB
 How many books were borrowed on Wednesday?
 A. $6$ books.
 B. $10$ books.
@@ -316,7 +316,7 @@ D. $12$ books.
 ::key C
 The Wednesday bar shows $8$. Option B is the number for Tuesday, next to it.
 
-::mc
+::mc TH
 How many more books were borrowed on Thursday than on Monday?
 A. $18$ books.
 B. $8$ books.
@@ -325,7 +325,7 @@ D. $6$ books.
 ::key D
 $12-6=6$. Option A adds $12+6$, using addition by mistake.
 
-::mc
+::mc TH
 How many books were borrowed in the whole week?
 A. $40$ books.
 B. $8$ books.
@@ -334,7 +334,7 @@ D. $36$ books.
 ::key A
 $6+10+8+12+4=40$. Option D leaves out the Friday bar, and B is the mean per day.
 
-::tf
+::tf NB NB TH TH
 Look at the chart of books borrowed.
 a) $10$ books were borrowed on Tuesday.
 b) Friday had the fewest books borrowed.
@@ -343,12 +343,12 @@ d) In the four days from Monday to Thursday, $36$ books were borrowed.
 ::key T T F T
 a) True. b) True: the Friday bar is the shortest. c) False: only Tuesday ($10$) and Thursday ($12$) are more than $8$, which is $2$ days. d) True: $6+10+8+12=36$.
 
-::sa
+::sa TH
 How many more books were borrowed on Tuesday than on Friday?
 ::key 6
 $10-4=6$.
 
-::sa
+::sa VD
 On average, how many books were borrowed each day of the week?
 ::key 8
 $(6+10+8+12+4)\div5=40\div5=8$.

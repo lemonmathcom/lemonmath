@@ -249,7 +249,7 @@ The sum of the four numbers is $15\times4=60$. The three known numbers add up to
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The mean of $6$, $8$ and $10$ is
 A. $24$.
 B. $12$.
@@ -258,7 +258,7 @@ D. $6$.
 ::key C
 $(6+8+10)\div3=24\div3=8$. Option A forgets to divide, and B divides by $2$.
 
-::mc
+::mc NB
 The correct way to find the mean of $5$, $7$, $9$ and $11$ is
 A. $(5+7+9+11)\div3$.
 B. $(5+7+9+11)\div4$.
@@ -267,7 +267,7 @@ D. $(5+11)\div4$.
 ::key B
 There are $4$ numbers, so divide the sum by $4$. Option A divides by the wrong number, and C forgets to divide.
 
-::mc
+::mc TH
 The mean of three numbers is $9$. Their sum is
 A. $3$.
 B. $12$.
@@ -276,7 +276,7 @@ D. $9$.
 ::key C
 The sum is $9\times3=27$. Option B adds $9+3$ instead of multiplying.
 
-::mc
+::mc VD
 A shop sold $18$, $24$ and $21$ boxes of biscuits on three days. On average, how many boxes did it sell each day?
 A. $63$ boxes.
 B. $21$ boxes.
@@ -285,7 +285,7 @@ D. $24$ boxes.
 ::key B
 $(18+24+21)\div3=63\div3=21$. Option A forgets to divide, and C divides one extra time.
 
-::tf
+::tf NB TH NB TH
 Look at the three numbers $4$, $6$, $8$.
 a) Their sum is $18$.
 b) Their mean is $6$.
@@ -294,12 +294,12 @@ d) The numbers $6$, $6$, $6$ have the same mean as the numbers above.
 ::key T T F T
 a) True: $4+6+8=18$. b) True: $18\div3=6$. c) False: we must divide by $3$. d) True: $(6+6+6)\div3=6$.
 
-::sa
+::sa TH
 Find the mean of $12$, $14$, $16$ and $18$.
 ::key 15
 $(12+14+16+18)\div4=60\div4=15$.
 
-::sa
+::sa TH
 The mean of $5$ numbers is $8$. What is the sum of the $5$ numbers?
 ::key 40
 The sum is $8\times5=40$.

@@ -537,7 +537,7 @@ Vậy $x\in\{-6;-2;0;4\}$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Kết quả của phép tính $(-9)\cdot6$ là
 A. $54$.
 B. $-54$.
@@ -546,7 +546,7 @@ D. $-3$.
 ::key B
 Hai thừa số khác dấu nên tích âm: $-(9\cdot6)=-54$. A sai dấu; C lấy $-9-6$; D lấy $-9+6$.
 
-::mc
+::mc NB
 Kết quả của phép tính $(-12)\cdot(-5)$ là
 A. $-60$.
 B. $-17$.
@@ -555,7 +555,7 @@ D. $60$.
 ::key D
 Hai thừa số cùng dấu nên tích dương: $12\cdot5=60$. A sai dấu; B cộng hai số; C cộng hai phần số.
 
-::mc
+::mc NB
 Kết quả của phép tính $(-84):7$ là
 A. $-12$.
 B. $12$.
@@ -564,7 +564,7 @@ D. $-91$.
 ::key A
 Hai số khác dấu nên thương âm: $84:7=12$, vậy thương là $-12$. B sai dấu; C lấy $-84+7$; D lấy $-84-7$.
 
-::mc
+::mc TH
 Số nào sau đây là một ước của $-15$?
 A. $0$.
 B. $30$.
@@ -573,7 +573,7 @@ D. $-45$.
 ::key C
 $-15=(-5)\cdot3$ nên $-5$ là ước của $-15$. A: $0$ không là ước của số nào; B và D là bội của $-15$ chứ không phải ước.
 
-::tf
+::tf NB NB TH TH
 Xét tính đúng sai của các mệnh đề sau:
 a) Tích của hai số nguyên âm là một số nguyên âm.
 b) Tích của một số nguyên với $0$ bằng $0$.
@@ -582,12 +582,12 @@ d) Số $0$ là ước của mọi số nguyên.
 ::key S Đ Đ S
 a) Sai: hai số cùng dấu có tích dương, ví dụ $(-2)\cdot(-3)=6$. b) Đúng: $a\cdot0=0$. c) Đúng: nếu $a=b\cdot q$ thì $-a=b\cdot(-q)$. d) Sai: không có phép chia cho $0$ nên $0$ không là ước của số nào.
 
-::sa
+::sa VD
 Tính giá trị của biểu thức $(-3)\cdot(-4)\cdot(-5)+70$.
 ::key 10
 $(-3)\cdot(-4)=12$; $12\cdot(-5)=-60$; $-60+70=10$.
 
-::sa
+::sa VD
 Số $-18$ có tất cả bao nhiêu ước nguyên?
 ::key 12
 Các ước dương của $18$ là $1$; $2$; $3$; $6$; $9$; $18$ ($6$ ước). Thêm $6$ số đối, được $12$ ước.

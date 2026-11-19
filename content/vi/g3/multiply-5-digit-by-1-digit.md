@@ -370,7 +370,7 @@ $$98\,760+7=98\,767.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Kết quả của $46\,275\times2$ là
 A. $82\,550$.
 B. $92\,540$.
@@ -379,7 +379,7 @@ D. $23\,137$.
 ::key C
 $5\times2=10$, viết $0$ nhớ $1$; $7\times2=14$, thêm $1$ được $15$, viết $5$ nhớ $1$; $2\times2=4$, thêm $1$ được $5$; $6\times2=12$, viết $2$ nhớ $1$; $4\times2=8$, thêm $1$ được $9$. Phương án A quên nhớ ở hàng chục nghìn, phương án B quên nhớ ở hàng đơn vị, phương án D là phép chia.
 
-::mc
+::mc TH
 Kết quả của $84\,000:7$ là
 A. $12$.
 B. $1\,200$.
@@ -388,7 +388,7 @@ D. $12\,000$.
 ::key D
 $84:7=12$, rồi hạ ba chữ số $0$: $0:7=0$ ba lần. Vậy thương là $12\,000$. Phương án B thiếu một chữ số $0$, phương án C thừa một chữ số $0$, phương án A thiếu ba chữ số $0$.
 
-::mc
+::mc TH
 Mỗi ngày một cửa hàng bán $13\,250$ quyển vở. Trong $7$ ngày cửa hàng bán
 A. $92\,750$ quyển.
 B. $72\,750$ quyển.
@@ -397,7 +397,7 @@ D. $13\,257$ quyển.
 ::key A
 "Trong $7$ ngày" là phép nhân: $13\,250\times7=92\,750$. Phương án B quên nhớ ở hàng chục nghìn, phương án C là phép chia, phương án D là phép cộng.
 
-::mc
+::mc TH
 Kết quả của $36\,054:6$ là
 A. $609$.
 B. $6\,009$.
@@ -406,7 +406,7 @@ D. $60\,009$.
 ::key B
 $36:6=6$; $0:6=0$, viết $0$; $5:6=0$ (dư $5$), viết $0$; $54:6=9$. Vậy thương là $6\,009$. Phương án A bỏ sót một chữ số $0$, phương án C viết $0$ sai chỗ, phương án D thừa một chữ số.
 
-::tf
+::tf NB TH TH NB
 Em xét phép chia $71\,250:7=10\,178$ (dư $4$).
 a) Thương có năm chữ số.
 b) Số dư $4$ bé hơn số chia $7$.
@@ -415,12 +415,12 @@ d) Đây là phép chia hết.
 ::key Đ Đ Đ S
 a) Đúng: $10\,178$ có năm chữ số. b) Đúng: $4<7$. c) Đúng: $10\,178\times7=71\,246$ và $71\,246+4=71\,250$. d) Sai: số dư là $4$, khác $0$.
 
-::sa
+::sa TH
 Tìm số dư của phép chia $25\,000:6$.
 ::key 4
 $25\,000:6=4\,166$ (dư $4$), vì $4\,166\times6=24\,996$ và $25\,000-24\,996=4$.
 
-::sa
+::sa VD
 Tìm chữ số hàng nghìn của tích $21\,304\times3$.
 ::key 3
 $21\,304\times3=63\,912$. Chữ số hàng nghìn của $63\,912$ là $3$.

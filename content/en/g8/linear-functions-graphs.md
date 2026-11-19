@@ -353,7 +353,7 @@ $2x-3=-x+6\Rightarrow3x=9\Rightarrow x=3$. Then $y=2\cdot3-3=3$. Check: $-3+6=3$
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 Which of the following is a linear function?
 A. $y=x^2-2$.
 B. $y=5$.
@@ -362,7 +362,7 @@ D. $y=\dfrac3x$.
 ::key C
 A has the form $y=ax+b$ with $a=4\ne0$. B has $a=0$, while C and D are not of linear form.
 
-::mc
+::mc TH
 Which point lies on the graph of $y=-2x+4$?
 A. $(0, -4)$.
 B. $(-1, 2)$.
@@ -371,7 +371,7 @@ D. $(1, 2)$.
 ::key D
 For $x=1$, we get $y=-2+4=2$. The other answers result from a sign error or from not substituting the x-coordinate into the formula.
 
-::mc
+::mc TH
 Which pair of points is convenient for drawing $y=3x+6$ using its two intercepts?
 A. $(0, 6)$ and $(-2, 0)$.
 B. $(0, 6)$ and $(2, 0)$.
@@ -380,7 +380,7 @@ D. $(6, 0)$ and $(0, -2)$.
 ::key A
 Setting $x=0$ gives $(0, 6)$; setting $y=0$ gives $3x+6=0\Rightarrow x=-2$. A and B contain sign errors.
 
-::mc
+::mc TH
 Where does the graph of $y=-x+3$ meet the x-axis?
 A. $(0, 3)$.
 B. $(3, 0)$.
@@ -389,7 +389,7 @@ D. $(0, -3)$.
 ::key B
 On the x-axis, $y=0$, so $-x+3=0\Rightarrow x=3$. A is the y-intercept.
 
-::tf
+::tf NB TH TH TH
 Consider the function $y=2x-4$.
 a) It is a linear function with $a=2$ and $b=-4$.
 b) Its graph passes through the origin $O$.
@@ -398,12 +398,12 @@ d) The graph meets the y-axis at $(0, 4)$.
 ::key T F T F
 a) True by the definition. b) False because $x=0$ gives $y=-4$. c) True because $2\cdot2-4=0$. d) False: the y-intercept is $(0, -4)$.
 
-::sa
+::sa TH
 For $y=-3x+7$, find $y$ when $x=2$.
 ::key 1
 Substitution gives $y=-3\cdot2+7=1$.
 
-::sa
+::sa VD
 A delivery has cost $C=8x+12$ thousand dong, where $x$ is the distance in kilometres. If the cost is 60 thousand dong, how many kilometres is the distance?
 ::key 6
 Solving $8x+12=60$ gives $8x=48$, so $x=6$ km.

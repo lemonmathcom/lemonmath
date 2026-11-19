@@ -347,7 +347,7 @@ Since $37.68\div18.84=2$ and $113.04\div28.26=4$, the circumference is $2$ times
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The circumference of a circle with diameter $12$ cm is
 A. $75.36$ cm.
 B. $18.84$ cm.
@@ -356,7 +356,7 @@ D. $37.68$ cm.
 ::key D
 $C=12\times3.14=37.68$ cm. Option A multiplies the diameter by $2$ and then by $3.14$; B forgets to multiply by $2$ when using the radius $6$; C is the area, wrongly found using the diameter.
 
-::mc
+::mc TH
 The area of a circle with radius $5$ cm is
 A. $78.5\ \text{cm}^2$.
 B. $31.4\ \text{cm}^2$.
@@ -365,7 +365,7 @@ D. $314\ \text{cm}^2$.
 ::key A
 $S=5\times5\times3.14=78.5\ \text{cm}^2$. Option B is the circumference; C is $5\times3.14$; D uses the diameter $10$ instead of the radius.
 
-::mc
+::mc TH
 A circle has circumference $62.8$ cm, so its diameter is
 A. $10$ cm.
 B. $20$ cm.
@@ -374,7 +374,7 @@ D. $31.4$ cm.
 ::key B
 $d=62.8\div3.14=20$ cm. Option A is the radius; B multiplies instead of dividing; D divides the circumference by $2$.
 
-::mc
+::mc VD
 Suppose a bicycle wheel has diameter $0.65$ m. When the wheel rolls $10$ times, the bicycle travels
 A. $2.041$ m.
 B. $204.1$ m.
@@ -383,7 +383,7 @@ D. $6.5$ m.
 ::key C
 The circumference of the wheel is $0.65\times3.14=2.041$ m, and after $10$ rolls the bicycle travels $20.41$ m. Option A is only one roll; C multiplies by $100$; D multiplies the diameter by $10$.
 
-::tf
+::tf NB TH TH TH
 Look at the circle with radius $4$ dm.
 a) The diameter of the circle is $4$ dm.
 b) The circumference of the circle is $4\times2\times3.14=25.12$ dm.
@@ -392,12 +392,12 @@ d) If the radius is doubled, the circumference is also doubled.
 ::key F T T T
 a) False: the diameter is $4\times2=8$ dm. b) True. c) True. d) True: the circumference is $r\times2\times3.14$, so it doubles when $r$ doubles.
 
-::sa
+::sa TH
 A circle has diameter $20$ cm. What is its circumference in centimetres?
 ::key 62.8
 $C=20\times3.14=62.8$ cm.
 
-::sa
+::sa TH
 A circle has radius $10$ cm. What is its area in square centimetres?
 ::key 314
 $S=10\times10\times3.14=314\ \text{cm}^2$.

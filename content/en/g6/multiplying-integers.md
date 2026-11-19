@@ -537,7 +537,7 @@ So $x\in\{-6;-2;0;4\}$.
 ## Mini test
 
 :::quiz
-::mc
+::mc NB
 The value of $(-9)\cdot6$ is
 A. $54$.
 B. $-54$.
@@ -546,7 +546,7 @@ D. $-3$.
 ::key B
 The factors have different signs, so the product is negative: $-(9\cdot6)=-54$. A has the wrong sign; C works out $-9-6$; D works out $-9+6$.
 
-::mc
+::mc NB
 The value of $(-12)\cdot(-5)$ is
 A. $-60$.
 B. $-17$.
@@ -555,7 +555,7 @@ D. $60$.
 ::key D
 The factors have the same sign, so the product is positive: $12\cdot5=60$. A has the wrong sign; B adds the two numbers; C adds the number parts.
 
-::mc
+::mc NB
 The value of $(-84):7$ is
 A. $-12$.
 B. $12$.
@@ -564,7 +564,7 @@ D. $-91$.
 ::key A
 The signs are different, so the quotient is negative: $84:7=12$, so the quotient is $-12$. B has the wrong sign; C works out $-84+7$; D works out $-84-7$.
 
-::mc
+::mc TH
 Which of these numbers is a factor of $-15$?
 A. $0$.
 B. $30$.
@@ -573,7 +573,7 @@ D. $-45$.
 ::key C
 $-15=(-5)\cdot3$, so $-5$ is a factor of $-15$. A: $0$ is not a factor of any number; B and D are multiples of $-15$, not factors.
 
-::tf
+::tf NB NB TH TH
 Decide whether each statement is true or false.
 a) The product of two negative integers is a negative integer.
 b) The product of an integer and $0$ is $0$.
@@ -582,12 +582,12 @@ d) The number $0$ is a factor of every integer.
 ::key F T T F
 a) False: two numbers with the same sign have a positive product, for example $(-2)\cdot(-3)=6$. b) True: $a\cdot0=0$. c) True: if $a=b\cdot q$, then $-a=b\cdot(-q)$. d) False: there is no division by $0$, so $0$ is not a factor of any number.
 
-::sa
+::sa VD
 Work out the value of $(-3)\cdot(-4)\cdot(-5)+70$.
 ::key 10
 $(-3)\cdot(-4)=12$; $12\cdot(-5)=-60$; $-60+70=10$.
 
-::sa
+::sa VD
 How many integer factors does $-18$ have in total?
 ::key 12
 The positive factors of $18$ are $1$; $2$; $3$; $6$; $9$; $18$ ($6$ factors). Adding the $6$ opposites gives $12$ factors.

@@ -281,7 +281,7 @@ Các cặp (hàng chục; hàng đơn vị) có tổng $2$ là $(0;2)$, $(1;1)$,
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Cho $A=\{2;4;6;8\}$. Phát biểu nào sau đây đúng?
 A. $2\notin A$.
 B. $5\in A$.
@@ -290,7 +290,7 @@ D. $8\notin A$.
 ::key C
 $6$ là một phần tử của $A$. Các phương án còn lại sai: $2$ và $8$ có trong $A$, còn $5$ thì không.
 
-::mc
+::mc TH
 Tập hợp các số tự nhiên nhỏ hơn $4$ là
 A. $\{1;2;3;4\}$.
 B. $\{1;2;3\}$.
@@ -299,7 +299,7 @@ D. $\{0;1;2;3\}$.
 ::key D
 Số $0$ là số tự nhiên và số $4$ không nhỏ hơn $4$. Phương án B quên $0$, C tính cả $4$, A quên $0$ và tính cả $4$.
 
-::mc
+::mc TH
 Tập hợp các chữ số của số $4554$ có bao nhiêu phần tử?
 A. $2$.
 B. $1$.
@@ -308,7 +308,7 @@ D. $4$.
 ::key A
 Các chữ số khác nhau là $4$ và $5$ nên có $2$ phần tử. Phương án D đếm cả chữ số lặp lại.
 
-::mc
+::mc TH
 Tập hợp các tháng dương lịch có đúng $30$ ngày có bao nhiêu phần tử?
 A. $5$.
 B. $4$.
@@ -317,7 +317,7 @@ D. $12$.
 ::key B
 Đó là các tháng $4$, $6$, $9$, $11$. Phương án A tính thêm tháng $2$, C là số tháng có $31$ ngày, D là cả năm.
 
-::tf
+::tf NB NB TH TH
 Cho $B=\{12;14;16;18\}$ là tập hợp các số tự nhiên chẵn lớn hơn $10$ và nhỏ hơn $20$.
 a) $10\in B$.
 b) $16\in B$.
@@ -326,12 +326,12 @@ d) $B$ có $5$ phần tử.
 ::key S Đ Đ S
 a) Sai: $10$ không lớn hơn $10$. b) Đúng. c) Đúng: $12$, $14$, $16$, $18$. d) Sai: chỉ có $4$ phần tử.
 
-::sa
+::sa TH
 Tập hợp các số tự nhiên lẻ nhỏ hơn $12$ có bao nhiêu phần tử?
 ::key 6
 Đó là $1$, $3$, $5$, $7$, $9$, $11$.
 
-::sa
+::sa TH
 Tập hợp các tháng dương lịch có đúng $31$ ngày có bao nhiêu phần tử?
 ::key 7
 Đó là các tháng $1$, $3$, $5$, $7$, $8$, $10$, $12$.

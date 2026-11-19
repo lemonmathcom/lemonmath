@@ -335,7 +335,7 @@ Các trang từ $1$ đến $9$: $9$ trang, mỗi trang $1$ chữ số, được 
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Dùng ba chữ số $0$, $3$, $7$, mỗi chữ số dùng đúng một lần, số nhỏ nhất có ba chữ số là
 A. $037$.
 B. $307$.
@@ -344,7 +344,7 @@ D. $703$.
 ::key B
 Chữ số hàng trăm không được là $0$, nên chọn $3$ rồi xếp $0$, $7$ từ bé đến lớn: $307$. Phương án A chỉ có hai chữ số, C và D lớn hơn $307$.
 
-::mc
+::mc NB
 Số $14$ viết bằng số La Mã là
 A. $\text{XIIII}$.
 B. $\text{IVX}$.
@@ -353,7 +353,7 @@ D. $\text{VIX}$.
 ::key C
 $14=10+4$ nên $\text{XIV}$. Phương án A viết $4$ bằng $\text{IIII}$ (sai quy tắc), B và D sắp xếp kí hiệu không đúng.
 
-::mc
+::mc NB
 Số liền trước của $1000$ là
 A. $990$.
 B. $1001$.
@@ -362,7 +362,7 @@ D. $999$.
 ::key D
 $1000-1=999$. Phương án B là số liền sau, C và A là các lỗi tính sai khi trừ.
 
-::mc
+::mc TH
 Dãy nào sau đây sắp xếp các số $3045$; $3504$; $345$; $3450$ theo thứ tự tăng dần?
 A. $345$; $3045$; $3450$; $3504$.
 B. $3045$; $345$; $3450$; $3504$.
@@ -371,7 +371,7 @@ D. $3504$; $3450$; $3045$; $345$.
 ::key A
 $345$ có ít chữ số nhất; trong ba số bốn chữ số, hàng trăm $0<4<5$. Phương án D là thứ tự giảm dần, C và B xếp sai.
 
-::tf
+::tf NB NB TH TH
 Về tập hợp $\mathbb{N}$ các số tự nhiên và tập hợp $\mathbb{N}^*$ các số tự nhiên khác $0$.
 a) $0\in\mathbb{N}$.
 b) $5\in\mathbb{N}^*$.
@@ -380,12 +380,12 @@ d) Số $0$ không có số liền trước trong $\mathbb{N}$.
 ::key Đ Đ S Đ
 a) Đúng: $0$ là số tự nhiên. b) Đúng: $5\ne0$. c) Sai: sau mỗi số luôn có số liền sau lớn hơn. d) Đúng: $0$ là số nhỏ nhất.
 
-::sa
+::sa NB
 Số La Mã $\text{XXIV}$ biểu diễn số tự nhiên nào?
 ::key 24
 $\text{XXIV}=10+10+4=24$.
 
-::sa
+::sa TH
 Có bao nhiêu số tự nhiên có hai chữ số?
 ::key 90
 Từ $10$ đến $99$ có $99-10+1=90$ số.

@@ -288,7 +288,7 @@ $$1\dfrac{1}{2}+2\dfrac{1}{2}+3\dfrac{1}{2}+4\dfrac{1}{2}=10+2=12.$$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Hỗn số $3\dfrac{4}{7}$ được đổi thành phân số là
 A. $\dfrac{25}{7}$.
 B. $\dfrac{34}{7}$.
@@ -297,7 +297,7 @@ D. $\dfrac{25}{4}$.
 ::key A
 $3\times7+4=25$ nên $3\dfrac{4}{7}=\dfrac{25}{7}$. Phương án C nhân phần nguyên với tử số; B viết liền các chữ số; D nhầm mẫu số.
 
-::mc
+::mc TH
 Phân số $\dfrac{31}{9}$ được đổi thành hỗn số là
 A. $4\dfrac{3}{9}$.
 B. $3\dfrac{4}{9}$.
@@ -306,7 +306,7 @@ D. $4\dfrac{4}{9}$.
 ::key B
 $31:9=3$ (dư $4$) nên $\dfrac{31}{9}=3\dfrac{4}{9}$. Phương án A đổi chỗ thương và số dư; C tính sai số dư; D lấy thương làm tròn lên.
 
-::mc
+::mc TH
 Trong các số sau, số lớn nhất là
 A. $2\dfrac{9}{10}$.
 B. $3\dfrac{2}{5}$.
@@ -315,7 +315,7 @@ D. $2\dfrac{3}{4}$.
 ::key C
 Hai số có phần nguyên $3$ lớn hơn hai số có phần nguyên $2$. Giữa $3\dfrac{1}{2}$ và $3\dfrac{2}{5}$: $\dfrac{1}{2}=\dfrac{5}{10}>\dfrac{4}{10}=\dfrac{2}{5}$. Phương án A chỉ nhìn phần phân số lớn nhất; B cho rằng mẫu số lớn hơn thì phân số lớn hơn.
 
-::mc
+::mc VD
 Kết quả của $2\dfrac{3}{4}+1\dfrac{2}{3}$ là
 A. $3\dfrac{5}{7}$.
 B. $3\dfrac{5}{12}$.
@@ -324,7 +324,7 @@ D. $4\dfrac{5}{12}$.
 ::key D
 $\dfrac{3}{4}+\dfrac{2}{3}=\dfrac{17}{12}=1\dfrac{5}{12}$ và $2+1=3$, nên tổng là $4\dfrac{5}{12}$. Phương án A cộng tử với tử, mẫu với mẫu; C để phần phân số lớn hơn $1$; D quên nhớ $1$.
 
-::tf
+::tf NB NB TH TH
 Em xét hỗn số $3\dfrac{2}{5}$.
 a) $3\dfrac{2}{5}=3\times\dfrac{2}{5}$.
 b) $3\dfrac{2}{5}=\dfrac{17}{5}$.
@@ -333,12 +333,12 @@ d) $3\dfrac{2}{5}$ lớn hơn $3$ nhưng bé hơn $4$.
 ::key S Đ S Đ
 a) Sai: $3\dfrac{2}{5}$ là $3+\dfrac{2}{5}$, không phải $3\times\dfrac{2}{5}$. b) Đúng: $3\times5+2=17$. c) Sai: $\dfrac{2}{5}=\dfrac{4}{10}<\dfrac{5}{10}=\dfrac{1}{2}$. d) Đúng: phần phân số $\dfrac{2}{5}$ bé hơn $1$.
 
-::sa
+::sa NB
 Số?  $4\dfrac{3}{8}=\dfrac{?}{8}$.
 ::key 35
 $4\times8+3=35$.
 
-::sa
+::sa VD
 Hai bao đường nặng $2\dfrac{3}{4}$ kg và $1\dfrac{1}{2}$ kg. Cả hai bao nặng $\dfrac{a}{4}$ kg. Tìm $a$.
 ::key 17
 $\dfrac{11}{4}+\dfrac{6}{4}=\dfrac{17}{4}$, nên $a=17$.

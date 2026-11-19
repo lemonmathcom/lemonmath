@@ -313,7 +313,7 @@ $$\begin{aligned} 0.125\times0.25\times32 &= (0.125\times8)\times(0.25\times4) \
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $0.28\times7$ equals
 A. $1.96$.
 B. $19.6$.
@@ -322,7 +322,7 @@ D. $0.196$.
 ::key A
 $28\times7=196$ and $0.28$ has two decimal places, so the product is $1.96$. Option B uses only one decimal place; C forgets the decimal point; D uses three decimal places.
 
-::mc
+::mc TH
 $4.2\times1.3$ equals
 A. $4.6$.
 B. $5.46$.
@@ -331,7 +331,7 @@ D. $54.6$.
 ::key B
 $42\times13=546$ and the two factors have $1+1=2$ decimal places, so the product is $5.46$. Option A multiplies the parts separately; B uses only one decimal place; C uses three decimal places.
 
-::mc
+::mc TH
 $0.6\times0.05$ equals
 A. $0.3$.
 B. $0.003$.
@@ -340,7 +340,7 @@ D. $30$.
 ::key C
 $6\times5=30$ and the two factors have $1+2=3$ decimal places, so the product is $0.030=0.03$. Option A uses only two decimal places; B uses four decimal places; D forgets the decimal point.
 
-::mc
+::mc VD
 Suppose $1$ m of cloth costs $45\,000$ dong. $2.5$ m of this cloth costs
 A. $90\,000$ dong.
 B. $11\,250$ dong.
@@ -349,7 +349,7 @@ D. $112\,500$ dong.
 ::key D
 $45\,000\times2.5=112\,500$ dong. Options B and C put the decimal point in the wrong place; D only works out the cost of $2$ m of cloth ($45\,000\times2$).
 
-::tf
+::tf TH TH TH NB
 Look at the product $1.2\times0.5$.
 a) $1.2\times0.5=6$.
 b) $1.2\times0.5=0.6$.
@@ -358,12 +358,12 @@ d) $1.2\times0.5=0.5\times1.2$.
 ::key F T F T
 a) False: $12\times5=60$ and the product has two decimal places, so it equals $0.60=0.6$. b) True. c) False: $0.5<1$, so the product is less than $1.2$. d) True: swapping the factors does not change the product.
 
-::sa
+::sa VD
 Work out $2.5\times1.6$.
 ::key 4
 $25\times16=400$, with two decimal places in total, so the product is $4.00=4$.
 
-::sa
+::sa VD
 A square has side $0.3$ m. What is the area of the square in square metres?
 ::key 0.09
 $0.3\times0.3$: $3\times3=9$ and there are two decimal places in total, so the product is $0.09$ ($\text{m}^2$).

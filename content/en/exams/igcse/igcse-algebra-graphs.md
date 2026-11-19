@@ -284,7 +284,7 @@ So $x=2$: the graphs of $f$ and $f^{-1}$ meet on the line $y=x$.
 :::
 
 :::quiz
-::mc
+::mc TH
 $(x+3)(x-5)$ expands to
 A. $x^2-15$
 B. $x^2+2x-15$
@@ -293,7 +293,7 @@ D. $x^2-2x-15$
 ::key D
 $x^2-5x+3x-15$.
 
-::mc
+::mc NB
 $x^2-49$ factorises to
 A. $(x-7)(x+7)$
 B. $(x-7)^2$
@@ -302,7 +302,7 @@ D. $x(x-49)$
 ::key A
 A difference of two squares.
 
-::mc
+::mc VD
 The $n$th term of $5,\ 8,\ 11,\ 14,\ \dots$ is
 A. $5n$
 B. $3n+5$
@@ -311,7 +311,7 @@ D. $n+3$
 ::key C
 Difference $3$, and $3(1)+2=5$.
 
-::mc
+::mc TH
 If $f(x)=x+4$ and $g(x)=3x$, then $gf(1)$ is
 A. $7$
 B. $15$
@@ -320,7 +320,7 @@ D. $13$
 ::key B
 $f(1)=5$, then $g(5)=15$.
 
-::tf
+::tf TH TH NB TH
 Consider $y=x^2-6x+11=(x-3)^2+2$. Decide whether each statement is true or false.
 a) The completed square form is correct.
 b) The minimum value of $y$ is $2$.
@@ -329,12 +329,12 @@ d) The equation $x^2-6x+11=0$ has two real roots.
 ::key T T T F
 Since $y\ge2$, the graph never meets the $x$-axis.
 
-::sa
+::sa NB
 For $f(x)=2x-3$, find $f(5)$.
 ::key 7
 $2(5)-3=7$.
 
-::sa
+::sa VD
 Find the positive solution of $x^2=x+6$.
 ::key 3
 $(x-3)(x+2)=0$.

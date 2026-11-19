@@ -376,7 +376,7 @@ So group A has $64$ people, group B $32$ and group C $24$.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 A value has frequency $9$ in a data set of size $36$. The relative frequency of that value is
 A. $9\%$.
 B. $25\%$.
@@ -385,7 +385,7 @@ D. $75\%$.
 ::key B
 $\dfrac{9}{36}\cdot100\%=25\%$. A uses the frequency as a percentage, C works out $36\div9$, D is the remaining part $100\%-25\%$.
 
-::mc
+::mc TH
 In a data set of size $50$, a value has relative frequency $30\%$. The frequency of that value is
 A. $30$.
 B. $20$.
@@ -394,7 +394,7 @@ D. $15$.
 ::key D
 $m=50\cdot30\%=15$. A uses the percentage as the frequency, B works out $50-30$, C is the frequency of the rest, $50-15$.
 
-::mc
+::mc TH
 In a pie chart, the sector for a relative frequency of $15\%$ has angle at the centre
 A. $54^\circ$.
 B. $15^\circ$.
@@ -403,7 +403,7 @@ D. $5.4^\circ$.
 ::key A
 $15\%\cdot360^\circ=54^\circ$. B uses the percentage as the angle, C multiplies by $180^\circ$ instead of $360^\circ$, D wrongly turns $15\%$ into $0.015$.
 
-::mc
+::mc TH
 To show clearly what part of the whole each group makes up, the best choice is
 A. a line graph.
 B. a frequency table.
@@ -412,7 +412,7 @@ D. the original list of data.
 ::key C
 The whole circle stands for $100\%$, so each sector shows at once the share of its group. A line graph (A) shows a trend; a frequency table (B) and the data list (D) give numbers but no picture of "part of the whole".
 
-::tf
+::tf TH TH TH VD
 A data set of size $80$ has four groups with relative frequencies $35\%$, $25\%$, $x\%$, $15\%$. Decide whether each statement is true or false.
 a) $x=25$.
 b) The frequency of the first group is $35$.
@@ -421,12 +421,12 @@ d) The third and fourth groups have a total frequency of $30$.
 ::key T F T F
 a) True: $100-35-25-15=25$. b) False: $80\cdot35\%=28$. c) True: $15\%\cdot360^\circ=54^\circ$. d) False: $80\cdot40\%=32$.
 
-::sa
+::sa VD
 A value has frequency $18$ and relative frequency $12\%$. Find the sample size.
 ::key 150
 $n=18\div0.12=150$.
 
-::sa
+::sa TH
 A sector of a pie chart has an angle at the centre of $126^\circ$. What is the relative frequency of that group, as a percentage?
 ::key 35
 $\dfrac{126}{360}=0.35=35\%$.

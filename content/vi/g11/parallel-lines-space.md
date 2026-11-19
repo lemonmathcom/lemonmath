@@ -357,7 +357,7 @@ Gọi $M$, $N$, $P$, $Q$ lần lượt là trung điểm $AB$, $BC$, $CD$, $DA$.
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc TH
 Hai đường thẳng $a$, $b$ trong không gian không có điểm chung. Khẳng định nào sau đây đúng?
 A. $a$ và $b$ song song.
 B. $a$ và $b$ chéo nhau.
@@ -366,7 +366,7 @@ D. $a$ và $b$ song song hoặc chéo nhau.
 ::key D
 Hai đường thẳng không có điểm chung là song song nếu đồng phẳng, và chéo nhau nếu không đồng phẳng. Phương án A và B chỉ đúng một trong hai trường hợp.
 
-::mc
+::mc TH
 Trong hình lập phương $ABCD.A'B'C'D'$, cặp đường thẳng nào sau đây chéo nhau?
 A. $AB$ và $CC'$.
 B. $AB$ và $AD$.
@@ -375,7 +375,7 @@ D. $AB$ và $A'B'$.
 ::key A
 $AB$ và $CC'$ không đồng phẳng và không có điểm chung. Phương án C và D song song, phương án B cắt nhau tại $A$.
 
-::mc
+::mc NB
 Ba mặt phẳng phân biệt đôi một cắt nhau theo ba giao tuyến phân biệt. Khẳng định nào sau đây đúng?
 A. Ba giao tuyến luôn đồng quy.
 B. Ba giao tuyến đồng quy hoặc đôi một song song.
@@ -384,7 +384,7 @@ D. Ba giao tuyến luôn chéo nhau.
 ::key B
 Đây là định lí về ba giao tuyến.
 
-::mc
+::mc TH
 Cho tứ diện $ABCD$; $M$, $N$ là trung điểm của $AB$, $AC$. Đường thẳng $MN$ song song với đường thẳng nào sau đây?
 A. $BD$.
 B. $CD$.
@@ -393,7 +393,7 @@ D. $AD$.
 ::key C
 $MN$ là đường trung bình của tam giác $ABC$ nên $MN\parallel BC$.
 
-::tf
+::tf TH VD TH TH
 Cho hình chóp $S.ABCD$ có đáy là hình bình hành $ABCD$. Xét tính đúng sai của các mệnh đề sau:
 a) Giao tuyến của $(SAB)$ và $(SCD)$ song song với $AB$.
 b) Giao tuyến của $(SAD)$ và $(SBC)$ cắt đường thẳng $AD$ tại một điểm.
@@ -402,12 +402,12 @@ d) $SB$ và $AD$ chéo nhau.
 ::key Đ S Đ Đ
 a) Đúng: $AB\parallel CD$ nên giao tuyến đi qua $S$ và song song với $AB$. b) Sai: giao tuyến song song với $AD$ nên không cắt $AD$. c) Đúng: $AB$ và $SC$ không đồng phẳng. d) Đúng: $SB$ và $AD$ không đồng phẳng và không có điểm chung.
 
-::sa
+::sa VD
 Trong hình hộp chữ nhật, mỗi cạnh chéo nhau với bao nhiêu cạnh khác?
 ::key 4
 Mỗi cạnh chéo nhau với $4$ cạnh (ví dụ $AB$ chéo nhau với $CC'$, $DD'$, $B'C'$, $A'D'$).
 
-::sa
+::sa TH
 Tứ diện $ABCD$ có bao nhiêu cặp cạnh chéo nhau?
 ::key 3
 Các cặp cạnh đối chéo nhau là $(AB, CD)$, $(AC, BD)$, $(AD, BC)$: $3$ cặp.

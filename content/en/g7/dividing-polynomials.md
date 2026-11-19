@@ -443,7 +443,7 @@ So a) the quotient is $2x^2-3x+1$; b) yes, $1$ is a root.
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 The quotient of $12x^6\div(4x^2)$ is
 A. $3x^3$.
 B. $3x^4$.
@@ -452,7 +452,7 @@ D. $3x^8$.
 ::key B
 Divide the coefficients $12\div4=3$ and subtract the exponents $6-2=4$. A takes $6\div2=3$ for the exponent, C subtracts the coefficients and D adds the exponents.
 
-::mc
+::mc TH
 The result of $(9x^3-6x^2)\div(3x)$ is
 A. $3x^2-2$.
 B. $6x^2-3x$.
@@ -461,7 +461,7 @@ D. $3x^2+2x$.
 ::key C
 $9x^3\div3x=3x^2$ and $-6x^2\div3x=-2x$. A drops the $x$ from the second term, B subtracts the coefficients instead of dividing and D has the wrong sign.
 
-::mc
+::mc VD
 The quotient of $(x^2+x-6)\div(x-2)$ is
 A. $x+1$.
 B. $x-3$.
@@ -470,7 +470,7 @@ D. $x+3$.
 ::key D
 $(x-2)(x+3)=x^2+x-6$. B has the wrong sign, and C and A take the wrong second term when subtracting.
 
-::mc
+::mc VD
 The remainder in the division $(x^2+3x+5)\div(x+1)$ is
 A. $3$.
 B. $5$.
@@ -479,7 +479,7 @@ D. $2$.
 ::key A
 $x^2+3x+5=(x+1)(x+2)+3$. A is the constant term of the quotient, B is the constant term of the dividend and C is the constant term of the divisor.
 
-::tf
+::tf VD VD TH TH
 Let $A=x^3+3x^2+3x+1$ and $B=x+1$. Decide whether each statement is true or false.
 a) The quotient of $A$ divided by $B$ is $x^2+2x+1$.
 b) The remainder of this division is $1$.
@@ -488,12 +488,12 @@ d) $x=-1$ is a root of $A$.
 ::key T F T T
 a) True. b) False: the remainder is $0$, because $(x+1)(x^2+2x+1)=x^3+3x^2+3x+1$. c) True. d) True: $-1+3-3+1=0$.
 
-::sa
+::sa VD
 Divide $x^3-8$ by $x-2$, then find the value of the quotient at $x=1$.
 ::key 7
 The quotient is $x^2+2x+4$; at $x=1$ it equals $1+2+4=7$.
 
-::sa
+::sa VD
 Find the remainder when $(x^3-3x^2+3x+5)$ is divided by $(x-1)$.
 ::key 6
 $x^3-3x^2+3x+5=(x-1)(x^2-2x+1)+6$.

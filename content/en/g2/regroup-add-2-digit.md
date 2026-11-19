@@ -259,7 +259,7 @@ The ones digit of the sum is $4$, so $\square+7=14$, which gives $\square=7$. Ch
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $38+45$ equals
 A. $73$.
 B. $82$.
@@ -268,7 +268,7 @@ D. $83$.
 ::key D
 $8+5=13$, write $3$ carry $1$; $3+4+1=8$, so $38+45=83$. Option A forgets the carried ten, and C writes all of $13$ in the ones place.
 
-::mc
+::mc TH
 Which statement is correct?
 A. $29+36=65$.
 B. $29+36=55$.
@@ -277,7 +277,7 @@ D. $29+36=64$.
 ::key A
 $9+6=15$, write $5$ carry $1$; $2+3+1=6$, so $29+36=65$. A forgets the carried ten, and C writes all of $15$ in the ones place.
 
-::mc
+::mc TH
 Which sum equals $71$?
 A. $35+35$.
 B. $35+36$.
@@ -286,7 +286,7 @@ D. $38+34$.
 ::key B
 $35+36=71$. The other sums are $70$, $70$ and $72$.
 
-::mc
+::mc VD
 Class 2A has $29$ children and Class 2B has $34$ children. How many children are in the two classes altogether?
 A. $53$ children.
 B. $613$ children.
@@ -295,7 +295,7 @@ D. $5$ children.
 ::key C
 "The two classes altogether" means putting together: $29+34=63$. Option A forgets the carried ten, and D is $34-29$, a subtraction by mistake.
 
-::tf
+::tf NB TH TH VD
 Look at the sum $48+27$.
 a) In the ones: $8+7=15$.
 b) $15$ ones make $1$ ten and $5$ ones.
@@ -304,12 +304,12 @@ d) $48+27=75$.
 ::key T T F T
 a) True: $8+7=15$. b) True: $15=10+5$. c) False: the tens are $4+2+1=7$. d) True: $48+27=75$.
 
-::sa
+::sa VD
 Work out $56+38$.
 ::key 94
 $6+8=14$, write $4$ carry $1$; $5+3+1=9$. So $56+38=94$.
 
-::sa
+::sa VD
 A box has $45$ oranges and $37$ tangerines. How many fruits are in the box altogether?
 ::key 82
 $5+7=12$, write $2$ carry $1$; $4+3+1=8$. So $45+37=82$ (fruits).

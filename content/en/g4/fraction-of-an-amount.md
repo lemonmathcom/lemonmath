@@ -331,7 +331,7 @@ The whole group is $5$ parts, which is $12\times5=60$ (students).
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $\dfrac{2}{3}$ of $12$ is
 A. $6$.
 B. $18$.
@@ -340,7 +340,7 @@ D. $8$.
 ::key D
 Each part is $12\div3=4$; taking $2$ parts gives $4\times2=8$. Option C is only $12\div3$.
 
-::mc
+::mc TH
 $\dfrac{3}{5}$ of $45$ kg is
 A. $27$ kg.
 B. $9$ kg.
@@ -349,7 +349,7 @@ D. $15$ kg.
 ::key A
 $45\div5\times3=9\times3=27$ (kg). Option B forgets to multiply by $3$, and option C divides by the numerator and multiplies by the denominator.
 
-::mc
+::mc TH
 Nam has $48$ marbles and gives his friend $\dfrac{1}{6}$ of them. Nam gave his friend
 A. $288$ marbles.
 B. $8$ marbles.
@@ -358,7 +358,7 @@ D. $6$ marbles.
 ::key B
 $48\div6=8$ (marbles). Option A is $48\times6$, a result greater than the original number of marbles.
 
-::mc
+::mc NB
 Which calculation finds $\dfrac{5}{9}$ of $36$?
 A. $36\div5\times9$.
 B. $36\times9\div5$.
@@ -367,7 +367,7 @@ D. $36+\dfrac{5}{9}$.
 ::key C
 Divide by the denominator $9$ and then multiply by the numerator $5$.
 
-::tf
+::tf NB TH TH TH
 Look at $\dfrac{3}{8}$ of $40$.
 a) $\dfrac{3}{8}$ of $40$ equals $40\div3\times8$.
 b) $\dfrac{3}{8}$ of $40$ equals $120$.
@@ -376,12 +376,12 @@ d) $\dfrac{3}{8}$ of $40$ is greater than $40$.
 ::key F F T F
 a) False: we divide by the denominator $8$ and multiply by the numerator $3$. b) False: $120=40\times3$ has not been divided by $8$. c) True: $40\div8\times3=15$. d) False: $\dfrac{3}{8}<1$, so the result is less than $40$.
 
-::sa
+::sa VD
 Find $\dfrac{4}{7}$ of $35$.
 ::key 20
 $35\div7\times4=5\times4=20$.
 
-::sa
+::sa VD
 Class $4$A has $36$ students, of whom $\dfrac{5}{9}$ play in the school yard. How many students do not play in the yard?
 ::key 16
 $36\div9\times5=20$ students play in the yard; the number not playing in the yard is $36-20=16$.

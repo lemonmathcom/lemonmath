@@ -392,7 +392,7 @@ Vậy $E=7$ với mọi $x$, $y$, nên giá trị của $E$ không phụ thuộc
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Bậc của đơn thức $-3x^2y^3z$ là
 A. $5$.
 B. $-3$.
@@ -401,7 +401,7 @@ D. $3$.
 ::key C
 Bậc là tổng số mũ: $2+3+1=6$. A quên biến $z$, B là hệ số, D là số biến.
 
-::mc
+::mc TH
 Thu gọn đa thức $5x^2y-2xy^2+x^2y+3xy^2$ được
 A. $6x^2y+5xy^2$.
 B. $5x^2y+xy^2$.
@@ -410,7 +410,7 @@ D. $6x^2y+xy^2$.
 ::key D
 $(5+1)x^2y+(-2+3)xy^2=6x^2y+xy^2$. A bỏ dấu của $-2$, B quên hạng tử $x^2y$, C cộng cả hai nhóm không đồng dạng.
 
-::mc
+::mc TH
 Tổng $(2x^2-3x+1)+(x^2+5x-4)$ bằng
 A. $3x^2+2x-3$.
 B. $3x^2+8x-3$.
@@ -419,7 +419,7 @@ D. $3x^2+2x+5$.
 ::key A
 $(2+1)x^2+(-3+5)x+(1-4)=3x^2+2x-3$. B sai dấu của $-3x$, C là hiệu thay vì tổng, D sai hạng tử tự do.
 
-::mc
+::mc TH
 Hiệu $(x^2-3xy)-(2x^2-xy+y^2)$ bằng
 A. $3x^2-4xy+y^2$.
 B. $-x^2-2xy-y^2$.
@@ -428,7 +428,7 @@ D. $x^2-2xy-y^2$.
 ::key B
 $x^2-3xy-2x^2+xy-y^2=-x^2-2xy-y^2$. A là phép cộng, C quên đổi dấu của $-xy$, D quên đổi dấu của $2x^2$.
 
-::tf
+::tf TH TH TH TH
 Cho đa thức $P=4x^2y-3xy^2+2x^2y+xy^2-5$.
 a) Bậc của $P$ là $5$.
 b) Sau khi thu gọn, $P$ có $4$ hạng tử.
@@ -437,12 +437,12 @@ d) Hệ số của hạng tử chứa $xy^2$ sau khi thu gọn là $-2$.
 ::key S S Đ Đ
 Sau khi thu gọn $P=6x^2y-2xy^2-5$. a) Sai: bậc là $3$. b) Sai: có $3$ hạng tử. c) Đúng: $6-2-5=-1$. d) Đúng: $-3+1=-2$.
 
-::sa
+::sa VD
 Cho $A=2x^2-3xy+y^2$ và $B=x^2+xy-2y^2$. Tính giá trị của $A-B$ tại $x=2$, $y=1$.
 ::key -1
 $A-B=x^2-4xy+3y^2$. Tại $x=2$, $y=1$: $4-8+3=-1$.
 
-::sa
+::sa VD
 Tính giá trị của biểu thức $(x^2y+3xy-2)+(2x^2y-xy+5)$ tại $x=1$, $y=2$.
 ::key 13
 Biểu thức bằng $3x^2y+2xy+3$. Tại $x=1$, $y=2$: $6+4+3=13$.

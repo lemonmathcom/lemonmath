@@ -290,7 +290,7 @@ $$1000-650=350\ \text{(mm)}.$$
 ## Mini test
 
 :::quiz
-::mc
+::mc TH
 $4\ \text{cm}\ 5\ \text{mm}$ equals
 A. $9\ \text{mm}$.
 B. $405\ \text{mm}$.
@@ -299,7 +299,7 @@ D. $450\ \text{mm}$.
 ::key C
 $4\ \text{cm}=40\ \text{mm}$, so $40+5=45\ \text{mm}$. A adds $4+5$, B treats $1$ cm as $100$ mm, D reads it as $45$ cm.
 
-::mc
+::mc TH
 $86\ \text{mm}$ equals
 A. $8\ \text{cm}\ 60\ \text{mm}$.
 B. $6\ \text{cm}\ 8\ \text{mm}$.
@@ -308,7 +308,7 @@ D. $8\ \text{cm}\ 6\ \text{mm}$.
 ::key D
 $86\ \text{mm}=80\ \text{mm}+6\ \text{mm}=8\ \text{cm}\ 6\ \text{mm}$. B swaps the digits, C uses the wrong unit, A has not converted fully.
 
-::mc
+::mc TH
 $2\ \text{kg}\ 50\ \text{g}$ equals
 A. $2050\ \text{g}$.
 B. $2500\ \text{g}$.
@@ -317,7 +317,7 @@ D. $52\ \text{g}$.
 ::key A
 $2\ \text{kg}=2000\ \text{g}$, so $2000+50=2050\ \text{g}$. A and B join the digits wrongly, D adds $2+50$.
 
-::mc
+::mc TH
 Mum buys $800$ g of meat and $700$ g of fish. She buys altogether
 A. $150$ g.
 B. $1500$ g.
@@ -326,7 +326,7 @@ D. $15$ kg.
 ::key B
 "Altogether" is an addition: $800+700=1500$ g. A is missing a digit $0$, C is a subtraction, D has the wrong unit.
 
-::tf
+::tf NB NB TH NB
 Look at these measurements.
 a) $1\ \text{kg}=100\ \text{g}$.
 b) $1\ \text{cm}=10\ \text{mm}$.
@@ -335,12 +335,12 @@ d) $1\ \text{m}=100\ \text{mm}$.
 ::key F T T F
 a) False: $1\ \text{kg}=1000\ \text{g}$. b) True: each centimetre has $10$ millimetres. c) True: $3000+200=3200$. d) False: $1\ \text{m}=1000\ \text{mm}$.
 
-::sa
+::sa TH
 How many millimetres is $5\ \text{cm}\ 3\ \text{mm}$?
 ::key 53
 $5\ \text{cm}=50\ \text{mm}$, so $50+3=53\ \text{mm}$.
 
-::sa
+::sa VD
 Mum buys $1$ kg of sugar and uses $450$ g. How many grams of sugar are left?
 ::key 550
 $1\ \text{kg}=1000\ \text{g}$, so $1000-450=550$ (g).

@@ -415,7 +415,7 @@ Thay $y=1$: $2x+1\le 7\iff x\le 3$. Với $x=4$: $2\cdot 4+1=9>7$, nên $(4; 1)$
 ## Kiểm tra mini
 
 :::quiz
-::mc
+::mc NB
 Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn?
 A. $2x-3y\le5$.
 B. $x^2+y>1$.
@@ -424,7 +424,7 @@ D. $\dfrac1x+y\le2$.
 ::key A
 Bất phương trình bậc nhất hai ẩn có dạng $ax+by\le c$ (hoặc $<, \ge, >$): mỗi ẩn chỉ có bậc nhất. B có $x^2$, C có tích $xy$, D có $x$ ở mẫu.
 
-::mc
+::mc TH
 Cặp số nào sau đây là một nghiệm của bất phương trình $3x-2y>4$?
 A. $(2; 1)$.
 B. $(0; -3)$.
@@ -433,7 +433,7 @@ D. $(3; 3)$.
 ::key B
 $(0; -3)$: $0+6=6>4$, đúng. Với A ta được $6-2=4$, mà $4>4$ sai: điểm này nằm trên bờ, dấu $>$ không lấy bờ. C cho $3$, D cho $3$, đều không lớn hơn $4$.
 
-::mc
+::mc TH
 Miền nghiệm của bất phương trình $x+3y\ge6$ là
 A. nửa mặt phẳng bờ $x+3y=6$ chứa gốc $O$, kể cả bờ.
 B. nửa mặt phẳng bờ $x+3y=6$ chứa gốc $O$, không kể bờ.
@@ -442,7 +442,7 @@ D. nửa mặt phẳng bờ $x+3y=6$ không chứa gốc $O$, không kể bờ.
 ::key C
 Thay $O(0; 0)$: $0\ge6$ sai, nên lấy nửa mặt phẳng không chứa $O$. Dấu $\ge$ cho phép dấu bằng, nên bờ thuộc miền nghiệm (vẽ nét liền).
 
-::mc
+::mc VD
 Miền nghiệm của một bất phương trình là nửa mặt phẳng có bờ là đường thẳng đi qua $(2; 0)$ và $(0; 4)$, không chứa gốc $O$, kể cả bờ. Bất phương trình đó là
 A. $2x+y\le4$.
 B. $2x+y\ge4$.
@@ -451,7 +451,7 @@ D. $2x+y>4$.
 ::key B
 Đường thẳng qua $(2; 0)$ và $(0; 4)$ là $\dfrac x2+\dfrac y4=1\iff 2x+y=4$. Tại $O$: $0<4$, nên phía không chứa $O$ là $2x+y\ge4$ (kể cả bờ nên dùng $\ge$). Phương án C đổi chỗ hai giao điểm; D không lấy bờ.
 
-::tf
+::tf TH TH TH VD
 Một tiệm bánh làm $x$ chiếc bánh loại I (chi phí $20$ nghìn đồng mỗi chiếc) và $y$ chiếc bánh loại II (chi phí $30$ nghìn đồng mỗi chiếc), với tổng chi phí không quá $600$ nghìn đồng.
 a) Điều kiện về chi phí là $20x+30y\ge600$.
 b) Tiệm có thể làm $15$ chiếc loại I và $10$ chiếc loại II.
@@ -460,12 +460,12 @@ d) Nếu tiệm làm $12$ chiếc loại II thì có thể làm nhiều nhất $
 ::key S Đ S Đ
 Điều kiện đúng là $20x+30y\le600\iff 2x+3y\le60$. a) Sai: "không quá" là $\le$. b) Đúng: $30+30=60\le60$. c) Sai: $40+24=64>60$. d) Đúng: $2x+36\le60\iff x\le12$.
 
-::sa
+::sa TH
 Điểm $M(a; 2)$ thuộc miền nghiệm của bất phương trình $3x-y\le7$. Tìm giá trị lớn nhất của $a$.
 ::key 3
 Thay $x=a$, $y=2$: $3a-2\le7\iff a\le3$. Vậy giá trị lớn nhất của $a$ là $3$.
 
-::sa
+::sa VD
 Vé xem phim cho học sinh giá $25$ nghìn đồng, vé người lớn giá $40$ nghìn đồng. Một nhóm có $4$ người lớn và có không quá $300$ nghìn đồng. Nhóm có thể mua nhiều nhất bao nhiêu vé học sinh?
 ::key 5
 Gọi $y$ là số vé học sinh: $25y+40\cdot4\le300\iff 25y\le140\iff y\le5{,}6$. Số vé là số tự nhiên nên nhiều nhất là $5$.
