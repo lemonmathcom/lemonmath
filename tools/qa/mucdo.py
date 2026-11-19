@@ -21,7 +21,7 @@ LV = ('NB', 'TH', 'VD', 'VDC')
 QUIZ = re.compile(r'^:::quiz[^\n]*\n([\s\S]*?)^:::[ \t]*$', re.M)
 HEAD = re.compile(r'^::(mc|tf|sa)((?:[ \t]+(?:NB|TH|VD|VDC))*)[ \t]*$', re.M)
 ACCOUNTS = ['Kinangtoan', 'Alexnguyen122222', 'thichgiaitoan', 'Lemonmath.com', 'Vinax.vn', 'Nguyenchanh2358',
-            'Vinax258', 'Vimus2358', 'Lemonmath112', 'Xedap102', 'chanh106', 'Tai-khoan-12']
+            'Vinax258', 'Vimus2358', 'Lemonmath112', 'Xedap102', 'chanh106', 'hanibi108']
 
 
 def rd(p):

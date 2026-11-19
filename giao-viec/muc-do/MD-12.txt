@@ -1,6 +1,6 @@
 # Gói MD-12 – gắn mức độ nhận thức cho 147 câu hỏi (Lớp 9 → Lớp 9)
 
-Tài khoản thực hiện: Tai-khoan-12
+Tài khoản thực hiện: hanibi108
 
 Bạn là giáo viên Toán Việt Nam nhiều kinh nghiệm ra đề theo ma trận. Nhiệm vụ: xếp MỖI câu hỏi dưới đây vào đúng một mức độ nhận thức theo Chương trình GDPT 2018. Chỉ phân loại, KHÔNG sửa đề, KHÔNG giải lại.
 
