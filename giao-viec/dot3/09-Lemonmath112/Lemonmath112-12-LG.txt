@@ -6,7 +6,7 @@ Kết quả: file Lemonmath112-12-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath112-12-LG
-Người làm: tài khoản Lemonmath112. Gói này có 27 bài tập thuộc 3 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Lemonmath112. Gói này có 8 bài tập thuộc 1 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Lemonmath112-12-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/3). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/1). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath112-12-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,472 +189,197 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- exams/sat/sat-area-volume-lines-angles (9 bài tập)
-- exams/sat/sat-equivalent-expressions (9 bài tập)
-- exams/sat/sat-exponential-functions (9 bài tập)
+- g10/vector-sum-difference (8 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ exams/sat/sat-area-volume-lines-angles
-Bài học: Diện tích, thể tích, đường thẳng và góc / Area, volume, lines and angles
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+@@@ g10/vector-sum-difference
+Bài học: Tổng và hiệu của hai vectơ / Sum and difference of two vectors
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Hai góc kề bù có số đo $(2x+15)^\circ$ và $(4x-3)^\circ$. Giá trị của $x$ bằng bao nhiêu?
+Rút gọn: (a) $\overrightarrow{MN} + \overrightarrow{NP} + \overrightarrow{PQ}$; (b) $\overrightarrow{AB} - \overrightarrow{AC}$; (c) $\overrightarrow{AB} + \overrightarrow{BC} - \overrightarrow{AD}$.
 
 [LỜI GIẢI CŨ – VI]
-$6x+12=180\iff x=28$. Hai góc là $71^\circ$ và $109^\circ$.
+(a) $\overrightarrow{MN} + \overrightarrow{NP} + \overrightarrow{PQ} = \overrightarrow{MP} + \overrightarrow{PQ} = \overrightarrow{MQ}$.
+(b) Hai vectơ chung điểm đầu $A$: $\overrightarrow{AB} - \overrightarrow{AC} = \overrightarrow{CB}$.
+(c) $\overrightarrow{AB} + \overrightarrow{BC} - \overrightarrow{AD} = \overrightarrow{AC} - \overrightarrow{AD} = \overrightarrow{DC}$.
+
+**Đáp số.** (a) $\overrightarrow{MQ}$; (b) $\overrightarrow{CB}$; (c) $\overrightarrow{DC}$.
 
 [ĐỀ – EN]
-Two angles form a linear pair. Their measures are $(2x+15)^\circ$ and $(4x-3)^\circ$. What is the value of $x$?
+Simplify: (a) $\overrightarrow{MN} + \overrightarrow{NP} + \overrightarrow{PQ}$; (b) $\overrightarrow{AB} - \overrightarrow{AC}$; (c) $\overrightarrow{AB} + \overrightarrow{BC} - \overrightarrow{AD}$.
 
 [LỜI GIẢI CŨ – EN]
-$6x+12=180\iff x=28$. The angles are $71^\circ$ and $109^\circ$.
+(a) $\overrightarrow{MN} + \overrightarrow{NP} + \overrightarrow{PQ} = \overrightarrow{MP} + \overrightarrow{PQ} = \overrightarrow{MQ}$.
+(b) Both vectors have tail $A$: $\overrightarrow{AB} - \overrightarrow{AC} = \overrightarrow{CB}$.
+(c) $\overrightarrow{AB} + \overrightarrow{BC} - \overrightarrow{AD} = \overrightarrow{AC} - \overrightarrow{AD} = \overrightarrow{DC}$.
+
+**Answer.** (a) $\overrightarrow{MQ}$; (b) $\overrightarrow{CB}$; (c) $\overrightarrow{DC}$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Các góc của một tam giác tỉ lệ với $2:3:4$. Góc lớn nhất có số đo bao nhiêu độ?
+$ABCD$ là hình vuông cạnh $4$. Tính $|\overrightarrow{AB} + \overrightarrow{AD}|$, $|\overrightarrow{AB} - \overrightarrow{AD}|$ và $|\overrightarrow{AB} + \overrightarrow{CD}|$.
 
 [LỜI GIẢI CŨ – VI]
-Một phần là $20^\circ$, nên góc lớn nhất là $80^\circ$.
+$\overrightarrow{AB} + \overrightarrow{AD} = \overrightarrow{AC}$ và $\overrightarrow{AB} - \overrightarrow{AD} = \overrightarrow{DB}$, cả hai là đường chéo dài $\sqrt{4^2+4^2}=4\sqrt2$. Vì $\overrightarrow{CD}=\overrightarrow{BA}$ nên $\overrightarrow{AB} + \overrightarrow{CD} = \overrightarrow{AB} + \overrightarrow{BA}=\vec{0}$.
+
+**Đáp số.** $4\sqrt2$; $4\sqrt2$; $0$.
 
 [ĐỀ – EN]
-The angles of a triangle are in the ratio $2:3:4$. What is the measure, in degrees, of the largest angle?
+$ABCD$ is a square of side $4$. Find $|\overrightarrow{AB} + \overrightarrow{AD}|$, $|\overrightarrow{AB} - \overrightarrow{AD}|$ and $|\overrightarrow{AB} + \overrightarrow{CD}|$.
 
 [LỜI GIẢI CŨ – EN]
-One part is $20^\circ$, so the largest angle is $80^\circ$.
+$\overrightarrow{AB} + \overrightarrow{AD} = \overrightarrow{AC}$ and $\overrightarrow{AB} - \overrightarrow{AD} = \overrightarrow{DB}$, both diagonals of length $\sqrt{4^2+4^2}=4\sqrt2$. Since $\overrightarrow{CD}=\overrightarrow{BA}$, $\overrightarrow{AB} + \overrightarrow{CD} = \overrightarrow{AB} + \overrightarrow{BA}=\vec{0}$.
+
+**Answer.** $4\sqrt2$; $4\sqrt2$; $0$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Số đo mỗi góc trong của bát giác đều là
-A. $120^\circ$
-B. $135^\circ$
-C. $140^\circ$
-D. $1.080^\circ$
+$ABCD$ là hình bình hành tâm $O$. Chứng minh rằng $\overrightarrow{OA} + \overrightarrow{OC} = \vec{0}$ và $\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} + \overrightarrow{OD} = \vec{0}$.
 
 [LỜI GIẢI CŨ – VI]
-$6\cdot180^\circ=1.080^\circ$, và $1.080^\circ:8=135^\circ$: đáp án **B**.
+$O$ là trung điểm của $AC$ nên $\overrightarrow{OA} + \overrightarrow{OC} = \vec{0}$; $O$ là trung điểm của $BD$ nên $\overrightarrow{OB} + \overrightarrow{OD} = \vec{0}$. Cộng hai đẳng thức được $\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} + \overrightarrow{OD} = \vec{0}$.
+
+**Đáp số.** Cả hai đẳng thức đúng (đã chứng minh).
 
 [ĐỀ – EN]
-What is the measure of each interior angle of a regular octagon?
-A. $120^\circ$
-B. $135^\circ$
-C. $140^\circ$
-D. $1{,}080^\circ$
+$ABCD$ is a parallelogram with centre $O$. Prove that $\overrightarrow{OA} + \overrightarrow{OC} = \vec{0}$ and $\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} + \overrightarrow{OD} = \vec{0}$.
 
 [LỜI GIẢI CŨ – EN]
-$6\cdot180^\circ=1{,}080^\circ$, and $1{,}080^\circ\div8=135^\circ$: answer **B**.
+$O$ is the midpoint of $AC$, so $\overrightarrow{OA} + \overrightarrow{OC} = \vec{0}$; $O$ is the midpoint of $BD$, so $\overrightarrow{OB} + \overrightarrow{OD} = \vec{0}$. Adding the two gives $\overrightarrow{OA} + \overrightarrow{OB} + \overrightarrow{OC} + \overrightarrow{OD} = \vec{0}$.
+
+**Answer.** Both identities hold (proved).
 
 === Bài 4 ===
 [ĐỀ – VI]
-Một hình nón có bán kính đáy 4 xăng-ti-mét và chiều cao 6 xăng-ti-mét. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
-A. $32\pi$
-B. $96\pi$
-C. $16\pi$
-D. $48\pi$
+Chứng minh rằng với bốn điểm $A$, $B$, $C$, $D$ bất kì: $\overrightarrow{AB} + \overrightarrow{CD} = \overrightarrow{AD} + \overrightarrow{CB}$.
 
 [LỜI GIẢI CŨ – VI]
-$\dfrac13\pi\cdot16\cdot6=32\pi$: đáp án **A**. Phương án B quên $\dfrac13$.
+$$\overrightarrow{AB} + \overrightarrow{CD} = (\overrightarrow{AD} + \overrightarrow{DB}) + (\overrightarrow{CB} + \overrightarrow{BD}) = \overrightarrow{AD} + \overrightarrow{CB} + (\overrightarrow{DB} + \overrightarrow{BD}) = \overrightarrow{AD} + \overrightarrow{CB}.$$
+
+**Đáp số.** Đẳng thức đúng (đã chứng minh).
 
 [ĐỀ – EN]
-A cone has radius 4 centimeters and height 6 centimeters. What is its volume, in cubic centimeters?
-A. $32\pi$
-B. $96\pi$
-C. $16\pi$
-D. $48\pi$
+Prove that for any four points $A$, $B$, $C$, $D$: $\overrightarrow{AB} + \overrightarrow{CD} = \overrightarrow{AD} + \overrightarrow{CB}$.
 
 [LỜI GIẢI CŨ – EN]
-$\dfrac13\pi\cdot16\cdot6=32\pi$: answer **A**. Option B forgets the $\dfrac13$.
+$$\overrightarrow{AB} + \overrightarrow{CD} = (\overrightarrow{AD} + \overrightarrow{DB}) + (\overrightarrow{CB} + \overrightarrow{BD}) = \overrightarrow{AD} + \overrightarrow{CB} + (\overrightarrow{DB} + \overrightarrow{BD}) = \overrightarrow{AD} + \overrightarrow{CB}.$$
+
+**Answer.** The identity holds (proved).
 
 === Bài 5 ===
 [ĐỀ – VI]
-Chiều dài và chiều rộng của một hình chữ nhật đều được gấp ba. Diện tích thay đổi thế nào?
-A. Gấp ba.
-B. Gấp 6 lần.
-C. Gấp 9 lần.
-D. Gấp 27 lần.
+Một chiếc thuyền chạy với vận tốc $6$ km/h so với nước, hướng mũi thẳng sang bờ bên kia của một con sông có dòng nước chảy $8$ km/h, vuông góc với hướng của thuyền.
+
+a) Tốc độ của thuyền so với bờ là bao nhiêu?
+b) Đường đi thật của thuyền lệch bao nhiêu độ so với hướng mũi thuyền (làm tròn đến độ)?
 
 [LỜI GIẢI CŨ – VI]
-Diện tích được nhân với $3^2=9$: đáp án **C**. Phương án D là hệ số cho thể tích.
+a) $|\vec{v}|=\sqrt{6^2+8^2}=\sqrt{100}=10$ (km/h).
+
+b) Cạnh kề với góc lệch là $6$ (hướng mũi thuyền), cạnh đối là $8$ (dòng nước): $\tan\alpha=\dfrac86\approx1{,}333$, nên $\alpha\approx53^\circ$.
+
+**Đáp số.** a) $10$ km/h; b) khoảng $53^\circ$.
 
 [ĐỀ – EN]
-The length and the width of a rectangle are both tripled. How does the area change?
-A. It is tripled.
-B. It is multiplied by 6.
-C. It is multiplied by 9.
-D. It is multiplied by 27.
+A boat moves at $6$ km/h relative to the water, pointing straight across a river whose current flows at $8$ km/h, perpendicular to the direction of the boat.
+
+a) What is its speed relative to the bank?
+b) By how many degrees does the boat's true path differ from the direction it points (rounded to the nearest degree)?
 
 [LỜI GIẢI CŨ – EN]
-The area is multiplied by $3^2=9$: answer **C**. Option D is the factor for volume.
+a) $|\vec{v}|=\sqrt{6^2+8^2}=\sqrt{100}=10$ (km/h).
+
+b) The side adjacent to the angle is $6$ (the heading) and the opposite side is $8$ (the current): $\tan\alpha=\dfrac86\approx1.333$, so $\alpha\approx53^\circ$.
+
+**Answer.** a) $10$ km/h; b) about $53^\circ$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Một chiếc hộp hình hộp chữ nhật dài 30 xăng-ti-mét, rộng 20 xăng-ti-mét và cao 10 xăng-ti-mét. Diện tích toàn phần của hộp là bao nhiêu?
+Hai lực, mỗi lực có độ lớn $20$ N, cùng tác dụng vào một điểm và hợp với nhau góc $120^\circ$. Tìm độ lớn của hợp lực.
 
 [LỜI GIẢI CŨ – VI]
-$2(600+300+200)=2.200$ xăng-ti-mét vuông.
+Vẽ $\overrightarrow{OA}$, $\overrightarrow{OB}$ biểu diễn hai lực và dựng hình thoi $OACB$. Hợp lực là $\overrightarrow{OC}$. Trong hình thoi, $\widehat{OAC}=180^\circ-120^\circ=60^\circ$ và $AO=AC=20$, nên tam giác $OAC$ đều, $OC=20$.
+
+**Đáp số.** $20$ N.
 
 [ĐỀ – EN]
-A box is a rectangular prism 30 centimeters long, 20 centimeters wide and 10 centimeters high. What is its total surface area?
+Two forces, each of magnitude $20$ N, act on the same point and make an angle of $120^\circ$. Find the magnitude of their resultant.
 
 [LỜI GIẢI CŨ – EN]
-$2(600+300+200)=2{,}200$ square centimeters.
+Draw $\overrightarrow{OA}$, $\overrightarrow{OB}$ for the two forces and complete the rhombus $OACB$. The resultant is $\overrightarrow{OC}$. In the rhombus, $\angle OAC=180^\circ-120^\circ=60^\circ$ and $AO=AC=20$, so triangle $OAC$ is equilateral and $OC=20$.
+
+**Answer.** $20$ N.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Một bể cá dài 60 xăng-ti-mét, rộng 40 xăng-ti-mét và cao 30 xăng-ti-mét. Bể chứa nước đến độ sâu 25 xăng-ti-mét. Trong bể có bao nhiêu lít nước? (1 lít = 1.000 xăng-ti-mét khối)
+Cho tam giác đều $ABC$ cạnh $6$ và $M$ là trung điểm của $BC$. Mỗi khẳng định sau đúng hay sai?
+
+a) $\overrightarrow{AB} - \overrightarrow{AC} = \overrightarrow{BC}$.
+b) $|\overrightarrow{AB} - \overrightarrow{AC}| = 6$.
+c) $\overrightarrow{MB} + \overrightarrow{MC} = \vec{0}$.
+d) $|\overrightarrow{AB} + \overrightarrow{AC}| = 6\sqrt3$.
 
 [LỜI GIẢI CŨ – VI]
-$60\cdot40\cdot25=60.000$ xăng-ti-mét khối, tức 60 lít.
+a) **Sai.** $\overrightarrow{AB} - \overrightarrow{AC} = \overrightarrow{CB}$, ngược hướng với $\overrightarrow{BC}$.
+
+b) **Đúng.** $|\overrightarrow{CB}|=BC=6$.
+
+c) **Đúng.** $M$ là trung điểm của $BC$.
+
+d) **Đúng.** Dựng hình thoi $ABDC$, ta có $\overrightarrow{AB} + \overrightarrow{AC}=\overrightarrow{AD}$ và $AD=2AM=2\cdot\dfrac{6\sqrt3}{2}=6\sqrt3$.
+
+**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Đúng.
 
 [ĐỀ – EN]
-An aquarium is 60 centimeters long, 40 centimeters wide and 30 centimeters high. It is filled with water to a depth of 25 centimeters. How many liters of water does it contain? (1 liter = 1,000 cubic centimeters)
+$ABC$ is an equilateral triangle of side $6$ and $M$ is the midpoint of $BC$. Is each claim true or false?
+
+a) $\overrightarrow{AB} - \overrightarrow{AC} = \overrightarrow{BC}$.
+b) $|\overrightarrow{AB} - \overrightarrow{AC}| = 6$.
+c) $\overrightarrow{MB} + \overrightarrow{MC} = \vec{0}$.
+d) $|\overrightarrow{AB} + \overrightarrow{AC}| = 6\sqrt3$.
 
 [LỜI GIẢI CŨ – EN]
-$60\cdot40\cdot25=60{,}000$ cubic centimeters, which is 60 liters.
+a) **False.** $\overrightarrow{AB} - \overrightarrow{AC} = \overrightarrow{CB}$, which points the opposite way to $\overrightarrow{BC}$.
 
-=== Bài 8 ===
+b) **True.** $|\overrightarrow{CB}|=BC=6$.
+
+c) **True.** $M$ is the midpoint of $BC$.
+
+d) **True.** With the rhombus $ABDC$, $\overrightarrow{AB} + \overrightarrow{AC}=\overrightarrow{AD}$ and $AD=2AM=2\cdot\dfrac{6\sqrt3}{2}=6\sqrt3$.
+
+**Answer.** a) False; b) True; c) True; d) True.
+
+=== Bài 10 ===
 [ĐỀ – VI]
-Một đường chạy hình vành khuyên có bán kính trong 30 mét và bán kính ngoài 35 mét. Diện tích đường chạy là bao nhiêu mét vuông, làm tròn đến hàng đơn vị?
+Chứng minh rằng với sáu điểm $A, B, C, D, E, F$ bất kì:
+$$\overrightarrow{AD} + \overrightarrow{BE} + \overrightarrow{CF} = \overrightarrow{AE} + \overrightarrow{BF} + \overrightarrow{CD}.$$
 
 [LỜI GIẢI CŨ – VI]
-$\pi(1.225-900)=325\pi\approx1.021$ mét vuông.
+$$\begin{aligned}
+&(\overrightarrow{AD}-\overrightarrow{AE}) + (\overrightarrow{BE}-\overrightarrow{BF}) + (\overrightarrow{CF}-\overrightarrow{CD})\\
+&= \overrightarrow{ED} + \overrightarrow{FE} + \overrightarrow{DF} = \overrightarrow{FE} + \overrightarrow{ED} + \overrightarrow{DF} = \overrightarrow{FF}=\vec{0}.
+\end{aligned}$$
+Hiệu hai vế bằng $\vec{0}$ nên hai vế bằng nhau.
+
+**Đáp số.** Đẳng thức đúng (đã chứng minh).
 
 [ĐỀ – EN]
-A circular track has an inner radius of 30 meters and an outer radius of 35 meters. What is the area of the track, to the nearest square meter?
+Prove that for any six points $A, B, C, D, E, F$:
+$$\overrightarrow{AD} + \overrightarrow{BE} + \overrightarrow{CF} = \overrightarrow{AE} + \overrightarrow{BF} + \overrightarrow{CD}.$$
 
 [LỜI GIẢI CŨ – EN]
-$\pi(1{,}225-900)=325\pi\approx1{,}021$ square meters.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Một hình cầu nằm vừa khít trong một hình lập phương có thể tích 64 xăng-ti-mét khối, tiếp xúc với cả sáu mặt. Hình cầu chiếm bao nhiêu phần thể tích của hình lập phương? Cho giá trị chính xác và giá trị thập phân làm tròn đến hàng phần trăm.
-
-[LỜI GIẢI CŨ – VI]
-Hình cầu có thể tích $\dfrac43\pi\cdot8=\dfrac{32\pi}{3}$. Tỉ số là $\dfrac{32\pi}{3\cdot64}=\dfrac{\pi}{6}\approx0{,}52$. Hình cầu luôn chiếm $\dfrac{\pi}{6}$ thể tích hình lập phương bao quanh nó, dù to hay nhỏ.
-
-[ĐỀ – EN]
-A sphere fits exactly inside a cube with volume 64 cubic centimeters, touching all six faces. What fraction of the cube's volume does the sphere fill? Give the exact value and a decimal rounded to the nearest hundredth.
-
-[LỜI GIẢI CŨ – EN]
-The sphere has volume $\dfrac43\pi\cdot8=\dfrac{32\pi}{3}$. The fraction is $\dfrac{32\pi}{3\cdot64}=\dfrac{\pi}{6}\approx0.52$. A sphere always fills $\dfrac{\pi}{6}$ of the cube around it, whatever its size.
-
-
-######################################################################
-@@@ exams/sat/sat-equivalent-expressions
-Bài học: Biểu thức tương đương và lũy thừa / Equivalent expressions and exponents
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Biểu thức nào tương đương với $\dfrac{(3a^2b)^3}{9ab^2}$, với $a$ và $b$ khác $0$?
-A. $a^5b$
-B. $3a^4b$
-C. $3a^5b$
-D. $9a^5b$
-
-[LỜI GIẢI CŨ – VI]
-$\dfrac{27a^6b^3}{9ab^2}=3a^5b$. Đáp án là **C**. Phương án A bỏ mất hệ số, còn phương án D chia $27$ cho $3$ thay vì cho $9$.
-
-[ĐỀ – EN]
-Which expression is equivalent to $\dfrac{(3a^2b)^3}{9ab^2}$, where $a$ and $b$ are nonzero?
-A. $a^5b$
-B. $3a^4b$
-C. $3a^5b$
-D. $9a^5b$
-
-[LỜI GIẢI CŨ – EN]
-$\dfrac{27a^6b^3}{9ab^2}=3a^5b$. The answer is **C**. Option A drops the coefficient, and option D divides $27$ by $3$ instead of by $9$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Biểu thức nào sau đây là một nhân tử của $3x^2-10x-8$?
-A. $x+4$
-B. $3x-2$
-C. $3x+2$
-D. $x-2$
-
-[LỜI GIẢI CŨ – VI]
-$3x^2-12x+2x-8=3x(x-4)+2(x-4)=(3x+2)(x-4)$. Đáp án là **C**. Kiểm tra: tại $x=-\dfrac23$, $3\cdot\dfrac49+\dfrac{20}{3}-8=\dfrac43+\dfrac{20}3-8=0$.
-
-[ĐỀ – EN]
-Which of the following is a factor of $3x^2-10x-8$?
-A. $x+4$
-B. $3x-2$
-C. $3x+2$
-D. $x-2$
-
-[LỜI GIẢI CŨ – EN]
-$3x^2-12x+2x-8=3x(x-4)+2(x-4)=(3x+2)(x-4)$. The answer is **C**. Check: at $x=-\dfrac23$, $3\cdot\dfrac49+\dfrac{20}{3}-8=\dfrac43+\dfrac{20}3-8=0$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Trong đẳng thức $(2x+k)(x-4)=2x^2-5x-12$, $k$ là hằng số và đẳng thức đúng với mọi $x$. Giá trị của $k$ bằng bao nhiêu?
-
-[LỜI GIẢI CŨ – VI]
-$k-8=-5\iff k=3$, và hệ số tự do là $-4\cdot3=-12$, khớp với đề. Đáp số là $3$.
-
-[ĐỀ – EN]
-In the equation $(2x+k)(x-4)=2x^2-5x-12$, $k$ is a constant and the equation is true for all $x$. What is the value of $k$?
-
-[LỜI GIẢI CŨ – EN]
-$k-8=-5\iff k=3$, and the constant is $-4\cdot3=-12$, which matches. The answer is $3$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Với $x>0$, biểu thức nào tương đương với $x^{\frac23}\cdot x^{\frac13}\cdot\sqrt x$?
-A. $x^{\frac13}$
-B. $x\sqrt x$
-C. $x^2$
-D. $\sqrt[3]{x}$
-
-[LỜI GIẢI CŨ – VI]
-$\dfrac23+\dfrac13+\dfrac12=\dfrac32$, và $x^{\frac32}=x\cdot x^{\frac12}=x\sqrt x$. Đáp án là **B**.
-
-[ĐỀ – EN]
-For $x>0$, which expression is equivalent to $x^{\frac23}\cdot x^{\frac13}\cdot\sqrt x$?
-A. $x^{\frac13}$
-B. $x\sqrt x$
-C. $x^2$
-D. $\sqrt[3]{x}$
-
-[LỜI GIẢI CŨ – EN]
-$\dfrac23+\dfrac13+\dfrac12=\dfrac32$, and $x^{\frac32}=x\cdot x^{\frac12}=x\sqrt x$. The answer is **B**.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Diện tích hình thang là $A=\dfrac12h(b_1+b_2)$. Đẳng thức nào biểu diễn $h$ theo $A$, $b_1$ và $b_2$?
-A. $h=\dfrac{2A}{b_1+b_2}$
-B. $h=\dfrac{A}{2(b_1+b_2)}$
-C. $h=2A-(b_1+b_2)$
-D. $h=\dfrac{A(b_1+b_2)}{2}$
-
-[LỜI GIẢI CŨ – VI]
-$2A=h(b_1+b_2)\iff h=\dfrac{2A}{b_1+b_2}$. Đáp án là **A**.
-
-[ĐỀ – EN]
-The area of a trapezoid is $A=\dfrac12h(b_1+b_2)$. Which equation gives $h$ in terms of $A$, $b_1$ and $b_2$?
-A. $h=\dfrac{2A}{b_1+b_2}$
-B. $h=\dfrac{A}{2(b_1+b_2)}$
-C. $h=2A-(b_1+b_2)$
-D. $h=\dfrac{A(b_1+b_2)}{2}$
-
-[LỜI GIẢI CŨ – EN]
-$2A=h(b_1+b_2)\iff h=\dfrac{2A}{b_1+b_2}$. The answer is **A**.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Một khu vườn hình vuông có cạnh $x$ mét. Một lối đi rộng $2$ mét chạy vòng quanh bên ngoài khu vườn. Viết biểu thức rút gọn cho diện tích lối đi, tính bằng mét vuông. Diện tích đó bằng bao nhiêu khi $x=10$?
-
-[LỜI GIẢI CŨ – VI]
-$(x+4)^2-x^2=x^2+8x+16-x^2=8x+16$. Khi $x=10$, lối đi có diện tích $96$ mét vuông. Kiểm tra: $14^2-10^2=196-100=96$.
-
-[ĐỀ – EN]
-A square garden has side length $x$ meters. A path $2$ meters wide runs around the outside of the garden. Write a simplified expression for the area of the path, in square meters. What is the area when $x=10$?
-
-[LỜI GIẢI CŨ – EN]
-$(x+4)^2-x^2=x^2+8x+16-x^2=8x+16$. When $x=10$ the path has area $96$ square meters. Check: $14^2-10^2=196-100=96$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Nếu $x^2-y^2=48$ và $x+y=8$ thì giá trị của $x-y$ bằng bao nhiêu?
-
-[LỜI GIẢI CŨ – VI]
-$48=8(x-y)$, nên $x-y=6$. (Ở đây $x=7$, $y=1$.)
-
-[ĐỀ – EN]
-If $x^2-y^2=48$ and $x+y=8$, what is the value of $x-y$?
-
-[LỜI GIẢI CŨ – EN]
-$48=8(x-y)$, so $x-y=6$. (Here $x=7$, $y=1$.)
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Nếu $x+\dfrac1x=5$ thì giá trị của $x^2+\dfrac{1}{x^2}$ bằng bao nhiêu?
-
-[LỜI GIẢI CŨ – VI]
-$25=x^2+2+\dfrac1{x^2}$, nên $x^2+\dfrac1{x^2}=23$.
-
-[ĐỀ – EN]
-If $x+\dfrac1x=5$, what is the value of $x^2+\dfrac{1}{x^2}$?
-
-[LỜI GIẢI CŨ – EN]
-$25=x^2+2+\dfrac1{x^2}$, so $x^2+\dfrac1{x^2}=23$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Với mọi $x\ne2$, $\dfrac{3x^2-5x-2}{x-2}=ax+b$, trong đó $a$ và $b$ là các hằng số. Giá trị của $a+b$ bằng bao nhiêu?
-
-[LỜI GIẢI CŨ – VI]
-Hai số đó là $-6$ và $1$: $3x^2-6x+x-2=3x(x-2)+(x-2)=(3x+1)(x-2)$. Vậy biểu thức bằng $3x+1$, nên $a=3$, $b=1$ và $a+b=4$.
-
-[ĐỀ – EN]
-For all $x\ne2$, $\dfrac{3x^2-5x-2}{x-2}=ax+b$, where $a$ and $b$ are constants. What is the value of $a+b$?
-
-[LỜI GIẢI CŨ – EN]
-The numbers are $-6$ and $1$: $3x^2-6x+x-2=3x(x-2)+(x-2)=(3x+1)(x-2)$. So the expression equals $3x+1$, giving $a=3$, $b=1$ and $a+b=4$.
-
-
-######################################################################
-@@@ exams/sat/sat-exponential-functions
-Bài học: Hàm mũ: tăng trưởng và suy giảm / Exponential growth and decay
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Giá trị, tính bằng đô la, của một chiếc máy tính xách tay sau $t$ năm kể từ khi mua là $V(t)=900(0{,}92)^t$. Câu nào đúng?
-A. Giá trị giảm 92% mỗi năm.
-B. Giá trị giảm 8 đô la mỗi năm.
-C. Giá trị giảm 8% mỗi năm.
-D. Giá trị lúc mua là 828 đô la.
-
-[LỜI GIẢI CŨ – VI]
-Hệ số $0{,}92$ nghĩa là giảm $8\%$ mỗi năm: đáp án **C**. Giá trị lúc mua là $V(0)=900$ đô la; 828 đô la là giá trị sau một năm.
-
-[ĐỀ – EN]
-The value, in dollars, of a laptop $t$ years after it was bought is $V(t)=900(0.92)^t$. Which statement is true?
-A. The value decreases by 92% each year.
-B. The value decreases by 8 dollars each year.
-C. The value decreases by 8% each year.
-D. The value was 828 dollars when it was bought.
-
-[LỜI GIẢI CŨ – EN]
-The factor $0.92$ means a decrease of $8\%$ per year: answer **C**. The value when bought is $V(0)=900$ dollars; 828 dollars is the value after one year.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Mai gửi 2.000 đô la vào một tài khoản có lãi suất 5% mỗi năm, tính lãi kép mỗi năm một lần. Làm tròn đến đô la, sau 4 năm trong tài khoản có bao nhiêu tiền?
-
-[LỜI GIẢI CŨ – VI]
-$2.000\cdot(1{,}05)^4\approx2.431{,}01$, nên khoảng $2.431$ đô la. Khi nhập vào Bluebook, gõ `2431`.
-
-[ĐỀ – EN]
-Mai deposits 2,000 dollars in an account that earns 5% interest per year, compounded once a year. To the nearest dollar, how much is in the account after 4 years?
-
-[LỜI GIẢI CŨ – EN]
-$2{,}000(1.05)^4\approx2{,}431.01$, so about $2{,}431$ dollars.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-| $x$ | $0$ | $1$ | $2$ | $3$ |
-|---|---|---|---|---|
-| $f(x)$ | $162$ | $54$ | $18$ | $6$ |
-
-Hàm số $f$ là hàm mũ. Giá trị của $f(4)$ bằng bao nhiêu?
-
-[LỜI GIẢI CŨ – VI]
-Mỗi giá trị bằng $\dfrac13$ giá trị trước, nên $f(4)=6\cdot\dfrac13=2$.
-
-[ĐỀ – EN]
-| $x$ | $0$ | $1$ | $2$ | $3$ |
-|---|---|---|---|---|
-| $f(x)$ | $162$ | $54$ | $18$ | $6$ |
-
-The function $f$ is exponential. What is the value of $f(4)$?
-
-[LỜI GIẢI CŨ – EN]
-Each value is $\dfrac13$ of the previous one, so $f(4)=6\cdot\dfrac13=2$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Một mẻ nuôi cấy bắt đầu với 400 vi khuẩn, và số vi khuẩn nhân đôi sau mỗi 3 giờ. Sau 12 giờ có bao nhiêu vi khuẩn?
-
-[LỜI GIẢI CŨ – VI]
-$400\cdot2^4=400\cdot16=6.400$ vi khuẩn.
-
-[ĐỀ – EN]
-A culture starts with 400 bacteria, and the number doubles every 3 hours. How many bacteria are there after 12 hours?
-
-[LỜI GIẢI CŨ – EN]
-$400\cdot2^4=400\cdot16=6{,}400$ bacteria.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Hàm số nào sau đây mô tả sự suy giảm theo hàm mũ?
-A. $y=3(1{,}2)^x$
-B. $y=0{,}8x+3$
-C. $y=3(0{,}8)^x$
-D. $y=3x^{0{,}8}$
-
-[LỜI GIẢI CŨ – VI]
-B là hàm bậc nhất và D là hàm lũy thừa. A có $b=1{,}2>1$, là tăng trưởng. C có $b=0{,}8<1$: đáp án **C**.
-
-[ĐỀ – EN]
-Which of the following functions models exponential decay?
-A. $y=3(1.2)^x$
-B. $y=0.8x+3$
-C. $y=3(0.8)^x$
-D. $y=3x^{0.8}$
-
-[LỜI GIẢI CŨ – EN]
-B is linear and D is a power function. A has $b=1.2>1$, which is growth. C has $b=0.8<1$: answer **C**.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Giá một chiếc vé tăng 10% trong một năm và lại tăng 10% vào năm sau. Sau hai năm, giá vé tăng bao nhiêu phần trăm?
-
-[LỜI GIẢI CŨ – VI]
-$1{,}1^2=1{,}21$, nên giá vé tăng tổng cộng $21\%$, không phải $20\%$. Ví dụ, 100 đô la thành 110 đô la, rồi thành 121 đô la.
-
-[ĐỀ – EN]
-The price of a ticket increases by 10% one year and by 10% again the next year. By what percent did the price increase over the two years?
-
-[LỜI GIẢI CŨ – EN]
-$1.1^2=1.21$, so the price increased by $21\%$ in total, not $20\%$. For example, 100 dollars becomes 110 dollars, then 121 dollars.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Phương án A trả 1.000 đô la cộng 100 đô la cho mỗi tháng làm việc. Phương án B trả $10\cdot2^m$ đô la sau $m$ tháng. Sau bao nhiêu tháng tròn thì phương án B lần đầu trả nhiều hơn phương án A?
-
-[LỜI GIẢI CŨ – VI]
-| $m$ | $6$ | $7$ | $8$ |
-|---|---|---|---|
-| Phương án A | $1.600$ | $1.700$ | $1.800$ |
-| Phương án B | $640$ | $1.280$ | $2.560$ |
-
-Phương án B lần đầu trả nhiều hơn sau $8$ tháng. Tăng trưởng hàm mũ khởi đầu chậm nhưng rồi sẽ vượt mọi tăng trưởng bậc nhất.
-
-[ĐỀ – EN]
-Plan A pays 1,000 dollars plus 100 dollars for each month worked. Plan B pays $10\cdot2^m$ dollars after $m$ months. After how many whole months does plan B first pay more than plan A?
-
-[LỜI GIẢI CŨ – EN]
-| $m$ | $6$ | $7$ | $8$ |
-|---|---|---|---|
-| Plan A | $1{,}600$ | $1{,}700$ | $1{,}800$ |
-| Plan B | $640$ | $1{,}280$ | $2{,}560$ |
-
-Plan B first pays more after $8$ months. Exponential growth starts slowly but eventually overtakes any linear growth.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Một quần thể tuân theo $f(t)=a\cdot b^t$, với $t$ tính bằng năm. Tại $t=0$ có 500 con và tại $t=2$ có 720 con. Mô hình dự đoán tại $t=5$ có bao nhiêu con? Làm tròn đến hàng đơn vị.
-
-[LỜI GIẢI CŨ – VI]
-$a=500$ và $b^2=1{,}44$, nên $b=1{,}2$ (hệ số tăng trưởng dương). Khi đó $f(5)=500(1{,}2)^5=1.244{,}16$, khoảng $1.244$ con.
-
-[ĐỀ – EN]
-A population follows $f(t)=a\cdot b^t$, where $t$ is in years. At $t=0$ there are 500 animals and at $t=2$ there are 720. How many animals does the model predict at $t=5$? Round to the nearest whole number.
-
-[LỜI GIẢI CŨ – EN]
-$a=500$ and $b^2=1.44$, so $b=1.2$ (a growth factor is positive). Then $f(5)=500(1.2)^5=1{,}244.16$, about $1{,}244$ animals.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Một bệnh nhân được dùng 200 mi-li-gam thuốc. Mỗi giờ, cơ thể đào thải 20% lượng thuốc có ở đầu giờ đó. Sau bao nhiêu giờ tròn thì lượng thuốc lần đầu ít hơn 50 mi-li-gam?
-
-[LỜI GIẢI CŨ – VI]
-$200(0{,}8)^6\approx52{,}4$ mi-li-gam, vẫn trên 50; $200(0{,}8)^7\approx41{,}9$ mi-li-gam. Lượng thuốc lần đầu xuống dưới 50 mi-li-gam sau $7$ giờ.
-
-[ĐỀ – EN]
-A patient is given 200 milligrams of a medicine. Each hour, the body removes 20% of the amount present at the start of that hour. After how many whole hours is the amount first less than 50 milligrams?
-
-[LỜI GIẢI CŨ – EN]
-$200(0.8)^6\approx52.4$ milligrams, still above 50; $200(0.8)^7\approx41.9$ milligrams. The amount first falls below 50 milligrams after $7$ hours.
+$$\begin{aligned}
+&(\overrightarrow{AD}-\overrightarrow{AE}) + (\overrightarrow{BE}-\overrightarrow{BF}) + (\overrightarrow{CF}-\overrightarrow{CD})\\
+&= \overrightarrow{ED} + \overrightarrow{FE} + \overrightarrow{DF} = \overrightarrow{FE} + \overrightarrow{ED} + \overrightarrow{DF} = \overrightarrow{FF}=\vec{0}.
+\end{aligned}$$
+The difference of the two sides is $\vec{0}$, so the two sides are equal.
+
+**Answer.** The identity holds (proved).
 
 
 ===== HẾT FILE Lemonmath112-12-LG =====

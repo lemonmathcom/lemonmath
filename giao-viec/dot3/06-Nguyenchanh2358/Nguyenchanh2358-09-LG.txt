@@ -6,7 +6,7 @@ Kết quả: file Nguyenchanh2358-09-LG-ketqua.md, lưu vào Dropbox Lemonmath.c
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Nguyenchanh2358-09-LG
-Người làm: tài khoản Nguyenchanh2358. Gói này có 9 bài tập thuộc 1 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Nguyenchanh2358. Gói này có 45 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Nguyenchanh2358-09-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/1). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Nguyenchanh2358-09-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,168 +189,1004 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g8/triangle-similarity-conditions (9 bài tập)
+- g5/measures-as-decimals (10 bài tập)
+- g5/mixed-numbers (9 bài tập)
+- g5/multiplying-decimals (9 bài tập)
+- g5/multiplying-dividing-times (8 bài tập)
+- g5/nets-of-solids (9 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g8/triangle-similarity-conditions
-Bài học: Ba trường hợp đồng dạng của hai tam giác / The three similarity conditions for triangles
+@@@ g5/measures-as-decimals
+Bài học: Viết số đo đại lượng dưới dạng số thập phân. Làm tròn số thập phân / Writing measurements as decimals. Rounding decimals
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết số đo dưới dạng số thập phân có đơn vị là mét: a) $4$ m $8$ dm; b) $6$ m $25$ cm; c) $85$ cm; d) $3$ m $4$ cm.
+
+[LỜI GIẢI CŨ – VI]
+a) $8$ dm $=0{,}8$ m, nên $4$ m $8$ dm $=4{,}8$ m.
+
+b) $25$ cm $=0{,}25$ m, nên $6$ m $25$ cm $=6{,}25$ m.
+
+c) $85$ cm $=0{,}85$ m.
+
+d) $4$ cm $=0{,}04$ m, nên $3$ m $4$ cm $=3{,}04$ m.
+
+**Đáp số.** a) $4{,}8$ m; b) $6{,}25$ m; c) $0{,}85$ m; d) $3{,}04$ m.
+
+[ĐỀ – EN]
+Write these measurements as decimals in metres: a) $4$ m $8$ dm; b) $6$ m $25$ cm; c) $85$ cm; d) $3$ m $4$ cm.
+
+[LỜI GIẢI CŨ – EN]
+a) $8$ dm $=0.8$ m, so $4$ m $8$ dm $=4.8$ m.
+
+b) $25$ cm $=0.25$ m, so $6$ m $25$ cm $=6.25$ m.
+
+c) $85$ cm $=0.85$ m.
+
+d) $4$ cm $=0.04$ m, so $3$ m $4$ cm $=3.04$ m.
+
+**Answer.** a) $4.8$ m; b) $6.25$ m; c) $0.85$ m; d) $3.04$ m.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết số đo dưới dạng số thập phân có đơn vị là ki-lô-gam: a) $3$ kg $500$ g; b) $2$ kg $75$ g; c) $400$ g; d) $1$ kg $8$ g.
+
+[LỜI GIẢI CŨ – VI]
+a) $500$ g $=0{,}500$ kg $=0{,}5$ kg, nên $3$ kg $500$ g $=3{,}5$ kg.
+
+b) $75$ g $=0{,}075$ kg, nên $2$ kg $75$ g $=2{,}075$ kg.
+
+c) $400$ g $=0{,}400$ kg $=0{,}4$ kg.
+
+d) $8$ g $=0{,}008$ kg, nên $1$ kg $8$ g $=1{,}008$ kg.
+
+**Đáp số.** a) $3{,}5$ kg; b) $2{,}075$ kg; c) $0{,}4$ kg; d) $1{,}008$ kg.
+
+[ĐỀ – EN]
+Write these measurements as decimals in kilograms: a) $3$ kg $500$ g; b) $2$ kg $75$ g; c) $400$ g; d) $1$ kg $8$ g.
+
+[LỜI GIẢI CŨ – EN]
+a) $500$ g $=0.500$ kg $=0.5$ kg, so $3$ kg $500$ g $=3.5$ kg.
+
+b) $75$ g $=0.075$ kg, so $2$ kg $75$ g $=2.075$ kg.
+
+c) $400$ g $=0.400$ kg $=0.4$ kg.
+
+d) $8$ g $=0.008$ kg, so $1$ kg $8$ g $=1.008$ kg.
+
+**Answer.** a) $3.5$ kg; b) $2.075$ kg; c) $0.4$ kg; d) $1.008$ kg.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Đổi sang đơn vị bé hơn: a) $2{,}5$ km $=?$ m; b) $0{,}75$ kg $=?$ g; c) $3{,}2$ tấn $=?$ kg; d) $4{,}05$ m $=?$ cm.
+
+[LỜI GIẢI CŨ – VI]
+a) $2{,}5\ \text{km}=2\ \text{km}+\dfrac{500}{1000}\ \text{km}=2000+500=2500$ m.
+
+b) $0{,}75\ \text{kg}=\dfrac{750}{1000}\ \text{kg}=750$ g.
+
+c) $3{,}2$ tấn $=3$ tấn $+\dfrac{200}{1000}$ tấn $=3000+200=3200$ kg.
+
+d) $4{,}05\ \text{m}=4\ \text{m}+\dfrac{5}{100}\ \text{m}=400+5=405$ cm.
+
+**Đáp số.** a) $2500$ m; b) $750$ g; c) $3200$ kg; d) $405$ cm.
+
+[ĐỀ – EN]
+Change to a smaller unit: a) $2.5$ km $=?$ m; b) $0.75$ kg $=?$ g; c) $3.2$ tonnes $=?$ kg; d) $4.05$ m $=?$ cm.
+
+[LỜI GIẢI CŨ – EN]
+a) $2.5\ \text{km}=2\ \text{km}+\dfrac{500}{1000}\ \text{km}=2000+500=2500$ m.
+
+b) $0.75\ \text{kg}=\dfrac{750}{1000}\ \text{kg}=750$ g.
+
+c) $3.2$ tonnes $=3$ tonnes $+\dfrac{200}{1000}$ tonne $=3000+200=3200$ kg.
+
+d) $4.05\ \text{m}=4\ \text{m}+\dfrac{5}{100}\ \text{m}=400+5=405$ cm.
+
+**Answer.** a) $2500$ m; b) $750$ g; c) $3200$ kg; d) $405$ cm.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Viết số đo diện tích: a) $7\ \text{m}^2\ 40\ \text{dm}^2$ thành số thập phân có đơn vị $\text{m}^2$; b) $2\ \text{m}^2\ 5\ \text{dm}^2$ thành số thập phân có đơn vị $\text{m}^2$; c) $6{,}3\ \text{m}^2$ thành số đo có hai đơn vị.
+
+[LỜI GIẢI CŨ – VI]
+a) $40\ \text{dm}^2=0{,}4\ \text{m}^2$, nên $7\ \text{m}^2\ 40\ \text{dm}^2=7{,}4\ \text{m}^2$.
+
+b) $5\ \text{dm}^2=0{,}05\ \text{m}^2$, nên $2\ \text{m}^2\ 5\ \text{dm}^2=2{,}05\ \text{m}^2$.
+
+c) $6{,}3=6+0{,}30$, nên $6{,}3\ \text{m}^2=6\ \text{m}^2\ 30\ \text{dm}^2$.
+
+**Đáp số.** a) $7{,}4\ \text{m}^2$; b) $2{,}05\ \text{m}^2$; c) $6\ \text{m}^2\ 30\ \text{dm}^2$.
+
+[ĐỀ – EN]
+Write these measurements of area: a) $7\ \text{m}^2\ 40\ \text{dm}^2$ as a decimal in $\text{m}^2$; b) $2\ \text{m}^2\ 5\ \text{dm}^2$ as a decimal in $\text{m}^2$; c) $6.3\ \text{m}^2$ as a measurement with two units.
+
+[LỜI GIẢI CŨ – EN]
+a) $40\ \text{dm}^2=0.4\ \text{m}^2$, so $7\ \text{m}^2\ 40\ \text{dm}^2=7.4\ \text{m}^2$.
+
+b) $5\ \text{dm}^2=0.05\ \text{m}^2$, so $2\ \text{m}^2\ 5\ \text{dm}^2=2.05\ \text{m}^2$.
+
+c) $6.3=6+0.30$, so $6.3\ \text{m}^2=6\ \text{m}^2\ 30\ \text{dm}^2$.
+
+**Answer.** a) $7.4\ \text{m}^2$; b) $2.05\ \text{m}^2$; c) $6\ \text{m}^2\ 30\ \text{dm}^2$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$, $=$ vào chỗ chấm: a) $4\ \text{kg}\ 600\ \text{g}\ \ldots\ 4{,}06\ \text{kg}$; b) $2\ \text{m}\ 30\ \text{cm}\ \ldots\ 2{,}3\ \text{m}$; c) $750\ \text{g}\ \ldots\ 0{,}8\ \text{kg}$.
+
+[LỜI GIẢI CŨ – VI]
+a) $4\ \text{kg}\ 600\ \text{g}=4{,}6\ \text{kg}$. Vì $4{,}6>4{,}06$ nên điền dấu $>$.
+
+b) $2\ \text{m}\ 30\ \text{cm}=2{,}3\ \text{m}$, nên điền dấu $=$.
+
+c) $750\ \text{g}=0{,}75\ \text{kg}$. Vì $0{,}75<0{,}80$ nên điền dấu $<$.
+
+**Đáp số.** a) $>$; b) $=$; c) $<$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the gap: a) $4\ \text{kg}\ 600\ \text{g}\ \ldots\ 4.06\ \text{kg}$; b) $2\ \text{m}\ 30\ \text{cm}\ \ldots\ 2.3\ \text{m}$; c) $750\ \text{g}\ \ldots\ 0.8\ \text{kg}$.
+
+[LỜI GIẢI CŨ – EN]
+a) $4\ \text{kg}\ 600\ \text{g}=4.6\ \text{kg}$. Since $4.6>4.06$, write $>$.
+
+b) $2\ \text{m}\ 30\ \text{cm}=2.3\ \text{m}$, so write $=$.
+
+c) $750\ \text{g}=0.75\ \text{kg}$. Since $0.75<0.80$, write $<$.
+
+**Answer.** a) $>$; b) $=$; c) $<$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Làm tròn đến số tự nhiên: a) $6{,}49$; b) $15{,}5$; c) $0{,}6$; d) $99{,}5$.
+
+[LỜI GIẢI CŨ – VI]
+a) Chữ số hàng phần mười là $4<5$, nên $6{,}49\approx6$.
+
+b) Chữ số hàng phần mười là $5$, nên $15{,}5\approx16$.
+
+c) Chữ số hàng phần mười là $6>5$, nên $0{,}6\approx1$.
+
+d) Chữ số hàng phần mười là $5$, nên $99{,}5\approx100$.
+
+**Đáp số.** a) $6$; b) $16$; c) $1$; d) $100$.
+
+[ĐỀ – EN]
+Round to the nearest whole number: a) $6.49$; b) $15.5$; c) $0.6$; d) $99.5$.
+
+[LỜI GIẢI CŨ – EN]
+a) The tenths digit is $4<5$, so $6.49\approx6$.
+
+b) The tenths digit is $5$, so $15.5\approx16$.
+
+c) The tenths digit is $6>5$, so $0.6\approx1$.
+
+d) The tenths digit is $5$, so $99.5\approx100$.
+
+**Answer.** a) $6$; b) $16$; c) $1$; d) $100$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Làm tròn đến hàng phần mười: a) $3{,}14$; b) $8{,}96$; c) $0{,}449$.
+
+[LỜI GIẢI CŨ – VI]
+a) Chữ số hàng phần trăm là $4<5$, nên $3{,}14\approx3{,}1$.
+
+b) Chữ số hàng phần trăm là $6>5$, nên $8{,}9+0{,}1=9{,}0$, tức là $8{,}96\approx9{,}0$.
+
+c) Chữ số hàng phần trăm là $4<5$, nên $0{,}449\approx0{,}4$.
+
+**Đáp số.** a) $3{,}1$; b) $9{,}0$; c) $0{,}4$.
+
+[ĐỀ – EN]
+Round to one decimal place: a) $3.14$; b) $8.96$; c) $0.449$.
+
+[LỜI GIẢI CŨ – EN]
+a) The hundredths digit is $4<5$, so $3.14\approx3.1$.
+
+b) The hundredths digit is $6>5$, so $8.9+0.1=9.0$, that is, $8.96\approx9.0$.
+
+c) The hundredths digit is $4<5$, so $0.449\approx0.4$.
+
+**Answer.** a) $3.1$; b) $9.0$; c) $0.4$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Giả sử một chiếc cân điện tử hiển thị $12{,}348$ kg. Hãy làm tròn khối lượng đó đến hàng phần mười và đến hàng phần trăm.
+
+[LỜI GIẢI CŨ – VI]
+Đến hàng phần mười: chữ số hàng phần trăm là $4<5$, nên $12{,}348\approx12{,}3$ kg.
+
+Đến hàng phần trăm: chữ số hàng phần nghìn là $8>5$, nên $12{,}348\approx12{,}35$ kg.
+
+**Đáp số.** $12{,}3$ kg và $12{,}35$ kg.
+
+[ĐỀ – EN]
+Suppose a digital scale shows $12.348$ kg. Round this mass to one decimal place and to two decimal places.
+
+[LỜI GIẢI CŨ – EN]
+To one decimal place: the hundredths digit is $4<5$, so $12.348\approx12.3$ kg.
+
+To two decimal places: the thousandths digit is $8>5$, so $12.348\approx12.35$ kg.
+
+**Answer.** $12.3$ kg and $12.35$ kg.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài so sánh các số thập phân. Trong buổi thi nhảy xa, Mai nhảy được $2{,}15$ m, Lan nhảy được $2$ m $18$ cm và Hà nhảy được $205$ cm. Hỏi bạn nào nhảy xa nhất? Sắp xếp các bạn từ xa nhất đến gần nhất.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $2$ m $18$ cm $=2{,}18$ m và $205$ cm $=2$ m $5$ cm $=2{,}05$ m. Ba số đo là $2{,}15$ m; $2{,}18$ m; $2{,}05$ m.
+
+Vì $2{,}18>2{,}15>2{,}05$ nên Lan nhảy xa nhất, rồi đến Mai, rồi đến Hà.
+
+**Đáp số.** Lan nhảy xa nhất; thứ tự: Lan, Mai, Hà.
+
+[ĐỀ – EN]
+Remember the lesson on comparing decimals. In a long jump competition, Mai jumps $2.15$ m, Lan jumps $2$ m $18$ cm and Ha jumps $205$ cm. Who jumps the furthest? Put the friends in order from the furthest to the shortest.
+
+[LỜI GIẢI CŨ – EN]
+We have $2$ m $18$ cm $=2.18$ m and $205$ cm $=2$ m $5$ cm $=2.05$ m. The three measurements are $2.15$ m; $2.18$ m; $2.05$ m.
+
+Since $2.18>2.15>2.05$, Lan jumps the furthest, then Mai, then Ha.
+
+**Answer.** Lan jumps the furthest; order: Lan, Mai, Ha.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một số thập phân có hai chữ số ở phần thập phân, khi làm tròn đến hàng phần mười thì được $4{,}5$. Tìm số bé nhất và số lớn nhất có thể có.
+
+[LỜI GIẢI CŨ – VI]
+Số bé nhất có dạng $4{,}4a$ với $a\ge5$, nên là $4{,}45$. Số lớn nhất có dạng $4{,}5b$ với $b<5$, nên là $4{,}54$.
+
+Kiểm tra: $4{,}45\approx4{,}5$ (vì chữ số hàng phần trăm là $5$) và $4{,}54\approx4{,}5$ (vì chữ số hàng phần trăm là $4$).
+
+**Đáp số.** Số bé nhất là $4{,}45$; số lớn nhất là $4{,}54$.
+
+[ĐỀ – EN]
+A decimal with two digits in the decimal part rounds to $4.5$ when rounded to one decimal place. Find the least and the greatest number it could be.
+
+[LỜI GIẢI CŨ – EN]
+The least number has the form $4.4a$ with $a\ge5$, so it is $4.45$. The greatest number has the form $4.5b$ with $b<5$, so it is $4.54$.
+
+Check: $4.45\approx4.5$ (the hundredths digit is $5$) and $4.54\approx4.5$ (the hundredths digit is $4$).
+
+**Answer.** The least is $4.45$; the greatest is $4.54$.
+
+
+######################################################################
+@@@ g5/mixed-numbers
+Bài học: Hỗn số / Mixed numbers
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Cho $\triangle ABC$ có các cạnh $5$, $12$, $13$ và $\triangle DEF$ có các cạnh $10$, $24$, $26$. Hai tam giác có đồng dạng không? Nêu tỉ số.
+Đổi các hỗn số sau thành phân số: a) $2\dfrac{1}{5}$; b) $6\dfrac{3}{4}$.
 
 [LỜI GIẢI CŨ – VI]
-Ta có $\dfrac{10}{5}=\dfrac{24}{12}=\dfrac{26}{13}=2$. Ba tỉ số bằng nhau nên hai tam giác đồng dạng (c.c.c) với tỉ số $2$.
+a) $2\dfrac{1}{5}=\dfrac{2\times5+1}{5}=\dfrac{11}{5}$.
 
-**Đáp số.** Đồng dạng, tỉ số $2$.
+b) $6\dfrac{3}{4}=\dfrac{6\times4+3}{4}=\dfrac{27}{4}$.
+
+**Đáp số.** a) $\dfrac{11}{5}$; b) $\dfrac{27}{4}$.
 
 [ĐỀ – EN]
-Triangle $ABC$ has sides $5$, $12$, $13$ and triangle $DEF$ has sides $10$, $24$, $26$. Are the triangles similar? State the scale factor.
+Change these mixed numbers into fractions: a) $2\dfrac{1}{5}$; b) $6\dfrac{3}{4}$.
 
 [LỜI GIẢI CŨ – EN]
-We have $\dfrac{10}{5}=\dfrac{24}{12}=\dfrac{26}{13}=2$. The three ratios are equal, so the triangles are similar (SSS) with scale factor $2$.
+a) $2\dfrac{1}{5}=\dfrac{2\times5+1}{5}=\dfrac{11}{5}$.
 
-**Answer.** Similar, scale factor $2$.
+b) $6\dfrac{3}{4}=\dfrac{6\times4+3}{4}=\dfrac{27}{4}$.
+
+**Answer.** a) $\dfrac{11}{5}$; b) $\dfrac{27}{4}$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Hai tam giác có các cạnh $3$, $5$, $7$ và $6$, $10$, $15$ có đồng dạng không?
+Đổi các phân số sau thành hỗn số: a) $\dfrac{7}{2}$; b) $\dfrac{29}{8}$.
 
 [LỜI GIẢI CŨ – VI]
-Ta có $\dfrac63=2$, $\dfrac{10}{5}=2$ nhưng $\dfrac{15}{7}\neq2$. Ba tỉ số không bằng nhau nên hai tam giác không đồng dạng.
+a) $7:2=3$ (dư $1$), nên $\dfrac{7}{2}=3\dfrac{1}{2}$.
 
-**Đáp số.** Không đồng dạng.
+b) $29:8=3$ (dư $5$), nên $\dfrac{29}{8}=3\dfrac{5}{8}$.
+
+**Đáp số.** a) $3\dfrac{1}{2}$; b) $3\dfrac{5}{8}$.
 
 [ĐỀ – EN]
-Are two triangles with sides $3$, $5$, $7$ and $6$, $10$, $15$ similar?
+Change these fractions into mixed numbers: a) $\dfrac{7}{2}$; b) $\dfrac{29}{8}$.
 
 [LỜI GIẢI CŨ – EN]
-We have $\dfrac63=2$, $\dfrac{10}{5}=2$ but $\dfrac{15}{7}\neq2$. The three ratios are not equal, so the triangles are not similar.
+a) $7\div2=3$ remainder $1$, so $\dfrac{7}{2}=3\dfrac{1}{2}$.
 
-**Answer.** Not similar.
+b) $29\div8=3$ remainder $5$, so $\dfrac{29}{8}=3\dfrac{5}{8}$.
+
+**Answer.** a) $3\dfrac{1}{2}$; b) $3\dfrac{5}{8}$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Cho $\triangle ABC$ có $AB=4$, $AC=6$, $\widehat A=60^\circ$ và $\triangle A'B'C'$ có $A'B'=6$, $A'C'=9$, $\widehat{A'}=60^\circ$. Chứng minh hai tam giác đồng dạng. Nếu $BC=5$, tính $B'C'$.
+So sánh: $3\dfrac{2}{3}$ và $3\dfrac{5}{8}$.
 
 [LỜI GIẢI CŨ – VI]
-Ta có $\dfrac{6}{4}=\dfrac{9}{6}=\dfrac32$ và góc xen giữa $\widehat{A'}=\widehat A=60^\circ$. Theo c.g.c, $\triangle A'B'C'\sim\triangle ABC$ với tỉ số $\dfrac32$. Do đó $B'C'=\dfrac32\cdot5=7{,}5$.
+Hai hỗn số có cùng phần nguyên là $3$. Quy đồng: $\dfrac{2}{3}=\dfrac{16}{24}$ và $\dfrac{5}{8}=\dfrac{15}{24}$. Vì $16>15$ nên $\dfrac{2}{3}>\dfrac{5}{8}$.
 
-**Đáp số.** Đồng dạng; $B'C'=7{,}5$.
+**Đáp số.** $3\dfrac{2}{3}>3\dfrac{5}{8}$.
 
 [ĐỀ – EN]
-Triangle $ABC$ has $AB=4$, $AC=6$, $\angle A=60^\circ$ and triangle $A'B'C'$ has $A'B'=6$, $A'C'=9$, $\angle A'=60^\circ$. Prove that the triangles are similar. If $BC=5$, find $B'C'$.
+Compare $3\dfrac{2}{3}$ and $3\dfrac{5}{8}$.
 
 [LỜI GIẢI CŨ – EN]
-We have $\dfrac{6}{4}=\dfrac{9}{6}=\dfrac32$ and the included angle $\angle A'=\angle A=60^\circ$. By SAS, $\triangle A'B'C'\sim\triangle ABC$ with scale factor $\dfrac32$. Hence $B'C'=\dfrac32\cdot5=7.5$.
+The whole-number parts are both $3$. Over a common denominator: $\dfrac{2}{3}=\dfrac{16}{24}$ and $\dfrac{5}{8}=\dfrac{15}{24}$. Since $16>15$, we have $\dfrac{2}{3}>\dfrac{5}{8}$.
 
-**Answer.** Similar; $B'C'=7.5$.
+**Answer.** $3\dfrac{2}{3}>3\dfrac{5}{8}$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Cho $\triangle ABC$ có $\widehat A=50^\circ$, $\widehat B=70^\circ$ và $\triangle MNP$ có $\widehat M=50^\circ$, $\widehat P=60^\circ$. Chứng minh hai tam giác đồng dạng và viết đúng thứ tự đỉnh.
+Tính: $2\dfrac{1}{3}+1\dfrac{1}{6}$.
 
 [LỜI GIẢI CŨ – VI]
-Trong $\triangle ABC$: $\widehat C=180^\circ-50^\circ-70^\circ=60^\circ$. Trong $\triangle MNP$: $\widehat N=180^\circ-50^\circ-60^\circ=70^\circ$. Ta có $\widehat A=\widehat M$, $\widehat B=\widehat N$, $\widehat C=\widehat P$. Theo g.g, $\triangle ABC\sim\triangle MNP$.
+$$2\dfrac{1}{3}+1\dfrac{1}{6}=3+\left(\dfrac{2}{6}+\dfrac{1}{6}\right)=3+\dfrac{3}{6}=3\dfrac{1}{2}.$$
 
-**Đáp số.** $\triangle ABC\sim\triangle MNP$ (g.g).
+**Đáp số.** $3\dfrac{1}{2}$.
 
 [ĐỀ – EN]
-Triangle $ABC$ has $\angle A=50^\circ$, $\angle B=70^\circ$ and triangle $MNP$ has $\angle M=50^\circ$, $\angle P=60^\circ$. Prove that the triangles are similar and write the vertices in the correct order.
+Work out: $2\dfrac{1}{3}+1\dfrac{1}{6}$.
 
 [LỜI GIẢI CŨ – EN]
-In $\triangle ABC$: $\angle C=180^\circ-50^\circ-70^\circ=60^\circ$. In $\triangle MNP$: $\angle N=180^\circ-50^\circ-60^\circ=70^\circ$. We have $\angle A=\angle M$, $\angle B=\angle N$, $\angle C=\angle P$. By AA, $\triangle ABC\sim\triangle MNP$.
+$$2\dfrac{1}{3}+1\dfrac{1}{6}=3+\left(\dfrac{2}{6}+\dfrac{1}{6}\right)=3+\dfrac{3}{6}=3\dfrac{1}{2}.$$
 
-**Answer.** $\triangle ABC\sim\triangle MNP$ (AA).
+**Answer.** $3\dfrac{1}{2}$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Tam giác $ABC$ vuông tại $A$ có $AB=3$, $AC=4$; tam giác $DEF$ vuông tại $D$ có $DE=6$, $DF=8$. Chứng minh hai tam giác đồng dạng và tính $EF$.
+Tính: $4\dfrac{1}{2}-1\dfrac{3}{4}$.
 
 [LỜI GIẢI CŨ – VI]
-Ta có $\dfrac63=\dfrac84=2$ và hai góc vuông xen giữa bằng nhau, nên $\triangle DEF\sim\triangle ABC$ (c.g.c) với tỉ số $2$. Theo định lí Pythagore, $BC=5$. Do đó $EF=2\cdot5=10$.
+$$4\dfrac{1}{2}-1\dfrac{3}{4}=\dfrac{9}{2}-\dfrac{7}{4}=\dfrac{18}{4}-\dfrac{7}{4}=\dfrac{11}{4}=2\dfrac{3}{4}.$$
 
-**Đáp số.** Đồng dạng, $EF=10$.
+**Đáp số.** $2\dfrac{3}{4}$.
 
 [ĐỀ – EN]
-Triangle $ABC$ is right-angled at $A$ with $AB=3$, $AC=4$; triangle $DEF$ is right-angled at $D$ with $DE=6$, $DF=8$. Prove that the triangles are similar and find $EF$.
+Work out: $4\dfrac{1}{2}-1\dfrac{3}{4}$.
 
 [LỜI GIẢI CŨ – EN]
-We have $\dfrac63=\dfrac84=2$ and the two right angles (included) are equal, so $\triangle DEF\sim\triangle ABC$ (SAS) with scale factor $2$. By Pythagoras' theorem, $BC=5$. Hence $EF=2\cdot5=10$.
+$$4\dfrac{1}{2}-1\dfrac{3}{4}=\dfrac{9}{2}-\dfrac{7}{4}=\dfrac{18}{4}-\dfrac{7}{4}=\dfrac{11}{4}=2\dfrac{3}{4}.$$
 
-**Answer.** Similar, $EF=10$.
+**Answer.** $2\dfrac{3}{4}$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Cho $\triangle ABC$, điểm $D$ trên cạnh $AC$ sao cho $\widehat{ABD}=\widehat{ACB}$. Biết $AB=10$, $AD=5$. Tính $AC$ và $DC$.
+Sáng nay Nam chạy bộ $1\dfrac{1}{2}$ km, chiều chạy thêm $2\dfrac{1}{4}$ km. Hỏi cả ngày Nam chạy bộ bao nhiêu ki-lô-mét?
 
 [LỜI GIẢI CŨ – VI]
-Hai tam giác $ABD$ và $ACB$ có góc $A$ chung và $\widehat{ABD}=\widehat{ACB}$ nên đồng dạng (g.g). Suy ra $AB^2=AD\cdot AC$, tức $100=5\cdot AC$ và $AC=20$. Do đó $DC=20-5=15$.
+Cả ngày Nam chạy bộ được:
+$$1\dfrac{1}{2}+2\dfrac{1}{4}=3+\left(\dfrac{2}{4}+\dfrac{1}{4}\right)=3\dfrac{3}{4}\ \text{(km)}.$$
 
-**Đáp số.** $AC=20$; $DC=15$.
+**Đáp số.** $3\dfrac{3}{4}$ km.
 
 [ĐỀ – EN]
-In $\triangle ABC$, the point $D$ lies on side $AC$ with $\angle ABD=\angle ACB$. Given $AB=10$ and $AD=5$, find $AC$ and $DC$.
+This morning Nam jogged $1\dfrac{1}{2}$ km, and this afternoon he jogged another $2\dfrac{1}{4}$ km. How many kilometres did he jog altogether?
 
 [LỜI GIẢI CŨ – EN]
-Triangles $ABD$ and $ACB$ share the angle $A$ and have $\angle ABD=\angle ACB$, so they are similar (AA). Hence $AB^2=AD\cdot AC$, that is $100=5\cdot AC$ and $AC=20$. So $DC=20-5=15$.
+Nam jogged altogether:
+$$1\dfrac{1}{2}+2\dfrac{1}{4}=3+\left(\dfrac{2}{4}+\dfrac{1}{4}\right)=3\dfrac{3}{4}\ \text{(km)}.$$
 
-**Answer.** $AC=20$; $DC=15$.
+**Answer.** $3\dfrac{3}{4}$ km.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Giả sử để đo khoảng cách $AB$ giữa hai điểm hai bên một cái hồ, người ta chọn điểm $O$ rồi đo $OA=90$ m, $OB=120$ m. Lấy $A'\in OA$ với $OA'=30$ m, $B'\in OB$ với $OB'=40$ m và đo $A'B'=25$ m. Tính $AB$.
+Giả sử nhà bác Lan có $3\dfrac{1}{2}$ kg gạo. Bác dùng $1\dfrac{3}{4}$ kg để nấu cơm. Hỏi nhà bác còn bao nhiêu ki-lô-gam gạo?
 
 [LỜI GIẢI CŨ – VI]
-Ta có $\dfrac{OA'}{OA}=\dfrac{30}{90}=\dfrac13$ và $\dfrac{OB'}{OB}=\dfrac{40}{120}=\dfrac13$, và $\widehat O$ chung. Theo c.g.c, $\triangle OA'B'\sim\triangle OAB$ với tỉ số $\dfrac13$, nên $AB=3\cdot A'B'=75$ (m).
+Số ki-lô-gam gạo còn lại là:
+$$3\dfrac{1}{2}-1\dfrac{3}{4}=\dfrac{7}{2}-\dfrac{7}{4}=\dfrac{14}{4}-\dfrac{7}{4}=\dfrac{7}{4}=1\dfrac{3}{4}\ \text{(kg)}.$$
 
-**Đáp số.** $75$ m.
+**Đáp số.** $1\dfrac{3}{4}$ kg.
 
 [ĐỀ – EN]
-Suppose that to measure the distance $AB$ between two points on opposite sides of a lake, people choose a point $O$ and measure $OA=90$ m, $OB=120$ m. They mark $A'\in OA$ with $OA'=30$ m, $B'\in OB$ with $OB'=40$ m and measure $A'B'=25$ m. Find $AB$.
+Suppose Aunt Lan has $3\dfrac{1}{2}$ kg of rice. She uses $1\dfrac{3}{4}$ kg to cook. How many kilograms of rice does she have left?
 
 [LỜI GIẢI CŨ – EN]
-We have $\dfrac{OA'}{OA}=\dfrac{30}{90}=\dfrac13$ and $\dfrac{OB'}{OB}=\dfrac{40}{120}=\dfrac13$, and $\angle O$ is common. By SAS, $\triangle OA'B'\sim\triangle OAB$ with scale factor $\dfrac13$, so $AB=3\cdot A'B'=75$ (m).
+The mass of rice left is:
+$$3\dfrac{1}{2}-1\dfrac{3}{4}=\dfrac{7}{2}-\dfrac{7}{4}=\dfrac{14}{4}-\dfrac{7}{4}=\dfrac{7}{4}=1\dfrac{3}{4}\ \text{(kg)}.$$
 
-**Answer.** $75$ m.
+**Answer.** $1\dfrac{3}{4}$ kg.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Giả sử để đo chiều cao một toà nhà, người ta đặt một chiếc gương nhỏ trên mặt đất cách chân toà nhà $30$ m. Một người cao $1{,}6$ m đứng cách gương $2$ m, nhìn thấy đỉnh toà nhà qua gương. Tính chiều cao toà nhà. (Tia sáng tới và tia phản xạ tạo với mặt đất hai góc bằng nhau.)
+Em hãy nhớ lại bài về chu vi hình chữ nhật. Một mảnh vườn hình chữ nhật có chiều dài $2\dfrac{1}{2}$ m và chiều rộng $1\dfrac{1}{4}$ m. Tính chu vi mảnh vườn.
 
 [LỜI GIẢI CŨ – VI]
-Hai tam giác vuông (người và khoảng cách đến gương; toà nhà và khoảng cách đến gương) có một cặp góc nhọn bằng nhau (góc tới bằng góc phản xạ), nên đồng dạng (g.g). Gọi $h$ là chiều cao toà nhà. Ta có $\dfrac{h}{30}=\dfrac{1{,}6}{2}$, suy ra $h=24$ (m).
+Nửa chu vi là $2\dfrac{1}{2}+1\dfrac{1}{4}=\dfrac{10}{4}+\dfrac{5}{4}=\dfrac{15}{4}$ (m).
 
-**Đáp số.** $24$ m.
+Chu vi mảnh vườn là $\dfrac{15}{4}\times2=\dfrac{15}{2}=7\dfrac{1}{2}$ (m).
+
+**Đáp số.** $7\dfrac{1}{2}$ m.
 
 [ĐỀ – EN]
-Suppose that to measure the height of a building, a small mirror is placed on the ground $30$ m from the foot of the building. A person $1.6$ m tall, standing $2$ m from the mirror, sees the top of the building in the mirror. Find the height of the building. (The incoming ray and the reflected ray make equal angles with the ground.)
+Remember the lesson on the perimeter of a rectangle. A rectangular garden is $2\dfrac{1}{2}$ m long and $1\dfrac{1}{4}$ m wide. Work out the perimeter of the garden.
 
 [LỜI GIẢI CŨ – EN]
-The two right-angled triangles (the person and the distance to the mirror; the building and the distance to the mirror) have one pair of equal acute angles (the angle of incidence equals the angle of reflection), so they are similar (AA). Let $h$ be the height of the building. We have $\dfrac{h}{30}=\dfrac{1.6}{2}$, so $h=24$ (m).
+Half the perimeter is $2\dfrac{1}{2}+1\dfrac{1}{4}=\dfrac{10}{4}+\dfrac{5}{4}=\dfrac{15}{4}$ (m).
 
-**Answer.** $24$ m.
+The perimeter of the garden is $\dfrac{15}{4}\times2=\dfrac{15}{2}=7\dfrac{1}{2}$ (m).
+
+**Answer.** $7\dfrac{1}{2}$ m.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Hình thang $ABCD$ có $AB\parallel CD$; hai đường chéo $AC$ và $BD$ cắt nhau tại $O$. Chứng minh $\triangle OAB\sim\triangle OCD$ và tính $CD$ khi $OA=4$, $OC=6$, $AB=8$. (Ôn lại [tam giác đồng dạng](lesson:similar-triangles).)
+Tính nhanh: $1\dfrac{1}{2}+2\dfrac{1}{2}+3\dfrac{1}{2}+4\dfrac{1}{2}$.
 
 [LỜI GIẢI CŨ – VI]
-Vì $AB\parallel CD$ nên $\widehat{OAB}=\widehat{OCD}$ và $\widehat{OBA}=\widehat{ODC}$ (so le trong). Theo g.g, $\triangle OAB\sim\triangle OCD$. Do đó $\dfrac{CD}{AB}=\dfrac{OC}{OA}=\dfrac64$, suy ra $CD=8\cdot\dfrac32=12$.
+Tổng các phần nguyên là $1+2+3+4=10$. Bốn phần $\dfrac{1}{2}$ có tổng là $4\times\dfrac{1}{2}=2$. Do đó:
+$$1\dfrac{1}{2}+2\dfrac{1}{2}+3\dfrac{1}{2}+4\dfrac{1}{2}=10+2=12.$$
 
-**Đáp số.** Đã chứng minh; $CD=12$.
+**Đáp số.** $12$.
 
 [ĐỀ – EN]
-In trapezium $ABCD$, $AB\parallel CD$; the diagonals $AC$ and $BD$ meet at $O$. Prove that $\triangle OAB\sim\triangle OCD$ and find $CD$ when $OA=4$, $OC=6$, $AB=8$. (Revise [similar triangles](lesson:similar-triangles).)
+Work out quickly: $1\dfrac{1}{2}+2\dfrac{1}{2}+3\dfrac{1}{2}+4\dfrac{1}{2}$.
 
 [LỜI GIẢI CŨ – EN]
-Since $AB\parallel CD$, $\angle OAB=\angle OCD$ and $\angle OBA=\angle ODC$ (alternate angles). By AA, $\triangle OAB\sim\triangle OCD$. Hence $\dfrac{CD}{AB}=\dfrac{OC}{OA}=\dfrac64$, so $CD=8\cdot\dfrac32=12$.
+The whole-number parts add up to $1+2+3+4=10$. Four copies of $\dfrac{1}{2}$ add up to $4\times\dfrac{1}{2}=2$. Hence:
+$$1\dfrac{1}{2}+2\dfrac{1}{2}+3\dfrac{1}{2}+4\dfrac{1}{2}=10+2=12.$$
 
-**Answer.** Proved; $CD=12$.
+**Answer.** $12$.
+
+
+######################################################################
+@@@ g5/multiplying-decimals
+Bài học: Phép nhân số thập phân / Multiplying decimals
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: a) $3{,}4\times2$; b) $0{,}45\times6$.
+
+[LỜI GIẢI CŨ – VI]
+a) $34\times2=68$, có một chữ số thập phân nên $3{,}4\times2=6{,}8$.
+
+b) $45\times6=270$, có hai chữ số thập phân nên $0{,}45\times6=2{,}70=2{,}7$.
+
+**Đáp số.** a) $6{,}8$; b) $2{,}7$.
+
+[ĐỀ – EN]
+Set out in columns and work out: a) $3.4\times2$; b) $0.45\times6$.
+
+[LỜI GIẢI CŨ – EN]
+a) $34\times2=68$, with one decimal place, so $3.4\times2=6.8$.
+
+b) $45\times6=270$, with two decimal places, so $0.45\times6=2.70=2.7$.
+
+**Answer.** a) $6.8$; b) $2.7$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính: a) $2{,}5\times1{,}6$; b) $0{,}8\times0{,}35$; c) $12{,}3\times0{,}04$; d) $0{,}05\times0{,}06$.
+
+[LỜI GIẢI CŨ – VI]
+a) $25\times16=400$, tổng $2$ chữ số thập phân nên $2{,}5\times1{,}6=4{,}00=4$.
+
+b) $8\times35=280$, tổng $3$ chữ số thập phân nên $0{,}8\times0{,}35=0{,}280=0{,}28$.
+
+c) $123\times4=492$, tổng $3$ chữ số thập phân nên $12{,}3\times0{,}04=0{,}492$.
+
+d) $5\times6=30$, tổng $4$ chữ số thập phân nên $0{,}05\times0{,}06=0{,}0030=0{,}003$.
+
+**Đáp số.** a) $4$; b) $0{,}28$; c) $0{,}492$; d) $0{,}003$.
+
+[ĐỀ – EN]
+Work out: a) $2.5\times1.6$; b) $0.8\times0.35$; c) $12.3\times0.04$; d) $0.05\times0.06$.
+
+[LỜI GIẢI CŨ – EN]
+a) $25\times16=400$, with $2$ decimal places in total, so $2.5\times1.6=4.00=4$.
+
+b) $8\times35=280$, with $3$ decimal places in total, so $0.8\times0.35=0.280=0.28$.
+
+c) $123\times4=492$, with $3$ decimal places in total, so $12.3\times0.04=0.492$.
+
+d) $5\times6=30$, with $4$ decimal places in total, so $0.05\times0.06=0.0030=0.003$.
+
+**Answer.** a) $4$; b) $0.28$; c) $0.492$; d) $0.003$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính bằng cách thuận tiện: $0{,}4\times3{,}7\times2{,}5$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $0{,}4\times2{,}5=1$ nên:
+$$0{,}4\times3{,}7\times2{,}5=(0{,}4\times2{,}5)\times3{,}7=1\times3{,}7=3{,}7.$$
+
+**Đáp số.** $3{,}7$.
+
+[ĐỀ – EN]
+Work out in the easy way: $0.4\times3.7\times2.5$.
+
+[LỜI GIẢI CŨ – EN]
+Since $0.4\times2.5=1$, we have:
+$$0.4\times3.7\times2.5=(0.4\times2.5)\times3.7=1\times3.7=3.7.$$
+
+**Answer.** $3.7$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Mỗi chai nước chứa $1{,}5$ lít. Hỏi $8$ chai nước như thế chứa bao nhiêu lít?
+
+[LỜI GIẢI CŨ – VI]
+Số lít nước trong $8$ chai là:
+$$1{,}5\times8=12\ \text{(lít)}.$$
+
+**Đáp số.** $12$ lít.
+
+[ĐỀ – EN]
+Each bottle holds $1.5$ litres of water. How many litres do $8$ bottles like this hold?
+
+[LỜI GIẢI CŨ – EN]
+The number of litres of water in $8$ bottles is:
+$$1.5\times8=12\ \text{(litres)}.$$
+
+**Answer.** $12$ litres.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giả sử mỗi mét dây điện giá $12\,500$ đồng. Hỏi mua $3{,}4$ m dây điện hết bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+Số tiền mua dây điện là:
+$$12\,500\times3{,}4=42\,500\ \text{(đồng)}.$$
+Vì $12\,500\times34=425\,000$ và có một chữ số thập phân nên tích là $42\,500{,}0=42\,500$.
+
+**Đáp số.** $42\,500$ đồng.
+
+[ĐỀ – EN]
+Suppose each metre of electric cable costs $12\,500$ dong. How much does $3.4$ m of cable cost?
+
+[LỜI GIẢI CŨ – EN]
+The cost of the cable is:
+$$12\,500\times3.4=42\,500\ \text{(dong)}.$$
+Since $12\,500\times34=425\,000$ and there is one decimal place, the product is $42\,500.0=42\,500$.
+
+**Answer.** $42\,500$ dong.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một tấm kính hình chữ nhật dài $6{,}5$ m và rộng $3{,}2$ m. Tính diện tích tấm kính đó.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích tấm kính là:
+$$6{,}5\times3{,}2=20{,}8\ \text{(m}^2\text{)}.$$
+Vì $65\times32=2080$ và có hai chữ số thập phân nên tích là $20{,}80=20{,}8$.
+
+**Đáp số.** $20{,}8\ \text{m}^2$.
+
+[ĐỀ – EN]
+A rectangular sheet of glass is $6.5$ m long and $3.2$ m wide. Find the area of the sheet of glass.
+
+[LỜI GIẢI CŨ – EN]
+The area of the sheet of glass is:
+$$6.5\times3.2=20.8\ \text{(m}^2\text{)}.$$
+Since $65\times32=2080$ and there are two decimal places, the product is $20.80=20.8$.
+
+**Answer.** $20.8\ \text{m}^2$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Không tính, điền dấu $>$, $<$, $=$ vào chỗ chấm: a) $15\times0{,}9\ \ldots\ 15$; b) $0{,}7\times1{,}1\ \ldots\ 0{,}7$; c) $2{,}5\times1\ \ldots\ 2{,}5$.
+
+[LỜI GIẢI CŨ – VI]
+a) Vì $0{,}9<1$ nên $15\times0{,}9<15$.
+
+b) Vì $1{,}1>1$ nên $0{,}7\times1{,}1>0{,}7$.
+
+c) Nhân với $1$ không đổi nên $2{,}5\times1=2{,}5$.
+
+**Đáp số.** a) $<$; b) $>$; c) $=$.
+
+[ĐỀ – EN]
+Without calculating, write $>$, $<$ or $=$ in the gap: a) $15\times0.9\ \ldots\ 15$; b) $0.7\times1.1\ \ldots\ 0.7$; c) $2.5\times1\ \ldots\ 2.5$.
+
+[LỜI GIẢI CŨ – EN]
+a) Since $0.9<1$, we have $15\times0.9<15$.
+
+b) Since $1.1>1$, we have $0.7\times1.1>0.7$.
+
+c) Multiplying by $1$ changes nothing, so $2.5\times1=2.5$.
+
+**Answer.** a) $<$; b) $>$; c) $=$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài về ki-lô-mét vuông và héc-ta. Một thửa ruộng hình chữ nhật dài $1{,}25$ km và rộng $0{,}8$ km. Tính diện tích thửa ruộng theo ki-lô-mét vuông và theo héc-ta.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích thửa ruộng là $1{,}25\times0{,}8=1\ \text{km}^2$, vì $125\times8=1000$ và có ba chữ số thập phân nên tích là $1{,}000=1$.
+
+Đổi ra héc-ta: $1\ \text{km}^2=100$ ha.
+
+**Đáp số.** $1\ \text{km}^2$, tức là $100$ ha.
+
+[ĐỀ – EN]
+Remember the lesson on square kilometres and hectares. A field is a rectangle $1.25$ km long and $0.8$ km wide. Find the area of the field in square kilometres and in hectares.
+
+[LỜI GIẢI CŨ – EN]
+The area of the field is $1.25\times0.8=1\ \text{km}^2$, because $125\times8=1000$ and there are three decimal places, so the product is $1.000=1$.
+
+Change to hectares: $1\ \text{km}^2=100$ ha.
+
+**Answer.** $1\ \text{km}^2$, which is $100$ ha.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tính nhanh: $0{,}125\times0{,}25\times32$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $32=8\times4$ nên:
+$$\begin{aligned} 0{,}125\times0{,}25\times32 &= (0{,}125\times8)\times(0{,}25\times4) \\ &= 1\times1 \\ &= 1. \end{aligned}$$
+
+**Đáp số.** $1$.
+
+[ĐỀ – EN]
+Work out quickly: $0.125\times0.25\times32$.
+
+[LỜI GIẢI CŨ – EN]
+Since $32=8\times4$, we have:
+$$\begin{aligned} 0.125\times0.25\times32 &= (0.125\times8)\times(0.25\times4) \\ &= 1\times1 \\ &= 1. \end{aligned}$$
+
+**Answer.** $1$.
+
+
+######################################################################
+@@@ g5/multiplying-dividing-times
+Bài học: Nhân, chia số đo thời gian với một số / Multiplying and dividing times by a number
+Cần viết lại lời giải các bài: 1, 2, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính:
+
+a) $3$ giờ $15$ phút $\times2$.
+
+b) $4$ phút $30$ giây $\times4$.
+
+[LỜI GIẢI CŨ – VI]
+a) $3$ giờ $15$ phút $\times2=6$ giờ $30$ phút.
+
+b) $4$ phút $30$ giây $\times4=16$ phút $120$ giây $=18$ phút.
+
+**Đáp số.** a) $6$ giờ $30$ phút; b) $18$ phút.
+
+[ĐỀ – EN]
+Work out:
+
+a) $3$ h $15$ min $\times2$.
+
+b) $4$ min $30$ s $\times4$.
+
+[LỜI GIẢI CŨ – EN]
+a) $3$ h $15$ min $\times2=6$ h $30$ min.
+
+b) $4$ min $30$ s $\times4=16$ min $120$ s $=18$ min.
+
+**Answer.** a) $6$ h $30$ min; b) $18$ min.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính:
+
+a) $1$ giờ $50$ phút $\times3$.
+
+b) $2$ phút $45$ giây $\times5$.
+
+[LỜI GIẢI CŨ – VI]
+a) $1$ giờ $50$ phút $\times3=3$ giờ $150$ phút $=5$ giờ $30$ phút.
+
+b) $2$ phút $45$ giây $\times5=10$ phút $225$ giây $=13$ phút $45$ giây.
+
+**Đáp số.** a) $5$ giờ $30$ phút; b) $13$ phút $45$ giây.
+
+[ĐỀ – EN]
+Work out:
+
+a) $1$ h $50$ min $\times3$.
+
+b) $2$ min $45$ s $\times5$.
+
+[LỜI GIẢI CŨ – EN]
+a) $1$ h $50$ min $\times3=3$ h $150$ min $=5$ h $30$ min.
+
+b) $2$ min $45$ s $\times5=10$ min $225$ s $=13$ min $45$ s.
+
+**Answer.** a) $5$ h $30$ min; b) $13$ min $45$ s.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một bạn bơi một vòng hồ hết $2$ phút $15$ giây. Bạn bơi $6$ vòng liên tiếp với tốc độ như nhau. Hỏi bạn bơi hết bao lâu?
+
+[LỜI GIẢI CŨ – VI]
+Thời gian bơi $6$ vòng là:
+$$2\text{ phút }15\text{ giây}\times6=12\text{ phút }90\text{ giây}=13\text{ phút }30\text{ giây}.$$
+**Đáp số.** $13$ phút $30$ giây.
+
+[ĐỀ – EN]
+A girl swims one length of the pool in $2$ min $15$ s. She swims $6$ lengths in a row at the same speed. How long does she take?
+
+[LỜI GIẢI CŨ – EN]
+The time for $6$ lengths is:
+$$2\text{ min }15\text{ s}\times6=12\text{ min }90\text{ s}=13\text{ min }30\text{ s}.$$
+**Answer.** $13$ min $30$ s.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Bộ phim gồm $4$ tập có độ dài bằng nhau, tổng cộng $2$ giờ $20$ phút. Hỏi mỗi tập dài bao nhiêu phút?
+
+[LỜI GIẢI CŨ – VI]
+$2$ giờ $20$ phút $=140$ phút. Mỗi tập dài:
+$$140:4=35\ (\text{phút}).$$
+**Đáp số.** $35$ phút.
+
+[ĐỀ – EN]
+A film in $4$ parts of equal length lasts $2$ hours $20$ minutes in total. How many minutes does each part last?
+
+[LỜI GIẢI CŨ – EN]
+$2$ h $20$ min $=140$ min. Each part lasts:
+$$140\div4=35\ (\text{min}).$$
+**Answer.** $35$ minutes.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Mỗi buổi tập thể dục của Nam kéo dài $45$ phút. Trong một tuần Nam tập $6$ buổi. Hỏi Nam tập tất cả bao nhiêu giờ, bao nhiêu phút?
+
+[LỜI GIẢI CŨ – VI]
+Thời gian Nam tập là:
+$$45\times6=270\ (\text{phút})=4\text{ giờ }30\text{ phút}.$$
+**Đáp số.** $4$ giờ $30$ phút.
+
+[ĐỀ – EN]
+Each of Nam's exercise sessions lasts $45$ minutes. In one week Nam exercises $6$ times. How many hours and minutes does Nam exercise altogether?
+
+[LỜI GIẢI CŨ – EN]
+The time Nam exercises is:
+$$45\times6=270\ (\text{min})=4\text{ h }30\text{ min}.$$
+**Answer.** $4$ h $30$ min.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài cộng, trừ số đo thời gian. Một chuyến đi gồm $3$ chặng bằng nhau, mỗi chặng $1$ giờ $35$ phút. Chuyến đi bắt đầu lúc $8$ giờ $20$ phút. Hỏi chuyến đi kết thúc lúc mấy giờ?
+
+[LỜI GIẢI CŨ – VI]
+Thời gian cả chuyến là $1$ giờ $35$ phút $\times3=3$ giờ $105$ phút $=4$ giờ $45$ phút. Chuyến đi kết thúc lúc:
+$$8\text{ giờ }20\text{ phút}+4\text{ giờ }45\text{ phút}=12\text{ giờ }65\text{ phút}=13\text{ giờ }5\text{ phút}.$$
+**Đáp số.** $13$ giờ $5$ phút.
+
+[ĐỀ – EN]
+Remember the lesson on adding and subtracting times. A journey has $3$ equal stages, each lasting $1$ h $35$ min. The journey starts at $8{:}20$. At what time does it end?
+
+[LỜI GIẢI CŨ – EN]
+The whole journey takes $1$ h $35$ min $\times3=3$ h $105$ min $=4$ h $45$ min. The journey ends at:
+$$8\text{ h }20\text{ min}+4\text{ h }45\text{ min}=12\text{ h }65\text{ min}=13\text{ h }5\text{ min}.$$
+**Answer.** $13{:}05$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một chiếc đồng hồ chạy chậm mỗi ngày $2$ phút $30$ giây. Hỏi sau $6$ ngày, đồng hồ chậm bao nhiêu phút?
+
+[LỜI GIẢI CŨ – VI]
+Sau $6$ ngày, đồng hồ chậm:
+$$2\text{ phút }30\text{ giây}\times6=12\text{ phút }180\text{ giây}=15\text{ phút}.$$
+**Đáp số.** $15$ phút.
+
+[ĐỀ – EN]
+A clock loses $2$ min $30$ s every day. After $6$ days, how many minutes slow is it?
+
+[LỜI GIẢI CŨ – EN]
+After $6$ days the clock is slow by:
+$$2\text{ min }30\text{ s}\times6=12\text{ min }180\text{ s}=15\text{ min}.$$
+**Answer.** $15$ minutes.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một số đo thời gian nhân với $4$ thì được $3$ giờ $40$ phút. Tìm số đo thời gian đó.
+
+[LỜI GIẢI CŨ – VI]
+$3$ giờ $40$ phút $=220$ phút, và $220:4=55$ (phút).
+
+**Thử lại.** $55\times4=220$ phút $=3$ giờ $40$ phút. Đúng.
+
+**Đáp số.** $55$ phút.
+
+[ĐỀ – EN]
+A time multiplied by $4$ gives $3$ h $40$ min. Find that time.
+
+[LỜI GIẢI CŨ – EN]
+$3$ h $40$ min $=220$ min, and $220\div4=55$ (min).
+
+**Check.** $55\times4=220$ min $=3$ h $40$ min. Correct.
+
+**Answer.** $55$ minutes.
+
+
+######################################################################
+@@@ g5/nets-of-solids
+Bài học: Hình khai triển của hình lập phương, hình hộp chữ nhật và hình trụ / Nets of cubes, cuboids and cylinders
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Hình lập phương có cạnh $4$ cm. Hình khai triển của nó gồm mấy hình vuông? Diện tích mỗi hình vuông là bao nhiêu? Tính diện tích của cả hình khai triển.
+
+[LỜI GIẢI CŨ – VI]
+Hình khai triển gồm $6$ hình vuông. Diện tích mỗi hình vuông là $4\times4=16\ \text{cm}^2$. Diện tích cả hình khai triển là $16\times6=96\ \text{cm}^2$.
+
+**Đáp số.** $6$ hình vuông; $16\ \text{cm}^2$; $96\ \text{cm}^2$.
+
+[ĐỀ – EN]
+A cube has side $4$ cm. How many squares are in its net? What is the area of each square? Find the area of the whole net.
+
+[LỜI GIẢI CŨ – EN]
+The net has $6$ squares. The area of each square is $4\times4=16\ \text{cm}^2$. The area of the whole net is $16\times6=96\ \text{cm}^2$.
+
+**Answer.** $6$ squares; $16\ \text{cm}^2$; $96\ \text{cm}^2$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Một hình hộp chữ nhật có chiều dài $8$ cm, chiều rộng $5$ cm và chiều cao $3$ cm. Tính tổng diện tích $6$ mặt của hình hộp đó.
+
+[LỜI GIẢI CŨ – VI]
+Ba mặt khác nhau có diện tích $8\times5=40$, $8\times3=24$ và $5\times3=15$ ($\text{cm}^2$). Tổng diện tích $6$ mặt là $2\times(40+24+15)=2\times79=158\ \text{cm}^2$.
+
+**Đáp số.** $158\ \text{cm}^2$.
+
+[ĐỀ – EN]
+A cuboid has length $8$ cm, width $5$ cm and height $3$ cm. Find the total area of the $6$ faces of the cuboid.
+
+[LỜI GIẢI CŨ – EN]
+The three different faces have areas $8\times5=40$, $8\times3=24$ and $5\times3=15$ ($\text{cm}^2$). The total area of the $6$ faces is $2\times(40+24+15)=2\times79=158\ \text{cm}^2$.
+
+**Answer.** $158\ \text{cm}^2$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Một hình trụ có bán kính đáy $3$ cm và chiều cao $8$ cm. Hình chữ nhật trong hình khai triển của hình trụ có chiều dài và chiều rộng bằng bao nhiêu? (Lấy $\pi\approx3{,}14$.)
+
+[LỜI GIẢI CŨ – VI]
+Chiều dài là chu vi đáy: $2\times3{,}14\times3=18{,}84$ (cm). Chiều rộng là chiều cao: $8$ cm.
+
+**Đáp số.** $18{,}84$ cm và $8$ cm.
+
+[ĐỀ – EN]
+A cylinder has base radius $3$ cm and height $8$ cm. What are the length and the width of the rectangle in its net? (Take $\pi\approx3.14$.)
+
+[LỜI GIẢI CŨ – EN]
+The length is the circumference of the base: $2\times3.14\times3=18.84$ (cm). The width is the height: $8$ cm.
+
+**Answer.** $18.84$ cm and $8$ cm.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một hình trụ có bán kính đáy $2$ cm và chiều cao $6$ cm. Tính diện tích của cả hình khai triển. (Lấy $\pi\approx3{,}14$.)
+
+[LỜI GIẢI CŨ – VI]
+Chu vi đáy là $2\times3{,}14\times2=12{,}56$ cm. Diện tích hình chữ nhật là $12{,}56\times6=75{,}36\ \text{cm}^2$.
+
+Diện tích một đáy là $3{,}14\times2\times2=12{,}56\ \text{cm}^2$, hai đáy là $25{,}12\ \text{cm}^2$.
+
+Diện tích cả hình khai triển là $75{,}36+25{,}12=100{,}48\ \text{cm}^2$.
+
+**Đáp số.** $100{,}48\ \text{cm}^2$.
+
+[ĐỀ – EN]
+A cylinder has base radius $2$ cm and height $6$ cm. Find the area of the whole net. (Take $\pi\approx3.14$.)
+
+[LỜI GIẢI CŨ – EN]
+The circumference of the base is $2\times3.14\times2=12.56$ cm. The area of the rectangle is $12.56\times6=75.36\ \text{cm}^2$.
+
+The area of one base is $3.14\times2\times2=12.56\ \text{cm}^2$, so two bases have area $25.12\ \text{cm}^2$.
+
+The area of the whole net is $75.36+25.12=100.48\ \text{cm}^2$.
+
+**Answer.** $100.48\ \text{cm}^2$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hình nào dưới đây là hình khai triển của hình lập phương? A: bốn hình vuông xếp thành hàng ngang, một hình vuông ở trên hình vuông thứ nhất và một hình vuông ở dưới hình vuông thứ tư. B: năm hình vuông xếp thành hàng ngang và một hình vuông ở trên hình vuông thứ hai.
+
+[LỜI GIẢI CŨ – VI]
+Hình A gập được: hàng ngang bốn hình vuông tạo bốn mặt xung quanh, hai hình vuông còn lại là hai đáy.
+
+Hình B không gập được: khi gập hàng ngang năm hình vuông quanh hình lập phương, hình vuông thứ năm chồng lên hình vuông thứ nhất.
+
+**Đáp số.** Hình A.
+
+[ĐỀ – EN]
+Which of these shapes is a net of a cube? A: four squares in a row, with one square above the first square and one square below the fourth square. B: five squares in a row and one square above the second square.
+
+[LỜI GIẢI CŨ – EN]
+Shape A folds up: the row of four squares makes the four side faces and the other two squares are the two bases.
+
+Shape B does not fold up: when the row of five squares is folded round the cube, the fifth square lies on top of the first square.
+
+**Answer.** Shape A.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử một hộp bánh hình hộp chữ nhật có chiều dài $20$ cm, chiều rộng $10$ cm và chiều cao $5$ cm. Cần ít nhất bao nhiêu xăng-ti-mét vuông bìa để làm hộp bánh (chưa tính phần mép dán)?
+
+[LỜI GIẢI CŨ – VI]
+Ba mặt khác nhau có diện tích $20\times10=200$, $20\times5=100$ và $10\times5=50$ ($\text{cm}^2$). Diện tích bìa cần dùng là $2\times(200+100+50)=2\times350=700\ \text{cm}^2$.
+
+**Đáp số.** $700\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Suppose a cake box is shaped like a cuboid with length $20$ cm, width $10$ cm and height $5$ cm. What is the least area of card, in square centimetres, needed to make the box (not counting the gluing flaps)?
+
+[LỜI GIẢI CŨ – EN]
+The three different faces have areas $20\times10=200$, $20\times5=100$ and $10\times5=50$ ($\text{cm}^2$). The area of card needed is $2\times(200+100+50)=2\times350=700\ \text{cm}^2$.
+
+**Answer.** $700\ \text{cm}^2$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử một lon nước hình trụ có đường kính đáy $6$ cm và chiều cao $12$ cm. Tờ nhãn dán kín mặt xung quanh của lon có diện tích bao nhiêu? (Lấy $\pi\approx3{,}14$.)
+
+[LỜI GIẢI CŨ – VI]
+Chu vi đáy là $6\times3{,}14=18{,}84$ (cm). Diện tích tờ nhãn là $18{,}84\times12=226{,}08\ \text{(cm}^2\text{)}$.
+
+**Đáp số.** $226{,}08\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Suppose a drink can is a cylinder with base diameter $6$ cm and height $12$ cm. What is the area of a label that covers the curved surface of the can exactly? (Take $\pi\approx3.14$.)
+
+[LỜI GIẢI CŨ – EN]
+The circumference of the base is $6\times3.14=18.84$ (cm). The area of the label is $18.84\times12=226.08\ \text{(cm}^2\text{)}$.
+
+**Answer.** $226.08\ \text{cm}^2$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài các đơn vị đo diện tích và thể tích. Một hình lập phương có cạnh $1$ dm. Hình khai triển của nó gồm $6$ hình vuông cạnh $10$ cm. Tính diện tích hình khai triển theo $\text{cm}^2$ và theo $\text{dm}^2$.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích mỗi hình vuông là $10\times10=100\ \text{cm}^2$. Diện tích hình khai triển là $100\times6=600\ \text{cm}^2$.
+
+Đổi ra $\text{dm}^2$: $600:100=6\ \text{dm}^2$.
+
+**Đáp số.** $600\ \text{cm}^2$, tức là $6\ \text{dm}^2$.
+
+[ĐỀ – EN]
+Remember the lesson on units of area and volume. A cube has side $1$ dm. Its net is made of $6$ squares with side $10$ cm. Find the area of the net in $\text{cm}^2$ and in $\text{dm}^2$.
+
+[LỜI GIẢI CŨ – EN]
+The area of each square is $10\times10=100\ \text{cm}^2$. The area of the net is $100\times6=600\ \text{cm}^2$.
+
+Change to $\text{dm}^2$: $600\div100=6\ \text{dm}^2$.
+
+**Answer.** $600\ \text{cm}^2$, which is $6\ \text{dm}^2$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một tấm bìa hình chữ nhật dài $31{,}4$ cm và rộng $10$ cm được cuốn lại thành mặt xung quanh của một hình trụ, sao cho mép dài chạm nhau. Tính bán kính đáy của hình trụ. (Lấy $\pi\approx3{,}14$.)
+
+[LỜI GIẢI CŨ – VI]
+Chu vi đáy là $31{,}4$ cm, nên $2\times3{,}14\times r=31{,}4$, tức là $6{,}28\times r=31{,}4$. Bán kính là $r=31{,}4:6{,}28=5$ (cm).
+
+**Kiểm tra.** $2\times3{,}14\times5=31{,}4$. Đúng.
+
+**Đáp số.** Bán kính đáy là $5$ cm.
+
+[ĐỀ – EN]
+A rectangular piece of card $31.4$ cm long and $10$ cm wide is rolled into the curved surface of a cylinder, with the long edges meeting. Find the radius of the base of the cylinder. (Take $\pi\approx3.14$.)
+
+[LỜI GIẢI CŨ – EN]
+The circumference of the base is $31.4$ cm, so $2\times3.14\times r=31.4$, that is, $6.28\times r=31.4$. The radius is $r=31.4\div6.28=5$ (cm).
+
+**Check.** $2\times3.14\times5=31.4$. Correct.
+
+**Answer.** The radius of the base is $5$ cm.
 
 
 ===== HẾT FILE Nguyenchanh2358-09-LG =====

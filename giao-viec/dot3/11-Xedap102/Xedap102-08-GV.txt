@@ -6,7 +6,7 @@ Kết quả: file Xedap102-08-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Xedap102-08-GV
-Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/ap-calculus/apcalc-implicit-inverse, exams/ap-calculus/apcalc-integration-techniques, exams/ap-calculus/apcalc-limits-continuity, exams/ap-calculus/apcalc-overview
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g12/angle-formulas-space, g12/antiderivatives, g12/asymptotes, g12/conditional-probability-intro
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -135,1234 +135,2018 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI exams/ap-calculus/apcalc-implicit-inverse – BẢN TIẾNG VIỆT ########
+######## BÀI g12/angle-formulas-space – BẢN TIẾNG VIỆT ########
 ---
-title: Đạo hàm hàm hợp, hàm ẩn và hàm ngược
-description: AP Calculus Unit 3: quy tắc đạo hàm hàm hợp, đạo hàm hàm ẩn, đạo hàm của hàm ngược và hàm lượng giác ngược, đạo hàm cấp cao.
-minutes: 40
+title: Công thức tính góc trong không gian
+description: Tính góc giữa hai đường thẳng, giữa đường thẳng và mặt phẳng, giữa hai mặt phẳng bằng toạ độ; áp dụng cho hình lập phương, hình chóp và bài toán thực tế.
+minutes: 22
 ---
 
   :::goals
-  - Tính đạo hàm hàm hợp bằng quy tắc chuỗi, kể cả từ bảng giá trị.
-  - Tìm $\dfrac{dy}{dx}$ bằng đạo hàm hàm ẩn và dùng nó để viết tiếp tuyến.
-  - Tính đạo hàm của hàm ngược tại một điểm.
-  - Tính đạo hàm của hàm lượng giác ngược và đạo hàm cấp hai.
+  - Tính góc giữa hai đường thẳng: $\cos\varphi=\dfrac{|\vec{u}_1\cdot\vec{u}_2|}{|\vec{u}_1||\vec{u}_2|}$.
+  - Tính góc giữa đường thẳng và mặt phẳng: $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$.
+  - Tính góc giữa hai mặt phẳng: $\cos\varphi=\dfrac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1||\vec{n}_2|}$.
+  - Đặt hình lập phương, hình chóp vào hệ $Oxyz$ để tính góc.
   :::
 
-[[P1·4e43]]
-Unit 3 hoàn thiện bộ công cụ tính đạo hàm. Từ đây trở đi, quy tắc chuỗi có mặt trong gần như mọi câu AP Calculus, thường ẩn trong một bối cảnh hay một bảng giá trị, còn đạo hàm hàm ẩn là chìa khoá cho các bài tốc độ liên quan ở Unit 4. Đạo hàm của hàm ngược tại một điểm là câu trắc nghiệm được ưa chuộng mà nhiều bạn thấy lạ, nên đáng luyện đến mức thành phản xạ.
+[[P1·ba6e]]
+Một cột ăng-ten cao $10$ m được giữ bằng dây cáp nối từ đỉnh cột xuống một móc neo trên mặt đất. Đặt chân cột ở gốc toạ độ, đơn vị mét: đỉnh cột là $T(0; 0; 10)$, móc neo là $A(6; 8; 0)$. Dây cáp hợp với mặt đất một góc bao nhiêu độ?
 
-## Quy tắc chuỗi
+[[P2·a0a8]]
+Ở bài [Biểu thức toạ độ của các phép toán vectơ](lesson:vector-coordinate-operations) ta đã tính góc giữa hai vectơ. Bài này dùng công thức đó, thêm dấu giá trị tuyệt đối, để tính góc giữa đường thẳng và mặt phẳng.
 
-  :::theorem Quy tắc chuỗi
-  Nếu $h(x)=f\big(g(x)\big)$ thì $h'(x)=f'\big(g(x)\big)\cdot g'(x)$: đạo hàm của hàm ngoài, tính tại hàm trong, nhân với đạo hàm của hàm trong.
-  :::
-
-  :::example Luỹ thừa của một đa thức
-  $\dfrac{d}{dx}\left(3x^2+1\right)^4$ bằng
-  A. $4\left(3x^2+1\right)^3$
-  B. $24x\left(3x^2+1\right)^3$
-  C. $4(6x)^3$
-  D. $6x\left(3x^2+1\right)^4$
-
-  **Lời giải.** Hàm ngoài: $u^4\to4u^3$; hàm trong: $3x^2+1\to6x$. Vậy đạo hàm là $4\left(3x^2+1\right)^3\cdot6x=24x\left(3x^2+1\right)^3$: đáp án **B**. Phương án A quên đạo hàm hàm trong.
-  :::
-
-  :::example Quy tắc chuỗi từ bảng giá trị
-  Bảng cho giá trị của các hàm số có đạo hàm $f$ và $g$.
-
-  | $x$ | $g(x)$ | $g'(x)$ | $f'(x)$ |
-  |---|---|---|---|
-  | $1$ | $2$ | $3$ | $5$ |
-  | $2$ | $4$ | $-1$ | $-4$ |
-
-  Đặt $h(x)=f\big(g(x)\big)$. Tính $h'(1)$.
-
-  **Lời giải.** $h'(1)=f'\big(g(1)\big)\cdot g'(1)=f'(2)\cdot3=(-4)(3)=-12$. Cái bẫy là dùng $f'(1)=5$: đạo hàm hàm ngoài được tính tại $g(1)$, không phải tại $1$.
-  :::
-
-## Đạo hàm hàm ẩn
-
-[[P2·4032]]
-Khi $y$ được xác định bởi một phương trình chứa $x$ và $y$, hãy lấy đạo hàm hai vế theo $x$, coi $y$ là hàm của $x$: mỗi lần lấy đạo hàm một biểu thức chứa $y$, nhân thêm $\dfrac{dy}{dx}$. Sau đó giải tìm $\dfrac{dy}{dx}$.
-
-  :::example Hệ số góc trên đường tròn
-  Tìm hệ số góc của tiếp tuyến với đường tròn $x^2+y^2=25$ tại điểm $(3, 4)$.
-
-  **Lời giải.** $2x+2y\dfrac{dy}{dx}=0$, nên $\dfrac{dy}{dx}=-\dfrac{x}{y}$. Tại $(3, 4)$ hệ số góc là $-\dfrac34$. Kết quả khớp với hình học: tiếp tuyến vuông góc với bán kính, mà bán kính có hệ số góc $\dfrac43$.
-  :::
-
-  :::example Phương trình có chứa tích
-  Đường cong $x^2+xy+y^2=7$ đi qua $(1, 2)$. Tính $\dfrac{dy}{dx}$ tại điểm này.
-
-  **Lời giải.** Lấy đạo hàm, dùng quy tắc tích cho $xy$:
-
-  $$2x+\left(y+x\frac{dy}{dx}\right)+2y\frac{dy}{dx}=0.$$
-
-  Tại $(1, 2)$: $2+2+(1+4)\dfrac{dy}{dx}=0$, nên $\dfrac{dy}{dx}=-\dfrac45$.
-  :::
-
-## Hàm ngược
-
-  :::theorem Đạo hàm của hàm ngược
-  Nếu $f$ có đạo hàm và là đơn ánh, $f(a)=b$ và $f'(a)\ne0$, thì
-  $$\left(f^{-1}\right)'(b)=\frac{1}{f'(a)}.$$
-  Hệ số góc tại các điểm tương ứng của $f$ và $f^{-1}$ là nghịch đảo của nhau.
-  :::
-
-  :::example Không cần tìm hàm ngược
-  Cho $f(x)=x^3+x+1$. Giá trị của $\left(f^{-1}\right)'(3)$ là
-  A. $\dfrac14$
-  B. $\dfrac{1}{28}$
-  C. $4$
-  D. $28$
-
-  **Lời giải.** Trước hết tìm $a$ với $f(a)=3$: $a^3+a+1=3$ cho $a=1$. Khi đó $f'(x)=3x^2+1$, nên $f'(1)=4$ và $\left(f^{-1}\right)'(3)=\dfrac14$. Đáp án là **A**. Phương án B dùng $f'(3)=28$, lỗi kinh điển.
-  :::
-
-:::note Hàm lượng giác ngược
-[[P3·59f8]]
-$$\frac{d}{dx}\arcsin x=\frac{1}{\sqrt{1-x^2}},\qquad\frac{d}{dx}\arccos x=-\frac{1}{\sqrt{1-x^2}},\qquad\frac{d}{dx}\arctan x=\frac{1}{1+x^2}.$$
-Kết hợp quy tắc chuỗi: $\dfrac{d}{dx}\arctan(2x)=\dfrac{2}{1+4x^2}$.
+:::diagram Cột ăng-ten và dây cáp
+   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::example Đạo hàm cấp cao
-  Với $y=x^4-2x^2$, tính $\dfrac{d^2y}{dx^2}$ tại $x=1$.
+## Góc giữa đường thẳng và mặt phẳng
 
-  **Lời giải.** $y'=4x^3-4x$ và $y''=12x^2-4$, nên $y''(1)=8$. Đạo hàm cấp hai sẽ được dùng ở Unit 5 để xét tính lồi lõm.
+### Khám phá: hai cách tính góc của dây cáp
+
+[[P3·3687]]
+**Cách 1: tam giác vuông.** Hình chiếu của dây $TA$ trên mặt đất là $OA$, với $OA=\sqrt{36+64}=10$. Tam giác $TOA$ vuông tại $O$ có $OT=OA=10$, nên $\widehat{OAT}=45^\circ$.
+
+[[P4·c430]]
+**Cách 2: vectơ.** Lấy $\vec{u}=\overrightarrow{TA}=(6; 8; -10)$ và vectơ pháp tuyến của mặt đất $\vec{k}=(0; 0; 1)$. Ta có
+  $$\cos(\vec{u}, \vec{k})=\frac{-10}{\sqrt{200}\cdot1}=-\frac{\sqrt2}{2},\qquad (\vec{u}, \vec{k})=135^\circ.$$
+[[P5·fdbe]]
+Góc giữa giá của $\vec{u}$ và đường vuông góc với mặt đất là $180^\circ-135^\circ=45^\circ$. Góc cần tìm bù với góc đó tới $90^\circ$: $90^\circ-45^\circ=45^\circ$. Vì $\sin\varphi=\cos(90^\circ-\varphi)$, ta có thể tính thẳng $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{k}|}{|\vec{u}||\vec{k}|}=\dfrac{\sqrt2}{2}$.
+
+  :::theorem Góc giữa đường thẳng và mặt phẳng
+  Cho đường thẳng $\Delta$ có vectơ chỉ phương $\vec{u}$ và mặt phẳng $(P)$ có vectơ pháp tuyến $\vec{n}$. Góc $\varphi$ giữa $\Delta$ và $(P)$ ($0^\circ\le\varphi\le90^\circ$) thoả mãn
+  $$\sin\varphi=\frac{|\vec{u}\cdot\vec{n}|}{|\vec{u}|\cdot|\vec{n}|}.$$
   :::
 
-:::warning Những cái bẫy thường gặp
-[[P4·0dc8]]
-- **Quên đạo hàm hàm trong.** $\dfrac{d}{dx}\sin(5x)=5\cos(5x)$, không phải $\cos(5x)$.
-- **Tính đạo hàm hàm ngoài sai điểm.** $h'(1)=f'\big(g(1)\big)g'(1)$, không phải $f'(1)g'(1)$.
-- **Quên $\dfrac{dy}{dx}$ ở các số hạng chứa $y$** khi đạo hàm hàm ẩn: $\dfrac{d}{dx}y^2=2y\dfrac{dy}{dx}$.
-- **Đạo hàm hàm ngược sai đầu vào.** Với $\left(f^{-1}\right)'(b)$, trước hết giải $f(a)=b$, rồi dùng $f'(a)$.
+[[P6·1db9]]
+**Vì sao đúng?** Góc giữa $\Delta$ và $(P)$ là góc giữa $\Delta$ và hình chiếu của nó trên $(P)$. Góc này cộng với góc giữa $\Delta$ và đường vuông góc với $(P)$ bằng $90^\circ$. Góc giữa hai đường thẳng $\Delta$ và giá của $\vec{n}$ có cosin bằng $\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$, và cosin của $90^\circ-\varphi$ chính là $\sin\varphi$.
+
+## Góc giữa hai đường thẳng và giữa hai mặt phẳng
+
+[[P7·fc5f]]
+Góc giữa hai đường thẳng luôn từ $0^\circ$ đến $90^\circ$, còn góc giữa hai vectơ chỉ phương có thể tù. Vì vậy ta lấy giá trị tuyệt đối của tích vô hướng. Góc giữa hai mặt phẳng bằng góc giữa hai đường thẳng lần lượt vuông góc với chúng, nên ta dùng hai vectơ pháp tuyến.
+
+  :::theorem Hai công thức góc
+  - Hai đường thẳng $\Delta_1$, $\Delta_2$ có vectơ chỉ phương $\vec{u}_1$, $\vec{u}_2$ tạo với nhau góc $\varphi$ ($0^\circ\le\varphi\le90^\circ$) với
+  $$\cos\varphi=\frac{|\vec{u}_1\cdot\vec{u}_2|}{|\vec{u}_1|\cdot|\vec{u}_2|}.$$
+  - Hai mặt phẳng $(P_1)$, $(P_2)$ có vectơ pháp tuyến $\vec{n}_1$, $\vec{n}_2$ tạo với nhau góc $\varphi$ ($0^\circ\le\varphi\le90^\circ$) với
+  $$\cos\varphi=\frac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1|\cdot|\vec{n}_2|}.$$
+  :::
+
+  :::example Góc giữa hai đường thẳng
+  Tính góc giữa $d_1: \begin{cases}x=1+t\\ y=2-t\\ z=3\end{cases}$ và $d_2: \begin{cases}x=2\\ y=s\\ z=1-s.\end{cases}$
+
+  **Lời giải.** Đọc vectơ chỉ phương từ các hệ số của tham số: $\vec{u}_1=(1; -1; 0)$, $\vec{u}_2=(0; 1; -1)$. Khi đó:
+
+  $$\vec{u}_1\cdot\vec{u}_2=0-1+0=-1,\qquad \cos\varphi=\frac{|-1|}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+  Vậy góc giữa $d_1$ và $d_2$ bằng $60^\circ$.
+
+  **Kiểm tra.** Góc giữa hai *vectơ* $\vec{u}_1$, $\vec{u}_2$ là $120^\circ$ (cosin bằng $-\dfrac12$); góc giữa hai *đường thẳng* là $180^\circ-120^\circ=60^\circ$.
+  :::
+
+[[P8·d19c]]
+Trong hình học không gian, ta đặt hình vào hệ trục sao cho nhiều toạ độ bằng $0$, rồi dùng các công thức trên.
+
+  :::example Hai đường chéo mặt của hình lập phương
+  Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $1$. Tính góc giữa hai đường thẳng $AB'$ và $BC'$.
+
+  **Lời giải.** Đặt $A(0; 0; 0)$, $B(1; 0; 0)$, $D(0; 1; 0)$, $A'(0; 0; 1)$. Khi đó $B'(1; 0; 1)$, $C'(1; 1; 1)$ và
+
+  $$\overrightarrow{AB'}=(1; 0; 1),\qquad \overrightarrow{BC'}=(0; 1; 1),\qquad \cos\varphi=\frac{|0+0+1|}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+  Vậy góc giữa $AB'$ và $BC'$ bằng $60^\circ$.
+  :::
+
+[[P9·5665]]
+Hình chóp có một cạnh bên vuông góc với đáy cũng đặt được vào hệ trục rất gọn.
+
+:::diagram Hình chóp $S.ABCD$ có $SA$ vuông góc với đáy
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::tip Sắp xếp hàm hợp
-[[P5·e799]]
-Trước khi lấy đạo hàm, hãy gọi tên các lớp: "ngoài là $\ln u$, trong là $u=x^2+1$". Viết hàm trong ra bên lề tốn ít thời gian hơn nhiều so với thời gian nó tiết kiệm được, và tránh được lỗi quy tắc chuỗi thường gặp nhất.
+  :::example Góc giữa cạnh bên và mặt phẳng trong hình chóp
+  Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $2$, $SA$ vuông góc với đáy và $SA=2$. Tính góc giữa $SC$ và mặt đáy, và góc giữa $SB$ và mặt phẳng $(SAC)$ (làm tròn đến hàng phần mười của độ).
+
+  **Lời giải.** Đặt $A(0; 0; 0)$, $B(2; 0; 0)$, $D(0; 2; 0)$, $S(0; 0; 2)$, nên $C(2; 2; 0)$. Mặt đáy là $(Oxy)$ với vectơ pháp tuyến $(0; 0; 1)$:
+
+  $$\overrightarrow{SC}=(2; 2; -2),\qquad \sin\varphi_1=\frac{|-2|}{\sqrt{12}\cdot1}=\frac{1}{\sqrt3},\qquad \varphi_1\approx35{,}3^\circ.$$
+
+  Mặt phẳng $(SAC)$ chứa $Oz$ và điểm $C(2; 2; 0)$, nên có phương trình $x-y=0$, với $\vec{n}=(1; -1; 0)$. Với $\overrightarrow{SB}=(2; 0; -2)$:
+
+  $$\sin\varphi_2=\frac{|2-0+0|}{\sqrt8\cdot\sqrt2}=\frac{2}{4}=\frac12,\qquad \varphi_2=30^\circ.$$
+
+  Vậy $SC$ tạo với đáy góc khoảng $35{,}3^\circ$, và $SB$ tạo với $(SAC)$ góc $30^\circ$.
+  :::
+
+[[P10·97c1]]
+Với hai mặt phẳng, ta chỉ cần hai vectơ pháp tuyến.
+
+  :::example Góc giữa hai mặt phẳng
+  a) Tính góc giữa $(P): x+2y-2z+1=0$ và $(Q): 2x-y+2z-3=0$ (làm tròn đến hàng phần mười của độ).
+
+  b) Trong hình chóp ở ví dụ trước, tính góc giữa mặt bên $(SBC)$ và mặt đáy.
+
+  **Lời giải.** a) $\vec{n}_P=(1; 2; -2)$, $\vec{n}_Q=(2; -1; 2)$, đều có độ dài $3$:
+
+  $$\cos\varphi=\frac{|2-2-4|}{3\cdot3}=\frac49,\qquad \varphi\approx63{,}6^\circ.$$
+
+  b) Mặt phẳng $(SBC)$ đi qua $B(2; 0; 0)$, $C(2; 2; 0)$, $S(0; 0; 2)$. Nó chứa đường $BC$ song song với $Oy$, nên có dạng $Ax+Cz+D=0$; thay $B$ và $S$ ta được $(SBC): x+z-2=0$, với $\vec{n}=(1; 0; 1)$:
+
+  $$\cos\varphi=\frac{|0+0+1|}{\sqrt2\cdot1}=\frac{\sqrt2}{2},\qquad \varphi=45^\circ.$$
+
+  Vậy a) góc khoảng $63{,}6^\circ$; b) góc $45^\circ$.
+  :::
+
+[[P11·2101]]
+Ví dụ cuối là một bài toán thực tế nhiều bước, nên ta làm theo bốn bước.
+
+  :::example Mái lều hình chóp
+  Một chiếc lều có dạng hình chóp tứ giác đều: đáy là hình vuông cạnh $4$ m, đỉnh lều cao $3$ m so với tâm đáy. Tính góc giữa một mặt mái và mặt đất, và góc giữa một cạnh mái với mặt đất (làm tròn đến hàng phần mười của độ).
+
+  **Lời giải.**
+
+  *Hiểu đề.* Cần một góc giữa hai mặt phẳng và một góc giữa đường thẳng và mặt phẳng.
+
+  *Tìm cách giải.* Đặt tâm đáy ở gốc: $B(2; -2; 0)$, $C(2; 2; 0)$, đỉnh $S(0; 0; 3)$; mặt đất là $(Oxy)$, vectơ pháp tuyến $\vec{k}=(0; 0; 1)$.
+
+  *Giải.* Mặt mái $(SBC)$ chứa $BC$ song song với $Oy$, nên có dạng $Ax+Cz+D=0$. Thay $B$ và $S$: $(SBC): 3x+2z-6=0$. Khi đó:
+
+  $$\cos\varphi_1=\frac{|2|}{\sqrt{9+4}\cdot1}=\frac{2}{\sqrt{13}},\qquad \varphi_1\approx56{,}3^\circ.$$
+
+  Với cạnh $SC$, $\overrightarrow{SC}=(2; 2; -3)$:
+
+  $$\sin\varphi_2=\frac{|-3|}{\sqrt{17}\cdot1}=\frac{3}{\sqrt{17}},\qquad \varphi_2\approx46{,}7^\circ.$$
+
+  Vậy mặt mái nghiêng khoảng $56{,}3^\circ$ và cạnh mái nghiêng khoảng $46{,}7^\circ$ so với mặt đất.
+
+  *Nhìn lại.* Cạnh mái thoải hơn mặt mái ($46{,}7^\circ<56{,}3^\circ$), hợp lí vì cạnh mái đi xa hơn theo phương ngang ($2\sqrt2$ m so với $2$ m) để lên cùng độ cao $3$ m.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P12·dcf7]]
+- **Quên dấu giá trị tuyệt đối.** Sai: góc giữa $d_1$, $d_2$ ở Ví dụ 1 là $120^\circ$. Vì sao sai: góc giữa hai đường thẳng không vượt quá $90^\circ$. Đúng: $\cos\varphi=\dfrac{|-1|}{2}$, $\varphi=60^\circ$.
+- **Dùng côsin cho góc giữa đường thẳng và mặt phẳng.** Sai: $\cos\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$ cho $SB$ và $(SAC)$, ra $60^\circ$. Vì sao sai: biểu thức đó là côsin của góc giữa $SB$ và đường vuông góc với mặt phẳng. Đúng: dùng $\sin\varphi$, được $30^\circ$.
+- **Dùng vectơ chỉ phương thay cho vectơ pháp tuyến của mặt phẳng.** Sai: lấy $\overrightarrow{BC}$ làm "vectơ của mặt phẳng $(SBC)$". Vì sao sai: $\overrightarrow{BC}$ nằm trong mặt phẳng, không vuông góc với nó. Đúng: tìm phương trình mặt phẳng, rồi đọc vectơ pháp tuyến.
+- **Nhầm chế độ độ và radian trên máy tính.** Sai: $\arccos\dfrac49\approx1{,}11$ rồi ghi $1{,}11^\circ$. Đúng: chuyển máy tính sang chế độ độ, được $63{,}6^\circ$.
 :::
+
+## Thuật ngữ
 
   :::terms
-  - hàm hợp | composite function
-  - quy tắc đạo hàm hàm hợp (quy tắc chuỗi) | chain rule
-  - đạo hàm hàm ẩn | implicit differentiation
-  - hàm ngược | inverse function
-  - đơn ánh (một đối một) | one-to-one
-  - hàm lượng giác ngược | inverse trigonometric function
-  - đạo hàm cấp hai | second derivative
+  - góc giữa hai đường thẳng | angle between two lines
+  - góc giữa đường thẳng và mặt phẳng | angle between a line and a plane
+  - góc giữa hai mặt phẳng | angle between two planes
+  - vectơ chỉ phương | direction vector
+  - vectơ pháp tuyến | normal vector
+  - hình chiếu vuông góc | orthogonal projection
+  - hình chóp tứ giác đều | regular square pyramid
+  - góc nhị diện | dihedral angle
   :::
 
-## Bài tập tương tự
+## Tóm tắt
 
-:::exercise Tự luận
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+[[P13·246e]]
+- Hai đường thẳng: $\cos\varphi=\dfrac{|\vec{u}_1\cdot\vec{u}_2|}{|\vec{u}_1||\vec{u}_2|}$.
+- Đường thẳng và mặt phẳng: $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$ (sin, vì góc với pháp tuyến bằng $90^\circ-\varphi$).
+- Hai mặt phẳng: $\cos\varphi=\dfrac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1||\vec{n}_2|}$.
+- Mọi góc trên đều thuộc đoạn $[0^\circ; 90^\circ]$, nhờ dấu giá trị tuyệt đối.
+- Mặt đất, mặt đáy: $(Oxy)$ với $\vec{k}=(0; 0; 1)$.
+- Hình lập phương, hình chóp: chọn gốc ở một đỉnh hoặc tâm đáy để nhiều toạ độ bằng $0$.
+
+## Luyện tập
+
+[[P14·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Trắc nghiệm
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
    (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Tự luận
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Trắc nghiệm
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Tự luận
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Bài tập vận dụng
-
-:::exercise Tiếp tuyến của đường tròn
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Hàm ngược từ dữ kiện
-   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Đạo hàm cấp hai của hàm ẩn
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Thử thách
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI exams/ap-calculus/apcalc-implicit-inverse – BẢN TIẾNG ANH ########
----
-title: Chain rule, implicit and inverse functions
-description: AP Calculus Unit 3: the chain rule, implicit differentiation, derivatives of inverse functions and inverse trigonometric functions, and higher derivatives.
-minutes: 40
----
-
-  :::goals
-  - Differentiate composite functions with the chain rule, including from tables of values.
-  - Find $\dfrac{dy}{dx}$ by implicit differentiation and use it for tangent lines.
-  - Compute the derivative of an inverse function at a point.
-  - Differentiate inverse trigonometric functions and find second derivatives.
-  :::
-
-[[P1·e0a0]]
-Unit 3 completes the toolkit of differentiation. The chain rule appears in nearly every AP Calculus question from here on, often hidden inside a context or a table, and implicit differentiation is the key to the related-rates problems of Unit 4. The derivative of an inverse function at a point is a favorite multiple-choice item that many students find surprising, so it is worth practising until it is automatic.
-
-## The chain rule
-
-  :::theorem Chain rule
-  If $h(x)=f\big(g(x)\big)$, then $h'(x)=f'\big(g(x)\big)\cdot g'(x)$: the derivative of the outside function, evaluated at the inside, times the derivative of the inside.
-  :::
-
-  :::example A power of a polynomial
-  What is $\dfrac{d}{dx}\left(3x^2+1\right)^4$?
-  A. $4\left(3x^2+1\right)^3$
-  B. $24x\left(3x^2+1\right)^3$
-  C. $4(6x)^3$
-  D. $6x\left(3x^2+1\right)^4$
-
-  **Solution.** Outside: $u^4\to4u^3$; inside: $3x^2+1\to6x$. So the derivative is $4\left(3x^2+1\right)^3\cdot6x=24x\left(3x^2+1\right)^3$: answer **B**. Option A forgets the inside derivative.
-  :::
-
-  :::example The chain rule from a table
-  The table gives values of differentiable functions $f$ and $g$.
-
-  | $x$ | $g(x)$ | $g'(x)$ | $f'(x)$ |
-  |---|---|---|---|
-  | $1$ | $2$ | $3$ | $5$ |
-  | $2$ | $4$ | $-1$ | $-4$ |
-
-  Let $h(x)=f\big(g(x)\big)$. What is $h'(1)$?
-
-  **Solution.** $h'(1)=f'\big(g(1)\big)\cdot g'(1)=f'(2)\cdot3=(-4)(3)=-12$. The trap is to use $f'(1)=5$: the outside derivative is evaluated at $g(1)$, not at $1$.
-  :::
-
-## Implicit differentiation
-
-[[P2·693d]]
-When $y$ is defined by an equation in $x$ and $y$, differentiate both sides with respect to $x$, treating $y$ as a function of $x$: each time you differentiate an expression in $y$, multiply by $\dfrac{dy}{dx}$. Then solve for $\dfrac{dy}{dx}$.
-
-  :::example The slope of a circle
-  Find the slope of the tangent line to the circle $x^2+y^2=25$ at the point $(3, 4)$.
-
-  **Solution.** $2x+2y\dfrac{dy}{dx}=0$, so $\dfrac{dy}{dx}=-\dfrac{x}{y}$. At $(3, 4)$ the slope is $-\dfrac34$. This agrees with geometry: the tangent is perpendicular to the radius, whose slope is $\dfrac43$.
-  :::
-
-  :::example A product inside the equation
-  The curve $x^2+xy+y^2=7$ passes through $(1, 2)$. Find $\dfrac{dy}{dx}$ at this point.
-
-  **Solution.** Differentiate, using the product rule on $xy$:
-
-  $$2x+\left(y+x\frac{dy}{dx}\right)+2y\frac{dy}{dx}=0.$$
-
-  At $(1, 2)$: $2+2+(1+4)\dfrac{dy}{dx}=0$, so $\dfrac{dy}{dx}=-\dfrac45$.
-  :::
-
-## Inverse functions
-
-  :::theorem Derivative of an inverse function
-  If $f$ is differentiable and one-to-one, $f(a)=b$ and $f'(a)\ne0$, then
-  $$\left(f^{-1}\right)'(b)=\frac{1}{f'(a)}.$$
-  The slopes at matching points of $f$ and $f^{-1}$ are reciprocals.
-  :::
-
-  :::example Without finding the inverse
-  Let $f(x)=x^3+x+1$. What is the value of $\left(f^{-1}\right)'(3)$?
-  A. $\dfrac14$
-  B. $\dfrac{1}{28}$
-  C. $4$
-  D. $28$
-
-  **Solution.** First find $a$ with $f(a)=3$: $a^3+a+1=3$ gives $a=1$. Then $f'(x)=3x^2+1$, so $f'(1)=4$ and $\left(f^{-1}\right)'(3)=\dfrac14$. The answer is **A**. Option B uses $f'(3)=28$, the classic mistake.
-  :::
-
-:::note Inverse trigonometric functions
-[[P3·6dd9]]
-$$\frac{d}{dx}\arcsin x=\frac{1}{\sqrt{1-x^2}},\qquad\frac{d}{dx}\arccos x=-\frac{1}{\sqrt{1-x^2}},\qquad\frac{d}{dx}\arctan x=\frac{1}{1+x^2}.$$
-With the chain rule: $\dfrac{d}{dx}\arctan(2x)=\dfrac{2}{1+4x^2}$.
-:::
-
-  :::example Higher derivatives
-  For $y=x^4-2x^2$, find $\dfrac{d^2y}{dx^2}$ at $x=1$.
-
-  **Solution.** $y'=4x^3-4x$ and $y''=12x^2-4$, so $y''(1)=8$. The second derivative will be used in Unit 5 to study concavity.
-  :::
-
-:::warning Common traps
-[[P4·fbde]]
-- **Forgetting the inside derivative.** $\dfrac{d}{dx}\sin(5x)=5\cos(5x)$, not $\cos(5x)$.
-- **Evaluating the outside derivative at the wrong point.** $h'(1)=f'\big(g(1)\big)g'(1)$, not $f'(1)g'(1)$.
-- **Forgetting $\dfrac{dy}{dx}$ on $y$ terms** in implicit differentiation: $\dfrac{d}{dx}y^2=2y\dfrac{dy}{dx}$.
-- **Inverse derivative at the wrong input.** For $\left(f^{-1}\right)'(b)$, first solve $f(a)=b$, then use $f'(a)$.
-:::
-
-:::tip Organize composite functions
-[[P5·97b3]]
-Before differentiating, name the layers: "outside $\ln u$, inside $u=x^2+1$". Writing the inside on the side saves more time than it costs, and it prevents the most common chain-rule mistake.
-:::
-
-  :::terms
-  - composite function | hàm hợp
-  - chain rule | quy tắc đạo hàm hàm hợp (quy tắc chuỗi)
-  - implicit differentiation | đạo hàm hàm ẩn
-  - inverse function | hàm ngược
-  - one-to-one | đơn ánh (một đối một)
-  - inverse trigonometric function | hàm lượng giác ngược
-  - second derivative | đạo hàm cấp hai
-  :::
-
-## Similar exercises
-
-:::exercise Free response
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Multiple choice
+:::exercise
    (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Free response
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Multiple choice
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Free response
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Application exercises
-
-:::exercise A tangent line to a circle
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise An inverse from a table
-   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise The second derivative implicitly
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Challenge
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI exams/ap-calculus/apcalc-integration-techniques – BẢN TIẾNG VIỆT ########
----
-title: Kĩ thuật tính tích phân
-description: AP Calculus Unit 6, phần 2: đổi biến, chia đa thức, đưa về bình phương đủ; riêng BC: tích phân từng phần, phân thức đơn giản, tích phân suy rộng.
-minutes: 45
----
-
-  :::goals
-  - Tìm nguyên hàm bằng phép đổi biến và đổi cận của tích phân xác định cho đúng.
-  - Biến đổi hàm dưới dấu tích phân bằng phép chia đa thức hoặc đưa về bình phương đủ trước khi tính.
-  - (BC) Tính tích phân từng phần và tích phân bằng cách tách phân thức đơn giản.
-  - (BC) Xét một tích phân suy rộng hội tụ hay phân kì, và tính giá trị khi nó hội tụ.
-  :::
-
-[[P1·db84]]
-Định lí cơ bản biến mọi tích phân xác định thành bài toán tìm nguyên hàm, vì vậy tốc độ và độ chính xác khi tìm nguyên hàm quyết định khá nhiều điểm trong đề. Ở phần trắc nghiệm không dùng máy tính, gần một phần ba số câu về tích phân cần đổi biến. Ở phần tự luận, thiết lập đúng đã được điểm, nhưng điểm đáp số cuối cùng cần nguyên hàm đúng. Học sinh AB cần hai mục đầu; học sinh BC cần cả bốn mục.
-
-## Phép đổi biến
-
-[[P2·2fd3]]
-Đổi biến là quy tắc chuỗi đọc theo chiều ngược lại. Hãy tìm một hàm $u=g(x)$ mà đạo hàm $g'(x)$ của nó cũng xuất hiện (sai khác một hằng số) trong biểu thức dưới dấu tích phân. Khi đó $du=g'(x)\,dx$ và
-  $$\int f\big(g(x)\big)g'(x)\,dx=\int f(u)\,du.$$
-
-  :::example Hàm bên trong và đạo hàm của nó
-  Tìm $\displaystyle\int 2x\cos\left(x^2\right)dx$.
-
-  **Lời giải.** Đặt $u=x^2$, khi đó $du=2x\,dx$. Tích phân trở thành $\displaystyle\int\cos u\,du=\sin u+C=\sin\left(x^2\right)+C$. Kiểm tra bằng cách lấy đạo hàm: $\cos\left(x^2\right)\cdot2x$.
-  :::
-
-  :::example Đổi cận
-  Tích phân $\displaystyle\int_0^1 x\left(x^2+1\right)^3dx$ bằng
-  A. $\dfrac{15}{4}$
-  B. $\dfrac{15}{8}$
-  C. $2$
-  D. $4$
-
-  **Lời giải.** Đặt $u=x^2+1$, khi đó $du=2x\,dx$ và $x\,dx=\dfrac12du$. Khi $x=0$ thì $u=1$; khi $x=1$ thì $u=2$.
-  $$\frac12\int_1^2u^3\,du=\frac12\left[\frac{u^4}{4}\right]_1^2=\frac12\cdot\frac{16-1}{4}=\frac{15}{8}.$$
-  Đáp án **B**. Phương án A quên hệ số $\dfrac12$.
-  :::
-
-:::warning Giữ cận cho nhất quán
-[[P3·3cca]]
-Sau khi đổi biến, hoặc đổi cận sang giá trị của $u$, hoặc quay về biến $x$ rồi mới dùng cận cũ. Viết $\displaystyle\int_0^1u^3\,du$ với cận cũ là một trong những lỗi người chấm gặp nhiều nhất.
-:::
-
-## Chia đa thức và đưa về bình phương đủ
-
-[[P4·ed0d]]
-Khi hàm dưới dấu tích phân là phân thức có bậc tử không nhỏ hơn bậc mẫu, hãy chia đa thức trước. Khi mẫu là tam thức bậc hai vô nghiệm, hãy đưa về bình phương đủ và nhắm tới $\displaystyle\int\frac{du}{u^2+a^2}=\frac1a\arctan\frac ua+C$.
-
-  :::example Hai cách biến đổi
-  Tìm a) $\displaystyle\int\frac{x^2+1}{x+1}\,dx$ và b) $\displaystyle\int\frac{dx}{x^2+2x+5}$.
-
-  **Lời giải.** a) Chia đa thức: $\dfrac{x^2+1}{x+1}=x-1+\dfrac{2}{x+1}$, nên tích phân bằng $\dfrac{x^2}{2}-x+2\ln|x+1|+C$.
-
-  b) $x^2+2x+5=(x+1)^2+4$. Với $u=x+1$ và $a=2$: $\dfrac12\arctan\dfrac{x+1}{2}+C$.
-  :::
-
-## Tích phân từng phần và phân thức đơn giản (BC)
-
-  :::theorem Tích phân từng phần
-  $$\int u\,dv=uv-\int v\,du.$$
-  Chọn $u$ là thừa số trở nên đơn giản hơn khi lấy đạo hàm (đa thức hoặc $\ln x$), còn $dv$ là thừa số tìm được nguyên hàm.
-  :::
-
-  :::example Hai tích kinh điển
-  Tìm a) $\displaystyle\int xe^x\,dx$ và b) $\displaystyle\int x\ln x\,dx$.
-
-  **Lời giải.** a) $u=x$, $dv=e^x\,dx$: $xe^x-\displaystyle\int e^x\,dx=xe^x-e^x+C$.
-
-  b) Ở đây chọn $u=\ln x$ (khó lấy nguyên hàm của $\ln x$ nếu để nó làm $dv$) và $dv=x\,dx$: $\dfrac{x^2}{2}\ln x-\displaystyle\int\frac{x^2}{2}\cdot\frac1x\,dx=\dfrac{x^2}{2}\ln x-\dfrac{x^2}{4}+C$.
-  :::
-
-  :::example Tách phân thức đơn giản
-  Tính $\displaystyle\int_1^2\frac{dx}{x(x+1)}$.
-
-  **Lời giải.** $\dfrac{1}{x(x+1)}=\dfrac1x-\dfrac{1}{x+1}$. Vậy tích phân bằng $\Big[\ln x-\ln(x+1)\Big]_1^2=(\ln2-\ln3)-(0-\ln2)=\ln\dfrac43$.
-
-  Đề AP BC chỉ dùng mẫu là tích các nhân tử bậc nhất không lặp lại, như ví dụ này.
-  :::
-
-## Tích phân suy rộng (BC)
-
-[[P5·e8dd]]
-Tích phân có cận vô cực, hoặc có hàm dưới dấu tích phân tiến ra vô cực bên trong khoảng, được định nghĩa bằng giới hạn:
-  $$\int_1^{\infty}f(x)\,dx=\lim_{b\to\infty}\int_1^b f(x)\,dx.$$
-[[P6·f147]]
-Nếu giới hạn là một số hữu hạn thì tích phân **hội tụ**; ngược lại thì **phân kì**. Hãy viết rõ giới hạn ra: người chấm tìm dòng đó.
-
-  :::example Một cái hội tụ, một cái phân kì
-  Tính $\displaystyle\int_1^{\infty}\frac{dx}{x^2}$ và $\displaystyle\int_1^{\infty}\frac{dx}{x}$.
-
-  **Lời giải.** $\displaystyle\lim_{b\to\infty}\left[-\frac1x\right]_1^b=\lim_{b\to\infty}\left(1-\frac1b\right)=1$: hội tụ về $1$.
-
-  $\displaystyle\lim_{b\to\infty}\Big[\ln x\Big]_1^b=\lim_{b\to\infty}\ln b=\infty$: phân kì. Tổng quát, $\displaystyle\int_1^\infty\frac{dx}{x^p}$ hội tụ khi và chỉ khi $p>1$.
-  :::
-
-:::tip Kiểm tra bằng đạo hàm
-[[P7·4162]]
-Ở phần không dùng máy tính, hãy dành mười giây lấy đạo hàm của nguyên hàm bạn vừa tìm. Cách này bắt được hệ số $\dfrac12$ bị thiếu hay dấu bị sai, cũng chính là chỗ các phương án nhiễu trong câu trắc nghiệm được tạo ra.
-:::
-
-  :::terms
-  - substitution (u-substitution) | phép đổi biến
-  - antiderivative | nguyên hàm
-  - long division | phép chia đa thức
-  - completing the square | đưa về bình phương đủ
-  - integration by parts | tích phân từng phần
-  - partial fractions | phân tích thành phân thức đơn giản
-  - improper integral | tích phân suy rộng
-  - converge / diverge | hội tụ / phân kì
-  :::
-
-## Bài tập tương tự
-
-:::exercise Trắc nghiệm
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Tự luận
-   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Tự luận
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Trắc nghiệm
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise BC: tự luận
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Bài tập vận dụng
-
-:::exercise Đổ nước vào bể
-   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Đưa về bình phương đủ
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise BC: từng phần và tích phân suy rộng
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
+
+## Kiểm tra mini
 
 :::quiz
    (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 
-######## BÀI exams/ap-calculus/apcalc-integration-techniques – BẢN TIẾNG ANH ########
+######## BÀI g12/angle-formulas-space – BẢN TIẾNG ANH ########
 ---
-title: Integration techniques
-description: AP Calculus Unit 6, part 2: substitution, long division and completing the square; for BC, integration by parts, partial fractions and improper integrals.
-minutes: 45
+title: Angle formulas in space
+description: Find the angle between two lines, between a line and a plane, and between two planes with coordinates; apply it to cubes, pyramids and real problems.
+minutes: 22
 ---
 
   :::goals
-  - Find antiderivatives by substitution, and change the limits of a definite integral correctly.
-  - Rewrite an integrand by long division or by completing the square before integrating.
-  - (BC) Integrate by parts and by partial fractions.
-  - (BC) Decide whether an improper integral converges, and find its value when it does.
+  - Find the angle between two lines: $\cos\varphi=\dfrac{|\vec{u}_1\cdot\vec{u}_2|}{|\vec{u}_1||\vec{u}_2|}$.
+  - Find the angle between a line and a plane: $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$.
+  - Find the angle between two planes: $\cos\varphi=\dfrac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1||\vec{n}_2|}$.
+  - Place a cube or a pyramid in $Oxyz$ to compute angles.
   :::
 
-[[P1·d0f4]]
-The fundamental theorem turns every definite integral into an antiderivative problem, so the speed and accuracy of your antidifferentiation decide many points on the exam. On the multiple-choice part without a calculator, almost a third of the integral questions need a substitution. In the free-response part, a correct setup earns points, but the final answer point needs the right antiderivative. AB students need the first two sections; BC students need all four.
+[[P1·1d17]]
+A $10$ m radio mast is held by a cable running from the top of the mast to an anchor in the ground. With the foot of the mast at the origin and the metre as unit, the top of the mast is $T(0, 0, 10)$ and the anchor is $A(6, 8, 0)$. What angle does the cable make with the ground?
 
-## Substitution
+[[P2·5f80]]
+In the lesson [Operations on vectors in coordinates](lesson:vector-coordinate-operations) we found the angle between two vectors. This lesson uses that formula, with an absolute value added, to find angles between lines and planes.
 
-[[P2·b8da]]
-Substitution is the chain rule read backwards. Look for a function $u=g(x)$ whose derivative $g'(x)$ also appears (up to a constant factor) in the integrand. Then $du=g'(x)\,dx$ and
-  $$\int f\big(g(x)\big)g'(x)\,dx=\int f(u)\,du.$$
-
-  :::example An inside function and its derivative
-  Find $\displaystyle\int 2x\cos\left(x^2\right)dx$.
-
-  **Solution.** Let $u=x^2$, so $du=2x\,dx$. The integral becomes $\displaystyle\int\cos u\,du=\sin u+C=\sin\left(x^2\right)+C$. Check by differentiating: $\cos\left(x^2\right)\cdot2x$.
-  :::
-
-  :::example Changing the limits
-  What is $\displaystyle\int_0^1 x\left(x^2+1\right)^3dx$?
-  A. $\dfrac{15}{4}$
-  B. $\dfrac{15}{8}$
-  C. $2$
-  D. $4$
-
-  **Solution.** Let $u=x^2+1$, so $du=2x\,dx$ and $x\,dx=\dfrac12du$. When $x=0$, $u=1$; when $x=1$, $u=2$.
-  $$\frac12\int_1^2u^3\,du=\frac12\left[\frac{u^4}{4}\right]_1^2=\frac12\cdot\frac{16-1}{4}=\frac{15}{8}.$$
-  Answer **B**. Option A forgets the factor $\dfrac12$.
-  :::
-
-:::warning Keep the limits consistent
-[[P3·3d83]]
-After the substitution, either change the limits to values of $u$, or go back to $x$ before using the old limits. Writing $\displaystyle\int_0^1u^3\,du$ with the old limits is one of the most common errors graders see.
+:::diagram The mast and the cable
+   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-## Long division and completing the square
+## The angle between a line and a plane
 
-[[P4·f5c3]]
-When the integrand is a fraction whose numerator has degree at least that of the denominator, divide first. When the denominator is a quadratic with no real roots, complete the square and aim for $\displaystyle\int\frac{du}{u^2+a^2}=\frac1a\arctan\frac ua+C$.
+### Exploring: two ways to find the angle of the cable
 
-  :::example Two rewrites
-  Find a) $\displaystyle\int\frac{x^2+1}{x+1}\,dx$ and b) $\displaystyle\int\frac{dx}{x^2+2x+5}$.
+[[P3·3ab1]]
+**Method 1: a right-angled triangle.** The projection of the cable $TA$ on the ground is $OA$, with $OA=\sqrt{36+64}=10$. Triangle $TOA$ has a right angle at $O$ and $OT=OA=10$, so $\angle OAT=45^\circ$.
 
-  **Solution.** a) Long division gives $\dfrac{x^2+1}{x+1}=x-1+\dfrac{2}{x+1}$, so the integral is $\dfrac{x^2}{2}-x+2\ln|x+1|+C$.
+[[P4·c130]]
+**Method 2: vectors.** Take $\vec{u}=\overrightarrow{TA}=(6, 8, -10)$ and the normal vector of the ground $\vec{k}=(0, 0, 1)$. We have
+  $$\cos(\vec{u}, \vec{k})=\frac{-10}{\sqrt{200}\cdot1}=-\frac{\sqrt2}{2},\qquad (\vec{u}, \vec{k})=135^\circ.$$
+[[P5·acfb]]
+The angle between the line of $\vec{u}$ and the vertical is $180^\circ-135^\circ=45^\circ$. The angle we want makes $90^\circ$ together with that angle: $90^\circ-45^\circ=45^\circ$. Since $\sin\varphi=\cos(90^\circ-\varphi)$, we can go straight to $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{k}|}{|\vec{u}||\vec{k}|}=\dfrac{\sqrt2}{2}$.
 
-  b) $x^2+2x+5=(x+1)^2+4$. With $u=x+1$ and $a=2$: $\dfrac12\arctan\dfrac{x+1}{2}+C$.
+  :::theorem The angle between a line and a plane
+  Let the line $\Delta$ have direction vector $\vec{u}$ and the plane $(P)$ have normal vector $\vec{n}$. The angle $\varphi$ between $\Delta$ and $(P)$ ($0^\circ\le\varphi\le90^\circ$) satisfies
+  $$\sin\varphi=\frac{|\vec{u}\cdot\vec{n}|}{|\vec{u}|\cdot|\vec{n}|}.$$
   :::
 
-## Integration by parts and partial fractions (BC)
+[[P6·8ed7]]
+**Why is it true?** The angle between $\Delta$ and $(P)$ is the angle between $\Delta$ and its projection on $(P)$. This angle and the angle between $\Delta$ and the normal to $(P)$ add up to $90^\circ$. The angle between the line $\Delta$ and the line of $\vec{n}$ has cosine $\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$, and the cosine of $90^\circ-\varphi$ is exactly $\sin\varphi$.
 
-  :::theorem Integration by parts
-  $$\int u\,dv=uv-\int v\,du.$$
-  Choose $u$ to be the factor that gets simpler when differentiated (a polynomial or $\ln x$), and $dv$ the factor you can integrate.
+## The angle between two lines and between two planes
+
+[[P7·fc37]]
+The angle between two lines is always between $0^\circ$ and $90^\circ$, but the angle between their direction vectors can be obtuse. That is why we take the absolute value of the scalar product. The angle between two planes equals the angle between two lines perpendicular to them, so we use the two normal vectors.
+
+  :::theorem Two angle formulas
+  - Two lines $\Delta_1$, $\Delta_2$ with direction vectors $\vec{u}_1$, $\vec{u}_2$ make an angle $\varphi$ ($0^\circ\le\varphi\le90^\circ$) with
+  $$\cos\varphi=\frac{|\vec{u}_1\cdot\vec{u}_2|}{|\vec{u}_1|\cdot|\vec{u}_2|}.$$
+  - Two planes $(P_1)$, $(P_2)$ with normal vectors $\vec{n}_1$, $\vec{n}_2$ make an angle $\varphi$ ($0^\circ\le\varphi\le90^\circ$) with
+  $$\cos\varphi=\frac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1|\cdot|\vec{n}_2|}.$$
   :::
 
-  :::example Two classic products
-  Find a) $\displaystyle\int xe^x\,dx$ and b) $\displaystyle\int x\ln x\,dx$.
+  :::example The angle between two lines
+  Find the angle between $d_1: \begin{cases}x=1+t\\ y=2-t\\ z=3\end{cases}$ and $d_2: \begin{cases}x=2\\ y=s\\ z=1-s.\end{cases}$
 
-  **Solution.** a) $u=x$, $dv=e^x\,dx$: $xe^x-\displaystyle\int e^x\,dx=xe^x-e^x+C$.
+  **Solution.** Read the direction vectors from the coefficients of the parameters: $\vec{u}_1=(1, -1, 0)$, $\vec{u}_2=(0, 1, -1)$. Then:
 
-  b) Here $u=\ln x$ (we cannot easily integrate $\ln x$ as $dv$) and $dv=x\,dx$: $\dfrac{x^2}{2}\ln x-\displaystyle\int\frac{x^2}{2}\cdot\frac1x\,dx=\dfrac{x^2}{2}\ln x-\dfrac{x^2}{4}+C$.
+  $$\vec{u}_1\cdot\vec{u}_2=0-1+0=-1,\qquad \cos\varphi=\frac{|-1|}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+  So the angle between $d_1$ and $d_2$ is $60^\circ$.
+
+  **Check.** The angle between the *vectors* $\vec{u}_1$, $\vec{u}_2$ is $120^\circ$ (cosine $-\dfrac12$); the angle between the *lines* is $180^\circ-120^\circ=60^\circ$.
   :::
 
-  :::example Partial fractions
-  Evaluate $\displaystyle\int_1^2\frac{dx}{x(x+1)}$.
+[[P8·956d]]
+In solid geometry, we place the figure in the axes so that many coordinates are $0$, then use the formulas above.
 
-  **Solution.** $\dfrac{1}{x(x+1)}=\dfrac1x-\dfrac{1}{x+1}$. So the integral is $\Big[\ln x-\ln(x+1)\Big]_1^2=(\ln2-\ln3)-(0-\ln2)=\ln\dfrac43$.
+  :::example Two face diagonals of a cube
+  Let $ABCD.A'B'C'D'$ be a cube with edge $1$. Find the angle between the lines $AB'$ and $BC'$.
 
-  AP BC only uses non-repeated linear factors in the denominator, like this one.
+  **Solution.** Put $A(0, 0, 0)$, $B(1, 0, 0)$, $D(0, 1, 0)$, $A'(0, 0, 1)$. Then $B'(1, 0, 1)$, $C'(1, 1, 1)$ and
+
+  $$\overrightarrow{AB'}=(1, 0, 1),\qquad \overrightarrow{BC'}=(0, 1, 1),\qquad \cos\varphi=\frac{|0+0+1|}{\sqrt2\cdot\sqrt2}=\frac12.$$
+
+  So the angle between $AB'$ and $BC'$ is $60^\circ$.
   :::
 
-## Improper integrals (BC)
+[[P9·8a6c]]
+A pyramid with one lateral edge perpendicular to the base also fits the axes very neatly.
 
-[[P5·9ada]]
-An integral with an infinite limit, or with an integrand that blows up inside the interval, is defined as a limit:
-  $$\int_1^{\infty}f(x)\,dx=\lim_{b\to\infty}\int_1^b f(x)\,dx.$$
-[[P6·9c8e]]
-If the limit is a finite number, the integral **converges**; otherwise it **diverges**. Write the limit explicitly: graders look for it.
-
-  :::example One converges, one diverges
-  Evaluate $\displaystyle\int_1^{\infty}\frac{dx}{x^2}$ and $\displaystyle\int_1^{\infty}\frac{dx}{x}$.
-
-  **Solution.** $\displaystyle\lim_{b\to\infty}\left[-\frac1x\right]_1^b=\lim_{b\to\infty}\left(1-\frac1b\right)=1$: converges to $1$.
-
-  $\displaystyle\lim_{b\to\infty}\Big[\ln x\Big]_1^b=\lim_{b\to\infty}\ln b=\infty$: diverges. In general $\displaystyle\int_1^\infty\frac{dx}{x^p}$ converges exactly when $p>1$.
-  :::
-
-:::tip Check by differentiating
-[[P7·3718]]
-On the no-calculator part, spend ten seconds differentiating your antiderivative. It catches a missing $\dfrac12$ or a wrong sign, which is exactly where the wrong options in multiple-choice questions come from.
+:::diagram The pyramid $S.ABCD$ with $SA$ perpendicular to the base
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
+
+  :::example The angle between a lateral edge and a plane in a pyramid
+  The pyramid $S.ABCD$ has a square base with side $2$, $SA$ perpendicular to the base and $SA=2$. Find the angle between $SC$ and the base, and the angle between $SB$ and the plane $(SAC)$ (to one decimal place of a degree).
+
+  **Solution.** Put $A(0, 0, 0)$, $B(2, 0, 0)$, $D(0, 2, 0)$, $S(0, 0, 2)$, so $C(2, 2, 0)$. The base is $(Oxy)$, with normal vector $(0, 0, 1)$:
+
+  $$\overrightarrow{SC}=(2, 2, -2),\qquad \sin\varphi_1=\frac{|-2|}{\sqrt{12}\cdot1}=\frac{1}{\sqrt3},\qquad \varphi_1\approx35.3^\circ.$$
+
+  The plane $(SAC)$ contains $Oz$ and the point $C(2, 2, 0)$, so its equation is $x-y=0$, with $\vec{n}=(1, -1, 0)$. With $\overrightarrow{SB}=(2, 0, -2)$:
+
+  $$\sin\varphi_2=\frac{|2-0+0|}{\sqrt8\cdot\sqrt2}=\frac{2}{4}=\frac12,\qquad \varphi_2=30^\circ.$$
+
+  So $SC$ makes an angle of about $35.3^\circ$ with the base, and $SB$ makes an angle of $30^\circ$ with $(SAC)$.
+  :::
+
+[[P10·e985]]
+For two planes we only need the two normal vectors.
+
+  :::example The angle between two planes
+  a) Find the angle between $(P): x+2y-2z+1=0$ and $(Q): 2x-y+2z-3=0$ (to one decimal place of a degree).
+
+  b) In the pyramid of the previous example, find the angle between the lateral face $(SBC)$ and the base.
+
+  **Solution.** a) $\vec{n}_P=(1, 2, -2)$ and $\vec{n}_Q=(2, -1, 2)$ both have length $3$:
+
+  $$\cos\varphi=\frac{|2-2-4|}{3\cdot3}=\frac49,\qquad \varphi\approx63.6^\circ.$$
+
+  b) The plane $(SBC)$ passes through $B(2, 0, 0)$, $C(2, 2, 0)$, $S(0, 0, 2)$. It contains the line $BC$, which is parallel to $Oy$, so it has the form $Ax+Cz+D=0$; substituting $B$ and $S$ gives $(SBC): x+z-2=0$, with $\vec{n}=(1, 0, 1)$:
+
+  $$\cos\varphi=\frac{|0+0+1|}{\sqrt2\cdot1}=\frac{\sqrt2}{2},\qquad \varphi=45^\circ.$$
+
+  So a) the angle is about $63.6^\circ$; b) the angle is $45^\circ$.
+  :::
+
+[[P11·e336]]
+The last example is a real problem with several steps, so we follow the four stages.
+
+  :::example A pyramid tent
+  A tent is a regular square pyramid: its base is a square with side $4$ m and its apex is $3$ m above the centre of the base. Find the angle between one face of the roof and the ground, and the angle between one roof edge and the ground (to one decimal place of a degree).
+
+  **Solution.**
+
+  *Understand.* We need one angle between two planes and one angle between a line and a plane.
+
+  *Plan.* Put the centre of the base at the origin: $B(2, -2, 0)$, $C(2, 2, 0)$, apex $S(0, 0, 3)$; the ground is $(Oxy)$ with normal vector $\vec{k}=(0, 0, 1)$.
+
+  *Solve.* The face $(SBC)$ contains $BC$, which is parallel to $Oy$, so it has the form $Ax+Cz+D=0$. Substituting $B$ and $S$: $(SBC): 3x+2z-6=0$. Then:
+
+  $$\cos\varphi_1=\frac{|2|}{\sqrt{9+4}\cdot1}=\frac{2}{\sqrt{13}},\qquad \varphi_1\approx56.3^\circ.$$
+
+  For the edge $SC$, $\overrightarrow{SC}=(2, 2, -3)$:
+
+  $$\sin\varphi_2=\frac{|-3|}{\sqrt{17}\cdot1}=\frac{3}{\sqrt{17}},\qquad \varphi_2\approx46.7^\circ.$$
+
+  So the roof faces slope at about $56.3^\circ$ and the roof edges at about $46.7^\circ$ to the ground.
+
+  *Look back.* The edge is less steep than the face ($46.7^\circ<56.3^\circ$), which makes sense: the edge covers a longer horizontal distance ($2\sqrt2$ m instead of $2$ m) to rise the same $3$ m.
+  :::
+
+:::warning Common mistakes
+[[P12·18d5]]
+- **Forgetting the absolute value.** Wrong: the angle between $d_1$, $d_2$ in Example 1 is $120^\circ$. Why it is wrong: the angle between two lines is never more than $90^\circ$. Right: $\cos\varphi=\dfrac{|-1|}{2}$, $\varphi=60^\circ$.
+- **Using cosine for the angle between a line and a plane.** Wrong: $\cos\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$ for $SB$ and $(SAC)$, giving $60^\circ$. Why it is wrong: that expression is the cosine of the angle between $SB$ and the normal to the plane. Right: use $\sin\varphi$, which gives $30^\circ$.
+- **Using a direction vector instead of the normal vector of a plane.** Wrong: taking $\overrightarrow{BC}$ as "the vector of the plane $(SBC)$". Why it is wrong: $\overrightarrow{BC}$ lies in the plane; it is not perpendicular to it. Right: find the equation of the plane and read off its normal vector.
+- **Mixing up degrees and radians on the calculator.** Wrong: $\arccos\dfrac49\approx1.11$, written as $1.11^\circ$. Right: switch the calculator to degrees to get $63.6^\circ$.
+:::
+
+## Key terms
 
   :::terms
-  - substitution (u-substitution) | phép đổi biến
-  - antiderivative | nguyên hàm
-  - long division | phép chia đa thức
-  - completing the square | đưa về bình phương đủ
-  - integration by parts | tích phân từng phần
-  - partial fractions | phân tích thành phân thức đơn giản
-  - improper integral | tích phân suy rộng
-  - converge / diverge | hội tụ / phân kì
+  - angle between two lines | góc giữa hai đường thẳng
+  - angle between a line and a plane | góc giữa đường thẳng và mặt phẳng
+  - angle between two planes | góc giữa hai mặt phẳng
+  - direction vector | vectơ chỉ phương
+  - normal vector | vectơ pháp tuyến
+  - orthogonal projection | hình chiếu vuông góc
+  - regular square pyramid | hình chóp tứ giác đều
+  - dihedral angle | góc nhị diện
   :::
 
-## Similar exercises
+## Summary
 
-:::exercise Multiple choice
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+[[P13·95a5]]
+- Two lines: $\cos\varphi=\dfrac{|\vec{u}_1\cdot\vec{u}_2|}{|\vec{u}_1||\vec{u}_2|}$.
+- A line and a plane: $\sin\varphi=\dfrac{|\vec{u}\cdot\vec{n}|}{|\vec{u}||\vec{n}|}$ (sine, because the angle with the normal is $90^\circ-\varphi$).
+- Two planes: $\cos\varphi=\dfrac{|\vec{n}_1\cdot\vec{n}_2|}{|\vec{n}_1||\vec{n}_2|}$.
+- Every one of these angles lies in $[0^\circ, 90^\circ]$, thanks to the absolute value.
+- The ground or a base: $(Oxy)$ with $\vec{k}=(0, 0, 1)$.
+- Cubes and pyramids: put the origin at a vertex or at the centre of the base so that many coordinates are $0$.
+
+## Practice
+
+[[P14·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Free response
-   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Free response
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Multiple choice
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise BC: free response
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-## Application exercises
-
-:::exercise Filling a tank
-   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Completing the square
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise BC: parts and an improper integral
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
+
+## Mini test
 
 :::quiz
    (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 
-######## BÀI exams/ap-calculus/apcalc-limits-continuity – BẢN TIẾNG VIỆT ########
+######## BÀI g12/antiderivatives – BẢN TIẾNG VIỆT ########
 ---
-title: Giới hạn và tính liên tục
-description: AP Calculus Unit 1: giới hạn một bên, các kĩ thuật tính giới hạn, sin x / x, giới hạn ở vô cực, các loại gián đoạn và định lí giá trị trung gian.
-minutes: 40
+title: Nguyên hàm
+description: Hiểu nguyên hàm là phép ngược của đạo hàm, dùng bảng nguyên hàm cơ bản, tìm nguyên hàm thoả mãn một điều kiện và tính quãng đường từ vận tốc.
+minutes: 20
 ---
 
   :::goals
-  - Tìm giới hạn từ đồ thị, bảng giá trị và công thức, kể cả giới hạn một bên.
-  - Tính giới hạn bằng phân tích nhân tử, nhân liên hợp và dùng $\displaystyle\lim_{x\to0}\frac{\sin x}{x}=1$.
-  - Tìm giới hạn ở vô cực, tiệm cận ngang và tiệm cận đứng của đồ thị.
-  - Xét tính liên tục, phân loại điểm gián đoạn và lập luận bằng định lí giá trị trung gian.
+  - Hiểu nguyên hàm của một hàm số và họ nguyên hàm $F(x)+C$.
+  - Dùng bảng nguyên hàm cơ bản và hai tính chất tuyến tính để tìm $\displaystyle\int f(x)\,dx$.
+  - Tìm nguyên hàm thoả mãn một điều kiện cho trước, và kiểm tra kết quả bằng cách lấy đạo hàm.
+  - Tìm quãng đường khi biết vận tốc trong bài toán chuyển động.
   :::
 
-[[P1·1b49]]
-Unit 1 là nền móng của AP Calculus: cả đạo hàm và tích phân đều được định nghĩa bằng giới hạn. Trong đề thi, giới hạn xuất hiện chủ yếu ở phần trắc nghiệm không dùng máy tính, còn tính liên tục xuất hiện trong câu tự luận yêu cầu **giải thích** (justify) một kết luận. Học sinh Việt Nam gặp các ý này ở lớp 11; kiểu đề AP bổ sung thuật ngữ chính xác và giới hạn một bên đọc từ đồ thị.
+[[P1·9e1d]]
+Một ô tô đang chạy với vận tốc $20$ m/s thì người lái đạp phanh. Từ lúc đó, vận tốc của xe sau $t$ giây là $v(t)=20-5t$ (m/s), và xe dừng hẳn sau $4$ giây. Trong $4$ giây ấy xe đi thêm được bao nhiêu mét?
 
-## Giới hạn và giới hạn một bên
+[[P2·8f29]]
+Bạn có thể nghĩ: $20\cdot 4=80$ m. Nhưng xe chạy chậm dần, nên quãng đường phải ít hơn. Để trả lời, ta cần làm ngược lại phép tính đạo hàm.
 
-[[P2·ca77]]
-$\displaystyle\lim_{x\to a}f(x)=L$ nghĩa là $f(x)$ gần $L$ bao nhiêu cũng được khi $x$ đủ gần $a$, **bất kể điều gì xảy ra tại chính $x=a$**. Giới hạn tồn tại khi và chỉ khi hai giới hạn một bên tồn tại và bằng nhau:
+[[P3·3498]]
+Đồng hồ tốc độ trên xe cho biết vận tốc ở từng thời điểm, còn đồng hồ quãng đường (đồng hồ ODO) cho biết xe đã đi bao xa. Đạo hàm đi từ quãng đường đến vận tốc; bài này học phép đi theo chiều ngược lại, từ vận tốc tìm lại quãng đường. Cũng phép ngược ấy cho phép tìm lượng nước trong bể khi biết tốc độ chảy, hay dân số khi biết tốc độ tăng dân số.
 
-  $$\lim_{x\to a}f(x)=L\iff\lim_{x\to a^-}f(x)=\lim_{x\to a^+}f(x)=L.$$
+## Nguyên hàm là gì?
 
-:::graph $y=\dfrac{x^2-9}{x-3}$ là đường thẳng $y=x+3$ bị khuyết tại $(3, 6)$
-   (… 5 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+### Khám phá: hàm số nào có đạo hàm là $2x$?
+
+[[P4·9d72]]
+Ở lớp 11 ta đã biết lấy đạo hàm. Bây giờ ta hỏi ngược lại: biết đạo hàm là $2x$, hàm số ban đầu là gì?
+
+| Hàm số $F(x)$ | $x^2$ | $x^2+1$ | $x^2-5$ | $x^2+\sqrt3$ |
+|---|---|---|---|---|
+| Đạo hàm $F'(x)$ | $2x$ | $2x$ | $2x$ | $2x$ |
+
+[[P5·c146]]
+Có rất nhiều đáp án, nhưng chúng chỉ khác nhau một hằng số, vì đạo hàm của hằng số bằng $0$. Trong bài toán ô tô, vận tốc là đạo hàm của quãng đường, nên ta cần một hàm $s(t)$ có $s'(t)=20-5t$.
+
+  :::definition Nguyên hàm
+  Cho hàm số $f(x)$ xác định trên khoảng $K$ (hoặc đoạn, nửa khoảng). Hàm số $F(x)$ là một **nguyên hàm** của $f(x)$ trên $K$ nếu
+  $$F'(x)=f(x)\quad\text{với mọi } x\in K.$$
+  :::
+
+  :::theorem Họ nguyên hàm
+  Nếu $F(x)$ là một nguyên hàm của $f(x)$ trên $K$ thì mọi nguyên hàm của $f(x)$ trên $K$ đều có dạng $F(x)+C$, với $C$ là hằng số. Ta viết
+  $$\int f(x)\,dx=F(x)+C.$$
+  :::
+
+[[P6·b0f7]]
+**Vì sao đúng?** Nếu $G(x)$ cũng là một nguyên hàm thì $\big(G(x)-F(x)\big)'=f(x)-f(x)=0$ trên $K$. Một hàm có đạo hàm bằng $0$ trên cả khoảng thì không tăng cũng không giảm, nên là hằng số: $G(x)-F(x)=C$.
+
+[[P7·e734]]
+**Hiểu sâu hơn.** Hằng số $C$ không phải là chi tiết thừa. Biết vận tốc của xe ở mọi thời điểm, ta biết xe đi *thêm* được bao xa, nhưng chưa biết xe đang ở *đâu*: còn phụ thuộc vào vị trí xuất phát. Hằng số $C$ chính là thông tin còn thiếu đó, và một điều kiện như $s(0)=0$ sẽ xác định nó.
+
+[[P8·5e93]]
+**Kết nối.** Bài này đọc ngược các công thức đạo hàm (lớp 11). Nguyên hàm là công cụ để tính tích phân ở bài sau, rồi tính diện tích và thể tích ở bài ứng dụng tích phân.
+
+[[P9·aee4]]
+Kí hiệu $\displaystyle\int f(x)\,dx$ đọc là "tích phân bất định của $f$" hay "họ nguyên hàm của $f$". Mọi hàm số liên tục trên $K$ đều có nguyên hàm trên $K$. Từ định nghĩa ta còn có $\displaystyle\int f'(x)\,dx=f(x)+C$.
+
+## Bảng nguyên hàm và tính chất
+
+[[P10·a717]]
+Mỗi dòng của bảng sau là một công thức đạo hàm đọc ngược. Bạn có thể tự kiểm tra từng dòng bằng cách lấy đạo hàm vế phải.
+
+| Hàm số $f(x)$ | Họ nguyên hàm $\displaystyle\int f(x)\,dx$ |
+|---|---|
+| $0$ | $C$ |
+| $1$ | $x+C$ |
+| $x^{\alpha}$ $(\alpha\neq-1)$ | $\dfrac{x^{\alpha+1}}{\alpha+1}+C$ |
+| $\dfrac{1}{x}$ | $\ln\lvert x\rvert+C$ |
+| $e^x$ | $e^x+C$ |
+| $a^x$ $(0<a\neq1)$ | $\dfrac{a^x}{\ln a}+C$ |
+| $\cos x$ | $\sin x+C$ |
+| $\sin x$ | $-\cos x+C$ |
+| $\dfrac{1}{\cos^2x}$ | $\tan x+C$ |
+| $\dfrac{1}{\sin^2x}$ | $-\cot x+C$ |
+
+[[P11·7a73]]
+Chú ý dấu trừ ở dòng $\sin x$: vì $(\cos x)'=-\sin x$, nên muốn được $\sin x$ ta phải lấy $-\cos x$.
+
+  :::theorem Tính chất của nguyên hàm
+  Nếu $f$, $g$ có nguyên hàm trên $K$ và $k$ là hằng số khác $0$ thì
+  $$\int k f(x)\,dx=k\int f(x)\,dx,\qquad \int\big(f(x)\pm g(x)\big)\,dx=\int f(x)\,dx\pm\int g(x)\,dx.$$
+  :::
+
+[[P12·83b9]]
+Hai tính chất này đúng vì đạo hàm cũng có tính chất như vậy. Nhờ chúng, ta tìm nguyên hàm của một tổng bằng cách xử lí từng số hạng.
+
+  :::example Nguyên hàm của một đa thức
+  Tìm $\displaystyle\int(3x^2-4x+5)\,dx$.
+
+  **Lời giải.** Áp dụng công thức nguyên hàm của $x^{\alpha}$ cho từng số hạng, ta có
+
+  $$\int(3x^2-4x+5)\,dx=3\cdot\frac{x^3}{3}-4\cdot\frac{x^2}{2}+5x+C=x^3-2x^2+5x+C.$$
+
+  **Kiểm tra.** $(x^3-2x^2+5x)'=3x^2-4x+5$, đúng hàm ban đầu.
+
+  Vậy $\displaystyle\int(3x^2-4x+5)\,dx=x^3-2x^2+5x+C$.
+  :::
+
+[[P13·4dc5]]
+Với căn thức và phân thức, ta viết lại thành luỹ thừa trước khi dùng bảng.
+
+  :::example Căn thức và phân thức
+  Tìm $\displaystyle\int\left(2\sqrt x-\frac3x+\frac1{x^2}\right)dx$ trên khoảng $(0; +\infty)$.
+
+  **Lời giải.** Ta có $\sqrt x=x^{\frac12}$ và $\dfrac{1}{x^2}=x^{-2}$. Vì $\dfrac3x$ có số mũ $-1$ nên ta dùng công thức $\ln\lvert x\rvert$. Do đó
+
+  $$\begin{aligned}
+  \int\left(2x^{\frac12}-\frac3x+x^{-2}\right)dx&=2\cdot\frac{x^{\frac32}}{\frac32}-3\ln\lvert x\rvert+\frac{x^{-1}}{-1}+C\\
+  &=\frac43x\sqrt x-3\ln x-\frac1x+C.
+  \end{aligned}$$
+
+  Vì trên $(0; +\infty)$ ta có $\lvert x\rvert=x$ nên ta viết được $\ln x$.
+
+  Vậy họ nguyên hàm cần tìm là $\dfrac43x\sqrt x-3\ln x-\dfrac1x+C$.
+  :::
+
+[[P14·fb47]]
+Tiếp theo là các hàm mũ và lượng giác. Chú ý từng dấu.
+
+  :::example Hàm mũ và hàm lượng giác
+  Tìm $\displaystyle\int\left(4\cos x-2\sin x+3^x\right)dx$.
+
+  **Lời giải.** Áp dụng các công thức nguyên hàm của $\cos x$, $\sin x$ và $a^x$, ta có
+
+  $$\int\left(4\cos x-2\sin x+3^x\right)dx=4\sin x-2(-\cos x)+\frac{3^x}{\ln 3}+C=4\sin x+2\cos x+\frac{3^x}{\ln3}+C.$$
+  :::
+
+[[P15·7ab5]]
+Nhiều hàm số không có sẵn trong bảng, nhưng biến đổi một chút thì có.
+
+  :::example Biến đổi trước khi tìm nguyên hàm
+  Tìm a) $\displaystyle\int\frac{(x+1)^2}{x}\,dx$ trên $(0; +\infty)$; b) $\displaystyle\int\tan^2x\,dx$ trên $\left(-\dfrac{\pi}{2}; \dfrac{\pi}{2}\right)$.
+
+  **Lời giải.** a) Khai triển tử số rồi chia từng số hạng cho $x$, ta có
+
+  $$\int\frac{x^2+2x+1}{x}\,dx=\int\left(x+2+\frac1x\right)dx=\frac{x^2}{2}+2x+\ln x+C.$$
+
+  b) Vì $1+\tan^2x=\dfrac{1}{\cos^2x}$ nên $\tan^2x=\dfrac{1}{\cos^2x}-1$. Do đó
+
+  $$\int\tan^2x\,dx=\int\left(\frac{1}{\cos^2x}-1\right)dx=\tan x-x+C.$$
+  :::
+
+## Nguyên hàm thoả mãn một điều kiện
+
+[[P16·b290]]
+Họ nguyên hàm có vô số hàm. Khi đề cho thêm một giá trị, chẳng hạn $F(0)=5$, ta thay vào để tìm đúng một hằng số $C$.
+
+  :::example Nguyên hàm đi qua một điểm
+  Tìm nguyên hàm $F(x)$ của hàm số $f(x)=e^x+4x$ thoả mãn $F(0)=5$.
+
+  **Lời giải.** Ta có
+
+  $$F(x)=\int(e^x+4x)\,dx=e^x+2x^2+C.$$
+
+  Thay $x=0$ vào, ta được (chú ý $e^0=1$, không phải $0$)
+
+  $$F(0)=1+0+C=5\iff C=4.$$
+
+  Vậy $F(x)=e^x+2x^2+4$.
+  :::
+
+[[P17·5df2]]
+Về hình học, mỗi hằng số $C$ cho một đồ thị, và các đồ thị này là những bản tịnh tiến theo chiều dọc của nhau. Điều kiện $F(x_0)=y_0$ chọn ra đúng đồ thị đi qua điểm $(x_0; y_0)$.
+
+:::graph Ba nguyên hàm của $f(x)=2x$
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::example Phân tích nhân tử
-  $\displaystyle\lim_{x\to3}\frac{x^2-9}{x-3}$ bằng
-  A. $0$
-  B. $3$
-  C. $6$
-  D. Giới hạn không tồn tại.
+## Từ vận tốc đến quãng đường
 
-  **Lời giải.** Thay trực tiếp được $\dfrac00$, dạng vô định, nên phải rút gọn trước: với $x\ne3$, $\dfrac{(x-3)(x+3)}{x-3}=x+3\to6$. Đáp án là **C**. Đồ thị bị khuyết tại $(3, 6)$: hàm số không xác định tại đó, nhưng giới hạn vẫn tồn tại.
+[[P18·8373]]
+Nếu $s(t)$ là quãng đường vật đi được sau $t$ giây thì vận tốc là $v(t)=s'(t)$. Vậy $s(t)$ là một nguyên hàm của $v(t)$. Tương tự, vận tốc là một nguyên hàm của gia tốc. Bây giờ ta trả lời câu hỏi về chiếc ô tô.
+
+  :::example Quãng đường phanh
+  Sau khi đạp phanh, ô tô có vận tốc $v(t)=20-5t$ (m/s). Tính quãng đường xe đi được từ lúc phanh đến lúc dừng.
+
+  **Lời giải.** Xe dừng khi $v(t)=0$, tức là $20-5t=0\iff t=4$. Gọi $s(t)$ (m) là quãng đường xe đi được sau $t$ giây kể từ lúc phanh. Ta có $s(0)=0$ và
+
+  $$s(t)=\int(20-5t)\,dt=20t-\frac{5t^2}{2}+C,\qquad s(0)=C=0.$$
+
+  Do đó quãng đường đến lúc dừng là
+
+  $$s(4)=20\cdot4-\frac{5\cdot16}{2}=80-40=40.$$
+
+  Vậy xe đi thêm $40$ m, chỉ bằng một nửa con số $80$ m đoán lúc đầu.
+
+  **Nhìn lại.** Nếu xe chỉ chạy $10$ m/s và phanh với cùng mức giảm tốc, tức là $v(t)=10-5t$, thì sao? Xe dừng sau $2$ giây và đi thêm $s(2)=20-10=10$ m. Vận tốc giảm một nửa nhưng quãng đường phanh chỉ còn một phần tư: với cùng mức giảm tốc, quãng đường phanh tỉ lệ với bình phương vận tốc. Đây là lí do mỗi km/h vượt tốc độ đều làm quãng đường phanh dài thêm đáng kể.
   :::
 
-## Các kĩ thuật tính giới hạn
-
-:::note Khi thay trực tiếp được $\dfrac00$
-[[P3·f639]]
-- **Phân tích nhân tử** rồi giản ước nhân tử chung.
-- **Nhân liên hợp** với biểu thức chứa căn bậc hai.
-- **Dùng giới hạn đặc biệt** $\displaystyle\lim_{x\to0}\frac{\sin x}{x}=1$, và dạng mở rộng $\displaystyle\lim_{x\to0}\frac{\sin(kx)}{x}=k$.
+:::warning Những sai lầm thường gặp
+[[P19·b0a5]]
+- **Dùng công thức luỹ thừa cho $\dfrac1x$.** Sai: $\displaystyle\int x^{-1}dx=\frac{x^0}{0}+C$. Lí do sai: công thức $\dfrac{x^{\alpha+1}}{\alpha+1}$ chỉ dùng khi $\alpha\neq-1$. Đúng: $\displaystyle\int\frac1x\,dx=\ln\lvert x\rvert+C$.
+- **Sai dấu với $\sin x$.** Sai: $\displaystyle\int\sin x\,dx=\cos x+C$. Lí do sai: $(\cos x)'=-\sin x$. Đúng: $\displaystyle\int\sin x\,dx=-\cos x+C$.
+- **Tách nguyên hàm của một tích.** Sai: $\displaystyle\int x\cdot x\,dx=\frac{x^2}{2}\cdot\frac{x^2}{2}+C$. Lí do sai: không có quy tắc "nguyên hàm của tích bằng tích các nguyên hàm"; lấy đạo hàm vế phải được $x^3\neq x^2$. Đúng: $\displaystyle\int x^2\,dx=\frac{x^3}{3}+C$.
+- **Coi $e^0=0$ khi tìm $C$.** Sai: $F(x)=e^x+2x^2+C$, $F(0)=5$ nên $C=5$. Lí do sai: $e^0=1$. Đúng: $1+C=5$, $C=4$.
 :::
 
-  :::example Nhân liên hợp
-  Tính $\displaystyle\lim_{x\to4}\frac{\sqrt x-2}{x-4}$.
-
-  **Lời giải.** Nhân cả tử và mẫu với $\sqrt x+2$:
-
-  $$\frac{\sqrt x-2}{x-4}\cdot\frac{\sqrt x+2}{\sqrt x+2}=\frac{x-4}{(x-4)(\sqrt x+2)}=\frac{1}{\sqrt x+2}\to\frac14.$$
-
-  Giới hạn bằng $\dfrac14$. (Cách khác: $x-4=(\sqrt x-2)(\sqrt x+2)$.)
-  :::
-
-  :::example Giới hạn lượng giác đặc biệt
-  $\displaystyle\lim_{x\to0}\frac{\sin(3x)}{x}$ bằng
-  A. $0$
-  B. $\dfrac13$
-  C. $1$
-  D. $3$
-
-  **Lời giải.** $\dfrac{\sin(3x)}{x}=3\cdot\dfrac{\sin(3x)}{3x}\to3\cdot1=3$. Đáp án là **D**.
-  :::
-
-## Giới hạn ở vô cực và tiệm cận
-
-[[P4·4636]]
-Với hàm phân thức, so sánh bậc của tử và mẫu khi $x\to\pm\infty$:
-
-| Bậc | $\displaystyle\lim_{x\to\infty}$ | Tiệm cận ngang |
-|---|---|---|
-| tử < mẫu | $0$ | $y=0$ |
-| tử = mẫu | tỉ số các hệ số cao nhất | $y=\dfrac{a}{b}$ |
-| tử > mẫu | $\pm\infty$ | không có |
-
-[[P5·bf39]]
-**Tiệm cận đứng** $x=a$ xuất hiện tại nơi mẫu bằng $0$ còn tử khác $0$ (sau khi đã giản ước nhân tử chung).
-
-  :::example Tiệm cận ngang
-  Tính $\displaystyle\lim_{x\to\infty}\frac{3x^2-5x}{2x^2+7}$.
-
-  **Lời giải.** Hai bậc bằng nhau, nên giới hạn là tỉ số các hệ số cao nhất, $\dfrac32$. Đồ thị có tiệm cận ngang $y=\dfrac32$.
-  :::
-
-## Tính liên tục và định lí giá trị trung gian
-
-  :::theorem Liên tục tại một điểm
-  $f$ liên tục tại $x=a$ khi thoả mãn ba điều kiện: $f(a)$ xác định, $\displaystyle\lim_{x\to a}f(x)$ tồn tại, và $\displaystyle\lim_{x\to a}f(x)=f(a)$.
-
-  Điểm gián đoạn có thể **khử được** (removable, đồ thị bị khuyết: giới hạn tồn tại), **bước nhảy** (jump, hai giới hạn một bên khác nhau) hoặc **vô cực** (infinite, có tiệm cận đứng).
-  :::
-
-  :::example Làm cho hàm số từng khúc liên tục
-  $$f(x)=\begin{cases}kx+1, & x<2\\ x^2-1, & x\ge2\end{cases}$$
-  Với giá trị nào của $k$ thì $f$ liên tục tại $x=2$?
-
-  **Lời giải.** Giới hạn bên trái là $2k+1$; giới hạn bên phải và $f(2)$ đều bằng $3$. Liên tục đòi hỏi $2k+1=3$, nên $k=1$.
-  :::
-
-  :::theorem Định lí giá trị trung gian (IVT)
-  Nếu $f$ liên tục trên $[a; b]$ và $N$ là một số bất kì nằm giữa $f(a)$ và $f(b)$ thì tồn tại ít nhất một $c$ thuộc $(a; b)$ sao cho $f(c)=N$.
-  :::
-
-  :::example Dùng IVT
-  Hàm số $f$ liên tục trên $[1; 4]$, với $f(1)=-2$ và $f(4)=5$. Khẳng định nào chắc chắn đúng?
-  A. $f(c)=0$ với một $c$ nào đó thuộc $(1; 4)$.
-  B. $f$ đồng biến trên $[1; 4]$.
-  C. $f(c)=6$ với một $c$ nào đó thuộc $(1; 4)$.
-  D. $f'(c)=\dfrac73$ với một $c$ nào đó thuộc $(1; 4)$.
-
-  **Lời giải.** $0$ nằm giữa $-2$ và $5$, và $f$ liên tục, nên IVT cho **A**. Phương án D cần định lí giá trị trung bình, đòi hỏi $f$ có đạo hàm; điều đó không được cho. Trong bài tự luận, hãy viết: "Vì $f$ liên tục trên $[1; 4]$ và $f(1)<0<f(4)$, theo IVT tồn tại $c$ thuộc $(1; 4)$ sao cho $f(c)=0$."
-  :::
-
-:::warning Những cái bẫy thường gặp
-[[P6·0ec3]]
-- **"Không xác định" không có nghĩa là "không có giới hạn".** Đồ thị bị khuyết tại $x=a$ vẫn có giới hạn.
-- **Dùng IVT mà không nêu tính liên tục.** Luôn nêu $f$ liên tục trên đoạn đóng.
-- **Quên giản ước trước khi tìm tiệm cận đứng.** $\dfrac{x+1}{x^2-1}$ bị khuyết tại $x=-1$, không có tiệm cận ở đó.
-- **$\dfrac{\sin(kx)}{x}$ không tiến tới $1$.** Nó tiến tới $k$.
-:::
-
-:::tip Kiểm tra giới hạn bằng máy tính
-[[P7·9d1d]]
-Ở phần được dùng máy, một bảng giá trị với $x$ tiến về $a$ từ hai phía (ví dụ $2{,}99$; $2{,}999$ và $3{,}01$; $3{,}001$) là cách kiểm tra nhanh. Ở phần không dùng máy, hãy dựa vào biến đổi đại số.
-:::
+## Thuật ngữ
 
   :::terms
-  - giới hạn | limit
+  - nguyên hàm | antiderivative
+  - họ nguyên hàm | family of antiderivatives
+  - tích phân bất định | indefinite integral
+  - hằng số tuỳ ý $C$ | arbitrary constant $C$
+  - bảng nguyên hàm cơ bản | table of standard antiderivatives
+  - vận tốc | velocity
+  - gia tốc | acceleration
+  - quãng đường | distance travelled
+  :::
+
+## Tóm tắt
+
+[[P20·2875]]
+- $F$ là nguyên hàm của $f$ trên $K$ khi $F'(x)=f(x)$ với mọi $x\in K$.
+- Mọi nguyên hàm có dạng $F(x)+C$; viết $\displaystyle\int f(x)\,dx=F(x)+C$.
+- Bảng cần nhớ: $x^\alpha\to\dfrac{x^{\alpha+1}}{\alpha+1}$ ($\alpha\neq-1$), $\dfrac1x\to\ln\lvert x\rvert$, $e^x\to e^x$, $a^x\to\dfrac{a^x}{\ln a}$, $\cos x\to\sin x$, $\sin x\to-\cos x$, $\dfrac1{\cos^2x}\to\tan x$, $\dfrac1{\sin^2x}\to-\cot x$.
+- Hằng số nhân và tổng, hiệu được tách ra; tích thì **không**.
+- Cho thêm $F(x_0)=y_0$ thì thay vào để tìm $C$.
+- Quãng đường là nguyên hàm của vận tốc; luôn kiểm tra bằng cách lấy đạo hàm.
+
+## Luyện tập
+
+[[P21·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/antiderivatives – BẢN TIẾNG ANH ########
+---
+title: Antiderivatives
+description: See antiderivatives as differentiation in reverse, use the table of standard antiderivatives, meet a given condition and find distance from velocity.
+minutes: 20
+---
+
+  :::goals
+  - Understand an antiderivative of a function and the family $F(x)+C$.
+  - Use the table of standard antiderivatives and the two linearity rules to find $\displaystyle\int f(x)\,dx$.
+  - Find the antiderivative that meets a given condition, and check the result by differentiating.
+  - Find the distance travelled from the velocity in a motion problem.
+  :::
+
+[[P1·6a98]]
+A car is travelling at $20$ m/s when the driver brakes. From that moment, its velocity after $t$ seconds is $v(t)=20-5t$ (m/s), and the car comes to a stop after $4$ seconds. How many metres does it travel in those $4$ seconds?
+
+[[P2·20c2]]
+You might think: $20\cdot 4=80$ m. But the car keeps slowing down, so the distance must be less. To answer, we need to run differentiation backwards.
+
+[[P3·5fe3]]
+A car's speedometer shows the velocity at each moment, while its odometer shows how far the car has gone. Differentiation goes from distance to velocity; this lesson studies the reverse journey, from velocity back to distance. The same reverse step finds the amount of water in a tank from its rate of flow, or a population from its rate of growth.
+
+## What is an antiderivative?
+
+### Explore: which functions have derivative $2x$?
+
+[[P4·0b17]]
+In grade 11 we learnt to differentiate. Now we ask the reverse question: if the derivative is $2x$, what was the function?
+
+| Function $F(x)$ | $x^2$ | $x^2+1$ | $x^2-5$ | $x^2+\sqrt3$ |
+|---|---|---|---|---|
+| Derivative $F'(x)$ | $2x$ | $2x$ | $2x$ | $2x$ |
+
+[[P5·2c19]]
+There are many answers, but they differ only by a constant, because the derivative of a constant is $0$. In the car problem, the velocity is the derivative of the distance, so we need a function $s(t)$ with $s'(t)=20-5t$.
+
+  :::definition Antiderivative
+  Let $f(x)$ be defined on an interval $K$ (open, closed or half-open). A function $F(x)$ is an **antiderivative** of $f(x)$ on $K$ if
+  $$F'(x)=f(x)\quad\text{for every } x\in K.$$
+  :::
+
+  :::theorem The family of antiderivatives
+  If $F(x)$ is an antiderivative of $f(x)$ on $K$, then every antiderivative of $f(x)$ on $K$ has the form $F(x)+C$, where $C$ is a constant. We write
+  $$\int f(x)\,dx=F(x)+C.$$
+  :::
+
+[[P6·99a7]]
+**Why is it true?** If $G(x)$ is another antiderivative, then $\big(G(x)-F(x)\big)'=f(x)-f(x)=0$ on $K$. A function whose derivative is $0$ on a whole interval neither increases nor decreases, so it is a constant: $G(x)-F(x)=C$.
+
+[[P7·9230]]
+**A closer look.** The constant $C$ is not a spare detail. If we know a car's velocity at every moment, we know how much *further* it goes, but not *where* it is: that also depends on where it started. The constant $C$ is exactly this missing piece of information, and a condition such as $s(0)=0$ fixes it.
+
+[[P8·5ac1]]
+**Connections.** This lesson reads the differentiation formulas (grade 11) backwards. Antiderivatives are the tool for computing definite integrals in the next lesson, and then areas and volumes in the lesson on applications of integrals.
+
+[[P9·955e]]
+The symbol $\displaystyle\int f(x)\,dx$ is read "the indefinite integral of $f$"; it stands for the whole family of antiderivatives. Every function that is continuous on $K$ has an antiderivative on $K$. The definition also gives $\displaystyle\int f'(x)\,dx=f(x)+C$.
+
+## The table and the rules
+
+[[P10·f87c]]
+Each row of this table is a derivative formula read backwards. You can check every row by differentiating the right-hand side.
+
+| Function $f(x)$ | Indefinite integral $\displaystyle\int f(x)\,dx$ |
+|---|---|
+| $0$ | $C$ |
+| $1$ | $x+C$ |
+| $x^{\alpha}$ $(\alpha\neq-1)$ | $\dfrac{x^{\alpha+1}}{\alpha+1}+C$ |
+| $\dfrac{1}{x}$ | $\ln\lvert x\rvert+C$ |
+| $e^x$ | $e^x+C$ |
+| $a^x$ $(0<a\neq1)$ | $\dfrac{a^x}{\ln a}+C$ |
+| $\cos x$ | $\sin x+C$ |
+| $\sin x$ | $-\cos x+C$ |
+| $\dfrac{1}{\cos^2x}$ | $\tan x+C$ |
+| $\dfrac{1}{\sin^2x}$ | $-\cot x+C$ |
+
+[[P11·adec]]
+Notice the minus sign in the $\sin x$ row: since $(\cos x)'=-\sin x$, to get $\sin x$ we must take $-\cos x$.
+
+  :::theorem Rules for antiderivatives
+  If $f$ and $g$ have antiderivatives on $K$ and $k$ is a non-zero constant, then
+  $$\int k f(x)\,dx=k\int f(x)\,dx,\qquad \int\big(f(x)\pm g(x)\big)\,dx=\int f(x)\,dx\pm\int g(x)\,dx.$$
+  :::
+
+[[P12·6560]]
+Both rules hold because differentiation follows the same rules. With them, we find the antiderivative of a sum one term at a time.
+
+  :::example The antiderivative of a polynomial
+  Find $\displaystyle\int(3x^2-4x+5)\,dx$.
+
+  **Solution.** Applying the formula for the antiderivative of $x^{\alpha}$ to each term, we have
+
+  $$\int(3x^2-4x+5)\,dx=3\cdot\frac{x^3}{3}-4\cdot\frac{x^2}{2}+5x+C=x^3-2x^2+5x+C.$$
+
+  **Check.** $(x^3-2x^2+5x)'=3x^2-4x+5$, which is the original function.
+
+  So $\displaystyle\int(3x^2-4x+5)\,dx=x^3-2x^2+5x+C$.
+  :::
+
+[[P13·cd18]]
+With roots and fractions, we rewrite them as powers before using the table.
+
+  :::example Roots and fractions
+  Find $\displaystyle\int\left(2\sqrt x-\frac3x+\frac1{x^2}\right)dx$ on $(0, +\infty)$.
+
+  **Solution.** We have $\sqrt x=x^{\frac12}$ and $\dfrac{1}{x^2}=x^{-2}$. Since $\dfrac3x$ has exponent $-1$, we use the $\ln\lvert x\rvert$ formula. Hence
+
+  $$\begin{aligned}
+  \int\left(2x^{\frac12}-\frac3x+x^{-2}\right)dx&=2\cdot\frac{x^{\frac32}}{\frac32}-3\ln\lvert x\rvert+\frac{x^{-1}}{-1}+C\\
+  &=\frac43x\sqrt x-3\ln x-\frac1x+C.
+  \end{aligned}$$
+
+  Since $\lvert x\rvert=x$ on $(0, +\infty)$, we may write $\ln x$.
+
+  So the required family of antiderivatives is $\dfrac43x\sqrt x-3\ln x-\dfrac1x+C$.
+  :::
+
+[[P14·e858]]
+Next come exponential and trigonometric functions. Watch every sign.
+
+  :::example Exponential and trigonometric functions
+  Find $\displaystyle\int\left(4\cos x-2\sin x+3^x\right)dx$.
+
+  **Solution.** Applying the formulas for the antiderivatives of $\cos x$, $\sin x$ and $a^x$, we have
+
+  $$\int\left(4\cos x-2\sin x+3^x\right)dx=4\sin x-2(-\cos x)+\frac{3^x}{\ln 3}+C=4\sin x+2\cos x+\frac{3^x}{\ln3}+C.$$
+  :::
+
+[[P15·ff80]]
+Many functions are not in the table, but a small rearrangement puts them there.
+
+  :::example Rearranging first
+  Find a) $\displaystyle\int\frac{(x+1)^2}{x}\,dx$ on $(0, +\infty)$; b) $\displaystyle\int\tan^2x\,dx$ on $\left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)$.
+
+  **Solution.** a) Expanding the numerator and dividing each term by $x$, we have
+
+  $$\int\frac{x^2+2x+1}{x}\,dx=\int\left(x+2+\frac1x\right)dx=\frac{x^2}{2}+2x+\ln x+C.$$
+
+  b) Since $1+\tan^2x=\dfrac{1}{\cos^2x}$, we have $\tan^2x=\dfrac{1}{\cos^2x}-1$. Hence
+
+  $$\int\tan^2x\,dx=\int\left(\frac{1}{\cos^2x}-1\right)dx=\tan x-x+C.$$
+  :::
+
+## The antiderivative that meets a condition
+
+[[P16·702e]]
+A family of antiderivatives has infinitely many members. When we are given one more value, such as $F(0)=5$, we substitute it to find exactly one constant $C$.
+
+  :::example An antiderivative through a point
+  Find the antiderivative $F(x)$ of the function $f(x)=e^x+4x$ that satisfies $F(0)=5$.
+
+  **Solution.** We have
+
+  $$F(x)=\int(e^x+4x)\,dx=e^x+2x^2+C.$$
+
+  Substituting $x=0$, we get (note that $e^0=1$, not $0$)
+
+  $$F(0)=1+0+C=5\iff C=4.$$
+
+  So $F(x)=e^x+2x^2+4$.
+  :::
+
+[[P17·b9e6]]
+Graphically, each constant $C$ gives one graph, and these graphs are vertical translations of one another. The condition $F(x_0)=y_0$ picks out the one graph through the point $(x_0, y_0)$.
+
+:::graph Three antiderivatives of $f(x)=2x$
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## From velocity to distance
+
+[[P18·dd1c]]
+If $s(t)$ is the distance an object has travelled after $t$ seconds, its velocity is $v(t)=s'(t)$. So $s(t)$ is an antiderivative of $v(t)$. In the same way, the velocity is an antiderivative of the acceleration. Now we can answer the question about the car.
+
+  :::example Braking distance
+  After braking, the car has velocity $v(t)=20-5t$ (m/s). Find the distance it travels from the moment of braking until it stops.
+
+  **Solution.** The car stops when $v(t)=0$, that is $20-5t=0\iff t=4$. Let $s(t)$ (m) be the distance travelled $t$ seconds after braking. We have $s(0)=0$ and
+
+  $$s(t)=\int(20-5t)\,dt=20t-\frac{5t^2}{2}+C,\qquad s(0)=C=0.$$
+
+  Hence the distance until it stops is
+
+  $$s(4)=20\cdot4-\frac{5\cdot16}{2}=80-40=40.$$
+
+  So the car travels $40$ m more, only half of the $80$ m guessed at the start.
+
+  **Look back.** What if the car were going at only $10$ m/s and braked with the same deceleration, so that $v(t)=10-5t$? It stops after $2$ seconds and travels $s(2)=20-10=10$ m. Halving the speed cuts the braking distance to a quarter: with the same deceleration, the braking distance is proportional to the square of the speed. This is why every extra km/h above the speed limit makes the braking distance noticeably longer.
+  :::
+
+:::warning Common mistakes
+[[P19·7846]]
+- **Using the power rule for $\dfrac1x$.** Wrong: $\displaystyle\int x^{-1}dx=\frac{x^0}{0}+C$. Why it is wrong: the formula $\dfrac{x^{\alpha+1}}{\alpha+1}$ only works when $\alpha\neq-1$. Right: $\displaystyle\int\frac1x\,dx=\ln\lvert x\rvert+C$.
+- **The wrong sign with $\sin x$.** Wrong: $\displaystyle\int\sin x\,dx=\cos x+C$. Why it is wrong: $(\cos x)'=-\sin x$. Right: $\displaystyle\int\sin x\,dx=-\cos x+C$.
+- **Splitting the antiderivative of a product.** Wrong: $\displaystyle\int x\cdot x\,dx=\frac{x^2}{2}\cdot\frac{x^2}{2}+C$. Why it is wrong: there is no rule "the antiderivative of a product is the product of the antiderivatives"; differentiating the right-hand side gives $x^3\neq x^2$. Right: $\displaystyle\int x^2\,dx=\frac{x^3}{3}+C$.
+- **Taking $e^0=0$ when finding $C$.** Wrong: $F(x)=e^x+2x^2+C$ and $F(0)=5$, so $C=5$. Why it is wrong: $e^0=1$. Right: $1+C=5$, so $C=4$.
+:::
+
+## Key terms
+
+  :::terms
+  - antiderivative | nguyên hàm
+  - family of antiderivatives | họ nguyên hàm
+  - indefinite integral | tích phân bất định
+  - arbitrary constant $C$ | hằng số tuỳ ý $C$
+  - table of standard antiderivatives | bảng nguyên hàm cơ bản
+  - velocity | vận tốc
+  - acceleration | gia tốc
+  - distance travelled | quãng đường
+  :::
+
+## Summary
+
+[[P20·dc2d]]
+- $F$ is an antiderivative of $f$ on $K$ when $F'(x)=f(x)$ for every $x\in K$.
+- Every antiderivative has the form $F(x)+C$; we write $\displaystyle\int f(x)\,dx=F(x)+C$.
+- The table to remember: $x^\alpha\to\dfrac{x^{\alpha+1}}{\alpha+1}$ ($\alpha\neq-1$), $\dfrac1x\to\ln\lvert x\rvert$, $e^x\to e^x$, $a^x\to\dfrac{a^x}{\ln a}$, $\cos x\to\sin x$, $\sin x\to-\cos x$, $\dfrac1{\cos^2x}\to\tan x$, $\dfrac1{\sin^2x}\to-\cot x$.
+- Constant factors, sums and differences split apart; products do **not**.
+- Given $F(x_0)=y_0$, substitute it to find $C$.
+- Distance is an antiderivative of velocity; always check by differentiating.
+
+## Practice
+
+[[P21·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/asymptotes – BẢN TIẾNG VIỆT ########
+---
+title: Đường tiệm cận của đồ thị hàm số
+description: Tìm tiệm cận đứng, tiệm cận ngang và tiệm cận xiên của đồ thị bằng giới hạn, với các hàm phân thức thường gặp và cách vẽ chúng.
+minutes: 20
+---
+
+  :::goals
+  - Hiểu và tìm tiệm cận ngang, tiệm cận đứng của đồ thị bằng giới hạn.
+  - Tìm tiệm cận xiên bằng phép chia đa thức hoặc bằng công thức giới hạn.
+  - Tìm các tiệm cận của $y=\dfrac{ax+b}{cx+d}$ và $y=\dfrac{ax^2+bx+c}{mx+n}$, đếm số tiệm cận của một đồ thị.
+  - Giải thích ý nghĩa của tiệm cận trong bài toán thực tế.
+  :::
+
+[[P1·4cd0]]
+Một xưởng nhỏ đóng chai nước khoáng. Mỗi tháng xưởng mất $2000$ nghìn đồng chi phí cố định (thuê mặt bằng, điện), và mỗi chai tốn thêm $5$ nghìn đồng. Nếu làm $x$ chai, chi phí trung bình cho một chai là
+  $$A(x)=\frac{5x+2000}{x}\ \ (\text{nghìn đồng}).$$
+[[P2·fd24]]
+Làm càng nhiều chai thì chi phí trung bình càng giảm. Liệu nó có giảm xuống dưới $5$ nghìn đồng được không?
+
+[[P3·2817]]
+Đây cũng là câu hỏi của mọi nhà sản xuất: làm thật nhiều thì giá thành tiến về đâu? Câu trả lời là một đường thẳng mà đồ thị tiến sát dần khi $x$ rất lớn, gọi là **tiệm cận**. Chữ "tiệm" có nghĩa là "dần dần": tiệm cận là "dần dần tiến gần". Tên gọi quốc tế *asymptote* bắt nguồn từ tiếng Hy Lạp *asymptotos*, nghĩa đen là "không cùng rơi vào một chỗ", tức là đường cong và đường thẳng ngày càng gần nhau mà không gặp nhau.
+
+## Tiệm cận ngang
+
+### Khám phá: khi $x$ rất lớn
+
+[[P4·d2b6]]
+Ta tính $A(x)$ với vài giá trị lớn của $x$:
+
+| $x$ | $100$ | $1000$ | $10\,000$ | $100\,000$ |
+|---|---|---|---|---|
+| $A(x)$ | $25$ | $7$ | $5{,}2$ | $5{,}02$ |
+
+[[P5·280d]]
+Các giá trị tiến dần về $5$ nhưng luôn lớn hơn $5$, vì $A(x)=5+\dfrac{2000}{x}$. Trên đồ thị, khi $x$ càng lớn, đường cong càng sát đường thẳng $y=5$ mà không chạm vào nó. Đường thẳng như vậy gọi là một tiệm cận.
+
+  :::definition Tiệm cận ngang
+  Đường thẳng $y=y_0$ là **tiệm cận ngang** của đồ thị hàm số $y=f(x)$ nếu
+  $$\lim_{x\to+\infty} f(x)=y_0\quad\text{hoặc}\quad \lim_{x\to-\infty} f(x)=y_0.$$
+  :::
+
+[[P6·7945]]
+Vậy để tìm tiệm cận ngang, ta tính hai giới hạn của $f$ tại $+\infty$ và tại $-\infty$ (xem lại giới hạn của hàm số ở lớp 11).
+
+[[P7·55ea]]
+**Hiểu sâu hơn.** Tiệm cận mô tả dáng điệu của đồ thị "ở rất xa", không phải tại một điểm cụ thể. Vì vậy đồ thị vẫn có thể cắt tiệm cận ngang: $y=\dfrac{x}{x^2+1}$ có tiệm cận ngang $y=0$ nhưng đi qua gốc toạ độ. "Tiến sát mà không chạm" chỉ là hình ảnh thường gặp, không phải định nghĩa.
+
+[[P8·dfa4]]
+**Kết nối.** Bài này dùng giới hạn của hàm số (lớp 11) và là một bước bắt buộc khi khảo sát hàm phân thức ở bài sau. Trong thực tế, tiệm cận ngang thường là "giá trị ổn định lâu dài" của một đại lượng: giá thành, nồng độ, số lượng một quần thể.
+
+## Tiệm cận đứng
+
+[[P9·c743]]
+Với $y=\dfrac{1}{x-2}$, khi $x$ đến gần $2$, mẫu rất nhỏ nên $y$ rất lớn về giá trị tuyệt đối: $y(2{,}01)=100$, $y(1{,}99)=-100$. Đồ thị "lao" lên hoặc xuống dọc theo đường thẳng $x=2$.
+
+  :::definition Tiệm cận đứng
+  Đường thẳng $x=x_0$ là **tiệm cận đứng** của đồ thị hàm số $y=f(x)$ nếu có ít nhất một trong các giới hạn sau:
+  $$\lim_{x\to x_0^+} f(x)=+\infty,\quad \lim_{x\to x_0^+} f(x)=-\infty,\quad \lim_{x\to x_0^-} f(x)=+\infty,\quad \lim_{x\to x_0^-} f(x)=-\infty.$$
+  :::
+
+[[P10·8f20]]
+Với phân thức, ta tìm các giá trị làm mẫu bằng $0$, rồi **kiểm tra giới hạn** tại từng giá trị: chỉ khi giới hạn là vô cực thì mới có tiệm cận đứng.
+
+  :::example Hàm phân thức bậc nhất trên bậc nhất
+  Tìm các tiệm cận của đồ thị hàm số $y=\dfrac{2x-1}{x+1}$.
+
+  **Lời giải.** Tập xác định: $\mathbb{R}\setminus\{-1\}$. Chia cả tử và mẫu cho $x$, ta có
+
+  $$\lim_{x\to\pm\infty}\frac{2x-1}{x+1}=\lim_{x\to\pm\infty}\frac{2-\frac1x}{1+\frac1x}=2.$$
+
+  Mẫu bằng $0$ tại $x=-1$, còn tử tại đó bằng $-3\neq 0$. Vì khi $x\to-1^+$ mẫu dương và dần về $0$ nên
+
+  $$\lim_{x\to-1^+}\frac{2x-1}{x+1}=-\infty,\qquad \lim_{x\to-1^-}\frac{2x-1}{x+1}=+\infty.$$
+
+  Vậy đồ thị có tiệm cận ngang $y=2$ và tiệm cận đứng $x=-1$.
+  :::
+
+:::graph Đồ thị $y=\dfrac{2x-1}{x+1}$ và hai tiệm cận
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P11·f0cd]]
+Tổng quát, đồ thị $y=\dfrac{ax+b}{cx+d}$ (với $c\neq0$, $ad-bc\neq0$) có tiệm cận đứng $x=-\dfrac{d}{c}$ và tiệm cận ngang $y=\dfrac{a}{c}$. Ví dụ sau cho thấy vì sao phải kiểm tra giới hạn chứ không chỉ nhìn mẫu.
+
+  :::example Mẫu bằng $0$ nhưng không có tiệm cận
+  Tìm các tiệm cận của đồ thị hàm số $y=\dfrac{x+1}{x^2-1}$.
+
+  **Lời giải.** Mẫu bằng $0$ tại $x=1$ và $x=-1$. Với $x\neq\pm1$, ta có
+
+  $$y=\frac{x+1}{(x-1)(x+1)}=\frac{1}{x-1}.$$
+
+  Do đó
+
+  $$\lim_{x\to1^+}\frac{1}{x-1}=+\infty,\qquad \lim_{x\to-1}\frac{1}{x-1}=-\frac12\ (\text{hữu hạn}).$$
+
+  Ta có $\lim\limits_{x\to\pm\infty}\dfrac{1}{x-1}=0$.
+
+  Vậy đồ thị có đúng hai tiệm cận: tiệm cận đứng $x=1$ và tiệm cận ngang $y=0$; đường thẳng $x=-1$ **không** phải tiệm cận.
+  :::
+
+## Tiệm cận xiên
+
+[[P12·3b7c]]
+Có những đồ thị không sát một đường nằm ngang mà sát một đường thẳng **nghiêng** khi $x\to\pm\infty$.
+
+  :::definition Tiệm cận xiên
+  Đường thẳng $y=ax+b$ ($a\neq0$) là **tiệm cận xiên** của đồ thị hàm số $y=f(x)$ nếu
+  $$\lim_{x\to+\infty}\big[f(x)-(ax+b)\big]=0\quad\text{hoặc}\quad \lim_{x\to-\infty}\big[f(x)-(ax+b)\big]=0.$$
+  Khi đó $a=\lim\dfrac{f(x)}{x}$ và $b=\lim\big[f(x)-ax\big]$ (cùng một chiều $x\to+\infty$ hoặc $x\to-\infty$).
+  :::
+
+[[P13·66bd]]
+Với $y=\dfrac{ax^2+bx+c}{mx+n}$, cách nhanh nhất là chia đa thức để viết $y=px+q+\dfrac{r}{mx+n}$. Phần $\dfrac{r}{mx+n}$ dần về $0$ khi $x\to\pm\infty$, nên tiệm cận xiên là $y=px+q$.
+
+  :::example Chia đa thức để tìm tiệm cận xiên
+  Tìm các tiệm cận của đồ thị hàm số $y=\dfrac{x^2-x+2}{x-1}$.
+
+  **Lời giải.** Chia $x^2-x+2$ cho $x-1$, ta được thương $x$, dư $2$. Do đó
+
+  $$y=x+\frac{2}{x-1},\qquad y-x=\frac{2}{x-1}\to0\ \text{khi}\ x\to\pm\infty.$$
+
+  Tại $x=1$, tử bằng $2\neq0$ và mẫu bằng $0$ nên $\lim\limits_{x\to1^+}y=+\infty$. Vì $y\to\pm\infty$ khi $x\to\pm\infty$ nên đồ thị không có tiệm cận ngang.
+
+  Vậy đồ thị có tiệm cận xiên $y=x$ và tiệm cận đứng $x=1$.
+  :::
+
+:::graph Đồ thị $y=\dfrac{x^2-x+2}{x-1}$ với tiệm cận xiên $y=x$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P14·4251]]
+Khi phép chia không thuận tiện, ta dùng công thức giới hạn trong định nghĩa. Ta làm lại với một hàm khác để thấy hai cách cho cùng kết quả.
+
+  :::example Dùng công thức giới hạn
+  Tìm tiệm cận xiên của đồ thị hàm số $y=\dfrac{2x^2+3x-1}{x+2}$.
+
+  **Lời giải.** Xét $x\to+\infty$ (khi $x\to-\infty$ kết quả giống hệt), ta có
+
+  $$a=\lim_{x\to+\infty}\frac{2x^2+3x-1}{x(x+2)}=2,\qquad b=\lim_{x\to+\infty}\left(\frac{2x^2+3x-1}{x+2}-2x\right)=\lim_{x\to+\infty}\frac{-x-1}{x+2}=-1.$$
+
+  **Kiểm tra.** Phép chia cho $2x^2+3x-1=(x+2)(2x-1)+1$, tức $y=2x-1+\dfrac{1}{x+2}$.
+
+  Vậy đồ thị có tiệm cận xiên $y=2x-1$.
+  :::
+
+[[P15·479f]]
+Một đồ thị có thể có **hai** tiệm cận ngang khác nhau ở hai phía, như ví dụ sau.
+
+  :::example Hai tiệm cận ngang
+  Tìm các tiệm cận ngang của đồ thị hàm số $y=\dfrac{3x}{\sqrt{x^2+4}}$.
+
+  **Lời giải.** Ta có $\sqrt{x^2+4}=|x|\sqrt{1+\frac{4}{x^2}}$, trong đó $|x|=x$ khi $x>0$ và $|x|=-x$ khi $x<0$. Do đó
+
+  $$\lim_{x\to+\infty}\frac{3x}{x\sqrt{1+\frac4{x^2}}}=3,\qquad \lim_{x\to-\infty}\frac{3x}{-x\sqrt{1+\frac4{x^2}}}=-3.$$
+
+  Vì hàm số xác định và liên tục trên $\mathbb{R}$ nên đồ thị không có tiệm cận đứng.
+
+  Vậy đồ thị có hai tiệm cận ngang: $y=3$ (khi $x\to+\infty$) và $y=-3$ (khi $x\to-\infty$).
+  :::
+
+:::graph Đồ thị $y=\dfrac{3x}{\sqrt{x^2+4}}$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Ý nghĩa thực tế
+
+[[P16·59dd]]
+Ta quay lại câu hỏi về chi phí đóng chai ở đầu bài.
+
+  :::example Chi phí trung bình
+  Với $A(x)=\dfrac{5x+2000}{x}$ (nghìn đồng/chai), $x>0$, tìm tiệm cận ngang của đồ thị hàm số và nêu ý nghĩa thực tế. Chi phí trung bình có thể nhỏ hơn $5$ nghìn đồng không?
+
+  **Lời giải.** Ta có
+
+  $$A(x)=5+\frac{2000}{x},\qquad \lim_{x\to+\infty}A(x)=5.$$
+
+  Do đó đường thẳng $y=5$ là tiệm cận ngang. Vì $\dfrac{2000}{x}>0$ với mọi $x>0$ nên $A(x)>5$.
+
+  Vậy làm càng nhiều chai thì chi phí trung bình càng gần $5$ nghìn đồng (đúng bằng chi phí riêng của một chai), nhưng không bao giờ nhỏ hơn $5$ nghìn đồng.
+
+  **Nhìn lại.** Muốn chi phí trung bình dưới $5{,}5$ nghìn đồng thì xưởng phải làm bao nhiêu chai? Từ $5+\dfrac{2000}{x}<5{,}5$ ta được $x>4000$. Tiệm cận cho biết giới hạn không thể vượt qua; bất phương trình cho biết phải làm bao nhiêu để đến đủ gần giới hạn đó.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P17·31b1]]
+- **Thấy mẫu bằng $0$ là kết luận có tiệm cận đứng.** Sai: "$y=\dfrac{x+1}{x^2-1}$ có hai tiệm cận đứng $x=\pm1$". Lí do sai: tại $x=-1$ giới hạn bằng $-\dfrac12$, hữu hạn. Đúng: chỉ có $x=1$.
+- **Viết tiệm cận đứng là $y=\dots$.** Sai: tiệm cận đứng $y=-1$. Lí do sai: đường thẳng đứng có dạng $x=x_0$. Đúng: tiệm cận đứng $x=-1$, tiệm cận ngang $y=2$.
+- **Quên phần dư hoặc sai dấu khi chia.** Sai: "$y=\dfrac{x^2-3x+4}{x-2}$ có tiệm cận xiên $y=x+1$". Lí do sai: $x^2-3x+4=(x-2)(x-1)+2$. Đúng: tiệm cận xiên $y=x-1$.
+- **Bỏ qua dấu của $|x|$.** Sai: "$\sqrt{x^2+4}\approx x$ nên $y=\dfrac{3x}{\sqrt{x^2+4}}$ chỉ có tiệm cận ngang $y=3$". Lí do sai: khi $x<0$ thì $\sqrt{x^2}=-x$. Đúng: còn có $y=-3$ khi $x\to-\infty$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - đường tiệm cận | asymptote
+  - tiệm cận đứng | vertical asymptote
+  - tiệm cận ngang | horizontal asymptote
+  - tiệm cận xiên | oblique (slant) asymptote
   - giới hạn một bên | one-sided limit
-  - dạng vô định | indeterminate form
-  - biểu thức liên hợp | conjugate
-  - tiệm cận ngang / tiệm cận đứng | horizontal / vertical asymptote
-  - liên tục | continuous
-  - gián đoạn khử được / bước nhảy / vô cực | removable / jump / infinite discontinuity
-  - định lí giá trị trung gian | intermediate value theorem
+  - giới hạn tại vô cực | limit at infinity
+  - phép chia đa thức | polynomial division
+  - chi phí trung bình | average cost
   :::
 
-## Bài tập tương tự
+## Tóm tắt
 
-:::exercise Trắc nghiệm
+[[P18·71fb]]
+- Tiệm cận ngang $y=y_0$: $\lim\limits_{x\to+\infty}f=y_0$ hoặc $\lim\limits_{x\to-\infty}f=y_0$. Tính **cả hai** phía.
+- Tiệm cận đứng $x=x_0$: một giới hạn một bên tại $x_0$ là $\pm\infty$. Với phân thức: tìm nghiệm của mẫu, rồi kiểm tra giới hạn.
+- Tiệm cận xiên $y=ax+b$: $a=\lim\dfrac{f(x)}{x}$, $b=\lim[f(x)-ax]$; với $\dfrac{ax^2+bx+c}{mx+n}$ thì chia đa thức và bỏ phần dư.
+- $y=\dfrac{ax+b}{cx+d}$: tiệm cận đứng $x=-\dfrac dc$, tiệm cận ngang $y=\dfrac ac$.
+- Hình vẽ: tiệm cận là đường nét đứt; đồ thị tiến sát chúng nhưng không cần cắt hay chạm.
+
+## Luyện tập
+
+[[P19·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
    (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Tự luận
-   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Trắc nghiệm
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Tự luận
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Trắc nghiệm
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-## Bài tập vận dụng
-
-:::exercise Tiệm cận và điểm khuyết
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Nghiệm theo IVT
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Bước nhảy
-   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise Ôn tập
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
-   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
+
+## Kiểm tra mini
 
 :::quiz
    (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 
-######## BÀI exams/ap-calculus/apcalc-limits-continuity – BẢN TIẾNG ANH ########
+######## BÀI g12/asymptotes – BẢN TIẾNG ANH ########
 ---
-title: Limits and continuity
-description: AP Calculus Unit 1: one-sided limits, algebraic techniques, sin x / x, limits at infinity, types of discontinuity and the intermediate value theorem.
-minutes: 40
+title: Asymptotes
+description: Find the vertical, horizontal and oblique asymptotes of a graph with limits, for the usual rational functions, and draw them.
+minutes: 20
 ---
 
   :::goals
-  - Find limits from graphs, tables and formulas, including one-sided limits.
-  - Evaluate limits algebraically by factoring, rationalizing and using $\displaystyle\lim_{x\to0}\frac{\sin x}{x}=1$.
-  - Find limits at infinity and the horizontal and vertical asymptotes of a graph.
-  - Decide whether a function is continuous, classify discontinuities, and justify a conclusion with the intermediate value theorem.
+  - Understand and find the horizontal and vertical asymptotes of a graph with limits.
+  - Find an oblique asymptote by polynomial division or with the limit formulas.
+  - Find the asymptotes of $y=\dfrac{ax+b}{cx+d}$ and $y=\dfrac{ax^2+bx+c}{mx+n}$, and count the asymptotes of a graph.
+  - Explain what an asymptote means in a real-life problem.
   :::
 
-[[P1·f8f7]]
-Unit 1 is the foundation of AP Calculus: derivatives and integrals are both defined by limits. On the exam, limits appear mostly in the no-calculator multiple-choice part, and continuity appears in free-response questions that ask you to **justify** a conclusion. Vietnamese students meet these ideas in grade 11; the AP style adds precise vocabulary and one-sided limits read from graphs.
+[[P1·e882]]
+A small workshop bottles mineral water. Each month it pays $2000$ thousand đồng in fixed costs (rent, electricity), and each bottle costs another $5$ thousand đồng. If it makes $x$ bottles, the average cost per bottle is
+  $$A(x)=\frac{5x+2000}{x}\ \ (\text{thousand đồng}).$$
+[[P2·b537]]
+The more bottles it makes, the lower the average cost. Can it ever drop below $5$ thousand đồng?
 
-## Limits and one-sided limits
+[[P3·ca9d]]
+This is the question every producer asks: if we make a very large number, where does the unit cost settle? The answer is a line that the graph gets closer and closer to as $x$ becomes very large, called an **asymptote**. The word comes from the Greek *asymptotos*, "not falling together": the curve and the line come ever closer but never meet.
 
-[[P2·acf1]]
-$\displaystyle\lim_{x\to a}f(x)=L$ means that $f(x)$ gets as close as we like to $L$ when $x$ is close enough to $a$, **whatever happens at $x=a$ itself**. The limit exists exactly when both one-sided limits exist and are equal:
+## Horizontal asymptotes
 
-  $$\lim_{x\to a}f(x)=L\iff\lim_{x\to a^-}f(x)=\lim_{x\to a^+}f(x)=L.$$
+### Explore: when $x$ is very large
 
-:::graph $y=\dfrac{x^2-9}{x-3}$ is the line $y=x+3$ with a hole at $(3, 6)$
-   (… 5 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+[[P4·abea]]
+We compute $A(x)$ for a few large values of $x$:
+
+| $x$ | $100$ | $1000$ | $10\,000$ | $100\,000$ |
+|---|---|---|---|---|
+| $A(x)$ | $25$ | $7$ | $5.2$ | $5.02$ |
+
+[[P5·8855]]
+The values get closer and closer to $5$ but stay above $5$, because $A(x)=5+\dfrac{2000}{x}$. On the graph, as $x$ grows, the curve gets closer and closer to the line $y=5$ without touching it. Such a line is called an asymptote.
+
+  :::definition Horizontal asymptote
+  The line $y=y_0$ is a **horizontal asymptote** of the graph of $y=f(x)$ if
+  $$\lim_{x\to+\infty} f(x)=y_0\quad\text{or}\quad \lim_{x\to-\infty} f(x)=y_0.$$
+  :::
+
+[[P6·2217]]
+So to find horizontal asymptotes, we compute the two limits of $f$ at $+\infty$ and at $-\infty$ (see limits of functions in grade 11).
+
+[[P7·54b8]]
+**A closer look.** An asymptote describes how the graph behaves "far away", not at one particular point. So a graph may cross its horizontal asymptote: $y=\dfrac{x}{x^2+1}$ has the horizontal asymptote $y=0$ but passes through the origin. "Getting closer without touching" is only the usual picture, not the definition.
+
+[[P8·55b5]]
+**Connections.** This lesson uses limits of functions (grade 11), and it is a required step when we sketch rational functions in the next lesson. In real life, a horizontal asymptote is often the "long-run value" of a quantity: a unit cost, a concentration, the size of a population.
+
+## Vertical asymptotes
+
+[[P9·85a5]]
+For $y=\dfrac{1}{x-2}$, when $x$ is close to $2$ the denominator is very small, so $y$ is very large in absolute value: $y(2.01)=100$, $y(1.99)=-100$. The graph "shoots" up or down along the line $x=2$.
+
+  :::definition Vertical asymptote
+  The line $x=x_0$ is a **vertical asymptote** of the graph of $y=f(x)$ if at least one of the following limits holds:
+  $$\lim_{x\to x_0^+} f(x)=+\infty,\quad \lim_{x\to x_0^+} f(x)=-\infty,\quad \lim_{x\to x_0^-} f(x)=+\infty,\quad \lim_{x\to x_0^-} f(x)=-\infty.$$
+  :::
+
+[[P10·297d]]
+For a rational function, we find the values that make the denominator zero, then **check the limit** at each of them: there is a vertical asymptote only when the limit is infinite.
+
+  :::example Linear over linear
+  Find the asymptotes of the graph of $y=\dfrac{2x-1}{x+1}$.
+
+  **Solution.** The domain is $\mathbb{R}\setminus\{-1\}$. Dividing the numerator and the denominator by $x$, we have
+
+  $$\lim_{x\to\pm\infty}\frac{2x-1}{x+1}=\lim_{x\to\pm\infty}\frac{2-\frac1x}{1+\frac1x}=2.$$
+
+  The denominator is zero at $x=-1$, and the numerator there is $-3\neq 0$. Since the denominator is positive and tends to $0$ as $x\to-1^+$,
+
+  $$\lim_{x\to-1^+}\frac{2x-1}{x+1}=-\infty,\qquad \lim_{x\to-1^-}\frac{2x-1}{x+1}=+\infty.$$
+
+  So the graph has the horizontal asymptote $y=2$ and the vertical asymptote $x=-1$.
+  :::
+
+:::graph The graph of $y=\dfrac{2x-1}{x+1}$ and its two asymptotes
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::example Factoring
-  What is $\displaystyle\lim_{x\to3}\frac{x^2-9}{x-3}$?
-  A. $0$
-  B. $3$
-  C. $6$
-  D. The limit does not exist.
+[[P11·74ef]]
+In general, the graph of $y=\dfrac{ax+b}{cx+d}$ (with $c\neq0$, $ad-bc\neq0$) has the vertical asymptote $x=-\dfrac{d}{c}$ and the horizontal asymptote $y=\dfrac{a}{c}$. The next example shows why we must check the limit and not just look at the denominator.
 
-  **Solution.** Substituting gives $\dfrac00$, an indeterminate form, so simplify first: for $x\ne3$, $\dfrac{(x-3)(x+3)}{x-3}=x+3\to6$. The answer is **C**. The graph has a hole at $(3, 6)$: the function is undefined there, but the limit exists.
+  :::example A zero denominator but no asymptote
+  Find the asymptotes of the graph of $y=\dfrac{x+1}{x^2-1}$.
+
+  **Solution.** The denominator is zero at $x=1$ and $x=-1$. For $x\neq\pm1$, we have
+
+  $$y=\frac{x+1}{(x-1)(x+1)}=\frac{1}{x-1}.$$
+
+  Hence
+
+  $$\lim_{x\to1^+}\frac{1}{x-1}=+\infty,\qquad \lim_{x\to-1}\frac{1}{x-1}=-\frac12\ (\text{finite}).$$
+
+  We have $\lim\limits_{x\to\pm\infty}\dfrac{1}{x-1}=0$.
+
+  So the graph has exactly two asymptotes: the vertical asymptote $x=1$ and the horizontal asymptote $y=0$; the line $x=-1$ is **not** an asymptote.
   :::
 
-## Algebraic techniques
+## Oblique asymptotes
 
-:::note When substitution gives $\dfrac00$
-[[P3·0aa3]]
-- **Factor** and cancel the common factor.
-- **Rationalize**: multiply by the conjugate of a square-root expression.
-- **Use the special limit** $\displaystyle\lim_{x\to0}\frac{\sin x}{x}=1$, and its variant $\displaystyle\lim_{x\to0}\frac{\sin(kx)}{x}=k$.
+[[P12·37ca]]
+Some graphs do not approach a horizontal line but a **slanted** line as $x\to\pm\infty$.
+
+  :::definition Oblique asymptote
+  The line $y=ax+b$ ($a\neq0$) is an **oblique asymptote** (slant asymptote) of the graph of $y=f(x)$ if
+  $$\lim_{x\to+\infty}\big[f(x)-(ax+b)\big]=0\quad\text{or}\quad \lim_{x\to-\infty}\big[f(x)-(ax+b)\big]=0.$$
+  Then $a=\lim\dfrac{f(x)}{x}$ and $b=\lim\big[f(x)-ax\big]$ (both as $x\to+\infty$, or both as $x\to-\infty$).
+  :::
+
+[[P13·d783]]
+For $y=\dfrac{ax^2+bx+c}{mx+n}$, the quickest way is polynomial division, writing $y=px+q+\dfrac{r}{mx+n}$. The part $\dfrac{r}{mx+n}$ tends to $0$ as $x\to\pm\infty$, so the oblique asymptote is $y=px+q$.
+
+  :::example Division to find an oblique asymptote
+  Find the asymptotes of the graph of $y=\dfrac{x^2-x+2}{x-1}$.
+
+  **Solution.** Dividing $x^2-x+2$ by $x-1$, we get quotient $x$ and remainder $2$. Hence
+
+  $$y=x+\frac{2}{x-1},\qquad y-x=\frac{2}{x-1}\to0\ \text{as}\ x\to\pm\infty.$$
+
+  At $x=1$, the numerator is $2\neq0$ and the denominator is $0$, so $\lim\limits_{x\to1^+}y=+\infty$. Since $y\to\pm\infty$ as $x\to\pm\infty$, the graph has no horizontal asymptote.
+
+  So the graph has the oblique asymptote $y=x$ and the vertical asymptote $x=1$.
+  :::
+
+:::graph The graph of $y=\dfrac{x^2-x+2}{x-1}$ with the oblique asymptote $y=x$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::example Rationalizing
-  What is $\displaystyle\lim_{x\to4}\frac{\sqrt x-2}{x-4}$?
+[[P14·44a1]]
+When division is awkward, we use the limit formulas from the definition. We try them on another function to see that both methods agree.
 
-  **Solution.** Multiply numerator and denominator by $\sqrt x+2$:
+  :::example Using the limit formulas
+  Find the oblique asymptote of the graph of $y=\dfrac{2x^2+3x-1}{x+2}$.
 
-  $$\frac{\sqrt x-2}{x-4}\cdot\frac{\sqrt x+2}{\sqrt x+2}=\frac{x-4}{(x-4)(\sqrt x+2)}=\frac{1}{\sqrt x+2}\to\frac14.$$
+  **Solution.** Consider $x\to+\infty$ (as $x\to-\infty$ the result is exactly the same). We have
 
-  The limit is $\dfrac14$. (Alternatively, $x-4=(\sqrt x-2)(\sqrt x+2)$.)
+  $$a=\lim_{x\to+\infty}\frac{2x^2+3x-1}{x(x+2)}=2,\qquad b=\lim_{x\to+\infty}\left(\frac{2x^2+3x-1}{x+2}-2x\right)=\lim_{x\to+\infty}\frac{-x-1}{x+2}=-1.$$
+
+  **Check.** Division gives $2x^2+3x-1=(x+2)(2x-1)+1$, that is $y=2x-1+\dfrac{1}{x+2}$.
+
+  So the graph has the oblique asymptote $y=2x-1$.
   :::
 
-  :::example The special trigonometric limit
-  What is $\displaystyle\lim_{x\to0}\frac{\sin(3x)}{x}$?
-  A. $0$
-  B. $\dfrac13$
-  C. $1$
-  D. $3$
+[[P15·309f]]
+A graph can have **two** different horizontal asymptotes on its two sides, as in the next example.
 
-  **Solution.** $\dfrac{\sin(3x)}{x}=3\cdot\dfrac{\sin(3x)}{3x}\to3\cdot1=3$. The answer is **D**.
+  :::example Two horizontal asymptotes
+  Find the horizontal asymptotes of the graph of $y=\dfrac{3x}{\sqrt{x^2+4}}$.
+
+  **Solution.** We have $\sqrt{x^2+4}=|x|\sqrt{1+\frac{4}{x^2}}$, where $|x|=x$ for $x>0$ and $|x|=-x$ for $x<0$. Hence
+
+  $$\lim_{x\to+\infty}\frac{3x}{x\sqrt{1+\frac4{x^2}}}=3,\qquad \lim_{x\to-\infty}\frac{3x}{-x\sqrt{1+\frac4{x^2}}}=-3.$$
+
+  Since the function is defined and continuous on $\mathbb{R}$, the graph has no vertical asymptote.
+
+  So the graph has two horizontal asymptotes: $y=3$ (as $x\to+\infty$) and $y=-3$ (as $x\to-\infty$).
   :::
 
-## Limits at infinity and asymptotes
-
-[[P4·3cc4]]
-For a rational function, compare the degrees of the numerator and the denominator as $x\to\pm\infty$:
-
-| Degrees | $\displaystyle\lim_{x\to\infty}$ | Horizontal asymptote |
-|---|---|---|
-| top < bottom | $0$ | $y=0$ |
-| top = bottom | ratio of the leading coefficients | $y=\dfrac{a}{b}$ |
-| top > bottom | $\pm\infty$ | none |
-
-[[P5·ab25]]
-A **vertical asymptote** $x=a$ appears where the denominator is $0$ and the numerator is not (after cancelling common factors).
-
-  :::example A horizontal asymptote
-  What is $\displaystyle\lim_{x\to\infty}\frac{3x^2-5x}{2x^2+7}$?
-
-  **Solution.** The degrees are equal, so the limit is the ratio of the leading coefficients, $\dfrac32$. The graph has the horizontal asymptote $y=\dfrac32$.
-  :::
-
-## Continuity and the intermediate value theorem
-
-  :::theorem Continuity at a point
-  $f$ is continuous at $x=a$ when three conditions hold: $f(a)$ is defined, $\displaystyle\lim_{x\to a}f(x)$ exists, and $\displaystyle\lim_{x\to a}f(x)=f(a)$.
-
-  Discontinuities are **removable** (a hole: the limit exists), **jump** (the one-sided limits differ) or **infinite** (a vertical asymptote).
-  :::
-
-  :::example Making a piecewise function continuous
-  $$f(x)=\begin{cases}kx+1, & x<2\\ x^2-1, & x\ge2\end{cases}$$
-  For what value of $k$ is $f$ continuous at $x=2$?
-
-  **Solution.** The left-hand limit is $2k+1$; the right-hand limit and $f(2)$ equal $3$. Continuity requires $2k+1=3$, so $k=1$.
-  :::
-
-  :::theorem Intermediate value theorem (IVT)
-  If $f$ is continuous on $[a, b]$ and $N$ is any number between $f(a)$ and $f(b)$, then there is at least one $c$ in $(a, b)$ with $f(c)=N$.
-  :::
-
-  :::example Using the IVT
-  The function $f$ is continuous on $[1, 4]$, with $f(1)=-2$ and $f(4)=5$. Which statement must be true?
-  A. $f(c)=0$ for some $c$ in $(1, 4)$.
-  B. $f$ is increasing on $[1, 4]$.
-  C. $f(c)=6$ for some $c$ in $(1, 4)$.
-  D. $f'(c)=\dfrac73$ for some $c$ in $(1, 4)$.
-
-  **Solution.** $0$ is between $-2$ and $5$, and $f$ is continuous, so the IVT gives **A**. Option D would need the mean value theorem, which requires $f$ to be differentiable; that is not given. In a free-response answer, write: "Because $f$ is continuous on $[1, 4]$ and $f(1)<0<f(4)$, by the IVT there is $c$ in $(1, 4)$ with $f(c)=0$."
-  :::
-
-:::warning Common traps
-[[P6·190c]]
-- **"Undefined" is not "no limit".** A hole at $x=a$ still has a limit.
-- **Using the IVT without continuity.** Always state that $f$ is continuous on the closed interval.
-- **Forgetting to cancel before finding vertical asymptotes.** $\dfrac{x+1}{x^2-1}$ has a hole at $x=-1$, not an asymptote.
-- **$\dfrac{\sin(kx)}{x}$ is not $1$.** It tends to $k$.
+:::graph The graph of $y=\dfrac{3x}{\sqrt{x^2+4}}$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::tip Checking limits with the calculator
-[[P7·9db6]]
-In the calculator part, a table of values with $x$ approaching $a$ from both sides (for example $2.99$, $2.999$ and $3.01$, $3.001$) is a quick check. In the no-calculator part, rely on algebra.
+## What asymptotes mean in real life
+
+[[P16·d0c1]]
+We return to the bottling question from the start.
+
+  :::example Average cost
+  For $A(x)=\dfrac{5x+2000}{x}$ (thousand đồng per bottle), $x>0$, find the horizontal asymptote of the graph of the function and explain its practical meaning. Can the average cost be less than $5$ thousand đồng?
+
+  **Solution.** We have
+
+  $$A(x)=5+\frac{2000}{x},\qquad \lim_{x\to+\infty}A(x)=5.$$
+
+  Hence the line $y=5$ is a horizontal asymptote. Since $\dfrac{2000}{x}>0$ for every $x>0$, $A(x)>5$.
+
+  So the more bottles are made, the closer the average cost gets to $5$ thousand đồng (exactly the cost of one bottle on its own), but it is never less than $5$ thousand đồng.
+
+  **Look back.** How many bottles must the workshop make for the average cost to be below $5.5$ thousand đồng? From $5+\dfrac{2000}{x}<5.5$ we get $x>4000$. The asymptote tells us the limit that cannot be passed; the inequality tells us how much is needed to get close enough to it.
+  :::
+
+:::warning Common mistakes
+[[P17·ae4b]]
+- **A zero denominator always gives a vertical asymptote.** Wrong: "$y=\dfrac{x+1}{x^2-1}$ has two vertical asymptotes $x=\pm1$". Why it is wrong: at $x=-1$ the limit is $-\dfrac12$, which is finite. Right: only $x=1$.
+- **Writing a vertical asymptote as $y=\dots$.** Wrong: the vertical asymptote is $y=-1$. Why it is wrong: a vertical line has the form $x=x_0$. Right: vertical asymptote $x=-1$, horizontal asymptote $y=2$.
+- **Losing the remainder or a sign in the division.** Wrong: "$y=\dfrac{x^2-3x+4}{x-2}$ has the oblique asymptote $y=x+1$". Why it is wrong: $x^2-3x+4=(x-2)(x-1)+2$. Right: the oblique asymptote is $y=x-1$.
+- **Ignoring the sign of $|x|$.** Wrong: "$\sqrt{x^2+4}\approx x$, so $y=\dfrac{3x}{\sqrt{x^2+4}}$ only has the horizontal asymptote $y=3$". Why it is wrong: when $x<0$, $\sqrt{x^2}=-x$. Right: there is also $y=-3$ as $x\to-\infty$.
 :::
+
+## Key terms
 
   :::terms
-  - limit | giới hạn
+  - asymptote | đường tiệm cận
+  - vertical asymptote | tiệm cận đứng
+  - horizontal asymptote | tiệm cận ngang
+  - oblique (slant) asymptote | tiệm cận xiên
   - one-sided limit | giới hạn một bên
-  - indeterminate form | dạng vô định
-  - conjugate | biểu thức liên hợp
-  - horizontal / vertical asymptote | tiệm cận ngang / tiệm cận đứng
-  - continuous | liên tục
-  - removable / jump / infinite discontinuity | gián đoạn khử được / gián đoạn bước nhảy / gián đoạn vô cực
-  - intermediate value theorem | định lí giá trị trung gian
+  - limit at infinity | giới hạn tại vô cực
+  - polynomial division | phép chia đa thức
+  - average cost | chi phí trung bình
   :::
 
-## Similar exercises
+## Summary
 
-:::exercise Multiple choice
+[[P18·833f]]
+- Horizontal asymptote $y=y_0$: $\lim\limits_{x\to+\infty}f=y_0$ or $\lim\limits_{x\to-\infty}f=y_0$. Compute **both** sides.
+- Vertical asymptote $x=x_0$: a one-sided limit at $x_0$ is $\pm\infty$. For a rational function: find the roots of the denominator, then check the limit.
+- Oblique asymptote $y=ax+b$: $a=\lim\dfrac{f(x)}{x}$, $b=\lim[f(x)-ax]$; for $\dfrac{ax^2+bx+c}{mx+n}$, divide and drop the remainder.
+- $y=\dfrac{ax+b}{cx+d}$: vertical asymptote $x=-\dfrac dc$, horizontal asymptote $y=\dfrac ac$.
+- In a figure, asymptotes are dashed lines; the graph gets close to them but need not cross or touch them.
+
+## Practice
+
+[[P19·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
    (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Free response
-   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Multiple choice
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Free response
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Multiple choice
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-## Application exercises
-
-:::exercise Asymptotes and holes
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise A root by the IVT
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise A jump
-   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise Review
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge
-   (… 12 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
+
+## Mini test
 
 :::quiz
    (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 
-######## BÀI exams/ap-calculus/apcalc-overview – BẢN TIẾNG VIỆT ########
+######## BÀI g12/conditional-probability-intro – BẢN TIẾNG VIỆT ########
 ---
-title: AP Calculus AB/BC gồm những gì và cách ôn
-description: Giải thích kì thi AP Calculus AB và BC: cấu trúc đề từ tháng 5/2027, khác nhau giữa AB và BC, mười unit, các dạng câu tự luận, máy tính và kế hoạch ôn.
-minutes: 25
-type: guide
----
-
-  :::goals
-  - Mô tả cấu trúc đề AP Calculus AB và BC từ tháng 5/2027: các phần, thời gian, quy định máy tính và cách tính điểm.
-  - Giải thích khác nhau giữa AB và BC và chọn đúng kì thi.
-  - Nhận ra các dạng câu tự luận chính.
-  - Lập kế hoạch ôn bằng các bài học Lemonmath và các tài nguyên chính thức miễn phí.
-  :::
-
-[[P1·05af]]
-AP Calculus là một trong những kì thi Advanced Placement phổ biến nhất. Điểm tốt có thể được nhiều trường đại học ở Mỹ và các nước khác công nhận tín chỉ hoặc xếp lớp, và cho hội đồng tuyển sinh thấy bạn theo được Toán bậc đại học. Với học sinh Việt Nam, nội dung khá quen thuộc: giới hạn, đạo hàm và tích phân có trong chương trình lớp 11 và 12. Điều khác biệt là mức độ **lập luận** (justification): AP yêu cầu giải thích suy luận bằng lời và bằng định lí, không chỉ tính toán.
-
-## AB hay BC?
-
-| | Calculus AB | Calculus BC |
-|---|---|---|
-| Nội dung | Unit 1–8: giới hạn, đạo hàm, tích phân, phương trình vi phân và ứng dụng | Toàn bộ AB, thêm Unit 9–10 (hàm tham số, toạ độ cực, hàm véc-tơ; chuỗi vô hạn) và một số mục thêm trong Unit 6–8 |
-| Tương đương | khoảng một học kì giải tích đại học | khoảng hai học kì |
-| Điểm | một điểm AP, từ 1 đến 5 | một điểm AP, kèm điểm phụ AB |
-
-[[P2·4a71]]
-Nếu kế hoạch học tập cho phép và bạn đã vững nội dung AB, thì BC thường là lựa chọn tốt hơn: điểm phụ AB cho thấy cả kết quả của bạn ở phần AB.
-
-## Cấu trúc đề (từ tháng 5/2027)
-
-[[P3·0339]]
-Hai đề có cùng cấu trúc. Phần trắc nghiệm làm trên ứng dụng Bluebook; phần tự luận viết tay vào tập bài làm.
-
-| Phần | Nhánh | Số câu | Thời gian | Máy tính | Tỉ trọng |
-|---|---|---|---|---|---|
-| I. Trắc nghiệm | A | 29 | 62 phút | không được dùng | 50% cho Phần I |
-| | B | 13 | 38 phút | bắt buộc máy tính đồ thị | |
-| II. Tự luận | A | 2 | 30 phút | bắt buộc máy tính đồ thị | 50% cho Phần II |
-| | B | 4 | 60 phút | không được dùng | |
-
-[[P4·0230]]
-Câu trắc nghiệm có bốn phương án và sai không bị trừ điểm. Mỗi câu tự luận được 9 điểm. Sách và trang web cũ mô tả 30 + 15 câu trắc nghiệm; cấu trúc đó kết thúc ở kì thi năm 2026. Kì thi AB năm 2027 dự kiến vào ngày 10 tháng 5; hãy xem AP Central để biết lịch chính thức.
-
-## Mười unit
-
-| Unit | Tên | Bài học Lemonmath |
-|---|---|---|
-| 1 | Limits and Continuity | [Giới hạn và tính liên tục](lesson:apcalc-limits-continuity) |
-| 2 | Differentiation: Definition and Fundamental Properties | [Định nghĩa đạo hàm và các quy tắc tính](lesson:apcalc-differentiation-rules) |
-| 3 | Differentiation: Composite, Implicit, and Inverse Functions | [Đạo hàm hàm hợp, hàm ẩn và hàm ngược](lesson:apcalc-implicit-inverse) |
-| 4 | Contextual Applications of Differentiation | Tốc độ liên quan, chuyển động và xấp xỉ tuyến tính |
-| 5 | Analytical Applications of Differentiation | Định lí giá trị trung bình, cực trị và khảo sát |
-| 6 | Integration and Accumulation of Change | Tổng Riemann, định lí cơ bản; kĩ thuật tính tích phân |
-| 7 | Differential Equations | Phương trình vi phân và trường hướng |
-| 8 | Applications of Integration | Diện tích, thể tích và giá trị trung bình |
-| 9 | Parametric Equations, Polar Coordinates, and Vector-Valued Functions (BC) | Hàm tham số, hàm véc-tơ và toạ độ cực |
-| 10 | Infinite Sequences and Series (BC) | Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa |
-
-## Câu tự luận trông như thế nào
-
-[[P5·f3a0]]
-Câu tự luận trộn nhiều unit, và mỗi ý được chấm riêng, nên bạn vẫn có điểm ở các ý sau dù ý trước sai. Các dạng thường gặp:
-
-[[P6·b58f]]
-- **Tốc độ thay đổi trong bối cảnh**, thường kèm bảng giá trị: ước lượng đạo hàm, tổng Riemann, hoặc lượng thay đổi $\displaystyle\int_a^b r(t)\,dt$.
-- **Chuyển động của chất điểm**: vận tốc, gia tốc, nhanh dần hay chậm dần, tổng quãng đường.
-- **Phân tích đồ thị của $f'$**: $f$ đồng biến ở đâu, có cực trị hay điểm uốn ở đâu, kèm giải thích.
-- **Phương trình vi phân**: trường hướng (slope field), xấp xỉ bằng tiếp tuyến, tách biến.
-- **Diện tích và thể tích** của miền giữa các đường cong.
-- **Chỉ BC**: đa thức Taylor và cận sai số, sự hội tụ của chuỗi, đường cong tham số hoặc cực.
-
-:::warning Câu tự luận được chấm thế nào
-[[P7·55f3]]
-Giám khảo tìm **phần thiết lập** và **phần giải thích**, không chỉ con số. "Hàm số có cực đại tại $x=2$" gần như không có điểm nếu thiếu lí do: "vì $f'$ đổi dấu từ dương sang âm tại $x=2$". Ở phần dùng máy tính, hãy viết tích phân hoặc phương trình đang giải trước khi ghi kết quả thập phân, chính xác đến ba chữ số sau dấu phẩy.
-:::
-
-## Hai câu hỏi mẫu
-
-  :::example Trắc nghiệm, không dùng máy tính
-  $\displaystyle\lim_{x\to3}\frac{x^2-9}{x-3}$ bằng
-  A. $0$
-  B. $3$
-  C. $6$
-  D. Giới hạn không tồn tại.
-
-  **Lời giải.** Với $x\ne3$, $\dfrac{x^2-9}{x-3}=x+3$, tiến tới $6$. Đáp án là **C**. Phương án D là lỗi thường gặp: hàm số không xác định tại $x=3$, nhưng giới hạn vẫn tồn tại.
-  :::
-
-  :::example Một ý tự luận, không dùng máy tính
-  Hàm số $f$ có đạo hàm cấp hai, và $f'(x)=x^2-4$. $f$ đồng biến trên những khoảng nào? Giải thích câu trả lời.
-
-  **Lời giải.** $f'(x)=(x-2)(x+2)>0$ khi $x<-2$ và khi $x>2$. Vậy $f$ đồng biến trên $(-\infty, -2]$ và $[2, \infty)$, **vì $f'(x)>0$ trên các khoảng này** (trừ tại đầu mút). Câu giải thích chính là phần được điểm.
-  :::
-
-## Kế hoạch ôn
-
-[[P8·5dc1]]
-1. **Tuần 1–2:** làm một đề luyện chính thức trọn vẹn trên Bluebook để biết trình độ; ôn Unit 1–3.
-2. **Tuần 3–6:** Unit 4–8 (và 9–10 nếu thi BC), mỗi lần một bài, làm kèm bài tập.
-3. **Tuần 7–9:** câu tự luận các năm trước trên AP Central, bấm giờ 15 phút mỗi câu. Đối chiếu bài làm với hướng dẫn chấm chính thức.
-4. **Tuần 10–12:** đề luyện trọn vẹn và [sổ lỗi sai](lesson:error-log).
-
-[[P9·0d4e]]
-Tài nguyên chính thức miễn phí: AP Classroom (qua nhà trường), câu tự luận các năm trước kèm hướng dẫn chấm trên AP Central, và các đề luyện trong Bluebook. Về kĩ năng dùng máy, xem bài [Dùng máy tính cầm tay và Desmos thông minh](lesson:calculator-skills).
-
-
-######## BÀI exams/ap-calculus/apcalc-overview – BẢN TIẾNG ANH ########
----
-title: What AP Calculus AB/BC tests and how to prepare
-description: The AP Calculus AB and BC exams explained: the May 2027 format, AB versus BC, the ten units, free-response question types, calculators and a study plan.
-minutes: 25
-type: guide
+title: Xác suất có điều kiện
+description: Tính xác suất của một biến cố khi biết một biến cố khác đã xảy ra, dùng bảng hai chiều, sơ đồ cây, công thức nhân và nhận biết hai biến cố độc lập.
+minutes: 18
 ---
 
   :::goals
-  - Describe the format of the AP Calculus AB and BC exams from May 2027: sections, timing, calculator rules and scoring.
-  - Explain the difference between AB and BC and choose the right exam.
-  - Recognize the main types of free-response questions.
-  - Plan your preparation using the Lemonmath lessons and official free resources.
+  - Hiểu và tính xác suất có điều kiện $P(A\mid B)$ bằng công thức và bằng cách đếm.
+  - Đọc xác suất có điều kiện từ bảng hai chiều và sơ đồ cây.
+  - Dùng công thức nhân $P(A\cap B)=P(B)\cdot P(A\mid B)$.
+  - Nhận biết hai biến cố độc lập qua đẳng thức $P(A\mid B)=P(A)$.
   :::
 
-[[P1·4c2c]]
-AP Calculus is one of the most popular Advanced Placement exams. A good score can earn college credit or placement at many universities in the United States and elsewhere, and it shows admissions officers that you can handle university-level mathematics. For students from Vietnam the content is familiar: limits, derivatives and integrals appear in grades 11 and 12. What is different is the depth of **justification**: AP asks you to explain your reasoning in words and with theorems, not only to compute.
+[[P1·2b9b]]
+Một trường khảo sát $200$ học sinh lớp 12 về việc tham gia câu lạc bộ thể thao:
 
-## AB or BC?
+| | Có tham gia | Không tham gia | Tổng |
+|---|---|---|---|
+| Nam | $60$ | $40$ | $100$ |
+| Nữ | $30$ | $70$ | $100$ |
+| Tổng | $90$ | $110$ | $200$ |
 
-| | Calculus AB | Calculus BC |
-|---|---|---|
-| Content | Units 1–8: limits, derivatives, integrals, differential equations and their applications | Everything in AB, plus Units 9–10 (parametric, polar and vector-valued functions; infinite series) and a few extra topics inside Units 6–8 |
-| Equivalent to | about one semester of college calculus | about two semesters |
-| Scores | one AP score, 1 to 5 | one AP score, plus an AB subscore |
+[[P2·e7e4]]
+Chọn ngẫu nhiên một học sinh. Xác suất bạn đó tham gia câu lạc bộ là $\dfrac{90}{200}=0{,}45$. Nhưng nếu ta **biết thêm** bạn được chọn là nữ, thì xác suất bạn ấy tham gia câu lạc bộ là bao nhiêu?
 
-[[P2·764d]]
-If your school or university plan allows it and you are comfortable with the AB content, BC is usually the better choice: the AB subscore shows your performance on the AB part as well.
+## Xác suất có điều kiện
 
-## The exam format (from May 2027)
+### Khám phá: thu hẹp không gian mẫu
 
-[[P3·784e]]
-Both exams have the same structure. The multiple-choice section is taken in the Bluebook app; free-response answers are handwritten in a booklet.
+[[P3·c6de]]
+Khi đã biết bạn được chọn là nữ, ta chỉ còn xét $100$ bạn nữ ở hàng thứ hai. Trong đó có $30$ bạn tham gia, nên xác suất cần tìm là
 
-| Section | Part | Questions | Time | Calculator | Weight |
-|---|---|---|---|---|---|
-| I. Multiple choice | A | 29 | 62 minutes | not permitted | 50% for Section I |
-| | B | 13 | 38 minutes | graphing calculator required | |
-| II. Free response | A | 2 | 30 minutes | graphing calculator required | 50% for Section II |
-| | B | 4 | 60 minutes | not permitted | |
+  $$\frac{30}{100}=0{,}3.$$
 
-[[P4·4c79]]
-Multiple-choice questions have four options and there is no penalty for wrong answers. Each free-response question is worth 9 points. Older books and websites describe 30 + 15 multiple-choice questions; that format ended with the 2026 exam. The AB exam in 2027 is scheduled for 10 May; check AP Central for the final timetable.
+[[P4·7ff1]]
+Con số này khác $0{,}45$: thông tin "là nữ" đã làm thay đổi xác suất. Ta cũng có thể viết nó bằng các xác suất trên toàn bộ $200$ học sinh:
 
-## The ten units
+  $$\frac{30}{100}=\frac{30/200}{100/200}=\frac{P(\text{nữ và tham gia})}{P(\text{nữ})}=\frac{0{,}15}{0{,}5}=0{,}3.$$
 
-| Unit | Title | Lemonmath lessons |
-|---|---|---|
-| 1 | Limits and Continuity | [Limits and continuity](lesson:apcalc-limits-continuity) |
-| 2 | Differentiation: Definition and Fundamental Properties | [The derivative and differentiation rules](lesson:apcalc-differentiation-rules) |
-| 3 | Differentiation: Composite, Implicit, and Inverse Functions | [Chain rule, implicit and inverse functions](lesson:apcalc-implicit-inverse) |
-| 4 | Contextual Applications of Differentiation | Related rates, motion and linear approximation |
-| 5 | Analytical Applications of Differentiation | Mean value theorem, extrema and curve analysis |
-| 6 | Integration and Accumulation of Change | Riemann sums, the fundamental theorem; integration techniques |
-| 7 | Differential Equations | Differential equations and slope fields |
-| 8 | Applications of Integration | Area, volume and average value |
-| 9 | Parametric Equations, Polar Coordinates, and Vector-Valued Functions (BC) | Parametric, vector-valued and polar functions |
-| 10 | Infinite Sequences and Series (BC) | Infinite series, Taylor and power series |
+  :::definition Xác suất có điều kiện
+  Cho hai biến cố $A$ và $B$ với $P(B)>0$. Xác suất của $A$ **với điều kiện** $B$ đã xảy ra, kí hiệu $P(A\mid B)$, là
+  $$P(A\mid B)=\frac{P(A\cap B)}{P(B)}.$$
+  Khi các kết quả đồng khả năng, ta có thể đếm: $P(A\mid B)=\dfrac{n(A\cap B)}{n(B)}$.
+  :::
 
-## What free-response questions look like
+[[P5·a196]]
+**Vì sao như vậy?** Biết $B$ đã xảy ra nghĩa là chỉ những kết quả trong $B$ còn có thể xảy ra, nên $B$ đóng vai trò không gian mẫu mới. Trong đó, các kết quả làm $A$ xảy ra chính là $A\cap B$. Chia cho $P(B)$ để tổng xác suất trong "không gian mới" bằng $1$.
 
-[[P5·cc18]]
-Free-response questions mix several units, and each part is scored separately, so you can earn points on later parts even if an earlier part is wrong. Common types are:
+[[P6·8a82]]
+Từ định nghĩa ta có $P(\overline{A}\mid B)=1-P(A\mid B)$, giống như với xác suất thông thường.
 
-[[P6·d5ab]]
-- **Rates in context**, often with a table of values: estimating a derivative, a Riemann sum, or the total change $\displaystyle\int_a^b r(t)\,dt$.
-- **Particle motion**: velocity, acceleration, speeding up or slowing down, total distance.
-- **Analysis of a graph of $f'$**: where $f$ increases, has extrema or inflection points, with justification.
-- **Differential equations**: a slope field, a tangent-line approximation, separation of variables.
-- **Area and volume** of regions between curves.
-- **BC only**: Taylor polynomials and error bounds, convergence of series, parametric or polar curves.
+  :::example Gieo hai con xúc xắc
+  Gieo hai con xúc xắc cân đối. Biết tổng số chấm bằng $8$, tính xác suất có ít nhất một con xuất hiện mặt $6$ chấm.
 
-:::warning How free-response answers are marked
-[[P7·c8c8]]
-Readers look for the **setup** and the **justification**, not just the number. "The function has a relative maximum at $x=2$" earns little without the reason: "because $f'$ changes from positive to negative at $x=2$". In calculator parts, write the integral or equation you are solving before giving the decimal answer, correct to three decimal places.
+  **Lời giải.** Gọi $B$: "tổng bằng $8$", $A$: "có ít nhất một mặt $6$". Ta liệt kê $B$ rồi đếm những kết quả của $B$ có mặt $6$:
+
+  $$B=\{(2; 6), (3; 5), (4; 4), (5; 3), (6; 2)\},\qquad A\cap B=\{(2; 6), (6; 2)\}.$$
+
+  Vậy $P(A\mid B)=\dfrac{n(A\cap B)}{n(B)}=\dfrac25$.
+  :::
+
+[[P7·7075]]
+Thứ tự hai biến cố trong $P(A\mid B)$ rất quan trọng, như ví dụ sau cho thấy.
+
+  :::example Đổi chỗ hai biến cố
+  Với bảng khảo sát ở đầu bài, chọn ngẫu nhiên một học sinh. Gọi $T$: "tham gia câu lạc bộ", $N$: "là nữ". Tính $P(T\mid N)$ và $P(N\mid T)$.
+
+  **Lời giải.** $P(T\mid N)$ chỉ xét hàng "Nữ"; $P(N\mid T)$ chỉ xét cột "Có tham gia":
+
+  $$P(T\mid N)=\frac{30}{100}=\frac{3}{10},\qquad P(N\mid T)=\frac{30}{90}=\frac13.$$
+
+  Hai số khác nhau: $P(T\mid N)$ trả lời "trong các bạn nữ, bao nhiêu phần tham gia", còn $P(N\mid T)$ trả lời "trong các bạn tham gia, bao nhiêu phần là nữ".
+  :::
+
+## Công thức nhân và sơ đồ cây
+
+[[P8·8e8f]]
+Nhân hai vế của định nghĩa với $P(B)$, ta được một công thức để tính xác suất của giao.
+
+  :::theorem Công thức nhân xác suất
+  Với hai biến cố $A$, $B$ có xác suất dương:
+  $$P(A\cap B)=P(B)\cdot P(A\mid B)=P(A)\cdot P(B\mid A).$$
+  :::
+
+[[P9·aa5e]]
+Công thức này đặc biệt có ích khi một phép thử diễn ra theo **từng bước**. Trên sơ đồ cây, mỗi nhánh ghi xác suất có điều kiện của bước đó, và xác suất của một đường đi bằng tích các số trên đường đi.
+
+  :::example Lấy bi không hoàn lại
+  Một hộp có $5$ viên bi đỏ và $3$ viên bi xanh. Lấy lần lượt hai viên, không hoàn lại. Tính xác suất cả hai viên đều đỏ, và xác suất viên thứ hai đỏ biết viên thứ nhất xanh.
+
+  **Lời giải.** Gọi $D_1$, $D_2$: "viên thứ nhất, thứ hai màu đỏ". Lần đầu có $5$ đỏ trong $8$ viên. Nếu lần đầu đã lấy một viên đỏ thì còn $4$ đỏ trong $7$ viên:
+
+  $$P(D_1\cap D_2)=P(D_1)\cdot P(D_2\mid D_1)=\frac58\cdot\frac47=\frac{20}{56}=\frac{5}{14}.$$
+
+  Nếu lần đầu lấy viên xanh thì hộp còn $5$ đỏ, $2$ xanh, nên $P(D_2\mid \overline{D_1})=\dfrac57$.
+  :::
+
+:::diagram Sơ đồ cây lấy hai viên bi không hoàn lại
+   (… 20 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-## Two sample questions
+[[P10·1135]]
+Tổng bốn số ở đầu mút là $\dfrac{20+15+15+6}{56}=1$, một cách kiểm tra nhanh.
 
-  :::example Multiple choice, no calculator
-  What is $\displaystyle\lim_{x\to3}\frac{x^2-9}{x-3}$?
-  A. $0$
-  B. $3$
-  C. $6$
-  D. The limit does not exist.
+  :::example Thi hai vòng
+  Xác suất một học sinh vượt qua vòng 1 của một cuộc thi là $0{,}6$. Nếu đã vượt qua vòng 1 thì xác suất bạn ấy vượt qua vòng 2 là $0{,}5$. Tính xác suất học sinh đó vượt qua cả hai vòng.
 
-  **Solution.** For $x\ne3$, $\dfrac{x^2-9}{x-3}=x+3$, which approaches $6$. The answer is **C**. Option D is a common error: the function is undefined at $x=3$, but the limit exists.
+  **Lời giải.** Gọi $V_1$, $V_2$ là các biến cố vượt qua vòng 1, vòng 2. Muốn vào vòng 2 thì phải qua vòng 1, nên dùng công thức nhân:
+
+  $$P(V_1\cap V_2)=P(V_1)\cdot P(V_2\mid V_1)=0{,}6\cdot0{,}5=0{,}3.$$
+
+  Vậy xác suất vượt qua cả hai vòng là $0{,}3$.
   :::
 
-  :::example A free-response part, no calculator
-  The function $f$ is twice differentiable, and $f'(x)=x^2-4$. On which intervals is $f$ increasing? Justify your answer.
+## Biến cố độc lập
 
-  **Solution.** $f'(x)=(x-2)(x+2)>0$ for $x<-2$ and for $x>2$. So $f$ is increasing on $(-\infty, -2]$ and $[2, \infty)$, **because $f'(x)>0$ on these intervals** (except at the endpoints). The justification sentence is what earns the point.
+[[P11·411c]]
+Ở lớp 11, hai biến cố gọi là độc lập khi việc xảy ra hay không của biến cố này không ảnh hưởng đến xác suất của biến cố kia. Với xác suất có điều kiện, ta viết điều đó thành công thức: khi $P(B)>0$,
+
+  $$A \text{ và } B \text{ độc lập}\iff P(A\mid B)=P(A)\iff P(A\cap B)=P(A)\cdot P(B).$$
+
+[[P12·4b25]]
+Đẳng thức thứ hai suy ra từ công thức nhân. Trong ví dụ lấy bi không hoàn lại, $P(D_2\mid D_1)=\dfrac47$ còn $P(D_2\mid\overline{D_1})=\dfrac57$, nên $D_1$ và $D_2$ **không** độc lập.
+
+  :::example Kiểm tra tính độc lập
+  Gieo một con xúc xắc. Gọi $A$: "mặt chẵn", $B$: "số chấm không vượt quá $4$", $C$: "số chấm ít nhất là $4$". Hỏi $A$ và $B$ có độc lập không? $A$ và $C$ thì sao?
+
+  **Lời giải.** Ta có $P(A)=\dfrac36=\dfrac12$. Trong $B=\{1; 2; 3; 4\}$ có hai mặt chẵn; trong $C=\{4; 5; 6\}$ cũng có hai mặt chẵn:
+
+  $$P(A\mid B)=\frac24=\frac12=P(A),\qquad P(A\mid C)=\frac23\neq P(A).$$
+
+  Vậy $A$ và $B$ độc lập, còn $A$ và $C$ không độc lập.
   :::
 
-## A study plan
+[[P13·bd89]]
+Ví dụ cuối là một tình huống y tế, nơi nhầm lẫn giữa $P(A\mid B)$ và $P(B\mid A)$ có thể gây hiểu lầm nghiêm trọng.
 
-[[P8·a1aa]]
-1. **Weeks 1–2:** take a full official practice exam in Bluebook to find your level; review Units 1–3.
-2. **Weeks 3–6:** Units 4–8 (and 9–10 for BC), one lesson at a time, with the exercises.
-3. **Weeks 7–9:** past free-response questions from AP Central, timed: 15 minutes per question. Compare your work with the official scoring guidelines.
-4. **Weeks 10–12:** full practice exams and your [error log](lesson:error-log).
+  :::example Kết quả xét nghiệm
+  Một đợt xét nghiệm sàng lọc $1000$ người cho kết quả sau:
 
-[[P9·27d8]]
-Free official resources: AP Classroom (through your school), past free-response questions with scoring guidelines on AP Central, and the practice exams in Bluebook. For calculator skills, see [Using calculators and Desmos wisely](lesson:calculator-skills).
+  | | Mắc bệnh | Không mắc bệnh | Tổng |
+  |---|---|---|---|
+  | Dương tính | $45$ | $95$ | $140$ |
+  | Âm tính | $5$ | $855$ | $860$ |
+  | Tổng | $50$ | $950$ | $1000$ |
+
+  Chọn ngẫu nhiên một người. Tính xác suất người đó dương tính biết người đó mắc bệnh, và xác suất người đó mắc bệnh biết người đó dương tính.
+
+  **Lời giải.** Câu hỏi thứ nhất chỉ xét cột "Mắc bệnh", câu hỏi thứ hai chỉ xét hàng "Dương tính":
+
+  $$P(\text{dương tính}\mid\text{bệnh})=\frac{45}{50}=0{,}9,\qquad P(\text{bệnh}\mid\text{dương tính})=\frac{45}{140}=\frac{9}{28}\approx0{,}32.$$
+
+  Xét nghiệm phát hiện $90\%$ người bệnh, nhưng trong số người dương tính chỉ khoảng $32\%$ thực sự mắc bệnh, vì số người khoẻ rất đông nên $95$ ca dương tính giả nhiều hơn $45$ ca thật. Bài sau sẽ giải thích hiện tượng này bằng công thức Bayes.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P14·ce07]]
+- **Nhầm $P(A\mid B)$ với $P(B\mid A)$.** Sai: "xét nghiệm đúng với $90\%$ người bệnh, nên người dương tính có $90\%$ khả năng mắc bệnh". Lí do sai: đó là $P(\text{dương}\mid\text{bệnh})$, không phải $P(\text{bệnh}\mid\text{dương})$. Đúng: $P(\text{bệnh}\mid\text{dương})=\dfrac{45}{140}\approx0{,}32$.
+- **Chia cho cả không gian mẫu.** Sai: ở ví dụ xúc xắc, $P(A\mid B)=\dfrac{2}{36}$. Lí do sai: khi đã biết $B$ xảy ra thì chỉ còn $5$ kết quả. Đúng: $\dfrac25$.
+- **Chia nhầm mẫu số.** Sai: $P(A\mid B)=\dfrac{P(A\cap B)}{P(A)}$. Lí do sai: điều kiện là $B$, nên chia cho $P(B)$.
+- **Nhân như thể độc lập khi không hoàn lại.** Sai: $P(\text{hai viên đỏ})=\dfrac58\cdot\dfrac58=\dfrac{25}{64}$. Lí do sai: lấy viên đầu xong thì hộp đã thay đổi. Đúng: $\dfrac58\cdot\dfrac47=\dfrac5{14}$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - xác suất có điều kiện | conditional probability
+  - biến cố giao | intersection of events
+  - bảng hai chiều | two-way table
+  - sơ đồ cây | tree diagram
+  - công thức nhân xác suất | multiplication rule
+  - biến cố độc lập | independent events
+  - lấy không hoàn lại | drawing without replacement
+  - dương tính giả | false positive
+  :::
+
+## Tóm tắt
+
+[[P15·0811]]
+- $P(A\mid B)=\dfrac{P(A\cap B)}{P(B)}$ (với $P(B)>0$); đồng khả năng thì $\dfrac{n(A\cap B)}{n(B)}$.
+- Biết $B$ xảy ra nghĩa là thu hẹp không gian mẫu về $B$; trên bảng hai chiều, chỉ đọc hàng hoặc cột của $B$.
+- $P(A\mid B)$ và $P(B\mid A)$ nói chung khác nhau.
+- Công thức nhân: $P(A\cap B)=P(B)\cdot P(A\mid B)$; trên sơ đồ cây, nhân các xác suất dọc một đường đi.
+- $A$, $B$ độc lập $\iff P(A\mid B)=P(A)\iff P(A\cap B)=P(A)P(B)$.
+
+## Luyện tập
+
+[[P16·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g12/conditional-probability-intro – BẢN TIẾNG ANH ########
+---
+title: Conditional probability
+description: Find the probability of an event when another event is known to have happened, using two-way tables, tree diagrams, the multiplication rule and independence.
+minutes: 18
+---
+
+  :::goals
+  - Understand and find the conditional probability $P(A\mid B)$, by the formula and by counting.
+  - Read conditional probabilities from two-way tables and tree diagrams.
+  - Use the multiplication rule $P(A\cap B)=P(B)\cdot P(A\mid B)$.
+  - Recognise independent events through the equation $P(A\mid B)=P(A)$.
+  :::
+
+[[P1·0038]]
+A school surveys $200$ grade-12 students about joining a sports club:
+
+| | Joined | Not joined | Total |
+|---|---|---|---|
+| Boys | $60$ | $40$ | $100$ |
+| Girls | $30$ | $70$ | $100$ |
+| Total | $90$ | $110$ | $200$ |
+
+[[P2·9365]]
+One student is chosen at random. The probability that the student has joined the club is $\dfrac{90}{200}=0.45$. But if we **also know** that the student chosen is a girl, what is the probability that she has joined the club?
+
+## Conditional probability
+
+### Explore: shrinking the sample space
+
+[[P3·5a92]]
+Once we know that the student is a girl, we only look at the $100$ girls in the second row. Of these, $30$ have joined, so the probability we want is
+
+  $$\frac{30}{100}=0.3.$$
+
+[[P4·2a7e]]
+This is not $0.45$: the information "is a girl" has changed the probability. We can also write it with probabilities over all $200$ students:
+
+  $$\frac{30}{100}=\frac{30/200}{100/200}=\frac{P(\text{girl and joined})}{P(\text{girl})}=\frac{0.15}{0.5}=0.3.$$
+
+  :::definition Conditional probability
+  Let $A$ and $B$ be events with $P(B)>0$. The probability of $A$ **given** that $B$ has happened, written $P(A\mid B)$, is
+  $$P(A\mid B)=\frac{P(A\cap B)}{P(B)}.$$
+  When the outcomes are equally likely, we can count: $P(A\mid B)=\dfrac{n(A\cap B)}{n(B)}$.
+  :::
+
+[[P5·64f7]]
+**Why this formula?** Knowing that $B$ has happened means only the outcomes in $B$ are still possible, so $B$ acts as a new sample space. Inside it, the outcomes that make $A$ happen are exactly $A\cap B$. We divide by $P(B)$ so that the probabilities in the "new space" add up to $1$.
+
+[[P6·2abf]]
+The definition gives $P(\overline{A}\mid B)=1-P(A\mid B)$, just as for ordinary probabilities.
+
+  :::example Rolling two dice
+  Two fair dice are rolled. Given that the total is $8$, find the probability that at least one die shows a $6$.
+
+  **Solution.** Let $B$ be "the total is $8$" and $A$ be "at least one $6$". We list $B$, then count the outcomes of $B$ that contain a $6$:
+
+  $$B=\{(2, 6), (3, 5), (4, 4), (5, 3), (6, 2)\},\qquad A\cap B=\{(2, 6), (6, 2)\}.$$
+
+  So $P(A\mid B)=\dfrac{n(A\cap B)}{n(B)}=\dfrac25$.
+  :::
+
+[[P7·6359]]
+The order of the two events in $P(A\mid B)$ matters a great deal, as the next example shows.
+
+  :::example Swapping the two events
+  Using the survey table at the start, one student is chosen at random. Let $T$ be "has joined the club" and $N$ be "is a girl". Find $P(T\mid N)$ and $P(N\mid T)$.
+
+  **Solution.** $P(T\mid N)$ only uses the "Girls" row; $P(N\mid T)$ only uses the "Joined" column:
+
+  $$P(T\mid N)=\frac{30}{100}=\frac{3}{10},\qquad P(N\mid T)=\frac{30}{90}=\frac13.$$
+
+  The two numbers are different: $P(T\mid N)$ answers "of the girls, what fraction joined?", while $P(N\mid T)$ answers "of those who joined, what fraction are girls?".
+  :::
+
+## The multiplication rule and tree diagrams
+
+[[P8·82ba]]
+Multiplying both sides of the definition by $P(B)$ gives a formula for the probability of an intersection.
+
+  :::theorem The multiplication rule
+  For events $A$ and $B$ with positive probabilities:
+  $$P(A\cap B)=P(B)\cdot P(A\mid B)=P(A)\cdot P(B\mid A).$$
+  :::
+
+[[P9·bc77]]
+This rule is especially useful when an experiment happens **in stages**. On a tree diagram, each branch carries the conditional probability of that stage, and the probability of a path is the product of the numbers along it.
+
+  :::example Drawing without replacement
+  A box holds $5$ red balls and $3$ blue balls. Two balls are drawn one after the other, without replacement. Find the probability that both are red, and the probability that the second is red given that the first is blue.
+
+  **Solution.** Let $D_1$, $D_2$ be "the first, second ball is red". At the first draw there are $5$ red out of $8$. If a red ball has already been drawn, $4$ red remain out of $7$:
+
+  $$P(D_1\cap D_2)=P(D_1)\cdot P(D_2\mid D_1)=\frac58\cdot\frac47=\frac{20}{56}=\frac{5}{14}.$$
+
+  If the first ball is blue, the box has $5$ red and $2$ blue left, so $P(D_2\mid \overline{D_1})=\dfrac57$.
+  :::
+
+:::diagram Tree diagram for drawing two balls without replacement
+   (… 20 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P10·a89f]]
+The four numbers at the ends add up to $\dfrac{20+15+15+6}{56}=1$, a quick check.
+
+  :::example A two-round contest
+  The probability that a student passes round 1 of a contest is $0.6$. Given that the student has passed round 1, the probability of passing round 2 is $0.5$. Find the probability that the student passes both rounds.
+
+  **Solution.** Let $V_1$, $V_2$ be the events of passing round 1 and round 2. To reach round 2 one must pass round 1, so we use the multiplication rule:
+
+  $$P(V_1\cap V_2)=P(V_1)\cdot P(V_2\mid V_1)=0.6\cdot0.5=0.3.$$
+
+  So the probability of passing both rounds is $0.3$.
+  :::
+
+## Independent events
+
+[[P11·1eb8]]
+In grade 11, two events were called independent when whether one happens does not change the probability of the other. With conditional probability we can write this as a formula: when $P(B)>0$,
+
+  $$A \text{ and } B \text{ are independent}\iff P(A\mid B)=P(A)\iff P(A\cap B)=P(A)\cdot P(B).$$
+
+[[P12·868a]]
+The second equivalence follows from the multiplication rule. In the drawing example, $P(D_2\mid D_1)=\dfrac47$ but $P(D_2\mid\overline{D_1})=\dfrac57$, so $D_1$ and $D_2$ are **not** independent.
+
+  :::example Testing for independence
+  A die is rolled. Let $A$ be "an even number", $B$ be "at most $4$" and $C$ be "at least $4$". Are $A$ and $B$ independent? What about $A$ and $C$?
+
+  **Solution.** We have $P(A)=\dfrac36=\dfrac12$. In $B=\{1, 2, 3, 4\}$ there are two even numbers; in $C=\{4, 5, 6\}$ there are also two:
+
+  $$P(A\mid B)=\frac24=\frac12=P(A),\qquad P(A\mid C)=\frac23\neq P(A).$$
+
+  So $A$ and $B$ are independent, while $A$ and $C$ are not.
+  :::
+
+[[P13·46f1]]
+The last example is a medical one, where mixing up $P(A\mid B)$ and $P(B\mid A)$ can cause serious misunderstanding.
+
+  :::example Screening test results
+  A screening programme tests $1000$ people, with these results:
+
+  | | Has the disease | Does not | Total |
+  |---|---|---|---|
+  | Positive | $45$ | $95$ | $140$ |
+  | Negative | $5$ | $855$ | $860$ |
+  | Total | $50$ | $950$ | $1000$ |
+
+  One person is chosen at random. Find the probability of a positive test given that the person has the disease, and the probability of having the disease given a positive test.
+
+  **Solution.** The first question only uses the "Has the disease" column, the second only the "Positive" row:
+
+  $$P(\text{positive}\mid\text{disease})=\frac{45}{50}=0.9,\qquad P(\text{disease}\mid\text{positive})=\frac{45}{140}=\frac{9}{28}\approx0.32.$$
+
+  The test detects $90\%$ of the people who have the disease, but only about $32\%$ of those who test positive really have it, because the healthy people are so many that the $95$ false positives outnumber the $45$ true ones. The next lesson explains this with Bayes' theorem.
+  :::
+
+:::warning Common mistakes
+[[P14·d69b]]
+- **Mixing up $P(A\mid B)$ and $P(B\mid A)$.** Wrong: "the test is right for $90\%$ of sick people, so a person who tests positive is $90\%$ likely to be sick". Why it is wrong: that is $P(\text{positive}\mid\text{disease})$, not $P(\text{disease}\mid\text{positive})$. Right: $P(\text{disease}\mid\text{positive})=\dfrac{45}{140}\approx0.32$.
+- **Dividing by the whole sample space.** Wrong: in the dice example, $P(A\mid B)=\dfrac{2}{36}$. Why it is wrong: once $B$ is known, only $5$ outcomes remain. Right: $\dfrac25$.
+- **The wrong denominator.** Wrong: $P(A\mid B)=\dfrac{P(A\cap B)}{P(A)}$. Why it is wrong: the condition is $B$, so we divide by $P(B)$.
+- **Multiplying as if independent when drawing without replacement.** Wrong: $P(\text{two red})=\dfrac58\cdot\dfrac58=\dfrac{25}{64}$. Why it is wrong: after the first draw the box has changed. Right: $\dfrac58\cdot\dfrac47=\dfrac5{14}$.
+:::
+
+## Key terms
+
+  :::terms
+  - conditional probability | xác suất có điều kiện
+  - intersection of events | biến cố giao
+  - two-way table | bảng hai chiều
+  - tree diagram | sơ đồ cây
+  - multiplication rule | công thức nhân xác suất
+  - independent events | biến cố độc lập
+  - drawing without replacement | lấy không hoàn lại
+  - false positive | dương tính giả
+  :::
+
+## Summary
+
+[[P15·2d3a]]
+- $P(A\mid B)=\dfrac{P(A\cap B)}{P(B)}$ (with $P(B)>0$); for equally likely outcomes, $\dfrac{n(A\cap B)}{n(B)}$.
+- Knowing that $B$ happened shrinks the sample space to $B$; in a two-way table, read only the row or column of $B$.
+- $P(A\mid B)$ and $P(B\mid A)$ are usually different.
+- Multiplication rule: $P(A\cap B)=P(B)\cdot P(A\mid B)$; on a tree diagram, multiply along a path.
+- $A$, $B$ independent $\iff P(A\mid B)=P(A)\iff P(A\cap B)=P(A)P(B)$.
+
+## Practice
+
+[[P16·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
 

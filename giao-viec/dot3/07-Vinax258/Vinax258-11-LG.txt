@@ -6,7 +6,7 @@ Kết quả: file Vinax258-11-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Vinax258-11-LG
-Người làm: tài khoản Vinax258. Gói này có 39 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Vinax258. Gói này có 43 bài tập thuộc 9 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Vinax258-11-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/9). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Vinax258-11-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,860 +189,1368 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g10/systems-linear-inequalities (10 bài tập)
-- g10/triangle-relations (10 bài tập)
-- g10/trig-ratios-0-180 (9 bài tập)
-- g10/vector-basics (10 bài tập)
+- g8/add-subtract-algebraic-fractions (1 bài tập)
+- g8/analysing-charts (4 bài tập)
+- g8/angle-bisector-theorem (6 bài tập)
+- g8/cubes-of-sums-differences (7 bài tập)
+- g8/experimental-theoretical-probability (3 bài tập)
+- g8/factorising-polynomials (8 bài tập)
+- g8/g8-collecting-classifying-data (4 bài tập)
+- g8/g8-multiplying-polynomials (4 bài tập)
+- g8/gradient-of-a-line (6 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g10/systems-linear-inequalities
-Bài học: Hệ bất phương trình bậc nhất hai ẩn / Systems of linear inequalities in two variables
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+@@@ g8/add-subtract-algebraic-fractions
+Bài học: Phép cộng và phép trừ phân thức đại số / Adding and subtracting algebraic fractions
+Cần viết lại lời giải các bài: 1 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Cặp nào trong $(2; 1)$, $(0; 0)$, $(5; 1)$ là nghiệm của hệ $\begin{cases} x+y\ge 2\\ x-y\le 3 \end{cases}$?
+Thực hiện các phép tính:
+
+a) $\dfrac{2x+1}{x+3}+\dfrac{x+8}{x+3}$.
+
+b) $\dfrac{4x-5}{x^2+1}-\dfrac{x-2}{x^2+1}$.
 
 [LỜI GIẢI CŨ – VI]
-$$(2; 1):\ 3\ge 2,\ 1\le 3\ \text{(đúng)};\quad (0; 0):\ 0\ge 2\ \text{(sai)};\quad (5; 1):\ 6\ge 2,\ \text{nhưng } 4\le 3\ \text{(sai)}.$$
+a) $\dfrac{2x+1}{x+3}+\dfrac{x+8}{x+3}=\dfrac{3x+9}{x+3}=\dfrac{3(x+3)}{x+3}=3$.
 
-**Đáp số.** Chỉ có $(2; 1)$.
+b) $\dfrac{4x-5}{x^2+1}-\dfrac{x-2}{x^2+1}=\dfrac{4x-5-(x-2)}{x^2+1}=\dfrac{3x-3}{x^2+1}$.
+
+Vậy a) $3$; b) $\dfrac{3x-3}{x^2+1}$.
+
+**Đáp số.** a) $3$. b) $\dfrac{3x-3}{x^2+1}$.
 
 [ĐỀ – EN]
-Which of $(2, 1)$, $(0, 0)$, $(5, 1)$ are solutions of the system $\begin{cases} x+y\ge 2\\ x-y\le 3 \end{cases}$?
+Work out:
+
+a) $\dfrac{2x+1}{x+3}+\dfrac{x+8}{x+3}$.
+
+b) $\dfrac{4x-5}{x^2+1}-\dfrac{x-2}{x^2+1}$.
 
 [LỜI GIẢI CŨ – EN]
-$$(2, 1):\ 3\ge 2,\ 1\le 3\ \text{(true)};\quad (0, 0):\ 0\ge 2\ \text{(false)};\quad (5, 1):\ 6\ge 2,\ \text{but } 4\le 3\ \text{(false)}.$$
+a) $\dfrac{2x+1}{x+3}+\dfrac{x+8}{x+3}=\dfrac{3x+9}{x+3}=\dfrac{3(x+3)}{x+3}=3$.
 
-**Answer.** Only $(2, 1)$.
+b) $\dfrac{4x-5}{x^2+1}-\dfrac{x-2}{x^2+1}=\dfrac{4x-5-(x-2)}{x^2+1}=\dfrac{3x-3}{x^2+1}$.
 
-=== Bài 2 ===
+So a) $3$; b) $\dfrac{3x-3}{x^2+1}$.
+
+**Answer.** a) $3$. b) $\dfrac{3x-3}{x^2+1}$.
+
+
+######################################################################
+@@@ g8/analysing-charts
+Bài học: Phân tích số liệu thống kê dựa vào biểu đồ / Analysing statistical data from charts
+Cần viết lại lời giải các bài: 1, 3, 6, 7 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
 [ĐỀ – VI]
-Hệ $\begin{cases} x+y\le 1\\ x+y\ge 3 \end{cases}$ có nghiệm không? Giải thích.
+Biểu đồ hình quạt tròn cho biết $150$ học sinh chọn câu lạc bộ: Bóng đá $40\%$, Âm nhạc $30\%$, Mỹ thuật $20\%$, Cờ vua $10\%$. Tính số học sinh của mỗi câu lạc bộ.
 
 [LỜI GIẢI CŨ – VI]
-Nếu $(x; y)$ là nghiệm thì $3\le x+y\le 1$, vô lí vì $3>1$. Hai đường biên $x+y=1$ và $x+y=3$ song song, hai nửa mặt phẳng nằm về hai phía không chồng lên nhau.
+Ta có $150\cdot0{,}4=60$; $150\cdot0{,}3=45$; $150\cdot0{,}2=30$; $150\cdot0{,}1=15$.
 
-**Đáp số.** Hệ vô nghiệm (miền nghiệm rỗng).
+Vậy Bóng đá $60$ bạn, Âm nhạc $45$ bạn, Mỹ thuật $30$ bạn, Cờ vua $15$ bạn.
+
+**Đáp số.** $60$; $45$; $30$; $15$ bạn.
 
 [ĐỀ – EN]
-Does the system $\begin{cases} x+y\le 1\\ x+y\ge 3 \end{cases}$ have a solution? Explain.
+A pie chart shows how $150$ students chose a club: Football $40\%$, Music $30\%$, Art $20\%$, Chess $10\%$. Find the number of students in each club.
 
 [LỜI GIẢI CŨ – EN]
-If $(x, y)$ were a solution, then $3\le x+y\le 1$, which is impossible because $3>1$. The boundary lines $x+y=1$ and $x+y=3$ are parallel, and the two half-planes lie on opposite sides without overlapping.
+We have $150\cdot0.4=60$; $150\cdot0.3=45$; $150\cdot0.2=30$; $150\cdot0.1=15$.
 
-**Answer.** The system has no solution (the region is empty).
+So Football has $60$ students, Music $45$, Art $30$ and Chess $15$.
+
+**Answer.** $60$; $45$; $30$; $15$ students.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Miền nghiệm của hệ $1\le x\le 4$, $0\le y\le 3$ là một hình chữ nhật. Nêu các đỉnh và tìm giá trị lớn nhất, nhỏ nhất của $F=2x+y$ trên miền đó.
+Số thành viên của một câu lạc bộ tăng từ $40$ lên $52$ người. Tính phần trăm tăng.
 
 [LỜI GIẢI CŨ – VI]
-Các đỉnh $(1; 0)$, $(4; 0)$, $(4; 3)$, $(1; 3)$ cho
-$$F=2,\quad 8,\quad 11,\quad 5.$$
+Ta có $\dfrac{52-40}{40}\cdot100\%=\dfrac{12}{40}\cdot100\%=30\%$.
 
-**Đáp số.** Lớn nhất $11$ tại $(4; 3)$; nhỏ nhất $2$ tại $(1; 0)$.
+Vậy số thành viên tăng $30\%$.
 
-[ĐỀ – EN]
-The solution region of the system $1\le x\le 4$, $0\le y\le 3$ is a rectangle. Give its vertices and find the maximum and minimum of $F=2x+y$ over it.
-
-[LỜI GIẢI CŨ – EN]
-The vertices $(1, 0)$, $(4, 0)$, $(4, 3)$, $(1, 3)$ give
-$$F=2,\quad 8,\quad 11,\quad 5.$$
-
-**Answer.** Maximum $11$ at $(4, 3)$; minimum $2$ at $(1, 0)$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Tìm các đỉnh của miền nghiệm của hệ $x\ge 0$, $y\ge 0$, $x+y\le 6$, $x+3y\le 12$, rồi tìm giá trị lớn nhất của $F=5x+4y$ trên miền đó.
-
-[LỜI GIẢI CŨ – VI]
-Trên trục: $(0; 0)$, $(6; 0)$, $(0; 4)$. Trừ vế theo vế $x+3y=12$ và $x+y=6$: $2y=6$, $y=3$, $x=3$. Giá trị của $F$:
-$$F(0; 0)=0,\quad F(6; 0)=30,\quad F(0; 4)=16,\quad F(3; 3)=27.$$
-
-**Đáp số.** Các đỉnh $(0; 0)$, $(6; 0)$, $(3; 3)$, $(0; 4)$; giá trị lớn nhất của $F$ là $30$, tại $(6; 0)$.
+**Đáp số.** $30\%$.
 
 [ĐỀ – EN]
-Find the vertices of the solution region of the system $x\ge 0$, $y\ge 0$, $x+y\le 6$, $x+3y\le 12$, then find the maximum of $F=5x+4y$ over it.
+The number of members of a club rose from $40$ to $52$. Find the percentage increase.
 
 [LỜI GIẢI CŨ – EN]
-On the axes: $(0, 0)$, $(6, 0)$, $(0, 4)$. Subtract $x+y=6$ from $x+3y=12$: $2y=6$, $y=3$, $x=3$. The values of $F$:
-$$F(0, 0)=0,\quad F(6, 0)=30,\quad F(0, 4)=16,\quad F(3, 3)=27.$$
+We have $\dfrac{52-40}{40}\cdot100\%=\dfrac{12}{40}\cdot100\%=30\%$.
 
-**Answer.** The vertices are $(0, 0)$, $(6, 0)$, $(3, 3)$, $(0, 4)$; the maximum of $F$ is $30$, at $(6, 0)$.
+So the membership rose by $30\%$.
 
-=== Bài 5 ===
-[ĐỀ – VI]
-Cho hệ $\begin{cases} x\ge 0,\ y\ge 0\\ 2x+y\le 8\\ y\le 4 \end{cases}$ có miền nghiệm $D$. Mỗi khẳng định sau đúng hay sai?
-
-a) Cặp $(1; 5)$ là một nghiệm của hệ.
-
-b) $D$ là một tứ giác, trong đó có đỉnh $(2; 4)$.
-
-c) Giá trị lớn nhất của $x+y$ trên $D$ bằng $6$.
-
-d) Giá trị nhỏ nhất của $x-y$ trên $D$ bằng $-2$.
-
-[LỜI GIẢI CŨ – VI]
-a) **Sai:** $y=5\le 4$ là sai.
-
-b) **Đúng:** các đỉnh là $(0; 0)$, $(4; 0)$, $(2; 4)$, $(0; 4)$; đỉnh $(2; 4)$ có được khi thay $y=4$ vào $2x+y=8$.
-
-c) **Đúng:** $x+y$ tại bốn đỉnh bằng $0$, $4$, $6$, $4$; lớn nhất là $6$.
-
-d) **Sai:** $x-y$ tại bốn đỉnh bằng $0$, $4$, $-2$, $-4$; nhỏ nhất là $-4$ (tại $(0; 4)$), không phải $-2$.
-
-**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
-
-[ĐỀ – EN]
-The system $\begin{cases} x\ge 0,\ y\ge 0\\ 2x+y\le 8\\ y\le 4 \end{cases}$ has solution region $D$. Is each claim true or false?
-
-a) The pair $(1, 5)$ is a solution of the system.
-
-b) $D$ is a quadrilateral, and $(2, 4)$ is one of its vertices.
-
-c) The maximum of $x+y$ over $D$ is $6$.
-
-d) The minimum of $x-y$ over $D$ is $-2$.
-
-[LỜI GIẢI CŨ – EN]
-a) **False:** $y=5\le 4$ is false.
-
-b) **True:** the vertices are $(0, 0)$, $(4, 0)$, $(2, 4)$, $(0, 4)$; the vertex $(2, 4)$ comes from putting $y=4$ in $2x+y=8$.
-
-c) **True:** $x+y$ at the four vertices is $0$, $4$, $6$, $4$; the largest is $6$.
-
-d) **False:** $x-y$ at the four vertices is $0$, $4$, $-2$, $-4$; the smallest is $-4$ (at $(0, 4)$), not $-2$.
-
-**Answer.** a) False; b) True; c) True; d) False.
+**Answer.** $30\%$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Một quầy ăn của câu lạc bộ mỗi ngày bán $x$ bánh mì kẹp và $y$ cốc nước. Thời gian chuẩn bị cho phép tổng cộng nhiều nhất $30$ món ($x+y\le 30$), quầy chuẩn bị được nhiều nhất $20$ bánh và nhiều nhất $20$ cốc nước. Mỗi bánh lãi $4$ nghìn đồng, mỗi cốc nước lãi $3$ nghìn đồng. Tiền lãi lớn nhất trong một ngày là bao nhiêu nghìn đồng?
+Giả sử lượng mưa (mm) ở một địa phương các tháng $6$, $7$, $8$, $9$ lần lượt là $100$; $180$; $250$; $200$. Tính phần trăm tăng từ tháng $6$ đến tháng $8$ và phần trăm giảm từ tháng $8$ sang tháng $9$.
 
 [LỜI GIẢI CŨ – VI]
-Các đỉnh $(0; 0)$, $(20; 0)$, $(20; 10)$, $(10; 20)$, $(0; 20)$ cho
-$$F=0,\quad 80,\quad 110,\quad 100,\quad 60.$$
-Lãi lớn nhất khi bán $20$ bánh và $10$ cốc nước.
+Từ tháng $6$ đến tháng $8$: $\dfrac{250-100}{100}\cdot100\%=150\%$. Từ tháng $8$ sang tháng $9$: $\dfrac{200-250}{250}\cdot100\%=-20\%$.
 
-**Đáp số.** $110$.
+Vậy lượng mưa tăng $150\%$ rồi giảm $20\%$.
+
+**Đáp số.** Tăng $150\%$; giảm $20\%$.
 
 [ĐỀ – EN]
-The club's food stall sells $x$ sandwiches and $y$ cups of juice per day. Preparation time allows at most $30$ items in total ($x+y\le 30$), and the stall can prepare at most $20$ sandwiches and at most $20$ cups of juice. Each sandwich makes $4$ thousand dong profit and each cup $3$ thousand dong. What is the largest profit in one day, in thousand dong?
+Suppose the rainfall (mm) in a region in months $6$, $7$, $8$, $9$ is $100$; $180$; $250$; $200$. Find the percentage increase from month $6$ to month $8$ and the percentage decrease from month $8$ to month $9$.
 
 [LỜI GIẢI CŨ – EN]
-The vertices $(0, 0)$, $(20, 0)$, $(20, 10)$, $(10, 20)$, $(0, 20)$ give
-$$F=0,\quad 80,\quad 110,\quad 100,\quad 60.$$
-The largest profit comes from $20$ sandwiches and $10$ cups of juice.
+From month $6$ to month $8$: $\dfrac{250-100}{100}\cdot100\%=150\%$. From month $8$ to month $9$: $\dfrac{200-250}{250}\cdot100\%=-20\%$.
 
-**Answer.** $110$.
+So the rainfall rose by $150\%$, then fell by $20\%$.
+
+**Answer.** Increase $150\%$; decrease $20\%$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Bác Hùng có $8$ ha đất để trồng ngô và đậu, và có $30$ triệu đồng để chi cho giống và phân bón. Mỗi ha ngô cần $5$ triệu đồng và lãi $4$ triệu đồng; mỗi ha đậu cần $3$ triệu đồng và lãi $3$ triệu đồng. Bác nên trồng bao nhiêu ha mỗi loại để lãi nhiều nhất?
+Khảo sát $25$ bạn về môn học yêu thích: Toán $10$ bạn, Văn $5$ bạn, Tiếng Anh $5$ bạn, môn khác $5$ bạn. Tính tần số tương đối và số đo cung của mỗi môn trong biểu đồ hình quạt tròn.
 
 [LỜI GIẢI CŨ – VI]
-Trên trục: $(0; 0)$, $(6; 0)$, $(0; 8)$. Thế $y=8-x$ vào $5x+3y=30$: $2x+24=30$, $x=3$, $y=5$. Giá trị của $F$:
-$$F(0; 0)=0,\quad F(6; 0)=24,\quad F(0; 8)=24,\quad F(3; 5)=12+15=27.$$
+Toán: $\dfrac{10}{25}=40\%$, cung $144^\circ$. Mỗi môn còn lại: $\dfrac{5}{25}=20\%$, cung $72^\circ$.
 
-**Đáp số.** Trồng $3$ ha ngô và $5$ ha đậu, lãi lớn nhất $27$ triệu đồng.
+Kiểm tra: $144+3\cdot72=360$.
+
+**Đáp số.** $40\%$, $20\%$, $20\%$, $20\%$; cung $144^\circ$, $72^\circ$, $72^\circ$, $72^\circ$.
 
 [ĐỀ – EN]
-Mr Hung has $8$ hectares of land for maize and beans, and $30$ million dong to spend on seed and fertiliser. Each hectare of maize costs $5$ million dong and makes $4$ million dong profit; each hectare of beans costs $3$ million dong and makes $3$ million dong profit. How many hectares of each should he plant to make the most profit?
+A survey of $25$ students about their favourite subject gives: Maths $10$, Literature $5$, English $5$, other $5$. Find the relative frequency and the sector angle for each subject in a pie chart.
 
 [LỜI GIẢI CŨ – EN]
-On the axes: $(0, 0)$, $(6, 0)$, $(0, 8)$. Substitute $y=8-x$ into $5x+3y=30$: $2x+24=30$, $x=3$, $y=5$. The values of $F$:
-$$F(0, 0)=0,\quad F(6, 0)=24,\quad F(0, 8)=24,\quad F(3, 5)=12+15=27.$$
+Maths: $\dfrac{10}{25}=40\%$, angle $144^\circ$. Each other subject: $\dfrac{5}{25}=20\%$, angle $72^\circ$.
 
-**Answer.** Plant $3$ hectares of maize and $5$ hectares of beans, for the largest profit of $27$ million dong.
+Check: $144+3\cdot72=360$.
+
+**Answer.** $40\%$, $20\%$, $20\%$, $20\%$; angles $144^\circ$, $72^\circ$, $72^\circ$, $72^\circ$.
+
+
+######################################################################
+@@@ g8/angle-bisector-theorem
+Bài học: Tính chất đường phân giác của tam giác / The angle bisector theorem
+Cần viết lại lời giải các bài: 1, 2, 3, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ có $AB=4$, $AC=6$. Đường phân giác $AD$ ($D\in BC$) có $DB=2$. Tính $DC$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $AD$ là đường phân giác nên $\dfrac{DB}{DC}=\dfrac{AB}{AC}$, hay $\dfrac{2}{DC}=\dfrac46$. Suy ra $DC=\dfrac{2\cdot6}{4}=3$.
+
+Vậy $DC=3$.
+
+**Đáp số.** $DC=3$.
+
+[ĐỀ – EN]
+In triangle $ABC$, $AB=4$ and $AC=6$. The bisector $AD$ ($D$ on $BC$) has $DB=2$. Find $DC$.
+
+[LỜI GIẢI CŨ – EN]
+Since $AD$ is the bisector, $\dfrac{DB}{DC}=\dfrac{AB}{AC}$, that is $\dfrac{2}{DC}=\dfrac46$. Hence $DC=\dfrac{2\cdot6}{4}=3$.
+
+So $DC=3$.
+
+**Answer.** $DC=3$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ có $AB=10$, $AC=14$, $BC=18$. Đường phân giác $AD$ ($D\in BC$). Tính $DB$ và $DC$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $AD$ là đường phân giác nên $DB=18\cdot\dfrac{10}{24}=7{,}5$. Suy ra $DC=18-7{,}5=10{,}5$.
+
+Vậy $DB=7{,}5$ và $DC=10{,}5$.
+
+**Đáp số.** $DB=7{,}5$; $DC=10{,}5$.
+
+[ĐỀ – EN]
+In triangle $ABC$, $AB=10$, $AC=14$ and $BC=18$. The bisector $AD$ meets $BC$ at $D$. Find $DB$ and $DC$.
+
+[LỜI GIẢI CŨ – EN]
+Since $AD$ is the bisector, $DB=18\cdot\dfrac{10}{24}=7.5$. Hence $DC=18-7.5=10.5$.
+
+So $DB=7.5$ and $DC=10.5$.
+
+**Answer.** $DB=7.5$; $DC=10.5$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ có $AB=7{,}5$. Đường phân giác $AD$ ($D\in BC$) có $DB=4{,}5$, $DC=6$. Tính $AC$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $AD$ là đường phân giác nên $\dfrac{AB}{AC}=\dfrac{DB}{DC}$, hay $\dfrac{7{,}5}{AC}=\dfrac{4{,}5}{6}$. Suy ra $AC=\dfrac{7{,}5\cdot6}{4{,}5}=10$.
+
+Vậy $AC=10$.
+
+**Đáp số.** $AC=10$.
+
+[ĐỀ – EN]
+In triangle $ABC$, $AB=7.5$. The bisector $AD$ ($D$ on $BC$) has $DB=4.5$ and $DC=6$. Find $AC$.
+
+[LỜI GIẢI CŨ – EN]
+Since $AD$ is the bisector, $\dfrac{AB}{AC}=\dfrac{DB}{DC}$, that is $\dfrac{7.5}{AC}=\dfrac{4.5}{6}$. Hence $AC=\dfrac{7.5\cdot6}{4.5}=10$.
+
+So $AC=10$.
+
+**Answer.** $AC=10$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$, đường phân giác $AD$ ($D\in BC$). Chứng minh rằng $\dfrac{DB}{BC}=\dfrac{AB}{AB+AC}$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $AD$ là đường phân giác nên $\dfrac{DB}{DC}=\dfrac{AB}{AC}$, suy ra $\dfrac{DB}{AB}=\dfrac{DC}{AC}$. Theo tính chất của dãy tỉ số bằng nhau, ta có
+$$\frac{DB}{AB}=\frac{DC}{AC}=\frac{DB+DC}{AB+AC}=\frac{BC}{AB+AC}.$$
+Do đó $\dfrac{DB}{BC}=\dfrac{AB}{AB+AC}$.
+
+**Đáp số.** Đã chứng minh.
+
+[ĐỀ – EN]
+In triangle $ABC$, $AD$ is the bisector of angle $A$ ($D$ on $BC$). Prove that $\dfrac{DB}{BC}=\dfrac{AB}{AB+AC}$.
+
+[LỜI GIẢI CŨ – EN]
+Since $AD$ is the bisector, $\dfrac{DB}{DC}=\dfrac{AB}{AC}$, so $\dfrac{DB}{AB}=\dfrac{DC}{AC}$. By the property of equal ratios,
+$$\frac{DB}{AB}=\frac{DC}{AC}=\frac{DB+DC}{AB+AC}=\frac{BC}{AB+AC}.$$
+Hence $\dfrac{DB}{BC}=\dfrac{AB}{AB+AC}$.
+
+**Answer.** Proved.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ có $AB=10$, $AC=15$, $BC=20$. Đường phân giác $AD$ ($D\in BC$). Đường thẳng qua $D$ song song với $AB$ cắt $AC$ tại $E$. Tính $DE$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $AD$ là đường phân giác nên $DC=20\cdot\dfrac{15}{25}=12$. Vì $DE\parallel AB$ nên theo định lí Thalès, ta có $\dfrac{DE}{AB}=\dfrac{CD}{CB}=\dfrac{12}{20}$. Suy ra $DE=10\cdot\dfrac{12}{20}=6$.
+
+Vậy $DE=6$.
+
+**Đáp số.** $DE=6$.
+
+[ĐỀ – EN]
+In triangle $ABC$, $AB=10$, $AC=15$ and $BC=20$. The bisector $AD$ meets $BC$ at $D$. The line through $D$ parallel to $AB$ meets $AC$ at $E$. Find $DE$.
+
+[LỜI GIẢI CŨ – EN]
+Since $AD$ is the bisector, $DC=20\cdot\dfrac{15}{25}=12$. Since $DE\parallel AB$, the intercept theorem gives $\dfrac{DE}{AB}=\dfrac{CD}{CB}=\dfrac{12}{20}$. Hence $DE=10\cdot\dfrac{12}{20}=6$.
+
+So $DE=6$.
+
+**Answer.** $DE=6$.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Viết một hệ bất phương trình bậc nhất hai ẩn có miền nghiệm là tam giác (kể cả cạnh) với các đỉnh $(0; 0)$, $(4; 0)$, $(0; 2)$.
+Tam giác $ABC$ có $AB=6$ cm, $AC=10$ cm và diện tích $48$ cm². Đường phân giác $AD$ ($D\in BC$). Tính diện tích của các tam giác $ABD$ và $ACD$.
 
 [LỜI GIẢI CŨ – VI]
-Hai cạnh trên trục cho $x\ge 0$, $y\ge 0$. Đường qua $(4; 0)$ và $(0; 2)$ là $\dfrac{x}{4}+\dfrac{y}{2}=1$, tức $x+2y=4$; gốc toạ độ cho $0\le 4$.
+Ta có $\dfrac{S_{ABD}}{S_{ACD}}=\dfrac{AB}{AC}=\dfrac{6}{10}=\dfrac35$ và $S_{ABD}+S_{ACD}=48$. Suy ra $S_{ABD}=\dfrac38\cdot48=18$ (cm²) và $S_{ACD}=48-18=30$ (cm²).
 
-**Đáp số.** $\begin{cases} x\ge 0\\ y\ge 0\\ x+2y\le 4 \end{cases}$
+Vậy $S_{ABD}=18$ cm² và $S_{ACD}=30$ cm².
+
+**Đáp số.** $18$ cm²; $30$ cm².
 
 [ĐỀ – EN]
-Write a system of linear inequalities in two variables whose solution region is the triangle (sides included) with vertices $(0, 0)$, $(4, 0)$, $(0, 2)$.
+Triangle $ABC$ has $AB=6$ cm, $AC=10$ cm and area $48$ cm². The bisector $AD$ meets $BC$ at $D$. Find the areas of triangles $ABD$ and $ACD$.
 
 [LỜI GIẢI CŨ – EN]
-The two sides on the axes give $x\ge 0$, $y\ge 0$. The line through $(4, 0)$ and $(0, 2)$ is $\dfrac{x}{4}+\dfrac{y}{2}=1$, that is $x+2y=4$; the origin gives $0\le 4$.
+We have $\dfrac{S_{ABD}}{S_{ACD}}=\dfrac{AB}{AC}=\dfrac{6}{10}=\dfrac35$ and $S_{ABD}+S_{ACD}=48$. Hence $S_{ABD}=\dfrac38\cdot48=18$ (cm²) and $S_{ACD}=48-18=30$ (cm²).
 
-**Answer.** $\begin{cases} x\ge 0\\ y\ge 0\\ x+2y\le 4 \end{cases}$
+So $S_{ABD}=18$ cm² and $S_{ACD}=30$ cm².
+
+**Answer.** $18$ cm²; $30$ cm².
+
+
+######################################################################
+@@@ g8/cubes-of-sums-differences
+Bài học: Lập phương của một tổng. Lập phương của một hiệu. Tổng và hiệu hai lập phương / Cube of a sum. Cube of a difference. Sum and difference of two cubes
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Khai triển:
+
+a) $(x+1)^3$.
+
+b) $(x-3)^3$.
+
+c) $(2x+1)^3$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(x+1)^3=x^3+3x^2+3x+1$.
+
+b) $(x-3)^3=x^3-9x^2+27x-27$.
+
+c) $(2x+1)^3=8x^3+12x^2+6x+1$.
+
+Vậy a) $x^3+3x^2+3x+1$; b) $x^3-9x^2+27x-27$; c) $8x^3+12x^2+6x+1$.
+
+**Đáp số.** a) $x^3+3x^2+3x+1$. b) $x^3-9x^2+27x-27$. c) $8x^3+12x^2+6x+1$.
+
+[ĐỀ – EN]
+Expand:
+
+a) $(x+1)^3$.
+
+b) $(x-3)^3$.
+
+c) $(2x+1)^3$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(x+1)^3=x^3+3x^2+3x+1$.
+
+b) $(x-3)^3=x^3-9x^2+27x-27$.
+
+c) $(2x+1)^3=8x^3+12x^2+6x+1$.
+
+So a) $x^3+3x^2+3x+1$; b) $x^3-9x^2+27x-27$; c) $8x^3+12x^2+6x+1$.
+
+**Answer.** a) $x^3+3x^2+3x+1$. b) $x^3-9x^2+27x-27$. c) $8x^3+12x^2+6x+1$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Khai triển:
+
+a) $(3x-2y)^3$.
+
+b) $(x^2+2)^3$.
+
+c) $\left(\dfrac12x+2\right)^3$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(3x-2y)^3=27x^3-54x^2y+36xy^2-8y^3$.
+
+b) $(x^2+2)^3=x^6+6x^4+12x^2+8$.
+
+c) $\left(\dfrac12x+2\right)^3=\dfrac18x^3+\dfrac32x^2+6x+8$.
+
+Vậy a) $27x^3-54x^2y+36xy^2-8y^3$; b) $x^6+6x^4+12x^2+8$; c) $\dfrac18x^3+\dfrac32x^2+6x+8$.
+
+**Đáp số.** a) $27x^3-54x^2y+36xy^2-8y^3$. b) $x^6+6x^4+12x^2+8$. c) $\dfrac18x^3+\dfrac32x^2+6x+8$.
+
+[ĐỀ – EN]
+Expand:
+
+a) $(3x-2y)^3$.
+
+b) $(x^2+2)^3$.
+
+c) $\left(\dfrac12x+2\right)^3$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(3x-2y)^3=27x^3-54x^2y+36xy^2-8y^3$.
+
+b) $(x^2+2)^3=x^6+6x^4+12x^2+8$.
+
+c) $\left(\dfrac12x+2\right)^3=\dfrac18x^3+\dfrac32x^2+6x+8$.
+
+So a) $27x^3-54x^2y+36xy^2-8y^3$; b) $x^6+6x^4+12x^2+8$; c) $\dfrac18x^3+\dfrac32x^2+6x+8$.
+
+**Answer.** a) $27x^3-54x^2y+36xy^2-8y^3$. b) $x^6+6x^4+12x^2+8$. c) $\dfrac18x^3+\dfrac32x^2+6x+8$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Khai triển:
+
+a) $(x+4)(x^2-4x+16)$.
+
+b) $(3x-1)(9x^2+3x+1)$.
+
+c) $(2x+3y)(4x^2-6xy+9y^2)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(x+4)(x^2-4x+16)=x^3+64$.
+
+b) $(3x-1)(9x^2+3x+1)=27x^3-1$.
+
+c) $(2x+3y)(4x^2-6xy+9y^2)=8x^3+27y^3$.
+
+Vậy a) $x^3+64$; b) $27x^3-1$; c) $8x^3+27y^3$.
+
+**Đáp số.** a) $x^3+64$. b) $27x^3-1$. c) $8x^3+27y^3$.
+
+[ĐỀ – EN]
+Expand:
+
+a) $(x+4)(x^2-4x+16)$.
+
+b) $(3x-1)(9x^2+3x+1)$.
+
+c) $(2x+3y)(4x^2-6xy+9y^2)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(x+4)(x^2-4x+16)=x^3+64$.
+
+b) $(3x-1)(9x^2+3x+1)=27x^3-1$.
+
+c) $(2x+3y)(4x^2-6xy+9y^2)=8x^3+27y^3$.
+
+So a) $x^3+64$; b) $27x^3-1$; c) $8x^3+27y^3$.
+
+**Answer.** a) $x^3+64$. b) $27x^3-1$. c) $8x^3+27y^3$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính nhẩm bằng hằng đẳng thức:
+
+a) $21^3$.
+
+b) $19^3$.
+
+c) $31^3$.
+
+[LỜI GIẢI CŨ – VI]
+a) $21^3=(20+1)^3=8000+1200+60+1=9261$.
+
+b) $19^3=(20-1)^3=8000-1200+60-1=6859$.
+
+c) $31^3=(30+1)^3=27\,000+2700+90+1=29\,791$.
+
+Vậy a) $9261$; b) $6859$; c) $29\,791$.
+
+**Đáp số.** a) $9261$. b) $6859$. c) $29\,791$.
+
+[ĐỀ – EN]
+Calculate mentally using identities:
+
+a) $21^3$.
+
+b) $19^3$.
+
+c) $31^3$.
+
+[LỜI GIẢI CŨ – EN]
+a) $21^3=(20+1)^3=8000+1200+60+1=9261$.
+
+b) $19^3=(20-1)^3=8000-1200+60-1=6859$.
+
+c) $31^3=(30+1)^3=27\,000+2700+90+1=29\,791$.
+
+So a) $9261$; b) $6859$; c) $29\,791$.
+
+**Answer.** a) $9261$. b) $6859$. c) $29\,791$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Viết các biểu thức sau thành lập phương của một tổng (hiệu) hoặc thành tích:
+
+a) $x^3+12x^2+48x+64$.
+
+b) $8x^3-125$.
+
+c) $27+x^3$.
+
+[LỜI GIẢI CŨ – VI]
+a) Với $a=x$, $b=4$: $x^3+12x^2+48x+64=(x+4)^3$.
+
+b) $8x^3-125=(2x)^3-5^3=(2x-5)(4x^2+10x+25)$.
+
+c) $27+x^3=3^3+x^3=(3+x)(9-3x+x^2)$.
+
+Vậy a) $(x+4)^3$; b) $(2x-5)(4x^2+10x+25)$; c) $(3+x)(9-3x+x^2)$.
+
+**Đáp số.** a) $(x+4)^3$. b) $(2x-5)(4x^2+10x+25)$. c) $(3+x)(9-3x+x^2)$.
+
+[ĐỀ – EN]
+Write each expression as the cube of a sum (or difference), or as a product:
+
+a) $x^3+12x^2+48x+64$.
+
+b) $8x^3-125$.
+
+c) $27+x^3$.
+
+[LỜI GIẢI CŨ – EN]
+a) With $a=x$, $b=4$: $x^3+12x^2+48x+64=(x+4)^3$.
+
+b) $8x^3-125=(2x)^3-5^3=(2x-5)(4x^2+10x+25)$.
+
+c) $27+x^3=3^3+x^3=(3+x)(9-3x+x^2)$.
+
+So a) $(x+4)^3$; b) $(2x-5)(4x^2+10x+25)$; c) $(3+x)(9-3x+x^2)$.
+
+**Answer.** a) $(x+4)^3$. b) $(2x-5)(4x^2+10x+25)$. c) $(3+x)(9-3x+x^2)$.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Trên miền nghiệm của hệ $x\ge 0$, $y\ge 0$, $x+y\le 6$, $x+3y\le 12$, tìm giá trị lớn nhất và nhỏ nhất của $F=x-y$.
+Nhớ lại bài về hình hộp chữ nhật và hình lập phương. Một hình lập phương có cạnh $(2x-1)$ cm. Viết thể tích dưới dạng đa thức, rồi tính khi $x=2$.
 
 [LỜI GIẢI CŨ – VI]
-Các đỉnh $(0; 0)$, $(6; 0)$, $(3; 3)$, $(0; 4)$ cho
-$$F=0,\quad 6,\quad 0,\quad -4.$$
+Ta có $V=(2x-1)^3=(2x)^3-3(2x)^2\cdot1+3\cdot2x\cdot1^2-1^3=8x^3-12x^2+6x-1\ (\text{cm}^3)$.
 
-**Đáp số.** Lớn nhất $6$ tại $(6; 0)$; nhỏ nhất $-4$ tại $(0; 4)$.
+Khi $x=2$, $V=64-48+12-1=27\ (\text{cm}^3)$. (Kiểm tra: cạnh là $3$ cm, $3^3=27$.)
+
+Vậy $V=8x^3-12x^2+6x-1\ (\text{cm}^3)$, và bằng $27\ \text{cm}^3$ khi $x=2$.
+
+**Đáp số.** $8x^3-12x^2+6x-1$; $27\ \text{cm}^3$.
 
 [ĐỀ – EN]
-Over the solution region of the system $x\ge 0$, $y\ge 0$, $x+y\le 6$, $x+3y\le 12$, find the maximum and minimum of $F=x-y$.
+Recall the lesson on cuboids and cubes. A cube has edge $(2x-1)$ cm. Write its volume as a polynomial, then find it when $x=2$.
 
 [LỜI GIẢI CŨ – EN]
-The vertices $(0, 0)$, $(6, 0)$, $(3, 3)$, $(0, 4)$ give
-$$F=0,\quad 6,\quad 0,\quad -4.$$
+We have $V=(2x-1)^3=(2x)^3-3(2x)^2\cdot1+3\cdot2x\cdot1^2-1^3=8x^3-12x^2+6x-1\ (\text{cm}^3)$.
 
-**Answer.** Maximum $6$ at $(6, 0)$; minimum $-4$ at $(0, 4)$.
+When $x=2$, $V=64-48+12-1=27\ (\text{cm}^3)$. (Check: the edge is $3$ cm, and $3^3=27$.)
+
+So $V=8x^3-12x^2+6x-1\ (\text{cm}^3)$, which equals $27\ \text{cm}^3$ when $x=2$.
+
+**Answer.** $8x^3-12x^2+6x-1$; $27\ \text{cm}^3$.
 
 === Bài 10 ===
 [ĐỀ – VI]
-(Ôn lại [Tập hợp và các phép toán trên tập hợp](lesson:sets-and-set-operations).) Gọi $D_1$ là miền nghiệm của $x+y\le 4$ và $D_2$ là miền nghiệm của $x-y\ge 0$. Mỗi điểm $A(1; 1)$, $B(1; 2)$, $C(3; 2)$, $E(0; 5)$ thuộc tập nào trong các tập $D_1\cap D_2$, $D_1\setminus D_2$, $D_2\setminus D_1$, hay không thuộc $D_1\cup D_2$?
+Cho $a+b=1$. Chứng minh rằng $a^3+b^3+3ab=1$.
 
 [LỜI GIẢI CŨ – VI]
-$$\begin{aligned} A&:\ 2\le 4,\ 0\ge 0 &&\Rightarrow A\in D_1\cap D_2,\\ B&:\ 3\le 4,\ -1\ge 0\ \text{sai} &&\Rightarrow B\in D_1\setminus D_2,\\ C&:\ 5\le 4\ \text{sai},\ 1\ge 0 &&\Rightarrow C\in D_2\setminus D_1,\\ E&:\ 5\le 4\ \text{sai},\ -5\ge 0\ \text{sai} &&\Rightarrow E\notin D_1\cup D_2. \end{aligned}$$
+Từ $(a+b)^3=a^3+b^3+3ab(a+b)$ ta có $a^3+b^3=(a+b)^3-3ab(a+b)$. Vì $a+b=1$ nên
+$$a^3+b^3=1-3ab.$$
+Do đó $a^3+b^3+3ab=1-3ab+3ab=1$.
 
-**Đáp số.** $A\in D_1\cap D_2$; $B\in D_1\setminus D_2$; $C\in D_2\setminus D_1$; $E\notin D_1\cup D_2$.
+**Đáp số.** Đẳng thức được chứng minh.
 
 [ĐỀ – EN]
-(Revisiting [Sets and set operations](lesson:sets-and-set-operations).) Let $D_1$ be the solution region of $x+y\le 4$ and $D_2$ that of $x-y\ge 0$. For each of the points $A(1, 1)$, $B(1, 2)$, $C(3, 2)$, $E(0, 5)$, say whether it belongs to $D_1\cap D_2$, $D_1\setminus D_2$, $D_2\setminus D_1$, or lies outside $D_1\cup D_2$.
+Given $a+b=1$, prove that $a^3+b^3+3ab=1$.
 
 [LỜI GIẢI CŨ – EN]
-$$\begin{aligned} A&:\ 2\le 4,\ 0\ge 0 &&\Rightarrow A\in D_1\cap D_2,\\ B&:\ 3\le 4,\ -1\ge 0\ \text{false} &&\Rightarrow B\in D_1\setminus D_2,\\ C&:\ 5\le 4\ \text{false},\ 1\ge 0 &&\Rightarrow C\in D_2\setminus D_1,\\ E&:\ 5\le 4\ \text{false},\ -5\ge 0\ \text{false} &&\Rightarrow E\notin D_1\cup D_2. \end{aligned}$$
+From $(a+b)^3=a^3+b^3+3ab(a+b)$ we get $a^3+b^3=(a+b)^3-3ab(a+b)$. Since $a+b=1$,
+$$a^3+b^3=1-3ab.$$
+Hence $a^3+b^3+3ab=1-3ab+3ab=1$.
 
-**Answer.** $A\in D_1\cap D_2$; $B\in D_1\setminus D_2$; $C\in D_2\setminus D_1$; $E\notin D_1\cup D_2$.
+**Answer.** The identity is proved.
 
 
 ######################################################################
-@@@ g10/triangle-relations
-Bài học: Hệ thức lượng trong tam giác / Trigonometry in triangles
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+@@@ g8/experimental-theoretical-probability
+Bài học: Mối liên hệ giữa xác suất thực nghiệm với xác suất và ứng dụng / Experimental and theoretical probability, with applications
+Cần viết lại lời giải các bài: 4, 9, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Cho tam giác $ABC$ có $b=6$, $c=8$ và $A=60^\circ$. Tính $a$.
-
-[LỜI GIẢI CŨ – VI]
-$$a^2=36+64-2\cdot6\cdot8\cdot\frac12=100-48=52\Rightarrow a=\sqrt{52}=2\sqrt{13}.$$
-
-**Đáp số.** $a=2\sqrt{13}\approx7{,}21$.
-
-[ĐỀ – EN]
-In triangle $ABC$, $b=6$, $c=8$ and $A=60^\circ$. Find $a$.
-
-[LỜI GIẢI CŨ – EN]
-$$a^2=36+64-2\cdot6\cdot8\cdot\frac12=100-48=52\Rightarrow a=\sqrt{52}=2\sqrt{13}.$$
-
-**Answer.** $a=2\sqrt{13}\approx7.21$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Tam giác có các cạnh $a=5$, $b=6$, $c=7$. Tính góc $C$.
-
-[LỜI GIẢI CŨ – VI]
-$$\cos C=\frac{25+36-49}{2\cdot5\cdot6}=\frac{12}{60}=0{,}2\Rightarrow C\approx78{,}46^\circ.$$
-
-**Đáp số.** $C\approx78{,}46^\circ$.
-
-[ĐỀ – EN]
-A triangle has sides $a=5$, $b=6$, $c=7$. Find the angle $C$.
-
-[LỜI GIẢI CŨ – EN]
-$$\cos C=\frac{25+36-49}{2\cdot5\cdot6}=\frac{12}{60}=0.2\Rightarrow C\approx78.46^\circ.$$
-
-**Answer.** $C\approx78.46^\circ$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-a) Tam giác có $a=8$ và $A=30^\circ$. Tính bán kính đường tròn ngoại tiếp $R$.
-
-b) Cho tam giác $ABC$ có $A=45^\circ$, $B=60^\circ$, $b=\sqrt6$. Tính $a$.
-
-[LỜI GIẢI CŨ – VI]
-a) $2R=\dfrac{8}{\sin30^\circ}=16$, nên $R=8$.
-
-b)
-$$a=\frac{\sqrt6\cdot\frac{\sqrt2}{2}}{\frac{\sqrt3}{2}}=\frac{\sqrt{12}}{\sqrt3}=2.$$
-
-**Đáp số.** a) $R=8$; b) $a=2$.
-
-[ĐỀ – EN]
-a) A triangle has $a=8$ and $A=30^\circ$. Find the circumradius $R$.
-
-b) In triangle $ABC$, $A=45^\circ$, $B=60^\circ$, $b=\sqrt6$. Find $a$.
-
-[LỜI GIẢI CŨ – EN]
-a) $2R=\dfrac{8}{\sin30^\circ}=16$, so $R=8$.
-
-b)
-$$a=\frac{\sqrt6\cdot\frac{\sqrt2}{2}}{\frac{\sqrt3}{2}}=\frac{\sqrt{12}}{\sqrt3}=2.$$
-
-**Answer.** a) $R=8$; b) $a=2$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tính diện tích tam giác có $a=6$, $b=9$ và $C=30^\circ$.
+Một hộp có $40$ bi đỏ và xanh. Lấy ngẫu nhiên một bi, ghi màu rồi trả lại, lặp lại $80$ lần; có $20$ lần lấy được bi đỏ. Ước lượng số bi đỏ trong hộp.
 
 [LỜI GIẢI CŨ – VI]
-$$S=\frac12\cdot6\cdot9\cdot\frac12=13{,}5.$$
+Xác suất thực nghiệm là $\dfrac{20}{80}=\dfrac14$. Số bi đỏ ước lượng là $40\cdot\dfrac14=10$.
 
-**Đáp số.** $S=13{,}5$.
+Vậy trong hộp có khoảng $10$ bi đỏ.
 
-[ĐỀ – EN]
-Find the area of a triangle with $a=6$, $b=9$ and $C=30^\circ$.
-
-[LỜI GIẢI CŨ – EN]
-$$S=\frac12\cdot6\cdot9\cdot\frac12=13.5.$$
-
-**Answer.** $S=13.5$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Cho tam giác có ba cạnh $13$, $14$, $15$. Mỗi khẳng định sau đúng hay sai?
-
-a) Nửa chu vi của tam giác là $p=21$.
-
-b) Diện tích tam giác bằng $84$.
-
-c) Bán kính đường tròn ngoại tiếp bằng $8$.
-
-d) Góc đối diện cạnh $15$ là góc tù.
-
-[LỜI GIẢI CŨ – VI]
-a) **Đúng:** $p=\dfrac{13+14+15}{2}=21$.
-
-b) **Đúng:** $S=\sqrt{21\cdot8\cdot7\cdot6}=\sqrt{7056}=84$.
-
-c) **Sai:** $R=\dfrac{13\cdot14\cdot15}{4\cdot84}=\dfrac{2730}{336}=8{,}125$.
-
-d) **Sai:** $15^2=225<13^2+14^2=365$, nên $\cos$ của góc đó dương và góc nhọn.
-
-**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+**Đáp số.** Khoảng $10$ bi đỏ.
 
 [ĐỀ – EN]
-A triangle has sides $13$, $14$, $15$. Is each claim true or false?
-
-a) The semi-perimeter of the triangle is $p=21$.
-
-b) The area of the triangle is $84$.
-
-c) The circumradius is $8$.
-
-d) The angle opposite the side $15$ is obtuse.
+A box holds $40$ marbles, red and blue. A marble is taken at random, its colour noted and put back; this is repeated $80$ times, and a red marble comes out $20$ times. Estimate the number of red marbles in the box.
 
 [LỜI GIẢI CŨ – EN]
-a) **True:** $p=\dfrac{13+14+15}{2}=21$.
+The experimental probability is $\dfrac{20}{80}=\dfrac14$. The estimated number of red marbles is $40\cdot\dfrac14=10$.
 
-b) **True:** $S=\sqrt{21\cdot8\cdot7\cdot6}=\sqrt{7056}=84$.
+So the box holds about $10$ red marbles.
 
-c) **False:** $R=\dfrac{13\cdot14\cdot15}{4\cdot84}=\dfrac{2730}{336}=8.125$.
-
-d) **False:** $15^2=225<13^2+14^2=365$, so the cosine of that angle is positive and the angle is acute.
-
-**Answer.** a) True; b) True; c) False; d) False.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Hai con tàu cùng rời một cảng. Tàu thứ nhất chạy với vận tốc $12$ km/h, tàu thứ hai $16$ km/h; hai hướng đi hợp với nhau một góc $50^\circ$. Sau $2$ giờ, hai tàu cách nhau bao nhiêu kilômét (làm tròn đến hàng phần mười)?
-
-[LỜI GIẢI CŨ – VI]
-Sau $2$ giờ hai tàu cách cảng $24$ km và $32$ km.
-$$d^2=24^2+32^2-2\cdot24\cdot32\cos50^\circ=1600-1536\cos50^\circ\approx612{,}7\Rightarrow d\approx24{,}75.$$
-
-**Đáp số.** $24{,}8$.
-
-[ĐỀ – EN]
-Two ships leave the same port. The first sails at $12$ km/h, the second at $16$ km/h, and their courses make an angle of $50^\circ$. How many kilometres apart are they after $2$ hours (rounded to one decimal place)?
-
-[LỜI GIẢI CŨ – EN]
-After $2$ hours the ships are $24$ km and $32$ km from the port.
-$$d^2=24^2+32^2-2\cdot24\cdot32\cos50^\circ=1600-1536\cos50^\circ\approx612.7\Rightarrow d\approx24.75.$$
-
-**Answer.** $24.8$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Để đo khoảng cách từ điểm $A$ trên bờ sông đến một cái cây $C$ ở bờ bên kia, người ta chọn điểm $B$ cùng bờ với $A$ sao cho $AB=200$ m, rồi đo được $\widehat{CAB}=62^\circ$ và $\widehat{CBA}=71^\circ$. Tính $AC$.
-
-[LỜI GIẢI CŨ – VI]
-$$\widehat{C}=180^\circ-62^\circ-71^\circ=47^\circ,\qquad AC=\frac{200\sin71^\circ}{\sin47^\circ}\approx258{,}6\ \text{(m)}.$$
-
-**Đáp số.** $AC\approx258{,}6$ m.
-
-[ĐỀ – EN]
-To measure the distance from a point $A$ on a river bank to a tree $C$ on the other bank, a surveyor chooses a point $B$ on the same bank as $A$ with $AB=200$ m, and measures $\angle CAB=62^\circ$ and $\angle CBA=71^\circ$. Find $AC$.
-
-[LỜI GIẢI CŨ – EN]
-$$\angle C=180^\circ-62^\circ-71^\circ=47^\circ,\qquad AC=\frac{200\sin71^\circ}{\sin47^\circ}\approx258.6\ \text{(m)}.$$
-
-**Answer.** $AC\approx258.6$ m.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Có tồn tại tam giác $ABC$ với $A=40^\circ$, $a=4$, $b=8$ hay không? Giải thích.
-
-[LỜI GIẢI CŨ – VI]
-$$\sin B=\frac{8\sin40^\circ}{4}=2\sin40^\circ\approx1{,}286>1,$$
-điều này không thể xảy ra. (Cũng thấy được từ quy tắc nhanh: $a=4<b\sin A\approx5{,}14$.)
-
-**Đáp số.** Không tồn tại tam giác như vậy.
-
-[ĐỀ – EN]
-Is there a triangle $ABC$ with $A=40^\circ$, $a=4$, $b=8$? Explain.
-
-[LỜI GIẢI CŨ – EN]
-$$\sin B=\frac{8\sin40^\circ}{4}=2\sin40^\circ\approx1.286>1,$$
-which is impossible. (The quick rule shows it too: $a=4<b\sin A\approx5.14$.)
-
-**Answer.** No such triangle exists.
+**Answer.** About $10$ red marbles.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Tam giác có ba cạnh $3$, $5$, $7$. Chứng minh góc lớn nhất bằng $120^\circ$, rồi tính diện tích $S$ và bán kính đường tròn nội tiếp $r$.
+Một máy quay thưởng được quay $80$ lần và có $12$ lần trúng thưởng (giả sử). Tính xác suất thực nghiệm của biến cố "trúng thưởng" và của biến cố đối "không trúng". (Ôn lại [biến cố đối](lesson:possible-favourable-outcomes).)
 
 [LỜI GIẢI CŨ – VI]
-$$\cos\theta=\frac{3^2+5^2-7^2}{2\cdot3\cdot5}=\frac{-15}{30}=-\frac12\Rightarrow \theta=120^\circ.$$
-$$S=\frac12\cdot3\cdot5\cdot\sin120^\circ=\frac{15\sqrt3}{4},\qquad p=\frac{15}{2},\qquad r=\frac{S}{p}=\frac{15\sqrt3}{4}\cdot\frac{2}{15}=\frac{\sqrt3}{2}.$$
+Xác suất thực nghiệm trúng thưởng là $\dfrac{12}{80}=\dfrac{3}{20}=15\%$. Xác suất thực nghiệm không trúng là $1-0{,}15=0{,}85=85\%$ (cũng bằng $\dfrac{68}{80}$).
 
-**Đáp số.** $S=\dfrac{15\sqrt3}{4}\approx6{,}50$; $r=\dfrac{\sqrt3}{2}\approx0{,}87$.
+**Đáp số.** $15\%$; $85\%$.
 
 [ĐỀ – EN]
-A triangle has sides $3$, $5$, $7$. Show that its largest angle is $120^\circ$, then find its area $S$ and its inradius $r$.
+A prize machine is spun $80$ times and wins a prize $12$ times (an imagined case). Find the experimental probability of the event "wins a prize" and of the complementary event "does not win". (Revise [complementary events](lesson:possible-favourable-outcomes).)
 
 [LỜI GIẢI CŨ – EN]
-$$\cos\theta=\frac{3^2+5^2-7^2}{2\cdot3\cdot5}=\frac{-15}{30}=-\frac12\Rightarrow \theta=120^\circ.$$
-$$S=\frac12\cdot3\cdot5\cdot\sin120^\circ=\frac{15\sqrt3}{4},\qquad p=\frac{15}{2},\qquad r=\frac{S}{p}=\frac{15\sqrt3}{4}\cdot\frac{2}{15}=\frac{\sqrt3}{2}.$$
+The experimental probability of winning is $\dfrac{12}{80}=\dfrac{3}{20}=15\%$. The experimental probability of not winning is $1-0.15=0.85=85\%$ (also $\dfrac{68}{80}$).
 
-**Answer.** $S=\dfrac{15\sqrt3}{4}\approx6.50$; $r=\dfrac{\sqrt3}{2}\approx0.87$.
+**Answer.** $15\%$; $85\%$.
 
 === Bài 10 ===
 [ĐỀ – VI]
-(Ôn lại [Giá trị lượng giác của một góc từ 0° đến 180°](lesson:trig-ratios-0-180).) Cho tam giác $ABC$ có $b=5$, $c=4$ và $\cos A=-\dfrac35$. Tính $\sin A$, diện tích $S$ và cạnh $a$.
+Gieo cùng lúc hai con xúc xắc $72$ lần; tổng số chấm bằng $7$ xuất hiện $15$ lần. Tính xác suất thực nghiệm của biến cố đó và so với xác suất lí thuyết $\dfrac16$. Nếu dùng xác suất thực nghiệm để dự đoán cho $600$ lần gieo thì được bao nhiêu lần, và con số lí thuyết là bao nhiêu? Nhận xét.
 
 [LỜI GIẢI CŨ – VI]
-$$\sin^2A=1-\frac{9}{25}=\frac{16}{25}\Rightarrow \sin A=\frac45,\qquad S=\frac12\cdot5\cdot4\cdot\frac45=8,$$
-$$a^2=25+16-2\cdot5\cdot4\cdot\left(-\frac35\right)=41+24=65.$$
+Xác suất thực nghiệm là $\dfrac{15}{72}=\dfrac{5}{24}\approx20{,}8\%$, lớn hơn $\dfrac16\approx16{,}7\%$ (lí thuyết mong đợi $72\cdot\dfrac16=12$ lần, ta được $15$ lần). Dự đoán cho $600$ lần theo thực nghiệm: $600\cdot\dfrac{5}{24}=125$ lần; theo lí thuyết: $600\cdot\dfrac16=100$ lần.
 
-**Đáp số.** $\sin A=\dfrac45$; $S=8$; $a=\sqrt{65}\approx8{,}06$.
+Nhận xét: $72$ lần thử còn ít nên xác suất thực nghiệm chưa đáng tin; với tổng cặp đồng khả năng ta nên dùng xác suất lí thuyết $\dfrac16$.
+
+**Đáp số.** $\dfrac{5}{24}$; $125$ lần so với $100$ lần.
 
 [ĐỀ – EN]
-(Revisiting [Trigonometric values of angles from 0° to 180°](lesson:trig-ratios-0-180).) In triangle $ABC$, $b=5$, $c=4$ and $\cos A=-\dfrac35$. Find $\sin A$, the area $S$ and the side $a$.
+Two dice are rolled together $72$ times, and a total of $7$ occurs $15$ times. Find the experimental probability of that event and compare it with the theoretical probability $\dfrac16$. If we use the experimental probability to predict for $600$ rolls, how many times do we get, and what is the theoretical figure? Comment.
 
 [LỜI GIẢI CŨ – EN]
-$$\sin^2A=1-\frac{9}{25}=\frac{16}{25}\Rightarrow \sin A=\frac45,\qquad S=\frac12\cdot5\cdot4\cdot\frac45=8,$$
-$$a^2=25+16-2\cdot5\cdot4\cdot\left(-\frac35\right)=41+24=65.$$
+The experimental probability is $\dfrac{15}{72}=\dfrac{5}{24}\approx20.8\%$, larger than $\dfrac16\approx16.7\%$ (theory expects $72\cdot\dfrac16=12$ times, and we got $15$). The prediction for $600$ rolls from the experiment is $600\cdot\dfrac{5}{24}=125$ times; from theory it is $600\cdot\dfrac16=100$ times.
 
-**Answer.** $\sin A=\dfrac45$; $S=8$; $a=\sqrt{65}\approx8.06$.
+Comment: $72$ trials are still few, so the experimental probability is not yet reliable; since the outcomes of a pair of dice are equally likely, we should use the theoretical probability $\dfrac16$.
+
+**Answer.** $\dfrac{5}{24}$; $125$ times against $100$ times.
 
 
 ######################################################################
-@@@ g10/trig-ratios-0-180
-Bài học: Giá trị lượng giác của một góc từ 0° đến 180° / Trigonometric values of angles from 0° to 180°
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Dùng quy tắc góc bù nhau để tìm $\sin150^\circ$, $\cos150^\circ$, $\tan150^\circ$, $\cot150^\circ$.
-
-[LỜI GIẢI CŨ – VI]
-$$\sin150^\circ=\frac12,\quad \cos150^\circ=-\frac{\sqrt3}{2},\quad \tan150^\circ=-\frac{\sqrt3}{3},\quad \cot150^\circ=-\sqrt3.$$
-
-**Đáp số.** $\dfrac12$; $-\dfrac{\sqrt3}{2}$; $-\dfrac{\sqrt3}{3}$; $-\sqrt3$.
-
-[ĐỀ – EN]
-Use the supplementary rule to find $\sin150^\circ$, $\cos150^\circ$, $\tan150^\circ$, $\cot150^\circ$.
-
-[LỜI GIẢI CŨ – EN]
-$$\sin150^\circ=\frac12,\quad \cos150^\circ=-\frac{\sqrt3}{2},\quad \tan150^\circ=-\frac{\sqrt3}{3},\quad \cot150^\circ=-\sqrt3.$$
-
-**Answer.** $\dfrac12$; $-\dfrac{\sqrt3}{2}$; $-\dfrac{\sqrt3}{3}$; $-\sqrt3$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Giá trị nào trong các giá trị sau không xác định: $\tan90^\circ$, $\cot0^\circ$, $\tan180^\circ$, $\cot180^\circ$, $\cot90^\circ$? Tính các giá trị xác định.
-
-[LỜI GIẢI CŨ – VI]
-$M(1; 0)$ ở $0^\circ$, $M(0; 1)$ ở $90^\circ$, $M(-1; 0)$ ở $180^\circ$. Các mẫu số bằng $0$ ở $\tan90^\circ$, $\cot0^\circ$, $\cot180^\circ$. Còn
-$$\tan180^\circ=\frac{0}{-1}=0,\qquad \cot90^\circ=\frac01=0.$$
-
-**Đáp số.** Không xác định: $\tan90^\circ$, $\cot0^\circ$, $\cot180^\circ$; $\tan180^\circ=0$, $\cot90^\circ=0$.
-
-[ĐỀ – EN]
-Which of the following are undefined: $\tan90^\circ$, $\cot0^\circ$, $\tan180^\circ$, $\cot180^\circ$, $\cot90^\circ$? Find the values that are defined.
-
-[LỜI GIẢI CŨ – EN]
-$M(1, 0)$ at $0^\circ$, $M(0, 1)$ at $90^\circ$, $M(-1, 0)$ at $180^\circ$. The denominator is $0$ for $\tan90^\circ$, $\cot0^\circ$, $\cot180^\circ$. Otherwise
-$$\tan180^\circ=\frac{0}{-1}=0,\qquad \cot90^\circ=\frac01=0.$$
-
-**Answer.** Undefined: $\tan90^\circ$, $\cot0^\circ$, $\cot180^\circ$; $\tan180^\circ=0$, $\cot90^\circ=0$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Cho $\cos\alpha=-\dfrac35$ với $0^\circ\leq\alpha\leq180^\circ$. Tính $\sin\alpha$, $\tan\alpha$, $\cot\alpha$.
-
-[LỜI GIẢI CŨ – VI]
-$$\sin^2\alpha=1-\frac{9}{25}=\frac{16}{25},\ \sin\alpha\geq0\Rightarrow \sin\alpha=\frac45;\qquad \tan\alpha=\frac{4/5}{-3/5}=-\frac43,\quad \cot\alpha=-\frac34.$$
-
-**Đáp số.** $\sin\alpha=\dfrac45$, $\tan\alpha=-\dfrac43$, $\cot\alpha=-\dfrac34$.
-
-[ĐỀ – EN]
-Given $\cos\alpha=-\dfrac35$ with $0^\circ\leq\alpha\leq180^\circ$, find $\sin\alpha$, $\tan\alpha$, $\cot\alpha$.
-
-[LỜI GIẢI CŨ – EN]
-$$\sin^2\alpha=1-\frac{9}{25}=\frac{16}{25},\ \sin\alpha\geq0\Rightarrow \sin\alpha=\frac45;\qquad \tan\alpha=\frac{4/5}{-3/5}=-\frac43,\quad \cot\alpha=-\frac34.$$
-
-**Answer.** $\sin\alpha=\dfrac45$, $\tan\alpha=-\dfrac43$, $\cot\alpha=-\dfrac34$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Tính $B=\cos20^\circ+\cos160^\circ+\sin35^\circ-\sin145^\circ$.
-
-[LỜI GIẢI CŨ – VI]
-$$\cos160^\circ=-\cos20^\circ,\quad \sin145^\circ=\sin35^\circ\Rightarrow B=\cos20^\circ-\cos20^\circ+\sin35^\circ-\sin35^\circ=0.$$
-
-**Đáp số.** $B=0$.
-
-[ĐỀ – EN]
-Compute $B=\cos20^\circ+\cos160^\circ+\sin35^\circ-\sin145^\circ$.
-
-[LỜI GIẢI CŨ – EN]
-$$\cos160^\circ=-\cos20^\circ,\quad \sin145^\circ=\sin35^\circ\Rightarrow B=\cos20^\circ-\cos20^\circ+\sin35^\circ-\sin35^\circ=0.$$
-
-**Answer.** $B=0$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Cho góc $\alpha$ với $90^\circ<\alpha<180^\circ$ và $\sin\alpha=\dfrac{12}{13}$. Mỗi khẳng định sau đúng hay sai?
-
-a) $\cos\alpha=\dfrac{5}{13}$.
-
-b) $\tan\alpha=-\dfrac{12}{5}$.
-
-c) $\cos(180^\circ-\alpha)=-\dfrac{5}{13}$.
-
-d) $\sin\alpha\cos\alpha=-\dfrac{60}{169}$.
-
-[LỜI GIẢI CŨ – VI]
-$\cos^2\alpha=1-\dfrac{144}{169}=\dfrac{25}{169}$, góc tù nên $\cos\alpha=-\dfrac{5}{13}$.
-
-a) **Sai:** $\cos\alpha=-\dfrac5{13}$, không phải $\dfrac5{13}$.
-
-b) **Đúng:** $\tan\alpha=\dfrac{12/13}{-5/13}=-\dfrac{12}{5}$.
-
-c) **Sai:** $\cos(180^\circ-\alpha)=-\cos\alpha=\dfrac{5}{13}$.
-
-d) **Đúng:** $\dfrac{12}{13}\cdot\left(-\dfrac{5}{13}\right)=-\dfrac{60}{169}$.
-
-**Đáp số.** a) Sai; b) Đúng; c) Sai; d) Đúng.
-
-[ĐỀ – EN]
-An angle $\alpha$ has $90^\circ<\alpha<180^\circ$ and $\sin\alpha=\dfrac{12}{13}$. Is each claim true or false?
-
-a) $\cos\alpha=\dfrac{5}{13}$.
-
-b) $\tan\alpha=-\dfrac{12}{5}$.
-
-c) $\cos(180^\circ-\alpha)=-\dfrac{5}{13}$.
-
-d) $\sin\alpha\cos\alpha=-\dfrac{60}{169}$.
-
-[LỜI GIẢI CŨ – EN]
-$\cos^2\alpha=1-\dfrac{144}{169}=\dfrac{25}{169}$, and the angle is obtuse, so $\cos\alpha=-\dfrac{5}{13}$.
-
-a) **False:** $\cos\alpha=-\dfrac5{13}$, not $\dfrac5{13}$.
-
-b) **True:** $\tan\alpha=\dfrac{12/13}{-5/13}=-\dfrac{12}{5}$.
-
-c) **False:** $\cos(180^\circ-\alpha)=-\cos\alpha=\dfrac{5}{13}$.
-
-d) **True:** $\dfrac{12}{13}\cdot\left(-\dfrac{5}{13}\right)=-\dfrac{60}{169}$.
-
-**Answer.** a) False; b) True; c) False; d) True.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Cánh tay của một cần cẩu dài $20$ m, gắn vào thân cần cẩu tại điểm $O$ cao $3$ m so với mặt đất. Cánh tay tạo với tia nằm ngang $Ox$ một góc $115^\circ$. Đầu cánh tay cao bao nhiêu mét so với mặt đất (làm tròn đến hàng phần mười)?
-
-[LỜI GIẢI CŨ – VI]
-$$h=3+20\sin115^\circ\approx3+20\cdot0{,}9063\approx21{,}1\ \text{(m)}.$$
-
-**Đáp số.** $21{,}1$.
-
-[ĐỀ – EN]
-The arm of a crane is $20$ m long and is attached to the crane's tower at a point $O$ that is $3$ m above the ground. The arm makes an angle of $115^\circ$ with the horizontal ray $Ox$. How high above the ground is the tip of the arm, in metres (rounded to one decimal place)?
-
-[LỜI GIẢI CŨ – EN]
-$$h=3+20\sin115^\circ\approx3+20\cdot0.9063\approx21.1\ \text{(m)}.$$
-
-**Answer.** $21.1$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Trong tam giác $ABC$, chứng minh $\sin(B+C)=\sin A$ và $\cos(B+C)=-\cos A$. Áp dụng: tính $\sin(B+C)$ và $\cos(B+C)$ khi $A=120^\circ$.
-
-[LỜI GIẢI CŨ – VI]
-$B+C=180^\circ-A$, nên $\sin(B+C)=\sin A$ và $\cos(B+C)=-\cos A$. Với $A=120^\circ$:
-$$\sin(B+C)=\sin120^\circ=\frac{\sqrt3}{2},\qquad \cos(B+C)=-\cos120^\circ=\frac12.$$
-
-**Đáp số.** $\sin(B+C)=\dfrac{\sqrt3}{2}$, $\cos(B+C)=\dfrac12$ (đúng với $B+C=60^\circ$).
-
-[ĐỀ – EN]
-In triangle $ABC$, show that $\sin(B+C)=\sin A$ and $\cos(B+C)=-\cos A$. Apply this to find $\sin(B+C)$ and $\cos(B+C)$ when $A=120^\circ$.
-
-[LỜI GIẢI CŨ – EN]
-$B+C=180^\circ-A$, so $\sin(B+C)=\sin A$ and $\cos(B+C)=-\cos A$. With $A=120^\circ$:
-$$\sin(B+C)=\sin120^\circ=\frac{\sqrt3}{2},\qquad \cos(B+C)=-\cos120^\circ=\frac12.$$
-
-**Answer.** $\sin(B+C)=\dfrac{\sqrt3}{2}$, $\cos(B+C)=\dfrac12$ (consistent with $B+C=60^\circ$).
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Dùng máy tính, tìm mọi góc $\alpha\in[0^\circ; 180^\circ]$ (làm tròn đến hàng phần trăm của độ) sao cho: a) $\sin\alpha=0{,}6$; b) $\cos\alpha=-0{,}6$.
-
-[LỜI GIẢI CŨ – VI]
-a) $\sin^{-1}(0{,}6)\approx36{,}87^\circ$, và $180^\circ-36{,}87^\circ=143{,}13^\circ$.
-
-b) $\cos^{-1}(-0{,}6)\approx126{,}87^\circ$ (một góc duy nhất).
-
-**Đáp số.** a) $\alpha\approx36{,}87^\circ$ hoặc $\alpha\approx143{,}13^\circ$; b) $\alpha\approx126{,}87^\circ$.
-
-[ĐỀ – EN]
-Use a calculator to find every angle $\alpha\in[0^\circ, 180^\circ]$ (to two decimal places of a degree) such that: a) $\sin\alpha=0.6$; b) $\cos\alpha=-0.6$.
-
-[LỜI GIẢI CŨ – EN]
-a) $\sin^{-1}(0.6)\approx36.87^\circ$, and $180^\circ-36.87^\circ=143.13^\circ$.
-
-b) $\cos^{-1}(-0.6)\approx126.87^\circ$ (a single angle).
-
-**Answer.** a) $\alpha\approx36.87^\circ$ or $\alpha\approx143.13^\circ$; b) $\alpha\approx126.87^\circ$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Cho góc $\alpha\in[0^\circ; 180^\circ]$ thoả mãn $\sin\alpha+\cos\alpha=\dfrac12$. Tính $\sin\alpha$ và $\cos\alpha$.
-
-[LỜI GIẢI CŨ – VI]
-Bình phương hai vế:
-$$1+2\sin\alpha\cos\alpha=\frac14\Rightarrow \sin\alpha\cos\alpha=-\frac38.$$
-Tích âm và $\sin\alpha\geq0$ nên $\sin\alpha>0>\cos\alpha$, do đó $\sin\alpha-\cos\alpha>0$:
-$$(\sin\alpha-\cos\alpha)^2=1+\frac34=\frac74\Rightarrow \sin\alpha-\cos\alpha=\frac{\sqrt7}{2}.$$
-Cộng và trừ với $\sin\alpha+\cos\alpha=\dfrac12$.
-
-**Đáp số.** $\sin\alpha=\dfrac{1+\sqrt7}{4}\approx0{,}911$, $\cos\alpha=\dfrac{1-\sqrt7}{4}\approx-0{,}411$.
-
-[ĐỀ – EN]
-An angle $\alpha\in[0^\circ, 180^\circ]$ satisfies $\sin\alpha+\cos\alpha=\dfrac12$. Find $\sin\alpha$ and $\cos\alpha$.
-
-[LỜI GIẢI CŨ – EN]
-Square both sides:
-$$1+2\sin\alpha\cos\alpha=\frac14\Rightarrow \sin\alpha\cos\alpha=-\frac38.$$
-The product is negative and $\sin\alpha\geq0$, so $\sin\alpha>0>\cos\alpha$, hence $\sin\alpha-\cos\alpha>0$:
-$$(\sin\alpha-\cos\alpha)^2=1+\frac34=\frac74\Rightarrow \sin\alpha-\cos\alpha=\frac{\sqrt7}{2}.$$
-Add and subtract with $\sin\alpha+\cos\alpha=\dfrac12$.
-
-**Answer.** $\sin\alpha=\dfrac{1+\sqrt7}{4}\approx0.911$, $\cos\alpha=\dfrac{1-\sqrt7}{4}\approx-0.411$.
-
-
-######################################################################
-@@@ g10/vector-basics
-Bài học: Các khái niệm mở đầu về vectơ / Vectors: basic ideas
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+@@@ g8/factorising-polynomials
+Bài học: Phân tích đa thức thành nhân tử / Factorising polynomials
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 9 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Trong các đại lượng sau, đại lượng nào là vectơ, đại lượng nào chỉ là số (vô hướng)? (a) khối lượng một túi gạo, $5$ kg; (b) gió thổi từ phía tây với tốc độ $30$ km/h; (c) nhiệt độ $25$ °C; (d) một lực $20$ N đẩy xuống phía dưới; (e) một độ dời (độ dịch chuyển) $3$ km về hướng đông.
+Phân tích thành nhân tử:
+
+a) $4x^2-6x$.
+
+b) $12x^3y-18x^2y^2$.
+
+c) $5x(y-2)-3(y-2)$.
 
 [LỜI GIẢI CŨ – VI]
-Gió, lực và độ dời đều có kèm hướng (từ phía tây, xuống dưới, về hướng đông). Khối lượng và nhiệt độ chỉ có độ lớn.
+a) $4x^2-6x=2x(2x-3)$.
 
-**Đáp số.** (b), (d), (e) là vectơ; (a), (c) là đại lượng vô hướng.
+b) $12x^3y-18x^2y^2=6x^2y(2x-3y)$.
+
+c) $5x(y-2)-3(y-2)=(y-2)(5x-3)$.
+
+Vậy a) $2x(2x-3)$; b) $6x^2y(2x-3y)$; c) $(y-2)(5x-3)$.
+
+**Đáp số.** a) $2x(2x-3)$. b) $6x^2y(2x-3y)$. c) $(y-2)(5x-3)$.
 
 [ĐỀ – EN]
-Which of these are vectors and which are only numbers (scalars)? (a) the mass of a bag of rice, $5$ kg; (b) a wind of $30$ km/h blowing from the west; (c) the temperature, $25$ °C; (d) a force of $20$ N pushing downwards; (e) a displacement of $3$ km due east.
+Factorise:
+
+a) $4x^2-6x$.
+
+b) $12x^3y-18x^2y^2$.
+
+c) $5x(y-2)-3(y-2)$.
 
 [LỜI GIẢI CŨ – EN]
-The wind, the force and the displacement all come with a direction (from the west, downwards, due east). Mass and temperature have only a size.
+a) $4x^2-6x=2x(2x-3)$.
 
-**Answer.** (b), (d), (e) are vectors; (a), (c) are scalars.
+b) $12x^3y-18x^2y^2=6x^2y(2x-3y)$.
+
+c) $5x(y-2)-3(y-2)=(y-2)(5x-3)$.
+
+So a) $2x(2x-3)$; b) $6x^2y(2x-3y)$; c) $(y-2)(5x-3)$.
+
+**Answer.** a) $2x(2x-3)$. b) $6x^2y(2x-3y)$. c) $(y-2)(5x-3)$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-$ABCD$ là hình vuông cạnh $3$. Tính $|\overrightarrow{AB}|$ và $|\overrightarrow{AC}|$. Hỏi $\overrightarrow{AB} = \overrightarrow{DC}$ có đúng không? $\overrightarrow{AB} = \overrightarrow{BC}$ có đúng không?
+Phân tích thành nhân tử:
+
+a) $2x(x-3)+5(x-3)$.
+
+b) $x(x-y)+y(y-x)$.
+
+c) $3a(b-1)-6(1-b)$.
 
 [LỜI GIẢI CŨ – VI]
-$|\overrightarrow{AB}|=3$ và $|\overrightarrow{AC}|=\sqrt{3^2+3^2}=3\sqrt2$. Hình vuông là hình bình hành nên $\overrightarrow{AB}=\overrightarrow{DC}$. Còn $\overrightarrow{AB}$ và $\overrightarrow{BC}$ cùng độ dài nhưng giá vuông góc nhau, nên không bằng nhau.
+a) $2x(x-3)+5(x-3)=(x-3)(2x+5)$.
 
-**Đáp số.** $|\overrightarrow{AB}|=3$, $|\overrightarrow{AC}|=3\sqrt2$; $\overrightarrow{AB}=\overrightarrow{DC}$ đúng; $\overrightarrow{AB}=\overrightarrow{BC}$ sai.
+b) Ta có $y(y-x)=-y(x-y)$, nên $x(x-y)+y(y-x)=x(x-y)-y(x-y)=(x-y)(x-y)=(x-y)^2$.
+
+c) Ta có $-6(1-b)=6(b-1)$, nên $3a(b-1)-6(1-b)=3a(b-1)+6(b-1)=(b-1)(3a+6)=3(b-1)(a+2)$.
+
+Vậy a) $(x-3)(2x+5)$; b) $(x-y)^2$; c) $3(b-1)(a+2)$.
+
+**Đáp số.** a) $(x-3)(2x+5)$. b) $(x-y)^2$. c) $3(b-1)(a+2)$.
 
 [ĐỀ – EN]
-$ABCD$ is a square of side $3$. Find $|\overrightarrow{AB}|$ and $|\overrightarrow{AC}|$. Is $\overrightarrow{AB} = \overrightarrow{DC}$? Is $\overrightarrow{AB} = \overrightarrow{BC}$?
+Factorise:
+
+a) $2x(x-3)+5(x-3)$.
+
+b) $x(x-y)+y(y-x)$.
+
+c) $3a(b-1)-6(1-b)$.
 
 [LỜI GIẢI CŨ – EN]
-$|\overrightarrow{AB}|=3$ and $|\overrightarrow{AC}|=\sqrt{3^2+3^2}=3\sqrt2$. A square is a parallelogram, so $\overrightarrow{AB}=\overrightarrow{DC}$. The vectors $\overrightarrow{AB}$ and $\overrightarrow{BC}$ have the same length but perpendicular lines of action, so they are not equal.
+a) $2x(x-3)+5(x-3)=(x-3)(2x+5)$.
 
-**Answer.** $|\overrightarrow{AB}|=3$, $|\overrightarrow{AC}|=3\sqrt2$; $\overrightarrow{AB}=\overrightarrow{DC}$ is true; $\overrightarrow{AB}=\overrightarrow{BC}$ is false.
+b) We have $y(y-x)=-y(x-y)$, so $x(x-y)+y(y-x)=x(x-y)-y(x-y)=(x-y)(x-y)=(x-y)^2$.
+
+c) We have $-6(1-b)=6(b-1)$, so $3a(b-1)-6(1-b)=3a(b-1)+6(b-1)=(b-1)(3a+6)=3(b-1)(a+2)$.
+
+So a) $(x-3)(2x+5)$; b) $(x-y)^2$; c) $3(b-1)(a+2)$.
+
+**Answer.** a) $(x-3)(2x+5)$. b) $(x-y)^2$. c) $3(b-1)(a+2)$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-$ABCD$ là hình bình hành tâm $O$. Chỉ ra một vectơ bằng $\overrightarrow{AO}$, một vectơ bằng $\overrightarrow{BO}$ và hai vectơ đối của $\overrightarrow{AB}$.
+Phân tích thành nhân tử bằng hằng đẳng thức:
+
+a) $9x^2-16y^2$.
+
+b) $x^2-10x+25$.
+
+c) $4x^2+12x+9$.
 
 [LỜI GIẢI CŨ – VI]
-$O$ là trung điểm của $AC$ nên $\overrightarrow{AO}=\overrightarrow{OC}$; $O$ là trung điểm của $BD$ nên $\overrightarrow{BO}=\overrightarrow{OD}$. Vì $\overrightarrow{AB}=\overrightarrow{DC}$ nên $\overrightarrow{CD}=-\overrightarrow{AB}$.
+a) $9x^2-16y^2=(3x)^2-(4y)^2=(3x-4y)(3x+4y)$.
 
-**Đáp số.** $\overrightarrow{OC}$; $\overrightarrow{OD}$; $\overrightarrow{BA}$ và $\overrightarrow{CD}$.
+b) $x^2-10x+25=x^2-2\cdot x\cdot5+5^2=(x-5)^2$.
+
+c) $4x^2+12x+9=(2x)^2+2\cdot2x\cdot3+3^2=(2x+3)^2$.
+
+Vậy a) $(3x-4y)(3x+4y)$; b) $(x-5)^2$; c) $(2x+3)^2$.
+
+**Đáp số.** a) $(3x-4y)(3x+4y)$. b) $(x-5)^2$. c) $(2x+3)^2$.
 
 [ĐỀ – EN]
-$ABCD$ is a parallelogram with centre $O$. Name a vector equal to $\overrightarrow{AO}$, a vector equal to $\overrightarrow{BO}$, and two vectors opposite to $\overrightarrow{AB}$.
+Factorise using identities:
+
+a) $9x^2-16y^2$.
+
+b) $x^2-10x+25$.
+
+c) $4x^2+12x+9$.
 
 [LỜI GIẢI CŨ – EN]
-$O$ is the midpoint of $AC$, so $\overrightarrow{AO}=\overrightarrow{OC}$; $O$ is the midpoint of $BD$, so $\overrightarrow{BO}=\overrightarrow{OD}$. Since $\overrightarrow{AB}=\overrightarrow{DC}$, we get $\overrightarrow{CD}=-\overrightarrow{AB}$.
+a) $9x^2-16y^2=(3x)^2-(4y)^2=(3x-4y)(3x+4y)$.
 
-**Answer.** $\overrightarrow{OC}$; $\overrightarrow{OD}$; $\overrightarrow{BA}$ and $\overrightarrow{CD}$.
+b) $x^2-10x+25=x^2-2\cdot x\cdot5+5^2=(x-5)^2$.
+
+c) $4x^2+12x+9=(2x)^2+2\cdot2x\cdot3+3^2=(2x+3)^2$.
+
+So a) $(3x-4y)(3x+4y)$; b) $(x-5)^2$; c) $(2x+3)^2$.
+
+**Answer.** a) $(3x-4y)(3x+4y)$. b) $(x-5)^2$. c) $(2x+3)^2$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Cho hình chữ nhật $ABCD$ có $AB=3$, $BC=4$, $O$ là giao điểm của hai đường chéo. Mỗi khẳng định sau đúng hay sai?
+Phân tích thành nhân tử bằng hằng đẳng thức lập phương:
 
-a) $|\overrightarrow{BD}|=5$.
-b) $\overrightarrow{OA}=\overrightarrow{OC}$.
-c) $\overrightarrow{AD}=\overrightarrow{BC}$.
-d) $\overrightarrow{AB}$ và $\overrightarrow{CD}$ cùng hướng.
+a) $x^3+8$.
+
+b) $27x^3-1$.
+
+c) $x^3+6x^2+12x+8$.
 
 [LỜI GIẢI CŨ – VI]
-a) **Đúng.** $BD=AC=\sqrt{3^2+4^2}=5$.
+a) $x^3+8=x^3+2^3=(x+2)(x^2-2x+4)$.
 
-b) **Sai.** $O$ là trung điểm của $AC$, nên $\overrightarrow{OA}$ và $\overrightarrow{OC}$ cùng độ dài $2{,}5$ nhưng ngược hướng: $\overrightarrow{OA}=-\overrightarrow{OC}$.
+b) $27x^3-1=(3x)^3-1^3=(3x-1)(9x^2+3x+1)$.
 
-c) **Đúng.** $ABCD$ là hình bình hành nên $\overrightarrow{AD}=\overrightarrow{BC}$.
+c) $x^3+6x^2+12x+8=x^3+3\cdot x^2\cdot2+3\cdot x\cdot2^2+2^3=(x+2)^3$.
 
-d) **Sai.** $\overrightarrow{AB}=\overrightarrow{DC}$, nên $\overrightarrow{CD}$ ngược hướng với $\overrightarrow{AB}$.
+Vậy a) $(x+2)(x^2-2x+4)$; b) $(3x-1)(9x^2+3x+1)$; c) $(x+2)^3$.
 
-**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+**Đáp số.** a) $(x+2)(x^2-2x+4)$. b) $(3x-1)(9x^2+3x+1)$. c) $(x+2)^3$.
 
 [ĐỀ – EN]
-Rectangle $ABCD$ has $AB=3$, $BC=4$, and $O$ is the intersection of its diagonals. Is each claim true or false?
+Factorise using the identities for cubes:
 
-a) $|\overrightarrow{BD}|=5$.
-b) $\overrightarrow{OA}=\overrightarrow{OC}$.
-c) $\overrightarrow{AD}=\overrightarrow{BC}$.
-d) $\overrightarrow{AB}$ and $\overrightarrow{CD}$ have the same direction.
+a) $x^3+8$.
+
+b) $27x^3-1$.
+
+c) $x^3+6x^2+12x+8$.
 
 [LỜI GIẢI CŨ – EN]
-a) **True.** $BD=AC=\sqrt{3^2+4^2}=5$.
+a) $x^3+8=x^3+2^3=(x+2)(x^2-2x+4)$.
 
-b) **False.** $O$ is the midpoint of $AC$, so $\overrightarrow{OA}$ and $\overrightarrow{OC}$ both have length $2.5$ but opposite directions: $\overrightarrow{OA}=-\overrightarrow{OC}$.
+b) $27x^3-1=(3x)^3-1^3=(3x-1)(9x^2+3x+1)$.
 
-c) **True.** $ABCD$ is a parallelogram, so $\overrightarrow{AD}=\overrightarrow{BC}$.
+c) $x^3+6x^2+12x+8=x^3+3\cdot x^2\cdot2+3\cdot x\cdot2^2+2^3=(x+2)^3$.
 
-d) **False.** $\overrightarrow{AB}=\overrightarrow{DC}$, so $\overrightarrow{CD}$ points the opposite way to $\overrightarrow{AB}$.
+So a) $(x+2)(x^2-2x+4)$; b) $(3x-1)(9x^2+3x+1)$; c) $(x+2)^3$.
 
-**Answer.** a) True; b) False; c) True; d) False.
+**Answer.** a) $(x+2)(x^2-2x+4)$. b) $(3x-1)(9x^2+3x+1)$. c) $(x+2)^3$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Ba người cùng kéo một thùng hàng trên mặt sàn bằng ba sợi dây nằm ngang: người thứ nhất kéo với lực $30$ N sang phải, người thứ hai $30$ N sang trái, người thứ ba $45$ N sang phải. Gọi $\vec{F_1}$, $\vec{F_2}$, $\vec{F_3}$ là ba vectơ lực. Cặp nào cùng hướng? Cặp nào là hai vectơ đối nhau? Có hai vectơ nào bằng nhau không?
+Phân tích thành nhân tử bằng cách nhóm hạng tử:
+
+a) $xy+2x+3y+6$.
+
+b) $x^2-2xy+x-2y$.
+
+c) $a^2-ab-4a+4b$.
 
 [LỜI GIẢI CŨ – VI]
-$\vec{F_1}$ và $\vec{F_3}$ cùng hướng (sang phải) nhưng độ lớn khác nhau ($30$ và $45$), nên không bằng nhau. $\vec{F_1}$ và $\vec{F_2}$ cùng độ lớn $30$ và ngược hướng, nên đối nhau. $\vec{F_2}$ và $\vec{F_3}$ ngược hướng, khác độ lớn.
+a) $xy+2x+3y+6=x(y+2)+3(y+2)=(y+2)(x+3)$.
 
-**Đáp số.** $\vec{F_1}$, $\vec{F_3}$ cùng hướng; $\vec{F_2}=-\vec{F_1}$; không có hai vectơ nào bằng nhau.
+b) $x^2-2xy+x-2y=x(x-2y)+(x-2y)=(x-2y)(x+1)$.
+
+c) $a^2-ab-4a+4b=a(a-b)-4(a-b)=(a-b)(a-4)$.
+
+Vậy a) $(y+2)(x+3)$; b) $(x-2y)(x+1)$; c) $(a-b)(a-4)$.
+
+**Đáp số.** a) $(y+2)(x+3)$. b) $(x-2y)(x+1)$. c) $(a-b)(a-4)$.
 
 [ĐỀ – EN]
-Three people pull a crate across the floor with three horizontal ropes: the first pulls with a force of $30$ N to the right, the second $30$ N to the left, the third $45$ N to the right. Let $\vec{F_1}$, $\vec{F_2}$, $\vec{F_3}$ be the three force vectors. Which pair has the same direction? Which pair are opposite vectors? Are any two of them equal?
+Factorise by grouping terms:
+
+a) $xy+2x+3y+6$.
+
+b) $x^2-2xy+x-2y$.
+
+c) $a^2-ab-4a+4b$.
 
 [LỜI GIẢI CŨ – EN]
-$\vec{F_1}$ and $\vec{F_3}$ both point right but have different magnitudes ($30$ and $45$), so they are not equal. $\vec{F_1}$ and $\vec{F_2}$ have the same magnitude $30$ and opposite directions, so they are opposite. $\vec{F_2}$ and $\vec{F_3}$ point opposite ways and differ in size.
+a) $xy+2x+3y+6=x(y+2)+3(y+2)=(y+2)(x+3)$.
 
-**Answer.** $\vec{F_1}$, $\vec{F_3}$ have the same direction; $\vec{F_2}=-\vec{F_1}$; no two of them are equal.
+b) $x^2-2xy+x-2y=x(x-2y)+(x-2y)=(x-2y)(x+1)$.
+
+c) $a^2-ab-4a+4b=a(a-b)-4(a-b)=(a-b)(a-4)$.
+
+So a) $(y+2)(x+3)$; b) $(x-2y)(x+1)$; c) $(a-b)(a-4)$.
+
+**Answer.** a) $(y+2)(x+3)$. b) $(x-2y)(x+1)$. c) $(a-b)(a-4)$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-$ABCDEF$ là lục giác đều tâm $O$. Liệt kê tất cả các vectơ bằng $\overrightarrow{OA}$ (khác chính nó) có điểm đầu và điểm cuối thuộc $A, B, C, D, E, F, O$.
+Phân tích hoàn toàn thành nhân tử:
+
+a) $3x^3-12x$.
+
+b) $2x^2-12x+18$.
+
+c) $x^4-16$.
 
 [LỜI GIẢI CŨ – VI]
-$D$, $O$, $A$ thẳng hàng và $DO=OA$, nên $\overrightarrow{DO}=\overrightarrow{OA}$. $OABC$ là hình thoi, nên $\overrightarrow{OA}=\overrightarrow{CB}$. $OAFE$ là hình thoi, nên $\overrightarrow{OA}=\overrightarrow{EF}$.
+a) $3x^3-12x=3x(x^2-4)=3x(x-2)(x+2)$.
 
-**Đáp số.** $\overrightarrow{DO}$, $\overrightarrow{CB}$, $\overrightarrow{EF}$.
+b) $2x^2-12x+18=2(x^2-6x+9)=2(x-3)^2$.
+
+c) $x^4-16=(x^2-4)(x^2+4)=(x-2)(x+2)(x^2+4)$.
+
+Vậy a) $3x(x-2)(x+2)$; b) $2(x-3)^2$; c) $(x-2)(x+2)(x^2+4)$.
+
+**Đáp số.** a) $3x(x-2)(x+2)$. b) $2(x-3)^2$. c) $(x-2)(x+2)(x^2+4)$.
 
 [ĐỀ – EN]
-$ABCDEF$ is a regular hexagon with centre $O$. List all vectors equal to $\overrightarrow{OA}$ (other than itself) whose endpoints are among $A, B, C, D, E, F, O$.
+Factorise completely:
+
+a) $3x^3-12x$.
+
+b) $2x^2-12x+18$.
+
+c) $x^4-16$.
 
 [LỜI GIẢI CŨ – EN]
-$D$, $O$, $A$ lie on one line and $DO=OA$, so $\overrightarrow{DO}=\overrightarrow{OA}$. $OABC$ is a rhombus, so $\overrightarrow{OA}=\overrightarrow{CB}$. $OAFE$ is a rhombus, so $\overrightarrow{OA}=\overrightarrow{EF}$.
+a) $3x^3-12x=3x(x^2-4)=3x(x-2)(x+2)$.
 
-**Answer.** $\overrightarrow{DO}$, $\overrightarrow{CB}$, $\overrightarrow{EF}$.
+b) $2x^2-12x+18=2(x^2-6x+9)=2(x-3)^2$.
+
+c) $x^4-16=(x^2-4)(x^2+4)=(x-2)(x+2)(x^2+4)$.
+
+So a) $3x(x-2)(x+2)$; b) $2(x-3)^2$; c) $(x-2)(x+2)(x^2+4)$.
+
+**Answer.** a) $3x(x-2)(x+2)$. b) $2(x-3)^2$. c) $(x-2)(x+2)(x^2+4)$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Cho tam giác $ABC$. Gọi $M$, $N$, $P$ lần lượt là trung điểm của $BC$, $CA$, $AB$. Có bao nhiêu vectơ có điểm đầu và điểm cuối thuộc sáu điểm $A, B, C, M, N, P$ và bằng $\overrightarrow{PN}$ (kể cả $\overrightarrow{PN}$)?
+Tính nhanh:
+
+a) $45\cdot37+45\cdot63$.
+
+b) $65^2-35^2$.
+
+c) $76^2+2\cdot76\cdot24+24^2$.
 
 [LỜI GIẢI CŨ – VI]
-$PN\parallel BC$ và $PN=\dfrac{BC}{2}=BM=MC$. Chiều $P\to N$ trùng chiều $B\to C$, nên $\overrightarrow{PN}=\overrightarrow{BM}=\overrightarrow{MC}$. Không có đoạn nào khác song song với $BC$ và dài $\dfrac{BC}{2}$.
+a) $45\cdot37+45\cdot63=45(37+63)=45\cdot100=4500$.
 
-**Đáp số.** $3$.
+b) $65^2-35^2=(65-35)(65+35)=30\cdot100=3000$.
 
-[ĐỀ – EN]
-In triangle $ABC$, let $M$, $N$, $P$ be the midpoints of $BC$, $CA$, $AB$. How many vectors with endpoints among the six points $A, B, C, M, N, P$ are equal to $\overrightarrow{PN}$ (counting $\overrightarrow{PN}$ itself)?
+c) $76^2+2\cdot76\cdot24+24^2=(76+24)^2=100^2=10\,000$.
 
-[LỜI GIẢI CŨ – EN]
-$PN\parallel BC$ and $PN=\dfrac{BC}{2}=BM=MC$. The direction $P\to N$ is the direction $B\to C$, so $\overrightarrow{PN}=\overrightarrow{BM}=\overrightarrow{MC}$. No other segment is parallel to $BC$ with length $\dfrac{BC}{2}$.
+Vậy a) $4500$; b) $3000$; c) $10\,000$.
 
-**Answer.** $3$.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-(Ôn lại định lí côsin.) Tam giác $ABC$ có $AB=5$, $AC=8$ và $\widehat{BAC}=60^\circ$. Tính $|\overrightarrow{BC}|$.
-
-[LỜI GIẢI CŨ – VI]
-$$BC^2=8^2+5^2-2\cdot8\cdot5\cdot\frac12=64+25-40=49.$$
-Vậy $BC=7$.
-
-**Đáp số.** $|\overrightarrow{BC}|=7$.
+**Đáp số.** a) $4500$. b) $3000$. c) $10\,000$.
 
 [ĐỀ – EN]
-(Revisiting the cosine rule.) Triangle $ABC$ has $AB=5$, $AC=8$ and $\angle BAC=60^\circ$. Find $|\overrightarrow{BC}|$.
+Calculate quickly:
+
+a) $45\cdot37+45\cdot63$.
+
+b) $65^2-35^2$.
+
+c) $76^2+2\cdot76\cdot24+24^2$.
 
 [LỜI GIẢI CŨ – EN]
-$$BC^2=8^2+5^2-2\cdot8\cdot5\cdot\frac12=64+25-40=49.$$
-So $BC=7$.
+a) $45\cdot37+45\cdot63=45(37+63)=45\cdot100=4500$.
 
-**Answer.** $|\overrightarrow{BC}|=7$.
+b) $65^2-35^2=(65-35)(65+35)=30\cdot100=3000$.
+
+c) $76^2+2\cdot76\cdot24+24^2=(76+24)^2=100^2=10\,000$.
+
+So a) $4500$; b) $3000$; c) $10\,000$.
+
+**Answer.** a) $4500$. b) $3000$. c) $10\,000$.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Bốn điểm $A, B, C, D$ không cùng nằm trên một đường thẳng và $\overrightarrow{AB} = \overrightarrow{CD}$. Chứng minh $ABDC$ là hình bình hành.
+Nhớ lại bài về hiệu hai bình phương. Giả sử một tấm bìa hình vuông cạnh $12$ cm bị cắt bỏ một hình vuông cạnh $8$ cm ở một góc. Tính diện tích phần còn lại bằng cách phân tích thành nhân tử.
 
 [LỜI GIẢI CŨ – VI]
-Với $P=A$, $Q=B$, $R=D$, $S=C$, điều kiện $\overrightarrow{PQ}=\overrightarrow{SR}$ trở thành $\overrightarrow{AB}=\overrightarrow{CD}$, đúng theo giả thiết. Bốn điểm không thẳng hàng, nên tứ giác $ABDC$ là hình bình hành.
+Diện tích phần còn lại là $12^2-8^2=(12-8)(12+8)=4\cdot20=80\ (\text{cm}^2)$. (Kiểm tra: $144-64=80$.)
 
-**Đáp số.** $ABDC$ là hình bình hành (chú ý: thường **không** phải $ABCD$).
+Vậy diện tích phần còn lại là $80\ \text{cm}^2$.
+
+**Đáp số.** $80\ \text{cm}^2$.
 
 [ĐỀ – EN]
-Points $A, B, C, D$ are not on one line and $\overrightarrow{AB} = \overrightarrow{CD}$. Show that $ABDC$ is a parallelogram.
+Recall the lesson on the difference of two squares. Suppose a square piece of card with side $12$ cm has a square of side $8$ cm cut out of one corner. Find the area of what remains by factorising.
 
 [LỜI GIẢI CŨ – EN]
-With $P=A$, $Q=B$, $R=D$, $S=C$, the condition $\overrightarrow{PQ}=\overrightarrow{SR}$ reads $\overrightarrow{AB}=\overrightarrow{CD}$, which is given. The four points are not on one line, so the quadrilateral $ABDC$ is a parallelogram.
+The remaining area is $12^2-8^2=(12-8)(12+8)=4\cdot20=80\ (\text{cm}^2)$. (Check: $144-64=80$.)
 
-**Answer.** $ABDC$ is a parallelogram (note: usually **not** $ABCD$).
+So the remaining area is $80\ \text{cm}^2$.
 
-=== Bài 10 ===
+**Answer.** $80\ \text{cm}^2$.
+
+
+######################################################################
+@@@ g8/g8-collecting-classifying-data
+Bài học: Thu thập và phân loại dữ liệu. Biểu diễn dữ liệu bằng bảng, biểu đồ / Collecting and classifying data. Representing data in tables and charts
+Cần viết lại lời giải các bài: 1, 4, 6, 7 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
 [ĐỀ – VI]
-Hình bình hành có các đỉnh $A, B, C, D$. Có bao nhiêu vectơ khác $\vec{0}$ có cả điểm đầu và điểm cuối thuộc bốn điểm này? Trong đó có bao nhiêu vectơ *khác nhau* (các vectơ bằng nhau chỉ tính một lần)?
+Cho biết mỗi dữ liệu sau là định tính hay định lượng:
+
+a) Màu mắt của các bạn trong lớp.
+
+b) Chiều cao (cm) của các bạn.
+
+c) Số học sinh của mỗi lớp trong trường.
+
+d) Tên các bài hát yêu thích.
 
 [LỜI GIẢI CŨ – VI]
-Có $4$ cách chọn điểm đầu và $3$ cách chọn điểm cuối: $4\cdot3=12$ vectơ. Các cạnh cho bốn cặp bằng nhau: $\overrightarrow{AB}=\overrightarrow{DC}$, $\overrightarrow{BA}=\overrightarrow{CD}$, $\overrightarrow{AD}=\overrightarrow{BC}$, $\overrightarrow{DA}=\overrightarrow{CB}$, tức $4$ vectơ khác nhau. Bốn vectơ trên đường chéo $\overrightarrow{AC}$, $\overrightarrow{CA}$, $\overrightarrow{BD}$, $\overrightarrow{DB}$ đôi một khác nhau và khác các vectơ cạnh.
+a) Màu mắt là tên gọi: định tính. b) Chiều cao là số đo: định lượng. c) Số học sinh là số đếm: định lượng. d) Tên bài hát: định tính.
 
-**Đáp số.** $12$ vectơ, trong đó $4+4=8$ vectơ khác nhau.
+Vậy a) và d) là định tính; b) và c) là định lượng.
+
+**Đáp số.** a) định tính; b) định lượng; c) định lượng; d) định tính.
 
 [ĐỀ – EN]
-A parallelogram has vertices $A, B, C, D$. How many non-zero vectors have both endpoints among these four points? How many *different* vectors are these (counting equal vectors once)?
+State whether each kind of data is qualitative or quantitative:
+
+a) Eye colour of the students in a class.
+
+b) Height (cm) of the students.
+
+c) Number of students in each class of a school.
+
+d) Names of favourite songs.
 
 [LỜI GIẢI CŨ – EN]
-There are $4$ choices for the initial point and $3$ for the terminal point: $4\cdot3=12$ vectors. The sides give four equal pairs: $\overrightarrow{AB}=\overrightarrow{DC}$, $\overrightarrow{BA}=\overrightarrow{CD}$, $\overrightarrow{AD}=\overrightarrow{BC}$, $\overrightarrow{DA}=\overrightarrow{CB}$, that is $4$ different vectors. The four diagonal vectors $\overrightarrow{AC}$, $\overrightarrow{CA}$, $\overrightarrow{BD}$, $\overrightarrow{DB}$ are all different from each other and from the side vectors.
+a) Eye colour is a name: qualitative. b) Height is a measurement: quantitative. c) The number of students is a count: quantitative. d) Song names: qualitative.
 
-**Answer.** $12$ vectors, of which $4+4=8$ are different.
+So a) and d) are qualitative; b) and c) are quantitative.
+
+**Answer.** a) qualitative; b) quantitative; c) quantitative; d) qualitative.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Số anh chị em ruột của $20$ bạn được ghi lại: $1$, $2$, $0$, $1$, $1$, $3$, $2$, $1$, $0$, $2$, $1$, $1$, $2$, $0$, $1$, $2$, $1$, $0$, $1$, $2$. Lập bảng tần số và tần số tương đối.
+
+[LỜI GIẢI CŨ – VI]
+Ta đếm và chia cho $20$:
+
+| Số anh chị em | $0$ | $1$ | $2$ | $3$ | Tổng |
+|---|---|---|---|---|---|
+| Tần số | $4$ | $9$ | $6$ | $1$ | $20$ |
+| Tần số tương đối | $20\%$ | $45\%$ | $30\%$ | $5\%$ | $100\%$ |
+
+Kiểm tra: $4+9+6+1=20$.
+
+**Đáp số.** Tần số $4$; $9$; $6$; $1$, tần số tương đối $20\%$; $45\%$; $30\%$; $5\%$.
+
+[ĐỀ – EN]
+The numbers of brothers and sisters of $20$ students are recorded as $1$, $2$, $0$, $1$, $1$, $3$, $2$, $1$, $0$, $2$, $1$, $1$, $2$, $0$, $1$, $2$, $1$, $0$, $1$, $2$. Build a table of frequencies and relative frequencies.
+
+[LỜI GIẢI CŨ – EN]
+We count and divide by $20$:
+
+| Number of siblings | $0$ | $1$ | $2$ | $3$ | Total |
+|---|---|---|---|---|---|
+| Frequency | $4$ | $9$ | $6$ | $1$ | $20$ |
+| Relative frequency | $20\%$ | $45\%$ | $30\%$ | $5\%$ | $100\%$ |
+
+Check: $4+9+6+1=20$.
+
+**Answer.** Frequencies $4$; $9$; $6$; $1$, relative frequencies $20\%$; $45\%$; $30\%$; $5\%$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Khảo sát $40$ bạn về thể loại sách yêu thích: Truyện $16$ bạn, Khoa học $12$ bạn, Thơ $4$ bạn, Khác $8$ bạn. Tính tần số tương đối và số đo cung tương ứng của biểu đồ hình quạt tròn.
+
+[LỜI GIẢI CŨ – VI]
+Ta có: Truyện $\dfrac{16}{40}=40\%$, cung $144^\circ$; Khoa học $\dfrac{12}{40}=30\%$, cung $108^\circ$; Thơ $\dfrac{4}{40}=10\%$, cung $36^\circ$; Khác $\dfrac{8}{40}=20\%$, cung $72^\circ$.
+
+Kiểm tra: $144+108+36+72=360$.
+
+**Đáp số.** $40\%$, $30\%$, $10\%$, $20\%$; cung $144^\circ$, $108^\circ$, $36^\circ$, $72^\circ$.
+
+[ĐỀ – EN]
+A survey of $40$ students about their favourite type of book gives: Stories $16$, Science $12$, Poetry $4$, Other $8$. Find the relative frequencies and the matching sector angles of a pie chart.
+
+[LỜI GIẢI CŨ – EN]
+We have: Stories $\dfrac{16}{40}=40\%$, angle $144^\circ$; Science $\dfrac{12}{40}=30\%$, angle $108^\circ$; Poetry $\dfrac{4}{40}=10\%$, angle $36^\circ$; Other $\dfrac{8}{40}=20\%$, angle $72^\circ$.
+
+Check: $144+108+36+72=360$.
+
+**Answer.** $40\%$, $30\%$, $10\%$, $20\%$; angles $144^\circ$, $108^\circ$, $36^\circ$, $72^\circ$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Chọn loại biểu đồ (cột, cột kép, hình quạt tròn, đoạn thẳng) phù hợp nhất cho mỗi mục đích:
+
+a) So sánh số học sinh của bốn lớp $8$.
+
+b) Theo dõi nhiệt độ ngoài trời mỗi giờ trong một ngày.
+
+c) Cho thấy phần trăm các khoản chi trong ngân sách của một gia đình.
+
+d) So sánh số học sinh nam và nữ ở từng lớp trong bốn lớp.
+
+[LỜI GIẢI CŨ – VI]
+a) So sánh các nhóm: biểu đồ cột. b) Theo thời gian: biểu đồ đoạn thẳng. c) Tỉ lệ các phần trong một tổng: biểu đồ hình quạt tròn. d) So sánh hai tập dữ liệu trên cùng các nhóm: biểu đồ cột kép.
+
+**Đáp số.** a) cột; b) đoạn thẳng; c) hình quạt tròn; d) cột kép.
+
+[ĐỀ – EN]
+Choose the most suitable chart (bar chart, double bar chart, pie chart, line graph) for each purpose:
+
+a) Compare the number of students in four classes of grade 8.
+
+b) Follow the outdoor temperature every hour during a day.
+
+c) Show the percentage of each item in a family's budget.
+
+d) Compare the number of boys and girls in each of four classes.
+
+[LỜI GIẢI CŨ – EN]
+a) Comparing groups: bar chart. b) Over time: line graph. c) Proportions of a whole: pie chart. d) Two data sets on the same groups: double bar chart.
+
+**Answer.** a) bar chart; b) line graph; c) pie chart; d) double bar chart.
+
+
+######################################################################
+@@@ g8/g8-multiplying-polynomials
+Bài học: Phép nhân đa thức. Phép chia đa thức cho đơn thức / Multiplying polynomials. Dividing a polynomial by a monomial
+Cần viết lại lời giải các bài: 1, 2, 5, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Thực hiện phép nhân:
+
+a) $3x^2(2x-5)$.
+
+b) $-2xy(x^2-3y+1)$.
+
+c) $\dfrac12x(4x^2-6x+2)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $3x^2(2x-5)=6x^3-15x^2$.
+
+b) $-2xy(x^2-3y+1)=-2x^3y+6xy^2-2xy$.
+
+c) $\dfrac12x(4x^2-6x+2)=2x^3-3x^2+x$.
+
+Vậy a) $6x^3-15x^2$; b) $-2x^3y+6xy^2-2xy$; c) $2x^3-3x^2+x$.
+
+**Đáp số.** a) $6x^3-15x^2$. b) $-2x^3y+6xy^2-2xy$. c) $2x^3-3x^2+x$.
+
+[ĐỀ – EN]
+Find the products:
+
+a) $3x^2(2x-5)$.
+
+b) $-2xy(x^2-3y+1)$.
+
+c) $\dfrac12x(4x^2-6x+2)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $3x^2(2x-5)=6x^3-15x^2$.
+
+b) $-2xy(x^2-3y+1)=-2x^3y+6xy^2-2xy$.
+
+c) $\dfrac12x(4x^2-6x+2)=2x^3-3x^2+x$.
+
+So a) $6x^3-15x^2$; b) $-2x^3y+6xy^2-2xy$; c) $2x^3-3x^2+x$.
+
+**Answer.** a) $6x^3-15x^2$. b) $-2x^3y+6xy^2-2xy$. c) $2x^3-3x^2+x$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Thực hiện phép nhân:
+
+a) $(x+4)(x-3)$.
+
+b) $(2x-1)(x^2+x-2)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(x+4)(x-3)=x^2-3x+4x-12=x^2+x-12$.
+
+b) $(2x-1)(x^2+x-2)=2x^3+2x^2-4x-x^2-x+2=2x^3+x^2-5x+2$.
+
+Vậy a) $x^2+x-12$; b) $2x^3+x^2-5x+2$.
+
+**Đáp số.** a) $x^2+x-12$. b) $2x^3+x^2-5x+2$.
+
+[ĐỀ – EN]
+Find the products:
+
+a) $(x+4)(x-3)$.
+
+b) $(2x-1)(x^2+x-2)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(x+4)(x-3)=x^2-3x+4x-12=x^2+x-12$.
+
+b) $(2x-1)(x^2+x-2)=2x^3+2x^2-4x-x^2-x+2=2x^3+x^2-5x+2$.
+
+So a) $x^2+x-12$; b) $2x^3+x^2-5x+2$.
+
+**Answer.** a) $x^2+x-12$. b) $2x^3+x^2-5x+2$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Thực hiện phép chia:
+
+a) $12x^3y^2:(-4xy)$.
+
+b) $(15x^4y^3-10x^2y^2+5xy):(5xy)$.
+
+c) $(8x^3-4x^2+6x):(2x)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $12x^3y^2:(-4xy)=-3x^2y$.
+
+b) $(15x^4y^3-10x^2y^2+5xy):(5xy)=3x^3y^2-2xy+1$.
+
+c) $(8x^3-4x^2+6x):(2x)=4x^2-2x+3$.
+
+Vậy a) $-3x^2y$; b) $3x^3y^2-2xy+1$; c) $4x^2-2x+3$.
+
+**Đáp số.** a) $-3x^2y$. b) $3x^3y^2-2xy+1$. c) $4x^2-2x+3$.
+
+[ĐỀ – EN]
+Carry out the divisions:
+
+a) $12x^3y^2\div(-4xy)$.
+
+b) $(15x^4y^3-10x^2y^2+5xy)\div(5xy)$.
+
+c) $(8x^3-4x^2+6x)\div(2x)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $12x^3y^2\div(-4xy)=-3x^2y$.
+
+b) $(15x^4y^3-10x^2y^2+5xy)\div(5xy)=3x^3y^2-2xy+1$.
+
+c) $(8x^3-4x^2+6x)\div(2x)=4x^2-2x+3$.
+
+So a) $-3x^2y$; b) $3x^3y^2-2xy+1$; c) $4x^2-2x+3$.
+
+**Answer.** a) $-3x^2y$. b) $3x^3y^2-2xy+1$. c) $4x^2-2x+3$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Nhớ lại bài về hình hộp chữ nhật. Một hình hộp chữ nhật có đáy là hình chữ nhật rộng $x$ cm, dài $(x+2)$ cm và cao $(x+3)$ cm. Viết đa thức biểu thị thể tích, rồi tính khi $x=2$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $V=x(x+2)(x+3)=x(x^2+5x+6)=x^3+5x^2+6x\ (\text{cm}^3)$.
+
+Khi $x=2$, $V=8+20+12=40\ (\text{cm}^3)$. (Kiểm tra: $2\cdot4\cdot5=40$.)
+
+Vậy $V=x^3+5x^2+6x\ (\text{cm}^3)$, và bằng $40\ \text{cm}^3$ khi $x=2$.
+
+**Đáp số.** $x^3+5x^2+6x$; $40\ \text{cm}^3$.
+
+[ĐỀ – EN]
+Recall the lesson on cuboids. A cuboid has a rectangular base of width $x$ cm and length $(x+2)$ cm, and height $(x+3)$ cm. Write a polynomial for the volume, then find it when $x=2$.
+
+[LỜI GIẢI CŨ – EN]
+We have $V=x(x+2)(x+3)=x(x^2+5x+6)=x^3+5x^2+6x\ (\text{cm}^3)$.
+
+When $x=2$, $V=8+20+12=40\ (\text{cm}^3)$. (Check: $2\cdot4\cdot5=40$.)
+
+So $V=x^3+5x^2+6x\ (\text{cm}^3)$, which equals $40\ \text{cm}^3$ when $x=2$.
+
+**Answer.** $x^3+5x^2+6x$; $40\ \text{cm}^3$.
+
+
+######################################################################
+@@@ g8/gradient-of-a-line
+Bài học: Hệ số góc của đường thẳng / The gradient of a straight line
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Xác định hệ số góc $a$ và hệ số $b$ của mỗi hàm số:
+
+a) $y=-3x+5$.
+
+b) $y=\dfrac{x}{4}-1$.
+
+c) $y=4-2x$.
+
+d) $y=7x$.
+
+[LỜI GIẢI CŨ – VI]
+a) $a=-3$, $b=5$.
+
+b) $y=\dfrac14x-1$ nên $a=\dfrac14$, $b=-1$.
+
+c) $y=-2x+4$ nên $a=-2$, $b=4$.
+
+d) $y=7x+0$ nên $a=7$, $b=0$.
+
+**Đáp số.** a) $(-3; 5)$. b) $\left(\dfrac14; -1\right)$. c) $(-2; 4)$. d) $(7; 0)$.
+
+[ĐỀ – EN]
+Find the gradient $a$ and the constant $b$ of each function:
+
+a) $y=-3x+5$.
+
+b) $y=\dfrac{x}{4}-1$.
+
+c) $y=4-2x$.
+
+d) $y=7x$.
+
+[LỜI GIẢI CŨ – EN]
+a) $a=-3$, $b=5$.
+
+b) $y=\dfrac14x-1$, so $a=\dfrac14$, $b=-1$.
+
+c) $y=-2x+4$, so $a=-2$, $b=4$.
+
+d) $y=7x+0$, so $a=7$, $b=0$.
+
+**Answer.** a) $(-3, 5)$. b) $\left(\dfrac14, -1\right)$. c) $(-2, 4)$. d) $(7, 0)$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Hàm số nào đi lên, hàm số nào đi xuống?
+
+a) $y=0{,}5x+2$.
+
+b) $y=-4x+1$.
+
+c) $y=1-3x$.
+
+[LỜI GIẢI CŨ – VI]
+a) $a=0{,}5>0$: đi lên. b) $a=-4<0$: đi xuống. c) $y=-3x+1$ nên $a=-3<0$: đi xuống.
+
+Vậy a) đi lên; b) và c) đi xuống.
+
+**Đáp số.** a) lên. b) xuống. c) xuống.
+
+[ĐỀ – EN]
+Which functions rise and which fall?
+
+a) $y=0.5x+2$.
+
+b) $y=-4x+1$.
+
+c) $y=1-3x$.
+
+[LỜI GIẢI CŨ – EN]
+a) $a=0.5>0$: rises. b) $a=-4<0$: falls. c) $y=-3x+1$, so $a=-3<0$: falls.
+
+So a) rises; b) and c) fall.
+
+**Answer.** a) rises. b) falls. c) falls.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Viết phương trình đường thẳng đi qua:
+
+a) $A(-1; -3)$ và $B(2; 3)$.
+
+b) $A(0; 5)$ và $B(4; 1)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $a=\dfrac{3-(-3)}{2-(-1)}=\dfrac63=2$. Từ $A$: $-3=2\cdot(-1)+b$, suy ra $b=-1$. Phương trình: $y=2x-1$. Kiểm tra với $B$: $2\cdot2-1=3$, đúng.
+
+b) $a=\dfrac{1-5}{4-0}=-1$. Đường thẳng cắt trục tung tại $(0; 5)$ nên $b=5$. Phương trình: $y=-x+5$. Kiểm tra với $B$: $-4+5=1$, đúng.
+
+**Đáp số.** a) $y=2x-1$. b) $y=-x+5$.
+
+[ĐỀ – EN]
+Write the equation of the line through:
+
+a) $A(-1, -3)$ and $B(2, 3)$.
+
+b) $A(0, 5)$ and $B(4, 1)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $a=\dfrac{3-(-3)}{2-(-1)}=\dfrac63=2$. From $A$: $-3=2\cdot(-1)+b$, so $b=-1$. Equation: $y=2x-1$. Check with $B$: $2\cdot2-1=3$, correct.
+
+b) $a=\dfrac{1-5}{4-0}=-1$. The line meets the $y$-axis at $(0, 5)$, so $b=5$. Equation: $y=-x+5$. Check with $B$: $-4+5=1$, correct.
+
+**Answer.** a) $y=2x-1$. b) $y=-x+5$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Vẽ đồ thị của hàm số $y=\dfrac{x}{2}+1$.
+
+[LỜI GIẢI CŨ – VI]
+Cho $x=0$ thì $y=1$, được $(0; 1)$. Cho $x=2$ thì $y=2$, được $(2; 2)$. Nối hai điểm ta được đường thẳng đi lên (vì $a=\dfrac12>0$), đi qua thêm điểm $(-2; 0)$.
+
+**Đáp số.** Đường thẳng đi qua $(0; 1)$ và $(2; 2)$.
+
+[ĐỀ – EN]
+Draw the graph of $y=\dfrac{x}{2}+1$.
+
+[LỜI GIẢI CŨ – EN]
+For $x=0$, $y=1$, giving $(0, 1)$. For $x=2$, $y=2$, giving $(2, 2)$. Joining the two points gives a line that rises (since $a=\dfrac12>0$) and also passes through $(-2, 0)$.
+
+**Answer.** The line through $(0, 1)$ and $(2, 2)$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho bốn đường thẳng $d_1: y=2x+3$, $d_2: y=2x-5$, $d_3: y=-2x+3$, $d_4: y=2x+3$. Xét vị trí của $d_1$ với từng đường còn lại.
+
+[LỜI GIẢI CŨ – VI]
+Với $d_2$: cùng $a=2$, $b$ khác ($3\neq-5$): song song. Với $d_3$: $a=-2\neq2$: cắt nhau, giao điểm có $2x+3=-2x+3$, suy ra $x=0$ và $y=3$, tức $(0; 3)$. Với $d_4$: cùng $a=2$ và cùng $b=3$: trùng nhau.
+
+**Đáp số.** $d_1\parallel d_2$; $d_1$ cắt $d_3$ tại $(0; 3)$; $d_1\equiv d_4$.
+
+[ĐỀ – EN]
+Consider the four lines $d_1: y=2x+3$, $d_2: y=2x-5$, $d_3: y=-2x+3$, $d_4: y=2x+3$. Find the position of $d_1$ relative to each of the others.
+
+[LỜI GIẢI CŨ – EN]
+With $d_2$: same $a=2$, different $b$ ($3\neq-5$): parallel. With $d_3$: $a=-2\neq2$: intersecting, and at the intersection $2x+3=-2x+3$, so $x=0$ and $y=3$, that is $(0, 3)$. With $d_4$: same $a=2$ and same $b=3$: coincident.
+
+**Answer.** $d_1\parallel d_2$; $d_1$ meets $d_3$ at $(0, 3)$; $d_1\equiv d_4$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm giao điểm của hai đường thẳng $y=2x-1$ và $y=-x+5$. (Ôn lại [phương trình bậc nhất](lesson:linear-equations-one-unknown).)
+
+[LỜI GIẢI CŨ – VI]
+Ta có $2x-1=-x+5$, suy ra $3x=6$ và $x=2$. Khi đó $y=2\cdot2-1=3$.
+
+Kiểm tra: $-2+5=3$.
+
+Vậy giao điểm là $(2; 3)$.
+
+**Đáp số.** $(2; 3)$.
+
+[ĐỀ – EN]
+Find the point of intersection of the lines $y=2x-1$ and $y=-x+5$. (Revise [linear equations](lesson:linear-equations-one-unknown).)
+
+[LỜI GIẢI CŨ – EN]
+We have $2x-1=-x+5$, so $3x=6$ and $x=2$. Then $y=2\cdot2-1=3$.
+
+Check: $-2+5=3$.
+
+So the point of intersection is $(2, 3)$.
+
+**Answer.** $(2, 3)$.
 
 
 ===== HẾT FILE Vinax258-11-LG =====

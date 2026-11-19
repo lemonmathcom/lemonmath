@@ -6,7 +6,7 @@ Kết quả: file Lemonmath112-05-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Lemonmath112-05-GV
-Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g12/practice-paper-thpt-2, g12/practice-paper-thpt-3, g12/practice-paper-thpt-4, g12/review-coordinates-space
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g9/vietes-theorem
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/Lemonmath112-05-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  /mnt/user-data/outputs/Lemonmath112-05-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file Lemonmath112-05-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,326 +135,256 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g12/practice-paper-thpt-2 – BẢN TIẾNG VIỆT ########
+######## BÀI g9/vietes-theorem – BẢN TIẾNG VIỆT ########
 ---
-title: Đề luyện thi tốt nghiệp số 2
-description: Đề luyện thi tốt nghiệp THPT môn Toán thứ hai, khó hơn đề số 1 một chút: 22 câu trong 90 phút, có đáp án, lời giải và bài ôn tập cho từng câu.
-minutes: 90
-type: exam
----
-
-[[P1·7edd]]
-Đề gồm ba phần như đề thi tốt nghiệp THPT: 12 câu trắc nghiệm nhiều phương án, 4 câu đúng sai và 6 câu trả lời ngắn, làm trong 90 phút. Phần I mỗi câu 0,25 điểm; Phần II mỗi câu tối đa 1 điểm, tính theo số ý đúng; Phần III mỗi câu 0,5 điểm. Bạn hãy in phiếu và làm trên giấy trước, rồi nhập đáp án vào các ô dưới đây để được chấm trên thang điểm 10. Đề này có nhiều câu vận dụng hơn đề số 1, nên hãy dành khoảng 40 phút cho Phần III.
-
-:::quiz exam
-   (… 311 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g12/practice-paper-thpt-2 – BẢN TIẾNG ANH ########
----
-title: Graduation practice paper 2
-description: A second maths practice paper in the graduation exam format, a little harder than paper 1: 22 questions in 90 minutes, with answers and solutions.
-minutes: 90
-type: exam
----
-
-[[P1·b8ab]]
-This paper has the three parts of the Vietnamese upper-secondary graduation exam: 12 multiple-choice questions, 4 true-or-false questions and 6 short-answer questions, to be done in 90 minutes. Part I gives 0.25 points per question; Part II gives up to 1 point per question, depending on how many statements you judge correctly; Part III gives 0.5 points per question. Print the sheet and work on paper first, then enter your answers below to get a mark out of 10. This paper has more application questions than paper 1, so allow about 40 minutes for Part III.
-
-:::quiz exam
-   (… 311 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g12/practice-paper-thpt-3 – BẢN TIẾNG VIỆT ########
----
-title: Đề luyện thi tốt nghiệp số 3
-description: Đề luyện 22 câu theo cấu trúc thi tốt nghiệp THPT từ năm 2025, mức khó hơn đề 1 và 2, có lời giải chi tiết và bài ôn lại cho từng câu.
-minutes: 90
-type: exam
----
-
-[[P1·badd]]
-Đề gồm $22$ câu, làm trong $90$ phút, chia thành ba phần: Phần I có $12$ câu nhiều phương án lựa chọn ($0{,}25$ điểm mỗi câu), Phần II có $4$ câu đúng sai (tối đa $1$ điểm mỗi câu), Phần III có $6$ câu trả lời ngắn ($0{,}5$ điểm mỗi câu). Đề này khó hơn đề số 1 và số 2, nhiều câu cần hai đến ba bước lập luận. Bạn hãy làm trên phiếu in trước, bấm giờ nghiêm túc, rồi nhập đáp án vào bên dưới để được chấm theo thang điểm $10$.
-
-:::quiz exam
-   (… 348 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g12/practice-paper-thpt-3 – BẢN TIẾNG ANH ########
----
-title: Graduation practice paper 3
-description: A 22-question paper in the 2025 Vietnamese graduation exam format, harder than papers 1 and 2, with full solutions and a revision lesson for each question.
-minutes: 90
-type: exam
----
-
-[[P1·c7a6]]
-The paper has $22$ questions to be done in $90$ minutes, in three parts: Part I has $12$ multiple-choice questions ($0.25$ points each), Part II has $4$ true/false questions (up to $1$ point each) and Part III has $6$ short-answer questions ($0.5$ points each). This paper is harder than papers 1 and 2, and many questions need two or three steps of reasoning. Work on the printed sheet first under timed conditions, then enter your answers below to be marked out of $10$.
-
-:::quiz exam
-   (… 348 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g12/practice-paper-thpt-4 – BẢN TIẾNG VIỆT ########
----
-title: Đề luyện thi tốt nghiệp số 4
-description: Đề luyện 22 câu khó nhất của bộ đề, theo cấu trúc thi tốt nghiệp THPT từ năm 2025, có lời giải chi tiết và bài ôn lại cho từng câu.
-minutes: 90
-type: exam
----
-
-[[P1·3ffd]]
-Đề gồm $22$ câu, làm trong $90$ phút, chia thành ba phần: Phần I có $12$ câu nhiều phương án lựa chọn ($0{,}25$ điểm mỗi câu), Phần II có $4$ câu đúng sai (tối đa $1$ điểm mỗi câu), Phần III có $6$ câu trả lời ngắn ($0{,}5$ điểm mỗi câu). Đây là đề khó nhất của bộ đề luyện: nhiều ý ở Phần II và Phần III cần kiểm tra cẩn thận điều kiện và làm tròn. Bạn hãy làm trên phiếu in trước, bấm giờ nghiêm túc, rồi nhập đáp án vào bên dưới để được chấm theo thang điểm $10$.
-
-:::quiz exam
-   (… 327 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g12/practice-paper-thpt-4 – BẢN TIẾNG ANH ########
----
-title: Graduation practice paper 4
-description: The hardest 22-question paper of the series, in the 2025 Vietnamese graduation exam format, with full solutions and a revision lesson for each question.
-minutes: 90
-type: exam
----
-
-[[P1·291b]]
-The paper has $22$ questions to be done in $90$ minutes, in three parts: Part I has $12$ multiple-choice questions ($0.25$ points each), Part II has $4$ true/false questions (up to $1$ point each) and Part III has $6$ short-answer questions ($0.5$ points each). This is the hardest paper of the series: many statements in Part II and Part III need a careful check of conditions and rounding. Work on the printed sheet first under timed conditions, then enter your answers below to be marked out of $10$.
-
-:::quiz exam
-   (… 327 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g12/review-coordinates-space – BẢN TIẾNG VIỆT ########
----
-title: "Ôn tập: phương pháp toạ độ trong không gian"
-description: Ôn vectơ trong hệ Oxyz, phương trình mặt phẳng, đường thẳng, mặt cầu, công thức góc và khoảng cách, mô hình toạ độ thực tế theo dạng đề thi.
-minutes: 40
+title: Định lí Viète và ứng dụng
+description: Hiểu định lí Viète về tổng và tích hai nghiệm, nhẩm nghiệm, tìm hai số biết tổng và tích, tính biểu thức đối xứng và xét dấu các nghiệm.
+minutes: 20
 ---
 
   :::goals
-  - Tính nhanh toạ độ vectơ, độ dài, tích vô hướng và góc giữa hai vectơ.
-  - Viết phương trình mặt phẳng, đường thẳng, mặt cầu và đọc được các yếu tố từ phương trình.
-  - Dùng công thức góc và khoảng cách để giải câu trắc nghiệm, Đúng/Sai và trả lời ngắn.
-  - Đặt hệ trục toạ độ cho một tình huống thực tế (căn phòng, máy bay, trạm phát sóng).
+  - Hiểu và giải thích được định lí Viète về tổng và tích hai nghiệm của phương trình bậc hai.
+  - Tính nhẩm nghiệm khi $a+b+c=0$ hoặc $a-b+c=0$.
+  - Tìm hai số khi biết tổng và tích của chúng.
+  - Tính giá trị các biểu thức đối xứng của hai nghiệm và xét dấu các nghiệm mà không cần giải phương trình.
   :::
 
-[[P1·3345]]
-Phương pháp toạ độ trong không gian là chủ đề "dễ lấy điểm" của lớp 12. Phần I thường có hai đến bốn câu hỏi đọc nhanh từ phương trình: vectơ pháp tuyến, tâm và bán kính mặt cầu, khoảng cách. Phần II hoặc Phần III thường có một câu tổng hợp, nhiều khi gắn với tình huống thực tế. Tổng cộng chủ đề này thường chiếm khoảng $1$ đến $1{,}5$ điểm.
+[[P1·0766]]
+François Viète (1540–1603) là một luật sư, cố vấn của vua Pháp Henri III rồi làm việc cho vua Henri IV. Ông đã giải mã những bức thư mật gửi vua Tây Ban Nha Philip II, giúp Henri IV biết trước kế hoạch quân sự của đối phương. Trong toán học, ông đưa ra hệ thống kí hiệu đại số đầu tiên: dùng nguyên âm để kí hiệu ẩn và phụ âm để kí hiệu các số đã biết, nhờ đó viết được những quy luật chung cho *mọi* phương trình (theo MacTutor, Đại học St Andrews). Mối liên hệ giữa nghiệm và hệ số mà ta học hôm nay mang tên ông.
 
-[[P2·e831]]
-Bí quyết là thuộc chắc các công thức và tính cẩn thận dấu. Bài ôn đi qua bốn mảng: vectơ, mặt phẳng, đường thẳng, mặt cầu và mô hình thực tế.
+[[P2·9f83]]
+Bạn Minh nói với cả lớp: "Phương trình $x^2-7x+12=0$ có nghiệm $3$ và $4$, mình biết ngay mà không cần tính $\Delta$, vì $3+4=7$ và $3\cdot4=12$." Minh đoán may mắn, hay có một quy luật đằng sau? Nếu có, quy luật ấy giúp ta làm được những gì?
 
-:::diagram Hệ trục toạ độ $Oxyz$ và điểm $M(2; 3; 2)$
-   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+## Định lí Viète
+
+### Khám phá: tổng và tích của hai nghiệm
+
+[[P3·1a26]]
+Ta giải vài phương trình (bằng công thức nghiệm) rồi tính tổng và tích hai nghiệm:
+
+| Phương trình | Nghiệm | $x_1+x_2$ | $x_1x_2$ |
+|---|---|---|---|
+| $x^2-5x+6=0$ | $2$; $3$ | $5$ | $6$ |
+| $2x^2-7x+3=0$ | $3$; $\frac12$ | $\frac72$ | $\frac32$ |
+| $x^2+2x-8=0$ | $2$; $-4$ | $-2$ | $-8$ |
+
+[[P4·772a]]
+Ở dòng thứ hai, tổng là $\dfrac72=\dfrac{-(-7)}{2}$ và tích là $\dfrac32$: tổng luôn bằng $-\dfrac{b}{a}$, tích luôn bằng $\dfrac{c}{a}$.
+
+  :::theorem Định lí Viète
+  Nếu $x_1$, $x_2$ là hai nghiệm của phương trình $ax^2+bx+c=0$ ($a\neq0$) thì
+  $$x_1+x_2=-\frac{b}{a},\qquad x_1x_2=\frac{c}{a}.$$
+  :::
+
+[[P5·e1f7]]
+**Vì sao?** Khi $\Delta\geq0$, cộng và nhân hai nghiệm $\dfrac{-b\pm\sqrt\Delta}{2a}$ (bài [phương trình bậc hai](lesson:quadratic-equations)), các căn triệt tiêu nhau:
+
+  $$x_1+x_2=\frac{-2b}{2a}=-\frac ba,\qquad x_1x_2=\frac{(-b)^2-(\sqrt\Delta)^2}{4a^2}=\frac{b^2-(b^2-4ac)}{4a^2}=\frac ca.$$
+
+[[P6·0d06]]
+**Hiểu sâu hơn.** Nếu $x_1$, $x_2$ là hai nghiệm thì $(x-x_1)(x-x_2)=x^2-(x_1+x_2)x+x_1x_2$. So sánh với $x^2+\dfrac bax+\dfrac ca$ (chia phương trình cho $a$), ta thấy định lí Viète là điều rất tự nhiên. Nhưng định lí chỉ nói về nghiệm khi nghiệm **tồn tại**: luôn kiểm tra $\Delta\geq0$ (hoặc $a$, $c$ trái dấu) trước khi dùng.
+
+  :::example Tổng và tích mà không cần giải
+  Không giải phương trình, tính tổng và tích hai nghiệm của phương trình $2x^2-9x+4=0$.
+
+  **Lời giải.** Ta có $\Delta=81-32=49>0$ nên phương trình có hai nghiệm $x_1$, $x_2$. Theo định lí Viète, ta có
+
+  $$x_1+x_2=\frac92,\qquad x_1x_2=\frac42=2.$$
+
+  Vậy tổng hai nghiệm là $\dfrac92$, tích là $2$.
+
+  **Kiểm tra.** Hai nghiệm là $4$ và $\dfrac12$: $4+\dfrac12=\dfrac92$, $4\cdot\dfrac12=2$.
+  :::
+
+[[P7·a1ca]]
+Từ tổng $S$ và tích $P$, ta tính được nhiều biểu thức "đối xứng" (đổi chỗ $x_1$, $x_2$ không đổi giá trị), chẳng hạn $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=S^2-2P$.
+
+  :::example Biểu thức đối xứng của hai nghiệm
+  Gọi $x_1$, $x_2$ là hai nghiệm của phương trình $x^2-5x+3=0$. Không giải phương trình, tính $x_1^2+x_2^2$ và $\dfrac1{x_1}+\dfrac1{x_2}$.
+
+  **Lời giải.** Ta có $\Delta=25-12=13>0$. Theo định lí Viète, $S=x_1+x_2=5$, $P=x_1x_2=3$. Do đó
+
+  $$x_1^2+x_2^2=S^2-2P=25-6=19,\qquad \frac1{x_1}+\frac1{x_2}=\frac{x_1+x_2}{x_1x_2}=\frac53.$$
+
+  Vậy $x_1^2+x_2^2=19$ và $\dfrac1{x_1}+\dfrac1{x_2}=\dfrac53$.
+
+  **Nhận xét.** Hai nghiệm $\dfrac{5\pm\sqrt{13}}{2}$ chứa căn, nhưng các biểu thức đối xứng lại là số hữu tỉ: định lí Viète giúp ta tránh hẳn các phép tính với căn.
+  :::
+
+## Tính nhẩm nghiệm
+
+[[P8·271b]]
+Thay $x=1$ vào $ax^2+bx+c$ ta được $a+b+c$; thay $x=-1$ ta được $a-b+c$. Kết hợp với tích $x_1x_2=\dfrac ca$, ta tìm ngay nghiệm còn lại.
+
+  :::theorem Nhẩm nghiệm
+  - Nếu $a+b+c=0$ thì phương trình $ax^2+bx+c=0$ có hai nghiệm $x_1=1$, $x_2=\dfrac ca$.
+  - Nếu $a-b+c=0$ thì phương trình có hai nghiệm $x_1=-1$, $x_2=-\dfrac ca$.
+  :::
+
+  :::example Nhẩm nghiệm
+  Tính nhẩm nghiệm của các phương trình sau:
+
+  a) $3x^2-8x+5=0$.
+
+  b) $2x^2+7x+5=0$.
+
+  c) $x^2-2027x+2026=0$.
+
+  **Lời giải.** a) Ta có $a+b+c=3-8+5=0$ nên $x_1=1$, $x_2=\dfrac53$.
+
+  b) Ta có $a-b+c=2-7+5=0$ nên $x_1=-1$, $x_2=-\dfrac52$.
+
+  c) Ta có $a+b+c=1-2027+2026=0$ nên $x_1=1$, $x_2=2026$.
+
+  Vậy a) $x=1$, $x=\dfrac53$; b) $x=-1$, $x=-\dfrac52$; c) $x=1$, $x=2026$.
+  :::
+
+[[P9·9de5]]
+Câu c) cho thấy sức mạnh của cách nhẩm: dùng công thức nghiệm, bạn phải tính $\Delta=2027^2-4\cdot2026=2025^2$.
+
+## Tìm hai số biết tổng và tích
+
+[[P10·16b4]]
+Đảo lại định lí Viète: nếu hai số $u$, $v$ có $u+v=S$ và $uv=P$ thì $(x-u)(x-v)=x^2-Sx+P$, nên $u$, $v$ là hai nghiệm của $x^2-Sx+P=0$.
+
+  :::theorem Tìm hai số biết tổng và tích
+  Nếu hai số có tổng bằng $S$ và tích bằng $P$ thì hai số đó là hai nghiệm của phương trình
+  $$x^2-Sx+P=0.$$
+  Điều kiện để có hai số đó là $S^2-4P\geq0$.
+  :::
+
+  :::example Hai số có tổng $11$, tích $28$
+  a) Tìm hai số có tổng bằng $11$ và tích bằng $28$.
+
+  b) Có hai số nào có tổng bằng $4$ và tích bằng $5$ không?
+
+  **Lời giải.** a) Hai số cần tìm là nghiệm của $x^2-11x+28=0$. Ta có $\Delta=121-112=9$, nên $x_1=\dfrac{11+3}{2}=7$, $x_2=\dfrac{11-3}{2}=4$.
+
+  b) Ta có $S^2-4P=16-20=-4<0$, nên phương trình $x^2-4x+5=0$ vô nghiệm.
+
+  Vậy a) hai số là $7$ và $4$; b) không có hai số như vậy.
+  :::
+
+  :::example Vận dụng: kích thước mảnh vườn
+  Giả sử một mảnh vườn hình chữ nhật có chu vi $34$ m và diện tích $60$ m². Tính các kích thước của mảnh vườn.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Chu vi $34$ m cho biết tổng hai cạnh; diện tích $60$ m² là tích hai cạnh.
+
+  *Tìm cách giải.* Hai cạnh có tổng $S=34:2=17$ và tích $P=60$, nên chúng là nghiệm của $x^2-17x+60=0$.
+
+  *Giải.* Ta có $\Delta=289-240=49$, nên $x_1=\dfrac{17+7}{2}=12$, $x_2=\dfrac{17-7}{2}=5$. Cả hai đều dương.
+
+  Vậy mảnh vườn có chiều dài $12$ m và chiều rộng $5$ m.
+
+  *Nhìn lại.* Có cách khác không? Gọi hai cạnh là $x$, $y$ rồi giải hệ $x+y=17$, $xy=60$ bằng phương pháp thế, ta cũng được đúng phương trình trên. Nếu chu vi chỉ còn $30$ m thì sao? Khi đó $S=15$, $S^2-4P=225-240<0$: không có mảnh vườn nào như vậy. Thật vậy, với chu vi $30$ m, hình vuông cạnh $7{,}5$ m có diện tích lớn nhất, chỉ $56{,}25$ m² $<60$ m².
+  :::
+
+:::diagram Mảnh vườn $12$ m $\times$ $5$ m
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-## Vectơ và toạ độ
+## Xét dấu các nghiệm
 
-  :::theorem Công thức với $\vec a=(a_1; a_2; a_3)$, $\vec b=(b_1; b_2; b_3)$
-  - $\overrightarrow{AB}=(x_B-x_A; y_B-y_A; z_B-z_A)$, $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}$.
-  - Trung điểm $I$ của $AB$: trung bình cộng toạ độ của $A$ và $B$; trọng tâm $G$ của tam giác: trung bình cộng toạ độ ba đỉnh.
-  - Tích vô hướng $\vec a\cdot\vec b=a_1b_1+a_2b_2+a_3b_3$; $\vec a\perp\vec b\iff\vec a\cdot\vec b=0$.
-  - $\cos(\vec a, \vec b)=\dfrac{\vec a\cdot\vec b}{|\vec a|\cdot|\vec b|}$, với $|\vec a|=\sqrt{a_1^2+a_2^2+a_3^2}$.
-  - Tích có hướng $[\vec a, \vec b]=(a_2b_3-a_3b_2; a_3b_1-a_1b_3; a_1b_2-a_2b_1)$ vuông góc với cả $\vec a$ và $\vec b$.
+[[P11·85b0]]
+Không cần giải, từ $S$ và $P$ ta biết được dấu của hai nghiệm (khi phương trình có nghiệm):
+- $P<0$: hai nghiệm trái dấu (khi đó $a$, $c$ trái dấu nên phương trình chắc chắn có hai nghiệm);
+- $\Delta\geq0$, $P>0$, $S>0$: hai nghiệm cùng dương;
+- $\Delta\geq0$, $P>0$, $S<0$: hai nghiệm cùng âm.
+
+[[P12·7260]]
+Lí do: tích âm thì hai số khác dấu; tích dương thì cùng dấu, và tổng cho biết dấu chung đó.
+
+  :::example Xét dấu các nghiệm
+  Không giải phương trình, xét dấu các nghiệm của mỗi phương trình sau:
+
+  a) $x^2-5x-6=0$.
+
+  b) $3x^2+11x+2=0$.
+
+  c) $x^2-7x+4=0$.
+
+  **Lời giải.** a) Ta có $P=-6<0$ nên phương trình có hai nghiệm trái dấu.
+
+  b) Ta có $\Delta=121-24=97>0$, $P=\dfrac23>0$, $S=-\dfrac{11}3<0$ nên phương trình có hai nghiệm cùng âm.
+
+  c) Ta có $\Delta=49-16=33>0$, $P=4>0$, $S=7>0$ nên phương trình có hai nghiệm cùng dương.
+
+  Vậy a) hai nghiệm trái dấu; b) hai nghiệm âm; c) hai nghiệm dương.
   :::
 
-  :::example Trắc nghiệm: côsin của góc giữa hai vectơ
-  Trong không gian $Oxyz$, cho $\vec a=(1; -2; 2)$ và $\vec b=(2; 1; -2)$. Giá trị của $\cos(\vec a, \vec b)$ là
-
-  **A.** $\dfrac49$.
-
-  **B.** $-\dfrac49$.
-
-  **C.** $-\dfrac43$.
-
-  **D.** $0$.
-
-  **Lời giải.** Ta tính tích vô hướng và hai độ dài rồi thay vào công thức:
-
-  $$\vec a\cdot\vec b=2-2-4=-4,\qquad |\vec a|=\sqrt{1+4+4}=3,\qquad |\vec b|=\sqrt{4+1+4}=3.$$
-
-  Do đó $\cos(\vec a, \vec b)=\dfrac{-4}{3\cdot3}=-\dfrac49$. Chọn **B**.
-
-  **Nhìn lại.** Góc giữa hai **vectơ** có thể tù nên côsin được phép âm. Phương án A là côsin của góc giữa hai **đường thẳng** (có dấu giá trị tuyệt đối); phương án D sai dấu ở số hạng thứ hai.
-  :::
-
-## Phương trình mặt phẳng
-
-  :::theorem Mặt phẳng
-  - Mặt phẳng qua $M(x_0; y_0; z_0)$ có vectơ pháp tuyến $\vec n=(A; B; C)$: $A(x-x_0)+B(y-y_0)+C(z-z_0)=0$.
-  - Mặt phẳng $Ax+By+Cz+D=0$ có vectơ pháp tuyến $\vec n=(A; B; C)$.
-  - Mặt phẳng qua ba điểm $A$, $B$, $C$: dùng $\vec n=[\overrightarrow{AB}, \overrightarrow{AC}]$. Mặt phẳng theo đoạn chắn qua $(a; 0; 0)$, $(0; b; 0)$, $(0; 0; c)$: $\dfrac xa+\dfrac yb+\dfrac zc=1$.
-  - Khoảng cách: $d(M, (P))=\dfrac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}$.
-  - $(P)\perp(Q)\iff\vec n_P\cdot\vec n_Q=0$; $(P)\parallel(Q)$ khi hai vectơ pháp tuyến cùng phương và hai mặt phẳng không trùng nhau.
-  :::
-
-  :::example Đúng/Sai: mặt phẳng theo đoạn chắn
-  Trong không gian $Oxyz$, cho ba điểm $A(1; 0; 0)$, $B(0; 2; 0)$, $C(0; 0; 3)$.
-
-  a) Mặt phẳng $(ABC)$ có một vectơ pháp tuyến là $\vec n=(6; 3; 2)$.
-
-  b) Gốc toạ độ $O$ thuộc mặt phẳng $(ABC)$.
-
-  c) Khoảng cách từ $O$ đến mặt phẳng $(ABC)$ bằng $\dfrac67$.
-
-  d) Mặt phẳng $(ABC)$ vuông góc với mặt phẳng $(Oxy)$.
-
-  **Lời giải.** Ba điểm nằm trên ba trục nên ta dùng phương trình đoạn chắn rồi quy đồng với mẫu chung $6$:
-
-  $$\frac x1+\frac y2+\frac z3=1\iff 6x+3y+2z-6=0.$$
-
-  a) **Đúng.** Các hệ số của $x$, $y$, $z$ là $6$, $3$, $2$.
-
-  b) **Sai.** Thay $O$: $0+0+0-6=-6\neq0$.
-
-  c) **Đúng.** $d(O, (ABC))=\dfrac{|-6|}{\sqrt{36+9+4}}=\dfrac67$.
-
-  d) **Sai.** Mặt phẳng $(Oxy)$ có vectơ pháp tuyến $\vec k=(0; 0; 1)$ và $\vec n\cdot\vec k=2\neq0$.
-
-  Vậy đáp án là a) Đúng, b) Sai, c) Đúng, d) Sai.
-  :::
-
-## Phương trình đường thẳng và công thức góc
-
-  :::theorem Đường thẳng và góc
-  - Đường thẳng qua $M(x_0; y_0; z_0)$ có vectơ chỉ phương $\vec u=(a; b; c)$: phương trình tham số $x=x_0+at$, $y=y_0+bt$, $z=z_0+ct$; nếu $abc\neq0$, phương trình chính tắc $\dfrac{x-x_0}{a}=\dfrac{y-y_0}{b}=\dfrac{z-z_0}{c}$.
-  - Góc giữa hai đường thẳng: $\cos\varphi=\dfrac{|\vec u\cdot\vec u'|}{|\vec u|\cdot|\vec u'|}$.
-  - Góc giữa đường thẳng và mặt phẳng: $\sin\varphi=\dfrac{|\vec u\cdot\vec n|}{|\vec u|\cdot|\vec n|}$.
-  - Góc giữa hai mặt phẳng: $\cos\varphi=\dfrac{|\vec n\cdot\vec n'|}{|\vec n|\cdot|\vec n'|}$.
-  :::
-
-[[P3·2abf]]
-Đường thẳng vuông góc với một mặt phẳng nhận vectơ pháp tuyến của mặt phẳng làm vectơ chỉ phương. Đây là ý của rất nhiều câu trắc nghiệm.
-
-  :::example Trắc nghiệm: đường thẳng vuông góc với mặt phẳng
-  Đường thẳng đi qua $A(1; 2; -1)$ và vuông góc với mặt phẳng $(P)\colon 2x-y+3z-5=0$ có phương trình tham số là
-
-  **A.** $x=1+2t$, $y=2-t$, $z=-1+3t$.
-
-  **B.** $x=2+t$, $y=-1+2t$, $z=3-t$.
-
-  **C.** $x=1+2t$, $y=2+t$, $z=-1+3t$.
-
-  **D.** $x=1+2t$, $y=2-t$, $z=1+3t$.
-
-  **Lời giải.** Đường thẳng vuông góc với $(P)$ nên có vectơ chỉ phương $\vec u=\vec n_P=(2; -1; 3)$; điểm đi qua là $A(1; 2; -1)$:
-
-  $$x=1+2t,\qquad y=2-t,\qquad z=-1+3t.$$
-
-  Chọn **A**. Phương án B đổi vai trò điểm và vectơ, phương án C sai dấu hệ số của $y$, phương án D sai dấu toạ độ $z$ của $A$.
-  :::
-
-  :::example Trả lời ngắn: góc giữa đường thẳng và mặt phẳng
-  Tính góc giữa đường thẳng $d\colon\dfrac{x-1}{1}=\dfrac{y}{2}=\dfrac{z+1}{2}$ và mặt phẳng $(P)\colon 2x-y+2z+3=0$ (đơn vị: độ, làm tròn kết quả đến hàng đơn vị).
-
-  **Lời giải.** Góc giữa đường thẳng và mặt phẳng dùng **sin**, với $\vec u=(1; 2; 2)$ và $\vec n=(2; -1; 2)$:
-
-  $$\sin\varphi=\frac{|2-2+4|}{\sqrt{1+4+4}\cdot\sqrt{4+1+4}}=\frac49\ \Rightarrow\ \varphi\approx26{,}39^\circ.$$
-
-  Vậy góc cần tìm khoảng $26^\circ$ (ghi $26$).
-  :::
-
-:::warning Bẫy thường gặp
-[[P4·6948]]
-- **Dùng $\cos$ thay cho $\sin$** với góc giữa đường thẳng và mặt phẳng. Ở ví dụ trên, dùng $\cos$ sẽ cho khoảng $64^\circ$, là góc phụ với đáp án đúng.
-- **Quên dấu giá trị tuyệt đối** khi tính góc giữa hai đường thẳng hoặc hai mặt phẳng: góc này không vượt quá $90^\circ$.
-- **Đọc sai toạ độ từ phương trình chính tắc.** Từ $\dfrac{z+1}{2}$ ta có $z_0=-1$, không phải $1$.
+:::warning Những sai lầm thường gặp
+[[P13·a483]]
+- **Quên kiểm tra $\Delta$.** Sai: với $x^2-2x+5=0$, viết $S=2$, $P=5$, nên $x_1^2+x_2^2=4-10=-6$. Lí do sai: $\Delta'=1-5<0$, phương trình vô nghiệm (tổng hai bình phương cũng không thể âm). Đúng: kiểm tra $\Delta\geq0$ trước.
+- **Sai dấu của tổng.** Sai: $2x^2-9x+4=0$ có $x_1+x_2=-\dfrac92$. Đúng: $x_1+x_2=-\dfrac ba=\dfrac92$.
+- **Nhầm hai trường hợp nhẩm nghiệm.** Khi $a-b+c=0$, nghiệm thứ hai là $-\dfrac ca$, không phải $\dfrac ca$.
 :::
 
-## Mặt cầu và mô hình toạ độ thực tế
-
-  :::theorem Mặt cầu
-  - Mặt cầu tâm $I(a; b; c)$, bán kính $R$: $(x-a)^2+(y-b)^2+(z-c)^2=R^2$.
-  - Phương trình $x^2+y^2+z^2-2ax-2by-2cz+d=0$ là mặt cầu khi $a^2+b^2+c^2-d>0$; khi đó tâm $I(a; b; c)$ và $R=\sqrt{a^2+b^2+c^2-d}$.
-  - Với $h=d(I, (P))$: nếu $h>R$ thì $(P)$ không cắt mặt cầu; $h=R$ thì $(P)$ tiếp xúc; $h<R$ thì $(P)$ cắt theo đường tròn bán kính $r=\sqrt{R^2-h^2}$.
-  :::
-
-[[P5·f56d]]
-Trong bài toán thực tế, ta đặt gốc toạ độ ở một vị trí thuận tiện (góc phòng, chân tháp, trạm radar), chọn đơn vị (m hoặc km), rồi dịch câu hỏi thành câu hỏi về điểm, đường thẳng, mặt phẳng hay mặt cầu.
-
-  :::example Trả lời ngắn: máy bay đi qua vùng phủ sóng radar
-  Chọn hệ trục $Oxyz$ (đơn vị: km) với trạm radar đặt tại gốc $O$. Radar phát hiện được mọi vật cách nó không quá $5$ km. Một máy bay bay thẳng với vị trí $M(1+2t; 2-t; 2)$. Tính độ dài quãng đường máy bay bay trong vùng radar phát hiện được (đơn vị: km).
-
-  **Lời giải.** *Hiểu đề.* Vùng phát hiện là khối cầu tâm $O$, bán kính $5$; quãng đường cần tìm là dây cung của đường bay nằm trong mặt cầu.
-
-  *Tìm cách giải.* Giải điều kiện $OM\le5$ theo $t$, hoặc dùng khoảng cách từ $O$ đến đường bay.
-
-  *Giải.* Bình phương điều kiện $OM\le5$:
-
-  $$(1+2t)^2+(2-t)^2+4\le25\iff 5t^2+9\le25\iff t^2\le\frac{16}{5}.$$
-
-  Vậy $t$ chạy từ $-\dfrac{4}{\sqrt5}$ đến $\dfrac{4}{\sqrt5}$. Vectơ chỉ phương $\vec u=(2; -1; 0)$ có độ dài $\sqrt5$, nên quãng đường là
-
-  $$\sqrt5\cdot\frac{8}{\sqrt5}=8\ \text{(km)}.$$
-
-  *Nhìn lại.* Điểm gần $O$ nhất ứng với $t=0$, là $H(1; 2; 2)$ với $OH=3$; theo định lí Pythagore, dây cung dài $2\sqrt{25-9}=8$, khớp với kết quả.
-  :::
+[[P14·7ec3]]
+**Kết nối.** Định lí Viète được suy ra trực tiếp từ công thức nghiệm, và cho ta một cách nhìn mới: thay vì tìm từng nghiệm, ta làm việc với cặp $(S; P)$. Cách nhìn này dùng nhiều trong [giải bài toán bằng cách lập phương trình](lesson:g9-equation-word-problems) (các bài toán hình chữ nhật), trong phân tích $ax^2+bx+c=a(x-x_1)(x-x_2)$, và là dạng bài quen thuộc của đề thi vào lớp 10.
 
 ## Thuật ngữ
 
   :::terms
-  - hệ trục toạ độ Oxyz | Oxyz coordinate system
-  - tích vô hướng | scalar product
-  - tích có hướng | vector product (cross product)
-  - vectơ pháp tuyến | normal vector
-  - vectơ chỉ phương | direction vector
-  - phương trình tham số | parametric equations
-  - phương trình chính tắc | Cartesian equations (of a line)
-  - mặt cầu | sphere
-  - tiếp xúc | tangent
-  - khoảng cách từ điểm đến mặt phẳng | distance from a point to a plane
+  - định lí Viète | Viète's theorem
+  - tổng hai nghiệm | sum of the roots
+  - tích hai nghiệm | product of the roots
+  - tính nhẩm nghiệm | finding the roots mentally
+  - biểu thức đối xứng | symmetric expression
+  - hai nghiệm trái dấu | roots of opposite signs
+  - hai nghiệm cùng dương | two positive roots
+  - hai nghiệm cùng âm | two negative roots
   :::
 
-## Bài tập
+## Tóm tắt
 
-[[P6·1795]]
-Các bài được xếp từ dễ đến khó, mỗi bài ghi rõ dạng câu hỏi trong đề thi.
+[[P15·e00a]]
+- Nếu $\Delta\geq0$: $x_1+x_2=-\dfrac ba$, $x_1x_2=\dfrac ca$.
+- $a+b+c=0$: nghiệm $1$ và $\dfrac ca$; $a-b+c=0$: nghiệm $-1$ và $-\dfrac ca$.
+- Hai số có tổng $S$, tích $P$ là nghiệm của $x^2-Sx+P=0$ (cần $S^2-4P\geq0$).
+- $x_1^2+x_2^2=S^2-2P$; $\dfrac1{x_1}+\dfrac1{x_2}=\dfrac SP$.
+- $P<0$: trái dấu; $P>0$, $S>0$: cùng dương; $P>0$, $S<0$: cùng âm (khi $\Delta\geq0$).
 
-:::exercise Trắc nghiệm
-   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+## Luyện tập
+
+[[P16·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Trắc nghiệm
+:::exercise
+   (… 33 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
    (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Trắc nghiệm
-   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Đúng/Sai
-   (… 34 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 31 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Trả lời ngắn
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
    (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Trả lời ngắn
-   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Trả lời ngắn
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Trả lời ngắn
-   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Tự luận
-   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Trả lời ngắn (thử thách)
-   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -464,230 +394,256 @@ Các bài được xếp từ dễ đến khó, mỗi bài ghi rõ dạng câu h
 :::
 
 
-######## BÀI g12/review-coordinates-space – BẢN TIẾNG ANH ########
+######## BÀI g9/vietes-theorem – BẢN TIẾNG ANH ########
 ---
-title: "Revision: coordinates in space"
-description: Revise vectors in Oxyz, equations of planes, lines and spheres, angle and distance formulas, and real-life coordinate models, in graduation exam style.
-minutes: 40
+title: Viète's theorem and its applications
+description: Understand Viète's theorem on the sum and product of the roots, find roots mentally, find two numbers from their sum and product, and check signs of roots.
+minutes: 20
 ---
 
   :::goals
-  - Calculate vector components, lengths, scalar products and the angle between two vectors quickly.
-  - Write equations of planes, lines and spheres and read their features from an equation.
-  - Use the angle and distance formulas in multiple-choice, true/false and short-answer questions.
-  - Set up a coordinate system for a real-life situation (a room, an aircraft, a radar station).
+  - Understand and explain Viète's theorem on the sum and product of the roots of a quadratic equation.
+  - Find the roots mentally when $a+b+c=0$ or $a-b+c=0$.
+  - Find two numbers given their sum and product.
+  - Evaluate symmetric expressions in the two roots and find the signs of the roots without solving the equation.
   :::
 
-[[P1·e78a]]
-Coordinates in space is one of the "easy marks" topics of grade 12. Part I usually has two to four questions that are read straight from an equation: a normal vector, the centre and radius of a sphere, a distance. Part II or Part III usually has one mixed question, often set in a real-life context. Altogether this topic is usually worth about $1$ to $1.5$ marks.
+[[P1·d20a]]
+François Viète (1540–1603) was a lawyer, a royal counsellor to King Henry III of France and later worked for King Henry IV. He decoded secret letters sent to King Philip II of Spain, so that Henry IV learnt of his enemy's military plans. In mathematics, he introduced the first systematic algebraic notation: vowels for the unknowns and consonants for the known numbers, which let him write general rules for *every* equation (MacTutor, University of St Andrews). The link between roots and coefficients that we study today bears his name.
 
-[[P2·fd93]]
-The secret is to know the formulas thoroughly and to watch the signs. This revision lesson covers four areas: vectors, planes, lines, and spheres with real-life models.
+[[P2·334f]]
+Minh tells the class: "The equation $x^2-7x+12=0$ has roots $3$ and $4$. I knew at once, without working out $\Delta$, because $3+4=7$ and $3\cdot4=12$." Was Minh lucky, or is there a rule behind it? And if there is, what can that rule do for us?
 
-:::diagram The coordinate system $Oxyz$ and the point $M(2, 3, 2)$
-   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+## Viète's theorem
+
+### Explore: the sum and product of the roots
+
+[[P3·a45c]]
+We solve a few equations (with the quadratic formula) and work out the sum and product of the roots:
+
+| Equation | Roots | $x_1+x_2$ | $x_1x_2$ |
+|---|---|---|---|
+| $x^2-5x+6=0$ | $2$; $3$ | $5$ | $6$ |
+| $2x^2-7x+3=0$ | $3$; $\frac12$ | $\frac72$ | $\frac32$ |
+| $x^2+2x-8=0$ | $2$; $-4$ | $-2$ | $-8$ |
+
+[[P4·8435]]
+In the second row the sum is $\dfrac72=\dfrac{-(-7)}{2}$ and the product is $\dfrac32$: the sum is always $-\dfrac{b}{a}$ and the product is always $\dfrac{c}{a}$.
+
+  :::theorem Viète's theorem
+  If $x_1$, $x_2$ are the two roots of the equation $ax^2+bx+c=0$ ($a\neq0$), then
+  $$x_1+x_2=-\frac{b}{a},\qquad x_1x_2=\frac{c}{a}.$$
+  :::
+
+[[P5·8446]]
+**Why?** When $\Delta\geq0$, add and multiply the two roots $\dfrac{-b\pm\sqrt\Delta}{2a}$ (lesson [quadratic equations](lesson:quadratic-equations)); the square roots cancel:
+
+  $$x_1+x_2=\frac{-2b}{2a}=-\frac ba,\qquad x_1x_2=\frac{(-b)^2-(\sqrt\Delta)^2}{4a^2}=\frac{b^2-(b^2-4ac)}{4a^2}=\frac ca.$$
+
+[[P6·1eb0]]
+**Going deeper.** If $x_1$, $x_2$ are the roots, then $(x-x_1)(x-x_2)=x^2-(x_1+x_2)x+x_1x_2$. Comparing this with $x^2+\dfrac bax+\dfrac ca$ (the equation divided by $a$), we see that Viète's theorem is very natural. But the theorem only talks about roots that **exist**: always check that $\Delta\geq0$ (or that $a$ and $c$ have opposite signs) before using it.
+
+  :::example Sum and product without solving
+  Without solving the equation, find the sum and the product of the roots of $2x^2-9x+4=0$.
+
+  **Solution.** We have $\Delta=81-32=49>0$, so the equation has two roots $x_1$, $x_2$. By Viète's theorem,
+
+  $$x_1+x_2=\frac92,\qquad x_1x_2=\frac42=2.$$
+
+  So the sum of the roots is $\dfrac92$ and the product is $2$.
+
+  **Check.** The roots are $4$ and $\dfrac12$: $4+\dfrac12=\dfrac92$ and $4\cdot\dfrac12=2$.
+  :::
+
+[[P7·c648]]
+From the sum $S$ and the product $P$ we can work out many "symmetric" expressions (swapping $x_1$ and $x_2$ does not change their value), for example $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=S^2-2P$.
+
+  :::example Symmetric expressions in the roots
+  Let $x_1$, $x_2$ be the roots of the equation $x^2-5x+3=0$. Without solving the equation, find $x_1^2+x_2^2$ and $\dfrac1{x_1}+\dfrac1{x_2}$.
+
+  **Solution.** We have $\Delta=25-12=13>0$. By Viète's theorem, $S=x_1+x_2=5$ and $P=x_1x_2=3$. Hence
+
+  $$x_1^2+x_2^2=S^2-2P=25-6=19,\qquad \frac1{x_1}+\frac1{x_2}=\frac{x_1+x_2}{x_1x_2}=\frac53.$$
+
+  So $x_1^2+x_2^2=19$ and $\dfrac1{x_1}+\dfrac1{x_2}=\dfrac53$.
+
+  **Remark.** The roots $\dfrac{5\pm\sqrt{13}}{2}$ involve square roots, yet the symmetric expressions are rational numbers: Viète's theorem lets us avoid calculating with surds altogether.
+  :::
+
+## Finding the roots mentally
+
+[[P8·a509]]
+Substituting $x=1$ into $ax^2+bx+c$ gives $a+b+c$; substituting $x=-1$ gives $a-b+c$. Together with the product $x_1x_2=\dfrac ca$, we find the other root at once.
+
+  :::theorem Finding roots mentally
+  - If $a+b+c=0$, the equation $ax^2+bx+c=0$ has the roots $x_1=1$, $x_2=\dfrac ca$.
+  - If $a-b+c=0$, the equation has the roots $x_1=-1$, $x_2=-\dfrac ca$.
+  :::
+
+  :::example Finding roots mentally
+  Find the roots of the following equations mentally:
+
+  a) $3x^2-8x+5=0$.
+
+  b) $2x^2+7x+5=0$.
+
+  c) $x^2-2027x+2026=0$.
+
+  **Solution.** a) We have $a+b+c=3-8+5=0$, so $x_1=1$ and $x_2=\dfrac53$.
+
+  b) We have $a-b+c=2-7+5=0$, so $x_1=-1$ and $x_2=-\dfrac52$.
+
+  c) We have $a+b+c=1-2027+2026=0$, so $x_1=1$ and $x_2=2026$.
+
+  So a) $x=1$, $x=\dfrac53$; b) $x=-1$, $x=-\dfrac52$; c) $x=1$, $x=2026$.
+  :::
+
+[[P9·1e52]]
+Part c) shows the power of this method: with the quadratic formula you would have to work out $\Delta=2027^2-4\cdot2026=2025^2$.
+
+## Finding two numbers from their sum and product
+
+[[P10·0913]]
+Viète's theorem also works backwards: if two numbers $u$, $v$ have $u+v=S$ and $uv=P$, then $(x-u)(x-v)=x^2-Sx+P$, so $u$ and $v$ are the roots of $x^2-Sx+P=0$.
+
+  :::theorem Two numbers from their sum and product
+  If two numbers have sum $S$ and product $P$, then they are the roots of the equation
+  $$x^2-Sx+P=0.$$
+  Such numbers exist when $S^2-4P\geq0$.
+  :::
+
+  :::example Two numbers with sum $11$ and product $28$
+  a) Find two numbers whose sum is $11$ and whose product is $28$.
+
+  b) Are there two numbers whose sum is $4$ and whose product is $5$?
+
+  **Solution.** a) The required numbers are the roots of $x^2-11x+28=0$. We have $\Delta=121-112=9$, so $x_1=\dfrac{11+3}{2}=7$ and $x_2=\dfrac{11-3}{2}=4$.
+
+  b) We have $S^2-4P=16-20=-4<0$, so the equation $x^2-4x+5=0$ has no solutions.
+
+  So a) the two numbers are $7$ and $4$; b) there are no such numbers.
+  :::
+
+  :::example Application: the size of a garden
+  Suppose a rectangular garden has perimeter $34$ m and area $60$ m². Find the dimensions of the garden.
+
+  **Solution.**
+
+  *Understand.* The perimeter $34$ m tells us the sum of the two sides; the area $60$ m² is their product.
+
+  *Plan.* The two sides have sum $S=34\div2=17$ and product $P=60$, so they are the roots of $x^2-17x+60=0$.
+
+  *Solve.* We have $\Delta=289-240=49$, so $x_1=\dfrac{17+7}{2}=12$ and $x_2=\dfrac{17-7}{2}=5$. Both are positive.
+
+  So the garden is $12$ m long and $5$ m wide.
+
+  *Look back.* Is there another method? Let the sides be $x$ and $y$ and solve the simultaneous equations $x+y=17$, $xy=60$ by substitution; we get exactly the same equation. What if the perimeter were only $30$ m? Then $S=15$ and $S^2-4P=225-240<0$: no such garden exists. Indeed, with perimeter $30$ m the square of side $7.5$ m has the largest area, only $56.25$ m² $<60$ m².
+  :::
+
+:::diagram The garden $12$ m $\times$ $5$ m
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-## Vectors and coordinates
+## The signs of the roots
 
-  :::theorem Formulas for $\vec a=(a_1, a_2, a_3)$, $\vec b=(b_1, b_2, b_3)$
-  - $\overrightarrow{AB}=(x_B-x_A, y_B-y_A, z_B-z_A)$ and $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}$.
-  - The midpoint $I$ of $AB$: the mean of the coordinates of $A$ and $B$; the centroid $G$ of a triangle: the mean of the coordinates of the three vertices.
-  - Scalar product $\vec a\cdot\vec b=a_1b_1+a_2b_2+a_3b_3$; $\vec a\perp\vec b\iff\vec a\cdot\vec b=0$.
-  - $\cos(\vec a, \vec b)=\dfrac{\vec a\cdot\vec b}{|\vec a|\cdot|\vec b|}$, where $|\vec a|=\sqrt{a_1^2+a_2^2+a_3^2}$.
-  - The vector product $[\vec a, \vec b]=(a_2b_3-a_3b_2, a_3b_1-a_1b_3, a_1b_2-a_2b_1)$ is perpendicular to both $\vec a$ and $\vec b$.
+[[P11·376f]]
+Without solving, $S$ and $P$ tell us the signs of the two roots (when the equation has roots):
+- $P<0$: the roots have opposite signs (then $a$ and $c$ have opposite signs, so the equation certainly has two roots);
+- $\Delta\geq0$, $P>0$, $S>0$: both roots are positive;
+- $\Delta\geq0$, $P>0$, $S<0$: both roots are negative.
+
+[[P12·9c2c]]
+The reason: a negative product means the numbers have different signs; a positive product means the same sign, and the sum shows which sign.
+
+  :::example The signs of the roots
+  Without solving, find the signs of the roots of each equation:
+
+  a) $x^2-5x-6=0$.
+
+  b) $3x^2+11x+2=0$.
+
+  c) $x^2-7x+4=0$.
+
+  **Solution.** a) We have $P=-6<0$, so the equation has two roots of opposite signs.
+
+  b) We have $\Delta=121-24=97>0$, $P=\dfrac23>0$ and $S=-\dfrac{11}3<0$, so the equation has two negative roots.
+
+  c) We have $\Delta=49-16=33>0$, $P=4>0$ and $S=7>0$, so the equation has two positive roots.
+
+  So a) roots of opposite signs; b) two negative roots; c) two positive roots.
   :::
 
-  :::example Multiple choice: the cosine of the angle between two vectors
-  In $Oxyz$, let $\vec a=(1, -2, 2)$ and $\vec b=(2, 1, -2)$. The value of $\cos(\vec a, \vec b)$ is
-
-  **A.** $\dfrac49$.
-
-  **B.** $-\dfrac49$.
-
-  **C.** $-\dfrac43$.
-
-  **D.** $0$.
-
-  **Solution.** We compute the scalar product and the two lengths, then use the formula:
-
-  $$\vec a\cdot\vec b=2-2-4=-4,\qquad |\vec a|=\sqrt{1+4+4}=3,\qquad |\vec b|=\sqrt{4+1+4}=3.$$
-
-  So $\cos(\vec a, \vec b)=\dfrac{-4}{3\cdot3}=-\dfrac49$. The answer is **B**.
-
-  **Look back.** The angle between two **vectors** can be obtuse, so the cosine may be negative. Option A is the cosine of the angle between two **lines** (with an absolute value); option D has a sign error in the second term.
-  :::
-
-## Equations of planes
-
-  :::theorem Planes
-  - The plane through $M(x_0, y_0, z_0)$ with normal vector $\vec n=(A, B, C)$: $A(x-x_0)+B(y-y_0)+C(z-z_0)=0$.
-  - The plane $Ax+By+Cz+D=0$ has normal vector $\vec n=(A, B, C)$.
-  - The plane through three points $A$, $B$, $C$: use $\vec n=[\overrightarrow{AB}, \overrightarrow{AC}]$. The plane through the intercepts $(a, 0, 0)$, $(0, b, 0)$, $(0, 0, c)$: $\dfrac xa+\dfrac yb+\dfrac zc=1$.
-  - Distance: $d(M, (P))=\dfrac{|Ax_0+By_0+Cz_0+D|}{\sqrt{A^2+B^2+C^2}}$.
-  - $(P)\perp(Q)\iff\vec n_P\cdot\vec n_Q=0$; $(P)\parallel(Q)$ when the normal vectors are parallel and the planes do not coincide.
-  :::
-
-  :::example True/false: the intercept form of a plane
-  In $Oxyz$, consider the points $A(1, 0, 0)$, $B(0, 2, 0)$, $C(0, 0, 3)$.
-
-  a) The plane $(ABC)$ has normal vector $\vec n=(6, 3, 2)$.
-
-  b) The origin $O$ lies in the plane $(ABC)$.
-
-  c) The distance from $O$ to the plane $(ABC)$ is $\dfrac67$.
-
-  d) The plane $(ABC)$ is perpendicular to the plane $(Oxy)$.
-
-  **Solution.** The three points lie on the three axes, so we use the intercept form and multiply through by the common denominator $6$:
-
-  $$\frac x1+\frac y2+\frac z3=1\iff 6x+3y+2z-6=0.$$
-
-  a) **True.** The coefficients of $x$, $y$, $z$ are $6$, $3$, $2$.
-
-  b) **False.** Substituting $O$: $0+0+0-6=-6\neq0$.
-
-  c) **True.** $d(O, (ABC))=\dfrac{|-6|}{\sqrt{36+9+4}}=\dfrac67$.
-
-  d) **False.** The plane $(Oxy)$ has normal vector $\vec k=(0, 0, 1)$ and $\vec n\cdot\vec k=2\neq0$.
-
-  So the answers are a) True, b) False, c) True, d) False.
-  :::
-
-## Equations of lines and angle formulas
-
-  :::theorem Lines and angles
-  - The line through $M(x_0, y_0, z_0)$ with direction vector $\vec u=(a, b, c)$: parametric equations $x=x_0+at$, $y=y_0+bt$, $z=z_0+ct$; if $abc\neq0$, Cartesian equations $\dfrac{x-x_0}{a}=\dfrac{y-y_0}{b}=\dfrac{z-z_0}{c}$.
-  - The angle between two lines: $\cos\varphi=\dfrac{|\vec u\cdot\vec u'|}{|\vec u|\cdot|\vec u'|}$.
-  - The angle between a line and a plane: $\sin\varphi=\dfrac{|\vec u\cdot\vec n|}{|\vec u|\cdot|\vec n|}$.
-  - The angle between two planes: $\cos\varphi=\dfrac{|\vec n\cdot\vec n'|}{|\vec n|\cdot|\vec n'|}$.
-  :::
-
-[[P3·4caa]]
-A line perpendicular to a plane takes the plane's normal vector as its direction vector. This idea is behind many multiple-choice questions.
-
-  :::example Multiple choice: a line perpendicular to a plane
-  The line through $A(1, 2, -1)$ perpendicular to the plane $(P)\colon 2x-y+3z-5=0$ has parametric equations
-
-  **A.** $x=1+2t$, $y=2-t$, $z=-1+3t$.
-
-  **B.** $x=2+t$, $y=-1+2t$, $z=3-t$.
-
-  **C.** $x=1+2t$, $y=2+t$, $z=-1+3t$.
-
-  **D.** $x=1+2t$, $y=2-t$, $z=1+3t$.
-
-  **Solution.** The line is perpendicular to $(P)$, so its direction vector is $\vec u=\vec n_P=(2, -1, 3)$; it passes through $A(1, 2, -1)$:
-
-  $$x=1+2t,\qquad y=2-t,\qquad z=-1+3t.$$
-
-  The answer is **A**. Option B swaps the point and the vector, option C has the wrong sign for the coefficient of $y$, and option D has the wrong sign for the $z$-coordinate of $A$.
-  :::
-
-  :::example Short answer: the angle between a line and a plane
-  Find the angle between the line $d\colon\dfrac{x-1}{1}=\dfrac{y}{2}=\dfrac{z+1}{2}$ and the plane $(P)\colon 2x-y+2z+3=0$ (in degrees, to the nearest whole number).
-
-  **Solution.** The angle between a line and a plane uses **sine**, with $\vec u=(1, 2, 2)$ and $\vec n=(2, -1, 2)$:
-
-  $$\sin\varphi=\frac{|2-2+4|}{\sqrt{1+4+4}\cdot\sqrt{4+1+4}}=\frac49\ \Rightarrow\ \varphi\approx26.39^\circ.$$
-
-  So the angle is about $26^\circ$ (write $26$).
-  :::
-
-:::warning Common traps
-[[P4·57bc]]
-- **Using $\cos$ instead of $\sin$** for the angle between a line and a plane. In the example above, $\cos$ would give about $64^\circ$, the complement of the correct answer.
-- **Forgetting the absolute value** for the angle between two lines or two planes: this angle is never more than $90^\circ$.
-- **Misreading coordinates from the Cartesian equations.** From $\dfrac{z+1}{2}$ we get $z_0=-1$, not $1$.
+:::warning Common mistakes
+[[P13·8116]]
+- **Forgetting to check $\Delta$.** Wrong: for $x^2-2x+5=0$, writing $S=2$, $P=5$, so $x_1^2+x_2^2=4-10=-6$. Why it is wrong: $\Delta'=1-5<0$, so the equation has no solutions (and a sum of two squares cannot be negative anyway). Right: check that $\Delta\geq0$ first.
+- **Wrong sign of the sum.** Wrong: $2x^2-9x+4=0$ has $x_1+x_2=-\dfrac92$. Right: $x_1+x_2=-\dfrac ba=\dfrac92$.
+- **Mixing up the two mental rules.** When $a-b+c=0$, the second root is $-\dfrac ca$, not $\dfrac ca$.
 :::
 
-## Spheres and real-life coordinate models
-
-  :::theorem Spheres
-  - The sphere with centre $I(a, b, c)$ and radius $R$: $(x-a)^2+(y-b)^2+(z-c)^2=R^2$.
-  - The equation $x^2+y^2+z^2-2ax-2by-2cz+d=0$ is a sphere when $a^2+b^2+c^2-d>0$; its centre is $I(a, b, c)$ and $R=\sqrt{a^2+b^2+c^2-d}$.
-  - With $h=d(I, (P))$: if $h>R$ the plane $(P)$ misses the sphere; if $h=R$ it is tangent; if $h<R$ it cuts the sphere in a circle of radius $r=\sqrt{R^2-h^2}$.
-  :::
-
-[[P5·5b29]]
-In a real-life problem we put the origin in a convenient place (a corner of a room, the foot of a tower, a radar station), choose a unit (m or km), and then translate the question into one about points, lines, planes or spheres.
-
-  :::example Short answer: an aircraft crossing radar coverage
-  Choose axes $Oxyz$ (unit: km) with a radar station at the origin $O$. The radar detects every object within $5$ km of it. An aircraft flies in a straight line with position $M(1+2t, 2-t, 2)$. Find the length of the part of the flight path inside the radar's range (in km).
-
-  **Solution.** *Understand.* The detection zone is the solid sphere with centre $O$ and radius $5$; the required distance is the chord of the flight path inside the sphere.
-
-  *Plan.* Solve the condition $OM\le5$ for $t$, or use the distance from $O$ to the flight path.
-
-  *Solve.* Squaring the condition $OM\le5$:
-
-  $$(1+2t)^2+(2-t)^2+4\le25\iff 5t^2+9\le25\iff t^2\le\frac{16}{5}.$$
-
-  So $t$ runs from $-\dfrac{4}{\sqrt5}$ to $\dfrac{4}{\sqrt5}$. The direction vector $\vec u=(2, -1, 0)$ has length $\sqrt5$, so the distance is
-
-  $$\sqrt5\cdot\frac{8}{\sqrt5}=8\ \text{(km)}.$$
-
-  *Look back.* The point closest to $O$ is at $t=0$, namely $H(1, 2, 2)$ with $OH=3$; by Pythagoras' theorem the chord is $2\sqrt{25-9}=8$ long, which agrees.
-  :::
+[[P14·a676]]
+**Connections.** Viète's theorem follows directly from the quadratic formula and gives a new point of view: instead of finding each root, we work with the pair $(S, P)$. This point of view is used a lot in [solving word problems by forming equations](lesson:g9-equation-word-problems) (rectangle problems), in factorising $ax^2+bx+c=a(x-x_1)(x-x_2)$, and it is a standard question type in the grade 10 entrance exam.
 
 ## Key terms
 
   :::terms
-  - Oxyz coordinate system | hệ trục toạ độ Oxyz
-  - scalar product | tích vô hướng
-  - vector product (cross product) | tích có hướng
-  - normal vector | vectơ pháp tuyến
-  - direction vector | vectơ chỉ phương
-  - parametric equations | phương trình tham số
-  - Cartesian equations (of a line) | phương trình chính tắc
-  - sphere | mặt cầu
-  - tangent | tiếp xúc
-  - distance from a point to a plane | khoảng cách từ điểm đến mặt phẳng
+  - Viète's theorem | định lí Viète
+  - sum of the roots | tổng hai nghiệm
+  - product of the roots | tích hai nghiệm
+  - finding the roots mentally | tính nhẩm nghiệm
+  - symmetric expression | biểu thức đối xứng
+  - roots of opposite signs | hai nghiệm trái dấu
+  - two positive roots | hai nghiệm cùng dương
+  - two negative roots | hai nghiệm cùng âm
   :::
 
-## Exercises
+## Summary
 
-[[P6·96a7]]
-The exercises go from easy to hard, and each one states its exam format.
+[[P15·b8b5]]
+- If $\Delta\geq0$: $x_1+x_2=-\dfrac ba$, $x_1x_2=\dfrac ca$.
+- $a+b+c=0$: roots $1$ and $\dfrac ca$; $a-b+c=0$: roots $-1$ and $-\dfrac ca$.
+- Two numbers with sum $S$ and product $P$ are the roots of $x^2-Sx+P=0$ (need $S^2-4P\geq0$).
+- $x_1^2+x_2^2=S^2-2P$; $\dfrac1{x_1}+\dfrac1{x_2}=\dfrac SP$.
+- $P<0$: opposite signs; $P>0$, $S>0$: both positive; $P>0$, $S<0$: both negative (when $\Delta\geq0$).
 
-:::exercise Multiple choice
-   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+## Practice
+
+[[P16·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Multiple choice
+:::exercise
+   (… 33 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
    (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Multiple choice
-   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise True/false
-   (… 34 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 31 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Short answer
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
    (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Short answer
-   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Short answer
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Short answer
-   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Written answer
-   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Short answer (challenge)
-   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test

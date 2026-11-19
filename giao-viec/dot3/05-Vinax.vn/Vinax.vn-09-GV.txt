@@ -6,7 +6,7 @@ Kết quả: file Vinax.vn-09-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vinax.vn-09-GV
-Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g5/review-natural-number-operations
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g4/review-calculations-to-100000, g4/review-numbers-to-100000
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/Vinax.vn-09-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  /mnt/user-data/outputs/Vinax.vn-09-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file Vinax.vn-09-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,149 +135,168 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g5/review-natural-number-operations – BẢN TIẾNG VIỆT ########
+######## BÀI g4/review-calculations-to-100000 – BẢN TIẾNG VIỆT ########
 ---
-title: Ôn tập các phép tính với số tự nhiên
-description: Em ôn cộng, trừ, nhân, chia số tự nhiên, thứ tự thực hiện phép tính, cách tính nhanh bằng tính chất và bài toán có lời văn nhiều bước.
+title: Ôn tập các phép tính trong phạm vi 100 000
+description: Em ôn cách đặt tính và tính cộng, trừ, nhân với số có một chữ số, chia cho số có một chữ số trong phạm vi 100 000, và cách thử lại kết quả.
 minutes: 15
 ---
 
   :::goals
-  - Cộng, trừ, nhân, chia số tự nhiên nhiều chữ số và thử lại kết quả.
-  - Làm đúng thứ tự các phép tính, kể cả khi có dấu ngoặc.
-  - Dùng tính chất giao hoán, kết hợp, phân phối để tính nhanh.
-  - Giải bài toán nhiều bước và viết gọn thành một biểu thức.
+  - Cộng, trừ các số trong phạm vi $100\,000$ bằng cách đặt tính.
+  - Nhân và chia số có năm chữ số với (cho) số có một chữ số.
+  - Thử lại kết quả và giải bài toán có lời văn bằng các phép tính này.
   :::
 
-[[P1·0c21]]
-Lớp 5A quyên góp sách cũ cho thư viện. Tuần đầu lớp được $235$ quyển, tuần sau được $179$ quyển. Bạn thủ thư xếp đều tất cả số sách vào $9$ thùng. Hỏi mỗi thùng có bao nhiêu quyển sách?
+[[P1·0056]]
+Tháng Một, một cửa hàng bán được $23\,456$ quyển vở. Tháng Hai bán được $18\,749$ quyển. Cả hai tháng cửa hàng bán được bao nhiêu quyển vở?
 
-[[P2·cb10]]
-Bài này cần cả phép cộng lẫn phép chia. Em sẽ ôn bốn phép tính và học cách gộp các bước thành một biểu thức.
+[[P2·964c]]
+Em đã biết đặt tính từ lớp $3$. Bài này giúp em nhớ lại thật chắc cách làm cả bốn phép tính với số lớn.
 
 ## Cùng khám phá
 
-[[P3·4e3f]]
-Em giải từng bước:
+[[P3·eced]]
+Muốn biết "cả hai tháng", em làm phép cộng. Em đặt tính sao cho các chữ số cùng hàng thẳng cột, rồi cộng từ phải sang trái:
 
-[[P4·0bff]]
-- Số sách của cả hai tuần: $235+179=414$ (quyển).
-- Số sách mỗi thùng: $414:9=46$ (quyển).
+  $$\begin{array}{r} 23\,456\\ +\ 18\,749\\ \hline 42\,205 \end{array}$$
 
-[[P5·6659]]
-Khi gộp hai bước, em phải đặt **dấu ngoặc** để phép cộng được làm trước:
-  $$(235+179):9=414:9=46.$$
+[[P4·f8b5]]
+Từng hàng, từ phải sang trái:
 
-[[P6·2487]]
-Nếu bỏ ngoặc, biểu thức $235+179:9$ sẽ tính $179:9$ trước, và kết quả sai. Em thấy không, thứ tự các phép tính quyết định kết quả.
+[[P5·2462]]
+- Hàng đơn vị: $6+9=15$, viết $5$ nhớ $1$.
+- Hàng chục: $5+4+1=10$, viết $0$ nhớ $1$.
+- Hàng trăm: $4+7+1=12$, viết $2$ nhớ $1$.
+- Hàng nghìn: $3+8+1=12$, viết $2$ nhớ $1$.
+- Hàng chục nghìn: $2+1+1=4$, viết $4$.
 
-  :::theorem Thứ tự thực hiện phép tính
-  1. Chỉ có cộng và trừ (hoặc chỉ có nhân và chia): làm từ trái sang phải.
-  2. Có cả bốn phép tính, không có ngoặc: **nhân, chia trước; cộng, trừ sau**.
-  3. Có ngoặc: làm **trong ngoặc trước**.
+[[P6·dc92]]
+Vậy cả hai tháng bán được $42\,205$ quyển vở.
+
+  :::theorem Bốn phép tính và cách thử lại
+  - **Cộng, trừ:** đặt tính thẳng hàng, làm từ **phải sang trái**, nhớ khi cần. Thử lại phép cộng bằng phép trừ, thử lại phép trừ bằng phép cộng.
+  - **Nhân với số có một chữ số:** nhân lần lượt từng chữ số từ phải sang trái, nhớ khi cần.
+  - **Chia cho số có một chữ số:** chia từ **trái sang phải**, mỗi lần hạ một chữ số xuống. Thử lại bằng phép nhân.
   :::
 
-[[P7·5a3c]]
-Hình dưới cho thấy tính chất phân phối với $6\times(40+3)$.
-
-:::diagram Tính chất phân phối: 6 × (40 + 3)
-   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-[[P8·2d21]]
-Cả hình có diện tích $6\times(40+3)=6\times43=258$, cũng bằng $6\times40+6\times3=240+18=258$.
-
-  :::theorem Ba tính chất của phép tính
-  - Giao hoán: $a+b=b+a$ và $a\times b=b\times a$.
-  - Kết hợp: $(a+b)+c=a+(b+c)$ và $(a\times b)\times c=a\times(b\times c)$.
-  - Phân phối: $a\times(b+c)=a\times b+a\times c$.
-  :::
+[[P7·eeb7]]
+Các cách thử lại đúng vì phép cộng và phép trừ là hai phép ngược nhau, phép nhân và phép chia cũng vậy.
 
 ## Ví dụ
 
-[[P9·d270]]
-Ta bắt đầu với phép cộng và phép trừ.
+[[P8·b3dd]]
+Ta bắt đầu bằng một phép cộng có nhớ nhiều lần.
 
-  :::example Cộng và trừ nhiều chữ số
-  Tính a) $4\,586+3\,729$; b) $7\,002-3\,458$.
+  :::example Phép cộng
+  Tính $35\,628+24\,975$.
 
-  **Lời giải.** Em đặt tính thẳng hàng, làm từ hàng đơn vị; cộng thì nhớ, trừ thì mượn:
-  $$\begin{array}{r}4\,586\\+\ 3\,729\\\hline 8\,315\end{array}\qquad\qquad\begin{array}{r}7\,002\\-\ 3\,458\\\hline 3\,544\end{array}$$
-  Ở câu b, hàng chục và hàng trăm đều là $0$ nên em mượn từ hàng nghìn.
+  **Lời giải.** Đặt tính thẳng hàng rồi cộng từ phải sang trái:
 
-  Vậy $4\,586+3\,729=8\,315$ và $7\,002-3\,458=3\,544$.
+  $$\begin{array}{r} 35\,628\\ +\ 24\,975\\ \hline 60\,603 \end{array}$$
 
-  **Thử lại.** $3\,544+3\,458=7\,002$. Đúng.
+  Các bước: $8+5=13$ (viết $3$ nhớ $1$); $2+7+1=10$ (viết $0$ nhớ $1$); $6+9+1=16$ (viết $6$ nhớ $1$); $5+4+1=10$ (viết $0$ nhớ $1$); $3+2+1=6$.
+
+  Vậy $35\,628+24\,975=60\,603$.
   :::
 
-[[P10·ee5b]]
-Tiếp theo là phép nhân và phép chia.
+[[P9·8ed0]]
+Phép trừ có khó hơn khi số bị trừ có nhiều chữ số $0$.
 
-  :::example Nhân và chia
-  Tính a) $537\times48$; b) $2\,184:7$.
+  :::example Phép trừ
+  Tính $70\,000-25\,438$.
 
-  **Lời giải.** Câu a: em nhân $537$ với $8$ rồi với $40$, sau đó cộng hai tích riêng:
-  $$537\times48=537\times8+537\times40=4\,296+21\,480=25\,776.$$
-  Câu b: em chia từ trái sang phải: $21:7=3$; hạ $8$, $8:7=1$ dư $1$; hạ $4$ được $14$, $14:7=2$. Vậy $2\,184:7=312$.
+  **Lời giải.** Hàng đơn vị: $0$ không trừ được $8$. Hàng gần nhất có chữ số khác $0$ là hàng chục nghìn, nên ta mượn từ đó, và các hàng ở giữa trở thành $9$:
 
-  **Thử lại.** $312\times7=2\,184$. Đúng.
+  $$\begin{array}{r} 70\,000\\ -\ 25\,438\\ \hline 44\,562 \end{array}$$
+
+  Các bước: $10-8=2$; $9-3=6$; $9-4=5$; $9-5=4$; $6-2=4$.
+
+  **Thử lại.** $44\,562+25\,438=70\,000$. Đúng.
+
+  Vậy $70\,000-25\,438=44\,562$.
   :::
 
-[[P11·52e6]]
-Với biểu thức nhiều phép tính, em phải chú ý thứ tự.
+[[P10·a9fd]]
+Bây giờ đến phép nhân.
 
-  :::example Tính giá trị biểu thức
-  Tính a) $84-12\times5+36:4$; b) $120:(18-6)\times4$.
+  :::example Phép nhân
+  Tính $12\,405\times6$.
 
-  **Lời giải.** Câu a không có ngoặc, nên nhân và chia làm trước:
-  $$\begin{aligned}84-12\times5+36:4&=84-60+9\\&=24+9\\&=33.\end{aligned}$$
-  Câu b làm trong ngoặc trước, rồi chia và nhân từ trái sang phải:
-  $$\begin{aligned}120:(18-6)\times4&=120:12\times4\\&=10\times4\\&=40.\end{aligned}$$
-  Vậy hai biểu thức có giá trị $33$ và $40$.
+  **Lời giải.** Nhân từng chữ số với $6$, từ phải sang trái:
+
+  $$\begin{array}{r} 12\,405\\ \times\ 6\\ \hline 74\,430 \end{array}$$
+
+  Các bước: $5\times6=30$ (viết $0$ nhớ $3$); $0\times6+3=3$ (viết $3$); $4\times6=24$ (viết $4$ nhớ $2$); $2\times6+2=14$ (viết $4$ nhớ $1$); $1\times6+1=7$.
+
+  Vậy $12\,405\times6=74\,430$.
   :::
 
-[[P12·a19f]]
-Khi các số "đẹp", em dùng tính chất để tính nhanh.
+[[P11·eb5c]]
+Phép chia làm từ trái sang phải.
 
-  :::example Tính nhanh
-  Tính a) $25\times37\times4$; b) $6\times43+6\times57$.
+  :::example Phép chia
+  Tính $48\,372:6$.
 
-  **Lời giải.** Câu a: đổi chỗ $37$ và $4$, rồi nhóm $25\times4=100$:
-  $$25\times37\times4=(25\times4)\times37=100\times37=3\,700.$$
-  Câu b: hai tích có chung thừa số $6$, nên em đặt $6$ ra ngoài:
-  $$6\times43+6\times57=6\times(43+57)=6\times100=600.$$
-  Vậy kết quả là $3\,700$ và $600$.
+  **Lời giải.** Ta chia từng bước, mỗi bước hạ một chữ số:
+
+  - $48:6=8$, dư $0$. Viết $8$.
+  - Hạ $3$: $3:6=0$, dư $3$. Viết $0$.
+  - Hạ $7$: $37:6=6$, dư $1$. Viết $6$.
+  - Hạ $2$: $12:6=2$, dư $0$. Viết $2$.
+
+  Thương là $8\,062$ và dư $0$.
+
+  **Thử lại.** $8\,062\times6=48\,372$. Đúng.
+
+  Vậy $48\,372:6=8\,062$.
+  :::
+
+[[P12·020d]]
+Cuối cùng, ta dùng các phép tính trong một bài toán có lời văn.
+
+  :::example Kho gạo
+  Kho có $36\,000$ kg gạo. Mỗi ngày kho bán $4\,250$ kg, bán trong $5$ ngày. Hỏi kho còn lại bao nhiêu ki-lô-gam gạo?
+
+  **Lời giải.** Ta làm hai bước. Trước hết tìm số gạo bán trong $5$ ngày:
+  $$4\,250\times5=21\,250\ \text{(kg)}.$$
+
+  Số gạo còn lại là số gạo ban đầu trừ số gạo đã bán:
+  $$36\,000-21\,250=14\,750\ \text{(kg)}.$$
+
+  Vậy kho còn lại $14\,750$ kg gạo.
   :::
 
 :::warning Những lỗi em hay gặp
-[[P13·2642]]
-- **Làm từ trái sang phải khi có nhân.** Sai: $18+6\times4=24\times4=96$. Vì sao sai: phải nhân trước khi cộng. Đúng: $18+6\times4=18+24=42$.
-- **Quên mượn khi có chữ số $0$.** Sai: $7\,002-3\,458=4\,456$. Vì sao sai: em lấy số lớn trừ số bé ở từng hàng. Đúng: $7\,002-3\,458=3\,544$.
-- **Quên chữ số $0$ ở thương.** Sai: $1\,260:6=21$. Vì sao sai: $6\times21=126$, không bằng $1\,260$. Đúng: $1\,260:6=210$.
+[[P13·a100]]
+- **Đặt tính không thẳng hàng.** Sai: viết $9\,365$ lệch cột so với $25\,480$. Vì sao sai: cộng nhầm các hàng khác nhau. Đúng: viết đơn vị dưới đơn vị, chục dưới chục, …
+- **Quên chữ số $0$ trong thương.** Sai: $36\,054:6=609$. Vì sao sai: khi hạ $0$ và $5$ mà chưa chia được, phải viết $0$ vào thương. Đúng: $36\,054:6=6\,009$.
+- **Quên số nhớ.** Sai: $8+5=13$ rồi viết $13$ vào một hàng. Vì sao sai: mỗi hàng chỉ viết một chữ số. Đúng: viết $3$, nhớ $1$ sang hàng sau.
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - thừa số | factor
-  - số bị chia | dividend
-  - số chia | divisor
+  - phép cộng | addition
+  - phép trừ | subtraction
+  - phép nhân | multiplication
+  - phép chia | division
+  - đặt tính | write in columns
+  - nhớ | regrouping (carrying)
+  - tổng | sum
+  - hiệu | difference
+  - tích | product
   - thương | quotient
   - số dư | remainder
-  - biểu thức | expression
-  - thứ tự thực hiện phép tính | order of operations
-  - tính chất giao hoán | commutative law
-  - tính chất kết hợp | associative law
-  - tính chất phân phối | distributive law
   :::
 
 ## Tóm tắt
 
-[[P14·cccb]]
-- Đặt tính thẳng hàng, làm từ hàng đơn vị, rồi thử lại bằng phép tính ngược.
-- Không có ngoặc: nhân, chia trước; cộng, trừ sau. Có ngoặc: làm trong ngoặc trước.
-- Tính chất giao hoán, kết hợp, phân phối giúp tính nhanh, ví dụ $25\times37\times4=(25\times4)\times37$.
-- Bài toán nhiều bước: làm từng bước, ghi đơn vị. Phép chia còn dư mà ai cũng cần một chỗ thì phải thêm một nhóm.
+[[P14·7b84]]
+- Cộng, trừ: đặt tính thẳng hàng, làm từ phải sang trái, nhớ khi cần.
+- Nhân với số có một chữ số: nhân từng chữ số từ phải sang trái, nhớ khi cần.
+- Chia cho số có một chữ số: làm từ trái sang phải, mỗi bước hạ một chữ số; nhớ viết $0$ vào thương khi chưa chia được.
+- Thử lại: cộng và trừ ngược nhau; nhân và chia ngược nhau.
 
 ## Luyện tập
 
@@ -285,7 +304,7 @@ Khi các số "đẹp", em dùng tính chất để tính nhanh.
 Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -293,7 +312,7 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -301,7 +320,7 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 :::exercise
-   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -313,7 +332,7 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 :::exercise Thử thách
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -323,149 +342,168 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 
-######## BÀI g5/review-natural-number-operations – BẢN TIẾNG ANH ########
+######## BÀI g4/review-calculations-to-100000 – BẢN TIẾNG ANH ########
 ---
-title: Review: calculations with natural numbers
-description: Review adding, subtracting, multiplying and dividing natural numbers, the order of operations, quick-calculation laws and multi-step word problems.
+title: Review: calculations within 100,000
+description: Review how to add, subtract, multiply and divide by a one-digit number within 100,000 using written methods, and how to check your answers.
 minutes: 15
 ---
 
   :::goals
-  - Add, subtract, multiply and divide natural numbers with many digits, and check the answer.
-  - Follow the correct order of operations, including brackets.
-  - Use the commutative, associative and distributive laws to calculate quickly.
-  - Solve multi-step word problems and write them as one expression.
+  - Add and subtract numbers within $100\,000$ using written columns.
+  - Multiply and divide a five-digit number by a one-digit number.
+  - Check answers and solve word problems with these operations.
   :::
 
-[[P1·bf4c]]
-Class 5A collects old books for the school library. In the first week the class collects $235$ books, and in the second week $179$ books. The librarian shares all the books equally between $9$ boxes. How many books are in each box?
+[[P1·8792]]
+In January, a shop sold $23\,456$ exercise books. In February it sold $18\,749$. How many exercise books did the shop sell in the two months altogether?
 
-[[P2·6570]]
-This problem needs both addition and division. You will review the four operations and learn to join the steps into one expression.
+[[P2·3603]]
+You have used written columns since Grade 3. This lesson helps you remember all four operations with big numbers.
 
 ## Let's explore
 
-[[P3·d913]]
-Solve it one step at a time:
+[[P3·a134]]
+"Altogether" means we add. Write the numbers in columns so that digits of the same place line up, then add from right to left:
 
-[[P4·a591]]
-- Books in the two weeks: $235+179=414$.
-- Books in each box: $414\div9=46$.
+  $$\begin{array}{r} 23\,456\\ +\ 18\,749\\ \hline 42\,205 \end{array}$$
 
-[[P5·b112]]
-When you join the two steps, you must put in **brackets** so that the addition is done first:
-  $$(235+179)\div9=414\div9=46.$$
+[[P4·a7ee]]
+Place by place, from right to left:
 
-[[P6·ffb7]]
-Without brackets, $235+179\div9$ would work out $179\div9$ first, and the answer would be wrong. You see: the order of the operations decides the answer.
+[[P5·e2be]]
+- Ones: $6+9=15$, write $5$, regroup $1$.
+- Tens: $5+4+1=10$, write $0$, regroup $1$.
+- Hundreds: $4+7+1=12$, write $2$, regroup $1$.
+- Thousands: $3+8+1=12$, write $2$, regroup $1$.
+- Ten thousands: $2+1+1=4$, write $4$.
 
-  :::theorem The order of operations
-  1. Only addition and subtraction (or only multiplication and division): work from left to right.
-  2. All four operations and no brackets: **multiply and divide first; add and subtract after**.
-  3. Brackets: work out **the brackets first**.
+[[P6·394c]]
+So the shop sold $42\,205$ exercise books in the two months.
+
+  :::theorem Four operations and how to check them
+  - **Addition and subtraction:** write in columns, work from **right to left**, regroup when needed. Check an addition by subtracting, and check a subtraction by adding.
+  - **Multiplying by a one-digit number:** multiply each digit from right to left, regrouping when needed.
+  - **Dividing by a one-digit number:** work from **left to right**, bringing down one digit each time. Check by multiplying.
   :::
 
-[[P7·1909]]
-The picture below shows the distributive law for $6\times(40+3)$.
-
-:::diagram The distributive law: 6 × (40 + 3)
-   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-[[P8·2281]]
-The whole rectangle has area $6\times(40+3)=6\times43=258$, which is also $6\times40+6\times3=240+18=258$.
-
-  :::theorem Three laws of arithmetic
-  - Commutative: $a+b=b+a$ and $a\times b=b\times a$.
-  - Associative: $(a+b)+c=a+(b+c)$ and $(a\times b)\times c=a\times(b\times c)$.
-  - Distributive: $a\times(b+c)=a\times b+a\times c$.
-  :::
+[[P7·21ac]]
+These checks work because addition and subtraction undo each other, and so do multiplication and division.
 
 ## Examples
 
-[[P9·35d6]]
-We start with adding and subtracting.
+[[P8·f242]]
+We start with an addition that regroups many times.
 
-  :::example Adding and subtracting large numbers
-  Work out a) $4\,586+3\,729$; b) $7\,002-3\,458$.
+  :::example Addition
+  Work out $35\,628+24\,975$.
 
-  **Solution.** Set out the sum in columns and work from the ones; carry when adding, exchange when subtracting:
-  $$\begin{array}{r}4\,586\\+\ 3\,729\\\hline 8\,315\end{array}\qquad\qquad\begin{array}{r}7\,002\\-\ 3\,458\\\hline 3\,544\end{array}$$
-  In part b, the tens and hundreds digits are both $0$, so you exchange from the thousands.
+  **Solution.** Write in columns and add from right to left:
 
-  So $4\,586+3\,729=8\,315$ and $7\,002-3\,458=3\,544$.
+  $$\begin{array}{r} 35\,628\\ +\ 24\,975\\ \hline 60\,603 \end{array}$$
 
-  **Check.** $3\,544+3\,458=7\,002$. Correct.
+  The steps: $8+5=13$ (write $3$, regroup $1$); $2+7+1=10$ (write $0$, regroup $1$); $6+9+1=16$ (write $6$, regroup $1$); $5+4+1=10$ (write $0$, regroup $1$); $3+2+1=6$.
+
+  So $35\,628+24\,975=60\,603$.
   :::
 
-[[P10·74d0]]
-Next come multiplication and division.
+[[P9·4f89]]
+Subtraction is harder when the top number has many zeros.
 
-  :::example Multiplying and dividing
-  Work out a) $537\times48$; b) $2\,184\div7$.
+  :::example Subtraction
+  Work out $70\,000-25\,438$.
 
-  **Solution.** Part a: multiply $537$ by $8$ and then by $40$, and add the two partial products:
-  $$537\times48=537\times8+537\times40=4\,296+21\,480=25\,776.$$
-  Part b: divide from the left: $21\div7=3$; bring down $8$, $8\div7=1$ remainder $1$; bring down $4$ to make $14$, $14\div7=2$. So $2\,184\div7=312$.
+  **Solution.** In the ones place, $0$ is too small to take away $8$. The nearest place with a non-zero digit is the ten thousands, so we regroup from there, and the places in between become $9$:
 
-  **Check.** $312\times7=2\,184$. Correct.
+  $$\begin{array}{r} 70\,000\\ -\ 25\,438\\ \hline 44\,562 \end{array}$$
+
+  The steps: $10-8=2$; $9-3=6$; $9-4=5$; $9-5=4$; $6-2=4$.
+
+  **Check.** $44\,562+25\,438=70\,000$. Correct.
+
+  So $70\,000-25\,438=44\,562$.
   :::
 
-[[P11·bb0f]]
-With many operations, you must watch the order.
+[[P10·b6bf]]
+Now multiplication.
 
-  :::example Working out an expression
-  Work out a) $84-12\times5+36\div4$; b) $120\div(18-6)\times4$.
+  :::example Multiplication
+  Work out $12\,405\times6$.
 
-  **Solution.** Part a has no brackets, so multiply and divide first:
-  $$\begin{aligned}84-12\times5+36\div4&=84-60+9\\&=24+9\\&=33.\end{aligned}$$
-  Part b: brackets first, then divide and multiply from left to right:
-  $$\begin{aligned}120\div(18-6)\times4&=120\div12\times4\\&=10\times4\\&=40.\end{aligned}$$
-  So the two expressions have values $33$ and $40$.
+  **Solution.** Multiply each digit by $6$, from right to left:
+
+  $$\begin{array}{r} 12\,405\\ \times\ 6\\ \hline 74\,430 \end{array}$$
+
+  The steps: $5\times6=30$ (write $0$, regroup $3$); $0\times6+3=3$ (write $3$); $4\times6=24$ (write $4$, regroup $2$); $2\times6+2=14$ (write $4$, regroup $1$); $1\times6+1=7$.
+
+  So $12\,405\times6=74\,430$.
   :::
 
-[[P12·3505]]
-When the numbers are "friendly", use the laws to calculate quickly.
+[[P11·1648]]
+Division works from left to right.
 
-  :::example Quick calculation
-  Work out a) $25\times37\times4$; b) $6\times43+6\times57$.
+  :::example Division
+  Work out $48\,372\div6$.
 
-  **Solution.** Part a: swap $37$ and $4$, then group $25\times4=100$:
-  $$25\times37\times4=(25\times4)\times37=100\times37=3\,700.$$
-  Part b: the two products share the factor $6$, so take $6$ out as a common factor:
-  $$6\times43+6\times57=6\times(43+57)=6\times100=600.$$
-  So the answers are $3\,700$ and $600$.
+  **Solution.** We divide step by step, bringing down one digit each time:
+
+  - $48\div6=8$, remainder $0$. Write $8$.
+  - Bring down $3$: $3\div6=0$, remainder $3$. Write $0$.
+  - Bring down $7$: $37\div6=6$, remainder $1$. Write $6$.
+  - Bring down $2$: $12\div6=2$, remainder $0$. Write $2$.
+
+  The quotient is $8\,062$ with remainder $0$.
+
+  **Check.** $8\,062\times6=48\,372$. Correct.
+
+  So $48\,372\div6=8\,062$.
+  :::
+
+[[P12·f0b3]]
+Finally, we use the operations in a word problem.
+
+  :::example The rice store
+  A store has $36\,000$ kg of rice. Each day it sells $4\,250$ kg, for $5$ days. How many kilograms of rice are left?
+
+  **Solution.** We work in two steps. First, find the rice sold in $5$ days:
+  $$4\,250\times5=21\,250\ \text{(kg)}.$$
+
+  The rice left is the starting amount minus the rice sold:
+  $$36\,000-21\,250=14\,750\ \text{(kg)}.$$
+
+  So $14\,750$ kg of rice are left.
   :::
 
 :::warning Mistakes to watch out for
-[[P13·98b1]]
-- **Going left to right when there is multiplication.** Wrong: $18+6\times4=24\times4=96$. Why it is wrong: multiply before you add. Right: $18+6\times4=18+24=42$.
-- **Forgetting to exchange when there is a $0$ digit.** Wrong: $7\,002-3\,458=4\,456$. Why it is wrong: you subtracted the smaller digit from the larger in each column. Right: $7\,002-3\,458=3\,544$.
-- **Forgetting a $0$ in the quotient.** Wrong: $1\,260\div6=21$. Why it is wrong: $6\times21=126$, not $1\,260$. Right: $1\,260\div6=210$.
+[[P13·c320]]
+- **Columns not lined up.** Wrong: writing $9\,365$ out of line with $25\,480$. Why it is wrong: you add digits from different places. Right: ones under ones, tens under tens, and so on.
+- **Forgetting a zero in the quotient.** Wrong: $36\,054\div6=609$. Why it is wrong: when you bring down $0$ and $5$ and cannot divide yet, you must write $0$ in the quotient. Right: $36\,054\div6=6\,009$.
+- **Forgetting to regroup.** Wrong: $8+5=13$ and writing $13$ in one place. Why it is wrong: each place holds only one digit. Right: write $3$ and regroup $1$ to the next place.
 :::
 
 ## Key terms
 
   :::terms
-  - factor | thừa số
-  - dividend | số bị chia
-  - divisor | số chia
+  - addition | phép cộng
+  - subtraction | phép trừ
+  - multiplication | phép nhân
+  - division | phép chia
+  - write in columns | đặt tính
+  - regrouping (carrying) | nhớ
+  - sum | tổng
+  - difference | hiệu
+  - product | tích
   - quotient | thương
   - remainder | số dư
-  - expression | biểu thức
-  - order of operations | thứ tự thực hiện phép tính
-  - commutative law | tính chất giao hoán
-  - associative law | tính chất kết hợp
-  - distributive law | tính chất phân phối
   :::
 
 ## Summary
 
-[[P14·cc89]]
-- Set out sums in columns, work from the ones, and check with the inverse operation.
-- Without brackets: multiply and divide first, then add and subtract. With brackets: brackets first.
-- The commutative, associative and distributive laws make calculating quicker, for example $25\times37\times4=(25\times4)\times37$.
-- In a multi-step problem, work one step at a time and give the unit. If a division leaves a remainder but everyone still needs a place, you need one more group.
+[[P14·a90d]]
+- Add and subtract: write in columns, work from right to left, regroup when needed.
+- Multiply by a one-digit number: multiply each digit from right to left, regrouping when needed.
+- Divide by a one-digit number: work from left to right, bringing down one digit each step; write $0$ in the quotient when you cannot divide yet.
+- Check: addition and subtraction undo each other; multiplication and division undo each other.
 
 ## Practice
 
@@ -473,7 +511,7 @@ When the numbers are "friendly", use the laws to calculate quickly.
 Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
 
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -481,11 +519,181 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 :::
 
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
    (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/review-numbers-to-100000 – BẢN TIẾNG VIỆT ########
+---
+title: Ôn tập các số đến 100 000
+description: Em ôn cách đọc, viết, phân tích, so sánh và sắp xếp các số trong phạm vi 100 000 theo hàng chục nghìn, nghìn, trăm, chục, đơn vị.
+minutes: 15
+---
+
+  :::goals
+  - Đọc, viết các số trong phạm vi $100\,000$ và nêu giá trị của từng chữ số.
+  - Viết một số thành tổng các hàng.
+  - So sánh và sắp xếp các số trong phạm vi $100\,000$.
+  :::
+
+[[P1·23f6]]
+Thư viện trường em có $36\,407$ quyển sách. Em đọc số này thế nào? Chữ số $6$ trong số này có giá trị bao nhiêu? Thư viện của trường bên cạnh có $36\,470$ quyển. Trường nào có nhiều sách hơn?
+
+[[P2·2892]]
+Em đã học các số này ở lớp $3$. Bài này giúp em nhớ lại thật chắc trước khi học các số lớn hơn.
+
+## Cùng khám phá
+
+[[P3·b067]]
+Mỗi chữ số trong một số có một **hàng**. Với số $36\,407$, em đọc từ trái sang phải:
+
+| Hàng | Chục nghìn | Nghìn | Trăm | Chục | Đơn vị |
+|---|---|---|---|---|---|
+| Chữ số | $3$ | $6$ | $4$ | $0$ | $7$ |
+| Giá trị | $30\,000$ | $6\,000$ | $400$ | $0$ | $7$ |
+
+[[P4·b388]]
+Cộng các giá trị lại, em được số ban đầu:
+  $$36\,407=30\,000+6\,000+400+0+7.$$
+
+[[P5·2bad]]
+Vậy chữ số $6$ ở hàng nghìn, có giá trị $6\,000$. Em đọc số này là: **ba mươi sáu nghìn bốn trăm linh bảy**. Chữ số $0$ ở hàng chục nên em đọc "linh".
+
+[[P6·4619]]
+Bây giờ so sánh $36\,407$ và $36\,470$. Hai số đều có $5$ chữ số. Các chữ số hàng chục nghìn, nghìn, trăm đều giống nhau ($3$, $6$, $4$). Đến hàng chục: $0$ và $7$. Vì $0<7$ nên $36\,407<36\,470$. Trường bên cạnh có nhiều sách hơn.
+
+  :::theorem Cách đọc, viết và so sánh số
+  - **Đọc và viết:** đọc từ hàng cao đến hàng thấp, đọc "nghìn" sau phần chục nghìn và nghìn. Hàng nào có chữ số $0$ ở giữa thì đọc "không trăm" hoặc "linh".
+  - **So sánh:** số nào có nhiều chữ số hơn thì lớn hơn. Hai số có cùng số chữ số thì so từng hàng, bắt đầu từ hàng cao nhất; hàng nào khác nhau đầu tiên thì chữ số lớn hơn cho số lớn hơn.
+  :::
+
+[[P7·b156]]
+Cách so sánh này đúng vì hàng cao có giá trị lớn hơn rất nhiều: $1$ chục nghìn là $10\,000$, lớn hơn mọi giá trị của bốn hàng còn lại cộng lại.
+
+## Ví dụ
+
+[[P8·b10f]]
+Ta bắt đầu bằng việc đọc và phân tích một số.
+
+  :::example Đọc số
+  Đọc số $52\,019$ và nêu chữ số ở mỗi hàng.
+
+  **Lời giải.** Ta xem từng hàng, từ trái sang phải:
+
+  | Hàng | Chục nghìn | Nghìn | Trăm | Chục | Đơn vị |
+  |---|---|---|---|---|---|
+  | Chữ số | $5$ | $2$ | $0$ | $1$ | $9$ |
+
+  Hàng trăm là $0$ nên em đọc "không trăm". Vậy $52\,019$ đọc là: **năm mươi hai nghìn không trăm mười chín**.
+  :::
+
+[[P9·f4e0]]
+Từ cách phân tích hàng, em viết số thành tổng.
+
+  :::example Viết thành tổng
+  Viết số $84\,350$ thành tổng các hàng.
+
+  **Lời giải.** Mỗi chữ số có giá trị theo hàng của nó. Hàng đơn vị là $0$ nên không cần viết:
+  $$84\,350=80\,000+4\,000+300+50.$$
+
+  Vậy $84\,350=80\,000+4\,000+300+50$.
+  :::
+
+[[P10·bcb0]]
+Tiếp theo là so sánh hai số.
+
+  :::example So sánh số
+  So sánh: a) $45\,678$ và $45\,687$; b) $9\,999$ và $10\,000$.
+
+  **Lời giải.** a) Hai số đều có $5$ chữ số. So từng hàng từ trái sang phải: $4=4$, $5=5$, $6=6$. Đến hàng chục: $7<8$. Vậy $45\,678<45\,687$.
+
+  b) $9\,999$ có $4$ chữ số, $10\,000$ có $5$ chữ số. Số có nhiều chữ số hơn thì lớn hơn. Vậy $9\,999<10\,000$.
+  :::
+
+[[P11·7310]]
+Có nhiều số thì ta so sánh lần lượt rồi sắp xếp.
+
+  :::example Sắp xếp số
+  Sắp xếp các số $23\,540$; $32\,450$; $23\,450$; $9\,999$ theo thứ tự từ bé đến lớn.
+
+  **Lời giải.** Số $9\,999$ có $4$ chữ số nên bé nhất. Ba số còn lại đều có $5$ chữ số. Hàng chục nghìn: $2$, $3$, $2$ nên $32\,450$ lớn nhất. Còn $23\,540$ và $23\,450$ có cùng hàng chục nghìn và hàng nghìn; hàng trăm: $5>4$ nên $23\,540>23\,450$.
+
+  Vậy thứ tự từ bé đến lớn là: $9\,999$; $23\,450$; $23\,540$; $32\,450$.
+  :::
+
+[[P12·7e20]]
+Cuối cùng là số liền trước và số liền sau.
+
+  :::example Số liền trước, liền sau
+  Tìm số liền sau của $69\,999$ và số liền trước của $40\,000$.
+
+  **Lời giải.** Số liền sau hơn số đó $1$ đơn vị, số liền trước kém $1$ đơn vị:
+  $$69\,999+1=70\,000,\qquad 40\,000-1=39\,999.$$
+
+  Vậy số liền sau của $69\,999$ là $70\,000$, số liền trước của $40\,000$ là $39\,999$.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P13·c3eb]]
+- **Bỏ sót "linh" hoặc "không trăm".** Sai: đọc $30\,502$ là "ba mươi nghìn năm trăm hai mươi". Vì sao sai: đó là số $30\,520$. Đúng: "ba mươi nghìn năm trăm linh hai".
+- **So sánh khi số chữ số khác nhau.** Sai: $9\,999>10\,000$ vì $9>1$. Vì sao sai: $10\,000$ có nhiều chữ số hơn. Đúng: $9\,999<10\,000$.
+- **Nhầm giá trị với chữ số.** Sai: chữ số $6$ trong $46\,280$ có giá trị $6$. Vì sao sai: $6$ ở hàng nghìn. Đúng: giá trị là $6\,000$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - hàng | place (place value position)
+  - chục nghìn | ten thousands
+  - nghìn | thousands
+  - trăm | hundreds
+  - chục | tens
+  - đơn vị | ones
+  - số liền trước | the number before
+  - số liền sau | the number after
+  :::
+
+## Tóm tắt
+
+[[P14·a427]]
+- Số có $5$ chữ số gồm các hàng: chục nghìn, nghìn, trăm, chục, đơn vị.
+- Mỗi chữ số có giá trị theo hàng của nó: $36\,407=30\,000+6\,000+400+7$.
+- Đọc từ hàng cao đến hàng thấp; chữ số $0$ ở giữa thì đọc "linh" hoặc "không trăm".
+- So sánh: nhiều chữ số hơn thì lớn hơn; cùng số chữ số thì so từng hàng từ hàng cao nhất.
+
+## Luyện tập
+
+[[P15·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -500,8 +708,202 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
    (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/review-numbers-to-100000 – BẢN TIẾNG ANH ########
+---
+title: Review: numbers to 100,000
+description: Review how to read, write, partition, compare and order numbers up to 100,000 using ten thousands, thousands, hundreds, tens and ones.
+minutes: 15
+---
+
+  :::goals
+  - Read and write numbers up to $100\,000$ and give the value of each digit.
+  - Write a number as a sum of its places.
+  - Compare and order numbers up to $100\,000$.
+  :::
+
+[[P1·fdd1]]
+Our school library has $36\,407$ books. How do you read this number? What is the value of the digit $6$? The library of the next school has $36\,470$ books. Which school has more books?
+
+[[P2·8e23]]
+You learned these numbers in Grade 3. This lesson helps you remember them well before we meet bigger numbers.
+
+## Let's explore
+
+[[P3·4686]]
+Each digit in a number has a **place**. For the number $36\,407$, read from left to right:
+
+| Place | Ten thousands | Thousands | Hundreds | Tens | Ones |
+|---|---|---|---|---|---|
+| Digit | $3$ | $6$ | $4$ | $0$ | $7$ |
+| Value | $30\,000$ | $6\,000$ | $400$ | $0$ | $7$ |
+
+[[P4·2d76]]
+Add the values and you get the number back:
+  $$36\,407=30\,000+6\,000+400+0+7.$$
+
+[[P5·9ef9]]
+So the digit $6$ is in the thousands place and has value $6\,000$. We read the number as: **thirty-six thousand, four hundred and seven**. The tens digit is $0$, so we say "and seven" with no tens.
+
+[[P6·55ac]]
+Now compare $36\,407$ and $36\,470$. Both have $5$ digits. The ten thousands, thousands and hundreds digits are the same ($3$, $6$, $4$). In the tens place we have $0$ and $7$. Since $0<7$, we get $36\,407<36\,470$. The next school has more books.
+
+  :::theorem Reading, writing and comparing numbers
+  - **Reading and writing:** read from the highest place to the lowest. Say "thousand" after the ten thousands and thousands part. If a place in the middle is $0$, skip it when reading, but write $0$ when writing.
+  - **Comparing:** the number with more digits is greater. If two numbers have the same number of digits, compare place by place from the highest place; the first place where they differ decides, and the bigger digit gives the bigger number.
+  :::
+
+[[P7·bb71]]
+This works because higher places are worth much more: $1$ ten thousand is $10\,000$, which is more than all the other four places can make together.
+
+## Examples
+
+[[P8·6f96]]
+We start by reading and partitioning a number.
+
+  :::example Reading a number
+  Read the number $52\,019$ and give the digit in each place.
+
+  **Solution.** We look at each place, from left to right:
+
+  | Place | Ten thousands | Thousands | Hundreds | Tens | Ones |
+  |---|---|---|---|---|---|
+  | Digit | $5$ | $2$ | $0$ | $1$ | $9$ |
+
+  The hundreds digit is $0$, so we skip hundreds. So $52\,019$ is read: **fifty-two thousand and nineteen**.
+  :::
+
+[[P9·bf77]]
+From the places, we can write a number as a sum.
+
+  :::example Writing as a sum
+  Write $84\,350$ as a sum of its places.
+
+  **Solution.** Each digit has a value given by its place. The ones digit is $0$, so we do not write it:
+  $$84\,350=80\,000+4\,000+300+50.$$
+
+  So $84\,350=80\,000+4\,000+300+50$.
+  :::
+
+[[P10·700d]]
+Next we compare two numbers.
+
+  :::example Comparing numbers
+  Compare: a) $45\,678$ and $45\,687$; b) $9\,999$ and $10\,000$.
+
+  **Solution.** a) Both numbers have $5$ digits. Compare place by place from the left: $4=4$, $5=5$, $6=6$. In the tens place: $7<8$. So $45\,678<45\,687$.
+
+  b) $9\,999$ has $4$ digits and $10\,000$ has $5$ digits. The number with more digits is greater. So $9\,999<10\,000$.
+  :::
+
+[[P11·5b39]]
+With several numbers, we compare them one by one and then put them in order.
+
+  :::example Ordering numbers
+  Put the numbers $23\,540$; $32\,450$; $23\,450$; $9\,999$ in order from least to greatest.
+
+  **Solution.** $9\,999$ has $4$ digits, so it is the least. The other three have $5$ digits. Their ten thousands digits are $2$, $3$, $2$, so $32\,450$ is the greatest. The numbers $23\,540$ and $23\,450$ have the same ten thousands and thousands digits; in the hundreds place $5>4$, so $23\,540>23\,450$.
+
+  So the order from least to greatest is: $9\,999$; $23\,450$; $23\,540$; $32\,450$.
+  :::
+
+[[P12·0fd1]]
+Finally, the number before and the number after.
+
+  :::example The number before and after
+  Find the number after $69\,999$ and the number before $40\,000$.
+
+  **Solution.** The number after is $1$ more, and the number before is $1$ less:
+  $$69\,999+1=70\,000,\qquad 40\,000-1=39\,999.$$
+
+  So the number after $69\,999$ is $70\,000$, and the number before $40\,000$ is $39\,999$.
+  :::
+
+:::warning Mistakes to watch out for
+[[P13·54f8]]
+- **Dropping a zero when reading.** Wrong: reading $30\,502$ as "thirty thousand, five hundred and twenty". Why it is wrong: that is $30\,520$. Right: "thirty thousand, five hundred and two".
+- **Comparing when the numbers of digits differ.** Wrong: $9\,999>10\,000$ because $9>1$. Why it is wrong: $10\,000$ has more digits. Right: $9\,999<10\,000$.
+- **Mixing up a digit and its value.** Wrong: the digit $6$ in $46\,280$ has value $6$. Why it is wrong: the $6$ is in the thousands place. Right: its value is $6\,000$.
+:::
+
+## Key terms
+
+  :::terms
+  - place (place value position) | hàng
+  - ten thousands | chục nghìn
+  - thousands | nghìn
+  - hundreds | trăm
+  - tens | chục
+  - ones | đơn vị
+  - the number before | số liền trước
+  - the number after | số liền sau
+  :::
+
+## Summary
+
+[[P14·759c]]
+- A $5$-digit number has these places: ten thousands, thousands, hundreds, tens, ones.
+- Each digit has a value given by its place: $36\,407=30\,000+6\,000+400+7$.
+- Read from the highest place to the lowest; a middle $0$ is written but not read.
+- Comparing: more digits means greater; with the same number of digits, compare place by place from the highest place.
+
+## Practice
+
+[[P15·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
 :::exercise Challenge
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test

@@ -1,0 +1,603 @@
+######################################################################
+TÀI KHOẢN: Lemonmath.com   |   FILE: Lemonmath.com-09-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath.com-09-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath.com-09-LG
+Người làm: tài khoản Lemonmath.com. Gói này có 16 bài tập thuộc 2 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Lemonmath.com-09-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/2). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath.com-09-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g3/two-step-problems (8 bài tập)
+- g3/unit-fractions (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g3/two-step-problems
+Bài học: Bài toán giải bằng hai bước tính / Two-step word problems
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một thùng có $36$ lít dầu. Người ta đổ thêm $25$ lít, rồi dùng đi $40$ lít. Hỏi trong thùng còn lại bao nhiêu lít dầu?
+
+[LỜI GIẢI CŨ – VI]
+Số lít dầu sau khi đổ thêm là:
+$$36+25=61\ \text{(lít)}.$$
+Số lít dầu còn lại là:
+$$61-40=21\ \text{(lít)}.$$
+**Đáp số.** $21$ lít dầu.
+
+[ĐỀ – EN]
+A tank holds $36$ litres of oil. Another $25$ litres are poured in, then $40$ litres are used. How many litres of oil are left in the tank?
+
+[LỜI GIẢI CŨ – EN]
+The number of litres after pouring in more is:
+$$36+25=61\ \text{(litres)}.$$
+The number of litres left is:
+$$61-40=21\ \text{(litres)}.$$
+**Answer.** $21$ litres of oil.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cô giáo mua $4$ hộp bút, mỗi hộp $6$ chiếc, và mua thêm $5$ chiếc bút lẻ. Hỏi cô mua tất cả bao nhiêu chiếc bút?
+
+[LỜI GIẢI CŨ – VI]
+Số chiếc bút trong $4$ hộp là:
+$$6\times 4=24\ \text{(chiếc)}.$$
+Số chiếc bút cô mua tất cả là:
+$$24+5=29\ \text{(chiếc)}.$$
+**Đáp số.** $29$ chiếc bút.
+
+[ĐỀ – EN]
+A teacher buys $4$ boxes of pens with $6$ pens in each box, and $5$ more loose pens. How many pens does she buy altogether?
+
+[LỜI GIẢI CŨ – EN]
+The number of pens in $4$ boxes is:
+$$6\times 4=24\ \text{(pens)}.$$
+The number of pens she buys altogether is:
+$$24+5=29\ \text{(pens)}.$$
+**Answer.** $29$ pens.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Có $36$ quả cam chia đều vào $4$ đĩa, rồi mỗi đĩa được thêm $2$ quả. Hỏi lúc này mỗi đĩa có bao nhiêu quả cam?
+
+[LỜI GIẢI CŨ – VI]
+Số quả cam mỗi đĩa lúc đầu là:
+$$36:4=9\ \text{(quả)}.$$
+Số quả cam mỗi đĩa lúc này là:
+$$9+2=11\ \text{(quả)}.$$
+**Đáp số.** $11$ quả cam.
+
+[ĐỀ – EN]
+$36$ oranges are shared equally onto $4$ plates, then each plate gets $2$ more oranges. How many oranges are on each plate now?
+
+[LỜI GIẢI CŨ – EN]
+The number of oranges on each plate at first is:
+$$36\div4=9\ \text{(oranges)}.$$
+The number of oranges on each plate now is:
+$$9+2=11\ \text{(oranges)}.$$
+**Answer.** $11$ oranges.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Vườn có $7$ hàng cây, mỗi hàng $8$ cây. Bác nông dân đã tưới $20$ cây. Hỏi còn bao nhiêu cây chưa được tưới?
+
+[LỜI GIẢI CŨ – VI]
+Số cây trong vườn là:
+$$8\times 7=56\ \text{(cây)}.$$
+Số cây chưa được tưới là:
+$$56-20=36\ \text{(cây)}.$$
+**Đáp số.** $36$ cây.
+
+[ĐỀ – EN]
+A garden has $7$ rows of trees with $8$ trees in each row. A farmer has watered $20$ trees. How many trees have not been watered?
+
+[LỜI GIẢI CŨ – EN]
+The number of trees in the garden is:
+$$8\times 7=56\ \text{(trees)}.$$
+The number of trees not watered is:
+$$56-20=36\ \text{(trees)}.$$
+**Answer.** $36$ trees.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Em nhớ lại bài giảm một số đi một số lần. Nam có $56$ viên bi. Số bi của Hoa bằng số bi của Nam giảm đi $7$ lần. Hỏi Hoa có ít hơn Nam bao nhiêu viên bi?
+
+[LỜI GIẢI CŨ – VI]
+Số viên bi của Hoa là:
+$$56:7=8\ \text{(viên)}.$$
+Hoa có ít hơn Nam số viên bi là:
+$$56-8=48\ \text{(viên)}.$$
+**Đáp số.** $48$ viên bi.
+
+[ĐỀ – EN]
+Remember the lesson on making a number several times smaller. Nam has $56$ marbles. Hoa has Nam's number made $7$ times smaller. How many fewer marbles does Hoa have than Nam?
+
+[LỜI GIẢI CŨ – EN]
+The number of marbles Hoa has is:
+$$56\div7=8\ \text{(marbles)}.$$
+The number of marbles Hoa has fewer than Nam is:
+$$56-8=48\ \text{(marbles)}.$$
+**Answer.** $48$ marbles.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Có $38$ bạn đi tham quan bằng ô tô, mỗi xe chở nhiều nhất $7$ bạn. Hỏi cần ít nhất bao nhiêu xe để chở hết các bạn?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $38:7=5$ (dư $3$). Có $5$ xe đầy và còn $3$ bạn chưa có chỗ, nên cần thêm $1$ xe.
+
+Số xe cần ít nhất là:
+$$5+1=6\ \text{(xe)}.$$
+**Đáp số.** $6$ xe.
+
+[ĐỀ – EN]
+$38$ pupils go on a trip by coach, and each coach carries at most $7$ pupils. What is the least number of coaches needed to carry all the pupils?
+
+[LỜI GIẢI CŨ – EN]
+We have $38\div7=5$ (remainder $3$). There are $5$ full coaches and $3$ pupils have no place, so we need $1$ more coach.
+
+The least number of coaches is:
+$$5+1=6\ \text{(coaches)}.$$
+**Answer.** $6$ coaches.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một bao gạo có $50$ kg. Người bán đã bán $3$ túi, mỗi túi $8$ kg. Hỏi trong bao còn lại bao nhiêu ki-lô-gam gạo?
+
+[LỜI GIẢI CŨ – VI]
+Số ki-lô-gam gạo đã bán là:
+$$8\times 3=24\ \text{(kg)}.$$
+Số ki-lô-gam gạo còn lại là:
+$$50-24=26\ \text{(kg)}.$$
+**Đáp số.** $26$ kg gạo.
+
+[ĐỀ – EN]
+A sack holds $50$ kg of rice. A seller has sold $3$ bags of $8$ kg each. How many kilograms of rice are left in the sack?
+
+[LỜI GIẢI CŨ – EN]
+The number of kilograms of rice sold is:
+$$8\times 3=24\ \text{(kg)}.$$
+The number of kilograms of rice left is:
+$$50-24=26\ \text{(kg)}.$$
+**Answer.** $26$ kg of rice.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Lan có $5$ túi kẹo, mỗi túi $6$ cái. Lan cho Mai $12$ cái, rồi chia đều số kẹo còn lại cho $3$ bạn khác. Hỏi mỗi bạn được bao nhiêu cái kẹo?
+
+[LỜI GIẢI CŨ – VI]
+Số cái kẹo Lan có là:
+$$6\times 5=30\ \text{(cái)}.$$
+Số cái kẹo còn lại sau khi cho Mai là:
+$$30-12=18\ \text{(cái)}.$$
+Số cái kẹo mỗi bạn được là:
+$$18:3=6\ \text{(cái)}.$$
+**Đáp số.** $6$ cái kẹo.
+
+[ĐỀ – EN]
+Lan has $5$ bags of sweets with $6$ sweets in each bag. She gives Mai $12$ sweets, then shares the rest equally among $3$ other friends. How many sweets does each friend get?
+
+[LỜI GIẢI CŨ – EN]
+The number of sweets Lan has is:
+$$6\times 5=30\ \text{(sweets)}.$$
+The number of sweets left after giving some to Mai is:
+$$30-12=18\ \text{(sweets)}.$$
+The number of sweets each friend gets is:
+$$18\div3=6\ \text{(sweets)}.$$
+**Answer.** $6$ sweets.
+
+
+######################################################################
+@@@ g3/unit-fractions
+Bài học: Một phần mấy / Unit fractions
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Mỗi hình sau được chia thành các phần bằng nhau. Viết phân số chỉ một phần của hình:
+
+![Ba hình phân số: hình tròn chia hai, hình chữ nhật chia ba và hình tròn chia tám, mỗi hình tô một phần](/assets/img/g3/g3-unit-fractions-02.svg)
+
+a) Hình chia thành $2$ phần bằng nhau.
+
+b) Hình chia thành $3$ phần bằng nhau.
+
+c) Hình chia thành $8$ phần bằng nhau.
+
+[LỜI GIẢI CŨ – VI]
+a) $\dfrac{1}{2}$.
+
+b) $\dfrac{1}{3}$.
+
+c) $\dfrac{1}{8}$.
+
+**Đáp số.** a) $\dfrac{1}{2}$; b) $\dfrac{1}{3}$; c) $\dfrac{1}{8}$.
+
+[ĐỀ – EN]
+Each shape is split into equal parts. Write the fraction for one part:
+
+![Three fraction diagrams divided into 2, 3, and 8 equal parts with one part shaded](/assets/img/g3/g3-unit-fractions-02.svg)
+
+a) A shape split into $2$ equal parts.
+
+b) A shape split into $3$ equal parts.
+
+c) A shape split into $8$ equal parts.
+
+[LỜI GIẢI CŨ – EN]
+a) $\dfrac{1}{2}$.
+
+b) $\dfrac{1}{3}$.
+
+c) $\dfrac{1}{8}$.
+
+**Answer.** a) $\dfrac{1}{2}$; b) $\dfrac{1}{3}$; c) $\dfrac{1}{8}$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết bằng chữ số:
+
+a) Một phần tư.
+
+b) Một phần sáu.
+
+c) Một phần mười.
+
+[LỜI GIẢI CŨ – VI]
+a) Một phần tư là một phần bốn, viết là $\dfrac{1}{4}$.
+
+b) $\dfrac{1}{6}$.
+
+c) $\dfrac{1}{10}$.
+
+**Đáp số.** a) $\dfrac{1}{4}$; b) $\dfrac{1}{6}$; c) $\dfrac{1}{10}$.
+
+[ĐỀ – EN]
+Write with numbers:
+
+a) One quarter.
+
+b) One sixth.
+
+c) One tenth.
+
+[LỜI GIẢI CŨ – EN]
+a) One quarter is one fourth, written $\dfrac{1}{4}$.
+
+b) $\dfrac{1}{6}$.
+
+c) $\dfrac{1}{10}$.
+
+**Answer.** a) $\dfrac{1}{4}$; b) $\dfrac{1}{6}$; c) $\dfrac{1}{10}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước. Tìm $\square$, biết $\square\times3=15$. Rồi tìm $\dfrac{1}{3}$ của $15$.
+
+[LỜI GIẢI CŨ – VI]
+$\square=15:3=5$. Một phần ba của $15$ là $15:3=5$, bằng $\square$.
+
+**Đáp số.** $\square=5$ và $\dfrac{1}{3}$ của $15$ là $5$.
+
+[ĐỀ – EN]
+Remember the last lesson. Find $\square$ when $\square\times3=15$. Then find $\dfrac{1}{3}$ of $15$.
+
+[LỜI GIẢI CŨ – EN]
+$\square=15\div3=5$. One third of $15$ is $15\div3=5$, the same as $\square$.
+
+**Answer.** $\square=5$ and $\dfrac{1}{3}$ of $15$ is $5$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm:
+
+a) $\dfrac{1}{2}$ của $16$.
+
+b) $\dfrac{1}{5}$ của $30$.
+
+c) $\dfrac{1}{9}$ của $54$.
+
+[LỜI GIẢI CŨ – VI]
+a) $16:2=8$.
+
+b) $30:5=6$.
+
+c) $54:9=6$.
+
+**Đáp số.** a) $8$; b) $6$; c) $6$.
+
+[ĐỀ – EN]
+Find:
+
+a) $\dfrac{1}{2}$ of $16$.
+
+b) $\dfrac{1}{5}$ of $30$.
+
+c) $\dfrac{1}{9}$ of $54$.
+
+[LỜI GIẢI CŨ – EN]
+a) $16\div2=8$.
+
+b) $30\div5=6$.
+
+c) $54\div9=6$.
+
+**Answer.** a) $8$; b) $6$; c) $6$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+a) Muốn tìm $\dfrac{1}{4}$ của $28$, em nhân hay chia? Vì sao? Rồi tính.
+
+b) Một chiếc bánh chia đều cho $2$ bạn, một chiếc bánh giống hệt chia đều cho $4$ bạn. Bạn nào được phần to hơn? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+a) Em chia, vì chia $28$ thành $4$ phần bằng nhau thì mỗi phần là $\dfrac{1}{4}$ của $28$: $28:4=7$.
+
+b) Bạn trong nhóm $2$ bạn được $\dfrac{1}{2}$ chiếc bánh, bạn trong nhóm $4$ bạn được $\dfrac{1}{4}$ chiếc bánh. Chia ít phần hơn thì mỗi phần to hơn, nên $\dfrac{1}{2}$ to hơn $\dfrac{1}{4}$.
+
+**Đáp số.** a) Chia, kết quả $7$; b) bạn được $\dfrac{1}{2}$ chiếc bánh có phần to hơn.
+
+[ĐỀ – EN]
+a) To find $\dfrac{1}{4}$ of $28$, do you multiply or divide? Why? Then work it out.
+
+b) One cake is shared equally among $2$ friends, and an identical cake is shared equally among $4$ friends. Who gets the bigger piece? Why?
+
+[LỜI GIẢI CŨ – EN]
+a) We divide, because splitting $28$ into $4$ equal parts gives parts that are each $\dfrac{1}{4}$ of $28$: $28\div4=7$.
+
+b) A friend in the group of $2$ gets $\dfrac{1}{2}$ of a cake, a friend in the group of $4$ gets $\dfrac{1}{4}$. Fewer parts means bigger parts, so $\dfrac{1}{2}$ is bigger than $\dfrac{1}{4}$.
+
+**Answer.** a) Divide, result $7$; b) a friend who gets $\dfrac{1}{2}$ of a cake has the bigger piece.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Nam viết: "$\dfrac{1}{3}$ của $12$ là $36$ vì $12\times3=36$". Nam sai ở đâu? Hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+Nam đã nhân, nhưng phải chia: $\dfrac{1}{3}$ của $12$ là $12:3=4$.
+
+**Thử lại.** $3\times4=12$. Đúng.
+
+**Đáp số.** Nam dùng sai phép tính; kết quả đúng là $4$.
+
+[ĐỀ – EN]
+Nam wrote: "$\dfrac{1}{3}$ of $12$ is $36$ because $12\times3=36$". Where did Nam go wrong? Correct it.
+
+[LỜI GIẢI CŨ – EN]
+Nam multiplied, but we must divide: $\dfrac{1}{3}$ of $12$ is $12\div3=4$.
+
+**Check.** $3\times4=12$. Correct.
+
+**Answer.** Nam used the wrong operation; the right answer is $4$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+a) Có $24$ cái kẹo, Lan lấy $\dfrac{1}{6}$ số kẹo. Hỏi Lan lấy bao nhiêu cái kẹo?
+
+b) Một sợi dây dài $40$ cm được cắt thành $5$ đoạn bằng nhau. Hỏi mỗi đoạn dài bao nhiêu xăng-ti-mét và là một phần mấy của sợi dây?
+
+[LỜI GIẢI CŨ – VI]
+a) Lan lấy $24:6=4$ (cái kẹo).
+
+b) Mỗi đoạn dài $40:5=8$ (cm) và là $\dfrac{1}{5}$ sợi dây.
+
+**Đáp số.** a) $4$ cái kẹo; b) $8$ cm, là $\dfrac{1}{5}$ sợi dây.
+
+[ĐỀ – EN]
+a) There are $24$ sweets and Lan takes $\dfrac{1}{6}$ of them. How many sweets does Lan take?
+
+b) A piece of string $40$ cm long is cut into $5$ equal lengths. How many centimetres is each length, and what fraction of the string is it?
+
+[LỜI GIẢI CŨ – EN]
+a) Lan takes $24\div6=4$ (sweets).
+
+b) Each length is $40\div5=8$ (cm) and is $\dfrac{1}{5}$ of the string.
+
+**Answer.** a) $4$ sweets; b) $8$ cm, which is $\dfrac{1}{5}$ of the string.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Lớp có $36$ học sinh. $\dfrac{1}{4}$ số học sinh đi học bơi, $\dfrac{1}{9}$ số học sinh đi học vẽ. Hỏi số học sinh đi học bơi nhiều hơn số học sinh đi học vẽ bao nhiêu em?
+
+[LỜI GIẢI CŨ – VI]
+Số học sinh học bơi là $36:4=9$ (em). Số học sinh học vẽ là $36:9=4$ (em). Học bơi nhiều hơn học vẽ là $9-4=5$ (em).
+
+**Đáp số.** $5$ em.
+
+[ĐỀ – EN]
+A class has $36$ pupils. $\dfrac{1}{4}$ of the pupils go to swimming club and $\dfrac{1}{9}$ of the pupils go to art club. How many more pupils go to swimming club than to art club?
+
+[LỜI GIẢI CŨ – EN]
+The pupils at swimming club: $36\div4=9$. The pupils at art club: $36\div9=4$. The difference is $9-4=5$ (pupils).
+
+**Answer.** $5$ pupils.
+
+
+===== HẾT FILE Lemonmath.com-09-LG =====

@@ -6,7 +6,7 @@ Kết quả: file Lemonmath.com-04-GV-ketqua.md, lưu vào Dropbox Lemonmath.com
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Lemonmath.com-04-GV
-Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g4/finding-the-mean, g4/fractions-and-division
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g3/multiply-4-digit-by-1-digit, g3/nine-times-table
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -135,124 +135,165 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g4/finding-the-mean – BẢN TIẾNG VIỆT ########
+######## BÀI g3/multiply-4-digit-by-1-digit – BẢN TIẾNG VIỆT ########
 ---
-title: Tìm số trung bình cộng
-description: Em học cách tìm số trung bình cộng của nhiều số bằng cách lấy tổng chia cho số các số hạng, và dùng nó để giải bài toán chia đều.
+title: Nhân số có bốn chữ số với số có một chữ số
+description: Em học cách đặt tính và nhân số có bốn chữ số với số có một chữ số, có nhớ và không nhớ, rồi giải bài toán có lời văn.
 minutes: 15
 ---
 
   :::goals
-  - Hiểu số trung bình cộng là số chia đều cho tất cả các số.
-  - Tìm số trung bình cộng của hai, ba, bốn số bằng cách lấy tổng chia cho số các số hạng.
-  - Giải bài toán có lời văn về số trung bình cộng, kể cả tìm một số còn thiếu.
+  - Đặt tính và nhân số có bốn chữ số với số có một chữ số (không nhớ).
+  - Nhân có nhớ: biết viết một chữ số và nhớ sang hàng bên trái.
+  - Kiểm tra kết quả bằng cách ước lượng.
+  - Giải bài toán có lời văn bằng một phép nhân.
   :::
 
-[[P1·1a8c]]
-Nam có $6$ viên bi, Lan có $8$ viên bi, Hà có $10$ viên bi. Ba bạn muốn chia lại để mỗi bạn có số bi bằng nhau. Mỗi bạn sẽ có bao nhiêu viên bi?
+[[P1·cd64]]
+Một thùng có $1\,213$ quyển vở. Hỏi $3$ thùng như thế có bao nhiêu quyển vở?
 
-[[P2·573d]]
-Em đã học phép chia ở các bài trước. Hôm nay em dùng phép cộng và phép chia để giải bài toán này.
+[[P2·ca9d]]
+Em đã biết bảng nhân và cách đặt tính nhân với số có ít chữ số hơn. Bài này mở rộng cách làm ấy cho số có bốn chữ số.
 
 ## Cùng khám phá
 
-[[P3·45a0]]
-Ta chia đều bằng cách chuyển bi từ bạn nhiều sang bạn ít.
+[[P3·34b6]]
+Số $1\,213$ gồm $1$ nghìn, $2$ trăm, $1$ chục và $3$ đơn vị. Ta nhân từng hàng với $3$ rồi ghép lại.
 
-[[P4·29e6]]
-- Hà có $10$ viên, Nam có $6$ viên. Hà cho Nam $2$ viên.
-- Bây giờ Hà có $8$ viên, Nam có $8$ viên, Lan vẫn có $8$ viên.
+| | Nghìn | Trăm | Chục | Đơn vị |
+|---|---|---|---|---|
+| Số $1\,213$ | $1$ | $2$ | $1$ | $3$ |
+| Nhân với $3$ | $1\times3=3$ | $2\times3=6$ | $1\times3=3$ | $3\times3=9$ |
 
-[[P5·e427]]
-Vậy mỗi bạn có $8$ viên bi. Ta nói $8$ là **số trung bình cộng** của $6$, $8$ và $10$.
+[[P4·cae1]]
+Ghép lại, em được $3$ nghìn, $6$ trăm, $3$ chục và $9$ đơn vị, tức là $3\,639$. Vậy $3$ thùng có $3\,639$ quyển vở.
 
-[[P6·d2bd]]
-Có cách làm nhanh hơn, không cần chuyển từng viên. Gộp hết bi lại: $6+8+10=24$ viên. Chia đều cho $3$ bạn: $24:3=8$ viên.
+[[P5·a18e]]
+Thay vì kẻ bảng, em đặt tính như sau và nhân lần lượt từ phải sang trái:
 
-:::graph Trên trục số: ba số 6, 8, 10 và số trung bình cộng 8 nằm ở giữa
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
+  $$\begin{array}{r}1213\\ \times\ 3\\ \hline 3639\end{array}$$
 
-  :::theorem Cách tìm số trung bình cộng
-  Muốn tìm số trung bình cộng của nhiều số, em làm hai bước:
-  1. Tính tổng của tất cả các số.
-  2. Chia tổng đó cho số các số hạng.
+  :::theorem Cách nhân số có bốn chữ số với số có một chữ số
+  1. Viết số có một chữ số dưới số có bốn chữ số, thẳng hàng đơn vị.
+  2. Nhân lần lượt từ phải sang trái: hàng đơn vị, hàng chục, hàng trăm, hàng nghìn.
+  3. Nếu tích của một hàng có hai chữ số, viết chữ số hàng đơn vị và **nhớ** chữ số hàng chục sang hàng bên trái. Ở hàng đó, nhân xong rồi **cộng thêm số nhớ**.
   :::
 
-[[P7·b043]]
-Cách này đúng vì gộp tất cả lại rồi chia đều cho mỗi số một phần bằng nhau. Đó chính là chia đều.
+[[P6·13f0]]
+Vì sao lại nhớ? Ví dụ $15$ đơn vị là $1$ chục và $5$ đơn vị. Em viết $5$ đơn vị ở hàng đơn vị, còn $1$ chục phải để lại cho hàng chục.
 
 ## Ví dụ
 
-[[P8·1de5]]
-Ta bắt đầu với ba số nhỏ.
+[[P7·6407]]
+Ta bắt đầu với phép nhân không phải nhớ.
 
-  :::example Tính số trung bình cộng của $4$, $6$ và $8$
-  **Lời giải.** Có $3$ số, nên ta lấy tổng chia cho $3$:
-  $$(4+6+8):3=18:3=6.$$
-  Vậy số trung bình cộng của $4$, $6$ và $8$ là $6$.
+  :::example Nhân không nhớ
+  Tính $2\,121\times4$.
+
+  **Lời giải.** Em đặt tính rồi nhân từng chữ số với $4$, từ phải sang trái:
+  $$\begin{array}{r}2121\\ \times\ 4\\ \hline 8484\end{array}$$
+  - Hàng đơn vị: $1\times4=4$, viết $4$.
+  - Hàng chục: $2\times4=8$, viết $8$.
+  - Hàng trăm: $1\times4=4$, viết $4$.
+  - Hàng nghìn: $2\times4=8$, viết $8$.
+
+  Vậy $2\,121\times4=8\,484$.
   :::
 
-[[P9·a3fc]]
-Bây giờ em làm với bốn số. Chú ý số các số hạng đã đổi.
+[[P8·9cff]]
+Ví dụ sau làm giống hệt, chỉ đổi số.
 
-  :::example Tính số trung bình cộng của $12$, $15$, $9$ và $16$
-  **Lời giải.** Có $4$ số, nên ta lấy tổng chia cho $4$:
-  $$(12+15+9+16):4=52:4=13.$$
-  Vậy số trung bình cộng là $13$.
+  :::example Nhân không nhớ, số khác
+  Tính $3\,102\times3$.
+
+  **Lời giải.** Mỗi hàng nhân với $3$ đều nhỏ hơn $10$, nên không cần nhớ:
+  $$\begin{array}{r}3102\\ \times\ 3\\ \hline 9306\end{array}$$
+  Hàng đơn vị: $2\times3=6$. Hàng chục: $0\times3=0$. Hàng trăm: $1\times3=3$. Hàng nghìn: $3\times3=9$.
+
+  Vậy $3\,102\times3=9\,306$.
   :::
 
-[[P10·3c61]]
-Bây giờ em dùng cách này cho một bài toán trong cuộc sống.
+[[P9·c317]]
+Bây giờ có hàng cho tích từ $10$ trở lên, em phải nhớ.
 
-  :::example Trồng cây
-  Bốn tổ trồng được số cây lần lượt là $7$, $9$, $5$ và $7$ cây. Hỏi trung bình mỗi tổ trồng được bao nhiêu cây?
+  :::example Nhân có nhớ
+  Tính $1\,425\times3$.
 
-  **Lời giải.** "Trung bình mỗi tổ" nghĩa là chia đều cho $4$ tổ. Tổng số cây của cả bốn tổ, rồi chia cho $4$:
-  $$(7+9+5+7):4=28:4=7\ \text{(cây)}.$$
-  Vậy trung bình mỗi tổ trồng được $7$ cây.
+  **Lời giải.** Em nhân từng hàng và nhớ khi tích có hai chữ số:
+  $$\begin{array}{r}1425\\ \times\ 3\\ \hline 4275\end{array}$$
+  - Hàng đơn vị: $5\times3=15$, viết $5$ nhớ $1$.
+  - Hàng chục: $2\times3=6$, thêm $1$ được $7$, viết $7$.
+  - Hàng trăm: $4\times3=12$, viết $2$ nhớ $1$.
+  - Hàng nghìn: $1\times3=3$, thêm $1$ được $4$, viết $4$.
+
+  Vậy $1\,425\times3=4\,275$.
+
+  **Kiểm tra.** $1\,425$ gần $1\,400$, mà $1\,400\times3=4\,200$. Kết quả $4\,275$ gần $4\,200$, hợp lí.
   :::
 
-[[P11·638e]]
-Đôi khi ta biết số trung bình cộng và cần tìm một số còn thiếu. Khi đó em tìm tổng trước.
+[[P10·254a]]
+Khi gặp chữ số $0$, em vẫn phải cộng số nhớ.
 
-  :::example Tìm số còn thiếu
-  Trung bình cộng của ba số là $9$. Hai trong ba số là $7$ và $12$. Tìm số thứ ba.
+  :::example Nhân có chữ số 0 và có nhớ
+  Tính $2\,308\times4$.
 
-  **Lời giải.** Ba số chia đều cho ra $9$, nên tổng ba số là $9\times3=27$. Hai số đã biết có tổng $7+12=19$. Số thứ ba bằng:
-  $$27-19=8.$$
-  Vậy số thứ ba là $8$.
+  **Lời giải.** Hàng chục có chữ số $0$, nhưng em vẫn cộng số nhớ từ hàng đơn vị:
+  $$\begin{array}{r}2308\\ \times\ 4\\ \hline 9232\end{array}$$
+  - Hàng đơn vị: $8\times4=32$, viết $2$ nhớ $3$.
+  - Hàng chục: $0\times4=0$, thêm $3$ được $3$, viết $3$.
+  - Hàng trăm: $3\times4=12$, viết $2$ nhớ $1$.
+  - Hàng nghìn: $2\times4=8$, thêm $1$ được $9$, viết $9$.
 
-  **Kiểm tra.** $(7+12+8):3=27:3=9$. Đúng.
+  Vậy $2\,308\times4=9\,232$.
+
+  **Kiểm tra.** $2\,300\times4=9\,200$, gần $9\,232$. Hợp lí.
+  :::
+
+[[P11·fe29]]
+Cuối cùng, em dùng phép nhân để giải một bài toán trong cuộc sống.
+
+  :::example Xếp hộp bút
+  Một kho có $6$ thùng, mỗi thùng đựng $1\,125$ cái bút. Hỏi kho có tất cả bao nhiêu cái bút?
+
+  **Lời giải.** Mỗi thùng có số bút bằng nhau, nên em lấy số bút của một thùng nhân với số thùng:
+  $$1\,125\times6=6\,750\ \text{(cái)}.$$
+  - Hàng đơn vị: $5\times6=30$, viết $0$ nhớ $3$.
+  - Hàng chục: $2\times6=12$, thêm $3$ được $15$, viết $5$ nhớ $1$.
+  - Hàng trăm: $1\times6=6$, thêm $1$ được $7$, viết $7$.
+  - Hàng nghìn: $1\times6=6$, viết $6$.
+
+  Vậy kho có $6\,750$ cái bút.
   :::
 
 :::warning Những lỗi em hay gặp
-[[P12·9e9d]]
-- **Quên chia.** Sai: số trung bình cộng của $6$, $8$, $10$ là $24$. Vì sao sai: $24$ mới là tổng. Đúng: $24:3=8$.
-- **Chia sai số lần.** Sai: $(4+6+8):2=9$. Vì sao sai: có $3$ số nên phải chia cho $3$. Đúng: $18:3=6$.
-- **Quên đơn vị trong bài có lời văn.** Sai: "Đáp số: $7$". Đúng: "Đáp số: $7$ cây".
+[[P12·85ba]]
+- **Quên cộng số nhớ.** Sai: $1\,425\times3=4\,265$. Vì sao sai: ở hàng chục, em quên cộng $1$ nhớ từ hàng đơn vị. Đúng: $2\times3=6$, thêm $1$ được $7$, nên kết quả là $4\,275$.
+- **Gặp chữ số 0 là bỏ qua số nhớ.** Sai: $2\,308\times4=9\,202$. Vì sao sai: $0\times4=0$ nhưng còn phải cộng $3$ nhớ nên hàng chục là $3$. Đúng: $9\,232$.
+- **Quên đơn vị trong bài toán có lời văn.** Sai: "Đáp số: $6\,750$". Đúng: "Đáp số: $6\,750$ cái bút".
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - số trung bình cộng | mean (average)
-  - tổng | sum (total)
-  - số hạng | value
-  - chia đều | share equally
-  - phép chia | division
-  - trục số | number line
-  - số còn thiếu | missing number
+  - phép nhân | multiplication
+  - thừa số | factor
+  - tích | product
+  - đặt tính | set out in columns
+  - nhân có nhớ | multiplication with regrouping
+  - số nhớ | carried digit
+  - hàng nghìn | thousands
+  - hàng trăm | hundreds
+  - hàng chục | tens
+  - hàng đơn vị | ones
   :::
 
 ## Tóm tắt
 
-[[P13·c869]]
-- Số trung bình cộng là số mà nếu chia đều tổng cho mọi số thì mỗi số bằng nó.
-- Muốn tìm: lấy tổng các số chia cho số các số hạng.
-- Ví dụ: $(4+6+8):3=18:3=6$.
-- Biết số trung bình cộng và số các số hạng thì tổng bằng số trung bình cộng nhân số các số hạng.
-- Bài toán có lời văn: nhớ ghi đơn vị.
+[[P13·0f65]]
+- Đặt tính thẳng hàng, nhân từng chữ số từ phải sang trái: đơn vị, chục, trăm, nghìn.
+- Tích của một hàng có hai chữ số: viết hàng đơn vị, nhớ hàng chục sang hàng bên trái.
+- Ở hàng tiếp theo, nhân xong rồi cộng thêm số nhớ, kể cả khi chữ số đó là $0$.
+- Kiểm tra bằng cách làm tròn số rồi ước lượng, và nhớ ghi đơn vị trong đáp số.
 
 ## Luyện tập
 
@@ -260,35 +301,35 @@ Bây giờ em dùng cách này cho một bài toán trong cuộc sống.
 Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -298,124 +339,165 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 
-######## BÀI g4/finding-the-mean – BẢN TIẾNG ANH ########
+######## BÀI g3/multiply-4-digit-by-1-digit – BẢN TIẾNG ANH ########
 ---
-title: Finding the mean (average)
-description: Learn to find the mean of several numbers by dividing the sum by how many numbers there are, and use it to solve sharing problems.
+title: Multiplying a four-digit number by a one-digit number
+description: Learn to set out and multiply a four-digit number by a one-digit number, with and without regrouping, then solve word problems.
 minutes: 15
 ---
 
   :::goals
-  - Understand that the mean is the amount each number would have if the total were shared equally.
-  - Find the mean of two, three or four numbers: add them up, then divide by how many there are.
-  - Solve word problems about the mean, including finding a missing number.
+  - Set out and multiply a four-digit number by a one-digit number (no regrouping).
+  - Multiply with regrouping: write one digit and carry to the place on the left.
+  - Check the answer by estimating.
+  - Solve a word problem with one multiplication.
   :::
 
-[[P1·f099]]
-Nam has $6$ marbles, Lan has $8$ marbles and Ha has $10$ marbles. They want to share them out so that each child has the same number. How many marbles will each child have?
+[[P1·a2e2]]
+A box holds $1\,213$ exercise books. How many exercise books are there in $3$ such boxes?
 
-[[P2·6507]]
-You already know division from earlier lessons. Today you use addition and division together to solve this.
+[[P2·9a41]]
+You already know the times tables and how to multiply smaller numbers in columns. This lesson takes the same method to four-digit numbers.
 
 ## Let's explore
 
-[[P3·09d2]]
-We can share equally by moving marbles from the child with more to the child with fewer.
+[[P3·486c]]
+The number $1\,213$ is $1$ thousand, $2$ hundreds, $1$ ten and $3$ ones. We multiply each place by $3$ and put them back together.
 
-[[P4·c11d]]
-- Ha has $10$ and Nam has $6$. Ha gives Nam $2$ marbles.
-- Now Ha has $8$, Nam has $8$ and Lan still has $8$.
+| | Thousands | Hundreds | Tens | Ones |
+|---|---|---|---|---|
+| The number $1\,213$ | $1$ | $2$ | $1$ | $3$ |
+| Times $3$ | $1\times3=3$ | $2\times3=6$ | $1\times3=3$ | $3\times3=9$ |
 
-[[P5·4e3a]]
-So each child has $8$ marbles. We say $8$ is the **mean** of $6$, $8$ and $10$.
+[[P4·d381]]
+Putting them together gives $3$ thousands, $6$ hundreds, $3$ tens and $9$ ones, which is $3\,639$. So $3$ boxes hold $3\,639$ exercise books.
 
-[[P6·ccb4]]
-There is a quicker way, with no moving. Put all the marbles together: $6+8+10=24$. Share them equally among $3$ children: $24\div3=8$.
+[[P5·9961]]
+Instead of drawing a table, you set out the multiplication like this and multiply from right to left:
 
-:::graph On the number line: the numbers 6, 8, 10 and their mean 8 in the middle
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
+  $$\begin{array}{r}1213\\ \times\ 3\\ \hline 3639\end{array}$$
 
-  :::theorem How to find the mean
-  To find the mean of several numbers, do two steps:
-  1. Add up all the numbers to get the sum.
-  2. Divide the sum by how many numbers there are.
+  :::theorem How to multiply a four-digit number by a one-digit number
+  1. Write the one-digit number under the four-digit number, lined up with the ones.
+  2. Multiply from right to left: ones, tens, hundreds, thousands.
+  3. If the product in a place has two digits, write the ones digit and **carry** the tens digit to the place on the left. In that place, multiply first and then **add the carried digit**.
   :::
 
-[[P7·0775]]
-This works because putting everything together and dividing gives each number an equal share. That is exactly sharing equally.
+[[P6·5bad]]
+Why do we carry? For example, $15$ ones are $1$ ten and $5$ ones. You write the $5$ ones in the ones place, and the $1$ ten must go to the tens place.
 
 ## Examples
 
-[[P8·74c2]]
-We start with three small numbers.
+[[P7·5110]]
+We start with a multiplication that needs no carrying.
 
-  :::example Find the mean of $4$, $6$ and $8$
-  **Solution.** There are $3$ numbers, so we divide the sum by $3$:
-  $$(4+6+8)\div3=18\div3=6.$$
-  So the mean of $4$, $6$ and $8$ is $6$.
+  :::example Multiplying without regrouping
+  Work out $2\,121\times4$.
+
+  **Solution.** Set out the multiplication and multiply each digit by $4$, from right to left:
+  $$\begin{array}{r}2121\\ \times\ 4\\ \hline 8484\end{array}$$
+  - Ones: $1\times4=4$, write $4$.
+  - Tens: $2\times4=8$, write $8$.
+  - Hundreds: $1\times4=4$, write $4$.
+  - Thousands: $2\times4=8$, write $8$.
+
+  So $2\,121\times4=8\,484$.
   :::
 
-[[P9·156d]]
-Now try four numbers. Notice that what we divide by changes.
+[[P8·4ac4]]
+The next example works in exactly the same way, with different numbers.
 
-  :::example Find the mean of $12$, $15$, $9$ and $16$
-  **Solution.** There are $4$ numbers, so we divide the sum by $4$:
-  $$(12+15+9+16)\div4=52\div4=13.$$
-  So the mean is $13$.
+  :::example Without regrouping, different numbers
+  Work out $3\,102\times3$.
+
+  **Solution.** Each place times $3$ is less than $10$, so there is nothing to carry:
+  $$\begin{array}{r}3102\\ \times\ 3\\ \hline 9306\end{array}$$
+  Ones: $2\times3=6$. Tens: $0\times3=0$. Hundreds: $1\times3=3$. Thousands: $3\times3=9$.
+
+  So $3\,102\times3=9\,306$.
   :::
 
-[[P10·8278]]
-Now use the same idea for a problem from everyday life.
+[[P9·7cc4]]
+Now some places give a product of $10$ or more, so you must carry.
 
-  :::example Planting trees
-  Four groups planted $7$, $9$, $5$ and $7$ trees. On average, how many trees did each group plant?
+  :::example Multiplying with regrouping
+  Work out $1\,425\times3$.
 
-  **Solution.** "On average each group" means sharing equally among $4$ groups. Add the trees of all four groups, then divide by $4$:
-  $$(7+9+5+7)\div4=28\div4=7\ \text{(trees)}.$$
-  So each group planted $7$ trees on average.
+  **Solution.** Multiply each place and carry when the product has two digits:
+  $$\begin{array}{r}1425\\ \times\ 3\\ \hline 4275\end{array}$$
+  - Ones: $5\times3=15$, write $5$ carry $1$.
+  - Tens: $2\times3=6$, add $1$ to get $7$, write $7$.
+  - Hundreds: $4\times3=12$, write $2$ carry $1$.
+  - Thousands: $1\times3=3$, add $1$ to get $4$, write $4$.
+
+  So $1\,425\times3=4\,275$.
+
+  **Check.** $1\,425$ is close to $1\,400$, and $1\,400\times3=4\,200$. The answer $4\,275$ is close to $4\,200$, so it makes sense.
   :::
 
-[[P11·d6cf]]
-Sometimes we know the mean and need a missing number. Then we find the sum first.
+[[P10·994a]]
+When you meet a $0$, you still add the carried digit.
 
-  :::example Finding a missing number
-  The mean of three numbers is $9$. Two of the numbers are $7$ and $12$. Find the third number.
+  :::example A zero digit and regrouping
+  Work out $2\,308\times4$.
 
-  **Solution.** Three numbers with mean $9$ have sum $9\times3=27$. The two known numbers add up to $7+12=19$. The third number is:
-  $$27-19=8.$$
-  So the third number is $8$.
+  **Solution.** The tens digit is $0$, but you still add the digit carried from the ones:
+  $$\begin{array}{r}2308\\ \times\ 4\\ \hline 9232\end{array}$$
+  - Ones: $8\times4=32$, write $2$ carry $3$.
+  - Tens: $0\times4=0$, add $3$ to get $3$, write $3$.
+  - Hundreds: $3\times4=12$, write $2$ carry $1$.
+  - Thousands: $2\times4=8$, add $1$ to get $9$, write $9$.
 
-  **Check.** $(7+12+8)\div3=27\div3=9$. Correct.
+  So $2\,308\times4=9\,232$.
+
+  **Check.** $2\,300\times4=9\,200$, close to $9\,232$. It makes sense.
+  :::
+
+[[P11·6db5]]
+Last, use multiplication to solve a problem from everyday life.
+
+  :::example Boxes of pens
+  A storeroom has $6$ boxes, and each box holds $1\,125$ pens. How many pens are in the storeroom altogether?
+
+  **Solution.** Every box holds the same number of pens, so multiply the pens in one box by the number of boxes:
+  $$1\,125\times6=6\,750\ \text{(pens)}.$$
+  - Ones: $5\times6=30$, write $0$ carry $3$.
+  - Tens: $2\times6=12$, add $3$ to get $15$, write $5$ carry $1$.
+  - Hundreds: $1\times6=6$, add $1$ to get $7$, write $7$.
+  - Thousands: $1\times6=6$, write $6$.
+
+  So the storeroom has $6\,750$ pens.
   :::
 
 :::warning Mistakes to watch out for
-[[P12·557b]]
-- **Forgetting to divide.** Wrong: the mean of $6$, $8$, $10$ is $24$. Why it is wrong: $24$ is only the sum. Right: $24\div3=8$.
-- **Dividing by the wrong number.** Wrong: $(4+6+8)\div2=9$. Why it is wrong: there are $3$ numbers, so divide by $3$. Right: $18\div3=6$.
-- **No unit in a word problem.** Wrong: "Answer: $7$". Right: "Answer: $7$ trees".
+[[P12·9315]]
+- **Forgetting to add the carried digit.** Wrong: $1\,425\times3=4\,265$. Why it is wrong: in the tens you forgot to add the $1$ carried from the ones. Right: $2\times3=6$, add $1$ to get $7$, so the answer is $4\,275$.
+- **Dropping the carried digit at a zero.** Wrong: $2\,308\times4=9\,202$. Why it is wrong: $0\times4=0$, but you still add the carried $3$, so the tens digit is $3$. Right: $9\,232$.
+- **Leaving out the unit in a word problem.** Wrong: "Answer: $6\,750$". Right: "Answer: $6\,750$ pens".
 :::
 
 ## Key terms
 
   :::terms
-  - mean (average) | số trung bình cộng
-  - sum (total) | tổng
-  - value | số hạng
-  - share equally | chia đều
-  - division | phép chia
-  - number line | trục số
-  - missing number | số còn thiếu
+  - multiplication | phép nhân
+  - factor | thừa số
+  - product | tích
+  - set out in columns | đặt tính
+  - multiplication with regrouping | nhân có nhớ
+  - carried digit | số nhớ
+  - thousands | hàng nghìn
+  - hundreds | hàng trăm
+  - tens | hàng chục
+  - ones | hàng đơn vị
   :::
 
 ## Summary
 
-[[P13·1e50]]
-- The mean is the number each value would be if the total were shared equally.
-- To find it, divide the sum by how many numbers there are.
-- Example: $(4+6+8)\div3=18\div3=6$.
-- If you know the mean and how many numbers there are, the sum is the mean times that number.
-- In word problems, remember the unit.
+[[P13·8189]]
+- Line up the places and multiply each digit from right to left: ones, tens, hundreds, thousands.
+- If the product in a place has two digits, write the ones digit and carry the tens digit to the place on the left.
+- In the next place, multiply first and then add the carried digit, even when the digit is $0$.
+- Check by rounding and estimating, and remember to write the unit in the answer.
 
 ## Practice
 
@@ -423,35 +505,35 @@ Sometimes we know the mean and need a missing number. Then we find the sum first
 Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test
@@ -461,138 +543,172 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 :::
 
 
-######## BÀI g4/fractions-and-division – BẢN TIẾNG VIỆT ########
+######## BÀI g3/nine-times-table – BẢN TIẾNG VIỆT ########
 ---
-title: Phân số và phép chia số tự nhiên
-description: Em học thương của phép chia hai số tự nhiên có thể viết thành một phân số, và mọi số tự nhiên đều viết được dưới dạng phân số.
+title: Bảng nhân 9, bảng chia 9
+description: Em học bảng nhân 9 bằng mẹo lấy 10 lần rồi bớt đi, hoặc cộng thêm 9, rồi dùng bảng nhân 9 để chia cho 9 và giải bài toán.
 minutes: 15
 ---
 
   :::goals
-  - Biết thương của phép chia hai số tự nhiên ($a:b$, $b\neq0$) viết được thành phân số $\dfrac{a}{b}$.
-  - Viết một số tự nhiên dưới dạng phân số.
-  - Giải bài toán chia đều mà kết quả là một phân số.
+  - Thuộc và lập được bảng nhân 9.
+  - Dùng bảng nhân 9 để chia cho 9.
+  - Giải bài toán có lời văn bằng một phép nhân hoặc một phép chia.
   :::
 
-[[P1·aee9]]
-Cô giáo chia đều $3$ chiếc bánh cho $4$ bạn. Mỗi bạn được bao nhiêu phần của một chiếc bánh?
+[[P1·871c]]
+Mỗi hộp có $9$ cây bút màu. Hỏi $4$ hộp như vậy có tất cả bao nhiêu cây bút màu?
 
-[[P2·a276]]
-Em đã biết $12:4=3$. Nhưng $3:4$ thì không chia hết, và em cần một loại số mới để viết thương. Đó chính là phân số mà em vừa học.
+[[P2·59a2]]
+Em có thể cộng $9+9+9+9$, nhưng cộng nhiều lần thì chậm. Bài này giúp em tính nhanh bằng bảng nhân $9$.
 
 ## Cùng khám phá
 
-[[P3·3c69]]
-Ta chia đều từng bước.
+[[P3·ce7a]]
+Mỗi hộp là một nhóm $9$ cây. Ta cộng dần từng hộp:
 
-[[P4·e78f]]
-- Cắt mỗi chiếc bánh thành $4$ phần bằng nhau. Mỗi phần là $\dfrac{1}{4}$ chiếc bánh.
-- Mỗi bạn lấy $1$ phần của chiếc bánh thứ nhất, $1$ phần của chiếc bánh thứ hai và $1$ phần của chiếc bánh thứ ba.
-- Vậy mỗi bạn có $3$ phần, mỗi phần là $\dfrac{1}{4}$ chiếc bánh.
+[[P4·abe4]]
+- $1$ hộp: $9$ cây.
+- $2$ hộp: $9+9=18$ cây.
+- $3$ hộp: $18+9=27$ cây.
+- $4$ hộp: $27+9=36$ cây.
 
-[[P5·d5e1]]
-Mỗi bạn được $\dfrac{3}{4}$ chiếc bánh. Ta thấy $3:4=\dfrac{3}{4}$.
+[[P5·ac85]]
+Vậy $4$ hộp có $36$ cây bút màu, tức là $9\times4=36$. Mỗi lần thêm một hộp, tích tăng thêm $9$.
 
-:::graph Trên trục số: 3 : 4 là điểm 3/4, nằm giữa 0 và 1
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::graph Trên tia số: mỗi bước nhảy 9 đơn vị
+   (… 11 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::theorem Phân số và phép chia
-  Thương của phép chia số tự nhiên $a$ cho số tự nhiên $b$ (khác $0$) viết được thành phân số có tử số là $a$ và mẫu số là $b$:
-  $$a:b=\frac{a}{b}.$$
+[[P6·579d]]
+Em còn một mẹo hay: $9=10-1$, nên $9\times4=10\times4-4=40-4=36$.
+
+  :::theorem Bảng nhân 9
+  Muốn tính $9\times n$, em lấy $10\times n$ rồi bớt đi $n$. Em cũng có thể lấy $9\times(n-1)$ rồi cộng thêm $9$.
+
+  | $9\times1$ | $9\times2$ | $9\times3$ | $9\times4$ | $9\times5$ |
+  |---|---|---|---|---|
+  | $9$ | $18$ | $27$ | $36$ | $45$ |
+
+  | $9\times6$ | $9\times7$ | $9\times8$ | $9\times9$ | $9\times10$ |
+  |---|---|---|---|---|
+  | $54$ | $63$ | $72$ | $81$ | $90$ |
   :::
 
-[[P6·73e0]]
-Điều này đúng vì chia đều $a$ cái bánh cho $b$ bạn thì mỗi bạn được $a$ phần, mỗi phần là $\dfrac{1}{b}$ chiếc bánh, tức $\dfrac{a}{b}$.
+[[P7·9c77]]
+Em để ý: các tích có hai chữ số trong bảng nhân $9$ đều có tổng hai chữ số bằng $9$. Ví dụ $63$ có $6+3=9$.
+
+[[P8·4f94]]
+Bảng chia $9$ suy ra từ bảng nhân $9$. Vì $9\times4=36$ nên $36:9=4$. Em chia $36$ cây bút thành các hộp $9$ cây thì được $4$ hộp.
 
 ## Ví dụ
 
-[[P7·3a8d]]
-Ta bắt đầu với một phép chia mà số bị chia nhỏ hơn số chia.
+[[P9·7c6f]]
+Ta bắt đầu bằng mẹo lấy $10$ lần rồi bớt đi.
 
-  :::example Chia bánh
-  Chia đều $2$ chiếc bánh cho $5$ bạn. Mỗi bạn được bao nhiêu phần chiếc bánh?
-
-  **Lời giải.** Ta lấy số bánh chia cho số bạn, rồi viết thương thành phân số:
-  $$2:5=\frac{2}{5}.$$
-  Vậy mỗi bạn được $\dfrac{2}{5}$ chiếc bánh.
+  :::example Tính $9\times4$
+  **Lời giải.** $9$ nhỏ hơn $10$ một đơn vị, nên $9\times4$ bằng $10\times4$ bớt đi $4$:
+  $$9\times4=40-4=36.$$
+  Vậy $9\times4=36$.
   :::
 
-[[P8·2f6f]]
-Khi số bị chia lớn hơn số chia, phân số có tử số lớn hơn mẫu số. Điều đó vẫn đúng.
+[[P10·5929]]
+Bây giờ em làm với số lớn hơn.
 
-  :::example Chia ruy-băng
-  Chia đều $5$ m ruy-băng cho $4$ bạn. Mỗi bạn được bao nhiêu mét?
+  :::example Tính $9\times7$
+  **Lời giải.** Lấy $10\times7$ rồi bớt đi $7$:
+  $$9\times7=70-7=63.$$
+  **Kiểm tra.** $6+3=9$, đúng với mẹo tổng hai chữ số.
 
-  **Lời giải.** Ta chia $5$ cho $4$ và viết thương thành phân số:
-  $$5:4=\frac{5}{4}\ \text{(m)}.$$
-  Vậy mỗi bạn được $\dfrac{5}{4}$ m. Trên trục số, $\dfrac{5}{4}$ nằm sau điểm $1$ một phần tư.
-
+  Vậy $9\times7=63$.
   :::
 
-[[P9·e3bc]]
-Mọi số tự nhiên cũng viết được dưới dạng phân số.
+[[P11·5617]]
+Em cũng có thể lấy tích liền trước cộng thêm $9$.
 
-  :::example Viết số tự nhiên thành phân số
-  Viết số $6$ và số $1$ dưới dạng phân số.
-
-  **Lời giải.** Chia $6$ cho $1$ thì được $6$, nên:
-  $$6=6:1=\frac{6}{1}.$$
-  Chia $8$ cho $8$ được $1$, nên $1=\dfrac{8}{8}$. Ta có thể viết số $1$ với mẫu số bất kì (khác $0$) bằng cách cho tử số bằng mẫu số.
-
-  **Kiểm tra.** $\dfrac{6}{1}$ là $6$ phần, mỗi phần là một cái nguyên: được $6$ cái nguyên. Đúng.
+  :::example Tính $9\times8$
+  **Lời giải.** Em biết $9\times7=63$. Thêm một nhóm $9$ nữa:
+  $$9\times8=9\times7+9=63+9=72.$$
+  Vậy $9\times8=72$.
   :::
 
-[[P10·1ff5]]
-Ta cũng đi theo chiều ngược lại: đọc một phân số như một phép chia.
+[[P12·5d84]]
+Tiếp theo là phép chia.
 
-  :::example Phân số là một phép chia
-  Một sợi dây dài $9$ m được cắt thành $4$ đoạn bằng nhau. Mỗi đoạn dài bao nhiêu mét? Phân số $\dfrac{9}{4}$ là thương của phép chia nào?
+  :::example Tính $81:9$
+  **Lời giải.** Em tìm số nào nhân $9$ bằng $81$. Trong bảng nhân $9$ ta có $9\times9=81$, nên
+  $$81:9=9.$$
+  **Thử lại.** $9\times9=81$. Đúng.
 
-  **Lời giải.** Chia sợi dây thành $4$ đoạn bằng nhau nghĩa là chia $9$ cho $4$:
-  $$9:4=\frac{9}{4}\ \text{(m)}.$$
-  Vậy mỗi đoạn dài $\dfrac{9}{4}$ m, và phân số $\dfrac{9}{4}$ là thương của phép chia $9:4$.
+  Vậy $81:9=9$.
+  :::
+
+[[P13·6c1c]]
+Cuối cùng, em giải một bài toán có lời văn.
+
+  :::example Chia nhóm học sinh
+  Có $72$ học sinh chia thành các nhóm, mỗi nhóm $9$ em. Hỏi chia được bao nhiêu nhóm?
+
+  **Lời giải.** Em chia $72$ học sinh thành các nhóm $9$ em, nên em làm phép chia. Số nhóm là:
+  $$72:9=8\ \text{(nhóm)}.$$
+  **Thử lại.** $9\times8=72$. Đúng.
+
+  Vậy chia được $8$ nhóm.
   :::
 
 :::warning Những lỗi em hay gặp
-[[P11·08ed]]
-- **Viết ngược.** Sai: $2:3=\dfrac{3}{2}$. Vì sao sai: số bị chia là tử số, số chia là mẫu số. Đúng: $2:3=\dfrac{2}{3}$.
-- **Chia cho $0$.** Sai: $5:0=\dfrac{5}{0}$. Vì sao sai: không có phép chia cho $0$, và mẫu số không được bằng $0$. Đúng: số chia phải khác $0$.
-- **Nghĩ thương luôn là số tự nhiên.** Sai: $3:4$ không có thương. Vì sao sai: thương là phân số $\dfrac{3}{4}$. Đúng: $3:4=\dfrac{3}{4}$.
+[[P14·fa24]]
+- **Lấy thiếu một nhóm.** Sai: $9\times6=45$. Vì sao sai: $45$ là $9\times5$, em chưa đủ $6$ nhóm. Đúng: $9\times6=45+9=54$.
+- **Cộng thay cho nhân.** Sai: $9\times3=12$. Vì sao sai: $9+3$ là phép cộng, còn $9\times3$ là $3$ nhóm $9$. Đúng: $9\times3=27$.
+- **Chia nhầm.** Sai: $81:9=8$. Vì sao sai: $9\times8=72$, không phải $81$. Đúng: $9\times9=81$ nên $81:9=9$.
+- **Quên đơn vị.** Sai: "Đáp số: $8$". Đúng: "Đáp số: $8$ nhóm".
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - phép chia | division
-  - thương | quotient
+  - bảng nhân 9 | 9 times table
+  - bảng chia 9 | division facts for 9
+  - thừa số | factor
+  - tích | product
   - số bị chia | dividend
   - số chia | divisor
-  - số tự nhiên | whole number
-  - chia đều | share equally
-  - phân số | fraction
+  - thương | quotient
+  - tổng hai chữ số | sum of the two digits
   :::
 
 ## Tóm tắt
 
-[[P12·794a]]
-- $a:b=\dfrac{a}{b}$ với $b\neq0$: số bị chia là tử số, số chia là mẫu số.
-- Ví dụ: $3:4=\dfrac{3}{4}$.
-- Phân số có thể có tử số lớn hơn mẫu số, ví dụ $5:4=\dfrac{5}{4}$.
-- Số tự nhiên $a$ viết được thành $\dfrac{a}{1}$; số $1$ viết được thành $\dfrac{b}{b}$.
-- Không chia cho $0$.
+[[P15·64af]]
+- Bảng nhân $9$: $9,\ 18,\ 27,\ 36,\ 45,\ 54,\ 63,\ 72,\ 81,\ 90$.
+- Mẹo: $9\times n=10\times n-n$. Hoặc $9\times n=9\times(n-1)+9$.
+- Các tích có hai chữ số trong bảng nhân $9$ có tổng hai chữ số bằng $9$.
+- Từ $9\times a=b$ ta có $b:9=a$ và $b:a=9$.
+- Ghi đơn vị trong đáp số; thử lại phép chia bằng phép nhân.
 
 ## Luyện tập
 
-[[P13·824d]]
+[[P16·824d]]
 Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -600,23 +716,11 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
-   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -626,137 +730,172 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 
-######## BÀI g4/fractions-and-division – BẢN TIẾNG ANH ########
+######## BÀI g3/nine-times-table – BẢN TIẾNG ANH ########
 ---
-title: Fractions and division of whole numbers
-description: Learn that the answer to dividing one whole number by another can be written as a fraction, and that every whole number can be written as a fraction.
+title: The 9 times table and dividing by 9
+description: Learn the 9 times table with the trick of taking 10 times and subtracting, or adding 9 each time, then use it to divide by 9 and solve word problems.
 minutes: 15
 ---
 
   :::goals
-  - Know that the quotient of two whole numbers ($a\div b$, $b\neq0$) can be written as the fraction $\dfrac{a}{b}$.
-  - Write a whole number as a fraction.
-  - Solve sharing problems whose answer is a fraction.
+  - Know and build the 9 times table.
+  - Use the 9 times table to divide by 9.
+  - Solve a word problem with one multiplication or one division.
   :::
 
-[[P1·c48d]]
-A teacher shares $3$ cakes equally among $4$ children. What part of a cake does each child get?
+[[P1·b17b]]
+Each box holds $9$ coloured pencils. How many pencils are in $4$ such boxes?
 
-[[P2·777a]]
-You know that $12\div4=3$. But $3\div4$ does not divide exactly, and we need a new kind of number to write the answer. That number is the fraction you have just learned.
+[[P2·cd76]]
+You could add $9+9+9+9$, but adding many times is slow. This lesson helps you work it out quickly with the $9$ times table.
 
 ## Let's explore
 
-[[P3·f45b]]
-We share step by step.
+[[P3·e09e]]
+Each box is a group of $9$ pencils. We add one box at a time:
 
-[[P4·9d67]]
-- Cut each cake into $4$ equal pieces. Each piece is $\dfrac{1}{4}$ of a cake.
-- Each child takes $1$ piece from the first cake, $1$ piece from the second cake and $1$ piece from the third cake.
-- So each child has $3$ pieces, and each piece is $\dfrac{1}{4}$ of a cake.
+[[P4·f3a8]]
+- $1$ box: $9$ pencils.
+- $2$ boxes: $9+9=18$ pencils.
+- $3$ boxes: $18+9=27$ pencils.
+- $4$ boxes: $27+9=36$ pencils.
 
-[[P5·cf10]]
-Each child gets $\dfrac{3}{4}$ of a cake. So $3\div4=\dfrac{3}{4}$.
+[[P5·d93c]]
+So $4$ boxes hold $36$ pencils, that is $9\times4=36$. Each new box adds $9$ to the product.
 
-:::graph On the number line: 3 ÷ 4 is the point 3/4, between 0 and 1
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::graph On the number line: every jump is 9
+   (… 11 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::theorem Fractions and division
-  The quotient of a whole number $a$ divided by a whole number $b$ (not $0$) can be written as the fraction with numerator $a$ and denominator $b$:
-  $$a\div b=\frac{a}{b}.$$
+[[P6·e77a]]
+Here is a nice trick: $9=10-1$, so $9\times4=10\times4-4=40-4=36$.
+
+  :::theorem The 9 times table
+  To work out $9\times n$, take $10\times n$ and subtract $n$. You can also take $9\times(n-1)$ and add $9$.
+
+  | $9\times1$ | $9\times2$ | $9\times3$ | $9\times4$ | $9\times5$ |
+  |---|---|---|---|---|
+  | $9$ | $18$ | $27$ | $36$ | $45$ |
+
+  | $9\times6$ | $9\times7$ | $9\times8$ | $9\times9$ | $9\times10$ |
+  |---|---|---|---|---|
+  | $54$ | $63$ | $72$ | $81$ | $90$ |
   :::
 
-[[P6·e555]]
-This is true because sharing $a$ cakes equally among $b$ children gives each child $a$ pieces, and each piece is $\dfrac{1}{b}$ of a cake, which is $\dfrac{a}{b}$.
+[[P7·1a85]]
+Notice: every two-digit product in the $9$ times table has digits that add up to $9$. For example, $63$ has $6+3=9$.
+
+[[P8·4cd3]]
+The division facts for $9$ come from the $9$ times table. Since $9\times4=36$, we have $36\div9=4$. If you put $36$ pencils into boxes of $9$, you fill $4$ boxes.
 
 ## Examples
 
-[[P7·a345]]
-We start with a division where the number being divided is smaller than the divisor.
+[[P9·131f]]
+We start with the trick of taking $10$ times and subtracting.
 
-  :::example Sharing cakes
-  Share $2$ cakes equally among $5$ children. What part of a cake does each child get?
-
-  **Solution.** Divide the number of cakes by the number of children, and write the quotient as a fraction:
-  $$2\div5=\frac{2}{5}.$$
-  So each child gets $\dfrac{2}{5}$ of a cake.
+  :::example Work out $9\times4$
+  **Solution.** $9$ is one less than $10$, so $9\times4$ is $10\times4$ minus $4$:
+  $$9\times4=40-4=36.$$
+  So $9\times4=36$.
   :::
 
-[[P8·1701]]
-When the number being divided is larger than the divisor, the numerator is larger than the denominator. This is still fine.
+[[P10·4a56]]
+Now a bigger number.
 
-  :::example Sharing ribbon
-  Share $5$ m of ribbon equally among $4$ children. How many metres does each child get?
+  :::example Work out $9\times7$
+  **Solution.** Take $10\times7$ and subtract $7$:
+  $$9\times7=70-7=63.$$
+  **Check.** $6+3=9$, which fits the digit-sum trick.
 
-  **Solution.** Divide $5$ by $4$ and write the quotient as a fraction:
-  $$5\div4=\frac{5}{4}\ \text{(m)}.$$
-  So each child gets $\dfrac{5}{4}$ m. On the number line, $\dfrac{5}{4}$ lies one quarter past the point $1$.
+  So $9\times7=63$.
   :::
 
-[[P9·3a56]]
-Every whole number can also be written as a fraction.
+[[P11·10ca]]
+You can also take the product before and add $9$.
 
-  :::example Writing a whole number as a fraction
-  Write the number $6$ and the number $1$ as fractions.
-
-  **Solution.** $6$ divided by $1$ is $6$, so:
-  $$6=6\div1=\frac{6}{1}.$$
-  $8$ divided by $8$ is $1$, so $1=\dfrac{8}{8}$. We can write $1$ with any denominator (not $0$) by making the numerator equal to the denominator.
-
-  **Check.** $\dfrac{6}{1}$ is $6$ parts, and each part is a whole one: that makes $6$ wholes. Correct.
+  :::example Work out $9\times8$
+  **Solution.** You know $9\times7=63$. Add one more group of $9$:
+  $$9\times8=9\times7+9=63+9=72.$$
+  So $9\times8=72$.
   :::
 
-[[P10·adcd]]
-We can also go the other way: read a fraction as a division.
+[[P12·87cc]]
+Next, division.
 
-  :::example A fraction is a division
-  A rope $9$ m long is cut into $4$ equal pieces. How long is each piece? Which division has the fraction $\dfrac{9}{4}$ as its quotient?
+  :::example Work out $81\div9$
+  **Solution.** Ask: which number times $9$ makes $81$? In the $9$ times table, $9\times9=81$, so
+  $$81\div9=9.$$
+  **Check.** $9\times9=81$. Correct.
 
-  **Solution.** Cutting the rope into $4$ equal pieces means dividing $9$ by $4$:
-  $$9\div4=\frac{9}{4}\ \text{(m)}.$$
-  So each piece is $\dfrac{9}{4}$ m long, and the fraction $\dfrac{9}{4}$ is the quotient of $9\div4$.
+  So $81\div9=9$.
+  :::
+
+[[P13·4169]]
+Finally, a word problem.
+
+  :::example Groups of pupils
+  $72$ pupils are split into groups of $9$. How many groups are there?
+
+  **Solution.** We split $72$ pupils into groups of $9$, so we divide. The number of groups is:
+  $$72\div9=8\ \text{(groups)}.$$
+  **Check.** $9\times8=72$. Correct.
+
+  So there are $8$ groups.
   :::
 
 :::warning Mistakes to watch out for
-[[P11·2167]]
-- **Writing it the wrong way round.** Wrong: $2\div3=\dfrac{3}{2}$. Why it is wrong: the number being divided is the numerator and the divisor is the denominator. Right: $2\div3=\dfrac{2}{3}$.
-- **Dividing by $0$.** Wrong: $5\div0=\dfrac{5}{0}$. Why it is wrong: we cannot divide by $0$, and the denominator cannot be $0$. Right: the divisor must not be $0$.
-- **Thinking the quotient is always a whole number.** Wrong: $3\div4$ has no quotient. Why it is wrong: the quotient is the fraction $\dfrac{3}{4}$. Right: $3\div4=\dfrac{3}{4}$.
+[[P14·b9ea]]
+- **Taking one group too few.** Wrong: $9\times6=45$. Why it is wrong: $45$ is $9\times5$, so you have only $5$ groups. Right: $9\times6=45+9=54$.
+- **Adding instead of multiplying.** Wrong: $9\times3=12$. Why it is wrong: $9+3$ is an addition, but $9\times3$ means $3$ groups of $9$. Right: $9\times3=27$.
+- **Dividing wrongly.** Wrong: $81\div9=8$. Why it is wrong: $9\times8=72$, not $81$. Right: $9\times9=81$, so $81\div9=9$.
+- **Forgetting the unit.** Wrong: "Answer: $8$". Right: "Answer: $8$ groups".
 :::
 
 ## Key terms
 
   :::terms
-  - division | phép chia
-  - quotient | thương
+  - 9 times table | bảng nhân 9
+  - division facts for 9 | bảng chia 9
+  - factor | thừa số
+  - product | tích
   - dividend | số bị chia
   - divisor | số chia
-  - whole number | số tự nhiên
-  - share equally | chia đều
-  - fraction | phân số
+  - quotient | thương
+  - sum of the two digits | tổng hai chữ số
   :::
 
 ## Summary
 
-[[P12·faa0]]
-- $a\div b=\dfrac{a}{b}$ with $b\neq0$: the dividend is the numerator and the divisor is the denominator.
-- Example: $3\div4=\dfrac{3}{4}$.
-- A fraction can have a numerator larger than its denominator, for example $5\div4=\dfrac{5}{4}$.
-- A whole number $a$ can be written as $\dfrac{a}{1}$; the number $1$ can be written as $\dfrac{b}{b}$.
-- We never divide by $0$.
+[[P15·aaeb]]
+- The $9$ times table: $9,\ 18,\ 27,\ 36,\ 45,\ 54,\ 63,\ 72,\ 81,\ 90$.
+- Trick: $9\times n=10\times n-n$. Or $9\times n=9\times(n-1)+9$.
+- Two-digit products in the $9$ times table have digits that add up to $9$.
+- From $9\times a=b$ we get $b\div9=a$ and $b\div a=9$.
+- Write the unit in the answer; check a division with a multiplication.
 
 ## Practice
 
-[[P13·2a6a]]
+[[P16·2a6a]]
 Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -764,23 +903,11 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge
-   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test

@@ -6,7 +6,7 @@ Kết quả: file Nguyenchanh2358-07-LG-ketqua.md, lưu vào Dropbox Lemonmath.c
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Nguyenchanh2358-07-LG
-Người làm: tài khoản Nguyenchanh2358. Gói này có 44 bài tập thuộc 7 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Nguyenchanh2358. Gói này có 45 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Nguyenchanh2358-07-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/7). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Nguyenchanh2358-07-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,1059 +189,904 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g8/polynomials-several-variables (5 bài tập)
-- g8/possible-favourable-outcomes (9 bài tập)
-- g8/pythagoras-theorem (10 bài tập)
-- g8/quadrilaterals (5 bài tập)
-- g8/rectangles (3 bài tập)
-- g8/regular-triangular-pyramids (9 bài tập)
-- g8/rhombuses-and-squares (3 bài tập)
+- g5/g5-review-decimals-percent (8 bài tập)
+- g5/g5-review-geometry-measures (9 bài tập)
+- g5/g5-review-motion-word-problems (10 bài tập)
+- g5/g5-review-numbers-fractions (9 bài tập)
+- g5/introducing-decimals (9 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g8/polynomials-several-variables
-Bài học: Đa thức. Phép cộng và phép trừ đa thức / Polynomials. Adding and subtracting polynomials
-Cần viết lại lời giải các bài: 2, 4, 5, 8, 9 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Thu gọn đa thức $Q=4x^2y-3xy+2x^2y+5xy-7$ và tìm bậc của nó.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $Q=(4x^2y+2x^2y)+(-3xy+5xy)-7=6x^2y+2xy-7$. Hạng tử $6x^2y$ có bậc $3$.
-
-Vậy $Q=6x^2y+2xy-7$ và bậc của $Q$ là $3$.
-
-**Đáp số.** $Q=6x^2y+2xy-7$; bậc $3$.
-
-[ĐỀ – EN]
-Simplify the polynomial $Q=4x^2y-3xy+2x^2y+5xy-7$ and find its degree.
-
-[LỜI GIẢI CŨ – EN]
-We have $Q=(4x^2y+2x^2y)+(-3xy+5xy)-7=6x^2y+2xy-7$. The term $6x^2y$ has degree $3$.
-
-So $Q=6x^2y+2xy-7$ and the degree of $Q$ is $3$.
-
-**Answer.** $Q=6x^2y+2xy-7$; degree $3$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Cho $A=2x^2-3x+5$ và $B=-x^2+4x-1$. Tính $A+B$ và $A-B$.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $A+B=(2x^2-x^2)+(-3x+4x)+(5-1)=x^2+x+4$.
-
-Ta có $A-B=2x^2-3x+5+x^2-4x+1=(2x^2+x^2)+(-3x-4x)+(5+1)=3x^2-7x+6$.
-
-Vậy $A+B=x^2+x+4$ và $A-B=3x^2-7x+6$.
-
-**Đáp số.** $x^2+x+4$; $3x^2-7x+6$.
-
-[ĐỀ – EN]
-Let $A=2x^2-3x+5$ and $B=-x^2+4x-1$. Find $A+B$ and $A-B$.
-
-[LỜI GIẢI CŨ – EN]
-We have $A+B=(2x^2-x^2)+(-3x+4x)+(5-1)=x^2+x+4$.
-
-We have $A-B=2x^2-3x+5+x^2-4x+1=(2x^2+x^2)+(-3x-4x)+(5+1)=3x^2-7x+6$.
-
-So $A+B=x^2+x+4$ and $A-B=3x^2-7x+6$.
-
-**Answer.** $x^2+x+4$; $3x^2-7x+6$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Cho $M=x^2+2xy-y^2$ và $N=3x^2-xy+2y^2$. Tính $M+N$ và $M-N$.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $M+N=(x^2+3x^2)+(2xy-xy)+(-y^2+2y^2)=4x^2+xy+y^2$.
-
-Ta có $M-N=x^2+2xy-y^2-3x^2+xy-2y^2=(x^2-3x^2)+(2xy+xy)+(-y^2-2y^2)=-2x^2+3xy-3y^2$.
-
-Vậy $M+N=4x^2+xy+y^2$ và $M-N=-2x^2+3xy-3y^2$.
-
-**Đáp số.** $4x^2+xy+y^2$; $-2x^2+3xy-3y^2$.
-
-[ĐỀ – EN]
-Let $M=x^2+2xy-y^2$ and $N=3x^2-xy+2y^2$. Find $M+N$ and $M-N$.
-
-[LỜI GIẢI CŨ – EN]
-We have $M+N=(x^2+3x^2)+(2xy-xy)+(-y^2+2y^2)=4x^2+xy+y^2$.
-
-We have $M-N=x^2+2xy-y^2-3x^2+xy-2y^2=(x^2-3x^2)+(2xy+xy)+(-y^2-2y^2)=-2x^2+3xy-3y^2$.
-
-So $M+N=4x^2+xy+y^2$ and $M-N=-2x^2+3xy-3y^2$.
-
-**Answer.** $4x^2+xy+y^2$; $-2x^2+3xy-3y^2$.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Nhớ lại bài về hình hộp chữ nhật. Một hình hộp chữ nhật có đáy dài $(x+3)$ cm, rộng $x$ cm và cao $5$ cm. Viết đa thức biểu thị diện tích xung quanh, rồi tính khi $x=4$.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $a+b=(x+3)+x=2x+3$. Do đó $S_{xq}=2(2x+3)\cdot5=20x+30\ (\text{cm}^2)$.
-
-Khi $x=4$, $S_{xq}=20\cdot4+30=110\ (\text{cm}^2)$. (Kiểm tra: $a=7$, $b=4$, $2(7+4)\cdot5=110$.)
-
-Vậy $S_{xq}=20x+30\ (\text{cm}^2)$ và bằng $110\ \text{cm}^2$ khi $x=4$.
-
-**Đáp số.** $20x+30$; $110\ \text{cm}^2$.
-
-[ĐỀ – EN]
-Recall the lesson on cuboids. A cuboid has a base of length $(x+3)$ cm and width $x$ cm, and height $5$ cm. Write a polynomial for the lateral surface area, then find it when $x=4$.
-
-[LỜI GIẢI CŨ – EN]
-We have $a+b=(x+3)+x=2x+3$. Hence the lateral surface area is $2(2x+3)\cdot5=20x+30\ (\text{cm}^2)$.
-
-When $x=4$, it is $20\cdot4+30=110\ (\text{cm}^2)$. (Check: $a=7$, $b=4$, $2(7+4)\cdot5=110$.)
-
-So the lateral surface area is $20x+30\ (\text{cm}^2)$, which equals $110\ \text{cm}^2$ when $x=4$.
-
-**Answer.** $20x+30$; $110\ \text{cm}^2$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Tìm đa thức $C$ sao cho $C+(x^2-2xy)=3x^2+xy-y^2$.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $C=(3x^2+xy-y^2)-(x^2-2xy)=3x^2+xy-y^2-x^2+2xy=2x^2+3xy-y^2$.
-
-Vậy $C=2x^2+3xy-y^2$.
-
-**Đáp số.** $C=2x^2+3xy-y^2$.
-
-[ĐỀ – EN]
-Find the polynomial $C$ such that $C+(x^2-2xy)=3x^2+xy-y^2$.
-
-[LỜI GIẢI CŨ – EN]
-We have $C=(3x^2+xy-y^2)-(x^2-2xy)=3x^2+xy-y^2-x^2+2xy=2x^2+3xy-y^2$.
-
-So $C=2x^2+3xy-y^2$.
-
-**Answer.** $C=2x^2+3xy-y^2$.
-
-
-######################################################################
-@@@ g8/possible-favourable-outcomes
-Bài học: Kết quả có thể và kết quả thuận lợi. Cách tính xác suất của biến cố bằng tỉ số / Possible outcomes and favourable outcomes. Calculating probability as a ratio
-Cần viết lại lời giải các bài: 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Rút ngẫu nhiên một thẻ từ $12$ thẻ đánh số từ $1$ đến $12$. Tính xác suất để số trên thẻ:
-
-a) chia hết cho $4$;
-
-b) có hai chữ số;
-
-c) là số nguyên tố.
-
-[LỜI GIẢI CŨ – VI]
-Có $n=12$ kết quả có thể.
-
-a) Các số chia hết cho $4$ là $4$, $8$, $12$: $k=3$, xác suất $\dfrac3{12}=\dfrac14$.
-
-b) Các số có hai chữ số là $10$, $11$, $12$: $k=3$, xác suất $\dfrac3{12}=\dfrac14$.
-
-c) Các số nguyên tố là $2$, $3$, $5$, $7$, $11$: $k=5$, xác suất $\dfrac{5}{12}$.
-
-**Đáp số.** a) $\dfrac14$. b) $\dfrac14$. c) $\dfrac5{12}$.
-
-[ĐỀ – EN]
-A card is drawn at random from $12$ cards numbered $1$ to $12$. Find the probability that the number on the card:
-
-a) is divisible by $4$;
-
-b) has two digits;
-
-c) is a prime number.
-
-[LỜI GIẢI CŨ – EN]
-There are $n=12$ possible outcomes.
-
-a) The numbers divisible by $4$ are $4$, $8$, $12$: $k=3$, probability $\dfrac3{12}=\dfrac14$.
-
-b) The numbers with two digits are $10$, $11$, $12$: $k=3$, probability $\dfrac3{12}=\dfrac14$.
-
-c) The prime numbers are $2$, $3$, $5$, $7$, $11$: $k=5$, probability $\dfrac{5}{12}$.
-
-**Answer.** a) $\dfrac14$. b) $\dfrac14$. c) $\dfrac5{12}$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Một hộp có $4$ bi trắng và $6$ bi đen, cùng kích thước. Lấy ngẫu nhiên một bi. Tính xác suất lấy được bi trắng, bi đen và tổng hai xác suất đó.
-
-[LỜI GIẢI CŨ – VI]
-Có $n=10$ kết quả có thể. Xác suất lấy bi trắng là $\dfrac{4}{10}=\dfrac25$; xác suất lấy bi đen là $\dfrac{6}{10}=\dfrac35$. Tổng hai xác suất là $\dfrac25+\dfrac35=1$, vì hai biến cố là đối nhau.
-
-**Đáp số.** $\dfrac25$; $\dfrac35$; tổng bằng $1$.
-
-[ĐỀ – EN]
-A box holds $4$ white and $6$ black marbles of the same size. One marble is taken at random. Find the probability of taking a white marble, a black marble, and the sum of these two probabilities.
-
-[LỜI GIẢI CŨ – EN]
-There are $n=10$ possible outcomes. The probability of a white marble is $\dfrac{4}{10}=\dfrac25$; the probability of a black marble is $\dfrac{6}{10}=\dfrac35$. The sum is $\dfrac25+\dfrac35=1$, because the two events are complementary.
-
-**Answer.** $\dfrac25$; $\dfrac35$; the sum is $1$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Một vòng quay chia thành $8$ phần bằng nhau, đánh số từ $1$ đến $8$. Tính xác suất của các biến cố:
-
-a) $A$: "số chẵn lớn hơn $4$".
-
-b) $B$: "số nhỏ hơn $9$".
-
-c) $C$: "số $10$".
-
-[LỜI GIẢI CŨ – VI]
-Có $n=8$ kết quả có thể.
-
-a) Các số chẵn lớn hơn $4$ là $6$ và $8$: $k=2$, $P(A)=\dfrac28=\dfrac14$.
-
-b) Mọi số từ $1$ đến $8$ đều nhỏ hơn $9$: $k=8$, $P(B)=1$.
-
-c) Không có số $10$ trên vòng quay: $k=0$, $P(C)=0$.
-
-**Đáp số.** a) $\dfrac14$. b) $1$. c) $0$.
-
-[ĐỀ – EN]
-A wheel is divided into $8$ equal parts numbered $1$ to $8$. Find the probability of each event:
-
-a) $A$: "an even number greater than $4$".
-
-b) $B$: "a number less than $9$".
-
-c) $C$: "the number $10$".
-
-[LỜI GIẢI CŨ – EN]
-There are $n=8$ possible outcomes.
-
-a) The even numbers greater than $4$ are $6$ and $8$: $k=2$, $P(A)=\dfrac28=\dfrac14$.
-
-b) Every number from $1$ to $8$ is less than $9$: $k=8$, $P(B)=1$.
-
-c) There is no number $10$ on the wheel: $k=0$, $P(C)=0$.
-
-**Answer.** a) $\dfrac14$. b) $1$. c) $0$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Tung một đồng xu cân đối hai lần. Tính xác suất của biến cố "hai mặt khác nhau" và biến cố "cả hai mặt đều ngửa".
-
-[LỜI GIẢI CŨ – VI]
-Hai mặt khác nhau: $SN$ và $NS$, nên xác suất là $\dfrac24=\dfrac12$. Cả hai mặt ngửa: $NN$, nên xác suất là $\dfrac14$.
-
-**Đáp số.** $\dfrac12$; $\dfrac14$.
-
-[ĐỀ – EN]
-A fair coin is tossed twice. Find the probability of the event "the two faces are different" and the event "both faces are heads".
-
-[LỜI GIẢI CŨ – EN]
-Two different faces: $TH$ and $HT$, so the probability is $\dfrac24=\dfrac12$. Both heads: $HH$, so the probability is $\dfrac14$.
-
-**Answer.** $\dfrac12$; $\dfrac14$.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Lớp 8A có $40$ học sinh, trong đó $18$ bạn nam. Chọn ngẫu nhiên một bạn để làm trực nhật. Tính xác suất bạn được chọn là nam và là nữ.
-
-[LỜI GIẢI CŨ – VI]
-Số bạn nữ là $40-18=22$. Có $n=40$ kết quả có thể. Xác suất chọn nam là $\dfrac{18}{40}=\dfrac{9}{20}$; xác suất chọn nữ là $\dfrac{22}{40}=\dfrac{11}{20}$.
-
-Kiểm tra: $\dfrac{9}{20}+\dfrac{11}{20}=1$.
-
-**Đáp số.** $\dfrac{9}{20}$; $\dfrac{11}{20}$.
-
-[ĐỀ – EN]
-Class 8A has $40$ students, of whom $18$ are boys. One student is chosen at random for cleaning duty. Find the probability that the student chosen is a boy and the probability that it is a girl.
-
-[LỜI GIẢI CŨ – EN]
-The number of girls is $40-18=22$. There are $n=40$ possible outcomes. The probability of a boy is $\dfrac{18}{40}=\dfrac{9}{20}$; the probability of a girl is $\dfrac{22}{40}=\dfrac{11}{20}$.
-
-Check: $\dfrac{9}{20}+\dfrac{11}{20}=1$.
-
-**Answer.** $\dfrac{9}{20}$; $\dfrac{11}{20}$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Một hộp có $50$ phiếu bốc thăm giống hệt nhau, trong đó có $2$ phiếu giải nhất, $5$ phiếu giải nhì, $8$ phiếu giải ba và còn lại không trúng (giả sử). Bốc một phiếu. Tính xác suất trúng giải bất kì và xác suất không trúng.
-
-[LỜI GIẢI CŨ – VI]
-Số phiếu trúng là $2+5+8=15$ và $n=50$. Xác suất trúng giải là $\dfrac{15}{50}=\dfrac{3}{10}$. Xác suất không trúng là $1-\dfrac{3}{10}=\dfrac{7}{10}$ (có $35$ phiếu không trúng, $\dfrac{35}{50}=\dfrac7{10}$).
-
-**Đáp số.** $\dfrac3{10}$; $\dfrac7{10}$.
-
-[ĐỀ – EN]
-A box holds $50$ identical draw slips, of which $2$ are first prizes, $5$ are second prizes, $8$ are third prizes and the rest win nothing (an imagined draw). One slip is drawn. Find the probability of winning any prize and the probability of winning nothing.
-
-[LỜI GIẢI CŨ – EN]
-The number of winning slips is $2+5+8=15$ and $n=50$. The probability of winning a prize is $\dfrac{15}{50}=\dfrac{3}{10}$. The probability of winning nothing is $1-\dfrac{3}{10}=\dfrac{7}{10}$ (there are $35$ losing slips, $\dfrac{35}{50}=\dfrac7{10}$).
-
-**Answer.** $\dfrac3{10}$; $\dfrac7{10}$.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Gieo cùng lúc hai con xúc xắc cân đối. Có bao nhiêu kết quả có thể? Tính xác suất để tổng số chấm bằng $7$.
-
-[LỜI GIẢI CŨ – VI]
-Mỗi con có $6$ khả năng nên có $6\cdot6=36$ kết quả có thể, đồng khả năng. Các cặp có tổng bằng $7$ là $(1;6)$, $(2;5)$, $(3;4)$, $(4;3)$, $(5;2)$, $(6;1)$: $k=6$. Xác suất là $\dfrac{6}{36}=\dfrac16$.
-
-**Đáp số.** $36$ kết quả; $\dfrac16$.
-
-[ĐỀ – EN]
-Two fair dice are rolled at the same time. How many possible outcomes are there? Find the probability that the total number of dots is $7$.
-
-[LỜI GIẢI CŨ – EN]
-Each die has $6$ possibilities, so there are $6\cdot6=36$ possible outcomes, equally likely. The pairs with total $7$ are $(1,6)$, $(2,5)$, $(3,4)$, $(4,3)$, $(5,2)$, $(6,1)$: $k=6$. The probability is $\dfrac{6}{36}=\dfrac16$.
-
-**Answer.** $36$ outcomes; $\dfrac16$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Lập các số có hai chữ số khác nhau từ các chữ số $1$, $2$, $3$. Chọn ngẫu nhiên một số trong các số đó. Tính xác suất số được chọn là số chẵn. (Ôn lại cách viết xác suất bằng phân số tối giản.)
-
-[LỜI GIẢI CŨ – VI]
-Các số lập được là $12$, $13$, $21$, $23$, $31$, $32$, nên $n=6$. Các số chẵn là $12$ và $32$: $k=2$. Xác suất là $\dfrac26=\dfrac13$.
-
-**Đáp số.** $\dfrac13$.
-
-[ĐỀ – EN]
-Make all the two-digit numbers with different digits from the digits $1$, $2$, $3$. One of these numbers is chosen at random. Find the probability that it is even. (Revise writing a probability as a fraction in its simplest form.)
-
-[LỜI GIẢI CŨ – EN]
-The numbers are $12$, $13$, $21$, $23$, $31$, $32$, so $n=6$. The even numbers are $12$ and $32$: $k=2$. The probability is $\dfrac26=\dfrac13$.
-
-**Answer.** $\dfrac13$.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Chọn ngẫu nhiên một số tự nhiên có hai chữ số (từ $10$ đến $99$). Tính xác suất để số đó:
-
-a) chia hết cho $7$;
-
-b) có tổng các chữ số bằng $9$.
-
-[LỜI GIẢI CŨ – VI]
-Có $n=90$ kết quả có thể.
-
-a) Các bội của $7$ có hai chữ số là $14$, $21$, $28$, $\dots$, $98$, tức $7\cdot2$, $7\cdot3$, $\dots$, $7\cdot14$: có $13$ số. Xác suất là $\dfrac{13}{90}$.
-
-b) Các số có tổng chữ số bằng $9$ là $18$, $27$, $36$, $45$, $54$, $63$, $72$, $81$, $90$: có $9$ số. Xác suất là $\dfrac{9}{90}=\dfrac1{10}$.
-
-**Đáp số.** a) $\dfrac{13}{90}$. b) $\dfrac1{10}$.
-
-[ĐỀ – EN]
-A two-digit natural number (from $10$ to $99$) is chosen at random. Find the probability that it:
-
-a) is divisible by $7$;
-
-b) has digits that add up to $9$.
-
-[LỜI GIẢI CŨ – EN]
-There are $n=90$ possible outcomes.
-
-a) The two-digit multiples of $7$ are $14$, $21$, $28$, $\dots$, $98$, that is $7\cdot2$, $7\cdot3$, $\dots$, $7\cdot14$: there are $13$ of them. The probability is $\dfrac{13}{90}$.
-
-b) The numbers whose digits add up to $9$ are $18$, $27$, $36$, $45$, $54$, $63$, $72$, $81$, $90$: there are $9$ of them. The probability is $\dfrac{9}{90}=\dfrac1{10}$.
-
-**Answer.** a) $\dfrac{13}{90}$. b) $\dfrac1{10}$.
-
-
-######################################################################
-@@@ g8/pythagoras-theorem
-Bài học: Định lí Pythagore và ứng dụng / Pythagoras' theorem and its applications
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+@@@ g5/g5-review-decimals-percent
+Bài học: Ôn tập: số thập phân và tỉ số phần trăm / Review: decimals and percentages
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Tính cạnh huyền của tam giác vuông có hai cạnh góc vuông:
-
-a) $9$ và $12$.
-
-b) $7$ và $24$.
+Viết mỗi phân số sau dưới dạng số thập phân và dạng tỉ số phần trăm: a) $\dfrac{3}{4}$; b) $\dfrac{7}{20}$.
 
 [LỜI GIẢI CŨ – VI]
-a) $c^2=81+144=225$ nên $c=15$.
+a) $3:4=0{,}75=75\%$. b) $\dfrac{7}{20}=\dfrac{35}{100}=0{,}35=35\%$.
 
-b) $c^2=49+576=625$ nên $c=25$.
-
-**Đáp số.** a) $15$. b) $25$.
+**Đáp số.** a) $0{,}75=75\%$; b) $0{,}35=35\%$.
 
 [ĐỀ – EN]
-Find the hypotenuse of a right-angled triangle whose legs are:
-
-a) $9$ and $12$.
-
-b) $7$ and $24$.
+Write each fraction as a decimal and as a percentage: a) $\dfrac{3}{4}$; b) $\dfrac{7}{20}$.
 
 [LỜI GIẢI CŨ – EN]
-a) $c^2=81+144=225$, so $c=15$.
+a) $3\div4=0.75=75\%$. b) $\dfrac{7}{20}=\dfrac{35}{100}=0.35=35\%$.
 
-b) $c^2=49+576=625$, so $c=25$.
-
-**Answer.** a) $15$. b) $25$.
+**Answer.** a) $0.75=75\%$; b) $0.35=35\%$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Tính cạnh góc vuông còn lại của tam giác vuông biết:
-
-a) cạnh huyền $17$, một cạnh góc vuông $8$.
-
-b) cạnh huyền $10$, một cạnh góc vuông $6$.
+Tính: a) $25{,}4-8{,}75$; b) $4{,}8\times0{,}25$; c) $9{,}6:0{,}8$.
 
 [LỜI GIẢI CŨ – VI]
-a) $a^2=289-64=225$ nên $a=15$.
+a) $25{,}40-8{,}75=16{,}65$.
+b) $48\times25=1\,200$ và có $1+2=3$ chữ số thập phân, nên $4{,}8\times0{,}25=1{,}2$.
+c) $9{,}6:0{,}8=96:8=12$.
 
-b) $a^2=100-36=64$ nên $a=8$.
-
-**Đáp số.** a) $15$. b) $8$.
+**Đáp số.** a) $16{,}65$; b) $1{,}2$; c) $12$.
 
 [ĐỀ – EN]
-Find the remaining leg of a right-angled triangle given:
-
-a) hypotenuse $17$, one leg $8$.
-
-b) hypotenuse $10$, one leg $6$.
+Work out: a) $25.4-8.75$; b) $4.8\times0.25$; c) $9.6\div0.8$.
 
 [LỜI GIẢI CŨ – EN]
-a) $a^2=289-64=225$, so $a=15$.
+a) $25.40-8.75=16.65$.
+b) $48\times25=1\,200$, and there are $1+2=3$ decimal places, so $4.8\times0.25=1.2$.
+c) $9.6\div0.8=96\div8=12$.
 
-b) $a^2=100-36=64$, so $a=8$.
-
-**Answer.** a) $15$. b) $8$.
+**Answer.** a) $16.65$; b) $1.2$; c) $12$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Tam giác vuông có hai cạnh góc vuông là $4$ và $7$. Tính cạnh huyền (làm tròn đến hai chữ số thập phân).
+Điền dấu $>$, $<$ hoặc $=$: a) $7{,}305\;\square\;7{,}35$; b) $0{,}6\;\square\;65\%$; c) $\dfrac{2}{5}\;\square\;40\%$.
 
 [LỜI GIẢI CŨ – VI]
-$c^2=16+49=65$ nên $c=\sqrt{65}\approx8{,}06$.
+a) Hai số có hàng phần mười đều là $3$; hàng phần trăm là $0$ và $5$, nên $7{,}305<7{,}35$.
+b) $65\%=0{,}65$ và $0{,}6=0{,}60$, nên $0{,}6<65\%$.
+c) $\dfrac{2}{5}=2:5=0{,}4=40\%$, nên hai số bằng nhau.
 
-**Đáp số.** $\sqrt{65}\approx8{,}06$.
+**Đáp số.** a) $<$; b) $<$; c) $=$.
 
 [ĐỀ – EN]
-A right-angled triangle has legs $4$ and $7$. Find the hypotenuse (to 2 decimal places).
+Write $>$, $<$ or $=$ in the box: a) $7.305\;\square\;7.35$; b) $0.6\;\square\;65\%$; c) $\dfrac{2}{5}\;\square\;40\%$.
 
 [LỜI GIẢI CŨ – EN]
-$c^2=16+49=65$, so $c=\sqrt{65}\approx8.06$.
+a) Both have tenths digit $3$; the hundredths digits are $0$ and $5$, so $7.305<7.35$.
+b) $65\%=0.65$ and $0.6=0.60$, so $0.6<65\%$.
+c) $\dfrac{2}{5}=2\div5=0.4=40\%$, so the two are equal.
 
-**Answer.** $\sqrt{65}\approx8.06$.
+**Answer.** a) $<$; b) $<$; c) $=$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tam giác nào là tam giác vuông?
-
-a) Các cạnh $7$, $24$, $25$.
-
-b) Các cạnh $8$, $10$, $12$.
-
-c) Các cạnh $9$, $40$, $41$.
+Lan chạy $1{,}2$ km, Mai chạy $1{,}5$ km. Quãng đường Lan chạy bằng bao nhiêu phần trăm quãng đường Mai chạy?
 
 [LỜI GIẢI CŨ – VI]
-a) $25^2=625$ và $7^2+24^2=49+576=625$: vuông.
+$1{,}2:1{,}5=12:15=0{,}8=80\%$.
 
-b) $12^2=144$ và $8^2+10^2=164$: không vuông.
-
-c) $41^2=1681$ và $9^2+40^2=81+1600=1681$: vuông.
-
-**Đáp số.** a) và c) là tam giác vuông.
+**Đáp số.** $80\%$.
 
 [ĐỀ – EN]
-Which triangle is right-angled?
-
-a) Sides $7$, $24$, $25$.
-
-b) Sides $8$, $10$, $12$.
-
-c) Sides $9$, $40$, $41$.
+Lan runs $1.2$ km and Mai runs $1.5$ km. What percentage of Mai's distance is Lan's distance?
 
 [LỜI GIẢI CŨ – EN]
-a) $25^2=625$ and $7^2+24^2=49+576=625$: right-angled.
+$1.2\div1.5=12\div15=0.8=80\%$.
 
-b) $12^2=144$ and $8^2+10^2=164$: not right-angled.
-
-c) $41^2=1681$ and $9^2+40^2=81+1600=1681$: right-angled.
-
-**Answer.** a) and c) are right-angled.
+**Answer.** $80\%$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Tính đường chéo của hình chữ nhật có hai cạnh $15$ và $8$, và của hình vuông cạnh $5$ (làm tròn đến hai chữ số thập phân).
+Một trường có $1\,250$ học sinh, trong đó $48\%$ là học sinh nữ. Hỏi trường có bao nhiêu học sinh nam?
 
 [LỜI GIẢI CŨ – VI]
-Hình chữ nhật: $d=\sqrt{15^2+8^2}=\sqrt{289}=17$. Hình vuông: $d=\sqrt{25+25}=\sqrt{50}=5\sqrt2\approx7{,}07$.
+Số học sinh nữ là $1\,250\times48:100=600$ (em).
+Số học sinh nam là $1\,250-600=650$ (em).
 
-**Đáp số.** $17$; $5\sqrt2\approx7{,}07$.
+**Đáp số.** $650$ học sinh nam.
 
 [ĐỀ – EN]
-Find the diagonal of a rectangle with sides $15$ and $8$, and of a square with side $5$ (to 2 decimal places).
+A school has $1\,250$ pupils, and $48\%$ of them are girls. How many boys are there?
 
 [LỜI GIẢI CŨ – EN]
-Rectangle: $d=\sqrt{15^2+8^2}=\sqrt{289}=17$. Square: $d=\sqrt{25+25}=\sqrt{50}=5\sqrt2\approx7.07$.
+The number of girls is $1\,250\times48\div100=600$.
+The number of boys is $1\,250-600=650$.
 
-**Answer.** $17$; $5\sqrt2\approx7.07$.
+**Answer.** $650$ boys.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Giả sử một chiếc thang dài $6{,}5$ m dựa vào tường thẳng đứng, chân thang cách tường $2{,}5$ m. Đầu thang chạm tường ở độ cao bao nhiêu?
+Em hãy nhớ lại bài trước về phân số. Một bể nước: buổi sáng người ta dùng $\dfrac{2}{5}$ lượng nước ban đầu, buổi chiều dùng $35\%$ lượng nước ban đầu. Lúc này bể còn $100$ lít. Hỏi lúc đầu bể có bao nhiêu lít nước?
 
 [LỜI GIẢI CŨ – VI]
-$h^2=42{,}25-6{,}25=36$ nên $h=6$.
+Vì $\dfrac{2}{5}=40\%$ nên đã dùng $40\%+35\%=75\%$ lượng nước, và còn lại $100\%-75\%=25\%$.
+$25\%$ lượng nước là $100$ lít, nên lúc đầu bể có $100:25\times100=400$ (lít).
 
-Kiểm tra: $2{,}5^2+6^2=6{,}25+36=42{,}25=6{,}5^2$.
+**Kiểm tra.** $\dfrac{2}{5}\times400=160$ và $35\%\times400=140$; $400-160-140=100$. Đúng.
 
-Vậy đầu thang cao $6$ m.
-
-**Đáp số.** $6$ m.
+**Đáp số.** $400$ lít.
 
 [ĐỀ – EN]
-Suppose a ladder $6.5$ m long leans against a vertical wall, with its foot $2.5$ m from the wall. How high up the wall does the top of the ladder reach?
+Remember the last lesson on fractions. A water tank is used like this: in the morning $\dfrac{2}{5}$ of the original water is used, and in the afternoon $35\%$ of the original water is used. Now $100$ litres are left. How many litres were in the tank at first?
 
 [LỜI GIẢI CŨ – EN]
-$h^2=42.25-6.25=36$, so $h=6$.
+Since $\dfrac{2}{5}=40\%$, the amount used is $40\%+35\%=75\%$, so $100\%-75\%=25\%$ is left.
+$25\%$ of the water is $100$ litres, so at first there were $100\div25\times100=400$ litres.
 
-Check: $2.5^2+6^2=6.25+36=42.25=6.5^2$.
+**Check.** $\dfrac{2}{5}\times400=160$ and $35\%\times400=140$; $400-160-140=100$. Correct.
 
-So the top of the ladder is $6$ m high.
-
-**Answer.** $6$ m.
+**Answer.** $400$ litres.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Giả sử một chiếc tivi có chiều rộng $96$ cm và chiều cao $54$ cm. Tính đường chéo màn hình theo cm (làm tròn đến hàng đơn vị) và theo inch (biết $1$ inch $=2{,}54$ cm, làm tròn đến hàng đơn vị).
+Một đôi giày được giảm giá $25\%$ và có giá sau khi giảm là $150\,000$ đồng. a) Giá ban đầu của đôi giày là bao nhiêu đồng? b) Số tiền được giảm là bao nhiêu đồng?
 
 [LỜI GIẢI CŨ – VI]
-$d^2=9\,216+2\,916=12\,132$, nên $d=\sqrt{12\,132}\approx110$ (cm). Đổi sang inch: $\dfrac{110{,}14}{2{,}54}\approx43{,}4\approx43$ (inch).
+a) $150\,000$ đồng là $75\%$ giá ban đầu, nên giá ban đầu là $150\,000:75\times100=200\,000$ (đồng).
+b) Số tiền được giảm là $200\,000-150\,000=50\,000$ (đồng). Đây cũng là $25\%$ của $200\,000$.
 
-**Đáp số.** Khoảng $110$ cm, tức khoảng $43$ inch.
+**Đáp số.** a) $200\,000$ đồng; b) $50\,000$ đồng.
 
 [ĐỀ – EN]
-Suppose a television screen is $96$ cm wide and $54$ cm high. Find the diagonal of the screen in cm (to the nearest whole number) and in inches (given $1$ inch $=2.54$ cm, to the nearest whole number).
+A pair of shoes has a $25\%$ discount, and the price after the discount is $150\,000$ dong. a) What was the original price, in dong? b) How much was the discount, in dong?
 
 [LỜI GIẢI CŨ – EN]
-$d^2=9\,216+2\,916=12\,132$, so $d=\sqrt{12\,132}\approx110$ (cm). In inches: $\dfrac{110.14}{2.54}\approx43.4\approx43$ (inches).
+a) $150\,000$ dong is $75\%$ of the original price, so the original price is $150\,000\div75\times100=200\,000$ dong.
+b) The discount is $200\,000-150\,000=50\,000$ dong. This is also $25\%$ of $200\,000$.
 
-**Answer.** About $110$ cm, that is about $43$ inches.
+**Answer.** a) $200\,000$ dong; b) $50\,000$ dong.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Giả sử hai tàu cùng rời cảng một lúc, một tàu đi về hướng bắc, tàu kia đi về hướng đông. Sau một thời gian, tàu thứ nhất cách cảng $12$ km, tàu thứ hai cách cảng $16$ km. Hai tàu cách nhau bao xa?
+Một chiếc áo giá $500\,000$ đồng. Tháng trước cửa hàng tăng giá $10\%$. Tháng này cửa hàng giảm giá $10\%$ so với giá đã tăng. Hỏi giá hiện nay là bao nhiêu đồng? Giá hiện nay cao hơn hay thấp hơn giá ban đầu, và chênh lệch bằng bao nhiêu phần trăm giá ban đầu?
 
 [LỜI GIẢI CŨ – VI]
-Khoảng cách là $\sqrt{12^2+16^2}=\sqrt{144+256}=\sqrt{400}=20$ (km).
+Giá sau khi tăng là $500\,000\times110:100=550\,000$ (đồng).
+Giá hiện nay là $550\,000\times90:100=495\,000$ (đồng).
+Giá hiện nay thấp hơn giá ban đầu $500\,000-495\,000=5\,000$ (đồng), và $5\,000:500\,000=0{,}01=1\%$.
 
-**Đáp số.** $20$ km.
-
-[ĐỀ – EN]
-Suppose two ships leave a port at the same time, one sailing north and the other east. After a while the first ship is $12$ km from the port and the second is $16$ km from the port. How far apart are the ships?
-
-[LỜI GIẢI CŨ – EN]
-The distance is $\sqrt{12^2+16^2}=\sqrt{144+256}=\sqrt{400}=20$ (km).
-
-**Answer.** $20$ km.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Hình thoi $ABCD$ có hai đường chéo $AC=16$ và $BD=12$ cắt nhau tại $O$. Tính cạnh của hình thoi. (Ôn lại: hai đường chéo của hình thoi vuông góc và cắt nhau tại trung điểm của mỗi đường.)
-
-[LỜI GIẢI CŨ – VI]
-Ta có $OA=\dfrac{16}{2}=8$ và $OB=\dfrac{12}{2}=6$. Tam giác $AOB$ vuông tại $O$ nên $AB^2=8^2+6^2=100$, suy ra $AB=10$.
-
-Vậy cạnh hình thoi bằng $10$.
-
-**Đáp số.** $10$.
+**Đáp số.** Giá hiện nay là $495\,000$ đồng, thấp hơn giá ban đầu $1\%$.
 
 [ĐỀ – EN]
-A rhombus $ABCD$ has diagonals $AC=16$ and $BD=12$ meeting at $O$. Find the side of the rhombus. (Recall: the diagonals of a rhombus are perpendicular and bisect each other.)
+A shirt costs $500\,000$ dong. Last month the shop raised the price by $10\%$. This month the shop lowers the price by $10\%$ of the raised price. What is the price now, in dong? Is it higher or lower than the original price, and by what percentage of the original price?
 
 [LỜI GIẢI CŨ – EN]
-We have $OA=\dfrac{16}{2}=8$ and $OB=\dfrac{12}{2}=6$. Triangle $AOB$ is right-angled at $O$, so $AB^2=8^2+6^2=100$, giving $AB=10$.
+The price after the increase is $500\,000\times110\div100=550\,000$ dong.
+The price now is $550\,000\times90\div100=495\,000$ dong.
+It is lower than the original price by $500\,000-495\,000=5\,000$ dong, and $5\,000\div500\,000=0.01=1\%$.
 
-So the side of the rhombus is $10$.
-
-**Answer.** $10$.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Với hai số nguyên dương $m>n$, đặt $a=m^2-n^2$, $b=2mn$, $c=m^2+n^2$. Chứng minh $a^2+b^2=c^2$ (tức $a$, $b$, $c$ là các cạnh của một tam giác vuông). Áp dụng với $m=3$, $n=2$.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $a^2+b^2=(m^2-n^2)^2+(2mn)^2=m^4-2m^2n^2+n^4+4m^2n^2=m^4+2m^2n^2+n^4=(m^2+n^2)^2=c^2$. Với $m=3$, $n=2$: $a=9-4=5$, $b=2\cdot3\cdot2=12$, $c=9+4=13$, và $5^2+12^2=13^2$.
-
-Vậy công thức luôn cho một bộ ba Pythagore.
-
-**Đáp số.** Đã chứng minh; $(5,12,13)$.
-
-[ĐỀ – EN]
-For positive whole numbers $m>n$, let $a=m^2-n^2$, $b=2mn$, $c=m^2+n^2$. Prove that $a^2+b^2=c^2$ (so $a$, $b$, $c$ are the sides of a right-angled triangle). Apply it with $m=3$, $n=2$.
-
-[LỜI GIẢI CŨ – EN]
-We have $a^2+b^2=(m^2-n^2)^2+(2mn)^2=m^4-2m^2n^2+n^4+4m^2n^2=m^4+2m^2n^2+n^4=(m^2+n^2)^2=c^2$. With $m=3$, $n=2$: $a=9-4=5$, $b=2\cdot3\cdot2=12$, $c=9+4=13$, and $5^2+12^2=13^2$.
-
-So the formula always gives a Pythagorean triple.
-
-**Answer.** Proved; $(5,12,13)$.
+**Answer.** The price now is $495\,000$ dong, which is $1\%$ lower than the original price.
 
 
 ######################################################################
-@@@ g8/quadrilaterals
-Bài học: Tứ giác / Quadrilaterals
-Cần viết lại lời giải các bài: 2, 3, 5, 7, 8 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Tính góc còn lại của mỗi tứ giác:
-
-a) Tứ giác $ABCD$ có $\widehat{A}=70^\circ$, $\widehat{B}=110^\circ$, $\widehat{C}=95^\circ$. Tính $\widehat{D}$.
-
-b) Tứ giác $MNPQ$ có $\widehat{M}=\widehat{N}=120^\circ$, $\widehat{P}=50^\circ$. Tính $\widehat{Q}$.
-
-[LỜI GIẢI CŨ – VI]
-a) $\widehat{D}=360^\circ-(70^\circ+110^\circ+95^\circ)=360^\circ-275^\circ=85^\circ$.
-
-b) $\widehat{Q}=360^\circ-(120^\circ+120^\circ+50^\circ)=360^\circ-290^\circ=70^\circ$.
-
-Vậy a) $\widehat{D}=85^\circ$; b) $\widehat{Q}=70^\circ$.
-
-**Đáp số.** a) $85^\circ$. b) $70^\circ$.
-
-[ĐỀ – EN]
-Find the remaining angle of each quadrilateral:
-
-a) The quadrilateral $ABCD$ has $\angle A=70^\circ$, $\angle B=110^\circ$, $\angle C=95^\circ$. Find $\angle D$.
-
-b) The quadrilateral $MNPQ$ has $\angle M=\angle N=120^\circ$, $\angle P=50^\circ$. Find $\angle Q$.
-
-[LỜI GIẢI CŨ – EN]
-a) $\angle D=360^\circ-(70^\circ+110^\circ+95^\circ)=360^\circ-275^\circ=85^\circ$.
-
-b) $\angle Q=360^\circ-(120^\circ+120^\circ+50^\circ)=360^\circ-290^\circ=70^\circ$.
-
-So a) $\angle D=85^\circ$; b) $\angle Q=70^\circ$.
-
-**Answer.** a) $85^\circ$. b) $70^\circ$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Bốn góc của một tứ giác tỉ lệ với $2$, $3$, $3$, $4$. Tính số đo mỗi góc.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $2k+3k+3k+4k=12k=360^\circ$, nên $k=30^\circ$. Các góc là $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
-
-Vậy bốn góc là $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
-
-**Đáp số.** $60^\circ$; $90^\circ$; $90^\circ$; $120^\circ$.
-
-[ĐỀ – EN]
-The four angles of a quadrilateral are in the ratio $2:3:3:4$. Find each angle.
-
-[LỜI GIẢI CŨ – EN]
-We have $2k+3k+3k+4k=12k=360^\circ$, so $k=30^\circ$. The angles are $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
-
-So the four angles are $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
-
-**Answer.** $60^\circ$; $90^\circ$; $90^\circ$; $120^\circ$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Tứ giác $ABCD$ có $\widehat{C}=60^\circ$, $\widehat{D}=90^\circ$ và $\widehat{A}=\widehat{B}$. Tính $\widehat{A}$ và $\widehat{B}$.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $\widehat{A}+\widehat{B}=360^\circ-60^\circ-90^\circ=210^\circ$. Vì $\widehat{A}=\widehat{B}$ nên mỗi góc bằng $210^\circ:2=105^\circ$.
-
-Vậy $\widehat{A}=\widehat{B}=105^\circ$.
-
-**Đáp số.** $\widehat{A}=\widehat{B}=105^\circ$.
-
-[ĐỀ – EN]
-The quadrilateral $ABCD$ has $\angle C=60^\circ$, $\angle D=90^\circ$ and $\angle A=\angle B$. Find $\angle A$ and $\angle B$.
-
-[LỜI GIẢI CŨ – EN]
-We have $\angle A+\angle B=360^\circ-60^\circ-90^\circ=210^\circ$. Since $\angle A=\angle B$, each angle equals $210^\circ\div2=105^\circ$.
-
-So $\angle A=\angle B=105^\circ$.
-
-**Answer.** $\angle A=\angle B=105^\circ$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Giả sử một sân hình tứ giác $ABCD$ có $\widehat{A}=90^\circ$, $\widehat{B}=90^\circ$ và $\widehat{C}=105^\circ$ (theo bản vẽ). Tính góc $\widehat{D}$ của sân.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $\widehat{D}=360^\circ-(90^\circ+90^\circ+105^\circ)=360^\circ-285^\circ=75^\circ$.
-
-Vậy $\widehat{D}=75^\circ$.
-
-**Đáp số.** $75^\circ$.
-
-[ĐỀ – EN]
-Suppose a yard is a quadrilateral $ABCD$ with $\angle A=90^\circ$, $\angle B=90^\circ$ and $\angle C=105^\circ$ (from the plan). Find the angle $\angle D$ of the yard.
-
-[LỜI GIẢI CŨ – EN]
-We have $\angle D=360^\circ-(90^\circ+90^\circ+105^\circ)=360^\circ-285^\circ=75^\circ$.
-
-So $\angle D=75^\circ$.
-
-**Answer.** $75^\circ$.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Giả sử một chiếc diều có hình tứ giác với hai góc ở hai bên đều bằng $105^\circ$ và góc ở đỉnh phía trên bằng $60^\circ$. Tính góc ở đỉnh phía dưới.
-
-[LỜI GIẢI CŨ – VI]
-Tổng ba góc đã biết là $105^\circ+105^\circ+60^\circ=270^\circ$. Góc ở đỉnh phía dưới là $360^\circ-270^\circ=90^\circ$.
-
-Vậy góc ở đỉnh phía dưới là $90^\circ$.
-
-**Đáp số.** $90^\circ$.
-
-[ĐỀ – EN]
-Suppose a kite is a quadrilateral whose two side angles are both $105^\circ$ and whose top angle is $60^\circ$. Find the angle at the bottom.
-
-[LỜI GIẢI CŨ – EN]
-The three known angles add up to $105^\circ+105^\circ+60^\circ=270^\circ$. The angle at the bottom is $360^\circ-270^\circ=90^\circ$.
-
-So the angle at the bottom is $90^\circ$.
-
-**Answer.** $90^\circ$.
-
-
-######################################################################
-@@@ g8/rectangles
-Bài học: Hình chữ nhật / Rectangles
-Cần viết lại lời giải các bài: 2, 5, 8 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Hình chữ nhật $ABCD$ có hai đường chéo cắt nhau tại $O$ và $\widehat{OAB}=40^\circ$. Tính $\widehat{AOB}$ và $\widehat{BOC}$.
-
-[LỜI GIẢI CŨ – VI]
-Tam giác $OAB$ cân tại $O$ nên $\widehat{OBA}=\widehat{OAB}=40^\circ$. Do đó $\widehat{AOB}=180^\circ-2\cdot40^\circ=100^\circ$. Hai góc $\widehat{AOB}$ và $\widehat{BOC}$ kề bù nên $\widehat{BOC}=80^\circ$.
-
-Vậy $\widehat{AOB}=100^\circ$ và $\widehat{BOC}=80^\circ$.
-
-**Đáp số.** $\widehat{AOB}=100^\circ$; $\widehat{BOC}=80^\circ$.
-
-[ĐỀ – EN]
-The rectangle $ABCD$ has diagonals meeting at $O$ and $\angle OAB=40^\circ$. Find $\angle AOB$ and $\angle BOC$.
-
-[LỜI GIẢI CŨ – EN]
-Triangle $OAB$ is isosceles at $O$, so $\angle OBA=\angle OAB=40^\circ$. Hence $\angle AOB=180^\circ-2\cdot40^\circ=100^\circ$. The angles $\angle AOB$ and $\angle BOC$ are supplementary, so $\angle BOC=80^\circ$.
-
-So $\angle AOB=100^\circ$ and $\angle BOC=80^\circ$.
-
-**Answer.** $\angle AOB=100^\circ$; $\angle BOC=80^\circ$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Hình bình hành $ABCD$ có hai đường chéo bằng nhau, $AC=BD$. Chứng minh rằng $ABCD$ là hình chữ nhật.
-
-[LỜI GIẢI CŨ – VI]
-Xét hai tam giác $ABC$ và $DCB$. Ta có $AB=DC$ (cạnh đối của hình bình hành), $BC$ chung và $AC=DB$ (giả thiết). Do đó $\triangle ABC=\triangle DCB$ (cạnh - cạnh - cạnh), suy ra $\widehat{ABC}=\widehat{DCB}$.
-
-Vì $AB\parallel CD$ nên $\widehat{ABC}+\widehat{DCB}=180^\circ$. Kết hợp với $\widehat{ABC}=\widehat{DCB}$ ta được $\widehat{ABC}=90^\circ$.
-
-Hình bình hành $ABCD$ có một góc vuông nên là hình chữ nhật.
-
-**Đáp số.** $ABCD$ là hình chữ nhật.
-
-[ĐỀ – EN]
-The parallelogram $ABCD$ has equal diagonals, $AC=BD$. Prove that $ABCD$ is a rectangle.
-
-[LỜI GIẢI CŨ – EN]
-Consider the triangles $ABC$ and $DCB$. We have $AB=DC$ (opposite sides of a parallelogram), $BC$ is common and $AC=DB$ (given). Hence $\triangle ABC=\triangle DCB$ (side - side - side), so $\angle ABC=\angle DCB$.
-
-Since $AB\parallel CD$, we have $\angle ABC+\angle DCB=180^\circ$. Together with $\angle ABC=\angle DCB$ this gives $\angle ABC=90^\circ$.
-
-The parallelogram $ABCD$ has a right angle, so it is a rectangle.
-
-**Answer.** $ABCD$ is a rectangle.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Giả sử một màn hình hình chữ nhật rộng $80$ cm và cao $60$ cm. Tính độ dài đường chéo của màn hình, rồi đổi ra inch (biết $1$ inch $=2{,}54$ cm, làm tròn đến một chữ số thập phân).
-
-[LỜI GIẢI CŨ – VI]
-Đường chéo là $\sqrt{80^2+60^2}=\sqrt{10\,000}=100$ (cm). Đổi ra inch: $100:2{,}54\approx39{,}4$ (inch).
-
-Vậy đường chéo màn hình dài $100$ cm, khoảng $39{,}4$ inch.
-
-**Đáp số.** $100$ cm; khoảng $39{,}4$ inch.
-
-[ĐỀ – EN]
-Suppose a screen is a rectangle $80$ cm wide and $60$ cm high. Find the length of its diagonal, then convert it to inches (given $1$ inch $=2.54$ cm, rounded to one decimal place).
-
-[LỜI GIẢI CŨ – EN]
-The diagonal is $\sqrt{80^2+60^2}=\sqrt{10\,000}=100$ (cm). In inches: $100\div2.54\approx39.4$ (inches).
-
-So the diagonal of the screen is $100$ cm, about $39.4$ inches.
-
-**Answer.** $100$ cm; about $39.4$ inches.
-
-
-######################################################################
-@@@ g8/regular-triangular-pyramids
-Bài học: Hình chóp tam giác đều. Hình chóp tứ giác đều / Regular triangular pyramids. Regular square-based pyramids
+@@@ g5/g5-review-geometry-measures
+Bài học: Ôn tập: hình học và đo lường / Review: shapes and measures
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Mỗi khẳng định sau đúng hay sai?
-
-a) Hình chóp tam giác đều có ba mặt bên là ba tam giác đều.
-
-b) Chân đường cao của hình chóp tam giác đều là trọng tâm của tam giác đáy.
-
-c) Các cạnh bên của hình chóp tứ giác đều bằng nhau.
-
-d) Tứ diện đều là một hình chóp tam giác đều.
+Một hình chữ nhật dài $15$ m, rộng $8$ m. Tính chu vi và diện tích.
 
 [LỜI GIẢI CŨ – VI]
-a) **Sai**: các mặt bên là tam giác cân, không nhất thiết là tam giác đều.
+Chu vi là $(15+8)\times2=46\ (\text{m})$. Diện tích là $15\times8=120\ (\text{m}^2)$.
 
-b) **Đúng**: chân đường cao là tâm của đáy, tức trọng tâm của tam giác đều.
-
-c) **Đúng**: mặt bên là những tam giác cân bằng nhau nên các cạnh bên bằng nhau.
-
-d) **Đúng**: tứ diện đều có đáy là tam giác đều và các cạnh bên bằng nhau (bằng cạnh đáy), nên chân đường cao là tâm của đáy.
-
-**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Đúng.
+**Đáp số.** $46$ m; $120\ \text{m}^2$.
 
 [ĐỀ – EN]
-Is each statement true or false?
-
-a) A regular triangular pyramid has three equilateral lateral faces.
-
-b) The foot of the height of a regular triangular pyramid is the centroid of the base triangle.
-
-c) The lateral edges of a regular square-based pyramid are all equal.
-
-d) A regular tetrahedron is a regular triangular pyramid.
+A rectangle is $15$ m long and $8$ m wide. Find its perimeter and area.
 
 [LỜI GIẢI CŨ – EN]
-a) **False**: the lateral faces are isosceles triangles, not necessarily equilateral.
+The perimeter is $(15+8)\times2=46\ (\text{m})$. The area is $15\times8=120\ (\text{m}^2)$.
 
-b) **True**: the foot of the height is the centre of the base, which is the centroid of the equilateral triangle.
-
-c) **True**: the lateral faces are equal isosceles triangles, so the lateral edges are equal.
-
-d) **True**: a regular tetrahedron has an equilateral base and equal lateral edges (equal to the base edge), so the foot of its height is the centre of the base.
-
-**Answer.** a) False; b) True; c) True; d) True.
+**Answer.** $46$ m; $120\ \text{m}^2$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Cho hình chóp tam giác đều có cạnh đáy $8$ cm và trung đoạn $3$ cm. Tính diện tích xung quanh.
+Một tam giác vuông có hai cạnh góc vuông dài $9$ cm và $12$ cm. Tính diện tích tam giác.
 
 [LỜI GIẢI CŨ – VI]
-Nửa chu vi đáy là $p=\dfrac{3\cdot8}2=12$ cm. Diện tích xung quanh là $S_{xq}=12\cdot3=36$ cm².
+$S=9\times12:2=54\ (\text{cm}^2)$.
 
-**Đáp số.** $36$ cm².
+**Đáp số.** $54\ \text{cm}^2$.
 
 [ĐỀ – EN]
-A regular triangular pyramid has base side $8$ cm and slant height $3$ cm. Find the lateral surface area.
+A right-angled triangle has two shorter sides of $9$ cm and $12$ cm. Find the area of the triangle.
 
 [LỜI GIẢI CŨ – EN]
-Half the perimeter of the base is $p=\dfrac{3\cdot8}2=12$ cm. The lateral surface area is $S_{\text{lat}}=12\cdot3=36$ cm².
+$S=9\times12\div2=54\ (\text{cm}^2)$.
 
-**Answer.** $36$ cm².
+**Answer.** $54\ \text{cm}^2$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Cho hình chóp tứ giác đều có cạnh đáy $8$ cm và trung đoạn $5$ cm. Tính diện tích xung quanh, diện tích toàn phần, chiều cao và thể tích.
+Một hình thang có hai đáy $14$ m và $8$ m, chiều cao $6$ m. Tính diện tích.
 
 [LỜI GIẢI CŨ – VI]
-Nửa chu vi đáy là $p=\dfrac{4\cdot8}2=16$ cm nên $S_{xq}=16\cdot5=80$ cm² và $S_{tp}=80+8^2=144$ cm². Xét tam giác $SOM$ vuông tại $O$ có $OM=4$, $SM=5$, ta có $h=\sqrt{5^2-4^2}=3$ cm. Thể tích là $V=\dfrac13\cdot64\cdot3=64$ cm³.
+$S=(14+8)\times6:2=22\times6:2=66\ (\text{m}^2)$.
 
-**Đáp số.** $S_{xq}=80$ cm²; $S_{tp}=144$ cm²; $h=3$ cm; $V=64$ cm³.
+**Đáp số.** $66\ \text{m}^2$.
 
 [ĐỀ – EN]
-A regular square-based pyramid has base side $8$ cm and slant height $5$ cm. Find the lateral surface area, the total surface area, the height and the volume.
+A trapezium has parallel sides of $14$ m and $8$ m and a height of $6$ m. Find its area.
 
 [LỜI GIẢI CŨ – EN]
-Half the perimeter of the base is $p=\dfrac{4\cdot8}2=16$ cm, so $S_{\text{lat}}=16\cdot5=80$ cm² and $S_{\text{total}}=80+8^2=144$ cm². In triangle $SOM$, right-angled at $O$, with $OM=4$ and $SM=5$, we have $h=\sqrt{5^2-4^2}=3$ cm. The volume is $V=\dfrac13\cdot64\cdot3=64$ cm³.
+$S=(14+8)\times6\div2=22\times6\div2=66\ (\text{m}^2)$.
 
-**Answer.** $S_{\text{lat}}=80$ cm²; $S_{\text{total}}=144$ cm²; $h=3$ cm; $V=64$ cm³.
+**Answer.** $66\ \text{m}^2$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Cho hình chóp tam giác đều $S.ABC$ có cạnh đáy $6$ cm và chiều cao $1$ cm. Tính độ dài cạnh bên $SA$ (làm tròn đến hàng phần mười).
+Một hình tròn có đường kính $20$ cm. Tính chu vi và diện tích.
 
 [LỜI GIẢI CŨ – VI]
-Ta có $OA=\dfrac{6\sqrt3}3=2\sqrt3$. Xét tam giác $SOA$ vuông tại $O$, ta có $SA=\sqrt{1^2+(2\sqrt3)^2}=\sqrt{13}\approx3{,}6$ (cm).
+Chu vi là $20\times3{,}14=62{,}8\ (\text{cm})$. Bán kính là $20:2=10\ (\text{cm})$, nên diện tích là $10\times10\times3{,}14=314\ (\text{cm}^2)$.
 
-**Đáp số.** $SA\approx3{,}6$ cm.
+**Đáp số.** $62{,}8$ cm; $314\ \text{cm}^2$.
 
 [ĐỀ – EN]
-The regular triangular pyramid $S.ABC$ has base side $6$ cm and height $1$ cm. Find the length of the lateral edge $SA$ (round to 1 decimal place).
+A circle has a diameter of $20$ cm. Find its circumference and area.
 
 [LỜI GIẢI CŨ – EN]
-We have $OA=\dfrac{6\sqrt3}3=2\sqrt3$. In triangle $SOA$, right-angled at $O$, we have $SA=\sqrt{1^2+(2\sqrt3)^2}=\sqrt{13}\approx3.6$ (cm).
+The circumference is $20\times3.14=62.8\ (\text{cm})$. The radius is $20\div2=10\ (\text{cm})$, so the area is $10\times10\times3.14=314\ (\text{cm}^2)$.
 
-**Answer.** $SA\approx3.6$ cm.
+**Answer.** $62.8$ cm; $314\ \text{cm}^2$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Nhớ lại định lí Pythagore. Cho hình chóp tứ giác đều có cạnh đáy $10$ cm và chiều cao $12$ cm. Tính trung đoạn, diện tích xung quanh và thể tích.
+Một bể nước hình hộp chữ nhật dài $1{,}5$ m, rộng $0{,}8$ m, cao $1$ m. Hỏi bể chứa đầy được bao nhiêu lít nước?
 
 [LỜI GIẢI CŨ – VI]
-Xét tam giác $SOM$ vuông tại $O$ có $OM=5$, $SO=12$, ta có $d=\sqrt{12^2+5^2}=13$ cm. Nửa chu vi đáy là $20$ cm nên $S_{xq}=20\cdot13=260$ cm². Thể tích là $V=\dfrac13\cdot10^2\cdot12=400$ cm³.
+Thể tích bể là $1{,}5\times0{,}8\times1=1{,}2\ (\text{m}^3)$. Vì $1\ \text{m}^3=1000\ \text{dm}^3=1000$ lít nên bể chứa $1{,}2\times1000=1200$ (lít).
 
-**Đáp số.** $d=13$ cm; $S_{xq}=260$ cm²; $V=400$ cm³.
+**Đáp số.** $1200$ lít.
 
 [ĐỀ – EN]
-Remember Pythagoras' theorem. A regular square-based pyramid has base side $10$ cm and height $12$ cm. Find the slant height, the lateral surface area and the volume.
+A cuboid water tank is $1.5$ m long, $0.8$ m wide and $1$ m high. How many litres of water does it hold when full?
 
 [LỜI GIẢI CŨ – EN]
-In triangle $SOM$, right-angled at $O$, with $OM=5$ and $SO=12$, we have $d=\sqrt{12^2+5^2}=13$ cm. Half the perimeter of the base is $20$ cm, so $S_{\text{lat}}=20\cdot13=260$ cm². The volume is $V=\dfrac13\cdot10^2\cdot12=400$ cm³.
+The volume of the tank is $1.5\times0.8\times1=1.2\ (\text{m}^3)$. Since $1\ \text{m}^3=1000\ \text{dm}^3=1000$ litres, the tank holds $1.2\times1000=1200$ (litres).
 
-**Answer.** $d=13$ cm; $S_{\text{lat}}=260$ cm²; $V=400$ cm³.
+**Answer.** $1200$ litres.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Một khối thuỷ tinh có dạng hình chóp tam giác đều với cạnh đáy $12$ cm và chiều cao $5{,}5$ cm. Người ta dán giấy màu lên ba mặt bên. Tính diện tích giấy cần dùng và thể tích khối thuỷ tinh (làm tròn thể tích đến hàng phần mười).
+Giả sử thửa ruộng hình thang có hai đáy $80$ m và $60$ m, chiều cao $50$ m. Mỗi mét vuông thu hoạch được $0{,}5$ kg thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu ki-lô-gam thóc?
 
 [LỜI GIẢI CŨ – VI]
-Ta có $OM=\dfrac{12\sqrt3}6=2\sqrt3$ nên $d=\sqrt{5{,}5^2+12}=6{,}5$ cm. Nửa chu vi đáy là $18$ cm nên $S_{xq}=18\cdot6{,}5=117$ cm². Diện tích đáy là $36\sqrt3$ cm² nên $V=\dfrac13\cdot36\sqrt3\cdot5{,}5=66\sqrt3\approx114{,}3$ cm³.
+Diện tích thửa ruộng là $(80+60)\times50:2=3500\ (\text{m}^2)$. Khối lượng thóc thu hoạch là $3500\times0{,}5=1750$ (kg).
 
-**Đáp số.** $117$ cm²; $\approx114{,}3$ cm³.
+**Đáp số.** $1750$ kg.
 
 [ĐỀ – EN]
-A glass block is a regular triangular pyramid with base side $12$ cm and height $5.5$ cm. Coloured paper is stuck on the three sloping faces. Find the area of paper needed and the volume of the block (round the volume to 1 decimal place).
+Suppose a field is a trapezium with parallel sides of $80$ m and $60$ m and a height of $50$ m. Each square metre yields $0.5$ kg of rice. How many kilograms of rice does the whole field yield?
 
 [LỜI GIẢI CŨ – EN]
-We have $OM=\dfrac{12\sqrt3}6=2\sqrt3$, so $d=\sqrt{5.5^2+12}=6.5$ cm. Half the perimeter of the base is $18$ cm, so $S_{\text{lat}}=18\cdot6.5=117$ cm². The base area is $36\sqrt3$ cm², so $V=\dfrac13\cdot36\sqrt3\cdot5.5=66\sqrt3\approx114.3$ cm³.
+The area of the field is $(80+60)\times50\div2=3500\ (\text{m}^2)$. The mass of rice is $3500\times0.5=1750$ (kg).
 
-**Answer.** $117$ cm²; $\approx114.3$ cm³.
+**Answer.** $1750$ kg.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Mái của một ngôi đình có dạng hình chóp tứ giác đều với cạnh đáy $6$ m và chiều cao $4$ m. Giả sử mỗi mét vuông mái lợp ngói hết $180\,000$ đồng. Tính chi phí lợp ngói cho bốn mặt của mái.
+Em hãy nhớ lại bài thể tích hình lập phương. Một bể hình lập phương có cạnh $6$ dm đang chứa lượng nước bằng $\dfrac23$ thể tích bể. Hỏi bể đang chứa bao nhiêu lít nước?
 
 [LỜI GIẢI CŨ – VI]
-Xét tam giác $SOM$ vuông tại $O$ có $OM=3$, $SO=4$, ta có $d=\sqrt{4^2+3^2}=5$ m. Nửa chu vi đáy là $12$ m nên $S_{xq}=12\cdot5=60$ m². Chi phí là $60\cdot180\,000=10\,800\,000$ (đồng).
+Thể tích bể là $6\times6\times6=216\ (\text{dm}^3)$. Lượng nước trong bể là $216\times\dfrac23=144\ (\text{dm}^3)=144$ lít.
 
-**Đáp số.** $10\,800\,000$ đồng.
+**Đáp số.** $144$ lít.
 
 [ĐỀ – EN]
-The roof of a pavilion is a regular square-based pyramid with base side $6$ m and height $4$ m. Suppose tiling costs $180\,000$ dong for each square metre of roof. Find the cost of tiling the four sloping faces.
+Remember the lesson on the volume of a cube. A cube-shaped tank with an edge of $6$ dm holds an amount of water equal to $\dfrac23$ of its volume. How many litres of water are in the tank?
 
 [LỜI GIẢI CŨ – EN]
-In triangle $SOM$, right-angled at $O$, with $OM=3$ and $SO=4$, we have $d=\sqrt{4^2+3^2}=5$ m. Half the perimeter of the base is $12$ m, so $S_{\text{lat}}=12\cdot5=60$ m². The cost is $60\cdot180\,000=10\,800\,000$ (dong).
+The volume of the tank is $6\times6\times6=216\ (\text{dm}^3)$. The amount of water is $216\times\dfrac23=144\ (\text{dm}^3)=144$ litres.
 
-**Answer.** $10\,800\,000$ dong.
+**Answer.** $144$ litres.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Một cái phễu có dạng hình chóp tứ giác đều đặt đỉnh xuống dưới, miệng phễu là hình vuông cạnh $30$ cm và chiều sâu của phễu là $40$ cm. Phễu chứa được tối đa bao nhiêu lít nước? ($1$ lít $=1000$ cm³.)
+Số?
+
+a) $3{,}5$ ha $=\ ?\ \text{m}^2$.
+
+b) $7200\ \text{cm}^2=\ ?\ \text{m}^2$.
+
+c) $4{,}2\ \text{m}^3=\ ?\ \text{dm}^3$.
 
 [LỜI GIẢI CŨ – VI]
-Diện tích miệng phễu là $30^2=900$ cm². Thể tích là $V=\dfrac13\cdot900\cdot40=12\,000$ cm³ $=12$ lít.
+a) $3{,}5\times10\,000=35\,000$.
 
-**Đáp số.** $12$ lít.
+b) $7200:10\,000=0{,}72$.
+
+c) $4{,}2\times1000=4200$.
+
+**Đáp số.** a) $35\,000\ \text{m}^2$; b) $0{,}72\ \text{m}^2$; c) $4200\ \text{dm}^3$.
 
 [ĐỀ – EN]
-A funnel is a regular square-based pyramid with its apex pointing down. The top of the funnel is a square of side $30$ cm and the funnel is $40$ cm deep. How many litres of water can the funnel hold? ($1$ litre $=1000$ cm³.)
+Fill in the missing numbers.
+
+a) $3.5$ ha $=\ ?\ \text{m}^2$.
+
+b) $7200\ \text{cm}^2=\ ?\ \text{m}^2$.
+
+c) $4.2\ \text{m}^3=\ ?\ \text{dm}^3$.
 
 [LỜI GIẢI CŨ – EN]
-The area of the top is $30^2=900$ cm². The volume is $V=\dfrac13\cdot900\cdot40=12\,000$ cm³ $=12$ litres.
+a) $3.5\times10\,000=35\,000$.
 
-**Answer.** $12$ litres.
+b) $7200\div10\,000=0.72$.
+
+c) $4.2\times1000=4200$.
+
+**Answer.** a) $35\,000\ \text{m}^2$; b) $0.72\ \text{m}^2$; c) $4200\ \text{dm}^3$.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Cho tứ diện đều $ABCD$ có cạnh bằng $6$. Tính chiều cao hạ từ đỉnh $D$ xuống mặt phẳng $(ABC)$ và thể tích của tứ diện (làm tròn đến hàng phần mười).
+Một mảnh đất gồm một hình chữ nhật dài $20$ m, rộng $12$ m và một nửa hình tròn đường kính $12$ m ghép vào một cạnh rộng của hình chữ nhật. Tính diện tích mảnh đất.
 
 [LỜI GIẢI CŨ – VI]
-Gọi $O$ là tâm của tam giác đều $ABC$. Ta có $OA=\dfrac{6\sqrt3}3=2\sqrt3$. Xét tam giác $DOA$ vuông tại $O$, ta có $h=DO=\sqrt{6^2-12}=\sqrt{24}=2\sqrt6\approx4{,}9$. Diện tích đáy là $9\sqrt3$ nên $V=\dfrac13\cdot9\sqrt3\cdot2\sqrt6=18\sqrt2\approx25{,}5$.
+Bán kính nửa hình tròn là $12:2=6$ (m). Diện tích hình chữ nhật là $20\times12=240\ (\text{m}^2)$. Diện tích nửa hình tròn là $6\times6\times3{,}14:2=56{,}52\ (\text{m}^2)$. Diện tích mảnh đất là $240+56{,}52=296{,}52\ (\text{m}^2)$.
 
-**Đáp số.** $h=2\sqrt6\approx4{,}9$; $V=18\sqrt2\approx25{,}5$.
+**Đáp số.** $296{,}52\ \text{m}^2$.
 
 [ĐỀ – EN]
-The regular tetrahedron $ABCD$ has edge $6$. Find the height from the vertex $D$ to the plane $(ABC)$ and the volume of the tetrahedron (round to 1 decimal place).
+A plot of land is made of a rectangle $20$ m long and $12$ m wide, with a semicircle of diameter $12$ m attached to one of its $12$ m sides. Find the area of the plot.
 
 [LỜI GIẢI CŨ – EN]
-Let $O$ be the centre of the equilateral triangle $ABC$. We have $OA=\dfrac{6\sqrt3}3=2\sqrt3$. In triangle $DOA$, right-angled at $O$, we have $h=DO=\sqrt{6^2-12}=\sqrt{24}=2\sqrt6\approx4.9$. The base area is $9\sqrt3$, so $V=\dfrac13\cdot9\sqrt3\cdot2\sqrt6=18\sqrt2\approx25.5$.
+The radius of the semicircle is $12\div2=6$ (m). The area of the rectangle is $20\times12=240\ (\text{m}^2)$. The area of the semicircle is $6\times6\times3.14\div2=56.52\ (\text{m}^2)$. The area of the plot is $240+56.52=296.52\ (\text{m}^2)$.
 
-**Answer.** $h=2\sqrt6\approx4.9$; $V=18\sqrt2\approx25.5$.
+**Answer.** $296.52\ \text{m}^2$.
 
 
 ######################################################################
-@@@ g8/rhombuses-and-squares
-Bài học: Hình thoi và hình vuông / Rhombuses and squares
-Cần viết lại lời giải các bài: 3, 5, 6 (giữ ĐÚNG số thứ tự này)
+@@@ g5/g5-review-motion-word-problems
+Bài học: Ôn tập: chuyển động đều và toán có lời văn / Review: uniform motion and word problems
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một ô tô đi $175$ km hết $3{,}5$ giờ. Tính vận tốc của ô tô.
+
+[LỜI GIẢI CŨ – VI]
+$v=175:3{,}5=50$ (km/giờ).
+
+**Đáp số.** $50$ km/giờ.
+
+[ĐỀ – EN]
+A car travels $175$ km in $3.5$ hours. Find the speed of the car.
+
+[LỜI GIẢI CŨ – EN]
+$v=175\div3.5=50$ (km/h).
+
+**Answer.** $50$ km/h.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Một người đi xe đạp với vận tốc $12$ km/giờ. Hỏi đi quãng đường $27$ km hết bao lâu?
+
+[LỜI GIẢI CŨ – VI]
+$t=27:12=2{,}25$ (giờ) $=2$ giờ $15$ phút.
+
+**Đáp số.** $2$ giờ $15$ phút.
+
+[ĐỀ – EN]
+A cyclist rides at $12$ km/h. How long does the cyclist take to ride $27$ km?
+
+[LỜI GIẢI CŨ – EN]
+$t=27\div12=2.25$ (hours) $=2$ h $15$ min.
+
+**Answer.** $2$ hours $15$ minutes.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Hình thoi $ABCD$ có cạnh $13$ cm và đường chéo $BD=10$ cm. Tính đường chéo $AC$.
+Một xe máy đi với vận tốc $36$ km/giờ. Hỏi trong $20$ phút xe đi được bao nhiêu ki-lô-mét?
 
 [LỜI GIẢI CŨ – VI]
-Ta có $OB=5$ cm. Trong tam giác vuông $OAB$: $OA^2=AB^2-OB^2=169-25=144$, nên $OA=12$ cm. Do đó $AC=2\cdot12=24$ cm.
+$s=36\times\dfrac13=12$ (km).
 
-Vậy $AC=24$ cm.
-
-**Đáp số.** $24$ cm.
+**Đáp số.** $12$ km.
 
 [ĐỀ – EN]
-Rhombus $ABCD$ has side $13$ cm and diagonal $BD=10$ cm. Find the diagonal $AC$.
+A motorbike travels at $36$ km/h. How many kilometres does it travel in $20$ minutes?
 
 [LỜI GIẢI CŨ – EN]
-We have $OB=5$ cm. In the right-angled triangle $OAB$: $OA^2=AB^2-OB^2=169-25=144$, so $OA=12$ cm. Hence $AC=2\cdot12=24$ cm.
+$s=36\times\dfrac13=12$ (km).
 
-So $AC=24$ cm.
+**Answer.** $12$ km.
 
-**Answer.** $24$ cm.
+=== Bài 4 ===
+[ĐỀ – VI]
+Một xe buýt khởi hành lúc $7$ giờ $20$ phút, đi quãng đường dài $90$ km với vận tốc $45$ km/giờ. Hỏi xe đến nơi lúc mấy giờ?
+
+[LỜI GIẢI CŨ – VI]
+Thời gian đi là $90:45=2$ (giờ). Xe đến lúc $7$ giờ $20$ phút $+$ $2$ giờ $=9$ giờ $20$ phút.
+
+**Đáp số.** $9$ giờ $20$ phút.
+
+[ĐỀ – EN]
+A bus leaves at $7{:}20$ and travels $90$ km at $45$ km/h. At what time does it arrive?
+
+[LỜI GIẢI CŨ – EN]
+The travelling time is $90\div45=2$ (hours). The bus arrives at $7{:}20$ plus $2$ h, which is $9{:}20$.
+
+**Answer.** $9{:}20$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Hình bình hành $ABCD$ có đường chéo $AC$ là phân giác của góc $\widehat{A}$. Chứng minh rằng $ABCD$ là hình thoi.
+Một xe đi $60$ km trong $1$ giờ, rồi đi tiếp $90$ km trong $2$ giờ. Tính vận tốc trung bình của xe trên cả quãng đường.
 
 [LỜI GIẢI CŨ – VI]
-Vì $AC$ là phân giác của $\widehat{A}$ nên $\widehat{BAC}=\widehat{CAD}$. Vì $AD\parallel BC$ nên $\widehat{CAD}=\widehat{ACB}$ (so le trong). Do đó $\widehat{BAC}=\widehat{ACB}$, nên tam giác $ABC$ cân tại $B$, tức là $BA=BC$.
+Tổng quãng đường là $60+90=150$ (km). Tổng thời gian là $1+2=3$ (giờ). Vận tốc trung bình là $150:3=50$ (km/giờ).
 
-Hình bình hành $ABCD$ có hai cạnh kề $BA$ và $BC$ bằng nhau nên là hình thoi.
-
-**Đáp số.** $ABCD$ là hình thoi.
+**Đáp số.** $50$ km/giờ.
 
 [ĐỀ – EN]
-In parallelogram $ABCD$ the diagonal $AC$ bisects $\angle A$. Prove that $ABCD$ is a rhombus.
+A vehicle travels $60$ km in $1$ hour, then another $90$ km in $2$ hours. Find its average speed over the whole distance.
 
 [LỜI GIẢI CŨ – EN]
-Since $AC$ bisects $\angle A$, we have $\angle BAC=\angle CAD$. Since $AD\parallel BC$, we have $\angle CAD=\angle ACB$ (alternate angles). Hence $\angle BAC=\angle ACB$, so triangle $ABC$ is isosceles at $B$; that is, $BA=BC$.
+The total distance is $60+90=150$ (km). The total time is $1+2=3$ (hours). The average speed is $150\div3=50$ (km/h).
 
-Parallelogram $ABCD$ has equal adjacent sides $BA$ and $BC$, so it is a rhombus.
-
-**Answer.** $ABCD$ is a rhombus.
+**Answer.** $50$ km/h.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Hình vuông $ABCD$ có cạnh $8$ cm. Tính độ dài đường chéo $AC$ (làm tròn đến hai chữ số thập phân).
+Mua $6$ quyển vở giống nhau hết $72\,000$ đồng. Hỏi mua $15$ quyển vở như vậy hết bao nhiêu tiền?
 
 [LỜI GIẢI CŨ – VI]
-Ta có $AC^2=8^2+8^2=128$, nên $AC=\sqrt{128}=8\sqrt2\approx11{,}31$ (cm).
+Giá một quyển vở là $72\,000:6=12\,000$ (đồng). Mua $15$ quyển hết $12\,000\times15=180\,000$ (đồng).
 
-Vậy $AC\approx11{,}31$ cm.
-
-**Đáp số.** $8\sqrt2\approx11{,}31$ cm.
+**Đáp số.** $180\,000$ đồng.
 
 [ĐỀ – EN]
-Square $ABCD$ has side $8$ cm. Find the diagonal $AC$ (round to two decimal places).
+$6$ identical exercise books cost $72\,000$ dong. How much do $15$ such books cost?
 
 [LỜI GIẢI CŨ – EN]
-We have $AC^2=8^2+8^2=128$, so $AC=\sqrt{128}=8\sqrt2\approx11.31$ (cm).
+One book costs $72\,000\div6=12\,000$ (dong). $15$ books cost $12\,000\times15=180\,000$ (dong).
 
-So $AC\approx11.31$ cm.
+**Answer.** $180\,000$ dong.
 
-**Answer.** $8\sqrt2\approx11.31$ cm.
+=== Bài 7 ===
+[ĐỀ – VI]
+Một cửa hàng giảm giá $15\%$ cho một chiếc áo giá $200\,000$ đồng. Hỏi giá chiếc áo sau khi giảm là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+Số tiền được giảm là $200\,000:100\times15=30\,000$ (đồng). Giá sau giảm là $200\,000-30\,000=170\,000$ (đồng).
+
+**Đáp số.** $170\,000$ đồng.
+
+[ĐỀ – EN]
+A shop gives a $15\%$ discount on a shirt that costs $200\,000$ dong. What is the price of the shirt after the discount?
+
+[LỜI GIẢI CŨ – EN]
+The discount is $200\,000\div100\times15=30\,000$ (dong). The price after the discount is $200\,000-30\,000=170\,000$ (dong).
+
+**Answer.** $170\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một đội $6$ công nhân sửa xong một con đường trong $8$ ngày. Muốn sửa xong trong $6$ ngày thì cần bao nhiêu công nhân (mỗi người làm việc như nhau)?
+
+[LỜI GIẢI CŨ – VI]
+Công việc cần $6\times8=48$ (ngày công). Muốn xong trong $6$ ngày cần $48:6=8$ (công nhân).
+
+**Đáp số.** $8$ công nhân.
+
+[ĐỀ – EN]
+A team of $6$ workers repairs a road in $8$ days. How many workers are needed to repair it in $6$ days (each worker works at the same rate)?
+
+[LỜI GIẢI CŨ – EN]
+The job needs $6\times8=48$ (days of work). To finish in $6$ days we need $48\div6=8$ (workers).
+
+**Answer.** $8$ workers.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài cộng, trừ số đo thời gian. Một xe khởi hành lúc $8$ giờ $45$ phút và đến nơi lúc $11$ giờ $15$ phút với vận tốc $52$ km/giờ (không nghỉ). Tính quãng đường xe đã đi.
+
+[LỜI GIẢI CŨ – VI]
+Thời gian đi là $11$ giờ $15$ phút $-$ $8$ giờ $45$ phút $=10$ giờ $75$ phút $-$ $8$ giờ $45$ phút $=2$ giờ $30$ phút $=2{,}5$ giờ. Quãng đường là $52\times2{,}5=130$ (km).
+
+**Đáp số.** $130$ km.
+
+[ĐỀ – EN]
+Remember the lesson on adding and subtracting times. A vehicle leaves at $8{:}45$ and arrives at $11{:}15$ at $52$ km/h (with no rest). Find the distance it travelled.
+
+[LỜI GIẢI CŨ – EN]
+The travelling time is $11$ h $15$ min $-$ $8$ h $45$ min $=10$ h $75$ min $-$ $8$ h $45$ min $=2$ h $30$ min $=2.5$ h. The distance is $52\times2.5=130$ (km).
+
+**Answer.** $130$ km.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một người đi từ A đến B với vận tốc $30$ km/giờ rồi quay từ B về A với vận tốc $20$ km/giờ. Tính vận tốc trung bình cả đi lẫn về. (Em thử với AB $=60$ km.)
+
+[LỜI GIẢI CŨ – VI]
+Thời gian đi là $60:30=2$ (giờ), thời gian về là $60:20=3$ (giờ). Tổng quãng đường là $60\times2=120$ (km), tổng thời gian là $5$ giờ. Vận tốc trung bình là $120:5=24$ (km/giờ).
+
+**Nhận xét.** Nếu AB $=120$ km thì đi $4$ giờ, về $6$ giờ, $240:10=24$: kết quả không đổi.
+
+**Đáp số.** $24$ km/giờ.
+
+[ĐỀ – EN]
+A person goes from A to B at $30$ km/h, then returns from B to A at $20$ km/h. Find the average speed for the round trip. (Try AB $=60$ km.)
+
+[LỜI GIẢI CŨ – EN]
+The time out is $60\div30=2$ (hours) and the time back is $60\div20=3$ (hours). The total distance is $60\times2=120$ (km) and the total time is $5$ hours. The average speed is $120\div5=24$ (km/h).
+
+**Remark.** If AB $=120$ km, the trip out takes $4$ hours and the trip back $6$ hours, and $240\div10=24$: the result does not change.
+
+**Answer.** $24$ km/h.
+
+
+######################################################################
+@@@ g5/g5-review-numbers-fractions
+Bài học: Ôn tập: số tự nhiên và phân số / Review: whole numbers and fractions
+Cần viết lại lời giải các bài: 1, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết số gồm $5$ triệu, $3$ trăm nghìn và $8$ chục.
+
+[LỜI GIẢI CŨ – VI]
+$5\,000\,000+300\,000+80=5\,300\,080$.
+
+**Đáp số.** $5\,300\,080$.
+
+[ĐỀ – EN]
+Write the number made of $5$ million, $3$ hundred thousand and $8$ tens.
+
+[LỜI GIẢI CŨ – EN]
+$5\,000\,000+300\,000+80=5\,300\,080$.
+
+**Answer.** $5\,300\,080$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính giá trị biểu thức: $3\times(45-27)+56:8$.
+
+[LỜI GIẢI CŨ – VI]
+$$3\times(45-27)+56:8=3\times18+7=54+7=61.$$
+**Đáp số.** $61$.
+
+[ĐỀ – EN]
+Work out the value of $3\times(45-27)+56\div8$.
+
+[LỜI GIẢI CŨ – EN]
+$$3\times(45-27)+56\div8=3\times18+7=54+7=61.$$
+**Answer.** $61$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+a) Rút gọn $\dfrac{42}{56}$. b) So sánh $\dfrac7{12}$ và $\dfrac58$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\dfrac{42}{56}=\dfrac34$.
+
+b) $\dfrac7{12}=\dfrac{14}{24}$ và $\dfrac58=\dfrac{15}{24}$. Vì $14<15$ nên $\dfrac7{12}<\dfrac58$.
+
+**Đáp số.** a) $\dfrac34$; b) $\dfrac7{12}<\dfrac58$.
+
+[ĐỀ – EN]
+a) Simplify $\dfrac{42}{56}$. b) Compare $\dfrac7{12}$ and $\dfrac58$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\dfrac{42}{56}=\dfrac34$.
+
+b) $\dfrac7{12}=\dfrac{14}{24}$ and $\dfrac58=\dfrac{15}{24}$. Since $14<15$, $\dfrac7{12}<\dfrac58$.
+
+**Answer.** a) $\dfrac34$; b) $\dfrac7{12}<\dfrac58$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tính a) $\dfrac23+\dfrac5{12}$; b) $\dfrac9{10}-\dfrac34$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\dfrac23+\dfrac5{12}=\dfrac8{12}+\dfrac5{12}=\dfrac{13}{12}$.
+
+b) $\dfrac9{10}-\dfrac34=\dfrac{18}{20}-\dfrac{15}{20}=\dfrac3{20}$.
+
+**Đáp số.** a) $\dfrac{13}{12}$; b) $\dfrac3{20}$.
+
+[ĐỀ – EN]
+Work out a) $\dfrac23+\dfrac5{12}$; b) $\dfrac9{10}-\dfrac34$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\dfrac23+\dfrac5{12}=\dfrac8{12}+\dfrac5{12}=\dfrac{13}{12}$.
+
+b) $\dfrac9{10}-\dfrac34=\dfrac{18}{20}-\dfrac{15}{20}=\dfrac3{20}$.
+
+**Answer.** a) $\dfrac{13}{12}$; b) $\dfrac3{20}$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tính a) $\dfrac45\times\dfrac{15}8$; b) $\dfrac79:\dfrac{14}3$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\dfrac45\times\dfrac{15}8=\dfrac{60}{40}=\dfrac32$.
+
+b) $\dfrac79:\dfrac{14}3=\dfrac79\times\dfrac3{14}=\dfrac{21}{126}=\dfrac16$.
+
+**Đáp số.** a) $\dfrac32$; b) $\dfrac16$.
+
+[ĐỀ – EN]
+Work out a) $\dfrac45\times\dfrac{15}8$; b) $\dfrac79\div\dfrac{14}3$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\dfrac45\times\dfrac{15}8=\dfrac{60}{40}=\dfrac32$.
+
+b) $\dfrac79\div\dfrac{14}3=\dfrac79\times\dfrac3{14}=\dfrac{21}{126}=\dfrac16$.
+
+**Answer.** a) $\dfrac32$; b) $\dfrac16$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một bể chứa $600$ lít nước. Buổi sáng dùng $\dfrac25$ lượng nước, buổi chiều dùng $\dfrac14$ lượng nước. Hỏi trong bể còn bao nhiêu lít nước?
+
+[LỜI GIẢI CŨ – VI]
+Phần nước đã dùng là $\dfrac25+\dfrac14=\dfrac{13}{20}$. Phần còn lại là $1-\dfrac{13}{20}=\dfrac7{20}$. Số lít nước còn lại là $600\times\dfrac7{20}=210$ (lít).
+
+**Kiểm tra.** Đã dùng $600\times\dfrac{13}{20}=390$ lít, và $390+210=600$.
+
+**Đáp số.** $210$ lít.
+
+[ĐỀ – EN]
+A tank holds $600$ litres of water. In the morning $\dfrac25$ of the water is used and in the afternoon $\dfrac14$ of the water is used. How many litres of water are left in the tank?
+
+[LỜI GIẢI CŨ – EN]
+The fraction used is $\dfrac25+\dfrac14=\dfrac{13}{20}$. The fraction left is $1-\dfrac{13}{20}=\dfrac7{20}$. The number of litres left is $600\times\dfrac7{20}=210$ (litres).
+
+**Check.** The amount used is $600\times\dfrac{13}{20}=390$ litres, and $390+210=600$.
+
+**Answer.** $210$ litres.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Mẹ nhận $6\,000\,000$ đồng. Mẹ dùng $\dfrac12$ số tiền trả tiền học, $\dfrac15$ số tiền mua thức ăn, phần còn lại để tiết kiệm. Hỏi số tiền tiết kiệm là bao nhiêu và chiếm bao nhiêu phần trăm số tiền mẹ nhận?
+
+[LỜI GIẢI CŨ – VI]
+Số tiền đã dùng chiếm $\dfrac12+\dfrac15=\dfrac7{10}$. Số tiền tiết kiệm chiếm $1-\dfrac7{10}=\dfrac3{10}$, tức $30\%$. Số tiền tiết kiệm là $6\,000\,000\times\dfrac3{10}=1\,800\,000$ (đồng).
+
+**Đáp số.** $1\,800\,000$ đồng; $30\%$.
+
+[ĐỀ – EN]
+Mum receives $6\,000\,000$ dong. She spends $\dfrac12$ of it on school fees, $\dfrac15$ on food and saves the rest. How much does she save, and what percentage of the money is that?
+
+[LỜI GIẢI CŨ – EN]
+The money spent is $\dfrac12+\dfrac15=\dfrac7{10}$ of the total. The savings are $1-\dfrac7{10}=\dfrac3{10}$, which is $30\%$. The amount saved is $6\,000\,000\times\dfrac3{10}=1\,800\,000$ (dong).
+
+**Answer.** $1\,800\,000$ dong; $30\%$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài số thập phân. Viết $\dfrac38$ dưới dạng số thập phân và tỉ số phần trăm.
+
+[LỜI GIẢI CŨ – VI]
+$3:8=0{,}375=37{,}5\%$.
+
+**Đáp số.** $0{,}375$; $37{,}5\%$.
+
+[ĐỀ – EN]
+Remember the lesson on decimals. Write $\dfrac38$ as a decimal and as a percentage.
+
+[LỜI GIẢI CŨ – EN]
+$3\div8=0.375=37.5\%$.
+
+**Answer.** $0.375$; $37.5\%$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Hiệu của mẫu số và tử số của một phân số bằng $20$, và phân số đó bằng $\dfrac38$. Tìm phân số đó.
+
+[LỜI GIẢI CŨ – VI]
+Phân số có dạng $\dfrac{3\times k}{8\times k}$ nên hiệu mẫu số và tử số là $8\times k-3\times k=5\times k$. Vì $5\times k=20$ nên $k=4$, và phân số là $\dfrac{12}{32}$.
+
+**Thử lại.** $32-12=20$ và $\dfrac{12}{32}=\dfrac38$. Đúng.
+
+**Đáp số.** $\dfrac{12}{32}$.
+
+[ĐỀ – EN]
+The difference between the denominator and the numerator of a fraction is $20$, and the fraction equals $\dfrac38$. Find the fraction.
+
+[LỜI GIẢI CŨ – EN]
+The fraction has the form $\dfrac{3\times k}{8\times k}$, so the difference of the denominator and the numerator is $8\times k-3\times k=5\times k$. Since $5\times k=20$, $k=4$ and the fraction is $\dfrac{12}{32}$.
+
+**Check.** $32-12=20$ and $\dfrac{12}{32}=\dfrac38$. Correct.
+
+**Answer.** $\dfrac{12}{32}$.
+
+
+######################################################################
+@@@ g5/introducing-decimals
+Bài học: Khái niệm số thập phân. So sánh các số thập phân / The idea of a decimal. Comparing decimals
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết thành số thập phân: a) $\dfrac{9}{10}$; b) $\dfrac{47}{100}$; c) $5\dfrac{7}{100}$; d) $\dfrac{123}{1000}$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\dfrac{9}{10}=0{,}9$. b) $\dfrac{47}{100}=0{,}47$. c) $5\dfrac{7}{100}=5{,}07$. d) $\dfrac{123}{1000}=0{,}123$.
+
+**Đáp số.** a) $0{,}9$; b) $0{,}47$; c) $5{,}07$; d) $0{,}123$.
+
+[ĐỀ – EN]
+Write as decimals: a) $\dfrac{9}{10}$; b) $\dfrac{47}{100}$; c) $5\dfrac{7}{100}$; d) $\dfrac{123}{1000}$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\dfrac{9}{10}=0.9$. b) $\dfrac{47}{100}=0.47$. c) $5\dfrac{7}{100}=5.07$. d) $\dfrac{123}{1000}=0.123$.
+
+**Answer.** a) $0.9$; b) $0.47$; c) $5.07$; d) $0.123$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết thành phân số thập phân hoặc hỗn số: a) $0{,}6$; b) $0{,}08$; c) $4{,}25$.
+
+[LỜI GIẢI CŨ – VI]
+a) $0{,}6=\dfrac{6}{10}$. b) $0{,}08=\dfrac{8}{100}$. c) $4{,}25=4\dfrac{25}{100}$.
+
+**Đáp số.** a) $\dfrac{6}{10}$; b) $\dfrac{8}{100}$; c) $4\dfrac{25}{100}$.
+
+[ĐỀ – EN]
+Write as decimal fractions or mixed numbers: a) $0.6$; b) $0.08$; c) $4.25$.
+
+[LỜI GIẢI CŨ – EN]
+a) $0.6=\dfrac{6}{10}$. b) $0.08=\dfrac{8}{100}$. c) $4.25=4\dfrac{25}{100}$.
+
+**Answer.** a) $\dfrac{6}{10}$; b) $\dfrac{8}{100}$; c) $4\dfrac{25}{100}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Chữ số $7$ trong mỗi số sau thuộc hàng nào và có giá trị bằng bao nhiêu? a) $24{,}7$; b) $5{,}07$; c) $70{,}3$.
+
+[LỜI GIẢI CŨ – VI]
+a) Chữ số $7$ ở hàng phần mười, giá trị $0{,}7$.
+
+b) Chữ số $7$ ở hàng phần trăm, giá trị $0{,}07$.
+
+c) Chữ số $7$ ở hàng chục, giá trị $70$.
+
+**Đáp số.** a) phần mười, $0{,}7$; b) phần trăm, $0{,}07$; c) chục, $70$.
+
+[ĐỀ – EN]
+In each number, which place is the digit $7$ in, and what is its value? a) $24.7$; b) $5.07$; c) $70.3$.
+
+[LỜI GIẢI CŨ – EN]
+a) The digit $7$ is in the tenths place, with value $0.7$.
+
+b) The digit $7$ is in the hundredths place, with value $0.07$.
+
+c) The digit $7$ is in the tens place, with value $70$.
+
+**Answer.** a) tenths, $0.7$; b) hundredths, $0.07$; c) tens, $70$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Viết gọn các số: $8{,}500$; $0{,}70$; $12{,}0$.
+
+[LỜI GIẢI CŨ – VI]
+$8{,}500=8{,}5$; $0{,}70=0{,}7$; $12{,}0=12$.
+
+**Đáp số.** $8{,}5$; $0{,}7$; $12$.
+
+[ĐỀ – EN]
+Write as simply as possible: $8.500$; $0.70$; $12.0$.
+
+[LỜI GIẢI CŨ – EN]
+$8.500=8.5$; $0.70=0.7$; $12.0=12$.
+
+**Answer.** $8.5$; $0.7$; $12$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$, $=$ vào chỗ chấm: a) $7{,}35\ \ldots\ 7{,}53$; b) $0{,}8\ \ldots\ 0{,}80$; c) $15{,}09\ \ldots\ 15{,}1$; d) $2{,}45\ \ldots\ 2{,}4$.
+
+[LỜI GIẢI CŨ – VI]
+a) Hàng phần mười: $3<5$ nên $7{,}35<7{,}53$.
+
+b) $0{,}80=0{,}8$ nên $0{,}8=0{,}80$.
+
+c) $15{,}1=15{,}10$. Hàng phần mười: $0<1$ nên $15{,}09<15{,}1$.
+
+d) $2{,}4=2{,}40$. Hàng phần mười bằng nhau, hàng phần trăm: $5>0$ nên $2{,}45>2{,}4$.
+
+**Đáp số.** a) $<$; b) $=$; c) $<$; d) $>$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the gap: a) $7.35\ \ldots\ 7.53$; b) $0.8\ \ldots\ 0.80$; c) $15.09\ \ldots\ 15.1$; d) $2.45\ \ldots\ 2.4$.
+
+[LỜI GIẢI CŨ – EN]
+a) Tenths: $3<5$, so $7.35<7.53$.
+
+b) $0.80=0.8$, so $0.8=0.80$.
+
+c) $15.1=15.10$. Tenths: $0<1$, so $15.09<15.1$.
+
+d) $2.4=2.40$. The tenths are equal; hundredths: $5>0$, so $2.45>2.4$.
+
+**Answer.** a) $<$; b) $=$; c) $<$; d) $>$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Sắp xếp theo thứ tự từ lớn đến bé: $3{,}4$; $3{,}04$; $3{,}44$; $2{,}99$.
+
+[LỜI GIẢI CŨ – VI]
+Số $2{,}99$ có phần nguyên bé nhất nên là số bé nhất. Ba số còn lại có phần nguyên $3$. Viết $3{,}4=3{,}40$. Hàng phần mười: $3{,}04$ có $0$, còn $3{,}40$ và $3{,}44$ có $4$. Hàng phần trăm: $4>0$ nên $3{,}44>3{,}40$.
+
+**Đáp số.** $3{,}44>3{,}4>3{,}04>2{,}99$.
+
+[ĐỀ – EN]
+Put in order from greatest to least: $3.4$; $3.04$; $3.44$; $2.99$.
+
+[LỜI GIẢI CŨ – EN]
+The number $2.99$ has the smallest whole-number part, so it is the least. The other three have whole-number part $3$. Write $3.4=3.40$. Tenths: $3.04$ has $0$, while $3.40$ and $3.44$ have $4$. Hundredths: $4>0$, so $3.44>3.40$.
+
+**Answer.** $3.44>3.4>3.04>2.99$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử ba bạn chạy $60$ m với thời gian: An $10{,}5$ giây, Bình $10{,}25$ giây, Chi $10{,}3$ giây. Hỏi ai chạy nhanh nhất? Sắp xếp các bạn theo thứ tự từ nhanh đến chậm.
+
+[LỜI GIẢI CŨ – VI]
+Viết $10{,}5=10{,}50$ và $10{,}3=10{,}30$. Ta có $10{,}25<10{,}30<10{,}50$.
+
+Bình mất ít thời gian nhất, rồi đến Chi, rồi đến An.
+
+**Đáp số.** Bình chạy nhanh nhất; thứ tự từ nhanh đến chậm: Bình, Chi, An.
+
+[ĐỀ – EN]
+Suppose three friends run $60$ m in these times: An $10.5$ seconds, Binh $10.25$ seconds, Chi $10.3$ seconds. Who ran fastest? Put the friends in order from fastest to slowest.
+
+[LỜI GIẢI CŨ – EN]
+Write $10.5=10.50$ and $10.3=10.30$. We have $10.25<10.30<10.50$.
+
+Binh took the least time, then Chi, then An.
+
+**Answer.** Binh ran fastest; from fastest to slowest: Binh, Chi, An.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài hỗn số. So sánh $2\dfrac{3}{10}$ và $2\dfrac{3}{4}$ bằng cách viết chúng thành số thập phân.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $2\dfrac{3}{10}=2{,}3$. Vì $\dfrac{3}{4}=\dfrac{75}{100}$ nên $2\dfrac{3}{4}=2{,}75$.
+
+Viết $2{,}3=2{,}30$. Vì $30<75$ nên $2{,}3<2{,}75$.
+
+**Đáp số.** $2\dfrac{3}{10}<2\dfrac{3}{4}$.
+
+[ĐỀ – EN]
+Remember the lesson on mixed numbers. Compare $2\dfrac{3}{10}$ and $2\dfrac{3}{4}$ by writing them as decimals.
+
+[LỜI GIẢI CŨ – EN]
+We have $2\dfrac{3}{10}=2.3$. Since $\dfrac{3}{4}=\dfrac{75}{100}$, we have $2\dfrac{3}{4}=2.75$.
+
+Write $2.3=2.30$. Since $30<75$, we have $2.3<2.75$.
+
+**Answer.** $2\dfrac{3}{10}<2\dfrac{3}{4}$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Có bao nhiêu số thập phân có hai chữ số ở phần thập phân, lớn hơn $0{,}3$ và bé hơn $0{,}4$?
+
+[LỜI GIẢI CŨ – VI]
+Các số cần tìm có dạng $0{,}3a$ với hàng phần mười là $3$. Vì số đó lớn hơn $0{,}30$ nên chữ số $a$ khác $0$, nên $a\in\{1;2;3;4;5;6;7;8;9\}$. Đó là các số $0{,}31$; $0{,}32$; ...; $0{,}39$.
+
+**Đáp số.** $9$ số.
+
+[ĐỀ – EN]
+How many decimals with two digits in the decimal part are greater than $0.3$ and less than $0.4$?
+
+[LỜI GIẢI CŨ – EN]
+The numbers we want have the form $0.3a$ with tenths digit $3$. Since the number is greater than $0.30$, the digit $a$ is not $0$, so $a\in\{1,2,3,4,5,6,7,8,9\}$. The numbers are $0.31$; $0.32$; ...; $0.39$.
+
+**Answer.** $9$ numbers.
 
 
 ===== HẾT FILE Nguyenchanh2358-07-LG =====

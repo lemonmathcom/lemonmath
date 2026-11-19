@@ -6,7 +6,7 @@ Kết quả: file hanibi108-05-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/vie
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – hanibi108-05-LG
-Người làm: tài khoản hanibi108. Gói này có 3 bài tập thuộc 2 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản hanibi108. Gói này có 42 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/hanibi108-05-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/2). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/hanibi108-05-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,110 +189,943 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- exams/act/act-algebra-functions (2 bài tập)
-- exams/act/act-number-quantity (1 bài tập)
+- g11/addition-rule (7 bài tập)
+- g11/angle-trig-values (10 bài tập)
+- g11/arithmetic-progressions (10 bài tập)
+- g11/basic-trig-equations (10 bài tập)
+- g11/continuity (5 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ exams/act/act-algebra-functions
-Bài học: Đại số và hàm số / Algebra and functions
-Cần viết lại lời giải các bài: 2, 4 (giữ ĐÚNG số thứ tự này)
+@@@ g11/addition-rule
+Bài học: Công thức cộng xác suất / The addition rule
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Gieo một con xúc xắc cân đối. Tính xác suất số chấm là số chẵn hoặc chia hết cho $3$.
+
+[LỜI GIẢI CŨ – VI]
+$A\cap B=\{6\}$ nên $P(A\cup B)=\dfrac36+\dfrac26-\dfrac16=\dfrac46=\dfrac23$.
+
+**Đáp số.** $\dfrac23$.
+
+[ĐỀ – EN]
+Roll a fair die. Find the probability that the number is even or divisible by $3$.
+
+[LỜI GIẢI CŨ – EN]
+$A\cap B=\{6\}$, so $P(A\cup B)=\dfrac36+\dfrac26-\dfrac16=\dfrac46=\dfrac23$.
+
+**Answer.** $\dfrac23$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Giải hệ phương trình $y=2x-1$ và $3x+y=14$.
+Rút ngẫu nhiên một lá từ bộ bài tây $52$ lá. Tính xác suất rút được lá đỏ hoặc lá át.
 
 [LỜI GIẢI CŨ – VI]
-Thế $y=2x-1$ vào $3x+y=14$, ta được $3x+2x-1=14$.
+$P(\text{đỏ})=\dfrac{26}{52}$, $P(\text{át})=\dfrac4{52}$, $P(\text{át đỏ})=\dfrac2{52}$. Vậy $P(A\cup B)=\dfrac{26+4-2}{52}=\dfrac{28}{52}=\dfrac7{13}$.
 
-Suy ra $5x=15$, nên $x=3$.
-
-Khi đó $y=2(3)-1=5$.
-
-Vậy hệ phương trình có nghiệm $x=3$, $y=5$.
-
-**Đáp số.** $x=3$, $y=5$.
+**Đáp số.** $\dfrac7{13}$.
 
 [ĐỀ – EN]
-Solve the system $y=2x-1$ and $3x+y=14$.
+A card is drawn at random from a standard deck of $52$ cards. Find the probability of drawing a red card or an ace.
 
 [LỜI GIẢI CŨ – EN]
-Substituting $y=2x-1$ into $3x+y=14$ gives $3x+2x-1=14$.
+$P(\text{red})=\dfrac{26}{52}$, $P(\text{ace})=\dfrac4{52}$, $P(\text{red ace})=\dfrac2{52}$. So $P(A\cup B)=\dfrac{26+4-2}{52}=\dfrac{28}{52}=\dfrac7{13}$.
 
-So $5x=15$, and $x=3$.
+**Answer.** $\dfrac7{13}$.
 
-Then $y=2(3)-1=5$.
+=== Bài 3 ===
+[ĐỀ – VI]
+Xét tính đúng sai của các mệnh đề sau.
 
-So the solution of the system is $x=3$, $y=5$.
+a) $P(A\cup B)=P(A)+P(B)$ với mọi biến cố $A$, $B$.
 
-**Answer.** $x=3$, $y=5$.
+b) Nếu $A$, $B$ xung khắc thì $P(A\cup B)=P(A)+P(B)$.
+
+c) $P(\overline A)=1-P(A)$.
+
+d) $P(A\cup B)\ge P(A)$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Sai**: cần trừ $P(AB)$.
+
+b) **Đúng**: khi xung khắc $P(AB)=0$.
+
+c) **Đúng** theo tính chất.
+
+d) **Đúng**: $A\subset A\cup B$.
+
+**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Đúng.
+
+[ĐỀ – EN]
+Decide whether each statement is true or false.
+
+a) $P(A\cup B)=P(A)+P(B)$ for all events $A$, $B$.
+
+b) If $A$, $B$ are mutually exclusive then $P(A\cup B)=P(A)+P(B)$.
+
+c) $P(\overline A)=1-P(A)$.
+
+d) $P(A\cup B)\ge P(A)$.
+
+[LỜI GIẢI CŨ – EN]
+a) **False**: $P(AB)$ must be subtracted.
+
+b) **True**: for mutually exclusive events $P(AB)=0$.
+
+c) **True** by the property.
+
+d) **True**: $A\subset A\cup B$.
+
+**Answer.** a) False; b) True; c) True; d) True.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Cho $f(x)=2x-5$. Tìm giá trị của $x$ để $f(x)=7$.
+Cho $P(A)=0{,}5$, $P(B)=0{,}4$ và $P(AB)=0{,}2$. Tính $P(A\cup B)$ và xác suất không có biến cố nào trong hai biến cố xảy ra.
 
 [LỜI GIẢI CŨ – VI]
-Ta cần $2x-5=7$.
+$P(A\cup B)=0{,}5+0{,}4-0{,}2=0{,}7$. Xác suất không biến cố nào xảy ra là $1-0{,}7=0{,}3$.
 
-Cộng $5$ vào hai vế, ta được $2x=12$, nên $x=6$.
-
-Kiểm tra: $f(6)=12-5=7$.
-
-Vậy $f(x)=7$ khi $x=6$.
-
-**Đáp số.** $x=6$.
+**Đáp số.** $0{,}7$ và $0{,}3$.
 
 [ĐỀ – EN]
-Let $f(x)=2x-5$. Find the value of $x$ for which $f(x)=7$.
+Given $P(A)=0.5$, $P(B)=0.4$ and $P(AB)=0.2$, find $P(A\cup B)$ and the probability that neither event occurs.
 
 [LỜI GIẢI CŨ – EN]
-We need $2x-5=7$.
+$P(A\cup B)=0.5+0.4-0.2=0.7$. The probability that neither event occurs is $1-0.7=0.3$.
 
-Adding $5$ to both sides gives $2x=12$, so $x=6$.
-
-Check: $f(6)=12-5=7$.
-
-So $f(x)=7$ when $x=6$.
-
-**Answer.** $x=6$.
-
-
-######################################################################
-@@@ exams/act/act-number-quantity
-Bài học: Số, đại lượng và tỉ lệ / Number, quantity and proportion
-Cần viết lại lời giải các bài: 5 (giữ ĐÚNG số thứ tự này)
-######################################################################
+**Answer.** $0.7$ and $0.3$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Rút gọn $i^{2027}$.
+Tung một đồng xu cân đối ba lần. Tính xác suất có ít nhất một lần ra mặt ngửa.
 
 [LỜI GIẢI CŨ – VI]
-Chia $2027$ cho $4$, ta được $2027=4\times506+3$.
+Xác suất ba lần đều sấp là $\left(\dfrac12\right)^3=\dfrac18$. Vậy xác suất ít nhất một lần ngửa là $1-\dfrac18=\dfrac78$.
 
-Vì $i^4=1$ nên $i^{2027}=\left(i^4\right)^{506}\cdot i^3=i^3$.
-
-Mặt khác $i^3=i^2\cdot i=-i$.
-
-Vậy $i^{2027}=-i$.
-
-**Đáp số.** $-i$.
+**Đáp số.** $\dfrac78$.
 
 [ĐỀ – EN]
-Simplify $i^{2027}$.
+A fair coin is tossed three times. Find the probability of at least one head.
 
 [LỜI GIẢI CŨ – EN]
-Dividing $2027$ by $4$ gives $2027=4\times506+3$.
+The probability that all three are tails is $\left(\dfrac12\right)^3=\dfrac18$. So the probability of at least one head is $1-\dfrac18=\dfrac78$.
 
-Since $i^4=1$, we have $i^{2027}=\left(i^4\right)^{506}\cdot i^3=i^3$.
+**Answer.** $\dfrac78$.
 
-Also $i^3=i^2\cdot i=-i$.
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử một nhà kho có hai thiết bị báo cháy hoạt động độc lập; xác suất mỗi thiết bị phát hiện đám cháy lần lượt là $0{,}9$ và $0{,}8$ (số liệu giả định). Tính xác suất có ít nhất một thiết bị báo động khi có cháy.
 
-So $i^{2027}=-i$.
+[LỜI GIẢI CŨ – VI]
+Xác suất cả hai không báo là $0{,}1\cdot0{,}2=0{,}02$. Vậy xác suất ít nhất một thiết bị báo là $1-0{,}02=0{,}98$.
 
-**Answer.** $-i$.
+**Đáp số.** $0{,}98$.
+
+[ĐỀ – EN]
+Suppose a warehouse has two fire alarms that work independently; the probabilities that each detects a fire are $0.9$ and $0.8$ (assumed figures). Find the probability that at least one alarm sounds when there is a fire.
+
+[LỜI GIẢI CŨ – EN]
+The probability that both fail is $0.1\cdot0.2=0.02$. So the probability that at least one sounds is $1-0.02=0.98$.
+
+**Answer.** $0.98$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Ôn lại biến đổi phương trình. Cho $P(A\cup B)=0{,}85$, $P(A)=0{,}6$ và $P(B)=0{,}5$. Tính $P(AB)$ và cho biết $A$, $B$ có độc lập không.
+
+[LỜI GIẢI CŨ – VI]
+$P(AB)=0{,}6+0{,}5-0{,}85=0{,}25$. Mặt khác $P(A)\,P(B)=0{,}6\cdot0{,}5=0{,}3\ne0{,}25$ nên $A$, $B$ không độc lập.
+
+**Đáp số.** $P(AB)=0{,}25$; không độc lập.
+
+[ĐỀ – EN]
+Revisit rearranging equations. Given $P(A\cup B)=0.85$, $P(A)=0.6$ and $P(B)=0.5$, find $P(AB)$ and decide whether $A$, $B$ are independent.
+
+[LỜI GIẢI CŨ – EN]
+$P(AB)=0.6+0.5-0.85=0.25$. Meanwhile $P(A)\,P(B)=0.6\cdot0.5=0.3\ne0.25$, so $A$, $B$ are not independent.
+
+**Answer.** $P(AB)=0.25$; not independent.
+
+
+######################################################################
+@@@ g11/angle-trig-values
+Bài học: Giá trị lượng giác của góc lượng giác / Trigonometric values of angles
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đổi số đo các góc sau sang radian: $150^\circ$, $-60^\circ$. Đổi sang độ: $\dfrac{5\pi}4$, $\dfrac{7\pi}{18}$.
+
+[LỜI GIẢI CŨ – VI]
+$150^\circ=150\cdot\dfrac\pi{180}=\dfrac{5\pi}6$; $-60^\circ=-\dfrac\pi3$; $\dfrac{5\pi}4=225^\circ$; $\dfrac{7\pi}{18}=70^\circ$.
+
+**Đáp số.** $\dfrac{5\pi}6$; $-\dfrac\pi3$; $225^\circ$; $70^\circ$.
+
+[ĐỀ – EN]
+Convert the following angles to radians: $150^\circ$, $-60^\circ$. Convert to degrees: $\dfrac{5\pi}4$, $\dfrac{7\pi}{18}$.
+
+[LỜI GIẢI CŨ – EN]
+$150^\circ=150\cdot\dfrac\pi{180}=\dfrac{5\pi}6$; $-60^\circ=-\dfrac\pi3$; $\dfrac{5\pi}4=225^\circ$; $\dfrac{7\pi}{18}=70^\circ$.
+
+**Answer.** $\dfrac{5\pi}6$; $-\dfrac\pi3$; $225^\circ$; $70^\circ$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm số đo $\alpha\in[0;2\pi)$ của góc lượng giác có một số đo là $\dfrac{31\pi}6$, và của góc lượng giác có một số đo là $-\dfrac{17\pi}4$.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{31\pi}6=\dfrac{7\pi}6+4\pi$, nên $\alpha=\dfrac{7\pi}6$. $-\dfrac{17\pi}4+6\pi=\dfrac{7\pi}4$, nên $\alpha=\dfrac{7\pi}4$.
+
+**Đáp số.** $\dfrac{7\pi}6$; $\dfrac{7\pi}4$.
+
+[ĐỀ – EN]
+Find the measure $\alpha\in[0, 2\pi)$ of the directed angle that has a measure $\dfrac{31\pi}6$, and of the directed angle that has a measure $-\dfrac{17\pi}4$.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{31\pi}6=\dfrac{7\pi}6+4\pi$, so $\alpha=\dfrac{7\pi}6$. $-\dfrac{17\pi}4+6\pi=\dfrac{7\pi}4$, so $\alpha=\dfrac{7\pi}4$.
+
+**Answer.** $\dfrac{7\pi}6$; $\dfrac{7\pi}4$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $\sin\dfrac{5\pi}3$, $\cos\left(-\dfrac\pi3\right)$, $\tan\dfrac{3\pi}4$, $\cot\dfrac{7\pi}6$.
+
+[LỜI GIẢI CŨ – VI]
+$\sin\dfrac{5\pi}3=-\sin\dfrac\pi3=-\dfrac{\sqrt3}2$. $\cos\left(-\dfrac\pi3\right)=\cos\dfrac\pi3=\dfrac12$. $\tan\dfrac{3\pi}4=-\tan\dfrac\pi4=-1$. $\cot\dfrac{7\pi}6=\cot\dfrac\pi6=\sqrt3$.
+
+**Đáp số.** $-\dfrac{\sqrt3}2$; $\dfrac12$; $-1$; $\sqrt3$.
+
+[ĐỀ – EN]
+Find $\sin\dfrac{5\pi}3$, $\cos\left(-\dfrac\pi3\right)$, $\tan\dfrac{3\pi}4$, $\cot\dfrac{7\pi}6$.
+
+[LỜI GIẢI CŨ – EN]
+$\sin\dfrac{5\pi}3=-\sin\dfrac\pi3=-\dfrac{\sqrt3}2$. $\cos\left(-\dfrac\pi3\right)=\cos\dfrac\pi3=\dfrac12$. $\tan\dfrac{3\pi}4=-\tan\dfrac\pi4=-1$. $\cot\dfrac{7\pi}6=\cot\dfrac\pi6=\sqrt3$.
+
+**Answer.** $-\dfrac{\sqrt3}2$; $\dfrac12$; $-1$; $\sqrt3$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Xác định dấu của $\sin\alpha$, $\cos\alpha$, $\tan\alpha$ khi $\pi<\alpha<\dfrac{3\pi}2$.
+
+[LỜI GIẢI CŨ – VI]
+Với $\pi<\alpha<\dfrac{3\pi}2$, điểm biểu diễn ở góc phần tư thứ III, nên $\sin\alpha<0$, $\cos\alpha<0$, $\tan\alpha>0$.
+
+**Đáp số.** $\sin\alpha<0$; $\cos\alpha<0$; $\tan\alpha>0$.
+
+[ĐỀ – EN]
+Decide the signs of $\sin\alpha$, $\cos\alpha$, $\tan\alpha$ when $\pi<\alpha<\dfrac{3\pi}2$.
+
+[LỜI GIẢI CŨ – EN]
+For $\pi<\alpha<\dfrac{3\pi}2$ the representing point is in the third quadrant, so $\sin\alpha<0$, $\cos\alpha<0$, $\tan\alpha>0$.
+
+**Answer.** $\sin\alpha<0$; $\cos\alpha<0$; $\tan\alpha>0$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Kim phút của một đồng hồ dài $12$ cm, đặt trong hệ toạ độ như ở đầu bài (lúc $12$ giờ đầu kim ở $(0;12)$). Sau $25$ phút:
+a) Kim quay một góc lượng giác bao nhiêu radian?
+b) Đầu kim đi được quãng đường bao nhiêu xentimét (làm tròn đến hàng phần mười)?
+c) Toạ độ đầu kim là gì?
+
+[LỜI GIẢI CŨ – VI]
+a) Góc quay là $-6^\circ\cdot25=-150^\circ=-\dfrac{5\pi}6$.
+
+b) $l=12\cdot\dfrac{5\pi}6=10\pi\approx31{,}4$ (cm).
+
+c) $\theta=\dfrac\pi2-\dfrac{5\pi}6=-\dfrac\pi3$, nên $x=12\cos\left(-\dfrac\pi3\right)=6$ và $y=12\sin\left(-\dfrac\pi3\right)=-6\sqrt3\approx-10{,}39$.
+
+**Đáp số.** a) $-\dfrac{5\pi}6$; b) $\approx31{,}4$ cm; c) $(6;-6\sqrt3)$.
+
+[ĐỀ – EN]
+The minute hand of a clock is $12$ cm long and is placed in a coordinate system as at the start of the lesson (at $12$ o'clock the tip is at $(0, 12)$). After $25$ minutes:
+a) Through how many radians (as a directed angle) has the hand turned?
+b) How far has the tip travelled, in centimetres (to 1 decimal place)?
+c) What are the coordinates of the tip?
+
+[LỜI GIẢI CŨ – EN]
+a) The angle turned is $-6^\circ\cdot25=-150^\circ=-\dfrac{5\pi}6$.
+
+b) $l=12\cdot\dfrac{5\pi}6=10\pi\approx31.4$ (cm).
+
+c) $\theta=\dfrac\pi2-\dfrac{5\pi}6=-\dfrac\pi3$, so $x=12\cos\left(-\dfrac\pi3\right)=6$ and $y=12\sin\left(-\dfrac\pi3\right)=-6\sqrt3\approx-10.39$.
+
+**Answer.** a) $-\dfrac{5\pi}6$; b) $\approx31.4$ cm; c) $(6, -6\sqrt3)$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một vòng đu quay có bán kính $15$ m, tâm cách mặt đất $18$ m. Cabin xuất phát ở điểm thấp nhất, quay ngược chiều kim đồng hồ một góc $\theta$ thì độ cao so với mặt đất là $h=18-15\cos\theta$ (m). Tính độ cao của cabin khi $\theta=\dfrac\pi3$, và cho biết độ cao lớn nhất và nhỏ nhất của cabin. (Số liệu là giả định.)
+
+[LỜI GIẢI CŨ – VI]
+Với $\theta=\dfrac\pi3$: $h=18-15\cdot\dfrac12=10{,}5$ (m). Vì $-1\le\cos\theta\le1$ nên $3\le h\le33$. Độ cao nhỏ nhất là $3$ m (khi $\cos\theta=1$), lớn nhất là $33$ m (khi $\cos\theta=-1$).
+
+**Đáp số.** $10{,}5$ m; nhỏ nhất $3$ m; lớn nhất $33$ m.
+
+[ĐỀ – EN]
+A Ferris wheel has radius $15$ m and its centre is $18$ m above the ground. A cabin starts at the lowest point and turns anticlockwise through an angle $\theta$, and its height above the ground is $h=18-15\cos\theta$ (m). Find the height of the cabin when $\theta=\dfrac\pi3$, and state the greatest and least heights of the cabin. (The figures are made up.)
+
+[LỜI GIẢI CŨ – EN]
+For $\theta=\dfrac\pi3$: $h=18-15\cdot\dfrac12=10.5$ (m). Since $-1\le\cos\theta\le1$, we have $3\le h\le33$. The least height is $3$ m (when $\cos\theta=1$) and the greatest is $33$ m (when $\cos\theta=-1$).
+
+**Answer.** $10.5$ m; least $3$ m; greatest $33$ m.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho góc $\alpha$ thoả mãn $0<\alpha<\dfrac\pi2$ và $\tan\alpha=\dfrac34$. Xét tính đúng sai của các mệnh đề sau:
+
+a) $\sin\alpha=\dfrac45$.
+
+b) $\cos\alpha=\dfrac45$.
+
+c) $\sin(\pi-\alpha)=\dfrac35$.
+
+d) $\cos\left(\dfrac\pi2-\alpha\right)=\dfrac35$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac1{\cos^2\alpha}=1+\dfrac9{16}=\dfrac{25}{16}$ nên $\cos\alpha=\dfrac45$ (vì $\cos\alpha>0$), và $\sin\alpha=\dfrac34\cdot\dfrac45=\dfrac35$.
+
+a) **Sai**: $\sin\alpha=\dfrac35$. b) **Đúng**: $\cos\alpha=\dfrac45$. c) **Đúng**: $\sin(\pi-\alpha)=\sin\alpha=\dfrac35$. d) **Đúng**: $\cos\left(\dfrac\pi2-\alpha\right)=\sin\alpha=\dfrac35$.
+
+**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Đúng.
+
+[ĐỀ – EN]
+Given an angle $\alpha$ with $0<\alpha<\dfrac\pi2$ and $\tan\alpha=\dfrac34$. Decide whether each statement is true or false.
+
+a) $\sin\alpha=\dfrac45$.
+
+b) $\cos\alpha=\dfrac45$.
+
+c) $\sin(\pi-\alpha)=\dfrac35$.
+
+d) $\cos\left(\dfrac\pi2-\alpha\right)=\dfrac35$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac1{\cos^2\alpha}=1+\dfrac9{16}=\dfrac{25}{16}$, so $\cos\alpha=\dfrac45$ (since $\cos\alpha>0$), and $\sin\alpha=\dfrac34\cdot\dfrac45=\dfrac35$.
+
+a) **False**: $\sin\alpha=\dfrac35$. b) **True**: $\cos\alpha=\dfrac45$. c) **True**: $\sin(\pi-\alpha)=\sin\alpha=\dfrac35$. d) **True**: $\cos\left(\dfrac\pi2-\alpha\right)=\sin\alpha=\dfrac35$.
+
+**Answer.** a) False; b) True; c) True; d) True.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Cho $\tan\alpha=3$. Tính giá trị của $A=\dfrac{2\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alpha}$ (làm tròn đến hàng phần mười nếu cần).
+
+[LỜI GIẢI CŨ – VI]
+Chia tử và mẫu cho $\cos\alpha$: $A=\dfrac{2\tan\alpha+1}{\tan\alpha-1}=\dfrac{2\cdot3+1}{3-1}=\dfrac72=3{,}5$.
+
+**Đáp số.** $3{,}5$.
+
+[ĐỀ – EN]
+Given $\tan\alpha=3$, find $A=\dfrac{2\sin\alpha+\cos\alpha}{\sin\alpha-\cos\alpha}$ (to 1 decimal place if necessary).
+
+[LỜI GIẢI CŨ – EN]
+Dividing the numerator and the denominator by $\cos\alpha$: $A=\dfrac{2\tan\alpha+1}{\tan\alpha-1}=\dfrac{2\cdot3+1}{3-1}=\dfrac72=3.5$.
+
+**Answer.** $3.5$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tam giác $ABC$ vuông tại $A$ có $AB=6$ và $AC=8$. Tính $\sin B$, $\cos B$, $\tan B$ rồi kiểm tra hệ thức $\sin^2B+\cos^2B=1$. (Ôn lại tỉ số lượng giác của góc nhọn.)
+
+[LỜI GIẢI CŨ – VI]
+$BC=\sqrt{6^2+8^2}=10$. Do đó $\sin B=\dfrac{AC}{BC}=\dfrac45$, $\cos B=\dfrac{AB}{BC}=\dfrac35$, $\tan B=\dfrac{AC}{AB}=\dfrac43$. Kiểm tra: $\dfrac{16}{25}+\dfrac9{25}=1$.
+
+**Đáp số.** $\sin B=\dfrac45$, $\cos B=\dfrac35$, $\tan B=\dfrac43$.
+
+[ĐỀ – EN]
+Triangle $ABC$ is right-angled at $A$ with $AB=6$ and $AC=8$. Find $\sin B$, $\cos B$, $\tan B$ and check the identity $\sin^2B+\cos^2B=1$. (A revision of the trigonometric ratios of an acute angle.)
+
+[LỜI GIẢI CŨ – EN]
+$BC=\sqrt{6^2+8^2}=10$. So $\sin B=\dfrac{AC}{BC}=\dfrac45$, $\cos B=\dfrac{AB}{BC}=\dfrac35$, $\tan B=\dfrac{AC}{AB}=\dfrac43$. Check: $\dfrac{16}{25}+\dfrac9{25}=1$.
+
+**Answer.** $\sin B=\dfrac45$, $\cos B=\dfrac35$, $\tan B=\dfrac43$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Chứng minh rằng $\sin^6\alpha+\cos^6\alpha+3\sin^2\alpha\cos^2\alpha=1$ với mọi $\alpha$.
+
+[LỜI GIẢI CŨ – VI]
+Đặt $a=\sin^2\alpha$, $b=\cos^2\alpha$ thì $a+b=1$. Ta có $\sin^6\alpha+\cos^6\alpha=a^3+b^3=(a+b)^3-3ab(a+b)=1-3ab$. Do đó vế trái bằng $1-3ab+3ab=1$.
+
+**Đáp số.** Đẳng thức được chứng minh.
+
+[ĐỀ – EN]
+Prove that $\sin^6\alpha+\cos^6\alpha+3\sin^2\alpha\cos^2\alpha=1$ for all $\alpha$.
+
+[LỜI GIẢI CŨ – EN]
+Let $a=\sin^2\alpha$, $b=\cos^2\alpha$, so $a+b=1$. We have $\sin^6\alpha+\cos^6\alpha=a^3+b^3=(a+b)^3-3ab(a+b)=1-3ab$. So the left-hand side is $1-3ab+3ab=1$.
+
+**Answer.** The identity is proved.
+
+
+######################################################################
+@@@ g11/arithmetic-progressions
+Bài học: Cấp số cộng / Arithmetic progressions
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Chứng minh dãy số $(u_n)$ với $u_n=3n-5$ là cấp số cộng. Tìm $u_1$ và công sai.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $u_{n+1}-u_n=\left(3(n+1)-5\right)-(3n-5)=3$ không đổi, nên $(u_n)$ là cấp số cộng với công sai $d=3$ và $u_1=3-5=-2$.
+
+**Đáp số.** Cấp số cộng với $u_1=-2$, $d=3$.
+
+[ĐỀ – EN]
+Prove that the sequence $(u_n)$ with $u_n=3n-5$ is an arithmetic progression. Find $u_1$ and the common difference.
+
+[LỜI GIẢI CŨ – EN]
+We have $u_{n+1}-u_n=\left(3(n+1)-5\right)-(3n-5)=3$, which is constant, so $(u_n)$ is an arithmetic progression with common difference $d=3$ and $u_1=3-5=-2$.
+
+**Answer.** An arithmetic progression with $u_1=-2$, $d=3$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho cấp số cộng có $u_1=5$ và $d=-3$. Tính $u_{10}$. Số $-49$ là số hạng thứ mấy?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $u_{10}=5+9\cdot(-3)=-22$. Giải $5-3(n-1)=-49$ ta được $n-1=18$, nên $n=19$.
+
+**Đáp số.** $u_{10}=-22$; $-49$ là số hạng thứ $19$.
+
+[ĐỀ – EN]
+An arithmetic progression has $u_1=5$ and $d=-3$. Find $u_{10}$. Which term is $-49$?
+
+[LỜI GIẢI CŨ – EN]
+We have $u_{10}=5+9\cdot(-3)=-22$. Solving $5-3(n-1)=-49$ gives $n-1=18$, so $n=19$.
+
+**Answer.** $u_{10}=-22$; $-49$ is the $19$th term.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho cấp số cộng có $u_4=10$ và $u_9=-5$. Tìm $u_1$, công sai $d$ và $u_{20}$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $5d=-5-10=-15$ nên $d=-3$. Khi đó $u_1=10-3\cdot(-3)=19$ và $u_{20}=19+19\cdot(-3)=-38$.
+
+**Đáp số.** $u_1=19$, $d=-3$, $u_{20}=-38$.
+
+[ĐỀ – EN]
+An arithmetic progression has $u_4=10$ and $u_9=-5$. Find $u_1$, the common difference $d$ and $u_{20}$.
+
+[LỜI GIẢI CŨ – EN]
+We have $5d=-5-10=-15$, so $d=-3$. Then $u_1=10-3\cdot(-3)=19$ and $u_{20}=19+19\cdot(-3)=-38$.
+
+**Answer.** $u_1=19$, $d=-3$, $u_{20}=-38$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính tổng $2+5+8+\dots+98$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $2+3(n-1)=98$ nên $n=33$. Do đó $S_{33}=\dfrac{33\cdot(2+98)}{2}=1650$.
+
+**Đáp số.** $1650$.
+
+[ĐỀ – EN]
+Find the sum $2+5+8+\dots+98$.
+
+[LỜI GIẢI CŨ – EN]
+We have $2+3(n-1)=98$, so $n=33$. Hence $S_{33}=\dfrac{33\cdot(2+98)}{2}=1650$.
+
+**Answer.** $1650$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tìm $x$ để ba số $x-2$, $2x+1$, $5x-4$ theo thứ tự lập thành một cấp số cộng.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $6x-6=4x+2$, suy ra $x=4$. Ba số là $2$, $9$, $16$ có công sai $7$.
+
+**Đáp số.** $x=4$.
+
+[ĐỀ – EN]
+Find $x$ so that the numbers $x-2$, $2x+1$, $5x-4$, in that order, form an arithmetic progression.
+
+[LỜI GIẢI CŨ – EN]
+We have $6x-6=4x+2$, so $x=4$. The three numbers are $2$, $9$, $16$, with common difference $7$.
+
+**Answer.** $x=4$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử một công ty trả lương năm đầu $120$ triệu đồng và mỗi năm sau tăng thêm $6$ triệu đồng so với năm trước. Tìm tổng số tiền lương nhận được trong $10$ năm đầu.
+
+[LỜI GIẢI CŨ – VI]
+Lương năm thứ $10$ là $u_{10}=120+9\cdot6=174$ (triệu đồng). Tổng $S_{10}=\dfrac{10\cdot(120+174)}{2}=1470$ (triệu đồng).
+
+**Đáp số.** $1470$ triệu đồng.
+
+[ĐỀ – EN]
+Suppose a company pays a salary of $120$ million dong in the first year and each later year pays $6$ million dong more than the year before. Find the total salary received in the first $10$ years.
+
+[LỜI GIẢI CŨ – EN]
+The salary in year $10$ is $u_{10}=120+9\cdot6=174$ (million dong). The total is $S_{10}=\dfrac{10\cdot(120+174)}{2}=1470$ (million dong).
+
+**Answer.** $1470$ million dong.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Xét dãy số $7, 3, -1, -5, \dots$ (cấp số cộng). Xét tính đúng sai của các mệnh đề sau:
+
+a) Công sai của cấp số cộng là $d=-4$.
+
+b) Số hạng tổng quát là $u_n=11-4n$.
+
+c) Số $-45$ là một số hạng của cấp số cộng.
+
+d) Tổng $10$ số hạng đầu bằng $-130$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: $3-7=-4$.
+
+b) **Đúng**: $u_n=7+(n-1)(-4)=11-4n$.
+
+c) **Đúng**: $11-4n=-45$ cho $n=14$.
+
+d) **Sai**: $S_{10}=\dfrac{10\left[14+9\cdot(-4)\right]}{2}=5\cdot(-22)=-110$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Consider the sequence $7, 3, -1, -5, \dots$ (an arithmetic progression). Decide whether each statement is true or false.
+
+a) The common difference of the progression is $d=-4$.
+
+b) The general term is $u_n=11-4n$.
+
+c) The number $-45$ is a term of the progression.
+
+d) The sum of the first $10$ terms is $-130$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: $3-7=-4$.
+
+b) **True**: $u_n=7+(n-1)(-4)=11-4n$.
+
+c) **True**: $11-4n=-45$ gives $n=14$.
+
+d) **False**: $S_{10}=\dfrac{10\left[14+9\cdot(-4)\right]}{2}=5\cdot(-22)=-110$.
+
+**Answer.** a) True; b) True; c) True; d) False.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tính tổng tất cả các số lẻ có hai chữ số.
+
+[LỜI GIẢI CŨ – VI]
+Có $\dfrac{99-11}{2}+1=45$ số hạng. Tổng là $\dfrac{45\cdot(11+99)}{2}=45\cdot55=2475$.
+
+**Đáp số.** $2475$.
+
+[ĐỀ – EN]
+Find the sum of all odd numbers with two digits.
+
+[LỜI GIẢI CŨ – EN]
+There are $\dfrac{99-11}{2}+1=45$ terms. The sum is $\dfrac{45\cdot(11+99)}{2}=45\cdot55=2475$.
+
+**Answer.** $2475$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Chứng minh mọi cấp số cộng có công sai $d>0$ là dãy số tăng, bị chặn dưới nhưng không bị chặn trên.
+
+[LỜI GIẢI CŨ – VI]
+Vì $u_{n+1}-u_n=d>0$ nên dãy tăng, do đó $u_n\ge u_1$ với mọi $n$: dãy bị chặn dưới bởi $u_1$. Với số $M$ bất kì, lấy số nguyên dương $n>1+\dfrac{M-u_1}{d}$ thì $u_n=u_1+(n-1)d>M$, nên không có số $M$ nào chặn trên dãy.
+
+**Đáp số.** Dãy tăng, bị chặn dưới bởi $u_1$, không bị chặn trên.
+
+[ĐỀ – EN]
+Prove that every arithmetic progression with common difference $d>0$ is increasing and bounded below but not bounded above.
+
+[LỜI GIẢI CŨ – EN]
+Since $u_{n+1}-u_n=d>0$, the sequence is increasing, so $u_n\ge u_1$ for all $n$: the sequence is bounded below by $u_1$. For any number $M$, take a positive integer $n>1+\dfrac{M-u_1}{d}$; then $u_n=u_1+(n-1)d>M$, so no number $M$ bounds the sequence above.
+
+**Answer.** The sequence is increasing, bounded below by $u_1$, and not bounded above.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Cho ba số $a$, $b$, $c$ sao cho $a^2$, $b^2$, $c^2$ lập cấp số cộng và $a+b$, $b+c$, $c+a$ đều khác $0$. Chứng minh ba số $\dfrac{1}{b+c}$, $\dfrac{1}{c+a}$, $\dfrac{1}{a+b}$ cũng lập cấp số cộng.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{1}{c+a}-\dfrac{1}{b+c}=\dfrac{b-a}{(c+a)(b+c)}$ và $\dfrac{1}{a+b}-\dfrac{1}{c+a}=\dfrac{c-b}{(a+b)(c+a)}$. Hai hiệu bằng nhau khi $\dfrac{b-a}{b+c}=\dfrac{c-b}{a+b}$, tức $(b-a)(a+b)=(c-b)(b+c)$, hay $b^2-a^2=c^2-b^2$. Đây là giả thiết, nên hai hiệu bằng nhau.
+
+**Đáp số.** Ba số $\dfrac{1}{b+c}$, $\dfrac{1}{c+a}$, $\dfrac{1}{a+b}$ lập cấp số cộng.
+
+[ĐỀ – EN]
+Let $a$, $b$, $c$ be numbers such that $a^2$, $b^2$, $c^2$ form an arithmetic progression and $a+b$, $b+c$, $c+a$ are all non-zero. Prove that $\dfrac{1}{b+c}$, $\dfrac{1}{c+a}$, $\dfrac{1}{a+b}$ also form an arithmetic progression.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{1}{c+a}-\dfrac{1}{b+c}=\dfrac{b-a}{(c+a)(b+c)}$ and $\dfrac{1}{a+b}-\dfrac{1}{c+a}=\dfrac{c-b}{(a+b)(c+a)}$. The two differences are equal when $\dfrac{b-a}{b+c}=\dfrac{c-b}{a+b}$, that is $(b-a)(a+b)=(c-b)(b+c)$, or $b^2-a^2=c^2-b^2$. This is the hypothesis, so the two differences are equal.
+
+**Answer.** The numbers $\dfrac{1}{b+c}$, $\dfrac{1}{c+a}$, $\dfrac{1}{a+b}$ form an arithmetic progression.
+
+
+######################################################################
+@@@ g11/basic-trig-equations
+Bài học: Phương trình lượng giác cơ bản / Basic trigonometric equations
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Giải phương trình $\sin x=-\dfrac12$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\sin x=\sin\left(-\dfrac{\pi}{6}\right)$ nên $x=-\dfrac{\pi}{6}+k2\pi$ hoặc $x=\pi+\dfrac{\pi}{6}+k2\pi=\dfrac{7\pi}{6}+k2\pi$.
+
+**Đáp số.** $x=-\dfrac{\pi}{6}+k2\pi$ hoặc $x=\dfrac{7\pi}{6}+k2\pi$ $(k\in\mathbb{Z})$.
+
+[ĐỀ – EN]
+Solve $\sin x=-\dfrac12$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\sin x=\sin\left(-\dfrac{\pi}{6}\right)$, so $x=-\dfrac{\pi}{6}+k2\pi$ or $x=\pi+\dfrac{\pi}{6}+k2\pi=\dfrac{7\pi}{6}+k2\pi$.
+
+**Answer.** $x=-\dfrac{\pi}{6}+k2\pi$ or $x=\dfrac{7\pi}{6}+k2\pi$ $(k\in\mathbb{Z})$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Giải phương trình $2\cos x+1=0$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\cos x=-\dfrac12=\cos\dfrac{2\pi}{3}$ nên $x=\pm\dfrac{2\pi}{3}+k2\pi$.
+
+**Đáp số.** $x=\pm\dfrac{2\pi}{3}+k2\pi$ $(k\in\mathbb{Z})$.
+
+[ĐỀ – EN]
+Solve $2\cos x+1=0$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\cos x=-\dfrac12=\cos\dfrac{2\pi}{3}$, so $x=\pm\dfrac{2\pi}{3}+k2\pi$.
+
+**Answer.** $x=\pm\dfrac{2\pi}{3}+k2\pi$ $(k\in\mathbb{Z})$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Giải phương trình $\tan\left(x-\dfrac{\pi}{4}\right)=\sqrt3$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $x-\dfrac{\pi}{4}=\dfrac{\pi}{3}+k\pi$, suy ra $x=\dfrac{7\pi}{12}+k\pi$.
+
+**Đáp số.** $x=\dfrac{7\pi}{12}+k\pi$ $(k\in\mathbb{Z})$.
+
+[ĐỀ – EN]
+Solve $\tan\left(x-\dfrac{\pi}{4}\right)=\sqrt3$.
+
+[LỜI GIẢI CŨ – EN]
+We have $x-\dfrac{\pi}{4}=\dfrac{\pi}{3}+k\pi$, so $x=\dfrac{7\pi}{12}+k\pi$.
+
+**Answer.** $x=\dfrac{7\pi}{12}+k\pi$ $(k\in\mathbb{Z})$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Giải phương trình $\cos x=0{,}25$ bằng máy tính cầm tay. Cho nghiệm theo radian, làm tròn đến hàng phần trăm.
+
+[LỜI GIẢI CŨ – VI]
+Máy tính cho $\alpha=\arccos0{,}25\approx1{,}3181$. Do đó $x\approx\pm1{,}32+k2\pi$.
+
+**Đáp số.** $x\approx1{,}32+k2\pi$ hoặc $x\approx-1{,}32+k2\pi$ $(k\in\mathbb{Z})$.
+
+[ĐỀ – EN]
+Solve $\cos x=0.25$ with a scientific calculator. Give the solutions in radians, to 2 decimal places.
+
+[LỜI GIẢI CŨ – EN]
+The calculator gives $\alpha=\arccos0.25\approx1.3181$. Hence $x\approx\pm1.32+k2\pi$.
+
+**Answer.** $x\approx1.32+k2\pi$ or $x\approx-1.32+k2\pi$ $(k\in\mathbb{Z})$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giải phương trình $\sin2x=\dfrac{\sqrt3}{2}$ và tìm các nghiệm thuộc đoạn $[0; \pi]$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $2x=\dfrac{\pi}{3}+k2\pi$ hoặc $2x=\dfrac{2\pi}{3}+k2\pi$, suy ra $x=\dfrac{\pi}{6}+k\pi$ hoặc $x=\dfrac{\pi}{3}+k\pi$. Trong $[0; \pi]$, chỉ $k=0$ cho nghiệm ($k=1$ cho $x>\pi$ và $k=-1$ cho $x<0$): $x=\dfrac{\pi}{6}$ và $x=\dfrac{\pi}{3}$.
+
+**Đáp số.** $x=\dfrac{\pi}{6}+k\pi$, $x=\dfrac{\pi}{3}+k\pi$; trong $[0; \pi]$: $\dfrac{\pi}{6}$ và $\dfrac{\pi}{3}$.
+
+[ĐỀ – EN]
+Solve $\sin2x=\dfrac{\sqrt3}{2}$ and find the solutions in the interval $[0, \pi]$.
+
+[LỜI GIẢI CŨ – EN]
+We have $2x=\dfrac{\pi}{3}+k2\pi$ or $2x=\dfrac{2\pi}{3}+k2\pi$, so $x=\dfrac{\pi}{6}+k\pi$ or $x=\dfrac{\pi}{3}+k\pi$. In $[0, \pi]$ only $k=0$ gives solutions ($k=1$ gives $x>\pi$ and $k=-1$ gives $x<0$): $x=\dfrac{\pi}{6}$ and $x=\dfrac{\pi}{3}$.
+
+**Answer.** $x=\dfrac{\pi}{6}+k\pi$, $x=\dfrac{\pi}{3}+k\pi$; in $[0, \pi]$: $\dfrac{\pi}{6}$ and $\dfrac{\pi}{3}$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử nhiệt độ ngoài trời (độ C) tại một thành phố được mô tả bởi $T(t)=28+5\sin\dfrac{\pi(t-9)}{12}$, trong đó $t$ là số giờ kể từ $0$ giờ ($0\le t<24$). Vào những thời điểm nào nhiệt độ đạt $30{,}5^\circ$C?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $28+5\sin\dfrac{\pi(t-9)}{12}=30{,}5\Leftrightarrow\sin\dfrac{\pi(t-9)}{12}=\dfrac12$. Do đó $\dfrac{\pi(t-9)}{12}=\dfrac{\pi}{6}+k2\pi$, suy ra $t=11+24k$; hoặc $\dfrac{\pi(t-9)}{12}=\dfrac{5\pi}{6}+k2\pi$, suy ra $t=19+24k$. Với $0\le t<24$ ta lấy $k=0$.
+
+**Đáp số.** Lúc $11$ giờ và $19$ giờ.
+
+[ĐỀ – EN]
+Suppose the outdoor temperature (in degrees Celsius) in a city is modelled by $T(t)=28+5\sin\dfrac{\pi(t-9)}{12}$, where $t$ is the number of hours after midnight ($0\le t<24$). At what times is the temperature $30.5^\circ$C?
+
+[LỜI GIẢI CŨ – EN]
+We have $28+5\sin\dfrac{\pi(t-9)}{12}=30.5\Leftrightarrow\sin\dfrac{\pi(t-9)}{12}=\dfrac12$. Hence $\dfrac{\pi(t-9)}{12}=\dfrac{\pi}{6}+k2\pi$, which gives $t=11+24k$; or $\dfrac{\pi(t-9)}{12}=\dfrac{5\pi}{6}+k2\pi$, which gives $t=19+24k$. For $0\le t<24$ we take $k=0$.
+
+**Answer.** At $11$ o'clock and $19$ o'clock.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho phương trình $\cos x=\dfrac12$. Xét tính đúng sai của các mệnh đề sau:
+
+a) $x=\dfrac{\pi}{3}$ là một nghiệm của phương trình.
+
+b) $x=\dfrac{\pi}{3}+k\pi$ $(k\in\mathbb{Z})$ đều là nghiệm của phương trình.
+
+c) Trong đoạn $[0; 2\pi]$, phương trình có đúng hai nghiệm.
+
+d) Tổng các nghiệm thuộc đoạn $[0; 2\pi]$ bằng $\pi$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: $\cos\dfrac{\pi}{3}=\dfrac12$.
+
+b) **Sai**: với $k=1$, $x=\dfrac{4\pi}{3}$ có $\cos\dfrac{4\pi}{3}=-\dfrac12\ne\dfrac12$.
+
+c) **Đúng**: các nghiệm thuộc $[0; 2\pi]$ là $\dfrac{\pi}{3}$ và $\dfrac{5\pi}{3}$.
+
+d) **Sai**: $\dfrac{\pi}{3}+\dfrac{5\pi}{3}=2\pi\ne\pi$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Consider the equation $\cos x=\dfrac12$. Decide whether each statement is true or false.
+
+a) $x=\dfrac{\pi}{3}$ is a solution of the equation.
+
+b) Every number $x=\dfrac{\pi}{3}+k\pi$ $(k\in\mathbb{Z})$ is a solution of the equation.
+
+c) In the interval $[0, 2\pi]$ the equation has exactly two solutions.
+
+d) The sum of the solutions in the interval $[0, 2\pi]$ is $\pi$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: $\cos\dfrac{\pi}{3}=\dfrac12$.
+
+b) **False**: for $k=1$, $x=\dfrac{4\pi}{3}$ has $\cos\dfrac{4\pi}{3}=-\dfrac12\ne\dfrac12$.
+
+c) **True**: the solutions in $[0, 2\pi]$ are $\dfrac{\pi}{3}$ and $\dfrac{5\pi}{3}$.
+
+d) **False**: $\dfrac{\pi}{3}+\dfrac{5\pi}{3}=2\pi\ne\pi$.
+
+**Answer.** a) True; b) False; c) True; d) False.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Độ cao (m) của một cabin vòng quay so với mặt đất sau $t$ phút là $h(t)=22-20\cos\dfrac{\pi t}{4}$. Tính thời điểm đầu tiên $t>0$ cabin ở độ cao $12$ m, làm tròn đến hàng phần mười (đơn vị phút).
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\cos\dfrac{\pi t}{4}=\dfrac12$, suy ra $\dfrac{\pi t}{4}=\pm\dfrac{\pi}{3}+k2\pi$, tức $t=\pm\dfrac43+8k$. Nghiệm dương nhỏ nhất là $t=\dfrac43\approx1{,}3$.
+
+**Đáp số.** $1{,}3$ phút.
+
+[ĐỀ – EN]
+The height (in m) of a Ferris wheel cabin above the ground after $t$ minutes is $h(t)=22-20\cos\dfrac{\pi t}{4}$. Find the first time $t>0$ at which the cabin is $12$ m high, to 1 decimal place (in minutes).
+
+[LỜI GIẢI CŨ – EN]
+We have $\cos\dfrac{\pi t}{4}=\dfrac12$, so $\dfrac{\pi t}{4}=\pm\dfrac{\pi}{3}+k2\pi$, that is $t=\pm\dfrac43+8k$. The smallest positive solution is $t=\dfrac43\approx1.3$.
+
+**Answer.** $1.3$ minutes.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Giải phương trình $\sin x+\cos x=1$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\sqrt2\sin\left(x+\dfrac{\pi}{4}\right)=1$, tức $\sin\left(x+\dfrac{\pi}{4}\right)=\dfrac{\sqrt2}{2}=\sin\dfrac{\pi}{4}$. Do đó $x+\dfrac{\pi}{4}=\dfrac{\pi}{4}+k2\pi$, suy ra $x=k2\pi$; hoặc $x+\dfrac{\pi}{4}=\dfrac{3\pi}{4}+k2\pi$, suy ra $x=\dfrac{\pi}{2}+k2\pi$.
+
+**Đáp số.** $x=k2\pi$ hoặc $x=\dfrac{\pi}{2}+k2\pi$ $(k\in\mathbb{Z})$.
+
+[ĐỀ – EN]
+Solve $\sin x+\cos x=1$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\sqrt2\sin\left(x+\dfrac{\pi}{4}\right)=1$, that is $\sin\left(x+\dfrac{\pi}{4}\right)=\dfrac{\sqrt2}{2}=\sin\dfrac{\pi}{4}$. Hence $x+\dfrac{\pi}{4}=\dfrac{\pi}{4}+k2\pi$, so $x=k2\pi$; or $x+\dfrac{\pi}{4}=\dfrac{3\pi}{4}+k2\pi$, so $x=\dfrac{\pi}{2}+k2\pi$.
+
+**Answer.** $x=k2\pi$ or $x=\dfrac{\pi}{2}+k2\pi$ $(k\in\mathbb{Z})$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Giải phương trình $\sin3x=\cos2x$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\sin3x=\sin\left(\dfrac{\pi}{2}-2x\right)$. Do đó $3x=\dfrac{\pi}{2}-2x+k2\pi$, suy ra $x=\dfrac{\pi}{10}+\dfrac{k2\pi}{5}$; hoặc $3x=\pi-\left(\dfrac{\pi}{2}-2x\right)+k2\pi=\dfrac{\pi}{2}+2x+k2\pi$, suy ra $x=\dfrac{\pi}{2}+k2\pi$.
+
+**Đáp số.** $x=\dfrac{\pi}{10}+\dfrac{k2\pi}{5}$ hoặc $x=\dfrac{\pi}{2}+k2\pi$ $(k\in\mathbb{Z})$.
+
+[ĐỀ – EN]
+Solve $\sin3x=\cos2x$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\sin3x=\sin\left(\dfrac{\pi}{2}-2x\right)$. Hence $3x=\dfrac{\pi}{2}-2x+k2\pi$, so $x=\dfrac{\pi}{10}+\dfrac{k2\pi}{5}$; or $3x=\pi-\left(\dfrac{\pi}{2}-2x\right)+k2\pi=\dfrac{\pi}{2}+2x+k2\pi$, so $x=\dfrac{\pi}{2}+k2\pi$.
+
+**Answer.** $x=\dfrac{\pi}{10}+\dfrac{k2\pi}{5}$ or $x=\dfrac{\pi}{2}+k2\pi$ $(k\in\mathbb{Z})$.
+
+
+######################################################################
+@@@ g11/continuity
+Bài học: Hàm số liên tục / Continuous functions
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 7 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho hàm số $f(x)=x^2-3x+5$. Chứng minh rằng $f$ liên tục tại $x=2$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $f(2)=4-6+5=3$ và $\lim_{x\to2}(x^2-3x+5)=4-6+5=3$. Suy ra $\lim_{x\to2}f(x)=f(2)$.
+
+Vậy $f$ liên tục tại $x=2$.
+
+**Đáp số.** $f$ liên tục tại $x=2$.
+
+[ĐỀ – EN]
+Let $f(x)=x^2-3x+5$. Show that $f$ is continuous at $x=2$.
+
+[LỜI GIẢI CŨ – EN]
+We have $f(2)=4-6+5=3$ and $\lim_{x\to2}(x^2-3x+5)=4-6+5=3$. Hence $\lim_{x\to2}f(x)=f(2)$.
+
+So $f$ is continuous at $x=2$.
+
+**Answer.** $f$ is continuous at $x=2$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Xét tính liên tục của hàm số
+$$f(x)=\begin{cases}\dfrac{x^2-x-6}{x-3}&\text{nếu }x\neq3,\\4&\text{nếu }x=3\end{cases}$$
+tại $x=3$.
+
+[LỜI GIẢI CŨ – VI]
+Với $x\neq3$ ta có $\dfrac{x^2-x-6}{x-3}=\dfrac{(x-3)(x+2)}{x-3}=x+2$. Do đó $\lim_{x\to3}f(x)=5$.
+
+Ta có $f(3)=4\neq5$.
+
+Vậy $f$ gián đoạn tại $x=3$.
+
+**Đáp số.** $f$ gián đoạn tại $x=3$.
+
+[ĐỀ – EN]
+Test the continuity of the function
+$$f(x)=\begin{cases}\dfrac{x^2-x-6}{x-3}&\text{if }x\neq3,\\4&\text{if }x=3\end{cases}$$
+at $x=3$.
+
+[LỜI GIẢI CŨ – EN]
+For $x\neq3$ we have $\dfrac{x^2-x-6}{x-3}=\dfrac{(x-3)(x+2)}{x-3}=x+2$. Hence $\lim_{x\to3}f(x)=5$.
+
+We have $f(3)=4\neq5$.
+
+So $f$ is discontinuous at $x=3$.
+
+**Answer.** $f$ is discontinuous at $x=3$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Hàm số $f(x)=\dfrac{2x-1}{x^2-4}$ liên tục trên những khoảng nào?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $x^2-4=0\Leftrightarrow x=2$ hoặc $x=-2$. Tập xác định là $\mathbb{R}\setminus\{-2; 2\}$.
+
+Vậy $f$ liên tục trên các khoảng $(-\infty; -2)$, $(-2; 2)$ và $(2; +\infty)$.
+
+**Đáp số.** $(-\infty; -2)$, $(-2; 2)$, $(2; +\infty)$.
+
+[ĐỀ – EN]
+On which intervals is the function $f(x)=\dfrac{2x-1}{x^2-4}$ continuous?
+
+[LỜI GIẢI CŨ – EN]
+We have $x^2-4=0\Leftrightarrow x=2$ or $x=-2$. The domain is $\mathbb{R}\setminus\{-2, 2\}$.
+
+So $f$ is continuous on the intervals $(-\infty, -2)$, $(-2, 2)$ and $(2, +\infty)$.
+
+**Answer.** $(-\infty, -2)$, $(-2, 2)$, $(2, +\infty)$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Xét tính liên tục của hàm số
+$$f(x)=\begin{cases}x^2-1&\text{nếu }x<2,\\2x-1&\text{nếu }x\ge2\end{cases}$$
+tại $x=2$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $f(2)=2\cdot2-1=3$, $\lim_{x\to2^-}(x^2-1)=3$ và $\lim_{x\to2^+}(2x-1)=3$.
+
+Ba giá trị này bằng nhau.
+
+Vậy $f$ liên tục tại $x=2$.
+
+**Đáp số.** $f$ liên tục tại $x=2$.
+
+[ĐỀ – EN]
+Test the continuity of the function
+$$f(x)=\begin{cases}x^2-1&\text{if }x<2,\\2x-1&\text{if }x\ge2\end{cases}$$
+at $x=2$.
+
+[LỜI GIẢI CŨ – EN]
+We have $f(2)=2\cdot2-1=3$, $\lim_{x\to2^-}(x^2-1)=3$ and $\lim_{x\to2^+}(2x-1)=3$.
+
+These three values are equal.
+
+So $f$ is continuous at $x=2$.
+
+**Answer.** $f$ is continuous at $x=2$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho hàm số
+$$f(x)=\begin{cases}\dfrac{x^2-1}{x-1}&\text{nếu }x\neq1,\\3&\text{nếu }x=1.\end{cases}$$
+Xét tính đúng sai của các mệnh đề sau:
+
+a) $f(1)=3$.
+
+b) $\lim_{x\to1}f(x)=3$.
+
+c) Hàm số $f$ không liên tục tại $x=1$.
+
+d) Hàm số $f$ liên tục trên khoảng $(1; +\infty)$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**: theo định nghĩa của $f$, $f(1)=3$.
+
+b) **Sai**: với $x\neq1$, $f(x)=x+1$ nên $\lim_{x\to1}f(x)=2$, không phải $3$.
+
+c) **Đúng**: $\lim_{x\to1}f(x)=2\neq3=f(1)$.
+
+d) **Đúng**: với $x>1$ ta có $f(x)=x+1$ là đa thức, liên tục trên $(1; +\infty)$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
+
+[ĐỀ – EN]
+Consider the function
+$$f(x)=\begin{cases}\dfrac{x^2-1}{x-1}&\text{if }x\neq1,\\3&\text{if }x=1.\end{cases}$$
+Decide whether each statement is true or false.
+
+a) $f(1)=3$.
+
+b) $\lim_{x\to1}f(x)=3$.
+
+c) The function $f$ is not continuous at $x=1$.
+
+d) The function $f$ is continuous on the interval $(1, +\infty)$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**: by the definition of $f$, $f(1)=3$.
+
+b) **False**: for $x\neq1$, $f(x)=x+1$, so $\lim_{x\to1}f(x)=2$, not $3$.
+
+c) **True**: $\lim_{x\to1}f(x)=2\neq3=f(1)$.
+
+d) **True**: for $x>1$ we have $f(x)=x+1$, a polynomial, which is continuous on $(1, +\infty)$.
+
+**Answer.** a) True; b) False; c) True; d) True.
 
 
 ===== HẾT FILE hanibi108-05-LG =====

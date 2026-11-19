@@ -6,7 +6,7 @@ Kết quả: file thichgiaitoan-04-GV-ketqua.md, lưu vào Dropbox Lemonmath.com
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – thichgiaitoan-04-GV
-Gồm 3 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g3/g3-midpoints, g3/g3-vietnamese-money, g3/likelihood-of-an-event
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g2/three-digit-numbers
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/thichgiaitoan-04-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/3). Gõ
+  /mnt/user-data/outputs/thichgiaitoan-04-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file thichgiaitoan-04-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,979 +135,150 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g3/g3-midpoints – BẢN TIẾNG VIỆT ########
+######## BÀI g2/three-digit-numbers – BẢN TIẾNG VIỆT ########
 ---
-title: Điểm ở giữa, trung điểm của đoạn thẳng
-description: Em học nhận biết điểm nằm giữa hai điểm, trung điểm của đoạn thẳng, và tính độ dài đoạn thẳng khi biết trung điểm.
+title: Số có ba chữ số
+description: Em đọc, viết số có ba chữ số và biết chữ số nào đứng ở hàng trăm, hàng chục, hàng đơn vị qua các nhóm trăm, chục, đơn vị.
 minutes: 15
 ---
 
   :::goals
-  - Nhận biết ba điểm thẳng hàng và điểm nằm giữa hai điểm.
-  - Nhận biết trung điểm của đoạn thẳng: nằm giữa và cách đều hai đầu.
-  - Tính độ dài một nửa đoạn thẳng hoặc cả đoạn thẳng khi biết trung điểm.
+  - Đọc và viết các số có ba chữ số, ví dụ $345$, $205$.
+  - Biết chữ số hàng trăm, hàng chục, hàng đơn vị của một số.
+  - Viết đúng số có chữ số $0$, ví dụ $3$ trăm $0$ chục $7$ đơn vị là $307$.
   :::
 
-[[P1·bf37]]
-Nhà An, trường học và nhà Bình nằm trên cùng một con đường thẳng. Từ nhà An đến trường là $3$ km, từ trường đến nhà Bình cũng là $3$ km. Vị trí của trường so với hai nhà có gì đặc biệt?
+[[P1·9eb5]]
+Thư viện có $3$ thùng sách, mỗi thùng $100$ quyển, thêm $4$ bó sách, mỗi bó $10$ quyển, và $5$ quyển sách lẻ. Hỏi thư viện có tất cả bao nhiêu quyển sách?
 
-[[P2·9f77]]
-Bài này giúp em gọi tên vị trí ấy và dùng nó để tính độ dài.
+[[P2·b8db]]
+Em đã biết trăm, chục, đơn vị. Bài này giúp em ghép chúng thành một số có ba chữ số.
 
 ## Cùng khám phá
 
-[[P3·5371]]
-Ba điểm cùng nằm trên một đường thẳng gọi là **ba điểm thẳng hàng**. Trong ba điểm $A$, $M$, $B$ thẳng hàng, nếu đi từ $A$ đến $B$ ta phải qua $M$ thì $M$ **nằm giữa** $A$ và $B$.
+[[P3·7774]]
+Ta xếp các nhóm sách vào ba cột:
 
-[[P4·6df1]]
-Ta vẽ nhà An là điểm $A$, trường là điểm $M$, nhà Bình là điểm $B$:
+| Trăm | Chục | Đơn vị |
+|---|---|---|
+| $3$ | $4$ | $5$ |
 
-:::diagram Điểm M nằm giữa A và B, hai đoạn MA và MB bằng nhau
-   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
+![Ba thùng sách ghi 100, bốn chồng sách ghi 10 và năm quyển sách lẻ](/assets/img/g2/g2-three-digit-numbers-01.svg)
 
-[[P5·5068]]
-Điểm $M$ nằm giữa $A$ và $B$, và $MA=MB=3$ km. Điểm $M$ chia đoạn thẳng $AB$ thành hai đoạn bằng nhau. Ta gọi $M$ là **trung điểm** của đoạn thẳng $AB$.
+[[P4·1895]]
+Có $3$ trăm, $4$ chục và $5$ đơn vị. Ta viết ba chữ số liền nhau: chữ số $3$ ở hàng trăm, chữ số $4$ ở hàng chục, chữ số $5$ ở hàng đơn vị. Số đó là $345$.
 
-  :::theorem Trung điểm của đoạn thẳng
-  Điểm $M$ là trung điểm của đoạn thẳng $AB$ khi $M$ nằm giữa $A$ và $B$ và $MA=MB$.
+[[P5·51d2]]
+Số $345$ đọc là "ba trăm bốn mươi lăm". Vậy thư viện có $345$ quyển sách.
 
-  Khi đó $AB=MA+MB=2\times MA$, nên $MA=AB:2$.
+  :::theorem Số có ba chữ số
+  Số có ba chữ số có:
+  - chữ số hàng trăm (bên trái), cho biết có bao nhiêu trăm;
+  - chữ số hàng chục (ở giữa), cho biết có bao nhiêu chục;
+  - chữ số hàng đơn vị (bên phải), cho biết có bao nhiêu đơn vị.
+
+  Nếu một hàng không có gì thì ta viết chữ số $0$ vào hàng đó.
   :::
 
-[[P6·4f9e]]
-Điều này đúng vì $MA$ và $MB$ bằng nhau, nên mỗi đoạn là $\dfrac{1}{2}$ đoạn $AB$. Ở bài trước em đã biết: một nửa của một số bằng số đó chia cho $2$.
+[[P6·9143]]
+Ta phải viết chữ số $0$ để giữ đúng vị trí của các chữ số khác. Ví dụ $3$ trăm và $7$ đơn vị là $307$; nếu bỏ chữ số $0$ thì $37$ chỉ là $3$ chục $7$ đơn vị.
 
 ## Ví dụ
 
-[[P7·0295]]
-Ta bắt đầu bằng việc tìm điểm nằm giữa.
+[[P7·980b]]
+Ta bắt đầu với việc đọc các chữ số của một số.
 
-  :::example Điểm ở giữa
-  Trên một đường thẳng có bốn điểm $D$, $E$, $G$, $H$ theo thứ tự từ trái sang phải. Điểm nào nằm giữa $D$ và $H$? Điểm nào nằm giữa $E$ và $H$?
+  :::example Các chữ số của 345
+  Số $345$ có chữ số hàng trăm, hàng chục, hàng đơn vị là gì?
 
-  **Lời giải.** Đi từ $D$ đến $H$ ta lần lượt qua $E$ rồi $G$, nên $E$ và $G$ nằm giữa $D$ và $H$. Đi từ $E$ đến $H$ ta chỉ qua $G$, nên chỉ có $G$ nằm giữa $E$ và $H$.
+  **Lời giải.** Viết số vào bảng, từ trái sang phải là trăm, chục, đơn vị:
 
-  Vậy $E$, $G$ nằm giữa $D$ và $H$; $G$ nằm giữa $E$ và $H$.
-  :::
-
-[[P8·70f6]]
-Bây giờ em kiểm tra một điểm có là trung điểm không.
-
-  :::example Kiểm tra trung điểm
-  Cho $M$ nằm giữa $A$ và $B$.
-
-  a) $AM=5$ cm, $MB=5$ cm. $M$ có là trung điểm của $AB$ không?
-
-  b) $AM=4$ cm, $MB=6$ cm. $M$ có là trung điểm của $AB$ không?
-
-  **Lời giải.** $M$ nằm giữa rồi, ta chỉ cần so sánh $AM$ và $MB$.
-
-  a) $AM=MB=5$ cm, nên $M$ là trung điểm của $AB$.
-
-  b) $AM=4$ cm khác $MB=6$ cm, nên $M$ không là trung điểm của $AB$.
-
-  Vậy a) có; b) không.
-  :::
-
-[[P9·d173]]
-Tiếp theo, em tính độ dài một nửa đoạn thẳng.
-
-  :::example Tính $AM$
-  $M$ là trung điểm của đoạn thẳng $AB$ dài $12$ cm. Tính $AM$.
-
-  **Lời giải.** Vì $M$ là trung điểm nên $AM$ bằng một nửa $AB$, ta chia $AB$ cho $2$:
-  $$AM=12:2=6\ \text{(cm)}.$$
-  **Thử lại.** $MB=6$ cm, $AM+MB=6+6=12$ cm. Đúng.
-
-  Vậy $AM=6$ cm.
-  :::
-
-[[P10·4a0f]]
-Làm ngược lại, em tính cả đoạn thẳng.
-
-  :::example Tính $AB$
-  $M$ là trung điểm của đoạn thẳng $AB$ và $MA=7$ cm. Tính $AB$.
-
-  **Lời giải.** $AB$ gồm hai đoạn bằng nhau $MA$ và $MB$, nên ta nhân $MA$ với $2$:
-  $$AB=7\times2=14\ \text{(cm)}.$$
-  **Thử lại.** $14:2=7$. Đúng.
-
-  Vậy $AB=14$ cm.
-  :::
-
-[[P11·932b]]
-Cuối cùng, em giải bài toán ở đầu bài trong một tình huống khác.
-
-  :::example Đường đến trường
-  Nhà An, trường học và nhà Bình nằm trên một đường thẳng. Trường học là trung điểm của đoạn đường từ nhà An đến nhà Bình, dài $8$ km. Hỏi từ nhà An đến trường dài bao nhiêu ki-lô-mét?
-
-  **Lời giải.** Trường là trung điểm nên khoảng cách từ nhà An đến trường bằng một nửa $8$ km:
-  $$8:2=4\ \text{(km)}.$$
-  **Thử lại.** $4+4=8$. Đúng.
-
-  Vậy từ nhà An đến trường dài $4$ km.
-  :::
-
-:::warning Những lỗi em hay gặp
-[[P12·be40]]
-- **Nằm giữa chưa chắc là trung điểm.** Sai: $M$ nằm giữa $A$ và $B$ nên $M$ là trung điểm. Vì sao sai: nếu $AM=3$ cm, $MB=7$ cm thì $M$ vẫn nằm giữa nhưng hai đoạn không bằng nhau. Đúng: còn phải có $MA=MB$.
-- **Quên chia đôi.** Sai: $M$ là trung điểm của $AB=12$ cm nên $AM=12$ cm. Vì sao sai: $AM$ chỉ là một nửa $AB$. Đúng: $AM=12:2=6$ cm.
-- **Quên nhân đôi.** Sai: $MA=7$ cm nên $AB=7$ cm. Vì sao sai: $AB$ gồm hai đoạn $MA$ và $MB$. Đúng: $AB=7\times2=14$ cm.
-- **Quên đơn vị.** Sai: "Đáp số: $6$". Đúng: "Đáp số: $6$ cm".
-:::
-
-## Thuật ngữ
-
-  :::terms
-  - đoạn thẳng | line segment
-  - đường thẳng | straight line
-  - ba điểm thẳng hàng | three points in a straight line
-  - điểm nằm giữa | point between two points
-  - trung điểm | midpoint
-  - độ dài | length
-  - bằng nhau | equal
-  - chia đôi | halve
-  :::
-
-## Tóm tắt
-
-[[P13·87c1]]
-- Ba điểm cùng nằm trên một đường thẳng là ba điểm thẳng hàng.
-- Điểm $M$ nằm giữa $A$ và $B$ khi đi từ $A$ đến $B$ phải qua $M$.
-- $M$ là trung điểm của $AB$ khi $M$ nằm giữa $A$, $B$ và $MA=MB$.
-- Khi $M$ là trung điểm: $MA=AB:2$ và $AB=MA\times2$.
-- Ghi đơn vị đo độ dài trong đáp số.
-
-## Luyện tập
-
-[[P14·824d]]
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Thử thách
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Kiểm tra mini
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g3/g3-midpoints – BẢN TIẾNG ANH ########
----
-title: Points in the middle and midpoints of line segments
-description: Learn to spot a point that lies between two points and the midpoint of a line segment, and to work out lengths when you know the midpoint.
-minutes: 15
----
-
-  :::goals
-  - Recognise three points in a straight line and a point between two points.
-  - Recognise the midpoint of a line segment: it lies between the ends and is the same distance from both.
-  - Work out half of a segment, or the whole segment, when you know the midpoint.
-  :::
-
-[[P1·c39b]]
-An's house, the school and Binh's house are on the same straight road. From An's house to the school is $3$ km, and from the school to Binh's house is also $3$ km. What is special about where the school stands?
-
-[[P2·4664]]
-This lesson helps you name that position and use it to work out lengths.
-
-## Let's explore
-
-[[P3·68c9]]
-Points on the same straight line are called **three points in a straight line**. If $A$, $M$, $B$ are in a straight line and going from $A$ to $B$ means passing through $M$, then $M$ is **between** $A$ and $B$.
-
-[[P4·6d9b]]
-We draw An's house as point $A$, the school as point $M$ and Binh's house as point $B$:
-
-:::diagram M is between A and B, and MA and MB are equal
-   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-[[P5·d7c5]]
-Point $M$ is between $A$ and $B$, and $MA=MB=3$ km. Point $M$ splits the line segment $AB$ into two equal parts. We call $M$ the **midpoint** of the line segment $AB$.
-
-  :::theorem The midpoint of a line segment
-  Point $M$ is the midpoint of the line segment $AB$ when $M$ is between $A$ and $B$ and $MA=MB$.
-
-  Then $AB=MA+MB=2\times MA$, so $MA=AB\div2$.
-  :::
-
-[[P6·8ea9]]
-This is true because $MA$ and $MB$ are equal, so each one is $\dfrac{1}{2}$ of $AB$. In the last lesson you saw that half of a number is that number divided by $2$.
-
-## Examples
-
-[[P7·c6c0]]
-We start by finding points between.
-
-  :::example Points in between
-  On a straight line there are four points $D$, $E$, $G$, $H$ in this order from left to right. Which points are between $D$ and $H$? Which point is between $E$ and $H$?
-
-  **Solution.** Going from $D$ to $H$ we pass $E$ and then $G$, so $E$ and $G$ are between $D$ and $H$. Going from $E$ to $H$ we pass only $G$, so only $G$ is between $E$ and $H$.
-
-  So $E$ and $G$ are between $D$ and $H$; $G$ is between $E$ and $H$.
-  :::
-
-[[P8·a56a]]
-Now check whether a point is a midpoint.
-
-  :::example Is it a midpoint?
-  $M$ is between $A$ and $B$.
-
-  a) $AM=5$ cm and $MB=5$ cm. Is $M$ the midpoint of $AB$?
-
-  b) $AM=4$ cm and $MB=6$ cm. Is $M$ the midpoint of $AB$?
-
-  **Solution.** $M$ is already between $A$ and $B$, so we only compare $AM$ and $MB$.
-
-  a) $AM=MB=5$ cm, so $M$ is the midpoint of $AB$.
-
-  b) $AM=4$ cm is not equal to $MB=6$ cm, so $M$ is not the midpoint of $AB$.
-
-  So a) yes; b) no.
-  :::
-
-[[P9·521c]]
-Next, work out half of a segment.
-
-  :::example Find $AM$
-  $M$ is the midpoint of the line segment $AB$, which is $12$ cm long. Find $AM$.
-
-  **Solution.** Since $M$ is the midpoint, $AM$ is half of $AB$, so we divide $AB$ by $2$:
-  $$AM=12\div2=6\ \text{(cm)}.$$
-  **Check.** $MB=6$ cm, and $AM+MB=6+6=12$ cm. Correct.
-
-  So $AM=6$ cm.
-  :::
-
-[[P10·c08e]]
-Now go the other way and find the whole segment.
-
-  :::example Find $AB$
-  $M$ is the midpoint of the line segment $AB$ and $MA=7$ cm. Find $AB$.
-
-  **Solution.** $AB$ is made of two equal parts $MA$ and $MB$, so we multiply $MA$ by $2$:
-  $$AB=7\times2=14\ \text{(cm)}.$$
-  **Check.** $14\div2=7$. Correct.
-
-  So $AB=14$ cm.
-  :::
-
-[[P11·a84d]]
-Finally, the problem from the start, in a different setting.
-
-  :::example The road to school
-  An's house, the school and Binh's house are on a straight line. The school is the midpoint of the road from An's house to Binh's house, which is $8$ km long. How many kilometres is it from An's house to the school?
-
-  **Solution.** The school is the midpoint, so the distance from An's house to the school is half of $8$ km:
-  $$8\div2=4\ \text{(km)}.$$
-  **Check.** $4+4=8$. Correct.
-
-  So it is $4$ km from An's house to the school.
-  :::
-
-:::warning Mistakes to watch out for
-[[P12·7c4d]]
-- **Between does not always mean midpoint.** Wrong: $M$ is between $A$ and $B$, so $M$ is the midpoint. Why it is wrong: if $AM=3$ cm and $MB=7$ cm, $M$ is still between $A$ and $B$ but the two parts are not equal. Right: we also need $MA=MB$.
-- **Forgetting to halve.** Wrong: $M$ is the midpoint of $AB=12$ cm so $AM=12$ cm. Why it is wrong: $AM$ is only half of $AB$. Right: $AM=12\div2=6$ cm.
-- **Forgetting to double.** Wrong: $MA=7$ cm so $AB=7$ cm. Why it is wrong: $AB$ is made of two parts, $MA$ and $MB$. Right: $AB=7\times2=14$ cm.
-- **Forgetting the unit.** Wrong: "Answer: $6$". Right: "Answer: $6$ cm".
-:::
-
-## Key terms
-
-  :::terms
-  - line segment | đoạn thẳng
-  - straight line | đường thẳng
-  - three points in a straight line | ba điểm thẳng hàng
-  - point between two points | điểm nằm giữa
-  - midpoint | trung điểm
-  - length | độ dài
-  - equal | bằng nhau
-  - halve | chia đôi
-  :::
-
-## Summary
-
-[[P13·621b]]
-- Three points on the same straight line are in a straight line.
-- Point $M$ is between $A$ and $B$ when going from $A$ to $B$ means passing through $M$.
-- $M$ is the midpoint of $AB$ when $M$ is between $A$ and $B$ and $MA=MB$.
-- When $M$ is the midpoint: $MA=AB\div2$ and $AB=MA\times2$.
-- Write the unit of length in the answer.
-
-## Practice
-
-[[P14·2a6a]]
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Challenge
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Mini test
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g3/g3-vietnamese-money – BẢN TIẾNG VIỆT ########
----
-title: Tiền Việt Nam
-description: Em học cách đếm tiền, tính tiền hàng và tiền trả lại với các tờ tiền Việt Nam, bằng cách tính theo nghìn đồng.
-minutes: 15
----
-
-  :::goals
-  - Nhận biết các tờ tiền Việt Nam và giá trị của chúng.
-  - Đếm số tiền của nhiều tờ tiền bằng cách tính theo nghìn đồng.
-  - Tính tiền hàng và tiền trả lại khi mua hàng.
-  - Giải bài toán có lời văn về tiền, nhớ ghi đơn vị đồng.
-  :::
-
-[[P1·52e9]]
-Nam có một tờ tiền $20\,000$ đồng. Nam mua một cuốn sổ giá $12\,000$ đồng và đưa cô bán hàng tờ tiền đó. Hỏi cô bán hàng phải trả lại Nam bao nhiêu tiền?
-
-[[P2·8092]]
-Em đã học cộng và trừ các số trong phạm vi $100\,000$. Bài này dùng chính các phép tính đó để tính tiền.
-
-## Cùng khám phá
-
-[[P3·db0b]]
-Ở Việt Nam, đơn vị tiền là **đồng**. Em thường gặp các tờ tiền ghi trong bảng sau. Cột bên phải cho biết mỗi tờ bằng bao nhiêu **nghìn** đồng.
-
-| Tờ tiền (đồng) | Bằng bao nhiêu nghìn đồng |
-|---|---|
-| $1\,000$ | $1$ nghìn |
-| $2\,000$ | $2$ nghìn |
-| $5\,000$ | $5$ nghìn |
-| $10\,000$ | $10$ nghìn |
-| $20\,000$ | $20$ nghìn |
-| $50\,000$ | $50$ nghìn |
-| $100\,000$ | $100$ nghìn |
-
-[[P4·3827]]
-Ta bắt đầu với một ví dụ nhỏ. Mẹ cho Nam hai tờ $5\,000$ đồng và một tờ $2\,000$ đồng. Nam có tất cả bao nhiêu tiền?
-
-[[P5·376a]]
-- Mỗi tờ $5\,000$ đồng là $5$ nghìn. Hai tờ là $5+5=10$ nghìn.
-- Tờ $2\,000$ đồng là $2$ nghìn.
-- Cộng lại: $10+2=12$ nghìn.
-
-[[P6·93e6]]
-Vậy Nam có $12$ nghìn đồng, tức là $12\,000$ đồng. Em thấy không, ta cộng các số nhỏ rồi mới thêm chữ "nghìn".
-
-[[P7·482f]]
-Bây giờ ta quay lại bài toán của Nam ở đầu bài. Nam đưa $20$ nghìn đồng và tiền hàng là $12$ nghìn đồng. Em hãy xem trên tia số: từ $12$ lên $20$ cần thêm bao nhiêu nghìn?
-
-:::graph Trên tia số (đơn vị: nghìn đồng): từ 12 lên 20 cần thêm 8
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-[[P8·fa78]]
-Từ $12$ lên $20$ cần thêm $8$ nghìn. Em cũng có thể trừ: $20-12=8$ nghìn. Vậy cô bán hàng trả lại Nam $8\,000$ đồng.
-
-  :::theorem Tính tiền
-  - **Số tiền của nhiều tờ tiền:** đổi mỗi tờ ra nghìn đồng, cộng lại, rồi viết thêm "nghìn đồng".
-  - **Tiền hàng của nhiều món:** cộng giá tiền của từng món.
-  - **Tiền trả lại** $=$ tiền đưa $-$ tiền hàng.
-  :::
-
-[[P9·3e23]]
-Tiền trả lại dùng phép trừ vì đó là phần tiền đưa dư ra sau khi đã trả đủ tiền hàng. Em luôn có thể thử lại: tiền hàng $+$ tiền trả lại phải bằng tiền đưa. Ở trên, $12+8=20$, đúng.
-
-## Ví dụ
-
-[[P10·b539]]
-Ta bắt đầu với việc đếm một ít tờ tiền.
-
-  :::example Đếm tiền
-  Mai có một tờ $10\,000$ đồng, một tờ $5\,000$ đồng và hai tờ $2\,000$ đồng. Hỏi Mai có bao nhiêu tiền?
-
-  ![Bốn tờ tiền giản lược: 10 000, 5 000 và hai tờ 2 000](/assets/img/g3/g3-vietnamese-money-01.svg)
-
-  **Lời giải.** Em đổi mỗi tờ ra nghìn đồng rồi cộng:
-  $$10+5+2+2=19\ \text{(nghìn đồng)}.$$
-  Vậy Mai có $19\,000$ đồng.
-
-  **Kiểm tra.** $10\,000+5\,000+2\,000+2\,000=19\,000$. Khớp.
-  :::
-
-[[P11·b3b3]]
-Ví dụ sau có nhiều tờ tiền hơn, nhưng cách làm vẫn như vậy.
-
-  :::example Đếm nhiều tờ tiền
-  Hà có hai tờ $20\,000$ đồng, một tờ $5\,000$ đồng, một tờ $2\,000$ đồng và một tờ $1\,000$ đồng. Hỏi Hà có bao nhiêu tiền?
-
-  ![Năm tờ tiền giản lược gồm hai tờ 20 000 cùng các tờ 5 000, 2 000 và 1 000](/assets/img/g3/g3-vietnamese-money-02.svg)
-
-  **Lời giải.** Hai tờ $20$ nghìn là $20+20=40$ nghìn. Em cộng thêm các tờ còn lại:
-  $$40+5+2+1=48\ \text{(nghìn đồng)}.$$
-  Vậy Hà có $48\,000$ đồng.
-  :::
-
-[[P12·7eef]]
-Bây giờ em tính tiền hàng khi mua nhiều món.
-
-  :::example Tiền hàng
-  Nam mua một quyển vở giá $7\,000$ đồng, một cái bút giá $4\,000$ đồng và một cục tẩy giá $2\,000$ đồng. Hỏi Nam phải trả bao nhiêu tiền?
-
-  **Lời giải.** "Phải trả" cả ba món nghĩa là gộp giá của ba món, nên em làm phép cộng:
-  $$7\,000+4\,000+2\,000=13\,000\ \text{(đồng)}.$$
-  Vậy Nam phải trả $13\,000$ đồng.
-  :::
-
-[[P13·8f1d]]
-Sau khi biết tiền hàng, em có thể tính tiền trả lại.
-
-  :::example Tiền trả lại
-  Cô Lan mua rau hết $35\,000$ đồng và đưa người bán tờ $50\,000$ đồng. Hỏi người bán phải trả lại cô Lan bao nhiêu tiền?
-
-  **Lời giải.** Tiền trả lại bằng tiền đưa trừ đi tiền hàng:
-  $$50\,000-35\,000=15\,000\ \text{(đồng)}.$$
-  Vậy người bán trả lại cô Lan $15\,000$ đồng.
-
-  **Kiểm tra.** $35\,000+15\,000=50\,000$. Khớp với tiền đưa.
-  :::
-
-[[P14·a65d]]
-Cuối cùng là một bài cần so sánh số tiền có với số tiền cần dùng.
-
-  :::example Có đủ tiền không?
-  Lan có $30\,000$ đồng. Lan muốn mua một con gấu bông giá $18\,000$ đồng và một hộp bút giá $15\,000$ đồng. Lan có đủ tiền không? Nếu không đủ thì thiếu bao nhiêu?
-
-  **Lời giải.** Trước hết em tính tiền hàng của cả hai món:
-  $$18\,000+15\,000=33\,000\ \text{(đồng)}.$$
-  Vì $33\,000>30\,000$ nên Lan không đủ tiền. Số tiền còn thiếu là:
-  $$33\,000-30\,000=3\,000\ \text{(đồng)}.$$
-  Vậy Lan không đủ tiền, còn thiếu $3\,000$ đồng.
-  :::
-
-:::warning Những lỗi em hay gặp
-[[P15·7efe]]
-- **Đếm thiếu tờ tiền.** Sai: có hai tờ $5\,000$ đồng và một tờ $2\,000$ đồng, tính $5\,000+2\,000=7\,000$ đồng. Vì sao sai: em bỏ sót một tờ $5\,000$ đồng. Đúng: $5\,000+5\,000+2\,000=12\,000$ đồng.
-- **Cộng thay vì trừ khi tính tiền trả lại.** Sai: $20\,000+12\,000=32\,000$ đồng. Vì sao sai: tiền trả lại là phần dư ra, không thể nhiều hơn tiền đưa. Đúng: $20\,000-12\,000=8\,000$ đồng.
-- **Quên đổi về đồng.** Sai: "Đáp số: $12$ đồng". Vì sao sai: $12$ nghìn đồng là $12\,000$ đồng. Đúng: "Đáp số: $12\,000$ đồng".
-:::
-
-## Thuật ngữ
-
-  :::terms
-  - tiền Việt Nam | Vietnamese money
-  - đồng | dong (the Vietnamese currency)
-  - tờ tiền | banknote
-  - nghìn | thousand
-  - giá tiền | price
-  - tiền hàng | total cost
-  - tiền đưa | money handed over
-  - tiền trả lại | change
-  - đủ tiền | enough money
-  - thiếu | short by
-  :::
-
-## Tóm tắt
-
-[[P16·5b69]]
-- Đơn vị tiền Việt Nam là **đồng**. Có các tờ $1\,000$, $2\,000$, $5\,000$, $10\,000$, $20\,000$, $50\,000$, $100\,000$ đồng.
-- Muốn đếm tiền, đổi mỗi tờ ra nghìn đồng rồi cộng. Ví dụ: $5+5+2=12$ nghìn, tức là $12\,000$ đồng.
-- Tiền hàng: cộng giá các món. Tiền trả lại $=$ tiền đưa $-$ tiền hàng.
-- Em có thể thử lại bằng phép cộng: tiền hàng $+$ tiền trả lại $=$ tiền đưa. Nhớ ghi đơn vị đồng.
-
-## Luyện tập
-
-[[P17·824d]]
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
-
-:::exercise
-   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Thử thách
-   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Kiểm tra mini
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g3/g3-vietnamese-money – BẢN TIẾNG ANH ########
----
-title: Vietnamese money
-description: Learn to count money, work out the total cost and the change with Vietnamese banknotes, by working in thousands of dong.
-minutes: 15
----
-
-  :::goals
-  - Know the Vietnamese banknotes and their values.
-  - Count the money in several banknotes by working in thousands of dong.
-  - Work out the total cost and the change when you buy things.
-  - Solve word problems about money, remembering to write the unit dong.
-  :::
-
-[[P1·c958]]
-Nam has one $20\,000$ dong note. He buys a notebook that costs $12\,000$ dong and hands the note to the shopkeeper. How much change should the shopkeeper give Nam?
-
-[[P2·9397]]
-You have learned to add and subtract numbers up to $100\,000$. This lesson uses the same calculations to work with money.
-
-## Let's explore
-
-[[P3·9f8a]]
-In Vietnam, the unit of money is the **dong**. You often see the banknotes in the table below. The right-hand column shows how many **thousand** dong each note is worth.
-
-| Banknote (dong) | Worth in thousands of dong |
-|---|---|
-| $1\,000$ | $1$ thousand |
-| $2\,000$ | $2$ thousand |
-| $5\,000$ | $5$ thousand |
-| $10\,000$ | $10$ thousand |
-| $20\,000$ | $20$ thousand |
-| $50\,000$ | $50$ thousand |
-| $100\,000$ | $100$ thousand |
-
-[[P4·b3f1]]
-We start with a small example. Mum gives Nam two $5\,000$ dong notes and one $2\,000$ dong note. How much money does Nam have altogether?
-
-[[P5·8b91]]
-- Each $5\,000$ dong note is $5$ thousand. Two notes make $5+5=10$ thousand.
-- The $2\,000$ dong note is $2$ thousand.
-- Add them up: $10+2=12$ thousand.
-
-[[P6·730f]]
-So Nam has $12$ thousand dong, which is $12\,000$ dong. See: we add the small numbers first and only then put the word "thousand" back.
-
-[[P7·e560]]
-Now go back to Nam's problem at the start of the lesson. Nam hands over $20$ thousand dong and the notebook costs $12$ thousand dong. Look at the number line: how many thousand do you need to go from $12$ up to $20$?
-
-:::graph On a number line (unit: thousand dong): from 12 to 20 you need 8 more
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-[[P8·b529]]
-From $12$ to $20$ you need $8$ thousand more. You can also subtract: $20-12=8$ thousand. So the shopkeeper gives Nam $8\,000$ dong change.
-
-  :::theorem Working with money
-  - **The money in several notes:** change each note into thousands of dong, add them up, then write "thousand dong".
-  - **The total cost of several items:** add the prices of the items.
-  - **Change** $=$ money handed over $-$ total cost.
-  :::
-
-[[P9·c1f4]]
-Change is a subtraction because it is the extra money left after you have paid the full cost. You can always check: total cost $+$ change must equal the money handed over. Above, $12+8=20$, which is right.
-
-## Examples
-
-[[P10·c917]]
-We start by counting a few banknotes.
-
-  :::example Counting money
-  Mai has one $10\,000$ dong note, one $5\,000$ dong note and two $2\,000$ dong notes. How much money does Mai have?
-
-  ![Four simplified notes: 10,000, 5,000, and two 2,000 notes](/assets/img/g3/g3-vietnamese-money-01.svg)
-
-  **Solution.** Change each note into thousands of dong and add:
-  $$10+5+2+2=19\ \text{(thousand dong)}.$$
-  So Mai has $19\,000$ dong.
-
-  **Check.** $10\,000+5\,000+2\,000+2\,000=19\,000$. It matches.
-  :::
-
-[[P11·a762]]
-The next example has more notes, but the method is the same.
-
-  :::example Counting more notes
-  Ha has two $20\,000$ dong notes, one $5\,000$ dong note, one $2\,000$ dong note and one $1\,000$ dong note. How much money does Ha have?
-
-  ![Five simplified notes: two 20,000 notes plus 5,000, 2,000, and 1,000](/assets/img/g3/g3-vietnamese-money-02.svg)
-
-  **Solution.** Two $20$ thousand notes make $20+20=40$ thousand. Add the other notes:
-  $$40+5+2+1=48\ \text{(thousand dong)}.$$
-  So Ha has $48\,000$ dong.
-  :::
-
-[[P12·d6c1]]
-Now work out the total cost when you buy several items.
-
-  :::example Total cost
-  Nam buys an exercise book for $7\,000$ dong, a pen for $4\,000$ dong and a rubber for $2\,000$ dong. How much must Nam pay?
-
-  **Solution.** Paying for all three items means putting the three prices together, so you add:
-  $$7\,000+4\,000+2\,000=13\,000\ \text{(dong)}.$$
-  So Nam must pay $13\,000$ dong.
-  :::
-
-[[P13·f0c1]]
-Once you know the total cost, you can work out the change.
-
-  :::example Change
-  Ms Lan buys vegetables for $35\,000$ dong and hands the seller a $50\,000$ dong note. How much change should the seller give her?
-
-  **Solution.** The change is the money handed over minus the total cost:
-  $$50\,000-35\,000=15\,000\ \text{(dong)}.$$
-  So the seller gives Ms Lan $15\,000$ dong change.
-
-  **Check.** $35\,000+15\,000=50\,000$. It matches the money handed over.
-  :::
-
-[[P14·9685]]
-Last, a problem where you compare the money you have with the money you need.
-
-  :::example Is there enough money?
-  Lan has $30\,000$ dong. She wants to buy a teddy bear for $18\,000$ dong and a pencil case for $15\,000$ dong. Does Lan have enough money? If not, how much more does she need?
-
-  **Solution.** First work out the total cost of the two items:
-  $$18\,000+15\,000=33\,000\ \text{(dong)}.$$
-  Since $33\,000>30\,000$, Lan does not have enough money. She is short by:
-  $$33\,000-30\,000=3\,000\ \text{(dong)}.$$
-  So Lan does not have enough money; she needs $3\,000$ dong more.
-  :::
-
-:::warning Mistakes to watch out for
-[[P15·df54]]
-- **Missing a note when counting.** Wrong: with two $5\,000$ dong notes and one $2\,000$ dong note, working out $5\,000+2\,000=7\,000$ dong. Why it is wrong: you left out one $5\,000$ dong note. Right: $5\,000+5\,000+2\,000=12\,000$ dong.
-- **Adding instead of subtracting for the change.** Wrong: $20\,000+12\,000=32\,000$ dong. Why it is wrong: change is the extra money, so it can never be more than the money handed over. Right: $20\,000-12\,000=8\,000$ dong.
-- **Forgetting to turn thousands back into dong.** Wrong: "Answer: $12$ dong". Why it is wrong: $12$ thousand dong is $12\,000$ dong. Right: "Answer: $12\,000$ dong".
-:::
-
-## Key terms
-
-  :::terms
-  - Vietnamese money | tiền Việt Nam
-  - dong (the Vietnamese currency) | đồng
-  - banknote | tờ tiền
-  - thousand | nghìn
-  - price | giá tiền
-  - total cost | tiền hàng
-  - money handed over | tiền đưa
-  - change | tiền trả lại
-  - enough money | đủ tiền
-  - short by | thiếu
-  :::
-
-## Summary
-
-[[P16·7bfb]]
-- The unit of Vietnamese money is the **dong**. There are $1\,000$, $2\,000$, $5\,000$, $10\,000$, $20\,000$, $50\,000$ and $100\,000$ dong notes.
-- To count money, change each note into thousands of dong and add. Example: $5+5+2=12$ thousand, which is $12\,000$ dong.
-- Total cost: add the prices of the items. Change $=$ money handed over $-$ total cost.
-- You can check with an addition: total cost $+$ change $=$ money handed over. Remember to write the unit dong.
-
-## Practice
-
-[[P17·2a6a]]
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
-
-:::exercise
-   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Challenge
-   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Mini test
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g3/likelihood-of-an-event – BẢN TIẾNG VIỆT ########
----
-title: Khả năng xảy ra của một sự kiện
-description: Em học cách nói một sự kiện là chắc chắn, có thể hay không thể xảy ra, qua các trò lấy bi, lấy kẹo, lấy thẻ trong hộp.
-minutes: 15
----
-
-  :::goals
-  - Nhận biết một sự kiện là chắc chắn, có thể hay không thể xảy ra.
-  - Giải thích vì sao bằng cách nhìn vào những gì có trong hộp.
-  - Ghi kết quả thử nghiệm vào bảng số liệu.
-  :::
-
-[[P1·4ce0]]
-Mai có một chiếc hộp kín, trong hộp chỉ có $5$ viên bi đỏ. Mai nhắm mắt lấy ra một viên bi. Mai có thể lấy được viên bi xanh không? Mai có chắc chắn lấy được viên bi đỏ không?
-
-[[P2·42d7]]
-Bài này giúp em trả lời những câu hỏi như vậy, chỉ bằng cách nhìn xem trong hộp có gì.
-
-## Cùng khám phá
-
-[[P3·4d67]]
-Có ba chiếc hộp. Mỗi lần, ta nhắm mắt lấy ra một viên bi.
-
-![Ba hộp A, B, C lần lượt chứa năm bi đỏ; ba bi đỏ và hai bi xanh; năm bi xanh](/assets/img/g3/g3-likelihood-of-an-event-01.svg)
-
-[[P4·d2a6]]
-- **Hộp A:** $5$ viên bi đỏ.
-- **Hộp B:** $3$ viên bi đỏ và $2$ viên bi xanh.
-- **Hộp C:** $5$ viên bi xanh.
-
-[[P5·16a3]]
-**Hộp A.** Trong hộp chỉ có bi đỏ. Dù lấy thế nào, ta cũng được bi đỏ. Ta nói: lấy được bi đỏ là **chắc chắn**. Lấy được bi xanh là **không thể**.
-
-[[P6·9184]]
-**Hộp B.** Trong hộp có cả bi đỏ và bi xanh. Lần này ta có thể được bi đỏ, lần khác có thể được bi xanh. Ta nói: lấy được bi đỏ là **có thể**, lấy được bi xanh cũng là **có thể**.
-
-[[P7·cfaa]]
-**Hộp C.** Trong hộp chỉ có bi xanh. Lấy được bi xanh là **chắc chắn**, lấy được bi đỏ là **không thể**.
-
-  :::theorem Ba mức khả năng
-  - **Chắc chắn:** sự kiện luôn luôn xảy ra.
-  - **Không thể:** sự kiện không bao giờ xảy ra.
-  - **Có thể:** sự kiện có lúc xảy ra, có lúc không xảy ra.
-
-  Muốn biết là mức nào, em nhìn xem trong hộp có những gì.
-  :::
-
-[[P8·1954]]
-Cách nghĩ này đúng vì em biết rõ mọi thứ trong hộp. Nếu thứ cần tìm không có, nó không thể xảy ra. Nếu mọi thứ trong hộp đều là thứ đó, nó chắc chắn xảy ra.
-
-## Ví dụ
-
-[[P9·31c8]]
-Ta bắt đầu với một hộp chỉ có một loại bóng.
-
-  :::example Hộp bóng vàng
-  Một hộp có $6$ quả bóng vàng. Nhắm mắt lấy ra một quả. Hãy nói khả năng của mỗi sự kiện:
-  a) lấy được quả bóng vàng;
-  b) lấy được quả bóng xanh.
-
-  **Lời giải.** Trong hộp chỉ có bóng vàng.
-
-  a) Quả nào lấy ra cũng là bóng vàng, nên sự kiện này **chắc chắn** xảy ra.
-
-  b) Trong hộp không có bóng xanh, nên sự kiện này **không thể** xảy ra.
-  :::
-
-[[P10·9f78]]
-Bây giờ hộp có hai loại kẹo.
-
-  :::example Túi kẹo
-  Một túi có $4$ chiếc kẹo cam và $2$ chiếc kẹo dâu. Nhắm mắt lấy ra một chiếc. Hãy nói khả năng của:
-  a) lấy được kẹo cam;
-  b) lấy được kẹo dâu;
-  c) lấy được kẹo chanh.
-
-  **Lời giải.** Trong túi có cả kẹo cam và kẹo dâu, nhưng không có kẹo chanh.
-
-  a) Có thể lấy được kẹo cam, nên sự kiện này **có thể** xảy ra.
-
-  b) Có thể lấy được kẹo dâu, nên sự kiện này cũng **có thể** xảy ra.
-
-  c) Không có kẹo chanh, nên sự kiện này **không thể** xảy ra.
-  :::
-
-[[P11·1c76]]
-Ta cũng có thể hỏi về các số trên thẻ.
-
-  :::example Thẻ số
-  Một hộp có $3$ tấm thẻ ghi số $1$, $2$, $3$. Nhắm mắt lấy ra một tấm thẻ. Hãy nói khả năng của:
-  a) lấy được thẻ ghi số $5$;
-  b) lấy được thẻ ghi số bé hơn $4$;
-  c) lấy được thẻ ghi số $2$.
-
-  **Lời giải.** Các số có thể lấy ra là $1$, $2$, $3$.
-
-  a) Không có thẻ số $5$, nên **không thể**.
-
-  b) Cả ba số $1$, $2$, $3$ đều bé hơn $4$, nên **chắc chắn**.
-
-  c) Thẻ số $2$ có trong hộp nhưng cũng có thẻ khác, nên **có thể**.
-  :::
-
-[[P12·8aee]]
-Em cũng gặp những câu hỏi này ở ngoài đời.
-
-  :::example Chuyện hằng ngày
-  Hãy nói mỗi sự kiện là chắc chắn, có thể hay không thể xảy ra:
-  a) Mặt trời mọc vào buổi sáng.
-  b) Em đi bộ từ nhà đến trường trong $1$ giây.
-  c) Ngày mai trời mưa.
-
-  **Lời giải.** Ta nghĩ xem sự kiện có luôn xảy ra, không bao giờ xảy ra, hay có khi có khi không.
-
-  a) Buổi sáng nào Mặt trời cũng mọc, nên **chắc chắn**.
-
-  b) Không ai đi bộ nhanh như vậy, nên **không thể**.
-
-  c) Có ngày mưa, có ngày không, nên **có thể**.
-  :::
-
-[[P13·1821]]
-Cuối cùng, ta thử thật và ghi kết quả vào bảng số liệu như ở bài trước.
-
-  :::example Thử lấy bi
-  Hộp B có $3$ bi đỏ và $2$ bi xanh. Nam lấy một viên, ghi màu rồi bỏ lại vào hộp, làm $10$ lần. Kết quả: đỏ, xanh, đỏ, đỏ, xanh, đỏ, xanh, đỏ, đỏ, xanh. Hãy lập bảng số liệu.
-
-  **Lời giải.** Ta đọc dãy một lượt và kẻ vạch vào hàng đúng màu:
-
-  | Màu bi | Vạch kiểm đếm | Số lần |
+  | Trăm | Chục | Đơn vị |
   |---|---|---|
-  | Đỏ | ////// | $6$ |
-  | Xanh | //// | $4$ |
+  | $3$ | $4$ | $5$ |
 
-  Kiểm tra: $6+4=10$ lần. Cả hai màu đều xuất hiện, đúng với "có thể được đỏ, có thể được xanh".
+  Vậy chữ số hàng trăm là $3$, hàng chục là $4$, hàng đơn vị là $5$.
+  :::
+
+[[P8·ef95]]
+Bây giờ em làm ngược lại: viết số từ các nhóm.
+
+  :::example Viết số
+  Viết số gồm $6$ trăm, $2$ chục và $8$ đơn vị.
+
+  **Lời giải.** Viết chữ số trăm, rồi chữ số chục, rồi chữ số đơn vị: $6$, $2$, $8$.
+
+  Vậy số cần viết là $628$, đọc là "sáu trăm hai mươi tám".
+  :::
+
+[[P9·147e]]
+Tiếp theo là số có chữ số $0$.
+
+  :::example Số có chữ số 0
+  Viết số gồm $3$ trăm, $0$ chục và $7$ đơn vị.
+
+  **Lời giải.** Hàng chục không có gì, nên ta viết chữ số $0$ ở hàng chục: $3$, $0$, $7$.
+
+  Vậy số cần viết là $307$, đọc là "ba trăm linh bảy".
+  :::
+
+[[P10·e2ef]]
+Cuối cùng em dùng kiến thức này giải một bài toán.
+
+  :::example Cửa hàng bút
+  Cửa hàng có $5$ hộp bút loại $100$ chiếc, $3$ bó bút loại $10$ chiếc và $6$ chiếc bút lẻ. Hỏi cửa hàng có bao nhiêu chiếc bút?
+
+  **Lời giải.** Có $5$ trăm, $3$ chục và $6$ đơn vị. Viết chữ số: $5$, $3$, $6$.
+
+  Vậy cửa hàng có $536$ chiếc bút.
   :::
 
 :::warning Những lỗi em hay gặp
-[[P14·141f]]
-- **Nhầm "có thể" với "chắc chắn".** Sai: hộp có $1$ bi đỏ và $9$ bi xanh, nói "chắc chắn lấy được bi xanh". Vì sao sai: bi đỏ vẫn nằm trong hộp nên có thể lấy được bi đỏ. Đúng: lấy được bi xanh là có thể.
-- **Nhầm "rất ít" với "không thể".** Sai: hộp có $1$ bi đỏ, nói "không thể lấy được bi đỏ". Vì sao sai: bi đỏ có trong hộp. Đúng: có thể lấy được bi đỏ.
-- **Không nhìn vào hộp.** Sai: trả lời mà không xem trong hộp có gì. Đúng: luôn xem trong hộp có những gì trước khi trả lời.
+[[P11·66ce]]
+- **Quên chữ số 0.** Sai: "$3$ trăm $7$ đơn vị là $37$". Vì sao sai: $37$ chỉ có $3$ chục. Đúng: $3$ trăm $0$ chục $7$ đơn vị là $307$.
+- **Viết sai thứ tự chữ số.** Sai: "$4$ trăm $3$ chục $5$ đơn vị là $435$ hay $453$ đều được". Vì sao sai: đổi chỗ chữ số thì được số khác. Đúng: chỉ có $435$.
+- **Nhầm hàng của chữ số.** Sai: "chữ số $5$ trong $450$ là $5$ đơn vị". Vì sao sai: $5$ đứng ở hàng chục. Đúng: chữ số $5$ trong $450$ là $5$ chục.
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - khả năng | chance (likelihood)
-  - sự kiện | event
-  - chắc chắn | certain
-  - có thể | possible (might happen)
-  - không thể | impossible
-  - hộp | box
-  - thử nghiệm | trial (experiment)
-  - bảng số liệu | data table
+  - số có ba chữ số | three-digit number
+  - chữ số | digit
+  - hàng trăm | hundreds place
+  - hàng chục | tens place
+  - hàng đơn vị | ones place
+  - đọc số | read a number
+  - viết số | write a number
   :::
 
 ## Tóm tắt
 
-[[P15·2734]]
-- **Chắc chắn:** luôn xảy ra. **Không thể:** không bao giờ xảy ra. **Có thể:** có lúc xảy ra, có lúc không.
-- Nhìn xem trong hộp có gì: nếu thứ cần tìm không có thì không thể; nếu mọi thứ đều là thứ đó thì chắc chắn.
-- Trong hộp có nhiều loại thì mỗi loại đều có thể được lấy ra, dù loại đó ít.
-- Ghi kết quả thử nghiệm bằng vạch kiểm đếm và bảng số liệu.
+[[P12·ae76]]
+- Số có ba chữ số gồm chữ số hàng trăm, hàng chục, hàng đơn vị (từ trái sang phải).
+- $3$ trăm $4$ chục $5$ đơn vị là $345$, đọc là ba trăm bốn mươi lăm.
+- Hàng nào không có gì thì viết chữ số $0$.
+- Đổi chỗ các chữ số thì được số khác.
 
 ## Luyện tập
 
-[[P16·824d]]
+[[P13·824d]]
 Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
 
 :::exercise
    (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -1119,11 +290,11 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 :::exercise
-   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
-   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -1133,191 +304,150 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 
-######## BÀI g3/likelihood-of-an-event – BẢN TIẾNG ANH ########
+######## BÀI g2/three-digit-numbers – BẢN TIẾNG ANH ########
 ---
-title: How likely is an event?
-description: Learn to say whether an event is certain, possible or impossible, using games with marbles, sweets and cards in a box.
+title: Three-digit numbers
+description: Read and write three-digit numbers and know which digit is in the hundreds, tens and ones places, using groups of hundreds, tens and ones.
 minutes: 15
 ---
 
   :::goals
-  - Tell whether an event is certain, possible or impossible.
-  - Give a reason by looking at what is in the box.
-  - Record the results of a trial in a data table.
+  - Read and write three-digit numbers, for example $345$ and $205$.
+  - Know the hundreds digit, tens digit and ones digit of a number.
+  - Write numbers with a $0$ correctly, for example $3$ hundreds $0$ tens $7$ ones is $307$.
   :::
 
-[[P1·c46d]]
-Mai has a closed box with only $5$ red marbles inside. Mai shuts her eyes and takes out one marble. Can Mai get a blue marble? Is Mai certain to get a red marble?
+[[P1·3096]]
+A library has $3$ crates of books with $100$ books in each, $4$ bundles of books with $10$ books in each, and $5$ loose books. How many books does the library have altogether?
 
-[[P2·d48b]]
-This lesson helps you answer questions like these, just by looking at what is in the box.
+[[P2·514d]]
+You already know hundreds, tens and ones. This lesson shows you how to put them together into a three-digit number.
 
 ## Let's explore
 
-[[P3·72ef]]
-There are three boxes. Each time, we shut our eyes and take out one marble.
+[[P3·0272]]
+We put the groups of books into three columns:
 
-![Boxes A, B, and C contain five red; three red and two blue; and five blue marbles](/assets/img/g3/g3-likelihood-of-an-event-01.svg)
+| Hundreds | Tens | Ones |
+|---|---|---|
+| $3$ | $4$ | $5$ |
 
-[[P4·b45a]]
-- **Box A:** $5$ red marbles.
-- **Box B:** $3$ red marbles and $2$ blue marbles.
-- **Box C:** $5$ blue marbles.
+![Three book crates marked 100, four stacks marked 10, and five loose books](/assets/img/g2/g2-three-digit-numbers-01.svg)
 
-[[P5·016f]]
-**Box A.** There are only red marbles. However we pick, we get a red marble. We say: getting a red marble is **certain**. Getting a blue marble is **impossible**.
+[[P4·3f52]]
+There are $3$ hundreds, $4$ tens and $5$ ones. We write three digits side by side: the digit $3$ is in the hundreds place, the digit $4$ is in the tens place and the digit $5$ is in the ones place. The number is $345$.
 
-[[P6·4ff1]]
-**Box B.** There are red and blue marbles. This time we might get red, another time we might get blue. We say: getting a red marble is **possible**, and getting a blue marble is also **possible**.
+[[P5·1f2f]]
+We read $345$ as "three hundred and forty-five". So the library has $345$ books.
 
-[[P7·bc6c]]
-**Box C.** There are only blue marbles. Getting a blue marble is **certain**, and getting a red marble is **impossible**.
+  :::theorem Three-digit numbers
+  A three-digit number has:
+  - a hundreds digit (on the left), which tells how many hundreds;
+  - a tens digit (in the middle), which tells how many tens;
+  - a ones digit (on the right), which tells how many ones.
 
-  :::theorem Three levels of likelihood
-  - **Certain:** the event always happens.
-  - **Impossible:** the event never happens.
-  - **Possible:** the event sometimes happens and sometimes does not.
-
-  To decide which level it is, look at what is in the box.
+  If a place has nothing in it, we write the digit $0$ in that place.
   :::
 
-[[P8·ecaf]]
-This works because you know everything in the box. If the thing you want is not there, it is impossible. If everything in the box is that thing, it is certain.
+[[P6·089d]]
+We must write the $0$ to keep the other digits in the right places. For example, $3$ hundreds and $7$ ones is $307$; if we leave out the $0$, then $37$ is only $3$ tens and $7$ ones.
 
 ## Examples
 
-[[P9·8375]]
-We start with a box that holds only one kind of ball.
+[[P7·fbfe]]
+We start by reading the digits of a number.
 
-  :::example A box of yellow balls
-  A box has $6$ yellow balls. Shut your eyes and take out one. Say how likely each event is:
-  a) you take a yellow ball;
-  b) you take a green ball.
+  :::example The digits of 345
+  What are the hundreds digit, tens digit and ones digit of $345$?
 
-  **Solution.** There are only yellow balls in the box.
+  **Solution.** Put the number in the table, from left to right hundreds, tens, ones:
 
-  a) Every ball you take out is yellow, so this event is **certain**.
-
-  b) There is no green ball in the box, so this event is **impossible**.
-  :::
-
-[[P10·52d9]]
-Now the box has two kinds of sweets.
-
-  :::example A bag of sweets
-  A bag has $4$ orange sweets and $2$ strawberry sweets. Shut your eyes and take out one. Say how likely each event is:
-  a) you take an orange sweet;
-  b) you take a strawberry sweet;
-  c) you take a lemon sweet.
-
-  **Solution.** The bag has both orange and strawberry sweets, but no lemon sweets.
-
-  a) You might take an orange sweet, so this event is **possible**.
-
-  b) You might take a strawberry sweet, so this event is also **possible**.
-
-  c) There are no lemon sweets, so this event is **impossible**.
-  :::
-
-[[P11·e1b3]]
-We can also ask about numbers on cards.
-
-  :::example Number cards
-  A box has $3$ cards with the numbers $1$, $2$, $3$. Shut your eyes and take out one card. Say how likely each event is:
-  a) you take the card with $5$;
-  b) you take a card with a number less than $4$;
-  c) you take the card with $2$.
-
-  **Solution.** The numbers you can take are $1$, $2$, $3$.
-
-  a) There is no card with $5$, so it is **impossible**.
-
-  b) All three numbers $1$, $2$, $3$ are less than $4$, so it is **certain**.
-
-  c) The card with $2$ is in the box, but so are other cards, so it is **possible**.
-  :::
-
-[[P12·903b]]
-You meet these questions in everyday life too.
-
-  :::example Everyday events
-  Say whether each event is certain, possible or impossible:
-  a) The Sun rises in the morning.
-  b) You walk from home to school in $1$ second.
-  c) It rains tomorrow.
-
-  **Solution.** We think about whether the event always happens, never happens, or sometimes happens.
-
-  a) The Sun rises every morning, so it is **certain**.
-
-  b) Nobody can walk that fast, so it is **impossible**.
-
-  c) Some days it rains and some days it does not, so it is **possible**.
-  :::
-
-[[P13·277b]]
-Finally, we try it for real and record the results in a data table, as in the last lesson.
-
-  :::example A trial with marbles
-  Box B has $3$ red and $2$ blue marbles. Nam takes out one marble, writes down its colour, puts it back, and does this $10$ times. The results are: red, blue, red, red, blue, red, blue, red, red, blue. Make a data table.
-
-  **Solution.** We read the list once and draw a stroke in the row of the right colour:
-
-  | Colour | Tally marks | Number of times |
+  | Hundreds | Tens | Ones |
   |---|---|---|
-  | Red | ////// | $6$ |
-  | Blue | //// | $4$ |
+  | $3$ | $4$ | $5$ |
 
-  Check: $6+4=10$ times. Both colours appeared, which fits "possible to get red, possible to get blue".
+  So the hundreds digit is $3$, the tens digit is $4$ and the ones digit is $5$.
+  :::
+
+[[P8·9620]]
+Now you go the other way: write a number from groups.
+
+  :::example Writing a number
+  Write the number made of $6$ hundreds, $2$ tens and $8$ ones.
+
+  **Solution.** Write the hundreds digit, then the tens digit, then the ones digit: $6$, $2$, $8$.
+
+  So the number is $628$, read "six hundred and twenty-eight".
+  :::
+
+[[P9·2579]]
+Next comes a number with a $0$.
+
+  :::example A number with a 0
+  Write the number made of $3$ hundreds, $0$ tens and $7$ ones.
+
+  **Solution.** There is nothing in the tens place, so we write a $0$ there: $3$, $0$, $7$.
+
+  So the number is $307$, read "three hundred and seven".
+  :::
+
+[[P10·b5c3]]
+Finally you use this in a problem.
+
+  :::example A pen shop
+  A shop has $5$ boxes of $100$ pens, $3$ bundles of $10$ pens and $6$ loose pens. How many pens does the shop have?
+
+  **Solution.** There are $5$ hundreds, $3$ tens and $6$ ones. Write the digits: $5$, $3$, $6$.
+
+  So the shop has $536$ pens.
   :::
 
 :::warning Mistakes to watch out for
-[[P14·009d]]
-- **Mixing up "possible" and "certain".** Wrong: a box has $1$ red and $9$ blue marbles, and you say "you are certain to get blue". Why it is wrong: the red marble is still in the box, so you might get red. Right: getting blue is possible.
-- **Mixing up "very few" and "impossible".** Wrong: a box has $1$ red marble, and you say "you cannot get red". Why it is wrong: the red marble is in the box. Right: getting red is possible.
-- **Not looking in the box.** Wrong: answering without checking what is inside. Right: always check what is in the box before you answer.
+[[P11·c7e8]]
+- **Leaving out the $0$.** Wrong: "$3$ hundreds $7$ ones is $37$". Why it is wrong: $37$ has only $3$ tens. Right: $3$ hundreds $0$ tens $7$ ones is $307$.
+- **Writing the digits in the wrong order.** Wrong: "$4$ hundreds $3$ tens $5$ ones is $435$ or $453$, either will do". Why it is wrong: swapping digits gives a different number. Right: only $435$.
+- **Mixing up the place of a digit.** Wrong: "the digit $5$ in $450$ is $5$ ones". Why it is wrong: the $5$ is in the tens place. Right: the digit $5$ in $450$ is $5$ tens.
 :::
 
 ## Key terms
 
   :::terms
-  - chance (likelihood) | khả năng
-  - event | sự kiện
-  - certain | chắc chắn
-  - possible (might happen) | có thể
-  - impossible | không thể
-  - box | hộp
-  - trial (experiment) | thử nghiệm
-  - data table | bảng số liệu
+  - three-digit number | số có ba chữ số
+  - digit | chữ số
+  - hundreds place | hàng trăm
+  - tens place | hàng chục
+  - ones place | hàng đơn vị
+  - read a number | đọc số
+  - write a number | viết số
   :::
 
 ## Summary
 
-[[P15·70c1]]
-- **Certain:** always happens. **Impossible:** never happens. **Possible:** sometimes happens, sometimes does not.
-- Look at what is in the box: if the thing you want is not there, it is impossible; if everything is that thing, it is certain.
-- If the box holds several kinds, each kind is possible to take out, even if there are only a few of that kind.
-- Record the results of a trial with tally marks and a data table.
+[[P12·ff53]]
+- A three-digit number has a hundreds digit, a tens digit and a ones digit (from left to right).
+- $3$ hundreds $4$ tens $5$ ones is $345$, read three hundred and forty-five.
+- If a place has nothing in it, write the digit $0$.
+- Swapping the digits gives a different number.
 
 ## Practice
 
-[[P16·2a6a]]
+[[P13·2a6a]]
 Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
 
 :::exercise
    (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -1329,11 +459,11 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 :::
 
 :::exercise
-   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge
-   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test

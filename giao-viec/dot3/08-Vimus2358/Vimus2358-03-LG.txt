@@ -6,7 +6,7 @@ Kết quả: file Vimus2358-03-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/vie
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Vimus2358-03-LG
-Người làm: tài khoản Vimus2358. Gói này có 38 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Vimus2358. Gói này có 39 bài tập thuộc 6 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Vimus2358-03-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/6). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Vimus2358-03-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,835 +189,866 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g11/geometric-progressions (10 bài tập)
-- g11/grouped-central-tendency (10 bài tập)
-- g11/grouped-data (9 bài tập)
-- g11/line-perpendicular-plane (9 bài tập)
+- g8/pythagoras-theorem (10 bài tập)
+- g8/quadrilaterals (5 bài tập)
+- g8/rectangles (3 bài tập)
+- g8/regular-triangular-pyramids (9 bài tập)
+- g8/rhombuses-and-squares (3 bài tập)
+- g8/right-triangle-similarity (9 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g11/geometric-progressions
-Bài học: Cấp số nhân / Geometric progressions
+@@@ g8/pythagoras-theorem
+Bài học: Định lí Pythagore và ứng dụng / Pythagoras' theorem and its applications
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Chứng minh dãy số $(u_n)$ với $u_n=5\cdot(-2)^n$ là cấp số nhân. Tìm $u_1$ và công bội.
+Tính cạnh huyền của tam giác vuông có hai cạnh góc vuông:
+
+a) $9$ và $12$.
+
+b) $7$ và $24$.
 
 [LỜI GIẢI CŨ – VI]
-Ta có $\dfrac{u_{n+1}}{u_n}=\dfrac{5\cdot(-2)^{n+1}}{5\cdot(-2)^n}=-2$ không đổi, nên $(u_n)$ là cấp số nhân với công bội $q=-2$ và $u_1=5\cdot(-2)=-10$.
+a) $c^2=81+144=225$ nên $c=15$.
 
-**Đáp số.** Cấp số nhân với $u_1=-10$, $q=-2$.
+b) $c^2=49+576=625$ nên $c=25$.
+
+**Đáp số.** a) $15$. b) $25$.
 
 [ĐỀ – EN]
-Prove that the sequence $(u_n)$ with $u_n=5\cdot(-2)^n$ is a geometric progression. Find $u_1$ and the common ratio.
+Find the hypotenuse of a right-angled triangle whose legs are:
+
+a) $9$ and $12$.
+
+b) $7$ and $24$.
 
 [LỜI GIẢI CŨ – EN]
-We have $\dfrac{u_{n+1}}{u_n}=\dfrac{5\cdot(-2)^{n+1}}{5\cdot(-2)^n}=-2$, which is constant, so $(u_n)$ is a geometric progression with common ratio $q=-2$ and $u_1=5\cdot(-2)=-10$.
+a) $c^2=81+144=225$, so $c=15$.
 
-**Answer.** A geometric progression with $u_1=-10$, $q=-2$.
+b) $c^2=49+576=625$, so $c=25$.
+
+**Answer.** a) $15$. b) $25$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Cho cấp số nhân có $u_1=2$ và $q=3$. Tính $u_6$. Số $1458$ là số hạng thứ mấy?
+Tính cạnh góc vuông còn lại của tam giác vuông biết:
+
+a) cạnh huyền $17$, một cạnh góc vuông $8$.
+
+b) cạnh huyền $10$, một cạnh góc vuông $6$.
 
 [LỜI GIẢI CŨ – VI]
-Ta có $u_6=2\cdot3^5=486$. Giải $2\cdot3^{n-1}=1458$ ta được $3^{n-1}=729=3^6$, nên $n-1=6$ và $n=7$.
+a) $a^2=289-64=225$ nên $a=15$.
 
-**Đáp số.** $u_6=486$; $1458$ là số hạng thứ $7$.
+b) $a^2=100-36=64$ nên $a=8$.
+
+**Đáp số.** a) $15$. b) $8$.
 
 [ĐỀ – EN]
-A geometric progression has $u_1=2$ and $q=3$. Find $u_6$. Which term is $1458$?
+Find the remaining leg of a right-angled triangle given:
+
+a) hypotenuse $17$, one leg $8$.
+
+b) hypotenuse $10$, one leg $6$.
 
 [LỜI GIẢI CŨ – EN]
-We have $u_6=2\cdot3^5=486$. Solving $2\cdot3^{n-1}=1458$ gives $3^{n-1}=729=3^6$, so $n-1=6$ and $n=7$.
+a) $a^2=289-64=225$, so $a=15$.
 
-**Answer.** $u_6=486$; $1458$ is the $7$th term.
+b) $a^2=100-36=64$, so $a=8$.
+
+**Answer.** a) $15$. b) $8$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Cho cấp số nhân có $u_2=-6$ và $u_5=48$. Tìm $u_1$, công bội $q$ và $u_8$.
+Tam giác vuông có hai cạnh góc vuông là $4$ và $7$. Tính cạnh huyền (làm tròn đến hai chữ số thập phân).
 
 [LỜI GIẢI CŨ – VI]
-Ta có $q^3=\dfrac{48}{-6}=-8$ nên $q=-2$. Khi đó $u_1=\dfrac{-6}{-2}=3$ và $u_8=3\cdot(-2)^7=-384$.
+$c^2=16+49=65$ nên $c=\sqrt{65}\approx8{,}06$.
 
-**Đáp số.** $u_1=3$, $q=-2$, $u_8=-384$.
+**Đáp số.** $\sqrt{65}\approx8{,}06$.
 
 [ĐỀ – EN]
-A geometric progression has $u_2=-6$ and $u_5=48$. Find $u_1$, the common ratio $q$ and $u_8$.
+A right-angled triangle has legs $4$ and $7$. Find the hypotenuse (to 2 decimal places).
 
 [LỜI GIẢI CŨ – EN]
-We have $q^3=\dfrac{48}{-6}=-8$, so $q=-2$. Then $u_1=\dfrac{-6}{-2}=3$ and $u_8=3\cdot(-2)^7=-384$.
+$c^2=16+49=65$, so $c=\sqrt{65}\approx8.06$.
 
-**Answer.** $u_1=3$, $q=-2$, $u_8=-384$.
+**Answer.** $\sqrt{65}\approx8.06$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tính a) $5+10+20+\dots$ ($8$ số hạng); b) tổng $5$ số hạng đầu của cấp số nhân có $u_1=9$ và $q=\dfrac13$.
+Tam giác nào là tam giác vuông?
+
+a) Các cạnh $7$, $24$, $25$.
+
+b) Các cạnh $8$, $10$, $12$.
+
+c) Các cạnh $9$, $40$, $41$.
 
 [LỜI GIẢI CŨ – VI]
-a) $u_1=5$, $q=2$, $n=8$: $S_8=\dfrac{5\left(1-2^8\right)}{1-2}=5\cdot255=1275$.
+a) $25^2=625$ và $7^2+24^2=49+576=625$: vuông.
 
-b) $S_5=\dfrac{9\left(1-\left(\frac13\right)^5\right)}{1-\frac13}=\dfrac{27}{2}\cdot\dfrac{242}{243}=\dfrac{121}{9}$.
+b) $12^2=144$ và $8^2+10^2=164$: không vuông.
 
-**Đáp số.** a) $1275$; b) $\dfrac{121}{9}$.
+c) $41^2=1681$ và $9^2+40^2=81+1600=1681$: vuông.
+
+**Đáp số.** a) và c) là tam giác vuông.
 
 [ĐỀ – EN]
-Find a) $5+10+20+\dots$ ($8$ terms); b) the sum of the first $5$ terms of the geometric progression with $u_1=9$ and $q=\dfrac13$.
+Which triangle is right-angled?
+
+a) Sides $7$, $24$, $25$.
+
+b) Sides $8$, $10$, $12$.
+
+c) Sides $9$, $40$, $41$.
 
 [LỜI GIẢI CŨ – EN]
-a) $u_1=5$, $q=2$, $n=8$: $S_8=\dfrac{5\left(1-2^8\right)}{1-2}=5\cdot255=1275$.
+a) $25^2=625$ and $7^2+24^2=49+576=625$: right-angled.
 
-b) $S_5=\dfrac{9\left(1-\left(\frac13\right)^5\right)}{1-\frac13}=\dfrac{27}{2}\cdot\dfrac{242}{243}=\dfrac{121}{9}$.
+b) $12^2=144$ and $8^2+10^2=164$: not right-angled.
 
-**Answer.** a) $1275$; b) $\dfrac{121}{9}$.
+c) $41^2=1681$ and $9^2+40^2=81+1600=1681$: right-angled.
+
+**Answer.** a) and c) are right-angled.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Tìm $x$ để ba số $1$, $x+2$, $3x+4$ theo thứ tự lập thành một cấp số nhân.
+Tính đường chéo của hình chữ nhật có hai cạnh $15$ và $8$, và của hình vuông cạnh $5$ (làm tròn đến hai chữ số thập phân).
 
 [LỜI GIẢI CŨ – VI]
-Ta có $x^2+4x+4=3x+4$, tức $x^2+x=0$, suy ra $x=0$ hoặc $x=-1$. Với $x=0$ ba số là $1, 2, 4$ (công bội $2$); với $x=-1$ ba số là $1, 1, 1$ (công bội $1$).
+Hình chữ nhật: $d=\sqrt{15^2+8^2}=\sqrt{289}=17$. Hình vuông: $d=\sqrt{25+25}=\sqrt{50}=5\sqrt2\approx7{,}07$.
 
-**Đáp số.** $x=0$ hoặc $x=-1$.
+**Đáp số.** $17$; $5\sqrt2\approx7{,}07$.
 
 [ĐỀ – EN]
-Find $x$ so that the numbers $1$, $x+2$, $3x+4$, in that order, form a geometric progression.
+Find the diagonal of a rectangle with sides $15$ and $8$, and of a square with side $5$ (to 2 decimal places).
 
 [LỜI GIẢI CŨ – EN]
-We have $x^2+4x+4=3x+4$, that is $x^2+x=0$, so $x=0$ or $x=-1$. For $x=0$ the numbers are $1, 2, 4$ (common ratio $2$); for $x=-1$ the numbers are $1, 1, 1$ (common ratio $1$).
+Rectangle: $d=\sqrt{15^2+8^2}=\sqrt{289}=17$. Square: $d=\sqrt{25+25}=\sqrt{50}=5\sqrt2\approx7.07$.
 
-**Answer.** $x=0$ or $x=-1$.
+**Answer.** $17$; $5\sqrt2\approx7.07$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Giả sử gửi $200$ triệu đồng với lãi suất $7\%$ một năm, lãi kép. Tính số tiền sau $5$ năm, làm tròn đến hàng phần trăm của triệu đồng. Số tiền này hơn bao nhiêu so với trường hợp tính lãi đơn?
+Giả sử một chiếc thang dài $6{,}5$ m dựa vào tường thẳng đứng, chân thang cách tường $2{,}5$ m. Đầu thang chạm tường ở độ cao bao nhiêu?
 
 [LỜI GIẢI CŨ – VI]
-Lãi kép: $200\cdot1{,}07^5\approx280{,}51$ (triệu đồng). Lãi đơn: $200+5\cdot14=270$ (triệu đồng). Hiệu là $280{,}51-270=10{,}51$ (triệu đồng).
+$h^2=42{,}25-6{,}25=36$ nên $h=6$.
 
-**Đáp số.** Khoảng $280{,}51$ triệu đồng; hơn lãi đơn khoảng $10{,}51$ triệu đồng.
+Kiểm tra: $2{,}5^2+6^2=6{,}25+36=42{,}25=6{,}5^2$.
+
+Vậy đầu thang cao $6$ m.
+
+**Đáp số.** $6$ m.
 
 [ĐỀ – EN]
-Suppose $200$ million dong is deposited at $7\%$ a year, compounded annually. Find the amount after $5$ years, to 2 decimal places in millions of dong. How much more is this than with simple interest?
+Suppose a ladder $6.5$ m long leans against a vertical wall, with its foot $2.5$ m from the wall. How high up the wall does the top of the ladder reach?
 
 [LỜI GIẢI CŨ – EN]
-Compound interest: $200\cdot1.07^5\approx280.51$ (million dong). Simple interest: $200+5\cdot14=270$ (million dong). The difference is $280.51-270=10.51$ (million dong).
+$h^2=42.25-6.25=36$, so $h=6$.
 
-**Answer.** About $280.51$ million dong; about $10.51$ million dong more than with simple interest.
+Check: $2.5^2+6^2=6.25+36=42.25=6.5^2$.
+
+So the top of the ladder is $6$ m high.
+
+**Answer.** $6$ m.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Xét dãy số $81, -27, 9, -3, \dots$ (cấp số nhân). Xét tính đúng sai của các mệnh đề sau:
-
-a) Công bội của cấp số nhân là $q=-\dfrac13$.
-
-b) Số hạng tổng quát là $u_n=81\cdot\left(-\dfrac13\right)^{n-1}$.
-
-c) Dãy số đã cho là dãy số giảm.
-
-d) $u_7=-\dfrac19$.
+Giả sử một chiếc tivi có chiều rộng $96$ cm và chiều cao $54$ cm. Tính đường chéo màn hình theo cm (làm tròn đến hàng đơn vị) và theo inch (biết $1$ inch $=2{,}54$ cm, làm tròn đến hàng đơn vị).
 
 [LỜI GIẢI CŨ – VI]
-a) **Đúng**: $\dfrac{-27}{81}=-\dfrac13$.
+$d^2=9\,216+2\,916=12\,132$, nên $d=\sqrt{12\,132}\approx110$ (cm). Đổi sang inch: $\dfrac{110{,}14}{2{,}54}\approx43{,}4\approx43$ (inch).
 
-b) **Đúng**: $u_n=u_1q^{n-1}$ với $u_1=81$ và $q=-\dfrac13$.
-
-c) **Sai**: $u_1=81>u_2=-27$ nhưng $u_2=-27<u_3=9$, nên dãy lúc giảm lúc tăng.
-
-d) **Sai**: $u_7=81\cdot\left(-\dfrac13\right)^6=\dfrac{81}{729}=\dfrac19$, không phải $-\dfrac19$.
-
-**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+**Đáp số.** Khoảng $110$ cm, tức khoảng $43$ inch.
 
 [ĐỀ – EN]
-Consider the sequence $81, -27, 9, -3, \dots$ (a geometric progression). Decide whether each statement is true or false.
-
-a) The common ratio of the progression is $q=-\dfrac13$.
-
-b) The general term is $u_n=81\cdot\left(-\dfrac13\right)^{n-1}$.
-
-c) The sequence is decreasing.
-
-d) $u_7=-\dfrac19$.
+Suppose a television screen is $96$ cm wide and $54$ cm high. Find the diagonal of the screen in cm (to the nearest whole number) and in inches (given $1$ inch $=2.54$ cm, to the nearest whole number).
 
 [LỜI GIẢI CŨ – EN]
-a) **True**: $\dfrac{-27}{81}=-\dfrac13$.
+$d^2=9\,216+2\,916=12\,132$, so $d=\sqrt{12\,132}\approx110$ (cm). In inches: $\dfrac{110.14}{2.54}\approx43.4\approx43$ (inches).
 
-b) **True**: $u_n=u_1q^{n-1}$ with $u_1=81$ and $q=-\dfrac13$.
-
-c) **False**: $u_1=81>u_2=-27$ but $u_2=-27<u_3=9$, so the sequence goes down and up.
-
-d) **False**: $u_7=81\cdot\left(-\dfrac13\right)^6=\dfrac{81}{729}=\dfrac19$, not $-\dfrac19$.
-
-**Answer.** a) True; b) True; c) False; d) False.
+**Answer.** About $110$ cm, that is about $43$ inches.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Giả sử có thể gấp đôi một tờ giấy dày $0{,}1$ mm liên tiếp $8$ lần (không kể giới hạn thực tế). Tính độ dày của tập giấy sau $8$ lần gấp (đơn vị mm).
+Giả sử hai tàu cùng rời cảng một lúc, một tàu đi về hướng bắc, tàu kia đi về hướng đông. Sau một thời gian, tàu thứ nhất cách cảng $12$ km, tàu thứ hai cách cảng $16$ km. Hai tàu cách nhau bao xa?
 
 [LỜI GIẢI CŨ – VI]
-Độ dày sau $8$ lần gấp là $0{,}1\cdot2^8=0{,}1\cdot256=25{,}6$ (mm).
+Khoảng cách là $\sqrt{12^2+16^2}=\sqrt{144+256}=\sqrt{400}=20$ (km).
 
-**Đáp số.** $25{,}6$ mm.
+**Đáp số.** $20$ km.
 
 [ĐỀ – EN]
-Suppose a sheet of paper $0.1$ mm thick could be folded in half $8$ times in a row (ignoring real-world limits). Find the thickness of the folded paper after $8$ folds (in mm).
+Suppose two ships leave a port at the same time, one sailing north and the other east. After a while the first ship is $12$ km from the port and the second is $16$ km from the port. How far apart are the ships?
 
 [LỜI GIẢI CŨ – EN]
-The thickness after $8$ folds is $0.1\cdot2^8=0.1\cdot256=25.6$ (mm).
+The distance is $\sqrt{12^2+16^2}=\sqrt{144+256}=\sqrt{400}=20$ (km).
 
-**Answer.** $25.6$ mm.
+**Answer.** $20$ km.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Chứng minh nếu $(u_n)$ là cấp số cộng có công sai $d$ thì dãy $v_n=2^{u_n}$ là cấp số nhân có công bội $2^d$.
+Hình thoi $ABCD$ có hai đường chéo $AC=16$ và $BD=12$ cắt nhau tại $O$. Tính cạnh của hình thoi. (Ôn lại: hai đường chéo của hình thoi vuông góc và cắt nhau tại trung điểm của mỗi đường.)
 
 [LỜI GIẢI CŨ – VI]
-Ta có $\dfrac{v_{n+1}}{v_n}=\dfrac{2^{u_{n+1}}}{2^{u_n}}=2^{u_{n+1}-u_n}=2^d$ không đổi với mọi $n$. Vậy $(v_n)$ là cấp số nhân có công bội $2^d$.
+Ta có $OA=\dfrac{16}{2}=8$ và $OB=\dfrac{12}{2}=6$. Tam giác $AOB$ vuông tại $O$ nên $AB^2=8^2+6^2=100$, suy ra $AB=10$.
 
-**Đáp số.** $(v_n)$ là cấp số nhân với công bội $2^d$.
+Vậy cạnh hình thoi bằng $10$.
+
+**Đáp số.** $10$.
 
 [ĐỀ – EN]
-Prove that if $(u_n)$ is an arithmetic progression with common difference $d$, then the sequence $v_n=2^{u_n}$ is a geometric progression with common ratio $2^d$.
+A rhombus $ABCD$ has diagonals $AC=16$ and $BD=12$ meeting at $O$. Find the side of the rhombus. (Recall: the diagonals of a rhombus are perpendicular and bisect each other.)
 
 [LỜI GIẢI CŨ – EN]
-We have $\dfrac{v_{n+1}}{v_n}=\dfrac{2^{u_{n+1}}}{2^{u_n}}=2^{u_{n+1}-u_n}=2^d$, which is constant for every $n$. So $(v_n)$ is a geometric progression with common ratio $2^d$.
+We have $OA=\dfrac{16}{2}=8$ and $OB=\dfrac{12}{2}=6$. Triangle $AOB$ is right-angled at $O$, so $AB^2=8^2+6^2=100$, giving $AB=10$.
 
-**Answer.** $(v_n)$ is a geometric progression with common ratio $2^d$.
+So the side of the rhombus is $10$.
+
+**Answer.** $10$.
 
 === Bài 10 ===
 [ĐỀ – VI]
-Tìm ba số lập thành một cấp số nhân có tổng bằng $14$ và tích bằng $64$.
+Với hai số nguyên dương $m>n$, đặt $a=m^2-n^2$, $b=2mn$, $c=m^2+n^2$. Chứng minh $a^2+b^2=c^2$ (tức $a$, $b$, $c$ là các cạnh của một tam giác vuông). Áp dụng với $m=3$, $n=2$.
 
 [LỜI GIẢI CŨ – VI]
-Tích $\dfrac{a}{q}\cdot a\cdot aq=a^3=64$ nên $a=4$. Tổng $\dfrac4q+4+4q=14$ cho $\dfrac4q+4q=10$, tức $4q^2-10q+4=0$, hay $2q^2-5q+2=0$. Suy ra $q=2$ hoặc $q=\dfrac12$. Ba số là $2, 4, 8$ (hoặc $8, 4, 2$ theo thứ tự ngược lại).
+Ta có $a^2+b^2=(m^2-n^2)^2+(2mn)^2=m^4-2m^2n^2+n^4+4m^2n^2=m^4+2m^2n^2+n^4=(m^2+n^2)^2=c^2$. Với $m=3$, $n=2$: $a=9-4=5$, $b=2\cdot3\cdot2=12$, $c=9+4=13$, và $5^2+12^2=13^2$.
 
-**Đáp số.** Ba số là $2$, $4$, $8$ (hoặc $8$, $4$, $2$).
+Vậy công thức luôn cho một bộ ba Pythagore.
+
+**Đáp số.** Đã chứng minh; $(5,12,13)$.
 
 [ĐỀ – EN]
-Find three numbers that form a geometric progression with sum $14$ and product $64$.
+For positive whole numbers $m>n$, let $a=m^2-n^2$, $b=2mn$, $c=m^2+n^2$. Prove that $a^2+b^2=c^2$ (so $a$, $b$, $c$ are the sides of a right-angled triangle). Apply it with $m=3$, $n=2$.
 
 [LỜI GIẢI CŨ – EN]
-The product $\dfrac{a}{q}\cdot a\cdot aq=a^3=64$, so $a=4$. The sum $\dfrac4q+4+4q=14$ gives $\dfrac4q+4q=10$, that is $4q^2-10q+4=0$, or $2q^2-5q+2=0$. So $q=2$ or $q=\dfrac12$. The three numbers are $2, 4, 8$ (or $8, 4, 2$ in the reverse order).
+We have $a^2+b^2=(m^2-n^2)^2+(2mn)^2=m^4-2m^2n^2+n^4+4m^2n^2=m^4+2m^2n^2+n^4=(m^2+n^2)^2=c^2$. With $m=3$, $n=2$: $a=9-4=5$, $b=2\cdot3\cdot2=12$, $c=9+4=13$, and $5^2+12^2=13^2$.
 
-**Answer.** The three numbers are $2$, $4$, $8$ (or $8$, $4$, $2$).
+So the formula always gives a Pythagorean triple.
+
+**Answer.** Proved; $(5,12,13)$.
 
 
 ######################################################################
-@@@ g11/grouped-central-tendency
-Bài học: Các số đặc trưng đo xu thế trung tâm / Mean, median, quartiles and mode of grouped data
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+@@@ g8/quadrilaterals
+Bài học: Tứ giác / Quadrilaterals
+Cần viết lại lời giải các bài: 2, 3, 5, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Chiều cao của $40$ bạn được ghép nhóm: $[150; 155)$ có $4$, $[155; 160)$ có $10$, $[160; 165)$ có $14$, $[165; 170)$ có $9$, $[170; 175)$ có $3$ bạn. Ước lượng chiều cao trung bình (làm tròn đến hàng phần mười).
-
-[LỜI GIẢI CŨ – VI]
-Các giá trị đại diện là $152{,}5$; $157{,}5$; $162{,}5$; $167{,}5$; $172{,}5$. Do đó $\bar{x}=\dfrac{4\cdot152{,}5+10\cdot157{,}5+14\cdot162{,}5+9\cdot167{,}5+3\cdot172{,}5}{40}=\dfrac{6485}{40}\approx162{,}1$.
-
-**Đáp số.** Khoảng $162{,}1$ cm.
-
-[ĐỀ – EN]
-The heights of $40$ students are grouped: $[150, 155)$ has $4$, $[155, 160)$ has $10$, $[160, 165)$ has $14$, $[165, 170)$ has $9$, $[170, 175)$ has $3$ students. Estimate the mean height (to 1 decimal place).
-
-[LỜI GIẢI CŨ – EN]
-The representative values are $152.5$; $157.5$; $162.5$; $167.5$; $172.5$. Hence $\bar{x}=\dfrac{4\cdot152.5+10\cdot157.5+14\cdot162.5+9\cdot167.5+3\cdot172.5}{40}=\dfrac{6485}{40}\approx162.1$.
-
-**Answer.** About $162.1$ cm.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Với bảng chiều cao ở bài trước, ước lượng trung vị, $Q_1$ và $Q_3$ (làm tròn đến hàng phần trăm).
+Tính góc còn lại của mỗi tứ giác:
+
+a) Tứ giác $ABCD$ có $\widehat{A}=70^\circ$, $\widehat{B}=110^\circ$, $\widehat{C}=95^\circ$. Tính $\widehat{D}$.
+
+b) Tứ giác $MNPQ$ có $\widehat{M}=\widehat{N}=120^\circ$, $\widehat{P}=50^\circ$. Tính $\widehat{Q}$.
 
 [LỜI GIẢI CŨ – VI]
-Tần số tích luỹ là $4, 14, 28, 37, 40$. Trung vị: $\dfrac n2=20$, nhóm $[160; 165)$ ($C_2=14$, $m_3=14$): $M_e=160+\dfrac{20-14}{14}\cdot5\approx162{,}14$. $Q_1$: $\dfrac n4=10$, nhóm $[155; 160)$ ($C_1=4$, $m_2=10$): $Q_1=155+\dfrac{10-4}{10}\cdot5=158$. $Q_3$: $\dfrac{3n}{4}=30$, nhóm $[165; 170)$ ($C_3=28$, $m_4=9$): $Q_3=165+\dfrac{30-28}{9}\cdot5\approx166{,}11$.
+a) $\widehat{D}=360^\circ-(70^\circ+110^\circ+95^\circ)=360^\circ-275^\circ=85^\circ$.
 
-**Đáp số.** $M_e\approx162{,}14$; $Q_1=158$; $Q_3\approx166{,}11$ (cm).
+b) $\widehat{Q}=360^\circ-(120^\circ+120^\circ+50^\circ)=360^\circ-290^\circ=70^\circ$.
+
+Vậy a) $\widehat{D}=85^\circ$; b) $\widehat{Q}=70^\circ$.
+
+**Đáp số.** a) $85^\circ$. b) $70^\circ$.
 
 [ĐỀ – EN]
-For the height table of the previous exercise, estimate the median, $Q_1$ and $Q_3$ (to 2 decimal places).
+Find the remaining angle of each quadrilateral:
+
+a) The quadrilateral $ABCD$ has $\angle A=70^\circ$, $\angle B=110^\circ$, $\angle C=95^\circ$. Find $\angle D$.
+
+b) The quadrilateral $MNPQ$ has $\angle M=\angle N=120^\circ$, $\angle P=50^\circ$. Find $\angle Q$.
 
 [LỜI GIẢI CŨ – EN]
-The cumulative frequencies are $4, 14, 28, 37, 40$. Median: $\dfrac n2=20$, class $[160, 165)$ ($C_2=14$, $m_3=14$): $M_e=160+\dfrac{20-14}{14}\cdot5\approx162.14$. $Q_1$: $\dfrac n4=10$, class $[155, 160)$ ($C_1=4$, $m_2=10$): $Q_1=155+\dfrac{10-4}{10}\cdot5=158$. $Q_3$: $\dfrac{3n}{4}=30$, class $[165, 170)$ ($C_3=28$, $m_4=9$): $Q_3=165+\dfrac{30-28}{9}\cdot5\approx166.11$.
+a) $\angle D=360^\circ-(70^\circ+110^\circ+95^\circ)=360^\circ-275^\circ=85^\circ$.
 
-**Answer.** $M_e\approx162.14$; $Q_1=158$; $Q_3\approx166.11$ (cm).
+b) $\angle Q=360^\circ-(120^\circ+120^\circ+50^\circ)=360^\circ-290^\circ=70^\circ$.
+
+So a) $\angle D=85^\circ$; b) $\angle Q=70^\circ$.
+
+**Answer.** a) $85^\circ$. b) $70^\circ$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Với bảng chiều cao ở bài trước, ước lượng mốt (làm tròn đến hàng phần trăm).
+Bốn góc của một tứ giác tỉ lệ với $2$, $3$, $3$, $4$. Tính số đo mỗi góc.
 
 [LỜI GIẢI CŨ – VI]
-Nhóm có tần số lớn nhất là $[160; 165)$ với $m_j=14$; hai nhóm kề có $10$ và $9$. Do đó $M_o=160+\dfrac{14-10}{(14-10)+(14-9)}\cdot5=160+\dfrac49\cdot5\approx162{,}22$.
+Ta có $2k+3k+3k+4k=12k=360^\circ$, nên $k=30^\circ$. Các góc là $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
 
-**Đáp số.** $M_o\approx162{,}22$ cm.
+Vậy bốn góc là $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
 
-[ĐỀ – EN]
-For the height table of the previous exercises, estimate the mode (to 2 decimal places).
-
-[LỜI GIẢI CŨ – EN]
-The class with the greatest frequency is $[160, 165)$ with $m_j=14$; its neighbours have $10$ and $9$. Hence $M_o=160+\dfrac{14-10}{(14-10)+(14-9)}\cdot5=160+\dfrac49\cdot5\approx162.22$.
-
-**Answer.** $M_o\approx162.22$ cm.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Giả sử lượng nước tiêu thụ mỗi tháng ($\text{m}^3$) của $50$ hộ gia đình được ghép nhóm: $[0; 5)$ có $4$ hộ, $[5; 10)$ có $16$ hộ, $[10; 15)$ có $18$ hộ, $[15; 20)$ có $9$ hộ, $[20; 25)$ có $3$ hộ. Ước lượng số trung bình, trung vị và mốt (làm tròn đến hàng phần trăm).
-
-[LỜI GIẢI CŨ – VI]
-Số trung bình: $\bar{x}=\dfrac{4\cdot2{,}5+16\cdot7{,}5+18\cdot12{,}5+9\cdot17{,}5+3\cdot22{,}5}{50}=\dfrac{580}{50}=11{,}6$. Trung vị: $\dfrac n2=25$, nhóm $[10; 15)$ ($C_2=20$, $m_3=18$): $M_e=10+\dfrac{25-20}{18}\cdot5\approx11{,}39$. Mốt: nhóm $[10; 15)$ có tần số $18$, hai nhóm kề có $16$ và $9$: $M_o=10+\dfrac{18-16}{(18-16)+(18-9)}\cdot5\approx10{,}91$.
-
-**Đáp số.** $\bar{x}=11{,}60$; $M_e\approx11{,}39$; $M_o\approx10{,}91$ ($\text{m}^3$).
+**Đáp số.** $60^\circ$; $90^\circ$; $90^\circ$; $120^\circ$.
 
 [ĐỀ – EN]
-Suppose the monthly water use (in $\text{m}^3$) of $50$ households is grouped: $[0, 5)$ has $4$ households, $[5, 10)$ has $16$, $[10, 15)$ has $18$, $[15, 20)$ has $9$, $[20, 25)$ has $3$. Estimate the mean, median and mode (to 2 decimal places).
+The four angles of a quadrilateral are in the ratio $2:3:3:4$. Find each angle.
 
 [LỜI GIẢI CŨ – EN]
-Mean: $\bar{x}=\dfrac{4\cdot2.5+16\cdot7.5+18\cdot12.5+9\cdot17.5+3\cdot22.5}{50}=\dfrac{580}{50}=11.6$. Median: $\dfrac n2=25$, class $[10, 15)$ ($C_2=20$, $m_3=18$): $M_e=10+\dfrac{25-20}{18}\cdot5\approx11.39$. Mode: the class $[10, 15)$ has frequency $18$ and its neighbours have $16$ and $9$: $M_o=10+\dfrac{18-16}{(18-16)+(18-9)}\cdot5\approx10.91$.
+We have $2k+3k+3k+4k=12k=360^\circ$, so $k=30^\circ$. The angles are $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
 
-**Answer.** $\bar{x}=11.60$; $M_e\approx11.39$; $M_o\approx10.91$ ($\text{m}^3$).
+So the four angles are $60^\circ$, $90^\circ$, $90^\circ$, $120^\circ$.
+
+**Answer.** $60^\circ$; $90^\circ$; $90^\circ$; $120^\circ$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Thời gian chờ xe buýt (phút) của $25$ hành khách được ghép nhóm: $[0; 5)$ có $7$, $[5; 10)$ có $10$, $[10; 15)$ có $6$, $[15; 20)$ có $2$ hành khách. Ước lượng trung vị và $Q_3$ (làm tròn đến hàng phần trăm). Hiểu $Q_3$ thế nào trong tình huống này?
+Tứ giác $ABCD$ có $\widehat{C}=60^\circ$, $\widehat{D}=90^\circ$ và $\widehat{A}=\widehat{B}$. Tính $\widehat{A}$ và $\widehat{B}$.
 
 [LỜI GIẢI CŨ – VI]
-Trung vị: nhóm $[5; 10)$ ($C_1=7$, $m_2=10$): $M_e=5+\dfrac{12{,}5-7}{10}\cdot5=7{,}75$. $Q_3$: nhóm $[10; 15)$ ($C_2=17$, $m_3=6$): $Q_3=10+\dfrac{18{,}75-17}{6}\cdot5\approx11{,}46$. Điều này có nghĩa là khoảng $\dfrac34$ số hành khách chờ không quá $11{,}46$ phút, hay khoảng một phần tư số hành khách chờ lâu hơn mức đó.
+Ta có $\widehat{A}+\widehat{B}=360^\circ-60^\circ-90^\circ=210^\circ$. Vì $\widehat{A}=\widehat{B}$ nên mỗi góc bằng $210^\circ:2=105^\circ$.
 
-**Đáp số.** $M_e=7{,}75$ phút; $Q_3\approx11{,}46$ phút.
+Vậy $\widehat{A}=\widehat{B}=105^\circ$.
 
-[ĐỀ – EN]
-The waiting times (in minutes) for a bus of $25$ passengers are grouped: $[0, 5)$ has $7$, $[5, 10)$ has $10$, $[10, 15)$ has $6$, $[15, 20)$ has $2$ passengers. Estimate the median and $Q_3$ (to 2 decimal places). How should we interpret $Q_3$ in this situation?
-
-[LỜI GIẢI CŨ – EN]
-Median: class $[5, 10)$ ($C_1=7$, $m_2=10$): $M_e=5+\dfrac{12.5-7}{10}\cdot5=7.75$. $Q_3$: class $[10, 15)$ ($C_2=17$, $m_3=6$): $Q_3=10+\dfrac{18.75-17}{6}\cdot5\approx11.46$. This means that about $\dfrac34$ of the passengers wait no more than $11.46$ minutes, or about a quarter of the passengers wait longer than that.
-
-**Answer.** $M_e=7.75$ minutes; $Q_3\approx11.46$ minutes.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Cho mẫu số liệu ghép nhóm: $[0; 10)$ có $5$, $[10; 20)$ có $x$, $[20; 30)$ có $15$, $[30; 40)$ có $5$. Biết số trung bình ước lượng bằng $20$. Tìm $x$.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $\bar{x}=\dfrac{5\cdot5+15x+25\cdot15+35\cdot5}{25+x}=\dfrac{575+15x}{25+x}$. Từ $\dfrac{575+15x}{25+x}=20$ ta có $575+15x=500+20x$, suy ra $x=15$.
-
-**Đáp số.** $x=15$.
+**Đáp số.** $\widehat{A}=\widehat{B}=105^\circ$.
 
 [ĐỀ – EN]
-Take grouped data: $[0, 10)$ has $5$, $[10, 20)$ has $x$, $[20, 30)$ has $15$, $[30, 40)$ has $5$. The estimated mean is $20$. Find $x$.
+The quadrilateral $ABCD$ has $\angle C=60^\circ$, $\angle D=90^\circ$ and $\angle A=\angle B$. Find $\angle A$ and $\angle B$.
 
 [LỜI GIẢI CŨ – EN]
-We have $\bar{x}=\dfrac{5\cdot5+15x+25\cdot15+35\cdot5}{25+x}=\dfrac{575+15x}{25+x}$. From $\dfrac{575+15x}{25+x}=20$ we get $575+15x=500+20x$, so $x=15$.
+We have $\angle A+\angle B=360^\circ-60^\circ-90^\circ=210^\circ$. Since $\angle A=\angle B$, each angle equals $210^\circ\div2=105^\circ$.
 
-**Answer.** $x=15$.
+So $\angle A=\angle B=105^\circ$.
+
+**Answer.** $\angle A=\angle B=105^\circ$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Doanh thu mỗi ngày (triệu đồng) của một cửa hàng trong $30$ ngày được ghép nhóm: $[10; 15)$ có $4$ ngày, $[15; 20)$ có $9$ ngày, $[20; 25)$ có $10$ ngày, $[25; 30)$ có $5$ ngày, $[30; 35)$ có $2$ ngày. Xét tính đúng sai của các mệnh đề sau:
-
-a) $Q_1$ thuộc nhóm $[15; 20)$.
-
-b) Trung vị $M_e=21$.
-
-c) Số trung bình ước lượng là $\bar{x}\approx21{,}17$.
-
-d) Mốt $M_o=22{,}5$.
+Giả sử một sân hình tứ giác $ABCD$ có $\widehat{A}=90^\circ$, $\widehat{B}=90^\circ$ và $\widehat{C}=105^\circ$ (theo bản vẽ). Tính góc $\widehat{D}$ của sân.
 
 [LỜI GIẢI CŨ – VI]
-a) **Đúng**: $C_1=4<7{,}5\le C_2=13$, nên $Q_1\in[15; 20)$.
+Ta có $\widehat{D}=360^\circ-(90^\circ+90^\circ+105^\circ)=360^\circ-285^\circ=75^\circ$.
 
-b) **Đúng**: $M_e=20+\dfrac{15-13}{10}\cdot5=21$.
+Vậy $\widehat{D}=75^\circ$.
 
-c) **Đúng**: $\bar{x}=\dfrac{12{,}5\cdot4+17{,}5\cdot9+22{,}5\cdot10+27{,}5\cdot5+32{,}5\cdot2}{30}=\dfrac{635}{30}\approx21{,}17$.
-
-d) **Sai**: $M_o=20+\dfrac{10-9}{(10-9)+(10-5)}\cdot5\approx20{,}83$; $22{,}5$ chỉ là giá trị đại diện của nhóm.
-
-**Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+**Đáp số.** $75^\circ$.
 
 [ĐỀ – EN]
-The daily takings (in millions of dong) of a shop over $30$ days are grouped: $[10, 15)$ has $4$ days, $[15, 20)$ has $9$ days, $[20, 25)$ has $10$ days, $[25, 30)$ has $5$ days, $[30, 35)$ has $2$ days. Decide whether each statement is true or false.
-
-a) $Q_1$ lies in the class $[15, 20)$.
-
-b) The median is $M_e=21$.
-
-c) The estimated mean is $\bar{x}\approx21.17$.
-
-d) The mode is $M_o=22.5$.
+Suppose a yard is a quadrilateral $ABCD$ with $\angle A=90^\circ$, $\angle B=90^\circ$ and $\angle C=105^\circ$ (from the plan). Find the angle $\angle D$ of the yard.
 
 [LỜI GIẢI CŨ – EN]
-a) **True**: $C_1=4<7.5\le C_2=13$, so $Q_1\in[15, 20)$.
+We have $\angle D=360^\circ-(90^\circ+90^\circ+105^\circ)=360^\circ-285^\circ=75^\circ$.
 
-b) **True**: $M_e=20+\dfrac{15-13}{10}\cdot5=21$.
+So $\angle D=75^\circ$.
 
-c) **True**: $\bar{x}=\dfrac{12.5\cdot4+17.5\cdot9+22.5\cdot10+27.5\cdot5+32.5\cdot2}{30}=\dfrac{635}{30}\approx21.17$.
-
-d) **False**: $M_o=20+\dfrac{10-9}{(10-9)+(10-5)}\cdot5\approx20.83$; $22.5$ is only the representative value of the class.
-
-**Answer.** a) True; b) True; c) True; d) False.
+**Answer.** $75^\circ$.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Một mẫu số liệu ghép nhóm cỡ $40$ có tần số tích luỹ của nhóm $[10; 20)$ là $12$ và nhóm $[20; 30)$ có tần số $16$. Ước lượng trung vị.
+Giả sử một chiếc diều có hình tứ giác với hai góc ở hai bên đều bằng $105^\circ$ và góc ở đỉnh phía trên bằng $60^\circ$. Tính góc ở đỉnh phía dưới.
 
 [LỜI GIẢI CŨ – VI]
-Ta có $a_p=20$, $C_{p-1}=12$, $m_p=16$ và $h=10$. Do đó $M_e=20+\dfrac{20-12}{16}\cdot10=25$.
+Tổng ba góc đã biết là $105^\circ+105^\circ+60^\circ=270^\circ$. Góc ở đỉnh phía dưới là $360^\circ-270^\circ=90^\circ$.
 
-**Đáp số.** $M_e=25$.
-
-[ĐỀ – EN]
-A grouped data set of size $40$ has cumulative frequency $12$ for the class $[10, 20)$, and the class $[20, 30)$ has frequency $16$. Estimate the median.
-
-[LỜI GIẢI CŨ – EN]
-We have $a_p=20$, $C_{p-1}=12$, $m_p=16$ and $h=10$. Hence $M_e=20+\dfrac{20-12}{16}\cdot10=25$.
-
-**Answer.** $M_e=25$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Dùng tần số tương đối của bảng thời gian đi học ở bài trước ($15\%$, $35\%$, $30\%$, $15\%$, $5\%$) và các giá trị đại diện $5, 15, 25, 35, 45$ để tính lại số trung bình theo công thức $\bar{x}=f_1c_1+\dots+f_kc_k$.
-
-[LỜI GIẢI CŨ – VI]
-$\bar{x}=0{,}15\cdot5+0{,}35\cdot15+0{,}30\cdot25+0{,}15\cdot35+0{,}05\cdot45=0{,}75+5{,}25+7{,}5+5{,}25+2{,}25=21$.
-
-**Đáp số.** $\bar{x}=21$ phút, cùng kết quả với cách tính bằng tần số.
-
-[ĐỀ – EN]
-Use the relative frequencies of the journey-time table of the previous lesson ($15\%$, $35\%$, $30\%$, $15\%$, $5\%$) and the representative values $5, 15, 25, 35, 45$ to find the mean again by the formula $\bar{x}=f_1c_1+\dots+f_kc_k$.
-
-[LỜI GIẢI CŨ – EN]
-$\bar{x}=0.15\cdot5+0.35\cdot15+0.30\cdot25+0.15\cdot35+0.05\cdot45=0.75+5.25+7.5+5.25+2.25=21$.
-
-**Answer.** $\bar{x}=21$ minutes, the same result as with the frequencies.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Một mẫu số liệu ghép nhóm có $k$ nhóm cùng độ rộng $h$, tất cả có cùng tần số. Chứng minh số trung bình ước lượng bằng trung điểm của đoạn $[a_1; a_{k+1}]$, với $a_1$ là đầu mút trái của nhóm đầu và $a_{k+1}$ là đầu mút phải của nhóm cuối.
-
-[LỜI GIẢI CŨ – VI]
-Vì mỗi nhóm có tần số $m$ nên $n=km$ và $\bar{x}=\dfrac{m(c_1+\dots+c_k)}{km}=\dfrac{c_1+\dots+c_k}{k}$. Các $c_i$ lập cấp số cộng nên $c_1+\dots+c_k=\dfrac{k(c_1+c_k)}{2}$, suy ra $\bar{x}=\dfrac{c_1+c_k}{2}=\dfrac{\left(a_1+\frac h2\right)+\left(a_{k+1}-\frac h2\right)}{2}=\dfrac{a_1+a_{k+1}}{2}$.
-
-**Đáp số.** $\bar{x}=\dfrac{a_1+a_{k+1}}{2}$, trung điểm của $[a_1; a_{k+1}]$.
-
-[ĐỀ – EN]
-Grouped data have $k$ classes of the same width $h$, all with the same frequency. Prove that the estimated mean is the midpoint of the interval $[a_1, a_{k+1}]$, where $a_1$ is the lower boundary of the first class and $a_{k+1}$ the upper boundary of the last class.
-
-[LỜI GIẢI CŨ – EN]
-Since each class has frequency $m$, $n=km$ and $\bar{x}=\dfrac{m(c_1+\dots+c_k)}{km}=\dfrac{c_1+\dots+c_k}{k}$. The $c_i$ form an arithmetic progression, so $c_1+\dots+c_k=\dfrac{k(c_1+c_k)}{2}$, and hence $\bar{x}=\dfrac{c_1+c_k}{2}=\dfrac{\left(a_1+\frac h2\right)+\left(a_{k+1}-\frac h2\right)}{2}=\dfrac{a_1+a_{k+1}}{2}$.
-
-**Answer.** $\bar{x}=\dfrac{a_1+a_{k+1}}{2}$, the midpoint of $[a_1, a_{k+1}]$.
-
-
-######################################################################
-@@@ g11/grouped-data
-Bài học: Mẫu số liệu ghép nhóm / Grouped data
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Chiều cao (cm) của $20$ bạn: $152, 158, 161, 165, 149, 170, 155, 162, 168, 157, 160, 173, 154, 163, 166, 159, 151, 164, 169, 156$. Lập bảng tần số ghép nhóm với các nhóm $[145; 150)$, $[150; 155)$, $[155; 160)$, $[160; 165)$, $[165; 170)$, $[170; 175)$.
-
-[LỜI GIẢI CŨ – VI]
-Đếm từng nhóm ta được các tần số $1, 3, 5, 5, 4, 2$; chẳng hạn nhóm $[150; 155)$ gồm $152, 154, 151$. Tổng $1+3+5+5+4+2=20$.
-
-**Đáp số.** Các tần số là $1, 3, 5, 5, 4, 2$.
-
-[ĐỀ – EN]
-The heights (in cm) of $20$ students are $152, 158, 161, 165, 149, 170, 155, 162, 168, 157, 160, 173, 154, 163, 166, 159, 151, 164, 169, 156$. Build a grouped frequency table with the classes $[145, 150)$, $[150, 155)$, $[155, 160)$, $[160, 165)$, $[165, 170)$, $[170, 175)$.
-
-[LỜI GIẢI CŨ – EN]
-Counting class by class gives the frequencies $1, 3, 5, 5, 4, 2$; for example the class $[150, 155)$ contains $152, 154, 151$. The total is $1+3+5+5+4+2=20$.
-
-**Answer.** The frequencies are $1, 3, 5, 5, 4, 2$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Cho mẫu số liệu ghép nhóm cỡ $50$ về chiều cao (cm): $[140; 150)$ có $5$, $[150; 160)$ có $12$, $[160; 170)$ có $18$, $[170; 180)$ có $10$, $[180; 190)$ có $5$ người. Tính tần số tương đối và tần số tích luỹ của từng nhóm.
-
-[LỜI GIẢI CŨ – VI]
-Tần số tương đối: $\dfrac{5}{50}=10\%$, $\dfrac{12}{50}=24\%$, $\dfrac{18}{50}=36\%$, $\dfrac{10}{50}=20\%$, $\dfrac{5}{50}=10\%$ (tổng $100\%$). Tần số tích luỹ: $5$, $5+12=17$, $17+18=35$, $35+10=45$, $45+5=50$.
-
-**Đáp số.** Tần số tương đối: $10\%, 24\%, 36\%, 20\%, 10\%$; tần số tích luỹ: $5, 17, 35, 45, 50$.
-
-[ĐỀ – EN]
-Grouped heights (in cm) of a sample of size $50$: $[140, 150)$ has $5$, $[150, 160)$ has $12$, $[160, 170)$ has $18$, $[170, 180)$ has $10$, $[180, 190)$ has $5$ people. Find the relative frequency and cumulative frequency of each class.
-
-[LỜI GIẢI CŨ – EN]
-Relative frequencies: $\dfrac{5}{50}=10\%$, $\dfrac{12}{50}=24\%$, $\dfrac{18}{50}=36\%$, $\dfrac{10}{50}=20\%$, $\dfrac{5}{50}=10\%$ (total $100\%$). Cumulative frequencies: $5$, $5+12=17$, $17+18=35$, $35+10=45$, $45+5=50$.
-
-**Answer.** Relative frequencies: $10\%, 24\%, 36\%, 20\%, 10\%$; cumulative frequencies: $5, 17, 35, 45, 50$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Hai bảng ghép nhóm cân nặng (kg) sau có lỗi. Hãy chỉ ra lỗi và sửa lại. a) $[40; 45)$, $[45; 50]$, $[50; 55)$, $[55; 60)$. b) $[40; 45)$, $[45; 50)$, $[55; 60)$, $[60; 65)$.
-
-[LỜI GIẢI CŨ – VI]
-a) Nhóm $[45; 50]$ chứa cả $50$, mà $50$ cũng thuộc $[50; 55)$ nên bị đếm hai lần: chồng lấn. Sửa thành $[45; 50)$. b) Thiếu nhóm $[50; 55)$: các số liệu từ $50$ đến dưới $55$ không thuộc nhóm nào. Sửa bằng cách thêm nhóm $[50; 55)$.
-
-**Đáp số.** a) Chồng lấn tại $50$; sửa $[45; 50)$. b) Thiếu $[50; 55)$; thêm nhóm này.
-
-[ĐỀ – EN]
-Each of the following grouped tables of weights (in kg) has an error. Point out the error and correct it. a) $[40, 45)$, $[45, 50]$, $[50, 55)$, $[55, 60)$. b) $[40, 45)$, $[45, 50)$, $[55, 60)$, $[60, 65)$.
-
-[LỜI GIẢI CŨ – EN]
-a) The class $[45, 50]$ contains $50$, and $50$ also belongs to $[50, 55)$, so it is counted twice: the classes overlap. Correct it to $[45, 50)$. b) The class $[50, 55)$ is missing: values from $50$ up to but not including $55$ belong to no class. Correct it by adding the class $[50, 55)$.
-
-**Answer.** a) Overlap at $50$; correct to $[45, 50)$. b) $[50, 55)$ is missing; add this class.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Giả sử lượng nước sinh hoạt tiêu thụ mỗi tháng ($\text{m}^3$) của $50$ hộ gia đình được ghép nhóm: $[0; 5)$ có $4$ hộ, $[5; 10)$ có $16$ hộ, $[10; 15)$ có $18$ hộ, $[15; 20)$ có $9$ hộ, $[20; 25)$ có $3$ hộ. Có bao nhiêu phần trăm số hộ dùng dưới $15\ \text{m}^3$ một tháng?
-
-[LỜI GIẢI CŨ – VI]
-Số hộ dùng dưới $15\ \text{m}^3$ là $4+16+18=38$, chiếm $\dfrac{38}{50}\cdot100\%=76\%$.
-
-**Đáp số.** $76\%$.
-
-[ĐỀ – EN]
-Suppose the monthly household water use (in $\text{m}^3$) of $50$ households is grouped as: $[0, 5)$ has $4$ households, $[5, 10)$ has $16$, $[10, 15)$ has $18$, $[15, 20)$ has $9$, $[20, 25)$ has $3$. What percentage of the households use less than $15\ \text{m}^3$ a month?
-
-[LỜI GIẢI CŨ – EN]
-The number of households using less than $15\ \text{m}^3$ is $4+16+18=38$, which is $\dfrac{38}{50}\cdot100\%=76\%$.
-
-**Answer.** $76\%$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Chiều cao của $40$ bạn được ghép nhóm: $[150; 155)$ có $4$, $[155; 160)$ có $10$, $[160; 165)$ có $14$, $[165; 170)$ có $9$, $[170; 175)$ có $3$ bạn. a) Viết giá trị đại diện của từng nhóm. b) Giả sử các bạn trong mỗi nhóm có chiều cao phân bố đều, hãy ước lượng số bạn cao dưới $162{,}5$ cm.
-
-[LỜI GIẢI CŨ – VI]
-a) Các giá trị đại diện là $152{,}5$, $157{,}5$, $162{,}5$, $167{,}5$, $172{,}5$. b) Các nhóm $[150; 155)$ và $[155; 160)$ nằm hoàn toàn dưới $162{,}5$ cm, có $4+10=14$ bạn. Nửa dưới của nhóm $[160; 165)$ có khoảng $\dfrac{14}{2}=7$ bạn. Vậy ước lượng là $14+7=21$ bạn.
-
-**Đáp số.** a) $152{,}5; 157{,}5; 162{,}5; 167{,}5; 172{,}5$; b) khoảng $21$ bạn.
-
-[ĐỀ – EN]
-The heights of $40$ students are grouped: $[150, 155)$ has $4$, $[155, 160)$ has $10$, $[160, 165)$ has $14$, $[165, 170)$ has $9$, $[170, 175)$ has $3$ students. a) Write the representative value of each class. b) Assuming that the heights in each class are spread evenly, estimate the number of students shorter than $162.5$ cm.
-
-[LỜI GIẢI CŨ – EN]
-a) The representative values are $152.5$, $157.5$, $162.5$, $167.5$, $172.5$. b) The classes $[150, 155)$ and $[155, 160)$ lie entirely below $162.5$ cm and contain $4+10=14$ students. The lower half of the class $[160, 165)$ contains about $\dfrac{14}{2}=7$ students. So the estimate is $14+7=21$ students.
-
-**Answer.** a) $152.5; 157.5; 162.5; 167.5; 172.5$; b) about $21$ students.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Cho bảng thời gian đi học ở bài ($[0; 10)$: $6$; $[10; 20)$: $14$; $[20; 30)$: $12$; $[30; 40)$: $6$; $[40; 50)$: $2$). Xét tính đúng sai của các mệnh đề sau:
-
-a) Nhóm $[10; 20)$ có tần số lớn nhất.
-
-b) Tần số tương đối của nhóm $[20; 30)$ là $12\%$.
-
-c) Có đúng $20$ bạn đi chưa đến $20$ phút.
-
-d) Tần số tích luỹ của nhóm $[30; 40)$ là $38$.
-
-[LỜI GIẢI CŨ – VI]
-a) **Đúng**: tần số lớn nhất là $14$.
-
-b) **Sai**: $\dfrac{12}{40}\cdot100\%=30\%$; $12$ là tần số, không phải tần số tương đối.
-
-c) **Đúng**: $6+14=20$.
-
-d) **Đúng**: $6+14+12+6=38$.
-
-**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
-
-[ĐỀ – EN]
-Take the journey-time table from the lesson ($[0, 10)$: $6$; $[10, 20)$: $14$; $[20, 30)$: $12$; $[30, 40)$: $6$; $[40, 50)$: $2$). Decide whether each statement is true or false.
-
-a) The class $[10, 20)$ has the greatest frequency.
-
-b) The relative frequency of the class $[20, 30)$ is $12\%$.
-
-c) Exactly $20$ students take less than $20$ minutes.
-
-d) The cumulative frequency of the class $[30, 40)$ is $38$.
-
-[LỜI GIẢI CŨ – EN]
-a) **True**: the greatest frequency is $14$.
-
-b) **False**: $\dfrac{12}{40}\cdot100\%=30\%$; $12$ is the frequency, not the relative frequency.
-
-c) **True**: $6+14=20$.
-
-d) **True**: $6+14+12+6=38$.
-
-**Answer.** a) True; b) False; c) True; d) True.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Một mẫu số liệu ghép nhóm cỡ $50$ có các tần số tích luỹ của năm nhóm liên tiếp lần lượt là $5, 17, 38, 46, 50$. Tính tần số của nhóm thứ ba.
-
-[LỜI GIẢI CŨ – VI]
-Tần số của nhóm thứ ba là $38-17=21$.
-
-**Đáp số.** $21$.
-
-[ĐỀ – EN]
-A grouped data set of size $50$ has cumulative frequencies $5, 17, 38, 46, 50$ for five consecutive classes. Find the frequency of the third class.
-
-[LỜI GIẢI CŨ – EN]
-The frequency of the third class is $38-17=21$.
-
-**Answer.** $21$.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Chứng minh rằng nếu các nhóm của một mẫu số liệu ghép nhóm có cùng độ rộng $h$ thì các giá trị đại diện của chúng lập thành một cấp số cộng có công sai $h$.
-
-[LỜI GIẢI CŨ – VI]
-Giá trị đại diện của nhóm thứ $i$ là $c_i=\dfrac{a_i+(a_i+h)}{2}=a_i+\dfrac h2$. Nhóm kế tiếp bắt đầu từ $a_i+h$ nên $c_{i+1}=a_i+h+\dfrac h2$. Do đó $c_{i+1}-c_i=h$ không đổi, nên $(c_i)$ là cấp số cộng có công sai $h$.
-
-**Đáp số.** Các giá trị đại diện lập thành cấp số cộng công sai $h$.
-
-[ĐỀ – EN]
-Prove that if the classes of a grouped data set all have the same width $h$, then their representative values form an arithmetic progression with common difference $h$.
-
-[LỜI GIẢI CŨ – EN]
-The representative value of class $i$ is $c_i=\dfrac{a_i+(a_i+h)}{2}=a_i+\dfrac h2$. The next class starts at $a_i+h$, so $c_{i+1}=a_i+h+\dfrac h2$. Hence $c_{i+1}-c_i=h$ is constant, so $(c_i)$ is an arithmetic progression with common difference $h$.
-
-**Answer.** The representative values form an arithmetic progression with common difference $h$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Một bảng tần số ghép nhóm có năm nhóm $[0; 10)$, $[10; 20)$, $[20; 30)$, $[30; 40)$, $[40; 50)$ bị mờ một số ô. Biết nhóm $[0; 10)$ có tần số $4$, nhóm $[20; 30)$ có tần số $18$ và tần số tương đối $36\%$, nhóm $[40; 50)$ có tần số $3$, và tần số tích luỹ của nhóm $[10; 20)$ là $14$. Tìm cỡ mẫu và tần số của nhóm $[10; 20)$ và nhóm $[30; 40)$.
-
-[LỜI GIẢI CŨ – VI]
-Từ $\dfrac{18}{n}=0{,}36$ ta có $n=50$. Tần số tích luỹ của nhóm $[10; 20)$ là $4+m_2=14$ nên $m_2=10$. Tổng các tần số bằng $50$ nên $m_4=50-(4+10+18+3)=15$.
-
-**Đáp số.** $n=50$; nhóm $[10; 20)$ có $10$; nhóm $[30; 40)$ có $15$.
-
-[ĐỀ – EN]
-A grouped frequency table has five classes $[0, 10)$, $[10, 20)$, $[20, 30)$, $[30, 40)$, $[40, 50)$ and some cells are smudged. We know that the class $[0, 10)$ has frequency $4$, the class $[20, 30)$ has frequency $18$ and relative frequency $36\%$, the class $[40, 50)$ has frequency $3$, and the cumulative frequency of the class $[10, 20)$ is $14$. Find the sample size and the frequencies of the classes $[10, 20)$ and $[30, 40)$.
-
-[LỜI GIẢI CŨ – EN]
-From $\dfrac{18}{n}=0.36$ we get $n=50$. The cumulative frequency of $[10, 20)$ is $4+m_2=14$, so $m_2=10$. The frequencies add up to $50$, so $m_4=50-(4+10+18+3)=15$.
-
-**Answer.** $n=50$; the class $[10, 20)$ has $10$; the class $[30, 40)$ has $15$.
-
-
-######################################################################
-@@@ g11/line-perpendicular-plane
-Bài học: Đường thẳng vuông góc với mặt phẳng / A line perpendicular to a plane
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Cho hình lập phương $ABCD.A'B'C'D'$. Chứng minh:
-
-a) $AA'\perp(ABCD)$.
-
-b) $BD\perp(ACC'A')$.
-
-c) $A'C'\perp(BDD'B')$.
-
-[LỜI GIẢI CŨ – VI]
-a) $AA'\perp AB$ và $AA'\perp AD$ (các mặt bên là hình vuông), $AB$, $AD$ cắt nhau tại $A$ trong $(ABCD)$ nên $AA'\perp(ABCD)$.
-
-b) $BD\perp AC$ (hai đường chéo hình vuông) và $BD\perp AA'$ (do $AA'\perp(ABCD)$). $AC$, $AA'$ cắt nhau trong $(ACC'A')$ nên $BD\perp(ACC'A')$.
-
-c) Tương tự, $AC\perp BD$ và $AC\perp BB'$ nên $AC\perp(BDD'B')$. Vì $A'C'\parallel AC$ nên $A'C'\perp(BDD'B')$.
-
-**Đáp số.** Cả ba mệnh đề đều đúng.
-
-[ĐỀ – EN]
-In the cube $ABCD.A'B'C'D'$, prove that:
-
-a) $AA'\perp(ABCD)$.
-
-b) $BD\perp(ACC'A')$.
-
-c) $A'C'\perp(BDD'B')$.
-
-[LỜI GIẢI CŨ – EN]
-a) $AA'\perp AB$ and $AA'\perp AD$ (the side faces are squares), and $AB$, $AD$ intersect at $A$ in $(ABCD)$, so $AA'\perp(ABCD)$.
-
-b) $BD\perp AC$ (diagonals of a square) and $BD\perp AA'$ (since $AA'\perp(ABCD)$). $AC$, $AA'$ intersect in $(ACC'A')$, so $BD\perp(ACC'A')$.
-
-c) Similarly, $AC\perp BD$ and $AC\perp BB'$, so $AC\perp(BDD'B')$. Since $A'C'\parallel AC$, $A'C'\perp(BDD'B')$.
-
-**Answer.** All three statements are true.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật và $SA\perp(ABCD)$. Chứng minh $BC\perp(SAB)$ và $CD\perp(SAD)$.
-
-[LỜI GIẢI CŨ – VI]
-$BC\perp AB$ (hình chữ nhật) và $BC\perp SA$ (do $SA\perp(ABCD)$). $AB$, $SA$ cắt nhau tại $A$ trong $(SAB)$ nên $BC\perp(SAB)$.
-
-$CD\perp AD$ (hình chữ nhật) và $CD\perp SA$. $AD$, $SA$ cắt nhau tại $A$ trong $(SAD)$ nên $CD\perp(SAD)$.
-
-**Đáp số.** Hai mệnh đề đều được chứng minh.
-
-[ĐỀ – EN]
-The pyramid $S.ABCD$ has a rectangular base $ABCD$ and $SA\perp(ABCD)$. Prove that $BC\perp(SAB)$ and $CD\perp(SAD)$.
-
-[LỜI GIẢI CŨ – EN]
-$BC\perp AB$ (rectangle) and $BC\perp SA$ (since $SA\perp(ABCD)$). $AB$, $SA$ intersect at $A$ in $(SAB)$, so $BC\perp(SAB)$.
-
-$CD\perp AD$ (rectangle) and $CD\perp SA$. $AD$, $SA$ intersect at $A$ in $(SAD)$, so $CD\perp(SAD)$.
-
-**Answer.** Both statements are proved.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Cho hình chóp $S.ABC$ có $SA\perp(ABC)$, tam giác $ABC$ vuông tại $B$, $SA=3$, $AB=4$, $BC=5$. Chứng minh $BC\perp(SAB)$, rồi tính $SB$ và $SC$.
-
-[LỜI GIẢI CŨ – VI]
-$BC\perp AB$ và $BC\perp SA$ nên $BC\perp(SAB)$, suy ra $BC\perp SB$.
-
-Tam giác $SAB$ vuông tại $A$ nên $SB^2=9+16=25$, $SB=5$. Tam giác $SBC$ vuông tại $B$ nên $SC^2=SB^2+BC^2=25+25=50$, $SC=5\sqrt2$.
-
-**Đáp số.** $SB=5$; $SC=5\sqrt2$.
-
-[ĐỀ – EN]
-The pyramid $S.ABC$ has $SA\perp(ABC)$, triangle $ABC$ right-angled at $B$, $SA=3$, $AB=4$, $BC=5$. Prove that $BC\perp(SAB)$, then find $SB$ and $SC$.
-
-[LỜI GIẢI CŨ – EN]
-$BC\perp AB$ and $BC\perp SA$, so $BC\perp(SAB)$, hence $BC\perp SB$.
-
-Triangle $SAB$ is right-angled at $A$, so $SB^2=9+16=25$, $SB=5$. Triangle $SBC$ is right-angled at $B$, so $SC^2=SB^2+BC^2=25+25=50$, $SC=5\sqrt2$.
-
-**Answer.** $SB=5$; $SC=5\sqrt2$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Xét tính đúng sai của các mệnh đề sau. Cho hình chóp $S.ABCD$, đáy $ABCD$ là hình vuông, $SA\perp(ABCD)$.
-
-a) $AC\perp(SBD)$.
-
-b) $BD\perp(SAC)$.
-
-c) $AD\perp(SCD)$.
-
-d) $BC\perp(SAB)$.
-
-[LỜI GIẢI CŨ – VI]
-a) **Sai**: $AC\perp BD$ nhưng $AC$ không vuông góc với $SD$ (hoặc $SB$).
-
-b) **Đúng**: $BD\perp AC$ và $BD\perp SA$.
-
-c) **Sai**: $AD\perp CD$ nhưng $AD$ không vuông góc với $SD$ (vì $SA\perp AD$ và $SA\neq0$ nên góc $SDA$ không vuông).
-
-d) **Đúng**: $BC\perp AB$ và $BC\perp SA$.
-
-**Đáp số.** a) Sai; b) Đúng; c) Sai; d) Đúng.
-
-[ĐỀ – EN]
-Decide whether each statement is true or false. The pyramid $S.ABCD$ has a square base $ABCD$ and $SA\perp(ABCD)$.
-
-a) $AC\perp(SBD)$.
-
-b) $BD\perp(SAC)$.
-
-c) $AD\perp(SCD)$.
-
-d) $BC\perp(SAB)$.
-
-[LỜI GIẢI CŨ – EN]
-a) **False**: $AC\perp BD$ but $AC$ is not perpendicular to $SD$ (or $SB$).
-
-b) **True**: $BD\perp AC$ and $BD\perp SA$.
-
-c) **False**: $AD\perp CD$ but $AD$ is not perpendicular to $SD$ (since $SA\perp AD$ and $SA\neq0$, angle $SDA$ is not right).
-
-d) **True**: $BC\perp AB$ and $BC\perp SA$.
-
-**Answer.** a) False; b) True; c) False; d) True.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Giả sử một cột $SO$ có chân $O$ trên sân phẳng, hai điểm $B$, $C$ trên sân sao cho $O$, $B$, $C$ không thẳng hàng. Đo được $SO=9$ m, $OB=12$ m, $SB=15$ m, $OC=40$ m, $SC=41$ m (số liệu giả định). Cột có vuông góc với mặt sân không? Giải thích.
-
-[LỜI GIẢI CŨ – VI]
-$SO^2+OB^2=81+144=225=SB^2$ nên $SO\perp OB$. $SO^2+OC^2=81+1600=1681=SC^2$ nên $SO\perp OC$. $OB$, $OC$ cắt nhau tại $O$ nên $SO\perp(\text{sân})$.
-
-**Đáp số.** Có, cột vuông góc với mặt sân.
-
-[ĐỀ – EN]
-Suppose a pole $SO$ has its foot $O$ on a flat yard, and $B$, $C$ are points of the yard with $O$, $B$, $C$ not collinear. The measurements are $SO=9$ m, $OB=12$ m, $SB=15$ m, $OC=40$ m, $SC=41$ m (assumed figures). Is the pole perpendicular to the yard? Explain.
-
-[LỜI GIẢI CŨ – EN]
-$SO^2+OB^2=81+144=225=SB^2$, so $SO\perp OB$. $SO^2+OC^2=81+1600=1681=SC^2$, so $SO\perp OC$. $OB$, $OC$ intersect at $O$, so $SO\perp(\text{yard})$.
-
-**Answer.** Yes, the pole is perpendicular to the yard.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Giả sử một căn phòng hình hộp chữ nhật $ABCD.A'B'C'D'$ có sàn $ABCD$ với $AB=6$ m, $AD=4$ m và cao $AA'=3$ m (số liệu giả định). Người ta căng một sợi dây từ góc trần $A'$ xuống góc sàn $C$. Tính độ dài sợi dây (làm tròn đến hàng phần mười của mét).
-
-[LỜI GIẢI CŨ – VI]
-$AC^2=6^2+4^2=52$. Vì $AA'\perp(ABCD)$ nên $AA'\perp AC$, tam giác $A'AC$ vuông tại $A$ và
-$$A'C^2=AA'^2+AC^2=9+52=61\Rightarrow A'C=\sqrt{61}\approx7{,}8.$$
-
-**Đáp số.** Khoảng $7{,}8$ m.
-
-[ĐỀ – EN]
-Suppose a room is a cuboid $ABCD.A'B'C'D'$ whose floor $ABCD$ has $AB=6$ m, $AD=4$ m, and whose height is $AA'=3$ m (assumed figures). A cable is stretched from the ceiling corner $A'$ to the floor corner $C$. Find the length of the cable (to the nearest tenth of a metre).
-
-[LỜI GIẢI CŨ – EN]
-$AC^2=6^2+4^2=52$. Since $AA'\perp(ABCD)$, $AA'\perp AC$, triangle $A'AC$ is right-angled at $A$ and
-$$A'C^2=AA'^2+AC^2=9+52=61\Rightarrow A'C=\sqrt{61}\approx7.8.$$
-
-**Answer.** About $7.8$ m.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Giả sử một mái chóp có dạng hình chóp $S.ABCD$ với đáy $ABCD$ là hình vuông cạnh $6$ m, các cạnh bên $SA=SB=SC=SD=5$ m (số liệu giả định). Gọi $O$ là tâm của hình vuông. Chứng minh $SO\perp(ABCD)$ và tính chiều cao $SO$ (làm tròn đến hàng phần mười của mét).
-
-[LỜI GIẢI CŨ – VI]
-Tam giác $SAC$ cân tại $S$ có $SO$ là trung tuyến ($O$ là trung điểm $AC$) nên $SO\perp AC$. Tương tự $SO\perp BD$. $AC$, $BD$ cắt nhau tại $O$ nên $SO\perp(ABCD)$.
-
-$AC=6\sqrt2$ nên $OA=3\sqrt2$ và $OA^2=18$. Tam giác $SOA$ vuông tại $O$ nên $SO^2=SA^2-OA^2=25-18=7$, $SO=\sqrt7\approx2{,}6$.
-
-**Đáp số.** $SO\perp(ABCD)$; $SO\approx2{,}6$ m.
-
-[ĐỀ – EN]
-Suppose a roof is shaped like a pyramid $S.ABCD$ whose base $ABCD$ is a square of side $6$ m and whose lateral edges are $SA=SB=SC=SD=5$ m (assumed figures). Let $O$ be the centre of the square. Prove that $SO\perp(ABCD)$ and find the height $SO$ (to the nearest tenth of a metre).
-
-[LỜI GIẢI CŨ – EN]
-Triangle $SAC$ is isosceles at $S$ and $SO$ is a median ($O$ is the midpoint of $AC$), so $SO\perp AC$. Similarly $SO\perp BD$. $AC$, $BD$ intersect at $O$, so $SO\perp(ABCD)$.
-
-$AC=6\sqrt2$, so $OA=3\sqrt2$ and $OA^2=18$. Triangle $SOA$ is right-angled at $O$, so $SO^2=SA^2-OA^2=25-18=7$, $SO=\sqrt7\approx2.6$.
-
-**Answer.** $SO\perp(ABCD)$; $SO\approx2.6$ m.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Ôn lại góc giữa hai đường thẳng. Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông, $SA\perp(ABCD)$. Tính góc giữa hai đường thẳng $SC$ và $BD$.
-
-[LỜI GIẢI CŨ – VI]
-$BD\perp AC$ và $BD\perp SA$ nên $BD\perp(SAC)$. Vì $SC\subset(SAC)$ nên $BD\perp SC$, tức góc giữa $SC$ và $BD$ bằng $90^\circ$.
+Vậy góc ở đỉnh phía dưới là $90^\circ$.
 
 **Đáp số.** $90^\circ$.
 
 [ĐỀ – EN]
-Revisit the angle between two lines. The pyramid $S.ABCD$ has a square base $ABCD$ and $SA\perp(ABCD)$. Find the angle between the lines $SC$ and $BD$.
+Suppose a kite is a quadrilateral whose two side angles are both $105^\circ$ and whose top angle is $60^\circ$. Find the angle at the bottom.
 
 [LỜI GIẢI CŨ – EN]
-$BD\perp AC$ and $BD\perp SA$, so $BD\perp(SAC)$. Since $SC\subset(SAC)$, $BD\perp SC$, that is the angle between $SC$ and $BD$ is $90^\circ$.
+The three known angles add up to $105^\circ+105^\circ+60^\circ=270^\circ$. The angle at the bottom is $360^\circ-270^\circ=90^\circ$.
+
+So the angle at the bottom is $90^\circ$.
 
 **Answer.** $90^\circ$.
 
-=== Bài 9 ===
+
+######################################################################
+@@@ g8/rectangles
+Bài học: Hình chữ nhật / Rectangles
+Cần viết lại lời giải các bài: 2, 5, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 2 ===
 [ĐỀ – VI]
-Cho tứ diện $ABCD$ có $AB=AC$ và $DB=DC$. Chứng minh $AD\perp BC$.
+Hình chữ nhật $ABCD$ có hai đường chéo cắt nhau tại $O$ và $\widehat{OAB}=40^\circ$. Tính $\widehat{AOB}$ và $\widehat{BOC}$.
 
 [LỜI GIẢI CŨ – VI]
-Gọi $M$ là trung điểm $BC$. Tam giác $ABC$ cân tại $A$ nên $AM\perp BC$. Tam giác $DBC$ cân tại $D$ nên $DM\perp BC$. $AM$, $DM$ cắt nhau tại $M$ trong $(ADM)$ nên $BC\perp(ADM)$. Vì $AD\subset(ADM)$ nên $BC\perp AD$.
+Tam giác $OAB$ cân tại $O$ nên $\widehat{OBA}=\widehat{OAB}=40^\circ$. Do đó $\widehat{AOB}=180^\circ-2\cdot40^\circ=100^\circ$. Hai góc $\widehat{AOB}$ và $\widehat{BOC}$ kề bù nên $\widehat{BOC}=80^\circ$.
 
-**Đáp số.** $AD\perp BC$.
+Vậy $\widehat{AOB}=100^\circ$ và $\widehat{BOC}=80^\circ$.
+
+**Đáp số.** $\widehat{AOB}=100^\circ$; $\widehat{BOC}=80^\circ$.
 
 [ĐỀ – EN]
-The tetrahedron $ABCD$ has $AB=AC$ and $DB=DC$. Prove that $AD\perp BC$.
+The rectangle $ABCD$ has diagonals meeting at $O$ and $\angle OAB=40^\circ$. Find $\angle AOB$ and $\angle BOC$.
 
 [LỜI GIẢI CŨ – EN]
-Let $M$ be the midpoint of $BC$. Triangle $ABC$ is isosceles at $A$, so $AM\perp BC$. Triangle $DBC$ is isosceles at $D$, so $DM\perp BC$. $AM$, $DM$ intersect at $M$ in $(ADM)$, so $BC\perp(ADM)$. Since $AD\subset(ADM)$, $BC\perp AD$.
+Triangle $OAB$ is isosceles at $O$, so $\angle OBA=\angle OAB=40^\circ$. Hence $\angle AOB=180^\circ-2\cdot40^\circ=100^\circ$. The angles $\angle AOB$ and $\angle BOC$ are supplementary, so $\angle BOC=80^\circ$.
 
-**Answer.** $AD\perp BC$.
+So $\angle AOB=100^\circ$ and $\angle BOC=80^\circ$.
+
+**Answer.** $\angle AOB=100^\circ$; $\angle BOC=80^\circ$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hình bình hành $ABCD$ có hai đường chéo bằng nhau, $AC=BD$. Chứng minh rằng $ABCD$ là hình chữ nhật.
+
+[LỜI GIẢI CŨ – VI]
+Xét hai tam giác $ABC$ và $DCB$. Ta có $AB=DC$ (cạnh đối của hình bình hành), $BC$ chung và $AC=DB$ (giả thiết). Do đó $\triangle ABC=\triangle DCB$ (cạnh - cạnh - cạnh), suy ra $\widehat{ABC}=\widehat{DCB}$.
+
+Vì $AB\parallel CD$ nên $\widehat{ABC}+\widehat{DCB}=180^\circ$. Kết hợp với $\widehat{ABC}=\widehat{DCB}$ ta được $\widehat{ABC}=90^\circ$.
+
+Hình bình hành $ABCD$ có một góc vuông nên là hình chữ nhật.
+
+**Đáp số.** $ABCD$ là hình chữ nhật.
+
+[ĐỀ – EN]
+The parallelogram $ABCD$ has equal diagonals, $AC=BD$. Prove that $ABCD$ is a rectangle.
+
+[LỜI GIẢI CŨ – EN]
+Consider the triangles $ABC$ and $DCB$. We have $AB=DC$ (opposite sides of a parallelogram), $BC$ is common and $AC=DB$ (given). Hence $\triangle ABC=\triangle DCB$ (side - side - side), so $\angle ABC=\angle DCB$.
+
+Since $AB\parallel CD$, we have $\angle ABC+\angle DCB=180^\circ$. Together with $\angle ABC=\angle DCB$ this gives $\angle ABC=90^\circ$.
+
+The parallelogram $ABCD$ has a right angle, so it is a rectangle.
+
+**Answer.** $ABCD$ is a rectangle.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Giả sử một màn hình hình chữ nhật rộng $80$ cm và cao $60$ cm. Tính độ dài đường chéo của màn hình, rồi đổi ra inch (biết $1$ inch $=2{,}54$ cm, làm tròn đến một chữ số thập phân).
+
+[LỜI GIẢI CŨ – VI]
+Đường chéo là $\sqrt{80^2+60^2}=\sqrt{10\,000}=100$ (cm). Đổi ra inch: $100:2{,}54\approx39{,}4$ (inch).
+
+Vậy đường chéo màn hình dài $100$ cm, khoảng $39{,}4$ inch.
+
+**Đáp số.** $100$ cm; khoảng $39{,}4$ inch.
+
+[ĐỀ – EN]
+Suppose a screen is a rectangle $80$ cm wide and $60$ cm high. Find the length of its diagonal, then convert it to inches (given $1$ inch $=2.54$ cm, rounded to one decimal place).
+
+[LỜI GIẢI CŨ – EN]
+The diagonal is $\sqrt{80^2+60^2}=\sqrt{10\,000}=100$ (cm). In inches: $100\div2.54\approx39.4$ (inches).
+
+So the diagonal of the screen is $100$ cm, about $39.4$ inches.
+
+**Answer.** $100$ cm; about $39.4$ inches.
+
+
+######################################################################
+@@@ g8/regular-triangular-pyramids
+Bài học: Hình chóp tam giác đều. Hình chóp tứ giác đều / Regular triangular pyramids. Regular square-based pyramids
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Mỗi khẳng định sau đúng hay sai?
+
+a) Hình chóp tam giác đều có ba mặt bên là ba tam giác đều.
+
+b) Chân đường cao của hình chóp tam giác đều là trọng tâm của tam giác đáy.
+
+c) Các cạnh bên của hình chóp tứ giác đều bằng nhau.
+
+d) Tứ diện đều là một hình chóp tam giác đều.
+
+[LỜI GIẢI CŨ – VI]
+a) **Sai**: các mặt bên là tam giác cân, không nhất thiết là tam giác đều.
+
+b) **Đúng**: chân đường cao là tâm của đáy, tức trọng tâm của tam giác đều.
+
+c) **Đúng**: mặt bên là những tam giác cân bằng nhau nên các cạnh bên bằng nhau.
+
+d) **Đúng**: tứ diện đều có đáy là tam giác đều và các cạnh bên bằng nhau (bằng cạnh đáy), nên chân đường cao là tâm của đáy.
+
+**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Đúng.
+
+[ĐỀ – EN]
+Is each statement true or false?
+
+a) A regular triangular pyramid has three equilateral lateral faces.
+
+b) The foot of the height of a regular triangular pyramid is the centroid of the base triangle.
+
+c) The lateral edges of a regular square-based pyramid are all equal.
+
+d) A regular tetrahedron is a regular triangular pyramid.
+
+[LỜI GIẢI CŨ – EN]
+a) **False**: the lateral faces are isosceles triangles, not necessarily equilateral.
+
+b) **True**: the foot of the height is the centre of the base, which is the centroid of the equilateral triangle.
+
+c) **True**: the lateral faces are equal isosceles triangles, so the lateral edges are equal.
+
+d) **True**: a regular tetrahedron has an equilateral base and equal lateral edges (equal to the base edge), so the foot of its height is the centre of the base.
+
+**Answer.** a) False; b) True; c) True; d) True.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho hình chóp tam giác đều có cạnh đáy $8$ cm và trung đoạn $3$ cm. Tính diện tích xung quanh.
+
+[LỜI GIẢI CŨ – VI]
+Nửa chu vi đáy là $p=\dfrac{3\cdot8}2=12$ cm. Diện tích xung quanh là $S_{xq}=12\cdot3=36$ cm².
+
+**Đáp số.** $36$ cm².
+
+[ĐỀ – EN]
+A regular triangular pyramid has base side $8$ cm and slant height $3$ cm. Find the lateral surface area.
+
+[LỜI GIẢI CŨ – EN]
+Half the perimeter of the base is $p=\dfrac{3\cdot8}2=12$ cm. The lateral surface area is $S_{\text{lat}}=12\cdot3=36$ cm².
+
+**Answer.** $36$ cm².
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho hình chóp tứ giác đều có cạnh đáy $8$ cm và trung đoạn $5$ cm. Tính diện tích xung quanh, diện tích toàn phần, chiều cao và thể tích.
+
+[LỜI GIẢI CŨ – VI]
+Nửa chu vi đáy là $p=\dfrac{4\cdot8}2=16$ cm nên $S_{xq}=16\cdot5=80$ cm² và $S_{tp}=80+8^2=144$ cm². Xét tam giác $SOM$ vuông tại $O$ có $OM=4$, $SM=5$, ta có $h=\sqrt{5^2-4^2}=3$ cm. Thể tích là $V=\dfrac13\cdot64\cdot3=64$ cm³.
+
+**Đáp số.** $S_{xq}=80$ cm²; $S_{tp}=144$ cm²; $h=3$ cm; $V=64$ cm³.
+
+[ĐỀ – EN]
+A regular square-based pyramid has base side $8$ cm and slant height $5$ cm. Find the lateral surface area, the total surface area, the height and the volume.
+
+[LỜI GIẢI CŨ – EN]
+Half the perimeter of the base is $p=\dfrac{4\cdot8}2=16$ cm, so $S_{\text{lat}}=16\cdot5=80$ cm² and $S_{\text{total}}=80+8^2=144$ cm². In triangle $SOM$, right-angled at $O$, with $OM=4$ and $SM=5$, we have $h=\sqrt{5^2-4^2}=3$ cm. The volume is $V=\dfrac13\cdot64\cdot3=64$ cm³.
+
+**Answer.** $S_{\text{lat}}=80$ cm²; $S_{\text{total}}=144$ cm²; $h=3$ cm; $V=64$ cm³.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho hình chóp tam giác đều $S.ABC$ có cạnh đáy $6$ cm và chiều cao $1$ cm. Tính độ dài cạnh bên $SA$ (làm tròn đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+Ta có $OA=\dfrac{6\sqrt3}3=2\sqrt3$. Xét tam giác $SOA$ vuông tại $O$, ta có $SA=\sqrt{1^2+(2\sqrt3)^2}=\sqrt{13}\approx3{,}6$ (cm).
+
+**Đáp số.** $SA\approx3{,}6$ cm.
+
+[ĐỀ – EN]
+The regular triangular pyramid $S.ABC$ has base side $6$ cm and height $1$ cm. Find the length of the lateral edge $SA$ (round to 1 decimal place).
+
+[LỜI GIẢI CŨ – EN]
+We have $OA=\dfrac{6\sqrt3}3=2\sqrt3$. In triangle $SOA$, right-angled at $O$, we have $SA=\sqrt{1^2+(2\sqrt3)^2}=\sqrt{13}\approx3.6$ (cm).
+
+**Answer.** $SA\approx3.6$ cm.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Nhớ lại định lí Pythagore. Cho hình chóp tứ giác đều có cạnh đáy $10$ cm và chiều cao $12$ cm. Tính trung đoạn, diện tích xung quanh và thể tích.
+
+[LỜI GIẢI CŨ – VI]
+Xét tam giác $SOM$ vuông tại $O$ có $OM=5$, $SO=12$, ta có $d=\sqrt{12^2+5^2}=13$ cm. Nửa chu vi đáy là $20$ cm nên $S_{xq}=20\cdot13=260$ cm². Thể tích là $V=\dfrac13\cdot10^2\cdot12=400$ cm³.
+
+**Đáp số.** $d=13$ cm; $S_{xq}=260$ cm²; $V=400$ cm³.
+
+[ĐỀ – EN]
+Remember Pythagoras' theorem. A regular square-based pyramid has base side $10$ cm and height $12$ cm. Find the slant height, the lateral surface area and the volume.
+
+[LỜI GIẢI CŨ – EN]
+In triangle $SOM$, right-angled at $O$, with $OM=5$ and $SO=12$, we have $d=\sqrt{12^2+5^2}=13$ cm. Half the perimeter of the base is $20$ cm, so $S_{\text{lat}}=20\cdot13=260$ cm². The volume is $V=\dfrac13\cdot10^2\cdot12=400$ cm³.
+
+**Answer.** $d=13$ cm; $S_{\text{lat}}=260$ cm²; $V=400$ cm³.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một khối thuỷ tinh có dạng hình chóp tam giác đều với cạnh đáy $12$ cm và chiều cao $5{,}5$ cm. Người ta dán giấy màu lên ba mặt bên. Tính diện tích giấy cần dùng và thể tích khối thuỷ tinh (làm tròn thể tích đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+Ta có $OM=\dfrac{12\sqrt3}6=2\sqrt3$ nên $d=\sqrt{5{,}5^2+12}=6{,}5$ cm. Nửa chu vi đáy là $18$ cm nên $S_{xq}=18\cdot6{,}5=117$ cm². Diện tích đáy là $36\sqrt3$ cm² nên $V=\dfrac13\cdot36\sqrt3\cdot5{,}5=66\sqrt3\approx114{,}3$ cm³.
+
+**Đáp số.** $117$ cm²; $\approx114{,}3$ cm³.
+
+[ĐỀ – EN]
+A glass block is a regular triangular pyramid with base side $12$ cm and height $5.5$ cm. Coloured paper is stuck on the three sloping faces. Find the area of paper needed and the volume of the block (round the volume to 1 decimal place).
+
+[LỜI GIẢI CŨ – EN]
+We have $OM=\dfrac{12\sqrt3}6=2\sqrt3$, so $d=\sqrt{5.5^2+12}=6.5$ cm. Half the perimeter of the base is $18$ cm, so $S_{\text{lat}}=18\cdot6.5=117$ cm². The base area is $36\sqrt3$ cm², so $V=\dfrac13\cdot36\sqrt3\cdot5.5=66\sqrt3\approx114.3$ cm³.
+
+**Answer.** $117$ cm²; $\approx114.3$ cm³.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Mái của một ngôi đình có dạng hình chóp tứ giác đều với cạnh đáy $6$ m và chiều cao $4$ m. Giả sử mỗi mét vuông mái lợp ngói hết $180\,000$ đồng. Tính chi phí lợp ngói cho bốn mặt của mái.
+
+[LỜI GIẢI CŨ – VI]
+Xét tam giác $SOM$ vuông tại $O$ có $OM=3$, $SO=4$, ta có $d=\sqrt{4^2+3^2}=5$ m. Nửa chu vi đáy là $12$ m nên $S_{xq}=12\cdot5=60$ m². Chi phí là $60\cdot180\,000=10\,800\,000$ (đồng).
+
+**Đáp số.** $10\,800\,000$ đồng.
+
+[ĐỀ – EN]
+The roof of a pavilion is a regular square-based pyramid with base side $6$ m and height $4$ m. Suppose tiling costs $180\,000$ dong for each square metre of roof. Find the cost of tiling the four sloping faces.
+
+[LỜI GIẢI CŨ – EN]
+In triangle $SOM$, right-angled at $O$, with $OM=3$ and $SO=4$, we have $d=\sqrt{4^2+3^2}=5$ m. Half the perimeter of the base is $12$ m, so $S_{\text{lat}}=12\cdot5=60$ m². The cost is $60\cdot180\,000=10\,800\,000$ (dong).
+
+**Answer.** $10\,800\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một cái phễu có dạng hình chóp tứ giác đều đặt đỉnh xuống dưới, miệng phễu là hình vuông cạnh $30$ cm và chiều sâu của phễu là $40$ cm. Phễu chứa được tối đa bao nhiêu lít nước? ($1$ lít $=1000$ cm³.)
+
+[LỜI GIẢI CŨ – VI]
+Diện tích miệng phễu là $30^2=900$ cm². Thể tích là $V=\dfrac13\cdot900\cdot40=12\,000$ cm³ $=12$ lít.
+
+**Đáp số.** $12$ lít.
+
+[ĐỀ – EN]
+A funnel is a regular square-based pyramid with its apex pointing down. The top of the funnel is a square of side $30$ cm and the funnel is $40$ cm deep. How many litres of water can the funnel hold? ($1$ litre $=1000$ cm³.)
+
+[LỜI GIẢI CŨ – EN]
+The area of the top is $30^2=900$ cm². The volume is $V=\dfrac13\cdot900\cdot40=12\,000$ cm³ $=12$ litres.
+
+**Answer.** $12$ litres.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Cho tứ diện đều $ABCD$ có cạnh bằng $6$. Tính chiều cao hạ từ đỉnh $D$ xuống mặt phẳng $(ABC)$ và thể tích của tứ diện (làm tròn đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+Gọi $O$ là tâm của tam giác đều $ABC$. Ta có $OA=\dfrac{6\sqrt3}3=2\sqrt3$. Xét tam giác $DOA$ vuông tại $O$, ta có $h=DO=\sqrt{6^2-12}=\sqrt{24}=2\sqrt6\approx4{,}9$. Diện tích đáy là $9\sqrt3$ nên $V=\dfrac13\cdot9\sqrt3\cdot2\sqrt6=18\sqrt2\approx25{,}5$.
+
+**Đáp số.** $h=2\sqrt6\approx4{,}9$; $V=18\sqrt2\approx25{,}5$.
+
+[ĐỀ – EN]
+The regular tetrahedron $ABCD$ has edge $6$. Find the height from the vertex $D$ to the plane $(ABC)$ and the volume of the tetrahedron (round to 1 decimal place).
+
+[LỜI GIẢI CŨ – EN]
+Let $O$ be the centre of the equilateral triangle $ABC$. We have $OA=\dfrac{6\sqrt3}3=2\sqrt3$. In triangle $DOA$, right-angled at $O$, we have $h=DO=\sqrt{6^2-12}=\sqrt{24}=2\sqrt6\approx4.9$. The base area is $9\sqrt3$, so $V=\dfrac13\cdot9\sqrt3\cdot2\sqrt6=18\sqrt2\approx25.5$.
+
+**Answer.** $h=2\sqrt6\approx4.9$; $V=18\sqrt2\approx25.5$.
+
+
+######################################################################
+@@@ g8/rhombuses-and-squares
+Bài học: Hình thoi và hình vuông / Rhombuses and squares
+Cần viết lại lời giải các bài: 3, 5, 6 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Hình thoi $ABCD$ có cạnh $13$ cm và đường chéo $BD=10$ cm. Tính đường chéo $AC$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $OB=5$ cm. Trong tam giác vuông $OAB$: $OA^2=AB^2-OB^2=169-25=144$, nên $OA=12$ cm. Do đó $AC=2\cdot12=24$ cm.
+
+Vậy $AC=24$ cm.
+
+**Đáp số.** $24$ cm.
+
+[ĐỀ – EN]
+Rhombus $ABCD$ has side $13$ cm and diagonal $BD=10$ cm. Find the diagonal $AC$.
+
+[LỜI GIẢI CŨ – EN]
+We have $OB=5$ cm. In the right-angled triangle $OAB$: $OA^2=AB^2-OB^2=169-25=144$, so $OA=12$ cm. Hence $AC=2\cdot12=24$ cm.
+
+So $AC=24$ cm.
+
+**Answer.** $24$ cm.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hình bình hành $ABCD$ có đường chéo $AC$ là phân giác của góc $\widehat{A}$. Chứng minh rằng $ABCD$ là hình thoi.
+
+[LỜI GIẢI CŨ – VI]
+Vì $AC$ là phân giác của $\widehat{A}$ nên $\widehat{BAC}=\widehat{CAD}$. Vì $AD\parallel BC$ nên $\widehat{CAD}=\widehat{ACB}$ (so le trong). Do đó $\widehat{BAC}=\widehat{ACB}$, nên tam giác $ABC$ cân tại $B$, tức là $BA=BC$.
+
+Hình bình hành $ABCD$ có hai cạnh kề $BA$ và $BC$ bằng nhau nên là hình thoi.
+
+**Đáp số.** $ABCD$ là hình thoi.
+
+[ĐỀ – EN]
+In parallelogram $ABCD$ the diagonal $AC$ bisects $\angle A$. Prove that $ABCD$ is a rhombus.
+
+[LỜI GIẢI CŨ – EN]
+Since $AC$ bisects $\angle A$, we have $\angle BAC=\angle CAD$. Since $AD\parallel BC$, we have $\angle CAD=\angle ACB$ (alternate angles). Hence $\angle BAC=\angle ACB$, so triangle $ABC$ is isosceles at $B$; that is, $BA=BC$.
+
+Parallelogram $ABCD$ has equal adjacent sides $BA$ and $BC$, so it is a rhombus.
+
+**Answer.** $ABCD$ is a rhombus.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hình vuông $ABCD$ có cạnh $8$ cm. Tính độ dài đường chéo $AC$ (làm tròn đến hai chữ số thập phân).
+
+[LỜI GIẢI CŨ – VI]
+Ta có $AC^2=8^2+8^2=128$, nên $AC=\sqrt{128}=8\sqrt2\approx11{,}31$ (cm).
+
+Vậy $AC\approx11{,}31$ cm.
+
+**Đáp số.** $8\sqrt2\approx11{,}31$ cm.
+
+[ĐỀ – EN]
+Square $ABCD$ has side $8$ cm. Find the diagonal $AC$ (round to two decimal places).
+
+[LỜI GIẢI CŨ – EN]
+We have $AC^2=8^2+8^2=128$, so $AC=\sqrt{128}=8\sqrt2\approx11.31$ (cm).
+
+So $AC\approx11.31$ cm.
+
+**Answer.** $8\sqrt2\approx11.31$ cm.
+
+
+######################################################################
+@@@ g8/right-triangle-similarity
+Bài học: Các trường hợp đồng dạng của hai tam giác vuông / Similarity conditions for right-angled triangles
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ vuông tại $A$ có $\widehat{B}=50^\circ$ và tam giác $DEF$ vuông tại $D$ có $\widehat{F}=40^\circ$. Chứng minh $\triangle ABC\backsim\triangle DEF$.
+
+[LỜI GIẢI CŨ – VI]
+Vì tam giác $ABC$ vuông tại $A$ nên $\widehat{C}=90^\circ-50^\circ=40^\circ$. Ta có $\widehat{C}=\widehat{F}=40^\circ$ nên $\triangle ABC\backsim\triangle DEF$ (hai tam giác vuông có một góc nhọn bằng nhau).
+
+**Đáp số.** $\triangle ABC\backsim\triangle DEF$ với $A\leftrightarrow D$, $B\leftrightarrow E$, $C\leftrightarrow F$.
+
+[ĐỀ – EN]
+Triangle $ABC$ is right-angled at $A$ with $\angle B=50^\circ$ and triangle $DEF$ is right-angled at $D$ with $\angle F=40^\circ$. Prove that $\triangle ABC\backsim\triangle DEF$.
+
+[LỜI GIẢI CŨ – EN]
+Since triangle $ABC$ is right-angled at $A$, we have $\angle C=90^\circ-50^\circ=40^\circ$. So $\angle C=\angle F=40^\circ$ and $\triangle ABC\backsim\triangle DEF$ (two right-angled triangles with an equal acute angle).
+
+**Answer.** $\triangle ABC\backsim\triangle DEF$ with $A\leftrightarrow D$, $B\leftrightarrow E$, $C\leftrightarrow F$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ vuông tại $A$ có $AB=6$, $AC=8$ và tam giác $MNP$ vuông tại $M$ có $MN=9$, $MP=12$. Chứng minh $\triangle ABC\backsim\triangle MNP$ và tính $NP$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{MN}{AB}=\dfrac96=\dfrac32$ và $\dfrac{MP}{AC}=\dfrac{12}8=\dfrac32$ nên $\triangle ABC\backsim\triangle MNP$ (hai cạnh góc vuông tỉ lệ). Theo định lí Pythagore, $BC=\sqrt{6^2+8^2}=10$. Suy ra $NP=\dfrac32\cdot10=15$.
+
+**Đáp số.** $NP=15$.
+
+[ĐỀ – EN]
+Triangle $ABC$ is right-angled at $A$ with $AB=6$, $AC=8$, and triangle $MNP$ is right-angled at $M$ with $MN=9$, $MP=12$. Prove that $\triangle ABC\backsim\triangle MNP$ and find $NP$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{MN}{AB}=\dfrac96=\dfrac32$ and $\dfrac{MP}{AC}=\dfrac{12}8=\dfrac32$, so $\triangle ABC\backsim\triangle MNP$ (the legs are proportional). By Pythagoras' theorem, $BC=\sqrt{6^2+8^2}=10$. Hence $NP=\dfrac32\cdot10=15$.
+
+**Answer.** $NP=15$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ vuông tại $A$ có $BC=13$, $AB=5$ và tam giác $DEF$ vuông tại $D$ có $EF=39$, $DE=15$. Chứng minh hai tam giác đồng dạng và tính $DF$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{EF}{BC}=\dfrac{39}{13}=3$ và $\dfrac{DE}{AB}=\dfrac{15}5=3$ nên $\triangle DEF\backsim\triangle ABC$ (cạnh huyền và cạnh góc vuông tỉ lệ). Theo định lí Pythagore, $AC=\sqrt{13^2-5^2}=12$. Suy ra $DF=3\cdot12=36$.
+
+**Đáp số.** $DF=36$.
+
+[ĐỀ – EN]
+Triangle $ABC$ is right-angled at $A$ with $BC=13$, $AB=5$, and triangle $DEF$ is right-angled at $D$ with $EF=39$, $DE=15$. Prove that the triangles are similar and find $DF$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{EF}{BC}=\dfrac{39}{13}=3$ and $\dfrac{DE}{AB}=\dfrac{15}5=3$, so $\triangle DEF\backsim\triangle ABC$ (the hypotenuse and a leg are proportional). By Pythagoras' theorem, $AC=\sqrt{13^2-5^2}=12$. Hence $DF=3\cdot12=36$.
+
+**Answer.** $DF=36$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Nhớ lại bài hai tam giác đồng dạng. Tam giác $ABC$ đồng dạng với tam giác $A'B'C'$ theo tỉ số $\dfrac25$ và chu vi tam giác $ABC$ bằng $24$ cm. Tính chu vi tam giác $A'B'C'$.
+
+[LỜI GIẢI CŨ – VI]
+Gọi $p$ là chu vi tam giác $A'B'C'$ (cm). Ta có $\dfrac{24}{p}=\dfrac25$ nên $p=\dfrac{24\cdot5}{2}=60$.
+
+**Đáp số.** $60$ cm.
+
+[ĐỀ – EN]
+Remember the lesson on similar triangles. Triangle $ABC$ is similar to triangle $A'B'C'$ with ratio $\dfrac25$, and the perimeter of triangle $ABC$ is $24$ cm. Find the perimeter of triangle $A'B'C'$.
+
+[LỜI GIẢI CŨ – EN]
+Let $p$ cm be the perimeter of triangle $A'B'C'$. We have $\dfrac{24}{p}=\dfrac25$, so $p=\dfrac{24\cdot5}{2}=60$.
+
+**Answer.** $60$ cm.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cùng một thời điểm, một chiếc cọc thẳng đứng cao $1{,}5$ m có bóng dài $1{,}2$ m, còn cột cờ ở sân trường có bóng dài $9{,}6$ m. Tính chiều cao của cột cờ.
+
+[LỜI GIẢI CŨ – VI]
+Hai tam giác vuông (cọc với bóng của cọc, cột cờ với bóng của cột cờ) có một góc nhọn bằng nhau nên đồng dạng. Ta có $\dfrac{1{,}5}{h}=\dfrac{1{,}2}{9{,}6}$, suy ra $h=\dfrac{1{,}5\cdot9{,}6}{1{,}2}=12$.
+
+**Đáp số.** $12$ m.
+
+[ĐỀ – EN]
+At the same moment, a vertical stake $1.5$ m tall has a shadow $1.2$ m long, and the flagpole in the school yard has a shadow $9.6$ m long. Find the height of the flagpole.
+
+[LỜI GIẢI CŨ – EN]
+The two right-angled triangles (the stake with its shadow, the flagpole with its shadow) have an equal acute angle, so they are similar. We have $\dfrac{1.5}{h}=\dfrac{1.2}{9.6}$, so $h=\dfrac{1.5\cdot9.6}{1.2}=12$.
+
+**Answer.** $12$ m.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một đoạn dốc thứ nhất có phương nằm ngang dài $2{,}4$ m, độ cao $1$ m và mặt dốc dài $2{,}6$ m. Đoạn dốc thứ hai có mặt dốc dài $6{,}5$ m và độ cao $2{,}5$ m. Chứng minh hai đoạn dốc nghiêng cùng một góc so với mặt phẳng ngang và tính độ dài phần nằm ngang của đoạn dốc thứ hai.
+
+[LỜI GIẢI CŨ – VI]
+Xét tam giác $ABC$ vuông tại $A$ có $AC=2{,}4$, $AB=1$, $BC=2{,}6$ và tam giác $A'B'C'$ vuông tại $A'$ có $A'B'=2{,}5$, $B'C'=6{,}5$. Ta có $\dfrac{B'C'}{BC}=\dfrac{6{,}5}{2{,}6}=2{,}5$ và $\dfrac{A'B'}{AB}=\dfrac{2{,}5}1=2{,}5$ nên $\triangle A'B'C'\backsim\triangle ABC$. Suy ra $\widehat{C'}=\widehat{C}$, tức hai đoạn dốc nghiêng cùng một góc, và $A'C'=2{,}5\cdot2{,}4=6$.
+
+**Đáp số.** Cùng một góc nghiêng; phần nằm ngang dài $6$ m.
+
+[ĐỀ – EN]
+The first ramp has a horizontal run of $2.4$ m, a height of $1$ m and a sloping surface $2.6$ m long. The second ramp has a sloping surface $6.5$ m long and a height of $2.5$ m. Prove that the two ramps make the same angle with the horizontal and find the horizontal run of the second ramp.
+
+[LỜI GIẢI CŨ – EN]
+Consider triangle $ABC$ right-angled at $A$ with $AC=2.4$, $AB=1$, $BC=2.6$, and triangle $A'B'C'$ right-angled at $A'$ with $A'B'=2.5$, $B'C'=6.5$. We have $\dfrac{B'C'}{BC}=\dfrac{6.5}{2.6}=2.5$ and $\dfrac{A'B'}{AB}=\dfrac{2.5}1=2.5$, so $\triangle A'B'C'\backsim\triangle ABC$. Hence $\angle C'=\angle C$, so the ramps make the same angle, and $A'C'=2.5\cdot2.4=6$.
+
+**Answer.** The same angle; the horizontal run is $6$ m.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ vuông tại $A$ có $AB=15$, $AC=20$. Kẻ đường cao $AH$. Chứng minh $\triangle HBA\backsim\triangle ABC$ và tính $BC$, $BH$, $AH$.
+
+[LỜI GIẢI CŨ – VI]
+Hai tam giác vuông $HBA$ và $ABC$ có chung góc $\widehat{B}$ nên $\triangle HBA\backsim\triangle ABC$. Theo định lí Pythagore, $BC=\sqrt{15^2+20^2}=25$. Ta có $\dfrac{HB}{15}=\dfrac{HA}{20}=\dfrac{15}{25}$, suy ra $BH=\dfrac{15\cdot15}{25}=9$ và $AH=\dfrac{20\cdot15}{25}=12$.
+
+**Đáp số.** $BC=25$, $BH=9$, $AH=12$.
+
+[ĐỀ – EN]
+Triangle $ABC$ is right-angled at $A$ with $AB=15$, $AC=20$. Draw the altitude $AH$. Prove that $\triangle HBA\backsim\triangle ABC$ and find $BC$, $BH$ and $AH$.
+
+[LỜI GIẢI CŨ – EN]
+The right-angled triangles $HBA$ and $ABC$ share the angle $\angle B$, so $\triangle HBA\backsim\triangle ABC$. By Pythagoras' theorem, $BC=\sqrt{15^2+20^2}=25$. We have $\dfrac{HB}{15}=\dfrac{HA}{20}=\dfrac{15}{25}$, so $BH=\dfrac{15\cdot15}{25}=9$ and $AH=\dfrac{20\cdot15}{25}=12$.
+
+**Answer.** $BC=25$, $BH=9$, $AH=12$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Nam đứng cách chân một cột đèn $10$ m. Mắt Nam cách mặt đất $1{,}6$ m và tia ngắm tới đỉnh cột tạo với phương nằm ngang góc $45^\circ$. Tính chiều cao của cột đèn.
+
+[LỜI GIẢI CŨ – VI]
+Xét tam giác $EHM$ vuông tại $H$ có $\widehat{E}=45^\circ$ nên $\widehat{M}=45^\circ$, suy ra tam giác $EHM$ vuông cân tại $H$. Do đó $HM=EH=10$. Chiều cao cột đèn là $10+1{,}6=11{,}6$.
+
+**Đáp số.** $11{,}6$ m.
+
+[ĐỀ – EN]
+Nam stands $10$ m from the foot of a lamp post. His eyes are $1.6$ m above the ground and his line of sight to the top of the post makes an angle of $45^\circ$ with the horizontal. Find the height of the lamp post.
+
+[LỜI GIẢI CŨ – EN]
+In triangle $EHM$, right-angled at $H$, we have $\angle E=45^\circ$, so $\angle M=45^\circ$ and the triangle is isosceles with $HM=EH=10$. The height of the post is $10+1.6=11.6$.
+
+**Answer.** $11.6$ m.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Chứng minh $AB\cdot AC=AH\cdot BC$. Áp dụng: tính $AH$ khi $AB=9$, $AC=12$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\triangle HBA\backsim\triangle ABC$ nên $\dfrac{HA}{AC}=\dfrac{BA}{BC}$, suy ra $AH\cdot BC=AB\cdot AC$. Với $AB=9$, $AC=12$ ta có $BC=\sqrt{9^2+12^2}=15$, do đó $AH=\dfrac{9\cdot12}{15}=7{,}2$.
+
+**Đáp số.** $AH=7{,}2$.
+
+[ĐỀ – EN]
+Triangle $ABC$ is right-angled at $A$ with altitude $AH$. Prove that $AB\cdot AC=AH\cdot BC$. Then find $AH$ when $AB=9$ and $AC=12$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\triangle HBA\backsim\triangle ABC$, so $\dfrac{HA}{AC}=\dfrac{BA}{BC}$, which gives $AH\cdot BC=AB\cdot AC$. For $AB=9$ and $AC=12$ we have $BC=\sqrt{9^2+12^2}=15$, so $AH=\dfrac{9\cdot12}{15}=7.2$.
+
+**Answer.** $AH=7.2$.
 
 
 ===== HẾT FILE Vimus2358-03-LG =====

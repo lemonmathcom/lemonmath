@@ -1,0 +1,652 @@
+######################################################################
+TÀI KHOẢN: thaodebao1   |   FILE: thaodebao1-13-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file thaodebao1-13-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – thaodebao1-13-GV
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/sat/sat-practice-test-2, exams/sat/sat-quadratics-nonlinear
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  thaodebao1-13-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/thaodebao1-13-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file thaodebao1-13-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/sat/sat-practice-test-2 – BẢN TIẾNG VIỆT ########
+---
+title: Đề luyện SAT Math số 2
+description: Đề luyện SAT Math số 2 đủ thời lượng: hai module, mỗi module 22 câu trong 35 phút, chấm điểm ngay, có lời giải từng câu.
+minutes: 70
+type: test
+---
+
+[[P1·4b71]]
+Đây là một đề luyện đủ thời lượng theo đúng cấu trúc phần Toán của SAT thi trên máy: hai module, mỗi module 22 câu trong 35 phút. Mọi câu hỏi do Lemonmath tự soạn; đây không phải câu hỏi SAT thật, nhưng bám sát các mảng nội dung và kiểu câu hỏi chính thức.
+
+## Cách làm đề
+
+| | Module 1 | Module 2 |
+|---|---|---|
+| Số câu | 22 | 22 |
+| Thời gian | 35 phút | 35 phút |
+| Máy tính | được dùng (Desmos hoặc máy của bạn) | được dùng |
+
+[[P2·03ac]]
+1. Đặt đồng hồ 35 phút và làm Module 1 liền một mạch. Nộp bài để xem điểm.
+2. Nghỉ tối đa 10 phút, rồi làm Module 2 trong 35 phút tiếp theo.
+3. Với câu tự điền đáp số, hãy nhập một số: số nguyên, số thập phân hoặc số âm (ở đây nhập dấu phẩy hay dấu chấm đều được). Trong đề thật, SAT dùng dấu chấm, ví dụ `0.25`, và chấp nhận cả phân số như `7/2`.
+4. Làm xong, mở phần đáp án, đọc lời giải của mọi câu sai và ghi vào sổ lỗi sai.
+
+[[P3·08f8]]
+Trong đề thật, Module 2 thay đổi theo kết quả Module 1. Ở đây cả hai module cố định, và Module 2 khó hơn một chút, giống module 2 bản khó.
+
+## Module 1
+
+:::quiz test
+   (… 175 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Module 2
+
+:::quiz test
+   (… 169 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Sau khi làm đề
+
+[[P4·4dd5]]
+Mỗi module tính trên 22 câu. Dùng bảng dưới đây để biết mỗi câu sai cần ôn lại bài nào. Đạt từ 18 câu trở lên ở mỗi module cho thấy bạn đã sẵn sàng với những câu khó nhất của SAT; dưới 12 câu, hãy quay lại các bài học trước khi làm đề mới.
+
+| Câu | Module 1 | Module 2 |
+|---|---|---|
+| 1 | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) |
+| 2 | [Tỉ số, phần trăm, đơn vị](lesson:sat-ratios-percentages-units) | [Tỉ số, phần trăm, đơn vị](lesson:sat-ratios-percentages-units) |
+| 3 | [Biểu thức tương đương](lesson:sat-equivalent-expressions) | [Biểu thức tương đương](lesson:sat-equivalent-expressions) |
+| 4 | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) | [Diện tích, thể tích, góc](lesson:sat-area-volume-lines-angles) |
+| 5 | [Tam giác, lượng giác, đường tròn](lesson:sat-triangles-trig-circles) | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) |
+| 6 | [Tỉ số, phần trăm, đơn vị](lesson:sat-ratios-percentages-units) | [Biểu thức tương đương](lesson:sat-equivalent-expressions) |
+| 7 | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) | [Tỉ số, phần trăm, đơn vị](lesson:sat-ratios-percentages-units) |
+| 8 | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
+| 9 | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) |
+| 10 | [Diện tích, thể tích, góc](lesson:sat-area-volume-lines-angles) | [Hàm mũ](lesson:sat-exponential-functions) |
+| 11 | [Hàm mũ](lesson:sat-exponential-functions) | [Tam giác, lượng giác, đường tròn](lesson:sat-triangles-trig-circles) |
+| 12 | [Thống kê và xác suất](lesson:sat-statistics-probability) | [Thống kê và xác suất](lesson:sat-statistics-probability) |
+| 13 | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
+| 14 | [Biểu thức tương đương](lesson:sat-equivalent-expressions) | [Hàm số bậc nhất và bất phương trình](lesson:sat-linear-functions-inequalities) |
+| 15 | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
+| 16 | [Tỉ số, phần trăm, đơn vị](lesson:sat-ratios-percentages-units) | [Tam giác, lượng giác, đường tròn](lesson:sat-triangles-trig-circles) |
+| 17 | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) | [Biểu thức tương đương](lesson:sat-equivalent-expressions) |
+| 18 | [Diện tích, thể tích, góc](lesson:sat-area-volume-lines-angles) | [Thống kê và xác suất](lesson:sat-statistics-probability) |
+| 19 | [Hàm mũ](lesson:sat-exponential-functions) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
+| 20 | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) | [Diện tích, thể tích, góc](lesson:sat-area-volume-lines-angles) |
+| 21 | [Thống kê và xác suất](lesson:sat-statistics-probability) | [Phương trình và hệ bậc nhất](lesson:sat-linear-equations-systems) |
+| 22 | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) | [Hàm bậc hai, phương trình phi tuyến](lesson:sat-quadratics-nonlinear) |
+
+[[P5·1bcb]]
+Sau ít nhất một tuần ôn tập, hãy làm [đề luyện thứ hai](lesson:sat-practice-test-1), và nhớ ôn bằng các cách trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision).
+
+
+######## BÀI exams/sat/sat-practice-test-2 – BẢN TIẾNG ANH ########
+---
+title: SAT Math practice test 2
+description: A full-length SAT Math practice test 2: two modules of 22 questions, 35 minutes each, marked instantly, with a solution to every question.
+minutes: 70
+type: test
+---
+
+[[P1·35d5]]
+This is a full-length practice test in the format of the digital SAT Math section: two modules of 22 questions, 35 minutes each. All questions are written by Lemonmath; they are not real SAT questions, but they follow the official content domains and question styles.
+
+## How to take this test
+
+| | Module 1 | Module 2 |
+|---|---|---|
+| Questions | 22 | 22 |
+| Time | 35 minutes | 35 minutes |
+| Calculator | allowed (Desmos or your own) | allowed |
+
+[[P2·bd43]]
+1. Set a timer for 35 minutes and do Module 1 without stopping. Submit it to see your score.
+2. Take a 10-minute break at most, then do Module 2 in another 35 minutes.
+3. For student-produced responses, type a number: integers, decimals with a point (for example `0.25`) or a minus sign. On the real test fractions such as `7/2` are also accepted.
+4. Afterwards, open the answers, read the explanation of every question you missed and add it to your error log.
+
+[[P3·2e08]]
+On the real test, Module 2 adapts to your performance on Module 1. Here both modules are fixed, and Module 2 is a little harder, like the harder second module.
+
+## Module 1
+
+:::quiz test
+   (… 175 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Module 2
+
+:::quiz test
+   (… 169 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## After the test
+
+[[P4·38bc]]
+Each module is marked out of 22. Use the table to see which lesson to revise for each question you missed. A score of 18 or more in each module suggests you are ready for the hardest SAT questions; below 12, go back to the lessons before taking another full test.
+
+| Question | Module 1 | Module 2 |
+|---|---|---|
+| 1 | [Linear equations and systems](lesson:sat-linear-equations-systems) | [Linear equations and systems](lesson:sat-linear-equations-systems) |
+| 2 | [Ratios, percentages and units](lesson:sat-ratios-percentages-units) | [Ratios, percentages and units](lesson:sat-ratios-percentages-units) |
+| 3 | [Equivalent expressions](lesson:sat-equivalent-expressions) | [Equivalent expressions](lesson:sat-equivalent-expressions) |
+| 4 | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) | [Area, volume and angles](lesson:sat-area-volume-lines-angles) |
+| 5 | [Triangles, trigonometry and circles](lesson:sat-triangles-trig-circles) | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) |
+| 6 | [Ratios, percentages and units](lesson:sat-ratios-percentages-units) | [Equivalent expressions](lesson:sat-equivalent-expressions) |
+| 7 | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) | [Ratios, percentages and units](lesson:sat-ratios-percentages-units) |
+| 8 | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
+| 9 | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) |
+| 10 | [Area, volume and angles](lesson:sat-area-volume-lines-angles) | [Exponential functions](lesson:sat-exponential-functions) |
+| 11 | [Exponential functions](lesson:sat-exponential-functions) | [Triangles, trigonometry and circles](lesson:sat-triangles-trig-circles) |
+| 12 | [Statistics and probability](lesson:sat-statistics-probability) | [Statistics and probability](lesson:sat-statistics-probability) |
+| 13 | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
+| 14 | [Equivalent expressions](lesson:sat-equivalent-expressions) | [Linear functions and inequalities](lesson:sat-linear-functions-inequalities) |
+| 15 | [Linear equations and systems](lesson:sat-linear-equations-systems) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
+| 16 | [Ratios, percentages and units](lesson:sat-ratios-percentages-units) | [Triangles, trigonometry and circles](lesson:sat-triangles-trig-circles) |
+| 17 | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) | [Equivalent expressions](lesson:sat-equivalent-expressions) |
+| 18 | [Area, volume and angles](lesson:sat-area-volume-lines-angles) | [Statistics and probability](lesson:sat-statistics-probability) |
+| 19 | [Exponential functions](lesson:sat-exponential-functions) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
+| 20 | [Linear equations and systems](lesson:sat-linear-equations-systems) | [Area, volume and angles](lesson:sat-area-volume-lines-angles) |
+| 21 | [Statistics and probability](lesson:sat-statistics-probability) | [Linear equations and systems](lesson:sat-linear-equations-systems) |
+| 22 | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) | [Quadratics and nonlinear equations](lesson:sat-quadratics-nonlinear) |
+
+[[P5·6884]]
+Then take the [second practice test](lesson:sat-practice-test-1) after at least a week of revision, and remember to review with the methods in [Revision that works](lesson:evidence-based-revision).
+
+
+######## BÀI exams/sat/sat-quadratics-nonlinear – BẢN TIẾNG VIỆT ########
+---
+title: Hàm bậc hai và phương trình phi tuyến
+description: SAT Advanced Math: ba dạng của hàm bậc hai, đỉnh và nghiệm, biệt thức, hệ đường thẳng – parabol, phương trình chứa căn và phương trình chứa ẩn ở mẫu.
+minutes: 40
+---
+
+  :::goals
+  - Đọc đỉnh, nghiệm và tung độ gốc từ dạng chính tắc, dạng đỉnh và dạng tích của hàm bậc hai.
+  - Giải phương trình bậc hai bằng phân tích nhân tử và bằng công thức nghiệm, dùng biệt thức để đếm số nghiệm thực.
+  - Giải hệ gồm một phương trình bậc nhất và một phương trình bậc hai.
+  - Giải phương trình chứa căn, phương trình chứa ẩn ở mẫu và loại nghiệm ngoại lai.
+  :::
+
+[[P1·46e5]]
+Hàm bậc hai là trọng tâm của mảng Advanced Math, xuất hiện ở gần như mọi module, thường nằm trong nhóm câu khó nhất. Học sinh Việt Nam đã biết công thức nghiệm và định lí Viète từ lớp 9, đó là một lợi thế thật sự. Điều SAT đòi hỏi thêm là chuyển nhanh giữa ba dạng của hàm bậc hai, hiểu ý nghĩa của chúng trong bối cảnh như đường bay của quả bóng, và phát hiện nghiệm sai.
+
+## Ba dạng của hàm bậc hai
+
+:::note Mỗi dạng cho thấy điều gì
+[[P2·137f]]
+| Dạng | Công thức | Nhìn vào thấy ngay |
+|---|---|---|
+| Chính tắc (standard) | $f(x)=ax^2+bx+c$ | tung độ gốc $c$; đỉnh tại $x=-\dfrac{b}{2a}$ |
+| Đỉnh (vertex) | $f(x)=a(x-h)^2+k$ | đỉnh $(h, k)$; giá trị nhỏ nhất $k$ nếu $a>0$, lớn nhất $k$ nếu $a<0$ |
+| Tích (factored) | $f(x)=a(x-r)(x-s)$ | nghiệm (giao điểm với trục $x$) $r$ và $s$; đỉnh ở chính giữa, tại $x=\dfrac{r+s}{2}$ |
+:::
+
+  :::example Chọn đúng dạng
+  Hàm số $f$ được cho bởi $f(x)=2(x-3)^2-8$. Dạng tương đương nào của $f(x)$ thể hiện các giao điểm với trục $x$ của đồ thị $y=f(x)$ dưới dạng hằng số hoặc hệ số?
+  A. $f(x)=2x^2-12x+10$
+  B. $f(x)=2(x-1)(x-5)$
+  C. $f(x)=2(x-3)^2-8$
+  D. $f(x)=(2x-6)^2-8$
+
+  **Lời giải.** Giao điểm với trục $x$ chỉ hiện ra thành hằng số ở dạng tích. Khai triển, $2(x-3)^2-8=2x^2-12x+10=2(x^2-6x+5)=2(x-1)(x-5)$. Đáp án là **B**: các giao điểm là $x=1$ và $x=5$, và đỉnh $(3, -8)$ nằm chính giữa chúng.
+  :::
+
+:::graph $f(x)=2(x-3)^2-8$: đỉnh $(3, -8)$, nghiệm $1$ và $5$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Giải và đếm số nghiệm
+
+  :::theorem Công thức nghiệm và biệt thức
+  Nghiệm của $ax^2+bx+c=0$ ($a\ne0$) là $x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a}$. Biệt thức $D=b^2-4ac$ cho biết có bao nhiêu nghiệm thực:
+  - $D>0$: hai nghiệm thực (parabol cắt trục $x$ tại hai điểm);
+  - $D=0$: đúng một nghiệm thực (đỉnh chạm trục $x$);
+  - $D<0$: không có nghiệm thực.
+
+  Nếu hai nghiệm là $x_1$, $x_2$ thì $x_1+x_2=-\dfrac{b}{a}$ và $x_1x_2=\dfrac{c}{a}$ (định lí Viète).
+  :::
+
+  :::example Đúng một nghiệm
+  Trong phương trình $x^2-6x+c=0$, $c$ là hằng số. Phương trình có đúng một nghiệm thực. Giá trị của $c$ bằng bao nhiêu?
+
+  **Lời giải.** Đúng một nghiệm nghĩa là $D=0$: $36-4c=0$, nên $c=9$. Bạn gõ **9**. Khi đó phương trình là $(x-3)^2=0$.
+  :::
+
+  :::example Công thức nghiệm
+  Nghiệm của $2x^2-4x-3=0$ là
+  A. $x=1\pm\sqrt{10}$
+  B. $x=1\pm\dfrac{\sqrt{10}}{2}$
+  C. $x=2\pm\dfrac{\sqrt{10}}{2}$
+  D. $x=-1\pm\dfrac{\sqrt{10}}{2}$
+
+  **Lời giải.** Với $a=2$, $b=-4$, $c=-3$: $D=16+24=40$, và
+
+  $$x=\frac{4\pm\sqrt{40}}{4}=\frac{4\pm2\sqrt{10}}{4}=1\pm\frac{\sqrt{10}}{2}.$$
+
+  Đáp án là **B**. Phương án A quên chia cả $2\sqrt{10}$ cho $4$.
+  :::
+
+## Đường thẳng và parabol
+
+[[P3·d50f]]
+Để giải hệ gồm một phương trình bậc nhất và một phương trình bậc hai, hãy cho hai biểu thức của $y$ bằng nhau. Phương trình bậc hai thu được có thể có hai, một hoặc không có nghiệm, đúng như số giao điểm của đường thẳng với parabol.
+
+  :::example Hệ có parabol
+  $$y=x^2-2x+1$$
+  $$y=x+5$$
+  Điểm $(a, b)$ là một nghiệm của hệ, và $a>0$. Giá trị của $b$ bằng bao nhiêu?
+
+  **Lời giải.** Cho hai vế phải bằng nhau:
+
+  $$x^2-2x+1=x+5\iff x^2-3x-4=0\iff(x-4)(x+1)=0.$$
+
+  Vậy $x=4$ hoặc $x=-1$. Vì $a>0$ nên $a=4$ và $b=4+5=9$. Bạn gõ **9**.
+  :::
+
+## Phương trình chứa căn, chứa ẩn ở mẫu và mô hình thực tế
+
+[[P4·fcdf]]
+Khi bình phương hai vế, hoặc nhân với một biểu thức có thể bằng $0$, ta có thể tạo ra **nghiệm ngoại lai** (extraneous solution): số thoả mãn phương trình mới nhưng không thoả mãn phương trình ban đầu. Luôn thử lại vào phương trình ban đầu.
+
+  :::example Một nghiệm ngoại lai
+  Tập nghiệm của $\sqrt{x+7}=x-5$ là
+  A. $\{2\}$
+  B. $\{9\}$
+  C. $\{2, 9\}$
+  D. Phương trình vô nghiệm.
+
+  **Lời giải.** Bình phương hai vế: $x+7=x^2-10x+25\iff x^2-11x+18=0\iff(x-2)(x-9)=0$. Thử lại: $x=9$ cho $\sqrt{16}=4=9-5$, đúng; $x=2$ cho $\sqrt9=3$ nhưng $2-5=-3$, sai. Đáp án là **B**.
+  :::
+
+  :::example Độ cao của quả bóng
+  Một quả bóng được ném lên. Độ cao của nó, tính bằng feet, sau $t$ giây kể từ lúc ném là $h(t)=-16t^2+64t+5$. Độ cao lớn nhất của quả bóng là bao nhiêu feet?
+
+  **Lời giải.** Giá trị lớn nhất đạt tại đỉnh, $t=-\dfrac{64}{2\cdot(-16)}=2$. Khi đó $h(2)=-64+128+5=69$. Bạn gõ **69**. Trong bối cảnh này, số $5$ là độ cao lúc quả bóng rời tay.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P5·a526]]
+- **Dấu của đỉnh.** $f(x)=(x+2)^2-1$ có đỉnh $(-2, -1)$, không phải $(2, -1)$.
+- **Chia cho $x$.** Từ $x^2=5x$, chia cho $x$ sẽ mất nghiệm $x=0$. Hãy phân tích nhân tử: $x(x-5)=0$.
+- **Không thử lại phương trình chứa căn.** Căn bậc hai không bao giờ âm, nên "nghiệm" nào làm vế phải âm là nghiệm ngoại lai.
+- **Giá trị lớn nhất hay thời điểm đạt được.** "Độ cao lớn nhất là bao nhiêu?" hỏi $k$; "sau bao nhiêu giây?" hỏi $h$.
+:::
+
+:::tip Desmos cho hàm bậc hai
+[[P6·abeb]]
+Gõ `y=-16x^2+64x+5` rồi bấm các điểm xám: Desmos hiện đỉnh và các nghiệm kèm toạ độ. Với hệ phương trình, gõ cả hai phương trình rồi bấm vào các giao điểm. Với câu "đúng một nghiệm" có hằng số, hãy thêm thanh trượt và kéo đến khi hai đồ thị vừa chạm nhau.
+:::
+
+  :::terms
+  - hàm số bậc hai | quadratic function
+  - dạng đỉnh | vertex form
+  - dạng tích (dạng phân tích) | factored form
+  - nghiệm, giao điểm với trục hoành | zero, x-intercept
+  - biệt thức | discriminant
+  - công thức nghiệm | quadratic formula
+  - nghiệm ngoại lai | extraneous solution
+  - giá trị lớn nhất / nhỏ nhất | maximum / minimum value
+  :::
+
+## Bài tập tương tự
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Hình chữ nhật
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Quả bóng ném từ ban công
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Nghiệm và hệ số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Phương trình chứa ẩn ở mẫu
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-quadratics-nonlinear – BẢN TIẾNG ANH ########
+---
+title: Quadratics and nonlinear equations
+description: SAT Advanced Math: the three forms of a quadratic, vertex and zeros, the discriminant, line–parabola systems, radical and rational equations.
+minutes: 40
+---
+
+  :::goals
+  - Read the vertex, the zeros and the $y$-intercept from the standard, vertex and factored forms of a quadratic.
+  - Solve quadratic equations by factoring and by the quadratic formula, and use the discriminant to count real solutions.
+  - Solve a system of a linear and a quadratic equation.
+  - Solve radical and rational equations and reject extraneous solutions.
+  :::
+
+[[P1·432c]]
+Quadratics are the heart of the Advanced Math domain and appear in almost every module, often among the hardest questions. Vietnamese students already know the quadratic formula and Viète's theorem from grade 9, which is a real advantage. What the SAT adds is the ability to move quickly between the three forms of a quadratic, to read their meaning in a context such as the path of a ball, and to spot false solutions.
+
+## Three forms of a quadratic
+
+:::note What each form shows
+[[P2·a974]]
+| Form | Formula | Shows at a glance |
+|---|---|---|
+| Standard | $f(x)=ax^2+bx+c$ | $y$-intercept $c$; vertex at $x=-\dfrac{b}{2a}$ |
+| Vertex | $f(x)=a(x-h)^2+k$ | vertex $(h, k)$; minimum $k$ if $a>0$, maximum $k$ if $a<0$ |
+| Factored | $f(x)=a(x-r)(x-s)$ | zeros ($x$-intercepts) $r$ and $s$; vertex halfway, at $x=\dfrac{r+s}{2}$ |
+:::
+
+  :::example Choosing the right form
+  The function $f$ is defined by $f(x)=2(x-3)^2-8$. Which equivalent form of $f(x)$ displays the $x$-intercepts of the graph of $y=f(x)$ as constants or coefficients?
+  A. $f(x)=2x^2-12x+10$
+  B. $f(x)=2(x-1)(x-5)$
+  C. $f(x)=2(x-3)^2-8$
+  D. $f(x)=(2x-6)^2-8$
+
+  **Solution.** The $x$-intercepts appear as constants only in the factored form. Expanding, $2(x-3)^2-8=2x^2-12x+10=2(x^2-6x+5)=2(x-1)(x-5)$. The answer is **B**: the intercepts are $x=1$ and $x=5$, and the vertex $(3, -8)$ lies halfway between them.
+  :::
+
+:::graph $f(x)=2(x-3)^2-8$: vertex $(3, -8)$, zeros $1$ and $5$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Solving and counting solutions
+
+  :::theorem The quadratic formula and the discriminant
+  The solutions of $ax^2+bx+c=0$ ($a\ne0$) are $x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a}$. The discriminant $D=b^2-4ac$ tells how many real solutions there are:
+  - $D>0$: two real solutions (the parabola crosses the $x$-axis twice);
+  - $D=0$: exactly one real solution (the vertex touches the $x$-axis);
+  - $D<0$: no real solution.
+
+  If the solutions are $x_1$, $x_2$, then $x_1+x_2=-\dfrac{b}{a}$ and $x_1x_2=\dfrac{c}{a}$ (Viète's theorem).
+  :::
+
+  :::example Exactly one solution
+  In the equation $x^2-6x+c=0$, $c$ is a constant. The equation has exactly one real solution. What is the value of $c$?
+
+  **Solution.** Exactly one solution means $D=0$: $36-4c=0$, so $c=9$. You type **9**. Then the equation is $(x-3)^2=0$.
+  :::
+
+  :::example The quadratic formula
+  What are the solutions of $2x^2-4x-3=0$?
+  A. $x=1\pm\sqrt{10}$
+  B. $x=1\pm\dfrac{\sqrt{10}}{2}$
+  C. $x=2\pm\dfrac{\sqrt{10}}{2}$
+  D. $x=-1\pm\dfrac{\sqrt{10}}{2}$
+
+  **Solution.** With $a=2$, $b=-4$, $c=-3$: $D=16+24=40$, and
+
+  $$x=\frac{4\pm\sqrt{40}}{4}=\frac{4\pm2\sqrt{10}}{4}=1\pm\frac{\sqrt{10}}{2}.$$
+
+  The answer is **B**. Option A forgets to divide $2\sqrt{10}$ by $4$ as well.
+  :::
+
+## A line and a parabola
+
+[[P3·e9ee]]
+To solve a system of a linear and a quadratic equation, set the two expressions for $y$ equal. The resulting quadratic can have two, one or no solutions, just like the number of points where a line meets a parabola.
+
+  :::example A system with a parabola
+  $$y=x^2-2x+1$$
+  $$y=x+5$$
+  The point $(a, b)$ is a solution to the system, and $a>0$. What is the value of $b$?
+
+  **Solution.** Set the right sides equal:
+
+  $$x^2-2x+1=x+5\iff x^2-3x-4=0\iff(x-4)(x+1)=0.$$
+
+  So $x=4$ or $x=-1$. Since $a>0$, $a=4$ and $b=4+5=9$. You type **9**.
+  :::
+
+## Radical equations, rational equations and models
+
+[[P4·7664]]
+When you square both sides of an equation, or multiply by an expression that can be zero, you may create **extraneous solutions**: numbers that solve the new equation but not the original one. Always check them in the original equation.
+
+  :::example An extraneous solution
+  What is the solution set of $\sqrt{x+7}=x-5$?
+  A. $\{2\}$
+  B. $\{9\}$
+  C. $\{2, 9\}$
+  D. There is no solution.
+
+  **Solution.** Square both sides: $x+7=x^2-10x+25\iff x^2-11x+18=0\iff(x-2)(x-9)=0$. Check: $x=9$ gives $\sqrt{16}=4=9-5$, true; $x=2$ gives $\sqrt9=3$ but $2-5=-3$, false. The answer is **B**.
+  :::
+
+  :::example Height of a ball
+  A ball is thrown upward. Its height, in feet, $t$ seconds after it is thrown is $h(t)=-16t^2+64t+5$. What is the maximum height of the ball, in feet?
+
+  **Solution.** The maximum is at the vertex, $t=-\dfrac{64}{2\cdot(-16)}=2$. Then $h(2)=-64+128+5=69$. You type **69**. In context, $5$ is the height at which the ball was released.
+  :::
+
+:::warning Common traps
+[[P5·dff4]]
+- **Sign of the vertex.** $f(x)=(x+2)^2-1$ has vertex $(-2, -1)$, not $(2, -1)$.
+- **Dividing by $x$.** From $x^2=5x$, dividing by $x$ loses the solution $x=0$. Factor instead: $x(x-5)=0$.
+- **Not checking radical equations.** A square root is never negative, so any "solution" that makes the right side negative is extraneous.
+- **Maximum value or where it happens.** "What is the maximum height?" asks for $k$; "after how many seconds?" asks for $h$.
+:::
+
+:::tip Desmos for quadratics
+[[P6·25ab]]
+Type `y=-16x^2+64x+5` and click the gray points: Desmos shows the vertex and the zeros with their coordinates. For a system, type both equations and click the intersection points. For "exactly one solution" questions with a constant, add a slider and drag it until the graphs just touch.
+:::
+
+  :::terms
+  - quadratic function | hàm số bậc hai
+  - vertex form | dạng đỉnh
+  - factored form | dạng tích (dạng phân tích)
+  - zero, x-intercept | nghiệm, giao điểm với trục hoành
+  - discriminant | biệt thức
+  - quadratic formula | công thức nghiệm
+  - extraneous solution | nghiệm ngoại lai
+  - maximum / minimum value | giá trị lớn nhất / nhỏ nhất
+  :::
+
+## Similar exercises
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A rectangle
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A ball from a balcony
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Zeros and coefficients
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A rational equation
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

@@ -1,0 +1,612 @@
+######################################################################
+TÀI KHOẢN: Vinax258   |   FILE: Vinax258-08-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Vinax258-08-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vinax258-08-GV
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g7/intro-to-probability
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Vinax258-08-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Vinax258-08-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Vinax258-08-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g7/intro-to-probability – BẢN TIẾNG VIỆT ########
+---
+title: Làm quen với xác suất của biến cố
+description: Bạn tính xác suất của một biến cố khi các kết quả có khả năng như nhau, bằng tỉ số giữa số kết quả thuận lợi và số kết quả có thể.
+minutes: 20
+---
+
+  :::goals
+  - Xác định các kết quả có thể và các kết quả thuận lợi của một biến cố trong một phép thử.
+  - Tính xác suất của biến cố bằng công thức $P=\dfrac{k}{n}$ khi các kết quả có khả năng như nhau.
+  - Biết xác suất luôn nằm trong đoạn từ $0$ đến $1$: biến cố không thể có xác suất $0$, biến cố chắc chắn có xác suất $1$.
+  - Giải các bài toán thực tế đơn giản về xác suất.
+  :::
+
+[[P1·8d63]]
+Một hộp có $12$ viên bi cùng kích thước: $5$ viên đỏ, $4$ viên xanh và $3$ viên vàng. Minh nhắm mắt lấy ra một viên bi. Khả năng lấy được viên bi đỏ nhiều hay ít?
+
+[[P2·4b9b]]
+Ta có thể nói "nhiều" hay "ít", nhưng như vậy chưa rõ ràng. Bài này giúp bạn đo khả năng đó bằng một con số. Con số ấy gọi là xác suất.
+
+## Cùng khám phá
+
+[[P3·d096]]
+Ta bắt đầu với phép thử đơn giản nhất: tung một đồng xu cân đối. Có hai kết quả có thể: mặt sấp (S) hoặc mặt ngửa (N). Đồng xu cân đối nên hai kết quả này có khả năng như nhau.
+
+[[P4·ecfd]]
+Xét biến cố $A$: "Mặt sấp xuất hiện". Chỉ có $1$ kết quả làm cho $A$ xảy ra, trong tổng số $2$ kết quả. Ta nói khả năng của $A$ là $1$ trên $2$, tức là $\dfrac12$.
+
+[[P5·239b]]
+Bây giờ ta gieo một con xúc xắc cân đối. Có $6$ kết quả có thể: $1, 2, 3, 4, 5, 6$ chấm, và chúng có khả năng như nhau. Xét biến cố $B$: "Số chấm là số chẵn". Các kết quả làm cho $B$ xảy ra là $2, 4, 6$: có $3$ kết quả.
+
+[[P6·450b]]
+Ta ghi lại cả hai trường hợp trong một bảng:
+
+| Phép thử | Số kết quả có thể | Biến cố | Số kết quả thuận lợi | Khả năng |
+|---|---|---|---|---|
+| Tung đồng xu | $2$ | Mặt sấp | $1$ | $\dfrac12$ |
+| Gieo xúc xắc | $6$ | Số chấm chẵn | $3$ | $\dfrac36=\dfrac12$ |
+| Gieo xúc xắc | $6$ | Mặt $6$ chấm | $1$ | $\dfrac16$ |
+
+[[P7·eb8f]]
+Ở cả ba dòng, khả năng bằng số kết quả thuận lợi chia cho số kết quả có thể. Các kết quả có khả năng như nhau, nên mỗi kết quả chiếm đúng một phần như nhau trong tổng. Có $k$ kết quả thuận lợi thì chiếm $k$ phần trong $n$ phần.
+
+  :::definition Xác suất của biến cố
+  Giả sử một phép thử có $n$ kết quả có thể, các kết quả này có khả năng như nhau. Nếu có $k$ kết quả thuận lợi cho biến cố $A$ thì **xác suất của biến cố $A$** là
+  $$P(A)=\dfrac{k}{n}.$$
+  :::
+
+[[P8·a873]]
+Trong đó "kết quả thuận lợi cho $A$" là kết quả làm cho $A$ xảy ra. Quay lại bài toán đầu: hộp có $12$ viên bi, trong đó $5$ viên đỏ. Mỗi viên bi có khả năng được lấy như nhau, nên xác suất lấy được bi đỏ là $\dfrac{5}{12}$.
+
+## Xác suất luôn từ 0 đến 1
+
+[[P9·9226]]
+Số kết quả thuận lợi $k$ không thể âm và không thể lớn hơn tổng số kết quả $n$. Do đó $0\le k\le n$. Chia cả ba vế cho $n$ (số dương), ta được $0\le\dfrac{k}{n}\le1$.
+
+[[P10·4fdb]]
+Hai trường hợp đặc biệt cần nhớ:
+
+[[P11·4325]]
+- Nếu $k=0$ thì $P(A)=0$: không kết quả nào làm $A$ xảy ra, đó là biến cố không thể.
+- Nếu $k=n$ thì $P(A)=1$: mọi kết quả đều làm $A$ xảy ra, đó là biến cố chắc chắn.
+
+  :::theorem Giá trị của xác suất
+  Với mọi biến cố $A$ ta có $0\le P(A)\le1$. Biến cố không thể có xác suất bằng $0$. Biến cố chắc chắn có xác suất bằng $1$.
+  :::
+
+:::graph Mọi xác suất đều nằm trên đoạn từ 0 đến 1
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P12·eb0c]]
+Xác suất càng gần $1$ thì biến cố càng dễ xảy ra. Xác suất càng gần $0$ thì biến cố càng khó xảy ra.
+
+## Ví dụ
+
+[[P13·fd7e]]
+Ta bắt đầu với bài toán lấy bi ở đầu bài.
+
+  :::example Lấy bi trong hộp
+  Một hộp có $12$ viên bi cùng kích thước: $5$ bi đỏ, $4$ bi xanh, $3$ bi vàng. Lấy ngẫu nhiên một viên bi. Tính xác suất của biến cố $A$: "Lấy được bi đỏ" và biến cố $B$: "Lấy được bi xanh".
+
+  **Lời giải.** Các viên bi cùng kích thước nên $12$ kết quả có thể có khả năng như nhau. Ta đếm kết quả thuận lợi của từng biến cố rồi lập tỉ số $\dfrac{k}{n}$ với $n=12$:
+
+  $$P(A)=\dfrac{5}{12},\qquad P(B)=\dfrac{4}{12}=\dfrac13.$$
+
+  Ở biến cố $B$ ta rút gọn bằng cách chia cả tử và mẫu cho $4$. Vậy xác suất lấy được bi đỏ là $\dfrac{5}{12}$, xác suất lấy được bi xanh là $\dfrac13$.
+
+  **Kiểm tra.** Ba màu có $5+4+3=12$ viên, đúng bằng tổng số bi.
+  :::
+
+[[P14·a489]]
+Với xúc xắc, trước hết ta phải liệt kê đúng các kết quả thuận lợi.
+
+  :::example Gieo xúc xắc
+  Gieo một con xúc xắc cân đối. Tính xác suất của biến cố $C$: "Số chấm xuất hiện là số nguyên tố".
+
+  **Lời giải.** Phép thử có $n=6$ kết quả có khả năng như nhau. Trong các số $1, 2, 3, 4, 5, 6$, các số nguyên tố là $2, 3, 5$ (số $1$ không phải số nguyên tố). Vậy $k=3$:
+
+  $$P(C)=\dfrac{3}{6}=\dfrac12.$$
+
+  Vậy xác suất để số chấm là số nguyên tố bằng $\dfrac12$.
+  :::
+
+[[P15·5f2f]]
+Khi có nhiều kết quả hơn, ta cần đếm cẩn thận.
+
+  :::example Rút thẻ
+  Một túi có $20$ tấm thẻ ghi các số từ $1$ đến $20$. Rút ngẫu nhiên một thẻ. Tính xác suất của biến cố $D$: "Thẻ rút được ghi số chia hết cho $4$".
+
+  **Lời giải.** Có $n=20$ kết quả có khả năng như nhau. Các số chia hết cho $4$ trong khoảng từ $1$ đến $20$ là $4, 8, 12, 16, 20$, tức là $k=5$:
+
+  $$P(D)=\dfrac{5}{20}=\dfrac14.$$
+
+  Vậy xác suất rút được thẻ ghi số chia hết cho $4$ là $\dfrac14$.
+
+  **Kiểm tra.** Cứ $4$ số liên tiếp thì có một số chia hết cho $4$, nên tỉ lệ $\dfrac14$ là hợp lí.
+  :::
+
+[[P16·c3ea]]
+Có khi biến cố được mô tả bằng cách "không phải", và ta vẫn đếm từng kết quả.
+
+  :::example Vòng quay may mắn
+  Một vòng quay được chia thành $8$ phần bằng nhau: $3$ phần đỏ, $2$ phần xanh, $2$ phần vàng, $1$ phần trắng. Quay vòng quay một lần, mũi tên dừng ở một phần. Tính xác suất của biến cố $E$: "Mũi tên dừng ở phần đỏ" và biến cố $G$: "Mũi tên không dừng ở phần đỏ".
+
+  **Lời giải.** Các phần bằng nhau nên $n=8$ kết quả có khả năng như nhau. Với $E$ có $k=3$ phần đỏ. Với $G$, số phần không đỏ là $2+2+1=5$:
+
+  $$P(E)=\dfrac{3}{8},\qquad P(G)=\dfrac{5}{8}.$$
+
+  Vậy xác suất dừng ở phần đỏ là $\dfrac38$, xác suất không dừng ở phần đỏ là $\dfrac58$.
+
+  **Kiểm tra.** Hai xác suất cộng lại bằng $\dfrac38+\dfrac58=1$, vì mũi tên hoặc dừng ở phần đỏ, hoặc không.
+  :::
+
+[[P17·6205]]
+Bây giờ ta xem hai trường hợp đặc biệt: xác suất bằng $0$ và bằng $1$.
+
+  :::example Biến cố không thể và biến cố chắc chắn
+  Một hộp có $4$ bi xanh và $3$ bi đỏ. Lấy ngẫu nhiên một viên bi. Tính xác suất của biến cố $H$: "Lấy được bi vàng" và biến cố $K$: "Lấy được bi xanh hoặc bi đỏ".
+
+  **Lời giải.** Hộp có $n=4+3=7$ viên bi, mỗi viên có khả năng được lấy như nhau. Trong hộp không có bi vàng, nên $H$ có $k=0$. Mọi viên bi trong hộp đều xanh hoặc đỏ, nên $K$ có $k=7$:
+
+  $$P(H)=\dfrac{0}{7}=0,\qquad P(K)=\dfrac{7}{7}=1.$$
+
+  Vậy $H$ là biến cố không thể ($P=0$) và $K$ là biến cố chắc chắn ($P=1$).
+  :::
+
+[[P18·9ee9]]
+Ở ví dụ cuối, ta phải tự đếm số kết quả có thể.
+
+  :::example Số có hai chữ số
+  Chọn ngẫu nhiên một số tự nhiên có hai chữ số. Tính xác suất của biến cố $L$: "Số được chọn chia hết cho $10$".
+
+  **Lời giải.** Các số có hai chữ số là $10, 11, \dots, 99$. Số các số này là $99-10+1=90$, nên $n=90$. Các số chia hết cho $10$ là $10, 20, 30, 40, 50, 60, 70, 80, 90$, tức là $k=9$:
+
+  $$P(L)=\dfrac{9}{90}=\dfrac{1}{10}.$$
+
+  Vậy xác suất chọn được số chia hết cho $10$ là $\dfrac{1}{10}$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P19·993d]]
+- **Viết ngược tỉ số.** Sai: $P(\text{bi đỏ})=\dfrac{12}{5}$. Lí do sai: xác suất không thể lớn hơn $1$. Đúng: $\dfrac{5}{12}$, tức là số kết quả thuận lợi chia cho số kết quả có thể.
+- **Đếm nhầm kết quả thuận lợi.** Sai: số nguyên tố khi gieo xúc xắc là $1, 2, 3, 5$, nên $P=\dfrac46$. Lí do sai: $1$ không phải số nguyên tố. Đúng: $2, 3, 5$, nên $P=\dfrac36=\dfrac12$.
+- **Coi mọi màu có khả năng như nhau.** Sai: hộp có $3$ màu nên xác suất mỗi màu là $\dfrac13$. Lí do sai: các màu có số bi khác nhau. Đúng: coi mỗi viên bi là một kết quả, rồi đếm số bi của màu đó.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép thử | experiment
+  - kết quả có thể | possible outcome
+  - kết quả thuận lợi | favourable outcome
+  - biến cố | event
+  - biến cố chắc chắn | certain event
+  - biến cố không thể | impossible event
+  - xác suất | probability
+  - khả năng như nhau | equally likely
+  - xúc xắc cân đối | fair die
+  - đồng xu cân đối | fair coin
+  :::
+
+## Tóm tắt
+
+[[P20·c095]]
+- Nếu phép thử có $n$ kết quả có khả năng như nhau, trong đó $k$ kết quả thuận lợi cho biến cố $A$, thì $P(A)=\dfrac{k}{n}$.
+- Cách làm: đếm $n$, đếm $k$, rồi lập tỉ số và rút gọn.
+- Luôn có $0\le P(A)\le1$. Biến cố không thể có $P=0$, biến cố chắc chắn có $P=1$.
+- Muốn dùng công thức, các kết quả phải có khả năng như nhau. Trong bài toán chọn bi, ta coi mỗi viên bi là một kết quả.
+
+## Luyện tập
+
+[[P21·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g7/intro-to-probability – BẢN TIẾNG ANH ########
+---
+title: Getting to know the probability of an event
+description: Find the probability of an event when the outcomes are equally likely, as the ratio of favourable outcomes to possible outcomes.
+minutes: 20
+---
+
+  :::goals
+  - Identify the possible outcomes and the favourable outcomes of an event in an experiment.
+  - Find the probability of an event with the formula $P=\dfrac{k}{n}$ when the outcomes are equally likely.
+  - Know that a probability always lies between $0$ and $1$: an impossible event has probability $0$ and a certain event has probability $1$.
+  - Solve simple real-life problems about probability.
+  :::
+
+[[P1·828c]]
+A box holds $12$ marbles of the same size: $5$ red, $4$ blue and $3$ yellow. Minh closes his eyes and takes out one marble. Is he likely or unlikely to get a red marble?
+
+[[P2·e133]]
+We could say "quite likely" or "not very likely", but that is not precise. This lesson helps you measure that chance with a number. That number is called the probability.
+
+## Let's explore
+
+[[P3·476f]]
+We start with the simplest experiment: tossing a fair coin. There are two possible outcomes: heads (H) or tails (T). The coin is fair, so these two outcomes are equally likely.
+
+[[P4·acf1]]
+Consider the event $A$: "The coin lands heads". Only $1$ outcome makes $A$ happen, out of $2$ outcomes in total. We say the chance of $A$ is $1$ out of $2$, that is $\dfrac12$.
+
+[[P5·7983]]
+Now roll a fair die. There are $6$ possible outcomes: $1, 2, 3, 4, 5, 6$ dots, and they are equally likely. Consider the event $B$: "The score is even". The outcomes that make $B$ happen are $2, 4, 6$: there are $3$ of them.
+
+[[P6·e005]]
+We record these cases in a table:
+
+| Experiment | Number of possible outcomes | Event | Number of favourable outcomes | Chance |
+|---|---|---|---|---|
+| Toss a coin | $2$ | Heads | $1$ | $\dfrac12$ |
+| Roll a die | $6$ | Even score | $3$ | $\dfrac36=\dfrac12$ |
+| Roll a die | $6$ | A score of $6$ | $1$ | $\dfrac16$ |
+
+[[P7·006e]]
+In all three rows, the chance equals the number of favourable outcomes divided by the number of possible outcomes. The outcomes are equally likely, so each one takes exactly the same share of the total. With $k$ favourable outcomes, the event takes $k$ shares out of $n$.
+
+  :::definition The probability of an event
+  Suppose an experiment has $n$ possible outcomes and these outcomes are equally likely. If $k$ of them are favourable to the event $A$, then the **probability of the event $A$** is
+  $$P(A)=\dfrac{k}{n}.$$
+  :::
+
+[[P8·ce33]]
+Here an "outcome favourable to $A$" is an outcome that makes $A$ happen. Back to the opening problem: the box has $12$ marbles, $5$ of them red. Each marble is equally likely to be taken, so the probability of getting a red marble is $\dfrac{5}{12}$.
+
+## A probability always lies between 0 and 1
+
+[[P9·a00e]]
+The number of favourable outcomes $k$ cannot be negative and cannot be greater than the total number of outcomes $n$. So $0\le k\le n$. Dividing all three parts by $n$ (a positive number) gives $0\le\dfrac{k}{n}\le1$.
+
+[[P10·d737]]
+Two special cases to remember:
+
+[[P11·7fb7]]
+- If $k=0$ then $P(A)=0$: no outcome makes $A$ happen, so $A$ is an impossible event.
+- If $k=n$ then $P(A)=1$: every outcome makes $A$ happen, so $A$ is a certain event.
+
+  :::theorem The value of a probability
+  For every event $A$, $0\le P(A)\le1$. An impossible event has probability $0$. A certain event has probability $1$.
+  :::
+
+:::graph Every probability lies on the segment from 0 to 1
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P12·eeef]]
+The closer a probability is to $1$, the more likely the event is. The closer it is to $0$, the less likely the event is.
+
+## Examples
+
+[[P13·3b12]]
+We start with the marble problem from the beginning of the lesson.
+
+  :::example Marbles in a box
+  A box holds $12$ marbles of the same size: $5$ red, $4$ blue and $3$ yellow. One marble is taken at random. Find the probability of the event $A$: "A red marble is taken" and of the event $B$: "A blue marble is taken".
+
+  **Solution.** The marbles are the same size, so the $12$ possible outcomes are equally likely. Count the favourable outcomes of each event and form the ratio $\dfrac{k}{n}$ with $n=12$:
+
+  $$P(A)=\dfrac{5}{12},\qquad P(B)=\dfrac{4}{12}=\dfrac13.$$
+
+  For $B$ we simplify by dividing the numerator and the denominator by $4$. So the probability of a red marble is $\dfrac{5}{12}$ and the probability of a blue marble is $\dfrac13$.
+
+  **Check.** The three colours have $5+4+3=12$ marbles, which is exactly the total.
+  :::
+
+[[P14·f19b]]
+With a die, you must first list the favourable outcomes correctly.
+
+  :::example Rolling a die
+  Roll a fair die. Find the probability of the event $C$: "The score is a prime number".
+
+  **Solution.** The experiment has $n=6$ equally likely outcomes. Among $1, 2, 3, 4, 5, 6$, the prime numbers are $2, 3, 5$ ($1$ is not a prime number). So $k=3$:
+
+  $$P(C)=\dfrac{3}{6}=\dfrac12.$$
+
+  So the probability that the score is a prime number is $\dfrac12$.
+  :::
+
+[[P15·4cbd]]
+With more outcomes, you need to count carefully.
+
+  :::example Drawing a card
+  A bag holds $20$ cards numbered from $1$ to $20$. One card is drawn at random. Find the probability of the event $D$: "The number on the card is divisible by $4$".
+
+  **Solution.** There are $n=20$ equally likely outcomes. The numbers from $1$ to $20$ that are divisible by $4$ are $4, 8, 12, 16, 20$, so $k=5$:
+
+  $$P(D)=\dfrac{5}{20}=\dfrac14.$$
+
+  So the probability of drawing a card with a number divisible by $4$ is $\dfrac14$.
+
+  **Check.** One in every $4$ consecutive numbers is divisible by $4$, so a ratio of $\dfrac14$ makes sense.
+  :::
+
+[[P16·e896]]
+Sometimes an event is described with "not", and we still count each outcome.
+
+  :::example A lucky spinner
+  A spinner is divided into $8$ equal parts: $3$ red, $2$ blue, $2$ yellow and $1$ white. The spinner is spun once and the arrow stops on one part. Find the probability of the event $E$: "The arrow stops on red" and of the event $G$: "The arrow does not stop on red".
+
+  **Solution.** The parts are equal, so there are $n=8$ equally likely outcomes. For $E$ there are $k=3$ red parts. For $G$, the number of parts that are not red is $2+2+1=5$:
+
+  $$P(E)=\dfrac{3}{8},\qquad P(G)=\dfrac{5}{8}.$$
+
+  So the probability of stopping on red is $\dfrac38$ and the probability of not stopping on red is $\dfrac58$.
+
+  **Check.** The two probabilities add up to $\dfrac38+\dfrac58=1$, because the arrow either stops on red or it does not.
+  :::
+
+[[P17·d375]]
+Now look at the two special cases: probability $0$ and probability $1$.
+
+  :::example An impossible event and a certain event
+  A box holds $4$ blue marbles and $3$ red marbles. One marble is taken at random. Find the probability of the event $H$: "A yellow marble is taken" and of the event $K$: "A blue or a red marble is taken".
+
+  **Solution.** The box has $n=4+3=7$ marbles, each equally likely to be taken. There are no yellow marbles, so $H$ has $k=0$. Every marble in the box is blue or red, so $K$ has $k=7$:
+
+  $$P(H)=\dfrac{0}{7}=0,\qquad P(K)=\dfrac{7}{7}=1.$$
+
+  So $H$ is an impossible event ($P=0$) and $K$ is a certain event ($P=1$).
+  :::
+
+[[P18·97c8]]
+In the last example, you have to count the possible outcomes yourself.
+
+  :::example Two-digit numbers
+  A two-digit natural number is chosen at random. Find the probability of the event $L$: "The chosen number is divisible by $10$".
+
+  **Solution.** The two-digit numbers are $10, 11, \dots, 99$. There are $99-10+1=90$ of them, so $n=90$. The numbers divisible by $10$ are $10, 20, 30, 40, 50, 60, 70, 80, 90$, so $k=9$:
+
+  $$P(L)=\dfrac{9}{90}=\dfrac{1}{10}.$$
+
+  So the probability of choosing a number divisible by $10$ is $\dfrac{1}{10}$.
+  :::
+
+:::warning Common mistakes
+[[P19·9d49]]
+- **Writing the ratio upside down.** Wrong: $P(\text{red})=\dfrac{12}{5}$. Why it is wrong: a probability cannot be greater than $1$. Right: $\dfrac{5}{12}$, the number of favourable outcomes divided by the number of possible outcomes.
+- **Miscounting the favourable outcomes.** Wrong: the prime scores on a die are $1, 2, 3, 5$, so $P=\dfrac46$. Why it is wrong: $1$ is not a prime number. Right: $2, 3, 5$, so $P=\dfrac36=\dfrac12$.
+- **Treating every colour as equally likely.** Wrong: the box has $3$ colours, so each colour has probability $\dfrac13$. Why it is wrong: the colours have different numbers of marbles. Right: treat each marble as one outcome and count the marbles of that colour.
+:::
+
+## Key terms
+
+  :::terms
+  - experiment | phép thử
+  - possible outcome | kết quả có thể
+  - favourable outcome | kết quả thuận lợi
+  - event | biến cố
+  - certain event | biến cố chắc chắn
+  - impossible event | biến cố không thể
+  - probability | xác suất
+  - equally likely | khả năng như nhau
+  - fair die | xúc xắc cân đối
+  - fair coin | đồng xu cân đối
+  :::
+
+## Summary
+
+[[P20·9765]]
+- If an experiment has $n$ equally likely outcomes and $k$ of them are favourable to the event $A$, then $P(A)=\dfrac{k}{n}$.
+- Method: count $n$, count $k$, then form the ratio and simplify.
+- Always $0\le P(A)\le1$. An impossible event has $P=0$; a certain event has $P=1$.
+- To use the formula, the outcomes must be equally likely. When choosing marbles, treat each marble as one outcome.
+
+## Practice
+
+[[P21·e420]]
+Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

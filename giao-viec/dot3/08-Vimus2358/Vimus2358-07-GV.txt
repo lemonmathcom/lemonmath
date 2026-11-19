@@ -6,7 +6,7 @@ Kết quả: file Vimus2358-07-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/vie
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vimus2358-07-GV
-Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g11/perpendicular-planes
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g9/event-probability-experiments, g9/frequency-tables-charts, g9/function-y-equals-ax2, g9/g9-equation-word-problems
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/Vimus2358-07-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  /mnt/user-data/outputs/Vimus2358-07-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file Vimus2358-07-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,282 +135,180 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g11/perpendicular-planes – BẢN TIẾNG VIỆT ########
+######## BÀI g9/event-probability-experiments – BẢN TIẾNG VIỆT ########
 ---
-title: Hai mặt phẳng vuông góc
-description: Hiểu góc nhị diện, góc giữa hai mặt phẳng, điều kiện hai mặt phẳng vuông góc và tính góc giữa các mặt trong lăng trụ đứng, hình chóp đều.
+title: Xác suất của biến cố liên quan tới phép thử
+description: Nhận biết biến cố và kết quả thuận lợi, tính xác suất bằng cách đếm khi các kết quả đồng khả năng, dùng xác suất để đánh giá trò chơi.
 minutes: 20
 ---
 
   :::goals
-  - Nhận biết góc nhị diện và xác định góc phẳng nhị diện.
-  - Xác định và tính góc giữa hai mặt phẳng cắt nhau.
-  - Chứng minh hai mặt phẳng vuông góc và dùng tính chất của hai mặt phẳng vuông góc.
-  - Nhận biết lăng trụ đứng, lăng trụ đều, hình hộp chữ nhật, hình chóp đều và tính góc giữa các mặt của chúng.
+  - Nhận biết biến cố liên quan tới phép thử và các kết quả thuận lợi cho biến cố.
+  - Tính được xác suất của biến cố bằng công thức $P(A)=\dfrac kn$ khi các kết quả đồng khả năng.
+  - Dùng xác suất để đánh giá tính công bằng của trò chơi và giải bài toán thực tế.
   :::
 
-[[P1·a866]]
-Màn hình laptop quay quanh bản lề, là một đường thẳng $d$ nằm trên đế. Lấy $H$ trên bản lề, điểm $A$ trên đế và điểm $B$ trên màn hình sao cho $HA$ và $HB$ đều vuông góc với bản lề và dài $20$ cm.
+[[P1·2263]]
+Giả sử trong một trò chơi, bạn được "xuất quân" khi gieo hai con xúc xắc mà có ít nhất một mặt 6 chấm. Nam lập luận: "Mỗi con có khả năng ra mặt 6 là $\dfrac16$, hai con thì $\dfrac16+\dfrac16=\dfrac13$." Nghe hợp lí. Nhưng theo cách đó, sáu con xúc xắc sẽ cho $1$, tức là *chắc chắn* có mặt 6, trong khi sáu con vẫn có thể không con nào ra 6. Vậy Nam sai ở đâu, và xác suất đúng là bao nhiêu? Bài này cho ta một công cụ chắc chắn: liệt kê không gian mẫu rồi đếm.
 
-[[P2·3786]]
-Khi nào màn hình thẳng đứng so với đế? Nếu đo được $AB=20\sqrt2$ cm thì ta có kết luận được không?
+## Biến cố và kết quả thuận lợi
 
-[[P3·e0a0]]
-Để trả lời, ta cần đo "độ mở" giữa hai mặt phẳng.
+[[P2·b72d]]
+Ở bài [không gian mẫu](lesson:random-experiments-sample-space), ta đã liệt kê mọi kết quả có thể. Bây giờ ta xét các *sự kiện* gắn với phép thử, như "tổng số chấm bằng 7".
 
-## Góc nhị diện
-
-### Khám phá: mở màn hình laptop
-
-[[P4·27a4]]
-Gọi $\theta=\widehat{AHB}$ là góc mở. Vì $HA=HB=20$, ta tính $AB$ với vài giá trị của $\theta$:
-
-| $\theta$ | $60^\circ$ | $90^\circ$ | $120^\circ$ |
-|---|---|---|---|
-| $AB$ | $20$ | $20\sqrt2\approx28{,}28$ | $20\sqrt3\approx34{,}64$ |
-
-[[P5·5f62]]
-Với $\theta=60^\circ$, tam giác $AHB$ đều nên $AB=20$. Với $\theta=90^\circ$, định lí Pythagore cho $AB=\sqrt{20^2+20^2}=20\sqrt2$. Với $\theta=120^\circ$, tam giác cân $AHB$ cho $AB=2\cdot20\cdot\sin60^\circ=20\sqrt3$.
-
-[[P6·861f]]
-Ngược lại, nếu $AB^2=800=HA^2+HB^2$ thì theo định lí Pythagore đảo, $\widehat{AHB}=90^\circ$. Vậy $AB=20\sqrt2$ cm cho biết màn hình thẳng đứng. Góc $\widehat{AHB}$ chính là thứ ta gọi là góc phẳng nhị diện.
-
-  :::definition Góc nhị diện
-  Hình gồm hai nửa mặt phẳng $(\alpha)$, $(\beta)$ có chung bờ $d$ gọi là **góc nhị diện**; $d$ là **cạnh**, hai nửa mặt phẳng là hai **mặt** của góc nhị diện.
+  :::definition Biến cố và kết quả thuận lợi
+  - Một **biến cố** liên quan tới phép thử là một sự kiện mà việc nó xảy ra hay không xảy ra tuỳ thuộc vào kết quả của phép thử.
+  - Một kết quả của phép thử làm cho biến cố $A$ xảy ra gọi là một **kết quả thuận lợi** cho $A$.
   :::
 
-  :::definition Góc phẳng nhị diện
-  Lấy $O\in d$. Trong $(\alpha)$ kẻ tia $Ox\perp d$, trong $(\beta)$ kẻ tia $Oy\perp d$. Góc $\widehat{xOy}$ gọi là **góc phẳng** của góc nhị diện, và **số đo của góc nhị diện** bằng số đo của $\widehat{xOy}$ (từ $0^\circ$ đến $180^\circ$).
+  :::example Liệt kê kết quả thuận lợi
+  Tung hai đồng xu. Xét các biến cố $A$: "Hai đồng xu xuất hiện cùng mặt" và $B$: "Có ít nhất một đồng xu xuất hiện mặt ngửa". Liệt kê các kết quả thuận lợi cho $A$ và cho $B$.
+
+  **Lời giải.** Không gian mẫu là $\Omega=\{(S; S);\ (S; N);\ (N; S);\ (N; N)\}$.
+
+  Các kết quả thuận lợi cho $A$ là $(S; S)$, $(N; N)$.
+
+  Các kết quả thuận lợi cho $B$ là $(S; N)$, $(N; S)$, $(N; N)$.
+
+  Vậy $A$ có $2$, $B$ có $3$ kết quả thuận lợi.
   :::
 
-[[P7·25ce]]
-Số đo này không phụ thuộc vào vị trí của $O$: khi dời $O$ dọc theo $d$, các tia mới song song và cùng hướng với các tia cũ, nên hai góc bằng nhau.
+## Tính xác suất của biến cố
 
-:::diagram Góc phẳng nhị diện
-   (… 18 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+[[P3·8f0b]]
+Khi tung hai đồng xu cân đối, không có lí do gì để kết quả này dễ xảy ra hơn kết quả kia: bốn kết quả **đồng khả năng**, mỗi kết quả "chiếm" $\dfrac14$ cơ hội. Biến cố $A$ ở trên chiếm $2$ trong $4$ phần ấy, nên xác suất của $A$ là $\dfrac24=\dfrac12$.
+
+  :::theorem Công thức tính xác suất
+  Giả sử các kết quả có thể của một phép thử là đồng khả năng. Khi đó, xác suất của biến cố $A$ là
+  $$P(A)=\frac{k}{n},$$
+  trong đó $n$ là số phần tử của không gian mẫu, $k$ là số kết quả thuận lợi cho $A$.
+  :::
+
+[[P4·673e]]
+**Hiểu sâu hơn.** Vì $0\leq k\leq n$ nên $0\leq P(A)\leq1$: **biến cố không thể** (không có kết quả thuận lợi) có xác suất $0$, **biến cố chắc chắn** (mọi kết quả đều thuận lợi) có xác suất $1$. Công thức chỉ đúng khi các kết quả *đồng khả năng*. Nếu ghi "số mặt ngửa" khi tung hai đồng xu, ta có ba kết quả $0$, $1$, $2$, nhưng chúng không đồng khả năng ($1$ mặt ngửa ứng với hai kết quả $(S; N)$, $(N; S)$), nên xác suất của "1 mặt ngửa" không phải $\dfrac13$ mà là $\dfrac24=\dfrac12$. Đó là lí do ta luôn mô tả kết quả "đủ chi tiết", như cặp có thứ tự.
+
+  :::example Tổng 7 hay tổng 8?
+  Gieo hai con xúc xắc cân đối. Tính xác suất của các biến cố $A$: "Tổng số chấm bằng $7$" và $B$: "Tổng số chấm bằng $8$". Biến cố nào có xác suất lớn hơn?
+
+  **Lời giải.** Không gian mẫu gồm $36$ kết quả đồng khả năng $(i; j)$.
+
+  Các kết quả thuận lợi cho $A$ là $(1; 6)$, $(2; 5)$, $(3; 4)$, $(4; 3)$, $(5; 2)$, $(6; 1)$, nên $P(A)=\dfrac{6}{36}=\dfrac16$.
+
+  Các kết quả thuận lợi cho $B$ là $(2; 6)$, $(3; 5)$, $(4; 4)$, $(5; 3)$, $(6; 2)$, nên $P(B)=\dfrac{5}{36}$.
+
+  Vậy $P(A)=\dfrac16>P(B)=\dfrac{5}{36}$: tổng $7$ dễ xảy ra hơn tổng $8$.
+
+  **Nhận xét.** Tổng $7$ gồm ba cặp số khác nhau, mỗi cặp cho hai kết quả; tổng $8$ chỉ có hai cặp như vậy, còn $(4; 4)$ cho một kết quả.
+  :::
+
+  :::example Ít nhất một mặt 6
+  Trở lại bài toán mở đầu: gieo hai con xúc xắc cân đối. Tính xác suất của biến cố $C$: "Có ít nhất một con xúc xắc ra mặt 6 chấm".
+
+  **Lời giải.**
+
+  *Hiểu đề.* $C$ xảy ra khi xúc xắc thứ nhất ra 6, hoặc xúc xắc thứ hai ra 6, hoặc cả hai.
+
+  *Tìm cách giải.* Đếm các ô thuận lợi trong bảng $6\times6$: hàng thứ sáu và cột thứ sáu.
+
+  *Giải.* Hàng $i=6$ có $6$ kết quả, cột $j=6$ có $6$ kết quả, nhưng ô $(6; 6)$ nằm ở cả hai nên số kết quả thuận lợi là $k=6+6-1=11$. Do đó
+
+  $$P(C)=\frac{11}{36}.$$
+
+  Vậy xác suất để xuất quân là $\dfrac{11}{36}$, nhỏ hơn $\dfrac13=\dfrac{12}{36}$ mà Nam tính.
+
+  *Nhìn lại.* Nam sai vì đã cộng hai lần kết quả $(6; 6)$. Có cách khác không? Đếm các kết quả *không* có mặt 6: mỗi con có $5$ mặt khác 6, nên có $5\cdot5=25$ kết quả, suy ra $k=36-25=11$. Cách đếm "phần bù" này rất hữu ích khi biến cố có chữ "ít nhất".
+  :::
+
+:::graph Các kết quả có ít nhất một mặt 6
+   (… 16 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-### Góc giữa hai mặt phẳng
+[[P5·cbbd]]
+Trên hình, trục $x$ là số chấm của xúc xắc thứ nhất, trục $y$ là của xúc xắc thứ hai. Hàng và cột được tô chồng lên nhau đúng ở ô $(6; 6)$: đó là chỗ Nam đã đếm hai lần.
 
-[[P8·97c6]]
-Hai mặt phẳng cắt nhau tạo ra bốn góc nhị diện. Hai góc kề nhau có tổng số đo bằng $180^\circ$, nên ta chọn góc không vượt quá $90^\circ$ để đo độ mở.
+## Vận dụng trong thực tế
 
-  :::definition Góc giữa hai mặt phẳng
-  Nếu hai mặt phẳng $(\alpha)$, $(\beta)$ cắt nhau và một góc nhị diện tạo bởi chúng có góc phẳng $\varphi$, thì **góc giữa** $(\alpha)$ và $(\beta)$ bằng $\varphi$ khi $\varphi\le90^\circ$ và bằng $180^\circ-\varphi$ khi $\varphi>90^\circ$. Nếu hai mặt phẳng song song hoặc trùng nhau, góc giữa chúng bằng $0^\circ$.
+[[P6·d046]]
+Công thức $P(A)=\dfrac kn$ dùng được cho mọi tình huống chọn ngẫu nhiên: bốc thăm, rút phiếu, chọn người.
 
-  Hai mặt phẳng **vuông góc** khi góc giữa chúng bằng $90^\circ$; ta viết $(\alpha)\perp(\beta)$.
-  :::
+  :::example Rút phiếu bốc thăm trúng thưởng
+  Giả sử một cửa hàng có hộp đựng $5$ phiếu giống nhau, trong đó $2$ phiếu trúng thưởng. Mỗi khách rút ngẫu nhiên đồng thời $2$ phiếu. Tính xác suất để khách trúng ít nhất một phần thưởng.
 
-:::note Cách tìm góc giữa hai mặt phẳng cắt nhau
-[[P9·bf6e]]
-1. Tìm giao tuyến $d$ của hai mặt phẳng.
-2. Trong mỗi mặt phẳng, tìm một đường thẳng vuông góc với $d$ tại cùng một điểm.
-3. Tính góc giữa hai đường thẳng đó; nếu góc tù thì lấy góc bù.
-:::
+  **Lời giải.** Kí hiệu hai phiếu trúng là $T_1$, $T_2$ và ba phiếu không trúng là $K_1$, $K_2$, $K_3$. Rút đồng thời nên mỗi kết quả là một cặp không thứ tự; không gian mẫu gồm $10$ kết quả đồng khả năng:
 
-[[P10·adcf]]
-Ta áp dụng ngay trong hình lập phương.
+  $$T_1T_2,\ T_1K_1,\ T_1K_2,\ T_1K_3,\ T_2K_1,\ T_2K_2,\ T_2K_3,\ K_1K_2,\ K_1K_3,\ K_2K_3.$$
 
-:::diagram Mặt phẳng $(A'BCD')$ cắt đáy $(ABCD)$ theo $BC$
-   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
+  Các kết quả không trúng là $K_1K_2$, $K_1K_3$, $K_2K_3$, nên số kết quả thuận lợi là $k=10-3=7$.
 
-  :::example Góc giữa hai mặt phẳng trong hình lập phương
-  Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa $(A'BCD')$ và $(ABCD)$.
+  Vậy xác suất khách trúng ít nhất một phần thưởng là $\dfrac{7}{10}$.
 
-  **Lời giải.** Hai mặt phẳng cắt nhau theo $BC$, nên ta tìm trong mỗi mặt phẳng một đường thẳng vuông góc với $BC$ tại $B$. Trong $(ABCD)$ đó là $BA$, vì $AB\perp BC$. Trong $(A'BCD')$ đó là $BA'$, vì $BC\perp(ABB'A')$ nên $BC\perp BA'$.
-
-  Vậy góc phẳng nhị diện là $\widehat{ABA'}$. Tam giác $ABA'$ vuông cân tại $A$ vì $AA'=AB$ và $AA'\perp AB$:
-
-  $$\widehat{ABA'}=45^\circ.$$
-
-  Vậy góc giữa $(A'BCD')$ và $(ABCD)$ bằng $45^\circ$.
-  :::
-
-## Hai mặt phẳng vuông góc
-
-[[P11·6a0c]]
-Làm sao biết hai mặt phẳng vuông góc mà không cần đo góc? Câu trả lời nằm ở một đường thẳng vuông góc với mặt phẳng.
-
-  :::theorem Điều kiện để hai mặt phẳng vuông góc
-  Nếu mặt phẳng $(\alpha)$ chứa một đường thẳng $a$ vuông góc với mặt phẳng $(\beta)$ thì $(\alpha)\perp(\beta)$.
-  :::
-
-[[P12·41cc]]
-Thật vậy, gọi $d$ là giao tuyến và $O$ là giao điểm của $a$ với $(\beta)$; khi đó $O\in d$. Vì $a\perp(\beta)$ nên $a\perp d$. Trong $(\beta)$ kẻ $Oy\perp d$; vì $a\perp(\beta)$ nên cũng có $a\perp Oy$. Vậy $a$ và $Oy$ cùng vuông góc với $d$ và vuông góc với nhau, tức là góc phẳng nhị diện bằng $90^\circ$.
-
-[[P13·6e0c]]
-Chiều ngược lại cho ta những tính chất hay dùng nhất khi tính toán.
-
-  :::theorem Tính chất của hai mặt phẳng vuông góc
-  Cho $(\alpha)\perp(\beta)$ có giao tuyến $d$.
-  - Nếu đường thẳng $a\subset(\alpha)$ và $a\perp d$ thì $a\perp(\beta)$.
-  - Nếu hai mặt phẳng cắt nhau cùng vuông góc với một mặt phẳng thứ ba thì giao tuyến của chúng vuông góc với mặt phẳng thứ ba đó.
-  :::
-
-[[P14·71a3]]
-Với tính chất thứ nhất: gọi $O=a\cap d$ và kẻ $Oy\perp d$ trong $(\beta)$. Góc phẳng nhị diện là $90^\circ$ nên $a\perp Oy$. Đường thẳng $a$ vuông góc với hai đường thẳng cắt nhau $d$ và $Oy$ của $(\beta)$, nên $a\perp(\beta)$. Tính chất thứ hai ta dùng như một kết quả có sẵn.
-
-:::diagram Hình chóp $S.ABCD$ có $SA\perp(ABCD)$
-   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-  :::example Chứng minh hai mặt phẳng vuông góc
-  Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $4$, $SA\perp(ABCD)$ và $SA=4\sqrt3$. Chứng minh
-  a) $(SAB)\perp(ABCD)$; b) $(SBC)\perp(SAB)$; c) $(SBD)\perp(SAC)$.
-  Sau đó tính góc giữa $(SBC)$ và $(ABCD)$.
-
-  **Lời giải.** Mỗi câu ta tìm một đường thẳng nằm trong mặt phẳng này và vuông góc với mặt phẳng kia.
-
-  a) Mặt phẳng $(SAB)$ chứa $SA$, mà $SA\perp(ABCD)$. Vậy $(SAB)\perp(ABCD)$.
-
-  b) $BC\perp AB$ (hình vuông) và $BC\perp SA$ (vì $SA\perp(ABCD)$). Vậy $BC\perp(SAB)$. Mặt phẳng $(SBC)$ chứa $BC$, nên $(SBC)\perp(SAB)$.
-
-  c) $BD\perp AC$ (hai đường chéo của hình vuông) và $BD\perp SA$. Vậy $BD\perp(SAC)$. Mặt phẳng $(SBD)$ chứa $BD$, nên $(SBD)\perp(SAC)$.
-
-  Góc giữa $(SBC)$ và $(ABCD)$: giao tuyến là $BC$, ta có $BA\perp BC$ và $BS\perp BC$ (theo câu b, vì $BC\perp(SAB)$). Góc phẳng nhị diện là $\widehat{SBA}$, trong tam giác $SAB$ vuông tại $A$:
-
-  $$\tan\widehat{SBA}=\frac{SA}{AB}=\frac{4\sqrt3}{4}=\sqrt3\Rightarrow\widehat{SBA}=60^\circ.$$
-
-  Vậy góc giữa $(SBC)$ và $(ABCD)$ bằng $60^\circ$.
-  :::
-
-[[P15·beaf]]
-Khi một mặt bên nằm trong mặt phẳng vuông góc với đáy, đường cao của hình chóp nằm ngay trong mặt bên đó.
-
-  :::example Mặt bên vuông góc với đáy
-  Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật với $AB=6$, $BC=4$. Tam giác $SAB$ đều và nằm trong mặt phẳng vuông góc với $(ABCD)$. Tính chiều cao $SH$ với $H$ là trung điểm của $AB$, rồi tính góc giữa $SC$ và $(ABCD)$ (làm tròn đến hàng phần mười của độ).
-
-  **Lời giải.** Tam giác $SAB$ đều nên đường trung tuyến $SH$ cũng là đường cao, tức $SH\perp AB$. Đường thẳng $SH$ nằm trong $(SAB)$ và vuông góc với giao tuyến $AB$, mà $(SAB)\perp(ABCD)$, nên $SH\perp(ABCD)$. Chiều cao là
-
-  $$SH=\frac{6\sqrt3}{2}=3\sqrt3.$$
-
-  Vì $SH\perp(ABCD)$ nên $H$ là hình chiếu của $S$, và góc giữa $SC$ với $(ABCD)$ là $\widehat{SCH}$. Tam giác $HBC$ vuông tại $B$ cho $HC=\sqrt{3^2+4^2}=5$, rồi tam giác $SHC$ vuông tại $H$:
-
-  $$\tan\widehat{SCH}=\frac{SH}{HC}=\frac{3\sqrt3}{5}\approx1{,}039\Rightarrow\widehat{SCH}\approx46{,}1^\circ.$$
-
-  Vậy chiều cao là $3\sqrt3$ và góc giữa $SC$ với $(ABCD)$ xấp xỉ $46{,}1^\circ$.
-  :::
-
-## Lăng trụ đứng và hình chóp đều
-
-[[P16·c6b9]]
-Các hình sau xuất hiện thường xuyên trong bài toán về góc giữa hai mặt phẳng.
-
-[[P17·f395]]
-- **Lăng trụ đứng** có cạnh bên vuông góc với mặt đáy. Mỗi mặt bên là hình chữ nhật chứa một cạnh bên, nên theo điều kiện ở trên, mỗi mặt bên vuông góc với đáy.
-- **Lăng trụ đều** là lăng trụ đứng có đáy là đa giác đều. **Hình hộp đứng** là lăng trụ đứng có đáy là hình bình hành; **hình hộp chữ nhật** có đáy là hình chữ nhật; **hình lập phương** có mọi mặt là hình vuông.
-- **Hình chóp đều** có đáy là đa giác đều và chân đường cao là tâm của đáy. Các cạnh bên bằng nhau, các mặt bên là những tam giác cân bằng nhau, và đường cao kẻ từ đỉnh của một mặt bên gọi là **trung đoạn**.
-- **Hình chóp cụt đều** là phần của hình chóp đều nằm giữa đáy và một mặt phẳng song song với đáy cắt các cạnh bên. Hai đáy là hai đa giác đều đồng dạng, các mặt bên là những hình thang cân bằng nhau.
-
-  :::example Lăng trụ đứng
-  Cho lăng trụ đứng $ABC.A'B'C'$ có đáy $ABC$ vuông tại $A$, $AB=3$, $AC=4$ và $AA'=1{,}8$. Tính góc giữa $(A'BC)$ và $(ABC)$ (làm tròn đến hàng phần mười của độ).
-
-  **Lời giải.** Giao tuyến của hai mặt phẳng là $BC$. Kẻ $AH\perp BC$ tại $H$ trong $(ABC)$. Vì $AA'\perp(ABC)$ nên $BC\perp AA'$, do đó $BC\perp(A'AH)$ và suy ra $BC\perp A'H$. Góc phẳng nhị diện là $\widehat{A'HA}$.
-
-  Tính $AH$ từ diện tích tam giác vuông $ABC$ (với $BC=5$):
-
-  $$AH=\frac{AB\cdot AC}{BC}=\frac{3\cdot4}{5}=2{,}4,\qquad\tan\widehat{A'HA}=\frac{AA'}{AH}=\frac{1{,}8}{2{,}4}=0{,}75.$$
-
-  Do đó $\widehat{A'HA}\approx36{,}9^\circ$. Vậy góc giữa $(A'BC)$ và $(ABC)$ xấp xỉ $36{,}9^\circ$.
-  :::
-
-[[P18·d566]]
-Với hình chóp đều, mặt bên và đáy cắt nhau theo một cạnh đáy, và trung điểm của cạnh đó giúp ta tìm góc phẳng.
-
-  :::example Hình chóp tứ giác đều
-  Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $6$ và cạnh bên bằng $5$. Gọi $O$ là tâm của đáy.
-  a) Chứng minh $(SAC)\perp(ABCD)$.
-  b) Tính góc giữa $(SBC)$ và $(ABCD)$ (làm tròn đến hàng phần mười của độ).
-
-  **Lời giải.** a) Vì $S.ABCD$ là hình chóp đều nên $SO\perp(ABCD)$. Mặt phẳng $(SAC)$ chứa $SO$, vậy $(SAC)\perp(ABCD)$.
-
-  b) Gọi $M$ là trung điểm của $BC$. Hình vuông cho $OM\perp BC$, tam giác $SBC$ cân tại $S$ cho $SM\perp BC$. Vậy góc phẳng nhị diện là $\widehat{SMO}$. Ta có $OM=\dfrac{6}{2}=3$ và $SM=\sqrt{SB^2-BM^2}=\sqrt{25-9}=4$. Trong tam giác $SOM$ vuông tại $O$:
-
-  $$\cos\widehat{SMO}=\frac{OM}{SM}=\frac34\Rightarrow\widehat{SMO}\approx41{,}4^\circ.$$
-
-  Vậy góc giữa $(SBC)$ và $(ABCD)$ xấp xỉ $41{,}4^\circ$.
-
-  **Kiểm tra.** Chiều cao $SO=\sqrt{SM^2-OM^2}=\sqrt7$, và $SB^2=SO^2+OB^2=7+18=25$, đúng với cạnh bên $5$.
+  **Nhận xét.** Phiếu "giống nhau" vẫn là các vật riêng biệt; đặt tên $T_1$, $T_2$, … giúp các kết quả đồng khả năng.
   :::
 
 :::warning Những sai lầm thường gặp
-[[P19·ea8a]]
-- **Lấy hai đường thẳng tuỳ ý.** Sai: góc giữa hai mặt phẳng bằng góc giữa hai đường thẳng bất kì, mỗi đường nằm trong một mặt phẳng. Lí do sai: hai đường thẳng đó có thể không vuông góc với giao tuyến. Đúng: lấy hai đường thẳng cùng vuông góc với giao tuyến tại một điểm.
-- **Quên đổi góc tù.** Sai: góc phẳng nhị diện là $120^\circ$ nên góc giữa hai mặt phẳng là $120^\circ$. Lí do sai: góc giữa hai mặt phẳng không vượt quá $90^\circ$. Đúng: $180^\circ-120^\circ=60^\circ$.
-- **Cho rằng mọi đường thẳng trong $(\alpha)$ đều vuông góc với $(\beta)$.** Sai: $(\alpha)\perp(\beta)$ nên mọi đường thẳng của $(\alpha)$ vuông góc với $(\beta)$. Lí do sai: chỉ những đường thẳng vuông góc với giao tuyến mới vuông góc với $(\beta)$. Đúng: $a\subset(\alpha)$ và $a\perp d$.
-- **Thiếu điều kiện vuông góc với giao tuyến.** Sai: $(SAB)\perp(ABCD)$ nên $SA\perp(ABCD)$ với mọi tam giác $SAB$. Lí do sai: phải có $SA\perp AB$ (vuông góc với giao tuyến) mới suy ra được. Đúng: kiểm tra $SA\perp AB$ rồi mới kết luận.
+[[P7·0e52]]
+- **Dùng không gian mẫu không đồng khả năng.** Sai: khi tung hai đồng xu, $P(\text{1 mặt ngửa})=\dfrac13$. Đúng: $\dfrac24=\dfrac12$.
+- **Đếm trùng** (như Nam ở đầu bài). Sai: $P(\text{có ít nhất một mặt 6})=\dfrac{12}{36}$. Đúng: $(6; 6)$ chỉ đếm một lần, được $\dfrac{11}{36}$.
 :::
+
+[[P8·2e34]]
+**Kết nối.** Ở lớp 8, bạn đã thấy khi lặp lại phép thử nhiều lần, tần số tương đối của một biến cố gần với xác suất của nó. Bài này cho cách tính xác suất *trước* khi thí nghiệm. Ở lớp 10, hoán vị, chỉnh hợp, tổ hợp giúp tính xác suất khi không gian mẫu quá lớn để liệt kê.
 
 ## Thuật ngữ
 
   :::terms
-  - góc nhị diện | dihedral angle
-  - cạnh của góc nhị diện | edge of a dihedral angle
-  - góc phẳng nhị diện | plane angle of a dihedral angle
-  - góc giữa hai mặt phẳng | angle between two planes
-  - hai mặt phẳng vuông góc | perpendicular planes
-  - giao tuyến | line of intersection
-  - lăng trụ đứng | right prism
-  - lăng trụ đều | regular prism
-  - hình hộp chữ nhật | cuboid
-  - hình chóp đều | regular pyramid
-  - trung đoạn | slant height
-  - hình chóp cụt đều | frustum of a regular pyramid
+  - biến cố | event
+  - kết quả thuận lợi | favourable outcome
+  - đồng khả năng | equally likely
+  - xác suất của biến cố | probability of an event
+  - xúc xắc cân đối | fair dice
+  - biến cố chắc chắn | certain event
+  - biến cố không thể | impossible event
   :::
 
 ## Tóm tắt
 
-[[P20·c709]]
-- Góc phẳng nhị diện $\widehat{xOy}$: $Ox\subset(\alpha)$, $Oy\subset(\beta)$ cùng vuông góc với giao tuyến $d$ tại $O$.
-- Góc giữa hai mặt phẳng cắt nhau là góc nhị diện không tù: $\varphi$ nếu $\varphi\le90^\circ$, $180^\circ-\varphi$ nếu $\varphi>90^\circ$.
-- $(\alpha)\perp(\beta)$ khi góc giữa chúng bằng $90^\circ$; chỉ cần $(\alpha)$ chứa một đường thẳng vuông góc với $(\beta)$.
-- Nếu $(\alpha)\perp(\beta)$ và $a\subset(\alpha)$, $a\perp d$ thì $a\perp(\beta)$. Hai mặt phẳng cắt nhau cùng vuông góc với mặt phẳng thứ ba thì giao tuyến vuông góc với mặt phẳng đó.
-- Lăng trụ đứng: các mặt bên vuông góc với đáy. Hình chóp đều: chân đường cao là tâm đáy; góc giữa mặt bên và đáy là $\widehat{SMO}$ với $M$ là trung điểm cạnh đáy.
+[[P9·23b9]]
+- Kết quả thuận lợi cho $A$: kết quả làm $A$ xảy ra.
+- Các kết quả đồng khả năng: $P(A)=\dfrac kn$ ($k$ kết quả thuận lợi, $n$ phần tử của $\Omega$); $0\leq P(A)\leq1$.
+- Mô tả kết quả đủ chi tiết (cặp có thứ tự, đặt tên các vật giống nhau) để chúng đồng khả năng.
+- Với "ít nhất một", có thể đếm các kết quả không thuận lợi rồi lấy $n$ trừ đi.
 
 ## Luyện tập
 
-[[P21·b0c6]]
+[[P10·b0c6]]
 Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 38 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Ôn tập
-   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
-   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -420,282 +318,1432 @@ Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm tr
 :::
 
 
-######## BÀI g11/perpendicular-planes – BẢN TIẾNG ANH ########
+######## BÀI g9/event-probability-experiments – BẢN TIẾNG ANH ########
 ---
-title: Perpendicular planes
-description: Learn dihedral angles, the angle between two planes, the test for perpendicular planes, and how to find angles in right prisms and regular pyramids.
+title: Probability of events in an experiment
+description: Recognise events and favourable outcomes, find probabilities by counting when outcomes are equally likely, and use them to judge games.
 minutes: 20
 ---
 
   :::goals
-  - Recognise a dihedral angle and find its plane angle.
-  - Find and calculate the angle between two intersecting planes.
-  - Prove that two planes are perpendicular and use the properties of perpendicular planes.
-  - Recognise right prisms, regular prisms, cuboids and regular pyramids, and find the angles between their faces.
+  - Recognise events connected with an experiment and the outcomes favourable to an event.
+  - Find the probability of an event with the formula $P(A)=\dfrac kn$ when the outcomes are equally likely.
+  - Use probability to judge whether a game is fair and to solve real-life problems.
   :::
 
-[[P1·c0e1]]
-A laptop screen turns about its hinge, which is a line $d$ lying in the base. Take a point $H$ on the hinge, a point $A$ on the base and a point $B$ on the screen so that $HA$ and $HB$ are both perpendicular to the hinge and each is $20$ cm long.
+[[P1·ad87]]
+Suppose that in a board game you may "bring out a piece" when you roll two dice and get at least one six. Nam argues: "Each dice has a $\dfrac16$ chance of a six, so two dice give $\dfrac16+\dfrac16=\dfrac13$." It sounds reasonable. But by the same argument, six dice would give $1$, meaning a six is *certain*, whereas six dice can still all miss the six. So where did Nam go wrong, and what is the correct probability? This lesson gives a reliable tool: list the sample space and count.
 
-[[P2·f468]]
-When is the screen upright, at a right angle to the base? If we measure $AB=20\sqrt2$ cm, can we draw a conclusion?
+## Events and favourable outcomes
 
-[[P3·1281]]
-To answer, we need a way to measure how far open two planes are.
+[[P2·eda4]]
+In the lesson on [sample spaces](lesson:random-experiments-sample-space), we listed all the possible outcomes. Now we look at *events* connected with an experiment, such as "the total score is 7".
 
-## Dihedral angles
-
-### Explore: opening a laptop screen
-
-[[P4·0b29]]
-Let $\theta=\angle AHB$ be the opening angle. Since $HA=HB=20$, we compute $AB$ for a few values of $\theta$:
-
-| $\theta$ | $60^\circ$ | $90^\circ$ | $120^\circ$ |
-|---|---|---|---|
-| $AB$ | $20$ | $20\sqrt2\approx28.28$ | $20\sqrt3\approx34.64$ |
-
-[[P5·a6c9]]
-For $\theta=60^\circ$, triangle $AHB$ is equilateral, so $AB=20$. For $\theta=90^\circ$, Pythagoras' theorem gives $AB=\sqrt{20^2+20^2}=20\sqrt2$. For $\theta=120^\circ$, the isosceles triangle $AHB$ gives $AB=2\cdot20\cdot\sin60^\circ=20\sqrt3$.
-
-[[P6·5f86]]
-Conversely, if $AB^2=800=HA^2+HB^2$, then by the converse of Pythagoras' theorem, $\angle AHB=90^\circ$. So $AB=20\sqrt2$ cm tells us the screen is upright. The angle $\angle AHB$ is exactly what we call the plane angle of a dihedral angle.
-
-  :::definition Dihedral angle
-  Two half-planes $(\alpha)$, $(\beta)$ with a common boundary line $d$ form a **dihedral angle**. The line $d$ is its **edge** and the two half-planes are its **faces**.
+  :::definition Events and favourable outcomes
+  - An **event** connected with an experiment is something that happens or does not happen depending on the outcome of the experiment.
+  - An outcome of the experiment that makes the event $A$ happen is called an outcome **favourable** to $A$.
   :::
 
-  :::definition Plane angle of a dihedral angle
-  Take a point $O\in d$. In $(\alpha)$ draw the ray $Ox\perp d$, and in $(\beta)$ draw the ray $Oy\perp d$. The angle $\angle xOy$ is the **plane angle** of the dihedral angle, and the **measure of the dihedral angle** is the measure of $\angle xOy$ (from $0^\circ$ to $180^\circ$).
+  :::example Listing favourable outcomes
+  Toss two coins. Consider the events $A$: "The two coins land the same way up" and $B$: "At least one coin shows heads". List the outcomes favourable to $A$ and to $B$.
+
+  **Solution.** The sample space is $\Omega=\{(T, T),\ (T, H),\ (H, T),\ (H, H)\}$.
+
+  The outcomes favourable to $A$ are $(T, T)$ and $(H, H)$.
+
+  The outcomes favourable to $B$ are $(T, H)$, $(H, T)$ and $(H, H)$.
+
+  So $A$ has $2$ and $B$ has $3$ favourable outcomes.
   :::
 
-[[P7·9820]]
-This measure does not depend on the position of $O$: when we slide $O$ along $d$, the new rays are parallel to the old ones and point the same way, so the two angles are equal.
+## Finding the probability of an event
 
-:::diagram Plane angle of a dihedral angle
-   (… 18 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+[[P3·9791]]
+When two fair coins are tossed, there is no reason for one outcome to happen more easily than another: the four outcomes are **equally likely**, each with a $\dfrac14$ share of the chances. The event $A$ above takes $2$ of these $4$ shares, so the probability of $A$ is $\dfrac24=\dfrac12$.
+
+  :::theorem Formula for probability
+  Suppose the possible outcomes of an experiment are equally likely. Then the probability of an event $A$ is
+  $$P(A)=\frac{k}{n},$$
+  where $n$ is the number of elements of the sample space and $k$ is the number of outcomes favourable to $A$.
+  :::
+
+[[P4·5422]]
+**Going deeper.** Since $0\leq k\leq n$, we have $0\leq P(A)\leq1$: an **impossible event** (no favourable outcome) has probability $0$, and a **certain event** (every outcome favourable) has probability $1$. The formula works only when the outcomes are *equally likely*. If we record "the number of heads" when tossing two coins, there are three results $0$, $1$, $2$, but they are not equally likely ($1$ head corresponds to the two outcomes $(T, H)$ and $(H, T)$), so the probability of "1 head" is not $\dfrac13$ but $\dfrac24=\dfrac12$. That is why we always describe outcomes "in enough detail", such as ordered pairs.
+
+  :::example Total 7 or total 8?
+  Roll two fair dice. Find the probabilities of the events $A$: "The total score is $7$" and $B$: "The total score is $8$". Which event has the higher probability?
+
+  **Solution.** The sample space consists of $36$ equally likely outcomes $(i, j)$.
+
+  The outcomes favourable to $A$ are $(1, 6)$, $(2, 5)$, $(3, 4)$, $(4, 3)$, $(5, 2)$, $(6, 1)$, so $P(A)=\dfrac{6}{36}=\dfrac16$.
+
+  The outcomes favourable to $B$ are $(2, 6)$, $(3, 5)$, $(4, 4)$, $(5, 3)$, $(6, 2)$, so $P(B)=\dfrac{5}{36}$.
+
+  So $P(A)=\dfrac16>P(B)=\dfrac{5}{36}$: a total of $7$ is more likely than a total of $8$.
+
+  **Remark.** A total of $7$ comes from three pairs of different numbers, each giving two outcomes; a total of $8$ has only two such pairs, while $(4, 4)$ gives one outcome.
+  :::
+
+  :::example At least one six
+  Back to the opening problem: roll two fair dice. Find the probability of the event $C$: "At least one dice shows a six".
+
+  **Solution.**
+
+  *Understand.* $C$ happens when the first dice shows 6, or the second dice shows 6, or both.
+
+  *Plan.* Count the favourable cells in the $6\times6$ table: the sixth row and the sixth column.
+
+  *Solve.* The row $i=6$ has $6$ outcomes and the column $j=6$ has $6$ outcomes, but the cell $(6, 6)$ lies in both, so the number of favourable outcomes is $k=6+6-1=11$. Hence
+
+  $$P(C)=\frac{11}{36}.$$
+
+  So the probability of bringing out a piece is $\dfrac{11}{36}$, less than the $\dfrac13=\dfrac{12}{36}$ that Nam found.
+
+  *Look back.* Nam went wrong by counting the outcome $(6, 6)$ twice. Is there another way? Count the outcomes with *no* six: each dice has $5$ faces other than 6, so there are $5\cdot5=25$ such outcomes, and so $k=36-25=11$. This "complement" count is very useful when an event says "at least".
+  :::
+
+:::graph Outcomes with at least one six
+   (… 16 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-### The angle between two planes
+[[P5·f522]]
+In the picture, the $x$-axis shows the score on the first dice and the $y$-axis the score on the second. The shaded row and column overlap exactly at $(6, 6)$: that is where Nam counted twice.
 
-[[P8·753e]]
-Two intersecting planes form four dihedral angles. Two neighbouring angles add up to $180^\circ$, so we choose the one that is at most $90^\circ$ to measure the opening.
+## Applications
 
-  :::definition Angle between two planes
-  Suppose $(\alpha)$ and $(\beta)$ intersect and one of their dihedral angles has plane angle $\varphi$. The **angle between** $(\alpha)$ and $(\beta)$ is $\varphi$ if $\varphi\le90^\circ$ and $180^\circ-\varphi$ if $\varphi>90^\circ$. If the planes are parallel or coincide, the angle between them is $0^\circ$.
+[[P6·dcd9]]
+The formula $P(A)=\dfrac kn$ works for any situation of random choice: drawing lots, drawing tickets, choosing people.
 
-  Two planes are **perpendicular** when the angle between them is $90^\circ$; we write $(\alpha)\perp(\beta)$.
-  :::
+  :::example A prize draw
+  Suppose a shop has a box of $5$ identical tickets, $2$ of which win a prize. Each customer draws $2$ tickets at random at the same time. Find the probability that a customer wins at least one prize.
 
-:::note Finding the angle between two intersecting planes
-[[P9·31bd]]
-1. Find the line of intersection $d$ of the two planes.
-2. In each plane, find a line perpendicular to $d$ at the same point.
-3. Find the angle between these two lines; if it is obtuse, take its supplement.
-:::
+  **Solution.** Call the two winning tickets $T_1$, $T_2$ and the three losing tickets $K_1$, $K_2$, $K_3$. The tickets are drawn at the same time, so each outcome is an unordered pair; the sample space has $10$ equally likely outcomes:
 
-[[P10·4b13]]
-We try this at once in a cube.
+  $$T_1T_2,\ T_1K_1,\ T_1K_2,\ T_1K_3,\ T_2K_1,\ T_2K_2,\ T_2K_3,\ K_1K_2,\ K_1K_3,\ K_2K_3.$$
 
-:::diagram Plane $(A'BCD')$ meets the base $(ABCD)$ along $BC$
-   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
+  The outcomes with no prize are $K_1K_2$, $K_1K_3$, $K_2K_3$, so the number of favourable outcomes is $k=10-3=7$.
 
-  :::example The angle between two planes in a cube
-  In the cube $ABCD.A'B'C'D'$, find the angle between $(A'BCD')$ and $(ABCD)$.
+  So the probability that a customer wins at least one prize is $\dfrac{7}{10}$.
 
-  **Solution.** The planes meet along $BC$, so we look for a line perpendicular to $BC$ at $B$ in each plane. In $(ABCD)$ it is $BA$, because $AB\perp BC$. In $(A'BCD')$ it is $BA'$, because $BC\perp(ABB'A')$ gives $BC\perp BA'$.
-
-  So the plane angle is $\angle ABA'$. Triangle $ABA'$ is right-angled and isosceles at $A$, since $AA'=AB$ and $AA'\perp AB$:
-
-  $$\angle ABA'=45^\circ.$$
-
-  So the angle between $(A'BCD')$ and $(ABCD)$ is $45^\circ$.
-  :::
-
-## Perpendicular planes
-
-[[P11·64f7]]
-How can we know that two planes are perpendicular without measuring an angle? The answer lies in a line perpendicular to a plane.
-
-  :::theorem Test for perpendicular planes
-  If a plane $(\alpha)$ contains a line $a$ that is perpendicular to a plane $(\beta)$, then $(\alpha)\perp(\beta)$.
-  :::
-
-[[P12·6eb5]]
-Here is why. Let $d$ be the line of intersection and $O$ the point where $a$ meets $(\beta)$; then $O\in d$. Since $a\perp(\beta)$, we have $a\perp d$. In $(\beta)$ draw $Oy\perp d$; since $a\perp(\beta)$, also $a\perp Oy$. So $a$ and $Oy$ are both perpendicular to $d$ and perpendicular to each other: the plane angle is $90^\circ$.
-
-[[P13·6bf5]]
-The other direction gives the properties we use most in calculations.
-
-  :::theorem Properties of perpendicular planes
-  Let $(\alpha)\perp(\beta)$ with line of intersection $d$.
-  - If a line $a\subset(\alpha)$ and $a\perp d$, then $a\perp(\beta)$.
-  - If two intersecting planes are both perpendicular to a third plane, then their line of intersection is perpendicular to the third plane.
-  :::
-
-[[P14·9400]]
-For the first property: let $O=a\cap d$ and draw $Oy\perp d$ in $(\beta)$. The plane angle is $90^\circ$, so $a\perp Oy$. The line $a$ is perpendicular to two intersecting lines $d$ and $Oy$ of $(\beta)$, so $a\perp(\beta)$. We use the second property as a ready-made result.
-
-:::diagram Pyramid $S.ABCD$ with $SA\perp(ABCD)$
-   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-  :::example Proving that planes are perpendicular
-  The pyramid $S.ABCD$ has a square base $ABCD$ of side $4$, $SA\perp(ABCD)$ and $SA=4\sqrt3$. Prove that
-  a) $(SAB)\perp(ABCD)$; b) $(SBC)\perp(SAB)$; c) $(SBD)\perp(SAC)$.
-  Then find the angle between $(SBC)$ and $(ABCD)$.
-
-  **Solution.** For each part we find a line lying in one plane and perpendicular to the other plane.
-
-  a) The plane $(SAB)$ contains $SA$, and $SA\perp(ABCD)$. So $(SAB)\perp(ABCD)$.
-
-  b) $BC\perp AB$ (square) and $BC\perp SA$ (because $SA\perp(ABCD)$). So $BC\perp(SAB)$. The plane $(SBC)$ contains $BC$, so $(SBC)\perp(SAB)$.
-
-  c) $BD\perp AC$ (diagonals of a square) and $BD\perp SA$. So $BD\perp(SAC)$. The plane $(SBD)$ contains $BD$, so $(SBD)\perp(SAC)$.
-
-  For the angle between $(SBC)$ and $(ABCD)$: the line of intersection is $BC$, and $BA\perp BC$ and $BS\perp BC$ (by part b, since $BC\perp(SAB)$). The plane angle is $\angle SBA$, and in triangle $SAB$, right-angled at $A$:
-
-  $$\tan\angle SBA=\frac{SA}{AB}=\frac{4\sqrt3}{4}=\sqrt3\Rightarrow\angle SBA=60^\circ.$$
-
-  So the angle between $(SBC)$ and $(ABCD)$ is $60^\circ$.
-  :::
-
-[[P15·7b04]]
-When a face lies in a plane perpendicular to the base, the height of the pyramid lies in that face.
-
-  :::example A face perpendicular to the base
-  The pyramid $S.ABCD$ has a rectangular base with $AB=6$ and $BC=4$. Triangle $SAB$ is equilateral and lies in a plane perpendicular to $(ABCD)$. Find the height $SH$, where $H$ is the midpoint of $AB$, and then the angle between $SC$ and $(ABCD)$ (round to the nearest tenth of a degree).
-
-  **Solution.** Triangle $SAB$ is equilateral, so its median $SH$ is also an altitude: $SH\perp AB$. The line $SH$ lies in $(SAB)$ and is perpendicular to the line of intersection $AB$, and $(SAB)\perp(ABCD)$, so $SH\perp(ABCD)$. The height is
-
-  $$SH=\frac{6\sqrt3}{2}=3\sqrt3.$$
-
-  Since $SH\perp(ABCD)$, the point $H$ is the projection of $S$, and the angle between $SC$ and $(ABCD)$ is $\angle SCH$. Triangle $HBC$ is right-angled at $B$, so $HC=\sqrt{3^2+4^2}=5$; then in triangle $SHC$, right-angled at $H$:
-
-  $$\tan\angle SCH=\frac{SH}{HC}=\frac{3\sqrt3}{5}\approx1.039\Rightarrow\angle SCH\approx46.1^\circ.$$
-
-  So the height is $3\sqrt3$ and the angle between $SC$ and $(ABCD)$ is about $46.1^\circ$.
-  :::
-
-## Right prisms and regular pyramids
-
-[[P16·8de0]]
-These solids appear all the time in problems about the angle between two planes.
-
-[[P17·cea4]]
-- A **right prism** has its lateral edges perpendicular to the base. Each lateral face is a rectangle containing a lateral edge, so by the test above, each lateral face is perpendicular to the base.
-- A **regular prism** is a right prism whose base is a regular polygon. A right parallelepiped is a right prism whose base is a parallelogram; a **cuboid** has a rectangular base; a **cube** has six square faces.
-- A **regular pyramid** has a regular polygon as its base, and the foot of its height is the centre of the base. Its lateral edges are equal, its lateral faces are congruent isosceles triangles, and the altitude of a lateral face from the apex is the **slant height**.
-- A **frustum of a regular pyramid** is the part of a regular pyramid between its base and a plane parallel to the base. Its two bases are similar regular polygons, and its lateral faces are congruent isosceles trapezia.
-
-  :::example A right prism
-  The right prism $ABC.A'B'C'$ has base $ABC$ right-angled at $A$, with $AB=3$, $AC=4$ and $AA'=1.8$. Find the angle between $(A'BC)$ and $(ABC)$ (round to the nearest tenth of a degree).
-
-  **Solution.** The line of intersection is $BC$. In $(ABC)$ draw $AH\perp BC$ at $H$. Since $AA'\perp(ABC)$, we have $BC\perp AA'$, so $BC\perp(A'AH)$ and therefore $BC\perp A'H$. The plane angle is $\angle A'HA$.
-
-  We find $AH$ from the area of the right-angled triangle $ABC$ (with $BC=5$):
-
-  $$AH=\frac{AB\cdot AC}{BC}=\frac{3\cdot4}{5}=2.4,\qquad\tan\angle A'HA=\frac{AA'}{AH}=\frac{1.8}{2.4}=0.75.$$
-
-  So $\angle A'HA\approx36.9^\circ$. The angle between $(A'BC)$ and $(ABC)$ is about $36.9^\circ$.
-  :::
-
-[[P18·35f5]]
-In a regular pyramid, a lateral face meets the base along a side of the base, and the midpoint of that side helps us find the plane angle.
-
-  :::example A regular square pyramid
-  The regular square pyramid $S.ABCD$ has base side $6$ and lateral edge $5$. Let $O$ be the centre of the base.
-  a) Prove that $(SAC)\perp(ABCD)$.
-  b) Find the angle between $(SBC)$ and $(ABCD)$ (round to the nearest tenth of a degree).
-
-  **Solution.** a) Since $S.ABCD$ is a regular pyramid, $SO\perp(ABCD)$. The plane $(SAC)$ contains $SO$, so $(SAC)\perp(ABCD)$.
-
-  b) Let $M$ be the midpoint of $BC$. The square gives $OM\perp BC$, and the isosceles triangle $SBC$ gives $SM\perp BC$. So the plane angle is $\angle SMO$. We have $OM=\dfrac{6}{2}=3$ and $SM=\sqrt{SB^2-BM^2}=\sqrt{25-9}=4$. In triangle $SOM$, right-angled at $O$:
-
-  $$\cos\angle SMO=\frac{OM}{SM}=\frac34\Rightarrow\angle SMO\approx41.4^\circ.$$
-
-  So the angle between $(SBC)$ and $(ABCD)$ is about $41.4^\circ$.
-
-  **Check.** The height is $SO=\sqrt{SM^2-OM^2}=\sqrt7$, and $SB^2=SO^2+OB^2=7+18=25$, which matches the lateral edge $5$.
+  **Remark.** "Identical" tickets are still separate objects; naming them $T_1$, $T_2$, … makes the outcomes equally likely.
   :::
 
 :::warning Common mistakes
-[[P19·0dbd]]
-- **Taking any two lines.** Wrong: the angle between two planes equals the angle between any two lines, one in each plane. Why it is wrong: those lines may not be perpendicular to the line of intersection. Right: take two lines that are both perpendicular to the line of intersection at one point.
-- **Forgetting to change an obtuse angle.** Wrong: the plane angle is $120^\circ$, so the angle between the planes is $120^\circ$. Why it is wrong: the angle between two planes is never more than $90^\circ$. Right: $180^\circ-120^\circ=60^\circ$.
-- **Thinking every line in $(\alpha)$ is perpendicular to $(\beta)$.** Wrong: $(\alpha)\perp(\beta)$, so every line of $(\alpha)$ is perpendicular to $(\beta)$. Why it is wrong: only lines perpendicular to the line of intersection are. Right: $a\subset(\alpha)$ and $a\perp d$.
-- **Missing the condition of being perpendicular to the line of intersection.** Wrong: $(SAB)\perp(ABCD)$, so $SA\perp(ABCD)$ for any triangle $SAB$. Why it is wrong: we need $SA\perp AB$ (perpendicular to the line of intersection) first. Right: check $SA\perp AB$, then conclude.
+[[P7·c4b5]]
+- **Using a sample space whose outcomes are not equally likely.** Wrong: when tossing two coins, $P(\text{1 head})=\dfrac13$. Right: $\dfrac24=\dfrac12$.
+- **Double counting** (as Nam did at the start). Wrong: $P(\text{at least one six})=\dfrac{12}{36}$. Right: $(6, 6)$ is counted once, giving $\dfrac{11}{36}$.
 :::
+
+[[P8·b654]]
+**Connections.** In year 8 you saw that when an experiment is repeated many times, the relative frequency of an event gets close to its probability. This lesson shows how to find a probability *before* experimenting. In year 10, permutations, arrangements and combinations let us find probabilities when the sample space is too large to list.
 
 ## Key terms
 
   :::terms
-  - dihedral angle | góc nhị diện
-  - edge of a dihedral angle | cạnh của góc nhị diện
-  - plane angle of a dihedral angle | góc phẳng nhị diện
-  - angle between two planes | góc giữa hai mặt phẳng
-  - perpendicular planes | hai mặt phẳng vuông góc
-  - line of intersection | giao tuyến
-  - right prism | lăng trụ đứng
-  - regular prism | lăng trụ đều
-  - cuboid | hình hộp chữ nhật
-  - regular pyramid | hình chóp đều
-  - slant height | trung đoạn
-  - frustum of a regular pyramid | hình chóp cụt đều
+  - event | biến cố
+  - favourable outcome | kết quả thuận lợi
+  - equally likely | đồng khả năng
+  - probability of an event | xác suất của biến cố
+  - fair dice | xúc xắc cân đối
+  - certain event | biến cố chắc chắn
+  - impossible event | biến cố không thể
   :::
 
 ## Summary
 
-[[P20·7e06]]
-- The plane angle $\angle xOy$: $Ox\subset(\alpha)$ and $Oy\subset(\beta)$ are both perpendicular to the line of intersection $d$ at $O$.
-- The angle between two intersecting planes is the non-obtuse dihedral angle: $\varphi$ if $\varphi\le90^\circ$, and $180^\circ-\varphi$ if $\varphi>90^\circ$.
-- $(\alpha)\perp(\beta)$ when the angle between them is $90^\circ$; it is enough that $(\alpha)$ contains a line perpendicular to $(\beta)$.
-- If $(\alpha)\perp(\beta)$ and $a\subset(\alpha)$ with $a\perp d$, then $a\perp(\beta)$. If two intersecting planes are both perpendicular to a third plane, their line of intersection is perpendicular to it.
-- Right prism: the lateral faces are perpendicular to the base. Regular pyramid: the foot of the height is the centre of the base; the angle between a lateral face and the base is $\angle SMO$, where $M$ is the midpoint of a side of the base.
+[[P9·430c]]
+- An outcome favourable to $A$ is one that makes $A$ happen.
+- Equally likely outcomes: $P(A)=\dfrac kn$ ($k$ favourable outcomes, $n$ elements in $\Omega$); $0\leq P(A)\leq1$.
+- Describe outcomes in enough detail (ordered pairs, naming identical objects) so that they are equally likely.
+- For "at least one", count the unfavourable outcomes and subtract from $n$.
 
 ## Practice
 
-[[P21·e420]]
+[[P10·e420]]
 Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 38 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/frequency-tables-charts – BẢN TIẾNG VIỆT ########
+---
+title: Bảng tần số và biểu đồ tần số
+description: Lập bảng tần số từ một mẫu dữ liệu, vẽ và đọc biểu đồ tần số dạng cột, dạng đoạn thẳng, rồi dùng chúng để nhận xét và ra quyết định.
+minutes: 20
+---
+
+  :::goals
+  - Lập được bảng tần số của một mẫu dữ liệu.
+  - Vẽ và đọc được biểu đồ tần số dạng cột, dạng đoạn thẳng.
+  - Dùng bảng, biểu đồ tần số để nhận xét và ra quyết định trong thực tế.
+  :::
+
+[[P1·5e26]]
+Theo khuyến nghị của Viện Hàn lâm Y học Giấc ngủ Hoa Kỳ (dẫn theo trang của CDC Hoa Kỳ), thiếu niên từ 13 đến 18 tuổi cần ngủ từ 8 đến 10 giờ trong mỗi 24 giờ. Giả sử cô chủ nhiệm lớp 9A hỏi 30 bạn: "Đêm qua em ngủ mấy giờ?" và ghi lại (làm tròn đến giờ):
+
+  $$7,\ 8,\ 8,\ 8,\ 8,\ 7,\ 8,\ 6,\ 7,\ 9,\ 6,\ 7,\ 6,\ 9,\ 7,\ 7,\ 5,\ 8,\ 5,\ 9,\ 7,\ 7,\ 5,\ 8,\ 6,\ 6,\ 6,\ 7,\ 8,\ 7.$$
+
+[[P2·a055]]
+Lớp có bao nhiêu bạn ngủ đủ giấc? Ba mươi con số lộn xộn che mất câu trả lời; bài này giúp ta sắp xếp chúng để câu trả lời hiện ra.
+
+## Bảng tần số
+
+### Khám phá: đếm từng giá trị
+
+[[P3·860b]]
+Trong dãy trên chỉ có năm giá trị khác nhau: $5$, $6$, $7$, $8$, $9$. Ta đếm xem mỗi giá trị xuất hiện bao nhiêu lần:
+
+| Số giờ ngủ | $5$ | $6$ | $7$ | $8$ | $9$ |
+|---|---|---|---|---|---|
+| Số bạn | $3$ | $6$ | $10$ | $8$ | $3$ |
+
+[[P4·057b]]
+Kiểm tra: $3+6+10+8+3=30$. Bây giờ câu trả lời hiện ra: chỉ $8+3=11$ bạn ngủ từ 8 giờ trở lên, chưa đến một nửa lớp.
+
+  :::definition Tần số và bảng tần số
+  - Số lần xuất hiện của một giá trị trong mẫu dữ liệu gọi là **tần số** của giá trị đó.
+  - **Bảng tần số** gồm một hàng ghi các giá trị khác nhau $x_1, x_2, \ldots, x_k$ của mẫu dữ liệu và một hàng ghi tần số tương ứng $m_1, m_2, \ldots, m_k$.
+  - Tổng các tần số bằng số dữ liệu của mẫu, gọi là **cỡ mẫu**: $n=m_1+m_2+\ldots+m_k$.
+  :::
+
+[[P5·0cc3]]
+**Hiểu sâu hơn.** Bảng tần số "nén" ba mươi con số thành năm cặp (giá trị; tần số), chỉ mất thứ tự và danh tính ("ai ngủ 5 giờ"). Giá trị $8$ có tần số $8$ chỉ là trùng hợp.
+
+  :::example Số bàn thắng trong giải bóng đá
+  Giả sử số bàn thắng trong 20 trận của một giải bóng đá học sinh như sau:
+
+  $$0,\ 2,\ 1,\ 3,\ 3,\ 0,\ 4,\ 1,\ 2,\ 3,\ 5,\ 1,\ 2,\ 0,\ 3,\ 2,\ 1,\ 1,\ 2,\ 1.$$
+
+  a) Lập bảng tần số của mẫu dữ liệu.
+
+  b) Cả giải có tất cả bao nhiêu bàn thắng?
+
+  **Lời giải.** a) Đếm số lần xuất hiện của mỗi giá trị $0, 1, 2, 3, 4, 5$, ta được bảng tần số:
+
+  | Số bàn thắng ($x$) | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+  |---|---|---|---|---|---|---|
+  | Số trận ($m$) | $3$ | $6$ | $5$ | $4$ | $1$ | $1$ |
+
+  Kiểm tra: $3+6+5+4+1+1=20=n$.
+
+  b) Có $m$ trận cùng có $x$ bàn thắng, chúng góp $x\cdot m$ bàn. Do đó tổng số bàn thắng là
+
+  $$0\cdot3+1\cdot6+2\cdot5+3\cdot4+4\cdot1+5\cdot1=0+6+10+12+4+5=37.$$
+
+  Vậy cả giải có $37$ bàn thắng.
+  :::
+
+## Biểu đồ tần số dạng cột
+
+[[P6·a396]]
+Bảng tần số cho con số chính xác, còn biểu đồ cho thấy *hình dạng* của dữ liệu. Giả sử nhà trường hỏi 200 học sinh khối 9 về giấc ngủ và được bảng tần số:
+
+| Số giờ ngủ | $5$ | $6$ | $7$ | $8$ | $9$ |
+|---|---|---|---|---|---|
+| Số học sinh | $24$ | $46$ | $68$ | $44$ | $18$ |
+
+[[P7·15e3]]
+Để vẽ **biểu đồ tần số dạng cột**: trục ngang ghi các giá trị $x$, trục đứng ghi tần số $m$; tại mỗi giá trị $x_i$ vẽ một cột cao $m_i$, các cột rộng bằng nhau và cách đều nhau; ghi tên biểu đồ.
+
+:::graph Số giờ ngủ của 200 học sinh khối 9
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P8·eca9]]
+Trục ngang ($x$) là số giờ ngủ, trục đứng ($y$) là số học sinh. Chỉ cần nhìn, ta thấy cột $7$ cao nhất, các cột thấp dần về hai phía.
+
+  :::example Đọc biểu đồ cột
+  Dựa vào biểu đồ trên, hãy so sánh số học sinh ngủ từ 8 giờ trở lên với số học sinh ngủ dưới 7 giờ.
+
+  **Lời giải.** Số học sinh ngủ từ 8 giờ trở lên là $44+18=62$. Số học sinh ngủ dưới 7 giờ là $24+46=70$.
+
+  Vậy số học sinh ngủ dưới 7 giờ nhiều hơn số học sinh ngủ đủ giấc $8$ bạn.
+  :::
+
+## Biểu đồ tần số dạng đoạn thẳng
+
+[[P9·8574]]
+Khi các giá trị là số có thứ tự, ta còn vẽ được **biểu đồ tần số dạng đoạn thẳng**: đánh dấu các điểm $(x_i; m_i)$ rồi nối các điểm liên tiếp bằng đoạn thẳng.
+
+:::graph Biểu đồ đoạn thẳng của cùng mẫu dữ liệu
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P10·f257]]
+Đường gấp khúc cho thấy rõ xu hướng: tần số tăng đến 7 giờ rồi giảm. Nhưng với dữ liệu không phải số, như môn thể thao yêu thích, đoạn thẳng nối "bóng đá" với "cầu lông" không có nghĩa gì: khi đó ta dùng biểu đồ cột.
+
+  :::example Cửa hàng giày nên nhập hàng thế nào?
+  Giả sử một cửa hàng giày thể thao ghi lại cỡ giày của 100 đôi bán được trong tháng trước:
+
+  | Cỡ giày | $37$ | $38$ | $39$ | $40$ | $41$ | $42$ |
+  |---|---|---|---|---|---|---|
+  | Số đôi | $12$ | $20$ | $31$ | $25$ | $9$ | $3$ |
+
+  Chủ cửa hàng định nhập 120 đôi cho tháng sau, mỗi cỡ 20 đôi. Nếu nhu cầu không đổi, hãy nhận xét kế hoạch này.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Bảng tần số cho biết nhu cầu từng cỡ; mỗi cỡ được nhập $20$ đôi.
+
+  *Tìm cách giải.* Với mỗi cỡ, so sánh $20$ với tần số $m$: $m>20$ là thiếu hàng, $m<20$ là thừa hàng.
+
+  *Giải.* Cỡ 39 thiếu $31-20=11$ đôi, cỡ 40 thiếu $25-20=5$ đôi, tức là mất $16$ lượt bán. Cỡ 37, 41, 42 thừa $(20-12)+(20-9)+(20-3)=36$ đôi.
+
+  Vậy kế hoạch chia đều không hợp lí: nên nhập nhiều cỡ 39, 40 và ít cỡ 41, 42, theo hình dạng của bảng tần số.
+
+  *Nhìn lại.* Chỉ biết "cỡ trung bình khoảng 39" thì có đủ không? Không: con số đó không cho biết cần bao nhiêu đôi cỡ 37 hay 42.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P11·8537]]
+- **Tổng tần số khác cỡ mẫu** (đếm sót, đếm trùng). Luôn cộng hàng tần số và so với $n$.
+- **Nhầm giá trị với tần số.** Sai: "giá trị lớn nhất là $68$". Đúng: $68$ là tần số lớn nhất, ứng với giá trị $7$.
+- **Vẽ cột rộng hẹp khác nhau.** Mắt người so sánh diện tích, nên cột rộng trông như "nhiều hơn".
+:::
+
+[[P12·cba4]]
+**Kết nối.** Bảng tần số tiếp nối các biểu đồ đã học ở lớp 6, 7 và là nền móng của cả chương: bài sau ta chia tần số cho cỡ mẫu để được [tần số tương đối](lesson:relative-frequency-tables), rồi [ghép nhóm](lesson:grouped-frequency-tables) khi dữ liệu có quá nhiều giá trị; lên lớp 10, từ bảng tần số ta tính số trung bình, trung vị.
+
+## Thuật ngữ
+
+  :::terms
+  - mẫu dữ liệu | data set
+  - giá trị | value
+  - tần số | frequency
+  - bảng tần số | frequency table
+  - cỡ mẫu | sample size
+  - biểu đồ tần số dạng cột | frequency bar chart
+  - biểu đồ tần số dạng đoạn thẳng | frequency line graph
+  :::
+
+## Tóm tắt
+
+[[P13·24ed]]
+- Tần số: số lần một giá trị xuất hiện; $m_1+m_2+\ldots+m_k=n$ (cỡ mẫu).
+- Biểu đồ cột: cột cao bằng tần số, các cột rộng bằng nhau.
+- Biểu đồ đoạn thẳng: nối các điểm $(x_i; m_i)$; chỉ dùng khi giá trị là số.
+- Tổng các dữ liệu: $x_1m_1+x_2m_2+\ldots+x_km_k$.
+
+## Luyện tập
+
+[[P14·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 32 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/frequency-tables-charts – BẢN TIẾNG ANH ########
+---
+title: Frequency tables and frequency charts
+description: Build a frequency table from a data set, draw and read frequency bar charts and line graphs, and use them to comment and make decisions.
+minutes: 20
+---
+
+  :::goals
+  - Build the frequency table of a data set.
+  - Draw and read frequency bar charts and frequency line graphs.
+  - Use frequency tables and charts to comment and make decisions in real situations.
+  :::
+
+[[P1·622a]]
+The American Academy of Sleep Medicine recommends (as quoted by the US CDC) that teenagers aged 13 to 18 sleep 8 to 10 hours per 24 hours. Suppose the form tutor of class 9A asks 30 students "How many hours did you sleep last night?" and writes down the answers (to the nearest hour):
+
+  $$7,\ 8,\ 8,\ 8,\ 8,\ 7,\ 8,\ 6,\ 7,\ 9,\ 6,\ 7,\ 6,\ 9,\ 7,\ 7,\ 5,\ 8,\ 5,\ 9,\ 7,\ 7,\ 5,\ 8,\ 6,\ 6,\ 6,\ 7,\ 8,\ 7.$$
+
+[[P2·ef6e]]
+How many students in the class sleep enough? Thirty numbers in no order hide the answer; this lesson shows how to arrange them so that the answer appears.
+
+## Frequency tables
+
+### Explore: counting each value
+
+[[P3·2719]]
+The list contains only five different values: $5$, $6$, $7$, $8$, $9$. We count how many times each value appears:
+
+| Hours of sleep | $5$ | $6$ | $7$ | $8$ | $9$ |
+|---|---|---|---|---|---|
+| Number of students | $3$ | $6$ | $10$ | $8$ | $3$ |
+
+[[P4·7ecc]]
+Check: $3+6+10+8+3=30$. Now the answer appears: only $8+3=11$ students slept 8 hours or more, less than half of the class.
+
+  :::definition Frequency and frequency table
+  - The number of times a value appears in a data set is the **frequency** of that value.
+  - A **frequency table** has one row listing the different values $x_1, x_2, \ldots, x_k$ of the data set and one row listing their frequencies $m_1, m_2, \ldots, m_k$.
+  - The sum of the frequencies is the number of data values, called the **sample size**: $n=m_1+m_2+\ldots+m_k$.
+  :::
+
+[[P5·4e3f]]
+**Going deeper.** A frequency table "compresses" thirty numbers into five (value; frequency) pairs, losing only the order and who gave each answer ("who slept 5 hours"). The value $8$ having frequency $8$ is only a coincidence.
+
+  :::example Goals in a football tournament
+  Suppose the numbers of goals in the 20 matches of a school football tournament are:
+
+  $$0,\ 2,\ 1,\ 3,\ 3,\ 0,\ 4,\ 1,\ 2,\ 3,\ 5,\ 1,\ 2,\ 0,\ 3,\ 2,\ 1,\ 1,\ 2,\ 1.$$
+
+  a) Build the frequency table of the data set.
+
+  b) How many goals were scored in the whole tournament?
+
+  **Solution.** a) Counting how many times each value $0, 1, 2, 3, 4, 5$ appears, we get the frequency table:
+
+  | Number of goals ($x$) | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ |
+  |---|---|---|---|---|---|---|
+  | Number of matches ($m$) | $3$ | $6$ | $5$ | $4$ | $1$ | $1$ |
+
+  Check: $3+6+5+4+1+1=20=n$.
+
+  b) The $m$ matches with $x$ goals each contribute $x\cdot m$ goals. Hence the total number of goals is
+
+  $$0\cdot3+1\cdot6+2\cdot5+3\cdot4+4\cdot1+5\cdot1=0+6+10+12+4+5=37.$$
+
+  So $37$ goals were scored in the whole tournament.
+  :::
+
+## Frequency bar charts
+
+[[P6·d69c]]
+A frequency table gives exact numbers; a chart shows the *shape* of the data. Suppose the school asks 200 students in year 9 about their sleep and gets this frequency table:
+
+| Hours of sleep | $5$ | $6$ | $7$ | $8$ | $9$ |
+|---|---|---|---|---|---|
+| Number of students | $24$ | $46$ | $68$ | $44$ | $18$ |
+
+[[P7·00dc]]
+To draw a **frequency bar chart**: put the values $x$ on the horizontal axis and the frequencies $m$ on the vertical axis; at each value $x_i$ draw a bar of height $m_i$, with all bars the same width and equally spaced; give the chart a title.
+
+:::graph Hours of sleep of 200 year 9 students
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P8·2e7c]]
+The horizontal axis ($x$) shows hours of sleep and the vertical axis ($y$) the number of students. At a glance, the bar at $7$ is the tallest and the bars get shorter on both sides.
+
+  :::example Reading a bar chart
+  Using the chart above, compare the number of students who sleep 8 hours or more with the number who sleep less than 7 hours.
+
+  **Solution.** The number of students sleeping 8 hours or more is $44+18=62$. The number sleeping less than 7 hours is $24+46=70$.
+
+  So $8$ more students sleep less than 7 hours than sleep enough.
+  :::
+
+## Frequency line graphs
+
+[[P9·5613]]
+When the values are numbers in order, we can also draw a **frequency line graph**: mark the points $(x_i, m_i)$ and join consecutive points with line segments.
+
+:::graph Line graph of the same data set
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P10·ee35]]
+The broken line shows the trend clearly: the frequency rises up to 7 hours and then falls. But for data that are not numbers, such as a favourite sport, a segment joining "football" to "badminton" means nothing: then we use a bar chart.
+
+  :::example How should a shoe shop restock?
+  Suppose a trainer shop records the sizes of the 100 pairs it sold last month:
+
+  | Shoe size | $37$ | $38$ | $39$ | $40$ | $41$ | $42$ |
+  |---|---|---|---|---|---|---|
+  | Pairs sold | $12$ | $20$ | $31$ | $25$ | $9$ | $3$ |
+
+  The owner plans to order 120 pairs for next month, 20 pairs of each size. If demand stays the same, comment on this plan.
+
+  **Solution.**
+
+  *Understand.* The frequency table gives the demand for each size; $20$ pairs of each size will be ordered.
+
+  *Plan.* For each size, compare $20$ with the frequency $m$: $m>20$ means a shortage, $m<20$ means a surplus.
+
+  *Solve.* Size 39 is $31-20=11$ pairs short and size 40 is $25-20=5$ pairs short, so $16$ sales are lost. Sizes 37, 41 and 42 have $(20-12)+(20-9)+(20-3)=36$ pairs left over.
+
+  So the equal split is not sensible: the shop should order more of sizes 39 and 40 and fewer of sizes 41 and 42, following the shape of the frequency table.
+
+  *Look back.* Would knowing only "the average size is about 39" be enough? No: that number does not say how many pairs of size 37 or 42 are needed.
+  :::
+
+:::warning Common mistakes
+[[P11·c50f]]
+- **The frequencies do not add up to the sample size** (missed or double-counted values). Always add the frequency row and compare it with $n$.
+- **Mixing up values and frequencies.** Wrong: "the largest value is $68$". Right: $68$ is the largest frequency, for the value $7$.
+- **Bars of different widths.** The eye compares areas, so a wider bar looks like "more".
+:::
+
+[[P12·548d]]
+**Connections.** Frequency tables build on the charts you met in years 6 and 7 and are the foundation of this chapter: next we divide frequencies by the sample size to get [relative frequencies](lesson:relative-frequency-tables), then [group the data](lesson:grouped-frequency-tables) when there are too many values; in year 10, we find the mean and the median from a frequency table.
+
+## Key terms
+
+  :::terms
+  - data set | mẫu dữ liệu
+  - value | giá trị
+  - frequency | tần số
+  - frequency table | bảng tần số
+  - sample size | cỡ mẫu
+  - frequency bar chart | biểu đồ tần số dạng cột
+  - frequency line graph | biểu đồ tần số dạng đoạn thẳng
+  :::
+
+## Summary
+
+[[P13·029d]]
+- Frequency: the number of times a value appears; $m_1+m_2+\ldots+m_k=n$ (the sample size).
+- Bar chart: bar height equals the frequency; all bars have the same width.
+- Line graph: join the points $(x_i, m_i)$; use it only when the values are numbers.
+- Total of the data: $x_1m_1+x_2m_2+\ldots+x_km_k$.
+
+## Practice
+
+[[P14·e420]]
+Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 32 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/function-y-equals-ax2 – BẢN TIẾNG VIỆT ########
+---
+title: Hàm số y = ax² (a ≠ 0)
+description: Nhận biết hàm số y = ax², tính giá trị, lập bảng giá trị, vẽ đồ thị parabol và vận dụng vào các bài toán thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết hàm số $y=ax^2$ ($a\neq0$) và tính được giá trị của hàm số tại một điểm.
+  - Lập bảng giá trị và vẽ được đồ thị (parabol) của hàm số $y=ax^2$.
+  - Nêu được tính chất đối xứng của đồ thị và vị trí của nó theo dấu của $a$.
+  - Giải được một số bài toán thực tế gắn với hàm số $y=ax^2$.
+  :::
+
+[[P1·a320]]
+Trong khoảng những năm 1602–1604, ở Padova (Ý), Galileo Galilei cho các viên bi lăn trên máng nghiêng để làm chậm chuyển động rơi, nhờ đó đo được nó. Ông tìm ra một quy luật bất ngờ: quãng đường đi được không tỉ lệ với thời gian, mà tỉ lệ với **bình phương** của thời gian (theo MacTutor, Đại học St Andrews). Ở môn Vật lí lớp 10, quy luật rơi tự do được viết là $s=\dfrac12gt^2$ với $g\approx9{,}8$ m/s²; lấy tròn $g\approx10$ ta được $s\approx5t^2$ (mét).
+
+[[P2·4cff]]
+Giả sử bạn thả một viên bi từ sân thượng của một toà nhà cao $45$ m (khoảng $15$ tầng) và bỏ qua sức cản của không khí. Sau bao lâu thì viên bi chạm đất? Và vì sao giây thứ ba viên bi rơi được nhiều hơn hẳn giây thứ nhất?
+
+## Hàm số $y=ax^2$ ($a\neq0$)
+
+### Khám phá: quãng đường rơi theo thời gian
+
+[[P3·986d]]
+Ta tính $s=5t^2$ tại vài thời điểm:
+
+| $t$ (giây) | $0$ | $1$ | $2$ | $3$ |
+|---|---|---|---|---|
+| $s$ (mét) | $0$ | $5$ | $20$ | $45$ |
+
+[[P4·7211]]
+Thời gian tăng gấp đôi (từ $1$ lên $2$ giây) thì quãng đường tăng gấp bốn (từ $5$ lên $20$ m); thời gian gấp ba thì quãng đường gấp chín. Trong từng giây, viên bi rơi được $5$ m, rồi $15$ m, rồi $25$ m: nó rơi ngày càng nhanh. Mỗi giá trị của $t$ cho đúng một giá trị của $s$, nên $s$ là một hàm số của $t$.
+
+  :::definition Hàm số $y=ax^2$
+  Hàm số có dạng $y=ax^2$, trong đó $a$ là một số thực khác $0$, xác định với mọi số thực $x$. Số $a$ gọi là **hệ số** của hàm số.
+  :::
+
+[[P5·09f8]]
+**Hiểu sâu hơn.** Với hàm số bậc nhất $y=ax$ (lớp 8), $x$ gấp đôi thì $y$ gấp đôi. Với $y=ax^2$, $x$ gấp $k$ lần thì $y$ gấp $k^2$ lần, vì $a(kx)^2=k^2\cdot ax^2$. Đó là lí do diện tích hình vuông cạnh $x$ là $S=x^2$ ($a=1$) và diện tích hình tròn bán kính $R$ là $S=\pi R^2$ ($a=\pi$): phóng to hình gấp đôi thì diện tích gấp bốn.
+
+[[P6·458a]]
+Những hàm số như $y=x^2+1$ hay $y=(x-1)^2$ **không** có dạng $y=ax^2$: đồ thị của chúng không đi qua gốc $O$ (với $y=x^2+1$) hoặc không nhận $Oy$ làm trục đối xứng (với $y=(x-1)^2$). Ở lớp 10, bạn sẽ học các hàm số bậc hai tổng quát như vậy.
+
+  :::example Tính giá trị của hàm số
+  Cho hàm số $y=-2x^2$. Tính giá trị của $y$ khi $x=-3$; $x=\dfrac12$; $x=\sqrt2$.
+
+  **Lời giải.** Thay từng giá trị của $x$ vào công thức. Chú ý bình phương trước, nhân với $-2$ sau:
+
+  $$\begin{aligned} x=-3:&\quad y=-2\cdot(-3)^2=-2\cdot9=-18;\\ x=\tfrac12:&\quad y=-2\cdot\tfrac14=-\tfrac12;\\ x=\sqrt2:&\quad y=-2\cdot(\sqrt2)^2=-2\cdot2=-4. \end{aligned}$$
+
+  Vậy các giá trị tương ứng của $y$ là $-18$; $-\dfrac12$; $-4$.
+  :::
+
+## Đồ thị của hàm số $y=ax^2$
+
+### Khám phá: hai hàm số $y=x^2$ và $y=-x^2$
+
+| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |
+|---|---|---|---|---|---|
+| $y=x^2$ | $4$ | $1$ | $0$ | $1$ | $4$ |
+| $y=-x^2$ | $-4$ | $-1$ | $0$ | $-1$ | $-4$ |
+
+[[P7·5493]]
+Hai giá trị đối nhau của $x$ cho cùng một giá trị của $y$, vì $(-x)^2=x^2$. Biểu diễn các điểm $(x; y)$ trên mặt phẳng toạ độ rồi nối bằng một đường cong trơn, ta được hình dưới đây.
+
+:::graph Đồ thị của $y=x^2$ và $y=-x^2$
+   (… 14 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Đồ thị của hàm số $y=ax^2$ ($a\neq0$)
+  Đồ thị của hàm số $y=ax^2$ là một đường cong đi qua gốc toạ độ $O$, nhận trục $Oy$ làm trục đối xứng. Đường cong này gọi là một **parabol** với **đỉnh** $O$.
+  - Nếu $a>0$ thì đồ thị nằm phía trên trục hoành, $O$ là điểm thấp nhất của đồ thị.
+  - Nếu $a<0$ thì đồ thị nằm phía dưới trục hoành, $O$ là điểm cao nhất của đồ thị.
+  :::
+
+[[P8·1bca]]
+**Vì sao đối xứng qua $Oy$?** Nếu điểm $(x_0; y_0)$ thuộc đồ thị thì $y_0=ax_0^2=a(-x_0)^2$, nên điểm $(-x_0; y_0)$ cũng thuộc đồ thị. Hai điểm này đối xứng với nhau qua $Oy$. Ngoài ra $x^2\geq0$, nên $y=ax^2$ cùng dấu với $a$ khi $x\neq0$.
+
+  :::example Vẽ đồ thị
+  Vẽ đồ thị của hàm số $y=\dfrac12x^2$.
+
+  **Lời giải.** Ta lập bảng giá trị (chọn $x$ chẵn để $y$ là số nguyên):
+
+  | $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |
+  |---|---|---|---|---|---|
+  | $y=\frac12x^2$ | $8$ | $2$ | $0$ | $2$ | $8$ |
+
+  Biểu diễn các điểm $(-4; 8)$, $(-2; 2)$, $(0; 0)$, $(2; 2)$, $(4; 8)$ rồi nối chúng bằng một đường cong trơn.
+
+  Vậy đồ thị là parabol đỉnh $O$, nằm phía trên trục hoành, nhận $Oy$ làm trục đối xứng (hình dưới).
+  :::
+
+:::graph Đồ thị của hàm số $y=\frac12x^2$
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Điểm thuộc đồ thị và bài toán thực tế
+
+[[P9·7e55]]
+Điểm $M(x_0; y_0)$ thuộc đồ thị của hàm số $y=ax^2$ khi và chỉ khi $y_0=ax_0^2$. Nhờ đó, biết một điểm của đồ thị ta tìm được hệ số $a$.
+
+  :::example Tìm hệ số $a$
+  Cho hàm số $y=ax^2$ có đồ thị đi qua điểm $A(2; -12)$.
+
+  a) Tìm $a$.
+
+  b) Điểm $B(-1; -3)$ và $C(3; 27)$ có thuộc đồ thị không?
+
+  **Lời giải.** a) Thay $x=2$, $y=-12$ vào $y=ax^2$, ta được
+
+  $$-12=a\cdot2^2\Leftrightarrow 4a=-12\Leftrightarrow a=-3.$$
+
+  b) Với $y=-3x^2$, ta có $-3\cdot(-1)^2=-3$ nên $B$ thuộc đồ thị; $-3\cdot3^2=-27\neq27$ nên $C$ không thuộc đồ thị.
+
+  Vậy $a=-3$; điểm $B$ thuộc đồ thị, điểm $C$ không thuộc đồ thị.
+  :::
+
+[[P10·e10f]]
+Ngược lại, biết tung độ, ta tìm hoành độ bằng cách giải $ax^2=y_0$. Do tính đối xứng, thường có hai giá trị đối nhau của $x$.
+
+  :::example Trả lời câu hỏi ở đầu bài
+  Viên bi rơi từ độ cao $45$ m, quãng đường rơi là $s=5t^2$ (m). Sau bao lâu viên bi chạm đất? Sau $2$ giây, viên bi còn cách mặt đất bao nhiêu mét?
+
+  **Lời giải.**
+
+  *Hiểu đề.* Cần tìm $t$ lúc viên bi chạm đất, và độ cao còn lại khi $t=2$.
+
+  *Tìm cách giải.* Viên bi chạm đất khi quãng đường rơi bằng độ cao, tức $s=45$. Độ cao còn lại bằng $45-s$.
+
+  *Giải.* Ta có
+
+  $$5t^2=45\Leftrightarrow t^2=9\Leftrightarrow t=3\ \text{ hoặc }\ t=-3.$$
+
+  Vì $t>0$ nên $t=3$. Sau $2$ giây, viên bi rơi được $s=5\cdot2^2=20$ (m), nên còn cách mặt đất $45-20=25$ (m).
+
+  Vậy viên bi chạm đất sau $3$ giây; sau $2$ giây nó còn cách mặt đất $25$ m.
+
+  *Nhìn lại.* Kết quả có hợp lí không? Sau $2$ giây (hai phần ba thời gian) viên bi mới rơi được chưa đến một nửa độ cao, vì nó rơi ngày càng nhanh. Nếu toà nhà cao gấp bốn ($180$ m) thì thời gian rơi chỉ gấp đôi ($t^2=36$, $t=6$ giây), không gấp bốn.
+  :::
+
+[[P11·07af]]
+**Kết nối.** Bài này dựa trên hàm số, đồ thị (lớp 8) và căn bậc hai. Giải $ax^2=k$ là trường hợp đơn giản nhất của [phương trình bậc hai một ẩn](lesson:quadratic-equations). Parabol còn là quỹ đạo của quả bóng được ném xiên (khi bỏ qua sức cản không khí) và là đồ thị của hàm số bậc hai lớp 10.
+
+:::warning Những sai lầm thường gặp
+[[P12·d09f]]
+- **Bình phương cả hệ số.** Sai: với $y=-2x^2$, tại $x=-3$ tính $y=(-2\cdot(-3))^2=36$. Lí do sai: chỉ $x$ được bình phương. Đúng: $y=-2\cdot(-3)^2=-18$.
+- **Bỏ sót một giá trị của $x$.** Sai: "$x^2=9$ nên $x=3$". Lí do sai: $(-3)^2=9$ cũng đúng. Đúng: $x=3$ hoặc $x=-3$, rồi đối chiếu điều kiện của bài toán (như $t>0$).
+- **Nối các điểm bằng đoạn thẳng.** Đồ thị là một đường cong trơn, ở gần đỉnh $O$ nó "tròn", không có góc nhọn.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - hàm số $y=ax^2$ | the function $y=ax^2$
+  - hệ số | coefficient
+  - bảng giá trị | table of values
+  - đồ thị | graph
+  - parabol | parabola
+  - đỉnh | vertex
+  - trục đối xứng | axis of symmetry
+  - điểm thấp nhất / cao nhất | lowest / highest point
+  :::
+
+## Tóm tắt
+
+[[P13·c894]]
+- Hàm số $y=ax^2$ ($a\neq0$) xác định với mọi $x\in\mathbb{R}$; $x$ và $-x$ cho cùng một giá trị $y$.
+- Đồ thị là parabol đỉnh $O$, trục đối xứng $Oy$.
+- $a>0$: đồ thị ở phía trên trục hoành, $O$ thấp nhất; $a<0$: đồ thị ở phía dưới trục hoành, $O$ cao nhất.
+- $M(x_0; y_0)$ thuộc đồ thị $\Leftrightarrow y_0=ax_0^2$; dùng điều này để tìm $a$ hoặc tìm điểm.
+- Vẽ đồ thị: lập bảng giá trị với các cặp $x$ đối nhau, nối bằng đường cong trơn.
+
+## Luyện tập
+
+[[P14·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
    (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Revision
+:::exercise Thử thách
    (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/function-y-equals-ax2 – BẢN TIẾNG ANH ########
+---
+title: The function y = ax² (a ≠ 0)
+description: Recognise the function y = ax², find its values, make a table of values, draw its parabola and use it in real-life problems.
+minutes: 20
+---
+
+  :::goals
+  - Recognise the function $y=ax^2$ ($a\neq0$) and find its value at a given point.
+  - Make a table of values and draw the graph (a parabola) of $y=ax^2$.
+  - State the symmetry of the graph and its position depending on the sign of $a$.
+  - Solve some real-life problems involving the function $y=ax^2$.
+  :::
+
+[[P1·43b3]]
+Between about 1602 and 1604, in Padua (Italy), Galileo Galilei rolled balls down sloping channels to slow down falling motion so that he could measure it. He found a surprising law: the distance travelled is not proportional to the time, but to the **square** of the time (MacTutor, University of St Andrews). In grade 10 physics, the law of free fall is written as $s=\dfrac12gt^2$ with $g\approx9.8$ m/s²; rounding to $g\approx10$ gives $s\approx5t^2$ (metres).
+
+[[P2·c784]]
+Suppose you drop a marble from the roof of a building $45$ m high (about $15$ storeys) and ignore air resistance. How long does it take the marble to reach the ground? And why does it fall so much further in the third second than in the first?
+
+## The function $y=ax^2$ ($a\neq0$)
+
+### Explore: distance fallen over time
+
+[[P3·74a7]]
+We work out $s=5t^2$ at a few times:
+
+| $t$ (seconds) | $0$ | $1$ | $2$ | $3$ |
+|---|---|---|---|---|
+| $s$ (metres) | $0$ | $5$ | $20$ | $45$ |
+
+[[P4·f845]]
+When the time doubles (from $1$ to $2$ seconds), the distance becomes four times as large (from $5$ to $20$ m); three times the time gives nine times the distance. In each second the marble falls $5$ m, then $15$ m, then $25$ m: it keeps speeding up. Each value of $t$ gives exactly one value of $s$, so $s$ is a function of $t$.
+
+  :::definition The function $y=ax^2$
+  A function of the form $y=ax^2$, where $a$ is a real number other than $0$, is defined for every real number $x$. The number $a$ is called the **coefficient** of the function.
+  :::
+
+[[P5·8fa6]]
+**Going deeper.** For the linear function $y=ax$ (grade 8), doubling $x$ doubles $y$. For $y=ax^2$, multiplying $x$ by $k$ multiplies $y$ by $k^2$, because $a(kx)^2=k^2\cdot ax^2$. That is why the area of a square with side $x$ is $S=x^2$ ($a=1$) and the area of a circle with radius $R$ is $S=\pi R^2$ ($a=\pi$): enlarge a shape by a factor of $2$ and its area becomes four times as large.
+
+[[P6·ff06]]
+Functions such as $y=x^2+1$ or $y=(x-1)^2$ do **not** have the form $y=ax^2$: their graphs do not pass through $O$ (for $y=x^2+1$) or do not have the $y$-axis as axis of symmetry (for $y=(x-1)^2$). In grade 10 you will study general quadratic functions like these.
+
+  :::example Finding values of the function
+  Consider the function $y=-2x^2$. Find the value of $y$ when $x=-3$, $x=\dfrac12$ and $x=\sqrt2$.
+
+  **Solution.** We substitute each value of $x$ into the formula. Note that we square first and multiply by $-2$ afterwards:
+
+  $$\begin{aligned} x=-3:&\quad y=-2\cdot(-3)^2=-2\cdot9=-18;\\ x=\tfrac12:&\quad y=-2\cdot\tfrac14=-\tfrac12;\\ x=\sqrt2:&\quad y=-2\cdot(\sqrt2)^2=-2\cdot2=-4. \end{aligned}$$
+
+  So the corresponding values of $y$ are $-18$, $-\dfrac12$ and $-4$.
+  :::
+
+## The graph of $y=ax^2$
+
+### Explore: the functions $y=x^2$ and $y=-x^2$
+
+| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |
+|---|---|---|---|---|---|
+| $y=x^2$ | $4$ | $1$ | $0$ | $1$ | $4$ |
+| $y=-x^2$ | $-4$ | $-1$ | $0$ | $-1$ | $-4$ |
+
+[[P7·32ac]]
+Two opposite values of $x$ give the same value of $y$, because $(-x)^2=x^2$. Plotting the points $(x, y)$ on a coordinate grid and joining them with a smooth curve, we get the picture below.
+
+:::graph The graphs of $y=x^2$ and $y=-x^2$
+   (… 14 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem The graph of $y=ax^2$ ($a\neq0$)
+  The graph of $y=ax^2$ is a curve through the origin $O$ with the $y$-axis as its axis of symmetry. This curve is called a **parabola** with **vertex** $O$.
+  - If $a>0$, the graph lies above the $x$-axis and $O$ is its lowest point.
+  - If $a<0$, the graph lies below the $x$-axis and $O$ is its highest point.
+  :::
+
+[[P8·ba06]]
+**Why is it symmetrical about the $y$-axis?** If the point $(x_0, y_0)$ is on the graph, then $y_0=ax_0^2=a(-x_0)^2$, so the point $(-x_0, y_0)$ is on the graph too. These two points are reflections of each other in the $y$-axis. Also $x^2\geq0$, so $y=ax^2$ has the same sign as $a$ when $x\neq0$.
+
+  :::example Drawing a graph
+  Draw the graph of $y=\dfrac12x^2$.
+
+  **Solution.** We make a table of values (choosing even $x$ so that $y$ is a whole number):
+
+  | $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |
+  |---|---|---|---|---|---|
+  | $y=\frac12x^2$ | $8$ | $2$ | $0$ | $2$ | $8$ |
+
+  We plot the points $(-4, 8)$, $(-2, 2)$, $(0, 0)$, $(2, 2)$, $(4, 8)$ and join them with a smooth curve.
+
+  So the graph is a parabola with vertex $O$, lying above the $x$-axis, with the $y$-axis as its axis of symmetry (see the figure below).
+  :::
+
+:::graph The graph of $y=\frac12x^2$
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Points on the graph and real-life problems
+
+[[P9·5254]]
+The point $M(x_0, y_0)$ lies on the graph of $y=ax^2$ exactly when $y_0=ax_0^2$. So if we know one point of the graph, we can find the coefficient $a$.
+
+  :::example Finding the coefficient $a$
+  The graph of $y=ax^2$ passes through the point $A(2, -12)$.
+
+  a) Find $a$.
+
+  b) Do the points $B(-1, -3)$ and $C(3, 27)$ lie on the graph?
+
+  **Solution.** a) Substituting $x=2$, $y=-12$ into $y=ax^2$, we get
+
+  $$-12=a\cdot2^2\Leftrightarrow 4a=-12\Leftrightarrow a=-3.$$
+
+  b) With $y=-3x^2$, we have $-3\cdot(-1)^2=-3$, so $B$ lies on the graph; $-3\cdot3^2=-27\neq27$, so $C$ does not.
+
+  So $a=-3$; the point $B$ lies on the graph and the point $C$ does not.
+  :::
+
+[[P10·cadf]]
+Conversely, if we know the $y$-coordinate, we find the $x$-coordinate by solving $ax^2=y_0$. Because of the symmetry, there are usually two opposite values of $x$.
+
+  :::example Answering the opening question
+  The marble falls from a height of $45$ m, and the distance fallen is $s=5t^2$ (m). How long does it take to reach the ground? After $2$ seconds, how far above the ground is it?
+
+  **Solution.**
+
+  *Understand.* We need the time $t$ when the marble reaches the ground, and the height left when $t=2$.
+
+  *Plan.* The marble reaches the ground when the distance fallen equals the height, that is $s=45$. The height left is $45-s$.
+
+  *Solve.* We have
+
+  $$5t^2=45\Leftrightarrow t^2=9\Leftrightarrow t=3\ \text{ or }\ t=-3.$$
+
+  Since $t>0$, $t=3$. After $2$ seconds the marble has fallen $s=5\cdot2^2=20$ (m), so it is $45-20=25$ (m) above the ground.
+
+  So the marble reaches the ground after $3$ seconds; after $2$ seconds it is $25$ m above the ground.
+
+  *Look back.* Is the result sensible? After $2$ seconds (two thirds of the time) the marble has fallen less than half the height, because it keeps speeding up. If the building were four times as high ($180$ m), the fall would take only twice as long ($t^2=36$, $t=6$ seconds), not four times as long.
+  :::
+
+[[P11·59fa]]
+**Connections.** This lesson builds on functions, graphs (grade 8) and square roots. Solving $ax^2=k$ is the simplest case of a [quadratic equation in one unknown](lesson:quadratic-equations). A parabola is also the path of a ball thrown at an angle (ignoring air resistance) and the graph of the quadratic functions of grade 10.
+
+:::warning Common mistakes
+[[P12·24e1]]
+- **Squaring the coefficient as well.** Wrong: for $y=-2x^2$ at $x=-3$, working out $y=(-2\cdot(-3))^2=36$. Why it is wrong: only $x$ is squared. Right: $y=-2\cdot(-3)^2=-18$.
+- **Missing one value of $x$.** Wrong: "$x^2=9$, so $x=3$". Why it is wrong: $(-3)^2=9$ as well. Right: $x=3$ or $x=-3$, then check the condition of the problem (such as $t>0$).
+- **Joining the points with straight lines.** The graph is a smooth curve; near the vertex $O$ it is "rounded", with no sharp corner.
+:::
+
+## Key terms
+
+  :::terms
+  - the function $y=ax^2$ | hàm số $y=ax^2$
+  - coefficient | hệ số
+  - table of values | bảng giá trị
+  - graph | đồ thị
+  - parabola | parabol
+  - vertex | đỉnh
+  - axis of symmetry | trục đối xứng
+  - lowest / highest point | điểm thấp nhất / cao nhất
+  :::
+
+## Summary
+
+[[P13·d964]]
+- The function $y=ax^2$ ($a\neq0$) is defined for all $x\in\mathbb{R}$; $x$ and $-x$ give the same value of $y$.
+- Its graph is a parabola with vertex $O$ and axis of symmetry the $y$-axis.
+- $a>0$: the graph is above the $x$-axis and $O$ is lowest; $a<0$: the graph is below the $x$-axis and $O$ is highest.
+- $M(x_0, y_0)$ is on the graph $\Leftrightarrow y_0=ax_0^2$; use this to find $a$ or to find points.
+- To draw the graph: make a table of values with opposite pairs of $x$ and join with a smooth curve.
+
+## Practice
+
+[[P14·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 29 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge
    (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/g9-equation-word-problems – BẢN TIẾNG VIỆT ########
+---
+title: Giải bài toán bằng cách lập phương trình
+description: Giải bài toán thực tế bằng cách lập phương trình bậc hai: chọn ẩn, đặt điều kiện, lập và giải phương trình, đối chiếu điều kiện và kết luận.
+minutes: 20
+---
+
+  :::goals
+  - Nắm vững các bước giải bài toán bằng cách lập phương trình.
+  - Biểu diễn các đại lượng chưa biết qua ẩn và lập được phương trình bậc hai từ đề bài.
+  - Giải các bài toán về hình học, năng suất, chuyển động và tăng trưởng phần trăm.
+  - Đối chiếu nghiệm với điều kiện và với thực tế trước khi kết luận.
+  :::
+
+[[P1·5b7a]]
+Giả sử đầu xuân, một đội thanh niên tình nguyện của xã dự định trồng $120$ cây xanh dọc con đường vào trường, mỗi ngày trồng một số cây như nhau. Khi bắt tay vào làm, có thêm các bạn học sinh tham gia nên mỗi ngày đội trồng được nhiều hơn dự định $4$ cây, và xong việc sớm hơn $1$ ngày. Theo dự định, mỗi ngày đội trồng bao nhiêu cây?
+
+[[P2·8dd5]]
+Trong bài toán này có ba đại lượng ràng buộc nhau: số cây mỗi ngày, số ngày và tổng số cây ($\text{tổng} = \text{mỗi ngày}\times\text{số ngày}$). Lập phương trình chính là viết mối ràng buộc ấy bằng ngôn ngữ đại số, rồi để phương trình bậc hai (bài [phương trình bậc hai một ẩn](lesson:quadratic-equations)) làm phần việc còn lại.
+
+## Các bước giải bài toán bằng cách lập phương trình
+
+  :::definition Các bước giải bài toán bằng cách lập phương trình
+  **Bước 1.** Lập phương trình:
+  - Chọn ẩn số và đặt điều kiện thích hợp cho ẩn (kèm đơn vị);
+  - Biểu diễn các đại lượng chưa biết khác theo ẩn và các đại lượng đã biết;
+  - Lập phương trình biểu thị mối quan hệ giữa các đại lượng.
+
+  **Bước 2.** Giải phương trình.
+
+  **Bước 3.** Kiểm tra xem trong các nghiệm của phương trình, nghiệm nào thoả mãn điều kiện của ẩn, rồi kết luận.
+  :::
+
+[[P3·d8a7]]
+**Hiểu sâu hơn.** Phương trình là một *mô hình* của tình huống thực tế, và mô hình thường "rộng" hơn thực tế: nó có thể có nghiệm âm dù không có độ dài nào âm. Vì thế điều kiện ở Bước 1 không phải là thủ tục: nó giúp Bước 3 lọc nghiệm. Thường ta chọn ẩn là đại lượng đề bài hỏi; nếu phương trình trở nên rối, hãy chọn đại lượng khác.
+
+  :::example Hai số tự nhiên liên tiếp
+  Tìm hai số tự nhiên liên tiếp có tích bằng $156$.
+
+  **Lời giải.** Gọi số nhỏ là $x$ ($x\in\mathbb{N}$); số liền sau là $x+1$. Theo đề bài ta có phương trình
+
+  $$x(x+1)=156\Leftrightarrow x^2+x-156=0.$$
+
+  Ta có $\Delta=1+624=625$, $\sqrt\Delta=25$, nên $x_1=\dfrac{-1+25}{2}=12$ (thoả mãn điều kiện), $x_2=\dfrac{-1-25}{2}=-13$ (loại vì không là số tự nhiên).
+
+  Vậy hai số cần tìm là $12$ và $13$.
+  :::
+
+## Bài toán có nội dung hình học
+
+[[P4·17b7]]
+Trong bài toán hình học, chu vi, diện tích và định lí Pythagore là "cầu nối" giữa ẩn và dữ kiện; một hình vẽ ghi kích thước theo $x$ giúp lập phương trình nhanh hơn.
+
+  :::example Lối đi trong vườn
+  Giả sử một mảnh vườn hình chữ nhật dài $20$ m, rộng $14$ m. Người ta làm một lối đi có chiều rộng đều nhau chạy sát bốn cạnh, bên trong mảnh vườn; phần còn lại để trồng rau có diện tích $160$ m². Tính chiều rộng của lối đi.
+
+  **Lời giải.** Gọi chiều rộng lối đi là $x$ (m), $0<x<7$. Phần trồng rau là hình chữ nhật có kích thước $20-2x$ và $14-2x$ (m). Theo đề bài ta có phương trình
+
+  $$(20-2x)(14-2x)=160\Leftrightarrow4x^2-68x+120=0\Leftrightarrow x^2-17x+30=0.$$
+
+  Ta có $\Delta=289-120=169$, nên $x_1=\dfrac{17+13}{2}=15$ (loại vì $15>7$), $x_2=\dfrac{17-13}{2}=2$ (thoả mãn điều kiện).
+
+  Vậy lối đi rộng $2$ m.
+  :::
+
+:::diagram Phần trồng rau $16$ m $\times$ $10$ m bên trong mảnh vườn $20$ m $\times$ $14$ m
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài toán về năng suất và chuyển động
+
+[[P5·4f50]]
+Hai dạng này có cùng một cấu trúc: $\text{khối lượng công việc}=\text{năng suất}\times\text{thời gian}$ và $\text{quãng đường}=\text{vận tốc}\times\text{thời gian}$. Thời gian được biểu diễn bằng một phân thức, nên phương trình có ẩn ở mẫu (bài [phương trình quy về phương trình bậc nhất](lesson:equations-reducible-to-linear)).
+
+  :::example Trả lời câu hỏi ở đầu bài
+  Giải bài toán trồng cây ở đầu bài.
+
+  **Lời giải.** Gọi số cây mỗi ngày đội dự định trồng là $x$ ($x\in\mathbb{N}^*$). Thời gian dự định là $\dfrac{120}{x}$ ngày; thực tế mỗi ngày trồng $x+4$ cây nên thời gian thực tế là $\dfrac{120}{x+4}$ ngày. Vì thực tế xong sớm hơn $1$ ngày nên ta có phương trình
+
+  $$\frac{120}{x}-\frac{120}{x+4}=1.$$
+
+  Nhân hai vế với $x(x+4)$, ta được $120(x+4)-120x=x(x+4)\Leftrightarrow x^2+4x-480=0$. Ta có $\Delta'=4+480=484$, $\sqrt{\Delta'}=22$, nên $x_1=-2+22=20$ (thoả mãn điều kiện), $x_2=-2-22=-24$ (loại).
+
+  Vậy theo dự định, mỗi ngày đội trồng $20$ cây.
+
+  **Kiểm tra.** Dự định $120:20=6$ ngày, thực tế $120:24=5$ ngày, sớm hơn $1$ ngày.
+  :::
+
+[[P6·43d1]]
+Bài toán chuyển động sau đây có nhiều dữ kiện hơn, nên ta đi đủ bốn bước.
+
+  :::example Đi và về với hai vận tốc
+  Một người đi xe máy từ nhà đến thành phố cách $60$ km. Lúc về, người đó tăng vận tốc thêm $10$ km/h nên thời gian về ít hơn thời gian đi $30$ phút. Tính vận tốc lúc đi.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Vận tốc về lớn hơn $10$ km/h; thời gian về ít hơn $30$ phút $=\dfrac12$ giờ.
+
+  *Tìm cách giải.* Gọi vận tốc lúc đi là $x$ (km/h), $x>0$. Thời gian đi là $\dfrac{60}{x}$ (giờ), thời gian về là $\dfrac{60}{x+10}$ (giờ). Theo đề bài ta có phương trình
+
+  $$\frac{60}{x}-\frac{60}{x+10}=\frac12.$$
+
+  *Giải.* Nhân hai vế với $2x(x+10)$, ta được $120(x+10)-120x=x(x+10)\Leftrightarrow x^2+10x-1200=0$. Ta có $\Delta'=25+1200=1225$, $\sqrt{\Delta'}=35$, nên $x_1=-5+35=30$ (thoả mãn), $x_2=-5-35=-40$ (loại).
+
+  Vậy vận tốc lúc đi là $30$ km/h.
+
+  *Nhìn lại.* Kết quả có hợp lí không? Đi hết $2$ giờ, về với $40$ km/h hết $1{,}5$ giờ, đúng là ít hơn $30$ phút. Nếu quên đổi $30$ phút ra giờ mà viết vế phải là $30$, ta được $x^2+10x-20=0$, cho vận tốc khoảng $1{,}7$ km/h, chậm hơn cả đi bộ: dấu hiệu đơn vị bị sai.
+  :::
+
+## Bài toán về tăng trưởng phần trăm
+
+[[P7·09a6]]
+Nếu một đại lượng tăng $r$ (viết dạng số thập phân) mỗi năm thì sau mỗi năm nó được nhân với $1+r$; sau hai năm, nó được nhân với $(1+r)^2$. Đây là quy luật chung của lãi kép, tăng dân số, tăng giá.
+
+  :::example Dân số của một xã
+  Giả sử dân số của một xã tăng từ $10\,000$ người lên $10\,404$ người sau $2$ năm, với tỉ lệ tăng hằng năm như nhau. Tính tỉ lệ tăng dân số hằng năm của xã.
+
+  **Lời giải.** Gọi tỉ lệ tăng hằng năm là $r$ ($r>0$). Theo đề bài ta có phương trình
+
+  $$10\,000(1+r)^2=10\,404\Leftrightarrow(1+r)^2=1{,}0404\Leftrightarrow1+r=1{,}02\ \text{(vì }1+r>0).$$
+
+  Suy ra $r=0{,}02$.
+
+  Vậy tỉ lệ tăng dân số hằng năm là $2\%$.
+
+  **Nhận xét.** Hai năm tăng tổng cộng $4{,}04\%$, không phải $4\%$, vì năm thứ hai tăng $2\%$ trên số dân *đã tăng*.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P8·52b1]]
+- **Không đối chiếu điều kiện.** Sai: "vận tốc là $30$ km/h hoặc $-40$ km/h". Đúng: loại nghiệm không thoả mãn điều kiện ($x>0$) rồi mới kết luận.
+- **Lập sai hiệu thời gian.** "Xong sớm hơn" nghĩa là thời gian dự định lớn hơn, nên phải lấy $\text{dự định}-\text{thực tế}=1$, không phải ngược lại.
+:::
+
+[[P9·a5c5]]
+**Kết nối.** Bài này gom các công cụ của chương: công thức nghiệm, định lí Viète, phương trình chứa ẩn ở mẫu; nó cũng nối với cách lập hệ phương trình ở chương I. Gặp một bài toán, hãy tự hỏi: các đại lượng nào phụ thuộc nhau, và quan hệ nào giữa chúng là "bằng nhau"?
+
+## Thuật ngữ
+
+  :::terms
+  - giải bài toán bằng cách lập phương trình | solving problems by forming equations
+  - chọn ẩn | choosing the unknown
+  - điều kiện của ẩn | condition on the unknown
+  - thoả mãn điều kiện | satisfies the condition
+  - năng suất | rate of work
+  - vận tốc | speed
+  - tỉ lệ tăng | growth rate
+  - lãi kép | compound interest
+  :::
+
+## Tóm tắt
+
+[[P10·bffa]]
+- Ba bước: lập phương trình (chọn ẩn, điều kiện, biểu diễn, lập) → giải → đối chiếu điều kiện và thực tế (độ dài dương, số tự nhiên…) rồi kết luận.
+- Hình học: dùng chu vi, diện tích, định lí Pythagore; vẽ hình ghi kích thước theo $x$.
+- Năng suất, chuyển động: $\text{thời gian}=\dfrac{\text{tổng}}{\text{năng suất}}$ hoặc $\dfrac{\text{quãng đường}}{\text{vận tốc}}$; đổi đơn vị cho thống nhất.
+- Tăng trưởng: sau hai năm đại lượng được nhân với $(1+r)^2$.
+
+## Luyện tập
+
+[[P11·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/g9-equation-word-problems – BẢN TIẾNG ANH ########
+---
+title: Solving word problems by forming equations
+description: Solve real-life problems with quadratic equations: choose the unknown, state its condition, form and solve the equation, check the condition and conclude.
+minutes: 20
+---
+
+  :::goals
+  - Know the steps for solving a problem by forming an equation.
+  - Express unknown quantities in terms of one unknown and form a quadratic equation from the problem.
+  - Solve problems about geometry, rates of work, motion and percentage growth.
+  - Check the roots against the condition and against reality before concluding.
+  :::
+
+[[P1·bfbc]]
+Suppose that at the start of spring, a youth volunteer team in a commune plans to plant $120$ trees along the road to the school, the same number every day. When the work begins, some students join in, so the team plants $4$ more trees per day than planned and finishes $1$ day early. How many trees per day did the team plan to plant?
+
+[[P2·aeba]]
+Three quantities in this problem are tied together: trees per day, number of days and the total number of trees ($\text{total}=\text{per day}\times\text{days}$). Forming an equation means writing this link in the language of algebra, and then letting quadratic equations (lesson [quadratic equations in one unknown](lesson:quadratic-equations)) do the rest.
+
+## The steps for solving a problem by forming an equation
+
+  :::definition The steps for solving a problem by forming an equation
+  **Step 1.** Form the equation:
+  - Choose the unknown and state a suitable condition on it (with units);
+  - Express the other unknown quantities in terms of the unknown and the known quantities;
+  - Form an equation showing the relation between the quantities.
+
+  **Step 2.** Solve the equation.
+
+  **Step 3.** Check which roots of the equation satisfy the condition on the unknown, then conclude.
+  :::
+
+[[P3·9592]]
+**Going deeper.** An equation is a *model* of a real situation, and a model is often "wider" than reality: it can have a negative root even though no length is negative. So the condition in Step 1 is not a formality: it lets Step 3 filter the roots. We usually choose the quantity the problem asks for as the unknown; if the equation becomes messy, choose another quantity.
+
+  :::example Two consecutive natural numbers
+  Find two consecutive natural numbers whose product is $156$.
+
+  **Solution.** Let the smaller number be $x$ ($x\in\mathbb{N}$); the next number is $x+1$. From the problem we have the equation
+
+  $$x(x+1)=156\Leftrightarrow x^2+x-156=0.$$
+
+  We have $\Delta=1+624=625$ and $\sqrt\Delta=25$, so $x_1=\dfrac{-1+25}{2}=12$ (satisfies the condition) and $x_2=\dfrac{-1-25}{2}=-13$ (rejected, since it is not a natural number).
+
+  So the two numbers are $12$ and $13$.
+  :::
+
+## Geometry problems
+
+[[P4·8caf]]
+In geometry problems, perimeter, area and Pythagoras' theorem are the "bridges" between the unknown and the data; a figure with the dimensions written in terms of $x$ makes the equation quicker to form.
+
+  :::example A path in a garden
+  Suppose a rectangular garden is $20$ m long and $14$ m wide. A path of constant width runs along all four sides, inside the garden; the rest, used for vegetables, has area $160$ m². Find the width of the path.
+
+  **Solution.** Let the width of the path be $x$ (m), $0<x<7$. The vegetable plot is a rectangle measuring $20-2x$ by $14-2x$ (m). From the problem we have the equation
+
+  $$(20-2x)(14-2x)=160\Leftrightarrow4x^2-68x+120=0\Leftrightarrow x^2-17x+30=0.$$
+
+  We have $\Delta=289-120=169$, so $x_1=\dfrac{17+13}{2}=15$ (rejected, since $15>7$) and $x_2=\dfrac{17-13}{2}=2$ (satisfies the condition).
+
+  So the path is $2$ m wide.
+  :::
+
+:::diagram The vegetable plot $16$ m $\times$ $10$ m inside the garden $20$ m $\times$ $14$ m
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Rate of work and motion problems
+
+[[P5·de01]]
+These two types have the same structure: $\text{amount of work}=\text{rate}\times\text{time}$ and $\text{distance}=\text{speed}\times\text{time}$. The time is written as a fraction, so the equation has the unknown in a denominator (lesson [equations reducible to linear equations](lesson:equations-reducible-to-linear)).
+
+  :::example Answering the opening question
+  Solve the tree-planting problem from the opening.
+
+  **Solution.** Let the planned number of trees per day be $x$ ($x\in\mathbb{N}^*$). The planned time is $\dfrac{120}{x}$ days; in fact the team plants $x+4$ trees per day, so the actual time is $\dfrac{120}{x+4}$ days. Since the team finishes $1$ day early, we have the equation
+
+  $$\frac{120}{x}-\frac{120}{x+4}=1.$$
+
+  Multiplying both sides by $x(x+4)$, we get $120(x+4)-120x=x(x+4)\Leftrightarrow x^2+4x-480=0$. We have $\Delta'=4+480=484$ and $\sqrt{\Delta'}=22$, so $x_1=-2+22=20$ (satisfies the condition) and $x_2=-2-22=-24$ (rejected).
+
+  So the team planned to plant $20$ trees per day.
+
+  **Check.** Planned: $120\div20=6$ days; actual: $120\div24=5$ days, which is $1$ day early.
+  :::
+
+[[P6·935b]]
+The next motion problem has more data, so we go through all four steps.
+
+  :::example There and back at two speeds
+  A motorcyclist rides from home to a city $60$ km away. On the way back, the rider goes $10$ km/h faster, so the return journey takes $30$ minutes less. Find the speed on the way there.
+
+  **Solution.**
+
+  *Understand.* The return speed is $10$ km/h higher; the return time is $30$ minutes $=\dfrac12$ hour shorter.
+
+  *Plan.* Let the speed on the way there be $x$ (km/h), $x>0$. The time there is $\dfrac{60}{x}$ (hours) and the time back is $\dfrac{60}{x+10}$ (hours). From the problem we have the equation
+
+  $$\frac{60}{x}-\frac{60}{x+10}=\frac12.$$
+
+  *Solve.* Multiplying both sides by $2x(x+10)$, we get $120(x+10)-120x=x(x+10)\Leftrightarrow x^2+10x-1200=0$. We have $\Delta'=25+1200=1225$ and $\sqrt{\Delta'}=35$, so $x_1=-5+35=30$ (satisfies the condition) and $x_2=-5-35=-40$ (rejected).
+
+  So the speed on the way there is $30$ km/h.
+
+  *Look back.* Is the result sensible? The journey there takes $2$ hours and the return at $40$ km/h takes $1.5$ hours, indeed $30$ minutes less. If we forgot to convert $30$ minutes into hours and wrote $30$ on the right-hand side, we would get $x^2+10x-20=0$, giving a speed of about $1.7$ km/h, slower than walking: a sign that the units are wrong.
+  :::
+
+## Percentage growth problems
+
+[[P7·f2bc]]
+If a quantity grows by $r$ (written as a decimal) each year, then each year it is multiplied by $1+r$; after two years it is multiplied by $(1+r)^2$. This is the common law behind compound interest, population growth and rising prices.
+
+  :::example The population of a commune
+  Suppose the population of a commune grows from $10\,000$ to $10\,404$ people in $2$ years, at the same rate each year. Find the yearly growth rate of the population.
+
+  **Solution.** Let the yearly growth rate be $r$ ($r>0$). From the problem we have the equation
+
+  $$10\,000(1+r)^2=10\,404\Leftrightarrow(1+r)^2=1.0404\Leftrightarrow1+r=1.02\ \text{(since }1+r>0).$$
+
+  Hence $r=0.02$.
+
+  So the population grows by $2\%$ per year.
+
+  **Remark.** The total growth over two years is $4.04\%$, not $4\%$, because in the second year the $2\%$ is taken of the population that has *already grown*.
+  :::
+
+:::warning Common mistakes
+[[P8·440d]]
+- **Not checking the condition.** Wrong: "the speed is $30$ km/h or $-40$ km/h". Right: reject the roots that break the condition ($x>0$) before concluding.
+- **Subtracting the times the wrong way round.** "Finishes early" means the planned time is longer, so we need $\text{planned}-\text{actual}=1$, not the other way round.
+:::
+
+[[P9·c7e8]]
+**Connections.** This lesson gathers the tools of the chapter: the quadratic formula, Viète's theorem and equations with the unknown in a denominator; it also links to forming simultaneous equations in chapter I. When you meet a problem, ask yourself: which quantities depend on each other, and which relation between them is an "equals"?
+
+## Key terms
+
+  :::terms
+  - solving problems by forming equations | giải bài toán bằng cách lập phương trình
+  - choosing the unknown | chọn ẩn
+  - condition on the unknown | điều kiện của ẩn
+  - satisfies the condition | thoả mãn điều kiện
+  - rate of work | năng suất
+  - speed | vận tốc
+  - growth rate | tỉ lệ tăng
+  - compound interest | lãi kép
+  :::
+
+## Summary
+
+[[P10·cf28]]
+- Three steps: form the equation (unknown, condition, express, equation) → solve → check against the condition and reality (positive lengths, natural numbers, …), then conclude.
+- Geometry: use perimeter, area and Pythagoras' theorem; draw a figure with dimensions in terms of $x$.
+- Rate of work and motion: $\text{time}=\dfrac{\text{total}}{\text{rate}}$ or $\dfrac{\text{distance}}{\text{speed}}$; make the units consistent.
+- Growth: after two years a quantity is multiplied by $(1+r)^2$.
+
+## Practice
+
+[[P11·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test

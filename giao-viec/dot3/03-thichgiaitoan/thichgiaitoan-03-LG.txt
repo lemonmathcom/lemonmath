@@ -189,1057 +189,1011 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g3/g3-midpoints (8 bài tập)
-- g3/g3-vietnamese-money (8 bài tập)
-- g3/how-many-times-larger (8 bài tập)
-- g3/likelihood-of-an-event (8 bài tập)
-- g3/millilitres (8 bài tập)
+- g2/subtract-within-1000-no-regrouping (7 bài tập)
+- g2/subtraction-crossing-10 (8 bài tập)
+- g2/three-digit-numbers (8 bài tập)
+- g2/two-times-table (8 bài tập)
+- g2/vietnamese-money (9 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g3/g3-midpoints
-Bài học: Điểm ở giữa, trung điểm của đoạn thẳng / Points in the middle and midpoints of line segments
+@@@ g2/subtract-within-1000-no-regrouping
+Bài học: Phép trừ (không nhớ) trong phạm vi 1000. Phép trừ (có nhớ) trong phạm vi 1000 / Subtraction within 1,000 (no regrouping). Subtraction within 1,000 (with regrouping)
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $786-354$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 786 \\ -\ 354 \\ \hline 432 \end{array}$$
+Hàng đơn vị: $6-4=2$. Hàng chục: $8-5=3$. Hàng trăm: $7-3=4$.
+
+**Đáp số.** $432$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $786-354$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 786 \\ -\ 354 \\ \hline 432 \end{array}$$
+Ones: $6-4=2$. Tens: $8-5=3$. Hundreds: $7-3=4$.
+
+**Answer.** $432$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính nhẩm: $900-400$ và $640-30$.
+
+[LỜI GIẢI CŨ – VI]
+$9$ trăm trừ $4$ trăm bằng $5$ trăm, nên $900-400=500$.
+
+$64$ chục trừ $3$ chục bằng $61$ chục, nên $640-30=610$.
+
+**Đáp số.** $500$ và $610$.
+
+[ĐỀ – EN]
+Work out in your head: $900-400$ and $640-30$.
+
+[LỜI GIẢI CŨ – EN]
+$9$ hundreds minus $4$ hundreds is $5$ hundreds, so $900-400=500$.
+
+$64$ tens minus $3$ tens is $61$ tens, so $640-30=610$.
+
+**Answer.** $500$ and $610$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $541-217$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 541 \\ -\ 217 \\ \hline 324 \end{array}$$
+Hàng đơn vị: $11-7=4$, hàng chục còn $3$. Hàng chục: $3-1=2$. Hàng trăm: $5-2=3$.
+
+**Đáp số.** $324$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $541-217$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 541 \\ -\ 217 \\ \hline 324 \end{array}$$
+Ones: $11-7=4$ and $3$ tens are left. Tens: $3-1=2$. Hundreds: $5-2=3$.
+
+**Answer.** $324$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $625-387$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 625 \\ -\ 387 \\ \hline 238 \end{array}$$
+Hàng đơn vị: $15-7=8$, hàng chục còn $1$. Hàng chục: $11-8=3$, hàng trăm còn $5$. Hàng trăm: $5-3=2$.
+
+**Đáp số.** $238$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $625-387$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 625 \\ -\ 387 \\ \hline 238 \end{array}$$
+Ones: $15-7=8$ and $1$ ten is left. Tens: $11-8=3$ and $5$ hundreds are left. Hundreds: $5-3=2$.
+
+**Answer.** $238$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một cửa hàng có $735$ kg gạo, ngày đầu bán được $258$ kg. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam gạo?
+
+[LỜI GIẢI CŨ – VI]
+Số ki-lô-gam gạo cửa hàng còn lại là:
+$$735-258=477\ \text{(kg)}.$$
+Hàng đơn vị: $15-8=7$, hàng chục còn $2$. Hàng chục: $12-5=7$, hàng trăm còn $6$. Hàng trăm: $6-2=4$.
+
+**Đáp số.** $477$ kg gạo.
+
+[ĐỀ – EN]
+A shop has $735$ kg of rice and sold $258$ kg on the first day. How many kilograms of rice are left?
+
+[LỜI GIẢI CŨ – EN]
+The number of kilograms of rice left is:
+$$735-258=477\ \text{(kg)}.$$
+Ones: $15-8=7$ and $2$ tens are left. Tens: $12-5=7$ and $6$ hundreds are left. Hundreds: $6-2=4$.
+
+**Answer.** $477$ kg of rice.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Bể nước nhà bác An chứa $650$ lít nước. Sau một tuần dùng, bể hết $275$ lít. Hỏi bể còn lại bao nhiêu lít nước?
+
+[LỜI GIẢI CŨ – VI]
+Số lít nước còn lại trong bể là:
+$$650-275=375\ \text{(lít)}.$$
+Hàng đơn vị: $10-5=5$, hàng chục còn $4$. Hàng chục: $14-7=7$, hàng trăm còn $5$. Hàng trăm: $5-2=3$.
+
+**Đáp số.** $375$ lít nước.
+
+[ĐỀ – EN]
+Uncle An's water tank holds $650$ litres. After a week the tank has used $275$ litres. How many litres of water are left in the tank?
+
+[LỜI GIẢI CŨ – EN]
+The number of litres of water left in the tank is:
+$$650-275=375\ \text{(litres)}.$$
+Ones: $10-5=5$ and $4$ tens are left. Tens: $14-7=7$ and $5$ hundreds are left. Hundreds: $5-2=3$.
+
+**Answer.** $375$ litres of water.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tính nhanh $400-138$. Gợi ý: viết $400=399+1$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $400-138=(399-138)+1$.
+
+$$399-138=261.$$
+Vậy $400-138=261+1=262$.
+
+Thử lại: $262+138=400$. Đúng.
+
+**Đáp số.** $262$.
+
+[ĐỀ – EN]
+Work out quickly: $400-138$. Hint: write $400=399+1$.
+
+[LỜI GIẢI CŨ – EN]
+We have $400-138=(399-138)+1$.
+
+$$399-138=261.$$
+So $400-138=261+1=262$.
+
+Check: $262+138=400$. Correct.
+
+**Answer.** $262$.
+
+
+######################################################################
+@@@ g2/subtraction-crossing-10
+Bài học: Phép trừ (qua 10) trong phạm vi 20. Bảng trừ (qua 10) / Subtraction bridging through 10 (within 20). Subtraction facts bridging through 10
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Trên một đường thẳng có bốn điểm $P$, $Q$, $R$, $S$ theo thứ tự từ trái sang phải.
+Tính, tách số trừ để được 10:
 
-a) Điểm nào nằm giữa $P$ và $S$?
+a) $12-5$
 
-b) Điểm nào nằm giữa $Q$ và $S$?
+b) $14-8$
 
-c) Điểm nào nằm giữa $P$ và $Q$?
+c) $11-9$
 
 [LỜI GIẢI CŨ – VI]
-a) Đi từ $P$ đến $S$ qua $Q$ và $R$, nên $Q$ và $R$ nằm giữa.
+a) $12-5=12-2-3=10-3=7$.
 
-b) Đi từ $Q$ đến $S$ chỉ qua $R$, nên $R$ nằm giữa.
+b) $14-8=14-4-4=10-4=6$.
 
-c) Đi từ $P$ đến $Q$ không qua điểm nào khác, nên không có điểm nào nằm giữa.
+c) $11-9=11-1-8=10-8=2$.
 
-**Đáp số.** a) $Q$, $R$; b) $R$; c) không có điểm nào.
+**Đáp số.** a) 7; b) 6; c) 2.
 
 [ĐỀ – EN]
-On a straight line there are four points $P$, $Q$, $R$, $S$ in this order from left to right.
+Work out, splitting the number you take away to reach 10:
 
-a) Which points are between $P$ and $S$?
+a) $12-5$
 
-b) Which point is between $Q$ and $S$?
+b) $14-8$
 
-c) Which point is between $P$ and $Q$?
+c) $11-9$
 
 [LỜI GIẢI CŨ – EN]
-a) Going from $P$ to $S$ we pass $Q$ and $R$, so $Q$ and $R$ are between.
+a) $12-5=12-2-3=10-3=7$.
 
-b) Going from $Q$ to $S$ we pass only $R$, so $R$ is between.
+b) $14-8=14-4-4=10-4=6$.
 
-c) Going from $P$ to $Q$ we pass no other point, so no point is between.
+c) $11-9=11-1-8=10-8=2$.
 
-**Answer.** a) $Q$, $R$; b) $R$; c) no point.
+**Answer.** a) 7; b) 6; c) 2.
 
 === Bài 2 ===
 [ĐỀ – VI]
-$M$ là trung điểm của đoạn thẳng $AB$. Tính $AM$ khi:
+Tính nhẩm:
 
-a) $AB=8$ cm.
+a) $13-7$
 
-b) $AB=20$ cm.
+b) $16-9$
 
-c) $AB=30$ cm.
+c) $17-8$
 
 [LỜI GIẢI CŨ – VI]
-a) $AM=8:2=4$ (cm).
+a) $13-7=13-3-4=10-4=6$.
 
-b) $AM=20:2=10$ (cm).
+b) $16-9=16-6-3=10-3=7$.
 
-c) $AM=30:2=15$ (cm).
+c) $17-8=17-7-1=10-1=9$.
 
-**Đáp số.** a) $4$ cm; b) $10$ cm; c) $15$ cm.
+**Đáp số.** a) 6; b) 7; c) 9.
 
 [ĐỀ – EN]
-$M$ is the midpoint of the line segment $AB$. Find $AM$ when:
+Work out in your head:
 
-a) $AB=8$ cm.
+a) $13-7$
 
-b) $AB=20$ cm.
+b) $16-9$
 
-c) $AB=30$ cm.
+c) $17-8$
 
 [LỜI GIẢI CŨ – EN]
-a) $AM=8\div2=4$ (cm).
+a) $13-7=13-3-4=10-4=6$.
 
-b) $AM=20\div2=10$ (cm).
+b) $16-9=16-6-3=10-3=7$.
 
-c) $AM=30\div2=15$ (cm).
+c) $17-8=17-7-1=10-1=9$.
 
-**Answer.** a) $4$ cm; b) $10$ cm; c) $15$ cm.
+**Answer.** a) 6; b) 7; c) 9.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài trước về một phần mấy. Tìm $\dfrac{1}{2}$ của $18$. Rồi cho $M$ là trung điểm của đoạn thẳng $AB=18$ cm, tính $AM$ và so sánh.
+Biết $9+8=17$. Viết hai phép trừ tương ứng.
 
 [LỜI GIẢI CŨ – VI]
-$\dfrac{1}{2}$ của $18$ là $18:2=9$. Vì $M$ là trung điểm nên $AM=18:2=9$ cm, bằng $\dfrac{1}{2}$ của $AB$.
+Tổng là 17. Ta có:
+$$17-9=8,\qquad 17-8=9.$$
 
-**Đáp số.** $9$ và $AM=9$ cm.
+**Đáp số.** $17-9=8$ và $17-8=9$.
 
 [ĐỀ – EN]
-Remember the last lesson on unit fractions. Find $\dfrac{1}{2}$ of $18$. Then let $M$ be the midpoint of the line segment $AB=18$ cm, find $AM$ and compare.
+You know that $9+8=17$. Write the two matching subtractions.
 
 [LỜI GIẢI CŨ – EN]
-$\dfrac{1}{2}$ of $18$ is $18\div2=9$. Since $M$ is the midpoint, $AM=18\div2=9$ cm, which is $\dfrac{1}{2}$ of $AB$.
+The sum is 17. We have:
+$$17-9=8,\qquad 17-8=9.$$
 
-**Answer.** $9$ and $AM=9$ cm.
+**Answer.** $17-9=8$ and $17-8=9$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-$M$ là trung điểm của đoạn thẳng $AB$. Tính $AB$ khi:
-
-a) $MA=5$ cm.
-
-b) $MA=9$ cm.
-
-c) $MB=12$ cm.
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống:
+$$15-7\ \square\ 9,\qquad 13-6\ \square\ 7,\qquad 12-4\ \square\ 7.$$
 
 [LỜI GIẢI CŨ – VI]
-a) $AB=5\times2=10$ (cm).
+Ta có $15-7=8$ và $8<9$.
+Ta có $13-6=7$ và $7=7$.
+Ta có $12-4=8$ và $8>7$.
 
-b) $AB=9\times2=18$ (cm).
-
-c) $MA=MB=12$ cm nên $AB=12\times2=24$ (cm).
-
-**Đáp số.** a) $10$ cm; b) $18$ cm; c) $24$ cm.
+**Đáp số.** $15-7<9$; $13-6=7$; $12-4>7$.
 
 [ĐỀ – EN]
-$M$ is the midpoint of the line segment $AB$. Find $AB$ when:
-
-a) $MA=5$ cm.
-
-b) $MA=9$ cm.
-
-c) $MB=12$ cm.
+Write $>$, $<$ or $=$ in each box:
+$$15-7\ \square\ 9,\qquad 13-6\ \square\ 7,\qquad 12-4\ \square\ 7.$$
 
 [LỜI GIẢI CŨ – EN]
-a) $AB=5\times2=10$ (cm).
+We have $15-7=8$ and $8<9$.
+We have $13-6=7$ and $7=7$.
+We have $12-4=8$ and $8>7$.
 
-b) $AB=9\times2=18$ (cm).
-
-c) $MA=MB=12$ cm, so $AB=12\times2=24$ (cm).
-
-**Answer.** a) $10$ cm; b) $18$ cm; c) $24$ cm.
+**Answer.** $15-7<9$; $13-6=7$; $12-4>7$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Cho $M$ nằm giữa $A$ và $B$. $M$ có là trung điểm của $AB$ không? Vì sao?
-
-a) $AM=3$ cm, $MB=3$ cm.
-
-b) $AM=2$ cm, $MB=5$ cm.
-
-c) Điểm $M$ không nằm trên đường thẳng $AB$ nhưng $MA=MB=4$ cm.
+Giả sử trong hộp có 15 viên bi. Nam lấy ra 6 viên bi. Hỏi trong hộp còn lại bao nhiêu viên bi?
 
 [LỜI GIẢI CŨ – VI]
-a) $M$ nằm giữa và $AM=MB=3$ cm, nên $M$ là trung điểm.
+Bài giải
 
-b) $AM=2$ cm khác $MB=5$ cm, nên $M$ không là trung điểm.
-
-c) $MA=MB$ nhưng $M$ không nằm giữa $A$ và $B$ (không thẳng hàng), nên $M$ không là trung điểm.
-
-**Đáp số.** a) Có; b) không; c) không.
+Trong hộp còn lại số viên bi là:
+$$15-6=15-5-1=10-1=9\ \text{(viên)}.$$
+Đáp số: 9 viên bi.
 
 [ĐỀ – EN]
-$M$ is between $A$ and $B$. Is $M$ the midpoint of $AB$? Why?
-
-a) $AM=3$ cm and $MB=3$ cm.
-
-b) $AM=2$ cm and $MB=5$ cm.
-
-c) Point $M$ is not on the line $AB$, but $MA=MB=4$ cm.
+Suppose there are 15 marbles in a box. Nam takes out 6 marbles. How many marbles are left in the box?
 
 [LỜI GIẢI CŨ – EN]
-a) $M$ is between and $AM=MB=3$ cm, so $M$ is the midpoint.
+Solution
 
-b) $AM=2$ cm is not equal to $MB=5$ cm, so $M$ is not the midpoint.
-
-c) $MA=MB$ but $M$ is not between $A$ and $B$ (not in a straight line), so $M$ is not the midpoint.
-
-**Answer.** a) Yes; b) no; c) no.
+The number of marbles left in the box is:
+$$15-6=15-5-1=10-1=9\ \text{(marbles)}.$$
+Answer: 9 marbles.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Hà nói: "$AB=10$ cm, $M$ nằm giữa $A$ và $B$ nên $AM=5$ cm". Hà sai ở đâu? Hãy cho một ví dụ cho thấy Hà sai.
+Giả sử sân trường có 17 bạn đang chơi. Có 9 bạn đi vào lớp. Hỏi sân trường còn lại bao nhiêu bạn đang chơi?
 
 [LỜI GIẢI CŨ – VI]
-Hà nhầm điểm nằm giữa với trung điểm. Ví dụ $AM=3$ cm thì $MB=10-3=7$ cm. Khi đó $M$ nằm giữa $A$ và $B$ nhưng $AM\neq MB$, nên $AM$ không bằng $5$ cm.
+Bài giải
 
-**Đáp số.** Hà thiếu điều kiện $MA=MB$.
+Sân trường còn lại số bạn đang chơi là:
+$$17-9=17-7-2=10-2=8\ \text{(bạn)}.$$
+Đáp số: 8 bạn.
 
 [ĐỀ – EN]
-Ha says: "$AB=10$ cm and $M$ is between $A$ and $B$, so $AM=5$ cm". Where did Ha go wrong? Give an example that shows Ha is wrong.
+Suppose 17 children are playing in the school playground. 9 children go back into class. How many children are still playing in the playground?
 
 [LỜI GIẢI CŨ – EN]
-Ha confused a point between with a midpoint. For example, if $AM=3$ cm then $MB=10-3=7$ cm. Then $M$ is between $A$ and $B$ but $AM\neq MB$, so $AM$ is not $5$ cm.
+Solution
 
-**Answer.** Ha forgot the condition $MA=MB$.
+The number of children still playing in the playground is:
+$$17-9=17-7-2=10-2=8\ \text{(children)}.$$
+Answer: 8 children.
 
 === Bài 7 ===
 [ĐỀ – VI]
-a) Một thanh gỗ dài $16$ dm được cưa tại trung điểm thành hai đoạn. Hỏi mỗi đoạn dài bao nhiêu đề-xi-mét?
-
-b) Trường học là trung điểm của đoạn đường từ nhà Mai đến nhà Lan. Từ nhà Mai đến trường dài $6$ km. Hỏi từ nhà Mai đến nhà Lan dài bao nhiêu ki-lô-mét?
+Nhớ lại bài toán về ít hơn. Lan có 14 bông hoa. Mai có ít hơn Lan 6 bông hoa. Hỏi Mai có bao nhiêu bông hoa?
 
 [LỜI GIẢI CŨ – VI]
-a) Mỗi đoạn dài $16:2=8$ (dm).
+Bài giải
 
-b) Cả đoạn đường dài $6\times2=12$ (km).
-
-**Đáp số.** a) $8$ dm; b) $12$ km.
+Mai có số bông hoa là:
+$$14-6=14-4-2=10-2=8\ \text{(bông)}.$$
+Đáp số: 8 bông hoa.
 
 [ĐỀ – EN]
-a) A plank $16$ dm long is sawn at its midpoint into two pieces. How many decimetres long is each piece?
-
-b) The school is the midpoint of the road from Mai's house to Lan's house. From Mai's house to the school is $6$ km. How many kilometres is it from Mai's house to Lan's house?
+Remember the word problems about fewer than. Lan has 14 flowers. Mai has 6 fewer flowers than Lan. How many flowers does Mai have?
 
 [LỜI GIẢI CŨ – EN]
-a) Each piece is $16\div2=8$ (dm) long.
+Solution
 
-b) The whole road is $6\times2=12$ (km).
-
-**Answer.** a) $8$ dm; b) $12$ km.
+The number of flowers Mai has is:
+$$14-6=14-4-2=10-2=8\ \text{(flowers)}.$$
+Answer: 8 flowers.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Đoạn thẳng $AB$ dài $16$ cm. $M$ là trung điểm của $AB$, $N$ là trung điểm của $AM$. Tính $AM$, $AN$ và $NB$.
+Trong bảng trừ qua 10, những phép trừ nào có hiệu bằng 9? Em nhận ra điều gì về số bị trừ và số trừ của các phép trừ ấy?
 
 [LỜI GIẢI CŨ – VI]
-$AM=16:2=8$ (cm). $N$ là trung điểm của $AM$ nên $AN=NM=8:2=4$ (cm). $M$ nằm giữa $N$ và $B$ nên $NB=NM+MB=4+8=12$ (cm).
+Các phép trừ có hiệu bằng 9 là:
+$$11-2,\ 12-3,\ 13-4,\ 14-5,\ 15-6,\ 16-7,\ 17-8,\ 18-9.$$
+Từ phép trừ này sang phép trừ kế tiếp, số bị trừ tăng 1 và số trừ cũng tăng 1, nên hiệu không đổi.
 
-**Đáp số.** $AM=8$ cm; $AN=4$ cm; $NB=12$ cm.
+**Đáp số.** Có 8 phép trừ; số bị trừ và số trừ cùng tăng 1 thì hiệu vẫn bằng 9.
 
 [ĐỀ – EN]
-The line segment $AB$ is $16$ cm long. $M$ is the midpoint of $AB$ and $N$ is the midpoint of $AM$. Find $AM$, $AN$ and $NB$.
+In the subtraction facts that bridge through 10, which subtractions have a difference of 9? What do you notice about the minuend and the number taken away in those subtractions?
 
 [LỜI GIẢI CŨ – EN]
-$AM=16\div2=8$ (cm). $N$ is the midpoint of $AM$, so $AN=NM=8\div2=4$ (cm). $M$ is between $N$ and $B$, so $NB=NM+MB=4+8=12$ (cm).
+The subtractions with a difference of 9 are:
+$$11-2,\ 12-3,\ 13-4,\ 14-5,\ 15-6,\ 16-7,\ 17-8,\ 18-9.$$
+From one of these subtractions to the next, the minuend goes up by 1 and the number taken away also goes up by 1, so the difference stays the same.
 
-**Answer.** $AM=8$ cm; $AN=4$ cm; $NB=12$ cm.
+**Answer.** There are 8 subtractions; when the minuend and the number taken away both go up by 1, the difference is still 9.
 
 
 ######################################################################
-@@@ g3/g3-vietnamese-money
-Bài học: Tiền Việt Nam / Vietnamese money
+@@@ g2/three-digit-numbers
+Bài học: Số có ba chữ số / Three-digit numbers
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Em đếm số tiền:
+Cho số $482$. Tìm:
 
-![Hai nhóm tiền a và b với các mệnh giá được ghi rõ](/assets/img/g3/g3-vietnamese-money-03.svg)
+a) chữ số hàng trăm.
 
-a) Một tờ $5\,000$ đồng và một tờ $2\,000$ đồng.
+b) chữ số hàng chục.
 
-b) Một tờ $10\,000$ đồng, một tờ $2\,000$ đồng và một tờ $1\,000$ đồng.
+c) chữ số hàng đơn vị.
 
 [LỜI GIẢI CŨ – VI]
-a) $5+2=7$ nghìn đồng, tức là $7\,000$ đồng.
+Số $482$ có chữ số $4$ ở hàng trăm, $8$ ở hàng chục, $2$ ở hàng đơn vị.
 
-b) $10+2+1=13$ nghìn đồng, tức là $13\,000$ đồng.
-
-**Đáp số.** a) $7\,000$ đồng; b) $13\,000$ đồng.
+**Đáp số.** a) $4$; b) $8$; c) $2$.
 
 [ĐỀ – EN]
-Count the money:
+Look at the number $482$. Find:
 
-![Two labelled groups of simplified notes with visible denominations](/assets/img/g3/g3-vietnamese-money-03.svg)
+a) the hundreds digit.
 
-a) One $5\,000$ dong note and one $2\,000$ dong note.
+b) the tens digit.
 
-b) One $10\,000$ dong note, one $2\,000$ dong note and one $1\,000$ dong note.
+c) the ones digit.
 
 [LỜI GIẢI CŨ – EN]
-a) $5+2=7$ thousand dong, which is $7\,000$ dong.
+The number $482$ has the digit $4$ in the hundreds place, $8$ in the tens place and $2$ in the ones place.
 
-b) $10+2+1=13$ thousand dong, which is $13\,000$ dong.
-
-**Answer.** a) $7\,000$ dong; b) $13\,000$ dong.
+**Answer.** a) $4$; b) $8$; c) $2$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-a) Em có hai tờ $20\,000$ đồng và một tờ $10\,000$ đồng. Em có bao nhiêu tiền?
+Viết số.
 
-b) Một cuốn truyện giá $15\,000$ đồng và một cây bút chì giá $3\,000$ đồng. Mua cả hai phải trả bao nhiêu tiền?
+a) $5$ trăm, $3$ chục, $6$ đơn vị.
+
+b) $9$ trăm, $1$ chục, $4$ đơn vị.
 
 [LỜI GIẢI CŨ – VI]
-a) $20+20+10=50$ nghìn đồng, tức là $50\,000$ đồng.
+a) Chữ số: $5$, $3$, $6$. b) Chữ số: $9$, $1$, $4$.
 
-b) $15\,000+3\,000=18\,000$ (đồng).
-
-**Đáp số.** a) $50\,000$ đồng; b) $18\,000$ đồng.
+**Đáp số.** a) $536$; b) $914$.
 
 [ĐỀ – EN]
-a) You have two $20\,000$ dong notes and one $10\,000$ dong note. How much money do you have?
+Write the number.
 
-b) A storybook costs $15\,000$ dong and a pencil costs $3\,000$ dong. How much do you pay for both?
+a) $5$ hundreds, $3$ tens, $6$ ones.
+
+b) $9$ hundreds, $1$ ten, $4$ ones.
 
 [LỜI GIẢI CŨ – EN]
-a) $20+20+10=50$ thousand dong, which is $50\,000$ dong.
+a) Digits: $5$, $3$, $6$. b) Digits: $9$, $1$, $4$.
 
-b) $15\,000+3\,000=18\,000$ (dong).
-
-**Answer.** a) $50\,000$ dong; b) $18\,000$ dong.
+**Answer.** a) $536$; b) $914$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài trước (xem đồng hồ, tháng và năm).
-
-a) Nam đến cửa hàng lúc $8$ giờ $15$ phút và mua xong sau $10$ phút. Nam mua xong lúc mấy giờ?
-
-b) Nam đi mua sách vào tháng $5$. Tháng $5$ có bao nhiêu ngày?
+Em nhớ lại bài trước. Trong các số $60, 300, 90, 700$, những số nào có ba chữ số? Điền dấu $>$, $<$ hoặc $=$: $300\;\square\;700$.
 
 [LỜI GIẢI CŨ – VI]
-a) $15+10=25$, nên Nam mua xong lúc $8$ giờ $25$ phút.
+$300$ và $700$ có ba chữ số; $60$ và $90$ có hai chữ số. $3$ trăm bé hơn $7$ trăm.
 
-b) Tháng $5$ nằm trong các tháng có $31$ ngày.
-
-**Đáp số.** a) $8$ giờ $25$ phút; b) $31$ ngày.
+**Đáp số.** $300$, $700$; $300<700$.
 
 [ĐỀ – EN]
-Remember the last lesson (telling the time, months and years).
-
-a) Nam arrives at the shop at $8{:}15$ and finishes shopping $10$ minutes later. At what time does he finish?
-
-b) Nam goes to buy books in month $5$ (May). How many days does May have?
+Remember the last lesson. Which of the numbers $60, 300, 90, 700$ have three digits? Write $>$, $<$ or $=$: $300\;\square\;700$.
 
 [LỜI GIẢI CŨ – EN]
-a) $15+10=25$, so Nam finishes at $8{:}25$.
+$300$ and $700$ have three digits; $60$ and $90$ have two digits. $3$ hundreds is less than $7$ hundreds.
 
-b) May is one of the months with $31$ days.
-
-**Answer.** a) $8{:}25$; b) $31$ days.
+**Answer.** $300$, $700$; $300<700$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-a) Mẹ đưa $50\,000$ đồng để mua đồ hết $28\,000$ đồng. Người bán phải trả lại mẹ bao nhiêu tiền?
+Mỗi số gồm bao nhiêu trăm, chục, đơn vị?
 
-b) Bố đưa $20\,000$ đồng, được trả lại $6\,000$ đồng. Bố đã mua đồ hết bao nhiêu tiền?
+a) $705$.
+
+b) $250$.
 
 [LỜI GIẢI CŨ – VI]
-a) $50\,000-28\,000=22\,000$ (đồng).
+a) $705$: $7$ trăm, $0$ chục, $5$ đơn vị. b) $250$: $2$ trăm, $5$ chục, $0$ đơn vị.
 
-b) $20\,000-6\,000=14\,000$ (đồng).
-
-**Kiểm tra.** Câu a): $28\,000+22\,000=50\,000$. Câu b): $14\,000+6\,000=20\,000$.
-
-**Đáp số.** a) $22\,000$ đồng; b) $14\,000$ đồng.
+**Đáp số.** a) $7$ trăm $0$ chục $5$ đơn vị; b) $2$ trăm $5$ chục $0$ đơn vị.
 
 [ĐỀ – EN]
-a) Mum hands over $50\,000$ dong to buy things costing $28\,000$ dong. How much change should the seller give her?
+How many hundreds, tens and ones does each number have?
 
-b) Dad hands over $20\,000$ dong and gets $6\,000$ dong change. How much did his shopping cost?
+a) $705$.
+
+b) $250$.
 
 [LỜI GIẢI CŨ – EN]
-a) $50\,000-28\,000=22\,000$ (dong).
+a) $705$: $7$ hundreds, $0$ tens, $5$ ones. b) $250$: $2$ hundreds, $5$ tens, $0$ ones.
 
-b) $20\,000-6\,000=14\,000$ (dong).
-
-**Check.** Part a): $28\,000+22\,000=50\,000$. Part b): $14\,000+6\,000=20\,000$.
-
-**Answer.** a) $22\,000$ dong; b) $14\,000$ dong.
+**Answer.** a) $7$ hundreds $0$ tens $5$ ones; b) $2$ hundreds $5$ tens $0$ ones.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Em chọn phép tính (cộng hay trừ) và nói vì sao.
-
-a) Mai có $25\,000$ đồng, dì cho thêm $10\,000$ đồng. Mai có tất cả bao nhiêu tiền?
-
-b) Mai có $35\,000$ đồng, mua một quyển sách hết $28\,000$ đồng. Mai còn lại bao nhiêu tiền?
+Muốn viết "hai trăm linh sáu", em chọn số nào trong $26$, $206$, $260$? Vì sao?
 
 [LỜI GIẢI CŨ – VI]
-a) Dì cho thêm tiền nên số tiền tăng lên, ta làm phép cộng: $25\,000+10\,000=35\,000$ (đồng).
+Có $2$ trăm, $0$ chục, $6$ đơn vị. Viết chữ số $2$, $0$, $6$.
 
-b) Mai trả đi một phần tiền nên số tiền giảm xuống, ta làm phép trừ: $35\,000-28\,000=7\,000$ (đồng).
-
-**Đáp số.** a) $35\,000$ đồng; b) $7\,000$ đồng.
+**Đáp số.** $206$.
 
 [ĐỀ – EN]
-Choose the operation (addition or subtraction) and say why.
-
-a) Mai has $25\,000$ dong and her aunt gives her $10\,000$ dong more. How much money does Mai have altogether?
-
-b) Mai has $35\,000$ dong and buys a book for $28\,000$ dong. How much money does Mai have left?
+To write "two hundred and six", which of $26$, $206$, $260$ do you choose? Why?
 
 [LỜI GIẢI CŨ – EN]
-a) Her aunt gives her more money, so the amount goes up and we add: $25\,000+10\,000=35\,000$ (dong).
+There are $2$ hundreds, $0$ tens and $6$ ones. Write the digits $2$, $0$, $6$.
 
-b) Mai pays out part of her money, so the amount goes down and we subtract: $35\,000-28\,000=7\,000$ (dong).
-
-**Answer.** a) $35\,000$ dong; b) $7\,000$ dong.
+**Answer.** $206$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Tìm lỗi sai trong lời giải của hai bạn rồi sửa lại.
-
-a) Hà: "Em có hai tờ $10\,000$ đồng và một tờ $5\,000$ đồng. Em có $10\,000+5\,000=15\,000$ (đồng)."
-
-b) Tú: "Tú đưa $50\,000$ đồng, mua hàng hết $31\,000$ đồng. Tiền trả lại là $50\,000+31\,000=81\,000$ (đồng)."
+Mai viết "$4$ trăm $5$ đơn vị là $45$". Mai sai ở đâu? Sửa lại cho đúng.
 
 [LỜI GIẢI CŨ – VI]
-a) Hà mới cộng một tờ $10\,000$ đồng, bỏ sót một tờ. Làm đúng: $10\,000+10\,000+5\,000=25\,000$ (đồng).
+$45$ là $4$ chục $5$ đơn vị. Số đúng có $4$ trăm, $0$ chục, $5$ đơn vị.
 
-b) Tú cộng thay vì trừ. Tiền trả lại không thể nhiều hơn tiền đưa. Làm đúng: $50\,000-31\,000=19\,000$ (đồng).
-
-**Đáp số.** a) $25\,000$ đồng; b) $19\,000$ đồng.
+**Đáp số.** $405$.
 
 [ĐỀ – EN]
-Find the mistake in each pupil's work and correct it.
-
-a) Ha: "I have two $10\,000$ dong notes and one $5\,000$ dong note. I have $10\,000+5\,000=15\,000$ (dong)."
-
-b) Tu: "Tu hands over $50\,000$ dong and the shopping costs $31\,000$ dong. The change is $50\,000+31\,000=81\,000$ (dong)."
+Mai writes "$4$ hundreds $5$ ones is $45$". What is wrong with what Mai writes? Correct it.
 
 [LỜI GIẢI CŨ – EN]
-a) Ha only added one $10\,000$ dong note and left the other out. Done correctly: $10\,000+10\,000+5\,000=25\,000$ (dong).
+$45$ is $4$ tens $5$ ones. The right number has $4$ hundreds, $0$ tens and $5$ ones.
 
-b) Tu added instead of subtracting. The change cannot be more than the money handed over. Done correctly: $50\,000-31\,000=19\,000$ (dong).
-
-**Answer.** a) $25\,000$ dong; b) $19\,000$ dong.
+**Answer.** $405$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Bảng giá của một quán ăn sáng:
-
-| Món | Giá (đồng) |
-|---|---|
-| Bánh mì | $12\,000$ |
-| Sữa | $8\,000$ |
-| Nước ép | $15\,000$ |
-
-An mua một cái bánh mì và một hộp sữa, rồi đưa tờ $50\,000$ đồng.
-
-a) An phải trả bao nhiêu tiền hàng?
-
-b) Người bán trả lại An bao nhiêu tiền?
+Có $3$ hộp bi loại $100$ viên, $4$ túi bi loại $10$ viên và $7$ viên bi lẻ. Hỏi có tất cả bao nhiêu viên bi?
 
 [LỜI GIẢI CŨ – VI]
-a) Tiền hàng: $12\,000+8\,000=20\,000$ (đồng).
+Chữ số: $3$, $4$, $7$. Số viên bi là $347$.
 
-b) Tiền trả lại: $50\,000-20\,000=30\,000$ (đồng).
-
-**Kiểm tra.** $20\,000+30\,000=50\,000$. Khớp.
-
-**Đáp số.** a) $20\,000$ đồng; b) $30\,000$ đồng.
+**Đáp số.** $347$ viên bi.
 
 [ĐỀ – EN]
-A breakfast shop's price list:
-
-| Item | Price (dong) |
-|---|---|
-| Bread roll | $12\,000$ |
-| Milk | $8\,000$ |
-| Juice | $15\,000$ |
-
-An buys one bread roll and one carton of milk, and hands over a $50\,000$ dong note.
-
-a) What is the total cost?
-
-b) How much change does the seller give An?
+There are $3$ boxes of $100$ marbles, $4$ bags of $10$ marbles and $7$ loose marbles. How many marbles are there altogether?
 
 [LỜI GIẢI CŨ – EN]
-a) Total cost: $12\,000+8\,000=20\,000$ (dong).
+Digits: $3$, $4$, $7$. The number of marbles is $347$.
 
-b) Change: $50\,000-20\,000=30\,000$ (dong).
-
-**Check.** $20\,000+30\,000=50\,000$. It matches.
-
-**Answer.** a) $20\,000$ dong; b) $30\,000$ dong.
+**Answer.** $347$ marbles.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Hùng có một tờ $20\,000$ đồng, một tờ $5\,000$ đồng và ba tờ $2\,000$ đồng.
-
-a) Hùng có bao nhiêu tiền?
-
-b) Hùng muốn mua một cái kính bơi giá $45\,000$ đồng. Hùng còn thiếu bao nhiêu tiền?
-
-c) Mẹ cho Hùng thêm một tờ $20\,000$ đồng. Bây giờ Hùng có đủ tiền mua kính bơi không? Nếu đủ thì còn thừa bao nhiêu tiền?
+Dùng ba chữ số $2$, $5$, $8$, mỗi chữ số dùng đúng một lần, lập số có ba chữ số lớn nhất và số có ba chữ số bé nhất.
 
 [LỜI GIẢI CŨ – VI]
-a) $20+5+2+2+2=31$ nghìn đồng, tức là $31\,000$ đồng.
+Số lớn nhất: hàng trăm $8$, hàng chục $5$, hàng đơn vị $2$, được $852$. Số bé nhất: hàng trăm $2$, hàng chục $5$, hàng đơn vị $8$, được $258$.
 
-b) $45\,000-31\,000=14\,000$ (đồng).
+**Kiểm tra.** $258<852$. Đúng.
 
-c) Sau khi mẹ cho thêm, Hùng có $31\,000+20\,000=51\,000$ (đồng). Vì $51\,000>45\,000$ nên Hùng đủ tiền. Số tiền còn thừa là $51\,000-45\,000=6\,000$ (đồng).
-
-**Đáp số.** a) $31\,000$ đồng; b) thiếu $14\,000$ đồng; c) đủ tiền, còn thừa $6\,000$ đồng.
+**Đáp số.** Số lớn nhất là $852$, số bé nhất là $258$.
 
 [ĐỀ – EN]
-Hung has one $20\,000$ dong note, one $5\,000$ dong note and three $2\,000$ dong notes.
-
-a) How much money does Hung have?
-
-b) Hung wants to buy swimming goggles that cost $45\,000$ dong. How much more money does he need?
-
-c) Mum gives Hung another $20\,000$ dong note. Does he now have enough money for the goggles? If so, how much money is left over?
+Use the three digits $2$, $5$, $8$, each exactly once, to make the largest and the smallest three-digit number.
 
 [LỜI GIẢI CŨ – EN]
-a) $20+5+2+2+2=31$ thousand dong, which is $31\,000$ dong.
+Largest: hundreds $8$, tens $5$, ones $2$, which is $852$. Smallest: hundreds $2$, tens $5$, ones $8$, which is $258$.
 
-b) $45\,000-31\,000=14\,000$ (dong).
+**Check.** $258<852$. Correct.
 
-c) After Mum's gift, Hung has $31\,000+20\,000=51\,000$ (dong). Since $51\,000>45\,000$, he has enough money. The money left over is $51\,000-45\,000=6\,000$ (dong).
-
-**Answer.** a) $31\,000$ dong; b) he needs $14\,000$ dong more; c) yes, with $6\,000$ dong left over.
+**Answer.** The largest is $852$ and the smallest is $258$.
 
 
 ######################################################################
-@@@ g3/how-many-times-larger
-Bài học: So sánh số lớn gấp mấy lần số bé / How many times larger is one number than another?
+@@@ g2/two-times-table
+Bài học: Bảng nhân 2. Bảng nhân 5 / The 2 times table. The 5 times table
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-$18$ gấp mấy lần $6$?
+Tính nhẩm:
+
+a) $2\times3$
+
+b) $2\times8$
+
+c) $2\times10$
 
 [LỜI GIẢI CŨ – VI]
-$$18:6=3.$$
-Thử lại: $6\times 3=18$.
+a) $2\times3=6$.
 
-**Đáp số.** $3$ lần.
+b) $2\times8=16$.
+
+c) $2\times10=20$.
+
+**Đáp số.** a) 6; b) 16; c) 20.
 
 [ĐỀ – EN]
-$18$ is how many times as large as $6$?
+Work out in your head:
+
+a) $2\times3$
+
+b) $2\times8$
+
+c) $2\times10$
 
 [LỜI GIẢI CŨ – EN]
-$$18\div6=3.$$
-Check: $6\times 3=18$.
+a) $2\times3=6$.
 
-**Answer.** $3$ times.
+b) $2\times8=16$.
+
+c) $2\times10=20$.
+
+**Answer.** a) 6; b) 16; c) 20.
 
 === Bài 2 ===
 [ĐỀ – VI]
-$56$ gấp mấy lần $8$?
+Tính nhẩm:
+
+a) $5\times2$
+
+b) $5\times7$
+
+c) $5\times10$
 
 [LỜI GIẢI CŨ – VI]
-$$56:8=7.$$
-Thử lại: $8\times 7=56$.
+a) $5\times2=10$.
 
-**Đáp số.** $7$ lần.
+b) $5\times7=35$.
+
+c) $5\times10=50$.
+
+**Đáp số.** a) 10; b) 35; c) 50.
 
 [ĐỀ – EN]
-$56$ is how many times as large as $8$?
+Work out in your head:
+
+a) $5\times2$
+
+b) $5\times7$
+
+c) $5\times10$
 
 [LỜI GIẢI CŨ – EN]
-$$56\div8=7.$$
-Check: $8\times 7=56$.
+a) $5\times2=10$.
 
-**Answer.** $7$ times.
+b) $5\times7=35$.
+
+c) $5\times10=50$.
+
+**Answer.** a) 10; b) 35; c) 50.
 
 === Bài 3 ===
 [ĐỀ – VI]
-$40$ gấp mấy lần $5$?
+Số?
+
+a) $2,\ 4,\ 6,\ \square,\ 10,\ \square,\ 14$
+
+b) $5,\ 10,\ \square,\ 20,\ \square,\ 30$
 
 [LỜI GIẢI CŨ – VI]
-$$40:5=8.$$
-Thử lại: $5\times 8=40$.
+a) $6+2=8$ và $10+2=12$.
 
-**Đáp số.** $8$ lần.
+b) $10+5=15$ và $20+5=25$.
+
+**Đáp số.** a) 8 và 12; b) 15 và 25.
 
 [ĐỀ – EN]
-$40$ is how many times as large as $5$?
+Fill in the missing numbers.
+
+a) $2,\ 4,\ 6,\ \square,\ 10,\ \square,\ 14$
+
+b) $5,\ 10,\ \square,\ 20,\ \square,\ 30$
 
 [LỜI GIẢI CŨ – EN]
-$$40\div5=8.$$
-Check: $5\times 8=40$.
+a) $6+2=8$ and $10+2=12$.
 
-**Answer.** $8$ times.
+b) $10+5=15$ and $20+5=25$.
+
+**Answer.** a) 8 and 12; b) 15 and 25.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Mẹ $36$ tuổi, Lan $9$ tuổi. Hỏi tuổi của mẹ gấp mấy lần tuổi của Lan?
+Dùng bảng nhân để tìm số thích hợp:
+
+a) $2\times\square=14$
+
+b) $5\times\square=25$
 
 [LỜI GIẢI CŨ – VI]
-Tuổi của mẹ gấp tuổi của Lan số lần là:
-$$36:9=4\ \text{(lần)}.$$
-**Đáp số.** $4$ lần.
+a) $2\times7=14$ nên số cần tìm là 7.
+
+b) $5\times5=25$ nên số cần tìm là 5.
+
+**Đáp số.** a) 7; b) 5.
 
 [ĐỀ – EN]
-Mum is $36$ years old and Lan is $9$. How many times as old as Lan is Mum?
+Use the times tables to find the missing number:
+
+a) $2\times\square=14$
+
+b) $5\times\square=25$
 
 [LỜI GIẢI CŨ – EN]
-The number of times Mum's age is as large as Lan's is:
-$$36\div9=4\ \text{(times)}.$$
-**Answer.** $4$ times.
+a) $2\times7=14$, so the missing number is 7.
+
+b) $5\times5=25$, so the missing number is 5.
+
+**Answer.** a) 7; b) 5.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Bể nhỏ chứa $7$ l nước, bể to chứa $28$ l nước. Hỏi bể to chứa nhiều hơn bể nhỏ bao nhiêu lít nước? Bể to chứa gấp mấy lần bể nhỏ?
+Giả sử mỗi bạn có 2 quyển vở. Có 9 bạn như vậy. Hỏi có tất cả bao nhiêu quyển vở?
 
 [LỜI GIẢI CŨ – VI]
-Bể to chứa nhiều hơn bể nhỏ số lít là:
-$$28-7=21\ \text{(l)}.$$
-Bể to chứa gấp bể nhỏ số lần là:
-$$28:7=4\ \text{(lần)}.$$
-**Đáp số.** Nhiều hơn $21$ l; gấp $4$ lần.
+Bài giải
+
+Có tất cả số quyển vở là:
+$$2\times9=18\ \text{(quyển)}.$$
+Đáp số: 18 quyển vở.
 
 [ĐỀ – EN]
-A small tank holds $7$ l of water and a large tank holds $28$ l of water. How many litres more water does the large tank hold than the small tank? How many times as much water does the large tank hold as the small tank?
+Suppose each child has 2 exercise books. There are 9 children like this. How many exercise books are there altogether?
 
 [LỜI GIẢI CŨ – EN]
-The number of litres more the large tank holds is:
-$$28-7=21\ \text{(l)}.$$
-The number of times as much the large tank holds is:
-$$28\div7=4\ \text{(times)}.$$
-**Answer.** $21$ l more; $4$ times as much.
+Solution
+
+The number of exercise books altogether is:
+$$2\times9=18\ \text{(books)}.$$
+Answer: 18 exercise books.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Hà có $5$ quyển truyện. Lan có nhiều hơn Hà $15$ quyển truyện. Hỏi số truyện của Lan gấp mấy lần số truyện của Hà?
+Giả sử mỗi rổ có 5 quả táo. Có 7 rổ như vậy. Hỏi có tất cả bao nhiêu quả táo?
 
 [LỜI GIẢI CŨ – VI]
-Số quyển truyện của Lan là:
-$$5+15=20\ \text{(quyển)}.$$
-Số truyện của Lan gấp số truyện của Hà số lần là:
-$$20:5=4\ \text{(lần)}.$$
-**Đáp số.** $4$ lần.
+Bài giải
+
+Có tất cả số quả táo là:
+$$5\times7=35\ \text{(quả)}.$$
+Đáp số: 35 quả táo.
 
 [ĐỀ – EN]
-Ha has $5$ storybooks. Lan has $15$ more storybooks than Ha. How many times as many storybooks as Ha does Lan have?
+Suppose each basket holds 5 apples. There are 7 baskets like this. How many apples are there altogether?
 
 [LỜI GIẢI CŨ – EN]
-The number of storybooks Lan has is:
-$$5+15=20\ \text{(books)}.$$
-The number of times Lan's books are as many as Ha's is:
-$$20\div5=4\ \text{(times)}.$$
-**Answer.** $4$ times.
+Solution
+
+The number of apples altogether is:
+$$5\times7=35\ \text{(apples)}.$$
+Answer: 35 apples.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Em nhớ lại bài gấp một số lên một số lần. Một số gấp lên $6$ lần thì được $54$. Hỏi số đó là bao nhiêu?
+Nhớ lại bài giờ - phút. Kim dài của đồng hồ chỉ số 8 thì đã qua bao nhiêu phút? Chỉ số 10 thì đã qua bao nhiêu phút?
 
 [LỜI GIẢI CŨ – VI]
-Số cần tìm là:
-$$54:6=9.$$
-Thử lại: $9\times 6=54$. Đúng.
+Kim dài chỉ số 8: $5\times8=40$ (phút).
+Kim dài chỉ số 10: $5\times10=50$ (phút).
 
-**Đáp số.** $9$.
+**Đáp số.** 40 phút và 50 phút.
 
 [ĐỀ – EN]
-Remember the lesson on making a number several times larger. A number made $6$ times larger gives $54$. What is the number?
+Remember the lesson on hours and minutes. When the long hand of a clock points to 8, how many minutes have passed? What about when it points to 10?
 
 [LỜI GIẢI CŨ – EN]
-The number is:
-$$54\div6=9.$$
-Check: $9\times 6=54$. Correct.
+Long hand at 8: $5\times8=40$ (minutes).
+Long hand at 10: $5\times10=50$ (minutes).
 
-**Answer.** $9$.
+**Answer.** 40 minutes and 50 minutes.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Năm nay mẹ $28$ tuổi, con $4$ tuổi. Hỏi $4$ năm nữa tuổi của mẹ gấp mấy lần tuổi của con?
+Tích của 2 và một số bằng 18. Hỏi tích của 5 và số ấy bằng bao nhiêu?
 
 [LỜI GIẢI CŨ – VI]
-Sau $4$ năm, tuổi của mẹ là $28+4=32$ (tuổi), tuổi của con là $4+4=8$ (tuổi).
+Ta có $2\times9=18$ nên số ấy là 9. Tích của 5 và 9 là:
+$$5\times9=45.$$
 
-Tuổi của mẹ gấp tuổi của con số lần là:
-$$32:8=4\ \text{(lần)}.$$
-**Đáp số.** $4$ lần.
+**Đáp số.** 45.
 
 [ĐỀ – EN]
-This year Mum is $28$ years old and her child is $4$. In $4$ years' time, how many times as old as her child will Mum be?
+The product of 2 and a number is 18. What is the product of 5 and that number?
 
 [LỜI GIẢI CŨ – EN]
-After $4$ years, Mum's age is $28+4=32$ (years) and her child's age is $4+4=8$ (years).
+We have $2\times9=18$, so the number is 9. The product of 5 and 9 is:
+$$5\times9=45.$$
 
-The number of times Mum's age is as large as her child's is:
-$$32\div8=4\ \text{(times)}.$$
-**Answer.** $4$ times.
+**Answer.** 45.
 
 
 ######################################################################
-@@@ g3/likelihood-of-an-event
-Bài học: Khả năng xảy ra của một sự kiện / How likely is an event?
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+@@@ g2/vietnamese-money
+Bài học: Giới thiệu tiền Việt Nam / Introducing Vietnamese money
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Một hộp có $5$ viên bi xanh. Nhắm mắt lấy ra một viên. Hãy nói khả năng của:
-a) lấy được bi xanh;
-b) lấy được bi đỏ.
+Viết cách đọc các số tiền sau: $2\,000$ đồng, $10\,000$ đồng, $50\,000$ đồng.
 
 [LỜI GIẢI CŨ – VI]
-a) Trong hộp chỉ có bi xanh nên lấy được bi xanh là **chắc chắn**.
+$2\,000$ đồng đọc là hai nghìn đồng.
+$10\,000$ đồng đọc là mười nghìn đồng.
+$50\,000$ đồng đọc là năm mươi nghìn đồng.
 
-b) Trong hộp không có bi đỏ nên lấy được bi đỏ là **không thể**.
-
-**Đáp số.** a) Chắc chắn. b) Không thể.
+**Đáp số.** Hai nghìn đồng; mười nghìn đồng; năm mươi nghìn đồng.
 
 [ĐỀ – EN]
-A box has $5$ blue marbles. Shut your eyes and take out one. Say how likely each event is:
-a) you take a blue marble;
-b) you take a red marble.
+Write how to say these amounts of money: $2\,000$ dong, $10\,000$ dong, $50\,000$ dong.
 
 [LỜI GIẢI CŨ – EN]
-a) There are only blue marbles, so taking a blue marble is **certain**.
+$2\,000$ dong is said "two thousand dong".
+$10\,000$ dong is said "ten thousand dong".
+$50\,000$ dong is said "fifty thousand dong".
 
-b) There is no red marble, so taking a red marble is **impossible**.
-
-**Answer.** a) Certain. b) Impossible.
+**Answer.** Two thousand dong; ten thousand dong; fifty thousand dong.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Một túi có $3$ kẹo cam và $3$ kẹo dâu. Nhắm mắt lấy ra một chiếc. Hãy nói khả năng của:
-a) lấy được kẹo cam;
-b) lấy được kẹo dâu;
-c) lấy được kẹo chanh.
+Tính:
+
+a) $1\,000+4\,000$
+
+b) $5\,000+5\,000$
+
+c) $20\,000+30\,000$
+
+d) $9\,000-3\,000$
 
 [LỜI GIẢI CŨ – VI]
-a) Có thể. b) Có thể. c) Trong túi không có kẹo chanh nên không thể.
+a) $1+4=5$ nên $1\,000+4\,000=5\,000$.
 
-**Đáp số.** a) Có thể. b) Có thể. c) Không thể.
+b) $5+5=10$ nên $5\,000+5\,000=10\,000$.
+
+c) $20+30=50$ nên $20\,000+30\,000=50\,000$.
+
+d) $9-3=6$ nên $9\,000-3\,000=6\,000$.
+
+**Đáp số.** a) $5\,000$; b) $10\,000$; c) $50\,000$; d) $6\,000$.
 
 [ĐỀ – EN]
-A bag has $3$ orange sweets and $3$ strawberry sweets. Shut your eyes and take out one. Say how likely each event is:
-a) you take an orange sweet;
-b) you take a strawberry sweet;
-c) you take a lemon sweet.
+Work out:
+
+a) $1\,000+4\,000$
+
+b) $5\,000+5\,000$
+
+c) $20\,000+30\,000$
+
+d) $9\,000-3\,000$
 
 [LỜI GIẢI CŨ – EN]
-a) Possible. b) Possible. c) There is no lemon sweet in the bag, so it is impossible.
+a) $1+4=5$, so $1\,000+4\,000=5\,000$.
 
-**Answer.** a) Possible. b) Possible. c) Impossible.
+b) $5+5=10$, so $5\,000+5\,000=10\,000$.
+
+c) $20+30=50$, so $20\,000+30\,000=50\,000$.
+
+d) $9-3=6$, so $9\,000-3\,000=6\,000$.
+
+**Answer.** a) $5\,000$; b) $10\,000$; c) $50\,000$; d) $6\,000$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Hãy nói mỗi sự kiện là chắc chắn, có thể hay không thể xảy ra:
-a) Một tuần có $7$ ngày.
-b) Con mèo bay lên Mặt Trăng.
-c) Ngày mai trời nắng.
+Lan có hai tờ $5\,000$ đồng và một tờ $1\,000$ đồng. Hỏi Lan có tất cả bao nhiêu tiền?
 
 [LỜI GIẢI CŨ – VI]
-a) Tuần nào cũng có $7$ ngày: chắc chắn. b) Không thể. c) Có ngày nắng, có ngày không: có thể.
+Bài giải
 
-**Đáp số.** a) Chắc chắn. b) Không thể. c) Có thể.
+Lan có tất cả số tiền là:
+$$5+5+1=11\ \text{(nghìn đồng)}.$$
+Tức là $11\,000$ đồng.
+
+Đáp số: $11\,000$ đồng.
 
 [ĐỀ – EN]
-Say whether each event is certain, possible or impossible:
-a) A week has $7$ days.
-b) A cat flies to the Moon.
-c) It is sunny tomorrow.
+Lan has two $5\,000$ dong notes and one $1\,000$ dong note. How much money does Lan have altogether?
 
 [LỜI GIẢI CŨ – EN]
-a) Every week has $7$ days: certain. b) Impossible. c) Some days are sunny and some are not: possible.
+Solution
 
-**Answer.** a) Certain. b) Impossible. c) Possible.
+The amount of money Lan has altogether is:
+$$5+5+1=11\ \text{(thousand dong)}.$$
+That is $11\,000$ dong.
+
+Answer: $11\,000$ dong.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Một hộp có $4$ tấm thẻ ghi số $2$, $4$, $6$, $8$. Nhắm mắt lấy ra một tấm. Hãy nói khả năng của:
-a) lấy được thẻ ghi số chẵn;
-b) lấy được thẻ ghi số $5$;
-c) lấy được thẻ ghi số lớn hơn $5$.
+a) Một tờ $20\,000$ đồng đổi được mấy tờ $10\,000$ đồng?
+
+b) Một tờ $10\,000$ đồng đổi được mấy tờ $2\,000$ đồng?
 
 [LỜI GIẢI CŨ – VI]
-a) Cả bốn số đều là số chẵn: **chắc chắn**.
+a) $10\,000+10\,000=20\,000$ nên đổi được 2 tờ.
 
-b) Không có số $5$: **không thể**.
+b) $2+2+2+2+2=10$ nên $2\,000+2\,000+2\,000+2\,000+2\,000=10\,000$, đổi được 5 tờ.
 
-c) Có số $6$ và $8$ lớn hơn $5$, nhưng $2$ và $4$ thì không: **có thể**.
-
-**Đáp số.** a) Chắc chắn. b) Không thể. c) Có thể.
+**Đáp số.** a) 2 tờ; b) 5 tờ.
 
 [ĐỀ – EN]
-A box has $4$ cards with the numbers $2$, $4$, $6$, $8$. Shut your eyes and take out one. Say how likely each event is:
-a) you take a card with an even number;
-b) you take the card with $5$;
-c) you take a card with a number greater than $5$.
+a) How many $10\,000$ dong notes can you change one $20\,000$ dong note for?
+
+b) How many $2\,000$ dong notes can you change one $10\,000$ dong note for?
 
 [LỜI GIẢI CŨ – EN]
-a) All four numbers are even: **certain**.
+a) $10\,000+10\,000=20\,000$, so you get 2 notes.
 
-b) There is no $5$: **impossible**.
+b) $2+2+2+2+2=10$, so $2\,000+2\,000+2\,000+2\,000+2\,000=10\,000$, and you get 5 notes.
 
-c) The numbers $6$ and $8$ are greater than $5$, but $2$ and $4$ are not: **possible**.
-
-**Answer.** a) Certain. b) Impossible. c) Possible.
+**Answer.** a) 2 notes; b) 5 notes.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Một hộp có $1$ viên bi đỏ và $9$ viên bi xanh. Nam nói: "Nhắm mắt lấy một viên thì chắc chắn được bi xanh". Nam nói đúng không? Vì sao?
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống:
+$$2\ \text{tờ}\ 5\,000\ \text{đồng}\ \square\ 10\,000\ \text{đồng},$$
+$$3\,000\ \text{đồng}+2\,000\ \text{đồng}\ \square\ 6\,000\ \text{đồng},$$
+$$20\,000\ \text{đồng}\ \square\ 10\,000\ \text{đồng}+5\,000\ \text{đồng}.$$
 
 [LỜI GIẢI CŨ – VI]
-Viên bi đỏ vẫn nằm trong hộp, nên có thể lấy được bi đỏ.
+$5+5=10$ nghìn nên hai tờ $5\,000$ đồng bằng $10\,000$ đồng.
+$3+2=5$ nghìn, mà $5<6$.
+$10+5=15$ nghìn, mà $20>15$.
 
-**Đáp số.** Nam nói chưa đúng: lấy được bi xanh chỉ là **có thể**.
+**Đáp số.** $=$; $<$; $>$.
 
 [ĐỀ – EN]
-A box has $1$ red marble and $9$ blue marbles. Nam says: "If I shut my eyes and take one, I am certain to get blue." Is Nam right? Why?
+Write $>$, $<$ or $=$ in each box:
+$$2\ \text{notes of}\ 5\,000\ \text{dong}\ \square\ 10\,000\ \text{dong},$$
+$$3\,000\ \text{dong}+2\,000\ \text{dong}\ \square\ 6\,000\ \text{dong},$$
+$$20\,000\ \text{dong}\ \square\ 10\,000\ \text{dong}+5\,000\ \text{dong}.$$
 
 [LỜI GIẢI CŨ – EN]
-The red marble is still in the box, so you might get red.
+$5+5=10$ thousand, so two $5\,000$ dong notes equal $10\,000$ dong.
+$3+2=5$ thousand, and $5<6$.
+$10+5=15$ thousand, and $20>15$.
 
-**Answer.** Nam is not right: getting blue is only **possible**.
+**Answer.** $=$; $<$; $>$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Lan nói: "Hộp có $4$ bi xanh và $1$ bi đỏ. Không thể lấy được bi đỏ vì bi đỏ ít quá". Lan sai ở đâu? Hãy sửa lại.
+Giả sử Nam mua một quyển truyện giá $7\,000$ đồng và một chiếc bút giá $3\,000$ đồng. Hỏi Nam phải trả tất cả bao nhiêu tiền?
 
 [LỜI GIẢI CŨ – VI]
-Trong hộp có $1$ bi đỏ, nên lấy được bi đỏ có thể xảy ra.
+Bài giải
 
-**Đáp số.** Lan sai: lấy được bi đỏ là **có thể**, không phải không thể.
+Nam phải trả tất cả số tiền là:
+$$7+3=10\ \text{(nghìn đồng)}.$$
+Tức là $10\,000$ đồng.
+
+Đáp số: $10\,000$ đồng.
 
 [ĐỀ – EN]
-Lan says: "A box has $4$ blue marbles and $1$ red marble. You cannot get red because there is so little red." Where is Lan wrong? Correct it.
+Suppose Nam buys a story book that costs $7\,000$ dong and a pen that costs $3\,000$ dong. How much must Nam pay altogether?
 
 [LỜI GIẢI CŨ – EN]
-There is $1$ red marble in the box, so getting red can happen.
+Solution
 
-**Answer.** Lan is wrong: getting red is **possible**, not impossible.
+The amount Nam must pay altogether is:
+$$7+3=10\ \text{(thousand dong)}.$$
+That is $10\,000$ dong.
+
+Answer: $10\,000$ dong.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài trước (bảng số liệu). Mai lấy một viên bi từ hộp, ghi màu rồi bỏ lại, làm $12$ lần: đỏ, xanh, đỏ, đỏ, xanh, đỏ, xanh, đỏ, đỏ, xanh, đỏ, xanh.
-
-a) Lập bảng số liệu (có vạch kiểm đếm).
-b) Trong hộp có cả hai màu không? Vì sao?
+Giả sử Hà có $20\,000$ đồng và mua một hộp bánh giá $15\,000$ đồng. Hỏi Hà còn lại bao nhiêu tiền?
 
 [LỜI GIẢI CŨ – VI]
-a)
+Bài giải
 
-| Màu bi | Vạch kiểm đếm | Số lần |
-|---|---|---|
-| Đỏ | ///////  | $7$ |
-| Xanh | ///// | $5$ |
+Hà còn lại số tiền là:
+$$20-15=5\ \text{(nghìn đồng)}.$$
+Tức là $5\,000$ đồng.
 
-Kiểm tra: $7+5=12$.
-
-b) Cả bi đỏ và bi xanh đều được lấy ra, nên trong hộp có cả hai màu.
-
-**Đáp số.** a) Đỏ $7$ lần, xanh $5$ lần. b) Có cả hai màu.
+Đáp số: $5\,000$ đồng.
 
 [ĐỀ – EN]
-Remember the last lesson (data tables). Mai takes a marble from a box, writes down its colour, puts it back, and does this $12$ times: red, blue, red, red, blue, red, blue, red, red, blue, red, blue.
-
-a) Make a data table (with tally marks).
-b) Are there both colours in the box? Why?
+Suppose Ha has $20\,000$ dong and buys a box of cakes that costs $15\,000$ dong. How much money does Ha have left?
 
 [LỜI GIẢI CŨ – EN]
-a)
+Solution
 
-| Colour | Tally marks | Number of times |
-|---|---|---|
-| Red | /////// | $7$ |
-| Blue | ///// | $5$ |
+The amount of money Ha has left is:
+$$20-15=5\ \text{(thousand dong)}.$$
+That is $5\,000$ dong.
 
-Check: $7+5=12$.
-
-b) Both red and blue marbles were taken out, so the box has both colours.
-
-**Answer.** a) Red $7$ times, blue $5$ times. b) Yes, both colours.
+Answer: $5\,000$ dong.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Một hộp có $3$ bi đỏ và $5$ bi xanh.
-
-a) Phải lấy ra bao nhiêu viên bi xanh để chắc chắn lấy được bi đỏ?
-b) Nếu giữ nguyên $5$ bi xanh, phải lấy ra bao nhiêu viên bi đỏ để không thể lấy được bi đỏ?
+Nhớ lại bài phép nhân. Mai có 4 tờ $5\,000$ đồng. Hỏi Mai có bao nhiêu tiền? Viết bằng phép nhân.
 
 [LỜI GIẢI CŨ – VI]
-a) Phải lấy hết $5$ viên bi xanh, khi đó hộp chỉ còn $3$ bi đỏ.
+Bài giải
 
-b) Phải lấy hết $3$ viên bi đỏ, khi đó hộp chỉ còn $5$ bi xanh.
+Mai có số tiền là:
+$$5\times4=20\ \text{(nghìn đồng)}.$$
+Tức là $20\,000$ đồng.
 
-**Đáp số.** a) $5$ viên bi xanh. b) $3$ viên bi đỏ.
+Đáp số: $20\,000$ đồng.
 
 [ĐỀ – EN]
-A box has $3$ red marbles and $5$ blue marbles.
-
-a) How many blue marbles must you take out so that you are certain to get a red marble?
-b) If you keep the $5$ blue marbles, how many red marbles must you take out so that getting a red marble is impossible?
+Remember the lesson on multiplication. Mai has 4 notes of $5\,000$ dong. How much money does Mai have? Write it as a multiplication.
 
 [LỜI GIẢI CŨ – EN]
-a) You must take out all $5$ blue marbles, and then only $3$ red marbles are left.
+Solution
 
-b) You must take out all $3$ red marbles, and then only $5$ blue marbles are left.
+The amount of money Mai has is:
+$$5\times4=20\ \text{(thousand dong)}.$$
+That is $20\,000$ dong.
 
-**Answer.** a) $5$ blue marbles. b) $3$ red marbles.
+Answer: $20\,000$ dong.
 
-
-######################################################################
-@@@ g3/millilitres
-Bài học: Mi-li-lít. Nhiệt độ. Đơn vị đo nhiệt độ / Millilitres. Temperature and units of temperature
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
+=== Bài 9 ===
 [ĐỀ – VI]
-Đổi ra mi-li-lít: a) $5\ \text{l}$; b) $3\ \text{l}\ 200\ \text{ml}$.
+Mai có ba tờ tiền: một tờ $10\,000$ đồng, một tờ $5\,000$ đồng và một tờ $2\,000$ đồng. Mai có thể trả đúng $12\,000$ đồng bằng những tờ nào? Trả đúng $15\,000$ đồng bằng những tờ nào?
 
 [LỜI GIẢI CŨ – VI]
-a) $5\ \text{l}=5\times 1000=5000\ \text{ml}$.
+Ta có $10+2=12$ nên trả đúng $12\,000$ đồng bằng tờ $10\,000$ đồng và tờ $2\,000$ đồng.
+Ta có $10+5=15$ nên trả đúng $15\,000$ đồng bằng tờ $10\,000$ đồng và tờ $5\,000$ đồng.
 
-b) $3\ \text{l}=3000\ \text{ml}$, nên $3\ \text{l}\ 200\ \text{ml}=3000\ \text{ml}+200\ \text{ml}=3200\ \text{ml}$.
-
-**Đáp số.** a) $5000$ ml; b) $3200$ ml.
-
-[ĐỀ – EN]
-Convert to millilitres: a) $5\ \text{l}$; b) $3\ \text{l}\ 200\ \text{ml}$.
-
-[LỜI GIẢI CŨ – EN]
-a) $5\ \text{l}=5\times 1000=5000\ \text{ml}$.
-
-b) $3\ \text{l}=3000\ \text{ml}$, so $3\ \text{l}\ 200\ \text{ml}=3000\ \text{ml}+200\ \text{ml}=3200\ \text{ml}$.
-
-**Answer.** a) $5000$ ml; b) $3200$ ml.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Đổi $2500\ \text{ml}$ ra lít và mi-li-lít.
-
-[LỜI GIẢI CŨ – VI]
-$2500\ \text{ml}=2000\ \text{ml}+500\ \text{ml}=2\ \text{l}\ 500\ \text{ml}$.
-
-**Đáp số.** $2\ \text{l}\ 500\ \text{ml}$.
+**Đáp số.** $12\,000$ đồng: tờ $10\,000$ và tờ $2\,000$; $15\,000$ đồng: tờ $10\,000$ và tờ $5\,000$.
 
 [ĐỀ – EN]
-Convert $2500\ \text{ml}$ to litres and millilitres.
+Mai has three banknotes: one $10\,000$ dong note, one $5\,000$ dong note and one $2\,000$ dong note. Which notes can Mai use to pay exactly $12\,000$ dong? Which notes can she use to pay exactly $15\,000$ dong?
 
 [LỜI GIẢI CŨ – EN]
-$2500\ \text{ml}=2000\ \text{ml}+500\ \text{ml}=2\ \text{l}\ 500\ \text{ml}$.
+We have $10+2=12$, so Mai can pay exactly $12\,000$ dong with the $10\,000$ dong note and the $2\,000$ dong note.
+We have $10+5=15$, so Mai can pay exactly $15\,000$ dong with the $10\,000$ dong note and the $5\,000$ dong note.
 
-**Answer.** $2\ \text{l}\ 500\ \text{ml}$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Điền dấu $>$, $<$, $=$ vào chỗ chấm: $1\ \text{l}\ 300\ \text{ml}\ \ldots\ 1200\ \text{ml}$.
-
-[LỜI GIẢI CŨ – VI]
-$1\ \text{l}\ 300\ \text{ml}=1000\ \text{ml}+300\ \text{ml}=1300\ \text{ml}$. Vì $1300>1200$ nên $1\ \text{l}\ 300\ \text{ml}>1200\ \text{ml}$.
-
-**Đáp số.** $>$.
-
-[ĐỀ – EN]
-Fill in $>$, $<$ or $=$: $1\ \text{l}\ 300\ \text{ml}\ \ldots\ 1200\ \text{ml}$.
-
-[LỜI GIẢI CŨ – EN]
-$1\ \text{l}\ 300\ \text{ml}=1000\ \text{ml}+300\ \text{ml}=1300\ \text{ml}$. Since $1300>1200$, we have $1\ \text{l}\ 300\ \text{ml}>1200\ \text{ml}$.
-
-**Answer.** $>$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Bình thứ nhất chứa $600$ ml nước, bình thứ hai chứa $800$ ml nước. Hỏi hai bình chứa tất cả bao nhiêu mi-li-lít nước? Đổi kết quả ra lít và mi-li-lít.
-
-[LỜI GIẢI CŨ – VI]
-Số mi-li-lít nước của hai bình là:
-$$600+800=1400\ \text{(ml)}.$$
-Vì $1400\ \text{ml}=1000\ \text{ml}+400\ \text{ml}$ nên $1400\ \text{ml}=1\ \text{l}\ 400\ \text{ml}$.
-
-**Đáp số.** $1400$ ml, tức là $1\ \text{l}\ 400\ \text{ml}$.
-
-[ĐỀ – EN]
-The first jug holds $600$ ml of water and the second jug holds $800$ ml. How many millilitres of water do the two jugs hold altogether? Write the result in litres and millilitres.
-
-[LỜI GIẢI CŨ – EN]
-The number of millilitres of water in the two jugs is:
-$$600+800=1400\ \text{(ml)}.$$
-Since $1400\ \text{ml}=1000\ \text{ml}+400\ \text{ml}$, we have $1400\ \text{ml}=1\ \text{l}\ 400\ \text{ml}$.
-
-**Answer.** $1400$ ml, which is $1\ \text{l}\ 400\ \text{ml}$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Mẹ rót $3$ cốc nước cam, mỗi cốc $300$ ml. Hỏi mẹ đã rót bao nhiêu mi-li-lít nước cam? Số nước đó ít hơn $1$ l bao nhiêu mi-li-lít?
-
-[LỜI GIẢI CŨ – VI]
-Số mi-li-lít nước cam mẹ đã rót là:
-$$300\times 3=900\ \text{(ml)}.$$
-Số nước đó ít hơn $1$ l là:
-$$1000-900=100\ \text{(ml)}.$$
-**Đáp số.** $900$ ml; ít hơn $1$ l là $100$ ml.
-
-[ĐỀ – EN]
-Mum pours $3$ cups of orange juice, $300$ ml in each cup. How many millilitres of orange juice has she poured? How many millilitres less than $1$ l is that?
-
-[LỜI GIẢI CŨ – EN]
-The number of millilitres of orange juice Mum has poured is:
-$$300\times 3=900\ \text{(ml)}.$$
-The amount less than $1$ l is:
-$$1000-900=100\ \text{(ml)}.$$
-**Answer.** $900$ ml; it is $100$ ml less than $1$ l.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Buổi sáng nhiệt độ là $22\ ^\circ\text{C}$. Buổi trưa nhiệt độ tăng thêm $9\ ^\circ\text{C}$, buổi chiều lại giảm đi $5\ ^\circ\text{C}$. Hỏi buổi chiều nhiệt độ là bao nhiêu độ C?
-
-[LỜI GIẢI CŨ – VI]
-Nhiệt độ buổi trưa là:
-$$22+9=31\ (^\circ\text{C}).$$
-Nhiệt độ buổi chiều là:
-$$31-5=26\ (^\circ\text{C}).$$
-**Đáp số.** $26\ ^\circ\text{C}$.
-
-[ĐỀ – EN]
-In the morning the temperature is $22\ ^\circ\text{C}$. At noon it rises by $9\ ^\circ\text{C}$ and in the afternoon it falls by $5\ ^\circ\text{C}$. What is the temperature in the afternoon, in degrees Celsius?
-
-[LỜI GIẢI CŨ – EN]
-The temperature at noon is:
-$$22+9=31\ (^\circ\text{C}).$$
-The temperature in the afternoon is:
-$$31-5=26\ (^\circ\text{C}).$$
-**Answer.** $26\ ^\circ\text{C}$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Em nhớ lại bài gấp một số lên một số lần. Một chai nhỏ chứa $200$ ml nước. Một chai to chứa gấp $5$ lần chai nhỏ. Hỏi chai to chứa bao nhiêu mi-li-lít? Đó là bao nhiêu lít?
-
-[LỜI GIẢI CŨ – VI]
-Chai to chứa:
-$$200\times 5=1000\ \text{(ml)}.$$
-Vì $1000\ \text{ml}=1\ \text{l}$ nên chai to chứa $1$ l.
-
-**Đáp số.** $1000$ ml, tức là $1$ l.
-
-[ĐỀ – EN]
-Remember the lesson on making a number several times larger. A small bottle holds $200$ ml of water. A large bottle holds $5$ times as much as the small bottle. How many millilitres does the large bottle hold? How many litres is that?
-
-[LỜI GIẢI CŨ – EN]
-The large bottle holds:
-$$200\times 5=1000\ \text{(ml)}.$$
-Since $1000\ \text{ml}=1\ \text{l}$, the large bottle holds $1$ l.
-
-**Answer.** $1000$ ml, which is $1$ l.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Một bình chứa $2$ l nước. Em rót ra $3$ cốc, mỗi cốc $300$ ml, rồi rót tiếp $400$ ml vào ấm. Hỏi trong bình còn lại bao nhiêu mi-li-lít nước?
-
-[LỜI GIẢI CŨ – VI]
-Ta có $2\ \text{l}=2000\ \text{ml}$. Số nước rót vào $3$ cốc là:
-$$300\times 3=900\ \text{(ml)}.$$
-Số nước đã rót ra tất cả là:
-$$900+400=1300\ \text{(ml)}.$$
-Số nước còn lại trong bình là:
-$$2000-1300=700\ \text{(ml)}.$$
-**Đáp số.** $700$ ml.
-
-[ĐỀ – EN]
-A jug holds $2$ l of water. You pour out $3$ cups of $300$ ml each, then pour $400$ ml more into a kettle. How many millilitres of water are left in the jug?
-
-[LỜI GIẢI CŨ – EN]
-We have $2\ \text{l}=2000\ \text{ml}$. The water poured into $3$ cups is:
-$$300\times 3=900\ \text{(ml)}.$$
-The water poured out altogether is:
-$$900+400=1300\ \text{(ml)}.$$
-The water left in the jug is:
-$$2000-1300=700\ \text{(ml)}.$$
-**Answer.** $700$ ml.
+**Answer.** $12\,000$ dong: the $10\,000$ and $2\,000$ notes; $15\,000$ dong: the $10\,000$ and $5\,000$ notes.
 
 
 ===== HẾT FILE thichgiaitoan-03-LG =====

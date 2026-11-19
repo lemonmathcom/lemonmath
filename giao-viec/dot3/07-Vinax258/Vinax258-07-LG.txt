@@ -6,7 +6,7 @@ Kết quả: file Vinax258-07-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Vinax258-07-LG
-Người làm: tài khoản Vinax258. Gói này có 40 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Vinax258. Gói này có 39 bài tập thuộc 11 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Vinax258-07-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/11). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Vinax258-07-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,875 +189,1254 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g10/conic-sections (10 bài tập)
-- g10/counting-rules (10 bài tập)
-- g10/dispersion (10 bài tập)
-- g10/dot-product (10 bài tập)
+- g7/algebraic-expressions (1 bài tập)
+- g7/angle-pairs-bisectors (1 bài tập)
+- g7/angles-and-opposite-sides (2 bài tập)
+- g7/dividing-polynomials (2 bài tập)
+- g7/g7-add-subtract-polynomials (7 bài tập)
+- g7/g7-cuboids-and-cubes (5 bài tập)
+- g7/identifying-parallel-lines (4 bài tập)
+- g7/intro-to-events (7 bài tập)
+- g7/intro-to-probability (8 bài tập)
+- g7/isosceles-perpendicular-bisector (1 bài tập)
+- g7/line-graphs (1 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g10/conic-sections
-Bài học: Ba đường conic / The three conic sections
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+@@@ g7/algebraic-expressions
+Bài học: Biểu thức đại số. Đa thức một biến / Algebraic expressions. Polynomials in one variable
+Cần viết lại lời giải các bài: 6 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Trong các số $1$, $2$, $3$, số nào là nghiệm của đa thức $x^2-5x+6$?
+
+[LỜI GIẢI CŨ – VI]
+Gọi $M(x)=x^2-5x+6$. Ta có $M(1)=1-5+6=2\neq0$. Ta có $M(2)=4-10+6=0$. Ta có $M(3)=9-15+6=0$.
+
+Vậy $x=2$ và $x=3$ là nghiệm của đa thức, còn $x=1$ thì không.
+
+**Đáp số.** $x=2$ và $x=3$.
+
+[ĐỀ – EN]
+Which of the numbers $1$, $2$, $3$ are roots of the polynomial $x^2-5x+6$?
+
+[LỜI GIẢI CŨ – EN]
+Let $M(x)=x^2-5x+6$. We have $M(1)=1-5+6=2\neq0$. We have $M(2)=4-10+6=0$. We have $M(3)=9-15+6=0$.
+
+So $x=2$ and $x=3$ are roots of the polynomial, but $x=1$ is not.
+
+**Answer.** $x=2$ and $x=3$.
+
+
+######################################################################
+@@@ g7/angle-pairs-bisectors
+Bài học: Góc ở vị trí đặc biệt. Tia phân giác của một góc / Angles in special positions. The bisector of an angle
+Cần viết lại lời giải các bài: 2 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho $\widehat{aOb}$ và $\widehat{bOc}$ là hai góc kề bù. Tính $\widehat{bOc}$ trong các trường hợp:
+
+a) $\widehat{aOb}=120^\circ$.
+
+b) $\widehat{aOb}=35^\circ$.
+
+c) $\widehat{aOb}=90^\circ$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $\widehat{aOb}$ và $\widehat{bOc}$ kề bù nên $\widehat{bOc}=180^\circ-\widehat{aOb}$.
+
+a) $\widehat{bOc}=180^\circ-120^\circ=60^\circ$.
+
+b) $\widehat{bOc}=180^\circ-35^\circ=145^\circ$.
+
+c) $\widehat{bOc}=180^\circ-90^\circ=90^\circ$.
+
+Vậy $\widehat{bOc}$ lần lượt bằng $60^\circ$, $145^\circ$, $90^\circ$.
+
+**Đáp số.** a) $60^\circ$; b) $145^\circ$; c) $90^\circ$.
+
+[ĐỀ – EN]
+$\angle aOb$ and $\angle bOc$ are adjacent supplementary angles. Find $\angle bOc$ when:
+
+a) $\angle aOb=120^\circ$.
+
+b) $\angle aOb=35^\circ$.
+
+c) $\angle aOb=90^\circ$.
+
+[LỜI GIẢI CŨ – EN]
+Since $\angle aOb$ and $\angle bOc$ are adjacent supplementary, $\angle bOc=180^\circ-\angle aOb$.
+
+a) $\angle bOc=180^\circ-120^\circ=60^\circ$.
+
+b) $\angle bOc=180^\circ-35^\circ=145^\circ$.
+
+c) $\angle bOc=180^\circ-90^\circ=90^\circ$.
+
+So $\angle bOc$ equals $60^\circ$, $145^\circ$, $90^\circ$ respectively.
+
+**Answer.** a) $60^\circ$; b) $145^\circ$; c) $90^\circ$.
+
+
+######################################################################
+@@@ g7/angles-and-opposite-sides
+Bài học: Quan hệ giữa góc và cạnh đối diện trong một tam giác. Quan hệ giữa đường vuông góc và đường xiên / Angles and opposite sides in a triangle. The perpendicular and oblique lines from a point
+Cần viết lại lời giải các bài: 1, 2 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Với elip $\dfrac{x^2}{49}+\dfrac{y^2}{25}=1$, tìm $a$, $b$, $c$, các tiêu điểm và các đỉnh.
+Cho tam giác $ABC$ có $\widehat{A}=65^\circ$, $\widehat{B}=55^\circ$ (hình trên). Tính $\widehat{C}$ và sắp xếp ba cạnh của tam giác theo thứ tự tăng dần.
 
 [LỜI GIẢI CŨ – VI]
-$a=7$, $b=5$, $c^2=49-25=24$, nên $c=2\sqrt6$.
+Xét tam giác $ABC$ có tổng ba góc bằng $180^\circ$, nên $\widehat{C}=180^\circ-65^\circ-55^\circ=60^\circ$.
 
-**Đáp số.** Tiêu điểm $(\pm2\sqrt6; 0)$; đỉnh $(\pm7; 0)$ và $(0; \pm5)$.
+Ta có $\widehat{B}=55^\circ<\widehat{C}=60^\circ<\widehat{A}=65^\circ$. Cạnh đối diện với $\widehat{B}$ là $AC$, với $\widehat{C}$ là $AB$, với $\widehat{A}$ là $BC$. Theo định lí về góc và cạnh đối diện, ta có $AC<AB<BC$.
+
+**Đáp số.** $\widehat{C}=60^\circ$; $AC<AB<BC$.
 
 [ĐỀ – EN]
-For the ellipse $\dfrac{x^2}{49}+\dfrac{y^2}{25}=1$, find $a$, $b$, $c$, the foci and the vertices.
+Triangle $ABC$ has $\angle A=65^\circ$, $\angle B=55^\circ$ (figure above). Find $\angle C$ and arrange the three sides of the triangle in increasing order.
 
 [LỜI GIẢI CŨ – EN]
-$a=7$, $b=5$, $c^2=49-25=24$, so $c=2\sqrt6$.
+In triangle $ABC$ the three angles add up to $180^\circ$, so $\angle C=180^\circ-65^\circ-55^\circ=60^\circ$.
 
-**Answer.** Foci $(\pm2\sqrt6, 0)$; vertices $(\pm7, 0)$ and $(0, \pm5)$.
+We have $\angle B=55^\circ<\angle C=60^\circ<\angle A=65^\circ$. The side opposite $\angle B$ is $AC$, opposite $\angle C$ is $AB$, opposite $\angle A$ is $BC$. By the theorem on angles and opposite sides, $AC<AB<BC$.
+
+**Answer.** $\angle C=60^\circ$; $AC<AB<BC$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Viết phương trình chính tắc của elip có các tiêu điểm $(\pm2; 0)$ và $a=3$.
+Cho tam giác $ABC$ có $AB=9$ cm, $BC=6$ cm, $CA=7$ cm (hình trên). Sắp xếp ba góc của tam giác theo thứ tự tăng dần.
 
 [LỜI GIẢI CŨ – VI]
-$b^2=9-4=5$.
+Góc đối diện với $AB$ là $\widehat{C}$, với $BC$ là $\widehat{A}$, với $CA$ là $\widehat{B}$.
 
-**Đáp số.** $\dfrac{x^2}{9}+\dfrac{y^2}{5}=1$.
+Xét tam giác $ABC$ có $BC=6<CA=7<AB=9$. Theo định lí về góc và cạnh đối diện, góc đối diện với cạnh lớn hơn thì lớn hơn, nên $\widehat{A}<\widehat{B}<\widehat{C}$.
 
-[ĐỀ – EN]
-Write the standard equation of the ellipse with foci $(\pm2, 0)$ and $a=3$.
-
-[LỜI GIẢI CŨ – EN]
-$b^2=9-4=5$.
-
-**Answer.** $\dfrac{x^2}{9}+\dfrac{y^2}{5}=1$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Tìm $a$, $b$ và các tiêu điểm của elip $4x^2+9y^2=36$.
-
-[LỜI GIẢI CŨ – VI]
-$\dfrac{x^2}{9}+\dfrac{y^2}{4}=1$: $a=3$, $b=2$, $c^2=9-4=5$.
-
-**Đáp số.** $a=3$, $b=2$, tiêu điểm $(\pm\sqrt5; 0)$.
+**Đáp số.** $\widehat{A}<\widehat{B}<\widehat{C}$.
 
 [ĐỀ – EN]
-Find $a$, $b$ and the foci of the ellipse $4x^2+9y^2=36$.
+Triangle $ABC$ has $AB=9$ cm, $BC=6$ cm, $CA=7$ cm (figure above). Arrange the three angles of the triangle in increasing order.
 
 [LỜI GIẢI CŨ – EN]
-$\dfrac{x^2}{9}+\dfrac{y^2}{4}=1$: $a=3$, $b=2$, $c^2=9-4=5$.
+The angle opposite $AB$ is $\angle C$, opposite $BC$ is $\angle A$, opposite $CA$ is $\angle B$.
 
-**Answer.** $a=3$, $b=2$, foci $(\pm\sqrt5, 0)$.
+In triangle $ABC$ we have $BC=6<CA=7<AB=9$. By the theorem on angles and opposite sides, the angle opposite the longer side is larger, so $\angle A<\angle B<\angle C$.
 
-=== Bài 4 ===
-[ĐỀ – VI]
-Với hypebol $\dfrac{x^2}{25}-\dfrac{y^2}{144}=1$, tìm $a$, $b$, $c$, các tiêu điểm và các đường tiệm cận.
-
-[LỜI GIẢI CŨ – VI]
-$a=5$, $b=12$, $c=\sqrt{25+144}=13$.
-
-**Đáp số.** Tiêu điểm $(\pm13; 0)$; tiệm cận $y=\pm\dfrac{12}{5}x$.
-
-[ĐỀ – EN]
-For the hyperbola $\dfrac{x^2}{25}-\dfrac{y^2}{144}=1$, find $a$, $b$, $c$, the foci and the asymptotes.
-
-[LỜI GIẢI CŨ – EN]
-$a=5$, $b=12$, $c=\sqrt{25+144}=13$.
-
-**Answer.** Foci $(\pm13, 0)$; asymptotes $y=\pm\dfrac{12}{5}x$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Tìm tiêu điểm và đường chuẩn của parabol $y^2=8x$.
-
-[LỜI GIẢI CŨ – VI]
-$2p=8$, nên $p=4$ và $\dfrac p2=2$.
-
-**Đáp số.** Tiêu điểm $(2; 0)$; đường chuẩn $x=-2$.
-
-[ĐỀ – EN]
-Find the focus and the directrix of the parabola $y^2=8x$.
-
-[LỜI GIẢI CŨ – EN]
-$2p=8$, so $p=4$ and $\dfrac p2=2$.
-
-**Answer.** Focus $(2, 0)$; directrix $x=-2$.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Cho hypebol $(H): \dfrac{x^2}{9}-\dfrac{y^2}{16}=1$ và điểm $P\left(5; \dfrac{16}{3}\right)$. Mỗi khẳng định sau đúng hay sai?
-
-a) $(H)$ có các tiêu điểm $(\pm5; 0)$.
-
-b) Các đường tiệm cận của $(H)$ là $y=\pm\dfrac34x$.
-
-c) Điểm $P$ thuộc $(H)$.
-
-d) $|PF_1-PF_2|=6$.
-
-[LỜI GIẢI CŨ – VI]
-$a=3$, $b=4$, $c=\sqrt{9+16}=5$.
-
-a) **Đúng**: $c=5$.
-
-b) **Sai**: $\dfrac ba=\dfrac43$, tiệm cận là $y=\pm\dfrac43x$.
-
-c) **Đúng**: $\dfrac{25}{9}-\dfrac{256}{9\cdot16}=\dfrac{25}{9}-\dfrac{16}{9}=1$.
-
-d) **Đúng**: $PF_2=\dfrac{16}{3}$, $PF_1=\sqrt{100+\dfrac{256}{9}}=\dfrac{34}{3}$, hiệu là $\dfrac{18}{3}=6=2a$.
-
-**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
-
-[ĐỀ – EN]
-Consider the hyperbola $(H): \dfrac{x^2}{9}-\dfrac{y^2}{16}=1$ and the point $P\left(5, \dfrac{16}{3}\right)$. Is each claim true or false?
-
-a) $(H)$ has foci $(\pm5, 0)$.
-
-b) The asymptotes of $(H)$ are $y=\pm\dfrac34x$.
-
-c) The point $P$ lies on $(H)$.
-
-d) $|PF_1-PF_2|=6$.
-
-[LỜI GIẢI CŨ – EN]
-$a=3$, $b=4$, $c=\sqrt{9+16}=5$.
-
-a) **True**: $c=5$.
-
-b) **False**: $\dfrac ba=\dfrac43$, so the asymptotes are $y=\pm\dfrac43x$.
-
-c) **True**: $\dfrac{25}{9}-\dfrac{256}{9\cdot16}=\dfrac{25}{9}-\dfrac{16}{9}=1$.
-
-d) **True**: $PF_2=\dfrac{16}{3}$, $PF_1=\sqrt{100+\dfrac{256}{9}}=\dfrac{34}{3}$, and the difference is $\dfrac{18}{3}=6=2a$.
-
-**Answer.** a) True; b) False; c) True; d) True.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Cửa một đường hầm có dạng nửa elip: chân cửa rộng $8$ m, đỉnh cửa cao $3$ m. Tại vị trí cách tim đường hầm $1$ m, cửa hầm cao bao nhiêu mét? (Làm tròn đến hàng phần trăm.)
-
-[LỜI GIẢI CŨ – VI]
-$a=4$, $b=3$: $\dfrac{x^2}{16}+\dfrac{y^2}{9}=1$. Với $x=1$: $y=3\sqrt{1-\dfrac{1}{16}}=\dfrac{3\sqrt{15}}{4}\approx 2{,}90$.
-
-**Đáp số.** $2{,}90$.
-
-[ĐỀ – EN]
-The entrance of a tunnel is half an ellipse: it is $8$ m wide at the base and $3$ m high at the top. How high, in metres, is the entrance at a point $1$ m from the centre line of the tunnel? (Round to two decimal places.)
-
-[LỜI GIẢI CŨ – EN]
-$a=4$, $b=3$: $\dfrac{x^2}{16}+\dfrac{y^2}{9}=1$. For $x=1$: $y=3\sqrt{1-\dfrac{1}{16}}=\dfrac{3\sqrt{15}}{4}\approx 2.90$.
-
-**Answer.** $2.90$.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Gương phản xạ của một đèn pha có mặt cắt là parabol: miệng gương rộng $20$ cm, gương sâu $10$ cm. Bóng đèn phải đặt tại tiêu điểm để chùm sáng đi song song. Bóng đèn cách đáy gương bao nhiêu xentimét?
-
-[LỜI GIẢI CŨ – VI]
-$10^2=2p\cdot10\iff p=5$. Tiêu điểm $(2{,}5; 0)$.
-
-**Đáp số.** $2{,}5$ cm.
-
-[ĐỀ – EN]
-The mirror of a headlamp has a parabolic cross-section: it is $20$ cm wide at the opening and $10$ cm deep. The bulb must sit at the focus so that the light leaves in a parallel beam. How many centimetres from the bottom of the mirror is the bulb?
-
-[LỜI GIẢI CŨ – EN]
-$10^2=2p\cdot10\iff p=5$. The focus is $(2.5, 0)$.
-
-**Answer.** $2.5$ cm.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Tìm các điểm $M$ của elip $\dfrac{x^2}{25}+\dfrac{y^2}{9}=1$ có $MF_2=3$, với $F_2(4; 0)$.
-
-[LỜI GIẢI CŨ – VI]
-$5-\dfrac45x=3\iff x=\dfrac52$. Khi đó $y^2=9\left(1-\dfrac{1}{4}\right)=\dfrac{27}{4}$, $y=\pm\dfrac{3\sqrt3}{2}$. Kiểm tra: $MF_2^2=\left(\dfrac32\right)^2+\dfrac{27}{4}=9$.
-
-**Đáp số.** $M\left(\dfrac52; \pm\dfrac{3\sqrt3}{2}\right)$.
-
-[ĐỀ – EN]
-Find the points $M$ of the ellipse $\dfrac{x^2}{25}+\dfrac{y^2}{9}=1$ with $MF_2=3$, where $F_2(4, 0)$.
-
-[LỜI GIẢI CŨ – EN]
-$5-\dfrac45x=3\iff x=\dfrac52$. Then $y^2=9\left(1-\dfrac{1}{4}\right)=\dfrac{27}{4}$, $y=\pm\dfrac{3\sqrt3}{2}$. Check: $MF_2^2=\left(\dfrac32\right)^2+\dfrac{27}{4}=9$.
-
-**Answer.** $M\left(\dfrac52, \pm\dfrac{3\sqrt3}{2}\right)$.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Cho elip $\dfrac{x^2}{25}+\dfrac{y^2}{9}=1$ với hai tiêu điểm $F_1(-4; 0)$, $F_2(4; 0)$. Tìm các điểm $M$ của elip sao cho $\widehat{F_1MF_2}=90^\circ$.
-
-[LỜI GIẢI CŨ – VI]
-Từ $x^2=16-y^2$: $\dfrac{16-y^2}{25}+\dfrac{y^2}{9}=1\iff 9(16-y^2)+25y^2=225\iff 16y^2=81$, nên $y=\pm\dfrac94$ và $x^2=16-\dfrac{81}{16}=\dfrac{175}{16}$, $x=\pm\dfrac{5\sqrt7}{4}$.
-
-**Đáp số.** Bốn điểm $\left(\pm\dfrac{5\sqrt7}{4}; \pm\dfrac94\right)$.
-
-[ĐỀ – EN]
-Consider the ellipse $\dfrac{x^2}{25}+\dfrac{y^2}{9}=1$ with foci $F_1(-4, 0)$, $F_2(4, 0)$. Find the points $M$ of the ellipse with $\angle F_1MF_2=90^\circ$.
-
-[LỜI GIẢI CŨ – EN]
-From $x^2=16-y^2$: $\dfrac{16-y^2}{25}+\dfrac{y^2}{9}=1\iff 9(16-y^2)+25y^2=225\iff 16y^2=81$, so $y=\pm\dfrac94$ and $x^2=16-\dfrac{81}{16}=\dfrac{175}{16}$, $x=\pm\dfrac{5\sqrt7}{4}$.
-
-**Answer.** Four points $\left(\pm\dfrac{5\sqrt7}{4}, \pm\dfrac94\right)$.
+**Answer.** $\angle A<\angle B<\angle C$.
 
 
 ######################################################################
-@@@ g10/counting-rules
-Bài học: Quy tắc đếm / Counting rules
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+@@@ g7/dividing-polynomials
+Bài học: Phép chia đa thức một biến / Dividing polynomials in one variable
+Cần viết lại lời giải các bài: 2, 4 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Thực hiện các phép chia sau:
+
+a) $(15x^3-5x^2+10x):(-5x)$.
+
+b) $(4x^4-8x^2):(-2x^2)$.
+
+[LỜI GIẢI CŨ – VI]
+a) Ta có $15x^3:(-5x)=-3x^2$, $(-5x^2):(-5x)=x$ và $10x:(-5x)=-2$. Do đó $(15x^3-5x^2+10x):(-5x)=-3x^2+x-2$.
+
+b) Ta có $4x^4:(-2x^2)=-2x^2$ và $(-8x^2):(-2x^2)=4$. Do đó $(4x^4-8x^2):(-2x^2)=-2x^2+4$.
+
+Vậy a) $-3x^2+x-2$; b) $-2x^2+4$.
+
+**Đáp số.** a) $-3x^2+x-2$; b) $-2x^2+4$.
+
+[ĐỀ – EN]
+Work out the following divisions:
+
+a) $(15x^3-5x^2+10x)\div(-5x)$.
+
+b) $(4x^4-8x^2)\div(-2x^2)$.
+
+[LỜI GIẢI CŨ – EN]
+a) We have $15x^3\div(-5x)=-3x^2$, $(-5x^2)\div(-5x)=x$ and $10x\div(-5x)=-2$. Hence $(15x^3-5x^2+10x)\div(-5x)=-3x^2+x-2$.
+
+b) We have $4x^4\div(-2x^2)=-2x^2$ and $(-8x^2)\div(-2x^2)=4$. Hence $(4x^4-8x^2)\div(-2x^2)=-2x^2+4$.
+
+So a) $-3x^2+x-2$; b) $-2x^2+4$.
+
+**Answer.** a) $-3x^2+x-2$; b) $-2x^2+4$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Thực hiện phép chia $(2x^2-7x+3):(2x-1)$.
+
+[LỜI GIẢI CŨ – VI]
+Bước 1: $2x^2:2x=x$; $x(2x-1)=2x^2-x$; $(2x^2-7x+3)-(2x^2-x)=-6x+3$.
+
+Bước 2: $-6x:2x=-3$; $-3(2x-1)=-6x+3$; $(-6x+3)-(-6x+3)=0$.
+
+Số dư bằng $0$ nên phép chia hết. Vậy $(2x^2-7x+3):(2x-1)=x-3$.
+
+**Đáp số.** $x-3$.
+
+[ĐỀ – EN]
+Work out $(2x^2-7x+3)\div(2x-1)$.
+
+[LỜI GIẢI CŨ – EN]
+Step 1: $2x^2\div2x=x$; $x(2x-1)=2x^2-x$; $(2x^2-7x+3)-(2x^2-x)=-6x+3$.
+
+Step 2: $-6x\div2x=-3$; $-3(2x-1)=-6x+3$; $(-6x+3)-(-6x+3)=0$.
+
+The remainder is $0$, so the division is exact. So $(2x^2-7x+3)\div(2x-1)=x-3$.
+
+**Answer.** $x-3$.
+
+
+######################################################################
+@@@ g7/g7-add-subtract-polynomials
+Bài học: Phép cộng và phép trừ đa thức một biến. Phép nhân đa thức một biến / Adding and subtracting polynomials in one variable. Multiplying polynomials in one variable
+Cần viết lại lời giải các bài: 1, 2, 4, 5, 6, 7, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Căng tin có $4$ món chính, $3$ món canh và $2$ món tráng miệng. Một suất ăn gồm một món chính, một món canh và một món tráng miệng. Có bao nhiêu suất ăn khác nhau?
+Cho $A=4x^2-3x+7$ và $B=x^2+5x-2$. Tính $A+B$ và $A-B$.
 
 [LỜI GIẢI CŨ – VI]
-Ba bước liên tiếp: món chính ($4$ cách), canh ($3$ cách), tráng miệng ($2$ cách): $4\cdot3\cdot2=24$.
+Ta có $A+B=(4x^2+x^2)+(-3x+5x)+(7-2)=5x^2+2x+5$.
 
-**Đáp số.** $24$ suất ăn.
+Ta có $A-B=4x^2-3x+7-x^2-5x+2=(4x^2-x^2)+(-3x-5x)+(7+2)=3x^2-8x+9$.
+
+Vậy $A+B=5x^2+2x+5$ và $A-B=3x^2-8x+9$.
+
+**Đáp số.** $A+B=5x^2+2x+5$; $A-B=3x^2-8x+9$.
 
 [ĐỀ – EN]
-The canteen offers $4$ main dishes, $3$ soups and $2$ desserts. A meal is one main dish, one soup and one dessert. How many different meals are there?
+Let $A=4x^2-3x+7$ and $B=x^2+5x-2$. Find $A+B$ and $A-B$.
 
 [LỜI GIẢI CŨ – EN]
-Three successive steps: main dish ($4$ ways), soup ($3$ ways), dessert ($2$ ways): $4\cdot3\cdot2=24$.
+We have $A+B=(4x^2+x^2)+(-3x+5x)+(7-2)=5x^2+2x+5$.
 
-**Answer.** $24$ meals.
+We have $A-B=4x^2-3x+7-x^2-5x+2=(4x^2-x^2)+(-3x-5x)+(7+2)=3x^2-8x+9$.
+
+So $A+B=5x^2+2x+5$ and $A-B=3x^2-8x+9$.
+
+**Answer.** $A+B=5x^2+2x+5$; $A-B=3x^2-8x+9$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Đội văn nghệ của lớp có $8$ bạn nam và $6$ bạn nữ. Có bao nhiêu cách chọn (a) một bạn dẫn chương trình; (b) một bạn nam và một bạn nữ để song ca?
+Cho $A=2x^3-x+5$ và $B=-3x^3+x^2+4x-1$. Tính $A+B$ và $A-B$.
 
 [LỜI GIẢI CŨ – VI]
-(a) Người dẫn là một bạn nam hoặc một bạn nữ: $8+6=14$. (b) Chọn nam rồi chọn nữ: $8\cdot6=48$.
+Ta có $A+B=(2x^3-3x^3)+x^2+(-x+4x)+(5-1)=-x^3+x^2+3x+4$.
 
-**Đáp số.** (a) $14$; (b) $48$.
+Ta có $A-B=2x^3-x+5+3x^3-x^2-4x+1=(2x^3+3x^3)-x^2+(-x-4x)+(5+1)=5x^3-x^2-5x+6$.
 
-[ĐỀ – EN]
-The class music group has $8$ boys and $6$ girls. In how many ways can you choose (a) one presenter; (b) one boy and one girl to sing a duet?
+Vậy $A+B=-x^3+x^2+3x+4$ và $A-B=5x^3-x^2-5x+6$.
 
-[LỜI GIẢI CŨ – EN]
-(a) The presenter is a boy or a girl: $8+6=14$. (b) Choose a boy, then a girl: $8\cdot6=48$.
-
-**Answer.** (a) $14$; (b) $48$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Có bao nhiêu số có ba chữ số mà cả ba chữ số đều chẵn?
-
-[LỜI GIẢI CŨ – VI]
-Hàng trăm có $4$ cách, hàng chục $5$ cách, hàng đơn vị $5$ cách: $4\cdot5\cdot5=100$.
-
-**Đáp số.** $100$.
+**Đáp số.** $A+B=-x^3+x^2+3x+4$; $A-B=5x^3-x^2-5x+6$.
 
 [ĐỀ – EN]
-How many three-digit numbers have all three digits even?
+Let $A=2x^3-x+5$ and $B=-3x^3+x^2+4x-1$. Find $A+B$ and $A-B$.
 
 [LỜI GIẢI CŨ – EN]
-Hundreds digit $4$ ways, tens digit $5$ ways, units digit $5$ ways: $4\cdot5\cdot5=100$.
+We have $A+B=(2x^3-3x^3)+x^2+(-x+4x)+(5-1)=-x^3+x^2+3x+4$.
 
-**Answer.** $100$.
+We have $A-B=2x^3-x+5+3x^3-x^2-4x+1=(2x^3+3x^3)-x^2+(-x-4x)+(5+1)=5x^3-x^2-5x+6$.
+
+So $A+B=-x^3+x^2+3x+4$ and $A-B=5x^3-x^2-5x+6$.
+
+**Answer.** $A+B=-x^3+x^2+3x+4$; $A-B=5x^3-x^2-5x+6$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Một mã sản phẩm gồm một chữ cái (chọn trong $26$ chữ cái) theo sau là bốn chữ số, các chữ số được lặp lại. Có bao nhiêu mã như vậy?
+Tìm đa thức $M$, biết $M+(x^2-3x)=2x^2+x-4$.
 
 [LỜI GIẢI CŨ – VI]
-$26\cdot10\cdot10\cdot10\cdot10=260\,000$.
+Từ $M+(x^2-3x)=2x^2+x-4$ suy ra $M=(2x^2+x-4)-(x^2-3x)$.
 
-**Đáp số.** $260\,000$ mã.
+Bỏ ngoặc, ta được $M=2x^2+x-4-x^2+3x=(2x^2-x^2)+(x+3x)-4=x^2+4x-4$.
+
+Kiểm tra: $(x^2+4x-4)+(x^2-3x)=2x^2+x-4$, đúng với đề bài.
+
+Vậy $M=x^2+4x-4$.
+
+**Đáp số.** $M=x^2+4x-4$.
 
 [ĐỀ – EN]
-A product code is one letter (from $26$ letters) followed by four digits, and digits may repeat. How many such codes are there?
+Find the polynomial $M$, given that $M+(x^2-3x)=2x^2+x-4$.
 
 [LỜI GIẢI CŨ – EN]
-$26\cdot10\cdot10\cdot10\cdot10=260\,000$.
+From $M+(x^2-3x)=2x^2+x-4$ we get $M=(2x^2+x-4)-(x^2-3x)$.
 
-**Answer.** $260\,000$ codes.
+Removing the brackets, we get $M=2x^2+x-4-x^2+3x=(2x^2-x^2)+(x+3x)-4=x^2+4x-4$.
+
+Check: $(x^2+4x-4)+(x^2-3x)=2x^2+x-4$, as required.
+
+So $M=x^2+4x-4$.
+
+**Answer.** $M=x^2+4x-4$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Có bao nhiêu số có bốn chữ số khác nhau chia hết cho $5$?
+Thực hiện các phép nhân sau:
+
+a) $(-2x^2)\cdot(3x^4)$.
+
+b) $3x\cdot(2x^2-x+4)$.
 
 [LỜI GIẢI CŨ – VI]
-Tận cùng $0$: chữ số nghìn $9$ cách, trăm $8$ cách, chục $7$ cách, được $9\cdot8\cdot7=504$. Tận cùng $5$: chữ số nghìn khác $0$, khác $5$ nên $8$ cách, trăm $8$ cách, chục $7$ cách, được $8\cdot8\cdot7=448$. Tổng: $504+448=952$.
+a) Ta có $(-2)\cdot3=-6$ và $x^2\cdot x^4=x^6$, nên $(-2x^2)\cdot(3x^4)=-6x^6$.
 
-**Đáp số.** $952$.
+b) Theo tính chất phân phối, ta có $3x\cdot(2x^2-x+4)=3x\cdot2x^2+3x\cdot(-x)+3x\cdot4=6x^3-3x^2+12x$.
+
+Vậy a) $-6x^6$; b) $6x^3-3x^2+12x$.
+
+**Đáp số.** a) $-6x^6$; b) $6x^3-3x^2+12x$.
 
 [ĐỀ – EN]
-How many four-digit numbers with distinct digits are divisible by $5$?
+Work out the following products:
+
+a) $(-2x^2)\cdot(3x^4)$.
+
+b) $3x\cdot(2x^2-x+4)$.
 
 [LỜI GIẢI CŨ – EN]
-Ending in $0$: thousands $9$ ways, hundreds $8$, tens $7$, giving $9\cdot8\cdot7=504$. Ending in $5$: thousands digit not $0$ and not $5$, so $8$ ways, hundreds $8$, tens $7$, giving $8\cdot8\cdot7=448$. Total: $504+448=952$.
+a) We have $(-2)\cdot3=-6$ and $x^2\cdot x^4=x^6$, so $(-2x^2)\cdot(3x^4)=-6x^6$.
 
-**Answer.** $952$.
+b) By the distributive property, $3x\cdot(2x^2-x+4)=3x\cdot2x^2+3x\cdot(-x)+3x\cdot4=6x^3-3x^2+12x$.
+
+So a) $-6x^6$; b) $6x^3-3x^2+12x$.
+
+**Answer.** a) $-6x^6$; b) $6x^3-3x^2+12x$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Từ $A$ đến $B$ có $2$ con đường, từ $B$ đến $C$ có $3$ con đường. Bạn Minh đi từ $A$ đến $C$ (qua $B$) rồi quay về $A$ (qua $B$), và đường về không đi lại con đường nào đã đi lúc đi. Có bao nhiêu cách đi như vậy?
+Tính:
+
+a) $(x-2)(x^2+2x+4)$.
+
+b) $(2x+3)(x-1)$.
 
 [LỜI GIẢI CŨ – VI]
-Lúc đi: $2\cdot3=6$ cách. Lúc về: $C\to B$ còn $3-1=2$ cách, $B\to A$ còn $2-1=1$ cách. Tổng: $6\cdot2\cdot1=12$.
+a) Ta có $(x-2)(x^2+2x+4)=x^3+2x^2+4x-2x^2-4x-8$. Gộp các hạng tử đồng dạng: $x^3+(2x^2-2x^2)+(4x-4x)-8=x^3-8$.
 
-**Đáp số.** $12$ cách.
+b) Ta có $(2x+3)(x-1)=2x^2-2x+3x-3=2x^2+x-3$.
+
+Vậy a) $x^3-8$; b) $2x^2+x-3$.
+
+**Đáp số.** a) $x^3-8$; b) $2x^2+x-3$.
 
 [ĐỀ – EN]
-There are $2$ roads from $A$ to $B$ and $3$ roads from $B$ to $C$. Minh travels from $A$ to $C$ (via $B$) and back to $A$ (via $B$), and on the way back he uses no road he used on the way there. In how many ways can he do this?
+Work out:
+
+a) $(x-2)(x^2+2x+4)$.
+
+b) $(2x+3)(x-1)$.
 
 [LỜI GIẢI CŨ – EN]
-Going: $2\cdot3=6$ ways. Returning: $C\to B$ has $3-1=2$ ways, $B\to A$ has $2-1=1$ way. Total: $6\cdot2\cdot1=12$.
+a) We have $(x-2)(x^2+2x+4)=x^3+2x^2+4x-2x^2-4x-8$. Combining like terms: $x^3+(2x^2-2x^2)+(4x-4x)-8=x^3-8$.
 
-**Answer.** $12$ ways.
+b) We have $(2x+3)(x-1)=2x^2-2x+3x-3=2x^2+x-3$.
+
+So a) $x^3-8$; b) $2x^2+x-3$.
+
+**Answer.** a) $x^3-8$; b) $2x^2+x-3$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Từ các chữ số $1, 2, 3, 4, 5$ lập các số có ba chữ số. Mỗi khẳng định sau đúng hay sai?
-
-a) Lập được $125$ số (các chữ số có thể lặp lại).
-b) Lập được $60$ số có ba chữ số khác nhau.
-c) Lập được $30$ số chẵn có ba chữ số khác nhau.
-d) Có $61$ số (các chữ số có thể lặp lại) có ít nhất hai chữ số giống nhau.
+Chứng tỏ rằng giá trị của biểu thức $(x+4)(x-1)-(x^2+3x)$ không phụ thuộc vào giá trị của $x$.
 
 [LỜI GIẢI CŨ – VI]
-a) **Đúng.** $5\cdot5\cdot5=125$.
+Ta có $(x+4)(x-1)=x^2-x+4x-4=x^2+3x-4$.
 
-b) **Đúng.** $5\cdot4\cdot3=60$.
+Do đó $(x+4)(x-1)-(x^2+3x)=x^2+3x-4-x^2-3x=-4$.
 
-c) **Sai.** Hàng đơn vị là $2$ hoặc $4$ ($2$ cách), hàng trăm $4$ cách, hàng chục $3$ cách: $2\cdot4\cdot3=24$.
+Biểu thức luôn bằng $-4$ với mọi $x$, nên giá trị của nó không phụ thuộc vào $x$.
 
-d) **Sai.** Phần bù của "có ít nhất hai chữ số giống nhau" là "ba chữ số khác nhau", nên số cần tìm là $125-60=65$.
-
-**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+**Đáp số.** Biểu thức luôn bằng $-4$.
 
 [ĐỀ – EN]
-Three-digit numbers are made from the digits $1, 2, 3, 4, 5$. Is each claim true or false?
-
-a) $125$ numbers can be made (digits may repeat).
-b) $60$ numbers with distinct digits can be made.
-c) $30$ even numbers with distinct digits can be made.
-d) $61$ numbers (digits may repeat) have at least two equal digits.
+Show that the value of the expression $(x+4)(x-1)-(x^2+3x)$ does not depend on the value of $x$.
 
 [LỜI GIẢI CŨ – EN]
-a) **True.** $5\cdot5\cdot5=125$.
+We have $(x+4)(x-1)=x^2-x+4x-4=x^2+3x-4$.
 
-b) **True.** $5\cdot4\cdot3=60$.
+Hence $(x+4)(x-1)-(x^2+3x)=x^2+3x-4-x^2-3x=-4$.
 
-c) **False.** Units digit $2$ or $4$ ($2$ ways), hundreds $4$ ways, tens $3$ ways: $2\cdot4\cdot3=24$.
+The expression always equals $-4$ for every $x$, so its value does not depend on $x$.
 
-d) **False.** The complement of "at least two equal digits" is "three distinct digits", so the number is $125-60=65$.
-
-**Answer.** a) True; b) True; c) False; d) False.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Số $720$ có bao nhiêu ước nguyên dương?
-
-[LỜI GIẢI CŨ – VI]
-$720=2^4\cdot3^2\cdot5$. Số mũ của $2$ có $5$ cách ($0$ đến $4$), của $3$ có $3$ cách, của $5$ có $2$ cách: $5\cdot3\cdot2=30$.
-
-**Đáp số.** $30$.
-
-[ĐỀ – EN]
-How many positive divisors does $720$ have?
-
-[LỜI GIẢI CŨ – EN]
-$720=2^4\cdot3^2\cdot5$. The exponent of $2$ has $5$ choices ($0$ to $4$), of $3$ has $3$ choices, of $5$ has $2$ choices: $5\cdot3\cdot2=30$.
-
-**Answer.** $30$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-(Ôn tập bài [Tập hợp và các phép toán trên tập hợp](lesson:sets-and-set-operations)) Có bao nhiêu số tự nhiên từ $1$ đến $100$ chia hết cho $2$ hoặc chia hết cho $3$?
-
-[LỜI GIẢI CŨ – VI]
-$n(A)=50$, $n(B)=33$ (vì $3\cdot33=99$), $n(A\cap B)=16$ (vì $6\cdot16=96$). Vậy $n(A\cup B)=50+33-16=67$.
-
-**Đáp số.** $67$.
-
-[ĐỀ – EN]
-(Review of [Sets and set operations](lesson:sets-and-set-operations)) How many natural numbers from $1$ to $100$ are divisible by $2$ or by $3$?
-
-[LỜI GIẢI CŨ – EN]
-$n(A)=50$, $n(B)=33$ (since $3\cdot33=99$), $n(A\cap B)=16$ (since $6\cdot16=96$). So $n(A\cup B)=50+33-16=67$.
-
-**Answer.** $67$.
+**Answer.** The expression always equals $-4$.
 
 === Bài 10 ===
 [ĐỀ – VI]
-Có bao nhiêu số có ba chữ số mà tổng các chữ số bằng $5$?
+Chứng minh rằng $(x+1)(x^2-x+1)=x^3+1$. Từ đó, bằng cách thay $x=10$, hãy tính nhanh tích $11\cdot91$.
 
 [LỜI GIẢI CŨ – VI]
-Nếu hai chữ số cuối có tổng $s$ thì chữ số hàng chục nhận $0, 1, \dots, s$, tức $s+1$ cách. Với $a=1, 2, 3, 4, 5$ ta có $s=4, 3, 2, 1, 0$, nên
-$$5+4+3+2+1=15.$$
+Ta có $(x+1)(x^2-x+1)=x^3-x^2+x+x^2-x+1$. Gộp các hạng tử đồng dạng: $x^3+(-x^2+x^2)+(x-x)+1=x^3+1$.
 
-**Đáp số.** $15$.
+Vậy $(x+1)(x^2-x+1)=x^3+1$.
+
+Thay $x=10$, ta có $x+1=11$ và $x^2-x+1=100-10+1=91$. Do đó $11\cdot91=10^3+1=1001$.
+
+Vậy $11\cdot91=1001$.
+
+**Đáp số.** $11\cdot91=1001$.
 
 [ĐỀ – EN]
-How many three-digit numbers have digit sum $5$?
+Prove that $(x+1)(x^2-x+1)=x^3+1$. Then, by putting $x=10$, find the product $11\cdot91$ quickly.
 
 [LỜI GIẢI CŨ – EN]
-If the last two digits have sum $s$, the tens digit can be $0, 1, \dots, s$, so there are $s+1$ ways. For $a=1, 2, 3, 4, 5$ we get $s=4, 3, 2, 1, 0$, so
-$$5+4+3+2+1=15.$$
+We have $(x+1)(x^2-x+1)=x^3-x^2+x+x^2-x+1$. Combining like terms: $x^3+(-x^2+x^2)+(x-x)+1=x^3+1$.
 
-**Answer.** $15$.
+So $(x+1)(x^2-x+1)=x^3+1$.
+
+Putting $x=10$, we have $x+1=11$ and $x^2-x+1=100-10+1=91$. Hence $11\cdot91=10^3+1=1001$.
+
+So $11\cdot91=1001$.
+
+**Answer.** $11\cdot91=1001$.
 
 
 ######################################################################
-@@@ g10/dispersion
-Bài học: Các số đặc trưng đo độ phân tán / Measures of dispersion
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+@@@ g7/g7-cuboids-and-cubes
+Bài học: Hình hộp chữ nhật và hình lập phương. Hình lăng trụ đứng tam giác và hình lăng trụ đứng tứ giác / Cuboids and cubes. Right triangular prisms and right quadrilateral prisms
+Cần viết lại lời giải các bài: 1, 2, 3, 6, 7 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Tìm $R$ và $\Delta_Q$ của mẫu số liệu $3, 5, 7, 9, 11$.
+Tính thể tích và diện tích toàn phần của hình hộp chữ nhật có chiều dài $9$ cm, chiều rộng $6$ cm, chiều cao $4$ cm.
 
 [LỜI GIẢI CŨ – VI]
-$R=11-3=8$. $Q_1=\dfrac{3+5}{2}=4$, $Q_3=\dfrac{9+11}{2}=10$.
+Ta có $V=9\cdot6\cdot4=216\ (\text{cm}^3)$ và $S_{tp}=2(54+24+36)=228\ (\text{cm}^2)$.
 
-**Đáp số.** $R=8$, $\Delta_Q=6$.
+Vậy $V=216\ \text{cm}^3$ và $S_{tp}=228\ \text{cm}^2$.
+
+**Đáp số.** $216\ \text{cm}^3$; $228\ \text{cm}^2$.
 
 [ĐỀ – EN]
-Find $R$ and $\Delta_Q$ for the data set $3, 5, 7, 9, 11$.
+Find the volume and total surface area of a cuboid with length $9$ cm, width $6$ cm and height $4$ cm.
 
 [LỜI GIẢI CŨ – EN]
-$R=11-3=8$. $Q_1=\dfrac{3+5}{2}=4$, $Q_3=\dfrac{9+11}{2}=10$.
+We have $V=9\cdot6\cdot4=216\ (\text{cm}^3)$ and $S_{tot}=2(54+24+36)=228\ (\text{cm}^2)$.
 
-**Answer.** $R=8$, $\Delta_Q=6$.
+So $V=216\ \text{cm}^3$ and $S_{tot}=228\ \text{cm}^2$.
+
+**Answer.** $216\ \text{cm}^3$; $228\ \text{cm}^2$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Tìm $s^2$ và $s$ của mẫu số liệu $2, 4, 4, 4, 5, 5, 7, 9$ bằng công thức định nghĩa.
+Tính thể tích và diện tích toàn phần của hình lập phương có cạnh $7$ cm.
 
 [LỜI GIẢI CŨ – VI]
-$\bar{x}=\dfrac{40}{8}=5$. Bình phương các độ lệch: $9, 1, 1, 1, 0, 0, 4, 16$, tổng $32$.
-$$s^2=\frac{32}{8}=4,\qquad s=2.$$
+Ta có $V=7^3=343\ (\text{cm}^3)$ và $S_{tp}=6\cdot49=294\ (\text{cm}^2)$.
 
-**Đáp số.** $s^2=4$, $s=2$.
+Vậy $V=343\ \text{cm}^3$ và $S_{tp}=294\ \text{cm}^2$.
+
+**Đáp số.** $343\ \text{cm}^3$; $294\ \text{cm}^2$.
 
 [ĐỀ – EN]
-Find $s^2$ and $s$ for the data set $2, 4, 4, 4, 5, 5, 7, 9$ using the definition.
+Find the volume and total surface area of a cube of edge $7$ cm.
 
 [LỜI GIẢI CŨ – EN]
-$\bar{x}=\dfrac{40}{8}=5$. The squared deviations are $9, 1, 1, 1, 0, 0, 4, 16$, with total $32$.
-$$s^2=\frac{32}{8}=4,\qquad s=2.$$
+We have $V=7^3=343\ (\text{cm}^3)$ and $S_{tot}=6\cdot49=294\ (\text{cm}^2)$.
 
-**Answer.** $s^2=4$, $s=2$.
+So $V=343\ \text{cm}^3$ and $S_{tot}=294\ \text{cm}^2$.
+
+**Answer.** $343\ \text{cm}^3$; $294\ \text{cm}^2$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-a) Dùng công thức $s^2=\dfrac{\sum x_i^2}{n}-\bar{x}^2$ để tìm $s^2$ và $s$ của $3, 5, 7, 9, 11$.
-
-b) Tìm phương sai của $6, 6, 6, 6$. Kết quả cho biết điều gì?
+Một hình hộp chữ nhật có thể tích $210\ \text{cm}^3$, đáy là hình chữ nhật dài $7$ cm, rộng $5$ cm. Tính chiều cao của hình hộp.
 
 [LỜI GIẢI CŨ – VI]
-a) $\bar{x}=7$, $\sum x_i^2=9+25+49+81+121=285$:
-$$s^2=\frac{285}{5}-49=57-49=8,\qquad s=\sqrt8\approx2{,}83.$$
+Diện tích đáy là $7\cdot5=35\ (\text{cm}^2)$. Chiều cao là $h=\dfrac{210}{35}=6$ (cm).
 
-b) $\bar{x}=6$, mọi độ lệch bằng $0$, nên $s^2=0$: số liệu hoàn toàn không phân tán.
+Vậy chiều cao là $6$ cm.
 
-**Đáp số.** a) $s^2=8$, $s\approx2{,}83$; b) $s^2=0$.
-
-[ĐỀ – EN]
-a) Use the formula $s^2=\dfrac{\sum x_i^2}{n}-\bar{x}^2$ to find $s^2$ and $s$ for $3, 5, 7, 9, 11$.
-
-b) Find the variance of $6, 6, 6, 6$. What does the result tell you?
-
-[LỜI GIẢI CŨ – EN]
-a) $\bar{x}=7$, $\sum x_i^2=9+25+49+81+121=285$:
-$$s^2=\frac{285}{5}-49=57-49=8,\qquad s=\sqrt8\approx2.83.$$
-
-b) $\bar{x}=6$ and every deviation is $0$, so $s^2=0$: the data have no spread at all.
-
-**Answer.** a) $s^2=8$, $s\approx2.83$; b) $s^2=0$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Cho mẫu số liệu $2, 3, 5, 6, 7, 8, 11$. Mỗi khẳng định sau đúng hay sai?
-
-a) Khoảng biến thiên bằng $9$.
-
-b) Khoảng tứ phân vị bằng $4$.
-
-c) Phương sai bằng $8$.
-
-d) Nếu cộng thêm $3$ vào mọi giá trị thì phương sai của mẫu mới bằng $11$.
-
-[LỜI GIẢI CŨ – VI]
-a) **Đúng:** $R=11-2=9$.
-
-b) **Sai:** $Q_1=3$ (nửa dưới $2, 3, 5$), $Q_3=8$ (nửa trên $7, 8, 11$), nên $\Delta_Q=5$.
-
-c) **Đúng:** $\bar{x}=\dfrac{42}{7}=6$; bình phương độ lệch $16, 9, 1, 0, 1, 4, 25$, tổng $56$; $s^2=\dfrac{56}{7}=8$.
-
-d) **Sai:** mọi giá trị và $\bar{x}$ cùng tăng $3$, nên độ lệch không đổi và phương sai vẫn bằng $8$.
-
-**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+**Đáp số.** $6$ cm.
 
 [ĐỀ – EN]
-Consider the data set $2, 3, 5, 6, 7, 8, 11$. Is each claim true or false?
-
-a) The range is $9$.
-
-b) The interquartile range is $4$.
-
-c) The variance is $8$.
-
-d) If $3$ is added to every value, the variance of the new data set is $11$.
+A cuboid has volume $210\ \text{cm}^3$ and a rectangular base $7$ cm long and $5$ cm wide. Find the height of the cuboid.
 
 [LỜI GIẢI CŨ – EN]
-a) **True:** $R=11-2=9$.
+The base area is $7\cdot5=35\ (\text{cm}^2)$. The height is $h=\dfrac{210}{35}=6$ (cm).
 
-b) **False:** $Q_1=3$ (lower half $2, 3, 5$), $Q_3=8$ (upper half $7, 8, 11$), so $\Delta_Q=5$.
+So the height is $6$ cm.
 
-c) **True:** $\bar{x}=\dfrac{42}{7}=6$; the squared deviations $16, 9, 1, 0, 1, 4, 25$ add up to $56$; $s^2=\dfrac{56}{7}=8$.
-
-d) **False:** every value and $\bar{x}$ go up by $3$, so the deviations do not change and the variance is still $8$.
-
-**Answer.** a) True; b) False; c) True; d) False.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Hai xạ thủ mỗi người bắn $5$ phát. Điểm của Minh: $8, 9, 10, 9, 9$. Điểm của Quân: $10, 7, 10, 8, 10$. Tính điểm trung bình và độ lệch chuẩn của mỗi người. Nên chọn ai đi thi nếu đội cần người bắn ổn định?
-
-[LỜI GIẢI CŨ – VI]
-Cả hai đều có $\bar{x}=\dfrac{45}{5}=9$.
-$$\text{Minh: } s^2=\frac{1+0+1+0+0}{5}=0{,}4,\ s\approx0{,}63;\qquad \text{Quân: } s^2=\frac{1+4+1+1+1}{5}=1{,}6,\ s\approx1{,}26.$$
-
-**Đáp số.** Cả hai trung bình $9$ điểm; $s\approx0{,}63$ (Minh) và $s\approx1{,}26$ (Quân). Nên chọn Minh.
-
-[ĐỀ – EN]
-Two shooters each fire $5$ shots. Minh scores $8, 9, 10, 9, 9$. Quan scores $10, 7, 10, 8, 10$. Find the mean and the standard deviation for each. Whom should the team send if it needs a steady shooter?
-
-[LỜI GIẢI CŨ – EN]
-Both have $\bar{x}=\dfrac{45}{5}=9$.
-$$\text{Minh: } s^2=\frac{1+0+1+0+0}{5}=0.4,\ s\approx0.63;\qquad \text{Quan: } s^2=\frac{1+4+1+1+1}{5}=1.6,\ s\approx1.26.$$
-
-**Answer.** Both have mean $9$; $s\approx0.63$ (Minh) and $s\approx1.26$ (Quan). The team should send Minh.
+**Answer.** $6$ cm.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Giá trị $40$ có phải là giá trị ngoại lệ của mẫu $1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 40$ không?
+Một hình lăng trụ đứng có đáy là tam giác vuông với hai cạnh góc vuông $6$ cm, $8$ cm và cạnh huyền $10$ cm, chiều cao $9$ cm. Tính thể tích và diện tích toàn phần.
 
 [LỜI GIẢI CŨ – VI]
-Nửa dưới $1, \dots, 5$ cho $Q_1=3$; nửa trên $7, 8, 9, 10, 40$ cho $Q_3=9$. Khi đó $\Delta_Q=6$ và
-$$Q_3+1{,}5\,\Delta_Q=9+9=18<40.$$
+Diện tích đáy là $\dfrac12\cdot6\cdot8=24\ (\text{cm}^2)$, chu vi đáy là $6+8+10=24$ (cm). Ta có $V=24\cdot9=216\ (\text{cm}^3)$ và $S_{tp}=24\cdot9+2\cdot24=264\ (\text{cm}^2)$.
 
-**Đáp số.** Có, $40$ là giá trị ngoại lệ.
+Vậy $V=216\ \text{cm}^3$ và $S_{tp}=264\ \text{cm}^2$.
+
+**Đáp số.** $216\ \text{cm}^3$; $264\ \text{cm}^2$.
 
 [ĐỀ – EN]
-Is $40$ an outlier of the data set $1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 40$?
+A right prism has a right-angled triangle as base, with legs $6$ cm and $8$ cm and hypotenuse $10$ cm, and its height is $9$ cm. Find its volume and total surface area.
 
 [LỜI GIẢI CŨ – EN]
-The lower half $1, \dots, 5$ gives $Q_1=3$; the upper half $7, 8, 9, 10, 40$ gives $Q_3=9$. Then $\Delta_Q=6$ and
-$$Q_3+1.5\,\Delta_Q=9+9=18<40.$$
+The base area is $\dfrac12\cdot6\cdot8=24\ (\text{cm}^2)$ and the base perimeter is $6+8+10=24$ (cm). We have $V=24\cdot9=216\ (\text{cm}^3)$ and $S_{tot}=24\cdot9+2\cdot24=264\ (\text{cm}^2)$.
 
-**Answer.** Yes, $40$ is an outlier.
+So $V=216\ \text{cm}^3$ and $S_{tot}=264\ \text{cm}^2$.
+
+**Answer.** $216\ \text{cm}^3$; $264\ \text{cm}^2$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Cho mẫu số liệu $3, 5, 7, 9, 11$ (có $\bar{x}=7$, $s^2=8$).
-
-a) Cộng $5$ vào mọi giá trị. Số trung bình và độ lệch chuẩn thay đổi thế nào?
-
-b) Nhân mọi giá trị với $2$. Tìm phương sai và độ lệch chuẩn mới.
+Một hình lăng trụ đứng tứ giác có đáy là hình bình hành với hai cạnh $8$ cm và $6$ cm, đường cao ứng với cạnh $8$ cm là $5$ cm. Lăng trụ cao $10$ cm. Tính thể tích và diện tích xung quanh.
 
 [LỜI GIẢI CŨ – VI]
-a) Mẫu $8, 10, 12, 14, 16$ có $\bar{x}=12$; các độ lệch vẫn là $-4, -2, 0, 2, 4$, nên $s=\sqrt8$ không đổi.
+Diện tích đáy là $8\cdot5=40\ (\text{cm}^2)$, chu vi đáy là $2(8+6)=28$ (cm). Ta có $V=40\cdot10=400\ (\text{cm}^3)$ và $S_{xq}=28\cdot10=280\ (\text{cm}^2)$.
 
-b) Mẫu $6, 10, 14, 18, 22$ có $\bar{x}=14$; các độ lệch $-8, -4, 0, 4, 8$ gấp đôi:
-$$s^2=\frac{64+16+0+16+64}{5}=32,\qquad s=\sqrt{32}\approx5{,}66.$$
+Vậy $V=400\ \text{cm}^3$ và $S_{xq}=280\ \text{cm}^2$.
 
-**Đáp số.** a) $\bar{x}$ tăng $5$ (thành $12$), $s\approx2{,}83$ không đổi; b) $s^2=32$ (gấp $4$), $s\approx5{,}66$ (gấp $2$).
-
-[ĐỀ – EN]
-Consider the data set $3, 5, 7, 9, 11$ (with $\bar{x}=7$, $s^2=8$).
-
-a) Add $5$ to every value. How do the mean and the standard deviation change?
-
-b) Multiply every value by $2$. Find the new variance and standard deviation.
-
-[LỜI GIẢI CŨ – EN]
-a) The data $8, 10, 12, 14, 16$ have $\bar{x}=12$; the deviations are still $-4, -2, 0, 2, 4$, so $s=\sqrt8$ does not change.
-
-b) The data $6, 10, 14, 18, 22$ have $\bar{x}=14$; the deviations $-8, -4, 0, 4, 8$ are doubled:
-$$s^2=\frac{64+16+0+16+64}{5}=32,\qquad s=\sqrt{32}\approx5.66.$$
-
-**Answer.** a) $\bar{x}$ goes up by $5$ (to $12$), $s\approx2.83$ is unchanged; b) $s^2=32$ ($4$ times as large), $s\approx5.66$ (twice as large).
-
-=== Bài 8 ===
-[ĐỀ – VI]
-(Ôn lại [Các số đặc trưng đo xu thế trung tâm](lesson:central-tendency).) Số lần đến thư viện trong một tháng của $25$ học sinh được cho trong bảng. Tính độ lệch chuẩn (làm tròn đến hàng phần trăm).
-
-| Số lần | 0 | 1 | 2 | 3 | 4 |
-|---|---|---|---|---|---|
-| Số học sinh | 4 | 6 | 8 | 5 | 2 |
-
-[LỜI GIẢI CŨ – VI]
-$$\bar{x}=\frac{0+6+16+15+8}{25}=\frac{45}{25}=1{,}8,\qquad \frac{0+6+32+45+32}{25}=\frac{115}{25}=4{,}6,$$
-$$s^2=4{,}6-1{,}8^2=4{,}6-3{,}24=1{,}36,\qquad s\approx1{,}166.$$
-
-**Đáp số.** $1{,}17$.
+**Đáp số.** $400\ \text{cm}^3$; $280\ \text{cm}^2$.
 
 [ĐỀ – EN]
-(Revisiting [Measures of central tendency](lesson:central-tendency).) The table gives the number of library visits in one month of $25$ students. Find the standard deviation (rounded to two decimal places).
-
-| Visits | 0 | 1 | 2 | 3 | 4 |
-|---|---|---|---|---|---|
-| Students | 4 | 6 | 8 | 5 | 2 |
+A right quadrilateral prism has a parallelogram as base, with sides $8$ cm and $6$ cm, and the height of the parallelogram on the $8$ cm side is $5$ cm. The prism is $10$ cm high. Find its volume and lateral surface area.
 
 [LỜI GIẢI CŨ – EN]
-$$\bar{x}=\frac{0+6+16+15+8}{25}=\frac{45}{25}=1.8,\qquad \frac{0+6+32+45+32}{25}=\frac{115}{25}=4.6,$$
-$$s^2=4.6-1.8^2=4.6-3.24=1.36,\qquad s\approx1.166.$$
+The base area is $8\cdot5=40\ (\text{cm}^2)$ and the base perimeter is $2(8+6)=28$ (cm). We have $V=40\cdot10=400\ (\text{cm}^3)$ and $S_{lat}=28\cdot10=280\ (\text{cm}^2)$.
 
-**Answer.** $1.17$.
+So $V=400\ \text{cm}^3$ and $S_{lat}=280\ \text{cm}^2$.
 
-=== Bài 9 ===
-[ĐỀ – VI]
-Mẫu số liệu $4, 6, 8, 10, x$ có số trung bình cộng bằng $8$. Tìm $x$ và phương sai của mẫu.
-
-[LỜI GIẢI CŨ – VI]
-$4+6+8+10+x=40$, nên $x=12$. Các độ lệch là $-4, -2, 0, 2, 4$:
-$$s^2=\frac{16+4+0+4+16}{5}=8.$$
-
-**Đáp số.** $x=12$, $s^2=8$.
-
-[ĐỀ – EN]
-The data set $4, 6, 8, 10, x$ has mean $8$. Find $x$ and the variance of the data set.
-
-[LỜI GIẢI CŨ – EN]
-$4+6+8+10+x=40$, so $x=12$. The deviations are $-4, -2, 0, 2, 4$:
-$$s^2=\frac{16+4+0+4+16}{5}=8.$$
-
-**Answer.** $x=12$, $s^2=8$.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Một mẫu gồm bốn số có tổng bằng $20$ và tổng các bình phương bằng $120$. Tính phương sai của mẫu.
-
-[LỜI GIẢI CŨ – VI]
-$$\bar{x}=\frac{20}{4}=5,\qquad s^2=\frac{120}{4}-5^2=30-25=5.$$
-
-**Đáp số.** $s^2=5$.
-
-[ĐỀ – EN]
-A data set of four numbers has total $20$ and sum of squares $120$. Find the variance of the data set.
-
-[LỜI GIẢI CŨ – EN]
-$$\bar{x}=\frac{20}{4}=5,\qquad s^2=\frac{120}{4}-5^2=30-25=5.$$
-
-**Answer.** $s^2=5$.
+**Answer.** $400\ \text{cm}^3$; $280\ \text{cm}^2$.
 
 
 ######################################################################
-@@@ g10/dot-product
-Bài học: Tích vô hướng của hai vectơ / The scalar product of two vectors
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+@@@ g7/identifying-parallel-lines
+Bài học: Hai đường thẳng song song và dấu hiệu nhận biết. Tiên đề Euclid. Tính chất của hai đường thẳng song song / Parallel lines and how to identify them. Euclid's axiom. Properties of parallel lines
+Cần viết lại lời giải các bài: 1, 2, 4, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Tìm $\vec{a}\cdot\vec{b}$ trong hai trường hợp: (a) $|\vec{a}|=5$, $|\vec{b}|=2$, $(\vec{a}, \vec{b})=60^\circ$; (b) $|\vec{a}|=4$, $|\vec{b}|=3$, $(\vec{a}, \vec{b})=150^\circ$.
+Đường thẳng $c$ cắt $a$ tại $A$, cắt $b$ tại $B$ (cách đánh số như hình lí thuyết). Điền vào chỗ trống:
+
+a) $\widehat{A}_3$ và $\widehat{B}_5$ là hai góc ...
+
+b) $\widehat{A}_2$ và $\widehat{B}_6$ là hai góc ...
+
+c) $\widehat{A}_4$ và $\widehat{B}_5$ là hai góc ...
 
 [LỜI GIẢI CŨ – VI]
-(a) $5\cdot 2\cdot\cos 60^\circ=10\cdot\dfrac12=5$.
-(b) $4\cdot 3\cdot\cos 150^\circ=12\cdot\left(-\dfrac{\sqrt3}{2}\right)=-6\sqrt3$.
+a) $\widehat{A}_3$ và $\widehat{B}_5$ cùng nằm giữa $a$, $b$ và khác phía đối với $c$, nên là hai góc so le trong.
 
-**Đáp số.** (a) $5$; (b) $-6\sqrt3$.
+b) $\widehat{A}_2$ nằm ngoài, $\widehat{B}_6$ nằm giữa $a$, $b$, cùng phía bên phải $c$, nên là hai góc đồng vị.
+
+c) $\widehat{A}_4$ và $\widehat{B}_5$ cùng nằm giữa $a$, $b$ và cùng phía bên trái $c$, nên là hai góc trong cùng phía.
+
+**Đáp số.** a) so le trong; b) đồng vị; c) trong cùng phía.
 
 [ĐỀ – EN]
-Find $\vec{a}\cdot\vec{b}$ in two cases: (a) $|\vec{a}|=5$, $|\vec{b}|=2$, $(\vec{a}, \vec{b})=60^\circ$; (b) $|\vec{a}|=4$, $|\vec{b}|=3$, $(\vec{a}, \vec{b})=150^\circ$.
+The line $c$ crosses $a$ at $A$ and $b$ at $B$ (numbered as in the figure in the lesson). Fill in the blanks:
+
+a) $\angle A_3$ and $\angle B_5$ are ... angles.
+
+b) $\angle A_2$ and $\angle B_6$ are ... angles.
+
+c) $\angle A_4$ and $\angle B_5$ are ... angles.
 
 [LỜI GIẢI CŨ – EN]
-(a) $5\cdot 2\cdot\cos 60^\circ=10\cdot\dfrac12=5$.
-(b) $4\cdot 3\cdot\cos 150^\circ=12\cdot\left(-\dfrac{\sqrt3}{2}\right)=-6\sqrt3$.
+a) $\angle A_3$ and $\angle B_5$ both lie between $a$ and $b$ on opposite sides of $c$, so they are alternate angles.
 
-**Answer.** (a) $5$; (b) $-6\sqrt3$.
+b) $\angle A_2$ is outside, $\angle B_6$ is between $a$ and $b$, and both are to the right of $c$, so they are corresponding angles.
+
+c) $\angle A_4$ and $\angle B_5$ both lie between $a$ and $b$ and both to the left of $c$, so they are co-interior angles.
+
+**Answer.** a) alternate; b) corresponding; c) co-interior.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Tính $\vec{a}\cdot\vec{b}$ với $\vec{a}=(1; -3)$, $\vec{b}=(2; 5)$. Hai vectơ $\vec{u}=(2; 1)$ và $\vec{v}=(-1; 2)$ có vuông góc không?
+Đường thẳng $c$ cắt $a$, $b$ tại $A$, $B$ và $\widehat{A}_2=\widehat{B}_6=118^\circ$. Chứng tỏ $a\parallel b$.
 
 [LỜI GIẢI CŨ – VI]
-$\vec{a}\cdot\vec{b}=1\cdot 2+(-3)\cdot 5=2-15=-13$. $\vec{u}\cdot\vec{v}=2\cdot(-1)+1\cdot2=0$, nên $\vec{u}\perp\vec{v}$.
+Hai góc $\widehat{A}_2$ và $\widehat{B}_6$ là hai góc đồng vị và $\widehat{A}_2=\widehat{B}_6=118^\circ$ (giả thiết).
 
-**Đáp số.** $\vec{a}\cdot\vec{b}=-13$; $\vec{u}\perp\vec{v}$.
+Vì có một cặp góc đồng vị bằng nhau nên theo dấu hiệu nhận biết hai đường thẳng song song, $a\parallel b$.
 
-[ĐỀ – EN]
-Compute $\vec{a}\cdot\vec{b}$ for $\vec{a}=(1, -3)$, $\vec{b}=(2, 5)$. Are the vectors $\vec{u}=(2, 1)$ and $\vec{v}=(-1, 2)$ perpendicular?
-
-[LỜI GIẢI CŨ – EN]
-$\vec{a}\cdot\vec{b}=1\cdot 2+(-3)\cdot 5=2-15=-13$. $\vec{u}\cdot\vec{v}=2\cdot(-1)+1\cdot2=0$, so $\vec{u}\perp\vec{v}$.
-
-**Answer.** $\vec{a}\cdot\vec{b}=-13$; $\vec{u}\perp\vec{v}$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Tìm góc giữa hai vectơ $\vec{a}=(1; 2)$ và $\vec{b}=(3; 1)$.
-
-[LỜI GIẢI CŨ – VI]
-$\vec{a}\cdot\vec{b}=3+2=5$, $|\vec{a}|=\sqrt5$, $|\vec{b}|=\sqrt{10}$, nên $\cos(\vec{a}, \vec{b})=\dfrac{5}{\sqrt{50}}=\dfrac{1}{\sqrt2}$.
-
-**Đáp số.** $(\vec{a}, \vec{b})=45^\circ$.
+**Đáp số.** $a\parallel b$.
 
 [ĐỀ – EN]
-Find the angle between the vectors $\vec{a}=(1, 2)$ and $\vec{b}=(3, 1)$.
+The line $c$ crosses $a$, $b$ at $A$, $B$ and $\angle A_2=\angle B_6=118^\circ$. Show that $a\parallel b$.
 
 [LỜI GIẢI CŨ – EN]
-$\vec{a}\cdot\vec{b}=3+2=5$, $|\vec{a}|=\sqrt5$, $|\vec{b}|=\sqrt{10}$, so $\cos(\vec{a}, \vec{b})=\dfrac{5}{\sqrt{50}}=\dfrac{1}{\sqrt2}$.
+The angles $\angle A_2$ and $\angle B_6$ are corresponding angles and $\angle A_2=\angle B_6=118^\circ$ (given).
 
-**Answer.** $(\vec{a}, \vec{b})=45^\circ$.
+Since one pair of corresponding angles is equal, by the test for parallel lines, $a\parallel b$.
+
+**Answer.** $a\parallel b$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tìm $\widehat{A}$ của tam giác có $A(-1; 0)$, $B(2; 0)$, $C(2; 3)$.
+Cho $a\parallel b$ và đường thẳng $c$ cắt $a$, $b$. Tìm $x$ trong mỗi trường hợp:
+
+a) Hai góc so le trong là $(3x+10)^\circ$ và $(x+50)^\circ$.
+
+b) Hai góc trong cùng phía là $(2x+20)^\circ$ và $(x+10)^\circ$.
 
 [LỜI GIẢI CŨ – VI]
-$\overrightarrow{AB}=(3; 0)$, $\overrightarrow{AC}=(3; 3)$, tích vô hướng bằng $9$, độ dài là $3$ và $3\sqrt2$. Do đó $\cos A=\dfrac{9}{9\sqrt2}=\dfrac{1}{\sqrt2}$.
+a) Vì $a\parallel b$ nên $3x+10=x+50$, suy ra $2x=40$, $x=20$. Mỗi góc bằng $70^\circ$.
 
-**Đáp số.** $\widehat{A}=45^\circ$.
+b) Vì $a\parallel b$ nên $(2x+20)+(x+10)=180$, suy ra $3x=150$, $x=50$. Hai góc là $120^\circ$ và $60^\circ$.
 
-[ĐỀ – EN]
-Find $\angle A$ of the triangle with $A(-1, 0)$, $B(2, 0)$, $C(2, 3)$.
-
-[LỜI GIẢI CŨ – EN]
-$\overrightarrow{AB}=(3, 0)$, $\overrightarrow{AC}=(3, 3)$, scalar product $9$, lengths $3$ and $3\sqrt2$. So $\cos A=\dfrac{9}{9\sqrt2}=\dfrac{1}{\sqrt2}$.
-
-**Answer.** $\angle A=45^\circ$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Cho $|\vec{a}|=2$, $|\vec{b}|=3$ và $\vec{a}\cdot\vec{b}=-3$. Tìm $|\vec{a}+\vec{b}|$ và $|\vec{a}-\vec{b}|$.
-
-[LỜI GIẢI CŨ – VI]
-$|\vec{a}+\vec{b}|^2=4+2\cdot(-3)+9=7$ và $|\vec{a}-\vec{b}|^2=4-2\cdot(-3)+9=19$.
-
-**Đáp số.** $|\vec{a}+\vec{b}|=\sqrt7$; $|\vec{a}-\vec{b}|=\sqrt{19}$.
+**Đáp số.** a) $x=20$; b) $x=50$.
 
 [ĐỀ – EN]
-Let $|\vec{a}|=2$, $|\vec{b}|=3$ and $\vec{a}\cdot\vec{b}=-3$. Find $|\vec{a}+\vec{b}|$ and $|\vec{a}-\vec{b}|$.
+$a\parallel b$ and a line $c$ crosses $a$, $b$. Find $x$ in each case:
+
+a) The alternate angles are $(3x+10)^\circ$ and $(x+50)^\circ$.
+
+b) The co-interior angles are $(2x+20)^\circ$ and $(x+10)^\circ$.
 
 [LỜI GIẢI CŨ – EN]
-$|\vec{a}+\vec{b}|^2=4+2\cdot(-3)+9=7$ and $|\vec{a}-\vec{b}|^2=4-2\cdot(-3)+9=19$.
+a) Since $a\parallel b$, $3x+10=x+50$, so $2x=40$ and $x=20$. Each angle is $70^\circ$.
 
-**Answer.** $|\vec{a}+\vec{b}|=\sqrt7$; $|\vec{a}-\vec{b}|=\sqrt{19}$.
+b) Since $a\parallel b$, $(2x+20)+(x+10)=180$, so $3x=150$ and $x=50$. The angles are $120^\circ$ and $60^\circ$.
 
-=== Bài 6 ===
-[ĐỀ – VI]
-Một người đẩy xe nôi bằng lực $20$ N theo tay đẩy hợp với phương chuyển động góc $30^\circ$. Xe đi thẳng được $3$ m. Tính công của lực đẩy theo đơn vị jun, làm tròn đến hàng đơn vị.
-
-[LỜI GIẢI CŨ – VI]
-$$A=20\cdot 3\cdot\cos 30^\circ=60\cdot\frac{\sqrt3}{2}=30\sqrt3\approx 51{,}96\ \text{(J)}.$$
-
-**Đáp số.** $52$.
-
-[ĐỀ – EN]
-A parent pushes a pram with a force of $20$ N along the handle, which makes an angle of $30^\circ$ with the direction of motion. The pram moves $3$ m in a straight line. Find the work done by the push in joules, rounded to the nearest whole number.
-
-[LỜI GIẢI CŨ – EN]
-$$W=20\cdot 3\cdot\cos 30^\circ=60\cdot\frac{\sqrt3}{2}=30\sqrt3\approx 51.96\ \text{(J)}.$$
-
-**Answer.** $52$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Cho $\vec{a}=(3; 4)$, $\vec{b}=(4; -3)$ và $\vec{c}=(6; 8)$. Mỗi khẳng định sau đúng hay sai?
-
-a) $\vec{a}\perp\vec{b}$.
-b) $|\vec{b}|=5$.
-c) $(\vec{a}, \vec{c})=180^\circ$.
-d) $\vec{a}\cdot(\vec{b}+\vec{c})=25$.
-
-[LỜI GIẢI CŨ – VI]
-a) **Đúng.** $\vec{a}\cdot\vec{b}=12-12=0$.
-
-b) **Đúng.** $|\vec{b}|=\sqrt{16+9}=5$.
-
-c) **Sai.** $\vec{c}=2\vec{a}$ cùng hướng với $\vec{a}$, nên $(\vec{a}, \vec{c})=0^\circ$.
-
-d) **Sai.** $\vec{a}\cdot(\vec{b}+\vec{c})=\vec{a}\cdot\vec{b}+\vec{a}\cdot\vec{c}=0+(18+32)=50$.
-
-**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
-
-[ĐỀ – EN]
-Let $\vec{a}=(3, 4)$, $\vec{b}=(4, -3)$ and $\vec{c}=(6, 8)$. Is each claim true or false?
-
-a) $\vec{a}\perp\vec{b}$.
-b) $|\vec{b}|=5$.
-c) $(\vec{a}, \vec{c})=180^\circ$.
-d) $\vec{a}\cdot(\vec{b}+\vec{c})=25$.
-
-[LỜI GIẢI CŨ – EN]
-a) **True.** $\vec{a}\cdot\vec{b}=12-12=0$.
-
-b) **True.** $|\vec{b}|=\sqrt{16+9}=5$.
-
-c) **False.** $\vec{c}=2\vec{a}$ has the direction of $\vec{a}$, so $(\vec{a}, \vec{c})=0^\circ$.
-
-d) **False.** $\vec{a}\cdot(\vec{b}+\vec{c})=\vec{a}\cdot\vec{b}+\vec{a}\cdot\vec{c}=0+(18+32)=50$.
-
-**Answer.** a) True; b) True; c) False; d) False.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-(Ôn lại định lí côsin.) Tam giác $ABC$ có $AB=5$, $AC=8$, $\widehat{BAC}=60^\circ$. Tính $\overrightarrow{AB}\cdot\overrightarrow{AC}$, rồi dùng $\overrightarrow{BC}=\overrightarrow{AC}-\overrightarrow{AB}$ để tính $BC$.
-
-[LỜI GIẢI CŨ – VI]
-$\overrightarrow{AB}\cdot\overrightarrow{AC}=5\cdot8\cdot\dfrac12=20$. Khi đó
-$$BC^2=AC^2-2\,\overrightarrow{AB}\cdot\overrightarrow{AC}+AB^2=64-40+25=49.$$
-Đây chính là định lí côsin $BC^2=AB^2+AC^2-2\,AB\cdot AC\cos A$.
-
-**Đáp số.** $\overrightarrow{AB}\cdot\overrightarrow{AC}=20$; $BC=7$.
-
-[ĐỀ – EN]
-(Revisiting the cosine rule.) Triangle $ABC$ has $AB=5$, $AC=8$, $\angle BAC=60^\circ$. Find $\overrightarrow{AB}\cdot\overrightarrow{AC}$, then use $\overrightarrow{BC}=\overrightarrow{AC}-\overrightarrow{AB}$ to find $BC$.
-
-[LỜI GIẢI CŨ – EN]
-$\overrightarrow{AB}\cdot\overrightarrow{AC}=5\cdot8\cdot\dfrac12=20$. Then
-$$BC^2=AC^2-2\,\overrightarrow{AB}\cdot\overrightarrow{AC}+AB^2=64-40+25=49.$$
-This is exactly the cosine rule $BC^2=AB^2+AC^2-2\,AB\cdot AC\cos A$.
-
-**Answer.** $\overrightarrow{AB}\cdot\overrightarrow{AC}=20$; $BC=7$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Tìm vectơ $\vec{b}$ vuông góc với $\vec{a}=(3; 4)$ và có $|\vec{b}|=10$.
-
-[LỜI GIẢI CŨ – VI]
-$\vec{b}=(4t; -3t)$ thoả mãn $3\cdot4t+4\cdot(-3t)=0$. $|\vec{b}|=5|t|=10$ cho $t=\pm2$.
-
-**Đáp số.** $\vec{b}=(8; -6)$ hoặc $\vec{b}=(-8; 6)$.
-
-[ĐỀ – EN]
-Find a vector $\vec{b}$ perpendicular to $\vec{a}=(3, 4)$ with $|\vec{b}|=10$.
-
-[LỜI GIẢI CŨ – EN]
-$\vec{b}=(4t, -3t)$ satisfies $3\cdot4t+4\cdot(-3t)=0$. $|\vec{b}|=5|t|=10$ gives $t=\pm2$.
-
-**Answer.** $\vec{b}=(8, -6)$ or $\vec{b}=(-8, 6)$.
+**Answer.** a) $x=20$; b) $x=50$.
 
 === Bài 10 ===
 [ĐỀ – VI]
-Chứng minh rằng nếu $|\vec{a}|=|\vec{b}|$ thì $(\vec{a}+\vec{b})\perp(\vec{a}-\vec{b})$. Kiểm tra với $\vec{a}=(3; 4)$ và $\vec{b}=(5; 0)$, rồi giải thích kết quả bằng hình thoi.
+Cho $a\parallel b$, $c$ cắt $a$ tại $A$, cắt $b$ tại $B$. Tia $Am$ là phân giác của $\widehat{A}_3$, tia $Bn$ là phân giác của $\widehat{B}_5$ ($Am$ và $Bn$ nằm về hai phía của $c$). Chứng minh $Am\parallel Bn$.
 
 [LỜI GIẢI CŨ – VI]
-$$(\vec{a}+\vec{b})\cdot(\vec{a}-\vec{b})=|\vec{a}|^2-\vec{a}\cdot\vec{b}+\vec{b}\cdot\vec{a}-|\vec{b}|^2=|\vec{a}|^2-|\vec{b}|^2=0.$$
-**Kiểm tra.** $|\vec{a}|=|\vec{b}|=5$, $\vec{a}+\vec{b}=(8; 4)$, $\vec{a}-\vec{b}=(-2; 4)$ và $-16+16=0$. Hình bình hành dựng trên $\vec{a}$, $\vec{b}$ có hai cạnh kề bằng nhau là hình thoi, và $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$ là hai đường chéo của nó.
+Vì $a\parallel b$ nên $\widehat{A}_3=\widehat{B}_5$ (so le trong).
 
-**Đáp số.** Đã chứng minh: hai đường chéo của hình thoi vuông góc với nhau.
+Vì $Am$ là phân giác của $\widehat{A}_3$ nên $\widehat{mAB}=\dfrac12\widehat{A}_3$. Vì $Bn$ là phân giác của $\widehat{B}_5$ nên $\widehat{ABn}=\dfrac12\widehat{B}_5$. Mà $\widehat{A}_3=\widehat{B}_5$ nên $\widehat{mAB}=\widehat{ABn}$.
+
+Hai góc $\widehat{mAB}$ và $\widehat{ABn}$ nằm ở vị trí so le trong đối với hai đường thẳng $Am$, $Bn$ và đường thẳng cắt $AB$. Theo dấu hiệu nhận biết, $Am\parallel Bn$.
+
+**Đáp số.** Đã chứng minh.
 
 [ĐỀ – EN]
-Prove that if $|\vec{a}|=|\vec{b}|$ then $(\vec{a}+\vec{b})\perp(\vec{a}-\vec{b})$. Check it for $\vec{a}=(3, 4)$ and $\vec{b}=(5, 0)$, and explain the result with a rhombus.
+$a\parallel b$, and $c$ crosses $a$ at $A$ and $b$ at $B$. The ray $Am$ bisects $\angle A_3$ and the ray $Bn$ bisects $\angle B_5$ ($Am$ and $Bn$ lie on opposite sides of $c$). Prove that $Am\parallel Bn$.
 
 [LỜI GIẢI CŨ – EN]
-$$(\vec{a}+\vec{b})\cdot(\vec{a}-\vec{b})=|\vec{a}|^2-\vec{a}\cdot\vec{b}+\vec{b}\cdot\vec{a}-|\vec{b}|^2=|\vec{a}|^2-|\vec{b}|^2=0.$$
-**Check.** $|\vec{a}|=|\vec{b}|=5$, $\vec{a}+\vec{b}=(8, 4)$, $\vec{a}-\vec{b}=(-2, 4)$ and $-16+16=0$. The parallelogram on $\vec{a}$, $\vec{b}$ has two equal adjacent sides, so it is a rhombus, and $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$ are its diagonals.
+Since $a\parallel b$, $\angle A_3=\angle B_5$ (alternate angles).
 
-**Answer.** Proved: the diagonals of a rhombus are perpendicular.
+Since $Am$ bisects $\angle A_3$, $\angle mAB=\dfrac12\angle A_3$. Since $Bn$ bisects $\angle B_5$, $\angle ABn=\dfrac12\angle B_5$. As $\angle A_3=\angle B_5$, we get $\angle mAB=\angle ABn$.
+
+The angles $\angle mAB$ and $\angle ABn$ are alternate angles for the two lines $Am$, $Bn$ and the transversal $AB$. By the test for parallel lines, $Am\parallel Bn$.
+
+**Answer.** Proved.
+
+
+######################################################################
+@@@ g7/intro-to-events
+Bài học: Làm quen với biến cố / Introducing events
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Mỗi biến cố sau là chắc chắn, không thể hay ngẫu nhiên?
+
+a) Rút một thẻ từ hộp chỉ có thẻ xanh: thẻ rút được màu xanh.
+
+b) Tung một đồng xu: xuất hiện mặt sấp.
+
+c) Gieo một con xúc xắc: số chấm bằng $0$.
+
+d) Một túi có $5$ bi đỏ và $3$ bi xanh, lấy một bi: được bi vàng.
+
+e) Cũng túi đó, lấy một bi: được bi đỏ hoặc bi xanh.
+
+[LỜI GIẢI CŨ – VI]
+Ta xét từng biến cố xem nó xảy ra với mọi kết quả, không kết quả nào hay một số kết quả.
+
+a) Hộp chỉ có thẻ xanh nên thẻ rút ra luôn xanh: chắc chắn.
+
+b) Đồng xu có thể ra sấp hoặc ngửa: ngẫu nhiên.
+
+c) Xúc xắc không có mặt $0$ chấm: không thể.
+
+d) Túi không có bi vàng: không thể.
+
+e) Túi chỉ có bi đỏ và bi xanh nên bi lấy ra luôn thuộc hai màu đó: chắc chắn.
+
+**Đáp số.** a) chắc chắn; b) ngẫu nhiên; c) không thể; d) không thể; e) chắc chắn.
+
+[ĐỀ – EN]
+Is each of the following events certain, impossible or random?
+
+a) A card is drawn from a box that holds only blue cards: the card is blue.
+
+b) A coin is tossed: it shows heads.
+
+c) A fair dice is rolled: the number of dots is $0$.
+
+d) A bag has $5$ red balls and $3$ blue balls, and one ball is taken: it is yellow.
+
+e) From the same bag, one ball is taken: it is red or blue.
+
+[LỜI GIẢI CŨ – EN]
+We check each event: does it happen for every outcome, for none, or for some?
+
+a) The box has only blue cards, so the card drawn is always blue: certain.
+
+b) The coin may show heads or tails: random.
+
+c) A dice has no face with $0$ dots: impossible.
+
+d) The bag has no yellow ball: impossible.
+
+e) The bag has only red and blue balls, so the ball taken is always one of those colours: certain.
+
+**Answer.** a) certain; b) random; c) impossible; d) impossible; e) certain.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Gieo một con xúc xắc cân đối. Liệt kê các kết quả thuận lợi và tính xác suất của các biến cố:
+
+a) $A$: "số chấm là số nguyên tố".
+
+b) $B$: "số chấm lớn hơn $2$ và nhỏ hơn $6$".
+
+c) $C$: "số chấm chia hết cho $7$".
+
+[LỜI GIẢI CŨ – VI]
+Có $6$ kết quả đồng khả năng: $1$, $2$, $3$, $4$, $5$, $6$.
+
+a) Các số nguyên tố là $2$, $3$, $5$ ($3$ kết quả), nên $P(A)=\dfrac36=\dfrac12$.
+
+b) Các số thoả mãn là $3$, $4$, $5$ ($3$ kết quả), nên $P(B)=\dfrac36=\dfrac12$.
+
+c) Không số nào trong $1$ đến $6$ chia hết cho $7$, nên $C$ là biến cố không thể và $P(C)=0$.
+
+**Đáp số.** a) $\dfrac12$; b) $\dfrac12$; c) $0$.
+
+[ĐỀ – EN]
+A fair dice is rolled. List the favourable outcomes and find the probability of each event:
+
+a) $A$: "the number of dots is a prime number".
+
+b) $B$: "the number of dots is greater than $2$ and less than $6$".
+
+c) $C$: "the number of dots is a multiple of $7$".
+
+[LỜI GIẢI CŨ – EN]
+There are $6$ equally likely outcomes: $1$, $2$, $3$, $4$, $5$, $6$.
+
+a) The primes are $2$, $3$, $5$ ($3$ outcomes), so $P(A)=\dfrac36=\dfrac12$.
+
+b) The numbers that fit are $3$, $4$, $5$ ($3$ outcomes), so $P(B)=\dfrac36=\dfrac12$.
+
+c) No number from $1$ to $6$ is a multiple of $7$, so $C$ is impossible and $P(C)=0$.
+
+**Answer.** a) $\dfrac12$; b) $\dfrac12$; c) $0$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Một hộp có $12$ thẻ giống hệt nhau, đánh số từ $1$ đến $12$. Rút ngẫu nhiên một thẻ. Tính xác suất của các biến cố: "thẻ số chia hết cho $3$", "thẻ số nguyên tố", "thẻ số lớn hơn $12$". Biến cố nào trong ba biến cố ấy dễ xảy ra hơn: chia hết cho $3$ hay nguyên tố?
+
+[LỜI GIẢI CŨ – VI]
+Có $12$ kết quả đồng khả năng.
+
+Thẻ chia hết cho $3$ là $3$, $6$, $9$, $12$ ($4$ kết quả), nên xác suất là $\dfrac{4}{12}=\dfrac13$.
+
+Thẻ nguyên tố là $2$, $3$, $5$, $7$, $11$ ($5$ kết quả), nên xác suất là $\dfrac{5}{12}$.
+
+Không có thẻ nào lớn hơn $12$, nên xác suất của biến cố thứ ba là $0$.
+
+Vì $\dfrac{5}{12}>\dfrac{4}{12}$ nên biến cố "thẻ số nguyên tố" dễ xảy ra hơn.
+
+**Đáp số.** $\dfrac13$; $\dfrac{5}{12}$; $0$; biến cố "nguyên tố" dễ xảy ra hơn.
+
+[ĐỀ – EN]
+A box has $12$ identical cards numbered $1$ to $12$. One card is drawn at random. Find the probabilities of the events: "the card is a multiple of $3$", "the card is a prime number", "the card is greater than $12$". Which is more likely: a multiple of $3$ or a prime?
+
+[LỜI GIẢI CŨ – EN]
+There are $12$ equally likely outcomes.
+
+The multiples of $3$ are $3$, $6$, $9$, $12$ ($4$ outcomes), so the probability is $\dfrac{4}{12}=\dfrac13$.
+
+The primes are $2$, $3$, $5$, $7$, $11$ ($5$ outcomes), so the probability is $\dfrac{5}{12}$.
+
+No card is greater than $12$, so the probability of the third event is $0$.
+
+Since $\dfrac{5}{12}>\dfrac{4}{12}$, the event "a prime number" is more likely.
+
+**Answer.** $\dfrac13$; $\dfrac{5}{12}$; $0$; "a prime number" is more likely.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một túi có $4$ bi đỏ, $3$ bi xanh, $2$ bi vàng và $1$ bi trắng, các viên bi giống hệt nhau về kích thước. Lấy ngẫu nhiên một viên bi.
+
+a) Tính xác suất lấy được bi đỏ.
+
+b) Tính xác suất lấy được bi không phải màu xanh.
+
+c) Màu bi nào có khả năng được lấy ra cao nhất?
+
+[LỜI GIẢI CŨ – VI]
+Tổng số bi là $4+3+2+1=10$, nên có $10$ kết quả đồng khả năng.
+
+a) Có $4$ bi đỏ nên xác suất là $\dfrac{4}{10}=\dfrac25$.
+
+b) Số bi không phải màu xanh là $10-3=7$, nên xác suất là $\dfrac{7}{10}$.
+
+c) Màu đỏ có nhiều bi nhất ($4$ bi) nên có khả năng được lấy ra cao nhất.
+
+**Đáp số.** a) $\dfrac25$; b) $\dfrac{7}{10}$; c) màu đỏ.
+
+[ĐỀ – EN]
+A bag has $4$ red balls, $3$ blue balls, $2$ yellow balls and $1$ white ball, all the same size. One ball is taken at random.
+
+a) Find the probability of taking a red ball.
+
+b) Find the probability of taking a ball that is not blue.
+
+c) Which colour is the most likely to be taken?
+
+[LỜI GIẢI CŨ – EN]
+The total number of balls is $4+3+2+1=10$, so there are $10$ equally likely outcomes.
+
+a) There are $4$ red balls, so the probability is $\dfrac{4}{10}=\dfrac25$.
+
+b) The number of balls that are not blue is $10-3=7$, so the probability is $\dfrac{7}{10}$.
+
+c) Red has the most balls ($4$), so red is the most likely colour to be taken.
+
+**Answer.** a) $\dfrac25$; b) $\dfrac{7}{10}$; c) red.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lan và Minh chơi rút một thẻ từ hộp $10$ thẻ giống hệt nhau, đánh số từ $1$ đến $10$. Lan thắng nếu rút được thẻ số lẻ; Minh thắng nếu rút được thẻ số lớn hơn $7$. Ai có lợi hơn? Hãy sửa luật của Minh để trò chơi công bằng.
+
+[LỜI GIẢI CŨ – VI]
+Có $10$ kết quả đồng khả năng.
+
+Lan thắng với các thẻ $1$, $3$, $5$, $7$, $9$ ($5$ kết quả), nên xác suất là $\dfrac{5}{10}=\dfrac12$.
+
+Minh thắng với các thẻ $8$, $9$, $10$ ($3$ kết quả), nên xác suất là $\dfrac{3}{10}$.
+
+Vì $\dfrac12=\dfrac{5}{10}>\dfrac{3}{10}$ nên Lan có lợi hơn.
+
+Nếu Minh thắng khi thẻ "lớn hơn $5$" (các thẻ $6$, $7$, $8$, $9$, $10$) thì xác suất là $\dfrac{5}{10}=\dfrac12$, trò chơi công bằng.
+
+**Đáp số.** Lan có lợi hơn; đổi luật của Minh thành "thẻ lớn hơn $5$".
+
+[ĐỀ – EN]
+Lan and Minh play a game by drawing one card from a box of $10$ identical cards numbered $1$ to $10$. Lan wins if the card is odd; Minh wins if the card is greater than $7$. Who has the advantage? Change Minh's rule to make the game fair.
+
+[LỜI GIẢI CŨ – EN]
+There are $10$ equally likely outcomes.
+
+Lan wins with the cards $1$, $3$, $5$, $7$, $9$ ($5$ outcomes), so the probability is $\dfrac{5}{10}=\dfrac12$.
+
+Minh wins with the cards $8$, $9$, $10$ ($3$ outcomes), so the probability is $\dfrac{3}{10}$.
+
+Since $\dfrac12=\dfrac{5}{10}>\dfrac{3}{10}$, Lan has the advantage.
+
+If Minh wins when the card is "greater than $5$" (cards $6$, $7$, $8$, $9$, $10$), his probability is $\dfrac{5}{10}=\dfrac12$ and the game is fair.
+
+**Answer.** Lan has the advantage; change Minh's rule to "a card greater than $5$".
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Lớp 7A có $40$ học sinh, gồm $24$ bạn nữ và $16$ bạn nam. Cô giáo chọn ngẫu nhiên một bạn để trực nhật. Tính xác suất bạn được chọn là nữ, là nam; viết các xác suất đó dưới dạng phần trăm. (Ôn lại bài [tỉ số phần trăm](lesson:ratio-percentage-problems).)
+
+[LỜI GIẢI CŨ – VI]
+Có $40$ kết quả đồng khả năng.
+
+Xác suất chọn được bạn nữ là $\dfrac{24}{40}=\dfrac35=\dfrac{60}{100}=60\%$.
+
+Xác suất chọn được bạn nam là $\dfrac{16}{40}=\dfrac25=\dfrac{40}{100}=40\%$.
+
+Kiểm tra: $60\%+40\%=100\%$, vì bạn được chọn chắc chắn là nữ hoặc nam.
+
+**Đáp số.** Nữ: $\dfrac35=60\%$; nam: $\dfrac25=40\%$.
+
+[ĐỀ – EN]
+Class 7A has $40$ students: $24$ girls and $16$ boys. The teacher chooses one student at random to clean the board. Find the probability that the student chosen is a girl, and that it is a boy; write these probabilities as percentages. (Revise the lesson on [percentages](lesson:ratio-percentage-problems).)
+
+[LỜI GIẢI CŨ – EN]
+There are $40$ equally likely outcomes.
+
+The probability of choosing a girl is $\dfrac{24}{40}=\dfrac35=\dfrac{60}{100}=60\%$.
+
+The probability of choosing a boy is $\dfrac{16}{40}=\dfrac25=\dfrac{40}{100}=40\%$.
+
+Check: $60\%+40\%=100\%$, because the student chosen is certainly a girl or a boy.
+
+**Answer.** Girl: $\dfrac35=60\%$; boy: $\dfrac25=40\%$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một vòng quay được chia thành $10$ ô bằng nhau gồm bốn loại: Giải nhất, Giải nhì, Giải ba và "Không giải". Cần thiết kế sao cho xác suất trúng Giải nhất là $\dfrac{1}{10}$, trúng Giải nhì là $\dfrac15$ và trúng Giải ba là $\dfrac{3}{10}$.
+
+a) Mỗi loại cần bao nhiêu ô?
+
+b) Xác suất không trúng giải là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+a) Xác suất $\dfrac{1}{10}$ ứng với $1$ ô. Xác suất $\dfrac15=\dfrac{2}{10}$ ứng với $2$ ô. Xác suất $\dfrac{3}{10}$ ứng với $3$ ô. Số ô "Không giải" là $10-1-2-3=4$.
+
+b) Xác suất không trúng giải là $\dfrac{4}{10}=\dfrac25$.
+
+Kiểm tra: $\dfrac{1}{10}+\dfrac{2}{10}+\dfrac{3}{10}+\dfrac{4}{10}=1$.
+
+**Đáp số.** a) Giải nhất $1$ ô, Giải nhì $2$ ô, Giải ba $3$ ô, Không giải $4$ ô. b) $\dfrac25$.
+
+[ĐỀ – EN]
+A spinner is divided into $10$ equal sections of four kinds: First prize, Second prize, Third prize and "No prize". It must be designed so that the probability of First prize is $\dfrac{1}{10}$, of Second prize is $\dfrac15$ and of Third prize is $\dfrac{3}{10}$.
+
+a) How many sections of each kind are needed?
+
+b) What is the probability of winning no prize?
+
+[LỜI GIẢI CŨ – EN]
+a) A probability of $\dfrac{1}{10}$ needs $1$ section. A probability of $\dfrac15=\dfrac{2}{10}$ needs $2$ sections. A probability of $\dfrac{3}{10}$ needs $3$ sections. The number of "No prize" sections is $10-1-2-3=4$.
+
+b) The probability of winning no prize is $\dfrac{4}{10}=\dfrac25$.
+
+Check: $\dfrac{1}{10}+\dfrac{2}{10}+\dfrac{3}{10}+\dfrac{4}{10}=1$.
+
+**Answer.** a) First prize $1$ section, Second prize $2$, Third prize $3$, No prize $4$. b) $\dfrac25$.
+
+
+######################################################################
+@@@ g7/intro-to-probability
+Bài học: Làm quen với xác suất của biến cố / Getting to know the probability of an event
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Gieo một con xúc xắc cân đối.
+
+a) Liệt kê các kết quả có thể.
+
+b) Biến cố $A$: "Số chấm là số lẻ". Liệt kê các kết quả thuận lợi cho $A$ và tính $P(A)$.
+
+[LỜI GIẢI CŨ – VI]
+a) Có $6$ kết quả: $1, 2, 3, 4, 5, 6$.
+
+b) Kết quả thuận lợi cho $A$ là $1, 3, 5$, nên $k=3$ và $P(A)=\dfrac36=\dfrac12$.
+
+**Đáp số.** a) $6$ kết quả; b) $P(A)=\dfrac12$.
+
+[ĐỀ – EN]
+Roll a fair die.
+
+a) List the possible outcomes.
+
+b) Let $A$ be the event "The score is odd". List the outcomes favourable to $A$ and find $P(A)$.
+
+[LỜI GIẢI CŨ – EN]
+a) There are $6$ outcomes: $1, 2, 3, 4, 5, 6$.
+
+b) The outcomes favourable to $A$ are $1, 3, 5$, so $k=3$ and $P(A)=\dfrac36=\dfrac12$.
+
+**Answer.** a) $6$ outcomes; b) $P(A)=\dfrac12$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Một hộp có $15$ viên kẹo cùng cỡ: $6$ viên cam, $5$ viên dâu, $4$ viên nho. Lấy ngẫu nhiên một viên. Tính xác suất lấy được kẹo cam, kẹo dâu, kẹo nho.
+
+[LỜI GIẢI CŨ – VI]
+$P(\text{cam})=\dfrac{6}{15}=\dfrac25$; $P(\text{dâu})=\dfrac{5}{15}=\dfrac13$; $P(\text{nho})=\dfrac{4}{15}$.
+
+**Đáp số.** $\dfrac25$; $\dfrac13$; $\dfrac{4}{15}$.
+
+[ĐỀ – EN]
+A box holds $15$ sweets of the same size: $6$ orange, $5$ strawberry and $4$ grape. One sweet is taken at random. Find the probability of taking an orange sweet, a strawberry sweet and a grape sweet.
+
+[LỜI GIẢI CŨ – EN]
+$P(\text{orange})=\dfrac{6}{15}=\dfrac25$; $P(\text{strawberry})=\dfrac{5}{15}=\dfrac13$; $P(\text{grape})=\dfrac{4}{15}$.
+
+**Answer.** $\dfrac25$; $\dfrac13$; $\dfrac{4}{15}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Hãy nhớ lại bài trước (biến cố). Gieo một con xúc xắc cân đối. Mỗi biến cố sau là chắc chắn, không thể hay ngẫu nhiên? Tính xác suất của mỗi biến cố.
+
+a) "Số chấm nhỏ hơn $7$".
+
+b) "Số chấm bằng $0$".
+
+c) "Số chấm lớn hơn $4$".
+
+[LỜI GIẢI CŨ – VI]
+a) Cả $6$ kết quả đều nhỏ hơn $7$: chắc chắn, $P=\dfrac66=1$.
+
+b) Không có kết quả nào bằng $0$: không thể, $P=0$.
+
+c) Các kết quả $5, 6$: ngẫu nhiên, $P=\dfrac26=\dfrac13$.
+
+**Đáp số.** a) Chắc chắn, $1$; b) không thể, $0$; c) ngẫu nhiên, $\dfrac13$.
+
+[ĐỀ – EN]
+Remember the last lesson (events). Roll a fair die. Is each event below certain, impossible or random? Find the probability of each event.
+
+a) "The score is less than $7$".
+
+b) "The score is $0$".
+
+c) "The score is greater than $4$".
+
+[LỜI GIẢI CŨ – EN]
+a) All $6$ outcomes are less than $7$: certain, $P=\dfrac66=1$.
+
+b) No outcome is $0$: impossible, $P=0$.
+
+c) The outcomes $5, 6$: random, $P=\dfrac26=\dfrac13$.
+
+**Answer.** a) Certain, $1$; b) impossible, $0$; c) random, $\dfrac13$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một túi có $20$ tấm thẻ ghi các số từ $1$ đến $20$. Rút ngẫu nhiên một thẻ. Tính xác suất để thẻ rút được:
+
+a) ghi số nhỏ hơn $6$;
+
+b) ghi số chẵn;
+
+c) ghi số có một chữ số.
+
+[LỜI GIẢI CŨ – VI]
+a) Các số $1, 2, 3, 4, 5$: $k=5$, $P=\dfrac{5}{20}=\dfrac14$.
+
+b) Các số chẵn $2, 4, \dots, 20$: $k=10$, $P=\dfrac{10}{20}=\dfrac12$.
+
+c) Các số $1, 2, \dots, 9$: $k=9$, $P=\dfrac{9}{20}$.
+
+**Đáp số.** a) $\dfrac14$; b) $\dfrac12$; c) $\dfrac{9}{20}$.
+
+[ĐỀ – EN]
+A bag holds $20$ cards numbered from $1$ to $20$. One card is drawn at random. Find the probability that the card shows:
+
+a) a number less than $6$;
+
+b) an even number;
+
+c) a one-digit number.
+
+[LỜI GIẢI CŨ – EN]
+a) The numbers $1, 2, 3, 4, 5$: $k=5$, $P=\dfrac{5}{20}=\dfrac14$.
+
+b) The even numbers $2, 4, \dots, 20$: $k=10$, $P=\dfrac{10}{20}=\dfrac12$.
+
+c) The numbers $1, 2, \dots, 9$: $k=9$, $P=\dfrac{9}{20}$.
+
+**Answer.** a) $\dfrac14$; b) $\dfrac12$; c) $\dfrac{9}{20}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hộp $A$ có $3$ bi đỏ và $7$ bi xanh. Hộp $B$ có $2$ bi đỏ và $3$ bi xanh. Lấy ngẫu nhiên một viên bi từ mỗi hộp. Lấy từ hộp nào thì khả năng được bi đỏ lớn hơn? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Hộp $A$ có $10$ viên: $P_A=\dfrac{3}{10}$. Hộp $B$ có $5$ viên: $P_B=\dfrac25=\dfrac{4}{10}$. Vì $\dfrac{3}{10}<\dfrac{4}{10}$ nên $P_A<P_B$.
+
+**Đáp số.** Hộp $B$, vì $\dfrac25>\dfrac{3}{10}$.
+
+[ĐỀ – EN]
+Box $A$ has $3$ red and $7$ blue marbles. Box $B$ has $2$ red and $3$ blue marbles. One marble is taken at random from each box. From which box are you more likely to get a red marble? Why?
+
+[LỜI GIẢI CŨ – EN]
+Box $A$ has $10$ marbles: $P_A=\dfrac{3}{10}$. Box $B$ has $5$ marbles: $P_B=\dfrac25=\dfrac{4}{10}$. Since $\dfrac{3}{10}<\dfrac{4}{10}$, $P_A<P_B$.
+
+**Answer.** Box $B$, because $\dfrac25>\dfrac{3}{10}$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tìm lỗi sai trong lời giải của hai bạn rồi sửa lại.
+
+a) Mai: "Hộp có $5$ bi đỏ và $1$ bi xanh. Hộp chỉ có hai màu nên xác suất lấy được bi xanh là $\dfrac12$."
+
+b) Bình: "Gieo xúc xắc, biến cố $M$: số chấm chia hết cho $2$. Các kết quả thuận lợi là $2, 4, 6$ nên $P(M)=\dfrac33=1$."
+
+[LỜI GIẢI CŨ – VI]
+a) Mai coi hai màu có khả năng như nhau, nhưng bi đỏ nhiều hơn bi xanh. Mỗi viên bi mới là một kết quả: $n=6$, $k=1$, nên $P=\dfrac16$.
+
+b) Bình lấy $n=3$, trong khi xúc xắc có $6$ kết quả có thể. Đúng là $P(M)=\dfrac36=\dfrac12$.
+
+**Đáp số.** a) $\dfrac16$; b) $\dfrac12$.
+
+[ĐỀ – EN]
+Find the mistake in each student's work and correct it.
+
+a) Mai: "A box has $5$ red marbles and $1$ blue marble. There are only two colours, so the probability of taking a blue marble is $\dfrac12$."
+
+b) Binh: "Roll a die; let $M$ be the event that the score is divisible by $2$. The favourable outcomes are $2, 4, 6$, so $P(M)=\dfrac33=1$."
+
+[LỜI GIẢI CŨ – EN]
+a) Mai treats the two colours as equally likely, but there are more red marbles than blue ones. Each marble is one outcome: $n=6$, $k=1$, so $P=\dfrac16$.
+
+b) Binh used $n=3$, but a die has $6$ possible outcomes. The right answer is $P(M)=\dfrac36=\dfrac12$.
+
+**Answer.** a) $\dfrac16$; b) $\dfrac12$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Lớp $7$B có $40$ học sinh, trong đó có $22$ bạn nữ. Cô giáo gọi ngẫu nhiên một bạn lên bảng.
+
+a) Tính xác suất bạn được gọi là nữ.
+
+b) Tính xác suất bạn được gọi là nam.
+
+c) Cộng hai xác suất ở câu a) và b). Vì sao kết quả như vậy?
+
+[LỜI GIẢI CŨ – VI]
+a) $P(\text{nữ})=\dfrac{22}{40}=\dfrac{11}{20}$.
+
+b) Số bạn nam là $40-22=18$, nên $P(\text{nam})=\dfrac{18}{40}=\dfrac{9}{20}$.
+
+c) $\dfrac{11}{20}+\dfrac{9}{20}=1$. Mỗi bạn hoặc là nữ hoặc là nam, nên biến cố "nữ hoặc nam" là chắc chắn.
+
+**Đáp số.** a) $\dfrac{11}{20}$; b) $\dfrac{9}{20}$; c) $1$.
+
+[ĐỀ – EN]
+Class $7$B has $40$ students, $22$ of them girls. The teacher calls one student to the board at random.
+
+a) Find the probability that the student called is a girl.
+
+b) Find the probability that the student called is a boy.
+
+c) Add the two probabilities from parts a) and b). Why do you get this result?
+
+[LỜI GIẢI CŨ – EN]
+a) $P(\text{girl})=\dfrac{22}{40}=\dfrac{11}{20}$.
+
+b) The number of boys is $40-22=18$, so $P(\text{boy})=\dfrac{18}{40}=\dfrac{9}{20}$.
+
+c) $\dfrac{11}{20}+\dfrac{9}{20}=1$. Every student is either a girl or a boy, so the event "a girl or a boy" is certain.
+
+**Answer.** a) $\dfrac{11}{20}$; b) $\dfrac{9}{20}$; c) $1$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một hộp có $30$ viên bi, được ghi lại trong bảng sau:
+
+| Màu | Đỏ | Xanh | Vàng | Trắng |
+|---|---|---|---|---|
+| Số viên | $6$ | $9$ | $5$ | $10$ |
+
+Lấy ngẫu nhiên một viên bi. Tính xác suất lấy được mỗi màu rồi cộng bốn xác suất lại.
+
+[LỜI GIẢI CŨ – VI]
+Tổng số bi là $6+9+5+10=30$. Các xác suất là $P(\text{đỏ})=\dfrac{6}{30}=\dfrac15$, $P(\text{xanh})=\dfrac{9}{30}=\dfrac{3}{10}$, $P(\text{vàng})=\dfrac{5}{30}=\dfrac16$, $P(\text{trắng})=\dfrac{10}{30}=\dfrac13$. Tổng bốn xác suất là $\dfrac{6+9+5+10}{30}=\dfrac{30}{30}=1$.
+
+**Đáp số.** $\dfrac15$; $\dfrac{3}{10}$; $\dfrac16$; $\dfrac13$; tổng bằng $1$.
+
+[ĐỀ – EN]
+A box holds $30$ marbles, as recorded in the table below:
+
+| Colour | Red | Blue | Yellow | White |
+|---|---|---|---|---|
+| Number of marbles | $6$ | $9$ | $5$ | $10$ |
+
+One marble is taken at random. Find the probability of each colour, then add the four probabilities.
+
+[LỜI GIẢI CŨ – EN]
+The total number of marbles is $6+9+5+10=30$. The probabilities are $P(\text{red})=\dfrac{6}{30}=\dfrac15$, $P(\text{blue})=\dfrac{9}{30}=\dfrac{3}{10}$, $P(\text{yellow})=\dfrac{5}{30}=\dfrac16$, $P(\text{white})=\dfrac{10}{30}=\dfrac13$. The sum of the four probabilities is $\dfrac{6+9+5+10}{30}=\dfrac{30}{30}=1$.
+
+**Answer.** $\dfrac15$; $\dfrac{3}{10}$; $\dfrac16$; $\dfrac13$; they add up to $1$.
+
+
+######################################################################
+@@@ g7/isosceles-perpendicular-bisector
+Bài học: Tam giác cân. Đường trung trực của đoạn thẳng / Isosceles triangles. The perpendicular bisector of a line segment
+Cần viết lại lời giải các bài: 6 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ cân tại $A$. Trên tia đối của tia $BC$ lấy điểm $D$, trên tia đối của tia $CB$ lấy điểm $E$ sao cho $BD=CE$. Chứng minh tam giác $ADE$ cân. (Ôn lại c.g.c.)
+
+[LỜI GIẢI CŨ – VI]
+Vì tam giác $ABC$ cân tại $A$ nên $AB=AC$ và $\widehat{ABC}=\widehat{ACB}$. Vì $\widehat{ABD}$ và $\widehat{ABC}$ kề bù, $\widehat{ACE}$ và $\widehat{ACB}$ kề bù nên $\widehat{ABD}=180^\circ-\widehat{ABC}=180^\circ-\widehat{ACB}=\widehat{ACE}$.
+
+Xét tam giác $ABD$ và tam giác $ACE$ có:
+
+- $AB=AC$ (chứng minh trên);
+- $\widehat{ABD}=\widehat{ACE}$ (chứng minh trên);
+- $BD=CE$ (gt).
+
+Do đó $\triangle ABD=\triangle ACE$ (c.g.c). Suy ra $AD=AE$, tức tam giác $ADE$ cân tại $A$.
+
+**Đáp số.** Chứng minh xong.
+
+[ĐỀ – EN]
+Triangle $ABC$ is isosceles with apex $A$. On the extension of $CB$ beyond $B$ take a point $D$, and on the extension of $BC$ beyond $C$ take a point $E$, with $BD=CE$. Prove that triangle $ADE$ is isosceles. (This revisits SAS.)
+
+[LỜI GIẢI CŨ – EN]
+Since triangle $ABC$ is isosceles with apex $A$, $AB=AC$ and $\angle ABC=\angle ACB$. Since $\angle ABD$ and $\angle ABC$ are adjacent on a straight line, and so are $\angle ACE$ and $\angle ACB$, we get $\angle ABD=180^\circ-\angle ABC=180^\circ-\angle ACB=\angle ACE$.
+
+Consider triangles $ABD$ and $ACE$. We have:
+
+- $AB=AC$ (shown above);
+- $\angle ABD=\angle ACE$ (shown above);
+- $BD=CE$ (given).
+
+Hence $\triangle ABD\equiv\triangle ACE$ (SAS). So $AD=AE$, that is, triangle $ADE$ is isosceles with apex $A$.
+
+**Answer.** Proved.
+
+
+######################################################################
+@@@ g7/line-graphs
+Bài học: Biểu đồ đoạn thẳng / Line graphs
+Cần viết lại lời giải các bài: 3 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cân nặng của một chú chó con trong sáu tháng đầu đời như sau (số liệu giả định):
+
+| Tháng | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+| Cân nặng (kg) | 2 | 3 | 6 | 6 | 7 | 8 |
+
+a) Nêu cách vẽ biểu đồ đoạn thẳng biểu diễn bảng số liệu này.
+
+b) Cân nặng của chó không đổi trong khoảng thời gian nào?
+
+c) Đoạn thẳng nào dốc nhất?
+
+[LỜI GIẢI CŨ – VI]
+a) Vẽ trục ngang ghi các tháng từ $1$ đến $6$ cách đều nhau. Vẽ trục đứng từ $0$ đến $8$, mỗi vạch ứng với $1$ kg, ghi đơn vị "kg". Đánh dấu các điểm $(1; 2)$, $(2; 3)$, $(3; 6)$, $(4; 6)$, $(5; 7)$, $(6; 8)$ rồi nối các điểm liên tiếp bằng đoạn thẳng, ghi tên biểu đồ.
+
+b) Cân nặng tháng 3 và tháng 4 đều là $6$ kg, nên cân nặng không đổi từ tháng 3 đến tháng 4 (đoạn thẳng nằm ngang).
+
+c) Mức tăng ở các khoảng là $1$; $3$; $0$; $1$; $1$ (kg). Mức tăng lớn nhất là $3$ kg, nên đoạn thẳng nối tháng 2 với tháng 3 dốc nhất.
+
+**Đáp số.** b) Từ tháng 3 đến tháng 4; c) đoạn nối tháng 2 và tháng 3.
+
+[ĐỀ – EN]
+The weight of a puppy in its first six months is as follows (made-up data):
+
+| Month | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+| Weight (kg) | 2 | 3 | 6 | 6 | 7 | 8 |
+
+a) Describe how to draw a line graph of this table.
+
+b) During which period did the puppy's weight stay the same?
+
+c) Which segment is the steepest?
+
+[LỜI GIẢI CŨ – EN]
+a) Draw a horizontal axis with the months $1$ to $6$ equally spaced. Draw a vertical axis from $0$ to $8$, each mark standing for $1$ kg, and write the unit "kg". Mark the points $(1, 2)$, $(2, 3)$, $(3, 6)$, $(4, 6)$, $(5, 7)$, $(6, 8)$, join consecutive points with line segments and give the graph a title.
+
+b) The weight in months 3 and 4 is $6$ kg in both, so the weight stays the same from month 3 to month 4 (a horizontal segment).
+
+c) The rises in the intervals are $1$; $3$; $0$; $1$; $1$ (kg). The greatest rise is $3$ kg, so the segment from month 2 to month 3 is the steepest.
+
+**Answer.** b) From month 3 to month 4; c) the segment from month 2 to month 3.
 
 
 ===== HẾT FILE Vinax258-07-LG =====

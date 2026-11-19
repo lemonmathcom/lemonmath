@@ -6,7 +6,7 @@ Kết quả: file Vinax.vn-08-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Vinax.vn-08-LG
-Người làm: tài khoản Vinax.vn. Gói này có 37 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Vinax.vn. Gói này có 43 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Vinax.vn-08-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Vinax.vn-08-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,778 +189,882 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g5/review-fractions (10 bài tập)
-- g5/review-geometry-measures (9 bài tập)
-- g5/review-natural-number-operations (8 bài tập)
-- g5/review-natural-numbers (10 bài tập)
+- g4/perpendicular-lines (8 bài tập)
+- g4/review-calculations-to-100000 (8 bài tập)
+- g4/review-numbers-to-100000 (7 bài tập)
+- g4/rounding-hundred-thousands (10 bài tập)
+- g4/simplifying-fractions (10 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g5/review-fractions
-Bài học: Ôn tập phân số / Review: fractions
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+@@@ g4/perpendicular-lines
+Bài học: Hai đường thẳng vuông góc. Hai đường thẳng song song / Perpendicular lines. Parallel lines
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 8, 9 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Viết thương của mỗi phép chia dưới dạng phân số: $5:8$ và $9:4$.
+Cho hình chữ nhật $MNPQ$. Kể tên các cặp cạnh vuông góc với nhau.
 
 [LỜI GIẢI CŨ – VI]
-$5:8=\dfrac{5}{8}$ và $9:4=\dfrac{9}{4}$.
+Hình chữ nhật $MNPQ$ có bốn góc vuông tại $M$, $N$, $P$, $Q$. Do đó $MN\perp NP$, $NP\perp PQ$, $PQ\perp QM$, $QM\perp MN$.
 
-**Đáp số.** $\dfrac{5}{8}$ và $\dfrac{9}{4}$.
+**Đáp số.** Bốn cặp cạnh vuông góc.
 
 [ĐỀ – EN]
-Write the quotient of each division as a fraction: $5\div8$ and $9\div4$.
+Rectangle $MNPQ$ is given. Name the pairs of perpendicular sides.
 
 [LỜI GIẢI CŨ – EN]
-$5\div8=\dfrac{5}{8}$ and $9\div4=\dfrac{9}{4}$.
+The rectangle $MNPQ$ has four right angles at $M$, $N$, $P$ and $Q$. Hence $MN\perp NP$, $NP\perp PQ$, $PQ\perp QM$ and $QM\perp MN$.
 
-**Answer.** $\dfrac{5}{8}$ and $\dfrac{9}{4}$.
+**Answer.** Four pairs of perpendicular sides.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Viết số tự nhiên $7$ dưới dạng phân số có mẫu số là $3$.
+Cho hình chữ nhật $EFGH$. Kể tên các cặp cạnh song song với nhau.
 
 [LỜI GIẢI CŨ – VI]
-$7=\dfrac{7}{1}=\dfrac{7\times3}{1\times3}=\dfrac{21}{3}$.
+Hình chữ nhật $EFGH$ có hai cặp cạnh đối diện song song: $EF\parallel GH$ và $FG\parallel HE$.
 
-**Đáp số.** $\dfrac{21}{3}$.
+**Đáp số.** $EF\parallel GH$; $FG\parallel HE$.
 
 [ĐỀ – EN]
-Write the natural number $7$ as a fraction with denominator $3$.
+Rectangle $EFGH$ is given. Name the pairs of parallel sides.
 
 [LỜI GIẢI CŨ – EN]
-$7=\dfrac{7}{1}=\dfrac{7\times3}{1\times3}=\dfrac{21}{3}$.
+The rectangle $EFGH$ has two pairs of parallel opposite sides: $EF\parallel GH$ and $FG\parallel HE$.
 
-**Answer.** $\dfrac{21}{3}$.
+**Answer.** $EF\parallel GH$; $FG\parallel HE$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài rút gọn phân số. Rút gọn $\dfrac{36}{60}$ đến phân số tối giản.
+Vẽ đường thẳng $d$ và lấy điểm $O$ trên $d$. Dùng ê ke vẽ đường thẳng $m$ đi qua $O$ và vuông góc với $d$.
 
 [LỜI GIẢI CŨ – VI]
-Cả $36$ và $60$ chia hết cho $12$: $\dfrac{36}{60}=\dfrac{36:12}{60:12}=\dfrac{3}{5}$.
+Đặt một cạnh góc vuông của ê ke nằm trên $d$, đỉnh góc vuông trùng với $O$. Kẻ theo cạnh góc vuông còn lại, ta được đường thẳng $m$ đi qua $O$.
 
-**Đáp số.** $\dfrac{3}{5}$.
+**Đáp số.** Đường thẳng $m$ đi qua $O$ và $m\perp d$.
 
 [ĐỀ – EN]
-Remember the lesson on simplifying fractions. Simplify $\dfrac{36}{60}$ to its simplest form.
+Draw a line $d$ and mark a point $O$ on $d$. Use a set square to draw the line $m$ through $O$ perpendicular to $d$.
 
 [LỜI GIẢI CŨ – EN]
-Both $36$ and $60$ are divisible by $12$: $\dfrac{36}{60}=\dfrac{36\div12}{60\div12}=\dfrac{3}{5}$.
+Place one short side of the set square along $d$, with the right-angle corner at $O$. Draw along the other short side to get the line $m$ through $O$.
 
-**Answer.** $\dfrac{3}{5}$.
+**Answer.** The line $m$ passes through $O$ and $m\perp d$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tìm số $x$ để $\dfrac{5}{8}=\dfrac{x}{24}$.
+Cho đường thẳng $d$ và điểm $E$ không thuộc $d$. Dùng ê ke vẽ đường thẳng đi qua $E$ và song song với $d$.
 
 [LỜI GIẢI CŨ – VI]
-Vì $24=8\times3$ nên $\dfrac{5}{8}=\dfrac{5\times3}{8\times3}=\dfrac{15}{24}$.
+Vẽ qua $E$ đường thẳng $EH\perp d$, với $H$ thuộc $d$. Rồi vẽ qua $E$ đường thẳng $n\perp EH$.
 
-**Đáp số.** $x=15$.
+Hai đường thẳng $n$ và $d$ cùng vuông góc với $EH$. Do đó $n\parallel d$.
+
+**Đáp số.** Đường thẳng $n$ đi qua $E$ và $n\parallel d$.
 
 [ĐỀ – EN]
-Find the number $x$ such that $\dfrac{5}{8}=\dfrac{x}{24}$.
+Given a line $d$ and a point $E$ not on $d$, use a set square to draw the line through $E$ parallel to $d$.
 
 [LỜI GIẢI CŨ – EN]
-Since $24=8\times3$, $\dfrac{5}{8}=\dfrac{5\times3}{8\times3}=\dfrac{15}{24}$.
+Draw through $E$ the line $EH\perp d$, with $H$ on $d$. Then draw through $E$ the line $n\perp EH$.
 
-**Answer.** $x=15$.
+The lines $n$ and $d$ are both perpendicular to $EH$. Hence $n\parallel d$.
+
+**Answer.** The line $n$ passes through $E$ and $n\parallel d$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Quy đồng mẫu số hai phân số $\dfrac{3}{10}$ và $\dfrac{4}{15}$.
+Mảnh vườn hình chữ nhật $ABCD$ có $AB=12$ m, $AD=8$ m. Điểm $M$ thuộc cạnh $AB$ và điểm $N$ thuộc cạnh $DC$ sao cho $AMND$ là hình chữ nhật và $AM=5$ m. Tính độ dài $MN$ và chu vi hình chữ nhật $AMND$.
 
 [LỜI GIẢI CŨ – VI]
-$$\dfrac{3}{10}=\dfrac{3\times3}{10\times3}=\dfrac{9}{30},\qquad \dfrac{4}{15}=\dfrac{4\times2}{15\times2}=\dfrac{8}{30}.$$
+Vì $AMND$ là hình chữ nhật nên $MN=AD=8$ m.
 
-**Đáp số.** $\dfrac{9}{30}$ và $\dfrac{8}{30}$.
+Chu vi hình chữ nhật $AMND$ là:
+$$(5+8)\times2=26\ \text{(m)}.$$
+
+**Đáp số.** $MN=8$ m; chu vi $26$ m.
 
 [ĐỀ – EN]
-Write the fractions $\dfrac{3}{10}$ and $\dfrac{4}{15}$ over a common denominator.
+A garden is a rectangle $ABCD$ with $AB=12$ m and $AD=8$ m. The point $M$ lies on side $AB$ and the point $N$ lies on side $DC$ so that $AMND$ is a rectangle and $AM=5$ m. Find the length of $MN$ and the perimeter of the rectangle $AMND$.
 
 [LỜI GIẢI CŨ – EN]
-$$\dfrac{3}{10}=\dfrac{3\times3}{10\times3}=\dfrac{9}{30},\qquad \dfrac{4}{15}=\dfrac{4\times2}{15\times2}=\dfrac{8}{30}.$$
+Since $AMND$ is a rectangle, $MN=AD=8$ m.
 
-**Answer.** $\dfrac{9}{30}$ and $\dfrac{8}{30}$.
+The perimeter of the rectangle $AMND$ is:
+$$(5+8)\times2=26\ \text{(m)}.$$
+
+**Answer.** $MN=8$ m; perimeter $26$ m.
 
 === Bài 6 ===
 [ĐỀ – VI]
-So sánh $\dfrac{7}{12}$ và $\dfrac{5}{8}$.
+Giả sử trên bản đồ một khu phố, đường Hoa Sen và đường Hoa Mai đều là đường thẳng và cùng vuông góc với đường Trần Phú. Hai đường Hoa Sen và Hoa Mai có song song với nhau không? Vì sao?
 
 [LỜI GIẢI CŨ – VI]
-$$\dfrac{7}{12}=\dfrac{14}{24},\qquad \dfrac{5}{8}=\dfrac{15}{24}.$$
-Vì $14<15$ nên $\dfrac{7}{12}<\dfrac{5}{8}$.
+Đường Hoa Sen và đường Hoa Mai cùng vuông góc với đường Trần Phú. Do đó hai đường này song song với nhau.
 
-**Đáp số.** $\dfrac{7}{12}<\dfrac{5}{8}$.
-
-[ĐỀ – EN]
-Compare $\dfrac{7}{12}$ and $\dfrac{5}{8}$.
-
-[LỜI GIẢI CŨ – EN]
-$$\dfrac{7}{12}=\dfrac{14}{24},\qquad \dfrac{5}{8}=\dfrac{15}{24}.$$
-Since $14<15$, $\dfrac{7}{12}<\dfrac{5}{8}$.
-
-**Answer.** $\dfrac{7}{12}<\dfrac{5}{8}$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Sắp xếp các phân số $\dfrac{3}{4}$, $\dfrac{5}{6}$, $\dfrac{2}{3}$, $\dfrac{7}{12}$ theo thứ tự từ bé đến lớn.
-
-[LỜI GIẢI CŨ – VI]
-$$\dfrac{3}{4}=\dfrac{9}{12},\qquad \dfrac{5}{6}=\dfrac{10}{12},\qquad \dfrac{2}{3}=\dfrac{8}{12},\qquad \dfrac{7}{12}\ \text{(giữ nguyên)}.$$
-Ta có $7<8<9<10$.
-
-**Đáp số.** $\dfrac{7}{12}<\dfrac{2}{3}<\dfrac{3}{4}<\dfrac{5}{6}$.
+**Đáp số.** Có, hai đường song song.
 
 [ĐỀ – EN]
-Put the fractions $\dfrac{3}{4}$, $\dfrac{5}{6}$, $\dfrac{2}{3}$, $\dfrac{7}{12}$ in order from least to greatest.
+Suppose that on a map of a neighbourhood, Hoa Sen Street and Hoa Mai Street are both straight and both perpendicular to Tran Phu Street. Are Hoa Sen Street and Hoa Mai Street parallel? Why?
 
 [LỜI GIẢI CŨ – EN]
-$$\dfrac{3}{4}=\dfrac{9}{12},\qquad \dfrac{5}{6}=\dfrac{10}{12},\qquad \dfrac{2}{3}=\dfrac{8}{12},\qquad \dfrac{7}{12}\ \text{(unchanged)}.$$
-We have $7<8<9<10$.
+Hoa Sen Street and Hoa Mai Street are both perpendicular to Tran Phu Street. Hence the two streets are parallel.
 
-**Answer.** $\dfrac{7}{12}<\dfrac{2}{3}<\dfrac{3}{4}<\dfrac{5}{6}$.
+**Answer.** Yes, the streets are parallel.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Nam đọc được $\dfrac{7}{10}$ quyển truyện, Hà đọc được $\dfrac{5}{8}$ quyển truyện cùng loại. Hỏi bạn nào đọc được nhiều hơn?
+Một khung ảnh hình chữ nhật dài $24$ cm, rộng $18$ cm. Bác thợ đóng thêm một thanh gỗ nối trung điểm hai cạnh dài, song song với cạnh rộng. Thanh gỗ này dài bao nhiêu xăng-ti-mét? Mỗi khung ảnh nhỏ được chia ra có chu vi bao nhiêu xăng-ti-mét?
 
 [LỜI GIẢI CŨ – VI]
-Quy đồng mẫu số với mẫu số chung $40$:
-$$\dfrac{7}{10}=\dfrac{28}{40},\qquad \dfrac{5}{8}=\dfrac{25}{40}.$$
-Vì $28>25$ nên $\dfrac{7}{10}>\dfrac{5}{8}$.
+Thanh gỗ song song với cạnh rộng nên dài bằng cạnh rộng, tức là $18$ cm.
 
-**Đáp số.** Bạn Nam đọc được nhiều hơn.
+Chiều dài mỗi khung nhỏ là $24:2=12$ (cm). Chu vi mỗi khung nhỏ là:
+$$(12+18)\times2=60\ \text{(cm)}.$$
+
+**Đáp số.** Thanh gỗ dài $18$ cm; chu vi mỗi khung nhỏ là $60$ cm.
 
 [ĐỀ – EN]
-Nam has read $\dfrac{7}{10}$ of a story book and Ha has read $\dfrac{5}{8}$ of a book of the same kind. Who has read more?
+A picture frame is a rectangle $24$ cm long and $18$ cm wide. A carpenter adds a wooden bar joining the midpoints of the two long sides, parallel to the short side. How long is the bar in centimetres? What is the perimeter of each of the two smaller frames in centimetres?
 
 [LỜI GIẢI CŨ – EN]
-Write over the common denominator $40$:
-$$\dfrac{7}{10}=\dfrac{28}{40},\qquad \dfrac{5}{8}=\dfrac{25}{40}.$$
-Since $28>25$, $\dfrac{7}{10}>\dfrac{5}{8}$.
+The bar is parallel to the short side, so it is as long as the short side: $18$ cm.
 
-**Answer.** Nam has read more.
+The length of each smaller frame is $24\div2=12$ (cm). The perimeter of each smaller frame is:
+$$(12+18)\times2=60\ \text{(cm)}.$$
+
+**Answer.** The bar is $18$ cm long; each smaller frame has perimeter $60$ cm.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Một cửa hàng chia đều $5$ kg gạo vào $6$ túi giống nhau. Hỏi mỗi túi có bao nhiêu ki-lô-gam gạo?
+Một tấm bìa hình chữ nhật $ABCD$ có $AB=9$ cm, $BC=5$ cm. Người ta cắt tấm bìa theo đoạn thẳng $MN$ song song với $BC$ ($M$ thuộc $AB$, $N$ thuộc $CD$) để được hai hình chữ nhật $AMND$ và $MBCN$ có chu vi bằng nhau. Tính độ dài $AM$ và chu vi mỗi hình chữ nhật đó.
 
 [LỜI GIẢI CŨ – VI]
-Số ki-lô-gam gạo trong mỗi túi là:
-$$5:6=\dfrac{5}{6}\ \text{(kg)}.$$
+Hai hình chữ nhật $AMND$ và $MBCN$ đều có chiều rộng $5$ cm. Chu vi bằng nhau nên $AM=MB$.
 
-**Đáp số.** $\dfrac{5}{6}$ kg.
+Do đó $AM=9:2=4{,}5$ (cm). Chu vi mỗi hình là:
+$$(4{,}5+5)\times2=19\ \text{(cm)}.$$
 
-[ĐỀ – EN]
-A shop shares $5$ kg of rice equally into $6$ identical bags. How many kilograms of rice are in each bag?
+**Thử lại.** $19+19=38$ và $(9+5)\times2+2\times5=38$. Đúng.
 
-[LỜI GIẢI CŨ – EN]
-The number of kilograms of rice in each bag is:
-$$5\div6=\dfrac{5}{6}\ \text{(kg)}.$$
-
-**Answer.** $\dfrac{5}{6}$ kg.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Tìm một phân số lớn hơn $\dfrac{3}{5}$ và bé hơn $\dfrac{2}{3}$.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $\dfrac{3}{5}=\dfrac{9}{15}$ và $\dfrac{2}{3}=\dfrac{10}{15}$. Giữa hai tử số $9$ và $10$ không có số tự nhiên nào.
-
-Nhân cả tử số và mẫu số với $2$: $\dfrac{3}{5}=\dfrac{18}{30}$ và $\dfrac{2}{3}=\dfrac{20}{30}$. Phân số $\dfrac{19}{30}$ có tử số nằm giữa $18$ và $20$.
-
-**Đáp số.** Một phân số cần tìm là $\dfrac{19}{30}$.
+**Đáp số.** $AM=4{,}5$ cm; chu vi mỗi hình $19$ cm.
 
 [ĐỀ – EN]
-Find a fraction that is greater than $\dfrac{3}{5}$ and less than $\dfrac{2}{3}$.
+A rectangular piece of card $ABCD$ has $AB=9$ cm and $BC=5$ cm. It is cut along a segment $MN$ parallel to $BC$ ($M$ on $AB$, $N$ on $CD$) into two rectangles $AMND$ and $MBCN$ with equal perimeters. Find the length of $AM$ and the perimeter of each rectangle.
 
 [LỜI GIẢI CŨ – EN]
-We have $\dfrac{3}{5}=\dfrac{9}{15}$ and $\dfrac{2}{3}=\dfrac{10}{15}$. There is no natural number between the numerators $9$ and $10$.
+The rectangles $AMND$ and $MBCN$ both have width $5$ cm. Their perimeters are equal, so $AM=MB$.
 
-Multiply the numerator and denominator by $2$: $\dfrac{3}{5}=\dfrac{18}{30}$ and $\dfrac{2}{3}=\dfrac{20}{30}$. The fraction $\dfrac{19}{30}$ has numerator between $18$ and $20$.
+Hence $AM=9\div2=4.5$ (cm). The perimeter of each rectangle is:
+$$(4.5+5)\times2=19\ \text{(cm)}.$$
 
-**Answer.** One fraction that works is $\dfrac{19}{30}$.
+**Check.** $19+19=38$ and $(9+5)\times2+2\times5=38$. Correct.
+
+**Answer.** $AM=4.5$ cm; each perimeter is $19$ cm.
 
 
 ######################################################################
-@@@ g5/review-geometry-measures
-Bài học: Ôn tập hình học và đo lường / Review: geometry and measures
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Số?
-a) $4\ \text{m}\ 6\ \text{dm}=?\ \text{cm}$; b) $6\ \text{kg}\ 80\ \text{g}=?\ \text{g}$; c) $3$ tạ $20\ \text{kg}=?\ \text{kg}$.
-
-[LỜI GIẢI CŨ – VI]
-a) $4\ \text{m}=400\ \text{cm}$ và $6\ \text{dm}=60\ \text{cm}$, nên $400+60=460\ \text{cm}$.
-
-b) $6\ \text{kg}=6000\ \text{g}$, nên $6000+80=6080\ \text{g}$.
-
-c) $3$ tạ $=300\ \text{kg}$, nên $300+20=320\ \text{kg}$.
-
-**Đáp số.** a) $460$; b) $6080$; c) $320$.
-
-[ĐỀ – EN]
-Find the missing numbers:
-a) $4\ \text{m}\ 6\ \text{dm}=?\ \text{cm}$; b) $6\ \text{kg}\ 80\ \text{g}=?\ \text{g}$; c) $3$ tạ $20\ \text{kg}=?\ \text{kg}$.
-
-[LỜI GIẢI CŨ – EN]
-a) $4\ \text{m}=400\ \text{cm}$ and $6\ \text{dm}=60\ \text{cm}$, so $400+60=460\ \text{cm}$.
-
-b) $6\ \text{kg}=6000\ \text{g}$, so $6000+80=6080\ \text{g}$.
-
-c) $3$ tạ $=300\ \text{kg}$, so $300+20=320\ \text{kg}$.
-
-**Answer.** a) $460$; b) $6080$; c) $320$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Số?
-a) $3\ \text{m}^2=?\ \text{dm}^2$; b) $8\ \text{dm}^2\ 15\ \text{cm}^2=?\ \text{cm}^2$; c) $20\,000\ \text{cm}^2=?\ \text{m}^2$.
-
-[LỜI GIẢI CŨ – VI]
-a) $3\ \text{m}^2=3\times100=300\ \text{dm}^2$.
-
-b) $8\ \text{dm}^2=800\ \text{cm}^2$, nên $800+15=815\ \text{cm}^2$.
-
-c) $20\,000:10\,000=2$, nên $20\,000\ \text{cm}^2=2\ \text{m}^2$.
-
-**Đáp số.** a) $300$; b) $815$; c) $2$.
-
-[ĐỀ – EN]
-Find the missing numbers:
-a) $3\ \text{m}^2=?\ \text{dm}^2$; b) $8\ \text{dm}^2\ 15\ \text{cm}^2=?\ \text{cm}^2$; c) $20\,000\ \text{cm}^2=?\ \text{m}^2$.
-
-[LỜI GIẢI CŨ – EN]
-a) $3\ \text{m}^2=3\times100=300\ \text{dm}^2$.
-
-b) $8\ \text{dm}^2=800\ \text{cm}^2$, so $800+15=815\ \text{cm}^2$.
-
-c) $20\,000\div10\,000=2$, so $20\,000\ \text{cm}^2=2\ \text{m}^2$.
-
-**Answer.** a) $300$; b) $815$; c) $2$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Một hình chữ nhật có chiều dài $15$ m, chiều rộng $8$ m. Tính chu vi và diện tích của hình chữ nhật đó.
-
-[LỜI GIẢI CŨ – VI]
-Chu vi hình chữ nhật là $(15+8)\times2=46$ (m).
-
-Diện tích hình chữ nhật là $15\times8=120$ ($\text{m}^2$).
-
-**Đáp số.** Chu vi $46$ m; diện tích $120\ \text{m}^2$.
-
-[ĐỀ – EN]
-A rectangle has length $15$ m and width $8$ m. Find the perimeter and the area of the rectangle.
-
-[LỜI GIẢI CŨ – EN]
-The perimeter of the rectangle is $(15+8)\times2=46$ (m).
-
-The area of the rectangle is $15\times8=120$ ($\text{m}^2$).
-
-**Answer.** Perimeter $46$ m; area $120\ \text{m}^2$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Một hình vuông có chu vi $36$ dm. Tính cạnh và diện tích của hình vuông đó.
-
-[LỜI GIẢI CŨ – VI]
-Cạnh hình vuông là $36:4=9$ (dm).
-
-Diện tích hình vuông là $9\times9=81$ ($\text{dm}^2$).
-
-**Đáp số.** Cạnh $9$ dm; diện tích $81\ \text{dm}^2$.
-
-[ĐỀ – EN]
-A square has perimeter $36$ dm. Find the side and the area of the square.
-
-[LỜI GIẢI CŨ – EN]
-The side of the square is $36\div4=9$ (dm).
-
-The area of the square is $9\times9=81$ ($\text{dm}^2$).
-
-**Answer.** Side $9$ dm; area $81\ \text{dm}^2$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Bác Nam rào xung quanh một khu vườn hình chữ nhật dài $30$ m, rộng $20$ m, chừa một cổng rộng $2$ m. Hỏi bác cần bao nhiêu mét hàng rào?
-
-[LỜI GIẢI CŨ – VI]
-Chu vi khu vườn là $(30+20)\times2=100$ (m).
-
-Số mét hàng rào cần dùng là $100-2=98$ (m).
-
-**Đáp số.** $98$ m.
-
-[ĐỀ – EN]
-Mr Nam fences all round a rectangular garden that is $30$ m long and $20$ m wide, leaving a gate $2$ m wide. How many metres of fence does he need?
-
-[LỜI GIẢI CŨ – EN]
-The perimeter of the garden is $(30+20)\times2=100$ (m).
-
-The length of fence needed is $100-2=98$ (m).
-
-**Answer.** $98$ m.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Một cửa hàng nhập $2$ tạ gạo và đã bán $75$ kg. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam gạo?
-
-[LỜI GIẢI CŨ – VI]
-$2$ tạ $=200\ \text{kg}$. Số gạo còn lại là:
-$$200-75=125\ \text{(kg)}.$$
-
-**Đáp số.** $125$ kg.
-
-[ĐỀ – EN]
-A shop receives $2$ tạ of rice and has sold $75$ kg. How many kilograms of rice are left in the shop?
-
-[LỜI GIẢI CŨ – EN]
-$2$ tạ $=200\ \text{kg}$. The rice left is:
-$$200-75=125\ \text{(kg)}.$$
-
-**Answer.** $125$ kg.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Em hãy nhớ lại bài cộng, trừ phân số khác mẫu số. Một hình chữ nhật có chiều dài $\dfrac{3}{4}$ m và chiều rộng $\dfrac{1}{2}$ m. Tính chu vi của hình chữ nhật đó.
-
-[LỜI GIẢI CŨ – VI]
-Nửa chu vi là $\dfrac{3}{4}+\dfrac{1}{2}=\dfrac{3}{4}+\dfrac{2}{4}=\dfrac{5}{4}$ (m).
-
-Chu vi hình chữ nhật là $\dfrac{5}{4}\times2=\dfrac{5}{2}=2\dfrac{1}{2}$ (m).
-
-**Đáp số.** $2\dfrac{1}{2}$ m.
-
-[ĐỀ – EN]
-Remember the lesson on adding and subtracting fractions with different denominators. A rectangle has length $\dfrac{3}{4}$ m and width $\dfrac{1}{2}$ m. Find the perimeter of the rectangle.
-
-[LỜI GIẢI CŨ – EN]
-Half the perimeter is $\dfrac{3}{4}+\dfrac{1}{2}=\dfrac{3}{4}+\dfrac{2}{4}=\dfrac{5}{4}$ (m).
-
-The perimeter of the rectangle is $\dfrac{5}{4}\times2=\dfrac{5}{2}=2\dfrac{1}{2}$ (m).
-
-**Answer.** $2\dfrac{1}{2}$ m.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Một tấm bìa hình chữ nhật dài $90$ cm, rộng $60$ cm được cắt thành các hình vuông cạnh $30$ cm, không thừa mảnh nào. Hỏi cắt được bao nhiêu hình vuông?
-
-[LỜI GIẢI CŨ – VI]
-Dọc chiều dài xếp được $90:30=3$ hình vuông. Dọc chiều rộng xếp được $60:30=2$ hình vuông. Số hình vuông cắt được là:
-$$3\times2=6\ \text{(hình)}.$$
-
-**Kiểm tra.** $90\times60=5400\ \text{cm}^2$ và $6\times30\times30=5400\ \text{cm}^2$. Đúng.
-
-**Đáp số.** $6$ hình vuông.
-
-[ĐỀ – EN]
-A rectangular sheet of card $90$ cm long and $60$ cm wide is cut into squares of side $30$ cm, with no card left over. How many squares can be cut?
-
-[LỜI GIẢI CŨ – EN]
-Along the length, $90\div30=3$ squares fit. Along the width, $60\div30=2$ squares fit. The number of squares is:
-$$3\times2=6\ \text{(squares)}.$$
-
-**Check.** $90\times60=5400\ \text{cm}^2$ and $6\times30\times30=5400\ \text{cm}^2$. Correct.
-
-**Answer.** $6$ squares.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Một hình chữ nhật có chu vi $24$ cm, hai cạnh đều là số đo tự nhiên (đơn vị: xăng-ti-mét). Tìm diện tích lớn nhất có thể của hình chữ nhật đó.
-
-[LỜI GIẢI CŨ – VI]
-Nửa chu vi là $24:2=12$ cm, nên chiều dài cộng chiều rộng bằng $12$ cm. Ta có các cặp: $1\times11=11$; $2\times10=20$; $3\times9=27$; $4\times8=32$; $5\times7=35$; $6\times6=36$ ($\text{cm}^2$).
-
-Diện tích lớn nhất là $36\ \text{cm}^2$, khi hình chữ nhật là hình vuông cạnh $6$ cm.
-
-**Đáp số.** $36\ \text{cm}^2$.
-
-[ĐỀ – EN]
-A rectangle has perimeter $24$ cm, and both sides are whole numbers of centimetres. Find the greatest possible area of the rectangle.
-
-[LỜI GIẢI CŨ – EN]
-Half the perimeter is $24\div2=12$ cm, so the length plus the width is $12$ cm. The pairs give: $1\times11=11$; $2\times10=20$; $3\times9=27$; $4\times8=32$; $5\times7=35$; $6\times6=36$ ($\text{cm}^2$).
-
-The greatest area is $36\ \text{cm}^2$, when the rectangle is a square of side $6$ cm.
-
-**Answer.** $36\ \text{cm}^2$.
-
-
-######################################################################
-@@@ g5/review-natural-number-operations
-Bài học: Ôn tập các phép tính với số tự nhiên / Review: calculations with natural numbers
+@@@ g4/review-calculations-to-100000
+Bài học: Ôn tập các phép tính trong phạm vi 100 000 / Review: calculations within 100,000
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Đặt tính rồi tính: a) $5\,274+3\,968$; b) $6\,005-2\,847$.
+Tính $46\,285+27\,639$.
 
 [LỜI GIẢI CŨ – VI]
-a) $5\,274+3\,968=9\,242$.
+$5+9=14$ (viết $4$ nhớ $1$); $8+3+1=12$ (viết $2$ nhớ $1$); $2+6+1=9$; $6+7=13$ (viết $3$ nhớ $1$); $4+2+1=7$. Được $73\,924$.
 
-b) $6\,005-2\,847=3\,158$ (thử lại: $3\,158+2\,847=6\,005$).
-
-**Đáp số.** a) $9\,242$; b) $3\,158$.
+**Đáp số.** $73\,924$.
 
 [ĐỀ – EN]
-Set out in columns and work out: a) $5\,274+3\,968$; b) $6\,005-2\,847$.
+Work out $46\,285+27\,639$.
 
 [LỜI GIẢI CŨ – EN]
-a) $5\,274+3\,968=9\,242$.
+$5+9=14$ (write $4$, regroup $1$); $8+3+1=12$ (write $2$, regroup $1$); $2+6+1=9$; $6+7=13$ (write $3$, regroup $1$); $4+2+1=7$. The result is $73\,924$.
 
-b) $6\,005-2\,847=3\,158$ (check: $3\,158+2\,847=6\,005$).
-
-**Answer.** a) $9\,242$; b) $3\,158$.
+**Answer.** $73\,924$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Tính: a) $406\times25$; b) $3\,150:15$.
+Tính $80\,000-36\,457$ rồi thử lại.
 
 [LỜI GIẢI CŨ – VI]
-a) $406\times25=8\,120+2\,030=10\,150$.
+$10-7=3$; $9-5=4$; $9-4=5$; $9-6=3$; $7-3=4$. Được $43\,543$.
 
-b) $3\,150:15=210$, vì $15\times210=3\,150$.
+**Thử lại.** $43\,543+36\,457=80\,000$.
 
-**Đáp số.** a) $10\,150$; b) $210$.
+**Đáp số.** $43\,543$.
 
 [ĐỀ – EN]
-Work out: a) $406\times25$; b) $3\,150\div15$.
+Work out $80\,000-36\,457$ and check your answer.
 
 [LỜI GIẢI CŨ – EN]
-a) $406\times25=8\,120+2\,030=10\,150$.
+$10-7=3$; $9-5=4$; $9-4=5$; $9-6=3$; $7-3=4$. The result is $43\,543$.
 
-b) $3\,150\div15=210$, because $15\times210=3\,150$.
+**Check.** $43\,543+36\,457=80\,000$.
 
-**Answer.** a) $10\,150$; b) $210$.
+**Answer.** $43\,543$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Tính giá trị biểu thức: a) $56+24:6\times5$; b) $90-(18+12)\times2$.
+Tính $14\,308\times5$.
 
 [LỜI GIẢI CŨ – VI]
-a) $56+24:6\times5=56+4\times5=56+20=76$.
+$8\times5=40$ (viết $0$ nhớ $4$); $0\times5+4=4$; $3\times5=15$ (viết $5$ nhớ $1$); $4\times5+1=21$ (viết $1$ nhớ $2$); $1\times5+2=7$. Được $71\,540$.
 
-b) $90-(18+12)\times2=90-30\times2=90-60=30$.
-
-**Đáp số.** a) $76$; b) $30$.
+**Đáp số.** $71\,540$.
 
 [ĐỀ – EN]
-Work out the value of: a) $56+24\div6\times5$; b) $90-(18+12)\times2$.
+Work out $14\,308\times5$.
 
 [LỜI GIẢI CŨ – EN]
-a) $56+24\div6\times5=56+4\times5=56+20=76$.
+$8\times5=40$ (write $0$, regroup $4$); $0\times5+4=4$; $3\times5=15$ (write $5$, regroup $1$); $4\times5+1=21$ (write $1$, regroup $2$); $1\times5+2=7$. The result is $71\,540$.
 
-b) $90-(18+12)\times2=90-30\times2=90-60=30$.
-
-**Answer.** a) $76$; b) $30$.
+**Answer.** $71\,540$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tính nhanh: a) $4\times18\times25$; b) $75\times34+75\times66$.
+Tính $72\,168:8$ rồi thử lại.
 
 [LỜI GIẢI CŨ – VI]
-a) $4\times18\times25=(4\times25)\times18=100\times18=1\,800$.
+$72:8=9$ dư $0$. Hạ $1$: $1:8=0$ dư $1$. Hạ $6$: $16:8=2$ dư $0$. Hạ $8$: $8:8=1$. Thương là $9\,021$.
 
-b) $75\times34+75\times66=75\times(34+66)=75\times100=7\,500$.
+**Thử lại.** $9\,021\times8=72\,168$.
 
-**Đáp số.** a) $1\,800$; b) $7\,500$.
+**Đáp số.** $9\,021$.
 
 [ĐỀ – EN]
-Calculate quickly: a) $4\times18\times25$; b) $75\times34+75\times66$.
+Work out $72\,168\div8$ and check your answer.
 
 [LỜI GIẢI CŨ – EN]
-a) $4\times18\times25=(4\times25)\times18=100\times18=1\,800$.
+$72\div8=9$ remainder $0$. Bring down $1$: $1\div8=0$ remainder $1$. Bring down $6$: $16\div8=2$ remainder $0$. Bring down $8$: $8\div8=1$. The quotient is $9\,021$.
 
-b) $75\times34+75\times66=75\times(34+66)=75\times100=7\,500$.
+**Check.** $9\,021\times8=72\,168$.
 
-**Answer.** a) $1\,800$; b) $7\,500$.
+**Answer.** $9\,021$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Mẹ mua $3$ hộp sữa, mỗi hộp $38\,000$ đồng, và $2$ túi bánh, mỗi túi $25\,000$ đồng. Mẹ đưa cô bán hàng $200\,000$ đồng. Hỏi cô trả lại mẹ bao nhiêu tiền?
+Có $18\,000$ kg ngô, chia đều vào $6$ xe tải. Mỗi xe chở bao nhiêu ki-lô-gam ngô? Vì sao em dùng phép chia?
 
 [LỜI GIẢI CŨ – VI]
-Tiền sữa: $3\times38\,000=114\,000$ (đồng).
+Chia đều thì mỗi xe chở như nhau, nên ta chia tổng số ngô cho số xe:
+$$18\,000:6=3\,000\ \text{(kg)}.$$
 
-Tiền bánh: $2\times25\,000=50\,000$ (đồng).
+**Thử lại.** $3\,000\times6=18\,000$.
 
-Tiền trả lại: $200\,000-(114\,000+50\,000)=36\,000$ (đồng).
-
-**Đáp số.** $36\,000$ đồng.
+**Đáp số.** $3\,000$ kg ngô.
 
 [ĐỀ – EN]
-Mum buys $3$ cartons of milk at $38\,000$ dong each and $2$ bags of biscuits at $25\,000$ dong each. She gives the cashier $200\,000$ dong. How much change does she get?
+$18\,000$ kg of maize is shared equally between $6$ lorries. How many kilograms of maize does each lorry carry? Why do you use division?
 
 [LỜI GIẢI CŨ – EN]
-Cost of the milk: $3\times38\,000=114\,000$ dong.
+Shared equally means each lorry carries the same amount, so we divide the total maize by the number of lorries:
+$$18\,000\div6=3\,000\ \text{(kg)}.$$
 
-Cost of the biscuits: $2\times25\,000=50\,000$ dong.
+**Check.** $3\,000\times6=18\,000$.
 
-Change: $200\,000-(114\,000+50\,000)=36\,000$ dong.
-
-**Answer.** $36\,000$ dong.
+**Answer.** $3\,000$ kg of maize.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Có $250$ học sinh đi tham quan. Mỗi xe chở nhiều nhất $45$ học sinh. Cần ít nhất bao nhiêu xe?
+Nam tính $36\,054:6=609$. Nam sai ở đâu? Hãy tính lại.
 
 [LỜI GIẢI CŨ – VI]
-$250:45=5$ (dư $25$). Năm xe chở $225$ học sinh, còn $25$ học sinh nên cần thêm $1$ xe: $5+1=6$.
+$609\times6=3\,654\ne36\,054$, nên Nam sai. Chia lại: $36:6=6$. Hạ $0$: $0:6=0$. Hạ $5$: $5:6=0$ dư $5$. Hạ $4$: $54:6=9$. Thương là $6\,009$.
 
-**Đáp số.** $6$ xe.
+**Đáp số.** Nam quên chữ số $0$; đúng là $36\,054:6=6\,009$.
 
 [ĐỀ – EN]
-$250$ students go on a trip. Each coach carries at most $45$ students. What is the smallest number of coaches needed?
+Nam works out $36\,054\div6=609$. Where did Nam go wrong? Work it out again.
 
 [LỜI GIẢI CŨ – EN]
-$250\div45=5$ remainder $25$. Five coaches carry $225$ students, so $25$ are left and $1$ more coach is needed: $5+1=6$.
+$609\times6=3\,654\ne36\,054$, so Nam is wrong. Dividing again: $36\div6=6$. Bring down $0$: $0\div6=0$. Bring down $5$: $5\div6=0$ remainder $5$. Bring down $4$: $54\div6=9$. The quotient is $6\,009$.
 
-**Answer.** $6$ coaches.
+**Answer.** Nam forgot a zero; the correct answer is $36\,054\div6=6\,009$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài trước. Dùng bốn chữ số $3,\ 0,\ 8,\ 5$, mỗi chữ số đúng một lần, lập số lớn nhất và số bé nhất có bốn chữ số. Tính hiệu hai số đó.
+Ngày đầu một cửa hàng bán $15\,360$ kg gạo. Ngày thứ hai bán nhiều hơn ngày đầu $2\,840$ kg. Cả hai ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo?
 
 [LỜI GIẢI CŨ – VI]
-Số lớn nhất là $8\,530$, số bé nhất là $3\,058$. Hiệu là $8\,530-3\,058=5\,472$.
+Ngày thứ hai bán: $15\,360+2\,840=18\,200$ (kg). Cả hai ngày bán: $15\,360+18\,200=33\,560$ (kg).
 
-**Đáp số.** $5\,472$.
+**Đáp số.** $33\,560$ kg gạo.
 
 [ĐỀ – EN]
-Remember the previous lesson. Use the four digits $3,\ 0,\ 8,\ 5$, each exactly once, to make the largest and the smallest four-digit number. Work out the difference between them.
+On the first day a shop sells $15\,360$ kg of rice. On the second day it sells $2\,840$ kg more than on the first day. How many kilograms of rice does the shop sell in the two days?
 
 [LỜI GIẢI CŨ – EN]
-The largest number is $8\,530$ and the smallest is $3\,058$. The difference is $8\,530-3\,058=5\,472$.
+Second day: $15\,360+2\,840=18\,200$ (kg). Both days: $15\,360+18\,200=33\,560$ (kg).
 
-**Answer.** $5\,472$.
+**Answer.** $33\,560$ kg of rice.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Tìm số tự nhiên $x$ biết $5\times(x+12)-30=120$.
+Một đơn hàng cần $90\,000$ viên gạch. Bốn xe đã chở, mỗi xe $12\,500$ viên. Số gạch còn thiếu được chở đều trong $8$ ngày. Mỗi ngày phải chở bao nhiêu viên gạch?
 
 [LỜI GIẢI CŨ – VI]
-$5\times(x+12)=120+30=150$, nên $x+12=150:5=30$ và $x=30-12=18$.
+Đã chở: $12\,500\times4=50\,000$ (viên). Còn thiếu: $90\,000-50\,000=40\,000$ (viên). Mỗi ngày chở: $40\,000:8=5\,000$ (viên).
 
-**Kiểm tra.** $5\times(18+12)-30=150-30=120$. Đúng.
+**Kiểm tra.** $5\,000\times8=40\,000$.
 
-**Đáp số.** $18$.
+**Đáp số.** $5\,000$ viên gạch.
 
 [ĐỀ – EN]
-Find the natural number $x$ such that $5\times(x+12)-30=120$.
+An order needs $90\,000$ bricks. Four lorries have already carried $12\,500$ bricks each. The bricks still needed are carried equally over $8$ days. How many bricks must be carried each day?
 
 [LỜI GIẢI CŨ – EN]
-$5\times(x+12)=120+30=150$, so $x+12=150\div5=30$ and $x=30-12=18$.
+Already carried: $12\,500\times4=50\,000$ (bricks). Still needed: $90\,000-50\,000=40\,000$ (bricks). Each day: $40\,000\div8=5\,000$ (bricks).
 
-**Check.** $5\times(18+12)-30=150-30=120$. Correct.
+**Check.** $5\,000\times8=40\,000$.
 
-**Answer.** $18$.
+**Answer.** $5\,000$ bricks.
 
 
 ######################################################################
-@@@ g5/review-natural-numbers
-Bài học: Ôn tập số tự nhiên / Review: natural numbers
+@@@ g4/review-numbers-to-100000
+Bài học: Ôn tập các số đến 100 000 / Review: numbers to 100,000
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đọc số $41\,305$.
+
+[LỜI GIẢI CŨ – VI]
+Các chữ số: chục nghìn $4$, nghìn $1$, trăm $3$, chục $0$, đơn vị $5$.
+
+**Đáp số.** Bốn mươi mốt nghìn ba trăm linh năm.
+
+[ĐỀ – EN]
+Read the number $41\,305$.
+
+[LỜI GIẢI CŨ – EN]
+The digits: ten thousands $4$, thousands $1$, hundreds $3$, tens $0$, ones $5$.
+
+**Answer.** Forty-one thousand, three hundred and five.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết các số sau:
+a) Sáu mươi nghìn hai trăm mười.
+b) Hai mươi ba nghìn không trăm linh tám.
+
+[LỜI GIẢI CŨ – VI]
+a) $60\,000+200+10=60\,210$.
+
+b) $23\,000+8=23\,008$.
+
+**Đáp số.** a) $60\,210$. b) $23\,008$.
+
+[ĐỀ – EN]
+Write these numbers:
+a) Sixty thousand, two hundred and ten.
+b) Twenty-three thousand and eight.
+
+[LỜI GIẢI CŨ – EN]
+a) $60\,000+200+10=60\,210$.
+
+b) $23\,000+8=23\,008$.
+
+**Answer.** a) $60\,210$. b) $23\,008$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Viết số $70\,605$ thành tổng các hàng.
+
+[LỜI GIẢI CŨ – VI]
+Các chữ số: $7$ chục nghìn, $0$ nghìn, $6$ trăm, $0$ chục, $5$ đơn vị. Vậy $70\,605=70\,000+600+5$.
+
+**Đáp số.** $70\,000+600+5$.
+
+[ĐỀ – EN]
+Write $70\,605$ as a sum of its places.
+
+[LỜI GIẢI CŨ – EN]
+The digits: $7$ ten thousands, $0$ thousands, $6$ hundreds, $0$ tens, $5$ ones. So $70\,605=70\,000+600+5$.
+
+**Answer.** $70\,000+600+5$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho số $58\,142$. Hãy nêu giá trị của chữ số $5$, chữ số $8$ và chữ số $4$.
+
+[LỜI GIẢI CŨ – VI]
+Chữ số $5$ ở hàng chục nghìn: giá trị $50\,000$. Chữ số $8$ ở hàng nghìn: giá trị $8\,000$. Chữ số $4$ ở hàng chục: giá trị $40$.
+
+**Đáp số.** $50\,000$; $8\,000$; $40$.
+
+[ĐỀ – EN]
+Look at the number $58\,142$. Give the value of the digit $5$, the digit $8$ and the digit $4$.
+
+[LỜI GIẢI CŨ – EN]
+The digit $5$ is in the ten thousands place: value $50\,000$. The digit $8$ is in the thousands place: value $8\,000$. The digit $4$ is in the tens place: value $40$.
+
+**Answer.** $50\,000$; $8\,000$; $40$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hà làm hai bài sau. Hà sai ở đâu? Hãy sửa lại.
+a) Hà đọc $30\,502$ là "ba mươi nghìn năm trăm hai mươi".
+b) Hà nói $9\,999>10\,000$ vì $9>1$.
+
+[LỜI GIẢI CŨ – VI]
+a) "Ba mươi nghìn năm trăm hai mươi" là $30\,520$. Số $30\,502$ có chữ số hàng chục là $0$, nên đọc là "ba mươi nghìn năm trăm linh hai".
+
+b) $9\,999$ có $4$ chữ số, $10\,000$ có $5$ chữ số, nên $9\,999<10\,000$. Hà không được so một chữ số đầu khi số chữ số khác nhau.
+
+**Đáp số.** a) Ba mươi nghìn năm trăm linh hai. b) $9\,999<10\,000$.
+
+[ĐỀ – EN]
+Ha did the two tasks below. Where did Ha go wrong? Correct them.
+a) Ha read $30\,502$ as "thirty thousand, five hundred and twenty".
+b) Ha said $9\,999>10\,000$ because $9>1$.
+
+[LỜI GIẢI CŨ – EN]
+a) "Thirty thousand, five hundred and twenty" is $30\,520$. The number $30\,502$ has tens digit $0$, so it is read "thirty thousand, five hundred and two".
+
+b) $9\,999$ has $4$ digits and $10\,000$ has $5$ digits, so $9\,999<10\,000$. Ha must not compare just the first digits when the numbers of digits differ.
+
+**Answer.** a) Thirty thousand, five hundred and two. b) $9\,999<10\,000$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Ba thư viện có số quyển sách là $24\,300$; $8\,900$; $24\,030$. Hãy sắp xếp theo thứ tự từ bé đến lớn và cho biết thư viện nào có nhiều sách nhất.
+
+[LỜI GIẢI CŨ – VI]
+$8\,900$ có $4$ chữ số nên bé nhất. Hai số còn lại cùng có $5$ chữ số, chung hàng chục nghìn và hàng nghìn. Hàng trăm: $0<3$ nên $24\,030<24\,300$.
+
+**Đáp số.** $8\,900<24\,030<24\,300$; thư viện có $24\,300$ quyển nhiều sách nhất.
+
+[ĐỀ – EN]
+Three libraries have $24\,300$; $8\,900$; and $24\,030$ books. Put them in order from least to greatest and say which library has the most books.
+
+[LỜI GIẢI CŨ – EN]
+$8\,900$ has $4$ digits, so it is the least. The other two both have $5$ digits and share the ten thousands and thousands digits. In the hundreds place $0<3$, so $24\,030<24\,300$.
+
+**Answer.** $8\,900<24\,030<24\,300$; the library with $24\,300$ books has the most.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Từ các chữ số $0$, $3$, $5$, $7$, $9$ (mỗi chữ số dùng đúng một lần), hãy lập số có $5$ chữ số lớn nhất và số có $5$ chữ số bé nhất.
+
+[LỜI GIẢI CŨ – VI]
+Số lớn nhất: $97\,530$. Số bé nhất: chữ số đầu là chữ số bé nhất khác $0$, tức $3$; các chữ số còn lại xếp từ bé đến lớn: $0$, $5$, $7$, $9$. Được $30\,579$.
+
+**Đáp số.** Số lớn nhất $97\,530$; số bé nhất $30\,579$.
+
+[ĐỀ – EN]
+Using the digits $0$, $3$, $5$, $7$, $9$ (each digit used exactly once), make the greatest $5$-digit number and the least $5$-digit number.
+
+[LỜI GIẢI CŨ – EN]
+Greatest: $97\,530$. Least: the first digit is the smallest digit that is not $0$, which is $3$; the other digits go from least to greatest: $0$, $5$, $7$, $9$. This gives $30\,579$.
+
+**Answer.** Greatest $97\,530$; least $30\,579$.
+
+
+######################################################################
+@@@ g4/rounding-hundred-thousands
+Bài học: Làm tròn số đến hàng trăm nghìn. Làm quen với dãy số tự nhiên / Rounding to the nearest hundred thousand. Introducing the sequence of natural numbers
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Viết số: tám triệu bốn trăm linh năm nghìn hai trăm ba mươi.
+Làm tròn $5\,683\,200$ đến hàng trăm nghìn.
 
 [LỜI GIẢI CŨ – VI]
-Tám triệu là $8$; bốn trăm linh năm nghìn là $405$ nghìn; hai trăm ba mươi là $230$.
+Chữ số hàng trăm nghìn là $6$, chữ số hàng chục nghìn là $8$. Vì $8\geq5$ nên tăng $6$ lên $7$ và thay các chữ số bên phải bằng $0$.
 
-**Đáp số.** $8\,405\,230$.
+**Đáp số.** $5\,700\,000$.
 
 [ĐỀ – EN]
-Write the number: eight million four hundred and five thousand two hundred and thirty.
+Round $5\,683\,200$ to the nearest hundred thousand.
 
 [LỜI GIẢI CŨ – EN]
-Eight million is $8$; four hundred and five thousand is $405$ thousand; two hundred and thirty is $230$.
+The hundred-thousands digit is $6$ and the ten-thousands digit is $8$. Since $8\geq5$, increase $6$ to $7$ and replace the digits to its right with $0$.
 
-**Answer.** $8\,405\,230$.
+**Answer.** $5\,700\,000$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Nêu giá trị của chữ số $7$ trong số $3\,571\,092$.
+Làm tròn $417\,305$ đến hàng trăm nghìn.
 
 [LỜI GIẢI CŨ – VI]
-Số $3\,571\,092$ có chữ số $7$ ở hàng chục nghìn.
+Chữ số hàng trăm nghìn là $4$, chữ số hàng chục nghìn là $1$. Vì $1<5$ nên giữ nguyên $4$ và thay các chữ số bên phải bằng $0$.
 
-**Đáp số.** Giá trị của chữ số $7$ là $70\,000$.
+**Đáp số.** $400\,000$.
 
 [ĐỀ – EN]
-State the value of the digit $7$ in the number $3\,571\,092$.
+Round $417\,305$ to the nearest hundred thousand.
 
 [LỜI GIẢI CŨ – EN]
-In the number $3\,571\,092$ the digit $7$ is in the ten thousands place.
+The hundred-thousands digit is $4$ and the ten-thousands digit is $1$. Since $1<5$, keep $4$ and replace the digits to its right with $0$.
 
-**Answer.** The value of the digit $7$ is $70\,000$.
+**Answer.** $400\,000$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Điền dấu $>$, $<$ hoặc $=$: $3\,571\,092\ \ldots\ 3\,517\,920$.
+Làm tròn $850\,000$ đến hàng trăm nghìn.
 
 [LỜI GIẢI CŨ – VI]
-Hai số đều có $7$ chữ số. Hàng triệu: $3=3$. Hàng trăm nghìn: $5=5$. Hàng chục nghìn: $7>1$.
+Chữ số hàng trăm nghìn là $8$, chữ số hàng chục nghìn là $5$. Vì $5\geq5$ nên tăng $8$ lên $9$.
 
-**Đáp số.** $3\,571\,092>3\,517\,920$.
+**Đáp số.** $900\,000$.
 
 [ĐỀ – EN]
-Put $>$, $<$ or $=$ in the gap: $3\,571\,092\ \ldots\ 3\,517\,920$.
+Round $850\,000$ to the nearest hundred thousand.
 
 [LỜI GIẢI CŨ – EN]
-Both numbers have $7$ digits. Millions: $3=3$. Hundred thousands: $5=5$. Ten thousands: $7>1$.
+The hundred-thousands digit is $8$ and the ten-thousands digit is $5$. Since $5\geq5$, increase $8$ to $9$.
 
-**Answer.** $3\,571\,092>3\,517\,920$.
+**Answer.** $900\,000$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Sắp xếp các số $45\,720$; $45\,270$; $54\,027$; $5\,472$ theo thứ tự từ bé đến lớn.
+Làm tròn $726\,481$ đến hàng nghìn, đến hàng chục nghìn và đến hàng trăm nghìn.
 
 [LỜI GIẢI CŨ – VI]
-Số $5\,472$ có $4$ chữ số nên bé nhất. Trong các số có $5$ chữ số: $45\,270<45\,720<54\,027$.
+Đến hàng nghìn: chữ số hàng trăm là $4<5$, giữ nguyên $6$, được $726\,000$. Đến hàng chục nghìn: chữ số hàng nghìn là $6\geq5$, tăng $2$ lên $3$, được $730\,000$. Đến hàng trăm nghìn: chữ số hàng chục nghìn là $2<5$, giữ nguyên $7$, được $700\,000$.
 
-**Đáp số.** $5\,472<45\,270<45\,720<54\,027$.
+**Đáp số.** $726\,000$; $730\,000$; $700\,000$.
 
 [ĐỀ – EN]
-Put the numbers $45\,720$; $45\,270$; $54\,027$; $5\,472$ in order from least to greatest.
+Round $726\,481$ to the nearest thousand, the nearest ten thousand and the nearest hundred thousand.
 
 [LỜI GIẢI CŨ – EN]
-The number $5\,472$ has $4$ digits, so it is the least. Among the numbers with $5$ digits: $45\,270<45\,720<54\,027$.
+To the nearest thousand: the hundreds digit is $4<5$, keep $6$, giving $726\,000$. To the nearest ten thousand: the thousands digit is $6\geq5$, increase $2$ to $3$, giving $730\,000$. To the nearest hundred thousand: the ten-thousands digit is $2<5$, keep $7$, giving $700\,000$.
 
-**Answer.** $5\,472<45\,270<45\,720<54\,027$.
+**Answer.** $726\,000$; $730\,000$; $700\,000$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Làm tròn số $6\,481\,300$ đến hàng nghìn và đến hàng trăm nghìn.
+Một thành phố (số liệu giả định) có $3\,856\,000$ người. Hỏi thành phố có khoảng bao nhiêu người (làm tròn đến hàng trăm nghìn)?
 
 [LỜI GIẢI CŨ – VI]
-Làm tròn đến hàng nghìn: chữ số hàng trăm là $3<5$, nên được $6\,481\,000$.
+Bài giải
 
-Làm tròn đến hàng trăm nghìn: chữ số hàng chục nghìn là $8\geq5$, nên tăng $4$ thêm $1$ thành $5$, được $6\,500\,000$.
+Chữ số hàng trăm nghìn là $8$, chữ số hàng chục nghìn là $5$. Vì $5\geq5$ nên tăng $8$ lên $9$.
 
-**Đáp số.** $6\,481\,000$ và $6\,500\,000$.
+Số người khoảng $3\,900\,000$.
+
+**Đáp số.** Khoảng $3\,900\,000$ người.
 
 [ĐỀ – EN]
-Round $6\,481\,300$ to the nearest thousand and to the nearest hundred thousand.
+A city (made-up numbers) has $3\,856\,000$ people. About how many people does the city have (to the nearest hundred thousand)?
 
 [LỜI GIẢI CŨ – EN]
-To the nearest thousand: the hundreds digit is $3<5$, so we get $6\,481\,000$.
+Solution
 
-To the nearest hundred thousand: the ten thousands digit is $8\geq5$, so increase $4$ by $1$ to make $5$, giving $6\,500\,000$.
+The hundred-thousands digit is $8$ and the ten-thousands digit is $5$. Since $5\geq5$, increase $8$ to $9$.
 
-**Answer.** $6\,481\,000$ and $6\,500\,000$.
+The number of people is about $3\,900\,000$.
+
+**Answer.** About $3\,900\,000$ people.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Tính giá trị của biểu thức: $125\times8-360:6+14$.
+Hai trận đấu (số liệu giả định) có $41\,280$ khán giả và $57\,340$ khán giả. Hỏi cả hai trận có khoảng bao nhiêu khán giả (làm tròn đến hàng chục nghìn)?
 
 [LỜI GIẢI CŨ – VI]
-$$\begin{aligned} 125\times8-360:6+14 &= 1\,000-60+14 \\ &= 954. \end{aligned}$$
+Bài giải
 
-**Đáp số.** $954$.
+Tổng số khán giả là:
+$$41\,280+57\,340=98\,620\ \text{(người)}.$$
+Chữ số hàng chục nghìn là $9$, chữ số hàng nghìn là $8\geq5$ nên tăng $9$ lên $10$, được $100\,000$.
+
+**Đáp số.** Khoảng $100\,000$ khán giả.
 
 [ĐỀ – EN]
-Work out the value of the expression: $125\times8-360\div6+14$.
+Two matches (made-up numbers) have $41\,280$ spectators and $57\,340$ spectators. About how many spectators are there at the two matches altogether (to the nearest ten thousand)?
 
 [LỜI GIẢI CŨ – EN]
-$$\begin{aligned} 125\times8-360\div6+14 &= 1\,000-60+14 \\ &= 954. \end{aligned}$$
+Solution
 
-**Answer.** $954$.
+The total number of spectators is:
+$$41\,280+57\,340=98\,620\ \text{(people)}.$$
+The ten-thousands digit is $9$ and the thousands digit is $8\geq5$, so increase $9$ to $10$, giving $100\,000$.
+
+**Answer.** About $100\,000$ spectators.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Một nhà xuất bản in $24\,500$ cuốn sách vào tháng Một và $31\,750$ cuốn sách vào tháng Hai. Hỏi cả hai tháng nhà xuất bản in được bao nhiêu cuốn sách? Làm tròn kết quả đến hàng nghìn.
+Viết $6$ số tự nhiên liên tiếp sau số $999\,997$.
 
 [LỜI GIẢI CŨ – VI]
-Số sách in được trong hai tháng là $24\,500+31\,750=56\,250$ (cuốn).
+Ta có $999\,997+1=999\,998$, rồi $999\,999$, $1\,000\,000$, $1\,000\,001$, $1\,000\,002$, $1\,000\,003$.
 
-Làm tròn đến hàng nghìn: chữ số hàng trăm là $2<5$ nên được $56\,000$.
-
-**Đáp số.** $56\,250$ cuốn, khoảng $56\,000$ cuốn.
+**Đáp số.** $999\,998$; $999\,999$; $1\,000\,000$; $1\,000\,001$; $1\,000\,002$; $1\,000\,003$.
 
 [ĐỀ – EN]
-A publisher prints $24\,500$ books in January and $31\,750$ books in February. How many books does the publisher print in the two months altogether? Round the result to the nearest thousand.
+Write the $6$ consecutive natural numbers after $999\,997$.
 
 [LỜI GIẢI CŨ – EN]
-The number of books printed in the two months is $24\,500+31\,750=56\,250$ (books).
+We have $999\,997+1=999\,998$, then $999\,999$, $1\,000\,000$, $1\,000\,001$, $1\,000\,002$, $1\,000\,003$.
 
-To the nearest thousand: the hundreds digit is $2<5$, so we get $56\,000$.
-
-**Answer.** $56\,250$ books, about $56\,000$ books.
+**Answer.** $999\,998$; $999\,999$; $1\,000\,000$; $1\,000\,001$; $1\,000\,002$; $1\,000\,003$.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Mẹ có $100\,000$ đồng và mua $3$ hộp sữa, mỗi hộp giá $24\,500$ đồng. Hỏi mẹ còn lại bao nhiêu tiền?
+Em hãy nhớ lại bài so sánh các số có nhiều chữ số. So sánh $2\,467\,891$ với số làm tròn của nó đến hàng trăm nghìn. Số làm tròn lớn hơn hay bé hơn số ban đầu?
 
 [LỜI GIẢI CŨ – VI]
-Số tiền mua $3$ hộp sữa là $24\,500\times3=73\,500$ (đồng).
+Số làm tròn là $2\,500\,000$. Hai số đều có bảy chữ số. Hàng triệu: $2=2$. Hàng trăm nghìn: $4<5$. Vậy $2\,467\,891<2\,500\,000$.
 
-Số tiền mẹ còn lại là $100\,000-73\,500=26\,500$ (đồng).
-
-**Đáp số.** $26\,500$ đồng.
+**Đáp số.** Số làm tròn $2\,500\,000$ lớn hơn số ban đầu.
 
 [ĐỀ – EN]
-Mum has $100\,000$ dong and buys $3$ cartons of milk at $24\,500$ dong each. How much money does Mum have left?
+Remember the lesson on comparing numbers with many digits. Compare $2\,467\,891$ with its rounded value to the nearest hundred thousand. Is the rounded value greater or smaller than the original number?
 
 [LỜI GIẢI CŨ – EN]
-The cost of $3$ cartons of milk is $24\,500\times3=73\,500$ (dong).
+The rounded value is $2\,500\,000$. Both numbers have seven digits. Millions: $2=2$. Hundred-thousands: $4<5$. So $2\,467\,891<2\,500\,000$.
 
-The money Mum has left is $100\,000-73\,500=26\,500$ (dong).
-
-**Answer.** $26\,500$ dong.
+**Answer.** The rounded value $2\,500\,000$ is greater than the original number.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài tính chất của phép nhân. Tính bằng cách thuận tiện: $25\times37\times4$.
+Nam làm tròn $3\,548\,200$ đến hàng trăm nghìn được $3\,600\,000$. Em hãy kiểm tra kết quả của Nam. Nếu sai, em hãy sửa lại.
 
 [LỜI GIẢI CŨ – VI]
-$$25\times37\times4=(25\times4)\times37=100\times37=3\,700.$$
+Chữ số hàng trăm nghìn là $5$, chữ số hàng chục nghìn là $4$. Vì $4<5$ nên giữ nguyên $5$ và thay các chữ số bên phải bằng $0$, được $3\,500\,000$. Nam đã nhìn chữ số hàng nghìn là $8$ nên làm tròn lên sai.
 
-**Đáp số.** $3\,700$.
+**Đáp số.** Nam sai; kết quả đúng là $3\,500\,000$.
 
 [ĐỀ – EN]
-Remember the lesson on properties of multiplication. Calculate in the easy way: $25\times37\times4$.
+Nam rounds $3\,548\,200$ to the nearest hundred thousand and gets $3\,600\,000$. Check Nam's result. If it is wrong, correct it.
 
 [LỜI GIẢI CŨ – EN]
-$$25\times37\times4=(25\times4)\times37=100\times37=3\,700.$$
+The hundred-thousands digit is $5$ and the ten-thousands digit is $4$. Since $4<5$, keep $5$ and replace the digits to its right with $0$, giving $3\,500\,000$. Nam looked at the thousands digit $8$, so he rounded up wrongly.
 
-**Answer.** $3\,700$.
+**Answer.** Nam is wrong; the correct result is $3\,500\,000$.
 
 === Bài 10 ===
 [ĐỀ – VI]
-Tìm chữ số $a$ để số $\overline{4a5}$ chia hết cho cả $5$ và $9$.
+Tìm số tự nhiên có sáu chữ số bé nhất và lớn nhất mà khi làm tròn đến hàng trăm nghìn thì được $500\,000$.
 
 [LỜI GIẢI CŨ – VI]
-Số $\overline{4a5}$ tận cùng bằng $5$ nên luôn chia hết cho $5$.
+Số bé nhất: bắt đầu bằng $4$ và chữ số hàng chục nghìn phải từ $5$ trở lên nên số bé nhất là $450\,000$. Số lớn nhất: bắt đầu bằng $5$ và chữ số hàng chục nghìn phải bé hơn $5$ nên số lớn nhất là $549\,999$.
 
-Tổng các chữ số là $4+a+5=9+a$. Để chia hết cho $9$ thì $a$ phải bằng $0$ hoặc $9$.
+**Thử lại.** $449\,999$ làm tròn thành $400\,000$ và $550\,000$ làm tròn thành $600\,000$, đều khác $500\,000$.
 
-**Thử lại.** $405:9=45$ và $495:9=55$. Đúng.
-
-**Đáp số.** $a=0$ hoặc $a=9$.
+**Đáp số.** $450\,000$ và $549\,999$.
 
 [ĐỀ – EN]
-Find the digit $a$ for which the number $\overline{4a5}$ is divisible by both $5$ and $9$.
+Find the smallest and the largest six-digit natural number that rounds to $500\,000$ when rounded to the nearest hundred thousand.
 
 [LỜI GIẢI CŨ – EN]
-The number $\overline{4a5}$ ends in $5$, so it is always divisible by $5$.
+Smallest number: it starts with $4$ and the ten-thousands digit must be $5$ or more, so the smallest number is $450\,000$. Largest number: it starts with $5$ and the ten-thousands digit must be less than $5$, so the largest number is $549\,999$.
 
-The digit sum is $4+a+5=9+a$. For this to be divisible by $9$, $a$ must be $0$ or $9$.
+**Check.** $449\,999$ rounds to $400\,000$ and $550\,000$ rounds to $600\,000$, and neither is $500\,000$.
 
-**Check.** $405\div9=45$ and $495\div9=55$. Correct.
+**Answer.** $450\,000$ and $549\,999$.
 
-**Answer.** $a=0$ or $a=9$.
+
+######################################################################
+@@@ g4/simplifying-fractions
+Bài học: Rút gọn phân số. Quy đồng mẫu số các phân số / Simplifying fractions. Finding a common denominator
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Rút gọn phân số $\dfrac{10}{25}$.
+
+[LỜI GIẢI CŨ – VI]
+Cả $10$ và $25$ đều chia hết cho $5$:
+$$\dfrac{10}{25}=\dfrac{10:5}{25:5}=\dfrac{2}{5}.$$
+
+**Đáp số.** $\dfrac{2}{5}$.
+
+[ĐỀ – EN]
+Simplify the fraction $\dfrac{10}{25}$.
+
+[LỜI GIẢI CŨ – EN]
+Both $10$ and $25$ are divisible by $5$:
+$$\dfrac{10}{25}=\dfrac{10\div5}{25\div5}=\dfrac{2}{5}.$$
+
+**Answer.** $\dfrac{2}{5}$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Rút gọn phân số $\dfrac{36}{48}$ đến phân số tối giản.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{36}{48}=\dfrac{36:12}{48:12}=\dfrac{3}{4}.$$
+
+**Đáp số.** $\dfrac{3}{4}$.
+
+[ĐỀ – EN]
+Simplify the fraction $\dfrac{36}{48}$ to its simplest form.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{36}{48}=\dfrac{36\div12}{48\div12}=\dfrac{3}{4}.$$
+
+**Answer.** $\dfrac{3}{4}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Trong các phân số $\dfrac{4}{9}$, $\dfrac{6}{14}$, $\dfrac{15}{22}$, $\dfrac{18}{27}$, phân số nào là phân số tối giản?
+
+[LỜI GIẢI CŨ – VI]
+- $\dfrac{4}{9}$: $4$ và $9$ không có số chung lớn hơn $1$, nên tối giản.
+- $\dfrac{6}{14}=\dfrac{3}{7}$: rút gọn được.
+- $\dfrac{15}{22}$: $15$ và $22$ không có số chung lớn hơn $1$, nên tối giản.
+- $\dfrac{18}{27}=\dfrac{2}{3}$: rút gọn được.
+
+**Đáp số.** $\dfrac{4}{9}$ và $\dfrac{15}{22}$.
+
+[ĐỀ – EN]
+Which of the fractions $\dfrac{4}{9}$, $\dfrac{6}{14}$, $\dfrac{15}{22}$, $\dfrac{18}{27}$ are in their simplest form?
+
+[LỜI GIẢI CŨ – EN]
+- $\dfrac{4}{9}$: $4$ and $9$ have no common divisor greater than $1$, so it is in its simplest form.
+- $\dfrac{6}{14}=\dfrac{3}{7}$: it can be simplified.
+- $\dfrac{15}{22}$: $15$ and $22$ have no common divisor greater than $1$, so it is in its simplest form.
+- $\dfrac{18}{27}=\dfrac{2}{3}$: it can be simplified.
+
+**Answer.** $\dfrac{4}{9}$ and $\dfrac{15}{22}$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Rút gọn phân số $\dfrac{120}{180}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{120}{180}=\dfrac{12}{18}=\dfrac{2}{3}.$$
+
+**Đáp số.** $\dfrac{2}{3}$.
+
+[ĐỀ – EN]
+Simplify the fraction $\dfrac{120}{180}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{120}{180}=\dfrac{12}{18}=\dfrac{2}{3}.$$
+
+**Answer.** $\dfrac{2}{3}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Quy đồng mẫu số hai phân số $\dfrac{3}{4}$ và $\dfrac{2}{7}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{3}{4}=\dfrac{3\times7}{4\times7}=\dfrac{21}{28},\qquad \dfrac{2}{7}=\dfrac{2\times4}{7\times4}=\dfrac{8}{28}.$$
+
+**Đáp số.** $\dfrac{21}{28}$ và $\dfrac{8}{28}$.
+
+[ĐỀ – EN]
+Write the fractions $\dfrac{3}{4}$ and $\dfrac{2}{7}$ over a common denominator.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{3}{4}=\dfrac{3\times7}{4\times7}=\dfrac{21}{28},\qquad \dfrac{2}{7}=\dfrac{2\times4}{7\times4}=\dfrac{8}{28}.$$
+
+**Answer.** $\dfrac{21}{28}$ and $\dfrac{8}{28}$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Quy đồng mẫu số hai phân số $\dfrac{7}{12}$ và $\dfrac{5}{6}$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $12$ chia hết cho $6$ nên giữ $\dfrac{7}{12}$ và đổi $\dfrac{5}{6}=\dfrac{5\times2}{6\times2}=\dfrac{10}{12}$.
+
+**Đáp số.** $\dfrac{7}{12}$ và $\dfrac{10}{12}$.
+
+[ĐỀ – EN]
+Write the fractions $\dfrac{7}{12}$ and $\dfrac{5}{6}$ over a common denominator.
+
+[LỜI GIẢI CŨ – EN]
+Since $12$ is divisible by $6$, keep $\dfrac{7}{12}$ and change $\dfrac{5}{6}=\dfrac{5\times2}{6\times2}=\dfrac{10}{12}$.
+
+**Answer.** $\dfrac{7}{12}$ and $\dfrac{10}{12}$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một lớp có $40$ học sinh, trong đó có $15$ em thích bóng đá. Viết phân số chỉ số em thích bóng đá so với cả lớp, rồi rút gọn phân số đó.
+
+[LỜI GIẢI CŨ – VI]
+Phân số chỉ số em thích bóng đá là $\dfrac{15}{40}$.
+
+Cả $15$ và $40$ chia hết cho $5$: $\dfrac{15}{40}=\dfrac{15:5}{40:5}=\dfrac{3}{8}$.
+
+**Đáp số.** $\dfrac{15}{40}=\dfrac{3}{8}$.
+
+[ĐỀ – EN]
+A class has $40$ students, of whom $15$ like football. Write the fraction of the class who like football, then simplify it.
+
+[LỜI GIẢI CŨ – EN]
+The fraction of the class who like football is $\dfrac{15}{40}$.
+
+Both $15$ and $40$ are divisible by $5$: $\dfrac{15}{40}=\dfrac{15\div5}{40\div5}=\dfrac{3}{8}$.
+
+**Answer.** $\dfrac{15}{40}=\dfrac{3}{8}$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một băng giấy được chia thành $8$ phần bằng nhau và tô màu $6$ phần. Một băng giấy khác cùng độ dài được chia thành $12$ phần bằng nhau. Phải tô màu mấy phần thì được phân số bằng với phân số băng giấy thứ nhất?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{6}{8}=\dfrac{6:2}{8:2}=\dfrac{3}{4}$.
+
+Vì $12=4\times3$ nên $\dfrac{3}{4}=\dfrac{3\times3}{4\times3}=\dfrac{9}{12}$.
+
+**Đáp số.** Phải tô màu $9$ phần.
+
+[ĐỀ – EN]
+A strip of paper is divided into $8$ equal parts and $6$ parts are coloured. Another strip of the same length is divided into $12$ equal parts. How many parts must be coloured to give a fraction equal to that of the first strip?
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{6}{8}=\dfrac{6\div2}{8\div2}=\dfrac{3}{4}$.
+
+Since $12=4\times3$, $\dfrac{3}{4}=\dfrac{3\times3}{4\times3}=\dfrac{9}{12}$.
+
+**Answer.** $9$ parts must be coloured.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài nhân, chia với $10$, $100$, $1\,000$. Rút gọn phân số $\dfrac{2\,400}{3\,600}$ đến phân số tối giản.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{2\,400}{3\,600}=\dfrac{24}{36}=\dfrac{24:12}{36:12}=\dfrac{2}{3}.$$
+
+**Đáp số.** $\dfrac{2}{3}$.
+
+[ĐỀ – EN]
+Remember the lesson on multiplying and dividing by $10$, $100$, $1\,000$. Simplify the fraction $\dfrac{2\,400}{3\,600}$ to its simplest form.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{2\,400}{3\,600}=\dfrac{24}{36}=\dfrac{24\div12}{36\div12}=\dfrac{2}{3}.$$
+
+**Answer.** $\dfrac{2}{3}$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tìm phân số bằng $\dfrac{3}{7}$ sao cho tổng của tử số và mẫu số bằng $50$.
+
+[LỜI GIẢI CŨ – VI]
+Phân số bằng $\dfrac{3}{7}$ có dạng $\dfrac{3\times k}{7\times k}$ nên tổng tử số và mẫu số là $3\times k+7\times k=10\times k$.
+
+Vì $10\times k=50$ nên $k=5$. Phân số cần tìm là $\dfrac{3\times5}{7\times5}=\dfrac{15}{35}$.
+
+**Thử lại.** $15+35=50$ và $\dfrac{15}{35}=\dfrac{15:5}{35:5}=\dfrac{3}{7}$. Đúng.
+
+**Đáp số.** $\dfrac{15}{35}$.
+
+[ĐỀ – EN]
+Find the fraction equal to $\dfrac{3}{7}$ whose numerator and denominator add up to $50$.
+
+[LỜI GIẢI CŨ – EN]
+A fraction equal to $\dfrac{3}{7}$ has the form $\dfrac{3\times k}{7\times k}$, so the sum of numerator and denominator is $3\times k+7\times k=10\times k$.
+
+Since $10\times k=50$, $k=5$. The fraction is $\dfrac{3\times5}{7\times5}=\dfrac{15}{35}$.
+
+**Check.** $15+35=50$ and $\dfrac{15}{35}=\dfrac{15\div5}{35\div5}=\dfrac{3}{7}$. Correct.
+
+**Answer.** $\dfrac{15}{35}$.
 
 
 ===== HẾT FILE Vinax.vn-08-LG =====

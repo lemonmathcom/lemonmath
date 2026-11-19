@@ -6,7 +6,7 @@ Kết quả: file Xedap102-04-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Xedap102-04-GV
-Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/ap-calculus/apcalc-analytical-applications, exams/ap-calculus/apcalc-area-volume, exams/ap-calculus/apcalc-bc-parametric-polar, exams/ap-calculus/apcalc-bc-series
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g11/perpendicular-planes
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/Xedap102-04-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  /mnt/user-data/outputs/Xedap102-04-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file Xedap102-04-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,1388 +135,570 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI exams/ap-calculus/apcalc-analytical-applications – BẢN TIẾNG VIỆT ########
+######## BÀI g11/perpendicular-planes – BẢN TIẾNG VIỆT ########
 ---
-title: Khảo sát hàm số bằng đạo hàm
-description: AP Calculus Unit 5: định lí giá trị trung bình, cực trị, đồng biến – nghịch biến, tính lõm, đọc đồ thị của f', tối ưu và cách lập luận.
-minutes: 50
+title: Hai mặt phẳng vuông góc
+description: Hiểu góc nhị diện, góc giữa hai mặt phẳng, điều kiện hai mặt phẳng vuông góc và tính góc giữa các mặt trong lăng trụ đứng, hình chóp đều.
+minutes: 20
 ---
 
   :::goals
-  - Áp dụng định lí giá trị trung bình và định lí giá trị cực biên, có kiểm tra điều kiện.
-  - Tìm khoảng đồng biến, nghịch biến và phân loại cực trị bằng dấu hiệu đạo hàm cấp một, cấp hai.
-  - Tìm giá trị lớn nhất, nhỏ nhất trên một đoạn bằng cách so sánh các "ứng viên".
-  - Xác định tính lõm và điểm uốn, kể cả từ đồ thị của $f'$.
-  - Giải bài toán tối ưu và viết lời lập luận được đủ điểm.
+  - Nhận biết góc nhị diện và xác định góc phẳng nhị diện.
+  - Xác định và tính góc giữa hai mặt phẳng cắt nhau.
+  - Chứng minh hai mặt phẳng vuông góc và dùng tính chất của hai mặt phẳng vuông góc.
+  - Nhận biết lăng trụ đứng, lăng trụ đều, hình hộp chữ nhật, hình chóp đều và tính góc giữa các mặt của chúng.
   :::
 
-[[P1·1fcb]]
-Unit 5 là một trong những unit có trọng số lớn nhất của AB, và các ý tưởng của nó quay lại trong gần như mọi câu tự luận có đồ thị hay bảng giá trị của $f'$. Phần tính toán ngắn; điều đề thi thực sự kiểm tra là lập luận. "Vì $f'$ đổi dấu từ âm sang dương tại $x=2$" được điểm; "vì $f'(2)=0$" thì không. Bài này luyện cả phần toán lẫn câu chữ. Bạn đã quen nhiều nội dung này từ chương khảo sát hàm số ở trường phổ thông; điểm mới là cách AP đòi hỏi lí giải bằng lời.
+[[P1·a866]]
+Màn hình laptop quay quanh bản lề, là một đường thẳng $d$ nằm trên đế. Lấy $H$ trên bản lề, điểm $A$ trên đế và điểm $B$ trên màn hình sao cho $HA$ và $HB$ đều vuông góc với bản lề và dài $20$ cm.
 
-## Hai định lí về sự tồn tại
+[[P2·3786]]
+Khi nào màn hình thẳng đứng so với đế? Nếu đo được $AB=20\sqrt2$ cm thì ta có kết luận được không?
 
-  :::theorem Định lí giá trị trung bình (Mean Value Theorem, MVT)
-  Nếu $f$ liên tục trên $[a,b]$ và có đạo hàm trên $(a,b)$ thì tồn tại ít nhất một $c$ thuộc $(a,b)$ sao cho
-  $$f'(c)=\frac{f(b)-f(a)}{b-a}.$$
-  Ở đâu đó, tốc độ tức thời bằng tốc độ trung bình. Ở Việt Nam định lí này còn gọi là định lí Lagrange.
+[[P3·e0a0]]
+Để trả lời, ta cần đo "độ mở" giữa hai mặt phẳng.
+
+## Góc nhị diện
+
+### Khám phá: mở màn hình laptop
+
+[[P4·27a4]]
+Gọi $\theta=\widehat{AHB}$ là góc mở. Vì $HA=HB=20$, ta tính $AB$ với vài giá trị của $\theta$:
+
+| $\theta$ | $60^\circ$ | $90^\circ$ | $120^\circ$ |
+|---|---|---|---|
+| $AB$ | $20$ | $20\sqrt2\approx28{,}28$ | $20\sqrt3\approx34{,}64$ |
+
+[[P5·5f62]]
+Với $\theta=60^\circ$, tam giác $AHB$ đều nên $AB=20$. Với $\theta=90^\circ$, định lí Pythagore cho $AB=\sqrt{20^2+20^2}=20\sqrt2$. Với $\theta=120^\circ$, tam giác cân $AHB$ cho $AB=2\cdot20\cdot\sin60^\circ=20\sqrt3$.
+
+[[P6·861f]]
+Ngược lại, nếu $AB^2=800=HA^2+HB^2$ thì theo định lí Pythagore đảo, $\widehat{AHB}=90^\circ$. Vậy $AB=20\sqrt2$ cm cho biết màn hình thẳng đứng. Góc $\widehat{AHB}$ chính là thứ ta gọi là góc phẳng nhị diện.
+
+  :::definition Góc nhị diện
+  Hình gồm hai nửa mặt phẳng $(\alpha)$, $(\beta)$ có chung bờ $d$ gọi là **góc nhị diện**; $d$ là **cạnh**, hai nửa mặt phẳng là hai **mặt** của góc nhị diện.
   :::
 
-  :::theorem Định lí giá trị cực biên (Extreme Value Theorem, EVT)
-  Nếu $f$ liên tục trên một đoạn $[a,b]$ thì $f$ có cả giá trị lớn nhất và giá trị nhỏ nhất trên $[a,b]$.
+  :::definition Góc phẳng nhị diện
+  Lấy $O\in d$. Trong $(\alpha)$ kẻ tia $Ox\perp d$, trong $(\beta)$ kẻ tia $Oy\perp d$. Góc $\widehat{xOy}$ gọi là **góc phẳng** của góc nhị diện, và **số đo của góc nhị diện** bằng số đo của $\widehat{xOy}$ (từ $0^\circ$ đến $180^\circ$).
   :::
 
-  :::example Giá trị c mà MVT bảo đảm
-  Với $f(x)=x^3-x$ trên $[0,2]$, giá trị $c$ nào thoả mãn kết luận của định lí giá trị trung bình?
-  A. $1$
-  B. $\dfrac{\sqrt3}{2}$
-  C. $1{,}5$
-  D. $\dfrac{2}{\sqrt3}$
+[[P7·25ce]]
+Số đo này không phụ thuộc vào vị trí của $O$: khi dời $O$ dọc theo $d$, các tia mới song song và cùng hướng với các tia cũ, nên hai góc bằng nhau.
 
-  **Lời giải.** $f$ là đa thức nên thoả mãn các điều kiện. Tốc độ trung bình là $\dfrac{f(2)-f(0)}{2}=\dfrac{6-0}{2}=3$. Giải $f'(c)=3c^2-1=3$: $c^2=\dfrac43$, nên $c=\dfrac{2}{\sqrt3}\approx1{,}155$, thuộc $(0,2)$: đáp án **D**.
-  :::
-
-## Đồng biến, nghịch biến và cực trị
-
-[[P2·21e2]]
-$f$ đồng biến (tăng) khi $f'>0$ và nghịch biến (giảm) khi $f'<0$. **Điểm tới hạn** là một $x$ bên trong miền xác định tại đó $f'(x)=0$ hoặc $f'(x)$ không tồn tại.
-
-[[P3·7a5b]]
-- **Dấu hiệu đạo hàm cấp một.** Nếu $f'$ đổi dấu từ dương sang âm tại một điểm tới hạn thì $f$ đạt cực đại tại đó; từ âm sang dương thì cực tiểu; không đổi dấu thì không có cực trị.
-- **Dấu hiệu đạo hàm cấp hai.** Nếu $f'(c)=0$ và $f''(c)<0$ thì cực đại; nếu $f''(c)>0$ thì cực tiểu; nếu $f''(c)=0$ thì dấu hiệu không kết luận được.
-
-  :::example Một hàm bậc ba
-  Cho $f(x)=x^3-3x^2-9x+5$. Tìm khoảng đồng biến và các cực trị của $f$.
-
-  **Lời giải.** $f'(x)=3x^2-6x-9=3(x-3)(x+1)$. Xét dấu: $f'>0$ khi $x<-1$, $f'<0$ khi $-1<x<3$, $f'>0$ khi $x>3$. Vậy $f$ đồng biến trên $(-\infty,-1)$ và $(3,\infty)$.
-
-  $f'$ đổi dấu từ dương sang âm tại $x=-1$: cực đại $f(-1)=10$. $f'$ đổi dấu từ âm sang dương tại $x=3$: cực tiểu $f(3)=-22$.
-  :::
-
-## Giá trị lớn nhất, nhỏ nhất: so sánh các ứng viên
-
-[[P4·7635]]
-Trên một đoạn, tính $f$ tại mọi điểm tới hạn và tại hai đầu mút; giá trị lớn nhất trong số đó là giá trị lớn nhất của hàm, giá trị nhỏ nhất là giá trị nhỏ nhất của hàm.
-
-  :::example Các ứng viên trên một đoạn
-  Tìm giá trị lớn nhất và nhỏ nhất của $g(x)=x^3-3x^2$ trên $[-1,4]$.
-
-  **Lời giải.** $g'(x)=3x^2-6x=3x(x-2)$, nên các điểm tới hạn là $x=0$ và $x=2$.
-
-  | $x$ | $-1$ | $0$ | $2$ | $4$ |
-  |---|---|---|---|---|
-  | $g(x)$ | $-4$ | $0$ | $-4$ | $16$ |
-
-  Giá trị lớn nhất $16$ tại $x=4$; giá trị nhỏ nhất $-4$, đạt tại cả $x=-1$ và $x=2$.
-  :::
-
-## Tính lõm và điểm uốn
-
-[[P5·b824]]
-$f$ lõm lên (concave up) khi $f''>0$ (tương đương: $f'$ đồng biến) và lõm xuống (concave down) khi $f''<0$. **Điểm uốn** là điểm tại đó đồ thị đổi chiều lõm, tức là $f''$ đổi dấu.
-
-  :::example Khi dấu hiệu cấp hai bất lực
-  Cho $h(x)=x^4-4x^3$. Tìm các điểm uốn và phân loại các điểm tới hạn.
-
-  **Lời giải.** $h'(x)=4x^3-12x^2=4x^2(x-3)$ và $h''(x)=12x^2-24x=12x(x-2)$.
-
-  $h''$ đổi dấu tại $x=0$ và $x=2$: cả hai đều là điểm uốn.
-
-  Điểm tới hạn: $x=0$ và $x=3$. $h''(3)=36>0$, nên cực tiểu tại $x=3$. Tại $x=0$, $h''(0)=0$ và dấu hiệu cấp hai không kết luận được; dấu hiệu cấp một cho thấy $h'\le0$ ở cả hai phía của $0$, nên tại đó không có cực trị.
-  :::
-
-:::graph Đồ thị của $f'(x)=x^2-x-2$ (đồ thị đạo hàm, không phải đồ thị của $f$)
-   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::diagram Góc phẳng nhị diện
+   (… 18 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::example Đọc đồ thị của đạo hàm
-  Hình trên là đồ thị của $f'$, đạo hàm của hàm số $f$. Hàm số $f$ đạt cực tiểu tại
-  A. $-1$
-  B. $0{,}5$
-  C. $2$
-  D. $-2$
+### Góc giữa hai mặt phẳng
 
-  **Lời giải.** $f'$ đổi dấu từ âm sang dương tại $x=2$, nên $f$ đạt cực tiểu tại đó: đáp án **C**. Tại $x=-1$, dấu đổi từ dương sang âm (cực đại). Tại $x=0{,}5$, $f'$ đạt điểm thấp nhất, tức là $f'$ chuyển từ giảm sang tăng: đó là điểm uốn của $f$, một cái bẫy quen thuộc.
+[[P8·97c6]]
+Hai mặt phẳng cắt nhau tạo ra bốn góc nhị diện. Hai góc kề nhau có tổng số đo bằng $180^\circ$, nên ta chọn góc không vượt quá $90^\circ$ để đo độ mở.
+
+  :::definition Góc giữa hai mặt phẳng
+  Nếu hai mặt phẳng $(\alpha)$, $(\beta)$ cắt nhau và một góc nhị diện tạo bởi chúng có góc phẳng $\varphi$, thì **góc giữa** $(\alpha)$ và $(\beta)$ bằng $\varphi$ khi $\varphi\le90^\circ$ và bằng $180^\circ-\varphi$ khi $\varphi>90^\circ$. Nếu hai mặt phẳng song song hoặc trùng nhau, góc giữa chúng bằng $0^\circ$.
+
+  Hai mặt phẳng **vuông góc** khi góc giữa chúng bằng $90^\circ$; ta viết $(\alpha)\perp(\beta)$.
   :::
 
-## Bài toán tối ưu
+:::note Cách tìm góc giữa hai mặt phẳng cắt nhau
+[[P9·bf6e]]
+1. Tìm giao tuyến $d$ của hai mặt phẳng.
+2. Trong mỗi mặt phẳng, tìm một đường thẳng vuông góc với $d$ tại cùng một điểm.
+3. Tính góc giữa hai đường thẳng đó; nếu góc tù thì lấy góc bù.
+:::
 
-[[P6·db24]]
-Viết đại lượng cần tối ưu thành hàm của một biến, nêu miền xác định, tìm điểm tới hạn, rồi lập luận đó là lớn nhất hay nhỏ nhất bằng cách so sánh ứng viên, bảng xét dấu hoặc đạo hàm cấp hai.
+[[P10·adcf]]
+Ta áp dụng ngay trong hình lập phương.
 
-  :::example Rào đất ven sông
-  Một bác nông dân có $600$ mét lưới để rào một mảnh đất hình chữ nhật ven một con sông thẳng; phía bờ sông không cần rào. Diện tích lớn nhất có thể là bao nhiêu?
+:::diagram Mặt phẳng $(A'BCD')$ cắt đáy $(ABCD)$ theo $BC$
+   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
 
-  **Lời giải.** Gọi $y$ là mỗi cạnh vuông góc với bờ sông; cạnh song song với bờ sông là $600-2y$. Diện tích $A(y)=y(600-2y)=600y-2y^2$ với $0<y<300$. $A'(y)=600-4y=0$ cho $y=150$. Vì $A''(y)=-4<0$ nên đây là cực đại, và là điểm tới hạn duy nhất trên khoảng, nên là giá trị lớn nhất: $A(150)=150\cdot300=45.000$ mét vuông.
+  :::example Góc giữa hai mặt phẳng trong hình lập phương
+  Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa $(A'BCD')$ và $(ABCD)$.
+
+  **Lời giải.** Hai mặt phẳng cắt nhau theo $BC$, nên ta tìm trong mỗi mặt phẳng một đường thẳng vuông góc với $BC$ tại $B$. Trong $(ABCD)$ đó là $BA$, vì $AB\perp BC$. Trong $(A'BCD')$ đó là $BA'$, vì $BC\perp(ABB'A')$ nên $BC\perp BA'$.
+
+  Vậy góc phẳng nhị diện là $\widehat{ABA'}$. Tam giác $ABA'$ vuông cân tại $A$ vì $AA'=AB$ và $AA'\perp AB$:
+
+  $$\widehat{ABA'}=45^\circ.$$
+
+  Vậy góc giữa $(A'BCD')$ và $(ABCD)$ bằng $45^\circ$.
   :::
 
-:::warning Những cái bẫy thường gặp
-[[P7·4509]]
-- **"$f'(c)=0$ nên có cực trị."** Chưa đủ: $f'$ phải đổi dấu (hoặc dùng $f''$).
-- **"$f''(c)=0$ nên có điểm uốn."** Chưa đủ: $f''$ phải đổi dấu.
-- **Quên hai đầu mút** khi so sánh ứng viên.
-- **Đọc đồ thị $f'$ như đồ thị $f$.** Trên đồ thị của $f'$, cực trị của $f$ nằm ở các giao điểm với trục hoành mà tại đó có đổi dấu; điểm uốn của $f$ nằm ở các đỉnh và đáy của $f'$.
-- **Bỏ qua điều kiện của MVT.** Ở phần tự luận, hãy ghi "liên tục trên $[a,b]$ và có đạo hàm trên $(a,b)$".
+## Hai mặt phẳng vuông góc
+
+[[P11·6a0c]]
+Làm sao biết hai mặt phẳng vuông góc mà không cần đo góc? Câu trả lời nằm ở một đường thẳng vuông góc với mặt phẳng.
+
+  :::theorem Điều kiện để hai mặt phẳng vuông góc
+  Nếu mặt phẳng $(\alpha)$ chứa một đường thẳng $a$ vuông góc với mặt phẳng $(\beta)$ thì $(\alpha)\perp(\beta)$.
+  :::
+
+[[P12·41cc]]
+Thật vậy, gọi $d$ là giao tuyến và $O$ là giao điểm của $a$ với $(\beta)$; khi đó $O\in d$. Vì $a\perp(\beta)$ nên $a\perp d$. Trong $(\beta)$ kẻ $Oy\perp d$; vì $a\perp(\beta)$ nên cũng có $a\perp Oy$. Vậy $a$ và $Oy$ cùng vuông góc với $d$ và vuông góc với nhau, tức là góc phẳng nhị diện bằng $90^\circ$.
+
+[[P13·6e0c]]
+Chiều ngược lại cho ta những tính chất hay dùng nhất khi tính toán.
+
+  :::theorem Tính chất của hai mặt phẳng vuông góc
+  Cho $(\alpha)\perp(\beta)$ có giao tuyến $d$.
+  - Nếu đường thẳng $a\subset(\alpha)$ và $a\perp d$ thì $a\perp(\beta)$.
+  - Nếu hai mặt phẳng cắt nhau cùng vuông góc với một mặt phẳng thứ ba thì giao tuyến của chúng vuông góc với mặt phẳng thứ ba đó.
+  :::
+
+[[P14·71a3]]
+Với tính chất thứ nhất: gọi $O=a\cap d$ và kẻ $Oy\perp d$ trong $(\beta)$. Góc phẳng nhị diện là $90^\circ$ nên $a\perp Oy$. Đường thẳng $a$ vuông góc với hai đường thẳng cắt nhau $d$ và $Oy$ của $(\beta)$, nên $a\perp(\beta)$. Tính chất thứ hai ta dùng như một kết quả có sẵn.
+
+:::diagram Hình chóp $S.ABCD$ có $SA\perp(ABCD)$
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::tip Câu lập luận được điểm (viết bằng tiếng Anh trong bài thi)
-[[P8·4be8]]
-- "$f$ has a relative maximum at $x=-1$ because $f'$ changes from positive to negative there." ($f$ đạt cực đại tại $x=-1$ vì $f'$ đổi dấu từ dương sang âm tại đó.)
-- "The graph of $f$ is concave up on $(0,2)$ because $f'$ is increasing there" (hoặc "because $f''>0$").
-- Luôn nói về đúng hàm được cho: nếu đồ thị là của $f'$, hãy nói về $f'$, đừng nói mơ hồ "đồ thị".
+  :::example Chứng minh hai mặt phẳng vuông góc
+  Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $4$, $SA\perp(ABCD)$ và $SA=4\sqrt3$. Chứng minh
+  a) $(SAB)\perp(ABCD)$; b) $(SBC)\perp(SAB)$; c) $(SBD)\perp(SAC)$.
+  Sau đó tính góc giữa $(SBC)$ và $(ABCD)$.
+
+  **Lời giải.** Mỗi câu ta tìm một đường thẳng nằm trong mặt phẳng này và vuông góc với mặt phẳng kia.
+
+  a) Mặt phẳng $(SAB)$ chứa $SA$, mà $SA\perp(ABCD)$. Vậy $(SAB)\perp(ABCD)$.
+
+  b) $BC\perp AB$ (hình vuông) và $BC\perp SA$ (vì $SA\perp(ABCD)$). Vậy $BC\perp(SAB)$. Mặt phẳng $(SBC)$ chứa $BC$, nên $(SBC)\perp(SAB)$.
+
+  c) $BD\perp AC$ (hai đường chéo của hình vuông) và $BD\perp SA$. Vậy $BD\perp(SAC)$. Mặt phẳng $(SBD)$ chứa $BD$, nên $(SBD)\perp(SAC)$.
+
+  Góc giữa $(SBC)$ và $(ABCD)$: giao tuyến là $BC$, ta có $BA\perp BC$ và $BS\perp BC$ (theo câu b, vì $BC\perp(SAB)$). Góc phẳng nhị diện là $\widehat{SBA}$, trong tam giác $SAB$ vuông tại $A$:
+
+  $$\tan\widehat{SBA}=\frac{SA}{AB}=\frac{4\sqrt3}{4}=\sqrt3\Rightarrow\widehat{SBA}=60^\circ.$$
+
+  Vậy góc giữa $(SBC)$ và $(ABCD)$ bằng $60^\circ$.
+  :::
+
+[[P15·beaf]]
+Khi một mặt bên nằm trong mặt phẳng vuông góc với đáy, đường cao của hình chóp nằm ngay trong mặt bên đó.
+
+  :::example Mặt bên vuông góc với đáy
+  Cho hình chóp $S.ABCD$ có đáy là hình chữ nhật với $AB=6$, $BC=4$. Tam giác $SAB$ đều và nằm trong mặt phẳng vuông góc với $(ABCD)$. Tính chiều cao $SH$ với $H$ là trung điểm của $AB$, rồi tính góc giữa $SC$ và $(ABCD)$ (làm tròn đến hàng phần mười của độ).
+
+  **Lời giải.** Tam giác $SAB$ đều nên đường trung tuyến $SH$ cũng là đường cao, tức $SH\perp AB$. Đường thẳng $SH$ nằm trong $(SAB)$ và vuông góc với giao tuyến $AB$, mà $(SAB)\perp(ABCD)$, nên $SH\perp(ABCD)$. Chiều cao là
+
+  $$SH=\frac{6\sqrt3}{2}=3\sqrt3.$$
+
+  Vì $SH\perp(ABCD)$ nên $H$ là hình chiếu của $S$, và góc giữa $SC$ với $(ABCD)$ là $\widehat{SCH}$. Tam giác $HBC$ vuông tại $B$ cho $HC=\sqrt{3^2+4^2}=5$, rồi tam giác $SHC$ vuông tại $H$:
+
+  $$\tan\widehat{SCH}=\frac{SH}{HC}=\frac{3\sqrt3}{5}\approx1{,}039\Rightarrow\widehat{SCH}\approx46{,}1^\circ.$$
+
+  Vậy chiều cao là $3\sqrt3$ và góc giữa $SC$ với $(ABCD)$ xấp xỉ $46{,}1^\circ$.
+  :::
+
+## Lăng trụ đứng và hình chóp đều
+
+[[P16·c6b9]]
+Các hình sau xuất hiện thường xuyên trong bài toán về góc giữa hai mặt phẳng.
+
+[[P17·f395]]
+- **Lăng trụ đứng** có cạnh bên vuông góc với mặt đáy. Mỗi mặt bên là hình chữ nhật chứa một cạnh bên, nên theo điều kiện ở trên, mỗi mặt bên vuông góc với đáy.
+- **Lăng trụ đều** là lăng trụ đứng có đáy là đa giác đều. **Hình hộp đứng** là lăng trụ đứng có đáy là hình bình hành; **hình hộp chữ nhật** có đáy là hình chữ nhật; **hình lập phương** có mọi mặt là hình vuông.
+- **Hình chóp đều** có đáy là đa giác đều và chân đường cao là tâm của đáy. Các cạnh bên bằng nhau, các mặt bên là những tam giác cân bằng nhau, và đường cao kẻ từ đỉnh của một mặt bên gọi là **trung đoạn**.
+- **Hình chóp cụt đều** là phần của hình chóp đều nằm giữa đáy và một mặt phẳng song song với đáy cắt các cạnh bên. Hai đáy là hai đa giác đều đồng dạng, các mặt bên là những hình thang cân bằng nhau.
+
+  :::example Lăng trụ đứng
+  Cho lăng trụ đứng $ABC.A'B'C'$ có đáy $ABC$ vuông tại $A$, $AB=3$, $AC=4$ và $AA'=1{,}8$. Tính góc giữa $(A'BC)$ và $(ABC)$ (làm tròn đến hàng phần mười của độ).
+
+  **Lời giải.** Giao tuyến của hai mặt phẳng là $BC$. Kẻ $AH\perp BC$ tại $H$ trong $(ABC)$. Vì $AA'\perp(ABC)$ nên $BC\perp AA'$, do đó $BC\perp(A'AH)$ và suy ra $BC\perp A'H$. Góc phẳng nhị diện là $\widehat{A'HA}$.
+
+  Tính $AH$ từ diện tích tam giác vuông $ABC$ (với $BC=5$):
+
+  $$AH=\frac{AB\cdot AC}{BC}=\frac{3\cdot4}{5}=2{,}4,\qquad\tan\widehat{A'HA}=\frac{AA'}{AH}=\frac{1{,}8}{2{,}4}=0{,}75.$$
+
+  Do đó $\widehat{A'HA}\approx36{,}9^\circ$. Vậy góc giữa $(A'BC)$ và $(ABC)$ xấp xỉ $36{,}9^\circ$.
+  :::
+
+[[P18·d566]]
+Với hình chóp đều, mặt bên và đáy cắt nhau theo một cạnh đáy, và trung điểm của cạnh đó giúp ta tìm góc phẳng.
+
+  :::example Hình chóp tứ giác đều
+  Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $6$ và cạnh bên bằng $5$. Gọi $O$ là tâm của đáy.
+  a) Chứng minh $(SAC)\perp(ABCD)$.
+  b) Tính góc giữa $(SBC)$ và $(ABCD)$ (làm tròn đến hàng phần mười của độ).
+
+  **Lời giải.** a) Vì $S.ABCD$ là hình chóp đều nên $SO\perp(ABCD)$. Mặt phẳng $(SAC)$ chứa $SO$, vậy $(SAC)\perp(ABCD)$.
+
+  b) Gọi $M$ là trung điểm của $BC$. Hình vuông cho $OM\perp BC$, tam giác $SBC$ cân tại $S$ cho $SM\perp BC$. Vậy góc phẳng nhị diện là $\widehat{SMO}$. Ta có $OM=\dfrac{6}{2}=3$ và $SM=\sqrt{SB^2-BM^2}=\sqrt{25-9}=4$. Trong tam giác $SOM$ vuông tại $O$:
+
+  $$\cos\widehat{SMO}=\frac{OM}{SM}=\frac34\Rightarrow\widehat{SMO}\approx41{,}4^\circ.$$
+
+  Vậy góc giữa $(SBC)$ và $(ABCD)$ xấp xỉ $41{,}4^\circ$.
+
+  **Kiểm tra.** Chiều cao $SO=\sqrt{SM^2-OM^2}=\sqrt7$, và $SB^2=SO^2+OB^2=7+18=25$, đúng với cạnh bên $5$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P19·ea8a]]
+- **Lấy hai đường thẳng tuỳ ý.** Sai: góc giữa hai mặt phẳng bằng góc giữa hai đường thẳng bất kì, mỗi đường nằm trong một mặt phẳng. Lí do sai: hai đường thẳng đó có thể không vuông góc với giao tuyến. Đúng: lấy hai đường thẳng cùng vuông góc với giao tuyến tại một điểm.
+- **Quên đổi góc tù.** Sai: góc phẳng nhị diện là $120^\circ$ nên góc giữa hai mặt phẳng là $120^\circ$. Lí do sai: góc giữa hai mặt phẳng không vượt quá $90^\circ$. Đúng: $180^\circ-120^\circ=60^\circ$.
+- **Cho rằng mọi đường thẳng trong $(\alpha)$ đều vuông góc với $(\beta)$.** Sai: $(\alpha)\perp(\beta)$ nên mọi đường thẳng của $(\alpha)$ vuông góc với $(\beta)$. Lí do sai: chỉ những đường thẳng vuông góc với giao tuyến mới vuông góc với $(\beta)$. Đúng: $a\subset(\alpha)$ và $a\perp d$.
+- **Thiếu điều kiện vuông góc với giao tuyến.** Sai: $(SAB)\perp(ABCD)$ nên $SA\perp(ABCD)$ với mọi tam giác $SAB$. Lí do sai: phải có $SA\perp AB$ (vuông góc với giao tuyến) mới suy ra được. Đúng: kiểm tra $SA\perp AB$ rồi mới kết luận.
 :::
+
+## Thuật ngữ
 
   :::terms
-  - định lí giá trị trung bình (định lí Lagrange) | Mean Value Theorem
-  - định lí giá trị cực biên (tồn tại GTLN, GTNN) | Extreme Value Theorem
-  - điểm tới hạn | critical point
-  - cực trị (địa phương) | relative (local) extremum
-  - giá trị lớn nhất, nhỏ nhất (cực trị toàn cục) | absolute extremum
-  - lõm lên / lõm xuống | concave up / concave down
-  - điểm uốn | point of inflection
-  - bài toán tối ưu | optimization
+  - góc nhị diện | dihedral angle
+  - cạnh của góc nhị diện | edge of a dihedral angle
+  - góc phẳng nhị diện | plane angle of a dihedral angle
+  - góc giữa hai mặt phẳng | angle between two planes
+  - hai mặt phẳng vuông góc | perpendicular planes
+  - giao tuyến | line of intersection
+  - lăng trụ đứng | right prism
+  - lăng trụ đều | regular prism
+  - hình hộp chữ nhật | cuboid
+  - hình chóp đều | regular pyramid
+  - trung đoạn | slant height
+  - hình chóp cụt đều | frustum of a regular pyramid
   :::
 
-## Bài tập tương tự
+## Tóm tắt
 
-:::exercise Trắc nghiệm
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+[[P20·c709]]
+- Góc phẳng nhị diện $\widehat{xOy}$: $Ox\subset(\alpha)$, $Oy\subset(\beta)$ cùng vuông góc với giao tuyến $d$ tại $O$.
+- Góc giữa hai mặt phẳng cắt nhau là góc nhị diện không tù: $\varphi$ nếu $\varphi\le90^\circ$, $180^\circ-\varphi$ nếu $\varphi>90^\circ$.
+- $(\alpha)\perp(\beta)$ khi góc giữa chúng bằng $90^\circ$; chỉ cần $(\alpha)$ chứa một đường thẳng vuông góc với $(\beta)$.
+- Nếu $(\alpha)\perp(\beta)$ và $a\subset(\alpha)$, $a\perp d$ thì $a\perp(\beta)$. Hai mặt phẳng cắt nhau cùng vuông góc với mặt phẳng thứ ba thì giao tuyến vuông góc với mặt phẳng đó.
+- Lăng trụ đứng: các mặt bên vuông góc với đáy. Hình chóp đều: chân đường cao là tâm đáy; góc giữa mặt bên và đáy là $\widehat{SMO}$ với $M$ là trung điểm cạnh đáy.
+
+## Luyện tập
+
+[[P21·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Tự luận
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Trắc nghiệm
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Tự luận
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Tự luận
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-## Bài tập vận dụng
-
-:::exercise Chiếc hộp không nắp
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Viết lời lập luận
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Điểm gần nhất
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise Ôn tập
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
 
 :::quiz
    (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 
-######## BÀI exams/ap-calculus/apcalc-analytical-applications – BẢN TIẾNG ANH ########
+######## BÀI g11/perpendicular-planes – BẢN TIẾNG ANH ########
 ---
-title: Analyzing functions with derivatives
-description: AP Calculus Unit 5: the Mean Value Theorem, extrema, increasing and decreasing, concavity, reading the graph of f', optimization and justifications.
-minutes: 50
+title: Perpendicular planes
+description: Learn dihedral angles, the angle between two planes, the test for perpendicular planes, and how to find angles in right prisms and regular pyramids.
+minutes: 20
 ---
 
   :::goals
-  - Apply the Mean Value Theorem and the Extreme Value Theorem, checking their conditions.
-  - Find intervals of increase and decrease and classify relative extrema with the first and second derivative tests.
-  - Find absolute extrema on a closed interval with the candidates test.
-  - Determine concavity and points of inflection, including from the graph of $f'$.
-  - Solve optimization problems and write justifications that earn full credit.
+  - Recognise a dihedral angle and find its plane angle.
+  - Find and calculate the angle between two intersecting planes.
+  - Prove that two planes are perpendicular and use the properties of perpendicular planes.
+  - Recognise right prisms, regular prisms, cuboids and regular pyramids, and find the angles between their faces.
   :::
 
-[[P1·0537]]
-Unit 5 is one of the most heavily weighted units of AB, and its ideas return in almost every free-response question that shows a graph or a table of $f'$. The calculations are short; what the exam really tests is reasoning. "Because $f'$ changes from negative to positive at $x=2$" earns a point; "because $f'(2)=0$" does not. This lesson trains both the mathematics and the sentences.
+[[P1·c0e1]]
+A laptop screen turns about its hinge, which is a line $d$ lying in the base. Take a point $H$ on the hinge, a point $A$ on the base and a point $B$ on the screen so that $HA$ and $HB$ are both perpendicular to the hinge and each is $20$ cm long.
 
-## Two existence theorems
+[[P2·f468]]
+When is the screen upright, at a right angle to the base? If we measure $AB=20\sqrt2$ cm, can we draw a conclusion?
 
-  :::theorem Mean Value Theorem (MVT)
-  If $f$ is continuous on $[a,b]$ and differentiable on $(a,b)$, then there is at least one $c$ in $(a,b)$ with
-  $$f'(c)=\frac{f(b)-f(a)}{b-a}.$$
-  Somewhere, the instantaneous rate equals the average rate.
+[[P3·1281]]
+To answer, we need a way to measure how far open two planes are.
+
+## Dihedral angles
+
+### Explore: opening a laptop screen
+
+[[P4·0b29]]
+Let $\theta=\angle AHB$ be the opening angle. Since $HA=HB=20$, we compute $AB$ for a few values of $\theta$:
+
+| $\theta$ | $60^\circ$ | $90^\circ$ | $120^\circ$ |
+|---|---|---|---|
+| $AB$ | $20$ | $20\sqrt2\approx28.28$ | $20\sqrt3\approx34.64$ |
+
+[[P5·a6c9]]
+For $\theta=60^\circ$, triangle $AHB$ is equilateral, so $AB=20$. For $\theta=90^\circ$, Pythagoras' theorem gives $AB=\sqrt{20^2+20^2}=20\sqrt2$. For $\theta=120^\circ$, the isosceles triangle $AHB$ gives $AB=2\cdot20\cdot\sin60^\circ=20\sqrt3$.
+
+[[P6·5f86]]
+Conversely, if $AB^2=800=HA^2+HB^2$, then by the converse of Pythagoras' theorem, $\angle AHB=90^\circ$. So $AB=20\sqrt2$ cm tells us the screen is upright. The angle $\angle AHB$ is exactly what we call the plane angle of a dihedral angle.
+
+  :::definition Dihedral angle
+  Two half-planes $(\alpha)$, $(\beta)$ with a common boundary line $d$ form a **dihedral angle**. The line $d$ is its **edge** and the two half-planes are its **faces**.
   :::
 
-  :::theorem Extreme Value Theorem (EVT)
-  If $f$ is continuous on a closed interval $[a,b]$, then $f$ has both an absolute maximum and an absolute minimum on $[a,b]$.
+  :::definition Plane angle of a dihedral angle
+  Take a point $O\in d$. In $(\alpha)$ draw the ray $Ox\perp d$, and in $(\beta)$ draw the ray $Oy\perp d$. The angle $\angle xOy$ is the **plane angle** of the dihedral angle, and the **measure of the dihedral angle** is the measure of $\angle xOy$ (from $0^\circ$ to $180^\circ$).
   :::
 
-  :::example The value promised by the MVT
-  For $f(x)=x^3-x$ on $[0,2]$, which value of $c$ satisfies the conclusion of the Mean Value Theorem?
-  A. $1$
-  B. $\dfrac{\sqrt3}{2}$
-  C. $1.5$
-  D. $\dfrac{2}{\sqrt3}$
+[[P7·9820]]
+This measure does not depend on the position of $O$: when we slide $O$ along $d$, the new rays are parallel to the old ones and point the same way, so the two angles are equal.
 
-  **Solution.** $f$ is a polynomial, so the conditions hold. The average rate is $\dfrac{f(2)-f(0)}{2}=\dfrac{6-0}{2}=3$. Solve $f'(c)=3c^2-1=3$: $c^2=\dfrac43$, so $c=\dfrac{2}{\sqrt3}\approx1.155$, which lies in $(0,2)$: answer **D**.
-  :::
-
-## Increasing, decreasing and relative extrema
-
-[[P2·885b]]
-$f$ is increasing where $f'>0$ and decreasing where $f'<0$. A **critical point** is an interior $x$ where $f'(x)=0$ or $f'(x)$ does not exist.
-
-[[P3·b540]]
-- **First derivative test.** If $f'$ changes from positive to negative at a critical point, $f$ has a relative maximum there; from negative to positive, a relative minimum; no sign change, no extremum.
-- **Second derivative test.** If $f'(c)=0$ and $f''(c)<0$, relative maximum; if $f''(c)>0$, relative minimum; if $f''(c)=0$, the test says nothing.
-
-  :::example A cubic
-  Let $f(x)=x^3-3x^2-9x+5$. Find where $f$ is increasing and its relative extrema.
-
-  **Solution.** $f'(x)=3x^2-6x-9=3(x-3)(x+1)$. Sign chart: $f'>0$ for $x<-1$, $f'<0$ for $-1<x<3$, $f'>0$ for $x>3$. So $f$ is increasing on $(-\infty,-1)$ and $(3,\infty)$.
-
-  $f'$ changes from positive to negative at $x=-1$: relative maximum $f(-1)=10$. It changes from negative to positive at $x=3$: relative minimum $f(3)=-22$.
-  :::
-
-## Absolute extrema: the candidates test
-
-[[P4·c68b]]
-On a closed interval, evaluate $f$ at every critical point and at both endpoints; the largest value is the absolute maximum, the smallest the absolute minimum.
-
-  :::example Candidates on a closed interval
-  Find the absolute extrema of $g(x)=x^3-3x^2$ on $[-1,4]$.
-
-  **Solution.** $g'(x)=3x^2-6x=3x(x-2)$, so the critical points are $x=0$ and $x=2$.
-
-  | $x$ | $-1$ | $0$ | $2$ | $4$ |
-  |---|---|---|---|---|
-  | $g(x)$ | $-4$ | $0$ | $-4$ | $16$ |
-
-  Absolute maximum $16$ at $x=4$; absolute minimum $-4$, reached at both $x=-1$ and $x=2$.
-  :::
-
-## Concavity and points of inflection
-
-[[P5·9be1]]
-$f$ is concave up where $f''>0$ (equivalently, where $f'$ is increasing) and concave down where $f''<0$. A **point of inflection** is a point where the graph changes concavity, that is, where $f''$ changes sign.
-
-  :::example When the second derivative test fails
-  Let $h(x)=x^4-4x^3$. Find the points of inflection and classify the critical points.
-
-  **Solution.** $h'(x)=4x^3-12x^2=4x^2(x-3)$ and $h''(x)=12x^2-24x=12x(x-2)$.
-
-  $h''$ changes sign at $x=0$ and $x=2$: both are points of inflection.
-
-  Critical points: $x=0$ and $x=3$. $h''(3)=36>0$, so a relative minimum at $x=3$. At $x=0$, $h''(0)=0$ and the second derivative test is inconclusive; the first derivative test shows $h'\le0$ on both sides of $0$, so there is no extremum there.
-  :::
-
-:::graph The graph of $f'(x)=x^2-x-2$ (the derivative, not $f$)
-   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::diagram Plane angle of a dihedral angle
+   (… 18 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::example Reading the graph of the derivative
-  The graph above shows $f'$, the derivative of a function $f$. At which value of $x$ does $f$ have a relative minimum?
-  A. $-1$
-  B. $0.5$
-  C. $2$
-  D. $-2$
+### The angle between two planes
 
-  **Solution.** $f'$ changes from negative to positive at $x=2$, so $f$ has a relative minimum there: answer **C**. At $x=-1$ the sign changes from positive to negative (relative maximum). At $x=0.5$, $f'$ has its lowest point, so $f'$ changes from decreasing to increasing: that is a point of inflection of $f$, a common trap.
+[[P8·753e]]
+Two intersecting planes form four dihedral angles. Two neighbouring angles add up to $180^\circ$, so we choose the one that is at most $90^\circ$ to measure the opening.
+
+  :::definition Angle between two planes
+  Suppose $(\alpha)$ and $(\beta)$ intersect and one of their dihedral angles has plane angle $\varphi$. The **angle between** $(\alpha)$ and $(\beta)$ is $\varphi$ if $\varphi\le90^\circ$ and $180^\circ-\varphi$ if $\varphi>90^\circ$. If the planes are parallel or coincide, the angle between them is $0^\circ$.
+
+  Two planes are **perpendicular** when the angle between them is $90^\circ$; we write $(\alpha)\perp(\beta)$.
   :::
 
-## Optimization
+:::note Finding the angle between two intersecting planes
+[[P9·31bd]]
+1. Find the line of intersection $d$ of the two planes.
+2. In each plane, find a line perpendicular to $d$ at the same point.
+3. Find the angle between these two lines; if it is obtuse, take its supplement.
+:::
 
-[[P6·c73c]]
-Write the quantity to optimize as a function of one variable, state the domain, find the critical points, and justify the maximum or minimum with the candidates test, a sign chart or the second derivative.
+[[P10·4b13]]
+We try this at once in a cube.
 
-  :::example A fence along a river
-  A farmer has $600$ meters of fence to enclose a rectangular field along a straight river; no fence is needed along the river. What is the largest possible area?
+:::diagram Plane $(A'BCD')$ meets the base $(ABCD)$ along $BC$
+   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
 
-  **Solution.** Let $y$ be each side perpendicular to the river; the side parallel to the river is $600-2y$. Area $A(y)=y(600-2y)=600y-2y^2$ for $0<y<300$. $A'(y)=600-4y=0$ gives $y=150$. Since $A''(y)=-4<0$, this is a maximum, and the only critical point on the interval, so it is the absolute maximum: $A(150)=150\cdot300=45{,}000$ square meters.
+  :::example The angle between two planes in a cube
+  In the cube $ABCD.A'B'C'D'$, find the angle between $(A'BCD')$ and $(ABCD)$.
+
+  **Solution.** The planes meet along $BC$, so we look for a line perpendicular to $BC$ at $B$ in each plane. In $(ABCD)$ it is $BA$, because $AB\perp BC$. In $(A'BCD')$ it is $BA'$, because $BC\perp(ABB'A')$ gives $BC\perp BA'$.
+
+  So the plane angle is $\angle ABA'$. Triangle $ABA'$ is right-angled and isosceles at $A$, since $AA'=AB$ and $AA'\perp AB$:
+
+  $$\angle ABA'=45^\circ.$$
+
+  So the angle between $(A'BCD')$ and $(ABCD)$ is $45^\circ$.
   :::
 
-:::warning Common traps
-[[P7·0049]]
-- **"$f'(c)=0$, so there is an extremum."** Not enough: $f'$ must change sign (or use $f''$).
-- **"$f''(c)=0$, so there is an inflection point."** Not enough: $f''$ must change sign.
-- **Forgetting the endpoints** in the candidates test.
-- **Reading the graph of $f'$ as if it were $f$.** On a graph of $f'$, extrema of $f$ are at the $x$-intercepts where the sign changes; inflection points of $f$ are at the peaks and valleys of $f'$.
-- **Dropping the MVT conditions.** On the free-response section, state "continuous on $[a,b]$ and differentiable on $(a,b)$".
+## Perpendicular planes
+
+[[P11·64f7]]
+How can we know that two planes are perpendicular without measuring an angle? The answer lies in a line perpendicular to a plane.
+
+  :::theorem Test for perpendicular planes
+  If a plane $(\alpha)$ contains a line $a$ that is perpendicular to a plane $(\beta)$, then $(\alpha)\perp(\beta)$.
+  :::
+
+[[P12·6eb5]]
+Here is why. Let $d$ be the line of intersection and $O$ the point where $a$ meets $(\beta)$; then $O\in d$. Since $a\perp(\beta)$, we have $a\perp d$. In $(\beta)$ draw $Oy\perp d$; since $a\perp(\beta)$, also $a\perp Oy$. So $a$ and $Oy$ are both perpendicular to $d$ and perpendicular to each other: the plane angle is $90^\circ$.
+
+[[P13·6bf5]]
+The other direction gives the properties we use most in calculations.
+
+  :::theorem Properties of perpendicular planes
+  Let $(\alpha)\perp(\beta)$ with line of intersection $d$.
+  - If a line $a\subset(\alpha)$ and $a\perp d$, then $a\perp(\beta)$.
+  - If two intersecting planes are both perpendicular to a third plane, then their line of intersection is perpendicular to the third plane.
+  :::
+
+[[P14·9400]]
+For the first property: let $O=a\cap d$ and draw $Oy\perp d$ in $(\beta)$. The plane angle is $90^\circ$, so $a\perp Oy$. The line $a$ is perpendicular to two intersecting lines $d$ and $Oy$ of $(\beta)$, so $a\perp(\beta)$. We use the second property as a ready-made result.
+
+:::diagram Pyramid $S.ABCD$ with $SA\perp(ABCD)$
+   (… 15 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::tip Justification phrases that earn points
-[[P8·bf87]]
-- "$f$ has a relative maximum at $x=-1$ because $f'$ changes from positive to negative there."
-- "The graph of $f$ is concave up on $(0,2)$ because $f'$ is increasing there" (or "because $f''>0$").
-- Always refer to the function you are given: if the graph is of $f'$, talk about $f'$, never about "the graph" vaguely.
+  :::example Proving that planes are perpendicular
+  The pyramid $S.ABCD$ has a square base $ABCD$ of side $4$, $SA\perp(ABCD)$ and $SA=4\sqrt3$. Prove that
+  a) $(SAB)\perp(ABCD)$; b) $(SBC)\perp(SAB)$; c) $(SBD)\perp(SAC)$.
+  Then find the angle between $(SBC)$ and $(ABCD)$.
+
+  **Solution.** For each part we find a line lying in one plane and perpendicular to the other plane.
+
+  a) The plane $(SAB)$ contains $SA$, and $SA\perp(ABCD)$. So $(SAB)\perp(ABCD)$.
+
+  b) $BC\perp AB$ (square) and $BC\perp SA$ (because $SA\perp(ABCD)$). So $BC\perp(SAB)$. The plane $(SBC)$ contains $BC$, so $(SBC)\perp(SAB)$.
+
+  c) $BD\perp AC$ (diagonals of a square) and $BD\perp SA$. So $BD\perp(SAC)$. The plane $(SBD)$ contains $BD$, so $(SBD)\perp(SAC)$.
+
+  For the angle between $(SBC)$ and $(ABCD)$: the line of intersection is $BC$, and $BA\perp BC$ and $BS\perp BC$ (by part b, since $BC\perp(SAB)$). The plane angle is $\angle SBA$, and in triangle $SAB$, right-angled at $A$:
+
+  $$\tan\angle SBA=\frac{SA}{AB}=\frac{4\sqrt3}{4}=\sqrt3\Rightarrow\angle SBA=60^\circ.$$
+
+  So the angle between $(SBC)$ and $(ABCD)$ is $60^\circ$.
+  :::
+
+[[P15·7b04]]
+When a face lies in a plane perpendicular to the base, the height of the pyramid lies in that face.
+
+  :::example A face perpendicular to the base
+  The pyramid $S.ABCD$ has a rectangular base with $AB=6$ and $BC=4$. Triangle $SAB$ is equilateral and lies in a plane perpendicular to $(ABCD)$. Find the height $SH$, where $H$ is the midpoint of $AB$, and then the angle between $SC$ and $(ABCD)$ (round to the nearest tenth of a degree).
+
+  **Solution.** Triangle $SAB$ is equilateral, so its median $SH$ is also an altitude: $SH\perp AB$. The line $SH$ lies in $(SAB)$ and is perpendicular to the line of intersection $AB$, and $(SAB)\perp(ABCD)$, so $SH\perp(ABCD)$. The height is
+
+  $$SH=\frac{6\sqrt3}{2}=3\sqrt3.$$
+
+  Since $SH\perp(ABCD)$, the point $H$ is the projection of $S$, and the angle between $SC$ and $(ABCD)$ is $\angle SCH$. Triangle $HBC$ is right-angled at $B$, so $HC=\sqrt{3^2+4^2}=5$; then in triangle $SHC$, right-angled at $H$:
+
+  $$\tan\angle SCH=\frac{SH}{HC}=\frac{3\sqrt3}{5}\approx1.039\Rightarrow\angle SCH\approx46.1^\circ.$$
+
+  So the height is $3\sqrt3$ and the angle between $SC$ and $(ABCD)$ is about $46.1^\circ$.
+  :::
+
+## Right prisms and regular pyramids
+
+[[P16·8de0]]
+These solids appear all the time in problems about the angle between two planes.
+
+[[P17·cea4]]
+- A **right prism** has its lateral edges perpendicular to the base. Each lateral face is a rectangle containing a lateral edge, so by the test above, each lateral face is perpendicular to the base.
+- A **regular prism** is a right prism whose base is a regular polygon. A right parallelepiped is a right prism whose base is a parallelogram; a **cuboid** has a rectangular base; a **cube** has six square faces.
+- A **regular pyramid** has a regular polygon as its base, and the foot of its height is the centre of the base. Its lateral edges are equal, its lateral faces are congruent isosceles triangles, and the altitude of a lateral face from the apex is the **slant height**.
+- A **frustum of a regular pyramid** is the part of a regular pyramid between its base and a plane parallel to the base. Its two bases are similar regular polygons, and its lateral faces are congruent isosceles trapezia.
+
+  :::example A right prism
+  The right prism $ABC.A'B'C'$ has base $ABC$ right-angled at $A$, with $AB=3$, $AC=4$ and $AA'=1.8$. Find the angle between $(A'BC)$ and $(ABC)$ (round to the nearest tenth of a degree).
+
+  **Solution.** The line of intersection is $BC$. In $(ABC)$ draw $AH\perp BC$ at $H$. Since $AA'\perp(ABC)$, we have $BC\perp AA'$, so $BC\perp(A'AH)$ and therefore $BC\perp A'H$. The plane angle is $\angle A'HA$.
+
+  We find $AH$ from the area of the right-angled triangle $ABC$ (with $BC=5$):
+
+  $$AH=\frac{AB\cdot AC}{BC}=\frac{3\cdot4}{5}=2.4,\qquad\tan\angle A'HA=\frac{AA'}{AH}=\frac{1.8}{2.4}=0.75.$$
+
+  So $\angle A'HA\approx36.9^\circ$. The angle between $(A'BC)$ and $(ABC)$ is about $36.9^\circ$.
+  :::
+
+[[P18·35f5]]
+In a regular pyramid, a lateral face meets the base along a side of the base, and the midpoint of that side helps us find the plane angle.
+
+  :::example A regular square pyramid
+  The regular square pyramid $S.ABCD$ has base side $6$ and lateral edge $5$. Let $O$ be the centre of the base.
+  a) Prove that $(SAC)\perp(ABCD)$.
+  b) Find the angle between $(SBC)$ and $(ABCD)$ (round to the nearest tenth of a degree).
+
+  **Solution.** a) Since $S.ABCD$ is a regular pyramid, $SO\perp(ABCD)$. The plane $(SAC)$ contains $SO$, so $(SAC)\perp(ABCD)$.
+
+  b) Let $M$ be the midpoint of $BC$. The square gives $OM\perp BC$, and the isosceles triangle $SBC$ gives $SM\perp BC$. So the plane angle is $\angle SMO$. We have $OM=\dfrac{6}{2}=3$ and $SM=\sqrt{SB^2-BM^2}=\sqrt{25-9}=4$. In triangle $SOM$, right-angled at $O$:
+
+  $$\cos\angle SMO=\frac{OM}{SM}=\frac34\Rightarrow\angle SMO\approx41.4^\circ.$$
+
+  So the angle between $(SBC)$ and $(ABCD)$ is about $41.4^\circ$.
+
+  **Check.** The height is $SO=\sqrt{SM^2-OM^2}=\sqrt7$, and $SB^2=SO^2+OB^2=7+18=25$, which matches the lateral edge $5$.
+  :::
+
+:::warning Common mistakes
+[[P19·0dbd]]
+- **Taking any two lines.** Wrong: the angle between two planes equals the angle between any two lines, one in each plane. Why it is wrong: those lines may not be perpendicular to the line of intersection. Right: take two lines that are both perpendicular to the line of intersection at one point.
+- **Forgetting to change an obtuse angle.** Wrong: the plane angle is $120^\circ$, so the angle between the planes is $120^\circ$. Why it is wrong: the angle between two planes is never more than $90^\circ$. Right: $180^\circ-120^\circ=60^\circ$.
+- **Thinking every line in $(\alpha)$ is perpendicular to $(\beta)$.** Wrong: $(\alpha)\perp(\beta)$, so every line of $(\alpha)$ is perpendicular to $(\beta)$. Why it is wrong: only lines perpendicular to the line of intersection are. Right: $a\subset(\alpha)$ and $a\perp d$.
+- **Missing the condition of being perpendicular to the line of intersection.** Wrong: $(SAB)\perp(ABCD)$, so $SA\perp(ABCD)$ for any triangle $SAB$. Why it is wrong: we need $SA\perp AB$ (perpendicular to the line of intersection) first. Right: check $SA\perp AB$, then conclude.
 :::
+
+## Key terms
 
   :::terms
-  - Mean Value Theorem | định lí giá trị trung bình (định lí Lagrange)
-  - Extreme Value Theorem | định lí giá trị cực biên (tồn tại GTLN, GTNN)
-  - critical point | điểm tới hạn
-  - relative (local) extremum | cực trị (địa phương)
-  - absolute extremum | giá trị lớn nhất, nhỏ nhất (cực trị toàn cục)
-  - concave up / concave down | lõm lên / lõm xuống
-  - point of inflection | điểm uốn
-  - optimization | bài toán tối ưu
+  - dihedral angle | góc nhị diện
+  - edge of a dihedral angle | cạnh của góc nhị diện
+  - plane angle of a dihedral angle | góc phẳng nhị diện
+  - angle between two planes | góc giữa hai mặt phẳng
+  - perpendicular planes | hai mặt phẳng vuông góc
+  - line of intersection | giao tuyến
+  - right prism | lăng trụ đứng
+  - regular prism | lăng trụ đều
+  - cuboid | hình hộp chữ nhật
+  - regular pyramid | hình chóp đều
+  - slant height | trung đoạn
+  - frustum of a regular pyramid | hình chóp cụt đều
   :::
 
-## Similar exercises
+## Summary
 
-:::exercise Multiple choice
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+[[P20·7e06]]
+- The plane angle $\angle xOy$: $Ox\subset(\alpha)$ and $Oy\subset(\beta)$ are both perpendicular to the line of intersection $d$ at $O$.
+- The angle between two intersecting planes is the non-obtuse dihedral angle: $\varphi$ if $\varphi\le90^\circ$, and $180^\circ-\varphi$ if $\varphi>90^\circ$.
+- $(\alpha)\perp(\beta)$ when the angle between them is $90^\circ$; it is enough that $(\alpha)$ contains a line perpendicular to $(\beta)$.
+- If $(\alpha)\perp(\beta)$ and $a\subset(\alpha)$ with $a\perp d$, then $a\perp(\beta)$. If two intersecting planes are both perpendicular to a third plane, their line of intersection is perpendicular to it.
+- Right prism: the lateral faces are perpendicular to the base. Regular pyramid: the foot of the height is the centre of the base; the angle between a lateral face and the base is $\angle SMO$, where $M$ is the midpoint of a side of the base.
+
+## Practice
+
+[[P21·e420]]
+Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Free response
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Multiple choice
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Free response
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Free response
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-## Application exercises
-
-:::exercise An open box
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Writing justifications
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise The closest point
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise Revision
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI exams/ap-calculus/apcalc-area-volume – BẢN TIẾNG VIỆT ########
----
-title: Diện tích, thể tích và giá trị trung bình
-description: AP Calculus Unit 8: giá trị trung bình, diện tích giữa hai đường cong theo x và theo y, thể tích theo thiết diện, đĩa và vành khuyên; riêng BC: độ dài cung.
-minutes: 45
----
-
-  :::goals
-  - Tìm giá trị trung bình của hàm số trên một khoảng và giải thích ý nghĩa.
-  - Tính diện tích giữa hai đường cong, lấy tích phân theo $x$ hoặc theo $y$, tuỳ cách nào đơn giản hơn.
-  - Tính thể tích khối có thiết diện đã biết.
-  - Tính thể tích khối tròn xoay bằng đĩa và vành khuyên, kể cả khi trục quay không phải là trục toạ độ.
-  - (BC) Tính độ dài một đường cong.
-  :::
-
-[[P1·3447]]
-Unit 8 mang lại một trong những câu tự luận dễ đoán nhất của đề: một miền $R$ giới hạn bởi hai đường cong, rồi hỏi diện tích của nó, thể tích khối có đáy là $R$, và thể tích khi quay $R$ quanh một đường thẳng. Câu này thường nằm ở phần được dùng máy tính, nên điểm đến từ một tích phân đúng với cận đúng; máy tính lo phần tính toán. Bài này luyện kĩ năng thiết lập.
-
-## Giá trị trung bình
-
-  :::theorem Giá trị trung bình của hàm số
-  Giá trị trung bình của hàm liên tục $f$ trên $[a,b]$ là
-  $$f_{\text{tb}}=\frac{1}{b-a}\int_a^bf(x)\,dx.$$
-  Theo định lí giá trị trung bình cho tích phân, $f$ nhận giá trị này tại một điểm $c$ nào đó trong $[a,b]$.
-  :::
-
-  :::example Trung bình của một bình phương
-  Tìm giá trị trung bình của $f(x)=x^2$ trên $[0,3]$ và một điểm mà tại đó $f$ nhận giá trị ấy.
-
-  **Lời giải.** $f_{\text{tb}}=\dfrac13\displaystyle\int_0^3x^2\,dx=\dfrac13\cdot9=3$. Vì $c^2=3$ nên $c=\sqrt3$, nằm trong $[0,3]$.
-
-  Đừng nhầm với tốc độ thay đổi trung bình $\dfrac{f(3)-f(0)}{3-0}=3$. Ở đây hai số tình cờ bằng nhau; thông thường thì không.
-  :::
-
-## Diện tích giữa hai đường cong
-
-[[P2·3de8]]
-Diện tích giữa $y=f(x)$ ở trên và $y=g(x)$ ở dưới, với $a\le x\le b$, là $\displaystyle\int_a^b\big(f(x)-g(x)\big)\,dx$: trên trừ dưới. Khi miền dễ mô tả hơn bằng đường bên phải $x=p(y)$ và đường bên trái $x=q(y)$, hãy dùng $\displaystyle\int_c^d\big(p(y)-q(y)\big)\,dy$: phải trừ trái.
-
-:::graph Miền giữa $y=x$ và $y=x^2$
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-  :::example Trên trừ dưới
-  Diện tích miền giữa $y=x$ và $y=x^2$ bằng
-  A. $\dfrac12$
-  B. $\dfrac13$
-  C. $\dfrac16$
-  D. $\dfrac56$
-
-  **Lời giải.** Hai đường cắt nhau khi $x=x^2$, tức $x=0$ và $x=1$. Trên $(0,1)$ đường thẳng nằm trên: $\displaystyle\int_0^1\left(x-x^2\right)dx=\frac12-\frac13=\frac16$. Đáp án **C**.
-  :::
-
-  :::example Lấy tích phân theo y
-  Tính diện tích miền giữa $x=y^2$ và $x=y+2$.
-
-  **Lời giải.** Nếu tính theo $x$, miền này cần hai tích phân. Tính theo $y$: hai đường cắt nhau khi $y^2=y+2$, tức $y=-1$ và $y=2$, và đường thẳng $x=y+2$ nằm bên phải.
-  $$\int_{-1}^2\left(y+2-y^2\right)dy=\left[\frac{y^2}{2}+2y-\frac{y^3}{3}\right]_{-1}^2=\frac{10}{3}+\frac76=\frac92.$$
-  :::
-
-## Thể tích khối có thiết diện đã biết
-
-[[P3·61c8]]
-Nếu thiết diện vuông góc với trục $x$ tại $x$ có diện tích $A(x)$ thì thể tích là $\displaystyle\int_a^bA(x)\,dx$. Bạn chỉ cần cạnh của thiết diện theo $x$, rồi dùng công thức diện tích: hình vuông $s^2$, nửa hình tròn đường kính $s$: $\dfrac{\pi}{8}s^2$, tam giác đều $\dfrac{\sqrt3}{4}s^2$.
-
-  :::example Thiết diện là hình vuông
-  Đáy của một khối là miền dưới $y=\sqrt x$ với $0\le x\le4$. Các thiết diện vuông góc với trục $x$ là hình vuông. Tính thể tích.
-
-  **Lời giải.** Cạnh là $s=\sqrt x$, nên $A(x)=x$ và $V=\displaystyle\int_0^4x\,dx=8$.
-  :::
-
-## Đĩa và vành khuyên
-
-[[P4·c915]]
-Quay một miền quanh một đường thẳng thì mỗi lát cắt là hình tròn. Nếu miền chạm trục quay, lát cắt là **đĩa**: $V=\pi\displaystyle\int_a^bR(x)^2\,dx$. Nếu có khoảng hở, lát cắt là **vành khuyên**: $V=\pi\displaystyle\int_a^b\left(R(x)^2-r(x)^2\right)dx$, trong đó $R$ và $r$ là bán kính ngoài và trong, đo từ trục quay.
-
-  :::example Vành khuyên quanh một đường nằm dưới miền
-  Miền giữa $y=x$ và $y=x^2$ quay quanh đường thẳng $y=-1$. Tính thể tích.
-
-  **Lời giải.** Khoảng cách tới $y=-1$ là $R=x+1$ (đường thẳng, xa hơn) và $r=x^2+1$.
-  $$V=\pi\int_0^1\left[(x+1)^2-\left(x^2+1\right)^2\right]dx=\pi\int_0^1\left(2x-x^2-x^4\right)dx=\pi\left(1-\frac13-\frac15\right)=\frac{7\pi}{15}.$$
-  Nếu quay quanh trục $x$ thì $R=x$, $r=x^2$ và $V=\dfrac{2\pi}{15}$.
-  :::
-
-:::warning Những cái bẫy thường gặp
-[[P5·2d0e]]
-- **Viết $(R-r)^2$ thay cho $R^2-r^2$.** Vành khuyên là đĩa lớn trừ đĩa nhỏ.
-- **Đo bán kính từ sai đường thẳng.** Quanh $y=-1$, bán kính ứng với đường cong $y=f(x)$ là $f(x)+1$; quanh $y=3$ là $3-f(x)$.
-- **Nhầm đường nằm trên.** Thử một giá trị để biết đường nào nằm trên trước khi lấy tích phân.
-- **Giá trị trung bình thiếu $\dfrac{1}{b-a}$.** Thiếu hệ số này thì bạn mới có tích phân, chưa phải trung bình.
-:::
-
-## Độ dài cung (BC)
-
-[[P6·5f57]]
-Độ dài đường cong $y=f(x)$ với $a\le x\le b$ là $L=\displaystyle\int_a^b\sqrt{1+\left(f'(x)\right)^2}\,dx$. Trong đề, tích phân này thường được tính bằng máy tính; viết đúng tích phân là được điểm.
-
-  :::example Một độ dài tính được chính xác
-  Tính độ dài của $y=\dfrac23x^{3/2}$ với $0\le x\le3$.
-
-  **Lời giải.** $f'(x)=\sqrt x$, nên $L=\displaystyle\int_0^3\sqrt{1+x}\,dx=\left[\frac23(1+x)^{3/2}\right]_0^3=\frac23(8-1)=\frac{14}{3}$.
-  :::
-
-  :::terms
-  - average value | giá trị trung bình
-  - area between curves | diện tích giữa hai đường cong
-  - cross section | thiết diện
-  - solid of revolution | khối tròn xoay
-  - disk method / washer method | phương pháp đĩa / vành khuyên
-  - axis of rotation | trục quay
-  - outer / inner radius | bán kính ngoài / trong
-  - arc length | độ dài cung
-  :::
-
-## Bài tập tương tự
-
-:::exercise Trắc nghiệm
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Tự luận
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Tự luận
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Trắc nghiệm
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Tự luận
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Bài tập vận dụng
-
-:::exercise Một câu về miền đầy đủ kiểu đề AP
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Nhiệt độ trung bình
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Chọn biến lấy tích phân
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise BC: độ dài cung bằng máy tính
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI exams/ap-calculus/apcalc-area-volume – BẢN TIẾNG ANH ########
----
-title: Area, volume and average value
-description: AP Calculus Unit 8: average value, area between curves in x and in y, volumes by cross sections, disks and washers; for BC, arc length.
-minutes: 45
----
-
-  :::goals
-  - Find the average value of a function on an interval and interpret it.
-  - Find the area between two curves, integrating in $x$ or in $y$, whichever is simpler.
-  - Find volumes of solids with known cross sections.
-  - Find volumes of revolution with disks and washers, including around lines other than the axes.
-  - (BC) Find the length of a curve.
-  :::
-
-[[P1·049e]]
-Unit 8 supplies one of the most predictable free-response questions on the exam: a region $R$ bounded by two curves, then its area, the volume of a solid with $R$ as its base, and the volume when $R$ is revolved around a line. Usually it sits in the calculator part, so the points come from a correct integral with correct limits; the calculator does the arithmetic. This lesson trains the setups.
-
-## Average value
-
-  :::theorem Average value of a function
-  The average value of a continuous function $f$ on $[a,b]$ is
-  $$f_{\text{avg}}=\frac{1}{b-a}\int_a^bf(x)\,dx.$$
-  By the mean value theorem for integrals, $f$ takes this value at some $c$ in $[a,b]$.
-  :::
-
-  :::example Average of a square
-  Find the average value of $f(x)=x^2$ on $[0,3]$, and a point where $f$ takes that value.
-
-  **Solution.** $f_{\text{avg}}=\dfrac13\displaystyle\int_0^3x^2\,dx=\dfrac13\cdot9=3$. Since $c^2=3$, $c=\sqrt3$, which lies in $[0,3]$.
-
-  Do not confuse this with the average rate of change $\dfrac{f(3)-f(0)}{3-0}=3$. Here the two numbers happen to be equal; usually they are not.
-  :::
-
-## Area between curves
-
-[[P2·6677]]
-The area between $y=f(x)$ on top and $y=g(x)$ below, for $a\le x\le b$, is $\displaystyle\int_a^b\big(f(x)-g(x)\big)\,dx$: top minus bottom. When the region is easier to describe with right and left curves $x=p(y)$ and $x=q(y)$, use $\displaystyle\int_c^d\big(p(y)-q(y)\big)\,dy$: right minus left.
-
-:::graph The region between $y=x$ and $y=x^2$
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-  :::example Top minus bottom
-  What is the area of the region between $y=x$ and $y=x^2$?
-  A. $\dfrac12$
-  B. $\dfrac13$
-  C. $\dfrac16$
-  D. $\dfrac56$
-
-  **Solution.** The curves meet where $x=x^2$, at $x=0$ and $x=1$. On $(0,1)$ the line is on top: $\displaystyle\int_0^1\left(x-x^2\right)dx=\frac12-\frac13=\frac16$. Answer **C**.
-  :::
-
-  :::example Integrating in y
-  Find the area of the region between $x=y^2$ and $x=y+2$.
-
-  **Solution.** In $x$, the region would need two integrals. In $y$: the curves meet where $y^2=y+2$, at $y=-1$ and $y=2$, and the line $x=y+2$ is on the right.
-  $$\int_{-1}^2\left(y+2-y^2\right)dy=\left[\frac{y^2}{2}+2y-\frac{y^3}{3}\right]_{-1}^2=\frac{10}{3}+\frac76=\frac92.$$
-  :::
-
-## Volumes with known cross sections
-
-[[P3·64f6]]
-If the cross section perpendicular to the $x$-axis at $x$ has area $A(x)$, the volume is $\displaystyle\int_a^bA(x)\,dx$. You only need the side of the cross section in terms of $x$, then the area formula: square $s^2$, semicircle with diameter $s$: $\dfrac{\pi}{8}s^2$, equilateral triangle $\dfrac{\sqrt3}{4}s^2$.
-
-  :::example Square cross sections
-  The base of a solid is the region under $y=\sqrt x$ for $0\le x\le4$. Cross sections perpendicular to the $x$-axis are squares. Find the volume.
-
-  **Solution.** The side is $s=\sqrt x$, so $A(x)=x$ and $V=\displaystyle\int_0^4x\,dx=8$.
-  :::
-
-## Disks and washers
-
-[[P4·133a]]
-Revolving a region around a line gives circular slices. If the region touches the axis, slices are **disks**: $V=\pi\displaystyle\int_a^bR(x)^2\,dx$. If there is a gap, slices are **washers**: $V=\pi\displaystyle\int_a^b\left(R(x)^2-r(x)^2\right)dx$, where $R$ and $r$ are the outer and inner radii, measured from the axis of rotation.
-
-  :::example A washer around a line below the region
-  The region between $y=x$ and $y=x^2$ is revolved around the line $y=-1$. Find the volume.
-
-  **Solution.** The distances to $y=-1$ are $R=x+1$ (the line, farther away) and $r=x^2+1$.
-  $$V=\pi\int_0^1\left[(x+1)^2-\left(x^2+1\right)^2\right]dx=\pi\int_0^1\left(2x-x^2-x^4\right)dx=\pi\left(1-\frac13-\frac15\right)=\frac{7\pi}{15}.$$
-  Around the $x$-axis instead, $R=x$, $r=x^2$ and $V=\dfrac{2\pi}{15}$.
-  :::
-
-:::warning Common traps
-[[P5·ad52]]
-- **$(R-r)^2$ instead of $R^2-r^2$.** A washer is a big disk minus a small disk.
-- **Radii from the wrong line.** Around $y=-1$, the radius of a curve $y=f(x)$ is $f(x)+1$; around $y=3$ it is $3-f(x)$.
-- **Wrong top curve.** Check which curve is on top with one test value before integrating.
-- **Average value without $\dfrac{1}{b-a}$.** Without it you have the integral, not the average.
-:::
-
-## Arc length (BC)
-
-[[P6·976c]]
-The length of the curve $y=f(x)$ for $a\le x\le b$ is $L=\displaystyle\int_a^b\sqrt{1+\left(f'(x)\right)^2}\,dx$. On the exam it is usually evaluated with a calculator; the setup earns the point.
-
-  :::example A length that can be found exactly
-  Find the length of $y=\dfrac23x^{3/2}$ for $0\le x\le3$.
-
-  **Solution.** $f'(x)=\sqrt x$, so $L=\displaystyle\int_0^3\sqrt{1+x}\,dx=\left[\frac23(1+x)^{3/2}\right]_0^3=\frac23(8-1)=\frac{14}{3}$.
-  :::
-
-  :::terms
-  - average value | giá trị trung bình
-  - area between curves | diện tích giữa hai đường cong
-  - cross section | thiết diện
-  - solid of revolution | khối tròn xoay
-  - disk method / washer method | phương pháp đĩa / vành khuyên
-  - axis of rotation | trục quay
-  - outer / inner radius | bán kính ngoài / trong
-  - arc length | độ dài cung
-  :::
-
-## Similar exercises
-
-:::exercise Multiple choice
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Free response
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Free response
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Multiple choice
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Free response
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Application exercises
-
-:::exercise A full AP-style region question
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Average temperature
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Choosing the variable
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise BC: arc length with a calculator
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI exams/ap-calculus/apcalc-bc-parametric-polar – BẢN TIẾNG VIỆT ########
----
-title: Hàm tham số, hàm véc-tơ và toạ độ cực
-description: AP Calculus BC Unit 9: đạo hàm của đường cong tham số, chuyển động bằng véc-tơ, tốc độ và quãng đường, hệ số góc và diện tích trong toạ độ cực.
-minutes: 45
----
-
-  :::goals
-  - Tìm $\dfrac{dy}{dx}$ và $\dfrac{d^2y}{dx^2}$ của đường cong tham số, xác định tiếp tuyến nằm ngang và thẳng đứng.
-  - Mô tả chuyển động trong mặt phẳng bằng véc-tơ vị trí, vận tốc, gia tốc; tính tốc độ và quãng đường.
-  - Tìm hệ số góc của đường cong trong toạ độ cực và hiểu ý nghĩa của $\dfrac{dr}{d\theta}$.
-  - Tính diện tích miền giới hạn bởi một hoặc hai đường cong trong toạ độ cực.
-  :::
-
-[[P1·96a0]]
-Unit 9 chỉ có ở BC và chiếm khoảng một phần mười điểm BC. Câu tự luận của unit này thường là một hạt chuyển động trong mặt phẳng, hoặc một miền giới hạn bởi đường cong trong toạ độ cực, và cả hai đều dựng từ một vài công thức. Cái khó không nằm ở giải tích mà ở việc nhớ mình đang lấy đạo hàm theo biến nào.
-
-## Đường cong tham số
-
-[[P2·8ff8]]
-Đường cong cho bởi $x=x(t)$, $y=y(t)$ có hệ số góc
-  $$\frac{dy}{dx}=\frac{dy/dt}{dx/dt}\quad\text{khi }\frac{dx}{dt}\ne0.$$
-[[P3·52ce]]
-Tiếp tuyến nằm ngang khi $\dfrac{dy}{dt}=0$ và $\dfrac{dx}{dt}\ne0$, thẳng đứng khi $\dfrac{dx}{dt}=0$ và $\dfrac{dy}{dt}\ne0$.
-
-  :::example Hệ số góc và tiếp tuyến
-  Với $x=t^2$, $y=t^3-3t$:
-
-  a) Tìm $\dfrac{dy}{dx}$ tại $t=2$.
-  b) Tiếp tuyến nằm ngang và thẳng đứng ở đâu?
-
-  **Lời giải.** a) $\dfrac{dy}{dx}=\dfrac{3t^2-3}{2t}$, nên tại $t=2$ hệ số góc bằng $\dfrac{9}{4}$.
-
-  b) Nằm ngang khi $3t^2-3=0$, tức $t=\pm1$ (khi đó $2t\ne0$): các điểm $(1,-2)$ và $(1,2)$. Thẳng đứng khi $2t=0$, tức $t=0$ (khi đó $3t^2-3=-3\ne0$): điểm $(0,0)$.
-  :::
-
-:::note Đạo hàm cấp hai
-[[P4·eb96]]
-$\dfrac{d^2y}{dx^2}$ **không** bằng $\dfrac{d^2y/dt^2}{d^2x/dt^2}$. Hãy lấy đạo hàm của $\dfrac{dy}{dx}$ theo $t$, rồi chia cho $\dfrac{dx}{dt}$:
-$$\frac{d^2y}{dx^2}=\frac{\dfrac{d}{dt}\left(\dfrac{dy}{dx}\right)}{dx/dt}.$$
-:::
-
-  :::example Tính lồi lõm của đường cong tham số
-  Với cùng đường cong $x=t^2$, $y=t^3-3t$, giá trị của $\dfrac{d^2y}{dx^2}$ tại $t=1$ bằng
-  A. $3$
-  B. $\dfrac32$
-  C. $\dfrac34$
-  D. $6$
-
-  **Lời giải.** $\dfrac{dy}{dx}=\dfrac32\left(t-\dfrac1t\right)$, nên $\dfrac{d}{dt}\left(\dfrac{dy}{dx}\right)=\dfrac32\left(1+\dfrac{1}{t^2}\right)$. Chia cho $2t$: $\dfrac{d^2y}{dx^2}=\dfrac{3\left(t^2+1\right)}{4t^3}$, bằng $\dfrac32$ tại $t=1$. Đáp án **B**. Phương án C quên thừa số $1+\dfrac{1}{t^2}$, chỉ lấy $\dfrac32$ chia cho $2t$.
-  :::
-
-## Chuyển động bằng véc-tơ
-
-[[P5·a1cf]]
-Một hạt có vị trí $\langle x(t),y(t)\rangle$ thì có vận tốc $\langle x'(t),y'(t)\rangle$ và gia tốc $\langle x''(t),y''(t)\rangle$.
-
-[[P6·3b8a]]
-- **Tốc độ** là độ dài véc-tơ vận tốc: $\sqrt{x'(t)^2+y'(t)^2}$.
-- **Quãng đường** từ $t=a$ đến $t=b$ là $\displaystyle\int_a^b\sqrt{x'(t)^2+y'(t)^2}\,dt$; cũng tích phân đó cho độ dài cung của quỹ đạo.
-- **Vị trí về sau:** $x(b)=x(a)+\displaystyle\int_a^bx'(t)\,dt$, tương tự với $y$.
-
-  :::example Một hạt trong mặt phẳng
-  Một hạt có vận tốc $v(t)=\left\langle2t,\ t^2-1\right\rangle$ và ở điểm $(1,2)$ lúc $t=0$.
-
-  a) Tìm tốc độ và gia tốc của hạt lúc $t=2$.
-  b) Tìm vị trí của hạt lúc $t=3$.
-  c) Tìm quãng đường hạt đi được từ $t=0$ đến $t=3$.
-
-  **Lời giải.** a) $v(2)=\langle4,3\rangle$, tốc độ $\sqrt{16+9}=5$. $a(t)=\langle2,2t\rangle$, nên $a(2)=\langle2,4\rangle$.
-
-  b) $x(3)=1+\displaystyle\int_0^32t\,dt=1+9=10$ và $y(3)=2+\displaystyle\int_0^3\left(t^2-1\right)dt=2+(9-3)=8$. Hạt ở điểm $(10,8)$.
-
-  c) $4t^2+\left(t^2-1\right)^2=t^4+2t^2+1=\left(t^2+1\right)^2$, nên quãng đường bằng $\displaystyle\int_0^3\left(t^2+1\right)dt=9+3=12$. Trong đề thi, tích phân này thường tính bằng máy tính; ở đây nó rút gọn được chính xác.
-  :::
-
-## Đường cong cực: hệ số góc và ý nghĩa của dr/dθ
-
-[[P7·bd91]]
-Đường cong cực $r=f(\theta)$ chính là đường cong tham số $x=r\cos\theta$, $y=r\sin\theta$ với tham số $\theta$. Vì vậy hệ số góc của nó là
-  $$\frac{dy}{dx}=\frac{dy/d\theta}{dx/d\theta}=\frac{r'\sin\theta+r\cos\theta}{r'\cos\theta-r\sin\theta}.$$
-[[P8·2faa]]
-Dấu của $\dfrac{dr}{d\theta}$ cho biết khoảng cách tới gốc toạ độ: khi $r>0$ và $\dfrac{dr}{d\theta}>0$, điểm đang ra xa gốc; khi $\dfrac{dr}{d\theta}<0$, điểm đang lại gần gốc.
-
-  :::example Hệ số góc của đường hình tim
-  Tìm hệ số góc của $r=1+\cos\theta$ tại $\theta=\dfrac{\pi}{2}$.
-
-  **Lời giải.** Tại $\theta=\dfrac\pi2$: $r=1$ và $r'=-\sin\theta=-1$.
-  $\dfrac{dy}{d\theta}=(-1)(1)+(1)(0)=-1$ và $\dfrac{dx}{d\theta}=(-1)(0)-(1)(1)=-1$, nên $\dfrac{dy}{dx}=1$.
-  :::
-
-## Diện tích trong toạ độ cực
-
-  :::theorem Diện tích trong toạ độ cực
-  Diện tích miền giới hạn bởi $r=f(\theta)$ và hai tia $\theta=\alpha$, $\theta=\beta$ là
-  $$A=\frac12\int_\alpha^\beta r^2\,d\theta.$$
-  Giữa hai đường cong, với $r_{\text{ngoài}}$ xa gốc hơn: $A=\dfrac12\displaystyle\int_\alpha^\beta\left(r_{\text{ngoài}}^2-r_{\text{trong}}^2\right)d\theta$.
-  :::
-
-  :::example Diện tích bên trong đường hình tim
-  Diện tích miền giới hạn bởi $r=1+\cos\theta$ bằng
-  A. $\pi$
-  B. $3\pi$
-  C. $\dfrac{3\pi}{2}$
-  D. $2\pi$
-
-  **Lời giải.** $\dfrac12\displaystyle\int_0^{2\pi}\left(1+2\cos\theta+\cos^2\theta\right)d\theta=\dfrac12\left(2\pi+0+\pi\right)=\dfrac{3\pi}{2}$. Đáp án **C**. Phương án B quên hệ số $\dfrac12$.
-  :::
-
-:::warning Những cái bẫy thường gặp
-[[P9·5338]]
-- **Chia hai đạo hàm cấp hai cho nhau.** $\dfrac{d^2y}{dx^2}\ne\dfrac{y''(t)}{x''(t)}$.
-- **Nhầm tốc độ với vận tốc.** Tốc độ là một số; vận tốc là một véc-tơ.
-- **Diện tích cực thiếu $\dfrac12$, hoặc dùng $r$ thay cho $r^2$.**
-- **Lỗi kiểu vành khuyên trong toạ độ cực.** Giữa hai đường cong, dùng $r_{\text{ngoài}}^2-r_{\text{trong}}^2$, không phải $\left(r_{\text{ngoài}}-r_{\text{trong}}\right)^2$.
-- **Sai cận.** Tìm giao điểm bằng cách giải $f(\theta)=g(\theta)$, rồi kiểm tra miền trên hình vẽ hoặc máy tính vẽ đồ thị.
-:::
-
-  :::terms
-  - parametric equations | phương trình tham số
-  - parameter | tham số
-  - vector-valued function | hàm véc-tơ
-  - velocity / acceleration vector | véc-tơ vận tốc / gia tốc
-  - speed | tốc độ (độ lớn vận tốc)
-  - arc length | độ dài cung
-  - polar coordinates | toạ độ cực
-  - cardioid | đường hình tim
-  :::
-
-## Bài tập tương tự
-
-:::exercise Trắc nghiệm
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Tự luận
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Tự luận
-   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Trắc nghiệm
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Tự luận
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Bài tập vận dụng
-
-:::exercise Một câu về chuyển động kiểu đề AP
    (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Bên trong đường hình tim
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Giữa hai đường cong cực
-   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Thử thách
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI exams/ap-calculus/apcalc-bc-parametric-polar – BẢN TIẾNG ANH ########
----
-title: Parametric, vector-valued and polar functions
-description: AP Calculus BC Unit 9: derivatives of parametric curves, motion with vectors, speed and distance, polar slope and polar area.
-minutes: 45
----
-
-  :::goals
-  - Find $\dfrac{dy}{dx}$ and $\dfrac{d^2y}{dx^2}$ for a parametric curve, and locate horizontal and vertical tangents.
-  - Describe motion in the plane with position, velocity and acceleration vectors; find speed and distance traveled.
-  - Find the slope of a polar curve and interpret $\dfrac{dr}{d\theta}$.
-  - Find the area of a region bounded by one or two polar curves.
-  :::
-
-[[P1·b49d]]
-Unit 9 is for BC only and carries about a tenth of the BC score. Its free-response question is usually a particle moving in the plane, or a region bounded by a polar curve, and both are built from a handful of formulas. The difficulty is not the calculus; it is keeping track of which variable you are differentiating with respect to.
-
-## Parametric curves
-
-[[P2·5267]]
-A curve given by $x=x(t)$, $y=y(t)$ has slope
-  $$\frac{dy}{dx}=\frac{dy/dt}{dx/dt}\quad\text{when }\frac{dx}{dt}\ne0.$$
-[[P3·953b]]
-The tangent is horizontal where $\dfrac{dy}{dt}=0$ and $\dfrac{dx}{dt}\ne0$, vertical where $\dfrac{dx}{dt}=0$ and $\dfrac{dy}{dt}\ne0$.
-
-  :::example Slope and tangents
-  For $x=t^2$, $y=t^3-3t$:
-
-  a) Find $\dfrac{dy}{dx}$ at $t=2$.
-  b) Where are the tangents horizontal and vertical?
-
-  **Solution.** a) $\dfrac{dy}{dx}=\dfrac{3t^2-3}{2t}$, so at $t=2$ the slope is $\dfrac{9}{4}$.
-
-  b) Horizontal where $3t^2-3=0$, at $t=\pm1$ (there $2t\ne0$): the points $(1,-2)$ and $(1,2)$. Vertical where $2t=0$, at $t=0$ (there $3t^2-3=-3\ne0$): the point $(0,0)$.
-  :::
-
-:::note The second derivative
-[[P4·06fe]]
-$\dfrac{d^2y}{dx^2}$ is **not** $\dfrac{d^2y/dt^2}{d^2x/dt^2}$. Differentiate $\dfrac{dy}{dx}$ with respect to $t$, then divide by $\dfrac{dx}{dt}$:
-$$\frac{d^2y}{dx^2}=\frac{\dfrac{d}{dt}\left(\dfrac{dy}{dx}\right)}{dx/dt}.$$
-:::
-
-  :::example Concavity of a parametric curve
-  For the same curve $x=t^2$, $y=t^3-3t$, what is $\dfrac{d^2y}{dx^2}$ at $t=1$?
-  A. $3$
-  B. $\dfrac32$
-  C. $\dfrac34$
-  D. $6$
-
-  **Solution.** $\dfrac{dy}{dx}=\dfrac32\left(t-\dfrac1t\right)$, so $\dfrac{d}{dt}\left(\dfrac{dy}{dx}\right)=\dfrac32\left(1+\dfrac{1}{t^2}\right)$. Dividing by $2t$: $\dfrac{d^2y}{dx^2}=\dfrac{3\left(t^2+1\right)}{4t^3}$, which equals $\dfrac32$ at $t=1$. Answer **B**. Option C forgets the factor $1+\dfrac{1}{t^2}$, using only $\dfrac32$ divided by $2t$.
-  :::
-
-## Motion with vectors
-
-[[P5·85fa]]
-A particle at position $\langle x(t),y(t)\rangle$ has velocity $\langle x'(t),y'(t)\rangle$ and acceleration $\langle x''(t),y''(t)\rangle$.
-
-[[P6·de82]]
-- **Speed** is the length of the velocity vector: $\sqrt{x'(t)^2+y'(t)^2}$.
-- **Distance traveled** from $t=a$ to $t=b$ is $\displaystyle\int_a^b\sqrt{x'(t)^2+y'(t)^2}\,dt$; the same integral gives the arc length of the path.
-- **Position later:** $x(b)=x(a)+\displaystyle\int_a^bx'(t)\,dt$, and likewise for $y$.
-
-  :::example A particle in the plane
-  A particle has velocity $v(t)=\left\langle2t,\ t^2-1\right\rangle$ and is at $(1,2)$ at $t=0$.
-
-  a) Find its speed and acceleration at $t=2$.
-  b) Find its position at $t=3$.
-  c) Find the distance traveled from $t=0$ to $t=3$.
-
-  **Solution.** a) $v(2)=\langle4,3\rangle$, speed $\sqrt{16+9}=5$. $a(t)=\langle2,2t\rangle$, so $a(2)=\langle2,4\rangle$.
-
-  b) $x(3)=1+\displaystyle\int_0^32t\,dt=1+9=10$ and $y(3)=2+\displaystyle\int_0^3\left(t^2-1\right)dt=2+(9-3)=8$. The particle is at $(10,8)$.
-
-  c) $4t^2+\left(t^2-1\right)^2=t^4+2t^2+1=\left(t^2+1\right)^2$, so the distance is $\displaystyle\int_0^3\left(t^2+1\right)dt=9+3=12$. On the exam this integral is usually done with a calculator; here it simplifies exactly.
-  :::
-
-## Polar curves: slope and the meaning of dr/dθ
-
-[[P7·c569]]
-A polar curve $r=f(\theta)$ is the parametric curve $x=r\cos\theta$, $y=r\sin\theta$ with parameter $\theta$. So its slope is
-  $$\frac{dy}{dx}=\frac{dy/d\theta}{dx/d\theta}=\frac{r'\sin\theta+r\cos\theta}{r'\cos\theta-r\sin\theta}.$$
-[[P8·ade1]]
-The sign of $\dfrac{dr}{d\theta}$ tells you about distance from the origin: when $r>0$ and $\dfrac{dr}{d\theta}>0$, the point moves away from the origin; when $\dfrac{dr}{d\theta}<0$, toward it.
-
-  :::example Slope of a cardioid
-  Find the slope of $r=1+\cos\theta$ at $\theta=\dfrac{\pi}{2}$.
-
-  **Solution.** At $\theta=\dfrac\pi2$: $r=1$ and $r'=-\sin\theta=-1$.
-  $\dfrac{dy}{d\theta}=(-1)(1)+(1)(0)=-1$ and $\dfrac{dx}{d\theta}=(-1)(0)-(1)(1)=-1$, so $\dfrac{dy}{dx}=1$.
-  :::
-
-## Polar area
-
-  :::theorem Area in polar coordinates
-  The area of the region bounded by $r=f(\theta)$ and the rays $\theta=\alpha$, $\theta=\beta$ is
-  $$A=\frac12\int_\alpha^\beta r^2\,d\theta.$$
-  Between two curves, with $r_{\text{out}}$ farther from the origin: $A=\dfrac12\displaystyle\int_\alpha^\beta\left(r_{\text{out}}^2-r_{\text{in}}^2\right)d\theta$.
-  :::
-
-  :::example Area inside a cardioid
-  What is the area enclosed by $r=1+\cos\theta$?
-  A. $\pi$
-  B. $3\pi$
-  C. $\dfrac{3\pi}{2}$
-  D. $2\pi$
-
-  **Solution.** $\dfrac12\displaystyle\int_0^{2\pi}\left(1+2\cos\theta+\cos^2\theta\right)d\theta=\dfrac12\left(2\pi+0+\pi\right)=\dfrac{3\pi}{2}$. Answer **C**. Option B forgets the $\dfrac12$.
-  :::
-
-:::warning Common traps
-[[P9·8864]]
-- **Dividing second derivatives.** $\dfrac{d^2y}{dx^2}\ne\dfrac{y''(t)}{x''(t)}$.
-- **Speed is not velocity.** Speed is a number; velocity is a vector.
-- **Polar area without the $\dfrac12$, or with $r$ instead of $r^2$.**
-- **Washer-style mistake in polar.** Between two curves, use $r_{\text{out}}^2-r_{\text{in}}^2$, not $\left(r_{\text{out}}-r_{\text{in}}\right)^2$.
-- **Wrong limits.** Find where the curves meet by solving $f(\theta)=g(\theta)$, and check the region on a sketch or a graphing calculator.
-:::
-
-  :::terms
-  - parametric equations | phương trình tham số
-  - parameter | tham số
-  - vector-valued function | hàm véc-tơ
-  - velocity / acceleration vector | véc-tơ vận tốc / gia tốc
-  - speed | tốc độ (độ lớn vận tốc)
-  - arc length | độ dài cung
-  - polar coordinates | toạ độ cực
-  - cardioid | đường hình tim
-  :::
-
-## Similar exercises
-
-:::exercise Multiple choice
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Free response
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Free response
-   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Multiple choice
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Free response
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Application exercises
-
-:::exercise A particle question in AP style
-   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Inside a cardioid
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Between two polar curves
-   (… 10 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Challenge
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI exams/ap-calculus/apcalc-bc-series – BẢN TIẾNG VIỆT ########
----
-title: Chuỗi vô hạn, chuỗi Taylor và chuỗi luỹ thừa
-description: AP Calculus BC Unit 10: các tiêu chuẩn hội tụ, hội tụ tuyệt đối và có điều kiện, đa thức Taylor, cận sai số và khoảng hội tụ.
-minutes: 50
----
-
-  :::goals
-  - Chọn tiêu chuẩn phù hợp để xét một chuỗi hội tụ hay phân kì, có nêu điều kiện của tiêu chuẩn.
-  - Phân biệt hội tụ tuyệt đối với hội tụ có điều kiện.
-  - Lập đa thức Taylor và dùng nó để tính gần đúng.
-  - Đánh giá sai số bằng cận sai số của chuỗi đan dấu hoặc cận sai số Lagrange.
-  - Tìm bán kính và khoảng hội tụ của chuỗi luỹ thừa, kể cả hai đầu mút.
-  :::
-
-[[P1·ab35]]
-Unit 10 là unit lớn nhất chỉ có ở BC, chiếm khoảng một phần sáu điểm BC, và gần như đề BC nào cũng có một câu tự luận về nó: lập đa thức Taylor, đánh giá sai số, tìm khoảng hội tụ. Điểm thuộc về học sinh nêu tên tiêu chuẩn mình dùng và viết ra việc kiểm tra điều kiện. Viết "hội tụ theo tiêu chuẩn tỉ số" kèm giới hạn được tính ra thì có điểm; chỉ viết "hội tụ" thì không.
-
-## Hội tụ: bộ công cụ cơ bản
-
-:::note Các chuỗi phải nhận ra ngay
-[[P2·c4dd]]
-- **Chuỗi hình học:** $\displaystyle\sum_{n=0}^\infty ar^n$ hội tụ về $\dfrac{a}{1-r}$ khi $|r|<1$, và phân kì khi $|r|\ge1$.
-- **Chuỗi $p$:** $\displaystyle\sum_{n=1}^\infty\frac{1}{n^p}$ hội tụ khi $p>1$ và phân kì khi $p\le1$. **Chuỗi điều hoà** ($p=1$) phân kì.
-- **Tiêu chuẩn số hạng thứ $n$:** nếu $\displaystyle\lim_{n\to\infty}a_n\ne0$ thì chuỗi phân kì. Nếu giới hạn bằng $0$ thì tiêu chuẩn này không kết luận được gì.
-:::
-
-  :::example Tổng của chuỗi hình học
-  Tính $\displaystyle\sum_{n=0}^\infty3\left(\frac25\right)^n$.
-
-  **Lời giải.** Chuỗi hình học với $a=3$ và $r=\dfrac25$, và $|r|<1$: tổng bằng $\dfrac{3}{1-2/5}=5$.
-  :::
-
-  :::example Chuỗi nào hội tụ?
-  Chuỗi nào hội tụ?
-  A. $\displaystyle\sum_{n=1}^\infty\frac{n}{n+1}$
-  B. $\displaystyle\sum_{n=1}^\infty\frac{1}{\sqrt n}$
-  C. $\displaystyle\sum_{n=1}^\infty\frac{1}{n^{3/2}}$
-  D. $\displaystyle\sum_{n=1}^\infty\left(\frac54\right)^n$
-
-  **Lời giải.** A: số hạng tiến tới $1$, nên phân kì theo tiêu chuẩn số hạng thứ $n$. B: $p=\dfrac12\le1$, phân kì. C: $p=\dfrac32>1$, hội tụ. D: chuỗi hình học với $r=\dfrac54>1$, phân kì. Đáp án **C**.
-  :::
-
-## Thêm các tiêu chuẩn, hội tụ tuyệt đối và có điều kiện
-
-[[P3·a085]]
-- **Tiêu chuẩn tích phân:** nếu $f$ dương, liên tục, nghịch biến và $f(n)=a_n$ thì $\displaystyle\sum a_n$ và $\displaystyle\int_1^\infty f(x)\,dx$ cùng hội tụ hoặc cùng phân kì.
-- **So sánh và so sánh giới hạn:** so với một chuỗi hình học hoặc chuỗi $p$ đã biết tính chất.
-- **Tiêu chuẩn tỉ số:** nếu $\displaystyle\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|=L$ thì chuỗi hội tụ tuyệt đối khi $L<1$ và phân kì khi $L>1$; $L=1$ thì không kết luận được.
-- **Tiêu chuẩn chuỗi đan dấu:** $\displaystyle\sum(-1)^nb_n$ với $b_n>0$ giảm dần và $b_n\to0$ thì hội tụ.
-
-[[P4·25ed]]
-Chuỗi **hội tụ tuyệt đối** nếu $\displaystyle\sum|a_n|$ hội tụ; chuỗi **hội tụ có điều kiện** nếu nó hội tụ nhưng $\displaystyle\sum|a_n|$ phân kì.
-
-  :::example Tiêu chuẩn tỉ số
-  Chứng tỏ $\displaystyle\sum_{n=1}^\infty\frac{n^2}{3^n}$ hội tụ.
-
-  **Lời giải.** $\left|\dfrac{a_{n+1}}{a_n}\right|=\dfrac{(n+1)^2}{3^{n+1}}\cdot\dfrac{3^n}{n^2}=\dfrac13\left(\dfrac{n+1}{n}\right)^2\to\dfrac13$. Vì $\dfrac13<1$ nên chuỗi hội tụ theo tiêu chuẩn tỉ số.
-  :::
-
-  :::example Tuyệt đối hay có điều kiện?
-  Phân loại $\displaystyle\sum_{n=1}^\infty\frac{(-1)^{n+1}}{n}$ và $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n^2}$.
-
-  **Lời giải.** Chuỗi thứ nhất hội tụ theo tiêu chuẩn chuỗi đan dấu ($\dfrac1n$ giảm dần về $0$), nhưng chuỗi các giá trị tuyệt đối là chuỗi điều hoà, phân kì: hội tụ **có điều kiện**. Chuỗi thứ hai có giá trị tuyệt đối là $\dfrac{1}{n^2}$, một chuỗi $p$ hội tụ: hội tụ **tuyệt đối**.
-  :::
-
-## Đa thức Taylor và cận sai số
-
-[[P5·4b60]]
-Đa thức Taylor bậc $n$ của $f$ tại $x=a$ là
-  $$P_n(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+\dots+\frac{f^{(n)}(a)}{n!}(x-a)^n.$$
-
-:::note Các chuỗi Maclaurin cần thuộc lòng
-[[P6·6da5]]
-$$e^x=\sum_{n=0}^\infty\frac{x^n}{n!},\qquad\sin x=\sum_{n=0}^\infty\frac{(-1)^nx^{2n+1}}{(2n+1)!},\qquad\cos x=\sum_{n=0}^\infty\frac{(-1)^nx^{2n}}{(2n)!},$$
-$$\frac{1}{1-x}=\sum_{n=0}^\infty x^n\quad(|x|<1).$$
-Các chuỗi mới được tạo từ những chuỗi này bằng cách thế biến, nhân với một luỹ thừa của $x$, đạo hàm hoặc lấy tích phân từng số hạng.
-:::
-
-  :::example Đa thức Taylor từ các đạo hàm cho trước
-  Hàm số $f$ có $f(0)=2$, $f'(0)=-1$, $f''(0)=4$ và $f'''(0)=-6$. Viết đa thức Taylor bậc ba của $f$ tại $x=0$ và dùng nó để tính gần đúng $f(0{,}1)$.
-
-  **Lời giải.** $P_3(x)=2-x+\dfrac{4}{2}x^2+\dfrac{-6}{6}x^3=2-x+2x^2-x^3$. Vậy $f(0{,}1)\approx2-0{,}1+0{,}02-0{,}001=1{,}919$. Nhớ chia cho giai thừa: đây là chỗ mất điểm nhiều nhất.
-  :::
-
-  :::theorem Hai cận sai số
-  **Cận sai số của chuỗi đan dấu.** Nếu chuỗi thoả mãn tiêu chuẩn chuỗi đan dấu thì sai số khi dừng ở một số hạng không vượt quá giá trị tuyệt đối của số hạng đầu tiên bị bỏ đi.
-
-  **Cận sai số Lagrange.** Nếu $\left|f^{(n+1)}(x)\right|\le M$ giữa $a$ và $x$ thì $\left|f(x)-P_n(x)\right|\le\dfrac{M}{(n+1)!}|x-a|^{n+1}$.
-  :::
-
-  :::example Giá trị gần đúng tốt đến đâu?
-  Tính gần đúng $\cos0{,}5$ bằng $1-\dfrac{x^2}{2}$ và đánh giá sai số.
-
-  **Lời giải.** $1-\dfrac{0{,}25}{2}=0{,}875$. Chuỗi của $\cos0{,}5$ đan dấu với các số hạng giảm dần, nên sai số không vượt quá số hạng tiếp theo: $\dfrac{0{,}5^4}{24}\approx0{,}0026$. (Giá trị thật khoảng $0{,}8776$, sai số khoảng $0{,}0026$.)
-  :::
-
-## Chuỗi luỹ thừa và khoảng hội tụ
-
-[[P7·d8f3]]
-Chuỗi luỹ thừa $\displaystyle\sum c_n(x-a)^n$ hội tụ trên một khoảng có tâm $a$. Dùng tiêu chuẩn tỉ số để tìm bán kính, rồi **xét riêng từng đầu mút**: tiêu chuẩn tỉ số không cho thông tin gì ở đó.
-
-  :::example Khoảng hội tụ chứa một đầu mút
-  Tìm khoảng hội tụ của $\displaystyle\sum_{n=1}^\infty\frac{(x-2)^n}{n\cdot3^n}$.
-
-  **Lời giải.** $\left|\dfrac{a_{n+1}}{a_n}\right|=\dfrac{|x-2|}{3}\cdot\dfrac{n}{n+1}\to\dfrac{|x-2|}{3}$. Giới hạn này nhỏ hơn $1$ khi $|x-2|<3$, tức $-1<x<5$.
-
-  Tại $x=5$: $\displaystyle\sum\frac1n$, chuỗi điều hoà, phân kì. Tại $x=-1$: $\displaystyle\sum\frac{(-1)^n}{n}$ hội tụ theo tiêu chuẩn chuỗi đan dấu. Khoảng hội tụ là $[-1,5)$.
-  :::
-
-:::warning Những cái bẫy thường gặp
-[[P8·4425]]
-- **Dùng tiêu chuẩn số hạng thứ $n$ để chứng minh hội tụ.** Chỉ có $a_n\to0$ thì chưa chứng minh được gì: chuỗi điều hoà là phản ví dụ.
-- **Bỏ qua hai đầu mút**, hoặc xét đầu mút bằng tiêu chuẩn tỉ số.
-- **Quên giai thừa** trong đa thức Taylor.
-- **Không nêu tên tiêu chuẩn.** Viết tên tiêu chuẩn, kiểm tra điều kiện, nêu kết luận.
-- **Nhầm hai cận sai số.** Cận của chuỗi đan dấu cần chuỗi đan dấu có số hạng giảm dần; cận Lagrange cần một chặn $M$ của đạo hàm cấp tiếp theo.
-:::
-
-  :::terms
-  - series, partial sum | chuỗi, tổng riêng
-  - converge / diverge | hội tụ / phân kì
-  - geometric series, harmonic series | chuỗi hình học, chuỗi điều hoà
-  - ratio test, alternating series test | tiêu chuẩn tỉ số, tiêu chuẩn chuỗi đan dấu
-  - absolute / conditional convergence | hội tụ tuyệt đối / có điều kiện
-  - Taylor polynomial, Maclaurin series | đa thức Taylor, chuỗi Maclaurin
-  - error bound | cận sai số
-  - radius / interval of convergence | bán kính / khoảng hội tụ
-  :::
-
-## Bài tập tương tự
-
-:::exercise Trắc nghiệm
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Tự luận
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Tự luận
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Trắc nghiệm
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Tự luận
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Bài tập vận dụng
-
-:::exercise Một câu Taylor đầy đủ
-   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Cả hai đầu mút
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Lấy tích phân một chuỗi
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Thử thách
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI exams/ap-calculus/apcalc-bc-series – BẢN TIẾNG ANH ########
----
-title: Infinite series, Taylor and power series
-description: AP Calculus BC Unit 10: convergence tests, absolute and conditional convergence, Taylor polynomials, error bounds and intervals of convergence.
-minutes: 50
----
-
-  :::goals
-  - Choose a suitable test and decide whether a series converges or diverges, stating the conditions of the test.
-  - Tell absolute from conditional convergence.
-  - Build Taylor polynomials and use them to approximate values.
-  - Bound the error with the alternating series error bound or the Lagrange error bound.
-  - Find the radius and interval of convergence of a power series, including the endpoints.
-  :::
-
-[[P1·7d75]]
-Unit 10 is the largest BC-only unit, roughly a sixth of the BC score, and almost every BC exam has a free-response question on it: build a Taylor polynomial, bound the error, find an interval of convergence. The points go to students who name the test they use and check its conditions in writing. "It converges by the ratio test" with the limit shown earns credit; "it converges" alone does not.
-
-## Convergence: the basic toolkit
-
-:::note Series you must recognize
-[[P2·c1ab]]
-- **Geometric:** $\displaystyle\sum_{n=0}^\infty ar^n$ converges to $\dfrac{a}{1-r}$ when $|r|<1$, and diverges when $|r|\ge1$.
-- **$p$-series:** $\displaystyle\sum_{n=1}^\infty\frac{1}{n^p}$ converges when $p>1$ and diverges when $p\le1$. The **harmonic series** ($p=1$) diverges.
-- **$n$th term test:** if $\displaystyle\lim_{n\to\infty}a_n\ne0$, the series diverges. If the limit is $0$, this test says nothing.
-:::
-
-  :::example A geometric sum
-  Find $\displaystyle\sum_{n=0}^\infty3\left(\frac25\right)^n$.
-
-  **Solution.** Geometric with $a=3$ and $r=\dfrac25$, and $|r|<1$: the sum is $\dfrac{3}{1-2/5}=5$.
-  :::
-
-  :::example Which one converges?
-  Which series converges?
-  A. $\displaystyle\sum_{n=1}^\infty\frac{n}{n+1}$
-  B. $\displaystyle\sum_{n=1}^\infty\frac{1}{\sqrt n}$
-  C. $\displaystyle\sum_{n=1}^\infty\frac{1}{n^{3/2}}$
-  D. $\displaystyle\sum_{n=1}^\infty\left(\frac54\right)^n$
-
-  **Solution.** A: the terms tend to $1$, so it diverges by the $n$th term test. B: $p=\dfrac12\le1$, diverges. C: $p=\dfrac32>1$, converges. D: geometric with $r=\dfrac54>1$, diverges. Answer **C**.
-  :::
-
-## More tests, and absolute versus conditional
-
-[[P3·5ac1]]
-- **Integral test:** if $f$ is positive, continuous and decreasing with $f(n)=a_n$, then $\displaystyle\sum a_n$ and $\displaystyle\int_1^\infty f(x)\,dx$ both converge or both diverge.
-- **Comparison and limit comparison:** compare with a geometric or $p$-series whose behavior you know.
-- **Ratio test:** if $\displaystyle\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|=L$, the series converges absolutely when $L<1$ and diverges when $L>1$; $L=1$ gives no conclusion.
-- **Alternating series test:** $\displaystyle\sum(-1)^nb_n$ with $b_n>0$ decreasing and $b_n\to0$ converges.
-
-[[P4·47f1]]
-A series **converges absolutely** if $\displaystyle\sum|a_n|$ converges; it **converges conditionally** if it converges but $\displaystyle\sum|a_n|$ diverges.
-
-  :::example The ratio test
-  Show that $\displaystyle\sum_{n=1}^\infty\frac{n^2}{3^n}$ converges.
-
-  **Solution.** $\left|\dfrac{a_{n+1}}{a_n}\right|=\dfrac{(n+1)^2}{3^{n+1}}\cdot\dfrac{3^n}{n^2}=\dfrac13\left(\dfrac{n+1}{n}\right)^2\to\dfrac13$. Since $\dfrac13<1$, the series converges by the ratio test.
-  :::
-
-  :::example Absolute or conditional?
-  Classify $\displaystyle\sum_{n=1}^\infty\frac{(-1)^{n+1}}{n}$ and $\displaystyle\sum_{n=1}^\infty\frac{(-1)^n}{n^2}$.
-
-  **Solution.** The first converges by the alternating series test ($\dfrac1n$ decreases to $0$), but the series of absolute values is the harmonic series, which diverges: **conditional** convergence. The second has absolute values $\dfrac{1}{n^2}$, a convergent $p$-series: **absolute** convergence.
-  :::
-
-## Taylor polynomials and error bounds
-
-[[P5·0802]]
-The Taylor polynomial of degree $n$ for $f$ about $x=a$ is
-  $$P_n(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+\dots+\frac{f^{(n)}(a)}{n!}(x-a)^n.$$
-
-:::note Maclaurin series to know by heart
-[[P6·b5c6]]
-$$e^x=\sum_{n=0}^\infty\frac{x^n}{n!},\qquad\sin x=\sum_{n=0}^\infty\frac{(-1)^nx^{2n+1}}{(2n+1)!},\qquad\cos x=\sum_{n=0}^\infty\frac{(-1)^nx^{2n}}{(2n)!},$$
-$$\frac{1}{1-x}=\sum_{n=0}^\infty x^n\quad(|x|<1).$$
-New series come from these by substituting, multiplying by a power of $x$, differentiating or integrating term by term.
-:::
-
-  :::example A Taylor polynomial from given derivatives
-  A function $f$ has $f(0)=2$, $f'(0)=-1$, $f''(0)=4$ and $f'''(0)=-6$. Write the third-degree Taylor polynomial for $f$ about $x=0$ and use it to approximate $f(0.1)$.
-
-  **Solution.** $P_3(x)=2-x+\dfrac{4}{2}x^2+\dfrac{-6}{6}x^3=2-x+2x^2-x^3$. So $f(0.1)\approx2-0.1+0.02-0.001=1.919$. Remember to divide by the factorials: this is the most common lost point.
-  :::
-
-  :::theorem Two error bounds
-  **Alternating series error bound.** If a series satisfies the alternating series test, the error after stopping at a term is at most the absolute value of the first omitted term.
-
-  **Lagrange error bound.** If $\left|f^{(n+1)}(x)\right|\le M$ between $a$ and $x$, then $\left|f(x)-P_n(x)\right|\le\dfrac{M}{(n+1)!}|x-a|^{n+1}$.
-  :::
-
-  :::example How good is the approximation?
-  Approximate $\cos0.5$ with $1-\dfrac{x^2}{2}$ and bound the error.
-
-  **Solution.** $1-\dfrac{0.25}{2}=0.875$. The series for $\cos0.5$ alternates with decreasing terms, so the error is at most the next term: $\dfrac{0.5^4}{24}\approx0.0026$. (The true value is about $0.8776$, an error of about $0.0026$.)
-  :::
-
-## Power series and intervals of convergence
-
-[[P7·bf81]]
-A power series $\displaystyle\sum c_n(x-a)^n$ converges on an interval centered at $a$. Use the ratio test to find the radius, then **test each endpoint separately**: the ratio test gives no information there.
-
-  :::example An interval with one endpoint
-  Find the interval of convergence of $\displaystyle\sum_{n=1}^\infty\frac{(x-2)^n}{n\cdot3^n}$.
-
-  **Solution.** $\left|\dfrac{a_{n+1}}{a_n}\right|=\dfrac{|x-2|}{3}\cdot\dfrac{n}{n+1}\to\dfrac{|x-2|}{3}$. This is less than $1$ when $|x-2|<3$, that is $-1<x<5$.
-
-  At $x=5$: $\displaystyle\sum\frac1n$, the harmonic series, diverges. At $x=-1$: $\displaystyle\sum\frac{(-1)^n}{n}$ converges by the alternating series test. The interval is $[-1,5)$.
-  :::
-
-:::warning Common traps
-[[P8·e8cf]]
-- **Using the $n$th term test to prove convergence.** $a_n\to0$ alone proves nothing: the harmonic series is the counterexample.
-- **Skipping the endpoints**, or testing them with the ratio test.
-- **Forgetting the factorials** in a Taylor polynomial.
-- **Not naming the test.** Write the test, check its conditions, state the conclusion.
-- **Mixing up the two error bounds.** The alternating bound needs an alternating series with decreasing terms; Lagrange needs a bound $M$ on the next derivative.
-:::
-
-  :::terms
-  - series, partial sum | chuỗi, tổng riêng
-  - converge / diverge | hội tụ / phân kì
-  - geometric series, harmonic series | chuỗi hình học, chuỗi điều hoà
-  - ratio test, alternating series test | tiêu chuẩn tỉ số, tiêu chuẩn chuỗi đan dấu
-  - absolute / conditional convergence | hội tụ tuyệt đối / có điều kiện
-  - Taylor polynomial, Maclaurin series | đa thức Taylor, chuỗi Maclaurin
-  - error bound | cận sai số
-  - radius / interval of convergence | bán kính / khoảng hội tụ
-  :::
-
-## Similar exercises
-
-:::exercise Multiple choice
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Free response
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Free response
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Multiple choice
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Free response
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Application exercises
-
-:::exercise A full Taylor question
-   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Both endpoints
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Integrating a series
-   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Challenge
-   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
+## Mini test
 
 :::quiz
    (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)

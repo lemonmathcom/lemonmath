@@ -1,0 +1,1382 @@
+######################################################################
+TÀI KHOẢN: thaodebao1   |   FILE: thaodebao1-09-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file thaodebao1-09-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – thaodebao1-09-GV
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/sat/sat-area-volume-lines-angles, exams/sat/sat-desmos-strategies, exams/sat/sat-equivalent-expressions, exams/sat/sat-exponential-functions
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  thaodebao1-09-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/thaodebao1-09-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file thaodebao1-09-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/sat/sat-area-volume-lines-angles – BẢN TIẾNG VIỆT ########
+---
+title: Diện tích, thể tích, đường thẳng và góc
+description: SAT Geometry: góc tạo bởi hai đường thẳng song song, tổng các góc của tam giác và đa giác, diện tích hình ghép, thể tích khối và ảnh hưởng của tỉ lệ.
+minutes: 35
+---
+
+  :::goals
+  - Dùng góc đối đỉnh, hai góc kề bù và các góc tạo bởi một đường thẳng cắt hai đường thẳng song song.
+  - Dùng tổng các góc của tam giác và của đa giác.
+  - Tính diện tích hình ghép, thể tích và diện tích toàn phần của hình hộp, hình trụ, hình nón, hình cầu.
+  - Dự đoán diện tích và thể tích thay đổi thế nào khi các độ dài được nhân lên.
+  :::
+
+[[P1·9833]]
+Mảng Geometry and Trigonometry có khoảng 5 đến 7 câu trong đề. Công thức diện tích và thể tích có trong bảng công thức của Bluebook, nên SAT không kiểm tra trí nhớ: đề kiểm tra xem bạn có **chọn** được đúng công thức, tách một hình thành các phần đơn giản và lập phương trình từ quan hệ giữa các góc hay không. Nhiều câu ở phần này là câu tự điền đáp số, nên cần tính toán cẩn thận.
+
+## Đường thẳng và góc
+
+:::note Các tính chất về góc
+[[P2·66b3]]
+- Các góc trên một đường thẳng có tổng $180^\circ$; các góc quanh một điểm có tổng $360^\circ$.
+- Hai góc đối đỉnh bằng nhau.
+- Khi một đường thẳng cắt hai đường thẳng **song song**: các góc đồng vị bằng nhau, các góc so le trong bằng nhau, và hai góc trong cùng phía có tổng $180^\circ$.
+- Tổng ba góc của tam giác là $180^\circ$; tổng các góc trong của đa giác $n$ cạnh là $(n-2)\cdot180^\circ$.
+:::
+
+  :::example Hai đường thẳng song song
+  Hai đường thẳng song song bị một đường thẳng cắt. Hai góc so le trong có số đo $(3x+10)^\circ$ và $(5x-30)^\circ$. Giá trị của $x$ bằng bao nhiêu?
+
+  **Lời giải.** Hai góc so le trong bằng nhau: $3x+10=5x-30\iff40=2x\iff x=20$. Bạn gõ **20**. (Mỗi góc bằng $70^\circ$.)
+  :::
+
+  :::example Đa giác đều
+  Số đo mỗi góc trong của lục giác đều là
+  A. $108^\circ$
+  B. $120^\circ$
+  C. $135^\circ$
+  D. $720^\circ$
+
+  **Lời giải.** Tổng các góc trong là $(6-2)\cdot180^\circ=720^\circ$, và lục giác đều có 6 góc bằng nhau: $720^\circ:6=120^\circ$. Đáp án là **B**. Phương án D là tổng, không phải một góc.
+  :::
+
+## Diện tích và hình ghép
+
+[[P3·9f12]]
+Để tính diện tích một hình ghép, hãy tách nó thành các hình chữ nhật, tam giác và hình tròn, rồi cộng hoặc trừ.
+
+  :::example Hình chữ nhật bị khoét nửa hình tròn
+  Một khu vườn hình chữ nhật dài 12 mét, rộng 8 mét. Một hồ nước hình nửa hình tròn có đường kính 8 mét nằm sát một cạnh 8 mét, bên trong khu vườn. Diện tích phần vườn không có hồ là bao nhiêu mét vuông?
+  A. $96-16\pi$
+  B. $96-8\pi$
+  C. $96-32\pi$
+  D. $96-4\pi$
+
+  **Lời giải.** Hình chữ nhật có diện tích $12\cdot8=96$. Hồ là nửa hình tròn bán kính $4$: $\dfrac12\pi\cdot4^2=8\pi$. Phần còn lại có diện tích $96-8\pi$: đáp án **B**. Phương án A dùng cả hình tròn; phương án C dùng đường kính làm bán kính.
+  :::
+
+## Thể tích và diện tích toàn phần
+
+  :::theorem Công thức thể tích (có trong bảng công thức)
+  - Hình hộp chữ nhật: $V=\ell wh$. Hình trụ: $V=\pi r^2h$.
+  - Hình nón: $V=\dfrac13\pi r^2h$. Hình chóp: $V=\dfrac13\ell wh$.
+  - Hình cầu: $V=\dfrac43\pi r^3$; diện tích mặt cầu là $4\pi r^2$.
+  :::
+
+  :::example Hình cầu
+  Một hình cầu có thể tích $36\pi$ xăng-ti-mét khối. Bán kính hình cầu bằng bao nhiêu xăng-ti-mét?
+
+  **Lời giải.** $\dfrac43\pi r^3=36\pi\iff r^3=27\iff r=3$. Bạn gõ **3**. Khi đó diện tích mặt cầu là $4\pi\cdot9=36\pi$ xăng-ti-mét vuông.
+  :::
+
+## Tỉ lệ
+
+  :::theorem Hệ số tỉ lệ
+  Nếu mọi độ dài của một hình được nhân với $k$ thì diện tích của nó được nhân với $k^2$ và thể tích được nhân với $k^3$.
+  :::
+
+  :::example Hai khối đồng dạng
+  Hai khối đồng dạng có các cạnh tương ứng theo tỉ số $2:3$. Khối nhỏ có thể tích 40 inch khối. Thể tích khối lớn là bao nhiêu inch khối?
+
+  **Lời giải.** Hệ số tỉ lệ là $k=\dfrac32$, nên thể tích được nhân với $\left(\dfrac32\right)^3=\dfrac{27}{8}$: $40\cdot\dfrac{27}{8}=135$. Bạn gõ **135**.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P4·c4b5]]
+- **Bán kính hay đường kính.** Đọc kĩ đề cho cái nào. Nhiều phương án sai dùng đường kính trong $\pi r^2$.
+- **Quên $\dfrac13$** trong thể tích hình nón hoặc hình chóp.
+- **Nhân theo tỉ lệ bậc nhất.** Gấp đôi bán kính hình tròn thì diện tích gấp $4$, không phải gấp $2$.
+- **Đáp án chứa $\pi$.** Nếu các phương án có $\pi$, hãy giữ $\pi$ là kí hiệu; đừng nhân với $3{,}14$.
+:::
+
+:::tip Dùng bảng công thức
+[[P5·1bdd]]
+Bảng công thức còn ghi một vòng tròn có $360^\circ$ hay $2\pi$ radian và cho các tam giác vuông đặc biệt. Hãy mở bảng một lần trước ngày thi để biết chính xác nó có gì; trong phòng thi, chỉ mở khi cần đúng công thức đó.
+:::
+
+  :::terms
+  - hai đường thẳng song song | parallel lines
+  - đường thẳng cắt (cát tuyến) | transversal
+  - góc đối đỉnh | vertical angles
+  - góc so le trong | alternate interior angles
+  - góc đồng vị | corresponding angles
+  - góc trong | interior angle
+  - hình ghép | composite figure
+  - hình hộp chữ nhật | rectangular prism
+  - hình trụ / hình nón / hình cầu | cylinder / cone / sphere
+  - diện tích toàn phần (diện tích bề mặt) | surface area
+  - tỉ số đồng dạng (hệ số tỉ lệ) | scale factor
+  :::
+
+## Bài tập tương tự
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Gói một chiếc hộp
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Bể cá
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Đường chạy
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-area-volume-lines-angles – BẢN TIẾNG ANH ########
+---
+title: Area, volume, lines and angles
+description: SAT Geometry: angles with parallel lines, angle sums in triangles and polygons, composite areas, volumes of solids and the effect of scaling.
+minutes: 35
+---
+
+  :::goals
+  - Use vertical angles, linear pairs and the angles formed by parallel lines and a transversal.
+  - Use the angle sum of a triangle and of a polygon.
+  - Find the area of composite figures and the volume and surface area of prisms, cylinders, cones and spheres.
+  - Predict how area and volume change when lengths are scaled.
+  :::
+
+[[P1·ebcb]]
+Geometry and Trigonometry has about 5 to 7 questions on the test. The formulas for area and volume are on the reference sheet in Bluebook, so the SAT does not test memory: it tests whether you can **choose** the right formula, break a figure into simple parts and set up an equation from an angle relationship. Many questions here are student-produced responses, so careful arithmetic matters.
+
+## Lines and angles
+
+:::note Angle facts
+[[P2·e66e]]
+- Angles on a straight line add up to $180^\circ$; angles around a point add up to $360^\circ$.
+- Vertical angles are equal.
+- When a transversal crosses two **parallel** lines: corresponding angles are equal, alternate interior angles are equal, and same-side interior angles add up to $180^\circ$.
+- The angles of a triangle add up to $180^\circ$; the interior angles of a polygon with $n$ sides add up to $(n-2)\cdot180^\circ$.
+:::
+
+  :::example Parallel lines
+  Two parallel lines are cut by a transversal. Two alternate interior angles measure $(3x+10)^\circ$ and $(5x-30)^\circ$. What is the value of $x$?
+
+  **Solution.** Alternate interior angles are equal: $3x+10=5x-30\iff40=2x\iff x=20$. You type **20**. (Each angle measures $70^\circ$.)
+  :::
+
+  :::example A regular polygon
+  What is the measure of each interior angle of a regular hexagon?
+  A. $108^\circ$
+  B. $120^\circ$
+  C. $135^\circ$
+  D. $720^\circ$
+
+  **Solution.** The interior angles add up to $(6-2)\cdot180^\circ=720^\circ$, and a regular hexagon has 6 equal angles: $720^\circ\div6=120^\circ$. The answer is **B**. Option D is the sum, not one angle.
+  :::
+
+## Area and composite figures
+
+[[P3·afac]]
+To find the area of a composite figure, split it into rectangles, triangles and circles, then add or subtract.
+
+  :::example A rectangle with a semicircle cut out
+  A garden is a rectangle 12 meters long and 8 meters wide. A semicircular pond with diameter 8 meters lies along one of the 8-meter sides, inside the garden. What is the area of the garden not covered by the pond, in square meters?
+  A. $96-16\pi$
+  B. $96-8\pi$
+  C. $96-32\pi$
+  D. $96-4\pi$
+
+  **Solution.** The rectangle has area $12\cdot8=96$. The pond is half a circle of radius $4$: $\dfrac12\pi\cdot4^2=8\pi$. The remaining area is $96-8\pi$: answer **B**. Option A uses the whole circle; option C uses the diameter as the radius.
+  :::
+
+## Volume and surface area
+
+  :::theorem Volumes (on the reference sheet)
+  - Rectangular prism: $V=\ell wh$. Cylinder: $V=\pi r^2h$.
+  - Cone: $V=\dfrac13\pi r^2h$. Pyramid: $V=\dfrac13\ell wh$.
+  - Sphere: $V=\dfrac43\pi r^3$; its surface area is $4\pi r^2$.
+  :::
+
+  :::example A sphere
+  A sphere has volume $36\pi$ cubic centimeters. What is the radius of the sphere, in centimeters?
+
+  **Solution.** $\dfrac43\pi r^3=36\pi\iff r^3=27\iff r=3$. You type **3**. Its surface area is then $4\pi\cdot9=36\pi$ square centimeters.
+  :::
+
+## Scaling
+
+  :::theorem Scale factor
+  If every length of a figure is multiplied by $k$, then its area is multiplied by $k^2$ and its volume by $k^3$.
+  :::
+
+  :::example Similar solids
+  Two similar solids have corresponding edges in the ratio $2:3$. The smaller solid has volume 40 cubic inches. What is the volume of the larger solid, in cubic inches?
+
+  **Solution.** The scale factor is $k=\dfrac32$, so the volume is multiplied by $\left(\dfrac32\right)^3=\dfrac{27}{8}$: $40\cdot\dfrac{27}{8}=135$. You type **135**.
+  :::
+
+:::warning Common traps
+[[P4·e836]]
+- **Radius or diameter.** Read which one is given. Many wrong options use the diameter in $\pi r^2$.
+- **Forgetting $\dfrac13$** in the volume of a cone or a pyramid.
+- **Scaling linearly.** Doubling the radius of a circle multiplies its area by $4$, not $2$.
+- **Answers in terms of $\pi$.** If the options contain $\pi$, keep $\pi$ as a symbol; do not multiply by $3.14$.
+:::
+
+:::tip Using the reference sheet
+[[P5·a968]]
+The reference sheet also states that a circle has $360^\circ$ or $2\pi$ radians and gives the special right triangles. Open it once before the test so you know exactly what it contains; on test day, open it only for the formula you need.
+:::
+
+  :::terms
+  - parallel lines | hai đường thẳng song song
+  - transversal | đường thẳng cắt (cát tuyến)
+  - vertical angles | góc đối đỉnh
+  - alternate interior angles | góc so le trong
+  - corresponding angles | góc đồng vị
+  - interior angle | góc trong
+  - composite figure | hình ghép
+  - rectangular prism | hình hộp chữ nhật
+  - cylinder / cone / sphere | hình trụ / hình nón / hình cầu
+  - surface area | diện tích toàn phần (diện tích bề mặt)
+  - scale factor | tỉ số đồng dạng (hệ số tỉ lệ)
+  :::
+
+## Similar exercises
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise Wrapping a box
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise An aquarium
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A running track
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-desmos-strategies – BẢN TIẾNG VIỆT ########
+---
+title: Dùng Desmos và các mẹo làm bài SAT
+description: Dùng tốt máy tính Desmos có sẵn, nhập đúng câu tự điền đáp số và áp dụng năm chiến thuật giúp tiết kiệm thời gian ở phần Toán SAT.
+minutes: 30
+type: guide
+---
+
+  :::goals
+  - Dùng Desmos để giải phương trình, hệ phương trình, bài toán bậc hai và kiểm tra hai biểu thức có tương đương không.
+  - Nhập câu tự điền đáp số đúng định dạng đề thi chấp nhận.
+  - Biết khi nào giải trực tiếp, khi nào thay số, khi nào thử ngược từ các phương án.
+  - Dùng các công cụ của Bluebook (đánh dấu xem lại, gạch phương án, bảng công thức) để quản lí thời gian.
+  :::
+
+[[P1·8068]]
+Trong SAT thi trên máy, câu Toán nào cũng được dùng máy tính, và Bluebook có sẵn máy tính đồ thị Desmos. Học sinh học Toán ở Việt Nam thường giải đại số bằng tay rất nhanh, nên hay bỏ qua Desmos. Đó là một thiệt thòi: Desmos không thay được kĩ năng đại số của bạn, nhưng kiểm tra nó chỉ trong vài giây và cứu bạn khi phương trình quá rối. Bài này chỉ ra khi nào nên dùng và khi nào không.
+
+## Năm việc Desmos làm trong vài giây
+
+| Việc cần làm | Bạn gõ gì | Bạn đọc gì |
+|---|---|---|
+| Giải phương trình $f(x)=g(x)$ | Hai vế thành hai dòng `y=`, hoặc gõ nguyên phương trình | Hoành độ các giao điểm |
+| Giải hệ phương trình | Hai phương trình đúng như đề cho | Giao điểm |
+| Đỉnh và nghiệm của hàm bậc hai | Hàm số, ví dụ `y=2x^2-12x+10` | Bấm các điểm xám: đỉnh và giao điểm với trục $x$ |
+| Kiểm tra hai biểu thức tương đương | Mỗi biểu thức một dòng `y=` | Tương đương nếu hai đồ thị trùng khít |
+| Đếm số nghiệm | Hai vế thành hai đồ thị | Số giao điểm |
+
+  :::example Giải một phương trình rối
+  Nghiệm dương của $\sqrt{x+7}=x-5$ là bao nhiêu?
+
+  **Lời giải.** Giải tay: bình phương hai vế, giải $x^2-11x+18=0$, được $x=2$ hoặc $x=9$, rồi loại $x=2$ vì $\sqrt9=3\ne-3$. Dùng Desmos: gõ `y=sqrt(x+7)` và `y=x-5`. Hai đồ thị chỉ cắt nhau tại một điểm $(9, 4)$, nên đáp số là **9**. Desmos không bao giờ hiện nghiệm ngoại lai $x=2$, vì đồ thị không thể đi qua một điểm không nằm trên nó.
+  :::
+
+:::tip Thanh trượt (slider)
+[[P2·9e0b]]
+Nếu đề có một hằng số như $k$, hãy gõ biểu thức chứa $k$, Desmos sẽ tạo thanh trượt. Kéo thanh trượt để thấy đồ thị thay đổi thế nào, rất có ích cho các câu kiểu "với giá trị nào của $k$ thì hệ vô nghiệm?"
+:::
+
+## Khi nào không nên dùng Desmos
+
+[[P3·c0f2]]
+Desmos chậm với những câu nhìn là ra: "nếu $3x+7=22$ thì $6x+5$ bằng bao nhiêu?" giải tay chỉ mất năm giây. Quy tắc tốt là: **nghĩ trước 15 giây**. Nếu thấy đường đi, hãy làm tay và chỉ dùng Desmos để kiểm tra. Nếu chưa thấy, hoặc số liệu xấu, hãy vẽ đồ thị.
+
+[[P4·491f]]
+Desmos cũng không đọc đề giúp bạn. Với bài toán có lời văn, lập đúng phương trình vẫn là việc của bạn.
+
+## Nhập câu tự điền đáp số
+
+[[P5·718d]]
+Khoảng một phần tư số câu yêu cầu bạn gõ đáp số. Hướng dẫn trên màn hình Bluebook quy định cách nhập; những điểm chính là:
+
+[[P6·f3cd]]
+- Đáp số dương được dùng tối đa 5 kí tự, đáp số âm tối đa 6 kí tự kể cả dấu trừ.
+- Được nhập phân số (`7/2`) và số thập phân (`3.5`). Hỗn số như $3\tfrac12$ không được chấp nhận: hãy gõ `7/2` hoặc `3.5`.
+- Nếu phân số không vừa ô, hãy nhập số thập phân; số thập phân dài có thể làm tròn hoặc cắt bớt cho vừa ô, ví dụ `0.6666` hoặc `0.6667` cho $\tfrac23$.
+- Không gõ đơn vị, dấu phần trăm, dấu phẩy hay kí hiệu tiền tệ. Chú ý SAT dùng dấu chấm cho số thập phân.
+- Nếu có nhiều đáp số đúng, chỉ nhập một.
+
+  :::example Nhập đáp số
+  Nghiệm của $3x-2=0$ là $x=\dfrac23$. Những cách nhập nào được chấp nhận?
+
+  **Lời giải.** `2/3`, `.6666`, `.6667`, `0.666` và `0.667` được chấp nhận. `0.67` là số thập phân quá ngắn khi còn nhập được chính xác hơn, và `0.66` là sai. Lựa chọn an toàn nhất là phân số `2/3`.
+  :::
+
+## Những chiến thuật giúp tiết kiệm thời gian
+
+[[P7·297c]]
+**1. Trả lời đúng điều được hỏi.** Gạch chân câu hỏi cuối: $x$, $2x$, $x+y$ hay "giá trị của $k$". Nhiều phương án sai chính là con số đúng của một đại lượng khác.
+
+[[P8·4368]]
+**2. Thay số.** Khi các phương án là biểu thức, chọn một giá trị đơn giản cho biến (tránh $0$ và $1$ vì chúng che mất sự khác nhau), tính biểu thức ban đầu rồi thử từng phương án.
+
+  :::example Thay số
+  Biểu thức nào tương đương với $(x+3)^2-(x-3)^2$?
+  A. $0$
+  B. $18$
+  C. $12x$
+  D. $2x^2+18$
+
+  **Lời giải.** Chọn $x=2$: $25-1=24$. Chỉ phương án C cho $24$. Đại số xác nhận điều đó: hiệu hai bình phương cho $(2x)(6)=12x$.
+  :::
+
+[[P9·cb9b]]
+**3. Thử ngược.** Khi các phương án là số và phương trình khó lập, hãy thử các phương án vào điều kiện của đề, bắt đầu từ giá trị ở giữa.
+
+[[P10·5610]]
+**4. Ước lượng trước.** Một phép ước lượng nhanh loại được các phương án quá lớn hoặc quá nhỏ, và phát hiện lỗi bấm máy.
+
+[[P11·8986]]
+**5. Dùng thời gian của module thông minh.** Câu hỏi xếp gần đúng từ dễ đến khó. Nếu một câu đã tốn hai phút mà bạn vẫn chưa có hướng, hãy chọn phương án hợp lí nhất, đánh dấu để xem lại rồi làm tiếp. Làm sai không bị trừ điểm.
+
+## Các công cụ của Bluebook
+
+[[P12·ca31]]
+- **Mark for Review** (đánh dấu xem lại) gắn cờ một câu; bảng điều hướng câu hỏi hiện mọi câu đã gắn cờ.
+- **Answer eliminator** (gạch phương án) gạch các phương án bạn đã loại, để khỏi đọc lại.
+- **Reference sheet** (bảng công thức) ghi các công thức diện tích, thể tích và tam giác. Hãy nắm rõ nó trước ngày thi để không mất thời gian tìm.
+- **Timer** (đồng hồ) có thể ẩn, nhưng sẽ hiện cảnh báo khi gần hết giờ module.
+
+[[P13·1892]]
+Hãy tập dùng các công cụ này trong các đề luyện chính thức trên Bluebook để ngày thi thấy quen thuộc. Và nhớ thói quen quan trọng nhất trong bài [Ôn thi theo khoa học](lesson:evidence-based-revision): sau mỗi bộ đề, ghi mọi câu sai vào sổ lỗi sai, kể cả những câu sai vì nhập đáp số không đúng cách.
+
+
+######## BÀI exams/sat/sat-desmos-strategies – BẢN TIẾNG ANH ########
+---
+title: Desmos and test-taking strategies for the SAT
+description: Use the built-in Desmos calculator well, enter student-produced answers correctly, and apply five strategies that save time on SAT Math.
+minutes: 30
+type: guide
+---
+
+  :::goals
+  - Use Desmos to solve equations, systems and quadratics, and to check whether two expressions are equivalent.
+  - Enter student-produced responses in the format the test accepts.
+  - Choose between solving directly, plugging in numbers and working backward from the options.
+  - Use the Bluebook tools (mark for review, answer eliminator, reference sheet) to manage your time.
+  :::
+
+[[P1·ebf4]]
+On the digital SAT, every Math question allows a calculator, and Bluebook has the Desmos graphing calculator built in. Students who learned math in Vietnam are often very fast at algebra by hand, so they ignore Desmos. That is a mistake: Desmos does not replace your algebra, but it checks it in seconds and rescues you when an equation is too messy. This lesson shows when to use it and when not to.
+
+## Five things Desmos does in seconds
+
+| Task | What you type | What you read |
+|---|---|---|
+| Solve an equation $f(x)=g(x)$ | Both sides as `y=` lines, or the equation itself | The $x$-coordinates of the intersection points |
+| Solve a system | Both equations exactly as given | The intersection point |
+| Vertex and zeros of a quadratic | The function, e.g. `y=2x^2-12x+10` | Click the gray points: vertex and $x$-intercepts |
+| Check equivalent expressions | Each expression as its own `y=` | Equivalent if the graphs lie on top of each other |
+| Count solutions | Both sides as graphs | The number of intersection points |
+
+  :::example Solving a messy equation
+  What is the positive solution of $\sqrt{x+7}=x-5$?
+
+  **Solution.** By hand: square both sides, solve $x^2-11x+18=0$, get $x=2$ or $x=9$, and reject $x=2$ because $\sqrt9=3\ne-3$. In Desmos: type `y=sqrt(x+7)` and `y=x-5`. The graphs meet at only one point, $(9, 4)$, so the answer is **9**. Desmos never shows the false solution $x=2$, because a graph cannot meet a point that is not on it.
+  :::
+
+:::tip Sliders
+[[P2·46c1]]
+If a question has a constant such as $k$, type the expression with $k$ and Desmos offers a slider. Moving it shows how the graph changes, which helps with questions like "for what value of $k$ does the system have no solution?"
+:::
+
+## When not to use Desmos
+
+[[P3·f1e5]]
+Desmos is slow for questions that are faster by eye: "if $3x+7=22$, what is $6x+5$?" takes five seconds by hand. A good rule is: **think first for 15 seconds**. If you see the route, do it by hand and use Desmos only to check. If you do not, or the numbers are ugly, graph it.
+
+[[P4·1222]]
+Desmos also cannot read the question for you. In a word problem, writing the correct equation is still your job.
+
+## Entering student-produced responses
+
+[[P5·7a94]]
+About a quarter of the questions ask you to type the answer. The on-screen directions in Bluebook set the rules; the main ones are:
+
+[[P6·53cb]]
+- A positive answer can use up to 5 characters, a negative answer up to 6 including the minus sign.
+- Fractions are fine (`7/2`), and so are decimals (`3.5`). Mixed numbers such as $3\tfrac12$ are not accepted: type `7/2` or `3.5`.
+- If a fraction does not fit, enter the decimal; a long decimal may be rounded or cut off to fill the space, for example `0.6666` or `0.6667` for $\tfrac23$.
+- Do not type units, percent signs, commas or currency symbols.
+- If more than one answer is correct, enter just one.
+
+  :::example Entering an answer
+  The solution of $3x-2=0$ is $x=\dfrac23$. Which entries are accepted?
+
+  **Solution.** `2/3`, `.6666`, `.6667`, `0.666` and `0.667` are accepted. `0.67` is too short a decimal when a more precise one fits, and `0.66` is wrong. The safest choice is the fraction `2/3`.
+  :::
+
+## Strategies that save time
+
+[[P7·3e6c]]
+**1. Answer what is asked.** Underline the final question: $x$, $2x$, $x+y$ or "the value of $k$". Many wrong options are the right number for the wrong quantity.
+
+[[P8·2fb8]]
+**2. Plug in numbers.** When options are expressions, choose a simple value for the variable (not $0$ or $1$, which hide differences), compute the original expression and test each option.
+
+  :::example Plugging in a number
+  Which expression is equivalent to $(x+3)^2-(x-3)^2$?
+  A. $0$
+  B. $18$
+  C. $12x$
+  D. $2x^2+18$
+
+  **Solution.** Take $x=2$: $25-1=24$. Only option C gives $24$. Algebra confirms it: the difference of squares gives $(2x)(6)=12x$.
+  :::
+
+[[P9·99ee]]
+**3. Work backward.** When options are numbers and the equation is hard to set up, test the options in the original condition, starting from a middle value.
+
+[[P10·7344]]
+**4. Estimate first.** A quick estimate removes options that are far too big or too small, and catches calculator slips.
+
+[[P11·c974]]
+**5. Use the module time wisely.** Questions are roughly ordered from easier to harder. If a question has taken two minutes and you have no plan, choose your best guess, mark it for review, and move on. There is no penalty for wrong answers.
+
+## The Bluebook tools
+
+[[P12·fd91]]
+- **Mark for Review** flags a question; the question navigator shows all flagged ones.
+- **Answer eliminator** crosses out options you have ruled out, so you do not reread them.
+- **Reference sheet** lists area, volume and triangle facts. Know it before test day, so you do not spend time searching it.
+- **Timer** can be hidden, but it shows a warning near the end of the module.
+
+[[P13·8f09]]
+Practice with these tools in the official practice tests in Bluebook, so that test day feels familiar. And remember the most important habit from [Revision that works](lesson:evidence-based-revision): after each practice set, put every wrong answer in your error log, including the ones caused by entering the answer badly.
+
+
+######## BÀI exams/sat/sat-equivalent-expressions – BẢN TIẾNG VIỆT ########
+---
+title: Biểu thức tương đương và lũy thừa
+description: SAT Advanced Math: quy tắc lũy thừa, số mũ hữu tỉ, phân tích thành nhân tử, đồng nhất hệ số, phân thức và biến đổi công thức.
+minutes: 35
+---
+
+  :::goals
+  - Rút gọn biểu thức bằng các quy tắc lũy thừa, kể cả số mũ hữu tỉ và căn thức.
+  - Phân tích tam thức bậc hai và hiệu hai bình phương thành nhân tử, tìm nhân tử trong các phương án.
+  - Tìm hằng số chưa biết bằng cách đồng nhất hệ số của hai biểu thức tương đương.
+  - Rút gọn phân thức và biến đổi công thức để biểu diễn một đại lượng theo các đại lượng khác.
+  :::
+
+[[P1·0ddc]]
+"Biểu thức nào tương đương với…?" (Which expression is equivalent to…?) là một trong những câu hỏi gặp nhiều nhất ở mảng Advanced Math, mảng có khoảng 13 đến 15 câu trong đề. Các câu này kiểm tra phần đại số học sinh Việt Nam học ở lớp 8 và lớp 9, và các bạn nhanh nhất giải trong chưa đầy một phút. Hai công cụ từ các bài trước sẽ giúp ích: [thay số](lesson:sat-desmos-strategies) và vẽ đồ thị cả hai biểu thức trong Desmos.
+
+## Các quy tắc lũy thừa
+
+  :::theorem Quy tắc lũy thừa
+  Với $a, b>0$ và các số mũ $m, n$ bất kì:
+  - $a^m\cdot a^n=a^{m+n}$, $\dfrac{a^m}{a^n}=a^{m-n}$, $(a^m)^n=a^{mn}$, $(ab)^n=a^nb^n$;
+  - $a^0=1$, $a^{-n}=\dfrac{1}{a^n}$;
+  - $a^{\frac{m}{n}}=\sqrt[n]{a^m}=\left(\sqrt[n]{a}\right)^m$; đặc biệt $a^{\frac12}=\sqrt a$.
+  :::
+
+  :::example Lũy thừa của một tích
+  Biểu thức nào tương đương với $(2x^3y)^2\cdot3xy^4$?
+  A. $6x^6y^6$
+  B. $12x^7y^6$
+  C. $12x^6y^8$
+  D. $36x^7y^6$
+
+  **Lời giải.** Tính lũy thừa trước, rồi đến phép nhân:
+
+  $$(2x^3y)^2=4x^6y^2,\qquad 4x^6y^2\cdot3xy^4=12x^{7}y^{6}.$$
+
+  Đáp án là **B**. Phương án A quên bình phương số $2$; phương án D bình phương luôn cả số $3$.
+  :::
+
+  :::example Số mũ hữu tỉ
+  Với $x>0$, biểu thức nào tương đương với $\sqrt{x^3}\cdot x^{-\frac12}$?
+  A. $x$
+  B. $x^2$
+  C. $x^{\frac34}$
+  D. $\dfrac1x$
+
+  **Lời giải.** Viết căn thành lũy thừa: $\sqrt{x^3}=x^{\frac32}$. Khi đó $x^{\frac32}\cdot x^{-\frac12}=x^{\frac32-\frac12}=x^1$. Đáp án là **A**.
+  :::
+
+## Phân tích thành nhân tử
+
+:::note Các dạng cần nhận ra
+[[P2·ea94]]
+- $a^2-b^2=(a-b)(a+b)$
+- $a^2\pm2ab+b^2=(a\pm b)^2$
+- $px^2+qx+r$: tìm hai số có tích bằng $pr$ và tổng bằng $q$, tách hạng tử giữa rồi nhóm.
+- $x-c$ là một nhân tử của đa thức $p(x)$ khi và chỉ khi $p(c)=0$.
+:::
+
+  :::example Tìm một nhân tử
+  Biểu thức nào sau đây là một nhân tử của $2x^2+5x-12$?
+  A. $x-4$
+  B. $2x+3$
+  C. $x+4$
+  D. $2x-4$
+
+  **Lời giải.** Cần hai số có tích $2\cdot(-12)=-24$ và tổng $5$: đó là $8$ và $-3$.
+
+  $$2x^2+8x-3x-12=2x(x+4)-3(x+4)=(2x-3)(x+4).$$
+
+  Đáp án là **C**. Kiểm tra nhanh: tại $x=-4$, $2\cdot16-20-12=0$.
+  :::
+
+## Đồng nhất hệ số
+
+[[P3·eb2d]]
+Hai đa thức tương đương (bằng nhau với mọi $x$) khi và chỉ khi hệ số của $x^2$, hệ số của $x$ và hệ số tự do của chúng bằng nhau. Nhờ vậy một phương trình trở thành vài phương trình đơn giản.
+
+  :::example Tìm hằng số
+  Trong đẳng thức $(ax+3)(2x-5)=6x^2+bx-15$, $a$ và $b$ là các hằng số và đẳng thức đúng với mọi giá trị của $x$. Giá trị của $b$ bằng bao nhiêu?
+
+  **Lời giải.** Khai triển vế trái: $2ax^2+(6-5a)x-15$.
+
+  $$x^2:\ 2a=6\iff a=3,\qquad x:\ b=6-5a=6-15=-9.$$
+
+  Bạn gõ **-9**. Hệ số tự do khớp nhau ($-15=-15$), đúng như phải thế.
+  :::
+
+## Phân thức và công thức
+
+[[P4·3b6e]]
+Để rút gọn một phân thức, hãy phân tích tử và mẫu thành nhân tử rồi giản ước nhân tử chung, nhớ các giá trị làm mẫu bằng $0$. Để cộng các phân thức, hãy quy đồng mẫu.
+
+  :::example Cộng phân thức
+  Với $x\ne2$ và $x\ne-2$, biểu thức nào tương đương với $\dfrac{1}{x-2}+\dfrac{3}{x+2}$?
+  A. $\dfrac{4}{2x}$
+  B. $\dfrac{4}{x^2-4}$
+  C. $\dfrac{4x-4}{x^2-4}$
+  D. $\dfrac{4x+8}{x^2-4}$
+
+  **Lời giải.** Mẫu chung là $(x-2)(x+2)=x^2-4$:
+
+  $$\frac{(x+2)+3(x-2)}{x^2-4}=\frac{4x-4}{x^2-4}.$$
+
+  Đáp án là **C**. Phương án A cộng tử với tử, mẫu với mẫu, điều không bao giờ được phép.
+  :::
+
+[[P5·f64c]]
+Biến đổi một công thức làm giống như giải phương trình, các chữ khác giữ nguyên.
+
+  :::example Biến đổi công thức
+  Công thức $F=\dfrac95C+32$ đổi nhiệt độ $C$ tính bằng độ C sang $F$ tính bằng độ F. Đẳng thức nào biểu diễn $C$ theo $F$?
+  A. $C=\dfrac95F-32$
+  B. $C=\dfrac59F-32$
+  C. $C=\dfrac59(F+32)$
+  D. $C=\dfrac59(F-32)$
+
+  **Lời giải.** Trừ $32$, rồi nhân với $\dfrac59$: $F-32=\dfrac95C\iff C=\dfrac59(F-32)$. Đáp án là **D**. Kiểm tra với nước sôi ở $F=212$: $\dfrac59\cdot180=100$.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P6·fab6]]
+- **Cộng số mũ khi hai cơ số khác nhau.** $2^3\cdot3^2$ bằng $8\cdot9=72$, không phải $6^5$.
+- **Bình phương một tổng theo từng số hạng.** $(x+3)^2=x^2+6x+9$, không phải $x^2+9$.
+- **Giản ước số hạng thay vì nhân tử.** Trong $\dfrac{x+6}{x+2}$ không có gì giản ước được; trong $\dfrac{x^2-9}{x+3}=\dfrac{(x-3)(x+3)}{x+3}$ thì nhân tử $x+3$ được giản ước.
+- **Số mũ âm.** $x^{-2}=\dfrac{1}{x^2}$, không phải $-x^2$.
+:::
+
+:::tip Kiểm tra tương đương bằng Desmos
+[[P7·e40a]]
+Gõ biểu thức ban đầu thành một dòng `y=` và mỗi phương án thành một dòng `y=` khác. Phương án tương đương là phương án có đồ thị nằm trùng khít lên đồ thị ban đầu. Với biểu thức có hai chữ, hãy thay số cho cả hai.
+:::
+
+  :::terms
+  - biểu thức tương đương | equivalent expression
+  - số mũ | exponent
+  - số mũ hữu tỉ | rational exponent
+  - căn thức, căn bậc hai | radical, square root
+  - nhân tử, thừa số | factor
+  - hệ số | coefficient
+  - hiệu hai bình phương | difference of squares
+  - phân thức | rational expression
+  :::
+
+## Bài tập tương tự
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Lối đi quanh vườn
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-equivalent-expressions – BẢN TIẾNG ANH ########
+---
+title: Equivalent expressions and exponents
+description: SAT Advanced Math: exponent rules, rational exponents, factoring, matching coefficients, rational expressions and rearranging formulas.
+minutes: 35
+---
+
+  :::goals
+  - Simplify expressions with the laws of exponents, including rational exponents and radicals.
+  - Factor quadratics and differences of squares, and find a factor among the options.
+  - Find unknown constants by matching coefficients of equivalent expressions.
+  - Simplify rational expressions and rearrange a formula to isolate a variable.
+  :::
+
+[[P1·d0a8]]
+"Which expression is equivalent to…?" is one of the most common question stems in the Advanced Math domain, which has about 13 to 15 questions in the test. These questions test algebra that Vietnamese students learn in grades 8 and 9, and the fastest students solve them in under a minute. Two tools from the previous lessons help: [plugging in a number](lesson:sat-desmos-strategies) and graphing both expressions in Desmos.
+
+## Laws of exponents
+
+  :::theorem Laws of exponents
+  For $a, b>0$ and any exponents $m, n$:
+  - $a^m\cdot a^n=a^{m+n}$, $\dfrac{a^m}{a^n}=a^{m-n}$, $(a^m)^n=a^{mn}$, $(ab)^n=a^nb^n$;
+  - $a^0=1$, $a^{-n}=\dfrac{1}{a^n}$;
+  - $a^{\frac{m}{n}}=\sqrt[n]{a^m}=\left(\sqrt[n]{a}\right)^m$; in particular $a^{\frac12}=\sqrt a$.
+  :::
+
+  :::example Powers of a product
+  Which expression is equivalent to $(2x^3y)^2\cdot3xy^4$?
+  A. $6x^6y^6$
+  B. $12x^7y^6$
+  C. $12x^6y^8$
+  D. $36x^7y^6$
+
+  **Solution.** First the power, then the product:
+
+  $$(2x^3y)^2=4x^6y^2,\qquad 4x^6y^2\cdot3xy^4=12x^{7}y^{6}.$$
+
+  The answer is **B**. Option A forgets to square the $2$; option D squares the $3$ as well.
+  :::
+
+  :::example Rational exponents
+  For $x>0$, which expression is equivalent to $\sqrt{x^3}\cdot x^{-\frac12}$?
+  A. $x$
+  B. $x^2$
+  C. $x^{\frac34}$
+  D. $\dfrac1x$
+
+  **Solution.** Write the root as a power: $\sqrt{x^3}=x^{\frac32}$. Then $x^{\frac32}\cdot x^{-\frac12}=x^{\frac32-\frac12}=x^1$. The answer is **A**.
+  :::
+
+## Factoring and factors
+
+:::note Patterns to recognize
+[[P2·4873]]
+- $a^2-b^2=(a-b)(a+b)$
+- $a^2\pm2ab+b^2=(a\pm b)^2$
+- $px^2+qx+r$: look for two numbers with product $pr$ and sum $q$, split the middle term and group.
+- $x-c$ is a factor of a polynomial $p(x)$ exactly when $p(c)=0$.
+:::
+
+  :::example Finding a factor
+  Which of the following is a factor of $2x^2+5x-12$?
+  A. $x-4$
+  B. $2x+3$
+  C. $x+4$
+  D. $2x-4$
+
+  **Solution.** We need two numbers with product $2\cdot(-12)=-24$ and sum $5$: they are $8$ and $-3$.
+
+  $$2x^2+8x-3x-12=2x(x+4)-3(x+4)=(2x-3)(x+4).$$
+
+  The answer is **C**. Quick check: at $x=-4$, $2\cdot16-20-12=0$.
+  :::
+
+## Matching coefficients
+
+[[P3·b6cf]]
+Two polynomials are equivalent (equal for every $x$) exactly when their coefficients of $x^2$, of $x$ and their constants are equal. This turns one equation into several simple ones.
+
+  :::example Find the constant
+  In the equation $(ax+3)(2x-5)=6x^2+bx-15$, $a$ and $b$ are constants and the equation is true for all values of $x$. What is the value of $b$?
+
+  **Solution.** Expand the left side: $2ax^2+(6-5a)x-15$.
+
+  $$x^2:\ 2a=6\iff a=3,\qquad x:\ b=6-5a=6-15=-9.$$
+
+  You type **-9**. The constants agree ($-15=-15$), as they must.
+  :::
+
+## Rational expressions and formulas
+
+[[P4·5f42]]
+To simplify a fraction of polynomials, factor and cancel common factors, remembering the values that make a denominator zero. To add fractions, use a common denominator.
+
+  :::example Adding rational expressions
+  For $x\ne2$ and $x\ne-2$, which expression is equivalent to $\dfrac{1}{x-2}+\dfrac{3}{x+2}$?
+  A. $\dfrac{4}{2x}$
+  B. $\dfrac{4}{x^2-4}$
+  C. $\dfrac{4x-4}{x^2-4}$
+  D. $\dfrac{4x+8}{x^2-4}$
+
+  **Solution.** The common denominator is $(x-2)(x+2)=x^2-4$:
+
+  $$\frac{(x+2)+3(x-2)}{x^2-4}=\frac{4x-4}{x^2-4}.$$
+
+  The answer is **C**. Option A adds numerators and denominators, which is never allowed.
+  :::
+
+[[P5·f181]]
+Rearranging a formula uses the same steps as solving an equation, keeping the other letters as they are.
+
+  :::example Rearranging a formula
+  The formula $F=\dfrac95C+32$ converts a temperature $C$ in degrees Celsius to $F$ in degrees Fahrenheit. Which equation gives $C$ in terms of $F$?
+  A. $C=\dfrac95F-32$
+  B. $C=\dfrac59F-32$
+  C. $C=\dfrac59(F+32)$
+  D. $C=\dfrac59(F-32)$
+
+  **Solution.** Subtract $32$, then multiply by $\dfrac59$: $F-32=\dfrac95C\iff C=\dfrac59(F-32)$. The answer is **D**. Check with water boiling at $F=212$: $\dfrac59\cdot180=100$.
+  :::
+
+:::warning Common traps
+[[P6·08e6]]
+- **Adding exponents when multiplying bases that differ.** $2^3\cdot3^2$ is $8\cdot9=72$, not $6^5$.
+- **Squaring a sum term by term.** $(x+3)^2=x^2+6x+9$, not $x^2+9$.
+- **Cancelling terms instead of factors.** In $\dfrac{x+6}{x+2}$ nothing cancels; in $\dfrac{x^2-9}{x+3}=\dfrac{(x-3)(x+3)}{x+3}$ the factor $x+3$ cancels.
+- **Negative exponents.** $x^{-2}=\dfrac{1}{x^2}$, not $-x^2$.
+:::
+
+:::tip Check equivalence in Desmos
+[[P7·f262]]
+Type the original expression as `y=` and each option as another `y=`. The equivalent option is the one whose graph lies exactly on top of the original. For expressions with two letters, plug in numbers for both instead.
+:::
+
+  :::terms
+  - equivalent expression | biểu thức tương đương
+  - exponent | số mũ
+  - rational exponent | số mũ hữu tỉ
+  - radical, square root | căn thức, căn bậc hai
+  - factor | nhân tử, thừa số
+  - coefficient | hệ số
+  - difference of squares | hiệu hai bình phương
+  - rational expression | phân thức
+  :::
+
+## Similar exercises
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A path around a garden
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-exponential-functions – BẢN TIẾNG VIỆT ########
+---
+title: Hàm mũ: tăng trưởng và suy giảm
+description: SAT Advanced Math: mô hình hàm mũ a·b^t, tăng giảm theo phần trăm, thời gian nhân đôi và chu kì bán rã, phân biệt bậc nhất với hàm mũ, các dạng tương đương.
+minutes: 35
+---
+
+  :::goals
+  - Lập và giải thích mô hình hàm mũ $f(t)=a\cdot b^t$ cho tăng trưởng và suy giảm.
+  - Chuyển đổi giữa tốc độ thay đổi theo phần trăm và hệ số tăng trưởng $b$.
+  - Phân biệt thay đổi bậc nhất với thay đổi theo hàm mũ trong bảng, đồ thị hoặc lời mô tả.
+  - Dùng thời gian nhân đôi, chu kì bán rã và viết lại mô hình theo đơn vị thời gian khác.
+  :::
+
+[[P1·a112]]
+Hàm mũ còn mới với nhiều học sinh học Toán ở Việt Nam trước lớp 11, vậy mà SAT dùng nó ở mọi module, chủ yếu trong bối cảnh thực tế: dân số, tiền tiết kiệm, giá cả, thuốc và khấu hao. Tin vui là gần như câu nào cũng quay về một công thức và một ý: **mỗi bước thời gian bằng nhau, nhân với cùng một hệ số**.
+
+## Mô hình hàm mũ
+
+  :::theorem Tăng trưởng và suy giảm
+  Mô hình hàm mũ có dạng $f(t)=a\cdot b^t$ với $a>0$, $b>0$, $b\ne1$:
+  - $a=f(0)$ là **giá trị ban đầu** (initial value);
+  - $b$ là **hệ số tăng trưởng** (growth factor), số ta nhân vào sau mỗi bước thời gian.
+
+  Nếu đại lượng thay đổi $r$ phần trăm mỗi bước (viết dưới dạng số thập phân):
+  - tăng: $b=1+r$, ví dụ tăng $4\%$ cho $b=1{,}04$;
+  - giảm: $b=1-r$, ví dụ giảm $15\%$ cho $b=0{,}85$.
+  :::
+
+  :::example Giải thích một mô hình
+  Dân số một thị trấn sau $t$ năm kể từ năm 2020 được mô tả bởi $P(t)=1500(1{,}04)^t$. Câu nào giải thích đúng nhất ý nghĩa của $1{,}04$ trong bối cảnh này?
+  A. Dân số tăng thêm 1,04 người mỗi năm.
+  B. Dân số tăng 4% mỗi năm.
+  C. Dân số năm 2020 là 1,04 nghìn người.
+  D. Dân số tăng 104% mỗi năm.
+
+  **Lời giải.** $1{,}04=1+0{,}04$ là hệ số tăng trưởng: mỗi năm dân số được nhân với $1{,}04$, tức là tăng $4\%$. Đáp án là **B**. Phương án D lẫn hệ số với tốc độ.
+  :::
+
+  :::example Khấu hao
+  Một chiếc ô tô được mua với giá 24.000 đô la. Giá trị của nó giảm 15% mỗi năm. Làm tròn đến đô la, giá trị chiếc xe sau 3 năm là bao nhiêu?
+
+  **Lời giải.** Hệ số là $1-0{,}15=0{,}85$:
+
+  $$V(3)=24.000\cdot(0{,}85)^3=24.000\cdot0{,}614125=14.739.$$
+
+  Bạn gõ **14739**. Chú ý chiếc xe mất ít tiền dần qua từng năm (3.600 đô la ở năm đầu, ít hơn ở các năm sau), vì 15% được tính trên một giá trị nhỏ dần.
+  :::
+
+## Bậc nhất hay hàm mũ?
+
+:::note Điểm khác nhau cốt lõi
+[[P2·8e82]]
+- **Bậc nhất:** sau mỗi bước bằng nhau, đại lượng thay đổi cùng một **lượng** (cộng thêm $m$).
+- **Hàm mũ:** sau mỗi bước bằng nhau, đại lượng thay đổi cùng một **hệ số** (hay cùng một phần trăm), tức là nhân với $b$.
+:::
+
+  :::example Đọc bảng giá trị
+  | $x$ | $0$ | $1$ | $2$ | $3$ |
+  |---|---|---|---|---|
+  | $y$ | $5$ | $10$ | $20$ | $40$ |
+
+  Phương trình nào phù hợp với bảng?
+  A. $y=5x+5$
+  B. $y=5\cdot2^x$
+  C. $y=2\cdot5^x$
+  D. $y=10x$
+
+  **Lời giải.** Các hiệu $5, 10, 20$ không bằng nhau, nên quan hệ không phải bậc nhất. Các tỉ số đều bằng $2$, nên đây là hàm mũ với hệ số $2$ và giá trị ban đầu $5$: $y=5\cdot2^x$. Đáp án là **B**.
+  :::
+
+:::graph Bậc nhất $y=5+5x$ (đường thẳng) và hàm mũ $y=5\cdot2^x$ (đường cong) xuất phát từ cùng một điểm
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Thời gian nhân đôi và chu kì bán rã
+
+[[P3·45cd]]
+Khi một đại lượng nhân đôi sau mỗi $d$ đơn vị thời gian, hoặc giảm một nửa sau mỗi $d$ đơn vị thời gian, số mũ là số chu kì $d$ đã trôi qua, $\dfrac{t}{d}$:
+
+  $$f(t)=a\cdot2^{\frac{t}{d}}\qquad\text{hoặc}\qquad f(t)=a\left(\frac12\right)^{\frac{t}{d}}.$$
+
+  :::example Chu kì bán rã
+  Một bệnh nhân uống 80 mi-li-gam thuốc. Lượng thuốc trong cơ thể giảm một nửa sau mỗi 6 giờ. Sau 18 giờ còn lại bao nhiêu mi-li-gam?
+
+  **Lời giải.** $18$ giờ là $\dfrac{18}{6}=3$ chu kì: $80\left(\dfrac12\right)^3=10$. Bạn gõ **10**.
+  :::
+
+## Các dạng tương đương của mô hình
+
+[[P4·ac25]]
+SAT có thể hỏi dạng nào của mô hình thể hiện tốc độ theo một đơn vị thời gian khác. Hãy dùng quy tắc $b^{kt}=\left(b^k\right)^t$.
+
+  :::example Đổi đơn vị thời gian
+  Một khoản đầu tư tăng theo $f(t)=200(1{,}21)^t$, với $t$ tính bằng năm. Dạng tương đương nào thể hiện tốc độ tăng sau mỗi nửa năm?
+  A. $f(t)=200(1{,}105)^{2t}$
+  B. $f(t)=200(1{,}1)^{2t}$
+  C. $f(t)=200(1{,}21)^{\frac t2}$
+  D. $f(t)=100(1{,}21)^{2t}$
+
+  **Lời giải.** Vì $1{,}1^2=1{,}21$ nên $(1{,}21)^t=(1{,}1^2)^t=(1{,}1)^{2t}$. Trong $2t$ nửa năm, mỗi nửa năm giá trị được nhân với $1{,}1$, tức là tăng $10\%$ mỗi nửa năm. Đáp án là **B**. Phương án A chia đôi tốc độ, điều này sai: hai lần tăng $10{,}5\%$ cho nhiều hơn $21\%$.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P5·ad88]]
+- **Tốc độ hay hệ số.** Giảm $8\%$ ứng với hệ số $0{,}92$, không phải $0{,}08$.
+- **Cộng phần trăm.** Hai lần tăng $10\%$ cho $1{,}1^2=1{,}21$, tức tăng $21\%$, không phải $20\%$.
+- **Quên chu kì.** "Nhân đôi sau mỗi 3 giờ" là $2^{\frac t3}$, không phải $2^{3t}$.
+- **Từ ngữ của bậc nhất.** "Tăng thêm 50 mỗi năm" là bậc nhất; "tăng 50% mỗi năm" là hàm mũ.
+:::
+
+:::tip Desmos cho mô hình hàm mũ
+[[P6·8366]]
+Gõ `y=24000(0.85)^x` rồi bấm vào đường cong tại $x=3$ để đọc giá trị. Để tìm khi nào đại lượng đạt một mức, hãy thêm đường nằm ngang, ví dụ `y=50`, rồi bấm vào giao điểm. Nhớ rằng Desmos dùng dấu chấm cho số thập phân.
+:::
+
+  :::terms
+  - hàm số mũ | exponential function
+  - giá trị ban đầu | initial value
+  - hệ số tăng trưởng (cơ số) | growth factor
+  - tăng trưởng / suy giảm theo hàm mũ | exponential growth / decay
+  - tăng / giảm theo phần trăm | percent increase / decrease
+  - lãi kép | compound interest
+  - thời gian nhân đôi | doubling time
+  - chu kì bán rã | half-life
+  - khấu hao, mất giá | depreciation
+  :::
+
+## Bài tập tương tự
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Câu tự điền đáp số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trắc nghiệm
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Hai lần tăng giá
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Trả lương bậc nhất hay hàm mũ
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tìm hệ số
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/sat/sat-exponential-functions – BẢN TIẾNG ANH ########
+---
+title: Exponential growth and decay
+description: SAT Advanced Math: exponential models a·b^t, percent growth and decay, doubling and half-life, linear versus exponential, and equivalent forms.
+minutes: 35
+---
+
+  :::goals
+  - Write and interpret exponential models $f(t)=a\cdot b^t$ for growth and decay.
+  - Convert between a percent rate of change and the growth factor $b$.
+  - Tell linear change from exponential change in a table, a graph or a description.
+  - Use doubling time and half-life, and rewrite a model for a different time unit.
+  :::
+
+[[P1·4b2d]]
+Exponential functions are new to many students who learned math in Vietnam before grade 11, yet the SAT uses them in every module, mostly in real-life contexts: populations, savings, prices, medicines and depreciation. The good news is that almost every question comes back to one formula and one idea: **multiply by the same factor in each equal time step**.
+
+## The exponential model
+
+  :::theorem Growth and decay
+  An exponential model has the form $f(t)=a\cdot b^t$ with $a>0$, $b>0$, $b\ne1$:
+  - $a=f(0)$ is the **initial value**;
+  - $b$ is the **growth factor**, the number you multiply by in each time step.
+
+  If the quantity changes by $r$ percent per step (written as a decimal):
+  - growth: $b=1+r$, for example $+4\%$ gives $b=1.04$;
+  - decay: $b=1-r$, for example $-15\%$ gives $b=0.85$.
+  :::
+
+  :::example Interpreting a model
+  The population of a town $t$ years after 2020 is modeled by $P(t)=1500(1.04)^t$. Which statement is the best interpretation of $1.04$ in this context?
+  A. The population increases by 1.04 people each year.
+  B. The population increases by 4% each year.
+  C. The population in 2020 was 1.04 thousand.
+  D. The population increases by 104% each year.
+
+  **Solution.** $1.04=1+0.04$ is the growth factor: each year the population is multiplied by $1.04$, so it grows by $4\%$. The answer is **B**. Option D confuses the factor with the rate.
+  :::
+
+  :::example Depreciation
+  A car was bought for 24,000 dollars. Its value decreases by 15% each year. To the nearest dollar, what is the value of the car after 3 years?
+
+  **Solution.** The factor is $1-0.15=0.85$:
+
+  $$V(3)=24{,}000(0.85)^3=24{,}000\cdot0.614125=14{,}739.$$
+
+  You type **14739**. Note that the car loses less money each year (3,600 dollars in the first year, less after that), because 15% is taken from a smaller value.
+  :::
+
+## Linear or exponential?
+
+:::note The key difference
+[[P2·730e]]
+- **Linear:** the quantity changes by the same **amount** in each equal step (add $m$).
+- **Exponential:** the quantity changes by the same **factor** (or percent) in each equal step (multiply by $b$).
+:::
+
+  :::example Reading a table
+  | $x$ | $0$ | $1$ | $2$ | $3$ |
+  |---|---|---|---|---|
+  | $y$ | $5$ | $10$ | $20$ | $40$ |
+
+  Which equation fits the table?
+  A. $y=5x+5$
+  B. $y=5\cdot2^x$
+  C. $y=2\cdot5^x$
+  D. $y=10x$
+
+  **Solution.** The differences $5, 10, 20$ are not constant, so the relationship is not linear. The ratios are all $2$, so it is exponential with factor $2$ and initial value $5$: $y=5\cdot2^x$. The answer is **B**.
+  :::
+
+:::graph Linear $y=5+5x$ (straight line) and exponential $y=5\cdot2^x$ (curve) start at the same point
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Doubling time and half-life
+
+[[P3·bb9b]]
+When a quantity doubles every $d$ time units, or halves every $d$ time units, the exponent is the number of $d$-periods that have passed, $\dfrac{t}{d}$:
+
+  $$f(t)=a\cdot2^{\frac{t}{d}}\qquad\text{or}\qquad f(t)=a\left(\frac12\right)^{\frac{t}{d}}.$$
+
+  :::example Half-life
+  A patient takes 80 milligrams of a medicine. The amount in the body halves every 6 hours. How many milligrams remain after 18 hours?
+
+  **Solution.** $18$ hours is $\dfrac{18}{6}=3$ half-lives: $80\left(\dfrac12\right)^3=10$. You type **10**.
+  :::
+
+## Equivalent forms of a model
+
+[[P4·2a87]]
+The SAT may ask which form of a model shows a rate for a different time unit. Use the law $b^{kt}=\left(b^k\right)^t$.
+
+  :::example Changing the time unit
+  An investment grows according to $f(t)=200(1.21)^t$, where $t$ is in years. Which equivalent form shows the growth rate for each half-year?
+  A. $f(t)=200(1.105)^{2t}$
+  B. $f(t)=200(1.1)^{2t}$
+  C. $f(t)=200(1.21)^{\frac t2}$
+  D. $f(t)=100(1.21)^{2t}$
+
+  **Solution.** Since $1.1^2=1.21$, $(1.21)^t=(1.1^2)^t=(1.1)^{2t}$. In $2t$ half-years the value is multiplied by $1.1$ each half-year, that is $10\%$ per half-year. The answer is **B**. Option A halves the rate, which is wrong: two increases of $10.5\%$ give more than $21\%$.
+  :::
+
+:::warning Common traps
+[[P5·9d33]]
+- **Rate versus factor.** A decrease of $8\%$ is the factor $0.92$, not $0.08$.
+- **Adding percents.** Two increases of $10\%$ give $1.1^2=1.21$, an increase of $21\%$, not $20\%$.
+- **Forgetting the period.** "Doubles every 3 hours" means $2^{\frac t3}$, not $2^{3t}$.
+- **Linear words.** "Increases by 50 each year" is linear; "increases by 50% each year" is exponential.
+:::
+
+:::tip Desmos for exponential models
+[[P6·46da]]
+Type `y=24000(0.85)^x` and click the curve at $x=3$ to read the value. To find when a quantity reaches a target, add the horizontal line, for example `y=50`, and click the intersection.
+:::
+
+  :::terms
+  - exponential function | hàm số mũ
+  - initial value | giá trị ban đầu
+  - growth factor | hệ số tăng trưởng (cơ số)
+  - exponential growth / decay | tăng trưởng / suy giảm theo hàm mũ
+  - percent increase / decrease | tăng / giảm theo phần trăm
+  - compound interest | lãi kép
+  - doubling time | thời gian nhân đôi
+  - half-life | chu kì bán rã
+  - depreciation | khấu hao, mất giá
+  :::
+
+## Similar exercises
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Student-produced response
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Multiple choice
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise Two price increases
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Linear or exponential pay
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Finding the factor
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

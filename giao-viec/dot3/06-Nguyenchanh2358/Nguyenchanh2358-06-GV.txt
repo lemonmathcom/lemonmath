@@ -6,7 +6,7 @@ Kết quả: file Nguyenchanh2358-06-GV-ketqua.md, lưu vào Dropbox Lemonmath.c
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Nguyenchanh2358-06-GV
-Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g8/linear-functions-graphs, g8/monomials
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g5/g5-practice-paper-1
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/Nguyenchanh2358-06-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
+  /mnt/user-data/outputs/Nguyenchanh2358-06-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file Nguyenchanh2358-06-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,1000 +135,130 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g8/linear-functions-graphs – BẢN TIẾNG VIỆT ########
+######## BÀI g5/g5-practice-paper-1 – BẢN TIẾNG VIỆT ########
 ---
-title: Hàm số bậc nhất và đồ thị của hàm số bậc nhất
-description: Nhận biết hàm số bậc nhất, tính giá trị, vẽ đồ thị bằng hai điểm và vận dụng vào tình huống thực tế.
-minutes: 20
----
-
-  :::goals
-  - Nhận biết hàm số bậc nhất $y=ax+b$ với $a\ne0$ và xác định các hệ số $a$, $b$.
-  - Tính giá trị của hàm số và kiểm tra một điểm có thuộc đồ thị hay không.
-  - Vẽ đồ thị hàm số bậc nhất bằng hai điểm phân biệt.
-  - Dùng hàm số và đồ thị để giải một số bài toán thực tế.
-  :::
-
-[[P1·a349]]
-Cửa hàng xe đạp thu 20 nghìn đồng để mở khoá và 15 nghìn đồng mỗi giờ. Thuê $x$ giờ hết $y=15x+20$ nghìn đồng. Sau $3$ giờ, bạn trả bao nhiêu? Các điểm $(x; y)$ tạo thành hình gì?
-
-## Hàm số bậc nhất
-
-### Khám phá: chi phí thuê xe
-
-[[P2·4d0d]]
-Ta thay lần lượt vài giá trị của $x$ vào $y=15x+20$:
-
-| $x$ (giờ) | $0$ | $1$ | $2$ | $3$ |
-|---|---:|---:|---:|---:|
-| $y$ (nghìn đồng) | $20$ | $35$ | $50$ | $65$ |
-
-[[P3·4c94]]
-Mỗi giờ thêm làm chi phí tăng $15$ nghìn đồng. Số $20$ là chi phí ban đầu. Công thức có dạng $y=ax+b$ với $a=15$, $b=20$.
-
-  :::definition Hàm số bậc nhất
-  Hàm số bậc nhất là hàm số được cho bởi công thức
-  $$y=ax+b,$$
-  trong đó $a$, $b$ là các số đã cho và $a\ne0$.
-  :::
-
-[[P4·f2fe]]
-Nếu $a=0$ thì $y=b$ không đổi theo $x$: đây là hàm hằng, không phải hàm số bậc nhất. Số $b$ có thể bằng $0$; khi ấy $y=ax$.
-
-  :::example Nhận biết hàm số bậc nhất
-  Trong các hàm số sau, hàm số nào là hàm số bậc nhất? Hãy chỉ ra $a$ và $b$.
-
-  a) $y=3x-5$; b) $y=-x$; c) $y=7$; d) $y=x^2+1$.
-
-  **Lời giải.** Ta so sánh với $y=ax+b$, $a\ne0$:
-
-  - a) $a=3$, $b=-5$: bậc nhất.
-  - b) $y=(-1)x+0$ có $a=-1$, $b=0$: bậc nhất.
-  - c) $y=0x+7$ có $a=0$: không bậc nhất.
-  - d) Có $x^2$: không có dạng $y=ax+b$.
-
-  Vậy các hàm số ở a) và b) là hàm số bậc nhất.
-  :::
-
-[[P5·57bb]]
-Khi đã có công thức, ta tính giá trị của hàm số bằng cách thay giá trị của $x$.
-
-  :::example Tính giá trị và kiểm tra điểm
-  Cho hàm số $y=-2x+7$.
-
-  a) Tính $y$ khi $x=3$ và khi $x=-1$.
-
-  b) Điểm $A(4; -1)$ và $B(2; 4)$ có thuộc đồ thị của hàm số không?
-
-  **Lời giải.** Ta thay hoành độ rồi so sánh với tung độ:
-
-  $$\begin{aligned}
-  x=3&\Rightarrow y=-2\cdot3+7=1;\\
-  x=-1&\Rightarrow y=-2\cdot(-1)+7=9.
-  \end{aligned}$$
-
-  Với $A$, $-2\cdot4+7=-1$, nên $A$ thuộc đồ thị. Với $B$, $-2\cdot2+7=3\ne4$, nên $B$ không thuộc đồ thị.
-  :::
-
-## Đồ thị của hàm số bậc nhất
-
-### Khám phá: các điểm có thẳng hàng không?
-
-[[P6·ef39]]
-Với $y=2x+1$, ta được $A(-1; -1)$, $B(0; 1)$, $C(1; 3)$, $D(2; 5)$. Cả bốn điểm nằm trên một đường thẳng.
-
-:::graph Các điểm thuộc đồ thị $y=2x+1$
-   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-  :::theorem Đồ thị của hàm số bậc nhất
-  Đồ thị của hàm số bậc nhất $y=ax+b$ với $a\ne0$ là một đường thẳng. Đường thẳng đó được gọi là đường thẳng $y=ax+b$.
-
-  Muốn vẽ đồ thị, ta xác định hai điểm phân biệt thuộc đồ thị rồi vẽ đường thẳng đi qua hai điểm ấy.
-  :::
-
-[[P7·c337]]
-Đồ thị $y=ax$ là đường thẳng qua gốc toạ độ. Với cùng $x$, công thức $y=ax+b$ làm tung độ thay đổi thêm $b$. Mọi điểm được dịch theo phương thẳng đứng cùng một đoạn nên vẫn tạo thành đường thẳng.
-
-[[P8·a3af]]
-Hai cách chọn điểm thường thuận tiện là:
-
-[[P9·e125]]
-- Nếu $b\ne0$, cho $x=0$ được $P(0; b)$; cho $y=0$ được $Q\left(-\dfrac ba; 0\right)$.
-- Nếu $b=0$, đồ thị qua $O(0; 0)$. Chọn thêm $x=1$ để được $(1; a)$.
-
-  :::example Vẽ đồ thị khi $b\ne0$
-  Vẽ đồ thị hàm số $y=2x-4$.
-
-  **Lời giải.** Ta chọn hai giao điểm có toạ độ nguyên:
-
-  $$\begin{aligned}
-  x=0&\Rightarrow y=-4 &&\Rightarrow P(0; -4);\\
-  y=0&\Rightarrow 2x-4=0\Rightarrow x=2 &&\Rightarrow Q(2; 0).
-  \end{aligned}$$
-
-  Đồ thị là đường thẳng $PQ$.
-  :::
-
-:::graph Đồ thị $y=2x-4$
-   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-[[P10·035f]]
-Khi $b=0$, một trong hai điểm đã biết ngay là gốc toạ độ.
-
-  :::example Vẽ đồ thị khi $b=0$
-  Vẽ đồ thị hàm số $y=-3x$.
-
-  **Lời giải.** Cho $x=0$ và $x=1$:
-
-  $$x=0\Rightarrow y=0\Rightarrow O(0; 0),\qquad x=1\Rightarrow y=-3\Rightarrow M(1; -3).$$
-
-  Đồ thị là đường thẳng $OM$.
-  :::
-
-:::graph Đồ thị $y=-3x$
-   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-[[P11·9506]]
-Trong bài toán thực tế, điều kiện của đại lượng có thể khiến ta chỉ dùng một phần của đường thẳng.
-
-  :::example Bể nước đang được xả
-  Bể có $90$ lít nước và được xả đều $6$ lít mỗi phút. Gọi $t$ là thời gian, $V$ là lượng còn lại.
-
-  a) Viết công thức của $V$ theo $t$.
-
-  b) Tìm lượng nước sau $8$ phút và thời điểm bể hết nước. Mô tả đồ thị trong tình huống này.
-
-  **Lời giải.** Lượng nước giảm $6$ lít mỗi phút, nên
-
-  $$V=90-6t=-6t+90.$$
-
-  Sau $8$ phút:
-
-  $$V=90-6\cdot8=42\text{ (lít)}.$$
-
-  Bể hết nước khi $V=0$:
-
-  $$90-6t=0\Rightarrow t=15\text{ (phút)}.$$
-
-  Công thức có dạng bậc nhất. Vì $0\le t\le15$, đồ thị thực tế là đoạn nối $(0; 90)$ và $(15; 0)$.
-  :::
-
-:::warning Những sai lầm thường gặp
-[[P12·1c79]]
-- **Quên điều kiện $a\ne0$.** Sai: “$y=5$ là hàm số bậc nhất với $a=0$”. Đúng: đây là hàm hằng.
-- **Sai dấu khi thay số âm.** Với $y=-2x+1$ và $x=-3$, phải viết $y=-2\cdot(-3)+1=7$, không phải $-5$.
-- **Chỉ xác định một điểm rồi vẽ.** Qua một điểm có nhiều đường thẳng. Ta cần hai điểm phân biệt.
-- **Tìm sai giao điểm với trục hoành.** Với $y=2x+6$, cho $y=0$ được $2x+6=0$, nên $x=-3$, không phải $3$.
-- **Bỏ qua điều kiện thực tế.** Thời gian thường không âm, nên có thể chỉ dùng một đoạn hoặc một tia.
-:::
-
-## Thuật ngữ
-
-  :::terms
-  - hàm số bậc nhất | linear function
-  - hệ số | coefficient
-  - đồ thị | graph
-  - đường thẳng | straight line
-  - mặt phẳng toạ độ | coordinate plane
-  - trục hoành | x-axis
-  - trục tung | y-axis
-  - giao điểm với trục hoành | x-intercept
-  - giao điểm với trục tung | y-intercept
-  :::
-
-## Tóm tắt
-
-[[P13·a61a]]
-- Hàm số bậc nhất có dạng $y=ax+b$, trong đó $a\ne0$.
-- Điểm $M(x_0; y_0)$ thuộc đồ thị khi và chỉ khi $y_0=ax_0+b$.
-- Đồ thị của hàm số bậc nhất là một đường thẳng. Hai điểm phân biệt xác định đường thẳng đó.
-- Khi $b\ne0$, thường chọn hai điểm $P(0; b)$ và $Q\left(-\dfrac ba; 0\right)$.
-- Khi $b=0$, đồ thị đi qua $O(0; 0)$; chọn thêm một điểm để vẽ.
-- Trong tình huống thực tế, luôn xét điều kiện của biến trước khi chọn phần đồ thị phù hợp.
-
-## Luyện tập
-
-[[P14·ba07]]
-Hãy tự làm từng bài trước khi xem lời giải.
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Ôn tập
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Thử thách
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Kiểm tra mini
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g8/linear-functions-graphs – BẢN TIẾNG ANH ########
----
-title: Linear functions and their graphs
-description: Recognise linear functions, calculate values, draw their graphs from two points, and use them in real situations.
-minutes: 20
+title: Đề ôn tập cuối cấp tiểu học số 1
+description: Đề ôn tập 40 phút, 10 điểm, gồm 8 câu trắc nghiệm và 4 câu tự luận, bao quát chương trình toán lớp 5 để em sẵn sàng thi cuối cấp.
+minutes: 40
+type: exam
 ---
 
-  :::goals
-  - Recognise a linear function $y=ax+b$, where $a\ne0$, and identify the coefficients $a$ and $b$.
-  - Calculate function values and check whether a point lies on a graph.
-  - Draw the graph of a linear function from two distinct points.
-  - Use linear functions and their graphs to solve real-life problems.
-  :::
+[[P1·2754]]
+Đề này làm trong $40$ phút, thang điểm $10$. Em hãy in đề ra giấy (hoặc chép vào vở) và tự làm hết trước. Sau đó bấm xem từng lời giải để tự chấm điểm, rồi ôn lại những phần em còn làm sai.
 
-[[P1·ecae]]
-A bicycle shop charges 20 thousand dong to unlock a bicycle and 15 thousand dong per hour. Hiring for $x$ hours costs $y=15x+20$ thousand dong. What is the cost after $3$ hours, and what shape do the points $(x, y)$ make?
-
-## Linear functions
-
-### Explore: the cost of hiring a bicycle
-
-[[P2·747b]]
-We substitute a few values of $x$ into $y=15x+20$:
-
-| $x$ (hours) | $0$ | $1$ | $2$ | $3$ |
-|---|---:|---:|---:|---:|
-| $y$ (thousand dong) | $20$ | $35$ | $50$ | $65$ |
-
-[[P3·b512]]
-Each extra hour adds 15 thousand dong. The number $20$ is the initial cost. The formula has the form $y=ax+b$, with $a=15$ and $b=20$.
-
-  :::definition Linear function
-  A linear function is a function given by
-  $$y=ax+b,$$
-  where $a$ and $b$ are fixed numbers and $a\ne0$.
-  :::
-
-[[P4·9cb5]]
-If $a=0$, then $y=b$ does not change with $x$: this is a constant function, not a linear function. The number $b$ may equal $0$; the formula is then $y=ax$.
-
-  :::example Recognising linear functions
-  Which of the following are linear functions? Give $a$ and $b$ for each linear function.
-
-  a) $y=3x-5$; b) $y=-x$; c) $y=7$; d) $y=x^2+1$.
-
-  **Solution.** Compare each formula with $y=ax+b$, where $a\ne0$:
-
-  - a) $a=3$, $b=-5$: linear.
-  - b) $y=(-1)x+0$ has $a=-1$, $b=0$: linear.
-  - c) $y=0x+7$ has $a=0$: not linear.
-  - d) It contains $x^2$: not of the form $y=ax+b$.
-
-  Therefore the functions in a) and b) are linear.
-  :::
-
-[[P5·ecad]]
-Once we have a formula, we calculate a function value by substituting the value of $x$.
-
-  :::example Calculating values and checking points
-  Consider the function $y=-2x+7$.
-
-  a) Find $y$ when $x=3$ and when $x=-1$.
-
-  b) Do the points $A(4, -1)$ and $B(2, 4)$ lie on the graph?
-
-  **Solution.** We substitute the x-coordinate into the formula and compare the result with the y-coordinate:
-
-  $$\begin{aligned}
-  x=3&\Rightarrow y=-2\cdot3+7=1;\\
-  x=-1&\Rightarrow y=-2\cdot(-1)+7=9.
-  \end{aligned}$$
-
-  For $A$, $-2\cdot4+7=-1$, so $A$ lies on the graph. For $B$, $-2\cdot2+7=3\ne4$, so $B$ does not.
-  :::
-
-## Graphs of linear functions
-
-### Explore: are the points collinear?
-
-[[P6·3136]]
-For $y=2x+1$, we obtain the points $A(-1, -1)$, $B(0, 1)$, $C(1, 3)$ and $D(2, 5)$. When we plot them on the coordinate plane, all four points lie on one straight line.
-
-:::graph Points on the graph of $y=2x+1$
-   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-  :::theorem The graph of a linear function
-  The graph of a linear function $y=ax+b$, where $a\ne0$, is a straight line. It is called the line $y=ax+b$.
-
-  To draw the graph, find two distinct points on it, then draw the straight line through them.
-  :::
-
-[[P7·7807]]
-The graph of $y=ax$ is a straight line through the origin. In $y=ax+b$, every y-coordinate changes by $b$. All points move vertically by the same amount, so they still form a straight line.
-
-[[P8·1dea]]
-Two convenient ways to choose points are:
-
-[[P9·661d]]
-- If $b\ne0$, set $x=0$ to obtain $P(0, b)$ on the y-axis; set $y=0$ to obtain $Q\left(-\dfrac ba, 0\right)$ on the x-axis.
-- If $b=0$, the graph passes through $O(0, 0)$. Choose one more value of $x$, for example $x=1$, to obtain $(1, a)$.
-
-  :::example Drawing a graph when $b\ne0$
-  Draw the graph of $y=2x-4$.
-
-  **Solution.** We choose the two intercepts because they have integer coordinates:
-
-  $$\begin{aligned}
-  x=0&\Rightarrow y=-4 &&\Rightarrow P(0, -4);\\
-  y=0&\Rightarrow 2x-4=0\Rightarrow x=2 &&\Rightarrow Q(2, 0).
-  \end{aligned}$$
-
-  Plot $P$ and $Q$, then draw the straight line $PQ$. This is the required graph.
-  :::
-
-:::graph The graph of $y=2x-4$
-   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-[[P10·92b6]]
-When $b=0$, one of the two points is already known: the origin.
-
-  :::example Drawing a graph when $b=0$
-  Draw the graph of $y=-3x$.
-
-  **Solution.** Set $x=0$ and $x=1$ to find two points:
-
-  $$x=0\Rightarrow y=0\Rightarrow O(0, 0),\qquad x=1\Rightarrow y=-3\Rightarrow M(1, -3).$$
-
-  Draw the straight line $OM$. This is the graph of $y=-3x$.
-  :::
-
-:::graph The graph of $y=-3x$
-   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-[[P11·3703]]
-In a real-life problem, restrictions on the quantities may mean that we use only part of the straight line.
-
-  :::example A water tank being emptied
-  A tank contains $90$ litres of water. Water is released at a steady rate of $6$ litres per minute. Let $t$ be the time and $V$ the volume of water left.
-
-  a) Write $V$ in terms of $t$.
-
-  b) Find the volume after $8$ minutes and the time when the tank becomes empty. Describe the graph for this situation.
-
-  **Solution.** The volume falls by $6$ litres each minute from an initial volume of $90$ litres, so
-
-  $$V=90-6t=-6t+90.$$
-
-  After $8$ minutes:
-
-  $$V=90-6\cdot8=42\text{ litres}.$$
-
-  The tank is empty when $V=0$:
-
-  $$90-6t=0\Rightarrow t=15\text{ minutes}.$$
-
-  The formula has linear form. However, only $0\le t\le15$ makes sense here, so the graph is the line segment joining $(0, 90)$ and $(15, 0)$, not the whole straight line.
-  :::
-
-:::warning Common mistakes
-[[P12·b2cd]]
-- **Forgetting the condition $a\ne0$.** Wrong: “$y=5$ is linear with $a=0$.” Correct: it is a constant function.
-- **Losing a sign when substituting a negative number.** For $y=-2x+1$ and $x=-3$, write $y=-2\cdot(-3)+1=7$, not $-5$.
-- **Plotting only one point before drawing.** Many straight lines pass through one point. We need two distinct points.
-- **Finding the x-intercept with the wrong sign.** For $y=2x+6$, setting $y=0$ gives $2x+6=0$, so $x=-3$, not $3$.
-- **Ignoring a real-life restriction.** Time and quantities are often non-negative, so the relevant graph may be only a line segment or a ray.
-:::
-
-## Key terms
-
-  :::terms
-  - linear function | hàm số bậc nhất
-  - coefficient | hệ số
-  - graph | đồ thị
-  - straight line | đường thẳng
-  - coordinate plane | mặt phẳng toạ độ
-  - x-axis | trục hoành
-  - y-axis | trục tung
-  - x-intercept | giao điểm với trục hoành
-  - y-intercept | giao điểm với trục tung
-  :::
-
-## Summary
-
-[[P13·62ef]]
-- A linear function has the form $y=ax+b$, where $a\ne0$.
-- A point $M(x_0, y_0)$ lies on the graph exactly when $y_0=ax_0+b$.
-- The graph of a linear function is a straight line. Two distinct points determine this line.
-- When $b\ne0$, convenient points are $P(0, b)$ and $Q\left(-\dfrac ba, 0\right)$.
-- When $b=0$, the graph passes through $O(0, 0)$; choose one more point before drawing it.
-- In a real situation, check the restrictions on the variable before choosing the relevant part of the graph.
-
-## Practice
-
-[[P14·04f6]]
-Try each exercise before opening the solution.
+## Phần 1. Trắc nghiệm (4 điểm)
 
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Review
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Challenge
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Mini test
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g8/monomials – BẢN TIẾNG VIỆT ########
----
-title: Đơn thức
-description: Nhận biết đơn thức, thu gọn đơn thức, tìm hệ số, phần biến và bậc, nhận biết đơn thức đồng dạng, cộng, trừ và nhân các đơn thức.
-minutes: 20
----
-
-  :::goals
-  - Nhận biết đơn thức, đơn thức thu gọn; tìm hệ số, phần biến và bậc của đơn thức.
-  - Nhận biết các đơn thức đồng dạng, cộng và trừ các đơn thức đồng dạng.
-  - Nhân hai đơn thức bằng cách nhân hệ số với hệ số và nhân phần biến với phần biến.
-  - Dùng đơn thức để viết gọn diện tích, thể tích trong bài toán thực tế.
-  :::
-
-[[P1·cdcd]]
-Một hộp quà có đáy là hình vuông cạnh $x$ cm và chiều cao gấp đôi cạnh đáy, tức là $2x$ cm. Thể tích của hộp là $x\cdot x\cdot2x$ (cm³). Biểu thức này có thể viết gọn thế nào, và nó thuộc loại biểu thức nào?
-
-[[P2·8437]]
-Ở lớp 7, bạn đã biết dùng chữ để thay cho số và biết quy tắc nhân hai lũy thừa cùng cơ số. Hôm nay ta dùng hai điều đó để làm quen với một loại biểu thức đơn giản nhất: đơn thức.
-
-## Đơn thức và đơn thức thu gọn
-
-### Khám phá: viết gọn thể tích hộp quà
-
-[[P3·6e72]]
-Ta thử với $x=3$. Đáy là hình vuông cạnh $3$ cm, chiều cao là $2\cdot3=6$ cm. Thể tích là $3\cdot3\cdot6=54$ cm³.
-
-[[P4·105a]]
-Bây giờ ta gộp các thừa số giống nhau. Số $2$ đứng riêng, còn $x\cdot x\cdot x=x^3$, nên thể tích là $2x^3$. Thử lại với $x=3$: $2\cdot3^3=2\cdot27=54$. Hai kết quả bằng nhau, vậy $x\cdot x\cdot2x=2x^3$.
-
-[[P5·cf24]]
-Bảng dưới đây cho vài biểu thức và cho biết biểu thức nào "giống" $2x^3$.
-
-| Biểu thức | Có phải đơn thức? | Vì sao |
-|---|---|---|
-| $7$ | Có | chỉ là một số |
-| $y$ | Có | chỉ là một biến |
-| $-2xy$ | Có | tích của số $-2$ với các biến $x$, $y$ |
-| $\dfrac{2}{3}x^2y$ | Có | tích của số $\dfrac{2}{3}$ với các biến |
-| $x+y$ | Không | có phép cộng giữa hai biến |
-| $\dfrac{3}{x}$ | Không | biến $x$ nằm ở mẫu |
-
-  :::definition Đơn thức
-  **Đơn thức** là biểu thức chỉ gồm một số, hoặc một biến, hoặc một tích của các số và các biến (các biến có số mũ là số tự nhiên).
-  :::
-
-[[P6·a28a]]
-Một đơn thức có thể có nhiều biến, ví dụ $-2xy$ có hai biến $x$ và $y$. Biểu thức $x\cdot x\cdot2x$ cũng là đơn thức, nhưng chưa gọn, vì biến $x$ xuất hiện nhiều lần.
-
-  :::definition Đơn thức thu gọn, hệ số, phần biến, bậc
-  Đơn thức **thu gọn** là đơn thức chỉ gồm một số nhân với các lũy thừa của các biến, và mỗi biến chỉ xuất hiện một lần.
-
-  Trong đơn thức thu gọn $-5x^2y$:
-  - số $-5$ là **hệ số**;
-  - $x^2y$ là **phần biến**;
-  - **bậc** của đơn thức là tổng các số mũ của các biến: $2+1=3$.
-  :::
-
-[[P7·6f1c]]
-Số mũ của $y$ là $1$ vì $y=y^1$. Số khác $0$ là đơn thức bậc $0$. Số $0$ cũng là đơn thức, gọi là đơn thức không, và nó không có bậc.
-
-## Các phép tính với đơn thức
-
-### Đơn thức đồng dạng, cộng và trừ
-
-[[P8·3bda]]
-Ta xét $3x^2+5x^2$. Mỗi $x^2$ giống như một "gói" giống nhau: có $3$ gói cộng $5$ gói là $8$ gói. Vậy $3x^2+5x^2=8x^2$. Thử với $x=2$: $3\cdot4+5\cdot4=32$ và $8\cdot4=32$.
-
-[[P9·7b79]]
-Cách làm này đúng nhờ tính chất phân phối: $3x^2+5x^2=(3+5)x^2$. Nó chỉ dùng được khi hai đơn thức có cùng phần biến.
-
-  :::definition Đơn thức đồng dạng
-  Hai đơn thức có hệ số khác $0$ và có **cùng phần biến** gọi là **đơn thức đồng dạng**.
-
-  Muốn cộng (trừ) các đơn thức đồng dạng, ta cộng (trừ) các hệ số và giữ nguyên phần biến.
-  :::
-
-### Nhân hai đơn thức
-
-[[P10·ae81]]
-Ta nhân $(2x^2)\cdot(3x^3)$. Ta đổi chỗ các thừa số rồi nhóm số với số, biến với biến: $2\cdot3\cdot x^2\cdot x^3$. Số đứng riêng cho $6$. Với biến, ta dùng quy tắc nhân lũy thừa cùng cơ số: $x^2\cdot x^3=x^{2+3}=x^5$. Vậy $(2x^2)(3x^3)=6x^5$.
-
-  :::theorem Nhân hai đơn thức
-  Muốn nhân hai đơn thức, ta nhân các hệ số với nhau và nhân các phần biến với nhau (với cùng một biến thì cộng các số mũ):
-  $$(a\,x^m y^n)\cdot(b\,x^p y^q)=ab\,x^{m+p}y^{n+q}.$$
-  :::
-
-## Ví dụ
-
-[[P11·f79d]]
-Ta bắt đầu bằng việc nhận biết đơn thức.
-
-  :::example Nhận biết đơn thức
-  Trong các biểu thức $5$, $-x^2y$, $2x+3$, $\dfrac{4}{y}$, $\dfrac{1}{3}xy^2$, biểu thức nào là đơn thức?
-
-  **Lời giải.** Ta kiểm tra từng biểu thức xem nó có phải là số, biến hoặc tích của số và biến không:
-
-  - $5$ là một số, nên là đơn thức.
-  - $-x^2y$ là tích của $-1$ và các biến, nên là đơn thức.
-  - $2x+3$ có phép cộng, nên không là đơn thức.
-  - $\dfrac{4}{y}$ có biến ở mẫu, nên không là đơn thức.
-  - $\dfrac{1}{3}xy^2$ là tích của số $\dfrac13$ và các biến, nên là đơn thức.
-
-  Vậy có ba đơn thức: $5$, $-x^2y$ và $\dfrac{1}{3}xy^2$.
-  :::
-
-[[P12·93e9]]
-Tiếp theo, ta thu gọn một đơn thức và đọc hệ số, phần biến, bậc của nó.
-
-  :::example Thu gọn đơn thức
-  Thu gọn $A=4x\cdot\dfrac12y\cdot x^2y$ rồi chỉ ra hệ số, phần biến và bậc của $A$.
-
-  **Lời giải.** Ta nhóm các số, rồi nhóm từng biến, và dùng $x\cdot x^2=x^{1+2}$, $y\cdot y=y^{1+1}$:
-
-  $$A=\left(4\cdot\frac12\right)\cdot(x\cdot x^2)\cdot(y\cdot y)=2x^3y^2.$$
-
-  Vậy $A=2x^3y^2$ có hệ số là $2$, phần biến là $x^3y^2$ và bậc là $3+2=5$.
-  :::
-
-[[P13·2dfd]]
-Bây giờ ta đọc hệ số và bậc của vài đơn thức đã thu gọn.
-
-  :::example Hệ số và bậc
-  Tìm hệ số và bậc của các đơn thức $-7x^2y$, $\dfrac34x^4$ và $xy^2z$.
-
-  **Lời giải.** Với mỗi đơn thức, ta lấy số đứng đầu làm hệ số rồi cộng các số mũ để được bậc. Chú ý $xy^2z$ không viết số đứng đầu, tức là hệ số của nó là $1$:
-
-  | Đơn thức | Hệ số | Bậc |
-  |---|---|---|
-  | $-7x^2y$ | $-7$ | $2+1=3$ |
-  | $\dfrac34x^4$ | $\dfrac34$ | $4$ |
-  | $xy^2z$ | $1$ | $1+2+1=4$ |
-  :::
-
-[[P14·d3f3]]
-Ta chuyển sang đơn thức đồng dạng.
-
-  :::example Đơn thức đồng dạng và cộng trừ
-  Trong các đơn thức $2xy^2$, $-xy^2$, $3x^2y$, $5y^2x$, đơn thức nào đồng dạng với $xy^2$? Tính tổng các đơn thức đó.
-
-  **Lời giải.** Ta so sánh phần biến. Ta có $5y^2x=5xy^2$ vì nhân có tính giao hoán. Phần biến của $3x^2y$ là $x^2y$, khác $xy^2$.
-
-  Vậy ba đơn thức $2xy^2$, $-xy^2$, $5y^2x$ đồng dạng với $xy^2$. Ta cộng các hệ số và giữ nguyên phần biến:
-
-  $$2xy^2+(-xy^2)+5xy^2=(2-1+5)xy^2=6xy^2.$$
-
-  Vậy tổng là $6xy^2$.
-  :::
-
-[[P15·e039]]
-Còn phép nhân thì không cần đồng dạng.
-
-  :::example Nhân hai đơn thức
-  Tính $(-3x^2y)\cdot(2xy^3)$ và cho biết bậc của kết quả.
-
-  **Lời giải.** Ta nhân hệ số, rồi nhân từng biến bằng cách cộng số mũ ($x$ có $2+1$, $y$ có $1+3$):
-
-  $$(-3x^2y)\cdot(2xy^3)=(-3\cdot2)\cdot x^{2+1}\cdot y^{1+3}=-6x^3y^4.$$
-
-  Vậy kết quả là $-6x^3y^4$, có bậc $3+4=7$.
-  :::
-
-[[P16·5444]]
-Cuối cùng, ta dùng đơn thức trong bài toán thực tế mở đầu.
-
-  :::example Thể tích hai loại hộp
-  Hộp A có đáy hình vuông cạnh $x$ cm và cao $2x$ cm. Hộp B là hình lập phương cạnh $x$ cm. Viết thể tích một hộp A cộng thể tích một hộp B dưới dạng đơn thức, rồi tính giá trị khi $x=4$.
-
-  **Lời giải.** Thể tích hộp A là $x\cdot x\cdot2x=2x^3$. Thể tích hộp B là $x\cdot x\cdot x=x^3$. Hai đơn thức này đồng dạng, nên ta cộng các hệ số:
-
-  $$2x^3+x^3=(2+1)x^3=3x^3.$$
-
-  Với $x=4$: $3\cdot4^3=3\cdot64=192$.
-
-  Vậy tổng thể tích là $3x^3$ cm³, và bằng $192$ cm³ khi $x=4$.
-  :::
-
-:::warning Những sai lầm thường gặp
-[[P17·9801]]
-- **Cho rằng $x+y$ là đơn thức.** Sai: $x+y$ là đơn thức. Lí do sai: đơn thức chỉ có phép nhân giữa số và biến, không có phép cộng. Đúng: $x+y$ không phải đơn thức.
-- **Tính bậc bằng cách nhân số mũ.** Sai: bậc của $x^2y^3$ là $2\cdot3=6$. Lí do sai: bậc là tổng các số mũ. Đúng: $2+3=5$.
-- **Cộng cả số mũ khi cộng đơn thức.** Sai: $3x^2+5x^2=8x^4$. Lí do sai: cộng hệ số thì phần biến giữ nguyên, giống như $3$ gói cộng $5$ gói là $8$ gói. Đúng: $8x^2$. (Thử $x=2$: $3\cdot4+5\cdot4=32$, còn $8\cdot2^4=128$.)
-- **Nhân lũy thừa mà nhân số mũ.** Sai: $x^2\cdot x^3=x^6$. Lí do sai: $x^2\cdot x^3=(x\cdot x)(x\cdot x\cdot x)$ có $5$ thừa số $x$. Đúng: $x^5$.
-:::
-
-## Thuật ngữ
-
-  :::terms
-  - đơn thức | monomial
-  - biến | variable
-  - hệ số | coefficient
-  - phần biến | variable part
-  - đơn thức thu gọn | monomial in its simplest form
-  - bậc của đơn thức | degree of a monomial
-  - đơn thức đồng dạng | like terms
-  - lũy thừa | power
-  - số mũ | exponent (index)
-  - hằng số | constant
-  :::
-
-## Tóm tắt
-
-[[P18·b8cb]]
-- Đơn thức là một số, một biến, hoặc tích của các số và các biến. Biểu thức có phép cộng, trừ hoặc biến ở mẫu không phải đơn thức.
-- Đơn thức thu gọn $ax^my^n$ có hệ số $a$, phần biến $x^my^n$, bậc là tổng các số mũ $m+n$.
-- Hai đơn thức đồng dạng nếu hệ số khác $0$ và cùng phần biến. Cộng, trừ chúng: cộng, trừ hệ số, giữ nguyên phần biến.
-- Nhân hai đơn thức: nhân hệ số với nhau, nhân phần biến với nhau (cộng số mũ của cùng một biến).
-- Có thể thử lại bằng cách thay biến bằng một số nhỏ, ví dụ $x=2$, rồi so sánh hai vế.
-
-## Luyện tập
-
-[[P19·b0c6]]
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Thử thách
    (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-## Kiểm tra mini
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g8/monomials – BẢN TIẾNG ANH ########
----
-title: Monomials
-description: Recognise monomials, simplify them, find the coefficient, variable part and degree, spot like monomials, and add, subtract and multiply monomials.
-minutes: 20
----
-
-  :::goals
-  - Recognise monomials and monomials in simplest form; find the coefficient, the variable part and the degree of a monomial.
-  - Recognise like monomials, and add and subtract like monomials.
-  - Multiply two monomials by multiplying coefficient by coefficient and variable part by variable part.
-  - Use monomials to write areas and volumes briefly in real-life problems.
-  :::
-
-[[P1·3294]]
-A gift box has a square base with side $x$ cm, and its height is twice the side of the base, that is $2x$ cm. The volume of the box is $x\cdot x\cdot2x$ (cm³). How can this expression be written more briefly, and what kind of expression is it?
-
-[[P2·136a]]
-In grade $7$ you learned to use letters in place of numbers and the rule for multiplying two powers with the same base. Today we use both ideas to meet the simplest kind of algebraic expression: the monomial.
-
-## Monomials and monomials in simplest form
-
-### Explore: writing the volume of the gift box briefly
-
-[[P3·24bd]]
-Try $x=3$. The base is a square with side $3$ cm and the height is $2\cdot3=6$ cm. The volume is $3\cdot3\cdot6=54$ cm³.
-
-[[P4·ebad]]
-Now group the factors that are the same. The number $2$ stands on its own, and $x\cdot x\cdot x=x^3$, so the volume is $2x^3$. Check with $x=3$: $2\cdot3^3=2\cdot27=54$. The two results are equal, so $x\cdot x\cdot2x=2x^3$.
-
-[[P5·3f68]]
-The table below lists some expressions and shows which ones are "like" $2x^3$.
-
-| Expression | A monomial? | Why |
-|---|---|---|
-| $7$ | Yes | it is just a number |
-| $y$ | Yes | it is just a variable |
-| $-2xy$ | Yes | a product of the number $-2$ and the variables $x$, $y$ |
-| $\dfrac{2}{3}x^2y$ | Yes | a product of the number $\dfrac{2}{3}$ and variables |
-| $x+y$ | No | there is an addition between two variables |
-| $\dfrac{3}{x}$ | No | the variable $x$ is in the denominator |
-
-  :::definition Monomial
-  A **monomial** is an expression that is just a number, or just a variable, or a product of numbers and variables (with the variables raised to natural-number powers).
-  :::
-
-[[P6·2130]]
-A monomial can have several variables; for example $-2xy$ has the two variables $x$ and $y$. The expression $x\cdot x\cdot2x$ is also a monomial, but it is not in simplest form, because the variable $x$ appears more than once.
-
-  :::definition Monomial in simplest form, coefficient, variable part, degree
-  A monomial **in simplest form** is a monomial made of one number multiplied by powers of the variables, with each variable appearing only once.
-
-  In the monomial in simplest form $-5x^2y$:
-  - the number $-5$ is the **coefficient**;
-  - $x^2y$ is the **variable part**;
-  - the **degree** of the monomial is the sum of the exponents of the variables: $2+1=3$.
-  :::
-
-[[P7·af01]]
-The exponent of $y$ is $1$ because $y=y^1$. A non-zero number is a monomial of degree $0$. The number $0$ is also a monomial, called the zero monomial, and it has no degree.
-
-## Operations with monomials
-
-### Like monomials, addition and subtraction
-
-[[P8·5724]]
-Look at $3x^2+5x^2$. Each $x^2$ is like an identical "packet": $3$ packets plus $5$ packets make $8$ packets. So $3x^2+5x^2=8x^2$. Check with $x=2$: $3\cdot4+5\cdot4=32$ and $8\cdot4=32$.
-
-[[P9·0d31]]
-This works because of the distributive law: $3x^2+5x^2=(3+5)x^2$. It only works when the two monomials have the same variable part.
-
-  :::definition Like monomials
-  Two monomials with non-zero coefficients and **the same variable part** are called **like monomials**.
-
-  To add (subtract) like monomials, add (subtract) the coefficients and keep the variable part the same.
-  :::
-
-### Multiplying two monomials
-
-[[P10·da1d]]
-Multiply $(2x^2)\cdot(3x^3)$. Rearrange the factors to group numbers with numbers and variables with variables: $2\cdot3\cdot x^2\cdot x^3$. The numbers give $6$. For the variable, use the rule for multiplying powers with the same base: $x^2\cdot x^3=x^{2+3}=x^5$. So $(2x^2)(3x^3)=6x^5$.
-
-  :::theorem Multiplying two monomials
-  To multiply two monomials, multiply the coefficients together and multiply the variable parts together (for the same variable, add the exponents):
-  $$(a\,x^m y^n)\cdot(b\,x^p y^q)=ab\,x^{m+p}y^{n+q}.$$
-  :::
-
-## Examples
-
-[[P11·d778]]
-We start by recognising monomials.
-
-  :::example Recognising monomials
-  Of the expressions $5$, $-x^2y$, $2x+3$, $\dfrac{4}{y}$, $\dfrac{1}{3}xy^2$, which are monomials?
-
-  **Solution.** Check whether each expression is a number, a variable or a product of numbers and variables:
-
-  - $5$ is a number, so it is a monomial.
-  - $-x^2y$ is a product of $-1$ and variables, so it is a monomial.
-  - $2x+3$ contains an addition, so it is not a monomial.
-  - $\dfrac{4}{y}$ has a variable in the denominator, so it is not a monomial.
-  - $\dfrac{1}{3}xy^2$ is a product of the number $\dfrac13$ and variables, so it is a monomial.
-
-  So there are three monomials: $5$, $-x^2y$ and $\dfrac{1}{3}xy^2$.
-  :::
-
-[[P12·63f1]]
-Next, we simplify a monomial and read off its coefficient, variable part and degree.
-
-  :::example Simplifying a monomial
-  Simplify $A=4x\cdot\dfrac12y\cdot x^2y$, then give the coefficient, the variable part and the degree of $A$.
-
-  **Solution.** Group the numbers, then group each variable, using $x\cdot x^2=x^{1+2}$ and $y\cdot y=y^{1+1}$:
-
-  $$A=\left(4\cdot\frac12\right)\cdot(x\cdot x^2)\cdot(y\cdot y)=2x^3y^2.$$
-
-  So $A=2x^3y^2$ has coefficient $2$, variable part $x^3y^2$ and degree $3+2=5$.
-  :::
-
-[[P13·ef80]]
-Now we read the coefficient and degree of some monomials already in simplest form.
-
-  :::example Coefficient and degree
-  Find the coefficient and the degree of the monomials $-7x^2y$, $\dfrac34x^4$ and $xy^2z$.
-
-  **Solution.** For each monomial, the number in front is the coefficient, and we add the exponents to get the degree. Note that $xy^2z$ has no number written in front, so its coefficient is $1$:
-
-  | Monomial | Coefficient | Degree |
-  |---|---|---|
-  | $-7x^2y$ | $-7$ | $2+1=3$ |
-  | $\dfrac34x^4$ | $\dfrac34$ | $4$ |
-  | $xy^2z$ | $1$ | $1+2+1=4$ |
-  :::
-
-[[P14·49a1]]
-We move on to like monomials.
-
-  :::example Like monomials, addition and subtraction
-  Of the monomials $2xy^2$, $-xy^2$, $3x^2y$, $5y^2x$, which are like $xy^2$? Find the sum of those monomials.
-
-  **Solution.** Compare the variable parts. We have $5y^2x=5xy^2$ because multiplication is commutative. The variable part of $3x^2y$ is $x^2y$, which is different from $xy^2$.
-
-  So the three monomials $2xy^2$, $-xy^2$, $5y^2x$ are like $xy^2$. Add the coefficients and keep the variable part:
-
-  $$2xy^2+(-xy^2)+5xy^2=(2-1+5)xy^2=6xy^2.$$
-
-  So the sum is $6xy^2$.
-  :::
-
-[[P15·65d6]]
-Multiplication, on the other hand, does not need like monomials.
-
-  :::example Multiplying two monomials
-  Work out $(-3x^2y)\cdot(2xy^3)$ and give the degree of the result.
-
-  **Solution.** Multiply the coefficients, then multiply each variable by adding its exponents ($x$ has $2+1$, $y$ has $1+3$):
-
-  $$(-3x^2y)\cdot(2xy^3)=(-3\cdot2)\cdot x^{2+1}\cdot y^{1+3}=-6x^3y^4.$$
-
-  So the result is $-6x^3y^4$, of degree $3+4=7$.
-  :::
-
-[[P16·4a6f]]
-Last, we use monomials in the real-life problem from the start of the lesson.
-
-  :::example The volume of two kinds of box
-  Box A has a square base with side $x$ cm and height $2x$ cm. Box B is a cube with side $x$ cm. Write the volume of one box A plus the volume of one box B as a monomial, then find its value when $x=4$.
-
-  **Solution.** The volume of box A is $x\cdot x\cdot2x=2x^3$. The volume of box B is $x\cdot x\cdot x=x^3$. These two monomials are like monomials, so we add the coefficients:
-
-  $$2x^3+x^3=(2+1)x^3=3x^3.$$
-
-  When $x=4$: $3\cdot4^3=3\cdot64=192$.
-
-  So the total volume is $3x^3$ cm³, which is $192$ cm³ when $x=4$.
-  :::
-
-:::warning Common mistakes
-[[P17·a291]]
-- **Thinking that $x+y$ is a monomial.** Wrong: $x+y$ is a monomial. Why it is wrong: a monomial only has multiplication between numbers and variables, never addition. Right: $x+y$ is not a monomial.
-- **Finding the degree by multiplying the exponents.** Wrong: the degree of $x^2y^3$ is $2\cdot3=6$. Why it is wrong: the degree is the sum of the exponents. Right: $2+3=5$.
-- **Adding the exponents when adding monomials.** Wrong: $3x^2+5x^2=8x^4$. Why it is wrong: when you add the coefficients, the variable part stays the same, just as $3$ packets plus $5$ packets make $8$ packets. Right: $8x^2$. (Try $x=2$: $3\cdot4+5\cdot4=32$, but $8\cdot2^4=128$.)
-- **Multiplying the exponents when multiplying powers.** Wrong: $x^2\cdot x^3=x^6$. Why it is wrong: $x^2\cdot x^3=(x\cdot x)(x\cdot x\cdot x)$ has $5$ factors of $x$. Right: $x^5$.
-:::
-
-## Key terms
-
-  :::terms
-  - monomial | đơn thức
-  - variable | biến
-  - coefficient | hệ số
-  - variable part | phần biến
-  - monomial in its simplest form | đơn thức thu gọn
-  - degree of a monomial | bậc của đơn thức
-  - like terms | đơn thức đồng dạng
-  - power | lũy thừa
-  - exponent (index) | số mũ
-  - constant | hằng số
-  :::
-
-## Summary
-
-[[P18·72cf]]
-- A monomial is a number, a variable, or a product of numbers and variables. An expression with addition, subtraction or a variable in the denominator is not a monomial.
-- A monomial in simplest form $ax^my^n$ has coefficient $a$, variable part $x^my^n$, and degree equal to the sum of the exponents $m+n$.
-- Two monomials are like monomials if their coefficients are non-zero and they have the same variable part. To add or subtract them, add or subtract the coefficients and keep the variable part.
-- To multiply two monomials, multiply the coefficients together and the variable parts together (adding the exponents of the same variable).
-- You can check by replacing the variables with a small number, for example $x=2$, and comparing the two sides.
-
-## Practice
-
-[[P19·e420]]
-Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
-
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Challenge
    (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-## Mini test
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
 
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Phần 2. Tự luận (6 điểm)
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g5/g5-practice-paper-1 – BẢN TIẾNG ANH ########
+---
+title: End-of-primary practice paper 1
+description: A 40-minute, 10-mark practice paper with 8 multiple-choice and 4 written questions covering the whole grade 5 course, to get you ready for grade 6.
+minutes: 40
+type: exam
+---
+
+[[P1·9f8a]]
+This paper takes $40$ minutes and is worth $10$ marks. Print it (or copy it into your exercise book) and do it on paper first. Then open each solution to mark yourself, and revise the topics you got wrong.
+
+## Part 1. Multiple choice (4 marks)
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Part 2. Written answers (6 marks)
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 

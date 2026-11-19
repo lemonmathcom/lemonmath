@@ -1,0 +1,472 @@
+######################################################################
+TÀI KHOẢN: Lemonmath.com   |   FILE: Lemonmath.com-12-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath.com-12-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Lemonmath.com-12-GV
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g4/basic-property-of-fractions
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Lemonmath.com-12-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Lemonmath.com-12-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Lemonmath.com-12-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g4/basic-property-of-fractions – BẢN TIẾNG VIỆT ########
+---
+title: Tính chất cơ bản của phân số
+description: Em học: nhân hoặc chia cả tử số và mẫu số với cùng một số khác 0 thì được phân số mới bằng phân số đã cho.
+minutes: 15
+---
+
+  :::goals
+  - Hiểu hai phân số bằng nhau có thể có tử số và mẫu số khác nhau.
+  - Nhân hoặc chia cả tử số và mẫu số với cùng một số khác $0$ để được phân số bằng phân số đã cho.
+  - Tìm số còn thiếu trong hai phân số bằng nhau.
+  :::
+
+[[P1·e665]]
+Lan ăn $\dfrac{1}{2}$ chiếc bánh. Nam ăn $\dfrac{2}{4}$ chiếc bánh cùng loại. Hai bạn ai ăn nhiều hơn?
+
+[[P2·96ec]]
+Hai phân số trông khác nhau, vì tử số và mẫu số đều khác. Nhưng có thể phần bánh hai bạn ăn bằng nhau. Bài này giúp em biết khi nào hai phân số bằng nhau.
+
+## Cùng khám phá
+
+[[P3·7362]]
+Ta cắt chiếc bánh từng bước.
+
+[[P4·e835]]
+- Chiếc bánh cắt đôi: Lan ăn $1$ phần trong $2$ phần, tức $\dfrac{1}{2}$.
+- Cắt mỗi nửa thành $2$ phần nhỏ bằng nhau. Chiếc bánh có $4$ phần, và phần Lan ăn gồm $2$ phần nhỏ, tức $\dfrac{2}{4}$.
+- Cắt tiếp mỗi phần nhỏ thành $2$: chiếc bánh có $8$ phần, phần Lan ăn gồm $4$ phần, tức $\dfrac{4}{8}$.
+
+[[P5·f3b6]]
+Chiếc bánh và phần Lan ăn vẫn như cũ, chỉ cách cắt khác nhau. Vậy $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$. Hai bạn ăn bằng nhau.
+
+[[P6·77a2]]
+Ta thấy tử số và mẫu số cùng nhân với $2$: $1\times2=2$ và $2\times2=4$.
+
+:::graph Trên trục số: 1/2, 2/4 và 4/8 là cùng một điểm
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Tính chất cơ bản của phân số
+  Nếu nhân cả tử số và mẫu số của một phân số với cùng một số tự nhiên khác $0$ thì được một phân số bằng phân số đã cho.
+
+  Nếu chia cả tử số và mẫu số của một phân số cho cùng một số tự nhiên khác $0$ (chia hết cả hai) thì cũng được một phân số bằng phân số đã cho.
+  :::
+
+[[P7·2e48]]
+Điều này đúng vì nhân cả hai số với $2$ nghĩa là cắt mỗi phần thành $2$ phần nhỏ bằng nhau: số phần cả bánh gấp $2$, số phần đã lấy cũng gấp $2$, còn phần bánh đã lấy không đổi.
+
+## Ví dụ
+
+[[P8·6384]]
+Ta bắt đầu với phép nhân.
+
+  :::example Nhân tử số và mẫu số
+  Tìm số thích hợp: $\dfrac{2}{3}=\dfrac{?}{6}$.
+
+  **Lời giải.** Mẫu số $3$ thành $6$ nên đã nhân với $2$, vì $3\times2=6$. Ta nhân cả tử số với $2$:
+  $$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6}.$$
+  Vậy số cần tìm là $4$.
+  :::
+
+[[P9·0012]]
+Bây giờ số nhân khó thấy hơn.
+
+  :::example Tìm số nhân
+  Tìm số thích hợp: $\dfrac{3}{5}=\dfrac{?}{20}$.
+
+  **Lời giải.** Ta tìm số nhân bằng cách hỏi: $5$ nhân mấy được $20$? Đó là $20:5=4$. Nhân cả tử số với $4$:
+  $$\frac{3}{5}=\frac{3\times4}{5\times4}=\frac{12}{20}.$$
+  Vậy số cần tìm là $12$.
+
+  **Kiểm tra.** $12:4=3$ và $20:4=5$, đúng là $\dfrac{3}{5}$.
+  :::
+
+[[P10·fb76]]
+Ta cũng có thể chia, nhưng phải chia hết cả hai số.
+
+  :::example Chia tử số và mẫu số
+  Tìm số thích hợp: $\dfrac{6}{8}=\dfrac{?}{4}$.
+
+  **Lời giải.** Mẫu số $8$ thành $4$ nên đã chia cho $2$, vì $8:2=4$. Chia cả tử số cho $2$:
+  $$\frac{6}{8}=\frac{6:2}{8:2}=\frac{3}{4}.$$
+  Vậy số cần tìm là $3$.
+  :::
+
+[[P11·85ac]]
+Bây giờ em dùng tính chất này để trả lời một câu hỏi trong cuộc sống.
+
+  :::example Ai ăn nhiều hơn?
+  Lan ăn $\dfrac{1}{2}$ chiếc bánh, Hà ăn $\dfrac{3}{6}$ chiếc bánh cùng loại. Hai bạn có ăn bằng nhau không?
+
+  **Lời giải.** Ta đưa $\dfrac{3}{6}$ về mẫu số nhỏ hơn bằng cách chia cả tử số và mẫu số cho $3$:
+  $$\frac{3}{6}=\frac{3:3}{6:3}=\frac{1}{2}.$$
+  Vậy $\dfrac{3}{6}=\dfrac{1}{2}$, hai bạn ăn bằng nhau.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·6a26]]
+- **Chỉ nhân tử số.** Sai: $\dfrac{2}{3}=\dfrac{4}{3}$. Vì sao sai: phải nhân cả tử số và mẫu số với cùng một số. Đúng: $\dfrac{2}{3}=\dfrac{4}{6}$.
+- **Cộng thay vì nhân.** Sai: $\dfrac{1}{2}=\dfrac{2}{3}$ (cùng cộng $1$). Vì sao sai: tính chất cơ bản chỉ nói về phép nhân và phép chia. Đúng: $\dfrac{1}{2}=\dfrac{2}{4}$.
+- **Chia không hết.** Sai: chia cả $5$ và $8$ cho $2$. Vì sao sai: $5$ không chia hết cho $2$. Đúng: chỉ chia khi cả hai số cùng chia hết cho số đó.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - tính chất cơ bản của phân số | basic property of fractions
+  - phân số bằng nhau | equivalent fractions
+  - tử số | numerator
+  - mẫu số | denominator
+  - nhân | multiply
+  - chia hết | divide exactly
+  - cùng một số | the same number
+  :::
+
+## Tóm tắt
+
+[[P13·a615]]
+- Nhân cả tử số và mẫu số với cùng một số khác $0$ thì được phân số bằng phân số đã cho.
+- Chia cả tử số và mẫu số cho cùng một số khác $0$ (chia hết cả hai) cũng vậy.
+- Ví dụ: $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$.
+- Tìm số còn thiếu: tìm số nhân hoặc số chia từ hai mẫu số.
+- Hai phân số bằng nhau cùng biểu diễn một điểm trên trục số.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/basic-property-of-fractions – BẢN TIẾNG ANH ########
+---
+title: The basic property of fractions
+description: Learn that multiplying or dividing both the numerator and denominator by the same non-zero number gives a fraction equal to the one we started with.
+minutes: 15
+---
+
+  :::goals
+  - Understand that equal fractions can have different numerators and denominators.
+  - Multiply or divide both the numerator and denominator by the same non-zero number to get an equal fraction.
+  - Find a missing number in two equal fractions.
+  :::
+
+[[P1·4cd7]]
+Lan eats $\dfrac{1}{2}$ of a cake. Nam eats $\dfrac{2}{4}$ of the same kind of cake. Who eats more?
+
+[[P2·cdc7]]
+The two fractions look different, because both the numerators and the denominators are different. But the two children may have eaten the same amount. This lesson helps you see when two fractions are equal.
+
+## Let's explore
+
+[[P3·fabe]]
+We cut the cake step by step.
+
+[[P4·4235]]
+- The cake is cut in half: Lan eats $1$ part out of $2$, which is $\dfrac{1}{2}$.
+- Cut each half into $2$ equal smaller pieces. The cake has $4$ pieces, and Lan's part is $2$ small pieces, which is $\dfrac{2}{4}$.
+- Cut each small piece into $2$ again: the cake has $8$ pieces and Lan's part is $4$ pieces, which is $\dfrac{4}{8}$.
+
+[[P5·df7c]]
+The cake and Lan's part have not changed, only the way we cut it. So $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$. The two children ate the same amount.
+
+[[P6·cbe0]]
+We can see that the numerator and denominator are both multiplied by $2$: $1\times2=2$ and $2\times2=4$.
+
+:::graph On the number line: 1/2, 2/4 and 4/8 are the same point
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem The basic property of fractions
+  If we multiply both the numerator and the denominator of a fraction by the same non-zero whole number, we get a fraction equal to the one we started with.
+
+  If we divide both the numerator and the denominator by the same non-zero whole number (dividing both exactly), we also get an equal fraction.
+  :::
+
+[[P7·86b5]]
+This is true because multiplying both numbers by $2$ means cutting every part into $2$ equal smaller parts: the number of parts in the whole doubles, the number of parts taken doubles too, and the amount taken does not change.
+
+## Examples
+
+[[P8·65ae]]
+We start with multiplying.
+
+  :::example Multiplying the numerator and denominator
+  Find the missing number: $\dfrac{2}{3}=\dfrac{?}{6}$.
+
+  **Solution.** The denominator $3$ became $6$, so it was multiplied by $2$, because $3\times2=6$. We multiply the numerator by $2$ as well:
+  $$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6}.$$
+  So the missing number is $4$.
+  :::
+
+[[P9·c0a7]]
+Now the multiplier is harder to see.
+
+  :::example Finding the multiplier
+  Find the missing number: $\dfrac{3}{5}=\dfrac{?}{20}$.
+
+  **Solution.** To find the multiplier, ask: $5$ times what makes $20$? That is $20\div5=4$. Multiply the numerator by $4$:
+  $$\frac{3}{5}=\frac{3\times4}{5\times4}=\frac{12}{20}.$$
+  So the missing number is $12$.
+
+  **Check.** $12\div4=3$ and $20\div4=5$, which gives $\dfrac{3}{5}$. Correct.
+  :::
+
+[[P10·8750]]
+We can also divide, but both numbers must divide exactly.
+
+  :::example Dividing the numerator and denominator
+  Find the missing number: $\dfrac{6}{8}=\dfrac{?}{4}$.
+
+  **Solution.** The denominator $8$ became $4$, so it was divided by $2$, because $8\div2=4$. Divide the numerator by $2$ as well:
+  $$\frac{6}{8}=\frac{6\div2}{8\div2}=\frac{3}{4}.$$
+  So the missing number is $3$.
+  :::
+
+[[P11·0b8e]]
+Now we use the property to answer a question from everyday life.
+
+  :::example Who eats more?
+  Lan eats $\dfrac{1}{2}$ of a cake and Ha eats $\dfrac{3}{6}$ of the same kind of cake. Do they eat the same amount?
+
+  **Solution.** We bring $\dfrac{3}{6}$ to a smaller denominator by dividing both the numerator and the denominator by $3$:
+  $$\frac{3}{6}=\frac{3\div3}{6\div3}=\frac{1}{2}.$$
+  So $\dfrac{3}{6}=\dfrac{1}{2}$, and the two children eat the same amount.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·1f25]]
+- **Multiplying only the numerator.** Wrong: $\dfrac{2}{3}=\dfrac{4}{3}$. Why it is wrong: both the numerator and the denominator must be multiplied by the same number. Right: $\dfrac{2}{3}=\dfrac{4}{6}$.
+- **Adding instead of multiplying.** Wrong: $\dfrac{1}{2}=\dfrac{2}{3}$ (adding $1$ to both). Why it is wrong: the basic property is only about multiplying and dividing. Right: $\dfrac{1}{2}=\dfrac{2}{4}$.
+- **Dividing when it does not divide exactly.** Wrong: dividing both $5$ and $8$ by $2$. Why it is wrong: $5$ does not divide exactly by $2$. Right: divide only when both numbers divide exactly by that number.
+:::
+
+## Key terms
+
+  :::terms
+  - basic property of fractions | tính chất cơ bản của phân số
+  - equivalent fractions | phân số bằng nhau
+  - numerator | tử số
+  - denominator | mẫu số
+  - multiply | nhân
+  - divide exactly | chia hết
+  - the same number | cùng một số
+  :::
+
+## Summary
+
+[[P13·ccd4]]
+- Multiplying both the numerator and the denominator by the same non-zero number gives an equal fraction.
+- Dividing both by the same non-zero number (exactly) also does.
+- Example: $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$.
+- To find a missing number, find the multiplier or divisor from the two denominators.
+- Equal fractions show the same point on a number line.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

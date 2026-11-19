@@ -1,0 +1,627 @@
+######################################################################
+TÀI KHOẢN: Nguyenchanh2358   |   FILE: Nguyenchanh2358-14-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Nguyenchanh2358-14-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Nguyenchanh2358-14-LG
+Người làm: tài khoản Nguyenchanh2358. Gói này có 20 bài tập thuộc 2 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Nguyenchanh2358-14-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/2). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Nguyenchanh2358-14-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g5/speed-uniform-motion (10 bài tập)
+- g5/square-kilometres-hectares (10 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g5/speed-uniform-motion
+Bài học: Vận tốc của một chuyển động đều. Quãng đường, thời gian của một chuyển động đều / Speed in uniform motion. Distance and time in uniform motion
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một xe máy đi $135$ km hết $3$ giờ. Tính vận tốc của xe máy.
+
+[LỜI GIẢI CŨ – VI]
+Vận tốc của xe máy là:
+$$135:3=45\ (\text{km/giờ}).$$
+**Đáp số.** $45$ km/giờ.
+
+[ĐỀ – EN]
+A motorbike travels $135$ km in $3$ hours. Find its speed.
+
+[LỜI GIẢI CŨ – EN]
+The speed of the motorbike is:
+$$135\div3=45\ (\text{km/h}).$$
+**Answer.** $45$ km/h.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Một con ốc sên bò được $3$ m trong $5$ phút. Tính vận tốc của ốc sên theo m/phút.
+
+[LỜI GIẢI CŨ – VI]
+$$v=3:5=0{,}6\ (\text{m/phút}).$$
+**Đáp số.** $0{,}6$ m/phút.
+
+[ĐỀ – EN]
+A snail crawls $3$ m in $5$ minutes. Find the snail's speed in m/min.
+
+[LỜI GIẢI CŨ – EN]
+$$v=3\div5=0.6\ (\text{m/min}).$$
+**Answer.** $0.6$ m/min.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Một ô tô đi với vận tốc $54$ km/giờ trong $2{,}5$ giờ. Tính quãng đường ô tô đi được.
+
+[LỜI GIẢI CŨ – VI]
+Quãng đường ô tô đi được là:
+$$54\times2{,}5=135\ (\text{km}).$$
+**Đáp số.** $135$ km.
+
+[ĐỀ – EN]
+A car travels at $54$ km/h for $2.5$ hours. Find the distance it travels.
+
+[LỜI GIẢI CŨ – EN]
+The distance the car travels is:
+$$54\times2.5=135\ (\text{km}).$$
+**Answer.** $135$ km.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Một người đi bộ với vận tốc $5$ km/giờ. Hỏi người đó đi quãng đường $12$ km hết bao lâu? (Viết kết quả theo giờ và phút.)
+
+[LỜI GIẢI CŨ – VI]
+Thời gian đi là $12:5=2{,}4$ (giờ). Vì $0{,}4\times60=24$ nên $2{,}4$ giờ $=2$ giờ $24$ phút.
+
+**Đáp số.** $2$ giờ $24$ phút.
+
+[ĐỀ – EN]
+A walker goes at $5$ km/h. How long does the walker take to cover $12$ km? (Give the answer in hours and minutes.)
+
+[LỜI GIẢI CŨ – EN]
+The time is $12\div5=2.4$ (hours). Since $0.4\times60=24$, $2.4$ hours $=2$ hours $24$ minutes.
+
+**Answer.** $2$ hours $24$ minutes.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một tàu cá chạy với vận tốc $18$ km/giờ từ $6$ giờ đến $8$ giờ $30$ phút. Hỏi tàu cá chạy được bao nhiêu ki-lô-mét?
+
+[LỜI GIẢI CŨ – VI]
+Thời gian chạy là $8$ giờ $30$ phút $-$ $6$ giờ $=2$ giờ $30$ phút $=2{,}5$ giờ. Quãng đường là:
+$$18\times2{,}5=45\ (\text{km}).$$
+**Đáp số.** $45$ km.
+
+[ĐỀ – EN]
+A fishing boat travels at $18$ km/h from $6{:}00$ to $8{:}30$. How many kilometres does the boat travel?
+
+[LỜI GIẢI CŨ – EN]
+The travelling time is $8$ h $30$ min $-$ $6$ h $=2$ h $30$ min $=2.5$ h. The distance is:
+$$18\times2.5=45\ (\text{km}).$$
+**Answer.** $45$ km.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một người đi xe máy đi quãng đường $100$ km hết $2$ giờ $30$ phút. Tính vận tốc của người đó.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $2$ giờ $30$ phút $=2{,}5$ giờ. Vận tốc là:
+$$100:2{,}5=40\ (\text{km/giờ}).$$
+**Đáp số.** $40$ km/giờ.
+
+[ĐỀ – EN]
+A motorcyclist covers $100$ km in $2$ hours $30$ minutes. Find the speed of the motorcyclist.
+
+[LỜI GIẢI CŨ – EN]
+We have $2$ h $30$ min $=2.5$ h. The speed is:
+$$100\div2.5=40\ (\text{km/h}).$$
+**Answer.** $40$ km/h.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài cộng, trừ số đo thời gian. Một xe khởi hành lúc $7$ giờ $45$ phút, đi $2$ giờ $30$ phút với vận tốc $48$ km/giờ thì đến B. Tính quãng đường AB và cho biết xe đến B lúc mấy giờ.
+
+[LỜI GIẢI CŨ – VI]
+Quãng đường AB là $48\times2{,}5=120$ (km). Xe đến B lúc:
+$$7\text{ giờ }45\text{ phút}+2\text{ giờ }30\text{ phút}=9\text{ giờ }75\text{ phút}=10\text{ giờ }15\text{ phút}.$$
+**Đáp số.** $120$ km; $10$ giờ $15$ phút.
+
+[ĐỀ – EN]
+Remember the lesson on adding and subtracting times. A vehicle leaves at $7{:}45$ and travels for $2$ h $30$ min at $48$ km/h to reach B. Find the distance AB and the time of arrival at B.
+
+[LỜI GIẢI CŨ – EN]
+The distance AB is $48\times2.5=120$ (km). The vehicle arrives at:
+$$7\text{ h }45\text{ min}+2\text{ h }30\text{ min}=9\text{ h }75\text{ min}=10\text{ h }15\text{ min}.$$
+**Answer.** $120$ km; $10{:}15$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Xe A đi $120$ km hết $3$ giờ. Xe B đi $150$ km hết $4$ giờ. Xe nào chạy nhanh hơn và nhanh hơn bao nhiêu ki-lô-mét mỗi giờ?
+
+[LỜI GIẢI CŨ – VI]
+Vận tốc xe A là $120:3=40$ (km/giờ). Vận tốc xe B là $150:4=37{,}5$ (km/giờ). Vì $40>37{,}5$ nên xe A nhanh hơn, và hơn $40-37{,}5=2{,}5$ (km/giờ).
+
+**Đáp số.** Xe A nhanh hơn, hơn $2{,}5$ km/giờ.
+
+[ĐỀ – EN]
+Car A travels $120$ km in $3$ hours. Car B travels $150$ km in $4$ hours. Which car is faster, and by how many kilometres per hour?
+
+[LỜI GIẢI CŨ – EN]
+The speed of car A is $120\div3=40$ (km/h). The speed of car B is $150\div4=37.5$ (km/h). Since $40>37.5$, car A is faster, by $40-37.5=2.5$ (km/h).
+
+**Answer.** Car A is faster, by $2.5$ km/h.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+An đi xe đạp từ nhà đến trường với vận tốc $12$ km/giờ và mất $20$ phút. Bình đi bộ từ nhà đến trường (cùng quãng đường) với vận tốc $4$ km/giờ. Hỏi Bình đi mất bao lâu?
+
+[LỜI GIẢI CŨ – VI]
+Vì $20$ phút $=\dfrac13$ giờ nên quãng đường từ nhà đến trường là:
+$$12\times\frac13=4\ (\text{km}).$$
+Thời gian Bình đi là $4:4=1$ (giờ).
+
+**Đáp số.** $1$ giờ.
+
+[ĐỀ – EN]
+An cycles from home to school at $12$ km/h and takes $20$ minutes. Binh walks from home to school (the same distance) at $4$ km/h. How long does Binh take?
+
+[LỜI GIẢI CŨ – EN]
+Since $20$ min $=\dfrac13$ hour, the distance from home to school is:
+$$12\times\frac13=4\ (\text{km}).$$
+Binh's time is $4\div4=1$ (hour).
+
+**Answer.** $1$ hour.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một bạn chạy với vận tốc $5$ m/giây. Nếu giữ nguyên vận tốc đó, một giờ bạn chạy được bao nhiêu ki-lô-mét? Vậy $5$ m/giây bằng bao nhiêu km/giờ?
+
+[LỜI GIẢI CŨ – VI]
+Trong $1$ giờ $=3600$ giây, bạn chạy được $5\times3600=18\,000$ (m) $=18$ (km). Vậy $5$ m/giây $=18$ km/giờ.
+
+**Đáp số.** $18$ km; $5$ m/giây $=18$ km/giờ.
+
+[ĐỀ – EN]
+A girl runs at $5$ m/s. If she keeps this speed, how many kilometres does she run in one hour? So how many km/h is $5$ m/s?
+
+[LỜI GIẢI CŨ – EN]
+In $1$ hour $=3600$ seconds she runs $5\times3600=18\,000$ (m) $=18$ (km). So $5$ m/s $=18$ km/h.
+
+**Answer.** $18$ km; $5$ m/s $=18$ km/h.
+
+
+######################################################################
+@@@ g5/square-kilometres-hectares
+Bài học: Ki-lô-mét vuông. Héc-ta. Các đơn vị đo diện tích / Square kilometres. Hectares. Units of area
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Số?
+a) $7\ \text{km}^2=?\ \text{m}^2$; b) $12\,000\,000\ \text{m}^2=?\ \text{km}^2$; c) $4\ \text{km}^2=?$ ha; d) $900$ ha $=?\ \text{km}^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $7\times1\,000\,000=7\,000\,000\ \text{m}^2$.
+
+b) $12\,000\,000:1\,000\,000=12\ \text{km}^2$.
+
+c) $4\times100=400$ ha.
+
+d) $900:100=9\ \text{km}^2$.
+
+**Đáp số.** a) $7\,000\,000$; b) $12$; c) $400$; d) $9$.
+
+[ĐỀ – EN]
+Find the missing numbers:
+a) $7\ \text{km}^2=?\ \text{m}^2$; b) $12\,000\,000\ \text{m}^2=?\ \text{km}^2$; c) $4\ \text{km}^2=?$ ha; d) $900$ ha $=?\ \text{km}^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $7\times1\,000\,000=7\,000\,000\ \text{m}^2$.
+
+b) $12\,000\,000\div1\,000\,000=12\ \text{km}^2$.
+
+c) $4\times100=400$ ha.
+
+d) $900\div100=9\ \text{km}^2$.
+
+**Answer.** a) $7\,000\,000$; b) $12$; c) $400$; d) $9$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Số?
+a) $6$ ha $=?\ \text{m}^2$; b) $80\,000\ \text{m}^2=?$ ha; c) $3{,}5$ ha $=?\ \text{m}^2$; d) $0{,}25$ ha $=?\ \text{m}^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $6\times10\,000=60\,000\ \text{m}^2$.
+
+b) $80\,000:10\,000=8$ ha.
+
+c) $3{,}5$ ha $=3$ ha $+0{,}5$ ha $=30\,000+5000=35\,000\ \text{m}^2$.
+
+d) $0{,}25$ ha $=\dfrac{25}{100}$ ha $=\dfrac{25}{100}\times10\,000=2500\ \text{m}^2$.
+
+**Đáp số.** a) $60\,000$; b) $8$; c) $35\,000$; d) $2500$.
+
+[ĐỀ – EN]
+Find the missing numbers:
+a) $6$ ha $=?\ \text{m}^2$; b) $80\,000\ \text{m}^2=?$ ha; c) $3.5$ ha $=?\ \text{m}^2$; d) $0.25$ ha $=?\ \text{m}^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $6\times10\,000=60\,000\ \text{m}^2$.
+
+b) $80\,000\div10\,000=8$ ha.
+
+c) $3.5$ ha $=3$ ha $+0.5$ ha $=30\,000+5000=35\,000\ \text{m}^2$.
+
+d) $0.25$ ha $=\dfrac{25}{100}$ ha $=\dfrac{25}{100}\times10\,000=2500\ \text{m}^2$.
+
+**Answer.** a) $60\,000$; b) $8$; c) $35\,000$; d) $2500$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Số?
+a) $3\ \text{dam}^2=?\ \text{m}^2$; b) $5\ \text{hm}^2=?\ \text{dam}^2$; c) $40\,000\ \text{dm}^2=?\ \text{m}^2$; d) $70\,000\ \text{mm}^2=?\ \text{dm}^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $3\times100=300\ \text{m}^2$.
+
+b) $5\times100=500\ \text{dam}^2$.
+
+c) $40\,000:100=400\ \text{m}^2$.
+
+d) Từ $\text{mm}^2$ lên $\text{dm}^2$ có hai bậc, mỗi bậc chia $100$, nên chia $10\,000$: $70\,000:10\,000=7\ \text{dm}^2$.
+
+**Đáp số.** a) $300$; b) $500$; c) $400$; d) $7$.
+
+[ĐỀ – EN]
+Find the missing numbers:
+a) $3\ \text{dam}^2=?\ \text{m}^2$; b) $5\ \text{hm}^2=?\ \text{dam}^2$; c) $40\,000\ \text{dm}^2=?\ \text{m}^2$; d) $70\,000\ \text{mm}^2=?\ \text{dm}^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $3\times100=300\ \text{m}^2$.
+
+b) $5\times100=500\ \text{dam}^2$.
+
+c) $40\,000\div100=400\ \text{m}^2$.
+
+d) From $\text{mm}^2$ up to $\text{dm}^2$ there are two steps, each dividing by $100$, so we divide by $10\,000$: $70\,000\div10\,000=7\ \text{dm}^2$.
+
+**Answer.** a) $300$; b) $500$; c) $400$; d) $7$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Giả sử một khu bảo tồn hình chữ nhật dài $8$ km và rộng $5$ km. Tính diện tích khu bảo tồn theo ki-lô-mét vuông và theo héc-ta.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích khu bảo tồn là $8\times5=40\ \text{km}^2$.
+
+Đổi ra héc-ta: $40\times100=4000$ ha.
+
+**Đáp số.** $40\ \text{km}^2$, tức là $4000$ ha.
+
+[ĐỀ – EN]
+Suppose a nature reserve is a rectangle $8$ km long and $5$ km wide. Find the area of the reserve in square kilometres and in hectares.
+
+[LỜI GIẢI CŨ – EN]
+The area of the reserve is $8\times5=40\ \text{km}^2$.
+
+Change to hectares: $40\times100=4000$ ha.
+
+**Answer.** $40\ \text{km}^2$, which is $4000$ ha.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giả sử một thửa ruộng hình chữ nhật dài $400$ m, rộng $150$ m. Mỗi héc-ta ruộng thu được $7$ tấn thóc. Hỏi cả thửa ruộng thu được bao nhiêu tấn thóc?
+
+[LỜI GIẢI CŨ – VI]
+Diện tích thửa ruộng là $400\times150=60\,000\ \text{m}^2=6$ ha.
+
+Số tấn thóc thu được là $6\times7=42$ (tấn).
+
+**Đáp số.** $42$ tấn thóc.
+
+[ĐỀ – EN]
+Suppose a field is a rectangle $400$ m long and $150$ m wide. Each hectare of the field produces $7$ tonnes of rice. How many tonnes of rice does the whole field produce?
+
+[LỜI GIẢI CŨ – EN]
+The area of the field is $400\times150=60\,000\ \text{m}^2=6$ ha.
+
+The number of tonnes of rice produced is $6\times7=42$ (tonnes).
+
+**Answer.** $42$ tonnes of rice.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$, $=$ vào chỗ chấm: a) $3$ ha $\ldots\ 30\,000\ \text{m}^2$; b) $5\ \text{km}^2\ \ldots\ 450$ ha; c) $2500\ \text{m}^2\ \ldots\ 0{,}3$ ha.
+
+[LỜI GIẢI CŨ – VI]
+a) $3$ ha $=30\,000\ \text{m}^2$, nên điền dấu $=$.
+
+b) $5\ \text{km}^2=500$ ha. Vì $500>450$ nên điền dấu $>$.
+
+c) $0{,}3$ ha $=3000\ \text{m}^2$. Vì $2500<3000$ nên điền dấu $<$.
+
+**Đáp số.** a) $=$; b) $>$; c) $<$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the gap: a) $3$ ha $\ldots\ 30\,000\ \text{m}^2$; b) $5\ \text{km}^2\ \ldots\ 450$ ha; c) $2500\ \text{m}^2\ \ldots\ 0.3$ ha.
+
+[LỜI GIẢI CŨ – EN]
+a) $3$ ha $=30\,000\ \text{m}^2$, so write $=$.
+
+b) $5\ \text{km}^2=500$ ha. Since $500>450$, write $>$.
+
+c) $0.3$ ha $=3000\ \text{m}^2$. Since $2500<3000$, write $<$.
+
+**Answer.** a) $=$; b) $>$; c) $<$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử một xã có ba khu đất rộng $2{,}5$ ha, $15\,000\ \text{m}^2$ và $0{,}4$ ha. Hãy sắp xếp diện tích ba khu đất từ bé đến lớn.
+
+[LỜI GIẢI CŨ – VI]
+$2{,}5$ ha $=25\,000\ \text{m}^2$ và $0{,}4$ ha $=4000\ \text{m}^2$. Ba diện tích là $25\,000$; $15\,000$; $4000$ (mét vuông).
+
+Vì $4000<15\,000<25\,000$ nên thứ tự từ bé đến lớn là $0{,}4$ ha; $15\,000\ \text{m}^2$; $2{,}5$ ha.
+
+**Đáp số.** $0{,}4$ ha $<15\,000\ \text{m}^2<2{,}5$ ha.
+
+[ĐỀ – EN]
+Suppose a village has three plots of land of areas $2.5$ ha, $15\,000\ \text{m}^2$ and $0.4$ ha. Put the areas of the three plots in order from least to greatest.
+
+[LỜI GIẢI CŨ – EN]
+$2.5$ ha $=25\,000\ \text{m}^2$ and $0.4$ ha $=4000\ \text{m}^2$. The three areas are $25\,000$; $15\,000$; $4000$ (square metres).
+
+Since $4000<15\,000<25\,000$, the order from least to greatest is $0.4$ ha; $15\,000\ \text{m}^2$; $2.5$ ha.
+
+**Answer.** $0.4$ ha $<15\,000\ \text{m}^2<2.5$ ha.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài ôn tập về diện tích hình chữ nhật và hình vuông. Một mảnh đất hình vuông có cạnh $200$ m. Tính diện tích mảnh đất theo mét vuông và theo héc-ta.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích mảnh đất là $200\times200=40\,000\ \text{m}^2$.
+
+Đổi ra héc-ta: $40\,000:10\,000=4$ ha.
+
+**Đáp số.** $40\,000\ \text{m}^2$, tức là $4$ ha.
+
+[ĐỀ – EN]
+Remember the review lesson on the area of rectangles and squares. A square plot of land has side $200$ m. Find the area of the plot in square metres and in hectares.
+
+[LỜI GIẢI CŨ – EN]
+The area of the plot is $200\times200=40\,000\ \text{m}^2$.
+
+Change to hectares: $40\,000\div10\,000=4$ ha.
+
+**Answer.** $40\,000\ \text{m}^2$, which is $4$ ha.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Giả sử một huyện có $1200$ ha đất trồng lúa và $8\ \text{km}^2$ đất rừng. Hỏi tổng diện tích đất trồng lúa và đất rừng của huyện là bao nhiêu héc-ta?
+
+[LỜI GIẢI CŨ – VI]
+Đất rừng có diện tích $8\ \text{km}^2=8\times100=800$ ha.
+
+Tổng diện tích là $1200+800=2000$ (ha).
+
+**Đáp số.** $2000$ ha.
+
+[ĐỀ – EN]
+Suppose a district has $1200$ ha of rice fields and $8\ \text{km}^2$ of forest. How many hectares are the rice fields and the forest altogether?
+
+[LỜI GIẢI CŨ – EN]
+The forest has area $8\ \text{km}^2=8\times100=800$ ha.
+
+The total area is $1200+800=2000$ (ha).
+
+**Answer.** $2000$ ha.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một hình chữ nhật có diện tích $1$ ha, chiều dài gấp $4$ lần chiều rộng. Tính chu vi hình chữ nhật đó theo mét.
+
+[LỜI GIẢI CŨ – VI]
+Hình chữ nhật chia được thành $4$ hình vuông bằng nhau, mỗi hình vuông có diện tích $10\,000:4=2500\ \text{m}^2$. Vì $50\times50=2500$ nên cạnh hình vuông là $50$ m.
+
+Chiều rộng là $50$ m, chiều dài là $50\times4=200$ m. Chu vi là $(50+200)\times2=500$ (m).
+
+**Đáp số.** $500$ m.
+
+[ĐỀ – EN]
+A rectangle has area $1$ ha and its length is $4$ times its width. Find the perimeter of the rectangle in metres.
+
+[LỜI GIẢI CŨ – EN]
+The rectangle can be cut into $4$ equal squares, each with area $10\,000\div4=2500\ \text{m}^2$. Since $50\times50=2500$, the side of a square is $50$ m.
+
+The width is $50$ m and the length is $50\times4=200$ m. The perimeter is $(50+200)\times2=500$ (m).
+
+**Answer.** $500$ m.
+
+
+===== HẾT FILE Nguyenchanh2358-14-LG =====

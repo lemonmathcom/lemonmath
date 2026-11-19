@@ -6,7 +6,7 @@ Kết quả: file Vinax.vn-12-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Vinax.vn-12-LG
-Người làm: tài khoản Vinax.vn. Gói này có 44 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Vinax.vn. Gói này có 25 bài tập thuộc 3 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Vinax.vn-12-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/3). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Vinax.vn-12-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,979 +189,504 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g5/surface-area-of-a-cube (8 bài tập)
-- g5/surface-area-of-a-cuboid (8 bài tập)
-- g5/units-of-time (10 bài tập)
-- g5/using-a-calculator (9 bài tập)
-- g5/volume-of-a-cube (9 bài tập)
+- g4/unitary-method (8 bài tập)
+- g4/what-is-a-fraction (8 bài tập)
+- g4/yen-ta-tonnes (9 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g5/surface-area-of-a-cube
-Bài học: Diện tích xung quanh và diện tích toàn phần của hình lập phương / Lateral and total surface area of a cube
+@@@ g4/unitary-method
+Bài học: Bài toán liên quan đến rút về đơn vị / Problems using the unitary method
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Tính diện tích xung quanh của hình lập phương có cạnh $4$ cm.
+Mua $3$ quyển vở hết $18\,000$ đồng. Hỏi một quyển vở giá bao nhiêu tiền?
 
 [LỜI GIẢI CŨ – VI]
-Diện tích một mặt là $4\times4=16\ (\text{cm}^2)$. Diện tích xung quanh là:
-$$16\times4=64\ (\text{cm}^2).$$
+$18\,000:3=6\,000$ (đồng).
 
-**Đáp số.** $64\ \text{cm}^2$.
+**Đáp số.** $6\,000$ đồng.
 
 [ĐỀ – EN]
-Find the lateral surface area of a cube with edge $4$ cm.
+$3$ exercise books cost $18\,000$ dong. How much does one book cost?
 
 [LỜI GIẢI CŨ – EN]
-The area of one face is $4\times4=16\ (\text{cm}^2)$. The lateral surface area is:
-$$16\times4=64\ (\text{cm}^2).$$
+$18\,000\div3=6\,000$ (dong).
 
-**Answer.** $64\ \text{cm}^2$.
+**Answer.** $6\,000$ dong.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Tính diện tích toàn phần của hình lập phương có cạnh $7$ cm.
+$4$ can dầu như nhau chứa $28$ lít. Hỏi $6$ can dầu như thế chứa bao nhiêu lít?
 
 [LỜI GIẢI CŨ – VI]
-Diện tích một mặt là $7\times7=49\ (\text{cm}^2)$. Diện tích toàn phần là:
-$$49\times6=294\ (\text{cm}^2).$$
+$28:4=7$ (lít), $7\times6=42$ (lít).
 
-**Đáp số.** $294\ \text{cm}^2$.
+**Đáp số.** $42$ lít.
 
 [ĐỀ – EN]
-Find the total surface area of a cube with edge $7$ cm.
+$4$ identical cans of oil hold $28$ litres. How many litres do $6$ such cans hold?
 
 [LỜI GIẢI CŨ – EN]
-The area of one face is $7\times7=49\ (\text{cm}^2)$. The total surface area is:
-$$49\times6=294\ (\text{cm}^2).$$
+$28\div4=7$ (litres), $7\times6=42$ (litres).
 
-**Answer.** $294\ \text{cm}^2$.
+**Answer.** $42$ litres.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Một hình lập phương có cạnh $0{,}5$ m. Tính:
-
-a) diện tích xung quanh;
-
-b) diện tích toàn phần.
+Em hãy nhớ lại bài trước: tìm số trung bình cộng của $12$, $18$ và $15$. Một bạn đọc mỗi ngày số trang bằng số đó. Hỏi $4$ ngày bạn đó đọc được bao nhiêu trang?
 
 [LỜI GIẢI CŨ – VI]
-Diện tích một mặt là $0{,}5\times0{,}5=0{,}25\ (\text{m}^2)$.
+$(12+18+15):3=45:3=15$ (trang mỗi ngày). $15\times4=60$ (trang).
 
-a) $S_{\text{xq}}=0{,}25\times4=1\ (\text{m}^2)$.
-
-b) $S_{\text{tp}}=0{,}25\times6=1{,}5\ (\text{m}^2)$.
-
-**Đáp số.** a) $1\ \text{m}^2$; b) $1{,}5\ \text{m}^2$.
+**Đáp số.** $60$ trang.
 
 [ĐỀ – EN]
-A cube has an edge of $0.5$ m. Find:
-
-a) the lateral surface area;
-
-b) the total surface area.
+Remember the last lesson: find the mean of $12$, $18$ and $15$. A child reads that many pages each day. How many pages does the child read in $4$ days?
 
 [LỜI GIẢI CŨ – EN]
-The area of one face is $0.5\times0.5=0.25\ (\text{m}^2)$.
+$(12+18+15)\div3=45\div3=15$ (pages a day). $15\times4=60$ (pages).
 
-a) $S_{\text{lat}}=0.25\times4=1\ (\text{m}^2)$.
-
-b) $S_{\text{total}}=0.25\times6=1.5\ (\text{m}^2)$.
-
-**Answer.** a) $1\ \text{m}^2$; b) $1.5\ \text{m}^2$.
+**Answer.** $60$ pages.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Mỗi mặt của một viên xúc xắc hình lập phương có diện tích $9\ \text{cm}^2$. Tính diện tích toàn phần của viên xúc xắc.
+Một công nhân làm $5$ ngày được $40$ sản phẩm. Hỏi làm $9$ ngày như thế thì được bao nhiêu sản phẩm?
 
 [LỜI GIẢI CŨ – VI]
-Viên xúc xắc có $6$ mặt bằng nhau, nên:
-$$S_{\text{tp}}=9\times6=54\ (\text{cm}^2).$$
+$40:5=8$ (sản phẩm), $8\times9=72$ (sản phẩm).
 
-**Đáp số.** $54\ \text{cm}^2$.
+**Đáp số.** $72$ sản phẩm.
 
 [ĐỀ – EN]
-Each face of a cube-shaped dice has an area of $9\ \text{cm}^2$. Find the total surface area of the dice.
+A worker makes $40$ items in $5$ days. How many items does the worker make in $9$ days at the same rate?
 
 [LỜI GIẢI CŨ – EN]
-The dice has $6$ equal faces, so:
-$$S_{\text{total}}=9\times6=54\ (\text{cm}^2).$$
+$40\div5=8$ (items), $8\times9=72$ (items).
 
-**Answer.** $54\ \text{cm}^2$.
+**Answer.** $72$ items.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Bạn Lan dán giấy kín toàn bộ một hộp quà hình lập phương cạnh $12$ cm (không tính phần giấy chồng mép). Hỏi Lan cần bao nhiêu xăng-ti-mét vuông giấy?
+Mua $6$ kg đường hết $90\,000$ đồng. Hỏi mua $4$ kg đường hết bao nhiêu tiền? Vì sao phải tìm giá $1$ kg đường trước?
 
 [LỜI GIẢI CŨ – VI]
-Diện tích một mặt là $12\times12=144\ (\text{cm}^2)$. Diện tích giấy cần dùng là:
-$$144\times6=864\ (\text{cm}^2).$$
+$90\,000:6=15\,000$ (đồng), $15\,000\times4=60\,000$ (đồng). Phải tìm giá $1$ kg vì mỗi ki-lô-gam giá bằng nhau, nên từ đó tính được số kg bất kì.
 
-**Đáp số.** $864\ \text{cm}^2$.
+**Đáp số.** $60\,000$ đồng.
 
 [ĐỀ – EN]
-Lan covers the whole of a cube-shaped gift box with paper (ignoring any overlap). The edge of the box is $12$ cm. How many square centimetres of paper does she need?
+$6$ kg of sugar cost $90\,000$ dong. How much do $4$ kg of sugar cost? Why do we find the cost of $1$ kg first?
 
 [LỜI GIẢI CŨ – EN]
-The area of one face is $12\times12=144\ (\text{cm}^2)$. The paper needed is:
-$$144\times6=864\ (\text{cm}^2).$$
+$90\,000\div6=15\,000$ (dong), $15\,000\times4=60\,000$ (dong). We find the cost of $1$ kg first because every kilogram costs the same, so from it we can find the cost of any number of kilograms.
 
-**Answer.** $864\ \text{cm}^2$.
+**Answer.** $60\,000$ dong.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Lan sơn $4$ mặt bên của một khối gỗ hình lập phương cạnh $15$ cm; hai mặt đáy không sơn. Hỏi diện tích được sơn là bao nhiêu xăng-ti-mét vuông?
+Lan giải: "$8$ cái bút giá $32\,000$ đồng. $5$ cái bút giá $32\,000\times5=160\,000$ đồng." Lan sai ở đâu? Hãy làm lại cho đúng.
 
 [LỜI GIẢI CŨ – VI]
-Diện tích một mặt là $15\times15=225\ (\text{cm}^2)$. Diện tích được sơn là:
-$$225\times4=900\ (\text{cm}^2).$$
+Lan nhân ngay mà chưa tìm giá một cái bút. Đúng là $32\,000:8=4\,000$ (đồng), $4\,000\times5=20\,000$ (đồng).
 
-**Đáp số.** $900\ \text{cm}^2$.
+**Đáp số.** $20\,000$ đồng.
 
 [ĐỀ – EN]
-Lan paints the $4$ side faces of a cube-shaped block of wood with edge $15$ cm; the two bases are not painted. How many square centimetres are painted?
+Lan worked: "$8$ pens cost $32\,000$ dong. So $5$ pens cost $32\,000\times5=160\,000$ dong." Where did Lan go wrong? Do it correctly.
 
 [LỜI GIẢI CŨ – EN]
-The area of one face is $15\times15=225\ (\text{cm}^2)$. The painted area is:
-$$225\times4=900\ (\text{cm}^2).$$
+Lan multiplied without finding the cost of one pen. The correct working is $32\,000\div8=4\,000$ (dong), $4\,000\times5=20\,000$ (dong).
 
-**Answer.** $900\ \text{cm}^2$.
+**Answer.** $20\,000$ dong.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài trước. Hộp chữ nhật $A$ có chiều dài $8$ cm, chiều rộng $5$ cm, chiều cao $4$ cm. Hộp lập phương $B$ có cạnh $6$ cm. Hộp nào có diện tích toàn phần lớn hơn, và lớn hơn bao nhiêu xăng-ti-mét vuông?
+Vòi nước chảy đều, $3$ phút được $45$ lít.
+a) Mỗi phút vòi chảy được bao nhiêu lít?
+b) $8$ phút vòi chảy được bao nhiêu lít?
+c) Cần bao nhiêu phút để chảy đầy bể $150$ lít?
 
 [LỜI GIẢI CŨ – VI]
-Hộp $A$: chu vi đáy là $(8+5)\times2=26\ (\text{cm})$, nên $S_{\text{xq}}=26\times4=104\ (\text{cm}^2)$. Diện tích một đáy là $8\times5=40\ (\text{cm}^2)$, nên $S_{\text{tp}}=104+40\times2=184\ (\text{cm}^2)$.
+a) $45:3=15$ (lít). b) $15\times8=120$ (lít). c) $150:15=10$ (phút).
 
-Hộp $B$: $S_{\text{tp}}=6\times6\times6=216\ (\text{cm}^2)$.
-
-Vì $216>184$ nên hộp $B$ lớn hơn, và $216-184=32\ (\text{cm}^2)$.
-
-**Đáp số.** Hộp lập phương $B$ lớn hơn, lớn hơn $32\ \text{cm}^2$.
+**Đáp số.** a) $15$ lít; b) $120$ lít; c) $10$ phút.
 
 [ĐỀ – EN]
-Remember the last lesson. Cuboid $A$ is $8$ cm long, $5$ cm wide and $4$ cm high. Cube $B$ has an edge of $6$ cm. Which one has the larger total surface area, and by how many square centimetres?
+A tap runs at a steady rate and fills $45$ litres in $3$ minutes.
+a) How many litres does the tap fill in one minute?
+b) How many litres does it fill in $8$ minutes?
+c) How many minutes does it take to fill a $150$-litre tank?
 
 [LỜI GIẢI CŨ – EN]
-Cuboid $A$: the perimeter of the base is $(8+5)\times2=26\ (\text{cm})$, so $S_{\text{lat}}=26\times4=104\ (\text{cm}^2)$. One base has area $8\times5=40\ (\text{cm}^2)$, so $S_{\text{total}}=104+40\times2=184\ (\text{cm}^2)$.
+a) $45\div3=15$ (litres). b) $15\times8=120$ (litres). c) $150\div15=10$ (minutes).
 
-Cube $B$: $S_{\text{total}}=6\times6\times6=216\ (\text{cm}^2)$.
-
-Since $216>184$, cube $B$ is larger, and $216-184=32\ (\text{cm}^2)$.
-
-**Answer.** Cube $B$ is larger, by $32\ \text{cm}^2$.
+**Answer.** a) $15$ litres; b) $120$ litres; c) $10$ minutes.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Hình lập phương $A$ có cạnh $3$ cm. Hình lập phương $B$ có cạnh $6$ cm, gấp đôi cạnh của $A$. Diện tích toàn phần của $B$ gấp mấy lần diện tích toàn phần của $A$?
+Mua $6$ hộp bánh như nhau hết $90\,000$ đồng. Mai có $130\,000$ đồng. Hỏi Mai mua được nhiều nhất bao nhiêu hộp bánh như thế và còn thừa bao nhiêu tiền?
 
 [LỜI GIẢI CŨ – VI]
-Hình $A$: $S_{\text{tp}}=3\times3\times6=54\ (\text{cm}^2)$.
+Giá một hộp: $90\,000:6=15\,000$ (đồng). $15\,000\times8=120\,000$ (đồng) nhỏ hơn $130\,000$; $15\,000\times9=135\,000$ (đồng) lớn hơn $130\,000$. Vậy mua được $8$ hộp, còn thừa $130\,000-120\,000=10\,000$ (đồng).
 
-Hình $B$: $S_{\text{tp}}=6\times6\times6=216\ (\text{cm}^2)$.
-
-Ta có $216:54=4$. Cạnh gấp đôi nhưng diện tích gấp $4$ lần, vì diện tích mỗi mặt tính bằng cạnh nhân cạnh.
-
-**Đáp số.** Gấp $4$ lần.
+**Đáp số.** $8$ hộp, còn thừa $10\,000$ đồng.
 
 [ĐỀ – EN]
-Cube $A$ has an edge of $3$ cm. Cube $B$ has an edge of $6$ cm, twice the edge of $A$. How many times as large as the total surface area of $A$ is the total surface area of $B$?
+$6$ identical boxes of biscuits cost $90\,000$ dong. Mai has $130\,000$ dong. What is the greatest number of such boxes Mai can buy, and how much money is left over?
 
 [LỜI GIẢI CŨ – EN]
-Cube $A$: $S_{\text{total}}=3\times3\times6=54\ (\text{cm}^2)$.
+One box costs $90\,000\div6=15\,000$ (dong). $15\,000\times8=120\,000$ (dong) is less than $130\,000$; $15\,000\times9=135\,000$ (dong) is more than $130\,000$. So Mai can buy $8$ boxes, with $130\,000-120\,000=10\,000$ (dong) left over.
 
-Cube $B$: $S_{\text{total}}=6\times6\times6=216\ (\text{cm}^2)$.
-
-We have $216\div54=4$. The edge is doubled but the area is $4$ times as large, because the area of each face is the edge times the edge.
-
-**Answer.** $4$ times as large.
+**Answer.** $8$ boxes, with $10\,000$ dong left over.
 
 
 ######################################################################
-@@@ g5/surface-area-of-a-cuboid
-Bài học: Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật / Lateral and total surface area of a cuboid
+@@@ g4/what-is-a-fraction
+Bài học: Khái niệm phân số / The idea of a fraction
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Hình hộp dài $11$ cm, rộng $4$ cm, cao $6$ cm. Tính diện tích xung quanh.
+Một hình chữ nhật được chia thành $5$ phần bằng nhau, tô màu $2$ phần. Viết phân số chỉ phần đã tô.
+
+![Hình chữ nhật chia năm phần bằng nhau, hai phần được tô màu](/assets/img/g4/g4-what-is-a-fraction-03.svg)
 
 [LỜI GIẢI CŨ – VI]
-$$(11+4)\times2\times6=180\ \text{cm}^2.$$
+Chia thành $5$ phần, tô $2$ phần, nên phân số là $\dfrac{2}{5}$.
 
-**Đáp số.** $180\ \text{cm}^2$.
+**Đáp số.** $\dfrac{2}{5}$.
 
 [ĐỀ – EN]
-A cuboid is $11$ cm long, $4$ cm wide and $6$ cm high. Find its lateral area.
+A rectangle is cut into $5$ equal parts and $2$ parts are coloured in. Write the fraction for the coloured part.
+
+![A rectangle divided into five equal parts with two shaded](/assets/img/g4/g4-what-is-a-fraction-03.svg)
 
 [LỜI GIẢI CŨ – EN]
-$$(11+4)\times2\times6=180\ \text{cm}^2.$$
+Cut into $5$ parts with $2$ coloured, so the fraction is $\dfrac{2}{5}$.
 
-**Answer.** $180\ \text{cm}^2$.
+**Answer.** $\dfrac{2}{5}$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Hình hộp dài $7$ dm, rộng $5$ dm, cao $3$ dm. Tính diện tích toàn phần.
+Viết các phân số: a) bốn phần bảy; b) hai phần năm; c) mười một phần mười hai.
 
 [LỜI GIẢI CŨ – VI]
-Diện tích toàn phần là
-$$ (7+5)\times2\times3+2\times7\times5=142\ \text{dm}^2.$$
+a) $\dfrac{4}{7}$; b) $\dfrac{2}{5}$; c) $\dfrac{11}{12}$.
 
-**Đáp số.** $142\ \text{dm}^2$.
+**Đáp số.** $\dfrac{4}{7}$, $\dfrac{2}{5}$, $\dfrac{11}{12}$.
 
 [ĐỀ – EN]
-A cuboid is $7$ dm long, $5$ dm wide and $3$ dm high. Find its total area.
+Write these fractions: a) four sevenths; b) two fifths; c) eleven twelfths.
 
 [LỜI GIẢI CŨ – EN]
-The total surface area is
-$$ (7+5)\times2\times3+2\times7\times5=142\ \text{dm}^2.$$
+a) $\dfrac{4}{7}$; b) $\dfrac{2}{5}$; c) $\dfrac{11}{12}$.
 
-**Answer.** $142\ \text{dm}^2$.
+**Answer.** $\dfrac{4}{7}$, $\dfrac{2}{5}$, $\dfrac{11}{12}$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Hình hộp dài $8$ cm, rộng $4$ cm, có diện tích xung quanh $216\ \text{cm}^2$. Tìm chiều cao.
+Em hãy nhớ lại bài trước (số lần xuất hiện): tung đồng xu $10$ lần, mặt ngửa xuất hiện $6$ lần. Viết phân số chỉ số lần ngửa so với số lần tung.
 
 [LỜI GIẢI CŨ – VI]
-Chu vi đáy là $(8+4)\times2=24$ cm, nên chiều cao là $216:24=9$ cm.
+Số lần ngửa là $6$ trong $10$ lần tung, nên phân số là $\dfrac{6}{10}$.
 
-**Đáp số.** $9$ cm.
+**Đáp số.** $\dfrac{6}{10}$.
 
 [ĐỀ – EN]
-A cuboid is $8$ cm long and $4$ cm wide. Its lateral area is $216\ \text{cm}^2$. Find its height.
+Remember the last lesson (how many times an event happens): a coin is tossed $10$ times and heads comes up $6$ times. Write the fraction showing the heads out of all the tosses.
 
 [LỜI GIẢI CŨ – EN]
-The base perimeter is $(8+4)\times2=24$ cm, so the height is $216\div24=9$ cm.
+There were $6$ heads in $10$ tosses, so the fraction is $\dfrac{6}{10}$.
 
-**Answer.** $9$ cm.
+**Answer.** $\dfrac{6}{10}$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Kích thước dài, rộng, cao của hộp A là $10$ cm, $6$ cm, $4$ cm; của B là $8$ cm, $7$ cm, $4$ cm. Diện tích xung quanh hộp nào lớn hơn và hơn bao nhiêu?
+Đọc các phân số $\dfrac{7}{10}$ và $\dfrac{3}{8}$, rồi chỉ ra tử số và mẫu số của mỗi phân số.
 
 [LỜI GIẢI CŨ – VI]
-Hai diện tích lần lượt là $128\ \text{cm}^2$ và $120\ \text{cm}^2$, vì
-$$ (10+6)\times2\times4=128,\qquad(8+7)\times2\times4=120.$$
+$\dfrac{7}{10}$ đọc là "bảy phần mười": tử số $7$, mẫu số $10$. $\dfrac{3}{8}$ đọc là "ba phần tám": tử số $3$, mẫu số $8$.
 
-**Đáp số.** Hộp A lớn hơn $8\ \text{cm}^2$.
+**Đáp số.** Xem lời giải.
 
 [ĐỀ – EN]
-Box A measures $10$ cm by $6$ cm by $4$ cm; B measures $8$ cm by $7$ cm by $4$ cm. Which has the greater lateral area, and by how much?
+Read the fractions $\dfrac{7}{10}$ and $\dfrac{3}{8}$, then name the numerator and the denominator of each.
 
 [LỜI GIẢI CŨ – EN]
-The two areas are $128\ \text{cm}^2$ and $120\ \text{cm}^2$, because
-$$ (10+6)\times2\times4=128,\qquad(8+7)\times2\times4=120.$$
+$\dfrac{7}{10}$ is "seven tenths": numerator $7$, denominator $10$. $\dfrac{3}{8}$ is "three eighths": numerator $3$, denominator $8$.
 
-**Answer.** Box A, by $8\ \text{cm}^2$.
+**Answer.** See the solution.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Nhớ lại bài trước: một hình khai triển có hai mặt $9\ \text{cm}\times5\ \text{cm}$, hai mặt $9\ \text{cm}\times3\ \text{cm}$ và hai mặt $5\ \text{cm}\times3\ \text{cm}$. Tính diện tích toàn phần.
-
-![Hình khai triển của hình hộp chữ nhật kích thước 9 cm, 5 cm và 3 cm](/assets/img/g5/g5-surface-area-of-a-cuboid-01.svg)
+Một chiếc bánh được cắt thành $4$ phần to nhỏ khác nhau, Lan ăn $1$ phần. Có thể nói Lan ăn $\dfrac{1}{4}$ chiếc bánh không? Vì sao?
 
 [LỜI GIẢI CŨ – VI]
-Diện tích toàn phần là
-$$2\times9\times5+2\times9\times3+2\times5\times3=174\ \text{cm}^2.$$
+Không. Các phần không bằng nhau nên phần Lan ăn không nhất định là một phần tư chiếc bánh.
 
-**Đáp số.** $174\ \text{cm}^2$.
+**Đáp số.** Không, vì các phần không bằng nhau.
 
 [ĐỀ – EN]
-Think back: a net has two $9$ cm by $5$ cm faces, two $9$ cm by $3$ cm faces and two $5$ cm by $3$ cm faces. Find the total area.
-
-![A net of a cuboid measuring 9 cm by 5 cm by 3 cm](/assets/img/g5/g5-surface-area-of-a-cuboid-01.svg)
+A cake is cut into $4$ pieces of different sizes and Lan eats $1$ piece. Can we say Lan ate $\dfrac{1}{4}$ of the cake? Why?
 
 [LỜI GIẢI CŨ – EN]
-The total surface area is
-$$2\times9\times5+2\times9\times3+2\times5\times3=174\ \text{cm}^2.$$
+No. The parts are not equal, so the piece Lan ate is not necessarily a quarter of the cake.
 
-**Answer.** $174\ \text{cm}^2$.
+**Answer.** No, because the parts are not equal.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Hộp trà dài $14$ cm, rộng $8$ cm, cao $20$ cm. Nhãn phủ bốn mặt bên, không chồng mép. Tính diện tích nhãn.
+Nam viết: "Chiếc bánh chia $4$ phần, ăn $3$ phần nên phân số là $\dfrac{4}{3}$." Nam sai ở đâu? Hãy viết lại cho đúng.
 
 [LỜI GIẢI CŨ – VI]
-Diện tích nhãn là
-$$ (14+8)\times2\times20=880\ \text{cm}^2.$$
+Nam viết ngược tử số và mẫu số. Cả chiếc bánh có $4$ phần nên mẫu số là $4$, ăn $3$ phần nên tử số là $3$: $\dfrac{3}{4}$.
 
-**Đáp số.** $880\ \text{cm}^2$.
+**Đáp số.** $\dfrac{3}{4}$.
 
 [ĐỀ – EN]
-A tea box is $14$ cm long, $8$ cm wide and $20$ cm high. A label covers its sides with no overlap. Find its area.
+Nam wrote: "The cake is cut into $4$ parts and $3$ are eaten, so the fraction is $\dfrac{4}{3}$." Where did Nam go wrong? Write it correctly.
 
 [LỜI GIẢI CŨ – EN]
-The area of the label is
-$$ (14+8)\times2\times20=880\ \text{cm}^2.$$
+Nam wrote the numerator and denominator the wrong way round. The whole cake has $4$ parts so the denominator is $4$, and $3$ parts were eaten so the numerator is $3$: $\dfrac{3}{4}$.
 
-**Answer.** $880\ \text{cm}^2$.
+**Answer.** $\dfrac{3}{4}$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Hộp gỗ dài $50$ cm, rộng $30$ cm, cao $20$ cm. Sơn bốn mặt bên và mặt trên. Tính diện tích sơn.
+Một thanh sô-cô-la có $12$ ô bằng nhau. Mai ăn $5$ ô, Nam ăn $4$ ô.
+a) Viết phân số chỉ phần Mai ăn.
+b) Viết phân số chỉ phần Nam ăn.
+c) Viết phân số chỉ phần còn lại.
 
 [LỜI GIẢI CŨ – VI]
-Diện tích được sơn là
-$$ (50+30)\times2\times20+50\times30=4\,700\ \text{cm}^2.$$
+a) $\dfrac{5}{12}$. b) $\dfrac{4}{12}$. c) Còn lại $12-5-4=3$ ô, nên $\dfrac{3}{12}$.
 
-**Đáp số.** $4\,700\ \text{cm}^2$.
+**Đáp số.** a) $\dfrac{5}{12}$; b) $\dfrac{4}{12}$; c) $\dfrac{3}{12}$.
 
 [ĐỀ – EN]
-A box is $50$ cm long, $30$ cm wide and $20$ cm high. Its sides and top are painted. Find the painted area.
+A bar of chocolate has $12$ equal squares. Mai eats $5$ squares and Nam eats $4$ squares.
+a) Write the fraction for the part Mai ate.
+b) Write the fraction for the part Nam ate.
+c) Write the fraction for the part left.
 
 [LỜI GIẢI CŨ – EN]
-The painted area is
-$$ (50+30)\times2\times20+50\times30=4\,700\ \text{cm}^2.$$
+a) $\dfrac{5}{12}$. b) $\dfrac{4}{12}$. c) The squares left are $12-5-4=3$, so $\dfrac{3}{12}$.
 
-**Answer.** $4\,700\ \text{cm}^2$.
+**Answer.** a) $\dfrac{5}{12}$; b) $\dfrac{4}{12}$; c) $\dfrac{3}{12}$.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Hình hộp dài $10$ cm, rộng $4$ cm, có diện tích toàn phần $248\ \text{cm}^2$. Tìm chiều cao.
+Một băng giấy được chia thành $8$ phần bằng nhau. Em tô $3$ phần màu xanh, $2$ phần màu đỏ, phần còn lại để trắng. Viết phân số chỉ phần mỗi màu và phân số chỉ phần đã tô màu (cả hai màu).
+
+![Băng giấy tám phần gồm ba phần xanh, hai phần đỏ và ba phần trắng](/assets/img/g4/g4-what-is-a-fraction-04.svg)
 
 [LỜI GIẢI CŨ – VI]
-Hai đáy có diện tích $80\ \text{cm}^2$, nên diện tích xung quanh là $248-80=168\ \text{cm}^2$. Chu vi đáy là $28$ cm, do đó chiều cao là $168:28=6$ cm.
+Xanh: $\dfrac{3}{8}$; đỏ: $\dfrac{2}{8}$; trắng: $8-3-2=3$ phần nên $\dfrac{3}{8}$. Phần đã tô là $3+2=5$ phần, tức $\dfrac{5}{8}$.
 
-**Đáp số.** $6$ cm.
+**Kiểm tra.** $3+2+3=8$ phần. Đúng.
+
+**Đáp số.** Xanh $\dfrac{3}{8}$, đỏ $\dfrac{2}{8}$, trắng $\dfrac{3}{8}$; đã tô $\dfrac{5}{8}$.
 
 [ĐỀ – EN]
-A cuboid is $10$ cm long and $4$ cm wide. Its total area is $248\ \text{cm}^2$. Find its height.
+A paper strip is cut into $8$ equal parts. You colour $3$ parts blue and $2$ parts red, and leave the rest white. Write the fraction for each colour and the fraction for the part that is coloured (both colours together).
+
+![An eight-part strip with three blue, two red, and three white parts](/assets/img/g4/g4-what-is-a-fraction-04.svg)
 
 [LỜI GIẢI CŨ – EN]
-The two bases have area $80\ \text{cm}^2$, so the lateral area is $248-80=168\ \text{cm}^2$. The base perimeter is $28$ cm, giving height $168\div28=6$ cm.
+Blue: $\dfrac{3}{8}$; red: $\dfrac{2}{8}$; white: $8-3-2=3$ parts, so $\dfrac{3}{8}$. The coloured part is $3+2=5$ parts, which is $\dfrac{5}{8}$.
 
-**Answer.** $6$ cm.
+**Check.** $3+2+3=8$ parts. Correct.
+
+**Answer.** Blue $\dfrac{3}{8}$, red $\dfrac{2}{8}$, white $\dfrac{3}{8}$; coloured $\dfrac{5}{8}$.
 
 
 ######################################################################
-@@@ g5/units-of-time
-Bài học: Các đơn vị đo thời gian. Cộng, trừ số đo thời gian / Units of time. Adding and subtracting times
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+@@@ g4/yen-ta-tonnes
+Bài học: Yến, tạ, tấn. Giây, thế kỉ / Yến, tạ and tonnes (10 kg, 100 kg and 1,000 kg). Seconds and centuries
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Số?
-
-a) $3$ giờ $=\ ?$ phút.
-
-b) $5$ phút $20$ giây $=\ ?$ giây.
-
-c) $2$ năm $6$ tháng $=\ ?$ tháng.
-
-d) $200$ phút $=\ ?$ giờ $?$ phút.
+Đổi: $7$ tạ $=\ ?$ kg và $6\,000$ kg $=\ ?$ tấn.
 
 [LỜI GIẢI CŨ – VI]
-a) $3\times60=180$ (phút).
+$7$ tạ $=7\times100=700$ kg. $6\,000$ kg $=6\,000:1\,000=6$ tấn.
 
-b) $5\times60+20=320$ (giây).
-
-c) $2\times12+6=30$ (tháng).
-
-d) $200:60=3$ (dư $20$), nên $200$ phút $=3$ giờ $20$ phút.
-
-**Đáp số.** a) $180$ phút; b) $320$ giây; c) $30$ tháng; d) $3$ giờ $20$ phút.
+**Đáp số.** $700$ kg và $6$ tấn.
 
 [ĐỀ – EN]
-Fill in the missing numbers.
-
-a) $3$ h $=\ ?$ min.
-
-b) $5$ min $20$ s $=\ ?$ s.
-
-c) $2$ years $6$ months $=\ ?$ months.
-
-d) $200$ min $=\ ?$ h $?$ min.
+Change: $7$ tạ $=\ ?$ kg and $6\,000$ kg $=\ ?$ tonnes.
 
 [LỜI GIẢI CŨ – EN]
-a) $3\times60=180$ (min).
+$7$ tạ $=7\times100=700$ kg. $6\,000$ kg $=6\,000\div1\,000=6$ tonnes.
 
-b) $5\times60+20=320$ (s).
-
-c) $2\times12+6=30$ (months).
-
-d) $200\div60=3$ remainder $20$, so $200$ min $=3$ h $20$ min.
-
-**Answer.** a) $180$ min; b) $320$ s; c) $30$ months; d) $3$ h $20$ min.
+**Answer.** $700$ kg and $6$ tonnes.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Năm $2028$ có bao nhiêu ngày? Tháng Hai năm $2028$ có bao nhiêu ngày? Tháng Hai năm $2026$ có bao nhiêu ngày?
+Đổi $2$ tạ $5$ yến ra ki-lô-gam.
 
 [LỜI GIẢI CŨ – VI]
-Vì $2028-2024=4$ nên năm $2028$ là năm nhuận: có $366$ ngày và tháng Hai có $29$ ngày. Năm $2026$ là năm thường nên tháng Hai có $28$ ngày.
+$2$ tạ $=200$ kg và $5$ yến $=50$ kg. Vậy $2$ tạ $5$ yến $=200+50=250$ kg.
 
-**Đáp số.** $366$ ngày; $29$ ngày; $28$ ngày.
+**Đáp số.** $250$ kg.
 
 [ĐỀ – EN]
-How many days does the year $2028$ have? How many days does February $2028$ have? How many days does February $2026$ have?
+Change $2$ tạ $5$ yến to kilograms.
 
 [LỜI GIẢI CŨ – EN]
-Since $2028-2024=4$, the year $2028$ is a leap year: it has $366$ days and February has $29$ days. The year $2026$ is a common year, so February has $28$ days.
+$2$ tạ $=200$ kg and $5$ yến $=50$ kg. So $2$ tạ $5$ yến $=200+50=250$ kg.
 
-**Answer.** $366$ days; $29$ days; $28$ days.
+**Answer.** $250$ kg.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Tính:
-
-a) $2$ giờ $25$ phút $+$ $3$ giờ $40$ phút.
-
-b) $3$ phút $45$ giây $+$ $2$ phút $30$ giây.
+Tính: $3$ tấn $4$ tạ $+2$ tấn $9$ tạ.
 
 [LỜI GIẢI CŨ – VI]
-a) $2$ giờ $25$ phút $+$ $3$ giờ $40$ phút $=5$ giờ $65$ phút $=6$ giờ $5$ phút.
+$3$ tấn $4$ tạ $+2$ tấn $9$ tạ $=5$ tấn $13$ tạ. Vì $13$ tạ $=1$ tấn $3$ tạ nên kết quả là $6$ tấn $3$ tạ.
 
-b) $3$ phút $45$ giây $+$ $2$ phút $30$ giây $=5$ phút $75$ giây $=6$ phút $15$ giây.
-
-**Đáp số.** a) $6$ giờ $5$ phút; b) $6$ phút $15$ giây.
+**Đáp số.** $6$ tấn $3$ tạ.
 
 [ĐỀ – EN]
-Work out:
-
-a) $2$ h $25$ min $+$ $3$ h $40$ min.
-
-b) $3$ min $45$ s $+$ $2$ min $30$ s.
+Work out: $3$ tonnes $4$ tạ $+2$ tonnes $9$ tạ.
 
 [LỜI GIẢI CŨ – EN]
-a) $2$ h $25$ min $+$ $3$ h $40$ min $=5$ h $65$ min $=6$ h $5$ min.
+$3$ tonnes $4$ tạ $+2$ tonnes $9$ tạ $=5$ tonnes $13$ tạ. Since $13$ tạ $=1$ tonne $3$ tạ, the result is $6$ tonnes $3$ tạ.
 
-b) $3$ min $45$ s $+$ $2$ min $30$ s $=5$ min $75$ s $=6$ min $15$ s.
-
-**Answer.** a) $6$ h $5$ min; b) $6$ min $15$ s.
+**Answer.** $6$ tonnes $3$ tạ.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tính:
-
-a) $7$ giờ $10$ phút $-$ $3$ giờ $35$ phút.
-
-b) $9$ phút $15$ giây $-$ $4$ phút $40$ giây.
+Tính: $5$ tấn $-2$ tấn $7$ tạ.
 
 [LỜI GIẢI CŨ – VI]
-a) $7$ giờ $10$ phút $=6$ giờ $70$ phút, nên $6$ giờ $70$ phút $-$ $3$ giờ $35$ phút $=3$ giờ $35$ phút.
+$5$ tấn $=50$ tạ và $2$ tấn $7$ tạ $=27$ tạ. Ta có $50-27=23$ tạ, tức là $2$ tấn $3$ tạ.
 
-b) $9$ phút $15$ giây $=8$ phút $75$ giây, nên $8$ phút $75$ giây $-$ $4$ phút $40$ giây $=4$ phút $35$ giây.
-
-**Đáp số.** a) $3$ giờ $35$ phút; b) $4$ phút $35$ giây.
+**Đáp số.** $2$ tấn $3$ tạ.
 
 [ĐỀ – EN]
-Work out:
-
-a) $7$ h $10$ min $-$ $3$ h $35$ min.
-
-b) $9$ min $15$ s $-$ $4$ min $40$ s.
+Work out: $5$ tonnes $-2$ tonnes $7$ tạ.
 
 [LỜI GIẢI CŨ – EN]
-a) $7$ h $10$ min $=6$ h $70$ min, so $6$ h $70$ min $-$ $3$ h $35$ min $=3$ h $35$ min.
+$5$ tonnes $=50$ tạ and $2$ tonnes $7$ tạ $=27$ tạ. We have $50-27=23$ tạ, which is $2$ tonnes $3$ tạ.
 
-b) $9$ min $15$ s $=8$ min $75$ s, so $8$ min $75$ s $-$ $4$ min $40$ s $=4$ min $35$ s.
-
-**Answer.** a) $3$ h $35$ min; b) $4$ min $35$ s.
+**Answer.** $2$ tonnes $3$ tạ.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Lan bắt đầu làm bài kiểm tra lúc $8$ giờ $15$ phút và nộp bài lúc $9$ giờ $5$ phút. Hỏi Lan làm bài trong bao lâu?
+Một xe tải (số liệu giả định) chở $4$ tấn hàng, đã dỡ xuống $2$ tấn $5$ tạ. Hỏi trên xe còn lại bao nhiêu ki-lô-gam hàng?
 
 [LỜI GIẢI CŨ – VI]
-Thời gian Lan làm bài là:
-$$9\text{ giờ }5\text{ phút}-8\text{ giờ }15\text{ phút}=8\text{ giờ }65\text{ phút}-8\text{ giờ }15\text{ phút}=50\text{ phút}.$$
-**Đáp số.** $50$ phút.
+Bài giải
+
+Số hàng ban đầu là $4$ tấn $=4\,000$ kg. Số hàng đã dỡ là $2$ tấn $5$ tạ $=2\,500$ kg.
+
+Số hàng còn lại là:
+$$4\,000-2\,500=1\,500\ \text{(kg)}.$$
+
+**Đáp số.** $1\,500$ kg hàng.
 
 [ĐỀ – EN]
-Lan starts a test at $8{:}15$ and hands it in at $9{:}05$. How long does Lan spend on the test?
+A lorry (made-up numbers) carries $4$ tonnes of goods, and $2$ tonnes $5$ tạ have been unloaded. How many kilograms of goods are left on the lorry?
 
 [LỜI GIẢI CŨ – EN]
-The time Lan spends on the test is:
-$$9\text{ h }5\text{ min}-8\text{ h }15\text{ min}=8\text{ h }65\text{ min}-8\text{ h }15\text{ min}=50\text{ min}.$$
-**Answer.** $50$ minutes.
+Solution
+
+The goods at the start are $4$ tonnes $=4\,000$ kg. The goods unloaded are $2$ tonnes $5$ tạ $=2\,500$ kg.
+
+The goods left are:
+$$4\,000-2\,500=1\,500\ \text{(kg)}.$$
+
+**Answer.** $1\,500$ kg of goods.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Buổi biểu diễn văn nghệ của trường bắt đầu lúc $18$ giờ $40$ phút và kéo dài $1$ giờ $55$ phút. Hỏi buổi biểu diễn kết thúc lúc mấy giờ?
+Đổi $3$ phút $20$ giây ra giây và $255$ giây ra phút, giây.
 
 [LỜI GIẢI CŨ – VI]
-Buổi biểu diễn kết thúc lúc:
-$$18\text{ giờ }40\text{ phút}+1\text{ giờ }55\text{ phút}=19\text{ giờ }95\text{ phút}=20\text{ giờ }35\text{ phút}.$$
-**Đáp số.** $20$ giờ $35$ phút.
+$3$ phút $20$ giây $=3\times60+20=200$ giây. Ta có $255:60=4$ (dư $15$), nên $255$ giây $=4$ phút $15$ giây.
+
+**Đáp số.** $200$ giây và $4$ phút $15$ giây.
 
 [ĐỀ – EN]
-The school concert starts at $18{:}40$ and lasts $1$ hour $55$ minutes. At what time does it finish?
+Change $3$ minutes $20$ seconds to seconds and $255$ seconds to minutes and seconds.
 
 [LỜI GIẢI CŨ – EN]
-The concert finishes at:
-$$18\text{ h }40\text{ min}+1\text{ h }55\text{ min}=19\text{ h }95\text{ min}=20\text{ h }35\text{ min}.$$
-**Answer.** $20{:}35$.
+$3$ minutes $20$ seconds $=3\times60+20=200$ seconds. We have $255\div60=4$ (remainder $15$), so $255$ seconds $=4$ minutes $15$ seconds.
+
+**Answer.** $200$ seconds and $4$ minutes $15$ seconds.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Nam đi ngủ lúc $21$ giờ $30$ phút và thức dậy lúc $6$ giờ $15$ phút sáng hôm sau. Hỏi Nam ngủ bao lâu?
+Năm $1010$ và năm $1945$ thuộc thế kỉ nào? Thế kỉ XXI gồm các năm từ năm nào đến năm nào?
 
 [LỜI GIẢI CŨ – VI]
-Từ $21$ giờ $30$ phút đến $24$ giờ là $24$ giờ $-$ $21$ giờ $30$ phút $=2$ giờ $30$ phút. Thời gian ngủ là:
-$$2\text{ giờ }30\text{ phút}+6\text{ giờ }15\text{ phút}=8\text{ giờ }45\text{ phút}.$$
-**Đáp số.** $8$ giờ $45$ phút.
+$1010:100=10$ (dư $10$), nên năm $1010$ thuộc thế kỉ $11$, tức thế kỉ XI. $1945:100=19$ (dư $45$), nên năm $1945$ thuộc thế kỉ $20$, tức thế kỉ XX. Thế kỉ XX kết thúc ở năm $2000$ nên thế kỉ XXI gồm các năm từ $2001$ đến $2100$.
+
+**Đáp số.** Thế kỉ XI; thế kỉ XX; từ năm $2001$ đến năm $2100$.
 
 [ĐỀ – EN]
-Nam goes to bed at $21{:}30$ and wakes up at $6{:}15$ the next morning. How long does Nam sleep?
+Which centuries are the years $1010$ and $1945$ in? The 21st century is the years from which year to which year?
 
 [LỜI GIẢI CŨ – EN]
-From $21{:}30$ to $24{:}00$ is $24$ h $-$ $21$ h $30$ min $=2$ h $30$ min. The time asleep is:
-$$2\text{ h }30\text{ min}+6\text{ h }15\text{ min}=8\text{ h }45\text{ min}.$$
-**Answer.** $8$ hours $45$ minutes.
+$1010\div100=10$ (remainder $10$), so the year $1010$ is in the $11$th century, which is XI. $1945\div100=19$ (remainder $45$), so the year $1945$ is in the $20$th century, which is XX. The XX century ends at the year $2000$, so the XXI century is the years from $2001$ to $2100$.
+
+**Answer.** The 11th century; the 20th century; from the year $2001$ to the year $2100$.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài cộng số thập phân. Đổi:
-
-a) $2{,}5$ giờ $=\ ?$ giờ $?$ phút.
-
-b) $1{,}75$ giờ $=\ ?$ giờ $?$ phút.
+Em hãy nhớ lại bài giải bài toán có ba bước tính. Một kho (số liệu giả định) có $2$ tấn thức ăn. Mỗi ngày kho dùng $4$ yến thức ăn. Sau $10$ ngày kho nhập thêm $3$ tạ thức ăn. Hỏi lúc này kho có bao nhiêu ki-lô-gam thức ăn?
 
 [LỜI GIẢI CŨ – VI]
-a) $0{,}5\times60=30$, nên $2{,}5$ giờ $=2$ giờ $30$ phút.
+Bài giải
 
-b) $0{,}75\times60=45$, nên $1{,}75$ giờ $=1$ giờ $45$ phút.
+Số thức ăn dùng trong $10$ ngày là $4\times10=40$ yến $=400$ kg.
 
-**Đáp số.** a) $2$ giờ $30$ phút; b) $1$ giờ $45$ phút.
+Số thức ăn còn lại là:
+$$2\,000-400=1\,600\ \text{(kg)}.$$
+Số thức ăn lúc này là:
+$$1\,600+300=1\,900\ \text{(kg)}.$$
 
-[ĐỀ – EN]
-Remember the lesson on adding decimals. Change:
-
-a) $2.5$ h $=\ ?$ h $?$ min.
-
-b) $1.75$ h $=\ ?$ h $?$ min.
-
-[LỜI GIẢI CŨ – EN]
-a) $0.5\times60=30$, so $2.5$ h $=2$ h $30$ min.
-
-b) $0.75\times60=45$, so $1.75$ h $=1$ h $45$ min.
-
-**Answer.** a) $2$ h $30$ min; b) $1$ h $45$ min.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Một bạn tập chạy: chạy $25$ phút $40$ giây, nghỉ $3$ phút $30$ giây, rồi chạy tiếp $18$ phút $50$ giây. Hỏi tổng thời gian từ lúc bắt đầu đến lúc xong là bao nhiêu?
-
-[LỜI GIẢI CŨ – VI]
-Tổng thời gian là:
-$$\begin{aligned} 25\text{ phút }40\text{ giây}+3\text{ phút }30\text{ giây}&=28\text{ phút }70\text{ giây}=29\text{ phút }10\text{ giây},\\ 29\text{ phút }10\text{ giây}+18\text{ phút }50\text{ giây}&=47\text{ phút }60\text{ giây}=48\text{ phút}. \end{aligned}$$
-**Đáp số.** $48$ phút.
+**Đáp số.** $1\,900$ kg thức ăn.
 
 [ĐỀ – EN]
-A runner trains like this: runs for $25$ min $40$ s, rests for $3$ min $30$ s, then runs for another $18$ min $50$ s. What is the total time from start to finish?
+Remember the lesson on three-step word problems. A store (made-up numbers) has $2$ tonnes of animal feed. Every day the store uses $4$ yến of feed. After $10$ days the store receives $3$ tạ more feed. How many kilograms of feed does the store have now?
 
 [LỜI GIẢI CŨ – EN]
-The total time is:
-$$\begin{aligned} 25\text{ min }40\text{ s}+3\text{ min }30\text{ s}&=28\text{ min }70\text{ s}=29\text{ min }10\text{ s},\\ 29\text{ min }10\text{ s}+18\text{ min }50\text{ s}&=47\text{ min }60\text{ s}=48\text{ min}. \end{aligned}$$
-**Answer.** $48$ minutes.
+Solution
+
+The feed used in $10$ days is $4\times10=40$ yến $=400$ kg.
+
+The feed left is:
+$$2\,000-400=1\,600\ \text{(kg)}.$$
+The feed now is:
+$$1\,600+300=1\,900\ \text{(kg)}.$$
+
+**Answer.** $1\,900$ kg of feed.
 
 === Bài 10 ===
 [ĐỀ – VI]
-Một ngày có bao nhiêu giây?
+Một xe tải chở được nhiều nhất $5$ tấn hàng. Xe đã chở $28$ bao gạo, mỗi bao nặng $1$ tạ $5$ yến. Hỏi xe còn chở thêm được nhiều nhất bao nhiêu bao ngô, nếu mỗi bao ngô nặng $5$ yến?
 
 [LỜI GIẢI CŨ – VI]
-Một giờ có $60\times60=3600$ (giây). Một ngày có:
-$$3600\times24=86\,400\text{ (giây)}.$$
-**Đáp số.** $86\,400$ giây.
+Một bao gạo nặng $1$ tạ $5$ yến $=150$ kg. Khối lượng $28$ bao gạo là $28\times150=4\,200$ kg. Xe còn chở thêm được $5\,000-4\,200=800$ kg. Một bao ngô nặng $5$ yến $=50$ kg, nên số bao ngô là $800:50=16$.
+
+**Đáp số.** $16$ bao ngô.
 
 [ĐỀ – EN]
-How many seconds are there in one day?
+A lorry can carry at most $5$ tonnes of goods. It has already loaded $28$ sacks of rice, each weighing $1$ tạ $5$ yến. At most how many sacks of maize can it carry as well, if each sack of maize weighs $5$ yến?
 
 [LỜI GIẢI CŨ – EN]
-One hour has $60\times60=3600$ (s). One day has:
-$$3600\times24=86\,400\text{ (s)}.$$
-**Answer.** $86\,400$ seconds.
+One sack of rice weighs $1$ tạ $5$ yến $=150$ kg. The mass of $28$ sacks of rice is $28\times150=4\,200$ kg. The lorry can still carry $5\,000-4\,200=800$ kg. One sack of maize weighs $5$ yến $=50$ kg, so the number of sacks of maize is $800\div50=16$.
 
-
-######################################################################
-@@@ g5/using-a-calculator
-Bài học: Máy tính cầm tay / Using a calculator
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Dùng máy tính để tính: a) $25{,}6\times4{,}5$; b) $3456{,}78+1234{,}56$; c) $9000-2718{,}45$; d) $78{,}4:1{,}6$.
-
-[LỜI GIẢI CŨ – VI]
-a) $25{,}6\times4{,}5=115{,}2$ (ước lượng: $26\times4{,}5\approx117$).
-
-b) $3456{,}78+1234{,}56=4691{,}34$ (ước lượng: $3500+1200=4700$).
-
-c) $9000-2718{,}45=6281{,}55$ (ước lượng: $9000-2700=6300$).
-
-d) $78{,}4:1{,}6=49$ (ước lượng: $80:2=40$, và $1{,}6<2$ nên kết quả hơi lớn hơn $40$).
-
-**Đáp số.** a) $115{,}2$; b) $4691{,}34$; c) $6281{,}55$; d) $49$.
-
-[ĐỀ – EN]
-Use a calculator to work out: a) $25.6\times4.5$; b) $3456.78+1234.56$; c) $9000-2718.45$; d) $78.4\div1.6$.
-
-[LỜI GIẢI CŨ – EN]
-a) $25.6\times4.5=115.2$ (estimate: $26\times4.5\approx117$).
-
-b) $3456.78+1234.56=4691.34$ (estimate: $3500+1200=4700$).
-
-c) $9000-2718.45=6281.55$ (estimate: $9000-2700=6300$).
-
-d) $78.4\div1.6=49$ (estimate: $80\div2=40$, and $1.6<2$, so the result is a little more than $40$).
-
-**Answer.** a) $115.2$; b) $4691.34$; c) $6281.55$; d) $49$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Ước lượng rồi dùng máy tính để tính $48{,}7\times9{,}8$. Kết quả của máy có hợp lí không?
-
-[LỜI GIẢI CŨ – VI]
-Ước lượng: $50\times10=500$. Dùng máy tính: $48{,}7\times9{,}8=477{,}26$.
-
-Kết quả $477{,}26$ gần $500$, nên hợp lí.
-
-**Đáp số.** $477{,}26$.
-
-[ĐỀ – EN]
-Estimate, then use a calculator to work out $48.7\times9.8$. Is the calculator's result reasonable?
-
-[LỜI GIẢI CŨ – EN]
-Estimate: $50\times10=500$. Using a calculator: $48.7\times9.8=477.26$.
-
-The result $477.26$ is close to $500$, so it is reasonable.
-
-**Answer.** $477.26$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Dùng máy tính rồi làm tròn: a) $23:7$, làm tròn đến hàng phần trăm; b) $100:3$, làm tròn đến hàng phần mười.
-
-[LỜI GIẢI CŨ – VI]
-a) $23:7=3{,}2857142\ldots$ Chữ số hàng phần nghìn là $5$ nên làm tròn được $3{,}29$.
-
-b) $100:3=33{,}333\ldots$ Chữ số hàng phần trăm là $3<5$ nên làm tròn được $33{,}3$.
-
-**Đáp số.** a) $3{,}29$; b) $33{,}3$.
-
-[ĐỀ – EN]
-Use a calculator, then round: a) $23\div7$, rounded to two decimal places; b) $100\div3$, rounded to one decimal place.
-
-[LỜI GIẢI CŨ – EN]
-a) $23\div7=3.2857142\ldots$ The thousandths digit is $5$, so rounding gives $3.29$.
-
-b) $100\div3=33.333\ldots$ The hundredths digit is $3<5$, so rounding gives $33.3$.
-
-**Answer.** a) $3.29$; b) $33.3$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Giả sử $1$ m dây thép giá $12\,750$ đồng. Hỏi mua $6{,}4$ m dây thép như thế hết bao nhiêu tiền?
-
-[LỜI GIẢI CŨ – VI]
-Số tiền mua dây thép là:
-$$12\,750\times6{,}4=81\,600\ \text{(đồng)}.$$
-
-**Kiểm tra.** Ước lượng: $13\,000\times6=78\,000$, gần $81\,600$. Hợp lí.
-
-**Đáp số.** $81\,600$ đồng.
-
-[ĐỀ – EN]
-Suppose $1$ m of wire costs $12\,750$ dong. How much does $6.4$ m of this wire cost?
-
-[LỜI GIẢI CŨ – EN]
-The cost of the wire is:
-$$12\,750\times6.4=81\,600\ \text{(dong)}.$$
-
-**Check.** Estimate: $13\,000\times6=78\,000$, close to $81\,600$. Reasonable.
-
-**Answer.** $81\,600$ dong.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Giả sử một thư viện có $1250$ quyển sách, trong đó có $325$ quyển truyện tranh. Truyện tranh chiếm bao nhiêu phần trăm số sách của thư viện?
-
-[LỜI GIẢI CŨ – VI]
-Ta có $325:1250=0{,}26$ và $0{,}26\times100=26$.
-
-Vậy truyện tranh chiếm $26\%$ số sách của thư viện.
-
-**Đáp số.** $26\%$.
-
-[ĐỀ – EN]
-Suppose a library has $1250$ books, of which $325$ are comics. What percentage of the library's books are comics?
-
-[LỜI GIẢI CŨ – EN]
-We have $325\div1250=0.26$ and $0.26\times100=26$.
-
-So comics make up $26\%$ of the library's books.
-
-**Answer.** $26\%$.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Một bánh xe đạp có đường kính $0{,}65$ m. Mỗi vòng quay, bánh xe đi được bao nhiêu mét? Bánh xe quay $100$ vòng thì đi được bao nhiêu mét? (Lấy $\pi\approx3{,}14$.)
-
-[LỜI GIẢI CŨ – VI]
-Chu vi bánh xe là $0{,}65\times3{,}14=2{,}041$ (m). Mỗi vòng quay, bánh xe đi được $2{,}041$ m.
-
-Quay $100$ vòng, bánh xe đi được $2{,}041\times100=204{,}1$ (m).
-
-**Đáp số.** $2{,}041$ m một vòng; $204{,}1$ m sau $100$ vòng.
-
-[ĐỀ – EN]
-A bicycle wheel has diameter $0.65$ m. How many metres does the wheel travel in one turn? How many metres does it travel in $100$ turns? (Take $\pi\approx3.14$.)
-
-[LỜI GIẢI CŨ – EN]
-The circumference of the wheel is $0.65\times3.14=2.041$ (m). In one turn the wheel travels $2.041$ m.
-
-In $100$ turns the wheel travels $2.041\times100=204.1$ (m).
-
-**Answer.** $2.041$ m in one turn; $204.1$ m in $100$ turns.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Em hãy nhớ lại bài nhân, chia số thập phân với $10$; $100$; $1000$. Dùng máy tính để tính $3{,}48\times100$ và $56{,}7:1000$, rồi nhận xét dấu phẩy đã dịch chuyển thế nào.
-
-[LỜI GIẢI CŨ – VI]
-Dùng máy tính: $3{,}48\times100=348$ và $56{,}7:1000=0{,}0567$.
-
-Nhân với $100$: dấu phẩy dịch sang phải hai chữ số. Chia cho $1000$: dấu phẩy dịch sang trái ba chữ số.
-
-**Đáp số.** $348$ và $0{,}0567$.
-
-[ĐỀ – EN]
-Remember the lesson on multiplying and dividing decimals by $10$; $100$; $1000$. Use a calculator to work out $3.48\times100$ and $56.7\div1000$, then describe how the decimal point moved.
-
-[LỜI GIẢI CŨ – EN]
-Using a calculator: $3.48\times100=348$ and $56.7\div1000=0.0567$.
-
-Multiplying by $100$: the decimal point moves two places to the right. Dividing by $1000$: the decimal point moves three places to the left.
-
-**Answer.** $348$ and $0.0567$.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Dùng máy tính để tính $36:0{,}4$ và máy hiển thị $90$. An nghĩ: "Phép chia mà ra kết quả lớn hơn số bị chia thì chắc bấm sai." Em có đồng ý với An không? Vì sao?
-
-[LỜI GIẢI CŨ – VI]
-Em không đồng ý. Ước lượng: $36:0{,}5=72$. Vì $0{,}4<0{,}5$ nên $36:0{,}4$ phải lớn hơn $72$, và $90$ hợp lí. Chia cho số bé hơn $1$ thì thương lớn hơn số bị chia.
-
-**Đáp số.** Máy tính đúng, An nhầm.
-
-[ĐỀ – EN]
-You use a calculator to work out $36\div0.4$ and the display shows $90$. An thinks: "If a division gives a result greater than the dividend, I must have pressed a wrong key." Do you agree with An? Why or why not?
-
-[LỜI GIẢI CŨ – EN]
-No, I do not agree. Estimate: $36\div0.5=72$. Since $0.4<0.5$, the value of $36\div0.4$ must be greater than $72$, and $90$ is reasonable. Dividing by a number less than $1$ gives a quotient greater than the dividend.
-
-**Answer.** The calculator is right and An is mistaken.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Dùng máy tính tính $1:7$. Em thấy các chữ số sau dấu phẩy lặp lại thế nào? Chữ số thứ $20$ sau dấu phẩy là chữ số nào?
-
-[LỜI GIẢI CŨ – VI]
-Màn hình hiện $0{,}142857142857\ldots$ Nhóm $142857$ ($6$ chữ số) lặp lại mãi.
-
-Vì $20=3\times6+2$ nên chữ số thứ $20$ là chữ số thứ hai của nhóm, tức là $4$.
-
-**Đáp số.** Chữ số thứ $20$ là $4$.
-
-[ĐỀ – EN]
-Use a calculator to work out $1\div7$. How do the digits after the decimal point repeat? Which digit is the $20$th digit after the decimal point?
-
-[LỜI GIẢI CŨ – EN]
-The display shows $0.142857142857\ldots$ The group $142857$ ($6$ digits) repeats for ever.
-
-Since $20=3\times6+2$, the $20$th digit is the second digit of the group, which is $4$.
-
-**Answer.** The $20$th digit is $4$.
-
-
-######################################################################
-@@@ g5/volume-of-a-cube
-Bài học: Thể tích của hình lập phương / Volume of a cube
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Tính thể tích hình lập phương có cạnh $7\ \text{cm}$.
-
-[LỜI GIẢI CŨ – VI]
-$$V=7\times7\times7=49\times7=343\ (\text{cm}^3).$$
-
-**Đáp số.** $343\ \text{cm}^3$.
-
-[ĐỀ – EN]
-Find the volume of a cube with edge $7\ \text{cm}$.
-
-[LỜI GIẢI CŨ – EN]
-$$V=7\times7\times7=49\times7=343\ (\text{cm}^3).$$
-
-**Answer.** $343\ \text{cm}^3$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Một hình lập phương có cạnh $10\ \text{dm}$. Tính thể tích hình đó theo $\text{dm}^3$, rồi đổi ra $\text{m}^3$.
-
-[LỜI GIẢI CŨ – VI]
-$$10\times10\times10=1000\ (\text{dm}^3)=1\ (\text{m}^3).$$
-Đây cũng là hình lập phương cạnh $1\ \text{m}$, vì $10\ \text{dm}=1\ \text{m}$.
-
-**Đáp số.** $1000\ \text{dm}^3$; $1\ \text{m}^3$.
-
-[ĐỀ – EN]
-A cube has an edge of $10\ \text{dm}$. Find its volume in $\text{dm}^3$, then change it to $\text{m}^3$.
-
-[LỜI GIẢI CŨ – EN]
-$$10\times10\times10=1000\ (\text{dm}^3)=1\ (\text{m}^3).$$
-This is also a cube with edge $1\ \text{m}$, because $10\ \text{dm}=1\ \text{m}$.
-
-**Answer.** $1000\ \text{dm}^3$; $1\ \text{m}^3$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Tính thể tích hình lập phương có cạnh $1{,}2\ \text{dm}$.
-
-[LỜI GIẢI CŨ – VI]
-$$1{,}2\times1{,}2\times1{,}2=1{,}44\times1{,}2=1{,}728\ (\text{dm}^3).$$
-
-**Đáp số.** $1{,}728\ \text{dm}^3$.
-
-[ĐỀ – EN]
-Find the volume of a cube with edge $1.2\ \text{dm}$.
-
-[LỜI GIẢI CŨ – EN]
-$$1.2\times1.2\times1.2=1.44\times1.2=1.728\ (\text{dm}^3).$$
-
-**Answer.** $1.728\ \text{dm}^3$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Tính thể tích hình lập phương có cạnh $30\ \text{cm}$, viết kết quả theo $\text{dm}^3$.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $30\ \text{cm}=3\ \text{dm}$. Thể tích là:
-$$3\times3\times3=27\ (\text{dm}^3).$$
-
-**Đáp số.** $27\ \text{dm}^3$.
-
-[ĐỀ – EN]
-Find the volume of a cube with edge $30\ \text{cm}$, giving the answer in $\text{dm}^3$.
-
-[LỜI GIẢI CŨ – EN]
-We have $30\ \text{cm}=3\ \text{dm}$. The volume is:
-$$3\times3\times3=27\ (\text{dm}^3).$$
-
-**Answer.** $27\ \text{dm}^3$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Một bể nước hình lập phương có cạnh $6\ \text{dm}$. Hỏi bể chứa đầy nước được bao nhiêu lít?
-
-[LỜI GIẢI CŨ – VI]
-Thể tích của bể là:
-$$6\times6\times6=216\ (\text{dm}^3)=216\ \text{lít}.$$
-
-**Đáp số.** $216$ lít.
-
-[ĐỀ – EN]
-A cube-shaped water tank has an edge of $6\ \text{dm}$. How many litres of water does it hold when full?
-
-[LỜI GIẢI CŨ – EN]
-The volume of the tank is:
-$$6\times6\times6=216\ (\text{dm}^3)=216\ \text{litres}.$$
-
-**Answer.** $216$ litres.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Một thùng các-tông hình lập phương có cạnh $4\ \text{dm}$. Người ta xếp vào thùng các hộp hình lập phương cạnh $2\ \text{dm}$. Hỏi xếp đầy thùng được nhiều nhất bao nhiêu hộp?
-
-[LỜI GIẢI CŨ – VI]
-Mỗi cạnh xếp được $4:2=2$ (hộp). Số hộp là $2\times2\times2=8$ (hộp).
-
-**Kiểm tra.** $4\times4\times4=64\ (\text{dm}^3)$, $2\times2\times2=8\ (\text{dm}^3)$ và $64:8=8$. Đúng.
-
-**Đáp số.** $8$ hộp.
-
-[ĐỀ – EN]
-A cube-shaped cardboard carton has an edge of $4\ \text{dm}$. Small cube-shaped boxes with an edge of $2\ \text{dm}$ are packed into it. What is the greatest number of boxes that fill the carton?
-
-[LỜI GIẢI CŨ – EN]
-Each edge holds $4\div2=2$ (boxes). The number of boxes is $2\times2\times2=8$ (boxes).
-
-**Check.** $4\times4\times4=64\ (\text{dm}^3)$, $2\times2\times2=8\ (\text{dm}^3)$ and $64\div8=8$. Correct.
-
-**Answer.** $8$ boxes.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Em hãy nhớ lại bài thể tích hình hộp chữ nhật. Một khối gỗ hình hộp chữ nhật có chiều dài $8\ \text{cm}$, chiều rộng $4\ \text{cm}$, chiều cao $2\ \text{cm}$. Một khối gỗ hình lập phương có cạnh $4\ \text{cm}$. Khối nào có thể tích lớn hơn?
-
-[LỜI GIẢI CŨ – VI]
-Thể tích khối hình hộp chữ nhật: $8\times4\times2=64\ (\text{cm}^3)$.
-
-Thể tích khối hình lập phương: $4\times4\times4=64\ (\text{cm}^3)$.
-
-Vì $64=64$ nên hai khối có thể tích bằng nhau.
-
-**Đáp số.** Hai khối có thể tích bằng nhau ($64\ \text{cm}^3$).
-
-[ĐỀ – EN]
-Remember the lesson on the volume of a cuboid. A wooden cuboid is $8\ \text{cm}$ long, $4\ \text{cm}$ wide and $2\ \text{cm}$ high. A wooden cube has an edge of $4\ \text{cm}$. Which block has the greater volume?
-
-[LỜI GIẢI CŨ – EN]
-Volume of the cuboid: $8\times4\times2=64\ (\text{cm}^3)$.
-
-Volume of the cube: $4\times4\times4=64\ (\text{cm}^3)$.
-
-Since $64=64$, the two blocks have the same volume.
-
-**Answer.** The two blocks have the same volume ($64\ \text{cm}^3$).
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Một hình lập phương có thể tích $216\ \text{cm}^3$. Tìm độ dài cạnh của hình đó.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $5\times5\times5=125$ (nhỏ hơn $216$) và $7\times7\times7=343$ (lớn hơn $216$). Thử $6$: $6\times6\times6=216$.
-
-**Đáp số.** $6\ \text{cm}$.
-
-[ĐỀ – EN]
-A cube has a volume of $216\ \text{cm}^3$. Find the length of its edge.
-
-[LỜI GIẢI CŨ – EN]
-We have $5\times5\times5=125$ (less than $216$) and $7\times7\times7=343$ (more than $216$). Try $6$: $6\times6\times6=216$.
-
-**Answer.** $6\ \text{cm}$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Cạnh hình lập phương tăng gấp $2$ lần thì thể tích tăng gấp mấy lần? Em hãy thử với cạnh $3\ \text{cm}$.
-
-[LỜI GIẢI CŨ – VI]
-Cạnh $3\ \text{cm}$: $3\times3\times3=27\ (\text{cm}^3)$. Cạnh $6\ \text{cm}$: $6\times6\times6=216\ (\text{cm}^3)$. Ta có $216:27=8$.
-
-Em thấy: cạnh nhân $2$ ở cả ba kích thước nên thể tích nhân $2\times2\times2=8$.
-
-**Đáp số.** Thể tích tăng gấp $8$ lần.
-
-[ĐỀ – EN]
-If the edge of a cube is doubled, how many times greater does the volume become? Try it with an edge of $3\ \text{cm}$.
-
-[LỜI GIẢI CŨ – EN]
-Edge $3\ \text{cm}$: $3\times3\times3=27\ (\text{cm}^3)$. Edge $6\ \text{cm}$: $6\times6\times6=216\ (\text{cm}^3)$. We have $216\div27=8$.
-
-The edge is doubled in all three dimensions, so the volume is multiplied by $2\times2\times2=8$.
-
-**Answer.** The volume becomes $8$ times greater.
+**Answer.** $16$ sacks of maize.
 
 
 ===== HẾT FILE Vinax.vn-12-LG =====

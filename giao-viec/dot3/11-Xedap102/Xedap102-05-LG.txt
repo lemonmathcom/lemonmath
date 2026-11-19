@@ -6,7 +6,7 @@ Kết quả: file Xedap102-05-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Xedap102-05-LG
-Người làm: tài khoản Xedap102. Gói này có 27 bài tập thuộc 3 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Xedap102. Gói này có 40 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Xedap102-05-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/3). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Xedap102-05-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,472 +189,1001 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- exams/ap-calculus/apcalc-contextual-applications (9 bài tập)
-- exams/ap-calculus/apcalc-differential-equations (9 bài tập)
-- exams/ap-calculus/apcalc-differentiation-rules (9 bài tập)
+- g11/second-derivative (10 bài tập)
+- g11/sequence-limits (10 bài tập)
+- g11/sequences-intro (10 bài tập)
+- g11/trig-formulas (10 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ exams/ap-calculus/apcalc-contextual-applications
-Bài học: Đạo hàm trong ngữ cảnh, chuyển động và tốc độ liên quan / Derivatives in context, motion and related rates
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+@@@ g11/second-derivative
+Bài học: Đạo hàm cấp hai / The second derivative
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Một hạt chuyển động trên một đường thẳng với vận tốc $v(t)=t^2-4t+3$, $t\ge0$. Hạt đi sang trái trên khoảng nào?
-A. $0<t<1$
-B. $1<t<3$
-C. $t>3$
-D. $0<t<2$
+Tính đạo hàm cấp hai:
+
+a) $y=x^5-2x^3+x$.
+
+b) $y=e^{3x}$.
+
+c) $y=\ln(2x+1)$.
+
+d) $y=x^2e^x$.
 
 [LỜI GIẢI CŨ – VI]
-$v(t)<0$ giữa hai nghiệm, nên hạt đi sang trái khi $1<t<3$: đáp án **B**.
+a) $y'=5x^4-6x^2+1$ nên $y''=20x^3-12x$.
+
+b) $y'=3e^{3x}$ nên $y''=9e^{3x}$.
+
+c) $y'=\dfrac{2}{2x+1}$ nên $y''=\dfrac{0-2\cdot2}{(2x+1)^2}=-\dfrac{4}{(2x+1)^2}$.
+
+d) $y'=2xe^x+x^2e^x=(x^2+2x)e^x$ nên $y''=(2x+2)e^x+(x^2+2x)e^x=(x^2+4x+2)e^x$.
+
+**Đáp số.** a) $20x^3-12x$; b) $9e^{3x}$; c) $-\dfrac4{(2x+1)^2}$; d) $(x^2+4x+2)e^x$.
 
 [ĐỀ – EN]
-A particle moves along a line with velocity $v(t)=t^2-4t+3$ for $t\ge0$. On which interval is the particle moving left?
-A. $0<t<1$
-B. $1<t<3$
-C. $t>3$
-D. $0<t<2$
+Find the second derivative:
+
+a) $y=x^5-2x^3+x$.
+
+b) $y=e^{3x}$.
+
+c) $y=\ln(2x+1)$.
+
+d) $y=x^2e^x$.
 
 [LỜI GIẢI CŨ – EN]
-$v(t)<0$ between the roots, so the particle moves left for $1<t<3$: answer **B**.
+a) $y'=5x^4-6x^2+1$, so $y''=20x^3-12x$.
+
+b) $y'=3e^{3x}$, so $y''=9e^{3x}$.
+
+c) $y'=\dfrac{2}{2x+1}$, so $y''=\dfrac{0-2\cdot2}{(2x+1)^2}=-\dfrac{4}{(2x+1)^2}$.
+
+d) $y'=2xe^x+x^2e^x=(x^2+2x)e^x$, so $y''=(2x+2)e^x+(x^2+2x)e^x=(x^2+4x+2)e^x$.
+
+**Answer.** a) $20x^3-12x$; b) $9e^{3x}$; c) $-\dfrac4{(2x+1)^2}$; d) $(x^2+4x+2)e^x$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Bán kính của một vết dầu loang hình tròn tăng $2$ xăng-ti-mét mỗi giây. Diện tích tăng nhanh đến mức nào khi bán kính bằng $10$ xăng-ti-mét?
+Tính giá trị:
+
+a) $f''(2)$ với $f(x)=x^3-3x^2+4$.
+
+b) $f''(2)$ với $f(x)=\dfrac1x$.
+
+c) $f''(e)$ với $f(x)=\ln x$.
+
+d) $f''(0)$ với $f(x)=e^{-x}$.
 
 [LỜI GIẢI CŨ – VI]
-$\dfrac{dA}{dt}=2\pi(10)(2)=40\pi\approx125{,}7$ xăng-ti-mét vuông mỗi giây.
+a) $f'(x)=3x^2-6x$, $f''(x)=6x-6$, nên $f''(2)=6$.
+
+b) $f''(x)=\dfrac2{x^3}$ nên $f''(2)=\dfrac28=\dfrac14$.
+
+c) $f''(x)=-\dfrac1{x^2}$ nên $f''(e)=-\dfrac1{e^2}$.
+
+d) $f'(x)=-e^{-x}$, $f''(x)=e^{-x}$, nên $f''(0)=1$.
+
+**Đáp số.** a) $6$; b) $\dfrac14$; c) $-\dfrac1{e^2}$; d) $1$.
 
 [ĐỀ – EN]
-The radius of a circular oil spill grows at $2$ centimeters per second. How fast is the area growing when the radius is $10$ centimeters?
+Find the value:
+
+a) $f''(2)$ for $f(x)=x^3-3x^2+4$.
+
+b) $f''(2)$ for $f(x)=\dfrac1x$.
+
+c) $f''(e)$ for $f(x)=\ln x$.
+
+d) $f''(0)$ for $f(x)=e^{-x}$.
 
 [LỜI GIẢI CŨ – EN]
-$\dfrac{dA}{dt}=2\pi(10)(2)=40\pi\approx125.7$ square centimeters per second.
+a) $f'(x)=3x^2-6x$, $f''(x)=6x-6$, so $f''(2)=6$.
+
+b) $f''(x)=\dfrac2{x^3}$, so $f''(2)=\dfrac28=\dfrac14$.
+
+c) $f''(x)=-\dfrac1{x^2}$, so $f''(e)=-\dfrac1{e^2}$.
+
+d) $f'(x)=-e^{-x}$, $f''(x)=e^{-x}$, so $f''(0)=1$.
+
+**Answer.** a) $6$; b) $\dfrac14$; c) $-\dfrac1{e^2}$; d) $1$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-$\displaystyle\lim_{x\to0}\frac{e^x-1-x}{x^2}$ bằng
-A. $0$
-B. $1$
-C. $2$
-D. $\dfrac12$
+Tìm các giá trị $x$ để $f''(x)>0$ và để $f''(x)<0$:
+
+a) $f(x)=x^3-6x^2+9x+1$.
+
+b) $f(x)=x^4-2x^2$.
 
 [LỜI GIẢI CŨ – VI]
-Lần thứ hai cho $\dfrac{e^x}{2}\to\dfrac12$: đáp án **D**.
+a) $f'(x)=3x^2-12x+9$, $f''(x)=6x-12$. Vậy $f''>0$ khi $x>2$ và $f''<0$ khi $x<2$.
+
+b) $f'(x)=4x^3-4x$, $f''(x)=12x^2-4$. Vậy $f''>0$ khi $x^2>\dfrac13$, tức $|x|>\dfrac1{\sqrt3}$; $f''<0$ khi $|x|<\dfrac1{\sqrt3}$.
+
+**Đáp số.** a) $f''>0$ khi $x>2$, $f''<0$ khi $x<2$; b) $f''>0$ khi $|x|>\dfrac1{\sqrt3}$, $f''<0$ khi $|x|<\dfrac1{\sqrt3}$.
 
 [ĐỀ – EN]
-What is $\displaystyle\lim_{x\to0}\frac{e^x-1-x}{x^2}$?
-A. $0$
-B. $1$
-C. $2$
-D. $\dfrac12$
+Find the values of $x$ for which $f''(x)>0$ and for which $f''(x)<0$:
+
+a) $f(x)=x^3-6x^2+9x+1$.
+
+b) $f(x)=x^4-2x^2$.
 
 [LỜI GIẢI CŨ – EN]
-The second application gives $\dfrac{e^x}{2}\to\dfrac12$: answer **D**.
+a) $f'(x)=3x^2-12x+9$, $f''(x)=6x-12$. So $f''>0$ when $x>2$ and $f''<0$ when $x<2$.
+
+b) $f'(x)=4x^3-4x$, $f''(x)=12x^2-4$. So $f''>0$ when $x^2>\dfrac13$, that is $|x|>\dfrac1{\sqrt3}$; $f''<0$ when $|x|<\dfrac1{\sqrt3}$.
+
+**Answer.** a) $f''>0$ when $x>2$, $f''<0$ when $x<2$; b) $f''>0$ when $|x|>\dfrac1{\sqrt3}$, $f''<0$ when $|x|<\dfrac1{\sqrt3}$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Hàm số có đạo hàm $f$ thoả mãn $f(3)=2$ và $f'(3)=4$. Dùng tiếp tuyến tại $x=3$ để ước lượng $f(2{,}9)$.
+Giả sử một vật chuyển động với $s(t)=t^3-3t^2+5t$ mét sau $t$ giây (số liệu giả định).
+
+a) Tính vận tốc và gia tốc tại $t=2$. Chuyển động nhanh dần hay chậm dần?
+
+b) Tìm thời điểm gia tốc bằng $0$ và vận tốc lúc đó.
 
 [LỜI GIẢI CŨ – VI]
-$f(2{,}9)\approx2+4(-0{,}1)=1{,}6$.
+$v(t)=3t^2-6t+5$ và $a(t)=6t-6$.
+
+a) $v(2)=12-12+5=5$ m/s và $a(2)=6$ m/s$^2$. Hai số cùng dương nên chuyển động nhanh dần.
+
+b) $a(t)=0$ khi $t=1$, và $v(1)=3-6+5=2$ m/s.
+
+**Đáp số.** a) $v=5$ m/s, $a=6$ m/s$^2$, nhanh dần; b) $t=1$ giây, $v=2$ m/s.
 
 [ĐỀ – EN]
-A differentiable function has $f(3)=2$ and $f'(3)=4$. Use the tangent line at $x=3$ to estimate $f(2.9)$.
+Suppose an object moves with $s(t)=t^3-3t^2+5t$ metres after $t$ seconds (hypothetical figures).
+
+a) Find the velocity and acceleration at $t=2$. Is the motion speeding up or slowing down?
+
+b) Find the time when the acceleration is $0$ and the velocity then.
 
 [LỜI GIẢI CŨ – EN]
-$f(2.9)\approx2+4(-0.1)=1.6$.
+$v(t)=3t^2-6t+5$ and $a(t)=6t-6$.
+
+a) $v(2)=12-12+5=5$ m/s and $a(2)=6$ m/s$^2$. Both are positive, so the motion is speeding up.
+
+b) $a(t)=0$ when $t=1$, and $v(1)=3-6+5=2$ m/s.
+
+**Answer.** a) $v=5$ m/s, $a=6$ m/s$^2$, speeding up; b) $t=1$ second, $v=2$ m/s.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Một quần thể vi khuẩn có $P(t)$ nghìn con sau $t$ giờ kể từ khi bắt đầu thí nghiệm. Giải thích ý nghĩa của $P'(4)=1{,}5$ trong ngữ cảnh.
+Giả sử một quả bóng được ném thẳng đứng, sau $t$ giây ở độ cao $s(t)=20t-5t^2$ mét (số liệu giả định).
+
+a) Tính vận tốc tại $t=1$ và gia tốc.
+
+b) Sau bao lâu bóng lên đến độ cao lớn nhất, và độ cao đó là bao nhiêu?
 
 [LỜI GIẢI CŨ – VI]
-Tại thời điểm $t=4$ giờ, số vi khuẩn đang tăng với tốc độ $1{,}5$ nghìn con mỗi giờ.
+$v(t)=20-10t$ và $a(t)=-10$.
+
+a) $v(1)=10$ m/s và gia tốc là hằng số $a=-10$ m/s$^2$.
+
+b) $v(t)=0$ khi $t=2$, và $s(2)=40-20=20$ mét.
+
+**Đáp số.** a) $v(1)=10$ m/s, $a=-10$ m/s$^2$; b) $t=2$ giây, độ cao $20$ m.
 
 [ĐỀ – EN]
-A bacteria colony has $P(t)$ thousand bacteria $t$ hours after an experiment starts. Interpret $P'(4)=1.5$ in context.
+Suppose a ball is thrown vertically and after $t$ seconds is at height $s(t)=20t-5t^2$ metres (hypothetical figures).
+
+a) Find the velocity at $t=1$ and the acceleration.
+
+b) After how long does the ball reach its greatest height, and what is that height?
 
 [LỜI GIẢI CŨ – EN]
-At $t=4$ hours, the number of bacteria is increasing at a rate of $1.5$ thousand bacteria per hour.
+$v(t)=20-10t$ and $a(t)=-10$.
+
+a) $v(1)=10$ m/s and the acceleration is the constant $a=-10$ m/s$^2$.
+
+b) $v(t)=0$ when $t=2$, and $s(2)=40-20=20$ metres.
+
+**Answer.** a) $v(1)=10$ m/s, $a=-10$ m/s$^2$; b) $t=2$ seconds, height $20$ m.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Người ta đổ nước với tốc độ $2$ mét khối mỗi phút vào một bể hình nón đặt ngược (đỉnh ở dưới), bán kính đáy $3$ mét và chiều cao $6$ mét. Mực nước dâng nhanh đến mức nào khi nước sâu $4$ mét?
+Giả sử doanh thu của một cửa hàng sau $t$ tháng ($0\le t\le6$) là $R(t)=-t^3+9t^2+10t$ (triệu đồng) (số liệu giả định).
+
+a) Tìm tốc độ tăng doanh thu $R'(t)$ và $R''(t)$.
+
+b) Tại tháng nào tốc độ tăng doanh thu lớn nhất, và bằng bao nhiêu?
+
+c) Từ tháng đó trở đi, doanh thu có giảm không?
 
 [LỜI GIẢI CŨ – VI]
-$2=\dfrac{\pi(16)}{4}\dfrac{dh}{dt}=4\pi\dfrac{dh}{dt}$, nên $\dfrac{dh}{dt}=\dfrac{1}{2\pi}\approx0{,}159$ mét mỗi phút.
+a) $R'(t)=-3t^2+18t+10$ và $R''(t)=-6t+18$.
+
+b) $R''(t)=0$ khi $t=3$; $R''>0$ khi $t<3$ và $R''<0$ khi $t>3$ nên $R'$ tăng rồi giảm, và lớn nhất tại $t=3$. $R'(3)=-27+54+10=37$ (triệu đồng/tháng).
+
+c) Trên $[0; 6]$ ta có $R'(0)=10$, $R'(3)=37$, $R'(6)=10$, đều dương nên doanh thu không giảm; sau tháng $3$ nó chỉ tăng chậm dần.
+
+**Đáp số.** a) $R'=-3t^2+18t+10$, $R''=-6t+18$; b) tháng $3$, $37$ triệu đồng/tháng; c) không giảm, chỉ tăng chậm dần.
 
 [ĐỀ – EN]
-Water is poured at $2$ cubic meters per minute into a tank shaped like an inverted cone with radius $3$ meters and height $6$ meters. How fast is the water level rising when the water is $4$ meters deep?
+Suppose the revenue of a shop after $t$ months ($0\le t\le6$) is $R(t)=-t^3+9t^2+10t$ (million dong) (hypothetical figures).
+
+a) Find the rate of growth of revenue $R'(t)$ and $R''(t)$.
+
+b) In which month is the rate of growth of revenue greatest, and what is it?
+
+c) From that month on, does the revenue fall?
 
 [LỜI GIẢI CŨ – EN]
-$2=\dfrac{\pi(16)}{4}\dfrac{dh}{dt}=4\pi\dfrac{dh}{dt}$, so $\dfrac{dh}{dt}=\dfrac{1}{2\pi}\approx0.159$ meters per minute.
+a) $R'(t)=-3t^2+18t+10$ and $R''(t)=-6t+18$.
+
+b) $R''(t)=0$ when $t=3$; $R''>0$ when $t<3$ and $R''<0$ when $t>3$, so $R'$ increases and then decreases, and is greatest at $t=3$. $R'(3)=-27+54+10=37$ (million dong per month).
+
+c) On $[0, 6]$ we have $R'(0)=10$, $R'(3)=37$, $R'(6)=10$, all positive, so the revenue does not fall; after month $3$ it only grows more slowly.
+
+**Answer.** a) $R'=-3t^2+18t+10$, $R''=-6t+18$; b) month $3$, $37$ million dong per month; c) it does not fall, it only grows more slowly.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Một hạt chuyển động trên trục $x$ với $x(t)=2t^3-9t^2+12t$, $0\le t\le3$.
-a) Khi nào hạt đi sang trái?
-b) Tại $t=1{,}2$ hạt nhanh dần hay chậm dần?
-c) Tính tổng quãng đường đi được trên $0\le t\le3$.
+Xét tính đúng sai của các mệnh đề sau:
+
+a) $\left(x^4\right)''=4x^3$.
+
+b) $\left(e^{2x}\right)''=4e^{2x}$.
+
+c) Nếu vận tốc và gia tốc cùng dấu thì chuyển động nhanh dần.
+
+d) $(\ln x)''=\dfrac1{x^2}$.
 
 [LỜI GIẢI CŨ – VI]
-a) $v<0$ khi $1<t<2$.
+a) **Sai**: $\left(x^4\right)''=12x^2$.
 
-b) $v(1{,}2)=6(0{,}2)(-0{,}8)=-0{,}96$ và $a(1{,}2)=-3{,}6$: cùng dấu, nên hạt nhanh dần.
+b) **Đúng**: $\left(e^{2x}\right)'=2e^{2x}$ nên $\left(e^{2x}\right)''=4e^{2x}$.
 
-c) $x(0)=0$, $x(1)=5$, $x(2)=4$, $x(3)=9$. Quãng đường $=5+1+5=11$.
+c) **Đúng**: tốc độ $|v|$ tăng khi $v$ và $a$ cùng dấu.
+
+d) **Sai**: $(\ln x)''=-\dfrac1{x^2}$.
+
+**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
 
 [ĐỀ – EN]
-A particle moves along the $x$-axis with $x(t)=2t^3-9t^2+12t$ for $0\le t\le3$.
-a) When is the particle moving left?
-b) Is it speeding up or slowing down at $t=1.2$?
-c) Find the total distance traveled on $0\le t\le3$.
+Decide whether each statement is true or false:
+
+a) $\left(x^4\right)''=4x^3$.
+
+b) $\left(e^{2x}\right)''=4e^{2x}$.
+
+c) If velocity and acceleration have the same sign, the motion is speeding up.
+
+d) $(\ln x)''=\dfrac1{x^2}$.
 
 [LỜI GIẢI CŨ – EN]
-a) $v<0$ for $1<t<2$.
+a) **False**: $\left(x^4\right)''=12x^2$.
 
-b) $v(1.2)=6(0.2)(-0.8)=-0.96$ and $a(1.2)=-3.6$: same sign, so it is speeding up.
+b) **True**: $\left(e^{2x}\right)'=2e^{2x}$, so $\left(e^{2x}\right)''=4e^{2x}$.
 
-c) $x(0)=0$, $x(1)=5$, $x(2)=4$, $x(3)=9$. Distance $=5+1+5=11$.
+c) **True**: the speed $|v|$ increases when $v$ and $a$ have the same sign.
+
+d) **False**: $(\ln x)''=-\dfrac1{x^2}$.
+
+**Answer.** a) False; b) True; c) True; d) False.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Xe A chạy về hướng bắc từ một ngã tư với vận tốc $60$ ki-lô-mét mỗi giờ, xe B chạy về hướng đông từ cùng ngã tư với vận tốc $80$ ki-lô-mét mỗi giờ, hai xe xuất phát cùng lúc. Sau nửa giờ, khoảng cách giữa hai xe tăng nhanh đến mức nào?
+Ôn lại định nghĩa đạo hàm. Cho $f(x)=x^3$, với $f'(x)=3x^2$. Dùng định nghĩa đạo hàm cho hàm $f'$ để tính $f''(x_0)$.
 
 [LỜI GIẢI CŨ – VI]
-$50\dfrac{dz}{dt}=40(80)+30(60)=5000$, nên $\dfrac{dz}{dt}=100$ ki-lô-mét mỗi giờ.
+$\dfrac{f'(x)-f'(x_0)}{x-x_0}=\dfrac{3x^2-3x_0^2}{x-x_0}=3(x+x_0)\to6x_0$ khi $x\to x_0$.
+
+Vậy $f''(x_0)=6x_0$, tức $f''(x)=6x$.
+
+**Đáp số.** $f''(x)=6x$.
 
 [ĐỀ – EN]
-Car A drives north from an intersection at $60$ kilometers per hour and car B drives east from the same intersection at $80$ kilometers per hour, both starting at the same time. How fast is the distance between them increasing after half an hour?
+Revisit the definition of the derivative. Let $f(x)=x^3$, with $f'(x)=3x^2$. Use the definition of the derivative for the function $f'$ to find $f''(x_0)$.
 
 [LỜI GIẢI CŨ – EN]
-$50\dfrac{dz}{dt}=40(80)+30(60)=5000$, so $\dfrac{dz}{dt}=100$ kilometers per hour.
+$\dfrac{f'(x)-f'(x_0)}{x-x_0}=\dfrac{3x^2-3x_0^2}{x-x_0}=3(x+x_0)\to6x_0$ as $x\to x_0$.
+
+So $f''(x_0)=6x_0$, that is $f''(x)=6x$.
+
+**Answer.** $f''(x)=6x$.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Hàm số $f$ có đạo hàm cấp hai, $f(1)=3$, $f'(1)=2$ và $f''(x)>0$ với mọi $x$. Ước lượng $f(1{,}2)$ bằng tiếp tuyến tại $x=1$ và cho biết giá trị ước lượng lớn hơn hay nhỏ hơn giá trị thật.
+Ôn lại lôgarit và hàm mũ. Tính đạo hàm cấp hai của:
+
+a) $y=\log_2x$.
+
+b) $y=2^x$.
 
 [LỜI GIẢI CŨ – VI]
-$f(1{,}2)\approx3{,}4$. Vì $f''>0$ nên đồ thị lõm lên và nằm phía trên tiếp tuyến, do đó $3{,}4$ nhỏ hơn giá trị thật.
+a) $y'=\dfrac{1}{x\ln2}$ nên $y''=\dfrac{1}{\ln2}\cdot\left(-\dfrac1{x^2}\right)=-\dfrac{1}{x^2\ln2}$.
+
+b) $y'=2^x\ln2$ nên $y''=2^x(\ln2)^2$.
+
+**Đáp số.** a) $-\dfrac1{x^2\ln2}$; b) $2^x(\ln2)^2$.
 
 [ĐỀ – EN]
-A twice-differentiable function has $f(1)=3$, $f'(1)=2$ and $f''(x)>0$ for all $x$. Estimate $f(1.2)$ with the tangent line at $x=1$, and decide whether the estimate is too large or too small.
+Revisit logarithms and exponential functions. Find the second derivative of:
+
+a) $y=\log_2x$.
+
+b) $y=2^x$.
 
 [LỜI GIẢI CŨ – EN]
-$f(1.2)\approx3.4$. Because $f''>0$, the graph is concave up and lies above its tangent line, so $3.4$ is an underestimate.
+a) $y'=\dfrac{1}{x\ln2}$, so $y''=\dfrac{1}{\ln2}\cdot\left(-\dfrac1{x^2}\right)=-\dfrac{1}{x^2\ln2}$.
+
+b) $y'=2^x\ln2$, so $y''=2^x(\ln2)^2$.
+
+**Answer.** a) $-\dfrac1{x^2\ln2}$; b) $2^x(\ln2)^2$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Chứng minh hàm số $y=Ae^x+Be^{-x}$ thoả mãn $y''=y$ với mọi hằng số $A$, $B$. Rồi tìm $A$, $B$ biết $y(0)=2$ và $y'(0)=0$ (các điều kiện ban đầu).
+
+[LỜI GIẢI CŨ – VI]
+$y'=Ae^x-Be^{-x}$ và $y''=Ae^x+Be^{-x}=y$, nên $y''=y$ với mọi $A$, $B$.
+
+Điều kiện $y(0)=2$ cho $A+B=2$; điều kiện $y'(0)=0$ cho $A-B=0$. Suy ra $A=B=1$.
+
+**Đáp số.** $y''=y$; $A=B=1$, tức $y=e^x+e^{-x}$.
+
+[ĐỀ – EN]
+Prove that the function $y=Ae^x+Be^{-x}$ satisfies $y''=y$ for all constants $A$, $B$. Then find $A$ and $B$ given $y(0)=2$ and $y'(0)=0$ (the initial conditions).
+
+[LỜI GIẢI CŨ – EN]
+$y'=Ae^x-Be^{-x}$ and $y''=Ae^x+Be^{-x}=y$, so $y''=y$ for all $A$, $B$.
+
+The condition $y(0)=2$ gives $A+B=2$; the condition $y'(0)=0$ gives $A-B=0$. Hence $A=B=1$.
+
+**Answer.** $y''=y$; $A=B=1$, that is $y=e^x+e^{-x}$.
 
 
 ######################################################################
-@@@ exams/ap-calculus/apcalc-differential-equations
-Bài học: Phương trình vi phân và trường hướng / Differential equations and slope fields
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+@@@ g11/sequence-limits
+Bài học: Giới hạn của dãy số / Limits of sequences
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Nghiệm của $\dfrac{dy}{dx}=2xe^{-y}$ thoả mãn $y(0)=0$ là
-A. $y=x^2$
-B. $y=\ln\left(x^2+1\right)$
-C. $y=e^{x^2}-1$
-D. $y=\ln\left(x^2\right)+1$
+Tính a) $\lim\dfrac{2n+1}{n}$; b) $\lim\left(1-\dfrac3n\right)$; c) $\lim\dfrac{n+5}{2n-1}$.
 
 [LỜI GIẢI CŨ – VI]
-$e^y=x^2+1$, nên $y=\ln\left(x^2+1\right)$: đáp án **B**.
+a) $\dfrac{2n+1}{n}=2+\dfrac1n\to2$. b) $1-\dfrac3n\to1$. c) $\dfrac{n+5}{2n-1}=\dfrac{1+\frac5n}{2-\frac1n}\to\dfrac12$.
+
+**Đáp số.** a) $2$; b) $1$; c) $\dfrac12$.
 
 [ĐỀ – EN]
-Which is the solution of $\dfrac{dy}{dx}=2xe^{-y}$ with $y(0)=0$?
-A. $y=x^2$
-B. $y=\ln\left(x^2+1\right)$
-C. $y=e^{x^2}-1$
-D. $y=\ln\left(x^2\right)+1$
+Find a) $\lim\dfrac{2n+1}{n}$; b) $\lim\left(1-\dfrac3n\right)$; c) $\lim\dfrac{n+5}{2n-1}$.
 
 [LỜI GIẢI CŨ – EN]
-$e^y=x^2+1$, so $y=\ln\left(x^2+1\right)$: answer **B**.
+a) $\dfrac{2n+1}{n}=2+\dfrac1n\to2$. b) $1-\dfrac3n\to1$. c) $\dfrac{n+5}{2n-1}=\dfrac{1+\frac5n}{2-\frac1n}\to\dfrac12$.
+
+**Answer.** a) $2$; b) $1$; c) $\dfrac12$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Chứng tỏ $y=Ce^{-x}+x-1$ là nghiệm của $\dfrac{dy}{dx}=x-y$ với mọi hằng số $C$.
+Tính $\lim\dfrac{5n^2-2n}{3n^2+1}$.
 
 [LỜI GIẢI CŨ – VI]
-Vế trái: $y'=-Ce^{-x}+1$. Vế phải: $x-\left(Ce^{-x}+x-1\right)=1-Ce^{-x}$. Hai vế bằng nhau với mọi $C$. Khi $C=0$ ta được đường thẳng trong trường hướng ở trên.
+$\dfrac{5n^2-2n}{3n^2+1}=\dfrac{5-\frac2n}{3+\frac1{n^2}}\to\dfrac53$.
+
+**Đáp số.** $\dfrac53$.
 
 [ĐỀ – EN]
-Show that $y=Ce^{-x}+x-1$ is a solution of $\dfrac{dy}{dx}=x-y$ for every constant $C$.
+Find $\lim\dfrac{5n^2-2n}{3n^2+1}$.
 
 [LỜI GIẢI CŨ – EN]
-Left side: $y'=-Ce^{-x}+1$. Right side: $x-\left(Ce^{-x}+x-1\right)=1-Ce^{-x}$. They are equal for every $C$. With $C=0$ this is the line in the slope field above.
+$\dfrac{5n^2-2n}{3n^2+1}=\dfrac{5-\frac2n}{3+\frac1{n^2}}\to\dfrac53$.
+
+**Answer.** $\dfrac53$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Giải $\dfrac{dy}{dx}=y^2$ với $y(0)=1$, và cho biết nghiệm tồn tại ở đâu.
+Tính $\lim\dfrac{2^n+5^n}{5^n+1}$.
 
 [LỜI GIẢI CŨ – VI]
-$-\dfrac1y=x-1$, nên $y=\dfrac{1}{1-x}$. Đường cong qua $(0,1)$ tiến ra vô cực tại $x=1$, nên nghiệm tồn tại khi $x<1$.
+$\dfrac{2^n+5^n}{5^n+1}=\dfrac{\left(\frac25\right)^n+1}{1+\frac1{5^n}}\to\dfrac{0+1}{1+0}=1$.
+
+**Đáp số.** $1$.
 
 [ĐỀ – EN]
-Solve $\dfrac{dy}{dx}=y^2$ with $y(0)=1$, and state where the solution exists.
+Find $\lim\dfrac{2^n+5^n}{5^n+1}$.
 
 [LỜI GIẢI CŨ – EN]
-$-\dfrac1y=x-1$, so $y=\dfrac{1}{1-x}$. The curve through $(0,1)$ blows up at $x=1$, so the solution exists for $x<1$.
+$\dfrac{2^n+5^n}{5^n+1}=\dfrac{\left(\frac25\right)^n+1}{1+\frac1{5^n}}\to\dfrac{0+1}{1+0}=1$.
+
+**Answer.** $1$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Một chất phóng xạ có chu kì bán rã $10$ năm. Sau $30$ năm còn lại bao nhiêu phần?
-A. $\dfrac13$
-B. $\dfrac16$
-C. $\dfrac18$
-D. $\dfrac{1}{30}$
+Cho $u_n=\dfrac{2n-1}{n}$. Chứng tỏ $\lim u_n=2$ và tìm số $n$ nhỏ nhất để $|u_n-2|<0{,}001$ với mọi số hạng kể từ $n$ đó trở đi.
 
 [LỜI GIẢI CŨ – VI]
-$\left(\dfrac12\right)^3=\dfrac18$: đáp án **C**.
+$u_n-2=\dfrac{2n-1-2n}{n}=-\dfrac1n$ nên $|u_n-2|=\dfrac1n\to0$, suy ra $\lim u_n=2$. Giải $\dfrac1n<0{,}001$ được $n>1000$, tức $n\ge1001$.
+
+**Đáp số.** $\lim u_n=2$; từ số hạng thứ $1001$ trở đi.
 
 [ĐỀ – EN]
-A radioactive substance has a half-life of $10$ years. What fraction of it remains after $30$ years?
-A. $\dfrac13$
-B. $\dfrac16$
-C. $\dfrac18$
-D. $\dfrac{1}{30}$
+Take $u_n=\dfrac{2n-1}{n}$. Show that $\lim u_n=2$ and find the least $n$ such that $|u_n-2|<0.001$ for every term from that one on.
 
 [LỜI GIẢI CŨ – EN]
-$\left(\dfrac12\right)^3=\dfrac18$: answer **C**.
+$u_n-2=\dfrac{2n-1-2n}{n}=-\dfrac1n$, so $|u_n-2|=\dfrac1n\to0$, hence $\lim u_n=2$. Solving $\dfrac1n<0.001$ gives $n>1000$, that is $n\ge1001$.
+
+**Answer.** $\lim u_n=2$; from the $1001$st term on.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Với $\dfrac{dy}{dx}=x^2-y$, tìm hệ số góc của đường cong nghiệm đi qua $(2,1)$ và phương trình tiếp tuyến tại đó. Dùng nó để xấp xỉ $y(2{,}1)$.
+Tính a) $1+\dfrac13+\dfrac19+\dfrac1{27}+\dots$; b) viết $0{,}(6)=0{,}666\dots$ dưới dạng phân số.
 
 [LỜI GIẢI CŨ – VI]
-Hệ số góc bằng $3$, tiếp tuyến là $y=1+3(x-2)$, và $y(2{,}1)\approx1+3(0{,}1)=1{,}3$.
+a) $u_1=1$, $q=\dfrac13$ nên $S=\dfrac{1}{1-\frac13}=\dfrac32$. b) $0{,}(6)=0{,}6+0{,}06+\dots$ có $u_1=0{,}6$, $q=0{,}1$ nên bằng $\dfrac{0{,}6}{0{,}9}=\dfrac23$.
+
+**Đáp số.** a) $\dfrac32$; b) $\dfrac23$.
 
 [ĐỀ – EN]
-For $\dfrac{dy}{dx}=x^2-y$, find the slope of the solution curve through $(2,1)$ and the equation of its tangent line there. Use it to approximate $y(2.1)$.
+Find a) $1+\dfrac13+\dfrac19+\dfrac1{27}+\dots$; b) write $0.\dot6=0.666\dots$ as a fraction.
 
 [LỜI GIẢI CŨ – EN]
-The slope is $3$, the tangent line is $y=1+3(x-2)$, and $y(2.1)\approx1+3(0.1)=1.3$.
+a) $u_1=1$, $q=\dfrac13$, so $S=\dfrac{1}{1-\frac13}=\dfrac32$. b) $0.\dot6=0.6+0.06+\dots$ has $u_1=0.6$, $q=0.1$, so it equals $\dfrac{0.6}{0.9}=\dfrac23$.
+
+**Answer.** a) $\dfrac32$; b) $\dfrac23$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Một cốc trà ở $90$ độ C được đặt trong phòng $20$ độ C. Nhiệt độ của nó thoả mãn $\dfrac{dT}{dt}=-k(T-20)$, với $t$ tính bằng phút, và $T(10)=55$. Tính $T(20)$.
+Một quả bóng được thả từ độ cao $5$ m; mỗi lần chạm đất, nó nảy lên đến $80\%$ độ cao của lần rơi trước. Tính tổng quãng đường quả bóng đi được cho đến khi dừng hẳn.
 
 [LỜI GIẢI CŨ – VI]
-Chênh lệch nhiệt độ giảm một nửa sau mỗi $10$ phút: $T(20)=20+70\cdot\dfrac14=37{,}5$ độ C.
+Các độ cao nảy: $4$; $3{,}2$; ... có $u_1=4$, $q=0{,}8$, tổng $S=\dfrac{4}{1-0{,}8}=20$ m. Tổng quãng đường là $5+2\cdot20=45$ m.
+
+**Đáp số.** $45$ m.
 
 [ĐỀ – EN]
-A cup of tea at $90$ degrees Celsius is placed in a room at $20$ degrees Celsius. Its temperature satisfies $\dfrac{dT}{dt}=-k(T-20)$, with $t$ in minutes, and $T(10)=55$. Find $T(20)$.
+A ball is dropped from $5$ m; each time it hits the ground it rises to $80\%$ of the height it fell from. Find the total distance the ball travels until it comes to rest.
 
 [LỜI GIẢI CŨ – EN]
-The temperature difference halves every $10$ minutes: $T(20)=20+70\cdot\dfrac14=37.5$ degrees Celsius.
+The bounce heights $4$; $3.2$; ... have $u_1=4$, $q=0.8$ and sum $S=\dfrac{4}{1-0.8}=20$ m. The total distance is $5+2\cdot20=45$ m.
+
+**Answer.** $45$ m.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Xét $\dfrac{dy}{dx}=x(y-1)$ và gọi $y=f(x)$ là nghiệm có $f(0)=3$.
-a) Tìm $\dfrac{d^2y}{dx^2}$ theo $x$ và $y$, rồi tính giá trị tại $(0,3)$.
-b) Tìm $f(x)$ bằng cách tách biến.
+Cho dãy số $u_n=\dfrac{n+2}{n}$. Xét tính đúng sai của các mệnh đề sau:
+
+a) $\lim u_n=1$.
+
+b) Có số nguyên dương $n$ để $u_n=1$.
+
+c) $\lim u_n^2=1$.
+
+d) $\lim n(u_n-1)=0$.
 
 [LỜI GIẢI CŨ – VI]
-a) $\dfrac{d^2y}{dx^2}=(y-1)\left(1+x^2\right)$, bằng $2$ tại $(0,3)$: đồ thị lõm lên ở đó.
+a) **Đúng**: $1+\dfrac2n\to1$.
 
-b) $y-1=2e^{x^2/2}$, nên $f(x)=1+2e^{x^2/2}$.
+b) **Sai**: $\dfrac{n+2}{n}=1$ vô nghiệm vì $u_n=1+\dfrac2n>1$.
+
+c) **Đúng**: $\lim u_n^2=(\lim u_n)^2=1$.
+
+d) **Sai**: $n(u_n-1)=n\cdot\dfrac2n=2$ nên giới hạn bằng $2$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 
 [ĐỀ – EN]
-Consider $\dfrac{dy}{dx}=x(y-1)$, and let $y=f(x)$ be the solution with $f(0)=3$.
-a) Find $\dfrac{d^2y}{dx^2}$ in terms of $x$ and $y$, and evaluate it at $(0,3)$.
-b) Find $f(x)$ by separation of variables.
+Take the sequence $u_n=\dfrac{n+2}{n}$. Decide whether each statement is true or false:
+
+a) $\lim u_n=1$.
+
+b) There is a positive integer $n$ with $u_n=1$.
+
+c) $\lim u_n^2=1$.
+
+d) $\lim n(u_n-1)=0$.
 
 [LỜI GIẢI CŨ – EN]
-a) $\dfrac{d^2y}{dx^2}=(y-1)\left(1+x^2\right)$, equal to $2$ at $(0,3)$: the graph is concave up there.
+a) **True**: $1+\dfrac2n\to1$.
 
-b) $y-1=2e^{x^2/2}$, so $f(x)=1+2e^{x^2/2}$.
+b) **False**: $\dfrac{n+2}{n}=1$ has no solution because $u_n=1+\dfrac2n>1$.
+
+c) **True**: $\lim u_n^2=(\lim u_n)^2=1$.
+
+d) **False**: $n(u_n-1)=n\cdot\dfrac2n=2$, so the limit is $2$.
+
+**Answer.** a) True; b) False; c) True; d) False.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Với $\dfrac{dy}{dx}=2y$ và $y(0)=1$, dùng hai bước Euler độ dài $0{,}25$ để xấp xỉ $y(0{,}5)$. So sánh với giá trị chính xác.
+Tính $\lim\dfrac{6n^2+n}{2n^2-3}$.
 
 [LỜI GIẢI CŨ – VI]
-$y(0{,}25)\approx1{,}5$ và $y(0{,}5)\approx2{,}25$. Nghiệm chính xác là $y=e^{2x}$, nên $y(0{,}5)=e\approx2{,}718$: phương pháp Euler cho giá trị nhỏ hơn vì nghiệm lõm lên.
+$\dfrac{6n^2+n}{2n^2-3}=\dfrac{6+\frac1n}{2-\frac3{n^2}}\to\dfrac62=3$.
+
+**Đáp số.** $3$.
 
 [ĐỀ – EN]
-For $\dfrac{dy}{dx}=2y$ with $y(0)=1$, use two Euler steps of size $0.25$ to approximate $y(0.5)$. Compare with the exact value.
+Find $\lim\dfrac{6n^2+n}{2n^2-3}$.
 
 [LỜI GIẢI CŨ – EN]
-$y(0.25)\approx1.5$ and $y(0.5)\approx2.25$. The exact solution is $y=e^{2x}$, so $y(0.5)=e\approx2.718$: Euler's method underestimates because the solution is concave up.
+$\dfrac{6n^2+n}{2n^2-3}=\dfrac{6+\frac1n}{2-\frac3{n^2}}\to\dfrac62=3$.
+
+**Answer.** $3$.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Một tin đồn lan trong trường có $600$ học sinh theo $\dfrac{dP}{dt}=0{,}3P\left(1-\dfrac{P}{600}\right)$, trong đó $P$ là số học sinh đã nghe tin sau $t$ ngày, và $P(0)=100$.
-a) Tìm $\displaystyle\lim_{t\to\infty}P(t)$.
-b) Tin đồn lan nhanh nhất khi $P$ bằng bao nhiêu?
-c) Tại $t=0$, đồ thị của $P$ lõm lên hay lõm xuống?
+Cấp số nhân $(u_n)$ có $u_1=4$ và $q=\dfrac12$. Dùng công thức tổng ở bài cấp số nhân, tính $S_5$. Tìm tổng $S=\lim S_n$ và số $n$ nhỏ nhất để $|S-S_n|<0{,}01$.
 
 [LỜI GIẢI CŨ – VI]
-a) $600$. b) $P=300$. c) Lõm lên: $P(0)=100<300$, nên $\dfrac{dP}{dt}$ vẫn đang tăng.
+$S_5=\dfrac{4\left(1-\frac1{32}\right)}{\frac12}=7{,}75$ và $S=\dfrac{4}{\frac12}=8$. Ta có $S-S_n=8\cdot\left(\dfrac12\right)^n=\dfrac{8}{2^n}$. Giải $\dfrac8{2^n}<0{,}01$ được $2^n>800$; vì $2^9=512<800<1024=2^{10}$ nên $n=10$.
+
+**Đáp số.** $S_5=7{,}75$; $S=8$; $n=10$.
 
 [ĐỀ – EN]
-A rumor spreads in a school of $600$ students according to $\dfrac{dP}{dt}=0.3P\left(1-\dfrac{P}{600}\right)$, where $P$ is the number who have heard it after $t$ days, and $P(0)=100$.
-a) Find $\displaystyle\lim_{t\to\infty}P(t)$.
-b) For what value of $P$ is the rumor spreading fastest?
-c) Is the graph of $P$ concave up or concave down at $t=0$?
+A geometric progression $(u_n)$ has $u_1=4$ and $q=\dfrac12$. Using the sum formula from the lesson on geometric progressions, find $S_5$. Find the sum $S=\lim S_n$ and the least $n$ such that $|S-S_n|<0.01$.
 
 [LỜI GIẢI CŨ – EN]
-a) $600$. b) $P=300$. c) Concave up: $P(0)=100<300$, so $\dfrac{dP}{dt}$ is still increasing.
+$S_5=\dfrac{4\left(1-\frac1{32}\right)}{\frac12}=7.75$ and $S=\dfrac{4}{\frac12}=8$. We have $S-S_n=8\cdot\left(\dfrac12\right)^n=\dfrac{8}{2^n}$. Solving $\dfrac8{2^n}<0.01$ gives $2^n>800$; since $2^9=512<800<1024=2^{10}$, we get $n=10$.
+
+**Answer.** $S_5=7.75$; $S=8$; $n=10$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tính $\lim\left(\sqrt{n^2+n}-n\right)$.
+
+[LỜI GIẢI CŨ – VI]
+$\sqrt{n^2+n}-n=\dfrac{(n^2+n)-n^2}{\sqrt{n^2+n}+n}=\dfrac{n}{\sqrt{n^2+n}+n}=\dfrac{1}{\sqrt{1+\frac1n}+1}\to\dfrac{1}{1+1}=\dfrac12$.
+
+**Đáp số.** $\dfrac12$.
+
+[ĐỀ – EN]
+Find $\lim\left(\sqrt{n^2+n}-n\right)$.
+
+[LỜI GIẢI CŨ – EN]
+$\sqrt{n^2+n}-n=\dfrac{(n^2+n)-n^2}{\sqrt{n^2+n}+n}=\dfrac{n}{\sqrt{n^2+n}+n}=\dfrac{1}{\sqrt{1+\frac1n}+1}\to\dfrac{1}{1+1}=\dfrac12$.
+
+**Answer.** $\dfrac12$.
 
 
 ######################################################################
-@@@ exams/ap-calculus/apcalc-differentiation-rules
-Bài học: Định nghĩa đạo hàm và các quy tắc tính / The derivative and differentiation rules
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+@@@ g11/sequences-intro
+Bài học: Dãy số / Sequences
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-$\displaystyle\lim_{h\to0}\frac{\sin\left(\frac{\pi}{2}+h\right)-1}{h}$ bằng
-A. $-1$
-B. $0$
-C. $1$
-D. Giới hạn không tồn tại.
+Cho dãy số $(u_n)$ với $u_n=n^2-3n$. Viết năm số hạng đầu. Số $28$ có phải là số hạng của dãy không? Nếu có, nó là số hạng thứ mấy?
 
 [LỜI GIẢI CŨ – VI]
-Giới hạn bằng $\cos\dfrac{\pi}{2}=0$: đáp án **B**.
+Ta có $u_1=-2$, $u_2=-2$, $u_3=0$, $u_4=4$, $u_5=10$. Xét $n^2-3n=28$, tức $n^2-3n-28=0$, $(n-7)(n+4)=0$. Nghiệm nguyên dương là $n=7$.
+
+**Đáp số.** $-2, -2, 0, 4, 10$; $28$ là số hạng thứ $7$.
 
 [ĐỀ – EN]
-What is $\displaystyle\lim_{h\to0}\frac{\sin\left(\frac{\pi}{2}+h\right)-1}{h}$?
-A. $-1$
-B. $0$
-C. $1$
-D. The limit does not exist.
+Let $(u_n)$ be the sequence with $u_n=n^2-3n$. Write down the first five terms. Is $28$ a term of the sequence? If so, which term is it?
 
 [LỜI GIẢI CŨ – EN]
-The limit is $\cos\dfrac{\pi}{2}=0$: answer **B**.
+We have $u_1=-2$, $u_2=-2$, $u_3=0$, $u_4=4$, $u_5=10$. Consider $n^2-3n=28$, that is $n^2-3n-28=0$, $(n-7)(n+4)=0$. The positive integer solution is $n=7$.
+
+**Answer.** $-2, -2, 0, 4, 10$; $28$ is the $7$th term.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Với $g(x)=5x^4-3x^2+\dfrac{4}{x^2}$, tính $g'(1)$.
+Cho dãy số $(u_n)$ với $u_1=-1$ và $u_{n+1}=u_n+2n$. Viết năm số hạng đầu.
 
 [LỜI GIẢI CŨ – VI]
-$g'(x)=20x^3-6x-8x^{-3}$, nên $g'(1)=20-6-8=6$.
+$u_2=-1+2=1$; $u_3=1+4=5$; $u_4=5+6=11$; $u_5=11+8=19$.
+
+**Đáp số.** $-1, 1, 5, 11, 19$.
 
 [ĐỀ – EN]
-For $g(x)=5x^4-3x^2+\dfrac{4}{x^2}$, find $g'(1)$.
+Let $(u_n)$ be the sequence with $u_1=-1$ and $u_{n+1}=u_n+2n$. Write down the first five terms.
 
 [LỜI GIẢI CŨ – EN]
-$g'(x)=20x^3-6x-8x^{-3}$, so $g'(1)=20-6-8=6$.
+$u_2=-1+2=1$; $u_3=1+4=5$; $u_4=5+6=11$; $u_5=11+8=19$.
+
+**Answer.** $-1, 1, 5, 11, 19$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Với $f(x)=xe^x$, $f'(0)$ bằng
-A. $0$
-B. $e$
-C. $2$
-D. $1$
+Dự đoán công thức số hạng tổng quát của các dãy số: a) $1, 4, 7, 10, 13, \dots$; b) $2, 4, 8, 16, \dots$; c) $\dfrac12, \dfrac23, \dfrac34, \dfrac45, \dots$.
 
 [LỜI GIẢI CŨ – VI]
-$f'(0)=1+0=1$: đáp án **D**.
+a) Mỗi số hạng hơn số hạng trước $3$ và $u_1=1$, nên $u_n=1+3(n-1)=3n-2$.
+
+b) $2=2^1$, $4=2^2$, $8=2^3$, nên $u_n=2^n$.
+
+c) Tử là $n$, mẫu là $n+1$, nên $u_n=\dfrac{n}{n+1}$.
+
+**Đáp số.** a) $u_n=3n-2$; b) $u_n=2^n$; c) $u_n=\dfrac{n}{n+1}$.
 
 [ĐỀ – EN]
-For $f(x)=xe^x$, what is $f'(0)$?
-A. $0$
-B. $e$
-C. $2$
-D. $1$
+Guess a formula for the general term of each sequence: a) $1, 4, 7, 10, 13, \dots$; b) $2, 4, 8, 16, \dots$; c) $\dfrac12, \dfrac23, \dfrac34, \dfrac45, \dots$.
 
 [LỜI GIẢI CŨ – EN]
-$f'(0)=1+0=1$: answer **D**.
+a) Each term is $3$ more than the previous one and $u_1=1$, so $u_n=1+3(n-1)=3n-2$.
+
+b) $2=2^1$, $4=2^2$, $8=2^3$, so $u_n=2^n$.
+
+c) The numerator is $n$ and the denominator is $n+1$, so $u_n=\dfrac{n}{n+1}$.
+
+**Answer.** a) $u_n=3n-2$; b) $u_n=2^n$; c) $u_n=\dfrac{n}{n+1}$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Với $f(x)=\dfrac{x}{x^2+1}$, tính $f'(1)$ và giải thích ý nghĩa.
+Xét tính tăng, giảm và bị chặn của dãy số $(u_n)$ với $u_n=\dfrac{3n-2}{n+1}$.
 
 [LỜI GIẢI CŨ – VI]
-$f'(x)=\dfrac{1-x^2}{(x^2+1)^2}$, nên $f'(1)=0$: tiếp tuyến tại $x=1$ nằm ngang. Thật ra $f$ đạt giá trị lớn nhất $\dfrac12$ tại đó.
+Ta có $u_{n+1}=\dfrac{3n+1}{n+2}$ nên $u_{n+1}-u_n=\dfrac{(3n+1)(n+1)-(3n-2)(n+2)}{(n+1)(n+2)}=\dfrac{5}{(n+1)(n+2)}>0$, tức dãy tăng. Vì $u_n=3-\dfrac{5}{n+1}<3$ và dãy tăng nên $u_n\ge u_1=\dfrac12$.
+
+**Đáp số.** Dãy tăng; $\dfrac12\le u_n<3$ nên dãy bị chặn.
 
 [ĐỀ – EN]
-For $f(x)=\dfrac{x}{x^2+1}$, find $f'(1)$ and interpret it.
+Decide whether the sequence $(u_n)$ with $u_n=\dfrac{3n-2}{n+1}$ is increasing or decreasing, and whether it is bounded.
 
 [LỜI GIẢI CŨ – EN]
-$f'(x)=\dfrac{1-x^2}{(x^2+1)^2}$, so $f'(1)=0$: the tangent line at $x=1$ is horizontal. In fact $f$ has its maximum value $\dfrac12$ there.
+We have $u_{n+1}=\dfrac{3n+1}{n+2}$, so $u_{n+1}-u_n=\dfrac{(3n+1)(n+1)-(3n-2)(n+2)}{(n+1)(n+2)}=\dfrac{5}{(n+1)(n+2)}>0$, so the sequence is increasing. Since $u_n=3-\dfrac{5}{n+1}<3$ and the sequence is increasing, $u_n\ge u_1=\dfrac12$.
+
+**Answer.** The sequence is increasing; $\dfrac12\le u_n<3$, so it is bounded.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Viết phương trình tiếp tuyến của $y=\ln x$ tại $x=1$.
+An mua một chiếc điện thoại giá $24$ triệu đồng, trả góp không lãi, mỗi tháng trả $2$ triệu đồng. Gọi $u_n$ là số tiền (triệu đồng) còn nợ sau tháng thứ $n$. Viết hệ thức truy hồi và công thức tổng quát của $u_n$. Sau bao nhiêu tháng thì An hết nợ?
 
 [LỜI GIẢI CŨ – VI]
-$y=0+1\cdot(x-1)$, tức là $y=x-1$.
+Sau tháng thứ nhất còn nợ $u_1=22$, và $u_{n+1}=u_n-2$. Từ $u_1$ đến $u_n$ ta trừ $2$ đúng $n-1$ lần nên $u_n=22-2(n-1)=24-2n$. Giải $24-2n=0$ ta được $n=12$.
+
+**Đáp số.** $u_1=22$, $u_{n+1}=u_n-2$; $u_n=24-2n$; hết nợ sau $12$ tháng.
 
 [ĐỀ – EN]
-Write the equation of the tangent line to $y=\ln x$ at $x=1$.
+An buys a phone for $24$ million dong and pays it off with no interest, $2$ million dong each month. Let $u_n$ be the amount still owed (in millions of dong) after month $n$. Write down a recurrence relation and a formula for the general term $u_n$. After how many months has An paid off the phone?
 
 [LỜI GIẢI CŨ – EN]
-$y=0+1\cdot(x-1)$, that is $y=x-1$.
+After the first month the debt is $u_1=22$, and $u_{n+1}=u_n-2$. From $u_1$ to $u_n$ we subtract $2$ exactly $n-1$ times, so $u_n=22-2(n-1)=24-2n$. Solving $24-2n=0$ gives $n=12$.
+
+**Answer.** $u_1=22$, $u_{n+1}=u_n-2$; $u_n=24-2n$; the debt is paid off after $12$ months.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Một chất điểm chuyển động trên một đường thẳng với vị trí $s(t)=t^3-6t^2+9t$ khi $t\ge0$. Vào những thời điểm nào chất điểm đứng yên?
+Một rạp chiếu phim có hàng ghế thứ nhất gồm $20$ ghế, mỗi hàng sau nhiều hơn hàng trước $2$ ghế. Gọi $a_n$ là số ghế ở hàng thứ $n$. Tìm công thức của $a_n$. Hàng thứ $15$ có bao nhiêu ghế? Hàng nào có $40$ ghế?
 
 [LỜI GIẢI CŨ – VI]
-$3(t^2-4t+3)=3(t-1)(t-3)=0$, nên chất điểm đứng yên tại $t=1$ và $t=3$.
+Ta có $a_n=20+2(n-1)=18+2n$. Do đó $a_{15}=18+30=48$. Giải $18+2n=40$ ta được $n=11$.
+
+**Đáp số.** $a_n=18+2n$; hàng thứ $15$ có $48$ ghế; hàng thứ $11$ có $40$ ghế.
 
 [ĐỀ – EN]
-A particle moves along a line with position $s(t)=t^3-6t^2+9t$ for $t\ge0$. At what times is the particle at rest?
+A cinema has $20$ seats in the first row, and each row after that has $2$ more seats than the row before. Let $a_n$ be the number of seats in row $n$. Find a formula for $a_n$. How many seats are in row $15$? Which row has $40$ seats?
 
 [LỜI GIẢI CŨ – EN]
-$3(t^2-4t+3)=3(t-1)(t-3)=0$, so the particle is at rest at $t=1$ and $t=3$.
+We have $a_n=20+2(n-1)=18+2n$. So $a_{15}=18+30=48$. Solving $18+2n=40$ gives $n=11$.
+
+**Answer.** $a_n=18+2n$; row $15$ has $48$ seats; row $11$ has $40$ seats.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Tìm các điểm trên đồ thị $y=x^3-3x$ mà tại đó tiếp tuyến nằm ngang.
+Cho dãy số $(u_n)$ với $u_n=\dfrac{2n-1}{n}$. Xét tính đúng sai của các mệnh đề sau:
+
+a) $u_4=\dfrac74$.
+
+b) Dãy số $(u_n)$ là dãy số tăng.
+
+c) $u_n\ge2$ với mọi $n$.
+
+d) $1\le u_n<2$ với mọi $n$.
 
 [LỜI GIẢI CŨ – VI]
-$3x^2-3=0$ cho $x=\pm1$. Các điểm là $(1, -2)$ và $(-1, 2)$.
+a) **Đúng**: $u_4=\dfrac{2\cdot4-1}{4}=\dfrac74$.
+
+b) **Đúng**: $u_{n+1}-u_n=\dfrac1n-\dfrac{1}{n+1}=\dfrac{1}{n(n+1)}>0$.
+
+c) **Sai**: $u_n=2-\dfrac1n<2$; chẳng hạn $u_1=1<2$.
+
+d) **Đúng**: vì $0<\dfrac1n\le1$ nên $1\le2-\dfrac1n<2$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 
 [ĐỀ – EN]
-Find the points on the graph of $y=x^3-3x$ where the tangent line is horizontal.
+Let $(u_n)$ be the sequence with $u_n=\dfrac{2n-1}{n}$. Decide whether each statement is true or false.
+
+a) $u_4=\dfrac74$.
+
+b) The sequence $(u_n)$ is increasing.
+
+c) $u_n\ge2$ for all $n$.
+
+d) $1\le u_n<2$ for all $n$.
 
 [LỜI GIẢI CŨ – EN]
-$3x^2-3=0$ gives $x=\pm1$. The points are $(1, -2)$ and $(-1, 2)$.
+a) **True**: $u_4=\dfrac{2\cdot4-1}{4}=\dfrac74$.
+
+b) **True**: $u_{n+1}-u_n=\dfrac1n-\dfrac{1}{n+1}=\dfrac{1}{n(n+1)}>0$.
+
+c) **False**: $u_n=2-\dfrac1n<2$; for example $u_1=1<2$.
+
+d) **True**: since $0<\dfrac1n\le1$, we have $1\le2-\dfrac1n<2$.
+
+**Answer.** a) True; b) True; c) False; d) True.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Bảng cho giá trị của các hàm số có đạo hàm $f$ và $g$ tại $x=2$.
-
-| $x$ | $f(x)$ | $f'(x)$ | $g(x)$ | $g'(x)$ |
-|---|---|---|---|---|
-| $2$ | $3$ | $-1$ | $4$ | $5$ |
-
-Đặt $h(x)=f(x)g(x)$. Tính $h'(2)$.
+Dãy số Fibonacci được cho bởi $u_1=1$, $u_2=1$ và $u_{n+1}=u_n+u_{n-1}$ với $n\ge2$. Tính $u_{12}$.
 
 [LỜI GIẢI CŨ – VI]
-$h'(2)=(-1)(4)+(3)(5)=-4+15=11$.
+Các số hạng là $1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144$.
+
+**Đáp số.** $u_{12}=144$.
 
 [ĐỀ – EN]
-The table gives values of the differentiable functions $f$ and $g$ at $x=2$.
-
-| $x$ | $f(x)$ | $f'(x)$ | $g(x)$ | $g'(x)$ |
-|---|---|---|---|---|
-| $2$ | $3$ | $-1$ | $4$ | $5$ |
-
-Let $h(x)=f(x)g(x)$. Find $h'(2)$.
+The Fibonacci sequence is given by $u_1=1$, $u_2=1$ and $u_{n+1}=u_n+u_{n-1}$ for $n\ge2$. Find $u_{12}$.
 
 [LỜI GIẢI CŨ – EN]
-$h'(2)=(-1)(4)+(3)(5)=-4+15=11$.
+The terms are $1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144$.
+
+**Answer.** $u_{12}=144$.
 
 === Bài 9 ===
 [ĐỀ – VI]
-$$f(x)=\begin{cases}ax^2, & x\le1\\ bx-2, & x>1\end{cases}$$
-Tìm $a$ và $b$ để $f$ có đạo hàm tại $x=1$.
+Cho dãy số $(u_n)$ với $u_n=\sin\dfrac{n\pi}{2}$. Viết sáu số hạng đầu. Dãy số có bị chặn không? Tính $u_{2027}$.
 
 [LỜI GIẢI CŨ – VI]
-Thay $b=2a$ vào $a=b-2$ được $a=2a-2$, nên $a=2$ và $b=4$. Kiểm tra: cả hai nhánh cho giá trị $2$ và hệ số góc $4$ tại $x=1$.
+Sáu số hạng đầu là $1, 0, -1, 0, 1, 0$. Vì $-1\le\sin x\le1$ nên $-1\le u_n\le1$, dãy bị chặn. Vì $u_{n+4}=\sin\left(\dfrac{n\pi}{2}+2\pi\right)=u_n$ và $2027=4\cdot506+3$ nên $u_{2027}=u_3=-1$.
+
+**Đáp số.** $1, 0, -1, 0, 1, 0$; dãy bị chặn; $u_{2027}=-1$.
 
 [ĐỀ – EN]
-$$f(x)=\begin{cases}ax^2, & x\le1\\ bx-2, & x>1\end{cases}$$
-Find $a$ and $b$ so that $f$ is differentiable at $x=1$.
+Let $(u_n)$ be the sequence with $u_n=\sin\dfrac{n\pi}{2}$. Write down the first six terms. Is the sequence bounded? Find $u_{2027}$.
 
 [LỜI GIẢI CŨ – EN]
-Substituting $b=2a$ into $a=b-2$ gives $a=2a-2$, so $a=2$ and $b=4$. Check: both pieces give the value $2$ and the slope $4$ at $x=1$.
+The first six terms are $1, 0, -1, 0, 1, 0$. Since $-1\le\sin x\le1$, we have $-1\le u_n\le1$, so the sequence is bounded. Since $u_{n+4}=\sin\left(\dfrac{n\pi}{2}+2\pi\right)=u_n$ and $2027=4\cdot506+3$, we get $u_{2027}=u_3=-1$.
+
+**Answer.** $1, 0, -1, 0, 1, 0$; the sequence is bounded; $u_{2027}=-1$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Cho dãy số $(u_n)$ với $u_n=n+\dfrac1n$. Chứng minh $(u_n)$ là dãy số tăng, bị chặn dưới nhưng không bị chặn trên.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $u_{n+1}-u_n=1+\dfrac{1}{n+1}-\dfrac1n=1-\dfrac{1}{n(n+1)}$. Vì $n(n+1)\ge2$ nên $\dfrac{1}{n(n+1)}\le\dfrac12$ và $u_{n+1}-u_n\ge\dfrac12>0$: dãy tăng. Từ $(n-1)^2\ge0$ ta có $n^2+1\ge2n$, chia cho $n>0$ được $u_n\ge2$: dãy bị chặn dưới. Với mọi số $M$, lấy số nguyên dương $n>M$ thì $u_n>n>M$, nên không có $M$ nào chặn trên dãy.
+
+**Đáp số.** Dãy tăng, bị chặn dưới bởi $2$, không bị chặn trên.
+
+[ĐỀ – EN]
+Let $(u_n)$ be the sequence with $u_n=n+\dfrac1n$. Prove that $(u_n)$ is increasing and bounded below but not bounded above.
+
+[LỜI GIẢI CŨ – EN]
+We have $u_{n+1}-u_n=1+\dfrac{1}{n+1}-\dfrac1n=1-\dfrac{1}{n(n+1)}$. Since $n(n+1)\ge2$, $\dfrac{1}{n(n+1)}\le\dfrac12$ and $u_{n+1}-u_n\ge\dfrac12>0$: the sequence is increasing. From $(n-1)^2\ge0$ we get $n^2+1\ge2n$, and dividing by $n>0$ gives $u_n\ge2$: the sequence is bounded below. For every number $M$, take a positive integer $n>M$; then $u_n>n>M$, so no number $M$ bounds the sequence above.
+
+**Answer.** The sequence is increasing, bounded below by $2$, and not bounded above.
+
+
+######################################################################
+@@@ g11/trig-formulas
+Bài học: Công thức lượng giác / Trigonometric formulas
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính $\cos15^\circ$ và $\tan15^\circ$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\cos15^\circ=\cos45^\circ\cos30^\circ+\sin45^\circ\sin30^\circ=\dfrac{\sqrt6+\sqrt2}{4}$.
+
+Ta có $\tan15^\circ=\dfrac{1-\frac{1}{\sqrt3}}{1+\frac{1}{\sqrt3}}=\dfrac{\sqrt3-1}{\sqrt3+1}=\dfrac{(\sqrt3-1)^2}{2}=2-\sqrt3$.
+
+**Đáp số.** $\cos15^\circ=\dfrac{\sqrt6+\sqrt2}{4}$; $\tan15^\circ=2-\sqrt3$.
+
+[ĐỀ – EN]
+Find $\cos15^\circ$ and $\tan15^\circ$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\cos15^\circ=\cos45^\circ\cos30^\circ+\sin45^\circ\sin30^\circ=\dfrac{\sqrt6+\sqrt2}{4}$.
+
+We have $\tan15^\circ=\dfrac{1-\frac{1}{\sqrt3}}{1+\frac{1}{\sqrt3}}=\dfrac{\sqrt3-1}{\sqrt3+1}=\dfrac{(\sqrt3-1)^2}{2}=2-\sqrt3$.
+
+**Answer.** $\cos15^\circ=\dfrac{\sqrt6+\sqrt2}{4}$; $\tan15^\circ=2-\sqrt3$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho $\sin a=\dfrac35$ với $\dfrac{\pi}{2}<a<\pi$ và $\cos b=\dfrac{5}{13}$ với $0<b<\dfrac{\pi}{2}$. Tính $\sin(a+b)$ và $\cos(a+b)$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $a$ thuộc góc phần tư thứ hai nên $\cos a=-\sqrt{1-\frac{9}{25}}=-\dfrac45$. Vì $0<b<\dfrac{\pi}{2}$ nên $\sin b=\sqrt{1-\frac{25}{169}}=\dfrac{12}{13}$. Do đó
+$$\sin(a+b)=\dfrac35\cdot\dfrac{5}{13}+\left(-\dfrac45\right)\dfrac{12}{13}=-\dfrac{33}{65},\qquad \cos(a+b)=\left(-\dfrac45\right)\dfrac{5}{13}-\dfrac35\cdot\dfrac{12}{13}=-\dfrac{56}{65}.$$
+
+**Đáp số.** $\sin(a+b)=-\dfrac{33}{65}$; $\cos(a+b)=-\dfrac{56}{65}$.
+
+[ĐỀ – EN]
+Given $\sin a=\dfrac35$ with $\dfrac{\pi}{2}<a<\pi$ and $\cos b=\dfrac{5}{13}$ with $0<b<\dfrac{\pi}{2}$, find $\sin(a+b)$ and $\cos(a+b)$.
+
+[LỜI GIẢI CŨ – EN]
+Since $a$ is in the second quadrant, $\cos a=-\sqrt{1-\frac{9}{25}}=-\dfrac45$. Since $0<b<\dfrac{\pi}{2}$, $\sin b=\sqrt{1-\frac{25}{169}}=\dfrac{12}{13}$. Hence
+$$\sin(a+b)=\dfrac35\cdot\dfrac{5}{13}+\left(-\dfrac45\right)\dfrac{12}{13}=-\dfrac{33}{65},\qquad \cos(a+b)=\left(-\dfrac45\right)\dfrac{5}{13}-\dfrac35\cdot\dfrac{12}{13}=-\dfrac{56}{65}.$$
+
+**Answer.** $\sin(a+b)=-\dfrac{33}{65}$; $\cos(a+b)=-\dfrac{56}{65}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho $\sin\alpha=\dfrac45$ với $\dfrac{\pi}{2}<\alpha<\pi$. Tính $\sin2\alpha$ và $\cos2\alpha$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $\dfrac{\pi}{2}<\alpha<\pi$ nên $\cos\alpha=-\sqrt{1-\frac{16}{25}}=-\dfrac35$. Do đó $\sin2\alpha=2\cdot\dfrac45\cdot\left(-\dfrac35\right)=-\dfrac{24}{25}$ và $\cos2\alpha=1-2\cdot\dfrac{16}{25}=-\dfrac{7}{25}$.
+
+**Đáp số.** $\sin2\alpha=-\dfrac{24}{25}$; $\cos2\alpha=-\dfrac{7}{25}$.
+
+[ĐỀ – EN]
+Given $\sin\alpha=\dfrac45$ with $\dfrac{\pi}{2}<\alpha<\pi$, find $\sin2\alpha$ and $\cos2\alpha$.
+
+[LỜI GIẢI CŨ – EN]
+Since $\dfrac{\pi}{2}<\alpha<\pi$, $\cos\alpha=-\sqrt{1-\frac{16}{25}}=-\dfrac35$. Hence $\sin2\alpha=2\cdot\dfrac45\cdot\left(-\dfrac35\right)=-\dfrac{24}{25}$ and $\cos2\alpha=1-2\cdot\dfrac{16}{25}=-\dfrac{7}{25}$.
+
+**Answer.** $\sin2\alpha=-\dfrac{24}{25}$; $\cos2\alpha=-\dfrac{7}{25}$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính a) $\sin15^\circ\cos75^\circ$; b) $\cos105^\circ+\cos15^\circ$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\sin15^\circ\cos75^\circ=\dfrac12\left[\sin(-60^\circ)+\sin90^\circ\right]=\dfrac12\left(1-\dfrac{\sqrt3}{2}\right)=\dfrac{2-\sqrt3}{4}$.
+
+b) $\cos105^\circ+\cos15^\circ=2\cos60^\circ\cos45^\circ=2\cdot\dfrac12\cdot\dfrac{\sqrt2}{2}=\dfrac{\sqrt2}{2}$.
+
+**Đáp số.** a) $\dfrac{2-\sqrt3}{4}$; b) $\dfrac{\sqrt2}{2}$.
+
+[ĐỀ – EN]
+Find a) $\sin15^\circ\cos75^\circ$; b) $\cos105^\circ+\cos15^\circ$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\sin15^\circ\cos75^\circ=\dfrac12\left[\sin(-60^\circ)+\sin90^\circ\right]=\dfrac12\left(1-\dfrac{\sqrt3}{2}\right)=\dfrac{2-\sqrt3}{4}$.
+
+b) $\cos105^\circ+\cos15^\circ=2\cos60^\circ\cos45^\circ=2\cdot\dfrac12\cdot\dfrac{\sqrt2}{2}=\dfrac{\sqrt2}{2}$.
+
+**Answer.** a) $\dfrac{2-\sqrt3}{4}$; b) $\dfrac{\sqrt2}{2}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Rút gọn biểu thức $A=\dfrac{\sin3x+\sin x}{\cos3x+\cos x}$ (với $x$ làm cho biểu thức xác định).
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\sin3x+\sin x=2\sin2x\cos x$ và $\cos3x+\cos x=2\cos2x\cos x$. Vì biểu thức xác định nên $\cos x\ne0$, do đó
+$$A=\dfrac{2\sin2x\cos x}{2\cos2x\cos x}=\dfrac{\sin2x}{\cos2x}=\tan2x.$$
+
+**Đáp số.** $A=\tan2x$.
+
+[ĐỀ – EN]
+Simplify $A=\dfrac{\sin3x+\sin x}{\cos3x+\cos x}$ (for values of $x$ where the expression is defined).
+
+[LỜI GIẢI CŨ – EN]
+We have $\sin3x+\sin x=2\sin2x\cos x$ and $\cos3x+\cos x=2\cos2x\cos x$. Since the expression is defined, $\cos x\ne0$, so
+$$A=\dfrac{2\sin2x\cos x}{2\cos2x\cos x}=\dfrac{\sin2x}{\cos2x}=\tan2x.$$
+
+**Answer.** $A=\tan2x$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một cầu thủ đá quả bóng với vận tốc đầu $15$ m/s, bóng chạm đất cách chỗ đá $20$ m. Dùng công thức tầm xa $R=\dfrac{v^2\sin2\alpha}{g}$ với $g\approx9{,}8$ m/s$^2$ (bỏ qua sức cản của không khí), tính góc đá $\alpha$ (đơn vị độ, làm tròn đến hàng phần mười). Có mấy góc như vậy với $0^\circ<\alpha<90^\circ$?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\sin2\alpha=\dfrac{20\cdot9{,}8}{15^2}=\dfrac{196}{225}\approx0{,}8711$. Vì $0^\circ<2\alpha<180^\circ$ nên $2\alpha\approx60{,}6^\circ$ hoặc $2\alpha\approx180^\circ-60{,}6^\circ=119{,}4^\circ$, suy ra $\alpha\approx30{,}3^\circ$ hoặc $\alpha\approx59{,}7^\circ$.
+
+**Đáp số.** Có hai góc: $\alpha\approx30{,}3^\circ$ và $\alpha\approx59{,}7^\circ$ (hai góc phụ nhau).
+
+[ĐỀ – EN]
+A player kicks a ball with initial speed $15$ m/s and it lands $20$ m from the kick. Use the range formula $R=\dfrac{v^2\sin2\alpha}{g}$ with $g\approx9.8$ m/s$^2$ (ignoring air resistance) to find the kick angle $\alpha$ (in degrees, to 1 decimal place). How many such angles are there with $0^\circ<\alpha<90^\circ$?
+
+[LỜI GIẢI CŨ – EN]
+We have $\sin2\alpha=\dfrac{20\cdot9.8}{15^2}=\dfrac{196}{225}\approx0.8711$. Since $0^\circ<2\alpha<180^\circ$, either $2\alpha\approx60.6^\circ$ or $2\alpha\approx180^\circ-60.6^\circ=119.4^\circ$, so $\alpha\approx30.3^\circ$ or $\alpha\approx59.7^\circ$.
+
+**Answer.** There are two angles: $\alpha\approx30.3^\circ$ and $\alpha\approx59.7^\circ$ (complementary angles).
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho $\alpha=\dfrac{\pi}{12}$. Xét tính đúng sai của các mệnh đề sau:
+
+a) $\cos\alpha=\cos\dfrac{\pi}{3}-\cos\dfrac{\pi}{4}$.
+
+b) $\cos\alpha=\dfrac{\sqrt6+\sqrt2}{4}$.
+
+c) $\sin\alpha\cos\alpha=\dfrac14$.
+
+d) $\tan\alpha=2+\sqrt3$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Sai**: $\cos\dfrac{\pi}{12}\approx0{,}966$, còn $\cos\dfrac{\pi}{3}-\cos\dfrac{\pi}{4}\approx-0{,}207$; hiệu hai côsin không phải côsin của hiệu hai góc.
+
+b) **Đúng**: $\cos\dfrac{\pi}{12}=\cos\dfrac{\pi}{3}\cos\dfrac{\pi}{4}+\sin\dfrac{\pi}{3}\sin\dfrac{\pi}{4}=\dfrac{\sqrt2}{4}+\dfrac{\sqrt6}{4}$.
+
+c) **Đúng**: $\sin\alpha\cos\alpha=\dfrac12\sin\dfrac{\pi}{6}=\dfrac14$.
+
+d) **Sai**: $\tan\dfrac{\pi}{12}=\tan15^\circ=2-\sqrt3\approx0{,}268$; $2+\sqrt3$ là $\tan75^\circ$.
+
+**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Let $\alpha=\dfrac{\pi}{12}$. Decide whether each statement is true or false.
+
+a) $\cos\alpha=\cos\dfrac{\pi}{3}-\cos\dfrac{\pi}{4}$.
+
+b) $\cos\alpha=\dfrac{\sqrt6+\sqrt2}{4}$.
+
+c) $\sin\alpha\cos\alpha=\dfrac14$.
+
+d) $\tan\alpha=2+\sqrt3$.
+
+[LỜI GIẢI CŨ – EN]
+a) **False**: $\cos\dfrac{\pi}{12}\approx0.966$, but $\cos\dfrac{\pi}{3}-\cos\dfrac{\pi}{4}\approx-0.207$; a difference of cosines is not the cosine of a difference of angles.
+
+b) **True**: $\cos\dfrac{\pi}{12}=\cos\dfrac{\pi}{3}\cos\dfrac{\pi}{4}+\sin\dfrac{\pi}{3}\sin\dfrac{\pi}{4}=\dfrac{\sqrt2}{4}+\dfrac{\sqrt6}{4}$.
+
+c) **True**: $\sin\alpha\cos\alpha=\dfrac12\sin\dfrac{\pi}{6}=\dfrac14$.
+
+d) **False**: $\tan\dfrac{\pi}{12}=\tan15^\circ=2-\sqrt3\approx0.268$; $2+\sqrt3$ is $\tan75^\circ$.
+
+**Answer.** a) False; b) True; c) True; d) False.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một người đứng cách một bức tường $8$ m. Mép dưới của một tấm băng rôn treo trên tường cao hơn mắt người đó $1$ m, mép trên cao hơn mắt $7$ m. Tính góc nhìn tấm băng rôn (đơn vị độ, làm tròn đến hàng phần mười).
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\tan\alpha=\dfrac78$ và $\tan\beta=\dfrac18$. Do đó
+$$\tan(\alpha-\beta)=\dfrac{\frac78-\frac18}{1+\frac78\cdot\frac18}=\dfrac{\frac34}{\frac{71}{64}}=\dfrac{48}{71}\approx0{,}676,$$
+suy ra $\alpha-\beta\approx34{,}1^\circ$.
+
+**Đáp số.** Khoảng $34{,}1^\circ$.
+
+[ĐỀ – EN]
+A person stands $8$ m from a wall. The lower edge of a banner hanging on the wall is $1$ m above the person's eyes and the upper edge is $7$ m above the eyes. Find the viewing angle of the banner (in degrees, to 1 decimal place).
+
+[LỜI GIẢI CŨ – EN]
+We have $\tan\alpha=\dfrac78$ and $\tan\beta=\dfrac18$. Hence
+$$\tan(\alpha-\beta)=\dfrac{\frac78-\frac18}{1+\frac78\cdot\frac18}=\dfrac{\frac34}{\frac{71}{64}}=\dfrac{48}{71}\approx0.676,$$
+so $\alpha-\beta\approx34.1^\circ$.
+
+**Answer.** About $34.1^\circ$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ có $\widehat{A}=45^\circ$, $\widehat{B}=60^\circ$ và $BC=a$. Tính $\sin C$ và độ dài cạnh $AB$ theo $a$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\widehat{C}=180^\circ-45^\circ-60^\circ=75^\circ$ nên $\sin C=\sin75^\circ=\dfrac{\sqrt6+\sqrt2}{4}$ (ví dụ đầu bài). Theo định lí sin:
+$$AB=\dfrac{BC\sin C}{\sin A}=\dfrac{a\cdot\frac{\sqrt6+\sqrt2}{4}}{\frac{\sqrt2}{2}}=\dfrac{a(\sqrt6+\sqrt2)}{2\sqrt2}=\dfrac{a(\sqrt3+1)}{2}.$$
+
+**Đáp số.** $\sin C=\dfrac{\sqrt6+\sqrt2}{4}$; $AB=\dfrac{(\sqrt3+1)a}{2}$.
+
+[ĐỀ – EN]
+In triangle $ABC$, $\angle A=45^\circ$, $\angle B=60^\circ$ and $BC=a$. Find $\sin C$ and the length of $AB$ in terms of $a$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\angle C=180^\circ-45^\circ-60^\circ=75^\circ$, so $\sin C=\sin75^\circ=\dfrac{\sqrt6+\sqrt2}{4}$ (the first example). By the sine rule:
+$$AB=\dfrac{BC\sin C}{\sin A}=\dfrac{a\cdot\frac{\sqrt6+\sqrt2}{4}}{\frac{\sqrt2}{2}}=\dfrac{a(\sqrt6+\sqrt2)}{2\sqrt2}=\dfrac{a(\sqrt3+1)}{2}.$$
+
+**Answer.** $\sin C=\dfrac{\sqrt6+\sqrt2}{4}$; $AB=\dfrac{(\sqrt3+1)a}{2}$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Chứng minh $\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{3\pi}{7}=\dfrac18$.
+
+[LỜI GIẢI CŨ – VI]
+Gọi $P$ là tích cần tính. Vì $\cos\dfrac{3\pi}{7}=-\cos\dfrac{4\pi}{7}$ nên $P=-\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{4\pi}{7}$. Nhân hai vế với $8\sin\dfrac{\pi}{7}$ và dùng $2\sin x\cos x=\sin2x$ ba lần:
+$$8\sin\dfrac{\pi}{7}\,P=-\sin\dfrac{8\pi}{7}=\sin\dfrac{\pi}{7}\quad\left(\text{vì }\sin\dfrac{8\pi}{7}=-\sin\dfrac{\pi}{7}\right).$$
+Vì $\sin\dfrac{\pi}{7}\ne0$ nên $P=\dfrac18$.
+
+**Đáp số.** $\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{3\pi}{7}=\dfrac18$.
+
+[ĐỀ – EN]
+Prove that $\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{3\pi}{7}=\dfrac18$.
+
+[LỜI GIẢI CŨ – EN]
+Let $P$ be the product. Since $\cos\dfrac{3\pi}{7}=-\cos\dfrac{4\pi}{7}$, we have $P=-\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{4\pi}{7}$. Multiply both sides by $8\sin\dfrac{\pi}{7}$ and use $2\sin x\cos x=\sin2x$ three times:
+$$8\sin\dfrac{\pi}{7}\,P=-\sin\dfrac{8\pi}{7}=\sin\dfrac{\pi}{7}\quad\left(\text{because }\sin\dfrac{8\pi}{7}=-\sin\dfrac{\pi}{7}\right).$$
+Since $\sin\dfrac{\pi}{7}\ne0$, we get $P=\dfrac18$.
+
+**Answer.** $\cos\dfrac{\pi}{7}\cos\dfrac{2\pi}{7}\cos\dfrac{3\pi}{7}=\dfrac18$.
 
 
 ===== HẾT FILE Xedap102-05-LG =====

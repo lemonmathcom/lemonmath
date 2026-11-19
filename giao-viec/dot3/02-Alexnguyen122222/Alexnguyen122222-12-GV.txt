@@ -6,7 +6,7 @@ Kết quả: file Alexnguyen122222-12-GV-ketqua.md, lưu vào Dropbox Lemonmath.
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Alexnguyen122222-12-GV
-Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g2/three-digit-numbers
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g2/partitioning-hundreds-tens-ones, g2/points-lines-curves, g2/regroup-add-1-digit, g2/regroup-add-2-digit
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/Alexnguyen122222-12-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  /mnt/user-data/outputs/Alexnguyen122222-12-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file Alexnguyen122222-12-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,138 +135,134 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g2/three-digit-numbers – BẢN TIẾNG VIỆT ########
+######## BÀI g2/partitioning-hundreds-tens-ones – BẢN TIẾNG VIỆT ########
 ---
-title: Số có ba chữ số
-description: Em đọc, viết số có ba chữ số và biết chữ số nào đứng ở hàng trăm, hàng chục, hàng đơn vị qua các nhóm trăm, chục, đơn vị.
+title: Viết số thành tổng các trăm, chục, đơn vị
+description: Em viết một số có ba chữ số thành tổng các trăm, chục, đơn vị, ví dụ 345 = 300 + 40 + 5, và viết ngược lại từ tổng thành số.
 minutes: 15
 ---
 
   :::goals
-  - Đọc và viết các số có ba chữ số, ví dụ $345$, $205$.
-  - Biết chữ số hàng trăm, hàng chục, hàng đơn vị của một số.
-  - Viết đúng số có chữ số $0$, ví dụ $3$ trăm $0$ chục $7$ đơn vị là $307$.
+  - Viết số có ba chữ số thành tổng các trăm, chục, đơn vị, ví dụ $345=300+40+5$.
+  - Viết ngược lại: từ tổng các trăm, chục, đơn vị thành số.
+  - Viết đúng khi số có chữ số $0$, ví dụ $305=300+5$.
   :::
 
-[[P1·9eb5]]
-Thư viện có $3$ thùng sách, mỗi thùng $100$ quyển, thêm $4$ bó sách, mỗi bó $10$ quyển, và $5$ quyển sách lẻ. Hỏi thư viện có tất cả bao nhiêu quyển sách?
+[[P1·fbc8]]
+Thư viện có $345$ quyển sách. Cô thủ thư xếp sách thành các thùng $100$ quyển, các bó $10$ quyển và các quyển lẻ. Hỏi cô dùng mấy thùng, mấy bó và mấy quyển lẻ?
 
-[[P2·b8db]]
-Em đã biết trăm, chục, đơn vị. Bài này giúp em ghép chúng thành một số có ba chữ số.
+[[P2·bd58]]
+Em đã biết số $345$ có $3$ trăm, $4$ chục, $5$ đơn vị. Bài này giúp em viết điều đó bằng một phép cộng.
 
 ## Cùng khám phá
 
-[[P3·7774]]
-Ta xếp các nhóm sách vào ba cột:
+[[P3·f9e7]]
+Số $345$ gồm $3$ trăm, $4$ chục và $5$ đơn vị. Ta tính giá trị của từng phần:
 
-| Trăm | Chục | Đơn vị |
-|---|---|---|
-| $3$ | $4$ | $5$ |
+![Khối đếm gồm ba tấm trăm, bốn thanh chục và năm khối đơn vị](/assets/img/g2/g2-partitioning-hundreds-tens-ones-01.svg)
 
-![Ba thùng sách ghi 100, bốn chồng sách ghi 10 và năm quyển sách lẻ](/assets/img/g2/g2-three-digit-numbers-01.svg)
+[[P4·652f]]
+- $3$ trăm là $300$.
+- $4$ chục là $40$.
+- $5$ đơn vị là $5$.
 
-[[P4·1895]]
-Có $3$ trăm, $4$ chục và $5$ đơn vị. Ta viết ba chữ số liền nhau: chữ số $3$ ở hàng trăm, chữ số $4$ ở hàng chục, chữ số $5$ ở hàng đơn vị. Số đó là $345$.
+[[P5·e543]]
+Cộng ba phần lại được $300+40+5=345$. Vậy ta viết:
+  $$345=300+40+5.$$
 
-[[P5·51d2]]
-Số $345$ đọc là "ba trăm bốn mươi lăm". Vậy thư viện có $345$ quyển sách.
+[[P6·f9ac]]
+Cô thủ thư dùng $3$ thùng, $4$ bó và $5$ quyển lẻ.
 
-  :::theorem Số có ba chữ số
-  Số có ba chữ số có:
-  - chữ số hàng trăm (bên trái), cho biết có bao nhiêu trăm;
-  - chữ số hàng chục (ở giữa), cho biết có bao nhiêu chục;
-  - chữ số hàng đơn vị (bên phải), cho biết có bao nhiêu đơn vị.
-
-  Nếu một hàng không có gì thì ta viết chữ số $0$ vào hàng đó.
+  :::theorem Viết số thành tổng
+  Số có ba chữ số $\overline{abc}$ viết thành tổng của số trăm, số chục và số đơn vị:
+  - chữ số hàng trăm $a$ cho $a$ trăm (ví dụ $3$ thì được $300$);
+  - chữ số hàng chục $b$ cho $b$ chục (ví dụ $4$ thì được $40$);
+  - chữ số hàng đơn vị $c$ cho $c$ đơn vị (ví dụ $5$ thì được $5$).
   :::
 
-[[P6·9143]]
-Ta phải viết chữ số $0$ để giữ đúng vị trí của các chữ số khác. Ví dụ $3$ trăm và $7$ đơn vị là $307$; nếu bỏ chữ số $0$ thì $37$ chỉ là $3$ chục $7$ đơn vị.
+[[P7·ce91]]
+Cách làm này đúng vì mỗi chữ số đứng ở một hàng, hàng cho biết giá trị của chữ số đó: chữ số $4$ ở hàng chục là $40$ chứ không phải $4$.
 
 ## Ví dụ
 
-[[P7·980b]]
-Ta bắt đầu với việc đọc các chữ số của một số.
+[[P8·280d]]
+Ta bắt đầu với một số không có chữ số $0$.
 
-  :::example Các chữ số của 345
-  Số $345$ có chữ số hàng trăm, hàng chục, hàng đơn vị là gì?
+  :::example Viết số thành tổng
+  Viết số $453$ thành tổng các trăm, chục, đơn vị.
 
-  **Lời giải.** Viết số vào bảng, từ trái sang phải là trăm, chục, đơn vị:
-
-  | Trăm | Chục | Đơn vị |
-  |---|---|---|
-  | $3$ | $4$ | $5$ |
-
-  Vậy chữ số hàng trăm là $3$, hàng chục là $4$, hàng đơn vị là $5$.
+  **Lời giải.** Số $453$ có chữ số $4$ ở hàng trăm, $5$ ở hàng chục, $3$ ở hàng đơn vị. Giá trị từng phần là $400$, $50$ và $3$:
+  $$453=400+50+3.$$
+  Vậy $453=400+50+3$.
   :::
 
-[[P8·ef95]]
-Bây giờ em làm ngược lại: viết số từ các nhóm.
+[[P9·a824]]
+Bây giờ em làm ngược lại: từ tổng ra số.
 
-  :::example Viết số
-  Viết số gồm $6$ trăm, $2$ chục và $8$ đơn vị.
+  :::example Từ tổng thành số
+  Viết số $700+60+2$.
 
-  **Lời giải.** Viết chữ số trăm, rồi chữ số chục, rồi chữ số đơn vị: $6$, $2$, $8$.
-
-  Vậy số cần viết là $628$, đọc là "sáu trăm hai mươi tám".
+  **Lời giải.** $700$ là $7$ trăm, $60$ là $6$ chục, $2$ là $2$ đơn vị. Viết ba chữ số liền nhau: $7$, $6$, $2$:
+  $$700+60+2=762.$$
+  Vậy $700+60+2=762$.
   :::
 
-[[P9·147e]]
+[[P10·147e]]
 Tiếp theo là số có chữ số $0$.
 
   :::example Số có chữ số 0
-  Viết số gồm $3$ trăm, $0$ chục và $7$ đơn vị.
+  Viết số $805$ thành tổng các trăm, chục, đơn vị.
 
-  **Lời giải.** Hàng chục không có gì, nên ta viết chữ số $0$ ở hàng chục: $3$, $0$, $7$.
-
-  Vậy số cần viết là $307$, đọc là "ba trăm linh bảy".
+  **Lời giải.** Số $805$ có $8$ trăm, $0$ chục, $5$ đơn vị. Hàng chục không có gì nên không cần viết phần chục:
+  $$805=800+5.$$
+  Vậy $805=800+5$.
   :::
 
-[[P10·e2ef]]
+[[P11·e2ef]]
 Cuối cùng em dùng kiến thức này giải một bài toán.
 
-  :::example Cửa hàng bút
-  Cửa hàng có $5$ hộp bút loại $100$ chiếc, $3$ bó bút loại $10$ chiếc và $6$ chiếc bút lẻ. Hỏi cửa hàng có bao nhiêu chiếc bút?
+  :::example Thùng, bó và quyển lẻ
+  Cửa hàng có $5$ thùng bút loại $100$ chiếc, $1$ bó bút loại $10$ chiếc và $9$ chiếc bút lẻ. Viết số bút thành tổng rồi cho biết có bao nhiêu chiếc bút.
 
-  **Lời giải.** Có $5$ trăm, $3$ chục và $6$ đơn vị. Viết chữ số: $5$, $3$, $6$.
-
-  Vậy cửa hàng có $536$ chiếc bút.
+  **Lời giải.** $5$ thùng là $500$, $1$ bó là $10$, $9$ chiếc lẻ là $9$:
+  $$500+10+9=519.$$
+  Vậy cửa hàng có $519$ chiếc bút, và $519=500+10+9$.
   :::
 
 :::warning Những lỗi em hay gặp
-[[P11·66ce]]
-- **Quên chữ số 0.** Sai: "$3$ trăm $7$ đơn vị là $37$". Vì sao sai: $37$ chỉ có $3$ chục. Đúng: $3$ trăm $0$ chục $7$ đơn vị là $307$.
-- **Viết sai thứ tự chữ số.** Sai: "$4$ trăm $3$ chục $5$ đơn vị là $435$ hay $453$ đều được". Vì sao sai: đổi chỗ chữ số thì được số khác. Đúng: chỉ có $435$.
-- **Nhầm hàng của chữ số.** Sai: "chữ số $5$ trong $450$ là $5$ đơn vị". Vì sao sai: $5$ đứng ở hàng chục. Đúng: chữ số $5$ trong $450$ là $5$ chục.
+[[P12·c65e]]
+- **Cộng các chữ số.** Sai: "$453=4+5+3$". Vì sao sai: $4+5+3=12$, không phải $453$. Đúng: $453=400+50+3$.
+- **Quên giá trị của hàng.** Sai: "$345=300+4+5$". Vì sao sai: chữ số $4$ ở hàng chục là $40$. Đúng: $345=300+40+5$.
+- **Viết sai khi có chữ số 0.** Sai: "$305=300+50$". Vì sao sai: $305$ có $0$ chục, $5$ là $5$ đơn vị. Đúng: $305=300+5$.
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - số có ba chữ số | three-digit number
-  - chữ số | digit
+  - tổng | sum
   - hàng trăm | hundreds place
   - hàng chục | tens place
   - hàng đơn vị | ones place
-  - đọc số | read a number
-  - viết số | write a number
+  - chữ số | digit
+  - giá trị | value
+  - phép cộng | addition
   :::
 
 ## Tóm tắt
 
-[[P12·ae76]]
-- Số có ba chữ số gồm chữ số hàng trăm, hàng chục, hàng đơn vị (từ trái sang phải).
-- $3$ trăm $4$ chục $5$ đơn vị là $345$, đọc là ba trăm bốn mươi lăm.
-- Hàng nào không có gì thì viết chữ số $0$.
-- Đổi chỗ các chữ số thì được số khác.
+[[P13·5d16]]
+- Viết số thành tổng: số trăm + số chục + số đơn vị, ví dụ $345=300+40+5$.
+- Chữ số ở hàng nào thì có giá trị của hàng đó: $4$ ở hàng chục là $40$.
+- Hàng nào là $0$ thì có thể bỏ khỏi tổng: $305=300+5$.
+- Từ tổng $300+40+5$ viết ngược lại thành số $345$.
 
 ## Luyện tập
 
-[[P13·824d]]
+[[P14·824d]]
 Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -304,138 +300,134 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 
-######## BÀI g2/three-digit-numbers – BẢN TIẾNG ANH ########
+######## BÀI g2/partitioning-hundreds-tens-ones – BẢN TIẾNG ANH ########
 ---
-title: Three-digit numbers
-description: Read and write three-digit numbers and know which digit is in the hundreds, tens and ones places, using groups of hundreds, tens and ones.
+title: Writing a number as hundreds, tens and ones
+description: Write a three-digit number as the sum of hundreds, tens and ones, for example 345 = 300 + 40 + 5, and write the sum back as a number.
 minutes: 15
 ---
 
   :::goals
-  - Read and write three-digit numbers, for example $345$ and $205$.
-  - Know the hundreds digit, tens digit and ones digit of a number.
-  - Write numbers with a $0$ correctly, for example $3$ hundreds $0$ tens $7$ ones is $307$.
+  - Write a three-digit number as a sum of hundreds, tens and ones, for example $345=300+40+5$.
+  - Go the other way: write a sum of hundreds, tens and ones as a number.
+  - Write correctly when a digit is $0$, for example $305=300+5$.
   :::
 
-[[P1·3096]]
-A library has $3$ crates of books with $100$ books in each, $4$ bundles of books with $10$ books in each, and $5$ loose books. How many books does the library have altogether?
+[[P1·a40f]]
+A library has $345$ books. The librarian packs them into crates of $100$, bundles of $10$ and loose books. How many crates, bundles and loose books does she use?
 
-[[P2·514d]]
-You already know hundreds, tens and ones. This lesson shows you how to put them together into a three-digit number.
+[[P2·8de1]]
+You know that $345$ has $3$ hundreds, $4$ tens and $5$ ones. This lesson shows you how to write that as an addition.
 
 ## Let's explore
 
-[[P3·0272]]
-We put the groups of books into three columns:
+[[P3·8eab]]
+The number $345$ is made of $3$ hundreds, $4$ tens and $5$ ones. We work out the value of each part:
 
-| Hundreds | Tens | Ones |
-|---|---|---|
-| $3$ | $4$ | $5$ |
+![Base-ten blocks showing three hundreds, four tens, and five ones](/assets/img/g2/g2-partitioning-hundreds-tens-ones-01.svg)
 
-![Three book crates marked 100, four stacks marked 10, and five loose books](/assets/img/g2/g2-three-digit-numbers-01.svg)
+[[P4·db58]]
+- $3$ hundreds is $300$.
+- $4$ tens is $40$.
+- $5$ ones is $5$.
 
-[[P4·3f52]]
-There are $3$ hundreds, $4$ tens and $5$ ones. We write three digits side by side: the digit $3$ is in the hundreds place, the digit $4$ is in the tens place and the digit $5$ is in the ones place. The number is $345$.
+[[P5·31d5]]
+Adding the three parts gives $300+40+5=345$. So we write:
+  $$345=300+40+5.$$
 
-[[P5·1f2f]]
-We read $345$ as "three hundred and forty-five". So the library has $345$ books.
+[[P6·8e02]]
+The librarian uses $3$ crates, $4$ bundles and $5$ loose books.
 
-  :::theorem Three-digit numbers
-  A three-digit number has:
-  - a hundreds digit (on the left), which tells how many hundreds;
-  - a tens digit (in the middle), which tells how many tens;
-  - a ones digit (on the right), which tells how many ones.
-
-  If a place has nothing in it, we write the digit $0$ in that place.
+  :::theorem Writing a number as a sum
+  A three-digit number can be written as the sum of its hundreds, tens and ones:
+  - the hundreds digit gives that many hundreds (for example $3$ gives $300$);
+  - the tens digit gives that many tens (for example $4$ gives $40$);
+  - the ones digit gives that many ones (for example $5$ gives $5$).
   :::
 
-[[P6·089d]]
-We must write the $0$ to keep the other digits in the right places. For example, $3$ hundreds and $7$ ones is $307$; if we leave out the $0$, then $37$ is only $3$ tens and $7$ ones.
+[[P7·6bbc]]
+This works because each digit sits in a place, and the place tells the value of the digit: the digit $4$ in the tens place is $40$, not $4$.
 
 ## Examples
 
-[[P7·fbfe]]
-We start by reading the digits of a number.
+[[P8·4923]]
+We start with a number that has no $0$.
 
-  :::example The digits of 345
-  What are the hundreds digit, tens digit and ones digit of $345$?
+  :::example Writing a number as a sum
+  Write $453$ as a sum of hundreds, tens and ones.
 
-  **Solution.** Put the number in the table, from left to right hundreds, tens, ones:
-
-  | Hundreds | Tens | Ones |
-  |---|---|---|
-  | $3$ | $4$ | $5$ |
-
-  So the hundreds digit is $3$, the tens digit is $4$ and the ones digit is $5$.
+  **Solution.** The number $453$ has the digit $4$ in the hundreds place, $5$ in the tens place and $3$ in the ones place. The values of the parts are $400$, $50$ and $3$:
+  $$453=400+50+3.$$
+  So $453=400+50+3$.
   :::
 
-[[P8·9620]]
-Now you go the other way: write a number from groups.
+[[P9·d422]]
+Now you go the other way: from a sum to a number.
 
-  :::example Writing a number
-  Write the number made of $6$ hundreds, $2$ tens and $8$ ones.
+  :::example From a sum to a number
+  Write the number $700+60+2$.
 
-  **Solution.** Write the hundreds digit, then the tens digit, then the ones digit: $6$, $2$, $8$.
-
-  So the number is $628$, read "six hundred and twenty-eight".
+  **Solution.** $700$ is $7$ hundreds, $60$ is $6$ tens and $2$ is $2$ ones. Write the three digits side by side: $7$, $6$, $2$:
+  $$700+60+2=762.$$
+  So $700+60+2=762$.
   :::
 
-[[P9·2579]]
+[[P10·2579]]
 Next comes a number with a $0$.
 
   :::example A number with a 0
-  Write the number made of $3$ hundreds, $0$ tens and $7$ ones.
+  Write $805$ as a sum of hundreds, tens and ones.
 
-  **Solution.** There is nothing in the tens place, so we write a $0$ there: $3$, $0$, $7$.
-
-  So the number is $307$, read "three hundred and seven".
+  **Solution.** The number $805$ has $8$ hundreds, $0$ tens and $5$ ones. The tens place is empty, so we do not need a tens part:
+  $$805=800+5.$$
+  So $805=800+5$.
   :::
 
-[[P10·b5c3]]
+[[P11·b5c3]]
 Finally you use this in a problem.
 
-  :::example A pen shop
-  A shop has $5$ boxes of $100$ pens, $3$ bundles of $10$ pens and $6$ loose pens. How many pens does the shop have?
+  :::example Crates, bundles and loose pens
+  A shop has $5$ crates of $100$ pens, $1$ bundle of $10$ pens and $9$ loose pens. Write the number of pens as a sum and say how many pens there are.
 
-  **Solution.** There are $5$ hundreds, $3$ tens and $6$ ones. Write the digits: $5$, $3$, $6$.
-
-  So the shop has $536$ pens.
+  **Solution.** $5$ crates is $500$, $1$ bundle is $10$ and $9$ loose pens is $9$:
+  $$500+10+9=519.$$
+  So the shop has $519$ pens, and $519=500+10+9$.
   :::
 
 :::warning Mistakes to watch out for
-[[P11·c7e8]]
-- **Leaving out the $0$.** Wrong: "$3$ hundreds $7$ ones is $37$". Why it is wrong: $37$ has only $3$ tens. Right: $3$ hundreds $0$ tens $7$ ones is $307$.
-- **Writing the digits in the wrong order.** Wrong: "$4$ hundreds $3$ tens $5$ ones is $435$ or $453$, either will do". Why it is wrong: swapping digits gives a different number. Right: only $435$.
-- **Mixing up the place of a digit.** Wrong: "the digit $5$ in $450$ is $5$ ones". Why it is wrong: the $5$ is in the tens place. Right: the digit $5$ in $450$ is $5$ tens.
+[[P12·ef92]]
+- **Adding the digits.** Wrong: "$453=4+5+3$". Why it is wrong: $4+5+3=12$, not $453$. Right: $453=400+50+3$.
+- **Forgetting the value of the place.** Wrong: "$345=300+4+5$". Why it is wrong: the digit $4$ in the tens place is $40$. Right: $345=300+40+5$.
+- **Going wrong with a $0$.** Wrong: "$305=300+50$". Why it is wrong: $305$ has $0$ tens, and the $5$ is $5$ ones. Right: $305=300+5$.
 :::
 
 ## Key terms
 
   :::terms
-  - three-digit number | số có ba chữ số
-  - digit | chữ số
+  - sum | tổng
   - hundreds place | hàng trăm
   - tens place | hàng chục
   - ones place | hàng đơn vị
-  - read a number | đọc số
-  - write a number | viết số
+  - digit | chữ số
+  - value | giá trị
+  - addition | phép cộng
   :::
 
 ## Summary
 
-[[P12·ff53]]
-- A three-digit number has a hundreds digit, a tens digit and a ones digit (from left to right).
-- $3$ hundreds $4$ tens $5$ ones is $345$, read three hundred and forty-five.
-- If a place has nothing in it, write the digit $0$.
-- Swapping the digits gives a different number.
+[[P13·7e0f]]
+- To write a number as a sum: hundreds + tens + ones, for example $345=300+40+5$.
+- A digit has the value of its place: the $4$ in the tens place is $40$.
+- A place with $0$ can be left out of the sum: $305=300+5$.
+- From the sum $300+40+5$ you can write the number back as $345$.
 
 ## Practice
 
-[[P13·2a6a]]
+[[P14·2a6a]]
 Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
 
 :::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -464,6 +456,1008 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 
 :::exercise Challenge
    (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/points-lines-curves – BẢN TIẾNG VIỆT ########
+---
+title: Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng
+description: Em nhận biết điểm, đoạn thẳng, đường thẳng và đường cong, biết vẽ đoạn thẳng bằng thước và nhận ra ba điểm thẳng hàng.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết điểm, đoạn thẳng, đường thẳng và đường cong.
+  - Dùng thước vẽ đoạn thẳng và đọc tên đoạn thẳng, ví dụ đoạn thẳng $AB$.
+  - Nhận ra ba điểm thẳng hàng.
+  :::
+
+[[P1·548e]]
+Mai đứng ở cổng trường, nhìn thấy cột cờ ở xa. Mai muốn đi thẳng từ cổng đến cột cờ. Mai nên đi theo đường như thế nào, và làm sao vẽ đường đi đó lên giấy?
+
+[[P2·5b8e]]
+Bài này giúp em gọi tên các hình rất quen thuộc quanh em: điểm, đoạn thẳng, đường thẳng và đường cong.
+
+## Cùng khám phá
+
+[[P3·22d9]]
+Em chấm hai chấm nhỏ lên giấy. Mỗi chấm nhỏ là một **điểm**. Ta đặt tên cho điểm bằng chữ cái in hoa, ví dụ điểm $A$ và điểm $B$.
+
+[[P4·2f13]]
+Em đặt thước thẳng sao cho mép thước đi qua cả hai điểm $A$ và $B$. Em dùng bút kẻ một nét từ $A$ đến $B$. Nét vẽ đó là **đoạn thẳng** $AB$. Hai điểm $A$ và $B$ là hai đầu của đoạn thẳng.
+
+:::diagram Đoạn thẳng AB
+   (… 4 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·488b]]
+Nếu em kéo dài nét thẳng đó mãi về hai phía, không có điểm dừng, ta được một **đường thẳng**. Đường thẳng không có hai đầu.
+
+[[P6·489a]]
+Nếu nét vẽ không thẳng mà uốn lượn, ta gọi đó là **đường cong**.
+
+:::graph Một đường cong
+   (… 4 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Nhận biết các hình
+  - **Điểm**: một chấm nhỏ, đặt tên bằng chữ cái in hoa.
+  - **Đoạn thẳng** $AB$: nét thẳng nối điểm $A$ với điểm $B$, có hai đầu, vẽ bằng thước.
+  - **Đường thẳng**: nét thẳng kéo dài mãi về hai phía, không có hai đầu.
+  - **Đường cong**: nét không thẳng, uốn lượn.
+  :::
+
+[[P7·1eee]]
+Ta dùng thước để vẽ vì mép thước thẳng, nên nét vẽ theo mép thước sẽ thẳng.
+
+## Ví dụ
+
+[[P8·2bd8]]
+Ta bắt đầu với cách vẽ một đoạn thẳng.
+
+  :::example Vẽ đoạn thẳng $MN$
+  **Lời giải.** Em làm theo từng bước:
+  1. Chấm hai điểm trên giấy, viết $M$ và $N$ bên cạnh.
+  2. Đặt thước sao cho mép thước đi qua $M$ và $N$.
+  3. Dùng bút kẻ nét thẳng từ $M$ đến $N$ theo mép thước.
+
+  Vậy nét thẳng đó là đoạn thẳng $MN$.
+  :::
+
+[[P9·7515]]
+Bây giờ em phân biệt các hình trong đời sống.
+
+  :::example Đoạn thẳng hay đường cong?
+  Mép bàn học và vành miệng chiếc cốc tròn: hình nào gợi ra đoạn thẳng, hình nào gợi ra đường cong?
+
+  ![Mép bàn thẳng và vành miệng cốc tròn được tô đậm](/assets/img/g2/g2-points-lines-curves-01.svg)
+
+  **Lời giải.** Mép bàn học là một nét thẳng có hai đầu, nên gợi ra đoạn thẳng. Vành miệng chiếc cốc tròn uốn quanh, không thẳng, nên gợi ra đường cong.
+  :::
+
+[[P10·6880]]
+Bây giờ ta xét ba điểm có nằm trên cùng một nét thẳng hay không.
+
+:::diagram Ba điểm A, B, C và điểm D
+   (… 6 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Ba điểm thẳng hàng
+  Nhìn hình trên: ba điểm nào nằm trên cùng một đường thẳng?
+
+  **Lời giải.** Đặt thước theo nét thẳng từ $A$ đến $C$. Điểm $B$ nằm đúng trên mép thước, còn điểm $D$ nằm lệch ra ngoài. Vậy ba điểm $A$, $B$, $C$ cùng nằm trên một đường thẳng. Ta nói ba điểm $A$, $B$, $C$ **thẳng hàng**.
+  :::
+
+[[P11·7e54]]
+Cuối cùng, em đếm các đoạn thẳng nối từng cặp điểm.
+
+  :::example Đếm đoạn thẳng
+  Cho ba điểm $A$, $B$, $C$ thẳng hàng. Nối từng cặp điểm, ta có mấy đoạn thẳng?
+
+  **Lời giải.** Các cặp điểm là $A$ với $B$, $B$ với $C$, và $A$ với $C$. Mỗi cặp cho một đoạn thẳng: $AB$, $BC$, $AC$.
+
+  Vậy có $3$ đoạn thẳng.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·ee77]]
+- **Vẽ bằng tay không.** Sai: vẽ đoạn thẳng $AB$ mà không dùng thước, nét bị cong. Vì sao sai: nét cong không phải đoạn thẳng. Đúng: dùng thước kẻ theo mép thước.
+- **Nhầm đoạn thẳng với đường thẳng.** Sai: nói đoạn thẳng $AB$ kéo dài mãi. Vì sao sai: đoạn thẳng chỉ có hai đầu $A$ và $B$. Đúng: đường thẳng mới kéo dài mãi về hai phía.
+- **Gọi ba điểm là thẳng hàng khi một điểm lệch.** Sai: "$A$, $B$, $D$ thẳng hàng" ở hình trên. Vì sao sai: $D$ không nằm trên nét thẳng $AC$. Đúng: chỉ $A$, $B$, $C$ thẳng hàng.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - điểm | point
+  - đoạn thẳng | line segment
+  - đường thẳng | straight line
+  - đường cong | curve
+  - ba điểm thẳng hàng | three points in a line
+  - hai đầu của đoạn thẳng | endpoints
+  - thước kẻ | ruler
+  :::
+
+## Tóm tắt
+
+[[P13·0585]]
+- Điểm là một chấm nhỏ; đặt tên bằng chữ cái in hoa.
+- Đoạn thẳng $AB$ nối hai điểm $A$ và $B$, có hai đầu, vẽ bằng thước.
+- Đường thẳng kéo dài mãi về hai phía; đường cong thì không thẳng.
+- Ba điểm cùng nằm trên một đường thẳng là ba điểm thẳng hàng.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/points-lines-curves – BẢN TIẾNG ANH ########
+---
+title: Points, line segments, lines, curves and points in a line
+description: Recognise points, line segments, straight lines and curves, draw a line segment with a ruler, and tell when three points are in a line.
+minutes: 15
+---
+
+  :::goals
+  - Recognise points, line segments, straight lines and curves.
+  - Use a ruler to draw a line segment and say its name, for example line segment $AB$.
+  - Recognise three points that are in a line.
+  :::
+
+[[P1·278f]]
+Mai stands at the school gate and sees the flagpole far away. She wants to walk straight from the gate to the flagpole. What kind of path should she follow, and how can we draw that path on paper?
+
+[[P2·08aa]]
+This lesson helps you name some shapes you see all around you: points, line segments, straight lines and curves.
+
+## Let's explore
+
+[[P3·3aac]]
+Put two small dots on a sheet of paper. Each small dot is a **point**. We name a point with a capital letter, for example point $A$ and point $B$.
+
+[[P4·afc8]]
+Place a ruler so that its edge passes through both $A$ and $B$. Draw a line along the edge from $A$ to $B$. The line you drew is a **line segment**, called $AB$. The points $A$ and $B$ are the two endpoints of the segment.
+
+:::diagram Line segment AB
+   (… 4 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·4497]]
+If we keep this straight line going for ever in both directions, with no place to stop, we get a **straight line**. A straight line has no endpoints.
+
+[[P6·b814]]
+If the line is not straight but bends and wiggles, we call it a **curve**.
+
+:::graph A curve
+   (… 4 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Recognising the shapes
+  - **Point**: a small dot, named with a capital letter.
+  - **Line segment** $AB$: a straight line from point $A$ to point $B$, with two endpoints, drawn with a ruler.
+  - **Straight line**: a straight line that goes on for ever in both directions, with no endpoints.
+  - **Curve**: a line that is not straight and bends.
+  :::
+
+[[P7·6aa1]]
+We use a ruler because its edge is straight, so a line drawn along the edge is straight too.
+
+## Examples
+
+[[P8·7dae]]
+We start with how to draw a line segment.
+
+  :::example Draw line segment $MN$
+  **Solution.** Follow these steps:
+  1. Put two dots on the paper and write $M$ and $N$ next to them.
+  2. Place the ruler so that its edge passes through $M$ and $N$.
+  3. Draw a straight line from $M$ to $N$ along the edge.
+
+  The straight line you drew is the line segment $MN$.
+  :::
+
+[[P9·be77]]
+Now tell the shapes apart in everyday life.
+
+  :::example Line segment or curve?
+  The edge of a desk and the rim of a round cup: which one suggests a line segment, and which a curve?
+
+  ![A straight desk edge and a curved circular cup rim highlighted](/assets/img/g2/g2-points-lines-curves-01.svg)
+
+  **Solution.** The edge of a desk is straight and has two ends, so it suggests a line segment. The rim of a round cup goes round and is not straight, so it suggests a curve.
+  :::
+
+[[P10·f8e9]]
+Now we check whether three points lie on the same straight line.
+
+:::diagram Points A, B, C and point D
+   (… 6 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Three points in a line
+  Look at the picture. Which three points lie on the same straight line?
+
+  **Solution.** Place a ruler along the line from $A$ to $C$. Point $B$ lies exactly on the edge, but point $D$ is off to the side. So the three points $A$, $B$, $C$ lie on one straight line. We say $A$, $B$, $C$ are **in a line**.
+  :::
+
+[[P11·0b5e]]
+Finally, count the line segments that join pairs of points.
+
+  :::example Counting line segments
+  Three points $A$, $B$, $C$ are in a line. We join every pair of points. How many line segments do we get?
+
+  **Solution.** The pairs are $A$ and $B$, $B$ and $C$, and $A$ and $C$. Each pair gives one line segment: $AB$, $BC$, $AC$.
+
+  So we get $3$ line segments.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·f58c]]
+- **Drawing without a ruler.** Wrong: drawing line segment $AB$ by hand so that it bends. Why it is wrong: a bent line is not a line segment. Right: use a ruler and draw along its edge.
+- **Mixing up a line segment and a straight line.** Wrong: saying that line segment $AB$ goes on for ever. Why it is wrong: a line segment has only two ends, $A$ and $B$. Right: only a straight line goes on for ever in both directions.
+- **Saying three points are in a line when one is off.** Wrong: "$A$, $B$, $D$ are in a line" in the picture above. Why it is wrong: $D$ is not on the straight line $AC$. Right: only $A$, $B$, $C$ are in a line.
+:::
+
+## Key terms
+
+  :::terms
+  - point | điểm
+  - line segment | đoạn thẳng
+  - straight line | đường thẳng
+  - curve | đường cong
+  - three points in a line | ba điểm thẳng hàng
+  - endpoints | hai đầu của đoạn thẳng
+  - ruler | thước kẻ
+  :::
+
+## Summary
+
+[[P13·72c0]]
+- A point is a small dot; we name it with a capital letter.
+- Line segment $AB$ joins points $A$ and $B$, has two endpoints and is drawn with a ruler.
+- A straight line goes on for ever in both directions; a curve is not straight.
+- Three points on the same straight line are in a line.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/regroup-add-1-digit – BẢN TIẾNG VIỆT ########
+---
+title: Phép cộng (có nhớ) số có hai chữ số với số có một chữ số
+description: Em học cộng số có hai chữ số với số có một chữ số khi tổng hàng đơn vị từ 10 trở lên, ví dụ 38 + 6, bằng cách đổi 10 đơn vị thành 1 chục.
+minutes: 15
+---
+
+  :::goals
+  - Hiểu vì sao khi cộng hàng đơn vị được $10$ hoặc hơn thì phải thêm $1$ chục.
+  - Đặt tính theo cột dọc và tính đúng, ví dụ $38+6$.
+  - Giải bài toán có lời văn bằng một phép cộng có nhớ.
+  :::
+
+[[P1·1404]]
+Nam có $38$ viên bi. Bạn Hùng cho Nam thêm $6$ viên nữa. Hỏi Nam có tất cả bao nhiêu viên bi?
+
+[[P2·baf3]]
+Em đã biết cộng qua $10$ trong phạm vi $20$ ở các bài trước. Bài này dùng chính cách đó cho số lớn hơn.
+
+## Cùng khám phá
+
+[[P3·f598]]
+Ta tách số $38$ thành $3$ chục và $8$ đơn vị. Số $6$ chỉ có $6$ đơn vị.
+
+[[P4·04f1]]
+- Cộng hàng đơn vị: $8+6=14$. Vậy có $14$ đơn vị.
+- $14$ đơn vị là $1$ chục và $4$ đơn vị. Ta đổi $10$ đơn vị lấy $1$ chục.
+- Cộng hàng chục: $3$ chục cũ cộng $1$ chục mới là $4$ chục.
+
+[[P5·4f59]]
+Vậy có $4$ chục và $4$ đơn vị, tức là $44$.
+
+  $$\begin{array}{r} 38\\ +\ \ 6\\ \hline 44 \end{array}$$
+
+[[P6·62ce]]
+Em cũng có thể nhảy trên tia số: từ $38$ nhảy $2$ bước đến $40$, rồi nhảy thêm $4$ bước đến $44$.
+
+:::graph Trên tia số: từ 38 nhảy 2 bước đến 40, rồi nhảy 4 bước đến 44
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cộng có nhớ số có hai chữ số với số có một chữ số
+  Muốn tính $38+6$:
+  1. Đặt tính: hàng đơn vị thẳng hàng đơn vị, hàng chục thẳng hàng chục.
+  2. Cộng hàng đơn vị: $8+6=14$. Viết $4$ ở hàng đơn vị, nhớ $1$ chục.
+  3. Cộng hàng chục: $3+1=4$. Viết $4$ ở hàng chục.
+  :::
+
+[[P7·0a19]]
+Cách này đúng vì $14$ đơn vị bằng $1$ chục và $4$ đơn vị. Chục mới đó không bị mất: em cộng nó vào hàng chục.
+
+## Ví dụ
+
+[[P8·526a]]
+Ta bắt đầu với một phép cộng ở hàng đơn vị có tổng chỉ hơn $10$ một chút.
+
+  :::example Tính $27+5$
+  **Lời giải.** Cộng hàng đơn vị trước: $7+5=12$, viết $2$ và nhớ $1$ chục. Rồi cộng hàng chục: $2+1=3$:
+  $$\begin{array}{r} 27\\ +\ \ 5\\ \hline 32 \end{array}$$
+  Vậy $27+5=32$.
+  :::
+
+[[P9·0e77]]
+Phép tính sau làm giống hệt, chỉ đổi số.
+
+  :::example Tính $46+8$
+  **Lời giải.** Hàng đơn vị: $6+8=14$, viết $4$ và nhớ $1$. Hàng chục: $4+1=5$:
+  $$\begin{array}{r} 46\\ +\ \ 8\\ \hline 54 \end{array}$$
+  Vậy $46+8=54$.
+  :::
+
+[[P10·1ab5]]
+Bây giờ hàng đơn vị có tổng lớn hơn, nhưng cách làm vẫn như cũ.
+
+  :::example Tính $69+7$
+  **Lời giải.** Hàng đơn vị: $9+7=16$, viết $6$ và nhớ $1$. Hàng chục: $6+1=7$:
+  $$\begin{array}{r} 69\\ +\ \ 7\\ \hline 76 \end{array}$$
+  Vậy $69+7=76$.
+
+  **Kiểm tra.** Em tách $7=1+6$: $69+1=70$, rồi $70+6=76$. Kết quả giống nhau.
+  :::
+
+[[P11·95a3]]
+Bây giờ em dùng phép cộng để giải một bài toán trong cuộc sống.
+
+  :::example Giỏ táo
+  Trong giỏ có $58$ quả táo. Mẹ bỏ thêm $6$ quả táo. Hỏi trong giỏ có tất cả bao nhiêu quả táo?
+
+  **Lời giải.** "Bỏ thêm" nghĩa là gộp lại, nên em làm phép cộng. Hàng đơn vị: $8+6=14$, viết $4$ và nhớ $1$. Hàng chục: $5+1=6$:
+  $$58+6=64\ \text{(quả)}.$$
+  Vậy trong giỏ có tất cả $64$ quả táo.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·b605]]
+- **Quên chục nhớ.** Sai: $38+6=34$. Vì sao sai: em viết $4$ nhưng quên cộng $1$ chục vào hàng chục. Đúng: $38+6=44$.
+- **Viết cả $14$ vào hàng đơn vị.** Sai: $38+6=314$. Vì sao sai: $14$ đơn vị phải đổi thành $1$ chục và $4$ đơn vị. Đúng: $38+6=44$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $64$". Đúng: "Đáp số: $64$ quả táo".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép cộng có nhớ | addition with regrouping
+  - hàng chục | tens
+  - hàng đơn vị | ones
+  - đổi 10 đơn vị lấy 1 chục | exchange 10 ones for 1 ten
+  - đặt tính | set out the column
+  - tổng | sum (total)
+  - số hạng | addend
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P13·71c8]]
+- Cộng hàng đơn vị trước. Nếu được $10$ hoặc hơn, đổi $10$ đơn vị lấy $1$ chục.
+- Viết số đơn vị còn lại ở hàng đơn vị, nhớ $1$ chục sang hàng chục.
+- Ví dụ: $38+6$: $8+6=14$, viết $4$ nhớ $1$; $3+1=4$; kết quả $44$.
+- Bài toán hỏi "tất cả", "thêm" thường là phép cộng; nhớ ghi đơn vị trong đáp số.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/regroup-add-1-digit – BẢN TIẾNG ANH ########
+---
+title: Adding a one-digit number to a two-digit number (with regrouping)
+description: Learn to add a one-digit number to a two-digit number when the ones make 10 or more, such as 38 + 6, by exchanging 10 ones for 1 ten.
+minutes: 15
+---
+
+  :::goals
+  - Understand why you add $1$ ten when the ones make $10$ or more.
+  - Set out the sum in columns and work it out correctly, such as $38+6$.
+  - Solve a word problem with one addition with regrouping.
+  :::
+
+[[P1·c6e7]]
+Nam has $38$ marbles. His friend Hung gives him $6$ more. How many marbles does Nam have altogether?
+
+[[P2·924b]]
+You already know how to add across $10$ within $20$ from earlier lessons. This lesson uses the same idea for bigger numbers.
+
+## Let's explore
+
+[[P3·99f4]]
+We split $38$ into $3$ tens and $8$ ones. The number $6$ has just $6$ ones.
+
+[[P4·98e1]]
+- Add the ones: $8+6=14$. So there are $14$ ones.
+- $14$ ones are $1$ ten and $4$ ones. We exchange $10$ ones for $1$ ten.
+- Add the tens: the $3$ tens we had plus the $1$ new ten make $4$ tens.
+
+[[P5·359c]]
+So there are $4$ tens and $4$ ones, which is $44$.
+
+  $$\begin{array}{r} 38\\ +\ \ 6\\ \hline 44 \end{array}$$
+
+[[P6·2136]]
+You can also jump along a number line: from $38$ jump $2$ steps to $40$, then $4$ more steps to $44$.
+
+:::graph On a number line: from 38 jump 2 steps to 40, then 4 steps to 44
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Adding a one-digit number to a two-digit number with regrouping
+  To work out $38+6$:
+  1. Set out the sum: ones under ones, tens under tens.
+  2. Add the ones: $8+6=14$. Write $4$ in the ones and carry $1$ ten.
+  3. Add the tens: $3+1=4$. Write $4$ in the tens.
+  :::
+
+[[P7·a882]]
+This works because $14$ ones are the same as $1$ ten and $4$ ones. The new ten is not lost: you add it to the tens.
+
+## Examples
+
+[[P8·c428]]
+We start with an addition where the ones make just a little more than $10$.
+
+  :::example Work out $27+5$
+  **Solution.** Add the ones first: $7+5=12$, write $2$ and carry $1$ ten. Then add the tens: $2+1=3$:
+  $$\begin{array}{r} 27\\ +\ \ 5\\ \hline 32 \end{array}$$
+  So $27+5=32$.
+  :::
+
+[[P9·505b]]
+The next sum works in exactly the same way, with different numbers.
+
+  :::example Work out $46+8$
+  **Solution.** Ones: $6+8=14$, write $4$ and carry $1$. Tens: $4+1=5$:
+  $$\begin{array}{r} 46\\ +\ \ 8\\ \hline 54 \end{array}$$
+  So $46+8=54$.
+  :::
+
+[[P10·a8be]]
+Now the ones make a bigger total, but the method stays the same.
+
+  :::example Work out $69+7$
+  **Solution.** Ones: $9+7=16$, write $6$ and carry $1$. Tens: $6+1=7$:
+  $$\begin{array}{r} 69\\ +\ \ 7\\ \hline 76 \end{array}$$
+  So $69+7=76$.
+
+  **Check.** Split $7=1+6$: $69+1=70$, then $70+6=76$. The answers match.
+  :::
+
+[[P11·c417]]
+Now use addition to solve a problem from everyday life.
+
+  :::example A basket of apples
+  A basket holds $58$ apples. Mum puts in $6$ more apples. How many apples are in the basket altogether?
+
+  **Solution.** "Puts in more" means putting together, so you add. Ones: $8+6=14$, write $4$ and carry $1$. Tens: $5+1=6$:
+  $$58+6=64\ \text{(apples)}.$$
+  So there are $64$ apples in the basket altogether.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·5672]]
+- **Forgetting the carried ten.** Wrong: $38+6=34$. Why it is wrong: you wrote $4$ but forgot to add $1$ ten to the tens. Right: $38+6=44$.
+- **Writing all of $14$ in the ones.** Wrong: $38+6=314$. Why it is wrong: $14$ ones must be exchanged for $1$ ten and $4$ ones. Right: $38+6=44$.
+- **Leaving out the unit in a word problem.** Wrong: "Answer: $64$". Right: "Answer: $64$ apples".
+:::
+
+## Key terms
+
+  :::terms
+  - addition with regrouping | phép cộng có nhớ
+  - tens | hàng chục
+  - ones | hàng đơn vị
+  - exchange 10 ones for 1 ten | đổi 10 đơn vị lấy 1 chục
+  - set out the column | đặt tính
+  - sum (total) | tổng
+  - addend | số hạng
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P13·cd33]]
+- Add the ones first. If they make $10$ or more, exchange $10$ ones for $1$ ten.
+- Write the ones that are left in the ones place and carry $1$ ten to the tens.
+- Example: $38+6$: $8+6=14$, write $4$ carry $1$; $3+1=4$; the answer is $44$.
+- Word problems that ask "altogether" or "how many more are added" usually need an addition; remember to write the unit in the answer.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/regroup-add-2-digit – BẢN TIẾNG VIỆT ########
+---
+title: Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số
+description: Em học cộng hai số có hai chữ số khi tổng hàng đơn vị từ 10 trở lên, ví dụ 46 + 38, bằng cách đặt tính và nhớ 1 chục sang hàng chục.
+minutes: 15
+---
+
+  :::goals
+  - Đặt tính và cộng hai số có hai chữ số, ví dụ $46+38$.
+  - Nhớ cộng thêm $1$ chục khi hàng đơn vị được $10$ hoặc hơn.
+  - Giải bài toán có lời văn bằng một phép cộng có nhớ.
+  :::
+
+[[P1·0795]]
+Lan có $46$ cái nhãn vở. Mai có $38$ cái nhãn vở. Hỏi hai bạn có tất cả bao nhiêu cái nhãn vở?
+
+[[P2·f110]]
+Ở bài trước, em đã cộng số có hai chữ số với số có một chữ số và biết nhớ $1$ chục. Bài này dùng đúng cách đó, chỉ thêm một số hạng có chục.
+
+## Cùng khám phá
+
+[[P3·0475]]
+Ta tách $46$ thành $4$ chục $6$ đơn vị, và $38$ thành $3$ chục $8$ đơn vị.
+
+[[P4·87a7]]
+- Cộng hàng đơn vị: $6+8=14$. Đó là $1$ chục và $4$ đơn vị.
+- Viết $4$ ở hàng đơn vị, nhớ $1$ chục.
+- Cộng hàng chục: $4+3=7$, rồi cộng thêm $1$ chục nhớ được $8$.
+
+[[P5·d07a]]
+Vậy có $8$ chục và $4$ đơn vị, tức là $84$.
+
+  $$\begin{array}{r} 46\\ +\ 38\\ \hline 84 \end{array}$$
+
+[[P6·68a3]]
+Em cũng có thể nhảy trên tia số: từ $46$ cộng $30$ được $76$, rồi cộng $8$ được $84$.
+
+:::graph Trên tia số: từ 46 cộng 30 được 76, rồi cộng 8 được 84
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cộng có nhớ hai số có hai chữ số
+  Muốn tính $46+38$:
+  1. Đặt tính: hàng đơn vị thẳng hàng đơn vị, hàng chục thẳng hàng chục.
+  2. Cộng hàng đơn vị: $6+8=14$. Viết $4$, nhớ $1$ chục.
+  3. Cộng hàng chục: $4+3+1=8$. Viết $8$.
+  :::
+
+[[P7·ccad]]
+Cách này đúng vì $14$ đơn vị là $1$ chục và $4$ đơn vị. Chục mới được cộng vào hàng chục nên không bị mất.
+
+## Ví dụ
+
+[[P8·decb]]
+Ta bắt đầu với hai số nhỏ, tổng hàng đơn vị chỉ hơn $10$ một chút.
+
+  :::example Tính $27+15$
+  **Lời giải.** Hàng đơn vị: $7+5=12$, viết $2$ nhớ $1$. Hàng chục: $2+1+1=4$ (số chục của hai số và $1$ chục nhớ):
+  $$\begin{array}{r} 27\\ +\ 15\\ \hline 42 \end{array}$$
+  Vậy $27+15=42$.
+  :::
+
+[[P9·0e77]]
+Phép tính sau làm giống hệt, chỉ đổi số.
+
+  :::example Tính $48+36$
+  **Lời giải.** Hàng đơn vị: $8+6=14$, viết $4$ nhớ $1$. Hàng chục: $4+3+1=8$:
+  $$\begin{array}{r} 48\\ +\ 36\\ \hline 84 \end{array}$$
+  Vậy $48+36=84$.
+  :::
+
+[[P10·f373]]
+Bây giờ hàng đơn vị có số $9$, nên tổng lớn hơn.
+
+  :::example Tính $59+27$
+  **Lời giải.** Hàng đơn vị: $9+7=16$, viết $6$ nhớ $1$. Hàng chục: $5+2+1=8$:
+  $$\begin{array}{r} 59\\ +\ 27\\ \hline 86 \end{array}$$
+  Vậy $59+27=86$.
+
+  **Kiểm tra.** Làm tròn $59$ thành $60$: $60+27=87$, rồi bớt $1$ được $86$. Kết quả giống nhau.
+  :::
+
+[[P11·95a3]]
+Bây giờ em dùng phép cộng để giải một bài toán trong cuộc sống.
+
+  :::example Đội văn nghệ
+  Lớp có $35$ bạn nam và $48$ bạn nữ. Hỏi lớp có tất cả bao nhiêu bạn?
+
+  **Lời giải.** "Tất cả" nghĩa là gộp lại, nên em làm phép cộng. Hàng đơn vị: $5+8=13$, viết $3$ nhớ $1$. Hàng chục: $3+4+1=8$:
+  $$35+48=83\ \text{(bạn)}.$$
+  Vậy lớp có tất cả $83$ bạn.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·1e70]]
+- **Quên chục nhớ.** Sai: $46+38=74$. Vì sao sai: em viết $4$ nhưng quên cộng $1$ chục nhớ vào hàng chục. Đúng: $46+38=84$.
+- **Viết cả $14$ vào hàng đơn vị.** Sai: $46+38=714$. Vì sao sai: $14$ đơn vị phải đổi thành $1$ chục và $4$ đơn vị. Đúng: $46+38=84$.
+- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $83$". Đúng: "Đáp số: $83$ bạn".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép cộng có nhớ | addition with regrouping
+  - hàng chục | tens
+  - hàng đơn vị | ones
+  - đổi 10 đơn vị lấy 1 chục | exchange 10 ones for 1 ten
+  - đặt tính | set out the column
+  - tổng | sum (total)
+  - số hạng | addend
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P13·f67b]]
+- Đặt tính thẳng cột, cộng từ hàng đơn vị sang hàng chục.
+- Hàng đơn vị được $10$ hoặc hơn: viết số đơn vị còn lại, nhớ $1$ chục.
+- Hàng chục: cộng hai chữ số chục rồi cộng thêm $1$ chục nhớ.
+- Ví dụ: $46+38$: $6+8=14$, viết $4$ nhớ $1$; $4+3+1=8$; kết quả $84$.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/regroup-add-2-digit – BẢN TIẾNG ANH ########
+---
+title: Adding two two-digit numbers (with regrouping)
+description: Learn to add two two-digit numbers when the ones make 10 or more, for example 46 + 38, by setting out the column and carrying 1 ten to the tens.
+minutes: 15
+---
+
+  :::goals
+  - Set out a column and add two two-digit numbers, for example $46+38$.
+  - Remember to add the extra $1$ ten when the ones make $10$ or more.
+  - Solve a word problem with one addition that needs regrouping.
+  :::
+
+[[P1·6553]]
+Lan has $46$ exercise-book labels. Mai has $38$ labels. How many labels do the two girls have altogether?
+
+[[P2·87b7]]
+In the last lesson you added a one-digit number to a two-digit number and carried $1$ ten. This lesson uses the same method, with one more number that has tens.
+
+## Let's explore
+
+[[P3·1416]]
+We split $46$ into $4$ tens and $6$ ones, and $38$ into $3$ tens and $8$ ones.
+
+[[P4·03c4]]
+- Add the ones: $6+8=14$. That is $1$ ten and $4$ ones.
+- Write $4$ in the ones place and carry $1$ ten.
+- Add the tens: $4+3=7$, then add the carried $1$ ten to make $8$.
+
+[[P5·214d]]
+So there are $8$ tens and $4$ ones, which is $84$.
+
+  $$\begin{array}{r} 46\\ +\ 38\\ \hline 84 \end{array}$$
+
+[[P6·a78c]]
+You can also jump on a number line: from $46$ add $30$ to reach $76$, then add $8$ to reach $84$.
+
+:::graph On the number line: from 46 add 30 to reach 76, then add 8 to reach 84
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Adding two two-digit numbers with regrouping
+  To work out $46+38$:
+  1. Set out the column: ones under ones, tens under tens.
+  2. Add the ones: $6+8=14$. Write $4$ and carry $1$ ten.
+  3. Add the tens: $4+3+1=8$. Write $8$.
+  :::
+
+[[P7·2ba4]]
+This works because $14$ ones make $1$ ten and $4$ ones. The new ten is added to the tens, so it is not lost.
+
+## Examples
+
+[[P8·27f9]]
+We start with two small numbers whose ones make just a little more than $10$.
+
+  :::example Work out $27+15$
+  **Solution.** Ones: $7+5=12$, write $2$ and carry $1$. Tens: $2+1+1=4$ (the tens of both numbers and the carried ten):
+  $$\begin{array}{r} 27\\ +\ 15\\ \hline 42 \end{array}$$
+  So $27+15=42$.
+  :::
+
+[[P9·9c4d]]
+The next sum is done in exactly the same way, with different numbers.
+
+  :::example Work out $48+36$
+  **Solution.** Ones: $8+6=14$, write $4$ and carry $1$. Tens: $4+3+1=8$:
+  $$\begin{array}{r} 48\\ +\ 36\\ \hline 84 \end{array}$$
+  So $48+36=84$.
+  :::
+
+[[P10·db68]]
+Now there is a $9$ in the ones, so the ones make more.
+
+  :::example Work out $59+27$
+  **Solution.** Ones: $9+7=16$, write $6$ and carry $1$. Tens: $5+2+1=8$:
+  $$\begin{array}{r} 59\\ +\ 27\\ \hline 86 \end{array}$$
+  So $59+27=86$.
+
+  **Check.** Round $59$ up to $60$: $60+27=87$, then take away $1$ to get $86$. The answers match.
+  :::
+
+[[P11·c417]]
+Now use addition to solve a problem from everyday life.
+
+  :::example The class
+  A class has $35$ boys and $48$ girls. How many children are in the class altogether?
+
+  **Solution.** "Altogether" means putting together, so we add. Ones: $5+8=13$, write $3$ and carry $1$. Tens: $3+4+1=8$:
+  $$35+48=83\ \text{(children)}.$$
+  So there are $83$ children in the class.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·1df8]]
+- **Forgetting the carried ten.** Wrong: $46+38=74$. Why it is wrong: you wrote $4$ but forgot to add the carried $1$ ten to the tens. Right: $46+38=84$.
+- **Writing all of $14$ in the ones place.** Wrong: $46+38=714$. Why it is wrong: $14$ ones must be exchanged for $1$ ten and $4$ ones. Right: $46+38=84$.
+- **No unit in a word problem.** Wrong: "Answer: $83$". Right: "Answer: $83$ children".
+:::
+
+## Key terms
+
+  :::terms
+  - addition with regrouping | phép cộng có nhớ
+  - tens | hàng chục
+  - ones | hàng đơn vị
+  - exchange 10 ones for 1 ten | đổi 10 đơn vị lấy 1 chục
+  - set out the column | đặt tính
+  - sum (total) | tổng
+  - addend | số hạng
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P13·7763]]
+- Set out the column and add from the ones to the tens.
+- If the ones make $10$ or more, write the ones that are left and carry $1$ ten.
+- In the tens: add the two tens digits, then add the carried $1$ ten.
+- Example: $46+38$: $6+8=14$, write $4$ carry $1$; $4+3+1=8$; the answer is $84$.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test

@@ -6,7 +6,7 @@ Kết quả: file thichgiaitoan-13-LG-ketqua.md, lưu vào Dropbox Lemonmath.com
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – thichgiaitoan-13-LG
-Người làm: tài khoản thichgiaitoan. Gói này có 37 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản thichgiaitoan. Gói này có 24 bài tập thuộc 3 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/thichgiaitoan-13-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/3). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/thichgiaitoan-13-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,740 +189,607 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g4/adding-large-numbers (10 bài tập)
-- g4/basic-property-of-fractions (8 bài tập)
-- g4/commutative-associative-addition (9 bài tập)
-- g4/commutative-associative-multiplication (10 bài tập)
+- g3/missing-numbers-add-subtract (8 bài tập)
+- g3/missing-numbers-multiply-divide (8 bài tập)
+- g3/multiply-2-digit-by-1-digit (8 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g4/adding-large-numbers
-Bài học: Phép cộng các số có nhiều chữ số. Phép trừ các số có nhiều chữ số / Adding numbers with many digits. Subtracting numbers with many digits
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Đặt tính rồi tính: $524\,163+365\,214$.
-
-[LỜI GIẢI CŨ – VI]
-$$\begin{array}{r} 524\,163 \\ +\ 365\,214 \\ \hline 889\,377 \end{array}$$
-Không có hàng nào đủ $10$ nên không phải nhớ.
-
-**Đáp số.** $889\,377$.
-
-[ĐỀ – EN]
-Set out in columns and work out: $524\,163+365\,214$.
-
-[LỜI GIẢI CŨ – EN]
-$$\begin{array}{r} 524\,163 \\ +\ 365\,214 \\ \hline 889\,377 \end{array}$$
-No column makes $10$, so nothing is regrouped.
-
-**Answer.** $889\,377$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Đặt tính rồi tính: $387\,659+549\,874$.
-
-[LỜI GIẢI CŨ – VI]
-$$\begin{array}{r} 387\,659 \\ +\ 549\,874 \\ \hline 937\,533 \end{array}$$
-Hàng đơn vị: $9+4=13$, viết $3$ nhớ $1$. Hàng chục: $5+7+1=13$, viết $3$ nhớ $1$. Hàng trăm: $6+8+1=15$, viết $5$ nhớ $1$. Hàng nghìn: $7+9+1=17$, viết $7$ nhớ $1$. Hàng chục nghìn: $8+4+1=13$, viết $3$ nhớ $1$. Hàng trăm nghìn: $3+5+1=9$.
-
-**Đáp số.** $937\,533$.
-
-[ĐỀ – EN]
-Set out in columns and work out: $387\,659+549\,874$.
-
-[LỜI GIẢI CŨ – EN]
-$$\begin{array}{r} 387\,659 \\ +\ 549\,874 \\ \hline 937\,533 \end{array}$$
-Ones: $9+4=13$, write $3$ and regroup $1$. Tens: $5+7+1=13$, write $3$ and regroup $1$. Hundreds: $6+8+1=15$, write $5$ and regroup $1$. Thousands: $7+9+1=17$, write $7$ and regroup $1$. Ten-thousands: $8+4+1=13$, write $3$ and regroup $1$. Hundred-thousands: $3+5+1=9$.
-
-**Answer.** $937\,533$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Đặt tính rồi tính: $976\,842-413\,521$.
-
-[LỜI GIẢI CŨ – VI]
-$$\begin{array}{r} 976\,842 \\ -\ 413\,521 \\ \hline 563\,321 \end{array}$$
-Không có hàng nào phải nhớ.
-
-**Đáp số.** $563\,321$.
-
-[ĐỀ – EN]
-Set out in columns and work out: $976\,842-413\,521$.
-
-[LỜI GIẢI CŨ – EN]
-$$\begin{array}{r} 976\,842 \\ -\ 413\,521 \\ \hline 563\,321 \end{array}$$
-No column needs regrouping.
-
-**Answer.** $563\,321$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Đặt tính rồi tính: $800\,000-345\,678$.
-
-[LỜI GIẢI CŨ – VI]
-$$\begin{array}{r} 800\,000 \\ -\ 345\,678 \\ \hline 454\,322 \end{array}$$
-Hàng đơn vị: $10-8=2$, viết $2$ nhớ $1$. Hàng chục: $7+1=8$; $10-8=2$, viết $2$ nhớ $1$. Hàng trăm: $6+1=7$; $10-7=3$, viết $3$ nhớ $1$. Hàng nghìn: $5+1=6$; $10-6=4$, viết $4$ nhớ $1$. Hàng chục nghìn: $4+1=5$; $10-5=5$, viết $5$ nhớ $1$. Hàng trăm nghìn: $3+1=4$; $8-4=4$.
-
-**Đáp số.** $454\,322$.
-
-[ĐỀ – EN]
-Set out in columns and work out: $800\,000-345\,678$.
-
-[LỜI GIẢI CŨ – EN]
-$$\begin{array}{r} 800\,000 \\ -\ 345\,678 \\ \hline 454\,322 \end{array}$$
-Ones: $10-8=2$, write $2$ and regroup $1$. Tens: $7+1=8$; $10-8=2$, write $2$ and regroup $1$. Hundreds: $6+1=7$; $10-7=3$, write $3$ and regroup $1$. Thousands: $5+1=6$; $10-6=4$, write $4$ and regroup $1$. Ten-thousands: $4+1=5$; $10-5=5$, write $5$ and regroup $1$. Hundred-thousands: $3+1=4$; $8-4=4$.
-
-**Answer.** $454\,322$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Tìm $x$: $x+245\,780=1\,000\,000$.
-
-[LỜI GIẢI CŨ – VI]
-$x=1\,000\,000-245\,780=754\,220$.
-
-**Thử lại.** $754\,220+245\,780=1\,000\,000$. Đúng.
-
-**Đáp số.** $x=754\,220$.
-
-[ĐỀ – EN]
-Find $x$: $x+245\,780=1\,000\,000$.
-
-[LỜI GIẢI CŨ – EN]
-$x=1\,000\,000-245\,780=754\,220$.
-
-**Check.** $754\,220+245\,780=1\,000\,000$. Correct.
-
-**Answer.** $x=754\,220$.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Hai huyện (số liệu giả định) có $156\,480$ người và $238\,765$ người. Hỏi cả hai huyện có bao nhiêu người?
-
-[LỜI GIẢI CŨ – VI]
-Bài giải
-
-Số người của cả hai huyện là:
-$$156\,480+238\,765=395\,245\ \text{(người)}.$$
-
-**Đáp số.** $395\,245$ người.
-
-[ĐỀ – EN]
-Two districts (made-up numbers) have $156\,480$ people and $238\,765$ people. How many people live in the two districts altogether?
-
-[LỜI GIẢI CŨ – EN]
-Solution
-
-The number of people in the two districts is:
-$$156\,480+238\,765=395\,245\ \text{(people)}.$$
-
-**Answer.** $395\,245$ people.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Một kho (số liệu giả định) có $650\,000$ kg gạo. Kho xuất đi $275\,380$ kg gạo. Hỏi kho còn lại bao nhiêu ki-lô-gam gạo?
-
-[LỜI GIẢI CŨ – VI]
-Bài giải
-
-Số ki-lô-gam gạo còn lại là:
-$$650\,000-275\,380=374\,620\ \text{(kg)}.$$
-
-**Đáp số.** $374\,620$ kg gạo.
-
-[ĐỀ – EN]
-A store (made-up numbers) has $650\,000$ kg of rice. The store sends out $275\,380$ kg of rice. How many kilograms of rice are left in the store?
-
-[LỜI GIẢI CŨ – EN]
-Solution
-
-The number of kilograms of rice left is:
-$$650\,000-275\,380=374\,620\ \text{(kg)}.$$
-
-**Answer.** $374\,620$ kg of rice.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Em hãy nhớ lại bài làm tròn số. Tính $468\,957+376\,849$ rồi làm tròn tổng đến hàng trăm nghìn.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $468\,957+376\,849=845\,806$. Chữ số hàng trăm nghìn là $8$, chữ số hàng chục nghìn là $4$. Vì $4<5$ nên giữ nguyên $8$ và thay các chữ số bên phải bằng $0$.
-
-**Đáp số.** $845\,806$, làm tròn là $800\,000$.
-
-[ĐỀ – EN]
-Remember the lesson on rounding numbers. Work out $468\,957+376\,849$, then round the sum to the nearest hundred thousand.
-
-[LỜI GIẢI CŨ – EN]
-We have $468\,957+376\,849=845\,806$. The hundred-thousands digit is $8$ and the ten-thousands digit is $4$. Since $4<5$, keep $8$ and replace the digits to its right with $0$.
-
-**Answer.** $845\,806$, which rounds to $800\,000$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Nam tính $500\,000-237\,469=363\,531$. Em hãy dùng phép cộng để thử lại kết quả của Nam. Nếu sai, em hãy sửa lại.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $363\,531+237\,469=601\,000$, khác $500\,000$, nên kết quả của Nam sai. Tính lại: $500\,000-237\,469=262\,531$. Thử lại: $262\,531+237\,469=500\,000$. Đúng.
-
-**Đáp số.** Nam sai; kết quả đúng là $262\,531$.
-
-[ĐỀ – EN]
-Nam works out $500\,000-237\,469=363\,531$. Use addition to check Nam's answer. If it is wrong, correct it.
-
-[LỜI GIẢI CŨ – EN]
-We have $363\,531+237\,469=601\,000$, which is not $500\,000$, so Nam's answer is wrong. Working it out again: $500\,000-237\,469=262\,531$. Check: $262\,531+237\,469=500\,000$. Correct.
-
-**Answer.** Nam is wrong; the correct answer is $262\,531$.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Tìm hiệu của số lớn nhất và số bé nhất có sáu chữ số mà các chữ số đều khác nhau.
-
-[LỜI GIẢI CŨ – VI]
-Số lớn nhất là $987\,654$. Số bé nhất là $102\,345$ (chữ số $1$ ở đầu, rồi $0$, $2$, $3$, $4$, $5$). Ta có:
-$$987\,654-102\,345=885\,309.$$
-
-**Đáp số.** $885\,309$.
-
-[ĐỀ – EN]
-Find the difference between the largest and the smallest six-digit number whose digits are all different.
-
-[LỜI GIẢI CŨ – EN]
-The largest number is $987\,654$. The smallest is $102\,345$ (the digit $1$ first, then $0$, $2$, $3$, $4$, $5$). We have:
-$$987\,654-102\,345=885\,309.$$
-
-**Answer.** $885\,309$.
-
-
-######################################################################
-@@@ g4/basic-property-of-fractions
-Bài học: Tính chất cơ bản của phân số / The basic property of fractions
+@@@ g3/missing-numbers-add-subtract
+Bài học: Tìm thành phần trong phép cộng, phép trừ / Finding missing numbers in addition and subtraction
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Tìm số thích hợp: $\dfrac{1}{3}=\dfrac{?}{6}$.
+Tìm $\square$, biết $\square+8=15$.
 
 [LỜI GIẢI CŨ – VI]
-$3\times2=6$ nên $\dfrac{1}{3}=\dfrac{1\times2}{3\times2}=\dfrac{2}{6}$.
+$\square=15-8=7$.
 
-**Đáp số.** $2$.
+**Thử lại.** $7+8=15$. Đúng.
+
+**Đáp số.** $7$.
 
 [ĐỀ – EN]
-Find the missing number: $\dfrac{1}{3}=\dfrac{?}{6}$.
+Find $\square$ when $\square+8=15$.
 
 [LỜI GIẢI CŨ – EN]
-$3\times2=6$, so $\dfrac{1}{3}=\dfrac{1\times2}{3\times2}=\dfrac{2}{6}$.
+$\square=15-8=7$.
 
-**Answer.** $2$.
+**Check.** $7+8=15$. Correct.
+
+**Answer.** $7$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Tìm số thích hợp: $\dfrac{4}{5}=\dfrac{12}{?}$.
+Tìm $\square$, biết $24+\square=40$.
 
 [LỜI GIẢI CŨ – VI]
-$12:4=3$ nên $\dfrac{4}{5}=\dfrac{4\times3}{5\times3}=\dfrac{12}{15}$.
+$\square=40-24=16$.
 
-**Đáp số.** $15$.
+**Thử lại.** $24+16=40$. Đúng.
+
+**Đáp số.** $16$.
 
 [ĐỀ – EN]
-Find the missing number: $\dfrac{4}{5}=\dfrac{12}{?}$.
+Find $\square$ when $24+\square=40$.
 
 [LỜI GIẢI CŨ – EN]
-$12\div4=3$, so $\dfrac{4}{5}=\dfrac{4\times3}{5\times3}=\dfrac{12}{15}$.
+$\square=40-24=16$.
 
-**Answer.** $15$.
+**Check.** $24+16=40$. Correct.
+
+**Answer.** $16$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài trước: $3:4$ viết thành phân số là gì? Rồi viết phân số đó với mẫu số $8$.
+Em hãy nhớ lại phép cộng có nhớ: tính $46+28$. Rồi tìm $\square$, biết $\square+28=74$.
 
 [LỜI GIẢI CŨ – VI]
-$3:4=\dfrac{3}{4}$. Vì $4\times2=8$ nên $\dfrac{3}{4}=\dfrac{3\times2}{4\times2}=\dfrac{6}{8}$.
+$46+28=74$ (vì $6+8=14$, viết $4$ nhớ $1$; $4+2+1=7$). Từ $\square+28=74$ ta có $\square=74-28=46$.
 
-**Đáp số.** $\dfrac{3}{4}$; $\dfrac{6}{8}$.
+**Đáp số.** $46+28=74$ và $\square=46$.
 
 [ĐỀ – EN]
-Remember the last lesson: what is $3\div4$ written as a fraction? Then write that fraction with denominator $8$.
+Remember addition with regrouping: work out $46+28$. Then find $\square$ when $\square+28=74$.
 
 [LỜI GIẢI CŨ – EN]
-$3\div4=\dfrac{3}{4}$. Since $4\times2=8$, we get $\dfrac{3}{4}=\dfrac{3\times2}{4\times2}=\dfrac{6}{8}$.
+$46+28=74$ (because $6+8=14$, write $4$ and regroup $1$; $4+2+1=7$). From $\square+28=74$ we get $\square=74-28=46$.
 
-**Answer.** $\dfrac{3}{4}$; $\dfrac{6}{8}$.
+**Answer.** $46+28=74$ and $\square=46$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tìm số thích hợp: $\dfrac{8}{12}=\dfrac{?}{3}$.
+Tìm số bị trừ, biết số trừ là $9$ và hiệu là $30$, tức là $\square-9=30$.
 
 [LỜI GIẢI CŨ – VI]
-$12:4=3$ nên $\dfrac{8}{12}=\dfrac{8:4}{12:4}=\dfrac{2}{3}$.
+$\square=30+9=39$.
 
-**Đáp số.** $2$.
+**Thử lại.** $39-9=30$. Đúng.
+
+**Đáp số.** $39$.
 
 [ĐỀ – EN]
-Find the missing number: $\dfrac{8}{12}=\dfrac{?}{3}$.
+Find the minuend when the subtrahend is $9$ and the difference is $30$, that is $\square-9=30$.
 
 [LỜI GIẢI CŨ – EN]
-$12\div4=3$, so $\dfrac{8}{12}=\dfrac{8\div4}{12\div4}=\dfrac{2}{3}$.
+$\square=30+9=39$.
 
-**Answer.** $2$.
+**Check.** $39-9=30$. Correct.
+
+**Answer.** $39$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Có thể viết $\dfrac{1}{2}=\dfrac{2}{3}$ bằng cách cùng cộng thêm $1$ vào tử số và mẫu số không? Vì sao?
+Với mỗi phép tính, em chọn phép cộng hay phép trừ để tìm $\square$? Vì sao? Rồi tìm $\square$.
+
+a) $\square+15=40$.
+
+b) $\square-15=40$.
+
+c) $40-\square=15$.
 
 [LỜI GIẢI CŨ – VI]
-Không. Tử số $1$ nhân với $2$ được $2$, nhưng mẫu số $2$ không nhân với $2$ để được $3$. Hai phân số này không bằng nhau; phân số bằng $\dfrac{1}{2}$ là $\dfrac{2}{4}$.
+a) $\square$ là số hạng: lấy tổng trừ số hạng, $\square=40-15=25$.
 
-**Đáp số.** Không, vì phải nhân cả hai số với cùng một số.
+b) $\square$ là số bị trừ: lấy hiệu cộng số trừ, $\square=40+15=55$.
+
+c) $\square$ là số trừ: lấy số bị trừ trừ hiệu, $\square=40-15=25$.
+
+**Đáp số.** a) $25$; b) $55$; c) $25$.
 
 [ĐỀ – EN]
-Can we write $\dfrac{1}{2}=\dfrac{2}{3}$ by adding $1$ to both the numerator and the denominator? Why?
+For each sum, do you add or subtract to find $\square$? Why? Then find $\square$.
+
+a) $\square+15=40$.
+
+b) $\square-15=40$.
+
+c) $40-\square=15$.
 
 [LỜI GIẢI CŨ – EN]
-No. The numerator $1$ times $2$ gives $2$, but the denominator $2$ times $2$ does not give $3$. The two fractions are not equal; the fraction equal to $\dfrac{1}{2}$ is $\dfrac{2}{4}$.
+a) $\square$ is an addend: sum minus addend, $\square=40-15=25$.
 
-**Answer.** No, because both numbers must be multiplied by the same number.
+b) $\square$ is the minuend: difference plus subtrahend, $\square=40+15=55$.
+
+c) $\square$ is the subtrahend: minuend minus difference, $\square=40-15=25$.
+
+**Answer.** a) $25$; b) $55$; c) $25$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Mai viết: "$\dfrac{2}{5}=\dfrac{6}{10}$ vì nhân tử số với $3$ và nhân mẫu số với $2$." Mai sai ở đâu? Hãy viết lại cho đúng.
+Mai giải bài $63-\square=45$ như sau: "$\square=63+45=108$". Bạn Mai làm sai ở đâu? Hãy sửa lại.
 
 [LỜI GIẢI CŨ – VI]
-Mai nhân tử số với $3$ nhưng mẫu số với $2$: hai số nhân khác nhau. Đúng là $\dfrac{2}{5}=\dfrac{2\times3}{5\times3}=\dfrac{6}{15}$.
+Mai đã cộng, nhưng $\square$ là số trừ nên phải lấy số bị trừ trừ đi hiệu: $\square=63-45=18$.
 
-**Đáp số.** $\dfrac{6}{15}$.
+**Thử lại.** $63-18=45$. Đúng.
+
+**Đáp số.** Mai sai phép tính; $\square=18$.
 
 [ĐỀ – EN]
-Mai wrote: "$\dfrac{2}{5}=\dfrac{6}{10}$ because I multiplied the numerator by $3$ and the denominator by $2$." Where did Mai go wrong? Write it correctly.
+Mai solved $63-\square=45$ like this: "$\square=63+45=108$". Where did Mai go wrong? Correct it.
 
 [LỜI GIẢI CŨ – EN]
-Mai multiplied the numerator by $3$ but the denominator by $2$: two different numbers. The correct working is $\dfrac{2}{5}=\dfrac{2\times3}{5\times3}=\dfrac{6}{15}$.
+Mai added, but $\square$ is the subtrahend, so we subtract the difference from the minuend: $\square=63-45=18$.
 
-**Answer.** $\dfrac{6}{15}$.
+**Check.** $63-18=45$. Correct.
+
+**Answer.** Mai used the wrong operation; $\square=18$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Nam ăn $\dfrac{2}{4}$ chiếc bánh, Hà ăn $\dfrac{4}{8}$, Lan ăn $\dfrac{3}{6}$ (các chiếc bánh giống nhau). Hãy chia cả tử số và mẫu số để viết mỗi phân số thành phân số có tử số $1$, rồi cho biết ba bạn có ăn bằng nhau không.
+a) Cô giáo có một số quyển vở. Cô phát cho lớp $35$ quyển thì còn lại $18$ quyển. Hỏi lúc đầu cô có bao nhiêu quyển vở?
+
+b) Buổi sáng cửa hàng bán $27$ kg gạo. Cả ngày cửa hàng bán được $60$ kg gạo. Hỏi buổi chiều cửa hàng bán bao nhiêu ki-lô-gam gạo?
 
 [LỜI GIẢI CŨ – VI]
-$\dfrac{2}{4}=\dfrac{2:2}{4:2}=\dfrac{1}{2}$; $\dfrac{4}{8}=\dfrac{4:4}{8:4}=\dfrac{1}{2}$; $\dfrac{3}{6}=\dfrac{3:3}{6:3}=\dfrac{1}{2}$. Cả ba bằng $\dfrac{1}{2}$.
+a) Gọi số vở lúc đầu là $\square$: $\square-35=18$, nên $\square=18+35=53$ (quyển).
 
-**Đáp số.** Ba bạn ăn bằng nhau, mỗi bạn $\dfrac{1}{2}$ chiếc bánh.
+b) Gọi số gạo bán buổi chiều là $\square$: $27+\square=60$, nên $\square=60-27=33$ (kg).
+
+**Đáp số.** a) $53$ quyển vở; b) $33$ kg gạo.
 
 [ĐỀ – EN]
-Nam eats $\dfrac{2}{4}$ of a cake, Ha eats $\dfrac{4}{8}$ and Lan eats $\dfrac{3}{6}$ (the cakes are all the same). Divide the numerator and denominator to write each fraction with numerator $1$, then say whether the three children ate the same amount.
+a) A teacher has some exercise books. She gives $35$ to the class and has $18$ left. How many books did she have at the start?
+
+b) A shop sold $27$ kg of rice in the morning. It sold $60$ kg in the whole day. How many kilograms of rice did it sell in the afternoon?
 
 [LỜI GIẢI CŨ – EN]
-$\dfrac{2}{4}=\dfrac{2\div2}{4\div2}=\dfrac{1}{2}$; $\dfrac{4}{8}=\dfrac{4\div4}{8\div4}=\dfrac{1}{2}$; $\dfrac{3}{6}=\dfrac{3\div3}{6\div3}=\dfrac{1}{2}$. All three equal $\dfrac{1}{2}$.
+a) Let the starting number be $\square$: $\square-35=18$, so $\square=18+35=53$ (books).
 
-**Answer.** The three children ate the same amount, $\dfrac{1}{2}$ of a cake each.
+b) Let the afternoon amount be $\square$: $27+\square=60$, so $\square=60-27=33$ (kg).
+
+**Answer.** a) $53$ books; b) $33$ kg of rice.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Tìm các số tự nhiên $a$ và $b$ sao cho $\dfrac{3}{4}=\dfrac{a}{20}=\dfrac{27}{b}$.
+Tìm $\square$.
+
+a) $\square+28=100-35$.
+
+b) $90-\square=47+16$.
 
 [LỜI GIẢI CŨ – VI]
-$\dfrac{3}{4}=\dfrac{3\times5}{4\times5}=\dfrac{15}{20}$ nên $a=15$. $\dfrac{3}{4}=\dfrac{3\times9}{4\times9}=\dfrac{27}{36}$ nên $b=36$.
+a) $100-35=65$, nên $\square+28=65$ và $\square=65-28=37$. Thử lại: $37+28=65$.
 
-**Kiểm tra.** $15:5=3$, $20:5=4$; $27:9=3$, $36:9=4$. Đúng.
+b) $47+16=63$, nên $90-\square=63$ và $\square=90-63=27$. Thử lại: $90-27=63$.
 
-**Đáp số.** $a=15$, $b=36$.
+**Đáp số.** a) $37$; b) $27$.
 
 [ĐỀ – EN]
-Find the whole numbers $a$ and $b$ such that $\dfrac{3}{4}=\dfrac{a}{20}=\dfrac{27}{b}$.
+Find $\square$.
+
+a) $\square+28=100-35$.
+
+b) $90-\square=47+16$.
 
 [LỜI GIẢI CŨ – EN]
-$\dfrac{3}{4}=\dfrac{3\times5}{4\times5}=\dfrac{15}{20}$, so $a=15$. $\dfrac{3}{4}=\dfrac{3\times9}{4\times9}=\dfrac{27}{36}$, so $b=36$.
+a) $100-35=65$, so $\square+28=65$ and $\square=65-28=37$. Check: $37+28=65$.
 
-**Check.** $15\div5=3$, $20\div5=4$; $27\div9=3$, $36\div9=4$. Correct.
+b) $47+16=63$, so $90-\square=63$ and $\square=90-63=27$. Check: $90-27=63$.
 
-**Answer.** $a=15$, $b=36$.
+**Answer.** a) $37$; b) $27$.
 
 
 ######################################################################
-@@@ g4/commutative-associative-addition
-Bài học: Tính chất giao hoán và kết hợp của phép cộng / Commutative and associative properties of addition
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 10 (giữ ĐÚNG số thứ tự này)
+@@@ g3/missing-numbers-multiply-divide
+Bài học: Tìm thành phần trong phép nhân, phép chia / Finding missing numbers in multiplication and division
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Điền số thích hợp vào chỗ chấm: $245+138=138+\ \ldots$
+Tìm $\square$:
+
+a) $\square\times3=18$.
+
+b) $4\times\square=32$.
+
+c) $\square\times9=81$.
 
 [LỜI GIẢI CŨ – VI]
-Theo tính chất giao hoán, $245+138=138+245$.
+a) $\square=18:3=6$. Thử lại: $6\times3=18$.
 
-**Đáp số.** $245$.
+b) $\square=32:4=8$. Thử lại: $4\times8=32$.
+
+c) $\square=81:9=9$. Thử lại: $9\times9=81$.
+
+**Đáp số.** a) $6$; b) $8$; c) $9$.
 
 [ĐỀ – EN]
-Write the right number in the gap: $245+138=138+\ \ldots$
+Find $\square$:
+
+a) $\square\times3=18$.
+
+b) $4\times\square=32$.
+
+c) $\square\times9=81$.
 
 [LỜI GIẢI CŨ – EN]
-By the commutative property, $245+138=138+245$.
+a) $\square=18\div3=6$. Check: $6\times3=18$.
 
-**Answer.** $245$.
+b) $\square=32\div4=8$. Check: $4\times8=32$.
+
+c) $\square=81\div9=9$. Check: $9\times9=81$.
+
+**Answer.** a) $6$; b) $8$; c) $9$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Tính bằng cách thuận tiện: $46+38+54$.
+Tìm số bị chia $\square$:
+
+a) $\square:5=6$.
+
+b) $\square:8=4$.
+
+c) $\square:9=7$.
 
 [LỜI GIẢI CŨ – VI]
-Vì $46+54=100$ nên $46+38+54=(46+54)+38=100+38=138$.
+a) $\square=6\times5=30$. Thử lại: $30:5=6$.
 
-**Đáp số.** $138$.
+b) $\square=4\times8=32$. Thử lại: $32:8=4$.
+
+c) $\square=7\times9=63$. Thử lại: $63:9=7$.
+
+**Đáp số.** a) $30$; b) $32$; c) $63$.
 
 [ĐỀ – EN]
-Work out in a convenient way: $46+38+54$.
+Find the missing dividend $\square$:
+
+a) $\square\div5=6$.
+
+b) $\square\div8=4$.
+
+c) $\square\div9=7$.
 
 [LỜI GIẢI CŨ – EN]
-Since $46+54=100$, we have $46+38+54=(46+54)+38=100+38=138$.
+a) $\square=6\times5=30$. Check: $30\div5=6$.
 
-**Answer.** $138$.
+b) $\square=4\times8=32$. Check: $32\div8=4$.
+
+c) $\square=7\times9=63$. Check: $63\div9=7$.
+
+**Answer.** a) $30$; b) $32$; c) $63$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Tính bằng cách thuận tiện: $173+84+27$.
+Em hãy nhớ lại bảng nhân $9$. Tính $9\times6$. Rồi tìm $\square$, biết $\square\times9=54$ và tìm $54:9$.
 
 [LỜI GIẢI CŨ – VI]
-Vì $173+27=200$ nên $173+84+27=(173+27)+84=200+84=284$.
+$9\times6=60-6=54$. Từ $\square\times9=54$ ta có $\square=54:9=6$.
 
-**Đáp số.** $284$.
+**Đáp số.** $9\times6=54$; $\square=6$ và $54:9=6$.
 
 [ĐỀ – EN]
-Work out in a convenient way: $173+84+27$.
+Remember the $9$ times table. Work out $9\times6$. Then find $\square$ when $\square\times9=54$ and work out $54\div9$.
 
 [LỜI GIẢI CŨ – EN]
-Since $173+27=200$, we have $173+84+27=(173+27)+84=200+84=284$.
+$9\times6=60-6=54$. From $\square\times9=54$ we get $\square=54\div9=6$.
 
-**Answer.** $284$.
+**Answer.** $9\times6=54$; $\square=6$ and $54\div9=6$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tính bằng cách thuận tiện: $36+17+64+83$.
+Tìm số chia $\square$:
+
+a) $24:\square=3$.
+
+b) $56:\square=7$.
+
+c) $90:\square=9$.
 
 [LỜI GIẢI CŨ – VI]
-Ta có $36+64=100$ và $17+83=100$. Vậy $36+17+64+83=(36+64)+(17+83)=100+100=200$.
+a) $\square=24:3=8$. Thử lại: $24:8=3$.
 
-**Đáp số.** $200$.
+b) $\square=56:7=8$. Thử lại: $56:8=7$.
+
+c) $\square=90:9=10$. Thử lại: $90:10=9$.
+
+**Đáp số.** a) $8$; b) $8$; c) $10$.
 
 [ĐỀ – EN]
-Work out in a convenient way: $36+17+64+83$.
+Find the missing divisor $\square$:
+
+a) $24\div\square=3$.
+
+b) $56\div\square=7$.
+
+c) $90\div\square=9$.
 
 [LỜI GIẢI CŨ – EN]
-We have $36+64=100$ and $17+83=100$. So $36+17+64+83=(36+64)+(17+83)=100+100=200$.
+a) $\square=24\div3=8$. Check: $24\div8=3$.
 
-**Answer.** $200$.
+b) $\square=56\div7=8$. Check: $56\div8=7$.
+
+c) $\square=90\div9=10$. Check: $90\div10=9$.
+
+**Answer.** a) $8$; b) $8$; c) $10$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Tìm $x$: $x+245=245+78$.
+Với mỗi phép tính, em chọn phép nhân hay phép chia để tìm $\square$? Vì sao? Rồi tìm $\square$.
+
+a) $\square\times6=48$.
+
+b) $\square:6=8$.
+
+c) $48:\square=6$.
 
 [LỜI GIẢI CŨ – VI]
-Theo tính chất giao hoán, $245+78=78+245$. Vậy $x+245=78+245$ nên $x=78$.
+a) $\square$ là thừa số: lấy tích chia thừa số, $\square=48:6=8$.
 
-**Thử lại.** $78+245=245+78$. Đúng.
+b) $\square$ là số bị chia: lấy thương nhân số chia, $\square=8\times6=48$.
 
-**Đáp số.** $x=78$.
+c) $\square$ là số chia: lấy số bị chia chia thương, $\square=48:6=8$.
+
+**Đáp số.** a) $8$; b) $48$; c) $8$.
 
 [ĐỀ – EN]
-Find $x$: $x+245=245+78$.
+For each sum, do you multiply or divide to find $\square$? Why? Then find $\square$.
+
+a) $\square\times6=48$.
+
+b) $\square\div6=8$.
+
+c) $48\div\square=6$.
 
 [LỜI GIẢI CŨ – EN]
-By the commutative property, $245+78=78+245$. So $x+245=78+245$, which gives $x=78$.
+a) $\square$ is a factor: product divided by factor, $\square=48\div6=8$.
 
-**Check.** $78+245=245+78$. Correct.
+b) $\square$ is the dividend: quotient times divisor, $\square=8\times6=48$.
 
-**Answer.** $x=78$.
+c) $\square$ is the divisor: dividend divided by quotient, $\square=48\div6=8$.
+
+**Answer.** a) $8$; b) $48$; c) $8$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Ba lớp (số liệu giả định) thu gom được $125$ kg, $247$ kg và $175$ kg giấy vụn. Hỏi cả ba lớp thu gom được bao nhiêu ki-lô-gam giấy vụn?
+Lan giải bài $36:\square=4$ như sau: "$\square=36\times4=144$". Bạn Lan làm sai ở đâu? Hãy sửa lại.
 
 [LỜI GIẢI CŨ – VI]
-Bài giải
+Lan đã nhân, nhưng $\square$ là số chia nên phải lấy số bị chia chia cho thương: $\square=36:4=9$.
 
-Số ki-lô-gam giấy vụn của cả ba lớp là:
-$$125+247+175=(125+175)+247=300+247=547\ \text{(kg)}.$$
+**Thử lại.** $36:9=4$. Đúng.
 
-**Đáp số.** $547$ kg giấy vụn.
+**Đáp số.** Lan dùng sai phép tính; $\square=9$.
 
 [ĐỀ – EN]
-Three classes (made-up numbers) collect $125$ kg, $247$ kg and $175$ kg of waste paper. How many kilograms of waste paper do the three classes collect altogether?
+Lan solved $36\div\square=4$ like this: "$\square=36\times4=144$". Where did Lan go wrong? Correct it.
 
 [LỜI GIẢI CŨ – EN]
-Solution
+Lan multiplied, but $\square$ is the divisor, so we divide the dividend by the quotient: $\square=36\div4=9$.
 
-The number of kilograms of waste paper collected by the three classes is:
-$$125+247+175=(125+175)+247=300+247=547\ \text{(kg)}.$$
+**Check.** $36\div9=4$. Correct.
 
-**Answer.** $547$ kg of waste paper.
+**Answer.** Lan used the wrong operation; $\square=9$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Một cửa hàng (số liệu giả định) ngày thứ nhất bán được $2\,450\,000$ đồng, ngày thứ hai bán được $1\,380\,000$ đồng, ngày thứ ba bán được $550\,000$ đồng. Hỏi cả ba ngày cửa hàng bán được bao nhiêu đồng?
+a) Có $72$ cái bánh xếp vào các hộp, mỗi hộp $8$ cái. Hỏi xếp được bao nhiêu hộp?
+
+b) Một số cây bút chia đều cho $7$ bạn, mỗi bạn $6$ cây. Hỏi có tất cả bao nhiêu cây bút?
 
 [LỜI GIẢI CŨ – VI]
-Bài giải
+a) Gọi số hộp là $\square$: $8\times\square=72$, nên $\square=72:8=9$ (hộp).
 
-Số tiền bán được trong ba ngày là:
-$$2\,450\,000+1\,380\,000+550\,000=(2\,450\,000+550\,000)+1\,380\,000=3\,000\,000+1\,380\,000=4\,380\,000\ \text{(đồng)}.$$
+b) Gọi số bút là $\square$: $\square:7=6$, nên $\square=6\times7=42$ (cây).
 
-**Đáp số.** $4\,380\,000$ đồng.
+**Đáp số.** a) $9$ hộp; b) $42$ cây bút.
 
 [ĐỀ – EN]
-A shop (made-up numbers) sells $2\,450\,000$ dong of goods on the first day, $1\,380\,000$ dong on the second day and $550\,000$ dong on the third day. How many dong of goods does the shop sell in the three days altogether?
+a) $72$ cakes are put into boxes, $8$ cakes in each box. How many boxes are filled?
+
+b) Some pens are shared equally among $7$ children, $6$ pens each. How many pens are there altogether?
 
 [LỜI GIẢI CŨ – EN]
-Solution
+a) Let the number of boxes be $\square$: $8\times\square=72$, so $\square=72\div8=9$ (boxes).
 
-The money from sales in the three days is:
-$$2\,450\,000+1\,380\,000+550\,000=(2\,450\,000+550\,000)+1\,380\,000=3\,000\,000+1\,380\,000=4\,380\,000\ \text{(dong)}.$$
+b) Let the number of pens be $\square$: $\square\div7=6$, so $\square=6\times7=42$ (pens).
 
-**Answer.** $4\,380\,000$ dong.
+**Answer.** a) $9$ boxes; b) $42$ pens.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài cộng các số có nhiều chữ số. Tính bằng cách thuận tiện: $348\,650+275\,480+651\,350$.
+Tìm $\square$.
+
+a) $\square\times6=4\times9$.
+
+b) $63:\square=3\times3$.
 
 [LỜI GIẢI CŨ – VI]
-Ta có $348\,650+651\,350=1\,000\,000$. Vậy $348\,650+275\,480+651\,350=(348\,650+651\,350)+275\,480=1\,000\,000+275\,480=1\,275\,480$.
+a) $4\times9=36$, nên $\square\times6=36$ và $\square=36:6=6$. Thử lại: $6\times6=36$.
 
-**Đáp số.** $1\,275\,480$.
+b) $3\times3=9$, nên $63:\square=9$ và $\square=63:9=7$. Thử lại: $63:7=9$.
 
-[ĐỀ – EN]
-Remember the lesson on adding numbers with many digits. Work out in a convenient way: $348\,650+275\,480+651\,350$.
-
-[LỜI GIẢI CŨ – EN]
-We have $348\,650+651\,350=1\,000\,000$. So $348\,650+275\,480+651\,350=(348\,650+651\,350)+275\,480=1\,000\,000+275\,480=1\,275\,480$.
-
-**Answer.** $1\,275\,480$.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Tính nhanh: $1+2+3+4+5+6+7+8+9$.
-
-[LỜI GIẢI CŨ – VI]
-Ta ghép thành bốn cặp, mỗi cặp có tổng $10$, còn lại $5$:
-$$(1+9)+(2+8)+(3+7)+(4+6)+5=10+10+10+10+5=45.$$
-
-**Đáp số.** $45$.
+**Đáp số.** a) $6$; b) $7$.
 
 [ĐỀ – EN]
-Calculate quickly: $1+2+3+4+5+6+7+8+9$.
+Find $\square$.
+
+a) $\square\times6=4\times9$.
+
+b) $63\div\square=3\times3$.
 
 [LỜI GIẢI CŨ – EN]
-Make four pairs, each with sum $10$, leaving $5$:
-$$(1+9)+(2+8)+(3+7)+(4+6)+5=10+10+10+10+5=45.$$
+a) $4\times9=36$, so $\square\times6=36$ and $\square=36\div6=6$. Check: $6\times6=36$.
 
-**Answer.** $45$.
+b) $3\times3=9$, so $63\div\square=9$ and $\square=63\div9=7$. Check: $63\div7=9$.
+
+**Answer.** a) $6$; b) $7$.
 
 
 ######################################################################
-@@@ g4/commutative-associative-multiplication
-Bài học: Tính chất giao hoán và kết hợp của phép nhân. Tính chất phân phối của phép nhân đối với phép cộng / Commutative and associative properties of multiplication. The distributive property of multiplication over addition
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+@@@ g3/multiply-2-digit-by-1-digit
+Bài học: Nhân số có hai chữ số với số có một chữ số / Multiplying a two-digit number by a one-digit number
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Số?
-a) $8\times9=9\times\square$
-b) $(3\times5)\times2=3\times(\square\times2)$
+Tính $21\times4$.
 
 [LỜI GIẢI CŨ – VI]
-a) Theo tính chất giao hoán, $8\times9=9\times8$.
+$1\times4=4$; $2\times4=8$. Vậy $21\times4=84$.
 
-b) Theo tính chất kết hợp, $(3\times5)\times2=3\times(5\times2)$.
-
-**Đáp số.** a) $8$. b) $5$.
+**Đáp số.** $84$.
 
 [ĐỀ – EN]
-Fill in the missing numbers.
-a) $8\times9=9\times\square$
-b) $(3\times5)\times2=3\times(\square\times2)$
+Work out $21\times4$.
 
 [LỜI GIẢI CŨ – EN]
-a) By the commutative property, $8\times9=9\times8$.
+$1\times4=4$; $2\times4=8$. So $21\times4=84$.
 
-b) By the associative property, $(3\times5)\times2=3\times(5\times2)$.
-
-**Answer.** a) $8$. b) $5$.
+**Answer.** $84$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Tính bằng cách thuận tiện: $2\times59\times5$.
+Tính $13\times3$.
 
 [LỜI GIẢI CŨ – VI]
-$$2\times59\times5=(2\times5)\times59=10\times59=590.$$
+$3\times3=9$; $1\times3=3$. Vậy $13\times3=39$.
 
-**Đáp số.** $590$.
+**Đáp số.** $39$.
 
 [ĐỀ – EN]
-Calculate in the easy way: $2\times59\times5$.
+Work out $13\times3$.
 
 [LỜI GIẢI CŨ – EN]
-$$2\times59\times5=(2\times5)\times59=10\times59=590.$$
+$3\times3=9$; $1\times3=3$. So $13\times3=39$.
 
-**Answer.** $590$.
+**Answer.** $39$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Tính bằng cách thuận tiện: $125\times9\times8$.
+Tính $18\times4$.
 
 [LỜI GIẢI CŨ – VI]
-$$125\times9\times8=(125\times8)\times9=1\,000\times9=9\,000.$$
+$8\times4=32$, viết $2$ nhớ $3$. $1\times4=4$, thêm $3$ được $7$. Vậy $18\times4=72$.
 
-**Đáp số.** $9\,000$.
+**Đáp số.** $72$.
 
 [ĐỀ – EN]
-Calculate in the easy way: $125\times9\times8$.
+Work out $18\times4$.
 
 [LỜI GIẢI CŨ – EN]
-$$125\times9\times8=(125\times8)\times9=1\,000\times9=9\,000.$$
+$8\times4=32$, write $2$ and carry $3$. $1\times4=4$, and adding $3$ gives $7$. So $18\times4=72$.
 
-**Answer.** $9\,000$.
+**Answer.** $72$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tính giá trị của $7\times(5+3)$ bằng hai cách.
+Tính $25\times3$.
 
 [LỜI GIẢI CŨ – VI]
-Cách 1: $7\times(5+3)=7\times8=56$.
+$5\times3=15$, viết $5$ nhớ $1$. $2\times3=6$, thêm $1$ được $7$. Vậy $25\times3=75$.
 
-Cách 2: $7\times(5+3)=7\times5+7\times3=35+21=56$.
-
-**Đáp số.** $56$.
+**Đáp số.** $75$.
 
 [ĐỀ – EN]
-Work out $7\times(5+3)$ in two ways.
+Work out $25\times3$.
 
 [LỜI GIẢI CŨ – EN]
-Method 1: $7\times(5+3)=7\times8=56$.
+$5\times3=15$, write $5$ and carry $1$. $2\times3=6$, and adding $1$ gives $7$. So $25\times3=75$.
 
-Method 2: $7\times(5+3)=7\times5+7\times3=35+21=56$.
-
-**Answer.** $56$.
+**Answer.** $75$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Tính bằng cách thuận tiện: $48\times7+48\times3$.
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $14\times5 \;\square\; 70$.
 
 [LỜI GIẢI CŨ – VI]
-$$48\times7+48\times3=48\times(7+3)=48\times10=480.$$
+$4\times5=20$, viết $0$ nhớ $2$. $1\times5=5$, thêm $2$ được $7$. Vậy $14\times5=70$.
 
-**Đáp số.** $480$.
+**Đáp số.** Dấu $=$.
 
 [ĐỀ – EN]
-Calculate in the easy way: $48\times7+48\times3$.
+Write $>$, $<$ or $=$ in the box: $14\times5 \;\square\; 70$.
 
 [LỜI GIẢI CŨ – EN]
-$$48\times7+48\times3=48\times(7+3)=48\times10=480.$$
+$4\times5=20$, write $0$ and carry $2$. $1\times5=5$, and adding $2$ gives $7$. So $14\times5=70$.
 
-**Answer.** $480$.
+**Answer.** The sign $=$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Một thùng có $5$ hộp bánh, mỗi hộp có $20$ cái bánh. Kho có $6$ thùng như vậy. Hỏi kho có tất cả bao nhiêu cái bánh?
+Mỗi túi có $23$ viên bi. Hỏi $4$ túi như thế có bao nhiêu viên bi?
 
 [LỜI GIẢI CŨ – VI]
-Số cái bánh có trong kho là:
-$$20\times5\times6=(20\times5)\times6=100\times6=600\ \text{(cái)}.$$
+Số viên bi có tất cả là:
+$$23\times4=92\ \text{(viên)}.$$
 
-**Đáp số.** $600$ cái bánh.
+**Đáp số.** $92$ viên bi.
 
 [ĐỀ – EN]
-A carton holds $5$ boxes of biscuits, and each box has $20$ biscuits. The store room has $6$ such cartons. How many biscuits are in the store room altogether?
+Each bag has $23$ marbles. How many marbles are in $4$ such bags?
 
 [LỜI GIẢI CŨ – EN]
-The number of biscuits in the store room is:
-$$20\times5\times6=(20\times5)\times6=100\times6=600\ \text{(biscuits)}.$$
+The number of marbles altogether is:
+$$23\times4=92\ \text{(marbles)}.$$
 
-**Answer.** $600$ biscuits.
+**Answer.** $92$ marbles.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Lan mua $6$ quyển vở, mỗi quyển giá $9\,000$ đồng, và $6$ chiếc bút, mỗi chiếc giá $6\,000$ đồng. Hỏi Lan phải trả tất cả bao nhiêu tiền?
+Em hãy nhớ lại bài trước: một khối hộp xếp từ các khối lập phương nhỏ gồm $4$ lớp, mỗi lớp có $12$ khối. Hỏi có tất cả bao nhiêu khối nhỏ?
 
 [LỜI GIẢI CŨ – VI]
-Số tiền Lan phải trả là:
-$$6\times9\,000+6\times6\,000=6\times(9\,000+6\,000)=6\times15\,000=90\,000\ \text{(đồng)}.$$
+Số khối nhỏ là:
+$$12\times4=48\ \text{(khối)}.$$
 
-**Đáp số.** $90\,000$ đồng.
+**Đáp số.** $48$ khối.
 
 [ĐỀ – EN]
-Lan buys $6$ exercise books at $9\,000$ dong each and $6$ pens at $6\,000$ dong each. How much does Lan pay altogether?
+Remember the last lesson: a cuboid is built from small cubes in $4$ layers with $12$ cubes in each layer. How many small cubes are there altogether?
 
 [LỜI GIẢI CŨ – EN]
-The amount Lan pays is:
-$$6\times9\,000+6\times6\,000=6\times(9\,000+6\,000)=6\times15\,000=90\,000\ \text{(dong)}.$$
+The number of small cubes is:
+$$12\times4=48\ \text{(cubes)}.$$
 
-**Answer.** $90\,000$ dong.
+**Answer.** $48$ cubes.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài nhân với số có một chữ số. Tách $2\,315=2\,000+300+15$ rồi tính $2\,315\times4$.
+Tìm số thích hợp điền vào ô trống: $\square\times4=52$.
 
 [LỜI GIẢI CŨ – VI]
-$$\begin{aligned} 2\,315\times4 &= (2\,000+300+15)\times4 \\ &= 8\,000+1\,200+60 \\ &= 9\,260. \end{aligned}$$
+Số cần tìm là $52:4=13$.
 
-**Đáp số.** $9\,260$.
+**Kiểm tra.** $13\times4=52$. Đúng.
 
-[ĐỀ – EN]
-Remember the lesson on multiplying by a one-digit number. Split $2\,315=2\,000+300+15$ and work out $2\,315\times4$.
-
-[LỜI GIẢI CŨ – EN]
-$$\begin{aligned} 2\,315\times4 &= (2\,000+300+15)\times4 \\ &= 8\,000+1\,200+60 \\ &= 9\,260. \end{aligned}$$
-
-**Answer.** $9\,260$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Một mảnh vườn hình chữ nhật có chiều rộng $7$ m. Phần trồng rau dài $12$ m và phần trồng hoa dài $8$ m, hai phần nằm cạnh nhau. Hỏi diện tích cả mảnh vườn là bao nhiêu mét vuông?
-
-[LỜI GIẢI CŨ – VI]
-Diện tích cả mảnh vườn là:
-$$7\times(12+8)=7\times12+7\times8=84+56=140\ (\text{m}^2).$$
-
-**Kiểm tra.** $7\times20=140$. Đúng.
-
-**Đáp số.** $140\ \text{m}^2$.
+**Đáp số.** $13$.
 
 [ĐỀ – EN]
-A rectangular garden is $7$ m wide. The vegetable part is $12$ m long and the flower part is $8$ m long, side by side. What is the area of the whole garden in square metres?
+Find the missing number: $\square\times4=52$.
 
 [LỜI GIẢI CŨ – EN]
-The area of the whole garden is:
-$$7\times(12+8)=7\times12+7\times8=84+56=140\ (\text{m}^2).$$
+The missing number is $52\div4=13$.
 
-**Check.** $7\times20=140$. Correct.
+**Check.** $13\times4=52$. Correct.
 
-**Answer.** $140\ \text{m}^2$.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Tính bằng cách thuận tiện: $25\times36$.
-
-[LỜI GIẢI CŨ – VI]
-Vì $36=4\times9$ nên:
-$$\begin{aligned} 25\times36 &= 25\times(4\times9) \\ &= (25\times4)\times9 \\ &= 100\times9 \\ &= 900. \end{aligned}$$
-
-**Đáp số.** $900$.
-
-[ĐỀ – EN]
-Calculate in the easy way: $25\times36$.
-
-[LỜI GIẢI CŨ – EN]
-Since $36=4\times9$:
-$$\begin{aligned} 25\times36 &= 25\times(4\times9) \\ &= (25\times4)\times9 \\ &= 100\times9 \\ &= 900. \end{aligned}$$
-
-**Answer.** $900$.
+**Answer.** $13$.
 
 
 ===== HẾT FILE thichgiaitoan-13-LG =====

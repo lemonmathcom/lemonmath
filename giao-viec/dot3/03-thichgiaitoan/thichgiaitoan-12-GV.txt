@@ -6,7 +6,7 @@ Kết quả: file thichgiaitoan-12-GV-ketqua.md, lưu vào Dropbox Lemonmath.com
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – thichgiaitoan-12-GV
-Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g3/six-times-table, g3/three-times-table, g3/triangles-quadrilaterals-rectangles, g3/unit-fractions
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g3/g3-vietnamese-money, g3/likelihood-of-an-event
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/thichgiaitoan-12-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  /mnt/user-data/outputs/thichgiaitoan-12-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file thichgiaitoan-12-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,179 +135,203 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g3/six-times-table – BẢN TIẾNG VIỆT ########
+######## BÀI g3/g3-vietnamese-money – BẢN TIẾNG VIỆT ########
 ---
-title: Bảng nhân 6, bảng chia 6
-description: Em học bảng nhân 6 bằng cách gấp đôi bảng nhân 3 và cộng thêm 6, rồi dùng bảng nhân 6 để chia cho 6 và giải bài toán.
+title: Tiền Việt Nam
+description: Em học cách đếm tiền, tính tiền hàng và tiền trả lại với các tờ tiền Việt Nam, bằng cách tính theo nghìn đồng.
 minutes: 15
 ---
 
   :::goals
-  - Thuộc và lập được bảng nhân 6.
-  - Dùng bảng nhân 6 để chia cho 6.
-  - Giải bài toán có lời văn bằng một phép nhân hoặc một phép chia.
+  - Nhận biết các tờ tiền Việt Nam và giá trị của chúng.
+  - Đếm số tiền của nhiều tờ tiền bằng cách tính theo nghìn đồng.
+  - Tính tiền hàng và tiền trả lại khi mua hàng.
+  - Giải bài toán có lời văn về tiền, nhớ ghi đơn vị đồng.
   :::
 
-[[P1·1bf7]]
-Một vỉ có $6$ quả trứng. Mẹ mua $4$ vỉ như vậy. Hỏi mẹ mua tất cả bao nhiêu quả trứng?
+[[P1·52e9]]
+Nam có một tờ tiền $20\,000$ đồng. Nam mua một cuốn sổ giá $12\,000$ đồng và đưa cô bán hàng tờ tiền đó. Hỏi cô bán hàng phải trả lại Nam bao nhiêu tiền?
 
-[[P2·4bb9]]
-Em có thể cộng $6+6+6+6$, nhưng cộng nhiều lần dễ nhầm. Bài này giúp em tính nhanh bằng bảng nhân $6$.
+[[P2·8092]]
+Em đã học cộng và trừ các số trong phạm vi $100\,000$. Bài này dùng chính các phép tính đó để tính tiền.
 
 ## Cùng khám phá
 
-[[P3·502e]]
-Mỗi vỉ có $6$ quả. Ta cộng dần từng vỉ:
+[[P3·db0b]]
+Ở Việt Nam, đơn vị tiền là **đồng**. Em thường gặp các tờ tiền ghi trong bảng sau. Cột bên phải cho biết mỗi tờ bằng bao nhiêu **nghìn** đồng.
 
-[[P4·a116]]
-- $1$ vỉ: $6$ quả.
-- $2$ vỉ: $6+6=12$ quả.
-- $3$ vỉ: $12+6=18$ quả.
-- $4$ vỉ: $18+6=24$ quả.
+| Tờ tiền (đồng) | Bằng bao nhiêu nghìn đồng |
+|---|---|
+| $1\,000$ | $1$ nghìn |
+| $2\,000$ | $2$ nghìn |
+| $5\,000$ | $5$ nghìn |
+| $10\,000$ | $10$ nghìn |
+| $20\,000$ | $20$ nghìn |
+| $50\,000$ | $50$ nghìn |
+| $100\,000$ | $100$ nghìn |
 
-[[P5·23aa]]
-Vậy $4$ vỉ có $24$ quả trứng, tức là $6\times4=24$. Mỗi lần thêm một vỉ, tích tăng thêm $6$.
+[[P4·3827]]
+Ta bắt đầu với một ví dụ nhỏ. Mẹ cho Nam hai tờ $5\,000$ đồng và một tờ $2\,000$ đồng. Nam có tất cả bao nhiêu tiền?
 
-:::graph Trên tia số: mỗi bước nhảy 6 đơn vị
-   (… 11 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+[[P5·376a]]
+- Mỗi tờ $5\,000$ đồng là $5$ nghìn. Hai tờ là $5+5=10$ nghìn.
+- Tờ $2\,000$ đồng là $2$ nghìn.
+- Cộng lại: $10+2=12$ nghìn.
+
+[[P6·93e6]]
+Vậy Nam có $12$ nghìn đồng, tức là $12\,000$ đồng. Em thấy không, ta cộng các số nhỏ rồi mới thêm chữ "nghìn".
+
+[[P7·482f]]
+Bây giờ ta quay lại bài toán của Nam ở đầu bài. Nam đưa $20$ nghìn đồng và tiền hàng là $12$ nghìn đồng. Em hãy xem trên tia số: từ $12$ lên $20$ cần thêm bao nhiêu nghìn?
+
+:::graph Trên tia số (đơn vị: nghìn đồng): từ 12 lên 20 cần thêm 8
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-[[P6·7422]]
-Em còn một mẹo nữa: $6$ gấp đôi $3$, nên $6\times4$ gấp đôi $3\times4=12$, và $12+12=24$.
+[[P8·fa78]]
+Từ $12$ lên $20$ cần thêm $8$ nghìn. Em cũng có thể trừ: $20-12=8$ nghìn. Vậy cô bán hàng trả lại Nam $8\,000$ đồng.
 
-  :::theorem Bảng nhân 6
-  Muốn tính $6\times n$, em lấy $6\times(n-1)$ rồi cộng thêm $6$. Em cũng có thể lấy $3\times n$ rồi gấp đôi.
-
-  | $6\times1$ | $6\times2$ | $6\times3$ | $6\times4$ | $6\times5$ |
-  |---|---|---|---|---|
-  | $6$ | $12$ | $18$ | $24$ | $30$ |
-
-  | $6\times6$ | $6\times7$ | $6\times8$ | $6\times9$ | $6\times10$ |
-  |---|---|---|---|---|
-  | $36$ | $42$ | $48$ | $54$ | $60$ |
+  :::theorem Tính tiền
+  - **Số tiền của nhiều tờ tiền:** đổi mỗi tờ ra nghìn đồng, cộng lại, rồi viết thêm "nghìn đồng".
+  - **Tiền hàng của nhiều món:** cộng giá tiền của từng món.
+  - **Tiền trả lại** $=$ tiền đưa $-$ tiền hàng.
   :::
 
-[[P7·3866]]
-Bảng chia $6$ suy ra từ bảng nhân $6$. Vì $6\times4=24$ nên $24:6=4$. Em chia $24$ quả thành các vỉ $6$ quả thì được $4$ vỉ.
+[[P9·3e23]]
+Tiền trả lại dùng phép trừ vì đó là phần tiền đưa dư ra sau khi đã trả đủ tiền hàng. Em luôn có thể thử lại: tiền hàng $+$ tiền trả lại phải bằng tiền đưa. Ở trên, $12+8=20$, đúng.
 
 ## Ví dụ
 
-[[P8·fa89]]
-Ta bắt đầu bằng mẹo gấp đôi bảng nhân $3$.
+[[P10·b539]]
+Ta bắt đầu với việc đếm một ít tờ tiền.
 
-  :::example Tính $6\times4$ bằng cách gấp đôi
-  **Lời giải.** Ta có $3\times4=12$. Mà $6$ gấp đôi $3$ nên $6\times4$ gấp đôi $3\times4$:
-  $$6\times4=12+12=24.$$
-  Vậy $6\times4=24$.
+  :::example Đếm tiền
+  Mai có một tờ $10\,000$ đồng, một tờ $5\,000$ đồng và hai tờ $2\,000$ đồng. Hỏi Mai có bao nhiêu tiền?
+
+  ![Bốn tờ tiền giản lược: 10 000, 5 000 và hai tờ 2 000](/assets/img/g3/g3-vietnamese-money-01.svg)
+
+  **Lời giải.** Em đổi mỗi tờ ra nghìn đồng rồi cộng:
+  $$10+5+2+2=19\ \text{(nghìn đồng)}.$$
+  Vậy Mai có $19\,000$ đồng.
+
+  **Kiểm tra.** $10\,000+5\,000+2\,000+2\,000=19\,000$. Khớp.
   :::
 
-[[P9·f4a5]]
-Bây giờ em lấy tích liền trước cộng thêm $6$.
+[[P11·b3b3]]
+Ví dụ sau có nhiều tờ tiền hơn, nhưng cách làm vẫn như vậy.
 
-  :::example Tính $6\times7$
-  **Lời giải.** Em biết $6\times6=36$. Thêm một nhóm $6$ nữa:
-  $$6\times7=6\times6+6=36+6=42.$$
-  Vậy $6\times7=42$.
+  :::example Đếm nhiều tờ tiền
+  Hà có hai tờ $20\,000$ đồng, một tờ $5\,000$ đồng, một tờ $2\,000$ đồng và một tờ $1\,000$ đồng. Hỏi Hà có bao nhiêu tiền?
+
+  ![Năm tờ tiền giản lược gồm hai tờ 20 000 cùng các tờ 5 000, 2 000 và 1 000](/assets/img/g3/g3-vietnamese-money-02.svg)
+
+  **Lời giải.** Hai tờ $20$ nghìn là $20+20=40$ nghìn. Em cộng thêm các tờ còn lại:
+  $$40+5+2+1=48\ \text{(nghìn đồng)}.$$
+  Vậy Hà có $48\,000$ đồng.
   :::
 
-[[P10·d797]]
-Có khi em lấy tích liền sau rồi bớt đi $6$ sẽ dễ hơn.
+[[P12·7eef]]
+Bây giờ em tính tiền hàng khi mua nhiều món.
 
-  :::example Tính $6\times9$
-  **Lời giải.** Em biết $6\times10=60$. Bớt đi một nhóm $6$:
-  $$6\times9=6\times10-6=60-6=54.$$
-  Vậy $6\times9=54$.
+  :::example Tiền hàng
+  Nam mua một quyển vở giá $7\,000$ đồng, một cái bút giá $4\,000$ đồng và một cục tẩy giá $2\,000$ đồng. Hỏi Nam phải trả bao nhiêu tiền?
+
+  **Lời giải.** "Phải trả" cả ba món nghĩa là gộp giá của ba món, nên em làm phép cộng:
+  $$7\,000+4\,000+2\,000=13\,000\ \text{(đồng)}.$$
+  Vậy Nam phải trả $13\,000$ đồng.
   :::
 
-[[P11·5d84]]
-Tiếp theo là phép chia.
+[[P13·8f1d]]
+Sau khi biết tiền hàng, em có thể tính tiền trả lại.
 
-  :::example Tính $48:6$
-  **Lời giải.** Em tìm số nào nhân $6$ bằng $48$. Trong bảng nhân $6$ ta có $6\times8=48$, nên
-  $$48:6=8.$$
-  **Thử lại.** $6\times8=48$. Đúng.
+  :::example Tiền trả lại
+  Cô Lan mua rau hết $35\,000$ đồng và đưa người bán tờ $50\,000$ đồng. Hỏi người bán phải trả lại cô Lan bao nhiêu tiền?
 
-  Vậy $48:6=8$.
+  **Lời giải.** Tiền trả lại bằng tiền đưa trừ đi tiền hàng:
+  $$50\,000-35\,000=15\,000\ \text{(đồng)}.$$
+  Vậy người bán trả lại cô Lan $15\,000$ đồng.
+
+  **Kiểm tra.** $35\,000+15\,000=50\,000$. Khớp với tiền đưa.
   :::
 
-[[P12·6c1c]]
-Cuối cùng, em giải một bài toán có lời văn.
+[[P14·a65d]]
+Cuối cùng là một bài cần so sánh số tiền có với số tiền cần dùng.
 
-  :::example Gói kẹo
-  Có $30$ cái kẹo, chia vào các túi, mỗi túi $6$ cái. Hỏi chia được bao nhiêu túi?
+  :::example Có đủ tiền không?
+  Lan có $30\,000$ đồng. Lan muốn mua một con gấu bông giá $18\,000$ đồng và một hộp bút giá $15\,000$ đồng. Lan có đủ tiền không? Nếu không đủ thì thiếu bao nhiêu?
 
-  **Lời giải.** Em chia $30$ cái kẹo thành các nhóm $6$ cái, nên em làm phép chia. Số túi là:
-  $$30:6=5\ \text{(túi)}.$$
-  **Thử lại.** $6\times5=30$. Đúng.
-
-  Vậy chia được $5$ túi.
+  **Lời giải.** Trước hết em tính tiền hàng của cả hai món:
+  $$18\,000+15\,000=33\,000\ \text{(đồng)}.$$
+  Vì $33\,000>30\,000$ nên Lan không đủ tiền. Số tiền còn thiếu là:
+  $$33\,000-30\,000=3\,000\ \text{(đồng)}.$$
+  Vậy Lan không đủ tiền, còn thiếu $3\,000$ đồng.
   :::
 
 :::warning Những lỗi em hay gặp
-[[P13·6c2b]]
-- **Lấy sai hàng liền kề.** Sai: $6\times7=48$. Vì sao sai: $48$ là $6\times8$. Đúng: $6\times7=36+6=42$.
-- **Nhầm nhân với cộng.** Sai: $6\times6=12$. Vì sao sai: $6+6=12$ là phép cộng, còn $6\times6$ là $6$ nhóm $6$. Đúng: $6\times6=36$.
-- **Chia nhầm.** Sai: $48:6=7$. Vì sao sai: $6\times7=42$, không phải $48$. Đúng: $6\times8=48$ nên $48:6=8$.
-- **Quên đơn vị.** Sai: "Đáp số: $5$". Đúng: "Đáp số: $5$ túi".
+[[P15·7efe]]
+- **Đếm thiếu tờ tiền.** Sai: có hai tờ $5\,000$ đồng và một tờ $2\,000$ đồng, tính $5\,000+2\,000=7\,000$ đồng. Vì sao sai: em bỏ sót một tờ $5\,000$ đồng. Đúng: $5\,000+5\,000+2\,000=12\,000$ đồng.
+- **Cộng thay vì trừ khi tính tiền trả lại.** Sai: $20\,000+12\,000=32\,000$ đồng. Vì sao sai: tiền trả lại là phần dư ra, không thể nhiều hơn tiền đưa. Đúng: $20\,000-12\,000=8\,000$ đồng.
+- **Quên đổi về đồng.** Sai: "Đáp số: $12$ đồng". Vì sao sai: $12$ nghìn đồng là $12\,000$ đồng. Đúng: "Đáp số: $12\,000$ đồng".
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - bảng nhân 6 | 6 times table
-  - bảng chia 6 | division facts for 6
-  - thừa số | factor
-  - tích | product
-  - số bị chia | dividend
-  - số chia | divisor
-  - thương | quotient
-  - gấp đôi | double
+  - tiền Việt Nam | Vietnamese money
+  - đồng | dong (the Vietnamese currency)
+  - tờ tiền | banknote
+  - nghìn | thousand
+  - giá tiền | price
+  - tiền hàng | total cost
+  - tiền đưa | money handed over
+  - tiền trả lại | change
+  - đủ tiền | enough money
+  - thiếu | short by
   :::
 
 ## Tóm tắt
 
-[[P14·ecb7]]
-- Bảng nhân $6$: $6,\ 12,\ 18,\ 24,\ 30,\ 36,\ 42,\ 48,\ 54,\ 60$.
-- Mỗi lần thêm một nhóm, tích tăng thêm $6$: $6\times n=6\times(n-1)+6$.
-- $6$ gấp đôi $3$, nên $6\times n$ gấp đôi $3\times n$.
-- Từ $6\times a=b$ ta có $b:6=a$ và $b:a=6$.
-- Ghi đơn vị trong đáp số; thử lại phép chia bằng phép nhân.
+[[P16·5b69]]
+- Đơn vị tiền Việt Nam là **đồng**. Có các tờ $1\,000$, $2\,000$, $5\,000$, $10\,000$, $20\,000$, $50\,000$, $100\,000$ đồng.
+- Muốn đếm tiền, đổi mỗi tờ ra nghìn đồng rồi cộng. Ví dụ: $5+5+2=12$ nghìn, tức là $12\,000$ đồng.
+- Tiền hàng: cộng giá các món. Tiền trả lại $=$ tiền đưa $-$ tiền hàng.
+- Em có thể thử lại bằng phép cộng: tiền hàng $+$ tiền trả lại $=$ tiền đưa. Nhớ ghi đơn vị đồng.
 
 ## Luyện tập
 
-[[P15·824d]]
+[[P17·824d]]
 Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
    (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Thử thách
+:::exercise
    (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -317,545 +341,203 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 
-######## BÀI g3/six-times-table – BẢN TIẾNG ANH ########
+######## BÀI g3/g3-vietnamese-money – BẢN TIẾNG ANH ########
 ---
-title: The 6 times table and dividing by 6
-description: Learn the 6 times table by doubling the 3 times table and adding 6, then use it to divide by 6 and to solve word problems.
+title: Vietnamese money
+description: Learn to count money, work out the total cost and the change with Vietnamese banknotes, by working in thousands of dong.
 minutes: 15
 ---
 
   :::goals
-  - Know and build the 6 times table.
-  - Use the 6 times table to divide by 6.
-  - Solve a word problem with one multiplication or one division.
+  - Know the Vietnamese banknotes and their values.
+  - Count the money in several banknotes by working in thousands of dong.
+  - Work out the total cost and the change when you buy things.
+  - Solve word problems about money, remembering to write the unit dong.
   :::
 
-[[P1·6114]]
-One tray holds $6$ eggs. Mum buys $4$ such trays. How many eggs does she buy altogether?
+[[P1·c958]]
+Nam has one $20\,000$ dong note. He buys a notebook that costs $12\,000$ dong and hands the note to the shopkeeper. How much change should the shopkeeper give Nam?
 
-[[P2·94f2]]
-You could add $6+6+6+6$, but adding many times is easy to get wrong. This lesson helps you work it out quickly with the $6$ times table.
+[[P2·9397]]
+You have learned to add and subtract numbers up to $100\,000$. This lesson uses the same calculations to work with money.
 
 ## Let's explore
 
-[[P3·411a]]
-Each tray holds $6$ eggs. We add one tray at a time:
+[[P3·9f8a]]
+In Vietnam, the unit of money is the **dong**. You often see the banknotes in the table below. The right-hand column shows how many **thousand** dong each note is worth.
 
-[[P4·5084]]
-- $1$ tray: $6$ eggs.
-- $2$ trays: $6+6=12$ eggs.
-- $3$ trays: $12+6=18$ eggs.
-- $4$ trays: $18+6=24$ eggs.
+| Banknote (dong) | Worth in thousands of dong |
+|---|---|
+| $1\,000$ | $1$ thousand |
+| $2\,000$ | $2$ thousand |
+| $5\,000$ | $5$ thousand |
+| $10\,000$ | $10$ thousand |
+| $20\,000$ | $20$ thousand |
+| $50\,000$ | $50$ thousand |
+| $100\,000$ | $100$ thousand |
 
-[[P5·7df6]]
-So $4$ trays hold $24$ eggs, that is $6\times4=24$. Each new tray adds $6$ to the product.
+[[P4·b3f1]]
+We start with a small example. Mum gives Nam two $5\,000$ dong notes and one $2\,000$ dong note. How much money does Nam have altogether?
 
-:::graph On the number line: every jump is 6
-   (… 11 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+[[P5·8b91]]
+- Each $5\,000$ dong note is $5$ thousand. Two notes make $5+5=10$ thousand.
+- The $2\,000$ dong note is $2$ thousand.
+- Add them up: $10+2=12$ thousand.
+
+[[P6·730f]]
+So Nam has $12$ thousand dong, which is $12\,000$ dong. See: we add the small numbers first and only then put the word "thousand" back.
+
+[[P7·e560]]
+Now go back to Nam's problem at the start of the lesson. Nam hands over $20$ thousand dong and the notebook costs $12$ thousand dong. Look at the number line: how many thousand do you need to go from $12$ up to $20$?
+
+:::graph On a number line (unit: thousand dong): from 12 to 20 you need 8 more
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-[[P6·b986]]
-Here is one more trick: $6$ is double $3$, so $6\times4$ is double $3\times4=12$, and $12+12=24$.
+[[P8·b529]]
+From $12$ to $20$ you need $8$ thousand more. You can also subtract: $20-12=8$ thousand. So the shopkeeper gives Nam $8\,000$ dong change.
 
-  :::theorem The 6 times table
-  To work out $6\times n$, take $6\times(n-1)$ and add $6$. You can also take $3\times n$ and double it.
-
-  | $6\times1$ | $6\times2$ | $6\times3$ | $6\times4$ | $6\times5$ |
-  |---|---|---|---|---|
-  | $6$ | $12$ | $18$ | $24$ | $30$ |
-
-  | $6\times6$ | $6\times7$ | $6\times8$ | $6\times9$ | $6\times10$ |
-  |---|---|---|---|---|
-  | $36$ | $42$ | $48$ | $54$ | $60$ |
+  :::theorem Working with money
+  - **The money in several notes:** change each note into thousands of dong, add them up, then write "thousand dong".
+  - **The total cost of several items:** add the prices of the items.
+  - **Change** $=$ money handed over $-$ total cost.
   :::
 
-[[P7·dd7e]]
-The division facts for $6$ come from the $6$ times table. Since $6\times4=24$, we have $24\div6=4$. If you put $24$ eggs into trays of $6$, you fill $4$ trays.
+[[P9·c1f4]]
+Change is a subtraction because it is the extra money left after you have paid the full cost. You can always check: total cost $+$ change must equal the money handed over. Above, $12+8=20$, which is right.
 
 ## Examples
 
-[[P8·0c1d]]
-We start with the trick of doubling the $3$ times table.
+[[P10·c917]]
+We start by counting a few banknotes.
 
-  :::example Work out $6\times4$ by doubling
-  **Solution.** We have $3\times4=12$. Since $6$ is double $3$, $6\times4$ is double $3\times4$:
-  $$6\times4=12+12=24.$$
-  So $6\times4=24$.
+  :::example Counting money
+  Mai has one $10\,000$ dong note, one $5\,000$ dong note and two $2\,000$ dong notes. How much money does Mai have?
+
+  ![Four simplified notes: 10,000, 5,000, and two 2,000 notes](/assets/img/g3/g3-vietnamese-money-01.svg)
+
+  **Solution.** Change each note into thousands of dong and add:
+  $$10+5+2+2=19\ \text{(thousand dong)}.$$
+  So Mai has $19\,000$ dong.
+
+  **Check.** $10\,000+5\,000+2\,000+2\,000=19\,000$. It matches.
   :::
 
-[[P9·2042]]
-Now take the product before and add $6$.
+[[P11·a762]]
+The next example has more notes, but the method is the same.
 
-  :::example Work out $6\times7$
-  **Solution.** You know $6\times6=36$. Add one more group of $6$:
-  $$6\times7=6\times6+6=36+6=42.$$
-  So $6\times7=42$.
+  :::example Counting more notes
+  Ha has two $20\,000$ dong notes, one $5\,000$ dong note, one $2\,000$ dong note and one $1\,000$ dong note. How much money does Ha have?
+
+  ![Five simplified notes: two 20,000 notes plus 5,000, 2,000, and 1,000](/assets/img/g3/g3-vietnamese-money-02.svg)
+
+  **Solution.** Two $20$ thousand notes make $20+20=40$ thousand. Add the other notes:
+  $$40+5+2+1=48\ \text{(thousand dong)}.$$
+  So Ha has $48\,000$ dong.
   :::
 
-[[P10·20cd]]
-Sometimes it is easier to take the next product and subtract $6$.
+[[P12·d6c1]]
+Now work out the total cost when you buy several items.
 
-  :::example Work out $6\times9$
-  **Solution.** You know $6\times10=60$. Take away one group of $6$:
-  $$6\times9=6\times10-6=60-6=54.$$
-  So $6\times9=54$.
+  :::example Total cost
+  Nam buys an exercise book for $7\,000$ dong, a pen for $4\,000$ dong and a rubber for $2\,000$ dong. How much must Nam pay?
+
+  **Solution.** Paying for all three items means putting the three prices together, so you add:
+  $$7\,000+4\,000+2\,000=13\,000\ \text{(dong)}.$$
+  So Nam must pay $13\,000$ dong.
   :::
 
-[[P11·87cc]]
-Next, division.
+[[P13·f0c1]]
+Once you know the total cost, you can work out the change.
 
-  :::example Work out $48\div6$
-  **Solution.** Ask: which number times $6$ makes $48$? In the $6$ times table, $6\times8=48$, so
-  $$48\div6=8.$$
-  **Check.** $6\times8=48$. Correct.
+  :::example Change
+  Ms Lan buys vegetables for $35\,000$ dong and hands the seller a $50\,000$ dong note. How much change should the seller give her?
 
-  So $48\div6=8$.
+  **Solution.** The change is the money handed over minus the total cost:
+  $$50\,000-35\,000=15\,000\ \text{(dong)}.$$
+  So the seller gives Ms Lan $15\,000$ dong change.
+
+  **Check.** $35\,000+15\,000=50\,000$. It matches the money handed over.
   :::
 
-[[P12·4169]]
-Finally, a word problem.
+[[P14·9685]]
+Last, a problem where you compare the money you have with the money you need.
 
-  :::example Bags of sweets
-  There are $30$ sweets to put into bags, $6$ sweets in each bag. How many bags can we fill?
+  :::example Is there enough money?
+  Lan has $30\,000$ dong. She wants to buy a teddy bear for $18\,000$ dong and a pencil case for $15\,000$ dong. Does Lan have enough money? If not, how much more does she need?
 
-  **Solution.** We split $30$ sweets into groups of $6$, so we divide. The number of bags is:
-  $$30\div6=5\ \text{(bags)}.$$
-  **Check.** $6\times5=30$. Correct.
-
-  So we can fill $5$ bags.
+  **Solution.** First work out the total cost of the two items:
+  $$18\,000+15\,000=33\,000\ \text{(dong)}.$$
+  Since $33\,000>30\,000$, Lan does not have enough money. She is short by:
+  $$33\,000-30\,000=3\,000\ \text{(dong)}.$$
+  So Lan does not have enough money; she needs $3\,000$ dong more.
   :::
 
 :::warning Mistakes to watch out for
-[[P13·bcf6]]
-- **Taking the wrong neighbour.** Wrong: $6\times7=48$. Why it is wrong: $48$ is $6\times8$. Right: $6\times7=36+6=42$.
-- **Mixing up multiplying and adding.** Wrong: $6\times6=12$. Why it is wrong: $6+6=12$ is an addition, but $6\times6$ means $6$ groups of $6$. Right: $6\times6=36$.
-- **Dividing wrongly.** Wrong: $48\div6=7$. Why it is wrong: $6\times7=42$, not $48$. Right: $6\times8=48$, so $48\div6=8$.
-- **Forgetting the unit.** Wrong: "Answer: $5$". Right: "Answer: $5$ bags".
+[[P15·df54]]
+- **Missing a note when counting.** Wrong: with two $5\,000$ dong notes and one $2\,000$ dong note, working out $5\,000+2\,000=7\,000$ dong. Why it is wrong: you left out one $5\,000$ dong note. Right: $5\,000+5\,000+2\,000=12\,000$ dong.
+- **Adding instead of subtracting for the change.** Wrong: $20\,000+12\,000=32\,000$ dong. Why it is wrong: change is the extra money, so it can never be more than the money handed over. Right: $20\,000-12\,000=8\,000$ dong.
+- **Forgetting to turn thousands back into dong.** Wrong: "Answer: $12$ dong". Why it is wrong: $12$ thousand dong is $12\,000$ dong. Right: "Answer: $12\,000$ dong".
 :::
 
 ## Key terms
 
   :::terms
-  - 6 times table | bảng nhân 6
-  - division facts for 6 | bảng chia 6
-  - factor | thừa số
-  - product | tích
-  - dividend | số bị chia
-  - divisor | số chia
-  - quotient | thương
-  - double | gấp đôi
+  - Vietnamese money | tiền Việt Nam
+  - dong (the Vietnamese currency) | đồng
+  - banknote | tờ tiền
+  - thousand | nghìn
+  - price | giá tiền
+  - total cost | tiền hàng
+  - money handed over | tiền đưa
+  - change | tiền trả lại
+  - enough money | đủ tiền
+  - short by | thiếu
   :::
 
 ## Summary
 
-[[P14·d80a]]
-- The $6$ times table: $6,\ 12,\ 18,\ 24,\ 30,\ 36,\ 42,\ 48,\ 54,\ 60$.
-- Each new group adds $6$ to the product: $6\times n=6\times(n-1)+6$.
-- $6$ is double $3$, so $6\times n$ is double $3\times n$.
-- From $6\times a=b$ we get $b\div6=a$ and $b\div a=6$.
-- Write the unit in the answer; check a division with a multiplication.
+[[P16·7bfb]]
+- The unit of Vietnamese money is the **dong**. There are $1\,000$, $2\,000$, $5\,000$, $10\,000$, $20\,000$, $50\,000$ and $100\,000$ dong notes.
+- To count money, change each note into thousands of dong and add. Example: $5+5+2=12$ thousand, which is $12\,000$ dong.
+- Total cost: add the prices of the items. Change $=$ money handed over $-$ total cost.
+- You can check with an addition: total cost $+$ change $=$ money handed over. Remember to write the unit dong.
 
 ## Practice
 
-[[P15·2a6a]]
+[[P17·2a6a]]
 Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
 
 :::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
    (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Challenge
+:::exercise
    (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-## Mini test
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g3/three-times-table – BẢN TIẾNG VIỆT ########
----
-title: Bảng nhân 3, bảng chia 3
-description: Em học bảng nhân 3 và bảng chia 3: đếm thêm 3, tìm tích, rồi dùng phép nhân để chia và giải bài toán có lời văn.
-minutes: 15
----
-
-  :::goals
-  - Thuộc bảng nhân 3, từ $3\times 1$ đến $3\times 10$.
-  - Dùng bảng nhân 3 để chia cho $3$, ví dụ $24:3$.
-  - Giải bài toán có lời văn bằng một phép nhân hoặc một phép chia.
-  :::
-
-[[P1·ea7b]]
-Mai xếp bánh vào hộp. Mỗi hộp có $3$ chiếc bánh. Mai xếp được $5$ hộp. Hỏi Mai có tất cả bao nhiêu chiếc bánh?
-
-[[P2·6ed6]]
-Em có thể cộng $3+3+3+3+3$. Nhưng cộng nhiều lần như vậy khá dài và dễ nhầm. Bảng nhân $3$ giúp em tính nhanh hơn nhiều.
-
-## Cùng khám phá
-
-[[P3·e64f]]
-Em đếm số bánh khi Mai xếp thêm từng hộp.
-
-[[P4·9888]]
-- $1$ hộp có $3$ chiếc bánh.
-- $2$ hộp có $3+3=6$ chiếc bánh.
-- $3$ hộp có $6+3=9$ chiếc bánh.
-- $4$ hộp có $9+3=12$ chiếc bánh.
-- $5$ hộp có $12+3=15$ chiếc bánh.
-
-[[P5·0b73]]
-Mỗi lần thêm một hộp, số bánh tăng thêm $3$. Vậy $5$ hộp có $15$ chiếc bánh. Ta viết $3\times 5=15$.
-
-[[P6·f81e]]
-Bây giờ em làm ngược lại. Mai có $15$ chiếc bánh, xếp mỗi hộp $3$ chiếc. Em đếm được $5$ hộp. Ta viết $15:3=5$.
-
-:::graph Trên tia số: nhảy 5 lần, mỗi lần 3 đơn vị, đến 15
-   (… 10 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-  :::theorem Phép nhân 3 và phép chia cho 3
-  1. $3\times 5$ nghĩa là $5$ nhóm, mỗi nhóm có $3$: $3+3+3+3+3=15$.
-  2. Trong $3\times 5=15$: $3$ và $5$ là **thừa số**, $15$ là **tích**.
-  3. Từ $3\times 5=15$ ta có $15:3=5$.
-  4. Trong $15:3=5$: $15$ là **số bị chia**, $3$ là **số chia**, $5$ là **thương**.
-  :::
-
-[[P7·4e96]]
-Em hãy học thuộc bảng dưới đây. Mỗi dòng cho em một phép nhân và một phép chia.
-
-| Bảng nhân 3 | Bảng chia 3 |
-|---|---|
-| $3\times 1=3$ | $3:3=1$ |
-| $3\times 2=6$ | $6:3=2$ |
-| $3\times 3=9$ | $9:3=3$ |
-| $3\times 4=12$ | $12:3=4$ |
-| $3\times 5=15$ | $15:3=5$ |
-| $3\times 6=18$ | $18:3=6$ |
-| $3\times 7=21$ | $21:3=7$ |
-| $3\times 8=24$ | $24:3=8$ |
-| $3\times 9=27$ | $27:3=9$ |
-| $3\times 10=30$ | $30:3=10$ |
-
-[[P8·828c]]
-Em thấy không, đi xuống một dòng thì tích tăng thêm $3$. Muốn chia cho $3$, em chỉ cần nhớ phép nhân tương ứng.
-
-## Ví dụ
-
-[[P9·5d34]]
-Ta bắt đầu với một phép nhân chưa thuộc. Em lấy kết quả của dòng ngay trên rồi cộng thêm $3$.
-
-  :::example Tính $3\times 7$
-  **Lời giải.** Dòng ngay trên là $3\times 6=18$. Mỗi dòng tăng thêm $3$, nên:
-  $$3\times 7=3\times 6+3=18+3=21.$$
-  Vậy $3\times 7=21$.
-  :::
-
-[[P10·897f]]
-Bây giờ em đi theo chiều ngược lại để chia.
-
-  :::example Tính $24:3$
-  **Lời giải.** Em tìm số nhân với $3$ được $24$. Đếm thêm $3$: $3, 6, 9, 12, 15, 18, 21, 24$. Số $24$ đứng thứ $8$, nên $3\times 8=24$. Do đó:
-  $$24:3=8.$$
-  Vậy $24:3=8$.
-  :::
-
-[[P11·7974]]
-Em dùng phép nhân để giải một bài toán trong cuộc sống.
-
-  :::example Làm bó hoa
-  Mỗi bó có $3$ bông hoa. Cô Lan làm $9$ bó. Hỏi cô Lan có tất cả bao nhiêu bông hoa?
-
-  **Lời giải.** Có $9$ bó, mỗi bó $3$ bông, nên em lấy $3$ cộng lại $9$ lần: đó là phép nhân.
-  $$3\times 9=3\times 8+3=24+3=27\ \text{(bông)}.$$
-  Vậy cô Lan có tất cả $27$ bông hoa.
-  :::
-
-[[P12·ed19]]
-Còn khi biết tổng số và số phần mỗi nhóm, em dùng phép chia.
-
-  :::example Xếp cam vào đĩa
-  Có $21$ quả cam xếp vào các đĩa, mỗi đĩa $3$ quả. Hỏi xếp được bao nhiêu đĩa?
-
-  **Lời giải.** Em chia $21$ quả thành các nhóm $3$ quả, nên làm phép chia. Vì $3\times 7=21$ nên:
-  $$21:3=7\ \text{(đĩa)}.$$
-  Vậy xếp được $7$ đĩa cam.
-  :::
-
-:::warning Những lỗi em hay gặp
-[[P13·7e3b]]
-- **Nhầm phép nhân với phép cộng.** Sai: $3\times 4=7$. Vì sao sai: $7$ là kết quả của $3+4$. Đúng: $3\times 4=3+3+3+3=12$.
-- **Nhầm sang dòng bên cạnh.** Sai: $3\times 7=24$. Vì sao sai: $24$ là kết quả của $3\times 8$. Đúng: $3\times 7=21$.
-- **Nhầm phép chia với phép trừ.** Sai: $12:3=9$. Vì sao sai: em đã tính $12-3$. Đúng: $12:3=4$, vì $3\times 4=12$.
-:::
-
-## Thuật ngữ
-
-  :::terms
-  - phép nhân | multiplication
-  - thừa số | factor
-  - tích | product
-  - phép chia | division
-  - số bị chia | dividend
-  - số chia | divisor
-  - thương | quotient
-  - bảng nhân 3 | 3 times table
-  - bảng chia 3 | division facts for 3
-  - chia đều | share equally
-  :::
-
-## Tóm tắt
-
-[[P14·c5d9]]
-- Bảng nhân $3$: đi xuống một dòng thì tích tăng thêm $3$, từ $3\times 1=3$ đến $3\times 10=30$.
-- $3\times 5=15$ nghĩa là $5$ nhóm, mỗi nhóm $3$.
-- Muốn chia cho $3$, em tìm phép nhân tương ứng: $3\times 8=24$ nên $24:3=8$.
-- Bài toán nhiều nhóm bằng nhau thì nhân; bài toán chia đều hoặc chia thành các nhóm thì chia. Nhớ ghi đơn vị trong đáp số.
-
-## Luyện tập
-
-[[P15·824d]]
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
-
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Thử thách
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Kiểm tra mini
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g3/three-times-table – BẢN TIẾNG ANH ########
----
-title: The 3 times table and dividing by 3
-description: Learn the 3 times table and the matching division facts: count on in threes, find products, and use multiplication to divide and solve word problems.
-minutes: 15
----
-
-  :::goals
-  - Know the 3 times table, from $3\times 1$ to $3\times 10$.
-  - Use the 3 times table to divide by $3$, for example $24\div 3$.
-  - Solve a word problem with one multiplication or one division.
-  :::
-
-[[P1·6159]]
-Mai puts cakes into boxes. Each box holds $3$ cakes. Mai fills $5$ boxes. How many cakes does Mai have altogether?
-
-[[P2·711c]]
-You could add $3+3+3+3+3$. But adding so many times is long and easy to get wrong. The 3 times table helps you work much faster.
-
-## Let's explore
-
-[[P3·b92c]]
-Count the cakes as Mai fills one more box each time.
-
-[[P4·e557]]
-- $1$ box has $3$ cakes.
-- $2$ boxes have $3+3=6$ cakes.
-- $3$ boxes have $6+3=9$ cakes.
-- $4$ boxes have $9+3=12$ cakes.
-- $5$ boxes have $12+3=15$ cakes.
-
-[[P5·46b7]]
-Each new box adds $3$ more cakes. So $5$ boxes hold $15$ cakes. We write $3\times 5=15$.
-
-[[P6·c362]]
-Now go the other way. Mai has $15$ cakes and puts $3$ in each box. You count $5$ boxes. We write $15\div 3=5$.
-
-:::graph On the number line: 5 jumps of 3 reach 15
-   (… 10 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-  :::theorem Multiplying by 3 and dividing by 3
-  1. $3\times 5$ means $5$ groups with $3$ in each: $3+3+3+3+3=15$.
-  2. In $3\times 5=15$, $3$ and $5$ are the **factors** and $15$ is the **product**.
-  3. From $3\times 5=15$ we get $15\div 3=5$.
-  4. In $15\div 3=5$, $15$ is the **dividend**, $3$ is the **divisor** and $5$ is the **quotient**.
-  :::
-
-[[P7·0663]]
-Learn the table below. Each row gives you one multiplication and one division.
-
-| 3 times table | Division facts for 3 |
-|---|---|
-| $3\times 1=3$ | $3\div 3=1$ |
-| $3\times 2=6$ | $6\div 3=2$ |
-| $3\times 3=9$ | $9\div 3=3$ |
-| $3\times 4=12$ | $12\div 3=4$ |
-| $3\times 5=15$ | $15\div 3=5$ |
-| $3\times 6=18$ | $18\div 3=6$ |
-| $3\times 7=21$ | $21\div 3=7$ |
-| $3\times 8=24$ | $24\div 3=8$ |
-| $3\times 9=27$ | $27\div 3=9$ |
-| $3\times 10=30$ | $30\div 3=10$ |
-
-[[P8·073c]]
-You see: going down one row, the product goes up by $3$. To divide by $3$, you only need to remember the matching multiplication.
-
-## Examples
-
-[[P9·e5bd]]
-We start with a multiplication you may not know yet. Take the answer from the row just above and add $3$.
-
-  :::example Work out $3\times 7$
-  **Solution.** The row just above is $3\times 6=18$. Each row adds $3$, so:
-  $$3\times 7=3\times 6+3=18+3=21.$$
-  So $3\times 7=21$.
-  :::
-
-[[P10·2c76]]
-Now go the other way to divide.
-
-  :::example Work out $24\div 3$
-  **Solution.** Find the number that times $3$ gives $24$. Count on in threes: $3, 6, 9, 12, 15, 18, 21, 24$. The number $24$ is the $8$th one, so $3\times 8=24$. Therefore:
-  $$24\div 3=8.$$
-  So $24\div 3=8$.
-  :::
-
-[[P11·2aab]]
-Use multiplication to solve a problem from everyday life.
-
-  :::example Making bunches of flowers
-  Each bunch has $3$ flowers. Mrs Lan makes $9$ bunches. How many flowers does Mrs Lan have altogether?
-
-  **Solution.** There are $9$ bunches with $3$ flowers in each, so we add $3$ nine times: that is multiplication.
-  $$3\times 9=3\times 8+3=24+3=27\ \text{(flowers)}.$$
-  So Mrs Lan has $27$ flowers altogether.
-  :::
-
-[[P12·cfb9]]
-When we know the total and the size of each group, we divide.
-
-  :::example Oranges on plates
-  There are $21$ oranges, put on plates with $3$ oranges on each plate. How many plates are needed?
-
-  **Solution.** We split $21$ oranges into groups of $3$, so we divide. Since $3\times 7=21$:
-  $$21\div 3=7\ \text{(plates)}.$$
-  So $7$ plates are needed.
-  :::
-
-:::warning Mistakes to watch out for
-[[P13·48d6]]
-- **Adding instead of multiplying.** Wrong: $3\times 4=7$. Why it is wrong: $7$ is the answer to $3+4$. Right: $3\times 4=3+3+3+3=12$.
-- **Slipping to the next row.** Wrong: $3\times 7=24$. Why it is wrong: $24$ is the answer to $3\times 8$. Right: $3\times 7=21$.
-- **Subtracting instead of dividing.** Wrong: $12\div 3=9$. Why it is wrong: this is $12-3$. Right: $12\div 3=4$, because $3\times 4=12$.
-:::
-
-## Key terms
-
-  :::terms
-  - multiplication | phép nhân
-  - factor | thừa số
-  - product | tích
-  - division | phép chia
-  - dividend | số bị chia
-  - divisor | số chia
-  - quotient | thương
-  - 3 times table | bảng nhân 3
-  - division facts for 3 | bảng chia 3
-  - share equally | chia đều
-  :::
-
-## Summary
-
-[[P14·2f89]]
-- In the 3 times table, going down one row adds $3$ to the product, from $3\times 1=3$ to $3\times 10=30$.
-- $3\times 5=15$ means $5$ groups with $3$ in each.
-- To divide by $3$, find the matching multiplication: $3\times 8=24$, so $24\div 3=8$.
-- Many equal groups: multiply. Sharing equally or making groups: divide. Remember the unit in the answer.
-
-## Practice
-
-[[P15·2a6a]]
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test
@@ -865,155 +547,179 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 :::
 
 
-######## BÀI g3/triangles-quadrilaterals-rectangles – BẢN TIẾNG VIỆT ########
+######## BÀI g3/likelihood-of-an-event – BẢN TIẾNG VIỆT ########
 ---
-title: Hình tam giác, hình tứ giác. Hình chữ nhật, hình vuông
-description: Em nhận biết hình tam giác, hình tứ giác, hình chữ nhật, hình vuông qua số đỉnh, số cạnh, góc vuông và độ dài các cạnh.
+title: Khả năng xảy ra của một sự kiện
+description: Em học cách nói một sự kiện là chắc chắn, có thể hay không thể xảy ra, qua các trò lấy bi, lấy kẹo, lấy thẻ trong hộp.
 minutes: 15
 ---
 
   :::goals
-  - Nhận biết hình tam giác và hình tứ giác qua số đỉnh, số cạnh.
-  - Nhận biết hình chữ nhật và hình vuông, nêu đặc điểm về góc và cạnh.
-  - Tìm độ dài các cạnh của hình chữ nhật, hình vuông khi biết một vài cạnh.
+  - Nhận biết một sự kiện là chắc chắn, có thể hay không thể xảy ra.
+  - Giải thích vì sao bằng cách nhìn vào những gì có trong hộp.
+  - Ghi kết quả thử nghiệm vào bảng số liệu.
   :::
 
-[[P1·3a91]]
-Lan cắt giấy màu thành nhiều hình. Có hình có $3$ cạnh, có hình có $4$ cạnh. Có hình có $4$ góc vuông. Em hãy giúp Lan gọi tên từng hình nhé.
+[[P1·4ce0]]
+Mai có một chiếc hộp kín, trong hộp chỉ có $5$ viên bi đỏ. Mai nhắm mắt lấy ra một viên bi. Mai có thể lấy được viên bi xanh không? Mai có chắc chắn lấy được viên bi đỏ không?
 
-[[P2·e7bc]]
-Muốn gọi đúng tên, em chỉ cần đếm đỉnh, đếm cạnh và dùng ê ke kiểm tra góc vuông.
+[[P2·42d7]]
+Bài này giúp em trả lời những câu hỏi như vậy, chỉ bằng cách nhìn xem trong hộp có gì.
 
 ## Cùng khám phá
 
-[[P3·c8d7]]
-Em nhìn một hình và đếm:
+[[P3·4d67]]
+Có ba chiếc hộp. Mỗi lần, ta nhắm mắt lấy ra một viên bi.
 
-[[P4·fc56]]
-- Hình có $3$ đỉnh và $3$ cạnh là **hình tam giác**.
-- Hình có $4$ đỉnh và $4$ cạnh là **hình tứ giác**.
+![Ba hộp A, B, C lần lượt chứa năm bi đỏ; ba bi đỏ và hai bi xanh; năm bi xanh](/assets/img/g3/g3-likelihood-of-an-event-01.svg)
 
-[[P5·0921]]
-Trong các hình tứ giác, có hai hình rất đặc biệt. Em xem hình chữ nhật $ABCD$ dưới đây.
+[[P4·d2a6]]
+- **Hộp A:** $5$ viên bi đỏ.
+- **Hộp B:** $3$ viên bi đỏ và $2$ viên bi xanh.
+- **Hộp C:** $5$ viên bi xanh.
 
-:::diagram Hình chữ nhật ABCD
-   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
+[[P5·16a3]]
+**Hộp A.** Trong hộp chỉ có bi đỏ. Dù lấy thế nào, ta cũng được bi đỏ. Ta nói: lấy được bi đỏ là **chắc chắn**. Lấy được bi xanh là **không thể**.
 
-[[P6·ec09]]
-Hình có $4$ góc vuông. Hai cạnh đối diện $AB$ và $CD$ bằng nhau, hai cạnh đối diện $BC$ và $AD$ cũng bằng nhau.
+[[P6·9184]]
+**Hộp B.** Trong hộp có cả bi đỏ và bi xanh. Lần này ta có thể được bi đỏ, lần khác có thể được bi xanh. Ta nói: lấy được bi đỏ là **có thể**, lấy được bi xanh cũng là **có thể**.
 
-[[P7·91ee]]
-Còn hình vuông $MNPQ$ thì cả $4$ cạnh đều bằng nhau.
+[[P7·cfaa]]
+**Hộp C.** Trong hộp chỉ có bi xanh. Lấy được bi xanh là **chắc chắn**, lấy được bi đỏ là **không thể**.
 
-:::diagram Hình vuông MNPQ
-   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
+  :::theorem Ba mức khả năng
+  - **Chắc chắn:** sự kiện luôn luôn xảy ra.
+  - **Không thể:** sự kiện không bao giờ xảy ra.
+  - **Có thể:** sự kiện có lúc xảy ra, có lúc không xảy ra.
 
-  :::theorem Cách nhận biết các hình
-  - **Hình tam giác:** $3$ đỉnh, $3$ cạnh.
-  - **Hình tứ giác:** $4$ đỉnh, $4$ cạnh.
-  - **Hình chữ nhật:** $4$ góc vuông, các cạnh đối diện bằng nhau.
-  - **Hình vuông:** $4$ góc vuông, $4$ cạnh bằng nhau.
+  Muốn biết là mức nào, em nhìn xem trong hộp có những gì.
   :::
 
-[[P8·2b99]]
-Em có thể tự kiểm tra: gấp đôi một tờ giấy hình chữ nhật, hai cạnh đối diện sẽ trùng khít nhau.
+[[P8·1954]]
+Cách nghĩ này đúng vì em biết rõ mọi thứ trong hộp. Nếu thứ cần tìm không có, nó không thể xảy ra. Nếu mọi thứ trong hộp đều là thứ đó, nó chắc chắn xảy ra.
 
 ## Ví dụ
 
-[[P9·b253]]
-Ta bắt đầu với một bài tìm độ dài cạnh của hình chữ nhật.
+[[P9·31c8]]
+Ta bắt đầu với một hộp chỉ có một loại bóng.
 
-  :::example Cạnh của hình chữ nhật
-  Hình chữ nhật $ABCD$ có $AB=4$ cm, $BC=3$ cm. Tìm độ dài $CD$ và $AD$.
+  :::example Hộp bóng vàng
+  Một hộp có $6$ quả bóng vàng. Nhắm mắt lấy ra một quả. Hãy nói khả năng của mỗi sự kiện:
+  a) lấy được quả bóng vàng;
+  b) lấy được quả bóng xanh.
 
-  **Lời giải.** Hai cạnh đối diện của hình chữ nhật bằng nhau. $CD$ đối diện $AB$, còn $AD$ đối diện $BC$:
+  **Lời giải.** Trong hộp chỉ có bóng vàng.
 
-  $$CD=AB=4\ \text{cm},\qquad AD=BC=3\ \text{cm}.$$
+  a) Quả nào lấy ra cũng là bóng vàng, nên sự kiện này **chắc chắn** xảy ra.
 
-  Vậy $CD=4$ cm và $AD=3$ cm.
+  b) Trong hộp không có bóng xanh, nên sự kiện này **không thể** xảy ra.
   :::
 
-[[P10·f98c]]
-Bây giờ em đoán tên hình từ các đặc điểm.
+[[P10·9f78]]
+Bây giờ hộp có hai loại kẹo.
 
-  :::example Gọi tên hình
-  Một hình có $4$ đỉnh, $4$ góc vuông và $4$ cạnh đều dài $5$ cm. Đó là hình gì?
+  :::example Túi kẹo
+  Một túi có $4$ chiếc kẹo cam và $2$ chiếc kẹo dâu. Nhắm mắt lấy ra một chiếc. Hãy nói khả năng của:
+  a) lấy được kẹo cam;
+  b) lấy được kẹo dâu;
+  c) lấy được kẹo chanh.
 
-  **Lời giải.** Hình có $4$ góc vuông và $4$ cạnh bằng nhau nên đó là hình vuông.
+  **Lời giải.** Trong túi có cả kẹo cam và kẹo dâu, nhưng không có kẹo chanh.
 
-  Vậy đó là hình vuông có cạnh $5$ cm.
+  a) Có thể lấy được kẹo cam, nên sự kiện này **có thể** xảy ra.
+
+  b) Có thể lấy được kẹo dâu, nên sự kiện này cũng **có thể** xảy ra.
+
+  c) Không có kẹo chanh, nên sự kiện này **không thể** xảy ra.
   :::
 
-[[P11·3885]]
-Hình vuông có $4$ cạnh bằng nhau, nên ta dùng phép nhân để tính tổng độ dài các cạnh.
+[[P11·1c76]]
+Ta cũng có thể hỏi về các số trên thẻ.
 
-  :::example Tổng độ dài bốn cạnh
-  Hình vuông $MNPQ$ có cạnh $5$ cm. Tổng độ dài bốn cạnh là bao nhiêu xăng-ti-mét?
+  :::example Thẻ số
+  Một hộp có $3$ tấm thẻ ghi số $1$, $2$, $3$. Nhắm mắt lấy ra một tấm thẻ. Hãy nói khả năng của:
+  a) lấy được thẻ ghi số $5$;
+  b) lấy được thẻ ghi số bé hơn $4$;
+  c) lấy được thẻ ghi số $2$.
 
-  **Lời giải.** Bốn cạnh đều dài $5$ cm, nên ta lấy $5$ nhân $4$:
-  $$5\times4=20\ \text{(cm)}.$$
+  **Lời giải.** Các số có thể lấy ra là $1$, $2$, $3$.
 
-  Vậy tổng độ dài bốn cạnh là $20$ cm.
+  a) Không có thẻ số $5$, nên **không thể**.
+
+  b) Cả ba số $1$, $2$, $3$ đều bé hơn $4$, nên **chắc chắn**.
+
+  c) Thẻ số $2$ có trong hộp nhưng cũng có thẻ khác, nên **có thể**.
   :::
 
-[[P12·1905]]
-Cuối cùng, ta xem một đoạn thẳng có thể chia hình thành những hình nào.
+[[P12·8aee]]
+Em cũng gặp những câu hỏi này ở ngoài đời.
 
-  :::example Chia hình chữ nhật
-  Nối hai đỉnh đối diện $A$ và $C$ của hình chữ nhật $ABCD$. Hình chữ nhật được chia thành mấy hình tam giác?
+  :::example Chuyện hằng ngày
+  Hãy nói mỗi sự kiện là chắc chắn, có thể hay không thể xảy ra:
+  a) Mặt trời mọc vào buổi sáng.
+  b) Em đi bộ từ nhà đến trường trong $1$ giây.
+  c) Ngày mai trời mưa.
 
-  ![Hình chữ nhật ABCD có đường nối từ A đến C](/assets/img/g3/g3-triangles-quadrilaterals-rectangles-01.svg)
+  **Lời giải.** Ta nghĩ xem sự kiện có luôn xảy ra, không bao giờ xảy ra, hay có khi có khi không.
 
-  **Lời giải.** Đoạn $AC$ chia hình chữ nhật thành hai hình, mỗi hình có $3$ đỉnh và $3$ cạnh. Đó là tam giác $ABC$ và tam giác $ACD$.
+  a) Buổi sáng nào Mặt trời cũng mọc, nên **chắc chắn**.
 
-  Vậy hình chữ nhật được chia thành $2$ hình tam giác.
+  b) Không ai đi bộ nhanh như vậy, nên **không thể**.
+
+  c) Có ngày mưa, có ngày không, nên **có thể**.
+  :::
+
+[[P13·1821]]
+Cuối cùng, ta thử thật và ghi kết quả vào bảng số liệu như ở bài trước.
+
+  :::example Thử lấy bi
+  Hộp B có $3$ bi đỏ và $2$ bi xanh. Nam lấy một viên, ghi màu rồi bỏ lại vào hộp, làm $10$ lần. Kết quả: đỏ, xanh, đỏ, đỏ, xanh, đỏ, xanh, đỏ, đỏ, xanh. Hãy lập bảng số liệu.
+
+  **Lời giải.** Ta đọc dãy một lượt và kẻ vạch vào hàng đúng màu:
+
+  | Màu bi | Vạch kiểm đếm | Số lần |
+  |---|---|---|
+  | Đỏ | ////// | $6$ |
+  | Xanh | //// | $4$ |
+
+  Kiểm tra: $6+4=10$ lần. Cả hai màu đều xuất hiện, đúng với "có thể được đỏ, có thể được xanh".
   :::
 
 :::warning Những lỗi em hay gặp
-[[P13·beff]]
-- **Gọi hình chữ nhật có hai cạnh khác nhau là hình vuông.** Sai: hình có hai cạnh $6$ cm, hai cạnh $2$ cm là hình vuông. Vì sao sai: hình vuông phải có $4$ cạnh bằng nhau. Đúng: đó là hình chữ nhật.
-- **Nhầm cạnh đối diện.** Sai: $ABCD$ là hình chữ nhật, $AB=4$ cm nên $BC=4$ cm. Vì sao sai: $BC$ không đối diện $AB$. Đúng: $CD=4$ cm.
-- **Quên đơn vị.** Sai: "Đáp số: $20$". Đúng: "Đáp số: $20$ cm".
+[[P14·141f]]
+- **Nhầm "có thể" với "chắc chắn".** Sai: hộp có $1$ bi đỏ và $9$ bi xanh, nói "chắc chắn lấy được bi xanh". Vì sao sai: bi đỏ vẫn nằm trong hộp nên có thể lấy được bi đỏ. Đúng: lấy được bi xanh là có thể.
+- **Nhầm "rất ít" với "không thể".** Sai: hộp có $1$ bi đỏ, nói "không thể lấy được bi đỏ". Vì sao sai: bi đỏ có trong hộp. Đúng: có thể lấy được bi đỏ.
+- **Không nhìn vào hộp.** Sai: trả lời mà không xem trong hộp có gì. Đúng: luôn xem trong hộp có những gì trước khi trả lời.
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - hình tam giác | triangle
-  - hình tứ giác | quadrilateral
-  - đỉnh | vertex (corner)
-  - cạnh | side
-  - góc vuông | right angle
-  - hình chữ nhật | rectangle
-  - hình vuông | square
-  - cạnh đối diện | opposite sides
+  - khả năng | chance (likelihood)
+  - sự kiện | event
+  - chắc chắn | certain
+  - có thể | possible (might happen)
+  - không thể | impossible
+  - hộp | box
+  - thử nghiệm | trial (experiment)
+  - bảng số liệu | data table
   :::
 
 ## Tóm tắt
 
-[[P14·3f51]]
-- Hình tam giác có $3$ đỉnh, $3$ cạnh; hình tứ giác có $4$ đỉnh, $4$ cạnh.
-- Hình chữ nhật có $4$ góc vuông; các cạnh đối diện bằng nhau.
-- Hình vuông có $4$ góc vuông và $4$ cạnh bằng nhau.
-- Tổng độ dài bốn cạnh của hình vuông cạnh $a$ là $a\times4$.
+[[P15·2734]]
+- **Chắc chắn:** luôn xảy ra. **Không thể:** không bao giờ xảy ra. **Có thể:** có lúc xảy ra, có lúc không.
+- Nhìn xem trong hộp có gì: nếu thứ cần tìm không có thì không thể; nếu mọi thứ đều là thứ đó thì chắc chắn.
+- Trong hộp có nhiều loại thì mỗi loại đều có thể được lấy ra, dù loại đó ít.
+- Ghi kết quả thử nghiệm bằng vạch kiểm đếm và bảng số liệu.
 
 ## Luyện tập
 
-[[P15·824d]]
+[[P16·824d]]
 Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -1021,185 +727,11 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Thử thách
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Kiểm tra mini
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g3/triangles-quadrilaterals-rectangles – BẢN TIẾNG ANH ########
----
-title: Triangles and quadrilaterals. Rectangles and squares
-description: Recognise triangles, quadrilaterals, rectangles and squares by their vertices, sides, right angles and side lengths.
-minutes: 15
----
-
-  :::goals
-  - Recognise triangles and quadrilaterals by their number of vertices and sides.
-  - Recognise rectangles and squares and say what is special about their angles and sides.
-  - Find the side lengths of a rectangle or a square when you know some of them.
-  :::
-
-[[P1·df12]]
-Lan cuts coloured paper into different shapes. Some shapes have $3$ sides and some have $4$ sides. Some have $4$ right angles. Can you help Lan name each shape?
-
-[[P2·0329]]
-To name a shape correctly, you only need to count the vertices, count the sides and check right angles with a set square.
-
-## Let's explore
-
-[[P3·a525]]
-Look at a shape and count:
-
-[[P4·1f1a]]
-- A shape with $3$ vertices and $3$ sides is a **triangle**.
-- A shape with $4$ vertices and $4$ sides is a **quadrilateral**.
-
-[[P5·a77e]]
-Two quadrilaterals are very special. Look at rectangle $ABCD$ below.
-
-:::diagram Rectangle ABCD
-   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-[[P6·cf41]]
-It has $4$ right angles. The opposite sides $AB$ and $CD$ are equal, and the opposite sides $BC$ and $AD$ are equal too.
-
-[[P7·65fb]]
-In square $MNPQ$, all $4$ sides are equal.
-
-:::diagram Square MNPQ
-   (… 14 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-  :::theorem How to recognise the shapes
-  - **Triangle:** $3$ vertices, $3$ sides.
-  - **Quadrilateral:** $4$ vertices, $4$ sides.
-  - **Rectangle:** $4$ right angles, opposite sides equal.
-  - **Square:** $4$ right angles, $4$ equal sides.
-  :::
-
-[[P8·fb79]]
-You can check this yourself: fold a paper rectangle in half, and the opposite sides lie exactly on top of each other.
-
-## Examples
-
-[[P9·b59b]]
-We start with finding the sides of a rectangle.
-
-  :::example Sides of a rectangle
-  Rectangle $ABCD$ has $AB=4$ cm and $BC=3$ cm. Find $CD$ and $AD$.
-
-  **Solution.** Opposite sides of a rectangle are equal. $CD$ is opposite $AB$, and $AD$ is opposite $BC$:
-
-  $$CD=AB=4\ \text{cm},\qquad AD=BC=3\ \text{cm}.$$
-
-  So $CD=4$ cm and $AD=3$ cm.
-  :::
-
-[[P10·8620]]
-Now guess a shape from its features.
-
-  :::example Naming a shape
-  A shape has $4$ vertices, $4$ right angles and $4$ sides that are each $5$ cm long. What shape is it?
-
-  **Solution.** It has $4$ right angles and $4$ equal sides, so it is a square.
-
-  So it is a square with sides of $5$ cm.
-  :::
-
-[[P11·86d4]]
-A square has $4$ equal sides, so we can use multiplication to find the total length of its sides.
-
-  :::example Total length of the four sides
-  Square $MNPQ$ has sides of $5$ cm. What is the total length of the four sides, in centimetres?
-
-  **Solution.** All four sides are $5$ cm, so we multiply $5$ by $4$:
-  $$5\times4=20\ \text{(cm)}.$$
-
-  So the four sides are $20$ cm long altogether.
-  :::
-
-[[P12·431f]]
-Finally, see which shapes a straight line can make inside another shape.
-
-  :::example Cutting a rectangle
-  Join the opposite vertices $A$ and $C$ of rectangle $ABCD$. Into how many triangles is the rectangle divided?
-
-  ![Rectangle ABCD with a diagonal from A to C](/assets/img/g3/g3-triangles-quadrilaterals-rectangles-01.svg)
-
-  **Solution.** The line $AC$ cuts the rectangle into two shapes, each with $3$ vertices and $3$ sides. They are triangle $ABC$ and triangle $ACD$.
-
-  So the rectangle is divided into $2$ triangles.
-  :::
-
-:::warning Mistakes to watch out for
-[[P13·4e7e]]
-- **Calling a rectangle with unequal sides a square.** Wrong: a shape with two sides of $6$ cm and two sides of $2$ cm is a square. Why it is wrong: a square needs $4$ equal sides. Right: it is a rectangle.
-- **Mixing up opposite sides.** Wrong: $ABCD$ is a rectangle and $AB=4$ cm, so $BC=4$ cm. Why it is wrong: $BC$ is not opposite $AB$. Right: $CD=4$ cm.
-- **No unit.** Wrong: "Answer: $20$". Right: "Answer: $20$ cm".
-:::
-
-## Key terms
-
-  :::terms
-  - triangle | hình tam giác
-  - quadrilateral | hình tứ giác
-  - vertex (corner) | đỉnh
-  - side | cạnh
-  - right angle | góc vuông
-  - rectangle | hình chữ nhật
-  - square | hình vuông
-  - opposite sides | cạnh đối diện
-  :::
-
-## Summary
-
-[[P14·464d]]
-- A triangle has $3$ vertices and $3$ sides; a quadrilateral has $4$ vertices and $4$ sides.
-- A rectangle has $4$ right angles; opposite sides are equal.
-- A square has $4$ right angles and $4$ equal sides.
-- The total length of the four sides of a square with side $a$ is $a\times4$.
-
-## Practice
-
-[[P15·2a6a]]
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
    (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -1209,195 +741,13 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 :::exercise
    (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
-
-:::exercise Challenge
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Mini test
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g3/unit-fractions – BẢN TIẾNG VIỆT ########
----
-title: Một phần mấy
-description: Em học cách chia một hình hoặc một số thành các phần bằng nhau, đọc và viết một phần n, rồi tìm một phần n của một số bằng phép chia.
-minutes: 15
----
-
-  :::goals
-  - Nhận biết một phần $n$ của một hình, đọc và viết $\dfrac{1}{n}$.
-  - Biết chia càng nhiều phần bằng nhau thì mỗi phần càng nhỏ.
-  - Tìm một phần $n$ của một số bằng phép chia và giải bài toán có lời văn.
-  :::
-
-[[P1·27b6]]
-Mẹ cắt một chiếc bánh thành các phần bằng nhau để chia cho $4$ bạn, mỗi bạn một phần. Hỏi mỗi bạn được một phần mấy của chiếc bánh?
-
-[[P2·8a15]]
-Em có thể trả lời bằng lời, nhưng toán học có cách viết gọn cho "một phần mấy". Bài này dạy em cách đọc, cách viết và cách dùng nó.
-
-## Cùng khám phá
-
-[[P3·0b74]]
-Ta xem chiếc bánh là một hình chữ nhật và chia thành $4$ phần bằng nhau.
-
-:::diagram Hình chữ nhật chia thành 4 phần bằng nhau
-   (… 19 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-[[P4·29c1]]
-Hình được chia thành $4$ phần **bằng nhau**. Mỗi phần là **một phần bốn** của hình, viết là $\dfrac{1}{4}$. Vậy mỗi bạn được $\dfrac{1}{4}$ chiếc bánh.
-
-[[P5·0b6e]]
-Nếu chia thành $2$ phần bằng nhau, mỗi phần là $\dfrac{1}{2}$ hình. Nếu chia thành $8$ phần bằng nhau, mỗi phần là $\dfrac{1}{8}$ hình. Chia thành càng nhiều phần bằng nhau thì mỗi phần càng nhỏ.
-
-  :::theorem Một phần mấy
-  Chia một hình (hoặc một số) thành $n$ phần bằng nhau, mỗi phần là **một phần $n$** của hình (của số đó), viết là $\dfrac{1}{n}$.
-
-  | Viết | $\dfrac{1}{2}$ | $\dfrac{1}{3}$ | $\dfrac{1}{4}$ | $\dfrac{1}{5}$ | $\dfrac{1}{6}$ |
-  |---|---|---|---|---|---|
-  | Đọc | một phần hai | một phần ba | một phần bốn | một phần năm | một phần sáu |
-
-  Muốn tìm một phần $n$ của một số, ta lấy số đó chia cho $n$.
-  :::
-
-[[P6·9c28]]
-Cách tìm này đúng vì chia số đó thành $n$ phần bằng nhau, mỗi phần chính là một phần $n$ của số đó. Ví dụ $12$ cái kẹo chia thành $3$ phần bằng nhau, mỗi phần có $12:3=4$ cái, nên $\dfrac{1}{3}$ của $12$ là $4$.
-
-## Ví dụ
-
-[[P7·3be6]]
-Ta bắt đầu bằng việc gọi tên một phần.
-
-  :::example Sợi dây
-  Một sợi dây được cắt thành $3$ đoạn bằng nhau. Mỗi đoạn là một phần mấy của sợi dây?
-
-  ![Một sợi dây có hai vạch cắt chia thành ba đoạn bằng nhau](/assets/img/g3/g3-unit-fractions-01.svg)
-
-  **Lời giải.** Sợi dây được chia thành $3$ phần bằng nhau, nên mỗi đoạn là một phần ba của sợi dây:
-  $$\dfrac{1}{3}.$$
-  Vậy mỗi đoạn là $\dfrac{1}{3}$ sợi dây.
-  :::
-
-[[P8·89e3]]
-Bây giờ em tập đọc và viết.
-
-  :::example Đọc và viết
-  a) Viết "một phần bảy" bằng chữ số.
-
-  b) Đọc $\dfrac{1}{8}$.
-
-  **Lời giải.** Số dưới là số phần bằng nhau, số trên là $1$ phần được lấy.
-
-  a) Một phần bảy viết là $\dfrac{1}{7}$.
-
-  b) $\dfrac{1}{8}$ đọc là một phần tám.
-  :::
-
-[[P9·b0bc]]
-Tiếp theo, em tìm một phần $n$ của một số.
-
-  :::example Tìm $\dfrac{1}{4}$ của $20$
-  **Lời giải.** Muốn tìm một phần bốn của $20$, ta chia $20$ cho $4$:
-  $$20:4=5.$$
-  **Thử lại.** $4\times5=20$. Đúng.
-
-  Vậy $\dfrac{1}{4}$ của $20$ là $5$.
-  :::
-
-[[P10·6a96]]
-Làm tương tự với số lớn hơn.
-
-  :::example Tìm $\dfrac{1}{6}$ của $42$
-  **Lời giải.** Ta chia $42$ cho $6$:
-  $$42:6=7.$$
-  **Thử lại.** $6\times7=42$. Đúng.
-
-  Vậy $\dfrac{1}{6}$ của $42$ là $7$.
-  :::
-
-[[P11·696a]]
-Cuối cùng, em dùng cách này để giải một bài toán trong cuộc sống.
-
-  :::example Chia cam
-  Mẹ có $18$ quả cam, cho em $\dfrac{1}{3}$ số cam. Hỏi em được cho bao nhiêu quả cam?
-
-  **Lời giải.** Em được một phần ba của $18$ quả, nên ta chia $18$ cho $3$:
-  $$18:3=6\ \text{(quả)}.$$
-  **Thử lại.** $3\times6=18$. Đúng.
-
-  Vậy em được cho $6$ quả cam.
-  :::
-
-:::warning Những lỗi em hay gặp
-[[P12·be99]]
-- **Các phần không bằng nhau.** Sai: hình chia thành $4$ phần to nhỏ khác nhau, mỗi phần là $\dfrac{1}{4}$. Vì sao sai: $\dfrac{1}{4}$ chỉ dùng khi $4$ phần bằng nhau. Đúng: phải chia thành $4$ phần bằng nhau.
-- **Nhân thay cho chia.** Sai: $\dfrac{1}{3}$ của $12$ là $12\times3=36$. Vì sao sai: một phần ba của $12$ không thể lớn hơn $12$. Đúng: $12:3=4$.
-- **Nhầm phần nhỏ, phần lớn.** Sai: $\dfrac{1}{8}$ lớn hơn $\dfrac{1}{4}$ vì $8>4$. Vì sao sai: chia thành $8$ phần thì mỗi phần nhỏ hơn khi chia thành $4$ phần. Đúng: $\dfrac{1}{4}$ lớn hơn $\dfrac{1}{8}$.
-- **Quên đơn vị.** Sai: "Đáp số: $6$". Đúng: "Đáp số: $6$ quả cam".
-:::
-
-## Thuật ngữ
-
-  :::terms
-  - một phần mấy | unit fraction
-  - phân số | fraction
-  - phần bằng nhau | equal parts
-  - một phần hai | one half
-  - một phần ba | one third
-  - một phần bốn | one quarter
-  - chia đều | share equally
-  - thử lại | check the answer
-  :::
-
-## Tóm tắt
-
-[[P13·c0ba]]
-- Chia một hình (hoặc một số) thành $n$ phần **bằng nhau**, mỗi phần là $\dfrac{1}{n}$ của hình (của số đó).
-- $\dfrac{1}{2}$ đọc là một phần hai, $\dfrac{1}{3}$ là một phần ba, $\dfrac{1}{4}$ là một phần bốn.
-- Chia càng nhiều phần bằng nhau thì mỗi phần càng nhỏ.
-- Một phần $n$ của một số bằng số đó chia cho $n$.
-- Thử lại bằng phép nhân; ghi đơn vị trong đáp số.
-
-## Luyện tập
-
-[[P14·824d]]
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
    (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
 :::exercise Thử thách
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -1407,183 +757,207 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 
-######## BÀI g3/unit-fractions – BẢN TIẾNG ANH ########
+######## BÀI g3/likelihood-of-an-event – BẢN TIẾNG ANH ########
 ---
-title: Unit fractions
-description: Learn to split a shape or a number into equal parts, read and write one-nth, and find one-nth of a number by dividing.
+title: How likely is an event?
+description: Learn to say whether an event is certain, possible or impossible, using games with marbles, sweets and cards in a box.
 minutes: 15
 ---
 
   :::goals
-  - Recognise one-$n$th of a shape, and read and write $\dfrac{1}{n}$.
-  - Know that the more equal parts there are, the smaller each part is.
-  - Find one-$n$th of a number by dividing, and solve word problems.
+  - Tell whether an event is certain, possible or impossible.
+  - Give a reason by looking at what is in the box.
+  - Record the results of a trial in a data table.
   :::
 
-[[P1·dbc9]]
-Mum cuts a cake into equal pieces to share among $4$ friends, one piece each. What fraction of the cake does each friend get?
+[[P1·c46d]]
+Mai has a closed box with only $5$ red marbles inside. Mai shuts her eyes and takes out one marble. Can Mai get a blue marble? Is Mai certain to get a red marble?
 
-[[P2·35b5]]
-You could answer in words, but maths has a short way to write "one out of so many". This lesson shows you how to read it, write it and use it.
+[[P2·d48b]]
+This lesson helps you answer questions like these, just by looking at what is in the box.
 
 ## Let's explore
 
-[[P3·229c]]
-We think of the cake as a rectangle split into $4$ equal parts.
+[[P3·72ef]]
+There are three boxes. Each time, we shut our eyes and take out one marble.
 
-:::diagram A rectangle split into 4 equal parts
-   (… 19 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
+![Boxes A, B, and C contain five red; three red and two blue; and five blue marbles](/assets/img/g3/g3-likelihood-of-an-event-01.svg)
 
-[[P4·69f0]]
-The shape is split into $4$ **equal** parts. Each part is **one quarter** of the shape, written $\dfrac{1}{4}$. So each friend gets $\dfrac{1}{4}$ of the cake.
+[[P4·b45a]]
+- **Box A:** $5$ red marbles.
+- **Box B:** $3$ red marbles and $2$ blue marbles.
+- **Box C:** $5$ blue marbles.
 
-[[P5·04ff]]
-If we split into $2$ equal parts, each part is $\dfrac{1}{2}$ of the shape. If we split into $8$ equal parts, each part is $\dfrac{1}{8}$. The more equal parts we make, the smaller each part is.
+[[P5·016f]]
+**Box A.** There are only red marbles. However we pick, we get a red marble. We say: getting a red marble is **certain**. Getting a blue marble is **impossible**.
 
-  :::theorem Unit fractions
-  Split a shape (or a number) into $n$ equal parts. Each part is **one-$n$th** of the shape (of the number), written $\dfrac{1}{n}$.
+[[P6·4ff1]]
+**Box B.** There are red and blue marbles. This time we might get red, another time we might get blue. We say: getting a red marble is **possible**, and getting a blue marble is also **possible**.
 
-  | Written | $\dfrac{1}{2}$ | $\dfrac{1}{3}$ | $\dfrac{1}{4}$ | $\dfrac{1}{5}$ | $\dfrac{1}{6}$ |
-  |---|---|---|---|---|---|
-  | Read | one half | one third | one quarter | one fifth | one sixth |
+[[P7·bc6c]]
+**Box C.** There are only blue marbles. Getting a blue marble is **certain**, and getting a red marble is **impossible**.
 
-  To find one-$n$th of a number, divide that number by $n$.
+  :::theorem Three levels of likelihood
+  - **Certain:** the event always happens.
+  - **Impossible:** the event never happens.
+  - **Possible:** the event sometimes happens and sometimes does not.
+
+  To decide which level it is, look at what is in the box.
   :::
 
-[[P6·2cde]]
-This works because splitting the number into $n$ equal parts makes each part exactly one-$n$th of it. For example, $12$ sweets split into $3$ equal parts give $12\div3=4$ in each part, so $\dfrac{1}{3}$ of $12$ is $4$.
+[[P8·ecaf]]
+This works because you know everything in the box. If the thing you want is not there, it is impossible. If everything in the box is that thing, it is certain.
 
 ## Examples
 
-[[P7·4e01]]
-We start by naming one part.
+[[P9·8375]]
+We start with a box that holds only one kind of ball.
 
-  :::example A piece of string
-  A piece of string is cut into $3$ equal lengths. What fraction of the string is each length?
+  :::example A box of yellow balls
+  A box has $6$ yellow balls. Shut your eyes and take out one. Say how likely each event is:
+  a) you take a yellow ball;
+  b) you take a green ball.
 
-  ![A rope with two cut marks dividing it into three equal sections](/assets/img/g3/g3-unit-fractions-01.svg)
+  **Solution.** There are only yellow balls in the box.
 
-  **Solution.** The string is split into $3$ equal parts, so each length is one third of the string:
-  $$\dfrac{1}{3}.$$
-  So each length is $\dfrac{1}{3}$ of the string.
+  a) Every ball you take out is yellow, so this event is **certain**.
+
+  b) There is no green ball in the box, so this event is **impossible**.
   :::
 
-[[P8·ce80]]
-Now practise reading and writing.
+[[P10·52d9]]
+Now the box has two kinds of sweets.
 
-  :::example Read and write
-  a) Write "one seventh" with numbers.
+  :::example A bag of sweets
+  A bag has $4$ orange sweets and $2$ strawberry sweets. Shut your eyes and take out one. Say how likely each event is:
+  a) you take an orange sweet;
+  b) you take a strawberry sweet;
+  c) you take a lemon sweet.
 
-  b) Read $\dfrac{1}{8}$.
+  **Solution.** The bag has both orange and strawberry sweets, but no lemon sweets.
 
-  **Solution.** The bottom number is the number of equal parts and the top number is the $1$ part we take.
+  a) You might take an orange sweet, so this event is **possible**.
 
-  a) One seventh is written $\dfrac{1}{7}$.
+  b) You might take a strawberry sweet, so this event is also **possible**.
 
-  b) $\dfrac{1}{8}$ is read "one eighth".
+  c) There are no lemon sweets, so this event is **impossible**.
   :::
 
-[[P9·6bf7]]
-Next, find one-$n$th of a number.
+[[P11·e1b3]]
+We can also ask about numbers on cards.
 
-  :::example Find $\dfrac{1}{4}$ of $20$
-  **Solution.** To find one quarter of $20$, we divide $20$ by $4$:
-  $$20\div4=5.$$
-  **Check.** $4\times5=20$. Correct.
+  :::example Number cards
+  A box has $3$ cards with the numbers $1$, $2$, $3$. Shut your eyes and take out one card. Say how likely each event is:
+  a) you take the card with $5$;
+  b) you take a card with a number less than $4$;
+  c) you take the card with $2$.
 
-  So $\dfrac{1}{4}$ of $20$ is $5$.
+  **Solution.** The numbers you can take are $1$, $2$, $3$.
+
+  a) There is no card with $5$, so it is **impossible**.
+
+  b) All three numbers $1$, $2$, $3$ are less than $4$, so it is **certain**.
+
+  c) The card with $2$ is in the box, but so are other cards, so it is **possible**.
   :::
 
-[[P10·79c9]]
-Do the same with a bigger number.
+[[P12·903b]]
+You meet these questions in everyday life too.
 
-  :::example Find $\dfrac{1}{6}$ of $42$
-  **Solution.** We divide $42$ by $6$:
-  $$42\div6=7.$$
-  **Check.** $6\times7=42$. Correct.
+  :::example Everyday events
+  Say whether each event is certain, possible or impossible:
+  a) The Sun rises in the morning.
+  b) You walk from home to school in $1$ second.
+  c) It rains tomorrow.
 
-  So $\dfrac{1}{6}$ of $42$ is $7$.
+  **Solution.** We think about whether the event always happens, never happens, or sometimes happens.
+
+  a) The Sun rises every morning, so it is **certain**.
+
+  b) Nobody can walk that fast, so it is **impossible**.
+
+  c) Some days it rains and some days it does not, so it is **possible**.
   :::
 
-[[P11·639c]]
-Finally, use this method for a problem from everyday life.
+[[P13·277b]]
+Finally, we try it for real and record the results in a data table, as in the last lesson.
 
-  :::example Sharing oranges
-  Mum has $18$ oranges and gives her child $\dfrac{1}{3}$ of them. How many oranges does the child get?
+  :::example A trial with marbles
+  Box B has $3$ red and $2$ blue marbles. Nam takes out one marble, writes down its colour, puts it back, and does this $10$ times. The results are: red, blue, red, red, blue, red, blue, red, red, blue. Make a data table.
 
-  **Solution.** The child gets one third of $18$ oranges, so we divide $18$ by $3$:
-  $$18\div3=6\ \text{(oranges)}.$$
-  **Check.** $3\times6=18$. Correct.
+  **Solution.** We read the list once and draw a stroke in the row of the right colour:
 
-  So the child gets $6$ oranges.
+  | Colour | Tally marks | Number of times |
+  |---|---|---|
+  | Red | ////// | $6$ |
+  | Blue | //// | $4$ |
+
+  Check: $6+4=10$ times. Both colours appeared, which fits "possible to get red, possible to get blue".
   :::
 
 :::warning Mistakes to watch out for
-[[P12·c7e3]]
-- **Parts that are not equal.** Wrong: a shape split into $4$ parts of different sizes, each part called $\dfrac{1}{4}$. Why it is wrong: $\dfrac{1}{4}$ is only used when the $4$ parts are equal. Right: split it into $4$ equal parts.
-- **Multiplying instead of dividing.** Wrong: $\dfrac{1}{3}$ of $12$ is $12\times3=36$. Why it is wrong: one third of $12$ cannot be bigger than $12$. Right: $12\div3=4$.
-- **Mixing up small and big.** Wrong: $\dfrac{1}{8}$ is bigger than $\dfrac{1}{4}$ because $8>4$. Why it is wrong: splitting into $8$ parts makes each part smaller than splitting into $4$. Right: $\dfrac{1}{4}$ is bigger than $\dfrac{1}{8}$.
-- **Forgetting the unit.** Wrong: "Answer: $6$". Right: "Answer: $6$ oranges".
+[[P14·009d]]
+- **Mixing up "possible" and "certain".** Wrong: a box has $1$ red and $9$ blue marbles, and you say "you are certain to get blue". Why it is wrong: the red marble is still in the box, so you might get red. Right: getting blue is possible.
+- **Mixing up "very few" and "impossible".** Wrong: a box has $1$ red marble, and you say "you cannot get red". Why it is wrong: the red marble is in the box. Right: getting red is possible.
+- **Not looking in the box.** Wrong: answering without checking what is inside. Right: always check what is in the box before you answer.
 :::
 
 ## Key terms
 
   :::terms
-  - unit fraction | một phần mấy
-  - fraction | phân số
-  - equal parts | phần bằng nhau
-  - one half | một phần hai
-  - one third | một phần ba
-  - one quarter | một phần bốn
-  - share equally | chia đều
-  - check the answer | thử lại
+  - chance (likelihood) | khả năng
+  - event | sự kiện
+  - certain | chắc chắn
+  - possible (might happen) | có thể
+  - impossible | không thể
+  - box | hộp
+  - trial (experiment) | thử nghiệm
+  - data table | bảng số liệu
   :::
 
 ## Summary
 
-[[P13·9b02]]
-- Split a shape (or a number) into $n$ **equal** parts: each part is $\dfrac{1}{n}$ of it.
-- $\dfrac{1}{2}$ is one half, $\dfrac{1}{3}$ is one third, $\dfrac{1}{4}$ is one quarter.
-- The more equal parts, the smaller each part.
-- One-$n$th of a number is that number divided by $n$.
-- Check with multiplication; write the unit in the answer.
+[[P15·70c1]]
+- **Certain:** always happens. **Impossible:** never happens. **Possible:** sometimes happens, sometimes does not.
+- Look at what is in the box: if the thing you want is not there, it is impossible; if everything is that thing, it is certain.
+- If the box holds several kinds, each kind is possible to take out, even if there are only a few of that kind.
+- Record the results of a trial with tally marks and a data table.
 
 ## Practice
 
-[[P14·2a6a]]
+[[P16·2a6a]]
 Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
 
 :::exercise
    (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
 :::exercise Challenge
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test

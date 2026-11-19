@@ -6,7 +6,7 @@ Kết quả: file chanh106-05-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – chanh106-05-LG
-Người làm: tài khoản chanh106. Gói này có 36 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản chanh106. Gói này có 37 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -189,523 +189,1004 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- exams/ib-aa/ibaa-calculus (9 bài tập)
-- exams/ib-aa/ibaa-functions (9 bài tập)
-- exams/ib-aa/ibaa-geometry-trigonometry (9 bài tập)
-- exams/ib-aa/ibaa-hl-complex-proof (9 bài tập)
+- g12/grouped-range-iqr (9 bài tập)
+- g12/grouped-variance-sd (9 bài tập)
+- g12/integral-applications (9 bài tập)
+- g12/line-equation-space (10 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ exams/ib-aa/ibaa-calculus
-Bài học: Giải tích: đạo hàm, tích phân, động học / Calculus: differentiation, integration, kinematics
+@@@ g12/grouped-range-iqr
+Bài học: Khoảng biến thiên và khoảng tứ phân vị / Range and interquartile range of grouped data
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Cho $f(x)=\dfrac{e^x}{x+1}$, $x\ne-1$. Chứng minh $f'(x)=\dfrac{xe^x}{(x+1)^2}$. [3 marks]
+Khối lượng (g) của $40$ quả táo được cho trong bảng. Tính $R$, $Q_1$, $Q_3$ và $\Delta_Q$.
+
+| Khối lượng (g) | $[150; 160)$ | $[160; 170)$ | $[170; 180)$ | $[180; 190)$ | $[190; 200)$ |
+|---|---|---|---|---|---|
+| Số quả | $4$ | $10$ | $14$ | $8$ | $4$ |
 
 [LỜI GIẢI CŨ – VI]
-$f'(x)=\dfrac{e^x(x+1)-e^x\cdot1}{(x+1)^2}=\dfrac{xe^x}{(x+1)^2}$.
+Tần số tích luỹ: $4$, $14$, $28$, $36$, $40$; $R=200-150=50$.
+$$Q_1=160+\frac{10-4}{10}\cdot10=166,\qquad Q_3=180+\frac{30-28}{8}\cdot10=182{,}5.$$
+
+**Đáp số.** $R=50$ g, $Q_1=166$, $Q_3=182{,}5$, $\Delta_Q=16{,}5$ g.
 
 [ĐỀ – EN]
-Let $f(x)=\dfrac{e^x}{x+1}$, $x\ne-1$. Show that $f'(x)=\dfrac{xe^x}{(x+1)^2}$. [3 marks]
+The masses (g) of $40$ apples are given in the table. Find $R$, $Q_1$, $Q_3$ and $\Delta_Q$.
+
+| Mass (g) | $[150, 160)$ | $[160, 170)$ | $[170, 180)$ | $[180, 190)$ | $[190, 200)$ |
+|---|---|---|---|---|---|
+| Apples | $4$ | $10$ | $14$ | $8$ | $4$ |
 
 [LỜI GIẢI CŨ – EN]
-$f'(x)=\dfrac{e^x(x+1)-e^x\cdot1}{(x+1)^2}=\dfrac{xe^x}{(x+1)^2}$.
+Cumulative frequencies: $4$, $14$, $28$, $36$, $40$; $R=200-150=50$.
+$$Q_1=160+\frac{10-4}{10}\cdot10=166,\qquad Q_3=180+\frac{30-28}{8}\cdot10=182.5.$$
+
+**Answer.** $R=50$ g, $Q_1=166$, $Q_3=182.5$, $\Delta_Q=16.5$ g.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Viết phương trình tiếp tuyến của $y=\ln(2x)$ tại $x=\dfrac12$. [4 marks]
+Thời gian đọc sách mỗi ngày (phút) của $50$ học sinh được cho trong bảng. Tính $Q_1$, $Q_3$ và $\Delta_Q$ (làm tròn đến hàng phần trăm).
+
+| Thời gian (phút) | $[0; 20)$ | $[20; 40)$ | $[40; 60)$ | $[60; 80)$ | $[80; 100)$ |
+|---|---|---|---|---|---|
+| Số học sinh | $5$ | $9$ | $16$ | $12$ | $8$ |
 
 [LỜI GIẢI CŨ – VI]
-Hệ số góc bằng $2$, nên $y=2\left(x-\dfrac12\right)=2x-1$.
+$$Q_1=20+\frac{12{,}5-5}{9}\cdot20=20+\frac{50}{3}\approx36{,}67,\qquad Q_3=60+\frac{37{,}5-30}{12}\cdot20=72{,}5.$$
+
+**Đáp số.** $Q_1\approx36{,}67$; $Q_3=72{,}5$; $\Delta_Q\approx35{,}83$ phút.
 
 [ĐỀ – EN]
-Find the equation of the tangent to $y=\ln(2x)$ at $x=\dfrac12$. [4 marks]
+The daily reading times (minutes) of $50$ students are given in the table. Find $Q_1$, $Q_3$ and $\Delta_Q$ (to two decimal places).
+
+| Time (minutes) | $[0, 20)$ | $[20, 40)$ | $[40, 60)$ | $[60, 80)$ | $[80, 100)$ |
+|---|---|---|---|---|---|
+| Students | $5$ | $9$ | $16$ | $12$ | $8$ |
 
 [LỜI GIẢI CŨ – EN]
-The gradient is $2$, so $y=2\left(x-\dfrac12\right)=2x-1$.
+$$Q_1=20+\frac{12.5-5}{9}\cdot20=20+\frac{50}{3}\approx36.67,\qquad Q_3=60+\frac{37.5-30}{12}\cdot20=72.5.$$
+
+**Answer.** $Q_1\approx36.67$; $Q_3=72.5$; $\Delta_Q\approx35.83$ minutes.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Cho $f(x)=x^4-4x^3$. Tìm các điểm dừng và xác định tính chất của chúng. [6 marks]
+Một cửa hàng thử thời lượng pin (giờ) của $50$ chiếc điện thoại mỗi loại X và Y.
+
+| Thời lượng (giờ) | $[8; 10)$ | $[10; 12)$ | $[12; 14)$ | $[14; 16)$ | $[16; 18)$ |
+|---|---|---|---|---|---|
+| Loại X | $3$ | $10$ | $24$ | $10$ | $3$ |
+| Loại Y | $8$ | $12$ | $10$ | $12$ | $8$ |
+
+Tính khoảng tứ phân vị của mỗi loại. Nếu khách hàng cần thời lượng pin ổn định, nên chọn loại nào?
 
 [LỜI GIẢI CŨ – VI]
-$f'(x)=0$ tại $x=0$ và $x=3$. Quanh $x=0$, $f'$ âm ở cả hai bên: điểm uốn có tiếp tuyến nằm ngang tại $(0,0)$. Quanh $x=3$, $f'$ đổi dấu từ âm sang dương: cực tiểu tại $(3,-27)$.
+Loại X (tích luỹ $3$, $13$, $37$, $47$, $50$):
+$$Q_1=10+\frac{12{,}5-3}{10}\cdot2=11{,}9,\qquad Q_3=14+\frac{37{,}5-37}{10}\cdot2=14{,}1,\qquad \Delta_Q=2{,}2.$$
+Loại Y (tích luỹ $8$, $20$, $30$, $42$, $50$):
+$$Q_1=10+\frac{12{,}5-8}{12}\cdot2=10{,}75,\qquad Q_3=14+\frac{37{,}5-30}{12}\cdot2=15{,}25,\qquad \Delta_Q=4{,}5.$$
+Hai loại có cùng $R=10$ giờ, nhưng $\Delta_Q$ của X nhỏ hơn nhiều.
+
+**Đáp số.** $\Delta_Q=2{,}2$ giờ (X) và $4{,}5$ giờ (Y); nên chọn loại X.
 
 [ĐỀ – EN]
-Let $f(x)=x^4-4x^3$. Find the stationary points and determine their nature. [6 marks]
+A shop tests the battery life (hours) of $50$ phones of each of two models X and Y.
+
+| Battery life (hours) | $[8, 10)$ | $[10, 12)$ | $[12, 14)$ | $[14, 16)$ | $[16, 18)$ |
+|---|---|---|---|---|---|
+| Model X | $3$ | $10$ | $24$ | $10$ | $3$ |
+| Model Y | $8$ | $12$ | $10$ | $12$ | $8$ |
+
+Find the interquartile range of each model. If a customer wants a steady battery life, which model should they choose?
 
 [LỜI GIẢI CŨ – EN]
-$f'(x)=0$ at $x=0$ and $x=3$. Around $x=0$, $f'$ is negative on both sides: a stationary point of inflection at $(0,0)$. Around $x=3$, $f'$ changes from negative to positive: a minimum at $(3,-27)$.
+Model X (cumulative $3$, $13$, $37$, $47$, $50$):
+$$Q_1=10+\frac{12.5-3}{10}\cdot2=11.9,\qquad Q_3=14+\frac{37.5-37}{10}\cdot2=14.1,\qquad \Delta_Q=2.2.$$
+Model Y (cumulative $8$, $20$, $30$, $42$, $50$):
+$$Q_1=10+\frac{12.5-8}{12}\cdot2=10.75,\qquad Q_3=14+\frac{37.5-30}{12}\cdot2=15.25,\qquad \Delta_Q=4.5.$$
+Both models have the same $R=10$ hours, but the $\Delta_Q$ of X is much smaller.
+
+**Answer.** $\Delta_Q=2.2$ hours (X) and $4.5$ hours (Y); choose model X.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tính $\displaystyle\int_1^4\left(3\sqrt x-1\right)dx$. [4 marks]
+Số giờ tập thể dục mỗi tuần của $30$ học sinh được cho trong bảng.
+
+| Số giờ | $[0; 2)$ | $[2; 4)$ | $[4; 6)$ | $[6; 8)$ | $[8; 10)$ |
+|---|---|---|---|---|---|
+| Số học sinh | $3$ | $7$ | $10$ | $6$ | $4$ |
+
+Mỗi khẳng định sau đúng hay sai?
+
+a) Khoảng biến thiên của mẫu số liệu bằng $10$.
+
+b) Tứ phân vị thứ nhất thuộc nhóm $[2; 4)$.
+
+c) $Q_3\approx6{,}83$.
+
+d) Khoảng tứ phân vị lớn hơn $4$.
 
 [LỜI GIẢI CŨ – VI]
-$\left[2x^{3/2}-x\right]_1^4=(16-4)-(2-1)=11$.
+a) **Đúng.** $R=10-0=10$.
+
+b) **Đúng.** $3<7{,}5\le10$, và $Q_1=2+\dfrac{7{,}5-3}{7}\cdot2=\dfrac{23}{7}\approx3{,}29$.
+
+c) **Đúng.** $20<22{,}5\le26$, nên $Q_3=6+\dfrac{22{,}5-20}{6}\cdot2=\dfrac{41}{6}\approx6{,}83$.
+
+d) **Sai.** $\Delta_Q=\dfrac{41}{6}-\dfrac{23}{7}=\dfrac{149}{42}\approx3{,}55<4$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
 
 [ĐỀ – EN]
-Evaluate $\displaystyle\int_1^4\left(3\sqrt x-1\right)dx$. [4 marks]
+The weekly hours of exercise of $30$ students are given in the table.
+
+| Hours | $[0, 2)$ | $[2, 4)$ | $[4, 6)$ | $[6, 8)$ | $[8, 10)$ |
+|---|---|---|---|---|---|
+| Students | $3$ | $7$ | $10$ | $6$ | $4$ |
+
+Is each claim true or false?
+
+a) The range of the data is $10$.
+
+b) The first quartile lies in the class $[2, 4)$.
+
+c) $Q_3\approx6.83$.
+
+d) The interquartile range is greater than $4$.
 
 [LỜI GIẢI CŨ – EN]
-$\left[2x^{3/2}-x\right]_1^4=(16-4)-(2-1)=11$.
+a) **True.** $R=10-0=10$.
+
+b) **True.** $3<7.5\le10$, and $Q_1=2+\dfrac{7.5-3}{7}\cdot2=\dfrac{23}{7}\approx3.29$.
+
+c) **True.** $20<22.5\le26$, so $Q_3=6+\dfrac{22.5-20}{6}\cdot2=\dfrac{41}{6}\approx6.83$.
+
+d) **False.** $\Delta_Q=\dfrac{41}{6}-\dfrac{23}{7}=\dfrac{149}{42}\approx3.55<4$.
+
+**Answer.** a) True; b) True; c) True; d) False.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Một hạt có gia tốc $a(t)=6t$ m s⁻² và vận tốc ban đầu $-3$ m s⁻¹. Tìm thời điểm hạt dừng lại. [4 marks]
+Cân nặng (kg) của $40$ học sinh được cho trong bảng. Tính khoảng tứ phân vị (đơn vị: kg, làm tròn đến hàng phần trăm).
+
+| Cân nặng (kg) | $[40; 45)$ | $[45; 50)$ | $[50; 55)$ | $[55; 60)$ | $[60; 65)$ |
+|---|---|---|---|---|---|
+| Số học sinh | $4$ | $9$ | $15$ | $8$ | $4$ |
 
 [LỜI GIẢI CŨ – VI]
-$v(t)=3t^2-3=0$ tại $t=1$ s ($t\ge0$).
+$$Q_1=45+\frac{10-4}{9}\cdot5=\frac{145}{3}\approx48{,}33,\qquad Q_3=55+\frac{30-28}{8}\cdot5=56{,}25.$$
+$$\Delta_Q=56{,}25-\frac{145}{3}\approx7{,}9167.$$
+
+**Đáp số.** $7{,}92$.
 
 [ĐỀ – EN]
-A particle has acceleration $a(t)=6t$ m s⁻² and initial velocity $-3$ m s⁻¹. Find when it is at rest. [4 marks]
+The masses (kg) of $40$ students are given in the table. Find the interquartile range (in kg, to two decimal places).
+
+| Mass (kg) | $[40, 45)$ | $[45, 50)$ | $[50, 55)$ | $[55, 60)$ | $[60, 65)$ |
+|---|---|---|---|---|---|
+| Students | $4$ | $9$ | $15$ | $8$ | $4$ |
 
 [LỜI GIẢI CŨ – EN]
-$v(t)=3t^2-3=0$ at $t=1$ s ($t\ge0$).
+$$Q_1=45+\frac{10-4}{9}\cdot5=\frac{145}{3}\approx48.33,\qquad Q_3=55+\frac{30-28}{8}\cdot5=56.25.$$
+$$\Delta_Q=56.25-\frac{145}{3}\approx7.9167.$$
+
+**Answer.** $7.92$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Một người nông dân có $40$ m hàng rào để rào một khu đất hình chữ nhật sát một bức tường dài, bức tường làm một cạnh. Tìm diện tích lớn nhất. [5 marks]
+(Ôn lại trung vị của mẫu số liệu ghép nhóm, lớp 11.) Với bảng khối lượng táo ở Bài 1, tính trung vị $M_e$ và kiểm tra rằng $Q_1<M_e<Q_3$.
 
 [LỜI GIẢI CŨ – VI]
-$A'=40-4x=0$ tại $x=10$, và $A''=-4<0$. Diện tích lớn nhất là $10\cdot20=200$ m².
+$$M_e=170+\frac{20-14}{14}\cdot10=170+\frac{30}{7}\approx174{,}29.$$
+Vì $166<174{,}29<182{,}5$, ta có $Q_1<M_e<Q_3$.
+
+**Đáp số.** $M_e\approx174{,}29$ g.
 
 [ĐỀ – EN]
-A farmer has $40$ m of fencing to make a rectangular enclosure against a long straight wall, which forms one side. Find the maximum area. [5 marks]
+(Revisiting the median of grouped data, grade 11.) For the table of apple masses in Exercise 1, find the median $M_e$ and check that $Q_1<M_e<Q_3$.
 
 [LỜI GIẢI CŨ – EN]
-$A'=40-4x=0$ at $x=10$, and $A''=-4<0$. The maximum area is $10\cdot20=200$ m².
+$$M_e=170+\frac{20-14}{14}\cdot10=170+\frac{30}{7}\approx174.29.$$
+Since $166<174.29<182.5$, we have $Q_1<M_e<Q_3$.
+
+**Answer.** $M_e\approx174.29$ g.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Một lon hình trụ có nắp, thể tích $500$ cm³. Tìm bán kính để diện tích toàn phần nhỏ nhất, và tính diện tích nhỏ nhất đó. [6 marks]
+(Ôn lại [Các số đặc trưng đo độ phân tán](lesson:dispersion).) Cho mẫu số liệu gốc $3, 7, 8, 11, 12, 14, 15, 16, 18, 21, 24, 29$.
+
+a) Tính $R$ và $\Delta_Q$ của mẫu số liệu gốc.
+
+b) Ghép thành ba nhóm $[0; 10)$, $[10; 20)$, $[20; 30)$ rồi tính $R$ và $\Delta_Q$ của mẫu ghép nhóm.
 
 [LỜI GIẢI CŨ – VI]
-$r^3=\dfrac{250}{\pi}$, nên $r\approx4{,}30$ cm, và $S\approx349$ cm².
+a) $R=29-3=26$; $Q_1=\dfrac{8+11}{2}=9{,}5$, $Q_3=\dfrac{18+21}{2}=19{,}5$, $\Delta_Q=10$.
+
+b) Tần số $3$, $6$, $3$ (tích luỹ $3$, $9$, $12$), $R=30$.
+$$Q_1=0+\frac{3-0}{3}\cdot10=10,\qquad Q_3=10+\frac{9-3}{6}\cdot10=20,\qquad \Delta_Q=10.$$
+
+**Đáp số.** a) $R=26$, $\Delta_Q=10$; b) $R=30$, $\Delta_Q=10$. Ở đây $\Delta_Q$ xấp xỉ rất tốt, còn $R$ thì lớn hơn thực tế.
 
 [ĐỀ – EN]
-A closed cylindrical can has volume $500$ cm³. Find the radius that minimizes its surface area, and the minimum area. [6 marks]
+(Revisiting [Measures of dispersion](lesson:dispersion).) Consider the raw data $3, 7, 8, 11, 12, 14, 15, 16, 18, 21, 24, 29$.
+
+a) Find $R$ and $\Delta_Q$ of the raw data.
+
+b) Group them into the three classes $[0, 10)$, $[10, 20)$, $[20, 30)$ and find $R$ and $\Delta_Q$ of the grouped data.
 
 [LỜI GIẢI CŨ – EN]
-$r^3=\dfrac{250}{\pi}$, so $r\approx4.30$ cm, and $S\approx349$ cm².
+a) $R=29-3=26$; $Q_1=\dfrac{8+11}{2}=9.5$, $Q_3=\dfrac{18+21}{2}=19.5$, $\Delta_Q=10$.
+
+b) Frequencies $3$, $6$, $3$ (cumulative $3$, $9$, $12$), $R=30$.
+$$Q_1=0+\frac{3-0}{3}\cdot10=10,\qquad Q_3=10+\frac{9-3}{6}\cdot10=20,\qquad \Delta_Q=10.$$
+
+**Answer.** a) $R=26$, $\Delta_Q=10$; b) $R=30$, $\Delta_Q=10$. Here $\Delta_Q$ is a very good approximation, while $R$ is larger than the true value.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Tính diện tích miền giới hạn bởi $y=\sin x$ và $y=\cos x$ với $\dfrac\pi4\le x\le\dfrac{5\pi}{4}$. [5 marks]
+Ở lớp 12A (Ví dụ 1), ta có $Q_1=15$ và $Q_3=32{,}5$ phút. Một học sinh mới chuyển đến lớp mất $62$ phút để đến trường. Theo quy tắc $1{,}5\,\Delta_Q$, thời gian này có bất thường không?
 
 [LỜI GIẢI CŨ – VI]
-$\displaystyle\int_{\pi/4}^{5\pi/4}(\sin x-\cos x)\,dx=\Big[-\cos x-\sin x\Big]_{\pi/4}^{5\pi/4}=\sqrt2-\left(-\sqrt2\right)=2\sqrt2$.
+$\Delta_Q=17{,}5$ và $1{,}5\,\Delta_Q=26{,}25$. Ngưỡng trên là
+$$Q_3+1{,}5\,\Delta_Q=32{,}5+26{,}25=58{,}75<62.$$
+
+**Đáp số.** Có, $62$ phút là giá trị bất thường so với lớp.
 
 [ĐỀ – EN]
-Find the area enclosed by $y=\sin x$ and $y=\cos x$ for $\dfrac\pi4\le x\le\dfrac{5\pi}{4}$. [5 marks]
+For class 12A (Example 1) we have $Q_1=15$ and $Q_3=32.5$ minutes. A new student who joins the class takes $62$ minutes to get to school. By the $1.5\,\Delta_Q$ rule, is this time an outlier?
 
 [LỜI GIẢI CŨ – EN]
-$\displaystyle\int_{\pi/4}^{5\pi/4}(\sin x-\cos x)\,dx=\Big[-\cos x-\sin x\Big]_{\pi/4}^{5\pi/4}=\sqrt2-\left(-\sqrt2\right)=2\sqrt2$.
+$\Delta_Q=17.5$ and $1.5\,\Delta_Q=26.25$. The upper limit is
+$$Q_3+1.5\,\Delta_Q=32.5+26.25=58.75<62.$$
+
+**Answer.** Yes, $62$ minutes is an outlier for this class.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Một hạt có vận tốc $v(t)=e^{0{,}5t}\cos t$ m s⁻¹, $0\le t\le4$. Tính độ dời và quãng đường đi được. [4 marks]
+Một mẫu số liệu ghép nhóm có bảng tần số sau, với $x$ là số nguyên dương chưa biết.
+
+| Nhóm | $[0; 10)$ | $[10; 20)$ | $[20; 30)$ | $[30; 40)$ |
+|---|---|---|---|---|
+| Tần số | $4$ | $x$ | $10$ | $6$ |
+
+Biết $Q_1=13{,}75$ và $Q_1$ thuộc nhóm $[10; 20)$. Tìm $x$.
 
 [LỜI GIẢI CŨ – VI]
-Độ dời $\approx-6{,}81$ m; quãng đường $\approx9{,}51$ m. Hạt đổi chiều tại $t=\dfrac\pi2$.
+$$10+\frac{\frac{20+x}{4}-4}{x}\cdot10=13{,}75\iff\frac{x+4}{4x}\cdot10=3{,}75\iff 10x+40=15x\iff x=8.$$
+**Kiểm tra.** $n=28$, $\frac n4=7$ và $4<7\le12$, nên $Q_1$ đúng là thuộc $[10; 20)$: $Q_1=10+\frac{7-4}{8}\cdot10=13{,}75$.
+
+**Đáp số.** $x=8$.
 
 [ĐỀ – EN]
-A particle has velocity $v(t)=e^{0.5t}\cos t$ m s⁻¹ for $0\le t\le4$. Find its displacement and the distance traveled. [4 marks]
+Grouped data have the following frequency table, where $x$ is an unknown positive integer.
+
+| Class | $[0, 10)$ | $[10, 20)$ | $[20, 30)$ | $[30, 40)$ |
+|---|---|---|---|---|
+| Frequency | $4$ | $x$ | $10$ | $6$ |
+
+We know that $Q_1=13.75$ and that $Q_1$ lies in the class $[10, 20)$. Find $x$.
 
 [LỜI GIẢI CŨ – EN]
-Displacement $\approx-6.81$ m; distance $\approx9.51$ m. The particle changes direction at $t=\dfrac\pi2$.
+$$10+\frac{\frac{20+x}{4}-4}{x}\cdot10=13.75\iff\frac{x+4}{4x}\cdot10=3.75\iff 10x+40=15x\iff x=8.$$
+**Check.** $n=28$, $\frac n4=7$ and $4<7\le12$, so $Q_1$ does lie in $[10, 20)$: $Q_1=10+\frac{7-4}{8}\cdot10=13.75$.
+
+**Answer.** $x=8$.
 
 
 ######################################################################
-@@@ exams/ib-aa/ibaa-functions
-Bài học: Hàm số: đồ thị, phép biến đổi, hàm ngược / Functions: graphs, transformations, inverses
+@@@ g12/grouped-variance-sd
+Bài học: Phương sai và độ lệch chuẩn / Variance and standard deviation of grouped data
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Cho $f(x)=\ln(5-x)$. Viết tập xác định và tập giá trị của $f$. [2 marks]
+Thời gian dùng điện thoại mỗi ngày (giờ) của $20$ học sinh được cho trong bảng. Tính $s^2$ và $s$ bằng công thức định nghĩa.
+
+| Thời gian (giờ) | $[0; 4)$ | $[4; 8)$ | $[8; 12)$ | $[12; 16)$ |
+|---|---|---|---|---|
+| Số học sinh | $3$ | $7$ | $7$ | $3$ |
 
 [LỜI GIẢI CŨ – VI]
-Tập xác định $x<5$; tập giá trị $f(x)\in\mathbb{R}$.
+$\bar{x}=\dfrac{6+42+70+42}{20}=8$; các độ lệch $-6$, $-2$, $2$, $6$.
+$$s^2=\frac{3\cdot36+7\cdot4+7\cdot4+3\cdot36}{20}=\frac{272}{20}=13{,}6,\qquad s\approx3{,}69.$$
+
+**Đáp số.** $s^2=13{,}6$; $s\approx3{,}69$ giờ.
 
 [ĐỀ – EN]
-Let $f(x)=\ln(5-x)$. Write down the domain and the range of $f$. [2 marks]
+The daily phone use (hours) of $20$ students is given in the table. Find $s^2$ and $s$ with the definition.
+
+| Time (hours) | $[0, 4)$ | $[4, 8)$ | $[8, 12)$ | $[12, 16)$ |
+|---|---|---|---|---|
+| Students | $3$ | $7$ | $7$ | $3$ |
 
 [LỜI GIẢI CŨ – EN]
-Domain $x<5$; range $f(x)\in\mathbb{R}$.
+$\bar{x}=\dfrac{6+42+70+42}{20}=8$; the deviations are $-6$, $-2$, $2$, $6$.
+$$s^2=\frac{3\cdot36+7\cdot4+7\cdot4+3\cdot36}{20}=\frac{272}{20}=13.6,\qquad s\approx3.69.$$
+
+**Answer.** $s^2=13.6$; $s\approx3.69$ hours.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Cho $f(x)=x+2$ và $g(x)=3x^2$. Giải $(g\circ f)(x)=27$. [4 marks]
+Điểm kiểm tra của $40$ học sinh được ghép nhóm như sau. Lập bảng tính và tìm $\bar{x}$, $s^2$, $s$.
+
+| Điểm | $[4; 5)$ | $[5; 6)$ | $[6; 7)$ | $[7; 8)$ | $[8; 9)$ | $[9; 10)$ |
+|---|---|---|---|---|---|---|
+| Số học sinh | $2$ | $5$ | $9$ | $14$ | $7$ | $3$ |
 
 [LỜI GIẢI CŨ – VI]
-$(x+2)^2=9$, nên $x+2=\pm3$: $x=1$ hoặc $x=-5$.
+$\sum n_ix_i=9+27{,}5+58{,}5+105+59{,}5+28{,}5=288$ và $\sum n_ix_i^2=2136$.
+$$\bar{x}=\frac{288}{40}=7{,}2,\qquad s^2=\frac{2136}{40}-7{,}2^2=53{,}4-51{,}84=1{,}56,\qquad s\approx1{,}25.$$
+
+**Đáp số.** $\bar{x}=7{,}2$; $s^2=1{,}56$; $s\approx1{,}25$.
 
 [ĐỀ – EN]
-Let $f(x)=x+2$ and $g(x)=3x^2$. Solve $(g\circ f)(x)=27$. [4 marks]
+The test marks of $40$ students are grouped as follows. Draw up the table and find $\bar{x}$, $s^2$, $s$.
+
+| Mark | $[4, 5)$ | $[5, 6)$ | $[6, 7)$ | $[7, 8)$ | $[8, 9)$ | $[9, 10)$ |
+|---|---|---|---|---|---|---|
+| Students | $2$ | $5$ | $9$ | $14$ | $7$ | $3$ |
 
 [LỜI GIẢI CŨ – EN]
-$(x+2)^2=9$, so $x+2=\pm3$: $x=1$ or $x=-5$.
+$\sum n_ix_i=9+27.5+58.5+105+59.5+28.5=288$ and $\sum n_ix_i^2=2136$.
+$$\bar{x}=\frac{288}{40}=7.2,\qquad s^2=\frac{2136}{40}-7.2^2=53.4-51.84=1.56,\qquad s\approx1.25.$$
+
+**Answer.** $\bar{x}=7.2$; $s^2=1.56$; $s\approx1.25$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Cho $f(x)=e^{2x}-1$. Tìm $f^{-1}(x)$ và tập xác định của nó. [4 marks]
+Hai đơn vị giao hàng P và Q ghi lại thời gian giao (phút) của $40$ đơn hàng mỗi bên.
+
+| Thời gian (phút) | $[20; 25)$ | $[25; 30)$ | $[30; 35)$ | $[35; 40)$ | $[40; 45)$ |
+|---|---|---|---|---|---|
+| Đơn vị P | $2$ | $10$ | $16$ | $10$ | $2$ |
+| Đơn vị Q | $8$ | $8$ | $8$ | $8$ | $8$ |
+
+Tính thời gian trung bình và độ lệch chuẩn của mỗi đơn vị. Đơn vị nào giao hàng đúng hẹn ổn định hơn?
 
 [LỜI GIẢI CŨ – VI]
-$x=e^{2y}-1$, nên $e^{2y}=x+1$ và $f^{-1}(x)=\dfrac12\ln(x+1)$, với tập xác định $x>-1$ (tập giá trị của $f$).
+Cả hai có $\bar{x}=32{,}5$ phút.
+$$\text{P: } s^2=\frac{2\cdot100+10\cdot25+0+10\cdot25+2\cdot100}{40}=\frac{900}{40}=22{,}5,\ s\approx4{,}74;$$
+$$\text{Q: } s^2=\frac{8\cdot(100+25+0+25+100)}{40}=\frac{2000}{40}=50,\ s\approx7{,}07.$$
+
+**Đáp số.** Trung bình $32{,}5$ phút; $s\approx4{,}74$ (P) và $s\approx7{,}07$ (Q). Đơn vị P ổn định hơn.
 
 [ĐỀ – EN]
-Let $f(x)=e^{2x}-1$. Find $f^{-1}(x)$ and its domain. [4 marks]
+Two delivery services P and Q recorded the delivery times (minutes) of $40$ orders each.
+
+| Time (minutes) | $[20, 25)$ | $[25, 30)$ | $[30, 35)$ | $[35, 40)$ | $[40, 45)$ |
+|---|---|---|---|---|---|
+| Service P | $2$ | $10$ | $16$ | $10$ | $2$ |
+| Service Q | $8$ | $8$ | $8$ | $8$ | $8$ |
+
+Find the mean time and the standard deviation for each service. Which service delivers more reliably on time?
 
 [LỜI GIẢI CŨ – EN]
-$x=e^{2y}-1$, so $e^{2y}=x+1$ and $f^{-1}(x)=\dfrac12\ln(x+1)$, with domain $x>-1$ (the range of $f$).
+Both have $\bar{x}=32.5$ minutes.
+$$\text{P: } s^2=\frac{2\cdot100+10\cdot25+0+10\cdot25+2\cdot100}{40}=\frac{900}{40}=22.5,\ s\approx4.74;$$
+$$\text{Q: } s^2=\frac{8\cdot(100+25+0+25+100)}{40}=\frac{2000}{40}=50,\ s\approx7.07.$$
+
+**Answer.** Mean $32.5$ minutes; $s\approx4.74$ (P) and $s\approx7.07$ (Q). Service P is more reliable.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Mô tả dãy các phép biến đổi đưa $y=x^2$ thành $y=-(x+1)^2+4$, và viết toạ độ đỉnh của đồ thị mới. [3 marks]
+Cho mẫu số liệu ghép nhóm sau.
+
+| Nhóm | $[0; 10)$ | $[10; 20)$ | $[20; 30)$ | $[30; 40)$ |
+|---|---|---|---|---|
+| Tần số | $1$ | $4$ | $4$ | $1$ |
+
+Mỗi khẳng định sau đúng hay sai?
+
+a) Số trung bình bằng $20$.
+
+b) Phương sai bằng $65$.
+
+c) Độ lệch chuẩn lớn hơn $9$.
+
+d) Nếu mọi giá trị tăng thêm $5$ (các nhóm thành $[5; 15)$, …, $[35; 45)$) thì phương sai bằng $70$.
 
 [LỜI GIẢI CŨ – VI]
-Đối xứng qua trục $x$, rồi tịnh tiến sang trái $1$ đơn vị và lên trên $4$ đơn vị. Đỉnh là $(-1,4)$.
+a) **Đúng.** $\bar{x}=\dfrac{5+60+100+35}{10}=20$.
+
+b) **Đúng.** $s^2=\dfrac{1\cdot225+4\cdot25+4\cdot25+1\cdot225}{10}=\dfrac{650}{10}=65$.
+
+c) **Sai.** $s=\sqrt{65}\approx8{,}06<9$.
+
+d) **Sai.** Trung điểm và $\bar{x}$ cùng tăng $5$, các độ lệch giữ nguyên, nên phương sai vẫn bằng $65$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
 
 [ĐỀ – EN]
-Describe the sequence of transformations that maps $y=x^2$ onto $y=-(x+1)^2+4$, and write down the vertex of the new graph. [3 marks]
+Consider the following grouped data.
+
+| Class | $[0, 10)$ | $[10, 20)$ | $[20, 30)$ | $[30, 40)$ |
+|---|---|---|---|---|
+| Frequency | $1$ | $4$ | $4$ | $1$ |
+
+Is each claim true or false?
+
+a) The mean is $20$.
+
+b) The variance is $65$.
+
+c) The standard deviation is greater than $9$.
+
+d) If every value is increased by $5$ (the classes become $[5, 15)$, …, $[35, 45)$), the variance becomes $70$.
 
 [LỜI GIẢI CŨ – EN]
-A reflection in the $x$-axis, then a translation by $1$ unit left and $4$ units up. The vertex is $(-1,4)$.
+a) **True.** $\bar{x}=\dfrac{5+60+100+35}{10}=20$.
+
+b) **True.** $s^2=\dfrac{1\cdot225+4\cdot25+4\cdot25+1\cdot225}{10}=\dfrac{650}{10}=65$.
+
+c) **False.** $s=\sqrt{65}\approx8.06<9$.
+
+d) **False.** The midpoints and $\bar{x}$ all increase by $5$, so the deviations are unchanged and the variance is still $65$.
+
+**Answer.** a) True; b) True; c) False; d) False.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Tìm các giá trị của $k$ để $kx^2+4x+1=0$ có hai nghiệm thực phân biệt. [4 marks]
+Chiều cao (cm) của $50$ học sinh được cho trong bảng. Tính độ lệch chuẩn (đơn vị: cm, làm tròn đến hàng phần trăm).
+
+| Chiều cao (cm) | $[150; 155)$ | $[155; 160)$ | $[160; 165)$ | $[165; 170)$ | $[170; 175)$ |
+|---|---|---|---|---|---|
+| Số học sinh | $5$ | $12$ | $18$ | $10$ | $5$ |
 
 [LỜI GIẢI CŨ – VI]
-$16-4k>0$, nên $k<4$, với $k\ne0$.
+$\sum n_ix_i=8115$, nên $\bar{x}=162{,}3$; $\sum n_ix_i^2=1318612{,}5$.
+$$s^2=\frac{1318612{,}5}{50}-162{,}3^2=26372{,}25-26341{,}29=30{,}96,\qquad s\approx5{,}564.$$
+
+**Đáp số.** $5{,}56$.
 
 [ĐỀ – EN]
-Find the values of $k$ for which $kx^2+4x+1=0$ has two distinct real roots. [4 marks]
+The heights (cm) of $50$ students are given in the table. Find the standard deviation (in cm, to two decimal places).
+
+| Height (cm) | $[150, 155)$ | $[155, 160)$ | $[160, 165)$ | $[165, 170)$ | $[170, 175)$ |
+|---|---|---|---|---|---|
+| Students | $5$ | $12$ | $18$ | $10$ | $5$ |
 
 [LỜI GIẢI CŨ – EN]
-$16-4k>0$, so $k<4$, with $k\ne0$.
+$\sum n_ix_i=8115$, so $\bar{x}=162.3$; $\sum n_ix_i^2=1318612.5$.
+$$s^2=\frac{1318612.5}{50}-162.3^2=26372.25-26341.29=30.96,\qquad s\approx5.564.$$
+
+**Answer.** $5.56$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Một quả bóng được ném lên, độ cao tính bằng mét sau $t$ giây là $h(t)=-4{,}9t^2+19{,}6t+1{,}5$.
-(a) Tìm độ cao lớn nhất. [3 marks]
-(b) Tìm thời điểm bóng chạm đất. [2 marks]
+(Ôn lại số trung bình của mẫu số liệu ghép nhóm, lớp 11.) Thời gian (phút) hoàn thành một bài tập của $20$ học sinh được cho trong bảng. Tính $\bar{x}$, rồi tính $s$.
+
+| Thời gian (phút) | $[10; 20)$ | $[20; 30)$ | $[30; 40)$ | $[40; 50)$ |
+|---|---|---|---|---|
+| Số học sinh | $3$ | $9$ | $6$ | $2$ |
 
 [LỜI GIẢI CŨ – VI]
-(a) $t=\dfrac{19{,}6}{9{,}8}=2$, và $h(2)=21{,}1$ mét.
+$$\bar{x}=\frac{45+225+210+90}{20}=\frac{570}{20}=28{,}5,\qquad \frac{675+5625+7350+4050}{20}=\frac{17700}{20}=885.$$
+$$s^2=885-28{,}5^2=885-812{,}25=72{,}75,\qquad s\approx8{,}53.$$
 
-(b) $h(t)=0$ khi $t\approx4{,}08$ giây (nghiệm còn lại âm).
+**Đáp số.** $\bar{x}=28{,}5$ phút; $s\approx8{,}53$ phút.
 
 [ĐỀ – EN]
-A ball is thrown upward, and its height in meters after $t$ seconds is $h(t)=-4.9t^2+19.6t+1.5$.
-(a) Find the maximum height. [3 marks]
-(b) Find the time when the ball hits the ground. [2 marks]
+(Revisiting the mean of grouped data, grade 11.) The times (minutes) that $20$ students took to finish an assignment are given in the table. Find $\bar{x}$, then $s$.
+
+| Time (minutes) | $[10, 20)$ | $[20, 30)$ | $[30, 40)$ | $[40, 50)$ |
+|---|---|---|---|---|
+| Students | $3$ | $9$ | $6$ | $2$ |
 
 [LỜI GIẢI CŨ – EN]
-(a) $t=\dfrac{19.6}{9.8}=2$, and $h(2)=21.1$ meters.
+$$\bar{x}=\frac{45+225+210+90}{20}=\frac{570}{20}=28.5,\qquad \frac{675+5625+7350+4050}{20}=\frac{17700}{20}=885.$$
+$$s^2=885-28.5^2=885-812.25=72.75,\qquad s\approx8.53.$$
 
-(b) $h(t)=0$ when $t\approx4.08$ seconds (the other root is negative).
+**Answer.** $\bar{x}=28.5$ minutes; $s\approx8.53$ minutes.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Nhiệt độ của một cốc nước, tính bằng độ C, sau $t$ phút kể từ khi rót là $T(t)=20+70e^{-0{,}05t}$.
-(a) Viết phương trình tiệm cận ngang của đồ thị $T$ và giải thích ý nghĩa. [2 marks]
-(b) Tìm thời điểm nhiệt độ bằng $50$ độ C. [3 marks]
+(Ôn lại [Khoảng biến thiên và khoảng tứ phân vị](lesson:grouped-range-iqr).) Với hai đơn vị giao hàng ở Bài 3, tính khoảng tứ phân vị của mỗi đơn vị. Kết luận có giống khi dùng độ lệch chuẩn không?
 
 [LỜI GIẢI CŨ – VI]
-(a) $T=20$: về lâu dài, cốc nước tiến tới nhiệt độ phòng $20$ độ C.
+P: $Q_1=25+\dfrac{10-2}{10}\cdot5=29$, $Q_3=35+\dfrac{30-28}{10}\cdot5=36$, $\Delta_Q=7$.
 
-(b) $e^{-0{,}05t}=\dfrac37$, nên $t=\dfrac{\ln(7/3)}{0{,}05}\approx16{,}9$ phút.
+Q: $Q_1=25+\dfrac{10-8}{8}\cdot5=26{,}25$, $Q_3=35+\dfrac{30-24}{8}\cdot5=38{,}75$, $\Delta_Q=12{,}5$.
+
+**Đáp số.** $\Delta_Q=7$ (P) và $12{,}5$ (Q); giống kết luận từ độ lệch chuẩn: P ổn định hơn.
 
 [ĐỀ – EN]
-The temperature of a drink, in degrees Celsius, $t$ minutes after it is poured is $T(t)=20+70e^{-0.05t}$.
-(a) Write down the equation of the horizontal asymptote of the graph of $T$ and interpret it. [2 marks]
-(b) Find the time when the temperature is $50$ degrees Celsius. [3 marks]
+(Revisiting [Range and interquartile range of grouped data](lesson:grouped-range-iqr).) For the two delivery services in Exercise 3, find the interquartile range of each. Is the conclusion the same as with the standard deviation?
 
 [LỜI GIẢI CŨ – EN]
-(a) $T=20$: in the long run, the drink approaches the room temperature of $20$ degrees Celsius.
+P: $Q_1=25+\dfrac{10-2}{10}\cdot5=29$, $Q_3=35+\dfrac{30-28}{10}\cdot5=36$, $\Delta_Q=7$.
 
-(b) $e^{-0.05t}=\dfrac37$, so $t=\dfrac{\ln(7/3)}{0.05}\approx16.9$ minutes.
+Q: $Q_1=25+\dfrac{10-8}{8}\cdot5=26.25$, $Q_3=35+\dfrac{30-24}{8}\cdot5=38.75$, $\Delta_Q=12.5$.
+
+**Answer.** $\Delta_Q=7$ (P) and $12.5$ (Q); the same conclusion as from the standard deviation: P is more reliable.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Cho $f(x)=\dfrac{x+2}{x-1}$, $x\ne1$. Chứng minh $f^{-1}(x)=f(x)$. Điều này cho biết gì về đồ thị của $f$? [4 marks]
+Một mẫu số liệu ghép nhóm có bảng tần số sau, với $x$ là số nguyên dương. Biết số trung bình bằng $4{,}2$. Tìm $x$, rồi tính phương sai (làm tròn đến hàng phần trăm).
+
+| Nhóm | $[0; 2)$ | $[2; 4)$ | $[4; 6)$ | $[6; 8)$ |
+|---|---|---|---|---|
+| Tần số | $2$ | $x$ | $5$ | $3$ |
 
 [LỜI GIẢI CŨ – VI]
-$x=\dfrac{y+2}{y-1}$ cho $xy-x=y+2$, nên $y(x-1)=x+2$ và $f^{-1}(x)=\dfrac{x+2}{x-1}=f(x)$. Đồ thị của $f$ đối xứng qua đường thẳng $y=x$.
+$$\frac{2+3x+25+21}{10+x}=4{,}2\iff 48+3x=42+4{,}2x\iff 1{,}2x=6\iff x=5.$$
+Khi đó $n=15$ và $\sum n_ix_i^2=2+45+125+147=319$:
+$$s^2=\frac{319}{15}-4{,}2^2=\frac{319}{15}-17{,}64=\frac{272}{75}\approx3{,}63.$$
+
+**Đáp số.** $x=5$; $s^2\approx3{,}63$.
 
 [ĐỀ – EN]
-Let $f(x)=\dfrac{x+2}{x-1}$, $x\ne1$. Show that $f^{-1}(x)=f(x)$. What does this tell you about the graph of $f$? [4 marks]
+Grouped data have the following frequency table, where $x$ is a positive integer. The mean is $4.2$. Find $x$, then the variance (to two decimal places).
+
+| Class | $[0, 2)$ | $[2, 4)$ | $[4, 6)$ | $[6, 8)$ |
+|---|---|---|---|---|
+| Frequency | $2$ | $x$ | $5$ | $3$ |
 
 [LỜI GIẢI CŨ – EN]
-$x=\dfrac{y+2}{y-1}$ gives $xy-x=y+2$, so $y(x-1)=x+2$ and $f^{-1}(x)=\dfrac{x+2}{x-1}=f(x)$. The graph of $f$ is symmetric about the line $y=x$.
+$$\frac{2+3x+25+21}{10+x}=4.2\iff 48+3x=42+4.2x\iff 1.2x=6\iff x=5.$$
+Then $n=15$ and $\sum n_ix_i^2=2+45+125+147=319$:
+$$s^2=\frac{319}{15}-4.2^2=\frac{319}{15}-17.64=\frac{272}{75}\approx3.63.$$
+
+**Answer.** $x=5$; $s^2\approx3.63$.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Tìm các giá trị của $k$ để đường thẳng $y=kx$ tiếp xúc với đường cong $y=x^2+1$. [4 marks]
+Ở Ví dụ 1, thời gian ngủ có $s^2=1{,}1275$ (đơn vị: giờ²). Nếu đổi toàn bộ số liệu sang phút (nhân mọi giá trị và đầu mút nhóm với $60$), thì phương sai và độ lệch chuẩn mới bằng bao nhiêu?
 
 [LỜI GIẢI CŨ – VI]
-$x^2-kx+1=0$ có $\Delta=k^2-4=0$, nên $k=\pm2$.
+$$s^2_{\text{mới}}=3600\cdot1{,}1275=4059,\qquad s_{\text{mới}}=60\cdot\sqrt{1{,}1275}\approx63{,}71.$$
+(Kiểm tra: $\sqrt{4059}\approx63{,}71$.)
+
+**Đáp số.** $s^2=4059$ (phút²); $s\approx63{,}71$ phút.
 
 [ĐỀ – EN]
-Find the values of $k$ for which the line $y=kx$ is tangent to the curve $y=x^2+1$. [4 marks]
+In Example 1 the sleep data have $s^2=1.1275$ (unit: hours²). If all the data are converted to minutes (every value and every class end multiplied by $60$), what are the new variance and standard deviation?
 
 [LỜI GIẢI CŨ – EN]
-$x^2-kx+1=0$ has $\Delta=k^2-4=0$, so $k=\pm2$.
+$$s^2_{\text{new}}=3600\cdot1.1275=4059,\qquad s_{\text{new}}=60\cdot\sqrt{1.1275}\approx63.71.$$
+(Check: $\sqrt{4059}\approx63.71$.)
+
+**Answer.** $s^2=4059$ (minutes²); $s\approx63.71$ minutes.
 
 
 ######################################################################
-@@@ exams/ib-aa/ibaa-geometry-trigonometry
-Bài học: Hình học và lượng giác / Geometry and trigonometry
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+@@@ g12/integral-applications
+Bài học: Ứng dụng hình học của tích phân / Applications of integrals: area and volume
+Cần viết lại lời giải các bài: 1, 2, 3, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Một hình cầu có thể tích $36\pi$ cm³. Tìm bán kính và diện tích mặt cầu. [4 marks]
+Tính diện tích hình phẳng giới hạn bởi đồ thị $y=x^2+1$, trục hoành và hai đường thẳng $x=0$, $x=3$.
 
 [LỜI GIẢI CŨ – VI]
-$\dfrac43r^3=36$, nên $r^3=27$ và $r=3$ cm. $S=4\pi(9)=36\pi$ cm².
+Vì $x^2+1>0$ trên $[0; 3]$ nên $S=\displaystyle\int_0^3(x^2+1)\,dx=\Big[\dfrac{x^3}{3}+x\Big]_0^3=9+3=12$.
+
+Vậy diện tích hình phẳng bằng $12$.
+
+**Đáp số.** $12$.
 
 [ĐỀ – EN]
-A sphere has volume $36\pi$ cm³. Find its radius and its surface area. [4 marks]
+Find the area of the region bounded by the graph of $y=x^2+1$, the $x$-axis and the lines $x=0$, $x=3$.
 
 [LỜI GIẢI CŨ – EN]
-$\dfrac43r^3=36$, so $r^3=27$ and $r=3$ cm. $S=4\pi(9)=36\pi$ cm².
+Since $x^2+1>0$ on $[0, 3]$, $S=\displaystyle\int_0^3(x^2+1)\,dx=\Big[\dfrac{x^3}{3}+x\Big]_0^3=9+3=12$.
+
+So the area of the region is $12$.
+
+**Answer.** $12$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Một tam giác có các cạnh $5$, $7$ và $8$. Tìm góc đối diện cạnh dài $7$. [3 marks]
+Tính diện tích hình phẳng giới hạn bởi đồ thị $y=x^3$, trục hoành và hai đường thẳng $x=-1$, $x=2$.
 
 [LỜI GIẢI CŨ – VI]
-$\cos C=\dfrac{25+64-49}{2(5)(8)}=\dfrac{40}{80}=\dfrac12$, nên góc đó bằng $60^\circ$.
+Vì $x^3$ đổi dấu tại $x=0$ nên ta tách đoạn: $\displaystyle\int_{-1}^0x^3dx=-\frac14$, $\displaystyle\int_0^2x^3dx=4$. Vậy $S=\dfrac14+4=\dfrac{17}{4}$.
+
+**Đáp số.** $\dfrac{17}{4}$.
 
 [ĐỀ – EN]
-A triangle has sides $5$, $7$ and $8$. Find the angle opposite the side of length $7$. [3 marks]
+Find the area of the region bounded by the graph of $y=x^3$, the $x$-axis and the lines $x=-1$, $x=2$.
 
 [LỜI GIẢI CŨ – EN]
-$\cos C=\dfrac{25+64-49}{2(5)(8)}=\dfrac{40}{80}=\dfrac12$, so the angle is $60^\circ$.
+Since $x^3$ changes sign at $x=0$, we split the interval: $\displaystyle\int_{-1}^0x^3dx=-\frac14$ and $\displaystyle\int_0^2x^3dx=4$. So $S=\dfrac14+4=\dfrac{17}{4}$.
+
+**Answer.** $\dfrac{17}{4}$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Một hình quạt có bán kính $6$ cm và góc $\dfrac\pi3$. Tìm chu vi chính xác của nó. [3 marks]
+Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2$ và đường thẳng $y=2x$.
 
 [LỜI GIẢI CŨ – VI]
-$l=6\cdot\dfrac\pi3=2\pi$, nên chu vi là $12+2\pi$ cm.
+Ta có $x^2=2x\iff x=0$ hoặc $x=2$. Tại $x=1$ ta có $2x=2>1=x^2$ nên đường thẳng nằm trên parabol trên $(0; 2)$.
+
+Vậy $S=\displaystyle\int_0^2(2x-x^2)\,dx=4-\frac83=\frac43$.
+
+**Đáp số.** $\dfrac43$.
 
 [ĐỀ – EN]
-A sector has radius $6$ cm and angle $\dfrac\pi3$. Find its exact perimeter. [3 marks]
+Find the area of the region bounded by the parabola $y=x^2$ and the line $y=2x$.
 
 [LỜI GIẢI CŨ – EN]
-$l=6\cdot\dfrac\pi3=2\pi$, so the perimeter is $12+2\pi$ cm.
+We have $x^2=2x\iff x=0$ or $x=2$. At $x=1$ we have $2x=2>1=x^2$, so the line lies above the parabola on $(0, 2)$.
 
-=== Bài 4 ===
-[ĐỀ – VI]
-Cho $\cos\theta=-\dfrac{5}{13}$ và $\pi<\theta<\dfrac{3\pi}{2}$. Tìm giá trị chính xác của $\sin\theta$ và $\tan\theta$. [4 marks]
+So $S=\displaystyle\int_0^2(2x-x^2)\,dx=4-\frac83=\frac43$.
 
-[LỜI GIẢI CŨ – VI]
-$\sin\theta=-\sqrt{1-\dfrac{25}{169}}=-\dfrac{12}{13}$, và $\tan\theta=\dfrac{-12/13}{-5/13}=\dfrac{12}{5}$.
-
-[ĐỀ – EN]
-Given $\cos\theta=-\dfrac{5}{13}$ and $\pi<\theta<\dfrac{3\pi}{2}$, find the exact values of $\sin\theta$ and $\tan\theta$. [4 marks]
-
-[LỜI GIẢI CŨ – EN]
-$\sin\theta=-\sqrt{1-\dfrac{25}{169}}=-\dfrac{12}{13}$, and $\tan\theta=\dfrac{-12/13}{-5/13}=\dfrac{12}{5}$.
+**Answer.** $\dfrac43$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Giải $\sin2x=\sin x$ với $0\le x\le\pi$. [5 marks]
+Gọi $H$ là hình phẳng giới hạn bởi đồ thị $y=x^2-4$ và trục hoành. Xét tính đúng sai của các mệnh đề sau:
+
+a) $H$ nằm giữa hai đường thẳng $x=-2$ và $x=2$.
+
+b) Diện tích của $H$ là $\displaystyle\int_{-2}^2(x^2-4)\,dx$.
+
+c) Diện tích của $H$ bằng $\dfrac{32}{3}$.
+
+d) Quay $H$ quanh trục $Ox$ được khối tròn xoay có thể tích $\dfrac{512\pi}{15}$.
 
 [LỜI GIẢI CŨ – VI]
-$\sin x=0$ cho $x=0$ hoặc $x=\pi$; $\cos x=\dfrac12$ cho $x=\dfrac\pi3$. Các nghiệm là $0$, $\dfrac\pi3$, $\pi$.
+a) **Đúng**. Ta có $x^2-4=0\iff x=\pm2$.
+
+b) **Sai**. Tích phân đó bằng $-\dfrac{32}{3}<0$, không thể là diện tích.
+
+c) **Đúng**. Vì $x^2-4\le0$ trên $[-2; 2]$ nên diện tích bằng $\displaystyle\int_{-2}^2(4-x^2)\,dx=\frac{32}{3}$.
+
+d) **Đúng**. Ta có $(x^2-4)^2=x^4-8x^2+16$ và $\pi\displaystyle\int_{-2}^2(x^4-8x^2+16)\,dx=\pi\left(\frac{64}{5}-\frac{128}{3}+64\right)=\frac{512\pi}{15}$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 
 [ĐỀ – EN]
-Solve $\sin2x=\sin x$ for $0\le x\le\pi$. [5 marks]
+Let $H$ be the region bounded by the graph of $y=x^2-4$ and the $x$-axis. Decide whether each statement is true or false.
+
+a) $H$ lies between the lines $x=-2$ and $x=2$.
+
+b) The area of $H$ is $\displaystyle\int_{-2}^2(x^2-4)\,dx$.
+
+c) The area of $H$ is $\dfrac{32}{3}$.
+
+d) Rotating $H$ about the $x$-axis gives a solid of revolution of volume $\dfrac{512\pi}{15}$.
 
 [LỜI GIẢI CŨ – EN]
-$\sin x=0$ gives $x=0$ or $x=\pi$; $\cos x=\dfrac12$ gives $x=\dfrac\pi3$. The solutions are $0$, $\dfrac\pi3$, $\pi$.
+a) **True**. We have $x^2-4=0\iff x=\pm2$.
+
+b) **False**. That integral equals $-\dfrac{32}{3}<0$, so it cannot be an area.
+
+c) **True**. Since $x^2-4\le0$ on $[-2, 2]$, the area is $\displaystyle\int_{-2}^2(4-x^2)\,dx=\frac{32}{3}$.
+
+d) **True**. We have $(x^2-4)^2=x^4-8x^2+16$ and $\pi\displaystyle\int_{-2}^2(x^4-8x^2+16)\,dx=\pi\left(\frac{64}{5}-\frac{128}{3}+64\right)=\frac{512\pi}{15}$.
+
+**Answer.** a) True; b) False; c) True; d) True.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Với vòng đu quay ở trên, $h(t)=12-10\cos\left(\dfrac{\pi t}{15}\right)$. Tìm thời điểm đầu tiên ghế ở độ cao $17$ mét. [4 marks]
+Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2-2x$ và đường thẳng $y=x$ (viết kết quả dưới dạng số thập phân).
 
 [LỜI GIẢI CŨ – VI]
-$\dfrac{\pi t}{15}=\dfrac{2\pi}{3}$, nên $t=10$ giây.
+Phương trình hoành độ giao điểm: $x^2-2x=x\iff x^2-3x=0\iff x=0$ hoặc $x=3$. Trên $(0; 3)$ đường thẳng nằm trên parabol, do đó $S=\displaystyle\int_0^3(3x-x^2)\,dx=\frac{27}{2}-9=\frac92$.
+
+Vậy diện tích bằng $\dfrac92$.
+
+**Đáp số.** $4{,}5$.
 
 [ĐỀ – EN]
-For the Ferris wheel above, $h(t)=12-10\cos\left(\dfrac{\pi t}{15}\right)$. Find the first time at which the seat is $17$ meters above the ground. [4 marks]
+Find the area of the region bounded by the parabola $y=x^2-2x$ and the line $y=x$ (give the result as a decimal).
 
 [LỜI GIẢI CŨ – EN]
-$\dfrac{\pi t}{15}=\dfrac{2\pi}{3}$, so $t=10$ seconds.
+The intersection points satisfy $x^2-2x=x\iff x^2-3x=0\iff x=0$ or $x=3$. On $(0, 3)$ the line lies above the parabola, hence $S=\displaystyle\int_0^3(3x-x^2)\,dx=\frac{27}{2}-9=\frac92$.
+
+So the area is $\dfrac92$.
+
+**Answer.** $4.5$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Một con tàu đi $12$ km theo phương vị $060^\circ$, rồi đi $8$ km theo phương vị $150^\circ$. Tính khoảng cách từ tàu đến điểm xuất phát. [4 marks]
+Một ô cửa sổ có dạng hình phẳng giới hạn bởi parabol $y=1{,}5-1{,}5x^2$ và trục hoành (đơn vị mét): rộng $2$ m, cao $1{,}5$ m. Kính lắp cửa giá $800$ nghìn đồng một mét vuông. Tính số tiền mua kính để lắp ô cửa đó.
 
 [LỜI GIẢI CŨ – VI]
-$\sqrt{12^2+8^2}=\sqrt{208}\approx14{,}4$ km.
+Parabol cắt trục hoành tại $x=\pm1$. Diện tích ô cửa là $S=\displaystyle\int_{-1}^1(1{,}5-1{,}5x^2)\,dx=\Big[1{,}5x-0{,}5x^3\Big]_{-1}^{1}=1-(-1)=2$ (m²).
+
+Vậy tiền kính là $2\cdot800=1600$ nghìn đồng.
+
+**Đáp số.** $1\,600$ nghìn đồng ($1{,}6$ triệu đồng).
 
 [ĐỀ – EN]
-A ship sails $12$ km on a bearing of $060^\circ$, then $8$ km on a bearing of $150^\circ$. Find its distance from the starting point. [4 marks]
+A window has the shape of the region bounded by the parabola $y=1.5-1.5x^2$ and the $x$-axis (units in metres): it is $2$ m wide and $1.5$ m high. The glass costs $800$ thousand đồng per square metre. Find the cost of the glass for this window.
 
 [LỜI GIẢI CŨ – EN]
-$\sqrt{12^2+8^2}=\sqrt{208}\approx14.4$ km.
+The parabola meets the $x$-axis at $x=\pm1$. The area of the window is $S=\displaystyle\int_{-1}^1(1.5-1.5x^2)\,dx=\Big[1.5x-0.5x^3\Big]_{-1}^{1}=1-(-1)=2$ (m²).
+
+So the glass costs $2\cdot800=1600$ thousand đồng.
+
+**Answer.** $1\,600$ thousand đồng ($1.6$ million đồng).
 
 === Bài 8 ===
 [ĐỀ – VI]
-Từ một điểm cách chân tháp $50$ m trên mặt đất bằng phẳng, góc nâng tới đỉnh tháp là $32^\circ$. Tính chiều cao của tháp. [2 marks]
+Một vật thể nằm giữa hai mặt phẳng $x=0$ và $x=4$. Thiết diện vuông góc với $Ox$ tại $x$ $(0\le x\le4)$ là hình chữ nhật có hai cạnh $x$ và $4-x$. Tính thể tích vật thể.
 
 [LỜI GIẢI CŨ – VI]
-$h=50\tan32^\circ\approx31{,}2$ m.
+Diện tích thiết diện là $S(x)=x(4-x)=4x-x^2$. Do đó $V=\displaystyle\int_0^4(4x-x^2)\,dx=\Big[2x^2-\dfrac{x^3}{3}\Big]_0^4=32-\dfrac{64}{3}=\dfrac{32}{3}$.
+
+Vậy thể tích vật thể bằng $\dfrac{32}{3}$.
+
+**Đáp số.** $\dfrac{32}{3}$.
 
 [ĐỀ – EN]
-From a point $50$ m from the foot of a tower, on level ground, the angle of elevation of the top is $32^\circ$. Find the height of the tower. [2 marks]
+A solid lies between the planes $x=0$ and $x=4$. Its cross-section perpendicular to the $x$-axis at $x$ $(0\le x\le4)$ is a rectangle with sides $x$ and $4-x$. Find the volume of the solid.
 
 [LỜI GIẢI CŨ – EN]
-$h=50\tan32^\circ\approx31.2$ m.
+The cross-section has area $S(x)=x(4-x)=4x-x^2$. Hence $V=\displaystyle\int_0^4(4x-x^2)\,dx=\Big[2x^2-\dfrac{x^3}{3}\Big]_0^4=32-\dfrac{64}{3}=\dfrac{32}{3}$.
+
+So the volume of the solid is $\dfrac{32}{3}$.
+
+**Answer.** $\dfrac{32}{3}$.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Chứng minh $\dfrac{1-\cos2x}{\sin2x}=\tan x$ với $\sin2x\ne0$. [4 marks]
+Tính diện tích hình phẳng giới hạn bởi đồ thị $y=\sin x$, trục hoành và hai đường thẳng $x=0$, $x=\pi$.
 
 [LỜI GIẢI CŨ – VI]
-VT $=\dfrac{1-\left(1-2\sin^2x\right)}{2\sin x\cos x}=\dfrac{2\sin^2x}{2\sin x\cos x}=\dfrac{\sin x}{\cos x}=\tan x=$ VP.
+Vì $\sin x\ge0$ trên $[0; \pi]$ nên $S=\displaystyle\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=1-(-1)=2$.
+
+Vậy diện tích bằng $2$.
+
+**Đáp số.** $2$.
 
 [ĐỀ – EN]
-Show that $\dfrac{1-\cos2x}{\sin2x}=\tan x$ for $\sin2x\ne0$. [4 marks]
+Find the area of the region bounded by the graph of $y=\sin x$, the $x$-axis and the lines $x=0$, $x=\pi$.
 
 [LỜI GIẢI CŨ – EN]
-LHS $=\dfrac{1-\left(1-2\sin^2x\right)}{2\sin x\cos x}=\dfrac{2\sin^2x}{2\sin x\cos x}=\dfrac{\sin x}{\cos x}=\tan x=$ RHS.
+Since $\sin x\ge0$ on $[0, \pi]$, $S=\displaystyle\int_0^{\pi}\sin x\,dx=\Big[-\cos x\Big]_0^{\pi}=1-(-1)=2$.
+
+So the area is $2$.
+
+**Answer.** $2$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tính diện tích hình phẳng giới hạn bởi hai đồ thị $y=x^3-x$ và $y=3x$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $x^3-x=3x\iff x^3-4x=0\iff x\in\{-2; 0; 2\}$. Ta có $\displaystyle\int_{-2}^0(x^3-4x)\,dx=\Big[\frac{x^4}{4}-2x^2\Big]_{-2}^0=0-(4-8)=4$; $\displaystyle\int_0^2(4x-x^3)\,dx=8-4=4$. Vậy $S=8$.
+
+**Đáp số.** $8$.
+
+[ĐỀ – EN]
+Find the area of the region bounded by the graphs of $y=x^3-x$ and $y=3x$.
+
+[LỜI GIẢI CŨ – EN]
+We have $x^3-x=3x\iff x^3-4x=0\iff x\in\{-2, 0, 2\}$. We have $\displaystyle\int_{-2}^0(x^3-4x)\,dx=\Big[\frac{x^4}{4}-2x^2\Big]_{-2}^0=0-(4-8)=4$; $\displaystyle\int_0^2(4x-x^3)\,dx=8-4=4$. So $S=8$.
+
+**Answer.** $8$.
 
 
 ######################################################################
-@@@ exams/ib-aa/ibaa-hl-complex-proof
-Bài học: Số phức, quy nạp và chứng minh / Complex numbers, induction and proof
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+@@@ g12/line-equation-space
+Bài học: Phương trình đường thẳng trong không gian / The equation of a line in space
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Tính $(2-i)^2$ và $\dfrac{1}{2-i}$ dưới dạng $a+bi$. [4 marks]
+Viết phương trình tham số của đường thẳng đi qua $A(2; -1; 3)$ và có vectơ chỉ phương $\vec{u}=(1; 4; -2)$. Tìm điểm ứng với $t=-1$ và kiểm tra xem $B(4; 7; -1)$ có thuộc đường thẳng không.
 
 [LỜI GIẢI CŨ – VI]
-$(2-i)^2=4-4i+i^2=3-4i$. $\dfrac{1}{2-i}=\dfrac{2+i}{5}=\dfrac25+\dfrac15i$.
+$x=2+t$, $y=-1+4t$, $z=3-2t$. Với $t=-1$: $(1; -5; 5)$. Với $B$: $2+t=4$ cho $t=2$, khi đó $y=7$, $z=-1$, khớp.
+
+**Đáp số.** $(1; -5; 5)$; $B$ thuộc đường thẳng (ứng với $t=2$).
 
 [ĐỀ – EN]
-Find $(2-i)^2$ and $\dfrac{1}{2-i}$ in the form $a+bi$. [4 marks]
+Write parametric equations of the line through $A(2, -1, 3)$ with direction vector $\vec{u}=(1, 4, -2)$. Find the point for $t=-1$ and check whether $B(4, 7, -1)$ lies on the line.
 
 [LỜI GIẢI CŨ – EN]
-$(2-i)^2=4-4i+i^2=3-4i$. $\dfrac{1}{2-i}=\dfrac{2+i}{5}=\dfrac25+\dfrac15i$.
+$x=2+t$, $y=-1+4t$, $z=3-2t$. For $t=-1$: $(1, -5, 5)$. For $B$: $2+t=4$ gives $t=2$; then $y=7$ and $z=-1$, which match.
+
+**Answer.** $(1, -5, 5)$; $B$ lies on the line (for $t=2$).
 
 === Bài 2 ===
 [ĐỀ – VI]
-Viết $-2-2i$ dưới dạng $re^{i\theta}$, $-\pi<\theta\le\pi$. [3 marks]
+Viết phương trình tham số và phương trình chính tắc của đường thẳng đi qua $A(1; 0; -2)$ và $B(3; 2; -1)$.
 
 [LỜI GIẢI CŨ – VI]
-$r=\sqrt{8}=2\sqrt2$ và $\theta=-\dfrac{3\pi}{4}$, nên $-2-2i=2\sqrt2e^{-3\pi i/4}$.
+$\overrightarrow{AB}=(2; 2; 1)$.
+$$\begin{cases}x=1+2t\\ y=2t\\ z=-2+t\end{cases}\qquad\frac{x-1}{2}=\frac{y}{2}=\frac{z+2}{1}.$$
+
+**Đáp số.** Như trên.
 
 [ĐỀ – EN]
-Write $-2-2i$ in the form $re^{i\theta}$, $-\pi<\theta\le\pi$. [3 marks]
+Write parametric and Cartesian equations of the line through $A(1, 0, -2)$ and $B(3, 2, -1)$.
 
 [LỜI GIẢI CŨ – EN]
-$r=\sqrt{8}=2\sqrt2$ and $\theta=-\dfrac{3\pi}{4}$, so $-2-2i=2\sqrt2e^{-3\pi i/4}$.
+$\overrightarrow{AB}=(2, 2, 1)$.
+$$\begin{cases}x=1+2t\\ y=2t\\ z=-2+t\end{cases}\qquad\frac{x-1}{2}=\frac{y}{2}=\frac{z+2}{1}.$$
+
+**Answer.** As above.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Giải $z^4=16$. [4 marks]
+Viết phương trình đường thẳng $d$ đi qua $M(1; -1; 2)$ và vuông góc với $(P): 2x-y+3z+5=0$. Tìm giao điểm của $d$ và $(P)$.
 
 [LỜI GIẢI CŨ – VI]
-$z=2e^{ik\pi/2}$, $k=0,1,2,3$: $2$, $2i$, $-2$, $-2i$.
+$d: x=1+2t$, $y=-1-t$, $z=2+3t$. Thay vào $(P)$:
+$$2(1+2t)-(-1-t)+3(2+3t)+5=14+14t=0\iff t=-1.$$
+Giao điểm là $(-1; 0; -1)$.
+
+**Đáp số.** $(-1; 0; -1)$.
 
 [ĐỀ – EN]
-Solve $z^4=16$. [4 marks]
+Write the equation of the line $d$ through $M(1, -1, 2)$ perpendicular to $(P): 2x-y+3z+5=0$. Find the point where $d$ meets $(P)$.
 
 [LỜI GIẢI CŨ – EN]
-$z=2e^{ik\pi/2}$, $k=0,1,2,3$: $2$, $2i$, $-2$, $-2i$.
+$d: x=1+2t$, $y=-1-t$, $z=2+3t$. Substituting into $(P)$:
+$$2(1+2t)-(-1-t)+3(2+3t)+5=14+14t=0\iff t=-1.$$
+The point of intersection is $(-1, 0, -1)$.
+
+**Answer.** $(-1, 0, -1)$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tìm $z=a+bi$ sao cho $z+2z^*=6-i$. [3 marks]
+Viết phương trình tham số và chính tắc của đường thẳng đi qua $M(0; 1; -1)$ và song song với $\Delta: \dfrac{x-1}{2}=\dfrac{y+3}{-1}=\dfrac{z}{3}$.
 
 [LỜI GIẢI CŨ – VI]
-$3a=6$ và $-b=-1$, nên $z=2+i$.
+$$\begin{cases}x=2t\\ y=1-t\\ z=-1+3t\end{cases}\qquad\frac{x}{2}=\frac{y-1}{-1}=\frac{z+1}{3}.$$
+$M$ không thuộc $\Delta$ (vì $\dfrac{0-1}{2}\neq\dfrac{1+3}{-1}$), nên đường thẳng này song song, không trùng $\Delta$.
+
+**Đáp số.** Như trên.
 
 [ĐỀ – EN]
-Find $z=a+bi$ such that $z+2z^*=6-i$. [3 marks]
+Write parametric and Cartesian equations of the line through $M(0, 1, -1)$ parallel to $\Delta: \dfrac{x-1}{2}=\dfrac{y+3}{-1}=\dfrac{z}{3}$.
 
 [LỜI GIẢI CŨ – EN]
-$3a=6$ and $-b=-1$, so $z=2+i$.
+$$\begin{cases}x=2t\\ y=1-t\\ z=-1+3t\end{cases}\qquad\frac{x}{2}=\frac{y-1}{-1}=\frac{z+1}{3}.$$
+$M$ does not lie on $\Delta$ (because $\dfrac{0-1}{2}\neq\dfrac{1+3}{-1}$), so this line is parallel to $\Delta$, not the same line.
+
+**Answer.** As above.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Chứng minh bằng quy nạp rằng $3^{2n}-1$ chia hết cho $8$ với mọi $n\in\mathbb{Z}^+$. [6 marks]
+Cho $d_1: \begin{cases}x=1+2t\\ y=-t\\ z=3+t\end{cases}$ và $d_2: \dfrac{x-3}{-4}=\dfrac{y+1}{2}=\dfrac{z-4}{-2}$. Mỗi khẳng định sau đúng hay sai?
+
+a) $\vec{u}_1=(2; -1; 1)$ là một vectơ chỉ phương của $d_1$.
+
+b) Điểm $M(3; -1; 4)$ thuộc $d_1$.
+
+c) $d_1$ song song với $d_2$.
+
+d) $d_1$ vuông góc với mặt phẳng $(P): 2x-y+z=0$.
 
 [LỜI GIẢI CŨ – VI]
-Cơ sở: $3^2-1=8$. Giả sử $3^{2k}-1=8m$ với $m$ nguyên. Khi đó $3^{2k+2}-1=9(8m)+8=8(9m+1)$, là bội của $8$. Vì mệnh đề đúng với $n=1$ và đúng với $n=k+1$ mỗi khi đúng với $n=k$, nên theo nguyên lí quy nạp nó đúng với mọi $n\in\mathbb{Z}^+$.
+a) **Đúng.** Hệ số của $t$ là $2$, $-1$, $1$.
+
+b) **Đúng.** $t=1$ cho $(3; -1; 4)$.
+
+c) **Sai.** $\vec{u}_2=(-4; 2; -2)=-2\vec{u}_1$, và $M(3; -1; 4)$ thuộc cả $d_2$, nên hai đường thẳng trùng nhau.
+
+d) **Đúng.** $\vec{n}_P=(2; -1; 1)=\vec{u}_1$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 
 [ĐỀ – EN]
-Prove by induction that $3^{2n}-1$ is divisible by $8$ for all $n\in\mathbb{Z}^+$. [6 marks]
+Let $d_1: \begin{cases}x=1+2t\\ y=-t\\ z=3+t\end{cases}$ and $d_2: \dfrac{x-3}{-4}=\dfrac{y+1}{2}=\dfrac{z-4}{-2}$. Is each claim true or false?
+
+a) $\vec{u}_1=(2, -1, 1)$ is a direction vector of $d_1$.
+
+b) The point $M(3, -1, 4)$ lies on $d_1$.
+
+c) $d_1$ is parallel to $d_2$.
+
+d) $d_1$ is perpendicular to the plane $(P): 2x-y+z=0$.
 
 [LỜI GIẢI CŨ – EN]
-Basis: $3^2-1=8$. Assume $3^{2k}-1=8m$ for some integer $m$. Then $3^{2k+2}-1=9(8m)+8=8(9m+1)$, a multiple of $8$. Since the statement is true for $n=1$ and true for $n=k+1$ whenever true for $n=k$, it is true for all $n\in\mathbb{Z}^+$ by induction.
+a) **True.** The coefficients of $t$ are $2$, $-1$, $1$.
+
+b) **True.** $t=1$ gives $(3, -1, 4)$.
+
+c) **False.** $\vec{u}_2=(-4, 2, -2)=-2\vec{u}_1$, and $M(3, -1, 4)$ also lies on $d_2$, so the two lines coincide.
+
+d) **True.** $\vec{n}_P=(2, -1, 1)=\vec{u}_1$.
+
+**Answer.** a) True; b) True; c) False; d) True.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Dùng định lí De Moivre với $n=3$ để chứng minh $\cos3\theta=4\cos^3\theta-3\cos\theta$. [6 marks]
+Một máy bay cất cánh từ điểm $O(0; 0; 0)$ và bay thẳng, mỗi giây dịch chuyển theo vectơ $\vec{v}=(80; 60; 10)$ (đơn vị: mét). Khi máy bay đạt độ cao $1500$ m, hình chiếu của nó trên mặt đất cách $O$ bao nhiêu kilômét?
 
 [LỜI GIẢI CŨ – VI]
-Phần thực của $(c+is)^3$: $c^3-3cs^2=c^3-3c\left(1-c^2\right)=4c^3-3c$, với $c=\cos\theta$ và $s=\sin\theta$. Theo De Moivre, phần thực đó cũng bằng $\cos3\theta$.
+$t=150$ giây. Hình chiếu là $(12000; 9000; 0)$, cách $O$ một khoảng $\sqrt{12000^2+9000^2}=15000$ m.
+
+**Đáp số.** $15$.
 
 [ĐỀ – EN]
-Use De Moivre's theorem with $n=3$ to show that $\cos3\theta=4\cos^3\theta-3\cos\theta$. [6 marks]
+An aeroplane takes off from the point $O(0, 0, 0)$ and flies in a straight line, moving by the vector $\vec{v}=(80, 60, 10)$ every second (unit: metre). When it reaches a height of $1500$ m, how many kilometres from $O$ is the point on the ground directly below it?
 
 [LỜI GIẢI CŨ – EN]
-Real part of $(c+is)^3$: $c^3-3cs^2=c^3-3c\left(1-c^2\right)=4c^3-3c$, where $c=\cos\theta$ and $s=\sin\theta$. By De Moivre, the real part is also $\cos3\theta$.
+$t=150$ seconds. The point on the ground is $(12000, 9000, 0)$, at distance $\sqrt{12000^2+9000^2}=15000$ m from $O$.
+
+**Answer.** $15$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Cho $\omega=e^{2\pi i/3}$. Chứng minh $1+\omega+\omega^2=0$, và mô tả ba căn bậc ba của $1$ trên mặt phẳng phức. [4 marks]
+Cho $d: x=2+t$, $y=1-t$, $z=3+2t$. Xét vị trí của $d$ với $(P_1): x+y-1=0$, $(P_2): x+3y+z-8=0$, $(P_3): x-y+z-6=0$.
 
 [LỜI GIẢI CŨ – VI]
-$\omega^3-1=(\omega-1)\left(\omega^2+\omega+1\right)=0$ và $\omega\ne1$, nên $1+\omega+\omega^2=0$. Ba nghiệm $1$, $\omega$, $\omega^2$ là ba đỉnh của một tam giác đều nội tiếp đường tròn đơn vị.
+$(P_1)$: $(2+t)+(1-t)-1=2=0$, vô lí, nên $d\parallel(P_1)$.
+$(P_2)$: $(2+t)+3(1-t)+(3+2t)-8=0$ với mọi $t$, nên $d$ nằm trong $(P_2)$.
+$(P_3)$: $(2+t)-(1-t)+(3+2t)-6=4t-2=0$, $t=\dfrac12$, giao điểm $\left(\dfrac52; \dfrac12; 4\right)$.
+
+**Đáp số.** Song song với $(P_1)$; nằm trong $(P_2)$; cắt $(P_3)$ tại $\left(\dfrac52; \dfrac12; 4\right)$.
 
 [ĐỀ – EN]
-Let $\omega=e^{2\pi i/3}$. Show that $1+\omega+\omega^2=0$, and describe the three cube roots of $1$ on an Argand diagram. [4 marks]
+Let $d: x=2+t$, $y=1-t$, $z=3+2t$. Decide the position of $d$ relative to $(P_1): x+y-1=0$, $(P_2): x+3y+z-8=0$, $(P_3): x-y+z-6=0$.
 
 [LỜI GIẢI CŨ – EN]
-$\omega^3-1=(\omega-1)\left(\omega^2+\omega+1\right)=0$ and $\omega\ne1$, so $1+\omega+\omega^2=0$. The roots $1$, $\omega$, $\omega^2$ are the vertices of an equilateral triangle inscribed in the unit circle.
+$(P_1)$: $(2+t)+(1-t)-1=2=0$, impossible, so $d\parallel(P_1)$.
+$(P_2)$: $(2+t)+3(1-t)+(3+2t)-8=0$ for every $t$, so $d$ lies in $(P_2)$.
+$(P_3)$: $(2+t)-(1-t)+(3+2t)-6=4t-2=0$, $t=\dfrac12$, and the point of intersection is $\left(\dfrac52, \dfrac12, 4\right)$.
+
+**Answer.** Parallel to $(P_1)$; lies in $(P_2)$; meets $(P_3)$ at $\left(\dfrac52, \dfrac12, 4\right)$.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Chứng minh bằng quy nạp rằng $\dfrac{d^n}{dx^n}\left(xe^x\right)=(x+n)e^x$ với mọi $n\in\mathbb{Z}^+$. [6 marks]
+Xét vị trí của hai đường thẳng $d_1: x=1+t$, $y=1-t$, $z=2t$ và $d_2: x=1+2s$, $y=-2+s$, $z=5-s$. Nếu chúng cắt nhau, tìm giao điểm.
 
 [LỜI GIẢI CŨ – VI]
-Cơ sở: $\dfrac{d}{dx}\left(xe^x\right)=e^x+xe^x=(x+1)e^x$. Giả sử đúng với $n=k$. Khi đó $\dfrac{d}{dx}\big((x+k)e^x\big)=e^x+(x+k)e^x=(x+k+1)e^x$, đúng là công thức với $n=k+1$. Kết luận như trong khung ở trên.
+Hai vectơ không cùng phương. Từ $1+t=1+2s$ và $1-t=-2+s$: $t=2s$, $1-2s=-2+s$, nên $s=1$, $t=2$. Phương trình thứ ba: $2\cdot2=5-1$, đúng.
+
+**Đáp số.** Cắt nhau tại $(3; -1; 4)$.
 
 [ĐỀ – EN]
-Prove by induction that $\dfrac{d^n}{dx^n}\left(xe^x\right)=(x+n)e^x$ for all $n\in\mathbb{Z}^+$. [6 marks]
+Decide the position of the lines $d_1: x=1+t$, $y=1-t$, $z=2t$ and $d_2: x=1+2s$, $y=-2+s$, $z=5-s$. If they intersect, find the point of intersection.
 
 [LỜI GIẢI CŨ – EN]
-Basis: $\dfrac{d}{dx}\left(xe^x\right)=e^x+xe^x=(x+1)e^x$. Assume true for $n=k$. Then $\dfrac{d}{dx}\big((x+k)e^x\big)=e^x+(x+k)e^x=(x+k+1)e^x$, the formula for $n=k+1$. Conclusion as in the note above.
+The vectors are not parallel. From $1+t=1+2s$ and $1-t=-2+s$: $t=2s$, $1-2s=-2+s$, so $s=1$, $t=2$. The third equation: $2\cdot2=5-1$, which holds.
+
+**Answer.** They intersect at $(3, -1, 4)$.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Chứng minh bằng phản chứng rằng $\log_23$ là số vô tỉ. [5 marks]
+(Ôn lại [Biểu thức toạ độ của các phép toán vectơ](lesson:vector-coordinate-operations).) Ở bài trước, ta chứng minh $A(1; 2; -1)$, $B(3; 1; 1)$, $C(7; -1; 5)$ thẳng hàng bằng vectơ cùng phương. Hãy viết phương trình tham số của đường thẳng $AB$ và chỉ ra giá trị $t$ ứng với điểm $C$.
 
 [LỜI GIẢI CŨ – VI]
-Giả sử $\log_23=\dfrac pq$, $p,q\in\mathbb{Z}^+$. Khi đó $2^{p/q}=3$, nên $2^p=3^q$. Vế trái chẵn còn vế phải lẻ, vô lí. Vậy $\log_23$ là số vô tỉ.
+$AB: x=1+2t$, $y=2-t$, $z=-1+2t$. Từ $1+2t=7$ ta có $t=3$; khi đó $y=-1$, $z=5$, khớp với $C$.
+
+**Đáp số.** $t=3$, đúng với $\overrightarrow{AC}=3\overrightarrow{AB}$ ở bài trước.
 
 [ĐỀ – EN]
-Prove by contradiction that $\log_23$ is irrational. [5 marks]
+(Revisiting [Operations on vectors in coordinates](lesson:vector-coordinate-operations).) In the previous lesson we proved that $A(1, 2, -1)$, $B(3, 1, 1)$, $C(7, -1, 5)$ are collinear using parallel vectors. Write parametric equations of the line $AB$ and give the value of $t$ for the point $C$.
 
 [LỜI GIẢI CŨ – EN]
-Assume $\log_23=\dfrac pq$, $p,q\in\mathbb{Z}^+$. Then $2^{p/q}=3$, so $2^p=3^q$. The left side is even and the right side is odd, which is impossible. So $\log_23$ is irrational.
+$AB: x=1+2t$, $y=2-t$, $z=-1+2t$. From $1+2t=7$ we get $t=3$; then $y=-1$ and $z=5$, which match $C$.
+
+**Answer.** $t=3$, which agrees with $\overrightarrow{AC}=3\overrightarrow{AB}$ from the previous lesson.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một tia laze xuất phát từ $A(1; 2; 3)$, phản xạ trên một tấm gương phẳng nằm trong mặt phẳng $(P): x+2y+2z-2=0$ rồi tới $B(3; 2; 2)$. Tìm điểm phản xạ $M$ trên gương. (Gợi ý: đường đi $A\to M\to B$ ngắn nhất khi $M$ nằm trên đoạn $A'B$, với $A'$ là điểm đối xứng của $A$ qua $(P)$.)
+
+[LỜI GIẢI CŨ – VI]
+Đường thẳng qua $A$ vuông góc với $(P)$: $x=1+t$, $y=2+2t$, $z=3+2t$. Thay vào $(P)$: $9+9t=0$, $t=-1$, nên $H(0; 0; 1)$ và $A'(-1; -2; -1)$.
+Thay $A'$ và $B$ vào vế trái của $(P)$ được $-9$ và $9$, nên $A'$, $B$ ở hai phía và cách $(P)$ bằng nhau; vì vậy $M$ là trung điểm của $A'B$:
+$$M\left(1; 0; \tfrac12\right),\qquad 1+0+2\cdot\tfrac12-2=0.$$
+Đường đi của tia sáng dài $A'B=\sqrt{16+16+9}=\sqrt{41}\approx6{,}40$.
+
+**Đáp số.** $M\left(1; 0; \dfrac12\right)$.
+
+[ĐỀ – EN]
+A laser beam starts at $A(1, 2, 3)$, reflects off a flat mirror lying in the plane $(P): x+2y+2z-2=0$, and then reaches $B(3, 2, 2)$. Find the point $M$ of the mirror where it reflects. (Hint: the path $A\to M\to B$ is shortest when $M$ lies on the segment $A'B$, where $A'$ is the reflection of $A$ in $(P)$.)
+
+[LỜI GIẢI CŨ – EN]
+The line through $A$ perpendicular to $(P)$: $x=1+t$, $y=2+2t$, $z=3+2t$. Substituting into $(P)$: $9+9t=0$, $t=-1$, so $H(0, 0, 1)$ and $A'(-1, -2, -1)$.
+Substituting $A'$ and $B$ into the left-hand side of $(P)$ gives $-9$ and $9$, so $A'$ and $B$ are on opposite sides at equal distances from $(P)$; therefore $M$ is the midpoint of $A'B$:
+$$M\left(1, 0, \tfrac12\right),\qquad 1+0+2\cdot\tfrac12-2=0.$$
+The beam travels a distance $A'B=\sqrt{16+16+9}=\sqrt{41}\approx6.40$.
+
+**Answer.** $M\left(1, 0, \dfrac12\right)$.
 
 
 ===== HẾT FILE chanh106-05-LG =====

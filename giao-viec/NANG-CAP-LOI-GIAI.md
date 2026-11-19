@@ -41,7 +41,7 @@ Thứ tự: lớp 9 → lớp 12 → Ôn thi. Mỗi lượt 4–6 bài học; fi
 Chủ dự án quyết định giao phần còn lại của lớp 12 (24 bài học) và toàn bộ mục Ôn thi (35 bài học) cho ChatGPT Plus. 12 gói ở `giao-viec/nang-cap/chatgpt/` (GOI-L12-01…05, GOI-ONTHI-01…07), hướng dẫn giao ở `giao-viec/nang-cap/chatgpt/HUONG-DAN-GIAO-CHATGPT.md`, brief chung `_templates/BRIEF-nang-cap-chatgpt.md`. File nộp về: `NC-ChatGPT-GOI-….md` trong Dropbox "viec da lam"; ghép bằng `upgrade.py apply` (in GHI CHÚ và KHÁC ĐÁP SỐ để kiểm tra tay). Tạo lại gói cho phần còn thiếu: `upgrade.py pack`.
 
 
-## Đợt 3 (19/11/2026): thu hồi các gói cũ, chia lại cho 12 tài khoản Claude Free
+## Đợt 3 (19/11/2026): thu hồi các gói cũ, chia lại cho 15 tài khoản Claude Free
 
 Chủ dự án thu hồi phần đã giao ChatGPT Plus (12 gói GOI-*, gói NC-06, 25 gói giọng văn GV-*) và bỏ các gói NC cũ của tài khoản Free. Toàn bộ lời giải còn vắn tắt (trừ lớp 6, lớp 9 do Pro đã làm) và 210 bài giọng văn chia lại theo dải lớp liền nhau, mỗi bài học chỉ một tài khoản làm (cả lời giải lẫn giọng văn). Bảng giao: `giao-viec/dot3/BANG-GIAO.md`; bài trong từng file: `giao-viec/dot3/CHI-TIET.md`; tạo lại: `python3 tools/qa/dot3.py`.
 

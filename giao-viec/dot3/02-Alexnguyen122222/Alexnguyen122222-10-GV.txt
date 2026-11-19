@@ -6,7 +6,7 @@ Kết quả: file Alexnguyen122222-10-GV-ketqua.md, lưu vào Dropbox Lemonmath.
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Alexnguyen122222-10-GV
-Gồm 3 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g2/regroup-add-2-digit, g2/regroup-subtract-1-digit, g2/regroup-subtract-2-digit
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g2/multiples-of-10-and-100, g2/ones-tens-hundreds-thousands
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/Alexnguyen122222-10-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/3). Gõ
+  /mnt/user-data/outputs/Alexnguyen122222-10-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file Alexnguyen122222-10-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,126 +135,124 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g2/regroup-add-2-digit – BẢN TIẾNG VIỆT ########
+######## BÀI g2/multiples-of-10-and-100 – BẢN TIẾNG VIỆT ########
 ---
-title: Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số
-description: Em học cộng hai số có hai chữ số khi tổng hàng đơn vị từ 10 trở lên, ví dụ 46 + 38, bằng cách đặt tính và nhớ 1 chục sang hàng chục.
+title: Các số tròn trăm, tròn chục
+description: Em nhận biết, đọc, viết và đếm thêm các số tròn chục từ 10 đến 90 và các số tròn trăm từ 100 đến 900.
 minutes: 15
 ---
 
   :::goals
-  - Đặt tính và cộng hai số có hai chữ số, ví dụ $46+38$.
-  - Nhớ cộng thêm $1$ chục khi hàng đơn vị được $10$ hoặc hơn.
-  - Giải bài toán có lời văn bằng một phép cộng có nhớ.
+  - Nhận biết, đọc và viết các số tròn chục, ví dụ $30$, $80$.
+  - Nhận biết, đọc và viết các số tròn trăm, ví dụ $400$, $900$.
+  - Đếm thêm $10$ và đếm thêm $100$.
   :::
 
-[[P1·0795]]
-Lan có $46$ cái nhãn vở. Mai có $38$ cái nhãn vở. Hỏi hai bạn có tất cả bao nhiêu cái nhãn vở?
+[[P1·eeee]]
+Mỗi túi có $1$ chục viên kẹo. Mai có $6$ túi như vậy. Hỏi Mai có tất cả bao nhiêu viên kẹo?
 
-[[P2·f110]]
-Ở bài trước, em đã cộng số có hai chữ số với số có một chữ số và biết nhớ $1$ chục. Bài này dùng đúng cách đó, chỉ thêm một số hạng có chục.
+[[P2·b81d]]
+Em đã biết $1$ chục là $10$ đơn vị. Bài này giúp em gọi tên và viết nhanh số kẹo của nhiều túi.
 
 ## Cùng khám phá
 
-[[P3·0475]]
-Ta tách $46$ thành $4$ chục $6$ đơn vị, và $38$ thành $3$ chục $8$ đơn vị.
+[[P3·9514]]
+Em đếm thêm từng chục: $1$ chục, $2$ chục, $3$ chục, ... Mỗi lần thêm $1$ chục là thêm $10$.
 
-[[P4·87a7]]
-- Cộng hàng đơn vị: $6+8=14$. Đó là $1$ chục và $4$ đơn vị.
-- Viết $4$ ở hàng đơn vị, nhớ $1$ chục.
-- Cộng hàng chục: $4+3=7$, rồi cộng thêm $1$ chục nhớ được $8$.
+[[P4·fb2a]]
+- $1$ chục là $10$, $2$ chục là $20$, $3$ chục là $30$.
+- Cứ thế đến $9$ chục là $90$.
 
-[[P5·d07a]]
-Vậy có $8$ chục và $4$ đơn vị, tức là $84$.
+[[P5·3fa4]]
+Những số như $10, 20, 30, \dots, 90$ gọi là **số tròn chục**. Chữ số hàng đơn vị của chúng đều là $0$.
 
-  $$\begin{array}{r} 46\\ +\ 38\\ \hline 84 \end{array}$$
-
-[[P6·68a3]]
-Em cũng có thể nhảy trên tia số: từ $46$ cộng $30$ được $76$, rồi cộng $8$ được $84$.
-
-:::graph Trên tia số: từ 46 cộng 30 được 76, rồi cộng 8 được 84
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::graph Trên tia số: các số tròn chục từ 0 đến 100
+   (… 15 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::theorem Cộng có nhớ hai số có hai chữ số
-  Muốn tính $46+38$:
-  1. Đặt tính: hàng đơn vị thẳng hàng đơn vị, hàng chục thẳng hàng chục.
-  2. Cộng hàng đơn vị: $6+8=14$. Viết $4$, nhớ $1$ chục.
-  3. Cộng hàng chục: $4+3+1=8$. Viết $8$.
+[[P6·4fb1]]
+Làm tương tự với trăm: $1$ trăm là $100$, $2$ trăm là $200$, ..., $9$ trăm là $900$. Những số này gọi là **số tròn trăm**. Hai chữ số cuối của chúng đều là $0$.
+
+  :::theorem Số tròn chục, số tròn trăm
+  - $n$ chục viết là $n$ rồi thêm một chữ số $0$. Ví dụ: $4$ chục là $40$.
+  - $n$ trăm viết là $n$ rồi thêm hai chữ số $0$. Ví dụ: $4$ trăm là $400$.
   :::
 
-[[P7·ccad]]
-Cách này đúng vì $14$ đơn vị là $1$ chục và $4$ đơn vị. Chục mới được cộng vào hàng chục nên không bị mất.
+[[P7·d06e]]
+Cách viết này đúng vì $4$ chục là $10+10+10+10=40$, còn $4$ trăm là $100+100+100+100=400$.
 
 ## Ví dụ
 
-[[P8·decb]]
-Ta bắt đầu với hai số nhỏ, tổng hàng đơn vị chỉ hơn $10$ một chút.
+[[P8·faf8]]
+Ta bắt đầu với số tròn chục.
 
-  :::example Tính $27+15$
-  **Lời giải.** Hàng đơn vị: $7+5=12$, viết $2$ nhớ $1$. Hàng chục: $2+1+1=4$ (số chục của hai số và $1$ chục nhớ):
-  $$\begin{array}{r} 27\\ +\ 15\\ \hline 42 \end{array}$$
-  Vậy $27+15=42$.
+  :::example Viết số tròn chục
+  Viết số cho $3$ chục và $8$ chục.
+
+  **Lời giải.** Viết số chục rồi thêm chữ số $0$:
+  $$3\text{ chục}=30,\qquad 8\text{ chục}=80.$$
+  Vậy $3$ chục là $30$ và $8$ chục là $80$.
   :::
 
-[[P9·0e77]]
-Phép tính sau làm giống hệt, chỉ đổi số.
+[[P9·b308]]
+Bây giờ em đếm thêm $10$ để điền số còn thiếu.
 
-  :::example Tính $48+36$
-  **Lời giải.** Hàng đơn vị: $8+6=14$, viết $4$ nhớ $1$. Hàng chục: $4+3+1=8$:
-  $$\begin{array}{r} 48\\ +\ 36\\ \hline 84 \end{array}$$
-  Vậy $48+36=84$.
+  :::example Đếm thêm 10
+  Điền số còn thiếu: $20, 30, \square, 50, \square$.
+
+  **Lời giải.** Mỗi số hơn số đứng trước $10$ đơn vị. Sau $30$ là $40$, sau $50$ là $60$:
+  $$20, 30, 40, 50, 60.$$
+  Vậy hai số còn thiếu là $40$ và $60$.
   :::
 
-[[P10·f373]]
-Bây giờ hàng đơn vị có số $9$, nên tổng lớn hơn.
+[[P10·a91b]]
+Tiếp theo là số tròn trăm.
 
-  :::example Tính $59+27$
-  **Lời giải.** Hàng đơn vị: $9+7=16$, viết $6$ nhớ $1$. Hàng chục: $5+2+1=8$:
-  $$\begin{array}{r} 59\\ +\ 27\\ \hline 86 \end{array}$$
-  Vậy $59+27=86$.
+  :::example Viết số tròn trăm
+  Viết số cho $4$ trăm. Số $700$ có mấy trăm?
 
-  **Kiểm tra.** Làm tròn $59$ thành $60$: $60+27=87$, rồi bớt $1$ được $86$. Kết quả giống nhau.
+  **Lời giải.** $4$ trăm viết là $4$ rồi thêm hai chữ số $0$, được $400$. Ngược lại, $700$ là $7$ trăm.
+
+  Vậy $4$ trăm là $400$ và $700$ là $7$ trăm.
   :::
 
-[[P11·95a3]]
-Bây giờ em dùng phép cộng để giải một bài toán trong cuộc sống.
+[[P11·33d3]]
+Cuối cùng em dùng số tròn chục trong một bài toán.
 
-  :::example Đội văn nghệ
-  Lớp có $35$ bạn nam và $48$ bạn nữ. Hỏi lớp có tất cả bao nhiêu bạn?
+  :::example Túi kẹo
+  Mỗi túi có $1$ chục viên kẹo. Mai có $6$ túi. Hỏi Mai có bao nhiêu viên kẹo?
 
-  **Lời giải.** "Tất cả" nghĩa là gộp lại, nên em làm phép cộng. Hàng đơn vị: $5+8=13$, viết $3$ nhớ $1$. Hàng chục: $3+4+1=8$:
-  $$35+48=83\ \text{(bạn)}.$$
-  Vậy lớp có tất cả $83$ bạn.
+  **Lời giải.** $6$ túi, mỗi túi $1$ chục, là $6$ chục kẹo. $6$ chục là $60$.
+
+  Vậy Mai có $60$ viên kẹo.
   :::
 
 :::warning Những lỗi em hay gặp
-[[P12·1e70]]
-- **Quên chục nhớ.** Sai: $46+38=74$. Vì sao sai: em viết $4$ nhưng quên cộng $1$ chục nhớ vào hàng chục. Đúng: $46+38=84$.
-- **Viết cả $14$ vào hàng đơn vị.** Sai: $46+38=714$. Vì sao sai: $14$ đơn vị phải đổi thành $1$ chục và $4$ đơn vị. Đúng: $46+38=84$.
-- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $83$". Đúng: "Đáp số: $83$ bạn".
+[[P12·c077]]
+- **Quên chữ số 0.** Sai: "$4$ chục là $4$". Vì sao sai: $4$ chục là bốn nhóm $10$. Đúng: $4$ chục là $40$.
+- **Nhầm số tròn chục với số tròn trăm.** Sai: "$6$ trăm là $60$". Vì sao sai: $60$ là $6$ chục. Đúng: $6$ trăm là $600$.
+- **Cho rằng mọi số đều tròn chục.** Sai: "$35$ là số tròn chục". Vì sao sai: chữ số cuối của $35$ là $5$, không phải $0$. Đúng: $35$ không phải số tròn chục.
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - phép cộng có nhớ | addition with regrouping
-  - hàng chục | tens
-  - hàng đơn vị | ones
-  - đổi 10 đơn vị lấy 1 chục | exchange 10 ones for 1 ten
-  - đặt tính | set out the column
-  - tổng | sum (total)
-  - số hạng | addend
+  - số tròn chục | multiple of 10
+  - số tròn trăm | multiple of 100
+  - đếm thêm | count on
   - tia số | number line
+  - chữ số | digit
+  - đọc số | read a number
+  - viết số | write a number
   :::
 
 ## Tóm tắt
 
-[[P13·f67b]]
-- Đặt tính thẳng cột, cộng từ hàng đơn vị sang hàng chục.
-- Hàng đơn vị được $10$ hoặc hơn: viết số đơn vị còn lại, nhớ $1$ chục.
-- Hàng chục: cộng hai chữ số chục rồi cộng thêm $1$ chục nhớ.
-- Ví dụ: $46+38$: $6+8=14$, viết $4$ nhớ $1$; $4+3+1=8$; kết quả $84$.
+[[P13·5bb2]]
+- Số tròn chục: $10, 20, 30, \dots, 90$ (chữ số cuối là $0$).
+- Số tròn trăm: $100, 200, 300, \dots, 900$ (hai chữ số cuối là $0$).
+- $4$ chục là $40$; $4$ trăm là $400$.
+- Đếm thêm $10$ được số tròn chục kế tiếp; đếm thêm $100$ được số tròn trăm kế tiếp.
 
 ## Luyện tập
 
@@ -262,11 +260,15 @@ Bây giờ em dùng phép cộng để giải một bài toán trong cuộc số
 Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -278,19 +280,15 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 :::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
    (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -300,126 +298,124 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 
-######## BÀI g2/regroup-add-2-digit – BẢN TIẾNG ANH ########
+######## BÀI g2/multiples-of-10-and-100 – BẢN TIẾNG ANH ########
 ---
-title: Adding two two-digit numbers (with regrouping)
-description: Learn to add two two-digit numbers when the ones make 10 or more, for example 46 + 38, by setting out the column and carrying 1 ten to the tens.
+title: Multiples of 10 and 100
+description: Recognise, read, write and count on in the multiples of 10 from 10 to 90 and the multiples of 100 from 100 to 900.
 minutes: 15
 ---
 
   :::goals
-  - Set out a column and add two two-digit numbers, for example $46+38$.
-  - Remember to add the extra $1$ ten when the ones make $10$ or more.
-  - Solve a word problem with one addition that needs regrouping.
+  - Recognise, read and write multiples of 10, for example $30$ and $80$.
+  - Recognise, read and write multiples of 100, for example $400$ and $900$.
+  - Count on in tens and in hundreds.
   :::
 
-[[P1·6553]]
-Lan has $46$ exercise-book labels. Mai has $38$ labels. How many labels do the two girls have altogether?
+[[P1·7089]]
+Each bag holds $1$ ten sweets. Mai has $6$ such bags. How many sweets does Mai have altogether?
 
-[[P2·87b7]]
-In the last lesson you added a one-digit number to a two-digit number and carried $1$ ten. This lesson uses the same method, with one more number that has tens.
+[[P2·8374]]
+You already know that $1$ ten is $10$ ones. This lesson helps you name and write the number of sweets in many bags quickly.
 
 ## Let's explore
 
-[[P3·1416]]
-We split $46$ into $4$ tens and $6$ ones, and $38$ into $3$ tens and $8$ ones.
+[[P3·f0e6]]
+Count on one ten at a time: $1$ ten, $2$ tens, $3$ tens, ... Each time we add $1$ ten, we add $10$.
 
-[[P4·03c4]]
-- Add the ones: $6+8=14$. That is $1$ ten and $4$ ones.
-- Write $4$ in the ones place and carry $1$ ten.
-- Add the tens: $4+3=7$, then add the carried $1$ ten to make $8$.
+[[P4·f7b5]]
+- $1$ ten is $10$, $2$ tens are $20$, $3$ tens are $30$.
+- Keep going to $9$ tens, which is $90$.
 
-[[P5·214d]]
-So there are $8$ tens and $4$ ones, which is $84$.
+[[P5·b217]]
+Numbers like $10, 20, 30, \dots, 90$ are called **multiples of 10**. Their last digit is always $0$.
 
-  $$\begin{array}{r} 46\\ +\ 38\\ \hline 84 \end{array}$$
-
-[[P6·a78c]]
-You can also jump on a number line: from $46$ add $30$ to reach $76$, then add $8$ to reach $84$.
-
-:::graph On the number line: from 46 add 30 to reach 76, then add 8 to reach 84
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::graph On the number line: the multiples of 10 from 0 to 100
+   (… 15 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::theorem Adding two two-digit numbers with regrouping
-  To work out $46+38$:
-  1. Set out the column: ones under ones, tens under tens.
-  2. Add the ones: $6+8=14$. Write $4$ and carry $1$ ten.
-  3. Add the tens: $4+3+1=8$. Write $8$.
+[[P6·9b02]]
+Do the same with hundreds: $1$ hundred is $100$, $2$ hundreds are $200$, ..., $9$ hundreds are $900$. These are called **multiples of 100**. Their last two digits are always $0$.
+
+  :::theorem Multiples of 10 and 100
+  - $n$ tens is written as $n$ followed by one $0$. Example: $4$ tens is $40$.
+  - $n$ hundreds is written as $n$ followed by two $0$s. Example: $4$ hundreds is $400$.
   :::
 
-[[P7·2ba4]]
-This works because $14$ ones make $1$ ten and $4$ ones. The new ten is added to the tens, so it is not lost.
+[[P7·6cad]]
+This works because $4$ tens is $10+10+10+10=40$, and $4$ hundreds is $100+100+100+100=400$.
 
 ## Examples
 
-[[P8·27f9]]
-We start with two small numbers whose ones make just a little more than $10$.
+[[P8·89df]]
+We start with multiples of 10.
 
-  :::example Work out $27+15$
-  **Solution.** Ones: $7+5=12$, write $2$ and carry $1$. Tens: $2+1+1=4$ (the tens of both numbers and the carried ten):
-  $$\begin{array}{r} 27\\ +\ 15\\ \hline 42 \end{array}$$
-  So $27+15=42$.
+  :::example Writing multiples of 10
+  Write the number for $3$ tens and for $8$ tens.
+
+  **Solution.** Write the number of tens, then add a $0$:
+  $$3\text{ tens}=30,\qquad 8\text{ tens}=80.$$
+  So $3$ tens is $30$ and $8$ tens is $80$.
   :::
 
-[[P9·9c4d]]
-The next sum is done in exactly the same way, with different numbers.
+[[P9·6bca]]
+Now you count on in tens to fill in a missing number.
 
-  :::example Work out $48+36$
-  **Solution.** Ones: $8+6=14$, write $4$ and carry $1$. Tens: $4+3+1=8$:
-  $$\begin{array}{r} 48\\ +\ 36\\ \hline 84 \end{array}$$
-  So $48+36=84$.
+  :::example Counting on in tens
+  Fill in the missing numbers: $20, 30, \square, 50, \square$.
+
+  **Solution.** Each number is $10$ more than the one before. After $30$ comes $40$, and after $50$ comes $60$:
+  $$20, 30, 40, 50, 60.$$
+  So the missing numbers are $40$ and $60$.
   :::
 
-[[P10·db68]]
-Now there is a $9$ in the ones, so the ones make more.
+[[P10·e120]]
+Next come the multiples of 100.
 
-  :::example Work out $59+27$
-  **Solution.** Ones: $9+7=16$, write $6$ and carry $1$. Tens: $5+2+1=8$:
-  $$\begin{array}{r} 59\\ +\ 27\\ \hline 86 \end{array}$$
-  So $59+27=86$.
+  :::example Writing multiples of 100
+  Write the number for $4$ hundreds. How many hundreds is $700$?
 
-  **Check.** Round $59$ up to $60$: $60+27=87$, then take away $1$ to get $86$. The answers match.
+  **Solution.** $4$ hundreds is $4$ followed by two $0$s, which is $400$. The other way round, $700$ is $7$ hundreds.
+
+  So $4$ hundreds is $400$ and $700$ is $7$ hundreds.
   :::
 
-[[P11·c417]]
-Now use addition to solve a problem from everyday life.
+[[P11·2944]]
+Finally you use a multiple of 10 in a problem.
 
-  :::example The class
-  A class has $35$ boys and $48$ girls. How many children are in the class altogether?
+  :::example Bags of sweets
+  Each bag holds $1$ ten sweets. Mai has $6$ bags. How many sweets does she have?
 
-  **Solution.** "Altogether" means putting together, so we add. Ones: $5+8=13$, write $3$ and carry $1$. Tens: $3+4+1=8$:
-  $$35+48=83\ \text{(children)}.$$
-  So there are $83$ children in the class.
+  **Solution.** $6$ bags with $1$ ten each make $6$ tens of sweets. $6$ tens is $60$.
+
+  So Mai has $60$ sweets.
   :::
 
 :::warning Mistakes to watch out for
-[[P12·1df8]]
-- **Forgetting the carried ten.** Wrong: $46+38=74$. Why it is wrong: you wrote $4$ but forgot to add the carried $1$ ten to the tens. Right: $46+38=84$.
-- **Writing all of $14$ in the ones place.** Wrong: $46+38=714$. Why it is wrong: $14$ ones must be exchanged for $1$ ten and $4$ ones. Right: $46+38=84$.
-- **No unit in a word problem.** Wrong: "Answer: $83$". Right: "Answer: $83$ children".
+[[P12·b962]]
+- **Forgetting the $0$.** Wrong: "$4$ tens is $4$". Why it is wrong: $4$ tens is four groups of $10$. Right: $4$ tens is $40$.
+- **Mixing up tens and hundreds.** Wrong: "$6$ hundreds is $60$". Why it is wrong: $60$ is $6$ tens. Right: $6$ hundreds is $600$.
+- **Thinking every number is a multiple of 10.** Wrong: "$35$ is a multiple of 10". Why it is wrong: the last digit of $35$ is $5$, not $0$. Right: $35$ is not a multiple of 10.
 :::
 
 ## Key terms
 
   :::terms
-  - addition with regrouping | phép cộng có nhớ
-  - tens | hàng chục
-  - ones | hàng đơn vị
-  - exchange 10 ones for 1 ten | đổi 10 đơn vị lấy 1 chục
-  - set out the column | đặt tính
-  - sum (total) | tổng
-  - addend | số hạng
+  - multiple of 10 | số tròn chục
+  - multiple of 100 | số tròn trăm
+  - count on | đếm thêm
   - number line | tia số
+  - digit | chữ số
+  - read a number | đọc số
+  - write a number | viết số
   :::
 
 ## Summary
 
-[[P13·7763]]
-- Set out the column and add from the ones to the tens.
-- If the ones make $10$ or more, write the ones that are left and carry $1$ ten.
-- In the tens: add the two tens digits, then add the carried $1$ ten.
-- Example: $46+38$: $6+8=14$, write $4$ carry $1$; $4+3+1=8$; the answer is $84$.
+[[P13·139e]]
+- Multiples of 10: $10, 20, 30, \dots, 90$ (the last digit is $0$).
+- Multiples of 100: $100, 200, 300, \dots, 900$ (the last two digits are $0$).
+- $4$ tens is $40$; $4$ hundreds is $400$.
+- Counting on $10$ gives the next multiple of 10; counting on $100$ gives the next multiple of 100.
 
 ## Practice
 
@@ -427,11 +423,15 @@ Now use addition to solve a problem from everyday life.
 Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -443,19 +443,15 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 :::
 
 :::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
    (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test
@@ -465,126 +461,130 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 :::
 
 
-######## BÀI g2/regroup-subtract-1-digit – BẢN TIẾNG VIỆT ########
+######## BÀI g2/ones-tens-hundreds-thousands – BẢN TIẾNG VIỆT ########
 ---
-title: Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số
-description: Em học trừ số có hai chữ số cho số có một chữ số khi hàng đơn vị không đủ trừ, ví dụ 42 − 6, bằng cách đổi 1 chục thành 10 đơn vị.
+title: Đơn vị, chục, trăm, nghìn
+description: Em học cách đổi 10 đơn vị thành 1 chục, 10 chục thành 1 trăm, 10 trăm thành 1 nghìn, và đọc hiểu các nhóm đơn vị, chục, trăm, nghìn.
 minutes: 15
 ---
 
   :::goals
-  - Hiểu vì sao khi hàng đơn vị không đủ trừ thì phải đổi $1$ chục thành $10$ đơn vị.
-  - Đặt tính theo cột dọc và tính đúng, ví dụ $42-6$.
-  - Giải bài toán có lời văn bằng một phép trừ có nhớ.
+  - Biết $10$ đơn vị là $1$ chục, $10$ chục là $1$ trăm, $10$ trăm là $1$ nghìn.
+  - Đổi qua lại giữa đơn vị, chục, trăm, nghìn.
+  - Dùng cách gói thành nhóm $10$ để đếm một số lượng lớn.
   :::
 
-[[P1·4af2]]
-Cô giáo có $42$ cái bút chì. Cô phát cho các bạn $6$ cái. Hỏi cô còn lại bao nhiêu cái bút chì?
+[[P1·f70c]]
+Mai có $10$ viên bi lẻ. Mai bỏ cả $10$ viên vào một túi. Hỏi $10$ viên bi lẻ đổi được mấy túi bi loại $10$ viên?
 
-[[P2·40a0]]
-Em đã học cộng có nhớ ở các bài trước. Bài này học phép trừ có nhớ, và em sẽ thấy hai phép tính "ngược" nhau.
+[[P2·f933]]
+Đếm từng viên thì lâu. Bài này giúp em gói thành nhóm để đếm nhanh hơn.
 
 ## Cùng khám phá
 
-[[P3·005f]]
-Ta tách số $42$ thành $4$ chục và $2$ đơn vị. Ta cần bớt $6$ đơn vị.
+[[P3·a4d7]]
+Em đã biết đếm đến $10$. Khi có $10$ vật lẻ, ta gói lại thành một nhóm gọi là **một chục**.
 
-[[P4·b0b6]]
-- Hàng đơn vị chỉ có $2$ đơn vị, không đủ bớt $6$.
-- Ta đổi $1$ chục thành $10$ đơn vị. Còn $3$ chục, và hàng đơn vị là $2+10=12$ đơn vị.
-- Bớt đơn vị: $12-6=6$. Hàng chục còn $3$.
+![Bốn khối đếm lần lượt biểu diễn 1, 10, 100 và 1 000](/assets/img/g2/g2-ones-tens-hundreds-thousands-01.svg)
 
-[[P5·3321]]
-Vậy còn $3$ chục và $6$ đơn vị, tức là $36$.
+[[P4·6ca1]]
+- $10$ vật lẻ (mỗi vật là $1$ **đơn vị**) gói thành $1$ **chục**.
+- $10$ túi như vậy (mỗi túi là $1$ chục) gộp lại thành $1$ **trăm**.
+- $10$ hộp như vậy (mỗi hộp là $1$ trăm) gộp lại thành $1$ **nghìn**.
 
-  $$\begin{array}{r} 42\\ -\ \ 6\\ \hline 36 \end{array}$$
+[[P5·e71c]]
+Ta ghi vào bảng:
 
-[[P6·5dd1]]
-Em cũng có thể lùi trên tia số: từ $42$ lùi $2$ bước về $40$, rồi lùi thêm $4$ bước về $36$.
+| Đổi | Được |
+|---|---|
+| $10$ đơn vị | $1$ chục |
+| $10$ chục | $1$ trăm |
+| $10$ trăm | $1$ nghìn |
 
-:::graph Trên tia số: từ 42 lùi 2 bước về 40, rồi lùi 4 bước về 36
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
+[[P6·bbd1]]
+Vậy $10$ viên bi lẻ đổi được $1$ túi bi loại $10$ viên.
 
-  :::theorem Trừ có nhớ số có hai chữ số cho số có một chữ số
-  Muốn tính $42-6$:
-  1. Đặt tính: hàng đơn vị thẳng hàng đơn vị.
-  2. Hàng đơn vị: $2$ không trừ được $6$, nên mượn $1$ chục. Tính $12-6=6$, viết $6$.
-  3. Hàng chục: $4$ bớt $1$ chục đã mượn còn $3$. Viết $3$.
+  :::theorem Quy tắc đổi
+  - $10$ đơn vị $=1$ chục.
+  - $10$ chục $=1$ trăm.
+  - $10$ trăm $=1$ nghìn.
   :::
 
-[[P7·6825]]
-Cách này đúng vì $1$ chục bằng $10$ đơn vị. Ta chỉ đổi cách viết, không làm mất hay thêm bút chì nào.
+[[P7·a664]]
+Quy tắc này đúng vì mỗi lần có $10$ nhóm giống nhau, ta gói chúng thành một nhóm lớn hơn, và không có vật nào bị mất đi.
 
 ## Ví dụ
 
-[[P8·4ffc]]
-Ta bắt đầu với một phép trừ mà hàng đơn vị thiếu ít.
+[[P8·c3b3]]
+Ta bắt đầu với phép đổi đơn giản nhất.
 
-  :::example Tính $32-5$
-  **Lời giải.** Hàng đơn vị: $2$ không trừ được $5$, mượn $1$ chục được $12$. Tính $12-5=7$. Hàng chục: $3-1=2$:
-  $$\begin{array}{r} 32\\ -\ \ 5\\ \hline 27 \end{array}$$
-  Vậy $32-5=27$.
+  :::example Từ đơn vị sang chục
+  Lan có $10$ chiếc kẹo lẻ. Lan gói được mấy chục kẹo?
+
+  **Lời giải.** $10$ đơn vị là $1$ chục, nên $10$ chiếc kẹo lẻ gói thành $1$ chục kẹo.
+
+  Vậy Lan có $1$ chục kẹo.
   :::
 
-[[P9·0e77]]
-Phép tính sau làm giống hệt, chỉ đổi số.
+[[P9·c7fb]]
+Bây giờ ta đổi ngược lại, từ chục về đơn vị.
 
-  :::example Tính $54-8$
-  **Lời giải.** Hàng đơn vị: mượn $1$ chục, $14-8=6$. Hàng chục: $5-1=4$:
-  $$\begin{array}{r} 54\\ -\ \ 8\\ \hline 46 \end{array}$$
-  Vậy $54-8=46$.
+  :::example Từ chục sang đơn vị
+  Nam có $2$ chục viên bi. Nam có bao nhiêu viên bi?
+
+  **Lời giải.** Mỗi chục có $10$ viên, nên $2$ chục có hai nhóm $10$:
+  $$10+10=20.$$
+  Vậy Nam có $20$ viên bi.
   :::
 
-[[P10·6c37]]
-Bây giờ hàng đơn vị chỉ có $1$, nên phải mượn nhiều đơn vị hơn.
+[[P10·3516]]
+Tiếp theo ta lên một bậc: từ chục sang trăm.
 
-  :::example Tính $81-7$
-  **Lời giải.** Hàng đơn vị: $1$ không trừ được $7$, mượn $1$ chục được $11$. Tính $11-7=4$. Hàng chục: $8-1=7$:
-  $$\begin{array}{r} 81\\ -\ \ 7\\ \hline 74 \end{array}$$
-  Vậy $81-7=74$.
+  :::example Từ chục sang trăm
+  Có $10$ chục quyển vở. Đó là mấy trăm quyển vở? Một trăm có mấy chục?
 
-  **Kiểm tra.** Thử lại bằng phép cộng: $74+7=81$. Đúng.
+  **Lời giải.** $10$ chục là $1$ trăm, nên $10$ chục quyển vở là $1$ trăm quyển vở. Ngược lại, $1$ trăm có $10$ chục.
+
+  Vậy đó là $1$ trăm quyển vở, và $1$ trăm có $10$ chục.
   :::
 
-[[P11·2bf1]]
-Bây giờ em dùng phép trừ để giải một bài toán trong cuộc sống.
+[[P11·64f0]]
+Cuối cùng ta dùng quy tắc để giải một bài toán trong cuộc sống.
 
-  :::example Cửa hàng bán vở
-  Cửa hàng có $63$ quyển vở. Cửa hàng bán đi $8$ quyển vở. Hỏi cửa hàng còn lại bao nhiêu quyển vở?
+  :::example Thùng vở
+  Một thùng có $100$ quyển vở. Cửa hàng có $10$ thùng như vậy. Hỏi có tất cả bao nhiêu quyển vở?
 
-  **Lời giải.** "Bán đi", "còn lại" nghĩa là bớt đi, nên em làm phép trừ. Hàng đơn vị: mượn $1$ chục, $13-8=5$. Hàng chục: $6-1=5$:
-  $$63-8=55\ \text{(quyển)}.$$
-  Vậy cửa hàng còn lại $55$ quyển vở.
+  **Lời giải.** Mỗi thùng là $1$ trăm quyển. Có $10$ thùng, tức là $10$ trăm quyển. Mà $10$ trăm là $1$ nghìn.
+
+  Vậy cửa hàng có $1$ nghìn quyển vở.
   :::
 
 :::warning Những lỗi em hay gặp
-[[P12·afe5]]
-- **Lấy số nhỏ trừ số lớn.** Sai: $42-6=44$. Vì sao sai: em lấy $6-2=4$ thay vì mượn chục để tính $12-6$. Đúng: $42-6=36$.
-- **Mượn chục mà không bớt ở hàng chục.** Sai: $42-6=46$. Vì sao sai: em tính $12-6=6$ nhưng vẫn giữ $4$ chục, quên bớt $1$ chục đã mượn. Đúng: $42-6=36$.
-- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $55$". Đúng: "Đáp số: $55$ quyển vở".
+[[P12·990e]]
+- **Nhầm trăm với chục.** Sai: "$1$ trăm có $10$ đơn vị". Vì sao sai: $10$ đơn vị chỉ là $1$ chục. Đúng: $1$ trăm có $10$ chục.
+- **Nhầm chục với đơn vị.** Sai: "$1$ chục là $1$ đơn vị". Vì sao sai: $1$ chục là một nhóm có $10$ đơn vị. Đúng: $1$ chục có $10$ đơn vị.
+- **Nhầm nghìn với trăm.** Sai: "$10$ trăm là $1$ trăm". Vì sao sai: $10$ trăm là mười nhóm lớn. Đúng: $10$ trăm là $1$ nghìn.
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - phép trừ có nhớ | subtraction with regrouping
-  - số bị trừ | minuend
-  - số trừ | subtrahend
-  - hiệu | difference
-  - hàng chục | tens
-  - hàng đơn vị | ones
-  - đổi 1 chục lấy 10 đơn vị | exchange 1 ten for 10 ones
-  - đặt tính | set out the column
+  - đơn vị | ones
+  - chục | tens
+  - trăm | hundreds
+  - nghìn | thousand
+  - đổi | exchange
+  - gói thành nhóm | group
+  - nhóm mười | group of ten
   :::
 
 ## Tóm tắt
 
-[[P13·7773]]
-- Hàng đơn vị không đủ trừ: mượn $1$ chục, đổi thành $10$ đơn vị rồi trừ.
-- Hàng chục: nhớ bớt $1$ chục đã mượn.
-- Ví dụ: $42-6$: $12-6=6$; $4-1=3$; kết quả $36$.
-- Thử lại bằng phép cộng: $36+6=42$.
+[[P13·6bee]]
+- $10$ đơn vị $=1$ chục.
+- $10$ chục $=1$ trăm.
+- $10$ trăm $=1$ nghìn.
+- Gói thành nhóm $10$ giúp em đếm nhanh hơn.
 
 ## Luyện tập
 
@@ -592,18 +592,6 @@ Bây giờ em dùng phép trừ để giải một bài toán trong cuộc sốn
 Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
    (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
@@ -616,11 +604,23 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -630,126 +630,130 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 
-######## BÀI g2/regroup-subtract-1-digit – BẢN TIẾNG ANH ########
+######## BÀI g2/ones-tens-hundreds-thousands – BẢN TIẾNG ANH ########
 ---
-title: Subtracting a one-digit number from a two-digit number (with regrouping)
-description: Learn to subtract a one-digit number from a two-digit number when the ones are too small, for example 42 − 6, by exchanging 1 ten for 10 ones.
+title: Ones, tens, hundreds and thousands
+description: Learn to exchange 10 ones for 1 ten, 10 tens for 1 hundred and 10 hundreds for 1 thousand, and read groups of ones, tens, hundreds and thousands.
 minutes: 15
 ---
 
   :::goals
-  - Understand why we exchange $1$ ten for $10$ ones when the ones are too small to subtract from.
-  - Set out a column subtraction and work it out correctly, for example $42-6$.
-  - Solve a word problem with one subtraction that needs regrouping.
+  - Know that $10$ ones make $1$ ten, $10$ tens make $1$ hundred and $10$ hundreds make $1$ thousand.
+  - Exchange between ones, tens, hundreds and thousands.
+  - Use groups of $10$ to count a large amount.
   :::
 
-[[P1·0661]]
-The teacher has $42$ pencils. She gives $6$ pencils to the children. How many pencils does she have left?
+[[P1·5deb]]
+Mai has $10$ loose marbles. She puts all $10$ into one bag. How many bags of ten marbles can $10$ loose marbles make?
 
-[[P2·c885]]
-You have learnt addition with regrouping in the last lessons. This lesson is about subtraction with regrouping, and you will see that the two are "opposites".
+[[P2·1e5d]]
+Counting one by one takes a long time. This lesson shows you how to count faster by making groups.
 
 ## Let's explore
 
-[[P3·d6f3]]
-We split $42$ into $4$ tens and $2$ ones. We need to take away $6$ ones.
+[[P3·528e]]
+You already know how to count to $10$. When we have $10$ loose objects, we put them in one group called **one ten**.
 
-[[P4·b2a9]]
-- The ones place has only $2$ ones, which is not enough to take away $6$.
-- We exchange $1$ ten for $10$ ones. Now there are $3$ tens, and the ones are $2+10=12$ ones.
-- Take away the ones: $12-6=6$. The tens are still $3$.
+![Four place-value blocks representing 1, 10, 100, and 1,000](/assets/img/g2/g2-ones-tens-hundreds-thousands-01.svg)
 
-[[P5·1322]]
-So there are $3$ tens and $6$ ones, which is $36$.
+[[P4·e5f7]]
+- $10$ loose objects (each is $1$ **one**) make $1$ **ten**.
+- $10$ of these bags (each is $1$ ten) make $1$ **hundred**.
+- $10$ of these boxes (each is $1$ hundred) make $1$ **thousand**.
 
-  $$\begin{array}{r} 42\\ -\ \ 6\\ \hline 36 \end{array}$$
+[[P5·01b0]]
+We write this in a table:
 
-[[P6·52d8]]
-You can also jump back on a number line: from $42$ jump back $2$ to reach $40$, then jump back $4$ more to reach $36$.
+| Exchange | Make |
+|---|---|
+| $10$ ones | $1$ ten |
+| $10$ tens | $1$ hundred |
+| $10$ hundreds | $1$ thousand |
 
-:::graph On the number line: from 42 jump back 2 to reach 40, then jump back 4 to reach 36
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
+[[P6·ada4]]
+So $10$ loose marbles make $1$ bag of ten marbles.
 
-  :::theorem Subtracting a one-digit number from a two-digit number with regrouping
-  To work out $42-6$:
-  1. Set out the column: ones under ones.
-  2. Ones: $2$ is too small to take away $6$, so borrow $1$ ten. Work out $12-6=6$ and write $6$.
-  3. Tens: $4$ take away the $1$ ten you borrowed leaves $3$. Write $3$.
+  :::theorem The exchange rule
+  - $10$ ones $=1$ ten.
+  - $10$ tens $=1$ hundred.
+  - $10$ hundreds $=1$ thousand.
   :::
 
-[[P7·4e97]]
-This works because $1$ ten is the same as $10$ ones. We only change how the number is written; no pencil is lost or added.
+[[P7·285f]]
+The rule works because each time we have $10$ equal groups, we put them into one bigger group, and nothing is lost.
 
 ## Examples
 
-[[P8·763e]]
-We start with a subtraction where the ones are only a little too small.
+[[P8·717c]]
+We start with the simplest exchange.
 
-  :::example Work out $32-5$
-  **Solution.** Ones: $2$ is too small to take away $5$, so borrow $1$ ten to make $12$. Work out $12-5=7$. Tens: $3-1=2$:
-  $$\begin{array}{r} 32\\ -\ \ 5\\ \hline 27 \end{array}$$
-  So $32-5=27$.
+  :::example From ones to tens
+  Lan has $10$ loose sweets. How many tens of sweets can she make?
+
+  **Solution.** $10$ ones make $1$ ten, so $10$ loose sweets make $1$ ten of sweets.
+
+  So Lan has $1$ ten of sweets.
   :::
 
-[[P9·fa2e]]
-The next subtraction is done in exactly the same way, with different numbers.
+[[P9·9610]]
+Now we exchange the other way, from tens back to ones.
 
-  :::example Work out $54-8$
-  **Solution.** Ones: borrow $1$ ten, $14-8=6$. Tens: $5-1=4$:
-  $$\begin{array}{r} 54\\ -\ \ 8\\ \hline 46 \end{array}$$
-  So $54-8=46$.
+  :::example From tens to ones
+  Nam has $2$ tens of marbles. How many marbles does he have?
+
+  **Solution.** Each ten has $10$ marbles, so $2$ tens are two groups of $10$:
+  $$10+10=20.$$
+  So Nam has $20$ marbles.
   :::
 
-[[P10·1c60]]
-Now the ones are only $1$, so we need to borrow more ones.
+[[P10·be4b]]
+Next we go up one step: from tens to hundreds.
 
-  :::example Work out $81-7$
-  **Solution.** Ones: $1$ is too small to take away $7$, so borrow $1$ ten to make $11$. Work out $11-7=4$. Tens: $8-1=7$:
-  $$\begin{array}{r} 81\\ -\ \ 7\\ \hline 74 \end{array}$$
-  So $81-7=74$.
+  :::example From tens to hundreds
+  There are $10$ tens of exercise books. How many hundreds is that? How many tens are in one hundred?
 
-  **Check.** Check with addition: $74+7=81$. Correct.
+  **Solution.** $10$ tens make $1$ hundred, so $10$ tens of books make $1$ hundred books. The other way round, $1$ hundred has $10$ tens.
+
+  So it is $1$ hundred books, and $1$ hundred has $10$ tens.
   :::
 
-[[P11·a28c]]
-Now use subtraction to solve a problem from everyday life.
+[[P11·f54e]]
+Finally we use the rule for an everyday problem.
 
-  :::example A shop selling exercise books
-  A shop has $63$ exercise books. It sells $8$ of them. How many exercise books does the shop have left?
+  :::example Boxes of books
+  One box holds $100$ exercise books. A shop has $10$ such boxes. How many books are there altogether?
 
-  **Solution.** "Sells" and "left" mean taking away, so we subtract. Ones: borrow $1$ ten, $13-8=5$. Tens: $6-1=5$:
-  $$63-8=55\ \text{(books)}.$$
-  So the shop has $55$ exercise books left.
+  **Solution.** Each box is $1$ hundred books. $10$ boxes make $10$ hundreds of books. And $10$ hundreds make $1$ thousand.
+
+  So the shop has $1$ thousand books.
   :::
 
 :::warning Mistakes to watch out for
-[[P12·b9e7]]
-- **Taking the smaller digit from the bigger one.** Wrong: $42-6=44$. Why it is wrong: you worked out $6-2=4$ instead of borrowing a ten to work out $12-6$. Right: $42-6=36$.
-- **Borrowing a ten but not reducing the tens.** Wrong: $42-6=46$. Why it is wrong: you worked out $12-6=6$ but kept $4$ tens and forgot to take away the borrowed ten. Right: $42-6=36$.
-- **No unit in a word problem.** Wrong: "Answer: $55$". Right: "Answer: $55$ exercise books".
+[[P12·469a]]
+- **Mixing up hundreds and tens.** Wrong: "$1$ hundred has $10$ ones". Why it is wrong: $10$ ones make only $1$ ten. Right: $1$ hundred has $10$ tens.
+- **Mixing up tens and ones.** Wrong: "$1$ ten is $1$ one". Why it is wrong: $1$ ten is one group of $10$ ones. Right: $1$ ten has $10$ ones.
+- **Mixing up thousands and hundreds.** Wrong: "$10$ hundreds make $1$ hundred". Why it is wrong: $10$ hundreds are ten big groups. Right: $10$ hundreds make $1$ thousand.
 :::
 
 ## Key terms
 
   :::terms
-  - subtraction with regrouping | phép trừ có nhớ
-  - minuend | số bị trừ
-  - subtrahend | số trừ
-  - difference | hiệu
-  - tens | hàng chục
-  - ones | hàng đơn vị
-  - exchange 1 ten for 10 ones | đổi 1 chục lấy 10 đơn vị
-  - set out the column | đặt tính
+  - ones | đơn vị
+  - tens | chục
+  - hundreds | trăm
+  - thousand | nghìn
+  - exchange | đổi
+  - group | gói thành nhóm
+  - group of ten | nhóm mười
   :::
 
 ## Summary
 
-[[P13·0085]]
-- If the ones are too small to subtract from, borrow $1$ ten and exchange it for $10$ ones, then subtract.
-- In the tens: remember to take away the $1$ ten you borrowed.
-- Example: $42-6$: $12-6=6$; $4-1=3$; the answer is $36$.
-- Check with addition: $36+6=42$.
+[[P13·83cb]]
+- $10$ ones $=1$ ten.
+- $10$ tens $=1$ hundred.
+- $10$ hundreds $=1$ thousand.
+- Making groups of $10$ helps you count faster.
 
 ## Practice
 
@@ -757,18 +761,6 @@ Now use subtraction to solve a problem from everyday life.
 Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
    (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
@@ -781,339 +773,23 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Mini test
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g2/regroup-subtract-2-digit – BẢN TIẾNG VIỆT ########
----
-title: Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số
-description: Em học trừ hai số có hai chữ số khi hàng đơn vị không đủ trừ, ví dụ 52 − 27, bằng cách mượn 1 chục rồi trừ ở cả hai hàng.
-minutes: 15
----
-
-  :::goals
-  - Đặt tính và trừ hai số có hai chữ số, ví dụ $52-27$.
-  - Nhớ bớt $1$ chục đã mượn ở hàng chục.
-  - Giải bài toán có lời văn bằng một phép trừ có nhớ.
-  :::
-
-[[P1·7e88]]
-Trong thư viện lớp có $52$ quyển truyện. Các bạn đã mượn đi $27$ quyển. Hỏi thư viện còn lại bao nhiêu quyển truyện?
-
-[[P2·c28f]]
-Ở bài trước, em đã trừ một số có một chữ số và biết mượn $1$ chục. Bài này dùng đúng cách đó, chỉ trừ thêm số chục.
-
-## Cùng khám phá
-
-[[P3·8212]]
-Ta tách $52$ thành $5$ chục $2$ đơn vị, và $27$ thành $2$ chục $7$ đơn vị.
-
-[[P4·4d22]]
-- Hàng đơn vị: $2$ không trừ được $7$. Ta đổi $1$ chục thành $10$ đơn vị, được $12$ đơn vị, rồi tính $12-7=5$.
-- Hàng chục: $5$ chục bớt $1$ chục đã mượn còn $4$ chục. Rồi bớt $2$ chục: $4-2=2$.
-
-[[P5·4ff6]]
-Vậy còn $2$ chục và $5$ đơn vị, tức là $25$.
-
-  $$\begin{array}{r} 52\\ -\ 27\\ \hline 25 \end{array}$$
-
-[[P6·c864]]
-Em cũng có thể lùi trên tia số: từ $52$ lùi $20$ về $32$, rồi lùi $7$ về $25$.
-
-:::graph Trên tia số: từ 52 lùi 20 về 32, rồi lùi 7 về 25
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-  :::theorem Trừ có nhớ hai số có hai chữ số
-  Muốn tính $52-27$:
-  1. Đặt tính: hàng đơn vị thẳng hàng đơn vị, hàng chục thẳng hàng chục.
-  2. Hàng đơn vị: $2$ không trừ được $7$, mượn $1$ chục. Tính $12-7=5$, viết $5$.
-  3. Hàng chục: $5-1-2=2$ (bớt $1$ chục đã mượn, rồi bớt $2$ chục). Viết $2$.
-  :::
-
-[[P7·8458]]
-Cách này đúng vì $1$ chục bằng $10$ đơn vị. Ta chỉ đổi cách viết, tổng số quyển truyện không đổi.
-
-## Ví dụ
-
-[[P8·03ba]]
-Ta bắt đầu với hai số nhỏ, hàng đơn vị thiếu ít.
-
-  :::example Tính $41-15$
-  **Lời giải.** Hàng đơn vị: $1$ không trừ được $5$, mượn $1$ chục được $11$. Tính $11-5=6$. Hàng chục: $4-1-1=2$:
-  $$\begin{array}{r} 41\\ -\ 15\\ \hline 26 \end{array}$$
-  Vậy $41-15=26$.
-  :::
-
-[[P9·0e77]]
-Phép tính sau làm giống hệt, chỉ đổi số.
-
-  :::example Tính $63-28$
-  **Lời giải.** Hàng đơn vị: mượn $1$ chục, $13-8=5$. Hàng chục: $6-1-2=3$:
-  $$\begin{array}{r} 63\\ -\ 28\\ \hline 35 \end{array}$$
-  Vậy $63-28=35$.
-
-  **Kiểm tra.** Thử lại bằng phép cộng: $35+28=63$. Đúng.
-  :::
-
-[[P10·fd60]]
-Bây giờ số bị trừ có hàng đơn vị là $0$, nên cần cẩn thận hơn.
-
-  :::example Tính $80-34$
-  **Lời giải.** Hàng đơn vị: $0$ không trừ được $4$, mượn $1$ chục được $10$. Tính $10-4=6$. Hàng chục: $8-1-3=4$:
-  $$\begin{array}{r} 80\\ -\ 34\\ \hline 46 \end{array}$$
-  Vậy $80-34=46$.
-  :::
-
-[[P11·2bf1]]
-Bây giờ em dùng phép trừ để giải một bài toán trong cuộc sống.
-
-  :::example Thư viện
-  Thư viện có $72$ quyển sách. Các bạn mượn đi $45$ quyển. Hỏi thư viện còn lại bao nhiêu quyển sách?
-
-  **Lời giải.** "Mượn đi", "còn lại" nghĩa là bớt đi, nên em làm phép trừ. Hàng đơn vị: mượn $1$ chục, $12-5=7$. Hàng chục: $7-1-4=2$:
-  $$72-45=27\ \text{(quyển)}.$$
-  Vậy thư viện còn lại $27$ quyển sách.
-  :::
-
-:::warning Những lỗi em hay gặp
-[[P12·4563]]
-- **Lấy số nhỏ trừ số lớn.** Sai: $41-15=34$. Vì sao sai: em lấy $5-1=4$ thay vì mượn chục để tính $11-5$. Đúng: $41-15=26$.
-- **Mượn chục mà không bớt ở hàng chục.** Sai: $41-15=36$. Vì sao sai: em tính $11-5=6$ nhưng ở hàng chục chỉ làm $4-1$, quên bớt $1$ chục đã mượn. Đúng: $41-15=26$.
-- **Bài toán có lời văn quên đơn vị.** Sai: "Đáp số: $27$". Đúng: "Đáp số: $27$ quyển sách".
-:::
-
-## Thuật ngữ
-
-  :::terms
-  - phép trừ có nhớ | subtraction with regrouping
-  - số bị trừ | minuend
-  - số trừ | subtrahend
-  - hiệu | difference
-  - hàng chục | tens
-  - hàng đơn vị | ones
-  - đổi 1 chục lấy 10 đơn vị | exchange 1 ten for 10 ones
-  - đặt tính | set out the column
-  :::
-
-## Tóm tắt
-
-[[P13·a6f0]]
-- Đặt tính thẳng cột, trừ từ hàng đơn vị sang hàng chục.
-- Hàng đơn vị không đủ trừ: mượn $1$ chục, đổi thành $10$ đơn vị rồi trừ.
-- Hàng chục: bớt $1$ chục đã mượn, rồi bớt số chục của số trừ.
-- Ví dụ: $52-27$: $12-7=5$; $5-1-2=2$; kết quả $25$. Thử lại: $25+27=52$.
-
-## Luyện tập
-
-[[P14·824d]]
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Thử thách
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Kiểm tra mini
-
-:::quiz
-   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-
-######## BÀI g2/regroup-subtract-2-digit – BẢN TIẾNG ANH ########
----
-title: Subtracting a two-digit number from a two-digit number (with regrouping)
-description: Learn to subtract two two-digit numbers when the ones are too small, for example 52 − 27, by borrowing 1 ten and then subtracting in both places.
-minutes: 15
----
-
-  :::goals
-  - Set out a column and subtract two two-digit numbers, for example $52-27$.
-  - Remember to take away the $1$ ten you borrowed in the tens place.
-  - Solve a word problem with one subtraction that needs regrouping.
-  :::
-
-[[P1·b4ff]]
-The class library has $52$ story books. The children have borrowed $27$ of them. How many story books are left in the library?
-
-[[P2·e460]]
-In the last lesson you subtracted a one-digit number and borrowed $1$ ten. This lesson uses the same method, and also takes away some tens.
-
-## Let's explore
-
-[[P3·257a]]
-We split $52$ into $5$ tens and $2$ ones, and $27$ into $2$ tens and $7$ ones.
-
-[[P4·9778]]
-- Ones: $2$ is too small to take away $7$. We exchange $1$ ten for $10$ ones to get $12$ ones, then work out $12-7=5$.
-- Tens: $5$ tens take away the $1$ ten we borrowed leaves $4$ tens. Then take away $2$ tens: $4-2=2$.
-
-[[P5·bb25]]
-So there are $2$ tens and $5$ ones, which is $25$.
-
-  $$\begin{array}{r} 52\\ -\ 27\\ \hline 25 \end{array}$$
-
-[[P6·775f]]
-You can also jump back on a number line: from $52$ jump back $20$ to reach $32$, then jump back $7$ to reach $25$.
-
-:::graph On the number line: from 52 jump back 20 to reach 32, then jump back 7 to reach 25
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-  :::theorem Subtracting two two-digit numbers with regrouping
-  To work out $52-27$:
-  1. Set out the column: ones under ones, tens under tens.
-  2. Ones: $2$ is too small to take away $7$, so borrow $1$ ten. Work out $12-7=5$ and write $5$.
-  3. Tens: $5-1-2=2$ (take away the borrowed ten, then take away $2$ tens). Write $2$.
-  :::
-
-[[P7·f137]]
-This works because $1$ ten is the same as $10$ ones. We only change how the number is written; the number of books stays the same.
-
-## Examples
-
-[[P8·c8a6]]
-We start with two small numbers where the ones are only a little too small.
-
-  :::example Work out $41-15$
-  **Solution.** Ones: $1$ is too small to take away $5$, so borrow $1$ ten to make $11$. Work out $11-5=6$. Tens: $4-1-1=2$:
-  $$\begin{array}{r} 41\\ -\ 15\\ \hline 26 \end{array}$$
-  So $41-15=26$.
-  :::
-
-[[P9·fa2e]]
-The next subtraction is done in exactly the same way, with different numbers.
-
-  :::example Work out $63-28$
-  **Solution.** Ones: borrow $1$ ten, $13-8=5$. Tens: $6-1-2=3$:
-  $$\begin{array}{r} 63\\ -\ 28\\ \hline 35 \end{array}$$
-  So $63-28=35$.
-
-  **Check.** Check with addition: $35+28=63$. Correct.
-  :::
-
-[[P10·8d24]]
-Now the ones digit of the first number is $0$, so we must be more careful.
-
-  :::example Work out $80-34$
-  **Solution.** Ones: $0$ is too small to take away $4$, so borrow $1$ ten to make $10$. Work out $10-4=6$. Tens: $8-1-3=4$:
-  $$\begin{array}{r} 80\\ -\ 34\\ \hline 46 \end{array}$$
-  So $80-34=46$.
-  :::
-
-[[P11·a28c]]
-Now use subtraction to solve a problem from everyday life.
-
-  :::example The library
-  A library has $72$ books. Children borrow $45$ of them. How many books are left in the library?
-
-  **Solution.** "Borrow" and "left" mean taking away, so we subtract. Ones: borrow $1$ ten, $12-5=7$. Tens: $7-1-4=2$:
-  $$72-45=27\ \text{(books)}.$$
-  So there are $27$ books left in the library.
-  :::
-
-:::warning Mistakes to watch out for
-[[P12·f9ea]]
-- **Taking the smaller digit from the bigger one.** Wrong: $41-15=34$. Why it is wrong: you worked out $5-1=4$ instead of borrowing a ten to work out $11-5$. Right: $41-15=26$.
-- **Borrowing a ten but not reducing the tens.** Wrong: $41-15=36$. Why it is wrong: you worked out $11-5=6$ but in the tens you only did $4-1$ and forgot to take away the borrowed ten. Right: $41-15=26$.
-- **No unit in a word problem.** Wrong: "Answer: $27$". Right: "Answer: $27$ books".
-:::
-
-## Key terms
-
-  :::terms
-  - subtraction with regrouping | phép trừ có nhớ
-  - minuend | số bị trừ
-  - subtrahend | số trừ
-  - difference | hiệu
-  - tens | hàng chục
-  - ones | hàng đơn vị
-  - exchange 1 ten for 10 ones | đổi 1 chục lấy 10 đơn vị
-  - set out the column | đặt tính
-  :::
-
-## Summary
-
-[[P13·8e9c]]
-- Set out the column and subtract from the ones to the tens.
-- If the ones are too small, borrow $1$ ten and exchange it for $10$ ones, then subtract.
-- In the tens: take away the borrowed ten, then take away the tens of the number you are subtracting.
-- Example: $52-27$: $12-7=5$; $5-1-2=2$; the answer is $25$. Check: $25+27=52$.
-
-## Practice
-
-[[P14·2a6a]]
-Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Challenge
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test

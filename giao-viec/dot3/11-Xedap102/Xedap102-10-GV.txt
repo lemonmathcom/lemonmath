@@ -6,7 +6,7 @@ Kết quả: file Xedap102-10-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Xedap102-10-GV
-Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/ap-statistics/apstats-one-variable-data, exams/ap-statistics/apstats-overview
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g12/coordinate-system-space
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/Xedap102-10-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
+  /mnt/user-data/outputs/Xedap102-10-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file Xedap102-10-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,147 +135,222 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI exams/ap-statistics/apstats-one-variable-data – BẢN TIẾNG VIỆT ########
+######## BÀI g12/coordinate-system-space – BẢN TIẾNG VIỆT ########
 ---
-title: Mô tả dữ liệu một biến
-description: AP Statistics Unit 1: biểu đồ, hình dạng, trung tâm và độ phân tán, tứ phân vị và giá trị ngoại lai, điểm z và bách phân vị, so sánh hai phân phối.
-minutes: 50
+title: Hệ trục toạ độ trong không gian
+description: Làm quen hệ trục Oxyz, toạ độ của điểm và vectơ, hình chiếu lên trục và mặt phẳng toạ độ, khoảng cách hai điểm, trung điểm và trọng tâm.
+minutes: 22
 ---
 
   :::goals
-  - Phân biệt biến định tính và biến định lượng, chọn biểu đồ phù hợp.
-  - Mô tả một phân phối theo hình dạng, trung tâm, độ phân tán và đặc điểm bất thường, gắn với tình huống.
-  - Tính và diễn giải trung bình, trung vị, độ lệch chuẩn, tứ phân vị và khoảng tứ phân vị, nhận ra giá trị ngoại lai bằng quy tắc $1{,}5\times\text{IQR}$.
-  - Dùng điểm z và bách phân vị để mô tả vị trí của một giá trị.
-  - So sánh hai phân phối bằng ngôn ngữ so sánh.
+  - Mô tả hệ trục toạ độ $Oxyz$, các trục, các mặt phẳng toạ độ và các vectơ đơn vị $\vec{i}$, $\vec{j}$, $\vec{k}$.
+  - Đọc và viết toạ độ của một điểm, một vectơ; tìm toạ độ của $\overrightarrow{AB}$.
+  - Tìm hình chiếu của một điểm lên các trục, các mặt phẳng toạ độ.
+  - Tính khoảng cách giữa hai điểm, toạ độ trung điểm và trọng tâm.
   :::
 
-[[P1·6746]]
-Mọi cuộc khảo sát thống kê đều bắt đầu bằng việc nhìn vào dữ liệu. Trong đề AP, đây là trọng tâm của câu tự luận số 2 và xuất hiện trong hầu hết các câu khác. Phần tính toán ngắn; điều mang lại điểm là mô tả những gì bạn thấy **gắn với tình huống của dữ liệu** và **so sánh** bằng những từ như "lớn hơn", "gần bằng".
+[[P1·850e]]
+Một phòng học dài $8$ m, rộng $6$ m, cao $3$ m. Một chiếc đèn treo cách bức tường phía trước $2$ m, cách bức tường bên trái $3$ m và cách sàn $2{,}5$ m. Một cảm biến độ ẩm đặt ở góc sàn đối diện, cách hai bức tường đó lần lượt $8$ m và $6$ m. Đèn cách cảm biến bao xa?
 
-## Biến và biểu đồ
+[[P2·48d8]]
+Trong mặt phẳng, hai số đủ để chỉ vị trí một điểm. Trong không gian ta cần ba số, và ba số đó cho phép tính khoảng cách mà không cần vẽ hình.
 
-[[P2·f45b]]
-**Biến định tính** (categorical) xếp mỗi cá thể vào một nhóm (môn thể thao yêu thích, nhóm máu); **biến định lượng** (quantitative) nhận giá trị số mà phép tính có ý nghĩa (chiều cao, thời gian). Dữ liệu định tính được biểu diễn bằng biểu đồ cột và tóm tắt bằng tần số hoặc tần số tương đối; dữ liệu định lượng biểu diễn bằng biểu đồ chấm, biểu đồ thân lá, biểu đồ tần số (histogram) và biểu đồ hộp.
+[[P3·6c9f]]
+Ý tưởng dùng các con số để chỉ vị trí, nhờ đó biến bài toán hình học thành bài toán đại số, được René Descartes trình bày trong cuốn *La Géométrie* (năm 1637) cho các điểm trong mặt phẳng (theo MacTutor History of Mathematics). Mở rộng lên ba chiều, ý tưởng ấy là nền tảng của bản vẽ kĩ thuật, của phần mềm thiết kế 3D và của việc điều khiển một chiếc flycam: mọi vị trí đều được mô tả bằng ba con số.
 
-[[P3·acc3]]
-Để mô tả một phân phối định lượng, hãy nói đủ bốn điều, luôn gắn với tình huống:
+## Hệ trục toạ độ $Oxyz$
 
-| Đặc điểm | Cần nói gì |
-|---|---|
-| Hình dạng | gần đối xứng, lệch phải hay lệch trái; số đỉnh |
-| Trung tâm | trung bình hoặc trung vị, kèm đơn vị |
-| Độ phân tán | độ lệch chuẩn, khoảng biến thiên hoặc IQR, kèm đơn vị |
-| Đặc điểm bất thường | giá trị ngoại lai, khoảng trống, cụm |
+### Khám phá: ba con số cho một vị trí
 
-## Số đo trung tâm và độ phân tán
+[[P4·5464]]
+Chọn góc sàn nằm giữa bức tường phía trước và bức tường bên trái làm gốc $O$. Từ $O$, ba đường giao của sàn và hai bức tường cho ba hướng đôi một vuông góc: dọc tường bên trái, dọc tường phía trước, và thẳng lên trên. Để đến đèn, ta đi $2$ m theo hướng thứ nhất, $3$ m theo hướng thứ hai, rồi $2{,}5$ m lên trên. Bộ ba số $(2; 3; 2{,}5)$ xác định đúng một vị trí trong phòng, và cảm biến ứng với $(8; 6; 0)$.
 
-[[P4·cfc2]]
-Với dữ liệu $x_1,\dots,x_n$: **trung bình** là $\bar x=\dfrac{\sum x_i}{n}$; **trung vị** là giá trị đứng giữa của dữ liệu đã sắp xếp. **Độ lệch chuẩn mẫu** là
-  $$s=\sqrt{\frac{\sum(x_i-\bar x)^2}{n-1}},$$
-[[P5·b4a0]]
-xấp xỉ khoảng cách điển hình từ các giá trị đến trung bình. **Tứ phân vị** $Q_1$ và $Q_3$ là trung vị của nửa dưới và nửa trên, và $\text{IQR}=Q_3-Q_1$.
+[[P5·477f]]
+Nếu gọi $\vec{i}$, $\vec{j}$, $\vec{k}$ là các vectơ dài $1$ m theo ba hướng đó, thì theo quy tắc hình hộp (bài trước), vectơ từ $O$ đến đèn là $2\vec{i}+3\vec{j}+2{,}5\vec{k}$.
 
-[[P6·f634]]
-Trung vị và IQR là số đo **bền vững** (resistant): giá trị cực đoan hầu như không ảnh hưởng đến chúng. Trung bình và độ lệch chuẩn thì không. Trong phân phối lệch phải, đuôi dài kéo trung bình lên trên trung vị; trong phân phối lệch trái thì kéo xuống dưới.
-
-[[P7·4f0e]]
-Theo quy tắc $1{,}5\times\text{IQR}$, một giá trị là **giá trị ngoại lai** nếu nó nhỏ hơn $Q_1-1{,}5\,\text{IQR}$ hoặc lớn hơn $Q_3+1{,}5\,\text{IQR}$.
-
-  :::example Tìm giá trị ngoại lai
-  Số phút làm bài tập về nhà trong một buổi tối của $12$ học sinh là
-  $$3,\ 5,\ 6,\ 6,\ 7,\ 8,\ 9,\ 10,\ 11,\ 12,\ 14,\ 29.$$
-  Theo quy tắc $1{,}5\times\text{IQR}$, những giá trị nào là ngoại lai?
-  A. Chỉ $3$
-  B. $3$ và $29$
-  C. Không có giá trị ngoại lai.
-  D. Chỉ $29$
-
-  **Lời giải.** Với $12$ giá trị đã sắp xếp, nửa dưới là $3,5,6,6,7,8$ và nửa trên là $9,10,11,12,14,29$. Do đó $Q_1=\dfrac{6+6}{2}=6$, $Q_3=\dfrac{11+12}{2}=11{,}5$ và $\text{IQR}=5{,}5$.
-
-  Hai ngưỡng là $Q_1-1{,}5(5{,}5)=6-8{,}25=-2{,}25$ và $Q_3+1{,}5(5{,}5)=11{,}5+8{,}25=19{,}75$.
-
-  Chỉ có $29$ vượt ngưỡng, nên giá trị ngoại lai duy nhất là $29$ phút, chọn đáp án **D**.
+  :::definition Hệ trục toạ độ $Oxyz$
+  Hệ trục toạ độ $Oxyz$ gồm ba trục $Ox$, $Oy$, $Oz$ đôi một vuông góc tại gốc $O$, với các vectơ đơn vị $\vec{i}$, $\vec{j}$, $\vec{k}$:
+  - $Ox$ là **trục hoành**, $Oy$ là **trục tung**, $Oz$ là **trục cao**;
+  - các mặt phẳng $(Oxy)$, $(Oyz)$, $(Ozx)$ là **các mặt phẳng toạ độ**;
+  - $|\vec{i}|=|\vec{j}|=|\vec{k}|=1$ và $\vec{i}\cdot\vec{j}=\vec{j}\cdot\vec{k}=\vec{k}\cdot\vec{i}=0$.
   :::
 
-  :::example Trung bình, trung vị và hình dạng
-  Lương năm ở một công ty nhỏ có trung bình $52$ nghìn đô la và trung vị $45$ nghìn đô la. Hình dạng nào của phân phối là có khả năng nhất?
-  A. Lệch trái
-  B. Lệch phải
-  C. Gần đối xứng
-  D. Đều
+## Toạ độ của điểm và của vectơ
 
-  **Lời giải.** Trung bình lớn hơn trung vị khá nhiều. Điều này xảy ra khi vài giá trị rất lớn, ở đây là vài mức lương cao, kéo trung bình lên, trong khi trung vị vẫn nằm cùng phần lớn dữ liệu.
-
-  Vậy phân phối nhiều khả năng lệch phải, chọn đáp án **B**. Với dữ liệu như vậy, trung vị mô tả mức lương điển hình tốt hơn.
+  :::definition Toạ độ của điểm, của vectơ
+  - Điểm $M$ có toạ độ $(x; y; z)$, viết $M(x; y; z)$, nếu $\overrightarrow{OM}=x\vec{i}+y\vec{j}+z\vec{k}$. Ba số đó là hoành độ, tung độ và cao độ của $M$.
+  - Vectơ $\vec{a}$ có toạ độ $(x; y; z)$, viết $\vec{a}=(x; y; z)$, nếu $\vec{a}=x\vec{i}+y\vec{j}+z\vec{k}$.
   :::
 
-## Vị trí: điểm z và bách phân vị
+[[P6·11e4]]
+Như vậy toạ độ của điểm $M$ chính là toạ độ của vectơ $\overrightarrow{OM}$. Đặc biệt $\vec{i}=(1; 0; 0)$, $\vec{j}=(0; 1; 0)$, $\vec{k}=(0; 0; 1)$ và $\vec{0}=(0; 0; 0)$.
 
-[[P8·6d11]]
-**Điểm z** của một giá trị cho biết nó cách trung bình bao nhiêu độ lệch chuẩn:
-  $$z=\frac{x-\text{trung bình}}{\text{độ lệch chuẩn}}.$$
-[[P9·95ba]]
-Điểm z âm nghĩa là nhỏ hơn trung bình. **Bách phân vị** (percentile) của một giá trị là phần trăm dữ liệu nhỏ hơn hoặc bằng nó. Điểm z cho phép so sánh các giá trị thuộc những phân phối khác nhau.
+[[P7·5060]]
+**Hiểu sâu hơn.** Mỗi toạ độ trả lời một câu hỏi riêng: đi bao xa theo hướng $\vec{i}$, theo hướng $\vec{j}$, theo hướng $\vec{k}$. Vì ba hướng đôi một vuông góc nên thay đổi một toạ độ không ảnh hưởng đến hai toạ độ kia; đó là lí do các phép toán vectơ trở thành phép toán trên từng toạ độ. Toạ độ phụ thuộc vào cách chọn hệ trục: cùng một chiếc đèn, đặt gốc ở góc khác của phòng thì ba con số sẽ khác, nhưng khoảng cách giữa hai điểm thì không đổi.
 
-  :::example So sánh bằng điểm z
-  Minh được $82$ điểm bài kiểm tra toán có trung bình $70$, độ lệch chuẩn $8$, và $75$ điểm bài kiểm tra vật lí có trung bình $65$, độ lệch chuẩn $4$. So với các bạn, Minh làm bài nào tốt hơn?
+[[P8·85fd]]
+**Kết nối.** Bài này nối vectơ trong không gian (bài trước) với toạ độ trong mặt phẳng (lớp 10). Từ đây, phương trình mặt phẳng, đường thẳng và mặt cầu trong không gian đều được viết bằng ba toạ độ $x$, $y$, $z$.
 
-  **Lời giải.** Ta so sánh điểm z. Với môn toán, $z=\dfrac{82-70}{8}=1{,}5$; với môn vật lí, $z=\dfrac{75-65}{4}=2{,}5$.
-
-  Điểm vật lí cao hơn trung bình $2{,}5$ độ lệch chuẩn, còn điểm toán chỉ cao hơn $1{,}5$ độ lệch chuẩn.
-
-  Vậy so với các bạn, Minh làm bài vật lí tốt hơn, dù điểm thô thấp hơn.
-  :::
-
-## So sánh hai phân phối
-
-[[P10·df21]]
-Khi so sánh hai nhóm, hãy nói về hình dạng, trung tâm, độ phân tán và đặc điểm bất thường, và dùng **từ so sánh**. Liệt kê hai trung vị chưa phải là so sánh; "trung vị của A lớn hơn trung vị của B" mới là so sánh.
-
-  :::example Hai lớp học
-  Bộ năm số tóm tắt điểm kiểm tra của hai lớp như sau.
-
-  | Lớp | Min | $Q_1$ | Trung vị | $Q_3$ | Max |
-  |---|---|---|---|---|---|
-  | A | $40$ | $55$ | $68$ | $75$ | $90$ |
-  | B | $52$ | $60$ | $65$ | $70$ | $78$ |
-
-  So sánh trung tâm và độ phân tán của hai phân phối.
-
-  **Lời giải.** Trung tâm: trung vị điểm của lớp A ($68$) lớn hơn một chút so với trung vị của lớp B ($65$).
-
-  Độ phân tán: điểm của lớp A phân tán hơn. Khoảng biến thiên của lớp A là $90-40=50$ và IQR là $75-55=20$, còn của lớp B là $78-52=26$ và $70-60=10$.
-
-  Vậy lớp A có điểm điển hình cao hơn một chút nhưng điểm phân tán hơn nhiều so với lớp B.
-  :::
-
-:::warning Những cái bẫy thường gặp
-[[P11·7589]]
-- **Thiếu tình huống:** "trung vị là $68$" nên viết "trung vị điểm của lớp A là $68$ điểm".
-- **Liệt kê thay vì so sánh:** dùng "lớn hơn", "nhỏ hơn", "gần bằng".
-- **Dùng trung bình cho dữ liệu lệch:** khi lệch mạnh hoặc có ngoại lai, mô tả trung tâm bằng trung vị và độ phân tán bằng IQR.
-- **Tính tứ phân vị bằng tay:** khi $n$ lẻ, bỏ trung vị ra khỏi cả hai nửa.
-- **Phương sai và độ lệch chuẩn:** độ lệch chuẩn có cùng đơn vị với dữ liệu.
+:::diagram Hình hộp chữ nhật $OABC.O'A'B'C'$ trong hệ $Oxyz$
+   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
+
+[[P9·cb65]]
+Ví dụ đầu tiên đọc toạ độ từ hình hộp trên, với các cạnh dọc theo ba trục.
+
+  :::example Toạ độ các đỉnh của hình hộp
+  Hình hộp chữ nhật $OABC.O'A'B'C'$ có $A$ trên tia $Ox$, $C$ trên tia $Oy$, $O'$ trên tia $Oz$, với $OA=3$, $OC=4$, $OO'=2$. Tìm toạ độ các đỉnh và toạ độ của $\overrightarrow{OB'}$.
+
+  **Lời giải.** Ta có $\overrightarrow{OB}=\overrightarrow{OA}+\overrightarrow{OC}=3\vec{i}+4\vec{j}$; các đỉnh có dấu phẩy nằm ở đáy trên nên có cao độ bằng $OO'=2$. Do đó
+
+  $$\begin{aligned}
+  &O(0; 0; 0),\quad A(3; 0; 0),\quad B(3; 4; 0),\quad C(0; 4; 0),\\
+  &O'(0; 0; 2),\quad A'(3; 0; 2),\quad B'(3; 4; 2),\quad C'(0; 4; 2).
+  \end{aligned}$$
+
+  Vì toạ độ của $\overrightarrow{OB'}$ bằng toạ độ của điểm $B'$ nên $\overrightarrow{OB'}=3\vec{i}+4\vec{j}+2\vec{k}=(3; 4; 2)$.
+
+  Vậy các đỉnh có toạ độ như trên và $\overrightarrow{OB'}=(3; 4; 2)$.
+  :::
+
+### Điểm trên các trục và các mặt phẳng toạ độ
+
+[[P10·e2e3]]
+Từ định nghĩa, ta đọc được vị trí của một điểm qua các toạ độ bằng $0$:
+
+| Vị trí của $M$ | Điều kiện |
+|---|---|
+| trên trục $Ox$ / $Oy$ / $Oz$ | $y=z=0$ / $z=x=0$ / $x=y=0$ |
+| trong mặt phẳng $(Oxy)$ / $(Oyz)$ / $(Ozx)$ | $z=0$ / $x=0$ / $y=0$ |
+
+[[P11·9862]]
+Hình chiếu vuông góc của $M(x; y; z)$ lên một mặt phẳng toạ độ có được bằng cách **đổi toạ độ còn lại thành $0$**; lên một trục thì giữ lại đúng toạ độ của trục đó. Khoảng cách từ $M$ đến mặt phẳng $(Oxy)$ là $|z|$, vì $M$ cách hình chiếu $(x; y; 0)$ của nó đúng $|z|$.
+
+  :::example Hình chiếu và khoảng cách đến các mặt phẳng toạ độ
+  Cho $M(2; -3; 5)$. Tìm hình chiếu của $M$ lên $(Oxy)$, $(Oyz)$, $(Ozx)$ và lên trục $Oz$. Tính khoảng cách từ $M$ đến mặt phẳng $(Oxy)$ và đến trục $Oz$.
+
+  **Lời giải.** Hình chiếu lên mỗi mặt phẳng toạ độ có toạ độ "thiếu" bằng $0$; hình chiếu lên trục $Oz$ chỉ giữ cao độ. Do đó các hình chiếu là
+
+  $$(Oxy):\ (2; -3; 0),\qquad (Oyz):\ (0; -3; 5),\qquad (Ozx):\ (2; 0; 5),\qquad Oz:\ (0; 0; 5).$$
+
+  Khoảng cách từ $M$ đến $(Oxy)$ là $|5|=5$. Gọi $H(0; 0; 5)$ là hình chiếu của $M$ trên $Oz$, ta có $\overrightarrow{HM}=(2; -3; 0)$. Do đó
+
+  $$MH=\sqrt{2^2+(-3)^2}=\sqrt{13}.$$
+
+  Vậy $M$ cách $(Oxy)$ là $5$ và cách trục $Oz$ là $\sqrt{13}\approx3{,}61$.
+  :::
+
+## Toạ độ của vectơ $\overrightarrow{AB}$
+
+[[P12·f588]]
+Vì $\overrightarrow{AB}=\overrightarrow{OB}-\overrightarrow{OA}$, ta trừ từng thành phần theo $\vec{i}$, $\vec{j}$, $\vec{k}$. Với $A(x_A; y_A; z_A)$ và $B(x_B; y_B; z_B)$:
+
+  $$\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A;\ z_B-z_A).$$
+
+[[P13·5a5b]]
+Vẫn là quy tắc quen thuộc: **điểm cuối trừ điểm đầu**. Hai vectơ bằng nhau khi và chỉ khi ba toạ độ tương ứng bằng nhau.
+
+  :::example Hai vectơ bằng nhau
+  Cho $A(1; 2; -1)$, $B(3; -1; 2)$, $C(-2; 0; 4)$, $D(0; -3; 7)$. Chứng minh rằng $\overrightarrow{AB}=\overrightarrow{CD}$. Bốn điểm $A$, $B$, $C$, $D$ là các đỉnh của hình bình hành nào?
+
+  **Lời giải.** Ta có
+
+  $$\overrightarrow{AB}=(3-1;\ -1-2;\ 2+1)=(2; -3; 3),\qquad \overrightarrow{CD}=(0+2;\ -3-0;\ 7-4)=(2; -3; 3).$$
+
+  Vì ba toạ độ tương ứng bằng nhau nên $\overrightarrow{AB}=\overrightarrow{CD}$. Ta có $\overrightarrow{AC}=(-3; -2; 5)$ không cùng phương với $\overrightarrow{AB}$ (vì $\frac{-3}{2}\neq\frac{-2}{-3}$) nên $C$ không nằm trên đường thẳng $AB$.
+
+  Vậy tứ giác $ABDC$ là hình bình hành (chú ý thứ tự đỉnh: $\overrightarrow{AB}=\overrightarrow{CD}$ cho $AB$ và $CD$ là hai cạnh đối, cùng chiều).
+  :::
+
+## Khoảng cách, trung điểm và trọng tâm
+
+[[P14·8621]]
+Viết $\overrightarrow{AB}=a\vec{i}+b\vec{j}+c\vec{k}$ với $a=x_B-x_A$, $b=y_B-y_A$, $c=z_B-z_A$. Bình phương vô hướng, các tích chéo $\vec{i}\cdot\vec{j}$, $\vec{j}\cdot\vec{k}$, $\vec{k}\cdot\vec{i}$ bằng $0$, nên $AB^2=a^2+b^2+c^2$. Đây cũng là đường chéo của hình hộp có ba cạnh $|a|$, $|b|$, $|c|$.
+
+  :::theorem Khoảng cách, trung điểm, trọng tâm
+  Cho $A(x_A; y_A; z_A)$, $B(x_B; y_B; z_B)$, $C(x_C; y_C; z_C)$.
+  - Khoảng cách: $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}$.
+  - Trung điểm $M$ của $AB$: $M\left(\dfrac{x_A+x_B}{2};\ \dfrac{y_A+y_B}{2};\ \dfrac{z_A+z_B}{2}\right)$.
+  - Trọng tâm $G$ của tam giác $ABC$: $G\left(\dfrac{x_A+x_B+x_C}{3};\ \dfrac{y_A+y_B+y_C}{3};\ \dfrac{z_A+z_B+z_C}{3}\right)$.
+  :::
+
+[[P15·29e3]]
+Hai công thức sau có được từ $\overrightarrow{OM}=\frac12(\overrightarrow{OA}+\overrightarrow{OB})$ và $\overrightarrow{OG}=\frac13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$: ta lấy trung bình cộng từng toạ độ, giống trong mặt phẳng.
+
+  :::example Trung điểm, độ dài, trọng tâm
+  Cho $A(1; 0; 2)$, $B(3; 4; -2)$, $C(-1; 2; 3)$. Tìm trung điểm $M$ của $AB$, độ dài $AB$ và trọng tâm $G$ của tam giác $ABC$.
+
+  **Lời giải.** Theo công thức toạ độ trung điểm và trọng tâm, ta có
+
+  $$M\left(\frac{1+3}{2};\ \frac{0+4}{2};\ \frac{2-2}{2}\right)=M(2; 2; 0),\qquad G\left(\frac{1+3-1}{3};\ \frac{0+4+2}{3};\ \frac{2-2+3}{3}\right)=G(1; 2; 1).$$
+
+  Ta có $\overrightarrow{AB}=(2; 4; -4)$. Do đó
+
+  $$AB=\sqrt{4+16+16}=\sqrt{36}=6.$$
+
+  Vậy $M(2; 2; 0)$, $AB=6$ và $G(1; 2; 1)$.
+  :::
+
+[[P16·37c7]]
+Bây giờ ta trả lời câu hỏi ở đầu bài.
+
+  :::example Đèn cách cảm biến bao xa?
+  Trong hệ toạ độ chọn như phần Khám phá (đơn vị: mét), đèn ở $L(2; 3; 2{,}5)$ và cảm biến ở $S(8; 6; 0)$. Tính khoảng cách $LS$ (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Ta có
+
+  $$\overrightarrow{LS}=(6; 3; -2{,}5),\qquad LS=\sqrt{36+9+6{,}25}=\sqrt{51{,}25}\approx7{,}16.$$
+
+  Ta thấy toạ độ thứ ba $-2{,}5$ của $\overrightarrow{LS}$ cho biết cảm biến thấp hơn đèn $2{,}5$ m; khi bình phương, dấu trừ không ảnh hưởng.
+
+  Vậy đèn cách cảm biến khoảng $7{,}16$ m.
+
+  **Nhìn lại.** Nếu đặt gốc toạ độ ở chính góc sàn có cảm biến, với các trục hướng vào trong phòng, thì kết quả có thay đổi không? Khi đó $S(0; 0; 0)$ và $L(6; 3; 2{,}5)$: các toạ độ đều khác, nhưng $LS=\sqrt{36+9+6{,}25}$ vẫn như cũ. Toạ độ phụ thuộc cách chọn hệ trục, còn khoảng cách là một đại lượng hình học, không phụ thuộc cách chọn đó. Vì vậy ta được phép chọn hệ trục sao cho tính toán gọn nhất.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P17·a2d3]]
+- **Hình chiếu sai toạ độ.** Sai: hình chiếu của $M(2; -3; 5)$ lên $(Oxy)$ là $(0; 0; 5)$. Vì sao sai: đó là hình chiếu lên trục $Oz$. Đúng: lên $(Oxy)$ thì giữ $x$, $y$ và cho $z=0$: $(2; -3; 0)$.
+- **Khoảng cách đến trục nhầm với khoảng cách đến mặt phẳng.** Sai: khoảng cách từ $M(2; -3; 5)$ đến trục $Oz$ bằng $5$. Đúng: $5$ là khoảng cách đến $(Oxy)$; đến trục $Oz$ là $\sqrt{2^2+3^2}=\sqrt{13}$.
+- **Trừ ngược.** Sai: $\overrightarrow{AB}=(x_A-x_B;\ \dots)$. Đúng: điểm cuối trừ điểm đầu.
+- **Quên một toạ độ khi tính khoảng cách.** Sai: $AB=\sqrt{2^2+4^2}$ với $\overrightarrow{AB}=(2; 4; -4)$. Đúng: cộng đủ ba bình phương, $AB=6$.
+:::
+
+## Thuật ngữ
 
   :::terms
-  - categorical / quantitative variable | biến định tính / biến định lượng
-  - distribution | phân phối
-  - skewed right / left | lệch phải / lệch trái
-  - mean / median | trung bình / trung vị
-  - standard deviation | độ lệch chuẩn
-  - interquartile range (IQR) | khoảng tứ phân vị
-  - outlier | giá trị ngoại lai
-  - resistant measure | số đo bền vững
-  - z-score / percentile | điểm z / bách phân vị
-  - five-number summary | bộ năm số tóm tắt
+  - hệ trục toạ độ Oxyz | Oxyz coordinate system
+  - gốc toạ độ | origin
+  - trục hoành, trục tung, trục cao | x-axis, y-axis, z-axis
+  - mặt phẳng toạ độ | coordinate plane
+  - vectơ đơn vị | unit vector
+  - toạ độ của điểm | coordinates of a point
+  - hoành độ, tung độ, cao độ | x-, y- and z-coordinate
+  - hình chiếu vuông góc | orthogonal projection
+  - trung điểm | midpoint
+  - trọng tâm | centroid
   :::
 
-## Bài tập tương tự
+## Tóm tắt
+
+[[P18·6688]]
+- $Oxyz$: ba trục đôi một vuông góc, vectơ đơn vị $\vec{i}$, $\vec{j}$, $\vec{k}$ dài $1$, đôi một vuông góc.
+- $M(x; y; z)\iff\overrightarrow{OM}=x\vec{i}+y\vec{j}+z\vec{k}$; $\vec{a}=(x; y; z)\iff\vec{a}=x\vec{i}+y\vec{j}+z\vec{k}$.
+- Trên $(Oxy)$: $z=0$; trên $Ox$: $y=z=0$. Hình chiếu lên $(Oxy)$ của $(x; y; z)$ là $(x; y; 0)$.
+- $\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A;\ z_B-z_A)$; $AB$ là căn của tổng ba bình phương.
+- Trung điểm, trọng tâm: trung bình cộng từng toạ độ.
+
+## Luyện tập
+
+[[P19·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -283,7 +358,19 @@ Khi so sánh hai nhóm, hãy nói về hình dạng, trung tâm, độ phân tá
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -291,173 +378,236 @@ Khi so sánh hai nhóm, hãy nói về hình dạng, trung tâm, độ phân tá
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Bài tập vận dụng
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
+
+## Kiểm tra mini
 
 :::quiz
    (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 
-######## BÀI exams/ap-statistics/apstats-one-variable-data – BẢN TIẾNG ANH ########
+######## BÀI g12/coordinate-system-space – BẢN TIẾNG ANH ########
 ---
-title: Describing one-variable data
-description: AP Statistics Unit 1: displays, shape, centre and variability, quartiles and outliers, z-scores and percentiles, and comparing distributions in context.
-minutes: 50
+title: Coordinate system in space
+description: Meet the Oxyz system: coordinates of points and vectors, projections onto axes and coordinate planes, distance, midpoint and centroid.
+minutes: 22
 ---
 
   :::goals
-  - Distinguish categorical and quantitative variables and choose suitable displays.
-  - Describe a distribution by its shape, centre, variability and unusual features, in context.
-  - Compute and interpret the mean, median, standard deviation, quartiles and interquartile range, and identify outliers with the $1.5\times\text{IQR}$ rule.
-  - Use z-scores and percentiles to describe the position of a value.
-  - Compare two distributions with comparative language.
+  - Describe the coordinate system $Oxyz$, its axes, its coordinate planes and the unit vectors $\vec{i}$, $\vec{j}$, $\vec{k}$.
+  - Read and write the coordinates of a point and of a vector; find the coordinates of $\overrightarrow{AB}$.
+  - Find the projection of a point onto the axes and the coordinate planes.
+  - Find the distance between two points and the coordinates of a midpoint and a centroid.
   :::
 
-[[P1·e81b]]
-Every statistical investigation starts by looking at the data. On the AP exam this is the core of free-response question 2 and appears in almost every other question too. The calculations are short; what earns points is describing what you see **in the context of the data** and **comparing** with words like "greater than" and "about the same as".
+[[P1·1f8f]]
+A classroom is $8$ m long, $6$ m wide and $3$ m high. A lamp hangs $2$ m from the front wall, $3$ m from the left wall and $2.5$ m above the floor. A humidity sensor sits in the opposite floor corner, $8$ m and $6$ m from those two walls. How far is the lamp from the sensor?
 
-## Variables and displays
+[[P2·eaf0]]
+In the plane, two numbers are enough to fix the position of a point. In space we need three, and those three numbers let us find distances without drawing anything.
 
-[[P2·11f3]]
-A **categorical** variable places each individual in a group (favourite sport, blood type); a **quantitative** variable takes numerical values for which arithmetic makes sense (height, time). Categorical data are shown with bar charts and summarised with counts or relative frequencies; quantitative data are shown with dotplots, stemplots, histograms and boxplots.
+[[P3·7a0c]]
+The idea of using numbers to fix positions, and so turning geometry problems into algebra, was set out by René Descartes in *La Géométrie* (1637) for points in the plane (MacTutor History of Mathematics). Extended to three dimensions, the same idea underlies technical drawings, 3D design software and the control of a drone: every position is described by three numbers.
 
-[[P3·d06f]]
-To describe a quantitative distribution, cover four things, always in context:
+## The coordinate system $Oxyz$
 
-| Feature | What to say |
-|---|---|
-| Shape | roughly symmetric, skewed right or skewed left; number of peaks |
-| Centre | mean or median, with units |
-| Variability | standard deviation, range or IQR, with units |
-| Unusual features | outliers, gaps, clusters |
+### Exploring: three numbers for one position
 
-## Measures of centre and variability
+[[P4·451e]]
+Take the floor corner between the front wall and the left wall as the origin $O$. From $O$, the three lines where the floor and the two walls meet give three pairwise perpendicular directions: along the left wall, along the front wall, and straight up. To reach the lamp we go $2$ m in the first direction, $3$ m in the second, then $2.5$ m up. The triple $(2, 3, 2.5)$ fixes exactly one position in the room, and the sensor corresponds to $(8, 6, 0)$.
 
-[[P4·d09e]]
-For data $x_1,\dots,x_n$: the **mean** is $\bar x=\dfrac{\sum x_i}{n}$; the **median** is the middle value of the ordered data. The **sample standard deviation** is
-  $$s=\sqrt{\frac{\sum(x_i-\bar x)^2}{n-1}},$$
-[[P5·aca8]]
-roughly the typical distance of the values from the mean. The **quartiles** $Q_1$ and $Q_3$ are the medians of the lower and upper halves, and $\text{IQR}=Q_3-Q_1$.
+[[P5·4191]]
+If $\vec{i}$, $\vec{j}$, $\vec{k}$ are the vectors of length $1$ m in those three directions, then by the parallelepiped rule (previous lesson) the vector from $O$ to the lamp is $2\vec{i}+3\vec{j}+2.5\vec{k}$.
 
-[[P6·4526]]
-The median and IQR are **resistant**: extreme values hardly affect them. The mean and standard deviation are not. In a right-skewed distribution the long tail pulls the mean above the median; in a left-skewed one, below it.
-
-[[P7·129d]]
-A value is an **outlier** by the $1.5\times\text{IQR}$ rule if it is below $Q_1-1.5\,\text{IQR}$ or above $Q_3+1.5\,\text{IQR}$.
-
-  :::example Finding outliers
-  The numbers of minutes $12$ students spent on homework one evening are
-  $$3,\ 5,\ 6,\ 6,\ 7,\ 8,\ 9,\ 10,\ 11,\ 12,\ 14,\ 29.$$
-  According to the $1.5\times\text{IQR}$ rule, which values are outliers?
-  A. $3$ only
-  B. $3$ and $29$
-  C. There are no outliers.
-  D. $29$ only
-
-  **Solution.** With $12$ ordered values, the lower half is $3,5,6,6,7,8$ and the upper half is $9,10,11,12,14,29$. So $Q_1=\dfrac{6+6}{2}=6$ and $Q_3=\dfrac{11+12}{2}=11.5$, and $\text{IQR}=5.5$.
-
-  The fences are $Q_1-1.5(5.5)=6-8.25=-2.25$ and $Q_3+1.5(5.5)=11.5+8.25=19.75$.
-
-  Only $29$ is beyond a fence, so the only outlier is $29$ minutes, answer **D**.
+  :::definition The coordinate system $Oxyz$
+  The (Cartesian) coordinate system $Oxyz$ consists of three pairwise perpendicular axes $Ox$, $Oy$, $Oz$ meeting at the origin $O$, with unit vectors $\vec{i}$, $\vec{j}$, $\vec{k}$:
+  - $Ox$ is the **x-axis**, $Oy$ the **y-axis**, $Oz$ the **z-axis**;
+  - the planes $(Oxy)$, $(Oyz)$, $(Ozx)$ are the **coordinate planes**;
+  - $|\vec{i}|=|\vec{j}|=|\vec{k}|=1$ and $\vec{i}\cdot\vec{j}=\vec{j}\cdot\vec{k}=\vec{k}\cdot\vec{i}=0$.
   :::
 
-  :::example Mean, median and shape
-  The annual salaries at a small company have mean $52$ thousand dollars and median $45$ thousand dollars. Which is the most likely shape of the distribution?
-  A. Skewed left
-  B. Skewed right
-  C. Roughly symmetric
-  D. Uniform
+## Coordinates of a point and of a vector
 
-  **Solution.** The mean is well above the median. That happens when a few very large values, here a few high salaries, pull the mean upward while the median stays with the bulk of the data.
-
-  So the distribution is most likely skewed right, answer **B**. For such data the median is the better measure of a typical salary.
+  :::definition Coordinates of a point, of a vector
+  - The point $M$ has coordinates $(x, y, z)$, written $M(x, y, z)$, if $\overrightarrow{OM}=x\vec{i}+y\vec{j}+z\vec{k}$. The three numbers are the x-, y- and z-coordinates of $M$.
+  - The vector $\vec{a}$ has coordinates $(x, y, z)$, written $\vec{a}=(x, y, z)$, if $\vec{a}=x\vec{i}+y\vec{j}+z\vec{k}$.
   :::
 
-## Position: z-scores and percentiles
+[[P6·730f]]
+So the coordinates of the point $M$ are exactly the coordinates of the vector $\overrightarrow{OM}$. In particular $\vec{i}=(1, 0, 0)$, $\vec{j}=(0, 1, 0)$, $\vec{k}=(0, 0, 1)$ and $\vec{0}=(0, 0, 0)$.
 
-[[P8·bb9d]]
-The **z-score** of a value says how many standard deviations it is from the mean:
-  $$z=\frac{x-\text{mean}}{\text{standard deviation}}.$$
-[[P9·4504]]
-A negative z-score means below the mean. The **percentile** of a value is the percent of the data less than or equal to it. Z-scores let us compare values from different distributions.
+[[P7·c48d]]
+**A closer look.** Each coordinate answers its own question: how far in the direction of $\vec{i}$, of $\vec{j}$, of $\vec{k}$. Because the three directions are pairwise perpendicular, changing one coordinate does not affect the other two; that is why vector operations become operations on each coordinate. Coordinates depend on the choice of axes: for the same lamp, putting the origin in another corner of the room gives three different numbers, but the distance between two points does not change.
 
-  :::example Comparing with z-scores
-  Minh scored $82$ on a mathematics test with mean $70$ and standard deviation $8$, and $75$ on a physics test with mean $65$ and standard deviation $4$. On which test did he do better relative to the other students?
+[[P8·f0ea]]
+**Connections.** This lesson joins vectors in space (previous lesson) with coordinates in the plane (grade 10). From now on, the equations of planes, lines and spheres in space are all written with the three coordinates $x$, $y$, $z$.
 
-  **Solution.** We compare z-scores. For mathematics, $z=\dfrac{82-70}{8}=1.5$; for physics, $z=\dfrac{75-65}{4}=2.5$.
-
-  His physics score is $2.5$ standard deviations above the mean, while his mathematics score is only $1.5$ standard deviations above.
-
-  So Minh did better on the physics test relative to the other students, even though his raw score was lower.
-  :::
-
-## Comparing distributions
-
-[[P10·abf0]]
-When comparing two groups, address shape, centre, variability and unusual features, and use **comparative words**. Listing the two medians is not a comparison; "the median for A is greater than the median for B" is.
-
-  :::example Two classes
-  Five-number summaries of test scores are given for two classes.
-
-  | Class | Min | $Q_1$ | Median | $Q_3$ | Max |
-  |---|---|---|---|---|---|
-  | A | $40$ | $55$ | $68$ | $75$ | $90$ |
-  | B | $52$ | $60$ | $65$ | $70$ | $78$ |
-
-  Compare the centre and variability of the two distributions.
-
-  **Solution.** Centre: the median score for class A ($68$) is slightly greater than the median for class B ($65$).
-
-  Variability: class A's scores vary more. Its range is $90-40=50$ and its IQR is $75-55=20$, while class B's range is $78-52=26$ and its IQR is $70-60=10$.
-
-  So class A has a slightly higher typical score but much more variable scores than class B.
-  :::
-
-:::warning Common traps
-[[P11·9093]]
-- **No context:** "the median is $68$" should be "the median score for class A is $68$ points".
-- **Listing instead of comparing:** use "greater than", "less than", "about the same as".
-- **Mean for skewed data:** with strong skew or outliers, describe centre with the median and variability with the IQR.
-- **Quartiles by hand:** exclude the median from both halves when $n$ is odd.
-- **Variance versus standard deviation:** the standard deviation has the same units as the data.
+:::diagram The cuboid $OABC.O'A'B'C'$ in the system $Oxyz$
+   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
+
+[[P9·05d6]]
+The first example reads coordinates from the cuboid above, whose edges run along the three axes.
+
+  :::example Coordinates of the vertices of a cuboid
+  The cuboid $OABC.O'A'B'C'$ has $A$ on the ray $Ox$, $C$ on the ray $Oy$, $O'$ on the ray $Oz$, with $OA=3$, $OC=4$, $OO'=2$. Find the coordinates of the vertices and of $\overrightarrow{OB'}$.
+
+  **Solution.** We have $\overrightarrow{OB}=\overrightarrow{OA}+\overrightarrow{OC}=3\vec{i}+4\vec{j}$; the primed vertices are on the top face, so their z-coordinate is $OO'=2$. Hence
+
+  $$\begin{aligned}
+  &O(0, 0, 0),\quad A(3, 0, 0),\quad B(3, 4, 0),\quad C(0, 4, 0),\\
+  &O'(0, 0, 2),\quad A'(3, 0, 2),\quad B'(3, 4, 2),\quad C'(0, 4, 2).
+  \end{aligned}$$
+
+  Since the coordinates of $\overrightarrow{OB'}$ are those of the point $B'$, $\overrightarrow{OB'}=3\vec{i}+4\vec{j}+2\vec{k}=(3, 4, 2)$.
+
+  So the vertices have the coordinates above and $\overrightarrow{OB'}=(3, 4, 2)$.
+  :::
+
+### Points on the axes and the coordinate planes
+
+[[P10·6ed2]]
+From the definition, we can read the position of a point from the coordinates that are $0$:
+
+| Position of $M$ | Condition |
+|---|---|
+| on the axis $Ox$ / $Oy$ / $Oz$ | $y=z=0$ / $z=x=0$ / $x=y=0$ |
+| in the plane $(Oxy)$ / $(Oyz)$ / $(Ozx)$ | $z=0$ / $x=0$ / $y=0$ |
+
+[[P11·990c]]
+The orthogonal projection of $M(x, y, z)$ onto a coordinate plane is found by **setting the remaining coordinate to $0$**; onto an axis, keep only that axis's coordinate. The distance from $M$ to the plane $(Oxy)$ is $|z|$, because $M$ is exactly $|z|$ away from its projection $(x, y, 0)$.
+
+  :::example Projections and distances to coordinate planes
+  Let $M(2, -3, 5)$. Find the projections of $M$ onto $(Oxy)$, $(Oyz)$, $(Ozx)$ and onto the axis $Oz$. Find the distance from $M$ to the plane $(Oxy)$ and to the axis $Oz$.
+
+  **Solution.** The projection onto each coordinate plane has the "missing" coordinate equal to $0$; the projection onto the axis $Oz$ keeps only the z-coordinate. Hence the projections are
+
+  $$(Oxy):\ (2, -3, 0),\qquad (Oyz):\ (0, -3, 5),\qquad (Ozx):\ (2, 0, 5),\qquad Oz:\ (0, 0, 5).$$
+
+  The distance from $M$ to $(Oxy)$ is $|5|=5$. Let $H(0, 0, 5)$ be the projection of $M$ onto $Oz$; then $\overrightarrow{HM}=(2, -3, 0)$. Hence
+
+  $$MH=\sqrt{2^2+(-3)^2}=\sqrt{13}.$$
+
+  So $M$ is $5$ from $(Oxy)$ and $\sqrt{13}\approx3.61$ from the axis $Oz$.
+  :::
+
+## Coordinates of the vector $\overrightarrow{AB}$
+
+[[P12·24c0]]
+Since $\overrightarrow{AB}=\overrightarrow{OB}-\overrightarrow{OA}$, we subtract component by component along $\vec{i}$, $\vec{j}$, $\vec{k}$. For $A(x_A, y_A, z_A)$ and $B(x_B, y_B, z_B)$:
+
+  $$\overrightarrow{AB}=(x_B-x_A,\ y_B-y_A,\ z_B-z_A).$$
+
+[[P13·8d5c]]
+The familiar rule again: **end point minus start point**. Two vectors are equal if and only if their three corresponding coordinates are equal.
+
+  :::example Two equal vectors
+  Let $A(1, 2, -1)$, $B(3, -1, 2)$, $C(-2, 0, 4)$, $D(0, -3, 7)$. Prove that $\overrightarrow{AB}=\overrightarrow{CD}$. Which parallelogram has the four points $A$, $B$, $C$, $D$ as its vertices?
+
+  **Solution.** We have
+
+  $$\overrightarrow{AB}=(3-1,\ -1-2,\ 2+1)=(2, -3, 3),\qquad \overrightarrow{CD}=(0+2,\ -3-0,\ 7-4)=(2, -3, 3).$$
+
+  Since the corresponding coordinates are equal, $\overrightarrow{AB}=\overrightarrow{CD}$. We have $\overrightarrow{AC}=(-3, -2, 5)$, which is not parallel to $\overrightarrow{AB}$ (since $\frac{-3}{2}\neq\frac{-2}{-3}$), so $C$ is not on the line $AB$.
+
+  So the quadrilateral $ABDC$ is a parallelogram (note the order of the vertices: $\overrightarrow{AB}=\overrightarrow{CD}$ makes $AB$ and $CD$ opposite sides pointing the same way).
+  :::
+
+## Distance, midpoint and centroid
+
+[[P14·f27f]]
+Write $\overrightarrow{AB}=a\vec{i}+b\vec{j}+c\vec{k}$ with $a=x_B-x_A$, $b=y_B-y_A$, $c=z_B-z_A$. When we square, the scalar products $\vec{i}\cdot\vec{j}$, $\vec{j}\cdot\vec{k}$, $\vec{k}\cdot\vec{i}$ are $0$, so $AB^2=a^2+b^2+c^2$. This is also the diagonal of a cuboid with edges $|a|$, $|b|$, $|c|$.
+
+  :::theorem Distance, midpoint, centroid
+  Let $A(x_A, y_A, z_A)$, $B(x_B, y_B, z_B)$, $C(x_C, y_C, z_C)$.
+  - Distance: $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}$.
+  - Midpoint $M$ of $AB$: $M\left(\dfrac{x_A+x_B}{2},\ \dfrac{y_A+y_B}{2},\ \dfrac{z_A+z_B}{2}\right)$.
+  - Centroid $G$ of triangle $ABC$: $G\left(\dfrac{x_A+x_B+x_C}{3},\ \dfrac{y_A+y_B+y_C}{3},\ \dfrac{z_A+z_B+z_C}{3}\right)$.
+  :::
+
+[[P15·8ae2]]
+The last two formulas come from $\overrightarrow{OM}=\frac12(\overrightarrow{OA}+\overrightarrow{OB})$ and $\overrightarrow{OG}=\frac13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$: we take the mean of each coordinate, just as in the plane.
+
+  :::example Midpoint, length, centroid
+  Let $A(1, 0, 2)$, $B(3, 4, -2)$, $C(-1, 2, 3)$. Find the midpoint $M$ of $AB$, the length $AB$ and the centroid $G$ of triangle $ABC$.
+
+  **Solution.** By the formulas for the midpoint and the centroid, we have
+
+  $$M\left(\frac{1+3}{2},\ \frac{0+4}{2},\ \frac{2-2}{2}\right)=M(2, 2, 0),\qquad G\left(\frac{1+3-1}{3},\ \frac{0+4+2}{3},\ \frac{2-2+3}{3}\right)=G(1, 2, 1).$$
+
+  We have $\overrightarrow{AB}=(2, 4, -4)$. Hence
+
+  $$AB=\sqrt{4+16+16}=\sqrt{36}=6.$$
+
+  So $M(2, 2, 0)$, $AB=6$ and $G(1, 2, 1)$.
+  :::
+
+[[P16·3b11]]
+Now we answer the opening question.
+
+  :::example How far is the lamp from the sensor?
+  In the coordinate system chosen in the exploration (unit: metre), the lamp is at $L(2, 3, 2.5)$ and the sensor at $S(8, 6, 0)$. Find the distance $LS$ (give your answer to 2 decimal places).
+
+  **Solution.** We have
+
+  $$\overrightarrow{LS}=(6, 3, -2.5),\qquad LS=\sqrt{36+9+6.25}=\sqrt{51.25}\approx7.16.$$
+
+  We see that the third coordinate $-2.5$ of $\overrightarrow{LS}$ says the sensor is $2.5$ m lower than the lamp; after squaring, the minus sign makes no difference.
+
+  So the lamp is about $7.16$ m from the sensor.
+
+  **Look back.** If we put the origin at the floor corner with the sensor, with the axes pointing into the room, does the answer change? Then $S(0, 0, 0)$ and $L(6, 3, 2.5)$: all the coordinates are different, but $LS=\sqrt{36+9+6.25}$ is the same. Coordinates depend on the choice of axes, whereas distance is a geometric quantity that does not. That is why we may choose the axes that make the calculation simplest.
+  :::
+
+:::warning Common mistakes
+[[P17·207b]]
+- **Wrong coordinates in a projection.** Wrong: the projection of $M(2, -3, 5)$ onto $(Oxy)$ is $(0, 0, 5)$. Why it is wrong: that is the projection onto the axis $Oz$. Right: onto $(Oxy)$, keep $x$, $y$ and set $z=0$: $(2, -3, 0)$.
+- **Distance to an axis confused with distance to a plane.** Wrong: the distance from $M(2, -3, 5)$ to the axis $Oz$ is $5$. Right: $5$ is the distance to $(Oxy)$; the distance to the axis $Oz$ is $\sqrt{2^2+3^2}=\sqrt{13}$.
+- **Subtracting the wrong way round.** Wrong: $\overrightarrow{AB}=(x_A-x_B,\ \dots)$. Right: end point minus start point.
+- **Forgetting a coordinate in a distance.** Wrong: $AB=\sqrt{2^2+4^2}$ for $\overrightarrow{AB}=(2, 4, -4)$. Right: add all three squares, $AB=6$.
+:::
+
+## Key terms
 
   :::terms
-  - categorical / quantitative variable | biến định tính / biến định lượng
-  - distribution | phân phối
-  - skewed right / left | lệch phải / lệch trái
-  - mean / median | trung bình / trung vị
-  - standard deviation | độ lệch chuẩn
-  - interquartile range (IQR) | khoảng tứ phân vị
-  - outlier | giá trị ngoại lai
-  - resistant measure | số đo bền vững
-  - z-score / percentile | điểm z / bách phân vị
-  - five-number summary | bộ năm số tóm tắt
+  - Oxyz coordinate system | hệ trục toạ độ Oxyz
+  - origin | gốc toạ độ
+  - x-axis, y-axis, z-axis | trục hoành, trục tung, trục cao
+  - coordinate plane | mặt phẳng toạ độ
+  - unit vector | vectơ đơn vị
+  - coordinates of a point | toạ độ của điểm
+  - x-, y- and z-coordinate | hoành độ, tung độ, cao độ
+  - orthogonal projection | hình chiếu vuông góc
+  - midpoint | trung điểm
+  - centroid | trọng tâm
   :::
 
-## Similar exercises
+## Summary
+
+[[P18·8f34]]
+- $Oxyz$: three pairwise perpendicular axes with unit vectors $\vec{i}$, $\vec{j}$, $\vec{k}$ of length $1$, pairwise perpendicular.
+- $M(x, y, z)\iff\overrightarrow{OM}=x\vec{i}+y\vec{j}+z\vec{k}$; $\vec{a}=(x, y, z)\iff\vec{a}=x\vec{i}+y\vec{j}+z\vec{k}$.
+- In $(Oxy)$: $z=0$; on $Ox$: $y=z=0$. The projection of $(x, y, z)$ onto $(Oxy)$ is $(x, y, 0)$.
+- $\overrightarrow{AB}=(x_B-x_A,\ y_B-y_A,\ z_B-z_A)$; $AB$ is the square root of the sum of three squares.
+- Midpoint, centroid: the mean of each coordinate.
+
+## Practice
+
+[[P19·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
 
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -465,7 +615,19 @@ When comparing two groups, address shape, centre, variability and unusual featur
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -473,296 +635,16 @@ When comparing two groups, address shape, centre, variability and unusual featur
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-## Applied exercises
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
+
+## Mini test
 
 :::quiz
    (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
 :::
-
-
-######## BÀI exams/ap-statistics/apstats-overview – BẢN TIẾNG VIỆT ########
----
-title: AP Statistics gồm những gì và cách ôn
-description: Đề thi AP Statistics mới từ tháng 5/2027: 42 câu trắc nghiệm và 4 câu tự luận, năm unit và tỉ trọng, những thay đổi, và kế hoạch ôn tập.
-minutes: 25
-type: guide
----
-
-  :::goals
-  - Nắm cấu trúc đề thi AP Statistics từ tháng 5/2027: các phần, thời gian, máy tính và tỉ trọng điểm.
-  - Nắm năm unit của chương trình mới và những nội dung đã bị bỏ.
-  - Nhận ra bốn dạng câu tự luận.
-  - Lập kế hoạch ôn tập trong mười tuần.
-  :::
-
-[[P1·af98]]
-AP Statistics là môn học của College Board tương đương một học kì thống kê nhập môn ở đại học. Từ năm học 2026–27, môn học được sửa đổi: chín unit gộp còn năm, một số nội dung bị bỏ, và đề thi được thiết kế lại. Học sinh theo chương trình Việt Nam thường thấy phần tính toán dễ; thử thách thật sự là **viết**: giải thích phương pháp, kiểm tra điều kiện và nêu kết luận theo tình huống. Các bài trong mục này viết theo chương trình mới, nên sách ôn và đề luyện cũ sẽ không khớp hoàn toàn.
-
-## Đề thi từ tháng 5/2027
-
-[[P2·9e0b]]
-Toàn bộ bài thi làm trên ứng dụng **Bluebook**. Được dùng máy tính đồ thị, Bluebook có sẵn Desmos, và có bảng công thức kèm các bảng tra.
-
-| Phần | Số câu | Thời gian | Tỉ trọng |
-|---|---|---|---|
-| I: trắc nghiệm | 42, mỗi câu 4 phương án | 90 phút | 50% |
-| II: tự luận | 4, mỗi câu 10 điểm | 90 phút | 50% |
-
-[[P3·18c2]]
-Phần trắc nghiệm có **hai cụm ba câu** dùng chung một dữ kiện: một cụm về xác suất, biến ngẫu nhiên và phân phối, một cụm về hồi quy. Điểm báo theo thang AP từ 1 đến 5. Trước 2027, đề có 40 câu trắc nghiệm năm phương án và 6 câu tự luận, trong đó có một "investigative task"; dạng câu này nay không còn.
-
-## Nội dung thi
-
-| Unit | Nội dung | Tỉ trọng trong phần trắc nghiệm |
-|---|---|---|
-| 1. Exploring One-Variable Data and Collecting Data | câu hỏi khảo sát, biểu đồ và số đặc trưng, chọn mẫu và thí nghiệm | 20%–30% |
-| 2. Probability, Random Variables, and Probability Distributions | quy tắc xác suất, biến ngẫu nhiên, phân phối nhị thức và chuẩn, phân phối mẫu | 15%–25% |
-| 3. Inference for Categorical Data: Proportions | khoảng tin cậy và kiểm định cho tỉ lệ | 15%–25% |
-| 4. Inference for Quantitative Data: Means | khoảng tin cậy và kiểm định cho trung bình | 10%–20% |
-| 5. Regression Analysis | biểu đồ phân tán, hệ số tương quan, hồi quy bình phương nhỏ nhất, phần dư | 10%–20% |
-
-[[P4·1af4]]
-**Đã bỏ khỏi chương trình:** phân tích độ lệch khỏi dạng tuyến tính (biến đổi dữ liệu), tổ hợp các biến ngẫu nhiên, phân phối hình học, kiểm định chi bình phương về độ phù hợp (goodness of fit), và suy luận cho hệ số góc đường hồi quy. Gặp các phần này trong sách cũ thì bỏ qua. **Mới:** viết và đánh giá **câu hỏi khảo sát thống kê** (statistical investigative questions).
-
-[[P5·1114]]
-Trong mục này, bài hồi quy đặt ngay sau bài dữ liệu một biến, vì cả hai đều mô tả dữ liệu; trong đề thi, hồi quy là Unit 5.
-
-## Bốn câu tự luận
-
-[[P6·3086]]
-Mỗi câu 10 điểm và có dạng cố định:
-
-[[P7·00d5]]
-1. **Đặt câu hỏi và thu thập dữ liệu:** câu hỏi khảo sát, phương pháp chọn mẫu, thiết kế thí nghiệm.
-2. **Phân tích dữ liệu và diễn giải kết quả:** biểu đồ và số đặc trưng, so sánh, kết quả hồi quy.
-3. **Suy luận thống kê:** một khoảng tin cậy hoặc một kiểm định ý nghĩa, có điều kiện và kết luận theo tình huống.
-4. **Câu tổng hợp** kết hợp nhiều mảng của chương trình.
-
-## Ba câu hỏi mẫu
-
-  :::example Câu hỏi khảo sát thống kê
-  Hội học sinh muốn tìm hiểu về giấc ngủ ở trường. Câu nào sau đây là một câu hỏi khảo sát thống kê?
-  A. Tối qua Lan ngủ bao nhiêu giờ?
-  B. Giấc ngủ có quan trọng với học sinh không?
-  C. Học sinh trường ta thường ngủ bao nhiêu giờ vào các đêm trước ngày đi học?
-  D. Ngày học ở trường bắt đầu lúc mấy giờ?
-
-  **Lời giải.** Câu hỏi khảo sát thống kê phải được trả lời bằng dữ liệu **có biến động**, thu thập từ nhiều cá thể, và hỏi về một nhóm.
-
-  Phương án A hỏi về một người, phương án D có một đáp án cố định, còn phương án B là ý kiến, không trả lời bằng dữ liệu. Phương án C hỏi về giá trị điển hình của một nhóm, và câu trả lời đến từ dữ liệu biến động của nhiều học sinh.
-
-  Vậy câu hỏi khảo sát là C, chọn đáp án **C**.
-  :::
-
-  :::example Một quy tắc xác suất
-  Với hai biến cố $A$ và $B$, $P(A)=0{,}4$, $P(B)=0{,}5$ và $P(A\text{ và }B)=0{,}2$. Giá trị $P(A\text{ hoặc }B)$ là
-  A. $0{,}9$
-  B. $0{,}7$
-  C. $0{,}2$
-  D. $0{,}5$
-
-  **Lời giải.** Theo quy tắc cộng tổng quát,
-  $$P(A\text{ hoặc }B)=P(A)+P(B)-P(A\text{ và }B)=0{,}4+0{,}5-0{,}2=0{,}7.$$
-
-  Vậy $P(A\text{ hoặc }B)=0{,}7$, chọn đáp án **B**. Phương án A quên trừ phần giao, phần này bị đếm hai lần.
-  :::
-
-  :::example Diễn giải khoảng tin cậy
-  Một mẫu ngẫu nhiên cử tri cho khoảng tin cậy $95\%$ là $(0{,}42;\ 0{,}50)$ cho tỉ lệ cử tri của cả thành phố ủng hộ xây công viên mới. Cách diễn giải nào đúng?
-  A. $95\%$ cử tri trong mẫu ủng hộ công viên.
-  B. Xác suất để tỉ lệ mẫu nằm giữa $0{,}42$ và $0{,}50$ là $95\%$.
-  C. Từ $42\%$ đến $50\%$ cử tri trong mẫu ủng hộ công viên.
-  D. Ta tin cậy $95\%$ rằng khoảng từ $0{,}42$ đến $0{,}50$ chứa tỉ lệ cử tri của cả thành phố ủng hộ công viên.
-
-  **Lời giải.** Khoảng tin cậy ước lượng một **tham số của tổng thể**, ở đây là tỉ lệ của toàn bộ cử tri thành phố, và độ tin cậy mô tả mức đáng tin của phương pháp.
-
-  Phương án A và C nói về mẫu, điều ta đã biết chính xác, còn phương án B nói về tỉ lệ mẫu, vốn là tâm của khoảng, không phải đại lượng chưa biết.
-
-  Vậy cách diễn giải đúng là D, chọn đáp án **D**.
-  :::
-
-## Kế hoạch mười tuần
-
-:::note Các tuần trước kì thi
-[[P8·db85]]
-1. **Tuần 1–2:** [Mô tả dữ liệu một biến](lesson:apstats-one-variable-data) và [Dữ liệu hai biến và hồi quy tuyến tính](lesson:apstats-two-variable-regression).
-2. **Tuần 3:** [Chọn mẫu, nghiên cứu quan sát và thí nghiệm](lesson:apstats-collecting-data).
-3. **Tuần 4–5:** [Xác suất và biến ngẫu nhiên](lesson:apstats-probability-random-variables), rồi [Phân phối chuẩn và phân phối mẫu](lesson:apstats-sampling-distributions).
-4. **Tuần 6–8:** [Suy luận cho tỉ lệ](lesson:apstats-inference-proportions), rồi [Suy luận cho trung bình](lesson:apstats-inference-means); luyện viết đầy đủ kiểm định và khoảng tin cậy.
-5. **Tuần 9–10:** [bốn câu tự luận](lesson:apstats-frq-strategies), rồi [đề luyện](lesson:apstats-practice-exam-1) trọn vẹn có bấm giờ; ghi mọi lỗi sai vào sổ lỗi sai.
-:::
-
-:::warning Những cái bẫy thường gặp
-[[P9·359d]]
-- **Tài liệu cũ:** các nội dung đã bỏ vẫn có trong sách và đề cũ; hãy bỏ qua.
-- **Trả lời không có tình huống:** chỉ viết "bác bỏ $H_0$" được rất ít điểm; hãy nói điều đó có nghĩa gì với tình huống.
-- **Mẫu và tổng thể:** suy luận luôn nói về tham số của tổng thể.
-- **Điều kiện:** nêu và kiểm tra điều kiện mỗi lần lập khoảng tin cậy hay làm kiểm định.
-:::
-
-[[P10·c9d9]]
-AP Classroom và trang môn học trên AP Central có câu hỏi luyện tập chính thức, tài liệu mô tả môn học và đề thi (course and exam description) và bảng công thức; hãy dùng chúng cùng các bài này.
-
-  :::terms
-  - statistical investigative question | câu hỏi khảo sát thống kê
-  - multiple choice / free response | trắc nghiệm / tự luận
-  - formula sheet | bảng công thức
-  - confidence interval | khoảng tin cậy
-  - significance test | kiểm định ý nghĩa
-  - population / sample | tổng thể / mẫu
-  - parameter / statistic | tham số / thống kê
-  :::
-
-
-######## BÀI exams/ap-statistics/apstats-overview – BẢN TIẾNG ANH ########
----
-title: What AP Statistics tests and how to prepare
-description: The revised AP Statistics exam from May 2027: 42 multiple-choice and 4 free-response questions, the five units and their weights, what changed and a study plan.
-minutes: 25
-type: guide
----
-
-  :::goals
-  - Know the structure of the AP Statistics exam from May 2027: sections, timing, calculators and weighting.
-  - Know the five units of the revised course, and which topics were removed.
-  - Recognize the four free-response question types.
-  - Plan your revision with a ten-week schedule.
-  :::
-
-[[P1·f8cf]]
-AP Statistics is a College Board course equivalent to a one-semester introductory college statistics course. For the 2026–27 school year the course was revised: nine units became five, several topics were removed, and the exam was redesigned. Students from the Vietnamese curriculum usually find the calculations easy; the real challenge is **writing**: explaining methods, checking conditions and stating conclusions in context. These lessons are written for the revised course, so older review books and practice tests will not match it exactly.
-
-## The exam from May 2027
-
-[[P2·7f86]]
-The whole exam is taken in the **Bluebook** app. A graphing calculator is allowed, Desmos is built into Bluebook, and a formula sheet with tables is provided.
-
-| Section | Questions | Time | Weight |
-|---|---|---|---|
-| I: multiple choice | 42, each with 4 options | 90 minutes | 50% |
-| II: free response | 4, each worth 10 points | 90 minutes | 50% |
-
-[[P3·751f]]
-The multiple-choice section contains **two sets of three questions** that share a stimulus: one set on probability, random variables and distributions, and one on regression. Scores are reported on the AP scale from 1 to 5. Before 2027 the exam had 40 multiple-choice questions with 5 options and 6 free-response questions, including an "investigative task"; that task no longer exists.
-
-## What is tested
-
-| Unit | Content | Share of the multiple-choice section |
-|---|---|---|
-| 1. Exploring One-Variable Data and Collecting Data | investigative questions, displays and summaries, sampling and experiments | 20%–30% |
-| 2. Probability, Random Variables, and Probability Distributions | probability rules, random variables, binomial and normal distributions, sampling distributions | 15%–25% |
-| 3. Inference for Categorical Data: Proportions | confidence intervals and tests for proportions | 15%–25% |
-| 4. Inference for Quantitative Data: Means | confidence intervals and tests for means | 10%–20% |
-| 5. Regression Analysis | scatterplots, correlation, least-squares regression, residuals | 10%–20% |
-
-[[P4·a118]]
-**Removed from the course:** analysing departures from linearity (transforming data), combining random variables, the geometric distribution, the chi-square goodness-of-fit test, and inference for the slope of a regression line. Skip these in older books. **New:** writing and judging **statistical investigative questions**.
-
-[[P5·38a9]]
-In this section the regression lesson comes right after one-variable data, because both describe data; on the exam regression is Unit 5.
-
-## The four free-response questions
-
-[[P6·8a5e]]
-Each question is worth 10 points and has a fixed type:
-
-[[P7·0734]]
-1. **Formulating questions and collecting data:** investigative questions, sampling methods, experimental design.
-2. **Analysing data and interpreting results:** graphs and summary statistics, comparisons, regression output.
-3. **Statistical inference:** a confidence interval or a significance test, with conditions and a conclusion in context.
-4. **An integrated question** that combines several areas of the course.
-
-## Three sample questions
-
-  :::example An investigative question
-  A student council wants to learn about sleep at their school. Which of the following is a statistical investigative question?
-  A. How many hours did Lan sleep last night?
-  B. Is sleep important for students?
-  C. How many hours do students at our school typically sleep on school nights?
-  D. What time does the school day start?
-
-  **Solution.** A statistical investigative question must be answered with data that **vary**, collected from many individuals, and it asks about a group.
-
-  Option A asks about one person, option D has one fixed answer, and option B is an opinion, not a question answered with data. Option C asks about a typical value for a group, and its answer comes from variable data on many students.
-
-  So the investigative question is C, answer **C**.
-  :::
-
-  :::example A probability rule
-  For events $A$ and $B$, $P(A)=0.4$, $P(B)=0.5$ and $P(A\text{ and }B)=0.2$. What is $P(A\text{ or }B)$?
-  A. $0.9$
-  B. $0.7$
-  C. $0.2$
-  D. $0.5$
-
-  **Solution.** By the general addition rule,
-  $$P(A\text{ or }B)=P(A)+P(B)-P(A\text{ and }B)=0.4+0.5-0.2=0.7.$$
-
-  So $P(A\text{ or }B)=0.7$, answer **B**. Option A forgets to subtract the overlap, which would be counted twice.
-  :::
-
-  :::example Interpreting a confidence interval
-  A random sample of voters gives a $95\%$ confidence interval of $(0.42,\ 0.50)$ for the proportion of all voters in a city who support a new park. Which interpretation is correct?
-  A. $95\%$ of the voters in the sample support the park.
-  B. There is a $95\%$ probability that the sample proportion is between $0.42$ and $0.50$.
-  C. Between $42\%$ and $50\%$ of the voters in the sample support the park.
-  D. We are $95\%$ confident that the interval from $0.42$ to $0.50$ captures the proportion of all voters in the city who support the park.
-
-  **Solution.** A confidence interval estimates a **population** parameter, here the proportion of all voters in the city, and the confidence level describes how reliable the method is.
-
-  Options A and C talk about the sample, which we already know exactly, and option B describes the sample proportion, which is the centre of the interval, not something uncertain.
-
-  So the correct interpretation is D, answer **D**.
-  :::
-
-## A ten-week plan
-
-:::note Weeks before the exam
-[[P8·db59]]
-1. **Weeks 1 to 2:** [Describing one-variable data](lesson:apstats-one-variable-data) and [Two-variable data and linear regression](lesson:apstats-two-variable-regression).
-2. **Week 3:** [Sampling, observational studies and experiments](lesson:apstats-collecting-data).
-3. **Weeks 4 to 5:** [Probability and random variables](lesson:apstats-probability-random-variables), then [Normal models and sampling distributions](lesson:apstats-sampling-distributions).
-4. **Weeks 6 to 8:** [Inference for proportions](lesson:apstats-inference-proportions), then [Inference for means](lesson:apstats-inference-means); practise writing full tests and intervals.
-5. **Weeks 9 to 10:** [the free-response questions](lesson:apstats-frq-strategies), then the timed [practice exam](lesson:apstats-practice-exam-1); review every mistake in an error log.
-:::
-
-:::warning Common traps
-[[P9·1bad]]
-- **Old materials:** removed topics still appear in older books and past exams; skip them.
-- **Answers without context:** "reject $H_0$" alone earns little; say what it means for the situation.
-- **Sample versus population:** inference is always about the population parameter.
-- **Conditions:** state and check them every time you build an interval or run a test.
-:::
-
-[[P10·b6a8]]
-AP Classroom and the AP Central course page offer official practice questions, the course and exam description and the formula sheet; use them alongside these lessons.
-
-  :::terms
-  - statistical investigative question | câu hỏi khảo sát thống kê
-  - multiple choice / free response | trắc nghiệm / tự luận
-  - formula sheet | bảng công thức
-  - confidence interval | khoảng tin cậy
-  - significance test | kiểm định ý nghĩa
-  - population / sample | tổng thể / mẫu
-  - parameter / statistic | tham số / thống kê
-  :::
 

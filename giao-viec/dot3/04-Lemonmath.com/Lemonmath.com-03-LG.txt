@@ -6,7 +6,7 @@ Kết quả: file Lemonmath.com-03-LG-ketqua.md, lưu vào Dropbox Lemonmath.com
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath.com-03-LG
-Người làm: tài khoản Lemonmath.com. Gói này có 36 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Lemonmath.com. Gói này có 38 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Lemonmath.com-03-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath.com-03-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,743 +189,963 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g4/expressions-with-letters (10 bài tập)
-- g4/finding-the-mean (8 bài tập)
-- g4/fraction-of-an-amount (10 bài tập)
-- g4/fractions-and-division (8 bài tập)
+- g3/multiply-3-digit-by-1-digit (7 bài tập)
+- g3/multiply-4-digit-by-1-digit (6 bài tập)
+- g3/multiply-5-digit-by-1-digit (9 bài tập)
+- g3/nine-times-table (8 bài tập)
+- g3/numerical-expressions (8 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g4/expressions-with-letters
-Bài học: Biểu thức chứa chữ / Expressions with letters
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+@@@ g3/multiply-3-digit-by-1-digit
+Bài học: Nhân số có ba chữ số với số có một chữ số. Chia số có ba chữ số cho số có một chữ số / Multiplying a three-digit number by a one-digit number. Dividing a three-digit number by a one-digit number
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Tính giá trị của biểu thức $m\times6$ khi $m=9$.
+Đặt tính rồi tính: $213\times 3$.
 
 [LỜI GIẢI CŨ – VI]
-Khi $m=9$ thì $m\times6=9\times6=54$.
+$$\begin{array}{r} 213 \\ \times\ \ \ 3 \\ \hline 639 \end{array}$$
+Hàng đơn vị: $3\times 3=9$. Hàng chục: $1\times 3=3$. Hàng trăm: $2\times 3=6$.
 
-**Đáp số.** $54$.
+**Đáp số.** $639$.
 
 [ĐỀ – EN]
-Find the value of the expression $m\times6$ when $m=9$.
+Set out in columns and work out: $213\times 3$.
 
 [LỜI GIẢI CŨ – EN]
-When $m=9$, $m\times6=9\times6=54$.
+$$\begin{array}{r} 213 \\ \times\ \ \ 3 \\ \hline 639 \end{array}$$
+Ones: $3\times 3=9$. Tens: $1\times 3=3$. Hundreds: $2\times 3=6$.
 
-**Answer.** $54$.
+**Answer.** $639$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Tính giá trị của biểu thức $125-x$ khi $x=48$.
+Đặt tính rồi tính: $152\times 4$.
 
 [LỜI GIẢI CŨ – VI]
-Khi $x=48$ thì $125-x=125-48=77$.
+$$\begin{array}{r} 152 \\ \times\ \ \ 4 \\ \hline 608 \end{array}$$
+Hàng đơn vị: $2\times 4=8$. Hàng chục: $5\times 4=20$, viết $0$ nhớ $2$. Hàng trăm: $1\times 4=4$, thêm $2$ được $6$.
 
-**Đáp số.** $77$.
+**Đáp số.** $608$.
 
 [ĐỀ – EN]
-Find the value of the expression $125-x$ when $x=48$.
+Set out in columns and work out: $152\times 4$.
 
 [LỜI GIẢI CŨ – EN]
-When $x=48$, $125-x=125-48=77$.
+$$\begin{array}{r} 152 \\ \times\ \ \ 4 \\ \hline 608 \end{array}$$
+Ones: $2\times 4=8$. Tens: $5\times 4=20$, write $0$ and regroup $2$. Hundreds: $1\times 4=4$, add $2$ to make $6$.
 
-**Answer.** $77$.
+**Answer.** $608$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Tính giá trị của biểu thức $a\times4+b$ khi $a=15$ và $b=30$.
+Đặt tính rồi tính: $307\times 3$.
 
 [LỜI GIẢI CŨ – VI]
-Khi $a=15$ và $b=30$ thì $a\times4+b=15\times4+30=60+30=90$.
+$$\begin{array}{r} 307 \\ \times\ \ \ 3 \\ \hline 921 \end{array}$$
+Hàng đơn vị: $7\times 3=21$, viết $1$ nhớ $2$. Hàng chục: $0\times 3=0$, thêm $2$ được $2$. Hàng trăm: $3\times 3=9$.
 
-**Đáp số.** $90$.
+**Đáp số.** $921$.
 
 [ĐỀ – EN]
-Find the value of the expression $a\times4+b$ when $a=15$ and $b=30$.
+Set out in columns and work out: $307\times 3$.
 
 [LỜI GIẢI CŨ – EN]
-When $a=15$ and $b=30$, $a\times4+b=15\times4+30=60+30=90$.
+$$\begin{array}{r} 307 \\ \times\ \ \ 3 \\ \hline 921 \end{array}$$
+Ones: $7\times 3=21$, write $1$ and regroup $2$. Tens: $0\times 3=0$, add $2$ to make $2$. Hundreds: $3\times 3=9$.
 
-**Answer.** $90$.
+**Answer.** $921$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tính giá trị của biểu thức $(a+b)\times c$ khi $a=12$, $b=8$ và $c=5$.
+Mỗi thùng sách có $125$ quyển. Hỏi $5$ thùng như vậy có tất cả bao nhiêu quyển sách?
 
 [LỜI GIẢI CŨ – VI]
-Khi $a=12$, $b=8$, $c=5$ thì $(a+b)\times c=(12+8)\times5=20\times5=100$.
+Số quyển sách trong $5$ thùng là:
+$$125\times 5=625\ \text{(quyển)}.$$
+Hàng đơn vị: $5\times 5=25$, viết $5$ nhớ $2$. Hàng chục: $2\times 5=10$, thêm $2$ được $12$, viết $2$ nhớ $1$. Hàng trăm: $1\times 5=5$, thêm $1$ được $6$.
 
-**Đáp số.** $100$.
+**Đáp số.** $625$ quyển sách.
 
 [ĐỀ – EN]
-Find the value of the expression $(a+b)\times c$ when $a=12$, $b=8$ and $c=5$.
+Each crate holds $125$ books. How many books are there in $5$ crates like this?
 
 [LỜI GIẢI CŨ – EN]
-When $a=12$, $b=8$, $c=5$, $(a+b)\times c=(12+8)\times5=20\times5=100$.
+The number of books in $5$ crates is:
+$$125\times 5=625\ \text{(books)}.$$
+Ones: $5\times 5=25$, write $5$ and regroup $2$. Tens: $2\times 5=10$, add $2$ to make $12$, write $2$ and regroup $1$. Hundreds: $1\times 5=5$, add $1$ to make $6$.
 
-**Answer.** $100$.
+**Answer.** $625$ books.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Một mảnh vườn (số liệu giả định) hình vuông có cạnh $25$ m. Tính chu vi mảnh vườn.
+Đặt tính rồi tính: $639:3$.
 
 [LỜI GIẢI CŨ – VI]
-Bài giải
+Hàng trăm: $6:3=2$. Hàng chục: $3:3=1$. Hàng đơn vị: $9:3=3$. Vậy
+$$639:3=213.$$
+Thử lại: $213\times 3=639$.
 
-Chu vi mảnh vườn là:
-$$25\times4=100\ \text{(m)}.$$
-
-**Đáp số.** $100$ m.
+**Đáp số.** $213$.
 
 [ĐỀ – EN]
-A garden (made-up numbers) is a square with side $25$ m. Find the perimeter of the garden.
+Set out in columns and work out: $639\div3$.
 
 [LỜI GIẢI CŨ – EN]
-Solution
+Hundreds: $6\div3=2$. Tens: $3\div3=1$. Ones: $9\div3=3$. So
+$$639\div3=213.$$
+Check: $213\times 3=639$.
 
-The perimeter of the garden is:
-$$25\times4=100\ \text{(m)}.$$
-
-**Answer.** $100$ m.
+**Answer.** $213$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Một tấm bìa hình chữ nhật có chiều dài $38$ cm và chiều rộng $22$ cm. Tính chu vi tấm bìa.
+Đặt tính rồi tính: $408:4$.
 
 [LỜI GIẢI CŨ – VI]
-Bài giải
+Hàng trăm: $4:4=1$. Hàng chục: $0:4=0$. Hàng đơn vị: $8:4=2$. Vậy
+$$408:4=102.$$
+Thử lại: $102\times 4=408$.
 
-Chu vi tấm bìa là:
-$$(38+22)\times2=60\times2=120\ \text{(cm)}.$$
-
-**Đáp số.** $120$ cm.
-
-[ĐỀ – EN]
-A piece of card is a rectangle with length $38$ cm and width $22$ cm. Find the perimeter of the card.
-
-[LỜI GIẢI CŨ – EN]
-Solution
-
-The perimeter of the card is:
-$$(38+22)\times2=60\times2=120\ \text{(cm)}.$$
-
-**Answer.** $120$ cm.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Mai mua $m$ quyển vở, mỗi quyển giá $6\,500$ đồng, và một chiếc thước giá $3\,000$ đồng. Hãy viết biểu thức số tiền Mai phải trả, rồi tính khi $m=5$.
-
-[LỜI GIẢI CŨ – VI]
-Bài giải
-
-Số tiền Mai phải trả là $6\,500\times m+3\,000$ (đồng). Khi $m=5$, số tiền là:
-$$6\,500\times5+3\,000=32\,500+3\,000=35\,500\ \text{(đồng)}.$$
-
-**Đáp số.** $35\,500$ đồng.
+**Đáp số.** $102$.
 
 [ĐỀ – EN]
-Mai buys $m$ exercise books at $6\,500$ dong each and a ruler for $3\,000$ dong. Write an expression for the money Mai pays, then work it out when $m=5$.
+Set out in columns and work out: $408\div4$.
 
 [LỜI GIẢI CŨ – EN]
-Solution
+Hundreds: $4\div4=1$. Tens: $0\div4=0$. Ones: $8\div4=2$. So
+$$408\div4=102.$$
+Check: $102\times 4=408$.
 
-The money Mai pays is $6\,500\times m+3\,000$ (dong). When $m=5$, the money is:
-$$6\,500\times5+3\,000=32\,500+3\,000=35\,500\ \text{(dong)}.$$
-
-**Answer.** $35\,500$ dong.
+**Answer.** $102$.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài chia số có năm chữ số cho số có một chữ số. Tính giá trị của biểu thức $90\,000:n$ khi $n=8$.
+Cô giáo có $3$ hộp bút, mỗi hộp $168$ chiếc. Cô chia đều số bút đó cho $6$ lớp. Hỏi mỗi lớp được bao nhiêu chiếc bút?
 
 [LỜI GIẢI CŨ – VI]
-Khi $n=8$ thì $90\,000:n=90\,000:8=11\,250$.
+Tổng số chiếc bút của $3$ hộp là:
+$$168\times 3=504\ \text{(chiếc)}.$$
+Số chiếc bút mỗi lớp được là:
+$$504:6=84\ \text{(chiếc)}.$$
+Thử lại: $84\times 6=504$. Đúng.
 
-**Thử lại.** $11\,250\times8=90\,000$. Đúng.
-
-**Đáp số.** $11\,250$.
-
-[ĐỀ – EN]
-Remember the lesson on dividing a five-digit number by a one-digit number. Find the value of the expression $90\,000\div n$ when $n=8$.
-
-[LỜI GIẢI CŨ – EN]
-When $n=8$, $90\,000\div n=90\,000\div8=11\,250$.
-
-**Check.** $11\,250\times8=90\,000$. Correct.
-
-**Answer.** $11\,250$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Nam tính giá trị của biểu thức $3\times a+b$ khi $a=10$ và $b=5$ được $3\times(10+5)=45$. Em hãy kiểm tra kết quả của Nam. Nếu sai, em hãy sửa lại.
-
-[LỜI GIẢI CŨ – VI]
-Biểu thức $3\times a+b$ không có ngoặc, nên phải nhân trước rồi cộng sau. Nam đã cộng $10+5$ trước nên sai.
-
-Tính lại: $3\times10+5=30+5=35$.
-
-**Đáp số.** Nam sai; kết quả đúng là $35$.
+**Đáp số.** $84$ chiếc bút.
 
 [ĐỀ – EN]
-Nam finds the value of the expression $3\times a+b$ when $a=10$ and $b=5$ and gets $3\times(10+5)=45$. Check Nam's answer. If it is wrong, correct it.
+A teacher has $3$ boxes of pens, with $168$ pens in each box. She shares all the pens equally among $6$ classes. How many pens does each class get?
 
 [LỜI GIẢI CŨ – EN]
-The expression $3\times a+b$ has no brackets, so we must multiply first and then add. Nam added $10+5$ first, so he is wrong.
+The total number of pens in $3$ boxes is:
+$$168\times 3=504\ \text{(pens)}.$$
+The number of pens each class gets is:
+$$504\div6=84\ \text{(pens)}.$$
+Check: $84\times 6=504$. Correct.
 
-Working it out again: $3\times10+5=30+5=35$.
-
-**Answer.** Nam is wrong; the correct answer is $35$.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Một hình chữ nhật có chu vi $56$ cm và chiều dài $18$ cm. Tính chiều rộng của hình chữ nhật.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $(a+b)\times2=56$, nên $a+b=56:2=28$ (cm). Chiều rộng là $b=28-18=10$ (cm).
-
-**Thử lại.** $(18+10)\times2=28\times2=56$. Đúng.
-
-**Đáp số.** $10$ cm.
-
-[ĐỀ – EN]
-A rectangle has perimeter $56$ cm and length $18$ cm. Find the width of the rectangle.
-
-[LỜI GIẢI CŨ – EN]
-We have $(a+b)\times2=56$, so $a+b=56\div2=28$ (cm). The width is $b=28-18=10$ (cm).
-
-**Check.** $(18+10)\times2=28\times2=56$. Correct.
-
-**Answer.** $10$ cm.
+**Answer.** $84$ pens.
 
 
 ######################################################################
-@@@ g4/finding-the-mean
-Bài học: Tìm số trung bình cộng / Finding the mean (average)
+@@@ g3/multiply-4-digit-by-1-digit
+Bài học: Nhân số có bốn chữ số với số có một chữ số / Multiplying a four-digit number by a one-digit number
+Cần viết lại lời giải các bài: 1, 3, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính:
+
+a) $2\,103\times3$.
+
+b) $1\,321\times2$.
+
+[LỜI GIẢI CŨ – VI]
+a) Đơn vị: $3\times3=9$. Chục: $0\times3=0$. Trăm: $1\times3=3$. Nghìn: $2\times3=6$. Vậy $2\,103\times3=6\,309$.
+
+b) Đơn vị: $1\times2=2$. Chục: $2\times2=4$. Trăm: $3\times2=6$. Nghìn: $1\times2=2$. Vậy $1\,321\times2=2\,642$.
+
+**Đáp số.** a) $6\,309$; b) $2\,642$.
+
+[ĐỀ – EN]
+Work out:
+
+a) $2\,103\times3$.
+
+b) $1\,321\times2$.
+
+[LỜI GIẢI CŨ – EN]
+a) Ones: $3\times3=9$. Tens: $0\times3=0$. Hundreds: $1\times3=3$. Thousands: $2\times3=6$. So $2\,103\times3=6\,309$.
+
+b) Ones: $1\times2=2$. Tens: $2\times2=4$. Hundreds: $3\times2=6$. Thousands: $1\times2=2$. So $1\,321\times2=2\,642$.
+
+**Answer.** a) $6\,309$; b) $2\,642$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước (phép trừ trong phạm vi $10\,000$). Tính $5\,000-1\,275$, rồi nhân kết quả với $2$.
+
+[LỜI GIẢI CŨ – VI]
+$5\,000-1\,275=3\,725$. Sau đó $3\,725\times2=7\,450$ (vì $5\times2=10$, viết $0$ nhớ $1$; $2\times2=4$, thêm $1$ được $5$; $7\times2=14$, viết $4$ nhớ $1$; $3\times2=6$, thêm $1$ được $7$).
+
+**Kiểm tra.** $3\,725+1\,275=5\,000$. Đúng.
+
+**Đáp số.** $7\,450$.
+
+[ĐỀ – EN]
+Remember the last lesson (subtraction within $10\,000$). Work out $5\,000-1\,275$, then multiply the answer by $2$.
+
+[LỜI GIẢI CŨ – EN]
+$5\,000-1\,275=3\,725$. Then $3\,725\times2=7\,450$ (because $5\times2=10$, write $0$ carry $1$; $2\times2=4$, add $1$ to get $5$; $7\times2=14$, write $4$ carry $1$; $3\times2=6$, add $1$ to get $7$).
+
+**Check.** $3\,725+1\,275=5\,000$. Correct.
+
+**Answer.** $7\,450$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Mỗi bài toán sau dùng phép cộng, phép trừ hay phép nhân? Vì sao? Rồi giải.
+
+a) Mỗi lọ có $1\,250$ hạt đậu. Hỏi $3$ lọ như thế có bao nhiêu hạt đậu?
+
+b) Kho có $4\,080$ kg gạo, đã bán $1\,260$ kg. Hỏi kho còn bao nhiêu ki-lô-gam gạo?
+
+c) Sáng cửa hàng bán $2\,315$ quyển sách, chiều bán $1\,280$ quyển. Hỏi cả ngày bán bao nhiêu quyển?
+
+[LỜI GIẢI CŨ – VI]
+a) $3$ lọ bằng nhau nên dùng phép nhân: $1\,250\times3=3\,750$ (hạt).
+
+b) "Đã bán" rồi hỏi "còn lại" nên dùng phép trừ: $4\,080-1\,260=2\,820$ (kg).
+
+c) Gộp số sách hai buổi nên dùng phép cộng: $2\,315+1\,280=3\,595$ (quyển).
+
+**Đáp số.** a) $3\,750$ hạt đậu; b) $2\,820$ kg; c) $3\,595$ quyển.
+
+[ĐỀ – EN]
+Does each problem need addition, subtraction or multiplication? Why? Then solve it.
+
+a) Each jar holds $1\,250$ beans. How many beans are there in $3$ such jars?
+
+b) A storeroom has $4\,080$ kg of rice and $1\,260$ kg have been sold. How many kilograms of rice are left?
+
+c) A shop sells $2\,315$ books in the morning and $1\,280$ books in the afternoon. How many books does it sell in the whole day?
+
+[LỜI GIẢI CŨ – EN]
+a) There are $3$ equal jars, so multiply: $1\,250\times3=3\,750$ (beans).
+
+b) Some rice "has been sold" and the question asks what is "left", so subtract: $4\,080-1\,260=2\,820$ (kg).
+
+c) The books from the two parts of the day are put together, so add: $2\,315+1\,280=3\,595$ (books).
+
+**Answer.** a) $3\,750$ beans; b) $2\,820$ kg; c) $3\,595$ books.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tìm lỗi sai trong lời giải của hai bạn rồi sửa lại.
+
+a) Nam: "$1\,536\times3=4\,598$."
+
+b) Lan: "$3\,070\times2=6\,040$."
+
+[LỜI GIẢI CŨ – VI]
+a) $6\times3=18$, viết $8$ nhớ $1$. $3\times3=9$, thêm $1$ được $10$, viết $0$ nhớ $1$. Nam đã quên cộng $1$ nên viết $9$. Làm đúng: $1\,536\times3=4\,608$.
+
+b) $0\times2=0$. $7\times2=14$, viết $4$ nhớ $1$. $0\times2=0$, thêm $1$ được $1$. Lan quên cộng $1$ ở hàng trăm vì thấy chữ số $0$. Làm đúng: $3\,070\times2=6\,140$.
+
+**Đáp số.** a) $4\,608$; b) $6\,140$.
+
+[ĐỀ – EN]
+Find the mistake in each pupil's work and correct it.
+
+a) Nam: "$1\,536\times3=4\,598$."
+
+b) Lan: "$3\,070\times2=6\,040$."
+
+[LỜI GIẢI CŨ – EN]
+a) $6\times3=18$, write $8$ carry $1$. $3\times3=9$, add $1$ to get $10$, write $0$ carry $1$. Nam forgot to add the $1$ and wrote $9$. Done correctly: $1\,536\times3=4\,608$.
+
+b) $0\times2=0$. $7\times2=14$, write $4$ carry $1$. $0\times2=0$, add $1$ to get $1$. Lan forgot to add the $1$ in the hundreds because she saw a $0$. Done correctly: $3\,070\times2=6\,140$.
+
+**Answer.** a) $4\,608$; b) $6\,140$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một nhà máy mỗi ngày làm được $1\,450$ cái bánh.
+
+a) Hỏi trong $3$ ngày nhà máy làm được bao nhiêu cái bánh?
+
+b) Một đơn hàng cần $5\,000$ cái bánh. Hỏi $3$ ngày làm xong thì còn thiếu bao nhiêu cái bánh?
+
+[LỜI GIẢI CŨ – VI]
+a) $1\,450\times3=4\,350$ (cái bánh).
+
+b) $5\,000-4\,350=650$ (cái bánh).
+
+**Kiểm tra.** $1\,500\times3=4\,500$, gần $4\,350$. Hợp lí.
+
+**Đáp số.** a) $4\,350$ cái bánh; b) $650$ cái bánh.
+
+[ĐỀ – EN]
+A factory makes $1\,450$ cakes every day.
+
+a) How many cakes does the factory make in $3$ days?
+
+b) An order needs $5\,000$ cakes. After $3$ days, how many more cakes are still needed?
+
+[LỜI GIẢI CŨ – EN]
+a) $1\,450\times3=4\,350$ (cakes).
+
+b) $5\,000-4\,350=650$ (cakes).
+
+**Check.** $1\,500\times3=4\,500$, close to $4\,350$. It makes sense.
+
+**Answer.** a) $4\,350$ cakes; b) $650$ cakes.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Bác Tư có $4$ túi hạt giống, bác Năm có $3$ túi hạt giống. Mỗi túi đều có $1\,245$ hạt.
+
+a) Tính số hạt của bác Tư và số hạt của bác Năm.
+
+b) Hai bác gộp hạt lại. Tổng số hạt là bao nhiêu? Vì sao tổng này cũng bằng $1\,245\times7$?
+
+[LỜI GIẢI CŨ – VI]
+a) Bác Tư: $1\,245\times4=4\,980$ hạt. Bác Năm: $1\,245\times3=3\,735$ hạt.
+
+b) Tổng: $4\,980+3\,735=8\,715$ hạt. Gộp lại có $4+3=7$ túi, mỗi túi $1\,245$ hạt nên tổng là $1\,245\times7=8\,715$. Hai kết quả bằng nhau.
+
+**Đáp số.** a) $4\,980$ hạt và $3\,735$ hạt; b) $8\,715$ hạt.
+
+[ĐỀ – EN]
+Mr Tu has $4$ bags of seeds and Mr Nam has $3$ bags of seeds. Each bag holds $1\,245$ seeds.
+
+a) Work out how many seeds Mr Tu has and how many seeds Mr Nam has.
+
+b) The two men put their seeds together. How many seeds are there in total? Why is this total also equal to $1\,245\times7$?
+
+[LỜI GIẢI CŨ – EN]
+a) Mr Tu: $1\,245\times4=4\,980$ seeds. Mr Nam: $1\,245\times3=3\,735$ seeds.
+
+b) Total: $4\,980+3\,735=8\,715$ seeds. Together there are $4+3=7$ bags of $1\,245$ seeds each, so the total is $1\,245\times7=8\,715$. The two answers are the same.
+
+**Answer.** a) $4\,980$ seeds and $3\,735$ seeds; b) $8\,715$ seeds.
+
+
+######################################################################
+@@@ g3/multiply-5-digit-by-1-digit
+Bài học: Nhân số có năm chữ số với số có một chữ số. Chia số có năm chữ số cho số có một chữ số / Multiplying a five-digit number by a one-digit number. Dividing a five-digit number by a one-digit number
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $32\,140\times2$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 32\,140 \\ \times\ 2 \\ \hline 64\,280 \end{array}$$
+Không có hàng nào có tích từ $10$ trở lên nên không phải nhớ.
+
+**Đáp số.** $64\,280$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $32\,140\times2$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 32\,140 \\ \times\ 2 \\ \hline 64\,280 \end{array}$$
+No place has a product of $10$ or more, so nothing is regrouped.
+
+**Answer.** $64\,280$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $17\,285\times4$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 17\,285 \\ \times\ 4 \\ \hline 69\,140 \end{array}$$
+Hàng đơn vị: $5\times4=20$, viết $0$ nhớ $2$. Hàng chục: $8\times4=32$, thêm $2$ được $34$, viết $4$ nhớ $3$. Hàng trăm: $2\times4=8$, thêm $3$ được $11$, viết $1$ nhớ $1$. Hàng nghìn: $7\times4=28$, thêm $1$ được $29$, viết $9$ nhớ $2$. Hàng chục nghìn: $1\times4=4$, thêm $2$ được $6$.
+
+**Đáp số.** $69\,140$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $17\,285\times4$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 17\,285 \\ \times\ 4 \\ \hline 69\,140 \end{array}$$
+Ones: $5\times4=20$, write $0$ and regroup $2$. Tens: $8\times4=32$, add $2$ to make $34$, write $4$ and regroup $3$. Hundreds: $2\times4=8$, add $3$ to make $11$, write $1$ and regroup $1$. Thousands: $7\times4=28$, add $1$ to make $29$, write $9$ and regroup $2$. Ten-thousands: $1\times4=4$, add $2$ to make $6$.
+
+**Answer.** $69\,140$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính: $96\,840:3$.
+
+[LỜI GIẢI CŨ – VI]
+$9:3=3$ (dư $0$). Hạ $6$ được $6$; $6:3=2$ (dư $0$). Hạ $8$ được $8$; $8:3=2$ (dư $2$). Hạ $4$ được $24$; $24:3=8$ (dư $0$). Hạ $0$ được $0$; $0:3=0$.
+
+**Đáp số.** $32\,280$.
+
+[ĐỀ – EN]
+Work out: $96\,840\div3$.
+
+[LỜI GIẢI CŨ – EN]
+$9\div3=3$ (remainder $0$). Bring down $6$ to make $6$; $6\div3=2$ (remainder $0$). Bring down $8$ to make $8$; $8\div3=2$ (remainder $2$). Bring down $4$ to make $24$; $24\div3=8$ (remainder $0$). Bring down $0$ to make $0$; $0\div3=0$.
+
+**Answer.** $32\,280$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính: $52\,387:4$.
+
+[LỜI GIẢI CŨ – VI]
+$5:4=1$ (dư $1$). Hạ $2$ được $12$; $12:4=3$ (dư $0$). Hạ $3$ được $3$; $3:4=0$ (dư $3$), viết $0$. Hạ $8$ được $38$; $38:4=9$ (dư $2$). Hạ $7$ được $27$; $27:4=6$ (dư $3$).
+
+**Thử lại.** $13\,096\times4=52\,384$ và $52\,384+3=52\,387$. Đúng.
+
+**Đáp số.** $13\,096$ (dư $3$).
+
+[ĐỀ – EN]
+Work out: $52\,387\div4$.
+
+[LỜI GIẢI CŨ – EN]
+$5\div4=1$ (remainder $1$). Bring down $2$ to make $12$; $12\div4=3$ (remainder $0$). Bring down $3$ to make $3$; $3\div4=0$ (remainder $3$), write $0$. Bring down $8$ to make $38$; $38\div4=9$ (remainder $2$). Bring down $7$ to make $27$; $27\div4=6$ (remainder $3$).
+
+**Check.** $13\,096\times4=52\,384$ and $52\,384+3=52\,387$. Correct.
+
+**Answer.** $13\,096$ (remainder $3$).
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tìm $x$: $x:8=11\,250$.
+
+[LỜI GIẢI CŨ – VI]
+$x=11\,250\times8=90\,000$.
+
+**Thử lại.** $90\,000:8=11\,250$. Đúng.
+
+**Đáp số.** $x=90\,000$.
+
+[ĐỀ – EN]
+Find $x$: $x\div8=11\,250$.
+
+[LỜI GIẢI CŨ – EN]
+$x=11\,250\times8=90\,000$.
+
+**Check.** $90\,000\div8=11\,250$. Correct.
+
+**Answer.** $x=90\,000$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một cửa hàng xăng (số liệu giả định) mỗi ngày bán được $12\,750$ lít xăng. Hỏi trong $6$ ngày cửa hàng bán được bao nhiêu lít xăng?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số lít xăng bán được trong $6$ ngày là:
+$$12\,750\times6=76\,500\ \text{(lít)}.$$
+
+**Đáp số.** $76\,500$ lít xăng.
+
+[ĐỀ – EN]
+A petrol station (made-up numbers) sells $12\,750$ litres of petrol every day. How many litres of petrol does it sell in $6$ days?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of litres sold in $6$ days is:
+$$12\,750\times6=76\,500\ \text{(litres)}.$$
+
+**Answer.** $76\,500$ litres of petrol.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một kho gạo (số liệu giả định) chia đều $93\,600$ kg gạo vào $9$ bao lớn. Hỏi mỗi bao lớn đựng bao nhiêu ki-lô-gam gạo?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số ki-lô-gam gạo ở mỗi bao lớn là:
+$$93\,600:9=10\,400\ \text{(kg)}.$$
+
+**Đáp số.** $10\,400$ kg gạo.
+
+[ĐỀ – EN]
+A rice store (made-up numbers) shares $93\,600$ kg of rice equally into $9$ large sacks. How many kilograms of rice does each large sack hold?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of kilograms in each large sack is:
+$$93\,600\div9=10\,400\ \text{(kg)}.$$
+
+**Answer.** $10\,400$ kg of rice.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài cộng, trừ trong phạm vi $100\,000$. Một kho có $80\,000$ kg gạo. Kho xuất đi $3$ chuyến, mỗi chuyến $15\,250$ kg. Hỏi kho còn lại bao nhiêu ki-lô-gam gạo?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số ki-lô-gam gạo đã xuất là:
+$$15\,250\times3=45\,750\ \text{(kg)}.$$
+Số ki-lô-gam gạo còn lại là:
+$$80\,000-45\,750=34\,250\ \text{(kg)}.$$
+
+**Đáp số.** $34\,250$ kg gạo.
+
+[ĐỀ – EN]
+Remember the lesson on addition and subtraction within $100\,000$. A store has $80\,000$ kg of rice. It sends out $3$ loads of $15\,250$ kg each. How many kilograms of rice are left in the store?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of kilograms sent out is:
+$$15\,250\times3=45\,750\ \text{(kg)}.$$
+The number of kilograms left is:
+$$80\,000-45\,750=34\,250\ \text{(kg)}.$$
+
+**Answer.** $34\,250$ kg of rice.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một số chia cho $8$ được thương là $12\,345$ và dư $7$. Tìm số đó.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $12\,345\times8=98\,760$. Số cần tìm là:
+$$98\,760+7=98\,767.$$
+
+**Thử lại.** $98\,767:8=12\,345$ (dư $7$). Đúng.
+
+**Đáp số.** $98\,767$.
+
+[ĐỀ – EN]
+A number divided by $8$ gives a quotient of $12\,345$ and a remainder of $7$. Find the number.
+
+[LỜI GIẢI CŨ – EN]
+We have $12\,345\times8=98\,760$. The number is:
+$$98\,760+7=98\,767.$$
+
+**Check.** $98\,767\div8=12\,345$ (remainder $7$). Correct.
+
+**Answer.** $98\,767$.
+
+
+######################################################################
+@@@ g3/nine-times-table
+Bài học: Bảng nhân 9, bảng chia 9 / The 9 times table and dividing by 9
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Tìm số trung bình cộng của $5$, $7$ và $9$.
+Tính:
+
+a) $9\times3$.
+
+b) $9\times5$.
+
+c) $9\times6$.
 
 [LỜI GIẢI CŨ – VI]
-$(5+7+9):3=21:3=7$.
+a) $9\times3=27$.
 
-**Đáp số.** $7$.
+b) $9\times5=45$.
+
+c) $9\times6=54$.
+
+**Đáp số.** a) $27$; b) $45$; c) $54$.
 
 [ĐỀ – EN]
-Find the mean of $5$, $7$ and $9$.
+Work out:
+
+a) $9\times3$.
+
+b) $9\times5$.
+
+c) $9\times6$.
 
 [LỜI GIẢI CŨ – EN]
-$(5+7+9)\div3=21\div3=7$.
+a) $9\times3=27$.
 
-**Answer.** $7$.
+b) $9\times5=45$.
+
+c) $9\times6=54$.
+
+**Answer.** a) $27$; b) $45$; c) $54$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Tìm số trung bình cộng của $10$, $20$, $30$ và $40$.
+Tính:
+
+a) $9\times7$.
+
+b) $9\times9$.
+
+c) $9\times10$.
 
 [LỜI GIẢI CŨ – VI]
-$(10+20+30+40):4=100:4=25$.
+a) $9\times7=70-7=63$.
 
-**Đáp số.** $25$.
+b) $9\times9=90-9=81$.
+
+c) $9\times10=100-10=90$.
+
+**Đáp số.** a) $63$; b) $81$; c) $90$.
 
 [ĐỀ – EN]
-Find the mean of $10$, $20$, $30$ and $40$.
+Work out:
+
+a) $9\times7$.
+
+b) $9\times9$.
+
+c) $9\times10$.
 
 [LỜI GIẢI CŨ – EN]
-$(10+20+30+40)\div4=100\div4=25$.
+a) $9\times7=70-7=63$.
 
-**Answer.** $25$.
+b) $9\times9=90-9=81$.
+
+c) $9\times10=100-10=90$.
+
+**Answer.** a) $63$; b) $81$; c) $90$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài chia cho số có hai chữ số: tính $156:12$. Từ đó cho biết trung bình cộng của $12$ số có tổng bằng $156$ là bao nhiêu.
+Em hãy nhớ lại bảng nhân $8$. Tính rồi so sánh:
+
+a) $8\times9$.
+
+b) $9\times8$.
+
+c) $8\times8$ và $9\times7$.
 
 [LỜI GIẢI CŨ – VI]
-$12\times13=156$, nên $156:12=13$. Trung bình cộng của $12$ số đó là $13$.
+a) $8\times9=72$.
 
-**Đáp số.** $13$.
+b) $9\times8=72$, bằng $8\times9$.
+
+c) $8\times8=64$ và $9\times7=63$, nên $8\times8>9\times7$.
+
+**Đáp số.** a) $72$; b) $72$; c) $64$ và $63$.
 
 [ĐỀ – EN]
-Remember dividing by a two-digit number: work out $156\div12$. Then say what the mean is of $12$ numbers whose sum is $156$.
+Remember the $8$ times table. Work out and compare:
+
+a) $8\times9$.
+
+b) $9\times8$.
+
+c) $8\times8$ and $9\times7$.
 
 [LỜI GIẢI CŨ – EN]
-$12\times13=156$, so $156\div12=13$. The mean of those $12$ numbers is $13$.
+a) $8\times9=72$.
 
-**Answer.** $13$.
+b) $9\times8=72$, the same as $8\times9$.
+
+c) $8\times8=64$ and $9\times7=63$, so $8\times8>9\times7$.
+
+**Answer.** a) $72$; b) $72$; c) $64$ and $63$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Ba số có tổng bằng $45$. Tìm số trung bình cộng của ba số đó.
+Tính:
+
+a) $27:9$.
+
+b) $63:9$.
+
+c) $90:9$.
 
 [LỜI GIẢI CŨ – VI]
-$45:3=15$.
+a) $9\times3=27$ nên $27:9=3$.
 
-**Đáp số.** $15$.
+b) $9\times7=63$ nên $63:9=7$.
+
+c) $9\times10=90$ nên $90:9=10$.
+
+**Đáp số.** a) $3$; b) $7$; c) $10$.
 
 [ĐỀ – EN]
-Three numbers have a sum of $45$. Find their mean.
+Work out:
+
+a) $27\div9$.
+
+b) $63\div9$.
+
+c) $90\div9$.
 
 [LỜI GIẢI CŨ – EN]
-$45\div3=15$.
+a) $9\times3=27$, so $27\div9=3$.
 
-**Answer.** $15$.
+b) $9\times7=63$, so $63\div9=7$.
+
+c) $9\times10=90$, so $90\div9=10$.
+
+**Answer.** a) $3$; b) $7$; c) $10$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Hai bạn gộp $20$ viên bi và $36$ viên bi rồi chia đều cho nhau. Mỗi bạn được bao nhiêu viên bi? Vì sao phải chia cho $2$?
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống. Vì sao?
+
+a) $9\times6 \;\square\; 50$.
+
+b) $45:9 \;\square\; 9\times1$.
+
+c) $9\times8 \;\square\; 8\times9$.
 
 [LỜI GIẢI CŨ – VI]
-Tổng số bi là $20+36=56$ (viên). Có $2$ bạn nên chia cho $2$: $56:2=28$ (viên).
+a) $9\times6=54$ và $54>50$ nên $9\times6>50$.
 
-**Đáp số.** $28$ viên bi.
+b) $45:9=5$ và $9\times1=9$, $5<9$ nên $45:9<9\times1$.
+
+c) $9\times8=72$ và $8\times9=72$ nên hai vế bằng nhau (đổi chỗ hai thừa số thì tích không đổi).
+
+**Đáp số.** a) $>$; b) $<$; c) $=$.
 
 [ĐỀ – EN]
-Two children put together $20$ marbles and $36$ marbles, then share them equally. How many marbles does each child get? Why do we divide by $2$?
+Write $>$, $<$ or $=$ in the box. Why?
+
+a) $9\times6 \;\square\; 50$.
+
+b) $45\div9 \;\square\; 9\times1$.
+
+c) $9\times8 \;\square\; 8\times9$.
 
 [LỜI GIẢI CŨ – EN]
-The total is $20+36=56$ (marbles). There are $2$ children, so $56\div2=28$ (marbles).
+a) $9\times6=54$ and $54>50$, so $9\times6>50$.
 
-**Answer.** $28$ marbles.
+b) $45\div9=5$ and $9\times1=9$; $5<9$, so $45\div9<9\times1$.
+
+c) $9\times8=72$ and $8\times9=72$, so the two sides are equal (swapping the factors does not change the product).
+
+**Answer.** a) $>$; b) $<$; c) $=$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Mai làm bài: "Số trung bình cộng của $4$, $8$, $6$, $10$: tổng là $28$, chia cho $3$ không hết nên không có số trung bình cộng." Bạn Mai sai ở đâu? Hãy làm lại cho đúng.
+Khoa viết: "$9\times6=45$". Khoa sai ở đâu? Hãy sửa lại.
 
 [LỜI GIẢI CŨ – VI]
-Có $4$ số, không phải $3$ số, nên Mai chia sai. Đúng là $(4+8+6+10):4=28:4=7$.
+$45=9\times5$, Khoa thiếu một nhóm $9$. Ta có $9\times6=45+9=54$.
 
-**Đáp số.** $7$.
+**Thử lại.** $54:9=6$. Đúng.
+
+**Đáp số.** Khoa thiếu một nhóm; $9\times6=54$.
 
 [ĐỀ – EN]
-Mai wrote: "The mean of $4$, $8$, $6$, $10$: the sum is $28$, and $28\div3$ does not work out exactly, so there is no mean." Where did Mai go wrong? Do it correctly.
+Khoa wrote: "$9\times6=45$". Where did Khoa go wrong? Correct it.
 
 [LỜI GIẢI CŨ – EN]
-There are $4$ numbers, not $3$, so Mai divided by the wrong number. The correct working is $(4+8+6+10)\div4=28\div4=7$.
+$45=9\times5$, so Khoa is missing one group of $9$. We have $9\times6=45+9=54$.
 
-**Answer.** $7$.
+**Check.** $54\div9=6$. Correct.
+
+**Answer.** Khoa was one group short; $9\times6=54$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Nhiệt độ lúc trưa trong năm ngày liền: Thứ Hai $22$ độ, Thứ Ba $24$ độ, Thứ Tư $25$ độ, Thứ Năm $23$ độ, Thứ Sáu $26$ độ.
-a) Tìm nhiệt độ trung bình của năm ngày.
-b) Những ngày nào có nhiệt độ cao hơn mức trung bình?
+a) Mỗi hộp có $9$ cây bút màu. Hỏi $8$ hộp có bao nhiêu cây bút?
+
+b) Có $81$ viên kẹo chia vào các túi, mỗi túi $9$ viên. Hỏi chia được bao nhiêu túi?
 
 [LỜI GIẢI CŨ – VI]
-a) $(22+24+25+23+26):5=120:5=24$ (độ).
-b) Các ngày có nhiệt độ lớn hơn $24$ độ là Thứ Tư ($25$) và Thứ Sáu ($26$).
+a) Số bút là $9\times8=72$ (cây).
 
-**Đáp số.** a) $24$ độ; b) Thứ Tư và Thứ Sáu.
+b) Số túi là $81:9=9$ (túi).
+
+**Đáp số.** a) $72$ cây bút; b) $9$ túi.
 
 [ĐỀ – EN]
-The midday temperature on five days in a row: Monday $22$ degrees, Tuesday $24$ degrees, Wednesday $25$ degrees, Thursday $23$ degrees, Friday $26$ degrees.
-a) Find the mean temperature over the five days.
-b) Which days were warmer than the mean?
+a) Each box holds $9$ coloured pencils. How many pencils are in $8$ boxes?
+
+b) $81$ sweets are put into bags, $9$ sweets in each bag. How many bags are filled?
 
 [LỜI GIẢI CŨ – EN]
-a) $(22+24+25+23+26)\div5=120\div5=24$ (degrees).
-b) The days above $24$ degrees are Wednesday ($25$) and Friday ($26$).
+a) The number of pencils is $9\times8=72$ (pencils).
 
-**Answer.** a) $24$ degrees; b) Wednesday and Friday.
+b) The number of bags is $81\div9=9$ (bags).
+
+**Answer.** a) $72$ pencils; b) $9$ bags.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Trung bình cộng của bốn số là $15$. Ba trong bốn số là $12$, $18$ và $20$. Tìm số thứ tư.
+Em dùng mẹo tổng hai chữ số bằng $9$.
+
+a) Trong các số $36,\ 45,\ 48,\ 72,\ 75$, số nào là tích trong bảng nhân $9$?
+
+b) Chia mỗi số tìm được ở câu a) cho $9$.
 
 [LỜI GIẢI CŨ – VI]
-Tổng bốn số là $15\times4=60$. Ba số đã biết có tổng $12+18+20=50$. Số thứ tư là $60-50=10$.
+a) $3+6=9$, $4+5=9$, $4+8=12$, $7+2=9$, $7+5=12$. Vậy $36,\ 45,\ 72$ là tích trong bảng nhân $9$.
 
-**Kiểm tra.** $(12+18+20+10):4=60:4=15$. Đúng.
+b) $36:9=4$, $45:9=5$, $72:9=8$.
 
-**Đáp số.** $10$.
+**Thử lại.** $9\times4=36$, $9\times5=45$, $9\times8=72$.
+
+**Đáp số.** a) $36,\ 45,\ 72$; b) $4,\ 5,\ 8$.
 
 [ĐỀ – EN]
-The mean of four numbers is $15$. Three of the numbers are $12$, $18$ and $20$. Find the fourth number.
+Use the digit-sum trick.
+
+a) Which of the numbers $36,\ 45,\ 48,\ 72,\ 75$ are products in the $9$ times table?
+
+b) Divide each number you found in part a) by $9$.
 
 [LỜI GIẢI CŨ – EN]
-The sum of the four numbers is $15\times4=60$. The three known numbers add up to $12+18+20=50$. The fourth number is $60-50=10$.
+a) $3+6=9$, $4+5=9$, $4+8=12$, $7+2=9$, $7+5=12$. So $36,\ 45,\ 72$ are products in the $9$ times table.
 
-**Check.** $(12+18+20+10)\div4=60\div4=15$. Correct.
+b) $36\div9=4$, $45\div9=5$, $72\div9=8$.
 
-**Answer.** $10$.
+**Check.** $9\times4=36$, $9\times5=45$, $9\times8=72$.
+
+**Answer.** a) $36,\ 45,\ 72$; b) $4,\ 5,\ 8$.
 
 
 ######################################################################
-@@@ g4/fraction-of-an-amount
-Bài học: Tìm phân số của một số / Finding a fraction of an amount
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Tìm $\dfrac{3}{4}$ của $20$.
-
-[LỜI GIẢI CŨ – VI]
-Mỗi phần là $20:4=5$. Lấy $3$ phần: $5\times3=15$.
-
-**Đáp số.** $15$.
-
-[ĐỀ – EN]
-Find $\dfrac{3}{4}$ of $20$.
-
-[LỜI GIẢI CŨ – EN]
-Each part is $20\div4=5$. Taking $3$ parts gives $5\times3=15$.
-
-**Answer.** $15$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Tìm $\dfrac{2}{5}$ của $30$.
-
-[LỜI GIẢI CŨ – VI]
-$$30:5\times2=6\times2=12.$$
-
-**Đáp số.** $12$.
-
-[ĐỀ – EN]
-Find $\dfrac{2}{5}$ of $30$.
-
-[LỜI GIẢI CŨ – EN]
-$$30\div5\times2=6\times2=12.$$
-
-**Answer.** $12$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Tìm $\dfrac{7}{8}$ của $64$.
-
-[LỜI GIẢI CŨ – VI]
-$$64:8\times7=8\times7=56.$$
-
-**Đáp số.** $56$.
-
-[ĐỀ – EN]
-Find $\dfrac{7}{8}$ of $64$.
-
-[LỜI GIẢI CŨ – EN]
-$$64\div8\times7=8\times7=56.$$
-
-**Answer.** $56$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Một giờ có $60$ phút. Hỏi $\dfrac{2}{3}$ giờ là bao nhiêu phút?
-
-[LỜI GIẢI CŨ – VI]
-Số phút trong $\dfrac{2}{3}$ giờ là:
-$$60:3\times2=20\times2=40\ \text{(phút)}.$$
-
-**Đáp số.** $40$ phút.
-
-[ĐỀ – EN]
-There are $60$ minutes in an hour. How many minutes is $\dfrac{2}{3}$ of an hour?
-
-[LỜI GIẢI CŨ – EN]
-The number of minutes in $\dfrac{2}{3}$ of an hour is:
-$$60\div3\times2=20\times2=40\ \text{(minutes)}.$$
-
-**Answer.** $40$ minutes.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Một bể chứa $480$ lít nước. Người ta đã dùng $\dfrac{3}{8}$ lượng nước trong bể. Hỏi đã dùng bao nhiêu lít nước và trong bể còn lại bao nhiêu lít nước?
-
-[LỜI GIẢI CŨ – VI]
-Số lít nước đã dùng là $480:8\times3=60\times3=180$ (lít).
-
-Số lít nước còn lại là $480-180=300$ (lít).
-
-**Đáp số.** Đã dùng $180$ lít; còn lại $300$ lít.
-
-[ĐỀ – EN]
-A tank holds $480$ litres of water. $\dfrac{3}{8}$ of the water in the tank has been used. How many litres have been used, and how many litres are left in the tank?
-
-[LỜI GIẢI CŨ – EN]
-The litres of water used are $480\div8\times3=60\times3=180$ (litres).
-
-The litres of water left are $480-180=300$ (litres).
-
-**Answer.** $180$ litres used; $300$ litres left.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Một mảnh vải dài $18$ m. Người ta dùng $\dfrac{2}{9}$ mảnh vải để may áo và $\dfrac{1}{3}$ mảnh vải để may quần. Hỏi còn lại bao nhiêu mét vải?
-
-[LỜI GIẢI CŨ – VI]
-Số mét vải may áo là $18:9\times2=4$ (m).
-
-Số mét vải may quần là $18:3=6$ (m).
-
-Số mét vải còn lại là $18-4-6=8$ (m).
-
-**Đáp số.** $8$ m.
-
-[ĐỀ – EN]
-A length of cloth is $18$ m long. $\dfrac{2}{9}$ of the cloth is used to make a shirt and $\dfrac{1}{3}$ of the cloth is used to make trousers. How many metres of cloth are left?
-
-[LỜI GIẢI CŨ – EN]
-The metres of cloth for the shirt are $18\div9\times2=4$ (m).
-
-The metres of cloth for the trousers are $18\div3=6$ (m).
-
-The metres of cloth left are $18-4-6=8$ (m).
-
-**Answer.** $8$ m.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Nam có $150\,000$ đồng và tiêu $\dfrac{2}{5}$ số tiền đó để mua sách. Hỏi Nam đã tiêu bao nhiêu tiền để mua sách?
-
-[LỜI GIẢI CŨ – VI]
-Số tiền Nam tiêu để mua sách là:
-$$150\,000:5\times2=30\,000\times2=60\,000\ \text{(đồng)}.$$
-
-**Đáp số.** $60\,000$ đồng.
-
-[ĐỀ – EN]
-Nam has $150\,000$ dong and spends $\dfrac{2}{5}$ of it on books. How much money does Nam spend on books?
-
-[LỜI GIẢI CŨ – EN]
-The amount Nam spends on books is:
-$$150\,000\div5\times2=30\,000\times2=60\,000\ \text{(dong)}.$$
-
-**Answer.** $60\,000$ dong.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Em hãy nhớ lại bài nhân phân số. Tìm $\dfrac{2}{3}$ của $\dfrac{3}{5}$.
-
-[LỜI GIẢI CŨ – VI]
-$$\dfrac{3}{5}\times\dfrac{2}{3}=\dfrac{6}{15}=\dfrac{2}{5}.$$
-
-**Đáp số.** $\dfrac{2}{5}$.
-
-[ĐỀ – EN]
-Remember the lesson on multiplying fractions. Find $\dfrac{2}{3}$ of $\dfrac{3}{5}$.
-
-[LỜI GIẢI CŨ – EN]
-$$\dfrac{3}{5}\times\dfrac{2}{3}=\dfrac{6}{15}=\dfrac{2}{5}.$$
-
-**Answer.** $\dfrac{2}{5}$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Em hãy nhớ lại bài so sánh và trừ phân số. Một lớp có $40$ học sinh, trong đó $\dfrac{3}{5}$ số học sinh thích môn Toán và $\dfrac{1}{4}$ số học sinh thích môn Văn. Hỏi số em thích Toán nhiều hơn số em thích Văn bao nhiêu em?
-
-[LỜI GIẢI CŨ – VI]
-Số em thích Toán là $40:5\times3=24$ (em).
-
-Số em thích Văn là $40:4=10$ (em).
-
-Số em thích Toán nhiều hơn số em thích Văn là $24-10=14$ (em).
-
-**Đáp số.** $14$ em.
-
-[ĐỀ – EN]
-Remember the lessons on comparing and subtracting fractions. A class has $40$ students, of whom $\dfrac{3}{5}$ like Maths and $\dfrac{1}{4}$ like Literature. How many more students like Maths than like Literature?
-
-[LỜI GIẢI CŨ – EN]
-The number who like Maths is $40\div5\times3=24$ (students).
-
-The number who like Literature is $40\div4=10$ (students).
-
-The number who like Maths exceeds the number who like Literature by $24-10=14$ (students).
-
-**Answer.** $14$ students.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Khối lớp $4$ của một trường có một số học sinh. Biết $\dfrac{3}{5}$ số học sinh của khối là $36$ em. Hỏi khối lớp $4$ có bao nhiêu học sinh?
-
-[LỜI GIẢI CŨ – VI]
-$3$ phần là $36$ em nên $1$ phần là $36:3=12$ (em).
-
-Cả khối có $5$ phần, tức là $12\times5=60$ (em).
-
-**Thử lại.** $\dfrac{3}{5}$ của $60$ là $60:5\times3=36$. Đúng.
-
-**Đáp số.** $60$ học sinh.
-
-[ĐỀ – EN]
-The Year $4$ group of a school has a number of students. $\dfrac{3}{5}$ of the students in the group is $36$ students. How many students are in the Year $4$ group?
-
-[LỜI GIẢI CŨ – EN]
-$3$ parts is $36$ students, so $1$ part is $36\div3=12$ (students).
-
-The whole group is $5$ parts, which is $12\times5=60$ (students).
-
-**Check.** $\dfrac{3}{5}$ of $60$ is $60\div5\times3=36$. Correct.
-
-**Answer.** $60$ students.
-
-
-######################################################################
-@@@ g4/fractions-and-division
-Bài học: Phân số và phép chia số tự nhiên / Fractions and division of whole numbers
+@@@ g3/numerical-expressions
+Bài học: Biểu thức số. Tính giá trị của biểu thức số / Numerical expressions and their values
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Viết thương của phép chia $3:5$ dưới dạng phân số.
+Tính giá trị của biểu thức: $90-25+17$.
 
 [LỜI GIẢI CŨ – VI]
-$3:5=\dfrac{3}{5}$.
-
-**Đáp số.** $\dfrac{3}{5}$.
+$$90-25+17=65+17=82.$$
+**Đáp số.** $82$.
 
 [ĐỀ – EN]
-Write the quotient of $3\div5$ as a fraction.
+Find the value of the expression: $90-25+17$.
 
 [LỜI GIẢI CŨ – EN]
-$3\div5=\dfrac{3}{5}$.
-
-**Answer.** $\dfrac{3}{5}$.
+$$90-25+17=65+17=82.$$
+**Answer.** $82$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Chia đều $4$ chiếc bánh cho $6$ bạn. Mỗi bạn được bao nhiêu phần chiếc bánh?
+Tính giá trị của biểu thức: $63:7\times 4$.
 
 [LỜI GIẢI CŨ – VI]
-$4:6=\dfrac{4}{6}$ (chiếc bánh).
-
-**Đáp số.** $\dfrac{4}{6}$ chiếc bánh.
+$$63:7\times 4=9\times 4=36.$$
+**Đáp số.** $36$.
 
 [ĐỀ – EN]
-Share $4$ cakes equally among $6$ children. What part of a cake does each child get?
+Find the value of the expression: $63\div7\times 4$.
 
 [LỜI GIẢI CŨ – EN]
-$4\div6=\dfrac{4}{6}$ (of a cake).
-
-**Answer.** $\dfrac{4}{6}$ of a cake.
+$$63\div7\times 4=9\times 4=36.$$
+**Answer.** $36$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài trước: một hình chia thành $9$ phần bằng nhau, tô màu $7$ phần. Viết phân số chỉ phần đã tô, rồi viết phân số đó dưới dạng một phép chia.
-
-![Hình vuông ba nhân ba có bảy phần được tô màu](/assets/img/g4/g4-fractions-and-division-01.svg)
+Tính giá trị của biểu thức: $15+4\times 6$.
 
 [LỜI GIẢI CŨ – VI]
-Phân số chỉ phần đã tô là $\dfrac{7}{9}$, và $\dfrac{7}{9}=7:9$.
-
-**Đáp số.** $\dfrac{7}{9}=7:9$.
+$$15+4\times 6=15+24=39.$$
+**Đáp số.** $39$.
 
 [ĐỀ – EN]
-Remember the last lesson: a shape is cut into $9$ equal parts and $7$ parts are coloured. Write the fraction for the coloured part, then write that fraction as a division.
-
-![A three-by-three square with seven parts shaded](/assets/img/g4/g4-fractions-and-division-01.svg)
+Find the value of the expression: $15+4\times 6$.
 
 [LỜI GIẢI CŨ – EN]
-The fraction for the coloured part is $\dfrac{7}{9}$, and $\dfrac{7}{9}=7\div9$.
-
-**Answer.** $\dfrac{7}{9}=7\div9$.
+$$15+4\times 6=15+24=39.$$
+**Answer.** $39$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Viết mỗi số tự nhiên sau dưới dạng phân số có mẫu số $1$: a) $5$; b) $12$. Viết số $1$ dưới dạng phân số có mẫu số $6$.
+Tính giá trị của biểu thức: $56-28:4$.
 
 [LỜI GIẢI CŨ – VI]
-a) $5=\dfrac{5}{1}$. b) $12=\dfrac{12}{1}$. Số $1$ với mẫu số $6$ là $\dfrac{6}{6}$.
-
-**Đáp số.** $\dfrac{5}{1}$; $\dfrac{12}{1}$; $\dfrac{6}{6}$.
+$$56-28:4=56-7=49.$$
+**Đáp số.** $49$.
 
 [ĐỀ – EN]
-Write each whole number as a fraction with denominator $1$: a) $5$; b) $12$. Write the number $1$ as a fraction with denominator $6$.
+Find the value of the expression: $56-28\div4$.
 
 [LỜI GIẢI CŨ – EN]
-a) $5=\dfrac{5}{1}$. b) $12=\dfrac{12}{1}$. The number $1$ with denominator $6$ is $\dfrac{6}{6}$.
-
-**Answer.** $\dfrac{5}{1}$; $\dfrac{12}{1}$; $\dfrac{6}{6}$.
+$$56-28\div4=56-7=49.$$
+**Answer.** $49$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Vì sao không thể viết $5:0$ thành một phân số?
+Tính giá trị của hai biểu thức $(24+36):6$ và $24+36:6$. Hai giá trị có bằng nhau không?
 
 [LỜI GIẢI CŨ – VI]
-Số chia là $0$ sẽ thành mẫu số $0$. Không thể chia $5$ thành $0$ phần bằng nhau, nên không có phân số $\dfrac{5}{0}$.
+$$(24+36):6=60:6=10.$$
+$$24+36:6=24+6=30.$$
+Hai giá trị là $10$ và $30$, nên không bằng nhau.
 
-**Đáp số.** Vì mẫu số không được bằng $0$.
+**Đáp số.** $10$ và $30$; không bằng nhau.
 
 [ĐỀ – EN]
-Why can we not write $5\div0$ as a fraction?
+Find the values of the two expressions $(24+36)\div6$ and $24+36\div6$. Are the two values equal?
 
 [LỜI GIẢI CŨ – EN]
-The divisor $0$ would become a denominator of $0$. We cannot share $5$ into $0$ equal parts, so there is no fraction $\dfrac{5}{0}$.
+$$(24+36)\div6=60\div6=10.$$
+$$24+36\div6=24+6=30.$$
+The two values are $10$ and $30$, so they are not equal.
 
-**Answer.** Because the denominator cannot be $0$.
+**Answer.** $10$ and $30$; not equal.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Hà viết: "$2:3=\dfrac{3}{2}$." Hà sai ở đâu? Hãy viết lại cho đúng.
+Một cửa hàng có $5$ thùng nước, mỗi thùng $12$ chai, và có thêm $25$ chai lẻ. Cửa hàng đã bán $40$ chai. Hỏi còn lại bao nhiêu chai nước? Viết một biểu thức rồi tính.
 
 [LỜI GIẢI CŨ – VI]
-Hà viết ngược. Số bị chia là $2$ nên là tử số: $2:3=\dfrac{2}{3}$.
-
-**Đáp số.** $\dfrac{2}{3}$.
+Số chai nước còn lại là:
+$$5\times 12+25-40=60+25-40=85-40=45\ \text{(chai)}.$$
+**Đáp số.** $45$ chai nước.
 
 [ĐỀ – EN]
-Ha wrote: "$2\div3=\dfrac{3}{2}$." Where did Ha go wrong? Write it correctly.
+A shop has $5$ crates of water with $12$ bottles in each crate, and $25$ more loose bottles. The shop has sold $40$ bottles. How many bottles of water are left? Write an expression and work it out.
 
 [LỜI GIẢI CŨ – EN]
-Ha wrote it the wrong way round. The dividend is $2$, so it is the numerator: $2\div3=\dfrac{2}{3}$.
-
-**Answer.** $\dfrac{2}{3}$.
+The number of bottles of water left is:
+$$5\times 12+25-40=60+25-40=85-40=45\ \text{(bottles)}.$$
+**Answer.** $45$ bottles of water.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Viết kết quả mỗi bài toán dưới dạng phân số:
-a) Chia đều $2$ lít nước vào $3$ chai. Mỗi chai có bao nhiêu lít?
-b) Chia đều $3$ lít nước vào $2$ chai. Mỗi chai có bao nhiêu lít?
-c) Chia đều $6$ lít nước vào $6$ chai. Mỗi chai có bao nhiêu lít?
+Em nhớ lại bài toán hai bước. Nhà Hà nuôi $8$ con gà, số vịt gấp $3$ lần số gà. Hỏi nhà Hà nuôi tất cả bao nhiêu con gà và vịt? Viết một biểu thức rồi tính.
 
 [LỜI GIẢI CŨ – VI]
-a) $2:3=\dfrac{2}{3}$ (lít). b) $3:2=\dfrac{3}{2}$ (lít). c) $6:6=\dfrac{6}{6}=1$ (lít).
-
-**Đáp số.** a) $\dfrac{2}{3}$ lít; b) $\dfrac{3}{2}$ lít; c) $1$ lít.
+Số con gà và vịt là:
+$$8+8\times 3=8+24=32\ \text{(con)}.$$
+**Đáp số.** $32$ con.
 
 [ĐỀ – EN]
-Write the answer to each problem as a fraction:
-a) Share $2$ litres of water equally into $3$ bottles. How many litres in each bottle?
-b) Share $3$ litres of water equally into $2$ bottles. How many litres in each bottle?
-c) Share $6$ litres of water equally into $6$ bottles. How many litres in each bottle?
+Remember two-step problems. Ha's family keeps $8$ hens, and they keep $3$ times as many ducks as hens. How many hens and ducks do they keep altogether? Write an expression and work it out.
 
 [LỜI GIẢI CŨ – EN]
-a) $2\div3=\dfrac{2}{3}$ (litres). b) $3\div2=\dfrac{3}{2}$ (litres). c) $6\div6=\dfrac{6}{6}=1$ (litre).
-
-**Answer.** a) $\dfrac{2}{3}$ litre; b) $\dfrac{3}{2}$ litres; c) $1$ litre.
+The number of hens and ducks is:
+$$8+8\times 3=8+24=32\ \text{(birds)}.$$
+**Answer.** $32$ birds.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Tìm số thích hợp thay cho dấu $?$:
-a) $4:9=\dfrac{?}{9}$.
-b) $12:?=\dfrac{12}{5}$.
-c) $7:4=\dfrac{?}{4}$.
+Thêm một cặp dấu ngoặc vào biểu thức $30-10+5$ để giá trị của nó bằng $15$.
 
 [LỜI GIẢI CŨ – VI]
-a) Số bị chia là $4$ nên $?=4$. b) Mẫu số là $5$ nên số chia $?=5$. c) Số bị chia là $7$ nên $?=7$.
+Không có ngoặc: $30-10+5=20+5=25$.
 
-**Kiểm tra.** $4:9=\dfrac{4}{9}$; $12:5=\dfrac{12}{5}$; $7:4=\dfrac{7}{4}$. Đúng.
-
-**Đáp số.** a) $4$; b) $5$; c) $7$.
+Đặt ngoặc quanh $10+5$: 
+$$30-(10+5)=30-15=15.$$
+**Đáp số.** $30-(10+5)=15$.
 
 [ĐỀ – EN]
-Find the number that goes in place of $?$:
-a) $4\div9=\dfrac{?}{9}$.
-b) $12\div?=\dfrac{12}{5}$.
-c) $7\div4=\dfrac{?}{4}$.
+Put one pair of brackets into the expression $30-10+5$ so that its value is $15$.
 
 [LỜI GIẢI CŨ – EN]
-a) The dividend is $4$, so $?=4$. b) The denominator is $5$, so the divisor $?=5$. c) The dividend is $7$, so $?=7$.
+Without brackets: $30-10+5=20+5=25$.
 
-**Check.** $4\div9=\dfrac{4}{9}$; $12\div5=\dfrac{12}{5}$; $7\div4=\dfrac{7}{4}$. Correct.
-
-**Answer.** a) $4$; b) $5$; c) $7$.
+With brackets around $10+5$:
+$$30-(10+5)=30-15=15.$$
+**Answer.** $30-(10+5)=15$.
 
 
 ===== HẾT FILE Lemonmath.com-03-LG =====

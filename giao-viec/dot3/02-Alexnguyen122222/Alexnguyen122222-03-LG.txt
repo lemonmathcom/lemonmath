@@ -189,979 +189,901 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g2/cylinders-and-spheres (8 bài tập)
-- g2/days-hours-minutes (8 bài tập)
-- g2/decimetres-metres-kilometres (8 bài tập)
-- g2/division-facts-for-2 (8 bài tập)
-- g2/how-many-more-or-fewer (8 bài tập)
+- g2/add-within-1000-no-regrouping (8 bài tập)
+- g2/adding-on-taking-away-problems (8 bài tập)
+- g2/addition-crossing-10 (8 bài tập)
+- g2/addition-facts-crossing-10 (8 bài tập)
+- g2/broken-lines-quadrilaterals (8 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g2/cylinders-and-spheres
-Bài học: Khối trụ, khối cầu / Cylinders and spheres
+@@@ g2/add-within-1000-no-regrouping
+Bài học: Phép cộng (không nhớ) trong phạm vi 1000. Phép cộng (có nhớ) trong phạm vi 1000 / Addition within 1,000 (no regrouping). Addition within 1,000 (with regrouping)
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Mỗi đồ vật có dạng khối trụ hay khối cầu?
-
-a) Lon nước ngọt.
-
-b) Quả bóng bàn.
-
-c) Cái trống.
-
-d) Viên bi.
+Đặt tính rồi tính: $214+365$.
 
 [LỜI GIẢI CŨ – VI]
-Lon nước ngọt và cái trống có hai đáy phẳng. Quả bóng bàn và viên bi không có mặt phẳng.
+$$\begin{array}{r} 214 \\ +\ 365 \\ \hline 579 \end{array}$$
+Hàng đơn vị: $4+5=9$. Hàng chục: $1+6=7$. Hàng trăm: $2+3=5$.
 
-**Đáp số.** a) khối trụ; b) khối cầu; c) khối trụ; d) khối cầu.
+**Đáp số.** $579$.
 
 [ĐỀ – EN]
-Is each object a cylinder or a sphere?
-
-a) A tin of fizzy drink.
-
-b) A table-tennis ball.
-
-c) A drum.
-
-d) A marble.
+Set out in columns and work out: $214+365$.
 
 [LỜI GIẢI CŨ – EN]
-The tin and the drum have two flat bases. The table-tennis ball and the marble have no flat face.
+$$\begin{array}{r} 214 \\ +\ 365 \\ \hline 579 \end{array}$$
+Ones: $4+5=9$. Tens: $1+6=7$. Hundreds: $2+3=5$.
 
-**Answer.** a) cylinder; b) sphere; c) cylinder; d) sphere.
+**Answer.** $579$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Điền số thích hợp.
-
-a) Khối trụ có $\square$ mặt phẳng.
-
-b) Khối trụ có $\square$ mặt cong.
-
-c) Khối cầu có $\square$ mặt phẳng.
+Tính nhẩm: $600+300$ và $520+70$.
 
 [LỜI GIẢI CŨ – VI]
-Khối trụ có hai đáy phẳng và một mặt cong. Khối cầu không có mặt phẳng.
+$6$ trăm cộng $3$ trăm bằng $9$ trăm, nên $600+300=900$.
 
-**Đáp số.** a) $2$; b) $1$; c) $0$.
+$52$ chục cộng $7$ chục bằng $59$ chục, nên $520+70=590$.
+
+**Đáp số.** $900$ và $590$.
 
 [ĐỀ – EN]
-Write the right number in each box.
-
-a) A cylinder has $\square$ flat faces.
-
-b) A cylinder has $\square$ curved surfaces.
-
-c) A sphere has $\square$ flat faces.
+Work out in your head: $600+300$ and $520+70$.
 
 [LỜI GIẢI CŨ – EN]
-A cylinder has two flat bases and one curved surface. A sphere has no flat faces.
+$6$ hundreds plus $3$ hundreds is $9$ hundreds, so $600+300=900$.
 
-**Answer.** a) $2$; b) $1$; c) $0$.
+$52$ tens plus $7$ tens is $59$ tens, so $520+70=590$.
+
+**Answer.** $900$ and $590$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Câu nào đúng, câu nào sai?
-
-a) Khối cầu có mặt phẳng.
-
-b) Khối trụ xếp chồng lên nhau được.
-
-c) Quả bóng lăn được theo mọi hướng.
+Đặt tính rồi tính: $346+278$.
 
 [LỜI GIẢI CŨ – VI]
-a) Sai vì khối cầu không có mặt phẳng. b) Đúng vì khối trụ có đáy phẳng. c) Đúng vì khối cầu lăn theo mọi hướng.
+$$\begin{array}{r} 346 \\ +\ 278 \\ \hline 624 \end{array}$$
+Hàng đơn vị: $6+8=14$, viết $4$ nhớ $1$. Hàng chục: $4+7+1=12$, viết $2$ nhớ $1$. Hàng trăm: $3+2+1=6$.
 
-**Đáp số.** a) Sai; b) Đúng; c) Đúng.
+**Đáp số.** $624$.
 
 [ĐỀ – EN]
-Which sentences are true and which are false?
-
-a) A sphere has a flat face.
-
-b) Cylinders can be stacked.
-
-c) A ball rolls in every direction.
+Set out in columns and work out: $346+278$.
 
 [LỜI GIẢI CŨ – EN]
-a) False, because a sphere has no flat face. b) True, because a cylinder has flat bases. c) True, because a sphere rolls in every direction.
+$$\begin{array}{r} 346 \\ +\ 278 \\ \hline 624 \end{array}$$
+Ones: $6+8=14$, write $4$ and regroup $1$. Tens: $4+7+1=12$, write $2$ and regroup $1$. Hundreds: $3+2+1=6$.
 
-**Answer.** a) False; b) True; c) True.
+**Answer.** $624$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Trong các đồ vật sau, vật nào không cùng nhóm với các vật còn lại: lon sữa, cái trống, quả bóng, cái cốc hình trụ?
+Đặt tính rồi tính: $485+219$.
 
 [LỜI GIẢI CŨ – VI]
-Lon sữa, cái trống, cái cốc là khối trụ. Quả bóng là khối cầu.
+$$\begin{array}{r} 485 \\ +\ 219 \\ \hline 704 \end{array}$$
+Hàng đơn vị: $5+9=14$, viết $4$ nhớ $1$. Hàng chục: $8+1+1=10$, viết $0$ nhớ $1$. Hàng trăm: $4+2+1=7$.
 
-**Đáp số.** Quả bóng.
+**Đáp số.** $704$.
 
 [ĐỀ – EN]
-Which object does not belong with the others: a tin of milk, a drum, a ball, a cylinder-shaped cup?
+Set out in columns and work out: $485+219$.
 
 [LỜI GIẢI CŨ – EN]
-The tin, the drum and the cup are cylinders. The ball is a sphere.
+$$\begin{array}{r} 485 \\ +\ 219 \\ \hline 704 \end{array}$$
+Ones: $5+9=14$, write $4$ and regroup $1$. Tens: $8+1+1=10$, write $0$ and regroup $1$. Hundreds: $4+2+1=7$.
 
-**Answer.** The ball.
+**Answer.** $704$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Em muốn xếp một cái tháp cao bằng các đồ vật. Em chọn lon sữa hay quả bóng? Vì sao?
+Một cửa hàng gạo ngày thứ nhất bán được $235$ kg gạo, ngày thứ hai bán được $187$ kg gạo. Hỏi cả hai ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo?
 
 [LỜI GIẢI CŨ – VI]
-Lon sữa là khối trụ, có đáy phẳng nên xếp chồng được. Quả bóng là khối cầu, không có mặt phẳng nên sẽ lăn đi.
+Số ki-lô-gam gạo cửa hàng bán được trong cả hai ngày là:
+$$235+187=422\ \text{(kg)}.$$
+Hàng đơn vị: $5+7=12$, viết $2$ nhớ $1$. Hàng chục: $3+8+1=12$, viết $2$ nhớ $1$. Hàng trăm: $2+1+1=4$.
 
-**Đáp số.** Chọn lon sữa.
+**Đáp số.** $422$ kg gạo.
 
 [ĐỀ – EN]
-You want to build a tall tower from objects. Do you choose a tin of milk or a ball? Why?
+A rice shop sold $235$ kg of rice on the first day and $187$ kg of rice on the second day. How many kilograms of rice did the shop sell in the two days altogether?
 
 [LỜI GIẢI CŨ – EN]
-A tin is a cylinder with flat bases, so it can be stacked. A ball is a sphere with no flat face, so it will roll away.
+The number of kilograms of rice the shop sold in the two days is:
+$$235+187=422\ \text{(kg)}.$$
+Ones: $5+7=12$, write $2$ and regroup $1$. Tens: $3+8+1=12$, write $2$ and regroup $1$. Hundreds: $2+1+1=4$.
 
-**Answer.** Choose the tin of milk.
+**Answer.** $422$ kg of rice.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Mai nói: "Quả cam tròn có hai mặt phẳng nên là khối trụ." Lời nói của Mai sai ở đâu? Sửa lại cho đúng.
+Em nhớ lại phép cộng trong phạm vi 100: $58+27=85$. Dựa vào kết quả đó, hãy tính nhẩm $158+27$ và $258+27$.
 
 [LỜI GIẢI CŨ – VI]
-Quả cam tròn không có mặt phẳng nào, nên Mai nói sai. Vật không có mặt phẳng là khối cầu.
+$158$ hơn $58$ là $1$ trăm, nên $158+27=85+100=185$.
 
-**Đáp số.** Quả cam tròn có dạng khối cầu.
+$258$ hơn $58$ là $2$ trăm, nên $258+27=85+200=285$.
+
+**Nhận xét.** Hàng đơn vị và hàng chục làm giống hệt phép cộng $58+27$, chỉ có hàng trăm thay đổi.
+
+**Đáp số.** $185$ và $285$.
 
 [ĐỀ – EN]
-Mai says: "A round orange has two flat faces, so it is a cylinder." What is wrong with what Mai says? Correct it.
+Remember adding within 100: $58+27=85$. Use this result to work out $158+27$ and $258+27$ in your head.
 
 [LỜI GIẢI CŨ – EN]
-A round orange has no flat face at all, so Mai is wrong. A solid with no flat face is a sphere.
+$158$ is $1$ hundred more than $58$, so $158+27=85+100=185$.
 
-**Answer.** A round orange has the shape of a sphere.
+$258$ is $2$ hundreds more than $58$, so $258+27=85+200=285$.
+
+**Remark.** The ones and the tens work out exactly as in $58+27$; only the hundreds change.
+
+**Answer.** $185$ and $285$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Cô bán hàng có $20$ lon sữa, xếp thành $5$ chồng bằng nhau. Hỏi mỗi chồng có bao nhiêu lon sữa? (Em nhớ lại bảng chia $5$.)
+Từ nhà Nam đến trường dài $450$ m, từ trường đến thư viện dài $380$ m. Hỏi từ nhà Nam đi qua trường rồi đến thư viện dài bao nhiêu mét?
 
 [LỜI GIẢI CŨ – VI]
-Số lon sữa mỗi chồng là:
-$$20:5=4\ \text{(lon)}.$$
+Quãng đường từ nhà Nam qua trường đến thư viện dài là:
+$$450+380=830\ \text{(m)}.$$
+Hàng đơn vị: $0+0=0$. Hàng chục: $5+8=13$, viết $3$ nhớ $1$. Hàng trăm: $4+3+1=8$.
 
-**Kiểm tra.** $4\times5=20$. Đúng.
-
-**Đáp số.** $4$ lon sữa.
+**Đáp số.** $830$ m.
 
 [ĐỀ – EN]
-A shopkeeper has $20$ tins of milk and stacks them into $5$ equal stacks. How many tins are in each stack? (Remember your division facts for $5$.)
+It is $450$ m from Nam's house to school, and $380$ m from school to the library. How many metres is it from Nam's house, past the school, to the library?
 
 [LỜI GIẢI CŨ – EN]
-The number of tins in each stack is:
-$$20\div5=4\ \text{(tins)}.$$
+The distance from Nam's house past the school to the library is:
+$$450+380=830\ \text{(m)}.$$
+Ones: $0+0=0$. Tens: $5+8=13$, write $3$ and regroup $1$. Hundreds: $4+3+1=8$.
 
-**Check.** $4\times5=20$. Correct.
-
-**Answer.** $4$ tins of milk.
+**Answer.** $830$ m.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Một em bé có $3$ khối trụ và $2$ khối cầu. Hỏi tất cả các khối đó có bao nhiêu mặt phẳng?
+Điền chữ số thích hợp vào mỗi ô trống:
+$$\begin{array}{r} \square 4 \square \\ +\ 2 \square 5 \\ \hline 612 \end{array}$$
 
 [LỜI GIẢI CŨ – VI]
-Ba khối trụ có $3\times2=6$ mặt phẳng. Hai khối cầu có $2\times0=0$ mặt phẳng. Tổng số mặt phẳng là $6+0=6$.
+Hàng đơn vị: $7+5=12$, viết $2$ nhớ $1$, nên chữ số cần điền là $7$.
 
-**Đáp số.** $6$ mặt phẳng.
+Hàng chục: $4+6+1=11$, viết $1$ nhớ $1$, nên chữ số cần điền là $6$.
+
+Hàng trăm: $3+2+1=6$, nên chữ số cần điền là $3$.
+
+Ta có $347+265=612$.
+
+**Đáp số.** $347+265=612$.
 
 [ĐỀ – EN]
-A baby has $3$ cylinders and $2$ spheres. How many flat faces do all these solids have altogether?
+Fill in the missing digit in each box:
+$$\begin{array}{r} \square 4 \square \\ +\ 2 \square 5 \\ \hline 612 \end{array}$$
 
 [LỜI GIẢI CŨ – EN]
-Three cylinders have $3\times2=6$ flat faces. Two spheres have $2\times0=0$ flat faces. Altogether $6+0=6$.
+Ones: $7+5=12$, write $2$ and regroup $1$, so the missing digit is $7$.
 
-**Answer.** $6$ flat faces.
+Tens: $4+6+1=11$, write $1$ and regroup $1$, so the missing digit is $6$.
+
+Hundreds: $3+2+1=6$, so the missing digit is $3$.
+
+We have $347+265=612$.
+
+**Answer.** $347+265=612$.
 
 
 ######################################################################
-@@@ g2/days-hours-minutes
-Bài học: Ngày - giờ, giờ - phút. Ngày - tháng / Days and hours, hours and minutes. Days and months
+@@@ g2/adding-on-taking-away-problems
+Bài học: Bài toán về thêm, bớt một số đơn vị. Bài toán về nhiều hơn, ít hơn một số đơn vị / Word problems: adding on and taking away. Word problems: more than and fewer than
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Số?
-
-a) 1 ngày có $\square$ giờ.
-
-b) 1 giờ có $\square$ phút.
-
-[LỜI GIẢI CŨ – VI]
-a) 1 ngày có 24 giờ.
-
-b) 1 giờ có 60 phút.
-
-**Đáp số.** a) 24; b) 60.
-
-[ĐỀ – EN]
-Fill in the missing numbers.
-
-a) 1 day has $\square$ hours.
-
-b) 1 hour has $\square$ minutes.
-
-[LỜI GIẢI CŨ – EN]
-a) 1 day has 24 hours.
-
-b) 1 hour has 60 minutes.
-
-**Answer.** a) 24; b) 60.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Kim dài chỉ số nào thì đã qua:
-
-a) 15 phút
-
-b) 30 phút
-
-c) 45 phút
-
-[LỜI GIẢI CŨ – VI]
-a) $5,10,15$: đếm 3 lần nên kim dài chỉ số 3.
-
-b) $5,10,15,20,25,30$: đếm 6 lần nên kim dài chỉ số 6.
-
-c) Đếm 9 lần nên kim dài chỉ số 9.
-
-**Đáp số.** a) Số 3; b) số 6; c) số 9.
-
-[ĐỀ – EN]
-Which number does the long hand point to when:
-
-a) 15 minutes have passed
-
-b) 30 minutes have passed
-
-c) 45 minutes have passed
-
-[LỜI GIẢI CŨ – EN]
-a) $5,10,15$: 3 counts, so the long hand points to 3.
-
-b) $5,10,15,20,25,30$: 6 counts, so the long hand points to 6.
-
-c) 9 counts, so the long hand points to 9.
-
-**Answer.** a) 3; b) 6; c) 9.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Đồng hồ có kim ngắn vừa qua số 9 và kim dài chỉ số 3. Đồng hồ chỉ mấy giờ?
-
-[LỜI GIẢI CŨ – VI]
-Kim ngắn vừa qua số 9 nên là 9 giờ. Kim dài chỉ số 3 nên là 15 phút.
-
-**Đáp số.** 9 giờ 15 phút.
-
-[ĐỀ – EN]
-A clock has its short hand just past 9 and its long hand pointing to 3. What time does it show?
-
-[LỜI GIẢI CŨ – EN]
-The short hand has just passed 9, so the hour is 9. The long hand at 3 means 15 minutes.
-
-**Answer.** Quarter past 9 (9:15).
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Giả sử lớp em học từ 7 giờ đến 11 giờ, và Mai làm bài từ 8 giờ đến 8 giờ 30 phút.
-
-a) Lớp em học trong mấy giờ?
-
-b) Mai làm bài trong bao nhiêu phút?
-
-[LỜI GIẢI CŨ – VI]
-a) $11-7=4$ (giờ).
-
-b) Từ 8 giờ đến 8 giờ 30 phút là 30 phút.
-
-**Đáp số.** a) 4 giờ; b) 30 phút.
-
-[ĐỀ – EN]
-Suppose your class has lessons from 7 o'clock to 11 o'clock, and Mai does her homework from 8 o'clock to half past 8.
-
-a) For how many hours is your class at school?
-
-b) For how many minutes does Mai do her homework?
-
-[LỜI GIẢI CŨ – EN]
-a) $11-7=4$ (hours).
-
-b) From 8 o'clock to half past 8 is 30 minutes.
-
-**Answer.** a) 4 hours; b) 30 minutes.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Mỗi tháng sau có bao nhiêu ngày: tháng 5, tháng 6, tháng 11, tháng 12?
-
-[LỜI GIẢI CŨ – VI]
-Tháng 5 có 31 ngày. Tháng 6 có 30 ngày. Tháng 11 có 30 ngày. Tháng 12 có 31 ngày.
-
-**Đáp số.** Tháng 5: 31 ngày; tháng 6: 30 ngày; tháng 11: 30 ngày; tháng 12: 31 ngày.
-
-[ĐỀ – EN]
-How many days does each of these months have: May, June, November and December?
-
-[LỜI GIẢI CŨ – EN]
-May has 31 days. June has 30 days. November has 30 days. December has 31 days.
-
-**Answer.** May: 31 days; June: 30 days; November: 30 days; December: 31 days.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Giả sử hôm nay là ngày 20 tháng 11. Tháng 11 có 30 ngày. Hỏi còn mấy ngày nữa thì hết tháng 11?
+Trong giỏ có 8 quả táo. Mẹ cho thêm 5 quả táo. Hỏi trong giỏ có tất cả bao nhiêu quả táo?
 
 [LỜI GIẢI CŨ – VI]
 Bài giải
 
-Số ngày còn lại đến hết tháng 11 là:
-$$30-20=10\ \text{(ngày)}.$$
-Đáp số: 10 ngày.
+Trong giỏ có tất cả số quả táo là:
+$$8+5=13\ \text{(quả)}.$$
+Đáp số: 13 quả táo.
 
 [ĐỀ – EN]
-Suppose today is 20 November. November has 30 days. How many more days are there until the end of November?
+There are 8 apples in a basket. Mum puts in 5 more apples. How many apples are in the basket altogether?
 
 [LỜI GIẢI CŨ – EN]
-November has 30 days, so the number of days left until the end of November is
-$$30-20=10\ \text{(days)}.$$
-So there are 10 days left.
+Solution
 
-**Answer.** 10 days.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Nhớ lại bài các ngày trong tuần. Hôm nay là thứ năm, ngày 12 tháng 11. Hỏi ngày 13 tháng 11 là thứ mấy? Thứ năm tuần sau là ngày nào?
-
-[LỜI GIẢI CŨ – VI]
-Ngày 13 tháng 11 là ngày ngay sau thứ năm nên là thứ sáu. Thứ năm tuần sau là:
-$$12+7=19.$$
-
-**Đáp số.** Ngày 13 là thứ sáu; thứ năm tuần sau là ngày 19 tháng 11.
-
-[ĐỀ – EN]
-Remember the lesson on the days of the week. Today is Thursday, 12 November. What day of the week is 13 November? Which date is Thursday of next week?
-
-[LỜI GIẢI CŨ – EN]
-The 13th is the day just after Thursday, so it is a Friday. Thursday of next week is on:
-$$12+7=19.$$
-
-**Answer.** 13 November is a Friday; Thursday of next week is 19 November.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-a) Hôm nay là ngày 30 tháng 4. Ngày mai là ngày nào, tháng nào?
-
-b) Hôm nay là ngày 31 tháng 12. Ngày mai là ngày nào?
-
-[LỜI GIẢI CŨ – VI]
-a) Tháng 4 có 30 ngày nên ngày 30 là ngày cuối tháng. Ngày mai là ngày 1 tháng 5.
-
-b) Tháng 12 có 31 ngày nên ngày 31 là ngày cuối năm. Ngày mai là ngày 1 tháng 1 của năm sau.
-
-**Đáp số.** a) Ngày 1 tháng 5; b) ngày 1 tháng 1 của năm sau.
-
-[ĐỀ – EN]
-a) Today is 30 April. What is tomorrow's date, and which month is it in?
-
-b) Today is 31 December. What is tomorrow's date?
-
-[LỜI GIẢI CŨ – EN]
-a) April has 30 days, so the 30th is the last day of the month. Tomorrow is 1 May.
-
-b) December has 31 days, so the 31st is the last day of the year. Tomorrow is 1 January of the new year.
-
-**Answer.** a) 1 May; b) 1 January of the new year.
-
-
-######################################################################
-@@@ g2/decimetres-metres-kilometres
-Bài học: Đề-xi-mét. Mét. Ki-lô-mét / Decimetres, metres and kilometres
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Điền số thích hợp.
-
-a) $1$ dm $=\square$ cm.
-
-b) $1$ m $=\square$ dm.
-
-c) $1$ km $=\square$ m.
-
-[LỜI GIẢI CŨ – VI]
-Một đề-xi-mét bằng mười xăng-ti-mét, một mét bằng mười đề-xi-mét, một ki-lô-mét bằng một nghìn mét.
-
-**Đáp số.** a) $10$; b) $10$; c) $1000$.
-
-[ĐỀ – EN]
-Write the right number in each box.
-
-a) $1$ dm $=\square$ cm.
-
-b) $1$ m $=\square$ dm.
-
-c) $1$ km $=\square$ m.
-
-[LỜI GIẢI CŨ – EN]
-One decimetre is ten centimetres, one metre is ten decimetres, and one kilometre is one thousand metres.
-
-**Answer.** a) $10$; b) $10$; c) $1000$.
+The number of apples in the basket altogether is:
+$$8+5=13\ \text{(apples)}.$$
+Answer: 13 apples.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Đổi đơn vị.
-
-a) $3$ m $=\square$ dm.
-
-b) $50$ dm $=\square$ m.
-
-c) $7$ dm $=\square$ cm.
+Hà có 16 cái kẹo. Hà ăn 4 cái kẹo. Hỏi Hà còn lại bao nhiêu cái kẹo?
 
 [LỜI GIẢI CŨ – VI]
-a) $3\times10=30$. b) $50$ dm có $5$ nhóm $10$ dm nên là $5$ m. c) $7\times10=70$.
+Bài giải
 
-**Đáp số.** a) $30$; b) $5$; c) $70$.
+Hà còn lại số cái kẹo là:
+$$16-4=12\ \text{(cái)}.$$
+Đáp số: 12 cái kẹo.
 
 [ĐỀ – EN]
-Change the units.
-
-a) $3$ m $=\square$ dm.
-
-b) $50$ dm $=\square$ m.
-
-c) $7$ dm $=\square$ cm.
+Ha has 16 sweets. Ha eats 4 sweets. How many sweets does Ha have left?
 
 [LỜI GIẢI CŨ – EN]
-a) $3\times10=30$. b) $50$ dm has $5$ groups of $10$ dm, so it is $5$ m. c) $7\times10=70$.
+Solution
 
-**Answer.** a) $30$; b) $5$; c) $70$.
+The number of sweets Ha has left is:
+$$16-4=12\ \text{(sweets)}.$$
+Answer: 12 sweets.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Em nhớ lại bài trước. Quãng đường A dài $450$ m, quãng đường B dài $405$ m. Điền dấu $>$, $<$ hoặc $=$ rồi cho biết quãng đường nào dài hơn.
+Lan có 6 bông hoa. Mai có nhiều hơn Lan 7 bông hoa. Hỏi Mai có bao nhiêu bông hoa?
 
 [LỜI GIẢI CŨ – VI]
-Hàng trăm bằng nhau là $4$. Hàng chục $5>0$ nên $450>405$.
+Bài giải
 
-**Đáp số.** $450>405$; quãng đường A dài hơn.
+Mai có số bông hoa là:
+$$6+7=13\ \text{(bông)}.$$
+Đáp số: 13 bông hoa.
 
 [ĐỀ – EN]
-Remember the last lesson. Road A is $450$ m long and road B is $405$ m long. Write $>$, $<$ or $=$, then say which road is longer.
+Lan has 6 flowers. Mai has 7 more flowers than Lan. How many flowers does Mai have?
 
 [LỜI GIẢI CŨ – EN]
-The hundreds are equal, both $4$. The tens $5>0$, so $450>405$.
+Solution
 
-**Answer.** $450>405$; road A is longer.
+The number of flowers Mai has is:
+$$6+7=13\ \text{(flowers)}.$$
+Answer: 13 flowers.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tính.
-
-a) $6$ dm $+3$ dm.
-
-b) $15$ m $-8$ m.
-
-c) $20$ km $-5$ km.
+Nam có 15 viên bi. Hà có ít hơn Nam 4 viên bi. Hỏi Hà có bao nhiêu viên bi?
 
 [LỜI GIẢI CŨ – VI]
-a) $6+3=9$. b) $15-8=7$. c) $20-5=15$.
+Bài giải
 
-**Đáp số.** a) $9$ dm; b) $7$ m; c) $15$ km.
+Hà có số viên bi là:
+$$15-4=11\ \text{(viên)}.$$
+Đáp số: 11 viên bi.
 
 [ĐỀ – EN]
-Work out.
-
-a) $6$ dm $+3$ dm.
-
-b) $15$ m $-8$ m.
-
-c) $20$ km $-5$ km.
+Nam has 15 marbles. Ha has 4 fewer marbles than Nam. How many marbles does Ha have?
 
 [LỜI GIẢI CŨ – EN]
-a) $6+3=9$. b) $15-8=7$. c) $20-5=15$.
+Solution
 
-**Answer.** a) $9$ dm; b) $7$ m; c) $15$ km.
+The number of marbles Ha has is:
+$$15-4=11\ \text{(marbles)}.$$
+Answer: 11 marbles.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Chọn đơn vị (dm, m hay km) thích hợp. Vì sao?
-
-a) Chiều cao của cái bàn học.
-
-b) Chiều dài sân trường.
-
-c) Đường từ nhà em đến thành phố ở xa.
+Giả sử trên xe buýt có 18 người. Đến bến, có 5 người xuống xe. Hỏi trên xe còn lại bao nhiêu người?
 
 [LỜI GIẢI CŨ – VI]
-a) Bàn học không quá dài, chọn dm. b) Sân trường dài hơn bàn nhiều, chọn m. c) Đường đến thành phố rất dài, chọn km.
+Bài giải
 
-**Đáp số.** a) dm; b) m; c) km.
+Trên xe còn lại số người là:
+$$18-5=13\ \text{(người)}.$$
+Đáp số: 13 người.
 
 [ĐỀ – EN]
-Choose a sensible unit (dm, m or km). Why?
-
-a) The height of a school desk.
-
-b) The length of the school playground.
-
-c) The road from your home to a faraway city.
+Suppose there are 18 people on a bus. At the stop, 5 people get off. How many people are left on the bus?
 
 [LỜI GIẢI CŨ – EN]
-a) A desk is not very long, choose dm. b) A playground is much longer than a desk, choose m. c) The road to a city is very long, choose km.
+Solution
 
-**Answer.** a) dm; b) m; c) km.
+The number of people left on the bus is:
+$$18-5=13\ \text{(people)}.$$
+Answer: 13 people.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Mai nói: "$1$ m $=100$ dm." Mai sai ở đâu? Sửa lại cho đúng.
+Giả sử sân trường có 17 cây phượng. Số cây bàng ít hơn số cây phượng 6 cây. Hỏi sân trường có bao nhiêu cây bàng?
 
 [LỜI GIẢI CŨ – VI]
-Thước mét dài bằng $10$ thước $1$ dm, không phải $100$.
+Bài giải
 
-**Đáp số.** $1$ m $=10$ dm.
+Sân trường có số cây bàng là:
+$$17-6=11\ \text{(cây)}.$$
+Đáp số: 11 cây bàng.
 
 [ĐỀ – EN]
-Mai says: "$1$ m $=100$ dm." What is wrong with what Mai says? Correct it.
+Suppose the school playground has 17 flame trees. There are 6 fewer banyan trees than flame trees. How many banyan trees are in the playground?
 
 [LỜI GIẢI CŨ – EN]
-A metre rule is as long as $10$ rulers of $1$ dm, not $100$.
+Solution
 
-**Answer.** $1$ m $=10$ dm.
+The number of banyan trees in the playground is:
+$$17-6=11\ \text{(trees)}.$$
+Answer: 11 banyan trees.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Sáng nay Nam đi bộ $3$ km, chiều nay Nam đi bộ $2$ km. Hỏi cả hai buổi Nam đi bộ bao nhiêu ki-lô-mét?
+Nhớ lại bài "Hơn, kém nhau bao nhiêu". An có 12 viên bi, Bình có 16 viên bi.
+
+a) Bình nhiều hơn An mấy viên bi?
+
+b) Em kiểm tra lại: lấy số bi của An cộng với số viên Bình nhiều hơn, có được số bi của Bình không?
 
 [LỜI GIẢI CŨ – VI]
-Quãng đường cả hai buổi là:
-$$3+2=5\ \text{(km)}.$$
+a) Bình nhiều hơn An số viên bi là $16-12=4$ (viên).
 
-**Đáp số.** $5$ km.
+b) Ta có $12+4=16$, đúng bằng số bi của Bình.
+
+**Đáp số.** a) 4 viên bi; b) đúng.
 
 [ĐỀ – EN]
-This morning Nam walks $3$ km and this afternoon he walks $2$ km. How many kilometres does he walk altogether?
+Remember the lesson "How many more or fewer?". An has 12 marbles and Binh has 16 marbles.
+
+a) How many more marbles does Binh have than An?
+
+b) Check: if you add that number to An's marbles, do you get Binh's marbles?
 
 [LỜI GIẢI CŨ – EN]
-The distance for both parts of the day is:
-$$3+2=5\ \text{(km)}.$$
+a) Binh has $16-12=4$ (marbles) more than An.
 
-**Answer.** $5$ km.
+b) We have $12+4=16$, which is exactly Binh's number of marbles.
+
+**Answer.** a) 4 marbles; b) yes.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Một sợi dây dài $3$ m. Người ta cắt thành các đoạn dài $5$ dm. Cắt được bao nhiêu đoạn?
+Hà có 8 viên bi. Nam có nhiều hơn Hà 3 viên bi. Lan có ít hơn Nam 2 viên bi. Hỏi Lan có bao nhiêu viên bi?
 
 [LỜI GIẢI CŨ – VI]
-$3$ m $=30$ dm. Số đoạn dây là $30:5=6$ (đoạn).
+Số viên bi của Nam là:
+$$8+3=11\ \text{(viên)}.$$
+Số viên bi của Lan là:
+$$11-2=9\ \text{(viên)}.$$
 
-**Kiểm tra.** $6\times5=30$. Đúng.
-
-**Đáp số.** $6$ đoạn.
+**Đáp số.** 9 viên bi.
 
 [ĐỀ – EN]
-A piece of string is $3$ m long. It is cut into pieces that are $5$ dm long. How many pieces can be cut?
+Ha has 8 marbles. Nam has 3 more marbles than Ha. Lan has 2 fewer marbles than Nam. How many marbles does Lan have?
 
 [LỜI GIẢI CŨ – EN]
-$3$ m $=30$ dm. The number of pieces is $30\div5=6$ (pieces).
+The number of marbles Nam has is:
+$$8+3=11\ \text{(marbles)}.$$
+The number of marbles Lan has is:
+$$11-2=9\ \text{(marbles)}.$$
 
-**Check.** $6\times5=30$. Correct.
-
-**Answer.** $6$ pieces.
+**Answer.** 9 marbles.
 
 
 ######################################################################
-@@@ g2/division-facts-for-2
-Bài học: Bảng chia 2. Bảng chia 5 / Division facts for 2. Division facts for 5
+@@@ g2/addition-crossing-10
+Bài học: Phép cộng (qua 10) trong phạm vi 20 / Addition bridging through 10 (within 20)
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Tính nhẩm:
-
-a) $6:2$
-
-b) $12:2$
-
-c) $20:2$
+Tính $9+3$.
 
 [LỜI GIẢI CŨ – VI]
-a) $2\times3=6$ nên $6:2=3$.
+$9+3=9+1+2=10+2=12$.
 
-b) $2\times6=12$ nên $12:2=6$.
-
-c) $2\times10=20$ nên $20:2=10$.
-
-**Đáp số.** a) 3; b) 6; c) 10.
+**Đáp số.** $12$.
 
 [ĐỀ – EN]
-Work out in your head:
-
-a) $6\div2$
-
-b) $12\div2$
-
-c) $20\div2$
+Work out $9+3$.
 
 [LỜI GIẢI CŨ – EN]
-a) $2\times3=6$, so $6\div2=3$.
+$9+3=9+1+2=10+2=12$.
 
-b) $2\times6=12$, so $12\div2=6$.
+**Answer.** $12$.
 
-c) $2\times10=20$, so $20\div2=10$.
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính $8+4$.
 
-**Answer.** a) 3; b) 6; c) 10.
+[LỜI GIẢI CŨ – VI]
+$8+4=8+2+2=10+2=12$.
+
+**Đáp số.** $12$.
+
+[ĐỀ – EN]
+Work out $8+4$.
+
+[LỜI GIẢI CŨ – EN]
+$8+4=8+2+2=10+2=12$.
+
+**Answer.** $12$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính $7+5$.
+
+[LỜI GIẢI CŨ – VI]
+$7+5=7+3+2=10+2=12$.
+
+**Đáp số.** $12$.
+
+[ĐỀ – EN]
+Work out $7+5$.
+
+[LỜI GIẢI CŨ – EN]
+$7+5=7+3+2=10+2=12$.
+
+**Answer.** $12$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính $5+9$.
+
+[LỜI GIẢI CŨ – VI]
+$5+9=9+5=9+1+4=10+4=14$.
+
+**Đáp số.** $14$.
+
+[ĐỀ – EN]
+Work out $5+9$.
+
+[LỜI GIẢI CŨ – EN]
+$5+9=9+5=9+1+4=10+4=14$.
+
+**Answer.** $14$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $8+6 \;\square\; 15$.
+
+[LỜI GIẢI CŨ – VI]
+$8+6=8+2+4=14$. Vì $14<15$ nên $8+6<15$.
+
+**Đáp số.** Dấu $<$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the box: $8+6 \;\square\; 15$.
+
+[LỜI GIẢI CŨ – EN]
+$8+6=8+2+4=14$. Since $14<15$, we have $8+6<15$.
+
+**Answer.** The sign $<$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Trong vườn có $9$ con gà mái và $6$ con gà trống. Hỏi trong vườn có tất cả bao nhiêu con gà?
+
+[LỜI GIẢI CŨ – VI]
+Số con gà có tất cả là:
+$$9+6=9+1+5=10+5=15\ \text{(con)}.$$
+
+**Đáp số.** $15$ con gà.
+
+[ĐỀ – EN]
+In a garden there are $9$ hens and $6$ cockerels. How many chickens are there altogether?
+
+[LỜI GIẢI CŨ – EN]
+The number of chickens altogether is:
+$$9+6=9+1+5=10+5=15\ \text{(chickens)}.$$
+
+**Answer.** $15$ chickens.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước: số liền sau của $12$ là số nào? Rồi tính: (số liền sau của $12$) $+\,7$.
+
+[LỜI GIẢI CŨ – VI]
+Số liền sau của $12$ là $13$. Ta có $13+7=20$ (vì $3+7=10$, và $10$ cùng với $10$ là $20$).
+
+**Đáp số.** $20$.
+
+[ĐỀ – EN]
+Remember the last lesson: what number comes just after $12$? Then work out (the number just after $12$) $+\,7$.
+
+[LỜI GIẢI CŨ – EN]
+The number just after $12$ is $13$. Then $13+7=20$ (because $3+7=10$, and $10$ and $10$ make $20$).
+
+**Answer.** $20$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm số thích hợp điền vào ô trống: $\square+8=15$.
+
+[LỜI GIẢI CŨ – VI]
+Từ $8$ lên $10$ cần $2$, từ $10$ lên $15$ cần $5$, nên số cần điền là $2+5=7$.
+
+**Kiểm tra.** $7+8=15$. Đúng.
+
+**Đáp số.** $7$.
+
+[ĐỀ – EN]
+Find the missing number: $\square+8=15$.
+
+[LỜI GIẢI CŨ – EN]
+From $8$ up to $10$ is $2$, and from $10$ up to $15$ is $5$, so the missing number is $2+5=7$.
+
+**Check.** $7+8=15$. Correct.
+
+**Answer.** $7$.
+
+
+######################################################################
+@@@ g2/addition-facts-crossing-10
+Bài học: Bảng cộng (qua 10) / Addition facts bridging through 10
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính, tách số để làm tròn 10:
+
+a) $9+4$
+
+b) $8+6$
+
+[LỜI GIẢI CŨ – VI]
+a) $9+4=9+1+3=10+3=13$.
+
+b) $8+6=8+2+4=10+4=14$.
+
+**Đáp số.** a) 13; b) 14.
+
+[ĐỀ – EN]
+Work out, splitting a number to make 10:
+
+a) $9+4$
+
+b) $8+6$
+
+[LỜI GIẢI CŨ – EN]
+a) $9+4=9+1+3=10+3=13$.
+
+b) $8+6=8+2+4=10+4=14$.
+
+**Answer.** a) 13; b) 14.
 
 === Bài 2 ===
 [ĐỀ – VI]
 Tính nhẩm:
 
-a) $10:5$
+a) $7+5$
 
-b) $25:5$
+b) $6+8$
 
-c) $50:5$
+c) $9+9$
 
 [LỜI GIẢI CŨ – VI]
-a) $5\times2=10$ nên $10:5=2$.
+a) $7+5=7+3+2=10+2=12$.
 
-b) $5\times5=25$ nên $25:5=5$.
+b) $6+8=8+6=8+2+4=14$.
 
-c) $5\times10=50$ nên $50:5=10$.
+c) $9+9=9+1+8=10+8=18$.
 
-**Đáp số.** a) 2; b) 5; c) 10.
+**Đáp số.** a) 12; b) 14; c) 18.
 
 [ĐỀ – EN]
 Work out in your head:
 
-a) $10\div5$
+a) $7+5$
 
-b) $25\div5$
+b) $6+8$
 
-c) $50\div5$
+c) $9+9$
 
 [LỜI GIẢI CŨ – EN]
-a) $5\times2=10$, so $10\div5=2$.
+a) $7+5=7+3+2=10+2=12$.
 
-b) $5\times5=25$, so $25\div5=5$.
+b) $6+8=8+6=8+2+4=14$.
 
-c) $5\times10=50$, so $50\div5=10$.
+c) $9+9=9+1+8=10+8=18$.
 
-**Answer.** a) 2; b) 5; c) 10.
+**Answer.** a) 12; b) 14; c) 18.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Số?
+Tính nhẩm bằng cách đổi chỗ hai số hạng:
 
-a) $\square:2=6$
+a) $4+9$
 
-b) $\square:5=4$
+b) $6+7$
 
 [LỜI GIẢI CŨ – VI]
-a) $2\times6=12$ nên $12:2=6$.
+a) $4+9=9+4=9+1+3=13$.
 
-b) $5\times4=20$ nên $20:5=4$.
+b) $6+7=7+6=7+3+3=13$.
 
-**Đáp số.** a) 12; b) 20.
+**Đáp số.** a) 13; b) 13.
 
 [ĐỀ – EN]
-Fill in the missing numbers.
+Work out in your head by swapping the two addends:
 
-a) $\square\div2=6$
+a) $4+9$
 
-b) $\square\div5=4$
+b) $6+7$
 
 [LỜI GIẢI CŨ – EN]
-a) $2\times6=12$, so $12\div2=6$.
+a) $4+9=9+4=9+1+3=13$.
 
-b) $5\times4=20$, so $20\div5=4$.
+b) $6+7=7+6=7+3+3=13$.
 
-**Answer.** a) 12; b) 20.
+**Answer.** a) 13; b) 13.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Biết $2\times9=18$. Viết hai phép chia tương ứng.
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống:
+$$8+5\ \square\ 14,\qquad 7+6\ \square\ 13,\qquad 9+4\ \square\ 12.$$
 
 [LỜI GIẢI CŨ – VI]
-Lấy tích 18 chia cho từng thừa số:
-$$18:2=9,\qquad 18:9=2.$$
+Ta có $8+5=13$ và $13<14$.
+Ta có $7+6=13$ và $13=13$.
+Ta có $9+4=13$ và $13>12$.
 
-**Đáp số.** $18:2=9$ và $18:9=2$.
+**Đáp số.** $8+5<14$; $7+6=13$; $9+4>12$.
 
 [ĐỀ – EN]
-You know that $2\times9=18$. Write the two matching divisions.
+Write $>$, $<$ or $=$ in each box:
+$$8+5\ \square\ 14,\qquad 7+6\ \square\ 13,\qquad 9+4\ \square\ 12.$$
 
 [LỜI GIẢI CŨ – EN]
-Divide the product 18 by each factor:
-$$18\div2=9,\qquad 18\div9=2.$$
+We have $8+5=13$ and $13<14$.
+We have $7+6=13$ and $13=13$.
+We have $9+4=13$ and $13>12$.
 
-**Answer.** $18\div2=9$ and $18\div9=2$.
+**Answer.** $8+5<14$; $7+6=13$; $9+4>12$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Giả sử có 40 quả cam xếp đều vào 5 rổ. Hỏi mỗi rổ có bao nhiêu quả cam?
+Giả sử buổi sáng Lan gấp được 6 chiếc thuyền giấy, buổi chiều Lan gấp được 7 chiếc. Hỏi cả hai buổi Lan gấp được bao nhiêu chiếc thuyền?
 
 [LỜI GIẢI CŨ – VI]
 Bài giải
 
-Mỗi rổ có số quả cam là:
-$$40:5=8\ \text{(quả)}.$$
-Đáp số: 8 quả cam.
+Cả hai buổi Lan gấp được số chiếc thuyền là:
+$$6+7=7+6=13\ \text{(chiếc)}.$$
+Đáp số: 13 chiếc thuyền.
 
 [ĐỀ – EN]
-Suppose 40 oranges are shared equally between 5 baskets. How many oranges are in each basket?
+Suppose that in the morning Lan folds 6 paper boats and in the afternoon she folds 7. How many paper boats does she fold in the two parts of the day?
 
 [LỜI GIẢI CŨ – EN]
 Solution
 
-The number of oranges in each basket is:
-$$40\div5=8\ \text{(oranges)}.$$
-Answer: 8 oranges.
+The number of paper boats Lan folds in the two parts of the day is:
+$$6+7=7+6=13\ \text{(boats)}.$$
+Answer: 13 boats.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Giả sử có 18 bạn chia thành các đội, mỗi đội 2 bạn. Hỏi chia được bao nhiêu đội?
+Giả sử trong thư viện lớp có 8 bạn đang đọc truyện và 9 bạn đang đọc sách khoa học. Hỏi thư viện có tất cả bao nhiêu bạn đang đọc?
 
 [LỜI GIẢI CŨ – VI]
 Bài giải
 
-Chia được số đội là:
-$$18:2=9\ \text{(đội)}.$$
-Đáp số: 9 đội.
+Thư viện có tất cả số bạn đang đọc là:
+$$8+9=8+2+7=10+7=17\ \text{(bạn)}.$$
+Đáp số: 17 bạn.
 
 [ĐỀ – EN]
-Suppose 18 children are split into teams of 2. How many teams are there?
+Suppose that in the class library 8 children are reading story books and 9 children are reading science books. How many children are reading altogether?
 
 [LỜI GIẢI CŨ – EN]
 Solution
 
-The number of teams is:
-$$18\div2=9\ \text{(teams)}.$$
-Answer: 9 teams.
+The number of children reading altogether is:
+$$8+9=8+2+7=10+7=17\ \text{(children)}.$$
+Answer: 17 children.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Nhớ lại bài giờ - phút. Kim dài của đồng hồ đã qua 45 phút thì chỉ số mấy? Đã qua 20 phút thì chỉ số mấy?
+Nhớ lại bài tia số. Trên tia số, từ vạch 8 nhảy sang phải 7 vạch thì đến vạch nào?
 
 [LỜI GIẢI CŨ – VI]
-Đã qua 45 phút: $45:5=9$, kim dài chỉ số 9.
-Đã qua 20 phút: $20:5=4$, kim dài chỉ số 4.
+Nhảy sang phải 7 vạch là cộng 7:
+$$8+7=8+2+5=10+5=15.$$
 
-**Đáp số.** Số 9 và số 4.
+**Đáp số.** Vạch 15.
 
 [ĐỀ – EN]
-Remember the lesson on hours and minutes. When the long hand of a clock has passed 45 minutes, which number does it point to? What about when it has passed 20 minutes?
+Remember the lesson on number lines. On a number line, jump 7 marks to the right from mark 8. Which mark do you land on?
 
 [LỜI GIẢI CŨ – EN]
-45 minutes passed: $45\div5=9$, so the long hand points to 9.
-20 minutes passed: $20\div5=4$, so the long hand points to 4.
+Jumping 7 marks to the right is adding 7:
+$$8+7=8+2+5=10+5=15.$$
 
-**Answer.** 9 and 4.
+**Answer.** Mark 15.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Một số chia cho 5 được thương là 4. Nếu chia số đó cho 2 thì được thương bằng bao nhiêu?
+Trong các phép cộng $9+2$, $9+3$, $9+4$, …, $9+9$, những phép cộng nào có tổng lớn hơn 14 và nhỏ hơn 18?
 
 [LỜI GIẢI CŨ – VI]
-Số đó là $5\times4=20$. Chia cho 2:
-$$20:2=10.$$
+Ta có $9+5=14$, $9+6=15$, $9+7=16$, $9+8=17$, $9+9=18$. Các tổng lớn hơn 14 và nhỏ hơn 18 là 15, 16, 17.
 
-**Đáp số.** 10.
+**Đáp số.** Ba phép cộng: $9+6$, $9+7$, $9+8$.
 
 [ĐỀ – EN]
-A number divided by 5 gives a quotient of 4. What quotient do you get if you divide that number by 2?
+Among the sums $9+2$, $9+3$, $9+4$, …, $9+9$, which ones have a sum greater than 14 and less than 18?
 
 [LỜI GIẢI CŨ – EN]
-The number is $5\times4=20$. Dividing by 2:
-$$20\div2=10.$$
+We have $9+5=14$, $9+6=15$, $9+7=16$, $9+8=17$, $9+9=18$. The sums greater than 14 and less than 18 are 15, 16 and 17.
 
-**Answer.** 10.
+**Answer.** Three sums: $9+6$, $9+7$ and $9+8$.
 
 
 ######################################################################
-@@@ g2/how-many-more-or-fewer
-Bài học: Hơn, kém nhau bao nhiêu / How many more or fewer?
+@@@ g2/broken-lines-quadrilaterals
+Bài học: Đường gấp khúc. Hình tứ giác / Broken (zigzag) lines. Quadrilaterals
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Có 9 cái đĩa và 6 cái cốc. Đĩa nhiều hơn cốc bao nhiêu cái? Cốc ít hơn đĩa bao nhiêu cái?
+Đường gấp khúc MNPQ gồm những đoạn thẳng nào?
 
 [LỜI GIẢI CŨ – VI]
-Ta có $9>6$ nên đĩa nhiều hơn cốc. Số cái hơn kém nhau là:
-$$9-6=3\ \text{(cái)}.$$
+Đường gấp khúc MNPQ gồm ba đoạn thẳng MN, NP và PQ.
 
-**Đáp số.** Đĩa nhiều hơn cốc 3 cái, cốc ít hơn đĩa 3 cái.
+**Đáp số.** MN, NP, PQ.
 
 [ĐỀ – EN]
-There are 9 plates and 6 cups. How many more plates than cups are there? How many fewer cups than plates are there?
+Which line segments make up the broken line MNPQ?
 
 [LỜI GIẢI CŨ – EN]
-We have $9>6$, so there are more plates than cups. The difference is:
-$$9-6=3\ \text{(items)}.$$
+The broken line MNPQ is made of three line segments: MN, NP and PQ.
 
-**Answer.** There are 3 more plates than cups, and 3 fewer cups than plates.
+**Answer.** MN, NP, PQ.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Số?
-
-a) Số 17 hơn số 9 là $\square$ đơn vị.
-
-b) Số 9 kém số 17 là $\square$ đơn vị.
+Đường gấp khúc EFGH có $EF=4$ cm, $FG=6$ cm, $GH=3$ cm. Tính độ dài đường gấp khúc EFGH.
 
 [LỜI GIẢI CŨ – VI]
-a) $17-9=8$.
+Độ dài đường gấp khúc EFGH là:
+$$4\ \text{cm}+6\ \text{cm}+3\ \text{cm}=13\ \text{cm}.$$
 
-b) $17-9=8$.
-
-**Đáp số.** a) 8; b) 8.
+**Đáp số.** 13 cm.
 
 [ĐỀ – EN]
-Fill in the missing numbers.
-
-a) The number 17 is $\square$ more than 9.
-
-b) The number 9 is $\square$ less than 17.
+The broken line EFGH has $EF=4$ cm, $FG=6$ cm and $GH=3$ cm. Find the length of the broken line EFGH.
 
 [LỜI GIẢI CŨ – EN]
-a) $17-9=8$.
+The length of the broken line EFGH is:
+$$4\ \text{cm}+6\ \text{cm}+3\ \text{cm}=13\ \text{cm}.$$
 
-b) $17-9=8$.
-
-**Answer.** a) 8; b) 8.
+**Answer.** 13 cm.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Trên tia số, hai vạch ghi 5 và 12 cách nhau mấy vạch?
+Đường gấp khúc ABC có $AB=8$ cm và $BC=7$ cm. Tính độ dài đường gấp khúc ABC.
 
 [LỜI GIẢI CŨ – VI]
-$$12-5=7.$$
+$$8\ \text{cm}+7\ \text{cm}=15\ \text{cm}.$$
 
-**Đáp số.** 7 vạch.
+**Đáp số.** 15 cm.
 
 [ĐỀ – EN]
-On a number line, how many marks apart are the marks labelled 5 and 12?
+The broken line ABC has $AB=8$ cm and $BC=7$ cm. Find the length of the broken line ABC.
 
 [LỜI GIẢI CŨ – EN]
-$$12-5=7.$$
+$$8\ \text{cm}+7\ \text{cm}=15\ \text{cm}.$$
 
-**Answer.** 7 marks.
+**Answer.** 15 cm.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Lan có 14 bông hoa giấy, Mai có 8 bông hoa giấy. Bạn nào có nhiều hoa hơn? Nhiều hơn mấy bông?
+Hình tứ giác ABCD có bao nhiêu đỉnh, bao nhiêu cạnh? Kể tên các đỉnh và các cạnh.
 
 [LỜI GIẢI CŨ – VI]
-Bài giải
+Hình tứ giác ABCD có 4 đỉnh là A, B, C, D và 4 cạnh là AB, BC, CD, DA.
 
-Số bông hoa Lan nhiều hơn Mai là:
-$$14-8=6\ \text{(bông)}.$$
-Đáp số: Lan nhiều hơn, nhiều hơn 6 bông hoa.
+**Đáp số.** 4 đỉnh, 4 cạnh.
 
 [ĐỀ – EN]
-Lan has 14 paper flowers and Mai has 8 paper flowers. Who has more flowers? How many more?
+How many vertices and how many sides does the quadrilateral ABCD have? Name the vertices and the sides.
 
 [LỜI GIẢI CŨ – EN]
-Solution
+The quadrilateral ABCD has 4 vertices, A, B, C and D, and 4 sides, AB, BC, CD and DA.
 
-The number of flowers Lan has more than Mai is:
-$$14-8=6\ \text{(flowers)}.$$
-Answer: Lan has more, by 6 flowers.
+**Answer.** 4 vertices, 4 sides.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Giả sử ngày thứ nhất một cửa hàng bán 36 chiếc bánh, ngày thứ hai bán 25 chiếc bánh. Ngày nào bán nhiều hơn? Nhiều hơn bao nhiêu chiếc?
+Giả sử một sợi dây thép được uốn thành đường gấp khúc gồm ba đoạn thẳng dài 9 cm, 4 cm và 6 cm. Hỏi sợi dây thép ấy dài bao nhiêu xăng-ti-mét?
 
 [LỜI GIẢI CŨ – VI]
 Bài giải
 
-Ta có $36>25$ nên ngày thứ nhất bán nhiều hơn. Số bánh ngày thứ nhất bán nhiều hơn là:
-$$36-25=11\ \text{(chiếc)}.$$
-Đáp số: ngày thứ nhất, nhiều hơn 11 chiếc bánh.
+Sợi dây thép dài số xăng-ti-mét là:
+$$9+4+6=19\ \text{(cm)}.$$
+Đáp số: 19 cm.
 
 [ĐỀ – EN]
-Suppose on the first day a shop sells 36 cakes and on the second day it sells 25 cakes. On which day does it sell more? How many more cakes?
+Suppose a piece of wire is bent into a broken line made of three line segments that are 9 cm, 4 cm and 6 cm long. How many centimetres long is the wire?
 
 [LỜI GIẢI CŨ – EN]
 Solution
 
-We have $36>25$, so more cakes are sold on the first day. The number of extra cakes is:
-$$36-25=11\ \text{(cakes)}.$$
-Answer: the first day, by 11 cakes.
+The length of the wire in centimetres is:
+$$9+4+6=19\ \text{(cm)}.$$
+Answer: 19 cm.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Giả sử sân trường có 28 cây phượng và 15 cây bàng. Cây bàng ít hơn cây phượng bao nhiêu cây?
+Giả sử Mai dùng một sợi len xếp thành hình tứ giác ABCD có các cạnh $AB=4$ cm, $BC=5$ cm, $CD=4$ cm, $DA=5$ cm. Hỏi sợi len ấy dài bao nhiêu xăng-ti-mét?
 
 [LỜI GIẢI CŨ – VI]
 Bài giải
 
-Số cây bàng ít hơn số cây phượng là:
-$$28-15=13\ \text{(cây)}.$$
-Đáp số: 13 cây.
+Sợi len dài số xăng-ti-mét là:
+$$4+5+4+5=18\ \text{(cm)}.$$
+Đáp số: 18 cm.
 
 [ĐỀ – EN]
-Suppose the school playground has 28 flame trees and 15 banyan trees. How many fewer banyan trees than flame trees are there?
+Suppose Mai uses a piece of wool to make a quadrilateral ABCD with sides $AB=4$ cm, $BC=5$ cm, $CD=4$ cm and $DA=5$ cm. How many centimetres long is the wool?
 
 [LỜI GIẢI CŨ – EN]
 Solution
 
-The number of banyan trees is fewer than the number of flame trees by:
-$$28-15=13\ \text{(trees)}.$$
-Answer: 13 trees.
+The length of the wool in centimetres is:
+$$4+5+4+5=18\ \text{(cm)}.$$
+Answer: 18 cm.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Nhớ lại tên các thành phần của phép trừ. Nam có 9 viên bi, Hà có 15 viên bi, Hà nhiều hơn Nam 6 viên bi vì $15-9=6$. Trong phép trừ này, số nào là số bị trừ, số trừ, hiệu?
+Nhớ lại bài đo độ dài. Em dùng thước đo được $AB=6$ cm và $BC=8$ cm. Tính độ dài đường gấp khúc ABC. Đoạn thẳng nào dài hơn, dài hơn bao nhiêu xăng-ti-mét?
 
 [LỜI GIẢI CŨ – VI]
-Trong phép trừ $15-9=6$: $15$ là số bị trừ, $9$ là số trừ, $6$ là hiệu.
+Độ dài đường gấp khúc ABC là:
+$$6\ \text{cm}+8\ \text{cm}=14\ \text{cm}.$$
+Ta có $8>6$ nên đoạn BC dài hơn đoạn AB. Đoạn BC dài hơn đoạn AB là:
+$$8\ \text{cm}-6\ \text{cm}=2\ \text{cm}.$$
 
-**Đáp số.** Số bị trừ là 15, số trừ là 9, hiệu là 6.
+**Đáp số.** 14 cm; đoạn BC dài hơn 2 cm.
 
 [ĐỀ – EN]
-Remember the names of the parts of a subtraction. Nam has 9 marbles and Ha has 15 marbles, so Ha has 6 more marbles than Nam because $15-9=6$. In this subtraction, which number is the minuend, which is the subtrahend and which is the difference?
+Remember the lesson on measuring length. You measure with a ruler and find $AB=6$ cm and $BC=8$ cm. Find the length of the broken line ABC. Which line segment is longer, and by how many centimetres?
 
 [LỜI GIẢI CŨ – EN]
-In the subtraction $15-9=6$: $15$ is the minuend, $9$ is the subtrahend and $6$ is the difference.
+The length of the broken line ABC is:
+$$6\ \text{cm}+8\ \text{cm}=14\ \text{cm}.$$
+We have $8>6$, so BC is longer than AB. BC is longer than AB by:
+$$8\ \text{cm}-6\ \text{cm}=2\ \text{cm}.$$
 
-**Answer.** The minuend is 15, the subtrahend is 9 and the difference is 6.
+**Answer.** 14 cm; BC is longer by 2 cm.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Ba bạn Lan, Mai, Hà có lần lượt 9, 14 và 6 bông hoa giấy. Bạn có nhiều hoa nhất hơn bạn có ít hoa nhất bao nhiêu bông?
+Đường gấp khúc ABCD dài 18 cm. Biết $AB=7$ cm và $BC=5$ cm. Đoạn thẳng CD dài bao nhiêu xăng-ti-mét?
 
 [LỜI GIẢI CŨ – VI]
-Số lớn nhất là 14 (Mai), số bé nhất là 6 (Hà). Ta có:
-$$14-6=8.$$
+Hai đoạn AB và BC dài tất cả:
+$$7+5=12\ \text{(cm)}.$$
+Đoạn CD dài:
+$$18-12=6\ \text{(cm)}.$$
 
-**Đáp số.** 8 bông hoa.
+**Kiểm tra.** $7+5+6=18$, đúng.
+
+**Đáp số.** 6 cm.
 
 [ĐỀ – EN]
-Lan, Mai and Ha have 9, 14 and 6 paper flowers respectively. How many more flowers does the child with the most flowers have than the child with the fewest?
+The broken line ABCD is 18 cm long. You know that $AB=7$ cm and $BC=5$ cm. How many centimetres long is the line segment CD?
 
 [LỜI GIẢI CŨ – EN]
-The largest number is 14 (Mai) and the smallest is 6 (Ha). We have:
-$$14-6=8.$$
+AB and BC together are:
+$$7+5=12\ \text{(cm)}.$$
+So CD is:
+$$18-12=6\ \text{(cm)}.$$
 
-**Answer.** 8 flowers.
+**Check.** $7+5+6=18$, which is correct.
+
+**Answer.** 6 cm.
 
 
 ===== HẾT FILE Alexnguyen122222-03-LG =====

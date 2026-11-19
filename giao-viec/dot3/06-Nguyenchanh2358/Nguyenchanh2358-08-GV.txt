@@ -1,0 +1,534 @@
+######################################################################
+TÀI KHOẢN: Nguyenchanh2358   |   FILE: Nguyenchanh2358-08-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Nguyenchanh2358-08-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Nguyenchanh2358-08-GV
+Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g5/g5-review-decimals-percent
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  Nguyenchanh2358-08-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/Nguyenchanh2358-08-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file Nguyenchanh2358-08-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI g5/g5-review-decimals-percent – BẢN TIẾNG VIỆT ########
+---
+title: Ôn tập: số thập phân và tỉ số phần trăm
+description: Ôn lại số thập phân (so sánh, làm tròn, bốn phép tính) và ba bài toán cơ bản về tỉ số phần trăm, rồi làm bài toán giảm giá, tăng giá.
+minutes: 25
+---
+
+  :::goals
+  - Nhớ cách so sánh, làm tròn số thập phân và làm bốn phép tính với số thập phân.
+  - Đổi qua lại giữa phân số, số thập phân và tỉ số phần trăm.
+  - Giải ba bài toán cơ bản về phần trăm, kể cả bài toán giảm giá, tăng giá.
+  :::
+
+[[P1·93dc]]
+Cửa hàng sách giảm giá $15\%$ cho một quyển truyện giá $80\,000$ đồng. Lan có $70\,000$ đồng. Hỏi Lan có đủ tiền mua quyển truyện đó không?
+
+[[P2·54db]]
+Để trả lời, em cần dùng cả số thập phân lẫn phần trăm. Bài này ôn lại hai việc đó và cho em thấy chúng liên quan chặt chẽ với nhau.
+
+## Cùng khám phá
+
+[[P3·69bf]]
+Lớp của Lan có $40$ bạn, trong đó $6$ bạn đeo kính. Ta viết phần của lớp đeo kính bằng ba cách:
+
+[[P4·6f53]]
+- phân số: $\dfrac{6}{40}=\dfrac{3}{20}=\dfrac{15}{100}$;
+- số thập phân: $\dfrac{15}{100}=0{,}15$;
+- tỉ số phần trăm: $\dfrac{15}{100}=15\%$.
+
+[[P5·6cda]]
+Vậy $15\%$ nghĩa là $15$ phần trong $100$ phần bằng nhau. Ba cách viết này chỉ cùng một giá trị. Muốn đổi phân số sang phần trăm, em chia tử số cho mẫu số rồi nhân với $100$: $\dfrac{3}{4}=0{,}75=75\%$.
+
+[[P6·575e]]
+Em hãy nhìn vài giá trị quen thuộc trên tia số:
+
+:::graph Các giá trị quen thuộc trên tia số từ $0$ đến $1$
+   (… 12 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Ba bài toán cơ bản về phần trăm
+  1. **Tìm tỉ số phần trăm của $a$ và $b$:** lấy $a:b$ rồi nhân với $100$ và viết thêm $\%$.
+  2. **Tìm $a\%$ của số $b$:** tính $b\times a:100$.
+  3. **Tìm số khi biết $a\%$ của nó bằng $c$:** tính $c:a\times100$.
+  :::
+
+[[P7·73d6]]
+Cách 2 đúng vì $a\%=\dfrac{a}{100}$, nên $a\%$ của $b$ là $b\times\dfrac{a}{100}$. Cách 3 là phép tính ngược: $a$ phần ứng với $c$, nên $1$ phần ứng với $c:a$ và $100$ phần ứng với $c:a\times100$.
+
+:::note Nhắc lại về số thập phân
+[[P8·d3c0]]
+- **So sánh:** so phần nguyên trước; nếu bằng nhau thì so lần lượt hàng phần mười, phần trăm, phần nghìn. Thêm chữ số $0$ vào cuối phần thập phân thì giá trị không đổi: $4{,}6=4{,}60$.
+- **Làm tròn:** nhìn chữ số ngay sau hàng cần làm tròn. Chữ số đó từ $5$ trở lên thì tăng chữ số ở hàng làm tròn thêm $1$; nhỏ hơn $5$ thì giữ nguyên.
+- **Nhân, chia cho $10$; $100$; $1\,000$:** dời dấu phẩy sang phải (nhân) hoặc sang trái (chia) $1$; $2$; $3$ chữ số.
+- **Chia cho số thập phân:** nhân cả số bị chia và số chia với $10$; $100$; $\dots$ để số chia thành số tự nhiên. Thương không đổi.
+:::
+
+## Ví dụ
+
+[[P9·9d14]]
+Ta bắt đầu với số thập phân: so sánh và làm tròn.
+
+  :::example Sắp xếp và làm tròn
+  Sắp xếp các số $5{,}08$; $5{,}8$; $5{,}075$; $4{,}99$ theo thứ tự từ bé đến lớn. Rồi làm tròn $5{,}075$ đến hàng phần mười.
+
+  **Lời giải.** Em so phần nguyên trước, rồi so từng hàng. Viết các số với cùng ba chữ số thập phân:
+  $$4{,}990;\quad 5{,}080;\quad 5{,}800;\quad 5{,}075.$$
+  Số $4{,}990$ có phần nguyên bé nhất. Ở ba số còn lại, hàng phần mười là $0$, $8$, $0$ nên $5{,}800$ lớn nhất. Hai số còn lại có hàng phần trăm là $8$ và $7$, nên $5{,}075<5{,}080$. Vậy
+  $$4{,}99<5{,}075<5{,}08<5{,}8.$$
+  Để làm tròn $5{,}075$ đến hàng phần mười, em nhìn hàng phần trăm: chữ số $7$ lớn hơn $5$ nên tăng hàng phần mười thêm $1$. Vậy $5{,}075\approx5{,}1$.
+  :::
+
+[[P10·457e]]
+Tiếp theo là bốn phép tính với số thập phân trong một bài toán thực tế.
+
+  :::example Cắt vải
+  Một cuộn vải dài $12{,}6$ m. Người bán cắt lần một $4{,}75$ m, lần hai $3{,}8$ m. Phần còn lại được cắt thành các mảnh dài $0{,}45$ m. Hỏi cắt được bao nhiêu mảnh?
+
+  **Lời giải.** Trước hết tìm phần vải còn lại bằng phép trừ (đơn vị: mét):
+  $$12{,}6-4{,}75-3{,}8=7{,}85-3{,}8=4{,}05.$$
+  Muốn chia $4{,}05$ cho $0{,}45$, em nhân cả hai số với $100$ để số chia thành số tự nhiên:
+  $$4{,}05:0{,}45=405:45=9.$$
+  Vậy cắt được $9$ mảnh vải.
+
+  **Kiểm tra.** $0{,}45\times9=4{,}05$. Đúng.
+  :::
+
+[[P11·acc9]]
+Bây giờ sang phần trăm. Ta bắt đầu với bài toán loại 1: tìm tỉ số phần trăm của hai số.
+
+  :::example Tỉ lệ cây sống
+  Bác Hùng trồng $250$ cây xoan, có $215$ cây sống. Hỏi số cây sống chiếm bao nhiêu phần trăm số cây đã trồng? Số cây không sống chiếm bao nhiêu phần trăm?
+
+  **Lời giải.** Em lấy số cây sống chia cho số cây đã trồng rồi nhân với $100$:
+  $$215:250=0{,}86=86\%.$$
+  Số cây đã trồng là $100\%$, nên số cây không sống chiếm
+  $$100\%-86\%=14\%.$$
+  Vậy $86\%$ số cây sống và $14\%$ số cây không sống.
+  :::
+
+[[P12·ca74]]
+Quay lại bài toán mở đầu, đó là loại 2: tìm phần trăm của một số.
+
+  :::example Giảm giá quyển truyện
+  Quyển truyện giá $80\,000$ đồng được giảm giá $15\%$. Lan có $70\,000$ đồng. Lan có đủ tiền mua không?
+
+  **Lời giải.** Trước hết tìm số tiền được giảm, là $15\%$ của $80\,000$ đồng:
+  $$80\,000\times15:100=12\,000.$$
+  Giá quyển truyện sau khi giảm là:
+  $$80\,000-12\,000=68\,000.$$
+  Vì $68\,000<70\,000$ nên Lan đủ tiền mua và còn thừa $2\,000$ đồng.
+  :::
+
+[[P13·536a]]
+Cuối cùng là loại 3: biết phần trăm của một số, tìm số đó.
+
+  :::example Gạo trong kho
+  Một kho gạo đã bán $360$ kg, bằng $45\%$ số gạo có lúc đầu. Hỏi lúc đầu kho có bao nhiêu ki-lô-gam gạo?
+
+  **Lời giải.** $45\%$ số gạo là $360$ kg, nên $1\%$ số gạo là $360:45=8$ (kg). Cả kho ứng với $100\%$:
+  $$360:45\times100=8\times100=800.$$
+  Vậy lúc đầu kho có $800$ kg gạo.
+
+  **Kiểm tra.** $800\times45:100=360$. Đúng.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P14·7a6f]]
+- **So sánh số thập phân như số tự nhiên.** Sai: $2{,}35>2{,}4$ vì $35>4$. Vì sao sai: hàng phần mười của $2{,}35$ là $3$, bé hơn $4$. Đúng: $2{,}35<2{,}4$.
+- **Quên chia cho $100$.** Sai: $15\%$ của $80\,000$ là $80\,000\times15=1\,200\,000$. Vì sao sai: $15\%$ chỉ là $\dfrac{15}{100}$. Đúng: $80\,000\times15:100=12\,000$.
+- **Lấy sai "cả" để tính phần trăm.** Sai: giá sau khi giảm $20\%$ là $240\,000$ đồng, nên giá ban đầu là $240\,000+20\%\times240\,000=288\,000$ đồng. Vì sao sai: $20\%$ là của giá ban đầu, không phải của giá sau khi giảm. Đúng: $240\,000$ đồng là $80\%$ giá ban đầu, nên giá ban đầu là $240\,000:80\times100=300\,000$ đồng.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - số thập phân | decimal
+  - phần nguyên | whole-number part
+  - phần thập phân | decimal part
+  - hàng phần mười, hàng phần trăm | tenths, hundredths
+  - làm tròn số | rounding
+  - tỉ số phần trăm | percentage
+  - giảm giá | discount
+  - giá ban đầu | original price
+  - tăng giá | price increase
+  :::
+
+## Tóm tắt
+
+[[P15·7cc0]]
+- So sánh số thập phân: so phần nguyên trước, rồi so từng hàng từ trái sang phải. Làm tròn thì nhìn chữ số ngay sau hàng cần làm tròn.
+- Chia cho số thập phân: nhân cả hai số với $10$; $100$; $\dots$ để số chia thành số tự nhiên.
+- $\dfrac{15}{100}=0{,}15=15\%$: đổi qua lại bằng cách chia hoặc nhân với $100$.
+- Loại 1: $(a:b)\times100\%$. Loại 2: $a\%$ của $b$ là $b\times a:100$. Loại 3: số có $a\%$ bằng $c$ là $c:a\times100$.
+- Giá sau khi giảm $a\%$ là $(100-a)\%$ giá cũ; giá sau khi tăng $a\%$ là $(100+a)\%$ giá cũ. Mỗi lần đổi giá, phần trăm tính trên giá ngay trước đó.
+
+## Luyện tập
+
+[[P16·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g5/g5-review-decimals-percent – BẢN TIẾNG ANH ########
+---
+title: Review: decimals and percentages
+description: Review decimals (comparing, rounding, the four operations) and the three basic percentage problems, then solve discount and price-change problems.
+minutes: 25
+---
+
+  :::goals
+  - Remember how to compare and round decimals and how to use the four operations with them.
+  - Switch between fractions, decimals and percentages.
+  - Solve the three basic percentage problems, including discounts and price changes.
+  :::
+
+[[P1·2ecd]]
+A bookshop gives a $15\%$ discount on a storybook that costs $80\,000$ dong. Lan has $70\,000$ dong. Does she have enough money to buy the book?
+
+[[P2·9b96]]
+To decide, you need both decimals and percentages. This lesson reviews them and shows how closely they are connected.
+
+## Let's explore
+
+[[P3·4a87]]
+Lan's class has $40$ pupils, and $6$ of them wear glasses. We can write the part of the class that wears glasses in three ways:
+
+[[P4·e1ff]]
+- as a fraction: $\dfrac{6}{40}=\dfrac{3}{20}=\dfrac{15}{100}$;
+- as a decimal: $\dfrac{15}{100}=0.15$;
+- as a percentage: $\dfrac{15}{100}=15\%$.
+
+[[P5·c42c]]
+So $15\%$ means $15$ parts out of $100$ equal parts. All three ways of writing it have the same value. To change a fraction into a percentage, divide the numerator by the denominator and multiply by $100$: $\dfrac{3}{4}=0.75=75\%$.
+
+[[P6·3cb5]]
+Look at a few familiar values on a number line:
+
+:::graph Familiar values on the number line from $0$ to $1$
+   (… 12 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem The three basic percentage problems
+  1. **Find what percentage $a$ is of $b$:** work out $a\div b$, multiply by $100$ and write $\%$.
+  2. **Find $a\%$ of $b$:** work out $b\times a\div100$.
+  3. **Find the whole when $a\%$ of it is $c$:** work out $c\div a\times100$.
+  :::
+
+[[P7·7658]]
+Method 2 works because $a\%=\dfrac{a}{100}$, so $a\%$ of $b$ is $b\times\dfrac{a}{100}$. Method 3 goes backwards: $a$ parts are worth $c$, so $1$ part is worth $c\div a$ and $100$ parts are worth $c\div a\times100$.
+
+:::note Reminder: decimals
+[[P8·89fa]]
+- **Comparing:** compare the whole-number parts first; if they are equal, compare the tenths, then the hundredths, then the thousandths. Writing a $0$ at the end of the decimal part does not change the value: $4.6=4.60$.
+- **Rounding:** look at the digit just after the place you are rounding to. If it is $5$ or more, add $1$ to the digit in that place; if it is less than $5$, leave it.
+- **Multiplying or dividing by $10$, $100$, $1\,000$:** move the decimal point right (multiply) or left (divide) by $1$, $2$, $3$ places.
+- **Dividing by a decimal:** multiply both numbers by $10$, $100$, $\dots$ until the divisor is a whole number. The quotient does not change.
+:::
+
+## Examples
+
+[[P9·6b41]]
+We start with decimals: comparing and rounding.
+
+  :::example Sorting and rounding
+  Put the numbers $5.08$, $5.8$, $5.075$ and $4.99$ in order, from smallest to largest. Then round $5.075$ to the nearest tenth.
+
+  **Solution.** Compare the whole-number parts first, then each place in turn. Write the numbers with the same three decimal places:
+  $$4.990,\quad 5.080,\quad 5.800,\quad 5.075.$$
+  The number $4.990$ has the smallest whole-number part. Among the other three, the tenths digits are $0$, $8$, $0$, so $5.800$ is the largest. The other two have hundredths digits $8$ and $7$, so $5.075<5.080$. Therefore
+  $$4.99<5.075<5.08<5.8.$$
+  To round $5.075$ to the nearest tenth, look at the hundredths digit: $7$ is more than $5$, so add $1$ to the tenths digit. So $5.075\approx5.1$.
+  :::
+
+[[P10·1399]]
+Next, the four operations with decimals in a real situation.
+
+  :::example Cutting cloth
+  A roll of cloth is $12.6$ m long. A shopkeeper cuts $4.75$ m, then $3.8$ m. The rest is cut into pieces $0.45$ m long. How many pieces are there?
+
+  **Solution.** First find the cloth that is left, by subtraction (in metres):
+  $$12.6-4.75-3.8=7.85-3.8=4.05.$$
+  To divide $4.05$ by $0.45$, multiply both numbers by $100$ so that the divisor is a whole number:
+  $$4.05\div0.45=405\div45=9.$$
+  So there are $9$ pieces of cloth.
+
+  **Check.** $0.45\times9=4.05$. Correct.
+  :::
+
+[[P11·3b67]]
+Now to percentages. We start with problem type 1: what percentage one number is of another.
+
+  :::example Trees that survived
+  Mr Hung planted $250$ trees and $215$ of them survived. What percentage of the trees survived? What percentage did not survive?
+
+  **Solution.** Divide the number of surviving trees by the number planted, then multiply by $100$:
+  $$215\div250=0.86=86\%.$$
+  All the trees planted make $100\%$, so the percentage that did not survive is
+  $$100\%-86\%=14\%.$$
+  So $86\%$ of the trees survived and $14\%$ did not.
+  :::
+
+[[P12·2e1a]]
+Back to the opening question, which is type 2: finding a percentage of a number.
+
+  :::example A discounted storybook
+  A storybook costs $80\,000$ dong and has a $15\%$ discount. Lan has $70\,000$ dong. Does she have enough money?
+
+  **Solution.** First find the discount, which is $15\%$ of $80\,000$ dong:
+  $$80\,000\times15\div100=12\,000.$$
+  The price after the discount is:
+  $$80\,000-12\,000=68\,000.$$
+  Since $68\,000<70\,000$, Lan has enough money, with $2\,000$ dong left over.
+  :::
+
+[[P13·4ae2]]
+Finally, type 3: knowing a percentage of a number, find the number.
+
+  :::example Rice in a warehouse
+  A warehouse has sold $360$ kg of rice, which is $45\%$ of the rice it had at first. How many kilograms of rice did it have at first?
+
+  **Solution.** $45\%$ of the rice is $360$ kg, so $1\%$ is $360\div45=8$ (kg). The whole stock is $100\%$:
+  $$360\div45\times100=8\times100=800.$$
+  So the warehouse had $800$ kg of rice at first.
+
+  **Check.** $800\times45\div100=360$. Correct.
+  :::
+
+:::warning Mistakes to watch out for
+[[P14·ce90]]
+- **Comparing decimals like whole numbers.** Wrong: $2.35>2.4$ because $35>4$. Why it is wrong: the tenths digit of $2.35$ is $3$, which is less than $4$. Right: $2.35<2.4$.
+- **Forgetting to divide by $100$.** Wrong: $15\%$ of $80\,000$ is $80\,000\times15=1\,200\,000$. Why it is wrong: $15\%$ is only $\dfrac{15}{100}$. Right: $80\,000\times15\div100=12\,000$.
+- **Using the wrong whole.** Wrong: the price after a $20\%$ discount is $240\,000$ dong, so the original price is $240\,000+20\%\times240\,000=288\,000$ dong. Why it is wrong: $20\%$ is of the original price, not of the reduced price. Right: $240\,000$ dong is $80\%$ of the original price, so the original price is $240\,000\div80\times100=300\,000$ dong.
+:::
+
+## Key terms
+
+  :::terms
+  - decimal | số thập phân
+  - whole-number part | phần nguyên
+  - decimal part | phần thập phân
+  - tenths, hundredths | hàng phần mười, hàng phần trăm
+  - rounding | làm tròn số
+  - percentage | tỉ số phần trăm
+  - discount | giảm giá
+  - original price | giá ban đầu
+  - price increase | tăng giá
+  :::
+
+## Summary
+
+[[P15·e922]]
+- To compare decimals, compare the whole-number parts first, then each place from left to right. To round, look at the digit just after the place you round to.
+- To divide by a decimal, multiply both numbers by $10$, $100$, $\dots$ until the divisor is a whole number.
+- $\dfrac{15}{100}=0.15=15\%$: switch between them by dividing or multiplying by $100$.
+- Type 1: $(a\div b)\times100\%$. Type 2: $a\%$ of $b$ is $b\times a\div100$. Type 3: the whole with $a\%$ equal to $c$ is $c\div a\times100$.
+- After an $a\%$ discount the price is $(100-a)\%$ of the old price; after an $a\%$ increase it is $(100+a)\%$ of the old price. Each change is a percentage of the price just before it.
+
+## Practice
+
+[[P16·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

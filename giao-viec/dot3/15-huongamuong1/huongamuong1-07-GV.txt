@@ -1,0 +1,1520 @@
+######################################################################
+TÀI KHOẢN: huongamuong1   |   FILE: huongamuong1-07-GV   |   VIỆC: viết lại phần lời theo giọng người thầy (chuẩn 2f)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file huongamuong1-07-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – huongamuong1-07-GV
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): exams/ib-aa/ibaa-calculus, exams/ib-aa/ibaa-functions, exams/ib-aa/ibaa-geometry-trigonometry, exams/ib-aa/ibaa-hl-complex-proof
+
+=====================================================================
+1. VIỆC CẦN LÀM
+=====================================================================
+Lemonmath.com là website học toán miễn phí cho học sinh Việt Nam (lớp 1–12 và ôn thi).
+Toán trong các bài đã đúng. Việc của bạn: viết lại PHẦN LỜI (mở bài, giải thích, chuyển ý,
+câu dẫn, hộp mẹo/lưu ý, tóm tắt) cho tự nhiên, ấm áp, như một nhà giáo tâm huyết, dung dị
+đang ngồi cạnh một học trò. Chuẩn chi tiết ở mục 3 (chuẩn "2f", viết bằng tiếng Anh nhưng áp
+dụng cho cả hai ngôn ngữ).
+
+Trong file này, mỗi đoạn lời được phép viết lại có một mã ở dòng riêng ngay phía trên, dạng
+    [[P7·3fa2]]
+Mọi thứ KHÔNG có mã (tiêu đề ##, bảng, công thức $$…$$, hộp :::example, :::definition,
+:::theorem, :::terms, :::goals, :::exercise, :::quiz, hình…) chỉ để bạn hiểu ngữ cảnh: KHÔNG
+viết lại, KHÔNG chép lại. Các hộp bài tập/quiz/hình đã được thu gọn thành một dòng "(… GIỮ
+NGUYÊN …)".
+
+=====================================================================
+2. QUY TẮC BẮT BUỘC
+=====================================================================
+a) Chỉ viết lại các đoạn có mã [[P…]]. Không cần viết lại đoạn nào đã tốt: đoạn không nộp
+   thì giữ nguyên. Nhưng phải xem hết mọi đoạn; thường các đoạn sau đây cần viết lại:
+   - đoạn mở ngay sau tình huống đầu bài (vì sao điều này đáng học, câu hỏi bài sẽ trả lời);
+   - đoạn khám phá, đoạn giải thích "vì sao" (nêu lí do TRƯỚC quy tắc);
+   - câu chuyển ý giữa các mục, câu dẫn ngay trước mỗi hộp ví dụ;
+   - lời trong hộp :::tip / :::warning / :::note (giữ nguyên Ý, chỉ đổi lời);
+   - phần Tóm tắt / Summary: giữ các ý, rồi THÊM 1–2 câu chốt nối lại với câu hỏi đầu bài;
+   - câu dẫn ngay dưới tiêu đề Luyện tập / Practice (nếu có).
+b) TUYỆT ĐỐI KHÔNG đổi: công thức (mọi thứ trong $…$ giữ đúng từng kí tự), con số, dữ kiện,
+   tên riêng, đề bài, đáp số, liên kết dạng [chữ](lesson:…) hoặc (grade:…) (giữ nguyên cả
+   phần trong ngoặc tròn), chữ in đậm **…** là thuật ngữ được định nghĩa (giữ thuật ngữ đó).
+   Nếu đoạn cũ có $x$, $27$, $\sqrt[3]{a}$… thì đoạn mới vẫn phải có đúng các công thức đó
+   (có thể đổi vị trí trong câu). Không thêm công thức hay số mới.
+c) Đoạn mới không được bắt đầu dòng bằng ":::", "::", "#", "|", "$$" (không tạo hộp, tiêu
+   đề, bảng hay công thức hiển thị mới). Không xoá hẳn một đoạn.
+d) Đoạn là danh sách gạch đầu dòng ("- …") thì đoạn mới vẫn là danh sách với các ý cũ
+   (có thể thêm 1–2 câu thường ở cuối, như ở phần Tóm tắt).
+e) Xưng hô tiếng Việt: lớp 1–5 xưng "em"; từ lớp 6 trở lên (cả mục Ôn thi) xưng "bạn"; khi
+   cùng làm toán dùng "ta"/"chúng ta". Không dùng "các em", "các bạn". Tiếng Anh: "you",
+   "we", tiếng Anh kiểu Anh (British: colour, centre, metre, practise (động từ)).
+f) Hai bản Việt và Anh nói CÙNG Ý (không cần dịch sát từng chữ, mỗi bản viết tự nhiên theo
+   ngôn ngữ của nó). Đoạn Pk bản Việt và đoạn Pk bản Anh thường tương ứng nhau nhưng không
+   chắc chắn: hãy dựa vào nội dung.
+g) Không viết kí hiệu đô la "$" làm đơn vị tiền (trùng dấu công thức): viết "dollars" / "đô la".
+h) Không emoji, không dấu chấm than liên tiếp, không khen sáo rỗng ("tuyệt vời", "siêu dễ",
+   "bí kíp"), không mở bằng "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này
+   giúp em…", "Như vậy có thể thấy…", "Rõ ràng là…", "Dễ thấy…"; EN: "In this lesson we
+   will…", "Let's dive in", "It is important to note that…". Không bịa giai thoại ("Hồi nhỏ
+   thầy…"). Câu ngắn, từ thường ngày, mỗi câu một ý. Chỗ hay nhầm thì nhắc ân cần ("Chỗ này
+   nhiều bạn hay nhầm…").
+i) Độ dài: đoạn mới dài hơn đoạn cũ một chút là bình thường; không dài gấp ba. Lớp 1–3 câu
+   càng ngắn, càng đơn giản.
+
+=====================================================================
+3. CHUẨN 2f (nguyên văn trong quy chuẩn của website)
+=====================================================================
+## 2f. Giọng văn Lemonmath: một người thầy tâm huyết nói chuyện với học trò (decided by the teacher, 12 November 2026)
+
+Applies to everything that is not maths: lesson openings, explanations, transitions between sections, the text inside tip/mistake/summary boxes, chapter and grade blurbs, and the site pages. Exercise solutions keep the textbook layout of 2e; worked examples keep their steps but may get a warmer lead-in line.
+
+**Who is speaking.** A devoted, experienced teacher sitting next to one student. Plain, warm, unhurried; never a brochure, never a robot. Vietnamese: "em" for grades 1–5, "bạn" from grade 6; "ta"/"chúng ta" when doing maths together. English: "you" and "we", plain British English.
+
+**What it sounds like.**
+1. *Start from something real and a question.* Open with a small scene the student has lived (a queue, a bill, a shadow, a game), then ask the question the lesson will answer. One short paragraph.
+2. *Say why it matters, in one honest sentence.* Not "Bài này giúp em…" but what the idea lets you do that you could not do before.
+3. *Explain the reason before the rule.* Let the pattern appear from a small example, name it, then state the rule. When a step is not obvious, say why it works ("Vì sao lại chia cho 2? Vì mỗi cặp đã được đếm hai lần.").
+4. *Short sentences, everyday words.* One idea per sentence. Introduce a technical word after the idea is understood, and say it once in plain words.
+5. *Name the hard spot kindly.* "Chỗ này nhiều bạn hay nhầm…", "Đừng lo nếu lần đầu thấy lạ…". Encourage effort and method, briefly and sincerely.
+6. *Close the loop.* The ending recalls the opening question and leaves one thing to remember, plus a gentle nudge to practise.
+
+**Avoid (these make text sound machine-written).**
+- Stock openers and transitions: "Trong bài học này, chúng ta sẽ…", "Hãy cùng khám phá…", "Bài này giúp em…", "Tiếp theo, …", "Như vậy, có thể thấy rằng…"; EN "In this lesson we will…", "Let's dive in", "It is important to note that…".
+- Empty praise and hype: "tuyệt vời", "siêu dễ", "bí kíp", exclamation marks in a row, emoji.
+- Lists where a sentence would do; bold on every other phrase; three adjectives in a row; rhetorical triplets.
+- Lecturing or talking down: "Rõ ràng là…", "Dễ thấy…", "Ai cũng biết…".
+- First-person anecdotes that are not true ("Hồi nhỏ thầy…"): the warmth comes from how we explain, not from invented stories.
+
+**Never change** while rewriting the voice: formulas, numbers, data, problem statements, answers, the order and kind of boxes (:::goals, :::example, :::exercise, ::hint, ::solution, :::quiz…), links (lesson:…, grade:…), figure markup, the key-terms table. The English and Vietnamese versions say the same things.
+
+Before → after (Vietnamese, grade 10):
+> Robot chỉ cần một **điểm xuất phát** và một **hướng đi** là vạch ra cả một đường thẳng. Bài này biến ý tưởng đó thành phương trình.
+
+> Thử nghĩ xem: chỉ cần biết robot xuất phát ở đâu và mỗi giây nó đi về hướng nào, ta đã đoán được nó sẽ đi qua những chỗ nào trên sàn. Một điểm và một hướng là đủ để vẽ nên cả một đường thẳng. Phần tiếp theo, ta sẽ viết điều đó thành phương trình, để không cần vẽ mà vẫn trả lời được câu hỏi về robot.
+
+Before → after (English, grade 3):
+> You could add $8+8+8$, but with many spiders adding is slow. This lesson helps you work it out quickly with the 8 times table.
+
+> You could add $8+8+8$, and that works. But what if there were ten spiders, or twenty? Adding would take a long time. The 8 times table is a shortcut: once you know it, the answer comes straight away.
+
+Progress of the rewrite is tracked in `giao-viec/GIONG-VAN.md`.
+
+=====================================================================
+4. ĐỊNH DẠNG NỘP BÀI (rất quan trọng: máy sẽ tự ghép theo đúng định dạng này)
+=====================================================================
+Ghi tất cả vào MỘT file văn bản tên  huongamuong1-07-GV-ketqua.md  (trong /mnt/user-data/outputs), theo mẫu:
+
+@@@ g9/vi-du-mau vi
+[[P2·xxxx]]
+Câu hỏi thứ nhất dễ thôi: $3\cdot3\cdot3=27$, nên mỗi cạnh có $3$ khối. Câu hỏi thứ hai thì
+khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000$. Số đó gọi là căn bậc ba.
+[[P5·0b7d]]
+(đoạn mới…)
+@@@ g9/vi-du-mau en
+[[P2·yyyy]]
+(đoạn mới…)
+
+- Dòng "@@@ <tên bài> vi" hoặc "@@@ <tên bài> en" mở phần của từng bản (tên bài đúng như
+  trong file gói, ví dụ g9/cube-roots, exams/sat/sat-overview).
+- Mỗi đoạn mới: một dòng mã CHÉP ĐÚNG NGUYÊN mã trong gói (cả phần sau dấu ·), rồi nội dung
+  đoạn mới ở các dòng ngay dưới. Chỉ ghi những đoạn bạn viết lại.
+- Không ghi gì khác (không lời bình, không ``` bao quanh, không dòng trống thừa giữa các
+  dòng của một đoạn danh sách).
+- Một bài: làm xong bản Việt rồi bản Anh, rồi kiểm tra lại quy tắc 2b (so từng $…$ và từng
+  con số của đoạn mới với đoạn cũ; nếu có Python thì dùng Python đối chiếu).
+
+=====================================================================
+5. CÁCH LÀM VIỆC
+=====================================================================
+- Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
+  /mnt/user-data/outputs/huongamuong1-07-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
+  tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
+- Khi xong cả gói: đưa đường dẫn tải file huongamuong1-07-GV-ketqua.md.
+- Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
+  thêm một dòng ngay dưới đoạn đó: "GHI CHÚ: …" (máy sẽ báo cho người kiểm tra và bỏ dòng này).
+
+=====================================================================
+6. CÁC BÀI HỌC
+=====================================================================
+######## BÀI exams/ib-aa/ibaa-calculus – BẢN TIẾNG VIỆT ########
+---
+title: Giải tích: đạo hàm, tích phân, động học
+description: IB Math AA chủ đề 5: đạo hàm, tiếp tuyến và pháp tuyến, điểm dừng, tối ưu, tích phân, diện tích và động học, theo kiểu câu hỏi Paper 1 và Paper 2.
+minutes: 50
+---
+
+  :::goals
+  - Lấy đạo hàm bằng quy tắc hàm hợp, quy tắc tích và quy tắc thương.
+  - Viết phương trình tiếp tuyến và pháp tuyến.
+  - Tìm và phân loại điểm dừng, giải bài toán tối ưu.
+  - Tìm nguyên hàm các hàm cơ bản, tính tích phân xác định và diện tích.
+  - Giải bài toán động học: độ dời, vận tốc, gia tốc và quãng đường.
+  :::
+
+[[P1·13a0]]
+Giải tích chiếm nhiều điểm nhất trong IB Math AA, và thường là nội dung của các câu dài ở Section B. Một câu điển hình bắt đầu bằng một hàm số, hỏi đạo hàm và điểm dừng, rồi đến một diện tích hay thể tích, và thường kết thúc bằng một bối cảnh như chuyển động hay tối ưu. Các quy tắc có trong sổ công thức; điểm số đến từ biến đổi đại số chính xác ở Paper 1 và thiết lập rõ ràng ở Paper 2.
+
+## Các quy tắc tính đạo hàm
+
+  $$\frac{d}{dx}\big(f(g(x))\big)=f'(g(x))g'(x),\qquad(uv)'=u'v+uv',\qquad\left(\frac uv\right)'=\frac{u'v-uv'}{v^2}.$$
+[[P2·282d]]
+Đạo hàm cơ bản: $\left(x^n\right)'=nx^{n-1}$, $\left(e^x\right)'=e^x$, $(\ln x)'=\dfrac1x$, $(\sin x)'=\cos x$, $(\cos x)'=-\sin x$, $(\tan x)'=\dfrac{1}{\cos^2x}$.
+
+  :::example Quy tắc thương
+  Cho $g(x)=\dfrac{\ln x}{x}$, $x>0$.
+  (a) Chứng minh $g'(x)=\dfrac{1-\ln x}{x^2}$. [3 marks]
+  (b) Từ đó tìm toạ độ điểm cực đại của $g$. [3 marks]
+
+  **Lời giải.** (a) $g'(x)=\dfrac{\frac1x\cdot x-\ln x\cdot1}{x^2}=\dfrac{1-\ln x}{x^2}$.
+
+  (b) $g'(x)=0$ khi $\ln x=1$, tức $x=e$, và $g(e)=\dfrac1e$. Điểm cực đại là $\left(e,\dfrac1e\right)$; $g'$ đổi dấu từ dương sang âm tại $x=e$.
+  :::
+
+## Tiếp tuyến và pháp tuyến
+
+[[P3·f3d8]]
+Tại $x=a$, tiếp tuyến có hệ số góc $f'(a)$, còn **pháp tuyến (normal)** vuông góc với nó, có hệ số góc $-\dfrac{1}{f'(a)}$. Cả hai đi qua $\big(a,f(a)\big)$.
+
+  :::example Tiếp tuyến và pháp tuyến
+  Viết phương trình tiếp tuyến và pháp tuyến của $y=x^3-2x$ tại $x=1$. [5 marks]
+
+  **Lời giải.** Tại $x=1$: $y=-1$ và $\dfrac{dy}{dx}=3x^2-2=1$.
+
+  Tiếp tuyến: $y+1=1(x-1)$, tức $y=x-2$. Pháp tuyến: hệ số góc $-1$, nên $y+1=-(x-1)$, tức $y=-x$.
+  :::
+
+## Điểm dừng và bài toán tối ưu
+
+[[P4·77dd]]
+Điểm dừng (stationary point) thoả mãn $f'(x)=0$. Phân loại bằng dấu của $f'$ ở hai bên, hoặc bằng đạo hàm cấp hai: $f''(a)>0$ cho cực tiểu, $f''(a)<0$ cho cực đại. **Điểm uốn (point of inflection)** là nơi tính lồi lõm thay đổi, tức nơi $f''$ đổi dấu.
+
+  :::example Điểm dừng của hàm bậc ba
+  Cho $f(x)=x^3-3x^2-9x+2$. Tìm toạ độ các điểm dừng và xác định tính chất của chúng. [6 marks]
+
+  **Lời giải.** $f'(x)=3x^2-6x-9=3(x-3)(x+1)=0$ tại $x=-1$ và $x=3$. $f''(x)=6x-6$.
+
+  $f''(-1)=-12<0$: cực đại tại $(-1,7)$. $f''(3)=12>0$: cực tiểu tại $(3,-25)$.
+  :::
+
+  :::example Chiếc hộp không nắp
+  Cắt bốn hình vuông cạnh $x$ cm ở bốn góc một tấm bìa $12$ cm × $12$ cm, rồi gấp lên thành một chiếc hộp không nắp.
+  (a) Chứng minh thể tích hộp là $V=x(12-2x)^2$. [2 marks]
+  (b) Tìm $x$ để $V$ lớn nhất, và tính thể tích lớn nhất. [5 marks]
+
+  **Lời giải.** (a) Đáy là hình vuông cạnh $(12-2x)$ và chiều cao là $x$.
+
+  (b) $V'=(12-2x)^2+x\cdot2(12-2x)(-2)=(12-2x)(12-6x)$. Trên miền $0<x<6$, $V'=0$ tại $x=2$. $V'$ đổi dấu từ dương sang âm tại đó, nên thể tích lớn nhất là $V(2)=2\cdot8^2=128$ cm³.
+  :::
+
+## Tích phân và diện tích
+
+  $$\int x^n\,dx=\frac{x^{n+1}}{n+1}+C\ (n\ne-1),\quad\int\frac1x\,dx=\ln|x|+C,\quad\int e^x\,dx=e^x+C,$$
+  $$\int\cos x\,dx=\sin x+C,\quad\int\sin x\,dx=-\cos x+C.$$
+[[P5·d5cd]]
+Diện tích giữa đường cong và trục $x$ là $\displaystyle\int_a^b|y|\,dx$; giữa hai đường cong, lấy tích phân của (trên $-$ dưới).
+
+  :::example Diện tích dưới parabol
+  Tính diện tích miền giới hạn bởi $y=4x-x^2$ và trục $x$. [4 marks]
+
+  **Lời giải.** Đường cong cắt trục tại $x=0$ và $x=4$.
+  $$\int_0^4\left(4x-x^2\right)dx=\left[2x^2-\frac{x^3}{3}\right]_0^4=32-\frac{64}{3}=\frac{32}{3}.$$
+  :::
+
+## Động học
+
+[[P6·0b95]]
+Với một hạt chuyển động thẳng: $v=\dfrac{ds}{dt}$ và $a=\dfrac{dv}{dt}$. Độ dời từ $t_1$ đến $t_2$ là $\displaystyle\int_{t_1}^{t_2}v\,dt$, còn **quãng đường (distance traveled)** là $\displaystyle\int_{t_1}^{t_2}|v|\,dt$; ở Paper 2, GDC tính trực tiếp tích phân của $|v|$.
+
+  :::example Độ dời và quãng đường
+  Một hạt chuyển động với vận tốc $v(t)=6t-3t^2$ m s⁻¹, $0\le t\le3$.
+  (a) Tính gia tốc tại $t=1$. [2 marks]
+  (b) Tính độ dời từ $t=0$ đến $t=3$. [2 marks]
+  (c) Tính quãng đường đi được từ $t=0$ đến $t=3$. [3 marks]
+
+  **Lời giải.** (a) $a(t)=6-6t$, nên $a(1)=0$ m s⁻².
+
+  (b) $\displaystyle\int_0^3\left(6t-3t^2\right)dt=\left[3t^2-t^3\right]_0^3=27-27=0$ m: hạt trở về đúng chỗ xuất phát.
+
+  (c) $v$ đổi dấu tại $t=2$. $\displaystyle\int_0^2v\,dt=12-8=4$ và $\displaystyle\int_2^3v\,dt=0-4=-4$, nên quãng đường là $4+4=8$ m.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P7·5f59]]
+- **Quên quy tắc hàm hợp**, ví dụ $\dfrac{d}{dx}e^{3x}=3e^{3x}$.
+- **Hệ số góc pháp tuyến.** Là $-\dfrac{1}{m}$, không phải $-m$ hay $\dfrac1m$.
+- **Quên miền xác định** trong bài toán tối ưu: loại các nghiệm như $x=6$ cho hộp có thể tích $0$.
+- **Diện tích âm.** Tích phân âm ở chỗ đường cong nằm dưới trục; hãy tách tích phân khi tính diện tích hay quãng đường.
+- **Không giải thích tính chất** của điểm dừng khi đề yêu cầu "determine" hay "justify".
+- **Chế độ radian** trên GDC khi làm giải tích với hàm lượng giác.
+:::
+
+  :::terms
+  - chain rule, product rule, quotient rule | quy tắc hàm hợp, quy tắc tích, quy tắc thương
+  - gradient, tangent, normal | hệ số góc, tiếp tuyến, pháp tuyến
+  - stationary point, point of inflection | điểm dừng, điểm uốn
+  - second derivative test | dấu hiệu đạo hàm cấp hai
+  - optimization | bài toán tối ưu
+  - definite integral, area | tích phân xác định, diện tích
+  - displacement, velocity, acceleration | độ dời, vận tốc, gia tốc
+  - distance traveled | quãng đường đi được
+  :::
+
+## Bài tập tương tự
+
+:::exercise Quy tắc thương
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tiếp tuyến của hàm logarit
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Điểm dừng không phải cực trị
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Một tích phân xác định
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Từ gia tốc đến vận tốc
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Rào vườn sát tường
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Lon ít tốn vật liệu nhất
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Giữa sin và cos
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Động học ở Paper 2
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-calculus – BẢN TIẾNG ANH ########
+---
+title: Calculus: differentiation, integration, kinematics
+description: IB Maths AA topic 5: derivatives, tangents and normals, stationary points, optimization, integration, area and kinematics, in Paper 1 and Paper 2 style.
+minutes: 50
+---
+
+  :::goals
+  - Differentiate with the chain, product and quotient rules.
+  - Find equations of tangents and normals.
+  - Find and classify stationary points, and solve optimization problems.
+  - Integrate standard functions, evaluate definite integrals and find areas.
+  - Solve kinematics problems: displacement, velocity, acceleration and distance.
+  :::
+
+[[P1·1dac]]
+Calculus carries the largest share of marks in IB Maths AA, and it is the usual subject of the long Section B questions. A typical question starts with a function, asks for its derivative and stationary points, then an area or a volume, and often ends with a context such as motion or optimization. The rules are in the formula booklet; what earns marks is accurate algebra on Paper 1 and clearly stated setups on Paper 2.
+
+## Differentiation rules
+
+  $$\frac{d}{dx}\big(f(g(x))\big)=f'(g(x))g'(x),\qquad(uv)'=u'v+uv',\qquad\left(\frac uv\right)'=\frac{u'v-uv'}{v^2}.$$
+[[P2·05fc]]
+Standard derivatives: $\left(x^n\right)'=nx^{n-1}$, $\left(e^x\right)'=e^x$, $(\ln x)'=\dfrac1x$, $(\sin x)'=\cos x$, $(\cos x)'=-\sin x$, $(\tan x)'=\dfrac{1}{\cos^2x}$.
+
+  :::example Quotient rule
+  Let $g(x)=\dfrac{\ln x}{x}$, $x>0$.
+  (a) Show that $g'(x)=\dfrac{1-\ln x}{x^2}$. [3 marks]
+  (b) Hence find the coordinates of the maximum point of $g$. [3 marks]
+
+  **Solution.** (a) $g'(x)=\dfrac{\frac1x\cdot x-\ln x\cdot1}{x^2}=\dfrac{1-\ln x}{x^2}$.
+
+  (b) $g'(x)=0$ when $\ln x=1$, so $x=e$, and $g(e)=\dfrac1e$. The maximum point is $\left(e,\dfrac1e\right)$; $g'$ changes from positive to negative at $x=e$.
+  :::
+
+## Tangents and normals
+
+[[P3·cff5]]
+At $x=a$, the tangent has gradient $f'(a)$, and the **normal** is perpendicular to it, with gradient $-\dfrac{1}{f'(a)}$. Both pass through $\big(a,f(a)\big)$.
+
+  :::example Tangent and normal
+  Find the equations of the tangent and the normal to $y=x^3-2x$ at $x=1$. [5 marks]
+
+  **Solution.** At $x=1$: $y=-1$ and $\dfrac{dy}{dx}=3x^2-2=1$.
+
+  Tangent: $y+1=1(x-1)$, so $y=x-2$. Normal: gradient $-1$, so $y+1=-(x-1)$, that is $y=-x$.
+  :::
+
+## Stationary points and optimization
+
+[[P4·78ac]]
+Stationary points satisfy $f'(x)=0$. Classify them with the sign of $f'$ on each side, or with the second derivative: $f''(a)>0$ gives a minimum, $f''(a)<0$ a maximum. A **point of inflection** is where the concavity changes, that is where $f''$ changes sign.
+
+  :::example Stationary points of a cubic
+  Let $f(x)=x^3-3x^2-9x+2$. Find the coordinates of the stationary points and determine their nature. [6 marks]
+
+  **Solution.** $f'(x)=3x^2-6x-9=3(x-3)(x+1)=0$ at $x=-1$ and $x=3$. $f''(x)=6x-6$.
+
+  $f''(-1)=-12<0$: maximum at $(-1,7)$. $f''(3)=12>0$: minimum at $(3,-25)$.
+  :::
+
+  :::example An open box
+  Squares of side $x$ cm are cut from the corners of a $12$ cm by $12$ cm sheet, and the sides are folded up to make an open box.
+  (a) Show that the volume is $V=x(12-2x)^2$. [2 marks]
+  (b) Find the value of $x$ that maximizes $V$, and the maximum volume. [5 marks]
+
+  **Solution.** (a) The base is $(12-2x)$ by $(12-2x)$ and the height is $x$.
+
+  (b) $V'=(12-2x)^2+x\cdot2(12-2x)(-2)=(12-2x)(12-6x)$. In the domain $0<x<6$, $V'=0$ at $x=2$. $V'$ changes from positive to negative there, so the maximum volume is $V(2)=2\cdot8^2=128$ cm³.
+  :::
+
+## Integration and area
+
+  $$\int x^n\,dx=\frac{x^{n+1}}{n+1}+C\ (n\ne-1),\quad\int\frac1x\,dx=\ln|x|+C,\quad\int e^x\,dx=e^x+C,$$
+  $$\int\cos x\,dx=\sin x+C,\quad\int\sin x\,dx=-\cos x+C.$$
+[[P5·3020]]
+The area between a curve and the $x$-axis is $\displaystyle\int_a^b|y|\,dx$; between two curves, integrate (top $-$ bottom).
+
+  :::example Area under a parabola
+  Find the area enclosed by $y=4x-x^2$ and the $x$-axis. [4 marks]
+
+  **Solution.** The curve meets the axis at $x=0$ and $x=4$.
+  $$\int_0^4\left(4x-x^2\right)dx=\left[2x^2-\frac{x^3}{3}\right]_0^4=32-\frac{64}{3}=\frac{32}{3}.$$
+  :::
+
+## Kinematics
+
+[[P6·ab1f]]
+For a particle moving in a straight line: $v=\dfrac{ds}{dt}$ and $a=\dfrac{dv}{dt}$. The displacement from $t_1$ to $t_2$ is $\displaystyle\int_{t_1}^{t_2}v\,dt$, and the **distance traveled** is $\displaystyle\int_{t_1}^{t_2}|v|\,dt$; on Paper 2, the GDC evaluates the integral of $|v|$ directly.
+
+  :::example Displacement and distance
+  A particle moves with velocity $v(t)=6t-3t^2$ m s⁻¹ for $0\le t\le3$.
+  (a) Find the acceleration at $t=1$. [2 marks]
+  (b) Find the displacement from $t=0$ to $t=3$. [2 marks]
+  (c) Find the distance traveled from $t=0$ to $t=3$. [3 marks]
+
+  **Solution.** (a) $a(t)=6-6t$, so $a(1)=0$ m s⁻².
+
+  (b) $\displaystyle\int_0^3\left(6t-3t^2\right)dt=\left[3t^2-t^3\right]_0^3=27-27=0$ m: the particle ends where it started.
+
+  (c) $v$ changes sign at $t=2$. $\displaystyle\int_0^2v\,dt=12-8=4$ and $\displaystyle\int_2^3v\,dt=0-4=-4$, so the distance is $4+4=8$ m.
+  :::
+
+:::warning Common traps
+[[P7·2a97]]
+- **Missing the chain rule**, for example $\dfrac{d}{dx}e^{3x}=3e^{3x}$.
+- **Normal gradient.** It is $-\dfrac{1}{m}$, not $-m$ or $\dfrac1m$.
+- **Forgetting the domain** in optimization: discard solutions such as $x=6$ that give a box of volume $0$.
+- **Negative area.** An integral is negative where the curve is below the axis; split the integral for area or distance.
+- **Not justifying the nature** of a stationary point when the question asks you to "determine" or "justify".
+- **Radian mode** on the GDC for trigonometric calculus.
+:::
+
+  :::terms
+  - chain rule, product rule, quotient rule | quy tắc hàm hợp, quy tắc tích, quy tắc thương
+  - gradient, tangent, normal | hệ số góc, tiếp tuyến, pháp tuyến
+  - stationary point, point of inflection | điểm dừng, điểm uốn
+  - second derivative test | dấu hiệu đạo hàm cấp hai
+  - optimization | bài toán tối ưu
+  - definite integral, area | tích phân xác định, diện tích
+  - displacement, velocity, acceleration | độ dời, vận tốc, gia tốc
+  - distance traveled | quãng đường đi được
+  :::
+
+## Similar exercises
+
+:::exercise Quotient rule
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tangent to a logarithm
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A stationary point that is not an extremum
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A definite integral
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise From acceleration to velocity
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A field against a wall
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A can with least material
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Between sine and cosine
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Paper 2 kinematics
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-functions – BẢN TIẾNG VIỆT ########
+---
+title: Hàm số: đồ thị, phép biến đổi, hàm ngược
+description: IB Math AA chủ đề 2: tập xác định và tập giá trị, hàm hợp và hàm ngược, biến đổi đồ thị, hàm bậc hai, hàm phân thức và giải phương trình bằng GDC.
+minutes: 45
+---
+
+  :::goals
+  - Nêu tập xác định và tập giá trị của hàm số, và thu hẹp tập xác định để hàm ngược tồn tại.
+  - Lập hàm hợp và tìm hàm ngược bằng đại số.
+  - Mô tả và thực hiện các phép biến đổi đồ thị.
+  - Khảo sát hàm bậc hai bằng dạng đỉnh và biệt thức.
+  - Tìm tiệm cận và giao điểm với các trục của hàm phân thức $y=\dfrac{ax+b}{cx+d}$.
+  - Giải phương trình bằng đồ thị trên GDC và ghi đáp số đúng cách.
+  :::
+
+[[P1·ac91]]
+Chủ đề 2 là ngôn ngữ của cả chương trình. Một câu giải tích ở Section B gần như luôn mở đầu bằng một hàm số: bạn được hỏi tập xác định, một giao điểm, một tiệm cận hay hàm ngược trước khi đến phần đạo hàm. Những ý đầu này là điểm dễ, và chủ yếu bị mất vì kí hiệu cẩu thả hoặc quên điều kiện.
+
+## Tập xác định, tập giá trị, hàm hợp và hàm ngược
+
+[[P2·4cba]]
+**Tập xác định (domain)** là tập các giá trị đầu vào; **tập giá trị (range)** là tập các giá trị đầu ra. Hai điều kiện xuất hiện liên tục: không chia cho không, và (với hàm thực) không lấy căn bậc hai của số âm hay logarit của số không dương.
+
+[[P3·a8c0]]
+**Hàm hợp (composite)** $(f\circ g)(x)=f\big(g(x)\big)$ thực hiện $g$ trước. **Hàm ngược (inverse)** $f^{-1}$ đảo ngược tác dụng của $f$: để tìm nó, viết $y=f(x)$, đổi chỗ $x$ và $y$, rồi rút $y$. Hàm ngược chỉ tồn tại khi $f$ là đơn ánh; đồ thị của $f^{-1}$ đối xứng với đồ thị của $f$ qua đường thẳng $y=x$, và tập xác định với tập giá trị đổi chỗ cho nhau.
+
+  :::example Hàm hợp và hàm ngược
+  Cho $f(x)=2x-3$ và $g(x)=x^2+1$.
+
+  (a) Tính $(f\circ g)(2)$. [2 marks]
+  (b) Tìm $(g\circ f)(x)$. [2 marks]
+  (c) Tìm $f^{-1}(x)$. [2 marks]
+
+  **Lời giải.** (a) $g(2)=5$, nên $(f\circ g)(2)=f(5)=7$.
+
+  (b) $(g\circ f)(x)=(2x-3)^2+1$, có thể để nguyên dạng này trừ khi đề yêu cầu khai triển.
+
+  (c) $y=2x-3$; đổi chỗ: $x=2y-3$, nên $f^{-1}(x)=\dfrac{x+3}{2}$.
+  :::
+
+  :::example Thu hẹp tập xác định
+  Cho $h(x)=(x-1)^2$ với $x\ge1$.
+
+  (a) Viết tập giá trị của $h$. [1 mark]
+  (b) Tìm $h^{-1}(x)$ và nêu tập xác định của nó. [3 marks]
+
+  **Lời giải.** (a) $h(x)\ge0$.
+
+  (b) $y=(x-1)^2$; đổi chỗ: $x=(y-1)^2$, nên $y-1=\pm\sqrt x$. Vì tập giá trị của $h^{-1}$ là tập xác định của $h$ nên $y\ge1$, do đó lấy căn dương: $h^{-1}(x)=1+\sqrt x$, với tập xác định $x\ge0$.
+  :::
+
+## Biến đổi đồ thị
+
+| Phương trình | Phép biến đổi đồ thị $y=f(x)$ |
+|---|---|
+| $y=f(x)+b$ | tịnh tiến lên trên $b$ đơn vị |
+| $y=f(x-a)$ | tịnh tiến sang phải $a$ đơn vị |
+| $y=pf(x)$ | co giãn theo phương thẳng đứng với hệ số $p$ |
+| $y=f(qx)$ | co giãn theo phương ngang với hệ số $\dfrac1q$ |
+| $y=-f(x)$ | đối xứng qua trục $x$ |
+| $y=f(-x)$ | đối xứng qua trục $y$ |
+
+[[P4·c929]]
+Thay đổi bên trong ngoặc tác động lên $x$ và làm điều "ngược" với vẻ bề ngoài: $f(x-3)$ dời đồ thị sang phải, còn $f(2x)$ ép đồ thị theo phương ngang.
+
+  :::example Theo dấu một điểm
+  Điểm $(4,-2)$ nằm trên đồ thị $y=f(x)$. Tìm toạ độ điểm tương ứng trên đồ thị $y=2f(x-3)+1$. [3 marks]
+
+  **Lời giải.** $x-3=4$ cho $x=7$. Giá trị $y$ mới là $2(-2)+1=-3$. Điểm cần tìm là $(7,-3)$. Với giá trị $y$, thứ tự quan trọng: co giãn trước, tịnh tiến sau.
+  :::
+
+## Hàm bậc hai
+
+[[P5·7349]]
+Hàm bậc hai có ba dạng viết: $f(x)=ax^2+bx+c$ (giao với trục $y$ tại $c$), $f(x)=a(x-h)^2+k$ (đỉnh $(h,k)$, trục đối xứng $x=h$) và $f(x)=a(x-p)(x-q)$ (giao với trục $x$ tại $p$ và $q$). **Biệt thức (discriminant)** $\Delta=b^2-4ac$ quyết định số nghiệm thực: hai nghiệm nếu $\Delta>0$, một nghiệm kép nếu $\Delta=0$, vô nghiệm nếu $\Delta<0$.
+
+  :::example Dạng đỉnh và biệt thức
+  (a) Viết $f(x)=2x^2-8x+5$ dưới dạng $a(x-h)^2+k$ và viết toạ độ đỉnh. [3 marks]
+  (b) Tìm các giá trị của $k$ để $x^2+kx+9=0$ có nghiệm kép. [3 marks]
+
+  **Lời giải.** (a) $2\left(x^2-4x\right)+5=2(x-2)^2-8+5=2(x-2)^2-3$. Đỉnh là $(2,-3)$.
+
+  (b) $\Delta=k^2-36=0$, nên $k=\pm6$.
+  :::
+
+## Hàm phân thức
+
+[[P6·bfe1]]
+Với $f(x)=\dfrac{ax+b}{cx+d}$, $c\ne0$: **tiệm cận đứng** là nơi mẫu bằng không, $x=-\dfrac dc$, và **tiệm cận ngang** là $y=\dfrac ac$, giá trị mà hàm số tiến tới khi $x\to\pm\infty$.
+
+:::graph Đồ thị $y=\dfrac{2x+1}{x-3}$ cùng các tiệm cận
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Tiệm cận, giao điểm và hàm ngược
+  Cho $f(x)=\dfrac{2x+1}{x-3}$, $x\ne3$.
+
+  (a) Viết phương trình các tiệm cận. [2 marks]
+  (b) Tìm giao điểm với các trục toạ độ. [2 marks]
+  (c) Tìm $f^{-1}(x)$. [3 marks]
+
+  **Lời giải.** (a) $x=3$ và $y=2$.
+
+  (b) Giao với trục $x$: $2x+1=0$, nên $\left(-\dfrac12,0\right)$. Giao với trục $y$: $f(0)=-\dfrac13$, nên $\left(0,-\dfrac13\right)$.
+
+  (c) $x=\dfrac{2y+1}{y-3}$, nên $xy-3x=2y+1$, $y(x-2)=3x+1$ và $f^{-1}(x)=\dfrac{3x+1}{x-2}$, $x\ne2$. Các tiệm cận của $f^{-1}$ là $x=2$ và $y=3$: hai tiệm cận đổi chỗ, đúng như phép đối xứng qua $y=x$ dự báo.
+  :::
+
+## Giải phương trình bằng GDC (Paper 2)
+
+[[P7·3789]]
+Nhiều phương trình ở Paper 2 không giải được bằng đại số. Hãy vẽ đồ thị hai vế, tìm giao điểm, rồi ghi đáp số lấy ba chữ số có nghĩa. Ghi rõ phương trình bạn đã giải, để nếu đáp số cuối sai vẫn còn điểm phương pháp.
+
+  :::example Hai giao điểm
+  Giải $e^x=4-x^2$. [3 marks]
+
+  **Lời giải.** Vẽ $y=e^x$ và $y=4-x^2$ được hai giao điểm: $x\approx-1{,}96$ và $x\approx1{,}06$. Lỗi hay gặp là chỉ ghi nghiệm hiện ra trong khung nhìn mặc định; hãy thu nhỏ để chắc chắn không còn nghiệm khác.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P8·a828]]
+- **Thứ tự của hàm hợp:** $(f\circ g)(x)$ nghĩa là làm $g$ trước.
+- **$f^{-1}(x)$ không phải là $\dfrac{1}{f(x)}$.**
+- **Quên tập xác định** của hàm ngược, hoặc quên dấu $\pm$ mà điều kiện tập xác định loại bớt.
+- **Biến đổi bên trong ngoặc:** $f(x+2)$ dời đồ thị sang trái, không phải sang phải.
+- **Ghi tiệm cận bằng một con số.** Hãy viết phương trình: "$x=3$", không phải "$3$".
+- **Bỏ sót nghiệm trên GDC** nằm ngoài khung nhìn.
+:::
+
+  :::terms
+  - domain, range | tập xác định, tập giá trị
+  - composite function | hàm hợp
+  - inverse function, one-to-one | hàm ngược, đơn ánh
+  - translation, stretch, reflection | phép tịnh tiến, phép co giãn, phép đối xứng
+  - vertex, axis of symmetry | đỉnh, trục đối xứng
+  - discriminant | biệt thức
+  - rational function | hàm phân thức
+  - vertical / horizontal asymptote | tiệm cận đứng / ngang
+  :::
+
+## Bài tập tương tự
+
+:::exercise Tập xác định và tập giá trị
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Phương trình với hàm hợp
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Hàm ngược của hàm mũ
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Biến đổi một parabol
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Bất phương trình với biệt thức
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Quả bóng bay lên
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Cốc nước nguội dần
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Hàm tự ngược
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-functions – BẢN TIẾNG ANH ########
+---
+title: Functions: graphs, transformations, inverses
+description: IB Maths AA topic 2: domain and range, composite and inverse functions, transformations, quadratics, rational functions and solving equations with a GDC.
+minutes: 45
+---
+
+  :::goals
+  - State the domain and range of a function, and restrict a domain so that an inverse exists.
+  - Form composite functions and find inverse functions algebraically.
+  - Describe and apply transformations of graphs.
+  - Analyze quadratic functions with the vertex form and the discriminant.
+  - Find the asymptotes and intercepts of rational functions $y=\dfrac{ax+b}{cx+d}$.
+  - Solve equations graphically on a GDC and write the answer correctly.
+  :::
+
+[[P1·4e68]]
+Topic 2 is the language of the whole course. A calculus question in Section B nearly always opens with a function: you are asked for its domain, an intercept, an asymptote or an inverse before the derivatives begin. These first parts are worth easy marks, and they are lost mostly through careless notation and forgotten restrictions.
+
+## Domain, range, composite and inverse functions
+
+[[P2·33c5]]
+The **domain** is the set of inputs; the **range** is the set of outputs. Two restrictions come up again and again: no division by zero, and (for real functions) no square root of a negative number or logarithm of a non-positive number.
+
+[[P3·3134]]
+The **composite** $(f\circ g)(x)=f\big(g(x)\big)$ applies $g$ first. The **inverse** $f^{-1}$ undoes $f$: to find it, write $y=f(x)$, swap $x$ and $y$, and solve for $y$. An inverse exists only if $f$ is one-to-one; the graph of $f^{-1}$ is the reflection of the graph of $f$ in the line $y=x$, and the domain and range swap.
+
+  :::example Composite and inverse
+  Let $f(x)=2x-3$ and $g(x)=x^2+1$.
+
+  (a) Find $(f\circ g)(2)$. [2 marks]
+  (b) Find $(g\circ f)(x)$. [2 marks]
+  (c) Find $f^{-1}(x)$. [2 marks]
+
+  **Solution.** (a) $g(2)=5$, so $(f\circ g)(2)=f(5)=7$.
+
+  (b) $(g\circ f)(x)=(2x-3)^2+1$, which can be left in this form unless the question asks to expand.
+
+  (c) $y=2x-3$; swap: $x=2y-3$, so $f^{-1}(x)=\dfrac{x+3}{2}$.
+  :::
+
+  :::example Restricting the domain
+  Let $h(x)=(x-1)^2$ for $x\ge1$.
+
+  (a) Write down the range of $h$. [1 mark]
+  (b) Find $h^{-1}(x)$ and state its domain. [3 marks]
+
+  **Solution.** (a) $h(x)\ge0$.
+
+  (b) $y=(x-1)^2$; swap: $x=(y-1)^2$, so $y-1=\pm\sqrt x$. Since the range of $h^{-1}$ is the domain of $h$, $y\ge1$, so we take the positive root: $h^{-1}(x)=1+\sqrt x$, with domain $x\ge0$.
+  :::
+
+## Transformations
+
+| Equation | Transformation of $y=f(x)$ |
+|---|---|
+| $y=f(x)+b$ | translation by $b$ units up |
+| $y=f(x-a)$ | translation by $a$ units right |
+| $y=pf(x)$ | vertical stretch with scale factor $p$ |
+| $y=f(qx)$ | horizontal stretch with scale factor $\dfrac1q$ |
+| $y=-f(x)$ | reflection in the $x$-axis |
+| $y=f(-x)$ | reflection in the $y$-axis |
+
+[[P4·5462]]
+Changes inside the bracket act on $x$ and do the "opposite" of what they look like: $f(x-3)$ moves the graph right, and $f(2x)$ squeezes it horizontally.
+
+  :::example Following a point
+  The point $(4,-2)$ lies on the graph of $y=f(x)$. Find the coordinates of the corresponding point on the graph of $y=2f(x-3)+1$. [3 marks]
+
+  **Solution.** $x-3=4$ gives $x=7$. The new $y$-value is $2(-2)+1=-3$. The point is $(7,-3)$. Order matters for the $y$-value: stretch first, then translate.
+  :::
+
+## Quadratic functions
+
+[[P5·6e6d]]
+A quadratic can be written in three forms: $f(x)=ax^2+bx+c$ (the $y$-intercept is $c$), $f(x)=a(x-h)^2+k$ (vertex $(h,k)$, axis of symmetry $x=h$) and $f(x)=a(x-p)(x-q)$ ($x$-intercepts $p$ and $q$). The **discriminant** $\Delta=b^2-4ac$ decides the number of real roots: two if $\Delta>0$, one (repeated) if $\Delta=0$, none if $\Delta<0$.
+
+  :::example Vertex form and the discriminant
+  (a) Write $f(x)=2x^2-8x+5$ in the form $a(x-h)^2+k$, and write down the vertex. [3 marks]
+  (b) Find the values of $k$ for which $x^2+kx+9=0$ has two equal roots. [3 marks]
+
+  **Solution.** (a) $2\left(x^2-4x\right)+5=2(x-2)^2-8+5=2(x-2)^2-3$. The vertex is $(2,-3)$.
+
+  (b) $\Delta=k^2-36=0$, so $k=\pm6$.
+  :::
+
+## Rational functions
+
+[[P6·100d]]
+For $f(x)=\dfrac{ax+b}{cx+d}$ with $c\ne0$: the **vertical asymptote** is where the denominator is zero, $x=-\dfrac dc$, and the **horizontal asymptote** is $y=\dfrac ac$, the value the function approaches as $x\to\pm\infty$.
+
+:::graph The graph of $y=\dfrac{2x+1}{x-3}$ with its asymptotes
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Asymptotes, intercepts and inverse
+  Let $f(x)=\dfrac{2x+1}{x-3}$, $x\ne3$.
+
+  (a) Write down the equations of the asymptotes. [2 marks]
+  (b) Find the intercepts with the axes. [2 marks]
+  (c) Find $f^{-1}(x)$. [3 marks]
+
+  **Solution.** (a) $x=3$ and $y=2$.
+
+  (b) $x$-intercept: $2x+1=0$, so $\left(-\dfrac12,0\right)$. $y$-intercept: $f(0)=-\dfrac13$, so $\left(0,-\dfrac13\right)$.
+
+  (c) $x=\dfrac{2y+1}{y-3}$, so $xy-3x=2y+1$, $y(x-2)=3x+1$ and $f^{-1}(x)=\dfrac{3x+1}{x-2}$, $x\ne2$. The asymptotes of $f^{-1}$ are $x=2$ and $y=3$: the asymptotes swap, as the reflection in $y=x$ predicts.
+  :::
+
+## Solving equations with a GDC (Paper 2)
+
+[[P7·c7ad]]
+Many Paper 2 equations cannot be solved algebraically. Graph both sides and find the intersections, then write the answers to three significant figures. Write which equation you solved, so that a wrong final answer can still earn the method mark.
+
+  :::example Two intersections
+  Solve $e^x=4-x^2$. [3 marks]
+
+  **Solution.** Graphing $y=e^x$ and $y=4-x^2$ gives two intersections: $x\approx-1.96$ and $x\approx1.06$. A common mistake is to report only the solution that appears in the default viewing window; zoom out to check that there are no others.
+  :::
+
+:::warning Common traps
+[[P8·8448]]
+- **The order of composition:** $(f\circ g)(x)$ means $g$ first.
+- **$f^{-1}(x)$ is not $\dfrac{1}{f(x)}$.**
+- **Forgetting the domain** of an inverse, or the $\pm$ that a restricted domain removes.
+- **Transformations inside the bracket:** $f(x+2)$ moves the graph left, not right.
+- **Asymptotes written as numbers.** Write equations: "$x=3$", not "$3$".
+- **Missing GDC solutions** outside the viewing window.
+:::
+
+  :::terms
+  - domain, range | tập xác định, tập giá trị
+  - composite function | hàm hợp
+  - inverse function, one-to-one | hàm ngược, đơn ánh
+  - translation, stretch, reflection | phép tịnh tiến, phép co giãn, phép đối xứng
+  - vertex, axis of symmetry | đỉnh, trục đối xứng
+  - discriminant | biệt thức
+  - rational function | hàm phân thức
+  - vertical / horizontal asymptote | tiệm cận đứng / ngang
+  :::
+
+## Similar exercises
+
+:::exercise Domain and range
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Composite equation
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Inverse of an exponential
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Transformations of a parabola
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Discriminant inequality
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A ball in flight
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A cooling drink
+   (… 11 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise A self-inverse function
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-geometry-trigonometry – BẢN TIẾNG VIỆT ########
+---
+title: Hình học và lượng giác
+description: IB Math AA chủ đề 3: thể tích và diện tích, định lí sin và cosin, radian, cung và hình quạt, đẳng thức, phương trình lượng giác và mô hình tuần hoàn.
+minutes: 45
+---
+
+  :::goals
+  - Tính thể tích và diện tích của khối không gian, dùng định lí Pythagoras khi thiếu một độ dài.
+  - Dùng định lí sin, định lí cosin và công thức diện tích, kể cả trường hợp hai nghiệm.
+  - Làm việc với radian, độ dài cung và diện tích hình quạt.
+  - Dùng đường tròn đơn vị, giá trị đặc biệt và các đẳng thức để tính giá trị lượng giác và giải phương trình trên một khoảng cho trước.
+  - Mô hình hoá hiện tượng tuần hoàn bằng $y=a\sin\big(b(x-c)\big)+d$.
+  :::
+
+[[P1·207d]]
+Chủ đề 3 trộn hai kiểu câu hỏi. Paper 1 kiểm tra tính toán chính xác: giá trị lượng giác đặc biệt, đẳng thức và phương trình trên một khoảng, với đáp số theo $\pi$. Paper 2 kiểm tra mô hình hoá: tam giác trong bối cảnh thực tế, phương vị, độ cao, và hàm tuần hoàn như thuỷ triều hay vòng đu quay. Ở cả hai, vẽ nhanh một hình là bước đầu tiên mà thí sinh giỏi không bao giờ bỏ qua.
+
+## Khối không gian: thể tích và diện tích
+
+[[P2·d757]]
+Sổ công thức có thể tích và diện tích của hình chóp, hình nón và hình cầu. Cái khó thường là một độ dài còn thiếu, tìm bằng định lí Pythagoras trong một tam giác vuông bên trong khối.
+
+  :::example Hình nón
+  Một hình nón có bán kính đáy $6$ cm và đường sinh $10$ cm. Tính theo $\pi$:
+  (a) thể tích; [3 marks]
+  (b) diện tích xung quanh. [2 marks]
+
+  **Lời giải.** (a) Chiều cao là $\sqrt{10^2-6^2}=8$ cm, nên $V=\dfrac13\pi(6^2)(8)=96\pi$ cm³.
+
+  (b) $\pi rl=\pi(6)(10)=60\pi$ cm².
+  :::
+
+## Tam giác: định lí sin, định lí cosin, diện tích
+
+  $$\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C},\qquad c^2=a^2+b^2-2ab\cos C,\qquad\text{Diện tích}=\frac12ab\sin C.$$
+[[P3·62f2]]
+Dùng định lí cosin khi biết hai cạnh và góc xen giữa (hoặc cả ba cạnh); dùng định lí sin khi biết một cạnh và góc đối diện.
+
+  :::example Định lí cosin và diện tích, tính chính xác
+  Trong tam giác $ABC$, $AB=7$, $AC=9$ và $\hat A=60^\circ$.
+  (a) Tính $BC$. [3 marks]
+  (b) Tính diện tích tam giác. [2 marks]
+
+  **Lời giải.** (a) $BC^2=49+81-2(7)(9)\cos60^\circ=130-63=67$, nên $BC=\sqrt{67}$.
+
+  (b) $\dfrac12(7)(9)\sin60^\circ=\dfrac{63\sqrt3}{4}$.
+  :::
+
+  :::example Trường hợp hai nghiệm
+  Trong tam giác $ABC$, $a=8$, $b=10$ và $\hat A=40^\circ$. Tìm hai giá trị có thể của $\hat B$. [4 marks]
+
+  **Lời giải.** $\sin B=\dfrac{10\sin40^\circ}{8}\approx0{,}8035$. Một nghiệm là $\hat B\approx53{,}5^\circ$. Vì $\sin(180^\circ-B)=\sin B$, nghiệm còn lại là $\hat B\approx126{,}5^\circ$, và nghiệm này chấp nhận được vì $40^\circ+126{,}5^\circ<180^\circ$. Có hai tam giác khác nhau thoả mãn dữ kiện.
+  :::
+
+## Radian, cung và hình quạt
+
+[[P4·8569]]
+$\pi$ radian $=180^\circ$. Với hình quạt bán kính $r$ và góc $\theta$ tính bằng radian: độ dài cung $l=r\theta$ và diện tích $A=\dfrac12r^2\theta$.
+
+  :::example Một hình quạt
+  Một hình quạt có bán kính $5$ cm và góc $1{,}2$ radian. Tính độ dài cung, diện tích và chu vi của nó. [4 marks]
+
+  **Lời giải.** $l=5(1{,}2)=6$ cm, $A=\dfrac12(25)(1{,}2)=15$ cm², và chu vi là $6+2(5)=16$ cm.
+  :::
+
+## Giá trị đặc biệt, đẳng thức và phương trình
+
+:::note Các đẳng thức có trong sổ công thức
+[[P5·85b6]]
+$$\cos^2\theta+\sin^2\theta=1,\qquad\tan\theta=\frac{\sin\theta}{\cos\theta},\qquad\sin2\theta=2\sin\theta\cos\theta,$$
+$$\cos2\theta=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta.$$
+:::
+
+  :::example Dùng góc phần tư
+  Cho $\sin\theta=\dfrac35$ và $\dfrac\pi2<\theta<\pi$. Tìm giá trị chính xác của $\cos\theta$ và $\sin2\theta$. [5 marks]
+
+  **Lời giải.** $\cos^2\theta=1-\dfrac{9}{25}=\dfrac{16}{25}$. Ở góc phần tư thứ hai cosin âm, nên $\cos\theta=-\dfrac45$. Khi đó $\sin2\theta=2\left(\dfrac35\right)\left(-\dfrac45\right)=-\dfrac{24}{25}$.
+  :::
+
+  :::example Phương trình bậc hai theo cosin
+  Giải $2\cos^2x-\cos x-1=0$ với $0\le x\le2\pi$. [6 marks]
+
+  **Lời giải.** Phân tích: $(2\cos x+1)(\cos x-1)=0$.
+
+  $\cos x=1$ cho $x=0$ hoặc $x=2\pi$. $\cos x=-\dfrac12$ cho $x=\dfrac{2\pi}{3}$ hoặc $x=\dfrac{4\pi}{3}$.
+
+  Bốn nghiệm: $0$, $\dfrac{2\pi}{3}$, $\dfrac{4\pi}{3}$, $2\pi$. Kiểm tra khoảng ở bước cuối: hai đầu mút được tính vì dấu bất đẳng thức là $\le$.
+  :::
+
+## Mô hình lượng giác
+
+[[P6·858a]]
+Với $y=a\sin\big(b(x-c)\big)+d$ (hoặc với cosin): **biên độ (amplitude)** là $|a|$, **chu kì (period)** là $\dfrac{2\pi}{b}$, **trục chính (principal axis)** là $y=d$, giá trị lớn nhất là $d+|a|$ và nhỏ nhất là $d-|a|$.
+
+  :::example Vòng đu quay
+  Độ cao, tính bằng mét, của một ghế trên vòng đu quay sau $t$ giây kể từ khi qua điểm thấp nhất là $h(t)=12-10\cos\left(\dfrac{\pi t}{15}\right)$.
+  (a) Viết độ cao lớn nhất và nhỏ nhất. [2 marks]
+  (b) Tìm thời gian quay hết một vòng. [2 marks]
+
+  **Lời giải.** (a) Lớn nhất $12+10=22$ mét, nhỏ nhất $12-10=2$ mét.
+
+  (b) Chu kì là $\dfrac{2\pi}{\pi/15}=30$ giây.
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P7·6254]]
+- **Chế độ độ hay radian.** Câu về tam giác thường dùng độ; giải tích và mô hình tuần hoàn dùng radian.
+- **Trường hợp hai nghiệm.** Khi định lí sin cho một góc, hãy kiểm tra xem $180^\circ$ trừ góc đó có cũng thoả mãn không.
+- **Bỏ sót nghiệm.** Tìm mọi nghiệm trong khoảng: vẽ đồ thị hoặc dùng tính đối xứng của đường tròn đơn vị.
+- **Chia cho $\sin x$** trong phương trình như $\sin2x=\sin x$ làm mất các nghiệm có $\sin x=0$. Hãy phân tích thành nhân tử.
+- **Công thức hình quạt với độ.** $l=r\theta$ và $A=\dfrac12r^2\theta$ đòi hỏi $\theta$ tính bằng radian.
+:::
+
+  :::terms
+  - slant height, curved surface area | đường sinh, diện tích xung quanh
+  - sine rule, cosine rule | định lí sin, định lí cosin
+  - ambiguous case | trường hợp hai nghiệm
+  - radian, arc length, sector | radian, độ dài cung, hình quạt
+  - unit circle, quadrant | đường tròn đơn vị, góc phần tư
+  - double angle identity | công thức nhân đôi
+  - amplitude, period, principal axis | biên độ, chu kì, trục chính
+  - angle of elevation, bearing | góc nâng, phương vị
+  :::
+
+## Bài tập tương tự
+
+:::exercise Hình cầu
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Tìm góc từ ba cạnh
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Chu vi hình quạt
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Góc phần tư thứ ba
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Phân tích, đừng chia
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Trở lại vòng đu quay
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Phương vị
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Chiều cao của tháp
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách: một đẳng thức
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-geometry-trigonometry – BẢN TIẾNG ANH ########
+---
+title: Geometry and trigonometry
+description: IB Maths AA topic 3: volume and surface area, sine and cosine rules, radians, arcs and sectors, identities, trigonometric equations and models.
+minutes: 45
+---
+
+  :::goals
+  - Find volumes and surface areas of 3D solids, using Pythagoras where a length is missing.
+  - Use the sine rule, the cosine rule and the area formula, including the ambiguous case.
+  - Work in radians with arc length and sector area.
+  - Use the unit circle, exact values and identities to find trigonometric values and solve equations in a given interval.
+  - Model periodic situations with $y=a\sin\big(b(x-c)\big)+d$.
+  :::
+
+[[P1·9f16]]
+Topic 3 mixes two kinds of questions. Paper 1 tests exact work: exact trigonometric values, identities and equations solved in an interval, with answers in terms of $\pi$. Paper 2 tests modeling: triangles in real contexts, bearings, heights, and periodic functions such as tides or a Ferris wheel. In both, a quick sketch is the first step that strong candidates never skip.
+
+## Solids: volume and surface area
+
+[[P2·3770]]
+The formula booklet gives the volume and surface area of a pyramid, a cone and a sphere. The usual difficulty is a missing length, found with Pythagoras in a right triangle inside the solid.
+
+  :::example A cone
+  A cone has base radius $6$ cm and slant height $10$ cm. Find, in terms of $\pi$:
+  (a) the volume; [3 marks]
+  (b) the curved surface area. [2 marks]
+
+  **Solution.** (a) The height is $\sqrt{10^2-6^2}=8$ cm, so $V=\dfrac13\pi(6^2)(8)=96\pi$ cm³.
+
+  (b) $\pi rl=\pi(6)(10)=60\pi$ cm².
+  :::
+
+## Triangles: sine rule, cosine rule, area
+
+  $$\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C},\qquad c^2=a^2+b^2-2ab\cos C,\qquad\text{Area}=\frac12ab\sin C.$$
+[[P3·5fda]]
+Use the cosine rule when you know two sides and the angle between them (or all three sides); use the sine rule when you know a side and its opposite angle.
+
+  :::example Cosine rule and area, exactly
+  In triangle $ABC$, $AB=7$, $AC=9$ and $\hat A=60^\circ$.
+  (a) Find $BC$. [3 marks]
+  (b) Find the area of the triangle. [2 marks]
+
+  **Solution.** (a) $BC^2=49+81-2(7)(9)\cos60^\circ=130-63=67$, so $BC=\sqrt{67}$.
+
+  (b) $\dfrac12(7)(9)\sin60^\circ=\dfrac{63\sqrt3}{4}$.
+  :::
+
+  :::example The ambiguous case
+  In triangle $ABC$, $a=8$, $b=10$ and $\hat A=40^\circ$. Find the two possible values of $\hat B$. [4 marks]
+
+  **Solution.** $\sin B=\dfrac{10\sin40^\circ}{8}\approx0.8035$. One solution is $\hat B\approx53.5^\circ$. Since $\sin(180^\circ-B)=\sin B$, the other is $\hat B\approx126.5^\circ$, which is possible because $40^\circ+126.5^\circ<180^\circ$. Two different triangles fit the data.
+  :::
+
+## Radians, arcs and sectors
+
+[[P4·a37e]]
+$\pi$ radians $=180^\circ$. For a sector with radius $r$ and angle $\theta$ in radians: arc length $l=r\theta$ and area $A=\dfrac12r^2\theta$.
+
+  :::example A sector
+  A sector has radius $5$ cm and angle $1.2$ radians. Find its arc length, area and perimeter. [4 marks]
+
+  **Solution.** $l=5(1.2)=6$ cm, $A=\dfrac12(25)(1.2)=15$ cm², and the perimeter is $6+2(5)=16$ cm.
+  :::
+
+## Exact values, identities and equations
+
+:::note Identities in the formula booklet
+[[P5·85b6]]
+$$\cos^2\theta+\sin^2\theta=1,\qquad\tan\theta=\frac{\sin\theta}{\cos\theta},\qquad\sin2\theta=2\sin\theta\cos\theta,$$
+$$\cos2\theta=\cos^2\theta-\sin^2\theta=2\cos^2\theta-1=1-2\sin^2\theta.$$
+:::
+
+  :::example Using the quadrant
+  Given $\sin\theta=\dfrac35$ and $\dfrac\pi2<\theta<\pi$, find the exact values of $\cos\theta$ and $\sin2\theta$. [5 marks]
+
+  **Solution.** $\cos^2\theta=1-\dfrac{9}{25}=\dfrac{16}{25}$. In the second quadrant cosine is negative, so $\cos\theta=-\dfrac45$. Then $\sin2\theta=2\left(\dfrac35\right)\left(-\dfrac45\right)=-\dfrac{24}{25}$.
+  :::
+
+  :::example A quadratic in cosine
+  Solve $2\cos^2x-\cos x-1=0$ for $0\le x\le2\pi$. [6 marks]
+
+  **Solution.** Factor: $(2\cos x+1)(\cos x-1)=0$.
+
+  $\cos x=1$ gives $x=0$ or $x=2\pi$. $\cos x=-\dfrac12$ gives $x=\dfrac{2\pi}{3}$ or $x=\dfrac{4\pi}{3}$.
+
+  All four solutions: $0$, $\dfrac{2\pi}{3}$, $\dfrac{4\pi}{3}$, $2\pi$. Check the interval at the end: the endpoints count here because the inequalities are $\le$.
+  :::
+
+## Trigonometric models
+
+[[P6·cc09]]
+For $y=a\sin\big(b(x-c)\big)+d$ (or with cosine): the **amplitude** is $|a|$, the **period** is $\dfrac{2\pi}{b}$, the **principal axis** is $y=d$, the maximum is $d+|a|$ and the minimum is $d-|a|$.
+
+  :::example A Ferris wheel
+  The height, in meters, of a seat on a Ferris wheel $t$ seconds after it passes the lowest point is $h(t)=12-10\cos\left(\dfrac{\pi t}{15}\right)$.
+  (a) Write down the maximum and minimum heights. [2 marks]
+  (b) Find the time for one full turn. [2 marks]
+
+  **Solution.** (a) Maximum $12+10=22$ meters, minimum $12-10=2$ meters.
+
+  (b) The period is $\dfrac{2\pi}{\pi/15}=30$ seconds.
+  :::
+
+:::warning Common traps
+[[P7·17e8]]
+- **Degree or radian mode.** Triangle questions are usually in degrees; calculus and periodic models in radians.
+- **The ambiguous case.** When the sine rule gives an angle, check whether $180^\circ$ minus it is also possible.
+- **Losing solutions.** Find every solution in the interval: sketch the graph or use the symmetry of the unit circle.
+- **Dividing by $\sin x$** in an equation such as $\sin2x=\sin x$ loses the solutions where $\sin x=0$. Factor instead.
+- **Sector formulas with degrees.** $l=r\theta$ and $A=\dfrac12r^2\theta$ need $\theta$ in radians.
+:::
+
+  :::terms
+  - slant height, curved surface area | đường sinh, diện tích xung quanh
+  - sine rule, cosine rule | định lí sin, định lí cosin
+  - ambiguous case | trường hợp hai nghiệm
+  - radian, arc length, sector | radian, độ dài cung, hình quạt
+  - unit circle, quadrant | đường tròn đơn vị, góc phần tư
+  - double angle identity | công thức nhân đôi
+  - amplitude, period, principal axis | biên độ, chu kì, trục chính
+  - angle of elevation, bearing | góc nâng, phương vị
+  :::
+
+## Similar exercises
+
+:::exercise A sphere
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise An angle from three sides
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Perimeter of a sector
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Third quadrant
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Factor, do not divide
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise Back on the Ferris wheel
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Bearings
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Height of a tower
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge: an identity
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-hl-complex-proof – BẢN TIẾNG VIỆT ########
+---
+title: Số phức, quy nạp và chứng minh
+description: IB Math AA HL: số phức dạng đại số, lượng giác và mũ, định lí De Moivre, căn của số phức, chứng minh quy nạp, phản chứng và phản ví dụ.
+minutes: 50
+---
+
+  :::goals
+  - Tính toán với số phức dạng đại số, kể cả phép chia và số phức liên hợp.
+  - Chuyển đổi giữa dạng đại số, dạng lượng giác và dạng mũ (Euler), dùng định lí De Moivre.
+  - Tìm các căn bậc $n$ của một số phức và các nghiệm phức của đa thức hệ số thực.
+  - Viết chứng minh quy nạp, chứng minh phản chứng, và bác bỏ một mệnh đề bằng phản ví dụ.
+  :::
+
+[[P1·e474]]
+Các nội dung HL này có ở cả Paper 1 và Paper 2, thường trong các câu dài ở Section B, nơi một bài toán số phức dẫn tới một đẳng thức lượng giác hay một chứng minh. Chúng đòi hỏi kí hiệu gọn gàng: acgumen tính bằng radian, liệt kê đủ các căn, và viết đầy đủ cấu trúc hình thức của chứng minh quy nạp mỗi lần.
+
+## Số phức dạng đại số
+
+[[P2·fc92]]
+Số phức có dạng $z=a+bi$, với $i^2=-1$. **Số phức liên hợp (conjugate)** là $z^*=a-bi$ và **môđun (modulus)** là $|z|=\sqrt{a^2+b^2}$. Để chia, nhân cả tử và mẫu với số phức liên hợp của mẫu.
+
+  :::example Tích và thương
+  Cho $z=3+4i$ và $w=1-2i$. Tính $zw$, $\dfrac zw$ và $|z|$. [5 marks]
+
+  **Lời giải.** $zw=3-6i+4i-8i^2=11-2i$.
+
+  $\dfrac zw=\dfrac{(3+4i)(1+2i)}{(1-2i)(1+2i)}=\dfrac{3+6i+4i+8i^2}{5}=\dfrac{-5+10i}{5}=-1+2i$.
+
+  $|z|=\sqrt{9+16}=5$.
+  :::
+
+## Dạng lượng giác và dạng mũ
+
+  $$z=r(\cos\theta+i\sin\theta)=r\operatorname{cis}\theta=re^{i\theta},$$
+[[P3·90b9]]
+trong đó $r=|z|$ và $\theta=\arg z$, thường lấy trong $-\pi<\theta\le\pi$. Ở dạng này, phép nhân nhân các môđun và cộng các acgumen, còn **định lí De Moivre** cho $\left(re^{i\theta}\right)^n=r^ne^{in\theta}$.
+
+  :::example Luỹ thừa bằng De Moivre
+  Cho $z=1+i\sqrt3$.
+  (a) Viết $z$ dưới dạng $re^{i\theta}$. [2 marks]
+  (b) Từ đó tính $z^6$. [2 marks]
+
+  **Lời giải.** (a) $r=\sqrt{1+3}=2$ và $\theta=\arctan\sqrt3=\dfrac\pi3$ (góc phần tư thứ nhất), nên $z=2e^{i\pi/3}$.
+
+  (b) $z^6=2^6e^{2\pi i}=64$.
+  :::
+
+## Căn của số phức và nghiệm của đa thức
+
+[[P4·d7bd]]
+Phương trình $z^n=re^{i\theta}$ có $n$ nghiệm phân biệt
+  $$z=r^{1/n}e^{i(\theta+2k\pi)/n},\quad k=0,1,\dots,n-1.$$
+[[P5·382b]]
+Chúng nằm trên đường tròn bán kính $r^{1/n}$, cách đều nhau. Đa thức **hệ số thực** có các nghiệm không thực đi thành từng cặp liên hợp: nếu $2+i$ là nghiệm thì $2-i$ cũng là nghiệm.
+
+  :::example Căn bậc ba
+  Giải $z^3=8i$, viết đáp số dưới dạng $a+bi$. [6 marks]
+
+  **Lời giải.** $8i=8e^{i\pi/2}$, nên $z=2e^{i(\pi/6+2k\pi/3)}$ với $k=0,1,2$:
+
+  $k=0$: $2e^{i\pi/6}=\sqrt3+i$. $k=1$: $2e^{i5\pi/6}=-\sqrt3+i$. $k=2$: $2e^{i3\pi/2}=-2i$.
+  :::
+
+  :::example Phương trình bậc ba có nghiệm phức
+  Biết $2+i$ là nghiệm của $z^3-5z^2+9z-5=0$. Tìm các nghiệm còn lại. [5 marks]
+
+  **Lời giải.** Các hệ số đều thực nên $2-i$ cũng là nghiệm, và $(z-2-i)(z-2+i)=z^2-4z+5$ là một nhân tử. Chia đa thức: $z^3-5z^2+9z-5=\left(z^2-4z+5\right)(z-1)$. Các nghiệm là $2+i$, $2-i$ và $1$.
+  :::
+
+## Chứng minh quy nạp
+
+:::note Bốn phần người chấm tìm kiếm
+[[P6·32df]]
+1. **Bước cơ sở:** chứng tỏ mệnh đề đúng với giá trị đầu tiên, thường là $n=1$.
+2. **Giả thiết quy nạp:** giả sử mệnh đề đúng với $n=k$.
+3. **Bước quy nạp:** dùng giả thiết để chứng minh mệnh đề đúng với $n=k+1$.
+4. **Kết luận:** "Vì mệnh đề đúng với $n=1$, và đúng với $n=k+1$ mỗi khi nó đúng với $n=k$, nên theo nguyên lí quy nạp, mệnh đề đúng với mọi $n\in\mathbb{Z}^+$."
+:::
+
+  :::example Một tổng bằng quy nạp
+  Chứng minh bằng quy nạp rằng $\displaystyle\sum_{r=1}^{n}r(r+1)=\frac{n(n+1)(n+2)}{3}$ với mọi $n\in\mathbb{Z}^+$. [7 marks]
+
+  **Lời giải.** **Cơ sở:** với $n=1$, VT $=1\cdot2=2$ và VP $=\dfrac{1\cdot2\cdot3}{3}=2$.
+
+  **Giả thiết:** giả sử $\displaystyle\sum_{r=1}^{k}r(r+1)=\frac{k(k+1)(k+2)}{3}$.
+
+  **Bước quy nạp:** $\displaystyle\sum_{r=1}^{k+1}r(r+1)=\frac{k(k+1)(k+2)}{3}+(k+1)(k+2)=\frac{(k+1)(k+2)(k+3)}{3}$, đúng là công thức với $n=k+1$.
+
+  **Kết luận:** đúng với $n=1$, và đúng với $n=k+1$ mỗi khi đúng với $n=k$, nên đúng với mọi $n\in\mathbb{Z}^+$ theo nguyên lí quy nạp.
+  :::
+
+## Phản chứng và phản ví dụ
+
+[[P7·9844]]
+Để chứng minh **phản chứng (contradiction)**, giả sử mệnh đề sai rồi suy ra một điều vô lí. Để chứng tỏ một mệnh đề sai, chỉ cần một **phản ví dụ (counterexample)**.
+
+  :::example Một phản ví dụ
+  Chứng tỏ mệnh đề "$n^2+n+41$ là số nguyên tố với mọi số nguyên dương $n$" là sai. [2 marks]
+
+  **Lời giải.** Với $n=40$: $40^2+40+41=1681=41^2$, không phải số nguyên tố. (Biểu thức cho số nguyên tố với $n$ từ $1$ đến $39$, đó là lí do vì sao thử vài trường hợp không phải là chứng minh.)
+  :::
+
+:::warning Những cái bẫy thường gặp
+[[P8·a604]]
+- **Acgumen sai góc phần tư.** $\arctan\dfrac ba$ chỉ cho đúng góc khi $a>0$; hãy biểu diễn $z$ trên mặt phẳng phức trước.
+- **Thiếu nghiệm.** $z^n=w$ luôn có $n$ nghiệm; hãy liệt kê đủ.
+- **Quy nạp không có kết luận**, hoặc viết "giả sử đúng với mọi $n$" thay cho "với $n=k$".
+- **Dùng giả thiết theo chiều ngược:** hãy xuất phát từ trường hợp $k+1$ và dùng mệnh đề $n=k$ bên trong nó.
+- **Chứng minh bằng ví dụ.** Thử các trường hợp không bao giờ chứng minh được một mệnh đề "với mọi".
+:::
+
+  :::terms
+  - complex conjugate, modulus, argument | số phức liên hợp, môđun, acgumen
+  - Argand diagram | mặt phẳng phức (biểu đồ Argand)
+  - modulus-argument form, Euler form | dạng lượng giác, dạng mũ (Euler)
+  - De Moivre's theorem | định lí De Moivre
+  - roots of unity | căn bậc $n$ của đơn vị
+  - proof by induction | chứng minh quy nạp
+  - proof by contradiction | chứng minh phản chứng
+  - counterexample | phản ví dụ
+  :::
+
+## Bài tập tương tự
+
+:::exercise Tính toán dạng đại số
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Dạng mũ
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Căn bậc bốn
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise So sánh phần thực và phần ảo
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Chia hết bằng quy nạp
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Bài tập vận dụng
+
+:::exercise Đẳng thức lượng giác từ De Moivre
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Căn bậc ba của đơn vị
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Quy nạp với đạo hàm
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách: một logarit vô tỉ
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI exams/ib-aa/ibaa-hl-complex-proof – BẢN TIẾNG ANH ########
+---
+title: Complex numbers, induction and proof
+description: IB Maths AA HL: complex numbers in Cartesian, polar and Euler form, De Moivre's theorem, roots, proof by induction, contradiction and counterexample.
+minutes: 50
+---
+
+  :::goals
+  - Calculate with complex numbers in Cartesian form, including division and conjugates.
+  - Convert between Cartesian, modulus-argument and Euler forms, and use De Moivre's theorem.
+  - Find the $n$th roots of a complex number and the complex roots of real polynomials.
+  - Write proofs by mathematical induction, by contradiction, and disprove statements with a counterexample.
+  :::
+
+[[P1·738b]]
+These HL topics appear in Paper 1 and Paper 2, and often in the long Section B questions, where a complex number problem leads into a trigonometric identity or a proof. They reward clean notation: arguments in radians, roots listed completely, and the formal structure of an induction proof written out every time.
+
+## Complex numbers in Cartesian form
+
+[[P2·b5eb]]
+A complex number is $z=a+bi$, with $i^2=-1$. Its **conjugate** is $z^*=a-bi$ and its **modulus** is $|z|=\sqrt{a^2+b^2}$. To divide, multiply numerator and denominator by the conjugate of the denominator.
+
+  :::example Products and quotients
+  Let $z=3+4i$ and $w=1-2i$. Find $zw$, $\dfrac zw$ and $|z|$. [5 marks]
+
+  **Solution.** $zw=3-6i+4i-8i^2=11-2i$.
+
+  $\dfrac zw=\dfrac{(3+4i)(1+2i)}{(1-2i)(1+2i)}=\dfrac{3+6i+4i+8i^2}{5}=\dfrac{-5+10i}{5}=-1+2i$.
+
+  $|z|=\sqrt{9+16}=5$.
+  :::
+
+## Modulus-argument and Euler form
+
+  $$z=r(\cos\theta+i\sin\theta)=r\operatorname{cis}\theta=re^{i\theta},$$
+[[P3·7971]]
+where $r=|z|$ and $\theta=\arg z$, usually taken in $-\pi<\theta\le\pi$. In this form, multiplying multiplies moduli and adds arguments, and **De Moivre's theorem** gives $\left(re^{i\theta}\right)^n=r^ne^{in\theta}$.
+
+  :::example A power with De Moivre
+  Let $z=1+i\sqrt3$.
+  (a) Write $z$ in the form $re^{i\theta}$. [2 marks]
+  (b) Hence find $z^6$. [2 marks]
+
+  **Solution.** (a) $r=\sqrt{1+3}=2$ and $\theta=\arctan\sqrt3=\dfrac\pi3$ (first quadrant), so $z=2e^{i\pi/3}$.
+
+  (b) $z^6=2^6e^{2\pi i}=64$.
+  :::
+
+## Roots of complex numbers and polynomials
+
+[[P4·5a08]]
+The equation $z^n=re^{i\theta}$ has $n$ distinct roots
+  $$z=r^{1/n}e^{i(\theta+2k\pi)/n},\quad k=0,1,\dots,n-1.$$
+[[P5·cf6a]]
+They lie on a circle of radius $r^{1/n}$, equally spaced. A polynomial with **real coefficients** has non-real roots in conjugate pairs: if $2+i$ is a root, so is $2-i$.
+
+  :::example Cube roots
+  Solve $z^3=8i$, giving your answers in the form $a+bi$. [6 marks]
+
+  **Solution.** $8i=8e^{i\pi/2}$, so $z=2e^{i(\pi/6+2k\pi/3)}$ for $k=0,1,2$:
+
+  $k=0$: $2e^{i\pi/6}=\sqrt3+i$. $k=1$: $2e^{i5\pi/6}=-\sqrt3+i$. $k=2$: $2e^{i3\pi/2}=-2i$.
+  :::
+
+  :::example A cubic with a complex root
+  Given that $2+i$ is a root of $z^3-5z^2+9z-5=0$, find the other roots. [5 marks]
+
+  **Solution.** The coefficients are real, so $2-i$ is also a root, and $(z-2-i)(z-2+i)=z^2-4z+5$ is a factor. Dividing: $z^3-5z^2+9z-5=\left(z^2-4z+5\right)(z-1)$. The roots are $2+i$, $2-i$ and $1$.
+  :::
+
+## Proof by induction
+
+:::note The four parts graders look for
+[[P6·b17a]]
+1. **Basis:** show that the statement is true for the first value, usually $n=1$.
+2. **Assumption:** assume it is true for $n=k$.
+3. **Inductive step:** use the assumption to prove it for $n=k+1$.
+4. **Conclusion:** "Since the statement is true for $n=1$, and true for $n=k+1$ whenever it is true for $n=k$, it is true for all $n\in\mathbb{Z}^+$ by mathematical induction."
+:::
+
+  :::example A sum by induction
+  Prove by induction that $\displaystyle\sum_{r=1}^{n}r(r+1)=\frac{n(n+1)(n+2)}{3}$ for all $n\in\mathbb{Z}^+$. [7 marks]
+
+  **Solution.** **Basis:** for $n=1$, LHS $=1\cdot2=2$ and RHS $=\dfrac{1\cdot2\cdot3}{3}=2$.
+
+  **Assumption:** suppose $\displaystyle\sum_{r=1}^{k}r(r+1)=\frac{k(k+1)(k+2)}{3}$.
+
+  **Step:** $\displaystyle\sum_{r=1}^{k+1}r(r+1)=\frac{k(k+1)(k+2)}{3}+(k+1)(k+2)=\frac{(k+1)(k+2)(k+3)}{3}$, which is the formula with $n=k+1$.
+
+  **Conclusion:** true for $n=1$, and true for $n=k+1$ whenever true for $n=k$, so true for all $n\in\mathbb{Z}^+$ by induction.
+  :::
+
+## Contradiction and counterexample
+
+[[P7·5837]]
+To prove by **contradiction**, assume the statement is false and deduce something impossible. To show a statement is false, one **counterexample** is enough.
+
+  :::example A counterexample
+  Show that the statement "$n^2+n+41$ is prime for every positive integer $n$" is false. [2 marks]
+
+  **Solution.** For $n=40$: $40^2+40+41=1681=41^2$, which is not prime. (The expression is prime for $n=1$ to $39$, which is why checking a few cases is not a proof.)
+  :::
+
+:::warning Common traps
+[[P8·ad1b]]
+- **Argument in the wrong quadrant.** $\arctan\dfrac ba$ gives the right angle only for $a>0$; draw $z$ on an Argand diagram first.
+- **Missing roots.** $z^n=w$ always has $n$ roots; list all of them.
+- **Induction without a conclusion**, or with "assume true for all $n$" instead of "for $n=k$".
+- **Using the assumption backwards:** start from the $k+1$ case and use the $n=k$ statement inside it.
+- **Proof by examples.** Checking cases never proves a "for all" statement.
+:::
+
+  :::terms
+  - complex conjugate, modulus, argument | số phức liên hợp, môđun, acgumen
+  - Argand diagram | mặt phẳng phức (biểu đồ Argand)
+  - modulus-argument form, Euler form | dạng lượng giác, dạng mũ (Euler)
+  - De Moivre's theorem | định lí De Moivre
+  - roots of unity | căn bậc $n$ của đơn vị
+  - proof by induction | chứng minh quy nạp
+  - proof by contradiction | chứng minh phản chứng
+  - counterexample | phản ví dụ
+  :::
+
+## Similar exercises
+
+:::exercise Cartesian arithmetic
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Euler form
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Fourth roots
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Equating parts
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Divisibility by induction
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Application exercises
+
+:::exercise A trigonometric identity from De Moivre
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Roots of unity
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Induction with derivatives
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge: an irrational logarithm
+   (… 7 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+

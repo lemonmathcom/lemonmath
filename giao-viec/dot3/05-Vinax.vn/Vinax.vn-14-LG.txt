@@ -6,7 +6,7 @@ Kết quả: file Vinax.vn-14-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Vinax.vn-14-LG
-Người làm: tài khoản Vinax.vn. Gói này có 18 bài tập thuộc 2 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Vinax.vn. Gói này có 9 bài tập thuộc 1 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Vinax.vn-14-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/2). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/1). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Vinax.vn-14-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,401 +189,190 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g5/volume-of-a-cuboid (8 bài tập)
-- g5/volume-of-a-shape (10 bài tập)
+- g5/add-subtract-unlike-fractions (9 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g5/volume-of-a-cuboid
-Bài học: Thể tích của hình hộp chữ nhật / Volume of a cuboid
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+@@@ g5/add-subtract-unlike-fractions
+Bài học: Cộng, trừ hai phân số khác mẫu số / Adding and subtracting fractions with different denominators
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Tính thể tích hình hộp chữ nhật dài $7$ cm, rộng $3$ cm, cao $4$ cm.
+Tính: $\dfrac{1}{4}+\dfrac{2}{3}$.
 
 [LỜI GIẢI CŨ – VI]
-$V=7\times3\times4=21\times4=84\ (\text{cm}^3)$.
+$$\dfrac{1}{4}+\dfrac{2}{3}=\dfrac{3}{12}+\dfrac{8}{12}=\dfrac{11}{12}.$$
 
-**Đáp số.** $84$ cm³.
+**Đáp số.** $\dfrac{11}{12}$.
 
 [ĐỀ – EN]
-Find the volume of a cuboid $7$ cm long, $3$ cm wide and $4$ cm high.
+Work out: $\dfrac{1}{4}+\dfrac{2}{3}$.
 
 [LỜI GIẢI CŨ – EN]
-$V=7\times3\times4=21\times4=84\ (\text{cm}^3)$.
+$$\dfrac{1}{4}+\dfrac{2}{3}=\dfrac{3}{12}+\dfrac{8}{12}=\dfrac{11}{12}.$$
 
-**Answer.** $84$ cm³.
+**Answer.** $\dfrac{11}{12}$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Tính thể tích hình hộp chữ nhật dài $10$ cm, rộng $5$ cm, cao $2$ cm.
+Tính: $\dfrac{5}{6}-\dfrac{3}{8}$.
 
 [LỜI GIẢI CŨ – VI]
-$V=10\times5\times2=50\times2=100\ (\text{cm}^3)$.
+Mẫu số chung là $24$:
+$$\dfrac{5}{6}-\dfrac{3}{8}=\dfrac{20}{24}-\dfrac{9}{24}=\dfrac{11}{24}.$$
 
-**Đáp số.** $100$ cm³.
+**Đáp số.** $\dfrac{11}{24}$.
 
 [ĐỀ – EN]
-Find the volume of a cuboid $10$ cm long, $5$ cm wide and $2$ cm high.
+Work out: $\dfrac{5}{6}-\dfrac{3}{8}$.
 
 [LỜI GIẢI CŨ – EN]
-$V=10\times5\times2=50\times2=100\ (\text{cm}^3)$.
+A common denominator is $24$:
+$$\dfrac{5}{6}-\dfrac{3}{8}=\dfrac{20}{24}-\dfrac{9}{24}=\dfrac{11}{24}.$$
 
-**Answer.** $100$ cm³.
+**Answer.** $\dfrac{11}{24}$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Tính thể tích hình hộp chữ nhật dài $12$ dm, rộng $5$ dm, cao $3$ dm.
+Tính rồi rút gọn kết quả: $\dfrac{3}{4}+\dfrac{1}{12}$.
 
 [LỜI GIẢI CŨ – VI]
-$V=12\times5\times3=60\times3=180\ (\text{dm}^3)$.
+$$\dfrac{3}{4}+\dfrac{1}{12}=\dfrac{9}{12}+\dfrac{1}{12}=\dfrac{10}{12}=\dfrac{5}{6}.$$
 
-**Đáp số.** $180$ dm³.
+**Đáp số.** $\dfrac{5}{6}$.
 
 [ĐỀ – EN]
-Find the volume of a cuboid $12$ dm long, $5$ dm wide and $3$ dm high.
+Work out and simplify the answer: $\dfrac{3}{4}+\dfrac{1}{12}$.
 
 [LỜI GIẢI CŨ – EN]
-$V=12\times5\times3=60\times3=180\ (\text{dm}^3)$.
+$$\dfrac{3}{4}+\dfrac{1}{12}=\dfrac{9}{12}+\dfrac{1}{12}=\dfrac{10}{12}=\dfrac{5}{6}.$$
 
-**Answer.** $180$ dm³.
+**Answer.** $\dfrac{5}{6}$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Hộp bút của Hà là hình hộp chữ nhật dài $18$ cm, rộng $6$ cm, cao $4$ cm. Hỏi thể tích hộp bút là bao nhiêu xăng-ti-mét khối?
+Số?  $\dfrac{1}{2}+\ ?=\dfrac{5}{6}$.
 
 [LỜI GIẢI CŨ – VI]
-Thể tích hộp bút là:
-$$18\times6\times4=108\times4=432\ (\text{cm}^3).$$
+$$\dfrac{5}{6}-\dfrac{1}{2}=\dfrac{5}{6}-\dfrac{3}{6}=\dfrac{2}{6}=\dfrac{1}{3}.$$
 
-**Đáp số.** $432$ cm³.
+**Đáp số.** $\dfrac{1}{3}$.
 
 [ĐỀ – EN]
-Ha's pencil case is a cuboid $18$ cm long, $6$ cm wide and $4$ cm high. What is the volume of the pencil case in cubic centimetres?
+Find the missing number: $\dfrac{1}{2}+\ ?=\dfrac{5}{6}$.
 
 [LỜI GIẢI CŨ – EN]
-The volume of the pencil case is:
-$$18\times6\times4=108\times4=432\ (\text{cm}^3).$$
+$$\dfrac{5}{6}-\dfrac{1}{2}=\dfrac{5}{6}-\dfrac{3}{6}=\dfrac{2}{6}=\dfrac{1}{3}.$$
 
-**Answer.** $432$ cm³.
+**Answer.** $\dfrac{1}{3}$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Một bể cá hình hộp chữ nhật dài $1$ m, rộng $6$ dm, cao $5$ dm. Tính thể tích bể cá theo dm³.
+Buổi sáng Lan uống $\dfrac{1}{4}$ chai nước, buổi trưa Lan uống $\dfrac{2}{5}$ chai nước. Hỏi Lan đã uống mấy phần chai nước? Còn lại mấy phần chai nước?
 
 [LỜI GIẢI CŨ – VI]
-Đổi $1$ m $=10$ dm. Thể tích bể cá là:
-$$10\times6\times5=300\ (\text{dm}^3).$$
+Phần chai nước Lan đã uống là:
+$$\dfrac{1}{4}+\dfrac{2}{5}=\dfrac{5}{20}+\dfrac{8}{20}=\dfrac{13}{20}\ \text{(chai)}.$$
+Phần chai nước còn lại là:
+$$1-\dfrac{13}{20}=\dfrac{7}{20}\ \text{(chai)}.$$
 
-**Đáp số.** $300$ dm³.
+**Đáp số.** Đã uống $\dfrac{13}{20}$ chai; còn lại $\dfrac{7}{20}$ chai.
 
 [ĐỀ – EN]
-A fish tank is a cuboid $1$ m long, $6$ dm wide and $5$ dm high. Find the volume of the tank in dm³.
+In the morning Lan drinks $\dfrac{1}{4}$ of a bottle of water, and at lunchtime she drinks $\dfrac{2}{5}$ of the bottle. What fraction of the bottle has she drunk? What fraction is left?
 
 [LỜI GIẢI CŨ – EN]
-Change $1$ m $=10$ dm. The volume of the tank is:
-$$10\times6\times5=300\ (\text{dm}^3).$$
+The fraction of the bottle Lan has drunk is:
+$$\dfrac{1}{4}+\dfrac{2}{5}=\dfrac{5}{20}+\dfrac{8}{20}=\dfrac{13}{20}\ \text{(of the bottle)}.$$
+The fraction of the bottle left is:
+$$1-\dfrac{13}{20}=\dfrac{7}{20}\ \text{(of the bottle)}.$$
 
-**Answer.** $300$ dm³.
+**Answer.** She has drunk $\dfrac{13}{20}$ of the bottle, and $\dfrac{7}{20}$ is left.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài trước: một hình lập phương có cạnh $4$ cm. Tính diện tích xung quanh và diện tích toàn phần của hình lập phương đó.
+Một sợi dây dài $\dfrac{7}{8}$ m. Cô giáo cắt đi $\dfrac{1}{3}$ m để làm dây nhảy. Hỏi sợi dây còn lại dài bao nhiêu mét?
 
 [LỜI GIẢI CŨ – VI]
-Diện tích một mặt là $4\times4=16$ (cm²).
+Sợi dây còn lại dài:
+$$\dfrac{7}{8}-\dfrac{1}{3}=\dfrac{21}{24}-\dfrac{8}{24}=\dfrac{13}{24}\ \text{(m)}.$$
 
-Diện tích xung quanh: $16\times4=64$ (cm²). Diện tích toàn phần: $16\times6=96$ (cm²).
-
-**Đáp số.** Diện tích xung quanh $64$ cm², diện tích toàn phần $96$ cm².
+**Đáp số.** $\dfrac{13}{24}$ m.
 
 [ĐỀ – EN]
-Remember the last lesson: a cube has edges of $4$ cm. Find its lateral surface area and its total surface area.
+A piece of string is $\dfrac{7}{8}$ m long. The teacher cuts off $\dfrac{1}{3}$ m to make a skipping rope. How many metres of string are left?
 
 [LỜI GIẢI CŨ – EN]
-The area of one face is $4\times4=16$ (cm²).
+The length of string left is:
+$$\dfrac{7}{8}-\dfrac{1}{3}=\dfrac{21}{24}-\dfrac{8}{24}=\dfrac{13}{24}\ \text{(m)}.$$
 
-Lateral surface area: $16\times4=64$ (cm²). Total surface area: $16\times6=96$ (cm²).
-
-**Answer.** Lateral surface area $64$ cm², total surface area $96$ cm².
+**Answer.** $\dfrac{13}{24}$ m.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Một hình hộp chữ nhật có thể tích $120$ cm³, chiều dài $8$ cm, chiều rộng $5$ cm. Tính chiều cao.
+Em hãy nhớ lại bài so sánh phân số. So sánh $\dfrac{5}{8}$ và $\dfrac{7}{12}$, rồi tính xem phân số lớn hơn lớn hơn phân số bé bao nhiêu.
 
 [LỜI GIẢI CŨ – VI]
-Diện tích đáy là $8\times5=40$ (cm²). Chiều cao là $120:40=3$ (cm).
+Mẫu số chung là $24$: $\dfrac{5}{8}=\dfrac{15}{24}$ và $\dfrac{7}{12}=\dfrac{14}{24}$.
 
-**Kiểm tra.** $8\times5\times3=120$. Đúng.
+Vì $15>14$ nên $\dfrac{5}{8}>\dfrac{7}{12}$. Hiệu của chúng là $\dfrac{15}{24}-\dfrac{14}{24}=\dfrac{1}{24}$.
 
-**Đáp số.** $3$ cm.
+**Đáp số.** $\dfrac{5}{8}>\dfrac{7}{12}$ và hơn nhau $\dfrac{1}{24}$.
 
 [ĐỀ – EN]
-A cuboid has volume $120$ cm³, length $8$ cm and width $5$ cm. Find its height.
+Remember the lesson on comparing fractions. Compare $\dfrac{5}{8}$ and $\dfrac{7}{12}$, then work out by how much the larger fraction is greater than the smaller one.
 
 [LỜI GIẢI CŨ – EN]
-The base area is $8\times5=40$ (cm²). The height is $120\div40=3$ (cm).
+A common denominator is $24$: $\dfrac{5}{8}=\dfrac{15}{24}$ and $\dfrac{7}{12}=\dfrac{14}{24}$.
 
-**Check.** $8\times5\times3=120$. Correct.
+Since $15>14$, we have $\dfrac{5}{8}>\dfrac{7}{12}$. The difference is $\dfrac{15}{24}-\dfrac{14}{24}=\dfrac{1}{24}$.
 
-**Answer.** $3$ cm.
+**Answer.** $\dfrac{5}{8}>\dfrac{7}{12}$, and the difference is $\dfrac{1}{24}$.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Một thùng hình hộp chữ nhật dài $40$ cm, rộng $30$ cm, cao $20$ cm. Em xếp vừa khít, không có khe hở, các hộp nhỏ hình hộp chữ nhật dài $10$ cm, rộng $10$ cm, cao $5$ cm vào đầy thùng. Xếp được nhiều nhất bao nhiêu hộp nhỏ?
+Một mảnh đất, giả sử, dùng $\dfrac{3}{10}$ diện tích để xây nhà và $\dfrac{1}{4}$ diện tích để đào ao. Phần đất còn lại trồng cây. Hỏi phần đất trồng cây chiếm mấy phần diện tích mảnh đất?
 
 [LỜI GIẢI CŨ – VI]
-Thể tích thùng là $40\times30\times20=24\,000$ (cm³). Thể tích một hộp nhỏ là $10\times10\times5=500$ (cm³). Số hộp nhỏ là $24\,000:500=48$ (hộp).
+Phần đất xây nhà và đào ao là:
+$$\dfrac{3}{10}+\dfrac{1}{4}=\dfrac{6}{20}+\dfrac{5}{20}=\dfrac{11}{20}\ \text{(diện tích)}.$$
+Phần đất trồng cây là:
+$$1-\dfrac{11}{20}=\dfrac{9}{20}\ \text{(diện tích)}.$$
 
-**Kiểm tra.** Theo chiều dài xếp được $40:10=4$ hộp, theo chiều rộng $30:10=3$ hộp, theo chiều cao $20:5=4$ lớp. Có $4\times3\times4=48$ hộp. Đúng.
-
-**Đáp số.** $48$ hộp.
-
-[ĐỀ – EN]
-A crate is a cuboid $40$ cm long, $30$ cm wide and $20$ cm high. You pack small cuboid boxes, each $10$ cm long, $10$ cm wide and $5$ cm high, into the crate with no gaps until it is full. What is the greatest number of small boxes that fit?
-
-[LỜI GIẢI CŨ – EN]
-The volume of the crate is $40\times30\times20=24\,000$ (cm³). The volume of one small box is $10\times10\times5=500$ (cm³). The number of small boxes is $24\,000\div500=48$ (boxes).
-
-**Check.** Along the length there are $40\div10=4$ boxes, along the width $30\div10=3$ boxes, and in height $20\div5=4$ layers. That is $4\times3\times4=48$ boxes. Correct.
-
-**Answer.** $48$ boxes.
-
-
-######################################################################
-@@@ g5/volume-of-a-shape
-Bài học: Thể tích của một hình. Xăng-ti-mét khối. Đề-xi-mét khối. Mét khối / Volume of a shape. Cubic centimetres. Cubic decimetres. Cubic metres
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Số?
-a) $6\ \text{dm}^3=?\ \text{cm}^3$; b) $9000\ \text{cm}^3=?\ \text{dm}^3$; c) $4\ \text{m}^3=?\ \text{dm}^3$; d) $12\,000\ \text{dm}^3=?\ \text{m}^3$.
-
-[LỜI GIẢI CŨ – VI]
-a) $6\times1000=6000\ \text{cm}^3$.
-
-b) $9000:1000=9\ \text{dm}^3$.
-
-c) $4\times1000=4000\ \text{dm}^3$.
-
-d) $12\,000:1000=12\ \text{m}^3$.
-
-**Đáp số.** a) $6000$; b) $9$; c) $4000$; d) $12$.
+**Đáp số.** $\dfrac{9}{20}$ diện tích mảnh đất.
 
 [ĐỀ – EN]
-Find the missing numbers:
-a) $6\ \text{dm}^3=?\ \text{cm}^3$; b) $9000\ \text{cm}^3=?\ \text{dm}^3$; c) $4\ \text{m}^3=?\ \text{dm}^3$; d) $12\,000\ \text{dm}^3=?\ \text{m}^3$.
+Suppose a plot of land uses $\dfrac{3}{10}$ of its area for a house and $\dfrac{1}{4}$ of its area for a pond. The rest is planted with trees. What fraction of the plot is planted with trees?
 
 [LỜI GIẢI CŨ – EN]
-a) $6\times1000=6000\ \text{cm}^3$.
-
-b) $9000\div1000=9\ \text{dm}^3$.
-
-c) $4\times1000=4000\ \text{dm}^3$.
-
-d) $12\,000\div1000=12\ \text{m}^3$.
-
-**Answer.** a) $6000$; b) $9$; c) $4000$; d) $12$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Số?
-a) $7\ \text{m}^3\ 300\ \text{dm}^3=?\ \text{dm}^3$; b) $5\ \text{dm}^3\ 60\ \text{cm}^3=?\ \text{cm}^3$; c) $6500\ \text{dm}^3=?\ \text{m}^3\ ?\ \text{dm}^3$; d) $3450\ \text{cm}^3=?\ \text{dm}^3\ ?\ \text{cm}^3$.
-
-[LỜI GIẢI CŨ – VI]
-a) $7\ \text{m}^3=7000\ \text{dm}^3$, nên được $7000+300=7300\ \text{dm}^3$.
-
-b) $5\ \text{dm}^3=5000\ \text{cm}^3$, nên được $5000+60=5060\ \text{cm}^3$.
-
-c) $6500\ \text{dm}^3=6000\ \text{dm}^3+500\ \text{dm}^3=6\ \text{m}^3\ 500\ \text{dm}^3$.
-
-d) $3450\ \text{cm}^3=3000\ \text{cm}^3+450\ \text{cm}^3=3\ \text{dm}^3\ 450\ \text{cm}^3$.
-
-**Đáp số.** a) $7300$; b) $5060$; c) $6\ \text{m}^3\ 500\ \text{dm}^3$; d) $3\ \text{dm}^3\ 450\ \text{cm}^3$.
-
-[ĐỀ – EN]
-Find the missing numbers:
-a) $7\ \text{m}^3\ 300\ \text{dm}^3=?\ \text{dm}^3$; b) $5\ \text{dm}^3\ 60\ \text{cm}^3=?\ \text{cm}^3$; c) $6500\ \text{dm}^3=?\ \text{m}^3\ ?\ \text{dm}^3$; d) $3450\ \text{cm}^3=?\ \text{dm}^3\ ?\ \text{cm}^3$.
-
-[LỜI GIẢI CŨ – EN]
-a) $7\ \text{m}^3=7000\ \text{dm}^3$, so we get $7000+300=7300\ \text{dm}^3$.
-
-b) $5\ \text{dm}^3=5000\ \text{cm}^3$, so we get $5000+60=5060\ \text{cm}^3$.
-
-c) $6500\ \text{dm}^3=6000\ \text{dm}^3+500\ \text{dm}^3=6\ \text{m}^3\ 500\ \text{dm}^3$.
-
-d) $3450\ \text{cm}^3=3000\ \text{cm}^3+450\ \text{cm}^3=3\ \text{dm}^3\ 450\ \text{cm}^3$.
-
-**Answer.** a) $7300$; b) $5060$; c) $6\ \text{m}^3\ 500\ \text{dm}^3$; d) $3\ \text{dm}^3\ 450\ \text{cm}^3$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Một hình hộp chữ nhật được xếp vừa kín bằng các khối lập phương $1\ \text{cm}^3$, gồm $3$ lớp, mỗi lớp có $5$ hàng và mỗi hàng có $6$ khối. Tính thể tích của hình đó.
-
-[LỜI GIẢI CŨ – VI]
-Mỗi lớp có $6\times5=30$ khối. Ba lớp có $30\times3=90$ khối.
-
-Vậy thể tích của hình là $90\ \text{cm}^3$.
-
-**Đáp số.** $90\ \text{cm}^3$.
-
-[ĐỀ – EN]
-A cuboid is exactly filled with cubes of volume $1\ \text{cm}^3$ in $3$ layers, each layer having $5$ rows and each row having $6$ cubes. Find the volume of the cuboid.
-
-[LỜI GIẢI CŨ – EN]
-Each layer has $6\times5=30$ cubes. Three layers have $30\times3=90$ cubes.
-
-So the volume of the cuboid is $90\ \text{cm}^3$.
-
-**Answer.** $90\ \text{cm}^3$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Giả sử một chai nước chứa $1{,}5$ lít nước. Hỏi chai nước đó chứa bao nhiêu đề-xi-mét khối và bao nhiêu xăng-ti-mét khối nước?
-
-[LỜI GIẢI CŨ – VI]
-Vì $1$ lít $=1\ \text{dm}^3$ nên $1{,}5$ lít $=1{,}5\ \text{dm}^3$.
-
-Đổi ra xăng-ti-mét khối: $1{,}5\ \text{dm}^3=1\ \text{dm}^3+0{,}5\ \text{dm}^3=1000+500=1500\ \text{cm}^3$.
-
-**Đáp số.** $1{,}5\ \text{dm}^3$, tức là $1500\ \text{cm}^3$.
-
-[ĐỀ – EN]
-Suppose a bottle holds $1.5$ litres of water. How many cubic decimetres and how many cubic centimetres of water does the bottle hold?
-
-[LỜI GIẢI CŨ – EN]
-Since $1$ litre $=1\ \text{dm}^3$, $1.5$ litres $=1.5\ \text{dm}^3$.
-
-Change to cubic centimetres: $1.5\ \text{dm}^3=1\ \text{dm}^3+0.5\ \text{dm}^3=1000+500=1500\ \text{cm}^3$.
-
-**Answer.** $1.5\ \text{dm}^3$, which is $1500\ \text{cm}^3$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Một bể chứa được $2400$ lít nước. Hỏi bể chứa được bao nhiêu đề-xi-mét khối và bao nhiêu mét khối nước?
-
-[LỜI GIẢI CŨ – VI]
-Vì $1$ lít $=1\ \text{dm}^3$ nên $2400$ lít $=2400\ \text{dm}^3$.
-
-Đổi ra mét khối: $2400\ \text{dm}^3=2000\ \text{dm}^3+400\ \text{dm}^3=2\ \text{m}^3+0{,}4\ \text{m}^3=2{,}4\ \text{m}^3$.
-
-**Đáp số.** $2400\ \text{dm}^3$, tức là $2{,}4\ \text{m}^3$.
-
-[ĐỀ – EN]
-A tank holds $2400$ litres of water. How many cubic decimetres and how many cubic metres of water does it hold?
-
-[LỜI GIẢI CŨ – EN]
-Since $1$ litre $=1\ \text{dm}^3$, $2400$ litres $=2400\ \text{dm}^3$.
-
-Change to cubic metres: $2400\ \text{dm}^3=2000\ \text{dm}^3+400\ \text{dm}^3=2\ \text{m}^3+0.4\ \text{m}^3=2.4\ \text{m}^3$.
-
-**Answer.** $2400\ \text{dm}^3$, which is $2.4\ \text{m}^3$.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Điền dấu $>$, $<$, $=$ vào chỗ chấm: a) $2500\ \text{cm}^3\ \ldots\ 3\ \text{dm}^3$; b) $0{,}5\ \text{m}^3\ \ldots\ 500\ \text{dm}^3$; c) $4\ \text{dm}^3\ 20\ \text{cm}^3\ \ldots\ 4200\ \text{cm}^3$.
-
-[LỜI GIẢI CŨ – VI]
-a) $3\ \text{dm}^3=3000\ \text{cm}^3$. Vì $2500<3000$ nên điền dấu $<$.
-
-b) $0{,}5\ \text{m}^3=500\ \text{dm}^3$, nên điền dấu $=$.
-
-c) $4\ \text{dm}^3\ 20\ \text{cm}^3=4020\ \text{cm}^3$. Vì $4020<4200$ nên điền dấu $<$.
-
-**Đáp số.** a) $<$; b) $=$; c) $<$.
-
-[ĐỀ – EN]
-Write $>$, $<$ or $=$ in the gap: a) $2500\ \text{cm}^3\ \ldots\ 3\ \text{dm}^3$; b) $0.5\ \text{m}^3\ \ldots\ 500\ \text{dm}^3$; c) $4\ \text{dm}^3\ 20\ \text{cm}^3\ \ldots\ 4200\ \text{cm}^3$.
-
-[LỜI GIẢI CŨ – EN]
-a) $3\ \text{dm}^3=3000\ \text{cm}^3$. Since $2500<3000$, write $<$.
-
-b) $0.5\ \text{m}^3=500\ \text{dm}^3$, so write $=$.
-
-c) $4\ \text{dm}^3\ 20\ \text{cm}^3=4020\ \text{cm}^3$. Since $4020<4200$, write $<$.
-
-**Answer.** a) $<$; b) $=$; c) $<$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Giả sử một thùng chứa $3\ \text{m}^3\ 600\ \text{dm}^3$ nước, người ta đổ thêm vào thùng $1\ \text{m}^3\ 700\ \text{dm}^3$ nước. Hỏi sau đó thùng chứa bao nhiêu mét khối nước?
-
-[LỜI GIẢI CŨ – VI]
-Tổng là $3\ \text{m}^3\ 600\ \text{dm}^3+1\ \text{m}^3\ 700\ \text{dm}^3=4\ \text{m}^3\ 1300\ \text{dm}^3=5\ \text{m}^3\ 300\ \text{dm}^3$, tức là $5{,}3\ \text{m}^3$.
-
-**Đáp số.** $5{,}3\ \text{m}^3$.
-
-[ĐỀ – EN]
-Suppose a barrel holds $3\ \text{m}^3\ 600\ \text{dm}^3$ of water, and $1\ \text{m}^3\ 700\ \text{dm}^3$ more water is poured in. How many cubic metres of water does the barrel hold after that?
-
-[LỜI GIẢI CŨ – EN]
-The total is $3\ \text{m}^3\ 600\ \text{dm}^3+1\ \text{m}^3\ 700\ \text{dm}^3=4\ \text{m}^3\ 1300\ \text{dm}^3=5\ \text{m}^3\ 300\ \text{dm}^3$, which is $5.3\ \text{m}^3$.
-
-**Answer.** $5.3\ \text{m}^3$.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Em hãy nhớ lại bài các đơn vị đo diện tích, trong đó $1\ \text{m}^2=100\ \text{dm}^2$. Vì sao $1\ \text{m}^3$ lại bằng $1000\ \text{dm}^3$ chứ không bằng $100\ \text{dm}^3$?
-
-[LỜI GIẢI CŨ – VI]
-Khối lập phương cạnh $1$ m là khối cạnh $10$ dm. Mỗi hàng xếp được $10$ khối $1\ \text{dm}^3$, mỗi lớp có $10$ hàng, và có $10$ lớp. Số khối là $10\times10\times10=1000$.
-
-Với diện tích chỉ có hàng và cột: $10\times10=100$ ô, nên $1\ \text{m}^2=100\ \text{dm}^2$.
-
-**Đáp số.** $1\ \text{m}^3=1000\ \text{dm}^3$ vì có thêm một chiều: $10\times10\times10=1000$.
-
-[ĐỀ – EN]
-Remember the lesson on units of area, in which $1\ \text{m}^2=100\ \text{dm}^2$. Why is $1\ \text{m}^3$ equal to $1000\ \text{dm}^3$ and not to $100\ \text{dm}^3$?
-
-[LỜI GIẢI CŨ – EN]
-A cube with side $1$ m is a cube with side $10$ dm. Each row holds $10$ cubes of $1\ \text{dm}^3$, each layer has $10$ rows, and there are $10$ layers. The number of cubes is $10\times10\times10=1000$.
-
-With area there are only rows and columns: $10\times10=100$ squares, so $1\ \text{m}^2=100\ \text{dm}^2$.
-
-**Answer.** $1\ \text{m}^3=1000\ \text{dm}^3$ because there is one more dimension: $10\times10\times10=1000$.
+The fraction used for the house and the pond is:
+$$\dfrac{3}{10}+\dfrac{1}{4}=\dfrac{6}{20}+\dfrac{5}{20}=\dfrac{11}{20}\ \text{(of the plot)}.$$
+The fraction planted with trees is:
+$$1-\dfrac{11}{20}=\dfrac{9}{20}\ \text{(of the plot)}.$$
+
+**Answer.** $\dfrac{9}{20}$ of the plot.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Giả sử một bể cá chứa $60$ lít nước, bể cá thứ hai chứa $0{,}08\ \text{m}^3$ nước. Bể nào chứa được nhiều nước hơn và nhiều hơn bao nhiêu lít?
+Tính nhanh: $\dfrac{1}{2}+\dfrac{1}{6}+\dfrac{1}{12}+\dfrac{1}{20}+\dfrac{1}{30}$.
 
 [LỜI GIẢI CŨ – VI]
-$0{,}08\ \text{m}^3=\dfrac{8}{100}\times1000=80$ lít.
+Vì $2=1\times2$, $6=2\times3$, $12=3\times4$, $20=4\times5$, $30=5\times6$ nên:
+$$\left(1-\dfrac{1}{2}\right)+\left(\dfrac{1}{2}-\dfrac{1}{3}\right)+\left(\dfrac{1}{3}-\dfrac{1}{4}\right)+\left(\dfrac{1}{4}-\dfrac{1}{5}\right)+\left(\dfrac{1}{5}-\dfrac{1}{6}\right)=1-\dfrac{1}{6}=\dfrac{5}{6}.$$
 
-Vì $80>60$ nên bể thứ hai chứa nhiều hơn. Bể thứ hai chứa nhiều hơn bể thứ nhất $80-60=20$ lít.
-
-**Đáp số.** Bể thứ hai chứa nhiều hơn, hơn $20$ lít.
-
-[ĐỀ – EN]
-Suppose one fish tank holds $60$ litres of water and a second fish tank holds $0.08\ \text{m}^3$ of water. Which tank holds more water, and by how many litres?
-
-[LỜI GIẢI CŨ – EN]
-$0.08\ \text{m}^3=\dfrac{8}{100}\times1000=80$ litres.
-
-Since $80>60$, the second tank holds more. The second tank holds $80-60=20$ litres more than the first.
-
-**Answer.** The second tank holds more, by $20$ litres.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Một khối lập phương cạnh $1$ m được cắt thành các khối lập phương nhỏ cạnh $1$ cm. Nếu xếp tất cả các khối nhỏ đó nối tiếp thành một hàng thẳng thì hàng dài bao nhiêu ki-lô-mét?
-
-[LỜI GIẢI CŨ – VI]
-Có $1\,000\,000$ khối nhỏ $1\ \text{cm}^3$. Hàng dài $1\,000\,000$ cm $=10\,000$ m $=10$ km.
-
-**Đáp số.** $10$ km.
+**Đáp số.** $\dfrac{5}{6}$.
 
 [ĐỀ – EN]
-A cube with side $1$ m is cut into small cubes with side $1$ cm. If all the small cubes are placed end to end in one straight line, how many kilometres long is the line?
+Work out quickly: $\dfrac{1}{2}+\dfrac{1}{6}+\dfrac{1}{12}+\dfrac{1}{20}+\dfrac{1}{30}$.
 
 [LỜI GIẢI CŨ – EN]
-There are $1\,000\,000$ small cubes of $1\ \text{cm}^3$. The line is $1\,000\,000$ cm $=10\,000$ m $=10$ km long.
+Since $2=1\times2$, $6=2\times3$, $12=3\times4$, $20=4\times5$ and $30=5\times6$, we have:
+$$\left(1-\dfrac{1}{2}\right)+\left(\dfrac{1}{2}-\dfrac{1}{3}\right)+\left(\dfrac{1}{3}-\dfrac{1}{4}\right)+\left(\dfrac{1}{4}-\dfrac{1}{5}\right)+\left(\dfrac{1}{5}-\dfrac{1}{6}\right)=1-\dfrac{1}{6}=\dfrac{5}{6}.$$
 
-**Answer.** $10$ km.
+**Answer.** $\dfrac{5}{6}$.
 
 
 ===== HẾT FILE Vinax.vn-14-LG =====

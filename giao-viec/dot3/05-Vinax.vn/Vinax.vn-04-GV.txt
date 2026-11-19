@@ -6,7 +6,7 @@ Kết quả: file Vinax.vn-04-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vinax.vn-04-GV
-Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g5/g5-review-decimals-percent
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g4/fractions-and-division, g4/g4-bar-charts
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/Vinax.vn-04-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  /mnt/user-data/outputs/Vinax.vn-04-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file Vinax.vn-04-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,164 +135,130 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g5/g5-review-decimals-percent – BẢN TIẾNG VIỆT ########
+######## BÀI g4/fractions-and-division – BẢN TIẾNG VIỆT ########
 ---
-title: Ôn tập: số thập phân và tỉ số phần trăm
-description: Ôn lại số thập phân (so sánh, làm tròn, bốn phép tính) và ba bài toán cơ bản về tỉ số phần trăm, rồi làm bài toán giảm giá, tăng giá.
-minutes: 25
+title: Phân số và phép chia số tự nhiên
+description: Em học thương của phép chia hai số tự nhiên có thể viết thành một phân số, và mọi số tự nhiên đều viết được dưới dạng phân số.
+minutes: 15
 ---
 
   :::goals
-  - Nhớ cách so sánh, làm tròn số thập phân và làm bốn phép tính với số thập phân.
-  - Đổi qua lại giữa phân số, số thập phân và tỉ số phần trăm.
-  - Giải ba bài toán cơ bản về phần trăm, kể cả bài toán giảm giá, tăng giá.
+  - Biết thương của phép chia hai số tự nhiên ($a:b$, $b\neq0$) viết được thành phân số $\dfrac{a}{b}$.
+  - Viết một số tự nhiên dưới dạng phân số.
+  - Giải bài toán chia đều mà kết quả là một phân số.
   :::
 
-[[P1·93dc]]
-Cửa hàng sách giảm giá $15\%$ cho một quyển truyện giá $80\,000$ đồng. Lan có $70\,000$ đồng. Hỏi Lan có đủ tiền mua quyển truyện đó không?
+[[P1·aee9]]
+Cô giáo chia đều $3$ chiếc bánh cho $4$ bạn. Mỗi bạn được bao nhiêu phần của một chiếc bánh?
 
-[[P2·54db]]
-Để trả lời, em cần dùng cả số thập phân lẫn phần trăm. Bài này ôn lại hai việc đó và cho em thấy chúng liên quan chặt chẽ với nhau.
+[[P2·a276]]
+Em đã biết $12:4=3$. Nhưng $3:4$ thì không chia hết, và em cần một loại số mới để viết thương. Đó chính là phân số mà em vừa học.
 
 ## Cùng khám phá
 
-[[P3·69bf]]
-Lớp của Lan có $40$ bạn, trong đó $6$ bạn đeo kính. Ta viết phần của lớp đeo kính bằng ba cách:
+[[P3·3c69]]
+Ta chia đều từng bước.
 
-[[P4·6f53]]
-- phân số: $\dfrac{6}{40}=\dfrac{3}{20}=\dfrac{15}{100}$;
-- số thập phân: $\dfrac{15}{100}=0{,}15$;
-- tỉ số phần trăm: $\dfrac{15}{100}=15\%$.
+[[P4·e78f]]
+- Cắt mỗi chiếc bánh thành $4$ phần bằng nhau. Mỗi phần là $\dfrac{1}{4}$ chiếc bánh.
+- Mỗi bạn lấy $1$ phần của chiếc bánh thứ nhất, $1$ phần của chiếc bánh thứ hai và $1$ phần của chiếc bánh thứ ba.
+- Vậy mỗi bạn có $3$ phần, mỗi phần là $\dfrac{1}{4}$ chiếc bánh.
 
-[[P5·6cda]]
-Vậy $15\%$ nghĩa là $15$ phần trong $100$ phần bằng nhau. Ba cách viết này chỉ cùng một giá trị. Muốn đổi phân số sang phần trăm, em chia tử số cho mẫu số rồi nhân với $100$: $\dfrac{3}{4}=0{,}75=75\%$.
+[[P5·d5e1]]
+Mỗi bạn được $\dfrac{3}{4}$ chiếc bánh. Ta thấy $3:4=\dfrac{3}{4}$.
 
-[[P6·575e]]
-Em hãy nhìn vài giá trị quen thuộc trên tia số:
-
-:::graph Các giá trị quen thuộc trên tia số từ $0$ đến $1$
-   (… 12 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::graph Trên trục số: 3 : 4 là điểm 3/4, nằm giữa 0 và 1
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::theorem Ba bài toán cơ bản về phần trăm
-  1. **Tìm tỉ số phần trăm của $a$ và $b$:** lấy $a:b$ rồi nhân với $100$ và viết thêm $\%$.
-  2. **Tìm $a\%$ của số $b$:** tính $b\times a:100$.
-  3. **Tìm số khi biết $a\%$ của nó bằng $c$:** tính $c:a\times100$.
+  :::theorem Phân số và phép chia
+  Thương của phép chia số tự nhiên $a$ cho số tự nhiên $b$ (khác $0$) viết được thành phân số có tử số là $a$ và mẫu số là $b$:
+  $$a:b=\frac{a}{b}.$$
   :::
 
-[[P7·73d6]]
-Cách 2 đúng vì $a\%=\dfrac{a}{100}$, nên $a\%$ của $b$ là $b\times\dfrac{a}{100}$. Cách 3 là phép tính ngược: $a$ phần ứng với $c$, nên $1$ phần ứng với $c:a$ và $100$ phần ứng với $c:a\times100$.
-
-:::note Nhắc lại về số thập phân
-[[P8·d3c0]]
-- **So sánh:** so phần nguyên trước; nếu bằng nhau thì so lần lượt hàng phần mười, phần trăm, phần nghìn. Thêm chữ số $0$ vào cuối phần thập phân thì giá trị không đổi: $4{,}6=4{,}60$.
-- **Làm tròn:** nhìn chữ số ngay sau hàng cần làm tròn. Chữ số đó từ $5$ trở lên thì tăng chữ số ở hàng làm tròn thêm $1$; nhỏ hơn $5$ thì giữ nguyên.
-- **Nhân, chia cho $10$; $100$; $1\,000$:** dời dấu phẩy sang phải (nhân) hoặc sang trái (chia) $1$; $2$; $3$ chữ số.
-- **Chia cho số thập phân:** nhân cả số bị chia và số chia với $10$; $100$; $\dots$ để số chia thành số tự nhiên. Thương không đổi.
-:::
+[[P6·73e0]]
+Điều này đúng vì chia đều $a$ cái bánh cho $b$ bạn thì mỗi bạn được $a$ phần, mỗi phần là $\dfrac{1}{b}$ chiếc bánh, tức $\dfrac{a}{b}$.
 
 ## Ví dụ
 
-[[P9·9d14]]
-Ta bắt đầu với số thập phân: so sánh và làm tròn.
+[[P7·3a8d]]
+Ta bắt đầu với một phép chia mà số bị chia nhỏ hơn số chia.
 
-  :::example Sắp xếp và làm tròn
-  Sắp xếp các số $5{,}08$; $5{,}8$; $5{,}075$; $4{,}99$ theo thứ tự từ bé đến lớn. Rồi làm tròn $5{,}075$ đến hàng phần mười.
+  :::example Chia bánh
+  Chia đều $2$ chiếc bánh cho $5$ bạn. Mỗi bạn được bao nhiêu phần chiếc bánh?
 
-  **Lời giải.** Em so phần nguyên trước, rồi so từng hàng. Viết các số với cùng ba chữ số thập phân:
-  $$4{,}990;\quad 5{,}080;\quad 5{,}800;\quad 5{,}075.$$
-  Số $4{,}990$ có phần nguyên bé nhất. Ở ba số còn lại, hàng phần mười là $0$, $8$, $0$ nên $5{,}800$ lớn nhất. Hai số còn lại có hàng phần trăm là $8$ và $7$, nên $5{,}075<5{,}080$. Vậy
-  $$4{,}99<5{,}075<5{,}08<5{,}8.$$
-  Để làm tròn $5{,}075$ đến hàng phần mười, em nhìn hàng phần trăm: chữ số $7$ lớn hơn $5$ nên tăng hàng phần mười thêm $1$. Vậy $5{,}075\approx5{,}1$.
+  **Lời giải.** Ta lấy số bánh chia cho số bạn, rồi viết thương thành phân số:
+  $$2:5=\frac{2}{5}.$$
+  Vậy mỗi bạn được $\dfrac{2}{5}$ chiếc bánh.
   :::
 
-[[P10·457e]]
-Tiếp theo là bốn phép tính với số thập phân trong một bài toán thực tế.
+[[P8·2f6f]]
+Khi số bị chia lớn hơn số chia, phân số có tử số lớn hơn mẫu số. Điều đó vẫn đúng.
 
-  :::example Cắt vải
-  Một cuộn vải dài $12{,}6$ m. Người bán cắt lần một $4{,}75$ m, lần hai $3{,}8$ m. Phần còn lại được cắt thành các mảnh dài $0{,}45$ m. Hỏi cắt được bao nhiêu mảnh?
+  :::example Chia ruy-băng
+  Chia đều $5$ m ruy-băng cho $4$ bạn. Mỗi bạn được bao nhiêu mét?
 
-  **Lời giải.** Trước hết tìm phần vải còn lại bằng phép trừ (đơn vị: mét):
-  $$12{,}6-4{,}75-3{,}8=7{,}85-3{,}8=4{,}05.$$
-  Muốn chia $4{,}05$ cho $0{,}45$, em nhân cả hai số với $100$ để số chia thành số tự nhiên:
-  $$4{,}05:0{,}45=405:45=9.$$
-  Vậy cắt được $9$ mảnh vải.
+  **Lời giải.** Ta chia $5$ cho $4$ và viết thương thành phân số:
+  $$5:4=\frac{5}{4}\ \text{(m)}.$$
+  Vậy mỗi bạn được $\dfrac{5}{4}$ m. Trên trục số, $\dfrac{5}{4}$ nằm sau điểm $1$ một phần tư.
 
-  **Kiểm tra.** $0{,}45\times9=4{,}05$. Đúng.
   :::
 
-[[P11·acc9]]
-Bây giờ sang phần trăm. Ta bắt đầu với bài toán loại 1: tìm tỉ số phần trăm của hai số.
+[[P9·e3bc]]
+Mọi số tự nhiên cũng viết được dưới dạng phân số.
 
-  :::example Tỉ lệ cây sống
-  Bác Hùng trồng $250$ cây xoan, có $215$ cây sống. Hỏi số cây sống chiếm bao nhiêu phần trăm số cây đã trồng? Số cây không sống chiếm bao nhiêu phần trăm?
+  :::example Viết số tự nhiên thành phân số
+  Viết số $6$ và số $1$ dưới dạng phân số.
 
-  **Lời giải.** Em lấy số cây sống chia cho số cây đã trồng rồi nhân với $100$:
-  $$215:250=0{,}86=86\%.$$
-  Số cây đã trồng là $100\%$, nên số cây không sống chiếm
-  $$100\%-86\%=14\%.$$
-  Vậy $86\%$ số cây sống và $14\%$ số cây không sống.
+  **Lời giải.** Chia $6$ cho $1$ thì được $6$, nên:
+  $$6=6:1=\frac{6}{1}.$$
+  Chia $8$ cho $8$ được $1$, nên $1=\dfrac{8}{8}$. Ta có thể viết số $1$ với mẫu số bất kì (khác $0$) bằng cách cho tử số bằng mẫu số.
+
+  **Kiểm tra.** $\dfrac{6}{1}$ là $6$ phần, mỗi phần là một cái nguyên: được $6$ cái nguyên. Đúng.
   :::
 
-[[P12·ca74]]
-Quay lại bài toán mở đầu, đó là loại 2: tìm phần trăm của một số.
+[[P10·1ff5]]
+Ta cũng đi theo chiều ngược lại: đọc một phân số như một phép chia.
 
-  :::example Giảm giá quyển truyện
-  Quyển truyện giá $80\,000$ đồng được giảm giá $15\%$. Lan có $70\,000$ đồng. Lan có đủ tiền mua không?
+  :::example Phân số là một phép chia
+  Một sợi dây dài $9$ m được cắt thành $4$ đoạn bằng nhau. Mỗi đoạn dài bao nhiêu mét? Phân số $\dfrac{9}{4}$ là thương của phép chia nào?
 
-  **Lời giải.** Trước hết tìm số tiền được giảm, là $15\%$ của $80\,000$ đồng:
-  $$80\,000\times15:100=12\,000.$$
-  Giá quyển truyện sau khi giảm là:
-  $$80\,000-12\,000=68\,000.$$
-  Vì $68\,000<70\,000$ nên Lan đủ tiền mua và còn thừa $2\,000$ đồng.
-  :::
-
-[[P13·536a]]
-Cuối cùng là loại 3: biết phần trăm của một số, tìm số đó.
-
-  :::example Gạo trong kho
-  Một kho gạo đã bán $360$ kg, bằng $45\%$ số gạo có lúc đầu. Hỏi lúc đầu kho có bao nhiêu ki-lô-gam gạo?
-
-  **Lời giải.** $45\%$ số gạo là $360$ kg, nên $1\%$ số gạo là $360:45=8$ (kg). Cả kho ứng với $100\%$:
-  $$360:45\times100=8\times100=800.$$
-  Vậy lúc đầu kho có $800$ kg gạo.
-
-  **Kiểm tra.** $800\times45:100=360$. Đúng.
+  **Lời giải.** Chia sợi dây thành $4$ đoạn bằng nhau nghĩa là chia $9$ cho $4$:
+  $$9:4=\frac{9}{4}\ \text{(m)}.$$
+  Vậy mỗi đoạn dài $\dfrac{9}{4}$ m, và phân số $\dfrac{9}{4}$ là thương của phép chia $9:4$.
   :::
 
 :::warning Những lỗi em hay gặp
-[[P14·7a6f]]
-- **So sánh số thập phân như số tự nhiên.** Sai: $2{,}35>2{,}4$ vì $35>4$. Vì sao sai: hàng phần mười của $2{,}35$ là $3$, bé hơn $4$. Đúng: $2{,}35<2{,}4$.
-- **Quên chia cho $100$.** Sai: $15\%$ của $80\,000$ là $80\,000\times15=1\,200\,000$. Vì sao sai: $15\%$ chỉ là $\dfrac{15}{100}$. Đúng: $80\,000\times15:100=12\,000$.
-- **Lấy sai "cả" để tính phần trăm.** Sai: giá sau khi giảm $20\%$ là $240\,000$ đồng, nên giá ban đầu là $240\,000+20\%\times240\,000=288\,000$ đồng. Vì sao sai: $20\%$ là của giá ban đầu, không phải của giá sau khi giảm. Đúng: $240\,000$ đồng là $80\%$ giá ban đầu, nên giá ban đầu là $240\,000:80\times100=300\,000$ đồng.
+[[P11·08ed]]
+- **Viết ngược.** Sai: $2:3=\dfrac{3}{2}$. Vì sao sai: số bị chia là tử số, số chia là mẫu số. Đúng: $2:3=\dfrac{2}{3}$.
+- **Chia cho $0$.** Sai: $5:0=\dfrac{5}{0}$. Vì sao sai: không có phép chia cho $0$, và mẫu số không được bằng $0$. Đúng: số chia phải khác $0$.
+- **Nghĩ thương luôn là số tự nhiên.** Sai: $3:4$ không có thương. Vì sao sai: thương là phân số $\dfrac{3}{4}$. Đúng: $3:4=\dfrac{3}{4}$.
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - số thập phân | decimal
-  - phần nguyên | whole-number part
-  - phần thập phân | decimal part
-  - hàng phần mười, hàng phần trăm | tenths, hundredths
-  - làm tròn số | rounding
-  - tỉ số phần trăm | percentage
-  - giảm giá | discount
-  - giá ban đầu | original price
-  - tăng giá | price increase
+  - phép chia | division
+  - thương | quotient
+  - số bị chia | dividend
+  - số chia | divisor
+  - số tự nhiên | whole number
+  - chia đều | share equally
+  - phân số | fraction
   :::
 
 ## Tóm tắt
 
-[[P15·7cc0]]
-- So sánh số thập phân: so phần nguyên trước, rồi so từng hàng từ trái sang phải. Làm tròn thì nhìn chữ số ngay sau hàng cần làm tròn.
-- Chia cho số thập phân: nhân cả hai số với $10$; $100$; $\dots$ để số chia thành số tự nhiên.
-- $\dfrac{15}{100}=0{,}15=15\%$: đổi qua lại bằng cách chia hoặc nhân với $100$.
-- Loại 1: $(a:b)\times100\%$. Loại 2: $a\%$ của $b$ là $b\times a:100$. Loại 3: số có $a\%$ bằng $c$ là $c:a\times100$.
-- Giá sau khi giảm $a\%$ là $(100-a)\%$ giá cũ; giá sau khi tăng $a\%$ là $(100+a)\%$ giá cũ. Mỗi lần đổi giá, phần trăm tính trên giá ngay trước đó.
+[[P12·794a]]
+- $a:b=\dfrac{a}{b}$ với $b\neq0$: số bị chia là tử số, số chia là mẫu số.
+- Ví dụ: $3:4=\dfrac{3}{4}$.
+- Phân số có thể có tử số lớn hơn mẫu số, ví dụ $5:4=\dfrac{5}{4}$.
+- Số tự nhiên $a$ viết được thành $\dfrac{a}{1}$; số $1$ viết được thành $\dfrac{b}{b}$.
+- Không chia cho $0$.
 
 ## Luyện tập
 
-[[P16·824d]]
+[[P13·824d]]
 Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
@@ -300,7 +266,7 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 :::exercise
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -312,19 +278,19 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -334,164 +300,129 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 
-######## BÀI g5/g5-review-decimals-percent – BẢN TIẾNG ANH ########
+######## BÀI g4/fractions-and-division – BẢN TIẾNG ANH ########
 ---
-title: Review: decimals and percentages
-description: Review decimals (comparing, rounding, the four operations) and the three basic percentage problems, then solve discount and price-change problems.
-minutes: 25
+title: Fractions and division of whole numbers
+description: Learn that the answer to dividing one whole number by another can be written as a fraction, and that every whole number can be written as a fraction.
+minutes: 15
 ---
 
   :::goals
-  - Remember how to compare and round decimals and how to use the four operations with them.
-  - Switch between fractions, decimals and percentages.
-  - Solve the three basic percentage problems, including discounts and price changes.
+  - Know that the quotient of two whole numbers ($a\div b$, $b\neq0$) can be written as the fraction $\dfrac{a}{b}$.
+  - Write a whole number as a fraction.
+  - Solve sharing problems whose answer is a fraction.
   :::
 
-[[P1·2ecd]]
-A bookshop gives a $15\%$ discount on a storybook that costs $80\,000$ dong. Lan has $70\,000$ dong. Does she have enough money to buy the book?
+[[P1·c48d]]
+A teacher shares $3$ cakes equally among $4$ children. What part of a cake does each child get?
 
-[[P2·9b96]]
-To decide, you need both decimals and percentages. This lesson reviews them and shows how closely they are connected.
+[[P2·777a]]
+You know that $12\div4=3$. But $3\div4$ does not divide exactly, and we need a new kind of number to write the answer. That number is the fraction you have just learned.
 
 ## Let's explore
 
-[[P3·4a87]]
-Lan's class has $40$ pupils, and $6$ of them wear glasses. We can write the part of the class that wears glasses in three ways:
+[[P3·f45b]]
+We share step by step.
 
-[[P4·e1ff]]
-- as a fraction: $\dfrac{6}{40}=\dfrac{3}{20}=\dfrac{15}{100}$;
-- as a decimal: $\dfrac{15}{100}=0.15$;
-- as a percentage: $\dfrac{15}{100}=15\%$.
+[[P4·9d67]]
+- Cut each cake into $4$ equal pieces. Each piece is $\dfrac{1}{4}$ of a cake.
+- Each child takes $1$ piece from the first cake, $1$ piece from the second cake and $1$ piece from the third cake.
+- So each child has $3$ pieces, and each piece is $\dfrac{1}{4}$ of a cake.
 
-[[P5·c42c]]
-So $15\%$ means $15$ parts out of $100$ equal parts. All three ways of writing it have the same value. To change a fraction into a percentage, divide the numerator by the denominator and multiply by $100$: $\dfrac{3}{4}=0.75=75\%$.
+[[P5·cf10]]
+Each child gets $\dfrac{3}{4}$ of a cake. So $3\div4=\dfrac{3}{4}$.
 
-[[P6·3cb5]]
-Look at a few familiar values on a number line:
-
-:::graph Familiar values on the number line from $0$ to $1$
-   (… 12 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::graph On the number line: 3 ÷ 4 is the point 3/4, between 0 and 1
+   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::theorem The three basic percentage problems
-  1. **Find what percentage $a$ is of $b$:** work out $a\div b$, multiply by $100$ and write $\%$.
-  2. **Find $a\%$ of $b$:** work out $b\times a\div100$.
-  3. **Find the whole when $a\%$ of it is $c$:** work out $c\div a\times100$.
+  :::theorem Fractions and division
+  The quotient of a whole number $a$ divided by a whole number $b$ (not $0$) can be written as the fraction with numerator $a$ and denominator $b$:
+  $$a\div b=\frac{a}{b}.$$
   :::
 
-[[P7·7658]]
-Method 2 works because $a\%=\dfrac{a}{100}$, so $a\%$ of $b$ is $b\times\dfrac{a}{100}$. Method 3 goes backwards: $a$ parts are worth $c$, so $1$ part is worth $c\div a$ and $100$ parts are worth $c\div a\times100$.
-
-:::note Reminder: decimals
-[[P8·89fa]]
-- **Comparing:** compare the whole-number parts first; if they are equal, compare the tenths, then the hundredths, then the thousandths. Writing a $0$ at the end of the decimal part does not change the value: $4.6=4.60$.
-- **Rounding:** look at the digit just after the place you are rounding to. If it is $5$ or more, add $1$ to the digit in that place; if it is less than $5$, leave it.
-- **Multiplying or dividing by $10$, $100$, $1\,000$:** move the decimal point right (multiply) or left (divide) by $1$, $2$, $3$ places.
-- **Dividing by a decimal:** multiply both numbers by $10$, $100$, $\dots$ until the divisor is a whole number. The quotient does not change.
-:::
+[[P6·e555]]
+This is true because sharing $a$ cakes equally among $b$ children gives each child $a$ pieces, and each piece is $\dfrac{1}{b}$ of a cake, which is $\dfrac{a}{b}$.
 
 ## Examples
 
-[[P9·6b41]]
-We start with decimals: comparing and rounding.
+[[P7·a345]]
+We start with a division where the number being divided is smaller than the divisor.
 
-  :::example Sorting and rounding
-  Put the numbers $5.08$, $5.8$, $5.075$ and $4.99$ in order, from smallest to largest. Then round $5.075$ to the nearest tenth.
+  :::example Sharing cakes
+  Share $2$ cakes equally among $5$ children. What part of a cake does each child get?
 
-  **Solution.** Compare the whole-number parts first, then each place in turn. Write the numbers with the same three decimal places:
-  $$4.990,\quad 5.080,\quad 5.800,\quad 5.075.$$
-  The number $4.990$ has the smallest whole-number part. Among the other three, the tenths digits are $0$, $8$, $0$, so $5.800$ is the largest. The other two have hundredths digits $8$ and $7$, so $5.075<5.080$. Therefore
-  $$4.99<5.075<5.08<5.8.$$
-  To round $5.075$ to the nearest tenth, look at the hundredths digit: $7$ is more than $5$, so add $1$ to the tenths digit. So $5.075\approx5.1$.
+  **Solution.** Divide the number of cakes by the number of children, and write the quotient as a fraction:
+  $$2\div5=\frac{2}{5}.$$
+  So each child gets $\dfrac{2}{5}$ of a cake.
   :::
 
-[[P10·1399]]
-Next, the four operations with decimals in a real situation.
+[[P8·1701]]
+When the number being divided is larger than the divisor, the numerator is larger than the denominator. This is still fine.
 
-  :::example Cutting cloth
-  A roll of cloth is $12.6$ m long. A shopkeeper cuts $4.75$ m, then $3.8$ m. The rest is cut into pieces $0.45$ m long. How many pieces are there?
+  :::example Sharing ribbon
+  Share $5$ m of ribbon equally among $4$ children. How many metres does each child get?
 
-  **Solution.** First find the cloth that is left, by subtraction (in metres):
-  $$12.6-4.75-3.8=7.85-3.8=4.05.$$
-  To divide $4.05$ by $0.45$, multiply both numbers by $100$ so that the divisor is a whole number:
-  $$4.05\div0.45=405\div45=9.$$
-  So there are $9$ pieces of cloth.
-
-  **Check.** $0.45\times9=4.05$. Correct.
+  **Solution.** Divide $5$ by $4$ and write the quotient as a fraction:
+  $$5\div4=\frac{5}{4}\ \text{(m)}.$$
+  So each child gets $\dfrac{5}{4}$ m. On the number line, $\dfrac{5}{4}$ lies one quarter past the point $1$.
   :::
 
-[[P11·3b67]]
-Now to percentages. We start with problem type 1: what percentage one number is of another.
+[[P9·3a56]]
+Every whole number can also be written as a fraction.
 
-  :::example Trees that survived
-  Mr Hung planted $250$ trees and $215$ of them survived. What percentage of the trees survived? What percentage did not survive?
+  :::example Writing a whole number as a fraction
+  Write the number $6$ and the number $1$ as fractions.
 
-  **Solution.** Divide the number of surviving trees by the number planted, then multiply by $100$:
-  $$215\div250=0.86=86\%.$$
-  All the trees planted make $100\%$, so the percentage that did not survive is
-  $$100\%-86\%=14\%.$$
-  So $86\%$ of the trees survived and $14\%$ did not.
+  **Solution.** $6$ divided by $1$ is $6$, so:
+  $$6=6\div1=\frac{6}{1}.$$
+  $8$ divided by $8$ is $1$, so $1=\dfrac{8}{8}$. We can write $1$ with any denominator (not $0$) by making the numerator equal to the denominator.
+
+  **Check.** $\dfrac{6}{1}$ is $6$ parts, and each part is a whole one: that makes $6$ wholes. Correct.
   :::
 
-[[P12·2e1a]]
-Back to the opening question, which is type 2: finding a percentage of a number.
+[[P10·adcd]]
+We can also go the other way: read a fraction as a division.
 
-  :::example A discounted storybook
-  A storybook costs $80\,000$ dong and has a $15\%$ discount. Lan has $70\,000$ dong. Does she have enough money?
+  :::example A fraction is a division
+  A rope $9$ m long is cut into $4$ equal pieces. How long is each piece? Which division has the fraction $\dfrac{9}{4}$ as its quotient?
 
-  **Solution.** First find the discount, which is $15\%$ of $80\,000$ dong:
-  $$80\,000\times15\div100=12\,000.$$
-  The price after the discount is:
-  $$80\,000-12\,000=68\,000.$$
-  Since $68\,000<70\,000$, Lan has enough money, with $2\,000$ dong left over.
-  :::
-
-[[P13·4ae2]]
-Finally, type 3: knowing a percentage of a number, find the number.
-
-  :::example Rice in a warehouse
-  A warehouse has sold $360$ kg of rice, which is $45\%$ of the rice it had at first. How many kilograms of rice did it have at first?
-
-  **Solution.** $45\%$ of the rice is $360$ kg, so $1\%$ is $360\div45=8$ (kg). The whole stock is $100\%$:
-  $$360\div45\times100=8\times100=800.$$
-  So the warehouse had $800$ kg of rice at first.
-
-  **Check.** $800\times45\div100=360$. Correct.
+  **Solution.** Cutting the rope into $4$ equal pieces means dividing $9$ by $4$:
+  $$9\div4=\frac{9}{4}\ \text{(m)}.$$
+  So each piece is $\dfrac{9}{4}$ m long, and the fraction $\dfrac{9}{4}$ is the quotient of $9\div4$.
   :::
 
 :::warning Mistakes to watch out for
-[[P14·ce90]]
-- **Comparing decimals like whole numbers.** Wrong: $2.35>2.4$ because $35>4$. Why it is wrong: the tenths digit of $2.35$ is $3$, which is less than $4$. Right: $2.35<2.4$.
-- **Forgetting to divide by $100$.** Wrong: $15\%$ of $80\,000$ is $80\,000\times15=1\,200\,000$. Why it is wrong: $15\%$ is only $\dfrac{15}{100}$. Right: $80\,000\times15\div100=12\,000$.
-- **Using the wrong whole.** Wrong: the price after a $20\%$ discount is $240\,000$ dong, so the original price is $240\,000+20\%\times240\,000=288\,000$ dong. Why it is wrong: $20\%$ is of the original price, not of the reduced price. Right: $240\,000$ dong is $80\%$ of the original price, so the original price is $240\,000\div80\times100=300\,000$ dong.
+[[P11·2167]]
+- **Writing it the wrong way round.** Wrong: $2\div3=\dfrac{3}{2}$. Why it is wrong: the number being divided is the numerator and the divisor is the denominator. Right: $2\div3=\dfrac{2}{3}$.
+- **Dividing by $0$.** Wrong: $5\div0=\dfrac{5}{0}$. Why it is wrong: we cannot divide by $0$, and the denominator cannot be $0$. Right: the divisor must not be $0$.
+- **Thinking the quotient is always a whole number.** Wrong: $3\div4$ has no quotient. Why it is wrong: the quotient is the fraction $\dfrac{3}{4}$. Right: $3\div4=\dfrac{3}{4}$.
 :::
 
 ## Key terms
 
   :::terms
-  - decimal | số thập phân
-  - whole-number part | phần nguyên
-  - decimal part | phần thập phân
-  - tenths, hundredths | hàng phần mười, hàng phần trăm
-  - rounding | làm tròn số
-  - percentage | tỉ số phần trăm
-  - discount | giảm giá
-  - original price | giá ban đầu
-  - price increase | tăng giá
+  - division | phép chia
+  - quotient | thương
+  - dividend | số bị chia
+  - divisor | số chia
+  - whole number | số tự nhiên
+  - share equally | chia đều
+  - fraction | phân số
   :::
 
 ## Summary
 
-[[P15·e922]]
-- To compare decimals, compare the whole-number parts first, then each place from left to right. To round, look at the digit just after the place you round to.
-- To divide by a decimal, multiply both numbers by $10$, $100$, $\dots$ until the divisor is a whole number.
-- $\dfrac{15}{100}=0.15=15\%$: switch between them by dividing or multiplying by $100$.
-- Type 1: $(a\div b)\times100\%$. Type 2: $a\%$ of $b$ is $b\times a\div100$. Type 3: the whole with $a\%$ equal to $c$ is $c\div a\times100$.
-- After an $a\%$ discount the price is $(100-a)\%$ of the old price; after an $a\%$ increase it is $(100+a)\%$ of the old price. Each change is a percentage of the price just before it.
+[[P12·faa0]]
+- $a\div b=\dfrac{a}{b}$ with $b\neq0$: the dividend is the numerator and the divisor is the denominator.
+- Example: $3\div4=\dfrac{3}{4}$.
+- A fraction can have a numerator larger than its denominator, for example $5\div4=\dfrac{5}{4}$.
+- A whole number $a$ can be written as $\dfrac{a}{1}$; the number $1$ can be written as $\dfrac{b}{b}$.
+- We never divide by $0$.
 
 ## Practice
 
-[[P16·2a6a]]
+[[P13·2a6a]]
 Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
 
 :::exercise
@@ -499,7 +430,7 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 :::
 
 :::exercise
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -511,15 +442,352 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/g4-bar-charts – BẢN TIẾNG VIỆT ########
+---
+title: Biểu đồ cột
+description: Em học cách đọc biểu đồ cột: đọc số liệu của từng cột, so sánh các cột, tìm cột cao nhất và thấp nhất, rồi tính tổng và hiệu.
+minutes: 15
+---
+
+  :::goals
+  - Biết các phần của biểu đồ cột: cột, trục ngang, trục dọc.
+  - Đọc được số liệu của từng cột, tìm cột cao nhất và thấp nhất.
+  - So sánh các cột bằng phép trừ, tính tổng và trung bình cộng từ biểu đồ.
+  :::
+
+[[P1·2995]]
+Thư viện lớp em ghi số quyển sách các bạn mượn mỗi ngày trong tuần rồi vẽ thành biểu đồ cột. Ngày nào các bạn mượn nhiều sách nhất? Ngày nào ít nhất?
+
+[[P2·50b8]]
+Em đã biết đọc một dãy số liệu. Biểu đồ cột giúp em nhìn các số liệu đó thành những cột cao thấp khác nhau.
+
+## Cùng khám phá
+
+[[P3·af30]]
+Hãy nhìn biểu đồ dưới đây.
+
+:::diagram Số quyển sách mượn mỗi ngày trong tuần
+   (… 43 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·95d6]]
+- Các cột đứng cạnh nhau. Mỗi cột ứng với một ngày: T2 là Thứ Hai, T3 là Thứ Ba, và cứ thế.
+- Trên đỉnh mỗi cột có ghi số quyển sách. Cột Thứ Hai ghi $6$.
+- Mép trái ghi các số $2, 4, 6, \ldots, 12$. Đó là số quyển sách.
+
+[[P5·375b]]
+Cột nào cao hơn thì số quyển sách nhiều hơn. Cột Thứ Năm cao nhất, ghi $12$. Cột Thứ Sáu thấp nhất, ghi $4$. Vậy Thứ Năm mượn nhiều nhất, Thứ Sáu ít nhất.
+
+  :::definition Biểu đồ cột
+  **Biểu đồ cột** dùng các cột có chiều rộng bằng nhau để biểu diễn số liệu. **Trục ngang** cho biết các đối tượng (ví dụ các ngày). **Trục dọc** cho biết số liệu. Cột càng cao thì số liệu càng lớn.
+  :::
+
+[[P6·38e5]]
+Khi đọc một biểu đồ cột, em làm ba việc: xem tên biểu đồ và hai trục để biết biểu đồ nói về gì; xem mỗi vạch ứng với mấy đơn vị; rồi nhìn đỉnh cột để đọc số liệu.
+
+## Ví dụ
+
+[[P7·8176]]
+Ta bắt đầu bằng việc đọc số liệu của từng cột.
+
+  :::example Đọc biểu đồ
+  Dùng biểu đồ trên. Hỏi: a) Thứ Ba các bạn mượn bao nhiêu quyển? b) Ngày nào mượn nhiều nhất, bao nhiêu quyển? c) Ngày nào mượn ít nhất?
+
+  **Lời giải.** Ta nhìn số ghi trên đỉnh mỗi cột:
+
+  a) Cột Thứ Ba ghi $10$, nên các bạn mượn $10$ quyển.
+
+  b) Cột cao nhất là cột Thứ Năm, ghi $12$. Vậy Thứ Năm mượn nhiều nhất, $12$ quyển.
+
+  c) Cột thấp nhất là cột Thứ Sáu. Vậy Thứ Sáu mượn ít nhất, $4$ quyển.
+  :::
+
+[[P8·cfd2]]
+Bây giờ ta so sánh hai cột bằng phép trừ.
+
+  :::example So sánh hai cột
+  Thứ Năm các bạn mượn nhiều hơn Thứ Hai bao nhiêu quyển?
+
+  **Lời giải.** Thứ Năm mượn $12$ quyển, Thứ Hai mượn $6$ quyển. Muốn biết nhiều hơn bao nhiêu, ta lấy số lớn trừ số bé:
+  $$12-6=6\ \text{(quyển)}.$$
+  Vậy Thứ Năm mượn nhiều hơn Thứ Hai $6$ quyển.
+  :::
+
+[[P9·7da7]]
+Ta cũng có thể cộng các cột và tìm trung bình cộng.
+
+  :::example Cả tuần
+  Cả tuần các bạn mượn tất cả bao nhiêu quyển? Trung bình mỗi ngày mượn bao nhiêu quyển?
+
+  **Lời giải.** Cộng số quyển của cả năm ngày:
+  $$6+10+8+12+4=40\ \text{(quyển)}.$$
+  Trung bình mỗi ngày là tổng chia cho số ngày:
+  $$40:5=8\ \text{(quyển)}.$$
+  Vậy cả tuần mượn $40$ quyển, trung bình mỗi ngày $8$ quyển.
+  :::
+
+[[P10·0186]]
+Cuối cùng, ta tìm các cột thoả một điều kiện.
+
+  :::example Hơn $7$ quyển
+  Những ngày nào các bạn mượn nhiều hơn $7$ quyển?
+
+  **Lời giải.** Ta so sánh số trên đỉnh từng cột với $7$: Thứ Hai $6<7$; Thứ Ba $10>7$; Thứ Tư $8>7$; Thứ Năm $12>7$; Thứ Sáu $4<7$.
+
+  Vậy các ngày mượn nhiều hơn $7$ quyển là Thứ Ba, Thứ Tư và Thứ Năm.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·bd00]]
+- **Đọc nhầm cột.** Sai: nhìn cột Thứ Tư rồi đọc số của cột Thứ Ba. Vì sao sai: mỗi cột ứng với đúng một ngày. Đúng: đọc số ngay trên đỉnh cột của ngày đó.
+- **Cộng thay vì trừ khi so sánh.** Sai: Thứ Năm hơn Thứ Hai là $12+6=18$ quyển. Vì sao sai: "hơn bao nhiêu" là hiệu hai số. Đúng: $12-6=6$.
+- **Bỏ sót một cột khi tính tổng.** Sai: $6+10+8+12=36$. Vì sao sai: quên cột Thứ Sáu. Đúng: $6+10+8+12+4=40$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - biểu đồ cột | bar chart
+  - cột | bar
+  - trục ngang | horizontal axis
+  - trục dọc | vertical axis
+  - vạch chia | scale mark
+  - so sánh | compare
+  - số liệu | data value
+  :::
+
+## Tóm tắt
+
+[[P12·fdf3]]
+- Biểu đồ cột dùng các cột để biểu diễn số liệu; cột cao hơn thì số liệu lớn hơn.
+- Trục ngang cho các đối tượng, trục dọc cho số liệu.
+- Đọc số liệu ở đỉnh mỗi cột.
+- Hơn kém bao nhiêu: lấy số lớn trừ số bé.
+- Tổng: cộng tất cả các cột; trung bình cộng: lấy tổng chia cho số cột.
+
+## Luyện tập
+
+[[P13·ff66]]
+Các bài dưới đây dùng biểu đồ trong bài học (số quyển sách mượn: T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$) hoặc mô tả biểu đồ bằng lời. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
    (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+[[P14·62bb]]
+Các câu dưới đây dùng biểu đồ số quyển sách mượn trong bài (T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$).
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g4/g4-bar-charts – BẢN TIẾNG ANH ########
+---
+title: Bar charts
+description: Learn to read a bar chart: read each bar, compare bars, find the tallest and shortest, then work out totals and differences.
+minutes: 15
+---
+
+  :::goals
+  - Know the parts of a bar chart: bars, the horizontal axis and the vertical axis.
+  - Read the value of each bar and find the tallest and shortest bar.
+  - Compare bars by subtracting, and work out a total and a mean from a chart.
+  :::
+
+[[P1·1b1a]]
+The class library records how many books children borrow each day of the week, and draws a bar chart. On which day did children borrow the most books? On which day the fewest?
+
+[[P2·0e14]]
+You already know how to read a list of data. A bar chart lets you see that data as bars of different heights.
+
+## Let's explore
+
+[[P3·0385]]
+Look at the chart below.
+
+:::diagram Books borrowed each day of the week
+   (… 43 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·8aa2]]
+- The bars stand side by side. Each bar is one day: Mon is Monday, Tue is Tuesday, and so on.
+- On top of each bar is the number of books. The Monday bar shows $6$.
+- The left edge shows the numbers $2, 4, 6, \ldots, 12$. These count the books.
+
+[[P5·57a7]]
+The taller the bar, the more books. The Thursday bar is the tallest and shows $12$. The Friday bar is the shortest and shows $4$. So Thursday had the most borrowed and Friday the fewest.
+
+  :::definition Bar chart
+  A **bar chart** uses bars of equal width to show data. The **horizontal axis** shows the things we compare (for example the days). The **vertical axis** shows the data values. The taller the bar, the bigger the value.
+  :::
+
+[[P6·2931]]
+To read a bar chart, do three things: read the title and the two axes to see what the chart is about; check how many units each mark stands for; then look at the top of a bar to read its value.
+
+## Examples
+
+[[P7·ba59]]
+We start by reading the value of each bar.
+
+  :::example Reading the chart
+  Use the chart above. a) How many books were borrowed on Tuesday? b) Which day had the most, and how many books? c) Which day had the fewest?
+
+  **Solution.** We look at the number on top of each bar:
+
+  a) The Tuesday bar shows $10$, so $10$ books were borrowed.
+
+  b) The tallest bar is Thursday, showing $12$. So Thursday had the most, $12$ books.
+
+  c) The shortest bar is Friday. So Friday had the fewest, $4$ books.
+  :::
+
+[[P8·c15d]]
+Now we compare two bars by subtracting.
+
+  :::example Comparing two bars
+  How many more books were borrowed on Thursday than on Monday?
+
+  **Solution.** Thursday had $12$ books and Monday had $6$ books. To find how many more, subtract the smaller number from the larger:
+  $$12-6=6\ \text{(books)}.$$
+  So $6$ more books were borrowed on Thursday than on Monday.
+  :::
+
+[[P9·13f7]]
+We can also add the bars and find the mean.
+
+  :::example The whole week
+  How many books were borrowed in the whole week? On average, how many books were borrowed each day?
+
+  **Solution.** Add the books for all five days:
+  $$6+10+8+12+4=40\ \text{(books)}.$$
+  The mean per day is the total divided by the number of days:
+  $$40\div5=8\ \text{(books)}.$$
+  So $40$ books were borrowed in the week, and $8$ a day on average.
+  :::
+
+[[P10·b68f]]
+Finally, we find the bars that fit a condition.
+
+  :::example More than $7$ books
+  On which days were more than $7$ books borrowed?
+
+  **Solution.** We compare the number on top of each bar with $7$: Monday $6<7$; Tuesday $10>7$; Wednesday $8>7$; Thursday $12>7$; Friday $4<7$.
+
+  So more than $7$ books were borrowed on Tuesday, Wednesday and Thursday.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·2b9c]]
+- **Reading the wrong bar.** Wrong: looking at the Wednesday bar but reading the Tuesday number. Why it is wrong: each bar belongs to exactly one day. Right: read the number on top of that day's bar.
+- **Adding instead of subtracting to compare.** Wrong: Thursday has $12+6=18$ more than Monday. Why it is wrong: "how many more" is the difference of two numbers. Right: $12-6=6$.
+- **Missing a bar when finding a total.** Wrong: $6+10+8+12=36$. Why it is wrong: the Friday bar was left out. Right: $6+10+8+12+4=40$.
+:::
+
+## Key terms
+
+  :::terms
+  - bar chart | biểu đồ cột
+  - bar | cột
+  - horizontal axis | trục ngang
+  - vertical axis | trục dọc
+  - scale mark | vạch chia
+  - compare | so sánh
+  - data value | số liệu
+  :::
+
+## Summary
+
+[[P12·7238]]
+- A bar chart uses bars to show data; a taller bar means a bigger value.
+- The horizontal axis shows the things compared; the vertical axis shows the values.
+- Read the value on top of each bar.
+- To find how many more: subtract the smaller from the larger.
+- Total: add all the bars; mean: divide the total by the number of bars.
+
+## Practice
+
+[[P13·377d]]
+The exercises below use the chart in the lesson (books borrowed: Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$) or describe a chart in words. Try each one yourself first, then open the solution.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge
@@ -527,6 +795,9 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 :::
 
 ## Mini test
+
+[[P14·d156]]
+These questions use the chart of books borrowed in the lesson (Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$).
 
 :::quiz
    (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)

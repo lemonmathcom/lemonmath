@@ -6,7 +6,7 @@ Kết quả: file Vimus2358-05-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/vie
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vimus2358-05-GV
-Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g11/multiplication-rule
+Gồm 4 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g9/acute-angle-trig-ratios, g9/arc-length-sector-area, g9/arcs-and-chords, g9/circumcircle-incircle
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/Vimus2358-05-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  /mnt/user-data/outputs/Vimus2358-05-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/4). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file Vimus2358-05-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,223 +135,183 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g11/multiplication-rule – BẢN TIẾNG VIỆT ########
+######## BÀI g9/acute-angle-trig-ratios – BẢN TIẾNG VIỆT ########
 ---
-title: Công thức nhân xác suất cho hai biến cố độc lập
-description: Nhận biết hai biến cố độc lập và dùng công thức nhân để tính xác suất của giao, biến cố đối và các tình huống kết hợp.
-minutes: 16
+title: Tỉ số lượng giác của góc nhọn
+description: Định nghĩa sin, cos, tan, cot của góc nhọn trong tam giác vuông, nhớ giá trị của các góc đặc biệt và tỉ số lượng giác của hai góc phụ nhau.
+minutes: 20
 ---
 
   :::goals
-  - Nhận biết hai biến cố độc lập từ cách tiến hành phép thử hoặc từ các xác suất đã biết.
-  - Dùng công thức $P(A\cap B)=P(A)P(B)$ cho hai biến cố độc lập.
-  - Kết hợp công thức nhân với biến cố đối và công thức cộng xác suất.
-  - Phân biệt hai biến cố độc lập với hai biến cố xung khắc.
+  - Viết được sin, cos, tan, cot của một góc nhọn trong tam giác vuông.
+  - Nhớ tỉ số lượng giác của các góc $30^\circ$, $45^\circ$, $60^\circ$ và dùng quan hệ giữa hai góc phụ nhau.
+  - Dùng máy tính cầm tay để tính tỉ số lượng giác và tìm góc khi biết một tỉ số.
   :::
 
-[[P1·0c5d]]
-Trong một trò chơi ở ngày hội trường, bạn gieo một con xúc xắc cân đối và tung một đồng xu cân đối. Bạn nhận quà nếu xúc xắc xuất hiện số chẵn **và** đồng xu xuất hiện mặt ngửa. Xác suất nhận quà là bao nhiêu: ta cộng hay nhân hai xác suất?
+[[P1·36c1]]
+Bác Tư dựng một chiếc thang dài $5$ m vào tường, chân thang cách chân tường $3$ m. Theo hướng dẫn an toàn, góc giữa thang và mặt đất nên vào khoảng $75^\circ$. Thang của bác Tư có đủ dốc không?
 
-[[P2·dce3]]
-Kết quả của dụng cụ này không ảnh hưởng đến dụng cụ kia. Đó là dấu hiệu của hai biến cố độc lập.
+[[P2·af28]]
+Ta biết hai cạnh của tam giác vuông nhưng cần một **góc**. Công cụ nối cạnh với góc là các tỉ số lượng giác.
 
-## Nhận biết hai biến cố độc lập
+:::diagram Chiếc thang dựa vào tường
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
 
-### Khám phá: xúc xắc và đồng xu
+## Các tỉ số lượng giác của góc nhọn
 
-[[P3·024e]]
-Mỗi kết quả của phép thử là một cặp gồm số chấm của xúc xắc và mặt của đồng xu. Có $6\cdot2=12$ kết quả đồng khả năng:
+### Khám phá: tỉ số không phụ thuộc vào kích thước tam giác
 
-| Mặt đồng xu | Số chấm có thể đi kèm | Số kết quả |
-|---|---|---|
-| Ngửa | $1,2,3,4,5,6$ | $6$ |
-| Sấp | $1,2,3,4,5,6$ | $6$ |
+[[P3·66e3]]
+Xét hai tam giác vuông có cùng góc nhọn $\alpha$ ở đỉnh $B$: tam giác thứ nhất có các cạnh $3$, $4$, $5$; tam giác thứ hai có các cạnh $6$, $8$, $10$ (gấp đôi). Ta lập tỉ số giữa cạnh đối diện góc $\alpha$ và cạnh huyền:
 
-[[P4·cd86]]
-Gọi $A$ là biến cố “xúc xắc xuất hiện số chẵn” và $B$ là biến cố “đồng xu xuất hiện mặt ngửa”. Trong $12$ kết quả, có $6$ kết quả thuộc $A$, $6$ kết quả thuộc $B$ và $3$ kết quả thuộc $A\cap B$. Do đó
+| Tam giác | cạnh đối | cạnh huyền | cạnh đối : cạnh huyền |
+|---|---|---|---|
+| thứ nhất | $3$ | $5$ | $0{,}6$ |
+| thứ hai | $6$ | $10$ | $0{,}6$ |
 
-  $$P(A)=\frac{6}{12}=\frac12,\qquad P(B)=\frac{6}{12}=\frac12,\qquad P(A\cap B)=\frac{3}{12}=\frac14.$$
+[[P4·7c38]]
+Hai tam giác đồng dạng (lớp 8) nên tỉ số giống nhau. Tỉ số chỉ phụ thuộc vào góc $\alpha$, không phụ thuộc vào tam giác lớn hay nhỏ.
 
-[[P5·80d5]]
-Trong $6$ kết quả thuộc $A$, một nửa vẫn thuộc $B$. Vì vậy $A$ không làm thay đổi khả năng xảy ra của $B$; đổi vai trò $A$, $B$ cũng vậy.
+:::diagram Cạnh đối, cạnh kề và cạnh huyền của góc $\alpha$
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
 
-  :::definition Hai biến cố độc lập
-  Hai biến cố $A$ và $B$ gọi là **độc lập** nếu việc xảy ra hay không xảy ra của biến cố này không làm thay đổi khả năng xảy ra của biến cố kia.
+  :::definition Tỉ số lượng giác của góc nhọn
+  Cho tam giác vuông có góc nhọn $\alpha$. Khi đó:
+  $$\sin\alpha=\frac{\text{cạnh đối}}{\text{cạnh huyền}},\quad \cos\alpha=\frac{\text{cạnh kề}}{\text{cạnh huyền}},\quad \tan\alpha=\frac{\text{cạnh đối}}{\text{cạnh kề}},\quad \cot\alpha=\frac{\text{cạnh kề}}{\text{cạnh đối}}.$$
   :::
 
-## Công thức nhân xác suất
+[[P5·746f]]
+Vì cạnh huyền dài nhất, ta luôn có $0<\sin\alpha<1$ và $0<\cos\alpha<1$. Mẹo nhớ quen thuộc: "**sin đi học, cos không hư, tan đoàn kết, cot kết đoàn**" (sin = đối : huyền, cos = kề : huyền, tan = đối : kề, cot = kề : đối).
 
-[[P6·7966]]
-Trong khám phá trên, $\dfrac14=\dfrac12\cdot\dfrac12$. Đây là trường hợp đầu tiên của công thức tổng quát.
+  :::example Tính bốn tỉ số
+  Cho tam giác $ABC$ vuông tại $A$ có $AB=8$ cm, $AC=6$ cm. Tính các tỉ số lượng giác của góc $B$.
 
-  :::theorem Công thức nhân cho hai biến cố độc lập
-  Hai biến cố $A$ và $B$ độc lập khi và chỉ khi
+  **Lời giải.** Xét tam giác $ABC$ vuông tại $A$, ta có $BC^2=AB^2+AC^2$ (định lí Pythagore). Với góc $B$, cạnh đối là $AC$, cạnh kề là $AB$. Do đó
 
-  $$P(A\cap B)=P(A)P(B).$$
+  $$BC=\sqrt{8^2+6^2}=\sqrt{100}=10;\qquad \sin B=\frac{6}{10}=\frac35,\quad \cos B=\frac{8}{10}=\frac45,\quad \tan B=\frac68=\frac34,\quad \cot B=\frac86=\frac43.$$
 
-  Vì thế, nếu đã biết $A$ và $B$ độc lập, xác suất để **cả hai** cùng xảy ra bằng tích hai xác suất. Ngược lại, khi biết ba xác suất, đẳng thức trên là tiêu chí kiểm tra tính độc lập.
+  Vậy $\sin B=\dfrac35$, $\cos B=\dfrac45$, $\tan B=\dfrac34$, $\cot B=\dfrac43$.
   :::
 
-[[P7·0a52]]
-Vì sao có phép nhân? Trong mô hình hai giai đoạn độc lập, tỉ lệ thuận lợi ở mỗi giai đoạn lần lượt là $P(A)$, $P(B)$. Vì tỉ lệ thứ hai không đổi theo kết quả đầu, tỉ lệ thuận lợi cho cả hai là $P(A)P(B)$.
+[[P6·6032]]
+Cạnh đối và cạnh kề thay đổi khi ta xét góc nhọn còn lại, nên luôn xác định lại trước khi lập tỉ số.
 
-  :::example Gieo xúc xắc và tung đồng xu
-  Gieo một con xúc xắc cân đối và tung một đồng xu cân đối. Tính xác suất để xúc xắc xuất hiện số lớn hơn $4$ và đồng xu xuất hiện mặt sấp.
+  :::example Tỉ số của góc còn lại
+  Cho tam giác $ABC$ vuông tại $A$ có $AB=5$, $AC=12$. Tính các tỉ số lượng giác của góc $C$.
 
-  **Lời giải.** Gọi $A$ là biến cố “số chấm lớn hơn $4$”, $B$ là biến cố “mặt sấp”. Hai biến cố độc lập vì kết quả của xúc xắc không ảnh hưởng đến đồng xu:
+  **Lời giải.** Xét tam giác $ABC$ vuông tại $A$, ta có $BC^2=AB^2+AC^2$ (định lí Pythagore). Với góc $C$, cạnh đối là $AB$, cạnh kề là $AC$. Do đó
 
-  $$P(A)=\frac26=\frac13,\qquad P(B)=\frac12.$$
+  $$BC=\sqrt{5^2+12^2}=13;\qquad \sin C=\frac{5}{13},\quad \cos C=\frac{12}{13},\quad \tan C=\frac{5}{12},\quad \cot C=\frac{12}{5}.$$
 
-  Dùng công thức nhân:
-
-  $$P(A\cap B)=P(A)P(B)=\frac13\cdot\frac12=\frac16.$$
-
-  Vậy xác suất cần tìm là $\dfrac16$.
+  Vậy $\sin C=\dfrac5{13}$, $\cos C=\dfrac{12}{13}$, $\tan C=\dfrac5{12}$, $\cot C=\dfrac{12}5$.
   :::
 
-[[P8·ca9f]]
-Khi lặp lại một thao tác, ta cần xem điều kiện của lần sau có được giữ nguyên hay không.
+## Tỉ số lượng giác của các góc đặc biệt
 
-  :::example Có hoàn lại và không hoàn lại
-  Một hộp có $3$ thẻ đỏ và $2$ thẻ xanh, các thẻ được phân biệt. Rút ngẫu nhiên hai lần. Gọi $A$ là biến cố “lần đầu rút được thẻ đỏ”, $B$ là biến cố “lần hai rút được thẻ đỏ”. Xét tính độc lập của $A$ và $B$ trong hai cách: hoàn lại thẻ sau lần đầu, và không hoàn lại.
+[[P7·e294]]
+Nửa hình vuông cạnh $1$ là tam giác vuông cân có hai góc $45^\circ$, cạnh huyền $\sqrt2$. Nửa tam giác đều cạnh $2$ là tam giác vuông có các góc $30^\circ$, $60^\circ$ và các cạnh $1$, $\sqrt3$, $2$. Từ hai tam giác này ta được bảng sau.
 
-  **Lời giải.** Nếu hoàn lại, mỗi lần hộp đều có $3$ thẻ đỏ trong $5$ thẻ. Có $5\cdot5=25$ cặp thẻ đồng khả năng, trong đó có $3\cdot3=9$ cặp đỏ–đỏ:
+| $\alpha$ | $30^\circ$ | $45^\circ$ | $60^\circ$ |
+|---|---|---|---|
+| $\sin\alpha$ | $\dfrac12$ | $\dfrac{\sqrt2}2$ | $\dfrac{\sqrt3}2$ |
+| $\cos\alpha$ | $\dfrac{\sqrt3}2$ | $\dfrac{\sqrt2}2$ | $\dfrac12$ |
+| $\tan\alpha$ | $\dfrac{\sqrt3}3$ | $1$ | $\sqrt3$ |
+| $\cot\alpha$ | $\sqrt3$ | $1$ | $\dfrac{\sqrt3}3$ |
 
-  $$P(A)=P(B)=\frac35,\qquad P(A\cap B)=\frac9{25}=\frac35\cdot\frac35.$$
+[[P8·fdda]]
+Chẳng hạn $\sin45^\circ=\dfrac{1}{\sqrt2}=\dfrac{\sqrt2}{2}$ (trục căn thức ở mẫu như ở chương trước).
 
-  Vậy $A$ và $B$ độc lập khi có hoàn lại.
+  :::example Tính giá trị biểu thức
+  Tính: a) $A=\sin30^\circ+\cos60^\circ-\tan45^\circ$; b) $B=\sin60^\circ\cdot\cot30^\circ$.
 
-  Nếu không hoàn lại, có $5\cdot4=20$ cặp thẻ khác nhau có thứ tự, trong đó có $3\cdot2=6$ cặp đỏ–đỏ. Mỗi vị trí vẫn có xác suất nhận thẻ đỏ bằng $\dfrac35$, nhưng
+  **Lời giải.** Thay các giá trị trong bảng, ta được
 
-  $$P(A\cap B)=\frac6{20}=\frac3{10}\ne\frac35\cdot\frac35=\frac9{25}.$$
+  $$A=\frac12+\frac12-1=0;\qquad B=\frac{\sqrt3}{2}\cdot\sqrt3=\frac32.$$
 
-  Vậy $A$ và $B$ không độc lập khi không hoàn lại.
+  Vậy $A=0$ và $B=\dfrac32$.
   :::
 
-[[P9·72e9]]
-Không được dùng công thức nhân chỉ vì đề bài có từ “và”: trước hết phải xét tính độc lập.
+## Tỉ số lượng giác của hai góc phụ nhau
 
-## Kết hợp với biến cố đối và công thức cộng
+[[P9·f7f6]]
+Trong tam giác $ABC$ vuông tại $A$, hai góc $B$ và $C$ phụ nhau: $\widehat{B}+\widehat{C}=90^\circ$. Cạnh đối của góc $B$ chính là cạnh kề của góc $C$, nên $\sin B=\dfrac{AC}{BC}=\cos C$.
 
-[[P10·fa3d]]
-Nếu $A$ và $B$ độc lập thì $A$ cũng độc lập với $\overline B$. Thật vậy, $A\cap B$ và $A\cap\overline B$ xung khắc, hợp của chúng là $A$, nên
-
-  $$\begin{aligned}
-  P(A\cap\overline B)
-  &=P(A)-P(A\cap B)\\
-  &=P(A)-P(A)P(B)\\
-  &=P(A)\bigl(1-P(B)\bigr)\\
-  &=P(A)P(\overline B).
-  \end{aligned}$$
-
-[[P11·61dd]]
-Tương tự, các cặp $\overline A$ và $B$, $\overline A$ và $\overline B$ cũng độc lập. Ta có thể kết hợp công thức nhân và công thức cộng để xử lí “ít nhất một” hoặc “đúng một”.
-
-  :::example Ít nhất một linh kiện lỗi
-  Hai linh kiện hoạt động độc lập. Xác suất linh kiện thứ nhất đạt chuẩn là $0{,}96$ và xác suất linh kiện thứ hai đạt chuẩn là $0{,}95$. Tính xác suất cả hai đều đạt chuẩn và xác suất có ít nhất một linh kiện lỗi.
-
-  **Lời giải.** Gọi $A$, $B$ lần lượt là biến cố linh kiện thứ nhất, thứ hai đạt chuẩn. Do $A$ và $B$ độc lập:
-
-  $$P(A\cap B)=0{,}96\cdot0{,}95=0{,}912.$$
-
-  Biến cố “có ít nhất một linh kiện lỗi” là biến cố đối của “cả hai đều đạt chuẩn”. Vì vậy
-
-  $$P(\text{ít nhất một linh kiện lỗi})=1-0{,}912=0{,}088.$$
-
-  Vậy hai xác suất lần lượt là $0{,}912$ và $0{,}088$, tức $91{,}2\%$ và $8{,}8\%$.
+  :::theorem Hai góc phụ nhau
+  Nếu $\alpha+\beta=90^\circ$ thì
+  $$\sin\alpha=\cos\beta,\quad \cos\alpha=\sin\beta,\quad \tan\alpha=\cot\beta,\quad \cot\alpha=\tan\beta.$$
   :::
 
-[[P12·ec1b]]
-“Đúng một” gồm hai trường hợp xung khắc: lần thứ nhất thành công còn lần thứ hai thất bại, hoặc ngược lại.
+  :::example Dùng góc phụ nhau
+  a) Viết $\sin72^\circ$ và $\tan65^\circ$ thành tỉ số lượng giác của góc nhỏ hơn $45^\circ$.
+  b) Không dùng máy tính, tính $\dfrac{\sin25^\circ}{\cos65^\circ}$ và $\tan40^\circ\cdot\tan50^\circ$.
 
-  :::example Đúng một lần ném trúng
-  Một vận động viên thực hiện hai quả ném độc lập. Xác suất ném trúng ở quả thứ nhất là $0{,}7$, ở quả thứ hai là $0{,}8$. Tính xác suất vận động viên ném trúng đúng một quả.
+  **Lời giải.** Ta có $72^\circ+18^\circ=90^\circ$, $65^\circ+25^\circ=90^\circ$, $25^\circ+65^\circ=90^\circ$, $40^\circ+50^\circ=90^\circ$ (các cặp góc phụ nhau) và $\tan40^\circ\cdot\cot40^\circ=\dfrac{\text{đối}}{\text{kề}}\cdot\dfrac{\text{kề}}{\text{đối}}=1$. Do đó
 
-  **Lời giải.** Gọi $A$, $B$ là biến cố ném trúng ở quả thứ nhất, thứ hai. Hai trường hợp $A\cap\overline B$ và $\overline A\cap B$ xung khắc, nên ta cộng xác suất của chúng:
+  $$\sin72^\circ=\cos18^\circ,\quad \tan65^\circ=\cot25^\circ;\qquad \frac{\sin25^\circ}{\cos65^\circ}=\frac{\sin25^\circ}{\sin25^\circ}=1,\quad \tan40^\circ\cdot\tan50^\circ=\tan40^\circ\cdot\cot40^\circ=1.$$
 
-  $$\begin{aligned}
-  P\bigl((A\cap\overline B)\cup(\overline A\cap B)\bigr)
-  &=0{,}7\cdot0{,}2+0{,}3\cdot0{,}8\\
-  &=0{,}14+0{,}24=0{,}38.
-  \end{aligned}$$
-
-  Vậy xác suất ném trúng đúng một quả là $0{,}38$.
+  Vậy a) $\cos18^\circ$ và $\cot25^\circ$; b) cả hai biểu thức đều bằng $1$.
   :::
 
-[[P13·0ca2]]
-Công thức nhân còn cho phép tìm một xác suất chưa biết khi xác suất của giao đã được cho.
+[[P10·4235]]
+Với góc bất kì, ta dùng máy tính cầm tay (để ở chế độ độ, kí hiệu D). Phím `sin`, `cos`, `tan` cho tỉ số; tổ hợp `SHIFT` + `sin` (hoặc `cos`, `tan`) cho góc khi biết tỉ số. Không có phím cot, nên ta dùng $\cot\alpha=\dfrac{1}{\tan\alpha}$.
 
-  :::example Tìm xác suất còn thiếu
-  Một ứng dụng có hai bước kiểm tra độc lập $A$ và $B$. Xác suất vượt qua bước $A$ là $0{,}8$, còn xác suất vượt qua cả hai bước là $0{,}52$. Tính xác suất vượt qua bước $B$ và xác suất không vượt qua bước nào.
+  :::example Trả lời câu hỏi chiếc thang
+  Thang dài $5$ m, chân thang cách tường $3$ m. Tìm góc $\alpha$ giữa thang và mặt đất (làm tròn đến độ).
 
-  **Lời giải.** Vì $A$ và $B$ độc lập và $P(A)>0$, ta chia công thức nhân cho $P(A)$:
+  **Lời giải.** Xét tam giác $HPT$ vuông tại $H$, với góc $\alpha$ ở chân thang $P$, cạnh kề là $HP=3$ m, cạnh huyền là $PT=5$ m. Ta có
 
-  $$P(B)=\frac{P(A\cap B)}{P(A)}=\frac{0{,}52}{0{,}8}=0{,}65.$$
+  $$\cos\alpha=\frac35=0{,}6\ \Rightarrow\ \alpha\approx53{,}13^\circ\approx53^\circ.$$
 
-  Hai biến cố đối cũng độc lập. Do đó
-
-  $$P(\overline A\cap\overline B)=(1-0{,}8)(1-0{,}65)=0{,}2\cdot0{,}35=0{,}07.$$
-
-  Vậy xác suất vượt qua bước $B$ là $0{,}65$; xác suất không vượt qua bước nào là $0{,}07$.
+  Vậy góc giữa thang và mặt đất chỉ khoảng $53^\circ$, nhỏ hơn nhiều so với $75^\circ$, nên thang của bác Tư quá thoải, dễ trượt.
   :::
 
 :::warning Những sai lầm thường gặp
-[[P14·4419]]
-- **Thấy từ “và” là nhân.** Công thức $P(A\cap B)=P(A)P(B)$ chỉ dùng khi $A$, $B$ độc lập. Hãy kiểm tra điều kiện của phép thử hoặc đẳng thức xác suất.
-- **Nhân để tính “ít nhất một”.** Tích là xác suất cả hai cùng xảy ra. Xác suất ít nhất một thường bằng $1-P(\overline A\cap\overline B)$.
-- **Coi xung khắc là độc lập.** Nếu $P(A)>0$, $P(B)>0$ và $A$, $B$ xung khắc thì $P(A\cap B)=0$ nhưng $P(A)P(B)>0$; chúng không độc lập.
-- **Mặc nhiên coi hai lần rút là độc lập.** Nếu không hoàn lại, lần đầu làm thay đổi thành phần của hộp, nên hai lần rút không độc lập.
+[[P11·fbff]]
+- **Nhầm cạnh đối và cạnh kề.** Sai: trong tam giác vuông tại $A$, $\sin C=\dfrac{AC}{BC}$. Lí do sai: cạnh đối diện góc $C$ là $AB$. Đúng: $\sin C=\dfrac{AB}{BC}$.
+- **Lập tỉ số với cạnh huyền ở tử.** Sai: $\cos B=\dfrac{BC}{AB}$. Lí do sai: tỉ số này lớn hơn $1$, mà $\cos B<1$. Đúng: $\cos B=\dfrac{AB}{BC}$.
+- **Nhầm giá trị đặc biệt.** Sai: $\sin60^\circ=\dfrac12$. Lí do sai: đó là $\sin30^\circ$ (cạnh đối góc $30^\circ$ ngắn nhất). Đúng: $\sin60^\circ=\dfrac{\sqrt3}2$.
+- **Để máy tính sai chế độ.** Sai: bấm $\sin30$ được $-0{,}988$. Lí do sai: máy đang ở chế độ radian. Đúng: chuyển sang chế độ độ, được $0{,}5$.
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - phép thử ngẫu nhiên | random experiment
-  - biến cố | event
-  - biến cố giao | intersection of events
-  - biến cố hợp | union of events
-  - biến cố đối | complementary event
-  - biến cố xung khắc | mutually exclusive events
-  - biến cố độc lập | independent events
-  - công thức nhân xác suất | multiplication rule for probabilities
+  - tỉ số lượng giác | trigonometric ratio
+  - góc nhọn | acute angle
+  - cạnh huyền | hypotenuse
+  - cạnh đối | opposite side
+  - cạnh kề | adjacent side
+  - sin, côsin, tang, côtang | sine, cosine, tangent, cotangent
+  - hai góc phụ nhau | complementary angles
+  - tam giác vuông cân | right-angled isosceles triangle
   :::
 
 ## Tóm tắt
 
-[[P15·eaac]]
-- $A$ và $B$ độc lập khi việc xảy ra hay không xảy ra của biến cố này không làm thay đổi khả năng xảy ra của biến cố kia.
-- Tiêu chí và công thức nhân: $A$, $B$ độc lập $\Leftrightarrow P(A\cap B)=P(A)P(B)$.
-- Nếu $A$, $B$ độc lập thì các cặp có thay $A$ hoặc $B$ bằng biến cố đối của nó cũng độc lập.
-- “Ít nhất một” thường tính bằng $1-P(\overline A\cap\overline B)$; “đúng một” là hợp của $A\cap\overline B$ và $\overline A\cap B$.
-- Độc lập không có nghĩa là xung khắc. Hai biến cố có xác suất dương và xung khắc thì không độc lập.
+[[P12·d528]]
+- $\sin\alpha=\dfrac{\text{đối}}{\text{huyền}}$, $\cos\alpha=\dfrac{\text{kề}}{\text{huyền}}$, $\tan\alpha=\dfrac{\text{đối}}{\text{kề}}$, $\cot\alpha=\dfrac{\text{kề}}{\text{đối}}$.
+- Tỉ số chỉ phụ thuộc vào góc; $0<\sin\alpha<1$, $0<\cos\alpha<1$; $\tan\alpha\cdot\cot\alpha=1$.
+- $\sin30^\circ=\cos60^\circ=\dfrac12$, $\sin45^\circ=\cos45^\circ=\dfrac{\sqrt2}2$, $\sin60^\circ=\cos30^\circ=\dfrac{\sqrt3}2$, $\tan45^\circ=1$, $\tan60^\circ=\sqrt3$, $\tan30^\circ=\dfrac{\sqrt3}3$.
+- Hai góc phụ nhau: sin góc này bằng cos góc kia, tan góc này bằng cot góc kia.
+- Máy tính: chế độ độ; `SHIFT` + `sin`/`cos`/`tan` để tìm góc.
 
 ## Luyện tập
 
-[[P16·b0c6]]
+[[P13·b0c6]]
 Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -359,11 +319,27 @@ Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm tr
 :::
 
 :::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
    (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 41 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
-   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -373,226 +349,183 @@ Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm tr
 :::
 
 
-######## BÀI g11/multiplication-rule – BẢN TIẾNG ANH ########
+######## BÀI g9/acute-angle-trig-ratios – BẢN TIẾNG ANH ########
 ---
-title: The multiplication rule for independent events
-description: Recognise independent events and use the multiplication rule to find intersections, complements and combined probabilities.
-minutes: 16
+title: Trigonometric ratios of acute angles
+description: Sine, cosine, tangent and cotangent of an acute angle in a right-angled triangle, special-angle values and complementary angles.
+minutes: 20
 ---
 
   :::goals
-  - Recognise independent events from the design of an experiment or from known probabilities.
-  - Use the rule $P(A\cap B)=P(A)P(B)$ for two independent events.
-  - Combine the multiplication rule with complementary events and the addition rule.
-  - Distinguish independent events from mutually exclusive events.
+  - Write the sine, cosine, tangent and cotangent of an acute angle in a right-angled triangle.
+  - Learn the trigonometric ratios of $30^\circ$, $45^\circ$ and $60^\circ$, and use the link between complementary angles.
+  - Use a calculator to find trigonometric ratios, and to find an angle from a ratio.
   :::
 
-[[P1·a6d7]]
-In a game at a school fair, you roll a fair die and toss a fair coin. You win a prize if the die shows an even number **and** the coin shows heads. What is the probability of winning: should we add or multiply the two probabilities?
+[[P1·9309]]
+Mr Tư leans a $5$ m ladder against a wall, with its foot $3$ m from the bottom of the wall. Safety advice says the angle between a ladder and the ground should be about $75^\circ$. Is Mr Tư's ladder steep enough?
 
-[[P2·fe32]]
-The two results come from different devices. The result from one does not change the result from the other. We express this idea by saying that the two events are independent.
+[[P2·4065]]
+We know two sides of a right-angled triangle, but we need an **angle**. This lesson gives us the tool that links sides to angles: the trigonometric ratios.
 
-## Recognising independent events
+:::diagram The ladder against the wall
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
 
-### Explore: a die and a coin
+## The trigonometric ratios of an acute angle
 
-[[P3·4125]]
-Each outcome of the experiment is a pair consisting of the number on the die and the side of the coin. There are $6\cdot2=12$ equally likely outcomes:
+### Explore: the ratio does not depend on the size of the triangle
 
-| Side of the coin | Die scores that can accompany it | Number of outcomes |
-|---|---|---|
-| Heads | $1,2,3,4,5,6$ | $6$ |
-| Tails | $1,2,3,4,5,6$ | $6$ |
+[[P3·856b]]
+Take two right-angled triangles with the same acute angle $\alpha$ at vertex $B$: the first has sides $3$, $4$, $5$; the second has sides $6$, $8$, $10$ (twice as big). We work out the ratio of the side opposite $\alpha$ to the hypotenuse:
 
-[[P4·3ccd]]
-Let $A$ be the event “the die shows an even number” and $B$ the event “the coin shows heads”. Of the $12$ outcomes, $6$ belong to $A$, $6$ belong to $B$ and $3$ belong to $A\cap B$. Therefore
+| Triangle | opposite | hypotenuse | opposite : hypotenuse |
+|---|---|---|---|
+| first | $3$ | $5$ | $0.6$ |
+| second | $6$ | $10$ | $0.6$ |
 
-  $$P(A)=\frac{6}{12}=\frac12,\qquad P(B)=\frac{6}{12}=\frac12,\qquad P(A\cap B)=\frac{3}{12}=\frac14.$$
+[[P4·ec48]]
+The two triangles are similar (grade 8), so the ratios are the same. The ratio depends only on the angle $\alpha$, not on how big the triangle is.
 
-[[P5·021a]]
-If we know that $A$ has occurred, only the $6$ outcomes with an even die score remain; half of these still have heads. Thus the occurrence of $A$ does not change the likelihood of $B$. The same statement holds when the roles of $A$ and $B$ are reversed.
+:::diagram The opposite side, adjacent side and hypotenuse for angle $\alpha$
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
 
-  :::definition Independent events
-  Two events $A$ and $B$ are **independent** if whether one event occurs does not change the likelihood that the other event occurs.
+  :::definition Trigonometric ratios of an acute angle
+  In a right-angled triangle with an acute angle $\alpha$:
+  $$\sin\alpha=\frac{\text{opposite}}{\text{hypotenuse}},\quad \cos\alpha=\frac{\text{adjacent}}{\text{hypotenuse}},\quad \tan\alpha=\frac{\text{opposite}}{\text{adjacent}},\quad \cot\alpha=\frac{\text{adjacent}}{\text{opposite}}.$$
   :::
 
-[[P6·663f]]
-Independence must come from the design of the experiment or be checked using probability values. Two actions separated in time are not automatically independent; for example, drawing two cards without replacement changes the contents of the box.
+[[P5·d1c6]]
+Because the hypotenuse is the longest side, we always have $0<\sin\alpha<1$ and $0<\cos\alpha<1$. A well-known memory aid is **SOH CAH TOA** (Sine = Opposite : Hypotenuse, Cosine = Adjacent : Hypotenuse, Tangent = Opposite : Adjacent); the cotangent is the tangent turned upside down.
 
-## The multiplication rule
+  :::example Finding the four ratios
+  Triangle $ABC$ has a right angle at $A$, $AB=8$ cm and $AC=6$ cm. Find the trigonometric ratios of angle $B$.
 
-[[P7·7485]]
-In the exploration, $\dfrac14=\dfrac12\cdot\dfrac12$. This is the first instance of the general rule.
+  **Solution.** In the right-angled triangle $ABC$, $BC^2=AB^2+AC^2$ (Pythagoras' theorem). For angle $B$, the opposite side is $AC$ and the adjacent side is $AB$. Hence
 
-  :::theorem Multiplication rule for independent events
-  Two events $A$ and $B$ are independent if and only if
+  $$BC=\sqrt{8^2+6^2}=\sqrt{100}=10;\qquad \sin B=\frac{6}{10}=\frac35,\quad \cos B=\frac{8}{10}=\frac45,\quad \tan B=\frac68=\frac34,\quad \cot B=\frac86=\frac43.$$
 
-  $$P(A\cap B)=P(A)P(B).$$
-
-  Therefore, if $A$ and $B$ are known to be independent, the probability that **both** occur is the product of their probabilities. Conversely, when the three probabilities are known, this equation tests independence.
+  So $\sin B=\dfrac35$, $\cos B=\dfrac45$, $\tan B=\dfrac34$, $\cot B=\dfrac43$.
   :::
 
-[[P8·0cef]]
-Why does multiplication appear? In an independent two-stage model, suppose the proportion of first-stage outcomes favourable to $A$ is $P(A)$. For every such first-stage outcome, the proportion of second-stage outcomes favourable to $B$ remains $P(B)$. The proportion favourable to both stages is therefore $P(A)P(B)$.
+[[P6·8355]]
+The opposite and adjacent sides change when we look at the other acute angle, so always identify them again before writing a ratio.
 
-  :::example Rolling a die and tossing a coin
-  A fair die is rolled and a fair coin is tossed. Find the probability that the die shows a number greater than $4$ and the coin shows tails.
+  :::example The ratios of the other angle
+  Triangle $ABC$ has a right angle at $A$, $AB=5$ and $AC=12$. Find the trigonometric ratios of angle $C$.
 
-  **Solution.** Let $A$ be the event “the score is greater than $4$” and $B$ the event “tails”. The events are independent because the die result does not affect the coin:
+  **Solution.** In the right-angled triangle $ABC$, $BC^2=AB^2+AC^2$ (Pythagoras' theorem). For angle $C$, the opposite side is $AB$ and the adjacent side is $AC$. Hence
 
-  $$P(A)=\frac26=\frac13,\qquad P(B)=\frac12.$$
+  $$BC=\sqrt{5^2+12^2}=13;\qquad \sin C=\frac{5}{13},\quad \cos C=\frac{12}{13},\quad \tan C=\frac{5}{12},\quad \cot C=\frac{12}{5}.$$
 
-  Use the multiplication rule:
-
-  $$P(A\cap B)=P(A)P(B)=\frac13\cdot\frac12=\frac16.$$
-
-  So the required probability is $\dfrac16$.
+  So $\sin C=\dfrac5{13}$, $\cos C=\dfrac{12}{13}$, $\tan C=\dfrac5{12}$, $\cot C=\dfrac{12}5$.
   :::
 
-[[P9·6c81]]
-When an action is repeated, we must check whether the conditions for the later trial remain unchanged.
+## The ratios of special angles
 
-  :::example With and without replacement
-  A box contains $3$ red cards and $2$ blue cards, all distinguishable. Two random draws are made. Let $A$ be the event “the first card is red” and $B$ the event “the second card is red”. Decide whether $A$ and $B$ are independent in two cases: the first card is replaced, and it is not replaced.
+[[P7·e2d4]]
+Half of a square with side $1$ is a right-angled isosceles triangle with two $45^\circ$ angles and hypotenuse $\sqrt2$. Half of an equilateral triangle with side $2$ is a right-angled triangle with angles $30^\circ$ and $60^\circ$ and sides $1$, $\sqrt3$, $2$. These two triangles give the table below.
 
-  **Solution.** With replacement, the box contains $3$ red cards out of $5$ before each draw. There are $5\cdot5=25$ equally likely ordered pairs, of which $3\cdot3=9$ are red–red:
+| $\alpha$ | $30^\circ$ | $45^\circ$ | $60^\circ$ |
+|---|---|---|---|
+| $\sin\alpha$ | $\dfrac12$ | $\dfrac{\sqrt2}2$ | $\dfrac{\sqrt3}2$ |
+| $\cos\alpha$ | $\dfrac{\sqrt3}2$ | $\dfrac{\sqrt2}2$ | $\dfrac12$ |
+| $\tan\alpha$ | $\dfrac{\sqrt3}3$ | $1$ | $\sqrt3$ |
+| $\cot\alpha$ | $\sqrt3$ | $1$ | $\dfrac{\sqrt3}3$ |
 
-  $$P(A)=P(B)=\frac35,\qquad P(A\cap B)=\frac9{25}=\frac35\cdot\frac35.$$
+[[P8·5448]]
+For example, $\sin45^\circ=\dfrac{1}{\sqrt2}=\dfrac{\sqrt2}{2}$ (rationalising the denominator as in the previous chapter).
 
-  Thus $A$ and $B$ are independent with replacement.
+  :::example Evaluating expressions
+  Evaluate: a) $A=\sin30^\circ+\cos60^\circ-\tan45^\circ$; b) $B=\sin60^\circ\cdot\cot30^\circ$.
 
-  Without replacement, there are $5\cdot4=20$ ordered pairs of different cards, of which $3\cdot2=6$ are red–red. Each position still contains a red card with probability $\dfrac35$, but
+  **Solution.** Substituting the values from the table, we get
 
-  $$P(A\cap B)=\frac6{20}=\frac3{10}\ne\frac35\cdot\frac35=\frac9{25}.$$
+  $$A=\frac12+\frac12-1=0;\qquad B=\frac{\sqrt3}{2}\cdot\sqrt3=\frac32.$$
 
-  Thus $A$ and $B$ are not independent without replacement.
+  So $A=0$ and $B=\dfrac32$.
   :::
 
-[[P10·9045]]
-This example shows that we cannot use the multiplication rule merely because a question contains the word “and”. We must first decide whether the events are independent.
+## The ratios of complementary angles
 
-## Combining complements and the addition rule
+[[P9·d634]]
+In triangle $ABC$ with a right angle at $A$, angles $B$ and $C$ are complementary: $\angle B+\angle C=90^\circ$. The side opposite $B$ is the side adjacent to $C$, so $\sin B=\dfrac{AC}{BC}=\cos C$.
 
-[[P11·e82c]]
-If $A$ and $B$ are independent, then $A$ is also independent of $\overline B$. Indeed, $A\cap B$ and $A\cap\overline B$ are mutually exclusive and their union is $A$, so
-
-  $$\begin{aligned}
-  P(A\cap\overline B)
-  &=P(A)-P(A\cap B)\\
-  &=P(A)-P(A)P(B)\\
-  &=P(A)\bigl(1-P(B)\bigr)\\
-  &=P(A)P(\overline B).
-  \end{aligned}$$
-
-[[P12·9aed]]
-Similarly, the pairs $\overline A$ and $B$, and $\overline A$ and $\overline B$, are independent. We can therefore combine multiplication and addition to find probabilities involving “neither”, “at least one” or “exactly one”.
-
-  :::example At least one faulty component
-  Two components operate independently. The probability that the first meets the standard is $0.96$, and the probability that the second meets the standard is $0.95$. Find the probability that both meet the standard and the probability that at least one component is faulty.
-
-  **Solution.** Let $A$ and $B$ be the events that the first and second components meet the standard. Since $A$ and $B$ are independent,
-
-  $$P(A\cap B)=0.96\cdot0.95=0.912.$$
-
-  The event “at least one component is faulty” is the complement of “both components meet the standard”. Hence
-
-  $$P(\text{at least one faulty component})=1-0.912=0.088.$$
-
-  The two probabilities are $0.912$ and $0.088$, or $91.2\%$ and $8.8\%$, respectively.
+  :::theorem Complementary angles
+  If $\alpha+\beta=90^\circ$, then
+  $$\sin\alpha=\cos\beta,\quad \cos\alpha=\sin\beta,\quad \tan\alpha=\cot\beta,\quad \cot\alpha=\tan\beta.$$
   :::
 
-[[P13·e887]]
-“Exactly one” consists of two mutually exclusive cases: the first trial succeeds and the second fails, or the other way round.
+  :::example Using complementary angles
+  a) Write $\sin72^\circ$ and $\tan65^\circ$ as trigonometric ratios of angles smaller than $45^\circ$.
+  b) Without a calculator, evaluate $\dfrac{\sin25^\circ}{\cos65^\circ}$ and $\tan40^\circ\cdot\tan50^\circ$.
 
-  :::example Exactly one successful shot
-  An athlete takes two independent shots. The probability of success on the first shot is $0.7$, and that on the second is $0.8$. Find the probability of exactly one successful shot.
+  **Solution.** We have $72^\circ+18^\circ=90^\circ$, $65^\circ+25^\circ=90^\circ$, $25^\circ+65^\circ=90^\circ$, $40^\circ+50^\circ=90^\circ$ (complementary angles) and $\tan40^\circ\cdot\cot40^\circ=\dfrac{\text{opp}}{\text{adj}}\cdot\dfrac{\text{adj}}{\text{opp}}=1$. Hence
 
-  **Solution.** Let $A$ and $B$ be the events of success on the first and second shots. The cases $A\cap\overline B$ and $\overline A\cap B$ are mutually exclusive, so we add their probabilities:
+  $$\sin72^\circ=\cos18^\circ,\quad \tan65^\circ=\cot25^\circ;\qquad \frac{\sin25^\circ}{\cos65^\circ}=\frac{\sin25^\circ}{\sin25^\circ}=1,\quad \tan40^\circ\cdot\tan50^\circ=\tan40^\circ\cdot\cot40^\circ=1.$$
 
-  $$\begin{aligned}
-  P\bigl((A\cap\overline B)\cup(\overline A\cap B)\bigr)
-  &=0.7\cdot0.2+0.3\cdot0.8\\
-  &=0.14+0.24=0.38.
-  \end{aligned}$$
-
-  So the probability of exactly one successful shot is $0.38$.
+  So a) $\cos18^\circ$ and $\cot25^\circ$; b) both expressions equal $1$.
   :::
 
-[[P14·3af3]]
-The multiplication rule can also be rearranged to find an unknown probability when the probability of the intersection is given.
+[[P10·e531]]
+For any other angle, we use a calculator (set to degree mode, shown as D). The `sin`, `cos` and `tan` keys give the ratio; `SHIFT` + `sin` (or `cos`, `tan`) gives the angle from a ratio. There is no cot key, so we use $\cot\alpha=\dfrac{1}{\tan\alpha}$.
 
-  :::example Finding a missing probability
-  An app has two independent checks, $A$ and $B$. The probability of passing check $A$ is $0.8$, while the probability of passing both checks is $0.52$. Find the probability of passing check $B$ and the probability of passing neither check.
+  :::example Answering the ladder question
+  The ladder is $5$ m long and its foot is $3$ m from the wall. Find the angle $\alpha$ between the ladder and the ground (rounded to the nearest degree).
 
-  **Solution.** Since $A$ and $B$ are independent and $P(A)>0$, divide the multiplication rule by $P(A)$:
+  **Solution.** In triangle $HPT$ with a right angle at $H$, for the angle $\alpha$ at the foot $P$ of the ladder, the adjacent side is $HP=3$ m and the hypotenuse is $PT=5$ m. We have
 
-  $$P(B)=\frac{P(A\cap B)}{P(A)}=\frac{0.52}{0.8}=0.65.$$
+  $$\cos\alpha=\frac35=0.6\ \Rightarrow\ \alpha\approx53.13^\circ\approx53^\circ.$$
 
-  The complementary events are also independent. Therefore
-
-  $$P(\overline A\cap\overline B)=(1-0.8)(1-0.65)=0.2\cdot0.35=0.07.$$
-
-  The probability of passing check $B$ is $0.65$; the probability of passing neither check is $0.07$.
+  So the angle between the ladder and the ground is only about $53^\circ$, much less than $75^\circ$, so Mr Tư's ladder is too shallow and may slip.
   :::
 
 :::warning Common mistakes
-[[P15·77a5]]
-- **Multiplying whenever the word “and” appears.** Wrong: always write $P(A\cap B)=P(A)P(B)$. This rule requires $A$ and $B$ to be independent. First check the design of the experiment or verify $P(A\cap B)=P(A)P(B)$.
-- **Multiplying to find “at least one”.** The product $P(A)P(B)$ gives the probability that both events occur, not that at least one occurs. Usually use $1-P(\overline A\cap\overline B)$.
-- **Treating mutually exclusive events as independent.** If $P(A)>0$, $P(B)>0$ and $A$, $B$ are mutually exclusive, then $P(A\cap B)=0$ but $P(A)P(B)>0$; they are not independent.
-- **Assuming that two draws are independent.** Without replacement, the first draw changes the contents of the box. Use the multiplication rule for independent events only when the question or the model guarantees independence.
+[[P11·1480]]
+- **Mixing up opposite and adjacent.** Wrong: in a triangle with a right angle at $A$, $\sin C=\dfrac{AC}{BC}$. Why it is wrong: the side opposite $C$ is $AB$. Right: $\sin C=\dfrac{AB}{BC}$.
+- **Putting the hypotenuse on top.** Wrong: $\cos B=\dfrac{BC}{AB}$. Why it is wrong: this ratio is greater than $1$, but $\cos B<1$. Right: $\cos B=\dfrac{AB}{BC}$.
+- **Mixing up special values.** Wrong: $\sin60^\circ=\dfrac12$. Why it is wrong: that is $\sin30^\circ$ (the side opposite $30^\circ$ is the shortest). Right: $\sin60^\circ=\dfrac{\sqrt3}2$.
+- **Using the wrong calculator mode.** Wrong: $\sin30$ gives $-0.988$. Why it is wrong: the calculator is in radian mode. Right: switch to degree mode to get $0.5$.
 :::
 
 ## Key terms
 
   :::terms
-  - random experiment | phép thử ngẫu nhiên
-  - event | biến cố
-  - intersection of events | biến cố giao
-  - union of events | biến cố hợp
-  - complementary event | biến cố đối
-  - mutually exclusive events | biến cố xung khắc
-  - independent events | biến cố độc lập
-  - multiplication rule for probabilities | công thức nhân xác suất
+  - trigonometric ratio | tỉ số lượng giác
+  - acute angle | góc nhọn
+  - hypotenuse | cạnh huyền
+  - opposite side | cạnh đối
+  - adjacent side | cạnh kề
+  - sine, cosine, tangent, cotangent | sin, côsin, tang, côtang
+  - complementary angles | hai góc phụ nhau
+  - right-angled isosceles triangle | tam giác vuông cân
   :::
 
 ## Summary
 
-[[P16·9bd5]]
-- $A$ and $B$ are independent when whether one occurs does not change the likelihood that the other occurs.
-- Test and multiplication rule: $A$, $B$ independent $\Leftrightarrow P(A\cap B)=P(A)P(B)$.
-- If $A$, $B$ are independent, replacing either event by its complement also gives an independent pair.
-- Find “at least one” using $1-P(\overline A\cap\overline B)$; “exactly one” is the union of $A\cap\overline B$ and $\overline A\cap B$.
-- Independent does not mean mutually exclusive. Mutually exclusive events with positive probabilities are not independent.
+[[P12·1e9f]]
+- $\sin\alpha=\dfrac{\text{opp}}{\text{hyp}}$, $\cos\alpha=\dfrac{\text{adj}}{\text{hyp}}$, $\tan\alpha=\dfrac{\text{opp}}{\text{adj}}$, $\cot\alpha=\dfrac{\text{adj}}{\text{opp}}$.
+- The ratios depend only on the angle; $0<\sin\alpha<1$, $0<\cos\alpha<1$; $\tan\alpha\cdot\cot\alpha=1$.
+- $\sin30^\circ=\cos60^\circ=\dfrac12$, $\sin45^\circ=\cos45^\circ=\dfrac{\sqrt2}2$, $\sin60^\circ=\cos30^\circ=\dfrac{\sqrt3}2$, $\tan45^\circ=1$, $\tan60^\circ=\sqrt3$, $\tan30^\circ=\dfrac{\sqrt3}3$.
+- Complementary angles: the sine of one is the cosine of the other, and the tangent of one is the cotangent of the other.
+- Calculator: degree mode; `SHIFT` + `sin`/`cos`/`tan` to find an angle.
 
 ## Practice
 
-[[P17·8392]]
-Each exercise gives the fact you need and some steps. Try it yourself before opening the solution.
+[[P13·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
 
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 28 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -600,11 +533,1179 @@ Each exercise gives the fact you need and some steps. Try it yourself before ope
 :::
 
 :::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
    (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 41 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/arc-length-sector-area – BẢN TIẾNG VIỆT ########
+---
+title: Độ dài của cung tròn. Diện tích hình quạt tròn và hình vành khuyên
+description: Tính độ dài cung tròn, diện tích hình quạt tròn và diện tích hình vành khuyên, áp dụng vào các bài toán thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Tính được độ dài cung tròn $n^\circ$ của đường tròn bán kính $R$.
+  - Tính được diện tích hình quạt tròn và diện tích hình vành khuyên.
+  - Vận dụng các công thức vào bài toán thực tế (bánh xe, đồng hồ, cần gạt nước).
+  :::
+
+[[P1·a591]]
+Cần gạt nước của một ô tô quay quanh trục $O$. Lưỡi cao su gắn trên thanh gạt, từ điểm cách $O$ là $10$ cm đến điểm cách $O$ là $50$ cm. Mỗi lần gạt, thanh quay một góc $120^\circ$. Mỗi lần gạt lau được bao nhiêu xăng-ti-mét vuông kính?
+
+## Độ dài cung tròn
+
+### Khám phá: chia đường tròn thành $360$ phần
+
+[[P2·cc98]]
+Đường tròn bán kính $R$ có độ dài $C=2\pi R$. Cả đường tròn ứng với $360^\circ$, nên cung $1^\circ$ dài $\dfrac{2\pi R}{360}=\dfrac{\pi R}{180}$. Cung $n^\circ$ dài gấp $n$ lần cung $1^\circ$.
+
+  :::theorem Độ dài cung tròn
+  Trên đường tròn bán kính $R$, cung $n^\circ$ có độ dài
+  $$l=\frac{\pi Rn}{180}.$$
+  :::
+
+  :::example Tính độ dài cung
+  Tính độ dài cung $60^\circ$ của đường tròn bán kính $6$ cm (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Áp dụng công thức độ dài cung với $R=6$, $n=60$, ta có
+
+  $$l=\frac{\pi\cdot6\cdot60}{180}=2\pi\approx6{,}28\ \text{(cm)}.$$
+
+  Vậy cung dài khoảng $6{,}28$ cm.
+  :::
+
+[[P3·5a6d]]
+Từ công thức, khi biết $l$ và $R$ ta tìm được $n$.
+
+  :::example Tìm số đo cung
+  Một cung của đường tròn bán kính $9$ cm có độ dài $5\pi$ cm. Tính số đo của cung đó.
+
+  **Lời giải.** Từ $l=\dfrac{\pi Rn}{180}$, ta có
+
+  $$n=\frac{180l}{\pi R}=\frac{180\cdot5\pi}{9\pi}=100.$$
+
+  Vậy cung có số đo $100^\circ$.
+  :::
+
+## Diện tích hình quạt tròn
+
+[[P4·f38b]]
+Hình quạt tròn là phần hình tròn giới hạn bởi một cung và hai bán kính đi qua hai đầu mút của cung. Hình tròn có diện tích $\pi R^2$ ứng với $360^\circ$, nên hình quạt $n^\circ$ có diện tích bằng $\dfrac{n}{360}$ diện tích hình tròn.
+
+  :::theorem Diện tích hình quạt tròn
+  Hình quạt tròn bán kính $R$, cung $n^\circ$ có diện tích
+  $$S=\frac{\pi R^2n}{360}=\frac{lR}{2},$$
+  trong đó $l$ là độ dài cung của hình quạt.
+  :::
+
+:::diagram Hình quạt tròn $OAB$ bán kính $R$, cung $n^\circ$
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Diện tích hình quạt
+  Tính diện tích hình quạt tròn bán kính $10$ cm, cung $72^\circ$ (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Áp dụng công thức diện tích hình quạt, ta có
+
+  $$S=\frac{\pi\cdot10^2\cdot72}{360}=20\pi\approx62{,}83\ \text{(cm}^2\text{)}.$$
+
+  Tính cách khác: cung dài $l=\dfrac{\pi\cdot10\cdot72}{180}=4\pi$, nên $S=\dfrac{lR}{2}=\dfrac{4\pi\cdot10}{2}=20\pi$.
+
+  Vậy diện tích hình quạt khoảng $62{,}83$ cm².
+  :::
+
+## Diện tích hình vành khuyên
+
+[[P5·9b77]]
+Hình vành khuyên là phần nằm giữa hai đường tròn đồng tâm. Diện tích của nó bằng diện tích hình tròn lớn trừ diện tích hình tròn nhỏ.
+
+  :::theorem Diện tích hình vành khuyên
+  Hình vành khuyên giới hạn bởi hai đường tròn $(O; R)$ và $(O; r)$ với $R>r$ có diện tích
+  $$S=\pi R^2-\pi r^2=\pi\left(R^2-r^2\right).$$
+  :::
+
+:::diagram Hình vành khuyên giữa hai đường tròn đồng tâm
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Lối đi quanh hồ
+  Một hồ nước hình tròn bán kính $30$ m. Người ta làm một lối đi rộng $2$ m bao quanh hồ. Tính diện tích lối đi (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Lối đi là hình vành khuyên với $r=30$ m và $R=30+2=32$ m. Ta có
+
+  $$S=\pi\left(32^2-30^2\right)=\pi(1024-900)=124\pi\approx389{,}56\ \text{(m}^2\text{)}.$$
+
+  Vậy diện tích lối đi khoảng $389{,}56$ m².
+  :::
+
+[[P6·a3aa]]
+Phần kính được lau ở đầu bài là phần của hình vành khuyên nằm trong góc $120^\circ$.
+
+  :::example Cần gạt nước
+  Giải bài toán ở đầu bài (làm tròn kết quả đến hàng đơn vị).
+
+  **Lời giải.** Phần kính được lau bằng hình quạt bán kính $50$ cm trừ hình quạt bán kính $10$ cm, cùng cung $120^\circ$:
+
+  $$S=\frac{\pi\cdot50^2\cdot120}{360}-\frac{\pi\cdot10^2\cdot120}{360}=\frac{\pi\left(2500-100\right)}{3}=800\pi\approx2513\ \text{(cm}^2\text{)}.$$
+
+  Vậy mỗi lần gạt lau được khoảng $2513$ cm² kính.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P7·b963]]
+- **Nhầm hai công thức.** Sai: cung $90^\circ$ của đường tròn bán kính $4$ dài $\dfrac{\pi\cdot4^2\cdot90}{360}=4\pi$. Lí do sai: đó là diện tích hình quạt. Đúng: $l=\dfrac{\pi\cdot4\cdot90}{180}=2\pi$.
+- **Tính vành khuyên bằng hiệu bán kính.** Sai: $S=\pi(R-r)^2$. Lí do sai: phải trừ hai diện tích. Đúng: $S=\pi\left(R^2-r^2\right)$.
+- **Dùng đường kính thay cho bán kính.** Đọc kĩ đề: bánh xe "đường kính $70$ cm" có $R=35$ cm.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - độ dài đường tròn | circumference
+  - độ dài cung tròn | arc length
+  - hình quạt tròn | sector
+  - hình vành khuyên | annulus
+  - đường tròn đồng tâm | concentric circles
+  - hình viên phân | segment of a circle
+  :::
+
+## Tóm tắt
+
+[[P8·a4d5]]
+- Độ dài đường tròn $C=2\pi R$; diện tích hình tròn $\pi R^2$.
+- Cung $n^\circ$: $l=\dfrac{\pi Rn}{180}$.
+- Hình quạt $n^\circ$: $S=\dfrac{\pi R^2n}{360}=\dfrac{lR}{2}$.
+- Hình vành khuyên: $S=\pi\left(R^2-r^2\right)$.
+
+## Luyện tập
+
+[[P9·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
    (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/arc-length-sector-area – BẢN TIẾNG ANH ########
+---
+title: Arc length. Area of a sector and an annulus
+description: Find the length of an arc, the area of a sector and the area of an annulus, and use them in real-life problems.
+minutes: 20
+---
+
+  :::goals
+  - Find the length of an arc of $n^\circ$ on a circle of radius $R$.
+  - Find the area of a sector and the area of an annulus.
+  - Use the formulas in real-life problems (wheels, clocks, windscreen wipers).
+  :::
+
+[[P1·54d9]]
+A car's windscreen wiper turns about a pivot $O$. The rubber blade is fixed on the arm from the point $10$ cm from $O$ to the point $50$ cm from $O$. On each sweep the arm turns through $120^\circ$. How many square centimetres of glass does one sweep clean?
+
+## Arc length
+
+### Explore: split the circle into $360$ parts
+
+[[P2·337e]]
+A circle of radius $R$ has circumference $C=2\pi R$. The whole circle corresponds to $360^\circ$, so an arc of $1^\circ$ has length $\dfrac{2\pi R}{360}=\dfrac{\pi R}{180}$. An arc of $n^\circ$ is $n$ times as long as an arc of $1^\circ$.
+
+  :::theorem Arc length
+  On a circle of radius $R$, an arc of $n^\circ$ has length
+  $$l=\frac{\pi Rn}{180}.$$
+  :::
+
+  :::example Finding an arc length
+  Find the length of an arc of $60^\circ$ on a circle of radius $6$ cm (give your answer to 2 decimal places).
+
+  **Solution.** Using the arc-length formula with $R=6$ and $n=60$, we have
+
+  $$l=\frac{\pi\cdot6\cdot60}{180}=2\pi\approx6.28\ \text{(cm)}.$$
+
+  So the arc is about $6.28$ cm long.
+  :::
+
+[[P3·66a3]]
+From the formula, when we know $l$ and $R$ we can find $n$.
+
+  :::example Finding the measure of an arc
+  An arc of a circle of radius $9$ cm has length $5\pi$ cm. Find the measure of the arc.
+
+  **Solution.** From $l=\dfrac{\pi Rn}{180}$, we have
+
+  $$n=\frac{180l}{\pi R}=\frac{180\cdot5\pi}{9\pi}=100.$$
+
+  So the arc measures $100^\circ$.
+  :::
+
+## Area of a sector
+
+[[P4·6647]]
+A sector is the part of a disc bounded by an arc and the two radii through its end points. A disc of area $\pi R^2$ corresponds to $360^\circ$, so a sector of $n^\circ$ has area $\dfrac{n}{360}$ of the area of the disc.
+
+  :::theorem Area of a sector
+  A sector of radius $R$ with an arc of $n^\circ$ has area
+  $$S=\frac{\pi R^2n}{360}=\frac{lR}{2},$$
+  where $l$ is the length of the arc of the sector.
+  :::
+
+:::diagram The sector $OAB$ of radius $R$ with an arc of $n^\circ$
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Area of a sector
+  Find the area of a sector of radius $10$ cm with an arc of $72^\circ$ (give your answer to 2 decimal places).
+
+  **Solution.** Using the formula for the area of a sector, we have
+
+  $$S=\frac{\pi\cdot10^2\cdot72}{360}=20\pi\approx62.83\ \text{(cm}^2\text{)}.$$
+
+  Another way: the arc has length $l=\dfrac{\pi\cdot10\cdot72}{180}=4\pi$, so $S=\dfrac{lR}{2}=\dfrac{4\pi\cdot10}{2}=20\pi$.
+
+  So the area of the sector is about $62.83$ cm².
+  :::
+
+## Area of an annulus
+
+[[P5·8ba5]]
+An annulus is the region between two concentric circles. Its area is the area of the large disc minus the area of the small disc.
+
+  :::theorem Area of an annulus
+  The annulus between the circles $(O, R)$ and $(O, r)$, with $R>r$, has area
+  $$S=\pi R^2-\pi r^2=\pi\left(R^2-r^2\right).$$
+  :::
+
+:::diagram An annulus between two concentric circles
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example A path round a lake
+  A round lake has radius $30$ m. A path $2$ m wide is built all round the lake. Find the area of the path (give your answer to 2 decimal places).
+
+  **Solution.** The path is an annulus with $r=30$ m and $R=30+2=32$ m. We have
+
+  $$S=\pi\left(32^2-30^2\right)=\pi(1024-900)=124\pi\approx389.56\ \text{(m}^2\text{)}.$$
+
+  So the area of the path is about $389.56$ m².
+  :::
+
+[[P6·eb0f]]
+The glass cleaned in the opening problem is the part of an annulus inside an angle of $120^\circ$.
+
+  :::example The windscreen wiper
+  Solve the opening problem (give your answer to the nearest whole number).
+
+  **Solution.** The cleaned glass is the sector of radius $50$ cm minus the sector of radius $10$ cm, both with an arc of $120^\circ$:
+
+  $$S=\frac{\pi\cdot50^2\cdot120}{360}-\frac{\pi\cdot10^2\cdot120}{360}=\frac{\pi\left(2500-100\right)}{3}=800\pi\approx2513\ \text{(cm}^2\text{)}.$$
+
+  So one sweep cleans about $2513$ cm² of glass.
+  :::
+
+:::warning Common mistakes
+[[P7·09a7]]
+- **Mixing up the two formulas.** Wrong: an arc of $90^\circ$ on a circle of radius $4$ has length $\dfrac{\pi\cdot4^2\cdot90}{360}=4\pi$. Why it is wrong: that is the area of the sector. Right: $l=\dfrac{\pi\cdot4\cdot90}{180}=2\pi$.
+- **Using the difference of the radii for an annulus.** Wrong: $S=\pi(R-r)^2$. Why it is wrong: we must subtract two areas. Right: $S=\pi\left(R^2-r^2\right)$.
+- **Using the diameter instead of the radius.** Read carefully: a wheel "of diameter $70$ cm" has $R=35$ cm.
+:::
+
+## Key terms
+
+  :::terms
+  - circumference | độ dài đường tròn
+  - arc length | độ dài cung tròn
+  - sector | hình quạt tròn
+  - annulus | hình vành khuyên
+  - concentric circles | đường tròn đồng tâm
+  - segment of a circle | hình viên phân
+  :::
+
+## Summary
+
+[[P8·ade9]]
+- Circumference $C=2\pi R$; area of a disc $\pi R^2$.
+- Arc of $n^\circ$: $l=\dfrac{\pi Rn}{180}$.
+- Sector of $n^\circ$: $S=\dfrac{\pi R^2n}{360}=\dfrac{lR}{2}$.
+- Annulus: $S=\pi\left(R^2-r^2\right)$.
+
+## Practice
+
+[[P9·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 37 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/arcs-and-chords – BẢN TIẾNG VIỆT ########
+---
+title: Cung và dây của một đường tròn
+description: Nhận biết dây, góc ở tâm, cung nhỏ và cung lớn; tính độ dài dây và số đo cung của một đường tròn.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết dây cung và biết đường kính là dây lớn nhất.
+  - Tính độ dài dây hoặc khoảng cách từ tâm đến dây bằng định lí Pythagore.
+  - Nhận biết góc ở tâm, cung nhỏ, cung lớn và tính số đo cung.
+  :::
+
+[[P1·7bd1]]
+Chiếc đồng hồ treo tường trong lớp có kim phút dài $15$ cm. Từ $7$ giờ đến $7$ giờ $20$ phút, đầu kim phút đi từ vị trí $A$ đến vị trí $B$ trên một cung tròn. Cung đó có số đo bao nhiêu độ? Đoạn thẳng $AB$ dài bao nhiêu?
+
+## Dây của đường tròn
+
+### Khám phá: dây nào dài nhất?
+
+[[P2·fa34]]
+Trên đường tròn $(O; 5\text{ cm})$, nối hai điểm bất kì ta được một **dây**. Thử vài dây: dây cách tâm $4$ cm dài $6$ cm, dây cách tâm $3$ cm dài $8$ cm, dây đi qua tâm dài $10$ cm. Dây càng gần tâm càng dài, và dài nhất khi đi qua tâm.
+
+  :::definition Dây cung
+  Đoạn thẳng nối hai điểm phân biệt của một đường tròn gọi là **dây cung** (gọi tắt là **dây**). Dây đi qua tâm là đường kính.
+  :::
+
+  :::theorem Đường kính là dây lớn nhất
+  Trong các dây của một đường tròn, dây lớn nhất là đường kính.
+  :::
+
+[[P3·78b1]]
+**Vì sao?** Với dây $AB$ không đi qua tâm, xét tam giác $OAB$ ta có $AB<OA+OB=2R$. Nếu $AB$ đi qua tâm thì $AB=2R$.
+
+[[P4·b2ca]]
+Tam giác $OAB$ cân tại $O$ (vì $OA=OB=R$). Do đó nếu $H$ là chân đường vuông góc kẻ từ $O$ đến $AB$ thì $H$ là trung điểm của $AB$, và theo định lí Pythagore:
+
+  $$AB=2HA=2\sqrt{R^2-OH^2}.$$
+
+:::diagram Dây $AB$ và khoảng cách $OH$ từ tâm đến dây
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Tính độ dài dây
+  Cho đường tròn $(O; 10\text{ cm})$ và dây $AB$ cách $O$ một khoảng $6$ cm. Tính $AB$.
+
+  **Lời giải.** Kẻ $OH\perp AB$ tại $H$, ta có $OH=6$ cm và $H$ là trung điểm của $AB$ (tam giác $OAB$ cân tại $O$). Xét tam giác $OHA$ vuông tại $H$, ta có
+
+  $$HA=\sqrt{OA^2-OH^2}=\sqrt{10^2-6^2}=8\ \text{(cm)}.$$
+
+  Vậy $AB=2HA=16$ cm.
+  :::
+
+## Góc ở tâm và cung
+
+[[P5·7cfe]]
+Hai điểm $A$, $B$ trên đường tròn chia đường tròn thành hai **cung**, kí hiệu chung là $\overset{\frown}{AB}$. Để phân biệt, ta lấy thêm một điểm $M$ trên một cung và viết $\overset{\frown}{AMB}$.
+
+  :::definition Góc ở tâm, cung nhỏ, cung lớn
+  Góc có đỉnh trùng với tâm đường tròn gọi là **góc ở tâm**. Với góc ở tâm $\widehat{AOB}$ ($0^\circ<\widehat{AOB}<180^\circ$), cung nằm bên trong góc là **cung nhỏ**, cung còn lại là **cung lớn**; cung nhỏ $AB$ gọi là **cung bị chắn** bởi góc $\widehat{AOB}$. Nếu $AB$ là đường kính thì mỗi cung là một **nửa đường tròn**.
+  :::
+
+:::diagram Góc ở tâm $\widehat{AOB}$ chắn cung nhỏ $AB$
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Số đo cung
+
+  :::definition Số đo cung
+  - Số đo của cung nhỏ bằng số đo góc ở tâm chắn cung đó.
+  - Số đo của cung lớn bằng $360^\circ$ trừ số đo cung nhỏ có chung hai đầu mút.
+  - Số đo của nửa đường tròn bằng $180^\circ$; của cả đường tròn bằng $360^\circ$.
+
+  Số đo của cung $AB$ kí hiệu là $\text{sđ}\,\overset{\frown}{AB}$. Trong một đường tròn, hai cung bằng nhau nếu chúng có cùng số đo.
+  :::
+
+[[P6·91de]]
+Nếu điểm $C$ nằm trên cung $AB$ thì $\text{sđ}\,\overset{\frown}{AB}=\text{sđ}\,\overset{\frown}{AC}+\text{sđ}\,\overset{\frown}{CB}$ (vì góc ở tâm $\widehat{AOB}$ được chia thành hai góc).
+
+  :::example Cung nhỏ và cung lớn
+  Trên hình trên, $\widehat{AOB}=100^\circ$. Tính số đo cung nhỏ $AB$ và cung lớn $AMB$.
+
+  **Lời giải.** Ta có $\text{sđ}\,\overset{\frown}{AB}=\widehat{AOB}=100^\circ$ (số đo cung nhỏ bằng góc ở tâm chắn cung). Suy ra
+
+  $$\text{sđ}\,\overset{\frown}{AMB}=360^\circ-100^\circ=260^\circ.$$
+
+  Vậy cung nhỏ $AB$ có số đo $100^\circ$, cung lớn $AMB$ có số đo $260^\circ$.
+  :::
+
+[[P7·9959]]
+Bây giờ ta trả lời câu hỏi về chiếc đồng hồ ở đầu bài.
+
+  :::example Kim phút của đồng hồ
+  Kim phút $OA$ dài $15$ cm. Từ $7$ giờ đến $7$ giờ $20$ phút, đầu kim đi từ $A$ đến $B$. Tính $\text{sđ}\,\overset{\frown}{AB}$ (cung đầu kim đi qua) và độ dài $AB$ (làm tròn kết quả đến hàng phần trăm).
+
+  **Lời giải.** Mỗi phút kim phút quay $\dfrac{360^\circ}{60}=6^\circ$, nên trong $20$ phút kim quay $20\cdot6^\circ=120^\circ$. Do đó $\widehat{AOB}=120^\circ$ và $\text{sđ}\,\overset{\frown}{AB}=120^\circ$.
+
+  Kẻ $OH\perp AB$. Tam giác $OAB$ cân tại $O$ nên $OH$ vừa là đường cao vừa là tia phân giác, suy ra $\widehat{AOH}=60^\circ$. Xét tam giác $OHA$ vuông tại $H$, ta có
+
+  $$HA=OA\cdot\sin60^\circ=15\cdot\frac{\sqrt3}{2},\qquad AB=2HA=15\sqrt3\approx25{,}98\ \text{(cm)}.$$
+
+  Vậy cung có số đo $120^\circ$ và $AB\approx25{,}98$ cm.
+  :::
+
+[[P8·4af2]]
+Khi ba điểm chia đường tròn thành ba cung, ta dùng tính chất cộng số đo cung.
+
+  :::example Ba cung của một đường tròn
+  Ba điểm $A$, $B$, $C$ chia đường tròn $(O)$ thành ba cung $AB$, $BC$, $CA$ không chứa điểm còn lại, với $\text{sđ}\,\overset{\frown}{AB}=100^\circ$, $\text{sđ}\,\overset{\frown}{BC}=140^\circ$. Tính $\text{sđ}\,\overset{\frown}{CA}$ và số đo cung $ACB$.
+
+  **Lời giải.** Ba cung ghép lại thành cả đường tròn, nên
+
+  $$\text{sđ}\,\overset{\frown}{CA}=360^\circ-100^\circ-140^\circ=120^\circ,\qquad \text{sđ}\,\overset{\frown}{ACB}=\text{sđ}\,\overset{\frown}{BC}+\text{sđ}\,\overset{\frown}{CA}=260^\circ.$$
+
+  Vậy $\text{sđ}\,\overset{\frown}{CA}=120^\circ$ và $\text{sđ}\,\overset{\frown}{ACB}=260^\circ$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P9·9f3f]]
+- **Quên nhân đôi khi tính dây.** Sai: dây cách tâm $6$ cm của $(O; 10\text{ cm})$ dài $\sqrt{100-36}=8$ cm. Lí do sai: $8$ cm chỉ là nửa dây $HA$. Đúng: $AB=16$ cm.
+- **Lấy góc ở tâm làm số đo cung lớn.** Sai: $\widehat{AOB}=70^\circ$ nên cung lớn $AB$ có số đo $70^\circ$. Lí do sai: góc ở tâm chỉ bằng cung nhỏ. Đúng: cung lớn có số đo $290^\circ$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - dây cung | chord
+  - góc ở tâm | angle at the centre
+  - cung | arc
+  - cung nhỏ / cung lớn | minor arc / major arc
+  - cung bị chắn | intercepted arc
+  - nửa đường tròn | semicircle
+  - số đo cung | measure of an arc
+  :::
+
+## Tóm tắt
+
+[[P10·cedd]]
+- Dây nối hai điểm của đường tròn; đường kính là dây lớn nhất.
+- $OH\perp AB$ thì $H$ là trung điểm của $AB$ và $AB=2\sqrt{R^2-OH^2}$.
+- Số đo cung nhỏ bằng góc ở tâm chắn nó; cung lớn bằng $360^\circ$ trừ cung nhỏ; nửa đường tròn $180^\circ$.
+- $C$ nằm trên cung $AB$ thì $\text{sđ}\,\overset{\frown}{AB}=\text{sđ}\,\overset{\frown}{AC}+\text{sđ}\,\overset{\frown}{CB}$.
+
+## Luyện tập
+
+[[P11·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/arcs-and-chords – BẢN TIẾNG ANH ########
+---
+title: Arcs and chords of a circle
+description: Recognise chords, angles at the centre, minor and major arcs; find the length of a chord and the measure of an arc.
+minutes: 20
+---
+
+  :::goals
+  - Recognise a chord and know that a diameter is the longest chord.
+  - Find the length of a chord, or its distance from the centre, using Pythagoras' theorem.
+  - Recognise angles at the centre, minor and major arcs, and find the measure of an arc.
+  :::
+
+[[P1·8752]]
+The classroom clock has a minute hand $15$ cm long. From $7{:}00$ to $7{:}20$, its tip moves along an arc from $A$ to $B$. What is the measure of that arc? How long is the segment $AB$?
+
+## Chords of a circle
+
+### Explore: which chord is the longest?
+
+[[P2·aa51]]
+On the circle $(O, 5\text{ cm})$, joining two points gives a **chord**. A chord $4$ cm from the centre is $6$ cm long, one $3$ cm from the centre is $8$ cm long, and one through the centre is $10$ cm long. The closer to the centre, the longer the chord.
+
+  :::definition Chord
+  A segment joining two different points of a circle is called a **chord**. A chord through the centre is a diameter.
+  :::
+
+  :::theorem A diameter is the longest chord
+  Of all the chords of a circle, the longest is a diameter.
+  :::
+
+[[P3·08f9]]
+**Why?** For a chord $AB$ not through the centre, the triangle $OAB$ gives $AB<OA+OB=2R$. If $AB$ passes through the centre, then $AB=2R$.
+
+[[P4·4f5d]]
+The triangle $OAB$ is isosceles ($OA=OB=R$). Hence the foot $H$ of the perpendicular from $O$ to $AB$ is the midpoint of $AB$, and by Pythagoras' theorem:
+
+  $$AB=2HA=2\sqrt{R^2-OH^2}.$$
+
+:::diagram The chord $AB$ and its distance $OH$ from the centre
+   (… 13 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Finding the length of a chord
+  Consider the circle $(O, 10\text{ cm})$ and a chord $AB$ at distance $6$ cm from $O$. Find $AB$.
+
+  **Solution.** Draw $OH\perp AB$; then $OH=6$ cm and $H$ is the midpoint of $AB$ (the triangle $OAB$ is isosceles). In the triangle $OHA$, right-angled at $H$, we have
+
+  $$HA=\sqrt{OA^2-OH^2}=\sqrt{10^2-6^2}=8\ \text{(cm)}.$$
+
+  So $AB=2HA=16$ cm.
+  :::
+
+## Angles at the centre and arcs
+
+[[P5·d6a4]]
+Two points $A$, $B$ on a circle split it into two **arcs**, both written $\overset{\frown}{AB}$; to tell them apart, we name a point $M$ on one and write $\overset{\frown}{AMB}$.
+
+  :::definition Angle at the centre, minor arc, major arc
+  An angle whose vertex is the centre of the circle is called an **angle at the centre**. For an angle at the centre $\angle AOB$ ($0^\circ<\angle AOB<180^\circ$), the arc inside the angle is the **minor arc**, and the other arc is the **major arc**; the minor arc $AB$ is called the arc **subtended** by $\angle AOB$. If $AB$ is a diameter, each arc is a **semicircle**.
+  :::
+
+:::diagram The angle at the centre $\angle AOB$ subtending the minor arc $AB$
+   (… 9 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## The measure of an arc
+
+  :::definition The measure of an arc
+  - The measure of a minor arc equals the angle at the centre subtending it.
+  - The measure of a major arc is $360^\circ$ minus the measure of the minor arc with the same end points.
+  - A semicircle measures $180^\circ$; the whole circle measures $360^\circ$.
+
+  We write $\overset{\frown}{AB}=100^\circ$ for "the arc $AB$ measures $100^\circ$". In one circle, two arcs are equal if they have the same measure.
+  :::
+
+[[P6·4448]]
+If a point $C$ lies on the arc $AB$, then $\overset{\frown}{AB}=\overset{\frown}{AC}+\overset{\frown}{CB}$ (the angle $\angle AOB$ splits into two angles).
+
+  :::example Minor arc and major arc
+  In the figure above, $\angle AOB=100^\circ$. Find the measures of the minor arc $AB$ and the major arc $AMB$.
+
+  **Solution.** We have $\overset{\frown}{AB}=\angle AOB=100^\circ$ (a minor arc equals the angle at the centre subtending it). Hence
+
+  $$\overset{\frown}{AMB}=360^\circ-100^\circ=260^\circ.$$
+
+  So the minor arc $AB$ measures $100^\circ$ and the major arc $AMB$ measures $260^\circ$.
+  :::
+
+[[P7·9673]]
+Now we answer the question about the clock from the start.
+
+  :::example The minute hand of a clock
+  The minute hand $OA$ is $15$ cm long. From $7{:}00$ to $7{:}20$, its tip moves from $A$ to $B$. Find the measure of the arc $AB$ travelled by the tip and the length $AB$ (give your answer to 2 decimal places).
+
+  **Solution.** Each minute the minute hand turns $\dfrac{360^\circ}{60}=6^\circ$, so in $20$ minutes it turns $20\cdot6^\circ=120^\circ$. Hence $\angle AOB=120^\circ$ and $\overset{\frown}{AB}=120^\circ$.
+
+  Draw $OH\perp AB$. The triangle $OAB$ is isosceles, so $OH$ is also an angle bisector, hence $\angle AOH=60^\circ$. In the triangle $OHA$, right-angled at $H$, we have
+
+  $$HA=OA\cdot\sin60^\circ=15\cdot\frac{\sqrt3}{2},\qquad AB=2HA=15\sqrt3\approx25.98\ \text{(cm)}.$$
+
+  So the arc measures $120^\circ$ and $AB\approx25.98$ cm.
+  :::
+
+[[P8·d5ea]]
+When three points split a circle into three arcs, we add the measures of arcs.
+
+  :::example Three arcs of a circle
+  Three points $A$, $B$, $C$ split the circle $(O)$ into three arcs $AB$, $BC$, $CA$, none containing the third point, with $\overset{\frown}{AB}=100^\circ$ and $\overset{\frown}{BC}=140^\circ$. Find the measures of the arc $CA$ and the arc $ACB$.
+
+  **Solution.** The three arcs together make the whole circle, so
+
+  $$\overset{\frown}{CA}=360^\circ-100^\circ-140^\circ=120^\circ,\qquad \overset{\frown}{ACB}=\overset{\frown}{BC}+\overset{\frown}{CA}=260^\circ.$$
+
+  So the arc $CA$ measures $120^\circ$ and the arc $ACB$ measures $260^\circ$.
+  :::
+
+:::warning Common mistakes
+[[P9·3b16]]
+- **Forgetting to double for a chord.** Wrong: a chord $6$ cm from the centre of $(O, 10\text{ cm})$ has length $\sqrt{100-36}=8$ cm. Why it is wrong: $8$ cm is only half the chord, $HA$. Right: $AB=16$ cm.
+- **Using the angle at the centre for the major arc.** Wrong: $\angle AOB=70^\circ$, so the major arc $AB$ measures $70^\circ$. Why it is wrong: the angle equals the minor arc only. Right: the major arc measures $290^\circ$.
+:::
+
+## Key terms
+
+  :::terms
+  - chord | dây cung
+  - angle at the centre | góc ở tâm
+  - arc | cung
+  - minor arc / major arc | cung nhỏ / cung lớn
+  - subtended arc | cung bị chắn
+  - semicircle | nửa đường tròn
+  - measure of an arc | số đo cung
+  :::
+
+## Summary
+
+[[P10·7316]]
+- A chord joins two points of a circle; a diameter is the longest chord.
+- If $OH\perp AB$, then $H$ is the midpoint of $AB$ and $AB=2\sqrt{R^2-OH^2}$.
+- A minor arc equals the angle at the centre subtending it; a major arc is $360^\circ$ minus the minor arc; a semicircle is $180^\circ$.
+- If $C$ lies on the arc $AB$, then $\overset{\frown}{AB}=\overset{\frown}{AC}+\overset{\frown}{CB}$.
+
+## Practice
+
+[[P11·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/circumcircle-incircle – BẢN TIẾNG VIỆT ########
+---
+title: Đường tròn ngoại tiếp và đường tròn nội tiếp của một tam giác
+description: Xác định tâm và tính bán kính đường tròn ngoại tiếp, nội tiếp tam giác; trường hợp tam giác vuông, tam giác đều và các bài toán thực tế.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết đường tròn ngoại tiếp, đường tròn nội tiếp của một tam giác và giải thích vì sao tâm của chúng là giao điểm các đường trung trực, các đường phân giác.
+  - Tính bán kính đường tròn ngoại tiếp tam giác vuông, bán kính hai đường tròn của tam giác đều.
+  - Vận dụng vào các bài toán thực tế.
+  :::
+
+[[P1·340c]]
+Giả sử ba bản làng $A$, $B$, $C$ ở vùng núi muốn đặt chung một trạm phát sóng sao cho khoảng cách từ trạm đến ba bản **bằng nhau**, để không bản nào bị "thiệt". Đặt trạm ở đâu?
+
+[[P2·c101]]
+Một bài toán khác: từ một tấm gỗ hình tam giác, người thợ muốn cắt ra một mặt bàn tròn **lớn nhất**. Mép bàn phải chạm cả ba cạnh tấm gỗ, vì nếu còn hở một cạnh thì vẫn nới rộng được. Hai bài toán, hai đường tròn đặc biệt của tam giác.
+
+## Đường tròn ngoại tiếp tam giác
+
+### Khám phá: điểm cách đều ba đỉnh
+
+[[P3·85d4]]
+Điểm cách đều $A$ và $B$ nằm trên đường trung trực của $AB$; điểm cách đều $B$ và $C$ nằm trên đường trung trực của $BC$. Giao điểm $O$ của hai đường này có $OA=OB=OC$, nên $O$ cũng thuộc đường trung trực của $AC$. Đường tròn tâm $O$ bán kính $OA$ đi qua cả ba đỉnh.
+
+  :::definition Đường tròn ngoại tiếp tam giác
+  Đường tròn đi qua ba đỉnh của một tam giác gọi là **đường tròn ngoại tiếp** tam giác đó; tam giác gọi là **tam giác nội tiếp** đường tròn. Tâm của nó là giao điểm ba đường trung trực của tam giác.
+  :::
+
+[[P4·a02c]]
+Mỗi tam giác có đúng một đường tròn ngoại tiếp. Tâm $O$ nằm trong tam giác nếu tam giác nhọn, nằm ngoài nếu tam giác tù, và nằm trên cạnh huyền nếu tam giác vuông.
+
+:::diagram Đường tròn ngoại tiếp tam giác $ABC$
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Tam giác vuông
+
+[[P5·cdf8]]
+Nếu tam giác $ABC$ vuông tại $A$ thì $\widehat{BAC}=90^\circ$ là góc nội tiếp, nên nó chắn nửa đường tròn (bài [Góc nội tiếp](lesson:inscribed-angles)). Do đó:
+
+  :::theorem Đường tròn ngoại tiếp tam giác vuông
+  Tâm đường tròn ngoại tiếp tam giác vuông là trung điểm của cạnh huyền; bán kính bằng nửa cạnh huyền.
+  :::
+
+  :::example Vận dụng: đặt trạm phát sóng
+  Giả sử ba bản $A$, $B$, $C$ có $AB=6$ km, $AC=8$ km và $\widehat{BAC}=90^\circ$. Tìm vị trí đặt trạm cách đều ba bản và tính khoảng cách đó.
+
+  **Lời giải.**
+
+  *Hiểu đề.* Cần điểm cách đều ba đỉnh, tức tâm đường tròn ngoại tiếp tam giác $ABC$.
+
+  *Tìm cách giải.* Tam giác vuông tại $A$ nên tâm là trung điểm của cạnh huyền $BC$.
+
+  *Giải.* Xét tam giác $ABC$ vuông tại $A$, theo định lí Pythagore ta có
+
+  $$BC=\sqrt{6^2+8^2}=10\ \text{(km)}.$$
+
+  Gọi $O$ là trung điểm của $BC$, ta có $OA=OB=OC=\dfrac{BC}{2}=5$ km.
+
+  Vậy trạm đặt tại trung điểm của đoạn $BC$, cách mỗi bản $5$ km.
+
+  *Nhìn lại.* Nếu góc tại $A$ tù thì tâm nằm **ngoài** tam giác: trạm ở xa cả ba bản hơn cần thiết. Khi đó có thể chọn tiêu chí khác (chẳng hạn trạm ở trung điểm cạnh dài nhất và phủ sóng cả ba bản). Toán học trả lời đúng câu hỏi ta đặt ra, nên phải đặt câu hỏi cho đúng.
+  :::
+
+## Đường tròn nội tiếp tam giác
+
+[[P6·da63]]
+Điểm nằm trên tia phân giác của một góc thì cách đều hai cạnh của góc (lớp 7). Giao điểm $I$ của hai đường phân giác trong (tại $B$ và $C$) cách đều cả ba cạnh, nên $I$ cũng nằm trên phân giác của góc $A$.
+
+  :::definition Đường tròn nội tiếp tam giác
+  Đường tròn tiếp xúc với ba cạnh của một tam giác gọi là **đường tròn nội tiếp** tam giác; tam giác gọi là **tam giác ngoại tiếp** đường tròn. Tâm của nó là giao điểm ba đường phân giác trong của tam giác, luôn nằm bên trong tam giác.
+  :::
+
+[[P7·24b5]]
+Bán kính $r$ bằng khoảng cách từ $I$ đến mỗi cạnh. Các cạnh là tiếp tuyến, nên từ mỗi đỉnh hai đoạn tiếp tuyến bằng nhau (bài [Vị trí tương đối của đường thẳng và đường tròn](lesson:line-circle-positions)).
+
+:::diagram Đường tròn nội tiếp tam giác vuông $ABC$ có cạnh $3$, $4$, $5$
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example Bán kính đường tròn nội tiếp tam giác vuông
+  Cho tam giác $ABC$ vuông tại $A$ có $AB=4$ cm, $AC=3$ cm. Tính bán kính $r$ của đường tròn nội tiếp.
+
+  **Lời giải.** Ta có $BC=\sqrt{4^2+3^2}=5$ (cm). Gọi $D$, $E$, $F$ là tiếp điểm trên $AB$, $BC$, $CA$. Tứ giác $ADIF$ có ba góc vuông và $ID=IF=r$ nên là hình vuông, suy ra $AD=AF=r$. Theo tính chất hai tiếp tuyến cắt nhau, ta có $BD=BE$, $CE=CF$. Do đó
+
+  $$AB+AC-BC=(r+BD)+(r+CF)-(BE+CE)=2r.$$
+
+  Suy ra $r=\dfrac{4+3-5}{2}=1$ (cm).
+
+  Vậy bán kính đường tròn nội tiếp bằng $1$ cm.
+
+  **Nhận xét.** Công thức $r=\dfrac{b+c-a}{2}$ đúng cho mọi tam giác vuông với hai cạnh góc vuông $b$, $c$ và cạnh huyền $a$.
+  :::
+
+  :::example Vận dụng: mặt bàn tròn lớn nhất
+  Từ một tấm gỗ hình tam giác vuông có các cạnh $30$ cm, $40$ cm, $50$ cm, người thợ cắt một mặt bàn tròn lớn nhất. Tính bán kính mặt bàn và diện tích phần gỗ bỏ đi (làm tròn kết quả đến hàng đơn vị của cm²).
+
+  **Lời giải.** Mặt bàn lớn nhất là hình tròn nội tiếp tam giác. Ta có $30^2+40^2=50^2$ nên tam giác vuông, với cạnh huyền $50$ cm. Do đó
+
+  $$r=\frac{30+40-50}{2}=10\ \text{(cm)}.$$
+
+  Diện tích phần gỗ bỏ đi bằng diện tích tam giác trừ diện tích hình tròn:
+
+  $$\frac12\cdot30\cdot40-\pi\cdot10^2=600-100\pi\approx286\ \text{(cm}^2).$$
+
+  Vậy mặt bàn có bán kính $10$ cm và phần gỗ bỏ đi khoảng $286$ cm².
+  :::
+
+## Tam giác đều
+
+[[P8·772f]]
+Trong tam giác đều, mỗi đường trung trực cũng là đường phân giác, đường trung tuyến và đường cao. Vì vậy tâm đường tròn ngoại tiếp và tâm đường tròn nội tiếp **trùng nhau** tại trọng tâm $G$. Trọng tâm nằm trên trung tuyến, cách đỉnh $\dfrac23$ trung tuyến (lớp 7).
+
+  :::theorem Tam giác đều cạnh $a$
+  Đường cao (cũng là trung tuyến) dài $h=\dfrac{a\sqrt3}{2}$, nên
+  $$R=\frac23h=\frac{a\sqrt3}{3},\qquad r=\frac13h=\frac{a\sqrt3}{6},\qquad R=2r.$$
+  :::
+
+  :::example Tam giác đều cạnh $6$ cm
+  Tính bán kính đường tròn ngoại tiếp và đường tròn nội tiếp của tam giác đều cạnh $6$ cm.
+
+  **Lời giải.** Đường cao của tam giác là $h=\dfrac{6\sqrt3}{2}=3\sqrt3$ (cm). Tâm của hai đường tròn là trọng tâm $G$, do đó
+
+  $$R=\frac23\cdot3\sqrt3=2\sqrt3\approx3{,}46\ \text{(cm)},\qquad r=\frac13\cdot3\sqrt3=\sqrt3\approx1{,}73\ \text{(cm)}.$$
+
+  Vậy $R=2\sqrt3$ cm và $r=\sqrt3$ cm.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P9·fdce]]
+- **Nhầm hai loại tâm.** Tâm ngoại tiếp là giao các đường **trung trực** (cách đều ba đỉnh); tâm nội tiếp là giao các đường **phân giác** (cách đều ba cạnh).
+- **Lấy $R$ bằng cạnh huyền.** Sai: tam giác vuông có cạnh huyền $10$ cm nên $R=10$ cm. Đúng: $R=5$ cm (nửa cạnh huyền).
+- **Đảo $\dfrac23$ và $\dfrac13$ ở tam giác đều.** $R$ là đoạn từ tâm đến đỉnh (dài hơn), $r$ là đoạn từ tâm đến cạnh: $R=2r$.
+:::
+
+[[P10·a8fd]]
+**Kết nối.** Bài này gom nhiều kiến thức cũ: đường trung trực và phân giác (lớp 7), góc nội tiếp chắn nửa đường tròn, tính chất hai tiếp tuyến cắt nhau. Câu hỏi "đi qua ba điểm" sẽ mở rộng thành câu hỏi "bốn điểm có cùng nằm trên một đường tròn không?" ở bài [Tứ giác nội tiếp](lesson:cyclic-quadrilaterals), và tam giác đều là trường hợp đầu tiên của [đa giác đều](lesson:regular-polygons).
+
+## Thuật ngữ
+
+  :::terms
+  - đường tròn ngoại tiếp | circumcircle (circumscribed circle)
+  - đường tròn nội tiếp | incircle (inscribed circle)
+  - tâm đường tròn ngoại tiếp | circumcentre
+  - tâm đường tròn nội tiếp | incentre
+  - đường trung trực | perpendicular bisector
+  - đường phân giác | angle bisector
+  - trọng tâm | centroid
+  :::
+
+## Tóm tắt
+
+[[P11·82cb]]
+- Tâm ngoại tiếp $O$: giao ba đường trung trực, $OA=OB=OC=R$.
+- Tâm nội tiếp $I$: giao ba đường phân giác, cách đều ba cạnh một khoảng $r$.
+- Tam giác vuông: $O$ là trung điểm cạnh huyền, $R=\dfrac a2$; $r=\dfrac{b+c-a}{2}$.
+- Tam giác đều cạnh $a$: $R=\dfrac{a\sqrt3}{3}$, $r=\dfrac{a\sqrt3}{6}$, hai tâm trùng nhau.
+
+## Luyện tập
+
+[[P12·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 38 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g9/circumcircle-incircle – BẢN TIẾNG ANH ########
+---
+title: The circumcircle and incircle of a triangle
+description: Find the centre and radius of the circumcircle and incircle of a triangle, for right-angled and equilateral triangles and in real-life problems.
+minutes: 20
+---
+
+  :::goals
+  - Recognise the circumcircle and the incircle of a triangle and explain why their centres are where the perpendicular bisectors, and the angle bisectors, meet.
+  - Find the circumradius of a right-angled triangle and both radii of an equilateral triangle.
+  - Apply these ideas to real-life problems.
+  :::
+
+[[P1·8d6d]]
+Suppose three mountain villages $A$, $B$, $C$ want to share one phone mast placed at the **same distance** from all three villages, so that no village is "worse off". Where should the mast go?
+
+[[P2·8547]]
+Another problem: from a triangular wooden board, a carpenter wants to cut the **largest** round tabletop. Its edge must touch all three sides of the board, because if one side is not touched, the circle can still be enlarged. Two problems, two special circles of a triangle.
+
+## The circumcircle of a triangle
+
+### Explore: a point equidistant from three vertices
+
+[[P3·9890]]
+A point equidistant from $A$ and $B$ lies on the perpendicular bisector of $AB$; a point equidistant from $B$ and $C$ lies on the perpendicular bisector of $BC$. The point $O$ where these two lines meet has $OA=OB=OC$, so $O$ also lies on the perpendicular bisector of $AC$. The circle with centre $O$ and radius $OA$ passes through all three vertices.
+
+  :::definition Circumcircle of a triangle
+  The circle through the three vertices of a triangle is the **circumcircle** of the triangle; the triangle is **inscribed in** the circle. Its centre (the circumcentre) is the point where the three perpendicular bisectors of the triangle meet.
+  :::
+
+[[P4·9c62]]
+Every triangle has exactly one circumcircle. The centre $O$ lies inside the triangle if the triangle is acute, outside if it is obtuse, and on the hypotenuse if it is right-angled.
+
+:::diagram The circumcircle of the triangle $ABC$
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+### Right-angled triangles
+
+[[P5·67ae]]
+If the triangle $ABC$ is right-angled at $A$, then $\angle BAC=90^\circ$ is an inscribed angle, so it stands on a semicircle (lesson [Inscribed angles](lesson:inscribed-angles)). Hence:
+
+  :::theorem Circumcircle of a right-angled triangle
+  The circumcentre of a right-angled triangle is the midpoint of the hypotenuse; the circumradius is half the hypotenuse.
+  :::
+
+  :::example Application: placing a phone mast
+  Suppose three villages $A$, $B$, $C$ have $AB=6$ km, $AC=8$ km and $\angle BAC=90^\circ$. Find where to put a mast at the same distance from the three villages, and find that distance.
+
+  **Solution.**
+
+  *Understand.* We need a point equidistant from the three vertices, that is, the circumcentre of the triangle $ABC$.
+
+  *Plan.* The triangle is right-angled at $A$, so the centre is the midpoint of the hypotenuse $BC$.
+
+  *Solve.* In the triangle $ABC$, right-angled at $A$, Pythagoras' theorem gives
+
+  $$BC=\sqrt{6^2+8^2}=10\ \text{(km)}.$$
+
+  Let $O$ be the midpoint of $BC$; then $OA=OB=OC=\dfrac{BC}{2}=5$ km.
+
+  So the mast goes at the midpoint of $BC$, $5$ km from each village.
+
+  *Look back.* If the angle at $A$ were obtuse, the centre would lie **outside** the triangle: the mast would be further from all three villages than necessary. Then another criterion could be chosen (for instance, a mast at the midpoint of the longest side that still covers all three villages). Mathematics answers exactly the question we ask, so we must ask the right question.
+  :::
+
+## The incircle of a triangle
+
+[[P6·b9e6]]
+A point on the bisector of an angle is equidistant from the two arms of the angle (grade 7). The point $I$ where the internal bisectors at $B$ and $C$ meet is equidistant from all three sides, so $I$ also lies on the bisector of the angle at $A$.
+
+  :::definition Incircle of a triangle
+  The circle that touches the three sides of a triangle is the **incircle** of the triangle; the triangle is **circumscribed about** the circle. Its centre (the incentre) is the point where the three internal angle bisectors meet, and it always lies inside the triangle.
+  :::
+
+[[P7·fb03]]
+The radius $r$ is the distance from $I$ to each side. The sides are tangents, so the two tangent segments from each vertex are equal (lesson [Relative positions of a line and a circle](lesson:line-circle-positions)).
+
+:::diagram The incircle of the right-angled triangle $ABC$ with sides $3$, $4$, $5$
+   (… 16 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::example The inradius of a right-angled triangle
+  The triangle $ABC$ is right-angled at $A$, with $AB=4$ cm and $AC=3$ cm. Find the radius $r$ of its incircle.
+
+  **Solution.** We have $BC=\sqrt{4^2+3^2}=5$ (cm). Let $D$, $E$, $F$ be the points of contact on $AB$, $BC$, $CA$. The quadrilateral $ADIF$ has three right angles and $ID=IF=r$, so it is a square, hence $AD=AF=r$. By the property of two tangents from a point, $BD=BE$ and $CE=CF$. Hence
+
+  $$AB+AC-BC=(r+BD)+(r+CF)-(BE+CE)=2r.$$
+
+  So $r=\dfrac{4+3-5}{2}=1$ (cm).
+
+  So the radius of the incircle is $1$ cm.
+
+  **Remark.** The formula $r=\dfrac{b+c-a}{2}$ holds for every right-angled triangle with shorter sides $b$, $c$ and hypotenuse $a$.
+  :::
+
+  :::example Application: the largest round tabletop
+  From a wooden board in the shape of a right-angled triangle with sides $30$ cm, $40$ cm and $50$ cm, a carpenter cuts the largest round tabletop. Find the radius of the tabletop and the area of wood wasted (give your answer to the nearest cm²).
+
+  **Solution.** The largest tabletop is the disc inside the incircle of the triangle. We have $30^2+40^2=50^2$, so the triangle is right-angled with hypotenuse $50$ cm. Hence
+
+  $$r=\frac{30+40-50}{2}=10\ \text{(cm)}.$$
+
+  The wasted area is the area of the triangle minus the area of the disc:
+
+  $$\frac12\cdot30\cdot40-\pi\cdot10^2=600-100\pi\approx286\ \text{(cm}^2).$$
+
+  So the tabletop has radius $10$ cm and about $286$ cm² of wood is wasted.
+  :::
+
+## Equilateral triangles
+
+[[P8·d583]]
+In an equilateral triangle, each perpendicular bisector is also an angle bisector, a median and an altitude. So the circumcentre and the incentre **coincide** at the centroid $G$. The centroid lies on each median, two thirds of the way from the vertex (grade 7).
+
+  :::theorem Equilateral triangle with side $a$
+  The altitude (also a median) has length $h=\dfrac{a\sqrt3}{2}$, so
+  $$R=\frac23h=\frac{a\sqrt3}{3},\qquad r=\frac13h=\frac{a\sqrt3}{6},\qquad R=2r.$$
+  :::
+
+  :::example An equilateral triangle with side $6$ cm
+  Find the radii of the circumcircle and the incircle of an equilateral triangle with side $6$ cm.
+
+  **Solution.** The altitude of the triangle is $h=\dfrac{6\sqrt3}{2}=3\sqrt3$ (cm). Both centres are at the centroid $G$, hence
+
+  $$R=\frac23\cdot3\sqrt3=2\sqrt3\approx3.46\ \text{(cm)},\qquad r=\frac13\cdot3\sqrt3=\sqrt3\approx1.73\ \text{(cm)}.$$
+
+  So $R=2\sqrt3$ cm and $r=\sqrt3$ cm.
+  :::
+
+:::warning Common mistakes
+[[P9·1dae]]
+- **Mixing up the two centres.** The circumcentre is where the **perpendicular bisectors** meet (equidistant from the vertices); the incentre is where the **angle bisectors** meet (equidistant from the sides).
+- **Taking $R$ equal to the hypotenuse.** Wrong: the hypotenuse is $10$ cm, so $R=10$ cm. Right: $R=5$ cm (half the hypotenuse).
+- **Swapping $\dfrac23$ and $\dfrac13$ in an equilateral triangle.** $R$ goes from the centre to a vertex (longer), $r$ from the centre to a side: $R=2r$.
+:::
+
+[[P10·3d72]]
+**Connections.** This lesson pulls together earlier ideas: perpendicular bisectors and angle bisectors (grade 7), the angle in a semicircle, and two tangents from a point. The question "a circle through three points" grows into "do four points lie on one circle?" in [Cyclic quadrilaterals](lesson:cyclic-quadrilaterals), and the equilateral triangle is the first case of a [regular polygon](lesson:regular-polygons).
+
+## Key terms
+
+  :::terms
+  - circumcircle (circumscribed circle) | đường tròn ngoại tiếp
+  - incircle (inscribed circle) | đường tròn nội tiếp
+  - circumcentre | tâm đường tròn ngoại tiếp
+  - incentre | tâm đường tròn nội tiếp
+  - perpendicular bisector | đường trung trực
+  - angle bisector | đường phân giác
+  - centroid | trọng tâm
+  :::
+
+## Summary
+
+[[P11·ce10]]
+- Circumcentre $O$: where the three perpendicular bisectors meet, $OA=OB=OC=R$.
+- Incentre $I$: where the three angle bisectors meet, at distance $r$ from each side.
+- Right-angled triangle: $O$ is the midpoint of the hypotenuse, $R=\dfrac a2$; $r=\dfrac{b+c-a}{2}$.
+- Equilateral triangle with side $a$: $R=\dfrac{a\sqrt3}{3}$, $r=\dfrac{a\sqrt3}{6}$, and the two centres coincide.
+
+## Practice
+
+[[P12·67a0]]
+Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 22 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 30 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 38 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test

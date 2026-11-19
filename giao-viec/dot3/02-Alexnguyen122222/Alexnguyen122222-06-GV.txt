@@ -6,7 +6,7 @@ Kết quả: file Alexnguyen122222-06-GV-ketqua.md, lưu vào Dropbox Lemonmath.
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Alexnguyen122222-06-GV
-Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g2/multiples-of-10-and-100
+Gồm 3 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g2/comparing-multiples-of-10-100, g2/comparing-three-digit-numbers, g2/cylinders-and-spheres
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/Alexnguyen122222-06-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  /mnt/user-data/outputs/Alexnguyen122222-06-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/3). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file Alexnguyen122222-06-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,136 +135,145 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g2/multiples-of-10-and-100 – BẢN TIẾNG VIỆT ########
+######## BÀI g2/comparing-multiples-of-10-100 – BẢN TIẾNG VIỆT ########
 ---
-title: Các số tròn trăm, tròn chục
-description: Em nhận biết, đọc, viết và đếm thêm các số tròn chục từ 10 đến 90 và các số tròn trăm từ 100 đến 900.
+title: So sánh các số tròn trăm, tròn chục
+description: Em so sánh hai số tròn chục hoặc hai số tròn trăm bằng dấu lớn hơn, bé hơn, bằng, và sắp xếp các số từ bé đến lớn.
 minutes: 15
 ---
 
   :::goals
-  - Nhận biết, đọc và viết các số tròn chục, ví dụ $30$, $80$.
-  - Nhận biết, đọc và viết các số tròn trăm, ví dụ $400$, $900$.
-  - Đếm thêm $10$ và đếm thêm $100$.
+  - So sánh hai số tròn chục và hai số tròn trăm.
+  - Dùng đúng các dấu $>$, $<$, $=$.
+  - Sắp xếp các số tròn chục, tròn trăm từ bé đến lớn và từ lớn đến bé.
   :::
 
-[[P1·eeee]]
-Mỗi túi có $1$ chục viên kẹo. Mai có $6$ túi như vậy. Hỏi Mai có tất cả bao nhiêu viên kẹo?
+[[P1·da36]]
+Lan có $30$ viên bi. Nam có $50$ viên bi. Ai có nhiều bi hơn?
 
-[[P2·b81d]]
-Em đã biết $1$ chục là $10$ đơn vị. Bài này giúp em gọi tên và viết nhanh số kẹo của nhiều túi.
+[[P2·4fb9]]
+Em đã biết $30$ là $3$ chục và $50$ là $5$ chục. Bài này giúp em so sánh các số như vậy một cách nhanh và chắc chắn.
 
 ## Cùng khám phá
 
-[[P3·9514]]
-Em đếm thêm từng chục: $1$ chục, $2$ chục, $3$ chục, ... Mỗi lần thêm $1$ chục là thêm $10$.
+[[P3·8e61]]
+Số bi của Lan là $3$ chục, số bi của Nam là $5$ chục. Em so sánh số chục: $5$ lớn hơn $3$, nên $5$ chục lớn hơn $3$ chục.
 
-[[P4·fb2a]]
-- $1$ chục là $10$, $2$ chục là $20$, $3$ chục là $30$.
-- Cứ thế đến $9$ chục là $90$.
+[[P4·2907]]
+Em cũng thấy điều này trên tia số: số nào đứng bên phải thì lớn hơn.
 
-[[P5·3fa4]]
-Những số như $10, 20, 30, \dots, 90$ gọi là **số tròn chục**. Chữ số hàng đơn vị của chúng đều là $0$.
-
-:::graph Trên tia số: các số tròn chục từ 0 đến 100
-   (… 15 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::graph Trên tia số: 70 đứng bên phải 30 nên 70 lớn hơn 30
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-[[P6·4fb1]]
-Làm tương tự với trăm: $1$ trăm là $100$, $2$ trăm là $200$, ..., $9$ trăm là $900$. Những số này gọi là **số tròn trăm**. Hai chữ số cuối của chúng đều là $0$.
+[[P5·c639]]
+Ta dùng dấu để ghi kết quả so sánh:
 
-  :::theorem Số tròn chục, số tròn trăm
-  - $n$ chục viết là $n$ rồi thêm một chữ số $0$. Ví dụ: $4$ chục là $40$.
-  - $n$ trăm viết là $n$ rồi thêm hai chữ số $0$. Ví dụ: $4$ trăm là $400$.
+[[P6·6465]]
+- $50>30$ đọc là "năm mươi lớn hơn ba mươi".
+- $30<50$ đọc là "ba mươi bé hơn năm mươi".
+- $50=50$ đọc là "năm mươi bằng năm mươi".
+
+[[P7·ceaa]]
+Đầu nhọn của dấu $>$ hoặc $<$ luôn quay về phía số bé hơn.
+
+  :::theorem Cách so sánh
+  - Hai số tròn chục: số nào có nhiều chục hơn thì lớn hơn.
+  - Hai số tròn trăm: số nào có nhiều trăm hơn thì lớn hơn.
+  - Hai số có số chục (hoặc số trăm) bằng nhau thì bằng nhau.
   :::
 
-[[P7·d06e]]
-Cách viết này đúng vì $4$ chục là $10+10+10+10=40$, còn $4$ trăm là $100+100+100+100=400$.
+[[P8·7e8b]]
+Cách này đúng vì mỗi chục có $10$ đơn vị, nên nhiều chục hơn thì có nhiều đơn vị hơn. Với trăm cũng vậy.
 
 ## Ví dụ
 
-[[P8·faf8]]
-Ta bắt đầu với số tròn chục.
+[[P9·3b7e]]
+Ta bắt đầu với hai số tròn chục.
 
-  :::example Viết số tròn chục
-  Viết số cho $3$ chục và $8$ chục.
+  :::example So sánh số tròn chục
+  So sánh $30$ và $50$.
 
-  **Lời giải.** Viết số chục rồi thêm chữ số $0$:
-  $$3\text{ chục}=30,\qquad 8\text{ chục}=80.$$
-  Vậy $3$ chục là $30$ và $8$ chục là $80$.
+  **Lời giải.** $30$ là $3$ chục, $50$ là $5$ chục. Vì $3<5$ nên $3$ chục bé hơn $5$ chục:
+  $$30<50.$$
+  Vậy $30<50$, tức là Nam có nhiều bi hơn Lan.
   :::
 
-[[P9·b308]]
-Bây giờ em đếm thêm $10$ để điền số còn thiếu.
+[[P10·4c71]]
+Bây giờ ta so sánh hai số tròn trăm.
 
-  :::example Đếm thêm 10
-  Điền số còn thiếu: $20, 30, \square, 50, \square$.
+  :::example So sánh số tròn trăm
+  So sánh $600$ và $400$.
 
-  **Lời giải.** Mỗi số hơn số đứng trước $10$ đơn vị. Sau $30$ là $40$, sau $50$ là $60$:
-  $$20, 30, 40, 50, 60.$$
-  Vậy hai số còn thiếu là $40$ và $60$.
+  **Lời giải.** $600$ là $6$ trăm, $400$ là $4$ trăm. Vì $6>4$ nên $6$ trăm lớn hơn $4$ trăm:
+  $$600>400.$$
+  Vậy $600>400$.
   :::
 
-[[P10·a91b]]
-Tiếp theo là số tròn trăm.
+[[P11·2f3b]]
+Tiếp theo ta sắp xếp nhiều số theo thứ tự.
 
-  :::example Viết số tròn trăm
-  Viết số cho $4$ trăm. Số $700$ có mấy trăm?
+  :::example Xếp từ bé đến lớn
+  Xếp các số $80, 20, 50$ theo thứ tự từ bé đến lớn.
 
-  **Lời giải.** $4$ trăm viết là $4$ rồi thêm hai chữ số $0$, được $400$. Ngược lại, $700$ là $7$ trăm.
-
-  Vậy $4$ trăm là $400$ và $700$ là $7$ trăm.
+  **Lời giải.** Em đổi ra chục: $8$ chục, $2$ chục, $5$ chục. Số chục từ bé đến lớn là $2, 5, 8$:
+  $$20<50<80.$$
+  Vậy thứ tự từ bé đến lớn là $20, 50, 80$.
   :::
 
-[[P11·33d3]]
-Cuối cùng em dùng số tròn chục trong một bài toán.
+[[P12·4fea]]
+Cuối cùng em dùng so sánh trong một bài toán.
 
-  :::example Túi kẹo
-  Mỗi túi có $1$ chục viên kẹo. Mai có $6$ túi. Hỏi Mai có bao nhiêu viên kẹo?
+  :::example Hộp bút
+  Hộp A có $40$ chiếc bút, hộp B có $70$ chiếc bút. Hộp nào có nhiều bút hơn?
 
-  **Lời giải.** $6$ túi, mỗi túi $1$ chục, là $6$ chục kẹo. $6$ chục là $60$.
+  **Lời giải.** So sánh $40$ và $70$. $4$ chục bé hơn $7$ chục, nên $40<70$.
 
-  Vậy Mai có $60$ viên kẹo.
+  Vậy hộp B có nhiều bút hơn.
   :::
 
 :::warning Những lỗi em hay gặp
-[[P12·c077]]
-- **Quên chữ số 0.** Sai: "$4$ chục là $4$". Vì sao sai: $4$ chục là bốn nhóm $10$. Đúng: $4$ chục là $40$.
-- **Nhầm số tròn chục với số tròn trăm.** Sai: "$6$ trăm là $60$". Vì sao sai: $60$ là $6$ chục. Đúng: $6$ trăm là $600$.
-- **Cho rằng mọi số đều tròn chục.** Sai: "$35$ là số tròn chục". Vì sao sai: chữ số cuối của $35$ là $5$, không phải $0$. Đúng: $35$ không phải số tròn chục.
+[[P13·7cc1]]
+- **Quên đầu nhọn quay về số bé.** Sai: $30>50$. Vì sao sai: $30$ bé hơn $50$. Đúng: $30<50$.
+- **So sánh chữ số đầu của số tròn chục với số tròn trăm.** Sai: "$90>100$ vì $9>1$". Vì sao sai: $100$ là $10$ chục, nhiều hơn $9$ chục. Đúng: $90<100$.
+- **Nghĩ $50$ bằng $500$ vì cùng chữ số $5$.** Sai: $50=500$. Vì sao sai: $50$ là $5$ chục, $500$ là $5$ trăm. Đúng: $50<500$.
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - số tròn chục | multiple of 10
-  - số tròn trăm | multiple of 100
-  - đếm thêm | count on
+  - so sánh | compare
+  - lớn hơn | greater than
+  - bé hơn | less than
+  - bằng | equal to
+  - từ bé đến lớn | in order, smallest first
+  - từ lớn đến bé | in order, largest first
   - tia số | number line
-  - chữ số | digit
-  - đọc số | read a number
-  - viết số | write a number
   :::
 
 ## Tóm tắt
 
-[[P13·5bb2]]
-- Số tròn chục: $10, 20, 30, \dots, 90$ (chữ số cuối là $0$).
-- Số tròn trăm: $100, 200, 300, \dots, 900$ (hai chữ số cuối là $0$).
-- $4$ chục là $40$; $4$ trăm là $400$.
-- Đếm thêm $10$ được số tròn chục kế tiếp; đếm thêm $100$ được số tròn trăm kế tiếp.
+[[P14·aa6f]]
+- Số tròn chục: so sánh số chục. Số tròn trăm: so sánh số trăm.
+- Dấu $>$ đọc là lớn hơn, $<$ đọc là bé hơn, $=$ đọc là bằng; đầu nhọn quay về số bé.
+- Trên tia số, số đứng bên phải thì lớn hơn.
+- Sắp xếp từ bé đến lớn: bắt đầu từ số bé nhất.
 
 ## Luyện tập
 
-[[P14·824d]]
+[[P15·824d]]
 Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -273,10 +282,6 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 
 :::exercise
    (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -298,136 +303,145 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 
-######## BÀI g2/multiples-of-10-and-100 – BẢN TIẾNG ANH ########
+######## BÀI g2/comparing-multiples-of-10-100 – BẢN TIẾNG ANH ########
 ---
-title: Multiples of 10 and 100
-description: Recognise, read, write and count on in the multiples of 10 from 10 to 90 and the multiples of 100 from 100 to 900.
+title: Comparing multiples of 10 and 100
+description: Compare two multiples of 10 or two multiples of 100 using greater than, less than and equal to, and put numbers in order from smallest to largest.
 minutes: 15
 ---
 
   :::goals
-  - Recognise, read and write multiples of 10, for example $30$ and $80$.
-  - Recognise, read and write multiples of 100, for example $400$ and $900$.
-  - Count on in tens and in hundreds.
+  - Compare two multiples of 10 and two multiples of 100.
+  - Use the signs $>$, $<$ and $=$ correctly.
+  - Put multiples of 10 and 100 in order, smallest first and largest first.
   :::
 
-[[P1·7089]]
-Each bag holds $1$ ten sweets. Mai has $6$ such bags. How many sweets does Mai have altogether?
+[[P1·37fc]]
+Lan has $30$ marbles. Nam has $50$ marbles. Who has more marbles?
 
-[[P2·8374]]
-You already know that $1$ ten is $10$ ones. This lesson helps you name and write the number of sweets in many bags quickly.
+[[P2·097c]]
+You know that $30$ is $3$ tens and $50$ is $5$ tens. This lesson helps you compare numbers like these quickly and surely.
 
 ## Let's explore
 
-[[P3·f0e6]]
-Count on one ten at a time: $1$ ten, $2$ tens, $3$ tens, ... Each time we add $1$ ten, we add $10$.
+[[P3·4da5]]
+Lan has $3$ tens of marbles and Nam has $5$ tens. We compare the tens: $5$ is greater than $3$, so $5$ tens is greater than $3$ tens.
 
-[[P4·f7b5]]
-- $1$ ten is $10$, $2$ tens are $20$, $3$ tens are $30$.
-- Keep going to $9$ tens, which is $90$.
+[[P4·9c44]]
+You can also see this on a number line: the number further to the right is greater.
 
-[[P5·b217]]
-Numbers like $10, 20, 30, \dots, 90$ are called **multiples of 10**. Their last digit is always $0$.
-
-:::graph On the number line: the multiples of 10 from 0 to 100
-   (… 15 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::graph On the number line: 70 is to the right of 30, so 70 is greater than 30
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-[[P6·9b02]]
-Do the same with hundreds: $1$ hundred is $100$, $2$ hundreds are $200$, ..., $9$ hundreds are $900$. These are called **multiples of 100**. Their last two digits are always $0$.
+[[P5·f8a5]]
+We use signs to write the result of a comparison:
 
-  :::theorem Multiples of 10 and 100
-  - $n$ tens is written as $n$ followed by one $0$. Example: $4$ tens is $40$.
-  - $n$ hundreds is written as $n$ followed by two $0$s. Example: $4$ hundreds is $400$.
+[[P6·031c]]
+- $50>30$ is read "fifty is greater than thirty".
+- $30<50$ is read "thirty is less than fifty".
+- $50=50$ is read "fifty is equal to fifty".
+
+[[P7·c6cb]]
+The pointed end of $>$ or $<$ always points to the smaller number.
+
+  :::theorem How to compare
+  - Two multiples of 10: the one with more tens is greater.
+  - Two multiples of 100: the one with more hundreds is greater.
+  - If the number of tens (or hundreds) is the same, the numbers are equal.
   :::
 
-[[P7·6cad]]
-This works because $4$ tens is $10+10+10+10=40$, and $4$ hundreds is $100+100+100+100=400$.
+[[P8·86a8]]
+This works because each ten has $10$ ones, so more tens means more ones. The same is true for hundreds.
 
 ## Examples
 
-[[P8·89df]]
-We start with multiples of 10.
+[[P9·eb90]]
+We start with two multiples of 10.
 
-  :::example Writing multiples of 10
-  Write the number for $3$ tens and for $8$ tens.
+  :::example Comparing multiples of 10
+  Compare $30$ and $50$.
 
-  **Solution.** Write the number of tens, then add a $0$:
-  $$3\text{ tens}=30,\qquad 8\text{ tens}=80.$$
-  So $3$ tens is $30$ and $8$ tens is $80$.
+  **Solution.** $30$ is $3$ tens and $50$ is $5$ tens. Since $3<5$, $3$ tens is less than $5$ tens:
+  $$30<50.$$
+  So $30<50$, which means Nam has more marbles than Lan.
   :::
 
-[[P9·6bca]]
-Now you count on in tens to fill in a missing number.
+[[P10·9828]]
+Now we compare two multiples of 100.
 
-  :::example Counting on in tens
-  Fill in the missing numbers: $20, 30, \square, 50, \square$.
+  :::example Comparing multiples of 100
+  Compare $600$ and $400$.
 
-  **Solution.** Each number is $10$ more than the one before. After $30$ comes $40$, and after $50$ comes $60$:
-  $$20, 30, 40, 50, 60.$$
-  So the missing numbers are $40$ and $60$.
+  **Solution.** $600$ is $6$ hundreds and $400$ is $4$ hundreds. Since $6>4$, $6$ hundreds is greater than $4$ hundreds:
+  $$600>400.$$
+  So $600>400$.
   :::
 
-[[P10·e120]]
-Next come the multiples of 100.
+[[P11·a983]]
+Next we put several numbers in order.
 
-  :::example Writing multiples of 100
-  Write the number for $4$ hundreds. How many hundreds is $700$?
+  :::example Smallest first
+  Put the numbers $80, 20, 50$ in order, smallest first.
 
-  **Solution.** $4$ hundreds is $4$ followed by two $0$s, which is $400$. The other way round, $700$ is $7$ hundreds.
-
-  So $4$ hundreds is $400$ and $700$ is $7$ hundreds.
+  **Solution.** Change to tens: $8$ tens, $2$ tens, $5$ tens. The tens in order from smallest are $2, 5, 8$:
+  $$20<50<80.$$
+  So the order from smallest to largest is $20, 50, 80$.
   :::
 
-[[P11·2944]]
-Finally you use a multiple of 10 in a problem.
+[[P12·2d23]]
+Finally you use comparing in a problem.
 
-  :::example Bags of sweets
-  Each bag holds $1$ ten sweets. Mai has $6$ bags. How many sweets does she have?
+  :::example Boxes of pens
+  Box A has $40$ pens and box B has $70$ pens. Which box has more pens?
 
-  **Solution.** $6$ bags with $1$ ten each make $6$ tens of sweets. $6$ tens is $60$.
+  **Solution.** Compare $40$ and $70$. $4$ tens is less than $7$ tens, so $40<70$.
 
-  So Mai has $60$ sweets.
+  So box B has more pens.
   :::
 
 :::warning Mistakes to watch out for
-[[P12·b962]]
-- **Forgetting the $0$.** Wrong: "$4$ tens is $4$". Why it is wrong: $4$ tens is four groups of $10$. Right: $4$ tens is $40$.
-- **Mixing up tens and hundreds.** Wrong: "$6$ hundreds is $60$". Why it is wrong: $60$ is $6$ tens. Right: $6$ hundreds is $600$.
-- **Thinking every number is a multiple of 10.** Wrong: "$35$ is a multiple of 10". Why it is wrong: the last digit of $35$ is $5$, not $0$. Right: $35$ is not a multiple of 10.
+[[P13·5488]]
+- **Forgetting that the pointed end faces the smaller number.** Wrong: $30>50$. Why it is wrong: $30$ is less than $50$. Right: $30<50$.
+- **Comparing the first digits of a multiple of 10 and a multiple of 100.** Wrong: "$90>100$ because $9>1$". Why it is wrong: $100$ is $10$ tens, which is more than $9$ tens. Right: $90<100$.
+- **Thinking $50$ equals $500$ because both have a $5$.** Wrong: $50=500$. Why it is wrong: $50$ is $5$ tens and $500$ is $5$ hundreds. Right: $50<500$.
 :::
 
 ## Key terms
 
   :::terms
-  - multiple of 10 | số tròn chục
-  - multiple of 100 | số tròn trăm
-  - count on | đếm thêm
+  - compare | so sánh
+  - greater than | lớn hơn
+  - less than | bé hơn
+  - equal to | bằng
+  - in order, smallest first | từ bé đến lớn
+  - in order, largest first | từ lớn đến bé
   - number line | tia số
-  - digit | chữ số
-  - read a number | đọc số
-  - write a number | viết số
   :::
 
 ## Summary
 
-[[P13·139e]]
-- Multiples of 10: $10, 20, 30, \dots, 90$ (the last digit is $0$).
-- Multiples of 100: $100, 200, 300, \dots, 900$ (the last two digits are $0$).
-- $4$ tens is $40$; $4$ hundreds is $400$.
-- Counting on $10$ gives the next multiple of 10; counting on $100$ gives the next multiple of 100.
+[[P14·281f]]
+- Multiples of 10: compare the tens. Multiples of 100: compare the hundreds.
+- $>$ is read greater than, $<$ is read less than, $=$ is read equal to; the pointed end faces the smaller number.
+- On a number line, the number further to the right is greater.
+- To order smallest first, start with the smallest number.
 
 ## Practice
 
-[[P14·2a6a]]
+[[P15·2a6a]]
 Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
 
 :::exercise
-   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -436,6 +450,494 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 
 :::exercise
    (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/comparing-three-digit-numbers – BẢN TIẾNG VIỆT ########
+---
+title: So sánh các số có ba chữ số
+description: Em so sánh hai số có ba chữ số bằng cách so sánh từng hàng từ trái sang phải, dùng các dấu lớn hơn, bé hơn, bằng và xếp các số theo thứ tự.
+minutes: 15
+---
+
+  :::goals
+  - So sánh hai số có ba chữ số bằng cách so sánh từng hàng từ trái sang phải.
+  - Dùng đúng các dấu $>$, $<$, $=$.
+  - Sắp xếp các số có ba chữ số từ bé đến lớn và từ lớn đến bé.
+  :::
+
+[[P1·83d0]]
+Trường A có $428$ học sinh. Trường B có $482$ học sinh. Trường nào đông học sinh hơn?
+
+[[P2·2057]]
+Em đã biết cách viết số có ba chữ số thành tổng. Bài này giúp em so sánh hai số có ba chữ số một cách nhanh và đúng.
+
+## Cùng khám phá
+
+[[P3·55dd]]
+Ta viết hai số thành tổng:
+  $$428=400+20+8,\qquad 482=400+80+2.$$
+
+[[P4·ab8c]]
+Hai số có cùng $4$ trăm. Ta so sánh tiếp hàng chục: $2$ chục bé hơn $8$ chục. Vậy $428<482$.
+
+[[P5·5ca1]]
+Trên tia số, số nào đứng bên phải thì lớn hơn:
+
+:::graph Trên tia số: 378 đứng bên phải 352 nên 378 lớn hơn 352
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem Cách so sánh hai số có ba chữ số
+  So sánh từng hàng từ trái sang phải:
+  1. So sánh hàng trăm. Số nào có nhiều trăm hơn thì lớn hơn.
+  2. Nếu hàng trăm bằng nhau, so sánh hàng chục.
+  3. Nếu hàng chục cũng bằng nhau, so sánh hàng đơn vị.
+  4. Nếu cả ba hàng bằng nhau thì hai số bằng nhau.
+  :::
+
+[[P6·1f24]]
+Ta bắt đầu từ hàng trăm vì một trăm lớn hơn bất kì số chục hay đơn vị nào đi kèm: $1$ trăm là $10$ chục, nhiều hơn $9$ chục.
+
+## Ví dụ
+
+[[P7·9446]]
+Ta bắt đầu với hai số khác nhau ở hàng trăm.
+
+  :::example So sánh hàng trăm
+  So sánh $476$ và $534$.
+
+  **Lời giải.** Hàng trăm: $4$ và $5$. Vì $4<5$ nên số thứ nhất bé hơn, không cần xét hàng chục và hàng đơn vị:
+  $$476<534.$$
+  Vậy $476<534$.
+  :::
+
+[[P8·0343]]
+Bây giờ hai số có cùng hàng trăm.
+
+  :::example So sánh hàng chục
+  So sánh $352$ và $378$.
+
+  **Lời giải.** Hàng trăm: $3$ và $3$, bằng nhau. Hàng chục: $5$ và $7$. Vì $5<7$ nên:
+  $$352<378.$$
+  Vậy $352<378$.
+  :::
+
+[[P9·ebf3]]
+Tiếp theo hai số có cùng hàng trăm và hàng chục.
+
+  :::example So sánh hàng đơn vị
+  So sánh $641$ và $647$.
+
+  **Lời giải.** Hàng trăm: $6$ và $6$. Hàng chục: $4$ và $4$. Hàng đơn vị: $1$ và $7$. Vì $1<7$ nên:
+  $$641<647.$$
+  Vậy $641<647$.
+  :::
+
+[[P10·0f33]]
+Cuối cùng em sắp xếp nhiều số theo thứ tự.
+
+  :::example Xếp thứ tự
+  Xếp các số $325, 235, 253$ từ bé đến lớn.
+
+  **Lời giải.** Hàng trăm: $3, 2, 2$. Số $325$ có hàng trăm lớn nhất. Hai số còn lại có hàng trăm bằng nhau, so tiếp hàng chục: $3$ và $5$, nên $235<253$:
+  $$235<253<325.$$
+  Vậy thứ tự từ bé đến lớn là $235, 253, 325$.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P11·05c0]]
+- **So sánh hàng đơn vị trước.** Sai: "$349>351$ vì $9>1$". Vì sao sai: phải so sánh hàng trăm trước. Hàng trăm $3$ và $3$ bằng nhau, hàng chục $4<5$. Đúng: $349<351$.
+- **Quên so sánh hàng tiếp theo khi hàng trước bằng nhau.** Sai: "$352=358$ vì cùng $35$". Vì sao sai: hàng đơn vị $2<8$. Đúng: $352<358$.
+- **Quay sai đầu nhọn của dấu.** Sai: $476>534$. Vì sao sai: đầu nhọn quay về số bé hơn. Đúng: $476<534$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - so sánh | compare
+  - lớn hơn | greater than
+  - bé hơn | less than
+  - bằng | equal to
+  - hàng trăm | hundreds place
+  - từ bé đến lớn | in order, smallest first
+  - từ lớn đến bé | in order, largest first
+  :::
+
+## Tóm tắt
+
+[[P12·e36b]]
+- So sánh từng hàng từ trái sang phải: trăm, rồi chục, rồi đơn vị.
+- Hàng nào khác nhau đầu tiên thì quyết định số nào lớn hơn.
+- Đầu nhọn của dấu $>$ hoặc $<$ quay về số bé hơn.
+- Xếp từ bé đến lớn: bắt đầu từ số bé nhất.
+
+## Luyện tập
+
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/comparing-three-digit-numbers – BẢN TIẾNG ANH ########
+---
+title: Comparing three-digit numbers
+description: Compare two three-digit numbers by comparing the places from left to right, use the signs greater than, less than and equal to, and put numbers in order.
+minutes: 15
+---
+
+  :::goals
+  - Compare two three-digit numbers by comparing the places from left to right.
+  - Use the signs $>$, $<$ and $=$ correctly.
+  - Put three-digit numbers in order, smallest first and largest first.
+  :::
+
+[[P1·0871]]
+School A has $428$ pupils. School B has $482$ pupils. Which school has more pupils?
+
+[[P2·8ff0]]
+You know how to write a three-digit number as a sum. This lesson shows you how to compare two three-digit numbers quickly and correctly.
+
+## Let's explore
+
+[[P3·378c]]
+We write both numbers as sums:
+  $$428=400+20+8,\qquad 482=400+80+2.$$
+
+[[P4·6180]]
+Both have $4$ hundreds. We compare the tens next: $2$ tens is less than $8$ tens. So $428<482$.
+
+[[P5·ea83]]
+On a number line, the number further to the right is greater:
+
+:::graph On the number line: 378 is to the right of 352, so 378 is greater than 352
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+  :::theorem How to compare two three-digit numbers
+  Compare the places from left to right:
+  1. Compare the hundreds. The number with more hundreds is greater.
+  2. If the hundreds are equal, compare the tens.
+  3. If the tens are also equal, compare the ones.
+  4. If all three places are equal, the numbers are equal.
+  :::
+
+[[P6·9360]]
+We start with the hundreds because one hundred is more than any tens or ones that go with it: $1$ hundred is $10$ tens, which is more than $9$ tens.
+
+## Examples
+
+[[P7·2c8c]]
+We start with two numbers that differ in the hundreds.
+
+  :::example Comparing the hundreds
+  Compare $476$ and $534$.
+
+  **Solution.** Hundreds: $4$ and $5$. Since $4<5$, the first number is less, and we do not need the tens or ones:
+  $$476<534.$$
+  So $476<534$.
+  :::
+
+[[P8·5b41]]
+Now two numbers with the same hundreds.
+
+  :::example Comparing the tens
+  Compare $352$ and $378$.
+
+  **Solution.** Hundreds: $3$ and $3$, equal. Tens: $5$ and $7$. Since $5<7$:
+  $$352<378.$$
+  So $352<378$.
+  :::
+
+[[P9·d2ad]]
+Next, two numbers with the same hundreds and the same tens.
+
+  :::example Comparing the ones
+  Compare $641$ and $647$.
+
+  **Solution.** Hundreds: $6$ and $6$. Tens: $4$ and $4$. Ones: $1$ and $7$. Since $1<7$:
+  $$641<647.$$
+  So $641<647$.
+  :::
+
+[[P10·db55]]
+Finally you put several numbers in order.
+
+  :::example Putting in order
+  Put the numbers $325, 235, 253$ in order, smallest first.
+
+  **Solution.** Hundreds: $3, 2, 2$. The number $325$ has the most hundreds. The other two have equal hundreds, so compare the tens: $3$ and $5$, so $235<253$:
+  $$235<253<325.$$
+  So the order from smallest to largest is $235, 253, 325$.
+  :::
+
+:::warning Mistakes to watch out for
+[[P11·3eb4]]
+- **Comparing the ones first.** Wrong: "$349>351$ because $9>1$". Why it is wrong: we must compare the hundreds first. The hundreds $3$ and $3$ are equal, and the tens $4<5$. Right: $349<351$.
+- **Not comparing the next place when the first are equal.** Wrong: "$352=358$ because both start with $35$". Why it is wrong: the ones $2<8$. Right: $352<358$.
+- **Turning the sign the wrong way.** Wrong: $476>534$. Why it is wrong: the pointed end faces the smaller number. Right: $476<534$.
+:::
+
+## Key terms
+
+  :::terms
+  - compare | so sánh
+  - greater than | lớn hơn
+  - less than | bé hơn
+  - equal to | bằng
+  - hundreds place | hàng trăm
+  - in order, smallest first | từ bé đến lớn
+  - in order, largest first | từ lớn đến bé
+  :::
+
+## Summary
+
+[[P12·a73f]]
+- Compare place by place from left to right: hundreds, then tens, then ones.
+- The first place that differs decides which number is greater.
+- The pointed end of $>$ or $<$ faces the smaller number.
+- To order smallest first, start with the smallest number.
+
+## Practice
+
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/cylinders-and-spheres – BẢN TIẾNG VIỆT ########
+---
+title: Khối trụ, khối cầu
+description: Em nhận biết khối trụ và khối cầu qua đồ vật quen thuộc, đếm mặt phẳng, mặt cong và biết vật nào lăn được, vật nào xếp chồng được.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết khối trụ và khối cầu trong các đồ vật quanh em.
+  - Nói được khối trụ có $2$ mặt phẳng và $1$ mặt cong, khối cầu chỉ có mặt cong.
+  - Biết vì sao lon sữa xếp chồng được còn quả bóng thì không.
+  :::
+
+[[P1·c3ef]]
+Lan đặt một quả bóng và một lon sữa lên mặt bàn hơi nghiêng. Quả bóng lăn đi rất nhanh. Lon sữa nằm ngang cũng lăn, nhưng khi dựng đứng lên thì đứng yên.
+
+[[P2·f47c]]
+Vì sao hai vật này khác nhau? Hôm nay em sẽ tìm câu trả lời qua hai loại khối mới.
+
+## Cùng khám phá
+
+[[P3·1fc1]]
+Em hãy cầm một lon sữa. Sờ vào hai đầu: đầu trên và đầu dưới đều phẳng. Sờ xung quanh thân lon: chỗ này cong.
+
+![Một lon sữa hình trụ và một quả bóng hình cầu](/assets/img/g2/g2-cylinders-and-spheres-01.svg)
+
+[[P4·6bfc]]
+Bây giờ em cầm một quả bóng. Sờ khắp quả bóng: chỗ nào cũng cong, không có chỗ nào phẳng.
+
+[[P5·95bb]]
+Ta ghi lại những điều vừa thấy vào bảng:
+
+| | Lon sữa | Quả bóng |
+|---|---|---|
+| Số mặt phẳng | $2$ | $0$ |
+| Số mặt cong | $1$ | $1$ |
+| Đặt đứng, xếp chồng lên nhau | được | không vững |
+| Lăn | lăn theo một hướng | lăn theo mọi hướng |
+
+[[P6·e86f]]
+Lon sữa có dạng **khối trụ**. Quả bóng có dạng **khối cầu**.
+
+  :::theorem Nhận biết khối trụ và khối cầu
+  - **Khối trụ** có $2$ mặt phẳng hình tròn (gọi là hai đáy) và $1$ mặt cong xung quanh. Ví dụ: lon sữa, cái trống, hộp bánh tròn.
+  - **Khối cầu** chỉ có mặt cong, không có mặt phẳng nào. Ví dụ: quả bóng, viên bi.
+  :::
+
+[[P7·cd65]]
+Khối trụ xếp chồng được vì hai đáy của nó phẳng, đặt lên nhau không bị trượt. Khối cầu không có mặt phẳng nên dễ lăn đi.
+
+## Ví dụ
+
+[[P8·27ef]]
+Ta bắt đầu với việc nhận biết một đồ vật quen thuộc.
+
+  :::example Cái trống
+  Cái trống của lớp em là khối trụ hay khối cầu?
+
+  **Lời giải.** Hai đầu trống là hai mặt phẳng hình tròn, thân trống là một mặt cong. Vật có $2$ mặt phẳng tròn và $1$ mặt cong là khối trụ.
+
+  Vậy cái trống là khối trụ.
+  :::
+
+[[P9·08c5]]
+Tiếp theo, em đếm các mặt của một khối trụ.
+
+  :::example Đếm mặt của lon sữa
+  Một lon sữa có bao nhiêu mặt phẳng và bao nhiêu mặt cong?
+
+  **Lời giải.** Lon sữa là khối trụ. Khối trụ có hai đáy phẳng là đầu trên và đầu dưới, và một mặt cong là thân lon.
+
+  Vậy lon sữa có $2$ mặt phẳng và $1$ mặt cong.
+  :::
+
+[[P10·abf1]]
+Bây giờ ta phân loại nhiều đồ vật cùng lúc.
+
+  :::example Phân loại đồ vật
+  Trên bàn có: hộp bánh tròn, viên bi, cái cốc hình trụ, quả bóng đá, ống tre, quả bóng bàn. Có mấy khối trụ, mấy khối cầu?
+
+  ![Sáu đồ vật trên bàn: hộp bánh tròn, viên bi, cốc hình trụ, bóng đá, ống tre và bóng bàn](/assets/img/g2/g2-cylinders-and-spheres-02.svg)
+
+  **Lời giải.** Em xếp từng vật vào nhóm:
+
+  - Khối trụ (có hai đáy phẳng): hộp bánh tròn, cái cốc, ống tre. Có $3$ vật.
+  - Khối cầu (chỉ có mặt cong): viên bi, quả bóng đá, quả bóng bàn. Có $3$ vật.
+
+  Vậy có $3$ khối trụ và $3$ khối cầu.
+  :::
+
+[[P11·b5db]]
+Cuối cùng, em dùng hiểu biết này để chọn vật cho việc xếp tháp.
+
+  :::example Xếp tháp
+  Nam có $4$ lon sữa và $3$ quả bóng. Nam muốn xếp một cái tháp cao. Nam nên dùng loại nào? Vì sao?
+
+  ![Bốn lon sữa đứng cạnh ba quả bóng trên sàn](/assets/img/g2/g2-cylinders-and-spheres-03.svg)
+
+  **Lời giải.** Muốn xếp tháp, các vật phải đặt chồng lên nhau mà không lăn. Lon sữa là khối trụ, có đáy phẳng nên đặt chồng được. Quả bóng là khối cầu, không có mặt phẳng nên sẽ lăn.
+
+  Vậy Nam nên dùng $4$ lon sữa.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·d1b6]]
+- **Nghĩ quả bóng có mặt phẳng.** Sai: "Quả bóng có $1$ mặt phẳng". Vì sao sai: sờ khắp quả bóng chỗ nào cũng cong. Đúng: khối cầu có $0$ mặt phẳng.
+- **Quên khối trụ có mặt cong.** Sai: "Lon sữa chỉ có $2$ mặt phẳng". Vì sao sai: thân lon là mặt cong. Đúng: lon sữa có $2$ mặt phẳng và $1$ mặt cong.
+- **Nhầm hộp sữa hình hộp với khối trụ.** Sai: "Hộp sữa bốn góc vuông là khối trụ". Vì sao sai: khối trụ có hai đáy là hình tròn, không có góc. Đúng: chỉ vật có hai đáy tròn mới là khối trụ.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - khối trụ | cylinder
+  - khối cầu | sphere
+  - mặt phẳng | flat face
+  - mặt cong | curved surface
+  - đáy | base
+  - lăn | roll
+  - xếp chồng | stack
+  :::
+
+## Tóm tắt
+
+[[P13·5461]]
+- Khối trụ có $2$ mặt phẳng hình tròn (hai đáy) và $1$ mặt cong. Ví dụ: lon sữa, cái trống.
+- Khối cầu chỉ có $1$ mặt cong, không có mặt phẳng. Ví dụ: quả bóng, viên bi.
+- Khối trụ xếp chồng được vì có đáy phẳng; khối cầu dễ lăn nên không xếp chồng vững.
+- Muốn biết một vật là khối nào, em sờ xem vật có mặt phẳng không.
+
+## Luyện tập
+
+[[P14·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -450,8 +952,190 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
    (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g2/cylinders-and-spheres – BẢN TIẾNG ANH ########
+---
+title: Cylinders and spheres
+description: Recognise cylinders and spheres in everyday objects, count flat faces and curved surfaces, and know which objects roll and which can be stacked.
+minutes: 15
+---
+
+  :::goals
+  - Recognise cylinders and spheres in the objects around you.
+  - Say that a cylinder has $2$ flat faces and $1$ curved surface, and a sphere has only a curved surface.
+  - Explain why tins can be stacked but balls cannot.
+  :::
+
+[[P1·15e8]]
+Lan puts a ball and a tin of milk on a slightly sloping table. The ball rolls away fast. The tin rolls when it lies on its side, but when it stands up it stays still.
+
+[[P2·9bd5]]
+Why are the two objects different? Today you will find the answer with two new solid shapes.
+
+## Let's explore
+
+[[P3·b42f]]
+Pick up a tin of milk. Feel both ends: the top and the bottom are flat. Feel around the side of the tin: this part is curved.
+
+![A cylindrical milk can and a spherical ball](/assets/img/g2/g2-cylinders-and-spheres-01.svg)
+
+[[P4·592a]]
+Now pick up a ball. Feel all over it: it is curved everywhere, with no flat part at all.
+
+[[P5·39e2]]
+We write down what we found in a table:
+
+| | Tin of milk | Ball |
+|---|---|---|
+| Number of flat faces | $2$ | $0$ |
+| Number of curved surfaces | $1$ | $1$ |
+| Stands up and stacks | yes | not steadily |
+| Rolling | rolls in one direction | rolls in every direction |
+
+[[P6·6d19]]
+The tin has the shape of a **cylinder**. The ball has the shape of a **sphere**.
+
+  :::theorem Recognising cylinders and spheres
+  - A **cylinder** has $2$ flat circular faces (called the two bases) and $1$ curved surface around the side. Examples: a tin of milk, a drum, a round cake tin.
+  - A **sphere** has only a curved surface and no flat faces. Examples: a ball, a marble.
+  :::
+
+[[P7·6002]]
+A cylinder can be stacked because its bases are flat, so one sits on another without sliding. A sphere has no flat face, so it rolls away easily.
+
+## Examples
+
+[[P8·5d78]]
+We start by recognising a familiar object.
+
+  :::example The drum
+  Is the drum in your classroom a cylinder or a sphere?
+
+  **Solution.** The two ends of the drum are flat circles, and the side is one curved surface. An object with $2$ flat circles and $1$ curved surface is a cylinder.
+
+  So the drum is a cylinder.
+  :::
+
+[[P9·662b]]
+Next, you count the faces of a cylinder.
+
+  :::example Counting the faces of a tin
+  How many flat faces and how many curved surfaces does a tin of milk have?
+
+  **Solution.** A tin is a cylinder. A cylinder has two flat bases, the top and the bottom, and one curved surface, the side of the tin.
+
+  So the tin has $2$ flat faces and $1$ curved surface.
+  :::
+
+[[P10·7d41]]
+Now we sort many objects at once.
+
+  :::example Sorting objects
+  On the table there are: a round cake tin, a marble, a cylinder-shaped cup, a football, a bamboo tube and a table-tennis ball. How many cylinders and how many spheres are there?
+
+  ![Six objects on a table: a round tin, marble, cylindrical cup, soccer ball, bamboo tube, and ping-pong ball](/assets/img/g2/g2-cylinders-and-spheres-02.svg)
+
+  **Solution.** Put each object in its group:
+
+  - Cylinders (two flat bases): the cake tin, the cup, the bamboo tube. That is $3$ objects.
+  - Spheres (only a curved surface): the marble, the football, the table-tennis ball. That is $3$ objects.
+
+  So there are $3$ cylinders and $3$ spheres.
+  :::
+
+[[P11·bcec]]
+Finally, you use what you know to choose objects for building a tower.
+
+  :::example Building a tower
+  Nam has $4$ tins of milk and $3$ balls. He wants to build a tall tower. Which should he use? Why?
+
+  ![Four milk cans standing beside three balls on the floor](/assets/img/g2/g2-cylinders-and-spheres-03.svg)
+
+  **Solution.** To build a tower, the objects must sit on top of each other without rolling. A tin is a cylinder with flat bases, so it can be stacked. A ball is a sphere with no flat face, so it rolls away.
+
+  So Nam should use the $4$ tins of milk.
+  :::
+
+:::warning Mistakes to watch out for
+[[P12·bc28]]
+- **Thinking a ball has a flat face.** Wrong: "A ball has $1$ flat face." Why it is wrong: a ball is curved everywhere you touch it. Right: a sphere has $0$ flat faces.
+- **Forgetting the curved surface of a cylinder.** Wrong: "A tin has only $2$ flat faces." Why it is wrong: the side of the tin is a curved surface. Right: a tin has $2$ flat faces and $1$ curved surface.
+- **Mixing up a box with a cylinder.** Wrong: "A box with square corners is a cylinder." Why it is wrong: a cylinder has two round bases and no corners. Right: only an object with two round bases is a cylinder.
+:::
+
+## Key terms
+
+  :::terms
+  - cylinder | khối trụ
+  - sphere | khối cầu
+  - flat face | mặt phẳng
+  - curved surface | mặt cong
+  - base | đáy
+  - roll | lăn
+  - stack | xếp chồng
+  :::
+
+## Summary
+
+[[P13·8318]]
+- A cylinder has $2$ flat circular faces (two bases) and $1$ curved surface. Examples: a tin of milk, a drum.
+- A sphere has only $1$ curved surface and no flat faces. Examples: a ball, a marble.
+- A cylinder can be stacked because it has flat bases; a sphere rolls, so it does not stack steadily.
+- To tell which solid an object is, feel whether it has a flat face.
+
+## Practice
+
+[[P14·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
 :::exercise Challenge
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test

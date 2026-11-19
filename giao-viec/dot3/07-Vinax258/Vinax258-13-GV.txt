@@ -6,7 +6,7 @@ Kết quả: file Vinax258-13-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vinax258-13-GV
-Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g10/vectors-in-coordinates
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g8/linear-functions-graphs, g8/monomials
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/Vinax258-13-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  /mnt/user-data/outputs/Vinax258-13-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/2). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file Vinax258-13-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,235 +135,220 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g10/vectors-in-coordinates – BẢN TIẾNG VIỆT ########
+######## BÀI g8/linear-functions-graphs – BẢN TIẾNG VIỆT ########
 ---
-title: Vectơ trong mặt phẳng toạ độ
-description: Mô tả vectơ bằng toạ độ, cộng và nhân vectơ với một số, rồi tìm độ dài, trung điểm, trọng tâm và các điểm thẳng hàng bằng toạ độ.
-minutes: 25
+title: Hàm số bậc nhất và đồ thị của hàm số bậc nhất
+description: Nhận biết hàm số bậc nhất, tính giá trị, vẽ đồ thị bằng hai điểm và vận dụng vào tình huống thực tế.
+minutes: 20
 ---
 
   :::goals
-  - Viết vectơ dưới dạng $\vec{a}=(x; y)$ và tìm toạ độ của $\overrightarrow{AB}$ từ hai điểm $A$, $B$.
-  - Cộng, trừ và nhân vectơ với một số bằng toạ độ.
-  - Tìm độ dài của vectơ và khoảng cách giữa hai điểm.
-  - Dùng toạ độ cho trung điểm, trọng tâm, tính thẳng hàng và đỉnh còn thiếu của hình bình hành.
+  - Nhận biết hàm số bậc nhất $y=ax+b$ với $a\ne0$ và xác định các hệ số $a$, $b$.
+  - Tính giá trị của hàm số và kiểm tra một điểm có thuộc đồ thị hay không.
+  - Vẽ đồ thị hàm số bậc nhất bằng hai điểm phân biệt.
+  - Dùng hàm số và đồ thị để giải một số bài toán thực tế.
   :::
 
-[[P1·0b05]]
-Trên bản đồ một khu phố kẻ ô vuông, nhà Lan ở điểm $(0; 0)$. Ứng dụng chỉ đường bảo Lan "đi $3$ dãy nhà về phía đông, rồi $2$ dãy nhà về phía bắc" để tới trường. Nhà Minh ở điểm $(1; 4)$, và Minh làm đúng hai thao tác ấy. Minh sẽ đến điểm nào?
+[[P1·a349]]
+Cửa hàng xe đạp thu 20 nghìn đồng để mở khoá và 15 nghìn đồng mỗi giờ. Thuê $x$ giờ hết $y=15x+20$ nghìn đồng. Sau $3$ giờ, bạn trả bao nhiêu? Các điểm $(x; y)$ tạo thành hình gì?
 
-## Toạ độ của vectơ
+## Hàm số bậc nhất
 
-[[P2·674d]]
-Ta thử tính. Thao tác "đi $3$ sang phải, $2$ lên trên" cộng $3$ vào hoành độ và $2$ vào tung độ, dù xuất phát ở đâu:
+### Khám phá: chi phí thuê xe
 
-  $$\text{Lan: } (0+3;\ 0+2)=(3; 2),\qquad \text{Minh: } (1+3;\ 4+2)=(4; 6).$$
+[[P2·4d0d]]
+Ta thay lần lượt vài giá trị của $x$ vào $y=15x+20$:
 
-[[P3·b2e4]]
-Hai bạn đi hai mũi tên khác chỗ nhưng **bằng nhau**, và cặp số $(3; 2)$ mô tả trọn vẹn mũi tên đó. Vậy Minh đến điểm $(4; 6)$. Cặp số như $(3; 2)$ gọi là toạ độ của vectơ.
+| $x$ (giờ) | $0$ | $1$ | $2$ | $3$ |
+|---|---:|---:|---:|---:|
+| $y$ (nghìn đồng) | $20$ | $35$ | $50$ | $65$ |
 
-[[P4·3c26]]
-Trong mặt phẳng có hệ trục $Ox$, $Oy$, gọi $\vec{i}$ là vectơ có độ dài $1$ trên trục $Ox$, cùng hướng với trục, và $\vec{j}$ là vectơ như vậy trên trục $Oy$. Đây là các **vectơ đơn vị** của hai trục.
+[[P3·4c94]]
+Mỗi giờ thêm làm chi phí tăng $15$ nghìn đồng. Số $20$ là chi phí ban đầu. Công thức có dạng $y=ax+b$ với $a=15$, $b=20$.
 
-  :::definition Toạ độ của vectơ
-  Mỗi vectơ $\vec{a}$ viết được duy nhất dưới dạng
-  $$\vec{a}=x\vec{i}+y\vec{j}.$$
-  Cặp số $(x; y)$ là **toạ độ** của $\vec{a}$, và ta viết $\vec{a}=(x; y)$.
+  :::definition Hàm số bậc nhất
+  Hàm số bậc nhất là hàm số được cho bởi công thức
+  $$y=ax+b,$$
+  trong đó $a$, $b$ là các số đã cho và $a\ne0$.
   :::
 
-:::diagram Vectơ $\vec{a}=3\vec{i}+2\vec{j}$
-   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
+[[P4·f2fe]]
+Nếu $a=0$ thì $y=b$ không đổi theo $x$: đây là hàm hằng, không phải hàm số bậc nhất. Số $b$ có thể bằng $0$; khi ấy $y=ax$.
 
-[[P5·d6a7]]
-Hai vectơ **bằng nhau** khi và chỉ khi toạ độ của chúng bằng nhau: $(x; y)=(x'; y')$ nghĩa là $x=x'$ và $y=y'$. Vectơ-không là $(0; 0)$.
+  :::example Nhận biết hàm số bậc nhất
+  Trong các hàm số sau, hàm số nào là hàm số bậc nhất? Hãy chỉ ra $a$ và $b$.
 
-### Từ hai điểm đến một vectơ
+  a) $y=3x-5$; b) $y=-x$; c) $y=7$; d) $y=x^2+1$.
 
-[[P6·8182]]
-Nếu $A(x_A; y_A)$ và $B(x_B; y_B)$ thì để đi từ $A$ đến $B$ ta dịch $x_B-x_A$ theo chiều ngang và $y_B-y_A$ theo chiều dọc:
-  $$\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A).$$
-[[P7·c3fa]]
-Nói gọn: toạ độ **điểm cuối trừ điểm đầu**.
+  **Lời giải.** Ta so sánh với $y=ax+b$, $a\ne0$:
 
-[[P8·523c]]
-Ví dụ đầu tiên áp dụng công thức này và cho thấy một vectơ có thể "nằm" ở nhiều chỗ.
+  - a) $a=3$, $b=-5$: bậc nhất.
+  - b) $y=(-1)x+0$ có $a=-1$, $b=0$: bậc nhất.
+  - c) $y=0x+7$ có $a=0$: không bậc nhất.
+  - d) Có $x^2$: không có dạng $y=ax+b$.
 
-  :::example Vectơ từ hai điểm
-  Cho $A(1; 2)$, $B(4; 6)$, $C(-2; 0)$, $D(1; 4)$. Tìm toạ độ của $\overrightarrow{AB}$ và $\overrightarrow{CD}$. Hai vectơ này có bằng nhau không?
-
-  **Lời giải.** Lấy toạ độ điểm cuối trừ toạ độ điểm đầu:
-
-  $$\overrightarrow{AB}=(4-1;\ 6-2)=(3; 4),\qquad \overrightarrow{CD}=(1-(-2);\ 4-0)=(3; 4).$$
-
-  Hai vectơ có cùng toạ độ, nên $\overrightarrow{AB}=\overrightarrow{CD}$, dù bốn điểm khác nhau.
+  Vậy các hàm số ở a) và b) là hàm số bậc nhất.
   :::
 
-## Các phép toán theo toạ độ
+[[P5·57bb]]
+Khi đã có công thức, ta tính giá trị của hàm số bằng cách thay giá trị của $x$.
 
-[[P9·c570]]
-Vì $\vec{a}=x_1\vec{i}+y_1\vec{j}$ và $\vec{b}=x_2\vec{i}+y_2\vec{j}$, các quy tắc tính toán của bài trước cho $\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}$. Làm tương tự cho hiệu và tích với một số:
+  :::example Tính giá trị và kiểm tra điểm
+  Cho hàm số $y=-2x+7$.
 
-  :::theorem Các phép toán theo toạ độ
-  Cho $\vec{a}=(x_1; y_1)$, $\vec{b}=(x_2; y_2)$ và số $k$. Khi đó
-  - $\vec{a}+\vec{b}=(x_1+x_2;\ y_1+y_2)$,
-  - $\vec{a}-\vec{b}=(x_1-x_2;\ y_1-y_2)$,
-  - $k\vec{a}=(kx_1;\ ky_1)$.
-  :::
+  a) Tính $y$ khi $x=3$ và khi $x=-1$.
 
-[[P10·3da5]]
-Như vậy ta cộng, trừ và nhân vectơ với một số **từng toạ độ một**.
+  b) Điểm $A(4; -1)$ và $B(2; 4)$ có thuộc đồ thị của hàm số không?
 
-  :::example Kết hợp các vectơ
-  Cho $\vec{a}=(2; -1)$ và $\vec{b}=(-3; 4)$. Tìm $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$ và $3\vec{a}-2\vec{b}$.
-
-  **Lời giải.** Ta tính riêng hoành độ và tung độ:
-
-  $$\vec{a}+\vec{b}=(2-3;\ -1+4)=(-1; 3),\qquad \vec{a}-\vec{b}=(2+3;\ -1-4)=(5; -5).$$
-
-  Với biểu thức thứ ba, nhân trước rồi trừ sau:
-
-  $$3\vec{a}=(6; -3),\quad 2\vec{b}=(-6; 8),\quad 3\vec{a}-2\vec{b}=(6+6;\ -3-8)=(12; -11).$$
-
-  Vậy $\vec{a}+\vec{b}=(-1; 3)$, $\vec{a}-\vec{b}=(5; -5)$ và $3\vec{a}-2\vec{b}=(12; -11)$.
-  :::
-
-## Độ dài vectơ và khoảng cách
-
-[[P11·0ca9]]
-Trong hình trên, $\vec{a}=(3; 2)$ là cạnh huyền của tam giác vuông có hai cạnh góc vuông $3$ và $2$. Tổng quát, theo định lí Pythagore, vectơ $\vec{a}=(x; y)$ có độ dài
-  $$|\vec{a}|=\sqrt{x^2+y^2}.$$
-[[P12·7397]]
-Vì $AB$ là độ dài của $\overrightarrow{AB}$, nên **khoảng cách giữa hai điểm** là
-  $$AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}.$$
-
-[[P13·b8b2]]
-Có độ dài ba cạnh, ta nhận dạng được tam giác mà không cần vẽ.
-
-  :::example Tam giác vuông
-  Cho $A(1; 2)$, $B(4; 6)$, $C(9; -4)$. Chứng minh tam giác $ABC$ vuông.
-
-  **Lời giải.** Ta tính bình phương ba cạnh rồi dùng định lí Pythagore đảo:
+  **Lời giải.** Ta thay hoành độ rồi so sánh với tung độ:
 
   $$\begin{aligned}
-  \overrightarrow{AB}&=(3; 4), & AB^2&=9+16=25,\\
-  \overrightarrow{AC}&=(8; -6), & AC^2&=64+36=100,\\
-  \overrightarrow{BC}&=(5; -10), & BC^2&=25+100=125.
+  x=3&\Rightarrow y=-2\cdot3+7=1;\\
+  x=-1&\Rightarrow y=-2\cdot(-1)+7=9.
   \end{aligned}$$
 
-  Vì $AB^2+AC^2=25+100=125=BC^2$, tam giác $ABC$ vuông tại $A$.
-
-  **Kiểm tra.** Cạnh dài nhất $BC$ là cạnh huyền, nên góc vuông nằm ở đỉnh đối diện, tức $A$.
+  Với $A$, $-2\cdot4+7=-1$, nên $A$ thuộc đồ thị. Với $B$, $-2\cdot2+7=3\ne4$, nên $B$ không thuộc đồ thị.
   :::
 
-## Trung điểm và trọng tâm
+## Đồ thị của hàm số bậc nhất
 
-[[P14·6023]]
-Dùng $\overrightarrow{OM}=\frac12(\overrightarrow{OA}+\overrightarrow{OB})$ và $\overrightarrow{OG}=\frac13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$ với $O$ là gốc toạ độ. Toạ độ của $\overrightarrow{OA}$ chính là toạ độ của điểm $A$, nên ta được toạ độ bằng cách lấy trung bình cộng.
+### Khám phá: các điểm có thẳng hàng không?
 
-  :::theorem Trung điểm và trọng tâm
-  - Trung điểm $M$ của $AB$ là $M\left(\dfrac{x_A+x_B}{2};\ \dfrac{y_A+y_B}{2}\right)$.
-  - Trọng tâm $G$ của tam giác $ABC$ là $G\left(\dfrac{x_A+x_B+x_C}{3};\ \dfrac{y_A+y_B+y_C}{3}\right)$.
-  :::
+[[P6·ef39]]
+Với $y=2x+1$, ta được $A(-1; -1)$, $B(0; 1)$, $C(1; 3)$, $D(2; 5)$. Cả bốn điểm nằm trên một đường thẳng.
 
-  :::example Trung điểm và trọng tâm
-  a) Tìm trung điểm của đoạn thẳng nối $A(2; -1)$ và $B(6; 5)$.
-  b) Tìm trọng tâm của tam giác có các đỉnh $A(1; 1)$, $B(5; 2)$, $C(0; 6)$.
-
-  **Lời giải.** Lấy trung bình cộng từng toạ độ:
-
-  $$M\left(\frac{2+6}{2};\ \frac{-1+5}{2}\right)=M(4; 2),\qquad G\left(\frac{1+5+0}{3};\ \frac{1+2+6}{3}\right)=G(2; 3).$$
-
-  Vậy trung điểm là $M(4; 2)$ và trọng tâm là $G(2; 3)$.
-  :::
-
-## Vectơ cùng phương và ba điểm thẳng hàng
-
-[[P15·9bc9]]
-Hai vectơ $\vec{a}=(x_1; y_1)$ và $\vec{b}=(x_2; y_2)$ khác $\vec{0}$ **cùng phương** khi vectơ này là bội của vectơ kia, chẳng hạn $(2; 4)$ và $(4; 8)=2(2; 4)$. Theo toạ độ, điều đó tương đương với
-  $$x_1y_2-x_2y_1=0.$$
-[[P16·560e]]
-Ta dùng phép thử bằng tích này thay cho tỉ số $\frac{x_1}{x_2}=\frac{y_1}{y_2}$, vì tỉ số không dùng được khi có một toạ độ bằng $0$. Ba điểm $A$, $B$, $C$ thẳng hàng khi $\overrightarrow{AB}$ và $\overrightarrow{AC}$ cùng phương.
-
-[[P17·effa]]
-Ví dụ sau dùng phép thử này hai lần: một lần để kiểm tra, một lần để tìm một điểm chưa biết.
-
-  :::example Ba điểm thẳng hàng
-  Cho $A(-1; 1)$, $B(3; 3)$, $C(7; 5)$.
-
-  a) Chứng minh $A$, $B$, $C$ thẳng hàng.
-  b) Đường thẳng $AB$ cắt trục hoành tại $M$. Tìm toạ độ của $M$.
-
-  **Lời giải.** a) Ta xét $\overrightarrow{AB}$ và $\overrightarrow{AC}$:
-
-  $$\overrightarrow{AB}=(4; 2),\quad \overrightarrow{AC}=(8; 4),\quad 4\cdot4-8\cdot2=0.$$
-
-  Hai vectơ cùng phương (thật vậy $\overrightarrow{AC}=2\overrightarrow{AB}$), nên $A$, $B$, $C$ thẳng hàng.
-
-  b) Điểm $M$ nằm trên trục hoành nên $M(t; 0)$. Cần $\overrightarrow{AM}=(t+1; -1)$ cùng phương với $\overrightarrow{AB}=(4; 2)$:
-
-  $$(t+1)\cdot2-4\cdot(-1)=0\iff 2t+6=0\iff t=-3.$$
-
-  Vậy $M(-3; 0)$.
-  :::
-
-## Đỉnh còn thiếu của hình bình hành
-
-[[P18·2eff]]
-$ABCD$ là hình bình hành khi và chỉ khi $\overrightarrow{AB}=\overrightarrow{DC}$. Viết đẳng thức này theo toạ độ, ta tìm được đỉnh thứ tư.
-
-:::diagram Hình bình hành $ABCD$
-   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::graph Các điểm thuộc đồ thị $y=2x+1$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::example Đỉnh thứ tư
-  Ba đỉnh của hình bình hành $ABCD$ là $A(1; 1)$, $B(4; 2)$ và $C(5; 5)$. Tìm $D$.
+  :::theorem Đồ thị của hàm số bậc nhất
+  Đồ thị của hàm số bậc nhất $y=ax+b$ với $a\ne0$ là một đường thẳng. Đường thẳng đó được gọi là đường thẳng $y=ax+b$.
 
-  **Lời giải.** Gọi $D(x; y)$. Hình bình hành cho $\overrightarrow{AB}=\overrightarrow{DC}$; ta cho hai toạ độ bằng nhau:
+  Muốn vẽ đồ thị, ta xác định hai điểm phân biệt thuộc đồ thị rồi vẽ đường thẳng đi qua hai điểm ấy.
+  :::
 
-  $$(3; 1)=(5-x;\ 5-y)\iff\begin{cases}5-x=3\\5-y=1\end{cases}\iff\begin{cases}x=2\\y=4.\end{cases}$$
+[[P7·c337]]
+Đồ thị $y=ax$ là đường thẳng qua gốc toạ độ. Với cùng $x$, công thức $y=ax+b$ làm tung độ thay đổi thêm $b$. Mọi điểm được dịch theo phương thẳng đứng cùng một đoạn nên vẫn tạo thành đường thẳng.
 
-  Vậy $D(2; 4)$.
+[[P8·a3af]]
+Hai cách chọn điểm thường thuận tiện là:
 
-  **Kiểm tra.** Hai đường chéo phải cắt nhau tại trung điểm mỗi đường: trung điểm của $AC$ là $(3; 3)$ và trung điểm của $BD$ cũng là $(3; 3)$.
+[[P9·e125]]
+- Nếu $b\ne0$, cho $x=0$ được $P(0; b)$; cho $y=0$ được $Q\left(-\dfrac ba; 0\right)$.
+- Nếu $b=0$, đồ thị qua $O(0; 0)$. Chọn thêm $x=1$ để được $(1; a)$.
+
+  :::example Vẽ đồ thị khi $b\ne0$
+  Vẽ đồ thị hàm số $y=2x-4$.
+
+  **Lời giải.** Ta chọn hai giao điểm có toạ độ nguyên:
+
+  $$\begin{aligned}
+  x=0&\Rightarrow y=-4 &&\Rightarrow P(0; -4);\\
+  y=0&\Rightarrow 2x-4=0\Rightarrow x=2 &&\Rightarrow Q(2; 0).
+  \end{aligned}$$
+
+  Đồ thị là đường thẳng $PQ$.
+  :::
+
+:::graph Đồ thị $y=2x-4$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P10·035f]]
+Khi $b=0$, một trong hai điểm đã biết ngay là gốc toạ độ.
+
+  :::example Vẽ đồ thị khi $b=0$
+  Vẽ đồ thị hàm số $y=-3x$.
+
+  **Lời giải.** Cho $x=0$ và $x=1$:
+
+  $$x=0\Rightarrow y=0\Rightarrow O(0; 0),\qquad x=1\Rightarrow y=-3\Rightarrow M(1; -3).$$
+
+  Đồ thị là đường thẳng $OM$.
+  :::
+
+:::graph Đồ thị $y=-3x$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P11·9506]]
+Trong bài toán thực tế, điều kiện của đại lượng có thể khiến ta chỉ dùng một phần của đường thẳng.
+
+  :::example Bể nước đang được xả
+  Bể có $90$ lít nước và được xả đều $6$ lít mỗi phút. Gọi $t$ là thời gian, $V$ là lượng còn lại.
+
+  a) Viết công thức của $V$ theo $t$.
+
+  b) Tìm lượng nước sau $8$ phút và thời điểm bể hết nước. Mô tả đồ thị trong tình huống này.
+
+  **Lời giải.** Lượng nước giảm $6$ lít mỗi phút, nên
+
+  $$V=90-6t=-6t+90.$$
+
+  Sau $8$ phút:
+
+  $$V=90-6\cdot8=42\text{ (lít)}.$$
+
+  Bể hết nước khi $V=0$:
+
+  $$90-6t=0\Rightarrow t=15\text{ (phút)}.$$
+
+  Công thức có dạng bậc nhất. Vì $0\le t\le15$, đồ thị thực tế là đoạn nối $(0; 90)$ và $(15; 0)$.
   :::
 
 :::warning Những sai lầm thường gặp
-[[P19·8d5f]]
-- **Trừ sai thứ tự.** Sai: với $A(1; 2)$, $B(4; 6)$, viết $\overrightarrow{AB}=(1-4;\ 2-6)=(-3; -4)$. Đó là $\overrightarrow{BA}$. Đúng: điểm cuối trừ điểm đầu, $\overrightarrow{AB}=(3; 4)$.
-- **Cộng toạ độ thay cho tính độ dài.** Sai: $|(3; 4)|=3+4=7$. Đúng: $|(3; 4)|=\sqrt{9+16}=5$.
-- **Dùng tỉ số khi có toạ độ bằng $0$.** Với $(0; 2)$ và $(0; 5)$, tỉ số $\frac{0}{0}$ không có nghĩa, nhưng $0\cdot5-0\cdot2=0$ cho biết hai vectơ cùng phương.
-- **Sai thứ tự đỉnh hình bình hành.** $ABCD$ là hình bình hành cần $\overrightarrow{AB}=\overrightarrow{DC}$, không phải $\overrightarrow{AB}=\overrightarrow{CD}$.
+[[P12·1c79]]
+- **Quên điều kiện $a\ne0$.** Sai: “$y=5$ là hàm số bậc nhất với $a=0$”. Đúng: đây là hàm hằng.
+- **Sai dấu khi thay số âm.** Với $y=-2x+1$ và $x=-3$, phải viết $y=-2\cdot(-3)+1=7$, không phải $-5$.
+- **Chỉ xác định một điểm rồi vẽ.** Qua một điểm có nhiều đường thẳng. Ta cần hai điểm phân biệt.
+- **Tìm sai giao điểm với trục hoành.** Với $y=2x+6$, cho $y=0$ được $2x+6=0$, nên $x=-3$, không phải $3$.
+- **Bỏ qua điều kiện thực tế.** Thời gian thường không âm, nên có thể chỉ dùng một đoạn hoặc một tia.
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - các vectơ đơn vị | unit vectors
-  - toạ độ của vectơ | coordinates of a vector
-  - hai vectơ bằng nhau | equal vectors
-  - độ dài vectơ | length of a vector
-  - khoảng cách giữa hai điểm | distance between two points
-  - trung điểm | midpoint
-  - trọng tâm | centroid
-  - cùng phương | collinear
-  - hình bình hành | parallelogram
+  - hàm số bậc nhất | linear function
+  - hệ số | coefficient
+  - đồ thị | graph
+  - đường thẳng | straight line
+  - mặt phẳng toạ độ | coordinate plane
+  - trục hoành | x-axis
+  - trục tung | y-axis
+  - giao điểm với trục hoành | x-intercept
+  - giao điểm với trục tung | y-intercept
   :::
 
 ## Tóm tắt
 
-[[P20·54b2]]
-- $\vec{a}=x\vec{i}+y\vec{j}$ được viết là $\vec{a}=(x; y)$; $\overrightarrow{AB}=(x_B-x_A;\ y_B-y_A)$ (cuối trừ đầu).
-- Cộng, trừ và nhân với một số từng toạ độ một.
-- $|\vec{a}|=\sqrt{x^2+y^2}$; $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$.
-- Trung điểm: trung bình cộng hai toạ độ; trọng tâm: trung bình cộng ba toạ độ.
-- $\vec{a}$, $\vec{b}$ cùng phương $\iff x_1y_2-x_2y_1=0$; ba điểm thẳng hàng khi $\overrightarrow{AB}$, $\overrightarrow{AC}$ cùng phương.
-- Đỉnh thứ tư của hình bình hành $ABCD$: giải $\overrightarrow{AB}=\overrightarrow{DC}$.
+[[P13·a61a]]
+- Hàm số bậc nhất có dạng $y=ax+b$, trong đó $a\ne0$.
+- Điểm $M(x_0; y_0)$ thuộc đồ thị khi và chỉ khi $y_0=ax_0+b$.
+- Đồ thị của hàm số bậc nhất là một đường thẳng. Hai điểm phân biệt xác định đường thẳng đó.
+- Khi $b\ne0$, thường chọn hai điểm $P(0; b)$ và $Q\left(-\dfrac ba; 0\right)$.
+- Khi $b=0$, đồ thị đi qua $O(0; 0)$; chọn thêm một điểm để vẽ.
+- Trong tình huống thực tế, luôn xét điều kiện của biến trước khi chọn phần đồ thị phù hợp.
 
 ## Luyện tập
 
-[[P21·b0c6]]
-Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+[[P14·ba07]]
+Hãy tự làm từng bài trước khi xem lời giải.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Ôn tập
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
 
 :::exercise
    (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
@@ -378,31 +363,11 @@ Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm tr
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise Thử thách
    (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -412,235 +377,220 @@ Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm tr
 :::
 
 
-######## BÀI g10/vectors-in-coordinates – BẢN TIẾNG ANH ########
+######## BÀI g8/linear-functions-graphs – BẢN TIẾNG ANH ########
 ---
-title: Vectors in the coordinate plane
-description: Describe a vector by its coordinates, add and scale vectors with numbers, and find lengths, midpoints, centroids and collinear points from coordinates.
-minutes: 25
+title: Linear functions and their graphs
+description: Recognise linear functions, calculate values, draw their graphs from two points, and use them in real situations.
+minutes: 20
 ---
 
   :::goals
-  - Write a vector as $\vec{a}=(x, y)$ and find the coordinates of $\overrightarrow{AB}$ from the points $A$ and $B$.
-  - Add, subtract and scale vectors using coordinates.
-  - Find the length of a vector and the distance between two points.
-  - Use coordinates for midpoints, centroids, collinearity and a missing vertex of a parallelogram.
+  - Recognise a linear function $y=ax+b$, where $a\ne0$, and identify the coefficients $a$ and $b$.
+  - Calculate function values and check whether a point lies on a graph.
+  - Draw the graph of a linear function from two distinct points.
+  - Use linear functions and their graphs to solve real-life problems.
   :::
 
-[[P1·19b5]]
-On a map of a neighbourhood drawn on a square grid, Lan's house is at the point $(0, 0)$. A map app tells Lan "walk $3$ blocks east, then $2$ blocks north" to reach school. Minh's house is at the point $(1, 4)$, and Minh follows exactly the same two instructions. Where does Minh end up?
+[[P1·ecae]]
+A bicycle shop charges 20 thousand dong to unlock a bicycle and 15 thousand dong per hour. Hiring for $x$ hours costs $y=15x+20$ thousand dong. What is the cost after $3$ hours, and what shape do the points $(x, y)$ make?
 
-## Coordinates of a vector
+## Linear functions
 
-[[P2·9496]]
-Let us compute. The move "$3$ to the right, $2$ up" adds $3$ to the $x$-coordinate and $2$ to the $y$-coordinate, wherever you start:
+### Explore: the cost of hiring a bicycle
 
-  $$\text{Lan: } (0+3,\ 0+2)=(3, 2),\qquad \text{Minh: } (1+3,\ 4+2)=(4, 6).$$
+[[P2·747b]]
+We substitute a few values of $x$ into $y=15x+20$:
 
-[[P3·2fae]]
-The two friends follow arrows in different places, but the arrows are **equal**, and the pair $(3, 2)$ describes that arrow completely. So Minh ends up at $(4, 6)$. A pair such as $(3, 2)$ is called the coordinates of the vector.
+| $x$ (hours) | $0$ | $1$ | $2$ | $3$ |
+|---|---:|---:|---:|---:|
+| $y$ (thousand dong) | $20$ | $35$ | $50$ | $65$ |
 
-[[P4·7c1d]]
-In the plane with axes $Ox$ and $Oy$, let $\vec{i}$ be the vector of length $1$ along $Ox$, pointing the way of the axis, and $\vec{j}$ the same kind of vector along $Oy$. These are the **unit vectors** of the axes.
+[[P3·b512]]
+Each extra hour adds 15 thousand dong. The number $20$ is the initial cost. The formula has the form $y=ax+b$, with $a=15$ and $b=20$.
 
-  :::definition Coordinates of a vector
-  Every vector $\vec{a}$ can be written in exactly one way as
-  $$\vec{a}=x\vec{i}+y\vec{j}.$$
-  The pair $(x, y)$ is the **coordinates** of $\vec{a}$, and we write $\vec{a}=(x, y)$.
+  :::definition Linear function
+  A linear function is a function given by
+  $$y=ax+b,$$
+  where $a$ and $b$ are fixed numbers and $a\ne0$.
   :::
 
-:::diagram The vector $\vec{a}=3\vec{i}+2\vec{j}$
-   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
+[[P4·9cb5]]
+If $a=0$, then $y=b$ does not change with $x$: this is a constant function, not a linear function. The number $b$ may equal $0$; the formula is then $y=ax$.
 
-[[P5·360f]]
-Two vectors are **equal** exactly when their coordinates are equal: $(x, y)=(x', y')$ means $x=x'$ and $y=y'$. The zero vector is $(0, 0)$.
+  :::example Recognising linear functions
+  Which of the following are linear functions? Give $a$ and $b$ for each linear function.
 
-### From points to a vector
+  a) $y=3x-5$; b) $y=-x$; c) $y=7$; d) $y=x^2+1$.
 
-[[P6·3dc2]]
-If $A(x_A, y_A)$ and $B(x_B, y_B)$, then to go from $A$ to $B$ we move $x_B-x_A$ horizontally and $y_B-y_A$ vertically:
-  $$\overrightarrow{AB}=(x_B-x_A,\ y_B-y_A).$$
-[[P7·d4b9]]
-In short: **end point minus start point**.
+  **Solution.** Compare each formula with $y=ax+b$, where $a\ne0$:
 
-[[P8·5226]]
-The first example applies this formula and shows that one vector can "sit" in many places.
+  - a) $a=3$, $b=-5$: linear.
+  - b) $y=(-1)x+0$ has $a=-1$, $b=0$: linear.
+  - c) $y=0x+7$ has $a=0$: not linear.
+  - d) It contains $x^2$: not of the form $y=ax+b$.
 
-  :::example A vector from two points
-  Let $A(1, 2)$, $B(4, 6)$, $C(-2, 0)$, $D(1, 4)$. Find the coordinates of $\overrightarrow{AB}$ and $\overrightarrow{CD}$. Are the two vectors equal?
-
-  **Solution.** Subtract the coordinates of the start point from those of the end point:
-
-  $$\overrightarrow{AB}=(4-1,\ 6-2)=(3, 4),\qquad \overrightarrow{CD}=(1-(-2),\ 4-0)=(3, 4).$$
-
-  The two vectors have the same coordinates, so $\overrightarrow{AB}=\overrightarrow{CD}$, even though the four points are different.
+  Therefore the functions in a) and b) are linear.
   :::
 
-## Operations in coordinates
+[[P5·ecad]]
+Once we have a formula, we calculate a function value by substituting the value of $x$.
 
-[[P9·a86b]]
-Since $\vec{a}=x_1\vec{i}+y_1\vec{j}$ and $\vec{b}=x_2\vec{i}+y_2\vec{j}$, the rules from the previous lesson give $\vec{a}+\vec{b}=(x_1+x_2)\vec{i}+(y_1+y_2)\vec{j}$. The same works for differences and for multiples:
+  :::example Calculating values and checking points
+  Consider the function $y=-2x+7$.
 
-  :::theorem Operations on coordinates
-  Let $\vec{a}=(x_1, y_1)$, $\vec{b}=(x_2, y_2)$ and $k$ a number. Then
-  - $\vec{a}+\vec{b}=(x_1+x_2,\ y_1+y_2)$,
-  - $\vec{a}-\vec{b}=(x_1-x_2,\ y_1-y_2)$,
-  - $k\vec{a}=(kx_1,\ ky_1)$.
-  :::
+  a) Find $y$ when $x=3$ and when $x=-1$.
 
-[[P10·b414]]
-So we add, subtract and scale vectors **one coordinate at a time**.
+  b) Do the points $A(4, -1)$ and $B(2, 4)$ lie on the graph?
 
-  :::example Combining vectors
-  Let $\vec{a}=(2, -1)$ and $\vec{b}=(-3, 4)$. Find $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$ and $3\vec{a}-2\vec{b}$.
-
-  **Solution.** We work on the $x$- and $y$-coordinates separately:
-
-  $$\vec{a}+\vec{b}=(2-3,\ -1+4)=(-1, 3),\qquad \vec{a}-\vec{b}=(2+3,\ -1-4)=(5, -5).$$
-
-  For the third expression, multiply first and subtract afterwards:
-
-  $$3\vec{a}=(6, -3),\quad 2\vec{b}=(-6, 8),\quad 3\vec{a}-2\vec{b}=(6+6,\ -3-8)=(12, -11).$$
-
-  So $\vec{a}+\vec{b}=(-1, 3)$, $\vec{a}-\vec{b}=(5, -5)$ and $3\vec{a}-2\vec{b}=(12, -11)$.
-  :::
-
-## Length of a vector and distance
-
-[[P11·66a6]]
-In the figure above, $\vec{a}=(3, 2)$ is the hypotenuse of a right-angled triangle with legs $3$ and $2$. In general, by Pythagoras' theorem, the vector $\vec{a}=(x, y)$ has length
-  $$|\vec{a}|=\sqrt{x^2+y^2}.$$
-[[P12·1c55]]
-Since $AB$ is the length of $\overrightarrow{AB}$, the **distance between two points** is
-  $$AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}.$$
-
-[[P13·7a7e]]
-With the three side lengths, we can recognise a triangle without drawing it.
-
-  :::example A right-angled triangle
-  Let $A(1, 2)$, $B(4, 6)$, $C(9, -4)$. Prove that triangle $ABC$ is right-angled.
-
-  **Solution.** We find the squares of the three sides and use the converse of Pythagoras' theorem:
+  **Solution.** We substitute the x-coordinate into the formula and compare the result with the y-coordinate:
 
   $$\begin{aligned}
-  \overrightarrow{AB}&=(3, 4), & AB^2&=9+16=25,\\
-  \overrightarrow{AC}&=(8, -6), & AC^2&=64+36=100,\\
-  \overrightarrow{BC}&=(5, -10), & BC^2&=25+100=125.
+  x=3&\Rightarrow y=-2\cdot3+7=1;\\
+  x=-1&\Rightarrow y=-2\cdot(-1)+7=9.
   \end{aligned}$$
 
-  Since $AB^2+AC^2=25+100=125=BC^2$, triangle $ABC$ has a right angle at $A$.
-
-  **Check.** The longest side $BC$ is the hypotenuse, so the right angle is at the opposite vertex, $A$.
+  For $A$, $-2\cdot4+7=-1$, so $A$ lies on the graph. For $B$, $-2\cdot2+7=3\ne4$, so $B$ does not.
   :::
 
-## Midpoint and centroid
+## Graphs of linear functions
 
-[[P14·2069]]
-Use $\overrightarrow{OM}=\frac12(\overrightarrow{OA}+\overrightarrow{OB})$ and $\overrightarrow{OG}=\frac13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC})$ with $O$ the origin. The coordinates of $\overrightarrow{OA}$ are exactly the coordinates of the point $A$, so we get coordinates by averaging.
+### Explore: are the points collinear?
 
-  :::theorem Midpoint and centroid
-  - The midpoint $M$ of $AB$ is $M\left(\dfrac{x_A+x_B}{2},\ \dfrac{y_A+y_B}{2}\right)$.
-  - The centroid $G$ of triangle $ABC$ is $G\left(\dfrac{x_A+x_B+x_C}{3},\ \dfrac{y_A+y_B+y_C}{3}\right)$.
-  :::
+[[P6·3136]]
+For $y=2x+1$, we obtain the points $A(-1, -1)$, $B(0, 1)$, $C(1, 3)$ and $D(2, 5)$. When we plot them on the coordinate plane, all four points lie on one straight line.
 
-  :::example Midpoint and centroid
-  a) Find the midpoint of the segment joining $A(2, -1)$ and $B(6, 5)$.
-  b) Find the centroid of the triangle with vertices $A(1, 1)$, $B(5, 2)$, $C(0, 6)$.
-
-  **Solution.** Average each coordinate:
-
-  $$M\left(\frac{2+6}{2},\ \frac{-1+5}{2}\right)=M(4, 2),\qquad G\left(\frac{1+5+0}{3},\ \frac{1+2+6}{3}\right)=G(2, 3).$$
-
-  So the midpoint is $M(4, 2)$ and the centroid is $G(2, 3)$.
-  :::
-
-## Collinear vectors and collinear points
-
-[[P15·b68b]]
-Two non-zero vectors $\vec{a}=(x_1, y_1)$ and $\vec{b}=(x_2, y_2)$ are **collinear** when one is a multiple of the other, for example $(2, 4)$ and $(4, 8)=2(2, 4)$. In coordinates this is equivalent to
-  $$x_1y_2-x_2y_1=0.$$
-[[P16·c2c5]]
-We use this product test instead of the ratio $\frac{x_1}{x_2}=\frac{y_1}{y_2}$, because the ratio fails when a coordinate is $0$. Three points $A$, $B$, $C$ are collinear when $\overrightarrow{AB}$ and $\overrightarrow{AC}$ are collinear.
-
-[[P17·f4e2]]
-The next example uses the test twice: once to check, and once to find an unknown point.
-
-  :::example Three collinear points
-  Let $A(-1, 1)$, $B(3, 3)$, $C(7, 5)$.
-
-  a) Prove that $A$, $B$, $C$ are collinear.
-  b) The line $AB$ meets the $x$-axis at $M$. Find the coordinates of $M$.
-
-  **Solution.** a) We look at $\overrightarrow{AB}$ and $\overrightarrow{AC}$:
-
-  $$\overrightarrow{AB}=(4, 2),\quad \overrightarrow{AC}=(8, 4),\quad 4\cdot4-8\cdot2=0.$$
-
-  The vectors are collinear (indeed $\overrightarrow{AC}=2\overrightarrow{AB}$), so $A$, $B$, $C$ are collinear.
-
-  b) The point $M$ is on the $x$-axis, so $M(t, 0)$. We need $\overrightarrow{AM}=(t+1, -1)$ to be collinear with $\overrightarrow{AB}=(4, 2)$:
-
-  $$(t+1)\cdot2-4\cdot(-1)=0\iff 2t+6=0\iff t=-3.$$
-
-  So $M(-3, 0)$.
-  :::
-
-## A missing vertex of a parallelogram
-
-[[P18·5e5b]]
-$ABCD$ is a parallelogram exactly when $\overrightarrow{AB}=\overrightarrow{DC}$. Writing this equality in coordinates gives the fourth vertex.
-
-:::diagram Parallelogram $ABCD$
-   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::graph Points on the graph of $y=2x+1$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::example Fourth vertex
-  Three vertices of parallelogram $ABCD$ are $A(1, 1)$, $B(4, 2)$ and $C(5, 5)$. Find $D$.
+  :::theorem The graph of a linear function
+  The graph of a linear function $y=ax+b$, where $a\ne0$, is a straight line. It is called the line $y=ax+b$.
 
-  **Solution.** Let $D(x, y)$. The parallelogram gives $\overrightarrow{AB}=\overrightarrow{DC}$; we set the coordinates equal:
+  To draw the graph, find two distinct points on it, then draw the straight line through them.
+  :::
 
-  $$(3, 1)=(5-x,\ 5-y)\iff\begin{cases}5-x=3\\5-y=1\end{cases}\iff\begin{cases}x=2\\y=4.\end{cases}$$
+[[P7·7807]]
+The graph of $y=ax$ is a straight line through the origin. In $y=ax+b$, every y-coordinate changes by $b$. All points move vertically by the same amount, so they still form a straight line.
 
-  So $D(2, 4)$.
+[[P8·1dea]]
+Two convenient ways to choose points are:
 
-  **Check.** The diagonals must bisect each other: the midpoint of $AC$ is $(3, 3)$, and the midpoint of $BD$ is also $(3, 3)$.
+[[P9·661d]]
+- If $b\ne0$, set $x=0$ to obtain $P(0, b)$ on the y-axis; set $y=0$ to obtain $Q\left(-\dfrac ba, 0\right)$ on the x-axis.
+- If $b=0$, the graph passes through $O(0, 0)$. Choose one more value of $x$, for example $x=1$, to obtain $(1, a)$.
+
+  :::example Drawing a graph when $b\ne0$
+  Draw the graph of $y=2x-4$.
+
+  **Solution.** We choose the two intercepts because they have integer coordinates:
+
+  $$\begin{aligned}
+  x=0&\Rightarrow y=-4 &&\Rightarrow P(0, -4);\\
+  y=0&\Rightarrow 2x-4=0\Rightarrow x=2 &&\Rightarrow Q(2, 0).
+  \end{aligned}$$
+
+  Plot $P$ and $Q$, then draw the straight line $PQ$. This is the required graph.
+  :::
+
+:::graph The graph of $y=2x-4$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P10·92b6]]
+When $b=0$, one of the two points is already known: the origin.
+
+  :::example Drawing a graph when $b=0$
+  Draw the graph of $y=-3x$.
+
+  **Solution.** Set $x=0$ and $x=1$ to find two points:
+
+  $$x=0\Rightarrow y=0\Rightarrow O(0, 0),\qquad x=1\Rightarrow y=-3\Rightarrow M(1, -3).$$
+
+  Draw the straight line $OM$. This is the graph of $y=-3x$.
+  :::
+
+:::graph The graph of $y=-3x$
+   (… 6 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P11·3703]]
+In a real-life problem, restrictions on the quantities may mean that we use only part of the straight line.
+
+  :::example A water tank being emptied
+  A tank contains $90$ litres of water. Water is released at a steady rate of $6$ litres per minute. Let $t$ be the time and $V$ the volume of water left.
+
+  a) Write $V$ in terms of $t$.
+
+  b) Find the volume after $8$ minutes and the time when the tank becomes empty. Describe the graph for this situation.
+
+  **Solution.** The volume falls by $6$ litres each minute from an initial volume of $90$ litres, so
+
+  $$V=90-6t=-6t+90.$$
+
+  After $8$ minutes:
+
+  $$V=90-6\cdot8=42\text{ litres}.$$
+
+  The tank is empty when $V=0$:
+
+  $$90-6t=0\Rightarrow t=15\text{ minutes}.$$
+
+  The formula has linear form. However, only $0\le t\le15$ makes sense here, so the graph is the line segment joining $(0, 90)$ and $(15, 0)$, not the whole straight line.
   :::
 
 :::warning Common mistakes
-[[P19·44ac]]
-- **Subtracting in the wrong order.** Wrong: for $A(1, 2)$, $B(4, 6)$, writing $\overrightarrow{AB}=(1-4,\ 2-6)=(-3, -4)$. That is $\overrightarrow{BA}$. Right: end minus start, $\overrightarrow{AB}=(3, 4)$.
-- **Adding coordinates instead of finding the length.** Wrong: $|(3, 4)|=3+4=7$. Right: $|(3, 4)|=\sqrt{9+16}=5$.
-- **Using the ratio when a coordinate is $0$.** For $(0, 2)$ and $(0, 5)$ the ratio $\frac{0}{0}$ means nothing, but $0\cdot5-0\cdot2=0$ shows the vectors are collinear.
-- **The wrong order of vertices.** $ABCD$ being a parallelogram needs $\overrightarrow{AB}=\overrightarrow{DC}$, not $\overrightarrow{AB}=\overrightarrow{CD}$.
+[[P12·b2cd]]
+- **Forgetting the condition $a\ne0$.** Wrong: “$y=5$ is linear with $a=0$.” Correct: it is a constant function.
+- **Losing a sign when substituting a negative number.** For $y=-2x+1$ and $x=-3$, write $y=-2\cdot(-3)+1=7$, not $-5$.
+- **Plotting only one point before drawing.** Many straight lines pass through one point. We need two distinct points.
+- **Finding the x-intercept with the wrong sign.** For $y=2x+6$, setting $y=0$ gives $2x+6=0$, so $x=-3$, not $3$.
+- **Ignoring a real-life restriction.** Time and quantities are often non-negative, so the relevant graph may be only a line segment or a ray.
 :::
 
 ## Key terms
 
   :::terms
-  - unit vectors | các vectơ đơn vị
-  - coordinates of a vector | toạ độ của vectơ
-  - equal vectors | hai vectơ bằng nhau
-  - length of a vector | độ dài vectơ
-  - distance between two points | khoảng cách giữa hai điểm
-  - midpoint | trung điểm
-  - centroid | trọng tâm
-  - collinear | cùng phương
-  - parallelogram | hình bình hành
+  - linear function | hàm số bậc nhất
+  - coefficient | hệ số
+  - graph | đồ thị
+  - straight line | đường thẳng
+  - coordinate plane | mặt phẳng toạ độ
+  - x-axis | trục hoành
+  - y-axis | trục tung
+  - x-intercept | giao điểm với trục hoành
+  - y-intercept | giao điểm với trục tung
   :::
 
 ## Summary
 
-[[P20·a33d]]
-- $\vec{a}=x\vec{i}+y\vec{j}$ is written $\vec{a}=(x, y)$; $\overrightarrow{AB}=(x_B-x_A,\ y_B-y_A)$ (end minus start).
-- Add, subtract and scale one coordinate at a time.
-- $|\vec{a}|=\sqrt{x^2+y^2}$; $AB=\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$.
-- Midpoint: average of two sets of coordinates; centroid: average of three.
-- $\vec{a}$, $\vec{b}$ collinear $\iff x_1y_2-x_2y_1=0$; three points are collinear when $\overrightarrow{AB}$, $\overrightarrow{AC}$ are collinear.
-- Fourth vertex of parallelogram $ABCD$: solve $\overrightarrow{AB}=\overrightarrow{DC}$.
+[[P13·62ef]]
+- A linear function has the form $y=ax+b$, where $a\ne0$.
+- A point $M(x_0, y_0)$ lies on the graph exactly when $y_0=ax_0+b$.
+- The graph of a linear function is a straight line. Two distinct points determine this line.
+- When $b\ne0$, convenient points are $P(0, b)$ and $Q\left(-\dfrac ba, 0\right)$.
+- When $b=0$, the graph passes through $O(0, 0)$; choose one more point before drawing it.
+- In a real situation, check the restrictions on the variable before choosing the relevant part of the graph.
 
 ## Practice
 
-[[P21·67a0]]
-Each exercise comes with what you need and some steps to start. Try it yourself first, then open the solution.
+[[P14·04f6]]
+Try each exercise before opening the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Review
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
 
 :::exercise
    (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
@@ -655,15 +605,248 @@ Each exercise comes with what you need and some steps to start. Try it yourself 
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
+:::exercise Challenge
    (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g8/monomials – BẢN TIẾNG VIỆT ########
+---
+title: Đơn thức
+description: Nhận biết đơn thức, thu gọn đơn thức, tìm hệ số, phần biến và bậc, nhận biết đơn thức đồng dạng, cộng, trừ và nhân các đơn thức.
+minutes: 20
+---
+
+  :::goals
+  - Nhận biết đơn thức, đơn thức thu gọn; tìm hệ số, phần biến và bậc của đơn thức.
+  - Nhận biết các đơn thức đồng dạng, cộng và trừ các đơn thức đồng dạng.
+  - Nhân hai đơn thức bằng cách nhân hệ số với hệ số và nhân phần biến với phần biến.
+  - Dùng đơn thức để viết gọn diện tích, thể tích trong bài toán thực tế.
+  :::
+
+[[P1·cdcd]]
+Một hộp quà có đáy là hình vuông cạnh $x$ cm và chiều cao gấp đôi cạnh đáy, tức là $2x$ cm. Thể tích của hộp là $x\cdot x\cdot2x$ (cm³). Biểu thức này có thể viết gọn thế nào, và nó thuộc loại biểu thức nào?
+
+[[P2·8437]]
+Ở lớp 7, bạn đã biết dùng chữ để thay cho số và biết quy tắc nhân hai lũy thừa cùng cơ số. Hôm nay ta dùng hai điều đó để làm quen với một loại biểu thức đơn giản nhất: đơn thức.
+
+## Đơn thức và đơn thức thu gọn
+
+### Khám phá: viết gọn thể tích hộp quà
+
+[[P3·6e72]]
+Ta thử với $x=3$. Đáy là hình vuông cạnh $3$ cm, chiều cao là $2\cdot3=6$ cm. Thể tích là $3\cdot3\cdot6=54$ cm³.
+
+[[P4·105a]]
+Bây giờ ta gộp các thừa số giống nhau. Số $2$ đứng riêng, còn $x\cdot x\cdot x=x^3$, nên thể tích là $2x^3$. Thử lại với $x=3$: $2\cdot3^3=2\cdot27=54$. Hai kết quả bằng nhau, vậy $x\cdot x\cdot2x=2x^3$.
+
+[[P5·cf24]]
+Bảng dưới đây cho vài biểu thức và cho biết biểu thức nào "giống" $2x^3$.
+
+| Biểu thức | Có phải đơn thức? | Vì sao |
+|---|---|---|
+| $7$ | Có | chỉ là một số |
+| $y$ | Có | chỉ là một biến |
+| $-2xy$ | Có | tích của số $-2$ với các biến $x$, $y$ |
+| $\dfrac{2}{3}x^2y$ | Có | tích của số $\dfrac{2}{3}$ với các biến |
+| $x+y$ | Không | có phép cộng giữa hai biến |
+| $\dfrac{3}{x}$ | Không | biến $x$ nằm ở mẫu |
+
+  :::definition Đơn thức
+  **Đơn thức** là biểu thức chỉ gồm một số, hoặc một biến, hoặc một tích của các số và các biến (các biến có số mũ là số tự nhiên).
+  :::
+
+[[P6·a28a]]
+Một đơn thức có thể có nhiều biến, ví dụ $-2xy$ có hai biến $x$ và $y$. Biểu thức $x\cdot x\cdot2x$ cũng là đơn thức, nhưng chưa gọn, vì biến $x$ xuất hiện nhiều lần.
+
+  :::definition Đơn thức thu gọn, hệ số, phần biến, bậc
+  Đơn thức **thu gọn** là đơn thức chỉ gồm một số nhân với các lũy thừa của các biến, và mỗi biến chỉ xuất hiện một lần.
+
+  Trong đơn thức thu gọn $-5x^2y$:
+  - số $-5$ là **hệ số**;
+  - $x^2y$ là **phần biến**;
+  - **bậc** của đơn thức là tổng các số mũ của các biến: $2+1=3$.
+  :::
+
+[[P7·6f1c]]
+Số mũ của $y$ là $1$ vì $y=y^1$. Số khác $0$ là đơn thức bậc $0$. Số $0$ cũng là đơn thức, gọi là đơn thức không, và nó không có bậc.
+
+## Các phép tính với đơn thức
+
+### Đơn thức đồng dạng, cộng và trừ
+
+[[P8·3bda]]
+Ta xét $3x^2+5x^2$. Mỗi $x^2$ giống như một "gói" giống nhau: có $3$ gói cộng $5$ gói là $8$ gói. Vậy $3x^2+5x^2=8x^2$. Thử với $x=2$: $3\cdot4+5\cdot4=32$ và $8\cdot4=32$.
+
+[[P9·7b79]]
+Cách làm này đúng nhờ tính chất phân phối: $3x^2+5x^2=(3+5)x^2$. Nó chỉ dùng được khi hai đơn thức có cùng phần biến.
+
+  :::definition Đơn thức đồng dạng
+  Hai đơn thức có hệ số khác $0$ và có **cùng phần biến** gọi là **đơn thức đồng dạng**.
+
+  Muốn cộng (trừ) các đơn thức đồng dạng, ta cộng (trừ) các hệ số và giữ nguyên phần biến.
+  :::
+
+### Nhân hai đơn thức
+
+[[P10·ae81]]
+Ta nhân $(2x^2)\cdot(3x^3)$. Ta đổi chỗ các thừa số rồi nhóm số với số, biến với biến: $2\cdot3\cdot x^2\cdot x^3$. Số đứng riêng cho $6$. Với biến, ta dùng quy tắc nhân lũy thừa cùng cơ số: $x^2\cdot x^3=x^{2+3}=x^5$. Vậy $(2x^2)(3x^3)=6x^5$.
+
+  :::theorem Nhân hai đơn thức
+  Muốn nhân hai đơn thức, ta nhân các hệ số với nhau và nhân các phần biến với nhau (với cùng một biến thì cộng các số mũ):
+  $$(a\,x^m y^n)\cdot(b\,x^p y^q)=ab\,x^{m+p}y^{n+q}.$$
+  :::
+
+## Ví dụ
+
+[[P11·f79d]]
+Ta bắt đầu bằng việc nhận biết đơn thức.
+
+  :::example Nhận biết đơn thức
+  Trong các biểu thức $5$, $-x^2y$, $2x+3$, $\dfrac{4}{y}$, $\dfrac{1}{3}xy^2$, biểu thức nào là đơn thức?
+
+  **Lời giải.** Ta kiểm tra từng biểu thức xem nó có phải là số, biến hoặc tích của số và biến không:
+
+  - $5$ là một số, nên là đơn thức.
+  - $-x^2y$ là tích của $-1$ và các biến, nên là đơn thức.
+  - $2x+3$ có phép cộng, nên không là đơn thức.
+  - $\dfrac{4}{y}$ có biến ở mẫu, nên không là đơn thức.
+  - $\dfrac{1}{3}xy^2$ là tích của số $\dfrac13$ và các biến, nên là đơn thức.
+
+  Vậy có ba đơn thức: $5$, $-x^2y$ và $\dfrac{1}{3}xy^2$.
+  :::
+
+[[P12·93e9]]
+Tiếp theo, ta thu gọn một đơn thức và đọc hệ số, phần biến, bậc của nó.
+
+  :::example Thu gọn đơn thức
+  Thu gọn $A=4x\cdot\dfrac12y\cdot x^2y$ rồi chỉ ra hệ số, phần biến và bậc của $A$.
+
+  **Lời giải.** Ta nhóm các số, rồi nhóm từng biến, và dùng $x\cdot x^2=x^{1+2}$, $y\cdot y=y^{1+1}$:
+
+  $$A=\left(4\cdot\frac12\right)\cdot(x\cdot x^2)\cdot(y\cdot y)=2x^3y^2.$$
+
+  Vậy $A=2x^3y^2$ có hệ số là $2$, phần biến là $x^3y^2$ và bậc là $3+2=5$.
+  :::
+
+[[P13·2dfd]]
+Bây giờ ta đọc hệ số và bậc của vài đơn thức đã thu gọn.
+
+  :::example Hệ số và bậc
+  Tìm hệ số và bậc của các đơn thức $-7x^2y$, $\dfrac34x^4$ và $xy^2z$.
+
+  **Lời giải.** Với mỗi đơn thức, ta lấy số đứng đầu làm hệ số rồi cộng các số mũ để được bậc. Chú ý $xy^2z$ không viết số đứng đầu, tức là hệ số của nó là $1$:
+
+  | Đơn thức | Hệ số | Bậc |
+  |---|---|---|
+  | $-7x^2y$ | $-7$ | $2+1=3$ |
+  | $\dfrac34x^4$ | $\dfrac34$ | $4$ |
+  | $xy^2z$ | $1$ | $1+2+1=4$ |
+  :::
+
+[[P14·d3f3]]
+Ta chuyển sang đơn thức đồng dạng.
+
+  :::example Đơn thức đồng dạng và cộng trừ
+  Trong các đơn thức $2xy^2$, $-xy^2$, $3x^2y$, $5y^2x$, đơn thức nào đồng dạng với $xy^2$? Tính tổng các đơn thức đó.
+
+  **Lời giải.** Ta so sánh phần biến. Ta có $5y^2x=5xy^2$ vì nhân có tính giao hoán. Phần biến của $3x^2y$ là $x^2y$, khác $xy^2$.
+
+  Vậy ba đơn thức $2xy^2$, $-xy^2$, $5y^2x$ đồng dạng với $xy^2$. Ta cộng các hệ số và giữ nguyên phần biến:
+
+  $$2xy^2+(-xy^2)+5xy^2=(2-1+5)xy^2=6xy^2.$$
+
+  Vậy tổng là $6xy^2$.
+  :::
+
+[[P15·e039]]
+Còn phép nhân thì không cần đồng dạng.
+
+  :::example Nhân hai đơn thức
+  Tính $(-3x^2y)\cdot(2xy^3)$ và cho biết bậc của kết quả.
+
+  **Lời giải.** Ta nhân hệ số, rồi nhân từng biến bằng cách cộng số mũ ($x$ có $2+1$, $y$ có $1+3$):
+
+  $$(-3x^2y)\cdot(2xy^3)=(-3\cdot2)\cdot x^{2+1}\cdot y^{1+3}=-6x^3y^4.$$
+
+  Vậy kết quả là $-6x^3y^4$, có bậc $3+4=7$.
+  :::
+
+[[P16·5444]]
+Cuối cùng, ta dùng đơn thức trong bài toán thực tế mở đầu.
+
+  :::example Thể tích hai loại hộp
+  Hộp A có đáy hình vuông cạnh $x$ cm và cao $2x$ cm. Hộp B là hình lập phương cạnh $x$ cm. Viết thể tích một hộp A cộng thể tích một hộp B dưới dạng đơn thức, rồi tính giá trị khi $x=4$.
+
+  **Lời giải.** Thể tích hộp A là $x\cdot x\cdot2x=2x^3$. Thể tích hộp B là $x\cdot x\cdot x=x^3$. Hai đơn thức này đồng dạng, nên ta cộng các hệ số:
+
+  $$2x^3+x^3=(2+1)x^3=3x^3.$$
+
+  Với $x=4$: $3\cdot4^3=3\cdot64=192$.
+
+  Vậy tổng thể tích là $3x^3$ cm³, và bằng $192$ cm³ khi $x=4$.
+  :::
+
+:::warning Những sai lầm thường gặp
+[[P17·9801]]
+- **Cho rằng $x+y$ là đơn thức.** Sai: $x+y$ là đơn thức. Lí do sai: đơn thức chỉ có phép nhân giữa số và biến, không có phép cộng. Đúng: $x+y$ không phải đơn thức.
+- **Tính bậc bằng cách nhân số mũ.** Sai: bậc của $x^2y^3$ là $2\cdot3=6$. Lí do sai: bậc là tổng các số mũ. Đúng: $2+3=5$.
+- **Cộng cả số mũ khi cộng đơn thức.** Sai: $3x^2+5x^2=8x^4$. Lí do sai: cộng hệ số thì phần biến giữ nguyên, giống như $3$ gói cộng $5$ gói là $8$ gói. Đúng: $8x^2$. (Thử $x=2$: $3\cdot4+5\cdot4=32$, còn $8\cdot2^4=128$.)
+- **Nhân lũy thừa mà nhân số mũ.** Sai: $x^2\cdot x^3=x^6$. Lí do sai: $x^2\cdot x^3=(x\cdot x)(x\cdot x\cdot x)$ có $5$ thừa số $x$. Đúng: $x^5$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - đơn thức | monomial
+  - biến | variable
+  - hệ số | coefficient
+  - phần biến | variable part
+  - đơn thức thu gọn | monomial in its simplest form
+  - bậc của đơn thức | degree of a monomial
+  - đơn thức đồng dạng | like terms
+  - lũy thừa | power
+  - số mũ | exponent (index)
+  - hằng số | constant
+  :::
+
+## Tóm tắt
+
+[[P18·b8cb]]
+- Đơn thức là một số, một biến, hoặc tích của các số và các biến. Biểu thức có phép cộng, trừ hoặc biến ở mẫu không phải đơn thức.
+- Đơn thức thu gọn $ax^my^n$ có hệ số $a$, phần biến $x^my^n$, bậc là tổng các số mũ $m+n$.
+- Hai đơn thức đồng dạng nếu hệ số khác $0$ và cùng phần biến. Cộng, trừ chúng: cộng, trừ hệ số, giữ nguyên phần biến.
+- Nhân hai đơn thức: nhân hệ số với nhau, nhân phần biến với nhau (cộng số mũ của cùng một biến).
+- Có thể thử lại bằng cách thay biến bằng một số nhỏ, ví dụ $x=2$, rồi so sánh hai vế.
+
+## Luyện tập
+
+[[P19·b0c6]]
+Mỗi bài có phần kiến thức và gợi ý các bước. Hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -671,15 +854,276 @@ Each exercise comes with what you need and some steps to start. Try it yourself 
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Challenge
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise Challenge
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g8/monomials – BẢN TIẾNG ANH ########
+---
+title: Monomials
+description: Recognise monomials, simplify them, find the coefficient, variable part and degree, spot like monomials, and add, subtract and multiply monomials.
+minutes: 20
+---
+
+  :::goals
+  - Recognise monomials and monomials in simplest form; find the coefficient, the variable part and the degree of a monomial.
+  - Recognise like monomials, and add and subtract like monomials.
+  - Multiply two monomials by multiplying coefficient by coefficient and variable part by variable part.
+  - Use monomials to write areas and volumes briefly in real-life problems.
+  :::
+
+[[P1·3294]]
+A gift box has a square base with side $x$ cm, and its height is twice the side of the base, that is $2x$ cm. The volume of the box is $x\cdot x\cdot2x$ (cm³). How can this expression be written more briefly, and what kind of expression is it?
+
+[[P2·136a]]
+In grade $7$ you learned to use letters in place of numbers and the rule for multiplying two powers with the same base. Today we use both ideas to meet the simplest kind of algebraic expression: the monomial.
+
+## Monomials and monomials in simplest form
+
+### Explore: writing the volume of the gift box briefly
+
+[[P3·24bd]]
+Try $x=3$. The base is a square with side $3$ cm and the height is $2\cdot3=6$ cm. The volume is $3\cdot3\cdot6=54$ cm³.
+
+[[P4·ebad]]
+Now group the factors that are the same. The number $2$ stands on its own, and $x\cdot x\cdot x=x^3$, so the volume is $2x^3$. Check with $x=3$: $2\cdot3^3=2\cdot27=54$. The two results are equal, so $x\cdot x\cdot2x=2x^3$.
+
+[[P5·3f68]]
+The table below lists some expressions and shows which ones are "like" $2x^3$.
+
+| Expression | A monomial? | Why |
+|---|---|---|
+| $7$ | Yes | it is just a number |
+| $y$ | Yes | it is just a variable |
+| $-2xy$ | Yes | a product of the number $-2$ and the variables $x$, $y$ |
+| $\dfrac{2}{3}x^2y$ | Yes | a product of the number $\dfrac{2}{3}$ and variables |
+| $x+y$ | No | there is an addition between two variables |
+| $\dfrac{3}{x}$ | No | the variable $x$ is in the denominator |
+
+  :::definition Monomial
+  A **monomial** is an expression that is just a number, or just a variable, or a product of numbers and variables (with the variables raised to natural-number powers).
+  :::
+
+[[P6·2130]]
+A monomial can have several variables; for example $-2xy$ has the two variables $x$ and $y$. The expression $x\cdot x\cdot2x$ is also a monomial, but it is not in simplest form, because the variable $x$ appears more than once.
+
+  :::definition Monomial in simplest form, coefficient, variable part, degree
+  A monomial **in simplest form** is a monomial made of one number multiplied by powers of the variables, with each variable appearing only once.
+
+  In the monomial in simplest form $-5x^2y$:
+  - the number $-5$ is the **coefficient**;
+  - $x^2y$ is the **variable part**;
+  - the **degree** of the monomial is the sum of the exponents of the variables: $2+1=3$.
+  :::
+
+[[P7·af01]]
+The exponent of $y$ is $1$ because $y=y^1$. A non-zero number is a monomial of degree $0$. The number $0$ is also a monomial, called the zero monomial, and it has no degree.
+
+## Operations with monomials
+
+### Like monomials, addition and subtraction
+
+[[P8·5724]]
+Look at $3x^2+5x^2$. Each $x^2$ is like an identical "packet": $3$ packets plus $5$ packets make $8$ packets. So $3x^2+5x^2=8x^2$. Check with $x=2$: $3\cdot4+5\cdot4=32$ and $8\cdot4=32$.
+
+[[P9·0d31]]
+This works because of the distributive law: $3x^2+5x^2=(3+5)x^2$. It only works when the two monomials have the same variable part.
+
+  :::definition Like monomials
+  Two monomials with non-zero coefficients and **the same variable part** are called **like monomials**.
+
+  To add (subtract) like monomials, add (subtract) the coefficients and keep the variable part the same.
+  :::
+
+### Multiplying two monomials
+
+[[P10·da1d]]
+Multiply $(2x^2)\cdot(3x^3)$. Rearrange the factors to group numbers with numbers and variables with variables: $2\cdot3\cdot x^2\cdot x^3$. The numbers give $6$. For the variable, use the rule for multiplying powers with the same base: $x^2\cdot x^3=x^{2+3}=x^5$. So $(2x^2)(3x^3)=6x^5$.
+
+  :::theorem Multiplying two monomials
+  To multiply two monomials, multiply the coefficients together and multiply the variable parts together (for the same variable, add the exponents):
+  $$(a\,x^m y^n)\cdot(b\,x^p y^q)=ab\,x^{m+p}y^{n+q}.$$
+  :::
+
+## Examples
+
+[[P11·d778]]
+We start by recognising monomials.
+
+  :::example Recognising monomials
+  Of the expressions $5$, $-x^2y$, $2x+3$, $\dfrac{4}{y}$, $\dfrac{1}{3}xy^2$, which are monomials?
+
+  **Solution.** Check whether each expression is a number, a variable or a product of numbers and variables:
+
+  - $5$ is a number, so it is a monomial.
+  - $-x^2y$ is a product of $-1$ and variables, so it is a monomial.
+  - $2x+3$ contains an addition, so it is not a monomial.
+  - $\dfrac{4}{y}$ has a variable in the denominator, so it is not a monomial.
+  - $\dfrac{1}{3}xy^2$ is a product of the number $\dfrac13$ and variables, so it is a monomial.
+
+  So there are three monomials: $5$, $-x^2y$ and $\dfrac{1}{3}xy^2$.
+  :::
+
+[[P12·63f1]]
+Next, we simplify a monomial and read off its coefficient, variable part and degree.
+
+  :::example Simplifying a monomial
+  Simplify $A=4x\cdot\dfrac12y\cdot x^2y$, then give the coefficient, the variable part and the degree of $A$.
+
+  **Solution.** Group the numbers, then group each variable, using $x\cdot x^2=x^{1+2}$ and $y\cdot y=y^{1+1}$:
+
+  $$A=\left(4\cdot\frac12\right)\cdot(x\cdot x^2)\cdot(y\cdot y)=2x^3y^2.$$
+
+  So $A=2x^3y^2$ has coefficient $2$, variable part $x^3y^2$ and degree $3+2=5$.
+  :::
+
+[[P13·ef80]]
+Now we read the coefficient and degree of some monomials already in simplest form.
+
+  :::example Coefficient and degree
+  Find the coefficient and the degree of the monomials $-7x^2y$, $\dfrac34x^4$ and $xy^2z$.
+
+  **Solution.** For each monomial, the number in front is the coefficient, and we add the exponents to get the degree. Note that $xy^2z$ has no number written in front, so its coefficient is $1$:
+
+  | Monomial | Coefficient | Degree |
+  |---|---|---|
+  | $-7x^2y$ | $-7$ | $2+1=3$ |
+  | $\dfrac34x^4$ | $\dfrac34$ | $4$ |
+  | $xy^2z$ | $1$ | $1+2+1=4$ |
+  :::
+
+[[P14·49a1]]
+We move on to like monomials.
+
+  :::example Like monomials, addition and subtraction
+  Of the monomials $2xy^2$, $-xy^2$, $3x^2y$, $5y^2x$, which are like $xy^2$? Find the sum of those monomials.
+
+  **Solution.** Compare the variable parts. We have $5y^2x=5xy^2$ because multiplication is commutative. The variable part of $3x^2y$ is $x^2y$, which is different from $xy^2$.
+
+  So the three monomials $2xy^2$, $-xy^2$, $5y^2x$ are like $xy^2$. Add the coefficients and keep the variable part:
+
+  $$2xy^2+(-xy^2)+5xy^2=(2-1+5)xy^2=6xy^2.$$
+
+  So the sum is $6xy^2$.
+  :::
+
+[[P15·65d6]]
+Multiplication, on the other hand, does not need like monomials.
+
+  :::example Multiplying two monomials
+  Work out $(-3x^2y)\cdot(2xy^3)$ and give the degree of the result.
+
+  **Solution.** Multiply the coefficients, then multiply each variable by adding its exponents ($x$ has $2+1$, $y$ has $1+3$):
+
+  $$(-3x^2y)\cdot(2xy^3)=(-3\cdot2)\cdot x^{2+1}\cdot y^{1+3}=-6x^3y^4.$$
+
+  So the result is $-6x^3y^4$, of degree $3+4=7$.
+  :::
+
+[[P16·4a6f]]
+Last, we use monomials in the real-life problem from the start of the lesson.
+
+  :::example The volume of two kinds of box
+  Box A has a square base with side $x$ cm and height $2x$ cm. Box B is a cube with side $x$ cm. Write the volume of one box A plus the volume of one box B as a monomial, then find its value when $x=4$.
+
+  **Solution.** The volume of box A is $x\cdot x\cdot2x=2x^3$. The volume of box B is $x\cdot x\cdot x=x^3$. These two monomials are like monomials, so we add the coefficients:
+
+  $$2x^3+x^3=(2+1)x^3=3x^3.$$
+
+  When $x=4$: $3\cdot4^3=3\cdot64=192$.
+
+  So the total volume is $3x^3$ cm³, which is $192$ cm³ when $x=4$.
+  :::
+
+:::warning Common mistakes
+[[P17·a291]]
+- **Thinking that $x+y$ is a monomial.** Wrong: $x+y$ is a monomial. Why it is wrong: a monomial only has multiplication between numbers and variables, never addition. Right: $x+y$ is not a monomial.
+- **Finding the degree by multiplying the exponents.** Wrong: the degree of $x^2y^3$ is $2\cdot3=6$. Why it is wrong: the degree is the sum of the exponents. Right: $2+3=5$.
+- **Adding the exponents when adding monomials.** Wrong: $3x^2+5x^2=8x^4$. Why it is wrong: when you add the coefficients, the variable part stays the same, just as $3$ packets plus $5$ packets make $8$ packets. Right: $8x^2$. (Try $x=2$: $3\cdot4+5\cdot4=32$, but $8\cdot2^4=128$.)
+- **Multiplying the exponents when multiplying powers.** Wrong: $x^2\cdot x^3=x^6$. Why it is wrong: $x^2\cdot x^3=(x\cdot x)(x\cdot x\cdot x)$ has $5$ factors of $x$. Right: $x^5$.
+:::
+
+## Key terms
+
+  :::terms
+  - monomial | đơn thức
+  - variable | biến
+  - coefficient | hệ số
+  - variable part | phần biến
+  - monomial in its simplest form | đơn thức thu gọn
+  - degree of a monomial | bậc của đơn thức
+  - like terms | đơn thức đồng dạng
+  - power | lũy thừa
+  - exponent (index) | số mũ
+  - constant | hằng số
+  :::
+
+## Summary
+
+[[P18·72cf]]
+- A monomial is a number, a variable, or a product of numbers and variables. An expression with addition, subtraction or a variable in the denominator is not a monomial.
+- A monomial in simplest form $ax^my^n$ has coefficient $a$, variable part $x^my^n$, and degree equal to the sum of the exponents $m+n$.
+- Two monomials are like monomials if their coefficients are non-zero and they have the same variable part. To add or subtract them, add or subtract the coefficients and keep the variable part.
+- To multiply two monomials, multiply the coefficients together and the variable parts together (adding the exponents of the same variable).
+- You can check by replacing the variables with a small number, for example $x=2$, and comparing the two sides.
+
+## Practice
+
+[[P19·e420]]
+Each exercise comes with what you need and hints. Try it yourself first, then open the solution.
+
+:::exercise
    (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 24 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test

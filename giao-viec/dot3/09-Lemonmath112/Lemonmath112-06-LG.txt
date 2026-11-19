@@ -189,1039 +189,909 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g12/review-functions-derivatives (10 bài tập)
-- g12/review-integrals (10 bài tập)
-- g12/review-optimisation-real-life (10 bài tập)
-- g12/review-space-geometry (10 bài tập)
+- g10/approximations-errors (10 bài tập)
+- g10/binomial-theorem (10 bài tập)
+- g10/central-tendency (10 bài tập)
+- g10/circles (10 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g12/review-functions-derivatives
-Bài học: Ôn tập: đạo hàm và khảo sát hàm số / Revision: derivatives and graphs of functions
+@@@ g10/approximations-errors
+Bài học: Số gần đúng và sai số / Approximate values and errors
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Hàm số $y=x^4-2x^2+1$ có bao nhiêu điểm cực trị?
-A. $3$.
-B. $1$.
-C. $2$.
-D. $0$.
+Quy tròn $4\,863$ đến hàng chục và hàng trăm; quy tròn $2{,}71828$ đến hàng phần trăm và hàng phần nghìn.
 
 [LỜI GIẢI CŨ – VI]
-$y'=4x(x-1)(x+1)$ có ba nghiệm đơn $-1$, $0$, $1$, và $y'$ đổi dấu qua mỗi nghiệm.
+$4\,863$: chữ số hàng đơn vị $3<5$ nên đến hàng chục là $4\,860$; chữ số hàng chục $6\ge5$ nên đến hàng trăm là $4\,900$. $2{,}71828$: chữ số hàng phần nghìn $8\ge5$ nên đến hàng phần trăm là $2{,}72$; chữ số hàng phần chục nghìn $2<5$ nên đến hàng phần nghìn là $2{,}718$.
 
-**Đáp số.** A.
+**Đáp số.** $4\,860$; $4\,900$; $2{,}72$; $2{,}718$.
 
 [ĐỀ – EN]
-How many turning points does $y=x^4-2x^2+1$ have?
-A. $3$.
-B. $1$.
-C. $2$.
-D. $0$.
+Round $4\,863$ to the nearest ten and the nearest hundred; round $2.71828$ to two and to three decimal places.
 
 [LỜI GIẢI CŨ – EN]
-$y'=4x(x-1)(x+1)$ has three simple roots $-1$, $0$, $1$, and $y'$ changes sign at each of them.
+$4\,863$: the units digit $3<5$, so to the nearest ten it is $4\,860$; the tens digit $6\ge5$, so to the nearest hundred it is $4\,900$. $2.71828$: the thousandths digit $8\ge5$, so to two decimal places it is $2.72$; the ten-thousandths digit $2<5$, so to three decimal places it is $2.718$.
 
-**Answer.** A.
+**Answer.** $4\,860$; $4\,900$; $2.72$; $2.718$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Đồ thị hàm số $y=\dfrac{3x-1}{x-2}$ có tiệm cận đứng và tiệm cận ngang lần lượt là
-A. $x=2$ và $y=3$.
-B. $x=-2$ và $y=3$.
-C. $x=2$ và $y=\dfrac12$.
-D. $x=3$ và $y=2$.
+Biết $\sqrt3=1{,}7320508\ldots$ Lấy $\bar a=1{,}73$ làm số gần đúng của $\sqrt3$. Chứng tỏ $\Delta_{\bar a}<0{,}0021$ và tìm cận trên của sai số tương đối (dạng phần trăm, làm tròn đến hàng phần trăm).
 
 [LỜI GIẢI CŨ – VI]
-Mẫu bằng $0$ tại $x=2$, tử bằng $5\ne0$, nên $x=2$ là tiệm cận đứng. $\lim\limits_{x\to\pm\infty}y=3$. Phương án C lấy tỉ số hai hệ số tự do $\dfrac{-1}{-2}$.
+$\Delta_{\bar a}=1{,}7320508\ldots-1{,}73=0{,}0020508\ldots<0{,}0021$. Do đó
+$$\delta_{\bar a}\le\dfrac{0{,}0021}{1{,}73}\approx0{,}0012=0{,}12\%.$$
 
-**Đáp số.** A.
+**Đáp số.** $\delta_{\bar a}\le0{,}12\%$.
 
 [ĐỀ – EN]
-The vertical and horizontal asymptotes of the graph of $y=\dfrac{3x-1}{x-2}$ are
-A. $x=2$ and $y=3$.
-B. $x=-2$ and $y=3$.
-C. $x=2$ and $y=\dfrac12$.
-D. $x=3$ and $y=2$.
+Given $\sqrt3=1.7320508\ldots$, take $\bar a=1.73$ as an approximation of $\sqrt3$. Show that $\Delta_{\bar a}<0.0021$ and find an upper bound for the relative error (as a percentage, rounded to two decimal places).
 
 [LỜI GIẢI CŨ – EN]
-The denominator is $0$ at $x=2$ and the numerator is $5\ne0$ there, so $x=2$ is a vertical asymptote. $\lim\limits_{x\to\pm\infty}y=3$. Option C takes the ratio of the constant terms $\dfrac{-1}{-2}$.
+$\Delta_{\bar a}=1.7320508\ldots-1.73=0.0020508\ldots<0.0021$. Hence
+$$\delta_{\bar a}\le\dfrac{0.0021}{1.73}\approx0.0012=0.12\%.$$
 
-**Answer.** A.
+**Answer.** $\delta_{\bar a}\le0.12\%$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Gọi $M$, $m$ là giá trị lớn nhất và giá trị nhỏ nhất của $y=x+\dfrac4x$ trên đoạn $[1; 5]$. Tính $M+m$.
+Số nào xấp xỉ $\sqrt2=1{,}41421356\ldots$ tốt hơn: $1{,}41$ hay $\dfrac{99}{70}$?
 
 [LỜI GIẢI CŨ – VI]
-$y'=0\iff x=2$ (loại $x=-2$). $y(1)=5$, $y(2)=4$, $y(5)=5+0{,}8=5{,}8$. Vậy $M=5{,}8$, $m=4$.
+$\dfrac{99}{70}=1{,}4142857\ldots$ Ta có
+$$|\sqrt2-1{,}41|\approx0{,}0042,\qquad \left|\dfrac{99}{70}-\sqrt2\right|\approx0{,}000072.$$
+Sai số thứ hai nhỏ hơn rất nhiều.
 
-**Đáp số.** $9{,}8$.
+**Đáp số.** $\dfrac{99}{70}$ xấp xỉ $\sqrt2$ tốt hơn.
 
 [ĐỀ – EN]
-Let $M$, $m$ be the maximum and minimum values of $y=x+\dfrac4x$ on $[1, 5]$. Find $M+m$.
+Which is the better approximation of $\sqrt2=1.41421356\ldots$: $1.41$ or $\dfrac{99}{70}$?
 
 [LỜI GIẢI CŨ – EN]
-$y'=0\iff x=2$ (reject $x=-2$). $y(1)=5$, $y(2)=4$, $y(5)=5+0.8=5.8$. So $M=5.8$ and $m=4$.
+$\dfrac{99}{70}=1.4142857\ldots$ We have
+$$|\sqrt2-1.41|\approx0.0042,\qquad \left|\dfrac{99}{70}-\sqrt2\right|\approx0.000072.$$
+The second error is far smaller.
 
-**Answer.** $9.8$.
+**Answer.** $\dfrac{99}{70}$ is the better approximation of $\sqrt2$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tìm các đường tiệm cận của đồ thị hàm số $y=\dfrac{x^2+x+1}{x-1}$.
+Biết $\sqrt7=2{,}6457513\ldots$ và $\pi^2=9{,}8696044\ldots$ Viết số gần đúng của $\sqrt7$ với độ chính xác $0{,}001$ và của $\pi^2$ với độ chính xác $0{,}01$.
 
 [LỜI GIẢI CŨ – VI]
-Phép chia cho $x^2+x+1=(x-1)(x+2)+3$, nên $y=x+2+\dfrac{3}{x-1}$. Khi $x\to1^+$, $y\to+\infty$, nên $x=1$ là tiệm cận đứng. Khi $x\to\pm\infty$, $y-(x+2)=\dfrac{3}{x-1}\to0$, nên $y=x+2$ là tiệm cận xiên. Đồ thị không có tiệm cận ngang vì $y\to\pm\infty$.
+$\sqrt7\approx2{,}646$ với sai số $\approx0{,}00025\le0{,}001$. $\pi^2\approx9{,}87$ với sai số $\approx0{,}0004\le0{,}01$.
 
-**Đáp số.** Tiệm cận đứng $x=1$, tiệm cận xiên $y=x+2$.
+**Đáp số.** $\sqrt7\approx2{,}646$; $\pi^2\approx9{,}87$.
 
 [ĐỀ – EN]
-Find the asymptotes of the graph of $y=\dfrac{x^2+x+1}{x-1}$.
+Given $\sqrt7=2.6457513\ldots$ and $\pi^2=9.8696044\ldots$, write an approximation of $\sqrt7$ with error bound $0.001$ and of $\pi^2$ with error bound $0.01$.
 
 [LỜI GIẢI CŨ – EN]
-The division gives $x^2+x+1=(x-1)(x+2)+3$, so $y=x+2+\dfrac{3}{x-1}$. As $x\to1^+$, $y\to+\infty$, so $x=1$ is a vertical asymptote. As $x\to\pm\infty$, $y-(x+2)=\dfrac{3}{x-1}\to0$, so $y=x+2$ is an oblique asymptote. There is no horizontal asymptote, because $y\to\pm\infty$.
+$\sqrt7\approx2.646$ with error $\approx0.00025\le0.001$. $\pi^2\approx9.87$ with error $\approx0.0004\le0.01$.
 
-**Answer.** Vertical asymptote $x=1$, oblique asymptote $y=x+2$.
+**Answer.** $\sqrt7\approx2.646$; $\pi^2\approx9.87$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Hàm số $y=f(x)$ có đạo hàm $f'(x)=x(x-1)^2(x+2)$ với mọi $x\in\mathbb{R}$.
-
-a) Hàm số có ba điểm cực trị.
-
-b) Hàm số đạt cực tiểu tại $x=0$.
-
-c) Hàm số đồng biến trên khoảng $(0; +\infty)$.
-
-d) $f(-1)>f(0)$.
+Viết số quy tròn của mỗi số gần đúng: (a) $\bar a=2\,476\,154\pm2\,000$; (b) $\bar b=0{,}73914\pm0{,}004$.
 
 [LỜI GIẢI CŨ – VI]
-Dấu của $f'$: dương trên $(-\infty; -2)$, âm trên $(-2; 0)$, dương trên $(0; 1)$ và $(1; +\infty)$.
+(a) $2\,000$ không nhỏ hơn $1\,000$ nhưng nhỏ hơn $10\,000$, nên quy tròn đến hàng chục nghìn; chữ số hàng nghìn là $6\ge5$: $2\,480\,000$.
 
-a) **Sai**: tại $x=1$ không đổi dấu; chỉ có hai điểm cực trị $x=-2$ và $x=0$.
+(b) $0{,}004$ nhỏ hơn $0{,}01$ nhưng không nhỏ hơn $0{,}001$, nên quy tròn đến hàng phần trăm; chữ số hàng phần nghìn là $9\ge5$: $0{,}74$.
 
-b) **Đúng**: $f'$ đổi dấu từ $-$ sang $+$ tại $x=0$.
-
-c) **Đúng**: $f'\ge0$ trên $(0; +\infty)$ và chỉ bằng $0$ tại $x=1$.
-
-d) **Đúng**: $f$ nghịch biến trên $(-2; 0)$ và $-1<0$.
-
-**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Đúng.
+**Đáp số.** (a) $2\,480\,000$; (b) $0{,}74$.
 
 [ĐỀ – EN]
-The function $y=f(x)$ has derivative $f'(x)=x(x-1)^2(x+2)$ for all $x\in\mathbb{R}$.
-
-a) The function has three turning points.
-
-b) The function has a local minimum at $x=0$.
-
-c) The function is increasing on $(0, +\infty)$.
-
-d) $f(-1)>f(0)$.
+Write the rounded form of each approximate value: (a) $\bar a=2\,476\,154\pm2\,000$; (b) $\bar b=0.73914\pm0.004$.
 
 [LỜI GIẢI CŨ – EN]
-The sign of $f'$: positive on $(-\infty, -2)$, negative on $(-2, 0)$, positive on $(0, 1)$ and on $(1, +\infty)$.
+(a) $2\,000$ is not less than $1\,000$ but is less than $10\,000$, so round to the nearest ten thousand; the thousands digit is $6\ge5$: $2\,480\,000$.
 
-a) **False**: there is no sign change at $x=1$; there are only two turning points, $x=-2$ and $x=0$.
+(b) $0.004$ is less than $0.01$ but not less than $0.001$, so round to two decimal places; the thousandths digit is $9\ge5$: $0.74$.
 
-b) **True**: $f'$ changes from $-$ to $+$ at $x=0$.
-
-c) **True**: $f'\ge0$ on $(0, +\infty)$ and is $0$ only at $x=1$.
-
-d) **True**: $f$ is decreasing on $(-2, 0)$ and $-1<0$.
-
-**Answer.** a) False; b) True; c) True; d) True.
+**Answer.** (a) $2\,480\,000$; (b) $0.74$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Nồng độ một loại thuốc trong máu sau khi uống $t$ giờ là $C(t)=\dfrac{5t}{t^2+4}$ (mg/l), $t\ge0$. Nồng độ cao nhất bằng bao nhiêu mg/l?
+Một thợ may đo tấm vải dài $6{,}4$ m với độ chính xác $0{,}05$ m. Một thợ xây đo bức tường dài $85$ m với độ chính xác $0{,}4$ m. Phép đo của ai chính xác hơn?
 
 [LỜI GIẢI CŨ – VI]
-$$C'(t)=\frac{5(t^2+4)-5t\cdot2t}{(t^2+4)^2}=\frac{5(4-t^2)}{(t^2+4)^2}.$$
-Với $t\ge0$, $C'>0$ khi $t<2$ và $C'<0$ khi $t>2$. Nồng độ cao nhất là $C(2)=\dfrac{10}{8}=1{,}25$ mg/l, sau $2$ giờ.
+Thợ may: $\delta_1\le\dfrac{0{,}05}{6{,}4}\approx0{,}78\%$. Thợ xây: $\delta_2\le\dfrac{0{,}4}{85}\approx0{,}47\%$.
 
-**Đáp số.** $1{,}25$.
+**Đáp số.** Phép đo của thợ xây chính xác hơn.
 
 [ĐỀ – EN]
-The concentration of a drug in the blood $t$ hours after it is taken is $C(t)=\dfrac{5t}{t^2+4}$ (mg/l), $t\ge0$. What is the highest concentration, in mg/l?
+A tailor measures a piece of cloth as $6.4$ m with error bound $0.05$ m. A builder measures a wall as $85$ m with error bound $0.4$ m. Whose measurement is more accurate?
 
 [LỜI GIẢI CŨ – EN]
-$$C'(t)=\frac{5(t^2+4)-5t\cdot2t}{(t^2+4)^2}=\frac{5(4-t^2)}{(t^2+4)^2}.$$
-For $t\ge0$, $C'>0$ when $t<2$ and $C'<0$ when $t>2$. The highest concentration is $C(2)=\dfrac{10}{8}=1.25$ mg/l, after $2$ hours.
+Tailor: $\delta_1\le\dfrac{0.05}{6.4}\approx0.78\%$. Builder: $\delta_2\le\dfrac{0.4}{85}\approx0.47\%$.
 
-**Answer.** $1.25$.
+**Answer.** The builder's measurement is more accurate.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Hàm số $y=f(x)$ liên tục trên $\mathbb{R}$ có bảng biến thiên:
+Cho $\bar a=4{,}375$ là số gần đúng của $a$ với độ chính xác $d=0{,}02$. Mỗi khẳng định sau đúng hay sai?
 
-| $x$ | $-\infty$ | | $0$ | | $2$ | | $+\infty$ |
-|---|---|---|---|---|---|---|---|
-| $f'(x)$ | | $+$ | $0$ | $-$ | $0$ | $+$ | |
-| $f(x)$ | $-\infty$ | $\nearrow$ | $1$ | $\searrow$ | $-3$ | $\nearrow$ | $+\infty$ |
-
-Số nghiệm của phương trình $2f(x)+6=0$ là
-A. $1$.
-B. $2$.
-C. $3$.
-D. $0$.
+a) $a$ thuộc đoạn $[4{,}355; 4{,}395]$.
+b) Sai số tương đối của $\bar a$ không vượt quá $0{,}5\%$.
+c) Số quy tròn của $\bar a$ là $4{,}38$.
+d) Có thể $a=4{,}4$.
 
 [LỜI GIẢI CŨ – VI]
-$2f(x)+6=0\iff f(x)=-3$. Đường thẳng $y=-3$ chạm đồ thị tại điểm cực tiểu $x=2$ và cắt nhánh trái một lần trên $(-\infty; 0)$ (vì $f$ tăng từ $-\infty$ lên $1$). Không cắt trên $(2; +\infty)$ vì ở đó $f>-3$.
+a) **Đúng.** $4{,}375-0{,}02=4{,}355$ và $4{,}375+0{,}02=4{,}395$.
 
-**Đáp số.** B.
+b) **Đúng.** $\dfrac{0{,}02}{4{,}375}\approx0{,}46\%\le0{,}5\%$.
+
+c) **Sai.** $0{,}02$ không nhỏ hơn $0{,}01$ nhưng nhỏ hơn $0{,}1$, nên quy tròn đến hàng phần mười: $4{,}4$.
+
+d) **Sai.** $4{,}4-4{,}375=0{,}025>0{,}02$, nên $4{,}4$ nằm ngoài đoạn ở câu a).
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
 
 [ĐỀ – EN]
-The function $y=f(x)$ is continuous on $\mathbb{R}$ with this table of variations:
+Let $\bar a=4.375$ be an approximation of $a$ with error bound $d=0.02$. Is each claim true or false?
 
-| $x$ | $-\infty$ | | $0$ | | $2$ | | $+\infty$ |
-|---|---|---|---|---|---|---|---|
-| $f'(x)$ | | $+$ | $0$ | $-$ | $0$ | $+$ | |
-| $f(x)$ | $-\infty$ | $\nearrow$ | $1$ | $\searrow$ | $-3$ | $\nearrow$ | $+\infty$ |
-
-The number of roots of $2f(x)+6=0$ is
-A. $1$.
-B. $2$.
-C. $3$.
-D. $0$.
+a) $a$ lies in the interval $[4.355, 4.395]$.
+b) The relative error of $\bar a$ is at most $0.5\%$.
+c) The rounded form of $\bar a$ is $4.38$.
+d) It is possible that $a=4.4$.
 
 [LỜI GIẢI CŨ – EN]
-$2f(x)+6=0\iff f(x)=-3$. The line $y=-3$ touches the graph at the local minimum $x=2$ and crosses the left branch once on $(-\infty, 0)$ (since $f$ rises from $-\infty$ to $1$). It does not meet the graph on $(2, +\infty)$, where $f>-3$.
+a) **True.** $4.375-0.02=4.355$ and $4.375+0.02=4.395$.
 
-**Answer.** B.
+b) **True.** $\dfrac{0.02}{4.375}\approx0.46\%\le0.5\%$.
+
+c) **False.** $0.02$ is not less than $0.01$ but is less than $0.1$, so we round to one decimal place: $4.4$.
+
+d) **False.** $4.4-4.375=0.025>0.02$, so $4.4$ lies outside the interval in a).
+
+**Answer.** a) True; b) True; c) False; d) False.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Cho hàm số $y=\dfrac{x+1}{x-1}$.
-
-a) Tập xác định của hàm số là $\mathbb{R}\setminus\{1\}$.
-
-b) Hàm số nghịch biến trên $\mathbb{R}\setminus\{1\}$.
-
-c) Giao điểm hai tiệm cận của đồ thị là $I(1; 1)$.
-
-d) Giá trị lớn nhất của hàm số trên đoạn $[2; 4]$ bằng $3$.
+Một sân hình chữ nhật có chiều dài $32{,}5\pm0{,}1$ m và chiều rộng $18{,}4\pm0{,}1$ m. Tính cận trên của sai số tương đối của chu vi, viết dưới dạng phần trăm và làm tròn đến hàng phần trăm.
 
 [LỜI GIẢI CŨ – VI]
-$y'=\dfrac{-1-1}{(x-1)^2}=\dfrac{-2}{(x-1)^2}<0$ với mọi $x\ne1$.
+Chu vi gần đúng $\bar P=2(32{,}5+18{,}4)=101{,}8$ m, độ chính xác $d=2(0{,}1+0{,}1)=0{,}4$ m. Do đó
+$$\delta\le\dfrac{0{,}4}{101{,}8}\approx0{,}39\%.$$
 
-a) **Đúng**: mẫu bằng $0$ chỉ tại $x=1$.
+**Đáp số.** $\delta\le0{,}39\%$.
 
-b) **Sai**: hàm số nghịch biến trên từng khoảng $(-\infty; 1)$ và $(1; +\infty)$, nhưng $y(0)=-1<y(2)=3$ nên không nghịch biến trên cả hợp.
+[ĐỀ – EN]
+A rectangular yard is $32.5\pm0.1$ m long and $18.4\pm0.1$ m wide. Find an upper bound for the relative error of its perimeter, as a percentage rounded to two decimal places.
 
-c) **Đúng**: tiệm cận đứng $x=1$, tiệm cận ngang $y=1$.
+[LỜI GIẢI CŨ – EN]
+Approximate perimeter $\bar P=2(32.5+18.4)=101.8$ m, error bound $d=2(0.1+0.1)=0.4$ m. Hence
+$$\delta\le\dfrac{0.4}{101.8}\approx0.39\%.$$
 
-d) **Đúng**: hàm số nghịch biến trên $[2; 4]$ nên giá trị lớn nhất là $y(2)=3$.
+**Answer.** $\delta\le0.39\%$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+(Ôn tập bài [Tập hợp và các phép toán trên tập hợp](lesson:sets-and-set-operations)) Biết $\pi=3{,}14\pm0{,}002$.
+
+(a) Viết tập $I$ các giá trị có thể của $\pi$ theo thông tin này dưới dạng một đoạn. (b) Số $\dfrac{22}{7}$ có thuộc $I$ không? (c) Tìm $I\cap[3{,}141; 3{,}15]$.
+
+[LỜI GIẢI CŨ – VI]
+(a) $I=[3{,}138; 3{,}142]$.
+
+(b) $\dfrac{22}{7}=3{,}142857\ldots>3{,}142$, nên $\dfrac{22}{7}\notin I$.
+
+(c) Phần chung của $[3{,}138; 3{,}142]$ và $[3{,}141; 3{,}15]$ là $[3{,}141; 3{,}142]$.
+
+**Đáp số.** (a) $[3{,}138; 3{,}142]$; (b) không; (c) $[3{,}141; 3{,}142]$.
+
+[ĐỀ – EN]
+(Review of [Sets and set operations](lesson:sets-and-set-operations)) We know that $\pi=3.14\pm0.002$.
+
+(a) Write the set $I$ of possible values of $\pi$ given by this information as a closed interval. (b) Does $\dfrac{22}{7}$ belong to $I$? (c) Find $I\cap[3.141, 3.15]$.
+
+[LỜI GIẢI CŨ – EN]
+(a) $I=[3.138, 3.142]$.
+
+(b) $\dfrac{22}{7}=3.142857\ldots>3.142$, so $\dfrac{22}{7}\notin I$.
+
+(c) The common part of $[3.138, 3.142]$ and $[3.141, 3.15]$ is $[3.141, 3.142]$.
+
+**Answer.** (a) $[3.138, 3.142]$; (b) no; (c) $[3.141, 3.142]$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Với sân hình chữ nhật ở bài trên ($32{,}5\pm0{,}1$ m và $18{,}4\pm0{,}1$ m), diện tích được ước lượng là $32{,}5\cdot18{,}4$. Tìm diện tích nhỏ nhất và lớn nhất có thể, một độ chính xác $d$ cho diện tích ước lượng, rồi viết số quy tròn của diện tích.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích ước lượng $\bar S=32{,}5\cdot18{,}4=598$ m². Nhỏ nhất $32{,}4\cdot18{,}3=592{,}92$, lớn nhất $32{,}6\cdot18{,}5=603{,}1$. Hai khoảng cách là $598-592{,}92=5{,}08$ và $603{,}1-598=5{,}1$, nên lấy $d=5{,}1$. Vì $5{,}1$ không nhỏ hơn $1$ nhưng nhỏ hơn $10$, ta quy tròn $598$ đến hàng chục: $600$.
+
+**Đáp số.** $592{,}92\le S\le603{,}1$; $S=598\pm5{,}1$ (m²); số quy tròn là $600$ m².
+
+[ĐỀ – EN]
+For the yard in the previous exercise ($32.5\pm0.1$ m by $18.4\pm0.1$ m), the area is estimated as $32.5\cdot18.4$. Find the smallest and largest possible areas, an error bound $d$ for the estimated area, and then the rounded form of the area.
+
+[LỜI GIẢI CŨ – EN]
+Estimated area $\bar S=32.5\cdot18.4=598$ m². Smallest $32.4\cdot18.3=592.92$, largest $32.6\cdot18.5=603.1$. The two distances are $598-592.92=5.08$ and $603.1-598=5.1$, so take $d=5.1$. Since $5.1$ is not less than $1$ but is less than $10$, we round $598$ to the nearest ten: $600$.
+
+**Answer.** $592.92\le S\le603.1$; $S=598\pm5.1$ (m²); the rounded form is $600$ m².
+
+
+######################################################################
+@@@ g10/binomial-theorem
+Bài học: Nhị thức Newton / The binomial theorem
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Khai triển $(x+1)^5$.
+
+[LỜI GIẢI CŨ – VI]
+Với $a=x$, $b=1$, mọi luỹ thừa của $b$ đều bằng $1$.
+
+**Đáp số.** $(x+1)^5=x^5+5x^4+10x^3+10x^2+5x+1$.
+
+[ĐỀ – EN]
+Expand $(x+1)^5$.
+
+[LỜI GIẢI CŨ – EN]
+With $a=x$, $b=1$, every power of $b$ equals $1$.
+
+**Answer.** $(x+1)^5=x^5+5x^4+10x^3+10x^2+5x+1$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Khai triển $(x-3)^4$.
+
+[LỜI GIẢI CŨ – VI]
+$$(x-3)^4=x^4+4x^3(-3)+6x^2\cdot9+4x(-27)+81.$$
+
+**Đáp số.** $(x-3)^4=x^4-12x^3+54x^2-108x+81$.
+
+[ĐỀ – EN]
+Expand $(x-3)^4$.
+
+[LỜI GIẢI CŨ – EN]
+$$(x-3)^4=x^4+4x^3(-3)+6x^2\cdot9+4x(-27)+81.$$
+
+**Answer.** $(x-3)^4=x^4-12x^3+54x^2-108x+81$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tìm hệ số của $x^2$ trong khai triển $(3+x)^5$.
+
+[LỜI GIẢI CŨ – VI]
+$C_5^2\cdot3^3=10\cdot27=270$.
+
+**Đáp số.** $270$.
+
+[ĐỀ – EN]
+Find the coefficient of $x^2$ in the expansion of $(3+x)^5$.
+
+[LỜI GIẢI CŨ – EN]
+$\binom{5}{2}\cdot3^3=10\cdot27=270$.
+
+**Answer.** $270$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Rút gọn biểu thức $(x+y)^4+(x-y)^4$.
+
+[LỜI GIẢI CŨ – VI]
+$(x+y)^4=x^4+4x^3y+6x^2y^2+4xy^3+y^4$ và $(x-y)^4=x^4-4x^3y+6x^2y^2-4xy^3+y^4$. Cộng lại, các số hạng $\pm4x^3y$, $\pm4xy^3$ triệt tiêu.
+
+**Đáp số.** $2x^4+12x^2y^2+2y^4$.
+
+[ĐỀ – EN]
+Simplify $(x+y)^4+(x-y)^4$.
+
+[LỜI GIẢI CŨ – EN]
+$(x+y)^4=x^4+4x^3y+6x^2y^2+4xy^3+y^4$ and $(x-y)^4=x^4-4x^3y+6x^2y^2-4xy^3+y^4$. Adding, the terms $\pm4x^3y$ and $\pm4xy^3$ cancel.
+
+**Answer.** $2x^4+12x^2y^2+2y^4$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Xét khai triển $(1-2x)^5$. Mỗi khẳng định sau đúng hay sai?
+
+a) Khai triển có $6$ số hạng.
+b) Hệ số của $x^2$ là $40$.
+c) Tổng các hệ số bằng $1$.
+d) Số hạng chứa $x^5$ là $32x^5$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** Số mũ $5$ cho $5+1=6$ số hạng.
+
+b) **Đúng.** $C_5^2(-2)^2=10\cdot4=40$.
+
+c) **Sai.** Thay $x=1$: $(1-2)^5=-1$.
+
+d) **Sai.** $C_5^5(-2)^5x^5=-32x^5$.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+[ĐỀ – EN]
+Consider the expansion of $(1-2x)^5$. Is each claim true or false?
+
+a) The expansion has $6$ terms.
+b) The coefficient of $x^2$ is $40$.
+c) The sum of the coefficients is $1$.
+d) The term containing $x^5$ is $32x^5$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** Exponent $5$ gives $5+1=6$ terms.
+
+b) **True.** $\binom{5}{2}(-2)^2=10\cdot4=40$.
+
+c) **False.** Putting $x=1$: $(1-2)^5=-1$.
+
+d) **False.** $\binom{5}{5}(-2)^5x^5=-32x^5$.
+
+**Answer.** a) True; b) True; c) False; d) False.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tìm hệ số của $x^4$ trong khai triển $\left(x^2+\dfrac2x\right)^5$ (với $x\ne0$).
+
+[LỜI GIẢI CŨ – VI]
+$C_5^k(x^2)^{5-k}\left(\dfrac2x\right)^k=C_5^k2^kx^{10-3k}$. Ta cần $10-3k=4$, tức $k=2$: hệ số là $C_5^2\cdot2^2=10\cdot4=40$.
+
+**Đáp số.** $40$.
+
+[ĐỀ – EN]
+Find the coefficient of $x^4$ in the expansion of $\left(x^2+\dfrac2x\right)^5$ (with $x\ne0$).
+
+[LỜI GIẢI CŨ – EN]
+$\binom{5}{k}(x^2)^{5-k}\left(\dfrac2x\right)^k=\binom{5}{k}2^kx^{10-3k}$. We need $10-3k=4$, so $k=2$: the coefficient is $\binom{5}{2}\cdot2^2=10\cdot4=40$.
+
+**Answer.** $40$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một máy lọc nước giá $10$ triệu đồng, mỗi năm giá trị của nó giảm $2\%$ so với năm trước. Dùng ba số hạng đầu của khai triển $(1-0{,}02)^5$ để ước lượng giá trị của máy sau $5$ năm.
+
+[LỜI GIẢI CŨ – VI]
+$$0{,}98^5\approx1-5\cdot0{,}02+10\cdot0{,}02^2=1-0{,}1+0{,}004=0{,}904.$$
+Giá trị của máy khoảng $10\,000\,000\cdot0{,}904=9\,040\,000$ đồng. (Giá trị đúng là $9\,039\,207{,}968$ đồng, lệch chưa tới $800$ đồng.)
+
+**Đáp số.** Khoảng $9\,040\,000$ đồng.
+
+[ĐỀ – EN]
+A water filter costs $10$ million dong, and each year its value falls by $2\%$ of the previous year's value. Use the first three terms of the expansion of $(1-0.02)^5$ to estimate its value after $5$ years.
+
+[LỜI GIẢI CŨ – EN]
+$$0.98^5\approx1-5\cdot0.02+10\cdot0.02^2=1-0.1+0.004=0.904.$$
+The filter is worth about $10\,000\,000\cdot0.904=9\,040\,000$ dong. (The exact value is $9\,039\,207.968$ dong, less than $800$ dong away.)
+
+**Answer.** About $9\,040\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+(Ôn tập bài [Hoán vị, chỉnh hợp và tổ hợp](lesson:permutations-combinations)) Cho tập $X=\{1; 2; 3; 4; 5\}$.
+
+(a) Với mỗi $k=0, 1, \dots, 5$, tập $X$ có bao nhiêu tập con gồm $k$ phần tử? (b) Dùng công thức khai triển để giải thích vì sao $X$ có tất cả $32$ tập con.
+
+[LỜI GIẢI CŨ – VI]
+(a) $C_5^0=1$, $C_5^1=5$, $C_5^2=10$, $C_5^3=10$, $C_5^4=5$, $C_5^5=1$.
+
+(b) Thay $a=b=1$ vào khai triển $(a+b)^5$:
+$$C_5^0+C_5^1+\cdots+C_5^5=(1+1)^5=32.$$
+
+**Đáp số.** (a) $1, 5, 10, 10, 5, 1$; (b) $1+5+10+10+5+1=2^5=32$.
+
+[ĐỀ – EN]
+(Review of [Permutations, arrangements and combinations](lesson:permutations-combinations)) Let $X=\{1, 2, 3, 4, 5\}$.
+
+(a) For each $k=0, 1, \dots, 5$, how many subsets of $X$ have $k$ elements? (b) Use the expansion to explain why $X$ has $32$ subsets in all.
+
+[LỜI GIẢI CŨ – EN]
+(a) $\binom{5}{0}=1$, $\binom{5}{1}=5$, $\binom{5}{2}=10$, $\binom{5}{3}=10$, $\binom{5}{4}=5$, $\binom{5}{5}=1$.
+
+(b) Put $a=b=1$ in the expansion of $(a+b)^5$:
+$$\binom{5}{0}+\binom{5}{1}+\cdots+\binom{5}{5}=(1+1)^5=32.$$
+
+**Answer.** (a) $1, 5, 10, 10, 5, 1$; (b) $1+5+10+10+5+1=2^5=32$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Tìm hệ số của $x^2$ trong khai triển của $(1+x)(1+2x)^4$.
+
+[LỜI GIẢI CŨ – VI]
+Trong $(1+2x)^4$: hệ số của $x$ là $C_4^1\cdot2=8$, của $x^2$ là $C_4^2\cdot2^2=24$. Trong tích, $x^2$ đến từ $1\cdot24x^2$ và $x\cdot8x$, nên hệ số là $24+8=32$.
+
+**Đáp số.** $32$.
+
+[ĐỀ – EN]
+Find the coefficient of $x^2$ in the expansion of $(1+x)(1+2x)^4$.
+
+[LỜI GIẢI CŨ – EN]
+In $(1+2x)^4$: the coefficient of $x$ is $\binom{4}{1}\cdot2=8$ and of $x^2$ is $\binom{4}{2}\cdot2^2=24$. In the product, $x^2$ comes from $1\cdot24x^2$ and $x\cdot8x$, so the coefficient is $24+8=32$.
+
+**Answer.** $32$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Không dùng máy tính, hãy so sánh $1{,}1^5$ với $1{,}6$.
+
+[LỜI GIẢI CŨ – VI]
+$$1{,}1^5=1+5\cdot0{,}1+10\cdot0{,}01+10\cdot0{,}001+5\cdot0{,}0001+0{,}00001=1{,}61051.$$
+Ngay ba số hạng đầu đã cho $1+0{,}5+0{,}1=1{,}6$, và các số hạng còn lại đều dương.
+
+**Đáp số.** $1{,}1^5=1{,}61051>1{,}6$.
+
+[ĐỀ – EN]
+Without a calculator, compare $1.1^5$ with $1.6$.
+
+[LỜI GIẢI CŨ – EN]
+$$1.1^5=1+5\cdot0.1+10\cdot0.01+10\cdot0.001+5\cdot0.0001+0.00001=1.61051.$$
+The first three terms already give $1+0.5+0.1=1.6$, and the other terms are all positive.
+
+**Answer.** $1.1^5=1.61051>1.6$.
+
+
+######################################################################
+@@@ g10/central-tendency
+Bài học: Các số đặc trưng đo xu thế trung tâm / Measures of central tendency
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+a) Tìm số trung bình cộng của $6, 8, 9, 10, 12$.
+
+b) Tìm trung vị của $3, 9, 4, 7, 1, 6$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\bar{x}=\dfrac{45}{5}=9$.
+
+b) Sắp xếp: $1, 3, 4, 6, 7, 9$; $M_e=\dfrac{4+6}{2}=5$.
+
+**Đáp số.** a) $9$; b) $5$.
+
+[ĐỀ – EN]
+a) Find the mean of $6, 8, 9, 10, 12$.
+
+b) Find the median of $3, 9, 4, 7, 1, 6$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\bar{x}=\dfrac{45}{5}=9$.
+
+b) Sorted: $1, 3, 4, 6, 7, 9$; $M=\dfrac{4+6}{2}=5$.
+
+**Answer.** a) $9$; b) $5$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+a) Tìm mốt của $2, 3, 3, 5, 5, 5, 7$.
+
+b) Một cửa hàng ghi cỡ áo bán được trong ngày: M, L, S, M, XL, M, L, M, S, L. Tìm mốt. Có thể tính số trung bình cộng của dữ liệu này không?
+
+[LỜI GIẢI CŨ – VI]
+a) $5$ xuất hiện ba lần, nhiều nhất.
+
+b) Tần số: S: $2$, M: $4$, L: $3$, XL: $1$. Cỡ áo không phải là số nên không cộng và chia được.
+
+**Đáp số.** a) $M_o=5$; b) $M_o=\text{M}$; không tính được số trung bình cộng.
+
+[ĐỀ – EN]
+a) Find the mode of $2, 3, 3, 5, 5, 5, 7$.
+
+b) A shop records the shirt sizes sold in one day: M, L, S, M, XL, M, L, M, S, L. Find the mode. Can we compute the mean of these data?
+
+[LỜI GIẢI CŨ – EN]
+a) $5$ occurs three times, more than any other value.
+
+b) Frequencies: S: $2$, M: $4$, L: $3$, XL: $1$. Shirt sizes are not numbers, so they cannot be added and divided.
+
+**Answer.** a) mode $5$; b) mode M; the mean cannot be computed.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tìm $M_e$, $Q_1$, $Q_3$ của mỗi mẫu số liệu:
+
+a) $2, 4, 5, 7, 8, 10, 11, 13, 15$;
+
+b) $3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 20$.
+
+[LỜI GIẢI CŨ – VI]
+a) $n=9$, $M_e=8$. Nửa dưới $2, 4, 5, 7$: $Q_1=\dfrac{4+5}{2}=4{,}5$. Nửa trên $10, 11, 13, 15$: $Q_3=\dfrac{11+13}{2}=12$.
+
+b) $n=12$, $M_e=\dfrac{10+12}{2}=11$. Nửa dưới $3, 4, 6, 7, 9, 10$: $Q_1=6{,}5$. Nửa trên $12, 13, 15, 16, 18, 20$: $Q_3=15{,}5$.
+
+**Đáp số.** a) $M_e=8$, $Q_1=4{,}5$, $Q_3=12$; b) $M_e=11$, $Q_1=6{,}5$, $Q_3=15{,}5$.
+
+[ĐỀ – EN]
+Find $M$, $Q_1$, $Q_3$ for each data set:
+
+a) $2, 4, 5, 7, 8, 10, 11, 13, 15$;
+
+b) $3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 20$.
+
+[LỜI GIẢI CŨ – EN]
+a) $n=9$, $M=8$. Lower half $2, 4, 5, 7$: $Q_1=\dfrac{4+5}{2}=4.5$. Upper half $10, 11, 13, 15$: $Q_3=\dfrac{11+13}{2}=12$.
+
+b) $n=12$, $M=\dfrac{10+12}{2}=11$. Lower half $3, 4, 6, 7, 9, 10$: $Q_1=6.5$. Upper half $12, 13, 15, 16, 18, 20$: $Q_3=15.5$.
+
+**Answer.** a) $M=8$, $Q_1=4.5$, $Q_3=12$; b) $M=11$, $Q_1=6.5$, $Q_3=15.5$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Bảng cho số quyển sách đã đọc trong tháng của $22$ học sinh. Tìm $\bar{x}$ (làm tròn đến hàng phần trăm), $M_e$ và mốt.
+
+| Số sách | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| Số học sinh | 3 | 5 | 8 | 4 | 2 |
+
+[LỜI GIẢI CŨ – VI]
+$$\bar{x}=\frac{3+10+24+16+10}{22}=\frac{63}{22}\approx2{,}86.$$
+Tần số tích luỹ $3, 8, 16, 20, 22$: giá trị thứ $11$ và $12$ đều bằng $3$, nên $M_e=3$. Tần số lớn nhất là $8$, ứng với $3$ quyển.
+
+**Đáp số.** $\bar{x}\approx2{,}86$; $M_e=3$; $M_o=3$.
+
+[ĐỀ – EN]
+The table gives the number of books read in one month by $22$ students. Find $\bar{x}$ (to two decimal places), $M$ and the mode.
+
+| Books | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| Students | 3 | 5 | 8 | 4 | 2 |
+
+[LỜI GIẢI CŨ – EN]
+$$\bar{x}=\frac{3+10+24+16+10}{22}=\frac{63}{22}\approx2.86.$$
+Cumulative frequencies $3, 8, 16, 20, 22$: the $11$th and $12$th values are both $3$, so $M=3$. The largest frequency is $8$, for $3$ books.
+
+**Answer.** $\bar{x}\approx2.86$; $M=3$; mode $3$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho mẫu số liệu $5, 7, 7, 8, 9, 10, 10, 10, 12$. Mỗi khẳng định sau đúng hay sai?
+
+a) Số trung bình cộng bằng $8$.
+
+b) Trung vị bằng $9$.
+
+c) Tứ phân vị thứ nhất $Q_1=7$.
+
+d) Nếu thêm giá trị $30$ vào mẫu thì trung vị thay đổi nhiều hơn số trung bình cộng.
+
+[LỜI GIẢI CŨ – VI]
+a) **Sai:** $\bar{x}=\dfrac{78}{9}\approx8{,}67$.
+
+b) **Đúng:** giá trị thứ $5$ là $9$.
+
+c) **Đúng:** nửa dưới $5, 7, 7, 8$ cho $Q_1=\dfrac{7+7}{2}=7$.
+
+d) **Sai:** sau khi thêm $30$, $M_e=\dfrac{9+10}{2}=9{,}5$ (tăng $0{,}5$), còn $\bar{x}=\dfrac{108}{10}=10{,}8$ (tăng khoảng $2{,}13$).
+
+**Đáp số.** a) Sai; b) Đúng; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Consider the data set $5, 7, 7, 8, 9, 10, 10, 10, 12$. Is each claim true or false?
+
+a) The mean is $8$.
+
+b) The median is $9$.
+
+c) The first quartile is $Q_1=7$.
+
+d) If the value $30$ is added to the data set, the median changes more than the mean.
+
+[LỜI GIẢI CŨ – EN]
+a) **False:** $\bar{x}=\dfrac{78}{9}\approx8.67$.
+
+b) **True:** the $5$th value is $9$.
+
+c) **True:** the lower half $5, 7, 7, 8$ gives $Q_1=\dfrac{7+7}{2}=7$.
+
+d) **False:** after adding $30$, $M=\dfrac{9+10}{2}=9.5$ (up by $0.5$), while $\bar{x}=\dfrac{108}{10}=10.8$ (up by about $2.13$).
+
+**Answer.** a) False; b) True; c) True; d) False.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một lớp có $20$ bạn nữ với điểm trung bình $7{,}0$ và $10$ bạn nam với điểm trung bình $8{,}5$. Tính điểm trung bình của cả lớp.
+
+[LỜI GIẢI CŨ – VI]
+$$\bar{x}=\frac{20\cdot7+10\cdot8{,}5}{30}=\frac{140+85}{30}=\frac{225}{30}=7{,}5.$$
+Không được lấy $\dfrac{7+8{,}5}{2}=7{,}75$, vì hai nhóm có số người khác nhau.
+
+**Đáp số.** $7{,}5$.
+
+[ĐỀ – EN]
+A class has $20$ girls with a mean mark of $7.0$ and $10$ boys with a mean mark of $8.5$. Find the mean mark of the whole class.
+
+[LỜI GIẢI CŨ – EN]
+$$\bar{x}=\frac{20\cdot7+10\cdot8.5}{30}=\frac{140+85}{30}=\frac{225}{30}=7.5.$$
+We cannot take $\dfrac{7+8.5}{2}=7.75$, because the two groups have different sizes.
+
+**Answer.** $7.5$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Lương tháng (triệu đồng) của bảy nhân viên một cửa hàng nhỏ là $12, 13, 14, 15, 16, 17, 90$ (số $90$ là lương của chủ cửa hàng). Tính số trung bình cộng và trung vị. Một bạn muốn biết "một nhân viên ở đây thường được trả bao nhiêu"; nên dùng số nào?
+
+[LỜI GIẢI CŨ – VI]
+$$\bar{x}=\frac{177}{7}\approx25{,}29,\qquad M_e=15.$$
+Sáu trong bảy người nhận dưới $18$ triệu đồng, nên $25{,}29$ không đại diện cho ai.
+
+**Đáp số.** $\bar{x}\approx25{,}29$ triệu đồng, $M_e=15$ triệu đồng; nên dùng trung vị.
+
+[ĐỀ – EN]
+The monthly salaries (million dong) of the seven people working in a small shop are $12, 13, 14, 15, 16, 17, 90$ (the $90$ is the owner's salary). Find the mean and the median. Someone wants to know "how much a person working here is usually paid"; which number should they use?
+
+[LỜI GIẢI CŨ – EN]
+$$\bar{x}=\frac{177}{7}\approx25.29,\qquad M=15.$$
+Six of the seven people earn less than $18$ million dong, so $25.29$ represents nobody.
+
+**Answer.** $\bar{x}\approx25.29$ million dong, $M=15$ million dong; the median should be used.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Bảy số có trung bình cộng bằng $10$. Bỏ đi một số thì trung bình cộng của sáu số còn lại bằng $9$. Số bị bỏ đi là số nào?
+
+[LỜI GIẢI CŨ – VI]
+Tổng bảy số là $7\cdot10=70$, tổng sáu số là $6\cdot9=54$, nên số bị bỏ là $70-54=16$.
+
+**Đáp số.** $16$.
+
+[ĐỀ – EN]
+Seven numbers have mean $10$. When one number is removed, the remaining six have mean $9$. Which number was removed?
+
+[LỜI GIẢI CŨ – EN]
+The seven numbers add up to $7\cdot10=70$ and the six to $6\cdot9=54$, so the removed number is $70-54=16$.
+
+**Answer.** $16$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một mẫu gồm $5$ số nguyên dương có số trung bình cộng bằng $6$, trung vị bằng $5$, mốt duy nhất bằng $3$ và giá trị lớn nhất bằng $11$. Tìm mẫu số liệu đó.
+
+[LỜI GIẢI CŨ – VI]
+Tổng bằng $5\cdot6=30$. Vì $3<5=c$, số $3$ chỉ có thể là $a$, $b$, nên $a=b=3$. Khi đó
+$$d=30-3-3-5-11=8.$$
+Mẫu $3, 3, 5, 8, 11$ có mỗi giá trị khác $3$ xuất hiện một lần, nên mốt duy nhất là $3$.
+
+**Đáp số.** $3, 3, 5, 8, 11$.
+
+[ĐỀ – EN]
+A data set of $5$ positive whole numbers has mean $6$, median $5$, a single mode $3$, and largest value $11$. Find the data set.
+
+[LỜI GIẢI CŨ – EN]
+The total is $5\cdot6=30$. Since $3<5=c$, the value $3$ can only be $a$ and $b$, so $a=b=3$. Then
+$$d=30-3-3-5-11=8.$$
+In $3, 3, 5, 8, 11$ every value other than $3$ occurs once, so $3$ is the only mode.
+
+**Answer.** $3, 3, 5, 8, 11$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+(Ôn lại [Bất phương trình bậc nhất hai ẩn](lesson:linear-inequality-two-variables).) Bình đã có bốn bài kiểm tra được $6, 7, 8, 7$. Còn hai bài nữa, được $x$ và $y$ điểm. Viết điều kiện để điểm trung bình của sáu bài ít nhất là $7{,}5$. Cặp điểm $(8; 9)$ và $(10; 6)$ có thoả mãn không?
+
+[LỜI GIẢI CŨ – VI]
+$$\frac{6+7+8+7+x+y}{6}\ge7{,}5\iff 28+x+y\ge45\iff x+y\ge17.$$
+Với $(8; 9)$: $17\ge17$, đúng. Với $(10; 6)$: $16\ge17$, sai.
+
+**Đáp số.** $x+y\ge17$ (với $0\le x, y\le10$); $(8; 9)$ thoả mãn, $(10; 6)$ không thoả mãn.
+
+[ĐỀ – EN]
+(Revisiting [Linear inequalities in two variables](lesson:linear-inequality-two-variables).) Binh has four test marks: $6, 7, 8, 7$. There are two more tests, with marks $x$ and $y$. Write the condition for the mean of all six tests to be at least $7.5$. Do the pairs of marks $(8, 9)$ and $(10, 6)$ satisfy it?
+
+[LỜI GIẢI CŨ – EN]
+$$\frac{6+7+8+7+x+y}{6}\ge7.5\iff 28+x+y\ge45\iff x+y\ge17.$$
+For $(8, 9)$: $17\ge17$, true. For $(10, 6)$: $16\ge17$, false.
+
+**Answer.** $x+y\ge17$ (with $0\le x, y\le10$); $(8, 9)$ satisfies it, $(10, 6)$ does not.
+
+
+######################################################################
+@@@ g10/circles
+Bài học: Đường tròn trong mặt phẳng toạ độ / Circles in the coordinate plane
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết phương trình đường tròn tâm $(-2; 3)$, bán kính $4$.
+
+[LỜI GIẢI CŨ – VI]
+$(x+2)^2+(y-3)^2=4^2=16$.
+
+**Đáp số.** $(x+2)^2+(y-3)^2=16$.
+
+[ĐỀ – EN]
+Write the equation of the circle with centre $(-2, 3)$ and radius $4$.
+
+[LỜI GIẢI CŨ – EN]
+$(x+2)^2+(y-3)^2=4^2=16$.
+
+**Answer.** $(x+2)^2+(y-3)^2=16$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm tâm và bán kính của đường tròn $x^2+y^2-4x+6y-3=0$.
+
+[LỜI GIẢI CŨ – VI]
+$a=2$, $b=-3$, $c=-3$. $a^2+b^2-c=4+9+3=16$, nên $R=4$.
+
+**Đáp số.** Tâm $(2; -3)$, $R=4$.
+
+[ĐỀ – EN]
+Find the centre and the radius of the circle $x^2+y^2-4x+6y-3=0$.
+
+[LỜI GIẢI CŨ – EN]
+$a=2$, $b=-3$, $c=-3$. $a^2+b^2-c=4+9+3=16$, so $R=4$.
+
+**Answer.** Centre $(2, -3)$, $R=4$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Phương trình $x^2+y^2-2x+4y+6=0$ có phải là phương trình đường tròn không?
+
+[LỜI GIẢI CŨ – VI]
+$a=1$, $b=-2$, $c=6$: $a^2+b^2-c=1+4-6=-1<0$.
+
+**Đáp số.** Không phải phương trình đường tròn.
+
+[ĐỀ – EN]
+Is $x^2+y^2-2x+4y+6=0$ the equation of a circle?
+
+[LỜI GIẢI CŨ – EN]
+$a=1$, $b=-2$, $c=6$: $a^2+b^2-c=1+4-6=-1<0$.
+
+**Answer.** It is not the equation of a circle.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Viết phương trình đường tròn đi qua ba điểm $O(0; 0)$, $A(6; 0)$ và $B(0; 8)$.
+
+[LỜI GIẢI CŨ – VI]
+$O$: $c=0$. $A$: $36-12a=0$, nên $a=3$. $B$: $64-16b=0$, nên $b=4$. $R^2=9+16-0=25$.
+
+**Đáp số.** $(x-3)^2+(y-4)^2=25$.
+
+[ĐỀ – EN]
+Write the equation of the circle through the three points $O(0, 0)$, $A(6, 0)$ and $B(0, 8)$.
+
+[LỜI GIẢI CŨ – EN]
+$O$: $c=0$. $A$: $36-12a=0$, so $a=3$. $B$: $64-16b=0$, so $b=4$. $R^2=9+16-0=25$.
+
+**Answer.** $(x-3)^2+(y-4)^2=25$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Viết phương trình tiếp tuyến của đường tròn $x^2+y^2=25$ tại điểm $M(3; 4)$.
+
+[LỜI GIẢI CŨ – VI]
+$3^2+4^2=25$, nên $M$ thuộc đường tròn. $\overrightarrow{OM}=(3; 4)$: $3(x-3)+4(y-4)=0\iff 3x+4y-25=0$.
+
+**Đáp số.** $3x+4y-25=0$.
+
+[ĐỀ – EN]
+Write the equation of the tangent to the circle $x^2+y^2=25$ at the point $M(3, 4)$.
+
+[LỜI GIẢI CŨ – EN]
+$3^2+4^2=25$, so $M$ is on the circle. $\overrightarrow{OM}=(3, 4)$: $3(x-3)+4(y-4)=0\iff 3x+4y-25=0$.
+
+**Answer.** $3x+4y-25=0$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho đường tròn $(C): x^2+y^2-6x+2y-15=0$ và điểm $A(6; 3)$. Mỗi khẳng định sau đúng hay sai?
+
+a) $(C)$ có tâm $I(3; -1)$.
+
+b) $(C)$ có bán kính bằng $25$.
+
+c) Điểm $A$ thuộc $(C)$.
+
+d) Tiếp tuyến của $(C)$ tại $A$ có phương trình $3x+4y-30=0$.
+
+[LỜI GIẢI CŨ – VI]
+$a=3$, $b=-1$, $c=-15$, $a^2+b^2-c=9+1+15=25$.
+
+a) **Đúng**: tâm $(a; b)=(3; -1)$.
+
+b) **Sai**: $R^2=25$, nên $R=5$.
+
+c) **Đúng**: $36+9-36+6-15=0$.
+
+d) **Đúng**: $\overrightarrow{IA}=(3; 4)$, tiếp tuyến $3(x-6)+4(y-3)=0\iff 3x+4y-30=0$.
 
 **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 
 [ĐỀ – EN]
-Let $y=\dfrac{x+1}{x-1}$.
+Consider the circle $(C): x^2+y^2-6x+2y-15=0$ and the point $A(6, 3)$. Is each claim true or false?
 
-a) The domain of the function is $\mathbb{R}\setminus\{1\}$.
+a) $(C)$ has centre $I(3, -1)$.
 
-b) The function is decreasing on $\mathbb{R}\setminus\{1\}$.
+b) $(C)$ has radius $25$.
 
-c) The asymptotes of the graph meet at $I(1, 1)$.
+c) The point $A$ lies on $(C)$.
 
-d) The maximum value of the function on $[2, 4]$ is $3$.
+d) The tangent to $(C)$ at $A$ has equation $3x+4y-30=0$.
 
 [LỜI GIẢI CŨ – EN]
-$y'=\dfrac{-1-1}{(x-1)^2}=\dfrac{-2}{(x-1)^2}<0$ for every $x\ne1$.
+$a=3$, $b=-1$, $c=-15$, $a^2+b^2-c=9+1+15=25$.
 
-a) **True**: the denominator is $0$ only at $x=1$.
+a) **True**: the centre is $(a, b)=(3, -1)$.
 
-b) **False**: the function is decreasing on each of $(-\infty, 1)$ and $(1, +\infty)$, but $y(0)=-1<y(2)=3$, so it is not decreasing on the whole union.
+b) **False**: $R^2=25$, so $R=5$.
 
-c) **True**: vertical asymptote $x=1$, horizontal asymptote $y=1$.
+c) **True**: $36+9-36+6-15=0$.
 
-d) **True**: the function is decreasing on $[2, 4]$, so the maximum is $y(2)=3$.
+d) **True**: $\overrightarrow{IA}=(3, 4)$, and the tangent is $3(x-6)+4(y-3)=0\iff 3x+4y-30=0$.
 
 **Answer.** a) True; b) False; c) True; d) True.
 
-=== Bài 9 ===
-[ĐỀ – VI]
-Tìm giá trị nhỏ nhất của hàm số $y=(x^2-3)e^x$ trên đoạn $[0; 2]$ (làm tròn kết quả đến hàng phần mười).
-
-[LỜI GIẢI CŨ – VI]
-$y'=2xe^x+(x^2-3)e^x=(x-1)(x+3)e^x=0\iff x=1$ (loại $x=-3$). $y(0)=-3$, $y(1)=-2e\approx-5{,}44$, $y(2)=e^2\approx7{,}39$. Giá trị nhỏ nhất là $-2e\approx-5{,}4$.
-
-**Đáp số.** $-5{,}4$.
-
-[ĐỀ – EN]
-Find the minimum value of $y=(x^2-3)e^x$ on $[0, 2]$. Give your answer to 1 decimal place.
-
-[LỜI GIẢI CŨ – EN]
-$y'=2xe^x+(x^2-3)e^x=(x-1)(x+3)e^x=0\iff x=1$ (reject $x=-3$). $y(0)=-3$, $y(1)=-2e\approx-5.44$, $y(2)=e^2\approx7.39$. The minimum value is $-2e\approx-5.4$.
-
-**Answer.** $-5.4$.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Đồ thị hàm số $y=ax^3+bx^2+cx+d$ có điểm cực đại $(0; 2)$ và điểm cực tiểu $(2; -2)$. Tìm $a$, $b$, $c$, $d$.
-
-[LỜI GIẢI CŨ – VI]
-$y'=3ax^2+2bx+c$. Từ $y(0)=2$ và $y'(0)=0$: $d=2$, $c=0$. Từ $y'(2)=0$: $12a+4b=0$, tức $b=-3a$. Từ $y(2)=-2$: $8a+4b+2=-2$, tức $8a-12a=-4$, nên $a=1$, $b=-3$.
-
-**Kiểm tra.** $y=x^3-3x^2+2$, $y'=3x(x-2)$ đổi dấu từ $+$ sang $-$ tại $0$ và từ $-$ sang $+$ tại $2$; $y(0)=2$, $y(2)=-2$.
-
-**Đáp số.** $a=1$, $b=-3$, $c=0$, $d=2$.
-
-[ĐỀ – EN]
-The graph of $y=ax^3+bx^2+cx+d$ has a local maximum at $(0, 2)$ and a local minimum at $(2, -2)$. Find $a$, $b$, $c$, $d$.
-
-[LỜI GIẢI CŨ – EN]
-$y'=3ax^2+2bx+c$. From $y(0)=2$ and $y'(0)=0$: $d=2$, $c=0$. From $y'(2)=0$: $12a+4b=0$, so $b=-3a$. From $y(2)=-2$: $8a+4b+2=-2$, so $8a-12a=-4$, giving $a=1$, $b=-3$.
-
-**Check.** $y=x^3-3x^2+2$, $y'=3x(x-2)$ changes from $+$ to $-$ at $0$ and from $-$ to $+$ at $2$; $y(0)=2$, $y(2)=-2$.
-
-**Answer.** $a=1$, $b=-3$, $c=0$, $d=2$.
-
-
-######################################################################
-@@@ g12/review-integrals
-Bài học: Ôn tập: nguyên hàm và tích phân / Revision: antiderivatives and integrals
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-$\displaystyle\int\left(4x^3-\frac{1}{x^2}\right)dx$ bằng
-A. $x^4+\dfrac1x+C$.
-B. $x^4-\dfrac1x+C$.
-C. $12x^2+\dfrac{2}{x^3}+C$.
-D. $x^4+\dfrac{1}{3x^3}+C$.
-
-[LỜI GIẢI CŨ – VI]
-$\displaystyle\int4x^3\,dx=x^4$ và $-\displaystyle\int x^{-2}\,dx=-\left(-\dfrac1x\right)=\dfrac1x$. Phương án B sai dấu; C là đạo hàm; D giảm số mũ thay vì tăng.
-
-**Đáp số.** A.
-
-[ĐỀ – EN]
-$\displaystyle\int\left(4x^3-\frac{1}{x^2}\right)dx$ equals
-A. $x^4+\dfrac1x+C$.
-B. $x^4-\dfrac1x+C$.
-C. $12x^2+\dfrac{2}{x^3}+C$.
-D. $x^4+\dfrac{1}{3x^3}+C$.
-
-[LỜI GIẢI CŨ – EN]
-$\displaystyle\int4x^3\,dx=x^4$ and $-\displaystyle\int x^{-2}\,dx=-\left(-\dfrac1x\right)=\dfrac1x$. Option B has the wrong sign; C is the derivative; D lowers the power instead of raising it.
-
-**Answer.** A.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-$\displaystyle\int_0^{\frac{\pi}{2}}\cos x\,dx$ bằng
-A. $1$.
-B. $0$.
-C. $-1$.
-D. $\dfrac{\pi}{2}$.
-
-[LỜI GIẢI CŨ – VI]
-$\Big[\sin x\Big]_0^{\frac{\pi}{2}}=1-0=1$. Phương án C dùng nhầm nguyên hàm $-\sin x$.
-
-**Đáp số.** A.
-
-[ĐỀ – EN]
-$\displaystyle\int_0^{\frac{\pi}{2}}\cos x\,dx$ equals
-A. $1$.
-B. $0$.
-C. $-1$.
-D. $\dfrac{\pi}{2}$.
-
-[LỜI GIẢI CŨ – EN]
-$\Big[\sin x\Big]_0^{\frac{\pi}{2}}=1-0=1$. Option C uses the wrong antiderivative $-\sin x$.
-
-**Answer.** A.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Tính $\displaystyle\int_0^2\left(3x^2-2x+1\right)dx$.
-
-[LỜI GIẢI CŨ – VI]
-$\Big[x^3-x^2+x\Big]_0^2=8-4+2=6$.
-
-**Đáp số.** $6$.
-
-[ĐỀ – EN]
-Evaluate $\displaystyle\int_0^2\left(3x^2-2x+1\right)dx$.
-
-[LỜI GIẢI CŨ – EN]
-$\Big[x^3-x^2+x\Big]_0^2=8-4+2=6$.
-
-**Answer.** $6$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Cho hàm số $f(x)=e^x+2x$.
-
-a) $F(x)=e^x+x^2$ là một nguyên hàm của $f(x)$.
-
-b) $\displaystyle\int_0^1 f(x)\,dx=e+1$.
-
-c) Nguyên hàm $F$ của $f$ thoả mãn $F(0)=3$ là $F(x)=e^x+x^2+3$.
-
-d) $\displaystyle\int_{-1}^1 f(x)\,dx=e-\dfrac1e$.
-
-[LỜI GIẢI CŨ – VI]
-a) **Đúng**: $(e^x+x^2)'=e^x+2x$.
-
-b) **Sai**: $\Big[e^x+x^2\Big]_0^1=(e+1)-(1+0)=e$.
-
-c) **Sai**: $F(0)=1+C=3$ nên $C=2$, $F(x)=e^x+x^2+2$.
-
-d) **Đúng**: $(e+1)-\left(\dfrac1e+1\right)=e-\dfrac1e$.
-
-**Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
-
-[ĐỀ – EN]
-Let $f(x)=e^x+2x$.
-
-a) $F(x)=e^x+x^2$ is an antiderivative of $f(x)$.
-
-b) $\displaystyle\int_0^1 f(x)\,dx=e+1$.
-
-c) The antiderivative $F$ of $f$ with $F(0)=3$ is $F(x)=e^x+x^2+3$.
-
-d) $\displaystyle\int_{-1}^1 f(x)\,dx=e-\dfrac1e$.
-
-[LỜI GIẢI CŨ – EN]
-a) **True**: $(e^x+x^2)'=e^x+2x$.
-
-b) **False**: $\Big[e^x+x^2\Big]_0^1=(e+1)-(1+0)=e$.
-
-c) **False**: $F(0)=1+C=3$, so $C=2$ and $F(x)=e^x+x^2+2$.
-
-d) **True**: $(e+1)-\left(\dfrac1e+1\right)=e-\dfrac1e$.
-
-**Answer.** a) True; b) False; c) False; d) True.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Tính diện tích hình phẳng giới hạn bởi parabol $y=x^2-4$ và trục hoành (làm tròn kết quả đến hàng phần mười).
-
-[LỜI GIẢI CŨ – VI]
-$$S=\int_{-2}^2(4-x^2)\,dx=\Big[4x-\frac{x^3}{3}\Big]_{-2}^2=\left(8-\frac83\right)-\left(-8+\frac83\right)=\frac{32}{3}\approx10{,}67.$$
-
-**Đáp số.** $10{,}7$.
-
-[ĐỀ – EN]
-Find the area of the region bounded by the parabola $y=x^2-4$ and the $x$-axis. Give your answer to 1 decimal place.
-
-[LỜI GIẢI CŨ – EN]
-$$S=\int_{-2}^2(4-x^2)\,dx=\Big[4x-\frac{x^3}{3}\Big]_{-2}^2=\left(8-\frac83\right)-\left(-8+\frac83\right)=\frac{32}{3}\approx10.67.$$
-
-**Answer.** $10.7$.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Tính diện tích hình phẳng giới hạn bởi đồ thị $y=x^3-x$, trục hoành và hai đường thẳng $x=0$, $x=2$.
-
-[LỜI GIẢI CŨ – VI]
-$$S=\int_0^1(x-x^3)\,dx+\int_1^2(x^3-x)\,dx=\left(\frac12-\frac14\right)+\left[\left(4-2\right)-\left(\frac14-\frac12\right)\right]=\frac14+\frac94=\frac52.$$
-
-**Đáp số.** $S=\dfrac52$.
-
-[ĐỀ – EN]
-Find the area of the region bounded by the graph of $y=x^3-x$, the $x$-axis and the lines $x=0$, $x=2$.
-
-[LỜI GIẢI CŨ – EN]
-$$S=\int_0^1(x-x^3)\,dx+\int_1^2(x^3-x)\,dx=\left(\frac12-\frac14\right)+\left[\left(4-2\right)-\left(\frac14-\frac12\right)\right]=\frac14+\frac94=\frac52.$$
-
-**Answer.** $S=\dfrac52$.
-
 === Bài 7 ===
 [ĐỀ – VI]
-Quay hình phẳng giới hạn bởi $y=2x$, trục $Ox$ và đường thẳng $x=3$ quanh trục $Ox$, ta được một khối nón có thể tích bằng
-A. $36\pi$.
-B. $9\pi$.
-C. $108\pi$.
-D. $18\pi$.
+Đường thẳng $x+2y-5=0$ cắt đường tròn $x^2+y^2=25$ tại hai điểm $A$ và $B$. Tính độ dài $AB$ (làm tròn đến hàng phần trăm).
 
 [LỜI GIẢI CŨ – VI]
-$V=\pi\Big[\dfrac{4x^3}{3}\Big]_0^3=36\pi$. Kiểm tra: khối nón có $r=6$, $h=3$, $V=\dfrac13\pi\cdot36\cdot3=36\pi$. Phương án B quên bình phương; C quên chia cho $3$; D chỉ bình phương $x$.
+$d=\dfrac{|0+0-5|}{\sqrt{1+4}}=\sqrt5$, nên $AB=2\sqrt{25-5}=2\sqrt{20}=4\sqrt5\approx 8{,}94$. (Giải hệ cũng cho $A(5; 0)$, $B(-3; 4)$ và $AB=\sqrt{64+16}=\sqrt{80}$.)
 
-**Đáp số.** A.
+**Đáp số.** $8{,}94$.
 
 [ĐỀ – EN]
-Rotating the region bounded by $y=2x$, the $x$-axis and the line $x=3$ about the $x$-axis gives a cone of volume
-A. $36\pi$.
-B. $9\pi$.
-C. $108\pi$.
-D. $18\pi$.
+The line $x+2y-5=0$ cuts the circle $x^2+y^2=25$ at two points $A$ and $B$. Find the length $AB$ (rounded to two decimal places).
 
 [LỜI GIẢI CŨ – EN]
-$V=\pi\Big[\dfrac{4x^3}{3}\Big]_0^3=36\pi$. Check: the cone has $r=6$, $h=3$, so $V=\dfrac13\pi\cdot36\cdot3=36\pi$. Option B forgets to square; C forgets to divide by $3$; D squares only $x$.
+$d=\dfrac{|0+0-5|}{\sqrt{1+4}}=\sqrt5$, so $AB=2\sqrt{25-5}=2\sqrt{20}=4\sqrt5\approx 8.94$. (Solving the system also gives $A(5, 0)$, $B(-3, 4)$ and $AB=\sqrt{64+16}=\sqrt{80}$.)
 
-**Answer.** A.
+**Answer.** $8.94$.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Nước chảy vào một bể với tốc độ $r(t)=0{,}6t+2$ (lít/phút), $t$ tính bằng phút. Trong $10$ phút đầu, bao nhiêu lít nước chảy vào bể?
+Một máy phát Wi-Fi đặt tại điểm $I(2; 3)$ trên sơ đồ một căn phòng (đơn vị: mét) và phát sóng trong bán kính $5$ m. Ba chiếc máy tính đặt tại $A(5; 6)$, $B(7; 1)$ và $C(-1; 7)$. Máy nào nằm trong vùng phủ sóng, máy nào nằm ngoài, máy nào ở đúng biên?
 
 [LỜI GIẢI CŨ – VI]
-$\Big[0{,}3t^2+2t\Big]_0^{10}=30+20=50$.
+$IA^2=9+9=18<25$; $IB^2=25+4=29>25$; $IC^2=9+16=25$.
 
-**Đáp số.** $50$.
+**Đáp số.** $A$ trong vùng phủ sóng, $B$ ngoài, $C$ ở đúng biên.
 
 [ĐỀ – EN]
-Water flows into a tank at a rate of $r(t)=0.6t+2$ (litres per minute), with $t$ in minutes. How many litres flow into the tank in the first $10$ minutes?
+A Wi-Fi router stands at the point $I(2, 3)$ on a plan of a room (units: metres) and has a range of $5$ m. Three computers are at $A(5, 6)$, $B(7, 1)$ and $C(-1, 7)$. Which computer is inside the range, which is outside, and which is exactly on the edge?
 
 [LỜI GIẢI CŨ – EN]
-$\Big[0.3t^2+2t\Big]_0^{10}=30+20=50$.
+$IA^2=9+9=18<25$; $IB^2=25+4=29>25$; $IC^2=9+16=25$.
 
-**Answer.** $50$.
+**Answer.** $A$ is inside the range, $B$ is outside, and $C$ is exactly on the edge.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Một ô tô đạp phanh và chuyển động chậm dần đều với vận tốc $v(t)=12-3t$ (m/s), $t$ là số giây kể từ lúc đạp phanh.
-
-a) Ô tô dừng hẳn sau $4$ giây.
-
-b) Quãng đường đi được sau $t$ giây kể từ lúc phanh là $s(t)=12t-1{,}5t^2$ (m), $0\le t\le4$.
-
-c) Từ lúc đạp phanh đến khi dừng, ô tô đi được $24$ m.
-
-d) Trong giây cuối cùng trước khi dừng, ô tô đi được $3$ m.
+Viết phương trình đường tròn tâm $I(1; 2)$ tiếp xúc với đường thẳng $\Delta: 3x-4y+15=0$, rồi tìm toạ độ tiếp điểm.
 
 [LỜI GIẢI CŨ – VI]
-a) **Đúng**: $12-3t=0\iff t=4$.
+$R=\dfrac{|3-8+15|}{5}=2$, nên đường tròn là $(x-1)^2+(y-2)^2=4$. Đường thẳng qua $I$ vuông góc với $\Delta$: $x=1+3t$, $y=2-4t$. Thay vào $\Delta$: $3+9t-8+16t+15=0\iff t=-\dfrac25$, cho $x=-\dfrac15$, $y=\dfrac{18}{5}$.
 
-b) **Đúng**: $s(t)=\Big[12u-1{,}5u^2\Big]_0^t=12t-1{,}5t^2$.
-
-c) **Đúng**: $s(4)=48-24=24$.
-
-d) **Sai**: $s(4)-s(3)=24-22{,}5=1{,}5$ m.
-
-**Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+**Đáp số.** $(x-1)^2+(y-2)^2=4$; tiếp điểm $\left(-\dfrac15; \dfrac{18}{5}\right)$.
 
 [ĐỀ – EN]
-A car brakes and slows down uniformly with velocity $v(t)=12-3t$ (m/s), where $t$ is the time in seconds since braking.
-
-a) The car stops after $4$ seconds.
-
-b) The distance travelled $t$ seconds after braking is $s(t)=12t-1.5t^2$ (m), $0\le t\le4$.
-
-c) From braking to stopping, the car travels $24$ m.
-
-d) In the last second before stopping, the car travels $3$ m.
+Write the equation of the circle with centre $I(1, 2)$ that is tangent to the line $\Delta: 3x-4y+15=0$, then find the point of tangency.
 
 [LỜI GIẢI CŨ – EN]
-a) **True**: $12-3t=0\iff t=4$.
+$R=\dfrac{|3-8+15|}{5}=2$, so the circle is $(x-1)^2+(y-2)^2=4$. The line through $I$ perpendicular to $\Delta$: $x=1+3t$, $y=2-4t$. Substituting into $\Delta$: $3+9t-8+16t+15=0\iff t=-\dfrac25$, which gives $x=-\dfrac15$, $y=\dfrac{18}{5}$.
 
-b) **True**: $s(t)=\Big[12u-1.5u^2\Big]_0^t=12t-1.5t^2$.
-
-c) **True**: $s(4)=48-24=24$.
-
-d) **False**: $s(4)-s(3)=24-22.5=1.5$ m.
-
-**Answer.** a) True; b) True; c) True; d) False.
+**Answer.** $(x-1)^2+(y-2)^2=4$; point of tangency $\left(-\dfrac15, \dfrac{18}{5}\right)$.
 
 === Bài 10 ===
 [ĐỀ – VI]
-Một cổng có dạng parabol, chân cổng rộng $8$ m và đỉnh cao $4$ m so với mặt đất. Người ta lắp kính kín toàn bộ mặt cổng. Tính diện tích phần kính (đơn vị: m², làm tròn đến hàng phần mười).
+Viết phương trình đường tròn đi qua $A(1; 1)$, $B(5; 3)$ và có tâm nằm trên trục hoành.
 
 [LỜI GIẢI CŨ – VI]
-Parabol có dạng $y=4-ax^2$ và đi qua $(4; 0)$ nên $a=\dfrac14$.
-$$S=\int_{-4}^4\left(4-\frac{x^2}{4}\right)dx=\Big[4x-\frac{x^3}{12}\Big]_{-4}^4=2\left(16-\frac{16}{3}\right)=\frac{64}{3}\approx21{,}33.$$
+Trung điểm $(3; 2)$, $\overrightarrow{AB}=(4; 2)$: trung trực $4(x-3)+2(y-2)=0\iff 2x+y-8=0$. Với $y=0$: $x=4$, tâm $I(4; 0)$. $R^2=IA^2=9+1=10$ (và $IB^2=1+9=10$).
 
-**Đáp số.** $21{,}3$.
-
-[ĐỀ – EN]
-A gateway has the shape of a parabola: it is $8$ m wide at ground level and its top is $4$ m above the ground. The whole gateway is filled with glass. Find the area of glass, in m², to 1 decimal place.
-
-[LỜI GIẢI CŨ – EN]
-The parabola has the form $y=4-ax^2$ and passes through $(4, 0)$, so $a=\dfrac14$.
-$$S=\int_{-4}^4\left(4-\frac{x^2}{4}\right)dx=\Big[4x-\frac{x^3}{12}\Big]_{-4}^4=2\left(16-\frac{16}{3}\right)=\frac{64}{3}\approx21.33.$$
-
-**Answer.** $21.3$.
-
-
-######################################################################
-@@@ g12/review-optimisation-real-life
-Bài học: Ôn tập: bài toán tối ưu và thực tế / Revision: optimisation and real-life problems
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Một mảnh vườn hình chữ nhật có chu vi $40$ m. Diện tích lớn nhất của mảnh vườn là
-A. $100$ m².
-B. $400$ m².
-C. $96$ m².
-D. $200$ m².
-
-[LỜI GIẢI CŨ – VI]
-$S'(x)=20-2x=0\iff x=10$, $S'$ đổi dấu từ $+$ sang $-$. $S(10)=100$. Phương án B là $20^2$.
-
-**Đáp số.** A.
+**Đáp số.** $(x-4)^2+y^2=10$.
 
 [ĐỀ – EN]
-A rectangular garden has perimeter $40$ m. Its greatest possible area is
-A. $100$ m².
-B. $400$ m².
-C. $96$ m².
-D. $200$ m².
+Write the equation of the circle through $A(1, 1)$ and $B(5, 3)$ whose centre lies on the $x$-axis.
 
 [LỜI GIẢI CŨ – EN]
-$S'(x)=20-2x=0\iff x=10$, and $S'$ changes from $+$ to $-$. $S(10)=100$. Option B is $20^2$.
+Midpoint $(3, 2)$, $\overrightarrow{AB}=(4, 2)$: the perpendicular bisector is $4(x-3)+2(y-2)=0\iff 2x+y-8=0$. For $y=0$: $x=4$, so the centre is $I(4, 0)$. $R^2=IA^2=9+1=10$ (and $IB^2=1+9=10$).
 
-**Answer.** A.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Một vật chuyển động với $s(t)=t^3-3t^2+5t$ (m), $t$ (giây). Tính vận tốc của vật (m/s) tại thời điểm gia tốc bằng $0$.
-
-[LỜI GIẢI CŨ – VI]
-$v(t)=3t^2-6t+5$, $a(t)=6t-6=0\iff t=1$. $v(1)=3-6+5=2$.
-
-**Đáp số.** $2$.
-
-[ĐỀ – EN]
-An object moves with $s(t)=t^3-3t^2+5t$ (m), $t$ in seconds. Find its velocity (m/s) at the moment when its acceleration is $0$.
-
-[LỜI GIẢI CŨ – EN]
-$v(t)=3t^2-6t+5$, $a(t)=6t-6=0\iff t=1$. $v(1)=3-6+5=2$.
-
-**Answer.** $2$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Tổng chi phí sản xuất $x$ sản phẩm là $C(x)=x^2+20x+900$ (nghìn đồng), $x>0$. Chi phí trung bình nhỏ nhất cho mỗi sản phẩm là
-A. $80$ nghìn đồng.
-B. $30$ nghìn đồng.
-C. $60$ nghìn đồng.
-D. $50$ nghìn đồng.
-
-[LỜI GIẢI CŨ – VI]
-$\overline C'(x)=0\iff x=30$, và $\overline C'$ đổi dấu từ $-$ sang $+$. $\overline C(30)=30+20+30=80$. Phương án B là số sản phẩm $x$; C quên số hạng $20$.
-
-**Đáp số.** A.
-
-[ĐỀ – EN]
-The total cost of making $x$ items is $C(x)=x^2+20x+900$ (thousand đồng), $x>0$. The least average cost per item is
-A. $80$ thousand đồng.
-B. $30$ thousand đồng.
-C. $60$ thousand đồng.
-D. $50$ thousand đồng.
-
-[LỜI GIẢI CŨ – EN]
-$\overline C'(x)=0\iff x=30$, and $\overline C'$ changes from $-$ to $+$. $\overline C(30)=30+20+30=80$. Option B is the number of items $x$; C leaves out the term $20$.
-
-**Answer.** A.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Một bể chứa không nắp có đáy hình vuông, thể tích $32$ dm³. Tìm kích thước của bể để tốn ít vật liệu nhất (diện tích đáy cộng bốn mặt bên nhỏ nhất).
-
-[LỜI GIẢI CŨ – VI]
-$S'(x)=2x-\dfrac{128}{x^2}=\dfrac{2(x^3-64)}{x^2}=0\iff x=4$; $S'<0$ khi $0<x<4$, $S'>0$ khi $x>4$. Khi đó $h=\dfrac{32}{16}=2$ và $S(4)=16+32=48$ dm².
-
-**Đáp số.** Đáy cạnh $4$ dm, cao $2$ dm (diện tích vật liệu $48$ dm²).
-
-[ĐỀ – EN]
-An open tank with a square base has volume $32$ dm³. Find its dimensions so that it uses the least material (the area of the base plus the four sides is least).
-
-[LỜI GIẢI CŨ – EN]
-$S'(x)=2x-\dfrac{128}{x^2}=\dfrac{2(x^3-64)}{x^2}=0\iff x=4$; $S'<0$ for $0<x<4$ and $S'>0$ for $x>4$. Then $h=\dfrac{32}{16}=2$ and $S(4)=16+32=48$ dm².
-
-**Answer.** Base side $4$ dm, height $2$ dm (material area $48$ dm²).
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Một cửa hàng bán áo với giá $200$ nghìn đồng mỗi chiếc thì mỗi tháng bán được $50$ chiếc; cứ giảm giá $1$ nghìn đồng thì bán thêm được $1$ chiếc. Giá nhập mỗi chiếc là $120$ nghìn đồng. Gọi $x$ (nghìn đồng) là số tiền giảm giá, $0\le x\le80$.
-
-a) Khi bán với giá $190$ nghìn đồng, cửa hàng bán được $60$ chiếc mỗi tháng.
-
-b) Lợi nhuận mỗi tháng là $P(x)=(80-x)(50+x)$ (nghìn đồng).
-
-c) Lợi nhuận lớn nhất khi giá bán là $170$ nghìn đồng.
-
-d) Lợi nhuận lớn nhất là $4225$ nghìn đồng.
-
-[LỜI GIẢI CŨ – VI]
-a) **Đúng**: giảm $10$ nghìn thì bán $50+10=60$ chiếc.
-
-b) **Đúng**: lãi mỗi chiếc $200-x-120=80-x$, nhân với $50+x$.
-
-c) **Sai**: $P'(x)=30-2x=0\iff x=15$, nên giá bán tốt nhất là $185$ nghìn đồng.
-
-d) **Đúng**: $P(15)=65\cdot65=4225$, lớn hơn $P(0)=4000$ và $P(80)=0$.
-
-**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
-
-[ĐỀ – EN]
-A shop sells shirts at $200$ thousand đồng each and sells $50$ a month; for every $1$ thousand đồng reduction in price it sells $1$ more shirt. Each shirt costs the shop $120$ thousand đồng. Let $x$ (thousand đồng) be the price reduction, $0\le x\le80$.
-
-a) At a price of $190$ thousand đồng, the shop sells $60$ shirts a month.
-
-b) The monthly profit is $P(x)=(80-x)(50+x)$ (thousand đồng).
-
-c) The profit is greatest when the price is $170$ thousand đồng.
-
-d) The greatest profit is $4225$ thousand đồng.
-
-[LỜI GIẢI CŨ – EN]
-a) **True**: a reduction of $10$ thousand gives $50+10=60$ shirts.
-
-b) **True**: profit per shirt $200-x-120=80-x$, times $50+x$.
-
-c) **False**: $P'(x)=30-2x=0\iff x=15$, so the best price is $185$ thousand đồng.
-
-d) **True**: $P(15)=65\cdot65=4225$, more than $P(0)=4000$ and $P(80)=0$.
-
-**Answer.** a) True; b) True; c) False; d) True.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Một quả bóng được ném thẳng đứng lên, độ cao sau $t$ giây là $h(t)=1{,}5+19{,}6t-4{,}9t^2$ (m). Tính độ cao lớn nhất của quả bóng (đơn vị: mét).
-
-[LỜI GIẢI CŨ – VI]
-$h'(t)=0\iff t=2$, $h'$ đổi dấu từ $+$ sang $-$. $h(2)=1{,}5+39{,}2-19{,}6=21{,}1$.
-
-**Đáp số.** $21{,}1$.
-
-[ĐỀ – EN]
-A ball is thrown straight up; its height after $t$ seconds is $h(t)=1.5+19.6t-4.9t^2$ (m). Find the greatest height of the ball, in metres.
-
-[LỜI GIẢI CŨ – EN]
-$h'(t)=0\iff t=2$, and $h'$ changes from $+$ to $-$. $h(2)=1.5+39.2-19.6=21.1$.
-
-**Answer.** $21.1$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Một lon nước hình trụ có thể tích $16\pi$ cm³. Để tốn ít vật liệu nhất (diện tích toàn phần nhỏ nhất), bán kính đáy của lon phải bằng
-A. $2$ cm.
-B. $4$ cm.
-C. $8$ cm.
-D. $1$ cm.
-
-[LỜI GIẢI CŨ – VI]
-$S'(r)=4\pi r-\dfrac{32\pi}{r^2}=0\iff r^3=8\iff r=2$; $S'$ đổi dấu từ $-$ sang $+$. Khi đó $h=4$. Phương án B là chiều cao, C là $r^3$.
-
-**Đáp số.** A.
-
-[ĐỀ – EN]
-A cylindrical can has volume $16\pi$ cm³. To use the least material (least total surface area), the radius of its base must be
-A. $2$ cm.
-B. $4$ cm.
-C. $8$ cm.
-D. $1$ cm.
-
-[LỜI GIẢI CŨ – EN]
-$S'(r)=4\pi r-\dfrac{32\pi}{r^2}=0\iff r^3=8\iff r=2$; $S'$ changes from $-$ to $+$. Then $h=4$. Option B is the height, C is $r^3$.
-
-**Answer.** A.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Một người ở điểm $A$ trên mặt hồ, cách bờ thẳng $4$ km ($B$ là điểm trên bờ gần $A$ nhất). Người đó muốn đến điểm $C$ trên bờ với $BC=10$ km: chèo thuyền với vận tốc $3$ km/h đến điểm $M$ trên đoạn $BC$, rồi đi bộ với vận tốc $5$ km/h đến $C$. Điểm $M$ cách $B$ bao nhiêu km thì thời gian ít nhất?
-
-[LỜI GIẢI CŨ – VI]
-$T'(x)=\dfrac{x}{3\sqrt{x^2+16}}-\dfrac15=0\iff5x=3\sqrt{x^2+16}\iff16x^2=144\iff x=3$. $T(0)\approx3{,}33$, $T(3)=\dfrac53+\dfrac75\approx3{,}07$, $T(10)\approx3{,}59$ (giờ).
-
-**Đáp số.** $3$.
-
-[ĐỀ – EN]
-A person at point $A$ on a lake is $4$ km from a straight shore ($B$ is the point of the shore nearest to $A$). They want to reach point $C$ on the shore with $BC=10$ km: they row at $3$ km/h to a point $M$ on $BC$, then walk at $5$ km/h to $C$. How far from $B$ should $M$ be to make the time least, in km?
-
-[LỜI GIẢI CŨ – EN]
-$T'(x)=\dfrac{x}{3\sqrt{x^2+16}}-\dfrac15=0\iff5x=3\sqrt{x^2+16}\iff16x^2=144\iff x=3$. $T(0)\approx3.33$, $T(3)=\dfrac53+\dfrac75\approx3.07$, $T(10)\approx3.59$ (hours).
-
-**Answer.** $3$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Từ một tấm bìa hình chữ nhật kích thước $16$ cm × $10$ cm, người ta cắt bốn hình vuông cạnh $x$ cm ở bốn góc rồi gấp thành hộp không nắp.
-
-a) Điều kiện của $x$ là $0<x<5$.
-
-b) Thể tích hộp là $V(x)=x(16-x)(10-x)$.
-
-c) Thể tích lớn nhất khi $x=\dfrac{20}{3}$.
-
-d) Thể tích lớn nhất của hộp là $144$ cm³.
-
-[LỜI GIẢI CŨ – VI]
-$V(x)=x(16-2x)(10-2x)=4x^3-52x^2+160x$, $V'(x)=12x^2-104x+160=4(x-2)(3x-20)$.
-
-a) **Đúng**: cần $10-2x>0$ và $x>0$.
-
-b) **Sai**: mỗi cạnh đáy bị cắt hai lần, phải là $16-2x$ và $10-2x$.
-
-c) **Sai**: $\dfrac{20}{3}\approx6{,}67$ không thuộc $(0; 5)$; nghiệm cần lấy là $x=2$.
-
-d) **Đúng**: $V'$ đổi dấu từ $+$ sang $-$ tại $x=2$, $V(2)=2\cdot12\cdot6=144$.
-
-**Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
-
-[ĐỀ – EN]
-Four squares of side $x$ cm are cut from the corners of a $16$ cm × $10$ cm rectangular sheet of card, which is then folded into an open box.
-
-a) The constraint on $x$ is $0<x<5$.
-
-b) The volume of the box is $V(x)=x(16-x)(10-x)$.
-
-c) The volume is greatest when $x=\dfrac{20}{3}$.
-
-d) The greatest volume of the box is $144$ cm³.
-
-[LỜI GIẢI CŨ – EN]
-$V(x)=x(16-2x)(10-2x)=4x^3-52x^2+160x$, $V'(x)=12x^2-104x+160=4(x-2)(3x-20)$.
-
-a) **True**: we need $10-2x>0$ and $x>0$.
-
-b) **False**: each side of the base loses two squares, so it must be $16-2x$ and $10-2x$.
-
-c) **False**: $\dfrac{20}{3}\approx6.67$ is not in $(0, 5)$; the root to use is $x=2$.
-
-d) **True**: $V'$ changes from $+$ to $-$ at $x=2$, and $V(2)=2\cdot12\cdot6=144$.
-
-**Answer.** a) True; b) False; c) False; d) True.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Một tấm tôn rộng $30$ cm được gấp thành máng nước: đáy rộng $10$ cm, hai thành mỗi bên rộng $10$ cm, nghiêng với phương nằm ngang một góc $\theta$ với $0<\theta\le\dfrac{\pi}{2}$ (mặt cắt là hình thang cân). Tìm $\theta$ để diện tích mặt cắt lớn nhất và tính diện tích đó (làm tròn đến hàng phần mười).
-
-[LỜI GIẢI CŨ – VI]
-$$A'(\theta)=100\left(\cos\theta+\cos^2\theta-\sin^2\theta\right)=100(2\cos^2\theta+\cos\theta-1)=100(2\cos\theta-1)(\cos\theta+1).$$
-Trên $\left(0; \dfrac{\pi}{2}\right]$, $\cos\theta+1>0$, nên $A'=0\iff\cos\theta=\dfrac12\iff\theta=\dfrac{\pi}{3}$; $A'>0$ khi $\theta<\dfrac{\pi}{3}$ và $A'<0$ khi $\theta>\dfrac{\pi}{3}$. $A\left(\dfrac{\pi}{3}\right)=100\cdot\dfrac{\sqrt3}{2}\cdot\dfrac32=75\sqrt3\approx129{,}9$.
-
-**Đáp số.** $\theta=\dfrac{\pi}{3}$ ($60^\circ$), diện tích lớn nhất $75\sqrt3\approx129{,}9$ cm².
-
-[ĐỀ – EN]
-A metal sheet $30$ cm wide is folded into a gutter: a base $10$ cm wide and two sides $10$ cm wide, each making an angle $\theta$ with the horizontal, $0<\theta\le\dfrac{\pi}{2}$ (the cross-section is an isosceles trapezium). Find $\theta$ so that the cross-sectional area is greatest, and find that area to 1 decimal place.
-
-[LỜI GIẢI CŨ – EN]
-$$A'(\theta)=100\left(\cos\theta+\cos^2\theta-\sin^2\theta\right)=100(2\cos^2\theta+\cos\theta-1)=100(2\cos\theta-1)(\cos\theta+1).$$
-On $\left(0, \dfrac{\pi}{2}\right]$, $\cos\theta+1>0$, so $A'=0\iff\cos\theta=\dfrac12\iff\theta=\dfrac{\pi}{3}$; $A'>0$ for $\theta<\dfrac{\pi}{3}$ and $A'<0$ for $\theta>\dfrac{\pi}{3}$. $A\left(\dfrac{\pi}{3}\right)=100\cdot\dfrac{\sqrt3}{2}\cdot\dfrac32=75\sqrt3\approx129.9$.
-
-**Answer.** $\theta=\dfrac{\pi}{3}$ ($60^\circ$), with greatest area $75\sqrt3\approx129.9$ cm².
-
-
-######################################################################
-@@@ g12/review-space-geometry
-Bài học: Ôn tập: hình học không gian / Revision: geometry in space
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Khối lăng trụ đứng $ABC.A'B'C'$ có đáy là tam giác vuông tại $A$, $AB=3$, $AC=4$ và $AA'=5$. Thể tích của khối lăng trụ là
-
-**A.** $30$. **B.** $10$. **C.** $60$. **D.** $20$.
-
-[LỜI GIẢI CŨ – VI]
-Diện tích đáy là $\dfrac12\cdot3\cdot4=6$, nên $V=6\cdot5=30$. Phương án B nhân thêm $\dfrac13$, phương án C quên $\dfrac12$.
-
-**Đáp số.** A.
-
-[ĐỀ – EN]
-The right prism $ABC.A'B'C'$ has a base that is a right-angled triangle at $A$, with $AB=3$, $AC=4$ and $AA'=5$. The volume of the prism is
-
-**A.** $30$. **B.** $10$. **C.** $60$. **D.** $20$.
-
-[LỜI GIẢI CŨ – EN]
-The base area is $\dfrac12\cdot3\cdot4=6$, so $V=6\cdot5=30$. Option B multiplies by an extra $\dfrac13$; option C forgets the $\dfrac12$.
-
-**Answer.** A.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc, $OA=2$, $OB=3$, $OC=4$. Thể tích khối tứ diện là
-
-**A.** $24$. **B.** $12$. **C.** $8$. **D.** $4$.
-
-[LỜI GIẢI CŨ – VI]
-$V=\dfrac13\cdot\dfrac12\cdot2\cdot3\cdot4=4$. Phương án A quên cả $\dfrac13$ và $\dfrac12$; phương án B quên $\dfrac13$; phương án C quên $\dfrac12$.
-
-**Đáp số.** D.
-
-[ĐỀ – EN]
-In the tetrahedron $OABC$, the edges $OA$, $OB$, $OC$ are mutually perpendicular, $OA=2$, $OB=3$, $OC=4$. The volume of the tetrahedron is
-
-**A.** $24$. **B.** $12$. **C.** $8$. **D.** $4$.
-
-[LỜI GIẢI CŨ – EN]
-$V=\dfrac13\cdot\dfrac12\cdot2\cdot3\cdot4=4$. Option A forgets both $\dfrac13$ and $\dfrac12$; option B forgets $\dfrac13$; option C forgets $\dfrac12$.
-
-**Answer.** D.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Cho hình chóp $S.ABC$ có đáy là tam giác đều cạnh $a$, $SA\perp(ABC)$, góc giữa mặt phẳng $(SBC)$ và mặt phẳng đáy bằng $60^\circ$. Thể tích khối chóp là
-
-**A.** $\dfrac{a^3\sqrt3}{24}$. **B.** $\dfrac{a^3\sqrt3}{8}$. **C.** $\dfrac{3a^3\sqrt3}{8}$. **D.** $\dfrac{a^3}{4}$.
-
-[LỜI GIẢI CŨ – VI]
-$SA=\dfrac{a\sqrt3}{2}\cdot\sqrt3=\dfrac{3a}{2}$, nên $V=\dfrac13\cdot\dfrac{a^2\sqrt3}{4}\cdot\dfrac{3a}{2}=\dfrac{a^3\sqrt3}{8}$. Phương án A dùng nhầm $\tan30^\circ$, phương án C quên $\dfrac13$, phương án D lấy nhầm góc là $\widehat{SBA}$.
-
-**Đáp số.** B.
-
-[ĐỀ – EN]
-The pyramid $S.ABC$ has an equilateral base with side $a$, $SA\perp(ABC)$, and the angle between the plane $(SBC)$ and the base is $60^\circ$. The volume of the pyramid is
-
-**A.** $\dfrac{a^3\sqrt3}{24}$. **B.** $\dfrac{a^3\sqrt3}{8}$. **C.** $\dfrac{3a^3\sqrt3}{8}$. **D.** $\dfrac{a^3}{4}$.
-
-[LỜI GIẢI CŨ – EN]
-$SA=\dfrac{a\sqrt3}{2}\cdot\sqrt3=\dfrac{3a}{2}$, so $V=\dfrac13\cdot\dfrac{a^2\sqrt3}{4}\cdot\dfrac{3a}{2}=\dfrac{a^3\sqrt3}{8}$. Option A uses $\tan30^\circ$ by mistake, option C forgets $\dfrac13$, and option D takes the angle to be $\angle SBA$.
-
-**Answer.** B.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$, $O$ là tâm của hình vuông $ABCD$.
-
-a) $AC\perp(BDD'B')$.
-
-b) Góc giữa hai đường thẳng $AB'$ và $BC'$ bằng $60^\circ$.
-
-c) Khoảng cách từ $A$ đến mặt phẳng $(BDD'B')$ bằng $\dfrac{a\sqrt2}{2}$.
-
-d) Số đo của góc nhị diện $[C', BD, C]$ bằng $45^\circ$.
-
-[LỜI GIẢI CŨ – VI]
-a) **Đúng.** $AC\perp BD$ (hai đường chéo hình vuông) và $AC\perp BB'$, nên $AC\perp(BDD'B')$.
-
-b) **Đúng.** $BC'\parallel AD'$; tam giác $AB'D'$ có ba cạnh đều bằng $a\sqrt2$ nên là tam giác đều, góc bằng $60^\circ$.
-
-c) **Đúng.** Theo a), $AO\perp(BDD'B')$, nên khoảng cách là $AO=\dfrac{a\sqrt2}{2}$.
-
-d) **Sai.** Góc nhị diện là $\widehat{C'OC}$ với $\tan\widehat{C'OC}=\dfrac{CC'}{CO}=\dfrac{a}{\frac{a\sqrt2}{2}}=\sqrt2$, nên góc khoảng $54{,}7^\circ$.
-
-**Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
-
-[ĐỀ – EN]
-$ABCD.A'B'C'D'$ is a cube with side $a$, and $O$ is the centre of the square $ABCD$.
-
-a) $AC\perp(BDD'B')$.
-
-b) The angle between the lines $AB'$ and $BC'$ is $60^\circ$.
-
-c) The distance from $A$ to the plane $(BDD'B')$ is $\dfrac{a\sqrt2}{2}$.
-
-d) The dihedral angle $[C', BD, C]$ is $45^\circ$.
-
-[LỜI GIẢI CŨ – EN]
-a) **True.** $AC\perp BD$ (diagonals of a square) and $AC\perp BB'$, so $AC\perp(BDD'B')$.
-
-b) **True.** $BC'\parallel AD'$; triangle $AB'D'$ has all three sides equal to $a\sqrt2$, so it is equilateral and the angle is $60^\circ$.
-
-c) **True.** By a), $AO\perp(BDD'B')$, so the distance is $AO=\dfrac{a\sqrt2}{2}$.
-
-d) **False.** The dihedral angle is $\angle C'OC$ with $\tan\angle C'OC=\dfrac{CC'}{CO}=\dfrac{a}{\frac{a\sqrt2}{2}}=\sqrt2$, so the angle is about $54.7^\circ$.
-
-**Answer.** a) True; b) True; c) True; d) False.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Cho hình lập phương $ABCD.A'B'C'D'$. Tính góc giữa đường thẳng $A'C$ và mặt phẳng $(ABCD)$ (đơn vị: độ, làm tròn kết quả đến hàng đơn vị).
-
-[LỜI GIẢI CŨ – VI]
-$\tan\widehat{A'CA}=\dfrac{a}{a\sqrt2}=\dfrac{1}{\sqrt2}$, nên $\widehat{A'CA}\approx35{,}26^\circ$.
-
-**Đáp số.** $35$.
-
-[ĐỀ – EN]
-$ABCD.A'B'C'D'$ is a cube. Find the angle between the line $A'C$ and the plane $(ABCD)$ (in degrees, to the nearest whole number).
-
-[LỜI GIẢI CŨ – EN]
-$\tan\angle A'CA=\dfrac{a}{a\sqrt2}=\dfrac{1}{\sqrt2}$, so $\angle A'CA\approx35.26^\circ$.
-
-**Answer.** $35$.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Cho hình chóp $S.ABC$ có đáy là tam giác đều cạnh $2$, $SA\perp(ABC)$ và $SA=1$. Tính khoảng cách từ $A$ đến mặt phẳng $(SBC)$ (làm tròn kết quả đến hàng phần trăm).
-
-[LỜI GIẢI CŨ – VI]
-$\dfrac{1}{AH^2}=1+\dfrac13=\dfrac43$, nên $AH=\dfrac{\sqrt3}{2}\approx0{,}866$.
-
-**Đáp số.** $0{,}87$.
-
-[ĐỀ – EN]
-The pyramid $S.ABC$ has an equilateral base with side $2$, $SA\perp(ABC)$ and $SA=1$. Find the distance from $A$ to the plane $(SBC)$ (to 2 decimal places).
-
-[LỜI GIẢI CŨ – EN]
-$\dfrac{1}{AH^2}=1+\dfrac13=\dfrac43$, so $AH=\dfrac{\sqrt3}{2}\approx0.866$.
-
-**Answer.** $0.87$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Mái che của một giếng trời có dạng hình chóp tứ giác đều, đáy là hình vuông cạnh $4$ m, chiều cao $3$ m. Tính góc giữa một mặt bên của mái và mặt đáy (đơn vị: độ, làm tròn kết quả đến hàng đơn vị).
-
-[LỜI GIẢI CŨ – VI]
-$OM=2$, $\tan\widehat{SMO}=\dfrac32$, nên $\widehat{SMO}\approx56{,}31^\circ$.
-
-**Đáp số.** $56$.
-
-[ĐỀ – EN]
-The cover of a skylight is a regular square pyramid with a square base of side $4$ m and height $3$ m. Find the angle between a sloping face of the cover and the base (in degrees, to the nearest whole number).
-
-[LỜI GIẢI CŨ – EN]
-$OM=2$ and $\tan\angle SMO=\dfrac32$, so $\angle SMO\approx56.31^\circ$.
-
-**Answer.** $56$.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Một máng nước dài $2$ m có dạng hình lăng trụ đứng, mặt cắt ngang là hình thang cân với đáy lớn (miệng máng) $0{,}6$ m, đáy nhỏ $0{,}4$ m và chiều sâu $0{,}3$ m. Máng chứa được tối đa bao nhiêu lít nước?
-
-[LỜI GIẢI CŨ – VI]
-$B=\dfrac{(0{,}6+0{,}4)\cdot0{,}3}{2}=0{,}15$ m², nên $V=0{,}15\cdot2=0{,}3$ m³ $=300$ lít.
-
-**Đáp số.** $300$.
-
-[ĐỀ – EN]
-A water trough $2$ m long is a right prism whose cross-section is an isosceles trapezium with a longer base (the top) of $0.6$ m, a shorter base of $0.4$ m and a depth of $0.3$ m. At most how many litres of water can the trough hold?
-
-[LỜI GIẢI CŨ – EN]
-$B=\dfrac{(0.6+0.4)\cdot0.3}{2}=0.15$ m², so $V=0.15\cdot2=0.3$ m³ $=300$ litres.
-
-**Answer.** $300$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, tâm $O$, $SA\perp(ABCD)$ và $SA=a$. Tính khoảng cách giữa hai đường thẳng chéo nhau $SC$ và $BD$.
-
-[LỜI GIẢI CŨ – VI]
-Vì $BD\perp(SAC)$ và $OH\subset(SAC)$ nên $OH\perp BD$; lại có $OH\perp SC$, nên $d(SC, BD)=OH$. Ta có $OC=\dfrac{a\sqrt2}{2}$, $SC=\sqrt{a^2+2a^2}=a\sqrt3$, $\sin\widehat{SCA}=\dfrac{SA}{SC}=\dfrac{1}{\sqrt3}$:
-
-$$OH=\frac{a\sqrt2}{2}\cdot\frac{1}{\sqrt3}=\frac{a\sqrt6}{6}.$$
-
-**Đáp số.** $d(SC, BD)=\dfrac{a\sqrt6}{6}$.
-
-[ĐỀ – EN]
-The pyramid $S.ABCD$ has a square base with side $a$ and centre $O$, $SA\perp(ABCD)$ and $SA=a$. Find the distance between the skew lines $SC$ and $BD$.
-
-[LỜI GIẢI CŨ – EN]
-Since $BD\perp(SAC)$ and $OH\subset(SAC)$, $OH\perp BD$; also $OH\perp SC$, so $d(SC, BD)=OH$. We have $OC=\dfrac{a\sqrt2}{2}$, $SC=\sqrt{a^2+2a^2}=a\sqrt3$ and $\sin\angle SCA=\dfrac{SA}{SC}=\dfrac{1}{\sqrt3}$:
-
-$$OH=\frac{a\sqrt2}{2}\cdot\frac{1}{\sqrt3}=\frac{a\sqrt6}{6}.$$
-
-**Answer.** $d(SC, BD)=\dfrac{a\sqrt6}{6}$.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Khối lăng trụ $ABC.A'B'C'$ có thể tích bằng $30$. Gọi $M$ là trung điểm của cạnh $CC'$. Cắt bỏ khối chóp $M.ABC$ khỏi khối lăng trụ. Tính thể tích phần còn lại.
-
-[LỜI GIẢI CŨ – VI]
-$d(M, (ABC))=\dfrac12 d(C', (ABC))=\dfrac h2$, nên $V_{M.ABC}=\dfrac13\cdot B\cdot\dfrac h2=\dfrac{V}{6}=5$. Phần còn lại có thể tích $30-5=25$.
-
-**Đáp số.** $25$.
-
-[ĐỀ – EN]
-The prism $ABC.A'B'C'$ has volume $30$. Let $M$ be the midpoint of the edge $CC'$. The pyramid $M.ABC$ is cut away from the prism. Find the volume of what remains.
-
-[LỜI GIẢI CŨ – EN]
-$d(M, (ABC))=\dfrac12 d(C', (ABC))=\dfrac h2$, so $V_{M.ABC}=\dfrac13\cdot B\cdot\dfrac h2=\dfrac{V}{6}=5$. What remains has volume $30-5=25$.
-
-**Answer.** $25$.
+**Answer.** $(x-4)^2+y^2=10$.
 
 
 ===== HẾT FILE Lemonmath112-06-LG =====

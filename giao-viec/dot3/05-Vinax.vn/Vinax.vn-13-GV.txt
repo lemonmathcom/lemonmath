@@ -6,7 +6,7 @@ Kết quả: file Vinax.vn-13-GV-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Vinax.vn-13-GV
-Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g5/surface-area-of-a-cube, g5/surface-area-of-a-cuboid
+Gồm 2 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g4/unitary-method, g4/what-is-a-fraction
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -135,142 +135,129 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g5/surface-area-of-a-cube – BẢN TIẾNG VIỆT ########
+######## BÀI g4/unitary-method – BẢN TIẾNG VIỆT ########
 ---
-title: Diện tích xung quanh và diện tích toàn phần của hình lập phương
-description: Em học cách tính diện tích xung quanh và diện tích toàn phần của hình lập phương: lấy diện tích một mặt nhân với 4 hoặc nhân với 6.
+title: Bài toán liên quan đến rút về đơn vị
+description: Em học cách giải bài toán "biết giá của nhiều, tìm giá của số khác" bằng hai bước: chia để tìm một đơn vị, rồi nhân hoặc chia để tìm yêu cầu.
 minutes: 15
 ---
 
   :::goals
-  - Biết hình lập phương có $6$ mặt là các hình vuông bằng nhau.
-  - Tính được diện tích xung quanh và diện tích toàn phần của hình lập phương.
-  - Giải bài toán thực tế: dán giấy, sơn hộp.
+  - Biết rút về đơn vị: tìm giá trị của một đơn vị trước.
+  - Giải bài toán "biết giá trị của nhiều đơn vị, tìm giá trị của số đơn vị khác".
+  - Giải bài toán tìm số đơn vị khi biết số tiền hoặc số lượng.
   :::
 
-[[P1·ccfa]]
-Nam có một chiếc hộp quà hình lập phương, cạnh dài $10$ cm. Nam muốn bọc kín hộp bằng giấy màu. Hỏi Nam cần bao nhiêu xăng-ti-mét vuông giấy?
+[[P1·fa2e]]
+Mẹ mua $4$ quyển vở hết $24\,000$ đồng. Nếu mẹ mua $7$ quyển vở cùng loại thì hết bao nhiêu tiền?
 
-[[P2·6db9]]
-Em không cần đo từng mặt. Chỉ cần biết hình lập phương có gì đặc biệt, em sẽ tính được bằng vài phép nhân.
+[[P2·9a45]]
+Em chưa biết giá tiền của $7$ quyển ngay được. Nhưng nếu biết giá của một quyển thì bài toán dễ hơn nhiều.
 
 ## Cùng khám phá
 
-[[P3·c20a]]
-Nam cắt hộp dọc theo một số cạnh rồi trải phẳng ra. Em được $6$ hình vuông bằng nhau, mỗi hình vuông có cạnh $10$ cm.
+[[P3·3c4d]]
+Ta làm từng bước nhỏ.
 
-:::diagram Hình khai triển của hộp quà: 4 mặt bên và 2 mặt đáy
-   (… 27 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
+[[P4·912e]]
+- Bước 1: $4$ quyển hết $24\,000$ đồng. Chia đều, một quyển có giá bao nhiêu?
 
-[[P4·f7d4]]
-- Diện tích một mặt: $10\times10=100\ (\text{cm}^2)$.
-- Bốn mặt bên xung quanh hộp: $100\times4=400\ (\text{cm}^2)$.
-- Cả sáu mặt: $100\times6=600\ (\text{cm}^2)$.
+| Số quyển | Số tiền |
+|---|---|
+| $4$ | $24\,000$ đồng |
+| $1$ | $24\,000:4=6\,000$ đồng |
+| $7$ | $6\,000\times7=42\,000$ đồng |
 
-[[P5·de06]]
-Vậy Nam cần $600\ \text{cm}^2$ giấy để bọc kín hộp. Số $400\ \text{cm}^2$ là diện tích của $4$ mặt bên: đó là **diện tích xung quanh**.
+[[P5·eb57]]
+- Bước 2: biết một quyển giá $6\,000$ đồng, $7$ quyển giá gấp $7$ lần.
 
-  :::theorem Diện tích của hình lập phương cạnh $a$
-  Hình lập phương có $6$ mặt là các hình vuông bằng nhau. Mỗi mặt có diện tích $a\times a$.
+[[P6·436a]]
+Vậy mua $7$ quyển hết $42\,000$ đồng. Cách làm này gọi là **rút về đơn vị**: ta rút về giá của một quyển trước.
 
-  - **Diện tích xung quanh** là diện tích $4$ mặt bên: $S_{\text{xq}}=a\times a\times4$.
-  - **Diện tích toàn phần** là diện tích cả $6$ mặt: $S_{\text{tp}}=a\times a\times6$.
+  :::theorem Rút về đơn vị
+  Biết giá trị của nhiều đơn vị, muốn tìm giá trị của số đơn vị khác:
+  1. Tìm giá trị của một đơn vị: lấy giá trị đã cho chia cho số đơn vị.
+  2. Tìm giá trị cần hỏi: lấy giá trị của một đơn vị nhân với số đơn vị cần hỏi.
   :::
 
-:::diagram Hình lập phương cạnh $a$: mỗi mặt là một hình vuông $a\times a$
-   (… 22 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-[[P6·1478]]
-Công thức đúng vì mọi mặt đều bằng nhau: ta lấy diện tích một mặt nhân với số mặt. Diện tích toàn phần hơn diện tích xung quanh đúng $2$ mặt đáy, nên $S_{\text{tp}}=S_{\text{xq}}+a\times a\times2$.
+[[P7·c246]]
+Cách này đúng vì mỗi quyển vở có giá bằng nhau. Nên $7$ quyển có giá gấp $7$ lần một quyển.
 
 ## Ví dụ
 
-[[P7·3870]]
-Ta bắt đầu với hình lập phương có cạnh là số tự nhiên.
+[[P8·b4a8]]
+Ta bắt đầu với bài toán số lượng.
 
-  :::example Tính hai diện tích
-  Một hình lập phương có cạnh $5$ cm. Tính diện tích xung quanh và diện tích toàn phần của nó.
+  :::example Gói kẹo
+  Có $6$ gói kẹo như nhau chứa $48$ viên kẹo. Hỏi $9$ gói kẹo như thế chứa bao nhiêu viên kẹo?
 
-  **Lời giải.** Ta tính diện tích một mặt rồi nhân với $4$ hoặc $6$. Diện tích một mặt là $5\times5=25\ (\text{cm}^2)$, nên:
-  $$S_{\text{xq}}=25\times4=100\ (\text{cm}^2),\qquad S_{\text{tp}}=25\times6=150\ (\text{cm}^2).$$
-  Vậy diện tích xung quanh là $100\ \text{cm}^2$ và diện tích toàn phần là $150\ \text{cm}^2$.
+  **Lời giải.** Trước hết tìm số kẹo trong một gói, rồi nhân với $9$:
+  $$48:6=8\ \text{(viên)},\qquad 8\times9=72\ \text{(viên)}.$$
+  Vậy $9$ gói kẹo chứa $72$ viên kẹo.
   :::
 
-[[P8·f0e5]]
-Khi cạnh là số thập phân, em nhân hai số thập phân để tìm diện tích một mặt.
+[[P9·6bec]]
+Bài toán chuyển động cũng giải cùng cách.
 
-  :::example Cạnh là số thập phân
-  Một hình lập phương có cạnh $1{,}5$ m. Tính diện tích xung quanh và diện tích toàn phần.
+  :::example Đi xe đạp
+  Một bạn đi xe đạp đều, $4$ giờ đi được $36$ km. Hỏi $7$ giờ bạn đó đi được bao nhiêu ki-lô-mét?
 
-  **Lời giải.** Trước hết ta tính diện tích một mặt:
-  $$1{,}5\times1{,}5=2{,}25\ (\text{m}^2).$$
-  Rồi nhân với $4$ và với $6$:
-  $$S_{\text{xq}}=2{,}25\times4=9\ (\text{m}^2),\qquad S_{\text{tp}}=2{,}25\times6=13{,}5\ (\text{m}^2).$$
-  Vậy diện tích xung quanh là $9\ \text{m}^2$ và diện tích toàn phần là $13{,}5\ \text{m}^2$.
+  **Lời giải.** Tìm quãng đường đi được trong $1$ giờ, rồi nhân với $7$:
+  $$36:4=9\ \text{(km)},\qquad 9\times7=63\ \text{(km)}.$$
+  Vậy $7$ giờ bạn đó đi được $63$ km.
   :::
 
-[[P9·cb72]]
-Trong thực tế, nhiều đồ vật không có đủ $6$ mặt. Em phải đếm xem cần tính mấy mặt.
+[[P10·8967]]
+Bây giờ em làm bài toán với số tiền lớn hơn.
 
-  :::example Thùng không nắp
-  Bác Hải làm một cái thùng tôn hình lập phương không có nắp, cạnh $3$ dm. Bác sơn toàn bộ mặt ngoài của thùng. Hỏi diện tích cần sơn là bao nhiêu đề-xi-mét vuông?
+  :::example Mua gạo
+  Mua $5$ kg gạo hết $75\,000$ đồng. Hỏi mua $8$ kg gạo như thế hết bao nhiêu tiền?
 
-  **Lời giải.** Thùng không nắp nên chỉ còn $5$ mặt: $4$ mặt bên và $1$ mặt đáy. Diện tích một mặt là $3\times3=9\ (\text{dm}^2)$, nên:
-  $$9\times5=45\ (\text{dm}^2).$$
-  Vậy diện tích cần sơn là $45\ \text{dm}^2$.
-
-  **Kiểm tra.** Diện tích toàn phần là $9\times6=54\ (\text{dm}^2)$. Bớt mặt nắp $9\ \text{dm}^2$ thì còn $54-9=45\ (\text{dm}^2)$. Kết quả khớp.
+  **Lời giải.** Tìm giá tiền $1$ kg gạo, rồi nhân với $8$:
+  $$75\,000:5=15\,000\ \text{(đồng)},\qquad 15\,000\times8=120\,000\ \text{(đồng)}.$$
+  Vậy mua $8$ kg gạo hết $120\,000$ đồng.
   :::
 
-[[P10·b457]]
-Cuối cùng, ta làm ngược lại: biết diện tích, tìm cạnh.
+[[P11·5b35]]
+Có loại bài khác: biết số tiền, hỏi mua được bao nhiêu. Bước 2 lúc này là phép chia.
 
-  :::example Tìm cạnh
-  Diện tích toàn phần của một hình lập phương là $96\ \text{cm}^2$. Tính độ dài cạnh.
+  :::example Mua cam
+  Mua $12$ quả cam hết $60\,000$ đồng. Với $45\,000$ đồng thì mua được bao nhiêu quả cam như thế?
 
-  **Lời giải.** Hình lập phương có $6$ mặt bằng nhau, nên ta chia $96$ cho $6$ để được diện tích một mặt:
-  $$96:6=16\ (\text{cm}^2).$$
-  Ta cần tìm số nhân với chính nó bằng $16$. Vì $4\times4=16$ nên cạnh dài $4$ cm.
+  **Lời giải.** Tìm giá tiền một quả cam. Sau đó xem $45\,000$ đồng chứa bao nhiêu lần giá một quả:
+  $$60\,000:12=5\,000\ \text{(đồng)},\qquad 45\,000:5\,000=9\ \text{(quả)}.$$
+  Vậy với $45\,000$ đồng mua được $9$ quả cam.
 
-  **Kiểm tra.** $4\times4\times6=96$. Đúng.
+  **Kiểm tra.** $9$ quả giá $5\,000\times9=45\,000$ đồng. Đúng.
   :::
-
-[[P11·c177]]
-Nếu đề cho diện tích xung quanh, em chia cho $4$ (không phải $6$) để được diện tích một mặt.
 
 :::warning Những lỗi em hay gặp
-[[P12·a3c8]]
-- **Quên nhân hai lần cạnh.** Sai: hình lập phương cạnh $3$ cm có $S_{\text{tp}}=3\times6=18\ \text{cm}^2$. Vì sao sai: $3\times6$ không phải là diện tích; diện tích một mặt là $3\times3=9$. Đúng: $S_{\text{tp}}=3\times3\times6=54\ \text{cm}^2$.
-- **Nhầm số mặt.** Sai: tính diện tích xung quanh bằng $a\times a\times6$. Vì sao sai: diện tích xung quanh chỉ có $4$ mặt bên, không tính hai mặt đáy. Đúng: $a\times a\times4$.
-- **Viết sai đơn vị.** Sai: "Đáp số: $54\ \text{cm}$". Đúng: "Đáp số: $54\ \text{cm}^2$", vì diện tích đo bằng xăng-ti-mét vuông.
+[[P12·c474]]
+- **Nhân luôn, bỏ qua bước chia.** Sai: $24\,000\times7$. Vì sao sai: $24\,000$ là giá của $4$ quyển, không phải $1$ quyển. Đúng: chia cho $4$ trước.
+- **Chia nhầm số.** Sai: $24\,000:7$. Vì sao sai: phải chia cho số quyển đã biết giá, tức $4$. Đúng: $24\,000:4=6\,000$.
+- **Quên đơn vị.** Sai: "Đáp số: $42\,000$". Đúng: "Đáp số: $42\,000$ đồng".
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - hình lập phương | cube
-  - cạnh | edge
-  - mặt | face
-  - mặt bên | side face (lateral face)
-  - mặt đáy | base
-  - hình vuông | square
-  - hình khai triển | net
-  - diện tích xung quanh | lateral surface area
-  - diện tích toàn phần | total surface area
-  - xăng-ti-mét vuông | square centimetre
+  - rút về đơn vị | unitary method
+  - một đơn vị | one unit
+  - giá tiền | cost
+  - phép chia | division
+  - phép nhân | multiplication
+  - bài toán có lời văn | word problem
+  - quãng đường | distance
   :::
 
 ## Tóm tắt
 
-[[P13·7da4]]
-- Hình lập phương có $6$ mặt là các hình vuông bằng nhau.
-- Diện tích xung quanh ($4$ mặt bên): $S_{\text{xq}}=a\times a\times4$.
-- Diện tích toàn phần (cả $6$ mặt): $S_{\text{tp}}=a\times a\times6$.
-- Vật không nắp chỉ có $5$ mặt: lấy diện tích một mặt nhân với $5$.
-- Biết diện tích, tìm cạnh: chia để được diện tích một mặt, rồi tìm số nhân với chính nó.
-- Diện tích luôn ghi kèm đơn vị vuông, ví dụ $\text{cm}^2$.
+[[P13·a79b]]
+- Rút về đơn vị gồm hai bước: tìm giá trị một đơn vị (chia), rồi tìm giá trị cần hỏi.
+- Hỏi giá trị của số đơn vị khác: bước hai là nhân.
+- Hỏi số đơn vị khi biết số tiền: bước hai là chia.
+- Ví dụ: $24\,000:4=6\,000$, rồi $6\,000\times7=42\,000$.
+- Nhớ viết đơn vị trong từng phép tính và đáp số.
 
 ## Luyện tập
 
@@ -278,35 +265,35 @@ Nếu đề cho diện tích xung quanh, em chia cho $4$ (không phải $6$) đ�
 Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
-   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -316,142 +303,129 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 
-######## BÀI g5/surface-area-of-a-cube – BẢN TIẾNG ANH ########
+######## BÀI g4/unitary-method – BẢN TIẾNG ANH ########
 ---
-title: Lateral and total surface area of a cube
-description: Learn to find the lateral surface area (4 side faces) and total surface area (6 faces) of a cube: multiply the area of one face by 4 or by 6.
+title: Problems using the unitary method
+description: Learn to solve "we know the cost of several, find the cost of another number" in two steps: divide to find one unit, then multiply or divide.
 minutes: 15
 ---
 
   :::goals
-  - Know that a cube has $6$ faces, all equal squares.
-  - Find the lateral surface area and the total surface area of a cube.
-  - Solve real-life problems: wrapping paper, painting a box.
+  - Use the unitary method: find the value of one unit first.
+  - Solve problems where we know the value of several units and need the value of a different number.
+  - Solve problems that ask how many units we can get for a given amount.
   :::
 
-[[P1·59e9]]
-Nam has a gift box in the shape of a cube. Its edge is $10$ cm long. Nam wants to cover the whole box with coloured paper. How many square centimetres of paper does he need?
+[[P1·706a]]
+Mum buys $4$ exercise books for $24\,000$ dong. How much do $7$ books of the same kind cost?
 
-[[P2·a460]]
-You do not need to measure every face. If you know what is special about a cube, a few multiplications are enough.
+[[P2·c30e]]
+You cannot see the price of $7$ books straight away. But if you know the price of one book, the problem becomes much easier.
 
 ## Let's explore
 
-[[P3·a4ed]]
-Nam cuts the box along some edges and lays it flat. He gets $6$ equal squares, each with a side of $10$ cm.
+[[P3·777d]]
+We go step by step.
 
-:::diagram The net of the gift box: 4 side faces and 2 bases
-   (… 27 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
+[[P4·eadd]]
+- Step 1: $4$ books cost $24\,000$ dong. Shared equally, how much is one book?
 
-[[P4·3ace]]
-- Area of one face: $10\times10=100\ (\text{cm}^2)$.
-- The four side faces around the box: $100\times4=400\ (\text{cm}^2)$.
-- All six faces: $100\times6=600\ (\text{cm}^2)$.
+| Number of books | Cost |
+|---|---|
+| $4$ | $24\,000$ dong |
+| $1$ | $24\,000\div4=6\,000$ dong |
+| $7$ | $6\,000\times7=42\,000$ dong |
 
-[[P5·c0f3]]
-So Nam needs $600\ \text{cm}^2$ of paper to cover the box. The $400\ \text{cm}^2$ is the area of the $4$ side faces: this is the **lateral surface area**.
+[[P5·0c82]]
+- Step 2: one book costs $6\,000$ dong, so $7$ books cost $7$ times as much.
 
-  :::theorem Surface area of a cube with edge $a$
-  A cube has $6$ faces, all equal squares. Each face has area $a\times a$.
+[[P6·711b]]
+So $7$ books cost $42\,000$ dong. This is called the **unitary method**: we go down to the cost of one book first.
 
-  - The **lateral surface area** is the area of the $4$ side faces: $S_{\text{lat}}=a\times a\times4$.
-  - The **total surface area** is the area of all $6$ faces: $S_{\text{total}}=a\times a\times6$.
+  :::theorem The unitary method
+  We know the value of several units and want the value of a different number of units:
+  1. Find the value of one unit: divide the given value by the number of units.
+  2. Find the value asked for: multiply the value of one unit by the number of units needed.
   :::
 
-:::diagram A cube with edge $a$: each face is an $a\times a$ square
-   (… 22 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-[[P6·92c9]]
-The rules work because all faces are equal: we multiply the area of one face by the number of faces. The total surface area is bigger than the lateral surface area by exactly the $2$ bases, so $S_{\text{total}}=S_{\text{lat}}+a\times a\times2$.
+[[P7·e9ad]]
+This works because every book costs the same. So $7$ books cost $7$ times as much as one book.
 
 ## Examples
 
-[[P7·506d]]
-We start with a cube whose edge is a whole number.
+[[P8·9c22]]
+We start with a problem about amounts.
 
-  :::example Find both areas
-  A cube has an edge of $5$ cm. Find its lateral surface area and its total surface area.
+  :::example Packets of sweets
+  $6$ identical packets hold $48$ sweets. How many sweets are in $9$ packets like these?
 
-  **Solution.** We find the area of one face, then multiply by $4$ or by $6$. The area of one face is $5\times5=25\ (\text{cm}^2)$, so:
-  $$S_{\text{lat}}=25\times4=100\ (\text{cm}^2),\qquad S_{\text{total}}=25\times6=150\ (\text{cm}^2).$$
-  So the lateral surface area is $100\ \text{cm}^2$ and the total surface area is $150\ \text{cm}^2$.
+  **Solution.** First find the sweets in one packet, then multiply by $9$:
+  $$48\div6=8\ \text{(sweets)},\qquad 8\times9=72\ \text{(sweets)}.$$
+  So $9$ packets hold $72$ sweets.
   :::
 
-[[P8·0d2a]]
-When the edge is a decimal, you multiply two decimals to find the area of one face.
+[[P9·7d11]]
+Problems about travelling work in the same way.
 
-  :::example A decimal edge
-  A cube has an edge of $1.5$ m. Find its lateral surface area and its total surface area.
+  :::example Cycling
+  A child cycles at a steady speed and goes $36$ km in $4$ hours. How far does the child go in $7$ hours?
 
-  **Solution.** First we find the area of one face:
-  $$1.5\times1.5=2.25\ (\text{m}^2).$$
-  Then we multiply by $4$ and by $6$:
-  $$S_{\text{lat}}=2.25\times4=9\ (\text{m}^2),\qquad S_{\text{total}}=2.25\times6=13.5\ (\text{m}^2).$$
-  So the lateral surface area is $9\ \text{m}^2$ and the total surface area is $13.5\ \text{m}^2$.
+  **Solution.** Find the distance in $1$ hour, then multiply by $7$:
+  $$36\div4=9\ \text{(km)},\qquad 9\times7=63\ \text{(km)}.$$
+  So in $7$ hours the child goes $63$ km.
   :::
 
-[[P9·1be2]]
-In real life, many objects do not have all $6$ faces. You must count how many faces to include.
+[[P10·42c7]]
+Now a problem with bigger sums of money.
 
-  :::example A bin with no lid
-  Mr Hai makes a metal bin in the shape of a cube with no lid. Its edge is $3$ dm. He paints the whole outside of the bin. How many square decimetres does he paint?
+  :::example Buying rice
+  $5$ kg of rice cost $75\,000$ dong. How much do $8$ kg of the same rice cost?
 
-  **Solution.** The bin has no lid, so only $5$ faces are left: $4$ sides and $1$ base. The area of one face is $3\times3=9\ (\text{dm}^2)$, so:
-  $$9\times5=45\ (\text{dm}^2).$$
-  So he paints $45\ \text{dm}^2$.
-
-  **Check.** The total surface area is $9\times6=54\ (\text{dm}^2)$. Taking away the lid, $9\ \text{dm}^2$, leaves $54-9=45\ (\text{dm}^2)$. The results agree.
+  **Solution.** Find the cost of $1$ kg, then multiply by $8$:
+  $$75\,000\div5=15\,000\ \text{(dong)},\qquad 15\,000\times8=120\,000\ \text{(dong)}.$$
+  So $8$ kg of rice cost $120\,000$ dong.
   :::
 
-[[P10·4867]]
-Finally, we work backwards: we know the area and want the edge.
+[[P11·6b59]]
+There is another kind: we know the money and ask how many we can buy. Then step 2 is a division.
 
-  :::example Find the edge
-  The total surface area of a cube is $96\ \text{cm}^2$. Find the length of its edge.
+  :::example Buying oranges
+  $12$ oranges cost $60\,000$ dong. How many oranges of the same kind can we buy with $45\,000$ dong?
 
-  **Solution.** A cube has $6$ equal faces, so we divide $96$ by $6$ to get the area of one face:
-  $$96\div6=16\ (\text{cm}^2).$$
-  We need a number that gives $16$ when multiplied by itself. Since $4\times4=16$, the edge is $4$ cm.
+  **Solution.** Find the cost of one orange. Then see how many times that fits into $45\,000$:
+  $$60\,000\div12=5\,000\ \text{(dong)},\qquad 45\,000\div5\,000=9\ \text{(oranges)}.$$
+  So $45\,000$ dong buys $9$ oranges.
 
-  **Check.** $4\times4\times6=96$. Correct.
+  **Check.** $9$ oranges cost $5\,000\times9=45\,000$ dong. Correct.
   :::
-
-[[P11·b97e]]
-If you are given the lateral surface area instead, divide by $4$ (not $6$) to get the area of one face.
 
 :::warning Mistakes to watch out for
-[[P12·31ac]]
-- **Forgetting to multiply the edge by itself.** Wrong: a cube with edge $3$ cm has $S_{\text{total}}=3\times6=18\ \text{cm}^2$. Why it is wrong: $3\times6$ is not an area; one face has area $3\times3=9$. Right: $S_{\text{total}}=3\times3\times6=54\ \text{cm}^2$.
-- **Using the wrong number of faces.** Wrong: finding the lateral surface area as $a\times a\times6$. Why it is wrong: the lateral surface area has only the $4$ side faces, not the two bases. Right: $a\times a\times4$.
-- **Wrong unit.** Wrong: "Answer: $54\ \text{cm}$". Right: "Answer: $54\ \text{cm}^2$", because area is measured in square centimetres.
+[[P12·aec5]]
+- **Multiplying straight away.** Wrong: $24\,000\times7$. Why it is wrong: $24\,000$ is the cost of $4$ books, not $1$. Right: divide by $4$ first.
+- **Dividing by the wrong number.** Wrong: $24\,000\div7$. Why it is wrong: divide by the number of books we know the cost of, which is $4$. Right: $24\,000\div4=6\,000$.
+- **Forgetting the unit.** Wrong: "Answer: $42\,000$". Right: "Answer: $42\,000$ dong".
 :::
 
 ## Key terms
 
   :::terms
-  - cube | hình lập phương
-  - edge | cạnh
-  - face | mặt
-  - side face (lateral face) | mặt bên
-  - base | mặt đáy
-  - square | hình vuông
-  - net | hình khai triển
-  - lateral surface area | diện tích xung quanh
-  - total surface area | diện tích toàn phần
-  - square centimetre | xăng-ti-mét vuông
+  - unitary method | rút về đơn vị
+  - one unit | một đơn vị
+  - cost | giá tiền
+  - division | phép chia
+  - multiplication | phép nhân
+  - word problem | bài toán có lời văn
+  - distance | quãng đường
   :::
 
 ## Summary
 
-[[P13·217f]]
-- A cube has $6$ faces, all equal squares.
-- Lateral surface area ($4$ side faces): $S_{\text{lat}}=a\times a\times4$.
-- Total surface area (all $6$ faces): $S_{\text{total}}=a\times a\times6$.
-- An object with no lid has only $5$ faces: multiply the area of one face by $5$.
-- Given an area, to find the edge: divide to get the area of one face, then find the number that multiplies by itself to give it.
-- Always write the area with a square unit, for example $\text{cm}^2$.
+[[P13·240d]]
+- The unitary method has two steps: find the value of one unit (divide), then find the value asked for.
+- To find the value of a different number of units, step 2 is a multiplication.
+- To find how many we can get for some money, step 2 is a division.
+- Example: $24\,000\div4=6\,000$, then $6\,000\times7=42\,000$.
+- Write the unit in every calculation and in the answer.
 
 ## Practice
 
@@ -459,35 +433,35 @@ If you are given the lateral surface area instead, divide by $4$ (not $6$) to ge
 Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge
-   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test
@@ -497,136 +471,134 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 :::
 
 
-######## BÀI g5/surface-area-of-a-cuboid – BẢN TIẾNG VIỆT ########
+######## BÀI g4/what-is-a-fraction – BẢN TIẾNG VIỆT ########
 ---
-title: Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật
-description: Em học cách tính diện tích bốn mặt bên và cả sáu mặt của hình hộp chữ nhật từ chiều dài, chiều rộng, chiều cao.
+title: Khái niệm phân số
+description: Em học phân số là gì, đọc và viết phân số, biết tử số và mẫu số, và biểu diễn phân số bằng hình và trên trục số.
 minutes: 15
 ---
 
   :::goals
-  - Nhận biết diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật.
-  - Tính được hai diện tích từ chiều dài, chiều rộng và chiều cao.
-  - Chọn đúng những mặt cần tính trong một tình huống thực tế.
+  - Hiểu phân số chỉ một hay nhiều phần trong các phần bằng nhau của một cái nguyên.
+  - Đọc, viết phân số và nhận ra tử số, mẫu số.
+  - Biểu diễn phân số bằng hình và trên trục số.
   :::
 
-[[P1·efa0]]
-Một hộp quà hình hộp chữ nhật dài $8$ cm, rộng $5$ cm và cao $4$ cm. Minh muốn dán giấy quanh bốn mặt bên, rồi bọc kín cả hộp. Minh cần bao nhiêu xăng-ti-mét vuông giấy cho mỗi việc?
+[[P1·8bd7]]
+Một chiếc bánh pizza được cắt thành $4$ phần bằng nhau. Lan ăn $1$ phần, Nam ăn $3$ phần. Mỗi bạn ăn mấy phần của chiếc bánh? Có phải ta viết được bằng một số không?
+
+[[P2·ef1f]]
+Số tự nhiên không viết được "một phần tư" hay "ba phần tư". Bài này dạy em một loại số mới để viết các phần của một cái nguyên.
 
 ## Cùng khám phá
 
-:::diagram Hộp quà dài $8$ cm, rộng $5$ cm, cao $4$ cm
-   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+[[P3·3c4d]]
+Ta làm từng bước nhỏ.
+
+[[P4·fdcf]]
+- Chiếc bánh được cắt thành $4$ phần **bằng nhau**. Số $4$ cho biết chiếc bánh có bao nhiêu phần bằng nhau.
+- Lan ăn $1$ phần. Ta viết số phần Lan ăn là $\dfrac{1}{4}$, đọc là "một phần tư".
+- Nam ăn $3$ phần. Ta viết $\dfrac{3}{4}$, đọc là "ba phần tư".
+- Lan và Nam ăn cả $4$ phần, tức ăn hết cả chiếc bánh. Ta viết $\dfrac{4}{4}=1$.
+
+[[P5·f55c]]
+Ta cũng đặt các phân số lên trục số. Đoạn từ $0$ đến $1$ được chia thành $4$ phần bằng nhau, mỗi phần là $\dfrac{1}{4}$.
+
+:::graph Trục số: đoạn từ 0 đến 1 chia thành 4 phần bằng nhau
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-[[P2·773e]]
-Bốn mặt bên gồm hai hình chữ nhật $8\ \text{cm}\times4\ \text{cm}$ và hai hình chữ nhật $5\ \text{cm}\times4\ \text{cm}$. Tổng diện tích là
-  $$2\times(8\times4)+2\times(5\times4)=104\ \text{cm}^2.$$
+  :::definition Phân số
+  Chia một cái nguyên thành $b$ phần bằng nhau, lấy $a$ phần. Số phần đã lấy được viết là $\dfrac{a}{b}$ và gọi là một **phân số**.
 
-[[P3·4d9f]]
-Chu vi mặt đáy là $(8+5)\times2=26$ cm. Trải bốn mặt bên thành một dải rộng $4$ cm, ta cũng được $26\times4=104\ \text{cm}^2$.
-
-[[P4·315d]]
-Hai mặt đáy có tổng diện tích $2\times8\times5=80\ \text{cm}^2$. Vì thế, diện tích cả sáu mặt là $104+80=184\ \text{cm}^2$.
-
-  :::theorem Quy tắc tính diện tích
-  - **Diện tích xung quanh** là tổng diện tích bốn mặt bên:
-  $$S_{\text{xung quanh}}=(\text{chiều dài}+\text{chiều rộng})\times2\times\text{chiều cao}.$$
-  - **Diện tích toàn phần** là tổng diện tích cả sáu mặt:
-  $$S_{\text{toàn phần}}=S_{\text{xung quanh}}+2\times\text{chiều dài}\times\text{chiều rộng}.$$
+  Số $a$ ở trên gọi là **tử số**. Số $b$ ở dưới gọi là **mẫu số**. Mẫu số không bao giờ bằng $0$.
   :::
 
-[[P5·c9db]]
-Quy tắc đúng vì dải bốn mặt bên dài bằng chu vi đáy và rộng bằng chiều cao. Diện tích toàn phần có thêm hai đáy bằng nhau.
+[[P6·fc3f]]
+Mẫu số cho biết cái nguyên được chia thành bao nhiêu phần bằng nhau. Tử số cho biết ta lấy bao nhiêu phần.
 
 ## Ví dụ
 
-[[P6·b917]]
-Ta bắt đầu với bốn mặt bên.
+[[P7·12e9]]
+Ta bắt đầu với việc viết phân số cho một hình.
 
-  :::example Tính diện tích xung quanh
-  Tính diện tích xung quanh của hình hộp dài $12$ cm, rộng $7$ cm, cao $5$ cm.
+  :::example Viết phân số từ hình
+  Một chiếc bánh được cắt thành $8$ phần bằng nhau. Mai ăn $3$ phần. Viết phân số chỉ phần bánh Mai đã ăn.
 
-  **Lời giải.** Lấy chu vi đáy nhân chiều cao:
-  $$ (12+7)\times2\times5=190\ \text{cm}^2.$$
-  Vậy kết quả là $190\ \text{cm}^2$.
+  ![Chiếc bánh tròn chia tám phần bằng nhau, ba phần chỉ còn viền nét đứt](/assets/img/g4/g4-what-is-a-fraction-01.svg)
+
+  **Lời giải.** Cái nguyên chia thành $8$ phần bằng nhau, nên mẫu số là $8$. Mai lấy $3$ phần, nên tử số là $3$:
+  $$\frac{3}{8}.$$
+  Vậy Mai ăn $\dfrac{3}{8}$ chiếc bánh.
   :::
 
-[[P7·ac06]]
-Bây giờ ta tính cả sáu mặt.
+[[P8·fa15]]
+Bây giờ em đọc phân số và chỉ ra tử số, mẫu số.
 
-  :::example Tính diện tích toàn phần
-  Tính diện tích toàn phần của hình hộp dài $9$ dm, rộng $4$ dm, cao $6$ dm.
+  :::example Đọc phân số
+  Đọc phân số $\dfrac{5}{6}$, rồi cho biết tử số và mẫu số. Viết phân số "bảy phần chín".
 
-  **Lời giải.** Diện tích xung quanh là $156\ \text{dm}^2$; hai đáy là $72\ \text{dm}^2$:
-  $$156+72=228\ \text{dm}^2.$$
-
-  Vậy kết quả là $228\ \text{dm}^2$.
+  **Lời giải.** Phân số $\dfrac{5}{6}$ đọc là "năm phần sáu". Tử số là $5$ (ở trên) và mẫu số là $6$ (ở dưới). Phân số "bảy phần chín" có tử số $7$ và mẫu số $9$:
+  $$\frac{7}{9}.$$
   :::
 
-[[P8·09ae]]
-Ta cũng có thể tìm ngược một kích thước.
+[[P9·7bca]]
+Ta cũng có thể viết phân số cho phần chưa lấy.
 
-  :::example Tìm chiều cao
-  Hình hộp dài $10$ cm, rộng $6$ cm, có diện tích xung quanh $256\ \text{cm}^2$. Tìm chiều cao.
+  :::example Phần còn lại
+  Một hình vuông được chia thành $6$ phần bằng nhau, tô màu $5$ phần. Viết phân số chỉ phần đã tô và phân số chỉ phần chưa tô.
 
-  **Lời giải.** Chu vi đáy là $32$ cm, nên chiều cao là
-  $$256:32=8\ \text{(cm)}.$$
-  Vậy chiều cao là $8$ cm.
+  ![Hình vuông chia thành sáu phần bằng nhau, năm phần được tô màu](/assets/img/g4/g4-what-is-a-fraction-02.svg)
+
+  **Lời giải.** Mẫu số vẫn là $6$ vì cái nguyên chia thành $6$ phần. Phần đã tô là $5$ phần, phần chưa tô là $6-5=1$ phần:
+  $$\frac{5}{6}\ \text{(đã tô)},\qquad \frac{1}{6}\ \text{(chưa tô)}.$$
+  **Kiểm tra.** $5$ phần và $1$ phần là $6$ phần, tức cả hình: $\dfrac{5}{6}$ và $\dfrac{1}{6}$ ghép lại thành cả hình.
   :::
 
-[[P9·f9c2]]
-Cuối cùng, ta chỉ tính những mặt được sơn.
+[[P10·f275]]
+Cuối cùng, ta đánh dấu một phân số trên trục số.
 
-  :::example Sơn một thùng gỗ
-  Thùng dài $60$ cm, rộng $40$ cm, cao $30$ cm. Sơn bốn mặt bên và mặt trên. Tính diện tích sơn.
+  :::example Phân số trên trục số
+  Trên trục số, đoạn từ $0$ đến $1$ chia thành $4$ phần bằng nhau. Điểm nào biểu diễn $\dfrac{3}{4}$?
 
-  **Lời giải.** Cộng diện tích bốn mặt bên và mặt trên:
-  $$ (60+40)\times2\times30+60\times40=8\,400\ \text{cm}^2.$$
-  Vậy kết quả là $8\,400\ \text{cm}^2$.
+  **Lời giải.** Mẫu số $4$ cho biết chia đoạn thành $4$ phần. Từ $0$, ta đi qua $3$ phần theo thứ tự $\dfrac{1}{4}$, $\dfrac{2}{4}$, $\dfrac{3}{4}$. Điểm thứ ba sau $0$ biểu diễn $\dfrac{3}{4}$, nằm trước điểm $1$ một phần.
   :::
 
 :::warning Những lỗi em hay gặp
-[[P10·fd6d]]
-- **Dùng diện tích đáy thay chu vi đáy.** Sai: $8\times5\times4$. Đúng: $(8+5)\times2\times4$.
-- **Chỉ cộng một đáy.** Diện tích toàn phần phải có **hai** mặt đáy.
-- **Sai đơn vị.** Đổi mọi kích thước về cùng đơn vị và ghi đơn vị vuông, chẳng hạn $\text{cm}^2$.
+[[P11·aa46]]
+- **Các phần không bằng nhau.** Sai: cắt chiếc bánh thành $4$ phần to nhỏ khác nhau rồi nói mỗi phần là $\dfrac{1}{4}$. Vì sao sai: phân số chỉ đúng khi các phần bằng nhau. Đúng: chia thành $4$ phần bằng nhau.
+- **Viết ngược tử số và mẫu số.** Sai: ăn $3$ phần trong $4$ phần viết là $\dfrac{4}{3}$. Vì sao sai: mẫu số là số phần cả cái nguyên. Đúng: $\dfrac{3}{4}$.
+- **Mẫu số bằng $0$.** Sai: $\dfrac{5}{0}$. Vì sao sai: không có cách chia thành $0$ phần. Đúng: mẫu số là số khác $0$.
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - hình hộp chữ nhật | cuboid
-  - mặt đáy | base
-  - mặt bên | side face
-  - chiều dài | length
-  - chiều rộng | width
-  - chiều cao | height
-  - chu vi mặt đáy | perimeter of the base
-  - diện tích xung quanh | lateral surface area
-  - diện tích toàn phần | total surface area
-  - hình khai triển | net
+  - phân số | fraction
+  - tử số | numerator
+  - mẫu số | denominator
+  - phần bằng nhau | equal parts
+  - một phần tư | one quarter
+  - trục số | number line
+  - cái nguyên | whole
   :::
 
 ## Tóm tắt
 
-[[P11·19a5]]
-- Diện tích xung quanh là tổng diện tích bốn mặt bên.
-- Diện tích xung quanh $=$ chu vi mặt đáy $\times$ chiều cao.
-- Diện tích toàn phần $=$ diện tích xung quanh $+$ diện tích hai mặt đáy.
-- Dùng cùng một đơn vị, ghi đơn vị vuông và chỉ tính các mặt đề bài nêu.
+[[P12·4f47]]
+- Phân số $\dfrac{a}{b}$: cái nguyên chia thành $b$ phần bằng nhau, lấy $a$ phần.
+- Tử số $a$ ở trên, mẫu số $b$ ở dưới; mẫu số khác $0$.
+- Các phần phải bằng nhau.
+- Ví dụ: $\dfrac{3}{4}$ đọc là "ba phần tư".
+- Phân số có thể biểu diễn bằng hình hoặc bằng điểm trên trục số.
 
 ## Luyện tập
 
-[[P12·b52c]]
-Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới xem lời giải.
+[[P13·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -634,23 +606,27 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
    (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
 :::exercise Thử thách
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
@@ -660,136 +636,134 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 
-######## BÀI g5/surface-area-of-a-cuboid – BẢN TIẾNG ANH ########
+######## BÀI g4/what-is-a-fraction – BẢN TIẾNG ANH ########
 ---
-title: Lateral and total surface area of a cuboid
-description: Learn to find the area of the four side faces and all six faces of a cuboid from its length, width and height.
+title: The idea of a fraction
+description: Learn what a fraction is, how to read and write fractions, the numerator and denominator, and how to show fractions with shapes and on a number line.
 minutes: 15
 ---
 
   :::goals
-  - Recognise the lateral and total surface areas of a cuboid.
-  - Find both areas from the length, width and height.
-  - Choose the correct faces to include in a real-life problem.
+  - Understand that a fraction shows one or more of the equal parts of a whole.
+  - Read and write fractions, and name the numerator and denominator.
+  - Show fractions with shapes and on a number line.
   :::
 
-[[P1·0615]]
-A cuboid gift box is $8$ cm long, $5$ cm wide and $4$ cm high. Minh wants to put paper around its four side faces, then wrap the whole closed box. How many square centimetres of paper does each job need?
+[[P1·4713]]
+A pizza is cut into $4$ equal slices. Lan eats $1$ slice and Nam eats $3$ slices. What part of the pizza does each child eat? Can we write it as a number?
+
+[[P2·c00e]]
+Whole numbers cannot write "one quarter" or "three quarters". This lesson shows you a new kind of number for writing parts of a whole.
 
 ## Let's explore
 
-:::diagram A gift box $8$ cm long, $5$ cm wide and $4$ cm high
-   (… 24 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+[[P3·777d]]
+We go step by step.
+
+[[P4·08ca]]
+- The pizza is cut into $4$ **equal** slices. The number $4$ tells us how many equal parts the pizza has.
+- Lan eats $1$ slice. We write the part Lan eats as $\dfrac{1}{4}$, read "one quarter".
+- Nam eats $3$ slices. We write $\dfrac{3}{4}$, read "three quarters".
+- Together they eat all $4$ slices, which is the whole pizza. We write $\dfrac{4}{4}=1$.
+
+[[P5·03fb]]
+We can also put fractions on a number line. The stretch from $0$ to $1$ is cut into $4$ equal parts, and each part is $\dfrac{1}{4}$.
+
+:::graph A number line: the stretch from 0 to 1 cut into 4 equal parts
+   (… 9 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-[[P2·ba48]]
-The four side faces are two rectangles measuring $8$ cm by $4$ cm and two measuring $5$ cm by $4$ cm. Their total area is
-  $$2\times(8\times4)+2\times(5\times4)=104\ \text{cm}^2.$$
+  :::definition Fraction
+  Cut a whole into $b$ equal parts and take $a$ of them. The part taken is written $\dfrac{a}{b}$ and is called a **fraction**.
 
-[[P3·61e5]]
-The base perimeter is $(8+5)\times2=26$ cm. Open the four side faces into a strip $4$ cm wide; its area is also $26\times4=104\ \text{cm}^2$.
-
-[[P4·169b]]
-The two bases have total area $2\times8\times5=80\ \text{cm}^2$. Therefore, the area of all six faces is $104+80=184\ \text{cm}^2$.
-
-  :::theorem Surface area rules
-  - The **lateral surface area** is the total area of the four side faces:
-  $$\text{lateral surface area}=(\text{length}+\text{width})\times2\times\text{height}.$$
-  - The **total surface area** is the total area of all six faces:
-  $$\text{total surface area}=\text{lateral surface area}+2\times\text{length}\times\text{width}.$$
+  The number $a$ on top is the **numerator**. The number $b$ underneath is the **denominator**. The denominator is never $0$.
   :::
 
-[[P5·d60a]]
-The rule works because the side strip is as long as the base perimeter and as wide as the height. Total surface area also includes the two equal bases.
+[[P6·a05f]]
+The denominator tells us how many equal parts the whole is cut into. The numerator tells us how many parts we take.
 
 ## Examples
 
-[[P6·0b48]]
-Start with the four side faces.
+[[P7·fefe]]
+We start by writing a fraction for a shape.
 
-  :::example Find the lateral surface area
-  Find the lateral surface area of a cuboid $12$ cm long, $7$ cm wide and $5$ cm high.
+  :::example Writing a fraction from a picture
+  A cake is cut into $8$ equal pieces. Mai eats $3$ pieces. Write the fraction that shows the part of the cake Mai ate.
 
-  **Solution.** Multiply the base perimeter by the height:
-  $$ (12+7)\times2\times5=190\ \text{cm}^2.$$
-  So the answer is $190\ \text{cm}^2$.
+  ![A round cake divided into eight equal slices, with three shown only as dashed outlines](/assets/img/g4/g4-what-is-a-fraction-01.svg)
+
+  **Solution.** The whole is cut into $8$ equal parts, so the denominator is $8$. Mai takes $3$ parts, so the numerator is $3$:
+  $$\frac{3}{8}.$$
+  So Mai ate $\dfrac{3}{8}$ of the cake.
   :::
 
-[[P7·fa07]]
-Now include all six faces.
+[[P8·ef55]]
+Now you read a fraction and name its numerator and denominator.
 
-  :::example Find the total surface area
-  Find the total surface area of a cuboid $9$ dm long, $4$ dm wide and $6$ dm high.
+  :::example Reading a fraction
+  Read the fraction $\dfrac{5}{6}$, then name its numerator and denominator. Write the fraction "seven ninths".
 
-  **Solution.** The lateral area is $156\ \text{dm}^2$ and the two bases have area $72\ \text{dm}^2$:
-  $$156+72=228\ \text{dm}^2.$$
-
-  So the answer is $228\ \text{dm}^2$.
+  **Solution.** The fraction $\dfrac{5}{6}$ is read "five sixths". The numerator is $5$ (on top) and the denominator is $6$ (underneath). The fraction "seven ninths" has numerator $7$ and denominator $9$:
+  $$\frac{7}{9}.$$
   :::
 
-[[P8·85c0]]
-You can also find a missing dimension.
+[[P9·2031]]
+We can also write a fraction for the part that is left.
 
-  :::example Find the height
-  A cuboid is $10$ cm long and $6$ cm wide. Its lateral area is $256\ \text{cm}^2$. Find its height.
+  :::example The part left over
+  A square is cut into $6$ equal parts and $5$ parts are coloured in. Write the fraction for the coloured part and the fraction for the part that is not coloured.
 
-  **Solution.** The base perimeter is $32$ cm, so the height is
-  $$256\div32=8\ \text{(cm)}.$$
-  So the height is $8$ cm.
+  ![A square divided into six equal parts with five shaded](/assets/img/g4/g4-what-is-a-fraction-02.svg)
+
+  **Solution.** The denominator stays $6$ because the whole is cut into $6$ parts. The coloured part is $5$ parts, and the part not coloured is $6-5=1$ part:
+  $$\frac{5}{6}\ \text{(coloured)},\qquad \frac{1}{6}\ \text{(not coloured)}.$$
+  **Check.** $5$ parts and $1$ part make $6$ parts, the whole square: $\dfrac{5}{6}$ and $\dfrac{1}{6}$ together make the whole.
   :::
 
-[[P9·d334]]
-Finally, include only the painted faces.
+[[P10·0f34]]
+Finally, we mark a fraction on a number line.
 
-  :::example Painting a wooden box
-  A box is $60$ cm long, $40$ cm wide and $30$ cm high. Its sides and top are painted. Find the painted area.
+  :::example A fraction on a number line
+  On a number line, the stretch from $0$ to $1$ is cut into $4$ equal parts. Which point shows $\dfrac{3}{4}$?
 
-  **Solution.** Add the four side faces and the top:
-  $$ (60+40)\times2\times30+60\times40=8\,400\ \text{cm}^2.$$
-  So the answer is $8\,400\ \text{cm}^2$.
+  **Solution.** The denominator $4$ tells us to cut the stretch into $4$ parts. From $0$ we move through $3$ parts, passing $\dfrac{1}{4}$, $\dfrac{2}{4}$, $\dfrac{3}{4}$. The third point after $0$ shows $\dfrac{3}{4}$, which is one part before the point $1$.
   :::
 
 :::warning Mistakes to watch out for
-[[P10·8987]]
-- **Using base area instead of base perimeter.** Wrong: $8\times5\times4$. Right: $(8+5)\times2\times4$.
-- **Adding one base.** Total surface area must include **two** bases.
-- **Using units wrongly.** Convert every dimension to one unit and give the answer in square units, such as $\text{cm}^2$.
+[[P11·c789]]
+- **Parts that are not equal.** Wrong: cutting a cake into $4$ pieces of different sizes and calling each piece $\dfrac{1}{4}$. Why it is wrong: a fraction works only when the parts are equal. Right: cut it into $4$ equal pieces.
+- **Writing the numerator and denominator the wrong way round.** Wrong: $3$ parts eaten out of $4$ written as $\dfrac{4}{3}$. Why it is wrong: the denominator is the number of parts in the whole. Right: $\dfrac{3}{4}$.
+- **A denominator of $0$.** Wrong: $\dfrac{5}{0}$. Why it is wrong: we cannot cut a whole into $0$ parts. Right: the denominator is a number that is not $0$.
 :::
 
 ## Key terms
 
   :::terms
-  - cuboid | hình hộp chữ nhật
-  - base | mặt đáy
-  - side face | mặt bên
-  - length | chiều dài
-  - width | chiều rộng
-  - height | chiều cao
-  - perimeter of the base | chu vi mặt đáy
-  - lateral surface area | diện tích xung quanh
-  - total surface area | diện tích toàn phần
-  - net | hình khai triển
+  - fraction | phân số
+  - numerator | tử số
+  - denominator | mẫu số
+  - equal parts | phần bằng nhau
+  - one quarter | một phần tư
+  - number line | trục số
+  - whole | cái nguyên
   :::
 
 ## Summary
 
-[[P11·e42d]]
-- The lateral surface area is the total area of the four side faces.
-- Lateral surface area $=$ perimeter of the base $\times$ height.
-- Total surface area $=$ lateral surface area $+$ area of the two bases.
-- Use one unit, give a square unit and include only the faces named.
+[[P12·9205]]
+- The fraction $\dfrac{a}{b}$: a whole cut into $b$ equal parts, with $a$ parts taken.
+- The numerator $a$ is on top and the denominator $b$ underneath; the denominator is not $0$.
+- The parts must be equal.
+- Example: $\dfrac{3}{4}$ is read "three quarters".
+- A fraction can be shown with a shape or as a point on a number line.
 
 ## Practice
 
-[[P12·4a07]]
-Each exercise gives you the rule and some steps. Try it yourself before opening the solution.
+[[P13·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -797,23 +771,27 @@ Each exercise gives you the rule and some steps. Try it yourself before opening 
 :::
 
 :::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
    (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-:::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
 :::exercise Challenge
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test

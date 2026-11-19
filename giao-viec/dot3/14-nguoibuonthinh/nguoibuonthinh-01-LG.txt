@@ -1,0 +1,618 @@
+######################################################################
+TÀI KHOẢN: nguoibuonthinh   |   FILE: nguoibuonthinh-01-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file nguoibuonthinh-01-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – nguoibuonthinh-01-LG
+Người làm: tài khoản nguoibuonthinh. Gói này có 27 bài tập thuộc 3 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/nguoibuonthinh-01-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/3). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/nguoibuonthinh-01-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- exams/sat/sat-ratios-percentages-units (9 bài tập)
+- exams/sat/sat-statistics-probability (9 bài tập)
+- exams/sat/sat-triangles-trig-circles (9 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ exams/sat/sat-ratios-percentages-units
+Bài học: Tỉ số, tỉ lệ, phần trăm và đổi đơn vị / Ratios, rates, percentages and units
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một số tiền 150 đô la được chia cho hai người theo tỉ số $3:7$. Người nhận phần lớn hơn được bao nhiêu đô la?
+
+[LỜI GIẢI CŨ – VI]
+Một phần là $15$ đô la, nên phần lớn hơn là $7\cdot15=105$ đô la.
+
+[ĐỀ – EN]
+A sum of 150 dollars is shared between two people in the ratio $3:7$. How many dollars does the person with the larger share receive?
+
+[LỜI GIẢI CŨ – EN]
+One part is $15$ dollars, so the larger share is $7\cdot15=105$ dollars.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Linh gõ phím với tốc độ 45 từ mỗi phút. Linh cần bao nhiêu phút để gõ một bài luận dài 1.800 từ?
+
+[LỜI GIẢI CŨ – VI]
+$1.800:45=40$ phút.
+
+[ĐỀ – EN]
+Linh types at a rate of 45 words per minute. How many minutes does she need to type a 1,800-word essay?
+
+[LỜI GIẢI CŨ – EN]
+$1{,}800\div45=40$ minutes.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Một inch bằng 2,54 xăng-ti-mét. Đường chéo màn hình 30 inch dài bao nhiêu xăng-ti-mét?
+
+[LỜI GIẢI CŨ – VI]
+$30\cdot2{,}54=76{,}2$ xăng-ti-mét.
+
+[ĐỀ – EN]
+One inch is equal to 2.54 centimeters. What is the length, in centimeters, of a 30-inch screen diagonal?
+
+[LỜI GIẢI CŨ – EN]
+$30\cdot2.54=76.2$ centimeters.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Số khách tham quan một bảo tàng giảm từ 250 người vào thứ Hai xuống 200 người vào thứ Ba. Số khách đã giảm bao nhiêu phần trăm?
+A. $20\%$
+B. $25\%$
+C. $50\%$
+D. $80\%$
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{50}{250}=0{,}2$, tức giảm $20\%$: đáp án **A**. Phương án B chia cho $200$; phương án D là tỉ số $\dfrac{200}{250}$.
+
+[ĐỀ – EN]
+The number of visitors to a museum fell from 250 on Monday to 200 on Tuesday. By what percent did the number of visitors decrease?
+A. $20\%$
+B. $25\%$
+C. $50\%$
+D. $80\%$
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{50}{250}=0.2$, a decrease of $20\%$: answer **A**. Option B divides by $200$; option D is the ratio $\dfrac{200}{250}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tổng số tiền 54 đô la đã gồm thuế bán hàng 8%. Giá trước thuế là bao nhiêu đô la?
+
+[LỜI GIẢI CŨ – VI]
+$P=\dfrac{54}{1{,}08}=50$ đô la. Kiểm tra: $50+4=54$.
+
+[ĐỀ – EN]
+A total of 54 dollars includes an 8% sales tax. What was the price before tax, in dollars?
+
+[LỜI GIẢI CŨ – EN]
+$P=\dfrac{54}{1.08}=50$ dollars. Check: $50+4=54$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Khối lượng riêng của vàng là 19,3 gam trên mỗi xăng-ti-mét khối. Một khối vàng có kích thước 2 xăng-ti-mét × 3 xăng-ti-mét × 5 xăng-ti-mét. Khối lượng của nó là bao nhiêu gam?
+
+[LỜI GIẢI CŨ – VI]
+Thể tích là $2\cdot3\cdot5=30$ xăng-ti-mét khối, nên khối lượng là $30\cdot19{,}3=579$ gam.
+
+[ĐỀ – EN]
+The density of gold is 19.3 grams per cubic centimeter. A gold block measures 2 centimeters by 3 centimeters by 5 centimeters. What is its mass, in grams?
+
+[LỜI GIẢI CŨ – EN]
+The volume is $2\cdot3\cdot5=30$ cubic centimeters, so the mass is $30\cdot19.3=579$ grams.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một ô tô tiêu thụ 6,5 lít nhiên liệu cho mỗi 100 ki-lô-mét. Nhiên liệu giá 1,2 đô la mỗi lít. Chuyến đi dài 340 ki-lô-mét tốn bao nhiêu tiền nhiên liệu?
+
+[LỜI GIẢI CŨ – VI]
+Ô tô dùng $340\cdot0{,}065=22{,}1$ lít, hết $22{,}1\cdot1{,}2=26{,}52$ đô la.
+
+[ĐỀ – EN]
+A car uses 6.5 liters of fuel per 100 kilometers. Fuel costs 1.2 dollars per liter. How much does the fuel cost for a 340-kilometer trip?
+
+[LỜI GIẢI CŨ – EN]
+The car uses $340\cdot0.065=22.1$ liters, costing $22.1\cdot1.2=26.52$ dollars.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Dân số một thị trấn tăng 25% trong một thập kỉ rồi giảm 20% trong thập kỉ tiếp theo. Sau hai thập kỉ, dân số thay đổi bao nhiêu phần trăm?
+
+[LỜI GIẢI CŨ – VI]
+$1{,}25\cdot0{,}8=1$: dân số trở về đúng như ban đầu, thay đổi $0\%$. Ví dụ, $1.000\to1.250\to1.000$.
+
+[ĐỀ – EN]
+A town's population increased by 25% in one decade and then decreased by 20% in the next decade. What was the overall percent change over the two decades?
+
+[LỜI GIẢI CŨ – EN]
+$1.25\cdot0.8=1$: the population is exactly back to where it started, a change of $0\%$. For example, $1{,}000\to1{,}250\to1{,}000$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một thùng chứa 40 lít dung dịch nước muối có nồng độ muối 30%. Phải thêm bao nhiêu lít nước tinh khiết để được dung dịch có nồng độ muối 20%?
+
+[LỜI GIẢI CŨ – VI]
+$12=0{,}2(40+w)\iff 60=40+w\iff w=20$. Thêm 20 lít nước: dung dịch mới có 12 lít muối trong 60 lít, tức 20%.
+
+[ĐỀ – EN]
+A container holds 40 liters of a salt solution that is 30% salt. How many liters of pure water must be added to make a solution that is 20% salt?
+
+[LỜI GIẢI CŨ – EN]
+$12=0.2(40+w)\iff 60=40+w\iff w=20$. Add 20 liters of water: the new solution has 12 liters of salt in 60 liters, which is 20%.
+
+
+######################################################################
+@@@ exams/sat/sat-statistics-probability
+Bài học: Thống kê, đọc biểu đồ và xác suất / Statistics, data displays and probability
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Số trung bình của năm số là 12. Bốn trong năm số đó là 10, 14, 9 và 15. Số thứ năm là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$5\cdot12=60$ và $10+14+9+15=48$, nên số thứ năm là $12$.
+
+[ĐỀ – EN]
+The mean of five numbers is 12. Four of the numbers are 10, 14, 9 and 15. What is the fifth number?
+
+[LỜI GIẢI CŨ – EN]
+$5\cdot12=60$ and $10+14+9+15=48$, so the fifth number is $12$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Với tập dữ liệu 2, 4, 4, 5, 7, 9, 30, câu nào đúng?
+A. Số trung bình nhỏ hơn trung vị.
+B. Số trung bình bằng trung vị.
+C. Số trung bình lớn hơn trung vị.
+D. Trung vị là 4.
+
+[LỜI GIẢI CŨ – VI]
+Trung vị là $5$ và số trung bình là $\dfrac{61}{7}\approx8{,}7$. Giá trị ngoại lai kéo số trung bình lên: đáp án **C**.
+
+[ĐỀ – EN]
+For the data set 2, 4, 4, 5, 7, 9, 30, which statement is true?
+A. The mean is less than the median.
+B. The mean is equal to the median.
+C. The mean is greater than the median.
+D. The median is 4.
+
+[LỜI GIẢI CŨ – EN]
+The median is $5$ and the mean is $\dfrac{61}{7}\approx8.7$. The outlier pulls the mean up: answer **C**.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Dùng bảng hai chiều về câu lạc bộ ở trên. Chọn ngẫu nhiên một học sinh lớp 10. Xác suất để học sinh đó thuộc CLB Toán là bao nhiêu? Viết đáp số dưới dạng số thập phân.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{18}{30}=0{,}6$. Khi nhập vào Bluebook, gõ `0.6`.
+
+[ĐỀ – EN]
+Use the two-way table of club choices above. A student is chosen at random from grade 10. What is the probability that the student is in the math club? Give your answer as a decimal.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{18}{30}=0.6$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Đường thẳng khớp nhất của một tập dữ liệu là $y=1{,}8x+12$. Đường thẳng dự đoán giá trị $y$ bằng bao nhiêu khi $x=10$?
+
+[LỜI GIẢI CŨ – VI]
+$18+12=30$.
+
+[ĐỀ – EN]
+A line of best fit for some data is $y=1.8x+12$. What value of $y$ does the line predict when $x=10$?
+
+[LỜI GIẢI CŨ – EN]
+$18+12=30$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Các nhà nghiên cứu phân ngẫu nhiên 100 tình nguyện viên vào hai nhóm. Một nhóm đi bộ 30 phút mỗi ngày, nhóm kia thì không. Sau 8 tuần, nhóm đi bộ có huyết áp trung bình thấp hơn đáng kể. Kết luận nào được ủng hộ tốt nhất?
+A. Đi bộ mỗi ngày làm giảm huyết áp ở mọi người trưởng thành.
+B. Đi bộ mỗi ngày có khả năng làm giảm huyết áp ở những người tương tự các tình nguyện viên.
+C. Người có huyết áp thấp chọn đi bộ nhiều hơn.
+D. Không kết luận được gì vì các tình nguyện viên không phải mẫu ngẫu nhiên.
+
+[LỜI GIẢI CŨ – VI]
+Phân nhóm ngẫu nhiên cho phép kết luận nhân quả, nhưng chỉ với những người giống các tình nguyện viên, vì họ không được chọn ngẫu nhiên từ mọi người trưởng thành. Đáp án là **B**. Phương án A khái quát quá mức; phương án D bỏ qua điều mà phân nhóm ngẫu nhiên đã cho thấy.
+
+[ĐỀ – EN]
+Researchers randomly assigned 100 volunteers to two groups. One group walked 30 minutes every day and the other did not. After 8 weeks, the walking group had significantly lower blood pressure on average. Which conclusion is best supported?
+A. Walking every day causes lower blood pressure for all adults.
+B. Walking every day is likely to cause lower blood pressure for people similar to the volunteers.
+C. People with low blood pressure choose to walk more.
+D. No conclusion can be made because the volunteers were not a random sample.
+
+[LỜI GIẢI CŨ – EN]
+Random assignment supports a causal conclusion, but only for people like the volunteers, because they were not randomly sampled from all adults. The answer is **B**. Option A over-generalizes; option D ignores what random assignment does show.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lớp A có 20 học sinh với điểm trung bình 75. Lớp B có 30 học sinh với điểm trung bình 80. Điểm trung bình của cả 50 học sinh là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{1.500+2.400}{50}=\dfrac{3.900}{50}=78$. Số trung bình gần 80 hơn 75 vì lớp B đông hơn.
+
+[ĐỀ – EN]
+Class A has 20 students with a mean score of 75. Class B has 30 students with a mean score of 80. What is the mean score of all 50 students?
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{1{,}500+2{,}400}{50}=\dfrac{3{,}900}{50}=78$. The mean is closer to 80 than to 75 because class B is larger.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một túi có 4 viên bi đỏ, 6 viên bi xanh dương và 5 viên bi xanh lá. Lấy ngẫu nhiên một viên bi. Xác suất để viên bi đó không phải màu xanh dương là bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{9}{15}=\dfrac35$.
+
+[ĐỀ – EN]
+A bag contains 4 red, 6 blue and 5 green marbles. One marble is drawn at random. What is the probability that it is not blue?
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{9}{15}=\dfrac35$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tập dữ liệu A là 48, 49, 50, 51, 52. Tập dữ liệu B là 30, 40, 50, 60, 70. So sánh số trung bình, khoảng biến thiên và độ lệch chuẩn của hai tập dữ liệu.
+
+[LỜI GIẢI CŨ – VI]
+Cả hai số trung bình đều là $50$. Khoảng biến thiên của A là $4$, của B là $40$. Các giá trị của B nằm xa số trung bình hơn nhiều, nên B có độ lệch chuẩn lớn hơn.
+
+[ĐỀ – EN]
+Data set A is 48, 49, 50, 51, 52. Data set B is 30, 40, 50, 60, 70. Compare the means, the ranges and the standard deviations of the two data sets.
+
+[LỜI GIẢI CŨ – EN]
+Both means are $50$. The range of A is $4$ and the range of B is $40$. The values of B lie much farther from the mean, so B has the larger standard deviation.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Các số 6, 8, $x$, 15, 21 được viết theo thứ tự tăng dần, và số trung bình của chúng bằng trung vị. Giá trị của $x$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{50+x}{5}=x\iff50+x=5x\iff x=12{,}5$. Giá trị này nằm giữa $8$ và $15$, nên thứ tự vẫn đúng.
+
+[ĐỀ – EN]
+The numbers 6, 8, $x$, 15, 21 are listed in increasing order, and their mean is equal to their median. What is the value of $x$?
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{50+x}{5}=x\iff50+x=5x\iff x=12.5$. This lies between $8$ and $15$, so the order is kept.
+
+
+######################################################################
+@@@ exams/sat/sat-triangles-trig-circles
+Bài học: Tam giác, lượng giác và đường tròn / Triangles, trigonometry and circles
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Trong một tam giác vuông cân, mỗi cạnh góc vuông dài 7. Cạnh huyền dài bao nhiêu?
+A. $7$
+B. $14$
+C. $7\sqrt3$
+D. $7\sqrt2$
+
+[LỜI GIẢI CŨ – VI]
+Cạnh huyền là $7\sqrt2$: đáp án **D**. Kiểm tra bằng Pythagore: $49+49=98=(7\sqrt2)^2$.
+
+[ĐỀ – EN]
+In an isosceles right triangle, each leg has length 7. What is the length of the hypotenuse?
+A. $7$
+B. $14$
+C. $7\sqrt3$
+D. $7\sqrt2$
+
+[LỜI GIẢI CŨ – EN]
+The hypotenuse is $7\sqrt2$: answer **D**. Check with Pythagoras: $49+49=98=(7\sqrt2)^2$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Một cây cột cao 2 mét có bóng dài 3 mét. Cùng lúc đó, một cái cây có bóng dài 18 mét. Cây cao bao nhiêu mét?
+
+[LỜI GIẢI CŨ – VI]
+$h=18\cdot\dfrac23=12$ mét.
+
+[ĐỀ – EN]
+A pole 2 meters tall casts a shadow 3 meters long. At the same time, a tree casts a shadow 18 meters long. How tall is the tree, in meters?
+
+[LỜI GIẢI CŨ – EN]
+$h=18\cdot\dfrac23=12$ meters.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Với góc $0<x<90$, $\cos x^\circ=\sin20^\circ$. Giá trị của $x$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$x=70$.
+
+[ĐỀ – EN]
+For an angle with $0<x<90$, $\cos x^\circ=\sin20^\circ$. What is the value of $x$?
+
+[LỜI GIẢI CŨ – EN]
+$x=70$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Trong tam giác $ABC$ vuông tại $C$, $\sin A=\dfrac35$. Giá trị của $\cos B$ là
+A. $\dfrac45$
+B. $\dfrac34$
+C. $\dfrac35$
+D. $\dfrac43$
+
+[LỜI GIẢI CŨ – VI]
+$\cos B=\sin A=\dfrac35$: đáp án **C**. Phương án A là $\cos A$ (và $\sin B$).
+
+[ĐỀ – EN]
+In right triangle $ABC$ with the right angle at $C$, $\sin A=\dfrac35$. What is $\cos B$?
+A. $\dfrac45$
+B. $\dfrac34$
+C. $\dfrac35$
+D. $\dfrac43$
+
+[LỜI GIẢI CŨ – EN]
+$\cos B=\sin A=\dfrac35$: answer **C**. Option A is $\cos A$ (and $\sin B$).
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tâm của đường tròn $x^2+y^2+8x-2y+8=0$ là
+A. $(4, -1)$
+B. $(-4, 1)$
+C. $(8, -2)$
+D. $(-8, 2)$
+
+[LỜI GIẢI CŨ – VI]
+$(x+4)^2+(y-1)^2=16+1-8=9$. Tâm là $(-4, 1)$ và bán kính là $3$: đáp án **B**.
+
+[ĐỀ – EN]
+What is the center of the circle $x^2+y^2+8x-2y+8=0$?
+A. $(4, -1)$
+B. $(-4, 1)$
+C. $(8, -2)$
+D. $(-8, 2)$
+
+[LỜI GIẢI CŨ – EN]
+$(x+4)^2+(y-1)^2=16+1-8=9$. The center is $(-4, 1)$ and the radius is $3$: answer **B**.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một chiếc thang dài 13 feet dựa vào một bức tường thẳng đứng. Chân thang cách tường 5 feet. Đầu thang chạm tường ở độ cao bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$h^2=169-25=144$, nên $h=12$ feet.
+
+[ĐỀ – EN]
+A 13-foot ladder leans against a vertical wall. Its foot is 5 feet from the wall. How high up the wall does the ladder reach?
+
+[LỜI GIẢI CŨ – EN]
+$h^2=169-25=144$, so $h=12$ feet.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một con dốc dài 10 mét nghiêng một góc $6^\circ$ so với phương ngang. Con dốc cao lên bao nhiêu mét, làm tròn đến hàng phần trăm?
+
+[LỜI GIẢI CŨ – VI]
+$10\sin6^\circ\approx10\cdot0{,}1045=1{,}05$ mét.
+
+[ĐỀ – EN]
+A ramp 10 meters long rises at an angle of $6^\circ$ to the horizontal. How much does the ramp rise, to the nearest hundredth of a meter?
+
+[LỜI GIẢI CŨ – EN]
+$10\sin6^\circ\approx10\cdot0.1045=1.05$ meters.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một chiếc bánh pizza có bán kính 20 xăng-ti-mét được cắt thành 8 miếng bằng nhau. Diện tích một miếng và độ dài mép cong của nó là bao nhiêu? Cho giá trị chính xác và giá trị thập phân làm tròn đến một chữ số sau dấu phẩy.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích $=\dfrac18\cdot400\pi=50\pi\approx157{,}1$ xăng-ti-mét vuông. Cung $=\dfrac18\cdot40\pi=5\pi\approx15{,}7$ xăng-ti-mét.
+
+[ĐỀ – EN]
+A pizza has radius 20 centimeters and is cut into 8 equal slices. What is the area of one slice, and the length of its curved edge? Give exact answers and decimals to one decimal place.
+
+[LỜI GIẢI CŨ – EN]
+Area $=\dfrac18\cdot400\pi=50\pi\approx157.1$ square centimeters. Arc $=\dfrac18\cdot40\pi=5\pi\approx15.7$ centimeters.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Điểm $(5, k)$, với $k>0$, nằm trên đường tròn $(x-2)^2+(y-1)^2=25$. Giá trị của $k$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+$(k-1)^2=16$, nên $k-1=4$ hoặc $k-1=-4$, cho $k=5$ hoặc $k=-3$. Vì $k>0$ nên $k=5$. Hai điểm $(5, 5)$ và $(5, -3)$ đối xứng nhau qua đường nằm ngang đi qua tâm.
+
+[ĐỀ – EN]
+The point $(5, k)$, with $k>0$, lies on the circle $(x-2)^2+(y-1)^2=25$. What is the value of $k$?
+
+[LỜI GIẢI CŨ – EN]
+$(k-1)^2=16$, so $k-1=4$ or $k-1=-4$, giving $k=5$ or $k=-3$. Since $k>0$, $k=5$. The two points $(5, 5)$ and $(5, -3)$ are symmetric about the horizontal line through the center.
+
+
+===== HẾT FILE nguoibuonthinh-01-LG =====

@@ -6,7 +6,7 @@ Kết quả: file Alexnguyen122222-11-LG-ketqua.md, lưu vào Dropbox Lemonmath.
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Alexnguyen122222-11-LG
-Người làm: tài khoản Alexnguyen122222. Gói này có 25 bài tập thuộc 3 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Alexnguyen122222. Gói này có 32 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Alexnguyen122222-11-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/3). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Alexnguyen122222-11-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,648 +189,687 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g2/three-digit-numbers (8 bài tập)
-- g2/two-times-table (8 bài tập)
-- g2/vietnamese-money (9 bài tập)
+- g2/partitioning-hundreds-tens-ones (8 bài tập)
+- g2/points-lines-curves (8 bài tập)
+- g2/regroup-add-1-digit (8 bài tập)
+- g2/regroup-add-2-digit (8 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g2/three-digit-numbers
-Bài học: Số có ba chữ số / Three-digit numbers
+@@@ g2/partitioning-hundreds-tens-ones
+Bài học: Viết số thành tổng các trăm, chục, đơn vị / Writing a number as hundreds, tens and ones
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Cho số $482$. Tìm:
+Viết thành tổng các trăm, chục, đơn vị.
 
-a) chữ số hàng trăm.
+a) $236$.
 
-b) chữ số hàng chục.
-
-c) chữ số hàng đơn vị.
+b) $910$.
 
 [LỜI GIẢI CŨ – VI]
-Số $482$ có chữ số $4$ ở hàng trăm, $8$ ở hàng chục, $2$ ở hàng đơn vị.
+a) $236$ có $2$ trăm, $3$ chục, $6$ đơn vị. b) $910$ có $9$ trăm, $1$ chục, $0$ đơn vị.
 
-**Đáp số.** a) $4$; b) $8$; c) $2$.
+**Đáp số.** a) $236=200+30+6$; b) $910=900+10$.
 
 [ĐỀ – EN]
-Look at the number $482$. Find:
+Write as a sum of hundreds, tens and ones.
 
-a) the hundreds digit.
+a) $236$.
 
-b) the tens digit.
-
-c) the ones digit.
+b) $910$.
 
 [LỜI GIẢI CŨ – EN]
-The number $482$ has the digit $4$ in the hundreds place, $8$ in the tens place and $2$ in the ones place.
+a) $236$ has $2$ hundreds, $3$ tens, $6$ ones. b) $910$ has $9$ hundreds, $1$ ten, $0$ ones.
 
-**Answer.** a) $4$; b) $8$; c) $2$.
+**Answer.** a) $236=200+30+6$; b) $910=900+10$.
 
 === Bài 2 ===
 [ĐỀ – VI]
 Viết số.
 
-a) $5$ trăm, $3$ chục, $6$ đơn vị.
+a) $400+50+7$.
 
-b) $9$ trăm, $1$ chục, $4$ đơn vị.
+b) $800+20$.
 
 [LỜI GIẢI CŨ – VI]
-a) Chữ số: $5$, $3$, $6$. b) Chữ số: $9$, $1$, $4$.
+a) $4$ trăm, $5$ chục, $7$ đơn vị. b) $8$ trăm, $2$ chục, $0$ đơn vị.
 
-**Đáp số.** a) $536$; b) $914$.
+**Đáp số.** a) $457$; b) $820$.
 
 [ĐỀ – EN]
 Write the number.
 
-a) $5$ hundreds, $3$ tens, $6$ ones.
+a) $400+50+7$.
 
-b) $9$ hundreds, $1$ ten, $4$ ones.
+b) $800+20$.
 
 [LỜI GIẢI CŨ – EN]
-a) Digits: $5$, $3$, $6$. b) Digits: $9$, $1$, $4$.
+a) $4$ hundreds, $5$ tens, $7$ ones. b) $8$ hundreds, $2$ tens, $0$ ones.
 
-**Answer.** a) $536$; b) $914$.
+**Answer.** a) $457$; b) $820$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Em nhớ lại bài trước. Trong các số $60, 300, 90, 700$, những số nào có ba chữ số? Điền dấu $>$, $<$ hoặc $=$: $300\;\square\;700$.
+Em nhớ lại bài trước. Số có chữ số hàng trăm là $6$, hàng chục là $0$, hàng đơn vị là $4$. Viết số đó rồi viết thành tổng.
 
 [LỜI GIẢI CŨ – VI]
-$300$ và $700$ có ba chữ số; $60$ và $90$ có hai chữ số. $3$ trăm bé hơn $7$ trăm.
+Số đó là $604$. Ta có $604=600+4$.
 
-**Đáp số.** $300$, $700$; $300<700$.
+**Đáp số.** $604=600+4$.
 
 [ĐỀ – EN]
-Remember the last lesson. Which of the numbers $60, 300, 90, 700$ have three digits? Write $>$, $<$ or $=$: $300\;\square\;700$.
+Remember the last lesson. A number has the hundreds digit $6$, the tens digit $0$ and the ones digit $4$. Write the number and then write it as a sum.
 
 [LỜI GIẢI CŨ – EN]
-$300$ and $700$ have three digits; $60$ and $90$ have two digits. $3$ hundreds is less than $7$ hundreds.
+The number is $604$. We have $604=600+4$.
 
-**Answer.** $300$, $700$; $300<700$.
+**Answer.** $604=600+4$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Mỗi số gồm bao nhiêu trăm, chục, đơn vị?
+Điền số thích hợp vào chỗ trống.
 
-a) $705$.
+a) $500+\square+3=573$.
 
-b) $250$.
+b) $\square+40+2=942$.
 
 [LỜI GIẢI CŨ – VI]
-a) $705$: $7$ trăm, $0$ chục, $5$ đơn vị. b) $250$: $2$ trăm, $5$ chục, $0$ đơn vị.
+a) $573$ có $7$ ở hàng chục, giá trị $70$. b) $942$ có $9$ ở hàng trăm, giá trị $900$.
 
-**Đáp số.** a) $7$ trăm $0$ chục $5$ đơn vị; b) $2$ trăm $5$ chục $0$ đơn vị.
+**Đáp số.** a) $70$; b) $900$.
 
 [ĐỀ – EN]
-How many hundreds, tens and ones does each number have?
+Write the right number in each box.
 
-a) $705$.
+a) $500+\square+3=573$.
 
-b) $250$.
+b) $\square+40+2=942$.
 
 [LỜI GIẢI CŨ – EN]
-a) $705$: $7$ hundreds, $0$ tens, $5$ ones. b) $250$: $2$ hundreds, $5$ tens, $0$ ones.
+a) $573$ has $7$ in the tens place, value $70$. b) $942$ has $9$ in the hundreds place, value $900$.
 
-**Answer.** a) $7$ hundreds $0$ tens $5$ ones; b) $2$ hundreds $5$ tens $0$ ones.
+**Answer.** a) $70$; b) $900$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Muốn viết "hai trăm linh sáu", em chọn số nào trong $26$, $206$, $260$? Vì sao?
+Cách viết nào đúng cho số $372$: $3+7+2$, $30+70+2$ hay $300+70+2$? Vì sao?
 
 [LỜI GIẢI CŨ – VI]
-Có $2$ trăm, $0$ chục, $6$ đơn vị. Viết chữ số $2$, $0$, $6$.
+$3$ ở hàng trăm là $300$, $7$ ở hàng chục là $70$, $2$ ở hàng đơn vị là $2$. Cộng lại được $372$.
 
-**Đáp số.** $206$.
+**Đáp số.** $372=300+70+2$.
 
 [ĐỀ – EN]
-To write "two hundred and six", which of $26$, $206$, $260$ do you choose? Why?
+Which is right for $372$: $3+7+2$, $30+70+2$ or $300+70+2$? Why?
 
 [LỜI GIẢI CŨ – EN]
-There are $2$ hundreds, $0$ tens and $6$ ones. Write the digits $2$, $0$, $6$.
+$3$ in the hundreds place is $300$, $7$ in the tens place is $70$ and $2$ in the ones place is $2$. Adding gives $372$.
 
-**Answer.** $206$.
+**Answer.** $372=300+70+2$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Mai viết "$4$ trăm $5$ đơn vị là $45$". Mai sai ở đâu? Sửa lại cho đúng.
+Lan viết "$305=300+50$". Lan sai ở đâu? Sửa lại cho đúng.
 
 [LỜI GIẢI CŨ – VI]
-$45$ là $4$ chục $5$ đơn vị. Số đúng có $4$ trăm, $0$ chục, $5$ đơn vị.
+$300+50=350$, không phải $305$. Số $305$ có $3$ trăm, $0$ chục, $5$ đơn vị.
 
-**Đáp số.** $405$.
+**Đáp số.** $305=300+5$.
 
 [ĐỀ – EN]
-Mai writes "$4$ hundreds $5$ ones is $45$". What is wrong with what Mai writes? Correct it.
+Lan writes "$305=300+50$". What is wrong with what Lan writes? Correct it.
 
 [LỜI GIẢI CŨ – EN]
-$45$ is $4$ tens $5$ ones. The right number has $4$ hundreds, $0$ tens and $5$ ones.
+$300+50=350$, not $305$. The number $305$ has $3$ hundreds, $0$ tens and $5$ ones.
 
-**Answer.** $405$.
+**Answer.** $305=300+5$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Có $3$ hộp bi loại $100$ viên, $4$ túi bi loại $10$ viên và $7$ viên bi lẻ. Hỏi có tất cả bao nhiêu viên bi?
+Thư viện có $4$ thùng sách loại $100$ quyển, $6$ bó sách loại $10$ quyển và $8$ quyển lẻ. Hỏi có bao nhiêu quyển sách? Viết thành tổng.
 
 [LỜI GIẢI CŨ – VI]
-Chữ số: $3$, $4$, $7$. Số viên bi là $347$.
+Tổng là $400+60+8=468$.
 
-**Đáp số.** $347$ viên bi.
+**Đáp số.** $468$ quyển sách; $468=400+60+8$.
 
 [ĐỀ – EN]
-There are $3$ boxes of $100$ marbles, $4$ bags of $10$ marbles and $7$ loose marbles. How many marbles are there altogether?
+A library has $4$ crates of $100$ books, $6$ bundles of $10$ books and $8$ loose books. How many books are there? Write it as a sum.
 
 [LỜI GIẢI CŨ – EN]
-Digits: $3$, $4$, $7$. The number of marbles is $347$.
+The sum is $400+60+8=468$.
 
-**Answer.** $347$ marbles.
+**Answer.** $468$ books; $468=400+60+8$.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Dùng ba chữ số $2$, $5$, $8$, mỗi chữ số dùng đúng một lần, lập số có ba chữ số lớn nhất và số có ba chữ số bé nhất.
+Tìm số có ba chữ số có dạng $400+\square0+\square$, biết chữ số hàng chục bằng chữ số hàng đơn vị và hàng đơn vị là $8$.
 
 [LỜI GIẢI CŨ – VI]
-Số lớn nhất: hàng trăm $8$, hàng chục $5$, hàng đơn vị $2$, được $852$. Số bé nhất: hàng trăm $2$, hàng chục $5$, hàng đơn vị $8$, được $258$.
+Chữ số hàng chục là $8$, nên phần chục là $80$. Ta có $400+80+8=488$.
 
-**Kiểm tra.** $258<852$. Đúng.
+**Kiểm tra.** $488$ có hàng chục và hàng đơn vị đều là $8$. Đúng.
 
-**Đáp số.** Số lớn nhất là $852$, số bé nhất là $258$.
+**Đáp số.** $488$.
 
 [ĐỀ – EN]
-Use the three digits $2$, $5$, $8$, each exactly once, to make the largest and the smallest three-digit number.
+Find the three-digit number of the form $400+\square0+\square$, where the tens digit equals the ones digit and the ones digit is $8$.
 
 [LỜI GIẢI CŨ – EN]
-Largest: hundreds $8$, tens $5$, ones $2$, which is $852$. Smallest: hundreds $2$, tens $5$, ones $8$, which is $258$.
+The tens digit is $8$, so the tens part is $80$. We have $400+80+8=488$.
 
-**Check.** $258<852$. Correct.
+**Check.** $488$ has the tens digit and the ones digit both equal to $8$. Correct.
 
-**Answer.** The largest is $852$ and the smallest is $258$.
+**Answer.** $488$.
 
 
 ######################################################################
-@@@ g2/two-times-table
-Bài học: Bảng nhân 2. Bảng nhân 5 / The 2 times table. The 5 times table
+@@@ g2/points-lines-curves
+Bài học: Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng / Points, line segments, lines, curves and points in a line
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Tính nhẩm:
-
-a) $2\times3$
-
-b) $2\times8$
-
-c) $2\times10$
+Hình gồm hai điểm $P$, $Q$ và nét thẳng nối $P$ với $Q$ vẽ bằng thước. Hình đó là gì? Viết tên hình.
 
 [LỜI GIẢI CŨ – VI]
-a) $2\times3=6$.
+Nét thẳng nối hai điểm $P$ và $Q$ có hai đầu, nên đó là đoạn thẳng $PQ$.
 
-b) $2\times8=16$.
-
-c) $2\times10=20$.
-
-**Đáp số.** a) 6; b) 16; c) 20.
+**Đáp số.** Đoạn thẳng $PQ$.
 
 [ĐỀ – EN]
-Work out in your head:
-
-a) $2\times3$
-
-b) $2\times8$
-
-c) $2\times10$
+A shape has two points $P$ and $Q$ and a straight line joining $P$ to $Q$ drawn with a ruler. What is the shape? Write its name.
 
 [LỜI GIẢI CŨ – EN]
-a) $2\times3=6$.
+The straight line joining $P$ and $Q$ has two ends, so it is the line segment $PQ$.
 
-b) $2\times8=16$.
-
-c) $2\times10=20$.
-
-**Answer.** a) 6; b) 16; c) 20.
+**Answer.** Line segment $PQ$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Tính nhẩm:
-
-a) $5\times2$
-
-b) $5\times7$
-
-c) $5\times10$
+Em hãy nêu các bước vẽ đoạn thẳng $AB$ dài $5$ cm.
 
 [LỜI GIẢI CŨ – VI]
-a) $5\times2=10$.
+Chấm điểm $A$. Đặt thước sao cho vạch $0$ ở $A$. Chấm điểm $B$ ở vạch $5$ cm. Dùng bút kẻ nét thẳng từ $A$ đến $B$ theo mép thước. Ta được đoạn thẳng $AB$ dài $5$ cm.
 
-b) $5\times7=35$.
-
-c) $5\times10=50$.
-
-**Đáp số.** a) 10; b) 35; c) 50.
+**Đáp số.** Đoạn thẳng $AB$ dài $5$ cm.
 
 [ĐỀ – EN]
-Work out in your head:
-
-a) $5\times2$
-
-b) $5\times7$
-
-c) $5\times10$
+Describe how to draw a line segment $AB$ that is $5$ cm long.
 
 [LỜI GIẢI CŨ – EN]
-a) $5\times2=10$.
+Mark point $A$. Place the ruler with its $0$ mark at $A$. Mark point $B$ at $5$ cm. Draw a straight line from $A$ to $B$ along the edge of the ruler. This gives line segment $AB$, $5$ cm long.
 
-b) $5\times7=35$.
-
-c) $5\times10=50$.
-
-**Answer.** a) 10; b) 35; c) 50.
+**Answer.** Line segment $AB$, $5$ cm long.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Số?
+Mỗi vật sau gợi ra đoạn thẳng hay đường cong?
 
-a) $2,\ 4,\ 6,\ \square,\ 10,\ \square,\ 14$
+a) Mép tấm bảng.
 
-b) $5,\ 10,\ \square,\ 20,\ \square,\ 30$
+b) Sợi dây thừng uốn lượn trên sàn.
+
+c) Vành chiếc bánh xe đạp.
 
 [LỜI GIẢI CŨ – VI]
-a) $6+2=8$ và $10+2=12$.
+a) Mép bảng thẳng, có hai đầu: đoạn thẳng.
 
-b) $10+5=15$ và $20+5=25$.
+b) Sợi dây uốn lượn: đường cong.
 
-**Đáp số.** a) 8 và 12; b) 15 và 25.
+c) Vành bánh xe tròn, không thẳng: đường cong.
+
+**Đáp số.** a) Đoạn thẳng; b) Đường cong; c) Đường cong.
 
 [ĐỀ – EN]
-Fill in the missing numbers.
+Does each object suggest a line segment or a curve?
 
-a) $2,\ 4,\ 6,\ \square,\ 10,\ \square,\ 14$
+a) The edge of a board.
 
-b) $5,\ 10,\ \square,\ 20,\ \square,\ 30$
+b) A rope lying in loops on the floor.
+
+c) The rim of a bicycle wheel.
 
 [LỜI GIẢI CŨ – EN]
-a) $6+2=8$ and $10+2=12$.
+a) The edge of a board is straight and has two ends: a line segment.
 
-b) $10+5=15$ and $20+5=25$.
+b) A rope in loops bends: a curve.
 
-**Answer.** a) 8 and 12; b) 15 and 25.
+c) The rim of a wheel is round, not straight: a curve.
+
+**Answer.** a) Line segment; b) Curve; c) Curve.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Dùng bảng nhân để tìm số thích hợp:
-
-a) $2\times\square=14$
-
-b) $5\times\square=25$
+Em hãy nhớ lại bài trừ có nhớ. Đoạn thẳng $AB$ dài $52$ cm, đoạn thẳng $CD$ dài $27$ cm. Đoạn thẳng $AB$ dài hơn đoạn thẳng $CD$ bao nhiêu xăng-ti-mét?
 
 [LỜI GIẢI CŨ – VI]
-a) $2\times7=14$ nên số cần tìm là 7.
+$12-7=5$ và $5-1-2=2$. Đoạn $AB$ dài hơn đoạn $CD$ là:
+$$52-27=25\ \text{(cm)}.$$
 
-b) $5\times5=25$ nên số cần tìm là 5.
-
-**Đáp số.** a) 7; b) 5.
+**Đáp số.** $25$ cm.
 
 [ĐỀ – EN]
-Use the times tables to find the missing number:
-
-a) $2\times\square=14$
-
-b) $5\times\square=25$
+Remember subtraction with regrouping. Line segment $AB$ is $52$ cm long and line segment $CD$ is $27$ cm long. How many centimetres longer is $AB$ than $CD$?
 
 [LỜI GIẢI CŨ – EN]
-a) $2\times7=14$, so the missing number is 7.
+$12-7=5$ and $5-1-2=2$. The difference in length is:
+$$52-27=25\ \text{(cm)}.$$
 
-b) $5\times5=25$, so the missing number is 5.
-
-**Answer.** a) 7; b) 5.
+**Answer.** $25$ cm.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Giả sử mỗi bạn có 2 quyển vở. Có 9 bạn như vậy. Hỏi có tất cả bao nhiêu quyển vở?
+Cho ba điểm $A$, $B$, $C$ thẳng hàng, điểm $B$ ở giữa. Em hãy kể tên các đoạn thẳng có hai đầu là hai trong ba điểm đó.
 
 [LỜI GIẢI CŨ – VI]
-Bài giải
+Các cặp điểm: $A$ với $B$, $B$ với $C$, $A$ với $C$. Các đoạn thẳng là $AB$, $BC$, $AC$.
 
-Có tất cả số quyển vở là:
-$$2\times9=18\ \text{(quyển)}.$$
-Đáp số: 18 quyển vở.
+**Đáp số.** $AB$, $BC$, $AC$ (có $3$ đoạn thẳng).
 
 [ĐỀ – EN]
-Suppose each child has 2 exercise books. There are 9 children like this. How many exercise books are there altogether?
+Points $A$, $B$, $C$ are in a line, with $B$ in the middle. Name the line segments whose endpoints are two of these three points.
 
 [LỜI GIẢI CŨ – EN]
-Solution
+The pairs are $A$ and $B$, $B$ and $C$, $A$ and $C$. The line segments are $AB$, $BC$, $AC$.
 
-The number of exercise books altogether is:
-$$2\times9=18\ \text{(books)}.$$
-Answer: 18 exercise books.
+**Answer.** $AB$, $BC$, $AC$ ($3$ line segments).
 
 === Bài 6 ===
 [ĐỀ – VI]
-Giả sử mỗi rổ có 5 quả táo. Có 7 rổ như vậy. Hỏi có tất cả bao nhiêu quả táo?
+Bạn Nam vẽ nét hơi cong nối hai điểm $A$, $B$ rồi nói: "Đây là đoạn thẳng $AB$." Bạn Nam nói đúng hay sai? Vì sao? Em sửa lại thế nào?
 
 [LỜI GIẢI CŨ – VI]
-Bài giải
+Nét của Nam hơi cong, không thẳng, nên đó không phải đoạn thẳng. Em dùng thước đặt theo mép đi qua $A$ và $B$, rồi kẻ nét thẳng.
 
-Có tất cả số quả táo là:
-$$5\times7=35\ \text{(quả)}.$$
-Đáp số: 35 quả táo.
+**Đáp số.** Sai; cần vẽ lại bằng thước.
 
 [ĐỀ – EN]
-Suppose each basket holds 5 apples. There are 7 baskets like this. How many apples are there altogether?
+Nam draws a slightly bent line joining points $A$ and $B$ and says, "This is line segment $AB$." Is Nam right? Why? How would you fix it?
 
 [LỜI GIẢI CŨ – EN]
-Solution
+Nam's line is slightly bent, so it is not a line segment. Use a ruler with its edge through $A$ and $B$, and draw a straight line along it.
 
-The number of apples altogether is:
-$$5\times7=35\ \text{(apples)}.$$
-Answer: 35 apples.
+**Answer.** Nam is wrong; draw it again with a ruler.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Nhớ lại bài giờ - phút. Kim dài của đồng hồ chỉ số 8 thì đã qua bao nhiêu phút? Chỉ số 10 thì đã qua bao nhiêu phút?
+Ba cọc tiêu $A$, $B$, $C$ cắm thẳng hàng trên sân. Các bạn căng sợi dây từ cọc $A$ đến cọc $C$. Cọc $B$ có nằm trên sợi dây căng không? Còn một cọc $D$ cắm lệch ra ngoài thì sao?
 
 [LỜI GIẢI CŨ – VI]
-Kim dài chỉ số 8: $5\times8=40$ (phút).
-Kim dài chỉ số 10: $5\times10=50$ (phút).
+Vì $A$, $B$, $C$ thẳng hàng nên cọc $B$ nằm trên sợi dây căng từ $A$ đến $C$. Cọc $D$ cắm lệch ra ngoài nên không nằm trên sợi dây.
 
-**Đáp số.** 40 phút và 50 phút.
+**Đáp số.** Cọc $B$ nằm trên dây; cọc $D$ không nằm trên dây.
 
 [ĐỀ – EN]
-Remember the lesson on hours and minutes. When the long hand of a clock points to 8, how many minutes have passed? What about when it points to 10?
+Three marker poles $A$, $B$, $C$ are placed in a line on a field. The children stretch a string from pole $A$ to pole $C$. Is pole $B$ on the stretched string? What about a pole $D$ placed off to the side?
 
 [LỜI GIẢI CŨ – EN]
-Long hand at 8: $5\times8=40$ (minutes).
-Long hand at 10: $5\times10=50$ (minutes).
+Since $A$, $B$, $C$ are in a line, pole $B$ is on the string stretched from $A$ to $C$. Pole $D$ is off to the side, so it is not on the string.
 
-**Answer.** 40 minutes and 50 minutes.
+**Answer.** Pole $B$ is on the string; pole $D$ is not.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Tích của 2 và một số bằng 18. Hỏi tích của 5 và số ấy bằng bao nhiêu?
+Cho bốn điểm $A$, $B$, $C$, $D$. Ba điểm $A$, $B$, $C$ thẳng hàng, điểm $D$ nằm ngoài. Nối từng cặp điểm với nhau. Có tất cả bao nhiêu đoạn thẳng?
 
 [LỜI GIẢI CŨ – VI]
-Ta có $2\times9=18$ nên số ấy là 9. Tích của 5 và 9 là:
-$$5\times9=45.$$
+Các đoạn thẳng: $AB$, $AC$, $AD$, $BC$, $BD$, $CD$. Có $3+2+1=6$ đoạn thẳng.
 
-**Đáp số.** 45.
+**Đáp số.** $6$ đoạn thẳng.
 
 [ĐỀ – EN]
-The product of 2 and a number is 18. What is the product of 5 and that number?
+There are four points $A$, $B$, $C$, $D$. The points $A$, $B$, $C$ are in a line and point $D$ is outside it. We join every pair of points. How many line segments are there altogether?
 
 [LỜI GIẢI CŨ – EN]
-We have $2\times9=18$, so the number is 9. The product of 5 and 9 is:
-$$5\times9=45.$$
+The line segments are $AB$, $AC$, $AD$, $BC$, $BD$, $CD$. That is $3+2+1=6$ line segments.
 
-**Answer.** 45.
+**Answer.** $6$ line segments.
 
 
 ######################################################################
-@@@ g2/vietnamese-money
-Bài học: Giới thiệu tiền Việt Nam / Introducing Vietnamese money
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+@@@ g2/regroup-add-1-digit
+Bài học: Phép cộng (có nhớ) số có hai chữ số với số có một chữ số / Adding a one-digit number to a two-digit number (with regrouping)
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Viết cách đọc các số tiền sau: $2\,000$ đồng, $10\,000$ đồng, $50\,000$ đồng.
+Tính $35+7$.
 
 [LỜI GIẢI CŨ – VI]
-$2\,000$ đồng đọc là hai nghìn đồng.
-$10\,000$ đồng đọc là mười nghìn đồng.
-$50\,000$ đồng đọc là năm mươi nghìn đồng.
+Hàng đơn vị: $5+7=12$, viết $2$ nhớ $1$. Hàng chục: $3+1=4$. Vậy $35+7=42$.
 
-**Đáp số.** Hai nghìn đồng; mười nghìn đồng; năm mươi nghìn đồng.
+**Đáp số.** $42$.
 
 [ĐỀ – EN]
-Write how to say these amounts of money: $2\,000$ dong, $10\,000$ dong, $50\,000$ dong.
+Work out $35+7$.
 
 [LỜI GIẢI CŨ – EN]
-$2\,000$ dong is said "two thousand dong".
-$10\,000$ dong is said "ten thousand dong".
-$50\,000$ dong is said "fifty thousand dong".
+Ones: $5+7=12$, write $2$ carry $1$. Tens: $3+1=4$. So $35+7=42$.
 
-**Answer.** Two thousand dong; ten thousand dong; fifty thousand dong.
+**Answer.** $42$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Tính:
-
-a) $1\,000+4\,000$
-
-b) $5\,000+5\,000$
-
-c) $20\,000+30\,000$
-
-d) $9\,000-3\,000$
+Đặt tính rồi tính $48+5$.
 
 [LỜI GIẢI CŨ – VI]
-a) $1+4=5$ nên $1\,000+4\,000=5\,000$.
+$8+5=13$, viết $3$ nhớ $1$. $4+1=5$. Vậy $48+5=53$.
 
-b) $5+5=10$ nên $5\,000+5\,000=10\,000$.
-
-c) $20+30=50$ nên $20\,000+30\,000=50\,000$.
-
-d) $9-3=6$ nên $9\,000-3\,000=6\,000$.
-
-**Đáp số.** a) $5\,000$; b) $10\,000$; c) $50\,000$; d) $6\,000$.
+**Đáp số.** $53$.
 
 [ĐỀ – EN]
-Work out:
-
-a) $1\,000+4\,000$
-
-b) $5\,000+5\,000$
-
-c) $20\,000+30\,000$
-
-d) $9\,000-3\,000$
+Set out in columns and work out $48+5$.
 
 [LỜI GIẢI CŨ – EN]
-a) $1+4=5$, so $1\,000+4\,000=5\,000$.
+$8+5=13$, write $3$ carry $1$. $4+1=5$. So $48+5=53$.
 
-b) $5+5=10$, so $5\,000+5\,000=10\,000$.
-
-c) $20+30=50$, so $20\,000+30\,000=50\,000$.
-
-d) $9-3=6$, so $9\,000-3\,000=6\,000$.
-
-**Answer.** a) $5\,000$; b) $10\,000$; c) $50\,000$; d) $6\,000$.
+**Answer.** $53$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Lan có hai tờ $5\,000$ đồng và một tờ $1\,000$ đồng. Hỏi Lan có tất cả bao nhiêu tiền?
+Em hãy nhớ lại bài Lít. Một can đựng $26$ lít nước. Đổ thêm $7$ lít nước nữa vào can. Hỏi can có tất cả bao nhiêu lít nước?
 
 [LỜI GIẢI CŨ – VI]
-Bài giải
+$6+7=13$, viết $3$ nhớ $1$. $2+1=3$. Số lít nước là:
+$$26+7=33\ \text{(lít)}.$$
 
-Lan có tất cả số tiền là:
-$$5+5+1=11\ \text{(nghìn đồng)}.$$
-Tức là $11\,000$ đồng.
-
-Đáp số: $11\,000$ đồng.
+**Đáp số.** $33$ lít nước.
 
 [ĐỀ – EN]
-Lan has two $5\,000$ dong notes and one $1\,000$ dong note. How much money does Lan have altogether?
+Remember the lesson on litres. A can holds $26$ litres of water. Someone pours in $7$ more litres. How many litres of water are in the can altogether?
 
 [LỜI GIẢI CŨ – EN]
-Solution
+$6+7=13$, write $3$ carry $1$. $2+1=3$. The amount of water is:
+$$26+7=33\ \text{(litres)}.$$
 
-The amount of money Lan has altogether is:
-$$5+5+1=11\ \text{(thousand dong)}.$$
-That is $11\,000$ dong.
-
-Answer: $11\,000$ dong.
+**Answer.** $33$ litres of water.
 
 === Bài 4 ===
 [ĐỀ – VI]
-a) Một tờ $20\,000$ đồng đổi được mấy tờ $10\,000$ đồng?
+Tìm số thích hợp điền vào ô trống.
 
-b) Một tờ $10\,000$ đồng đổi được mấy tờ $2\,000$ đồng?
+a) $56+\square=62$.
+
+b) $47+\square=52$.
 
 [LỜI GIẢI CŨ – VI]
-a) $10\,000+10\,000=20\,000$ nên đổi được 2 tờ.
+a) Từ $56$ lên $60$ cần $4$, từ $60$ lên $62$ cần $2$, nên số cần điền là $4+2=6$. Thử lại: $56+6=62$.
 
-b) $2+2+2+2+2=10$ nên $2\,000+2\,000+2\,000+2\,000+2\,000=10\,000$, đổi được 5 tờ.
+b) Từ $47$ lên $50$ cần $3$, từ $50$ lên $52$ cần $2$, nên số cần điền là $5$. Thử lại: $47+5=52$.
 
-**Đáp số.** a) 2 tờ; b) 5 tờ.
+**Đáp số.** a) $6$; b) $5$.
 
 [ĐỀ – EN]
-a) How many $10\,000$ dong notes can you change one $20\,000$ dong note for?
+Find the number that goes in the box.
 
-b) How many $2\,000$ dong notes can you change one $10\,000$ dong note for?
+a) $56+\square=62$.
+
+b) $47+\square=52$.
 
 [LỜI GIẢI CŨ – EN]
-a) $10\,000+10\,000=20\,000$, so you get 2 notes.
+a) From $56$ to $60$ is $4$, and from $60$ to $62$ is $2$, so the missing number is $4+2=6$. Check: $56+6=62$.
 
-b) $2+2+2+2+2=10$, so $2\,000+2\,000+2\,000+2\,000+2\,000=10\,000$, and you get 5 notes.
+b) From $47$ to $50$ is $3$, and from $50$ to $52$ is $2$, so the missing number is $5$. Check: $47+5=52$.
 
-**Answer.** a) 2 notes; b) 5 notes.
+**Answer.** a) $6$; b) $5$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống:
-$$2\ \text{tờ}\ 5\,000\ \text{đồng}\ \square\ 10\,000\ \text{đồng},$$
-$$3\,000\ \text{đồng}+2\,000\ \text{đồng}\ \square\ 6\,000\ \text{đồng},$$
-$$20\,000\ \text{đồng}\ \square\ 10\,000\ \text{đồng}+5\,000\ \text{đồng}.$$
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống. Em hãy nói vì sao.
+
+a) $59+4 \;\square\; 62$.
+
+b) $28+5 \;\square\; 34$.
 
 [LỜI GIẢI CŨ – VI]
-$5+5=10$ nghìn nên hai tờ $5\,000$ đồng bằng $10\,000$ đồng.
-$3+2=5$ nghìn, mà $5<6$.
-$10+5=15$ nghìn, mà $20>15$.
+a) $59+4=63$. Vì $63>62$ nên $59+4>62$.
 
-**Đáp số.** $=$; $<$; $>$.
+b) $28+5=33$. Vì $33<34$ nên $28+5<34$.
+
+**Đáp số.** a) Dấu $>$; b) Dấu $<$.
 
 [ĐỀ – EN]
-Write $>$, $<$ or $=$ in each box:
-$$2\ \text{notes of}\ 5\,000\ \text{dong}\ \square\ 10\,000\ \text{dong},$$
-$$3\,000\ \text{dong}+2\,000\ \text{dong}\ \square\ 6\,000\ \text{dong},$$
-$$20\,000\ \text{dong}\ \square\ 10\,000\ \text{dong}+5\,000\ \text{dong}.$$
+Write $>$, $<$ or $=$ in the box. Say why.
+
+a) $59+4 \;\square\; 62$.
+
+b) $28+5 \;\square\; 34$.
 
 [LỜI GIẢI CŨ – EN]
-$5+5=10$ thousand, so two $5\,000$ dong notes equal $10\,000$ dong.
-$3+2=5$ thousand, and $5<6$.
-$10+5=15$ thousand, and $20>15$.
+a) $59+4=63$. Since $63>62$, $59+4>62$.
 
-**Answer.** $=$; $<$; $>$.
+b) $28+5=33$. Since $33<34$, $28+5<34$.
+
+**Answer.** a) The sign $>$; b) the sign $<$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Giả sử Nam mua một quyển truyện giá $7\,000$ đồng và một chiếc bút giá $3\,000$ đồng. Hỏi Nam phải trả tất cả bao nhiêu tiền?
+Bạn An làm bài: $47+8=45$. Bạn An làm sai ở đâu? Em hãy sửa lại cho đúng.
 
 [LỜI GIẢI CŨ – VI]
-Bài giải
+$7+8=15$, viết $5$ nhớ $1$. Hàng chục phải là $4+1=5$, nhưng bạn An chỉ viết $4$ (quên chục nhớ). Vậy $47+8=55$.
 
-Nam phải trả tất cả số tiền là:
-$$7+3=10\ \text{(nghìn đồng)}.$$
-Tức là $10\,000$ đồng.
-
-Đáp số: $10\,000$ đồng.
+**Đáp số.** Bạn An quên chục nhớ; đúng là $55$.
 
 [ĐỀ – EN]
-Suppose Nam buys a story book that costs $7\,000$ dong and a pen that costs $3\,000$ dong. How much must Nam pay altogether?
+An writes: $47+8=45$. Where did An go wrong? Correct the answer.
 
 [LỜI GIẢI CŨ – EN]
-Solution
+$7+8=15$, write $5$ carry $1$. The tens should be $4+1=5$, but An only wrote $4$ (forgot the carried ten). So $47+8=55$.
 
-The amount Nam must pay altogether is:
-$$7+3=10\ \text{(thousand dong)}.$$
-That is $10\,000$ dong.
-
-Answer: $10\,000$ dong.
+**Answer.** An forgot the carried ten; the right answer is $55$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Giả sử Hà có $20\,000$ đồng và mua một hộp bánh giá $15\,000$ đồng. Hỏi Hà còn lại bao nhiêu tiền?
+Trong sân trường có $67$ học sinh đang xếp hàng. Có thêm $9$ học sinh chạy tới xếp hàng. Hỏi lúc này có tất cả bao nhiêu học sinh?
 
 [LỜI GIẢI CŨ – VI]
-Bài giải
+$7+9=16$, viết $6$ nhớ $1$. $6+1=7$. Số học sinh là:
+$$67+9=76\ \text{(học sinh)}.$$
 
-Hà còn lại số tiền là:
-$$20-15=5\ \text{(nghìn đồng)}.$$
-Tức là $5\,000$ đồng.
-
-Đáp số: $5\,000$ đồng.
+**Đáp số.** $76$ học sinh.
 
 [ĐỀ – EN]
-Suppose Ha has $20\,000$ dong and buys a box of cakes that costs $15\,000$ dong. How much money does Ha have left?
+There are $67$ pupils lining up in the school yard. Then $9$ more pupils run over and join the line. How many pupils are there now altogether?
 
 [LỜI GIẢI CŨ – EN]
-Solution
+$7+9=16$, write $6$ carry $1$. $6+1=7$. The number of pupils is:
+$$67+9=76\ \text{(pupils)}.$$
 
-The amount of money Ha has left is:
-$$20-15=5\ \text{(thousand dong)}.$$
-That is $5\,000$ dong.
-
-Answer: $5\,000$ dong.
+**Answer.** $76$ pupils.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Nhớ lại bài phép nhân. Mai có 4 tờ $5\,000$ đồng. Hỏi Mai có bao nhiêu tiền? Viết bằng phép nhân.
+Tìm chữ số thích hợp điền vào ô trống: $4\square+7=51$.
 
 [LỜI GIẢI CŨ – VI]
-Bài giải
+Hàng đơn vị của tổng là $1$, nên $\square+7=11$, suy ra $\square=4$. Thử lại: $44+7=51$ (vì $4+7=11$ và $4+1=5$).
 
-Mai có số tiền là:
-$$5\times4=20\ \text{(nghìn đồng)}.$$
-Tức là $20\,000$ đồng.
-
-Đáp số: $20\,000$ đồng.
+**Đáp số.** Chữ số cần điền là $4$.
 
 [ĐỀ – EN]
-Remember the lesson on multiplication. Mai has 4 notes of $5\,000$ dong. How much money does Mai have? Write it as a multiplication.
+Find the digit that goes in the box: $4\square+7=51$.
 
 [LỜI GIẢI CŨ – EN]
-Solution
+The sum has $1$ in the ones, so $\square+7=11$, which means $\square=4$. Check: $44+7=51$ (because $4+7=11$ and $4+1=5$).
 
-The amount of money Mai has is:
-$$5\times4=20\ \text{(thousand dong)}.$$
-That is $20\,000$ dong.
+**Answer.** The missing digit is $4$.
 
-Answer: $20\,000$ dong.
 
-=== Bài 9 ===
+######################################################################
+@@@ g2/regroup-add-2-digit
+Bài học: Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số / Adding two two-digit numbers (with regrouping)
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
 [ĐỀ – VI]
-Mai có ba tờ tiền: một tờ $10\,000$ đồng, một tờ $5\,000$ đồng và một tờ $2\,000$ đồng. Mai có thể trả đúng $12\,000$ đồng bằng những tờ nào? Trả đúng $15\,000$ đồng bằng những tờ nào?
+Tính $24+18$.
 
 [LỜI GIẢI CŨ – VI]
-Ta có $10+2=12$ nên trả đúng $12\,000$ đồng bằng tờ $10\,000$ đồng và tờ $2\,000$ đồng.
-Ta có $10+5=15$ nên trả đúng $15\,000$ đồng bằng tờ $10\,000$ đồng và tờ $5\,000$ đồng.
+Hàng đơn vị: $4+8=12$, viết $2$ nhớ $1$. Hàng chục: $2+1+1=4$. Vậy $24+18=42$.
 
-**Đáp số.** $12\,000$ đồng: tờ $10\,000$ và tờ $2\,000$; $15\,000$ đồng: tờ $10\,000$ và tờ $5\,000$.
+**Đáp số.** $42$.
 
 [ĐỀ – EN]
-Mai has three banknotes: one $10\,000$ dong note, one $5\,000$ dong note and one $2\,000$ dong note. Which notes can Mai use to pay exactly $12\,000$ dong? Which notes can she use to pay exactly $15\,000$ dong?
+Work out $24+18$.
 
 [LỜI GIẢI CŨ – EN]
-We have $10+2=12$, so Mai can pay exactly $12\,000$ dong with the $10\,000$ dong note and the $2\,000$ dong note.
-We have $10+5=15$, so Mai can pay exactly $15\,000$ dong with the $10\,000$ dong note and the $5\,000$ dong note.
+Ones: $4+8=12$, write $2$ carry $1$. Tens: $2+1+1=4$. So $24+18=42$.
 
-**Answer.** $12\,000$ dong: the $10\,000$ and $2\,000$ notes; $15\,000$ dong: the $10\,000$ and $5\,000$ notes.
+**Answer.** $42$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đặt tính rồi tính $37+25$.
+
+[LỜI GIẢI CŨ – VI]
+$7+5=12$, viết $2$ nhớ $1$. $3+2+1=6$. Vậy $37+25=62$.
+
+**Đáp số.** $62$.
+
+[ĐỀ – EN]
+Set out the column and work out $37+25$.
+
+[LỜI GIẢI CŨ – EN]
+$7+5=12$, write $2$ carry $1$. $3+2+1=6$. So $37+25=62$.
+
+**Answer.** $62$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước. Tính $58+7$.
+
+[LỜI GIẢI CŨ – VI]
+$8+7=15$, viết $5$ nhớ $1$. $5+1=6$. Vậy $58+7=65$.
+
+**Đáp số.** $65$.
+
+[ĐỀ – EN]
+Remember the last lesson. Work out $58+7$.
+
+[LỜI GIẢI CŨ – EN]
+$8+7=15$, write $5$ carry $1$. $5+1=6$. So $58+7=65$.
+
+**Answer.** $65$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính.
+
+a) $45+39$.
+
+b) $56+27$.
+
+[LỜI GIẢI CŨ – VI]
+a) $5+9=14$, viết $4$ nhớ $1$; $4+3+1=8$. Vậy $45+39=84$.
+
+b) $6+7=13$, viết $3$ nhớ $1$; $5+2+1=8$. Vậy $56+27=83$.
+
+**Đáp số.** a) $84$; b) $83$.
+
+[ĐỀ – EN]
+Work out.
+
+a) $45+39$.
+
+b) $56+27$.
+
+[LỜI GIẢI CŨ – EN]
+a) $5+9=14$, write $4$ carry $1$; $4+3+1=8$. So $45+39=84$.
+
+b) $6+7=13$, write $3$ carry $1$; $5+2+1=8$. So $56+27=83$.
+
+**Answer.** a) $84$; b) $83$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống. Em hãy nói vì sao.
+
+a) $38+47 \;\square\; 84$.
+
+b) $29+35 \;\square\; 65$.
+
+[LỜI GIẢI CŨ – VI]
+a) $38+47=85$. Vì $85>84$ nên $38+47>84$.
+
+b) $29+35=64$. Vì $64<65$ nên $29+35<65$.
+
+**Đáp số.** a) Dấu $>$; b) Dấu $<$.
+
+[ĐỀ – EN]
+Write $>$, $<$ or $=$ in the box. Say why.
+
+a) $38+47 \;\square\; 84$.
+
+b) $29+35 \;\square\; 65$.
+
+[LỜI GIẢI CŨ – EN]
+a) $38+47=85$. Since $85>84$, we have $38+47>84$.
+
+b) $29+35=64$. Since $64<65$, we have $29+35<65$.
+
+**Answer.** a) The sign $>$; b) the sign $<$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Bạn Hà làm bài: $36+47=73$. Bạn Hà làm sai ở đâu? Em hãy sửa lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+$6+7=13$, viết $3$ nhớ $1$. Hàng chục phải là $3+4+1=8$, nhưng bạn Hà chỉ làm $3+4=7$ (quên chục nhớ). Vậy $36+47=83$.
+
+**Đáp số.** Bạn Hà quên chục nhớ; đúng là $83$.
+
+[ĐỀ – EN]
+Ha wrote: $36+47=73$. Where did Ha go wrong? Correct the answer.
+
+[LỜI GIẢI CŨ – EN]
+$6+7=13$, write $3$ carry $1$. The tens should be $3+4+1=8$, but Ha only worked out $3+4=7$ (the carried ten was forgotten). So $36+47=83$.
+
+**Answer.** Ha forgot the carried ten; the right answer is $83$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Tổ Một trồng được $49$ cây, tổ Hai trồng được $38$ cây. Hỏi cả hai tổ trồng được bao nhiêu cây?
+
+[LỜI GIẢI CŨ – VI]
+$9+8=17$, viết $7$ nhớ $1$. $4+3+1=8$. Số cây là:
+$$49+38=87\ \text{(cây)}.$$
+
+**Đáp số.** $87$ cây.
+
+[ĐỀ – EN]
+Group One planted $49$ trees and Group Two planted $38$ trees. How many trees did the two groups plant altogether?
+
+[LỜI GIẢI CŨ – EN]
+$9+8=17$, write $7$ carry $1$. $4+3+1=8$. The number of trees is:
+$$49+38=87\ \text{(trees)}.$$
+
+**Answer.** $87$ trees.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Tìm chữ số thích hợp điền vào ô trống: $5\square+27=84$.
+
+[LỜI GIẢI CŨ – VI]
+Hàng đơn vị của tổng là $4$, nên $\square+7=14$, suy ra $\square=7$. Thử lại: $57+27=84$ (vì $7+7=14$ và $5+2+1=8$).
+
+**Đáp số.** Chữ số cần điền là $7$.
+
+[ĐỀ – EN]
+Find the missing digit: $5\square+27=84$.
+
+[LỜI GIẢI CŨ – EN]
+The ones digit of the sum is $4$, so $\square+7=14$, which gives $\square=7$. Check: $57+27=84$ (because $7+7=14$ and $5+2+1=8$).
+
+**Answer.** The missing digit is $7$.
 
 
 ===== HẾT FILE Alexnguyen122222-11-LG =====

@@ -1,0 +1,790 @@
+######################################################################
+TÀI KHOẢN: Xedap102   |   FILE: Xedap102-06-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Xedap102-06-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Xedap102-06-LG
+Người làm: tài khoản Xedap102. Gói này có 27 bài tập thuộc 3 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Xedap102-06-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/3). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Xedap102-06-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g11/trig-function-graphs (9 bài tập)
+- g11/union-intersection-events (9 bài tập)
+- g11/volumes (9 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g11/trig-function-graphs
+Bài học: Hàm số lượng giác / Trigonometric functions
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tìm tập xác định của hàm số a) $y=\tan\left(x+\dfrac{\pi}{6}\right)$; b) $y=\dfrac{1}{1+\sin x}$.
+
+[LỜI GIẢI CŨ – VI]
+a) Hàm số xác định khi $x+\dfrac{\pi}{6}\ne\dfrac{\pi}{2}+k\pi$, tức $x\ne\dfrac{\pi}{3}+k\pi$.
+
+b) Hàm số xác định khi $1+\sin x\ne0$, tức $\sin x\ne-1$, hay $x\ne-\dfrac{\pi}{2}+k2\pi$.
+
+**Đáp số.** a) $\mathbb{R}\setminus\left\{\dfrac{\pi}{3}+k\pi\right\}$; b) $\mathbb{R}\setminus\left\{-\dfrac{\pi}{2}+k2\pi\right\}$ ($k\in\mathbb{Z}$).
+
+[ĐỀ – EN]
+Find the domain of a) $y=\tan\left(x+\dfrac{\pi}{6}\right)$; b) $y=\dfrac{1}{1+\sin x}$.
+
+[LỜI GIẢI CŨ – EN]
+a) The function is defined when $x+\dfrac{\pi}{6}\ne\dfrac{\pi}{2}+k\pi$, that is $x\ne\dfrac{\pi}{3}+k\pi$.
+
+b) The function is defined when $1+\sin x\ne0$, that is $\sin x\ne-1$, or $x\ne-\dfrac{\pi}{2}+k2\pi$.
+
+**Answer.** a) $\mathbb{R}\setminus\left\{\dfrac{\pi}{3}+k\pi\right\}$; b) $\mathbb{R}\setminus\left\{-\dfrac{\pi}{2}+k2\pi\right\}$ ($k\in\mathbb{Z}$).
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm giá trị lớn nhất, giá trị nhỏ nhất của hàm số $y=5-3\cos x$ và các giá trị $x$ đạt chúng.
+
+[LỜI GIẢI CŨ – VI]
+Vì $-1\le\cos x\le1$ nên $-3\le-3\cos x\le3$, suy ra $2\le y\le8$. Giá trị nhỏ nhất $2$ đạt khi $\cos x=1$, tức $x=k2\pi$. Giá trị lớn nhất $8$ đạt khi $\cos x=-1$, tức $x=\pi+k2\pi$.
+
+**Đáp số.** $\min y=2$ tại $x=k2\pi$; $\max y=8$ tại $x=\pi+k2\pi$.
+
+[ĐỀ – EN]
+Find the greatest and least values of $y=5-3\cos x$ and the values of $x$ at which they occur.
+
+[LỜI GIẢI CŨ – EN]
+Since $-1\le\cos x\le1$, we have $-3\le-3\cos x\le3$, so $2\le y\le8$. The least value $2$ occurs when $\cos x=1$, that is $x=k2\pi$. The greatest value $8$ occurs when $\cos x=-1$, that is $x=\pi+k2\pi$.
+
+**Answer.** $\min y=2$ at $x=k2\pi$; $\max y=8$ at $x=\pi+k2\pi$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Xét tính chẵn lẻ của các hàm số a) $y=x\cos x$; b) $y=\sin^2x+\cos x$; c) $y=\tan x+x$.
+
+[LỜI GIẢI CŨ – VI]
+a) $f(-x)=(-x)\cos(-x)=-x\cos x=-f(x)$: hàm số lẻ.
+
+b) $f(-x)=\sin^2(-x)+\cos(-x)=\sin^2x+\cos x=f(x)$: hàm số chẵn.
+
+c) $f(-x)=\tan(-x)+(-x)=-(\tan x+x)=-f(x)$: hàm số lẻ.
+
+**Đáp số.** a) lẻ; b) chẵn; c) lẻ.
+
+[ĐỀ – EN]
+Decide whether each function is even, odd or neither: a) $y=x\cos x$; b) $y=\sin^2x+\cos x$; c) $y=\tan x+x$.
+
+[LỜI GIẢI CŨ – EN]
+a) $f(-x)=(-x)\cos(-x)=-x\cos x=-f(x)$: odd.
+
+b) $f(-x)=\sin^2(-x)+\cos(-x)=\sin^2x+\cos x=f(x)$: even.
+
+c) $f(-x)=\tan(-x)+(-x)=-(\tan x+x)=-f(x)$: odd.
+
+**Answer.** a) odd; b) even; c) odd.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm chu kì của các hàm số a) $y=\sin3x$; b) $y=\cos\dfrac{x}{2}$; c) $y=\tan2x$.
+
+[LỜI GIẢI CŨ – VI]
+a) $\omega=3$ nên chu kì là $\dfrac{2\pi}{3}$.
+
+b) $\omega=\dfrac12$ nên chu kì là $\dfrac{2\pi}{1/2}=4\pi$.
+
+c) $\omega=2$ nên chu kì là $\dfrac{\pi}{2}$.
+
+**Đáp số.** a) $\dfrac{2\pi}{3}$; b) $4\pi$; c) $\dfrac{\pi}{2}$.
+
+[ĐỀ – EN]
+Find the period of a) $y=\sin3x$; b) $y=\cos\dfrac{x}{2}$; c) $y=\tan2x$.
+
+[LỜI GIẢI CŨ – EN]
+a) $\omega=3$, so the period is $\dfrac{2\pi}{3}$.
+
+b) $\omega=\dfrac12$, so the period is $\dfrac{2\pi}{1/2}=4\pi$.
+
+c) $\omega=2$, so the period is $\dfrac{\pi}{2}$.
+
+**Answer.** a) $\dfrac{2\pi}{3}$; b) $4\pi$; c) $\dfrac{\pi}{2}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+So sánh a) $\sin\dfrac{\pi}{9}$ và $\sin\dfrac{2\pi}{9}$; b) $\cos\dfrac{4\pi}{5}$ và $\cos\dfrac{3\pi}{5}$.
+
+[LỜI GIẢI CŨ – VI]
+a) Hai góc cùng thuộc $\left(0; \dfrac{\pi}{2}\right)$ nơi $\sin$ đồng biến và $\dfrac{\pi}{9}<\dfrac{2\pi}{9}$, nên $\sin\dfrac{\pi}{9}<\sin\dfrac{2\pi}{9}$.
+
+b) Hai góc cùng thuộc $(0; \pi)$ nơi $\cos$ nghịch biến và $\dfrac{4\pi}{5}>\dfrac{3\pi}{5}$, nên $\cos\dfrac{4\pi}{5}<\cos\dfrac{3\pi}{5}$.
+
+**Đáp số.** a) $\sin\dfrac{\pi}{9}<\sin\dfrac{2\pi}{9}$; b) $\cos\dfrac{4\pi}{5}<\cos\dfrac{3\pi}{5}$.
+
+[ĐỀ – EN]
+Compare a) $\sin\dfrac{\pi}{9}$ and $\sin\dfrac{2\pi}{9}$; b) $\cos\dfrac{4\pi}{5}$ and $\cos\dfrac{3\pi}{5}$.
+
+[LỜI GIẢI CŨ – EN]
+a) Both angles lie in $\left(0, \dfrac{\pi}{2}\right)$, where $\sin$ is increasing, and $\dfrac{\pi}{9}<\dfrac{2\pi}{9}$, so $\sin\dfrac{\pi}{9}<\sin\dfrac{2\pi}{9}$.
+
+b) Both angles lie in $(0, \pi)$, where $\cos$ is decreasing, and $\dfrac{4\pi}{5}>\dfrac{3\pi}{5}$, so $\cos\dfrac{4\pi}{5}<\cos\dfrac{3\pi}{5}$.
+
+**Answer.** a) $\sin\dfrac{\pi}{9}<\sin\dfrac{2\pi}{9}$; b) $\cos\dfrac{4\pi}{5}<\cos\dfrac{3\pi}{5}$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử nhiệt độ ngoài trời (độ C) tại một thành phố vào ngày nóng nực được mô tả bởi $T(t)=28+5\sin\dfrac{\pi(t-9)}{12}$, trong đó $t$ là số giờ kể từ $0$ giờ ($0\le t<24$). Tìm nhiệt độ cao nhất, thấp nhất và thời điểm đạt chúng. Sau bao nhiêu giờ thì nhiệt độ lặp lại?
+
+[LỜI GIẢI CŨ – VI]
+Vì $-1\le\sin\dfrac{\pi(t-9)}{12}\le1$ nên $23\le T\le33$. Nhiệt độ $33$ khi $\dfrac{\pi(t-9)}{12}=\dfrac{\pi}{2}$, tức $t=15$. Nhiệt độ $23$ khi $\dfrac{\pi(t-9)}{12}=-\dfrac{\pi}{2}$, tức $t=3$. Chu kì là $\dfrac{2\pi}{\pi/12}=24$ giờ.
+
+**Đáp số.** Cao nhất $33^\circ$C lúc $15$ giờ; thấp nhất $23^\circ$C lúc $3$ giờ; lặp lại sau $24$ giờ.
+
+[ĐỀ – EN]
+Suppose the outdoor temperature (in degrees Celsius) in a city on a hot day is modelled by $T(t)=28+5\sin\dfrac{\pi(t-9)}{12}$, where $t$ is the number of hours after midnight ($0\le t<24$). Find the highest and lowest temperatures and when they occur. After how many hours does the temperature pattern repeat?
+
+[LỜI GIẢI CŨ – EN]
+Since $-1\le\sin\dfrac{\pi(t-9)}{12}\le1$, we have $23\le T\le33$. The temperature is $33$ when $\dfrac{\pi(t-9)}{12}=\dfrac{\pi}{2}$, that is $t=15$. It is $23$ when $\dfrac{\pi(t-9)}{12}=-\dfrac{\pi}{2}$, that is $t=3$. The period is $\dfrac{2\pi}{\pi/12}=24$ hours.
+
+**Answer.** Highest $33^\circ$C at $15$ o'clock; lowest $23^\circ$C at $3$ o'clock; the pattern repeats every $24$ hours.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho hàm số $y=\tan x$. Xét tính đúng sai của các mệnh đề sau:
+
+a) Hàm số xác định trên $\mathbb{R}$.
+
+b) Hàm số tuần hoàn với chu kì $\pi$.
+
+c) Hàm số đồng biến trên khoảng $(0; \pi)$.
+
+d) Đồ thị hàm số nhận gốc toạ độ làm tâm đối xứng.
+
+[LỜI GIẢI CŨ – VI]
+a) **Sai**: $\tan x$ không xác định tại $x=\dfrac{\pi}{2}+k\pi$.
+
+b) **Đúng**: $\tan(x+\pi)=\tan x$ và $\pi$ là số dương nhỏ nhất như vậy.
+
+c) **Sai**: $\dfrac{\pi}{2}\in(0; \pi)$ mà $\tan x$ không xác định tại đó; hàm số đồng biến trên $\left(0; \dfrac{\pi}{2}\right)$ và trên $\left(\dfrac{\pi}{2}; \pi\right)$ riêng rẽ.
+
+d) **Đúng**: $\tan$ là hàm số lẻ.
+
+**Đáp số.** a) Sai; b) Đúng; c) Sai; d) Đúng.
+
+[ĐỀ – EN]
+Consider the function $y=\tan x$. Decide whether each statement is true or false.
+
+a) The function is defined on $\mathbb{R}$.
+
+b) The function is periodic with period $\pi$.
+
+c) The function is increasing on the interval $(0, \pi)$.
+
+d) The graph is symmetric about the origin.
+
+[LỜI GIẢI CŨ – EN]
+a) **False**: $\tan x$ is not defined at $x=\dfrac{\pi}{2}+k\pi$.
+
+b) **True**: $\tan(x+\pi)=\tan x$ and $\pi$ is the smallest such positive number.
+
+c) **False**: $\dfrac{\pi}{2}\in(0, \pi)$ but $\tan x$ is not defined there; the function is increasing on $\left(0, \dfrac{\pi}{2}\right)$ and on $\left(\dfrac{\pi}{2}, \pi\right)$ separately.
+
+d) **True**: $\tan$ is an odd function.
+
+**Answer.** a) False; b) True; c) False; d) True.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Điện áp tức thời của một nguồn điện xoay chiều là $u(t)=220\sqrt2\sin(100\pi t)$ (V). Tính điện áp cực đại, làm tròn đến hàng đơn vị (đơn vị V).
+
+[LỜI GIẢI CŨ – VI]
+Vì $\sin(100\pi t)\le1$ nên $u\le220\sqrt2\approx311{,}1$.
+
+**Đáp số.** $311$ V.
+
+[ĐỀ – EN]
+The instantaneous voltage of an alternating current source is $u(t)=220\sqrt2\sin(100\pi t)$ (V). Find the peak voltage, to the nearest whole number (in V).
+
+[LỜI GIẢI CŨ – EN]
+Since $\sin(100\pi t)\le1$, we have $u\le220\sqrt2\approx311.1$.
+
+**Answer.** $311$ V.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Dùng công thức cộng để viết $y=\sin x+\cos x$ dưới dạng $y=\sqrt2\sin\left(x+\dfrac{\pi}{4}\right)$. Từ đó tìm tập giá trị và chu kì của hàm số.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\sqrt2\sin\left(x+\dfrac{\pi}{4}\right)=\sqrt2\left(\sin x\cdot\dfrac{\sqrt2}{2}+\cos x\cdot\dfrac{\sqrt2}{2}\right)=\sin x+\cos x$. Vì $-1\le\sin\left(x+\dfrac{\pi}{4}\right)\le1$ nên $-\sqrt2\le y\le\sqrt2$. Chu kì là $2\pi$.
+
+**Đáp số.** Tập giá trị $\left[-\sqrt2; \sqrt2\right]$; chu kì $2\pi$.
+
+[ĐỀ – EN]
+Use the addition formula to write $y=\sin x+\cos x$ in the form $y=\sqrt2\sin\left(x+\dfrac{\pi}{4}\right)$. Hence find the range and the period of the function.
+
+[LỜI GIẢI CŨ – EN]
+We have $\sqrt2\sin\left(x+\dfrac{\pi}{4}\right)=\sqrt2\left(\sin x\cdot\dfrac{\sqrt2}{2}+\cos x\cdot\dfrac{\sqrt2}{2}\right)=\sin x+\cos x$. Since $-1\le\sin\left(x+\dfrac{\pi}{4}\right)\le1$, we have $-\sqrt2\le y\le\sqrt2$. The period is $2\pi$.
+
+**Answer.** Range $\left[-\sqrt2, \sqrt2\right]$; period $2\pi$.
+
+
+######################################################################
+@@@ g11/union-intersection-events
+Bài học: Biến cố hợp, biến cố giao, biến cố độc lập / Union, intersection and independent events
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Gieo một con xúc xắc cân đối. Gọi $A$: "số chấm chia hết cho $3$" và $B$: "số chấm lẻ". Mô tả $A\cup B$, $A\cap B$ và tính xác suất của chúng.
+
+[LỜI GIẢI CŨ – VI]
+$A=\{3,6\}$, $B=\{1,3,5\}$. Vậy $A\cup B=\{1,3,5,6\}$, $A\cap B=\{3\}$. Do đó $P(A\cup B)=\dfrac46=\dfrac23$ và $P(A\cap B)=\dfrac16$.
+
+**Đáp số.** $\dfrac23$ và $\dfrac16$.
+
+[ĐỀ – EN]
+Roll a fair die. Let $A$ be "the number is divisible by $3$" and $B$ be "the number is odd". Describe $A\cup B$ and $A\cap B$ and find their probabilities.
+
+[LỜI GIẢI CŨ – EN]
+$A=\{3,6\}$, $B=\{1,3,5\}$. So $A\cup B=\{1,3,5,6\}$ and $A\cap B=\{3\}$. Hence $P(A\cup B)=\dfrac46=\dfrac23$ and $P(A\cap B)=\dfrac16$.
+
+**Answer.** $\dfrac23$ and $\dfrac16$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Rút ngẫu nhiên một lá từ bộ bài tây $52$ lá. Gọi $A$: "lá bích" và $B$: "lá J, Q hoặc K". Tính $P(A\cup B)$ và $P(A\cap B)$.
+
+[LỜI GIẢI CŨ – VI]
+$n(A\cap B)=3$ (J, Q, K bích) nên $n(A\cup B)=13+12-3=22$. Vậy $P(A\cup B)=\dfrac{22}{52}=\dfrac{11}{26}$ và $P(A\cap B)=\dfrac3{52}$.
+
+**Đáp số.** $\dfrac{11}{26}$ và $\dfrac3{52}$.
+
+[ĐỀ – EN]
+A card is drawn at random from a standard deck of $52$ cards. Let $A$ be "a spade" and $B$ be "a jack, queen or king". Find $P(A\cup B)$ and $P(A\cap B)$.
+
+[LỜI GIẢI CŨ – EN]
+$n(A\cap B)=3$ (the jack, queen and king of spades), so $n(A\cup B)=13+12-3=22$. So $P(A\cup B)=\dfrac{22}{52}=\dfrac{11}{26}$ and $P(A\cap B)=\dfrac3{52}$.
+
+**Answer.** $\dfrac{11}{26}$ and $\dfrac3{52}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tung một đồng xu cân đối ba lần. Gọi $A$: "có ít nhất hai mặt ngửa" và $B$: "lần đầu ra mặt sấp". Tính $P(A\cup B)$ và $P(A\cap B)$.
+
+[LỜI GIẢI CŨ – VI]
+$A=\{NNN,NNS,NSN,SNN\}$, $B=\{SNN,SNS,SSN,SSS\}$. Giao $A\cap B=\{SNN\}$ và hợp có $4+4-1=7$ kết quả. Vậy $P(A\cup B)=\dfrac78$ và $P(A\cap B)=\dfrac18$.
+
+**Đáp số.** $\dfrac78$ và $\dfrac18$.
+
+[ĐỀ – EN]
+A fair coin is tossed three times. Let $A$ be "at least two heads" and $B$ be "the first toss is a tail". Find $P(A\cup B)$ and $P(A\cap B)$.
+
+[LỜI GIẢI CŨ – EN]
+$A=\{HHH,HHT,HTH,THH\}$ and $B=\{THH,THT,TTH,TTT\}$. The intersection is $A\cap B=\{THH\}$ and the union has $4+4-1=7$ outcomes. So $P(A\cup B)=\dfrac78$ and $P(A\cap B)=\dfrac18$.
+
+**Answer.** $\dfrac78$ and $\dfrac18$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Xét tính đúng sai của các mệnh đề sau.
+
+a) Biến cố $A\cup B$ xảy ra khi ít nhất một trong hai biến cố $A$, $B$ xảy ra.
+
+b) Nếu $A\cap B=\varnothing$ thì $A$ và $B$ luôn độc lập.
+
+c) Nếu $P(AB)=P(A)\,P(B)$ thì $A$ và $B$ độc lập.
+
+d) Biến cố $A\cup B$ chỉ xảy ra khi cả $A$ và $B$ cùng xảy ra.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng** theo định nghĩa.
+
+b) **Sai**: xung khắc có $P(AB)=0$, thường khác $P(A)P(B)$.
+
+c) **Đúng** theo định nghĩa.
+
+d) **Sai**: đó là biến cố giao.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Decide whether each statement is true or false.
+
+a) The event $A\cup B$ occurs when at least one of $A$, $B$ occurs.
+
+b) If $A\cap B=\varnothing$ then $A$ and $B$ are always independent.
+
+c) If $P(AB)=P(A)\,P(B)$ then $A$ and $B$ are independent.
+
+d) The event $A\cup B$ occurs only when both $A$ and $B$ occur.
+
+[LỜI GIẢI CŨ – EN]
+a) **True** by definition.
+
+b) **False**: mutually exclusive events have $P(AB)=0$, which usually differs from $P(A)P(B)$.
+
+c) **True** by definition.
+
+d) **False**: that describes the intersection.
+
+**Answer.** a) True; b) False; c) True; d) False.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giả sử hai xạ thủ bắn độc lập vào cùng một bia, xác suất bắn trúng của người thứ nhất là $0{,}8$ và của người thứ hai là $0{,}7$ (số liệu giả định). Tính xác suất cả hai cùng bắn trúng và xác suất cả hai cùng bắn trượt.
+
+[LỜI GIẢI CŨ – VI]
+$P(AB)=0{,}8\cdot0{,}7=0{,}56$. Cả hai trượt: $P(\overline A\,\overline B)=0{,}2\cdot0{,}3=0{,}06$.
+
+**Đáp số.** $0{,}56$ và $0{,}06$.
+
+[ĐỀ – EN]
+Suppose two marksmen shoot independently at the same target; the probability of a hit is $0.8$ for the first and $0.7$ for the second (assumed figures). Find the probability that both hit and the probability that both miss.
+
+[LỜI GIẢI CŨ – EN]
+$P(AB)=0.8\cdot0.7=0.56$. Both miss: $P(\overline A\,\overline B)=0.2\cdot0.3=0.06$.
+
+**Answer.** $0.56$ and $0.06$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Gieo một con xúc xắc cân đối hai lần. Gọi $A$: "tổng hai lần bằng $7$" và $B$: "lần thứ hai ra $6$ chấm". Hai biến cố có độc lập không?
+
+[LỜI GIẢI CŨ – VI]
+$P(A)=\dfrac16$, $P(B)=\dfrac16$, $A\cap B=\{(1,6)\}$ nên $P(AB)=\dfrac1{36}=P(A)P(B)$. Vậy hai biến cố độc lập.
+
+**Đáp số.** Có, hai biến cố độc lập.
+
+[ĐỀ – EN]
+Roll a fair die twice. Let $A$ be "the sum of the two rolls is $7$" and $B$ be "the second roll is $6$". Are the two events independent?
+
+[LỜI GIẢI CŨ – EN]
+$P(A)=\dfrac16$, $P(B)=\dfrac16$ and $A\cap B=\{(1,6)\}$, so $P(AB)=\dfrac1{36}=P(A)P(B)$. So the events are independent.
+
+**Answer.** Yes, the events are independent.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử trong một lớp $30$ học sinh có $18$ bạn học cờ vua, $12$ bạn học nhạc và $5$ bạn học cả hai (số liệu giả định). Chọn ngẫu nhiên một học sinh. Tính xác suất bạn đó học ít nhất một trong hai môn và xác suất bạn đó không học môn nào.
+
+[LỜI GIẢI CŨ – VI]
+Số bạn học ít nhất một môn là $18+12-5=25$ nên xác suất là $\dfrac{25}{30}=\dfrac56$. Xác suất không học môn nào là $1-\dfrac56=\dfrac16$.
+
+**Đáp số.** $\dfrac56$ và $\dfrac16$.
+
+[ĐỀ – EN]
+Suppose that in a class of $30$ students, $18$ learn chess, $12$ learn music and $5$ learn both (assumed figures). A student is chosen at random. Find the probability that the student learns at least one of the two, and the probability that the student learns neither.
+
+[LỜI GIẢI CŨ – EN]
+The number who learn at least one is $18+12-5=25$, so the probability is $\dfrac{25}{30}=\dfrac56$. The probability of neither is $1-\dfrac56=\dfrac16$.
+
+**Answer.** $\dfrac56$ and $\dfrac16$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Ôn lại phân số. Rút lần lượt hai lá từ bộ bài tây $52$ lá, mỗi lần rút xong đều trả lá bài về bộ. Tính xác suất cả hai lần đều rút được lá cơ.
+
+[LỜI GIẢI CŨ – VI]
+Mỗi lần xác suất lá cơ là $\dfrac{13}{52}=\dfrac14$. Hai lần độc lập nên xác suất cần tìm là $\dfrac14\cdot\dfrac14=\dfrac1{16}$.
+
+**Đáp số.** $\dfrac1{16}$.
+
+[ĐỀ – EN]
+Revisit fractions. Two cards are drawn one after the other from a standard deck of $52$ cards, each card being returned to the deck after it is drawn. Find the probability that both cards are hearts.
+
+[LỜI GIẢI CŨ – EN]
+Each time the probability of a heart is $\dfrac{13}{52}=\dfrac14$. The draws are independent, so the required probability is $\dfrac14\cdot\dfrac14=\dfrac1{16}$.
+
+**Answer.** $\dfrac1{16}$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Chứng minh rằng nếu $A$ và $B$ độc lập thì $A$ và $\overline B$ cũng độc lập.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $P(A\overline B)=P(A)-P(AB)=P(A)-P(A)P(B)=P(A)\,(1-P(B))=P(A)\,P(\overline B)$. Vậy $A$ và $\overline B$ độc lập.
+
+**Đáp số.** Đã chứng minh.
+
+[ĐỀ – EN]
+Prove that if $A$ and $B$ are independent, then $A$ and $\overline B$ are also independent.
+
+[LỜI GIẢI CŨ – EN]
+We have $P(A\overline B)=P(A)-P(AB)=P(A)-P(A)P(B)=P(A)\,(1-P(B))=P(A)\,P(\overline B)$. So $A$ and $\overline B$ are independent.
+
+**Answer.** Proved.
+
+
+######################################################################
+@@@ g11/volumes
+Bài học: Thể tích / Volumes of solids
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một khối lập phương có cạnh $4$. Tính thể tích. Một khối hộp chữ nhật có ba kích thước $3$, $4$, $12$: tính độ dài đường chéo và thể tích.
+
+[LỜI GIẢI CŨ – VI]
+Khối lập phương: $V=4^3=64$.
+
+Khối hộp chữ nhật: đường chéo $\sqrt{9+16+144}=\sqrt{169}=13$ và $V=3\cdot4\cdot12=144$.
+
+**Đáp số.** $64$; đường chéo $13$ và thể tích $144$.
+
+[ĐỀ – EN]
+A cube has edge $4$. Find its volume. A cuboid has dimensions $3$, $4$, $12$: find the length of its space diagonal and its volume.
+
+[LỜI GIẢI CŨ – EN]
+Cube: $V=4^3=64$.
+
+Cuboid: the diagonal is $\sqrt{9+16+144}=\sqrt{169}=13$ and $V=3\cdot4\cdot12=144$.
+
+**Answer.** $64$; diagonal $13$ and volume $144$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Một khối lăng trụ đứng có đáy là tam giác vuông với hai cạnh góc vuông $3$ và $4$, chiều cao $10$. Tính thể tích.
+
+[LỜI GIẢI CŨ – VI]
+$B=\dfrac12\cdot3\cdot4=6$ và $V=6\cdot10=60$.
+
+**Đáp số.** $60$.
+
+[ĐỀ – EN]
+A right prism has a base that is a right triangle with legs $3$ and $4$, and height $10$. Find its volume.
+
+[LỜI GIẢI CŨ – EN]
+$B=\dfrac12\cdot3\cdot4=6$ and $V=6\cdot10=60$.
+
+**Answer.** $60$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho tứ diện $OABC$ có $OA$, $OB$, $OC$ đôi một vuông góc và bằng $6$. Tính thể tích.
+
+[LỜI GIẢI CŨ – VI]
+$B=\dfrac12\cdot6\cdot6=18$ và $h=OA=6$ nên $V=\dfrac13\cdot18\cdot6=36$.
+
+**Đáp số.** $36$.
+
+[ĐỀ – EN]
+The tetrahedron $OABC$ has $OA$, $OB$, $OC$ mutually perpendicular and equal to $6$. Find its volume.
+
+[LỜI GIẢI CŨ – EN]
+$B=\dfrac12\cdot6\cdot6=18$ and $h=OA=6$, so $V=\dfrac13\cdot18\cdot6=36$.
+
+**Answer.** $36$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Xét tính đúng sai của các mệnh đề sau.
+
+a) Thể tích khối hộp chữ nhật có ba kích thước $a$, $b$, $c$ là $abc$.
+
+b) Thể tích khối chóp có diện tích đáy $B$ và chiều cao $h$ là $Bh$.
+
+c) Nếu cạnh của khối lập phương tăng gấp đôi thì thể tích tăng gấp $8$ lần.
+
+d) Thể tích khối chóp cụt đều là $\dfrac13h(B+B')$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng**.
+
+b) **Sai**: phải có hệ số $\dfrac13$.
+
+c) **Đúng**: $(2a)^3=8a^3$.
+
+d) **Sai**: thiếu số hạng $\sqrt{BB'}$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+[ĐỀ – EN]
+Decide whether each statement is true or false.
+
+a) The volume of a cuboid with dimensions $a$, $b$, $c$ is $abc$.
+
+b) The volume of a pyramid with base area $B$ and height $h$ is $Bh$.
+
+c) If the edge of a cube is doubled, the volume becomes $8$ times as large.
+
+d) The volume of a frustum of a regular pyramid is $\dfrac13h(B+B')$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True**.
+
+b) **False**: the factor $\dfrac13$ is missing.
+
+c) **True**: $(2a)^3=8a^3$.
+
+d) **False**: the term $\sqrt{BB'}$ is missing.
+
+**Answer.** a) True; b) False; c) True; d) False.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giả sử một bể nước có dạng khối hộp chữ nhật với đáy $2$ m $\times1{,}5$ m và cao $1{,}2$ m (số liệu giả định). Bể chứa được bao nhiêu mét khối nước? Một máy bơm đổ đầy bể với tốc độ $0{,}6$ m$^3$ mỗi phút thì cần bao nhiêu phút?
+
+[LỜI GIẢI CŨ – VI]
+$V=2\cdot1{,}5\cdot1{,}2=3{,}6$ m$^3$. Thời gian là $\dfrac{3{,}6}{0{,}6}=6$ phút.
+
+**Đáp số.** $3{,}6$ m$^3$; $6$ phút.
+
+[ĐỀ – EN]
+Suppose a water tank is a cuboid with a base of $2$ m $\times1.5$ m and a height of $1.2$ m (assumed figures). How many cubic metres of water does it hold? A pump fills it at $0.6$ m$^3$ per minute; how many minutes does it take?
+
+[LỜI GIẢI CŨ – EN]
+$V=2\cdot1.5\cdot1.2=3.6$ m$^3$. The time is $\dfrac{3.6}{0.6}=6$ minutes.
+
+**Answer.** $3.6$ m$^3$; $6$ minutes.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử một mái chóp có dạng khối chóp đều $S.ABCD$ với đáy là hình vuông cạnh $6$ m và các cạnh bên bằng $5$ m (số liệu giả định). Tính thể tích khoảng không bên trong mái, làm tròn đến hàng phần mười của mét khối.
+
+[LỜI GIẢI CŨ – VI]
+$OA=3\sqrt2$ nên $SO=\sqrt{25-18}=\sqrt7$. Diện tích đáy $B=36$. Vậy $V=\dfrac13\cdot36\cdot\sqrt7=12\sqrt7\approx31{,}7$ m$^3$.
+
+**Đáp số.** Khoảng $31{,}7$ m$^3$.
+
+[ĐỀ – EN]
+Suppose a roof is shaped like a regular pyramid $S.ABCD$ whose base is a square of side $6$ m and whose lateral edges are $5$ m (assumed figures). Find the volume of the space inside the roof, to the nearest tenth of a cubic metre.
+
+[LỜI GIẢI CŨ – EN]
+$OA=3\sqrt2$, so $SO=\sqrt{25-18}=\sqrt7$. The base area is $B=36$. So $V=\dfrac13\cdot36\cdot\sqrt7=12\sqrt7\approx31.7$ m$^3$.
+
+**Answer.** About $31.7$ m$^3$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho khối chóp cụt đều có hai đáy là hình vuông cạnh $10$ và $4$, chiều cao $6$. Tính thể tích.
+
+[LỜI GIẢI CŨ – VI]
+$B=100$, $B'=16$, $\sqrt{BB'}=40$. $V=\dfrac13\cdot6\cdot(100+40+16)=2\cdot156=312$.
+
+**Đáp số.** $312$.
+
+[ĐỀ – EN]
+A frustum of a regular pyramid has square bases of sides $10$ and $4$ and height $6$. Find its volume.
+
+[LỜI GIẢI CŨ – EN]
+$B=100$, $B'=16$, $\sqrt{BB'}=40$. $V=\dfrac13\cdot6\cdot(100+40+16)=2\cdot156=312$.
+
+**Answer.** $312$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Ôn lại phần trăm. Một khối lập phương có cạnh tăng thêm $10\%$. Thể tích của nó tăng thêm bao nhiêu phần trăm?
+
+[LỜI GIẢI CŨ – VI]
+Tỉ số thể tích là $1{,}1^3=1{,}331$, tức tăng $33{,}1\%$.
+
+**Đáp số.** Tăng $33{,}1\%$.
+
+[ĐỀ – EN]
+Revisit percentages. The edge of a cube is increased by $10\%$. By what percentage does its volume increase?
+
+[LỜI GIẢI CŨ – EN]
+The volume ratio is $1.1^3=1.331$, an increase of $33.1\%$.
+
+**Answer.** It increases by $33.1\%$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Cho khối chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật với $AB=3$, $AD=4$, $SA\perp(ABCD)$ và góc giữa $SC$ với mặt phẳng $(ABCD)$ bằng $45^\circ$. Tính thể tích.
+
+[LỜI GIẢI CŨ – VI]
+$AC=\sqrt{9+16}=5$. Vì $\widehat{SCA}=45^\circ$ nên tam giác $SAC$ vuông cân tại $A$ và $SA=AC=5$. Diện tích đáy $B=3\cdot4=12$. Vậy $V=\dfrac13\cdot12\cdot5=20$.
+
+**Đáp số.** $20$.
+
+[ĐỀ – EN]
+The pyramid $S.ABCD$ has a rectangular base $ABCD$ with $AB=3$, $AD=4$, $SA\perp(ABCD)$, and the angle between $SC$ and the plane $(ABCD)$ is $45^\circ$. Find its volume.
+
+[LỜI GIẢI CŨ – EN]
+$AC=\sqrt{9+16}=5$. Since $\angle SCA=45^\circ$, triangle $SAC$ is right isosceles at $A$ and $SA=AC=5$. The base area is $B=3\cdot4=12$. So $V=\dfrac13\cdot12\cdot5=20$.
+
+**Answer.** $20$.
+
+
+===== HẾT FILE Xedap102-06-LG =====

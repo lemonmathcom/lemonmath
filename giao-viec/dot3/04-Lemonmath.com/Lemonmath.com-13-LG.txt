@@ -1,0 +1,951 @@
+######################################################################
+TÀI KHOẢN: Lemonmath.com   |   FILE: Lemonmath.com-13-LG   |   VIỆC: viết lại lời giải bài tập (chuẩn 2e)
+Chủ dự án: mở MỘT cuộc trò chuyện MỚI, đính kèm file này, gõ: "Làm đúng theo hướng dẫn trong file."
+Bị dừng giữa chừng thì lượt sau gõ "tiếp" trong CÙNG cuộc trò chuyện.
+Kết quả: file Lemonmath.com-13-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec da lam
+######################################################################
+
+NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath.com-13-LG
+Người làm: tài khoản Lemonmath.com. Gói này có 36 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+
+==================================================================
+1. VIỆC CẦN LÀM
+==================================================================
+Các bài học dưới đây đã đăng trên lemonmath.com (website học Toán song ngữ Việt – Anh, chương trình Việt Nam và các kì thi quốc tế). Lời giải bài tập hiện còn vắn tắt: chỉ có chuỗi phép tính, thiếu lời dẫn và thiếu câu kết luận.
+
+Hãy VIẾT LẠI LỜI GIẢI của từng bài tập được liệt kê, trình bày chi tiết, có dẫn giải như sách giáo khoa Toán Việt Nam (bộ Kết nối tri thức) và như một bài làm đạt điểm tối đa, để học sinh chép được cách trình bày vào vở.
+
+TUYỆT ĐỐI KHÔNG:
+- đổi đề bài, số liệu, tên riêng, đơn vị;
+- đổi đáp số hay chữ cái phương án đúng;
+- bỏ sót bài tập nào trong danh sách, hay đổi số thứ tự bài.
+
+Nếu tính lại mà thấy đáp số cũ SAI: vẫn viết lời giải đúng, và thêm ngay dưới dòng Đáp số một dòng riêng bắt đầu bằng
+GHI CHÚ: đáp số cũ … sai vì …
+(chủ dự án sẽ kiểm tra lại). Không tự ý sửa đề.
+
+==================================================================
+2. KHUNG MỘT LỜI GIẢI (bắt buộc, cả VI và EN)
+==================================================================
+Mỗi ý là một đoạn ngắn, giữa các đoạn có MỘT DÒNG TRỐNG.
+
+(1) Đặt vấn đề – nêu điều kiện, gọi ẩn, gọi tên biến cố/đối tượng, hoặc nhắc công thức sẽ dùng:
+    "Điều kiện xác định: x > 2."   "Gọi x (m) là … (x > 0)."   "Gọi A là biến cố "…"."
+    "Áp dụng công thức …"   "Xét tam giác ABC vuông tại A, ta có …"
+(2) Các bước – mỗi bước một dòng, có LỜI DẪN và LÍ DO:
+    "Ta có …", "Theo …, ta có …", "Thay … vào …, ta được …", "Suy ra …", "Do đó …", "Vì … nên …",
+    "(thoả mãn điều kiện)", "(chia hai vế cho −3 < 0 nên đổi chiều)".
+    Phép tính dài viết ở dòng riêng $$ … $$, mỗi lần biến đổi một dòng (được dùng \begin{aligned} … \end{aligned}).
+(3) Bài nhiều ý: mỗi ý a), b), c) bắt đầu một ĐOẠN MỚI và có kết quả riêng của ý đó.
+(4) Kết luận: một câu đầy đủ bắt đầu bằng "Vậy …" (EN: "So …"), trả lời đúng câu hỏi, có đơn vị.
+(5) Dòng cuối cùng: **Đáp số.** …   (EN: **Answer.** …) – giữ đúng đáp số cũ.
+
+Theo từng loại câu hỏi:
+- TRẮC NGHIỆM 4 phương án: giải đầy đủ như bài tự luận, rồi viết "Vậy chọn **B**." (EN: "So the answer is **B**.").
+  Nếu lời giải cũ có nhận xét về các phương án sai, GIỮ LẠI thành một đoạn riêng: "*Nhận xét.* Phương án A …" (EN: "*Remark.* Option A …").
+  Dòng cuối: **Đáp số.** B.   (EN: **Answer.** B.)
+- ĐÚNG/SAI (các mệnh đề a, b, c, d): mỗi mệnh đề một đoạn, mở đầu bằng **Đúng.** hoặc **Sai.** rồi lí do đầy đủ
+  (EN: **True.** / **False.**). Kết luận: "Vậy các mệnh đề a), c) đúng; mệnh đề b), d) sai."
+  Dòng cuối: **Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
+- TRẢ LỜI NGẮN / TỰ ĐIỀN SỐ: giải đầy đủ, kết luận bằng câu "Vậy …", dòng cuối ghi đúng số như đáp số cũ (cùng cách làm tròn).
+- BÀI THỰC TẾ: phải gọi ẩn kèm đơn vị và điều kiện, đối chiếu điều kiện, có thể "Kiểm tra: …", kết luận bằng lời có đơn vị.
+- MẸO THI (gói Ôn thi SAT/ACT/AP/IB): nếu lời giải cũ có mẹo (dùng Desmos, đoán nhanh, loại trừ…), giữ lại thành đoạn
+  "*Mẹo thi.* …" (EN: "*Exam tip.* …") đặt SAU câu kết luận, TRƯỚC dòng Đáp số.
+
+Không viết "dễ thấy", "hiển nhiên". Không bỏ bước đối chiếu điều kiện (mẫu khác 0, biểu thức dưới căn ≥ 0, cơ số lôgarit…).
+Độ dài: bài cơ bản 4–6 đoạn ngắn; bài vận dụng 6–10 đoạn; bài khó dài hơn nếu cần. Không viết lan man, không kể chuyện.
+
+==================================================================
+3. QUY ƯỚC VIẾT (rất quan trọng – website tự kiểm tra)
+==================================================================
+- Công thức viết bằng LaTeX trong $ … $ (cùng dòng) và $$ … $$ (riêng dòng). KHÔNG dùng \( \) hay \[ \].
+- KHÔNG dùng kí hiệu $ cho tiền: viết "đô la" (VI) / "dollars" (EN); tiền Việt: "nghìn đồng" (VI) / "thousand đồng" (EN).
+- Bản VI: số thập phân dùng dấu phẩy viết là 2{,}5 ; toạ độ và khoảng dùng dấu chấm phẩy: (1; 2), [0; 3], A(1; -2; 3) ; tổ hợp C_n^k, chỉnh hợp A_n^k.
+- Bản EN: số thập phân 2.5 ; toạ độ (1, 2), A(1, -2, 3) ; chính tả Anh (metres, factorise, centre).
+- Bản EN phải dùng ĐÚNG thuật ngữ và kí hiệu đang có trong [ĐỀ – EN] và [LỜI GIẢI CŨ – EN] của chính bài đó
+  (ví dụ: nếu bài dùng \binom{6}{2} thì giữ \binom; nếu bài gọi là "drone", "wire", "Bayes' theorem", "law of total probability", "curved surface area" thì dùng đúng từ đó).
+  Tên riêng giữ nguyên dấu như trong đề (Hà, Hùng, Bình…).
+- Phân số dùng \dfrac trong câu văn; trong $$ … $$ dùng \frac.
+- Được dùng bảng Markdown (| … | … |) và gạch đầu dòng "- ". KHÔNG dùng tiêu đề Markdown (#, ##, ###) trong lời giải.
+- Chữ đậm chỉ dùng cho: **Đúng.** **Sai.** **A** (chữ cái phương án) và dòng **Đáp số.** / **Answer.**
+- Bản VI và bản EN phải cùng các bước, cùng số liệu, cùng kết quả – bản EN là bản dịch sát, tự nhiên của bản VI.
+
+==================================================================
+4. VÍ DỤ CHUẨN (đã đăng trên website)
+==================================================================
+--- Ví dụ A: câu trả lời ngắn ---
+Đề: Bất phương trình $\log_{\frac12}(x-2)\ge-2$ có bao nhiêu nghiệm nguyên?
+Lời giải cũ: $\log_{\frac12}(x-2)\ge\log_{\frac12}4\iff0<x-2\le4\iff2<x\le6$. Các số nguyên là $3$, $4$, $5$, $6$. **Đáp số.** $4$.
+
+Lời giải mới (VI):
+Điều kiện xác định: $x-2>0$, tức là $x>2$.
+
+Ta có $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. Bất phương trình trở thành
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Vì cơ số $\dfrac12\in(0; 1)$ nên hàm số $y=\log_{\frac12}t$ nghịch biến; do đó bất phương trình tương đương với
+$$x-2\le4,\ \text{tức là}\ x\le6.$$
+
+Kết hợp với điều kiện $x>2$, ta được $2<x\le6$. Các nghiệm nguyên là $3$, $4$, $5$, $6$.
+
+Vậy bất phương trình có $4$ nghiệm nguyên.
+
+**Đáp số.** $4$.
+
+Lời giải mới (EN):
+Condition: $x-2>0$, that is $x>2$.
+
+We have $-2=\log_{\frac12}\left(\dfrac12\right)^{-2}=\log_{\frac12}4$. The inequality becomes
+$$\log_{\frac12}(x-2)\ge\log_{\frac12}4.$$
+
+Since the base $\dfrac12$ lies in $(0, 1)$, the function $y=\log_{\frac12}t$ is decreasing; hence the inequality is equivalent to
+$$x-2\le4,\ \text{that is}\ x\le6.$$
+
+Combining with the condition $x>2$, we get $2<x\le6$. The integer solutions are $3$, $4$, $5$, $6$.
+
+So the inequality has $4$ integer solutions.
+
+**Answer.** $4$.
+
+--- Ví dụ B: trắc nghiệm ---
+Đề: Cho $\sin x=\dfrac13$. Giá trị của $\cos2x$ là  A. $\dfrac79$  B. $\dfrac13$  C. $-\dfrac79$  D. $\dfrac89$
+Lời giải mới (VI):
+Áp dụng công thức nhân đôi $\cos2x=1-2\sin^2x$, ta có
+$$\cos2x=1-2\cdot\left(\frac13\right)^2=1-\frac29=\frac79.$$
+
+Vậy chọn **A**.
+
+*Nhận xét.* Phương án B quên bình phương $\sin x$; phương án C dùng nhầm công thức $2\sin^2x-1$; phương án D là giá trị của $\cos^2x$.
+
+**Đáp số.** A.
+
+(EN tương ứng: "Using the double-angle formula …", "So the answer is **A**.", "*Remark.* Option B forgets …", "**Answer.** A.")
+
+--- Ví dụ C: đúng/sai ---
+Đề: Cho cấp số nhân $(u_n)$ có $u_1=3$, $q=2$. a) $u_5=48$. b) $S_5=93$. c) $u_n=3\cdot2^n$. d) $384$ là số hạng thứ $7$.
+Lời giải mới (VI):
+Số hạng tổng quát của cấp số nhân là $u_n=u_1q^{n-1}=3\cdot2^{n-1}$.
+
+a) **Đúng.** Ta có $u_5=3\cdot2^{5-1}=3\cdot16=48$.
+
+b) **Đúng.** Tổng $n$ số hạng đầu là $S_n=\dfrac{u_1\left(1-q^n\right)}{1-q}$, nên
+$$S_5=\frac{3\left(1-2^5\right)}{1-2}=93.$$
+
+c) **Sai.** Theo trên, $u_n=3\cdot2^{n-1}$. Công thức $u_n=3\cdot2^n$ cho $u_1=6\neq3$.
+
+d) **Sai.** Ta có $3\cdot2^{n-1}=384\iff2^{n-1}=128=2^7\iff n=8$. Vậy $384$ là số hạng thứ $8$.
+
+Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
+
+**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
+==================================================================
+5. CÁCH LÀM VIỆC (để không bị cắt ngang vì câu trả lời quá dài)
+==================================================================
+- Làm LẦN LƯỢT TỪNG BÀI HỌC (mỗi khối bắt đầu bằng dòng @@@). Mỗi lượt trả lời chỉ làm MỘT bài học.
+- Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
+- Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
+      /mnt/user-data/outputs/Lemonmath.com-13-LG-ketqua.md
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+- Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
+- Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath.com-13-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
+
+==================================================================
+6. ĐỊNH DẠNG FILE KẾT QUẢ (máy sẽ tự ghép – phải đúng từng kí tự)
+==================================================================
+Với mỗi bài học: một dòng @@@ chép y nguyên mã bài, rồi lần lượt từng bài tập, mỗi bài tập hai phần ### n VI và ### n EN:
+
+@@@ g12/plane-equation
+### 2 VI
+(lời giải mới của Bài 2, tiếng Việt, dòng cuối **Đáp số.** …)
+### 2 EN
+(lời giải mới của Bài 2, tiếng Anh, dòng cuối **Answer.** …)
+### 5 VI
+…
+### 5 EN
+…
+
+Quy tắc:
+- Số sau ### là số thứ tự bài tập ghi ở dòng "Cần viết lại lời giải các bài: …" và ở dòng "=== Bài n ===". Chỉ làm đúng các bài đó.
+- Chỉ ghi LỜI GIẢI, không chép lại đề, không ghi chữ "Lời giải", không bọc trong ``` .
+- Không có dòng nào khác bắt đầu bằng @@@ hoặc ### ngoài các dòng tiêu đề nói trên.
+- TUỲ CHỌN – tách ý của đề: chỉ khi [ĐỀ] viết nhiều ý dính liền trên một dòng, ví dụ "Tính (a) …; (b) …", thì được viết lại ĐỀ với mỗi ý một dòng "a) …", "b) …" bằng hai phần thêm:
+      ### 3 VI ĐỀ
+      (đề Bài 3 viết lại, tiếng Việt)
+      ### 3 EN ĐỀ
+      (đề Bài 3 viết lại, tiếng Anh)
+  Đề viết lại phải giữ nguyên từng chữ, từng số; chỉ được xuống dòng các ý và thêm dấu ":" cuối câu dẫn. Không cần thì bỏ qua.
+
+==================================================================
+7. TỰ KIỂM TRA TRƯỚC KHI NỘP (làm bằng Python trên file kết quả)
+==================================================================
+[ ] Mỗi bài học trong danh sách có đúng một dòng @@@, đủ mọi số bài tập được yêu cầu, mỗi số có cả VI và EN.
+[ ] Mỗi lời giải VI kết thúc bằng dòng **Đáp số.** …, mỗi lời giải EN kết thúc bằng **Answer.** …
+[ ] Đáp số / chữ cái phương án trùng với lời giải cũ (trừ chỗ có GHI CHÚ).
+[ ] Mỗi lời giải VI có câu bắt đầu bằng "Vậy"; mỗi lời giải EN có câu bắt đầu bằng "So".
+[ ] Số dấu $ trong mỗi lời giải là số chẵn; không có \( \[ ; không có kí hiệu $ dùng cho tiền.
+[ ] Bản VI dùng {,} cho số thập phân; bản EN dùng dấu chấm.
+[ ] Mọi phép tính đã được Python tính lại và khớp.
+
+
+===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
+- g4/divide-by-2-digit (10 bài tập)
+- g4/event-frequency (8 bài tập)
+- g4/expressions-with-letters (10 bài tập)
+- g4/finding-the-mean (8 bài tập)
+
+===== NỘI DUNG CẦN LÀM =====
+
+######################################################################
+@@@ g4/divide-by-2-digit
+Bài học: Chia cho số có hai chữ số / Dividing by a two-digit number
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $884:13$.
+
+[LỜI GIẢI CŨ – VI]
+- $88:13=6$, vì $13\times6=78$; $88-78=10$.
+- Hạ $4$, được $104$. $104:13=8$, vì $13\times8=104$; dư $0$.
+
+**Thử lại.** $13\times68=884$. Đúng.
+
+**Đáp số.** $884:13=68$.
+
+[ĐỀ – EN]
+Set out and work out: $884\div13$.
+
+[LỜI GIẢI CŨ – EN]
+- $88\div13=6$, because $13\times6=78$; $88-78=10$.
+- Bring down $4$ to make $104$. $104\div13=8$, because $13\times8=104$; remainder $0$.
+
+**Check.** $13\times68=884$. Correct.
+
+**Answer.** $884\div13=68$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $1\,728:24$.
+
+[LỜI GIẢI CŨ – VI]
+- $172:24=7$, vì $24\times7=168$; $172-168=4$.
+- Hạ $8$, được $48$. $48:24=2$; dư $0$.
+
+**Thử lại.** $24\times72=1\,728$. Đúng.
+
+**Đáp số.** $1\,728:24=72$.
+
+[ĐỀ – EN]
+Set out and work out: $1\,728\div24$.
+
+[LỜI GIẢI CŨ – EN]
+- $172\div24=7$, because $24\times7=168$; $172-168=4$.
+- Bring down $8$ to make $48$. $48\div24=2$; remainder $0$.
+
+**Check.** $24\times72=1\,728$. Correct.
+
+**Answer.** $1\,728\div24=72$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $3\,570:42$.
+
+[LỜI GIẢI CŨ – VI]
+- $357:42=8$, vì $42\times8=336$; $357-336=21$.
+- Hạ $0$, được $210$. $210:42=5$, vì $42\times5=210$; dư $0$.
+
+**Thử lại.** $42\times85=3\,570$. Đúng.
+
+**Đáp số.** $3\,570:42=85$.
+
+[ĐỀ – EN]
+Set out and work out: $3\,570\div42$.
+
+[LỜI GIẢI CŨ – EN]
+- $357\div42=8$, because $42\times8=336$; $357-336=21$.
+- Bring down $0$ to make $210$. $210\div42=5$, because $42\times5=210$; remainder $0$.
+
+**Check.** $42\times85=3\,570$. Correct.
+
+**Answer.** $3\,570\div42=85$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $2\,345:52$.
+
+[LỜI GIẢI CŨ – VI]
+- $234:52=4$, vì $52\times4=208$; $234-208=26$.
+- Hạ $5$, được $265$. $265:52=5$, vì $52\times5=260$; dư $5$.
+
+**Thử lại.** $45\times52+5=2\,340+5=2\,345$. Đúng.
+
+**Đáp số.** $2\,345:52=45$ (dư $5$).
+
+[ĐỀ – EN]
+Set out and work out: $2\,345\div52$.
+
+[LỜI GIẢI CŨ – EN]
+- $234\div52=4$, because $52\times4=208$; $234-208=26$.
+- Bring down $5$ to make $265$. $265\div52=5$, because $52\times5=260$; remainder $5$.
+
+**Check.** $45\times52+5=2\,340+5=2\,345$. Correct.
+
+**Answer.** $2\,345\div52=45$ (remainder $5$).
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một cửa hàng có $1\,080$ cái bút, xếp vào các hộp, mỗi hộp $12$ cái. Hỏi xếp được bao nhiêu hộp?
+
+[LỜI GIẢI CŨ – VI]
+Số hộp xếp được là:
+$$1\,080:12=90\ \text{(hộp)}.$$
+
+**Thử lại.** $90\times12=1\,080$. Đúng.
+
+**Đáp số.** $90$ hộp.
+
+[ĐỀ – EN]
+A shop has $1\,080$ pens to pack into boxes, each box holding $12$ pens. How many boxes can be filled?
+
+[LỜI GIẢI CŨ – EN]
+The number of boxes filled is:
+$$1\,080\div12=90\ \text{(boxes)}.$$
+
+**Check.** $90\times12=1\,080$. Correct.
+
+**Answer.** $90$ boxes.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử một đoàn khách có $250$ người thuê xe, mỗi xe chở được nhiều nhất $45$ người. Hỏi cần thuê ít nhất bao nhiêu xe để chở hết đoàn?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $250:45=5$ (dư $25$), vì $45\times5=225$ và $250-225=25$.
+
+$5$ xe chở được $225$ người, còn $25$ người nữa cần thêm $1$ xe. Số xe cần thuê là $5+1=6$ (xe).
+
+**Đáp số.** Ít nhất $6$ xe.
+
+[ĐỀ – EN]
+Suppose a group of $250$ visitors hires coaches, each coach carrying at most $45$ people. What is the smallest number of coaches needed to carry the whole group?
+
+[LỜI GIẢI CŨ – EN]
+We have $250\div45=5$ (remainder $25$), because $45\times5=225$ and $250-225=25$.
+
+$5$ coaches carry $225$ people, and the other $25$ people need $1$ more coach. The number of coaches to hire is $5+1=6$ (coaches).
+
+**Answer.** At least $6$ coaches.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài nhân với số có hai chữ số. Một phép chia có số chia là $25$, thương là $48$ và số dư là $13$. Tìm số bị chia.
+
+[LỜI GIẢI CŨ – VI]
+Số bị chia là $48\times25+13=1\,200+13=1\,213$.
+
+**Thử lại.** $1\,213:25=48$ (dư $13$). Đúng.
+
+**Đáp số.** $1\,213$.
+
+[ĐỀ – EN]
+Remember the lesson on multiplying by a two-digit number. A division has divisor $25$, quotient $48$ and remainder $13$. Find the dividend.
+
+[LỜI GIẢI CŨ – EN]
+The dividend is $48\times25+13=1\,200+13=1\,213$.
+
+**Check.** $1\,213\div25=48$ (remainder $13$). Correct.
+
+**Answer.** $1\,213$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $7\,805:41$.
+
+[LỜI GIẢI CŨ – VI]
+- $78:41=1$; $78-41=37$.
+- Hạ $0$, được $370$. $370:41=9$, vì $41\times9=369$; dư $1$.
+- Hạ $5$, được $15$. $15:41=0$; dư $15$.
+
+**Thử lại.** $190\times41+15=7\,790+15=7\,805$. Đúng.
+
+**Đáp số.** $7\,805:41=190$ (dư $15$).
+
+[ĐỀ – EN]
+Set out and work out: $7\,805\div41$.
+
+[LỜI GIẢI CŨ – EN]
+- $78\div41=1$; $78-41=37$.
+- Bring down $0$ to make $370$. $370\div41=9$, because $41\times9=369$; remainder $1$.
+- Bring down $5$ to make $15$. $15\div41=0$; remainder $15$.
+
+**Check.** $190\times41+15=7\,790+15=7\,805$. Correct.
+
+**Answer.** $7\,805\div41=190$ (remainder $15$).
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Giả sử mẹ trả $1\,260\,000$ đồng để mua $18$ chiếc ghế giống nhau. Hỏi giá của mỗi chiếc ghế là bao nhiêu tiền?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $1\,260:18=70$.
+
+Giá mỗi chiếc ghế là $70\times1\,000=70\,000$ (đồng).
+
+**Thử lại.** $70\,000\times18=1\,260\,000$. Đúng.
+
+**Đáp số.** $70\,000$ đồng.
+
+[ĐỀ – EN]
+Suppose Mum pays $1\,260\,000$ dong for $18$ identical chairs. How much does each chair cost?
+
+[LỜI GIẢI CŨ – EN]
+We have $1\,260\div18=70$.
+
+The price of each chair is $70\times1\,000=70\,000$ (dong).
+
+**Check.** $70\,000\times18=1\,260\,000$. Correct.
+
+**Answer.** $70\,000$ dong.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tìm số tự nhiên nhỏ nhất có ba chữ số mà khi chia cho $24$ thì dư $23$.
+
+[LỜI GIẢI CŨ – VI]
+Các số chia cho $24$ dư $23$ có dạng $24\times k+23$:
+- $k=3$: $24\times3+23=95$ (hai chữ số).
+- $k=4$: $24\times4+23=119$ (ba chữ số).
+
+**Thử lại.** $119:24=4$ (dư $23$). Đúng.
+
+**Đáp số.** $119$.
+
+[ĐỀ – EN]
+Find the smallest three-digit natural number that leaves remainder $23$ when divided by $24$.
+
+[LỜI GIẢI CŨ – EN]
+The numbers that leave remainder $23$ when divided by $24$ have the form $24\times k+23$:
+- $k=3$: $24\times3+23=95$ (two digits).
+- $k=4$: $24\times4+23=119$ (three digits).
+
+**Check.** $119\div24=4$ (remainder $23$). Correct.
+
+**Answer.** $119$.
+
+
+######################################################################
+@@@ g4/event-frequency
+Bài học: Số lần xuất hiện của một sự kiện / How many times an event happens
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tung đồng xu $8$ lần được: N, N, S, N, S, S, N, N. Mỗi mặt xuất hiện mấy lần?
+
+[LỜI GIẢI CŨ – VI]
+N xuất hiện $5$ lần, S xuất hiện $3$ lần. Kiểm tra $5+3=8$.
+
+**Đáp số.** Ngửa $5$ lần, sấp $3$ lần.
+
+[ĐỀ – EN]
+A coin is tossed $8$ times: H, H, T, H, T, T, H, H. How many times does each side come up?
+
+[LỜI GIẢI CŨ – EN]
+H came up $5$ times and T came up $3$ times. Check $5+3=8$.
+
+**Answer.** Heads $5$ times, tails $3$ times.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Rút một thẻ từ ba loại thẻ A, B, C rồi trả lại, làm $10$ lần: A, B, A, C, A, B, A, A, C, B. Mỗi loại thẻ được rút mấy lần?
+
+[LỜI GIẢI CŨ – VI]
+A: $5$ lần, B: $3$ lần, C: $2$ lần. Kiểm tra: $5+3+2=10$.
+
+**Đáp số.** A $5$ lần, B $3$ lần, C $2$ lần.
+
+[ĐỀ – EN]
+A card is picked from three kinds of card A, B and C and put back, $10$ times: A, B, A, C, A, B, A, A, C, B. How many times was each kind picked?
+
+[LỜI GIẢI CŨ – EN]
+A: $5$ times, B: $3$ times, C: $2$ times. Check: $5+3+2=10$.
+
+**Answer.** A $5$ times, B $3$ times, C $2$ times.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài biểu đồ cột: biểu đồ cho số lần xuất hiện của ba mặt xúc xắc, cột mặt $1$ cao $3$, cột mặt $2$ cao $5$, cột mặt $3$ cao $4$. Tổng số lần gieo là bao nhiêu? Mặt nào xuất hiện nhiều nhất?
+
+[LỜI GIẢI CŨ – VI]
+$3+5+4=12$ (lần). Cột cao nhất là cột mặt $2$ ($5$ lần).
+
+**Đáp số.** $12$ lần; mặt $2$.
+
+[ĐỀ – EN]
+Remember the lesson on bar charts: a chart shows how many times three faces of a dice came up. The bar for face $1$ is $3$ tall, face $2$ is $5$ tall and face $3$ is $4$ tall. How many rolls were there in all? Which face came up most often?
+
+[LỜI GIẢI CŨ – EN]
+$3+5+4=12$ (rolls). The tallest bar is face $2$ ($5$ times).
+
+**Answer.** $12$ rolls; face $2$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tung đồng xu $20$ lần, mặt ngửa xuất hiện $11$ lần. Mặt sấp xuất hiện mấy lần?
+
+[LỜI GIẢI CŨ – VI]
+$20-11=9$ (lần). Kiểm tra: $11+9=20$.
+
+**Đáp số.** $9$ lần.
+
+[ĐỀ – EN]
+A coin is tossed $20$ times and heads comes up $11$ times. How many times does tails come up?
+
+[LỜI GIẢI CŨ – EN]
+$20-11=9$ (times). Check: $11+9=20$.
+
+**Answer.** $9$ times.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Vì sao tổng số lần xuất hiện của hai mặt đồng xu luôn bằng số lần tung? Kiểm tra với trường hợp ngửa $6$ lần, sấp $4$ lần.
+
+[LỜI GIẢI CŨ – VI]
+Mỗi lần tung chỉ cho một mặt, nên mỗi lần được đếm đúng một lần, và đếm hết thì được đúng số lần tung. Với $6+4=10$, đúng bằng $10$ lần tung.
+
+**Đáp số.** Vì mỗi lần tung có đúng một kết quả; $6+4=10$.
+
+[ĐỀ – EN]
+Why do the times for the two sides of a coin always add up to the number of tosses? Check with heads $6$ times and tails $4$ times.
+
+[LỜI GIẢI CŨ – EN]
+Each toss gives only one side, so each toss is counted exactly once, and when all are counted we get exactly the number of tosses. With $6+4=10$, this equals the $10$ tosses.
+
+**Answer.** Because each toss has exactly one result; $6+4=10$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lan đếm dãy Đ, X, Đ, Đ, X và nói: "Đ xuất hiện $4$ lần, X xuất hiện $2$ lần." Lan sai ở đâu? Hãy đếm lại.
+
+[LỜI GIẢI CŨ – VI]
+Dãy có $5$ lần thử mà Lan tính $4+2=6$, nên đếm trùng. Đếm đúng: Đ có $3$ lần, X có $2$ lần ($3+2=5$).
+
+**Đáp số.** Đ $3$ lần, X $2$ lần.
+
+[ĐỀ – EN]
+Lan counted the list R, B, R, R, B and said: "R came up $4$ times and B came up $2$ times." Where did Lan go wrong? Count again.
+
+[LỜI GIẢI CŨ – EN]
+There are $5$ trials but Lan's counts add up to $4+2=6$, so one was counted twice. The correct counts: R came up $3$ times and B came up $2$ times ($3+2=5$).
+
+**Answer.** R $3$ times, B $2$ times.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Trong $30$ phút trước cổng trường, bảng kiểm đếm số xe đi qua là: xe đạp $12$, xe máy $9$, ô tô $5$, còn lại là người đi bộ. 
+a) Có bao nhiêu người đi bộ?
+b) Xe máy và ô tô đi qua tất cả bao nhiêu chiếc?
+c) Xe đạp nhiều hơn ô tô bao nhiêu chiếc?
+
+[LỜI GIẢI CŨ – VI]
+a) Xe đạp, xe máy, ô tô: $12+9+5=26$. Người đi bộ: $30-26=4$. b) $9+5=14$ (chiếc). c) $12-5=7$ (chiếc).
+
+**Đáp số.** a) $4$ người; b) $14$ chiếc; c) $7$ chiếc.
+
+[ĐỀ – EN]
+During $30$ minutes outside the school gate, the tally chart of passers-by shows: bicycles $12$, motorbikes $9$, cars $5$, and the rest were people on foot.
+a) How many people were on foot?
+b) How many motorbikes and cars went past altogether?
+c) How many more bicycles than cars were there?
+
+[LỜI GIẢI CŨ – EN]
+a) Bicycles, motorbikes and cars: $12+9+5=26$. On foot: $30-26=4$. b) $9+5=14$. c) $12-5=7$.
+
+**Answer.** a) $4$ people; b) $14$; c) $7$ more.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Gieo một con xúc xắc $20$ lần, các mặt chẵn xuất hiện tất cả $12$ lần. Biết mặt $2$ xuất hiện $5$ lần, mặt $6$ xuất hiện $3$ lần. Hỏi mặt $4$ xuất hiện mấy lần? Các mặt lẻ xuất hiện tất cả mấy lần?
+
+[LỜI GIẢI CŨ – VI]
+Mặt $4$: $12-5-3=4$ (lần). Mặt lẻ: $20-12=8$ (lần).
+
+**Kiểm tra.** $5+4+3=12$ và $12+8=20$. Đúng.
+
+**Đáp số.** Mặt $4$ xuất hiện $4$ lần; mặt lẻ $8$ lần.
+
+[ĐỀ – EN]
+A dice is rolled $20$ times and the even faces come up $12$ times altogether. Face $2$ came up $5$ times and face $6$ came up $3$ times. How many times did face $4$ come up? How many times did the odd faces come up altogether?
+
+[LỜI GIẢI CŨ – EN]
+Face $4$: $12-5-3=4$ (times). Odd faces: $20-12=8$ (times).
+
+**Check.** $5+4+3=12$ and $12+8=20$. Correct.
+
+**Answer.** Face $4$ came up $4$ times; the odd faces $8$ times.
+
+
+######################################################################
+@@@ g4/expressions-with-letters
+Bài học: Biểu thức chứa chữ / Expressions with letters
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tính giá trị của biểu thức $m\times6$ khi $m=9$.
+
+[LỜI GIẢI CŨ – VI]
+Khi $m=9$ thì $m\times6=9\times6=54$.
+
+**Đáp số.** $54$.
+
+[ĐỀ – EN]
+Find the value of the expression $m\times6$ when $m=9$.
+
+[LỜI GIẢI CŨ – EN]
+When $m=9$, $m\times6=9\times6=54$.
+
+**Answer.** $54$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính giá trị của biểu thức $125-x$ khi $x=48$.
+
+[LỜI GIẢI CŨ – VI]
+Khi $x=48$ thì $125-x=125-48=77$.
+
+**Đáp số.** $77$.
+
+[ĐỀ – EN]
+Find the value of the expression $125-x$ when $x=48$.
+
+[LỜI GIẢI CŨ – EN]
+When $x=48$, $125-x=125-48=77$.
+
+**Answer.** $77$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính giá trị của biểu thức $a\times4+b$ khi $a=15$ và $b=30$.
+
+[LỜI GIẢI CŨ – VI]
+Khi $a=15$ và $b=30$ thì $a\times4+b=15\times4+30=60+30=90$.
+
+**Đáp số.** $90$.
+
+[ĐỀ – EN]
+Find the value of the expression $a\times4+b$ when $a=15$ and $b=30$.
+
+[LỜI GIẢI CŨ – EN]
+When $a=15$ and $b=30$, $a\times4+b=15\times4+30=60+30=90$.
+
+**Answer.** $90$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính giá trị của biểu thức $(a+b)\times c$ khi $a=12$, $b=8$ và $c=5$.
+
+[LỜI GIẢI CŨ – VI]
+Khi $a=12$, $b=8$, $c=5$ thì $(a+b)\times c=(12+8)\times5=20\times5=100$.
+
+**Đáp số.** $100$.
+
+[ĐỀ – EN]
+Find the value of the expression $(a+b)\times c$ when $a=12$, $b=8$ and $c=5$.
+
+[LỜI GIẢI CŨ – EN]
+When $a=12$, $b=8$, $c=5$, $(a+b)\times c=(12+8)\times5=20\times5=100$.
+
+**Answer.** $100$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một mảnh vườn (số liệu giả định) hình vuông có cạnh $25$ m. Tính chu vi mảnh vườn.
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Chu vi mảnh vườn là:
+$$25\times4=100\ \text{(m)}.$$
+
+**Đáp số.** $100$ m.
+
+[ĐỀ – EN]
+A garden (made-up numbers) is a square with side $25$ m. Find the perimeter of the garden.
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The perimeter of the garden is:
+$$25\times4=100\ \text{(m)}.$$
+
+**Answer.** $100$ m.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một tấm bìa hình chữ nhật có chiều dài $38$ cm và chiều rộng $22$ cm. Tính chu vi tấm bìa.
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Chu vi tấm bìa là:
+$$(38+22)\times2=60\times2=120\ \text{(cm)}.$$
+
+**Đáp số.** $120$ cm.
+
+[ĐỀ – EN]
+A piece of card is a rectangle with length $38$ cm and width $22$ cm. Find the perimeter of the card.
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The perimeter of the card is:
+$$(38+22)\times2=60\times2=120\ \text{(cm)}.$$
+
+**Answer.** $120$ cm.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Mai mua $m$ quyển vở, mỗi quyển giá $6\,500$ đồng, và một chiếc thước giá $3\,000$ đồng. Hãy viết biểu thức số tiền Mai phải trả, rồi tính khi $m=5$.
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số tiền Mai phải trả là $6\,500\times m+3\,000$ (đồng). Khi $m=5$, số tiền là:
+$$6\,500\times5+3\,000=32\,500+3\,000=35\,500\ \text{(đồng)}.$$
+
+**Đáp số.** $35\,500$ đồng.
+
+[ĐỀ – EN]
+Mai buys $m$ exercise books at $6\,500$ dong each and a ruler for $3\,000$ dong. Write an expression for the money Mai pays, then work it out when $m=5$.
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The money Mai pays is $6\,500\times m+3\,000$ (dong). When $m=5$, the money is:
+$$6\,500\times5+3\,000=32\,500+3\,000=35\,500\ \text{(dong)}.$$
+
+**Answer.** $35\,500$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài chia số có năm chữ số cho số có một chữ số. Tính giá trị của biểu thức $90\,000:n$ khi $n=8$.
+
+[LỜI GIẢI CŨ – VI]
+Khi $n=8$ thì $90\,000:n=90\,000:8=11\,250$.
+
+**Thử lại.** $11\,250\times8=90\,000$. Đúng.
+
+**Đáp số.** $11\,250$.
+
+[ĐỀ – EN]
+Remember the lesson on dividing a five-digit number by a one-digit number. Find the value of the expression $90\,000\div n$ when $n=8$.
+
+[LỜI GIẢI CŨ – EN]
+When $n=8$, $90\,000\div n=90\,000\div8=11\,250$.
+
+**Check.** $11\,250\times8=90\,000$. Correct.
+
+**Answer.** $11\,250$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Nam tính giá trị của biểu thức $3\times a+b$ khi $a=10$ và $b=5$ được $3\times(10+5)=45$. Em hãy kiểm tra kết quả của Nam. Nếu sai, em hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+Biểu thức $3\times a+b$ không có ngoặc, nên phải nhân trước rồi cộng sau. Nam đã cộng $10+5$ trước nên sai.
+
+Tính lại: $3\times10+5=30+5=35$.
+
+**Đáp số.** Nam sai; kết quả đúng là $35$.
+
+[ĐỀ – EN]
+Nam finds the value of the expression $3\times a+b$ when $a=10$ and $b=5$ and gets $3\times(10+5)=45$. Check Nam's answer. If it is wrong, correct it.
+
+[LỜI GIẢI CŨ – EN]
+The expression $3\times a+b$ has no brackets, so we must multiply first and then add. Nam added $10+5$ first, so he is wrong.
+
+Working it out again: $3\times10+5=30+5=35$.
+
+**Answer.** Nam is wrong; the correct answer is $35$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một hình chữ nhật có chu vi $56$ cm và chiều dài $18$ cm. Tính chiều rộng của hình chữ nhật.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $(a+b)\times2=56$, nên $a+b=56:2=28$ (cm). Chiều rộng là $b=28-18=10$ (cm).
+
+**Thử lại.** $(18+10)\times2=28\times2=56$. Đúng.
+
+**Đáp số.** $10$ cm.
+
+[ĐỀ – EN]
+A rectangle has perimeter $56$ cm and length $18$ cm. Find the width of the rectangle.
+
+[LỜI GIẢI CŨ – EN]
+We have $(a+b)\times2=56$, so $a+b=56\div2=28$ (cm). The width is $b=28-18=10$ (cm).
+
+**Check.** $(18+10)\times2=28\times2=56$. Correct.
+
+**Answer.** $10$ cm.
+
+
+######################################################################
+@@@ g4/finding-the-mean
+Bài học: Tìm số trung bình cộng / Finding the mean (average)
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tìm số trung bình cộng của $5$, $7$ và $9$.
+
+[LỜI GIẢI CŨ – VI]
+$(5+7+9):3=21:3=7$.
+
+**Đáp số.** $7$.
+
+[ĐỀ – EN]
+Find the mean of $5$, $7$ and $9$.
+
+[LỜI GIẢI CŨ – EN]
+$(5+7+9)\div3=21\div3=7$.
+
+**Answer.** $7$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm số trung bình cộng của $10$, $20$, $30$ và $40$.
+
+[LỜI GIẢI CŨ – VI]
+$(10+20+30+40):4=100:4=25$.
+
+**Đáp số.** $25$.
+
+[ĐỀ – EN]
+Find the mean of $10$, $20$, $30$ and $40$.
+
+[LỜI GIẢI CŨ – EN]
+$(10+20+30+40)\div4=100\div4=25$.
+
+**Answer.** $25$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài chia cho số có hai chữ số: tính $156:12$. Từ đó cho biết trung bình cộng của $12$ số có tổng bằng $156$ là bao nhiêu.
+
+[LỜI GIẢI CŨ – VI]
+$12\times13=156$, nên $156:12=13$. Trung bình cộng của $12$ số đó là $13$.
+
+**Đáp số.** $13$.
+
+[ĐỀ – EN]
+Remember dividing by a two-digit number: work out $156\div12$. Then say what the mean is of $12$ numbers whose sum is $156$.
+
+[LỜI GIẢI CŨ – EN]
+$12\times13=156$, so $156\div12=13$. The mean of those $12$ numbers is $13$.
+
+**Answer.** $13$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Ba số có tổng bằng $45$. Tìm số trung bình cộng của ba số đó.
+
+[LỜI GIẢI CŨ – VI]
+$45:3=15$.
+
+**Đáp số.** $15$.
+
+[ĐỀ – EN]
+Three numbers have a sum of $45$. Find their mean.
+
+[LỜI GIẢI CŨ – EN]
+$45\div3=15$.
+
+**Answer.** $15$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Hai bạn gộp $20$ viên bi và $36$ viên bi rồi chia đều cho nhau. Mỗi bạn được bao nhiêu viên bi? Vì sao phải chia cho $2$?
+
+[LỜI GIẢI CŨ – VI]
+Tổng số bi là $20+36=56$ (viên). Có $2$ bạn nên chia cho $2$: $56:2=28$ (viên).
+
+**Đáp số.** $28$ viên bi.
+
+[ĐỀ – EN]
+Two children put together $20$ marbles and $36$ marbles, then share them equally. How many marbles does each child get? Why do we divide by $2$?
+
+[LỜI GIẢI CŨ – EN]
+The total is $20+36=56$ (marbles). There are $2$ children, so $56\div2=28$ (marbles).
+
+**Answer.** $28$ marbles.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Mai làm bài: "Số trung bình cộng của $4$, $8$, $6$, $10$: tổng là $28$, chia cho $3$ không hết nên không có số trung bình cộng." Bạn Mai sai ở đâu? Hãy làm lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+Có $4$ số, không phải $3$ số, nên Mai chia sai. Đúng là $(4+8+6+10):4=28:4=7$.
+
+**Đáp số.** $7$.
+
+[ĐỀ – EN]
+Mai wrote: "The mean of $4$, $8$, $6$, $10$: the sum is $28$, and $28\div3$ does not work out exactly, so there is no mean." Where did Mai go wrong? Do it correctly.
+
+[LỜI GIẢI CŨ – EN]
+There are $4$ numbers, not $3$, so Mai divided by the wrong number. The correct working is $(4+8+6+10)\div4=28\div4=7$.
+
+**Answer.** $7$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Nhiệt độ lúc trưa trong năm ngày liền: Thứ Hai $22$ độ, Thứ Ba $24$ độ, Thứ Tư $25$ độ, Thứ Năm $23$ độ, Thứ Sáu $26$ độ.
+a) Tìm nhiệt độ trung bình của năm ngày.
+b) Những ngày nào có nhiệt độ cao hơn mức trung bình?
+
+[LỜI GIẢI CŨ – VI]
+a) $(22+24+25+23+26):5=120:5=24$ (độ).
+b) Các ngày có nhiệt độ lớn hơn $24$ độ là Thứ Tư ($25$) và Thứ Sáu ($26$).
+
+**Đáp số.** a) $24$ độ; b) Thứ Tư và Thứ Sáu.
+
+[ĐỀ – EN]
+The midday temperature on five days in a row: Monday $22$ degrees, Tuesday $24$ degrees, Wednesday $25$ degrees, Thursday $23$ degrees, Friday $26$ degrees.
+a) Find the mean temperature over the five days.
+b) Which days were warmer than the mean?
+
+[LỜI GIẢI CŨ – EN]
+a) $(22+24+25+23+26)\div5=120\div5=24$ (degrees).
+b) The days above $24$ degrees are Wednesday ($25$) and Friday ($26$).
+
+**Answer.** a) $24$ degrees; b) Wednesday and Friday.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Trung bình cộng của bốn số là $15$. Ba trong bốn số là $12$, $18$ và $20$. Tìm số thứ tư.
+
+[LỜI GIẢI CŨ – VI]
+Tổng bốn số là $15\times4=60$. Ba số đã biết có tổng $12+18+20=50$. Số thứ tư là $60-50=10$.
+
+**Kiểm tra.** $(12+18+20+10):4=60:4=15$. Đúng.
+
+**Đáp số.** $10$.
+
+[ĐỀ – EN]
+The mean of four numbers is $15$. Three of the numbers are $12$, $18$ and $20$. Find the fourth number.
+
+[LỜI GIẢI CŨ – EN]
+The sum of the four numbers is $15\times4=60$. The three known numbers add up to $12+18+20=50$. The fourth number is $60-50=10$.
+
+**Check.** $(12+18+20+10)\div4=60\div4=15$. Correct.
+
+**Answer.** $10$.
+
+
+===== HẾT FILE Lemonmath.com-13-LG =====

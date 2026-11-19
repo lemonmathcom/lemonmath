@@ -6,7 +6,7 @@ Kết quả: file Nguyenchanh2358-03-LG-ketqua.md, lưu vào Dropbox Lemonmath.c
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Nguyenchanh2358-03-LG
-Người làm: tài khoản Nguyenchanh2358. Gói này có 1 bài tập thuộc 1 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Nguyenchanh2358. Gói này có 37 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Nguyenchanh2358-03-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/1). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Nguyenchanh2358-03-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,44 +189,794 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g7/triangle-inequality (1 bài tập)
+- g5/adding-decimals (8 bài tập)
+- g5/area-of-a-triangle (10 bài tập)
+- g5/circumference-area-circle (9 bài tập)
+- g5/decimal-fractions (10 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g7/triangle-inequality
-Bài học: Quan hệ giữa ba cạnh của một tam giác / The triangle inequality
-Cần viết lại lời giải các bài: 8 (giữ ĐÚNG số thứ tự này)
+@@@ g5/adding-decimals
+Bài học: Phép cộng số thập phân / Adding decimals
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $5{,}8+3{,}6$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 5{,}8 \\ +\ 3{,}6 \\ \hline 9{,}4 \end{array}$$
+Hàng phần mười: $8+6=14$, viết $4$ nhớ $1$. Hàng đơn vị: $5+3+1=9$.
+
+**Đáp số.** $9{,}4$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $5.8+3.6$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 5.8 \\ +\ 3.6 \\ \hline 9.4 \end{array}$$
+Tenths: $8+6=14$, write $4$ and regroup $1$. Ones: $5+3+1=9$.
+
+**Answer.** $9.4$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đặt tính rồi tính: $14{,}68+5{,}75$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 14{,}68 \\ +\ \ 5{,}75 \\ \hline 20{,}43 \end{array}$$
+Hàng phần trăm: $8+5=13$, viết $3$ nhớ $1$. Hàng phần mười: $6+7+1=14$, viết $4$ nhớ $1$. Hàng đơn vị: $4+5+1=10$, viết $0$ nhớ $1$. Hàng chục: $1+1=2$.
+
+**Đáp số.** $20{,}43$.
+
+[ĐỀ – EN]
+Set out in columns and work out: $14.68+5.75$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 14.68 \\ +\ \ 5.75 \\ \hline 20.43 \end{array}$$
+Hundredths: $8+5=13$, write $3$ and regroup $1$. Tenths: $6+7+1=14$, write $4$ and regroup $1$. Ones: $4+5+1=10$, write $0$ and regroup $1$. Tens: $1+1=2$.
+
+**Answer.** $20.43$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính: $9{,}5+2{,}87$.
+
+[LỜI GIẢI CŨ – VI]
+$9{,}5=9{,}50$. Ta có:
+$$\begin{array}{r} 9{,}50 \\ +\ 2{,}87 \\ \hline 12{,}37 \end{array}$$
+
+**Đáp số.** $12{,}37$.
+
+[ĐỀ – EN]
+Work out: $9.5+2.87$.
+
+[LỜI GIẢI CŨ – EN]
+$9.5=9.50$. So:
+$$\begin{array}{r} 9.50 \\ +\ 2.87 \\ \hline 12.37 \end{array}$$
+
+**Answer.** $12.37$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính: $15+7{,}08$.
+
+[LỜI GIẢI CŨ – VI]
+$$\begin{array}{r} 15{,}00 \\ +\ \ 7{,}08 \\ \hline 22{,}08 \end{array}$$
+
+**Đáp số.** $22{,}08$.
+
+[ĐỀ – EN]
+Work out: $15+7.08$.
+
+[LỜI GIẢI CŨ – EN]
+$$\begin{array}{r} 15.00 \\ +\ \ 7.08 \\ \hline 22.08 \end{array}$$
+
+**Answer.** $22.08$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tính bằng cách thuận tiện: $2{,}5+6{,}7+7{,}5$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $2{,}5+7{,}5=10$, ta có:
+$$2{,}5+6{,}7+7{,}5=(2{,}5+7{,}5)+6{,}7=10+6{,}7=16{,}7.$$
+
+**Đáp số.** $16{,}7$.
+
+[ĐỀ – EN]
+Work out in the easy way: $2.5+6.7+7.5$.
+
+[LỜI GIẢI CŨ – EN]
+Since $2.5+7.5=10$, we have:
+$$2.5+6.7+7.5=(2.5+7.5)+6.7=10+6.7=16.7.$$
+
+**Answer.** $16.7$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Mẹ may một cái áo cần $1{,}6$ m vải và một cái quần cần $1{,}25$ m vải. Hỏi may cả bộ quần áo cần bao nhiêu mét vải?
+
+[LỜI GIẢI CŨ – VI]
+Số mét vải cần để may cả bộ là:
+$$1{,}60+1{,}25=2{,}85\ \text{(m)}.$$
+
+**Đáp số.** $2{,}85$ m vải.
+
+[ĐỀ – EN]
+Mum needs $1.6$ m of cloth to make a shirt and $1.25$ m of cloth to make a pair of trousers. How many metres of cloth does she need for the whole outfit?
+
+[LỜI GIẢI CŨ – EN]
+The number of metres of cloth needed for the whole outfit is:
+$$1.60+1.25=2.85\ \text{(m)}.$$
+
+**Answer.** $2.85$ m of cloth.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước về đơn vị đo diện tích. Một mảnh vườn rộng $0{,}5$ ha, mảnh vườn bên cạnh rộng $2500\ \text{m}^2$. Hỏi cả hai mảnh vườn rộng bao nhiêu héc-ta?
+
+[LỜI GIẢI CŨ – VI]
+Vì $1\ \text{ha}=10\,000\ \text{m}^2$ nên $2500\ \text{m}^2=0{,}25\ \text{ha}$. Ta có:
+$$0{,}5+0{,}25=0{,}50+0{,}25=0{,}75\ \text{(ha)}.$$
+
+**Kiểm tra.** $0{,}75\ \text{ha}=7500\ \text{m}^2$, và $5000+2500=7500$. Đúng.
+
+**Đáp số.** $0{,}75$ ha.
+
+[ĐỀ – EN]
+Remember the last lesson on units of area. One garden has an area of $0.5$ ha, and the garden next to it has an area of $2500\ \text{m}^2$. What is the total area of the two gardens in hectares?
+
+[LỜI GIẢI CŨ – EN]
+Since $1\ \text{ha}=10\,000\ \text{m}^2$, we have $2500\ \text{m}^2=0.25\ \text{ha}$. Then:
+$$0.5+0.25=0.50+0.25=0.75\ \text{(ha)}.$$
+
+**Check.** $0.75\ \text{ha}=7500\ \text{m}^2$, and $5000+2500=7500$. Correct.
+
+**Answer.** $0.75$ ha.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Cho điểm $M$ nằm trong tam giác $ABC$. Chứng minh rằng $MB+MC<AB+AC$.
+Tính nhanh: $0{,}1+0{,}2+0{,}3+0{,}4+0{,}5+0{,}6+0{,}7+0{,}8+0{,}9$.
 
 [LỜI GIẢI CŨ – VI]
-Kéo dài $BM$ cắt $AC$ tại $D$, khi đó $D$ nằm giữa $A$ và $C$ và $BD=BM+MD$.
+Ta ghép thành bốn cặp, mỗi cặp có tổng bằng $1$, còn lại $0{,}5$:
+$$(0{,}1+0{,}9)+(0{,}2+0{,}8)+(0{,}3+0{,}7)+(0{,}4+0{,}6)+0{,}5=1+1+1+1+0{,}5=4{,}5.$$
 
-Xét tam giác $MDC$, ta có $MC<MD+DC$. Suy ra $MB+MC<MB+MD+DC=BD+DC$.
-
-Xét tam giác $ABD$, ta có $BD<BA+AD$. Suy ra $BD+DC<BA+AD+DC=BA+AC$.
-
-Từ hai bất đẳng thức trên suy ra $MB+MC<AB+AC$.
-
-**Đáp số.** Đã chứng minh.
+**Đáp số.** $4{,}5$.
 
 [ĐỀ – EN]
-A point $M$ lies inside triangle $ABC$. Prove that $MB+MC<AB+AC$.
+Work out quickly: $0.1+0.2+0.3+0.4+0.5+0.6+0.7+0.8+0.9$.
 
 [LỜI GIẢI CŨ – EN]
-Extend $BM$ to meet $AC$ at $D$. Then $D$ lies between $A$ and $C$ and $BD=BM+MD$.
+Group the numbers into four pairs, each with sum $1$, leaving $0.5$:
+$$(0.1+0.9)+(0.2+0.8)+(0.3+0.7)+(0.4+0.6)+0.5=1+1+1+1+0.5=4.5.$$
 
-In triangle $MDC$ we have $MC<MD+DC$. Hence $MB+MC<MB+MD+DC=BD+DC$.
+**Answer.** $4.5$.
 
-In triangle $ABD$ we have $BD<BA+AD$. Hence $BD+DC<BA+AD+DC=BA+AC$.
 
-From the two inequalities, $MB+MC<AB+AC$.
+######################################################################
+@@@ g5/area-of-a-triangle
+Bài học: Hình tam giác. Diện tích hình tam giác. Hình thang. Diện tích hình thang / Triangles. Area of a triangle. Trapeziums. Area of a trapezium
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
 
-**Answer.** Proved.
+=== Bài 1 ===
+[ĐỀ – VI]
+Phân loại tam giác theo các góc: a) $50^\circ$, $60^\circ$, $70^\circ$; b) $90^\circ$, $40^\circ$, $50^\circ$; c) $25^\circ$, $35^\circ$, $120^\circ$.
+
+[LỜI GIẢI CŨ – VI]
+a) Cả ba góc bé hơn $90^\circ$: tam giác nhọn.
+
+b) Có một góc $90^\circ$: tam giác vuông.
+
+c) Có góc $120^\circ>90^\circ$: tam giác tù.
+
+**Đáp số.** a) nhọn; b) vuông; c) tù.
+
+[ĐỀ – EN]
+Classify these triangles by their angles: a) $50^\circ$, $60^\circ$, $70^\circ$; b) $90^\circ$, $40^\circ$, $50^\circ$; c) $25^\circ$, $35^\circ$, $120^\circ$.
+
+[LỜI GIẢI CŨ – EN]
+a) All three angles are less than $90^\circ$: acute triangle.
+
+b) There is an angle of $90^\circ$: right-angled triangle.
+
+c) There is an angle $120^\circ>90^\circ$: obtuse triangle.
+
+**Answer.** a) acute; b) right-angled; c) obtuse.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính diện tích hình tam giác có: a) đáy $15$ cm, chiều cao $8$ cm; b) đáy $7$ dm, chiều cao $4$ dm; c) hai cạnh góc vuông $9$ cm và $12$ cm.
+
+[LỜI GIẢI CŨ – VI]
+a) $15\times8:2=60\ \text{cm}^2$.
+
+b) $7\times4:2=14\ \text{dm}^2$.
+
+c) $9\times12:2=54\ \text{cm}^2$.
+
+**Đáp số.** a) $60\ \text{cm}^2$; b) $14\ \text{dm}^2$; c) $54\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Find the area of the triangle with: a) base $15$ cm and height $8$ cm; b) base $7$ dm and height $4$ dm; c) two shorter sides $9$ cm and $12$ cm (right-angled).
+
+[LỜI GIẢI CŨ – EN]
+a) $15\times8\div2=60\ \text{cm}^2$.
+
+b) $7\times4\div2=14\ \text{dm}^2$.
+
+c) $9\times12\div2=54\ \text{cm}^2$.
+
+**Answer.** a) $60\ \text{cm}^2$; b) $14\ \text{dm}^2$; c) $54\ \text{cm}^2$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tìm: a) chiều cao của tam giác có diện tích $40\ \text{cm}^2$ và đáy $10$ cm; b) đáy của tam giác có diện tích $63\ \text{m}^2$ và chiều cao $9$ m.
+
+[LỜI GIẢI CŨ – VI]
+a) $40\times2=80$ và $80:10=8$, nên chiều cao là $8$ cm.
+
+b) $63\times2=126$ và $126:9=14$, nên đáy là $14$ m.
+
+**Đáp số.** a) $8$ cm; b) $14$ m.
+
+[ĐỀ – EN]
+Find: a) the height of a triangle with area $40\ \text{cm}^2$ and base $10$ cm; b) the base of a triangle with area $63\ \text{m}^2$ and height $9$ m.
+
+[LỜI GIẢI CŨ – EN]
+a) $40\times2=80$ and $80\div10=8$, so the height is $8$ cm.
+
+b) $63\times2=126$ and $126\div9=14$, so the base is $14$ m.
+
+**Answer.** a) $8$ cm; b) $14$ m.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Giả sử một cánh buồm hình tam giác có đáy $3{,}2$ m và chiều cao $2{,}5$ m. Tính diện tích cánh buồm.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích cánh buồm là:
+$$3{,}2\times2{,}5:2=8:2=4\ \text{(m}^2\text{)}.$$
+
+**Đáp số.** $4\ \text{m}^2$.
+
+[ĐỀ – EN]
+Suppose a triangular sail has base $3.2$ m and height $2.5$ m. Find the area of the sail.
+
+[LỜI GIẢI CŨ – EN]
+The area of the sail is:
+$$3.2\times2.5\div2=8\div2=4\ \text{(m}^2\text{)}.$$
+
+**Answer.** $4\ \text{m}^2$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tính diện tích: a) hình thang có hai đáy $9$ cm và $15$ cm, chiều cao $6$ cm; b) hình thang vuông $ABCD$ có $AB=4$ cm, $CD=10$ cm, $AD=7$ cm ($AD\perp AB$).
+
+[LỜI GIẢI CŨ – VI]
+a) $(9+15)\times6:2=72\ \text{cm}^2$.
+
+b) Chiều cao là $AD=7$ cm, nên $S=(4+10)\times7:2=49\ \text{cm}^2$.
+
+**Đáp số.** a) $72\ \text{cm}^2$; b) $49\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Find the area of: a) a trapezium with bases $9$ cm and $15$ cm and height $6$ cm; b) a right-angled trapezium $ABCD$ with $AB=4$ cm, $CD=10$ cm and $AD=7$ cm ($AD\perp AB$).
+
+[LỜI GIẢI CŨ – EN]
+a) $(9+15)\times6\div2=72\ \text{cm}^2$.
+
+b) The height is $AD=7$ cm, so $S=(4+10)\times7\div2=49\ \text{cm}^2$.
+
+**Answer.** a) $72\ \text{cm}^2$; b) $49\ \text{cm}^2$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử một thửa ruộng hình thang có hai đáy $25$ m và $35$ m, chiều cao $20$ m. Tính diện tích thửa ruộng.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích thửa ruộng là:
+$$(25+35)\times20:2=600\ \text{(m}^2\text{)}.$$
+
+**Thử lại.** $25\times20=500$ và $35\times20=700$, mà $500<600<700$.
+
+**Đáp số.** $600\ \text{m}^2$.
+
+[ĐỀ – EN]
+Suppose a trapezium-shaped field has bases $25$ m and $35$ m and height $20$ m. Find the area of the field.
+
+[LỜI GIẢI CŨ – EN]
+The area of the field is:
+$$(25+35)\times20\div2=600\ \text{(m}^2\text{)}.$$
+
+**Check.** $25\times20=500$ and $35\times20=700$, and $500<600<700$.
+
+**Answer.** $600\ \text{m}^2$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài về héc-ta. Một khu đất hình thang có hai đáy $150$ m và $250$ m, chiều cao $100$ m. Tính diện tích khu đất theo héc-ta.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích khu đất là $(150+250)\times100:2=20\,000\ \text{m}^2$.
+
+Đổi ra héc-ta: $20\,000:10\,000=2$ ha.
+
+**Đáp số.** $2$ ha.
+
+[ĐỀ – EN]
+Remember the lesson on hectares. A plot of land is a trapezium with bases $150$ m and $250$ m and height $100$ m. Find the area of the plot in hectares.
+
+[LỜI GIẢI CŨ – EN]
+The area of the plot is $(150+250)\times100\div2=20\,000\ \text{m}^2$.
+
+Change to hectares: $20\,000\div10\,000=2$ ha.
+
+**Answer.** $2$ ha.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Giả sử một mảnh vườn hình tam giác có đáy $18$ m và chiều cao $12$ m. Người ta dành $\dfrac{1}{3}$ diện tích mảnh vườn để trồng rau. Hỏi diện tích trồng rau là bao nhiêu mét vuông?
+
+[LỜI GIẢI CŨ – VI]
+Diện tích mảnh vườn là $18\times12:2=108\ \text{m}^2$.
+
+Diện tích trồng rau là $108:3=36\ \text{m}^2$.
+
+**Đáp số.** $36\ \text{m}^2$.
+
+[ĐỀ – EN]
+Suppose a triangular garden has base $18$ m and height $12$ m. $\dfrac{1}{3}$ of the garden's area is used to grow vegetables. How many square metres are used for vegetables?
+
+[LỜI GIẢI CŨ – EN]
+The area of the garden is $18\times12\div2=108\ \text{m}^2$.
+
+The area for vegetables is $108\div3=36\ \text{m}^2$.
+
+**Answer.** $36\ \text{m}^2$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một hình thang có diện tích $120\ \text{cm}^2$ và hai đáy dài $14$ cm và $16$ cm. Tính chiều cao hình thang.
+
+[LỜI GIẢI CŨ – VI]
+$S\times2=120\times2=240$ và tổng hai đáy là $14+16=30$ cm, nên chiều cao là $240:30=8$ cm.
+
+**Đáp số.** $8$ cm.
+
+[ĐỀ – EN]
+A trapezium has area $120\ \text{cm}^2$ and its bases are $14$ cm and $16$ cm long. Find the height of the trapezium.
+
+[LỜI GIẢI CŨ – EN]
+$S\times2=120\times2=240$ and the sum of the bases is $14+16=30$ cm, so the height is $240\div30=8$ cm.
+
+**Answer.** $8$ cm.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Một hình thang có đáy lớn gấp đôi đáy bé, chiều cao $6$ cm và diện tích $54\ \text{cm}^2$. Tính độ dài hai đáy.
+
+[LỜI GIẢI CŨ – VI]
+Tổng hai đáy là $54\times2:6=18$ cm. Coi đáy bé là $1$ phần thì đáy lớn là $2$ phần, tổng là $3$ phần. Đáy bé là $18:3=6$ cm, đáy lớn là $6\times2=12$ cm.
+
+**Kiểm tra.** $(6+12)\times6:2=54$. Đúng.
+
+**Đáp số.** Đáy bé $6$ cm; đáy lớn $12$ cm.
+
+[ĐỀ – EN]
+A trapezium has its longer base twice its shorter base, height $6$ cm and area $54\ \text{cm}^2$. Find the lengths of the two bases.
+
+[LỜI GIẢI CŨ – EN]
+The sum of the bases is $54\times2\div6=18$ cm. Take the shorter base as $1$ part, so the longer base is $2$ parts and the sum is $3$ parts. The shorter base is $18\div3=6$ cm and the longer base is $6\times2=12$ cm.
+
+**Check.** $(6+12)\times6\div2=54$. Correct.
+
+**Answer.** Shorter base $6$ cm; longer base $12$ cm.
+
+
+######################################################################
+@@@ g5/circumference-area-circle
+Bài học: Đường tròn. Chu vi và diện tích hình tròn / Circles. Circumference and area of a circle
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Số?
+a) Bán kính $7$ cm thì đường kính là $?$ cm; b) đường kính $1{,}6$ m thì bán kính là $?$ m; c) bán kính $2{,}5$ dm thì đường kính là $?$ dm.
+
+[LỜI GIẢI CŨ – VI]
+a) $7\times2=14$ cm.
+
+b) $1{,}6:2=0{,}8$ m.
+
+c) $2{,}5\times2=5$ dm.
+
+**Đáp số.** a) $14$; b) $0{,}8$; c) $5$.
+
+[ĐỀ – EN]
+Find the missing numbers:
+a) A radius of $7$ cm means a diameter of $?$ cm; b) a diameter of $1.6$ m means a radius of $?$ m; c) a radius of $2.5$ dm means a diameter of $?$ dm.
+
+[LỜI GIẢI CŨ – EN]
+a) $7\times2=14$ cm.
+
+b) $1.6\div2=0.8$ m.
+
+c) $2.5\times2=5$ dm.
+
+**Answer.** a) $14$; b) $0.8$; c) $5$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tính chu vi hình tròn: a) đường kính $5$ cm; b) bán kính $3$ cm; c) đường kính $0{,}4$ m.
+
+[LỜI GIẢI CŨ – VI]
+a) $5\times3{,}14=15{,}7$ cm.
+
+b) $3\times2\times3{,}14=18{,}84$ cm.
+
+c) $0{,}4\times3{,}14=1{,}256$ m.
+
+**Đáp số.** a) $15{,}7$ cm; b) $18{,}84$ cm; c) $1{,}256$ m.
+
+[ĐỀ – EN]
+Find the circumference of the circle with: a) diameter $5$ cm; b) radius $3$ cm; c) diameter $0.4$ m.
+
+[LỜI GIẢI CŨ – EN]
+a) $5\times3.14=15.7$ cm.
+
+b) $3\times2\times3.14=18.84$ cm.
+
+c) $0.4\times3.14=1.256$ m.
+
+**Answer.** a) $15.7$ cm; b) $18.84$ cm; c) $1.256$ m.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính diện tích hình tròn: a) bán kính $3$ cm; b) đường kính $10$ dm; c) bán kính $1{,}5$ m.
+
+[LỜI GIẢI CŨ – VI]
+a) $3\times3\times3{,}14=28{,}26\ \text{cm}^2$.
+
+b) Bán kính là $10:2=5$ dm, nên $S=5\times5\times3{,}14=78{,}5\ \text{dm}^2$.
+
+c) $1{,}5\times1{,}5\times3{,}14=2{,}25\times3{,}14=7{,}065\ \text{m}^2$.
+
+**Đáp số.** a) $28{,}26\ \text{cm}^2$; b) $78{,}5\ \text{dm}^2$; c) $7{,}065\ \text{m}^2$.
+
+[ĐỀ – EN]
+Find the area of the circle with: a) radius $3$ cm; b) diameter $10$ dm; c) radius $1.5$ m.
+
+[LỜI GIẢI CŨ – EN]
+a) $3\times3\times3.14=28.26\ \text{cm}^2$.
+
+b) The radius is $10\div2=5$ dm, so $S=5\times5\times3.14=78.5\ \text{dm}^2$.
+
+c) $1.5\times1.5\times3.14=2.25\times3.14=7.065\ \text{m}^2$.
+
+**Answer.** a) $28.26\ \text{cm}^2$; b) $78.5\ \text{dm}^2$; c) $7.065\ \text{m}^2$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tìm đường kính và bán kính của hình tròn có chu vi: a) $31{,}4$ cm; b) $25{,}12$ m.
+
+[LỜI GIẢI CŨ – VI]
+a) $d=31{,}4:3{,}14=10$ cm và $r=10:2=5$ cm.
+
+b) $d=25{,}12:3{,}14=8$ m và $r=8:2=4$ m.
+
+**Đáp số.** a) $d=10$ cm, $r=5$ cm; b) $d=8$ m, $r=4$ m.
+
+[ĐỀ – EN]
+Find the diameter and the radius of the circle with circumference: a) $31.4$ cm; b) $25.12$ m.
+
+[LỜI GIẢI CŨ – EN]
+a) $d=31.4\div3.14=10$ cm and $r=10\div2=5$ cm.
+
+b) $d=25.12\div3.14=8$ m and $r=8\div2=4$ m.
+
+**Answer.** a) $d=10$ cm, $r=5$ cm; b) $d=8$ m, $r=4$ m.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giả sử bánh xe đạp của bạn Lan có đường kính $0{,}65$ m. Hỏi bánh xe lăn $10$ vòng thì xe đi được bao nhiêu mét?
+
+[LỜI GIẢI CŨ – VI]
+Chu vi bánh xe là $0{,}65\times3{,}14=2{,}041$ m.
+
+Quãng đường đi được sau $10$ vòng là $2{,}041\times10=20{,}41$ (m).
+
+**Đáp số.** $20{,}41$ m.
+
+[ĐỀ – EN]
+Suppose Lan's bicycle wheel has diameter $0.65$ m. How far does the bicycle travel when the wheel rolls $10$ times?
+
+[LỜI GIẢI CŨ – EN]
+The circumference of the wheel is $0.65\times3.14=2.041$ m.
+
+The distance travelled after $10$ rolls is $2.041\times10=20.41$ (m).
+
+**Answer.** $20.41$ m.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử một cái ao hình tròn có bán kính $20$ m. Tính chu vi và diện tích của ao.
+
+[LỜI GIẢI CŨ – VI]
+Chu vi của ao là $20\times2\times3{,}14=125{,}6$ m.
+
+Diện tích của ao là $20\times20\times3{,}14=1256\ \text{m}^2$.
+
+**Đáp số.** Chu vi $125{,}6$ m; diện tích $1256\ \text{m}^2$.
+
+[ĐỀ – EN]
+Suppose a round pond has radius $20$ m. Find the circumference and the area of the pond.
+
+[LỜI GIẢI CŨ – EN]
+The circumference of the pond is $20\times2\times3.14=125.6$ m.
+
+The area of the pond is $20\times20\times3.14=1256\ \text{m}^2$.
+
+**Answer.** Circumference $125.6$ m; area $1256\ \text{m}^2$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một sợi dây dài $94{,}2$ cm quấn đúng một vòng quanh một chiếc hộp hình tròn. Tính đường kính của hộp.
+
+[LỜI GIẢI CŨ – VI]
+Đường kính của hộp là:
+$$94{,}2:3{,}14=30\ \text{(cm)}.$$
+
+**Thử lại.** $30\times3{,}14=94{,}2$. Đúng.
+
+**Đáp số.** $30$ cm.
+
+[ĐỀ – EN]
+A piece of string $94.2$ cm long goes exactly once round a round box. Find the diameter of the box.
+
+[LỜI GIẢI CŨ – EN]
+The diameter of the box is:
+$$94.2\div3.14=30\ \text{(cm)}.$$
+
+**Check.** $30\times3.14=94.2$. Correct.
+
+**Answer.** $30$ cm.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài ôn tập về diện tích hình vuông. Một hình vuông có cạnh $10$ cm, bên trong vẽ hình tròn có đường kính $10$ cm (hình tròn chạm bốn cạnh hình vuông). Tính diện tích phần hình vuông nằm ngoài hình tròn.
+
+[LỜI GIẢI CŨ – VI]
+Diện tích hình vuông là $10\times10=100\ \text{cm}^2$. Diện tích hình tròn là $5\times5\times3{,}14=78{,}5\ \text{cm}^2$.
+
+Diện tích phần nằm ngoài hình tròn là $100-78{,}5=21{,}5\ \text{cm}^2$.
+
+**Đáp số.** $21{,}5\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Remember the review lesson on the area of a square. A square has side $10$ cm, and inside it is drawn a circle with diameter $10$ cm (the circle touches all four sides of the square). Find the area of the part of the square outside the circle.
+
+[LỜI GIẢI CŨ – EN]
+The area of the square is $10\times10=100\ \text{cm}^2$. The area of the circle is $5\times5\times3.14=78.5\ \text{cm}^2$.
+
+The area of the part outside the circle is $100-78.5=21.5\ \text{cm}^2$.
+
+**Answer.** $21.5\ \text{cm}^2$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Hình tròn $A$ có bán kính $3$ cm, hình tròn $B$ có bán kính $6$ cm (gấp đôi). Chu vi hình tròn $B$ gấp mấy lần chu vi hình tròn $A$? Diện tích hình tròn $B$ gấp mấy lần diện tích hình tròn $A$?
+
+[LỜI GIẢI CŨ – VI]
+Hình tròn $A$: $C=3\times2\times3{,}14=18{,}84$ cm và $S=3\times3\times3{,}14=28{,}26\ \text{cm}^2$.
+
+Hình tròn $B$: $C=6\times2\times3{,}14=37{,}68$ cm và $S=6\times6\times3{,}14=113{,}04\ \text{cm}^2$.
+
+Vì $37{,}68:18{,}84=2$ và $113{,}04:28{,}26=4$ nên chu vi gấp $2$ lần, diện tích gấp $4$ lần.
+
+**Đáp số.** Chu vi gấp $2$ lần; diện tích gấp $4$ lần.
+
+[ĐỀ – EN]
+Circle $A$ has radius $3$ cm and circle $B$ has radius $6$ cm (twice as big). How many times as great as the circumference of $A$ is the circumference of $B$? How many times as great as the area of $A$ is the area of $B$?
+
+[LỜI GIẢI CŨ – EN]
+Circle $A$: $C=3\times2\times3.14=18.84$ cm and $S=3\times3\times3.14=28.26\ \text{cm}^2$.
+
+Circle $B$: $C=6\times2\times3.14=37.68$ cm and $S=6\times6\times3.14=113.04\ \text{cm}^2$.
+
+Since $37.68\div18.84=2$ and $113.04\div28.26=4$, the circumference is $2$ times as great and the area is $4$ times as great.
+
+**Answer.** The circumference is $2$ times as great; the area is $4$ times as great.
+
+
+######################################################################
+@@@ g5/decimal-fractions
+Bài học: Phân số thập phân / Decimal fractions
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Trong các phân số $\dfrac{4}{10}$, $\dfrac{9}{25}$, $\dfrac{17}{100}$, $\dfrac{3}{8}$, $\dfrac{120}{1\,000}$, phân số nào là phân số thập phân?
+
+[LỜI GIẢI CŨ – VI]
+Các phân số $\dfrac{4}{10}$, $\dfrac{17}{100}$ và $\dfrac{120}{1\,000}$ có mẫu số là $10$, $100$ và $1\,000$. Hai phân số còn lại có mẫu số $25$ và $8$.
+
+**Đáp số.** $\dfrac{4}{10}$, $\dfrac{17}{100}$, $\dfrac{120}{1\,000}$.
+
+[ĐỀ – EN]
+Which of the fractions $\dfrac{4}{10}$, $\dfrac{9}{25}$, $\dfrac{17}{100}$, $\dfrac{3}{8}$, $\dfrac{120}{1\,000}$ are decimal fractions?
+
+[LỜI GIẢI CŨ – EN]
+The fractions $\dfrac{4}{10}$, $\dfrac{17}{100}$ and $\dfrac{120}{1\,000}$ have denominators $10$, $100$ and $1\,000$. The other two have denominators $25$ and $8$.
+
+**Answer.** $\dfrac{4}{10}$, $\dfrac{17}{100}$, $\dfrac{120}{1\,000}$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Viết các phân số $\dfrac{4}{5}$ và $\dfrac{9}{25}$ thành phân số thập phân.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{4}{5}=\dfrac{4\times2}{5\times2}=\dfrac{8}{10}$ và $\dfrac{9}{25}=\dfrac{9\times4}{25\times4}=\dfrac{36}{100}$.
+
+**Đáp số.** $\dfrac{8}{10}$ và $\dfrac{36}{100}$.
+
+[ĐỀ – EN]
+Write the fractions $\dfrac{4}{5}$ and $\dfrac{9}{25}$ as decimal fractions.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{4}{5}=\dfrac{4\times2}{5\times2}=\dfrac{8}{10}$ and $\dfrac{9}{25}=\dfrac{9\times4}{25\times4}=\dfrac{36}{100}$.
+
+**Answer.** $\dfrac{8}{10}$ and $\dfrac{36}{100}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Viết phân số $\dfrac{7}{8}$ thành phân số thập phân có mẫu số là $1\,000$.
+
+[LỜI GIẢI CŨ – VI]
+$$\dfrac{7}{8}=\dfrac{7\times125}{8\times125}=\dfrac{875}{1\,000}.$$
+
+**Đáp số.** $\dfrac{875}{1\,000}$.
+
+[ĐỀ – EN]
+Write the fraction $\dfrac{7}{8}$ as a decimal fraction with denominator $1\,000$.
+
+[LỜI GIẢI CŨ – EN]
+$$\dfrac{7}{8}=\dfrac{7\times125}{8\times125}=\dfrac{875}{1\,000}.$$
+
+**Answer.** $\dfrac{875}{1\,000}$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Rút gọn các phân số thập phân $\dfrac{60}{100}$ và $\dfrac{125}{1\,000}$ đến phân số tối giản.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{60}{100}=\dfrac{60:20}{100:20}=\dfrac{3}{5}$ và $\dfrac{125}{1\,000}=\dfrac{125:125}{1\,000:125}=\dfrac{1}{8}$.
+
+**Đáp số.** $\dfrac{3}{5}$ và $\dfrac{1}{8}$.
+
+[ĐỀ – EN]
+Simplify the decimal fractions $\dfrac{60}{100}$ and $\dfrac{125}{1\,000}$ to their simplest form.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{60}{100}=\dfrac{60\div20}{100\div20}=\dfrac{3}{5}$ and $\dfrac{125}{1\,000}=\dfrac{125\div125}{1\,000\div125}=\dfrac{1}{8}$.
+
+**Answer.** $\dfrac{3}{5}$ and $\dfrac{1}{8}$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Viết $450$ g dưới dạng phân số của ki-lô-gam, rồi rút gọn đến phân số tối giản.
+
+[LỜI GIẢI CŨ – VI]
+$450$ g $=\dfrac{450}{1\,000}$ kg. Cả $450$ và $1\,000$ chia hết cho $50$: $\dfrac{450}{1\,000}=\dfrac{9}{20}$ kg.
+
+**Đáp số.** $\dfrac{9}{20}$ kg.
+
+[ĐỀ – EN]
+Write $450$ g as a fraction of a kilogram, then simplify it to its simplest form.
+
+[LỜI GIẢI CŨ – EN]
+$450$ g $=\dfrac{450}{1\,000}$ kg. Both $450$ and $1\,000$ are divisible by $50$: $\dfrac{450}{1\,000}=\dfrac{9}{20}$ kg.
+
+**Answer.** $\dfrac{9}{20}$ kg.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Buổi sáng Lan đi bộ được $\dfrac{2}{10}$ km, buổi chiều đi bộ được $\dfrac{35}{100}$ km. Hỏi cả hai buổi Lan đi bộ được bao nhiêu ki-lô-mét?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{2}{10}=\dfrac{20}{100}$. Số ki-lô-mét Lan đi bộ cả hai buổi là:
+$$\dfrac{20}{100}+\dfrac{35}{100}=\dfrac{55}{100}=\dfrac{11}{20}\ \text{(km)}.$$
+
+**Đáp số.** $\dfrac{11}{20}$ km.
+
+[ĐỀ – EN]
+In the morning Lan walks $\dfrac{2}{10}$ km, and in the afternoon she walks $\dfrac{35}{100}$ km. How many kilometres does Lan walk in the two sessions altogether?
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{2}{10}=\dfrac{20}{100}$. The number of kilometres Lan walks altogether is:
+$$\dfrac{20}{100}+\dfrac{35}{100}=\dfrac{55}{100}=\dfrac{11}{20}\ \text{(km)}.$$
+
+**Answer.** $\dfrac{11}{20}$ km.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài so sánh phân số. So sánh $\dfrac{7}{10}$ và $\dfrac{65}{100}$.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{7}{10}=\dfrac{70}{100}$. Vì $70>65$ nên $\dfrac{70}{100}>\dfrac{65}{100}$.
+
+**Đáp số.** $\dfrac{7}{10}>\dfrac{65}{100}$.
+
+[ĐỀ – EN]
+Remember the lesson on comparing fractions. Compare $\dfrac{7}{10}$ and $\dfrac{65}{100}$.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{7}{10}=\dfrac{70}{100}$. Since $70>65$, $\dfrac{70}{100}>\dfrac{65}{100}$.
+
+**Answer.** $\dfrac{7}{10}>\dfrac{65}{100}$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Bình có $\dfrac{9}{10}$ lít sữa và uống hết $\dfrac{37}{100}$ lít. Hỏi Bình còn lại bao nhiêu lít sữa?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{9}{10}=\dfrac{90}{100}$. Số lít sữa còn lại là:
+$$\dfrac{90}{100}-\dfrac{37}{100}=\dfrac{53}{100}\ \text{(lít)}.$$
+
+**Đáp số.** $\dfrac{53}{100}$ lít.
+
+[ĐỀ – EN]
+Binh has $\dfrac{9}{10}$ of a litre of milk and drinks $\dfrac{37}{100}$ of a litre. How many litres of milk does Binh have left?
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{9}{10}=\dfrac{90}{100}$. The number of litres of milk left is:
+$$\dfrac{90}{100}-\dfrac{37}{100}=\dfrac{53}{100}\ \text{(litres)}.$$
+
+**Answer.** $\dfrac{53}{100}$ litre.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài tìm phân số của một số. Viết $\dfrac{3}{5}$ thành phân số thập phân có mẫu số $10$, rồi tìm $\dfrac{3}{5}$ của $150$ kg.
+
+[LỜI GIẢI CŨ – VI]
+$\dfrac{3}{5}=\dfrac{6}{10}$. Do đó $\dfrac{3}{5}$ của $150$ kg là $150:10\times6=15\times6=90$ (kg).
+
+**Đáp số.** $\dfrac{6}{10}$; $90$ kg.
+
+[ĐỀ – EN]
+Remember the lesson on finding a fraction of an amount. Write $\dfrac{3}{5}$ as a decimal fraction with denominator $10$, then find $\dfrac{3}{5}$ of $150$ kg.
+
+[LỜI GIẢI CŨ – EN]
+$\dfrac{3}{5}=\dfrac{6}{10}$. So $\dfrac{3}{5}$ of $150$ kg is $150\div10\times6=15\times6=90$ (kg).
+
+**Answer.** $\dfrac{6}{10}$; $90$ kg.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tìm tất cả các số có một chữ số $n$ (khác $0$) để phân số $\dfrac{1}{n}$ viết được thành phân số thập phân có mẫu số là $1\,000$.
+
+[LỜI GIẢI CŨ – VI]
+$1\,000$ chia hết cho $1$, $2$, $4$, $5$, $8$, còn không chia hết cho $3$, $6$, $7$, $9$.
+
+Ví dụ $\dfrac{1}{8}=\dfrac{125}{1\,000}$, $\dfrac{1}{4}=\dfrac{250}{1\,000}$, $\dfrac{1}{5}=\dfrac{200}{1\,000}$, $\dfrac{1}{2}=\dfrac{500}{1\,000}$, $\dfrac{1}{1}=\dfrac{1\,000}{1\,000}$.
+
+**Đáp số.** $n=1$, $2$, $4$, $5$ hoặc $8$.
+
+[ĐỀ – EN]
+Find all the one-digit numbers $n$ (other than $0$) for which the fraction $\dfrac{1}{n}$ can be written as a decimal fraction with denominator $1\,000$.
+
+[LỜI GIẢI CŨ – EN]
+$1\,000$ is divisible by $1$, $2$, $4$, $5$, $8$, and not by $3$, $6$, $7$, $9$.
+
+For example $\dfrac{1}{8}=\dfrac{125}{1\,000}$, $\dfrac{1}{4}=\dfrac{250}{1\,000}$, $\dfrac{1}{5}=\dfrac{200}{1\,000}$, $\dfrac{1}{2}=\dfrac{500}{1\,000}$, $\dfrac{1}{1}=\dfrac{1\,000}{1\,000}$.
+
+**Answer.** $n=1$, $2$, $4$, $5$ or $8$.
 
 
 ===== HẾT FILE Nguyenchanh2358-03-LG =====

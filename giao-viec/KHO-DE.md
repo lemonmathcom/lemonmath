@@ -54,7 +54,7 @@ Lời giải chi tiết, ghi điểm từng bước theo hướng dẫn chấm, 
 | (chưa có) | | chờ thư mục đề từ ChatGPT |
 
 
-## Đợt 3 (19/11/2026): thu hồi các gói cũ, chia lại cho 12 tài khoản Claude Free
+## Đợt 3 (19/11/2026): thu hồi các gói cũ, chia lại cho 15 tài khoản Claude Free
 
 Chủ dự án thu hồi phần đã giao ChatGPT Plus (12 gói GOI-*, gói NC-06, 25 gói giọng văn GV-*) và bỏ các gói NC cũ của tài khoản Free. Toàn bộ lời giải còn vắn tắt (trừ lớp 6, lớp 9 do Pro đã làm) và 210 bài giọng văn chia lại theo dải lớp liền nhau, mỗi bài học chỉ một tài khoản làm (cả lời giải lẫn giọng văn). Bảng giao: `giao-viec/dot3/BANG-GIAO.md`; bài trong từng file: `giao-viec/dot3/CHI-TIET.md`; tạo lại: `python3 tools/qa/dot3.py`.
 

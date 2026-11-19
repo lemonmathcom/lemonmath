@@ -6,7 +6,7 @@ Kết quả: file Alexnguyen122222-09-LG-ketqua.md, lưu vào Dropbox Lemonmath.
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Alexnguyen122222-09-LG
-Người làm: tài khoản Alexnguyen122222. Gói này có 39 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Alexnguyen122222. Gói này có 38 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -189,892 +189,983 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g2/regroup-add-2-digit (8 bài tập)
-- g2/regroup-subtract-1-digit (8 bài tập)
-- g2/regroup-subtract-2-digit (8 bài tập)
-- g2/subtract-within-1000-no-regrouping (7 bài tập)
-- g2/subtraction-crossing-10 (8 bài tập)
+- g2/intro-to-multiplication (8 bài tập)
+- g2/kilograms (8 bài tập)
+- g2/multiples-of-10-and-100 (8 bài tập)
+- g2/number-line-before-after (7 bài tập)
+- g2/ones-tens-hundreds-thousands (7 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g2/regroup-add-2-digit
-Bài học: Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số / Adding two two-digit numbers (with regrouping)
+@@@ g2/intro-to-multiplication
+Bài học: Phép nhân. Thừa số, tích / Multiplication. Factors and products
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Tính $24+18$.
+Viết mỗi tổng thành phép nhân:
+
+a) $2+2+2+2+2$
+
+b) $4+4+4$
+
+c) $5+5$
 
 [LỜI GIẢI CŨ – VI]
-Hàng đơn vị: $4+8=12$, viết $2$ nhớ $1$. Hàng chục: $2+1+1=4$. Vậy $24+18=42$.
+a) Số 2 có 5 lần: $2+2+2+2+2=2\times5$.
 
-**Đáp số.** $42$.
+b) Số 4 có 3 lần: $4+4+4=4\times3$.
+
+c) Số 5 có 2 lần: $5+5=5\times2$.
+
+**Đáp số.** a) $2\times5$; b) $4\times3$; c) $5\times2$.
 
 [ĐỀ – EN]
-Work out $24+18$.
+Write each sum as a multiplication:
+
+a) $2+2+2+2+2$
+
+b) $4+4+4$
+
+c) $5+5$
 
 [LỜI GIẢI CŨ – EN]
-Ones: $4+8=12$, write $2$ carry $1$. Tens: $2+1+1=4$. So $24+18=42$.
+a) The number 2 appears 5 times: $2+2+2+2+2=2\times5$.
 
-**Answer.** $42$.
+b) The number 4 appears 3 times: $4+4+4=4\times3$.
+
+c) The number 5 appears 2 times: $5+5=5\times2$.
+
+**Answer.** a) $2\times5$; b) $4\times3$; c) $5\times2$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Đặt tính rồi tính $37+25$.
+Viết mỗi phép nhân thành tổng các số hạng bằng nhau rồi tính:
+
+a) $3\times2$
+
+b) $2\times6$
+
+c) $5\times4$
 
 [LỜI GIẢI CŨ – VI]
-$7+5=12$, viết $2$ nhớ $1$. $3+2+1=6$. Vậy $37+25=62$.
+a) $3\times2=3+3=6$.
 
-**Đáp số.** $62$.
+b) $2\times6=2+2+2+2+2+2=12$.
+
+c) $5\times4=5+5+5+5=20$.
+
+**Đáp số.** a) 6; b) 12; c) 20.
 
 [ĐỀ – EN]
-Set out the column and work out $37+25$.
+Write each multiplication as a sum of equal addends and work it out:
+
+a) $3\times2$
+
+b) $2\times6$
+
+c) $5\times4$
 
 [LỜI GIẢI CŨ – EN]
-$7+5=12$, write $2$ carry $1$. $3+2+1=6$. So $37+25=62$.
+a) $3\times2=3+3=6$.
 
-**Answer.** $62$.
+b) $2\times6=2+2+2+2+2+2=12$.
+
+c) $5\times4=5+5+5+5=20$.
+
+**Answer.** a) 6; b) 12; c) 20.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài trước. Tính $58+7$.
+Trong phép nhân $4\times3=12$, số nào là thừa số, số nào là tích?
 
 [LỜI GIẢI CŨ – VI]
-$8+7=15$, viết $5$ nhớ $1$. $5+1=6$. Vậy $58+7=65$.
+Số $4$ và số $3$ là các thừa số. Số $12$ là tích.
 
-**Đáp số.** $65$.
+**Đáp số.** Thừa số: 4 và 3; tích: 12.
 
 [ĐỀ – EN]
-Remember the last lesson. Work out $58+7$.
+In the multiplication $4\times3=12$, which numbers are the factors and which is the product?
 
 [LỜI GIẢI CŨ – EN]
-$8+7=15$, write $5$ carry $1$. $5+1=6$. So $58+7=65$.
+The numbers $4$ and $3$ are the factors. The number $12$ is the product.
 
-**Answer.** $65$.
+**Answer.** Factors: 4 and 3; product: 12.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Tính.
+Tính:
 
-a) $45+39$.
+a) Tích của 2 và 8.
 
-b) $56+27$.
+b) Tích của 5 và 3.
 
 [LỜI GIẢI CŨ – VI]
-a) $5+9=14$, viết $4$ nhớ $1$; $4+3+1=8$. Vậy $45+39=84$.
+a) $2\times8=2+2+2+2+2+2+2+2=16$.
 
-b) $6+7=13$, viết $3$ nhớ $1$; $5+2+1=8$. Vậy $56+27=83$.
+b) $5\times3=5+5+5=15$.
 
-**Đáp số.** a) $84$; b) $83$.
+**Đáp số.** a) 16; b) 15.
 
 [ĐỀ – EN]
-Work out.
+Work out:
 
-a) $45+39$.
+a) The product of 2 and 8.
 
-b) $56+27$.
+b) The product of 5 and 3.
 
 [LỜI GIẢI CŨ – EN]
-a) $5+9=14$, write $4$ carry $1$; $4+3+1=8$. So $45+39=84$.
+a) $2\times8=2+2+2+2+2+2+2+2=16$.
 
-b) $6+7=13$, write $3$ carry $1$; $5+2+1=8$. So $56+27=83$.
+b) $5\times3=5+5+5=15$.
 
-**Answer.** a) $84$; b) $83$.
+**Answer.** a) 16; b) 15.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống. Em hãy nói vì sao.
-
-a) $38+47 \;\square\; 84$.
-
-b) $29+35 \;\square\; 65$.
-
-[LỜI GIẢI CŨ – VI]
-a) $38+47=85$. Vì $85>84$ nên $38+47>84$.
-
-b) $29+35=64$. Vì $64<65$ nên $29+35<65$.
-
-**Đáp số.** a) Dấu $>$; b) Dấu $<$.
-
-[ĐỀ – EN]
-Write $>$, $<$ or $=$ in the box. Say why.
-
-a) $38+47 \;\square\; 84$.
-
-b) $29+35 \;\square\; 65$.
-
-[LỜI GIẢI CŨ – EN]
-a) $38+47=85$. Since $85>84$, we have $38+47>84$.
-
-b) $29+35=64$. Since $64<65$, we have $29+35<65$.
-
-**Answer.** a) The sign $>$; b) the sign $<$.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Bạn Hà làm bài: $36+47=73$. Bạn Hà làm sai ở đâu? Em hãy sửa lại cho đúng.
-
-[LỜI GIẢI CŨ – VI]
-$6+7=13$, viết $3$ nhớ $1$. Hàng chục phải là $3+4+1=8$, nhưng bạn Hà chỉ làm $3+4=7$ (quên chục nhớ). Vậy $36+47=83$.
-
-**Đáp số.** Bạn Hà quên chục nhớ; đúng là $83$.
-
-[ĐỀ – EN]
-Ha wrote: $36+47=73$. Where did Ha go wrong? Correct the answer.
-
-[LỜI GIẢI CŨ – EN]
-$6+7=13$, write $3$ carry $1$. The tens should be $3+4+1=8$, but Ha only worked out $3+4=7$ (the carried ten was forgotten). So $36+47=83$.
-
-**Answer.** Ha forgot the carried ten; the right answer is $83$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Tổ Một trồng được $49$ cây, tổ Hai trồng được $38$ cây. Hỏi cả hai tổ trồng được bao nhiêu cây?
-
-[LỜI GIẢI CŨ – VI]
-$9+8=17$, viết $7$ nhớ $1$. $4+3+1=8$. Số cây là:
-$$49+38=87\ \text{(cây)}.$$
-
-**Đáp số.** $87$ cây.
-
-[ĐỀ – EN]
-Group One planted $49$ trees and Group Two planted $38$ trees. How many trees did the two groups plant altogether?
-
-[LỜI GIẢI CŨ – EN]
-$9+8=17$, write $7$ carry $1$. $4+3+1=8$. The number of trees is:
-$$49+38=87\ \text{(trees)}.$$
-
-**Answer.** $87$ trees.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Tìm chữ số thích hợp điền vào ô trống: $5\square+27=84$.
-
-[LỜI GIẢI CŨ – VI]
-Hàng đơn vị của tổng là $4$, nên $\square+7=14$, suy ra $\square=7$. Thử lại: $57+27=84$ (vì $7+7=14$ và $5+2+1=8$).
-
-**Đáp số.** Chữ số cần điền là $7$.
-
-[ĐỀ – EN]
-Find the missing digit: $5\square+27=84$.
-
-[LỜI GIẢI CŨ – EN]
-The ones digit of the sum is $4$, so $\square+7=14$, which gives $\square=7$. Check: $57+27=84$ (because $7+7=14$ and $5+2+1=8$).
-
-**Answer.** The missing digit is $7$.
-
-
-######################################################################
-@@@ g2/regroup-subtract-1-digit
-Bài học: Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số / Subtracting a one-digit number from a two-digit number (with regrouping)
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Tính $53-7$.
-
-[LỜI GIẢI CŨ – VI]
-Hàng đơn vị: $3$ không trừ được $7$, mượn $1$ chục, $13-7=6$. Hàng chục: $5-1=4$. Vậy $53-7=46$.
-
-**Đáp số.** $46$.
-
-[ĐỀ – EN]
-Work out $53-7$.
-
-[LỜI GIẢI CŨ – EN]
-Ones: $3$ is too small to take away $7$, so borrow $1$ ten, $13-7=6$. Tens: $5-1=4$. So $53-7=46$.
-
-**Answer.** $46$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Đặt tính rồi tính $72-5$.
-
-[LỜI GIẢI CŨ – VI]
-$12-5=7$, hàng chục $7-1=6$. Vậy $72-5=67$.
-
-**Đáp số.** $67$.
-
-[ĐỀ – EN]
-Set out the column and work out $72-5$.
-
-[LỜI GIẢI CŨ – EN]
-$12-5=7$, tens $7-1=6$. So $72-5=67$.
-
-**Answer.** $67$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Em hãy nhớ lại bài cộng có nhớ.
-
-a) Tính $29+7$.
-
-b) Dùng kết quả câu a) để tính $36-7$.
-
-[LỜI GIẢI CŨ – VI]
-a) $9+7=16$, viết $6$ nhớ $1$; $2+1=3$. Vậy $29+7=36$.
-
-b) $16-7=9$, hàng chục $3-1=2$. Vậy $36-7=29$, đúng với phép cộng ở câu a).
-
-**Đáp số.** a) $36$; b) $29$.
-
-[ĐỀ – EN]
-Remember addition with regrouping.
-
-a) Work out $29+7$.
-
-b) Use part a) to work out $36-7$.
-
-[LỜI GIẢI CŨ – EN]
-a) $9+7=16$, write $6$ carry $1$; $2+1=3$. So $29+7=36$.
-
-b) $16-7=9$, tens $3-1=2$. So $36-7=29$, which matches the addition in part a).
-
-**Answer.** a) $36$; b) $29$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Tìm số thích hợp điền vào ô trống.
-
-a) $45-\square=39$.
-
-b) $71-\square=64$.
-
-[LỜI GIẢI CŨ – VI]
-a) Từ $39$ lên $45$ cần $6$. Thử lại: $45-6=39$.
-
-b) Từ $64$ lên $71$ cần $7$. Thử lại: $71-7=64$.
-
-**Đáp số.** a) $6$; b) $7$.
-
-[ĐỀ – EN]
-Find the missing number.
-
-a) $45-\square=39$.
-
-b) $71-\square=64$.
-
-[LỜI GIẢI CŨ – EN]
-a) From $39$ up to $45$ is $6$. Check: $45-6=39$.
-
-b) From $64$ up to $71$ is $7$. Check: $71-7=64$.
-
-**Answer.** a) $6$; b) $7$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống. Em hãy nói vì sao.
-
-a) $62-8 \;\square\; 55$.
-
-b) $40-3 \;\square\; 37$.
-
-[LỜI GIẢI CŨ – VI]
-a) $62-8=54$. Vì $54<55$ nên $62-8<55$.
-
-b) $40-3=37$. Hai số bằng nhau nên $40-3=37$.
-
-**Đáp số.** a) Dấu $<$; b) Dấu $=$.
-
-[ĐỀ – EN]
-Write $>$, $<$ or $=$ in the box. Say why.
-
-a) $62-8 \;\square\; 55$.
-
-b) $40-3 \;\square\; 37$.
-
-[LỜI GIẢI CŨ – EN]
-a) $62-8=54$. Since $54<55$, we have $62-8<55$.
-
-b) $40-3=37$. The two numbers are equal, so $40-3=37$.
-
-**Answer.** a) The sign $<$; b) the sign $=$.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Bạn Bình làm bài: $52-7=55$. Bạn Bình làm sai ở đâu? Em hãy sửa lại cho đúng.
-
-[LỜI GIẢI CŨ – VI]
-Bạn Bình lấy $7-2=5$, đó là sai vì phải lấy $2$ trừ $7$. Mượn $1$ chục: $12-7=5$, hàng chục $5-1=4$. Vậy $52-7=45$.
-
-**Đáp số.** Bạn Bình lấy số lớn trừ số nhỏ; đúng là $45$.
-
-[ĐỀ – EN]
-Binh wrote: $52-7=55$. Where did Binh go wrong? Correct the answer.
-
-[LỜI GIẢI CŨ – EN]
-Binh worked out $7-2=5$, which is wrong because you must take $7$ away from $2$. Borrow $1$ ten: $12-7=5$, tens $5-1=4$. So $52-7=45$.
-
-**Answer.** Binh took the smaller digit from the bigger one; the right answer is $45$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Trong rổ có $64$ quả cam. Mẹ bán đi $9$ quả cam. Hỏi trong rổ còn lại bao nhiêu quả cam?
-
-[LỜI GIẢI CŨ – VI]
-Hàng đơn vị: mượn $1$ chục, $14-9=5$. Hàng chục: $6-1=5$. Số quả cam còn lại là:
-$$64-9=55\ \text{(quả)}.$$
-
-**Đáp số.** $55$ quả cam.
-
-[ĐỀ – EN]
-A basket has $64$ oranges. Mum sells $9$ oranges. How many oranges are left in the basket?
-
-[LỜI GIẢI CŨ – EN]
-Ones: borrow $1$ ten, $14-9=5$. Tens: $6-1=5$. The number of oranges left is:
-$$64-9=55\ \text{(oranges)}.$$
-
-**Answer.** $55$ oranges.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Tìm chữ số thích hợp điền vào ô trống: $7\square-8=65$.
-
-[LỜI GIẢI CŨ – VI]
-$(10+\square)-8=5$ nên $10+\square=13$, suy ra $\square=3$. Thử lại: $73-8=65$ (vì $13-8=5$ và $7-1=6$).
-
-**Đáp số.** Chữ số cần điền là $3$.
-
-[ĐỀ – EN]
-Find the missing digit: $7\square-8=65$.
-
-[LỜI GIẢI CŨ – EN]
-$(10+\square)-8=5$, so $10+\square=13$, which gives $\square=3$. Check: $73-8=65$ (because $13-8=5$ and $7-1=6$).
-
-**Answer.** The missing digit is $3$.
-
-
-######################################################################
-@@@ g2/regroup-subtract-2-digit
-Bài học: Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số / Subtracting a two-digit number from a two-digit number (with regrouping)
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Tính $74-36$.
-
-[LỜI GIẢI CŨ – VI]
-Hàng đơn vị: $4$ không trừ được $6$, mượn $1$ chục, $14-6=8$. Hàng chục: $7-1-3=3$. Vậy $74-36=38$.
-
-**Đáp số.** $38$.
-
-[ĐỀ – EN]
-Work out $74-36$.
-
-[LỜI GIẢI CŨ – EN]
-Ones: $4$ is too small to take away $6$, so borrow $1$ ten, $14-6=8$. Tens: $7-1-3=3$. So $74-36=38$.
-
-**Answer.** $38$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Đặt tính rồi tính $85-29$.
-
-[LỜI GIẢI CŨ – VI]
-$15-9=6$. Hàng chục: $8-1-2=5$. Vậy $85-29=56$.
-
-**Đáp số.** $56$.
-
-[ĐỀ – EN]
-Set out the column and work out $85-29$.
-
-[LỜI GIẢI CŨ – EN]
-$15-9=6$. Tens: $8-1-2=5$. So $85-29=56$.
-
-**Answer.** $56$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Em hãy nhớ lại bài trước. Tính $61-8$.
-
-[LỜI GIẢI CŨ – VI]
-$11-8=3$. Hàng chục: $6-1=5$. Vậy $61-8=53$.
-
-**Đáp số.** $53$.
-
-[ĐỀ – EN]
-Remember the last lesson. Work out $61-8$.
-
-[LỜI GIẢI CŨ – EN]
-$11-8=3$. Tens: $6-1=5$. So $61-8=53$.
-
-**Answer.** $53$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Tính.
-
-a) $93-47$.
-
-b) $60-25$.
-
-[LỜI GIẢI CŨ – VI]
-a) $13-7=6$; $9-1-4=4$. Vậy $93-47=46$.
-
-b) $10-5=5$; $6-1-2=3$. Vậy $60-25=35$.
-
-**Đáp số.** a) $46$; b) $35$.
-
-[ĐỀ – EN]
-Work out.
-
-a) $93-47$.
-
-b) $60-25$.
-
-[LỜI GIẢI CŨ – EN]
-a) $13-7=6$; $9-1-4=4$. So $93-47=46$.
-
-b) $10-5=5$; $6-1-2=3$. So $60-25=35$.
-
-**Answer.** a) $46$; b) $35$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống. Em hãy nói vì sao.
-
-a) $71-34 \;\square\; 36$.
-
-b) $56-19 \;\square\; 38$.
-
-[LỜI GIẢI CŨ – VI]
-a) $71-34=37$. Vì $37>36$ nên $71-34>36$.
-
-b) $56-19=37$. Vì $37<38$ nên $56-19<38$.
-
-**Đáp số.** a) Dấu $>$; b) Dấu $<$.
-
-[ĐỀ – EN]
-Write $>$, $<$ or $=$ in the box. Say why.
-
-a) $71-34 \;\square\; 36$.
-
-b) $56-19 \;\square\; 38$.
-
-[LỜI GIẢI CŨ – EN]
-a) $71-34=37$. Since $37>36$, we have $71-34>36$.
-
-b) $56-19=37$. Since $37<38$, we have $56-19<38$.
-
-**Answer.** a) The sign $>$; b) the sign $<$.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Bạn Phương làm bài: $63-27=44$. Bạn Phương làm sai ở đâu? Em hãy sửa lại cho đúng.
-
-[LỜI GIẢI CŨ – VI]
-Bạn Phương lấy $7-3=4$, đó là sai vì phải lấy $3$ trừ $7$. Mượn $1$ chục: $13-7=6$, hàng chục $6-1-2=3$. Vậy $63-27=36$.
-
-**Đáp số.** Bạn Phương lấy số lớn trừ số nhỏ; đúng là $36$.
-
-[ĐỀ – EN]
-Phuong wrote: $63-27=44$. Where did Phuong go wrong? Correct the answer.
-
-[LỜI GIẢI CŨ – EN]
-Phuong worked out $7-3=4$, which is wrong because you must take $7$ away from $3$. Borrow $1$ ten: $13-7=6$, tens $6-1-2=3$. So $63-27=36$.
-
-**Answer.** Phuong took the smaller digit from the bigger one; the right answer is $36$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Sân trường có $82$ bạn đang chơi. Có $37$ bạn về lớp. Hỏi sân trường còn lại bao nhiêu bạn?
-
-[LỜI GIẢI CŨ – VI]
-Hàng đơn vị: mượn $1$ chục, $12-7=5$. Hàng chục: $8-1-3=4$. Số bạn còn lại là:
-$$82-37=45\ \text{(bạn)}.$$
-
-**Đáp số.** $45$ bạn.
-
-[ĐỀ – EN]
-There are $82$ children playing in the school yard. Then $37$ children go back to class. How many children are left in the yard?
-
-[LỜI GIẢI CŨ – EN]
-Ones: borrow $1$ ten, $12-7=5$. Tens: $8-1-3=4$. The number of children left is:
-$$82-37=45\ \text{(children)}.$$
-
-**Answer.** $45$ children.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Tìm chữ số thích hợp điền vào ô trống: $7\square-28=45$.
-
-[LỜI GIẢI CŨ – VI]
-$(10+\square)-8=5$ nên $10+\square=13$, suy ra $\square=3$. Thử lại: $73-28=45$ (vì $13-8=5$ và $7-1-2=4$).
-
-**Đáp số.** Chữ số cần điền là $3$.
-
-[ĐỀ – EN]
-Find the missing digit: $7\square-28=45$.
-
-[LỜI GIẢI CŨ – EN]
-$(10+\square)-8=5$, so $10+\square=13$, which gives $\square=3$. Check: $73-28=45$ (because $13-8=5$ and $7-1-2=4$).
-
-**Answer.** The missing digit is $3$.
-
-
-######################################################################
-@@@ g2/subtract-within-1000-no-regrouping
-Bài học: Phép trừ (không nhớ) trong phạm vi 1000. Phép trừ (có nhớ) trong phạm vi 1000 / Subtraction within 1,000 (no regrouping). Subtraction within 1,000 (with regrouping)
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 7, 8 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Đặt tính rồi tính: $786-354$.
-
-[LỜI GIẢI CŨ – VI]
-$$\begin{array}{r} 786 \\ -\ 354 \\ \hline 432 \end{array}$$
-Hàng đơn vị: $6-4=2$. Hàng chục: $8-5=3$. Hàng trăm: $7-3=4$.
-
-**Đáp số.** $432$.
-
-[ĐỀ – EN]
-Set out in columns and work out: $786-354$.
-
-[LỜI GIẢI CŨ – EN]
-$$\begin{array}{r} 786 \\ -\ 354 \\ \hline 432 \end{array}$$
-Ones: $6-4=2$. Tens: $8-5=3$. Hundreds: $7-3=4$.
-
-**Answer.** $432$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Tính nhẩm: $900-400$ và $640-30$.
-
-[LỜI GIẢI CŨ – VI]
-$9$ trăm trừ $4$ trăm bằng $5$ trăm, nên $900-400=500$.
-
-$64$ chục trừ $3$ chục bằng $61$ chục, nên $640-30=610$.
-
-**Đáp số.** $500$ và $610$.
-
-[ĐỀ – EN]
-Work out in your head: $900-400$ and $640-30$.
-
-[LỜI GIẢI CŨ – EN]
-$9$ hundreds minus $4$ hundreds is $5$ hundreds, so $900-400=500$.
-
-$64$ tens minus $3$ tens is $61$ tens, so $640-30=610$.
-
-**Answer.** $500$ and $610$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Đặt tính rồi tính: $541-217$.
-
-[LỜI GIẢI CŨ – VI]
-$$\begin{array}{r} 541 \\ -\ 217 \\ \hline 324 \end{array}$$
-Hàng đơn vị: $11-7=4$, hàng chục còn $3$. Hàng chục: $3-1=2$. Hàng trăm: $5-2=3$.
-
-**Đáp số.** $324$.
-
-[ĐỀ – EN]
-Set out in columns and work out: $541-217$.
-
-[LỜI GIẢI CŨ – EN]
-$$\begin{array}{r} 541 \\ -\ 217 \\ \hline 324 \end{array}$$
-Ones: $11-7=4$ and $3$ tens are left. Tens: $3-1=2$. Hundreds: $5-2=3$.
-
-**Answer.** $324$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Đặt tính rồi tính: $625-387$.
-
-[LỜI GIẢI CŨ – VI]
-$$\begin{array}{r} 625 \\ -\ 387 \\ \hline 238 \end{array}$$
-Hàng đơn vị: $15-7=8$, hàng chục còn $1$. Hàng chục: $11-8=3$, hàng trăm còn $5$. Hàng trăm: $5-3=2$.
-
-**Đáp số.** $238$.
-
-[ĐỀ – EN]
-Set out in columns and work out: $625-387$.
-
-[LỜI GIẢI CŨ – EN]
-$$\begin{array}{r} 625 \\ -\ 387 \\ \hline 238 \end{array}$$
-Ones: $15-7=8$ and $1$ ten is left. Tens: $11-8=3$ and $5$ hundreds are left. Hundreds: $5-3=2$.
-
-**Answer.** $238$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Một cửa hàng có $735$ kg gạo, ngày đầu bán được $258$ kg. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam gạo?
-
-[LỜI GIẢI CŨ – VI]
-Số ki-lô-gam gạo cửa hàng còn lại là:
-$$735-258=477\ \text{(kg)}.$$
-Hàng đơn vị: $15-8=7$, hàng chục còn $2$. Hàng chục: $12-5=7$, hàng trăm còn $6$. Hàng trăm: $6-2=4$.
-
-**Đáp số.** $477$ kg gạo.
-
-[ĐỀ – EN]
-A shop has $735$ kg of rice and sold $258$ kg on the first day. How many kilograms of rice are left?
-
-[LỜI GIẢI CŨ – EN]
-The number of kilograms of rice left is:
-$$735-258=477\ \text{(kg)}.$$
-Ones: $15-8=7$ and $2$ tens are left. Tens: $12-5=7$ and $6$ hundreds are left. Hundreds: $6-2=4$.
-
-**Answer.** $477$ kg of rice.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Bể nước nhà bác An chứa $650$ lít nước. Sau một tuần dùng, bể hết $275$ lít. Hỏi bể còn lại bao nhiêu lít nước?
-
-[LỜI GIẢI CŨ – VI]
-Số lít nước còn lại trong bể là:
-$$650-275=375\ \text{(lít)}.$$
-Hàng đơn vị: $10-5=5$, hàng chục còn $4$. Hàng chục: $14-7=7$, hàng trăm còn $5$. Hàng trăm: $5-2=3$.
-
-**Đáp số.** $375$ lít nước.
-
-[ĐỀ – EN]
-Uncle An's water tank holds $650$ litres. After a week the tank has used $275$ litres. How many litres of water are left in the tank?
-
-[LỜI GIẢI CŨ – EN]
-The number of litres of water left in the tank is:
-$$650-275=375\ \text{(litres)}.$$
-Ones: $10-5=5$ and $4$ tens are left. Tens: $14-7=7$ and $5$ hundreds are left. Hundreds: $5-2=3$.
-
-**Answer.** $375$ litres of water.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Tính nhanh $400-138$. Gợi ý: viết $400=399+1$.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $400-138=(399-138)+1$.
-
-$$399-138=261.$$
-Vậy $400-138=261+1=262$.
-
-Thử lại: $262+138=400$. Đúng.
-
-**Đáp số.** $262$.
-
-[ĐỀ – EN]
-Work out quickly: $400-138$. Hint: write $400=399+1$.
-
-[LỜI GIẢI CŨ – EN]
-We have $400-138=(399-138)+1$.
-
-$$399-138=261.$$
-So $400-138=261+1=262$.
-
-Check: $262+138=400$. Correct.
-
-**Answer.** $262$.
-
-
-######################################################################
-@@@ g2/subtraction-crossing-10
-Bài học: Phép trừ (qua 10) trong phạm vi 20. Bảng trừ (qua 10) / Subtraction bridging through 10 (within 20). Subtraction facts bridging through 10
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Tính, tách số trừ để được 10:
-
-a) $12-5$
-
-b) $14-8$
-
-c) $11-9$
-
-[LỜI GIẢI CŨ – VI]
-a) $12-5=12-2-3=10-3=7$.
-
-b) $14-8=14-4-4=10-4=6$.
-
-c) $11-9=11-1-8=10-8=2$.
-
-**Đáp số.** a) 7; b) 6; c) 2.
-
-[ĐỀ – EN]
-Work out, splitting the number you take away to reach 10:
-
-a) $12-5$
-
-b) $14-8$
-
-c) $11-9$
-
-[LỜI GIẢI CŨ – EN]
-a) $12-5=12-2-3=10-3=7$.
-
-b) $14-8=14-4-4=10-4=6$.
-
-c) $11-9=11-1-8=10-8=2$.
-
-**Answer.** a) 7; b) 6; c) 2.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Tính nhẩm:
-
-a) $13-7$
-
-b) $16-9$
-
-c) $17-8$
-
-[LỜI GIẢI CŨ – VI]
-a) $13-7=13-3-4=10-4=6$.
-
-b) $16-9=16-6-3=10-3=7$.
-
-c) $17-8=17-7-1=10-1=9$.
-
-**Đáp số.** a) 6; b) 7; c) 9.
-
-[ĐỀ – EN]
-Work out in your head:
-
-a) $13-7$
-
-b) $16-9$
-
-c) $17-8$
-
-[LỜI GIẢI CŨ – EN]
-a) $13-7=13-3-4=10-4=6$.
-
-b) $16-9=16-6-3=10-3=7$.
-
-c) $17-8=17-7-1=10-1=9$.
-
-**Answer.** a) 6; b) 7; c) 9.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Biết $9+8=17$. Viết hai phép trừ tương ứng.
-
-[LỜI GIẢI CŨ – VI]
-Tổng là 17. Ta có:
-$$17-9=8,\qquad 17-8=9.$$
-
-**Đáp số.** $17-9=8$ và $17-8=9$.
-
-[ĐỀ – EN]
-You know that $9+8=17$. Write the two matching subtractions.
-
-[LỜI GIẢI CŨ – EN]
-The sum is 17. We have:
-$$17-9=8,\qquad 17-8=9.$$
-
-**Answer.** $17-9=8$ and $17-8=9$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống:
-$$15-7\ \square\ 9,\qquad 13-6\ \square\ 7,\qquad 12-4\ \square\ 7.$$
-
-[LỜI GIẢI CŨ – VI]
-Ta có $15-7=8$ và $8<9$.
-Ta có $13-6=7$ và $7=7$.
-Ta có $12-4=8$ và $8>7$.
-
-**Đáp số.** $15-7<9$; $13-6=7$; $12-4>7$.
-
-[ĐỀ – EN]
-Write $>$, $<$ or $=$ in each box:
-$$15-7\ \square\ 9,\qquad 13-6\ \square\ 7,\qquad 12-4\ \square\ 7.$$
-
-[LỜI GIẢI CŨ – EN]
-We have $15-7=8$ and $8<9$.
-We have $13-6=7$ and $7=7$.
-We have $12-4=8$ and $8>7$.
-
-**Answer.** $15-7<9$; $13-6=7$; $12-4>7$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Giả sử trong hộp có 15 viên bi. Nam lấy ra 6 viên bi. Hỏi trong hộp còn lại bao nhiêu viên bi?
+Giả sử mỗi chiếc xe đạp có 2 bánh xe. Có 6 chiếc xe đạp như vậy. Hỏi có tất cả bao nhiêu bánh xe?
 
 [LỜI GIẢI CŨ – VI]
 Bài giải
 
-Trong hộp còn lại số viên bi là:
-$$15-6=15-5-1=10-1=9\ \text{(viên)}.$$
-Đáp số: 9 viên bi.
+Có tất cả số bánh xe là:
+$$2\times6=12\ \text{(bánh xe)}.$$
+Đáp số: 12 bánh xe.
 
 [ĐỀ – EN]
-Suppose there are 15 marbles in a box. Nam takes out 6 marbles. How many marbles are left in the box?
+Suppose each bicycle has 2 wheels. There are 6 bicycles like this. How many wheels are there altogether?
 
 [LỜI GIẢI CŨ – EN]
 Solution
 
-The number of marbles left in the box is:
-$$15-6=15-5-1=10-1=9\ \text{(marbles)}.$$
-Answer: 9 marbles.
+The number of wheels altogether is:
+$$2\times6=12\ \text{(wheels)}.$$
+Answer: 12 wheels.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Giả sử sân trường có 17 bạn đang chơi. Có 9 bạn đi vào lớp. Hỏi sân trường còn lại bao nhiêu bạn đang chơi?
+Giả sử mỗi bạn có 3 cái kẹo. Có 5 bạn như vậy. Hỏi có tất cả bao nhiêu cái kẹo?
 
 [LỜI GIẢI CŨ – VI]
 Bài giải
 
-Sân trường còn lại số bạn đang chơi là:
-$$17-9=17-7-2=10-2=8\ \text{(bạn)}.$$
-Đáp số: 8 bạn.
+Có tất cả số cái kẹo là:
+$$3\times5=15\ \text{(cái)}.$$
+Đáp số: 15 cái kẹo.
 
 [ĐỀ – EN]
-Suppose 17 children are playing in the school playground. 9 children go back into class. How many children are still playing in the playground?
+Suppose each child has 3 sweets. There are 5 children like this. How many sweets are there altogether?
 
 [LỜI GIẢI CŨ – EN]
 Solution
 
-The number of children still playing in the playground is:
-$$17-9=17-7-2=10-2=8\ \text{(children)}.$$
-Answer: 8 children.
+The number of sweets altogether is:
+$$3\times5=15\ \text{(sweets)}.$$
+Answer: 15 sweets.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Nhớ lại bài toán về ít hơn. Lan có 14 bông hoa. Mai có ít hơn Lan 6 bông hoa. Hỏi Mai có bao nhiêu bông hoa?
+Nhớ lại các thành phần của phép cộng. Cho phép cộng $4+4+4+4=16$.
+
+a) Viết thành phép nhân.
+
+b) Gọi tên các số hạng, tổng, thừa số, tích.
+
+[LỜI GIẢI CŨ – VI]
+a) Số 4 được lấy 4 lần nên $4+4+4+4=4\times4=16$.
+
+b) Trong phép cộng: các số hạng là $4$, $4$, $4$, $4$ và tổng là $16$. Trong phép nhân $4\times4=16$: các thừa số là $4$ và $4$, tích là $16$.
+
+**Đáp số.** $4\times4=16$; xem phần gọi tên ở trên.
+
+[ĐỀ – EN]
+Remember the parts of an addition. You have the addition $4+4+4+4=16$.
+
+a) Write it as a multiplication.
+
+b) Name the addends, the sum, the factors and the product.
+
+[LỜI GIẢI CŨ – EN]
+a) The number 4 is taken 4 times, so $4+4+4+4=4\times4=16$.
+
+b) In the addition: the addends are $4$, $4$, $4$ and $4$, and the sum is $16$. In the multiplication $4\times4=16$: the factors are $4$ and $4$, and the product is $16$.
+
+**Answer.** $4\times4=16$; see the naming above.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Viết số 12 thành tổng các số hạng bằng nhau theo ít nhất ba cách khác nhau, rồi viết mỗi cách thành phép nhân.
+
+[LỜI GIẢI CŨ – VI]
+Có các cách:
+$$6+6=6\times2,\qquad 4+4+4=4\times3,\qquad 3+3+3+3=3\times4,$$
+$$2+2+2+2+2+2=2\times6.$$
+Mỗi tổng đều bằng 12.
+
+**Đáp số.** Ví dụ $6\times2$, $4\times3$, $3\times4$, $2\times6$ đều bằng 12.
+
+[ĐỀ – EN]
+Write the number 12 as a sum of equal addends in at least three different ways, then write each way as a multiplication.
+
+[LỜI GIẢI CŨ – EN]
+The ways are:
+$$6+6=6\times2,\qquad 4+4+4=4\times3,\qquad 3+3+3+3=3\times4,$$
+$$2+2+2+2+2+2=2\times6.$$
+Each sum is equal to 12.
+
+**Answer.** For example $6\times2$, $4\times3$, $3\times4$ and $2\times6$ all equal 12.
+
+
+######################################################################
+@@@ g2/kilograms
+Bài học: Ki-lô-gam. Lít / Kilograms. Litres
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Một túi cam đặt trên cân, kim cân chỉ đúng vạch ghi số 6. Túi cam nặng bao nhiêu ki-lô-gam?
+
+[LỜI GIẢI CŨ – VI]
+Kim cân chỉ vạch ghi số 6 nên túi cam nặng 6 kg.
+
+**Đáp số.** 6 kg.
+
+[ĐỀ – EN]
+A bag of oranges is placed on a set of scales and the pointer is exactly at the mark labelled 6. What is the mass of the bag of oranges in kilograms?
+
+[LỜI GIẢI CŨ – EN]
+The pointer is at the mark labelled 6, so the bag of oranges has a mass of 6 kg.
+
+**Answer.** 6 kg.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Trên một cân đĩa, đĩa bên trái chứa quả bưởi hạ thấp hơn đĩa bên phải chứa quả cam. Quả nào nhẹ hơn?
+
+[LỜI GIẢI CŨ – VI]
+Đĩa có quả bưởi hạ thấp hơn nên quả bưởi nặng hơn. Vậy quả cam nhẹ hơn.
+
+**Đáp số.** Quả cam nhẹ hơn.
+
+[ĐỀ – EN]
+On a set of balance scales, the left pan holds a grapefruit and is lower than the right pan, which holds an orange. Which is lighter?
+
+[LỜI GIẢI CŨ – EN]
+The pan with the grapefruit is lower, so the grapefruit is heavier. So the orange is lighter.
+
+**Answer.** The orange is lighter.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tính:
+
+a) $6\ \text{kg}+9\ \text{kg}$
+
+b) $16\ \text{kg}-7\ \text{kg}$
+
+c) $5\ \text{l}+8\ \text{l}$
+
+d) $14\ \text{l}-6\ \text{l}$
+
+[LỜI GIẢI CŨ – VI]
+a) $6\ \text{kg}+9\ \text{kg}=15\ \text{kg}$.
+
+b) $16\ \text{kg}-7\ \text{kg}=9\ \text{kg}$.
+
+c) $5\ \text{l}+8\ \text{l}=13\ \text{l}$.
+
+d) $14\ \text{l}-6\ \text{l}=8\ \text{l}$.
+
+**Đáp số.** a) 15 kg; b) 9 kg; c) 13 l; d) 8 l.
+
+[ĐỀ – EN]
+Work out:
+
+a) $6\ \text{kg}+9\ \text{kg}$
+
+b) $16\ \text{kg}-7\ \text{kg}$
+
+c) $5\ \text{l}+8\ \text{l}$
+
+d) $14\ \text{l}-6\ \text{l}$
+
+[LỜI GIẢI CŨ – EN]
+a) $6\ \text{kg}+9\ \text{kg}=15\ \text{kg}$.
+
+b) $16\ \text{kg}-7\ \text{kg}=9\ \text{kg}$.
+
+c) $5\ \text{l}+8\ \text{l}=13\ \text{l}$.
+
+d) $14\ \text{l}-6\ \text{l}=8\ \text{l}$.
+
+**Answer.** a) 15 kg; b) 9 kg; c) 13 l; d) 8 l.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Chọn đơn vị kg hoặc l cho chỗ trống:
+
+a) Con gà nặng 3 $\square$.
+
+b) Xô nước đựng 10 $\square$ nước.
+
+c) Bao gạo nặng 5 $\square$.
+
+[LỜI GIẢI CŨ – VI]
+a) Con gà nặng 3 kg.
+
+b) Xô nước đựng 10 l nước.
+
+c) Bao gạo nặng 5 kg.
+
+**Đáp số.** a) kg; b) l; c) kg.
+
+[ĐỀ – EN]
+Choose the unit kg or l for each gap:
+
+a) A hen has a mass of 3 $\square$.
+
+b) A bucket holds 10 $\square$ of water.
+
+c) A sack of rice has a mass of 5 $\square$.
+
+[LỜI GIẢI CŨ – EN]
+a) A hen has a mass of 3 kg.
+
+b) A bucket holds 10 l of water.
+
+c) A sack of rice has a mass of 5 kg.
+
+**Answer.** a) kg; b) l; c) kg.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giả sử mẹ mua 9 kg gạo tẻ và 5 kg gạo nếp. Hỏi mẹ mua tất cả bao nhiêu ki-lô-gam gạo?
 
 [LỜI GIẢI CŨ – VI]
 Bài giải
 
-Mai có số bông hoa là:
-$$14-6=14-4-2=10-2=8\ \text{(bông)}.$$
-Đáp số: 8 bông hoa.
+Mẹ mua tất cả số ki-lô-gam gạo là:
+$$9+5=14\ \text{(kg)}.$$
+Đáp số: 14 kg gạo.
 
 [ĐỀ – EN]
-Remember the word problems about fewer than. Lan has 14 flowers. Mai has 6 fewer flowers than Lan. How many flowers does Mai have?
+Suppose Mum buys 9 kg of plain rice and 5 kg of sticky rice. How many kilograms of rice does she buy altogether?
 
 [LỜI GIẢI CŨ – EN]
 Solution
 
-The number of flowers Mai has is:
-$$14-6=14-4-2=10-2=8\ \text{(flowers)}.$$
-Answer: 8 flowers.
+The number of kilograms of rice Mum buys altogether is:
+$$9+5=14\ \text{(kg)}.$$
+Answer: 14 kg of rice.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử thùng thứ nhất đựng 12 lít nước. Thùng thứ hai đựng nhiều hơn thùng thứ nhất 5 lít nước. Hỏi thùng thứ hai đựng bao nhiêu lít nước?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Thùng thứ hai đựng số lít nước là:
+$$12+5=17\ \text{(l)}.$$
+Đáp số: 17 l nước.
+
+[ĐỀ – EN]
+Suppose the first tank holds 12 litres of water. The second tank holds 5 litres more than the first. How many litres of water does the second tank hold?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of litres of water the second tank holds is:
+$$12+5=17\ \text{(l)}.$$
+Answer: 17 l of water.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Nhớ lại bài "Hơn, kém nhau bao nhiêu". Bao gạo nặng 15 kg, bao ngô nặng 9 kg. Bao nào nặng hơn? Nặng hơn mấy ki-lô-gam?
+
+[LỜI GIẢI CŨ – VI]
+Ta có $15>9$ nên bao gạo nặng hơn. Bao gạo nặng hơn bao ngô là:
+$$15-9=6\ \text{(kg)}.$$
+
+**Đáp số.** Bao gạo nặng hơn, nặng hơn 6 kg.
+
+[ĐỀ – EN]
+Remember the lesson "How many more or fewer?". A sack of rice has a mass of 15 kg and a sack of maize has a mass of 9 kg. Which is heavier? By how many kilograms?
+
+[LỜI GIẢI CŨ – EN]
+We have $15>9$, so the sack of rice is heavier. It is heavier than the sack of maize by:
+$$15-9=6\ \text{(kg)}.$$
+
+**Answer.** The sack of rice is heavier, by 6 kg.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Trong bảng trừ qua 10, những phép trừ nào có hiệu bằng 9? Em nhận ra điều gì về số bị trừ và số trừ của các phép trừ ấy?
+Giả sử một can đựng 10 lít dầu. Lần đầu người ta rót ra 4 lít, lần sau rót ra thêm 3 lít. Hỏi trong can còn lại bao nhiêu lít dầu?
 
 [LỜI GIẢI CŨ – VI]
-Các phép trừ có hiệu bằng 9 là:
-$$11-2,\ 12-3,\ 13-4,\ 14-5,\ 15-6,\ 16-7,\ 17-8,\ 18-9.$$
-Từ phép trừ này sang phép trừ kế tiếp, số bị trừ tăng 1 và số trừ cũng tăng 1, nên hiệu không đổi.
+Sau lần đầu, trong can còn:
+$$10-4=6\ \text{(l)}.$$
+Sau lần sau, trong can còn:
+$$6-3=3\ \text{(l)}.$$
 
-**Đáp số.** Có 8 phép trừ; số bị trừ và số trừ cùng tăng 1 thì hiệu vẫn bằng 9.
+**Kiểm tra.** Tổng số lít rót ra là $4+3=7$ và $10-7=3$, đúng.
+
+**Đáp số.** 3 l dầu.
 
 [ĐỀ – EN]
-In the subtraction facts that bridge through 10, which subtractions have a difference of 9? What do you notice about the minuend and the number taken away in those subtractions?
+Suppose a can holds 10 litres of oil. The first time, 4 litres are poured out, and the second time, 3 more litres are poured out. How many litres of oil are left in the can?
 
 [LỜI GIẢI CŨ – EN]
-The subtractions with a difference of 9 are:
-$$11-2,\ 12-3,\ 13-4,\ 14-5,\ 15-6,\ 16-7,\ 17-8,\ 18-9.$$
-From one of these subtractions to the next, the minuend goes up by 1 and the number taken away also goes up by 1, so the difference stays the same.
+After the first time, the can holds:
+$$10-4=6\ \text{(l)}.$$
+After the second time, the can holds:
+$$6-3=3\ \text{(l)}.$$
 
-**Answer.** There are 8 subtractions; when the minuend and the number taken away both go up by 1, the difference is still 9.
+**Check.** The total poured out is $4+3=7$ and $10-7=3$, which is correct.
+
+**Answer.** 3 l of oil.
+
+
+######################################################################
+@@@ g2/multiples-of-10-and-100
+Bài học: Các số tròn trăm, tròn chục / Multiples of 10 and 100
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Viết số.
+
+a) $3$ chục.
+
+b) $8$ chục.
+
+c) $5$ trăm.
+
+d) $9$ trăm.
+
+[LỜI GIẢI CŨ – VI]
+$3$ chục là $30$, $8$ chục là $80$, $5$ trăm là $500$, $9$ trăm là $900$.
+
+**Đáp số.** a) $30$; b) $80$; c) $500$; d) $900$.
+
+[ĐỀ – EN]
+Write the number.
+
+a) $3$ tens.
+
+b) $8$ tens.
+
+c) $5$ hundreds.
+
+d) $9$ hundreds.
+
+[LỜI GIẢI CŨ – EN]
+$3$ tens is $30$, $8$ tens is $80$, $5$ hundreds is $500$, $9$ hundreds is $900$.
+
+**Answer.** a) $30$; b) $80$; c) $500$; d) $900$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Điền số còn thiếu.
+
+a) $10, 20, \square, 40, \square, 60$.
+
+b) $100, 200, \square, 400, \square$.
+
+[LỜI GIẢI CŨ – VI]
+a) Đếm thêm $10$: $10, 20, 30, 40, 50, 60$. b) Đếm thêm $100$: $100, 200, 300, 400, 500$.
+
+**Đáp số.** a) $30$ và $50$; b) $300$ và $500$.
+
+[ĐỀ – EN]
+Fill in the missing numbers.
+
+a) $10, 20, \square, 40, \square, 60$.
+
+b) $100, 200, \square, 400, \square$.
+
+[LỜI GIẢI CŨ – EN]
+a) Counting on in tens: $10, 20, 30, 40, 50, 60$. b) Counting on in hundreds: $100, 200, 300, 400, 500$.
+
+**Answer.** a) $30$ and $50$; b) $300$ and $500$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em nhớ lại bài trước và điền số.
+
+a) $10$ chục $=\square$ trăm.
+
+b) $1$ trăm $=\square$ chục.
+
+[LỜI GIẢI CŨ – VI]
+Mười chục gộp thành một trăm, và một trăm có mười chục.
+
+**Đáp số.** a) $1$; b) $10$.
+
+[ĐỀ – EN]
+Remember the last lesson and fill in the numbers.
+
+a) $10$ tens $=\square$ hundred.
+
+b) $1$ hundred $=\square$ tens.
+
+[LỜI GIẢI CŨ – EN]
+Ten tens make one hundred, and one hundred has ten tens.
+
+**Answer.** a) $1$; b) $10$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Trong các số $25, 40, 70, 56, 90$, những số nào là số tròn chục?
+
+[LỜI GIẢI CŨ – VI]
+$40$, $70$, $90$ có chữ số cuối là $0$. $25$ và $56$ có chữ số cuối là $5$ và $6$.
+
+**Đáp số.** $40$, $70$, $90$.
+
+[ĐỀ – EN]
+Which of the numbers $25, 40, 70, 56, 90$ are multiples of 10?
+
+[LỜI GIẢI CŨ – EN]
+$40$, $70$ and $90$ end in $0$. $25$ and $56$ end in $5$ and $6$.
+
+**Answer.** $40$, $70$, $90$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Viết số.
+
+a) Bảy mươi.
+
+b) Bảy trăm.
+
+Hai số này khác nhau ở đâu? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+$7$ chục là $70$. $7$ trăm là $700$. Số $700$ có thêm một chữ số $0$ vì trăm lớn hơn chục.
+
+**Đáp số.** a) $70$; b) $700$.
+
+[ĐỀ – EN]
+Write the number.
+
+a) Seventy.
+
+b) Seven hundred.
+
+How are the two numbers different? Why?
+
+[LỜI GIẢI CŨ – EN]
+$7$ tens is $70$. $7$ hundreds is $700$. The number $700$ has one more $0$ because a hundred is bigger than a ten.
+
+**Answer.** a) $70$; b) $700$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Lan viết "$6$ trăm là $60$". Lan sai ở đâu? Sửa lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+$60$ là $6$ chục, không phải $6$ trăm. $6$ trăm phải viết hai chữ số $0$.
+
+**Đáp số.** $6$ trăm là $600$.
+
+[ĐỀ – EN]
+Lan writes "$6$ hundreds is $60$". What is wrong with what Lan writes? Correct it.
+
+[LỜI GIẢI CŨ – EN]
+$60$ is $6$ tens, not $6$ hundreds. $6$ hundreds needs two $0$s.
+
+**Answer.** $6$ hundreds is $600$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Mỗi hộp có $10$ chiếc bút. Có $8$ hộp. Hỏi có bao nhiêu chiếc bút?
+
+[LỜI GIẢI CŨ – VI]
+$8$ hộp là $8$ chục bút, tức là $80$ chiếc bút.
+
+**Đáp số.** $80$ chiếc bút.
+
+[ĐỀ – EN]
+Each box holds $10$ pens. There are $8$ boxes. How many pens are there?
+
+[LỜI GIẢI CŨ – EN]
+$8$ boxes make $8$ tens of pens, which is $80$ pens.
+
+**Answer.** $80$ pens.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Có $10$ hộp, mỗi hộp $100$ viên bi. Người ta lấy ra $4$ hộp. Còn lại bao nhiêu viên bi?
+
+[LỜI GIẢI CŨ – VI]
+Số hộp còn lại là $10-4=6$ hộp. Mỗi hộp $100$ viên, nên $6$ hộp là $6$ trăm, tức $600$ viên.
+
+**Kiểm tra.** $600+400=1000$. Đúng.
+
+**Đáp số.** $600$ viên bi.
+
+[ĐỀ – EN]
+There are $10$ boxes, each with $100$ marbles. People take away $4$ boxes. How many marbles are left?
+
+[LỜI GIẢI CŨ – EN]
+The boxes left: $10-4=6$. Each box has $100$ marbles, so $6$ boxes are $6$ hundreds, which is $600$ marbles.
+
+**Check.** $600+400=1000$. Correct.
+
+**Answer.** $600$ marbles.
+
+
+######################################################################
+@@@ g2/number-line-before-after
+Bài học: Tia số. Số liền trước, số liền sau. Các thành phần của phép cộng, phép trừ / Number lines: the number before and after. Parts of addition and subtraction
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Số?
+
+a) Từ vạch 4, nhảy sang phải 6 vạch thì đến vạch $\square$.
+
+b) Từ vạch 15, nhảy sang trái 7 vạch thì đến vạch $\square$.
+
+[LỜI GIẢI CŨ – VI]
+a) $4+6=10$.
+
+b) $15-7=8$.
+
+**Đáp số.** a) 10; b) 8.
+
+[ĐỀ – EN]
+Fill in the missing numbers.
+
+a) From mark 4, jump 6 marks to the right and you land on mark $\square$.
+
+b) From mark 15, jump 7 marks to the left and you land on mark $\square$.
+
+[LỜI GIẢI CŨ – EN]
+a) $4+6=10$.
+
+b) $15-7=8$.
+
+**Answer.** a) 10; b) 8.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tìm số liền trước và số liền sau của 79.
+
+[LỜI GIẢI CŨ – VI]
+$$79-1=78,\qquad 79+1=80.$$
+
+**Đáp số.** Số liền trước là 78, số liền sau là 80.
+
+[ĐỀ – EN]
+Find the number before and the number after 79.
+
+[LỜI GIẢI CŨ – EN]
+$$79-1=78,\qquad 79+1=80.$$
+
+**Answer.** The number before is 78 and the number after is 80.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Số?
+
+a) Số liền sau của 99 là $\square$.
+
+b) Số liền trước của 100 là $\square$.
+
+c) Số liền trước của 10 là $\square$.
+
+[LỜI GIẢI CŨ – VI]
+a) $99+1=100$.
+
+b) $100-1=99$.
+
+c) $10-1=9$.
+
+**Đáp số.** a) 100; b) 99; c) 9.
+
+[ĐỀ – EN]
+Fill in the missing numbers.
+
+a) The number after 99 is $\square$.
+
+b) The number before 100 is $\square$.
+
+c) The number before 10 is $\square$.
+
+[LỜI GIẢI CŨ – EN]
+a) $99+1=100$.
+
+b) $100-1=99$.
+
+c) $10-1=9$.
+
+**Answer.** a) 100; b) 99; c) 9.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Gọi tên mỗi số trong các phép tính $27+52=79$ và $64-21=43$.
+
+[LỜI GIẢI CŨ – VI]
+Trong phép cộng $27+52=79$: $27$ và $52$ là các số hạng, $79$ là tổng.
+Trong phép trừ $64-21=43$: $64$ là số bị trừ, $21$ là số trừ, $43$ là hiệu.
+
+**Đáp số.** Xem lời giải.
+
+[ĐỀ – EN]
+Name each number in the calculations $27+52=79$ and $64-21=43$.
+
+[LỜI GIẢI CŨ – EN]
+In the addition $27+52=79$: $27$ and $52$ are the addends and $79$ is the sum.
+In the subtraction $64-21=43$: $64$ is the minuend, $21$ is the subtrahend and $43$ is the difference.
+
+**Answer.** See the solution.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Tính:
+
+a) Tổng của 43 và 25.
+
+b) Hiệu của 79 và 34.
+
+[LỜI GIẢI CŨ – VI]
+a) $43+25=68$.
+
+b) $79-34=45$.
+
+**Đáp số.** a) 68; b) 45.
+
+[ĐỀ – EN]
+Work out:
+
+a) The sum of 43 and 25.
+
+b) The difference between 79 and 34.
+
+[LỜI GIẢI CŨ – EN]
+a) $43+25=68$.
+
+b) $79-34=45$.
+
+**Answer.** a) 68; b) 45.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Giả sử các bạn lớp 2A xếp hàng theo số thứ tự. Mai là bạn số 40. Hỏi bạn đứng ngay trước và bạn đứng ngay sau Mai là các bạn số mấy?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Bạn đứng ngay trước Mai là bạn số $40-1=39$.
+Bạn đứng ngay sau Mai là bạn số $40+1=41$.
+
+Đáp số: bạn số 39 và bạn số 41.
+
+[ĐỀ – EN]
+Suppose the children of class 2A line up by number. Mai is number 40. Which numbers are the children standing just in front of Mai and just behind her?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The child just in front of Mai is number $40-1=39$.
+The child just behind Mai is number $40+1=41$.
+
+Answer: number 39 and number 41.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Nhớ lại bài về độ dài. Dải ruy băng đỏ dài 36 cm, dải ruy băng xanh dài 21 cm. Tìm tổng độ dài và hiệu độ dài của hai dải ruy băng.
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Tổng độ dài của hai dải ruy băng là:
+$$36+21=57\ \text{(cm)}.$$
+Hiệu độ dài của hai dải ruy băng là:
+$$36-21=15\ \text{(cm)}.$$
+Đáp số: tổng 57 cm, hiệu 15 cm.
+
+[ĐỀ – EN]
+Remember the lesson on length. A red ribbon is 36 cm long and a blue ribbon is 21 cm long. Find the total length and the difference in length of the two ribbons.
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The total length of the two ribbons is:
+$$36+21=57\ \text{(cm)}.$$
+The difference in length of the two ribbons is:
+$$36-21=15\ \text{(cm)}.$$
+Answer: the total is 57 cm and the difference is 15 cm.
+
+
+######################################################################
+@@@ g2/ones-tens-hundreds-thousands
+Bài học: Đơn vị, chục, trăm, nghìn / Ones, tens, hundreds and thousands
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Điền số thích hợp.
+
+a) $10$ đơn vị $=\square$ chục.
+
+b) $10$ chục $=\square$ trăm.
+
+c) $10$ trăm $=\square$ nghìn.
+
+[LỜI GIẢI CŨ – VI]
+Mười đơn vị là một chục, mười chục là một trăm, mười trăm là một nghìn.
+
+**Đáp số.** a) $1$; b) $1$; c) $1$.
+
+[ĐỀ – EN]
+Write the right number in each box.
+
+a) $10$ ones $=\square$ ten.
+
+b) $10$ tens $=\square$ hundred.
+
+c) $10$ hundreds $=\square$ thousand.
+
+[LỜI GIẢI CŨ – EN]
+Ten ones make a ten, ten tens make a hundred, and ten hundreds make a thousand.
+
+**Answer.** a) $1$; b) $1$; c) $1$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Điền số thích hợp.
+
+a) $1$ chục $=\square$ đơn vị.
+
+b) $1$ trăm $=\square$ chục.
+
+c) $1$ nghìn $=\square$ trăm.
+
+[LỜI GIẢI CŨ – VI]
+Một chục có mười đơn vị, một trăm có mười chục, một nghìn có mười trăm.
+
+**Đáp số.** a) $10$; b) $10$; c) $10$.
+
+[ĐỀ – EN]
+Write the right number in each box.
+
+a) $1$ ten $=\square$ ones.
+
+b) $1$ hundred $=\square$ tens.
+
+c) $1$ thousand $=\square$ hundreds.
+
+[LỜI GIẢI CŨ – EN]
+One ten has ten ones, one hundred has ten tens, and one thousand has ten hundreds.
+
+**Answer.** a) $10$; b) $10$; c) $10$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước. Một lon sữa là khối trụ, có $2$ mặt phẳng. Hỏi $10$ lon sữa có bao nhiêu mặt phẳng? Đó là mấy chục?
+
+[LỜI GIẢI CŨ – VI]
+Số mặt phẳng của $10$ lon là $10\times2=20$. Mà $20=10+10$, tức là $2$ chục.
+
+**Đáp số.** $20$ mặt phẳng, là $2$ chục.
+
+[ĐỀ – EN]
+Remember the last lesson. A tin of milk is a cylinder with $2$ flat faces. How many flat faces do $10$ tins have? How many tens is that?
+
+[LỜI GIẢI CŨ – EN]
+The flat faces of $10$ tins: $10\times2=20$. And $20=10+10$, which is $2$ tens.
+
+**Answer.** $20$ flat faces, which is $2$ tens.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Đổi ra đơn vị.
+
+a) $2$ chục $=\square$ đơn vị.
+
+b) $3$ chục $=\square$ đơn vị.
+
+c) $5$ chục $=\square$ đơn vị.
+
+[LỜI GIẢI CŨ – VI]
+$2$ chục: $10+10=20$. $3$ chục: $10+10+10=30$. $5$ chục: đếm thêm mười năm lần được $50$.
+
+**Đáp số.** a) $20$; b) $30$; c) $50$.
+
+[ĐỀ – EN]
+Change to ones.
+
+a) $2$ tens $=\square$ ones.
+
+b) $3$ tens $=\square$ ones.
+
+c) $5$ tens $=\square$ ones.
+
+[LỜI GIẢI CŨ – EN]
+$2$ tens: $10+10=20$. $3$ tens: $10+10+10=30$. $5$ tens: counting on in tens five times gives $50$.
+
+**Answer.** a) $20$; b) $30$; c) $50$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Em muốn đếm $100$ viên bi nhanh. Em gói mỗi túi $10$ viên. Em cần gói bao nhiêu túi? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Mỗi túi là $1$ chục. $100$ là $1$ trăm, mà $1$ trăm có $10$ chục. Vậy cần $10$ túi.
+
+**Đáp số.** $10$ túi.
+
+[ĐỀ – EN]
+You want to count $100$ marbles quickly. You put $10$ marbles in each bag. How many bags do you need? Why?
+
+[LỜI GIẢI CŨ – EN]
+Each bag is $1$ ten. $100$ is $1$ hundred, and $1$ hundred has $10$ tens. So you need $10$ bags.
+
+**Answer.** $10$ bags.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Nam nói: "$1$ trăm bằng $10$ đơn vị." Lời nói của Nam sai ở đâu? Sửa lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+$10$ đơn vị chỉ là $1$ chục, chưa đủ $1$ trăm. Muốn có $1$ trăm cần $10$ chục.
+
+**Đáp số.** $1$ trăm bằng $10$ chục.
+
+[ĐỀ – EN]
+Nam says: "$1$ hundred is $10$ ones." What is wrong with what Nam says? Correct it.
+
+[LỜI GIẢI CŨ – EN]
+$10$ ones make only $1$ ten, not yet $1$ hundred. To make $1$ hundred you need $10$ tens.
+
+**Answer.** $1$ hundred is $10$ tens.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Một thùng có $100$ quyển vở. Cửa hàng có $10$ thùng như vậy. Hỏi có tất cả mấy nghìn quyển vở?
+
+[LỜI GIẢI CŨ – VI]
+$10$ thùng là $10$ trăm quyển vở. Mà $10$ trăm là $1$ nghìn.
+
+**Đáp số.** $1$ nghìn quyển vở.
+
+[ĐỀ – EN]
+One box holds $100$ exercise books. A shop has $10$ such boxes. How many thousands of books are there altogether?
+
+[LỜI GIẢI CŨ – EN]
+$10$ boxes make $10$ hundreds of books. And $10$ hundreds make $1$ thousand.
+
+**Answer.** $1$ thousand books.
 
 
 ===== HẾT FILE Alexnguyen122222-09-LG =====

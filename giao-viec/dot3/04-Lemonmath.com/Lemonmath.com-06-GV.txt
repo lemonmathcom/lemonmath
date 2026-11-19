@@ -6,7 +6,7 @@ Kết quả: file Lemonmath.com-06-GV-ketqua.md, lưu vào Dropbox Lemonmath.com
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – Lemonmath.com-06-GV
-Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g4/g4-bar-charts
+Gồm 3 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g3/perimeter-of-shapes, g3/right-angles, g3/rounding-thousands-ten-thousands
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/Lemonmath.com-06-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  /mnt/user-data/outputs/Lemonmath.com-06-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/3). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file Lemonmath.com-06-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,136 +135,598 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g4/g4-bar-charts – BẢN TIẾNG VIỆT ########
+######## BÀI g3/perimeter-of-shapes – BẢN TIẾNG VIỆT ########
 ---
-title: Biểu đồ cột
-description: Em học cách đọc biểu đồ cột: đọc số liệu của từng cột, so sánh các cột, tìm cột cao nhất và thấp nhất, rồi tính tổng và hiệu.
+title: Chu vi hình tam giác, hình tứ giác, hình chữ nhật, hình vuông
+description: Em học cách tính chu vi bằng cách cộng độ dài các cạnh, rồi dùng cách tính nhanh cho hình chữ nhật và hình vuông.
 minutes: 15
 ---
 
   :::goals
-  - Biết các phần của biểu đồ cột: cột, trục ngang, trục dọc.
-  - Đọc được số liệu của từng cột, tìm cột cao nhất và thấp nhất.
-  - So sánh các cột bằng phép trừ, tính tổng và trung bình cộng từ biểu đồ.
+  - Hiểu chu vi của một hình là độ dài đường bao quanh hình đó.
+  - Tính chu vi hình tam giác và hình tứ giác bằng cách cộng độ dài các cạnh.
+  - Tính nhanh chu vi hình chữ nhật và hình vuông.
+  - Giải bài toán có lời văn về chu vi.
   :::
 
-[[P1·2995]]
-Thư viện lớp em ghi số quyển sách các bạn mượn mỗi ngày trong tuần rồi vẽ thành biểu đồ cột. Ngày nào các bạn mượn nhiều sách nhất? Ngày nào ít nhất?
+[[P1·a668]]
+Mai có một tấm thiệp hình chữ nhật, dài $8$ cm, rộng $5$ cm. Mai muốn dán một sợi dây kim tuyến sát quanh mép tấm thiệp, vừa đủ một vòng. Hỏi sợi dây phải dài bao nhiêu xăng-ti-mét?
 
-[[P2·50b8]]
-Em đã biết đọc một dãy số liệu. Biểu đồ cột giúp em nhìn các số liệu đó thành những cột cao thấp khác nhau.
+[[P2·7898]]
+Em đã biết đo độ dài bằng xăng-ti-mét và biết cộng các số. Chỉ cần hai điều đó là em giải được bài toán này.
 
 ## Cùng khám phá
 
-[[P3·af30]]
-Hãy nhìn biểu đồ dưới đây.
+[[P3·362d]]
+Ta bắt đầu với một hình đơn giản hơn là hình tam giác. Chú kiến bò một vòng sát mép tam giác $ABC$, xuất phát từ $A$ rồi về lại $A$.
 
-:::diagram Số quyển sách mượn mỗi ngày trong tuần
-   (… 43 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::diagram Chú kiến bò một vòng quanh tam giác $ABC$
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-[[P4·95d6]]
-- Các cột đứng cạnh nhau. Mỗi cột ứng với một ngày: T2 là Thứ Hai, T3 là Thứ Ba, và cứ thế.
-- Trên đỉnh mỗi cột có ghi số quyển sách. Cột Thứ Hai ghi $6$.
-- Mép trái ghi các số $2, 4, 6, \ldots, 12$. Đó là số quyển sách.
+[[P4·0784]]
+Em hãy đi theo chú kiến:
 
-[[P5·375b]]
-Cột nào cao hơn thì số quyển sách nhiều hơn. Cột Thứ Năm cao nhất, ghi $12$. Cột Thứ Sáu thấp nhất, ghi $4$. Vậy Thứ Năm mượn nhiều nhất, Thứ Sáu ít nhất.
+[[P5·8ba1]]
+- Đoạn thứ nhất, từ $A$ đến $B$, dài $4$ cm.
+- Đoạn thứ hai, từ $B$ đến $C$, dài $5$ cm.
+- Đoạn thứ ba, từ $C$ về $A$, dài $3$ cm.
 
-  :::definition Biểu đồ cột
-  **Biểu đồ cột** dùng các cột có chiều rộng bằng nhau để biểu diễn số liệu. **Trục ngang** cho biết các đối tượng (ví dụ các ngày). **Trục dọc** cho biết số liệu. Cột càng cao thì số liệu càng lớn.
+[[P6·2b63]]
+Cả vòng dài $4+5+3=12$ cm. Độ dài cả vòng này gọi là **chu vi** của tam giác.
+
+  :::definition Chu vi
+  **Chu vi** của một hình là độ dài đường bao quanh hình đó.
+
+  Muốn tính chu vi hình tam giác hay hình tứ giác, em cộng độ dài tất cả các cạnh. Các độ dài phải cùng một đơn vị.
   :::
 
-[[P6·38e5]]
-Khi đọc một biểu đồ cột, em làm ba việc: xem tên biểu đồ và hai trục để biết biểu đồ nói về gì; xem mỗi vạch ứng với mấy đơn vị; rồi nhìn đỉnh cột để đọc số liệu.
+[[P7·fcd0]]
+Vì sao phải cộng *tất cả* các cạnh? Chú kiến phải đi qua từng cạnh thì mới về được chỗ cũ. Bỏ sót một cạnh là đi chưa hết vòng.
+
+## Tính nhanh cho hình chữ nhật và hình vuông
+
+[[P8·c09a]]
+Ta quay lại tấm thiệp của Mai. Hình chữ nhật có hai cạnh dài bằng nhau và hai cạnh rộng bằng nhau.
+
+:::diagram Tấm thiệp hình chữ nhật dài 8 cm, rộng 5 cm
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P9·0449]]
+Em cộng cả bốn cạnh: $8+5+8+5=26$ cm. Em thấy có hai cạnh dài và hai cạnh rộng. Vậy ta ghép thành hai cặp "dài và rộng".
+
+[[P10·3713]]
+Một cặp là $8+5=13$ cm, và có hai cặp như thế. Do đó $(8+5)\times2=13\times2=26$ cm. Sợi dây của Mai dài $26$ cm.
+
+[[P11·4c0d]]
+Hình vuông có bốn cạnh bằng nhau. Nếu cạnh dài $6$ cm thì cả vòng là $6+6+6+6=24$ cm, tức là $6\times4=24$ cm.
+
+  :::theorem Chu vi hình chữ nhật và hình vuông
+  - Hình chữ nhật: **chu vi = (chiều dài + chiều rộng) × 2**.
+  - Hình vuông: **chu vi = độ dài cạnh × 4**.
+  :::
+
+[[P12·e303]]
+Hai cách này chỉ là cách cộng gọn hơn, không có gì mới. Nếu quên công thức, em vẫn có thể cộng đủ bốn cạnh để thử lại.
 
 ## Ví dụ
 
-[[P7·8176]]
-Ta bắt đầu bằng việc đọc số liệu của từng cột.
+[[P13·f9bf]]
+Ta bắt đầu với hình tam giác.
 
-  :::example Đọc biểu đồ
-  Dùng biểu đồ trên. Hỏi: a) Thứ Ba các bạn mượn bao nhiêu quyển? b) Ngày nào mượn nhiều nhất, bao nhiêu quyển? c) Ngày nào mượn ít nhất?
+  :::example Chu vi hình tam giác
+  Tam giác $DEF$ có $DE=5$ cm, $EF=6$ cm, $FD=7$ cm. Tính chu vi tam giác $DEF$.
 
-  **Lời giải.** Ta nhìn số ghi trên đỉnh mỗi cột:
+  **Lời giải.** Chu vi là tổng độ dài ba cạnh, nên em cộng ba số đo:
+  $$5+6+7=18\ \text{(cm)}.$$
+  Vậy chu vi tam giác $DEF$ là $18$ cm.
 
-  a) Cột Thứ Ba ghi $10$, nên các bạn mượn $10$ quyển.
-
-  b) Cột cao nhất là cột Thứ Năm, ghi $12$. Vậy Thứ Năm mượn nhiều nhất, $12$ quyển.
-
-  c) Cột thấp nhất là cột Thứ Sáu. Vậy Thứ Sáu mượn ít nhất, $4$ quyển.
+  **Kiểm tra.** $5+6=11$, rồi $11+7=18$. Kết quả khớp.
   :::
 
-[[P8·cfd2]]
-Bây giờ ta so sánh hai cột bằng phép trừ.
+[[P14·3293]]
+Hình tứ giác có bốn cạnh, nên em cộng bốn số.
 
-  :::example So sánh hai cột
-  Thứ Năm các bạn mượn nhiều hơn Thứ Hai bao nhiêu quyển?
+  :::example Chu vi hình tứ giác
+  Tứ giác $MNPQ$ có $MN=4$ cm, $NP=6$ cm, $PQ=5$ cm, $QM=7$ cm. Tính chu vi.
 
-  **Lời giải.** Thứ Năm mượn $12$ quyển, Thứ Hai mượn $6$ quyển. Muốn biết nhiều hơn bao nhiêu, ta lấy số lớn trừ số bé:
-  $$12-6=6\ \text{(quyển)}.$$
-  Vậy Thứ Năm mượn nhiều hơn Thứ Hai $6$ quyển.
+  **Lời giải.** Em cộng độ dài cả bốn cạnh:
+  $$4+6+5+7=22\ \text{(cm)}.$$
+  Vậy chu vi tứ giác $MNPQ$ là $22$ cm.
   :::
 
-[[P9·7da7]]
-Ta cũng có thể cộng các cột và tìm trung bình cộng.
+[[P15·dcb9]]
+Với hình chữ nhật, em dùng cách tính nhanh.
 
-  :::example Cả tuần
-  Cả tuần các bạn mượn tất cả bao nhiêu quyển? Trung bình mỗi ngày mượn bao nhiêu quyển?
+  :::example Chu vi hình chữ nhật
+  Một hình chữ nhật có chiều dài $9$ cm, chiều rộng $4$ cm. Tính chu vi.
 
-  **Lời giải.** Cộng số quyển của cả năm ngày:
-  $$6+10+8+12+4=40\ \text{(quyển)}.$$
-  Trung bình mỗi ngày là tổng chia cho số ngày:
-  $$40:5=8\ \text{(quyển)}.$$
-  Vậy cả tuần mượn $40$ quyển, trung bình mỗi ngày $8$ quyển.
+  **Lời giải.** Hình chữ nhật có hai cặp cạnh bằng nhau, nên em cộng chiều dài với chiều rộng rồi nhân $2$:
+  $$(9+4)\times2=13\times2=26\ \text{(cm)}.$$
+  Vậy chu vi hình chữ nhật là $26$ cm.
+
+  **Kiểm tra.** Cộng đủ bốn cạnh: $9+4+9+4=26$. Khớp.
   :::
 
-[[P10·0186]]
-Cuối cùng, ta tìm các cột thoả một điều kiện.
+[[P16·3cd8]]
+Hình vuông còn dễ hơn, vì chỉ cần biết một cạnh.
 
-  :::example Hơn $7$ quyển
-  Những ngày nào các bạn mượn nhiều hơn $7$ quyển?
+  :::example Chu vi hình vuông
+  Một hình vuông có cạnh dài $7$ cm. Tính chu vi.
 
-  **Lời giải.** Ta so sánh số trên đỉnh từng cột với $7$: Thứ Hai $6<7$; Thứ Ba $10>7$; Thứ Tư $8>7$; Thứ Năm $12>7$; Thứ Sáu $4<7$.
+  **Lời giải.** Hình vuông có bốn cạnh bằng nhau, nên em lấy độ dài cạnh nhân $4$:
+  $$7\times4=28\ \text{(cm)}.$$
+  Vậy chu vi hình vuông là $28$ cm.
 
-  Vậy các ngày mượn nhiều hơn $7$ quyển là Thứ Ba, Thứ Tư và Thứ Năm.
+  **Kiểm tra.** $7+7=14$, rồi $14+14=28$. Khớp.
+  :::
+
+[[P17·3afd]]
+Bây giờ em dùng chu vi để trả lời một câu hỏi trong cuộc sống.
+
+  :::example Làm hàng rào
+  Bác Hùng rào quanh một mảnh vườn hình chữ nhật dài $15$ m, rộng $8$ m. Hỏi hàng rào dài bao nhiêu mét?
+
+  ![Mảnh vườn hình chữ nhật có hàng rào, dài 15 m và rộng 8 m](/assets/img/g3/g3-perimeter-of-shapes-01.svg)
+
+  **Lời giải.** "Rào quanh" nghĩa là đi hết một vòng sát mép vườn, nên em tính chu vi:
+  $$(15+8)\times2=23\times2=46\ \text{(m)}.$$
+  Vậy hàng rào dài $46$ m.
   :::
 
 :::warning Những lỗi em hay gặp
-[[P11·bd00]]
-- **Đọc nhầm cột.** Sai: nhìn cột Thứ Tư rồi đọc số của cột Thứ Ba. Vì sao sai: mỗi cột ứng với đúng một ngày. Đúng: đọc số ngay trên đỉnh cột của ngày đó.
-- **Cộng thay vì trừ khi so sánh.** Sai: Thứ Năm hơn Thứ Hai là $12+6=18$ quyển. Vì sao sai: "hơn bao nhiêu" là hiệu hai số. Đúng: $12-6=6$.
-- **Bỏ sót một cột khi tính tổng.** Sai: $6+10+8+12=36$. Vì sao sai: quên cột Thứ Sáu. Đúng: $6+10+8+12+4=40$.
+[[P18·eff8]]
+- **Chỉ cộng một cặp cạnh.** Sai: chu vi hình chữ nhật dài $9$ cm, rộng $4$ cm là $9+4=13$ cm. Vì sao sai: em mới đi nửa vòng. Đúng: $(9+4)\times2=26$ cm.
+- **Nhân hình vuông với 2.** Sai: chu vi hình vuông cạnh $7$ cm là $7\times2=14$ cm. Vì sao sai: hình vuông có $4$ cạnh, không phải $2$. Đúng: $7\times4=28$ cm.
+- **Quên đơn vị.** Sai: "Đáp số: $26$". Đúng: "Đáp số: $26$ cm".
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - biểu đồ cột | bar chart
-  - cột | bar
-  - trục ngang | horizontal axis
-  - trục dọc | vertical axis
-  - vạch chia | scale mark
-  - so sánh | compare
-  - số liệu | data value
+  - chu vi | perimeter
+  - cạnh | side
+  - hình tam giác | triangle
+  - hình tứ giác | quadrilateral
+  - hình chữ nhật | rectangle
+  - hình vuông | square
+  - chiều dài | length
+  - chiều rộng | width
+  - xăng-ti-mét | centimetre
+  - mét | metre
   :::
 
 ## Tóm tắt
 
-[[P12·fdf3]]
-- Biểu đồ cột dùng các cột để biểu diễn số liệu; cột cao hơn thì số liệu lớn hơn.
-- Trục ngang cho các đối tượng, trục dọc cho số liệu.
-- Đọc số liệu ở đỉnh mỗi cột.
-- Hơn kém bao nhiêu: lấy số lớn trừ số bé.
-- Tổng: cộng tất cả các cột; trung bình cộng: lấy tổng chia cho số cột.
+[[P19·162b]]
+- Chu vi của một hình là độ dài đường bao quanh hình đó.
+- Chu vi hình tam giác, hình tứ giác: cộng độ dài tất cả các cạnh.
+- Chu vi hình chữ nhật $=$ (chiều dài $+$ chiều rộng) $\times\,2$. Chu vi hình vuông $=$ cạnh $\times\,4$.
+- Em có thể thử lại bằng cách cộng đủ các cạnh, và nhớ ghi đơn vị trong đáp số.
 
 ## Luyện tập
 
-[[P13·ff66]]
-Các bài dưới đây dùng biểu đồ trong bài học (số quyển sách mượn: T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$) hoặc mô tả biểu đồ bằng lời. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+[[P20·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/perimeter-of-shapes – BẢN TIẾNG ANH ########
+---
+title: Perimeter of triangles, quadrilaterals, rectangles and squares
+description: Learn to find the perimeter by adding the lengths of the sides, then use a quick method for rectangles and squares.
+minutes: 15
+---
+
+  :::goals
+  - Understand that the perimeter of a shape is the distance all the way round it.
+  - Find the perimeter of a triangle or a quadrilateral by adding the lengths of its sides.
+  - Find the perimeter of a rectangle or a square with a quick method.
+  - Solve word problems about perimeter.
+  :::
+
+[[P1·9a20]]
+Mai has a rectangular card, $8$ cm long and $5$ cm wide. She wants to stick glittery string along the edge of the card, exactly once round. How long must the string be, in centimetres?
+
+[[P2·b3da]]
+You already know how to measure lengths in centimetres and how to add numbers. That is all you need to solve this problem.
+
+## Let's explore
+
+[[P3·3387]]
+We start with a simpler shape: a triangle. An ant walks once round the edge of triangle $ABC$, starting at $A$ and coming back to $A$.
+
+:::diagram An ant walks once round triangle $ABC$
+   (… 8 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·f21b]]
+Follow the ant:
+
+[[P5·71e6]]
+- The first part, from $A$ to $B$, is $4$ cm long.
+- The second part, from $B$ to $C$, is $5$ cm long.
+- The third part, from $C$ back to $A$, is $3$ cm long.
+
+[[P6·81ac]]
+The whole walk is $4+5+3=12$ cm. This distance all the way round is called the **perimeter** of the triangle.
+
+  :::definition Perimeter
+  The **perimeter** of a shape is the distance all the way round its edge.
+
+  To find the perimeter of a triangle or a quadrilateral, add the lengths of all the sides. The lengths must be in the same unit.
+  :::
+
+[[P7·a72c]]
+Why must we add *all* the sides? The ant must walk along every side to get back to the start. If you miss a side, you have not gone all the way round.
+
+## A quick method for rectangles and squares
+
+[[P8·a7d1]]
+Let's go back to Mai's card. A rectangle has two long sides that are equal and two short sides that are equal.
+
+:::diagram Mai's card: a rectangle 8 cm long and 5 cm wide
+   (… 10 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P9·450d]]
+Add all four sides: $8+5+8+5=26$ cm. There are two long sides and two short sides. So we can make two pairs of "long and short".
+
+[[P10·a67d]]
+One pair is $8+5=13$ cm, and there are two such pairs. So $(8+5)\times2=13\times2=26$ cm. Mai's string must be $26$ cm long.
+
+[[P11·1a39]]
+A square has four equal sides. If one side is $6$ cm, the walk round is $6+6+6+6=24$ cm, which is $6\times4=24$ cm.
+
+  :::theorem Perimeter of a rectangle and of a square
+  - Rectangle: **perimeter = (length + width) × 2**.
+  - Square: **perimeter = side length × 4**.
+  :::
+
+[[P12·2cda]]
+These are just shorter ways of adding. There is nothing new. If you forget the rule, you can still add all four sides to check.
+
+## Examples
+
+[[P13·073f]]
+We begin with a triangle.
+
+  :::example Perimeter of a triangle
+  Triangle $DEF$ has $DE=5$ cm, $EF=6$ cm and $FD=7$ cm. Find the perimeter of triangle $DEF$.
+
+  **Solution.** The perimeter is the total length of the three sides, so we add the three lengths:
+  $$5+6+7=18\ \text{(cm)}.$$
+  So the perimeter of triangle $DEF$ is $18$ cm.
+
+  **Check.** $5+6=11$, then $11+7=18$. It matches.
+  :::
+
+[[P14·1108]]
+A quadrilateral has four sides, so we add four numbers.
+
+  :::example Perimeter of a quadrilateral
+  Quadrilateral $MNPQ$ has $MN=4$ cm, $NP=6$ cm, $PQ=5$ cm and $QM=7$ cm. Find the perimeter.
+
+  **Solution.** We add the lengths of all four sides:
+  $$4+6+5+7=22\ \text{(cm)}.$$
+  So the perimeter of quadrilateral $MNPQ$ is $22$ cm.
+  :::
+
+[[P15·3b47]]
+For a rectangle, we use the quick method.
+
+  :::example Perimeter of a rectangle
+  A rectangle has length $9$ cm and width $4$ cm. Find its perimeter.
+
+  **Solution.** A rectangle has two pairs of equal sides, so we add the length and the width, then multiply by $2$:
+  $$(9+4)\times2=13\times2=26\ \text{(cm)}.$$
+  So the perimeter of the rectangle is $26$ cm.
+
+  **Check.** Add all four sides: $9+4+9+4=26$. It matches.
+  :::
+
+[[P16·899e]]
+A square is even easier, because we only need one side.
+
+  :::example Perimeter of a square
+  A square has side length $7$ cm. Find its perimeter.
+
+  **Solution.** A square has four equal sides, so we multiply the side length by $4$:
+  $$7\times4=28\ \text{(cm)}.$$
+  So the perimeter of the square is $28$ cm.
+
+  **Check.** $7+7=14$, then $14+14=28$. It matches.
+  :::
+
+[[P17·5066]]
+Now let's use perimeter to answer a question from everyday life.
+
+  :::example Building a fence
+  Mr Hung puts a fence round a rectangular garden that is $15$ m long and $8$ m wide. How long is the fence?
+
+  ![A rectangular fenced garden measuring 15 m by 8 m](/assets/img/g3/g3-perimeter-of-shapes-01.svg)
+
+  **Solution.** "Round the garden" means going once all the way round its edge, so we find the perimeter:
+  $$(15+8)\times2=23\times2=46\ \text{(m)}.$$
+  So the fence is $46$ m long.
+  :::
+
+:::warning Mistakes to watch out for
+[[P18·dcbc]]
+- **Adding only one pair of sides.** Wrong: the perimeter of a rectangle $9$ cm long and $4$ cm wide is $9+4=13$ cm. Why it is wrong: you have only gone halfway round. Right: $(9+4)\times2=26$ cm.
+- **Multiplying a square's side by 2.** Wrong: the perimeter of a square with side $7$ cm is $7\times2=14$ cm. Why it is wrong: a square has $4$ sides, not $2$. Right: $7\times4=28$ cm.
+- **Forgetting the unit.** Wrong: "Answer: $26$". Right: "Answer: $26$ cm".
+:::
+
+## Key terms
+
+  :::terms
+  - perimeter | chu vi
+  - side | cạnh
+  - triangle | hình tam giác
+  - quadrilateral | hình tứ giác
+  - rectangle | hình chữ nhật
+  - square | hình vuông
+  - length | chiều dài
+  - width | chiều rộng
+  - centimetre | xăng-ti-mét
+  - metre | mét
+  :::
+
+## Summary
+
+[[P19·dd87]]
+- The perimeter of a shape is the distance all the way round its edge.
+- Perimeter of a triangle or quadrilateral: add the lengths of all the sides.
+- Perimeter of a rectangle $=$ (length $+$ width) $\times\,2$. Perimeter of a square $=$ side $\times\,4$.
+- You can check by adding all the sides, and remember to write the unit in the answer.
+
+## Practice
+
+[[P20·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 18 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 25 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 20 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/right-angles – BẢN TIẾNG VIỆT ########
+---
+title: Góc, góc vuông, góc không vuông
+description: Em học nhận biết góc, đỉnh và cạnh của góc, dùng ê-ke để kiểm tra góc vuông và phân biệt góc vuông với góc không vuông.
+minutes: 15
+---
+
+  :::goals
+  - Nhận biết góc, đỉnh và hai cạnh của góc.
+  - Dùng ê-ke để kiểm tra một góc có phải góc vuông hay không.
+  - Tìm góc vuông và góc không vuông trong hình vẽ và đồ vật quanh em.
+  :::
+
+[[P1·cdd0]]
+Góc của quyển vở, góc của tờ giấy và góc của cửa sổ đều có hình dạng giống nhau. Làm sao em biết chắc một góc có phải là "góc vuông" hay không?
+
+[[P2·4b51]]
+Bài này dạy em gọi tên góc và dùng ê-ke để kiểm tra góc vuông.
+
+## Cùng khám phá
+
+[[P3·63b3]]
+Hai cạnh của một cái kéo, hai kim đồng hồ hay hai que gỗ chụm lại ở một điểm tạo thành một **góc**. Điểm chung đó gọi là **đỉnh** của góc, hai tia gọi là hai **cạnh** của góc.
+
+[[P4·d06a]]
+Hình dưới là góc đỉnh $O$, cạnh $OA$ và $OB$. Ở đỉnh $O$ có ký hiệu hình vuông nhỏ: đây là **góc vuông**.
+
+:::diagram Góc vuông đỉnh O, cạnh OA và OB
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P5·b4c0]]
+Hình tiếp theo cũng là một góc đỉnh $O$ nhưng hai cạnh $OC$ và $OD$ mở ra theo cách khác. Em thấy nó nhỏ hơn góc vuông; đây là **góc không vuông**.
+
+:::diagram Góc không vuông đỉnh O, cạnh OC và OD
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P6·5fe2]]
+Em không nên chỉ nhìn bằng mắt. Ta dùng **ê-ke**, có một góc vuông, để kiểm tra:
+
+[[P7·bf5e]]
+1. Đặt đỉnh góc vuông của ê-ke trùng với đỉnh của góc cần kiểm tra.
+2. Cho một cạnh của ê-ke trùng với một cạnh của góc.
+3. Nhìn cạnh còn lại của ê-ke: nếu trùng với cạnh còn lại của góc thì đó là góc vuông.
+
+  :::theorem Góc vuông và góc không vuông
+  Góc có đỉnh và hai cạnh. Góc là **góc vuông** khi khớp đúng với góc của ê-ke: hai cạnh trùng hai cạnh của ê-ke. Nếu một cạnh của ê-ke hở ra hoặc lệch vào trong thì đó là **góc không vuông**.
+
+  Độ dài hai cạnh không làm thay đổi góc có vuông hay không.
+  :::
+
+[[P8·4f2e]]
+Ví dụ, một góc có hai cạnh dài $3$ cm và một góc có hai cạnh dài $6$ cm đều là góc vuông nếu khớp với ê-ke.
+
+## Ví dụ
+
+[[P9·0634]]
+Ta bắt đầu bằng cách đọc tên đỉnh và cạnh của góc.
+
+  :::example Đỉnh và cạnh
+  Một góc có đỉnh $E$, hai cạnh là $ED$ và $EF$. Chỉ ra đỉnh và các cạnh của góc.
+
+  **Lời giải.** Đỉnh là điểm chung của hai cạnh, nên đỉnh là $E$. Hai cạnh là $ED$ và $EF$.
+
+  Vậy góc đỉnh $E$, cạnh $ED$ và $EF$.
+  :::
+
+[[P10·dc38]]
+Bây giờ em dùng ê-ke để kiểm tra.
+
+  :::example Dùng ê-ke
+  Lan đặt ê-ke vào một góc, thấy cạnh còn lại của ê-ke trùng với cạnh còn lại của góc. Nam đặt ê-ke vào một góc khác, thấy cạnh còn lại của ê-ke hở ra bên ngoài góc. Góc nào là góc vuông?
+
+  **Lời giải.** Góc là góc vuông khi hai cạnh trùng hai cạnh của ê-ke. Góc của Lan khớp với ê-ke, còn góc của Nam bị hở.
+
+  Vậy góc của Lan là góc vuông, góc của Nam không phải góc vuông.
+  :::
+
+[[P11·d5c7]]
+Tiếp theo, em tìm góc vuông quanh mình.
+
+  :::example Góc vuông quanh em
+  Trong các đồ vật sau, đồ vật nào có góc vuông: góc của tờ giấy hình chữ nhật, hai kim đồng hồ lúc $3$ giờ đúng, hai kim đồng hồ lúc $1$ giờ đúng, mái nhà hình chữ A?
+
+  ![Góc tờ giấy, đồng hồ 3 giờ, đồng hồ 1 giờ và mái nhà chữ A](/assets/img/g3/g3-right-angles-01.svg)
+
+  **Lời giải.** Em kiểm tra từng đồ vật bằng ê-ke.
+
+  - Góc tờ giấy hình chữ nhật khớp ê-ke: góc vuông.
+  - Hai kim đồng hồ lúc $3$ giờ đúng khớp ê-ke: góc vuông.
+  - Hai kim đồng hồ lúc $1$ giờ đúng chụm lại hẹp hơn ê-ke: góc không vuông.
+  - Hai mái nhà chữ A chụm lại hẹp hơn ê-ke: góc không vuông.
+
+  Vậy góc tờ giấy và hai kim lúc $3$ giờ là góc vuông.
+  :::
+
+[[P12·0c5c]]
+Bây giờ em tự vẽ một góc vuông.
+
+  :::example Vẽ góc vuông
+  Hãy vẽ góc vuông đỉnh $O$ bằng ê-ke.
+
+  **Lời giải.** Em làm theo các bước:
+
+  1. Chấm điểm $O$ rồi đặt đỉnh góc vuông của ê-ke trùng với $O$.
+  2. Kẻ một đoạn thẳng $OA$ dọc theo một cạnh của ê-ke.
+  3. Kẻ một đoạn thẳng $OB$ dọc theo cạnh còn lại của ê-ke.
+
+  Vậy góc đỉnh $O$, cạnh $OA$ và $OB$ là góc vuông.
+  :::
+
+[[P13·efa2]]
+Cuối cùng, em tìm góc vuông trong các chữ cái.
+
+  :::example Chữ cái
+  Trong hai chữ cái $L$ và $V$ viết đẹp, chữ nào có góc vuông?
+
+  **Lời giải.** Hai nét của chữ $L$ gặp nhau ở góc vuông. Hai nét của chữ $V$ chụm lại nhỏ hơn góc vuông.
+
+  Vậy chữ $L$ có góc vuông, chữ $V$ không có.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P14·dd18]]
+- **Cho rằng cạnh dài hơn thì góc lớn hơn.** Sai: góc có cạnh $6$ cm lớn hơn góc có cạnh $3$ cm. Vì sao sai: độ lớn của góc không phụ thuộc độ dài cạnh. Đúng: hai góc vuông luôn "bằng nhau" dù cạnh dài ngắn khác nhau.
+- **Chỉ nhìn bằng mắt.** Sai: "Trông giống góc vuông nên là góc vuông". Vì sao sai: mắt dễ nhầm với góc gần vuông. Đúng: dùng ê-ke để kiểm tra.
+- **Đặt ê-ke sai đỉnh.** Sai: đặt góc vuông của ê-ke ở chỗ khác. Vì sao sai: đỉnh ê-ke phải trùng đỉnh của góc cần kiểm tra. Đúng: đặt đỉnh trùng đỉnh rồi cho một cạnh trùng một cạnh.
+- **Nhầm đỉnh.** Sai: góc đỉnh $O$, cạnh $OA$ và $OB$ có đỉnh là $A$. Vì sao sai: đỉnh là điểm chung của hai cạnh. Đúng: đỉnh là $O$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - góc | angle
+  - đỉnh | vertex
+  - cạnh | side
+  - góc vuông | right angle
+  - góc không vuông | angle that is not a right angle
+  - ê-ke | set square
+  - kiểm tra | check
+  - trùng nhau | match exactly
+  :::
+
+## Tóm tắt
+
+[[P15·fa89]]
+- Góc có một đỉnh và hai cạnh; đỉnh là điểm chung của hai cạnh.
+- Dùng ê-ke để kiểm tra góc vuông: hai cạnh của góc phải trùng hai cạnh của ê-ke.
+- Góc không khớp ê-ke là góc không vuông.
+- Độ dài cạnh không làm đổi việc góc có vuông hay không.
+- Đừng chỉ nhìn bằng mắt; hãy dùng ê-ke.
+
+## Luyện tập
+
+[[P16·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -272,15 +734,11 @@ Các bài dưới đây dùng biểu đồ trong bài học (số quyển sách 
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
    (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -292,149 +750,180 @@ Các bài dưới đây dùng biểu đồ trong bài học (số quyển sách 
 :::
 
 :::exercise Thử thách
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Kiểm tra mini
-
-[[P14·62bb]]
-Các câu dưới đây dùng biểu đồ số quyển sách mượn trong bài (T2 $6$, T3 $10$, T4 $8$, T5 $12$, T6 $4$).
 
 :::quiz
    (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 
-######## BÀI g4/g4-bar-charts – BẢN TIẾNG ANH ########
+######## BÀI g3/right-angles – BẢN TIẾNG ANH ########
 ---
-title: Bar charts
-description: Learn to read a bar chart: read each bar, compare bars, find the tallest and shortest, then work out totals and differences.
+title: Angles: right angles and non-right angles
+description: Learn to recognise an angle, its vertex and sides, use a set square to test for a right angle and tell right angles from other angles.
 minutes: 15
 ---
 
   :::goals
-  - Know the parts of a bar chart: bars, the horizontal axis and the vertical axis.
-  - Read the value of each bar and find the tallest and shortest bar.
-  - Compare bars by subtracting, and work out a total and a mean from a chart.
+  - Recognise an angle, its vertex and its two sides.
+  - Use a set square to test whether an angle is a right angle.
+  - Find right angles and other angles in pictures and in objects around you.
   :::
 
-[[P1·1b1a]]
-The class library records how many books children borrow each day of the week, and draws a bar chart. On which day did children borrow the most books? On which day the fewest?
+[[P1·d155]]
+The corner of a book, the corner of a sheet of paper and the corner of a window all have the same shape. How can you be sure that an angle is a "right angle"?
 
-[[P2·0e14]]
-You already know how to read a list of data. A bar chart lets you see that data as bars of different heights.
+[[P2·398d]]
+This lesson teaches you to name angles and to use a set square to test for a right angle.
 
 ## Let's explore
 
-[[P3·0385]]
-Look at the chart below.
+[[P3·ee89]]
+The two blades of scissors, the two hands of a clock or two sticks joined at one point make an **angle**. The shared point is the **vertex** of the angle, and the two lines are its two **sides**.
 
-:::diagram Books borrowed each day of the week
-   (… 43 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+[[P4·0917]]
+The picture below shows the angle with vertex $O$ and sides $OA$ and $OB$. At the vertex $O$ there is a small square mark: this is a **right angle**.
+
+:::diagram A right angle with vertex O and sides OA and OB
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-[[P4·8aa2]]
-- The bars stand side by side. Each bar is one day: Mon is Monday, Tue is Tuesday, and so on.
-- On top of each bar is the number of books. The Monday bar shows $6$.
-- The left edge shows the numbers $2, 4, 6, \ldots, 12$. These count the books.
+[[P5·3fd7]]
+The next picture is also an angle with vertex $O$, but its sides $OC$ and $OD$ open in a different way. It looks smaller than a right angle; this is an angle that is **not a right angle**.
 
-[[P5·57a7]]
-The taller the bar, the more books. The Thursday bar is the tallest and shows $12$. The Friday bar is the shortest and shows $4$. So Thursday had the most borrowed and Friday the fewest.
+:::diagram An angle that is not a right angle, vertex O, sides OC and OD
+   (… 7 dòng diagram, GIỮ NGUYÊN, không cần viết lại …)
+:::
 
-  :::definition Bar chart
-  A **bar chart** uses bars of equal width to show data. The **horizontal axis** shows the things we compare (for example the days). The **vertical axis** shows the data values. The taller the bar, the bigger the value.
+[[P6·fb42]]
+Do not just judge by eye. We use a **set square**, which has one right angle, to test:
+
+[[P7·c2e9]]
+1. Put the right-angled corner of the set square on the vertex of the angle to test.
+2. Line up one side of the set square with one side of the angle.
+3. Look at the other side of the set square: if it lines up with the other side of the angle, the angle is a right angle.
+
+  :::theorem Right angles and other angles
+  An angle has a vertex and two sides. An angle is a **right angle** when it fits the corner of a set square exactly: both sides line up with both sides of the set square. If a side of the set square sticks out or falls inside, the angle is **not a right angle**.
+
+  The lengths of the two sides do not change whether the angle is a right angle.
   :::
 
-[[P6·2931]]
-To read a bar chart, do three things: read the title and the two axes to see what the chart is about; check how many units each mark stands for; then look at the top of a bar to read its value.
+[[P8·14ec]]
+For example, an angle with sides $3$ cm long and an angle with sides $6$ cm long are both right angles if they fit the set square.
 
 ## Examples
 
-[[P7·ba59]]
-We start by reading the value of each bar.
+[[P9·5ecb]]
+We start by naming the vertex and sides of an angle.
 
-  :::example Reading the chart
-  Use the chart above. a) How many books were borrowed on Tuesday? b) Which day had the most, and how many books? c) Which day had the fewest?
+  :::example Vertex and sides
+  An angle has vertex $E$ and sides $ED$ and $EF$. State the vertex and the sides.
 
-  **Solution.** We look at the number on top of each bar:
+  **Solution.** The vertex is the point shared by the two sides, so the vertex is $E$. The two sides are $ED$ and $EF$.
 
-  a) The Tuesday bar shows $10$, so $10$ books were borrowed.
-
-  b) The tallest bar is Thursday, showing $12$. So Thursday had the most, $12$ books.
-
-  c) The shortest bar is Friday. So Friday had the fewest, $4$ books.
+  So the angle has vertex $E$ and sides $ED$ and $EF$.
   :::
 
-[[P8·c15d]]
-Now we compare two bars by subtracting.
+[[P10·d126]]
+Now use a set square to test.
 
-  :::example Comparing two bars
-  How many more books were borrowed on Thursday than on Monday?
+  :::example Using a set square
+  Lan puts a set square on an angle and sees that the other side of the set square lines up with the other side of the angle. Nam puts a set square on a different angle and sees that the other side of the set square sticks out of the angle. Which angle is a right angle?
 
-  **Solution.** Thursday had $12$ books and Monday had $6$ books. To find how many more, subtract the smaller number from the larger:
-  $$12-6=6\ \text{(books)}.$$
-  So $6$ more books were borrowed on Thursday than on Monday.
+  **Solution.** An angle is a right angle when both sides line up with the set square. Lan's angle fits the set square, and Nam's angle leaves a gap.
+
+  So Lan's angle is a right angle, and Nam's angle is not.
   :::
 
-[[P9·13f7]]
-We can also add the bars and find the mean.
+[[P11·7fe1]]
+Next, find right angles around you.
 
-  :::example The whole week
-  How many books were borrowed in the whole week? On average, how many books were borrowed each day?
+  :::example Right angles around you
+  Which of these has a right angle: a corner of a rectangular sheet of paper, the two hands of a clock at exactly $3$ o'clock, the two hands of a clock at exactly $1$ o'clock, a roof shaped like the letter A?
 
-  **Solution.** Add the books for all five days:
-  $$6+10+8+12+4=40\ \text{(books)}.$$
-  The mean per day is the total divided by the number of days:
-  $$40\div5=8\ \text{(books)}.$$
-  So $40$ books were borrowed in the week, and $8$ a day on average.
+  ![A paper corner, clocks at 3 and 1 o'clock, and an A-shaped roof](/assets/img/g3/g3-right-angles-01.svg)
+
+  **Solution.** Test each one with a set square.
+
+  - A corner of a rectangular sheet fits the set square: a right angle.
+  - The clock hands at exactly $3$ o'clock fit the set square: a right angle.
+  - The clock hands at exactly $1$ o'clock are closer together than the set square: not a right angle.
+  - The two sides of an A-shaped roof are closer together than the set square: not a right angle.
+
+  So the corner of the sheet and the clock hands at $3$ o'clock are right angles.
   :::
 
-[[P10·b68f]]
-Finally, we find the bars that fit a condition.
+[[P12·a4be]]
+Now draw a right angle yourself.
 
-  :::example More than $7$ books
-  On which days were more than $7$ books borrowed?
+  :::example Drawing a right angle
+  Draw a right angle with vertex $O$ using a set square.
 
-  **Solution.** We compare the number on top of each bar with $7$: Monday $6<7$; Tuesday $10>7$; Wednesday $8>7$; Thursday $12>7$; Friday $4<7$.
+  **Solution.** Follow these steps:
 
-  So more than $7$ books were borrowed on Tuesday, Wednesday and Thursday.
+  1. Mark a point $O$ and put the right-angled corner of the set square on $O$.
+  2. Draw a line segment $OA$ along one side of the set square.
+  3. Draw a line segment $OB$ along the other side of the set square.
+
+  So the angle with vertex $O$ and sides $OA$ and $OB$ is a right angle.
+  :::
+
+[[P13·fd46]]
+Finally, find right angles in letters.
+
+  :::example Letters
+  Of the neatly written letters $L$ and $V$, which has a right angle?
+
+  **Solution.** The two strokes of the letter $L$ meet at a right angle. The two strokes of the letter $V$ come together at less than a right angle.
+
+  So the letter $L$ has a right angle and the letter $V$ does not.
   :::
 
 :::warning Mistakes to watch out for
-[[P11·2b9c]]
-- **Reading the wrong bar.** Wrong: looking at the Wednesday bar but reading the Tuesday number. Why it is wrong: each bar belongs to exactly one day. Right: read the number on top of that day's bar.
-- **Adding instead of subtracting to compare.** Wrong: Thursday has $12+6=18$ more than Monday. Why it is wrong: "how many more" is the difference of two numbers. Right: $12-6=6$.
-- **Missing a bar when finding a total.** Wrong: $6+10+8+12=36$. Why it is wrong: the Friday bar was left out. Right: $6+10+8+12+4=40$.
+[[P14·2079]]
+- **Thinking longer sides mean a bigger angle.** Wrong: the angle with sides $6$ cm is bigger than the angle with sides $3$ cm. Why it is wrong: the size of an angle does not depend on the length of its sides. Right: two right angles are always the same, however long the sides are.
+- **Judging only by eye.** Wrong: "It looks like a right angle, so it is one". Why it is wrong: the eye is easily fooled by an angle that is nearly right. Right: test it with a set square.
+- **Putting the set square in the wrong place.** Wrong: placing the right-angled corner somewhere else. Why it is wrong: the corner of the set square must sit on the vertex of the angle to test. Right: put the corner on the vertex, then line up one side with one side.
+- **Mixing up the vertex.** Wrong: the angle with vertex $O$ and sides $OA$ and $OB$ has vertex $A$. Why it is wrong: the vertex is the point shared by both sides. Right: the vertex is $O$.
 :::
 
 ## Key terms
 
   :::terms
-  - bar chart | biểu đồ cột
-  - bar | cột
-  - horizontal axis | trục ngang
-  - vertical axis | trục dọc
-  - scale mark | vạch chia
-  - compare | so sánh
-  - data value | số liệu
+  - angle | góc
+  - vertex | đỉnh
+  - side | cạnh
+  - right angle | góc vuông
+  - angle that is not a right angle | góc không vuông
+  - set square | ê-ke
+  - check | kiểm tra
+  - match exactly | trùng nhau
   :::
 
 ## Summary
 
-[[P12·7238]]
-- A bar chart uses bars to show data; a taller bar means a bigger value.
-- The horizontal axis shows the things compared; the vertical axis shows the values.
-- Read the value on top of each bar.
-- To find how many more: subtract the smaller from the larger.
-- Total: add all the bars; mean: divide the total by the number of bars.
+[[P15·a643]]
+- An angle has one vertex and two sides; the vertex is the point shared by both sides.
+- Use a set square to test for a right angle: both sides of the angle must line up with both sides of the set square.
+- An angle that does not fit the set square is not a right angle.
+- The length of the sides does not change whether an angle is a right angle.
+- Do not judge by eye alone; use a set square.
 
 ## Practice
 
-[[P13·377d]]
-The exercises below use the chart in the lesson (books borrowed: Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$) or describe a chart in words. Try each one yourself first, then open the solution.
+[[P16·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -442,15 +931,11 @@ The exercises below use the chart in the lesson (books borrowed: Mon $6$, Tue $1
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 27 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
    (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
-:::
-
-:::exercise
-   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
@@ -462,13 +947,366 @@ The exercises below use the chart in the lesson (books borrowed: Mon $6$, Tue $1
 :::
 
 :::exercise Challenge
-   (… 16 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 ## Mini test
 
-[[P14·d156]]
-These questions use the chart of books borrowed in the lesson (Mon $6$, Tue $10$, Wed $8$, Thu $12$, Fri $4$).
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/rounding-thousands-ten-thousands – BẢN TIẾNG VIỆT ########
+---
+title: Làm tròn số đến hàng nghìn, hàng chục nghìn
+description: Em học cách làm tròn một số đến hàng nghìn hoặc hàng chục nghìn bằng cách nhìn chữ số ở hàng bên phải, rồi dùng vào bài toán thực tế.
+minutes: 15
+---
+
+  :::goals
+  - Biết làm tròn một số đến hàng nghìn.
+  - Biết làm tròn một số đến hàng chục nghìn.
+  - Nhìn đúng chữ số cần xét: từ $5$ trở lên thì làm tròn lên, dưới $5$ thì làm tròn xuống.
+  - Dùng làm tròn để nói số lượng "khoảng bao nhiêu".
+  :::
+
+[[P1·953b]]
+Sân vận động của thành phố có $4\,732$ khán giả xem trận bóng đá chiều nay. Cô phóng viên muốn viết ngắn gọn: "Có khoảng mấy nghìn khán giả?" Em giúp cô chọn một số tròn nghìn gần với $4\,732$ nhé.
+
+[[P2·d87b]]
+Ở bài trước, em đã biết so sánh các số trong phạm vi $100\,000$. Em cũng đã biết làm tròn số đến hàng chục và hàng trăm. Bài này dùng lại cách nghĩ đó cho hàng nghìn và hàng chục nghìn.
+
+## Cùng khám phá
+
+[[P3·a654]]
+Ta xếp các số tròn nghìn $4\,000$ và $5\,000$ trên tia số. Số $4\,732$ nằm giữa hai số đó. Điểm chính giữa của hai số là $4\,500$.
+
+:::graph Số $4\,732$ nằm giữa $4\,000$ và $5\,000$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·0a58]]
+Em hãy hỏi: số $4\,732$ gần số nào hơn?
+
+[[P5·d9d7]]
+- Từ $4\,000$ đến $4\,732$ là $4\,732-4\,000=732$.
+- Từ $4\,732$ đến $5\,000$ là $5\,000-4\,732=268$.
+- Vì $268<732$ nên $4\,732$ gần $5\,000$ hơn.
+
+[[P6·fbca]]
+Ta nói: làm tròn $4\,732$ đến hàng nghìn được $5\,000$, viết $4\,732\approx5\,000$. Kí hiệu $\approx$ đọc là "gần bằng".
+
+[[P7·cb85]]
+Em để ý: $4\,732$ lớn hơn điểm chính giữa $4\,500$, nên nó gần $5\,000$ hơn. Số nào nhỏ hơn $4\,500$ thì gần $4\,000$ hơn. Chữ số hàng trăm của số $4\,500$ là $5$, nên chữ số hàng trăm cho em biết số đó ở nửa nào.
+
+  :::theorem Cách làm tròn
+  **Làm tròn đến hàng nghìn:** nhìn chữ số ở hàng trăm.
+  - Nếu chữ số đó **bé hơn $5$** (từ $0$ đến $4$): giữ nguyên chữ số hàng nghìn, các chữ số bên phải đổi thành $0$.
+  - Nếu chữ số đó **từ $5$ trở lên** (từ $5$ đến $9$): tăng chữ số hàng nghìn thêm $1$, các chữ số bên phải đổi thành $0$.
+
+  **Làm tròn đến hàng chục nghìn:** làm tương tự, nhưng nhìn chữ số ở hàng nghìn.
+  :::
+
+[[P8·98db]]
+Cách làm này đúng vì em chọn số tròn gần nhất. Chữ số hàng trăm từ $5$ trở lên nghĩa là số đó ở nửa trên, gần số tròn nghìn lớn hơn.
+
+## Ví dụ
+
+[[P9·9016]]
+Ta bắt đầu với một số có chữ số hàng trăm nhỏ.
+
+  :::example Làm tròn $3\,214$ đến hàng nghìn
+  **Lời giải.** Muốn làm tròn đến hàng nghìn, em nhìn chữ số hàng trăm. Chữ số hàng trăm của $3\,214$ là $2$, bé hơn $5$, nên giữ nguyên $3$ nghìn và đổi các chữ số bên phải thành $0$:
+  $$3\,214\approx3\,000.$$
+  Vậy $3\,214$ làm tròn đến hàng nghìn là $3\,000$.
+  :::
+
+[[P10·1efb]]
+Bây giờ chữ số hàng trăm lớn hơn.
+
+  :::example Làm tròn $6\,750$ đến hàng nghìn
+  **Lời giải.** Chữ số hàng trăm của $6\,750$ là $7$, từ $5$ trở lên, nên tăng chữ số hàng nghìn từ $6$ lên $7$ và đổi các chữ số bên phải thành $0$:
+  $$6\,750\approx7\,000.$$
+  Vậy $6\,750$ làm tròn đến hàng nghìn là $7\,000$.
+  :::
+
+[[P11·5bb5]]
+Với số có năm chữ số, em có hai cách làm tròn khác nhau.
+
+  :::example Làm tròn $47\,328$ đến hàng nghìn và đến hàng chục nghìn
+  **Lời giải.** Làm tròn đến hàng nghìn: chữ số hàng trăm là $3$, bé hơn $5$, nên giữ nguyên $47$ nghìn:
+  $$47\,328\approx47\,000.$$
+  Làm tròn đến hàng chục nghìn: em nhìn chữ số hàng nghìn là $7$, từ $5$ trở lên, nên tăng $4$ chục nghìn lên $5$ chục nghìn:
+  $$47\,328\approx50\,000.$$
+  Vậy $47\,328$ làm tròn đến hàng nghìn là $47\,000$, đến hàng chục nghìn là $50\,000$.
+  :::
+
+[[P12·3f10]]
+Có một trường hợp hay làm em lúng túng: chữ số cần tăng là $9$.
+
+  :::example Làm tròn $9\,640$ đến hàng nghìn
+  **Lời giải.** Chữ số hàng trăm của $9\,640$ là $6$, từ $5$ trở lên, nên em cần thêm $1$ nghìn vào $9$ nghìn. $9$ nghìn thêm $1$ nghìn là $10$ nghìn:
+  $$9\,640\approx10\,000.$$
+  Vậy $9\,640$ làm tròn đến hàng nghìn là $10\,000$.
+  :::
+
+[[P13·7c7d]]
+Bây giờ em dùng làm tròn để trả lời một câu hỏi trong cuộc sống.
+
+  :::example Vé buổi hòa nhạc
+  Một buổi hòa nhạc bán được $23\,480$ vé. Báo viết: "Khoảng bao nhiêu nghìn vé đã được bán?" Hãy trả lời.
+
+  **Lời giải.** "Khoảng bao nhiêu nghìn" nghĩa là làm tròn đến hàng nghìn. Chữ số hàng trăm của $23\,480$ là $4$, bé hơn $5$, nên:
+  $$23\,480\approx23\,000.$$
+  Vậy đã bán được khoảng $23$ nghìn vé.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P14·c937]]
+- **Nhìn nhầm chữ số.** Sai: làm tròn $4\,372$ đến hàng nghìn bằng cách nhìn chữ số $2$ ở hàng đơn vị. Vì sao sai: em phải nhìn chữ số ở hàng ngay bên phải hàng cần làm tròn, tức là hàng trăm, chữ số $3$. Đúng: $4\,372\approx4\,000$.
+- **Quên đổi các chữ số bên phải thành $0$.** Sai: $6\,750\approx7\,750$. Vì sao sai: số làm tròn đến hàng nghìn phải là số tròn nghìn. Đúng: $6\,750\approx7\,000$.
+- **Chữ số $9$ không dám tăng.** Sai: $9\,640\approx9\,000$. Vì sao sai: chữ số hàng trăm là $6$ nên phải làm tròn lên, và $9$ nghìn thêm $1$ nghìn là $10$ nghìn. Đúng: $9\,640\approx10\,000$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - làm tròn số | rounding (to round a number)
+  - hàng nghìn | thousands place
+  - hàng chục nghìn | ten-thousands place
+  - hàng trăm | hundreds place
+  - chữ số | digit
+  - số tròn nghìn | whole thousand
+  - gần bằng | approximately equal to
+  - tia số | number line
+  :::
+
+## Tóm tắt
+
+[[P15·8fe2]]
+- Làm tròn đến hàng nghìn: nhìn chữ số hàng trăm. Bé hơn $5$ thì giữ nguyên, từ $5$ trở lên thì tăng hàng nghìn thêm $1$.
+- Làm tròn đến hàng chục nghìn: nhìn chữ số hàng nghìn, làm theo cách tương tự.
+- Sau khi làm tròn, các chữ số bên phải đều thành $0$.
+- Ví dụ: $4\,732\approx5\,000$ (đến hàng nghìn); $47\,328\approx50\,000$ (đến hàng chục nghìn).
+- Em có thể thử lại bằng tia số: số làm tròn phải là số tròn gần nhất.
+
+## Luyện tập
+
+[[P16·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/rounding-thousands-ten-thousands – BẢN TIẾNG ANH ########
+---
+title: Rounding to the nearest thousand and ten thousand
+description: Learn to round a number to the nearest thousand or ten thousand by looking at the digit in the place to the right, then use it in real-life problems.
+minutes: 15
+---
+
+  :::goals
+  - Round a number to the nearest thousand.
+  - Round a number to the nearest ten thousand.
+  - Look at the right digit: $5$ or more rounds up, less than $5$ rounds down.
+  - Use rounding to say "about how many".
+  :::
+
+[[P1·1aa7]]
+The city stadium had $4\,732$ spectators at this afternoon's football match. A reporter wants to write it briefly: "About how many thousand spectators were there?" Help her choose a whole thousand close to $4\,732$.
+
+[[P2·c4ef]]
+In the last lesson you learned to compare numbers up to $100\,000$. You also know how to round to the nearest ten and hundred. This lesson uses the same thinking for thousands and ten thousands.
+
+## Let's explore
+
+[[P3·a112]]
+We place the whole thousands $4\,000$ and $5\,000$ on a number line. The number $4\,732$ lies between them. The point exactly halfway between them is $4\,500$.
+
+:::graph The number $4\,732$ lies between $4\,000$ and $5\,000$
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P4·25f1]]
+Ask yourself: which number is $4\,732$ closer to?
+
+[[P5·b039]]
+- From $4\,000$ to $4\,732$ is $4\,732-4\,000=732$.
+- From $4\,732$ to $5\,000$ is $5\,000-4\,732=268$.
+- Since $268<732$, $4\,732$ is closer to $5\,000$.
+
+[[P6·089f]]
+We say: $4\,732$ rounded to the nearest thousand is $5\,000$, and we write $4\,732\approx5\,000$. The sign $\approx$ is read "is approximately equal to".
+
+[[P7·50f4]]
+Notice: $4\,732$ is greater than the halfway point $4\,500$, so it is closer to $5\,000$. Any number less than $4\,500$ is closer to $4\,000$. The hundreds digit of $4\,500$ is $5$, so the hundreds digit tells you which half a number is in.
+
+  :::theorem How to round
+  **Rounding to the nearest thousand:** look at the hundreds digit.
+  - If that digit is **less than $5$** ($0$ to $4$): keep the thousands digit the same and change the digits to its right to $0$.
+  - If that digit is **$5$ or more** ($5$ to $9$): add $1$ to the thousands digit and change the digits to its right to $0$.
+
+  **Rounding to the nearest ten thousand:** do the same, but look at the thousands digit.
+  :::
+
+[[P8·b24d]]
+This works because you choose the nearest whole number of that size. A hundreds digit of $5$ or more means the number is in the upper half, closer to the bigger whole thousand.
+
+## Examples
+
+[[P9·95ba]]
+We start with a number whose hundreds digit is small.
+
+  :::example Round $3\,214$ to the nearest thousand
+  **Solution.** To round to the nearest thousand, look at the hundreds digit. The hundreds digit of $3\,214$ is $2$, less than $5$, so keep $3$ thousands and change the digits to the right to $0$:
+  $$3\,214\approx3\,000.$$
+  So $3\,214$ rounded to the nearest thousand is $3\,000$.
+  :::
+
+[[P10·8032]]
+Now the hundreds digit is bigger.
+
+  :::example Round $6\,750$ to the nearest thousand
+  **Solution.** The hundreds digit of $6\,750$ is $7$, which is $5$ or more, so the thousands digit goes up from $6$ to $7$ and the digits to the right become $0$:
+  $$6\,750\approx7\,000.$$
+  So $6\,750$ rounded to the nearest thousand is $7\,000$.
+  :::
+
+[[P11·d5ac]]
+A five-digit number can be rounded in two different ways.
+
+  :::example Round $47\,328$ to the nearest thousand and to the nearest ten thousand
+  **Solution.** To the nearest thousand: the hundreds digit is $3$, less than $5$, so keep $47$ thousands:
+  $$47\,328\approx47\,000.$$
+  To the nearest ten thousand: look at the thousands digit, which is $7$, so $5$ or more. The $4$ ten thousands go up to $5$ ten thousands:
+  $$47\,328\approx50\,000.$$
+  So $47\,328$ rounded to the nearest thousand is $47\,000$, and to the nearest ten thousand is $50\,000$.
+  :::
+
+[[P12·448e]]
+One case often confuses pupils: the digit that goes up is a $9$.
+
+  :::example Round $9\,640$ to the nearest thousand
+  **Solution.** The hundreds digit of $9\,640$ is $6$, which is $5$ or more, so you add $1$ thousand to $9$ thousands. $9$ thousands and $1$ more thousand make $10$ thousands:
+  $$9\,640\approx10\,000.$$
+  So $9\,640$ rounded to the nearest thousand is $10\,000$.
+  :::
+
+[[P13·5f35]]
+Now use rounding to answer a question from everyday life.
+
+  :::example Concert tickets
+  A concert sold $23\,480$ tickets. A newspaper asks: "About how many thousand tickets were sold?" Answer the question.
+
+  **Solution.** "About how many thousand" means rounding to the nearest thousand. The hundreds digit of $23\,480$ is $4$, less than $5$, so:
+  $$23\,480\approx23\,000.$$
+  So about $23$ thousand tickets were sold.
+  :::
+
+:::warning Mistakes to watch out for
+[[P14·8d2f]]
+- **Looking at the wrong digit.** Wrong: rounding $4\,372$ to the nearest thousand by looking at the $2$ in the ones place. Why it is wrong: you must look at the place just to the right of the place you are rounding to, which is the hundreds, the digit $3$. Right: $4\,372\approx4\,000$.
+- **Forgetting to change the digits on the right to $0$.** Wrong: $6\,750\approx7\,750$. Why it is wrong: a number rounded to the nearest thousand must be a whole thousand. Right: $6\,750\approx7\,000$.
+- **Not daring to round a $9$ up.** Wrong: $9\,640\approx9\,000$. Why it is wrong: the hundreds digit is $6$, so you round up, and $9$ thousands plus $1$ thousand is $10$ thousands. Right: $9\,640\approx10\,000$.
+:::
+
+## Key terms
+
+  :::terms
+  - rounding (to round a number) | làm tròn số
+  - thousands place | hàng nghìn
+  - ten-thousands place | hàng chục nghìn
+  - hundreds place | hàng trăm
+  - digit | chữ số
+  - whole thousand | số tròn nghìn
+  - approximately equal to | gần bằng
+  - number line | tia số
+  :::
+
+## Summary
+
+[[P15·392c]]
+- To round to the nearest thousand, look at the hundreds digit. Less than $5$: keep the thousands; $5$ or more: add $1$ to the thousands.
+- To round to the nearest ten thousand, look at the thousands digit and do the same.
+- After rounding, all the digits to the right become $0$.
+- Examples: $4\,732\approx5\,000$ (nearest thousand); $47\,328\approx50\,000$ (nearest ten thousand).
+- You can check on a number line: the rounded number must be the nearest one of that size.
+
+## Practice
+
+[[P16·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 26 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 21 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
 
 :::quiz
    (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)

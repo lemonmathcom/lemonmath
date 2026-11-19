@@ -6,7 +6,7 @@ Kết quả: file thichgiaitoan-14-GV-ketqua.md, lưu vào Dropbox Lemonmath.com
 ######################################################################
 
 GÓI VIẾT LẠI GIỌNG VĂN LEMONMATH – thichgiaitoan-14-GV
-Gồm 1 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g4/basic-property-of-fractions
+Gồm 3 bài học (mỗi bài có bản tiếng Việt và bản tiếng Anh): g3/missing-numbers-add-subtract, g3/missing-numbers-multiply-divide, g3/multiply-2-digit-by-1-digit
 
 =====================================================================
 1. VIỆC CẦN LÀM
@@ -126,7 +126,7 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 5. CÁCH LÀM VIỆC
 =====================================================================
 - Mỗi lượt trả lời làm 1 bài học (cả hai bản), ghi NỐI TIẾP vào file
-  /mnt/user-data/outputs/thichgiaitoan-14-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/1). Gõ
+  /mnt/user-data/outputs/thichgiaitoan-14-GV-ketqua.md, rồi báo một dòng: "Đã xong bài <tên bài> (k/3). Gõ
   tiếp để làm bài sau." Không in lại cả đoạn văn trong khung chat để tiết kiệm.
 - Khi xong cả gói: đưa đường dẫn tải file thichgiaitoan-14-GV-ketqua.md.
 - Nếu một đoạn có vẻ sai toán hay lỗi chính tả trong công thức: KHÔNG sửa công thức; ghi
@@ -135,129 +135,895 @@ khó hơn: ta cần một số mà khi **lập phương** lên thì bằng $2000
 =====================================================================
 6. CÁC BÀI HỌC
 =====================================================================
-######## BÀI g4/basic-property-of-fractions – BẢN TIẾNG VIỆT ########
+######## BÀI g3/missing-numbers-add-subtract – BẢN TIẾNG VIỆT ########
 ---
-title: Tính chất cơ bản của phân số
-description: Em học: nhân hoặc chia cả tử số và mẫu số với cùng một số khác 0 thì được phân số mới bằng phân số đã cho.
+title: Tìm thành phần trong phép cộng, phép trừ
+description: Em học cách tìm số hạng, số bị trừ, số trừ chưa biết bằng phép tính ngược, rồi thử lại để chắc chắn kết quả đúng.
 minutes: 15
 ---
 
   :::goals
-  - Hiểu hai phân số bằng nhau có thể có tử số và mẫu số khác nhau.
-  - Nhân hoặc chia cả tử số và mẫu số với cùng một số khác $0$ để được phân số bằng phân số đã cho.
-  - Tìm số còn thiếu trong hai phân số bằng nhau.
+  - Gọi đúng tên các thành phần của phép cộng và phép trừ.
+  - Tìm số hạng, số bị trừ, số trừ chưa biết bằng phép tính ngược.
+  - Thử lại kết quả và giải bài toán có lời văn dạng "tìm số ban đầu".
   :::
 
-[[P1·e665]]
-Lan ăn $\dfrac{1}{2}$ chiếc bánh. Nam ăn $\dfrac{2}{4}$ chiếc bánh cùng loại. Hai bạn ai ăn nhiều hơn?
+[[P1·de9e]]
+Lan có một số hình dán trong hộp. Mẹ cho Lan thêm $7$ hình nữa, bây giờ Lan có $15$ hình. Hỏi lúc đầu trong hộp có bao nhiêu hình dán?
 
-[[P2·96ec]]
-Hai phân số trông khác nhau, vì tử số và mẫu số đều khác. Nhưng có thể phần bánh hai bạn ăn bằng nhau. Bài này giúp em biết khi nào hai phân số bằng nhau.
+[[P2·0270]]
+Em chưa biết số hình lúc đầu, nên ta viết $\square+7=15$. Bài này dạy em cách tìm số trong ô trống một cách chắc chắn, không cần đoán.
 
 ## Cùng khám phá
 
-[[P3·7362]]
-Ta cắt chiếc bánh từng bước.
+[[P3·7dc4]]
+Em nhớ lại bài trước: trong phép cộng $8+7=15$, các số $8$ và $7$ gọi là **số hạng**, số $15$ gọi là **tổng**.
 
-[[P4·e835]]
-- Chiếc bánh cắt đôi: Lan ăn $1$ phần trong $2$ phần, tức $\dfrac{1}{2}$.
-- Cắt mỗi nửa thành $2$ phần nhỏ bằng nhau. Chiếc bánh có $4$ phần, và phần Lan ăn gồm $2$ phần nhỏ, tức $\dfrac{2}{4}$.
-- Cắt tiếp mỗi phần nhỏ thành $2$: chiếc bánh có $8$ phần, phần Lan ăn gồm $4$ phần, tức $\dfrac{4}{8}$.
+[[P4·aaab]]
+Ta nhìn lại câu chuyện của Lan:
 
-[[P5·f3b6]]
-Chiếc bánh và phần Lan ăn vẫn như cũ, chỉ cách cắt khác nhau. Vậy $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$. Hai bạn ăn bằng nhau.
+[[P5·ec80]]
+- Cả hộp có $15$ hình sau khi thêm.
+- Phần mẹ cho thêm là $7$ hình.
+- Phần có lúc đầu là phần còn lại, nên ta lấy $15$ bớt đi $7$.
 
-[[P6·77a2]]
-Ta thấy tử số và mẫu số cùng nhân với $2$: $1\times2=2$ và $2\times2=4$.
+[[P6·7933]]
+Vậy $15-7=8$. Lúc đầu Lan có $8$ hình dán.
 
-:::graph Trên trục số: 1/2, 2/4 và 4/8 là cùng một điểm
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::graph Trên tia số: đi từ 7 đến 15 là đi thêm 8 bước
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
-  :::theorem Tính chất cơ bản của phân số
-  Nếu nhân cả tử số và mẫu số của một phân số với cùng một số tự nhiên khác $0$ thì được một phân số bằng phân số đã cho.
+[[P7·416f]]
+Em thấy không: biết tổng và một số hạng, muốn tìm số hạng còn lại ta làm phép trừ.
 
-  Nếu chia cả tử số và mẫu số của một phân số cho cùng một số tự nhiên khác $0$ (chia hết cả hai) thì cũng được một phân số bằng phân số đã cho.
+  :::theorem Tìm số hạng chưa biết
+  Số hạng chưa biết bằng tổng trừ đi số hạng đã biết.
+
+  Nếu $\square+7=15$ thì $\square=15-7=8$.
   :::
 
-[[P7·2e48]]
-Điều này đúng vì nhân cả hai số với $2$ nghĩa là cắt mỗi phần thành $2$ phần nhỏ bằng nhau: số phần cả bánh gấp $2$, số phần đã lấy cũng gấp $2$, còn phần bánh đã lấy không đổi.
+[[P8·a917]]
+Bây giờ ta xem phép trừ. Trong $15-7=8$, số $15$ là **số bị trừ**, số $7$ là **số trừ**, số $8$ là **hiệu**.
+
+[[P9·5341]]
+Em hãy nhớ câu chuyện: có $15$ hình, lấy đi $7$ hình, còn $8$ hình. Nếu biết còn $8$ và đã lấy đi $7$ thì lúc đầu có $8+7=15$ hình. Nếu biết lúc đầu có $15$ và còn $8$ thì đã lấy đi $15-8=7$ hình.
+
+  :::theorem Tìm số bị trừ, số trừ chưa biết
+  Số bị trừ bằng hiệu cộng số trừ.
+
+  Số trừ bằng số bị trừ trừ đi hiệu.
+
+  Nếu $\square-7=8$ thì $\square=8+7=15$. Nếu $15-\square=8$ thì $\square=15-8=7$.
+  :::
+
+[[P10·1f37]]
+Cách làm này đúng vì phép cộng và phép trừ "ngược nhau": cộng rồi trừ cùng một số thì về lại số ban đầu.
 
 ## Ví dụ
 
-[[P8·6384]]
-Ta bắt đầu với phép nhân.
+[[P11·77ad]]
+Ta bắt đầu với số hạng chưa biết ở vị trí đầu.
 
-  :::example Nhân tử số và mẫu số
-  Tìm số thích hợp: $\dfrac{2}{3}=\dfrac{?}{6}$.
+  :::example Tìm $\square$, biết $\square+6=14$
+  **Lời giải.** $\square$ là số hạng chưa biết, nên ta lấy tổng trừ đi số hạng đã biết:
+  $$\square=14-6=8.$$
+  **Thử lại.** $8+6=14$. Đúng.
 
-  **Lời giải.** Mẫu số $3$ thành $6$ nên đã nhân với $2$, vì $3\times2=6$. Ta nhân cả tử số với $2$:
-  $$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6}.$$
-  Vậy số cần tìm là $4$.
+  Vậy $\square=8$.
   :::
 
-[[P9·0012]]
-Bây giờ số nhân khó thấy hơn.
+[[P12·df9b]]
+Số hạng chưa biết cũng có thể đứng ở vị trí thứ hai, cách làm vẫn như vậy.
 
-  :::example Tìm số nhân
-  Tìm số thích hợp: $\dfrac{3}{5}=\dfrac{?}{20}$.
+  :::example Tìm $\square$, biết $9+\square=17$
+  **Lời giải.** Lấy tổng trừ đi số hạng đã biết là $9$:
+  $$\square=17-9=8.$$
+  **Thử lại.** $9+8=17$. Đúng.
 
-  **Lời giải.** Ta tìm số nhân bằng cách hỏi: $5$ nhân mấy được $20$? Đó là $20:5=4$. Nhân cả tử số với $4$:
-  $$\frac{3}{5}=\frac{3\times4}{5\times4}=\frac{12}{20}.$$
-  Vậy số cần tìm là $12$.
-
-  **Kiểm tra.** $12:4=3$ và $20:4=5$, đúng là $\dfrac{3}{5}$.
+  Vậy $\square=8$.
   :::
 
-[[P10·fb76]]
-Ta cũng có thể chia, nhưng phải chia hết cả hai số.
+[[P13·345c]]
+Bây giờ ta tìm số bị trừ.
 
-  :::example Chia tử số và mẫu số
-  Tìm số thích hợp: $\dfrac{6}{8}=\dfrac{?}{4}$.
+  :::example Tìm $\square$, biết $\square-5=12$
+  **Lời giải.** $\square$ là số bị trừ, nên ta lấy hiệu cộng với số trừ:
+  $$\square=12+5=17.$$
+  **Thử lại.** $17-5=12$. Đúng.
 
-  **Lời giải.** Mẫu số $8$ thành $4$ nên đã chia cho $2$, vì $8:2=4$. Chia cả tử số cho $2$:
-  $$\frac{6}{8}=\frac{6:2}{8:2}=\frac{3}{4}.$$
-  Vậy số cần tìm là $3$.
+  Vậy $\square=17$.
   :::
 
-[[P11·85ac]]
-Bây giờ em dùng tính chất này để trả lời một câu hỏi trong cuộc sống.
+[[P14·cefc]]
+Tiếp theo là số trừ chưa biết.
 
-  :::example Ai ăn nhiều hơn?
-  Lan ăn $\dfrac{1}{2}$ chiếc bánh, Hà ăn $\dfrac{3}{6}$ chiếc bánh cùng loại. Hai bạn có ăn bằng nhau không?
+  :::example Tìm $\square$, biết $20-\square=13$
+  **Lời giải.** $\square$ là số trừ, nên ta lấy số bị trừ trừ đi hiệu:
+  $$\square=20-13=7.$$
+  **Thử lại.** $20-7=13$. Đúng.
 
-  **Lời giải.** Ta đưa $\dfrac{3}{6}$ về mẫu số nhỏ hơn bằng cách chia cả tử số và mẫu số cho $3$:
-  $$\frac{3}{6}=\frac{3:3}{6:3}=\frac{1}{2}.$$
-  Vậy $\dfrac{3}{6}=\dfrac{1}{2}$, hai bạn ăn bằng nhau.
+  Vậy $\square=7$.
+  :::
+
+[[P15·696a]]
+Cuối cùng, em dùng cách này để giải một bài toán trong cuộc sống.
+
+  :::example Số viên bi
+  Bình có một số viên bi. Bạn Nam cho Bình thêm $12$ viên, bây giờ Bình có $30$ viên. Hỏi lúc đầu Bình có bao nhiêu viên bi?
+
+  **Lời giải.** Gọi số bi lúc đầu là $\square$. Đề cho biết $\square+12=30$. Số hạng chưa biết bằng tổng trừ đi số hạng đã biết:
+  $$\square=30-12=18\ \text{(viên)}.$$
+  **Thử lại.** $18+12=30$. Đúng.
+
+  Vậy lúc đầu Bình có $18$ viên bi.
   :::
 
 :::warning Những lỗi em hay gặp
-[[P12·6a26]]
-- **Chỉ nhân tử số.** Sai: $\dfrac{2}{3}=\dfrac{4}{3}$. Vì sao sai: phải nhân cả tử số và mẫu số với cùng một số. Đúng: $\dfrac{2}{3}=\dfrac{4}{6}$.
-- **Cộng thay vì nhân.** Sai: $\dfrac{1}{2}=\dfrac{2}{3}$ (cùng cộng $1$). Vì sao sai: tính chất cơ bản chỉ nói về phép nhân và phép chia. Đúng: $\dfrac{1}{2}=\dfrac{2}{4}$.
-- **Chia không hết.** Sai: chia cả $5$ và $8$ cho $2$. Vì sao sai: $5$ không chia hết cho $2$. Đúng: chỉ chia khi cả hai số cùng chia hết cho số đó.
+[[P16·034b]]
+- **Cộng thay vì trừ ở phép cộng.** Sai: $\square+6=14$ nên $\square=14+6=20$. Vì sao sai: $20+6=26$, không bằng $14$. Đúng: $\square=14-6=8$.
+- **Trừ thay vì cộng khi tìm số bị trừ.** Sai: $\square-5=12$ nên $\square=12-5=7$. Vì sao sai: $7-5=2$, không bằng $12$. Đúng: $\square=12+5=17$.
+- **Nhầm vị trí số trừ.** Sai: $20-\square=13$ nên $\square=20+13=33$. Vì sao sai: $20-33$ không làm được. Đúng: $\square=20-13=7$.
 :::
 
 ## Thuật ngữ
 
   :::terms
-  - tính chất cơ bản của phân số | basic property of fractions
-  - phân số bằng nhau | equivalent fractions
-  - tử số | numerator
-  - mẫu số | denominator
-  - nhân | multiply
-  - chia hết | divide exactly
-  - cùng một số | the same number
+  - số hạng | addend
+  - tổng | sum (total)
+  - số bị trừ | minuend
+  - số trừ | subtrahend
+  - hiệu | difference
+  - số chưa biết | missing number
+  - phép tính ngược | inverse operation
+  - thử lại | check the answer
   :::
 
 ## Tóm tắt
 
-[[P13·a615]]
-- Nhân cả tử số và mẫu số với cùng một số khác $0$ thì được phân số bằng phân số đã cho.
-- Chia cả tử số và mẫu số cho cùng một số khác $0$ (chia hết cả hai) cũng vậy.
-- Ví dụ: $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$.
-- Tìm số còn thiếu: tìm số nhân hoặc số chia từ hai mẫu số.
-- Hai phân số bằng nhau cùng biểu diễn một điểm trên trục số.
+[[P17·fa9c]]
+- Phép cộng: số hạng + số hạng = tổng. Phép trừ: số bị trừ − số trừ = hiệu.
+- Số hạng chưa biết = tổng − số hạng đã biết.
+- Số bị trừ chưa biết = hiệu + số trừ.
+- Số trừ chưa biết = số bị trừ − hiệu.
+- Luôn thử lại bằng cách đặt kết quả vào ô trống; ghi đơn vị khi giải bài toán có lời văn.
+
+## Luyện tập
+
+[[P18·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/missing-numbers-add-subtract – BẢN TIẾNG ANH ########
+---
+title: Finding missing numbers in addition and subtraction
+description: Learn to find a missing addend, minuend or subtrahend with the inverse operation, then check your answer to be sure it is right.
+minutes: 15
+---
+
+  :::goals
+  - Name the parts of an addition and a subtraction.
+  - Find a missing addend, minuend or subtrahend with the inverse operation.
+  - Check the answer and solve word problems that ask for the starting number.
+  :::
+
+[[P1·4662]]
+Lan has some stickers in a box. Her mum gives her $7$ more, and now Lan has $15$ stickers. How many stickers were in the box at the start?
+
+[[P2·84c4]]
+We do not know the starting number, so we write $\square+7=15$. This lesson shows you how to find the number in the box for sure, without guessing.
+
+## Let's explore
+
+[[P3·4aec]]
+Remember the last lesson: in the addition $8+7=15$, the numbers $8$ and $7$ are called **addends** and $15$ is called the **sum**.
+
+[[P4·ce69]]
+Look again at Lan's story:
+
+[[P5·23f1]]
+- The box holds $15$ stickers after the new ones are added.
+- Mum gave $7$ stickers.
+- The stickers Lan had at the start are the rest, so we take $7$ away from $15$.
+
+[[P6·9586]]
+So $15-7=8$. Lan had $8$ stickers at the start.
+
+:::graph On the number line: going from 7 to 15 is 8 steps
+   (… 8 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+[[P7·6b65]]
+You see: if we know the sum and one addend, we subtract to find the other addend.
+
+  :::theorem Finding a missing addend
+  The missing addend is the sum minus the known addend.
+
+  If $\square+7=15$, then $\square=15-7=8$.
+  :::
+
+[[P8·a19e]]
+Now look at subtraction. In $15-7=8$, the number $15$ is the **minuend**, $7$ is the **subtrahend** and $8$ is the **difference**.
+
+[[P9·5d92]]
+Think of the story: there are $15$ stickers, we take away $7$, and $8$ are left. If we know $8$ are left and $7$ were taken away, then at the start there were $8+7=15$. If we know there were $15$ and $8$ are left, then $15-8=7$ were taken away.
+
+  :::theorem Finding a missing minuend or subtrahend
+  The minuend is the difference plus the subtrahend.
+
+  The subtrahend is the minuend minus the difference.
+
+  If $\square-7=8$, then $\square=8+7=15$. If $15-\square=8$, then $\square=15-8=7$.
+  :::
+
+[[P10·2a39]]
+This works because addition and subtraction undo each other: add a number and then subtract it, and you are back where you started.
+
+## Examples
+
+[[P11·7a50]]
+We start with the missing addend in the first place.
+
+  :::example Find $\square$ when $\square+6=14$
+  **Solution.** $\square$ is an addend, so we subtract the known addend from the sum:
+  $$\square=14-6=8.$$
+  **Check.** $8+6=14$. Correct.
+
+  So $\square=8$.
+  :::
+
+[[P12·5000]]
+The missing addend can also be in the second place. The method is the same.
+
+  :::example Find $\square$ when $9+\square=17$
+  **Solution.** Subtract the known addend, $9$, from the sum:
+  $$\square=17-9=8.$$
+  **Check.** $9+8=17$. Correct.
+
+  So $\square=8$.
+  :::
+
+[[P13·18cf]]
+Now we find a missing minuend.
+
+  :::example Find $\square$ when $\square-5=12$
+  **Solution.** $\square$ is the minuend, so we add the subtrahend to the difference:
+  $$\square=12+5=17.$$
+  **Check.** $17-5=12$. Correct.
+
+  So $\square=17$.
+  :::
+
+[[P14·822a]]
+Next, a missing subtrahend.
+
+  :::example Find $\square$ when $20-\square=13$
+  **Solution.** $\square$ is the subtrahend, so we subtract the difference from the minuend:
+  $$\square=20-13=7.$$
+  **Check.** $20-7=13$. Correct.
+
+  So $\square=7$.
+  :::
+
+[[P15·639c]]
+Finally, use this method for a problem from everyday life.
+
+  :::example Marbles
+  Binh has some marbles. Nam gives him $12$ more, and now Binh has $30$ marbles. How many marbles did Binh have at the start?
+
+  **Solution.** Let the starting number be $\square$. The story says $\square+12=30$. The missing addend is the sum minus the known addend:
+  $$\square=30-12=18\ \text{(marbles)}.$$
+  **Check.** $18+12=30$. Correct.
+
+  So Binh had $18$ marbles at the start.
+  :::
+
+:::warning Mistakes to watch out for
+[[P16·d6bd]]
+- **Adding instead of subtracting in an addition.** Wrong: $\square+6=14$ so $\square=14+6=20$. Why it is wrong: $20+6=26$, not $14$. Right: $\square=14-6=8$.
+- **Subtracting instead of adding for a minuend.** Wrong: $\square-5=12$ so $\square=12-5=7$. Why it is wrong: $7-5=2$, not $12$. Right: $\square=12+5=17$.
+- **Mixing up the subtrahend.** Wrong: $20-\square=13$ so $\square=20+13=33$. Why it is wrong: $20-33$ cannot be done here. Right: $\square=20-13=7$.
+:::
+
+## Key terms
+
+  :::terms
+  - addend | số hạng
+  - sum (total) | tổng
+  - minuend | số bị trừ
+  - subtrahend | số trừ
+  - difference | hiệu
+  - missing number | số chưa biết
+  - inverse operation | phép tính ngược
+  - check the answer | thử lại
+  :::
+
+## Summary
+
+[[P17·c0a0]]
+- Addition: addend + addend = sum. Subtraction: minuend − subtrahend = difference.
+- Missing addend = sum − known addend.
+- Missing minuend = difference + subtrahend.
+- Missing subtrahend = minuend − difference.
+- Always check by putting your answer in the box; write the unit in word problems.
+
+## Practice
+
+[[P18·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/missing-numbers-multiply-divide – BẢN TIẾNG VIỆT ########
+---
+title: Tìm thành phần trong phép nhân, phép chia
+description: Em học cách tìm thừa số, số bị chia, số chia chưa biết bằng phép tính ngược và các bảng nhân, bảng chia, rồi thử lại kết quả.
+minutes: 15
+---
+
+  :::goals
+  - Gọi đúng tên các thành phần của phép nhân và phép chia.
+  - Tìm thừa số, số bị chia, số chia chưa biết bằng phép tính ngược.
+  - Thử lại kết quả và giải bài toán có lời văn dạng "tìm số nhóm" hoặc "tìm số ban đầu".
+  :::
+
+[[P1·71a5]]
+Mỗi hộp có $6$ cây bút. Cô giáo có một số hộp như vậy, tất cả có $24$ cây bút. Hỏi cô giáo có bao nhiêu hộp bút?
+
+[[P2·d0c6]]
+Em chưa biết số hộp, nên ta viết $6\times\square=24$. Bài này dạy em cách tìm số trong ô trống một cách chắc chắn.
+
+## Cùng khám phá
+
+[[P3·7153]]
+Em nhớ lại bảng nhân $6$: $6\times4=24$. Trong phép nhân này, $6$ và $4$ là **thừa số**, $24$ là **tích**.
+
+[[P4·a831]]
+Từ $6\times4=24$ ta cũng có $24:6=4$ và $24:4=6$. Trong phép chia $24:6=4$, số $24$ là **số bị chia**, số $6$ là **số chia**, số $4$ là **thương**.
+
+[[P5·2755]]
+Với câu chuyện của cô giáo: tất cả $24$ cây, mỗi hộp $6$ cây, nên số hộp là $24:6=4$.
+
+  :::theorem Tìm thừa số chưa biết
+  Thừa số chưa biết bằng tích chia cho thừa số đã biết.
+
+  Nếu $6\times\square=24$ thì $\square=24:6=4$.
+  :::
+
+[[P6·96b0]]
+Bây giờ ta xem phép chia $24:6=4$ khi thiếu một thành phần.
+
+[[P7·85f0]]
+- Biết số chia $6$ và thương $4$: mỗi nhóm $6$, có $4$ nhóm, nên số bị chia là $4\times6=24$.
+- Biết số bị chia $24$ và thương $4$: chia $24$ thành $4$ nhóm bằng nhau, mỗi nhóm có $24:4=6$, nên số chia là $6$.
+
+  :::theorem Tìm số bị chia, số chia chưa biết
+  Số bị chia bằng thương nhân số chia.
+
+  Số chia bằng số bị chia chia cho thương.
+
+  Nếu $\square:6=4$ thì $\square=4\times6=24$. Nếu $24:\square=4$ thì $\square=24:4=6$.
+  :::
+
+[[P8·3510]]
+Cách làm này đúng vì phép nhân và phép chia "ngược nhau": nhân rồi chia cho cùng một số thì về lại số ban đầu.
+
+## Ví dụ
+
+[[P9·d261]]
+Ta bắt đầu với thừa số chưa biết ở vị trí đầu.
+
+  :::example Tìm $\square$, biết $\square\times7=35$
+  **Lời giải.** $\square$ là thừa số chưa biết, nên ta lấy tích chia cho thừa số đã biết:
+  $$\square=35:7=5.$$
+  **Thử lại.** $5\times7=35$. Đúng.
+
+  Vậy $\square=5$.
+  :::
+
+[[P10·98c6]]
+Thừa số chưa biết cũng có thể đứng ở vị trí thứ hai.
+
+  :::example Tìm $\square$, biết $8\times\square=56$
+  **Lời giải.** Lấy tích chia cho thừa số đã biết là $8$:
+  $$\square=56:8=7.$$
+  **Thử lại.** $8\times7=56$. Đúng.
+
+  Vậy $\square=7$.
+  :::
+
+[[P11·7e7b]]
+Bây giờ ta tìm số bị chia.
+
+  :::example Tìm $\square$, biết $\square:4=9$
+  **Lời giải.** $\square$ là số bị chia, nên ta lấy thương nhân số chia:
+  $$\square=9\times4=36.$$
+  **Thử lại.** $36:4=9$. Đúng.
+
+  Vậy $\square=36$.
+  :::
+
+[[P12·4827]]
+Tiếp theo là số chia chưa biết.
+
+  :::example Tìm $\square$, biết $42:\square=6$
+  **Lời giải.** $\square$ là số chia, nên ta lấy số bị chia chia cho thương:
+  $$\square=42:6=7.$$
+  **Thử lại.** $42:7=6$. Đúng.
+
+  Vậy $\square=7$.
+  :::
+
+[[P13·696a]]
+Cuối cùng, em dùng cách này để giải một bài toán trong cuộc sống.
+
+  :::example Xếp hàng
+  Có $45$ học sinh xếp thành các hàng đều nhau, mỗi hàng $9$ em. Hỏi xếp được bao nhiêu hàng?
+
+  **Lời giải.** Gọi số hàng là $\square$. Đề cho biết $9\times\square=45$. Thừa số chưa biết bằng tích chia cho thừa số đã biết:
+  $$\square=45:9=5\ \text{(hàng)}.$$
+  **Thử lại.** $9\times5=45$. Đúng.
+
+  Vậy xếp được $5$ hàng.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P14·b437]]
+- **Nhân thay vì chia khi tìm thừa số.** Sai: $\square\times7=35$ nên $\square=35\times7=245$. Vì sao sai: $245\times7$ lớn hơn $35$ rất nhiều. Đúng: $\square=35:7=5$.
+- **Chia thay vì nhân khi tìm số bị chia.** Sai: $\square:4=9$ nên $\square=9:4$. Vì sao sai: $9$ không chia hết cho $4$, và $9:4$ không phải số cần tìm. Đúng: $\square=9\times4=36$.
+- **Nhân khi tìm số chia.** Sai: $42:\square=6$ nên $\square=42\times6$. Vì sao sai: $42:252$ không bằng $6$. Đúng: $\square=42:6=7$.
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - thừa số | factor
+  - tích | product
+  - số bị chia | dividend
+  - số chia | divisor
+  - thương | quotient
+  - số chưa biết | missing number
+  - phép tính ngược | inverse operation
+  - thử lại | check the answer
+  :::
+
+## Tóm tắt
+
+[[P15·db69]]
+- Phép nhân: thừa số $\times$ thừa số $=$ tích. Phép chia: số bị chia $:$ số chia $=$ thương.
+- Thừa số chưa biết $=$ tích $:$ thừa số đã biết.
+- Số bị chia chưa biết $=$ thương $\times$ số chia.
+- Số chia chưa biết $=$ số bị chia $:$ thương.
+- Dùng bảng nhân, bảng chia để tính; luôn thử lại bằng cách đặt kết quả vào ô trống.
+
+## Luyện tập
+
+[[P16·824d]]
+Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, rồi mới bấm xem lời giải.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Thử thách
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Kiểm tra mini
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/missing-numbers-multiply-divide – BẢN TIẾNG ANH ########
+---
+title: Finding missing numbers in multiplication and division
+description: Learn to find a missing factor, dividend or divisor with the inverse operation and the times tables, then check your answer.
+minutes: 15
+---
+
+  :::goals
+  - Name the parts of a multiplication and a division.
+  - Find a missing factor, dividend or divisor with the inverse operation.
+  - Check the answer and solve word problems that ask for the number of groups or the starting number.
+  :::
+
+[[P1·16a9]]
+Each box holds $6$ pens. A teacher has some such boxes, with $24$ pens altogether. How many boxes of pens does the teacher have?
+
+[[P2·2cc5]]
+We do not know the number of boxes, so we write $6\times\square=24$. This lesson shows you how to find the number in the box for sure.
+
+## Let's explore
+
+[[P3·81f6]]
+Remember the $6$ times table: $6\times4=24$. In this multiplication, $6$ and $4$ are **factors** and $24$ is the **product**.
+
+[[P4·3d64]]
+From $6\times4=24$ we also get $24\div6=4$ and $24\div4=6$. In the division $24\div6=4$, the number $24$ is the **dividend**, $6$ is the **divisor** and $4$ is the **quotient**.
+
+[[P5·2b02]]
+In the teacher's story: there are $24$ pens altogether and $6$ in each box, so the number of boxes is $24\div6=4$.
+
+  :::theorem Finding a missing factor
+  The missing factor is the product divided by the known factor.
+
+  If $6\times\square=24$, then $\square=24\div6=4$.
+  :::
+
+[[P6·db04]]
+Now look at the division $24\div6=4$ when one part is missing.
+
+[[P7·025f]]
+- We know the divisor $6$ and the quotient $4$: each group is $6$, there are $4$ groups, so the dividend is $4\times6=24$.
+- We know the dividend $24$ and the quotient $4$: split $24$ into $4$ equal groups, each group has $24\div4=6$, so the divisor is $6$.
+
+  :::theorem Finding a missing dividend or divisor
+  The dividend is the quotient times the divisor.
+
+  The divisor is the dividend divided by the quotient.
+
+  If $\square\div6=4$, then $\square=4\times6=24$. If $24\div\square=4$, then $\square=24\div4=6$.
+  :::
+
+[[P8·608f]]
+This works because multiplication and division undo each other: multiply by a number and then divide by it, and you are back where you started.
+
+## Examples
+
+[[P9·4b9d]]
+We start with the missing factor in the first place.
+
+  :::example Find $\square$ when $\square\times7=35$
+  **Solution.** $\square$ is a missing factor, so we divide the product by the known factor:
+  $$\square=35\div7=5.$$
+  **Check.** $5\times7=35$. Correct.
+
+  So $\square=5$.
+  :::
+
+[[P10·c6aa]]
+The missing factor can also be in the second place.
+
+  :::example Find $\square$ when $8\times\square=56$
+  **Solution.** Divide the product by the known factor, $8$:
+  $$\square=56\div8=7.$$
+  **Check.** $8\times7=56$. Correct.
+
+  So $\square=7$.
+  :::
+
+[[P11·c70d]]
+Now we find a missing dividend.
+
+  :::example Find $\square$ when $\square\div4=9$
+  **Solution.** $\square$ is the dividend, so we multiply the quotient by the divisor:
+  $$\square=9\times4=36.$$
+  **Check.** $36\div4=9$. Correct.
+
+  So $\square=36$.
+  :::
+
+[[P12·e410]]
+Next, a missing divisor.
+
+  :::example Find $\square$ when $42\div\square=6$
+  **Solution.** $\square$ is the divisor, so we divide the dividend by the quotient:
+  $$\square=42\div6=7.$$
+  **Check.** $42\div7=6$. Correct.
+
+  So $\square=7$.
+  :::
+
+[[P13·639c]]
+Finally, use this method for a problem from everyday life.
+
+  :::example Standing in rows
+  $45$ pupils stand in equal rows of $9$. How many rows are there?
+
+  **Solution.** Let the number of rows be $\square$. The story says $9\times\square=45$. The missing factor is the product divided by the known factor:
+  $$\square=45\div9=5\ \text{(rows)}.$$
+  **Check.** $9\times5=45$. Correct.
+
+  So there are $5$ rows.
+  :::
+
+:::warning Mistakes to watch out for
+[[P14·f2e4]]
+- **Multiplying instead of dividing for a factor.** Wrong: $\square\times7=35$ so $\square=35\times7=245$. Why it is wrong: $245\times7$ is far bigger than $35$. Right: $\square=35\div7=5$.
+- **Dividing instead of multiplying for a dividend.** Wrong: $\square\div4=9$ so $\square=9\div4$. Why it is wrong: $9$ does not divide by $4$ exactly, and $9\div4$ is not the number we want. Right: $\square=9\times4=36$.
+- **Multiplying for a divisor.** Wrong: $42\div\square=6$ so $\square=42\times6$. Why it is wrong: $42\div252$ does not equal $6$. Right: $\square=42\div6=7$.
+:::
+
+## Key terms
+
+  :::terms
+  - factor | thừa số
+  - product | tích
+  - dividend | số bị chia
+  - divisor | số chia
+  - quotient | thương
+  - missing number | số chưa biết
+  - inverse operation | phép tính ngược
+  - check the answer | thử lại
+  :::
+
+## Summary
+
+[[P15·8b7b]]
+- Multiplication: factor $\times$ factor $=$ product. Division: dividend $\div$ divisor $=$ quotient.
+- Missing factor $=$ product $\div$ known factor.
+- Missing dividend $=$ quotient $\times$ divisor.
+- Missing divisor $=$ dividend $\div$ quotient.
+- Use the times tables and division facts; always check by putting your answer in the box.
+
+## Practice
+
+[[P16·2a6a]]
+Each exercise comes with what you need and how to start. Try it yourself first, then open the solution.
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 23 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 15 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise
+   (… 17 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+:::exercise Challenge
+   (… 19 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+## Mini test
+
+:::quiz
+   (… 54 dòng quiz, GIỮ NGUYÊN, không cần viết lại …)
+:::
+
+
+######## BÀI g3/multiply-2-digit-by-1-digit – BẢN TIẾNG VIỆT ########
+---
+title: Nhân số có hai chữ số với số có một chữ số
+description: Em học cách nhân số có hai chữ số với số có một chữ số, có nhớ và không nhớ, bằng cách tách số thành chục và đơn vị, rồi đặt tính.
+minutes: 15
+---
+
+  :::goals
+  - Nhân số có hai chữ số với số có một chữ số (không nhớ và có nhớ), tích không quá $100$.
+  - Đặt tính và tính đúng theo thứ tự: hàng đơn vị trước, hàng chục sau.
+  - Giải bài toán có lời văn bằng một phép nhân.
+  :::
+
+[[P1·8e44]]
+Mai có $4$ hộp bút chì, mỗi hộp có $12$ cây. Hỏi Mai có tất cả bao nhiêu cây bút chì?
+
+[[P2·c312]]
+Em chưa có bảng nhân $12$, nhưng em vẫn tính được. Bài này dạy em cách nhân một số có hai chữ số.
+
+## Cùng khám phá
+
+[[P3·1d2a]]
+Số $12$ gồm $1$ chục và $2$ đơn vị, tức là $12=10+2$. Mỗi hộp có $10+2$ cây, nên $4$ hộp có:
+
+[[P4·29d9]]
+- $10\times4=40$ cây (phần chục);
+- $2\times4=8$ cây (phần đơn vị);
+- $40+8=48$ cây.
+
+[[P5·6375]]
+Vậy $12\times4=48$. Em thấy không, ta nhân từng phần rồi cộng lại.
+
+[[P6·0b5f]]
+Khi viết gọn, ta **đặt tính** và nhân hàng đơn vị trước, rồi nhân hàng chục.
+
+  :::theorem Cách nhân số có hai chữ số với số có một chữ số
+  Muốn tính $24\times3$:
+  1. Nhân hàng đơn vị: $4\times3=12$. Viết $2$, nhớ $1$ (chục).
+  2. Nhân hàng chục: $2\times3=6$, cộng thêm $1$ nhớ: $6+1=7$. Viết $7$.
+  3. Kết quả: $24\times3=72$.
+
+  Nếu tích ở hàng đơn vị nhỏ hơn $10$ thì không cần nhớ.
+  :::
+
+[[P7·ad56]]
+Cách này đúng vì $24\times3=(20+4)\times3=60+12=72$. Số $1$ nhớ chính là $1$ chục trong $12$.
+
+## Ví dụ
+
+[[P8·e5d7]]
+Ta bắt đầu với một phép nhân không nhớ.
+
+  :::example Nhân không nhớ
+  Tính $12\times4$.
+
+  **Lời giải.** Nhân hàng đơn vị trước, rồi nhân hàng chục:
+  $$2\times4=8,\qquad 1\times4=4.$$
+
+  Viết $4$ ở hàng chục và $8$ ở hàng đơn vị. Vậy $12\times4=48$.
+  :::
+
+[[P9·66c9]]
+Bây giờ là phép nhân có nhớ. Em đặt tính cho dễ nhìn.
+
+  :::example Nhân có nhớ
+  Tính $24\times3$.
+
+  **Lời giải.** Đặt tính rồi nhân hàng đơn vị trước: $4\times3=12$, viết $2$ nhớ $1$. Sau đó $2\times3=6$, thêm $1$ nhớ được $7$:
+  $$\begin{array}{r}24\\\times\ \ 3\\\hline72\end{array}$$
+
+  Vậy $24\times3=72$.
+  :::
+
+[[P10·ea8e]]
+Có lúc tích ở hàng đơn vị là một số tròn chục hoặc có chữ số $5$. Em làm tương tự.
+
+  :::example Một phép nhân có nhớ khác
+  Tính $15\times5$.
+
+  **Lời giải.** Hàng đơn vị: $5\times5=25$, viết $5$ nhớ $2$. Hàng chục: $1\times5=5$, thêm $2$ nhớ được $7$:
+  $$15\times5=75.$$
+
+  Vậy $15\times5=75$.
+  :::
+
+[[P11·fe29]]
+Cuối cùng, em dùng phép nhân để giải một bài toán trong cuộc sống.
+
+  :::example Hộp bút màu
+  Mỗi hộp có $16$ bút màu. Hỏi $5$ hộp như thế có bao nhiêu bút màu?
+
+  **Lời giải.** Có $5$ hộp, mỗi hộp $16$ bút, nên ta làm phép nhân. Hàng đơn vị: $6\times5=30$, viết $0$ nhớ $3$. Hàng chục: $1\times5=5$, thêm $3$ nhớ được $8$:
+  $$16\times5=80\ \text{(bút)}.$$
+
+  Vậy $5$ hộp có $80$ bút màu.
+  :::
+
+:::warning Những lỗi em hay gặp
+[[P12·95cb]]
+- **Quên số nhớ.** Sai: $24\times3=62$. Vì sao sai: em viết $2$ rồi nhân $2\times3=6$ mà quên cộng $1$ nhớ. Đúng: $24\times3=72$.
+- **Cộng số nhớ vào hàng đơn vị.** Sai: $15\times5=70+5$ rồi viết $75$ nhưng không hiểu, hoặc cộng nhớ vào $5$. Vì sao sai: số nhớ là chục, phải cộng vào hàng chục. Đúng: $1\times5+2=7$ chục.
+- **Quên đơn vị.** Sai: "Đáp số: $80$". Đúng: "Đáp số: $80$ bút".
+:::
+
+## Thuật ngữ
+
+  :::terms
+  - phép nhân | multiplication
+  - thừa số | factor
+  - tích | product
+  - hàng đơn vị | ones
+  - hàng chục | tens
+  - nhớ | carry
+  - đặt tính | set out in columns
+  :::
+
+## Tóm tắt
+
+[[P13·84b3]]
+- Số có hai chữ số gồm chục và đơn vị: $24=20+4$.
+- Nhân hàng đơn vị trước, rồi nhân hàng chục.
+- Nếu tích hàng đơn vị từ $10$ trở lên thì viết chữ số hàng đơn vị và nhớ sang hàng chục.
+- Bài toán nhiều nhóm bằng nhau dùng phép nhân; nhớ ghi đơn vị trong đáp số.
 
 ## Luyện tập
 
@@ -285,11 +1051,11 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Thử thách
@@ -303,129 +1069,129 @@ Mỗi bài có phần kiến thức và gợi ý. Em hãy tự làm trước, r�
 :::
 
 
-######## BÀI g4/basic-property-of-fractions – BẢN TIẾNG ANH ########
+######## BÀI g3/multiply-2-digit-by-1-digit – BẢN TIẾNG ANH ########
 ---
-title: The basic property of fractions
-description: Learn that multiplying or dividing both the numerator and denominator by the same non-zero number gives a fraction equal to the one we started with.
+title: Multiplying a two-digit number by a one-digit number
+description: Learn to multiply a two-digit number by a one-digit number, with and without carrying, by splitting into tens and ones and then setting it out in columns.
 minutes: 15
 ---
 
   :::goals
-  - Understand that equal fractions can have different numerators and denominators.
-  - Multiply or divide both the numerator and denominator by the same non-zero number to get an equal fraction.
-  - Find a missing number in two equal fractions.
+  - Multiply a two-digit number by a one-digit number (with and without carrying), with a product of at most $100$.
+  - Set out the working in columns: ones first, then tens.
+  - Solve a word problem with one multiplication.
   :::
 
-[[P1·4cd7]]
-Lan eats $\dfrac{1}{2}$ of a cake. Nam eats $\dfrac{2}{4}$ of the same kind of cake. Who eats more?
+[[P1·2be5]]
+Mai has $4$ boxes of pencils, with $12$ pencils in each box. How many pencils does Mai have altogether?
 
-[[P2·cdc7]]
-The two fractions look different, because both the numerators and the denominators are different. But the two children may have eaten the same amount. This lesson helps you see when two fractions are equal.
+[[P2·5af9]]
+You do not know a $12$ times table, but you can still work it out. This lesson shows you how to multiply a two-digit number.
 
 ## Let's explore
 
-[[P3·fabe]]
-We cut the cake step by step.
+[[P3·746b]]
+The number $12$ is $1$ ten and $2$ ones, so $12=10+2$. Each box has $10+2$ pencils, so $4$ boxes have:
 
-[[P4·4235]]
-- The cake is cut in half: Lan eats $1$ part out of $2$, which is $\dfrac{1}{2}$.
-- Cut each half into $2$ equal smaller pieces. The cake has $4$ pieces, and Lan's part is $2$ small pieces, which is $\dfrac{2}{4}$.
-- Cut each small piece into $2$ again: the cake has $8$ pieces and Lan's part is $4$ pieces, which is $\dfrac{4}{8}$.
+[[P4·90a4]]
+- $10\times4=40$ pencils (the tens part);
+- $2\times4=8$ pencils (the ones part);
+- $40+8=48$ pencils.
 
-[[P5·df7c]]
-The cake and Lan's part have not changed, only the way we cut it. So $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$. The two children ate the same amount.
+[[P5·fa47]]
+So $12\times4=48$. You see: we multiply each part and then add.
 
-[[P6·cbe0]]
-We can see that the numerator and denominator are both multiplied by $2$: $1\times2=2$ and $2\times2=4$.
+[[P6·7fbd]]
+To write this shortly, we **set it out in columns** and multiply the ones first, then the tens.
 
-:::graph On the number line: 1/2, 2/4 and 4/8 are the same point
-   (… 7 dòng graph, GIỮ NGUYÊN, không cần viết lại …)
-:::
+  :::theorem How to multiply a two-digit number by a one-digit number
+  To work out $24\times3$:
+  1. Multiply the ones: $4\times3=12$. Write $2$ and carry $1$ (ten).
+  2. Multiply the tens: $2\times3=6$, then add the carried $1$: $6+1=7$. Write $7$.
+  3. The result is $24\times3=72$.
 
-  :::theorem The basic property of fractions
-  If we multiply both the numerator and the denominator of a fraction by the same non-zero whole number, we get a fraction equal to the one we started with.
-
-  If we divide both the numerator and the denominator by the same non-zero whole number (dividing both exactly), we also get an equal fraction.
+  If the product of the ones is less than $10$, there is nothing to carry.
   :::
 
-[[P7·86b5]]
-This is true because multiplying both numbers by $2$ means cutting every part into $2$ equal smaller parts: the number of parts in the whole doubles, the number of parts taken doubles too, and the amount taken does not change.
+[[P7·cfa8]]
+This works because $24\times3=(20+4)\times3=60+12=72$. The carried $1$ is the $1$ ten in $12$.
 
 ## Examples
 
-[[P8·65ae]]
-We start with multiplying.
+[[P8·985e]]
+We start with a multiplication where nothing is carried.
 
-  :::example Multiplying the numerator and denominator
-  Find the missing number: $\dfrac{2}{3}=\dfrac{?}{6}$.
+  :::example No carrying
+  Work out $12\times4$.
 
-  **Solution.** The denominator $3$ became $6$, so it was multiplied by $2$, because $3\times2=6$. We multiply the numerator by $2$ as well:
-  $$\frac{2}{3}=\frac{2\times2}{3\times2}=\frac{4}{6}.$$
-  So the missing number is $4$.
+  **Solution.** Multiply the ones first, then the tens:
+  $$2\times4=8,\qquad 1\times4=4.$$
+
+  Write $4$ in the tens place and $8$ in the ones place. So $12\times4=48$.
   :::
 
-[[P9·c0a7]]
-Now the multiplier is harder to see.
+[[P9·fb60]]
+Now a multiplication with carrying. Setting it out in columns makes it easier to see.
 
-  :::example Finding the multiplier
-  Find the missing number: $\dfrac{3}{5}=\dfrac{?}{20}$.
+  :::example With carrying
+  Work out $24\times3$.
 
-  **Solution.** To find the multiplier, ask: $5$ times what makes $20$? That is $20\div5=4$. Multiply the numerator by $4$:
-  $$\frac{3}{5}=\frac{3\times4}{5\times4}=\frac{12}{20}.$$
-  So the missing number is $12$.
+  **Solution.** Set it out in columns and multiply the ones first: $4\times3=12$, write $2$ and carry $1$. Then $2\times3=6$, and adding the carried $1$ gives $7$:
+  $$\begin{array}{r}24\\\times\ \ 3\\\hline72\end{array}$$
 
-  **Check.** $12\div4=3$ and $20\div4=5$, which gives $\dfrac{3}{5}$. Correct.
+  So $24\times3=72$.
   :::
 
-[[P10·8750]]
-We can also divide, but both numbers must divide exactly.
+[[P10·5433]]
+Sometimes the product of the ones ends in $5$ or $0$. We work in just the same way.
 
-  :::example Dividing the numerator and denominator
-  Find the missing number: $\dfrac{6}{8}=\dfrac{?}{4}$.
+  :::example Another multiplication with carrying
+  Work out $15\times5$.
 
-  **Solution.** The denominator $8$ became $4$, so it was divided by $2$, because $8\div2=4$. Divide the numerator by $2$ as well:
-  $$\frac{6}{8}=\frac{6\div2}{8\div2}=\frac{3}{4}.$$
-  So the missing number is $3$.
+  **Solution.** Ones: $5\times5=25$, write $5$ and carry $2$. Tens: $1\times5=5$, and adding the carried $2$ gives $7$:
+  $$15\times5=75.$$
+
+  So $15\times5=75$.
   :::
 
-[[P11·0b8e]]
-Now we use the property to answer a question from everyday life.
+[[P11·39b7]]
+Finally, use multiplication to solve a problem from everyday life.
 
-  :::example Who eats more?
-  Lan eats $\dfrac{1}{2}$ of a cake and Ha eats $\dfrac{3}{6}$ of the same kind of cake. Do they eat the same amount?
+  :::example Boxes of crayons
+  Each box has $16$ crayons. How many crayons are in $5$ such boxes?
 
-  **Solution.** We bring $\dfrac{3}{6}$ to a smaller denominator by dividing both the numerator and the denominator by $3$:
-  $$\frac{3}{6}=\frac{3\div3}{6\div3}=\frac{1}{2}.$$
-  So $\dfrac{3}{6}=\dfrac{1}{2}$, and the two children eat the same amount.
+  **Solution.** There are $5$ boxes with $16$ crayons each, so we multiply. Ones: $6\times5=30$, write $0$ and carry $3$. Tens: $1\times5=5$, and adding the carried $3$ gives $8$:
+  $$16\times5=80\ \text{(crayons)}.$$
+
+  So $5$ boxes have $80$ crayons.
   :::
 
 :::warning Mistakes to watch out for
-[[P12·1f25]]
-- **Multiplying only the numerator.** Wrong: $\dfrac{2}{3}=\dfrac{4}{3}$. Why it is wrong: both the numerator and the denominator must be multiplied by the same number. Right: $\dfrac{2}{3}=\dfrac{4}{6}$.
-- **Adding instead of multiplying.** Wrong: $\dfrac{1}{2}=\dfrac{2}{3}$ (adding $1$ to both). Why it is wrong: the basic property is only about multiplying and dividing. Right: $\dfrac{1}{2}=\dfrac{2}{4}$.
-- **Dividing when it does not divide exactly.** Wrong: dividing both $5$ and $8$ by $2$. Why it is wrong: $5$ does not divide exactly by $2$. Right: divide only when both numbers divide exactly by that number.
+[[P12·2887]]
+- **Forgetting the carry.** Wrong: $24\times3=62$. Why it is wrong: you wrote $2$, then worked out $2\times3=6$ and forgot to add the carried $1$. Right: $24\times3=72$.
+- **Adding the carry to the ones.** Wrong: adding the carried ten to the $5$ in the ones place. Why it is wrong: the carry is tens, so it must be added to the tens. Right: $1\times5+2=7$ tens.
+- **No unit.** Wrong: "Answer: $80$". Right: "Answer: $80$ crayons".
 :::
 
 ## Key terms
 
   :::terms
-  - basic property of fractions | tính chất cơ bản của phân số
-  - equivalent fractions | phân số bằng nhau
-  - numerator | tử số
-  - denominator | mẫu số
-  - multiply | nhân
-  - divide exactly | chia hết
-  - the same number | cùng một số
+  - multiplication | phép nhân
+  - factor | thừa số
+  - product | tích
+  - ones | hàng đơn vị
+  - tens | hàng chục
+  - carry | nhớ
+  - set out in columns | đặt tính
   :::
 
 ## Summary
 
-[[P13·ccd4]]
-- Multiplying both the numerator and the denominator by the same non-zero number gives an equal fraction.
-- Dividing both by the same non-zero number (exactly) also does.
-- Example: $\dfrac{1}{2}=\dfrac{2}{4}=\dfrac{4}{8}$.
-- To find a missing number, find the multiplier or divisor from the two denominators.
-- Equal fractions show the same point on a number line.
+[[P13·b569]]
+- A two-digit number is tens and ones: $24=20+4$.
+- Multiply the ones first, then the tens.
+- If the product of the ones is $10$ or more, write the ones digit and carry the tens.
+- A problem with several equal groups needs multiplication; remember the unit in the answer.
 
 ## Practice
 
@@ -453,11 +1219,11 @@ Each exercise comes with what you need and how to start. Try it yourself first, 
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise
-   (… 13 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
+   (… 14 dòng exercise, GIỮ NGUYÊN, không cần viết lại …)
 :::
 
 :::exercise Challenge

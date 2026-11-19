@@ -6,7 +6,7 @@ Kết quả: file Vinax.vn-10-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/viec
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Vinax.vn-10-LG
-Người làm: tài khoản Vinax.vn. Gói này có 38 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Vinax.vn. Gói này có 43 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Vinax.vn-10-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Vinax.vn-10-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,799 +189,1066 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g5/speed-uniform-motion (10 bài tập)
-- g5/square-kilometres-hectares (10 bài tập)
-- g5/subtracting-decimals (8 bài tập)
-- g5/sum-and-ratio-problems (10 bài tập)
+- g4/six-digit-numbers (10 bài tập)
+- g4/square-dm-m-mm (7 bài tập)
+- g4/statistical-data-lists (7 bài tập)
+- g4/sum-and-difference-problems (9 bài tập)
+- g4/three-step-problems (10 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g5/speed-uniform-motion
-Bài học: Vận tốc của một chuyển động đều. Quãng đường, thời gian của một chuyển động đều / Speed in uniform motion. Distance and time in uniform motion
+@@@ g4/six-digit-numbers
+Bài học: Số có sáu chữ số. Số 1 000 000. Hàng và lớp / Six-digit numbers. The number 1,000,000. Place value: places and periods
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Một xe máy đi $135$ km hết $3$ giờ. Tính vận tốc của xe máy.
+Viết số: tám trăm hai mươi nghìn bốn trăm.
 
 [LỜI GIẢI CŨ – VI]
-Vận tốc của xe máy là:
-$$135:3=45\ (\text{km/giờ}).$$
-**Đáp số.** $45$ km/giờ.
+"Tám trăm hai mươi nghìn" là $820\,000$ và "bốn trăm" là $400$. Ta có $820\,000+400=820\,400$.
+
+**Đáp số.** $820\,400$.
 
 [ĐỀ – EN]
-A motorbike travels $135$ km in $3$ hours. Find its speed.
+Write the number: eight hundred and twenty thousand, four hundred.
 
 [LỜI GIẢI CŨ – EN]
-The speed of the motorbike is:
-$$135\div3=45\ (\text{km/h}).$$
-**Answer.** $45$ km/h.
+"Eight hundred and twenty thousand" is $820\,000$ and "four hundred" is $400$. We have $820\,000+400=820\,400$.
+
+**Answer.** $820\,400$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Một con ốc sên bò được $3$ m trong $5$ phút. Tính vận tốc của ốc sên theo m/phút.
+Đọc số $605\,090$.
 
 [LỜI GIẢI CŨ – VI]
-$$v=3:5=0{,}6\ (\text{m/phút}).$$
-**Đáp số.** $0{,}6$ m/phút.
+Số $605\,090$ có lớp nghìn là $605$ và lớp đơn vị là $090$.
+
+**Đáp số.** Sáu trăm linh năm nghìn không trăm chín mươi.
 
 [ĐỀ – EN]
-A snail crawls $3$ m in $5$ minutes. Find the snail's speed in m/min.
+Read the number $605\,090$.
 
 [LỜI GIẢI CŨ – EN]
-$$v=3\div5=0.6\ (\text{m/min}).$$
-**Answer.** $0.6$ m/min.
+The number $605\,090$ has thousands period $605$ and units period $090$.
+
+**Answer.** Six hundred and five thousand and ninety.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Một ô tô đi với vận tốc $54$ km/giờ trong $2{,}5$ giờ. Tính quãng đường ô tô đi được.
+Viết số $258\,047$ thành tổng.
 
 [LỜI GIẢI CŨ – VI]
-Quãng đường ô tô đi được là:
-$$54\times2{,}5=135\ (\text{km}).$$
-**Đáp số.** $135$ km.
+Số $258\,047$ có $2$ trăm nghìn, $5$ chục nghìn, $8$ nghìn, $0$ trăm, $4$ chục và $7$ đơn vị. Ta có:
+$$258\,047=200\,000+50\,000+8\,000+40+7.$$
+
+**Đáp số.** $200\,000+50\,000+8\,000+40+7$.
 
 [ĐỀ – EN]
-A car travels at $54$ km/h for $2.5$ hours. Find the distance it travels.
+Write $258\,047$ as a sum.
 
 [LỜI GIẢI CŨ – EN]
-The distance the car travels is:
-$$54\times2.5=135\ (\text{km}).$$
-**Answer.** $135$ km.
+The number $258\,047$ has $2$ hundred-thousands, $5$ ten-thousands, $8$ thousands, $0$ hundreds, $4$ tens and $7$ ones. We have:
+$$258\,047=200\,000+50\,000+8\,000+40+7.$$
+
+**Answer.** $200\,000+50\,000+8\,000+40+7$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Một người đi bộ với vận tốc $5$ km/giờ. Hỏi người đó đi quãng đường $12$ km hết bao lâu? (Viết kết quả theo giờ và phút.)
+Trong số $913\,256$, các chữ số $9$, $3$ và $2$ thuộc hàng nào, lớp nào?
 
 [LỜI GIẢI CŨ – VI]
-Thời gian đi là $12:5=2{,}4$ (giờ). Vì $0{,}4\times60=24$ nên $2{,}4$ giờ $=2$ giờ $24$ phút.
+Chữ số $9$ ở hàng trăm nghìn, thuộc lớp nghìn. Chữ số $3$ ở hàng nghìn, thuộc lớp nghìn. Chữ số $2$ ở hàng trăm, thuộc lớp đơn vị.
 
-**Đáp số.** $2$ giờ $24$ phút.
+**Đáp số.** $9$: hàng trăm nghìn, lớp nghìn; $3$: hàng nghìn, lớp nghìn; $2$: hàng trăm, lớp đơn vị.
 
 [ĐỀ – EN]
-A walker goes at $5$ km/h. How long does the walker take to cover $12$ km? (Give the answer in hours and minutes.)
+In the number $913\,256$, which place and which period do the digits $9$, $3$ and $2$ belong to?
 
 [LỜI GIẢI CŨ – EN]
-The time is $12\div5=2.4$ (hours). Since $0.4\times60=24$, $2.4$ hours $=2$ hours $24$ minutes.
+The digit $9$ is in the hundred-thousands place, in the thousands period. The digit $3$ is in the thousands place, in the thousands period. The digit $2$ is in the hundreds place, in the units period.
 
-**Answer.** $2$ hours $24$ minutes.
+**Answer.** $9$: hundred-thousands place, thousands period; $3$: thousands place, thousands period; $2$: hundreds place, units period.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Một tàu cá chạy với vận tốc $18$ km/giờ từ $6$ giờ đến $8$ giờ $30$ phút. Hỏi tàu cá chạy được bao nhiêu ki-lô-mét?
+Tìm số liền trước và số liền sau của $400\,000$.
 
 [LỜI GIẢI CŨ – VI]
-Thời gian chạy là $8$ giờ $30$ phút $-$ $6$ giờ $=2$ giờ $30$ phút $=2{,}5$ giờ. Quãng đường là:
-$$18\times2{,}5=45\ (\text{km}).$$
-**Đáp số.** $45$ km.
+Số liền trước là $400\,000-1=399\,999$. Số liền sau là $400\,000+1=400\,001$.
+
+**Đáp số.** $399\,999$ và $400\,001$.
 
 [ĐỀ – EN]
-A fishing boat travels at $18$ km/h from $6{:}00$ to $8{:}30$. How many kilometres does the boat travel?
+Find the number before and the number after $400\,000$.
 
 [LỜI GIẢI CŨ – EN]
-The travelling time is $8$ h $30$ min $-$ $6$ h $=2$ h $30$ min $=2.5$ h. The distance is:
-$$18\times2.5=45\ (\text{km}).$$
-**Answer.** $45$ km.
+The number before is $400\,000-1=399\,999$. The number after is $400\,000+1=400\,001$.
+
+**Answer.** $399\,999$ and $400\,001$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Một người đi xe máy đi quãng đường $100$ km hết $2$ giờ $30$ phút. Tính vận tốc của người đó.
+Mai có ba tờ $200\,000$ đồng. Hỏi Mai còn thiếu bao nhiêu đồng để có $1\,000\,000$ đồng?
 
 [LỜI GIẢI CŨ – VI]
-Ta có $2$ giờ $30$ phút $=2{,}5$ giờ. Vận tốc là:
-$$100:2{,}5=40\ (\text{km/giờ}).$$
-**Đáp số.** $40$ km/giờ.
+Bài giải
+
+Số tiền Mai đã có là:
+$$3\times200\,000=600\,000\ \text{(đồng)}.$$
+Số tiền Mai còn thiếu là:
+$$1\,000\,000-600\,000=400\,000\ \text{(đồng)}.$$
+
+**Đáp số.** $400\,000$ đồng.
 
 [ĐỀ – EN]
-A motorcyclist covers $100$ km in $2$ hours $30$ minutes. Find the speed of the motorcyclist.
+Mai has three $200\,000$ dong notes. How many more dong does Mai need to have $1\,000\,000$ dong?
 
 [LỜI GIẢI CŨ – EN]
-We have $2$ h $30$ min $=2.5$ h. The speed is:
-$$100\div2.5=40\ (\text{km/h}).$$
-**Answer.** $40$ km/h.
+Solution
+
+The money Mai has is:
+$$3\times200\,000=600\,000\ \text{(dong)}.$$
+The money Mai still needs is:
+$$1\,000\,000-600\,000=400\,000\ \text{(dong)}.$$
+
+**Answer.** $400\,000$ dong.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài cộng, trừ số đo thời gian. Một xe khởi hành lúc $7$ giờ $45$ phút, đi $2$ giờ $30$ phút với vận tốc $48$ km/giờ thì đến B. Tính quãng đường AB và cho biết xe đến B lúc mấy giờ.
+Một cửa hàng (số liệu giả định) có bốn tờ $200\,000$ đồng và hai tờ $100\,000$ đồng. Hỏi tổng số tiền có đủ $1\,000\,000$ đồng không?
 
 [LỜI GIẢI CŨ – VI]
-Quãng đường AB là $48\times2{,}5=120$ (km). Xe đến B lúc:
-$$7\text{ giờ }45\text{ phút}+2\text{ giờ }30\text{ phút}=9\text{ giờ }75\text{ phút}=10\text{ giờ }15\text{ phút}.$$
-**Đáp số.** $120$ km; $10$ giờ $15$ phút.
+Bài giải
+
+Số tiền ở bốn tờ $200\,000$ đồng là:
+$$4\times200\,000=800\,000\ \text{(đồng)}.$$
+Số tiền ở hai tờ $100\,000$ đồng là:
+$$2\times100\,000=200\,000\ \text{(đồng)}.$$
+Tổng số tiền là $800\,000+200\,000=1\,000\,000$ (đồng).
+
+**Đáp số.** Vừa đủ $1\,000\,000$ đồng.
 
 [ĐỀ – EN]
-Remember the lesson on adding and subtracting times. A vehicle leaves at $7{:}45$ and travels for $2$ h $30$ min at $48$ km/h to reach B. Find the distance AB and the time of arrival at B.
+A shop (made-up numbers) has four $200\,000$ dong notes and two $100\,000$ dong notes. Is the total money enough for $1\,000\,000$ dong?
 
 [LỜI GIẢI CŨ – EN]
-The distance AB is $48\times2.5=120$ (km). The vehicle arrives at:
-$$7\text{ h }45\text{ min}+2\text{ h }30\text{ min}=9\text{ h }75\text{ min}=10\text{ h }15\text{ min}.$$
-**Answer.** $120$ km; $10{:}15$.
+Solution
+
+The money in the four $200\,000$ dong notes is:
+$$4\times200\,000=800\,000\ \text{(dong)}.$$
+The money in the two $100\,000$ dong notes is:
+$$2\times100\,000=200\,000\ \text{(dong)}.$$
+The total money is $800\,000+200\,000=1\,000\,000$ (dong).
+
+**Answer.** Exactly $1\,000\,000$ dong.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Xe A đi $120$ km hết $3$ giờ. Xe B đi $150$ km hết $4$ giờ. Xe nào chạy nhanh hơn và nhanh hơn bao nhiêu ki-lô-mét mỗi giờ?
+Em hãy nhớ lại bài nhân số có năm chữ số với số có một chữ số. Tính $25\,000\times4$. Kết quả có mấy chữ số? Chữ số $1$ của kết quả ở hàng nào, lớp nào?
 
 [LỜI GIẢI CŨ – VI]
-Vận tốc xe A là $120:3=40$ (km/giờ). Vận tốc xe B là $150:4=37{,}5$ (km/giờ). Vì $40>37{,}5$ nên xe A nhanh hơn, và hơn $40-37{,}5=2{,}5$ (km/giờ).
+Ta có $25\,000\times4=100\,000$. Kết quả có sáu chữ số. Chữ số $1$ ở hàng trăm nghìn, thuộc lớp nghìn.
 
-**Đáp số.** Xe A nhanh hơn, hơn $2{,}5$ km/giờ.
+**Đáp số.** $100\,000$; sáu chữ số; hàng trăm nghìn, lớp nghìn.
 
 [ĐỀ – EN]
-Car A travels $120$ km in $3$ hours. Car B travels $150$ km in $4$ hours. Which car is faster, and by how many kilometres per hour?
+Remember the lesson on multiplying a five-digit number by a one-digit number. Work out $25\,000\times4$. How many digits does the result have? Which place and which period is the digit $1$ of the result in?
 
 [LỜI GIẢI CŨ – EN]
-The speed of car A is $120\div3=40$ (km/h). The speed of car B is $150\div4=37.5$ (km/h). Since $40>37.5$, car A is faster, by $40-37.5=2.5$ (km/h).
+We have $25\,000\times4=100\,000$. The result has six digits. The digit $1$ is in the hundred-thousands place, in the thousands period.
 
-**Answer.** Car A is faster, by $2.5$ km/h.
+**Answer.** $100\,000$; six digits; hundred-thousands place, thousands period.
 
 === Bài 9 ===
 [ĐỀ – VI]
-An đi xe đạp từ nhà đến trường với vận tốc $12$ km/giờ và mất $20$ phút. Bình đi bộ từ nhà đến trường (cùng quãng đường) với vận tốc $4$ km/giờ. Hỏi Bình đi mất bao lâu?
+Lan nghe đọc số "bốn trăm linh ba nghìn không trăm linh năm" và viết $43\,005$. Em hãy kiểm tra cách viết của Lan. Nếu sai, em hãy sửa lại.
 
 [LỜI GIẢI CŨ – VI]
-Vì $20$ phút $=\dfrac13$ giờ nên quãng đường từ nhà đến trường là:
-$$12\times\frac13=4\ (\text{km}).$$
-Thời gian Bình đi là $4:4=1$ (giờ).
+Lớp nghìn là "bốn trăm linh ba", tức là $403$. Lớp đơn vị là "không trăm linh năm", tức là $005$. Số đúng là $403\,005$. Số $43\,005$ chỉ có năm chữ số nên Lan đã bỏ sót một chữ số $0$.
 
-**Đáp số.** $1$ giờ.
+**Đáp số.** Lan sai; số đúng là $403\,005$.
 
 [ĐỀ – EN]
-An cycles from home to school at $12$ km/h and takes $20$ minutes. Binh walks from home to school (the same distance) at $4$ km/h. How long does Binh take?
+Lan hears the number "four hundred and three thousand and five" and writes $43\,005$. Check Lan's writing. If it is wrong, correct it.
 
 [LỜI GIẢI CŨ – EN]
-Since $20$ min $=\dfrac13$ hour, the distance from home to school is:
-$$12\times\frac13=4\ (\text{km}).$$
-Binh's time is $4\div4=1$ (hour).
+The thousands period is "four hundred and three", which is $403$. The units period is "five", which is $005$. The correct number is $403\,005$. The number $43\,005$ has only five digits, so Lan left out a $0$.
 
-**Answer.** $1$ hour.
+**Answer.** Lan is wrong; the correct number is $403\,005$.
 
 === Bài 10 ===
 [ĐỀ – VI]
-Một bạn chạy với vận tốc $5$ m/giây. Nếu giữ nguyên vận tốc đó, một giờ bạn chạy được bao nhiêu ki-lô-mét? Vậy $5$ m/giây bằng bao nhiêu km/giờ?
+Có bao nhiêu số có sáu chữ số?
 
 [LỜI GIẢI CŨ – VI]
-Trong $1$ giờ $=3600$ giây, bạn chạy được $5\times3600=18\,000$ (m) $=18$ (km). Vậy $5$ m/giây $=18$ km/giờ.
+Các số có sáu chữ số là các số từ $100\,000$ đến $999\,999$. Số các số đó là:
+$$999\,999-100\,000+1=900\,000.$$
 
-**Đáp số.** $18$ km; $5$ m/giây $=18$ km/giờ.
+**Đáp số.** $900\,000$ số.
 
 [ĐỀ – EN]
-A girl runs at $5$ m/s. If she keeps this speed, how many kilometres does she run in one hour? So how many km/h is $5$ m/s?
+How many six-digit numbers are there?
 
 [LỜI GIẢI CŨ – EN]
-In $1$ hour $=3600$ seconds she runs $5\times3600=18\,000$ (m) $=18$ (km). So $5$ m/s $=18$ km/h.
+The six-digit numbers are the numbers from $100\,000$ to $999\,999$. The number of them is:
+$$999\,999-100\,000+1=900\,000.$$
 
-**Answer.** $18$ km; $5$ m/s $=18$ km/h.
+**Answer.** $900\,000$ numbers.
 
 
 ######################################################################
-@@@ g5/square-kilometres-hectares
-Bài học: Ki-lô-mét vuông. Héc-ta. Các đơn vị đo diện tích / Square kilometres. Hectares. Units of area
+@@@ g4/square-dm-m-mm
+Bài học: Đề-xi-mét vuông, mét vuông, mi-li-mét vuông / Square decimetres, square metres and square millimetres
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Điền số thích hợp vào chỗ trống:
+
+a) $1\ \text{dm}^2=\ ?\ \text{cm}^2$.
+
+b) $1\ \text{m}^2=\ ?\ \text{dm}^2$.
+
+c) $1\ \text{cm}^2=\ ?\ \text{mm}^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $1\ \text{dm}^2=100\ \text{cm}^2$. b) $1\ \text{m}^2=100\ \text{dm}^2$. c) $1\ \text{cm}^2=100\ \text{mm}^2$.
+
+**Đáp số.** Cả ba chỗ trống đều là $100$.
+
+[ĐỀ – EN]
+Write the missing number:
+
+a) $1\ \text{dm}^2=\ ?\ \text{cm}^2$.
+
+b) $1\ \text{m}^2=\ ?\ \text{dm}^2$.
+
+c) $1\ \text{cm}^2=\ ?\ \text{mm}^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $1\ \text{dm}^2=100\ \text{cm}^2$. b) $1\ \text{m}^2=100\ \text{dm}^2$. c) $1\ \text{cm}^2=100\ \text{mm}^2$.
+
+**Answer.** All three missing numbers are $100$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Đổi các số đo sau:
+
+a) $5\ \text{dm}^2=\ ?\ \text{cm}^2$.
+
+b) $9\ \text{m}^2=\ ?\ \text{dm}^2$.
+
+c) $2\ \text{cm}^2=\ ?\ \text{mm}^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $5\times100=500$. b) $9\times100=900$. c) $2\times100=200$.
+
+**Đáp số.** a) $500\ \text{cm}^2$; b) $900\ \text{dm}^2$; c) $200\ \text{mm}^2$.
+
+[ĐỀ – EN]
+Convert:
+
+a) $5\ \text{dm}^2=\ ?\ \text{cm}^2$.
+
+b) $9\ \text{m}^2=\ ?\ \text{dm}^2$.
+
+c) $2\ \text{cm}^2=\ ?\ \text{mm}^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $5\times100=500$. b) $9\times100=900$. c) $2\times100=200$.
+
+**Answer.** a) $500\ \text{cm}^2$; b) $900\ \text{dm}^2$; c) $200\ \text{mm}^2$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước (yến, tạ, tấn). Một xe chở $3$ tạ gạo và $5$ yến ngô. Hỏi xe chở tất cả bao nhiêu ki-lô-gam?
+
+[LỜI GIẢI CŨ – VI]
+$3$ tạ $=3\times100=300\ \text{kg}$. $5$ yến $=5\times10=50\ \text{kg}$. Tổng là $300+50=350\ (\text{kg})$.
+
+**Đáp số.** $350\ \text{kg}$.
+
+[ĐỀ – EN]
+Remember the last lesson (yến, tạ and tonnes). A lorry carries $3$ tạ of rice and $5$ yến of maize. How many kilograms does it carry altogether?
+
+[LỜI GIẢI CŨ – EN]
+$3$ tạ $=3\times100=300\ \text{kg}$. $5$ yến $=5\times10=50\ \text{kg}$. The total is $300+50=350\ (\text{kg})$.
+
+**Answer.** $350\ \text{kg}$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Đổi các số đo sau (lần này đổi sang đơn vị lớn hơn):
+
+a) $600\ \text{cm}^2=\ ?\ \text{dm}^2$.
+
+b) $800\ \text{dm}^2=\ ?\ \text{m}^2$.
+
+c) $4\,000\ \text{mm}^2=\ ?\ \text{cm}^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $600:100=6$. b) $800:100=8$. c) $4\,000:100=40$.
+
+**Đáp số.** a) $6\ \text{dm}^2$; b) $8\ \text{m}^2$; c) $40\ \text{cm}^2$.
+
+[ĐỀ – EN]
+Convert (this time into a larger unit):
+
+a) $600\ \text{cm}^2=\ ?\ \text{dm}^2$.
+
+b) $800\ \text{dm}^2=\ ?\ \text{m}^2$.
+
+c) $4\,000\ \text{mm}^2=\ ?\ \text{cm}^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $600\div100=6$. b) $800\div100=8$. c) $4\,000\div100=40$.
+
+**Answer.** a) $6\ \text{dm}^2$; b) $8\ \text{m}^2$; c) $40\ \text{cm}^2$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Tìm và sửa lỗi sai trong lời giải của Mai:
+
+a) $6\ \text{dm}^2\ 4\ \text{cm}^2=64\ \text{cm}^2$.
+
+b) $2\,000\ \text{cm}^2=200\ \text{dm}^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) Mai quên đổi đúng $6\ \text{dm}^2$. Đúng là $6\ \text{dm}^2=600\ \text{cm}^2$, rồi $600+4=604$.
+b) Mai chia sai. Đúng là $2\,000:100=20$.
+
+**Đáp số.** a) $604\ \text{cm}^2$; b) $20\ \text{dm}^2$.
+
+[ĐỀ – EN]
+Find and correct the mistakes in Mai's working:
+
+a) $6\ \text{dm}^2\ 4\ \text{cm}^2=64\ \text{cm}^2$.
+
+b) $2\,000\ \text{cm}^2=200\ \text{dm}^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) Mai did not change $6\ \text{dm}^2$ correctly. The right way is $6\ \text{dm}^2=600\ \text{cm}^2$, then $600+4=604$.
+b) Mai divided wrongly. The right way is $2\,000\div100=20$.
+
+**Answer.** a) $604\ \text{cm}^2$; b) $20\ \text{dm}^2$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Nền một phòng học hình chữ nhật dài $5\ \text{m}$, rộng $4\ \text{m}$.
+
+a) Tính diện tích nền phòng theo $\text{m}^2$.
+
+b) Đổi diện tích đó ra $\text{dm}^2$.
+
+c) Nếu lát bằng gạch hình vuông cạnh $1\ \text{dm}$ thì cần bao nhiêu viên gạch?
+
+[LỜI GIẢI CŨ – VI]
+a) $5\times4=20\ (\text{m}^2)$.
+b) $20\times100=2\,000\ (\text{dm}^2)$.
+c) Mỗi viên phủ $1\ \text{dm}^2$ nên cần $2\,000$ viên.
+
+**Đáp số.** a) $20\ \text{m}^2$; b) $2\,000\ \text{dm}^2$; c) $2\,000$ viên gạch.
+
+[ĐỀ – EN]
+The floor of a classroom is a rectangle $5\ \text{m}$ long and $4\ \text{m}$ wide.
+
+a) Find the area of the floor in $\text{m}^2$.
+
+b) Change this area into $\text{dm}^2$.
+
+c) If the floor is covered with square tiles with sides of $1\ \text{dm}$, how many tiles are needed?
+
+[LỜI GIẢI CŨ – EN]
+a) $5\times4=20\ (\text{m}^2)$.
+b) $20\times100=2\,000\ (\text{dm}^2)$.
+c) Each tile covers $1\ \text{dm}^2$, so $2\,000$ tiles are needed.
+
+**Answer.** a) $20\ \text{m}^2$; b) $2\,000\ \text{dm}^2$; c) $2\,000$ tiles.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Một tấm bìa hình vuông có diện tích $1\ \text{m}^2$. Bạn Hà cắt tấm bìa thành các mảnh hình vuông cạnh $1\ \text{dm}$, rồi xếp các mảnh nối nhau thành một hàng thẳng. Hàng dài bao nhiêu mét?
+
+[LỜI GIẢI CŨ – VI]
+Số mảnh là $100$, vì $1\ \text{m}^2=100\ \text{dm}^2$. Mỗi mảnh rộng $1\ \text{dm}$, nên hàng dài $100\times1=100\ \text{dm}$. Đổi ra mét: $100:10=10\ \text{m}$.
+
+**Kiểm tra.** $10\ \text{m}=100\ \text{dm}$. Đúng.
+
+**Đáp số.** $10\ \text{m}$.
+
+[ĐỀ – EN]
+A square piece of card has an area of $1\ \text{m}^2$. Ha cuts it into small squares with sides of $1\ \text{dm}$, then puts the small squares end to end in one straight line. How many metres long is the line?
+
+[LỜI GIẢI CŨ – EN]
+There are $100$ small squares, because $1\ \text{m}^2=100\ \text{dm}^2$. Each is $1\ \text{dm}$ wide, so the line is $100\times1=100\ \text{dm}$ long. In metres: $100\div10=10\ \text{m}$.
+
+**Check.** $10\ \text{m}=100\ \text{dm}$. Correct.
+
+**Answer.** $10\ \text{m}$.
+
+
+######################################################################
+@@@ g4/statistical-data-lists
+Bài học: Dãy số liệu thống kê / Lists of statistical data
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho dãy số liệu $4, 8, 6, 9, 5$. Dãy có mấy số? Số lớn nhất và số nhỏ nhất là số nào?
+
+[LỜI GIẢI CŨ – VI]
+Dãy có $5$ số. Số lớn nhất là $9$, số nhỏ nhất là $4$.
+
+**Đáp số.** $5$ số; lớn nhất $9$; nhỏ nhất $4$.
+
+[ĐỀ – EN]
+Here is a list of data: $4, 8, 6, 9, 5$. How many numbers are there? Which is the greatest and which is the least?
+
+[LỜI GIẢI CŨ – EN]
+There are $5$ numbers. The greatest is $9$ and the least is $4$.
+
+**Answer.** $5$ numbers; greatest $9$; least $4$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Sắp xếp dãy số liệu $15, 9, 12, 20, 9$ từ bé đến lớn.
+
+[LỜI GIẢI CŨ – VI]
+Số nhỏ nhất là $9$, xuất hiện hai lần. Dãy sắp xếp là $9, 9, 12, 15, 20$.
+
+**Đáp số.** $9, 9, 12, 15, 20$.
+
+[ĐỀ – EN]
+Put the data $15, 9, 12, 20, 9$ in order from smallest to largest.
+
+[LỜI GIẢI CŨ – EN]
+The least is $9$, which appears twice. The ordered list is $9, 9, 12, 15, 20$.
+
+**Answer.** $9, 9, 12, 15, 20$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài trước (rút về đơn vị): $5$ hộp bút có $30$ cái bút. Mỗi hộp có bao nhiêu bút? Hãy viết dãy số bút trong $1$, $2$, $3$ và $4$ hộp.
+
+[LỜI GIẢI CŨ – VI]
+Một hộp có $30:5=6$ (cái bút). Số bút trong $1$, $2$, $3$, $4$ hộp là $6, 12, 18, 24$.
+
+**Đáp số.** Mỗi hộp $6$ cái; dãy $6, 12, 18, 24$.
+
+[ĐỀ – EN]
+Remember the last lesson (the unitary method): $5$ boxes of pens hold $30$ pens. How many pens are in each box? Write the list of pens in $1$, $2$, $3$ and $4$ boxes.
+
+[LỜI GIẢI CŨ – EN]
+One box holds $30\div5=6$ (pens). The pens in $1$, $2$, $3$, $4$ boxes are $6, 12, 18, 24$.
+
+**Answer.** $6$ pens in each box; the list is $6, 12, 18, 24$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Điểm kiểm tra của $6$ bạn là: $8, 9, 7, 10, 9, 8$.
+a) Có mấy bạn được $9$ điểm?
+b) Điểm cao nhất hơn điểm thấp nhất mấy điểm?
+c) Có mấy bạn được từ $9$ điểm trở lên?
+
+[LỜI GIẢI CŨ – VI]
+a) Số $9$ xuất hiện $2$ lần. b) $10-7=3$ (điểm). c) Có hai điểm $9$ và một điểm $10$, tức $3$ bạn.
+
+**Đáp số.** a) $2$ bạn; b) $3$ điểm; c) $3$ bạn.
+
+[ĐỀ – EN]
+The test scores of $6$ children are: $8, 9, 7, 10, 9, 8$.
+a) How many children scored $9$?
+b) How many points higher is the top score than the lowest score?
+c) How many children scored $9$ or more?
+
+[LỜI GIẢI CŨ – EN]
+a) The number $9$ appears $2$ times. b) $10-7=3$ (points). c) There are two $9$s and one $10$, so $3$ children.
+
+**Answer.** a) $2$ children; b) $3$ points; c) $3$ children.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho dãy số liệu $3, 8, 3, 5, 3, 8$. Số lớn nhất và số xuất hiện nhiều nhất có phải cùng là một số không? Vì sao?
+
+[LỜI GIẢI CŨ – VI]
+Số lớn nhất là $8$ (xuất hiện $2$ lần). Số $3$ xuất hiện $3$ lần, nhiều hơn $8$. Vậy hai số này khác nhau.
+
+**Đáp số.** Không: số lớn nhất là $8$, số xuất hiện nhiều nhất là $3$.
+
+[ĐỀ – EN]
+Here is a list of data: $3, 8, 3, 5, 3, 8$. Are the greatest value and the most common value the same number? Why?
+
+[LỜI GIẢI CŨ – EN]
+The greatest value is $8$ (it appears $2$ times). The number $3$ appears $3$ times, more than $8$. So they are different numbers.
+
+**Answer.** No: the greatest is $8$ and the most common is $3$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Hà làm: "Dãy $5, 9, 3, 7, 9$ có $4$ số vì số $9$ chỉ tính một lần; số nhỏ nhất là $5$." Hà sai ở những chỗ nào? Hãy làm lại cho đúng.
+
+[LỜI GIẢI CŨ – VI]
+Dãy có $5$ số vì số $9$ xuất hiện hai lần, phải đếm hai lần. Số nhỏ nhất là $3$, không phải $5$.
+
+**Đáp số.** $5$ số; số nhỏ nhất là $3$.
+
+[ĐỀ – EN]
+Ha wrote: "The list $5, 9, 3, 7, 9$ has $4$ numbers because we count $9$ only once; the least is $5$." Where did Ha go wrong? Do it correctly.
+
+[LỜI GIẢI CŨ – EN]
+The list has $5$ numbers because $9$ appears twice and must be counted twice. The least is $3$, not $5$.
+
+**Answer.** $5$ numbers; the least is $3$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Sáu bạn thi nhảy dây. Số lần nhảy: An $24$, Bình $31$, Chi $28$, Dũng $31$, Em $25$, Giang $30$.
+a) Viết dãy số liệu và cho biết số lớn nhất.
+b) Sắp xếp từ bé đến lớn.
+c) Bạn nhảy nhiều nhất hơn bạn nhảy ít nhất bao nhiêu lần?
+
+[LỜI GIẢI CŨ – VI]
+a) Dãy là $24, 31, 28, 31, 25, 30$; số lớn nhất là $31$ (Bình và Dũng). b) $24, 25, 28, 30, 31, 31$. c) $31-24=7$ (lần).
+
+**Đáp số.** a) $31$; b) $24, 25, 28, 30, 31, 31$; c) $7$ lần.
+
+[ĐỀ – EN]
+Six children enter a skipping contest. Number of skips: An $24$, Binh $31$, Chi $28$, Dung $31$, Em $25$, Giang $30$.
+a) Write the list of data and say which value is the greatest.
+b) Put them in order from smallest to largest.
+c) How many more skips did the best child make than the lowest?
+
+[LỜI GIẢI CŨ – EN]
+a) The list is $24, 31, 28, 31, 25, 30$; the greatest is $31$ (Binh and Dung). b) $24, 25, 28, 30, 31, 31$. c) $31-24=7$ (skips).
+
+**Answer.** a) $31$; b) $24, 25, 28, 30, 31, 31$; c) $7$ skips.
+
+
+######################################################################
+@@@ g4/sum-and-difference-problems
+Bài học: Tìm hai số biết tổng và hiệu của hai số đó / Finding two numbers from their sum and difference
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tổng của hai số là $84$, hiệu của hai số là $12$. Tìm hai số đó.
+
+[LỜI GIẢI CŨ – VI]
+Số bé là $(84-12):2=36$. Số lớn là $36+12=48$.
+
+**Thử lại.** $36+48=84$ và $48-36=12$. Đúng.
+
+**Đáp số.** $36$ và $48$.
+
+[ĐỀ – EN]
+The sum of two numbers is $84$ and the difference of the two numbers is $12$. Find the two numbers.
+
+[LỜI GIẢI CŨ – EN]
+The smaller number is $(84-12)\div2=36$. The larger number is $36+12=48$.
+
+**Check.** $36+48=84$ and $48-36=12$. Correct.
+
+**Answer.** $36$ and $48$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tổng của hai số là $125$, hiệu của hai số là $35$. Tìm hai số đó.
+
+[LỜI GIẢI CŨ – VI]
+Số lớn là $(125+35):2=160:2=80$. Số bé là $80-35=45$.
+
+**Thử lại.** $80+45=125$ và $80-45=35$. Đúng.
+
+**Đáp số.** $80$ và $45$.
+
+[ĐỀ – EN]
+The sum of two numbers is $125$ and the difference of the two numbers is $35$. Find the two numbers.
+
+[LỜI GIẢI CŨ – EN]
+The larger number is $(125+35)\div2=160\div2=80$. The smaller number is $80-35=45$.
+
+**Check.** $80+45=125$ and $80-45=35$. Correct.
+
+**Answer.** $80$ and $45$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Tổng của hai số là $1\,000$, hiệu của hai số là $250$. Tìm hai số đó.
+
+[LỜI GIẢI CŨ – VI]
+Số lớn là $(1\,000+250):2=1\,250:2=625$. Số bé là $625-250=375$.
+
+**Thử lại.** $625+375=1\,000$ và $625-375=250$. Đúng.
+
+**Đáp số.** $625$ và $375$.
+
+[ĐỀ – EN]
+The sum of two numbers is $1\,000$ and the difference of the two numbers is $250$. Find the two numbers.
+
+[LỜI GIẢI CŨ – EN]
+The larger number is $(1\,000+250)\div2=1\,250\div2=625$. The smaller number is $625-250=375$.
+
+**Check.** $625+375=1\,000$ and $625-375=250$. Correct.
+
+**Answer.** $625$ and $375$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Nam và Việt (số liệu giả định) có tất cả $45$ viên bi. Nam có nhiều hơn Việt $9$ viên bi. Hỏi mỗi bạn có bao nhiêu viên bi?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số bi của Việt là:
+$$(45-9):2=18\ \text{(viên)}.$$
+Số bi của Nam là:
+$$18+9=27\ \text{(viên)}.$$
+
+**Đáp số.** Nam: $27$ viên; Việt: $18$ viên.
+
+[ĐỀ – EN]
+Nam and Viet (made-up numbers) have $45$ marbles altogether. Nam has $9$ more marbles than Viet. How many marbles does each boy have?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+Viet's number of marbles is:
+$$(45-9)\div2=18\ \text{(marbles)}.$$
+Nam's number of marbles is:
+$$18+9=27\ \text{(marbles)}.$$
+
+**Answer.** Nam: $27$ marbles; Viet: $18$ marbles.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một trại (số liệu giả định) nuôi tất cả $360$ con gà và vịt. Số gà nhiều hơn số vịt $40$ con. Hỏi trại nuôi bao nhiêu con gà, bao nhiêu con vịt?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số vịt là:
+$$(360-40):2=160\ \text{(con)}.$$
+Số gà là:
+$$160+40=200\ \text{(con)}.$$
+
+**Đáp số.** Gà: $200$ con; vịt: $160$ con.
+
+[ĐỀ – EN]
+A farm (made-up numbers) keeps $360$ chickens and ducks altogether. There are $40$ more chickens than ducks. How many chickens and how many ducks does the farm keep?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The number of ducks is:
+$$(360-40)\div2=160\ \text{(ducks)}.$$
+The number of chickens is:
+$$160+40=200\ \text{(chickens)}.$$
+
+**Answer.** Chickens: $200$; ducks: $160$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Một mảnh đất hình chữ nhật (số liệu giả định) có chu vi $80$ m, chiều dài hơn chiều rộng $10$ m. Tính chiều dài và chiều rộng.
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Nửa chu vi là:
+$$80:2=40\ \text{(m)}.$$
+Chiều rộng là:
+$$(40-10):2=15\ \text{(m)}.$$
+Chiều dài là:
+$$15+10=25\ \text{(m)}.$$
+
+**Đáp số.** Chiều dài $25$ m; chiều rộng $15$ m.
+
+[ĐỀ – EN]
+A plot of land (made-up numbers) is a rectangle with perimeter $80$ m, and its length is $10$ m more than its width. Find the length and the width.
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+Half the perimeter is:
+$$80\div2=40\ \text{(m)}.$$
+The width is:
+$$(40-10)\div2=15\ \text{(m)}.$$
+The length is:
+$$15+10=25\ \text{(m)}.$$
+
+**Answer.** Length $25$ m; width $15$ m.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Hai chị em (số liệu giả định) có tất cả $100\,000$ đồng. Chị có nhiều hơn em $24\,000$ đồng. Hỏi mỗi người có bao nhiêu đồng?
+
+[LỜI GIẢI CŨ – VI]
+Bài giải
+
+Số tiền của em là:
+$$(100\,000-24\,000):2=38\,000\ \text{(đồng)}.$$
+Số tiền của chị là:
+$$38\,000+24\,000=62\,000\ \text{(đồng)}.$$
+
+**Đáp số.** Chị: $62\,000$ đồng; em: $38\,000$ đồng.
+
+[ĐỀ – EN]
+Two sisters (made-up numbers) have $100\,000$ dong altogether. The older sister has $24\,000$ dong more than the younger one. How many dong does each have?
+
+[LỜI GIẢI CŨ – EN]
+Solution
+
+The younger sister's money is:
+$$(100\,000-24\,000)\div2=38\,000\ \text{(dong)}.$$
+The older sister's money is:
+$$38\,000+24\,000=62\,000\ \text{(dong)}.$$
+
+**Answer.** Older sister: $62\,000$ dong; younger sister: $38\,000$ dong.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Em hãy nhớ lại bài cộng các số có nhiều chữ số. Tổng của hai số là $1\,000\,000$ và hiệu của hai số là $246\,000$. Tìm hai số đó.
+
+[LỜI GIẢI CŨ – VI]
+Số bé là $(1\,000\,000-246\,000):2=754\,000:2=377\,000$. Số lớn là $377\,000+246\,000=623\,000$.
+
+**Thử lại.** $377\,000+623\,000=1\,000\,000$ và $623\,000-377\,000=246\,000$. Đúng.
+
+**Đáp số.** $377\,000$ và $623\,000$.
+
+[ĐỀ – EN]
+Remember the lesson on adding numbers with many digits. The sum of two numbers is $1\,000\,000$ and the difference of the two numbers is $246\,000$. Find the two numbers.
+
+[LỜI GIẢI CŨ – EN]
+The smaller number is $(1\,000\,000-246\,000)\div2=754\,000\div2=377\,000$. The larger number is $377\,000+246\,000=623\,000$.
+
+**Check.** $377\,000+623\,000=1\,000\,000$ and $623\,000-377\,000=246\,000$. Correct.
+
+**Answer.** $377\,000$ and $623\,000$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Nam giải bài toán: "Tổng hai số là $70$, hiệu hai số là $14$." Nam làm: số lớn là $(70+14):2=42$; số bé là $42+14=56$. Em hãy kiểm tra cách làm của Nam. Nếu sai, em hãy sửa lại.
+
+[LỜI GIẢI CŨ – VI]
+Số lớn $(70+14):2=42$ là đúng. Nhưng số bé phải bé hơn số lớn, nên số bé là $42-14=28$, không phải $42+14=56$.
+
+**Thử lại.** $42+28=70$ và $42-28=14$. Đúng.
+
+**Đáp số.** Nam sai ở bước cuối; hai số là $42$ và $28$.
+
+[ĐỀ – EN]
+Nam solves the problem: "The sum of two numbers is $70$ and the difference of the two numbers is $14$." Nam writes: the larger number is $(70+14)\div2=42$; the smaller number is $42+14=56$. Check Nam's working. If it is wrong, correct it.
+
+[LỜI GIẢI CŨ – EN]
+The larger number $(70+14)\div2=42$ is correct. But the smaller number must be less than the larger number, so the smaller number is $42-14=28$, not $42+14=56$.
+
+**Check.** $42+28=70$ and $42-28=14$. Correct.
+
+**Answer.** Nam is wrong in the last step; the two numbers are $42$ and $28$.
+
+
+######################################################################
+@@@ g4/three-step-problems
+Bài học: Giải bài toán có ba bước tính / Solving three-step word problems
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Số?
-a) $7\ \text{km}^2=?\ \text{m}^2$; b) $12\,000\,000\ \text{m}^2=?\ \text{km}^2$; c) $4\ \text{km}^2=?$ ha; d) $900$ ha $=?\ \text{km}^2$.
+Một xưởng (số liệu giả định) ngày thứ nhất làm được $1\,250$ chiếc áo, ngày thứ hai làm gấp đôi ngày thứ nhất, ngày thứ ba làm ít hơn ngày thứ hai $300$ chiếc. Hỏi cả ba ngày xưởng làm được bao nhiêu chiếc áo?
 
 [LỜI GIẢI CŨ – VI]
-a) $7\times1\,000\,000=7\,000\,000\ \text{m}^2$.
+Bài giải
 
-b) $12\,000\,000:1\,000\,000=12\ \text{km}^2$.
+Số áo ngày thứ hai làm được là:
+$$1\,250\times2=2\,500\ \text{(chiếc)}.$$
+Số áo ngày thứ ba làm được là:
+$$2\,500-300=2\,200\ \text{(chiếc)}.$$
+Số áo cả ba ngày làm được là:
+$$1\,250+2\,500+2\,200=5\,950\ \text{(chiếc)}.$$
 
-c) $4\times100=400$ ha.
-
-d) $900:100=9\ \text{km}^2$.
-
-**Đáp số.** a) $7\,000\,000$; b) $12$; c) $400$; d) $9$.
+**Đáp số.** $5\,950$ chiếc áo.
 
 [ĐỀ – EN]
-Find the missing numbers:
-a) $7\ \text{km}^2=?\ \text{m}^2$; b) $12\,000\,000\ \text{m}^2=?\ \text{km}^2$; c) $4\ \text{km}^2=?$ ha; d) $900$ ha $=?\ \text{km}^2$.
+A workshop (made-up numbers) makes $1\,250$ shirts on the first day, twice as many on the second day as on the first day, and $300$ fewer on the third day than on the second day. How many shirts does the workshop make in the three days altogether?
 
 [LỜI GIẢI CŨ – EN]
-a) $7\times1\,000\,000=7\,000\,000\ \text{m}^2$.
+Solution
 
-b) $12\,000\,000\div1\,000\,000=12\ \text{km}^2$.
+The number of shirts made on the second day is:
+$$1\,250\times2=2\,500\ \text{(shirts)}.$$
+The number of shirts made on the third day is:
+$$2\,500-300=2\,200\ \text{(shirts)}.$$
+The number of shirts made in the three days is:
+$$1\,250+2\,500+2\,200=5\,950\ \text{(shirts)}.$$
 
-c) $4\times100=400$ ha.
-
-d) $900\div100=9\ \text{km}^2$.
-
-**Answer.** a) $7\,000\,000$; b) $12$; c) $400$; d) $9$.
+**Answer.** $5\,950$ shirts.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Số?
-a) $6$ ha $=?\ \text{m}^2$; b) $80\,000\ \text{m}^2=?$ ha; c) $3{,}5$ ha $=?\ \text{m}^2$; d) $0{,}25$ ha $=?\ \text{m}^2$.
+Mai có $200\,000$ đồng. Mai mua $3$ cuốn truyện, mỗi cuốn giá $35\,000$ đồng, và $1$ hộp bút giá $48\,000$ đồng. Hỏi Mai còn lại bao nhiêu tiền?
 
 [LỜI GIẢI CŨ – VI]
-a) $6\times10\,000=60\,000\ \text{m}^2$.
+Bài giải
 
-b) $80\,000:10\,000=8$ ha.
+Số tiền mua $3$ cuốn truyện là:
+$$3\times35\,000=105\,000\ \text{(đồng)}.$$
+Số tiền Mai đã tiêu là:
+$$105\,000+48\,000=153\,000\ \text{(đồng)}.$$
+Số tiền Mai còn lại là:
+$$200\,000-153\,000=47\,000\ \text{(đồng)}.$$
 
-c) $3{,}5$ ha $=3$ ha $+0{,}5$ ha $=30\,000+5000=35\,000\ \text{m}^2$.
-
-d) $0{,}25$ ha $=\dfrac{25}{100}$ ha $=\dfrac{25}{100}\times10\,000=2500\ \text{m}^2$.
-
-**Đáp số.** a) $60\,000$; b) $8$; c) $35\,000$; d) $2500$.
+**Đáp số.** $47\,000$ đồng.
 
 [ĐỀ – EN]
-Find the missing numbers:
-a) $6$ ha $=?\ \text{m}^2$; b) $80\,000\ \text{m}^2=?$ ha; c) $3.5$ ha $=?\ \text{m}^2$; d) $0.25$ ha $=?\ \text{m}^2$.
+Mai has $200\,000$ dong. She buys $3$ story books at $35\,000$ dong each and $1$ box of pens for $48\,000$ dong. How much money does Mai have left?
 
 [LỜI GIẢI CŨ – EN]
-a) $6\times10\,000=60\,000\ \text{m}^2$.
+Solution
 
-b) $80\,000\div10\,000=8$ ha.
+The cost of $3$ story books is:
+$$3\times35\,000=105\,000\ \text{(dong)}.$$
+The money Mai spent is:
+$$105\,000+48\,000=153\,000\ \text{(dong)}.$$
+The money Mai has left is:
+$$200\,000-153\,000=47\,000\ \text{(dong)}.$$
 
-c) $3.5$ ha $=3$ ha $+0.5$ ha $=30\,000+5000=35\,000\ \text{m}^2$.
-
-d) $0.25$ ha $=\dfrac{25}{100}$ ha $=\dfrac{25}{100}\times10\,000=2500\ \text{m}^2$.
-
-**Answer.** a) $60\,000$; b) $8$; c) $35\,000$; d) $2500$.
+**Answer.** $47\,000$ dong.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Số?
-a) $3\ \text{dam}^2=?\ \text{m}^2$; b) $5\ \text{hm}^2=?\ \text{dam}^2$; c) $40\,000\ \text{dm}^2=?\ \text{m}^2$; d) $70\,000\ \text{mm}^2=?\ \text{dm}^2$.
+Mua $6$ hộp bút chì hết $90\,000$ đồng. Hỏi mua $9$ hộp bút chì như vậy và $1$ chiếc cặp giá $120\,000$ đồng thì hết bao nhiêu tiền?
 
 [LỜI GIẢI CŨ – VI]
-a) $3\times100=300\ \text{m}^2$.
+Bài giải
 
-b) $5\times100=500\ \text{dam}^2$.
+Giá một hộp bút chì là:
+$$90\,000:6=15\,000\ \text{(đồng)}.$$
+Số tiền mua $9$ hộp bút chì là:
+$$15\,000\times9=135\,000\ \text{(đồng)}.$$
+Tổng số tiền phải trả là:
+$$135\,000+120\,000=255\,000\ \text{(đồng)}.$$
 
-c) $40\,000:100=400\ \text{m}^2$.
-
-d) Từ $\text{mm}^2$ lên $\text{dm}^2$ có hai bậc, mỗi bậc chia $100$, nên chia $10\,000$: $70\,000:10\,000=7\ \text{dm}^2$.
-
-**Đáp số.** a) $300$; b) $500$; c) $400$; d) $7$.
+**Đáp số.** $255\,000$ đồng.
 
 [ĐỀ – EN]
-Find the missing numbers:
-a) $3\ \text{dam}^2=?\ \text{m}^2$; b) $5\ \text{hm}^2=?\ \text{dam}^2$; c) $40\,000\ \text{dm}^2=?\ \text{m}^2$; d) $70\,000\ \text{mm}^2=?\ \text{dm}^2$.
+$6$ boxes of pencils cost $90\,000$ dong. How much do $9$ of these boxes of pencils and $1$ school bag at $120\,000$ dong cost?
 
 [LỜI GIẢI CŨ – EN]
-a) $3\times100=300\ \text{m}^2$.
+Solution
 
-b) $5\times100=500\ \text{dam}^2$.
+The price of one box of pencils is:
+$$90\,000\div6=15\,000\ \text{(dong)}.$$
+The cost of $9$ boxes of pencils is:
+$$15\,000\times9=135\,000\ \text{(dong)}.$$
+The total money to pay is:
+$$135\,000+120\,000=255\,000\ \text{(dong)}.$$
 
-c) $40\,000\div100=400\ \text{m}^2$.
-
-d) From $\text{mm}^2$ up to $\text{dm}^2$ there are two steps, each dividing by $100$, so we divide by $10\,000$: $70\,000\div10\,000=7\ \text{dm}^2$.
-
-**Answer.** a) $300$; b) $500$; c) $400$; d) $7$.
+**Answer.** $255\,000$ dong.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Giả sử một khu bảo tồn hình chữ nhật dài $8$ km và rộng $5$ km. Tính diện tích khu bảo tồn theo ki-lô-mét vuông và theo héc-ta.
+Một mảnh vườn (số liệu giả định) hình chữ nhật có chiều rộng $25$ m, chiều dài gấp $3$ lần chiều rộng. Người ta rào xung quanh mảnh vườn, mỗi mét hàng rào giá $12\,000$ đồng. Hỏi tiền rào là bao nhiêu?
 
 [LỜI GIẢI CŨ – VI]
-Diện tích khu bảo tồn là $8\times5=40\ \text{km}^2$.
+Bài giải
 
-Đổi ra héc-ta: $40\times100=4000$ ha.
+Chiều dài mảnh vườn là:
+$$25\times3=75\ \text{(m)}.$$
+Chu vi mảnh vườn là:
+$$(75+25)\times2=200\ \text{(m)}.$$
+Số tiền rào mảnh vườn là:
+$$200\times12\,000=2\,400\,000\ \text{(đồng)}.$$
 
-**Đáp số.** $40\ \text{km}^2$, tức là $4000$ ha.
+**Đáp số.** $2\,400\,000$ đồng.
 
 [ĐỀ – EN]
-Suppose a nature reserve is a rectangle $8$ km long and $5$ km wide. Find the area of the reserve in square kilometres and in hectares.
+A garden (made-up numbers) is a rectangle with width $25$ m, and its length is $3$ times its width. A fence is built all the way round the garden, and each metre of fence costs $12\,000$ dong. How much does the fence cost?
 
 [LỜI GIẢI CŨ – EN]
-The area of the reserve is $8\times5=40\ \text{km}^2$.
+Solution
 
-Change to hectares: $40\times100=4000$ ha.
+The length of the garden is:
+$$25\times3=75\ \text{(m)}.$$
+The perimeter of the garden is:
+$$(75+25)\times2=200\ \text{(m)}.$$
+The cost of the fence is:
+$$200\times12\,000=2\,400\,000\ \text{(dong)}.$$
 
-**Answer.** $40\ \text{km}^2$, which is $4000$ ha.
+**Answer.** $2\,400\,000$ dong.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Giả sử một thửa ruộng hình chữ nhật dài $400$ m, rộng $150$ m. Mỗi héc-ta ruộng thu được $7$ tấn thóc. Hỏi cả thửa ruộng thu được bao nhiêu tấn thóc?
+Một kho có $1\,500$ kg gạo, được chia đều vào $6$ bao. Xe chở đi $4$ bao. Hỏi trong kho còn lại bao nhiêu ki-lô-gam gạo?
 
 [LỜI GIẢI CŨ – VI]
-Diện tích thửa ruộng là $400\times150=60\,000\ \text{m}^2=6$ ha.
+Bài giải
 
-Số tấn thóc thu được là $6\times7=42$ (tấn).
+Số gạo ở mỗi bao là:
+$$1\,500:6=250\ \text{(kg)}.$$
+Số gạo xe chở đi là:
+$$250\times4=1\,000\ \text{(kg)}.$$
+Số gạo còn lại trong kho là:
+$$1\,500-1\,000=500\ \text{(kg)}.$$
 
-**Đáp số.** $42$ tấn thóc.
+**Đáp số.** $500$ kg gạo.
 
 [ĐỀ – EN]
-Suppose a field is a rectangle $400$ m long and $150$ m wide. Each hectare of the field produces $7$ tonnes of rice. How many tonnes of rice does the whole field produce?
+A store has $1\,500$ kg of rice, shared equally into $6$ sacks. A lorry takes away $4$ sacks. How many kilograms of rice are left in the store?
 
 [LỜI GIẢI CŨ – EN]
-The area of the field is $400\times150=60\,000\ \text{m}^2=6$ ha.
+Solution
 
-The number of tonnes of rice produced is $6\times7=42$ (tonnes).
+The rice in each sack is:
+$$1\,500\div6=250\ \text{(kg)}.$$
+The rice the lorry takes away is:
+$$250\times4=1\,000\ \text{(kg)}.$$
+The rice left in the store is:
+$$1\,500-1\,000=500\ \text{(kg)}.$$
 
-**Answer.** $42$ tonnes of rice.
+**Answer.** $500$ kg of rice.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Điền dấu $>$, $<$, $=$ vào chỗ chấm: a) $3$ ha $\ldots\ 30\,000\ \text{m}^2$; b) $5\ \text{km}^2\ \ldots\ 450$ ha; c) $2500\ \text{m}^2\ \ldots\ 0{,}3$ ha.
+Một tấm vải dài $48$ m. Người ta cắt $5$ bộ quần áo, mỗi bộ $3$ m vải. Số vải còn lại được cắt thành các chiếc khăn, mỗi chiếc khăn $2$ m. Hỏi cắt được nhiều nhất bao nhiêu chiếc khăn?
 
 [LỜI GIẢI CŨ – VI]
-a) $3$ ha $=30\,000\ \text{m}^2$, nên điền dấu $=$.
+Bài giải
 
-b) $5\ \text{km}^2=500$ ha. Vì $500>450$ nên điền dấu $>$.
+Số mét vải dùng để may quần áo là:
+$$3\times5=15\ \text{(m)}.$$
+Số mét vải còn lại là:
+$$48-15=33\ \text{(m)}.$$
+Ta có $33:2=16$ (dư $1$), nên cắt được $16$ chiếc khăn và thừa $1$ m vải.
 
-c) $0{,}3$ ha $=3000\ \text{m}^2$. Vì $2500<3000$ nên điền dấu $<$.
-
-**Đáp số.** a) $=$; b) $>$; c) $<$.
+**Đáp số.** $16$ chiếc khăn.
 
 [ĐỀ – EN]
-Write $>$, $<$ or $=$ in the gap: a) $3$ ha $\ldots\ 30\,000\ \text{m}^2$; b) $5\ \text{km}^2\ \ldots\ 450$ ha; c) $2500\ \text{m}^2\ \ldots\ 0.3$ ha.
+A piece of cloth is $48$ m long. $5$ outfits are cut from it, using $3$ m of cloth for each outfit. The cloth left is cut into scarves, with $2$ m for each scarf. What is the greatest number of scarves that can be cut?
 
 [LỜI GIẢI CŨ – EN]
-a) $3$ ha $=30\,000\ \text{m}^2$, so write $=$.
+Solution
 
-b) $5\ \text{km}^2=500$ ha. Since $500>450$, write $>$.
+The number of metres of cloth used for outfits is:
+$$3\times5=15\ \text{(m)}.$$
+The number of metres of cloth left is:
+$$48-15=33\ \text{(m)}.$$
+We have $33\div2=16$ (remainder $1$), so $16$ scarves can be cut with $1$ m of cloth left over.
 
-c) $0.3$ ha $=3000\ \text{m}^2$. Since $2500<3000$, write $<$.
-
-**Answer.** a) $=$; b) $>$; c) $<$.
+**Answer.** $16$ scarves.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Giả sử một xã có ba khu đất rộng $2{,}5$ ha, $15\,000\ \text{m}^2$ và $0{,}4$ ha. Hãy sắp xếp diện tích ba khu đất từ bé đến lớn.
+Một gia đình mua $2$ vé người lớn, mỗi vé $45\,000$ đồng, và $3$ vé trẻ em, mỗi vé $20\,000$ đồng. Hỏi gia đình phải trả tất cả bao nhiêu tiền?
 
 [LỜI GIẢI CŨ – VI]
-$2{,}5$ ha $=25\,000\ \text{m}^2$ và $0{,}4$ ha $=4000\ \text{m}^2$. Ba diện tích là $25\,000$; $15\,000$; $4000$ (mét vuông).
+Bài giải
 
-Vì $4000<15\,000<25\,000$ nên thứ tự từ bé đến lớn là $0{,}4$ ha; $15\,000\ \text{m}^2$; $2{,}5$ ha.
+Tiền mua $2$ vé người lớn là:
+$$2\times45\,000=90\,000\ \text{(đồng)}.$$
+Tiền mua $3$ vé trẻ em là:
+$$3\times20\,000=60\,000\ \text{(đồng)}.$$
+Số tiền gia đình phải trả là:
+$$90\,000+60\,000=150\,000\ \text{(đồng)}.$$
 
-**Đáp số.** $0{,}4$ ha $<15\,000\ \text{m}^2<2{,}5$ ha.
+**Đáp số.** $150\,000$ đồng.
 
 [ĐỀ – EN]
-Suppose a village has three plots of land of areas $2.5$ ha, $15\,000\ \text{m}^2$ and $0.4$ ha. Put the areas of the three plots in order from least to greatest.
+A family buys $2$ adult tickets at $45\,000$ dong each and $3$ children's tickets at $20\,000$ dong each. How much does the family pay altogether?
 
 [LỜI GIẢI CŨ – EN]
-$2.5$ ha $=25\,000\ \text{m}^2$ and $0.4$ ha $=4000\ \text{m}^2$. The three areas are $25\,000$; $15\,000$; $4000$ (square metres).
+Solution
 
-Since $4000<15\,000<25\,000$, the order from least to greatest is $0.4$ ha; $15\,000\ \text{m}^2$; $2.5$ ha.
+The cost of $2$ adult tickets is:
+$$2\times45\,000=90\,000\ \text{(dong)}.$$
+The cost of $3$ children's tickets is:
+$$3\times20\,000=60\,000\ \text{(dong)}.$$
+The money the family pays is:
+$$90\,000+60\,000=150\,000\ \text{(dong)}.$$
 
-**Answer.** $0.4$ ha $<15\,000\ \text{m}^2<2.5$ ha.
+**Answer.** $150\,000$ dong.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Em hãy nhớ lại bài ôn tập về diện tích hình chữ nhật và hình vuông. Một mảnh đất hình vuông có cạnh $200$ m. Tính diện tích mảnh đất theo mét vuông và theo héc-ta.
+Em hãy nhớ lại bài biểu thức chứa chữ. Mỗi quyển vở giá $7\,000$ đồng và mỗi chiếc bút giá $5\,000$ đồng. Mua $m$ quyển vở và $2$ chiếc bút thì phải trả bao nhiêu tiền? Viết biểu thức rồi tính khi $m=6$.
 
 [LỜI GIẢI CŨ – VI]
-Diện tích mảnh đất là $200\times200=40\,000\ \text{m}^2$.
+Số tiền phải trả là $7\,000\times m+5\,000\times2$ (đồng). Khi $m=6$, số tiền là:
+$$7\,000\times6+5\,000\times2=42\,000+10\,000=52\,000\ \text{(đồng)}.$$
 
-Đổi ra héc-ta: $40\,000:10\,000=4$ ha.
-
-**Đáp số.** $40\,000\ \text{m}^2$, tức là $4$ ha.
+**Đáp số.** $52\,000$ đồng.
 
 [ĐỀ – EN]
-Remember the review lesson on the area of rectangles and squares. A square plot of land has side $200$ m. Find the area of the plot in square metres and in hectares.
+Remember the lesson on expressions with letters. An exercise book costs $7\,000$ dong and a pen costs $5\,000$ dong. How much do $m$ exercise books and $2$ pens cost? Write an expression, then work it out when $m=6$.
 
 [LỜI GIẢI CŨ – EN]
-The area of the plot is $200\times200=40\,000\ \text{m}^2$.
+The money to pay is $7\,000\times m+5\,000\times2$ (dong). When $m=6$, the money is:
+$$7\,000\times6+5\,000\times2=42\,000+10\,000=52\,000\ \text{(dong)}.$$
 
-Change to hectares: $40\,000\div10\,000=4$ ha.
-
-**Answer.** $40\,000\ \text{m}^2$, which is $4$ ha.
+**Answer.** $52\,000$ dong.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Giả sử một huyện có $1200$ ha đất trồng lúa và $8\ \text{km}^2$ đất rừng. Hỏi tổng diện tích đất trồng lúa và đất rừng của huyện là bao nhiêu héc-ta?
+Một cửa hàng có $125$ kg đường, buổi sáng bán $40$ kg, buổi chiều bán $35$ kg. Nam giải: "$125-40=85$ (kg); $85+35=120$ (kg). Đáp số: $120$ kg." Em hãy kiểm tra bài giải của Nam. Nếu sai, em hãy sửa lại.
 
 [LỜI GIẢI CŨ – VI]
-Đất rừng có diện tích $8\ \text{km}^2=8\times100=800$ ha.
+Nam sai ở bước thứ hai: buổi chiều cửa hàng bán thêm $35$ kg, số đường phải giảm, nên cần trừ chứ không cộng.
 
-Tổng diện tích là $1200+800=2000$ (ha).
+Bài giải đúng: $125-40=85$ (kg); $85-35=50$ (kg).
 
-**Đáp số.** $2000$ ha.
+**Thử lại.** $50+35+40=125$. Đúng.
+
+**Đáp số.** Nam sai; còn lại $50$ kg đường.
 
 [ĐỀ – EN]
-Suppose a district has $1200$ ha of rice fields and $8\ \text{km}^2$ of forest. How many hectares are the rice fields and the forest altogether?
+A shop has $125$ kg of sugar. It sells $40$ kg in the morning and $35$ kg in the afternoon. Nam solves it like this: "$125-40=85$ (kg); $85+35=120$ (kg). Answer: $120$ kg." Check Nam's solution. If it is wrong, correct it.
 
 [LỜI GIẢI CŨ – EN]
-The forest has area $8\ \text{km}^2=8\times100=800$ ha.
+Nam is wrong in the second step: in the afternoon the shop sells another $35$ kg, so the amount of sugar must go down, and we need to subtract, not add.
 
-The total area is $1200+800=2000$ (ha).
+The correct solution: $125-40=85$ (kg); $85-35=50$ (kg).
 
-**Answer.** $2000$ ha.
+**Check.** $50+35+40=125$. Correct.
+
+**Answer.** Nam is wrong; $50$ kg of sugar is left.
 
 === Bài 10 ===
 [ĐỀ – VI]
-Một hình chữ nhật có diện tích $1$ ha, chiều dài gấp $4$ lần chiều rộng. Tính chu vi hình chữ nhật đó theo mét.
+Một cửa hàng nhập $4$ thùng bút, mỗi thùng có $12$ hộp, mỗi hộp có $10$ chiếc bút. Cửa hàng bán được $275$ chiếc bút. Hỏi cửa hàng còn lại bao nhiêu chiếc bút?
 
 [LỜI GIẢI CŨ – VI]
-Hình chữ nhật chia được thành $4$ hình vuông bằng nhau, mỗi hình vuông có diện tích $10\,000:4=2500\ \text{m}^2$. Vì $50\times50=2500$ nên cạnh hình vuông là $50$ m.
+Bài giải
 
-Chiều rộng là $50$ m, chiều dài là $50\times4=200$ m. Chu vi là $(50+200)\times2=500$ (m).
+Số hộp bút trong $4$ thùng là:
+$$4\times12=48\ \text{(hộp)}.$$
+Số chiếc bút nhập về là:
+$$48\times10=480\ \text{(chiếc)}.$$
+Số chiếc bút còn lại là:
+$$480-275=205\ \text{(chiếc)}.$$
 
-**Đáp số.** $500$ m.
-
-[ĐỀ – EN]
-A rectangle has area $1$ ha and its length is $4$ times its width. Find the perimeter of the rectangle in metres.
-
-[LỜI GIẢI CŨ – EN]
-The rectangle can be cut into $4$ equal squares, each with area $10\,000\div4=2500\ \text{m}^2$. Since $50\times50=2500$, the side of a square is $50$ m.
-
-The width is $50$ m and the length is $50\times4=200$ m. The perimeter is $(50+200)\times2=500$ (m).
-
-**Answer.** $500$ m.
-
-
-######################################################################
-@@@ g5/subtracting-decimals
-Bài học: Phép trừ số thập phân / Subtracting decimals
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Đặt tính rồi tính $8{,}95-4{,}32$.
-
-[LỜI GIẢI CŨ – VI]
-$$\begin{array}{r} 8{,}95 \\ -\ 4{,}32 \\ \hline 4{,}63 \end{array}$$
-
-**Đáp số.** $4{,}63$.
+**Đáp số.** $205$ chiếc bút.
 
 [ĐỀ – EN]
-Set out and work out $8.95-4.32$.
+A shop receives $4$ cartons of pens, with $12$ boxes in each carton and $10$ pens in each box. The shop sells $275$ pens. How many pens does the shop have left?
 
 [LỜI GIẢI CŨ – EN]
-$$\begin{array}{r} 8.95 \\ -\ 4.32 \\ \hline 4.63 \end{array}$$
-
-**Answer.** $4.63$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Tính $15{,}7-6{,}9$.
-
-[LỜI GIẢI CŨ – VI]
-$15{,}7-6{,}9=8{,}8$.
-
-**Kiểm tra.** $8{,}8+6{,}9=15{,}7$. Đúng.
-
-**Đáp số.** $8{,}8$.
-
-[ĐỀ – EN]
-Work out $15.7-6.9$.
-
-[LỜI GIẢI CŨ – EN]
-$15.7-6.9=8.8$.
-
-**Check.** $8.8+6.9=15.7$. Correct.
-
-**Answer.** $8.8$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Tính $20{,}5-8{,}76$.
-
-[LỜI GIẢI CŨ – VI]
-$20{,}50-8{,}76=11{,}74$.
-
-**Đáp số.** $11{,}74$.
-
-[ĐỀ – EN]
-Work out $20.5-8.76$.
-
-[LỜI GIẢI CŨ – EN]
-$20.50-8.76=11.74$.
-
-**Answer.** $11.74$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Tính $6-2{,}8$.
-
-[LỜI GIẢI CŨ – VI]
-$6{,}0-2{,}8=3{,}2$.
-
-**Đáp số.** $3{,}2$.
-
-[ĐỀ – EN]
-Work out $6-2.8$.
-
-[LỜI GIẢI CŨ – EN]
-$6.0-2.8=3.2$.
-
-**Answer.** $3.2$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Điền dấu $>$, $<$ hoặc $=$ vào chỗ trống: $14{,}5-6{,}25 \;\square\; 8{,}5$.
-
-[LỜI GIẢI CŨ – VI]
-$14{,}50-6{,}25=8{,}25$. Vì $8{,}25<8{,}50$ nên $14{,}5-6{,}25<8{,}5$.
-
-**Đáp số.** Dấu $<$.
-
-[ĐỀ – EN]
-Write $>$, $<$ or $=$ in the box: $14.5-6.25 \;\square\; 8.5$.
-
-[LỜI GIẢI CŨ – EN]
-$14.50-6.25=8.25$. Since $8.25<8.50$, we have $14.5-6.25<8.5$.
-
-**Answer.** The sign $<$.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Bao đường nặng $25{,}5$ kg. Cửa hàng bán đi $18{,}75$ kg. Hỏi trong bao còn bao nhiêu ki-lô-gam đường?
-
-[LỜI GIẢI CŨ – VI]
-Số đường còn lại là:
-$$25{,}50-18{,}75=6{,}75\ \text{(kg)}.$$
-
-**Kiểm tra.** $6{,}75+18{,}75=25{,}50$. Đúng.
-
-**Đáp số.** $6{,}75$ kg.
-
-[ĐỀ – EN]
-A sack of sugar weighs $25.5$ kg. A shop sells $18.75$ kg of it. How many kilograms of sugar are left in the sack?
-
-[LỜI GIẢI CŨ – EN]
-The sugar left is:
-$$25.50-18.75=6.75\ \text{(kg)}.$$
-
-**Check.** $6.75+18.75=25.50$. Correct.
-
-**Answer.** $6.75$ kg.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Em hãy nhớ lại bài trước: tính $4{,}75+3{,}6$. Rồi lấy kết quả đó trừ đi $5{,}9$.
-
-[LỜI GIẢI CŨ – VI]
-$4{,}75+3{,}60=8{,}35$. Sau đó $8{,}35-5{,}90=2{,}45$.
-
-**Đáp số.** $2{,}45$.
-
-[ĐỀ – EN]
-Remember the last lesson: work out $4.75+3.6$. Then subtract $5.9$ from your answer.
-
-[LỜI GIẢI CŨ – EN]
-$4.75+3.60=8.35$. Then $8.35-5.90=2.45$.
-
-**Answer.** $2.45$.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Tìm $x$, biết $x+3{,}75=10{,}2$.
-
-[LỜI GIẢI CŨ – VI]
-Ta có $x=10{,}2-3{,}75=10{,}20-3{,}75=6{,}45$.
-
-**Kiểm tra.** $6{,}45+3{,}75=10{,}20$. Đúng.
-
-**Đáp số.** $x=6{,}45$.
-
-[ĐỀ – EN]
-Find $x$, given that $x+3.75=10.2$.
-
-[LỜI GIẢI CŨ – EN]
-We have $x=10.2-3.75=10.20-3.75=6.45$.
-
-**Check.** $6.45+3.75=10.20$. Correct.
-
-**Answer.** $x=6.45$.
-
-
-######################################################################
-@@@ g5/sum-and-ratio-problems
-Bài học: Tìm hai số khi biết tổng và tỉ số của hai số đó. Tìm hai số khi biết hiệu và tỉ số của hai số đó / Finding two numbers from their sum and ratio. Finding two numbers from their difference and ratio
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Tổng của hai số là $56$. Tỉ số của hai số là $\dfrac{3}{4}$. Tìm hai số đó.
-
-[LỜI GIẢI CŨ – VI]
-Tổng số phần bằng nhau là $3+4=7$ (phần). Giá trị một phần là $56:7=8$. Số bé là $8\times3=24$. Số lớn là $8\times4=32$.
-
-**Thử lại.** $24+32=56$ và $\dfrac{24}{32}=\dfrac{3}{4}$. Đúng.
-
-**Đáp số.** $24$ và $32$.
-
-[ĐỀ – EN]
-The sum of two numbers is $56$. The ratio of the two numbers is $\dfrac{3}{4}$. Find the two numbers.
-
-[LỜI GIẢI CŨ – EN]
-The total number of equal parts is $3+4=7$ (parts). The value of one part is $56\div7=8$. The smaller number is $8\times3=24$. The larger number is $8\times4=32$.
-
-**Check.** $24+32=56$ and $\dfrac{24}{32}=\dfrac{3}{4}$. Correct.
-
-**Answer.** $24$ and $32$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Tổng của hai số là $90$. Số bé bằng $\dfrac{2}{7}$ số lớn. Tìm hai số đó.
-
-[LỜI GIẢI CŨ – VI]
-Tổng số phần bằng nhau là $2+7=9$ (phần). Giá trị một phần là $90:9=10$. Số bé là $10\times2=20$. Số lớn là $10\times7=70$.
-
-**Đáp số.** $20$ và $70$.
-
-[ĐỀ – EN]
-The sum of two numbers is $90$. The smaller number is $\dfrac{2}{7}$ of the larger number. Find the two numbers.
-
-[LỜI GIẢI CŨ – EN]
-The total number of equal parts is $2+7=9$ (parts). The value of one part is $90\div9=10$. The smaller number is $10\times2=20$. The larger number is $10\times7=70$.
-
-**Answer.** $20$ and $70$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Giả sử hai thùng chứa tất cả $150$ lít nước. Lượng nước ở thùng thứ nhất bằng $\dfrac{2}{3}$ lượng nước ở thùng thứ hai. Hỏi mỗi thùng chứa bao nhiêu lít nước?
-
-[LỜI GIẢI CŨ – VI]
-Tổng số phần bằng nhau là $2+3=5$ (phần). Một phần là $150:5=30$ (lít). Thùng thứ nhất chứa $30\times2=60$ (lít). Thùng thứ hai chứa $30\times3=90$ (lít).
-
-**Đáp số.** Thùng thứ nhất $60$ lít; thùng thứ hai $90$ lít.
-
-[ĐỀ – EN]
-Suppose two tanks hold $150$ litres of water altogether. The amount of water in the first tank is $\dfrac{2}{3}$ of the amount in the second tank. How many litres of water does each tank hold?
-
-[LỜI GIẢI CŨ – EN]
-The total number of equal parts is $2+3=5$ (parts). One part is $150\div5=30$ (litres). The first tank holds $30\times2=60$ (litres). The second tank holds $30\times3=90$ (litres).
-
-**Answer.** The first tank holds $60$ litres; the second tank holds $90$ litres.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Em hãy nhớ lại bài ôn tập về hình chữ nhật. Giả sử một sân trường hình chữ nhật có nửa chu vi là $75$ m và chiều rộng bằng $\dfrac{2}{3}$ chiều dài. Tính chiều dài, chiều rộng và diện tích của sân trường.
-
-[LỜI GIẢI CŨ – VI]
-Chiều rộng có $2$ phần, chiều dài có $3$ phần. Tổng số phần bằng nhau là $2+3=5$ (phần). Một phần là $75:5=15$ (m). Chiều rộng là $15\times2=30$ (m). Chiều dài là $15\times3=45$ (m).
-
-Diện tích sân trường là $45\times30=1350\ \text{(m}^2\text{)}$.
-
-**Đáp số.** Chiều dài $45$ m; chiều rộng $30$ m; diện tích $1350\ \text{m}^2$.
-
-[ĐỀ – EN]
-Remember the review lesson on rectangles. Suppose a school playground is a rectangle with half-perimeter $75$ m, and its width is $\dfrac{2}{3}$ of its length. Find the length, the width and the area of the playground.
-
-[LỜI GIẢI CŨ – EN]
-The width has $2$ parts and the length has $3$ parts. The total number of equal parts is $2+3=5$ (parts). One part is $75\div5=15$ (m). The width is $15\times2=30$ (m). The length is $15\times3=45$ (m).
-
-The area of the playground is $45\times30=1350\ \text{(m}^2\text{)}$.
-
-**Answer.** Length $45$ m; width $30$ m; area $1350\ \text{m}^2$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Hiệu của hai số là $15$. Tỉ số của số bé và số lớn là $\dfrac{2}{5}$. Tìm hai số đó.
-
-[LỜI GIẢI CŨ – VI]
-Hiệu số phần bằng nhau là $5-2=3$ (phần). Giá trị một phần là $15:3=5$. Số bé là $5\times2=10$. Số lớn là $5\times5=25$.
-
-**Thử lại.** $25-10=15$ và $\dfrac{10}{25}=\dfrac{2}{5}$. Đúng.
-
-**Đáp số.** $10$ và $25$.
-
-[ĐỀ – EN]
-The difference of two numbers is $15$. The ratio of the smaller number to the larger number is $\dfrac{2}{5}$. Find the two numbers.
-
-[LỜI GIẢI CŨ – EN]
-The difference in the number of equal parts is $5-2=3$ (parts). The value of one part is $15\div3=5$. The smaller number is $5\times2=10$. The larger number is $5\times5=25$.
-
-**Check.** $25-10=15$ and $\dfrac{10}{25}=\dfrac{2}{5}$. Correct.
-
-**Answer.** $10$ and $25$.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Hiệu của hai số là $48$. Tỉ số của số lớn và số bé là $\dfrac{7}{3}$. Tìm hai số đó.
-
-[LỜI GIẢI CŨ – VI]
-Hiệu số phần bằng nhau là $7-3=4$ (phần). Giá trị một phần là $48:4=12$. Số lớn là $12\times7=84$. Số bé là $12\times3=36$.
-
-**Đáp số.** Số lớn $84$; số bé $36$.
-
-[ĐỀ – EN]
-The difference of two numbers is $48$. The ratio of the larger number to the smaller number is $\dfrac{7}{3}$. Find the two numbers.
-
-[LỜI GIẢI CŨ – EN]
-The difference in the number of equal parts is $7-3=4$ (parts). The value of one part is $48\div4=12$. The larger number is $12\times7=84$. The smaller number is $12\times3=36$.
-
-**Answer.** The larger number is $84$; the smaller number is $36$.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Giả sử một cửa hàng có số gạo nếp ít hơn số gạo tẻ $120$ kg. Số gạo nếp bằng $\dfrac{3}{8}$ số gạo tẻ. Hỏi cửa hàng có bao nhiêu ki-lô-gam gạo mỗi loại?
-
-[LỜI GIẢI CŨ – VI]
-Hiệu số phần bằng nhau là $8-3=5$ (phần). Một phần là $120:5=24$ (kg). Gạo nếp là $24\times3=72$ (kg). Gạo tẻ là $24\times8=192$ (kg).
-
-**Kiểm tra.** $192-72=120$. Đúng.
-
-**Đáp số.** Gạo nếp $72$ kg; gạo tẻ $192$ kg.
-
-[ĐỀ – EN]
-Suppose a shop has $120$ kg less sticky rice than ordinary rice. The mass of sticky rice is $\dfrac{3}{8}$ of the mass of ordinary rice. How many kilograms of each kind of rice does the shop have?
-
-[LỜI GIẢI CŨ – EN]
-The difference in the number of equal parts is $8-3=5$ (parts). One part is $120\div5=24$ (kg). The sticky rice is $24\times3=72$ (kg). The ordinary rice is $24\times8=192$ (kg).
-
-**Check.** $192-72=120$. Correct.
-
-**Answer.** Sticky rice $72$ kg; ordinary rice $192$ kg.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Giả sử bố hơn con $30$ tuổi và tuổi bố gấp $6$ lần tuổi con. Hỏi bố bao nhiêu tuổi, con bao nhiêu tuổi?
-
-[LỜI GIẢI CŨ – VI]
-Hiệu số phần bằng nhau là $6-1=5$ (phần). Một phần là $30:5=6$ (tuổi). Tuổi con là $6$ tuổi. Tuổi bố là $6\times6=36$ (tuổi).
-
-**Đáp số.** Con $6$ tuổi; bố $36$ tuổi.
-
-[ĐỀ – EN]
-Suppose a father is $30$ years older than his child and the father's age is $6$ times the child's age. How old are the father and the child?
-
-[LỜI GIẢI CŨ – EN]
-The difference in the number of equal parts is $6-1=5$ (parts). One part is $30\div5=6$ (years). The child's age is $6$ years. The father's age is $6\times6=36$ (years).
-
-**Answer.** The child is $6$ years old; the father is $36$ years old.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Em hãy nhớ lại bài về tỉ số và tỉ số phần trăm. Một lớp có $40$ học sinh, trong đó số học sinh nữ chiếm $55\%$. a) Tìm số học sinh nữ và số học sinh nam. b) Viết tỉ số của số học sinh nam và số học sinh nữ dưới dạng phân số tối giản, rồi giải lại bài toán bằng cách tìm hai số khi biết tổng và tỉ số để kiểm tra.
-
-[LỜI GIẢI CŨ – VI]
-a) Số học sinh nữ là $40\times\dfrac{55}{100}=22$ (học sinh). Số học sinh nam là $40-22=18$ (học sinh).
-
-b) Tỉ số của số nam và số nữ là $\dfrac{18}{22}=\dfrac{9}{11}$. Tổng số phần bằng nhau là $9+11=20$ (phần), một phần là $40:20=2$ (học sinh). Số nam là $2\times9=18$ và số nữ là $2\times11=22$, giống kết quả ở câu a).
-
-**Đáp số.** a) $22$ nữ, $18$ nam; b) tỉ số $\dfrac{9}{11}$, kết quả khớp.
-
-[ĐỀ – EN]
-Remember the lesson on ratios and percentages. A class has $40$ students, and the girls make up $55\%$ of the class. a) Find the number of girls and the number of boys. b) Write the ratio of the number of boys to the number of girls as a fraction in its simplest form, then solve the problem again by finding two numbers from their sum and ratio, to check.
-
-[LỜI GIẢI CŨ – EN]
-a) The number of girls is $40\times\dfrac{55}{100}=22$ (students). The number of boys is $40-22=18$ (students).
-
-b) The ratio of boys to girls is $\dfrac{18}{22}=\dfrac{9}{11}$. The total number of equal parts is $9+11=20$ (parts) and one part is $40\div20=2$ (students). The number of boys is $2\times9=18$ and the number of girls is $2\times11=22$, the same as in part a).
-
-**Answer.** a) $22$ girls, $18$ boys; b) the ratio is $\dfrac{9}{11}$ and the results agree.
-
-=== Bài 10 ===
-[ĐỀ – VI]
-Tổng của hai số là $91$. Biết $\dfrac{1}{3}$ số thứ nhất bằng $\dfrac{1}{4}$ số thứ hai. Tìm hai số đó.
-
-[LỜI GIẢI CŨ – VI]
-Số thứ nhất có $3$ phần và số thứ hai có $4$ phần như thế. Tổng số phần bằng nhau là $3+4=7$ (phần). Một phần là $91:7=13$. Số thứ nhất là $13\times3=39$. Số thứ hai là $13\times4=52$.
-
-**Thử lại.** $39+52=91$; $39:3=13$ và $52:4=13$. Đúng.
-
-**Đáp số.** $39$ và $52$.
-
-[ĐỀ – EN]
-The sum of two numbers is $91$. We know that $\dfrac{1}{3}$ of the first number equals $\dfrac{1}{4}$ of the second number. Find the two numbers.
-
-[LỜI GIẢI CŨ – EN]
-The first number has $3$ parts and the second number has $4$ parts of the same size. The total number of equal parts is $3+4=7$ (parts). One part is $91\div7=13$. The first number is $13\times3=39$. The second number is $13\times4=52$.
-
-**Check.** $39+52=91$; $39\div3=13$ and $52\div4=13$. Correct.
-
-**Answer.** $39$ and $52$.
+Solution
+
+The number of boxes of pens in $4$ cartons is:
+$$4\times12=48\ \text{(boxes)}.$$
+The number of pens received is:
+$$48\times10=480\ \text{(pens)}.$$
+The number of pens left is:
+$$480-275=205\ \text{(pens)}.$$
+
+**Answer.** $205$ pens.
 
 
 ===== HẾT FILE Vinax.vn-10-LG =====

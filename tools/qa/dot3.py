@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Đợt 3 (19/11/2026): chia mọi việc còn dở cho 12 tài khoản Claude Free, mỗi tài khoản một thư mục,
+"""Đợt 3 (19/11/2026): chia mọi việc còn dở cho 15 tài khoản Claude Free, mỗi tài khoản một thư mục,
 mỗi file là MỘT cuộc trò chuyện, đánh số theo đúng thứ tự giao.
 
   python3 tools/qa/dot3.py         tạo lại giao-viec/dot3/ (xoá thư mục cũ)
@@ -20,9 +20,11 @@ import giongvan as G
 
 OUT = os.path.join(ROOT, 'giao-viec', 'dot3')
 ACCS = ['Kinangtoan', 'Alexnguyen122222', 'thichgiaitoan', 'Lemonmath.com', 'Vinax.vn', 'Nguyenchanh2358',
-        'Vinax258', 'Vimus2358', 'Lemonmath112', 'hanibi108', 'Xedap102', 'chanh106']
+        'Vinax258', 'Vimus2358', 'Lemonmath112', 'hanibi108', 'Xedap102', 'chanh106',
+        'thaodebao1', 'nguoibuonthinh', 'huongamuong1']
 KD_ACC = {'chanh106': 'kd-thpt', 'Xedap102': 'kd-vao-10', 'hanibi108': 'kd-hk'}
-SHARE = {a: (0.6 if a in KD_ACC else 1.0) for a in ACCS}
+NEW = ('thaodebao1', 'nguoibuonthinh', 'huongamuong1')   # không có gói MD nên nhận thêm bài
+SHARE = {a: (0.6 if a in KD_ACC else 1.2 if a in NEW else 1.0) for a in ACCS}
 LG_MAX = 45          # số bài tập tối đa một file LG
 GV_MAX = 4           # số bài học tối đa một file GV
 GV_WEIGHT = 12       # một bài viết lại giọng văn ~ 12 bài tập viết lại lời giải
@@ -189,7 +191,7 @@ def main():
 
 
 def write_board(table):
-    L = ['# Đợt 3 (19/11/2026): bảng giao việc cho 12 tài khoản Claude Free', '',
+    L = ['# Đợt 3 (19/11/2026): bảng giao việc cho 15 tài khoản Claude Free', '',
          'Mỗi tài khoản một thư mục. Mỗi file là MỘT cuộc trò chuyện mới. Giao ĐÚNG THỨ TỰ số trong tên file',
          '(01, 02, 03, …); xong file trước mới giao file sau. Không cần đợi các tài khoản khác.', '',
          '**Cách giao một file:** mở cuộc trò chuyện MỚI trong đúng tài khoản → đính kèm file → gõ',

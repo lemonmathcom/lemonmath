@@ -6,7 +6,7 @@ Kết quả: file Vimus2358-04-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/vie
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Vimus2358-04-LG
-Người làm: tài khoản Vimus2358. Gói này có 41 bài tập thuộc 5 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Vimus2358. Gói này có 41 bài tập thuộc 6 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Vimus2358-04-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/5). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/6). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Vimus2358-04-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,1056 +189,936 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g11/line-plane-parallel (8 bài tập)
-- g11/lines-planes-space (8 bài tập)
-- g11/logarithms (7 bài tập)
-- g11/multiplication-rule (9 bài tập)
-- g11/orthogonal-projection-angle (9 bài tập)
+- g8/similar-shapes (9 bài tập)
+- g8/similar-triangles (8 bài tập)
+- g8/squares-identities (5 bài tập)
+- g8/thales-theorem-triangle (6 bài tập)
+- g8/triangle-midline (4 bài tập)
+- g8/triangle-similarity-conditions (9 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g11/line-plane-parallel
-Bài học: Đường thẳng và mặt phẳng song song / A line parallel to a plane
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Cho hình hộp $ABCD.A'B'C'D'$. Chứng minh $AB\parallel(CDD'C')$ và $AC\parallel(A'B'C'D')$.
-
-[LỜI GIẢI CŨ – VI]
-$ABCD$ là hình bình hành nên $AB\parallel CD$, mà $CD\subset(CDD'C')$ và $AB\not\subset(CDD'C')$, nên $AB\parallel(CDD'C')$. Tương tự $AA'C'C$ là hình bình hành nên $AC\parallel A'C'\subset(A'B'C'D')$, và $AC\not\subset(A'B'C'D')$, nên $AC\parallel(A'B'C'D')$.
-
-**Đáp số.** $AB\parallel(CDD'C')$; $AC\parallel(A'B'C'D')$.
-
-[ĐỀ – EN]
-Take a parallelepiped $ABCD.A'B'C'D'$. Prove that $AB\parallel(CDD'C')$ and $AC\parallel(A'B'C'D')$.
-
-[LỜI GIẢI CŨ – EN]
-$ABCD$ is a parallelogram, so $AB\parallel CD$, with $CD\subset(CDD'C')$ and $AB\not\subset(CDD'C')$, so $AB\parallel(CDD'C')$. Similarly $AA'C'C$ is a parallelogram, so $AC\parallel A'C'\subset(A'B'C'D')$, and $AC\not\subset(A'B'C'D')$, so $AC\parallel(A'B'C'D')$.
-
-**Answer.** $AB\parallel(CDD'C')$; $AC\parallel(A'B'C'D')$.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Cho tứ diện $ABCD$. Gọi $M$, $N$, $P$ lần lượt là trung điểm của $AB$, $BC$, $CD$. Chứng minh $MN\parallel(ACD)$ và $NP\parallel(ABD)$.
-
-[LỜI GIẢI CŨ – VI]
-Trong tam giác $ABC$, $MN\parallel AC$ và $AC\subset(ACD)$, $MN\not\subset(ACD)$, nên $MN\parallel(ACD)$. Trong tam giác $BCD$, $NP\parallel BD$ và $BD\subset(ABD)$, $NP\not\subset(ABD)$, nên $NP\parallel(ABD)$.
-
-**Đáp số.** $MN\parallel(ACD)$; $NP\parallel(ABD)$.
-
-[ĐỀ – EN]
-Take a tetrahedron $ABCD$. Let $M$, $N$, $P$ be the midpoints of $AB$, $BC$, $CD$. Prove that $MN\parallel(ACD)$ and $NP\parallel(ABD)$.
-
-[LỜI GIẢI CŨ – EN]
-In triangle $ABC$, $MN\parallel AC$, with $AC\subset(ACD)$ and $MN\not\subset(ACD)$, so $MN\parallel(ACD)$. In triangle $BCD$, $NP\parallel BD$, with $BD\subset(ABD)$ and $NP\not\subset(ABD)$, so $NP\parallel(ABD)$.
-
-**Answer.** $MN\parallel(ACD)$; $NP\parallel(ABD)$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Cho hình chóp $S.ABCD$ có đáy là hình bình hành $ABCD$ tâm $O$. Gọi $N$ là trung điểm của $SB$. Chứng minh $SD\parallel(NAC)$.
-
-[LỜI GIẢI CŨ – VI]
-$O$ là trung điểm của $BD$ và $N$ là trung điểm của $SB$ nên $ON$ là đường trung bình của tam giác $SBD$, do đó $ON\parallel SD$. Đường thẳng $ON$ nằm trong $(NAC)$ (vì $O\in AC$), còn $SD\not\subset(NAC)$, nên $SD\parallel(NAC)$.
-
-**Đáp số.** $SD\parallel(NAC)$.
-
-[ĐỀ – EN]
-Take a pyramid $S.ABCD$ whose base is a parallelogram $ABCD$ with centre $O$. Let $N$ be the midpoint of $SB$. Prove that $SD\parallel(NAC)$.
-
-[LỜI GIẢI CŨ – EN]
-$O$ is the midpoint of $BD$ and $N$ is the midpoint of $SB$, so $ON$ is a midsegment of triangle $SBD$ and $ON\parallel SD$. The line $ON$ lies in $(NAC)$ (since $O\in AC$), while $SD\not\subset(NAC)$, so $SD\parallel(NAC)$.
-
-**Answer.** $SD\parallel(NAC)$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Cho hình chóp $S.ABCD$ có đáy là hình bình hành $ABCD$. Gọi $M$ là trung điểm của $SC$ và $N$ là giao điểm của $SB$ với $(ADM)$. Chứng minh $MN\parallel BC$ và $N$ là trung điểm của $SB$.
-
-[LỜI GIẢI CŨ – VI]
-Vì $BC\parallel AD\subset(ADM)$ và $BC\not\subset(ADM)$ nên $BC\parallel(ADM)$. Mặt phẳng $(SBC)$ chứa $BC$ và cắt $(ADM)$ theo $MN$, nên $MN\parallel BC$. Trong tam giác $SBC$, $M$ là trung điểm $SC$ và $MN\parallel BC$ nên $N$ là trung điểm $SB$.
-
-**Đáp số.** $MN\parallel BC$ và $N$ là trung điểm của $SB$.
-
-[ĐỀ – EN]
-Take a pyramid $S.ABCD$ whose base is a parallelogram $ABCD$. Let $M$ be the midpoint of $SC$ and $N$ the point where $SB$ meets $(ADM)$. Prove that $MN\parallel BC$ and that $N$ is the midpoint of $SB$.
-
-[LỜI GIẢI CŨ – EN]
-Since $BC\parallel AD\subset(ADM)$ and $BC\not\subset(ADM)$, $BC\parallel(ADM)$. The plane $(SBC)$ contains $BC$ and meets $(ADM)$ along $MN$, so $MN\parallel BC$. In triangle $SBC$, $M$ is the midpoint of $SC$ and $MN\parallel BC$, so $N$ is the midpoint of $SB$.
-
-**Answer.** $MN\parallel BC$ and $N$ is the midpoint of $SB$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Theo Luật bóng đá của FIFA, khung thành tiêu chuẩn có hai cột dọc cách nhau $7{,}32$ m (khoảng cách giữa hai chân cột) và cao $2{,}44$ m. Hai cột thẳng đứng, chân cột nằm trên mặt sân phẳng. Chứng minh xà ngang song song với mặt sân và tính độ dài xà ngang giữa hai đỉnh cột.
-
-[LỜI GIẢI CŨ – VI]
-Gọi chân hai cột là $A$, $B$ và đỉnh là $A'$, $B'$. $AA'$ và $BB'$ song song và bằng nhau ($2{,}44$ m) nên $AA'B'B$ là hình bình hành, do đó $A'B'\parallel AB$ và $A'B'=AB=7{,}32$ m. $AB$ nằm trong mặt sân và $A'B'$ không nằm trong mặt sân nên $A'B'\parallel$ mặt sân.
-
-**Đáp số.** Xà ngang song song với mặt sân và dài $7{,}32$ m.
-
-[ĐỀ – EN]
-According to the FIFA Laws of the Game, a standard football goal has two posts $7.32$ m apart (the distance between the feet of the posts) and $2.44$ m tall. The posts are vertical, with their feet on the flat pitch. Prove that the crossbar is parallel to the pitch and find the length of the crossbar between the tops of the posts.
-
-[LỜI GIẢI CŨ – EN]
-Let the feet of the posts be $A$, $B$ and the tops $A'$, $B'$. $AA'$ and $BB'$ are parallel and equal ($2.44$ m), so $AA'B'B$ is a parallelogram, hence $A'B'\parallel AB$ and $A'B'=AB=7.32$ m. $AB$ lies in the pitch and $A'B'$ does not, so $A'B'$ is parallel to the pitch.
-
-**Answer.** The crossbar is parallel to the pitch and is $7.32$ m long.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Cho hình chóp $S.ABCD$ có đáy là hình bình hành $ABCD$. Xét tính đúng sai của các mệnh đề sau:
-
-a) $AD\parallel(SBC)$.
-
-b) $SA\parallel(ABCD)$.
-
-c) $BC\parallel(SAD)$.
-
-d) $AB\parallel(SAD)$.
-
-[LỜI GIẢI CŨ – VI]
-a) **Đúng**: $AD\parallel BC\subset(SBC)$ và $AD\not\subset(SBC)$.
-
-b) **Sai**: $SA$ cắt $(ABCD)$ tại $A$.
-
-c) **Đúng**: $BC\parallel AD\subset(SAD)$ và $BC\not\subset(SAD)$.
-
-d) **Sai**: $AB$ cắt $(SAD)$ tại $A$.
-
-**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
-
-[ĐỀ – EN]
-Take a pyramid $S.ABCD$ whose base is a parallelogram $ABCD$. Decide whether each statement is true or false.
-
-a) $AD\parallel(SBC)$.
-
-b) $SA\parallel(ABCD)$.
-
-c) $BC\parallel(SAD)$.
-
-d) $AB\parallel(SAD)$.
-
-[LỜI GIẢI CŨ – EN]
-a) **True**: $AD\parallel BC\subset(SBC)$ and $AD\not\subset(SBC)$.
-
-b) **False**: $SA$ meets $(ABCD)$ at $A$.
-
-c) **True**: $BC\parallel AD\subset(SAD)$ and $BC\not\subset(SAD)$.
-
-d) **False**: $AB$ meets $(SAD)$ at $A$.
-
-**Answer.** a) True; b) False; c) True; d) False.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Chứng minh rằng nếu hai đường thẳng phân biệt $a$, $b$ song song và $a\parallel(P)$ thì $b\parallel(P)$ hoặc $b\subset(P)$.
-
-[LỜI GIẢI CŨ – VI]
-Lấy điểm $A\in(P)$ và mặt phẳng $(Q)$ chứa $a$ và $A$. Vì $a\parallel(P)$ nên $(Q)$ cắt $(P)$ theo đường thẳng $a'$ qua $A$ và $a'\parallel a$. Nếu $b=a'$ thì $b\subset(P)$. Nếu $b\ne a'$ thì $b\parallel a'$ (cùng song song với $a$), với $a'\subset(P)$; khi $b\not\subset(P)$, theo điều kiện ta có $b\parallel(P)$.
-
-**Đáp số.** $b\parallel(P)$ hoặc $b\subset(P)$.
-
-[ĐỀ – EN]
-Prove that if two distinct lines $a$, $b$ are parallel and $a\parallel(P)$, then $b\parallel(P)$ or $b\subset(P)$.
-
-[LỜI GIẢI CŨ – EN]
-Take a point $A\in(P)$ and the plane $(Q)$ containing $a$ and $A$. Since $a\parallel(P)$, $(Q)$ meets $(P)$ along a line $a'$ through $A$ with $a'\parallel a$. If $b=a'$ then $b\subset(P)$. If $b\ne a'$ then $b\parallel a'$ (both are parallel to $a$), with $a'\subset(P)$; when $b\not\subset(P)$, the condition gives $b\parallel(P)$.
-
-**Answer.** $b\parallel(P)$ or $b\subset(P)$.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Cho tứ diện $ABCD$. Lấy điểm $M$ thuộc cạnh $AB$. Mặt phẳng $(\alpha)$ qua $M$ song song với $AC$ và $BD$ cắt các cạnh $BC$, $CD$, $DA$ lần lượt tại $N$, $P$, $Q$. Chứng minh $MNPQ$ là hình bình hành.
-
-[LỜI GIẢI CŨ – VI]
-Vì $AC\parallel(\alpha)$, mặt phẳng $(ABC)$ chứa $AC$ cắt $(\alpha)$ theo $MN$ nên $MN\parallel AC$; mặt phẳng $(ACD)$ chứa $AC$ cắt $(\alpha)$ theo $PQ$ nên $PQ\parallel AC$. Suy ra $MN\parallel PQ$. Tương tự, vì $BD\parallel(\alpha)$, $MQ=(\alpha)\cap(ABD)\parallel BD$ và $NP=(\alpha)\cap(BCD)\parallel BD$, nên $MQ\parallel NP$. Tứ giác $MNPQ$ có các cặp cạnh đối song song nên là hình bình hành.
-
-**Đáp số.** $MNPQ$ là hình bình hành.
-
-[ĐỀ – EN]
-Take a tetrahedron $ABCD$. Take a point $M$ on the edge $AB$. A plane $(\alpha)$ through $M$ parallel to $AC$ and $BD$ meets the edges $BC$, $CD$, $DA$ at $N$, $P$, $Q$ respectively. Prove that $MNPQ$ is a parallelogram.
-
-[LỜI GIẢI CŨ – EN]
-Since $AC\parallel(\alpha)$, the plane $(ABC)$ containing $AC$ meets $(\alpha)$ along $MN$, so $MN\parallel AC$; the plane $(ACD)$ containing $AC$ meets $(\alpha)$ along $PQ$, so $PQ\parallel AC$. Hence $MN\parallel PQ$. Similarly, since $BD\parallel(\alpha)$, $MQ=(\alpha)\cap(ABD)\parallel BD$ and $NP=(\alpha)\cap(BCD)\parallel BD$, so $MQ\parallel NP$. The quadrilateral $MNPQ$ has both pairs of opposite sides parallel, so it is a parallelogram.
-
-**Answer.** $MNPQ$ is a parallelogram.
-
-
-######################################################################
-@@@ g11/lines-planes-space
-Bài học: Đường thẳng và mặt phẳng trong không gian / Lines and planes in space
-Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 1 ===
-[ĐỀ – VI]
-Hình chóp có đáy là đa giác $7$ cạnh có bao nhiêu mặt, cạnh và đỉnh?
-
-[LỜI GIẢI CŨ – VI]
-Với $n=7$: $n+1=8$ mặt, $2n=14$ cạnh, $n+1=8$ đỉnh.
-
-**Đáp số.** $8$ mặt, $14$ cạnh, $8$ đỉnh.
-
-[ĐỀ – EN]
-How many faces, edges and vertices does a pyramid whose base has $7$ sides have?
-
-[LỜI GIẢI CŨ – EN]
-For $n=7$: $n+1=8$ faces, $2n=14$ edges, $n+1=8$ vertices.
-
-**Answer.** $8$ faces, $14$ edges, $8$ vertices.
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Cho năm điểm trong không gian, trong đó không có ba điểm nào thẳng hàng và không có bốn điểm nào đồng phẳng. Có bao nhiêu mặt phẳng đi qua ba trong năm điểm đó?
-
-[LỜI GIẢI CŨ – VI]
-Số cách chọn ba điểm trong năm điểm là $\dbinom{5}{3}=10$. Mỗi bộ ba không thẳng hàng xác định đúng một mặt phẳng. Hai bộ ba khác nhau cho hai mặt phẳng khác nhau, vì nếu trùng nhau thì ít nhất bốn điểm đồng phẳng.
-
-**Đáp số.** $10$ mặt phẳng.
-
-[ĐỀ – EN]
-Take five points in space, with no three collinear and no four coplanar. How many planes pass through three of the five points?
-
-[LỜI GIẢI CŨ – EN]
-The number of ways to choose three points from five is $\dbinom{5}{3}=10$. Each non-collinear set of three points determines exactly one plane. Two different sets of three give different planes, because if they coincided, at least four points would be coplanar.
-
-**Answer.** $10$ planes.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Cho tứ diện $ABCD$. Lấy $M$ thuộc cạnh $AB$ và $N$ thuộc cạnh $AC$ sao cho đường thẳng $MN$ cắt đường thẳng $BC$ tại $E$. Tìm giao tuyến của hai mặt phẳng $(DMN)$ và $(BCD)$.
-
-[LỜI GIẢI CŨ – VI]
-Điểm $D$ thuộc cả hai mặt phẳng. Vì $E\in MN\subset(DMN)$ và $E\in BC\subset(BCD)$ nên $E$ cũng là điểm chung. Hai điểm chung $D$, $E$ phân biệt (vì $E$ thuộc mặt phẳng $(ABC)$ còn $D$ thì không) cho giao tuyến $DE$.
-
-**Đáp số.** Giao tuyến là đường thẳng $DE$.
-
-[ĐỀ – EN]
-Take a tetrahedron $ABCD$. Take $M$ on the edge $AB$ and $N$ on the edge $AC$ such that the line $MN$ meets the line $BC$ at $E$. Find the line of intersection of the planes $(DMN)$ and $(BCD)$.
-
-[LỜI GIẢI CŨ – EN]
-The point $D$ lies in both planes. Since $E\in MN\subset(DMN)$ and $E\in BC\subset(BCD)$, $E$ is also a common point. The two common points $D$ and $E$ are distinct (because $E$ lies in the plane $(ABC)$ and $D$ does not), so the line of intersection is $DE$.
-
-**Answer.** The line of intersection is the line $DE$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Cho hình chóp $S.ABCD$ có đáy là tứ giác $ABCD$ sao cho $AB$ cắt $CD$ tại $E$. Lấy điểm $M$ thuộc cạnh $SD$. Tìm giao điểm của đường thẳng $SC$ và mặt phẳng $(MAB)$.
-
-[LỜI GIẢI CŨ – VI]
-Mặt phẳng phụ chứa $SC$ là $(SCD)$. Điểm $M\in SD\subset(SCD)$ và $M\in(MAB)$; điểm $E\in CD\subset(SCD)$ và $E\in AB\subset(MAB)$. Do đó giao tuyến của $(SCD)$ và $(MAB)$ là $ME$. Trong mặt phẳng $(SCD)$, $ME$ cắt $SC$ tại $N$, và $N\in(MAB)$.
-
-**Đáp số.** Giao điểm là $N=SC\cap ME$.
-
-[ĐỀ – EN]
-Take a pyramid $S.ABCD$ whose base is a quadrilateral $ABCD$ such that $AB$ meets $CD$ at $E$. Take a point $M$ on the edge $SD$. Find the point where the line $SC$ meets the plane $(MAB)$.
-
-[LỜI GIẢI CŨ – EN]
-The auxiliary plane containing $SC$ is $(SCD)$. The point $M\in SD\subset(SCD)$ and $M\in(MAB)$; the point $E\in CD\subset(SCD)$ and $E\in AB\subset(MAB)$. So the line of intersection of $(SCD)$ and $(MAB)$ is $ME$. In the plane $(SCD)$, $ME$ meets $SC$ at $N$, and $N\in(MAB)$.
-
-**Answer.** The point is $N=SC\cap ME$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Một cánh cửa gắn vào khung bằng hai bản lề (coi như hai điểm cố định) vẫn quay được quanh trục nối hai bản lề. Nếu thêm một chốt khoá là điểm cố định thứ ba, không nằm trên trục đó, thì cánh cửa không quay được nữa. Giải thích bằng các tính chất của mặt phẳng.
-
-[LỜI GIẢI CŨ – VI]
-Hai bản lề cố định chỉ cho ta một đường thẳng cố định. Có vô số mặt phẳng chứa đường thẳng này, nên cánh cửa có thể quay quanh nó và chiếm các vị trí khác nhau. Khi thêm chốt thứ ba không nằm trên trục, ba điểm cố định không thẳng hàng xác định đúng một mặt phẳng. Cánh cửa phải nằm trong mặt phẳng duy nhất đó nên không quay được.
-
-**Đáp số.** Hai điểm chỉ cố định được một đường thẳng; ba điểm không thẳng hàng cố định được mặt phẳng.
-
-[ĐỀ – EN]
-A door is attached to its frame by two hinges (treated as two fixed points) and can still swing about the axis through the two hinges. If a third fixed point, a bolt not on that axis, is added, the door can no longer swing. Explain this using the properties of planes.
-
-[LỜI GIẢI CŨ – EN]
-Two fixed hinges give only one fixed line. Infinitely many planes contain this line, so the door can swing about it and take different positions. When a third bolt not on the axis is added, the three fixed non-collinear points determine exactly one plane. The door must lie in that one plane, so it cannot swing.
-
-**Answer.** Two points fix only a line; three non-collinear points fix a plane.
-
-=== Bài 6 ===
-[ĐỀ – VI]
-Cho bốn điểm $A$, $B$, $C$, $D$ không đồng phẳng. Xét tính đúng sai của các mệnh đề sau:
-
-a) Ba điểm $A$, $B$, $C$ không thẳng hàng.
-
-b) Hai đường thẳng $AB$ và $CD$ có thể cắt nhau.
-
-c) Hai mặt phẳng $(ABC)$ và $(ABD)$ có giao tuyến là đường thẳng $AB$.
-
-d) Có đúng $3$ mặt phẳng đi qua ba trong bốn điểm đã cho.
-
-[LỜI GIẢI CŨ – VI]
-a) **Đúng**: nếu thẳng hàng thì cùng với $D$ chúng đồng phẳng.
-
-b) **Sai**: nếu $AB$ và $CD$ cắt nhau thì chúng nằm trên một mặt phẳng, và bốn điểm đồng phẳng.
-
-c) **Đúng**: $A$ và $B$ thuộc cả hai mặt phẳng nên giao tuyến là $AB$.
-
-d) **Sai**: có $4$ mặt phẳng $(ABC)$, $(ABD)$, $(ACD)$, $(BCD)$.
-
-**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
-
-[ĐỀ – EN]
-Take four non-coplanar points $A$, $B$, $C$, $D$. Decide whether each statement is true or false.
-
-a) The points $A$, $B$, $C$ are not collinear.
-
-b) The lines $AB$ and $CD$ may meet.
-
-c) The planes $(ABC)$ and $(ABD)$ have the line $AB$ as their line of intersection.
-
-d) Exactly $3$ planes pass through three of the four given points.
-
-[LỜI GIẢI CŨ – EN]
-a) **True**: if they were collinear, they would be coplanar with $D$.
-
-b) **False**: if $AB$ and $CD$ meet, they lie in one plane, and the four points are coplanar.
-
-c) **True**: $A$ and $B$ lie in both planes, so the line of intersection is $AB$.
-
-d) **False**: there are $4$ planes $(ABC)$, $(ABD)$, $(ACD)$, $(BCD)$.
-
-**Answer.** a) True; b) False; c) True; d) False.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Số cạnh của hình chóp có đáy là tam giác, tứ giác, ngũ giác, ... (đáy $n$-giác với $n=3, 4, 5, \dots$) lập thành một dãy số $(u_k)$. Chứng minh dãy này là cấp số cộng, tìm công sai và số hạng tổng quát, rồi tính số cạnh của hình chóp có đáy $20$ cạnh.
-
-[LỜI GIẢI CŨ – VI]
-Hình chóp đáy tam giác có $6$ cạnh nên $u_1=6$; đáy $k+2$ cạnh có $2(k+2)=2k+4$ cạnh, tức $u_k=2k+4$. Vì $u_{k+1}-u_k=2$ không đổi nên đây là cấp số cộng với $u_1=6$, $d=2$. Hình chóp đáy $20$ cạnh ứng với $k=18$, và $u_{18}=2\cdot18+4=40$.
-
-**Đáp số.** Cấp số cộng $u_k=2k+4$ (công sai $2$); hình chóp đáy $20$ cạnh có $40$ cạnh.
-
-[ĐỀ – EN]
-The numbers of edges of pyramids whose bases are a triangle, a quadrilateral, a pentagon, ... (base with $n$ sides, $n=3, 4, 5, \dots$) form a sequence $(u_k)$. Prove that this sequence is an arithmetic progression, find its common difference and general term, and find the number of edges of a pyramid whose base has $20$ sides.
-
-[LỜI GIẢI CŨ – EN]
-A pyramid with a triangular base has $6$ edges, so $u_1=6$; a base with $k+2$ sides gives $2(k+2)=2k+4$ edges, that is $u_k=2k+4$. Since $u_{k+1}-u_k=2$ is constant, this is an arithmetic progression with $u_1=6$, $d=2$. A base with $20$ sides corresponds to $k=18$, and $u_{18}=2\cdot18+4=40$.
-
-**Answer.** The arithmetic progression $u_k=2k+4$ (common difference $2$); a pyramid with a $20$-sided base has $40$ edges.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Cho ba mặt phẳng phân biệt $(P)$, $(Q)$, $(R)$ đôi một cắt nhau theo ba giao tuyến $a=(P)\cap(Q)$, $b=(Q)\cap(R)$, $c=(R)\cap(P)$. Chứng minh nếu $a$ và $b$ cắt nhau tại $I$ thì $I$ cũng thuộc $c$, tức là ba giao tuyến đồng quy.
-
-[LỜI GIẢI CŨ – VI]
-Vì $I\in a=(P)\cap(Q)$ nên $I\in(P)$ và $I\in(Q)$. Vì $I\in b=(Q)\cap(R)$ nên $I\in(Q)$ và $I\in(R)$. Do đó $I$ thuộc cả $(P)$ và $(R)$, nên $I$ thuộc giao tuyến $c=(R)\cap(P)$.
-
-**Đáp số.** $I\in c$; ba giao tuyến $a$, $b$, $c$ đồng quy tại $I$.
-
-[ĐỀ – EN]
-Take three distinct planes $(P)$, $(Q)$, $(R)$ that meet in pairs along the three lines $a=(P)\cap(Q)$, $b=(Q)\cap(R)$, $c=(R)\cap(P)$. Prove that if $a$ and $b$ meet at $I$, then $I$ also lies on $c$, that is, the three lines are concurrent.
-
-[LỜI GIẢI CŨ – EN]
-Since $I\in a=(P)\cap(Q)$, we have $I\in(P)$ and $I\in(Q)$. Since $I\in b=(Q)\cap(R)$, we have $I\in(Q)$ and $I\in(R)$. So $I$ lies in both $(P)$ and $(R)$, hence on their line of intersection $c=(R)\cap(P)$.
-
-**Answer.** $I\in c$; the three lines $a$, $b$, $c$ are concurrent at $I$.
-
-
-######################################################################
-@@@ g11/logarithms
-Bài học: Lôgarit / Logarithms
-Cần viết lại lời giải các bài: 2, 3, 4, 5, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
-######################################################################
-
-=== Bài 2 ===
-[ĐỀ – VI]
-Tìm điều kiện của $x$ để mỗi biểu thức sau có nghĩa:
-
-a) $\log_3(x-2)$.
-
-b) $\log_2(5-x)$.
-
-c) $\lg(x^2-4)$.
-
-[LỜI GIẢI CŨ – VI]
-a) Cần $x-2>0$, tức $x>2$.
-
-b) Cần $5-x>0$, tức $x<5$.
-
-c) Cần $x^2-4>0\Leftrightarrow(x-2)(x+2)>0$, tức $x<-2$ hoặc $x>2$.
-
-Vậy a) $x>2$; b) $x<5$; c) $x\in(-\infty; -2)\cup(2; +\infty)$.
-
-**Đáp số.** a) $x>2$; b) $x<5$; c) $(-\infty; -2)\cup(2; +\infty)$.
-
-[ĐỀ – EN]
-Find the condition on $x$ for each expression to be defined:
-
-a) $\log_3(x-2)$.
-
-b) $\log_2(5-x)$.
-
-c) $\log(x^2-4)$.
-
-[LỜI GIẢI CŨ – EN]
-a) We need $x-2>0$, that is $x>2$.
-
-b) We need $5-x>0$, that is $x<5$.
-
-c) We need $x^2-4>0\Leftrightarrow(x-2)(x+2)>0$, that is $x<-2$ or $x>2$.
-
-So a) $x>2$; b) $x<5$; c) $x\in(-\infty, -2)\cup(2, +\infty)$.
-
-**Answer.** a) $x>2$; b) $x<5$; c) $(-\infty, -2)\cup(2, +\infty)$.
-
-=== Bài 3 ===
-[ĐỀ – VI]
-Tính:
-
-a) $4^{\log_23}$.
-
-b) $8^{\log_25}$.
-
-c) $\log_432$.
-
-[LỜI GIẢI CŨ – VI]
-a) Ta có $4^{\log_23}=\left(2^2\right)^{\log_23}=\left(2^{\log_23}\right)^2=3^2=9$.
-
-b) Ta có $8^{\log_25}=\left(2^{\log_25}\right)^3=5^3=125$.
-
-c) Từ $4^x=32$ ta có $2^{2x}=2^5$, suy ra $x=\dfrac52$.
-
-Vậy a) $9$; b) $125$; c) $\dfrac52$.
-
-**Đáp số.** a) $9$; b) $125$; c) $\dfrac52$.
-
-[ĐỀ – EN]
-Evaluate:
-
-a) $4^{\log_23}$.
-
-b) $8^{\log_25}$.
-
-c) $\log_432$.
-
-[LỜI GIẢI CŨ – EN]
-a) We have $4^{\log_23}=\left(2^2\right)^{\log_23}=\left(2^{\log_23}\right)^2=3^2=9$.
-
-b) We have $8^{\log_25}=\left(2^{\log_25}\right)^3=5^3=125$.
-
-c) From $4^x=32$ we get $2^{2x}=2^5$, so $x=\dfrac52$.
-
-So a) $9$; b) $125$; c) $\dfrac52$.
-
-**Answer.** a) $9$; b) $125$; c) $\dfrac52$.
-
-=== Bài 4 ===
-[ĐỀ – VI]
-Tính:
-
-a) $\log_64+\log_69$.
-
-b) $\log_354-\log_32$.
-
-c) $\log_212-2\log_23+\log_26$.
-
-[LỜI GIẢI CŨ – VI]
-a) Ta có $\log_64+\log_69=\log_636=2$.
-
-b) Ta có $\log_354-\log_32=\log_327=3$.
-
-c) Ta có $\log_212-2\log_23+\log_26=\log_2\dfrac{12\cdot6}{3^2}=\log_28=3$.
-
-Vậy a) $2$; b) $3$; c) $3$.
-
-**Đáp số.** a) $2$; b) $3$; c) $3$.
-
-[ĐỀ – EN]
-Evaluate:
-
-a) $\log_64+\log_69$.
-
-b) $\log_354-\log_32$.
-
-c) $\log_212-2\log_23+\log_26$.
-
-[LỜI GIẢI CŨ – EN]
-a) We have $\log_64+\log_69=\log_636=2$.
-
-b) We have $\log_354-\log_32=\log_327=3$.
-
-c) We have $\log_212-2\log_23+\log_26=\log_2\dfrac{12\cdot6}{3^2}=\log_28=3$.
-
-So a) $2$; b) $3$; c) $3$.
-
-**Answer.** a) $2$; b) $3$; c) $3$.
-
-=== Bài 5 ===
-[ĐỀ – VI]
-Độ pH của một dung dịch được tính bằng $\mathrm{pH}=-\lg[\mathrm{H}^+]$ ($[\mathrm{H}^+]$ tính bằng mol/lít).
-
-a) Một dung dịch có $[\mathrm{H}^+]=2\cdot10^{-4}$ (số liệu giả định). Tính $\mathrm{pH}$ (làm tròn đến hàng phần trăm).
-
-b) Một dung dịch có $\mathrm{pH}=6{,}5$. Tìm $[\mathrm{H}^+]$, viết dưới dạng $c\cdot10^{-7}$ với $c$ làm tròn đến hàng phần mười.
-
-[LỜI GIẢI CŨ – VI]
-a) Ta có $\mathrm{pH}=-(\lg2-4)=4-\lg2\approx4-0{,}3010=3{,}70$.
-
-b) Ta có $[\mathrm{H}^+]=10^{-6{,}5}=10^{0{,}5}\cdot10^{-7}\approx3{,}2\cdot10^{-7}$.
-
-Vậy a) $\mathrm{pH}\approx3{,}70$; b) $[\mathrm{H}^+]\approx3{,}2\cdot10^{-7}$ mol/lít.
-
-**Đáp số.** a) $3{,}70$; b) $3{,}2\cdot10^{-7}$ mol/lít.
-
-[ĐỀ – EN]
-The pH of a solution is given by $\mathrm{pH}=-\log[\mathrm{H}^+]$ ($[\mathrm{H}^+]$ in mol/litre).
-
-a) A solution has $[\mathrm{H}^+]=2\cdot10^{-4}$ (hypothetical figure). Find its pH (to two decimal places).
-
-b) A solution has $\mathrm{pH}=6.5$. Find $[\mathrm{H}^+]$, written as $c\cdot10^{-7}$ with $c$ to one decimal place.
-
-[LỜI GIẢI CŨ – EN]
-a) We have $\mathrm{pH}=-(\log2-4)=4-\log2\approx4-0.3010=3.70$.
-
-b) We have $[\mathrm{H}^+]=10^{-6.5}=10^{0.5}\cdot10^{-7}\approx3.2\cdot10^{-7}$.
-
-So a) $\mathrm{pH}\approx3.70$; b) $[\mathrm{H}^+]\approx3.2\cdot10^{-7}$ mol/litre.
-
-**Answer.** a) $3.70$; b) $3.2\cdot10^{-7}$ mol/litre.
-
-=== Bài 7 ===
-[ĐỀ – VI]
-Xét tính đúng sai của các mệnh đề sau:
-
-a) $\log_28=3$.
-
-b) $\log_2(4+4)=\log_24+\log_24$.
-
-c) $\log_{1/2}4=2$.
-
-d) $\log_35\cdot\log_53=1$.
-
-[LỜI GIẢI CŨ – VI]
-a) **Đúng**: $2^3=8$.
-
-b) **Sai**: vế trái bằng $\log_28=3$, vế phải bằng $2+2=4$.
-
-c) **Sai**: $\left(\dfrac12\right)^2=\dfrac14\neq4$; thực ra $\log_{1/2}4=-2$.
-
-d) **Đúng**: $\log_35=\dfrac{1}{\log_53}$ nên tích bằng $1$.
-
-**Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
-
-[ĐỀ – EN]
-Decide whether each statement is true or false:
-
-a) $\log_28=3$.
-
-b) $\log_2(4+4)=\log_24+\log_24$.
-
-c) $\log_{1/2}4=2$.
-
-d) $\log_35\cdot\log_53=1$.
-
-[LỜI GIẢI CŨ – EN]
-a) **True**: $2^3=8$.
-
-b) **False**: the left side is $\log_28=3$, the right side is $2+2=4$.
-
-c) **False**: $\left(\dfrac12\right)^2=\dfrac14\neq4$; in fact $\log_{1/2}4=-2$.
-
-d) **True**: $\log_35=\dfrac{1}{\log_53}$, so the product is $1$.
-
-**Answer.** a) True; b) False; c) False; d) True.
-
-=== Bài 8 ===
-[ĐỀ – VI]
-Dùng máy tính cầm tay, tính $\log_23$ (làm tròn đến hàng phần trăm).
-
-[LỜI GIẢI CŨ – VI]
-Ta có $\log_23=\dfrac{\ln3}{\ln2}\approx\dfrac{1{,}0986}{0{,}6931}\approx1{,}585$.
-
-Vậy $\log_23\approx1{,}58$.
-
-**Đáp số.** $1{,}58$.
-
-[ĐỀ – EN]
-Using a calculator, find $\log_23$ (to two decimal places).
-
-[LỜI GIẢI CŨ – EN]
-We have $\log_23=\dfrac{\ln3}{\ln2}\approx\dfrac{1.0986}{0.6931}\approx1.585$.
-
-So $\log_23\approx1.58$.
-
-**Answer.** $1.58$.
-
-=== Bài 9 ===
-[ĐỀ – VI]
-Ôn lại luỹ thừa với số mũ hữu tỉ. Với $a>0$, $a\neq1$, tính:
-
-a) $\log_a\left(a^2\sqrt{a}\right)$.
-
-b) $\log_a\dfrac{a}{\sqrt[3]{a}}$.
-
-[LỜI GIẢI CŨ – VI]
-a) Ta có $a^2\sqrt a=a^{2+\frac12}=a^{5/2}$, nên $\log_a\left(a^2\sqrt a\right)=\dfrac52$.
-
-b) Ta có $\dfrac{a}{\sqrt[3]{a}}=a^{1-\frac13}=a^{2/3}$, nên $\log_a\dfrac{a}{\sqrt[3]a}=\dfrac23$.
-
-Vậy a) $\dfrac52$; b) $\dfrac23$.
-
-**Đáp số.** a) $\dfrac52$; b) $\dfrac23$.
-
-[ĐỀ – EN]
-Revisit powers with rational exponents. For $a>0$, $a\neq1$, evaluate:
-
-a) $\log_a\left(a^2\sqrt{a}\right)$.
-
-b) $\log_a\dfrac{a}{\sqrt[3]{a}}$.
-
-[LỜI GIẢI CŨ – EN]
-a) We have $a^2\sqrt a=a^{2+\frac12}=a^{5/2}$, so $\log_a\left(a^2\sqrt a\right)=\dfrac52$.
-
-b) We have $\dfrac{a}{\sqrt[3]{a}}=a^{1-\frac13}=a^{2/3}$, so $\log_a\dfrac{a}{\sqrt[3]a}=\dfrac23$.
-
-So a) $\dfrac52$; b) $\dfrac23$.
-
-**Answer.** a) $\dfrac52$; b) $\dfrac23$.
-
-
-######################################################################
-@@@ g11/multiplication-rule
-Bài học: Công thức nhân xác suất cho hai biến cố độc lập / The multiplication rule for independent events
+@@@ g8/similar-shapes
+Bài học: Hình đồng dạng / Similar shapes
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Gieo một con xúc xắc cân đối và tung một đồng xu cân đối. Tính xác suất để số chấm là bội của $3$ và đồng xu xuất hiện mặt sấp.
+Cặp hình nào sau đây đồng dạng? Nếu đồng dạng, nêu tỉ số đồng dạng.
+
+a) Hai tam giác đều có cạnh $3$ và $5$.
+
+b) Hình chữ nhật $4\times6$ và hình chữ nhật $10\times15$.
+
+c) Hình chữ nhật $2\times5$ và hình chữ nhật $6\times9$.
+
+d) Hình vuông và hình thoi không phải hình vuông.
 
 [LỜI GIẢI CŨ – VI]
-Xác suất số chấm là bội của $3$ bằng $\dfrac26=\dfrac13$; xác suất mặt sấp bằng $\dfrac12$.
+a) Hai tam giác đều có các góc đều bằng $60^\circ$ và các cạnh tỉ lệ nên đồng dạng, tỉ số $\dfrac53$.
 
-$$P=\frac13\cdot\frac12=\frac16.$$
+b) Các góc đều bằng $90^\circ$ và $\dfrac{10}4=\dfrac{15}6=2{,}5$ nên đồng dạng, tỉ số $2{,}5$.
 
-**Đáp số.** $\dfrac16$.
+c) $\dfrac62=3$ nhưng $\dfrac95=1{,}8$ nên không đồng dạng.
+
+d) Các góc của hình thoi không phải hình vuông khác $90^\circ$ nên không đồng dạng.
+
+**Đáp số.** a) Đồng dạng, $\dfrac53$. b) Đồng dạng, $2{,}5$. c) Không. d) Không.
 
 [ĐỀ – EN]
-A fair die is rolled and a fair coin is tossed. Find the probability that the die score is a multiple of $3$ and the coin shows tails.
+Which of these pairs of shapes are similar? If they are, state the similarity ratio.
+
+a) Two equilateral triangles with sides $3$ and $5$.
+
+b) A $4\times6$ rectangle and a $10\times15$ rectangle.
+
+c) A $2\times5$ rectangle and a $6\times9$ rectangle.
+
+d) A square and a rhombus that is not a square.
 
 [LỜI GIẢI CŨ – EN]
-The probability of a multiple of $3$ is $\dfrac26=\dfrac13$; the probability of tails is $\dfrac12$.
+a) Equilateral triangles have all angles equal to $60^\circ$ and proportional sides, so they are similar with ratio $\dfrac53$.
 
-$$P=\frac13\cdot\frac12=\frac16.$$
+b) All angles are $90^\circ$ and $\dfrac{10}4=\dfrac{15}6=2.5$, so they are similar with ratio $2.5$.
 
-**Answer.** $\dfrac16$.
+c) $\dfrac62=3$ but $\dfrac95=1.8$, so they are not similar.
+
+d) The angles of a rhombus that is not a square are not $90^\circ$, so they are not similar.
+
+**Answer.** a) Similar, $\dfrac53$. b) Similar, $2.5$. c) No. d) No.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Hai vòng quay hoạt động độc lập. Xác suất vòng thứ nhất dừng ở ô đỏ là $0{,}4$; xác suất vòng thứ hai dừng ở ô đỏ là $0{,}7$. Tính xác suất a) cả hai cùng dừng ở ô đỏ; b) không vòng nào dừng ở ô đỏ.
+Hình chữ nhật $ABCD$ có $AB=6$, $BC=4$ đồng dạng với hình chữ nhật $A'B'C'D'$ có $A'B'=15$. Tính $B'C'$ và chu vi hình chữ nhật $A'B'C'D'$.
 
 [LỜI GIẢI CŨ – VI]
-a) $P(\text{cả hai đỏ})=0{,}4\cdot0{,}7=0{,}28$.
+Tỉ số đồng dạng là $k=\dfrac{15}6=2{,}5$. Suy ra $B'C'=2{,}5\cdot4=10$. Chu vi $A'B'C'D'$ là $2\cdot(15+10)=50$.
 
-b) $P(\text{không vòng nào đỏ})=(1-0{,}4)(1-0{,}7)=0{,}6\cdot0{,}3=0{,}18$.
-
-**Đáp số.** a) $0{,}28$; b) $0{,}18$.
+**Đáp số.** $B'C'=10$; chu vi bằng $50$.
 
 [ĐỀ – EN]
-Two spinners operate independently. The probability that the first stops on red is $0.4$; the probability that the second stops on red is $0.7$. Find the probability that a) both stop on red; b) neither stops on red.
+The rectangle $ABCD$ with $AB=6$, $BC=4$ is similar to the rectangle $A'B'C'D'$ with $A'B'=15$. Find $B'C'$ and the perimeter of $A'B'C'D'$.
 
 [LỜI GIẢI CŨ – EN]
-a) $P(\text{both red})=0.4\cdot0.7=0.28$.
+The similarity ratio is $k=\dfrac{15}6=2.5$. Hence $B'C'=2.5\cdot4=10$. The perimeter of $A'B'C'D'$ is $2\cdot(15+10)=50$.
 
-b) $P(\text{neither red})=(1-0.4)(1-0.7)=0.6\cdot0.3=0.18$.
-
-**Answer.** a) $0.28$; b) $0.18$.
+**Answer.** $B'C'=10$; the perimeter is $50$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Kiểm tra tính độc lập của $A$ và $B$ trong mỗi trường hợp:
-
-a) $P(A)=0{,}4$, $P(B)=0{,}5$, $P(A\cap B)=0{,}2$;
-
-b) $P(A)=0{,}4$, $P(B)=0{,}5$, $P(A\cap B)=0{,}18$.
+Tam giác $A'B'C'$ đồng dạng phối cảnh với tam giác $ABC$ tâm $O$, tỉ số $k=3$. Biết $OA=2$ cm, $AB=3$ cm, $BC=4$ cm, $CA=5$ cm. Tính $OA'$, $A'B'$ và chu vi tam giác $A'B'C'$.
 
 [LỜI GIẢI CŨ – VI]
-Trong cả hai trường hợp, $P(A)P(B)=0{,}4\cdot0{,}5=0{,}2$.
+Ta có $OA'=3\cdot2=6$ (cm) và $A'B'=3\cdot3=9$ (cm). Chu vi tam giác $ABC$ là $3+4+5=12$ cm nên chu vi tam giác $A'B'C'$ là $3\cdot12=36$ cm.
 
-a) $P(A\cap B)=0{,}2$, nên $A$, $B$ độc lập.
-
-b) $P(A\cap B)=0{,}18\ne0{,}2$, nên $A$, $B$ không độc lập.
-
-**Đáp số.** a) Độc lập; b) không độc lập.
+**Đáp số.** $OA'=6$ cm; $A'B'=9$ cm; chu vi $36$ cm.
 
 [ĐỀ – EN]
-Test whether $A$ and $B$ are independent in each case:
-
-a) $P(A)=0.4$, $P(B)=0.5$, $P(A\cap B)=0.2$;
-
-b) $P(A)=0.4$, $P(B)=0.5$, $P(A\cap B)=0.18$.
+Triangle $A'B'C'$ is in perspective similarity with triangle $ABC$, centre $O$, ratio $k=3$. Given $OA=2$ cm, $AB=3$ cm, $BC=4$ cm, $CA=5$ cm, find $OA'$, $A'B'$ and the perimeter of triangle $A'B'C'$.
 
 [LỜI GIẢI CŨ – EN]
-In both cases, $P(A)P(B)=0.4\cdot0.5=0.2$.
+We have $OA'=3\cdot2=6$ (cm) and $A'B'=3\cdot3=9$ (cm). The perimeter of triangle $ABC$ is $3+4+5=12$ cm, so the perimeter of triangle $A'B'C'$ is $3\cdot12=36$ cm.
 
-a) $P(A\cap B)=0.2$, so $A$ and $B$ are independent.
-
-b) $P(A\cap B)=0.18\ne0.2$, so $A$ and $B$ are not independent.
-
-**Answer.** a) Independent; b) not independent.
+**Answer.** $OA'=6$ cm; $A'B'=9$ cm; perimeter $36$ cm.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Hai bộ phận của một thiết bị hoạt động độc lập. Xác suất bộ phận thứ nhất hoạt động tốt là $0{,}97$, của bộ phận thứ hai là $0{,}94$. Tính xác suất có ít nhất một bộ phận không hoạt động tốt.
+Trong mặt phẳng toạ độ $Oxy$, cho $A(2; 1)$ và $B(4; 3)$. Điểm $A'$ và $B'$ lần lượt nằm trên tia $OA$ và $OB$ sao cho $OA'=3\cdot OA$ và $OB'=3\cdot OB$. Tìm toạ độ $A'$, $B'$ và so sánh $A'B'$ với $AB$.
 
 [LỜI GIẢI CŨ – VI]
-Xác suất cả hai bộ phận đều tốt là $0{,}97\cdot0{,}94=0{,}9118$.
+Ta có $A'(6; 3)$ và $B'(12; 9)$. Theo định lí Pythagore, $AB=\sqrt{2^2+2^2}=2\sqrt2$ và $A'B'=\sqrt{6^2+6^2}=6\sqrt2$. Suy ra $A'B'=3\cdot AB$.
 
-Do đó $P(\text{ít nhất một bộ phận không tốt})=1-0{,}9118=0{,}0882$.
-
-**Đáp số.** $0{,}0882$.
+**Đáp số.** $A'(6; 3)$, $B'(12; 9)$; $A'B'=3\cdot AB$.
 
 [ĐỀ – EN]
-Two parts of a device operate independently. The probability that the first works properly is $0.97$, and that for the second is $0.94$. Find the probability that at least one part does not work properly.
+In the coordinate plane $Oxy$, let $A(2, 1)$ and $B(4, 3)$. The points $A'$ and $B'$ lie on the rays $OA$ and $OB$ with $OA'=3\cdot OA$ and $OB'=3\cdot OB$. Find the coordinates of $A'$ and $B'$ and compare $A'B'$ with $AB$.
 
 [LỜI GIẢI CŨ – EN]
-The probability that both parts work properly is $0.97\cdot0.94=0.9118$.
+We have $A'(6, 3)$ and $B'(12, 9)$. By Pythagoras' theorem, $AB=\sqrt{2^2+2^2}=2\sqrt2$ and $A'B'=\sqrt{6^2+6^2}=6\sqrt2$. Hence $A'B'=3\cdot AB$.
 
-Hence $P(\text{at least one part not working properly})=1-0.9118=0.0882$.
-
-**Answer.** $0.0882$.
+**Answer.** $A'(6, 3)$, $B'(12, 9)$; $A'B'=3\cdot AB$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Một cầu thủ thực hiện hai cú sút độc lập. Xác suất ghi bàn ở cú thứ nhất là $0{,}75$, ở cú thứ hai là $0{,}6$. Tính xác suất cầu thủ ghi đúng một bàn.
+Nhớ lại định lí Thalès đảo. Cho $A'$, $B'$ nằm trên các tia $OA$, $OB$ sao cho $OA'=k\cdot OA$ và $OB'=k\cdot OB$. Chứng minh $A'B'\parallel AB$.
 
 [LỜI GIẢI CŨ – VI]
-Hai trường hợp có xác suất lần lượt là $0{,}75\cdot0{,}4=0{,}3$ và $0{,}25\cdot0{,}6=0{,}15$.
+Ta có $\dfrac{OA'}{OA}=k=\dfrac{OB'}{OB}$. Theo định lí Thalès đảo trong tam giác $OAB$ (với $k<1$; trường hợp $k>1$ xét tam giác $OA'B'$), suy ra $A'B'\parallel AB$.
 
-$$P(\text{đúng một bàn})=0{,}3+0{,}15=0{,}45.$$
-
-**Đáp số.** $0{,}45$.
+**Đáp số.** $A'B'\parallel AB$.
 
 [ĐỀ – EN]
-A footballer takes two independent shots. The probabilities of scoring with the first and second shots are $0.75$ and $0.6$, respectively. Find the probability that the player scores exactly one goal.
+Remember the converse of the intercept theorem. The points $A'$, $B'$ lie on the rays $OA$, $OB$ with $OA'=k\cdot OA$ and $OB'=k\cdot OB$. Prove that $A'B'\parallel AB$.
 
 [LỜI GIẢI CŨ – EN]
-The two cases have probabilities $0.75\cdot0.4=0.3$ and $0.25\cdot0.6=0.15$.
+We have $\dfrac{OA'}{OA}=k=\dfrac{OB'}{OB}$. By the converse of the intercept theorem in triangle $OAB$ (when $k<1$; when $k>1$ use triangle $OA'B'$), we get $A'B'\parallel AB$.
 
-$$P(\text{exactly one goal})=0.3+0.15=0.45.$$
-
-**Answer.** $0.45$.
+**Answer.** $A'B'\parallel AB$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Cho hai biến cố độc lập $A$, $B$ với $P(A)=0{,}3$ và $P(B)=0{,}8$. Mỗi khẳng định sau đúng hay sai?
-
-a) $P(A\cap B)=0{,}24$.
-
-b) $P(\overline A\cap B)=0{,}56$.
-
-c) $P(A\cup B)=0{,}86$.
-
-d) $A$ và $B$ là hai biến cố xung khắc.
+Biểu trưng của một câu lạc bộ có kích thước $12\ \text{cm}\times8\ \text{cm}$ được in lên một tấm băng rôn hình chữ nhật, giữ nguyên hình dạng. Chiều rộng của biểu trưng trên băng rôn là $1{,}8$ m. Tính chiều cao của nó.
 
 [LỜI GIẢI CŨ – VI]
-a) **Đúng:** $P(A\cap B)=0{,}3\cdot0{,}8=0{,}24$.
+Ta có $1{,}8\ \text{m}=180\ \text{cm}$, nên $k=\dfrac{180}{12}=15$. Chiều cao trên băng rôn là $8\cdot15=120$ cm.
 
-b) **Đúng:** $P(\overline A\cap B)=0{,}7\cdot0{,}8=0{,}56$.
-
-c) **Đúng:** $P(A\cup B)=0{,}3+0{,}8-0{,}24=0{,}86$.
-
-d) **Sai:** $P(A\cap B)=0{,}24>0$, nên hai biến cố không xung khắc.
-
-**Đáp số.** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+**Đáp số.** $120$ cm $=1{,}2$ m.
 
 [ĐỀ – EN]
-Let $A$ and $B$ be independent events with $P(A)=0.3$ and $P(B)=0.8$. Is each statement true or false?
-
-a) $P(A\cap B)=0.24$.
-
-b) $P(\overline A\cap B)=0.56$.
-
-c) $P(A\cup B)=0.86$.
-
-d) $A$ and $B$ are mutually exclusive.
+A club's logo of size $12\ \text{cm}\times8\ \text{cm}$ is printed on a rectangular banner, keeping its shape. The width of the logo on the banner is $1.8$ m. Find its height.
 
 [LỜI GIẢI CŨ – EN]
-a) **True:** $P(A\cap B)=0.3\cdot0.8=0.24$.
+We have $1.8\ \text{m}=180\ \text{cm}$, so $k=\dfrac{180}{12}=15$. The height on the banner is $8\cdot15=120$ cm.
 
-b) **True:** $P(\overline A\cap B)=0.7\cdot0.8=0.56$.
-
-c) **True:** $P(A\cup B)=0.3+0.8-0.24=0.86$.
-
-d) **False:** $P(A\cap B)=0.24>0$, so the events are not mutually exclusive.
-
-**Answer.** a) True; b) True; c) True; d) False.
+**Answer.** $120$ cm $=1.2$ m.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Hai chuyến giao hàng độc lập có xác suất đến đúng giờ lần lượt là $0{,}92$ và $0{,}85$. Xác suất có đúng một chuyến đến muộn là bao nhiêu phần trăm? Làm tròn đến hàng phần mười.
+Trên một bản đồ tỉ lệ $1:200\,000$, hai thị trấn cách nhau $6{,}5$ cm. Hỏi khoảng cách thực tế giữa hai thị trấn là bao nhiêu ki-lô-mét? Một quãng đường thực tế dài $52$ km được vẽ dài bao nhiêu xăng-ti-mét trên bản đồ?
 
 [LỜI GIẢI CŨ – VI]
-Xác suất đúng một chuyến đến muộn là
+Khoảng cách thực tế là $6{,}5\cdot200\,000=1\,300\,000$ cm $=13$ km. Quãng đường $52$ km $=5\,200\,000$ cm nên trên bản đồ dài $\dfrac{5\,200\,000}{200\,000}=26$ cm.
 
-$$0{,}92\cdot0{,}15+0{,}08\cdot0{,}85=0{,}138+0{,}068=0{,}206.$$
-
-Đổi sang phần trăm: $0{,}206=20{,}6\%$.
-
-**Đáp số.** $20{,}6\%$.
+**Đáp số.** $13$ km; $26$ cm.
 
 [ĐỀ – EN]
-Two independent deliveries have probabilities $0.92$ and $0.85$ of arriving on time. What is the probability, as a percentage, that exactly one delivery is late? Round to one decimal place.
+On a map with scale $1:200\,000$, two towns are $6.5$ cm apart. What is the real distance between the towns in kilometres? How many centimetres long is a real route of $52$ km on the map?
 
 [LỜI GIẢI CŨ – EN]
-The probability that exactly one delivery is late is
+The real distance is $6.5\cdot200\,000=1\,300\,000$ cm $=13$ km. The route of $52$ km $=5\,200\,000$ cm is $\dfrac{5\,200\,000}{200\,000}=26$ cm long on the map.
 
-$$0.92\cdot0.15+0.08\cdot0.85=0.138+0.068=0.206.$$
-
-As a percentage, $0.206=20.6\%$.
-
-**Answer.** $20.6\%$.
+**Answer.** $13$ km; $26$ cm.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Cho $P(A)=0{,}45$, $P(B)=0{,}35$ và $P(A\cap B)=0{,}15$.
-
-a) Tính $P(A\cup B)$.
-
-b) Hai biến cố $A$, $B$ có độc lập không?
+Một mô hình ngôi nhà được làm theo tỉ lệ $1:20$. Cửa ra vào của mô hình cao $10$ cm. Hỏi cửa thực tế cao bao nhiêu mét? Ngôi nhà thực tế rộng $8$ m thì mô hình rộng bao nhiêu xăng-ti-mét?
 
 [LỜI GIẢI CŨ – VI]
-a) Theo công thức cộng:
+Cửa thực tế cao $10\cdot20=200$ cm $=2$ m. Chiều rộng mô hình là $\dfrac{8}{20}=0{,}4$ m $=40$ cm.
 
-$$P(A\cup B)=0{,}45+0{,}35-0{,}15=0{,}65.$$
-
-b) $P(A)P(B)=0{,}45\cdot0{,}35=0{,}1575\ne0{,}15$, nên $A$, $B$ không độc lập.
-
-**Đáp số.** a) $0{,}65$; b) không độc lập.
+**Đáp số.** $2$ m; $40$ cm.
 
 [ĐỀ – EN]
-Suppose $P(A)=0.45$, $P(B)=0.35$ and $P(A\cap B)=0.15$.
-
-a) Find $P(A\cup B)$.
-
-b) Are $A$ and $B$ independent?
+A model of a house is built to the scale $1:20$. The front door of the model is $10$ cm high. How many metres high is the real door? If the real house is $8$ m wide, how many centimetres wide is the model?
 
 [LỜI GIẢI CŨ – EN]
-a) By the addition rule,
+The real door is $10\cdot20=200$ cm $=2$ m high. The width of the model is $\dfrac{8}{20}=0.4$ m $=40$ cm.
 
-$$P(A\cup B)=0.45+0.35-0.15=0.65.$$
-
-b) $P(A)P(B)=0.45\cdot0.35=0.1575\ne0.15$, so $A$ and $B$ are not independent.
-
-**Answer.** a) $0.65$; b) not independent.
+**Answer.** $2$ m; $40$ cm.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Một học sinh trả lời hai câu hỏi độc lập. Xác suất trả lời đúng mỗi câu đều bằng $p$. Biết xác suất trả lời đúng ít nhất một câu là $0{,}84$. Tìm $p$.
+Một bóng đèn nhỏ ở điểm $O$ chiếu sáng một tấm bìa hình vuông cạnh $15$ cm đặt song song với một bức tường cách đèn $3$ m. Để bóng của tấm bìa trên tường là hình vuông cạnh $90$ cm thì phải đặt tấm bìa cách đèn bao nhiêu xăng-ti-mét?
 
 [LỜI GIẢI CŨ – VI]
-Ta có
+Ta có $k=\dfrac{90}{15}=6$. Gọi $d$ là khoảng cách từ đèn đến tấm bìa (cm); vì tường cách đèn $300$ cm nên $\dfrac{300}{d}=6$, suy ra $d=50$.
 
-$$1-(1-p)^2=0{,}84\iff(1-p)^2=0{,}16.$$
-
-Vì $0\le p\le1$ nên $1-p\ge0$. Do đó $1-p=0{,}4$, suy ra $p=0{,}6$.
-
-**Đáp số.** $0{,}6$.
+**Đáp số.** $50$ cm.
 
 [ĐỀ – EN]
-A student answers two independent questions. The probability of answering each question correctly is $p$. The probability of answering at least one question correctly is $0.84$. Find $p$.
+A small lamp at a point $O$ lights a square card of side $15$ cm placed parallel to a wall that is $3$ m from the lamp. For the shadow of the card on the wall to be a square of side $90$ cm, how many centimetres from the lamp must the card be placed?
 
 [LỜI GIẢI CŨ – EN]
-We have
+We have $k=\dfrac{90}{15}=6$. Let $d$ cm be the distance from the lamp to the card; since the wall is $300$ cm from the lamp, $\dfrac{300}{d}=6$, so $d=50$.
 
-$$1-(1-p)^2=0.84\iff(1-p)^2=0.16.$$
-
-Since $0\le p\le1$, we have $1-p\ge0$. Thus $1-p=0.4$, giving $p=0.6$.
-
-**Answer.** $0.6$.
+**Answer.** $50$ cm.
 
 
 ######################################################################
-@@@ g11/orthogonal-projection-angle
-Bài học: Phép chiếu vuông góc. Góc giữa đường thẳng và mặt phẳng / Orthogonal projection and the angle between a line and a plane
+@@@ g8/similar-triangles
+Bài học: Hai tam giác đồng dạng / Similar triangles
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho $\triangle DEF\sim\triangle ABC$ theo tỉ số $k=3$ với $AB=2$, $BC=4$, $CA=5$. Tính $DE$, $EF$, $FD$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $D$, $E$, $F$ ứng với $A$, $B$, $C$ nên $DE=3\cdot2=6$, $EF=3\cdot4=12$, $FD=3\cdot5=15$.
+
+Vậy $DE=6$, $EF=12$, $FD=15$.
+
+**Đáp số.** $6$; $12$; $15$.
+
+[ĐỀ – EN]
+Let $\triangle DEF\sim\triangle ABC$ with scale factor $k=3$ and $AB=2$, $BC=4$, $CA=5$. Find $DE$, $EF$, $FD$.
+
+[LỜI GIẢI CŨ – EN]
+Since $D$, $E$, $F$ correspond to $A$, $B$, $C$, we have $DE=3\cdot2=6$, $EF=3\cdot4=12$, $FD=3\cdot5=15$.
+
+So $DE=6$, $EF=12$, $FD=15$.
+
+**Answer.** $6$; $12$; $15$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho $\triangle ABC\sim\triangle A'B'C'$ với $AB=5$, $BC=8$, $CA=10$ và $A'B'=15$. Tìm tỉ số đồng dạng của $\triangle A'B'C'$ so với $\triangle ABC$, các cạnh còn lại của $\triangle A'B'C'$ và tỉ số chu vi.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $k=\dfrac{15}{5}=3$. Do đó $B'C'=3\cdot8=24$ và $C'A'=3\cdot10=30$. Tỉ số chu vi bằng $k=3$: chu vi $\triangle ABC$ là $23$, chu vi $\triangle A'B'C'$ là $15+24+30=69=3\cdot23$.
+
+**Đáp số.** $k=3$; $24$; $30$; tỉ số chu vi $3$.
+
+[ĐỀ – EN]
+Let $\triangle ABC\sim\triangle A'B'C'$ with $AB=5$, $BC=8$, $CA=10$ and $A'B'=15$. Find the scale factor of $\triangle A'B'C'$ to $\triangle ABC$, the other sides of $\triangle A'B'C'$ and the ratio of the perimeters.
+
+[LỜI GIẢI CŨ – EN]
+We have $k=\dfrac{15}{5}=3$. Hence $B'C'=3\cdot8=24$ and $C'A'=3\cdot10=30$. The ratio of the perimeters is $k=3$: the perimeter of $\triangle ABC$ is $23$ and that of $\triangle A'B'C'$ is $15+24+30=69=3\cdot23$.
+
+**Answer.** $k=3$; $24$; $30$; perimeter ratio $3$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho $\triangle ABC$ có $AB=4$, $BC=6$, $CA=8$ và $\triangle A'B'C'$ có $A'B'=6$, $B'C'=9$, $C'A'=12$, với các góc tương ứng bằng nhau. Hai tam giác có đồng dạng không? Nếu có, nêu tỉ số và so sánh chu vi.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{6}{4}=\dfrac{9}{6}=\dfrac{12}{8}=\dfrac32$ và các góc tương ứng bằng nhau, nên $\triangle A'B'C'\sim\triangle ABC$ với tỉ số $\dfrac32$. Chu vi $\triangle ABC$ là $18$, chu vi $\triangle A'B'C'$ là $27=\dfrac32\cdot18$.
+
+**Đáp số.** Đồng dạng, tỉ số $\dfrac32$; chu vi $18$ và $27$.
+
+[ĐỀ – EN]
+Let $\triangle ABC$ have $AB=4$, $BC=6$, $CA=8$ and let $\triangle A'B'C'$ have $A'B'=6$, $B'C'=9$, $C'A'=12$, with equal corresponding angles. Are the triangles similar? If so, state the scale factor and compare the perimeters.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{6}{4}=\dfrac{9}{6}=\dfrac{12}{8}=\dfrac32$ and the corresponding angles are equal, so $\triangle A'B'C'\sim\triangle ABC$ with scale factor $\dfrac32$. The perimeter of $\triangle ABC$ is $18$ and that of $\triangle A'B'C'$ is $27=\dfrac32\cdot18$.
+
+**Answer.** Similar, scale factor $\dfrac32$; perimeters $18$ and $27$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho $\triangle ABC$, điểm $M\in AB$, $N\in AC$ sao cho $MN\parallel BC$. Biết $AM=6$, $MB=4$, $AN=9$ và $BC=20$. Tính $NC$, $AC$ và $MN$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $AB=6+4=10$ nên $k=\dfrac{6}{10}=\dfrac35$. Vì $\dfrac{AN}{AC}=\dfrac35$ nên $AC=\dfrac{9}{3/5}=15$, suy ra $NC=15-9=6$. Ta có $MN=\dfrac35\cdot20=12$.
+
+Kiểm tra: $\dfrac{AM}{AB}=\dfrac{AN}{AC}=\dfrac{MN}{BC}=\dfrac35$.
+
+**Đáp số.** $NC=6$; $AC=15$; $MN=12$.
+
+[ĐỀ – EN]
+In $\triangle ABC$, $M\in AB$ and $N\in AC$ with $MN\parallel BC$. Given $AM=6$, $MB=4$, $AN=9$ and $BC=20$, find $NC$, $AC$ and $MN$.
+
+[LỜI GIẢI CŨ – EN]
+We have $AB=6+4=10$, so $k=\dfrac{6}{10}=\dfrac35$. Since $\dfrac{AN}{AC}=\dfrac35$, $AC=\dfrac{9}{3/5}=15$, so $NC=15-9=6$. We have $MN=\dfrac35\cdot20=12$.
+
+Check: $\dfrac{AM}{AB}=\dfrac{AN}{AC}=\dfrac{MN}{BC}=\dfrac35$.
+
+**Answer.** $NC=6$; $AC=15$; $MN=12$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Một cột cờ có bóng dài $12$ m trên mặt đất. Cùng lúc đó, một cây thước dài $1$ m dựng thẳng có bóng dài $0{,}8$ m. Tính chiều cao cột cờ.
+
+[LỜI GIẢI CŨ – VI]
+Gọi $h$ là chiều cao cột cờ (m). Ta có $\dfrac{h}{1}=\dfrac{12}{0{,}8}$, suy ra $h=15$.
+
+Kiểm tra: $\dfrac{15}{12}=\dfrac{1}{0{,}8}=1{,}25$.
+
+Vậy cột cờ cao $15$ m.
+
+**Đáp số.** $15$ m.
+
+[ĐỀ – EN]
+A flagpole casts a shadow $12$ m long on the ground. At the same moment an upright metre rule casts a shadow $0.8$ m long. Find the height of the flagpole.
+
+[LỜI GIẢI CŨ – EN]
+Let $h$ be the height of the flagpole (m). We have $\dfrac{h}{1}=\dfrac{12}{0.8}$, so $h=15$.
+
+Check: $\dfrac{15}{12}=\dfrac{1}{0.8}=1.25$.
+
+So the flagpole is $15$ m tall.
+
+**Answer.** $15$ m.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Cho $\triangle ABC$ vuông tại $A$ có $AB=6$, $AC=8$. Điểm $M\in AB$ với $AM=3$; đường thẳng qua $M$ song song với $BC$ cắt $AC$ tại $N$. Tính $AN$ và $MN$. (Ôn lại [định lí Pythagore](lesson:pythagoras-theorem).)
+
+[LỜI GIẢI CŨ – VI]
+Theo định lí Pythagore, $BC=\sqrt{6^2+8^2}=10$. Vì $MN\parallel BC$ nên $\triangle AMN\sim\triangle ABC$ với $k=\dfrac{3}{6}=\dfrac12$. Do đó $AN=\dfrac12\cdot8=4$ và $MN=\dfrac12\cdot10=5$.
+
+**Đáp số.** $AN=4$; $MN=5$.
+
+[ĐỀ – EN]
+In $\triangle ABC$, right-angled at $A$, $AB=6$ and $AC=8$. The point $M\in AB$ has $AM=3$; the line through $M$ parallel to $BC$ meets $AC$ at $N$. Find $AN$ and $MN$. (Revise [Pythagoras' theorem](lesson:pythagoras-theorem).)
+
+[LỜI GIẢI CŨ – EN]
+By Pythagoras' theorem, $BC=\sqrt{6^2+8^2}=10$. Since $MN\parallel BC$, $\triangle AMN\sim\triangle ABC$ with $k=\dfrac{3}{6}=\dfrac12$. Hence $AN=\dfrac12\cdot8=4$ and $MN=\dfrac12\cdot10=5$.
+
+**Answer.** $AN=4$; $MN=5$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+$\triangle A'B'C'\sim\triangle ABC$ theo tỉ số $2$ và $\triangle A''B''C''\sim\triangle A'B'C'$ theo tỉ số $3$. Tìm tỉ số đồng dạng của $\triangle A''B''C''$ so với $\triangle ABC$. Nếu $AB=5$ thì $A''B''$ bằng bao nhiêu?
+
+[LỜI GIẢI CŨ – VI]
+Tỉ số đồng dạng của $\triangle A''B''C''$ so với $\triangle ABC$ là $2\cdot3=6$. Khi $AB=5$ thì $A''B''=6\cdot5=30$.
+
+Kiểm tra từng bước: $A'B'=2\cdot5=10$ và $A''B''=3\cdot10=30$.
+
+**Đáp số.** $6$; $A''B''=30$.
+
+[ĐỀ – EN]
+$\triangle A'B'C'\sim\triangle ABC$ with scale factor $2$ and $\triangle A''B''C''\sim\triangle A'B'C'$ with scale factor $3$. Find the scale factor of $\triangle A''B''C''$ to $\triangle ABC$. If $AB=5$, what is $A''B''$?
+
+[LỜI GIẢI CŨ – EN]
+The scale factor of $\triangle A''B''C''$ to $\triangle ABC$ is $2\cdot3=6$. When $AB=5$, $A''B''=6\cdot5=30$.
+
+Check step by step: $A'B'=2\cdot5=10$ and $A''B''=3\cdot10=30$.
+
+**Answer.** $6$; $A''B''=30$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Một bức ảnh tam giác có các cạnh $6$ cm, $8$ cm, $10$ cm được phóng to thành tấm áp phích sao cho cạnh ngắn nhất dài $15$ cm. Tính các cạnh của áp phích và tỉ số chu vi.
+
+[LỜI GIẢI CŨ – VI]
+Tỉ số phóng to là $k=\dfrac{15}{6}=2{,}5$. Các cạnh áp phích là $15$ cm, $2{,}5\cdot8=20$ cm, $2{,}5\cdot10=25$ cm. Chu vi bức ảnh là $24$ cm, chu vi áp phích là $60$ cm và $60:24=2{,}5$.
+
+**Đáp số.** $15$ cm, $20$ cm, $25$ cm; tỉ số chu vi $2{,}5$.
+
+[ĐỀ – EN]
+A triangular photograph with sides $6$ cm, $8$ cm, $10$ cm is enlarged to a poster so that the shortest side is $15$ cm long. Find the sides of the poster and the ratio of the perimeters.
+
+[LỜI GIẢI CŨ – EN]
+The enlargement factor is $k=\dfrac{15}{6}=2.5$. The sides of the poster are $15$ cm, $2.5\cdot8=20$ cm, $2.5\cdot10=25$ cm. The perimeter of the photograph is $24$ cm, that of the poster is $60$ cm and $60\div24=2.5$.
+
+**Answer.** $15$ cm, $20$ cm, $25$ cm; perimeter ratio $2.5$.
+
+
+######################################################################
+@@@ g8/squares-identities
+Bài học: Hiệu hai bình phương. Bình phương của một tổng hay một hiệu / Difference of two squares. Square of a sum or a difference
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Khai triển:
+
+a) $(x+7)^2$.
+
+b) $(x-6)^2$.
+
+c) $(2x+1)^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(x+7)^2=x^2+14x+49$.
+
+b) $(x-6)^2=x^2-12x+36$.
+
+c) $(2x+1)^2=4x^2+4x+1$.
+
+Vậy a) $x^2+14x+49$; b) $x^2-12x+36$; c) $4x^2+4x+1$.
+
+**Đáp số.** a) $x^2+14x+49$. b) $x^2-12x+36$. c) $4x^2+4x+1$.
+
+[ĐỀ – EN]
+Expand:
+
+a) $(x+7)^2$.
+
+b) $(x-6)^2$.
+
+c) $(2x+1)^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(x+7)^2=x^2+14x+49$.
+
+b) $(x-6)^2=x^2-12x+36$.
+
+c) $(2x+1)^2=4x^2+4x+1$.
+
+So a) $x^2+14x+49$; b) $x^2-12x+36$; c) $4x^2+4x+1$.
+
+**Answer.** a) $x^2+14x+49$. b) $x^2-12x+36$. c) $4x^2+4x+1$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Khai triển:
+
+a) $(3x-2y)^2$.
+
+b) $\left(\dfrac12x+3\right)^2$.
+
+c) $(5x^2-y)^2$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(3x-2y)^2=9x^2-12xy+4y^2$.
+
+b) $\left(\dfrac12x+3\right)^2=\dfrac14x^2+3x+9$.
+
+c) $(5x^2-y)^2=25x^4-10x^2y+y^2$.
+
+Vậy a) $9x^2-12xy+4y^2$; b) $\dfrac14x^2+3x+9$; c) $25x^4-10x^2y+y^2$.
+
+**Đáp số.** a) $9x^2-12xy+4y^2$. b) $\dfrac14x^2+3x+9$. c) $25x^4-10x^2y+y^2$.
+
+[ĐỀ – EN]
+Expand:
+
+a) $(3x-2y)^2$.
+
+b) $\left(\dfrac12x+3\right)^2$.
+
+c) $(5x^2-y)^2$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(3x-2y)^2=9x^2-12xy+4y^2$.
+
+b) $\left(\dfrac12x+3\right)^2=\dfrac14x^2+3x+9$.
+
+c) $(5x^2-y)^2=25x^4-10x^2y+y^2$.
+
+So a) $9x^2-12xy+4y^2$; b) $\dfrac14x^2+3x+9$; c) $25x^4-10x^2y+y^2$.
+
+**Answer.** a) $9x^2-12xy+4y^2$. b) $\dfrac14x^2+3x+9$. c) $25x^4-10x^2y+y^2$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Khai triển:
+
+a) $(x-8)(x+8)$.
+
+b) $(4x+3y)(4x-3y)$.
+
+c) $(x^2+1)(x^2-1)$.
+
+[LỜI GIẢI CŨ – VI]
+a) $(x-8)(x+8)=x^2-64$.
+
+b) $(4x+3y)(4x-3y)=16x^2-9y^2$.
+
+c) $(x^2+1)(x^2-1)=x^4-1$.
+
+Vậy a) $x^2-64$; b) $16x^2-9y^2$; c) $x^4-1$.
+
+**Đáp số.** a) $x^2-64$. b) $16x^2-9y^2$. c) $x^4-1$.
+
+[ĐỀ – EN]
+Expand:
+
+a) $(x-8)(x+8)$.
+
+b) $(4x+3y)(4x-3y)$.
+
+c) $(x^2+1)(x^2-1)$.
+
+[LỜI GIẢI CŨ – EN]
+a) $(x-8)(x+8)=x^2-64$.
+
+b) $(4x+3y)(4x-3y)=16x^2-9y^2$.
+
+c) $(x^2+1)(x^2-1)=x^4-1$.
+
+So a) $x^2-64$; b) $16x^2-9y^2$; c) $x^4-1$.
+
+**Answer.** a) $x^2-64$. b) $16x^2-9y^2$. c) $x^4-1$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tính nhẩm bằng hằng đẳng thức:
+
+a) $103^2$.
+
+b) $98^2$.
+
+c) $61\cdot59$.
+
+[LỜI GIẢI CŨ – VI]
+a) $103^2=(100+3)^2=10\,000+600+9=10\,609$.
+
+b) $98^2=(100-2)^2=10\,000-400+4=9604$.
+
+c) $61\cdot59=(60+1)(60-1)=60^2-1=3600-1=3599$.
+
+Vậy a) $10\,609$; b) $9604$; c) $3599$.
+
+**Đáp số.** a) $10\,609$. b) $9604$. c) $3599$.
+
+[ĐỀ – EN]
+Calculate mentally using identities:
+
+a) $103^2$.
+
+b) $98^2$.
+
+c) $61\cdot59$.
+
+[LỜI GIẢI CŨ – EN]
+a) $103^2=(100+3)^2=10\,000+600+9=10\,609$.
+
+b) $98^2=(100-2)^2=10\,000-400+4=9604$.
+
+c) $61\cdot59=(60+1)(60-1)=60^2-1=3600-1=3599$.
+
+So a) $10\,609$; b) $9604$; c) $3599$.
+
+**Answer.** a) $10\,609$. b) $9604$. c) $3599$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Chứng minh rằng hiệu các bình phương của hai số lẻ liên tiếp luôn chia hết cho $8$.
+
+[LỜI GIẢI CŨ – VI]
+Gọi hai số lẻ liên tiếp là $2k-1$ và $2k+1$. Ta có
+$$(2k+1)^2-(2k-1)^2=(4k^2+4k+1)-(4k^2-4k+1)=8k.$$
+Vì $8k$ là bội của $8$ nên hiệu các bình phương của hai số lẻ liên tiếp chia hết cho $8$.
+
+**Đáp số.** Hiệu bằng $8k$, chia hết cho $8$.
+
+[ĐỀ – EN]
+Prove that the difference of the squares of two consecutive odd numbers is always divisible by $8$.
+
+[LỜI GIẢI CŨ – EN]
+Let the two consecutive odd numbers be $2k-1$ and $2k+1$. We have
+$$(2k+1)^2-(2k-1)^2=(4k^2+4k+1)-(4k^2-4k+1)=8k.$$
+Since $8k$ is a multiple of $8$, the difference of the squares of two consecutive odd numbers is divisible by $8$.
+
+**Answer.** The difference equals $8k$, which is divisible by $8$.
+
+
+######################################################################
+@@@ g8/thales-theorem-triangle
+Bài học: Định lí Thalès trong tam giác / The intercept theorem in a triangle
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 7 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho $AB=15$ cm và $CD=1{,}2$ dm. Tính tỉ số $\dfrac{AB}{CD}$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $CD=1{,}2$ dm $=12$ cm. Do đó $\dfrac{AB}{CD}=\dfrac{15}{12}=\dfrac54$.
+
+Vậy $\dfrac{AB}{CD}=\dfrac54$.
+
+**Đáp số.** $\dfrac54$.
+
+[ĐỀ – EN]
+Let $AB=15$ cm and $CD=1.2$ dm. Find the ratio $\dfrac{AB}{CD}$.
+
+[LỜI GIẢI CŨ – EN]
+We have $CD=1.2$ dm $=12$ cm. Hence $\dfrac{AB}{CD}=\dfrac{15}{12}=\dfrac54$.
+
+So $\dfrac{AB}{CD}=\dfrac54$.
+
+**Answer.** $\dfrac54$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$, $D\in AB$, $E\in AC$ và $DE\parallel BC$. Biết $AD=6$ cm, $DB=9$ cm và $AE=4$ cm. Tính $EC$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $DE\parallel BC$ nên $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, tức là $\dfrac{6}{9}=\dfrac{4}{EC}$. Suy ra $EC=\dfrac{4\cdot9}{6}=6$ (cm).
+
+Vậy $EC=6$ cm.
+
+**Đáp số.** $EC=6$ cm.
+
+[ĐỀ – EN]
+In triangle $ABC$, $D\in AB$, $E\in AC$ and $DE\parallel BC$. Given $AD=6$ cm, $DB=9$ cm and $AE=4$ cm, find $EC$.
+
+[LỜI GIẢI CŨ – EN]
+Since $DE\parallel BC$, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, that is $\dfrac{6}{9}=\dfrac{4}{EC}$. So $EC=\dfrac{4\cdot9}{6}=6$ (cm).
+
+So $EC=6$ cm.
+
+**Answer.** $EC=6$ cm.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$, $D\in AB$, $E\in AC$ và $DE\parallel BC$. Biết $AB=12$ cm, $AD=5$ cm và $AC=18$ cm. Tính $AE$ và $EC$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $DE\parallel BC$ nên $\dfrac{AD}{AB}=\dfrac{AE}{AC}$, tức là $\dfrac{5}{12}=\dfrac{AE}{18}$. Suy ra $AE=\dfrac{5\cdot18}{12}=7{,}5$ (cm). Do đó $EC=18-7{,}5=10{,}5$ (cm).
+
+Vậy $AE=7{,}5$ cm và $EC=10{,}5$ cm.
+
+**Đáp số.** $AE=7{,}5$ cm; $EC=10{,}5$ cm.
+
+[ĐỀ – EN]
+In triangle $ABC$, $D\in AB$, $E\in AC$ and $DE\parallel BC$. Given $AB=12$ cm, $AD=5$ cm and $AC=18$ cm, find $AE$ and $EC$.
+
+[LỜI GIẢI CŨ – EN]
+Since $DE\parallel BC$, $\dfrac{AD}{AB}=\dfrac{AE}{AC}$, that is $\dfrac{5}{12}=\dfrac{AE}{18}$. So $AE=\dfrac{5\cdot18}{12}=7.5$ (cm). Hence $EC=18-7.5=10.5$ (cm).
+
+So $AE=7.5$ cm and $EC=10.5$ cm.
+
+**Answer.** $AE=7.5$ cm; $EC=10.5$ cm.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$, $D\in AB$, $E\in AC$ và $DE\parallel BC$. Biết $AD=x$ cm, $DB=3$ cm, $AE=4$ cm và $EC=6$ cm. Tìm $x$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $DE\parallel BC$ nên $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, tức là $\dfrac{x}{3}=\dfrac{4}{6}$. Suy ra $x=\dfrac{3\cdot4}{6}=2$.
+
+Vậy $x=2$ (cm).
+
+**Đáp số.** $x=2$.
+
+[ĐỀ – EN]
+In triangle $ABC$, $D\in AB$, $E\in AC$ and $DE\parallel BC$. Given $AD=x$ cm, $DB=3$ cm, $AE=4$ cm and $EC=6$ cm, find $x$.
+
+[LỜI GIẢI CŨ – EN]
+Since $DE\parallel BC$, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, that is $\dfrac{x}{3}=\dfrac{4}{6}$. So $x=\dfrac{3\cdot4}{6}=2$.
+
+So $x=2$ (cm).
+
+**Answer.** $x=2$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ có $AB=15$ cm, $AC=20$ cm. Trên $AB$ lấy $D$ với $AD=6$ cm, trên $AC$ lấy $E$ với $AE=8$ cm. Chứng minh rằng $DE\parallel BC$.
+
+[LỜI GIẢI CŨ – VI]
+Ta có $\dfrac{AD}{AB}=\dfrac{6}{15}=\dfrac25$ và $\dfrac{AE}{AC}=\dfrac{8}{20}=\dfrac25$. Hai tỉ số bằng nhau nên theo định lí Thalès đảo, $DE\parallel BC$.
+
+**Đáp số.** $DE\parallel BC$.
+
+[ĐỀ – EN]
+Triangle $ABC$ has $AB=15$ cm and $AC=20$ cm. On $AB$ take $D$ with $AD=6$ cm, and on $AC$ take $E$ with $AE=8$ cm. Prove that $DE\parallel BC$.
+
+[LỜI GIẢI CŨ – EN]
+We have $\dfrac{AD}{AB}=\dfrac{6}{15}=\dfrac25$ and $\dfrac{AE}{AC}=\dfrac{8}{20}=\dfrac25$. The two ratios are equal, so by the converse of the intercept theorem, $DE\parallel BC$.
+
+**Answer.** $DE\parallel BC$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử một khung mái nhà hình tam giác $ABC$ có $AB=6$ m và $AC=5$ m. Người ta đóng thanh ngang $DE$ song song với $BC$, với $D\in AB$, $E\in AC$ và $AD=2{,}4$ m. Tính $AE$ và $EC$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $DE\parallel BC$ nên $\dfrac{AD}{AB}=\dfrac{AE}{AC}$, tức là $\dfrac{2{,}4}{6}=\dfrac{AE}{5}$. Suy ra $AE=\dfrac{2{,}4\cdot5}{6}=2$ (m). Do đó $EC=5-2=3$ (m).
+
+Vậy $AE=2$ m và $EC=3$ m.
+
+**Đáp số.** $AE=2$ m; $EC=3$ m.
+
+[ĐỀ – EN]
+Suppose a triangular roof frame $ABC$ has $AB=6$ m and $AC=5$ m. A crossbar $DE$ is fixed parallel to $BC$, with $D\in AB$, $E\in AC$ and $AD=2.4$ m. Find $AE$ and $EC$.
+
+[LỜI GIẢI CŨ – EN]
+Since $DE\parallel BC$, $\dfrac{AD}{AB}=\dfrac{AE}{AC}$, that is $\dfrac{2.4}{6}=\dfrac{AE}{5}$. So $AE=\dfrac{2.4\cdot5}{6}=2$ (m). Hence $EC=5-2=3$ (m).
+
+So $AE=2$ m and $EC=3$ m.
+
+**Answer.** $AE=2$ m; $EC=3$ m.
+
+
+######################################################################
+@@@ g8/triangle-midline
+Bài học: Đường trung bình của tam giác / The midsegment of a triangle
+Cần viết lại lời giải các bài: 1, 2, 4, 7 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Tam giác $ABC$ có $BC=18$ cm. Gọi $D$, $E$ là trung điểm của $AB$, $AC$. Tính $DE$.
+
+[LỜI GIẢI CŨ – VI]
+$DE$ là đường trung bình của tam giác $ABC$ nên $DE=\dfrac12BC=\dfrac12\cdot18=9$ (cm).
+
+Vậy $DE=9$ cm.
+
+**Đáp số.** $9$ cm.
+
+[ĐỀ – EN]
+Triangle $ABC$ has $BC=18$ cm. Let $D$ and $E$ be the midpoints of $AB$ and $AC$. Find $DE$.
+
+[LỜI GIẢI CŨ – EN]
+$DE$ is a midsegment of triangle $ABC$, so $DE=\dfrac12BC=\dfrac12\cdot18=9$ (cm).
+
+So $DE=9$ cm.
+
+**Answer.** $9$ cm.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Tam giác $ABC$ có $D$, $E$ là trung điểm của $AB$, $AC$ và $DE=7{,}5$ cm. Tính $BC$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $DE$ là đường trung bình nên $BC=2DE=2\cdot7{,}5=15$ (cm).
+
+Vậy $BC=15$ cm.
+
+**Đáp số.** $15$ cm.
+
+[ĐỀ – EN]
+In triangle $ABC$, $D$ and $E$ are the midpoints of $AB$ and $AC$, and $DE=7.5$ cm. Find $BC$.
+
+[LỜI GIẢI CŨ – EN]
+Since $DE$ is a midsegment, $BC=2DE=2\cdot7.5=15$ (cm).
+
+So $BC=15$ cm.
+
+**Answer.** $15$ cm.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Tam giác $ABC$ có $\widehat{B}=60^\circ$ và $\widehat{C}=75^\circ$. Gọi $D$, $E$ là trung điểm của $AB$, $AC$. Tính $\widehat{ADE}$ và $\widehat{AED}$.
+
+[LỜI GIẢI CŨ – VI]
+Vì $DE$ là đường trung bình nên $DE\parallel BC$. Do đó $\widehat{ADE}=\widehat{B}=60^\circ$ và $\widehat{AED}=\widehat{C}=75^\circ$ (các cặp góc đồng vị).
+
+Vậy $\widehat{ADE}=60^\circ$ và $\widehat{AED}=75^\circ$.
+
+**Đáp số.** $\widehat{ADE}=60^\circ$; $\widehat{AED}=75^\circ$.
+
+[ĐỀ – EN]
+Triangle $ABC$ has $\angle B=60^\circ$ and $\angle C=75^\circ$. Let $D$ and $E$ be the midpoints of $AB$ and $AC$. Find $\angle ADE$ and $\angle AED$.
+
+[LỜI GIẢI CŨ – EN]
+Since $DE$ is a midsegment, $DE\parallel BC$. Hence $\angle ADE=\angle B=60^\circ$ and $\angle AED=\angle C=75^\circ$ (pairs of corresponding angles).
+
+So $\angle ADE=60^\circ$ and $\angle AED=75^\circ$.
+
+**Answer.** $\angle ADE=60^\circ$; $\angle AED=75^\circ$.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Giả sử hai điểm $A$, $B$ nằm ở hai bờ của một đầm lầy. Chọn điểm $C$ trên đất liền, gọi $M$, $N$ là trung điểm của $CA$, $CB$ và đo được $MN=23$ m. Tính khoảng cách $AB$.
+
+[LỜI GIẢI CŨ – VI]
+$MN$ là đường trung bình của tam giác $CAB$ nên $AB=2MN=2\cdot23=46$ (m).
+
+Vậy khoảng cách $AB$ là $46$ m.
+
+**Đáp số.** $46$ m.
+
+[ĐỀ – EN]
+Suppose two points $A$ and $B$ lie on opposite banks of a marsh. Choose a point $C$ on dry land, let $M$ and $N$ be the midpoints of $CA$ and $CB$, and measure $MN=23$ m. Find the distance $AB$.
+
+[LỜI GIẢI CŨ – EN]
+$MN$ is a midsegment of triangle $CAB$, so $AB=2MN=2\cdot23=46$ (m).
+
+So the distance $AB$ is $46$ m.
+
+**Answer.** $46$ m.
+
+
+######################################################################
+@@@ g8/triangle-similarity-conditions
+Bài học: Ba trường hợp đồng dạng của hai tam giác / The three similarity conditions for triangles
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình chữ nhật với $AB=3$, $AD=4$, $SA\perp(ABCD)$ và $SA=5$. Tính góc giữa $SC$ và $(ABCD)$, làm tròn đến hàng phần mười của độ.
+Cho $\triangle ABC$ có các cạnh $5$, $12$, $13$ và $\triangle DEF$ có các cạnh $10$, $24$, $26$. Hai tam giác có đồng dạng không? Nêu tỉ số.
 
 [LỜI GIẢI CŨ – VI]
-$AC=\sqrt{9+16}=5$. Vì $SA\perp(ABCD)$ nên $\widehat{(SC,(ABCD))}=\widehat{SCA}$ và $\tan\widehat{SCA}=\dfrac55=1$, suy ra $\widehat{SCA}=45^\circ$.
+Ta có $\dfrac{10}{5}=\dfrac{24}{12}=\dfrac{26}{13}=2$. Ba tỉ số bằng nhau nên hai tam giác đồng dạng (c.c.c) với tỉ số $2$.
 
-**Đáp số.** $45^\circ$.
+**Đáp số.** Đồng dạng, tỉ số $2$.
 
 [ĐỀ – EN]
-The pyramid $S.ABCD$ has a rectangular base $ABCD$ with $AB=3$, $AD=4$, $SA\perp(ABCD)$ and $SA=5$. Find the angle between $SC$ and $(ABCD)$, to the nearest tenth of a degree.
+Triangle $ABC$ has sides $5$, $12$, $13$ and triangle $DEF$ has sides $10$, $24$, $26$. Are the triangles similar? State the scale factor.
 
 [LỜI GIẢI CŨ – EN]
-$AC=\sqrt{9+16}=5$. Since $SA\perp(ABCD)$, $\angle(SC,(ABCD))=\angle SCA$ and $\tan\angle SCA=\dfrac55=1$, so $\angle SCA=45^\circ$.
+We have $\dfrac{10}{5}=\dfrac{24}{12}=\dfrac{26}{13}=2$. The three ratios are equal, so the triangles are similar (SSS) with scale factor $2$.
 
-**Answer.** $45^\circ$.
+**Answer.** Similar, scale factor $2$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $a$. Tính góc giữa $A'C$ và mặt phẳng $(ABCD)$, làm tròn đến hàng phần mười của độ.
+Hai tam giác có các cạnh $3$, $5$, $7$ và $6$, $10$, $15$ có đồng dạng không?
 
 [LỜI GIẢI CŨ – VI]
-Vì $AA'\perp(ABCD)$ nên $AC$ là hình chiếu của $A'C$, góc cần tìm là $\widehat{A'CA}$. Ta có $AC=a\sqrt2$, $AA'=a$ nên $\tan\widehat{A'CA}=\dfrac1{\sqrt2}$, suy ra $\widehat{A'CA}\approx35{,}3^\circ$.
+Ta có $\dfrac63=2$, $\dfrac{10}{5}=2$ nhưng $\dfrac{15}{7}\neq2$. Ba tỉ số không bằng nhau nên hai tam giác không đồng dạng.
 
-**Đáp số.** Khoảng $35{,}3^\circ$.
+**Đáp số.** Không đồng dạng.
 
 [ĐỀ – EN]
-In the cube $ABCD.A'B'C'D'$ of edge $a$, find the angle between $A'C$ and the plane $(ABCD)$, to the nearest tenth of a degree.
+Are two triangles with sides $3$, $5$, $7$ and $6$, $10$, $15$ similar?
 
 [LỜI GIẢI CŨ – EN]
-Since $AA'\perp(ABCD)$, $AC$ is the projection of $A'C$, and the required angle is $\angle A'CA$. We have $AC=a\sqrt2$, $AA'=a$, so $\tan\angle A'CA=\dfrac1{\sqrt2}$ and $\angle A'CA\approx35.3^\circ$.
+We have $\dfrac63=2$, $\dfrac{10}{5}=2$ but $\dfrac{15}{7}\neq2$. The three ratios are not equal, so the triangles are not similar.
 
-**Answer.** About $35.3^\circ$.
+**Answer.** Not similar.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Cho hình chóp $S.ABC$ có $SA\perp(ABC)$, tam giác $ABC$ vuông tại $B$, $AB=a$, $BC=a$ và $SA=a\sqrt2$. Tính góc giữa $SB$ và $(ABC)$, và góc giữa $SC$ và $(ABC)$.
+Cho $\triangle ABC$ có $AB=4$, $AC=6$, $\widehat A=60^\circ$ và $\triangle A'B'C'$ có $A'B'=6$, $A'C'=9$, $\widehat{A'}=60^\circ$. Chứng minh hai tam giác đồng dạng. Nếu $BC=5$, tính $B'C'$.
 
 [LỜI GIẢI CŨ – VI]
-$\tan\widehat{SBA}=\dfrac{SA}{AB}=\sqrt2$, nên $\widehat{SBA}\approx54{,}7^\circ$. Có $AC=a\sqrt2$ nên $\tan\widehat{SCA}=\dfrac{a\sqrt2}{a\sqrt2}=1$, suy ra $\widehat{SCA}=45^\circ$.
+Ta có $\dfrac{6}{4}=\dfrac{9}{6}=\dfrac32$ và góc xen giữa $\widehat{A'}=\widehat A=60^\circ$. Theo c.g.c, $\triangle A'B'C'\sim\triangle ABC$ với tỉ số $\dfrac32$. Do đó $B'C'=\dfrac32\cdot5=7{,}5$.
 
-**Đáp số.** $\approx54{,}7^\circ$ và $45^\circ$.
+**Đáp số.** Đồng dạng; $B'C'=7{,}5$.
 
 [ĐỀ – EN]
-The pyramid $S.ABC$ has $SA\perp(ABC)$, triangle $ABC$ right-angled at $B$, $AB=a$, $BC=a$ and $SA=a\sqrt2$. Find the angle between $SB$ and $(ABC)$, and the angle between $SC$ and $(ABC)$.
+Triangle $ABC$ has $AB=4$, $AC=6$, $\angle A=60^\circ$ and triangle $A'B'C'$ has $A'B'=6$, $A'C'=9$, $\angle A'=60^\circ$. Prove that the triangles are similar. If $BC=5$, find $B'C'$.
 
 [LỜI GIẢI CŨ – EN]
-$\tan\angle SBA=\dfrac{SA}{AB}=\sqrt2$, so $\angle SBA\approx54.7^\circ$. We have $AC=a\sqrt2$, so $\tan\angle SCA=\dfrac{a\sqrt2}{a\sqrt2}=1$, hence $\angle SCA=45^\circ$.
+We have $\dfrac{6}{4}=\dfrac{9}{6}=\dfrac32$ and the included angle $\angle A'=\angle A=60^\circ$. By SAS, $\triangle A'B'C'\sim\triangle ABC$ with scale factor $\dfrac32$. Hence $B'C'=\dfrac32\cdot5=7.5$.
 
-**Answer.** $\approx54.7^\circ$ and $45^\circ$.
+**Answer.** Similar; $B'C'=7.5$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Xét tính đúng sai của các mệnh đề sau. Cho đường thẳng $d$ và mặt phẳng $(P)$.
-
-a) Nếu $d\perp(P)$ thì góc giữa $d$ và $(P)$ bằng $90^\circ$.
-
-b) Nếu $d\parallel(P)$ thì góc giữa $d$ và $(P)$ bằng $90^\circ$.
-
-c) Góc giữa $d$ và $(P)$ có thể bằng $120^\circ$.
-
-d) Nếu $d$ cắt $(P)$ mà không vuông góc thì góc giữa $d$ và $(P)$ là góc giữa $d$ và hình chiếu của nó lên $(P)$.
+Cho $\triangle ABC$ có $\widehat A=50^\circ$, $\widehat B=70^\circ$ và $\triangle MNP$ có $\widehat M=50^\circ$, $\widehat P=60^\circ$. Chứng minh hai tam giác đồng dạng và viết đúng thứ tự đỉnh.
 
 [LỜI GIẢI CŨ – VI]
-a) **Đúng** theo định nghĩa.
+Trong $\triangle ABC$: $\widehat C=180^\circ-50^\circ-70^\circ=60^\circ$. Trong $\triangle MNP$: $\widehat N=180^\circ-50^\circ-60^\circ=70^\circ$. Ta có $\widehat A=\widehat M$, $\widehat B=\widehat N$, $\widehat C=\widehat P$. Theo g.g, $\triangle ABC\sim\triangle MNP$.
 
-b) **Sai**: khi $d\parallel(P)$ góc bằng $0^\circ$.
-
-c) **Sai**: góc luôn không vượt quá $90^\circ$.
-
-d) **Đúng** theo định nghĩa.
-
-**Đáp số.** a) Đúng; b) Sai; c) Sai; d) Đúng.
+**Đáp số.** $\triangle ABC\sim\triangle MNP$ (g.g).
 
 [ĐỀ – EN]
-Decide whether each statement is true or false. Let $d$ be a line and $(P)$ a plane.
-
-a) If $d\perp(P)$, the angle between $d$ and $(P)$ is $90^\circ$.
-
-b) If $d\parallel(P)$, the angle between $d$ and $(P)$ is $90^\circ$.
-
-c) The angle between $d$ and $(P)$ can equal $120^\circ$.
-
-d) If $d$ meets $(P)$ without being perpendicular to it, the angle between $d$ and $(P)$ is the angle between $d$ and its projection onto $(P)$.
+Triangle $ABC$ has $\angle A=50^\circ$, $\angle B=70^\circ$ and triangle $MNP$ has $\angle M=50^\circ$, $\angle P=60^\circ$. Prove that the triangles are similar and write the vertices in the correct order.
 
 [LỜI GIẢI CŨ – EN]
-a) **True** by definition.
+In $\triangle ABC$: $\angle C=180^\circ-50^\circ-70^\circ=60^\circ$. In $\triangle MNP$: $\angle N=180^\circ-50^\circ-60^\circ=70^\circ$. We have $\angle A=\angle M$, $\angle B=\angle N$, $\angle C=\angle P$. By AA, $\triangle ABC\sim\triangle MNP$.
 
-b) **False**: when $d\parallel(P)$ the angle is $0^\circ$.
-
-c) **False**: the angle never exceeds $90^\circ$.
-
-d) **True** by definition.
-
-**Answer.** a) True; b) False; c) False; d) True.
+**Answer.** $\triangle ABC\sim\triangle MNP$ (AA).
 
 === Bài 5 ===
 [ĐỀ – VI]
-Giả sử một chiếc thang dài $5$ m dựa vào bức tường thẳng đứng, chân thang cách tường $2$ m trên nền ngang (số liệu giả định). Tính góc giữa thang và mặt đất, làm tròn đến hàng phần mười của độ.
+Tam giác $ABC$ vuông tại $A$ có $AB=3$, $AC=4$; tam giác $DEF$ vuông tại $D$ có $DE=6$, $DF=8$. Chứng minh hai tam giác đồng dạng và tính $EF$.
 
 [LỜI GIẢI CŨ – VI]
-$\cos\varphi=\dfrac25=0{,}4\Rightarrow\varphi\approx66{,}4^\circ$.
+Ta có $\dfrac63=\dfrac84=2$ và hai góc vuông xen giữa bằng nhau, nên $\triangle DEF\sim\triangle ABC$ (c.g.c) với tỉ số $2$. Theo định lí Pythagore, $BC=5$. Do đó $EF=2\cdot5=10$.
 
-**Đáp số.** Khoảng $66{,}4^\circ$.
+**Đáp số.** Đồng dạng, $EF=10$.
 
 [ĐỀ – EN]
-Suppose a $5$ m ladder leans against a vertical wall with its foot $2$ m from the wall on level ground (assumed figures). Find the angle between the ladder and the ground, to the nearest tenth of a degree.
+Triangle $ABC$ is right-angled at $A$ with $AB=3$, $AC=4$; triangle $DEF$ is right-angled at $D$ with $DE=6$, $DF=8$. Prove that the triangles are similar and find $EF$.
 
 [LỜI GIẢI CŨ – EN]
-$\cos\varphi=\dfrac25=0.4\Rightarrow\varphi\approx66.4^\circ$.
+We have $\dfrac63=\dfrac84=2$ and the two right angles (included) are equal, so $\triangle DEF\sim\triangle ABC$ (SAS) with scale factor $2$. By Pythagoras' theorem, $BC=5$. Hence $EF=2\cdot5=10$.
 
-**Answer.** About $66.4^\circ$.
+**Answer.** Similar, $EF=10$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Giả sử một cột $SO$ cao $6$ m dựng vuông góc với mặt đất phẳng. Một dây neo $SB$ nối đỉnh cột với điểm $B$ trên đất cách chân cột $8$ m (số liệu giả định). Tính độ dài dây neo và góc giữa dây neo với mặt đất, làm tròn đến hàng phần mười của độ.
+Cho $\triangle ABC$, điểm $D$ trên cạnh $AC$ sao cho $\widehat{ABD}=\widehat{ACB}$. Biết $AB=10$, $AD=5$. Tính $AC$ và $DC$.
 
 [LỜI GIẢI CŨ – VI]
-$SB=\sqrt{36+64}=10$ m. $\sin\widehat{SBO}=\dfrac6{10}=0{,}6\Rightarrow\widehat{SBO}\approx36{,}9^\circ$.
+Hai tam giác $ABD$ và $ACB$ có góc $A$ chung và $\widehat{ABD}=\widehat{ACB}$ nên đồng dạng (g.g). Suy ra $AB^2=AD\cdot AC$, tức $100=5\cdot AC$ và $AC=20$. Do đó $DC=20-5=15$.
 
-**Đáp số.** Dây dài $10$ m, góc khoảng $36{,}9^\circ$.
+**Đáp số.** $AC=20$; $DC=15$.
 
 [ĐỀ – EN]
-Suppose a $6$ m pole $SO$ stands perpendicular to flat ground. An anchor cable $SB$ joins the top of the pole to a point $B$ on the ground $8$ m from the foot of the pole (assumed figures). Find the length of the cable and the angle between the cable and the ground, to the nearest tenth of a degree.
+In $\triangle ABC$, the point $D$ lies on side $AC$ with $\angle ABD=\angle ACB$. Given $AB=10$ and $AD=5$, find $AC$ and $DC$.
 
 [LỜI GIẢI CŨ – EN]
-$SB=\sqrt{36+64}=10$ m. $\sin\angle SBO=\dfrac6{10}=0.6\Rightarrow\angle SBO\approx36.9^\circ$.
+Triangles $ABD$ and $ACB$ share the angle $A$ and have $\angle ABD=\angle ACB$, so they are similar (AA). Hence $AB^2=AD\cdot AC$, that is $100=5\cdot AC$ and $AC=20$. So $DC=20-5=15$.
 
-**Answer.** The cable is $10$ m long, at about $36.9^\circ$.
+**Answer.** $AC=20$; $DC=15$.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Cho hình chóp tứ giác đều $S.ABCD$ có cạnh đáy bằng $a$ và cạnh bên bằng $a$. Gọi $O$ là tâm của đáy. Tính góc giữa $SA$ và $(ABCD)$.
+Giả sử để đo khoảng cách $AB$ giữa hai điểm hai bên một cái hồ, người ta chọn điểm $O$ rồi đo $OA=90$ m, $OB=120$ m. Lấy $A'\in OA$ với $OA'=30$ m, $B'\in OB$ với $OB'=40$ m và đo $A'B'=25$ m. Tính $AB$.
 
 [LỜI GIẢI CŨ – VI]
-$SO\perp(ABCD)$ nên hình chiếu của $SA$ là $OA$ và $OA=\dfrac{a\sqrt2}{2}$. Khi đó $\cos\widehat{SAO}=\dfrac{OA}{SA}=\dfrac{\sqrt2}{2}$, suy ra $\widehat{SAO}=45^\circ$.
+Ta có $\dfrac{OA'}{OA}=\dfrac{30}{90}=\dfrac13$ và $\dfrac{OB'}{OB}=\dfrac{40}{120}=\dfrac13$, và $\widehat O$ chung. Theo c.g.c, $\triangle OA'B'\sim\triangle OAB$ với tỉ số $\dfrac13$, nên $AB=3\cdot A'B'=75$ (m).
 
-**Đáp số.** $45^\circ$.
+**Đáp số.** $75$ m.
 
 [ĐỀ – EN]
-The regular square pyramid $S.ABCD$ has base edge $a$ and lateral edge $a$. Let $O$ be the centre of the base. Find the angle between $SA$ and $(ABCD)$.
+Suppose that to measure the distance $AB$ between two points on opposite sides of a lake, people choose a point $O$ and measure $OA=90$ m, $OB=120$ m. They mark $A'\in OA$ with $OA'=30$ m, $B'\in OB$ with $OB'=40$ m and measure $A'B'=25$ m. Find $AB$.
 
 [LỜI GIẢI CŨ – EN]
-$SO\perp(ABCD)$, so the projection of $SA$ is $OA$, and $OA=\dfrac{a\sqrt2}{2}$. Then $\cos\angle SAO=\dfrac{OA}{SA}=\dfrac{\sqrt2}{2}$, so $\angle SAO=45^\circ$.
+We have $\dfrac{OA'}{OA}=\dfrac{30}{90}=\dfrac13$ and $\dfrac{OB'}{OB}=\dfrac{40}{120}=\dfrac13$, and $\angle O$ is common. By SAS, $\triangle OA'B'\sim\triangle OAB$ with scale factor $\dfrac13$, so $AB=3\cdot A'B'=75$ (m).
 
-**Answer.** $45^\circ$.
+**Answer.** $75$ m.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Ôn lại định lí Pythagore. Giả sử một mặt dốc phẳng nghiêng góc $30^\circ$ so với mặt phẳng ngang. Một người đi thẳng lên dốc $12$ m dọc theo đường dốc nhất (số liệu giả định). Người đó đã lên cao bao nhiêu mét?
+Giả sử để đo chiều cao một toà nhà, người ta đặt một chiếc gương nhỏ trên mặt đất cách chân toà nhà $30$ m. Một người cao $1{,}6$ m đứng cách gương $2$ m, nhìn thấy đỉnh toà nhà qua gương. Tính chiều cao toà nhà. (Tia sáng tới và tia phản xạ tạo với mặt đất hai góc bằng nhau.)
 
 [LỜI GIẢI CŨ – VI]
-Chiều cao $=12\cdot\sin30^\circ=12\cdot\dfrac12=6$ m.
+Hai tam giác vuông (người và khoảng cách đến gương; toà nhà và khoảng cách đến gương) có một cặp góc nhọn bằng nhau (góc tới bằng góc phản xạ), nên đồng dạng (g.g). Gọi $h$ là chiều cao toà nhà. Ta có $\dfrac{h}{30}=\dfrac{1{,}6}{2}$, suy ra $h=24$ (m).
 
-**Đáp số.** $6$ m.
+**Đáp số.** $24$ m.
 
 [ĐỀ – EN]
-Revisit Pythagoras' theorem. Suppose a flat slope makes an angle of $30^\circ$ with the horizontal plane. A person walks $12$ m up the slope along the line of steepest ascent (assumed figures). How many metres has the person risen?
+Suppose that to measure the height of a building, a small mirror is placed on the ground $30$ m from the foot of the building. A person $1.6$ m tall, standing $2$ m from the mirror, sees the top of the building in the mirror. Find the height of the building. (The incoming ray and the reflected ray make equal angles with the ground.)
 
 [LỜI GIẢI CŨ – EN]
-Height $=12\cdot\sin30^\circ=12\cdot\dfrac12=6$ m.
+The two right-angled triangles (the person and the distance to the mirror; the building and the distance to the mirror) have one pair of equal acute angles (the angle of incidence equals the angle of reflection), so they are similar (AA). Let $h$ be the height of the building. We have $\dfrac{h}{30}=\dfrac{1.6}{2}$, so $h=24$ (m).
 
-**Answer.** $6$ m.
+**Answer.** $24$ m.
 
 === Bài 9 ===
 [ĐỀ – VI]
-Cho hình chóp $S.ABCD$ có đáy $ABCD$ là hình vuông cạnh $a$, $SA\perp(ABCD)$ và $SA=a\sqrt2$. Tính góc giữa $SC$ và $(SAB)$.
+Hình thang $ABCD$ có $AB\parallel CD$; hai đường chéo $AC$ và $BD$ cắt nhau tại $O$. Chứng minh $\triangle OAB\sim\triangle OCD$ và tính $CD$ khi $OA=4$, $OC=6$, $AB=8$. (Ôn lại [tam giác đồng dạng](lesson:similar-triangles).)
 
 [LỜI GIẢI CŨ – VI]
-$BC\perp AB$ và $BC\perp SA$ nên $BC\perp(SAB)$; hình chiếu của $SC$ lên $(SAB)$ là $SB$ và góc cần tìm là $\widehat{CSB}$. Có $SB=\sqrt{2a^2+a^2}=a\sqrt3$, $SC=\sqrt{SA^2+AC^2}=\sqrt{2a^2+2a^2}=2a$. Tam giác $CBS$ vuông tại $B$ nên $\sin\widehat{CSB}=\dfrac{a}{2a}=\dfrac12$, suy ra $\widehat{CSB}=30^\circ$.
+Vì $AB\parallel CD$ nên $\widehat{OAB}=\widehat{OCD}$ và $\widehat{OBA}=\widehat{ODC}$ (so le trong). Theo g.g, $\triangle OAB\sim\triangle OCD$. Do đó $\dfrac{CD}{AB}=\dfrac{OC}{OA}=\dfrac64$, suy ra $CD=8\cdot\dfrac32=12$.
 
-**Đáp số.** $30^\circ$.
+**Đáp số.** Đã chứng minh; $CD=12$.
 
 [ĐỀ – EN]
-The pyramid $S.ABCD$ has a square base $ABCD$ of side $a$, $SA\perp(ABCD)$ and $SA=a\sqrt2$. Find the angle between $SC$ and $(SAB)$.
+In trapezium $ABCD$, $AB\parallel CD$; the diagonals $AC$ and $BD$ meet at $O$. Prove that $\triangle OAB\sim\triangle OCD$ and find $CD$ when $OA=4$, $OC=6$, $AB=8$. (Revise [similar triangles](lesson:similar-triangles).)
 
 [LỜI GIẢI CŨ – EN]
-$BC\perp AB$ and $BC\perp SA$, so $BC\perp(SAB)$; the projection of $SC$ onto $(SAB)$ is $SB$ and the required angle is $\angle CSB$. We have $SB=\sqrt{2a^2+a^2}=a\sqrt3$ and $SC=\sqrt{SA^2+AC^2}=\sqrt{2a^2+2a^2}=2a$. Triangle $CBS$ is right-angled at $B$, so $\sin\angle CSB=\dfrac{a}{2a}=\dfrac12$, hence $\angle CSB=30^\circ$.
+Since $AB\parallel CD$, $\angle OAB=\angle OCD$ and $\angle OBA=\angle ODC$ (alternate angles). By AA, $\triangle OAB\sim\triangle OCD$. Hence $\dfrac{CD}{AB}=\dfrac{OC}{OA}=\dfrac64$, so $CD=8\cdot\dfrac32=12$.
 
-**Answer.** $30^\circ$.
+**Answer.** Proved; $CD=12$.
 
 
 ===== HẾT FILE Vimus2358-04-LG =====

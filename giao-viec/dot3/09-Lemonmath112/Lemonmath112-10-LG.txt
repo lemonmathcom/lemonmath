@@ -6,7 +6,7 @@ Kết quả: file Lemonmath112-10-LG-ketqua.md, lưu vào Dropbox Lemonmath.com/
 ######################################################################
 
 NÂNG CẤP LỜI GIẢI LEMONMATH – Lemonmath112-10-LG
-Người làm: tài khoản Lemonmath112. Gói này có 12 bài tập thuộc 2 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
+Người làm: tài khoản Lemonmath112. Gói này có 36 bài tập thuộc 4 bài học. Mỗi bài tập viết HAI bản: tiếng Việt (VI) và tiếng Anh (EN).
 
 ==================================================================
 1. VIỆC CẦN LÀM
@@ -146,7 +146,7 @@ Vậy các mệnh đề a), b) đúng; các mệnh đề c), d) sai.
 - Trước khi viết, dùng công cụ Python để TÍNH LẠI mọi phép tính và đối chiếu với đáp số cũ.
 - Viết xong một bài học thì dùng công cụ Python GHI NỐI TIẾP (append) phần kết quả của bài học đó vào file
       /mnt/user-data/outputs/Lemonmath112-10-LG-ketqua.md
-  rồi trả lời ngắn: "Đã xong bài học … (k/2). Gõ 'tiếp' để làm bài học tiếp theo."
+  rồi trả lời ngắn: "Đã xong bài học … (k/4). Gõ 'tiếp' để làm bài học tiếp theo."
 - Khi xong bài học cuối: kiểm tra toàn bộ file theo mục 7, rồi đưa đường dẫn tải file và liệt kê mọi dòng GHI CHÚ (nếu có).
 - Nếu bị gián đoạn, khi được nhắc "tiếp" thì đọc lại file /mnt/user-data/outputs/Lemonmath112-10-LG-ketqua.md để biết đã làm tới đâu, rồi làm tiếp bài học kế.
 
@@ -189,295 +189,781 @@ Quy tắc:
 
 
 ===== DANH SÁCH BÀI HỌC TRONG FILE NÀY =====
-- g12/vector-coordinate-operations (10 bài tập)
-- g12/vectors-in-space (2 bài tập)
+- g10/scalar-multiplication (9 bài tập)
+- g10/sets-and-set-operations (10 bài tập)
+- g10/sign-of-quadratic (10 bài tập)
+- g10/statements (7 bài tập)
 
 ===== NỘI DUNG CẦN LÀM =====
 
 ######################################################################
-@@@ g12/vector-coordinate-operations
-Bài học: Biểu thức toạ độ của các phép toán vectơ / Operations on vectors in coordinates
+@@@ g10/scalar-multiplication
+Bài học: Tích của một vectơ với một số / Multiplying a vector by a number
+Cần viết lại lời giải các bài: 1, 2, 3, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Cho $|\vec{a}| = 6$. Tìm $|2\vec{a}|$, $\left|-\dfrac{1}{2}\vec{a}\right|$ và $|0\vec{a}|$. Trong hai vectơ $2\vec{a}$ và $-\dfrac{1}{2}\vec{a}$, vectơ nào cùng hướng với $\vec{a}$?
+
+[LỜI GIẢI CŨ – VI]
+$|2\vec{a}| = 2\cdot6 = 12$, $\left|-\dfrac{1}{2}\vec{a}\right| = \dfrac{1}{2}\cdot6 = 3$, $|0\vec{a}| = |\vec{0}| = 0$. Vì $2>0$ nên $2\vec{a}$ cùng hướng $\vec{a}$; vì $-\dfrac12<0$ nên $-\dfrac{1}{2}\vec{a}$ ngược hướng.
+
+**Đáp số.** $12$; $3$; $0$; chỉ $2\vec{a}$ cùng hướng với $\vec{a}$.
+
+[ĐỀ – EN]
+Suppose $|\vec{a}| = 6$. Find $|2\vec{a}|$, $\left|-\dfrac{1}{2}\vec{a}\right|$ and $|0\vec{a}|$. Which of the two vectors $2\vec{a}$ and $-\dfrac{1}{2}\vec{a}$ has the same direction as $\vec{a}$?
+
+[LỜI GIẢI CŨ – EN]
+$|2\vec{a}| = 2\cdot6 = 12$, $\left|-\dfrac{1}{2}\vec{a}\right| = \dfrac{1}{2}\cdot6 = 3$, $|0\vec{a}| = |\vec{0}| = 0$. Since $2>0$, $2\vec{a}$ has the direction of $\vec{a}$; since $-\dfrac12<0$, $-\dfrac{1}{2}\vec{a}$ points the opposite way.
+
+**Answer.** $12$; $3$; $0$; only $2\vec{a}$ has the direction of $\vec{a}$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Rút gọn $3(\vec{a} - 2\vec{b}) - 2(\vec{a} - \vec{b})$.
+
+[LỜI GIẢI CŨ – VI]
+$$3\vec{a} - 6\vec{b} - 2\vec{a} + 2\vec{b} = (3-2)\vec{a} + (-6+2)\vec{b} = \vec{a} - 4\vec{b}.$$
+
+**Đáp số.** $\vec{a} - 4\vec{b}$.
+
+[ĐỀ – EN]
+Simplify $3(\vec{a} - 2\vec{b}) - 2(\vec{a} - \vec{b})$.
+
+[LỜI GIẢI CŨ – EN]
+$$3\vec{a} - 6\vec{b} - 2\vec{a} + 2\vec{b} = (3-2)\vec{a} + (-6+2)\vec{b} = \vec{a} - 4\vec{b}.$$
+
+**Answer.** $\vec{a} - 4\vec{b}$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Trong tam giác $ABC$, gọi $M$, $N$ lần lượt là trung điểm của $AB$, $AC$. Chứng minh $\overrightarrow{MN} = \dfrac{1}{2}\overrightarrow{BC}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\overrightarrow{MN} = \overrightarrow{AN} - \overrightarrow{AM} = \frac{1}{2}\overrightarrow{AC} - \frac{1}{2}\overrightarrow{AB} = \frac{1}{2}(\overrightarrow{AC} - \overrightarrow{AB}) = \frac{1}{2}\overrightarrow{BC}.$$
+
+**Đáp số.** $\overrightarrow{MN} = \dfrac{1}{2}\overrightarrow{BC}$ (đã chứng minh): đường trung bình song song và bằng nửa cạnh đáy.
+
+[ĐỀ – EN]
+In triangle $ABC$ let $M$, $N$ be the midpoints of $AB$, $AC$. Prove that $\overrightarrow{MN} = \dfrac{1}{2}\overrightarrow{BC}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\overrightarrow{MN} = \overrightarrow{AN} - \overrightarrow{AM} = \frac{1}{2}\overrightarrow{AC} - \frac{1}{2}\overrightarrow{AB} = \frac{1}{2}(\overrightarrow{AC} - \overrightarrow{AB}) = \frac{1}{2}\overrightarrow{BC}.$$
+
+**Answer.** $\overrightarrow{MN} = \dfrac{1}{2}\overrightarrow{BC}$ (proved): the midsegment is parallel to the third side and half as long.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Trên một đoạn đường thẳng chạy theo hướng đông – tây, một ô tô chạy $40$ km/h về hướng đông; gọi vận tốc của nó là $\vec{v}$. Một xe tải chạy $60$ km/h về hướng tây, một xe đạp chạy $15$ km/h về hướng đông. Biểu diễn vận tốc của xe tải và của xe đạp theo $\vec{v}$.
+
+[LỜI GIẢI CŨ – VI]
+Xe tải: $\dfrac{60}{40}=\dfrac32$ và ngược hướng, nên vận tốc là $-\dfrac32\vec{v}$. Xe đạp: $\dfrac{15}{40}=\dfrac38$ và cùng hướng, nên vận tốc là $\dfrac38\vec{v}$.
+
+**Đáp số.** Xe tải $-\dfrac{3}{2}\vec{v}$; xe đạp $\dfrac{3}{8}\vec{v}$.
+
+[ĐỀ – EN]
+On a straight east–west road, a car drives at $40$ km/h towards the east; call its velocity $\vec{v}$. A lorry drives at $60$ km/h towards the west and a bicycle at $15$ km/h towards the east. Express the velocities of the lorry and the bicycle in terms of $\vec{v}$.
+
+[LỜI GIẢI CŨ – EN]
+Lorry: $\dfrac{60}{40}=\dfrac32$, opposite direction, so its velocity is $-\dfrac32\vec{v}$. Bicycle: $\dfrac{15}{40}=\dfrac38$, same direction, so its velocity is $\dfrac38\vec{v}$.
+
+**Answer.** Lorry $-\dfrac{3}{2}\vec{v}$; bicycle $\dfrac{3}{8}\vec{v}$.
+
+=== Bài 6 ===
+[ĐỀ – VI]
+Cho tam giác $ABC$ có trọng tâm $G$ và $M$ là trung điểm của $BC$. Mỗi khẳng định sau đúng hay sai?
+
+a) $\overrightarrow{AG} = \dfrac{2}{3}\overrightarrow{AM}$.
+b) $\overrightarrow{GA} = 2\overrightarrow{GM}$.
+c) $\overrightarrow{GB} + \overrightarrow{GC} = 2\overrightarrow{GM}$.
+d) $\overrightarrow{AB} + \overrightarrow{AC} = 3\overrightarrow{AG}$.
+
+[LỜI GIẢI CŨ – VI]
+a) **Đúng.** $\overrightarrow{AG}$ và $\overrightarrow{AM}$ cùng hướng và $AG=\dfrac23AM$.
+
+b) **Sai.** $GA=2GM$ nhưng $\overrightarrow{GA}$ và $\overrightarrow{GM}$ ngược hướng ($G$ nằm giữa $A$ và $M$), nên $\overrightarrow{GA} = -2\overrightarrow{GM}$.
+
+c) **Đúng.** Công thức trung điểm với $O=G$.
+
+d) **Đúng.** Với $O=A$: $\overrightarrow{AB} + \overrightarrow{AC} = 2\overrightarrow{AM} = 2\cdot\dfrac{3}{2}\overrightarrow{AG} = 3\overrightarrow{AG}$.
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Đúng.
+
+[ĐỀ – EN]
+Triangle $ABC$ has centroid $G$, and $M$ is the midpoint of $BC$. Is each claim true or false?
+
+a) $\overrightarrow{AG} = \dfrac{2}{3}\overrightarrow{AM}$.
+b) $\overrightarrow{GA} = 2\overrightarrow{GM}$.
+c) $\overrightarrow{GB} + \overrightarrow{GC} = 2\overrightarrow{GM}$.
+d) $\overrightarrow{AB} + \overrightarrow{AC} = 3\overrightarrow{AG}$.
+
+[LỜI GIẢI CŨ – EN]
+a) **True.** $\overrightarrow{AG}$ and $\overrightarrow{AM}$ have the same direction and $AG=\dfrac23AM$.
+
+b) **False.** $GA=2GM$, but $\overrightarrow{GA}$ and $\overrightarrow{GM}$ point opposite ways ($G$ lies between $A$ and $M$), so $\overrightarrow{GA} = -2\overrightarrow{GM}$.
+
+c) **True.** The midpoint formula with $O=G$.
+
+d) **True.** With $O=A$: $\overrightarrow{AB} + \overrightarrow{AC} = 2\overrightarrow{AM} = 2\cdot\dfrac{3}{2}\overrightarrow{AG} = 3\overrightarrow{AG}$.
+
+**Answer.** a) True; b) False; c) True; d) True.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Trong tam giác $ABC$, điểm $D$ nằm trên cạnh $BC$ với $BD = \dfrac{1}{4}BC$. Biểu diễn $\overrightarrow{AD}$ theo $\overrightarrow{AB}$ và $\overrightarrow{AC}$.
+
+[LỜI GIẢI CŨ – VI]
+$$\overrightarrow{AD} = \overrightarrow{AB} + \frac{1}{4}(\overrightarrow{AC} - \overrightarrow{AB}) = \frac{3}{4}\overrightarrow{AB} + \frac{1}{4}\overrightarrow{AC}.$$
+
+**Đáp số.** $\overrightarrow{AD} = \dfrac{3}{4}\overrightarrow{AB} + \dfrac{1}{4}\overrightarrow{AC}$.
+
+[ĐỀ – EN]
+In triangle $ABC$ the point $D$ lies on side $BC$ with $BD = \dfrac{1}{4}BC$. Express $\overrightarrow{AD}$ in terms of $\overrightarrow{AB}$ and $\overrightarrow{AC}$.
+
+[LỜI GIẢI CŨ – EN]
+$$\overrightarrow{AD} = \overrightarrow{AB} + \frac{1}{4}(\overrightarrow{AC} - \overrightarrow{AB}) = \frac{3}{4}\overrightarrow{AB} + \frac{1}{4}\overrightarrow{AC}.$$
+
+**Answer.** $\overrightarrow{AD} = \dfrac{3}{4}\overrightarrow{AB} + \dfrac{1}{4}\overrightarrow{AC}$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+(Ôn lại định lí côsin.) Tam giác $ABC$ có $AB=3$, $AC=5$, $\widehat{BAC}=60^\circ$, và $M$ là trung điểm của $BC$. Tính độ dài trung tuyến $AM$.
+
+[LỜI GIẢI CŨ – VI]
+Dựng hình bình hành $ABDC$. Khi đó $\overrightarrow{AB}+\overrightarrow{AC}=\overrightarrow{AD}=2\overrightarrow{AM}$, và trong tam giác $ABD$ có $AB=3$, $BD=5$, $\widehat{ABD}=120^\circ$:
+$$AD^2=3^2+5^2-2\cdot3\cdot5\cos120^\circ=9+25+15=49,$$
+nên $AD=7$ và $AM=\dfrac72=3{,}5$.
+
+**Đáp số.** $3{,}5$.
+
+[ĐỀ – EN]
+(Revisiting the cosine rule.) Triangle $ABC$ has $AB=3$, $AC=5$, $\angle BAC=60^\circ$, and $M$ is the midpoint of $BC$. Find the length of the median $AM$.
+
+[LỜI GIẢI CŨ – EN]
+Complete the parallelogram $ABDC$. Then $\overrightarrow{AB}+\overrightarrow{AC}=\overrightarrow{AD}=2\overrightarrow{AM}$, and in triangle $ABD$ we have $AB=3$, $BD=5$, $\angle ABD=120^\circ$:
+$$AD^2=3^2+5^2-2\cdot3\cdot5\cos120^\circ=9+25+15=49,$$
+so $AD=7$ and $AM=\dfrac72=3.5$.
+
+**Answer.** $3.5$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Trong tam giác $ABC$, $D$ là điểm trên $BC$ sao cho $\overrightarrow{BD} = 2\overrightarrow{DC}$, $E$ là trung điểm của $AD$, và $F$ là điểm trên $AC$ sao cho $\overrightarrow{AF} = \dfrac{2}{5}\overrightarrow{AC}$. Chứng minh $B$, $E$, $F$ thẳng hàng.
+
+[LỜI GIẢI CŨ – VI]
+$\overrightarrow{AD} = \vec{b} + \dfrac{2}{3}(\vec{c} - \vec{b}) = \dfrac{1}{3}\vec{b} + \dfrac{2}{3}\vec{c}$, nên $\overrightarrow{AE} = \dfrac{1}{6}\vec{b} + \dfrac{1}{3}\vec{c}$. Khi đó:
+$$\overrightarrow{BE} = \overrightarrow{AE} - \vec{b} = -\frac{5}{6}\vec{b} + \frac{1}{3}\vec{c},\qquad \overrightarrow{BF} = \overrightarrow{AF} - \vec{b} = -\vec{b} + \frac{2}{5}\vec{c} = \frac{6}{5}\overrightarrow{BE}.$$
+
+**Đáp số.** $\overrightarrow{BF} = \dfrac{6}{5}\overrightarrow{BE}$, nên $B$, $E$, $F$ thẳng hàng.
+
+[ĐỀ – EN]
+In triangle $ABC$, $D$ is the point of $BC$ with $\overrightarrow{BD} = 2\overrightarrow{DC}$, $E$ is the midpoint of $AD$, and $F$ is the point of $AC$ with $\overrightarrow{AF} = \dfrac{2}{5}\overrightarrow{AC}$. Prove that $B$, $E$, $F$ are collinear.
+
+[LỜI GIẢI CŨ – EN]
+$\overrightarrow{AD} = \vec{b} + \dfrac{2}{3}(\vec{c} - \vec{b}) = \dfrac{1}{3}\vec{b} + \dfrac{2}{3}\vec{c}$, so $\overrightarrow{AE} = \dfrac{1}{6}\vec{b} + \dfrac{1}{3}\vec{c}$. Then:
+$$\overrightarrow{BE} = \overrightarrow{AE} - \vec{b} = -\frac{5}{6}\vec{b} + \frac{1}{3}\vec{c},\qquad \overrightarrow{BF} = \overrightarrow{AF} - \vec{b} = -\vec{b} + \frac{2}{5}\vec{c} = \frac{6}{5}\overrightarrow{BE}.$$
+
+**Answer.** $\overrightarrow{BF} = \dfrac{6}{5}\overrightarrow{BE}$, so $B$, $E$, $F$ are collinear.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Cho $\vec{a}$, $\vec{b}$ không cùng phương, $\vec{u} = \vec{a} + 2\vec{b}$, $\vec{v} = \vec{a} - \vec{b}$ và $\vec{w} = 5\vec{a} + \vec{b}$. Tìm các số $x$, $y$ để $\vec{w} = x\vec{u} + y\vec{v}$.
+
+[LỜI GIẢI CŨ – VI]
+$x\vec{u} + y\vec{v} = (x + y)\vec{a} + (2x - y)\vec{b}$. So sánh hệ số:
+$$\begin{cases} x + y = 5\\ 2x - y = 1\end{cases}\iff\begin{cases} x = 2\\ y = 3.\end{cases}$$
+**Kiểm tra.** $2(\vec{a} + 2\vec{b}) + 3(\vec{a} - \vec{b}) = 5\vec{a} + \vec{b}$.
+
+**Đáp số.** $x=2$, $y=3$.
+
+[ĐỀ – EN]
+Let $\vec{a}$, $\vec{b}$ be non-collinear, $\vec{u} = \vec{a} + 2\vec{b}$, $\vec{v} = \vec{a} - \vec{b}$ and $\vec{w} = 5\vec{a} + \vec{b}$. Find numbers $x$, $y$ with $\vec{w} = x\vec{u} + y\vec{v}$.
+
+[LỜI GIẢI CŨ – EN]
+$x\vec{u} + y\vec{v} = (x + y)\vec{a} + (2x - y)\vec{b}$. Comparing coefficients:
+$$\begin{cases} x + y = 5\\ 2x - y = 1\end{cases}\iff\begin{cases} x = 2\\ y = 3.\end{cases}$$
+**Check.** $2(\vec{a} + 2\vec{b}) + 3(\vec{a} - \vec{b}) = 5\vec{a} + \vec{b}$.
+
+**Answer.** $x=2$, $y=3$.
+
+
+######################################################################
+@@@ g10/sets-and-set-operations
+Bài học: Tập hợp và các phép toán trên tập hợp / Sets and set operations
 Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
 
 === Bài 1 ===
 [ĐỀ – VI]
-Cho $\vec{u}=(2; -1; 3)$ và $\vec{v}=(-1; 4; 0)$. Tìm $\vec{u}+\vec{v}$, $3\vec{u}-2\vec{v}$ và $\vec{u}\cdot\vec{v}$.
+Liệt kê các phần tử của mỗi tập hợp.
+
+(a) $\{x\in\mathbb{N}^*\mid x\le 4\}$. (b) $\{x\in\mathbb{Z}\mid -3<x\le 1\}$. (c) $\{x\in\mathbb{R}\mid x^2-4x=0\}$.
 
 [LỜI GIẢI CŨ – VI]
-$\vec{u}+\vec{v}=(1; 3; 3)$. $3\vec{u}=(6; -3; 9)$, $2\vec{v}=(-2; 8; 0)$, nên $3\vec{u}-2\vec{v}=(8; -11; 9)$. $\vec{u}\cdot\vec{v}=-2-4+0=-6$.
+(a) $\{1; 2; 3; 4\}$. (b) Số nguyên lớn hơn $-3$ và không vượt quá $1$: $\{-2; -1; 0; 1\}$. (c) $x^2-4x=x(x-4)=0$ cho $x=0$ hoặc $x=4$.
 
-**Đáp số.** $(1; 3; 3)$; $(8; -11; 9)$; $-6$.
+**Đáp số.** (a) $\{1; 2; 3; 4\}$; (b) $\{-2; -1; 0; 1\}$; (c) $\{0; 4\}$.
 
 [ĐỀ – EN]
-Let $\vec{u}=(2, -1, 3)$ and $\vec{v}=(-1, 4, 0)$. Find $\vec{u}+\vec{v}$, $3\vec{u}-2\vec{v}$ and $\vec{u}\cdot\vec{v}$.
+List the elements of each set.
+
+(a) $\{x\in\mathbb{N}^*\mid x\le 4\}$. (b) $\{x\in\mathbb{Z}\mid -3<x\le 1\}$. (c) $\{x\in\mathbb{R}\mid x^2-4x=0\}$.
 
 [LỜI GIẢI CŨ – EN]
-$\vec{u}+\vec{v}=(1, 3, 3)$. $3\vec{u}=(6, -3, 9)$, $2\vec{v}=(-2, 8, 0)$, so $3\vec{u}-2\vec{v}=(8, -11, 9)$. $\vec{u}\cdot\vec{v}=-2-4+0=-6$.
+(a) $\{1, 2, 3, 4\}$. (b) Integers greater than $-3$ and at most $1$: $\{-2, -1, 0, 1\}$. (c) $x^2-4x=x(x-4)=0$ gives $x=0$ or $x=4$.
 
-**Answer.** $(1, 3, 3)$; $(8, -11, 9)$; $-6$.
+**Answer.** (a) $\{1, 2, 3, 4\}$; (b) $\{-2, -1, 0, 1\}$; (c) $\{0, 4\}$.
 
 === Bài 2 ===
 [ĐỀ – VI]
-Cho $\vec{a}=(2; -3; 6)$. Tính $|\vec{a}|$ và tìm vectơ $\vec{e}$ cùng hướng với $\vec{a}$ có độ dài bằng $1$.
+Viết mỗi tập sau bằng cách nêu tính chất đặc trưng.
+
+(a) $\{4; 8; 12; 16; 20\}$. (b) $\{1; 4; 9; 16; 25\}$.
 
 [LỜI GIẢI CŨ – VI]
-$|\vec{a}|=\sqrt{4+9+36}=7$, nên $\vec{e}=\dfrac17\vec{a}=\left(\dfrac27; -\dfrac37; \dfrac67\right)$.
+(a) Đây là các bội dương của $4$ không vượt quá $20$. (b) Đây là bình phương của $1, 2, 3, 4, 5$.
 
-**Đáp số.** $|\vec{a}|=7$; $\vec{e}=\left(\dfrac27; -\dfrac37; \dfrac67\right)$.
+**Đáp số.** (a) $\{x\in\mathbb{N}^*\mid x \text{ chia hết cho } 4,\ x\le 20\}$; (b) $\{n^2\mid n\in\mathbb{N}^*,\ n\le 5\}$.
 
 [ĐỀ – EN]
-Let $\vec{a}=(2, -3, 6)$. Find $|\vec{a}|$ and the vector $\vec{e}$ with the same direction as $\vec{a}$ and length $1$.
+Describe each set by stating a property.
+
+(a) $\{4, 8, 12, 16, 20\}$. (b) $\{1, 4, 9, 16, 25\}$.
 
 [LỜI GIẢI CŨ – EN]
-$|\vec{a}|=\sqrt{4+9+36}=7$, so $\vec{e}=\dfrac17\vec{a}=\left(\dfrac27, -\dfrac37, \dfrac67\right)$.
+(a) These are the positive multiples of $4$ up to $20$. (b) These are the squares of $1, 2, 3, 4, 5$.
 
-**Answer.** $|\vec{a}|=7$; $\vec{e}=\left(\dfrac27, -\dfrac37, \dfrac67\right)$.
+**Answer.** (a) $\{x\in\mathbb{N}^*\mid x \text{ is divisible by } 4,\ x\le 20\}$; (b) $\{n^2\mid n\in\mathbb{N}^*,\ n\le 5\}$.
 
 === Bài 3 ===
 [ĐỀ – VI]
-Tính góc giữa hai vectơ $\vec{a}=(1; 1; 0)$ và $\vec{b}=(0; 1; 1)$.
+Cho $A=\{2; 3; 5; 7\}$. Tập $A$ có bao nhiêu tập con? Có bao nhiêu tập con của $A$ chứa phần tử $2$?
 
 [LỜI GIẢI CŨ – VI]
-$$\vec{a}\cdot\vec{b}=0+1+0=1,\qquad |\vec{a}|=|\vec{b}|=\sqrt2,\qquad \cos(\vec{a}, \vec{b})=\frac{1}{2}.$$
+Mỗi phần tử trong bốn phần tử có $2$ lựa chọn, nên số tập con là $2\cdot2\cdot2\cdot2=16$ (kể cả $\varnothing$ và $A$). Nếu bắt buộc lấy $2$, ba phần tử $3, 5, 7$ còn lại cho $2\cdot2\cdot2=8$ cách.
 
-**Đáp số.** $60^\circ$.
+**Đáp số.** $16$ tập con; $8$ tập con chứa $2$.
 
 [ĐỀ – EN]
-Find the angle between the vectors $\vec{a}=(1, 1, 0)$ and $\vec{b}=(0, 1, 1)$.
+Let $A=\{2, 3, 5, 7\}$. How many subsets does $A$ have? How many subsets of $A$ contain the element $2$?
 
 [LỜI GIẢI CŨ – EN]
-$$\vec{a}\cdot\vec{b}=0+1+0=1,\qquad |\vec{a}|=|\vec{b}|=\sqrt2,\qquad \cos(\vec{a}, \vec{b})=\frac{1}{2}.$$
+Each of the four elements has $2$ choices, so the number of subsets is $2\cdot2\cdot2\cdot2=16$ (including $\varnothing$ and $A$). If $2$ must be in, the other three elements $3, 5, 7$ give $2\cdot2\cdot2=8$ choices.
 
-**Answer.** $60^\circ$.
+**Answer.** $16$ subsets; $8$ subsets contain $2$.
 
 === Bài 4 ===
 [ĐỀ – VI]
-Trong ba vectơ $\vec{u}=(1; 2; -1)$, $\vec{v}=(3; -1; 1)$, $\vec{w}=(1; 1; 3)$, những cặp nào vuông góc với nhau?
+Cho $A=[-4; 1]$ và $B=(-1; 3)$. Tìm $A\cap B$, $A\cup B$, $A\setminus B$ và $B\setminus A$.
 
 [LỜI GIẢI CŨ – VI]
-$\vec{u}\cdot\vec{v}=3-2-1=0$, $\vec{u}\cdot\vec{w}=1+2-3=0$, $\vec{v}\cdot\vec{w}=3-1+3=5$.
+Phần chung là $-1<x\le 1$; gộp lại là $-4\le x<3$. Bỏ khỏi $A$ phần $x>-1$: còn $[-4; -1]$ vì $-1\notin B$. Bỏ khỏi $B$ phần $x\le 1$: còn $(1; 3)$ vì $1\in A$.
 
-**Đáp số.** $\vec{u}\perp\vec{v}$ và $\vec{u}\perp\vec{w}$; $\vec{v}$ và $\vec{w}$ không vuông góc.
+**Đáp số.** $A\cap B=(-1; 1]$, $A\cup B=[-4; 3)$, $A\setminus B=[-4; -1]$, $B\setminus A=(1; 3)$.
 
 [ĐỀ – EN]
-Among the three vectors $\vec{u}=(1, 2, -1)$, $\vec{v}=(3, -1, 1)$, $\vec{w}=(1, 1, 3)$, which pairs are perpendicular?
+Let $A=[-4, 1]$ and $B=(-1, 3)$. Find $A\cap B$, $A\cup B$, $A\setminus B$ and $B\setminus A$.
 
 [LỜI GIẢI CŨ – EN]
-$\vec{u}\cdot\vec{v}=3-2-1=0$, $\vec{u}\cdot\vec{w}=1+2-3=0$, $\vec{v}\cdot\vec{w}=3-1+3=5$.
+The common part is $-1<x\le 1$; together they cover $-4\le x<3$. Removing the part $x>-1$ from $A$ leaves $[-4, -1]$, since $-1\notin B$. Removing the part $x\le 1$ from $B$ leaves $(1, 3)$, since $1\in A$.
 
-**Answer.** $\vec{u}\perp\vec{v}$ and $\vec{u}\perp\vec{w}$; $\vec{v}$ and $\vec{w}$ are not perpendicular.
+**Answer.** $A\cap B=(-1, 1]$, $A\cup B=[-4, 3)$, $A\setminus B=[-4, -1]$, $B\setminus A=(1, 3)$.
 
 === Bài 5 ===
 [ĐỀ – VI]
-Tìm $x$, $y$ để hai vectơ $\vec{a}=(1; x; 3)$ và $\vec{b}=(-2; 4; y)$ cùng phương.
+Tìm phần bù trong $\mathbb{R}$ của tập $A=(-\infty; -2]\cup(3; +\infty)$.
 
 [LỜI GIẢI CŨ – VI]
-$k=-2$. Khi đó $4=-2x$ nên $x=-2$, và $y=-2\cdot3=-6$.
+Phần còn trống nằm giữa $-2$ và $3$. Điểm $-2\in A$ nên không lấy; điểm $3\notin A$ nên được lấy.
 
-**Đáp số.** $x=-2$, $y=-6$.
+**Đáp số.** $C_{\mathbb{R}}A=(-2; 3]$.
 
 [ĐỀ – EN]
-Find $x$, $y$ such that the vectors $\vec{a}=(1, x, 3)$ and $\vec{b}=(-2, 4, y)$ are collinear.
+Find the complement in $\mathbb{R}$ of $A=(-\infty, -2]\cup(3, +\infty)$.
 
 [LỜI GIẢI CŨ – EN]
-$k=-2$. Then $4=-2x$, so $x=-2$, and $y=-2\cdot3=-6$.
+The empty part lies between $-2$ and $3$. The point $-2\in A$, so it is left out; the point $3\notin A$, so it is included.
 
-**Answer.** $x=-2$, $y=-6$.
+**Answer.** $C_{\mathbb{R}}A=(-2, 3]$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Cho $A(3; 2; -1)$, $B(1; 1; 1)$, $C(2; 3; 3)$. Chứng minh tam giác $ABC$ vuông tại $B$ và tính diện tích của nó.
+Cho $A=[-1; 4)$ và $B=\{x\in\mathbb{Z}\mid -2\le x\le 2\}$. Mỗi khẳng định sau đúng hay sai?
+
+a) $A\cap B=\{-1; 0; 1; 2\}$.
+b) $A\cup B=[-2; 4)$.
+c) $B\setminus A=\{-2\}$.
+d) $A$ chứa đúng $4$ số nguyên.
 
 [LỜI GIẢI CŨ – VI]
-$$\overrightarrow{BA}=(2; 1; -2),\quad \overrightarrow{BC}=(1; 2; 2),\quad \overrightarrow{BA}\cdot\overrightarrow{BC}=2+2-4=0.$$
-$BA=BC=3$, nên $S=\dfrac12\cdot3\cdot3=4{,}5$.
+$B=\{-2; -1; 0; 1; 2\}$.
 
-**Đáp số.** Tam giác vuông (và cân) tại $B$; $S=4{,}5$.
+a) **Đúng.** Trong $B$, chỉ $-2$ không thuộc $A$.
+
+b) **Sai.** $-1{,}5\in[-2; 4)$ nhưng $-1{,}5\notin A$ và $-1{,}5\notin B$. Thực ra $A\cup B=\{-2\}\cup[-1; 4)$.
+
+c) **Đúng.** $-2$ là phần tử duy nhất của $B$ không thuộc $A$.
+
+d) **Sai.** $A$ chứa $5$ số nguyên: $-1, 0, 1, 2, 3$ ($4\notin A$).
+
+**Đáp số.** a) Đúng; b) Sai; c) Đúng; d) Sai.
 
 [ĐỀ – EN]
-Let $A(3, 2, -1)$, $B(1, 1, 1)$, $C(2, 3, 3)$. Prove that triangle $ABC$ has a right angle at $B$ and find its area.
+Let $A=[-1, 4)$ and $B=\{x\in\mathbb{Z}\mid -2\le x\le 2\}$. Is each claim true or false?
+
+a) $A\cap B=\{-1, 0, 1, 2\}$.
+b) $A\cup B=[-2, 4)$.
+c) $B\setminus A=\{-2\}$.
+d) $A$ contains exactly $4$ integers.
 
 [LỜI GIẢI CŨ – EN]
-$$\overrightarrow{BA}=(2, 1, -2),\quad \overrightarrow{BC}=(1, 2, 2),\quad \overrightarrow{BA}\cdot\overrightarrow{BC}=2+2-4=0.$$
-$BA=BC=3$, so $S=\dfrac12\cdot3\cdot3=4.5$.
+$B=\{-2, -1, 0, 1, 2\}$.
 
-**Answer.** The triangle is right-angled (and isosceles) at $B$; $S=4.5$.
+a) **True.** In $B$, only $-2$ is not in $A$.
+
+b) **False.** $-1.5\in[-2, 4)$ but $-1.5\notin A$ and $-1.5\notin B$. In fact $A\cup B=\{-2\}\cup[-1, 4)$.
+
+c) **True.** $-2$ is the only element of $B$ outside $A$.
+
+d) **False.** $A$ contains $5$ integers: $-1, 0, 1, 2, 3$ ($4\notin A$).
+
+**Answer.** a) True; b) False; c) True; d) False.
 
 === Bài 7 ===
 [ĐỀ – VI]
-Cho $\vec{a}=(1; -2; 2)$ và $\vec{b}=(2; 2; 1)$. Mỗi khẳng định sau đúng hay sai?
-
-a) $|\vec{a}|=3$.
-
-b) $\vec{a}\perp\vec{b}$.
-
-c) $\vec{a}-\vec{b}=(-1; -4; 3)$.
-
-d) $|\vec{a}+\vec{b}|=6$.
+Khảo sát $50$ học sinh: $32$ bạn thích bóng đá, $25$ bạn thích bơi và $9$ bạn không thích môn nào trong hai môn. Có bao nhiêu bạn thích cả hai môn?
 
 [LỜI GIẢI CŨ – VI]
-a) **Đúng.** $|\vec{a}|=\sqrt{1+4+4}=3$.
+Số bạn thích ít nhất một môn: $50-9=41$. Khi đó $41=32+25-n(A\cap B)$, nên $n(A\cap B)=57-41=16$.
 
-b) **Đúng.** $\vec{a}\cdot\vec{b}=2-4+2=0$.
-
-c) **Sai.** $\vec{a}-\vec{b}=(1-2;\ -2-2;\ 2-1)=(-1; -4; 1)$.
-
-d) **Sai.** $\vec{a}+\vec{b}=(3; 0; 3)$, nên $|\vec{a}+\vec{b}|=\sqrt{18}=3\sqrt2\approx4{,}24$.
-
-**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Sai.
+**Đáp số.** $16$.
 
 [ĐỀ – EN]
-Let $\vec{a}=(1, -2, 2)$ and $\vec{b}=(2, 2, 1)$. Is each claim true or false?
-
-a) $|\vec{a}|=3$.
-
-b) $\vec{a}\perp\vec{b}$.
-
-c) $\vec{a}-\vec{b}=(-1, -4, 3)$.
-
-d) $|\vec{a}+\vec{b}|=6$.
+In a survey of $50$ students, $32$ like football, $25$ like swimming and $9$ like neither. How many like both?
 
 [LỜI GIẢI CŨ – EN]
-a) **True.** $|\vec{a}|=\sqrt{1+4+4}=3$.
+At least one: $50-9=41$. Then $41=32+25-n(A\cap B)$, so $n(A\cap B)=57-41=16$.
 
-b) **True.** $\vec{a}\cdot\vec{b}=2-4+2=0$.
-
-c) **False.** $\vec{a}-\vec{b}=(1-2,\ -2-2,\ 2-1)=(-1, -4, 1)$.
-
-d) **False.** $\vec{a}+\vec{b}=(3, 0, 3)$, so $|\vec{a}+\vec{b}|=\sqrt{18}=3\sqrt2\approx4.24$.
-
-**Answer.** a) True; b) True; c) False; d) False.
+**Answer.** $16$.
 
 === Bài 8 ===
 [ĐỀ – VI]
-Một người kéo một chiếc xe trượt bằng lực $\vec{F}=(10; 5; -2)$ (đơn vị: N). Xe dịch chuyển theo vectơ $\vec{d}=(3; 4; 0)$ (đơn vị: m). Tính góc giữa lực kéo và hướng dịch chuyển (đơn vị: độ, làm tròn đến hàng đơn vị).
+Một công ty du lịch hỏi $120$ khách: $70$ người đã đến Hạ Long, $55$ người đã đến Sa Pa và $30$ người đã đến cả hai nơi. Có bao nhiêu khách đã đến đúng một trong hai nơi? Bao nhiêu khách chưa đến nơi nào?
 
 [LỜI GIẢI CŨ – VI]
-$$\vec{F}\cdot\vec{d}=30+20+0=50,\qquad |\vec{F}|=\sqrt{100+25+4}=\sqrt{129},\qquad |\vec{d}|=5.$$
-$$\cos(\vec{F}, \vec{d})=\frac{50}{5\sqrt{129}}=\frac{10}{\sqrt{129}}\approx0{,}880,\qquad (\vec{F}, \vec{d})\approx28{,}3^\circ.$$
-(Công của lực là $50$ J.)
+Ít nhất một nơi: $70+55-30=95$. Đúng một nơi: $95-30=65$ (gồm $40$ người chỉ đến Hạ Long và $25$ người chỉ đến Sa Pa). Chưa đến nơi nào: $120-95=25$.
 
-**Đáp số.** $28$.
+**Đáp số.** $65$ khách đến đúng một nơi; $25$ khách chưa đến nơi nào.
 
 [ĐỀ – EN]
-A person pulls a sledge with the force $\vec{F}=(10, 5, -2)$ (unit: N). The sledge moves along the displacement $\vec{d}=(3, 4, 0)$ (unit: m). Find the angle between the pulling force and the direction of motion (in degrees, rounded to the nearest whole number).
+A travel company asks $120$ customers: $70$ have been to Ha Long, $55$ have been to Sa Pa and $30$ have been to both. How many have been to exactly one of the two places? How many have been to neither?
 
 [LỜI GIẢI CŨ – EN]
-$$\vec{F}\cdot\vec{d}=30+20+0=50,\qquad |\vec{F}|=\sqrt{100+25+4}=\sqrt{129},\qquad |\vec{d}|=5.$$
-$$\cos(\vec{F}, \vec{d})=\frac{50}{5\sqrt{129}}=\frac{10}{\sqrt{129}}\approx0.880,\qquad (\vec{F}, \vec{d})\approx28.3^\circ.$$
-(The work done by the force is $50$ J.)
+At least one place: $70+55-30=95$. Exactly one: $95-30=65$ ($40$ only Ha Long and $25$ only Sa Pa). Neither: $120-95=25$.
 
-**Answer.** $28$.
+**Answer.** $65$ customers have been to exactly one place; $25$ to neither.
 
 === Bài 9 ===
 [ĐỀ – VI]
-(Ôn lại [Vectơ và các phép toán trong không gian](lesson:vectors-in-space).) Ở bài trước, bằng cách phân tích vectơ, ta tính được góc giữa $\overrightarrow{AC}$ và $\overrightarrow{A'D}$ trong hình lập phương $ABCD.A'B'C'D'$ bằng $60^\circ$. Hãy tính lại bằng toạ độ, với hình lập phương cạnh $1$, $A$ ở gốc, $B(1; 0; 0)$, $D(0; 1; 0)$, $A'(0; 0; 1)$.
+(Ôn tập bài [Mệnh đề](lesson:statements)) Cho $A=\{x\in\mathbb{R}\mid x^2\le 4\}$ và $B=(-3; 3)$.
+
+(a) Viết $A$ dưới dạng đoạn. (b) Mệnh đề "$\forall x\in A,\ x\in B$" đúng hay sai? Lập mệnh đề phủ định của nó. (c) Mệnh đề "$\forall x\in B,\ x\in A$" đúng hay sai?
 
 [LỜI GIẢI CŨ – VI]
-$$\overrightarrow{AC}=(1; 1; 0),\qquad \overrightarrow{A'D}=(0; 1; -1),\qquad \cos=\frac{0+1+0}{\sqrt2\cdot\sqrt2}=\frac12.$$
+(a) $x^2\le 4\iff -2\le x\le 2$, nên $A=[-2; 2]$.
 
-**Đáp số.** $60^\circ$, trùng với kết quả của bài trước.
+(b) Mọi $x\in[-2; 2]$ đều thoả $-3<x<3$, nên mệnh đề đúng ($A\subset B$). Phủ định: "$\exists x\in A,\ x\notin B$".
+
+(c) Sai: $x=2{,}5\in B$ nhưng $2{,}5^2=6{,}25>4$ nên $2{,}5\notin A$.
+
+**Đáp số.** (a) $A=[-2; 2]$; (b) đúng; (c) sai.
 
 [ĐỀ – EN]
-(Revisiting [Vectors and their operations in space](lesson:vectors-in-space).) In the previous lesson, by decomposing vectors, we found that the angle between $\overrightarrow{AC}$ and $\overrightarrow{A'D}$ in the cube $ABCD.A'B'C'D'$ is $60^\circ$. Find it again with coordinates, for the cube with edge $1$, $A$ at the origin, $B(1, 0, 0)$, $D(0, 1, 0)$, $A'(0, 0, 1)$.
+(Review of [Statements](lesson:statements)) Let $A=\{x\in\mathbb{R}\mid x^2\le 4\}$ and $B=(-3, 3)$.
+
+(a) Write $A$ as a closed interval. (b) Is "$\forall x\in A,\ x\in B$" true or false? Write its negation. (c) Is "$\forall x\in B,\ x\in A$" true or false?
 
 [LỜI GIẢI CŨ – EN]
-$$\overrightarrow{AC}=(1, 1, 0),\qquad \overrightarrow{A'D}=(0, 1, -1),\qquad \cos=\frac{0+1+0}{\sqrt2\cdot\sqrt2}=\frac12.$$
+(a) $x^2\le 4\iff -2\le x\le 2$, so $A=[-2, 2]$.
 
-**Answer.** $60^\circ$, the same as in the previous lesson.
+(b) Every $x\in[-2, 2]$ satisfies $-3<x<3$, so the statement is true ($A\subset B$). Negation: "$\exists x\in A,\ x\notin B$".
+
+(c) False: $x=2.5\in B$ but $2.5^2=6.25>4$, so $2.5\notin A$.
+
+**Answer.** (a) $A=[-2, 2]$; (b) true; (c) false.
 
 === Bài 10 ===
 [ĐỀ – VI]
-Cho $A(2; 1; 1)$ và $B(4; -1; 1)$. Tìm các điểm $M$ trên trục $Ox$ sao cho tam giác $MAB$ vuông tại $M$.
+Có bao nhiêu tập hợp $X$ thoả mãn $\{1; 2\}\subset X\subset\{1; 2; 3; 4; 5\}$?
 
 [LỜI GIẢI CŨ – VI]
-$\overrightarrow{MA}=(2-t; 1; 1)$, $\overrightarrow{MB}=(4-t; -1; 1)$.
-$$(2-t)(4-t)-1+1=0\iff(2-t)(4-t)=0\iff t=2\ \text{hoặc}\ t=4.$$
-**Kiểm tra.** Với $M(2; 0; 0)$: $(0; 1; 1)\cdot(2; -1; 1)=0$. Với $M(4; 0; 0)$: $(-2; 1; 1)\cdot(0; -1; 1)=0$.
+$X$ luôn chứa $1$ và $2$; mỗi phần tử $3$, $4$, $5$ có thể lấy hoặc không. Số cách là $2\cdot2\cdot2=8$, từ $X=\{1; 2\}$ đến $X=\{1; 2; 3; 4; 5\}$.
 
-**Đáp số.** $M(2; 0; 0)$ hoặc $M(4; 0; 0)$.
+**Đáp số.** $8$.
 
 [ĐỀ – EN]
-Let $A(2, 1, 1)$ and $B(4, -1, 1)$. Find the points $M$ on the axis $Ox$ such that triangle $MAB$ has a right angle at $M$.
+How many sets $X$ satisfy $\{1, 2\}\subset X\subset\{1, 2, 3, 4, 5\}$?
 
 [LỜI GIẢI CŨ – EN]
-$\overrightarrow{MA}=(2-t, 1, 1)$, $\overrightarrow{MB}=(4-t, -1, 1)$.
-$$(2-t)(4-t)-1+1=0\iff(2-t)(4-t)=0\iff t=2\ \text{or}\ t=4.$$
-**Check.** For $M(2, 0, 0)$: $(0, 1, 1)\cdot(2, -1, 1)=0$. For $M(4, 0, 0)$: $(-2, 1, 1)\cdot(0, -1, 1)=0$.
+$X$ always contains $1$ and $2$; each of $3$, $4$, $5$ may be in or out. That gives $2\cdot2\cdot2=8$ choices, from $X=\{1, 2\}$ to $X=\{1, 2, 3, 4, 5\}$.
 
-**Answer.** $M(2, 0, 0)$ or $M(4, 0, 0)$.
+**Answer.** $8$.
 
 
 ######################################################################
-@@@ g12/vectors-in-space
-Bài học: Vectơ và các phép toán trong không gian / Vectors and their operations in space
-Cần viết lại lời giải các bài: 6, 8 (giữ ĐÚNG số thứ tự này)
+@@@ g10/sign-of-quadratic
+Bài học: Dấu của tam thức bậc hai / The sign of a quadratic expression
+Cần viết lại lời giải các bài: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 (giữ ĐÚNG số thứ tự này)
 ######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Giải $x^2-4x+3>0$.
+
+[LỜI GIẢI CŨ – VI]
+$x^2-4x+3=(x-1)(x-3)$ có hai nghiệm $1$ và $3$. Vì $a=1>0$ nên tam thức dương khi $x$ nằm ngoài hai nghiệm; dấu "$>$" chặt nên không lấy nghiệm.
+
+**Đáp số.** $S=(-\infty; 1)\cup(3; +\infty)$.
+
+[ĐỀ – EN]
+Solve $x^2-4x+3>0$.
+
+[LỜI GIẢI CŨ – EN]
+$x^2-4x+3=(x-1)(x-3)$ has roots $1$ and $3$. Since $a=1>0$, the quadratic is positive outside the roots; "$>$" is strict, so the roots are not included.
+
+**Answer.** $S=(-\infty, 1)\cup(3, +\infty)$.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Giải $x^2-9\le 0$.
+
+[LỜI GIẢI CŨ – VI]
+$x^2-9=(x-3)(x+3)$ có hai nghiệm $\pm3$. Vì $a=1>0$ nên tam thức $\le 0$ ở giữa hai nghiệm, lấy cả hai nghiệm vì có dấu bằng.
+
+**Đáp số.** $S=[-3; 3]$.
+
+[ĐỀ – EN]
+Solve $x^2-9\le 0$.
+
+[LỜI GIẢI CŨ – EN]
+$x^2-9=(x-3)(x+3)$ has roots $\pm3$. Since $a=1>0$, the quadratic is $\le 0$ between the roots, and both roots count because of the equals sign.
+
+**Answer.** $S=[-3, 3]$.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Giải $-x^2+2x+8>0$.
+
+[LỜI GIẢI CŨ – VI]
+$-x^2+2x+8=-(x-4)(x+2)$, hai nghiệm $-2$ và $4$. Vì $a=-1<0$ nên tam thức dương ở giữa hai nghiệm.
+
+**Đáp số.** $S=(-2; 4)$.
+
+[ĐỀ – EN]
+Solve $-x^2+2x+8>0$.
+
+[LỜI GIẢI CŨ – EN]
+$-x^2+2x+8=-(x-4)(x+2)$, with roots $-2$ and $4$. Since $a=-1<0$, the quadratic is positive between the roots.
+
+**Answer.** $S=(-2, 4)$.
+
+=== Bài 4 ===
+[ĐỀ – VI]
+Giải $2x^2-x-3\ge 0$.
+
+[LỜI GIẢI CŨ – VI]
+$\Delta=1+24=25$, nghiệm $x=\dfrac{1\pm5}{4}$, tức $x=-1$ và $x=\dfrac32$. Vì $a=2>0$ nên tam thức không âm ở ngoài hai nghiệm, kể cả hai nghiệm.
+
+**Đáp số.** $S=(-\infty; -1]\cup\left[\dfrac32; +\infty\right)$.
+
+[ĐỀ – EN]
+Solve $2x^2-x-3\ge 0$.
+
+[LỜI GIẢI CŨ – EN]
+$\Delta=1+24=25$, roots $x=\dfrac{1\pm5}{4}$, that is $x=-1$ and $x=\dfrac32$. Since $a=2>0$, the quadratic is non-negative outside the roots, roots included.
+
+**Answer.** $S=(-\infty, -1]\cup\left[\dfrac32, +\infty\right)$.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Giải $x^2+4x+5>0$.
+
+[LỜI GIẢI CŨ – VI]
+$\Delta=16-20=-4<0$ và $a=1>0$, nên tam thức luôn dương với mọi $x$.
+
+**Đáp số.** $S=\mathbb{R}$.
+
+[ĐỀ – EN]
+Solve $x^2+4x+5>0$.
+
+[LỜI GIẢI CŨ – EN]
+$\Delta=16-20=-4<0$ and $a=1>0$, so the quadratic is positive for every $x$.
+
+**Answer.** $S=\mathbb{R}$.
 
 === Bài 6 ===
 [ĐỀ – VI]
-Cho hình lập phương $ABCD.A'B'C'D'$ cạnh $1$. Xét tính đúng sai của các mệnh đề sau:
-
-a) $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}$.
-
-b) $AC'=\sqrt3$.
-
-c) $\overrightarrow{AB}\cdot\overrightarrow{CD'}=1$.
-
-d) Góc giữa hai vectơ $\overrightarrow{AC}$ và $\overrightarrow{B'D'}$ bằng $90^\circ$.
+Giải $x^2-4x+4\le 0$.
 
 [LỜI GIẢI CŨ – VI]
-a) **Đúng.** Đây là quy tắc hình hộp.
+$x^2-4x+4=(x-2)^2\ge 0$ với mọi $x$, nên nó $\le 0$ chỉ khi bằng $0$, tức $x=2$.
 
-b) **Đúng.** Ta có $AC'^2=1+1+1=3$.
-
-c) **Sai.** Vì $\overrightarrow{CD'}=-\overrightarrow{AB}+\overrightarrow{AA'}$ nên $\overrightarrow{AB}\cdot\overrightarrow{CD'}=\overrightarrow{AB}\cdot\left(-\overrightarrow{AB}+\overrightarrow{AA'}\right)=-1+0=-1$.
-
-d) **Đúng.** Ta có $\overrightarrow{B'D'}=\overrightarrow{BD}$ và $AC\perp BD$ (hai đường chéo của hình vuông $ABCD$).
-
-**Đáp số.** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+**Đáp số.** $S=\{2\}$.
 
 [ĐỀ – EN]
-Let $ABCD.A'B'C'D'$ be a cube with edge $1$. Decide whether each statement is true or false.
-
-a) $\overrightarrow{AB}+\overrightarrow{AD}+\overrightarrow{AA'}=\overrightarrow{AC'}$.
-
-b) $AC'=\sqrt3$.
-
-c) $\overrightarrow{AB}\cdot\overrightarrow{CD'}=1$.
-
-d) The angle between the vectors $\overrightarrow{AC}$ and $\overrightarrow{B'D'}$ is $90^\circ$.
+Solve $x^2-4x+4\le 0$.
 
 [LỜI GIẢI CŨ – EN]
-a) **True.** This is the parallelepiped rule.
+$x^2-4x+4=(x-2)^2\ge 0$ for every $x$, so it is $\le 0$ only when it equals $0$, that is $x=2$.
 
-b) **True.** We have $AC'^2=1+1+1=3$.
+**Answer.** $S=\{2\}$.
 
-c) **False.** Since $\overrightarrow{CD'}=-\overrightarrow{AB}+\overrightarrow{AA'}$, we have $\overrightarrow{AB}\cdot\overrightarrow{CD'}=\overrightarrow{AB}\cdot\left(-\overrightarrow{AB}+\overrightarrow{AA'}\right)=-1+0=-1$.
+=== Bài 7 ===
+[ĐỀ – VI]
+Một mảnh vườn hình chữ nhật có chu vi $20$ m, chiều rộng là $x$ m (chiều rộng không lớn hơn chiều dài). Với những giá trị nào của $x$ thì diện tích vườn ít nhất $21$ m²?
 
-d) **True.** We have $\overrightarrow{B'D'}=\overrightarrow{BD}$ and $AC\perp BD$ (the diagonals of the square $ABCD$).
+[LỜI GIẢI CŨ – VI]
+Nửa chu vi là $10$ m nên chiều dài là $10-x$ và diện tích là $x(10-x)$. Ta cần
+$$\begin{aligned} x(10-x)\ge 21 &\iff x^2-10x+21\le 0\\ &\iff (x-3)(x-7)\le 0\\ &\iff 3\le x\le 7. \end{aligned}$$
+Chiều rộng không lớn hơn chiều dài: $x\le 10-x$, tức $x\le 5$.
 
-**Answer.** a) True; b) True; c) False; d) True.
+**Đáp số.** $3\le x\le 5$ (mét). Kiểm tra: $x=3$ cho diện tích $3\cdot7=21$ m², vừa đủ.
+
+[ĐỀ – EN]
+A rectangular garden has perimeter $20$ m and width $x$ m (the width is not larger than the length). For which $x$ is the area at least $21$ m²?
+
+[LỜI GIẢI CŨ – EN]
+Half the perimeter is $10$ m, so the length is $10-x$ and the area is $x(10-x)$. We need
+$$\begin{aligned} x(10-x)\ge 21 &\iff x^2-10x+21\le 0\\ &\iff (x-3)(x-7)\le 0\\ &\iff 3\le x\le 7. \end{aligned}$$
+The width is not larger than the length: $x\le 10-x$, that is $x\le 5$.
+
+**Answer.** $3\le x\le 5$ (metres). Check: $x=3$ gives an area of $3\cdot7=21$ m², just enough.
 
 === Bài 8 ===
 [ĐỀ – VI]
-(Ôn lại [Tích của vectơ với một số](lesson:scalar-multiplication).) Cho tứ diện $ABCD$ và $G$ là trọng tâm tam giác $BCD$. Chứng minh rằng $\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}=3\overrightarrow{AG}$.
+Giải $\dfrac{x+1}{x-3}<0$.
 
 [LỜI GIẢI CŨ – VI]
-Theo quy tắc ba điểm, $\overrightarrow{AB}=\overrightarrow{AG}+\overrightarrow{GB}$, $\overrightarrow{AC}=\overrightarrow{AG}+\overrightarrow{GC}$, $\overrightarrow{AD}=\overrightarrow{AG}+\overrightarrow{GD}$. Vì $G$ là trọng tâm tam giác $BCD$ nên $\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}=\vec{0}$. Cộng ba đẳng thức, ta được
-$$\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}=3\overrightarrow{AG}+\left(\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}\right)=3\overrightarrow{AG}+\vec{0}=3\overrightarrow{AG}.$$
+Tử bằng $0$ tại $x=-1$, mẫu bằng $0$ tại $x=3$ (loại). Trên khoảng $(-1; 3)$ tử dương, mẫu âm nên thương âm; ngoài khoảng đó tử và mẫu cùng dấu nên thương dương.
 
-**Đáp số.** Đẳng thức được chứng minh.
+**Đáp số.** $S=(-1; 3)$.
 
 [ĐỀ – EN]
-(Revisiting [Multiplying a vector by a number](lesson:scalar-multiplication).) Let $ABCD$ be a tetrahedron and $G$ the centroid of triangle $BCD$. Prove that $\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}=3\overrightarrow{AG}$.
+Solve $\dfrac{x+1}{x-3}<0$.
 
 [LỜI GIẢI CŨ – EN]
-By the triangle rule, $\overrightarrow{AB}=\overrightarrow{AG}+\overrightarrow{GB}$, $\overrightarrow{AC}=\overrightarrow{AG}+\overrightarrow{GC}$, $\overrightarrow{AD}=\overrightarrow{AG}+\overrightarrow{GD}$. Since $G$ is the centroid of triangle $BCD$, $\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}=\vec{0}$. Adding the three equations, we get
-$$\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}=3\overrightarrow{AG}+\left(\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}\right)=3\overrightarrow{AG}+\vec{0}=3\overrightarrow{AG}.$$
+The numerator is $0$ at $x=-1$, the denominator at $x=3$ (excluded). On $(-1, 3)$ the numerator is positive and the denominator negative, so the quotient is negative; outside that interval they have the same sign, so the quotient is positive.
 
-**Answer.** The identity is proved.
+**Answer.** $S=(-1, 3)$.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+Giải $x^4-5x^2+4<0$.
+
+[LỜI GIẢI CŨ – VI]
+Với $t=x^2$: $t^2-5t+4=(t-1)(t-4)<0 \iff 1<t<4$. Vậy $1<x^2<4$, tức $1<|x|<2$.
+
+**Đáp số.** $S=(-2; -1)\cup(1; 2)$.
+
+[ĐỀ – EN]
+Solve $x^4-5x^2+4<0$.
+
+[LỜI GIẢI CŨ – EN]
+With $t=x^2$: $t^2-5t+4=(t-1)(t-4)<0 \iff 1<t<4$. So $1<x^2<4$, that is $1<|x|<2$.
+
+**Answer.** $S=(-2, -1)\cup(1, 2)$.
+
+=== Bài 10 ===
+[ĐỀ – VI]
+Tìm tập xác định của hàm số $y=\sqrt{x^2-3x-4}$.
+
+[LỜI GIẢI CŨ – VI]
+Cần $x^2-3x-4=(x-4)(x+1)\ge 0$. Vì $a=1>0$ nên điều này đúng khi $x$ ở ngoài hai nghiệm $-1$ và $4$, kể cả hai nghiệm.
+
+**Đáp số.** $D=(-\infty; -1]\cup[4; +\infty)$.
+
+[ĐỀ – EN]
+Find the domain of $y=\sqrt{x^2-3x-4}$.
+
+[LỜI GIẢI CŨ – EN]
+We need $x^2-3x-4=(x-4)(x+1)\ge 0$. Since $a=1>0$, this holds outside the roots $-1$ and $4$, roots included.
+
+**Answer.** $D=(-\infty, -1]\cup[4, +\infty)$.
+
+
+######################################################################
+@@@ g10/statements
+Bài học: Mệnh đề / Statements (propositions)
+Cần viết lại lời giải các bài: 1, 2, 3, 5, 7, 8, 9 (giữ ĐÚNG số thứ tự này)
+######################################################################
+
+=== Bài 1 ===
+[ĐỀ – VI]
+Câu nào dưới đây là mệnh đề? Nếu là mệnh đề thì đúng hay sai?
+
+(a) $221$ là số nguyên tố. (b) $x-3>0$. (c) Bài này hay quá! (d) $\sqrt{49}=7$.
+
+[LỜI GIẢI CŨ – VI]
+(a) Là mệnh đề sai, vì $221=13\cdot17$. (b) Chứa biến $x$ nên chưa phải mệnh đề (đúng khi $x=5$, sai khi $x=0$). (c) Câu cảm thán, không phải mệnh đề. (d) Là mệnh đề đúng, vì $7^2=49$ và $7>0$.
+
+**Đáp số.** (a) mệnh đề sai; (b) mệnh đề chứa biến; (c) không phải mệnh đề; (d) mệnh đề đúng.
+
+[ĐỀ – EN]
+Which of these are statements? For each statement, is it true or false?
+
+(a) $221$ is a prime number. (b) $x-3>0$. (c) What a nice problem! (d) $\sqrt{49}=7$.
+
+[LỜI GIẢI CŨ – EN]
+(a) A false statement, because $221=13\cdot17$. (b) It contains the variable $x$, so it is not yet a statement (true for $x=5$, false for $x=0$). (c) An exclamation, not a statement. (d) A true statement, because $7^2=49$ and $7>0$.
+
+**Answer.** (a) false statement; (b) statement with a variable; (c) not a statement; (d) true statement.
+
+=== Bài 2 ===
+[ĐỀ – VI]
+Lập mệnh đề phủ định của mỗi mệnh đề sau và cho biết mệnh đề nào trong hai mệnh đề là đúng.
+
+(a) "$2023$ chia hết cho $7$." (b) "$\pi<3{,}14$." (c) "$-3>-5$."
+
+[LỜI GIẢI CŨ – VI]
+(a) "$2023$ không chia hết cho $7$". Vì $2023=7\cdot289$ nên mệnh đề gốc đúng, phủ định sai.
+
+(b) "$\pi\ge 3{,}14$". Vì $\pi\approx3{,}1416$ nên mệnh đề gốc sai, phủ định đúng.
+
+(c) "$-3\le -5$". Mệnh đề gốc đúng, phủ định sai.
+
+**Đáp số.** Đúng là: (a) mệnh đề gốc; (b) mệnh đề phủ định; (c) mệnh đề gốc.
+
+[ĐỀ – EN]
+Write the negation of each statement and say which of the two is true.
+
+(a) "$2023$ is divisible by $7$." (b) "$\pi<3.14$." (c) "$-3>-5$."
+
+[LỜI GIẢI CŨ – EN]
+(a) "$2023$ is not divisible by $7$". Since $2023=7\cdot289$, the original is true and the negation is false.
+
+(b) "$\pi\ge 3.14$". Since $\pi\approx3.1416$, the original is false and the negation is true.
+
+(c) "$-3\le -5$". The original is true and the negation is false.
+
+**Answer.** The true one is: (a) the original; (b) the negation; (c) the original.
+
+=== Bài 3 ===
+[ĐỀ – VI]
+Cho mệnh đề "Nếu tứ giác $ABCD$ là hình thoi thì hai đường chéo của nó vuông góc với nhau." Mệnh đề này có đúng không? Phát biểu mệnh đề đảo và xét tính đúng sai của nó.
+
+[LỜI GIẢI CŨ – VI]
+Mệnh đề đã cho đúng: hai đường chéo của hình thoi vuông góc với nhau. Mệnh đề đảo: "Nếu tứ giác $ABCD$ có hai đường chéo vuông góc thì nó là hình thoi." Mệnh đề đảo sai: tứ giác có hai đường chéo vuông góc, cắt nhau tại trung điểm của chỉ một đường chéo (hình "cánh diều", chẳng hạn $AB=AD=2$, $CB=CD=5$) không phải hình thoi.
+
+**Đáp số.** Mệnh đề đúng; mệnh đề đảo sai.
+
+[ĐỀ – EN]
+Consider "If quadrilateral $ABCD$ is a rhombus, then its diagonals are perpendicular." Is it true? State the converse and decide whether it is true.
+
+[LỜI GIẢI CŨ – EN]
+The statement is true: the diagonals of a rhombus are perpendicular. Converse: "If quadrilateral $ABCD$ has perpendicular diagonals, then it is a rhombus." The converse is false: a kite such as $AB=AD=2$, $CB=CD=5$ has perpendicular diagonals, but only one diagonal bisects the other, so it is not a rhombus.
+
+**Answer.** The statement is true; the converse is false.
+
+=== Bài 5 ===
+[ĐỀ – VI]
+Lập mệnh đề phủ định của $A$: "$\forall x\in\mathbb{R},\ x^2+x+1>0$" và cho biết $A$ hay $\overline{A}$ đúng.
+
+[LỜI GIẢI CŨ – VI]
+$\overline{A}$: "$\exists x\in\mathbb{R},\ x^2+x+1\le 0$". Ta có
+$$x^2+x+1=\left(x+\dfrac12\right)^2+\dfrac34\ge\dfrac34>0$$
+với mọi $x$, nên $A$ đúng.
+
+**Đáp số.** $A$ đúng, $\overline{A}$ sai.
+
+[ĐỀ – EN]
+Write the negation of $A$: "$\forall x\in\mathbb{R},\ x^2+x+1>0$" and decide whether $A$ or $\overline{A}$ is true.
+
+[LỜI GIẢI CŨ – EN]
+$\overline{A}$: "$\exists x\in\mathbb{R},\ x^2+x+1\le 0$". We have
+$$x^2+x+1=\left(x+\dfrac12\right)^2+\dfrac34\ge\dfrac34>0$$
+for every $x$, so $A$ is true.
+
+**Answer.** $A$ is true, $\overline{A}$ is false.
+
+=== Bài 7 ===
+[ĐỀ – VI]
+Trong các số tự nhiên $n$ từ $1$ đến $20$, có bao nhiêu số làm cho mệnh đề $P(n)$: "$n^2-1$ chia hết cho $8$" là mệnh đề đúng?
+
+[LỜI GIẢI CŨ – VI]
+Nếu $n$ chẵn thì $n^2-1$ lẻ, không chia hết cho $8$. Nếu $n$ lẻ thì $n-1$, $n+1$ là hai số chẵn liên tiếp, một trong hai chia hết cho $4$, nên $(n-1)(n+1)$ chia hết cho $2\cdot4=8$. Từ $1$ đến $20$ có $10$ số lẻ.
+
+**Đáp số.** $10$.
+
+[ĐỀ – EN]
+Among the natural numbers $n$ from $1$ to $20$, how many make the statement $P(n)$: "$n^2-1$ is divisible by $8$" true?
+
+[LỜI GIẢI CŨ – EN]
+If $n$ is even, $n^2-1$ is odd, so not divisible by $8$. If $n$ is odd, $n-1$ and $n+1$ are consecutive even numbers, one of them divisible by $4$, so $(n-1)(n+1)$ is divisible by $2\cdot4=8$. There are $10$ odd numbers from $1$ to $20$.
+
+**Answer.** $10$.
+
+=== Bài 8 ===
+[ĐỀ – VI]
+Nội quy của một trường ghi: "Nếu học sinh đến muộn quá $15$ phút thì phải lên phòng giám thị." Bốn bạn trong một buổi sáng:
+
+| Bạn | Đến muộn | Lên phòng giám thị |
+|---|---|---|
+| An | $0$ phút | không |
+| Bình | $10$ phút | có |
+| Chi | $20$ phút | có |
+| Dũng | $25$ phút | không |
+
+Bạn nào vi phạm nội quy?
+
+[LỜI GIẢI CŨ – VI]
+An: $P$ sai, $Q$ sai. Bình: $P$ sai, $Q$ đúng (tự giác lên phòng, nội quy không cấm). Chi: $P$ đúng, $Q$ đúng. Dũng: $P$ đúng, $Q$ sai, đây là trường hợp duy nhất làm $P\Rightarrow Q$ sai.
+
+**Đáp số.** Chỉ bạn Dũng vi phạm nội quy.
+
+[ĐỀ – EN]
+A school rule says: "If a student is more than $15$ minutes late, they must go to the supervisor's office." Four students one morning:
+
+| Student | Minutes late | Went to the office |
+|---|---|---|
+| An | $0$ | no |
+| Binh | $10$ | yes |
+| Chi | $20$ | yes |
+| Dung | $25$ | no |
+
+Who broke the rule?
+
+[LỜI GIẢI CŨ – EN]
+An: $P$ false, $Q$ false. Binh: $P$ false, $Q$ true (he went anyway, which the rule does not forbid). Chi: $P$ true, $Q$ true. Dung: $P$ true, $Q$ false, the only case that makes $P\Rightarrow Q$ false.
+
+**Answer.** Only Dung broke the rule.
+
+=== Bài 9 ===
+[ĐỀ – VI]
+(Ôn tập lớp 9) Xét tính đúng sai và lập mệnh đề phủ định của mỗi mệnh đề.
+
+(a) $P$: "Phương trình $x^2-6x+10=0$ có nghiệm thực."
+(b) $Q$: "$\exists x\in\mathbb{R},\ x^2-7x+10<0$".
+
+[LỜI GIẢI CŨ – VI]
+(a) $\Delta'=(-3)^2-10=-1<0$ nên phương trình vô nghiệm: $P$ sai. $\overline{P}$: "Phương trình $x^2-6x+10=0$ không có nghiệm thực" là mệnh đề đúng.
+
+(b) Với $x=3$: $9-21+10=-2<0$, nên $Q$ đúng. $\overline{Q}$: "$\forall x\in\mathbb{R},\ x^2-7x+10\ge 0$" là mệnh đề sai.
+
+**Đáp số.** (a) $P$ sai, $\overline{P}$ đúng; (b) $Q$ đúng, $\overline{Q}$ sai.
+
+[ĐỀ – EN]
+(Review from grade 9) Decide whether each statement is true and write its negation.
+
+(a) $P$: "The equation $x^2-6x+10=0$ has a real root."
+(b) $Q$: "$\exists x\in\mathbb{R},\ x^2-7x+10<0$".
+
+[LỜI GIẢI CŨ – EN]
+(a) $\Delta'=(-3)^2-10=-1<0$, so the equation has no real root: $P$ is false. $\overline{P}$: "The equation $x^2-6x+10=0$ has no real root" is true.
+
+(b) For $x=3$: $9-21+10=-2<0$, so $Q$ is true. $\overline{Q}$: "$\forall x\in\mathbb{R},\ x^2-7x+10\ge 0$" is false.
+
+**Answer.** (a) $P$ false, $\overline{P}$ true; (b) $Q$ true, $\overline{Q}$ false.
 
 
 ===== HẾT FILE Lemonmath112-10-LG =====
